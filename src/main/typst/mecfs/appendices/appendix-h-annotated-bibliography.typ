@@ -18336,3 +18336,216 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Relevance to ME/CFS*: Part of the literature reviewed by Maksoud 2021. Demonstrates that subtle sleep alterations exist but are inconsistent. Supports need for alternative biomarker approaches (e.g., metabolomics) given PSG limitations.
     *Certainty*: 0.55/1.0 (Medium - multiple studies by same group, but inconsistent findings and methodology limitations)
 
+// =============================================================================
+
+== Inflammation Sources Registry
+<sec:bib-inflammation-registry>
+
+// =============================================================================
+
+=== S100 Proteins / Calprotectin (DAMPs)
+
+==== Nunes et al.\ 2024 — S100-A9 Upregulation in ME/CFS Plasma Proteomics
+
+    *Full Citation:*: Nunes M, Vlok M, Proal A, Kell DB, Pretorius E. Data-independent LC-MS/MS analysis of ME/CFS plasma reveals a dysregulated coagulation system, endothelial dysfunction, downregulation of complement machinery. _Cardiovascular Diabetology_. 2024;23:260.
+    *DOI:*: #link("https://doi.org/10.1186/s12933-024-02315-x")[10.1186/s12933-024-02315-x]
+    *PMID:*: 39014464
+    *Key Findings:*:
+        - Significant upregulation of S100-A9 (calprotectin subunit) in ME/CFS plasma
+        - Dysregulated coagulation system with hyperactivated platelets
+        - Endothelial dysfunction markers
+        - Downregulation of complement machinery components at rest
+        - First data-independent acquisition (DIA) proteomics study in ME/CFS
+    *Conclusion:*: ME/CFS involves a pro-inflammatory and pro-thrombotic plasma proteome signature. S100-A9 may serve as biomarker and therapeutic target.
+    *Limitations:*: Cross-sectional; moderate sample; single cohort; plasma only; no sex-stratified analysis.
+    *Certainty:*: 0.75/1.0
+
+=== cGAS-STING Pathway (mtDNA Sensing)
+
+==== Chelette et al.\ 2025 — cGAS-STING Contributes to Cancer-Related Fatigue
+
+    *Full Citation:*: Chelette B, Bashaw A, Bryant JD, Scott K, Chidomere C, West AP, Dantzer R. Activation of the cGAS-STING pathway contributes to cancer-related fatigue in a murine model of head and neck cancer. _bioRxiv_. 2025 Oct 4.
+    *DOI:*: #link("https://doi.org/10.1101/2025.10.02.680158")[10.1101/2025.10.02.680158]
+    *PMID:*: 41256649
+    *Key Findings:*:
+        - cGAS-STING pathway activation drives systemic inflammation and fatigue
+        - Mechanistic link between mtDNA release, innate immune sensing, and fatigue behavior
+        - Inflammation extended beyond tumor microenvironment
+    *Conclusion:*: cGAS-STING-mediated inflammation is a direct mechanistic contributor to fatigue, establishing a novel fatigue pathogenesis pathway.
+    *Limitations:*: Preclinical murine model; cancer-specific; preprint (not peer-reviewed); no direct ME/CFS data.
+    *Certainty:*: 0.40/1.0 — First cGAS-STING→fatigue link; high mechanistic plausibility for ME/CFS but evidence gap remains.
+
+==== Yan et al.\ 2026 — cGAS-STING in Disease Pathogenesis
+
+    *Full Citation:*: Yan D, Hu J, Liu Z, Ouyang W. Spotlight on cGAS-STING: role in disease pathogenesis and therapeutic potential. _Molecular Biomedicine_. 2026;7(1):83.
+    *DOI:*: #link("https://doi.org/10.1186/s43556-026-00283-2")[10.1186/s43556-026-00283-2]
+    *Key Findings:*:
+        - cGAS-STING is central sensor of cytosolic DNA driving type I interferon and NF-κB
+        - Key node in sterile inflammation; emerging therapeutic target
+    *Conclusion:*: cGAS-STING regulates autoimmune and inflammatory disease pathogenesis.
+    *Limitations:*: Review; no ME/CFS data. Pathway role well-established generally but not in ME/CFS.
+    *Certainty:*: 0.85/1.0 (general); 0.20/1.0 (ME/CFS-specific)
+
+=== Specialized Pro-Resolving Mediators (SPMs)
+
+==== Engert et al.\ 2026 — Sleep Disturbance Affects Inflammatory Resolution in Long COVID
+
+    *Full Citation:*: Engert LC, Dang R, Daniel S, Bertisch SM, Maley JH, Fong TG, Serhan CN, Mullington JM, Haack M. Sleep disturbance affects inflammatory resolution in Long COVID. _Prostaglandins Leukotrienes and Essential Fatty Acids_. 2026;204:102728.
+    *DOI:*: #link("https://doi.org/10.1016/j.plefa.2026.102728")[10.1016/j.plefa.2026.102728]
+    *PMID:*: 41650882
+    *Key Findings:*:
+        - Sleep disturbance promotes pro-inflammatory state in Long COVID
+        - Sleep disruption dysregulates SPMs (resolvins, protectins, maresins)
+        - Failed resolution of inflammation as Long COVID mechanism
+    *Conclusion:*: Sleep → SPM dysregulation → unresolved inflammation → Long COVID. SPM restoration may be therapeutic.
+    *Limitations:*: Review/hypothesis; limited direct SPM level data in Long COVID.
+    *Certainty:*: 0.60/1.0 — Serhan (SPM discoverer) co-author strengthens credibility.
+
+==== Rauf et al.\ 2026 — PASC as Disorder of Impaired Innate Immune Resolution
+
+    *Full Citation:*: Rauf M, Naveed A, Asghar MU. Post-acute sequelae of COVID-19: A disorder of impaired innate immune resolution — A narrative review. _Clinical Immunology_. 2026;277:110701.
+    *DOI:*: #link("https://doi.org/10.1016/j.clim.2026.110701")[10.1016/j.clim.2026.110701]
+    *PMID:*: 41864480
+    *Key Findings:*:
+        - PASC characterized by failed innate immune resolution, not persistent virus
+        - Chronic activation of TLR, RIG-I, NLR, cGAS-STING, and complement
+        - Alarmins and reactivated latent viruses sustain chronic inflammation
+    *Conclusion:*: Resolution failure model explains PASC; therapeutic focus should restore resolution.
+    *Limitations:*: Narrative review; no primary data; PASC-specific.
+    *Certainty:*: 0.65/1.0
+
+==== Serhan et al.\ 2022 — E-Series Resolvin Metabolome and SPMs for Long COVID
+
+    *Full Citation:*: Serhan CN, Libreros S, Nshimiyimana R. E-series resolvin metabolome, biosynthesis and critical role of stereochemistry of specialized pro-resolving mediators (SPMs) in inflammation-resolution. _Seminars in Immunology_. 2022;59:101597.
+    *DOI:*: #link("https://doi.org/10.1016/j.smim.2022.101597")[10.1016/j.smim.2022.101597]
+    *Key Findings:*:
+        - Detailed biosynthetic pathways of E/D-series resolvins, protectins, maresins
+        - Stereochemistry critical for SPM bioactivity
+        - Framework for applying SPM biology to Long COVID
+    *Conclusion:*: SPMs are ready for human clinical trials; stereochemistry determines therapeutic activity.
+    *Limitations:*: Review; no clinical data; biochemistry-focused.
+    *Certainty:*: 0.85/1.0 — Foundational review from SPM-discovering laboratory.
+
+==== Gracia Aznar et al.\ 2024 — SPM Supplementation in Post-COVID Syndrome
+
+    *Full Citation:*: Gracia Aznar A, Moreno Egea F, Gracia Banzo R, Gutierrez R, Rizo JM, Rodriguez-Ledo P. Pro-Resolving Inflammatory Effects of a Marine Oil Enriched in Specialized Pro-Resolving Mediators (SPMs) Supplement in Patients with Post-COVID Syndrome. _Biomedicines_. 2024;12(10):2221.
+    *DOI:*: #link("https://doi.org/10.3390/biomedicines12102221")[10.3390/biomedicines12102221]
+    *Key Findings:*:
+        - 12-week SPM-enriched marine oil supplementation in Post-COVID Syndrome
+        - Improvements in inflammatory resolution markers and symptoms
+    *Conclusion:*: SPM supplementation shows promise for restoring inflammation resolution in post-viral syndrome.
+    *Limitations:*: Open-label; no placebo control; moderate sample; PCS-specific.
+    *Certainty:*: 0.50/1.0
+
+=== HMGB1 (Prototypical DAMP)
+
+==== Ibrahim et al.\ 2026 — HMGB1-Mediated Neuroinflammation
+
+    *Full Citation:*: Ibrahim KN, Wasim R, Rahman E. HMGB1-mediated neuroinflammation: molecular mechanisms and emerging therapeutic approaches. _Inflammopharmacology_. 2026;34:3085-3108.
+    *DOI:*: #link("https://doi.org/10.1007/s10787-026-02211-8")[10.1007/s10787-026-02211-8]
+    *Key Findings:*:
+        - HMGB1 is central DAMP linking cellular stress to sustained neuroinflammation
+        - Signals via TLR4, TLR9, and RAGE
+        - Redox state determines bioactivity (disulfide = pro-inflammatory; reduced = chemotactic)
+        - Therapeutic approaches: anti-HMGB1 antibodies, Box A antagonist, TLR4 inhibitors
+    *Conclusion:*: HMGB1 is key therapeutic target for neuroinflammatory conditions.
+    *Limitations:*: Review; no ME/CFS-specific data.
+    *Certainty:*: 0.80/1.0
+
+==== Chen et al.\ 2026 — HMGB1-pCTS-L Axis in Inflammatory Diseases
+
+    *Full Citation:*: Chen W, Li J, Qiang X, Lou L, Zhu CS, Deng M. Pharmacological intervention of the HMGB1-pCTS-L axis to ameliorate inflammatory diseases. _Frontiers in Immunology_. 2026;17:1843251.
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2026.1843251")[10.3389/fimmu.2026.1843251]
+    *Key Findings:*:
+        - HMGB1 forms complex with cathepsin L (pCTS-L) amplifying inflammation
+        - Therapeutic targeting of HMGB1-pCTS-L axis ameliorates disease in RA models
+    *Conclusion:*: HMGB1-pCTS-L represents a new chronic inflammatory disease target.
+    *Limitations:*: Preclinical; RA-focused; no ME/CFS data.
+    *Certainty:*: 0.65/1.0
+
+=== Ferroptosis / Iron Dysregulation
+
+==== Mantle et al.\ 2025 — Overlap of ME/CFS, FM, GWI, Long COVID via Ferroptosis
+
+    *Full Citation:*: Mantle D, Domingo JC, Golomb BA, Castro-Marrero J. Gulf War Illness, Fibromyalgia, Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Long COVID Overlap: Implications for Future Therapeutic Strategies. _Int J Mol Sci_. 2025;26(19):9044.
+    *DOI:*: #link("https://doi.org/10.3390/ijms26199044")[10.3390/ijms26199044]
+    *Key Findings:*:
+        - ME/CFS, FM, GWI, and Long COVID share overlapping pathophysiology
+        - Central role of mitochondrial dysfunction, oxidative stress, and ferroptosis
+        - CoQ10 deficiencies and altered redox status identified
+        - Ferroptosis (iron-dependent lipid peroxidation) implicated
+    *Conclusion:*: These are "low-energy associated disorders" with shared oxidative stress/ferroptosis mechanisms.
+    *Limitations:*: Review; no primary data; overlaps associative not causal.
+    *Certainty:*: 0.70/1.0
+
+=== P2X7 Receptor / ATP Signaling
+
+==== Li et al.\ 2021 — P2RX7 Regulates Acute Sickness Response
+
+    *Full Citation:*: Li H, Cvejic E, Gu B, Vollmer-Conna U, Hickie I, Wakefield D, Davenport T, Wiley J, Lloyd AR. Regulation of the Acute Sickness Response by the P2RX7 Receptor. _J Infect Dis_. 2021;224(5):874-884.
+    *DOI:*: #link("https://doi.org/10.1093/infdis/jiab027")[10.1093/infdis/jiab027]
+    *Key Findings:*:
+        - P2RX7 is ATP-gated cationic pore regulating NLRP3 inflammasome
+        - Genetic variation in P2RX7 associated with altered sickness response intensity
+        - Bridges peripheral inflammation to central symptoms (fatigue, mood)
+        - Prospective infection cohort (DIOS study)
+    *Conclusion:*: P2RX7 is key regulator of the acute-to-chronic sickness response transition.
+    *Limitations:*: Acute infection model; genetic association; moderate effect sizes.
+    *Certainty:*: 0.70/1.0
+
+=== Complement System (Exercise-Induced Activation)
+
+==== Polli et al.\ 2019 — Complement and Elastase Activation After Exercise in ME/CFS
+
+    *Full Citation:*: Polli A, Van Oosterwijck J, Meeus M, Lambrecht L, Nijs J. Exercise-induced hyperalgesia, complement system and elastase activation in ME/CFS. _Scand J Pain_. 2019;19(4):693-704.
+    *DOI:*: #link("https://doi.org/10.1515/sjpain-2019-0058")[10.1515/sjpain-2019-0058]
+    *Key Findings:*:
+        - Complement activation occurs after exercise in ME/CFS
+        - Neutrophil elastase activation accompanies complement activation
+        - Complement correlates with exercise-induced hyperalgesia
+        - Links immune activation to post-exertional pain worsening
+    *Conclusion:*: Complement and neutrophil activation contribute to post-exertional symptom worsening in ME/CFS.
+    *Limitations:*: Secondary analysis; small sample; exercise challenge model.
+    *Certainty:*: 0.60/1.0
+
+=== ER Stress / Unfolded Protein Response (UPR)
+
+==== Kawano et al.\ 2023 — ER Proteostasis Regulators Control Sleep Cell-Non-Autonomously
+
+    *Full Citation:*: Kawano T, Kashiwagi M, Kanuka M, Chen CK, Yasugaki S, Hatori S, Miyazaki S, Tanaka K, Fujita H, Nakajima T, Yanagisawa M, Nakagawa Y, Hayashi Y. ER proteostasis regulators cell-non-autonomously control sleep. _Cell Reports_. 2023;42(3):112267.
+    *DOI:*: #link("https://doi.org/10.1016/j.celrep.2023.112267")[10.1016/j.celrep.2023.112267]
+    *Key Findings:*:
+        - ERAD components (SEL-1, SEL-11) regulate sleep from peripheral non-neuronal tissues
+        - ER stress/UPR machinery generates systemic sleep-regulating signals
+        - First direct mechanistic link between ER proteostasis and sleep
+    *Conclusion:*: Cellular stress in peripheral tissues controls sleep via UPR signaling.
+    *Limitations:*: C. elegans model; invertebrate; no ME/CFS or mammalian data.
+    *Certainty:*: 0.55/1.0 — Elegant genetics; conserved mechanism; substantial species gap.
+
+=== Neurogenic Inflammation (Substance P, CGRP, Mast Cells)
+
+==== Theoharides et al.\ 2019 — Mast Cells, Neuroinflammation and Pain in FM
+
+    *Full Citation:*: Theoharides TC, Tsilioni I, Bawazeer M. Mast Cells, Neuroinflammation and Pain in Fibromyalgia Syndrome. _Front Cell Neurosci_. 2019;13:353.
+    *DOI:*: #link("https://doi.org/10.3389/fncel.2019.00353")[10.3389/fncel.2019.00353]
+    *Key Findings:*:
+        - Increased serum substance P (SP) and hemokinin-1 in FMS patients
+        - SP activates mast cells via MRGPRX2 (non-IgE pathway)
+        - Mast cell-derived mediators sustain neurogenic inflammation
+        - Thalamic mast cell involvement in central sensitization
+    *Conclusion:*: Mast cell-neural interactions via SP drive neuroinflammation in FM.
+    *Limitations:*: FM-focused (not ME/CFS); review with some primary data.
+    *Certainty:*: 0.65/1.0
+
+==== Pintér et al.\ 2023 — Triple Function of Capsaicin-Sensitive Sensory Neurons
+
+    *Full Citation:*: Pintér E, Helyes Z, Szőke É, Bölcskei K, Kecskés A, Pethő G. The triple function of the capsaicin-sensitive sensory neurons. _Temperature_. 2023;10(1):13-34.
+    *DOI:*: #link("https://doi.org/10.1080/23328940.2022.2147388")[10.1080/23328940.2022.2147388]
+    *Key Findings:*:
+        - TRPV1+ sensory neurons have sensory, efferent (neurogenic inflammation), and homeostatic functions
+        - CGRP and substance P release causes vasodilation, plasma extravasation, mast cell activation
+        - Neurogenic inflammation contributes to numerous chronic conditions
+    *Conclusion:*: Capsaicin-sensitive nerves coordinate inflammatory and homeostatic responses; dysfunction underlies chronic inflammation.
+    *Limitations:*: Review; no ME/CFS-specific data.
+    *Certainty:*: 0.80/1.0
+

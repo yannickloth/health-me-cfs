@@ -352,10 +352,14 @@ Full discussion: @ch:genetics-epigenetics.
 
 - *Extracellular protein aggregation.* Fibrinaloid microclots (Family 6) represent documented extracellular protein aggregation. Whether intracellular protein aggregation occurs in ME/CFS neurons or immune cells — as in long COVID preliminary data — is unstudied.
 
-*Evidence status:* Emerging (ATG13/autophagy block is a key discovery; broader proteostasis characterisation incomplete).
+- *Endoplasmic reticulum stress and the unfolded protein response (UPR).* The UPR's three sensors — PERK, IRE1α, ATF6 — detect misfolded proteins in the ER and initiate adaptive or apoptotic programs. When chronically activated, each sensor drives inflammation: IRE1α-XBP1 induces IL-6 and TNF-α; PERK-eIF2α activates NF-κB via IκB degradation; ATF6 upregulates complement components @Kawano2023ERSleep. Kawano et al. (2023) demonstrated that ER proteostasis dysfunction in peripheral tissues generates systemic signals regulating sleep, linking ER stress directly to the sleep disruption that characterizes ME/CFS @Kawano2023ERSleep. Chronic UPR activation would provide a feed-forward mechanism linking any protein-folding disturbance (from oxidative stress, viral infection, or mitochondrial dysfunction) to sustained inflammatory output — without ongoing antigenic stimulation. No study has measured UPR activation (phospho-PERK, spliced XBP1, nuclear ATF6) in ME/CFS tissues.
+
+*Evidence status:* Emerging (ATG13/autophagy block is a key discovery; UPS and UPR/ER stress uncharacterised in ME/CFS).
 
 #open-question(title: [Scope of Proteostasis Failure in ME/CFS])[
   Does proteostasis failure in ME/CFS extend beyond extracellular fibrin microclots to intracellular protein aggregation in neurons, NK cells, or endothelial cells? Direct assessment using amyloid detection assays and cryo-EM on patient-derived cells would determine whether protein aggregation is a primary or secondary phenomenon.
+
+  Additionally: Is the UPR chronically activated in ME/CFS tissues? Measurement of phospho-PERK, spliced XBP1, ATF6 nuclear translocation, and downstream CHOP in patient-derived PBMCs and muscle biopsies would indicate whether ER stress contributes to the inflammatory state.
 ]
 
 == Family 14: Cell Death and Senescence
@@ -595,6 +599,90 @@ Preliminary analysis of the interactions described in this chapter suggests two 
   No such multi-family characterisation study exists. Its absence is itself a research gap — the field has characterised individual mechanisms in isolation but has not asked how many families are simultaneously active in the same patient, or whether mechanism breadth predicts severity and prognosis.
 ]
 
-#achievement(title: [19-Family Mechanism Map Constructed for ME/CFS])[
-  This chapter provides the first systematic survey of all universal disease mechanism families applied to ME/CFS, identifying documented involvement across approximately 90 concrete mechanisms in 17 of 19 families. The map establishes ME/CFS as a genuinely multi-mechanism systemic disease and provides a structured framework for research prioritisation and cross-disease comparison.
+== Family 20: Inflammation Resolution and Lipid Mediators
+<sec:um-resolution>
+
+*Family overview.* Inflammation is normally self-limiting — the transition from acute inflammation to resolution is an active, biochemically programmed process mediated by specialized pro-resolving mediators (SPMs): resolvins (E-series from EPA, D-series from DHA), protectins, maresins, and lipoxins @Serhan2022SPMResolvinLongCOVID. Unlike anti-inflammatory agents that suppress immune responses, SPMs actively clear neutrophils, stimulate efferocytosis, enhance antimicrobial activity, and promote tissue repair @Serhan2022SPMResolvinLongCOVID. Chronic inflammation results when resolution mechanisms fail — not simply because pro-inflammatory signals persist.
+
+*Concrete mechanisms and ME/CFS evidence:*
+
+- *SPM deficiency in post-viral syndromes.* Engert et al. (2026) propose that sleep disturbance in Long COVID dysregulates SPM biosynthesis, producing a state of failed resolution rather than excessive inflammation @Engert2026SPMSleepLongCOVID. Resolvin levels have not been measured in ME/CFS plasma or CSF — this is an open gap @Engert2026SPMSleepLongCOVID @Rauf2026PASCResolutionFailure.
+
+- *Post-acute sequelae as resolution failure.* Rauf et al. (2026) characterize PASC as a disorder of impaired innate immune resolution: residual viral antigens, host alarmins, and reactivated latent viruses sustain chronic TLR/RIG-I/NLR/cGAS-STING signaling, but the primary defect may be failure to resolve rather than failure to suppress @Rauf2026PASCResolutionFailure.
+
+- *SPM-enriched supplementation.* A 12-week open-label trial of SPM-enriched marine oil in Post-COVID Syndrome improved eicosanoid profiles and inflammatory resolution markers @GraciaAznar2024SPMSupplementPCS. No such trial exists in ME/CFS.
+
+- *Cholinergic anti-inflammatory pathway and SPMs.* Vagal signaling via α7-nAChR stimulates resolvin production, linking autonomic dysfunction (Family 8) to resolution capacity. Reduced vagal tone in ME/CFS (reduced HRV) would predict impaired vagal-SPM coupling.
+
+- *Dietary precursor dependence.* SPM synthesis depends on omega-3 precursor availability (EPA for E-resolvins, DHA for D-resolvins/protectins/maresins) and aspirin-acetylated COX-2 for aspirin-triggered resolvins. Dysregulated fatty acid metabolism and altered lipid profiles in ME/CFS could impair precursor availability @Bao2026GutLipidMediators.
+
+- *Gut microbiota-SPM axis.* Gut microbiota composition shapes the lipid mediator landscape; dysbiosis shifts profiles toward pro-inflammatory eicosanoids (PGE2, LTB4) at the expense of SPMs @Bao2026GutLipidMediators. ME/CFS gut dysbiosis (Chapter @ch:gut-microbiome) would therefore predict a pro-resolution deficit via this gut-immune axis.
+
+Full discussion: hypothesis registry (H1: SPM deficiency hypothesis); cross-reference to autophagy and inflammation resolution in Family 13.
+
+*Evidence status:* Theoretical for ME/CFS (no SPM measurements exist in ME/CFS cohorts); Probable for Long COVID (Engert 2026, Rauf 2026); Established for SPM biology generally (Serhan laboratory, 30+ years).
+
+#speculation(title: [SPM Deficiency as a Chronicity Switch in ME/CFS])[
+  If ME/CFS patients have deficient SPM biosynthesis — whether from reduced omega-3 precursor availability, impaired enzymatic conversion, or disrupted vagal-SPM coupling — the failure of active resolution would convert every inflammatory trigger (infection, exertion, stress) from a self-limited episode into a sustained inflammatory event. This would explain the prolonged, disproportionate response to minor triggers that characterizes the illness, and it does not require ongoing antigenic stimulation. The prediction is testable: targeted lipidomics of SPMs (RvD1–6, RvE1–3, LXA4, MaR1, PD1) in ME/CFS plasma versus matched controls, ideally before and after a standardized CPET protocol. If SPM levels are low at baseline and fail to rise post-exertion (as they should physiologically), this would support resolution failure as a chronicity mechanism.
+
+  *Certainty: 0.45.* SPM biology is well-established; SPM measurement is technically feasible (LC-MS/MS lipidomics); no ME/CFS-specific data exist. The hypothesis synthesizes documented ME/CFS features (prolonged inflammation, post-exertional exacerbation, dysregulated lipid profiles, reduced vagal tone) under the resolution-failure umbrella.
+
+  *Testable predictions:* (a) Baseline SPM levels (RvD1, RvE1, LXA4) will be lower in ME/CFS than matched controls; (b) SPM levels will fail to rise appropriately 2–24h post-CPET in ME/CFS versus controls; (c) SPM deficiency severity will correlate with PEM duration and severity.
+]
+
+#speculation(title: [HMGB1 as a Central DAMP Sustaining Neuroinflammation])[
+  High-mobility group box 1 (HMGB1) is a prototypical danger-associated molecular pattern (DAMP) that bridges cellular stress to sustained neuroinflammation @Ibrahim2026HMGB1Neuroinflammation. Nuclear HMGB1 translocates to the cytoplasm and is released extracellularly in response to cellular stress, where it signals via TLR4, TLR9, and RAGE receptors. Critically, HMGB1's redox state determines its bioactivity: disulfide-HMGB1 acts as a pro-inflammatory cytokine, while fully reduced HMGB1 is chemotactic @Ibrahim2026HMGB1Neuroinflammation. This redox switching provides a plausible mechanism for exertion-dependent inflammatory state changes in ME/CFS — exercise-induced oxidative stress could shift HMGB1 toward the pro-inflammatory disulfide form, triggering the PEM cascade.
+
+  HMGB1 is particularly relevant in conditions involving both cellular stress and barrier disruption: the increased blood-brain barrier permeability documented in some ME/CFS patients would allow peripheral HMGB1 to access CNS TLR4/RAGE receptors on microglia and astrocytes. The HMGB1-pCTS-L (cathepsin L) complex described by Chen et al. provides an additional amplification mechanism where HMGB1 binding to cathepsin L sustains inflammatory signaling beyond free HMGB1 alone @Chen2026HMGB1pCTSLAxis.
+
+  HMGB1 intersects with the cGAS-STING pathway (Family 4): HMGB1 binds immunogenic DNA and enhances cytosolic DNA sensing, providing a second route to type I interferon induction alongside mtDNA leakage. No study has measured extracellular HMGB1 or its redox isoforms in ME/CFS — this is a direct experimental gap.
+
+  *Certainty: 0.55.* HMGB1 biology is well-established in neuroinflammation; redox-dependent activity switching is documented; BBB disruption is documented in some ME/CFS patients. Direct ME/CFS evidence is absent. The hypothesis generates falsifiable predictions that require only plasma and CSF samples from existing cohorts.
+
+  *Testable predictions:* (a) Total extracellular HMGB1 will be elevated in ME/CFS plasma versus controls; (b) The disulfide:fully-reduced HMGB1 ratio will increase 2–24h post-exertion, correlating with PEM severity; (c) HMGB1 levels will correlate with TLR4 activation markers and IL-1β in CSF.
+]
+
+#speculation(title: [S100A8/A9 (Calprotectin) as a Microglial Priming Signal])[
+  S100A8 and S100A9 (calprotectin) are Ca2+-binding DAMPs released by activated neutrophils, monocytes, and macrophages that signal through TLR4 and RAGE to amplify inflammation. Nunes et al. (2024) demonstrated significant S100-A9 upregulation in ME/CFS plasma proteomics @Nunes2024S100A9MECFS. Given that S100A8/A9 activates microglia via TLR4, S100A8/A9 released from peripheral immune cells — or from microglia themselves — could sustain the microglial activation state documented in ME/CFS PET studies.
+
+  Calprotectin has additional clinical utility: Hetland et al. showed that calprotectin levels correlate strongly with NET burden ($r \ge 0.745$) in vaccine-associated thrombotic complications @Hetland2022, establishing it as a clinically accessible NET proxy. In ME/CFS, serial calprotectin measurement before and after standardized exertion could serve as a low-cost index of exercise-induced innate immune activation, monitoring NET-mediated thromboinflammation and microglial priming simultaneously without specialized assays.
+
+  *Certainty: 0.55.* S100-A9 upregulation is directly documented in ME/CFS (Nunes 2024). S100A8/A9-TLR4-microglia axis is established in neuroinflammation. NET-correlation via calprotectin is validated. The specific microglial-priming link and exertion-dynamics are untested.
+
+  *Testable predictions:* (a) Plasma calprotectin will rise 6–24h post-CPET in ME/CFS, correlating with PEM severity; (b) Calprotectin levels will correlate with NET markers (MPO-DNA, H3cit) and complement activation products; (c) In patients with the largest post-exertional calprotectin rise, measured microglial activation (TSPO PET) will be highest.
+]
+
+== Synthesis: The Mechanism Landscape of ME/CFS
+<sec:universal-mechanisms-synthesis>
+
+The survey above identifies *20 universal disease mechanism families* and enumerates approximately *95 concrete mechanisms* within them. ME/CFS shows documented involvement in at least 18 of 20 families — 10 Established, 5 Probable, 3 Emerging; the remaining 2 (transcriptional/nuclear and purinergic/danger signalling) are theoretically implicated but lack direct experimental evidence. Family 20 (inflammation resolution and lipid mediators) is newly characterized as theoretical with probable cross-disease precedent in Long COVID.
+
+#figure(
+  table(
+    columns: 3,
+    table.header(
+      [*Evidence tier*], [*Families (count)*], [*Representative mechanisms*],
+    ),
+    [Established],
+    [Energy/metabolism (1), Redox/oxidative (2), Ion channels (3), Immune/cytokine (4), Autoimmunity (5), Vascular/endothelial (7), Autonomic/SFN (8), Neurological (10), Epigenetic (12)],
+    [Mitochondrial OXPHOS failure; TRPM3 channelopathy; NK exhaustion; anti-β2AR; cerebral hypoperfusion; neuroinflammation; methylation signatures],
+
+    [Probable],
+    [Coagulation (6), Neuroendocrine (9), Amino acid metabolism (11), Gut-microbiome (15), Viral persistence (16), Inflammation resolution (20)],
+    [Fibrin microclots; HPA blunting; IDO trap; gut dysbiosis; EBV reactivation; SPM deficiency],
+
+    [Emerging],
+    [Protein homeostasis (13), Cell death/senescence (14), Structural/tissue (17)],
+    [ATG13 autophagy block; immunosenescence/SASP; skeletal muscle mitochondrial damage],
+
+    [Theoretical],
+    [Transcriptional/nuclear (18), Purinergic/danger (19)],
+    [NF-κB (inferred); CDR hypothesis; NLRP3 (unstudied)],
+  ),
+  kind: table, supplement: [Table],
+  caption: [ME/CFS mechanism involvement by evidence tier across all 20 families. Family 20 (inflammation resolution) is newly added (v6).],
+) <tab:mechanism-status>
+
+#achievement(title: [20-Family Mechanism Map Constructed for ME/CFS])[
+  This chapter provides the first systematic survey of all universal disease mechanism families applied to ME/CFS, identifying documented involvement across approximately 95 concrete mechanisms in 18 of 20 families. The map establishes ME/CFS as a genuinely multi-mechanism systemic disease and provides a structured framework for research prioritisation and cross-disease comparison.
 ]
