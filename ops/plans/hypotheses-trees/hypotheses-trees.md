@@ -188,7 +188,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | ussher-book           | [subtrees/ussher-book.md](subtrees/ussher-book.md)                        | (no date)       | 0          | 0          | ⬜ stub        |
 | linkedin-energy-articles | [subtrees/linkedin-energy-articles.md](subtrees/linkedin-energy-articles.md) | 2026-04-20 | 0 | 0 | ⬜ stub |
 | energy-failure-differential | [subtrees/energy-failure-differential.md](subtrees/energy-failure-differential.md) | 2026-04-20 | 0 | 0 | ⬜ group-root |
-| adhd-energy-predisposition | [subtrees/adhd-energy-predisposition.md](subtrees/adhd-energy-predisposition.md) | 2026-04-20 | 0 | 0 | ⬜ stub |
+| adhd-energy-predisposition | [subtrees/adhd-energy-predisposition.md](subtrees/adhd-energy-predisposition.md) | 2026-06-05 | 20 | 4 | ✅ done |
 | h2s-mitochondria | [subtrees/h2s-mitochondria.md](subtrees/h2s-mitochondria.md) | 2026-04-21 | 0 | 0 | ⬜ stub |
 | lower-baseline-conditions | [subtrees/lower-baseline-conditions.md](subtrees/lower-baseline-conditions.md) | 2026-04-20 | 0 | 0 | ⬜ stub |
 | reference-range-problem | [subtrees/reference-range-problem.md](subtrees/reference-range-problem.md) | 2026-04-21 | 0 | 0 | ⬜ stub |

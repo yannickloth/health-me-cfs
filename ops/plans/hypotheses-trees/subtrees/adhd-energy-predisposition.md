@@ -1,8 +1,8 @@
 # Hypothesis Subtree: ADHD as Brain Energy Failure and ME/CFS Predisposition
 
 **Origin:** Literature research / content-staging
-**Brainstorm file:** (not yet generated — awaiting Phase 3)
-**Date:** 2026-04-20
+**Brainstorm file:** content-staging/brainstorm-adhd-same-causes-mecfs-2026-06-05.md
+**Date:** 2026-06-05
 **Parent topic:** root
 **Child subtrees:** (none yet)
 
@@ -34,7 +34,25 @@
 
 ## Nodes
 
-> **Status: stub** — nodes not yet populated.
-
 | ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
 |----|-------|-----|------|------|----|------|------|----|--------|----------|
+| 1 | Unified Metabolic-Immune Etiology | speculation | 0.25 | 5 | 2 | 5 | 4 | 3 | ✅ | — |
+| 2 | Compartment-Specific Mito Threshold | speculation | 0.20 | 4 | 1 | 5 | 4 | 3 | ✅ | — |
+| 3 | BH4 Depletion as Unifying Switch | speculation | 0.35 | 5 | 3 | 4 | 3 | 4 | ✅ | — |
+| 4 | Microglial Priming Shared Initiation | speculation | 0.15 | 4 | 2 | 3 | 1 | 2 | ✅ | — |
+| 5 | Head-to-Head Metabolic Comparison | proposal | n/a | 3 | 1 | 5 | 2 | 5 | ↩️ | — |
+| 6 | Twin Study Co-Twin Transmission | proposal | n/a | 3 | 1 | 4 | 2 | 5 | ↩️ | — |
+| 7 | Stimulant Response Pharmacological Probe | proposal | n/a | 3 | 3 | 3 | 1 | 4 | ↩️ | — |
+| 8 | BH4 Supplementation Cross-Trial | proposal | n/a | 5 | 4 | 5 | 2 | 5 | ↩️ | — |
+| 9 | Mito-Targeted Dual-Indication Drugs | proposal | n/a | 4 | 5 | 3 | 2 | 4 | ↩️ | — |
+| 10 | LDN as Shared Microglial Modulator | speculation | 0.20 | 4 | 4 | 3 | 1 | 3 | ↩️ | — |
+| 11 | Iron Repletion Across Both Conditions | proposal | n/a | 3 | 3 | 2 | 1 | 3 | ↩️ | — |
+| 12 | Dopaminergic ATP Budget Model | hypothesis | 0.30 | 4 | 3 | 4 | 4 | 2 | ↩️ | — |
+| 13 | Two-Compartment Metabolic Reserve ODE | proposal | n/a | 3 | 1 | 4 | 5 | 2 | ↩️ | — |
+| 14 | BH4-Variable Threshold Model | proposal | n/a | 4 | 2 | 4 | 4 | 3 | ↩️ | — |
+| 15 | PBMC SRC as Universal Biomarker | proposal | n/a | 4 | 1 | 5 | 3 | 5 | ↩️ | — |
+| 16 | Urinary N:B Ratio Shared Biomarker | proposal | n/a | 4 | 1 | 4 | 2 | 5 | ↩️ | — |
+| 17 | qEEG Shared Dysregulation Marker | proposal | n/a | 3 | 1 | 3 | 1 | 4 | ↩️ | — |
+| 18 | ADHD-Long COVID Acquired Parallel | speculation | 0.30 | 4 | 2 | 4 | 1 | 3 | ↩️ | — |
+| 19 | ADHD-Fibromyalgia Same-Cause Bridge | speculation | 0.15 | 3 | 1 | 3 | 1 | 2 | ↩️ | — |
+| 20 | Unified Dx Screening Protocol | proposal | n/a | 2 | 3 | 4 | 2 | 5 | ↩️ | — |
