@@ -68,6 +68,7 @@ The natural history literature @Maksoud2020natural and patient reports converge
     - *6 months*: If symptoms persist beyond 6 months, spontaneous resolution becomes unlikely (transition from “post-viral fatigue” to “established ME/CFS”)
     - *2 years*: Around 2 years, disease transitions from early (hypermetabolic, potentially reversible) to established (hypometabolic, epigenetically locked) state
     - *Cumulative crashes*: Repeated PEM episodes cause progressive damage; there may be a threshold (5–10 severe crashes) beyond which recovery capacity is permanently impaired
+    - *Rolling PEM*: In severe patients, individual crashes may overlap without full stabilization between episodes — a phenomenon documented in clinical care guides where the functional floor ratchets downward continuously rather than stepwise @Hermisson2026CareGuide. This pattern makes recovery estimation unreliable because physiological recovery time is reset by each new crash before the previous one resolves, creating a state of chronic physiological crisis.
     - *25% severe*: One-quarter of ME/CFS patients become housebound/bedbound, most starting with mild disease
 
 The progression from mild to severe appears *preventable in many cases* through aggressive pacing, yet existing diagnostic criteria provide no framework for:
@@ -590,7 +591,7 @@ Patients meeting $gt.eq$2 of the following RED FLAG criteria are at immediate ri
 
 *RED FLAGS (Immediate Danger):*
 
-    - *Ratcheting baseline*: Each post-exertional crash leaves patient at a lower functional floor; baseline is trending downward over 6–12 months rather than returning to previous level
+    - *Ratcheting baseline*: Each post-exertional crash leaves patient at a lower functional floor; baseline is trending downward over 6–12 months rather than returning to previous level. This corresponds to the rolling PEM phenomenon — overlapping crash cycles without full stabilization between episodes (@sec:understanding-urgency, rolling PEM concept).
 
     - *Recovery time lengthening*: PEM recovery now requires \>2 weeks (previously required only days to 1 week)
 

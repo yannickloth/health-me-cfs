@@ -371,7 +371,7 @@ Severe ME/CFS does not only destroy the patient—it devastates everyone around 
     - *77.3%* felt finances were impacted
     - *72.9%* reported their sex life was affected
 
-For very severe patients, the caregiver burden is catastrophic:
+For very severe patients, the caregiver burden is catastrophic @Hermisson2026CareGuide @Fennell2021Suffering:
 
     - Round-the-clock care required (all but one of 47 very severe patients needed 24/7 care)
     - Caregivers spent more than 40 hours per week on care
@@ -398,10 +398,10 @@ One particularly devastating pattern involves *intergenerational ME/CFS*—a par
 ==== The Caregiver's Impossible Position
 <subsec:caregiver-impossible>
 
-Caregivers of severe ME/CFS patients face an impossible situation:
+Caregivers of severe ME/CFS patients face an impossible situation @Hermisson2026CareGuide @Fennell2021Suffering:
 
-    - *Cannot help*: There are no effective treatments to offer
-    - *Cannot comfort*: Physical presence, touch, or conversation cause harm
+    - *Cannot help*: Until recently, there were no structured care protocols to offer. The Hermisson et al.\ (2026) transdisciplinary nursing care guide now provides PEM-aware protocols across all care dimensions @Hermisson2026CareGuide — but dissemination and implementation in routine care remain very limited.
+    - *Cannot comfort*: Physical presence, touch, or conversation cause harm. The Hermisson care guide provides structured alternatives: non-verbal communication protocols, stop signals, care-batched scheduling @Hermisson2026CareGuide.
     - *Cannot reduce suffering*: The suffering continues regardless of caregiver efforts
     - *Cannot have respite*: The patient cannot be left alone; cannot go to facility care
     - *Cannot plan*: The unpredictable nature of crashes makes scheduling impossible

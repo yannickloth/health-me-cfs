@@ -151,7 +151,7 @@ For severe and very-severe ME/CFS, pacing shifts from self-management to an exte
     - *Caregiver as energy accountant:* The caregiver tracks cumulative load across physical, cognitive, orthostatic, emotional, and sensory domains — not just physical activity. Even passive care activities (repositioning, feeding, bathing) consume energy and must be budgeted @Hermisson2026CareGuide.
     - *No 'good day' overexertion:* On days when the patient feels relatively better, the caregiver enforces the same activity limits. The energy envelope has not expanded — tolerance is temporarily better, but exceeding limits still triggers PEM.
     - *Prophylactic rest before care.* Schedule a rest period (10–15 minutes, dark, quiet, supine) before any care procedure that exceeds minimal intensity (e.g., bathing, bed linen change, medical examination). This pre-loads recovery capacity for the intervention.
-    - *Stop signal protocol.* Establish a clear non-verbal signal (finger tap, hand raise, bell) for the patient to stop all activity immediately. The caregiver must honour it without negotiation @Hermisson2026CareGuide. For patients unable to signal at all, caregivers must monitor proxy signs: increased呼吸rate, facial tension, heart rate acceleration, or small movements indicating distress.
+    - *Stop signal protocol.* Establish a clear non-verbal signal (finger tap, hand raise, bell) for the patient to stop all activity immediately. The caregiver must honour it without negotiation @Hermisson2026CareGuide. For patients unable to signal at all, caregivers must monitor proxy signs: increased respiratory rate, facial tension, heart rate acceleration, or small movements indicating distress.
     - *Post-care mandatory rest.* After any care activity, enforce a rest period proportional to the intervention: 5 minutes after minimal care (oral care, drink), 30+ minutes after moderate care (bathing, transfer). The patient does not choose whether to rest — it is part of the care protocol.
     - *Activity spoiler protocol.* An "activity spoiler" is a planned micro-rest break inserted *during* an ongoing activity. For example, during assisted eating: after every 5 spoonfuls, pause for 30 seconds with eyes closed. During bathing: pause for 1 minute between washing each limb. This prevents the cumulative load from reaching threshold during the activity itself.
 
@@ -170,6 +170,20 @@ The care approach for severe ME/CFS aligns closely with palliative care principl
 
 *Limitations:* Requires reliable caregiver availability — not feasible for patients living alone. Caregiver training and protocol fidelity are unstandardised. The distinction between caregiver-implemented and patient-accepted pacing may blur in practice. No blinding possible.
 ] <spec:caregiver-pacing>
+
+#speculation(title: [Caregiver PEM Diary as Research-Grade Outcome])[
+*Certainty: 0.40.* Care interventions for severe ME/CFS lack validated outcome measures that fit the severe patient's limitations. A daily PEM diary completed by the caregiver (not the patient, reducing patient burden) recording crash count, duration, severity, and inter-crash interval could serve as the primary outcome for severe ME/CFS care trials. The key metric is "crash-free interval" (hours between PEM endpoint and next PEM onset) — a continuous outcome more sensitive than crash count and less prone to floor effects.
+
+*Falsifiable prediction:* A caregiver-reported daily PEM diary will show high inter-rater reliability (κ ≥0.80 between two independent caregivers rating the same day) and correlate with clinician global impression of change (r ≥0.60), supporting its use as a validated outcome in severe ME/CFS trials.
+
+*Limitations:* No validated PEM diary exists for caregiver administration. Requires caregiver literacy and consistent daily recording. Crash definition must be standardized across caregivers. Cognitive impairment in severe patients means crash recognition depends entirely on caregiver observation skill. ] <spec:caregiver-pem-diary>
+
+#speculation(title: [Micro-Pacing: Sub-Activity Threshold Titration])[
+*Certainty: 0.35.* Current pacing advice stops activities when the patient reaches the PEM threshold. But by the time the patient senses the threshold, the metabolic damage is already occurring (delayed PEM onset). Micro-pacing pre-determines the safe duration for each care task (e.g., 4 minutes of assisted feeding, 3 minutes of bed bath) by baseline tolerance testing, then terminates activities *by protocol duration* before the threshold is reached — not by symptom report @Hermisson2026CareGuide.
+
+*Falsifiable prediction:* Severe ME/CFS patients receiving micro-paced care (activities terminated after fixed sub-threshold durations determined by 3-day baseline tolerance testing) will have ≥50% fewer PEM episodes per week than patients receiving usual care (activity terminated by patient-reported symptoms), with equivalent total care delivery.
+
+*Limitations:* Requires 3-day baseline tolerance measurement — challenging for very-severe patients. Individual tolerance varies day-to-day, requiring protocol recalibration. Caregiver must track duration precisely under low-stimulus conditions. ] <spec:micro-pacing>
 
 == Diaphragmatic Breathing and Splanchnic Perfusion Enhancement
 <sec:diaphragmatic-breathing-splanchnic>
@@ -2015,6 +2029,13 @@ Patients in the top quartile of "light/sound reactions" domain score should show
 *Limitations.*
 The approach assumes that environmental modifications produce measurable functional improvement, which has not been rigorously tested. Individual variability in sensory hypersensitivity means that standardized interventions may not benefit all patients. The 4-week timeframe may be insufficient to detect domain-specific changes.
 ]
+
+#speculation(title: [Sensory Fasting Protocol for Very-Severe ME/CFS])[
+*Certainty: 0.30.* Sensory input (light, sound, touch, smell) is a direct metabolic cost mediated by thalamic gating and cortical processing. In severe ME/CFS, sensory thresholds are pathologically low — inputs neutral for healthy individuals can trigger nociceptive and metabolic responses. A scheduled "sensory fast" — complete sensory deprivation in darkness, silence, no touch, and minimal olfactory stimulation for 2–4 hours daily — could reduce cumulative sensory load below crash threshold @Hermisson2026CareGuide.
+
+*Falsifiable prediction:* Adding a daily 2-hour sensory fast (dark room, noise-cancelling ear protection, no tactile interaction) to standard care reduces PEM episode frequency by ≥30% over 4 weeks compared to standard care alone in very-severe ME/CFS.
+
+*Limitations:* Sensory deprivation may paradoxically increase anxiety in some patients. Complete deprivation is difficult to implement in home care settings. No ME/CFS trial exists. ] <spec:sensory-fasting>
 
 === Chemical and Environmental Sensitivities
 

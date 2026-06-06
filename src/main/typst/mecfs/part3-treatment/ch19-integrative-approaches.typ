@@ -2331,7 +2331,7 @@ Practical implementation framework.
 
 Evidence and certainty.
 
-Certainty: 0.50. Caregiver-assisted protocols for severe patients are established in critical care and palliative medicine contexts. The proposed protocol extends from established deconditioning prevention, nutritional support, and caregiver coordination principles to the specific context of ME/CFS. Direct clinical evidence for caregiver-implemented butyrate protocols in ME/CFS severe populations is lacking; the framework is based on extrapolation from general severe illness protocols and ME/CFS care principles.
+Certainty: 0.55. Caregiver-assisted protocols for severe patients are established in critical care and palliative medicine contexts. The proposed protocol extends from established deconditioning prevention, nutritional support, and caregiver coordination principles to the specific context of ME/CFS. The Hermisson et al.\ (2026) transdisciplinary nursing care guide provides structured, PEM-aware care protocols that reinforce and operationalise the principles described here @Hermisson2026CareGuide. Direct clinical evidence for caregiver-implemented butyrate protocols in ME/CFS severe populations is still lacking; the framework is based on extrapolation from general severe illness protocols and ME/CFS care principles.
 
 Testable predictions.
 
