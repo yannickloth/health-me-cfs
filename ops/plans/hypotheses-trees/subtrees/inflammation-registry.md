@@ -68,7 +68,35 @@
 | B1 | SPM panel (RvD1, RvE1, LXA4, MaR1) as resolution index | proposal | 0.50 | 3 | 2 | 3 | 1 | 5 | ⬜ | — |
 | B2 | HMGB1 redox isoform ratio diagnostic | proposal | 0.40 | 3 | 1 | 2 | 1 | 5 | ⬜ | — |
 | B3 | Calprotectin (S100A8/A9) as routine ME/CFS biomarker | proposal | 0.65 | 2 | 1 | 2 | 1 | 5 | ⬜ | — |
+| B4 | Complement activation signature (CAS) score | proposal | 0.55 | 3 | 1 | 2 | 1 | 5 | ⬜ | — |
+| B5 | Multi-DAMP panel (HMGB1+S100A8/A9+mtDNA+heme) | proposal | 0.40 | 4 | 1 | 3 | 2 | 5 | ⬜ | — |
+
+### Cross-Disease Bridges
+
+| ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
+|----|-------|-----|------|------|----|------|------|----|--------|----------|
+| X1 | ADHD: dopamine-NRF2-NLRP3 axis | speculation | 0.35 | 3 | 2 | 3 | 1 | 1 | ⬜ | — |
+| X2 | Autism: microglial S100B-calcineurin-NFAT loop | speculation | 0.30 | 3 | 2 | 3 | 1 | 1 | ⬜ | — |
+| X3 | POTS: complement-glycocalyx destruction | speculation | 0.35 | 4 | 2 | 3 | 1 | 3 | ⬜ | — |
+
+### Mathematical Model Extensions
+
+| ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
+|----|-------|-----|------|------|----|------|------|----|--------|----------|
+| M1 | SPM-mediated resolution ODE | proposal | n/a | 3 | 2 | 3 | 5 | 1 | ⬜ | — |
+| M2 | HMGB1-ferroptosis coupling ODE | proposal | n/a | 4 | 2 | 3 | 5 | 1 | ⬜ | — |
+| M3 | Inflammation source interaction DAG | proposal | n/a | 5 | 3 | 5 | 5 | 2 | ⬜ | — |
+| M4 | IRE1a bistable switch bifurcation model | proposal | n/a | 3 | 2 | 2 | 5 | 1 | ⬜ | — |
+
+### Multi-Component Protocols
+
+| ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
+|----|-------|-----|------|------|----|------|------|----|--------|----------|
+| C1 | SPM restoration (aspirin+omega-3+tVNS+diet) | speculation | 0.30 | 4 | 5 | 3 | 1 | 2 | ⬜ | — |
+| C2 | DAMP clearance (glycyrrhizin+NAC+iron chelation) | speculation | 0.25 | 4 | 5 | 3 | 1 | 2 | ⬜ | — |
+| C3 | ER stress resolution (TUDCA+fasting+huperzine A) | speculation | 0.20 | 3 | 4 | 2 | 1 | 2 | ⬜ | — |
+| C4 | Iron redistribution (danazol+vitamin E+CoQ10) | speculation | 0.20 | 3 | 4 | 2 | 1 | 2 | ⬜ | — |
 
 ---
 
-**Total:** 30 substantive nodes tracked (from 42 brainstorm ideas).
+**Total:** 42 substantive nodes tracked (from 42 brainstorm ideas).

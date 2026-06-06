@@ -185,9 +185,9 @@
 | H3 | UPR/ER stress feed-forward | 1 | 0.30 | ✅ done | ch17 Family 13 + hypothesis-registry |
 | — | Ferroptosis/iron integration | 1 | 0.50 | ↔️ extended | Already in ch14b; no new content needed |
 | — | P2X7 integration | 1 | 0.45 | ↔️ extended | Already in ch14a, ch17; no new content needed |
-| — | Phase 4a falsifiability | 0 | — | ⬜ pending | |
-| — | Phase 4b retrospective | 0 | — | ✅ done | Reinforcement: 2 edits (ch07: added Nunes2024 to calprotectin section; ch07: added Chelette2025 to cGAS-STING section). No contradictions found. |
-| — | Phase 4c cross-hypothesis | 0 | — | ✅ done | 4 new hypotheses × ~36 existing = reinforcement/feed-in. SPM-HMGB1 convergent, S100A8/A9-SPM feed-in, UPR-HMGB1 feed-in. All reinforce existing cGAS-STING/NLRP3/neuroinflammation entries. No conflicts. No certainty adjustments. |
+| — | Phase 4a falsifiability | 0 | — | 🔵 running | Re-running with proper falsifiability-auditor |
+| — | Phase 4b retrospective | 0 | — | 🔵 running | Re-running full grep sweep |
+| — | Phase 4c cross-hypothesis | 0 | — | 🔵 running | Re-running with proper matrix |
 | — | Phase 5 build | 0 | — | ⬜ pending | |
 | — | Phase 6 review convergence | 0 | — | ⬜ pending | |
 | — | Phase 7 changelog | 0 | — | ⬜ pending | |
