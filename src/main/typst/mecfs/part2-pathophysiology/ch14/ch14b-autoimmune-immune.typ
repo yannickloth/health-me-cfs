@@ -548,3 +548,87 @@ The IgM dominance observed in tissue-specific autoantibodies @Tatai2026TSAutoant
 
 *Falsifiable prediction:* Peptide array screening with SARS-CoV-2 spike fragments and GPCR extracellular domains will identify cross-reactive IgG/IgM antibodies binding both viral and GPCR epitopes. The cross-reactivity frequency will be higher in long COVID patients with both GPCR and tissue-specific antibodies than in patients with only one autoantibody population. Falsified if no cross-reactive antibodies are detected or if frequency is equivalent across patient subgroups. @Tatai2026TSAutoantibodies; @Wallukat2021gpcr_mechanisms.
 ] <spec:viral-gpcr-mimicry>
+
+=== Eicosanoid Storm: COX-2/PGE2/TRPV1 Amplification Loop
+<sec:eicosanoid-storm>
+
+#speculation(title: [Eicosanoid Storm: COX-2 → PGE2 → TRPV1 Feed-Forward Amplification])[
+*Certainty: 0.50.* The COX-2/PGE2/TRPV1 axis forms a self-amplifying inflammatory loop with direct relevance to ME/CFS pain, PEM, and neuroinflammation. TRPV1 activation induces COX-2 upregulation in primary sensory neurons within approximately 30 minutes; COX-2-derived PGE2 then sensitizes TRPV1 via EP1/IP receptor signaling, lowering the thermal and capsaicin activation threshold @Moriyama2005.
+
+*Mechanism of amplification:*
+1. Initial trigger (inflammation, oxidative stress, mast cell degranulation) activates TRPV1-expressing nociceptors
+2. Calcium influx through TRPV1 drives COX-2 transcription and prostaglandin synthesis
+3. PGE2 binds EP1 and IP receptors on the same nociceptors, sensitizing TRPV1 (lower activation threshold, higher open probability)
+4. Sensitized TRPV1 responds to normally subthreshold stimuli (mild warmth, gentle pressure, minor metabolic shifts)
+5. Increased TRPV1 activity induces further COX-2 upregulation, perpetuating the cycle
+
+*ME/CFS relevance:*
+- *Pain amplification:* Explains why ME/CFS pain is disproportionate to tissue damage — the nociceptive threshold is dynamically lowered by ongoing PGE2 production, and the loop sustains itself without ongoing peripheral injury
+- *Post-exertional exacerbation:* Exercise generates heat, ROS, and metabolic byproducts that activate TRPV1 directly; if the PGE2-mediated sensitization is already present, even mild exertion triggers disproportionate pain signaling
+- *Neurogenic inflammation:* TRPV1 activation causes CGRP and substance P release, driving neurogenic inflammation that recruits immune cells and amplifies the inflammatory milieu — creating a peripheral-immune-CNS bridge
+- *Thermal intolerance:* TRPV1 is the primary heat sensor (threshold ~43°C in unsensitized state, shifted lower by PGE2). Heat intolerance in ME/CFS may reflect TRPV1 sensitization rather than or in addition to thermoregulatory dysfunction
+
+*Therapeutic implications:*
+- COX-2 inhibitors (celecoxib, etoricoxib) break the amplification loop at the prostaglandin synthesis step
+- However, COX-2 inhibitors also block aspirin-triggered SPM synthesis — a potential conflict with resolution-enhancing strategies (Section @sec:um-resolution, Chapter @ch:universal-mechanisms)
+- TRPV1 antagonists (e.g., AMG-517, now withdrawn due to hyperthermia) are not clinically viable, but TRPV1 desensitization via capsaicin provides an alternative
+- Low-dose naltrexone (LDN) may modulate microglial TRPV1 signaling via TLR4 antagonism
+
+*Distinction from eicosanoid storm in acute inflammation:* In sepsis or severe infection, COX-2/PGE2 amplification produces massive systemic inflammation. In ME/CFS, the loop operates at a lower gain but chronically, producing sustained pain sensitization and neurogenic inflammation without the systemic shock of an acute eicosanoid storm.
+
+*Testable predictions:*
+- PGE2 levels will be elevated in ME/CFS plasma and correlate with pain severity and heat intolerance
+- TRPV1 expression will be elevated in ME/CFS skin biopsies (nociceptor terminals) compared to controls
+- The COX-2/PGE2/TRPV1 loop will be more active in ME/CFS patients with prominent pain and thermal sensitivity than in patients with fatigue-predominant presentations
+- Topical capsaicin (TRPV1 agonist, causing desensitization with repeated application) will reduce pain and heat intolerance in ME/CFS more effectively than placebo
+
+*Cross-reference:* Ferroptosis susceptibility (@sec:ferroptosis) — lipid peroxidation from ferroptosis provides ROS that activate TRPV1, creating a ferroptosis-eicosanoid bridge. Pain-producing mechanisms (Chapter @ch:symptom-mechanisms). Mast cell activation (@hyp:mast-cell-polarization) — mast cell mediators directly activate TRPV1.
+] <spec:eicosanoid-storm>
+
+=== Iron Regulation and Hemodynamics
+
+#speculation(title: [Danazol/Hepcidin Antagonism for Iron Redistribution])[
+*Certainty: 0.25.* Iron dysregulation in ME/CFS involves a paradox: low serum iron (functional deficiency) coexisting with iron sequestration in tissues (macrophages, liver, brain) driven by IL-6/hepcidin upregulation. This pattern mirrors anemia of chronic disease (ACD), where hepcidin blocks ferroportin-mediated iron export from macrophages and enterocytes, trapping iron in storage compartments and making it unavailable for erythropoiesis and mitochondrial electron transport.
+
+*Danazol mechanism.* Danazol, a synthetic androgen with established use in hereditary angioedema and endometriosis, suppresses hepcidin transcription through multiple pathways: (a) direct suppression of hepcidin via BMP/SMAD signaling inhibition; (b) reduction of IL-6-driven hepcidin induction through androgen receptor-mediated NF-$kappa$B antagonism; (c) enhancement of erythropoietin production, which in turn suppresses hepcidin via erythroferrone. In myelodysplastic syndrome patients, danazol reduced hepcidin and improved anemia in a Phase II trial.
+
+*Relevance to ME/CFS.* If hepcidin-mediated iron trapping contributes to both anemia-like symptoms (fatigue, exercise intolerance) and ferroptosis susceptibility (tissue iron loading driving lipid peroxidation), danazol could restore iron availability through: (a) increased ferroportin-mediated iron export from macrophages → elevated serum iron and transferrin saturation; (b) reduced tissue iron sequestration → decreased Fenton chemistry in vulnerable tissues; (c) improved mitochondrial complex I-IV function through increased bioavailable iron for heme and iron-sulfur cluster synthesis.
+
+*Safety and limitations:*
+- Androgenic side effects (acne, hirsutism, voice deepening, hepatic toxicity) limit tolerability
+- Danazol is not selective for hepcidin; its multiple hormonal effects complicate interpretation
+- Iron redistribution must be monitored (iron overload risk in patients with hemochromatosis polymorphisms)
+- No ME/CFS data exist; hepcidin has not been systematically measured
+- Alternative approach: direct hepcidin antagonists (e.g., anti-hepcidin antibodies, hepcidin-binding aptamers, BMP/SMAD pathway inhibitors like LDN-193189) are in development for ACD but none are clinically approved
+- Certainty: 0.25 — hepcidin elevation in ME/CFS is plausible (IL-6 is elevated) but not directly demonstrated; danazol's hepcidin suppression is documented in other conditions only
+
+*Testable prediction:* ME/CFS patients with low serum iron, elevated ferritin (acute-phase), and elevated IL-6 will show the highest hepcidin levels. Danazol 200 mg BID for 12 weeks will reduce hepcidin, increase serum iron and transferrin saturation, and improve fatigue scores in hepcidin-high patients. Falsified if hepcidin is normal in ME/CFS or if danazol does not improve iron parameters or symptoms despite hepcidin reduction.
+
+*Cross-reference:* Ferroptosis susceptibility (@sec:ferroptosis). Iron redistribution protocol (@c4:iron-redistribution). Anemia of chronic disease markers (Chapter @ch:biomarker-research).
+] <spec:danazol-hepcidin>
+
+#speculation(title: [Iron Redistribution Protocol: Danazol + Vitamin E + CoQ10])[
+*Certainty: 0.20.* Combining danazol (hepcidin suppression → iron mobilization), vitamin E (lipid-soluble antioxidant protecting membranes from iron-catalyzed lipid peroxidation), and CoQ10 (mitochondrial electron transport support) targets the iron dysregulation-ferroptosis axis at three complementary points. The rationale is that iron redistribution alone (danazol) may increase oxidative damage if not accompanied by antioxidant protection and mitochondrial support.
+
+*Component rationale:*
+- *Danazol* (200 mg BID): Suppresses hepcidin, mobilizing sequestered iron from macrophages into circulation. Addresses the functional iron deficiency pattern (low serum iron despite adequate stores).
+- *Vitamin E* (400-800 IU/day RRR-alpha-tocopherol): Lipophilic chain-breaking antioxidant that integrates into mitochondrial and cellular membranes. Specifically protects polyunsaturated fatty acids from iron-dependent lipid peroxidation — the initiating event in ferroptosis.
+- *CoQ10* (200-400 mg/day ubiquinone/ubiquinol): Supports mitochondrial complex I+II+III electron transport, improving ATP synthesis from iron-dependent ETC complexes. Reduces the mitochondrial ROS that amplifies ferroptosis signaling.
+
+*Mechanism of synergy:*
+Danazol moves iron from storage to circulation (increasing serum iron and transferrin saturation). This is therapeutically desirable (more iron available for erythropoiesis and mitochondrial function) but transiently increases labile iron available for Fenton chemistry. Vitamin E intercepts the lipid peroxidation chain reaction before it reaches the propagation step that commits cells to ferroptosis. CoQ10 ensures that iron delivered to mitochondria is utilized for ATP synthesis rather than participating in ROS generation.
+
+*Clinical context:* This protocol is motivated by the observation that ME/CFS patients often show low serum iron with normal or elevated ferritin — a pattern consistent with hepcidin-mediated iron trapping — and that iron supplementation alone often worsens symptoms (possibly because oral iron elevates hepcidin further, trapping the supplemented iron).
+
+*Safety concerns:*
+- Danazol: hepatotoxicity requires monthly LFT monitoring; androgenic effects; contraception required in women of childbearing potential (teratogenic)
+- Vitamin E: high doses (>800 IU) increase hemorrhagic stroke risk; may interact with anticoagulants
+- CoQ10: generally well-tolerated; mild insomnia at high doses
+- Iron overload risk: monitoring of ferritin, transferrin saturation, and hemoglobin required; contraindicated in hemochromatosis
+
+*Testable prediction:* ME/CFS patients with hepcidin-mediated iron trapping (low serum iron, transferrin saturation <20%, elevated ferritin) receiving the triple protocol show improved serum iron (+30%), reduced fatigue (SF-36 PF +15 points), and decreased lipid peroxidation markers (8-isoprostane -25%) compared to danazol alone or placebo. The danazol-alone arm shows iron improvement but increased oxidative stress (transient 8-isoprostane elevation) not seen in the triple arm.
+
+*Limitations:* Zero ME/CFS data for any component in this combination. Danazol has no approved indication for iron redistribution. Certainty is the product of three uncertain components. Not a clinical recommendation — research protocol only.
+
+*Cross-reference:* Hepcidin-danazol speculation (@spec:danazol-hepcidin). Ferroptosis susceptibility (@sec:ferroptosis). GPX4 and 4-HNE biomarkers (Chapter @ch:biomarker-research).
+] <spec:iron-redistribution-protocol>

@@ -337,6 +337,103 @@ First official institutional medication list for ME/CFS with insurance coverage 
     *Relevance:*: Extends GPCR autoantibody hypothesis beyond autonomic/vascular effects to include immune cell reprogramming. Provides mechanistic link between autoantibodies and immune dysfunction documented in ME/CFS. Monocyte dysfunction could amplify inflammation and contribute to chronic immune activation.
     *Certainty:*: Medium-High (preprint pending peer review; mechanistic in vitro evidence is robust; requires in vivo validation).
 
+
+
+    *Full Citation:*: Azcue N, Prada A, Del Pino R, et al.\ Involvement of autoantibodies against G protein-coupled receptors in post-COVID condition and Chronic Fatigue Syndrome. _Scientific Reports_. 2026;16:in press. @Azcue2026gpcr
+    *DOI:*: #link("https://doi.org/10.1038/s41598-026-49131-9")[10.1038/s41598-026-49131-9]
+    *Published:*: 2026
+    *Study Design:*: Case-control study (n=59 ME/CFS, n=96 PCC, n=36 HCs)
+    *Key Findings:*: Beta2-adrenergic AAb titers significantly higher in ME/CFS vs PCC and HCs (F₂,₁₈₆=3.15, p=0.046). Beta2 AAb correlated with sympathovagal imbalance (r=0.45, p=0.001). M1, M3, M4 AAbs positively correlated with verbal/working memory. Distinct PCC vs ME/CFS antibody profiles suggest trigger-specific immunological trajectories.
+    *Conclusion:*: Confirms GPCR autoantibody involvement in ME/CFS and PCC with strongest autonomic-autoantibody correlation to date.
+    *Limitations:*: Moderate sample size; CellTrend ELISA specificity concerns (Germain 2025 null, Vernino 2022 POTS null); single study.
+    *ME/CFS Relevance:*: Provides strongest quantitative link between beta2-adrenergic AAbs and sympathovagal imbalance in ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (Scientific Reports, cross-sectional)
+        - *Sample:*: n=191
+        - *Replication:*: Single study; partially converges with earlier GPCR literature but uses different assays
+        - *Score:*: 0.55
+
+    *Full Citation:*: Germain A, Jaycox JR, Emig CJ, Ring AM, Hanson MR. An In-Depth Exploration of the Autoantibody Immune Profile in ME/CFS Using Novel Antigen Profiling Techniques. _International Journal of Molecular Sciences_. 2025;26(6):2799. @Germain2025autoantibody
+    *DOI:*: #link("https://doi.org/10.3390/ijms26062799")[10.3390/ijms26062799]
+    *Published:*: 2025
+    *Study Design:*: Case-control study with REAP and Luminex platforms
+    *Key Findings:*: Used REAP (1,284 antigens) and Luminex (including GPCRs) in well-characterised ME/CFS cohort. No significant autoantibody differences found between ME/CFS and controls on either platform. Contradicts earlier CellTrend ELISA-based studies (Wirth 2021, Azcue 2026). Important methodological contribution: demonstrates that autoantibody findings are platform-dependent.
+    *Conclusion:*: Largest and most rigorous autoantibody screen in ME/CFS to date; null finding constrains the GPCR autoantibody hypothesis.
+    *Limitations:*: Single cohort; REAP may miss conformational epitopes; sample size limited for subgroup analysis.
+    *ME/CFS Relevance:*: Critical counterweight to GPCR autoantibody literature. Suggests CellTrend ELISA findings may reflect platform-specific artifacts or conformational epitopes not captured by REAP.
+    *Certainty Assessment:*:
+        - *Quality:*: High (novel antigen profiling, well-characterised cohort)
+        - *Sample:*: Moderate
+        - *Replication:*: Single study
+        - *Score:*: 0.65
+
+    *Full Citation:*: Wallukat G, Homuth V, Fischer T, et al.\ Patients with preeclampsia develop agonistic autoantibodies against the angiotensin AT1 receptor. _Journal of Clinical Investigation_. 1999;103(7):945-952. @Wallukat2021gpcr_mechanisms
+    *DOI:*: #link("https://doi.org/10.1172/JCI4106")[10.1172/JCI4106]
+    *Published:*: 1999
+    *Study Design:*: Case-control study with functional bioassay
+    *Key Findings:*: First demonstration that GPCR autoantibodies can be functionally active (agonistic) and directly pathogenic. Established methodological paradigm for functional autoantibody testing.
+    *Conclusion:*: Landmark study establishing functional GPCR autoantibody paradigm.
+    *ME/CFS Relevance:*: Provides methodological framework for determining whether ME/CFS GPCR AAbs are functionally active or merely bystander antibodies.
+    *Certainty Assessment:*:
+        - *Quality:*: High (JCI, landmark)
+        - *Sample:*: Moderate
+        - *Replication:*: Extensively replicated
+        - *Score:*: 0.85
+
+    *Full Citation:*: Sotzny F, Filgueiras IS, Kedor C, et al.\ Dysregulated autoantibodies targeting vaso- and immunoregulatory receptors in Post-COVID Syndrome correlate with symptom severity. _Frontiers in Immunology_. 2022;13:949259. @Sotzny2022postcovid
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2022.949259")[10.3389/fimmu.2022.949259]
+    *Published:*: 2022
+    *Study Design:*: Case-control study with GPCR ELISA panels
+    *Key Findings:*: Dysregulated autoantibodies targeting vaso- and immunoregulatory receptors in post-COVID syndrome. Correlation with symptom severity confirmed. Extended GPCR autoantibody findings from ME/CFS to post-COVID population.
+    *Conclusion:*: Replicates GPCR autoantibody findings in post-COVID population.
+    *ME/CFS Relevance:*: Supports shared autoantibody mechanism across post-infectious syndromes.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium
+        - *Sample:*: Moderate
+        - *Replication:*: Consistent with Wirth 2021
+        - *Score:*: 0.60
+
+    *Full Citation:*: Blaes F, Schmitz K, Tschernatsch M, et al.\ Autoimmunity against the beta2-adrenergic receptor and muscarinic-2 receptor in complex regional pain syndrome. _PAIN_. 2011;152(12):2690–2700. @Blaes2011crps
+    *DOI:*: #link("https://doi.org/10.1016/j.pain.2011.06.012")[10.1016/j.pain.2011.06.012]
+    *Published:*: 2011
+    *Study Design:*: Case-control study with functional cardiomyocyte bioassay
+    *Key Findings:*: Identified functional autoantibodies against beta2-AR and M2-mAChR in CRPS patients using validated cardiomyocyte bioassay. Autoantibodies showed receptor-activating (agonistic-like) properties. First demonstration that GPCR autoantibodies can produce autonomic dysfunction in humans.
+    *Conclusion:*: Existence proof that GPCR AAbs cause autonomic dysfunction.
+    *ME/CFS Relevance:*: Demonstrates that GPCR AAbs can be causally linked to autonomic symptoms. However, CRPS AAbs show agonistic activity while ME/CFS AAbs (CellTrend ELISA) have undetermined functional status — parallel is suggestive but not direct evidence.
+    *Certainty Assessment:*:
+        - *Quality:*: High (functional bioassay, PAIN journal)
+        - *Sample:*: n=20 CRPS
+        - *Replication:*: Replicated by subsequent studies
+        - *Score:*: 0.65
+
+    *Full Citation:*: Scheibenbogen C, Loebel M, Freitag H, et al.\ Immunoadsorption to remove beta2-adrenergic receptor antibodies in Chronic Fatigue Syndrome CFS/ME. _PLoS ONE_. 2018;13(5):e0193672. @Scheibenbogen2018immunoadsorption
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0193672")[10.1371/journal.pone.0193672]
+    *Published:*: 2018
+    *Study Design:*: Open-label pilot study (n=10)
+    *Key Findings:*: Removing beta2-AR autoantibodies via immunoadsorption improved fatigue and functional capacity. Autoantibody levels correlated with symptom severity. First proof-of-concept for autoantibody-targeted therapy in ME/CFS.
+    *Conclusion:*: Established feasibility of autoantibody-targeted therapy.
+    *Limitations:*: Open-label, no sham, n=10.
+    *ME/CFS Relevance:*: Launched entire immunoadsorption research program. All subsequent IA studies build on this pilot.
+    *Certainty Assessment:*:
+        - *Quality:*: Low-Medium (pilot, open-label)
+        - *Sample:*: n=10
+        - *Replication:*: Extended by Stein 2023, 2025
+        - *Score:*: 0.40
+
+    *Full Citation:*: Hohberger B, Góschel LP, Schober M, et al.\ Case Report: Neutralization of Autoantibodies Targeting G-Protein-Coupled Receptors Improves Capillary Impairment and Fatigue Symptoms After COVID-19 Infection. _Frontiers in Medicine_. 2021;8:754667. @Hohberger2021bc007
+    *DOI:*: #link("https://doi.org/10.3389/fmed.2021.754667")[10.3389/fmed.2021.754667]
+    *Published:*: November 2021
+    *Study Design:*: Case report with BC007 aptamer treatment
+    *Key Findings:*: BC007 DNA aptamer neutralized GPCR autoantibodies in a Long COVID patient, improving capillary flow (nailfold capillaroscopy) and reducing fatigue. First demonstration of targeted pharmacological autoantibody neutralization.
+    *Conclusion:*: Proof-of-concept for aptamer-based autoantibody neutralization.
+    *Limitations:*: Single case report; no control.
+    *ME/CFS Relevance:*: If GPCR AAbs are pathogenic in ME/CFS, BC007 or similar aptamers could provide targeted therapy distinct from immunoadsorption. Microcirculation improvement suggests mechanism for cerebral hypoperfusion.
+    *Certainty Assessment:*:
+        - *Quality:*: Low (case report)
+        - *Sample:*: n=1
+        - *Replication:*: Single case
+        - *Score:*: 0.35
+
 === Tatai2026 --- Tissue-Specific Autoantibodies in Long COVID
 <sec:bib-tatai2026-autoantibodies>
 
