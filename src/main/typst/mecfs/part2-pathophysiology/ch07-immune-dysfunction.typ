@@ -397,9 +397,9 @@ The Maya et al.\ complement pQTL subgroup (high C3/low Bb) may represent individ
 The Brag{\'e}e et al.\ CSF finding of complement cascade enrichment in severe ME/CFS cases @Bragée2026csf-proteome has been cited as supporting evidence for this loop, but that study had no healthy control group (certainty 0.35) and cannot establish differential expression.
 
 *Testable predictions:*
-    + Skin blister fluid or interstitial fluid from ME/CFS patients will show higher C3a:C3 ratio than plasma, indicating local complement amplification (research technique requiring specialized collection)
-    + Complement-pQTL-positive subgroup will have higher serum tryptase and prostaglandin D2 than complement-pQTL-negative patients
-    + C5a receptor antagonists (e.g., avacopan) would reduce mast cell mediators if the loop operates; a negative result would support the parallel-activation alternative
+    + Skin blister fluid or interstitial fluid from ME/CFS patients will show C3a:C3 ratio ≥2× in tissue vs plasma, indicating local complement amplification (research technique requiring specialized collection)
+    + Complement-pQTL-positive subgroup will have serum tryptase ≥20% higher and PGD2 ≥30% higher than complement-pQTL-negative patients
+    + C5a receptor antagonists (e.g., avacopan) would reduce mast cell mediators by ≥50% if the loop operates; ≤20% reduction supports the parallel-activation alternative
 ] <spec:complement-mast-cell-loop>
 
 === Dendritic Cells
@@ -759,6 +759,11 @@ This extreme phenotype may represent late-stage progression of the chronic antig
     - Evaluation of immunomodulatory (vs.\ immunosuppressive) interventions in this phenotype
     - Assessment of whether B cell depletion predicts response to cellular immunity enhancers
 
+*Falsifiable:*
+    + CD19+ \<0.07 G/L in ≥5% of patients with ME/CFS duration \>5 years (vs \<1% of controls)
+    + B cell count inversely correlates with EBV VCA IgG titer (r \< -0.4) and disease duration (r \< -0.3)
+    + Response to immunomodulation (cimetidine or similar cellular-enhancing therapy) \>30% greater in CD19+ \<0.07 subgroup than in CD19+-normal subgroup
+    + NK percentage \<7% and CD3+ \>83% co-occur with CD19+ \<0.07 in \>75% of depleted cases. Falsified if CD19+ depletion is not associated with these specific immunological correlates.
 ] <spec:exhausted-surveillance>
 
 ==== Autoantibodies in ME/CFS
