@@ -703,7 +703,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 
 *Testable prediction:* 4 weekly albumin infusions reduce serum free iron and HMGB1 by ≥25%, reduce isoprostanes by ≥20%, and improve fatigue (SF-36 PF ≥5 points) compared to baseline in a pre/post pilot study. Iron buffering and HMGB1 reduction are independent predictors of fatigue improvement.
 
-*Cross-reference:* HMGB1 DAMP hypothesis (@sec:um-resolution, Chapter @ch:universal-mechanisms). DAMP clearance protocol C2 (@spec:c2-damp-clearance). Iron/ferroptosis mechanism (Chapter @ch:energy-metabolism). H6 hepcidin-iron trap hypothesis (hypothesis-registry:@h6-iron-hepcidin).
+*Cross-reference:* HMGB1 DAMP hypothesis (@sec:um-resolution, Chapter @ch:universal-mechanisms). DAMP clearance protocol C2 (@spec:c2-damp-clearance). Iron/ferroptosis mechanism (Chapter @ch:energy-metabolism). Hepcidin-iron trap hypothesis (ch14b).
 ] <spec:albumin-damp-iron-clearance>
 
 === Protocol C3: ER Stress Resolution Protocol
