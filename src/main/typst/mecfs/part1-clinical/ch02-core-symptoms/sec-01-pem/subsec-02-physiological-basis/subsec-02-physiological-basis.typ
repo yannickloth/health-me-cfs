@@ -41,7 +41,7 @@ This mechanism suggests PEM delay reflects not just ATP depletion but the time r
 
 The temporal pattern of PEM symptom onset (24–72 hours) closely matches delayed-type hypersensitivity (DTH) immune responses, suggesting immune-mediated mechanisms:
 
-    - *Exercise as danger signal*: Physical exertion releases damage-associated molecular patterns (DAMPs) including extracellular ATP, HMGB1, and heat shock proteins. These activate innate immune receptors.
+    - *Exercise as danger signal*: Physical exertion releases damage-associated molecular patterns (DAMPs) including extracellular ATP, HMGB1, and heat shock proteins @Ibrahim2026HMGB1Neuroinflammation. These activate innate immune receptors.
     - *Cytokine cascade timing*: Pro-inflammatory cytokine production (IL-1$beta$, IL-6, TNF-$alpha$) peaks 24–48 hours post-stimulus in classical immune responses. Gene expression studies show prolonged elevation of immune activation genes 24–72 hours post-exercise in ME/CFS patients, corresponding to symptom exacerbation timing.
     - *Purinergic signaling*: Exercise dramatically increases extracellular ATP release. If purinergic receptors (P2X7) are sensitized or ATP clearance is impaired, this triggers massive inappropriate danger signaling with delayed inflammatory consequences (see @sec:purinergic for detailed discussion).
     - *Neuroinflammation*: Microglial activation in response to peripheral immune signals requires hours to fully develop, potentially explaining delayed cognitive symptoms (brain fog).
@@ -147,17 +147,17 @@ Two competing models exist:
 
 Some mitochondrial damage occurs inevitably during exercise from ROS generation as respiratory chain activity increases. This initial damage happens in real-time (0–2h) and cannot be prevented post-hoc. However, ATP depletion dramatically amplifies this damage through multiple mechanisms: (1) impaired antioxidant synthesis (glutathione production requires ATP), (2) disabled repair protein function (requires ATP), and (3) positive feedback loops where damaged mitochondria leak additional ROS when ATP-dependent quality control fails.
 
-Preventing ATP crisis cannot undo initial ROS damage but can prevent the amplification cascade. *Theoretical estimate (no direct empirical validation in ME/CFS):* Initial damage unavoidable (estimated \textasciitilde20% of total, based on exercise physiology showing inevitable ROS generation during oxidative metabolism), but ATP-mediated amplification (estimated \textasciitilde80% of total, extrapolated from ATP-dependent antioxidant/repair pathways) is theoretically preventable. Hypothesized net reduction in mitochondrial damage: 60–80%.
+Preventing ATP crisis cannot undo initial ROS damage but can prevent the amplification cascade. *Theoretical estimate (no direct empirical validation in ME/CFS):* Initial damage unavoidable (estimated ~20% of total, based on exercise physiology showing inevitable ROS generation during oxidative metabolism), but ATP-mediated amplification (estimated ~80% of total, extrapolated from ATP-dependent antioxidant/repair pathways) is theoretically preventable. Hypothesized net reduction in mitochondrial damage: 60–80%.
 
 *Phase 1 $arrow.r$ Phase 3 (ATP Crisis $arrow.r$ Immune Cascade):* _Mixed prevention and delay._
 
 The immune cascade has dual triggers operating on different timescales:
 
-    - *Immediate trigger (unavoidable)*: DAMPs (extracellular ATP, HMGB1, heat shock proteins, mitochondrial fragments) release during exercise (0–2h) as normal cellular stress signaling. Even healthy individuals release these; ME/CFS patients' immune systems appear sensitized to over-respond to physiological levels.
+    - *Immediate trigger (unavoidable)*: DAMPs (extracellular ATP, HMGB1, heat shock proteins, mitochondrial fragments) release during exercise (0–2h) as normal cellular stress signaling @Ibrahim2026HMGB1Neuroinflammation @Chen2026HMGB1pCTSLAxis. Even healthy individuals release these; ME/CFS patients' immune systems appear sensitized to over-respond to physiological levels.
 
     - *Sustained trigger (preventable)*: ATP-depleted cells continue releasing DAMPs for 24–72h as ongoing distress signals. Additionally, ATP depletion impairs immune regulatory mechanisms (requires ATP), allowing uncontrolled cytokine amplification. Damaged mitochondria release mtDNA (recognized as bacterial pathogen-associated molecular pattern), triggering massive additional immune activation.
 
-Preventing ATP crisis cannot eliminate initial DAMP sensing but can prevent sustained DAMP release and immune dysregulation. *Theoretical estimate (no direct empirical validation):* Initial immune activation unavoidable (estimated \textasciitilde30%, based on immediate DAMP release during exercise observed in healthy populations), but cytokine storm amplification (estimated \textasciitilde70%, extrapolated from ATP-dependent immune regulation) is theoretically preventable. Hypothesized net reduction in immune activation: 70–80%.
+Preventing ATP crisis cannot eliminate initial DAMP sensing but can prevent sustained DAMP release and immune dysregulation. *Theoretical estimate (no direct empirical validation):* Initial immune activation unavoidable (estimated ~30%, based on immediate DAMP release during exercise observed in healthy populations), but cytokine storm amplification (estimated ~70%, extrapolated from ATP-dependent immune regulation) is theoretically preventable. Hypothesized net reduction in immune activation: 70–80%.
 
 *Phase 2 $arrow.r$ Phase 3 (Mitophagy Gap $arrow.r$ Symptoms):* _Mitigation only, not prevention._
 
@@ -169,8 +169,8 @@ Evidence suggests cascade phases are _partially dependent_ rather than fully seq
 
     - *Exercise (0–2h)*: Unavoidable damage occurs
 
-        - ROS generation: \textasciitilde20% of eventual mitochondrial damage
-        - DAMP release: \textasciitilde30% of eventual immune activation
+        - ROS generation: ~20% of eventual mitochondrial damage
+        - DAMP release: ~30% of eventual immune activation
         - Substrate depletion: Phosphocreatine, glycogen consumption
 
 
@@ -183,8 +183,8 @@ Evidence suggests cascade phases are _partially dependent_ rather than fully seq
 
     - *Delayed crash phase (12–72h)*: Outcome determined by Phase 2 success
 
-        - No intervention: \textasciitilde600 severity units (100 initial + 200 ATP amplification + 300 immune amplification) — *Illustrative model, not empirical measurements*
-        - Perfect Phase 1 intervention: \textasciitilde150 severity units (100 initial + minimal amplification)
+        - No intervention: ~600 severity units (100 initial + 200 ATP amplification + 300 immune amplification) — *Illustrative model, not empirical measurements*
+        - Perfect Phase 1 intervention: ~150 severity units (100 initial + minimal amplification)
         - Hypothesized reduction: 75% (but 150 units still manifests)
 
 
@@ -231,7 +231,7 @@ A fundamental distinction between healthy and ME/CFS post-exertional responses l
 
 _Healthy individuals_ (moderate exertion range): Near-linear relationship. Doubling exercise intensity approximately doubles soreness severity and recovery time. A 5km run produces roughly half the DOMS of a 10km run. A 20km run produces proportionally more soreness but within the same biological framework—more microdamage requiring more repair, scaling predictably. This linearity allows precise training dose calibration.
 
-_ME/CFS patients_: Catastrophically non-linear relationship with threshold effect. Below threshold (varies individually, often 50–200m walking): Minimal symptoms, proportional response similar to healthy population. Crossing threshold: Exponential amplification. Activity just 10% above threshold may produce not 10% worse symptoms but 500% worse symptoms—the difference between manageable tiredness and bedbound collapse. This non-linearity reflects cascade amplification: once ATP depletion crosses critical threshold (estimated \textasciitilde30% of normal, based on general cellular bioenergetics), immune dysregulation triggers, mitochondrial damage amplifies exponentially, and the system enters catastrophic failure mode rather than controlled stress response.
+_ME/CFS patients_: Catastrophically non-linear relationship with threshold effect. Below threshold (varies individually, often 50–200m walking): Minimal symptoms, proportional response similar to healthy population. Crossing threshold: Exponential amplification. Activity just 10% above threshold may produce not 10% worse symptoms but 500% worse symptoms—the difference between manageable tiredness and bedbound collapse. This non-linearity reflects cascade amplification: once ATP depletion crosses critical threshold (estimated ~30% of normal, based on general cellular bioenergetics), immune dysregulation triggers, mitochondrial damage amplifies exponentially, and the system enters catastrophic failure mode rather than controlled stress response.
 
 *Critical insight—The fundamental asymmetry: Why recovery is non-linear while damage may be linear.* In healthy individuals, both damage and recovery scale linearly with exertion. A 10km run causes proportional muscle microdamage and inflammation, requiring proportional recovery time (perhaps 48–72h). The body has fuel reserves to execute the repair: adequate ATP to synthesize proteins, adequate NAD#super[+] for cellular metabolism, functional mitochondria to generate energy for the repair processes themselves. Even extreme exertion (e.g., marathon) produces severe but _finite_ damage that resolves predictably given adequate rest and nutrition.
 

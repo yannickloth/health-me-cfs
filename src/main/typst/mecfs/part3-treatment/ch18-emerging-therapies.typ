@@ -701,7 +701,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 - Volume expansion may temporarily worsen POTS in hypovolemic-predominant patients
 - This is a research-stage concept — no ME/CFS data exist
 
-*Testable prediction:* 4 weekly albumin infusions reduce serum free iron and HMGB1 by ≥25%, reduce isoprostanes by ≥20%, and improve fatigue (SF-36 PF ≥5 points) compared to baseline in a pre/post pilot study. Iron buffering and HMGB1 reduction are independent predictors of fatigue improvement.
+*Testable prediction:* 4 weekly albumin infusions reduce serum free iron and HMGB1 by ≥25%, reduce isoprostanes by ≥20%, and improve fatigue (SF-36 PF ≥5 points) compared to baseline in a pre/post pilot study. Falsified if free iron AND HMGB1 do not decrease — if only DAMP or only iron improves, the "triple-mechanism" claim is refuted; single-mechanism efficacy would require separate hypothesis reformulation.
 
 *Cross-reference:* HMGB1 DAMP hypothesis (@sec:um-resolution, Chapter @ch:universal-mechanisms). DAMP clearance protocol C2 (@spec:c2-damp-clearance). Iron/ferroptosis mechanism (Chapter @ch:energy-metabolism). Hepcidin-iron trap hypothesis (ch14b).
 ] <spec:albumin-damp-iron-clearance>
