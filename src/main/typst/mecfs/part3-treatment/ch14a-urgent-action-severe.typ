@@ -1606,7 +1606,6 @@ In severe and very-severe ME/CFS, pacing transitions from a self-management stra
 
 Caregivers who are also family members face unique challenges. Emotional investment can drive over-care — attempting more interventions than the patient can tolerate. The rule "less is more" must be consciously enforced. Caregiver burnout directly threatens the patient's stability, and caregiver self-care is a medical priority for the patient's sake @Hermisson2026CareGuide @Fennell2021Suffering.
 
-    <sec:caregiver-pacing-severe>
 == Expected 2-Week Outcomes
 <sec:two-week-outcomes>
 

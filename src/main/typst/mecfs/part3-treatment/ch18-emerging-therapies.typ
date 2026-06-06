@@ -689,6 +689,23 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Cross-reference:* HMGB1-DAMP hypothesis (@sec:um-resolution). HMGB1-ferroptosis ODE model (@prop:hmgb1-ferroptosis-ode). Glycyrrhizin speculation (@spec:glycyrrhizin-hmgb1).
 ] <spec:c2-damp-clearance>
 
+=== Albumin Infusion for DAMP Sequestration and Iron Buffering
+<sec:albumin-damp-clearance>
+
+#speculation(title: [Intravenous Albumin for Triple-Mechanism DAMP Clearance and Iron Buffering])[
+*Certainty: 0.25.* Intravenous albumin infusion (25% albumin, 100 mL weekly × 4) provides three complementary anti-inflammatory mechanisms from a single, well-established intervention already used in critical care: (a) iron-binding capacity — albumin binds free iron, reducing Fenton chemistry-driven ROS generation and ferroptosis; (b) HMGB1 sequestration — albumin directly binds and neutralizes extracellular HMGB1, the central DAMP implicated in PEM amplification (Section @sec:um-resolution); (c) thiol-mediated antioxidant activity — albumin's free cysteine (Cys34) is a major plasma thiol reservoir with radical-scavenging capacity. These three effects — iron buffering, DAMP neutralization, and antioxidant activity — address distinct nodes of the ferroptosis-DAMP-oxidative stress cycle with one intervention. A pilot study design (n=10, pre/post) would measure free iron, ferritin, HMGB1, isoprostanes, and fatigue scores before and after 4 weekly infusions.
+
+*Safety:*
+- Albumin infusion is well-tolerated in critical care and volume expansion indications
+- Contraindications: congestive heart failure, severe anemia, sensitivity to albumin
+- Volume expansion may temporarily worsen POTS in hypovolemic-predominant patients
+- This is a research-stage concept — no ME/CFS data exist
+
+*Testable prediction:* 4 weekly albumin infusions reduce serum free iron and HMGB1 by ≥25%, reduce isoprostanes by ≥20%, and improve fatigue (SF-36 PF ≥5 points) compared to baseline in a pre/post pilot study. Iron buffering and HMGB1 reduction are independent predictors of fatigue improvement.
+
+*Cross-reference:* HMGB1 DAMP hypothesis (@sec:um-resolution, Chapter @ch:universal-mechanisms). DAMP clearance protocol C2 (@spec:c2-damp-clearance). Iron/ferroptosis mechanism (Chapter @ch:energy-metabolism). H6 hepcidin-iron trap hypothesis (hypothesis-registry:@h6-iron-hepcidin).
+] <spec:albumin-damp-iron-clearance>
+
 === Protocol C3: ER Stress Resolution Protocol
 <sec:c3-er-stress-resolution>
 

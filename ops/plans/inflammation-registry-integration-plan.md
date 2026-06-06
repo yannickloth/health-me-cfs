@@ -204,9 +204,9 @@
 | S1 | High-dose DHA/EPA SPM substrate | 1 | 0.45 | ✅ done | ch12 speculation |
 | S2 | L-citrulline NK function | 1 | 0.45 | ✅ done | ch09 speculation |
 | S3 | Quercetin multi-target | 1 | 0.40 | ✅ done | Hypothesis registry |
-| S4 | Albumin/transferrin DAMP clearing | 2 | 0.25 | ⬜ pending | Needs integration |
+| S4 | Albumin/transferrin DAMP clearing | 2 | 0.25 | 🔵 in progress | Needs integration into ch16 or ch14a |
 | N1 | tVNS SPM induction | 1 | 0.35 | ✅ done | ch18 speculation |
-| N2 | Contrast hydrotherapy UPR-SPM | 2 | 0.30 | ✅ done | Hypothesis registry |
+| N2 | Contrast hydrotherapy UPR-SPM | 2 | 0.30 | 🔵 in progress | Hypothesis registry; also integrated as vasomotor conditioning in ch17 |
 | N3 | Intermittent fasting UPR hormesis | 2 | 0.25 | ✅ done | Hypothesis registry |
 | M1 | SPM resolution ODE | 1 | — | ✅ done | ch16 proposal |
 | M2 | HMGB1-ferroptosis ODE coupling | 1 | — | ✅ done | ch16 proposal |
@@ -227,7 +227,7 @@
 | S4 | Albumin/transferrin infusions | 2 | 0.25 | ⬜ pending | Needs integration |
 | — | Phase 4: 42 ideas integrated | 0 | — | ✅ done | 39 of 42 ideas integrated into 16 chapters (S4, N2 pending) |
 | — | Phase 5 build | 0 | — | ✅ done | Build PASS on 2026-06-06 |
-| — | Phase 6 review convergence | 0 | — | ⬜ pending | |
+| — | Phase 6 review convergence | 0 | — | 🔵 in progress | |
 | — | Phase 7 changelog | 0 | — | ⬜ pending | |
 | — | Phase 8 commit | 0 | — | ⬜ pending | |
 

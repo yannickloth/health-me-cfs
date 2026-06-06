@@ -2225,7 +2225,7 @@ Practical implementation framework.
 - Continue Phase 2 supplements
 - Add PEA: 300–600 mg/day (pain)
 - Add melatonin variation if needed (sleep optimization)
-- Consider adjuncts based on phenotyping (see Section:phenotyping-imperative)
+- Consider adjuncts based on phenotyping (see @sec:phenotyping-imperative)
 
 *Caregiver responsibilities:*
 
