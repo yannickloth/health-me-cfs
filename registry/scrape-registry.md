@@ -316,6 +316,7 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/39697147/ | pubmed | 2026-04-21 | 2026-04-21 | ch24/bib/appendix-h — Larun2024exerciseCFS — Cochrane exercise review updated Dec 2024 acknowledged-but-discounted bias |
 | https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2025.1681990/full | frontiersin | 2026-04-21 | 2026-04-21 | ch17/bib — Wei2025exerciseMECFS — exercise meta-analysis 13 RCTs same structural flaw |
 | https://www.sciencedirect.com/science/article/pii/S2589004225024393 | sciencedirect | 2026-04-21 | 2026-04-21 | ch17/bib — Liao2025exerciseNetwork — network meta-analysis 20 trials same structural flaw |
+| https://link.springer.com/article/10.1007/s10354-026-01155-6 | springer | 2026-06-06 | — | bib/appendix-h/content-staging — Hermisson2026CareGuide — severe ME/CFS care guide consensus statement |
 | https://pubmed.ncbi.nlm.nih.gov/40725538/ | pubmed | 2026-04-23 | — | ch20/ch02/ch05/bib/appendix-h — Grach2025voiceSpeech — voice speech abnormalities ME/CFS Pacing Narrative Study AI analysis |
 | https://pubmed.ncbi.nlm.nih.gov/40944028/ | pubmed | 2026-04-23 | — | ch09/ch14d/ch20/bib/appendix-h — MCAM2025autonomic — autonomic dysfunction MCAM multi-site n=442 COMPASS-31 NASA lean test |
 | https://pubmed.ncbi.nlm.nih.gov/41598473/ | pubmed | 2026-04-23 | — | ch17/ch24/bib/appendix-h — Goicoechea2026pediatricRehab — pediatric post-COVID pulmonary rehab 12-month n=115 quasi-experimental |
