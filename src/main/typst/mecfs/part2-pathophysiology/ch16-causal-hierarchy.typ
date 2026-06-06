@@ -976,3 +976,75 @@ Beyond the core hierarchy, several extensions developed in this chapter and its 
 This chapter's claims are themselves hypotheses, informed by the evidence accumulated in Chapters @ch:energy-metabolism–@ch:speculative-hypotheses but not proven by it. The sister chapter in Part V (Chapter @ch:causal-hierarchy-formal) subjects them to formal mathematical testing, encoding the biological reasoning developed here into dynamical systems models that can be interrogated with precision. Where the two approaches agree, confidence increases; where they disagree, the disagreement identifies specific gaps in understanding that future research must address.
 
 The hierarchy is a framework for thinking, not a dogma for believing. It will be revised as evidence accumulates, as new mechanisms are discovered, and as therapeutic experiments test its predictions. The honest acknowledgment of this uncertainty is not a weakness of the framework—it is its defining feature. In a field long plagued by premature certainty, from those who dismissed the illness as psychological to those who promoted specific biological theories without adequate evidence, the most useful contribution may be not the answers, but a disciplined way of asking the questions.
+
+== Formal Model Proposals for Causal Hierarchy Validation
+<sec:formal-model-proposals>
+
+The following proposals formalize specific mechanisms from the causal hierarchy as ordinary differential equation (ODE) systems. These models are designed to be instantiated in Chapter @ch:causal-hierarchy-formal and tested against empirical data.
+
+=== SPM Resolution ODE Model
+<prop:spm-resolution-ode>
+
+#proposal(title: [SPM Resolution ODE: dSPM"/dt" = k substrate - d * SPM - k pem * PEM])[
+*Proposal:* Introduce a new dynamic variable SPM(t) representing the systemic concentration of specialized pro-resolving mediators (resolvins, protectins, maresins, lipoxins). The rate equation is:
+
+$("dSPM")/("d"t) = k_"sub" S_"substrate" - d "SPM" - k_"pem" "PEM"(t)$
+
+where $S_"substrate"$ is omega-3 precursor availability (EPA/DHA), $d$ is the degradation rate constant, and $k_"pem"$ represents exertion-dependent SPM consumption or inactivation during PEM episodes. The PEM(t) term couples SPM dynamics to the exertion cascade, creating a scenario where repeated exertion before SPM recovery produces cumulative resolution deficit.
+
+*Key predictions:*
+- SPM depletion below a critical threshold $theta_"SPM"$ prevents normal resolution of post-exertional inflammation, prolonging the recovery window
+- tVNS enhances $k_"sub"$ (vagal-SPM coupling via $alpha$7-nAChR), shifting the steady state upward
+- Aspirin-acetylated COX-2 generates aspirin-triggered resolvins (AT-RvD1-4, AT-RvE1-3), providing a bypass mechanism when native SPM synthesis is impaired
+- The model predicts a bifurcation: below a critical $k_"sub"$/$d$ ratio, the SPM system cannot maintain a healthy steady state, and resolution failure becomes self-sustaining
+
+*Testable:* SPM lipidomics at multiple time points post-CPET in ME/CFS vs controls would parameterize $k_"sub"$, $d$, and $k_"pem"$ for each patient. (Proposal only; no ME/CFS SPM data exist.)
+
+*Cross-reference:* SPM deficiency hypothesis at @sec:um-resolution. Cholinergic-SPM coupling at Chapter @ch:neurological.
+]
+
+=== HMGB1-Ferroptosis ODE Coupling
+<prop:hmgb1-ferroptosis-ode>
+
+#proposal(title: [HMGB1-Ferroptosis Coupled ODE System])[
+*Proposal:* Model the bidirectional amplification between HMGB1 release and ferroptosis susceptibility as a coupled ODE system. Let $H(t)$ = extracellular HMGB1 concentration (disulfide + reduced isoforms) and $F(t)$ = ferroptosis potential (proxied by lipid peroxidation burden).
+
+$"dH""/dt" = alpha_H dot F - beta_H dot H$
+$"dF""/dt" = alpha_F dot H - beta_F dot F + gamma(t)$
+
+where $alpha_H$ is the rate of HMGB1 release from ferroptotic cells (DAMP release), $beta_H$ is HMGB1 clearance, $alpha_F$ is HMGB1-driven ferroptosis promotion (via TLR4/RAGE → ROS → lipid peroxidation), $beta_F$ is endogenous antioxidant/GPX4-dependent repair, and $gamma(t)$ captures exertion-driven oxidative stress.
+
+*Key predictions:*
+- The system admits a stable low (healthy) and a stable high (disease) steady state when $alpha_H alpha_F / (beta_H beta_F) > 1$
+- Exercise shifts $gamma(t)$, providing a transient perturbation that can trigger state transition in vulnerable individuals
+- HMGB1 Box A antagonists reduce $alpha_H alpha_F$, shrinking the disease basin of attraction
+- Iron chelation (desferrioxamine) reduces $F$ by limiting Fenton chemistry, lowering $alpha_F$
+- Antioxidants (NAC, vitamin E) increase $beta_F$, facilitating return to healthy steady state
+
+*Testable:* Simultaneous HMGB1 isoform measurement and lipid peroxidation markers (4-HNE, MDA) at rest and post-exertion would provide initial parameter estimates. (Proposal only; no coupled HMGB1-ferroptosis data exist in ME/CFS.)
+
+*Cross-reference:* HMGB1 DAMP hypothesis at @sec:um-resolution. Ferroptosis susceptibility at @sec:ferroptosis.
+]
+
+=== IRE1alpha Bistable Switch Bifurcation Model
+<prop:ire1alpha-bistable-model>
+
+#proposal(title: [IRE1alpha Bistable Switch Bifurcation Model])[
+*Proposal:* Model the unfolded protein response (UPR) sensor IRE1alpha as a bistable switch governing the transition from adaptive UPR to chronic inflammatory signaling. Let $U(t)$ = unfolded protein load in the ER and $I(t)$ = IRE1alpha activity (spliced XBP1). The core dynamics follow:
+
+$"dI""/dt" = k_I dot U / (K_m + U) - d_I dot I + sigma(I)$
+$"dU""/dt" = p_U - d_U dot U - k_I dot U / (K_m + U)$
+
+where $sigma(I)$ represents autocatalytic IRE1alpha activation (clustering-induced trans-autophosphorylation at high unfolded protein load), $p_U$ is the baseline protein misfolding rate, and $d_U$ is ERAD-dependent unfolded protein clearance.
+
+*Key predictions:*
+- At low $p_U$ (normal physiology), the system has a single stable fixed point (low I, low U — adaptive UPR)
+- At high $p_U$ (oxidative stress, viral infection, mitochondrial dysfunction), the system undergoes a saddle-node bifurcation, gaining a second stable fixed point (high I, high U — chronic UPR with IL-6/TNF-$alpha$ production via IRE1alpha-XBP1)
+- The bistable switch creates hysteresis: once activated, chronic UPR persists even after $p_U$ returns to normal
+- TUDCA (chemical chaperone) reduces $U$ directly, potentially collapsing the chronic high-I state
+- PERK-eIF2alpha and ATF6 arms provide parallel but slower response channels, setting the timescale for resolution vs. commitment to apoptosis
+
+*Testable:* Measurement of spliced XBP1, phospho-IRE1alpha, GRP78, and CHOP in ME/CFS PBMCs at baseline and post-exertion would test whether UPR activation follows bistable kinetics. (Proposal only; no IRE1alpha/UPR data exist in ME/CFS.)
+
+*Cross-reference:* UPR/ER stress section at @sec:um-proteostasis. PERK-ATF4-CHOP apoptosis at Chapter @ch:energy-metabolism.
+]

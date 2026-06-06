@@ -582,7 +582,7 @@ The IgM dominance observed in tissue-specific autoantibodies @Tatai2026TSAutoant
 - The COX-2/PGE2/TRPV1 loop will be more active in ME/CFS patients with prominent pain and thermal sensitivity than in patients with fatigue-predominant presentations
 - Topical capsaicin (TRPV1 agonist, causing desensitization with repeated application) will reduce pain and heat intolerance in ME/CFS more effectively than placebo
 
-*Cross-reference:* Ferroptosis susceptibility (@sec:ferroptosis) — lipid peroxidation from ferroptosis provides ROS that activate TRPV1, creating a ferroptosis-eicosanoid bridge. Pain-producing mechanisms (Chapter @ch:symptom-mechanisms). Mast cell activation (@hyp:mast-cell-polarization) — mast cell mediators directly activate TRPV1.
+*Cross-reference:* Ferroptosis susceptibility (@sec:ferroptosis) — lipid peroxidation from ferroptosis provides ROS that activate TRPV1, creating a ferroptosis-eicosanoid bridge. Pain-producing mechanisms (Chapter @ch:symptom-mechanisms). Mast cell activation (@sec:allergies-mast-cells) — mast cell mediators directly activate TRPV1.
 ] <spec:eicosanoid-storm>
 
 === Iron Regulation and Hemodynamics
@@ -604,7 +604,7 @@ The IgM dominance observed in tissue-specific autoantibodies @Tatai2026TSAutoant
 
 *Testable prediction:* ME/CFS patients with low serum iron, elevated ferritin (acute-phase), and elevated IL-6 will show the highest hepcidin levels. Danazol 200 mg BID for 12 weeks will reduce hepcidin, increase serum iron and transferrin saturation, and improve fatigue scores in hepcidin-high patients. Falsified if hepcidin is normal in ME/CFS or if danazol does not improve iron parameters or symptoms despite hepcidin reduction.
 
-*Cross-reference:* Ferroptosis susceptibility (@sec:ferroptosis). Iron redistribution protocol (@c4:iron-redistribution). Anemia of chronic disease markers (Chapter @ch:biomarker-research).
+*Cross-reference:* Ferroptosis susceptibility (@sec:ferroptosis). Iron redistribution protocol (@spec:iron-redistribution-protocol). Anemia of chronic disease markers (Chapter @ch:biomarker-research).
 ] <spec:danazol-hepcidin>
 
 #speculation(title: [Iron Redistribution Protocol: Danazol + Vitamin E + CoQ10])[
@@ -626,7 +626,7 @@ Danazol moves iron from storage to circulation (increasing serum iron and transf
 - CoQ10: generally well-tolerated; mild insomnia at high doses
 - Iron overload risk: monitoring of ferritin, transferrin saturation, and hemoglobin required; contraindicated in hemochromatosis
 
-*Testable prediction:* ME/CFS patients with hepcidin-mediated iron trapping (low serum iron, transferrin saturation <20%, elevated ferritin) receiving the triple protocol show improved serum iron (+30%), reduced fatigue (SF-36 PF +15 points), and decreased lipid peroxidation markers (8-isoprostane -25%) compared to danazol alone or placebo. The danazol-alone arm shows iron improvement but increased oxidative stress (transient 8-isoprostane elevation) not seen in the triple arm.
+*Testable prediction:* ME/CFS patients with hepcidin-mediated iron trapping (low serum iron, transferrin saturation \<20%, elevated ferritin) receiving the triple protocol show improved serum iron (+30%), reduced fatigue (SF-36 PF +15 points), and decreased lipid peroxidation markers (8-isoprostane -25%) compared to danazol alone or placebo. The danazol-alone arm shows iron improvement but increased oxidative stress (transient 8-isoprostane elevation) not seen in the triple arm.
 
 *Limitations:* Zero ME/CFS data for any component in this combination. Danazol has no approved indication for iron redistribution. Certainty is the product of three uncertain components. Not a clinical recommendation — research protocol only.
 

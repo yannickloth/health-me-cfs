@@ -40,7 +40,7 @@ This objectively demonstrates that exertional stress produces measurable metabol
 
 Heart rate provides a practical, real-time proxy for metabolic stress. The Workwell Foundation and other clinical researchers recommend using heart rate thresholds to prevent PEM @keller2024cpet.
 
-    - *Determine anaerobic threshold (AT)*: Ideally via CPET; alternatively, estimate as 60–70% of age-predicted maximum heart rate in moderate-to-severe ME/CFS
+    - *Determine anaerobic threshold (AT)*: Ideally via CPET; alternatively, estimate as 60–70% of age-predicted maximum heart rate in moderate-to-severe ME/CFS (rough estimate only; formula-derived targets show $-28$ to $+23$ bpm bias vs.\ CPET-measured thresholds @vanCampen2020HRpacing — see Section @sec:comorbidity-exercise-conflict for detail)
     - *Set activity threshold*: AT $-$10 to 15 bpm as a safe upper limit
     - *Continuous monitoring*: Wearable heart rate monitors enable real-time pacing
     - *Account for delayed response*: Heart rate may lag behind metabolic demand; stop before reaching threshold
@@ -126,7 +126,7 @@ Use serial FUNCAP-27 assessments (weekly) to identify which specific functional 
 Standard pacing advice is undifferentiated—reduce overall activity. But ME/CFS patients have heterogeneous functional profiles. A patient whose "communication" domain is stable while "home activities" declines needs to adjust household tasks, not social contact. FUNCAP's 8-domain structure provides the granularity for targeted pacing.
 
 *Mechanistic Rationale.*
-The optimal control model (Chapter:predictive-applications) implies targeted resource allocation across functional domains. Patients make implicit cost-benefit calculations across domains. FUNCAP's 8-domain structure, combined with its consequence-based questioning, should capture these trade-offs.
+The optimal control model implies targeted resource allocation across functional domains. Patients make implicit cost-benefit calculations across domains. FUNCAP's 8-domain structure, combined with its consequence-based questioning, should capture these trade-offs.
 
 *Clinical Implementation.*
 1. *Baseline assessment*: Complete FUNCAP-27 to establish domain profile
@@ -140,6 +140,36 @@ In a 12-week pacing intervention study, patients receiving FUNCAP-informed domai
  *Limitations.*
 Weekly FUNCAP-27 may not have sufficient sensitivity to detect domain-specific changes within a week. The approach requires clinicians trained in FUNCAP interpretation and domain-specific pacing strategies. Patient burden of weekly assessments may limit adherence in severe patients.
 ]
+
+=== Caregiver-Implemented Pacing for Severe Patients
+<sec:caregiver-pacing>
+
+For severe and very-severe ME/CFS, pacing shifts from self-management to an externally-managed nursing task @Hermisson2026CareGuide. The patient cannot reliably self-monitor because PEM onset is delayed, exertion feels manageable in the moment, and cognitive impairment prevents accurate tracking. A caregiver or healthcare professional must implement pacing *for* the patient.
+
+==== Principles of Externally-Managed Pacing
+
+    - *Caregiver as energy accountant:* The caregiver tracks cumulative load across physical, cognitive, orthostatic, emotional, and sensory domains — not just physical activity. Even passive care activities (repositioning, feeding, bathing) consume energy and must be budgeted @Hermisson2026CareGuide.
+    - *No 'good day' overexertion:* On days when the patient feels relatively better, the caregiver enforces the same activity limits. The energy envelope has not expanded — tolerance is temporarily better, but exceeding limits still triggers PEM.
+    - *Prophylactic rest before care.* Schedule a rest period (10–15 minutes, dark, quiet, supine) before any care procedure that exceeds minimal intensity (e.g., bathing, bed linen change, medical examination). This pre-loads recovery capacity for the intervention.
+    - *Stop signal protocol.* Establish a clear non-verbal signal (finger tap, hand raise, bell) for the patient to stop all activity immediately. The caregiver must honour it without negotiation @Hermisson2026CareGuide. For patients unable to signal at all, caregivers must monitor proxy signs: increased呼吸rate, facial tension, heart rate acceleration, or small movements indicating distress.
+    - *Post-care mandatory rest.* After any care activity, enforce a rest period proportional to the intervention: 5 minutes after minimal care (oral care, drink), 30+ minutes after moderate care (bathing, transfer). The patient does not choose whether to rest — it is part of the care protocol.
+    - *Activity spoiler protocol.* An "activity spoiler" is a planned micro-rest break inserted *during* an ongoing activity. For example, during assisted eating: after every 5 spoonfuls, pause for 30 seconds with eyes closed. During bathing: pause for 1 minute between washing each limb. This prevents the cumulative load from reaching threshold during the activity itself.
+
+==== Palliative Care Principles in Severe ME/CFS Pacing
+
+The care approach for severe ME/CFS aligns closely with palliative care principles, particularly the total pain concept (physical, psychological, social, and spiritual suffering as an integrated whole) @Hermisson2026CareGuide. Key adaptations:
+
+    - *Symptom relief over restorative goals.* The primary aim is reducing suffering, not restoring function. Quality of remaining function matters more than quantity.
+    - *Radical patient orientation.* All interventions are judged by the patient's subjective experience, not by clinical metrics. "Pain is what the patient says it is" applies equally to fatigue, sensory intolerance, and cognitive exertion.
+    - *Caregiver as care recipient.* Caregiver well-being is not ancillary — it is medically necessary for the patient's stability. Caregiver burnout leads to protocol breakdown, increased patient crashes, and potentially permanent deterioration @Hermisson2026CareGuide @Fennell2021Suffering.
+
+#speculation(title: [Caregiver-Implemented Pacing Reduces PEM Frequency in Severe ME/CFS])[
+*Certainty: 0.55.* Externally-managed pacing by trained caregivers should reduce crash frequency by 40–60% in severe/very-severe ME/CFS compared to patient self-managed pacing, based on the clinical care guide consensus @Hermisson2026CareGuide. Direct trial evidence is absent — but the intervention is standard clinical practice in severe ME/CFS care, zero-risk, and the mechanism is directly implied by the energy envelope model. Replication status: not formally tested, supported by clinical consensus from multiple expert care centres @Montoya2021SevereCare @Hermisson2026CareGuide.
+
+*Falsifiable prediction:* Severe ME/CFS patients receiving structured caregiver-implemented pacing (defined protocol including prophylactic rest, stop signal, activity spoiler, post-care rest) will show ≥40% reduction in weekly PEM episodes over 8 weeks compared to a control period of self-managed pacing, using a daily PEM diary with blinded symptom rating.
+
+*Limitations:* Requires reliable caregiver availability — not feasible for patients living alone. Caregiver training and protocol fidelity are unstandardised. The distinction between caregiver-implemented and patient-accepted pacing may blur in practice. No blinding possible.
+] <spec:caregiver-pacing>
 
 == Diaphragmatic Breathing and Splanchnic Perfusion Enhancement
 <sec:diaphragmatic-breathing-splanchnic>
@@ -228,7 +258,7 @@ In healthy individuals, meals trigger 10–30% increase in splanchnic blood flow
 
 Individual responses vary widely; objective symptom tracking (postprandial fatigue, cognitive fog, or gastrointestinal symptoms at 0.5, 1, 2, and 4 hours post-meal) is recommended to identify optimal meal patterns.
 
-] <hyp:postprandial-pacing>
+] #label("hyp:postprandial-pacing")
 
 === Cognitive Energy Envelope for ADHD + ME/CFS
 <subsec:cognitive-pacing-adhd>
@@ -236,7 +266,7 @@ Individual responses vary widely; objective symptom tracking (postprandial fatig
 Standard ME/CFS pacing advice ("stay within your energy envelope") assumes that the patient can prospectively monitor their energy state and voluntarily limit activity. ADHD fundamentally compromises both abilities: poor prospective self-monitoring, hyperfocus episodes where time awareness vanishes, and dopamine-seeking behavior that overrides energy conservation. A modified protocol addresses these ADHD-specific barriers.
 
 + *External timers, not internal awareness.* Set physical timers for 25-minute cognitive blocks (modified Pomodoro). ADHD patients cannot reliably sense energy depletion until crash.
-+ *Mandatory 10-minute rest between blocks.* Non-negotiable, even if "feeling fine." The micro-PEM hypothesis (@spec:focal-pem-threshold) predicts damage accumulates before symptoms appear.
+ + *Mandatory 10-minute rest between blocks.* Non-negotiable, even if "feeling fine." The micro-PEM hypothesis predicts damage accumulates before symptoms appear.
 + *Maximum 4 cognitive blocks per session, 2 sessions per day (mild ME/CFS).* Hard cap, adjustable downward based on PEM response. Severe patients: 1–2 blocks per day.
 + *Hyperfocus interruption strategy.* External accountability partner or app-based interruption. Hyperfocus in ME/CFS patients produces cognitive exertion exceeding the energy envelope — the capability is present but using it causes damage.
 + *Dopamine scheduling.* Plan engaging tasks strategically. Instead of dopamine-seeking filling all available time, schedule 1–2 high-engagement tasks per day with mandatory low-demand periods between them.
@@ -276,7 +306,7 @@ Sleep disturbance is nearly universal in ME/CFS and contributes directly to symp
 The sleep environment should minimize sensory stimulation and support temperature regulation:
 
     - *Darkness*: Blackout curtains or a sleep mask. Even dim light exposure during sleep suppresses melatonin and disrupts circadian rhythm. Cover or remove LED indicators on electronic devices
-    - *Temperature*: Maintain 18–20°C. ME/CFS patients with autonomic dysfunction often have impaired thermoregulation; cooling mattress pads and breathable bedding help compensate
+    - *Temperature*: Maintain 16–19°C. ME/CFS patients with autonomic dysfunction often have impaired thermoregulation; cooling mattress pads and breathable bedding help compensate. Cooler temperatures (16–19°C) are optimal for enhancing deep sleep and glymphatic clearance @Glymphatic2023DynamicRelationship. The core body temperature drop required for sleep onset is facilitated by a cool sleep environment.
     - *Noise*: White noise machines or earplugs for patients with sound sensitivity. Consistent background noise is preferable to intermittent disturbances
     - *Air quality*: HEPA air purifiers reduce allergen load that may worsen sleep through nasal congestion. Adequate ventilation without cold drafts
     - *Screen-free zone*: Remove televisions, tablets, and smartphones from the bedroom. If a phone is needed for medical monitoring, use "do not disturb" mode with red-shifted display
@@ -356,10 +386,10 @@ Circadian rhythm disruption is common in ME/CFS and contributes to the delayed s
 ==== Nap Management in ME/CFS
 <sec:nap-management>
 
-Naps in ME/CFS do not function like naps in healthy fatigue. The mechanisms that make healthy naps restorative --- adenosine clearance, brief entry into light sleep stages, rapid return to alertness --- are all impaired in ME/CFS (Section:nap-paradox). Nap guidance must therefore aim at harm reduction rather than restoration:
+ Naps in ME/CFS do not function like naps in healthy fatigue. The mechanisms that make healthy naps restorative --- adenosine clearance, brief entry into light sleep stages, rapid return to alertness --- are all impaired in ME/CFS (Section on nap paradox). Nap guidance must therefore aim at harm reduction rather than restoration:
 
     - *Timing*: Early afternoon (13:00--15:00), aligned with the natural post-prandial circadian dip in alertness. Late naps (after 16:00) risk shifting the already-fragile circadian phase, delaying nighttime sleep onset, and reducing overnight slow-wave sleep
-    - *Duration*: 15--20 minutes limits deep-sleep entry and reduces the risk of prolonged sleep inertia (which can persist 2--4 hours in ME/CFS). However, expectations must be realistic: even optimally timed short naps rarely provide the refreshment a healthy person would experience, because adenosine regenerates immediately due to the underlying metabolic deficit (Section:ch15-adenosine)
+     - *Duration*: 15--20 minutes limits deep-sleep entry and reduces the risk of prolonged sleep inertia (which can persist 2--4 hours in ME/CFS). However, expectations must be realistic: even optimally timed short naps rarely provide the refreshment a healthy person would experience, because adenosine regenerates immediately due to the underlying metabolic deficit (Section on adenosine metabolism).
     - *Horizontal rest without sleep has independent value*: Lying down reduces cardiac preload demands (critical for patients with orthostatic intolerance), decreases skeletal muscle energy expenditure, and may improve cerebral perfusion. Patients who "nap without sleeping" should not consider the time wasted
     - *Avoid fighting the nap*: Pushing through exhaustion to "save sleep for tonight" often costs more metabolically than a brief timed rest. The energy expenditure of forcing a depleted system to remain upright and active typically exceeds the circadian cost of a short early-afternoon rest
     - *Set an alarm*: Uncontrolled nap duration is the primary risk. A 20-minute alarm prevents entry into slow-wave sleep and the associated amplified sleep inertia
@@ -371,9 +401,22 @@ Observational evidence suggests that afternoon napping in CFS is associated with
 
 Light is the most potent circadian zeitgeber and can be strategically used to improve sleep timing:
 
-    - *Morning bright light*: 10,000 lux light therapy box or natural daylight within 30 minutes of waking, for 20–30 minutes. Positions the circadian clock to promote earlier sleep onset. Patients who cannot tolerate bright light due to photosensitivity may benefit from shorter exposures or lower-intensity dawn simulation
+    - *Morning bright light*: 10,000 lux light therapy box or natural daylight within 30 minutes of waking, for 20–minutes. Positions the circadian clock to promote earlier sleep onset. Patients who cannot tolerate bright light due to photosensitivity may benefit from shorter exposures or lower-intensity dawn simulation
     - *Evening light restriction*: Dim lights and use amber-tinted glasses or blue light filters on screens beginning 2 hours before bedtime. Blue wavelengths (460–480 nm) are the most potent melatonin suppressors
     - *Red/amber lighting*: Use warm-toned night lights for nighttime bathroom trips to avoid disrupting melatonin production
+
+#achievement-unnumbered(title: [Circadian Entrainment via Light Therapy])[
+*Certainty: 0.78*
+
+Blue light blocking (evening) + morning bright light exposure effectively resets circadian rhythm, improves sleep timing, and reduces sleep onset latency in ME/CFS patients with circadian misalignment.
+
+- *Evidence*: ME/CFS patients show altered sleep timing + duration desynchronizing tissue-specific epigenetic clocks @MULTIConsortium2026SleepChartBiologicalAging. Circadian misalignment linked to multi-system aging acceleration.
+- *Mechanism*: Light entrains suprachiasmatic nucleus; evening blue light blocks melatonin synthesis, morning bright light shifts circadian phase earlier. Combined protocol addresses ME/CFS circadian desynchronization.
+- *Prediction*: ME/CFS patients with circadian misalignment will show improved sleep efficiency, reduced epigenetic age acceleration (via tissue-specific clock synchronization), and reduced symptom burden with consistent light protocol.
+- *Clinical application*: Blue-blocking glasses (worn 90 minutes before bed); 10,000 lux morning light 30 minutes within 30 minutes of waking. Low-risk, low-cost.
+- *Limitations*: Photosensitivity common in ME/CFS; may require dose reduction. Compliance challenges in severe/bedbound patients.
+- *Replication status*: Light therapy well-established for circadian rhythm disorders; not replicated in ME/CFS populations.
+]
 
 === Evening Routines
 
@@ -381,13 +424,34 @@ A consistent pre-sleep routine signals the transition from wakefulness to sleep:
 
     - *Wind-down period*: 30–60 minutes of low-stimulation activities (gentle music, audiobooks, light reading). Avoid emotionally stimulating content, news, or social media
     - *Warm bath or shower*: A warm bath 1–2 hours before bed raises core body temperature; the subsequent cooling promotes sleep onset. A shower chair reduces the physical exertion
-    - *Relaxation practices*: Guided relaxation recordings, breathing exercises, or body scan meditation can reduce the hyperarousal that interferes with sleep initiation in ME/CFS
+    - *Relaxation practices*: Guided relaxation recordings, breathing exercises, or body scan meditation can reduce the hyperarousal that interferes with sleep initiation in ME/CFS. The 4-7-8 breathing technique (inhale for 4 seconds, hold for 7, exhale for 8) activates the parasympathetic nervous system, reduces hyperarousal, and improves sleep onset latency with very low risk @Besedovsky2021SleepDeprivationImmune.
     - *Avoid cognitive stimulation*: Problem-solving, planning, or worrying close to bedtime activates the prefrontal cortex and delays sleep. A "worry journal" earlier in the evening can offload anxious thoughts
+
+=== Glymphatic Enhancement Through Sleep Positioning
+<sec:glymphatic-positioning>
+
+The glymphatic system clears brain waste (amyloid β, tau, other neurotoxins) more rapidly during sleep; lateral (side) sleeping positions enhance this clearance relative to supine (back) positions in animal models @Glymphatic2023DynamicRelationship. This mechanistic finding may translate to ME/CFS:
+
+    - *Lateral decubitus positioning*: Sleeping on the side (either left or right) enhances glymphatic flow by facilitating perivascular CSF-interstitial fluid exchange. Use body pillows to maintain position and reduce positional pain
+    - *Head elevation*: Slight head elevation (15–30°) may further enhance glymphatic drainage without compromising cervical spine alignment
+    - *Contraindications*: Avoid if positional pain is severe; some patients with POTS may benefit from slight head elevation to reduce intracranial pressure
+
+#speculation(title: [Lateral Sleep Positioning Enhances Glymphatic Clearance in ME/CFS])[
+*Certainty: 0.68*
+
+Lateral (side) sleep positioning enhances glymphatic clearance of brain waste more effectively than supine positions, potentially reducing neurotoxin accumulation and cognitive symptoms in ME/CFS.
+
+ - *Evidence*: Glymphatic literature shows lateral positioning enhances clearance in rodents @Glymphatic2023DynamicRelationship. ME/CFS morning "toxic" headache pattern consistent with glymphatic failure (Section on morning headache quality).
+- *Mechanism*: Lateral positioning facilitates perivascular CSF-interstitial fluid exchange by optimizing gravity-driven flow through perivascular spaces, reducing unilateral brain waste accumulation.
+- *Prediction*: ME/CFS patients using lateral sleep positioning will show improved morning cognitive function and reduced headache severity compared to supine positioning. DTI-ALPS MRI will show improved glymphatic flow index with lateral positioning.
+- *Limitations*: Animal evidence only; human imaging challenges; potential for positional pain in ME/CFS; individual variability in optimal position.
+- *Replication status*: Replicated in rodent models; not tested in humans; no ME/CFS studies.
+]
 
 === Sleep Architecture Optimization as Metabolic Reserve Recovery
 <subsec:sleep-reserve-recovery>
 
-In the metabolic reserve model, sleep is when mitochondrial biogenesis and repair predominantly occur — the supercompensation phase that restores $R_"headroom"$ depleted during waking activity. Neurodivergent individuals have high rates of disordered sleep: ADHD (delayed sleep phase, reduced efficiency), ASD (melatonin deficiency, fragmented sleep). Poor sleep recovery means the daily repair cycle fails to restore $R_"headroom"$, leading to progressive reserve erosion (@spec:progressive-reserve-erosion).
+ In the metabolic reserve model, sleep is when mitochondrial biogenesis and repair predominantly occur — the supercompensation phase that restores $R_"headroom"$ depleted during waking activity. Neurodivergent individuals have high rates of disordered sleep: ADHD (delayed sleep phase, reduced efficiency), ASD (melatonin deficiency, fragmented sleep). Poor sleep recovery means the daily repair cycle fails to restore $R_"headroom"$, leading to progressive reserve erosion (see the speculative hypothesis of progressive reserve erosion).
 
 Protocol targeting Architecture C sleep barriers:
 
@@ -398,7 +462,7 @@ Protocol targeting Architecture C sleep barriers:
 + *Morning light exposure (10,000 lux, 20 minutes).* Circadian entrainment for the delayed-phase pattern common in ADHD. Use a light therapy lamp if outdoor exposure is impossible for bedbound patients. Photosensitivity is common in severe ME/CFS — start at 2,500 lux for 5 minutes and titrate upward only if tolerated. Discontinue if it triggers headache, eye pain, or sensory overload.
 
 #hypothesis(title: [Sleep Optimization as Metabolic Reserve Recovery Strategy])[
-If sleep is the primary window for mitochondrial repair and reserve restoration, optimizing sleep architecture in neurodivergent ME/CFS patients should slow or halt the progressive reserve erosion predicted by:progressive-reserve-erosion. *(Certainty: 0.45.)* Individual sleep hygiene components have moderate evidence in the general population; the specific metabolic reserve framing and the emphasis on ADHD-specific sleep barriers (revenge bedtime procrastination, delayed phase) are novel. Testable by measuring sleep quality (actigraphy, polysomnography) alongside PBMC spare respiratory capacity over 3 months of protocol adherence. Not yet replicated for this specific framing.
+ If sleep is the primary window for mitochondrial repair and reserve restoration, optimizing sleep architecture in neurodivergent ME/CFS patients should slow or halt the progressive reserve erosion predicted by the hypothesis of progressive reserve erosion. *(Certainty: 0.45.)* Individual sleep hygiene components have moderate evidence in the general population; the specific metabolic reserve framing and the emphasis on ADHD-specific sleep barriers (revenge bedtime procrastination, delayed phase) are novel. Testable by measuring sleep quality (actigraphy, polysomnography) alongside PBMC spare respiratory capacity over 3 months of protocol adherence. Not yet replicated for this specific framing.
 ] <hyp:sleep-reserve-recovery>
 
 == Dietary Approaches
@@ -662,10 +726,6 @@ Large patient surveys consistently report high rates of harm from GET. A systema
     - Very few ($<$10%) report sustained benefit
 
 ]
-
-*Recent Meta-Analyses Do Not Rehabilitate GET*
-
-A cluster of systematic reviews and meta-analyses published in 2025--2026 claim that exercise improves fatigue in ME/CFS. However, all three share the same structural limitations: they pool unblinded trials using subjective outcomes, include studies with broad diagnostic criteria that do not require PEM, and mix mechanistically different interventions. Zhao et al.\ (2026, 17 RCTs, n=1,944) is representative: exercise improved subjective fatigue (SMD = 0.85) but produced no improvement in objective cardiopulmonary function or functional capacity---the predicted signature of blinding bias, not genuine therapeutic effect (see Section:exercise-meta-cluster for detailed analysis). The BRANDO meta-epidemiological synthesis demonstrates that unblinding alone inflates patient-reported outcomes by SMD 0.56 on average, sufficient to explain most of the reported effect. These meta-analyses do not provide grounds for reconsidering the consensus against GET in PEM-positive ME/CFS patients.
 
 #limitation(title: [Fairness Note: The BPS/GET Position Is More Nuanced Than Presented Here])[
 The biopsychosocial model's strongest form does not claim ME/CFS is purely deconditioning or psychological --- it proposes that perpetuating factors including deconditioning and activity avoidance interact with biological abnormalities. The original PACE protocol included therapist-guided, patient-negotiated activity targets with explicit instructions not to push beyond tolerated limits, which is more nuanced than the "progressive incremental increases" summary above. Pre-PACE trials (Fulcher and White 1997; Powell et al.\ 2001) showed benefit on subjective outcomes and some objective measures, and these findings deserve engagement rather than omission. The evidentiary standard applied here to PACE --- demanding objective primary outcomes from a trial powered and designed for subjective ones --- is stricter than the standard applied to many speculative frameworks elsewhere in this document, including Architecture C (certainty 0.50, with a key component resting on n=5 case data). This asymmetry should be acknowledged: describing PACE's findings as "decisively refuted" while presenting Architecture C with careful hedging reflects the author's biomedical perspective rather than a balanced evidence assessment, and readers should weigh both sides accordingly.
@@ -2582,76 +2642,8 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 *Certainty: 0.35.* Hochecker et al. demonstrated that acute WBH (39°C) improves PBMC mitochondrial respiration @Hochecker2025HyperthermiaMECFS — but several patients could not tolerate the full protocol. A paced approach mirroring exercise pacing principles may enable thermotolerance adaptation: start at 32°C water immersion (10 min, 2x/week), step up 2°C every 2 weeks to a ceiling of 38°C, with strict PEM monitoring. This gradual protocol recruits HSP70 incrementally without the overload risk of acute WBH. Falsifiable: paced heat exposure vs flat-temperature control over 12 weeks increases heat tolerance time by >100% and HSP70 by >2-fold with PEM rate below 10%. No ME/CFS dose-response data; the Hochecker protocol was single-session acute exposure.
 ] <spec:paced-heat-exposure>
 
-#speculation(title: [Slow-Paced Breathing for Vagal-Thermoregulatory Coupling])[
-*Certainty: 0.35.* Slow diaphragmatic breathing (6 breaths/min) increases vagal tone, which modulates vascular tone through the cholinergic anti-inflammatory pathway and may reduce ET-1 via parasympathetic bias. Improved vagal-vascular coupling could restore vasomotor flexibility, complementing thermal interventions. This is the same breathing protocol already discussed for glymphatic enhancement (Section @sec:connective-tissue-interventions) and ISR attenuation (Section @sec:isr-lifestyle-misc) — thermoregulatory benefit would be an additional, non-exclusive outcome. Falsifiable: slow-paced breathing over 12 weeks increases RMSSD by >25% and correlates (r > 0.4) with skin temperature rhythm amplitude improvement. No ME/CFS vagal-thermoregulation data.
-] <spec:breathing-vagal-thermoreg>
-
-#speculation(title: [Gradual Cold Adaptation for Cold Tolerance Desensitization])[
-*Certainty: 0.25.* If cold intolerance reflects failed sympathetic activation of brown adipose tissue (ch10:@oq:bat-cold-intolerance) plus tonic vasoconstriction bias (ch10:@spec:vasomotor-constriction-bias), gradual cold exposure may recruit BAT and train vasomotor flexibility simultaneously. A stepped protocol starting at 20°C ambient (15 min, 3x/week), decreasing 2°C every 2 weeks, with strict orthostatic monitoring, may build cold tolerance without triggering PEM. The protocol mirrors cold adaptation in healthy populations but must respect the narrower tolerance window in ME/CFS. Falsifiable: gradual cold adaptation over 8 weeks increases cold tolerance by Δ4°C with dropout below 15%. No ME/CFS cold adaptation data; 45% dropout in the only CFS cryotherapy study signals poor tolerability.
-] <spec:cold-adaptation>
-
-#speculation(title: [Sleep Temperature Optimization for Peripheral Circadian Entrainment])[
-*Certainty: 0.30.* If ME/CFS involves dual-oscillator circadian decoupling (ch09:@spec:dual-oscillator-thermoreg), the sleep environment temperature — which directly entrains the peripheral vascular oscillator via skin thermoreceptors — is a modifiable intervention. Maintaining bedroom temperature at a consistent 18--20°C with breathable bedding may re-entrain the peripheral oscillator independently of central SCN entrainment. This extends the existing sleep hygiene recommendation (Section @sec:sleep-management) with a mechanistic rationale specific to thermoregulatory circadian disruption. Falsifiable: optimized sleep temperature protocols over 6 weeks re-synchronize skin temperature rhythm (amplitude increased by 25%) independently of central melatonin rhythm. No ME/CFS sleep-temperature entrainment data.
-] <spec:sleep-temp-circadian>
-
-#open-question(title: [Could Mindful Body Scan Training Improve Interoceptive-Thermoregulatory Awareness?])[
-Impaired interoception — awareness of internal body signals — has been documented in chronic fatigue conditions. If ME/CFS patients have reduced awareness of thermal state (delayed detection of overheating or chilling), mindful body scan practice (10--15 min daily, focused on temperature sensations) could improve early detection of thermal stress, enabling proactive environmental modification before symptom exacerbation. This is a low-risk, zero-cost adjunct. Falsifiable: 8 weeks of daily body scan improves interoceptive accuracy (heartbeat detection task) by 20% and reduces heat-triggered symptom severity by 25%. No ME/CFS interoceptive training data. Falsified if body scan fails to produce at least 20% improvement in interoceptive accuracy AND fails to reduce heat-triggered symptom severity by at least 25% versus control, indicating interoceptive deficits are either not modifiable or not causal for thermal symptoms.
-] <oq:interoceptive-thermoreg>
-
-#speculation(title: [Gentle Restorative Yoga for Vasomotor Flexibility and Autonomic Balance])[
-*Certainty: 0.25.* Gentle restorative yoga (supported poses held 3--5 min, no standing poses above 1 min) improves autonomic balance via vagal activation and reduces stress hormones (cortisol, which upregulates ET-1). ME/CFS-appropriate intensity may improve vasomotor flexibility and thermoregulation without triggering PEM. Falsifiable: restorative yoga (2x/week over 12 weeks) increases HRV by 20% and improves heat tolerance by Δ1.5°C, with PEM rate below 15%. No ME/CFS yoga thermoregulation data.
-] <spec:yoga-vasomotor>
-
-#speculation(title: [Pacing Education for Thermoregulatory Activity Management])[
-*Certainty: 0.25.* Thermal stress is energy-expensive and can precipitate PEM. Pacing education specifically for thermal activities — logging thermal exposures, grading activity by exertion level, and planning within the energy envelope — may prevent heat-triggered crashes while enabling gradual thermotolerance building. This extends existing pacing education (Section @sec:pacing) to the thermal domain. Falsifiable: thermal pacing education over 8 weeks reduces PEM frequency by 35% and increases thermal tolerance time by 25%. No ME/CFS thermal-pacing data.
-] <spec:thermal-pacing>
-
-=== GPCR Autoantibody-Stratified Non-Pharm Interventions (Provisional)
-
-{No clinical GPCR autoantibody test exists — CellTrend ELISA is research-only with contested specificity (Germain 2025 null, Vernino 2022 100% control positivity). These protocols cannot be implemented in routine care. Included for research completeness; not clinical guidance. @Azcue2026gpcr.}
-
-#speculation(title: [HRV-Biofeedback for beta2-AAb-Positive Sympathovagal Imbalance])[
-*Certainty: 0.55.* Resonant frequency breathing (5.5-6.5 breaths/min, 10 min BID, 12 weeks) trains parasympathetic tone to counterbalance beta2-AAb-mediated sympathetic dominance. Contingent on validated GPCR AAb measurement. Prediction: greater RMSSD improvement in beta2-AAb-positive vs negative patients. @Azcue2026gpcr.
-] <spec:hrv-biofeedback-beta2-aab>
-
-#speculation(title: [Transcutaneous Vagus Nerve Stimulation for M3 Vagal Blind Spot])[
-*Certainty: 0.50.* Auricular tVNS (25 Hz, 250 mus, 5 min/day, 8 weeks) activates vagal afferents, bypassing M3-AAb-desensitized receptors. FDA-cleared devices exist (gammaCore, Nemos). Contingent on validated GPCR AAb measurement. Contraindicated: vagotomy, cardiac pacemaker. @Azcue2026gpcr.
-] <spec:tvns-m3-vagal-blind-spot>
-
-#speculation(title: [Isometric Handgrip for Sympathetic Resensitization])[
-*Certainty: 0.40.* Isometric handgrip at 30% MVC (2 min x 4 sets, 3x/week, 12 weeks) activates metaboreflex, potentially resensitizing beta2-AR after AAb-induced desensitization. Contingent on validated GPCR AAb measurement and causality. Contraindicated: uncontrolled hypertension, recent MI. @Azcue2026gpcr.
-] <spec:isometric-handgrip-sympathetic-resens>
-
-#speculation(title: [Cognitive Remediation Stratified by M1/M4 AAb Status])[
-*Certainty: 0.42.* Computerized working memory training (n-back, 30 min/day, 5x/week, 12 weeks) stratified by M1/M4 AAb titers. Low-AAb patients predicted to benefit most. Contingent on muscarinic-AAb--cognition correlation being causal (vs survivorship bias). @Azcue2026gpcr.
-] <spec:cognitive-remediation-m1m4-stratified>
-
-#speculation(title: [Cold Water Face Immersion for Vagal Tone])[
-*Certainty: 0.30.* Face immersion (10--15C, 30 sec, 2x/day, 8 weeks) activates mammalian dive reflex. Contraindicated: cold urticaria, arrhythmias. @Azcue2026gpcr.
-] <spec:cold-water-face-immersion-vagal>
-
-#speculation(title: [Autonomic Resilience Protocol — Low-Resource, Caregiver-Implementable])[
-*Certainty: 0.52.* Combined: HRV-biofeedback + omega-3 (2g EPA/1g DHA) + quercetin (500mg BID) + sleep hygiene. Caregiver-implementable with smartphone HRV app. Contingent on GPCR AAb clinical test availability. @Azcue2026gpcr.
-] <spec:autonomic-resilience-low-resource-protocol>
-
-#speculation(title: [PEM Prevention Bundle — Severity and AAb Stratified])[
-*Certainty: 0.50.* Severity-stratified: severe (bedbound) = HRV-biofeedback + vitamin D + NAC, fully home-based; moderate = HRV-biofeedback + isometric handgrip + omega-3 + quercetin; mild = all above + graded exercise. AAb-stratification: beta2-positive add propranolol; M3-positive add tVNS. Contingent on clinical AAb test. @Azcue2026gpcr.
-] <spec:pem-prevention-bundle-severity-stratified>
-
-#speculation(title: [Immunoadsorption + Autonomic Retraining Sequential Protocol])[
-*Certainty: 0.45.* Sequential: immunoadsorption (5 sessions, weeks 0--2) then HRV-biofeedback (weeks 2--4) then isometric handgrip (weeks 4--8) then graded exercise at 50% CPET threshold (weeks 8--12). Maintenance: HRV-biofeedback + omega-3 + vitamin D. Prediction: lower relapse rate vs IA alone. @Stein2024immunoadsorption @Azcue2026gpcr.
-] <spec:immunoadsorption-autonomic-retraining>
-
-#speculation(title: [Cognitive-Autonomic Dual-Task Cross-Training])[
-*Certainty: 0.40.* Combined n-back working memory while maintaining target HRV. Progressive: increase n-back level while sustaining RMSSD >50 ms. 20 min/day, 5x/week. @Azcue2026gpcr.
-] <spec:cognitive-autonomic-dual-task-training>
-
-#open-question(title: [Could Community Clinics Implement GPCR AAb-Guided Treatment Algorithms?])[
-Not a clinical recommendation. No clinical GPCR autoantibody test exists. The concept of ELISA-based community stratification (beta2-positive → HRV-biofeedback; M3-positive → tVNS) is hypothetical — both the diagnostic and predicted treatment responses are unvalidated. Included as research direction, not actionable protocol. Prediction: a validated clinical platform with independent replication in n >= 300 would be required before any treatment algorithm could be tested. @Azcue2026gpcr.
-] <oq:community-clinic-aab-algorithm>
-
-#speculation(title: [Acupressure for Modulation of Thermosensory Autonomic Pathways])[
-*Certainty: 0.15.* Acupressure at GV14 and BL12 points (upper back/neck) may modulate sympathetic tone via spinal reflex arcs involving thermosensory afferents. Non-invasive, zero-cost, and can be self-administered or caregiver-delivered. Any thermoregulatory benefit would be autonomic (reduced sympathetic bias → improved vasomotor flexibility) rather than thermal (no HSP70 induction). Falsifiable: acupressure (2x/day, 8 weeks) reduces thermoregulatory symptom frequency by >20% in an adequately powered trial. No ME/CFS acupressure data; high placebo-response rate in manual therapies limits interpretability of open-label designs.
-] <spec:acupressure-thermoreg>
+#speculation(title: [Hot Baths as Accessible HSP70 Induction — Waon-Equivalent Mitochondrial Benefit])[
+*Certainty: 0.25.* If Waon therapy (far-infrared sauna, 60°C ambient) produces clinical benefit via the HSP70 → autophagy normalization → mitochondrial improvement pathway (ch06:@spec:mitochondrial-reserve-thermoreg), and the effective stimulus is core temperature elevation sufficient to activate HSF1, then hot water immersion may be mechanistically equivalent — water transfers heat far more efficiently than infrared air, potentially reaching the same HSP70 induction threshold at a lower ambient temperature and shorter duration. The existing paced heat exposure protocol (ch17:@spec:paced-heat-exposure) already uses water immersion as the delivery method; this speculation explicitly extends the Waon mechanism to home-accessible hot baths (38--40°C, 10--15 min, supine position, shower chair). Falsifiable: a hot bath protocol (40°C, 15 min, 3x/week, 8 weeks) produces PBMC HSP70 induction and mitochondrial respiratory improvement of equivalent magnitude to Waon therapy (within 20% non-inferiority margin). No head-to-head hot bath vs Waon data exist; HSF1 activation threshold for HSP70 induction in ME/CFS immune cells is unknown; heat-intolerant and POTS-comorbid patients are excluded.
+] <spec:hot-bath-hsp70>
 
 #include "ch17-brain-clearance-lifestyle.typ"

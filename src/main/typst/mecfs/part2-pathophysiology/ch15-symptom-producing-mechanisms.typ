@@ -1548,6 +1548,6 @@ See Chapter @ch:energy-metabolism, Hypothesis @hyp:hif1alpha-mito-ecm-triad for 
 - The COX-2/PGE2/TRPV1 loop activity (measured by PGE2 levels and TRPV1 expression) will correlate with pain scores but not with CPET measures of aerobic capacity — confirming it as a symptom-producing rather than capacity-limiting mechanism
 - Celecoxib 200 mg/day will reduce pain scores (NRS >2 point reduction) in pain-predominant ME/CFS without improving VO2peak or 2-day CPET performance
 
-*Cross-reference:* Eicosanoid storm loop (@sec:eicosanoid-storm, Chapter @ch:autoimmune-immune). Pain mechanisms in central sensitization (Section @sec:ch15-central-sensitization). Mast cell-mediated pain (Section @sec:ch15-mast-cell). Low-dose naltrexone protocol (Chapter @ch:emerging-therapies).
+*Cross-reference:* Eicosanoid storm loop (@sec:eicosanoid-storm, Chapter @ch:immune-dysfunction). Pain mechanisms in central sensitization (Section @sec:ch15-central-sensitization). Mast cell-mediated pain (Section @sec:ch15-mast-cells). Low-dose naltrexone protocol (Chapter @ch:emerging-therapies).
 ] <spec:ch15-cox2-pge2-trpv1-pain>
 

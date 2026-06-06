@@ -626,8 +626,8 @@ Rather than “one size fits all,” these novel agents show differential releva
 
 The attractor dynamics model (Chapter @ch:integrated-systems, Section @sec:neuroplasticity-attractor) predicts that targeting multiple feedback loops simultaneously produces disproportionate benefit compared to sequential single-agent trials. The following speculation illustrates how this principle might be operationalized---not as a ready-to-implement protocol, but as a research direction for clinical trial design.
 
-#limitation(title: [Motivated Reasoning Caveat: Patient-Authored Treatment Hypothesis])[
-This section is authored by a patient with ME/CFS who would personally benefit from the proposed interventions. The multi-target combination framework was constructed partly to explain the desired conclusion (why polypharmacy might succeed where monotherapy has failed). Readers should weigh this context when evaluating the specificity of the proposed protocol. The biological reasoning may be sound while the direction of inference---from desired treatment to supporting model---represents motivated reasoning rather than dispassionate hypothesis generation.
+#limitation(title: [Motivated Reasoning Caveat: Treatment Hypotheses])[
+The multi-target combination framework discussed below was constructed partly to explore whether polypharmacy might succeed where monotherapy has failed. Readers should weigh this context when evaluating the specificity of the proposed protocol. The biological reasoning may be sound while the direction of inference—from desired treatment to supporting model—represents motivated reasoning rather than dispassionate hypothesis generation.
 ]
 
 #speculation(title: [Multi-Target Neuroplasticity Research Direction])[

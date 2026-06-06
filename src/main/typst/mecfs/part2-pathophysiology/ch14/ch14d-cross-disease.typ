@@ -127,7 +127,7 @@ The technological inflection point came with phage display. Wilson and DeRisi us
 
 Several specific methodological lessons from the schizophrenia autoantibody literature apply directly to ME/CFS research:
 
-*Plasmapheresis/dialysis trials in unselected schizophrenia were negative* (Cox 2020 systematic review of 9 studies, n=105): 6/8 dialysis studies were null, 1 beneficial, 1 harmful; the single plasmapheresis trial was ineffective @Cox2020PlasmapheresisSchizophrenia. This mirrors the IA-PACS-CFS null in unselected ME/CFS @Rucker2026WirthScheibenbogen. The lesson: autoantibody removal therapies require autoantibody-based patient selection.
+*Plasmapheresis/dialysis trials in unselected schizophrenia were negative* (Cox 2020 systematic review of 9 studies, n=105): 6/8 dialysis studies were null, 1 beneficial, 1 harmful; the single plasmapheresis trial was ineffective @Cox2020PlasmapheresisSchizophrenia. The IA-PACS-CFS null in autoantibody-enriched ME/CFS @Rucker2026WirthScheibenbogen is a key disanalogy: unlike the schizophrenia apheresis trials (which did not select for autoantibody positivity), the ME/CFS trial enrolled autoantibody-positive patients and still produced a null result, challenging the simple "selection solves it" narrative.
 
 *The IgG subclass problem.* In schizophrenia, NMDAR IgA/IgM antibodies are common (7–8% prevalence) but only IgG subclass is clearly pathogenic (0.5–1.5%) @Pollak2014NMDARPrevalence @Schou2016NeuronalAutoantibodies. In ME/CFS, the same issue arises: CellTrend ELISA detects total IgG against GPCRs, but functional bioassays (distinguishing activating vs blocking IgG) may be more specific @Loebel2016. Both fields need functional characterization of antibody pathogenicity, not just binding assays.
 
@@ -2274,5 +2274,77 @@ Autoimmune autonomic ganglionopathy (AAG) involves GPCR autoantibodies ($beta$-a
 #speculation(title: [Diabetic Autonomic Neuropathy — Foot Temperature Dysregulation Monitoring Applied to ME/CFS])[
 *(Certainty: 0.20.)* Diabetic autonomic neuropathy causes vascular denervation detectable as abnormal foot temperature gradients (toe-to-sole temperature difference above 3°C vs control 1°C). ME/CFS may involve milder but analogous microvascular denervation. Daily infrared foot thermography (a 20 USD consumer device) could identify ME/CFS patients with significant vascular denervation who would benefit from vasodilator support rather than thermal training. Falsifiable: ME/CFS patients show foot temperature gradients above 2°C versus controls and reduced 24-hour skin temperature variability (amplitude reduced by more than 40%); thermography-measured denervation predicts poor response to vasomotor training. No ME/CFS foot thermography studies.
 ] <spec:diabetic-neuropathy-thermoreg>
+
+== Additional Cross-Disease Mechanistic Bridges
+
+=== ADHD Dopamine-NRF2-NLRP3 Axis
+<sec:x1-adhd-nrf2-nlrp3>
+
+#speculation(title: [ADHD Dopamine-NRF2-NLRP3 Axis as Shared Pathophysiology with ME/CFS])[
+*(Certainty: 0.35.)* ADHD and ME/CFS share overlapping features: cognitive dysfunction (attention deficits, processing speed reduction), fatigue, and autonomic dysregulation. A mechanistic axis bridging the two conditions may operate through dopamine-NRF2-NLRP3 crosstalk.
+
+*Mechanistic chain.* Dopamine depletion (documented in ADHD via reduced D1R in ACC and striatum) impairs NRF2 nuclear translocation: dopamine D1 receptor signaling enhances NRF2 activity via PKA-mediated phosphorylation and nuclear import. When dopamine tone is low, NRF2-mediated antioxidant defenses are compromised, increasing cellular vulnerability to oxidative stress. Reduced NRF2 activity removes a key brake on NLRP3 inflammasome activation (NRF2 normally suppresses NLRP3 via HO-1 and NQO1 induction). The resulting IL-1beta/IL-18 elevation further impairs dopamine synthesis by: (a) activating IDO/kynurenine pathway, reducing BH4 availability for tyrosine hydroxylase; (b) inducing oxidative stress that damages dopaminergic terminals.
+
+*ADHD ↔ ME/CFS bridge.* ADHD confers increased vulnerability to post-infectious chronic fatigue through this pre-existing dopamine-NRF2-NLRP3 dysregulation. The mechanistic prediction: individuals with ADHD have lower baseline NRF2 activity and higher basal NLRP3 priming, lowering the threshold for ME/CFS development after infection. This would explain the elevated comorbidity between the two conditions and the disproportionate fatigue burden in ADHD populations.
+
+*Testable predictions:*
+- ME/CFS patients with ADHD comorbidity show lower NRF2 nuclear translocation in PBMCs than ME/CFS patients without ADHD
+- NLRP3 inflammasome markers (IL-1beta, caspase-1 activity) are elevated in ME/CFS+ADHD vs ME/CFS alone
+- NRF2-activating interventions (sulforaphane, dimethyl fumarate) improve both ADHD symptoms and ME/CFS fatigue in the comorbid group
+- NRF2 promoter polymorphisms predict post-infectious fatigue severity in ADHD cohorts
+
+*Limitations:* The D1R-NRF2 link is established in cellular models but not in human patients. No study has measured NRF2 activity in ADHD. No prospective ADHD-to-ME/CFS longitudinal data exist. Comorbidity prevalence estimates are confounded by diagnostic overlap in symptom reporting.
+
+*Cross-reference:* NRF2-NF-kB brake failure hypothesis (Chapter @ch:universal-mechanisms). NLRP3/purinergic signaling (Family 19). Kynurenine pathway dysregulation (Family 11).
+] <spec:adhd-dopamine-nrf2-nlrp3>
+
+=== Autism Microglial S100B-Calcineurin-NFAT Loop
+<sec:x2-autism-s100b-nfat>
+
+#speculation(title: [Microglial S100B-Calcineurin-NFAT Loop in Autism Parallels ME/CFS Neuroinflammation])[
+*(Certainty: 0.30.)* Autism spectrum disorder (ASD) involves chronic microglial activation with elevated S100B, a calcium-binding protein released by activated astrocytes and microglia. S100B binds RAGE on microglia, triggering sustained NFAT (nuclear factor of activated T cells) nuclear translocation via calcineurin-dependent dephosphorylation.
+
+*Mechanism.* S100B activates RAGE → PLCgamma → IP3 → calcium release from ER stores → sustained cytosolic Ca2+ elevation → calcineurin activation → NFAT dephosphorylation and nuclear translocation → NFAT-dependent transcription of IL-2, TNF-alpha, COX-2, and MMP-9. The S100B-RAGE-calcineurin-NFAT pathway forms a positive feedback loop: NFAT-driven transcription includes S100B itself, creating a self-amplifying microglial activation cycle.
+
+*ASD ↔ ME/CFS bridge.* Both conditions share elevated S100B, microglial activation, and dysregulated calcium signaling (TRPM3 channelopathy in ME/CFS provides a distinct but convergent calcium dysregulation mechanism). The calcineurin-NFAT pathway may represent a common downstream amplifier: in ASD, driven by S100B-RAGE; in ME/CFS, driven by multiple DAMP-TLR/RAGE signals plus intrinsic calcium handling defects from TRPM3 dysfunction.
+
+*Testable predictions:*
+- S100B levels will be elevated in ME/CFS CSF and correlate with microglial activation (TSPO PET)
+- NFAT nuclear translocation will be elevated in ME/CFS immune cells and microglia
+- Calcineurin inhibitors (tacrolimus, cyclosporine) will reduce NFAT target gene expression in ME/CFS cells ex vivo
+- ME/CFS patients with comorbid ASD features show the highest S100B and NFAT activity
+
+*Limitations:* S100B has been measured in ME/CFS plasma in only one study; CSF S100B is unmeasured. NFAT pathway activity has not been assessed in ME/CFS. Calcineurin inhibitors are immunosuppressants with significant toxicity; no ME/CFS safety data exist. Certainty: 0.30 — S100B-RAGE-NFAT pathway is established in ASD and neuroinflammation generally, but the ASD-ME/CFS bridge and NFAT involvement in ME/CFS specifically are untested.
+
+*Cross-reference:* S100A8/A9 calprotectin microglial priming (@sec:um-resolution). TRPM3 channelopathy (Chapter @ch:causal-hierarchy). DAMP signaling (Family 19).
+] <spec:autism-s100b-calcineurin-nfat>
+
+=== POTS Complement-Glycocalyx Destruction
+<sec:x3-pots-complement-glycocalyx>
+
+#speculation(title: [POTS Complement-Glycocalyx Destruction Axis])[
+*(Certainty: 0.35.)* POTS affects a substantial subset of ME/CFS patients (30-60% depending on cohort). The mechanism of orthostatic intolerance in POTS is typically attributed to autonomic dysfunction, hypovolemia, or beta-adrenergic autoantibodies. A complementary mechanism involves complement-mediated glycocalyx destruction.
+
+*Mechanism.* The endothelial glycocalyx — a heparan sulfate/hyaluronic acid meshwork lining all blood vessels — is the primary barrier regulating vascular permeability, mechanotransduction, and nitric oxide production. Complement activation (documented in ME/CFS via elevated C5a, sC5b-9) damages the glycocalyx through: (a) C5a receptor signaling on endothelial cells → heparanase activation → enzymatic shedding of heparan sulfate; (b) C5b-9 membrane attack complex deposition → direct glycocalyx disruption; (c) C5a-mediated neutrophil recruitment → neutrophil elastase and MMP release → proteolytic glycocalyx degradation.
+
+*POTS-specific consequences:*
+- Glycocalyx destruction → impaired shear stress sensing → blunted NO production → reduced vasodilation reserve → impaired orthostatic vasoconstriction
+- Glycocalyx loss → increased vascular permeability → plasma extravasation → reduced intravascular volume → worsened orthostatic pooling
+- Heparan sulfate shedding → loss of electrolyte binding capacity → impaired microvascular charge selectivity
+- The glycocalyx normally senses and amplifies the endothelial response to shear stress; its destruction impairs the rapid vasomotor adjustments required for orthostasis
+
+*ME/CFS relevance:*
+This mechanism provides a vascular explanation for POTS that is independent of autoantibodies (though not exclusive — autoantibody and complement pathways may synergize). It also links POTS to the broader vascular and complement dysregulation documented in ME/CFS: fibrin microclots (coagulation system activation), complement activation (C5a, sC5b-9), and glycocalyx damage markers (syndecan-1, hyaluronan fragments). If complement-glycocalyx destruction contributes to POTS in ME/CFS, then complement inhibition (e.g., C1s inhibition with sutimlimab, or C5 inhibition with eculizumab) or glycocalyx repair (sulodexide, pentosan polysulfate) could improve orthostatic tolerance.
+
+*Testable predictions:*
+- ME/CFS+POTS patients show elevated glycocalyx degradation markers (syndecan-1, hyaluronan fragments) compared to ME/CFS patients without POTS
+- Glycocalyx marker elevation correlates with orthostatic HR increase and reduced cerebral blood flow on tilt testing
+- Complement activation markers (C5a, sC5b-9) predict glycocalyx damage severity (syndecan-1 >30% above normal)
+- Sulodexide (glycocalyx repair agent, 250-500 U/day) improves orthostatic tolerance in ME/CFS+POTS patients with elevated glycocalyx markers
+
+*Limitations:* Glycocalyx markers have been measured in Long COVID but not systematically in ME/CFS with concurrent complement profiling. Complement-glycocalyx interaction is well-established in sepsis and diabetes but not studied in ME/CFS. Sutimlimab is FDA-approved for cold agglutinin disease only; no POTS or ME/CFS data exist. Sulodexide is available as a supplement in some jurisdictions but lacks FDA approval for glycocalyx repair.
+
+*Cross-reference:* Complement activation in ME/CFS (Chapter @ch:immune-dysfunction). Glycocalyx damage in cardiovascular chapter. IgM-glycocalyx speculation (@spec:igm-glycocalyx, Chapter @ch:immune-dysfunction). Sutimlimab discussion (@spec:c1s-inhibition-emerging, Chapter @ch:emerging-therapies).
+] <spec:pots-complement-glycocalyx>
 
 #include "ch14d-brain-clearance-bridges.typ"

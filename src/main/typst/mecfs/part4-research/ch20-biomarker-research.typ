@@ -86,7 +86,7 @@ Despite decades of research and multiple candidate markers, no biomarker or biom
     - Published multi-marker panels reporting $>$90% sensitivity/specificity have not been independently validated in diverse populations; performance in discovery cohorts routinely exceeds performance in external validation.
     - Biomarker-disease associations documented in this chapter (cytokine profiles, NK cell dysfunction, metabolomic signatures) demonstrate group-level differences; individual-level diagnostic accuracy remains uncertain for all candidates.
     - The convergence patterns described (miRNA, metabolic, genetic) are derived from separate studies using different cohorts, criteria, and methodologies; no single study has demonstrated convergence across all domains in the same patients.
-    - Commercial biomarker tests currently marketed for ME/CFS lack independent validation and should not be interpreted as diagnostic. Cross-modal physiological decoupling during sleep—measured by foundation models like SleepFM (Thapa et al. 2026, Nature Medicine, n=65,000), which predicts 130+ health conditions with C-index >0.80 from one night's PSG data @Thapa2026sleepfm—represents a candidate physiological biomarker pathway not captured by molecular assays alone.
+    - Commercial biomarker tests currently marketed for ME/CFS lack independent validation and should not be interpreted as diagnostic. Cross-modal physiological decoupling during sleep—measured by foundation models like SleepFM (Thapa et al. 2026, Nature Medicine, n=65,000), which predicts 130+ health conditions with C-index \u{3e}0.80 from one night's PSG data @Thapa2026sleepfm—represents a candidate physiological biomarker pathway not captured by molecular assays alone.
 
 ]
 
@@ -1676,7 +1676,7 @@ Recent progress in exosome biology, including the demonstration that engineered 
 ] <spec:exosome-biomarker-panel>
 
 #speculation(title: [Exosomal HSP70 as Candidate Sleep Phenotype Biomarker])[
-*Certainty: 0.35.* Derived from Kang et al.@Kang2026ExosomeHSP70Sleep demonstration that exosomal HSP70 delivery reverses sleep-deprivation neuroinflammation; BBB crossing mechanism context from Ramos-Zaldívar et al.@RamosZaldivar2022EVBBBReview; engineering platform context from Sanadgol et al.@Sanadgol2025ExosomeNABrainDelivery. No ME/CFS data on exosomal HSP70 levels.
+*Certainty: 0.35.* Derived from Kang et al.@Kang2026ExosomeHSP70Sleep demonstration that exosomal HSP70 delivery reverses sleep-deprivation neuroinflammation; BBB crossing mechanism context from Ramos-Zaldívar et al.; engineering platform context from Sanadgol et al.. No ME/CFS data on exosomal HSP70 levels.
 
 HSP70 acts as both an intracellular chaperone maintaining proteostasis and an extracellular signalling molecule modulating immune responses. The Kang et al. finding establishes that exosome-delivered HSP70 is neuroprotective in the context of sleep loss, reducing hippocampal inflammation and restoring cognitive function. If endogenous exosomal HSP70 reflects CNS chaperone capacity, then lower levels would predict greater vulnerability to sleep-deprivation-induced neuroinflammation — a plausible mechanism in ME/CFS, where unrefreshing sleep is near-universal (95--100% prevalence).
 
@@ -1728,7 +1728,7 @@ All below are research-stage; none validated in independent cohort. @Azcue2026gp
 ] <spec:composite-autonomic-immune-score-cais>
 
 #open-question(title: [Machine Learning GPCR AAb Pattern Classification])[
-Can ML (random forest) on beta2/M1/M3/M4 titers + isotype fractions + demographics distinguish ME/CFS from PCC, FM, MS, and HC? Requires training set n=300 (100 ME/CFS, 100 PCC, 50 FM, 50 MS, 50 HC) + independent validation n=150. Prediction: AUROC >0.85 for ME/CFS vs PCC; beta2_IgG1/IgG4 ratio top predictor. @Azcue2026gpcr.
+Can ML (random forest) on beta2/M1/M3/M4 titers + isotype fractions + demographics distinguish ME/CFS from PCC, FM, MS, and HC? Requires training set n=300 (100 ME/CFS, 100 PCC, 50 FM, 50 MS, 50 HC) + independent validation n=150. Prediction: AUROC \u{3e}0.85 for ME/CFS vs PCC; beta2_IgG1/IgG4 ratio top predictor. @Azcue2026gpcr.
 ] <oq:ml-gpcr-aab-pattern-classification>
 
 #speculation(title: [FcgammaR Activation Assay as GPCR AAb Pathogenicity Marker])[
@@ -1742,4 +1742,205 @@ Can ML (random forest) on beta2/M1/M3/M4 titers + isotype fractions + demographi
 #speculation(title: [Cognitive-Muscarinic Threshold Zones for Treatment Selection])[
 *Certainty: 0.45.* 2D grid: M1/M4 AAb titer (x-axis) vs working memory score (y-axis). Zone 1 (low AAb, low cognition) → cognitive remediation; Zones 2--3 (moderate-high AAb) → observation (AAb protective); Zone 4 (high AAb, low cognition) → inverted-U toxic → CB1 agonist/PAM. Prediction: Zone 1 improves >30% with remediation; Zones 2--3 show no benefit. @Azcue2026gpcr.
 ] <spec:cognitive-muscarinic-threshold-zones>
+
+== Inflammation Source-Registry Biomarker Proposals
+<sec:inflammation-registry-biomarkers>
+
+The following biomarker proposals emerge from the inflammation source registry integration (Chapters @ch:universal-mechanisms, @ch:integrative-models, @ch:emerging-therapies). They target the gap between individual mechanism documentation and multi-analyte panels that capture resolution failure, DAMP burden, and UPR activation — the most underexplored inflammation source categories in ME/CFS.
+
+=== B1: Multi-DAMP Panel (HMGB1 + S100A8/A9 + mtDNA + Heme)
+<prop:b1-multi-damp-panel>
+
+#proposal(title: [B1: Multi-DAMP Panel — HMGB1 + S100A8/A9 + mtDNA + Heme])[
+*Open question.* Can a multi-DAMP panel capture the extracellular inflammation burden that standard cytokine panels miss?
+
+*Rationale.* DAMPs (damage-associated molecular patterns) are released during cellular stress and act through TLR/RAGE receptors to sustain inflammation. Unlike cytokines that require active secretion, DAMPs reflect ongoing tissue-level pathology. Four DAMPs with documented or strongly inferred ME/CFS involvement are:
+
+- *HMGB1:* Nuclear protein released under oxidative stress; redox-dependent activity. Not yet measured in ME/CFS plasma. Disulfide:reduced HMGB1 ratio provides functional status of DAMP-mediated inflammation. @Ibrahim2026HMGB1Neuroinflammation
+- *S100A8/A9 (calprotectin):* Directly documented in ME/CFS plasma proteomics (S100-A9 upregulation). TLR4/RAGE agonist; correlates with NET burden. @Nunes2024S100A9MECFS
+- *Cell-free mtDNA:* Exosome-associated mtDNA elevated in ME/CFS post-exercise; activates cGAS-STING. Compartment (free vs exosomal) may distinguish ME/CFS from Long COVID. @Tsilioni2022exosome
+- *Heme:* Released from damaged RBCs and mitochondria; activates TLR4 and complement. Haptoglobin depletion (documented in unified model) impairs heme clearance, prolonging heme-mediated inflammation.
+
+*Panel design:*
+- Simultaneous measurement of all four DAMPs in plasma at rest and 2-4h post-CPET
+- HMGB1 redox isoforms by specific ELISA (requires specialized assay)
+- S100A8/A9 by commercial calprotectin ELISA
+- Cell-free mtDNA by qPCR (ND1/ND4 genes, compartment: total plasma vs exosomal fraction)
+- Free heme by spectrophotometric assay or ELISA
+
+*Interpretation:*
+- Multi-DAMP index = z(HMGB1) + z(S100A8/A9) + z(mtDNA) + z(heme), normalized to healthy controls
+- Ratio analysis: DAMP burden / CRP ratio distinguishes DAMP-driven inflammation from acute-phase-driven inflammation
+- Subtype identification: HMGB1-high vs mtDNA-high vs pan-DAMP-high patterns may correspond to different disease drivers
+
+*Key questions:*
+1. Is the multi-DAMP index elevated in ME/CFS vs healthy controls, and does it correlate with PEM severity?
+2. Does the DAMP profile change acutely after CPET (turning over) or remain static (chronic DAMP accumulation)?
+3. Do DAMP profiles distinguish ME/CFS subgroups (infection-triggered vs gradual-onset, short-duration vs long-duration)?
+4. Does the multi-DAMP index predict treatment response to DAMP-targeted therapies (glycyrrhizin, NAC, iron chelation)?
+
+*Limitations:* No study has measured all four DAMPs simultaneously in any ME/CFS cohort. HMGB1 and free heme have never been measured in ME/CFS. Redox-specific HMGB1 assays are not commercially available for clinical use. Compartment analysis (free vs exosomal mtDNA) requires method standardization.
+] <prop:b1-multi-damp-panel>
+
+=== B2: SPM Deficiency Index for Resolution Failure Phenotyping
+<prop:b2-spm-deficiency-index>
+
+#speculation(title: [B2: SPM Deficiency Index for Resolution Failure Phenotyping])[
+*Certainty: 0.35.* If ME/CFS involves resolution failure (SPM deficiency, Section @sec:um-resolution, Chapter @ch:universal-mechanisms), a targeted lipidomics panel measuring SPM levels could serve as both a diagnostic biomarker and a mechanistic stratification tool.
+
+*Target analytes (LC-MS/MS lipidomics):*
+- D-series resolvins: RvD1, RvD2, RvD3, RvD4, RvD5, RvD6 (from DHA)
+- E-series resolvins: RvE1, RvE2, RvE3 (from EPA)
+- Protectins: PD1 (NPD1), PDX (from DHA)
+- Maresins: MaR1, MaR2 (from DHA)
+- Lipoxins: LXA4, LXB4 (from arachidonic acid)
+- Aspirin-triggered forms: AT-RvD1, AT-RvD2, AT-RvE1
+- Ratio: SPMs / pro-inflammatory eicosanoids (PGE2, LTB4, 5-HETE)
+
+*SPM deficiency index (SDI):*
+$"SDI" = 1/N sum_(i=1)^N ("SPM"_i / "SPM"_(i,"HC"))$
+where SDI < 0.5 indicates severe SPM deficiency (all SPMs \u{3c}50% of healthy control median), SDI 0.5-0.8 indicates moderate deficiency, SDI \u{3e}0.8 indicates preserved resolution capacity.
+
+*Clinical applications:*
+- Identify ME/CFS patients with resolution failure who may benefit from SPM restoration strategies (omega-3, tVNS, aspirin, @spec:c1-spm-restoration)
+- Monitor SPM response to resolution-enhancing interventions
+- Stratify by SPM-deficient vs SPM-sufficient subtypes for clinical trial enrichment
+- Distinguish ME/CFS from conditions where inflammation is driven by excessive production (e.g., rheumatoid arthritis) rather than failed resolution
+
+*Key questions:*
+1. Are SPMs lower at baseline in ME/CFS vs healthy controls?
+2. Do SPM levels fail to rise appropriately 2-24h post-CPET in ME/CFS (confirming resolution failure under metabolic stress)?
+3. Does SPM deficiency correlate with PEM duration and severity (predicted: longer PEM = lower SPM)?
+4. Do the four predicted root-cause subgroups (CNS energy, safe mode, GPCR autoantibody, TRPM3) show different SPM profiles, or is SPM deficiency a pan-hierarchy phenomenon?
+
+*Limitations:* SPMs have never been measured in ME/CFS. LC-MS/MS lipidomics is specialized (few clinical labs offer it). Reference ranges for SPMs in healthy populations are not well-established. SPM levels fluctuate with diet, exercise, and circadian rhythm — standardized collection conditions are essential. Cost per sample is high (~200--400 USD).
+
+*Cross-reference:* SPM deficiency hypothesis (@sec:um-resolution). SPM restoration protocol (@spec:c1-spm-restoration, Chapter @ch:emerging-therapies). Aspirin + omega-3 speculation (@spec:aspirin-omega3-spm, Chapter @ch:speculative-hypotheses). tVNS-SPM induction (@spec:tvns-spm-induction, Chapter @ch:emerging-therapies).
+] <spec:b2-spm-deficiency-index>
+
+=== B4: Complement Activation Signature (CAS) Score
+<prop:b4-complement-activation-signature>
+
+#speculation(title: [B4: Complement Activation Signature (CAS) Score])[
+*Certainty: 0.30.* Complement activation is documented in ME/CFS (C5a, sC5b-9 elevation) but has not been integrated into a composite score for diagnostic or prognostic use. A complement activation signature (CAS) score combining classical, alternative, and terminal pathway markers could identify the complement-driven endotype and predict response to complement-targeted therapies (sutimlimab, eculizumab).
+
+*Target analytes:*
+- Classical pathway: C4d, C1s-C1 inhibitor complexes
+- Alternative pathway: Bb, C3bBbP
+- Lectin pathway: MASP-1, MASP-2
+- Terminal pathway: C5a, sC5b-9 (membrane attack complex)
+- Regulators: Factor H, CD59
+- Activation product ratios: C3a/C3, C4d/C4 (cleavage ratios more stable than absolute concentrations)
+
+*CAS score formula:*
+$"CAS" = w_1 dot z("C4d") + w_2 dot z("C5a") + w_3 dot z("sC5b-9") + w_4 dot z("Bb")$
+where weights $w_i$ are derived from principal component analysis in a training cohort, and z-scores are normalized to healthy controls. CAS > 2 indicates significant complement activation requiring further investigation.
+
+*Clinical applications:*
+- Identify ME/CFS patients with complement-driven pathology (estimated 20-40% based on existing C5a data)
+- Predict response to complement inhibition (CAS-high patients most likely to benefit)
+- Monitor complement activation dynamics post-exertion (does CAS increase during PEM?)
+- Link complement activation to glycocalyx damage (CAS > 2 predicts elevated syndecan-1)
+- Stratify microclot-positive patients: CAS-high microclots may be complement-stabilized (sensitive to complement inhibition) vs CAS-normal microclots (fibrin-dominant, sensitive to anticoagulation alone)
+
+*Key questions:*
+1. What proportion of ME/CFS patients have elevated CAS (>2) at rest?
+2. Does CAS increase after CPET in ME/CFS vs controls?
+3. Does CAS correlate with glycocalyx damage markers (syndecan-1, hyaluronan)?
+4. Is the CAS-high phenotype stable over time (trait) or dynamic (state)?
+
+*Limitations:* Complement assays require careful handling (ex vivo activation inflates results); EDTA plasma with rapid centrifugation is essential. No validated CAS threshold exists for any condition; weights must be empirically derived. Complement activation is also elevated in many chronic inflammatory conditions, limiting diagnostic specificity.
+
+*Cross-reference:* Complement activation in ME/CFS (Chapter @ch:immune-dysfunction). POTS complement-glycocalyx speculation (@spec:pots-complement-glycocalyx, Chapter @ch:speculative-hypotheses). Sutimlimab discussion (@spec:c1s-inhibition-emerging, Chapter @ch:emerging-therapies).
+] <spec:b4-complement-activation-signature>
+
+=== R5: Iron/Ferroptosis Panel
+<prop:r5-iron-ferroptosis-panel>
+
+#proposal(title: [R5: Iron/Ferroptosis Panel — GPX4 + 4-HNE + ACSL4 + SLC7A11 + MRI R2^\*])[
+*Proposal.* A panel combining serum markers of ferroptosis susceptibility with MRI-based tissue iron quantification:
+
+*Serum markers:*
+- *GPX4 activity:* Glutathione peroxidase 4 is the primary ferroptosis defense; reduced activity indicates impaired protection against lipid peroxidation. Measured by enzymatic activity assay or ELISA.
+- *4-HNE (4-hydroxynonenal):* Major lipid peroxidation end product; elevated in oxidative stress and directly reflects the lipid damage ferroptosis executes. Measured by ELISA or LC-MS.
+- *ACSL4* (acyl-CoA synthetase long-chain family member 4): Upregulated in ferroptosis-prone cells; marks commitment to ferroptotic cell death. Measured by ELISA or qPCR in PBMCs.
+- *SLC7A11 (xCT):* Cystine/glutamate antiporter; rate-limiting for glutathione synthesis. Reduced expression indicates limited cysteine import and ferroptosis vulnerability. Measured by ELISA or qPCR.
+
+*Imaging marker:*
+- *MRI R2^\* (1/T2):* Quantitative mapping detects tissue iron overload non-invasively. R2^\* values >50 Hz in liver, >35 Hz in midbrain suggest pathologic iron accumulation. Liver R2^\* reflects systemic iron stores; midbrain R2^\* captures CNS iron relevant to neuroinflammation.
+
+*Interpretation:*
+- Ferroptosis index = z(GPX4_activity inverted) + z(4-HNE) + z(ACSL4) + z(SLC7A11 inverted)
+- Combined ferro-MRI score: Ferroptosis index + R2^\* liver + R2^\* midbrain
+- Threshold: Ferroptosis index >1.5 indicates elevated ferroptosis risk; combined score >3 indicates active ferroptotic pathology
+
+*Clinical applications:*
+- Identify ME/CFS patients with ferroptosis-driven pathology for targeted intervention (vitamin E, iron chelation, GPX4 enhancers)
+- Monitor response to iron redistribution protocols (@spec:iron-redistribution-protocol, Chapter @ch:immune-dysfunction)
+- Distinguish iron overload (elevated ferritin, low GPX4, elevated R2^\*) from functional iron deficiency (low serum iron, elevated hepcidin, normal GPX4)
+- Track ferroptosis prevention during PEM (4-HNE spikes post-exertion would confirm exercise-induced ferroptosis risk)
+
+*Key questions:*
+1. Is the ferroptosis index elevated in ME/CFS vs controls?
+2. Does 4-HNE increase after CPET in ME/CFS (exercise-induced lipid peroxidation)?
+3. What proportion of ME/CFS patients show MRI evidence of tissue iron overload (R2^\* > threshold)?
+4. Does GPX4 activity correlate with glutathione levels and selenium status?
+
+*Limitations:* No study has measured GPX4 activity, ACSL4, or SLC7A11 in ME/CFS. 4-HNE is technically challenging (short half-life, rapid metabolism). R2^\* MRI requires specialized sequences not available in all centers. Normative R2^\* ranges for ME/CFS age groups are not established.
+
+*Cross-reference:* Ferroptosis susceptibility (@sec:ferroptosis, Chapter @ch:immune-dysfunction). Danazol/hepcidin speculation (@spec:danazol-hepcidin, Chapter @ch:immune-dysfunction). Iron redistribution protocol (@spec:iron-redistribution-protocol, Chapter @ch:immune-dysfunction).
+] <prop:r5-iron-ferroptosis-panel>
+
+=== R1: SPM Lipidomics Post-CPET
+<prop:r1-spm-lipidomics-post-cpet>
+
+#proposal(title: [R1: SPM Lipidomics at Rest and Post-CPET])[
+*Proposal.* A timed lipidomics study measuring SPMs (resolvins, protectins, maresins, lipoxins) and pro-inflammatory eicosanoids (PGE2, LTB4, 5-HETE, 12-HETE, 15-HETE) at five time points: baseline (pre-CPET), immediately post-CPET, +2h, +6h, +24h. This would resolve the temporal dynamics of SPM biosynthesis in ME/CFS and test the resolution failure hypothesis.
+
+*Primary hypothesis:* ME/CFS patients show lower baseline SPM levels and blunted SPM rise after CPET compared to healthy controls, resulting in a prolonged pro-inflammatory eicosanoid dominance post-exertion.
+
+*Secondary hypotheses:*
+- SPM:eicosanoid ratio at 6h post-CPET predicts PEM severity at 24-48h (lower ratio = worse PEM)
+- Vagal tone (HRV RMSSD) correlates with SPM biosynthetic capacity (higher vagal tone = better SPM response)
+- Baseline SPM profile distinguishes the four predicted root-cause subgroups (SPM deficiency as pan-hierarchy)
+
+*Design:* ME/CFS (n=30) vs healthy controls (n=20), standard 2-day CPET protocol, plasma collected at 5 time points, targeted LC-MS/MS for 15+ SPM species and 8+ eicosanoids. Primary endpoint: SPM area-under-curve (AUC) from baseline to 24h.
+
+*Impact:* If confirmed, this study would: (a) provide the first direct evidence for resolution failure in ME/CFS; (b) establish SPM deficiency as a quantifiable biomarker; (c) define the temporal window for SPM-targeted intervention (pre-CPET SPM loading, immediate post-CPET SPM rescue, or delayed SPM supplementation).
+
+*Limitations:* SPM lipidomics is technically demanding (analytes are labile, low-concentration). CPET is not feasible in severe patients — an alternative submaximal exercise protocol or isometric handgrip challenge would be needed for severe ME/CFS. Cost per sample approximately \$200--400; total study cost approximately \$20,000--40,000 for consumables.
+
+*Cross-reference:* SPM deficiency hypothesis (@sec:um-resolution). SPM restoration protocol (@spec:c1-spm-restoration, Chapter @ch:emerging-therapies).
+] <prop:r1-spm-lipidomics-post-cpet>
+
+=== R3: UPR Sensor Activation in Muscle Post-Exercise
+<prop:r3-upr-muscle-post-exercise>
+
+#proposal(title: [R3: UPR Sensor Activation in Muscle Post-Exercise])[
+*Proposal.* Measure unfolded protein response (UPR) activation in skeletal muscle biopsies before and after standardized exercise in ME/CFS vs healthy controls.
+
+*Rationale.* The UPR (PERK, IRE1alpha, ATF6 sensors) is activated by oxidative stress, calcium dysregulation, and mitochondrial dysfunction — all documented in ME/CFS muscle. If the UPR is chronically activated or fails to resolve after exercise, it could: (a) drive IL-6 and TNF-alpha production locally (IRE1alpha-XBP1 axis), contributing to post-exertional systemic inflammation; (b) impair protein synthesis and muscle repair via PERK-eIF2alpha-mediated translational arrest; (c) amplify mitochondrial dysfunction through ER-mitochondria calcium transfer disruption at MAMs.
+
+*Target analytes (muscle biopsy, pre and 48h post-exercise):*
+- Phospho-PERK (Thr980), total PERK
+- Spliced XBP1 (mRNA by qPCR, protein by immunoblot)
+- Nuclear ATF6 (immunohistochemistry or subcellular fractionation)
+- GRP78 (BiP/HSPA5) — ER chaperone, UPR master regulator
+- CHOP (GADD153) — pro-apoptotic UPR marker
+- Caspase-12 (ER-specific apoptosis pathway)
+- BiP:CHOP ratio (adaptive vs terminal UPR balance)
+
+*Primary hypothesis:* ME/CFS muscle shows elevated baseline UPR markers (GRP78, phospho-PERK, sXBP1) compared to controls, with further increase 48h post-exercise that fails to return to baseline by 72h (prolonged UPR activation).
+
+*Secondary hypotheses:*
+- UPR activation correlates with mitochondrial dysfunction markers (complex I-IV activity, citrate synthase) in the same biopsy
+- UPR persistence at 72h predicts PEM duration at 7-day follow-up
+- IRE1alpha-XBP1 activation specifically correlates with muscle IL-6 levels, linking UPR to systemic post-exertional inflammation
+
+*Impact:* If confirmed, this would: (a) establish UPR activation as a novel mechanism in ME/CFS muscle pathology; (b) provide a target for chemical chaperones (TUDCA, 4-PBA); (c) demonstrate that muscle is not merely metabolically impaired but actively inflamed through an ER stress pathway; (d) justify therapeutic targeting of UPR in ME/CFS.
+
+*Limitations:* Muscle biopsy is invasive; serial biopsies (pre and 48h post-exercise) require strong ethical justification in ME/CFS. Sample size will be limited (n=8-10 per group). The distinction between adaptive UPR (physiological stress response, resolves) and terminal UPR (pathological, persists) requires careful interpretation. No UPR data exist in ME/CFS muscle — the study is exploratory by design.
+
+*Cross-reference:* UPR/ER stress section (@sec:um-proteostasis, Chapter @ch:universal-mechanisms). IRE1alpha bistable switch model (@prop:ire1alpha-bistable-model, Chapter @ch:causal-hierarchy). TUDCA/4-PBA speculation (@spec:tudca-4pba-upr, Chapter @ch:emerging-therapies).
+] <prop:r3-upr-muscle-post-exercise>
 

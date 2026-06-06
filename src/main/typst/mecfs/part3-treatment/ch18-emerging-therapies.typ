@@ -378,7 +378,7 @@ Emerging therapies targeting connective tissue pathology in ME/CFS address extra
 The Kang et al.@Kang2026ExosomeHSP70Sleep demonstration that exosome-delivered HSP70 mRNA reverses neuroinflammation raises the question of whether endogenous HSP70 enhancement — without engineered exosomes — could provide partial neuroprotection in ME/CFS. Several pharmacological and non-pharmacological approaches upregulate HSP70 expression.
 
 #speculation(title: [HSP70-Inducing Pharmacological Agents as Neuroprotective Adjuncts in ME/CFS])[
-*Certainty: 0.45.* HSP70 inducers are clinically available for other indications; neuroprotective effect in ME/CFS is inferred from Kang et al. and general HSP70 biology; BBB crossing mechanisms documented by Ramos-Zaldívar et al.@RamosZaldivar2022EVBBBReview; brain-targeted engineering platforms reviewed by Sanadgol et al.@Sanadgol2025ExosomeNABrainDelivery. (0.40→0.45: independent convergence with heat therapy as HSP70 induction strategy strengthens mechanistic rationale.) No ME/CFS-specific data.
+*Certainty: 0.45.* HSP70 inducers are clinically available for other indications; neuroprotective effect in ME/CFS is inferred from Kang et al. and general HSP70 biology; BBB crossing mechanisms documented by Ramos-Zaldívar et al.; brain-targeted engineering platforms reviewed by Sanadgol et al.. (0.40→0.45: independent convergence with heat therapy as HSP70 induction strategy strengthens mechanistic rationale.) No ME/CFS-specific data.
 
 *Candidate agents with existing human safety data:*
     - *Arimoclomol*: Co-inducer of the heat shock response; prolongs HSF1 activation; crosses BBB; Phase III completed for ALS (orphan drug status in EU). No ME/CFS data.
@@ -399,7 +399,7 @@ The Kang et al.@Kang2026ExosomeHSP70Sleep demonstration that exosome-delivered H
 #speculation(title: [PPARγ Agonists as Exosome Uptake Enhancers])[
 *Certainty: 0.20.* Macropinocytosis enhancement documented for pioglitazone in cancer cell lines; no CNS exosome uptake data; no ME/CFS data.
 
-Ramos-Zaldívar et al.@RamosZaldivar2022EVBBBReview identified macropinocytosis as one of several mechanisms by which EVs cross the BBB. PPARγ agonists (pioglitazone, rosiglitazone) upregulate macropinocytosis pathway components and have been shown to enhance nanoparticle uptake in some experimental systems. If PPARγ agonism increases exosome internalisation by CNS target cells, it could lower the required therapeutic exosome dose — addressing the very low (less than 1 percent) CNS delivery fraction limitation of systemic administration.
+Ramos-Zaldívar et al. identified macropinocytosis as one of several mechanisms by which EVs cross the BBB. PPARγ agonists (pioglitazone, rosiglitazone) upregulate macropinocytosis pathway components and have been shown to enhance nanoparticle uptake in some experimental systems. If PPARγ agonism increases exosome internalisation by CNS target cells, it could lower the required therapeutic exosome dose — addressing the very low (less than 1 percent) CNS delivery fraction limitation of systemic administration.
 
 *ME/CFS-specific considerations.* Pioglitazone has anti-inflammatory effects independent of exosome uptake enhancement (PPARγ activation suppresses NF-κB, reduces microglial activation) — these may provide independent benefit in ME/CFS neuroinflammation. However, pioglitazone carries FDA black-box warnings for congestive heart failure and is associated with weight gain, fluid retention, and bone fracture risk — all problematic in a bedbound/severe population with pre-existing orthostatic intolerance and potential cardiac dysfunction.
 
@@ -409,7 +409,7 @@ Ramos-Zaldívar et al.@RamosZaldivar2022EVBBBReview identified macropinocytosis 
 ] <spec:pparg-exosome-uptake>
 
 #open-question(title: [Can Transcutaneous Vagus Nerve Stimulation Enhance Therapeutic Exosome CNS Delivery?])[
-Vagus nerve stimulation transiently increases BBB permeability via cholinergic anti-inflammatory pathway activation. If tVNS applied 30 minutes before exosome administration increases CNS exosome accumulation — as hypothesised from the inflammation-enhanced EV permeability documented by Ramos-Zaldívar et al.@RamosZaldivar2022EVBBBReview — it could provide a non-pharmacological method to boost therapeutic delivery. This is completely untested. The risk is that tVNS-mediated BBB opening is non-selective, potentially allowing entry of peripheral inflammatory mediators alongside therapeutic exosomes. Pilot biodistribution studies in animal models would be required before any human application.
+Vagus nerve stimulation transiently increases BBB permeability via cholinergic anti-inflammatory pathway activation. If tVNS applied 30 minutes before exosome administration increases CNS exosome accumulation — as hypothesised from the inflammation-enhanced EV permeability documented by Ramos-Zaldívar et al. — it could provide a non-pharmacological method to boost therapeutic delivery. This is completely untested. The risk is that tVNS-mediated BBB opening is non-selective, potentially allowing entry of peripheral inflammatory mediators alongside therapeutic exosomes. Pilot biodistribution studies in animal models would be required before any human application.
 ]
 
 == Engineered Exosome-Mediated mRNA Delivery to the CNS
@@ -421,11 +421,11 @@ Engineered extracellular vesicles represent an emerging therapeutic delivery pla
 
 *Mechanistic rationale.* Endogenous extracellular vesicles already traffic bidirectionally across the BBB in ME/CFS and related conditions (Section @sec:bbb), carrying both pathological cargo (retroelement RNAs, inflammatory signals) and potentially regulatory signals. Engineering exosomes to carry therapeutic mRNA — anti-inflammatory cytokines, neurotrophic factors, mitophagy enhancers, or TRPM3 normalisers — exploits this existing trafficking pathway for therapeutic gain. The Kang et al.@Kang2026ExosomeHSP70Sleep demonstration that RVG-targeted exosomes carrying HSP70 mRNA reverse cognitive deficits and reduce hippocampal neuroinflammation in sleep-deprived mice establishes that: (1) engineered EV mRNA cargo is functional in CNS recipient cells, (2) systemic administration achieves CNS delivery, and (3) a single neuroprotective mRNA can shift the neuroinflammatory environment from pro-inflammatory to restorative.
 
-*Engineering platform.* Current strategies for brain-targeted exosome delivery include: RVG peptide targeting (exploits nicotinic acetylcholine receptor expression on neurons), Lamp2b fusion proteins, CD63-based cargo loading, and electroporation-mediated mRNA loading @Sanadgol2025ExosomeNABrainDelivery. Source cell engineering (HEK293T, mesenchymal stem cells, or autologous patient-derived cells) determines exosome surface protein composition and immunogenicity. Each variable — source cell type, targeting ligand, cargo type (mRNA vs siRNA vs miRNA vs protein), and loading method — affects CNS delivery efficiency and off-target distribution.
+*Engineering platform.* Current strategies for brain-targeted exosome delivery include: RVG peptide targeting (exploits nicotinic acetylcholine receptor expression on neurons), Lamp2b fusion proteins, CD63-based cargo loading, and electroporation-mediated mRNA loading . Source cell engineering (HEK293T, mesenchymal stem cells, or autologous patient-derived cells) determines exosome surface protein composition and immunogenicity. Each variable — source cell type, targeting ligand, cargo type (mRNA vs siRNA vs miRNA vs protein), and loading method — affects CNS delivery efficiency and off-target distribution.
 
 *ME/CFS-specific considerations.* Several features of ME/CFS may alter EV trafficking dynamics in ways that either help or hinder therapeutic delivery:
     - Increased BBB permeability in a subset of patients (elevated CSF/serum albumin ratio) may enhance EV CNS entry — the same permeability that permits pathological EV entry could facilitate therapeutic EV entry
-    - Chronic neuroinflammation may upregulate adhesion molecules and alter transcytosis rates — preclinical studies show that TNF-α and LPS increase BBB EV permeability @RamosZaldivar2022EVBBBReview, but whether this applies to engineered EVs carrying specific targeting ligands is unknown
+    - Chronic neuroinflammation may upregulate adhesion molecules and alter transcytosis rates — preclinical studies show that TNF-α and LPS increase BBB EV permeability , but whether this applies to engineered EVs carrying specific targeting ligands is unknown
     - Autonomic dysfunction and reduced cardiac output may alter EV biodistribution — systemically administered exosomes distribute primarily to liver, spleen, and lungs; the fraction reaching the brain is typically less than 1 percent of the injected dose, and this fraction may be further reduced in ME/CFS with global hypoperfusion
     - Repeated dosing immunogenicity is a concern in a condition already characterised by immune dysregulation and autoantibody production — patient-derived autologous exosomes would minimise immunogenicity but introduce manufacturing complexity
 
@@ -442,7 +442,7 @@ Engineered extracellular vesicles represent an emerging therapeutic delivery pla
 ]
 
 #speculation(title: [Alternative BBB Targeting Ligands Beyond RVG])[
-*Certainty: 0.20.* RVG targets neuronal nicotinic acetylcholine receptors — alternative ligands (ApoE, transferrin receptor antibodies, RVG-9R) may have superior pharmacokinetics or regional specificity for ME/CFS-relevant brain regions @Sanadgol2025ExosomeNABrainDelivery. No comparative CNS exosome targeting data exist. This is a platform engineering question, not a clinical proposal.
+*Certainty: 0.20.* RVG targets neuronal nicotinic acetylcholine receptors — alternative ligands (ApoE, transferrin receptor antibodies, RVG-9R) may have superior pharmacokinetics or regional specificity for ME/CFS-relevant brain regions . No comparative CNS exosome targeting data exist. This is a platform engineering question, not a clinical proposal.
 ] <spec:alternative-exosome-targeting>
 
 #speculation(title: [Ultrasound-Mediated BBB Opening for Spatially Targeted Exosome Delivery])[
@@ -538,5 +538,188 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 #speculation(title: [Mirabegron — Beta3-Adrenergic Agonist for BAT-Mediated Cold Intolerance])[
 *Certainty: 0.20.* Mirabegron (beta3-adrenergic agonist, 50 mg/day, approved for overactive bladder) activates brown adipose tissue via UCP1-dependent thermogenesis. If ME/CFS cold intolerance reflects failed BAT activation from sympathetic dysregulation (ch10:@oq:bat-cold-intolerance), mirabegron could bypass the sympathetic deficit and restore cold thermogenesis directly at the adipocyte beta3 receptor. However, active BAT is minimal in adults over 40 — the typical ME/CFS demographic — and tachycardia is a known side effect that could worsen POTS symptoms. Falsifiable: mirabegron over 4 weeks increases BAT ^18F-FDG uptake by >50% in ME/CFS patients under 40 with detectable baseline BAT. No ME/CFS data; BAT activation demonstrated in healthy young adults only. Pre-existing POTS is a relative contraindication.
 ] <spec:mirabegron-bat>
+
+== Inflammation Resolution-Targeted Therapies
+<sec:resolution-targeted-therapies>
+
+=== Glycyrrhizin for HMGB1-Mediated PEM Prevention
+<sec:glycyrrhizin-hmgb1>
+
+#speculation(title: [Glycyrrhizin for HMGB1-Mediated PEM Prevention])[
+*Certainty: 0.35.* Glycyrrhizin (glycyrrhizic acid), the active component of licorice root, is a direct inhibitor of HMGB1's chemotactic and cytokine-inducing activities. It binds HMGB1 at the Box A/B interface, blocking its interaction with TLR4 and RAGE without affecting DNA-binding functions. Glycyrrhizin is FDA-approved as an oral supplement (standardized to 15-30% glycyrrhizic acid) and available as intravenous glycyrrhizin in Japan (Stronger Neo-Minophagen C) for chronic hepatitis.
+
+*Rationale for PEM prevention.* HMGB1 translocates from nucleus to extracellular space under oxidative stress, and its redox state determines whether it acts as a pro-inflammatory cytokine (disulfide-HMGB1) or chemotactic factor (fully reduced HMGB1). Exercise-induced oxidative stress during exertion may shift HMGB1 toward the pro-inflammatory disulfide form, triggering the PEM cascade @Ibrahim2026HMGB1Neuroinflammation @Chen2026HMGB1pCTSLAxis.
+
+*Mechanism:*
+- Glycyrrhizin binds HMGB1 directly, blocking TLR4/RAGE binding
+- Prevents HMGB1-mediated microglial activation (reducing neuroinflammatory amplification)
+- Reduces HMGB1-driven TNF-alpha and IL-1beta release
+- Does not affect HMGB1's nuclear function (DNA chaperone), preserving normal cellular stress responses
+- Half-life ~8h; oral bioavailability limited but sufficient
+
+*Implementation:* Oral glycyrrhizin 200-400 mg (50-100 mg glycyrrhizic acid) taken before planned exertion or at first sign of PEM onset. Drug interaction: glycyrrhizin inhibits 11beta-HSD2, increasing cortisol availability at mineralocorticoid receptors — this mechanism causes pseudoaldosteronism (hypertension, hypokalemia, edema) in susceptible individuals.
+
+*Safety considerations:*
+- Dose-dependent pseudoaldosteronism limits chronic use; avoid in hypertension, hypokalemia, renal impairment
+- Concurrent use with thiazide diuretics or loop diuretics increases hypokalemia risk
+- Duration: short-term/PRN for PEM prevention rather than continuous daily use
+- Carbenoxolone (a glycyrrhetinic acid derivative) has stronger 11beta-HSD2 inhibition; glycyrrhizin is preferred for lower mineralocorticoid activity
+
+*Testable prediction:* ME/CFS patients receiving glycyrrhizin 200 mg before standardized CPET show reduced plasma disulfide-HMGB1 at 6h post-exercise and reduced PEM severity (PEM duration reduced by >24h) compared to placebo. Falsified if glycyrrhizin does not reduce post-exertional HMGB1 or if HMGB1 reduction does not correlate with PEM improvement.
+
+*Cross-reference:* HMGB1 DAMP hypothesis (@sec:um-resolution, Chapter @ch:universal-mechanisms). HMGB1-ferroptosis ODE model (@prop:hmgb1-ferroptosis-ode, Chapter @ch:causal-hierarchy). DAMP clearance protocol (@spec:c2-damp-clearance).
+] <spec:glycyrrhizin-hmgb1>
+
+=== TUDCA/4-PBA for UPR Inhibition
+<sec:tudca-4pba-upr>
+
+#speculation(title: [TUDCA and 4-Phenylbutyrate for ER Stress/UPR Inhibition])[
+*Certainty: 0.30.* The unfolded protein response (UPR) is chronically activated in conditions involving oxidative stress, viral infection, and mitochondrial dysfunction — all documented in ME/CFS. If UPR activation contributes to ME/CFS pathophysiology via IRE1alpha-driven IL-6/TNF-alpha production and PERK-eIF2alpha-mediated NF-kB activation, chemical chaperones that reduce ER stress could provide a therapeutic avenue @Kawano2023ERSleep.
+
+*Tauroursodeoxycholic acid (TUDCA):*
+- Endogenous bile acid that acts as a chemical chaperone, stabilizing protein folding in the ER
+- Reduces ER stress markers (GRP78, CHOP, spliced XBP1) in multiple disease models
+- FDA-approved (as ursodiol) for primary biliary cholangitis at 13-15 mg/kg/day; TUDCA is the taurine-conjugated form with better solubility
+- Half-life ~4-6h; well-tolerated (diarrhea most common AE at high doses)
+- Neuroprotective in preclinical models of Huntington's, Parkinson's, and Alzheimer's
+
+*4-Phenylbutyrate (4-PBA):*
+- Low molecular weight fatty acid that reduces ER stress by stabilizing protein conformation and enhancing ERAD (ER-associated degradation) capacity
+- FDA-approved for urea cycle disorders (Ammonul, Buphenyl) at 9 g/day (divided TID)
+- Also acts as a histone deacetylase (HDAC) inhibitor, providing potential epigenetic benefit
+- Side effects: taste disturbance, menstrual irregularities, edema; ammonia scavenging effect may alter clinical ammonia monitoring
+- Distinguish from sodium phenylbutyrate (which contains sodium load problematic for POTS patients): glycerol phenylbutyrate preferred in ME/CFS
+
+*ME/CFS-specific rationale:*
+- ER stress is the upstream activator of all three UPR arms (IRE1alpha, PERK, ATF6)
+- IRE1alpha-XBP1 drives IL-6 and TNF-alpha transcription — directly relevant to ME/CFS inflammatory profile
+- PERK-eIF2alpha activates NF-kB via IkB degradation, linking UPR to the broader inflammatory cascade
+- ER-mitochondria contact sites (MAMs) regulate calcium transfer; ER stress at MAMs impairs mitochondrial function directly
+- The UPR connects to sleep disruption (Kawano et al. @Kawano2023ERSleep demonstrated ER proteostasis signals regulate sleep), providing a mechanistic link to ME/CFS sleep pathology
+- Bistable UPR switching (once activated, persists without ongoing trigger — see @prop:ire1alpha-bistable-model) predicts that early intervention before irreversible commitment to chronic UPR may be most effective
+
+*Implementation:*
+- TUDCA: 500-1000 mg/day (typically 15 mg/kg) for 12 weeks; taken with food to improve absorption
+- 4-PBA (glycerol phenylbutyrate): 3-6 g/day divided TID (half the standard urea cycle dose to reduce side effect burden); requires monitoring of phenylacetate levels
+- Combination TUDCA + 4-PBA may provide additive benefit through different chaperone mechanisms
+
+*Testable prediction:* ME/CFS patients receiving TUDCA 1g/day show reduced ER stress markers (GRP78, sXBP1, CHOP) in PBMCs at 12 weeks, correlating with reduced TNF-alpha and IL-6 levels and improved fatigue scores. Adding 4-PBA provides additional reduction in CHOP (pro-apoptotic marker) not seen with TUDCA alone. Falsified if UPR markers are normal at baseline or if TUDCA/4-PBA does not suppress ME/CFS UPR despite target engagement.
+
+*Cross-reference:* IRE1alpha bistable switch model (@prop:ire1alpha-bistable-model, Chapter @ch:causal-hierarchy). UPR/ER stress section (@sec:um-proteostasis, Chapter @ch:universal-mechanisms). ER stress resolution protocol (@spec:c3-er-stress-resolution).
+] <spec:tudca-4pba-upr>
+
+=== tVNS for SPM Induction
+<sec:tvns-spm-induction>
+
+#speculation(title: [Transcutaneous Vagal Nerve Stimulation for SPM Induction])[
+*Certainty: 0.35.* Vagal signaling via the cholinergic anti-inflammatory pathway stimulates resolvin production: alpha7-nAChR activation on macrophages and monocytes promotes SPM biosynthesis through a STAT3-dependent pathway. tVNS (transcutaneous vagus nerve stimulation) applied to the auricular branch at the cymba conchae activates this pathway without surgical implantation.
+
+*Rationale:*
+- The vagus nerve → alpha7-nAChR → SPM synthesis axis links autonomic function to active inflammation resolution
+- ME/CFS patients have reduced vagal tone (low HRV, blunted baroreflex sensitivity) predicting impaired baseline SPM production
+- tVNS is non-invasive, well-tolerated, and has preliminary evidence in ME/CFS (Yu 2022, Natelson 2022)
+- SPM induction represents a distinct mechanism from tVNS's other effects (autonomic stabilization, mast cell modulation, BBB permeability enhancement)
+
+*Mechanism:*
+- Auricular tVNS activates vagal afferents → nucleus tractus solitarius → vagal efferent activation
+- Efferent vagal signaling via alpha7-nAChR on macrophages suppresses TNF-alpha while simultaneously promoting SPM biosynthesis
+- Resolvins (RvD1, RvE1), protectins (PD1), and maresins (MaR1) are elevated in plasma within 2-4h of vagus nerve stimulation in animal models
+- This SPM-mediated anti-inflammatory effect is qualitatively different from TNF-alpha suppression alone — SPMs actively clear cellular debris via efferocytosis and promote tissue repair
+
+*Implementation:*
+- tVNS device: left ear cymba conchae, 25 Hz, 200-300 µs pulse width, 5 min 1-2x daily
+- Timing for SPM induction: once daily in the morning (SPMs peak 2-4h post-stimulation)
+- Additional session before planned exertion for PEM prevention
+- Duration: 4-8 weeks for baseline SPM elevation; ongoing for maintenance
+- Consider combining with omega-3 supplementation (SPM precursor provision) and low-dose aspirin (AT-SPM generation) for synergistic SPM enhancement
+
+*Testable prediction:* ME/CFS patients using daily tVNS for 8 weeks show elevated plasma SPM levels (RvD1, RvE1, MaR1; >50% increase from baseline) that correlate with improved HRV (RMSSD +20%) and reduced PEM duration. The SPM elevation is detectable within 4 weeks and plateaus by 8 weeks. Falsified if SPM levels do not increase despite HRV improvement (suggesting vagal tone improvement alone is insufficient for SPM upregulation).
+
+*Cross-reference:* SPM deficiency hypothesis (@sec:um-resolution). Omega-3 and aspirin SPM strategy (@spec:aspirin-omega3-spm, Chapter @ch:speculative-hypotheses). SPM restoration protocol (@spec:c1-spm-restoration).
+] <spec:tvns-spm-induction>
+
+=== Protocol C1: SPM Restoration Protocol
+<sec:c1-spm-restoration>
+
+#speculation(title: [C1: SPM Restoration Protocol — Aspirin + Omega-3 + tVNS + Diet])[
+*Certainty: 0.30.* Combines four SPM-enhancing interventions targeting complementary nodes in the resolution pathway:
+
+1. *Aspirin 81 mg daily (morning):* Acetylates COX-2, enabling AT-SPM (aspirin-triggered resolvin) synthesis
+2. *Omega-3 (EPA 2-4g + DHA 1-2g daily):* Provides SPM substrate; re-esterified triglyceride form for optimal absorption
+3. *tVNS 5 min daily (morning):* Activates vagal-alpha7-nAChR-SPM synthesis pathway
+4. *SPM-supportive diet:* Omega-3-rich foods (fatty fish, flax, chia), polyphenol-rich foods (berries, olive oil) for additional SPM precursor and anti-inflammatory support; limit omega-6 excess (reduce processed seed oils)
+
+*Rationale for combination:* Each component targets a different bottleneck in the SPM synthesis pathway: substrate provision (omega-3), enzymatic conversion (aspirin-acetylated COX-2), neural activation of SPM biosynthesis (tVNS), and dietary support for overall resolution capacity.
+
+*Safety:*
+- Aspirin + omega-3 combination increases bleeding risk slightly (theoretical) — monitor for bruising, GI bleeding
+- tVNS contraindicated in cardiac arrhythmias
+- High-dose omega-3 may cause fishy aftertaste, mild GI upset, and prolong bleeding time at very high doses (>4g combined EPA+DHA)
+- Monitor for aspirin intolerance
+
+*Testable prediction:* The combination produces greater SPM elevation (RvD1+RvE1+MaR1 increase >100%) than any single component alone, with additive effects. PEM severity and duration reduced by >40% in the combination group at 12 weeks.
+
+*Cross-reference:* Individual components (@spec:aspirin-omega3-spm, @spec:tvns-spm-induction). DAMP clearance protocol (@spec:c2-damp-clearance, below).
+] <spec:c1-spm-restoration>
+
+=== Protocol C2: DAMP Clearance Protocol
+<sec:c2-damp-clearance>
+
+#speculation(title: [C2: DAMP Clearance Protocol — Glycyrrhizin + NAC + Iron Chelation])[
+*Certainty: 0.25.* Targets extracellular DAMP accumulation through three complementary mechanisms:
+
+1. *Glycyrrhizin 200-400 mg daily (short-term/PRN):* Direct HMGB1 neutralization
+2. *NAC 600-1200 mg daily:* Glutathione precursor for enhanced antioxidant capacity; reduces DAMP generation by neutralizing ROS; supports GPX4 activity for ferroptosis prevention
+3. *Iron chelation (low-dose deferiprone or curcumin with piperine):* Reduces labile iron available for Fenton chemistry, decreasing ferroptosis-driven DAMP release
+
+*Rationale for combination:*
+- Glycyrrhizin neutralizes extracellular HMGB1 (the DAMP) after it is released
+- NAC reduces oxidative stress that triggers HMGB1 release (reducing DAMP generation)
+- Iron chelation reduces the lipid peroxidation-ferroptosis-DAMP release cascade
+- The combination addresses DAMP accumulation at three points: generation (NAC, iron chelation), release (iron chelation), and extracellular activity (glycyrrhizin)
+
+*Safety:*
+- Glycyrrhizin: pseudoaldosteronism risk limits duration to 4-8 weeks; monthly BP and K+ monitoring required
+- NAC: generally well-tolerated; rare bronchospasm; may cause GI upset at high doses
+- Iron chelation: deferiprone carries risk of agranulocytosis (weekly CBC monitoring required); curcumin with piperine is safer but less potent; avoid in patients without documented iron overload
+- DAMP clearance may transiently worsen symptoms ("herx-like" reaction) as tissue repair releases sequestered DAMPs
+
+*Testable prediction:* ME/CFS patients receiving the triple protocol for 8 weeks show reduced plasma DAMP levels (HMGB1 -40%, 4-HNE -30%, mtDNA -25%) and improved fatigue scores (SF-36 PF +15 points) compared to placebo. NAC alone reduces oxidative markers but not HMGB1; glycyrrhizin alone reduces HMGB1 but not oxidative markers; the combination is required for both.
+
+*Cross-reference:* HMGB1-DAMP hypothesis (@sec:um-resolution). HMGB1-ferroptosis ODE model (@prop:hmgb1-ferroptosis-ode). Glycyrrhizin speculation (@spec:glycyrrhizin-hmgb1).
+] <spec:c2-damp-clearance>
+
+=== Protocol C3: ER Stress Resolution Protocol
+<sec:c3-er-stress-resolution>
+
+#speculation(title: [C3: ER Stress Resolution — TUDCA + Fasting + Huperzine A])[
+*Certainty: 0.20.* Combines three ER stress-reducing strategies:
+
+1. *TUDCA 500-1000 mg/day:* Chemical chaperone stabilizing ER protein folding, reducing UPR activation
+2. *Intermittent fasting or time-restricted eating (16:8 daily or 5:2 weekly):* Autophagy enhancement; fasting reduces ER load by limiting protein synthesis and promoting autophagic clearance of misfolded proteins
+3. *Huperzine A 50-100 mcg BID:* Acetylcholinesterase inhibitor; enhances cholinergic signaling, which suppresses PERK-eIF2alpha via alpha7-nAChR; may also reduce ER calcium depletion through nicotinic receptor modulation
+
+*Rationale for combination:*
+- TUDCA reduces ER stress directly (chaperone mechanism)
+- Intermittent fasting reduces protein synthesis flux into the ER (substrate reduction), simultaneously activating autophagy for clearance
+- Huperzine A provides cholinergic UPR suppression through a distinct (neuronal-immune) mechanism
+- The combination addresses ER stress through chaperone enhancement (TUDCA), substrate reduction (fasting), and neural regulation (huperzine A)
+
+*Safety:*
+- TUDCA: generally well-tolerated; diarrhea at high doses; long-term safety in ME/CFS unknown
+- Intermittent fasting: may worsen orthostatic intolerance and POTS symptoms; contraindicated in underweight patients; monitor for hypoglycemia
+- Huperzine A: cholinergic side effects (nausea, diarrhea, muscle cramps, bradycardia); narrow therapeutic window; avoid with concurrent cholinergic drugs; beta-blockers may compound bradycardia risk
+
+*Testable prediction:* The combination reduces PBMC UPR markers (GRP78, sXBP1, CHOP) by >50% at 12 weeks in ME/CFS patients with elevated baseline UPR markers. TUDCA alone reduces GRP78 but not sXBP1; TUDCA + fasting is required for both markers.
+
+*Cross-reference:* TUDCA/4-PBA speculation (@spec:tudca-4pba-upr). IRE1alpha bistable switch model (@prop:ire1alpha-bistable-model). Autophagy-heat switch (@spec:autophagy-switch-heat, Chapter @ch:energy-metabolism).
+] <spec:c3-er-stress-resolution>
+
+=== Ziritaxestat/Autotaxin-LPA for Fibrotic-Neuroinflammatory Crosstalk
+<sec:ziritaxestat-atx-lpa-emerging>
+
+#speculation(title: [Ziritaxestat/Autotaxin-LPA Inhibition for Fibrotic-Neuroinflammatory Crosstalk])[
+*Certainty: 0.20.* Autotaxin converts LPC to LPA, a bioactive lipid signaling through LPA1-6 receptors that drives TGF-beta1 induction, fibroblast activation, ECM deposition, and microglial activation. Ziritaxestat (Phase III IPF) provides a clinically-ready ATX inhibitor with established safety. If ATX-LPA is elevated in ME/CFS, it provides a druggable bridge between fibrotic pathology (capillary basement membrane thickening) and neuroinflammation (LPA1-mediated microglial activation). See @spec:ziritaxestat-atx-lpa (Chapter @ch:speculative-hypotheses) for full mechanism. Falsifiable: ATX activity and LPA levels are elevated in ME/CFS; ziritaxestat reduces LPA and improves fatigue in ATX-high patients.
+] <spec:ziritaxestat-atx-lpa-emerging>
 
 #include "ch18-brain-clearance-drugs.typ"

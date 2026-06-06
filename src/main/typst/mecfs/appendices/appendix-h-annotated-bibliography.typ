@@ -19018,3 +19018,70 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Certainty:*: 0.82/1.0
     *Research Stream:*: schizophrenia-autoantibodies
 
+// =============================================================================
+
+== Clinical Care Guidance for Severe ME/CFS
+<sec:bib-severe-mecfs-care-guide>
+// =============================================================================
+
+=== Hermisson et al.\ 2026 — Transdisciplinary Expert Statement: Care Guide for Severe ME/CFS
+
+    *Full Citation:*: Hermisson J, Schreiner C, Weichselbaumer S, et al.\ Transdisziplinäres Expert:innen-Statement: Pflegeleitfaden für Menschen mit schwerem ME/CFS in der häuslichen Versorgung. _Wiener Medizinische Wochenschrift_. 2026. doi:10.1007/s10354-026-01155-6
+    *DOI:*: #link("https://doi.org/10.1007/s10354-026-01155-6")[10.1007/s10354-026-01155-6]
+    *Published:*: June 1, 2026
+    *Study Design:*: Transdisciplinary consensus statement
+    *Key Findings:*:
+        - First transdisciplinary consensus-based nursing care guide specifically for severe/very severe ME/CFS — developed by Austrian Society for ME/CFS + MedUni Vienna
+        - Defines PEM-aware nursing as fundamentally different from standard activating care: goal is stabilization, not activation
+        - Introduces rolling PEM concept in clinical language — overlapping crash cycles without full stabilization
+        - Provides detailed protocols for body care, oral care, nutrition, mobility/transfers, communication, sensory intolerance, and emotional/existential support in bedbound patients
+        - Maps palliative care principles (total pain concept, radical patient orientation) to severe ME/CFS
+        - Addresses caregiver burden (24/7 care, secondary traumatization, financial strain, social isolation) as integral to the care plan
+        - Includes home visit planning protocols (pre-visit tolerance assessment, minimal-stay procedures, non-verbal communication, stop-signal establishment)
+    *Conclusion:*: This is the first structured, consensus-based nursing care guide for severe ME/CFS. It provides practical, PEM-aware protocols across all care dimensions and establishes care principles (harm avoidance, stimulus reduction, minimal intervention) that differ fundamentally from standard activating nursing.
+    *Limitations:*: Practice-oriented consensus document rather than systematic evidence review; primarily based on experiential knowledge from patients and caregivers with professional expert validation; no formal grading of recommendations; Austrian healthcare context may limit transferability; German language (English translation needed for international use).
+    *Certainty:*: 0.85/1.0
+    *Research Stream:*: severe-mecfs-care-guide
+
+=== Montoya et al.\ 2021 — Caring for the Severe/Very Severe ME/CFS Patient
+
+    *Full Citation:*: Montoya JG, Dowell TG, Mooney AE, Dimmock ME, Chu L. Caring for the Patient with Severe or Very Severe Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Healthcare (Basel)_. 2021;9(10):1331.
+    *DOI:*: #link("https://doi.org/10.3390/healthcare9101331")[10.3390/healthcare9101331]
+    *Key Findings:*:
+        - Comprehensive clinical guidance on caring for patients with severe/very severe ME/CFS
+        - Covers medical management, symptom control, and palliative approaches
+        - Addresses ethical considerations in severe disease management
+    *Conclusion:*: Provides multi-expert clinical guidance for the most severely affected ME/CFS patients.
+    *Limitations:*: Clinical expert opinion rather than systematic review; limited empirical evidence base for severe ME/CFS interventions.
+    *Certainty:*: 0.75/1.0
+    *Research Stream:*: severe-mecfs-care-guide
+
+=== Crowhurst 2005 — Supporting People with Severe ME
+
+    *Full Citation:*: Crowhurst G. Supporting people with severe myalgic encephalomyelitis. _Nursing Standard_. 2005;19(21):38–43.
+    *DOI:*: #link("https://doi.org/10.7748/ns2005.02.19.21.38.c3806")[10.7748/ns2005.02.19.21.38.c3806]
+    *Key Findings:*:
+        - Foundational nursing guidance for severe ME care
+        - Addresses symptom management and communication strategies for bedbound patients
+        - Emphasizes rest as primary intervention
+    *Conclusion:*: Early recognition of severe ME as distinct nursing challenge requiring specialized approaches.
+    *Limitations:*: Single-author perspective piece; significantly dated (2005); no systematic methodology.
+    *Certainty:*: 0.55/1.0
+    *Research Stream:*: severe-mecfs-care-guide
+
+=== Fennell et al.\ 2021 — Elements of Suffering in Severe ME/CFS
+
+    *Full Citation:*: Fennell PA, Dorr N, George SS. Elements of Suffering in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: The Experience of Loss, Grief, Stigma, and Trauma in the Severely and Very Severely Affected. _Healthcare (Basel)_. 2021;9(5):553.
+    *DOI:*: #link("https://doi.org/10.3390/healthcare9050553")[10.3390/healthcare9050553]
+    *Study Design:*: Qualitative study
+    *Key Findings:*:
+        - Documents four domains of suffering in severe ME/CFS: loss, grief, stigma, and trauma
+        - Loss: physical function, identity, relationships, future possibilities
+        - Grief: ambiguous loss — patient is living but former life is gone
+        - Stigma: medical disbelief, social invalidation, internalized shame
+        - Trauma: from illness experience, medical encounters, and social abandonment
+    *Conclusion:*: Severe ME/CFS produces complex suffering beyond physical symptoms that requires recognition and psychosocial support.
+    *Limitations:*: Qualitative methodology limits generalizability; self-selected sample.
+    *Certainty:*: 0.65/1.0
+    *Research Stream:*: severe-mecfs-care-guide
+

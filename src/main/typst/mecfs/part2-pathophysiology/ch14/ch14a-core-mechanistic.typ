@@ -1252,3 +1252,42 @@ The glucocorticoid receptor exists in multiple isoforms with opposing functions:
 *Limitations:* The timing hypothesis is speculative; no prospective trials have compared early vs late steroid administration in post-viral syndromes. The 4-week and 6-month cut-offs are arbitrary and may vary by individual and pathogen. Not tested.
 ] <hyp:steroid-timing-paradox>
 
+#speculation(title: [Aspirin + Omega-3 for SPM Precursor Provision])[
+*Certainty: 0.40.* Aspirin-acetylated COX-2 converts EPA and DHA into aspirin-triggered resolvins (AT-RvD1-6, AT-RvE1-3) — specialized pro-resolving mediators that actively terminate inflammation independently of COX-2 inhibition's anti-inflammatory effects. The combination of low-dose aspirin (81-325 mg) with omega-3 fatty acids (EPA 2g + DHA 1g daily) may enhance SPM biosynthesis through substrate provision and enzymatic acetylation synergy @Serhan2022SPMResolvinLongCOVID.
+
+*Mechanism:* Aspirin irreversibly acetylates COX-2 at Ser530, blocking prostaglandin synthesis but retaining the enzyme's ability to convert EPA/DHA to AT-SPM precursors. Omega-3 supplementation provides the substrate. AT-SPMs then: (a) stimulate macrophage efferocytosis, clearing apoptotic cells and debris; (b) reduce neutrophil infiltration by blocking chemotactic gradients; (c) enhance bacterial clearance via antimicrobial peptide upregulation; and (d) promote tissue repair @Serhan2022SPMResolvinLongCOVID.
+
+*ME/CFS rationale.* If ME/CFS involves SPM deficiency (Section @sec:um-resolution, Chapter @ch:universal-mechanisms), aspirin + omega-3 provides a dual strategy: NSAID-like anti-inflammatory effect from COX-1/COX-2 acetylation plus pro-resolution effect from AT-SPM generation. This is mechanistically distinct from standard NSAIDs (e.g., ibuprofen, naproxen) that block all COX activity including the acetylation site needed for AT-SPM synthesis.
+
+*Clinical considerations:*
+- Low-dose aspirin (81 mg) sufficient for COX-2 acetylation; higher doses increase bleeding risk without additional SPM benefit
+- Omega-3 dose: EPA 2-4g + DHA 1-2g daily; ethyl ester forms require food for absorption; re-esterified triglycerides have superior bioavailability
+- Onset: AT-SPM elevation detectable within 24-48h of first dose; clinical benefit may require 4-8 weeks of consistent dosing
+- Contraindications: bleeding disorders, concurrent anticoagulation, aspirin-exacerbated respiratory disease, active GI bleeding, severe renal impairment
+- Glymphatic caution: aspirin dose should be taken in the morning rather than evening, as concurrent NSAID use may impair glymphatic clearance (Section @sec:ch15-glymphatic) — however, the SPM-enhancing pathway is independent of COX-2 *inhibition* and may offset clearance impairment via enhanced resolution of neuroinflammation
+
+*Testable prediction:* ME/CFS patients receiving aspirin 81 mg + EPA 2g/DHA 1g daily show elevated plasma AT-RvD1 and AT-RvE1 levels at 8 weeks compared to omega-3 alone or placebo, correlating with reduced PEM duration and severity. Falsified if AT-SPM levels do not change or do not correlate with clinical outcomes.
+
+*Cross-reference:* SPM deficiency hypothesis (@sec:um-resolution). Omega-3 for FcgammaR modulation (@spec:omega3-fcgr-modulation, Chapter @ch:emerging-therapies). Emergency PEM protocol (Chapter @ch:emerging-therapies).
+] <spec:aspirin-omega3-spm>
+
+#speculation(title: [Ziritaxestat/Autotaxin-LPA Inhibition for Fibrotic-Neuroinflammatory Crosstalk])[
+*Certainty: 0.20.* Autotaxin (ATX) converts lysophosphatidylcholine (LPC) to lysophosphatidic acid (LPA), a bioactive lipid that signals through six GPCRs (LPA1-6) to drive fibroblast activation, TGF-beta1 induction, ECM deposition, and neuroinflammatory cytokine release. Ziritaxestat (GLPG1690, an ATX inhibitor) reached Phase III trials for idiopathic pulmonary fibrosis and demonstrated a favorable safety profile, though development was paused after the Phase III ISABELA trials failed to meet the primary endpoint.
+
+*ME/CFS rationale.* (Certainty: 0.20 — ATX-LPA signaling is established in fibrosis and neuroinflammation across multiple conditions, but no ME/CFS ATX or LPA measurement exists.) The ATX-LPA axis provides a molecular bridge between fibrotic pathology (capillary basement membrane thickening, ECM dysregulation — Chapter @ch:cardiovascular, Chapter @ch:speculative-hypotheses) and neuroinflammation. LPA directly activates microglial LPA1 receptors, triggering cytokine release and chemotaxis. In the periphery, LPA drives TGF-beta-dependent fibroblast activation and collagen deposition.
+
+*Mechanistic chain:* Tissue injury/inflammation → ATX release from endothelial cells, fibroblasts, and immune cells → LPA generation → dual pro-fibrotic (LPA1/TGF-beta → ECM deposition) and pro-neuroinflammatory (LPA1/microglia → IL-6/TNF-alpha) signaling. In ME/CFS, this axis could explain the co-occurrence of capillary basement membrane thickening (fibrotic arm) and neuroinflammation (neuroinflammatory arm) from a single upstream mediator.
+
+*Key prediction:* ATX activity and LPA levels will be elevated in ME/CFS plasma and correlate with both ECM markers (basement membrane degradation products, PIIINP) and neuroinflammatory markers. Ziritaxestat would reduce LPA levels and downstream TGF-beta/microglial activation markers in ME/CFS.
+
+*Safety considerations:* ATX inhibitors were well-tolerated in IPF trials (nasopharyngitis, headache, GI events most common). No ME/CFS safety data exist. Theoretical concern: LPA signaling is required for normal wound healing; chronic inhibition could impair tissue repair in a population already characterized by dysregulated ECM homeostasis.
+
+*Cross-disease relevance:* The ATX-LPA axis is implicated in multiple fibrotic and neuroinflammatory conditions (IPF, systemic sclerosis, multiple sclerosis, neuropathic pain). If validated in ME/CFS, it would provide a shared mechanism fitting the cross-disease framework (Chapter @ch:speculative-hypotheses). Ziritaxestat is one of several ATX inhibitors with comparable mechanisms (e.g., BBT-877, PAT-001).
+
+*Testable prediction:* ATX activity will be elevated in ME/CFS plasma versus controls (effect size d > 0.5); LPA levels will correlate with both IPF-relevant ECM markers (PIIINP, collagen IV degradation products) and neuroinflammatory markers (CSF IL-6, TSPO PET signal). Ziritaxestat 600 mg daily for 12 weeks will reduce LPA levels by >50% and improve fatigue severity in ATX-high patients. Falsified if ATX is normal in ME/CFS or if pharmacological ATX inhibition does not reduce LPA or improve symptoms in ATX-high patients.
+
+*Limitations:* Zero ATX or LPA data exist in ME/CFS. The ISABELA trial failure in IPF suggests that ATX inhibition alone may be insufficient for complex fibrotic disease, though this does not preclude benefit in a distinct condition like ME/CFS. No ME/CFS data; Phase III-ready drug with no ME/CFS indication.
+
+*Cross-reference:* Fibrotic-ECM pathology at @sec:um-structural. Capillary basement membrane thickening at Chapter @ch:cardiovascular.
+] <spec:ziritaxestat-atx-lpa>
+
