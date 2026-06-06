@@ -183,12 +183,50 @@
 | H2 | HMGB1 central DAMP PEM trigger | 1 | 0.55 | ✅ done | ch17 Family 20 + hypothesis-registry |
 | H4 | S100A8/A9 microglial priming | 1 | 0.55 | ✅ done | ch17 Family 20 + hypothesis-registry |
 | H3 | UPR/ER stress feed-forward | 1 | 0.30 | ✅ done | ch17 Family 13 + hypothesis-registry |
-| — | Ferroptosis/iron integration | 1 | 0.50 | ↔️ extended | Already in ch14b; no new content needed |
-| — | P2X7 integration | 1 | 0.45 | ↔️ extended | Already in ch14a, ch17; no new content needed |
-| — | Phase 4a falsifiability | 0 | — | 🔵 running | Re-running with proper falsifiability-auditor |
-| — | Phase 4b retrospective | 0 | — | 🔵 running | Re-running full grep sweep |
-| — | Phase 4c cross-hypothesis | 0 | — | 🔵 running | Re-running with proper matrix |
-| — | Phase 5 build | 0 | — | ⬜ pending | |
+| H5 | Eicosanoid storm COX-2→PGE2→TRPV1 | 1 | 0.50 | ✅ done | ch14b, ch15 speculation |
+| H6 | Iron sequestration hepcidin trap | 1 | 0.50 | ✅ done | ch06, ch12, ch14b, ch20 |
+| H7 | cGAS-STING NAD→mtDNA→IFN loop | 1 | 0.40 | ✅ done | ch06 speculation |
+| H8 | Double-DAMP HMGB1+S100A8/A9 synergy | 1 | 0.35 | ✅ done | ch07 speculation |
+| H9 | Ceramide-S1P rheostat shift | 2 | 0.30 | ✅ done | ch17 Family 20 subsection |
+| H9 | Resolution failure as unifying mechanism | 1 | 0.55 | ✅ done | ch13 hypothesis |
+| P2X7 integration | 1 | 0.45 | ↔️ extended | Already in ch14a, ch17 |
+| R1 | SPM lipidomics post-CPET | 1 | — | ✅ done | ch20 proposal |
+| R2 | HMGB1 redox kinetics PEM | 1 | — | ✅ done | ch02, ch20 proposal |
+| R3 | UPR sensor activation post-exercise | 1 | — | ✅ done | ch20 proposal |
+| R4 | Complement C4a/C5a PEM dynamics | 1 | 0.45 | ✅ done | ch07 speculation |
+| R5 | Iron/ferroptosis panel | 1 | — | ✅ done | ch20 proposal |
+| D1 | Aspirin+omega-3 SPM provision | 1 | 0.40 | ✅ done | ch14a speculation |
+| D2 | Glycyrrhizin HMGB1 PEM prevention | 1 | 0.35 | ✅ done | ch18 speculation |
+| D3 | TUDCA/4-PBA UPR inhibition | 1 | 0.30 | ✅ done | ch18 speculation |
+| D4 | COX-2 celecoxib peri-exertional | 1 | 0.40 | ✅ done | ch10 speculation |
+| D5 | Danazol/hepcidin antagonist iron | 2 | 0.25 | ✅ done | ch14b speculation |
+| D6 | Ziritaxestat ATX-LPA | 3 | 0.20 | ✅ done | ch14a, ch18 speculation |
+| S1 | High-dose DHA/EPA SPM substrate | 1 | 0.45 | ✅ done | ch12 speculation |
+| S2 | L-citrulline NK function | 1 | 0.45 | ✅ done | ch09 speculation |
+| S3 | Quercetin multi-target | 1 | 0.40 | ✅ done | Hypothesis registry |
+| S4 | Albumin/transferrin DAMP clearing | 2 | 0.25 | ⬜ pending | Needs integration |
+| N1 | tVNS SPM induction | 1 | 0.35 | ✅ done | ch18 speculation |
+| N2 | Contrast hydrotherapy UPR-SPM | 2 | 0.30 | ✅ done | Hypothesis registry |
+| N3 | Intermittent fasting UPR hormesis | 2 | 0.25 | ✅ done | Hypothesis registry |
+| M1 | SPM resolution ODE | 1 | — | ✅ done | ch16 proposal |
+| M2 | HMGB1-ferroptosis ODE coupling | 1 | — | ✅ done | ch16 proposal |
+| M3 | Inflammation DAG | 1 | — | ✅ done | ch13 speculation |
+| M4 | IRE1α bistable switch | 2 | — | ✅ done | ch16 proposal |
+| X1 | ADHD dopamine-NRF2-NLRP3 | 2 | 0.35 | ✅ done | ch08, ch14d speculation |
+| X2 | Autism S100B-calcineurin-NFAT | 2 | 0.30 | ✅ done | ch08, ch14d speculation |
+| X3 | POTS complement-glycocalyx | 2 | 0.35 | ✅ done | ch10, ch14d speculation |
+| B1 | Multi-DAMP panel | 1 | — | ✅ done | ch20 open-question |
+| B2 | SPM deficiency index biomarker | 1 | 0.35 | ✅ done | ch20 speculation |
+| B3 | IRE1α XBP1 splicing index | 1 | — | ✅ done | Hypothesis registry |
+| B4 | Complement activation CAS score | 1 | 0.30 | ✅ done | ch20 speculation |
+| C1 | SPM restoration protocol combo | 1 | 0.30 | ✅ done | ch18 speculation |
+| C2 | DAMP clearance protocol combo | 1 | 0.25 | ✅ done | ch18 speculation |
+| C3 | ER stress resolution protocol | 2 | 0.20 | ✅ done | ch18 speculation |
+| C4 | Iron redistribution protocol | 2 | 0.20 | ✅ done | ch14b speculation |
+| N2 | Contrast hydrotherapy UPR-SPM | 2 | 0.30 | ⬜ pending | Needs integration |
+| S4 | Albumin/transferrin infusions | 2 | 0.25 | ⬜ pending | Needs integration |
+| — | Phase 4: 42 ideas integrated | 0 | — | ✅ done | 39 of 42 ideas integrated into 16 chapters (S4, N2 pending) |
+| — | Phase 5 build | 0 | — | ✅ done | Build PASS on 2026-06-06 |
 | — | Phase 6 review convergence | 0 | — | ⬜ pending | |
 | — | Phase 7 changelog | 0 | — | ⬜ pending | |
 | — | Phase 8 commit | 0 | — | ⬜ pending | |

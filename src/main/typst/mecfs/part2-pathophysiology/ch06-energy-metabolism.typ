@@ -2723,10 +2723,10 @@ If some progesterone-axis benefits in ME/CFS operate via Sig-1R at the MAM rathe
 #speculation(title: [TSPO as Dual Marker: Inflammation or Mitochondrial Dysfunction?])[
 *Certainty: 0.40.* TSPO biology supports dual role; ME/CFS-specific evidence is lacking. Mechanistic inference from established TSPO function.
 
-TSPO (18 kDa translocator protein, formerly peripheral benzodiazepine receptor) is located on the outer mitochondrial membrane and participates in cholesterol transport, steroidogenesis, and apoptosis \cite{VanElzakker2019TSPOReview}. While TSPO-PET is widely used as a marker of neuroinflammation (microglial activation), its mitochondrial location raises an important ambiguity for interpreting ME/CFS findings:
+TSPO (18 kDa translocator protein, formerly peripheral benzodiazepine receptor) is located on the outer mitochondrial membrane and participates in cholesterol transport, steroidogenesis, and apoptosis @VanElzakker2019TSPOReview. While TSPO-PET is widely used as a marker of neuroinflammation (microglial activation), its mitochondrial location raises an important ambiguity for interpreting ME/CFS findings:
 
 - *Peripheral TSPO elevation*: If whole-body TSPO PET studies in ME/CFS show increased signal in postural muscles, shoulders, neck, and bone marrow (as suggested by conference data from Michelle James, Stanford, though this study is not yet published), this could reflect (1) activated peripheral immune cells (monocytes, macrophages) in these tissues, or (2) mitochondrial dysfunction in muscles and bone marrow, or (3) both simultaneously.
-- *Brain TSPO signal*: The null finding of ME/CFS TSPO-PET studies \cite{Raijmakers2021TSPOCFS} (no increased brain binding) may indicate (1) absence of central microglial activation, or (2) BBB transport confounding masking microglial activation \cite{Barzon2026TSPOBBB}, or (3) different primary pathology (peripheral mitochondrial dysfunction without central immune involvement).
+- *Brain TSPO signal*: The null finding of ME/CFS TSPO-PET studies @Raijmakers2021TSPOCFS (no increased brain binding) may indicate (1) absence of central microglial activation, or (2) BBB transport confounding masking microglial activation @Barzon2026TSPOBBB, or (3) different primary pathology (peripheral mitochondrial dysfunction without central immune involvement).
 
 TSPO's dual role complicates biomarker interpretation: TSPO-PET cannot distinguish between inflammation and mitochondrial dysfunction without additional data (plasma cytokines, flow cytometry, or mitochondrial function assays).
 

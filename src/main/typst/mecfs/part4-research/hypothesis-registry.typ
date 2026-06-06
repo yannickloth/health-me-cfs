@@ -1,4 +1,3 @@
-,
 //     [Neuroinflammation as Common Mechanism],
 //     [H], [0.75],
 //     [(a) Positron emission tomography (PET) imaging using translocator protein ligand ^11C-PBR28 shows activated microglia in thalamus and anterior cingulate cortex in fibromyalgia patients. (b) This "primed" microglial state is also observed in ME/CFS and Long COVID, where it correlates with fatigue severity and cognitive dysfunction. (c) The microglial priming model provides a mechanistic explanation for why minor stressors can trigger major symptom exacerbations across all three conditions.],

@@ -630,8 +630,8 @@ Full discussion: hypothesis registry (H1: SPM deficiency hypothesis); cross-refe
   *Testable predictions:* (a) Baseline SPM levels (RvD1, RvE1, LXA4) will be lower in ME/CFS than matched controls; (b) SPM levels will fail to rise appropriately 2–24h post-CPET in ME/CFS versus controls; (c) SPM deficiency severity will correlate with PEM duration and severity.
 ]
 
-#speculation(title: [HMGB1 as a Central DAMP Sustaining Neuroinflammation])[
-  High-mobility group box 1 (HMGB1) is a prototypical danger-associated molecular pattern (DAMP) that bridges cellular stress to sustained neuroinflammation @Ibrahim2026HMGB1Neuroinflammation. Nuclear HMGB1 translocates to the cytoplasm and is released extracellularly in response to cellular stress, where it signals via TLR4, TLR9, and RAGE receptors. Critically, HMGB1's redox state determines its bioactivity: disulfide-HMGB1 acts as a pro-inflammatory cytokine, while fully reduced HMGB1 is chemotactic @Ibrahim2026HMGB1Neuroinflammation. This redox switching provides a plausible mechanism for exertion-dependent inflammatory state changes in ME/CFS — exercise-induced oxidative stress could shift HMGB1 toward the pro-inflammatory disulfide form, triggering the PEM cascade.
+#speculation(title: [HMGB1 as a Candidate DAMP in Neuroinflammation])[
+  High-mobility group box 1 (HMGB1) is one of several danger-associated molecular patterns (DAMPs) that may bridge cellular stress to sustained neuroinflammation @Ibrahim2026HMGB1Neuroinflammation. Nuclear HMGB1 translocates to the cytoplasm and is released extracellularly in response to cellular stress, where it signals via TLR4, TLR9, and RAGE receptors. Critically, HMGB1's redox state determines its bioactivity: disulfide-HMGB1 acts as a pro-inflammatory cytokine, while fully reduced HMGB1 is chemotactic @Ibrahim2026HMGB1Neuroinflammation. This redox switching provides a plausible mechanism for exertion-dependent inflammatory state changes in ME/CFS — exercise-induced oxidative stress could shift HMGB1 toward the pro-inflammatory disulfide form, triggering the PEM cascade. The cGAS-STING pathway (Family 4) and mtDNA release (Section @sec:mtdna-cgas-sting) are better-evidenced DAMP mechanisms in ME/CFS; HMGB1 should be considered a complementary candidate rather than a central hub.
 
   HMGB1 is particularly relevant in conditions involving both cellular stress and barrier disruption: the increased blood-brain barrier permeability documented in some ME/CFS patients would allow peripheral HMGB1 to access CNS TLR4/RAGE receptors on microglia and astrocytes. The HMGB1-pCTS-L (cathepsin L) complex described by Chen et al. provides an additional amplification mechanism where HMGB1 binding to cathepsin L sustains inflammatory signaling beyond free HMGB1 alone @Chen2026HMGB1pCTSLAxis.
 
@@ -647,15 +647,15 @@ Full discussion: hypothesis registry (H1: SPM deficiency hypothesis); cross-refe
 
   Calprotectin has additional clinical utility: Hetland et al. showed that calprotectin levels correlate strongly with NET burden ($r \ge 0.745$) in vaccine-associated thrombotic complications @Hetland2022, establishing it as a clinically accessible NET proxy. In ME/CFS, serial calprotectin measurement before and after standardized exertion could serve as a low-cost index of exercise-induced innate immune activation, monitoring NET-mediated thromboinflammation and microglial priming simultaneously without specialized assays.
 
-  *Certainty: 0.55.* S100-A9 upregulation is directly documented in ME/CFS (Nunes 2024). S100A8/A9-TLR4-microglia axis is established in neuroinflammation. NET-correlation via calprotectin is validated. The specific microglial-priming link and exertion-dynamics are untested.
+  *Certainty: 0.55.* S100-A9 upregulation is directly documented in ME/CFS (Nunes 2024). S100A8/A9-TLR4-microglia axis is established in neuroinflammation. NET-correlation via calprotectin is validated. The specific microglial-priming link and exertion-dynamics are untested. A critical caveat: plasma S100A8/A9 elevation does not guarantee CNS penetration — whether calprotectin crosses the BBB in ME/CFS, or activates microglia indirectly via peripheral TLR4 signaling affecting vagal afferents, is unknown.
 
   *Testable predictions:* (a) Plasma calprotectin will rise 6–24h post-CPET in ME/CFS, correlating with PEM severity; (b) Calprotectin levels will correlate with NET markers (MPO-DNA, H3cit) and complement activation products; (c) In patients with the largest post-exertional calprotectin rise, measured microglial activation (TSPO PET) will be highest.
 ]
 
-== Synthesis: The Mechanism Landscape of ME/CFS
-<sec:universal-mechanisms-synthesis>
+== Synthesis: The Mechanism Landscape of ME/CFS (Updated)
+<sec:universal-mechanisms-synthesis-v2>
 
-The survey above identifies *20 universal disease mechanism families* and enumerates approximately *95 concrete mechanisms* within them. ME/CFS shows documented involvement in at least 18 of 20 families — 10 Established, 5 Probable, 3 Emerging; the remaining 2 (transcriptional/nuclear and purinergic/danger signalling) are theoretically implicated but lack direct experimental evidence. Family 20 (inflammation resolution and lipid mediators) is newly characterized as theoretical with probable cross-disease precedent in Long COVID.
+The survey above identifies *20 universal disease mechanism families* and enumerates approximately *95 concrete mechanisms* within them. ME/CFS shows documented involvement in at least 18 of 20 families — 10 Established, 5 Probable, 3 Emerging; the remaining 3 (transcriptional/nuclear, purinergic/danger signalling, and inflammation resolution) are theoretically implicated but lack direct experimental evidence in ME/CFS. Family 20 (inflammation resolution and lipid mediators) is newly characterized — theoretical for ME/CFS (no SPM measurements exist), with probable cross-disease precedent in Long COVID.
 
 #figure(
   table(
@@ -668,20 +668,22 @@ The survey above identifies *20 universal disease mechanism families* and enumer
     [Mitochondrial OXPHOS failure; TRPM3 channelopathy; NK exhaustion; anti-β2AR; cerebral hypoperfusion; neuroinflammation; methylation signatures],
 
     [Probable],
-    [Coagulation (6), Neuroendocrine (9), Amino acid metabolism (11), Gut-microbiome (15), Viral persistence (16), Inflammation resolution (20)],
-    [Fibrin microclots; HPA blunting; IDO trap; gut dysbiosis; EBV reactivation; SPM deficiency],
+    [Coagulation (6), Neuroendocrine (9), Amino acid metabolism (11), Gut-microbiome (15), Viral persistence (16)],
+    [Fibrin microclots; HPA blunting; IDO trap; gut dysbiosis; EBV reactivation],
 
     [Emerging],
     [Protein homeostasis (13), Cell death/senescence (14), Structural/tissue (17)],
     [ATG13 autophagy block; immunosenescence/SASP; skeletal muscle mitochondrial damage],
 
     [Theoretical],
+    [Transcriptional/nuclear (18), Purinergic/danger (19), Inflammation resolution (20)],
+    [NF-κB (inferred); CDR hypothesis; NLRP3 (unstudied); SPM deficiency],
     [Transcriptional/nuclear (18), Purinergic/danger (19)],
     [NF-κB (inferred); CDR hypothesis; NLRP3 (unstudied)],
   ),
   kind: table, supplement: [Table],
   caption: [ME/CFS mechanism involvement by evidence tier across all 20 families. Family 20 (inflammation resolution) is newly added (v6).],
-) <tab:mechanism-status>
+) <tab:mechanism-status-v2>
 
 #achievement(title: [20-Family Mechanism Map Constructed for ME/CFS])[
   This chapter provides the first systematic survey of all universal disease mechanism families applied to ME/CFS, identifying documented involvement across approximately 95 concrete mechanisms in 18 of 20 families. The map establishes ME/CFS as a genuinely multi-mechanism systemic disease and provides a structured framework for research prioritisation and cross-disease comparison.

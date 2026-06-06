@@ -236,5 +236,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | fatigue-no-inflammation-omdal-2026 | [subtrees/fatigue-no-inflammation-omdal-2026.md](subtrees/fatigue-no-inflammation-omdal-2026.md) | 2026-06-01 | 5 | 1 | 🔵 in progress | —
 | mast-cell-theoharides-2026 | [subtrees/mast-cell-theoharides-2026.md](subtrees/mast-cell-theoharides-2026.md) | 2026-06-01 | 2 | 2 | ✅ done | —
 | sleep-deprivation-saliva | [subtrees/sleep-deprivation-saliva.md](subtrees/sleep-deprivation-saliva.md) | 2026-06-04 | 38 | 0 | 🔵 in progress | —
-| inflammation-registry | [subtrees/inflammation-registry.md](subtrees/inflammation-registry.md) | 2026-06-05 | 30 | 0 | 🔵 in progress | — |
+| inflammation-registry | [subtrees/inflammation-registry.md](subtrees/inflammation-registry.md) | 2026-06-05 | 30 | 0 | ✅ done | — |
 | schizophrenia-autoantibodies | [subtrees/schizophrenia-autoantibodies.md](subtrees/schizophrenia-autoantibodies.md) | 2026-06-06 | 20 | 0 | ⬜ pending | — |
+| severe-mecfs-care-guide | [subtrees/severe-mecfs-care-guide.md](subtrees/severe-mecfs-care-guide.md) | 2026-06-06 | 4 | 4 | ✅ done | — |

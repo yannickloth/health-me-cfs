@@ -1119,7 +1119,7 @@ HSAT2 satellite repeat RNA is detectable in serum and plasma using validated met
 
 *Connection to pathogenic mechanisms.*
 
-If HSAT2 is elevated in ME/CFS, it may serve as both biomarker and pathogenic mediator. Chapter [NO CHAPTER] (Section [NO SECTION]) describes the hypothesis that exosomal HSAT2 drives myeloid-derived suppressor cell expansion and T-cell exhaustion @Evdokimova2019HSAT2exosome. Chapter [NO CHAPTER] (Section [NO SECTION]) describes epigenetic HSAT2 activation pathways via HSF1, CTCF loss, and DNA hypomethylation. Biomarker validation studies should therefore include mechanistic readouts (immune phenotyping, exosome HSAT2 cargo) to distinguish whether HSAT2 is merely elevated or actively driving pathology.
+If HSAT2 is elevated in ME/CFS, it may serve as both biomarker and pathogenic mediator. Chapter @ch:universal-mechanisms (Section @sec:um-resolution) describes the hypothesis that exosomal HSAT2 drives myeloid-derived suppressor cell expansion and T-cell exhaustion @Evdokimova2019HSAT2exosome. Chapter @ch:energy-metabolism (Section @sec:step10-dynamics-biogenesis) describes epigenetic HSAT2 activation pathways via HSF1, CTCF loss, and DNA hypomethylation. Biomarker validation studies should therefore include mechanistic readouts (immune phenotyping, exosome HSAT2 cargo) to distinguish whether HSAT2 is merely elevated or actively driving pathology.
 
 #open-question(title: [Is HSAT2 Elevation in ME/CFS Restricted to Specific Subtypes?])[
   Given the heterogeneous ME/CFS population, HSAT2 elevation may be restricted to (1) post-viral onset patients with documented HSF1 activation, (2) patients with accelerated senescence signatures (epigenetic clock acceleration, telomere shortening, immunosenescence), or (3) patients with specific immune exhaustion phenotypes (MDSC expansion, T-cell exhaustion). If HSAT2 is elevated only in a subset, unstratified case-control studies may miss the signal entirely. Biomarker validation should therefore pre-stratify by onset type, senescence markers, and immune exhaustion status.
@@ -1197,7 +1197,7 @@ _Research priority:_ Medium-high. This is not a near-term clinical biomarker, bu
 == Architecture C Diagnostic Concepts
 <sec:architecture-c-diagnostics>
 
-The metabolic reserve hypothesis ([NO SECTION]) suggests several diagnostic approaches targeting reserve measurement and risk stratification. These range from immediately implementable screening panels to research-stage cellular assays.
+The metabolic reserve hypothesis (@sec:architecture-c-diagnostics) suggests several diagnostic approaches targeting reserve measurement and risk stratification. These range from immediately implementable screening panels to research-stage cellular assays.
 
 === Composite Metabolic Reserve Score (MRS)
 <subsec:metabolic-reserve-score>
@@ -1210,14 +1210,14 @@ where $"ND"_"burden"$ = sum of binary indicators (ADHD = 0.15, ASD = 0.20, hEDS 
 
 *Practical challenge:* BH4 and CBF are not routine clinical measures. A simplified version using only ferritin + VO#sub[2]max + neurodivergent diagnosis could be implemented in primary care as a screening tool. However, the simplified version currently lacks calibrated weights, clinical cut-off values, and actionable interpretation guidance — a GP receiving a raw score would have no evidence-based threshold for deciding intervention intensity.
 
-*Use case:* Identify high-risk individuals before infection (prevention) and stratify treatment intensity (lowest MRS = most aggressive metabolic support per:severity-stratified-reserve-protocol).
+*Use case:* Identify high-risk individuals before infection (prevention) and stratify treatment intensity (lowest MRS = most aggressive metabolic support the severity-stratified reserve protocol).
 
 #limitation(title: [MRS Formula Encodes the Hypothesis It Purports to Test])[
 The $"ND"_"burden"$ term directly reduces the composite score for neurodivergent patients, encoding the Architecture C hypothesis (neurodivergence reduces metabolic reserve) into the diagnostic instrument. The MRS cannot fail to show lower values for neurodivergent patients because the formula guarantees it. Empirical validation requires calibrating $"ND"_"burden"$ weights against independently measured metabolic outcomes (PBMC spare respiratory capacity, CPET performance) rather than assuming them a priori. Until weights are empirically derived, the MRS is a hypothesis-structuring tool, not a validated diagnostic.
 ]
 
 #speculation(title: [Composite Metabolic Reserve Score for Risk Stratification])[
-  *Certainty: 0.20.* A composite score weighting ferritin, BH4 status, VO#sub[2]max, cerebral blood flow, and neurodivergent burden could predict ME/CFS risk and guide treatment stratification. Weight calibration requires the prospective study ([NO SECTION]). A simplified version (ferritin + VO#sub[2]max + neurodivergent diagnosis) could be piloted now using retrospective data. Concept is sound; weight calibration entirely untested. Not yet replicated.
+  *Certainty: 0.20.* A composite score weighting ferritin, BH4 status, VO#sub[2]max, cerebral blood flow, and neurodivergent burden could predict ME/CFS risk and guide treatment stratification. Weight calibration requires the prospective study (@sec:architecture-c-diagnostics). A simplified version (ferritin + VO#sub[2]max + neurodivergent diagnosis) could be piloted now using retrospective data. Concept is sound; weight calibration entirely untested. Not yet replicated.
 ] <spec:metabolic-reserve-score>
 
 === MtDNA Haplogroup as a Reserve Stratifier
@@ -1300,7 +1300,7 @@ For patients with known neurodivergent diagnoses, a tiered screening protocol co
 
 *Tier 1 (any primary care, ~\$100):* Ferritin (target $> 100$ ng/mL), CBC with differential, vitamin D (target $> 50$ ng/mL), CRP, ESR.
 
-_Interpretation:_ Ferritin $< 100$ ng/mL → consider iron repletion per:iron-repletion-neurodivergent. Vitamin D $< 50$ ng/mL → supplement to target. Elevated CRP/ESR → investigate active inflammation before attributing to ME/CFS predisposition. Normal results do not exclude low metabolic reserve — Tier 1 captures only the most accessible markers.
+_Interpretation:_ Ferritin $< 100$ ng/mL → consider iron repletion standard iron repletion guidelines for neurodivergent patients. Vitamin D $< 50$ ng/mL → supplement to target. Elevated CRP/ESR → investigate active inflammation before attributing to ME/CFS predisposition. Normal results do not exclude low metabolic reserve — Tier 1 captures only the most accessible markers.
 
 *Tier 2 (specialist, ~\$300):* Urinary neopterin:biopterin ratio, tilt table or NASA lean test (CBF proxy) (note: tilt table testing is a cardiology/autonomic specialty procedure requiring referral in most health systems; the NASA lean test is a simpler office-based alternative), serum zinc/copper/B12/folate, CPET if ambulatory (VO#sub[2]max, anaerobic threshold).
 

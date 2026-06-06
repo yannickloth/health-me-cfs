@@ -609,8 +609,6 @@ Different bacterial populations produce different gases, leading to distinct cli
 #figure(
   table(
     columns: (auto, auto, auto, auto),
-    // TODO: fix columnsllll@}
-
     [*Subtype*], [*Gas Produced*], [*Predominant Symptoms*], [*Treatment Focus*],
 
     [Hydrogen-dominant], [H#sub[2]], [Diarrhea], [Rifaximin],
