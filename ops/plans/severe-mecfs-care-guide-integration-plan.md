@@ -5,13 +5,13 @@
 **Source:** Hermisson J, Schreiner C, Weichselbaumer S, et al. Transdisziplinäres Expert:innen-Statement: Pflegeleitfaden für Menschen mit schwerem ME/CFS in der häuslichen Versorgung. Wien Med Wochenschr. 2026. doi:10.1007/s10354-026-01155-6
 
 **Target chapters:**
-- ch14a-urgent-action-severe — PEM-aware care, crash prevention, "rolling PEM" concept
-- ch17-lifestyle-interventions — pacing expanded for caregiver-implemented pacing, activity-spoiler concept
-- ch02-symptoms / ch03-diagnosis — severe patient clinical features, sensory intolerance
-- ch04-severity-classification — rolling PEM, stabilisation principle
-- ch14d-cross-disease-comparisons — palliative care parallels
+- ch14a-urgent-action-severe — PEM-aware care, crash prevention, caregiver-implemented pacing
+- ch17-lifestyle-interventions — caregiver-implemented pacing, micro-pacing, sensory fasting, palliative principles, PEM diary
+- ch04-severity-classification — rolling PEM concept
+- ch05-severe-reality — caregiver burden reinforcement
+- ch19-integrative-approaches — caregiver protocol certainty bump
 
-**Notes:** This is a clinical practice guide (not a pathophysiological paper) — focus on practical care guidance integration. Article published 2026-06-01, open access. No hypothesis tree needed (care guide, not hypothesis-generating). Plan file is lightweight tracking-only.
+**Notes:** Clinical practice guide (not pathophysiological paper). Hypothesis subtree created at `ops/plans/hypotheses-trees/subtrees/severe-mecfs-care-guide.md` with 4 nodes.
 
 ---
 
@@ -20,15 +20,17 @@
 | Phase | Status | Detail |
 |-------|--------|--------|
 | 0 | ✅ done | Plan created 2026-06-06 |
-| 1 | ✅ done | Research: 1 core paper (Hermisson 2026) + 3 supporting refs (Montoya2021SevereCare, Crowhurst2005Severe, Fennell2021Suffering) added to bib + annotated bib |
-| 2 | ✅ done | Integration: ch04 (rolling PEM concept), ch14a (caregiver-implemented pacing section), ch17 (caregiver-implemented pacing + palliative care principles subsection) |
-| 3 | ✅ done | Brainstorm: 29 ideas across 9 categories (file: content-staging/brainstorm-severe-mecfs-care-guide-2026-06-06.md) |
-| 3a | ⬜ pending | Subtree (care guide — minimal hypothesis content; skip unless Phase 4 generates testable hypotheses) |
-| 4 | ⬜ pending | Develop + integrate ideas |
-| 4a | ⬜ pending | Falsifiability gate |
-| 4b | ⬜ pending | Retrospective adaptation |
-| 4c | ⬜ pending | Cross-hypothesis compatibility |
-| 5 | ⬜ pending | Build |
-| 6 | ⬜ pending | Review convergence |
-| 7 | ⬜ pending | Changelog |
-| 8 | ⬜ pending | Commit |
+| 1 | ✅ done | 4 bib entries + annotated bib + PDF download + scrape registry |
+| 2 | ✅ done | Rolling PEM in ch04; caregiver pacing in ch14a/ch17; sensory fasting, micro-pacing, PEM diary, palliative principles in ch17; caregiver burden reinforcement in ch05+ch19 |
+| 3 | ✅ done | 29 ideas across 9 categories |
+| 3a | ✅ done | Subtree: `ops/plans/hypotheses-trees/subtrees/severe-mecfs-care-guide.md` with 4 nodes; root index updated |
+| 4 | ✅ done | 4 speculations integrated (caregiver-pacing, caregiver-pem-diary, micro-pacing, sensory-fasting); cross-ref fixes applied |
+| 4a | ✅ done | All 4 speculations have falsifiable predictions |
+| 4b | ✅ done | 4 retrospective adaptations (ch05 citations, ch05 content update, ch19 certainty bump); also fixed 22 broken cross-refs + 1 missing label in ch17 |
+| 4c | ✅ done | No conflicts — independent care protocol ideas |
+| 5 | ✅ done | Build passes (after cross-ref fixes) |
+| 6a | ✅ done | Review-convergence: 1 round → 0 findings from new content (6 findings are pre-existing TODOs across codebase) |
+| 6b | ✅ done | Adversarial: converged after 5 rounds (R4-5: zero findings) — fixed numerical precision, removed Hermisson circularity, added palliative framing caveat |
+| 6c | ✅ done | Review-typst: 1 round → 0 findings from new content (pre-existing table column mismatch fixed) |
+| 7 | ✅ done | Changelog entry added under Version 9 |
+| 8 | ✅ done | 2 commits: content (c39b6e5) + docs planning (18eb1a2). Cross-ref fixes and review-fix amendments pending recommit. |

@@ -163,12 +163,16 @@ The care approach for severe ME/CFS aligns closely with palliative care principl
     - *Radical patient orientation.* All interventions are judged by the patient's subjective experience, not by clinical metrics. "Pain is what the patient says it is" applies equally to fatigue, sensory intolerance, and cognitive exertion.
     - *Caregiver as care recipient.* Caregiver well-being is not ancillary — it is medically necessary for the patient's stability. Caregiver burnout leads to protocol breakdown, increased patient crashes, and potentially permanent deterioration @Hermisson2026CareGuide @Fennell2021Suffering.
 
+#limitation(title: [Risk of Palliative Framing in Non-Terminal Illness])[
+Applying palliative care concepts — developed for terminal illness — to non-terminal ME/CFS carries risks: (a) lowered recovery expectations may become self-fulfilling; (b) clinicians may conflate "palliative approach" with "no treatment possible"; (c) patients may internalise a terminal-illness identity that impedes engagement when improvement becomes possible. These principles are used here only to describe the *care approach* for severe patients, not to predict prognosis or limit treatment ambition. Palliative framing does not replace active mechanism-directed treatment — it describes how care is delivered while treatment is pursued.
+]
+
 #speculation(title: [Caregiver-Implemented Pacing Reduces PEM Frequency in Severe ME/CFS])[
-*Certainty: 0.55.* Externally-managed pacing by trained caregivers should reduce crash frequency by 40–60% in severe/very-severe ME/CFS compared to patient self-managed pacing, based on the clinical care guide consensus @Hermisson2026CareGuide. Direct trial evidence is absent — but the intervention is standard clinical practice in severe ME/CFS care, zero-risk, and the mechanism is directly implied by the energy envelope model. Replication status: not formally tested, supported by clinical consensus from multiple expert care centres @Montoya2021SevereCare @Hermisson2026CareGuide.
+*Certainty: 0.55.* Externally-managed pacing by trained caregivers plausibly reduces crash frequency in severe/very-severe ME/CFS compared to patient self-managed pacing @Hermisson2026CareGuide. Direct trial evidence is absent. The mechanism is implied by the energy envelope model: the patient cannot self-monitor reliably due to delayed PEM onset, so external enforcement may be more effective. Replication status: not formally tested; supported by clinical consensus from multiple expert care centres @Montoya2021SevereCare. The specific effect magnitude (40–60%) is an illustrative estimate — no trial data exist to calibrate it.
 
-*Falsifiable prediction:* Severe ME/CFS patients receiving structured caregiver-implemented pacing (defined protocol including prophylactic rest, stop signal, activity spoiler, post-care rest) will show ≥40% reduction in weekly PEM episodes over 8 weeks compared to a control period of self-managed pacing, using a daily PEM diary with blinded symptom rating.
+*Falsifiable prediction:* Severe ME/CFS patients receiving structured caregiver-implemented pacing (defined protocol including prophylactic rest, stop signal, activity spoiler, post-care rest) will show reduced weekly PEM episodes over 8 weeks compared to a control period of self-managed pacing, using a daily PEM diary with blinded symptom rating.
 
-*Limitations:* Requires reliable caregiver availability — not feasible for patients living alone. Caregiver training and protocol fidelity are unstandardised. The distinction between caregiver-implemented and patient-accepted pacing may blur in practice. No blinding possible.
+*Limitations:* Requires reliable caregiver availability — not feasible for patients living alone. Caregiver training and protocol fidelity are unstandardised. The distinction between caregiver-implemented and patient-accepted pacing may blur in practice. No blinding possible. Effect size cannot be predicted from existing data.
 ] <spec:caregiver-pacing>
 
 #speculation(title: [Caregiver PEM Diary as Research-Grade Outcome])[
@@ -181,7 +185,7 @@ The care approach for severe ME/CFS aligns closely with palliative care principl
 #speculation(title: [Micro-Pacing: Sub-Activity Threshold Titration])[
 *Certainty: 0.35.* Current pacing advice stops activities when the patient reaches the PEM threshold. But by the time the patient senses the threshold, the metabolic damage is already occurring (delayed PEM onset). Micro-pacing pre-determines the safe duration for each care task (e.g., 4 minutes of assisted feeding, 3 minutes of bed bath) by baseline tolerance testing, then terminates activities *by protocol duration* before the threshold is reached — not by symptom report @Hermisson2026CareGuide.
 
-*Falsifiable prediction:* Severe ME/CFS patients receiving micro-paced care (activities terminated after fixed sub-threshold durations determined by 3-day baseline tolerance testing) will have ≥50% fewer PEM episodes per week than patients receiving usual care (activity terminated by patient-reported symptoms), with equivalent total care delivery.
+*Falsifiable prediction:* Severe ME/CFS patients receiving micro-paced care (activities terminated after fixed sub-threshold durations determined by 3-day baseline tolerance testing) will show reduced PEM episode frequency per week compared to patients receiving usual care (activity terminated by patient-reported symptoms), with equivalent total care delivery.
 
 *Limitations:* Requires 3-day baseline tolerance measurement — challenging for very-severe patients. Individual tolerance varies day-to-day, requiring protocol recalibration. Caregiver must track duration precisely under low-stimulus conditions. ] <spec:micro-pacing>
 
@@ -2033,7 +2037,7 @@ The approach assumes that environmental modifications produce measurable functio
 #speculation(title: [Sensory Fasting Protocol for Very-Severe ME/CFS])[
 *Certainty: 0.30.* Sensory input (light, sound, touch, smell) is a direct metabolic cost mediated by thalamic gating and cortical processing. In severe ME/CFS, sensory thresholds are pathologically low — inputs neutral for healthy individuals can trigger nociceptive and metabolic responses. A scheduled "sensory fast" — complete sensory deprivation in darkness, silence, no touch, and minimal olfactory stimulation for 2–4 hours daily — could reduce cumulative sensory load below crash threshold @Hermisson2026CareGuide.
 
-*Falsifiable prediction:* Adding a daily 2-hour sensory fast (dark room, noise-cancelling ear protection, no tactile interaction) to standard care reduces PEM episode frequency by ≥30% over 4 weeks compared to standard care alone in very-severe ME/CFS.
+*Falsifiable prediction:* Adding a daily 2-hour sensory fast (dark room, noise-cancelling ear protection, no tactile interaction) to standard care reduces PEM episode frequency over 4 weeks compared to standard care alone in very-severe ME/CFS. The effect magnitude cannot be estimated from existing data — no trial has tested this intervention.
 
 *Limitations:* Sensory deprivation may paradoxically increase anxiety in some patients. Complete deprivation is difficult to implement in home care settings. No ME/CFS trial exists. ] <spec:sensory-fasting>
 
