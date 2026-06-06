@@ -8,7 +8,7 @@
 
 == Medical Disclaimer
 
-*CRITICAL: The author is not a medical doctor or licensed healthcare provider.* This documentation represents independent patient research and should not be construed as medical advice.
+*CRITICAL: The author is not a medical doctor or licensed healthcare provider.* This documentation represents independent research and should not be construed as medical advice.
 
 #warning-env(title: [Medical Disclaimer])[
 
@@ -18,8 +18,7 @@
 - *Always consult qualified healthcare providers* before making any medical decisions
 - Anyone who follows recommendations or protocols in this document *without consulting their physician does so entirely at their own risk and responsibility*
 - The information presented represents a synthesis of current research but should *never be used for self-diagnosis or self-treatment*
-- Treatment decisions should only be made in consultation with licensed medical professionals who can evaluate your individual circumstances
-- The personal case data in Appendix I documents one individual's experience and should not be generalized to others
+- Treatment decisions should only be made in consultation with licensed medical professionals who can evaluate individual circumstances
 
 ]
 

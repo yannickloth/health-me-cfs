@@ -53,13 +53,13 @@ Throughout this document, research findings are classified by evidence strength:
 - The Index provides quick access to terms and concepts
 - Citations link to the Bibliography for full reference details
 - Appendix H contains annotated summaries of key papers
-- Appendix I documents the author's personal case data
+- Appendix I catalogues ongoing and planned ME/CFS research studies
 
 == For Different Readers
 
 *Patients and Caregivers:* Focus on Part I (Clinical Overview) and Part III (Treatment). The pathophysiology sections may be technical but can help understand symptom mechanisms. Part V (Mathematical Modeling) is optional and highly technical.
 
-*Clinicians:* All sections are relevant. Part II provides mechanistic understanding, Parts III and IV offer evidence-based treatment guidance, and Appendix I presents a detailed case study with quantitative tracking.
+*Clinicians:* All sections are relevant. Part II provides mechanistic understanding, Parts III and IV offer evidence-based treatment guidance, and Appendix I catalogues ongoing and planned research studies.
 
 *Researchers:* Parts II, IV, and V provide detailed mechanistic insights, research synthesis, and modeling approaches. Appendix H contains literature summaries organized by topic.
 
@@ -73,15 +73,15 @@ When evaluating medical claims in this document:
 
 - *Note the warnings.* Limitations acknowledged in `warning` environments indicate where the author recognizes uncertainty or potential problems.
 
-- *Remember the author is not a physician.* This work represents independent patient research and literature synthesis, not clinical guidance. All treatment decisions require physician oversight.
+- *Remember the author is not a physician.* This work represents independent research and literature synthesis, not clinical guidance. All treatment decisions require physician oversight.
 
-- *Recognize individual variation.* ME/CFS presents heterogeneously. The personal case data in Appendix I documents one individual's experience and may not generalize to others.
+- *Recognize individual variation.* ME/CFS presents heterogeneously. Treatment approaches, mechanisms, and findings discussed here may not generalize to all patients or subtypes.
 
 - *Consider publication date.* ME/CFS research is rapidly evolving. This document reflects knowledge current at time of publication.
 
 == Medical Disclaimer
 
-*This is not medical advice.* The author has no medical training. This work synthesizes research literature and documents one individual's experience for educational purposes. Always consult qualified healthcare providers before making medical decisions.
+*This is not medical advice.* The author has no medical training. This work synthesizes research literature for educational purposes. Always consult qualified healthcare providers before making medical decisions.
 
 == Updates and Corrections
 
