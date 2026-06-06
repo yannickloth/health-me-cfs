@@ -85,6 +85,98 @@ The apparent Long COVID vs ME/CFS divergence in ccf-mtDNA must be interpreted ca
 *Direct measurement:* Serum IgM and IgG autoantibody titers against tissue homogenates at diagnosis and at 6, 12, and 24 months in a prospective post-infectious cohort would establish trajectory. If IgG antibodies emerge over time as IgM wanes (class switching), this supports a maturing autoimmune response. If IgM persists without IgG emergence, this supports chronic extrafollicular activation with class-switch failure.
 ] <oq:igm-dominance-trajectory>
 
+=== Schizophrenia Autoantibodies: A Historical Parallel for ME/CFS Subgroup Discovery
+<sec:schizophrenia-autoantibody-parallel>
+
+The arc of autoantibody discovery in schizophrenia — from early 20th century serological clues through modern unbiased screening — offers a historically instructive parallel for ME/CFS autoantibody research @Bartley2020SchizophreniaHomecoming.
+
+==== Historical Parallel: From Kraepelin to Phage Display
+
+The schizophrenia autoantibody story spans nearly a century. In 1937, Lehmann-Facius found that 95% of schizophrenia patients harbored brain-reactive autoantibodies using a cerebrospinal fluid flocculation assay — a finding that could not be replicated due to assay limitations, a pattern that would recur repeatedly. For decades, the schizophrenia field pursued a unifying dopaminergic model, even as 60% of patients failed to respond to dopamine blockade, and the autoantibody hypothesis was periodically abandoned and resurrected as technology evolved @Bartley2020SchizophreniaHomecoming.
+
+The decisive breakthrough came in 2007 when Dalmau et al.\ identified 12 women with subacute psychosis caused by inhibitory NMDAR autoantibodies — a treatable autoimmune encephalitis masquerading as schizophrenia @Dalmau2008NMDAREncephalitis. Subsequent screening found peripheral anti-NMDAR autoantibodies in nearly 10% of chronic schizophrenia patients, yet these antibodies were virtually absent from CSF — a discrepancy that initially defied explanation @Ezeoke2013AutoantibodiesSchizophrenia @Pollak2014NMDARPrevalence. Meta-analyses eventually established a pooled NMDAR seropositivity of 3.7–8.0% depending on IgG subclass stringency @Luykx2024NMDARSeropositiveSchizophrenia @Pearlman2014NMDARMeta.
+
+The technological inflection point came with phage display. Wilson and DeRisi used programmable phage display (REAP) to screen for autoantibodies at proteome scale, identifying novel autoantibodies that had eluded detection for decades @Pluvinage2024TranscobalaminAutoantibodies. In 2026, Nemani et al.\ applied REAP screening (6,183 extracellular proteins) to 352 schizophrenia patients and 971 controls, finding that schizophrenia patients had nearly double the extracellular autoantibody burden of controls, targeting CNS antigens, neuroactive receptors, ion channels, synaptic proteins, and BBB antigens — with higher burden predicting worse antipsychotic response @Nemani2026REAPSchizophrenia.
+
+==== Parallels to ME/CFS
+
+#hypothesis(title: [Schizophrenia Autoantibody Discovery Arc as a Model for ME/CFS])[
+*(Certainty: 0.55.)* The schizophrenia autoantibody discovery trajectory — early positive findings not replicable due to assay limitations, decades of pursuit of a unifying non-autoimmune model, eventual recognition of autoantibody-positive subgroups through unbiased screening, and demonstration of immunotherapy-responsive cases — may be repeating in ME/CFS. The specific parallels:
+
+1. *Diagnostic heterogeneity masking subgroups:* Just as Kraepelin's "group of schizophrenias" concept was abandoned for a half-century in favour of a single dopaminergic model before being revived by autoantibody discoveries @Bartley2020SchizophreniaHomecoming, ME/CFS may be prematurely consolidated under a single pathophysiological model despite evidence of autoantibody subgroups @Loebel2016 @Sotzny2021.
+
+2. *Targeted testing blindness:* In schizophrenia, screening for a handful of autoantibodies (NMDAR, VGKC, GAD65) found low prevalence (0.5–1.5% for NMDAR IgG) @Schou2016NeuronalAutoantibodies, leading many to conclude autoantibodies were irrelevant. The ME/CFS parallel: CellTrend ELISA screening for GPCR autoantibodies produces positive results in some cohorts @Freitag2020beta2Validation, but the most comprehensive screen to date (Germain 2025, 7,542 antibody-antigen interactions using REAP + Luminex) found no signal @Germain2025autoantibody. This null may reflect the same limitation — targeted assays (GPCR ELISA) and even moderately broad screens (REAP with extracellular domain fragments) may miss conformational, post-translationally modified, or multi-subunit epitopes.
+
+3. *Unbiased screening as the solution:* The schizophrenia field needed phage display (REAP) to reveal the true autoantibody burden @Nemani2026REAPSchizophrenia. ME/CFS has not undergone equivalent proteome-wide unbiased autoantibody screening. The Germain 2025 null, while the most comprehensive ME/CFS autoantibody screen to date, used REAP displaying individual extracellular domains — which may miss conformational epitopes from multi-loop GPCR structures or multi-subunit receptor complexes.
+
+4. *Immunotherapy-responsive hidden subgroup:* In schizophrenia, immunosuppression (glucocorticoids, plasma exchange) benefits the autoantibody-positive subset @Endres2020AutoantibodyPsychiatricSyndromes @Hansen2023GlucocorticoidsAutoimmunePsychiatry but failed in unselected trials @Cox2020PlasmapheresisSchizophrenia. The ME/CFS parallel is striking: immunoadsorption @Stein2024immunoadsorption and daratumumab @Fluge2025daratumumab show benefit in open-label studies, while unselected trials (rituximab, BC007 Phase II) have failed. The IA-PACS-CFS sham-controlled RCT null @Rucker2026WirthScheibenbogen in unselected patients mirrors the plasmapheresis trial history in schizophrenia — failure to select for autoantibody positivity may explain null results.
+
+5. *The "better prognosis" paradox:* In schizophrenia, Luykx et al.\ (2024) found that NMDAR-seropositive patients had *less severe* negative symptoms and *better* psychosocial functioning @Luykx2024NMDARSeropositiveSchizophrenia — paradoxical if autoantibodies simply worsen disease. The ME/CFS analog: Azcue et al.\ (2026) found M2 and M4 muscarinic receptor autoantibodies were *lower* in ME/CFS vs controls, while β2-adrenergic autoantibodies correlated with specific symptom domains rather than global severity @Azcue2026gpcr. In both conditions, autoantibody profiles may define distinct clinical subgroups with different disease trajectories rather than uniformly more severe pathology.
+
+*Certainty basis:* The historical parallel rests on structurally analogous research trajectories across two fields, not direct evidence. The Dalmau discovery (2007) and Nemani 2026 REAP schizophrenia screen provide the positive proof-of-concept. The Germain 2025 null in ME/CFS — while potentially reflecting true absence of autoantibodies — structurally mirrors the pre-REAP schizophrenia literature where targeted assays underestimated autoantibody prevalence. Certainty 0.55: the methodological analogy is strong, but direct evidence from unbiased screening in ME/CFS is absent, and the Germain 2025 null may reflect genuine biological absence rather than technological limitation.
+
+*Evidence gaps:*
+- No proteome-wide REAP or equivalent unbiased autoantibody screen in ME/CFS
+- No CSF autoantibody profiling in ME/CFS using unbiased platforms (Bynke 2020 found no CSF GPCR autoantibodies by CellTrend ELISA, but unbiased screening may detect targets invisible to GPCR panels)
+- The schizophrenia-ME/CFS comparison is cross-disease analogy, not direct evidence of shared mechanism
+
+*Falsifiable prediction:* REAP screening of ME/CFS plasma against a proteome-scale extracellular protein library (identical to the Nemani 2026 protocol) will identify a set of autoantibody targets — including at least some not currently measured by GPCR ELISA — that are significantly enriched in ME/CFS vs healthy controls (q < 0.05 after FDR correction), with the overall autoantibody burden correlating with immunoadsorption/daratumumab treatment response. Falsified if the total extracellular autoantibody burden is equivalent between ME/CFS and healthy controls (no q-value below 0.10 in an adequately powered cohort of n ≥ 100 per group), or if the identified targets do not differentiate treatment responders from non-responders.
+] <hyp:schizophrenia-mecfs-autoantibody-parallel>
+
+==== Methodological Lessons for ME/CFS
+
+Several specific methodological lessons from the schizophrenia autoantibody literature apply directly to ME/CFS research:
+
+*Plasmapheresis/dialysis trials in unselected schizophrenia were negative* (Cox 2020 systematic review of 9 studies, n=105): 6/8 dialysis studies were null, 1 beneficial, 1 harmful; the single plasmapheresis trial was ineffective @Cox2020PlasmapheresisSchizophrenia. This mirrors the IA-PACS-CFS null in unselected ME/CFS @Rucker2026WirthScheibenbogen. The lesson: autoantibody removal therapies require autoantibody-based patient selection.
+
+*The IgG subclass problem.* In schizophrenia, NMDAR IgA/IgM antibodies are common (7–8% prevalence) but only IgG subclass is clearly pathogenic (0.5–1.5%) @Pollak2014NMDARPrevalence @Schou2016NeuronalAutoantibodies. In ME/CFS, the same issue arises: CellTrend ELISA detects total IgG against GPCRs, but functional bioassays (distinguishing activating vs blocking IgG) may be more specific @Loebel2016. Both fields need functional characterization of antibody pathogenicity, not just binding assays.
+
+*Rare-to-common paradigm.* Rare autoimmune encephalitis (NMDAR, LGI1, CASPR2) in neurology clinics provided the proof-of-concept that autoantibodies cause psychiatric symptoms, which then motivated screening in idiopathic psychosis @Casanova2022RareToCommon. Similarly, rare autoimmune conditions (myasthenia gravis, Lambert-Eaton) may provide the proof-of-concept for autoantibody-mediated fatigability that motivates research in idiopathic ME/CFS.
+
+*Clinical screening tools.* The Neuropsychiatric Checklist for Autoimmune Psychosis (Tebartz van Elst 2025) systematically integrates red-flag symptoms, FDG-PET, CSF, EEG, and MRI findings for assessing autoimmune psychosis likelihood @Tebartz2025AutoimmunePsychosisChecklist. No equivalent diagnostic algorithm exists for autoimmune ME/CFS. Developing such a tool — integrating autonomic testing, immunoadsorption response history, GPCR autoantibody profiles, unbiased autoantibody screening, and CSF markers — would enable systematic identification of the autoimmune ME/CFS subgroup.
+
+==== Summary Chart: Schizophrenia Autoantibody Milestones and ME/CFS Parallels
+
+#figure(
+  caption: [Schizophrenia autoantibody milestones with corresponding ME/CFS status],
+  table(
+    columns: 3,
+    stroke: 0pt,
+  )[
+    [*Schizophrenia Milestone*, *ME/CFS Status*, *Certainty*],
+    [Lehmann-Facius 1937: 95% seropositive by flocculation (unreplicable),, Similar: early GPCR autoantibody reports @Loebel2016 with subsequent replication challenges; Germain 2025 comprehensive null @Germain2025autoantibody, \ 0.35],
+    [Dalmau 2007: anti-NMDAR encephalitis defined a treatable autoimmune psychosis subgroup, \ Similar: GPCR autoantibody pathology suggested by immunoadsorption response @Stein2024immunoadsorption; daratumumab response @Fluge2025daratumumab, \ 0.60–0.65],
+    [Targeted screening found 3.7–8% NMDAR-Ab+ but only 0.5–1.5% IgG subclass @Pollak2014NMDARPrevalence, \ CellTrend ELISA: 29–91% GPCR-Ab+ depending on cohort and threshold @Loebel2016 @Bynke2020; REAP/Luminex null @Germain2025autoantibody, \ 0.30–0.50],
+    [Nemani 2026: REAP proteome-wide screening found 2× autoantibody burden in schizophrenia vs controls, \ Not performed in ME/CFS — equivalent unbiased screen is the single highest-yield experiment, \ 0.00 (not done)],
+    [Plasmapheresis in unselected schizophrenia: null @Cox2020PlasmapheresisSchizophrenia, \ IA-PACS-CFS in unselected ME/CFS: null @Rucker2026WirthScheibenbogen, \ 0.55 (parallel established)],
+    [Endres 2020: 94% immunotherapy response in autoantibody-confirmed autoimmune psychosis, \ Stein 2024: 70% IA response in antibody-positive post-COVID ME/CFS; Fluge 2025: 60% daratumumab response, \ 0.50],
+    [Tebartz van Elst 2025: clinical diagnostic algorithm for autoimmune psychosis, \ No equivalent diagnostic algorithm for autoimmune ME/CFS, \ 0.00 (not developed)],
+    [Kraepelin/Bleuler "group of schizophrenias" reconceptualization driven by autoantibody evidence, \ ME/CFS subgroup reconceptualization driven by autoantibody evidence — partially underway, \ 0.40],
+  ]
+) <tab:schizophrenia-autoantibody-milestones>
+
+#speculation(title: [ME/CFS Autoantibody Subgroup Discovery Will Follow the Schizophrenia Trajectory])[
+*(Certainty: 0.40.)* If the schizophrenia trajectory is a model for ME/CFS, then: (1) unbiased proteome-wide autoantibody screening (REAP) will identify a panel of novel autoantibody targets enriched in a subset of ME/CFS patients; (2) this autoantibody-positive subgroup will show preferential response to immunomodulatory therapy; (3) the initial discovery will come from a well-characterized cohort with clinical features suggestive of autoimmune involvement (infection-triggered onset, inflammatory markers, multi-system involvement). The Germain 2025 null may reflect either (a) genuine absence of autoantibodies in chronic, pre-COVID ME/CFS, or (b) technological limitations of REAP with individual extracellular domain fragments for detecting conformational epitopes. The schizophrenia experience — where decades of negative targeted screening preceded REAP-based discovery — suggests option (b) cannot be excluded without a dedicated proteome-wide screen using complementary platforms.
+
+*Falsifiable prediction:* A head-to-head comparison of three autoantibody screening platforms (CellTrend GPCR ELISA, REAP with full-length native protein libraries, and multi-tissue Western blot) in the same ME/CFS cohort (n ≥ 100) will show a Jaccard similarity < 0.4 between GPCR ELISA and REAP target lists, and at least one platform will identify targets significantly enriched in ME/CFS vs controls (q < 0.05 after FDR correction). Falsified if all three platforms converge on equivalent null results (no q < 0.10 for any target on any platform).
+
+*Gap:* Zero ME/CFS studies have used proteome-wide unbiased autoantibody screening. This is the single most important experiment to resolve the autoantibody controversy in ME/CFS.
+] <spec:schizophrenia-trajectory-mecfs>
+
+==== References for Cross-Disease Autoantibody Comparison
+
+For detailed evidence on schizophrenia autoantibody prevalence, unbiased screening methodology, and treatment response in autoantibody-confirmed subgroups, see Appendix H, *Schizophrenia — Autoantibody Parallels to ME/CFS*.
+
+#speculation(title: [The "Many Schizophrenias" Lesson for ME/CFS Subtyping])[
+*(Certainty: 0.40 — strong historical parallel, zero direct evidence in ME/CFS.)*
+
+Kraepelin and Bleuler both concluded from clinical observation that what they called "schizophrenia" was actually a group of diseases with different etiologies — "we should speak of schizophrenias in the plural" @Bartley2020SchizophreniaHomecoming. This insight was marginalized for decades as the field pursued a single unifying model (dopamine, then NMDA). The cost was substantial: no mechanistically novel treatment for schizophrenia emerged between the 1970s and the 2020s.
+
+The parallel for ME/CFS: if the field pursues a single unifying pathophysiological model (energy metabolism, neuroinflammation, autoimmunity, or any single mechanism) while ignoring subgroup heterogeneity, the same stagnation will occur. Autoantibody-based subgrouping — still controversial in ME/CFS — may ultimately prove as fruitful as it has in schizophrenia, but only if the field is willing to "speak of ME/CFSs in the plural."
+
+*Falsifiable predictions:* (1) The four autoantibody-defined subgroups will show non-equivalent responses to immunomodulatory therapy, tested by a significant interaction term (group × treatment, p < 0.05) in a biomarker-stratified RCT. (2) The double-negative subgroup will show no clinically meaningful response (effect size < 0.2 vs placebo), demonstrating that the apparent "treatment failure" of unselected trials (rituximab, BC007) reflects subgroup dilution rather than treatment inefficacy. Prediction (1) is falsified if the interaction term is non-significant (p ≥ 0.05). Prediction (2) is falsified if the double-negative subgroup shows a clinically meaningful response (effect size ≥ 0.3 vs placebo).
+] <spec:many-mecfss-lesson>
+
 #limitation(title: [HSAT2 Cluster: Single-Anchor Architecture Risk])[
 All environments in the HSAT2 hypothesis cluster — across Chapters 14a, 14d, 16, 17, 18, and 20 — share a single foundational mechanistic anchor: Evdokimova et al.\ 2019 (bioRxiv, Ewing sarcoma, unpublished). If this anchor fails to replicate in non-cancer biology, the downstream speculations (exosomal propagation, MDSC expansion, NK suppression, epigenetic combination strategies) are individually unmotivated. The certainty values assigned to each environment are conditional on the anchor's plausibility; readers should weight them accordingly.
 ]

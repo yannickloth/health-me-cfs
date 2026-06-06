@@ -18549,3 +18549,375 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Limitations:*: Review; no ME/CFS-specific data.
     *Certainty:*: 0.80/1.0
 
+// =============================================================================
+
+== Schizophrenia — Autoantibody Parallels to ME/CFS
+<sec:bib-schizophrenia-autoantibodies>
+
+// =============================================================================
+
+=== Dalmau et al.\ 2008 — Anti-NMDA-Receptor Encephalitis: Landmark Discovery
+
+    *Full Citation:*: Dalmau J, Gleichman AJ, Hughes EG, et al.\ Anti-NMDA-receptor encephalitis: case series and analysis of the effects of antibodies. _The Lancet Neurology_. 2008;7(12):1091–1098.
+    *DOI:*: #link("https://doi.org/10.1016/S1474-4422(08)70224-2")[10.1016/S1474-4422(08)70224-2]
+    *PMID:*: 18851928
+    *Published:*: December 2008
+    *Study Design:*: Case series + in vitro mechanistic study
+    *Sample Size:*: 100 patients with anti-NMDAR encephalitis
+    *Key Findings:*:
+        - 100 patients, 91% female, median age 23; 59% with ovarian teratoma
+        - All presented with psychiatric symptoms; 76% seizures, 88% unresponsiveness, 86% dyskinesias, 69% autonomic instability, 66% hypoventilation
+        - Antibodies target NR1 subunit N-terminal domain; cause NMDAR internalization and clustering loss — reversible by Ab removal
+        - Early tumor removal + immunotherapy → better outcome (p=0.004), fewer relapses (p=0.009)
+    *Conclusion:*: Anti-NMDAR encephalitis defines a treatable autoimmune condition presenting primarily with psychiatric symptoms — autoantibodies can cause reversible "psychosis."
+    *Limitations:*: Referral bias; no control group; predominantly young female with teratoma — different from idiopathic schizophrenia demographics.
+    *Certainty:*: 0.90/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Ezeoke et al.\ 2013 — Blood Autoantibodies in Schizophrenia: Systematic Review
+
+    *Full Citation:*: Ezeoke A, Mellor A, Buckley P, Miller B. A systematic, quantitative review of blood autoantibodies in schizophrenia. _Schizophrenia Research_. 2013;150(1):245–251.
+    *DOI:*: #link("https://doi.org/10.1016/j.schres.2013.07.029")[10.1016/j.schres.2013.07.029]
+    *PMID:*: 23953827
+    *Published:*: October 2013
+    *Study Design:*: Systematic quantitative review
+    *Sample Size:*: 81 studies (of 111 identified)
+    *Key Findings:*:
+        - 20 different autoantibodies significantly elevated in schizophrenia vs controls
+        - Anti-cardiolipin IgG and NMDAR titers increased in first-episode psychosis (p\<0.01)
+        - Anti-cardiolipin IgG/IgM and NGF absolute titers elevated (p\<0.02)
+        - Marked study heterogeneity; inconsistent clinical-autoantibody correlations
+    *Conclusion:*: Schizophrenia is associated with increased prevalence of multiple autoantibodies, but heterogeneity and inconsistent correlations limit interpretation.
+    *Limitations:*: No standardized assay methodology; publication bias; medication confounds; BMI and smoking rarely controlled.
+    *Certainty:*: 0.72/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Pollak et al.\ 2014 — Prevalence of Anti-NMDAR Antibodies: Meta-Analysis
+
+    *Full Citation:*: Pollak TA, McCormack R, Peakman M, Nicholson TR, David AS. Prevalence of anti-N-methyl-D-aspartate (NMDA) receptor antibodies in patients with schizophrenia and related psychoses: a systematic review and meta-analysis. _Psychological Medicine_. 2014;44(12):2475–2487.
+    *DOI:*: #link("https://doi.org/10.1017/S003329171300295X")[10.1017/S003329171300295X]
+    *PMID:*: 24330811
+    *Published:*: September 2014
+    *Study Design:*: Systematic review and meta-analysis
+    *Sample Size:*: 7 studies, 1441 patients
+    *Key Findings:*:
+        - 7.98% anti-NMDAR antibody positive (all Ig classes; 95% CI 6.69–9.50)
+        - Only 1.46% positive for IgG subclass (95% CI 0.94–2.23) — the pathogenic subclass
+        - Greater prevalence in cases vs controls only for IgG; IgA/IgM of uncertain relevance
+        - Significant heterogeneity in assays, patient characteristics, thresholds
+    *Conclusion:*: A minority of psychosis patients have NMDAR antibodies. IgG subclass specificity is critical.
+    *Limitations:*: Serum only; variable assay sensitivity/specificity; small number of studies; mostly cross-sectional.
+    *Certainty:*: 0.78/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Pearlman & Najjar 2014 — NMDAR Antibodies Across Psychiatric Disorders
+
+    *Full Citation:*: Pearlman DM, Najjar S. Meta-analysis of the association between N-methyl-D-aspartate receptor antibodies and schizophrenia, schizoaffective disorder, bipolar disorder, and major depressive disorder. _Schizophrenia Research_. 2014;157(1-3):249–258.
+    *DOI:*: #link("https://doi.org/10.1016/j.schres.2014.05.001")[10.1016/j.schres.2014.05.001]
+    *PMID:*: 24882425
+    *Published:*: August 2014
+    *Study Design:*: Meta-analysis
+    *Sample Size:*: 9 studies, 3387–3194 participants
+    *Key Findings:*:
+        - OR 3.10 for NMDAR-Ab seropositivity (high-specificity thresholds)
+        - NR2A/NR2B titers elevated in first-episode schizophrenia and acute mania
+        - Titers declined 58% over 8 weeks in first-episode schizophrenia
+    *Conclusion:*: Individuals with psychiatric disorders are ~3× more likely to have NMDAR antibodies by high-specificity assays. Temporal titer decline suggests state-dependent production.
+    *Limitations:*: Heterogeneous thresholds; ELISA vs CBA discrepancies; serum only.
+    *Certainty:*: 0.75/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Schou et al.\ 2016 — Anti-Neuronal Autoantibodies in Acute Psychiatry
+
+    *Full Citation:*: Schou M, Sæther SG, Borowski K, et al.\ Prevalence of serum anti-neuronal autoantibodies in patients admitted to acute psychiatric care. _Psychological Medicine_. 2016;46(16):3303–3313.
+    *DOI:*: #link("https://doi.org/10.1017/S0033291716002038")[10.1017/S0033291716002038]
+    *PMID:*: 27609625
+    *Published:*: December 2016
+    *Study Design:*: Cross-sectional cohort
+    *Sample Size:*: 925 unselected acute psychiatric admissions
+    *Key Findings:*:
+        - 11.6% had anti-neuronal autoantibodies: NMDAR 7.6%, CASPR2 2.5%, GAD65 1.9%
+        - Only 0.5% had NMDAR IgG — the pathogenic subclass
+        - NMDAR antibodies equally prevalent in psychosis and non-psychosis patients
+    *Conclusion:*: Anti-neuronal autoantibodies are common in acute psychiatry but IgG subclass (pathogenic) is rare. No diagnostic specificity for psychosis.
+    *Limitations:*: Single Norwegian center; serum only; no CSF confirmation; indirect immunofluorescence may have limited sensitivity.
+    *Certainty:*: 0.80/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Grain et al.\ 2017 — VGKC and GAD65 in Psychosis
+
+    *Full Citation:*: Grain R, Lally J, Stubbs B, et al.\ Autoantibodies against voltage-gated potassium channel and glutamic acid decarboxylase in psychosis: a systematic review, meta-analysis, and case series. _Psychiatry and Clinical Neurosciences_. 2017;71(10):678–689.
+    *DOI:*: #link("https://doi.org/10.1111/pcn.12543")[10.1111/pcn.12543]
+    *PMID:*: 28573688
+    *Published:*: October 2017
+    *Study Design:*: Systematic review, meta-analysis, case series
+    *Sample Size:*: 5 VGKC studies + 9 GAD65 studies
+    *Key Findings:*:
+        - VGKC: 1.5% prevalence in psychosis vs 0.7% controls
+        - GAD65: 5.8% pooled prevalence; OR 2.24 vs controls (p=0.005)
+        - I²=91% — extreme heterogeneity across studies
+        - Few studies controlled for comorbid type 1 diabetes (inflating GAD65 estimates)
+        - 21 treatment-resistant cases: zero VGKC antibodies
+    *Conclusion:*: GAD65 autoantibodies are ~2× more common in psychosis but estimates likely inflated by undiagnosed diabetes.
+    *Limitations:*: Extreme heterogeneity; diabetes comorbidity not controlled; variable titer thresholds.
+    *Certainty:*: 0.68/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Cox et al.\ 2020 — Apheresis Trials in Schizophrenia: Historical Negative
+
+    *Full Citation:*: Cox ER, Marwick KFM, Hunter RW, Priller J, Lawrie SM. Dialysis and plasmapheresis for schizophrenia: a systematic review. _Psychological Medicine_. 2020;50(8):1233–1240.
+    *DOI:*: #link("https://doi.org/10.1017/S0033291720001324")[10.1017/S0033291720001324]
+    *PMID:*: 32404224
+    *Published:*: June 2020
+    *Study Design:*: Systematic review of controlled trials
+    *Sample Size:*: 9 studies, 105 patients total
+    *Key Findings:*:
+        - Hemodialysis: 6/8 no effect, 1 beneficial, 1 harmful
+        - 1 plasmapheresis trial: no benefit
+        - 23% adverse event rate
+        - No studies selected patients by autoantibody status
+    *Conclusion:*: Historical apheresis trials in unselected schizophrenia failed — directly analogous to early ME/CFS IVIG/apheresis trials.
+    *Limitations:*: Small samples; old studies (1970s–80s); no biomarker-based stratification.
+    *Certainty:*: 0.65/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Chaudhry et al.\ 2020 — Methotrexate RCT in Psychosis
+
+    *Full Citation:*: Chaudhry IB, Husain MO, Khoso AB, et al.\ A randomised clinical trial of methotrexate points to possible efficacy and adaptive immune dysfunction in psychosis. _Translational Psychiatry_. 2020;10:415.
+    *DOI:*: #link("https://doi.org/10.1038/s41398-020-01095-8")[10.1038/s41398-020-01095-8]
+    *PMID:*: 33257661
+    *Published:*: November 2020
+    *Study Design:*: RCT (12 weeks)
+    *Sample Size:*: 92 participants
+    *Key Findings:*:
+        - Positive symptoms improved more with methotrexate (β=-2.5; 95% CI -4.7 to -0.4)
+        - No effect on negative symptoms
+        - No immune biomarkers measured; no autoantibody-based subgroup selection
+    *Conclusion:*: Methotrexate may improve positive symptoms. Future trials must use autoantibody-defined subgroups.
+    *Limitations:*: Feasibility study; unselected; no immune biomarker stratification; short duration.
+    *Certainty:*: 0.60/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Endres et al.\ 2020 — Autoantibody-Associated Psychiatric Syndromes: 145 Cases
+
+    *Full Citation:*: Endres D, Maier V, Leypoldt F, et al.\ Autoantibody-associated psychiatric syndromes: a systematic literature review resulting in 145 cases. _Psychological Medicine_. 2020;52(6):1135–1146.
+    *DOI:*: #link("https://doi.org/10.1017/S0033291720002895")[10.1017/S0033291720002895]
+    *PMID:*: 32892761
+    *Published:*: September 2020 (online)
+    *Study Design:*: Systematic review of case reports/series
+    *Sample Size:*: 145 patients with autoimmune encephalitis mimicking psychiatric syndromes
+    *Key Findings:*:
+        - 55% cell-surface antibodies; most common: anti-NMDAR (n=46)
+        - 34% schizophreniform, 39% amnestic presentations
+        - CSF pathology: 78%; EEG: 61%; MRI: 51%
+        - 87% received immunotherapy; 94% responded — critical proof that Ab-selected treatment works
+    *Conclusion:*: Autoimmune encephalitis can mimic schizophrenia. Immunotherapy is highly effective when autoantibody-positive subgroup is identified (94% response).
+    *Limitations:*: Publication bias toward positive outcomes; no control group.
+    *Certainty:*: 0.78/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Ermakov et al.\ 2022 — Immune Abnormalities in Schizophrenia: ~1/3 Inflammatory
+
+    *Full Citation:*: Ermakov EA, Melamud MM, Buneva VN, Ivanova SA. Immune System Abnormalities in Schizophrenia: An Integrative View and Translational Perspectives. _Frontiers in Psychiatry_. 2022;13:880568.
+    *DOI:*: #link("https://doi.org/10.3389/fpsyt.2022.880568")[10.3389/fpsyt.2022.880568]
+    *PMID:*: 35546942
+    *Published:*: April 2022
+    *Study Design:*: Systematic review
+    *Sample Size:*: N/A
+    *Key Findings:*:
+        - All immune components affected: innate to adaptive, humoral to cellular
+        - Signs of severe inflammation in only ~1/3 of patients
+        - CRP, cytokines, neutrophils, autoantibodies, microbiota: lowest bias evidence
+        - Direct parallel to ME/CFS: only a subset has elevated inflammatory markers
+    *Conclusion:*: Inflammation in ~1/3 of schizophrenia — immunological parameters may identify treatment-responsive subgroups, as proposed for ME/CFS.
+    *Limitations:*: Narrative elements; no quantitative meta-analysis.
+    *Certainty:*: 0.75/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Hansen et al.\ 2023 — Glucocorticoids for Autoantibody-Associated Psychiatric Disease
+
+    *Full Citation:*: Hansen N, Neyazi A, Lüdecke D, et al.\ Repositioning synthetic glucocorticoids in psychiatric disease associated with neural autoantibodies: a narrative review. _Journal of Neural Transmission_. 2023;130(8):1029–1038.
+    *DOI:*: #link("https://doi.org/10.1007/s00702-022-02578-2")[10.1007/s00702-022-02578-2]
+    *PMID:*: 36576564
+    *Published:*: August 2023
+    *Study Design:*: Narrative review
+    *Sample Size:*: N/A
+    *Key Findings:*:
+        - No RCTs of glucocorticoids for Ab-associated psychiatric disease
+        - Cohort data: beneficial response for cell-surface (membrane) antibody targets
+        - Less effective for intracellular antigen targets
+        - sGCs used as monotherapy or polytherapy with other immunosuppressants
+    *Conclusion:*: Glucocorticoids may benefit Ab-associated psychiatric disease. Target antigen location (membrane vs intracellular) predicts response — parallel for ME/CFS GPCR AABs (membrane targets).
+    *Limitations:*: Narrative review; no systematic search; mostly case series.
+    *Certainty:*: 0.65/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Luykx et al.\ 2024 — Clinical Profile of NMDAR-Seropositive Schizophrenia
+
+    *Full Citation:*: Luykx JJ, Visscher R, Winter-van Rossum I, et al.\ Clinical symptoms and psychosocial functioning in patients with schizophrenia spectrum disorders testing seropositive for anti-NMDAR antibodies. _The Lancet Psychiatry_. 2024;11(10):828–838.
+    *DOI:*: #link("https://doi.org/10.1016/S2215-0366(24)00249-9")[10.1016/S2215-0366(24)00249-9]
+    *PMID:*: 39300641
+    *Published:*: October 2024
+    *Study Design:*: Case-control (4 European cohorts)
+    *Sample Size:*: 1114 patients (41 seropositive, 3.7%)
+    *Key Findings:*:
+        - 3.7% seropositive (range 3.1–4.0% across 4 cohorts)
+        - NMDAR+ patients had LESS severe negative symptoms (d=0.36, p=0.026)
+        - Better psychosocial functioning (d=0.52, p=0.014)
+        - Live cell-based assay used (optimal specificity)
+    *Conclusion:*: NMDAR antibodies in schizophrenia (3–4%) are associated with milder symptoms and better functioning. May represent a distinct illness subtype.
+    *Limitations:*: Serum only (no CSF); only IgG tested; European cohorts.
+    *Certainty:*: 0.75/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Pluvinage et al.\ 2024 — Phage Display (REAP) Identifies Novel Autoimmune Neurologic Condition
+
+    *Full Citation:*: Pluvinage JV, Ngo T, Fouassier C, et al.\ Transcobalamin receptor antibodies in autoimmune vitamin B12 central deficiency. _Science Translational Medicine_. 2024;16(753):eadl3758.
+    *DOI:*: #link("https://doi.org/10.1126/scitranslmed.adl3758")[10.1126/scitranslmed.adl3758]
+    *PMID:*: 38924428
+    *Published:*: June 2024
+    *Study Design:*: Discovery case + cohort validation + mechanistic
+    *Sample Size:*: Index case + 132 paired serum/CSF samples
+    *Key Findings:*:
+        - Programmable phage display (REAP) identified anti-CD320 autoantibody causing neurologic deficits despite normal serum B12
+        - Impaired cellular B12 uptake by depleting CD320 from cell surface
+        - Prevalence: 6% of HC, 21.4% of neuropsychiatric lupus
+        - Immunosuppression + high-dose B12 → clinical improvement
+        - Unbiased screening discovered a mechanism missed by targeted testing
+    *Conclusion:*: Unbiased phage display identifies novel autoimmune mechanisms missed by targeted testing. Prototype for ME/CFS application.
+    *Limitations:*: n=1 discovery; 6% healthy seroprevalence suggests not all anti-CD320 are pathogenic.
+    *Certainty:*: 0.80/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Tebartz van Elst et al.\ 2025 — Neuropsychiatric Checklist for Autoimmune Psychosis
+
+    *Full Citation:*: Tebartz van Elst L, Runge K, Meyer PT, et al.\ The Neuropsychiatric Checklist for Autoimmune Psychosis: A Narrative Review. _Biological Psychiatry_. 2025;98(9):654–669.
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2025.02.889")[10.1016/j.biopsych.2025.02.889]
+    *PMID:*: 39987981
+    *Published:*: November 2025
+    *Study Design:*: Narrative review with clinical tool
+    *Sample Size:*: N/A
+    *Key Findings:*:
+        - Systematic integration of possible/probable/definite autoimmune psychosis criteria
+        - Red-flag symptoms: subacute onset, catatonia, seizures, autonomic instability
+        - FDG-PET most sensitive; CSF cell-surface Abs; EEG slowing; MRI
+        - Presents Neuropsychiatric Checklist for clinical assessment
+    *Conclusion:*: Structured diagnostic approach enables identification of immunotherapy-responsive patients. Potential model for autoimmune ME/CFS criteria.
+    *Limitations:*: Checklist not validated prospectively; inter-rater reliability not assessed.
+    *Certainty:*: 0.80/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Liu et al.\ 2025 — Clozapine + Rapamycin in Autoimmune Schizophrenia Model
+
+    *Full Citation:*: Liu D, Zhu C, Wei H. Clozapine and rapamycin reverse behavioral abnormalities in an animal model of autoimmune schizophrenia. _Neuropharmacology_. 2025;266:110286.
+    *DOI:*: #link("https://doi.org/10.1016/j.neuropharm.2024.110286")[10.1016/j.neuropharm.2024.110286]
+    *PMID:*: 39733937
+    *Published:*: March 2025
+    *Study Design:*: Animal model (ApoE-/-; anti-SFT2D2 immunization)
+    *Sample Size:*: Mouse groups
+    *Key Findings:*:
+        - Anti-SFT2D2 IgG caused behavioral deficits in ApoE-/- mice
+        - Both clozapine and rapamycin reversed: PPI deficits, motor impairment, cognitive impairment
+        - Both reduced microglial infiltration and restored dendritic spine density
+        - Synergy between antipsychotic and immunosuppressant mechanisms
+    *Conclusion:*: First demonstration in autoantibody-specific animal model that immunosuppressant + antipsychotic act synergistically.
+    *Limitations:*: Animal model; ApoE-/- background; SFT2D2 is one of many potential targets.
+    *Certainty:*: 0.55/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Krzystanek et al.\ 2026 — Immune Alterations in Treatment-Resistant Schizophrenia
+
+    *Full Citation:*: Krzystanek M, Bieś R, Bąk-Sosnowska M. Immune System Alterations in Treatment-Resistant Schizophrenia: A Systematic Review of the Current Evidence and Future Directions. _International Journal of Molecular Sciences_. 2026;27(9):3745.
+    *DOI:*: #link("https://doi.org/10.3390/ijms27093745")[10.3390/ijms27093745]
+    *PMID:*: 42123331
+    *Published:*: April 2026
+    *Study Design:*: Systematic review (PRISMA)
+    *Sample Size:*: N/A
+    *Key Findings:*:
+        - TRS: elevated IL-6, IL-8, TNF-α, sCD25; CD33+/CD123+ cell expansion
+        - Autoantibodies (glutamatergic receptors) more prevalent in TRS
+        - Autoantibody levels decrease with clozapine treatment
+        - IgM-based predictive models for early identification
+        - Emerging immunomodulatory treatments: rituximab, levamisole, senolytics
+    *Conclusion:*: TRS has distinct immune profiles. Parallels severe ME/CFS subgroup.
+    *Limitations:*: Dependent on included studies; many biomarkers not prospectively validated.
+    *Certainty:*: 0.72/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Nemani et al.\ 2026 — REAP Phage Display in Schizophrenia (Preprint)
+
+    *Full Citation:*: Nemani K, Jaycox JR, Akcan U, et al.\ High prevalence of CNS-directed autoantibodies in patients with schizophrenia. _bioRxiv [Preprint]_. 2026 May 7. DOI: 10.64898/2026.05.04.722731.
+    *DOI:*: #link("https://doi.org/10.64898/2026.05.04.722731")[10.64898/2026.05.04.722731]
+    *PMID:*: 42146360
+    *Published:*: May 2026 (preprint)
+    *Study Design:*: Case-control with proteome-scale autoantibody profiling (REAP)
+    *Sample Size:*: 352 schizophrenia, 971 community controls
+    *Key Findings:*:
+        - Striking elevation in extracellular autoantibody burden — ~2× control levels in most severely ill
+        - Present near disease onset; increases with age divergently from controls
+        - Targets CNS antigens: neuroactive receptors, ion channels, synaptic proteins, BBB antigens
+        - Anti-BBB autoantibodies impair barrier function ex vivo
+        - Higher baseline autoantibody burden → worse response to risperidone
+    *Conclusion:*: Humoral autoimmunity is pervasive in schizophrenia. REAP platform should be applied to ME/CFS.
+    *Limitations:*: Preprint; Ring/yLab invention disclosure (Seranova Bio); cross-sectional; specificity of REAP not independently validated.
+    *Certainty:*: 0.50/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+// =============================================================================
+
+== Cross-Disease Comparisons — Autoantibody Convergence & Diagnostic Heterogeneity
+<sec:bib-cross-disease-autoantibodies>
+
+// =============================================================================
+
+=== Bartley & Ross 2020 — Schizophrenia: A Homecoming
+
+    *Full Citation:*: Bartley CM, Ross DA. Schizophrenia: A Homecoming. _Biological Psychiatry_. 2020;88(4):e15–e17.
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2020.06.013")[10.1016/j.biopsych.2020.06.013]
+    *PMID:*: 32731925
+    *Published:*: August 2020
+    *Study Design:*: Historical review
+    *Sample Size:*: N/A
+    *Key Findings:*:
+        - Traces autoantibody discovery in schizophrenia from Lehmann-Facius (1937) through Dalmau (2007) to modern unbiased phage display
+        - Diagnostic heterogeneity as the core barrier — Kraepelin's "dementia praecox" and Bleuler's "group of schizophrenias" parallels current ME/CFS debate
+        - Historical blind spots created by failure to subgroup: "many schizophrenias" hiding treatable autoantibody-defined subtypes
+    *Conclusion:*: Schizophrenia autoantibody research has returned to its origins — understanding autoantibodies as a treatable subgroup. Directly analogous to ME/CFS subgroup discovery.
+    *Limitations:*: Brief perspective; no original data; limited depth.
+    *Certainty:*: 0.85/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Casanova & Abel 2022 — Rare-to-Common Paradigm
+
+    *Full Citation:*: Casanova J-L, Abel L. From rare disorders of immunity to common determinants of infection: Following the mechanistic thread. _Cell_. 2022;185(17):3086–3103.
+    *DOI:*: #link("https://doi.org/10.1016/j.cell.2022.07.004")[10.1016/j.cell.2022.07.004]
+    *PMID:*: 35985287
+    *Published:*: August 2022
+    *Study Design:*: Perspective/Review
+    *Sample Size:*: N/A
+    *Key Findings:*:
+        - Rare inborn errors → common autoantibody determinants: IFN-α/β autoantibodies in ~15% critical COVID-19
+        - Paradigm: rare Mendelian mechanisms reveal common autoimmune pathways
+        - Application: rare autoimmune encephalitis → common autoantibody subgroups in idiopathic psychosis and ME/CFS
+    *Conclusion:*: The rare-to-common paradigm has heuristic value for autoantibody research across neuropsychiatric diseases including ME/CFS.
+    *Limitations:*: Framework piece; not specific to schizophrenia/ME/CFS; no direct data.
+    *Certainty:*: 0.85/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
+=== Cullen et al.\ 2019 — Non-neurological Autoimmune Disorders and Psychosis
+
+    *Full Citation:*: Cullen AE, Holmes S, Pollak TA, et al.\ Associations Between Non-neurological Autoimmune Disorders and Psychosis: A Meta-analysis. _Biological Psychiatry_. 2019;85(1):35–48.
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2018.06.016")[10.1016/j.biopsych.2018.06.016]
+    *PMID:*: 30122288
+    *Study Design:*: Meta-analysis
+    *Sample Size:*: 31 studies, >25 million individuals
+    *Key Findings:*:
+        - Positive overall association: OR 1.26 (95% CI 1.12–1.41, I²=88%)
+        - Pernicious anemia (OR 1.91), pemphigoid (OR 1.90), psoriasis (OR 1.70), celiac (OR 1.53), Graves (OR 1.33)
+        - Negative with RA (OR 0.65) — conserved "protective" autoimmune pattern
+        - Suggests convergent autoantibody mechanisms across diagnostically distinct autoimmune conditions
+    *Conclusion:*: Cross-disease autoantibody convergence is supported by elevated psychosis risk across diverse autoimmune disorders.
+    *Limitations:*: Registry-based diagnoses; no antibody confirmation; cannot distinguish shared genetics from causal autoantibody mechanisms.
+    *Certainty:*: 0.82/1.0
+    *Research Stream:*: schizophrenia-autoantibodies
+
