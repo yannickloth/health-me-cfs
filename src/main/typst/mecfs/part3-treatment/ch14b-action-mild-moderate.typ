@@ -1149,7 +1149,7 @@ Non-restorative sleep is a core ME/CFS symptom (Section @sec:sleep). Sleep dysf
 
 *Supplements (Mild Cases Can Start Here)*
 
-    - Melatonin 0.5–3 mg (2 hours before target sleep time; start low)
+    - Melatonin 0.3–0.5 mg (2 hours before target sleep time; low dose preserves sleep architecture)
     - *Magnesium glycinate 400 mg evening* - NOTE: At upper end of RDA (320 mg women, 420 mg men). Provides 400 mg elemental magnesium for muscle relaxation and calming. Very safe, well-tolerated. May cause loose stools if exceed tolerance (reduce dose if occurs).
     - L-theanine 200 mg before bed (anxiolytic)
     - *Glycine 3 g before bed* - NOTE: Exceeds typical supplement dose (1–2 g) by 1.5–3$times$. Clinical studies for sleep quality improvement use 3 g @Inagawa2006glycine. Mechanism: Glycine lowers core body temperature via NMDA receptor agonism in the suprachiasmatic nucleus, facilitating sleep onset @Bannai2012glycine. Extremely safe (used as food additive); no adverse effects in clinical trials. Sweet taste can be mixed in water.
@@ -1277,11 +1277,13 @@ Pain in ME/CFS involves inflammatory mediators (Section @sec:pro-inflammatory),
 
 <obs:pea-chronic-pain-meta>
   // TODO: needs #table() wrapper
-[Palmitoylethanolamide (PEA), a naturally occurring endocannabinoid-like fatty acid amide, has robust meta-analytic evidence for chronic pain reduction. Three independent meta-analyses demonstrate consistent, large effect sizes: Artukoglu et al. @Artukoglu2017pea analyzed 10 studies (n=1298) finding weighted mean difference of 2.03 (95% CI 1.19–2.87, p\<0.001); Lang-Ilievich et al. @LangIlievich2023pea confirmed these findings in 11 double-blind RCTs (n=774), reporting standardized mean difference of 1.68 (95% CI 1.05–2.31, p\<0.00001); Vi\ na], [López-Moreno @Vina2025pea conducted the most comprehensive analysis (18 RCTs, n=1196), demonstrating PEA efficacy across all pain types: nociceptive (SMD=-0.74), neuropathic (SMD=-0.97), and nociplastic (SMD=-0.59). Benefits emerged at 4–6 weeks and increased through 24–26 weeks. Quality of life improved significantly beyond pain reduction alone. No major adverse events were reported across all trials.],
+[Palmitoylethanolamide (PEA), a naturally occurring endocannabinoid-like fatty acid amide, has robust meta-analytic evidence for chronic pain reduction. Three independent meta-analyses demonstrate consistent, large effect sizes: Artukoglu et al. @Artukoglu2017pea analyzed 10 studies (n=1298) finding weighted mean difference of 2.03 (95% CI 1.19–2.87, p\<0.001); Lang-Ilievich et al. @LangIlievich2023pea confirmed these findings in 11 double-blind RCTs (n=774), reporting standardized mean difference of 1.68 (95% CI 1.05–2.31, p\<0.00001); Viña and López-Moreno @Vina2025pea conducted the most comprehensive analysis (18 RCTs, n=1196), demonstrating PEA efficacy across all pain types: nociceptive (SMD=-0.74), neuropathic (SMD=-0.97), and nociplastic (SMD=-0.59). Benefits emerged at 4–6 weeks and increased through 24–26 weeks. Quality of life improved significantly beyond pain reduction alone. No major adverse events were reported across all trials.],
 
 *Evidence quality*: HIGH for general chronic pain (multiple independent meta-analyses, n>1000 patients). MEDIUM for ME/CFS-specific use (extrapolated; no ME/CFS RCTs).
 #hypothesis(title: [PEA Mechanisms Align with ME/CFS Pain Pathophysiology])[
 *Certainty: 0.45.* PEA's mechanisms of action directly target pathways implicated in ME/CFS pain. Petrosino et al. @Petrosino2019pea demonstrated that PEA counteracts mast cell activation by stimulating diacylglycerol lipase-$beta$ (DAGL-$beta$), increasing endogenous 2-arachidonoylglycerol (2-AG), which activates CB2 receptors to inhibit mast cell degranulation and histamine release—particularly relevant given mast cell activation in ME/CFS subsets (Section @sec:mcas-mild-moderate). Additionally, PEA functions as a PPAR-$alpha$ agonist, reducing neuroinflammation through glial cell modulation and suppression of pro-inflammatory cytokine expression @Varrassi2025pea.
+
+*Falsifiable prediction:* ME/CFS patients with prominent pain and MCAS features receiving micronized PEA 600 mg BID will show ≥30% reduction in pain scores (VAS) at 12 weeks compared to placebo, with measurable reduction in serum mast cell mediators (tryptase, histamine).
 ] <hyp:pea-mecfs-pain-mechanisms>
 
 *Practical protocol*: Prefer _micronized_ or _ultramicronized_ PEA formulations (enhanced solubility profile; superiority over standard PEA on clinical outcomes remains under investigation @LangIllievich2023PEA). Dose: 600 mg twice daily. Time to benefit: 4–6 weeks for initial effect; peak benefit at 24–26 weeks @LangIllievich2023PEA. Excellent safety profile with minimal side effects documented across trials.
@@ -1315,7 +1317,7 @@ Orthostatic intolerance affects 70–90% of ME/CFS patients (Section @sec:ortho
         - Cost: $\<$€5 for months of supply
     
 
-    This formulation provides sodium, potassium, chloride, and glucose in ratios optimized for absorption and metabolic support. See Appendix the Sports Medicine Parallel discussion for the clinical insight that led to this protocol development.
+    This formulation provides sodium, potassium, chloride, and glucose in ratios optimized for absorption and metabolic support. See the "Success Story: Sports Medicine and ME/CFS" section in Chapter @ch:integrative-treatment for the clinical insight that led to this protocol development.
 
     - *Fluids*: 2.5–3 L daily
     - *Positional changes*: Rise slowly (sit 30 seconds before standing)
@@ -1339,8 +1341,8 @@ Orthostatic intolerance affects 70–90% of ME/CFS patients (Section @sec:ortho
 
     - *Wearing schedule*:
     
-        - *During upright activities*: All times child is sitting or standing (except during sleep or recumbent rest)
-        - *Examples*: School day, meals, therapy appointments, activities
+        - *During upright activities*: All times patient is sitting or standing (except during sleep or recumbent rest)
+        - *Examples*: Work day, meals, therapy appointments, activities
         - *Remove during sleep*: Not needed in horizontal position
         - *Daily wear*: 8–12 hours typical
     
@@ -1350,13 +1352,13 @@ Orthostatic intolerance affects 70–90% of ME/CFS patients (Section @sec:ortho
         - Reduced tachycardia with position changes
         - Improved cognitive clarity (cerebral perfusion stabilized)
         - Reduced fatigue from sustained orthostatic compensation
-        - Better school tolerance and attendance
+        - Better work/school tolerance and attendance
     
 
     - *Practical considerations*:
     
         - *Fitting*: Measure leg diameter for proper sizing; incorrect fit loses effectiveness
-        - *Compliance*: Children may resist wearing; emphasize improved energy/cognition benefits
+        - *Compliance*: Some patients may resist wearing; emphasize improved energy/cognition benefits
         - *Cost*: Medical-grade stockings \$30–60 per pair; insurance may cover with prescription for POTS
         - *Longevity*: Replace every 3–6 months (lose compression with washing)
     
@@ -1370,7 +1372,7 @@ Orthostatic intolerance affects 70–90% of ME/CFS patients (Section @sec:ortho
 
 *Evidence level*: Moderate (20–30 mmHg compression established for POTS; extends to autonomic-primary ME/CFS subtype with SFN features)
 
-*Expected outcomes:* 20–40% reduction in orthostatic symptoms when combined with salt/fluid protocol. Effects may take 1–2 weeks as child adjusts to compression.
+*Expected outcomes:* 20–40% reduction in orthostatic symptoms when combined with salt/fluid protocol. Effects may take 1–2 weeks as patient adjusts to compression.
 
 ] <rec:compression-garments-mild-moderate>
 
@@ -1389,10 +1391,17 @@ Teixeira et al. @Teixeira2024POTS conducted the first randomized, double-blind,
 
 Mechanisms included decreased $beta_1$-adrenergic and $alpha_1$-adrenergic receptor autoantibodies, reduced inflammatory cytokines, and improved heart rate variability. The intervention was well-tolerated with no serious adverse events @Farmer2022taVNS.
 
-*Study quality*: HIGH (randomized, sham-controlled, published in JACC: Clinical Electrophysiology). Requires larger replication trials.
+*Study quality*: MODERATE (single randomized, sham-controlled trial, n=26; requires larger replication trials before confidence is high). Single-site, small sample, and exclusion of complex comorbidities limit generalisability.
 ] <achievement:tvns-pots-rct>
 
 *Practical protocol*: Auricular tVNS targeting tragus or cymba concha; 20–25 Hz, 0.5–1 mA (below discomfort threshold); start with 5–10 minutes daily and gradually increase to 30–60 minutes over several weeks. Devices include FDA-approved GammaCore (cervical) and research/CE-marked auricular devices (NEMOS, Parasym). *Home-based* treatment suitable for bedbound patients.
+
+*Expected outcomes and timeline:*
+- *Primary (POTS, evidence level HIGH):* Reduction in orthostatic tachycardia of 8--10 bpm on tilt test at 2 months of daily 1-hour stimulation, documented in the Teixeira 2024 sham-controlled RCT (n=26) @Teixeira2024POTS. No additional improvement beyond 2 months was assessed in the trial.
+- *Secondary (autonomic):* Improved HRV (RMSSD increase, LF/HF ratio decrease) detectable within 2--4 weeks. Subjective reduction in palpitations and orthostatic presyncope may be apparent within 1--2 weeks.
+- *Tertiary (immunomodulatory, uncertain):* Reduced pro-inflammatory cytokines via cholinergic anti-inflammatory pathway — detectable at 4 weeks per SPM induction protocol (@sec:tvns-spm-induction). SPM elevation plates at 8 weeks.
+- *Tertiary (vagal tone conditioning, uncertain):* Sustained improvement in resting HRV after 8--12 weeks of consistent daily use, suggesting long-term neuroplasticity of vagal efferent pathways. Unproven — derived from tVNS epilepsy and depression literature; not tested in POTS or ME/CFS.
+- *Time to no-effect decision:* If no subjective benefit (palpitations, orthostatic tolerance, sleep quality) is perceived after 8 weeks of consistent use at the target dose, the intervention may be discontinued — the tVNS evidence base does not support benefit beyond 8 weeks if no early signal is present.
 
 #warning-env(title: [tVNS Caution in Severe ME/CFS])[
 An international ME/CFS patient survey (n=116) found that “normal” tVNS settings can cause crashes in severe ME/CFS patients @Lugg2024MECFS, although 56% reported favorable effects overall. For severe ME/CFS: use very gradual titration (start 0.5 mA, 5 minutes), monitor for delayed symptom exacerbation (24–48 hours), and discontinue if crashes occur. Formal trials to identify safe parameters for the ME/CFS population are needed.
@@ -1783,7 +1792,7 @@ The front-loading strategy accepts several methodological limitations:
         - Risk of non-adherence
     
 
-    - *Nocebo and medicalization risk*: Aggressive early intervention may reinforce illness identity in patients who might have spontaneously recovered. However, given low spontaneous recovery rates (5%) @Cairns2005prognosis, this risk is likely small relative to potential benefit of preserving Recovery Capital.
+    - *Nocebo and medicalization risk*: Aggressive early intervention may reinforce illness identity in patients who might have recovered spontaneously. While established ME/CFS at tertiary referral centers shows low spontaneous recovery (5%) @Cairns2005prognosis, the first 6 months of post-viral fatigue have substantially higher spontaneous recovery rates (estimated 40-70% in post-viral cohorts). Front-loading within this window risks treating a self-limited illness with intensive polypharmacy — converting transient post-viral fatigue into chronic treatment dependence. Monitoring for spontaneous trajectory before escalating is advisable. The net benefit of front-loading over watchful waiting in the first 3 months is unstudied.
 
 *The core trade-off:* Front-loading prioritizes _speed_ over _attribution_. If the therapeutic window is narrow and Recovery Capital finite, this trade-off may be justified despite methodological limitations.
 
@@ -2062,7 +2071,7 @@ OI may be an upstream driver of ME/CFS pathophysiology, with early intervention 
     - *Sleep optimization*:
     
         - Sleep study if sleep quality impaired (do not delay)
-        - Pharmacological support if needed: melatonin 0.5–3mg, low-dose trazodone 25–50mg
+        - Pharmacological support if needed: melatonin 0.3–0.5mg, low-dose trazodone 25–50mg
         - Circadian light therapy (10,000 lux within 30 minutes of waking)
         - Target: 7–9 hours with $gt.eq$85% sleep efficiency
     
