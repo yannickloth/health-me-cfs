@@ -778,7 +778,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 #speculation(title: [EPO Stimulation Test as Diagnostic Probe for HIF Pathway Integrity])[
 *Certainty: 0.40.* A standardised hypoxia challenge with serial EPO measurement could serve as a dynamic functional test of HIF pathway integrity in ME/CFS, analogous to the ACTH stimulation test for adrenal insufficiency @Winkler2004.
 
-*Protocol.* 2~h mild hypoxia (FiO#sub[2] 0.14, supine, continuous SpO#sub[2] monitoring, SpO#sub[2] maintained ≥88%) with serum EPO measured at baseline, 2~h, 4~h, 8~h, 24~h, and 48~h. The outcome metric is EPO AUC over 48~h, with detection threshold defined as <60% of age/sex-matched control median.
+*Protocol.* 2~h mild hypoxia (FiO#sub[2] 0.14, supine, continuous SpO#sub[2] monitoring, SpO#sub[2] maintained ≥88%) with serum EPO measured at baseline, 2~h, 4~h, 8~h, 24~h, and 48~h. The outcome metric is EPO AUC over 48~h, with detection threshold defined as \u{3c}60% of age/sex-matched control median.
 
 *Mechanistic rationale.* If HIF pathway inertia is a core feature of ME/CFS, the EPO response to a controlled hypoxic stimulus should be blunted relative to controls while basal EPO remains normal — a pattern consistent with impaired inducibility rather than absolute HIF deficiency.
 
