@@ -27,12 +27,12 @@ These findings strengthen the case that Long COVID and ME/CFS involve convergent
 
 *PEM and exercise response: a critical divergence.*
 
-Despite overlapping symptom profiles, Long COVID and ME/CFS may differ fundamentally in their response to physical exertion. A 2-day CPET study of 15 Long COVID patients (80% reporting PEM symptoms) found NO differences between Day 1 and Day 2 CPET performance . This null result stands in sharp contrast to the consistent CPET-2 deterioration observed across multiple ME/CFS cohorts  @vanCampen2020SeverityCPET CPETMeta.
+Despite overlapping symptom profiles, Long COVID and ME/CFS may differ fundamentally in their response to physical exertion. A 2-day CPET study of 15 Long COVID patients (80% reporting PEM symptoms) found NO differences between Day 1 and Day 2 CPET performance . This null result stands in sharp contrast to the consistent CPET-2 deterioration observed across multiple ME/CFS cohorts  @vanCampen2020SeverityCPET @Lim2020CPETMeta.
 
 #hypothesis(title: [Distinct PEM Pathophysiology in Long COVID vs ME/CFS])[
 The absence of 2-day CPET impairment in Long COVID patients reporting PEM symptoms suggests that PEM in Long COVID may have a different pathophysiological basis than PEM in ME/CFS. (Certainty: 0.50)
 
-*Evidence Base.* Long COVID patients with self-reported PEM symptoms show NO Day 2 CPET deterioration , whereas ME/CFS patients consistently show significant CPET-2 declines across multiple studies  @vanCampen2020SeverityCPET CPETMeta. Both conditions report subjective PEM symptoms, but only ME/CFS shows the objective CPET-2 signature.
+*Evidence Base.* Long COVID patients with self-reported PEM symptoms show NO Day 2 CPET deterioration , whereas ME/CFS patients consistently show significant CPET-2 declines across multiple studies  @vanCampen2020SeverityCPET @Lim2020CPETMeta. Both conditions report subjective PEM symptoms, but only ME/CFS shows the objective CPET-2 signature.
 
 *Alternative Interpretations.* The Long COVID finding could reflect: (1) insufficient sample size (n=15), (2) different disease duration (Long COVID patients earlier in disease course), (3) selection bias (Long COVID patients able to complete CPET may represent a milder subset), or (4) genuine pathophysiological difference.
 
@@ -2406,5 +2406,25 @@ This mechanism provides a vascular explanation for POTS that is independent of a
 
 *Cross-reference:* Complement activation in ME/CFS (Chapter @ch:immune-dysfunction). Glycocalyx damage in cardiovascular chapter. IgM-glycocalyx speculation (@spec:igm-glycocalyx, Chapter @ch:immune-dysfunction). Sutimlimab discussion (@spec:c1s-inhibition-emerging, Chapter @ch:emerging-therapies).
 ] <spec:pots-complement-glycocalyx>
+
+=== POTS Central Sensitization
+<sec:pots-central-sensitization>
+
+#speculation(title: [Central Sensitization in POTS — A CNS Amplification Component])[
+*Certainty: 0.40.* Mathew et al. (2026, Novak lab, JAMA Network Open) conducted the first systematic assessment of central sensitization in POTS, finding that 67% of POTS patients meet criteria for central sensitization using validated questionnaires (Central Sensitization Inventory, CSI) — a prevalence far exceeding the general population @Mathew2026centralSens. This challenges the view of POTS as purely a peripheral autonomic disorder and suggests a substantial CNS amplification component. Certainty discounted from 0.55 to 0.40 for: single-center, questionnaire-based (no QST or neuroimaging confirmation), CSI not validated in dysautonomia populations, zero interventional data testing the treatment-stratification prediction.
+
+*Mechanism.* Central sensitization — enhanced processing of afferent signals in the CNS resulting in amplified pain, sensory, and autonomic responses — may involve altered processing of autonomic afferent signals from baroreceptors, chemoreceptors, and nociceptors at the nucleus tractus solitarius (NTS), parabrachial nucleus, and insular cortex. If central sensitization distorts the brain's interpretation of hemodynamic state, the perceived deficit in cerebral perfusion may exceed the actual deficit — analogous to how central sensitization amplifies pain perception beyond the nociceptive input. This would produce a hyperadrenergic state driven by a misperceived low-flow signal rather than by true hypovolemia or SFN.
+
+*ME/CFS relevance.* If 67% of POTS patients meet central sensitization criteria, and 60% of ME/CFS patients have POTS, then approximately 40% of ME/CFS patients may have POTS with central sensitization features — a subtype for whom CNS-directed interventions (duloxetine, cognitive interoceptive retraining, tVNS) may be more effective than purely peripheral interventions (midodrine, fludrocortisone, compression). The SFN finding (Ekman 2025: neuropathy severity correlates with GI symptoms @Ekman2025SFNpots) is not an alternative to central sensitization but a potential peripheral driver: damaged small fibers → aberrant afferent input → central amplification → exaggerated autonomic and sensory symptoms.
+
+*Falsifiable predictions:*
+- POTS patients with CSI ≥ 40 show exaggerated insula/ACC BOLD activation during graded HUT compared to CSI− POTS patients matched for HR increment, MAP change, and SV — confirming CNS amplification of the same peripheral autonomic signal
+- CSI score predicts treatment response: high-CSI patients respond better to CNS-directed interventions (low-dose duloxetine, tVNS) than to peripheral interventions (midodrine, fludrocortisone), with the reverse pattern for low-CSI patients
+- The degree of orthostatic HR increment is predicted more accurately by a combined model (SV change + CSI score) than by SV change alone (ΔR² > 0.10)
+
+*Limitations.* Mathew 2026 is single-center (Novak lab, Brigham and Women's), moderate sample size, uses self-report questionnaires for central sensitization rather than quantitative sensory testing or neuroimaging. CSI was developed for chronic pain populations and has not been specifically validated in dysautonomia. Central sensitization may be a consequence rather than a cause — chronic orthostatic stress → CNS remodeling → sensitization — rather than an independent driver. The proposed treatment stratification (CNS-directed for high CSI) is entirely untested.
+
+*Falsified if* (a) CSI≥40 patients do not show greater insula/ACC BOLD activation than matched CSI− patients during HUT, or (b) CSI score does not predict differential treatment response (interaction p $gt.eq$ 0.10 between CSI and treatment type), or (c) adding CSI to an SV-only model does not improve HR-increment prediction (ΔR² $lt.eq$ 0.05).
+] <spec:pots-central-sensitization>
 
 #include "ch14d-brain-clearance-bridges.typ"

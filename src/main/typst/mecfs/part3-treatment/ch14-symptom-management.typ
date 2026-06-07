@@ -229,7 +229,7 @@ Sleep dysfunction is nearly universal in ME/CFS, affecting over 90% of patients.
 
 Standard sleep hygiene principles apply but must be adapted for the ME/CFS context:
 
-    - *Environmental modifications*: Dark, cool (18–20\textdegree C), quiet bedroom. Blackout curtains and white noise machines may help patients with sensory sensitivities. Remove screens from the bedroom
+    - *Environmental modifications*: Dark, cool (18–20°C), quiet bedroom. Blackout curtains and white noise machines may help patients with sensory sensitivities. Remove screens from the bedroom
     - *Consistent schedule*: Fixed wake time is more important than fixed bedtime. Gradual shift toward desired schedule (15 minutes per week) rather than abrupt changes
     - *Light exposure*: Morning bright light (10,000 lux light box or natural daylight within 30 minutes of waking) helps entrain circadian rhythm. Evening blue light reduction via amber-tinted glasses or screen filters beginning 2 hours before bedtime
     - *Temperature regulation*: Many ME/CFS patients have impaired thermoregulation. Cooling mattress pads, breathable bedding, and layered blankets allow temperature adjustment
@@ -449,7 +449,7 @@ Orthostatic intolerance—including postural orthostatic tachycardia syndrome (P
 
 === Non-pharmacological Approaches
 
-Non-pharmacological management is the foundation of orthostatic intolerance treatment and should be implemented before or alongside medications:
+Non-pharmacological management is the foundation of orthostatic intolerance treatment and should be implemented before or alongside medications. A qualitative study by Uppal et al. (2026, Raj lab) found that POTS patients in their sample consistently reported modest medication effectiveness and valued non-pharmacological strategies (salt loading, compression garments, exercise within tolerance) as core components of their management @Uppal2026qualitative. Most patients had tried multiple medications with limited benefit — underscoring the importance of realistic expectations and that non-pharmacological strategies are essential complements, not alternatives, to pharmacotherapy. Qualitative studies capture patient experience, which may reflect suboptimal dosing, poor specialist access, or early discontinuation from side effects in addition to genuine pharmacodynamic limitation; these findings are formative rather than confirmatory regarding medication effectiveness.
 
     - *Fluid and salt intake*: 2–3 liters of fluid and 6–10 g of sodium chloride daily (unless contraindicated by renal or cardiac disease). Electrolyte solutions (oral rehydration salts) are more effective than water alone for plasma volume expansion. Salt tablets may be needed if dietary salt is insufficient
     - *Compression garments*: Waist-high compression stockings (30–40 mmHg) or abdominal binders are most effective, as lower-extremity-only compression fails to prevent splanchnic venous pooling. Compression should be donned before standing
@@ -462,10 +462,11 @@ Non-pharmacological management is the foundation of orthostatic intolerance trea
 When non-pharmacological measures are insufficient, medications targeting specific orthostatic mechanisms are added sequentially:
 
     - *Fludrocortisone*: 0.05–0.2 mg daily. A mineralocorticoid that increases plasma volume through sodium and water retention. Monitor for hypokalemia, edema, and supine hypertension. First-line pharmacological agent for NMH
-    - *Midodrine*: 2.5–10 mg two to three times daily (last dose at least 4 hours before bedtime). An alpha-1 agonist that increases peripheral vascular resistance. Monitor for supine hypertension, piloerection, and urinary retention. Particularly effective for orthostatic hypotension
+    - *Midodrine*: 2.5–10 mg two to three times daily (last dose at least 4 hours before bedtime). An alpha-1 agonist that increases peripheral vascular resistance. Monitor for supine hypertension (check supine BP at peak effect — 1 hour post-dose — at treatment initiation and dose changes), piloerection, and urinary retention. Particularly effective for orthostatic hypotension. Kwok et al. (2026) conducted a systematic review and meta-analysis of 14 studies (n=968) finding midodrine significantly increases symptom response vs placebo in pediatric POTS (RR 1.52, 95% CI 1.15--2.00, p=0.01), with hypertension in 8.2% of patients (severity and clinical consequences of this hypertension were not reported) @Kwok2026midodrine. Evidence in adults is limited, heterogeneity was substantial (I²=78%), and no ME/CFS-specific trial data exist. Midodrine is considered second- or third-line therapy after non-pharmacological measures and volume expansion, based primarily on pediatric POTS evidence extrapolated to adults.
     - *Pyridostigmine*: 30–60 mg two to three times daily. An acetylcholinesterase inhibitor that enhances ganglionic neurotransmission, modestly increasing standing blood pressure without supine hypertension. Well-tolerated; GI side effects (nausea, diarrhea) may limit dose
-    - *Beta-blockers*: Low-dose propranolol (10–20 mg two to three times daily) or ivabradine (2.5–7.5 mg twice daily) for POTS with prominent tachycardia. Propranolol may worsen fatigue and exercise intolerance; ivabradine selectively reduces heart rate without affecting blood pressure or fatigue and is increasingly preferred for ME/CFS-associated POTS
+    - *Beta-blockers*: Low-dose propranolol (10–20 mg two to three times daily) for POTS with prominent tachycardia. Propranolol may worsen fatigue and exercise intolerance
     - *Droxidopa*: 100–600 mg three times daily. A norepinephrine prodrug for neurogenic orthostatic hypotension. May be particularly relevant given the CSF catecholamine deficiency documented by Walitt et al.\ (Chapter @ch:mechanistic-studies)
+    - *Ivabradine*: 2.5–7.5 mg twice daily. Selectively reduces heart rate without affecting blood pressure. May be appropriate for hyperadrenergic POTS with normal/high stroke volume. Caution in low-SV POTS: HR reduction without SV support risks worsening cardiac output and cerebral perfusion (Chapter @ch:cardiovascular, Speculation @spec:compensatory-tachycardia). No ME/CFS-specific trial data exist.
     - *Mestinon + midodrine combination*: Combining pyridostigmine (parasympathetic augmentation) with midodrine (sympathetic augmentation) can address both limbs of the autonomic deficit
 
 == Autonomic Symptom Management
@@ -477,7 +478,7 @@ Beyond orthostatic intolerance, autonomic dysfunction in ME/CFS produces a range
 
 Many ME/CFS patients experience impaired thermoregulation, including subjective fevers, chills, heat and cold intolerance, and inappropriate sweating. Thermoregulatory dysfunction is multifactorial: central hypothalamic autonomic disruption, peripheral vascular tone dysregulation mediated by endothelin-1 (ET-1) @Cambras2023SkinTemperatureEndothelin, and shared pathways with heat stroke (gut permeability, endotoxemia, endothelial dysfunction) that make patients vulnerable to thermal stress @Stanculescu2021HeatStrokeMECFS.
 
-    - *Environmental control*: Maintain ambient temperature at 20–22\textdegree C where possible. Layered clothing allows rapid adjustment. Cooling vests for heat intolerance; heated blankets for cold intolerance
+    - *Environmental control*: Maintain ambient temperature at 20–22°C where possible. Layered clothing allows rapid adjustment. Cooling vests for heat intolerance; heated blankets for cold intolerance
     - *Avoid triggers*: Hot baths and showers can cause vasodilation and worsen orthostatic intolerance. Lukewarm showers with a shower chair are safer. Avoid prolonged sun exposure
     - *Pharmacological options*: If subjective fevers are distressing, low-dose acetaminophen may help. For hyperhidrosis, topical antiperspirants or low-dose glycopyrrolate (0.5–1 mg) can be tried
 

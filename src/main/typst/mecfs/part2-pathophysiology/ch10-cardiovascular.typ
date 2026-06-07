@@ -119,7 +119,7 @@ Multiple lines of evidence support inadequate cardiac preload (ventricular filli
 
     - Echocardiographic studies showing reduced left ventricular end-diastolic volume @Newton2016
     - Correlation with blood volume measurements @Newton2016
-    - *Invasive cardiopulmonary exercise testing (iCPET)*: Joseph et al.\ conducted a randomized, placebo-controlled trial (n=45) using invasive hemodynamic monitoring during exercise in ME/CFS patients @Joseph2022pyridostigmine. Pyridostigmine increased right atrial pressure (+1.0 vs.\ $-$0.6 mmHg; $P\<0.05$), while peak VO#sub[2] improved after pyridostigmine but _declined_ after placebo (+13.3 vs.\ $-$40.2 mL/min; $P\<0.05$; treatment effect 53.6 mL/min). The worsening hemodynamics after placebo (i.e., from exercise alone) provides direct invasive evidence that exercise itself exacerbates neurovascular dysregulation in ME/CFS—an objective physiological correlate of post-exertional malaise
+    - *Invasive cardiopulmonary exercise testing (iCPET)*: Joseph et al.\ conducted a randomized, placebo-controlled trial (n=45) using invasive hemodynamic monitoring during exercise in ME/CFS patients @Joseph2022pyridostigmine. Pyridostigmine increased right atrial pressure (+1.0 vs.\ $-$0.6 mmHg; $P < 0.05$), while peak VO#sub[2] improved after pyridostigmine but _declined_ after placebo (+13.3 vs.\ $-$40.2 mL/min; $P < 0.05$; treatment effect 53.6 mL/min). The worsening hemodynamics after placebo (i.e., from exercise alone) provides direct invasive evidence that exercise itself exacerbates neurovascular dysregulation in ME/CFS—an objective physiological correlate of post-exertional malaise
 
 *Supine Hemodynamic Abnormalities*
 While cardiovascular dysfunction in ME/CFS is most apparent during orthostatic stress, some patients demonstrate abnormalities even at rest in the supine position. Newton et al.\ documented reduced cardiac volumes on cardiac MRI that correlated with blood volume deficits rather than deconditioning, with end-diastolic volume, end-systolic volume, and end-diastolic wall mass all significantly reduced @Newton2016. Critically, these reductions showed no correlation with disease duration, arguing against deconditioning as the primary mechanism.
@@ -564,7 +564,11 @@ A syndrome characterized by excessive heart rate increase upon standing without 
 ]
 
 #limitation(title: [POTS Diagnostic Threshold: Clinical Utility vs. Specificity])[
-The POTS diagnosis in the ME/CFS context should be interpreted cautiously. The defining $gt.eq$30 bpm criterion has poor specificity (10--15% of healthy controls meet it), poor day-to-day reproducibility, and explains only approximately 2% of symptom variance @MECFSScience2024pots. Only 21% of ME/CFS patients with orthostatic intolerance symptoms meet formal POTS criteria, indicating that the majority of autonomic dysfunction in ME/CFS is not captured by this diagnosis. The Diagnostic Mirage hypothesis (Chapter @ch:integrative-models, Speculation @spec:diagnostic-mirage) proposes that POTS, hEDS, and MCAS may represent phenotypic fragments of a single underlying autonomic vulnerability rather than distinct comorbid conditions. See Section @sec:cross-disease for the full comorbidity diagnostic validity analysis.
+The POTS diagnosis in the ME/CFS context should be interpreted cautiously. The defining $gt.eq$30 bpm criterion has poor specificity (10--15% of healthy controls meet it), poor day-to-day reproducibility, and explains only approximately 2% of symptom variance @MECFSScience2024pots. Only 21% of ME/CFS patients with orthostatic intolerance symptoms meet formal POTS criteria, indicating that the majority of autonomic dysfunction in ME/CFS is not captured by this diagnosis.
+
+The diagnostic reliability has been further challenged. Hedge et al. (2026) demonstrated poor test-retest reliability of clinical supine-to-stand tests in POTS patients (Vernino/Levine lab) — day-to-day HR variability may lead to misdiagnosis or misclassification @Hedge2026reliability. However, this variability may carry biological signal rather than pure noise: a patient who meets criteria on some days but not others may have dynamically unstable autonomic circuits, whereas consistently positive tests may indicate fixed structural impairment. The day-to-day coefficient of variation in standing HR increment could itself be a diagnostic biomarker — an "autonomic stability index" — rather than nuisance variance that disqualifies the diagnosis.
+
+The Diagnostic Mirage hypothesis (Chapter @ch:integrative-models, Speculation @spec:diagnostic-mirage) proposes that POTS, hEDS, and MCAS may represent phenotypic fragments of a single underlying autonomic vulnerability rather than distinct comorbid conditions. See Section @sec:cross-disease for the full comorbidity diagnostic validity analysis.
 ]
 
 
@@ -578,7 +582,32 @@ The POTS diagnosis in the ME/CFS context should be interpreted cautiously. The d
 POTS is one component of the “Septad” framework of frequently co-occurring conditions in ME/CFS (Section @sec:septad). The interplay between dysautonomia, mast cell activation, EDS, and other Septad components suggests shared pathophysiological mechanisms warranting comprehensive evaluation.
 
 ==== POTS Subtypes
-Different pathophysiological mechanisms produce similar clinical phenotypes:
+Different pathophysiological mechanisms produce similar clinical phenotypes.
+
+==== Hemodynamic Subtypes in ME/CFS+POTS
+
+van Campen et al. (2024) identified two distinct hemodynamic response patterns during head-up tilt specifically in ME/CFS+POTS patients @vanCampen2024twoHemodynamic:
+
+    - *Hypovolemic-like*: Reduced stroke volume (SV) as the primary driver, with compensatory tachycardia to maintain cardiac output. These patients have low blood volume, impaired venous return, and their orthostatic symptoms are dominated by preload failure.
+    - *Hyperadrenergic-like*: Near-normal SV but exaggerated heart rate response driven by sympathetic overactivation. Standing norepinephrine is elevated, and symptoms include tremor, anxiety, and supine hypertension.
+
+These two patterns may represent sequential stages on a disease trajectory rather than stable subtypes (cross-sectional data; longitudinal progression not directly observed). Early ME/CFS: hypovolemia-predominant (low blood volume, low SV, modest tachycardia). Over time, chronic low SV → sustained baroreceptor unloading → chronic sympathetic overactivation → baroreflex resetting → progressive hyperadrenergic state. This conversion from "compensatory tachycardia" to "pathological sympathetic dominance" represents a hypothesized transition from functional to structural OI (Speculation @spec:oi-distinction). The distinction matters for treatment selection: hypovolemic patients need volume expansion first; hyperadrenergic patients may need sympatholytic agents or neuromodulation. Midodrine (alpha-1 agonist), which primarily improves venous return and SV, should work best at the hypovolemic stage; sympatholytics (ivabradine, beta-blockers) may be more appropriate once sympathetic tone is dysregulated, with the caveat that HR reduction without SV support can be deleterious (see Speculation @spec:compensatory-tachycardia).
+
+*Certainty: 0.55* (van Campen 2024, n≈75, single center, first dedicated hemodynamic subtyping in ME/CFS+POTS specifically).
+
+==== Related Hypotheses
+
+#speculation(title: [Compensatory Tachycardia in POTS — HR Reduction as CBF Destabilization])[
+*Certainty: 0.50.* If tachycardia in POTS is compensatory — defending cerebral perfusion when stroke volume drops — then pharmacologically reducing HR without first normalizing SV risks cardiac output and cerebral perfusion. This hypothesis is supported by converging lines of evidence:
+
+    - Marchetta et al. (2025) demonstrated that ivabradine reduces HR in POTS but symptom burden improvement does not correlate with HR reduction magnitude — dissociating rate control from clinical benefit @Marchetta2025ivabradine
+    - Chopra (2026) presented a mechanistic argument that POTS tachycardia is compensatory and should not be the primary treatment target; treatment should target root causes (hypovolemia, venous pooling) @Chopra2026compensatory
+    - Miranda-Hurtado et al. (2026, Raj lab) established the SV→ETCO2→CBF pathway: reduced SV → lower end-tidal CO2 → hypocapnic cerebral vasoconstriction → impaired CBF, providing the mechanistic link between low SV and orthostatic cognitive symptoms @MirandaHurtado2026CBFpots
+
+The clinical implication is that ivabradine and beta-blockers should be prescribed with caution in patients with low SV-dominant POTS: pre-treatment SV measurement (impedance cardiography or echo during HUT) could stratify patients into those likely to benefit (normal/high SV, hyperadrenergic POTS) versus those at risk of worsening (low SV, hypovolemic/neuropathic POTS).
+
+*Falsifiable prediction:* Pre-treatment SV predicts ivabradine response — patients in the lowest SV tertile show net worsening of orthostatic cognitive performance (PASAT-3 score during HUT) after 4 weeks of ivabradine; patients in the highest SV tertile show improvement. The SV-by-treatment interaction term is significant (p $<$ 0.05) in a crossover design. *Falsified if* SV does not predict differential cognitive response (interaction p $gt.eq$ 0.10), or if no SV tertile shows worsening (all tertiles show neutral or positive effects).
+] <spec:compensatory-tachycardia>
 
 *Neuropathic POTS*
 Neuropathic POTS results from partial autonomic neuropathy affecting lower extremity vasoconstriction, leading to blood pooling in the legs during standing. This subtype is associated with small fiber neuropathy (SFN) and may be autoimmune in some cases. SFN specifically affects the small-diameter autonomic nerve fibers that innervate blood vessels and sweat glands, and its prevalence in POTS has been confirmed through skin biopsy studies demonstrating reduced intraepidermal nerve fiber density @Azcue2023sfn.
@@ -589,6 +618,8 @@ The connection between SFN and cardiovascular dysautonomia is increasingly recog
 The autonomic consequences of SFN in ME/CFS are substantial. Damaged sympathetic sudomotor fibers contribute to temperature dysregulation, while damaged vasomotor fibers impair the normal vasoconstrictor response to orthostatic stress. When patients stand, intact baroreceptors detect the gravitational blood shift, but the effector arm of the reflex (sympathetic vasoconstriction mediated by small fibers) functions inadequately, resulting in venous pooling and compensatory tachycardia characteristic of neuropathic POTS.
 
 In mast cell disorder patients, Novak et al.\ documented SFN in 80% of cases, with universal dysautonomia when combining sympathetic, parasympathetic, and sudomotor testing @Novak2022. Given the overlap between mast cell activation and ME/CFS (Section @sec:septad), SFN may represent a common pathway linking immune dysregulation to cardiovascular symptoms in both conditions.
+
+Ekman et al. (2025) demonstrated that objective peripheral sensory neuropathy signs in POTS, measured by quantitative sensory testing, correlate specifically with gastrointestinal symptom burden @Ekman2025SFNpots. This finding links SFN to the GI dysfunction common in POTS-ME/CFS patients — though QST measures limb sensory fibers, not enteric small fibers, so the mechanistic inference (enteric denervation → GI dysfunction) is indirect: peripheral neuropathy may serve as a systemic marker for nerve damage that also affects the enteric nervous system, rather than indicating directly measured gut denervation. If enteric small fibers are similarly affected, they may impair gut motility, barrier function, and the splanchnic vasoconstrictor response simultaneously — creating the clinical presentation of patients who experience both orthostatic intolerance and post-prandial symptom exacerbation. This provides mechanistic grounding for the Postural Orthostatic Gut Syndrome (POGS) concept (see Speculation @spec:postural-gut-syndrome): if enteric small fibers are denervated, the gut mucosa is doubly vulnerable — impaired perfusion (due to dysregulated splanchnic vasoconstriction) combined with impaired epithelial maintenance (due to denervation of trophic fibers).
 
 *Hyperadrenergic POTS*
 
@@ -603,6 +634,32 @@ In mast cell disorder patients, Novak et al.\ documented SFN in 80% of cases, wi
     - Compensatory tachycardia to maintain cardiac output
     - May respond to volume expansion
     - Overlaps with ME/CFS blood volume deficits
+
+==== Cerebral Blood Flow Deficits in POTS
+
+The link between orthostatic tachycardia and cerebral symptoms (brain fog, dizziness, cognitive impairment) is increasingly understood as a cerebral blood flow (CBF) problem, not merely a heart rate problem. Three recent studies converge on CBF deficits as central to POTS pathophysiology:
+
+*Stroke volume–CO2–CBF pathway (Miranda-Hurtado 2026).*
+Miranda-Hurtado et al. (Raj lab) demonstrated a mechanistic pathway: reduced stroke volume → lower end-tidal CO2 (ETCO2) → hypocapnic cerebral vasoconstriction → impaired CBF. The key insight is that SV reduction does not simply lower cardiac output linearly — it triggers hypocapnic cerebral vasoconstriction that amplifies the CBF deficit. This is a multiplicative impairment: SV drops → linear CBF reduction × CO2-mediated vasoconstriction → supralinear cognitive symptom burden. The finding establishes a direct, measurable causal chain from the peripheral cardiovascular deficit (low SV) to the central symptom (brain fog) via a pulmonary intermediate (reduced CO2 exchange) that is routinely measurable with capnography @MirandaHurtado2026CBFpots.
+
+*Structural brain changes (Malik 2026).*
+Malik et al. (2026) demonstrated that POTS patients show gray matter volume reductions, altered brain network connectivity, and cerebral hemodynamic deficits on MRI. Structural brain changes correlate with symptom severity, suggesting that repeated, chronic orthostatic CBF deficits may produce cumulative brain injury — transitioning POTS from a "benign" autonomic syndrome to a progressive neurovascular disease in some patients @Malik2026brainPOTS.
+
+*Regional perfusion deficits (Seeley 2025).*
+Seeley et al. (2025) used brain SPECT imaging to demonstrate region-specific hypoperfusion in POTS patients with cognitive complaints. Perfusion deficits correlated with domain-specific cognitive scores — prefrontal hypoperfusion with executive dysfunction, temporal hypoperfusion with memory impairment — suggesting that the clinical phenotype of POTS brain fog is determined by which brain regions are most perfusion-compromised @Seeley2025SPECTpots.
+
+The cumulative picture positions CBF as the central mediator of POTS symptoms: the low-SV state (hypovolemia, SFN, splanchnic pooling) produces orthostatic CBF deficits via multiple pathways (reduced perfusion pressure, CO2-mediated vasoconstriction, impaired autoregulation); these CBF deficits determine symptom severity and, over time, may produce structural brain changes in the most vulnerable regions.
+
+#hypothesis(title: [Cerebral Blood Flow as Unifying Hub of POTS Symptoms])[
+*Certainty: 0.50.* We propose that cerebral blood flow deficits — not heart rate elevation per se — are the central mediator of POTS symptoms in ME/CFS. The orthostatic HR increment is a compensatory response to defend CBF; symptom severity tracks CBF decline, not HR increment magnitude. This reframing has therapeutic consequences: treatments should be evaluated by their effect on orthostatic CBF (transcranial Doppler) and cognitive performance, not by HR reduction alone. Ivabradine may reduce HR but worsen CBF in low-SV patients; midodrine may improve CBF without affecting HR; compression may improve CBF via SV support without pharmacological intervention.
+
+*Falsifiable predictions:*
+- Orthostatic cognitive performance (PASAT-3, n-back) correlates more strongly with ΔMCA velocity (r $>$ 0.6) than with ΔHR (r $<$ 0.3) during HUT
+- Regional CBF (measured by simultaneous NIRS or ASL-MRI during tilt) predicts domain-specific cognitive impairment: prefrontal ΔCBF predicts Δexecutive function; hippocampal ΔCBF predicts Δverbal memory
+- Capnometry-guided CO2 augmentation during standing (maintaining ETCO2 at supine baseline) normalizes orthostatic cognitive performance without affecting HR — confirming the CO2→CBF→cognition mechanistic chain
+
+*Falsified if* (a) ΔMCA velocity correlates with cognitive performance no more strongly than ΔHR (r difference $<$ 0.2), or (b) CO2 augmentation fails to improve orthostatic cognitive performance (Cohen's d $<$ 0.3 vs normal breathing), or (c) regional CBF does not predict domain-specific cognition (ΔR² < 0.10 over whole-brain CBF model).
+] <hyp:cbf-unifying-hub>
 
 *Splanchnic Blood Flow Dysregulation*
 
@@ -1034,7 +1091,7 @@ If this hypothesis is correct, treating SFN may reduce CNS metabolic burden and 
 No studies have directly measured CNS metabolic demand in relation to SFN severity in ME/CFS. SFN and cognitive dysfunction may share common causes (e.g., autoimmunity or inflammation) rather than having a causal relationship. The relative contribution of SFN to overall CNS energy constraints is unknown and may be minor compared to other factors.
 
 *Current Evidence.*
-Azcue et al.\ documented that ME/CFS patients show prolonged heat response latencies indicating C-fiber dysfunction, with 31% meeting POTS criteria @Azcue2023sfn. A follow-up study using corneal confocal microscopy demonstrated increased small fiber tortuosity in ME/CFS compared to controls ($F=6.80$, $p\<0.01$), with tortuosity serving as the primary discriminator between patients and controls (AUC$=0.720$) @Azcue2025sfn. The non-length-dependent pattern (upper and lower extremities equally affected) distinguishes ME/CFS-associated SFN from metabolic neuropathies like diabetic neuropathy; by analogy with other immune-mediated neuropathies @Oaklander2016autoimmuneSFN, this distribution pattern is consistent with immune-mediated damage, though the specific antigens targeted in ME/CFS have not been identified. The connection between reduced parasympathetic activation and worse cognitive performance @Azcue2023sfn provides indirect support for peripheral-CNS interface dysfunction, though directionality remains uncertain.
+Azcue et al.\ documented that ME/CFS patients show prolonged heat response latencies indicating C-fiber dysfunction, with 31% meeting POTS criteria @Azcue2023sfn. A follow-up study using corneal confocal microscopy demonstrated increased small fiber tortuosity in ME/CFS compared to controls ($F=6.80$, $p < 0.01$), with tortuosity serving as the primary discriminator between patients and controls (AUC$=0.720$) @Azcue2025sfn. The non-length-dependent pattern (upper and lower extremities equally affected) distinguishes ME/CFS-associated SFN from metabolic neuropathies like diabetic neuropathy; by analogy with other immune-mediated neuropathies @Oaklander2016autoimmuneSFN, this distribution pattern is consistent with immune-mediated damage, though the specific antigens targeted in ME/CFS have not been identified. The connection between reduced parasympathetic activation and worse cognitive performance @Azcue2023sfn provides indirect support for peripheral-CNS interface dysfunction, though directionality remains uncertain.
 
 *Certainty:* 0.40 (SFN prevalence established; CNS metabolic mechanism speculative)
 ] <spec:sfn-interface-failure>

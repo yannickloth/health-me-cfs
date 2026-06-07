@@ -358,7 +358,7 @@ Serum proteomics data from Hoel et al.\ (2026) @Hoel2026proteome confirmed and 
 ==== Exercise-Induced Complement Activation and PEM
 <sec:complement-pem>
 
-A series of studies has documented an association between complement activation and post-exertional malaise. Sorensen et al.\ demonstrated significant C4a elevation at 6 hours post-exercise exclusively in CFS patients ($P\<0.01$), regardless of allergy status—the first demonstration of exercise-induced complement activation in CFS @Sorensen2003complement. Nijs et al.\ subsequently identified post-exercise C4a as a clinically important biomarker for PEM, linking complement activation to the molecular mechanism of post-exertional malaise alongside elastase and IL-1$beta$ @Nijs2010pem. Polli et al.\ extended this by demonstrating moderate associations between exercise-induced C4a changes and pain thresholds in ME/CFS ($r=0.669$, $p=0.001$), directly connecting complement activation to exercise-induced hyperalgesia @Polli2019complement.
+A series of studies has documented an association between complement activation and post-exertional malaise. Sorensen et al.\ demonstrated significant C4a elevation at 6 hours post-exercise exclusively in CFS patients ($P < 0.01$), regardless of allergy status—the first demonstration of exercise-induced complement activation in CFS @Sorensen2003complement. Nijs et al.\ subsequently identified post-exercise C4a as a clinically important biomarker for PEM, linking complement activation to the molecular mechanism of post-exertional malaise alongside elastase and IL-1$beta$ @Nijs2010pem. Polli et al.\ extended this by demonstrating moderate associations between exercise-induced C4a changes and pain thresholds in ME/CFS ($r=0.669$, $p=0.001$), directly connecting complement activation to exercise-induced hyperalgesia @Polli2019complement.
 
 Most recently, Glass et al.\ (2025) found upregulation of complement system proteins in extracellular vesicles post-exercise in males with ME/CFS, with ER stress response changes correlating with PEM severity @Glass2025ev. This finding is consistent with the earlier soluble C4a observations and extends them to the vesicular compartment, though the male-only sample limits generalisability.
 
@@ -394,7 +394,7 @@ The ME/CFS complement phenotype—chronic activation with component consumption�
 
 The Maya et al.\ complement pQTL subgroup (high C3/low Bb) may represent individuals predisposed to a perivascular amplification loop: complement activation produces C3a/C5a anaphylatoxins → mast cell degranulation at perivascular sites → histamine, tryptase, and heparin increase vascular permeability → further complement protein leakage into perivascular tissue → alternative pathway amplification on host surfaces → more C3a/C5a → more mast cell activation. However, this loop requires: (1) sustained mast cell responsiveness (tachyphylaxis after repeated anaphylatoxin exposure is not addressed), (2) spatial confinement (no mechanism provided for why amplification would be perivascular rather than systemic), and (3) failure of complement regulatory proteins (Factor H, CD55, CD59---none of which are discussed). The simpler alternative---complement activation and mast cell activation as parallel downstream effects of systemic inflammation or endothelial dysfunction---explains the co-occurrence without requiring a novel positive feedback mechanism.
 
-The Brag{\'e}e et al.\ CSF finding of complement cascade enrichment in severe ME/CFS cases @Bragée2026csf-proteome has been cited as supporting evidence for this loop, but that study had no healthy control group (certainty 0.35) and cannot establish differential expression.
+The Bragée et al.\ CSF finding of complement cascade enrichment in severe ME/CFS cases @Bragée2026csf-proteome has been cited as supporting evidence for this loop, but that study had no healthy control group (certainty 0.35) and cannot establish differential expression.
 
 *Testable predictions:*
     + Skin blister fluid or interstitial fluid from ME/CFS patients will show C3a:C3 ratio ≥2× in tissue vs plasma, indicating local complement amplification (research technique requiring specialized collection)
@@ -760,10 +760,10 @@ This extreme phenotype may represent late-stage progression of the chronic antig
     - Assessment of whether B cell depletion predicts response to cellular immunity enhancers
 
 *Falsifiable:*
-    + CD19+ \<0.07 G/L in ≥5% of patients with ME/CFS duration \>5 years (vs \<1% of controls)
+    + CD19+ \u{3c}0.07 G/L in ≥5% of patients with ME/CFS duration >5 years (vs \u{3c}1% of controls)
     + B cell count inversely correlates with EBV VCA IgG titer (r \< -0.4) and disease duration (r \< -0.3)
-    + Response to immunomodulation (cimetidine or similar cellular-enhancing therapy) \>30% greater in CD19+ \<0.07 subgroup than in CD19+-normal subgroup
-    + NK percentage \<7% and CD3+ \>83% co-occur with CD19+ \<0.07 in \>75% of depleted cases. Falsified if CD19+ depletion is not associated with these specific immunological correlates.
+    + Response to immunomodulation (cimetidine or similar cellular-enhancing therapy) >30% greater in CD19+ \u{3c}0.07 subgroup than in CD19+-normal subgroup
+    + NK percentage \u{3c}7% and CD3+ >83% co-occur with CD19+ \u{3c}0.07 in >75% of depleted cases. Falsified if CD19+ depletion is not associated with these specific immunological correlates.
 ] <spec:exhausted-surveillance>
 
 ==== Autoantibodies in ME/CFS
@@ -823,6 +823,8 @@ Hohberger et al.\ (2021) reported a case of BC007, a DNA aptamer that directly n
 
 ==== Methodological Controversies
 The GPCR autoantibody field faces important methodological challenges. Vernino et al.\ (2022) attempted to replicate autoantibody findings in postural orthostatic tachycardia syndrome (POTS) using standard ELISA methodology . In 116 POTS patients versus 81 healthy controls, they found no differences in GPCR autoantibody concentrations. Moreover, 98.3% of POTS patients and 100% of controls had $alpha_1$-adrenergic receptor antibodies above the detection threshold, raising questions about assay specificity. The authors concluded that CellTrend ELISAs (used in most positive studies) may lack diagnostic value for POTS.
+
+Adding to the mixed autoantibody picture, Lukáčová et al. (2025) detected autoantibodies against α1- and β1-adrenergic receptors in POTS patients using ELISA, but found no correlation with clinical severity or hemodynamic parameters — further evidence that even when GPCR autoantibodies are detectable, their pathogenic contribution to POTS symptoms is uncertain @Lukacova2025autoab.
 
 This methodological critique highlights several unresolved issues:
 
@@ -2434,7 +2436,7 @@ MCAS involves inappropriate mast cell degranulation:
 
 Recent research provides objective evidence of mast cell dysfunction in ME/CFS :
 
-    - *Naïve mast cells*: Significant increase in CD117#super[+]CD34#super[+]Fc$epsilon.alt$RI#super[-]chymase#super[-] naïve mast cells in moderate and severe ME/CFS ($p\<0.05$)
+    - *Naïve mast cells*: Significant increase in CD117#super[+]CD34#super[+]Fc$epsilon.alt$RI#super[-]chymase#super[-] naïve mast cells in moderate and severe ME/CFS ($p < 0.05$)
     - *Activation markers*: Elevated CD40 ligand and MHC-II receptors on differentiated mast cells in severe cases
     - *Clinical correlation*: Mast cell abnormalities more pronounced in severe disease
     - *Implication*: Demonstrates measurable cellular pathology supporting mast cell involvement in ME/CFS pathophysiology
@@ -2457,7 +2459,7 @@ Mast cell activation shares pathogenic mechanisms with ME/CFS through vascular d
     - *Spillover of vasoactive mediators* into systemic circulation
     - *Histamine's vascular effects*: Worsens orthostatic intolerance via vasodilation and blood pooling
     - *$beta_2$-adrenergic receptor dysfunction*: Amplifies symptoms through impaired vascular regulation
-    - *Clinical correlation*: ME/CFS patients with MCAS and orthostatic intolerance reported symptom alleviation significantly more often following mast cell-targeted treatment ($p\<0.0001$) 
+    - *Clinical correlation*: ME/CFS patients with MCAS and orthostatic intolerance reported symptom alleviation significantly more often following mast cell-targeted treatment ($p < 0.0001$) 
 
 ==== Diagnostic Criteria
 
@@ -2620,7 +2622,7 @@ The substantial comorbidity between MCAS and ME/CFS suggests shared or mutually 
 
     - *Progressive involvement*: Mast cell activation prevalence *increases over the disease course* , suggesting that chronic energy deficit may progressively impair mast cell regulation.
 
-    - *Orthostatic overlap*: Patients with both MCAS and orthostatic intolerance (particularly POTS) show significantly higher treatment response rates to mast cell-directed therapy compared to OI alone ($p\<0.0001$)  .
+    - *Orthostatic overlap*: Patients with both MCAS and orthostatic intolerance (particularly POTS) show significantly higher treatment response rates to mast cell-directed therapy compared to OI alone ($p < 0.0001$)  .
 
     - *Cellular abnormalities*: Objective evidence of altered mast cell phenotypes in ME/CFS includes increased na\"ive mast cells and elevated activation markers on differentiated mast cells in severe cases .
 
@@ -2656,7 +2658,7 @@ This model predicts that MCAS episodes function as *energy amplifiers*: each act
 
 *Supporting Evidence.*
 
-_Clinical evidence:_ Retrospective analyses of ketotifen (a mast cell stabilizer with H1 and leukotriene antagonism) in ME/CFS and Long COVID patients showed substantial PEM reduction in 77–95% of patients who continued treatment . This suggests mast cell stabilization specifically targets PEM mechanisms, not merely allergic symptoms. ME/CFS patients with documented MCAS and OI features respond significantly better to mast cell-directed treatment ($p\<0.0001$)  .
+_Clinical evidence:_ Retrospective analyses of ketotifen (a mast cell stabilizer with H1 and leukotriene antagonism) in ME/CFS and Long COVID patients showed substantial PEM reduction in 77–95% of patients who continued treatment . This suggests mast cell stabilization specifically targets PEM mechanisms, not merely allergic symptoms. ME/CFS patients with documented MCAS and OI features respond significantly better to mast cell-directed treatment ($p < 0.0001$)  .
 
 _Mechanistic plausibility:_ AMPK links cellular energy status directly to mast cell regulation @Theoharides2021Cells. Energy deficits reduce AMPK activity, which disinhibits mast cells—a clear mechanistic path from energy scarcity to immune hyperreactivity. Histamine's documented effects on CNS energy metabolism, behavioral state, and biological rhythms  provide a direct pathway for mast cell activity to worsen cognitive and energy symptoms. Mast cell-derived mediators cause vascular dysfunction , which can worsen tissue perfusion and oxygen delivery—further constraining energy availability.
 
