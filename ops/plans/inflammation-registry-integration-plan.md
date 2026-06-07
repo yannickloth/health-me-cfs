@@ -237,7 +237,19 @@
 | — | Phase 6b review-adversarial | 0 | — | ✅ done | cynic + devil's advocate; 4 cert bumps reverted; 2 unfalsifiability fixes |
 | — | Phase 4: 42 ideas all complete | 0 | — | ✅ done | S4 + N2 now integrated; 42/42 ideas across 16+ chapters |
 
-**Auto-escalation note:** Each major source that qualifies as a standalone immune/inflammatory topic will be queued as a child `/integrate-topic` cycle per pipeline rules. The registry serves as the catalog of all queued topics.
+**Auto-escalation queue (ready for user review):** Per pipeline rules, each standalone immune/inflammatory topic identified during this cycle must be queued for a child `/integrate-topic` cycle rather than integrated inline. These were deferred during the current cycle; present to user before starting the next topic.
+
+| # | Topic | Parent source | Rationale | Priority |
+|---|-------|--------------|-----------|----------|
+| 1 | SPM biology deep dive | Source #106 (SPMs) | Standalone pharmacology: resolvin receptor pharmacology (ChemR23, GPR32, ALX/FPR2), SPM biosynthesis enzymology (5-LOX, 15-LOX, COX-2 acetylation), clinical trial data from PCS. Own lit base. | High |
+| 2 | HMGB1 biochemistry in chronic inflammation | Source #34 (HMGB1) | Standalone: redox isoform biology, TLR4/RAGE signaling kinetics, HMGB1-pCTS-L axis, Box A antagonists. Own lit base. | High |
+| 3 | S100 protein family immunology | Source #35 (S100 proteins) | Standalone: S100A8/A9 (calprotectin) differential roles, S100B in neuroinflammation, calgranulin biology, TLR4/RAGE pharmacology. Own lit base. | Medium |
+| 4 | Complement alternative pathway in ME/CFS | Source #8 (Complement) | Already has subtree stub (`G28-complement-ant`). Standalone: C3a/C5a anaphylatoxin signaling, sC5b-9 MAC, factor H/B polymorphisms. Existing lit base. | Medium |
+| 5 | Eicosanoid cascade deep dive (COX/LOX/CYP) | Source #7 (Eicosanoids) | Standalone: COX-1/2, 5-LOX/12-LOX/15-LOX, CYP epoxygenase, prostaglandin receptor pharmacology, leukotriene biology. Distinct lit base and pharmacology. | Medium |
+| 6 | Purinergic/P2X7 signaling deep dive | Source #36 (ATP), Source #79 (P2X receptors) | Standalone: P2X7 pore formation, CD39/CD73 ectonucleotidase axis, adenosine signaling, P2Y receptors. Already partially in ch14a, ch17. | Low (existing coverage moderate) |
+| 7 | Iron dysregulation / ferroptosis deep integration | Source #68 (Iron) | Standalone: hepcidin-ferroportin axis, GPX4/ACSL4 biology, Fenton chemistry, iron chelation pharmacology. Already partially in ch14b, ch16. | Low (existing coverage moderate) |
+| 8 | UPR/ER stress signaling in chronic disease | Source #65 (ER stress) | Standalone: PERK/eIF2α/ATF4, IRE1α/XBP1s, ATF6 pathways, ISR integration, chemical chaperone pharmacology. Own lit base. | Low (newly added, needs more evidence) |
+| 9 | Neurogenic inflammation (substance P/CGRP) | Source #73-81 | Standalone: TRPV1/TRPA1 → CGRP/SP → mast cell axis, NK1R/CGRP receptor pharmacology, capsazepine/gepant class. Already partially covered. | Low (existing coverage good) |
 
 ---
 
