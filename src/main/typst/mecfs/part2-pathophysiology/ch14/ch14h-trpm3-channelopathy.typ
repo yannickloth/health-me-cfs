@@ -842,3 +842,251 @@ _Research priority_: Low cost, mechanistically decisive. Could be combined with 
     - *Subtyping validity*: TRPM3 status should predict response to different therapeutic approaches
     - *Biomarker potential*: TRPM3 functional assays should distinguish ME/CFS patients from healthy controls and possibly from other fatigue conditions
 
+== Noradrenergic Deficiency: Mechanism-to-Treatment Bridge
+<sec:noradrenergic-hypotheses>
+
+This section builds on the selectively noradrenergic central catecholamine deficiency documented by Aregawi et al. (2026) @Aregawi2026Noradrenergic and the mechanistic framework developed in Chapter @ch:neurological. The novelty here lies not in restating the CSF findings but in extending to treatment implications derived from the mechanism.
+
+=== Noradrenergic Reuptake Inhibition as Mechanistically Targeted Therapy
+
+#hypothesis(title: [Central NE Deficiency as Therapeutic Target for NRI/DNRI Agents])[
+*Certainty: 0.45.* (Mechanism-based; no direct ME/CFS NRI trial.) The selectively noradrenergic CSF deficiency in ME/CFS --- with preserved dopaminergic function --- provides a strong mechanistic rationale for pharmacological augmentation of central norepinephrine via reuptake inhibition. Unlike global stimulants (which deplete catecholamine stores), selective NRI agents (atomoxetine, reboxetine) or DNRIs (solriamfetol) increase synaptic norepinephrine concentration without demanding increased synthesis, potentially compensating for the ATP-dependent vesicular bottleneck identified in the DBH pathway.
+
+*Mechanistic rationale:*
+    - If the primary defect is ATP-dependent vesicular uptake --- reducing the amount of NE released per action potential --- then blocking reuptake extends the dwell time of whatever NE is released, amplifying the signal without requiring more synthesis
+    - Selective NRIs would be preferable to mixed SNRIs in the ME/CFS context because the serotonergic system is already potentially hypersensitive (Section @spec:bidirectional-serotonin) and serotonin reuptake inhibition at full antidepressant doses may exacerbate HPA axis symptoms
+    - Atomoxetine is a selective NRI with a known autonomic profile: a randomised crossover trial in neurogenic orthostatic hypotension (nOH) demonstrated that atomoxetine improved standing blood pressure by increasing synaptic norepinephrine @Mwesigwa2024atomoxetine --- relevant to ME/CFS because the same mechanism (increasing NE at cardiovascular regulatory synapses) could address orthostatic intolerance while simultaneously augmenting central NE for fatigue
+
+*Translational evidence from related conditions:*
+    - SNRIs (duloxetine, milnacipran) have demonstrated efficacy for fatigue and pain in fibromyalgia, with the NE reuptake component believed to be central to their therapeutic effect @Arnold2004duloxetine @Malik2025SNRIfibromyalgia
+    - Solriamfetol, a dopamine-norepinephrine reuptake inhibitor (DNRI), was tested in a Phase 4 RCT in ME/CFS (n=38) and improved fatigue severity (p=0.039) and executive function (p=0.004) over 8 weeks @Young2025solriamfetol --- though PEM was not measured, a critical gap
+    - Milnacipran, despite being an SNRI, did not reduce ventricular lactate in fibromyalgia (Chapter @ch:medications-mechanisms), suggesting the clinical benefit is via central mechanisms rather than peripheral metabolic effects @Natelson2015milnacipran
+
+*Falsifiable predictions:*
+    1. Atomoxetine (40--80 mg/day, titrated from 10 mg) over 12 weeks in ME/CFS will reduce MFI physical fatigue by ≥1 standardised mean difference vs placebo in a double-blind RCT, and this effect will be larger in the subgroup with more severe orthostatic intolerance
+    2. CSF NE Pathway index will be the strongest predictor of NRI response among all candidates in an enrichment-design trial
+    3. A head-to-head trial of atomoxetine (pure NRI) vs duloxetine (SNRI) in ME/CFS will show atomoxetine superior on fatigue while duloxetine superior on pain, reflecting the different neurotransmitter targets
+
+*Limitations.* No atomoxetine or reboxetine trial has been conducted specifically in ME/CFS. The fibromyalgia data are from a different clinical entity with overlapping but distinct pathophysiology. The solriamfetol trial was small (n=38), industry-supported, and did not measure PEM. Atomoxetine can exacerbate tachycardia and hypertension in POTS patients --- the nOH trial's improvement in standing BP may worsen symptoms in the hyperadrenergic POTS subtype. The sustained-release formulation titrated slowly from subtherapeutic doses (10 mg) would be required for tolerability in severe ME/CFS.
+
+*Research-stage only.* Do not prescribe NRIs to ME/CFS patients outside clinical trials with systematic PEM monitoring and baseline autonomic profiling. The risk of unmasking latent POTS or worsening existing tachycardia is real. Baseline standing catecholamines, 24 h Holter monitoring, and a validated POTS screening tool should be obtained before any trial.
+] <hyp:noradrenergic-nri-therapy>
+
+=== α2 Antagonist Strategy: Mechanistic Rationale and Empirical Void
+
+#speculation(title: [α2-Adrenergic Antagonists as Central NE Restorers])[
+*Certainty: 0.20.* (Purely mechanistic; zero direct data in ME/CFS.) An alternative pharmacological strategy to NRI agents is α2-adrenergic receptor antagonism. Presynaptic α2 autoreceptors on noradrenergic neurons provide negative feedback: when NE is released, it binds α2 receptors, inhibiting further release. In a state of central NE deficiency, α2-mediated autoinhibition may be pathologically active --- blocking these receptors (with yohimbine, idazoxan, or atipamezole) would disinhibit NE release, potentially restoring central noradrenergic tone.
+
+*Rationale for testing despite low certainty:*
+    - The clonidine negative trial provides indirect support: if α2 agonism (further suppressing NE release) was harmful or neutral, α2 antagonism (enhancing NE release) might be beneficial --- the pharmacological opposite of a null intervention is a rational next candidate
+    - The ATP-dependent vesicular defect would limit the magnitude of NE release enhancement (vesicles still need ATP to load), but even partial restoration of synaptic NE could improve arousal, attention, and motor output
+    - Yohimbine is a natural alkaloid with extensive use in traditional medicine; idazoxan and atipamezole are more selective α2 antagonists used experimentally
+
+*Falsifiable predictions:*
+    1. Low-dose yohimbine (2.5--5 mg) acutely increases CSF NE Pathway activity in ME/CFS patients (measured via serial lumbar CSF sampling) compared to pre-drug baseline
+    2. If NE Pathway activity does NOT increase after α2 blockade, the deficiency is pre-synaptic (synthesis failure) rather than autoinhibition-mediated, ruling out α2 antagonism as a viable strategy
+
+*Limitations.* No yohimbine, idazoxan, or atipamezole data exist in ME/CFS. Yohimbine has significant cardiovascular effects (hypertension, tachycardia, anxiety) that would be poorly tolerated in the POTS-heavy ME/CFS population. Idazoxan and atipamezole are research compounds without human safety data for chronic administration. The entire strategy rests on the assumption that presynaptic α2 tone is pathologically elevated --- unproven. Research-stage only.
+] <spec:alpha2-antagonist-noradrenergic>
+
+=== Biomarker Implications: CSF NE Pathway as Diagnostic Stratifier
+
+#open-question(title: [Can CSF NE Pathway Index Predict Treatment Response?])[
+The NE Pathway composite index (NE + DHPG + MHPG) introduced by Aregawi et al. (2026) discriminates PI-ME/CFS from healthy volunteers and tracks PEM status within PASC @Aregawi2026Noradrenergic. If validated in an independent cohort, this index could serve as a treatment-stratification biomarker:
+
+    - *Low NE Pathway → priority for NRI/DNRI augmentation*: The mechanism matches the deficit (reuptake blockade overcomes reduced exocytotic NE)
+    - *Low NE Pathway + elevated plasma NE → central-peripheral mismatch confirmed*: These patients are least likely to benefit from peripheral sympathetic suppression (clonidine) and most likely to benefit from centrally targeted NE augmentation
+    - *Normal NE Pathway → other mechanisms dominate*: Direct attention to TRPM3, autoimmunity, mitochondrial, or other pathways
+
+The critical barrier is the invasiveness of CSF collection. Non-invasive surrogates --- pupillometry (LC-NE activity correlates with pupil diameter), salivary α-amylase (indirect sympathetic marker), or plasma DHPG (partial CNS mirror) --- would need development and validation against lumbar CSF to make this clinically feasible.
+] <oq:ne-pathway-stratification>
+
+=== Guanfacine: α2A-Selective Agonism in Prefrontal Cortex
+
+#speculation(title: [Guanfacine as Pharmacologically Distinct from Clonidine])[
+*Certainty: 0.35.* (Mechanism-based; no ME/CFS data.) The clonidine null trial (Sulheim 2014, n=120 adolescent CFS) @Sulheim2014clonidine does not rule out all α2 agonists. Clonidine is non-selective (α2A/α2B/α2C) and suppresses locus coeruleus firing globally. Guanfacine is α2A-selective (>50× selectivity over α2B) and at low doses (1--3 mg) preferentially binds postsynaptic α2A receptors in prefrontal cortex, enhancing working memory and cognitive efficiency without suppressing LC firing rate. The pharmacological distinction is critical in ME/CFS: the PFC depends on optimal NE for executive function, and guanfacine targets this specifically without reducing the already-low LC output.
+
+Guanfacine improves working memory in ADHD (Biederman 2008), PFC cognitive function in TBI, and age-related cognitive decline. Postsynaptic α2A density is highest in PFC --- the region most affected in ME/CFS brain fog. Guanfacine does not reduce CSF NE or MHPG at clinical doses (unlike clonidine), so central NE deficiency is not worsened. The ADHD-ME/CFS overlap literature (Saez-Francas 2012) supports dual benefit for neurodivergent patients.
+
+*Falsifiable predictions:* (a) Guanfacine XR 1--4 mg over 8 weeks improves PFC-dependent cognitive tasks (n-back, Stroop) and effort-based decision-making in ME/CFS, with largest effect in patients with lowest PFC functional connectivity. (b) CSF NE Pathway does NOT decrease on guanfacine (confirming no presynaptic suppression). (c) Guanfacine outperforms clonidine on cognitive endpoints in a head-to-head ME/CFS comparison.
+
+*Limitations.* No ME/CFS data. Hypotension and sedation are dose-limiting; titration from 1 mg required. ADHD patients show variable cognitive response to guanfacine --- ME/CFS may differ. Research-stage.
+] <spec:guanfacine-a2a-pfc>
+
+=== Droxidopa (L-DOPS): Direct DBH Bypass
+
+#speculation(title: [L-DOPS Synthesis Bypasses the ATP-Dependent DBH Bottleneck])[
+*Certainty: 0.30.* (Mechanism-based; nOH data; no ME/CFS data.) Droxidopa (L-threo-3,4-dihydroxyphenylserine) is a synthetic NE precursor converted directly to NE by L-amino acid decarboxylase (LAAAD), which does not require vesicular ATP or DBH. A single oral dose (100--600 mg TID) elevates CNS and peripheral NE without relying on VMAT2 filling, DBH activity, or ATP availability. Unlike NRI agents (which extend the dwell time of released NE), droxidopa increases the absolute amount of NE available for release. This is the most direct pharmacological bypass of the putative metabolic bottleneck.
+
+Droxidopa is FDA-approved for neurogenic orthostatic hypotension (nOH) with an established safety profile (Kaufmann 2014). Animal models show enhanced noradrenergic transmission and improved cognition in DBH-KO mice (Thomas 1998). Approximately 30% of plasma levels cross the BBB. If droxidopa increases CSF NE Pathway in ME/CFS, it proves the bottleneck is pre-DBH (i.e., DBH itself is intact but upstream synthesis is impaired) --- a critical pathophysiological clarification.
+
+*Falsifiable predictions:* (a) Droxidopa 200--600 mg TID over 4 weeks increases CSF NE Pathway (NE+DHPG+MHPG) and improves MFI physical fatigue and handgrip duration in ME/CFS patients with lowest baseline NE Pathway. (b) No significant tachyphylaxis over 8 weeks. (c) Subgroup with PTPRN2 hypomethylation (structural VMAT2 subtype) shows smaller response than VMAT2-normal patients.
+
+*Limitations.* No ME/CFS trial. Contraindicated in patients with supine hypertension. Requires standing BP monitoring. May worsen tachycardia if POTS is hyperadrenergic. The DBH bypass is effective only if LAAAD is functional --- if LAAAD is also impaired, droxidopa will fail. Research-stage.
+] <spec:droxidopa-dbh-bypass>
+
+=== Atomoxetine + Guanfacine Fixed-Dose Combination
+
+#speculation(title: [Dual NRI + Postsynaptic α2A Strategy for NE-Augmented PFC Function])[
+*Certainty: 0.30.* (ADHD safety data; mechanism plausible; no ME/CFS data.) Atomoxetine increases synaptic NE by blocking reuptake; low-dose guanfacine enhances postsynaptic α2A signaling in PFC without suppressing LC firing. The combination targets two independent bottlenecks: (1) insufficient NE availability (atomoxetine), (2) impaired receptor-level signal transduction in PFC (guanfacine). This dual mechanism is synergistic --- no single agent provides both. The combination is used clinically in ADHD and is generally safe and well-tolerated.
+
+Guanfacine may counter atomoxetine's potential anxiety/excitation side effects via α2A-mediated PFC regulation of amygdala reactivity. In ME/CFS, where both catecholamine deficiency and prefrontal hypometabolism are documented, addressing both NE availability and PFC signal transduction may be more effective than either agent alone.
+
+*Falsifiable predictions:* (a) Atomoxetine 40 mg + guanfacine XR 2 mg over 8 weeks produces greater improvement in MFI physical fatigue and cognitive efficiency (Stroop, n-back) than either drug alone. (b) Combination has no more tachycardia or orthostatic worsening than atomoxetine alone. (c) Largest benefit in patients with comorbid ADHD traits (ASRS > 24).
+
+*Limitations.* No ME/CFS combination data. Hypotension risk (additive α2 + NRI). Guanfacine sedation may compound ME/CFS fatigue initially. Research-stage.
+] <spec:atomoxetine-guanfacine>
+
+=== P2X7–ATP–Calcium–VMAT2 Coupling as PEM Threshold
+
+#speculation(title: [ATP-Gated Calcium Influx Links Cellular Energy to NE Release])[
+*Certainty: 0.25.* (Novel synthesis; no direct ME/CFS data.) VMAT2-mediated NE release requires calcium-triggered exocytosis. Calcium entry into noradrenergic terminals is gated partly by P2X7 purinergic receptors --- ATP-gated ion channels permeable to Ca²⁺. Low intracellular ATP impairs P2X7 gating, reducing activity-dependent Ca²⁺ influx and therefore NE release per action potential. This creates a triple ATP vulnerability: (1) ATP for proton pump (VMAT2 filling), (2) ATP for P2X7 Ca²⁺ gating, (3) ATP for vesicle trafficking.
+
+The P2X7 link bridges NE deficiency to neuroinflammation: activated P2X7 on microglia drives IL-1β release, creating a feed-forward loop (low ATP → P2X7 dysfunction on NE neurons → low NE → impaired vasomotion → reduced ATP delivery → further P2X7 dysfunction). P2X7 polymorphisms (rs3751143, rs17525809) associated with chronic pain and fatigue may stratify patients by P2X7-dependent NE impairment.
+
+*Falsifiable predictions:* (a) P2X7 antagonist reduces NE release from patient-derived LC neurons in vitro. (b) P2X7 SNP rs3751143 predicts CSF NE Pathway status in ME/CFS. (c) P2X7 expression on PBMCs correlates negatively with NE Pathway index.
+
+*Limitations.* No direct P2X7 measurement in ME/CFS LC neurons. All evidence from preclinical models. P2X7-KO mouse data may not translate to human ME/CFS. The ATP threshold for P2X7 gating (~1 mM) may be above typical intracellular ATP ranges.
+] <spec:p2x7-atp-vmat2>
+
+=== Pupillometry as Non-Invasive LC-NE Functional Probe
+
+#speculation(title: [Pupillometry Protocol for LC-NE Functional Assessment])[
+*Certainty: 0.35.* (Validated LC correlate in primates; no ME/CFS + CSF validation.) Pupil diameter is modulated by LC-NE activity: phasic LC bursts → pupil dilates; tonic LC firing determines baseline pupil size. The pupillary light reflex (PLR) is mediated by LC-NE → superior cervical ganglion → iris. A non-invasive protocol measuring (1) resting pupil diameter (tonic LC), (2) phasic dilation during cognitive task, (3) PLR constriction velocity and latency, (4) post-illumination pupil response could serve as a repeatable LC-NE functional readout without lumbar puncture.
+
+Pupil diameter correlates with LC firing rate in non-human primates (Joshi 2016). PLR latency increases in LC-degenerative disorders (PD, MSA). Pupillometry discriminates POTS from controls (Del Pozzi 2021). No ME/CFS pupillometry study with simultaneous CSF NE measurement exists.
+
+*Falsifiable predictions:* (a) Baseline pupil diameter and PLR latency correlate with CSF NE Pathway index (r > 0.5) in ME/CFS patients. (b) Pupillometry parameters discriminate PI-ME/CFS from HV (AUC > 0.75). (c) Task-evoked pupil dilation correlates with handgrip duration. (d) Blunted phasic response predicts larger NRI benefit (predictive biomarker).
+
+*Limitations.* Pupil size is affected by ambient light, arousal, medications (anticholinergics, antihistamines, antidepressants), and iris muscle fatigue. Standardised protocol required. Correlation with CSF NE must be established before clinical use.
+] <spec:pupillometry-lc-ne>
+
+=== NE as Descending Analgesia Gate: Pain-Fatigue Mechanism Link
+
+#speculation(title: [CSF NE Deficiency Disinhibits Descending Pain Pathways])[
+*Certainty: 0.35.* (Mechanism coherent; direct test feasible.) The PAG-RVM descending pain modulation system depends on LC-origin NE: LC → spinal cord NE release → α2-AR on nociceptive terminals → inhibition of pain transmission. Low CSF NE impairs descending analgesia → central sensitization → pain amplification. This provides a direct mechanism for the pain-fatigue overlap in ME/CFS and FM: the same NE deficiency that causes fatigue also disinhibits pain processing. FM patients have normal CSF NE but exhibit α2-AR desensitization; ME/CFS patients have low CSF NE with potentially normal receptors. Both converge on impaired NE-mediated pain inhibition through different mechanisms --- explaining why SNRIs (which increase synaptic NE) work in both conditions @Arnold2004duloxetine @Malik2025SNRIfibromyalgia.
+
+Conditioned pain modulation (CPM) --- a clinical measure of endogenous analgesia --- is impaired in both FM and ME/CFS. If CPM impairment correlates with CSF NE Pathway, this identifies a testable NE-pain link.
+
+*Falsifiable predictions:* (a) CSF NE Pathway correlates with CPM magnitude (r > 0.4) in ME/CFS: lower NE → weaker endogenous analgesia. (b) Duloxetine increases NE-dependent pain thresholds (QST) more in patients with low vs normal CSF NE. (c) ME/CFS patients with comorbid widespread pain (>3 months) have lower CSF NE than pain-free ME/CFS.
+
+*Limitations.* CPM has never been correlated with CSF NE in any population. FM vs ME/CFS pain mechanisms may be confounded by peripheral sensitization differences. α2-AR status in ME/CFS unmeasured.
+] <spec:ne-descending-analgesia>
+
+=== Structural vs Metabolic VMAT2 Subtypes
+
+#speculation(title: [PTPRN2 Hypomethylation as Vesicular Number Defect — Not Filling Defect])[
+*Certainty: 0.25.* (Extrapolation; PTPRN2 in brain NE vesicles unstudied in ME/CFS.) The ATP-vesicular hypothesis (Section @spec:vesicular-ne-deficiency) assumes functional VMAT2 impairment due to ATP shortage. But PTPRN2 hypomethylation (documented in ME/CFS CD4+ T-cells, ch12) alters secretory vesicle biogenesis --- reducing the number of functional vesicles available for NE synthesis, not just their filling capacity. This creates two mechanistically distinct NE deficiency subtypes:
+
+*Metabolic subtype* --- Normal VMAT2/vesicle number, impaired filling due to ATP depletion. Responds to ATP support (creatine, ketones, CoQ10) and NRI agents.
+*Structural subtype* --- Reduced VMAT2/vesicle number due to PTPRN2 dysregulation, normal ATP per vesicle. Requires transcriptional/epigenetic intervention (PTPRN2 targeting, possibly lithium, HDAC inhibitors). May respond better to droxidopa (bypasses DBH regardless of vesicle number) than to NRI agents (which require vesicles to fill and release).
+
+*Falsifiable predictions:* (a) CSF NE Pathway in PTPRN2-hypomethylated ME/CFS patients correlates with VMAT2 protein in CSF exosomes (lower VMAT2 = structural subtype). (b) ATP supplementation improves NE Pathway only in PTPRN2-normal (metabolic) but not PTPRN2-hypomethylated (structural) patients. (c) Droxidopa response is equivalent across subtypes (independent of VMAT2 number).
+
+*Limitations.* PTPRN2 expression in human LC neurons unconfirmed. Hypomethylation in T-cells may not reflect CNS vesicular machinery. The two subtypes may be a continuum rather than categorical.
+] <spec:structural-metabolic-vmat2>
+
+=== Urinary VMA/HVA Ratio as Peripheral Catecholamine Balance
+
+#speculation(title: [24-Hour Urinary VMA/HVA Ratio as Non-Invasive DBH Index])[
+*Certainty: 0.25.* (Plausible but unvalidated against CSF.) Vanillylmandelic acid (VMA) is the primary NE metabolite; homovanillic acid (HVA) is the primary DA metabolite. The 24h urinary VMA/HVA ratio reflects systemic NE:DA turnover balance. Since NE is derived from DA via DBH, a low VMA/HVA ratio implies impaired DBH function or selective NE deficiency --- the same biochemical pattern as the CSF NE Pathway. If peripheral DBH activity mirrors central DBH (as in Parkinson's disease), urine VMA/HVA could serve as a cheap, non-invasive surrogate for CSF NE Pathway status.
+
+VMA/HVA ratio is used clinically in neuroblastoma diagnosis and is standardised, widely available, and non-invasive. No ME/CFS study has measured 24h urine VMA/HVA or correlated it with CSF NE.
+
+*Falsifiable predictions:* (a) 24h urinary VMA/HVA ratio correlates with CSF NE Pathway in ME/CFS patients (r > 0.5). (b) VMA/HVA below age/sex-adjusted threshold discriminates PI-ME/CFS from HV (AUC > 0.70). (c) Ratio normalises after droxidopa treatment.
+
+*Limitations.* DBH is present in both CNS and peripheral sympathetic nerves; peripheral VMA reflects mixed CNS + peripheral contribution. 24h urine collection is burdensome for severe patients. VMA/HVA ratio influenced by diet (vanilla, bananas, coffee) and medications.
+] <spec:urinary-vma-hva>
+
+=== Low CNS NE as Driver of Hyperadrenergic POTS
+
+#speculation(title: [Bidirectional Causality: Central NE Deficiency Causes Compensatory POTS])[
+*Certainty: 0.15.* (Causal direction speculative; NRIs in POTS could worsen.) The usual assumption is that POTS causes brain fog via reduced cerebral perfusion. An alternative model is that low CNS NE drives both brain fog AND peripheral sympathetic disinhibition: central NE deficiency impairs baroreflex integration at the NTS, removing inhibitory modulation of peripheral sympathetic outflow, producing compensatory NE elevation and tachycardia. Under this model, hyperadrenergic POTS is a consequence of low central NE, not an independent comorbidity.
+
+This has direct clinical implications: treating central NE deficiency (atomoxetine, droxidopa) may improve POTS symptoms by restoring baroreflex gain --- the opposite of the current concern that NRIs worsen tachycardia. Aregawi et al. found no correlation between NE Pathway and orthostatic tachycardia, consistent with the dissociation this model predicts: low CNS NE patients can have normal or elevated HR depending on individual compensatory magnitude.
+
+*Falsifiable predictions:* (a) Acute atomoxetine challenge (40 mg) in ME/CFS+POTS patients with documented low CSF NE shows improved orthostatic HR and BP (not worsened) at 2h post-dose. (b) Standing plasma NE at 2h post-dose shows blunted increase (less sympathetic activation --- because central NE improved baroreflex gain). (c) A CSF NE-guided trial of atomoxetine shows POTS improvement only in those with low CSF NE.
+
+*Limitations.* Highly speculative. NRIs in POTS are known to worsen tachycardia in some patients. The model may apply only to a subtype (hyperadrenergic POTS with low CSF NE). No data.
+] <spec:cns-ne-drives-pots>
+
+=== NE Deficiency × TRPM3: Two-Hit Calcium Dysregulation
+
+#speculation(title: [TRPM3 Channelopathy May Extend to Noradrenergic Neurons])[
+*Certainty: 0.20.* (Highly speculative; TRPM3 in ME/CFS LC neurons unmeasured.) TRPM3 channelopathy is established in ME/CFS NK cells (ch14h) --- but TRPM3 is also expressed in noradrenergic neurons, where it mediates calcium entry required for activity-dependent vesicle fusion. If TRPM3 function is impaired in LC neurons (same biochemical lesion as in NK cells), this reduces calcium-triggered NE exocytosis. Combined with the ATP-vesicular filling defect, this creates a two-hit deficit: (1) ATP shortage → underfilled vesicles, (2) TRPM3 dysfunction → impaired fusion. Even if VMAT2 filling were normal, impaired calcium signaling would still reduce NE release. This could explain why some patients with normal ATP levels still have NE deficiency --- their bottleneck is at the exocytosis step, not the filling step.
+
+*Falsifiable predictions:* (a) TRPM3 function in ME/CFS iPSC-derived LC neurons correlates with CSF NE Pathway activity. (b) Calcium imaging in patient-derived LC neurons shows reduced depolarization-evoked Ca²⁺ influx. (c) TRPM3 agonist (pregnenolone sulfate) increases NE release from patient LC neurons in vitro; TRPM3 antagonist reduces it.
+
+*Limitations.* No iPSC-derived LC neurons available from ME/CFS patients. TRPM3 expression pattern in human LC not fully characterised. The NK cell TRPM3 defect may not generalise to LC neurons --- different cellular context, different regulatory mechanisms.
+] <spec:trpm3-ne-twohit>
+
+=== Pregnenolone Sulfate as TRPM3-Mediated NE Release Enhancer
+
+#speculation(title: [Neurosteroid TRPM3 Potentiation for LC-NE Function])[
+*Certainty: 0.15.* (Very preliminary; TRPM3 mechanism in LC neurons unconfirmed.) If TRPM3 dysfunction impairs calcium-mediated NE vesicle fusion (Section @spec:trpm3-ne-twohit), low-dose pregnenolone sulfate may enhance residual TRPM3 function, improving Ca²⁺ influx and restoring NE release. This targets the exocytosis step, complementary to ATP-vesicular support (filling step) and NRI agents (dwell extension). Pregnenolone also modulates NMDA, GABA-A, and sigma-1 receptors, providing additional neurosteroid benefits for cognition and mood.
+
+Pregnenolone sulfate potently activates TRPM3 (Wagner 2008). Oral pregnenolone 50--200 mg is available as a supplement, crosses the BBB. Pregnenolone improves cognition in schizophrenia and sleep in TBI. Pregnenolone levels are reduced under chronic stress, possibly relevant to ME/CFS with HPA axis attenuation.
+
+*Falsifiable predictions:* (a) Pregnenolone 50 mg increases CSF NE Pathway in ME/CFS over 2 weeks vs placebo. (b) TRPM3 functional variant carriers show larger response. (c) Effect is blocked by TRPM3 antagonist (ononetin) in patient-derived LC neurons in vitro.
+
+*Limitations.* No ME/CFS data. Pregnenolone is metabolised to downstream steroids (DHEA, testosterone, estrogen) with complex endocrine effects. Not appropriate for hormone-sensitive conditions. Low-level supplement regulation: purity varies. Research-stage.
+] <spec:pregnenolone-trpm3-ne>
+
+=== Atomoxetine + HR-Monitored Pacing for PEM Prevention
+
+#hypothesis(title: [Medication-Enabled Pacing: NRI Augmentation Without Overexertion])[
+*Certainty: 0.25.* (Mechanism-based; no PEM-specific atomoxetine data.) Atomoxetine increases synaptic NE without increasing NE synthesis demand, enabling the brain to sustain effort within a smaller NE envelope. Combined with strict HR-based pacing (15 bpm below anaerobic threshold), the medication reduces the NE crash after activity without enabling overexertion. Unlike stimulants (amphetamine, methylphenidate), atomoxetine does not produce dopamine release, so it does not mask fatigue perception or produce reward-driven activity escalation. The patient retains awareness of energy limits while having more functional capacity within those limits.
+
+This concept --- "medication-enabled pacing" --- is distinct from "medication-enabled overexertion" (the risk with stimulants, discussed in Chapter @ch:medications-mechanisms). If validated, atomoxetine + HR-pacing would represent a novel paradigm: pharmacological NE support within a strict energy envelope, improving quality of life without increasing PEM risk.
+
+*Falsifiable predictions:* (a) Atomoxetine 40 mg + HR-monitored pacing reduces PEM frequency and severity (DSQ-PEM) compared to pacing alone over 8 weeks. (b) Unlike modafinil, atomoxetine does not increase daily step counts while improving fatigue. (c) Atomoxetine + pacing is superior to atomoxetine alone (pacing prevents PEM).
+] <hyp:atomoxetine-pacing-pem>
+
+=== CSF Exosome VMAT2/DBH as Liquid Biopsy for NE Subtype
+
+#speculation(title: [L1CAM+ Exosomal VMAT2 and DBH to Replace Lumbar Puncture])[
+*Certainty: 0.20.* (Validated in neurodegeneration; no ME/CFS data.) Neuronal exosomes cross the BBB into blood and carry CNS-specific proteins including VMAT2 and DBH. Isolating L1CAM-positive exosomes from plasma and measuring VMAT2 and DBH protein levels by ELISA or SIMOA could provide a direct readout of the vesicular NE synthesis machinery without lumbar puncture. Low VMAT2 confirms structural subtype (PTPRN2 hypomethylation); normal VMAT2 with low DBH activity confirms metabolic subtype (ATP impairment).
+
+L1CAM exosome isolation is validated in AD (Aβ, tau) and PD (α-synuclein). VMAT2 and DBH are detectable in CSF. Plasma neuronal exosomes reflect CNS protein turnover. No ME/CFS exosome VMAT2/DBH study exists.
+
+*Falsifiable predictions:* (a) L1CAM+ exosomal VMAT2 and DBH protein levels correlate with CSF NE Pathway (r > 0.5). (b) Exosomal VMAT2 distinguishes structural from metabolic NE deficiency subtypes. (c) Serial exosome VMAT2/DBH tracks treatment response to atomoxetine and droxidopa.
+
+*Limitations.* L1CAM isolation requires specialised equipment (ultracentrifugation or ExoQuick). VMAT2 and DBH protein in exosomes may be below detection threshold in some patients. Cross-reactivity with peripheral sympathetic exosomes. Better suited as research tool than clinical assay at current technology level.
+] <spec:csf-exosome-vmat2-dbh>
+
+=== NE + Adenosine A1-α1 Heteromer Crosstalk
+
+#speculation(title: [Low NE Shifts Heteromer Balance → Adenosine-Dominant Sleep Pressure])[
+*Certainty: 0.10.* (Receptor heterobiology in ME/CFS unstudied; mechanism plausible.) Adenosine A1 receptors and α1-adrenergic receptors form heteromers that cross-inhibit each other. When NE is low (as in ME/CFS), A1-α1 heteromer signaling may shift toward adenosine dominance, increasing sleep pressure perception during wakefulness and contributing to the subjective "wired but tired" experience. NRI agents increase NE → shift heteromer balance back toward α1 → reduce excessive adenosine-mediated sleep pressure. This receptor-level mechanism links NE deficiency directly to unrefreshing sleep via heteromeric crosstalk.
+
+A1-α1 heteromers demonstrated in HEK cells and rat brain (Ciruela 2012), with cross-inhibition confirmed. Adenosine suggests sleep homeostasis during wake. Caffeine (A1 antagonist) provides temporary relief consistent with this model: if A1 signaling dominates because NE cannot cross-inhibit it, A1 blockade restores balance.
+
+*Falsifiable predictions:* (a) In ME/CFS patient-derived cells expressing A1-α1 heteromers, NE deprivation increases A1-mediated cAMP inhibition; NE restoration (atomoxetine) reverses this. (b) Caffeine response in ME/CFS correlates with CSF NE: lower NE → larger caffeine benefit (A1 blockade more impactful when NE counterbalance is absent).
+
+*Limitations.* Entirely preclinical mechanism. Heteromer biology in human disease context barely studied. Caffeine response confounded by tolerance, peripheral effects, and adenosine receptor subtype complexity. Research curiosity only.
+] <spec:ne-adenosine-heteromer>
+
+=== DORA + Atomoxetine Chronobiotic Protocol
+
+#speculation(title: [Nighttime NE Oscillation Restoration + Daytime NE Augmentation])[
+*Certainty: 0.10.* (Controversial; no ME/CFS combination data.) If the LC-NE circadian oscillation is flattened in ME/CFS (Section @spec:ne-circadian-collapse), a chronobiotic protocol could target both phases: DORA (lemborexant 5 mg) at bedtime to restore nocturnal NE oscillation amplitude (enhancing glymphatic clearance without increasing daytime NE), and atomoxetine 40 mg at breakfast to augment daytime NE for cognitive function. This separates the two phases --- night NE for vasomotion/clearance, day NE for cognition --- preventing the signal degradation that occurs when NE is uniformly low.
+
+Unlike stimulants, neither DORA nor atomoxetine increases dopamine transmission, so the protocol avoids the reward-driven activity escalation risk. The key question is whether restoring the NE oscillation restores refreshing sleep --- DORAs have shown preliminary sleep-quality benefits in ME/CFS (Chapter @ch:medications-mechanisms) but have not been studied in combination with NRIs.
+
+*Falsifiable predictions:* (a) DORA (lemborexant 5 mg) + atomoxetine 40 mg improves both sleep quality (PSQI, PROMIS sleep) and daytime fatigue (MFI) more than either agent alone over 8 weeks. (b) No phase-shift or chronobiotic disruption (validated by actigraphy and DLMO).
+
+*Limitations.* No combination safety data. Atomoxetine can disrupt sleep onset (NE elevation at night). DORA interaction with NRI unknown. Two-drug protocol increases burden and cost. Research-stage.
+] <spec:dora-atomoxetine-chronobiotic>
+
+=== ME/CFS as Functional Pre-Parkinson's: Reversible LC Failure
+
+#speculation(title: [Reversible Noradrenergic Deficiency vs Irreversible LC Degeneration])[
+*Certainty: 0.15.* (Speculative; no direct LC imaging in ME/CFS.) In Parkinson's disease, the LC degenerates years before substantia nigra, and CSF NE drops before DA. ME/CFS shares the early LC dysfunction signature (low CSF NE with normal DA, documented by Aregawi 2026) but may lack structural degeneration --- no α-synuclein aggregates, no LC cell loss. This suggests "functional pre-PD" --- the same LC failure but caused by energy deficit and inflammation rather than proteinopathy.
+
+This hypothesis predicts: (a) ME/CFS patients do not develop PD at elevated rates (LC death does not progress); (b) CSF NE in ME/CFS is reversible with ATP restoration (ketogenic diet, CoQ10) --- unlike PD where NE is structurally gone; (c) the mechanisms protecting against LC degeneration (HSP70, mitophagy) are intact in ME/CFS. The Aregawi 2026 PD comparator group showed dual NE+DA deficiency, confirming the ME/CFS pattern is functionally distinct.
+
+*Falsifiable predictions:* (a) 7T LC neuromelanin imaging shows normal LC volume in ME/CFS (vs reduced in PD) despite low CSF NE. (b) ME/CFS patients followed over 10 years do not develop PD at elevated rates. (c) CSF NE in ME/CFS temporarily normalises after ATP support; PD CSF NE does not improve with same intervention.
+
+*Limitations.* No 7T LC neuromelanin imaging in ME/CFS. ME/CFS is not neurodegenerative — the functional pre-PD framing is provocative but requires imaging confirmation. Low CSF NE may have different mechanisms in the two conditions entirely (metabolic vs degenerative).
+] <spec:functional-pre-pd>
+

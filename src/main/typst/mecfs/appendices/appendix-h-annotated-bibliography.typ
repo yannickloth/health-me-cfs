@@ -33,9 +33,30 @@ This appendix provides a comprehensive annotated bibliography of scientific lite
     *Conclusion:*: ME/CFS appears to be a centrally mediated disorder characterized by altered effort preference, potentially associated with central catecholamine dysregulation.
     *Limitations:*: Small sample size (80% power only detects effects ≥0.94 SD); cross-sectional design; recruitment terminated due to COVID-19 pandemic.
 
+=== Aregawi et al.\ 2026 — Central Noradrenergic Deficiency in PI-ME/CFS and PASC
+
+    *Full Citation:*: Aregawi M, Walitt B, Sullivan P, Norato G, Benjamin JD, Goldstein DS. Central noradrenergic deficiency in post-infectious chronic fatigue: neurobehavioral correlates. _Brain Communications_. 2026;8(3):fcag173. @Aregawi2026Noradrenergic
+    *DOI:*: #link("https://doi.org/10.1093/braincomms/fcag173")[10.1093/braincomms/fcag173]
+    *PMID:*: 42205163
+    *Study Design:*: Cross-sectional CSF catecholamine study; composite pathway indices
+    *Sample Size:*: n=16 PI-ME/CFS, n=34 PASC, n=32 Parkinson's disease, n=40 healthy volunteers
+    *Key Findings:*:
+        - Novel composite NE Pathway index (NE+DHPG+MHPG) significantly lower in PI-ME/CFS and PASC vs HV
+        - DA Pathway (DA+DOPAC+HVA) normal across all groups — selective noradrenergic deficiency
+        - First report of CSF MHPG levels in PI-ME/CFS or PASC
+        - NE Pathway correlated with handgrip duration (rho=0.62) and MFI physical fatigue (rho=-0.43)
+        - PEM specifically associated with NE deficiency (PASC+PEM < PASC-noPEM)
+        - Parkinson's controls showed dual NE+DA deficiency confirming index validity
+    *Conclusion:*: Selective central noradrenergic deficiency is a neurochemical correlate of post-infectious ME/CFS and PASC with PEM, linked to motor output, fatigue severity, and overall health perception. Dopamine pathway preserved.
+    *Limitations:*: Single NIH center; post-infectious only; small PI-ME/CFS subgroup (n=16); cross-sectional; no independent replication.
+    *Certainty Assessment:*:
+        - *Quality:* High (Brain Communications; novel composite index methodology)
+        - *Sample:* Medium (n=122 total, n=16 PI-ME/CFS subgroup)
+        - *Replication:* Partial (same NIH center as Walitt 2024, extended methodology)
+        - *Score:* 0.80
+
 // =============================================================================
 
-== Diagnostic Criteria and Clinical Guidelines
 <sec:bib-diagnostic-criteria>
 // =============================================================================
 
@@ -6374,6 +6395,193 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - *Certainty:* 0.60
         - *Limitation:* Preprint; requires peer review and independent replication
     
+
+=== Goldstein et al.\ 2024 — Persistent Autonomic Abnormalities in Neuro-PASC
+
+    *Full Citation:*: Goldstein DS, Mina Y, Walitt B, Sullivan P, Enose-Akahata Y, Jacobson S, Nguyen D, Sidenko S. Persistent autonomic and immunologic abnormalities in neurologic post-acute sequelae of SARS-CoV2 infection. _Neurology_. 2024;103(6):e209742. @Goldstein2024PersistentAutonomic
+    *DOI:*: #link("https://doi.org/10.1212/WNL.0000000000209742")[10.1212/WNL.0000000000209742]
+    *PMID:*: 39173103
+    *Study Design:*: Longitudinal observational follow-up (≥1 year)
+    *Key Findings:*:
+        - Autonomic and immunologic abnormalities persist at least 1 year after initial Neuro-PASC evaluation at NIH Clinical Center
+        - Included CSF catecholamines, autonomic function testing, immune markers
+        - Same NIH research group as Walitt 2024 and Aregawi 2026 — methodological consistency
+    *Conclusion:*: Autonomic dysfunction in Neuro-PASC is persistent over ≥1 year; central noradrenergic abnormalities do not resolve spontaneously.
+    *Limitations:*: Observational; no control group at follow-up; same NIH center as related studies.
+    *Certainty Assessment:*:
+        - *Quality:* High (Neurology; longitudinal design)
+        - *Sample:* Medium
+        - *Replication:* Not independently replicated
+        - *Score:* 0.70
+
+=== Hendrix et al.\ 2025 — Adrenergic Dysfunction in ME/CFS and Fibromyalgia: Meta-Analysis
+
+    *Full Citation:*: Hendrix J, Fanning L, Wyns A, Ahmed I, Patil MS, Richter E, et al.\ Adrenergic dysfunction in patients with myalgic encephalomyelitis/chronic fatigue syndrome and fibromyalgia: a systematic review and meta-analysis. _European Journal of Clinical Investigation_. 2025;55(1):e14318. @Hendrix2025AdrenergicDysfunction
+    *DOI:*: #link("https://doi.org/10.1111/eci.14318")[10.1111/eci.14318]
+    *PMID:*: 39319943
+    *Study Design:*: Systematic review and meta-analysis
+    *Key Findings:*:
+        - Adrenergic dysfunction confirmed in ME/CFS and FM across multiple studies
+        - Elevated catecholamines and altered adrenergic receptor function
+        - Heterogeneous outcomes across studies; no single biomarker identified
+    *Conclusion:*: Adrenergic dysfunction is a confirmed feature of ME/CFS, supporting sympathetic nervous system involvement. However, measurement heterogeneity limits clinical translation.
+    *Limitations:*: Heterogeneous study methodologies; limited number of studies with comparable outcomes.
+    *Certainty Assessment:*:
+        - *Quality:* High (systematic review methodology)
+        - *Sample:* Large combined sample
+        - *Replication:* N/A (meta-analysis)
+        - *Score:* 0.65
+
+=== Sulheim et al.\ 2014 — Clonidine in Adolescent CFS: Sympathetic Activity Hypothesis
+
+    *Full Citation:*: Sulheim D, Fagermoen E, Winger A, Andersen AM, Godang K, Müller F, Rowe PC, Saul JP. Disease mechanisms and clonidine treatment in adolescent chronic fatigue syndrome: a combined cross-sectional and randomized clinical trial. _JAMA Pediatrics_. 2014;168(4):351–360. @Sulheim2014clonidine
+    *DOI:*: #link("https://doi.org/10.1001/jamapediatrics.2013.4647")[10.1001/jamapediatrics.2013.4647]
+    *PMID:*: 24493300
+    *Study Design:*: Cross-sectional + double-blind RCT (clonidine vs placebo)
+    *Sample Size:*: n=120 adolescents with CFS
+    *Key Findings:*:
+        - Enhanced sympathetic activity hypothesized; clonidine (α2 agonist) tested as sympatholytic
+        - Clonidine did not improve symptoms despite reducing sympathetic tone
+        - Suggests sympathetic activation is compensatory, not primary pathological driver
+        - Important negative result for noradrenergic intervention in ME/CFS
+    *Conclusion:*: Clonidine is ineffective in adolescent CFS. Sympathetic activation may be compensatory rather than causal. Null finding constrains the noradrenergic hypothesis.
+    *Limitations:*: Single-center Norwegian cohort; adolescent only; clonidine side effects may have unblinded participants.
+    *Certainty Assessment:*:
+        - *Quality:* High (JAMA Pediatrics; RCT design)
+        - *Sample:* Medium (n=120)
+        - *Replication:* Single study
+        - *Score:* 0.65
+
+=== Kristiansen et al.\ 2019 — Post-EBV Catecholamines in Adolescent Chronic Fatigue
+
+    *Full Citation:*: Kristiansen MS, Stabursvik J, O'Leary E, Pedersen M, Asprusten T, Leegaard T, Osnes T, Tjade T. Clinical symptoms and markers of disease mechanisms in adolescent chronic fatigue following Epstein-Barr virus infection: an exploratory cross-sectional study. _Brain, Behavior, and Immunity_. 2019;80:551–563. @Kristiansen2019postEBV
+    *DOI:*: #link("https://doi.org/10.1016/j.bbi.2019.04.040")[10.1016/j.bbi.2019.04.040]
+    *PMID:*: 31039432
+    *Study Design:*: Exploratory cross-sectional study (post-EBV)
+    *Sample Size:*: n=200 adolescents assessed 6 months after acute EBV
+    *Key Findings:*:
+        - Catecholamine and autonomic markers assessed in fatigued vs recovered subgroups after EBV
+        - Post-viral fatigue model directly relevant to PI-ME/CFS paradigm
+        - Supports post-infectious noradrenergic dysregulation hypothesis
+    *Conclusion:*: Post-EBV chronic fatigue is associated with catecholaminergic and autonomic dysregulation, consistent with Aregawi 2026 findings in PI-ME/CFS.
+    *Limitations:*: Exploratory design; cross-sectional at single timepoint; adolescent only.
+    *Certainty Assessment:*:
+        - *Quality:* High (Brain, Behavior, and Immunity)
+        - *Sample:* Large (n=200)
+        - *Replication:* Single study
+        - *Score:* 0.60
+
+=== Winkler et al.\ 2016 — Catecholamine Responses in CFS (Peripheral NE)
+
+    *Full Citation:*: Winkler B, et al.\ Catecholamine responses in chronic fatigue syndrome. _Neurological Sciences_. 2016;37(12):1933–1939. @Winkler2016catecholamines
+    *DOI:*: #link("https://doi.org/10.1007/s10072-016-2699-0")[10.1007/s10072-016-2699-0]
+    *PMID:*: 27727448
+    *Study Design:*: Cross-sectional
+    *Key Findings:*:
+        - Elevated plasma norepinephrine at rest in CFS patients vs controls
+        - Supports central-peripheral NE mismatch: low CNS NE (Aregawi 2026) with high peripheral NE
+    *Conclusion:*: Peripheral catecholamines are elevated in CFS, contrasting with central NE deficiency — consistent with compartment-specific noradrenergic dysregulation.
+    *Limitations:*: Small sample; no CSF measurement; cross-sectional.
+    *Certainty Assessment:*:
+        - *Score:* 0.60
+
+=== Wyller et al.\ 2016 — Altered Neuroendocrine Control in Adolescent CFS
+
+    *Full Citation:*: Wyller VBB, Vitelli V, Sulheim D, Fagermoen E, Winger A, Godang K, Bollerslev J. Altered neuroendocrine control and association to clinical symptoms in adolescent chronic fatigue syndrome: a cross-sectional study. _Journal of Translational Medicine_. 2016;14(1):121. @Wyller2016neuroendocrine
+    *DOI:*: #link("https://doi.org/10.1186/s12967-016-0873-1")[10.1186/s12967-016-0873-1]
+    *PMID:*: 27149955
+    *Study Design:*: Cross-sectional case-control
+    *Sample Size:*: n=120 adolescent CFS
+    *Key Findings:*:
+        - HPA axis attenuation with SAM (sympathetic/adrenal medulla) system enhancement
+        - Enhanced sympathetic activity observed
+        - Network analyses linked neuroendocrine variables to clinical symptoms
+    *Conclusion:*: Neuroendocrine dysregulation in adolescent CFS involves both HPA suppression and SAM activation — consistent with central-peripheral NE mismatch pattern.
+    *Limitations:*: Cross-sectional; adolescent only; single Norwegian center.
+    *Certainty Assessment:*:
+        - *Score:* 0.55
+
+=== Young et al.\ 2025 — Solriamfetol (NDRI) RCT in ME/CFS
+
+    *Full Citation:*: Young JL, Bateman L, Helliwell S, Klimas NG, Ruhoy IS, Kilduff TS. Solriamfetol improves daily fatigue symptoms in adults with myalgic encephalomyelitis/chronic fatigue syndrome after 8 weeks of treatment. _Journal of Psychopharmacology_. 2025;39(11):1268–1276. @Young2025solriamfetol
+    *DOI:*: #link("https://doi.org/10.1177/02698811251368371")[10.1177/02698811251368371]
+    *PMID:*: 40958377
+    *Study Design:*: Phase 4 double-blind RCT (solriamfetol 75-150 mg vs placebo)
+    *Sample Size:*: n=38 ME/CFS
+    *Key Findings:*:
+        - Solriamfetol (dual norepinephrine-dopamine reuptake inhibitor) improved fatigue severity at week 8 (p=0.039)
+        - Improved executive function (metacognition index p=0.004)
+        - PEM not assessed — cannot evaluate effect on PEM specifically
+    *Conclusion:*: NDRI class shows preliminary efficacy for fatigue in ME/CFS. Supports NE reuptake inhibition as therapeutic strategy. PEM-specific effects need dedicated study.
+    *Limitations:*: Small sample (n=38); moderate effect; PEM not assessed; short duration (8 weeks).
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (RCT design; small n)
+        - *Sample:* Small (n=38)
+        - *Replication:* Single trial
+        - *Score:* 0.55
+
+=== Mwesigwa et al.\ 2024 — Atomoxetine (NRI) for Neurogenic Orthostatic Hypotension
+
+    *Full Citation:*: Mwesigwa N, Millar Vernetti P, Kirabo A, Black B, Ding T, Martinez J, Palma JA, Biaggioni I. Atomoxetine on neurogenic orthostatic hypotension: a randomized, double-blind, placebo-controlled crossover trial. _Clinical Autonomic Research_. 2024;34(6):561–569. @Mwesigwa2024atomoxetine
+    *DOI:*: #link("https://doi.org/10.1007/s10286-024-01051-2")[10.1007/s10286-024-01051-2]
+    *PMID:*: 39294522
+    *Study Design:*: Randomized, double-blind, placebo-controlled crossover trial
+    *Key Findings:*:
+        - Atomoxetine (selective norepinephrine reuptake inhibitor) improved standing blood pressure in nOH
+        - 4-week treatment period with crossover design
+        - Demonstrates NE reuptake inhibition can improve autonomic function
+    *Conclusion:*: Atomoxetine is effective for nOH via NE reuptake blockade. Translational relevance: if central NE deficiency drives autonomic dysfunction in ME/CFS, atomoxetine may be mechanistically targeted. No ME/CFS-specific atomoxetine data exist.
+    *Limitations:*: nOH population not ME/CFS; short duration; crossover design limitations.
+    *Certainty Assessment:*:
+        - *Score:* 0.55
+
+=== Natelson et al.\ 2015 — Milnacipran (SNRI) Ventricular Lactate in Fibromyalgia
+
+    *Full Citation:*: Natelson BH, Vu D, Mao X, Weiduschat N, Togo F, Lange G, Blate M, Kang G. Effect of milnacipran treatment on ventricular lactate in fibromyalgia: a randomized, double-blind, placebo-controlled trial. _Journal of Pain_. 2015;16(11):1211–1219. @Natelson2015milnacipran
+    *DOI:*: #link("https://doi.org/10.1016/j.jpain.2015.08.004")[10.1016/j.jpain.2015.08.004]
+    *PMID:*: 26335989
+    *Study Design:*: RCT (milnacipran vs placebo); MRS lactate endpoint
+    *Key Findings:*:
+        - Milnacipran (SNRI) did not lower ventricular lactate despite clinical improvement in some
+        - SNRIs clinically effective in FM but mechanism may not be via brain energy metabolism
+        - Relevant to NE-PEM-metabolism connection
+    *Conclusion:*: SNRIs improve FM symptoms but mechanism uncertain. Does not support brain lactate reduction as NE-mediated mechanism.
+    *Limitations:*: FM population not ME/CFS; modest sample; MRS technical limitations.
+    *Certainty Assessment:*:
+        - *Score:* 0.55
+
+=== Arnold et al.\ 2004 — Duloxetine in Fibromyalgia (Landmark SNRI RCT)
+
+    *Full Citation:*: Arnold LM, Lu Y, Crofford LJ, Wohlreich M, Detke MJ, Iyengar S, Goldstein DJ. A double-blind, multicenter trial comparing duloxetine with placebo in the treatment of fibromyalgia patients with or without major depressive disorder. _Arthritis and Rheumatism_. 2004;50(9):2974–2984. @Arnold2004duloxetine
+    *PMID:*: 15457467
+    *Study Design:*: Multi-center RCT (duloxetine vs placebo)
+    *Sample Size:*: n=207 fibromyalgia patients
+    *Key Findings:*:
+        - Duloxetine (SNRI) improved pain and fatigue in fibromyalgia independent of depression
+        - Established SNRI efficacy in FM; NE reuptake mechanism central
+        - Foundation for NE reuptake as therapeutic target in related conditions
+    *Conclusion:*: Dual serotonin-norepinephrine reuptake inhibition is effective for fibromyalgia pain and fatigue. SNRI efficacy supports NRI mechanistic rationale for ME/CFS fatigue.
+    *Limitations:*: FM population not ME/CFS; fibromyalgia pain more prominent than in ME/CFS; older study (2004).
+    *Certainty Assessment:*:
+        - *Quality:* High (Arthritis and Rheumatism; multi-center RCT)
+        - *Sample:* Large (n=207)
+        - *Replication:* Well-replicated (multiple subsequent SNRI trials in FM)
+        - *Score:* 0.65
+
+=== Malik et al.\ 2025 — SNRIs for Fibromyalgia: Comprehensive Clinical Review
+
+    *Full Citation:*: Malik A, Brown Z, Ryder A, Balayan V, Jameson L, Vu P, Al-Jumah A, Hasoon J. Serotonin and Norepinephrine Reuptake Inhibitors (SNRIs) for Treatment of Fibromyalgia: A Comprehensive Clinical Review. _Psychopharmacology Bulletin_. 2025;55(2):24–40. @Malik2025SNRIfibromyalgia
+    *DOI:*: #link("https://doi.org/10.64719/pb.4519")[10.64719/pb.4519]
+    *PMID:*: 39935669
+    *Study Design:*: Comprehensive clinical review
+    *Key Findings:*:
+        - SNRIs (duloxetine, milnacipran) effective for fibromyalgia pain and fatigue
+        - NE reuptake mechanism central to clinical efficacy
+        - Review supports NRI mechanistic rationale for fatigue treatment
+    *Conclusion:*: SNRIs are established treatments for FM with NE reuptake as key mechanism. Supports exploration of NE reuptake agents in ME/CFS.
+    *Limitations:*: Review article; FM-focused; no ME/CFS-specific data.
+    *Certainty Assessment:*:
+        - *Score:* 0.50
 
 // =============================================================================
 
@@ -20096,4 +20304,173 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Conclusion:*: SLE and CFS share fatigue as central symptom; SLE can serve as model for CFS pathophysiology.
     *Limitations:*: Polish-language journal; narrative review; 2010 publication.
     *Certainty:*: 0.25
+
+=== Kulapatana et al.\ 2025 — Blood Volume Deficit in POTS by CO Rebreathing
+
+    *Full Citation:*: Kulapatana S, Urechie V, Rigo S, et al.\ Blood volume deficit in postural orthostatic tachycardia syndrome assessed by semiautomated carbon monoxide rebreathing. _Clinical Autonomic Research_. 2025;35(2):267–276.
+    *DOI:*: #link("https://doi.org/10.1007/s10286-024-01091-8")[10.1007/s10286-024-01091-8]
+    *PMID:*: 39614968
+    *Key Findings:*:
+        - Semiautomated CO rebreathing confirms significant total blood volume deficit in POTS (n=47 vs n=40 controls)
+        - Replicates Raj 2005 hypovolemia finding with improved method
+        - Blood volume deficit correlates with symptom severity
+    *Conclusion:*: Hypovolemia is a reproducible, quantifiable feature of POTS.
+    *Limitations:*: Moderate n; single center; CO rebreathing requires specialized equipment.
+    *Certainty:*: 0.70
+
+=== van Campen et al.\ 2024 — Two Hemodynamic Responses in ME/CFS+POTS
+
+    *Full Citation:*: van Campen CLMC, Rowe PC, Visser FC.\ Two different hemodynamic responses in ME/CFS patients with postural orthostatic tachycardia syndrome during head-up tilt testing. _Journal of Clinical Medicine_. 2024;13(24):7726.
+    *DOI:*: #link("https://doi.org/10.3390/jcm13247726")[10.3390/jcm13247726]
+    *PMID:*: 39768649
+    *Key Findings:*:
+        - ME/CFS+POTS patients show two distinct hemodynamic responses during HUT: hypovolemic-like (reduced SV, low CO) and hyperadrenergic-like (high HR, normal SV)
+        - Hypovolemic subtype may benefit from volume expansion; hyperadrenergic from rate-slowing
+        - Demonstrates that POTS in ME/CFS is not a single entity
+    *Conclusion:*: Hemodynamic subtyping in ME/CFS+POTS may enable targeted treatment.
+    *Limitations:*: Single center; moderate sample size; retrospective analysis.
+    *Certainty:*: 0.55
+
+=== Malik et al.\ 2026 — Brain Structural Changes in POTS
+
+    *Full Citation:*: Malik V, Roy B, Sarkar A, et al.\ Brain tissue changes, network dysfunction, and cerebral hemodynamic deficits in postural orthostatic tachycardia syndrome. _Heart Rhythm_. 2026. doi: 10.1016/j.hrthm.2026.02.020.
+    *DOI:*: #link("https://doi.org/10.1016/j.hrthm.2026.02.020")[10.1016/j.hrthm.2026.02.020]
+    *PMID:*: 41740821
+    *Key Findings:*:
+        - First demonstration of structural brain changes in POTS (gray matter volume reductions)
+        - Altered functional network connectivity on resting-state fMRI
+        - Cerebral hemodynamic deficits correlate with symptom severity
+    *Conclusion:*: POTS involves structural and functional brain changes, not just peripheral autonomic dysfunction.
+    *Limitations:*: Moderate n; cross-sectional; causality unclear.
+    *Certainty:*: 0.55
+
+=== Miranda-Hurtado et al.\ 2026 — Stroke Volume, ETCO2, and CBF in POTS
+
+    *Full Citation:*: Miranda-Hurtado M, Hira R, Bourne KM, et al.\ Stroke volume reduction impairs cerebrovascular regulation through ETCO2 in postural orthostatic tachycardia syndrome. _Clinical Autonomic Research_. 2026;36(2):257–269.
+    *DOI:*: #link("https://doi.org/10.1007/s10286-025-01181-1")[10.1007/s10286-025-01181-1]
+    *PMID:*: 41398115
+    *Key Findings:*:
+        - Reduced stroke volume in POTS lowers end-tidal CO2 (hypocapnia)
+        - Hypocapnia impairs cerebral autoregulation, reducing CBF
+        - Establishes mechanistic pathway: low SV → ETCO2↓ → CBF↓
+    *Conclusion:*: Cerebral hypoperfusion in POTS is mediated by SV-driven hypocapnia.
+    *Limitations:*: Controlled physiology lab setting; may not capture real-world variability.
+    *Certainty:*: 0.65
+
+=== Seeley et al.\ 2025 — Brain SPECT in POTS Cognitive Dysfunction
+
+    *Full Citation:*: Seeley MC, O'Brien H, Wilson G, et al.\ Novel brain SPECT imaging unravels abnormal cerebral perfusion in patients with postural orthostatic tachycardia syndrome and cognitive dysfunction. _Scientific Reports_. 2025;15(1):3487.
+    *DOI:*: #link("https://doi.org/10.1038/s41598-025-87748-4")[10.1038/s41598-025-87748-4]
+    *PMID:*: 39875497
+    *Key Findings:*:
+        - First brain SPECT study in POTS shows region-specific hypoperfusion
+        - Perfusion deficits in frontal, temporal, and parietal regions
+        - Hypoperfusion correlates with objective cognitive test scores
+    *Conclusion:*: Objective cerebral perfusion deficits underlie POTS cognitive symptoms.
+    *Limitations:*: Pilot study; moderate n; no ME/CFS subgroup analysis.
+    *Certainty:*: 0.50
+
+=== Kwok et al.\ 2026 — Midodrine for POTS Meta-Analysis
+
+    *Full Citation:*: Kwok CS, Lee S, Afzal A, et al.\ Midodrine hydrochloride as a treatment for postural orthostatic tachycardia syndrome: A systematic review and meta-analysis. _Journal of Cardiovascular Pharmacology_. 2026. doi: 10.1097/FJC.0000000000001822.
+    *DOI:*: #link("https://doi.org/10.1097/FJC.0000000000001822")[10.1097/FJC.0000000000001822]
+    *PMID:*: 41949563
+    *Key Findings:*:
+        - 14 studies, n=968: midodrine improves symptom response vs placebo in pediatric POTS (RR 1.52, p=0.01)
+        - Midodrine marginally superior to beta-blockers in children (RR 1.16, p=0.02)
+        - Evidence in adults is limited; hypertension in 8.2%
+    *Conclusion:*: Midodrine can be considered second/third-line for POTS, especially pediatric.
+    *Limitations:*: High heterogeneity (I²=78%); mostly pediatric studies; adults under-studied.
+    *Certainty:*: 0.65
+
+=== Hedge et al.\ 2026 — Diagnostic Reliability of Supine-to-Stand Tests in POTS
+
+    *Full Citation:*: Hedge ET, Grappe SR, Ivey E, et al.\ Test-retest reliability of clinical supine-to-stand tests in patients with postural orthostatic tachycardia syndrome: A cautionary tale. _Heart Rhythm_. 2026. doi: 10.1016/j.hrthm.2026.03.1915.
+    *DOI:*: #link("https://doi.org/10.1016/j.hrthm.2026.03.1915")[10.1016/j.hrthm.2026.03.1915]
+    *PMID:*: 41887448
+    *Key Findings:*:
+        - Clinical supine-to-stand tests show poor test-retest reliability in POTS
+        - Day-to-day HR variability may lead to misdiagnosis or misclassification
+        - Questions validity of simple office-based diagnostic tests
+    *Conclusion:*: More standardized and repeated testing needed for reliable POTS diagnosis.
+    *Limitations:*: Single center; moderate n; does not test tilt-table reliability.
+    *Certainty:*: 0.60
+
+=== Marchetta et al.\ 2025 — Ivabradine and Symptom Burden in POTS
+
+    *Full Citation:*: Marchetta M, Lopez RI, Hogwood AC, et al.\ Heart rate lowering with ivabradine and burden of symptoms in patients with postural orthostatic tachycardia syndrome. _Journal of Cardiovascular Pharmacology_. 2025;86(1):28–32.
+    *DOI:*: #link("https://doi.org/10.1097/FJC.0000000000001705")[10.1097/FJC.0000000000001705]
+    *PMID:*: 40294227
+    *Key Findings:*:
+        - Ivabradine effectively reduces HR in POTS
+        - Symptom burden improvement does NOT correlate with HR reduction
+        - Supports view that tachycardia is compensatory, not causal
+    *Conclusion:*: Rate-slowing alone may not improve symptoms; root cause treatment needed.
+    *Limitations:*: Moderate n; uncontrolled; single center.
+    *Certainty:*: 0.50
+
+=== Ekman et al.\ 2025 — Sensory Neuropathy and GI Symptoms in POTS
+
+    *Full Citation:*: Ekman L, Tufvesson H, Englund E, Dahlin LB, Ohlsson B.\ Symptoms and objective signs of peripheral sensory neuropathy in POTS and correlations to gastrointestinal symptoms. _PLoS One_. 2025;20(7):e0327549.
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0327549")[10.1371/journal.pone.0327549]
+    *PMID:*: 40608783
+    *Key Findings:*:
+        - Objective signs of sensory neuropathy in POTS using quantitative sensory testing
+        - Neuropathy severity correlates with GI symptom burden
+        - Suggests SFN contributes to both pain and dysautonomia in POTS
+    *Conclusion:*: Peripheral neuropathy is common in POTS and linked to GI dysfunction.
+    *Limitations:*: Cross-sectional; moderate n; no skin biopsy.
+    *Certainty:*: 0.50
+
+=== Mathew and Novak 2026 — Central Sensitization in POTS
+
+    *Full Citation:*: Mathew GT, Novak P.\ Prevalence of central sensitization in postural tachycardia syndrome. _JAMA Network Open_. 2026;9(1):e2553694.
+    *DOI:*: #link("https://doi.org/10.1001/jamanetworkopen.2025.53694")[10.1001/jamanetworkopen.2025.53694]
+    *PMID:*: 41528744
+    *Key Findings:*:
+        - 67% of POTS patients meet criteria for central sensitization
+        - Prevalence far exceeds general population
+        - Central sensitization may explain pain, fatigue, and cognitive symptoms in POTS
+    *Conclusion:*: Central sensitization is highly prevalent in POTS and may be a treatment target.
+    *Limitations:*: Questionnaire-based; single center; no ME/CFS comparison.
+    *Certainty:*: 0.55
+
+=== Chopra 2026 — Compensatory Tachycardia Hypothesis
+
+    *Full Citation:*: Chopra P.\ Postural orthostatic tachycardia syndrome: when dysautonomia misleads — a mechanistic argument for compensatory orthostatic tachycardia. _Frontiers in Neurology_. 2026;17:1806502.
+    *DOI:*: #link("https://doi.org/10.3389/fneur.2026.1806502")[10.3389/fneur.2026.1806502]
+    *PMID:*: 42037722
+    *Key Findings:*:
+        - Argues POTS tachycardia is compensatory (defends CBF when SV drops)
+        - Questions whether tachycardia itself should be a treatment target
+        - Proposes focusing on root causes: hypovolemia, venous pooling, deconditioning
+    *Conclusion:*: Treatment paradigm shift: target hypoperfusion, not heart rate.
+    *Limitations:*: Review/opinion; not original data; speculative.
+    *Certainty:*: 0.35
+
+=== Lukáčová et al.\ 2025 — Autoantibodies in Orthostatic Intolerance
+
+    *Full Citation:*: Lukáčová M, Mitro P, Lazúrová Z, Hijová E, Bertková I, Valová K.\ Autoimmune antibodies in orthostatic intolerance syndromes. _Physiological Research_. 2025;74(2):255–262.
+    *DOI:*: #link("https://doi.org/10.33549/physiolres.935504")[10.33549/physiolres.935504]
+    *PMID:*: 40432440
+    *Key Findings:*:
+        - Autoantibodies to α1-AR and β1-AR detected in POTS patients
+        - No correlation with clinical severity
+        - Adds to mixed evidence on GPCR autoantibodies (cf. Vernino 2022 null)
+    *Conclusion:*: Autoantibodies are present in some POTS patients but clinical significance unclear.
+    *Limitations:*: Moderate n; single center; CellTrend ELISA specificity concerns.
+    *Certainty:*: 0.45
+
+=== Uppal et al.\ 2026 — Patient Perspectives on POTS Medications
+
+    *Full Citation:*: Uppal J, Deol P, Giri P, Sheldon RS, King-Shier K, Raj SR.\ Do medications actually help in patients with postural orthostatic tachycardia syndrome? A qualitative study. _CJC Open_. 2026;8(5):543–549.
+    *DOI:*: #link("https://doi.org/10.1016/j.cjco.2026.01.002")[10.1016/j.cjco.2026.01.002]
+    *PMID:*: 42146286
+    *Key Findings:*:
+        - Patient-reported medication effectiveness is modest
+        - Most patients try multiple medications with limited benefit
+        - Non-pharmacological strategies (salt, compression, exercise) are valued
+    *Conclusion:*: Clinical trials may overestimate real-world medication effectiveness.
+    *Limitations:*: Qualitative; self-selected sample; single center (Raj lab).
+    *Certainty:*: 0.55
 

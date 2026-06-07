@@ -34,6 +34,15 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (batch) | pubmed/eutils | 2026-06-07 | 2026-06-07 | content-staging/hif2a-endothelial-literature-&ast;.md, bib/appendix-h — HIF-2α endothelial post-viral literature collection (14 papers) |
 
+## POTS Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-07 | Multi-query search: "POTS ME/CFS", "POTS systematic review meta-analysis", "POTS treatment ivabradine midodrine", "POTS autoantibody null negative replication", "POTS cerebral blood flow brainstem hypoperfusion", "POTS exercise training", "POTS small fiber neuropathy SFN", "POTS blood volume hypovolemia RAAS" |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (7 queries, batch) | pubmed/eutils | 2026-06-07 | 2026-06-07 | content-staging/pots-literature/&ast;.md, bib/appendix-h — POTS literature search (12 papers added) |
+
 ## SLE→ME/CFS Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
@@ -41,7 +50,16 @@ Prevents re-processing of already-integrated content.
 
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
-| PubMed API queries (8 queries, batch) | pubmed/eutils | 2026-06-07 | — | content-staging/lit-sle-mecfs-2026-06-07.md, bib/appendix-h — SLE→ME/CFS literature survey (18 papers) |
+| PubMed API queries (batch) | pubmed/eutils | 2026-06-07 | content-staging/lit-sle-mecfs-2026-06-07.md, bib/appendix-h — SLE→ME/CFS literature survey (18 papers) |
+
+## Noradrenergic Deficiency Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-07 | 12 queries: Walitt NIH ME/CFS catecholamines, Goldstein DS catecholamine fatigue, atomoxetine ME/CFS, reboxetine fibromyalgia fatigue, yohimbine chronic fatigue, CSF norepinephrine ME/CFS, LC NE Goldstein, NRI fatigue chronic illness, negative/normal norepinephrine ME/CFS, droxidopa fatigue |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (12 queries, batch) | pubmed/eutils | 2026-06-07 | — | content-staging/noradrenergic-deficiency-literature-summary-2026-06-07.md, bib/appendix-h — Noradrenergic deficiency literature collection (13 papers, 9 new bib entries + 3 updated) |
 
 ## Articles
 

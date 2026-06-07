@@ -244,24 +244,26 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | slow-breathing-vagal | [subtrees/slow-breathing-vagal.md](subtrees/slow-breathing-vagal.md) | 2026-06-07 | 18 | 1 | 🔵 in progress |
 | cold-face-immersion | [subtrees/cold-face-immersion.md](subtrees/cold-face-immersion.md) | 2026-06-07 | 12 | 1 | 🔵 in progress |
 | rowing-biomechanics | [subtrees/rowing-biomechanics.md](subtrees/rowing-biomechanics.md) | 2026-06-07 | 11 | 1 | 🔵 in progress |
+| pots | [subtrees/pots.md](subtrees/pots.md) | 2026-06-07 | 45 | 0 | ⬜ pending |
 | 2026-lit-scan-june | [subtrees/2026-lit-scan-june.md](subtrees/2026-lit-scan-june.md) | 2026-06-07 | 46 | 0 | ⬜ pending |
+| noradrenergic-deficiency | [subtrees/noradrenergic-deficiency.md](subtrees/noradrenergic-deficiency.md) | 2026-06-07 | 28 | 4 | 🔵 in progress |
 
 ---
 ## 2026 Literature Scan Notes
 
 **Scan date:** 2026-06-07 with PubMed search `("myalgic encephalomyelitis"[MeSH] OR "chronic fatigue syndrome"[MeSH] OR "ME/CFS"[tiab] OR "myalgic encephalomyelitis/chronic fatigue syndrome"[tiab]) AND 2026[pdat]` — 369 results.
 
-**46 papers catalogued** in `subtrees/2026-lit-scan-june.md`. Breakdown:
+**47 papers catalogued** in `subtrees/2026-lit-scan-june.md`. Breakdown:
 
 | Tier | Count | Description |
 |------|-------|-------------|
-| 1 | 6 | Direct ME/CFS pathophysiology — noradrenergic deficit, TRPM3 mito Ca2+, E/I imbalance, PEM model, cortisol meta, skeletal muscle |
+| 1 | 7 | Direct ME/CFS pathophysiology — noradrenergic deficit, TRPM3 mito Ca2+, E/I imbalance, PEM model, cortisol meta, skeletal muscle, GWAS/WGS meta-analysis |
 | 2 | 9 | Target physiology — sleep EEG, brain fog neurovascular, symptom clusters, HERV, EBV mimicry, immune-metabolic, mito MR, molecular reclassification, HPA-cognitive |
 | 3 | 5 | Treatment/biomarker — HBOT, exercise meta, CBT network meta, 3D VR biomarker, NIBS targets |
 | 4 | 6 + 20 | Genetic/epidemiological + lower-priority (quick-reference table) |
 
-**7 papers already integrated** (Cell autoantibodies, Omdal, Watton, Petrov, Mancini/Natelson, Azcue, Hermisson — see catalogue for existing subtree refs).
+**8 papers already integrated** (Cell autoantibodies, Omdal, Watton, Petrov, Mancini/Natelson, Azcue, Hermisson, Faghy/Pretorius — see catalogue for existing subtree refs).
 
-**Priority order** for `/integrate-topic` runs listed in catalogue (section: Integration Priority Order). Recommended: start with noradrenergic-deficiency (Tier 1, highest certainty, extends existing catecholamine work) and neuroendocrine-cortisol-meta (strongest single evidence — 46-study meta-analysis).
+**Priority order** for `/integrate-topic` runs listed in catalogue (section: Integration Priority Order). Recommended: start with Maccallini GWAS/WGS meta-analysis (19K cases, largest ME/CFS genetics to date, glutamatergic synapse convergence) — dovetails with noradrenergic-deficiency and E/I imbalance papers.
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
