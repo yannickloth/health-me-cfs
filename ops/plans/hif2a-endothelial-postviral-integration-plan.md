@@ -18,7 +18,7 @@
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|---|---|---|---|---|
-| H1.2 | HIF-2 post-viral subtype | core | 0.50 | 🔵 in progress | Auto-escalated from hypoxia-altitude-hif1a; Ribeiro 2026 anchor paper |
+| H1.2 | HIF-2 post-viral subtype | core | 0.50 | ✅ done | Auto-escalated from hypoxia-altitude-hif1a; Ribeiro 2026 anchor paper |
 | H1.1 | HIF-2α epigenetic lock-in | supporting | 0.45 | ⬜ pending | |
 | H1.2 | β2AR-negative ED = HIF-2α | core | 0.55 | ⬜ pending | Solves 70% paradox — testable |
 | H1.3 | HIF-2α→immunothrombosis→microclots | supporting | 0.50 | ⬜ pending | Links ED + microclots |
@@ -96,6 +96,13 @@
 - **Tensions flagged:** 1 (β2AR-neg vs PHD inhibitors — unresolved, requires stratification)
 - **Audit file:** `content-staging/compat-audit-hif2a-endothelial-2026-06-07.md`
 - **Plan file updated:** ops/plans/hif2a-endothelial-postviral-integration-plan.md
+
+## Phase 7 — Changelog (2026-06-07)
+- Changelog entry added to Version 11
+- **Phase 8 — Commit:** 2 commits created (planning + content)
+  - `609645f docs(hif2a-endothelial-postviral): planning files...`
+  - `6054b13 content(hif2a-endothelial-postviral): integrate HIF-2alpha...`
+- Commit hash: `6054b13`
 
 ## Phase 1 — Literature Research (2026-06-07)
 - **Papers found:** 16 (1 anchor + 15 new)
