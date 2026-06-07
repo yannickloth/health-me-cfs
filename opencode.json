@@ -5,703 +5,703 @@
   "instructions": [
     "Read CLAUDE.md for project context.",
     "Read .claude/agents/*.md for agent definitions.",
-    "4 tiers: glm-4.7-flash no-think (mechanical), glm-4.7+think (moderate reasoning), glm-5-turbo+think (fast capable), glm-5.1+think (deep reasoning). Default: glm-4.7."
+    "3 tiers: deepseek-v4-flash no-think (mechanical), deepseek-v4-flash+think (moderate reasoning/cost-effective), deepseek-v4-pro+think (deep reasoning). Default: deepseek-v4-flash."
   ],
   "agent": {
     "haiku-general": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "syntax-fixer": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "formatting-fixer": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "dictionary-manager": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "tikz-validator": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "test-runner": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "link-checker": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "xref-checker": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "terminology-harmonizer": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "document-health-monitor": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "figure-caption-auditor": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "notation-consistency-checker": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "production-readiness-checker": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "definition-use-checker": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "typst-syntax-fixer": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "typst-formatting-fixer": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "typst-xref-checker": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "typst-citation-checker": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "typst-figure-caption-auditor": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "typst-notation-consistency-checker": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "typst-production-readiness-checker": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "scope-qualifier-checker": {
-      "model": "zai-coding-plan/glm-4.7-flash"
+      "model": "deepseek/deepseek-v4-flash"
     },
     "sonnet-general": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "config-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "config-optimizer": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "content-reviewer": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "style-naturalizer": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "style-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "definition-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "redundancy-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "trade-off-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "misconception-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "index-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "literature-integrator": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "scientific-insight-generator": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "template-advisor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "protocol-linker": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "file-splitter": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "tikz-illustrator": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "formalization-advisor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "causal-model-builder": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "epc-model-builder": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "quantitative-model-builder": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "model-integrator": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "meta-analysis-coordinator": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "publication-preparer": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "evidence-mapper": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "research-gap-synthesizer": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "safety-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "falsifiability-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "bibliography-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "pathway-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "pharmacology-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "biomarker-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "immunology-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "biochemistry-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "neuro-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "microbiome-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "epidemiology-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "comorbidity-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "patient-safety-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "case-documenter": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "medical-advisor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "treatment-analyst": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "crisis-manager": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "pacing-coach": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "data-validator": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "hypothesis-generator": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "research-monitor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "benefit-navigator": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "caregiver-coordinator": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "typst-diagram-checker": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "clinician-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "diagram-accuracy-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "diagram-consistency-auditor": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "commit-writer": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "changelog-generator": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "git-historian": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "release-manager": {
-      "model": "zai-coding-plan/glm-4.7",
+      "model": "deepseek/deepseek-v4-flash",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "opus-general": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "math-verifier": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "logic-auditor": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "scientific-rigor-auditor": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "model-auditor": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "uncertainty-analyst": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "typst-proof-validator": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "cynic-auditor": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "devil-advocate-auditor": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "sophist-auditor": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "reductionist-auditor": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "diagram-rhetoric-auditor": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     },
     "strawman-auditor": {
-      "model": "zai-coding-plan/glm-5.1",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
         "thinking": {
-          "type": "enabled",
-          "clear_thinking": false
-        }
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
       }
     }
   }
