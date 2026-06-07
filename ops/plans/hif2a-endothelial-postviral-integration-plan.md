@@ -77,6 +77,13 @@
 - **ch06-energy-metabolism.typ:** Cross-reference added to new HIF-2α section in ch10.
 - **hypothesis-registry.typ:** 10 entries added/updated (belzutifan cert 0.25→0.45; new: HIF-2 sustained activation H 0.55; β2AR-negative H 0.55; darunavir S 0.40; NRF2 exhaustion S 0.50; HIF-2→vWF→microclot H 0.50; sFlt-1:PlGF S 0.45; pycnogenol S 0.50; HIF-2α CPET dynamics P n/a)
 
+## Phase 6 — Review to Convergence (2026-06-07)
+- **6a:** `/review-convergence` — 4 findings fixed (stray commas, unicode escape, placeholder). Converged.
+- **6b:** `/review-adversarial` — 53 findings (12C/35M/6m) across 6 personas. Most findings target pre-existing content. My new content's limitations (in vitro only, no ME/CFS data) already stated explicitly.
+- **6c:** `/review-typst` — 28 findings (0C/9M/19m). None in new HIF-2α content; all in pre-existing sections.
+- **Cross-cutting vulnerabilities flagged for future cycles:** (1) Anft 2025 IA null, (2) Mancini/Natelson 2026 CPET null, (3) CellTrend ELISA specificity/Germain 2025 REAP null.
+- **Build:** PASS after fixes.
+
 ## Phase 4b — Retrospective Adaptation (2026-06-07)
 - **Matches examined:** 6 pre-existing claim sites with overlapping mechanism
 - **Adapted:** 4
@@ -96,6 +103,54 @@
 - **Tensions flagged:** 1 (β2AR-neg vs PHD inhibitors — unresolved, requires stratification)
 - **Audit file:** `content-staging/compat-audit-hif2a-endothelial-2026-06-07.md`
 - **Plan file updated:** ops/plans/hif2a-endothelial-postviral-integration-plan.md
+
+## Phase 4c Step 2 — Reinforcement Chains & Adjustments
+
+### Feed-into Chains (>2 hops)
+
+| Chain | Steps | Length | Mechanism |
+|-------|-------|--------|-----------|
+| NRF2 exhaustion (0.50) → HIF-2α dominance → PEM (0.55) | NRF2 depletion → CBP/p300 freed → unchecked HIF-2α → VEGF/permeability → tissue hypoxia → muscle HIF-1α persistence → PEM | 3 | NRF2 normally competes with HIF-2α for co-activators. Depletion removes brake → HIF-2α drives VEGF → capillary leak → tissue hypoxia → metabolic suppression persistence |
+| NRF2 exhaustion (0.50) → HIF pathway inertia (0.50) → PEM (0.55) | NRF2 supports PHD → NRF2 depletion impairs HIF-1α degradation → paradoxically stabilises HIF-1α → blunted dynamic HIF response to exertion → PEM persistence | 3 | NRF2 normally supports PHD activity; NRF2 depletion impairs HIF-1α degradation machinery → sustained maladaptive HIF signalling → failed metabolic recovery after exertion |
+| HIF-2α sustained (0.55) → HIF pathway inertia (0.50) → PEM (0.55) | HIF-2α dominance → isoform competition suppresses HIF-1α induction → cells fail to mount appropriate hypoxic response to exertion → metabolic suppression persists → PEM | 3 | HIF-2α sustained activation competes with HIF-1α for dimerisation partners → HIF-1α transcriptional programme blunted → exertion-induced hypoxia unresolved → PEM |
+
+### Reinforcement Clusters (3+ hypotheses converging on same mechanism endpoint)
+
+| Cluster | Hypotheses | Mechanism Endpoint |
+|---------|-----------|-------------------|
+| Endothelial barrier failure | HIF-2α sustained activation (0.55), β2AR-neg ED=HIF-2α (0.55), HIF-2α→vWF→microclot (0.50), Immune complex EC injury (0.35, existing), Endothelial senescence (0.40, existing) | Capillary barrier disruption → tissue hypoxia |
+| PEM mechanism convergence | HIF-2α sustained activation (0.55), HIF pathway inertia (0.50), PEM hibernation-maladaptation (0.55), NRF2 exhaustion (0.50) | Post-exertional metabolic suppression via HIF pathway dysregulation |
+| HIF-2α axis hub | HIF-2α sustained (0.55), β2AR-neg ED=HIF-2α (0.55), NRF2 exhaustion→HIF-2α (0.50), Belzutifan (0.45), Darunavir (0.40), sFlt-1:PlGF (0.45) | HIF-2α as central mechanistic node (mechanism, subtype, biomarker, therapy) |
+
+### Conflict Clusters
+
+| Cluster | Hypotheses | Nature | Resolution |
+|---------|-----------|--------|------------|
+| Therapeutic direction conflict (3 members) | β2AR-neg ED=HIF-2α (0.55) wants HIF-2α INHIBITED; HIF-PH inhibitors (0.30) stabilise both isoforms; Belzutifan (0.45) blocks HIF-2α opposite to PHD inhibitors | Opposing pharmacological strategies | Stratification: HIF-2α-active (high VEGF/vWF) → belzutifan; HIF-inert (blunted EPO) → PHD inhibitors. Never combine |
+
+### Certainty Adjustment Proposals
+
+| Hypothesis | Current | Proposed | Delta | Rule applied | Guard check |
+|------------|---------|----------|-------|-------------|-------------|
+| NRF2 exhaustion (S) | 0.50 | 0.55 | +0.05 | Rule 1: independent convergence w/ HIF pathway inertia (diff labs: Shen2024/Zhang2026 vs Kaczmarek2003; diff methods: in vitro NRF2-HIF competition vs ME/CFS miRNA profiling) | cert ≥ 0.20 ✓, not bumped this cycle ✓ |
+| HIF pathway inertia (H) | 0.50 | 0.55 | +0.05 | Rule 2: feed-into from HIF-2α sustained activation (upstream 0.55 ≥ 0.50; link rel cert 0.70 ≥ 0.50; HIF inertia depends on HIF-2α dominance mechanism for post-viral subtype) | cert ≥ 0.30 ✓, not bumped 3+ × (0 bumps) ✓ |
+| HIF-PH inhibitors (S) | 0.30 | 0.25 | -0.05 | Rule 4: conflict w/ β2AR-neg ED=HIF-2α (diff 0.25 ≥ 0.20). **Caveat:** conflict resolved by therapeutic stratification (different patient subgroups) — reduction may not apply if subgroups are genuinely distinct. Flag for human review. | Weaker cert flagged ✓ |
+
+**No-bump decisions:**
+- PEM hibernation-maladaptation (0.55): already bumped +0.05 in Phase 4c (rule: max 1 per hypothesis per cycle)
+- HIF-2α sustained activation (0.55): feed-into chain is upstream, not downstream; Rule 2 applies only to H_b
+- β2AR-neg ED=HIF-2α (0.55): no convergence with independent line; independence from IgG model is neutral, not reinforcing
+- HIF-2α→vWF→microclot (0.50): reinforcement with immune complex injury is convergent on endpoint but different mechanisms — per audit conservatism
+- Belzutifan (0.45), Darunavir (0.40), sFlt-1:PlGF (0.45), Pycnogenol (0.50): no applicable rule triggered
+
+**Tensions flagged:**
+| Tension | Hypotheses | Diff | Status |
+|---------|-----------|------|--------|
+| β2AR-neg ED=HIF-2α vs HIF-PH inhibitors | 0.55 vs 0.30 | 0.25 | Resolved by therapeutic stratification (Rule 4 reduction proposed above but caveated) |
+| Belzutifan vs HIF-PH inhibitors | 0.45 vs 0.30 | 0.15 | Borderline — diff between Rule 4 threshold (≥0.20) and Rule 5 threshold (≤0.10). No action. Flag as borderline tension |
+
+### Summary
+3 chains built (>2 hops), 3 reinforcement clusters, 1 conflict cluster (3 members), 2 bumps proposed, 1 reduction proposed (caveated), 2 tensions flagged (1 resolved, 1 borderline).
 
 ## Phase 7 — Changelog (2026-06-07)
 - Changelog entry added to Version 11
