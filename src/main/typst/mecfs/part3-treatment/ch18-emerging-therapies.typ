@@ -741,4 +741,48 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Certainty: 0.20.* Autotaxin converts LPC to LPA, a bioactive lipid signaling through LPA1-6 receptors that drives TGF-beta1 induction, fibroblast activation, ECM deposition, and microglial activation. Ziritaxestat (Phase III IPF) provides a clinically-ready ATX inhibitor with established safety. If ATX-LPA is elevated in ME/CFS, it provides a druggable bridge between fibrotic pathology (capillary basement membrane thickening) and neuroinflammation (LPA1-mediated microglial activation). See @spec:ziritaxestat-atx-lpa (Chapter @ch:speculative-hypotheses) for full mechanism. Falsifiable: ATX activity and LPA levels are elevated in ME/CFS; ziritaxestat reduces LPA and improves fatigue in ATX-high patients.
 ] <spec:ziritaxestat-atx-lpa-emerging>
 
+== Hypoxia and Oxygen-Sensing Pathway Modulation
+
+#speculation(title: [Normobaric Intermittent Hypoxic Training (IHT) for ME/CFS])[
+*Certainty: 0.40.* Brief controlled hypoxic exposures may induce beneficial HIF-1$alpha$-dependent adaptations including mitochondrial biogenesis, angiogenesis, and metabolic efficiency @Gangwar2019IHTaltitude. IHT has shown promise in Parkinson's disease @JanssenDaalen2025hypoxicPD and in athletic conditioning. The ME/CFS adaptation requires: supine position (eliminates orthostatic stress), mild hypoxia (FiO#sub[2] 0.16, equivalent to ~2000~m), short cycles (3--5~min hypoxia alternating with 3~min normoxia, total 30~min), and strict PEM monitoring (48~h post-session).
+
+*Mechanistic rationale.* Brief hypoxia → HIF-1$alpha$ stabilization → transcriptional programme activation → VEGF (angiogenesis), EPO (erythropoiesis), PGC-1$alpha$ (mitochondrial biogenesis), GLUT1 (glycolytic capacity). Repeated sessions are hypothesised to raise the hypoxic threshold and improve exercise tolerance.
+
+*Safety.* Potential PEM trigger if protocol exceeds individual tolerance — requires graduated introduction (start FiO#sub[2] 0.19, decrease 0.01 per week). Contraindicated in severe ME/CFS (bedbound patients), uncontrolled POTS, or haemoglobinopathies. Normobaric hypoxia carries no barotrauma risk. Hypoxia-induced vasodilation could worsen orthostatic intolerance in susceptible patients.
+
+*Testable prediction.* 8 weeks IHT (3 sessions/week) improves 6MWT distance ≥40~m vs sham (FiO#sub[2] 0.21) in mild-to-moderate ME/CFS, with sustained CBFv during hypoxic cycles.
+] <spec:iht-mecfs>
+
+#speculation(title: [HIF-PH Inhibitors (Roxadustat, Daprodustat) for ME/CFS])[
+*Certainty: 0.25.* Prolyl hydroxylase domain (PHD) inhibitors stabilise HIF-1$alpha$/2$alpha$ by blocking oxygen-dependent degradation, increasing endogenous EPO and erythropoiesis. Roxadustat is approved for anaemia of chronic kidney disease; daprodustat is in clinical use. In ME/CFS, low-dose PHD inhibition could restore the hypoxic adaptation programme that appears blunted (see HIF Pathway Inertia hypothesis @spec:hif-pathway-inertia). Unlike exogenous EPO, PHD inhibitors upregulate the full HIF transcriptional programme (EPO + VEGF + glycolytic enzymes + mitophagy regulators), potentially producing broader metabolic benefit @Winkler2004.
+
+*CAUTION:*
+    + Could exacerbate autoimmunity — HIF-1$alpha$ promotes Th17 differentiation and B cell activation @Little2023HIF1lupus
+    + VEGF elevation could worsen endothelial dysfunction or vascular permeability @Ribeiro2026HIF2alpha
+    + Excessive erythropoiesis increases blood viscosity, potentially worsening cerebral hypoperfusion
+    + No ME/CFS safety data exist; all literature is from CKD populations with different baseline physiology
+
+*Testable prediction.* Low-dose daprodustat (1mg TIW, one-quarter the CKD dose) improves submaximal exercise endurance (constant-workload cycling time) without elevating haematocrit >45% in ME/CFS patients with blunted hypoxia-challenge EPO response.
+] <spec:hif-ph-inhibitors>
+
+#speculation(title: [Belzutifan (HIF-2$alpha$ Inhibitor) for Post-Viral ME/CFS with Endothelial Dysfunction])[
+*Certainty: 0.20.* Belzutifan is a selective HIF-2$alpha$ inhibitor approved for VHL disease-associated tumours. HIF-2$alpha$ activation in pulmonary endothelium drives vascular remodelling; if post-viral ME/CFS involves HIF-2$alpha$-mediated endothelial dysfunction, belzutifan could rescue endothelial barrier function and reduce capillary permeability @Ribeiro2026HIF2alpha.
+
+*Mechanistic rationale.* SARS-CoV-2 spike protein upregulates HIF-2$alpha$ in pulmonary endothelium, promoting VEGF production, intercellular gap formation, and increased permeability. If a similar mechanism operates in ME/CFS (whether from SARS-CoV-2 or other viral triggers), HIF-2$alpha$ inhibition could restore endothelial barrier integrity.
+
+*CAUTION.* HIF-2$alpha$ is not HIF-1$alpha$ — the isoforms have distinct, sometimes opposing functions. HIF-2 inhibition could paradoxically worsen hypoxia sensing. HIF-2$alpha$ supports erythropoietin production in adults; its inhibition could cause anaemia. No ME/CFS data exist.
+
+*Testable prediction.* 8 weeks belzutifan 40mg TIW reduces VWF antigen (endothelial activation marker) by ≥20% and improves 6MWT distance by ≥30~m in post-viral ME/CFS patients with elevated baseline VWF (>150% normal).
+] <spec:belzutifan-endothelial>
+
+#speculation(title: [EPO Stimulation Test as Diagnostic Probe for HIF Pathway Integrity])[
+*Certainty: 0.40.* A standardised hypoxia challenge with serial EPO measurement could serve as a dynamic functional test of HIF pathway integrity in ME/CFS, analogous to the ACTH stimulation test for adrenal insufficiency @Winkler2004.
+
+*Protocol.* 2~h mild hypoxia (FiO#sub[2] 0.14, supine, continuous SpO#sub[2] monitoring, SpO#sub[2] maintained ≥88%) with serum EPO measured at baseline, 2~h, 4~h, 8~h, 24~h, and 48~h. The outcome metric is EPO AUC over 48~h, with detection threshold defined as <60% of age/sex-matched control median.
+
+*Mechanistic rationale.* If HIF pathway inertia is a core feature of ME/CFS, the EPO response to a controlled hypoxic stimulus should be blunted relative to controls while basal EPO remains normal — a pattern consistent with impaired inducibility rather than absolute HIF deficiency.
+
+*Testable prediction.* AUC of EPO response over 48~h is ≥40% lower in ME/CFS vs age/sex-matched healthy controls. Abnormal test (>2 SD below control mean) identifies a HIF-inert ME/CFS subtype with distinct clinical features (worse orthostatic intolerance, lower CBFv, steeper PEM gradient).
+] <spec:epo-stimulation-test>
+
 #include "ch18-brain-clearance-drugs.typ"
