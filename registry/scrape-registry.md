@@ -500,3 +500,4 @@ Prevents re-processing of already-integrated content.
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8855987/ | pubmed/pmc | 2026-06-04 | — | Jason2021SalivaFBIMECFS — Salivary fatigue biomarker index ME/CFS |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8150292/ | pubmed/pmc | 2026-06-04 | — | Maksoud2021MECFSSleepReview — Systematic review ME/CFS sleep characteristics |
 | https://www.science.org/doi/10.1126/sciadv.adj6834 | science.org | 2026-06-04 | — | Jeppe2024SleepMetabolomeBlood — Blood metabolomic sleep deprivation biomarker |
+| https://pmc.ncbi.nlm.nih.gov/articles/PMC7815960/ | pubmed/pmc | 2026-06-06 | 2026-06-06 | ch14d/appendix-h/bib/content-staging — Bartley2020SchizophreniaHomecoming — Schizophrenia autoantibody history cross-disease parallel for ME/CFS |
