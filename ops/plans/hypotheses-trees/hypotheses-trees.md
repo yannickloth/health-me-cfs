@@ -120,6 +120,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | exosome-sleep-reversal | [subtrees/exosome-sleep-reversal.md](subtrees/exosome-sleep-reversal.md) | 2026-05-26   | 30         | 0          | 🔵 in progress |
 | hsat2-hypotheses      | [subtrees/hsat2-hypotheses.md](subtrees/hsat2-hypotheses.md)          | 2026-05-01      | 42         | 42         | ✅ complete    |
 | hsat2-cross-disease   | [subtrees/hsat2-cross-disease.md](subtrees/hsat2-cross-disease.md)      | 2026-05-05      | 9          | 9          | ✅ complete    |
+| hypoxia-altitude-hif1a | [subtrees/hypoxia-altitude-hif1a.md](subtrees/hypoxia-altitude-hif1a.md) | 2026-06-07 | 7 | 7 | ✅ done |
 | fourel-corrections-2026 | [subtrees/fourel-corrections-2026.md](subtrees/fourel-corrections-2026.md) | 2026-05-27 | 45 | 0 | ⬜ pending |
 | igg-drg               | [subtrees/igg-drg.md](subtrees/igg-drg.md)                            | 2026-04-30      | 39         | 0          | ⬜ stub        |
 | immunoadsorption      | [subtrees/immunoadsorption.md](subtrees/immunoadsorption.md)          | 2026-04-20      | 40         | 0          | ⬜ stub        |

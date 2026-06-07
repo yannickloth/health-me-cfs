@@ -180,7 +180,7 @@
 | — | Phase 3 brainstorm | 0 | — | ✅ done | `brainstorm-inflammation-registry-2026-06-05.md` (42 ideas) |
 | — | Phase 3a hypothesis tree | 0 | — | ✅ done | `subtrees/inflammation-registry.md` (30 nodes) |
 | H1 | SPM deficiency chronicity switch | 1 | 0.45 | ✅ done | ch17 Family 20 + hypothesis-registry |
-| H2 | HMGB1 central DAMP PEM trigger | 1 | 0.55 | ✅ done | ch17 Family 20 + hypothesis-registry |
+| H2 | HMGB1 candidate DAMP PEM trigger | 1 | 0.55 | ✅ done | ch17 Family 20 + hypothesis-registry |
 | H4 | S100A8/A9 microglial priming | 1 | 0.55 | ✅ done | ch17 Family 20 + hypothesis-registry |
 | H3 | UPR/ER stress feed-forward | 1 | 0.30 | ✅ done | ch17 Family 13 + hypothesis-registry |
 | H5 | Eicosanoid storm COX-2→PGE2→TRPV1 | 1 | 0.50 | ✅ done | ch14b, ch15 speculation |
@@ -188,7 +188,7 @@
 | H7 | cGAS-STING NAD→mtDNA→IFN loop | 1 | 0.40 | ✅ done | ch06 speculation |
 | H8 | Double-DAMP HMGB1+S100A8/A9 synergy | 1 | 0.35 | ✅ done | ch07 speculation |
 | H9 | Ceramide-S1P rheostat shift | 2 | 0.30 | ✅ done | ch17 Family 20 subsection |
-| H9 | Resolution failure as unifying mechanism | 1 | 0.55 | ✅ done | ch13 hypothesis |
+| H9 | Resolution failure candidate chronicity | 2 | 0.35 | ✅ done | ch13 speculation (downgraded from hypothesis after adversarial) |
 | P2X7 integration | 1 | 0.45 | ↔️ extended | Already in ch14a, ch17 |
 | R1 | SPM lipidomics post-CPET | 1 | — | ✅ done | ch20 proposal |
 | R2 | HMGB1 redox kinetics PEM | 1 | — | ✅ done | ch02, ch20 proposal |
@@ -223,19 +223,17 @@
 | C2 | DAMP clearance protocol combo | 1 | 0.25 | ✅ done | ch18 speculation |
 | C3 | ER stress resolution protocol | 2 | 0.20 | ✅ done | ch18 speculation |
 | C4 | Iron redistribution protocol | 2 | 0.20 | ✅ done | ch14b speculation |
-| N2 | Contrast hydrotherapy UPR-SPM | 2 | 0.30 | ⬜ pending | Needs integration |
-| S4 | Albumin/transferrin infusions | 2 | 0.25 | ⬜ pending | Needs integration |
-| — | Phase 4: 42 ideas integrated | 0 | — | ✅ done | 39 of 42 ideas integrated into 16 chapters (S4, N2 pending) |
-| — | Phase 5 build | 0 | — | ✅ done | Build PASS on 2026-06-06 |
-| — | Phase 6 review convergence | 0 | — | 🔵 in progress | |
-| — | Phase 7 changelog | 0 | — | ⬜ pending | |
-| — | Phase 8 commit | 0 | — | ⬜ pending | |
-| — | Phase 4c compatibility audit | 0 | — | ✅ done | 55 pairs: 30 reinforcement, 23 feed-into, 2 conflict; aspirin+omega3 cert 0.40→0.45 (kept); HMGB1/S100A8/UPR/glycyrrhizin/albumin bumps reverted after adversarial review (category inflation — cross-disease lit counted as independent lines) |
+| — | Phase 4: 42 ideas integrated | 0 | — | ✅ done | 42/42 ideas across 16+ chapters |
 | — | Phase 4b retrospective | 0 | — | ✅ done | 11 reinforcement edits across 8 files; aspirin+omega3 cert 0.40→0.45 (ch14a) |
 | — | Phase 4a falsifiability | 0 | — | ✅ done | 60/62 fully falsifiable; 2 weak fixed; unfalsifiability patterns in albumin/contrast-hydro fixed post adversarial |
-| — | Phase 6c review-typst | 0 | — | ✅ done | 2 rounds, 9 LaTeX ~ fixes, converged |
-| — | Phase 6b review-adversarial | 0 | — | ✅ done | cynic + devil's advocate; 4 cert bumps reverted; 2 unfalsifiability fixes |
-| — | Phase 4: 42 ideas all complete | 0 | — | ✅ done | S4 + N2 now integrated; 42/42 ideas across 16+ chapters |
+| — | Phase 5 build | 0 | — | ✅ done | Build PASS (nix build) |
+| — | Phase 6a review-convergence | 0 | — | ✅ done | 2 rounds, 8 findings fixed, converged |
+| — | Phase 6b review-adversarial | 0 | — | ✅ done | 6 personas, 51 findings, 6 fixes applied |
+| — | Phase 6c review-typst | 0 | — | ✅ done | 2 rounds, 9 LaTeX fixes, converged |
+| — | Phase 4c compatibility audit | 0 | — | ✅ done | 86 pairs (42R, 28F, 0C, 16I) via hypothesis-compatibility-auditor |
+| — | Phase 4c reinforcement builder | 0 | — | ✅ done | 3 chains, 2 clusters, 4 cert bumps proposed via hypothesis-reinforcement-builder |
+| — | Phase 7 changelog | 0 | — | ✅ done | Version 9 entry with Motivated-by line |
+| — | Phase 8 commit | 0 | — | ✅ done | 79f6cd3 + e16eba9 |
 
 **Auto-escalation queue (ready for user review):** Per pipeline rules, each standalone immune/inflammatory topic identified during this cycle must be queued for a child `/integrate-topic` cycle rather than integrated inline. These were deferred during the current cycle; present to user before starting the next topic.
 
@@ -289,68 +287,85 @@
 
 ## Phase 4c — Cross-Hypothesis Compatibility
 
-### Feed-Into Chains
+*Audit date:* 2026-06-06
+*Compatibility audit:* `content-staging/compat-audit-inflammation-registry-2026-06-06.md`
+*Pairs classified:* 86 (42 reinforcement, 28 feed-into, 0 conflict, 16 independent)
 
-Qualifying 3-element chains (A→B→C), each link a feed-into relationship, min rel cert as chain strength.
+### Reinforcement Chains
 
-| Chain | Upstream | Midstream | Downstream | Link Rel Certs | Min Rel Cert | Note |
-|-------|----------|-----------|------------|----------------|-------------|------|
-| C1 | EH28 abortive viral reactivation (0.55) | NH2 HMGB1 (0.55) | EH19 glycyrrhizin (0.35) | 0.50, 0.80 | 0.50 | EH28→NH2: abortive reactivation triggers HMGB1 release. NH2→EH19: HMGB1 neutralization target. |
-| C2 | EH28 abortive viral reactivation (0.55) | NH2 HMGB1 (0.55) | EH20 albumin (0.25) | 0.50, 0.75 | 0.50 | EH28→NH2: as above. NH2→EH20: HMGB1 sequestration by albumin. |
-| C3 | EH28 abortive viral reactivation (0.55) | NH7 cGAS-STING (0.40) | EH03 CNS fatigue (0.60) | 0.55, 0.70 | 0.55 | EH28→NH7: viral reactivation→mtDNA→cGAS-STING. NH7→EH03: STING sustains CNS fatigue. NH7 redundant with EH10. |
+Feed-into chains (3-element minimum, A→B→C with directed feed-into edges):
+
+| Chain | Nodes | Cumul. Cert. | Mechanism Trace |
+|-------|-------|-------------|-----------------|
+| F1 | NH6 (iron, 0.50) → NH2 (HMGB1, 0.55) → NH8 (double-DAMP, 0.35) | 0.51 | Ferroptosis→HMGB1 release (0.60) → HMGB1 as one component of double-DAMP heterocomplex (0.85) |
+| F2 | NH1 (SPM, 0.45) → NH10 (resolution failure, 0.35) → H-Sleep-Immune-Senescence (0.77) | 0.44 | SPM deficiency→resolution failure (0.80) → persistent inflammation→immune senescence (0.55) |
+| F3 | NH12 (S100B, 0.30) → NH5 (eicosanoid, 0.50) → Central-Sensitization (0.70) | 0.36 | NFAT drives COX-2 transcription→PGE2→TRPV1 (0.55) → peripheral nociceptive input drives central sensitization (0.65) |
+
+F1 is the densest: iron sequestration→ferroptotic DAMP release→HMGB1 as one half of TLR4/RAGE heterocomplex synergy→amplified NF-κB signaling. Each link documented in the ch06 iron speculation and ch07 double-DAMP speculation.
+
+F2 is the resolution-accession chain: SPM biosynthesis deficit→failure to terminate inflammation→accelerated immune senescence (H-Sleep-Immune-Senescence bidirectional loop).
+
+F3 couples neuroimmune signaling to pain amplification: S100B→calcineurin→NFAT→COX-2 transcription→PGE2→TRPV1 sensitization→central sensitization.
 
 ### Reinforcement Clusters
 
-Groups of 3+ hypotheses where every pair shares a reinforcement relationship. Only one such clique exists.
+Groups of 3+ hypotheses where every pair shares a reinforcement edge:
 
-| Cluster | Hypotheses | Central Mechanism | Edges |
-|---------|-----------|-------------------|-------|
-| R1 | NH1 SPM deficiency (0.45), NH10 resolution failure (0.55), EH13 resolution failure DAG (0.35) | SPM deficiency ↔ resolution failure ↔ DAG-level integration | NH1↔NH10 (0.85), NH1↔EH13 (0.85), NH10↔EH13 (0.80) |
+| Cluster | Hypotheses | Shared Theme | Cluster Cert. |
+|---------|-----------|--------------|---------------|
+| R1 | NH2 (HMGB1, 0.55), NH3 (S100A8/A9, 0.55), NH12 (S100B, 0.30) | DAMP-RAGE convergence on microglial activation | 0.62 |
+| R2 | NH2 (HMGB1, 0.55), NH7 (cGAS-STING, 0.40), H-CNS-Confined-Fatigue (0.60) | Sustained neuroinflammation behind BBB through DAMP-cGAS-STING interplay | 0.57 |
 
-This cluster forms the resolution-failure core. NH1 provides molecular mechanism (SPM biosynthesis), NH10 asserts the unifying concept, EH13 provides the DAG formalization. All three directions reinforce each other at ≥0.80 rel cert.
+R1 — Three DAMPs (HMGB1, S100A8/A9, S100B) all signal through RAGE/TLR4, converging on microglial NF-κB activation. Different cell sources (ubiquitous, neutrophil, astrocyte), shared receptor pathway. Edges: NH2↔NH3 (0.70), NH2↔NH12 (0.50), NH3↔NH12 (0.65). Cluster cert = mean(0.70, 0.50, 0.65) = 0.62.
+
+R2 — HMGB1 binds immunogenic DNA → enhances cGAS-STING type I IFN (0.65); both DAMPs trapped behind BBB → sustained neuroinflammation without peripheral clearance. Edges: NH2↔NH7 (0.65), NH2↔CNS-Confined (0.50), NH7↔CNS-Confined (0.55). Cluster cert = mean(0.65, 0.50, 0.55) = 0.57.
+
+Note: NH4 (UPR, 0.30) ↔ NH7 (cGAS-STING, 0.45) and NH6 (iron, 0.50) ↔ NH7 (cGAS-STING, 0.55) are 2-node pairs below the 3-element threshold.
 
 ### Conflict Clusters
 
-| Hypotheses | Conflict Mechanism | Resolution |
-|-----------|-------------------|------------|
-| NH5 eicosanoid storm (0.50), NH10 resolution failure (0.55), EH17 aspirin+omega-3 (0.45) | COX-2 inhibition (therapeutic implication of NH5) blocks acetylated COX-2 site needed for AT-SPM synthesis (EH17) and resolution (NH10) | NH5 is redundant; will be deduplicated. Tension resolved by noting NH5's therapeutic implication conflicts with resolution strategy, but the underlying biology is consistent — manage via timing rather than contradiction. Flagged as design constraint for any combined protocol. |
+| Group | Hypotheses | Conflict Type | Resolution |
+|-------|-----------|---------------|------------|
+| X1 | NH5 (eicosanoid, 0.50) vs NH10 (resolution, 0.35) | Therapeutic tension: COX-2 inhibition blocks AT-SPM synthesis site needed for resolution pathway | Not a mechanistic conflict (both are needed for chronic inflammation). Cert diff = 0.15 — between ≤0.10 and ≥0.20 thresholds. Flag as protocol-design constraint: COX-2 inhibition for PEM prevention must be timed separately from SPM restoration therapy. |
+| X2 | NH9 (ceramide, 0.30) vs FTY720 use (ch14d) | Therapeutic risk: FTY720 causes lymphopenia; ME/CFS has pre-existing immune dysfunction | Conflict-adjacent (rel cert 0.40). Neither speculative guard (<0.30) triggers. No certainty adjustment. Flag as contraindication note for FTY720. |
 
-### Proposed Certainty Adjustments
+Compat audit reports 0 mechanistic conflicts across 86 pairs — all NHs integrate cleanly. X1 and X2 are therapeutic/protocol-level tensions, not mechanistic incompatibilities. The NH5↔NH10 therapeutic tension persists from the prior Phase 4c audit but remains correctly classified as Complementary in the pairwise matrix.
 
-Each adjustment checked against all guard conditions before proposing.
+### Certainty Adjustments Proposed
 
-| Hypothesis | Current Cert | Proposed Cert | Δ | Reason | Guard Check |
-|------------|-------------|--------------|---|--------|-------------|
-| NH2 HMGB1 | 0.55 | 0.60 | +0.05 | **Convergence** (Rule 1): Three independent lines converge on HMGB1's central role in sustained neuroinflammation — EH01 neuroinflammation (neuroimmunology domain, 0.75), EH24 NE-glymphatic (glymphatic clearance domain, 0.55), EH27 multi-DAMP panel (biomarker domain, 0.45). Different labs, different methods. | NH2 cert 0.55 ≥ 0.20 ✓; no prior Phase 4c bump ✓; proposed 0.60 < 0.95 ✓ |
-| NH3 S100A8/A9 | 0.55 | 0.60 | +0.05 | **Convergence** (Rule 1): Two independent lines converge on S100A8/A9 as significant microglial mediator — EH27 multi-DAMP panel (biomarker rationale, 0.45) and EH01 neuroinflammation (neuroimmunology, 0.75). | NH3 cert 0.55 ≥ 0.20 ✓; no prior Phase 4c bump ✓; proposed 0.60 < 0.95 ✓ |
-| NH4 ER stress / UPR | 0.30 | 0.35 | +0.05 | **Convergence** (Rule 1): Three independent lines converge on UPR as feed-forward inflammatory mechanism — EH22 WASF3-Complex IV (mitochondrial outcome, ~0.55), EH25 ATF4 metabolic ceiling (transcriptional downstream, ~0.35), EH23 fasting-UPR-gut-liver (tissue-specific UPR inflammation, 0.30). | NH4 cert 0.30 ≥ 0.20 ✓; no prior Phase 4c bump ✓; proposed 0.35 < 0.95 ✓ |
-| EH19 glycyrrhizin | 0.35 | 0.40 | +0.05 | **Feed-into chain** (Rule 2): NH2 HMGB1 (0.55 ≥ 0.50) → EH19, link rel 0.80 ≥ 0.50. EH19's plausibility depends on HMGB1 being a key pathogenic DAMP per NH2. | EH19 cert 0.35 ≥ 0.20 ✓; no prior Phase 4c bump ✓; proposed 0.40 < 0.95 ✓ |
-| EH20 albumin triple clearance | 0.25 | 0.30 | +0.05 | **Feed-into chain** (Rule 2): NH2 HMGB1 (0.55 ≥ 0.50) → EH20, link rel 0.75 ≥ 0.50. Albumin's HMGB1 sequestration arm depends on HMGB1 relevance (NH2). | EH20 cert 0.25 ≥ 0.20 ✓; no prior Phase 4c bump ✓; proposed 0.30 < 0.95 ✓ |
+| Hypothesis | Current | Proposed | Δ | Reason |
+|------------|---------|----------|---|--------|
+| NH2 (HMGB1) | 0.55 | 0.60 | +0.05 | **Convergence** (Rule 1): NH3 (S100A8/A9, dual TLR4/RAGE amplification converging with HMGB1) and NH7 (cGAS-STING, HMGB1 binds immunogenic DNA enhancing cGAS-STING) as independent lines converging on HMGB1 as central DAMP node. Different labs, different methods (DAMP synergy lit: Nunes 2024, Hetland 2022; cGAS-STING lit: Kim 2023), same endpoint: HMGB1 centrality in sustained ME/CFS inflammation. |
+| NH3 (S100A8/A9) | 0.55 | 0.60 | +0.05 | **Convergence** (Rule 1): NH2 (HMGB1, TLR4/RAGE co-signaling with S100A8/A9) and NH12 (S100B, parallel RAGE→microglial pathway, cert 0.30) as independent lines converging on S100A8/A9's role in microglial priming via RAGE/TLR4. Different protein families (HMGB1 vs S100B), different cell sources (ubiquitous vs astrocytic), same receptor convergence evidence. |
+| NH4 (UPR) | 0.30 | 0.35 | +0.05 | **Convergence** (Rule 1, borderline): WASF3-mitochondrial disruption (Wang 2023, muscle biopsy; UPR→PERK→WASF3→Complex IV failure) and fasting-UPR-gut-liver (IEC ER stress→apoptosis→DAMP release→liver inflammation) as independent lines converging on UPR as feed-forward inflammatory mechanism. Different tissues, different outcomes. Flag: independence limited — both are ME/CFS tissue studies with potential cohort overlap. |
+| NH8 (double-DAMP) | 0.35 | 0.40 | +0.05 | **Feed-into chain** (Rule 2): NH2 (HMGB1, cert 0.55 ≥ 0.50) → NH8 (rel cert 0.85 ≥ 0.50). NH8's plausibility depends on HMGB1 being a relevant pathogenic DAMP in ME/CFS. Also NH3 (S100A8/A9, cert 0.55) → NH8 (rel cert 0.85) — same guard check, at most one +0.05 per cycle. |
 
 ### Adjustments Considered but Not Applied
 
 | Hypothesis | Candidate Rule | Why Not Applied |
 |------------|---------------|-----------------|
-| NH1 SPM deficiency (0.45) | Rule 1 convergence | EH02 sleep-immune senescence (0.77) provides one independent line. Need two or more distinct lines converging on same endpoint. EH13 and EH29 are the same concept, not independent. |
-| NH10 resolution failure (0.55) | Rule 1 convergence | EH13 (same concept) and NH1 (subordinate mechanism) are not independent lines. EH02 provides one line. No second independent line. |
-| NH12 contrast hydrotherapy (0.30) | Rule 1 convergence | No reinforcement pairs exist (all Independent or Feed-into). No convergence evidence. |
-| NH1 SPM deficiency (0.45) | Rule 2 feed-into chain | All upstream feed-ins (EH15 0.35, EH16 0.25, EH17 0.45, EH30 0.35) have cert < 0.50. No well-established upstream to trigger bump. |
-| NH2 HMGB1 (0.55) | Rule 2 feed-into chain | EH28 (0.55 ≥ 0.50) → NH2 with rel 0.50 ≥ 0.50. But NH2's plausibility does not depend on the EH28 link — HMGB1 release has many triggers (PEM, oxidative stress, ferroptosis). Rule requires downstream dependence on the specific link. |
-| NH10 resolution failure (0.55) | Rule 2 feed-into chain | Upstream feed-ins EH17 (0.45) and EH30 (0.35) both have cert < 0.50. |
-| NH4 ER stress (0.30) → EH21 (0.30) | Rule 2 feed-into chain | NH4 cert 0.30 < 0.50, so does not qualify as well-established upstream for downstream bump. |
-| NH4 ER stress (0.30) → EH33 (0.20) | Rule 2 feed-into chain | Same — NH4 0.30 < 0.50. |
-| NH4 + EH23 (both 0.30) | Rule 3 speculative reinforcement | Rule 3: both must be < 0.30. Both = 0.30, strictly not less. |
-| NH4 (0.30) ↔ EH33 (0.20) | Rule 3 speculative reinforcement | NH4 0.30 is not < 0.30. |
+| NH1 (SPM, 0.45) | Rule 1 convergence | Each reinforcement pair provides only one independent line (NH10 = downstream outcome, ch14a:Aspirin-Omega3 = same SPM concept). Need two+ truly independent lines converging on same endpoint. |
+| NH10 (resolution, 0.35) | Rule 1 convergence | NH1 (upstream cause) and Sleep-Immune-Senescence (downstream outcome) are conceptually entangled with NH10, not independent lines converging on it. |
+| NH6 (iron, 0.50) | Rule 1 convergence | NH7 (cGAS-STING, mtDNA release from ferroptosis) and GPX4-MnSOD (ferroptosis defense) are part of same iron-ferroptosis complex, not independent cross-domain lines. |
+| NH2 (HMGB1, 0.55) | Rule 2 feed-into | NH6 (iron, 0.50 ≥ 0.50) → NH2 (rel cert 0.60 ≥ 0.50). But NH2's plausibility does not depend on NH6→NH2 link — HMGB1 release has many triggers (PEM, oxidative stress, senescence, abortive viral reactivation). Rule requires downstream dependence on the specific link. |
+| NH7 (cGAS-STING, 0.40) | Rule 2 feed-into | NH6 (iron, 0.50 ≥ 0.50) → NH7 (rel cert 0.65 ≥ 0.50). But NH7's plausibility primarily derives from its NAD→SIRT3→mitophagy failure core, not specifically from ferroptosis→mtDNA. Link is secondary. |
+| NH10 (resolution, 0.35) | Rule 2 feed-into | NH1 (SPM, cert 0.45 < 0.50) does not qualify as well-established upstream. |
+| NH5 (eicosanoid, 0.50) | Rule 2 feed-into | NH12 (S100B, cert 0.30 < 0.50) does not qualify as well-established upstream. |
+| NH4 (UPR, 0.30) → WASF3 (0.55) | Rule 2 feed-into | NH4 cert 0.30 < 0.50 — does not qualify as well-established upstream for downstream bump. |
+| NH4 (UPR, 0.30) → ch11:Fasting-UPR (0.30) | Rule 2 feed-into | Same — NH4 0.30 < 0.50. |
 
 ### Tensions Flagged (No Adjustment)
 
-| Hypotheses | Tension | Why No Bump |
+| Hypotheses | Tension | Resolution |
 |-----------|---------|-------------|
-| NH5 eicosanoid storm (0.50) vs NH10 resolution failure (0.55) | Therapeutic competition: COX-2 inhibitors block AT-SPM synthesis site needed for resolution | Cert diff = 0.05 ≤ 0.10 → unresolved tension per Rule 5. Note: NH5 is redundant and will be deduplicated; NH10 retains cert 0.55. Tension is therapeutic, not mechanistic — both COX-2 overactivity and SPM deficiency can coexist. Flag as protocol-design constraint. |
-| NH5 eicosanoid storm (0.50) vs EH17 aspirin+omega-3 (0.45) | Same therapeutic competition via acetylated COX-2 site | Cert diff = 0.05 ≤ 0.10 → unresolved tension per Rule 5. Same resolution as above. |
+| NH5 (eicosanoid, 0.50) vs NH10 (resolution, 0.35) | Therapeutic: COX-2 inhibitors block acetylated COX-2 site needed for AT-SPM synthesis (resolution pathway) | Cert diff 0.15 — between ≤0.10 and ≥0.20 thresholds. Mechanistically consistent (both needed for chronicity). Flag as protocol-design constraint: COX-2 inhibition timing must avoid interfering with SPM biosynthesis. |
+| NH5 (eicosanoid, 0.50) vs ch14a:Aspirin-Omega3 (0.45) | Same therapeutic tension via acetylated COX-2 site | Cert diff 0.05 ≤ 0.10 → unresolved tension. Aspirin acetylates COX-2 enabling AT-SPM synthesis; COX-2 inhibitors block this site. Cannot co-administer. Sequential timing may resolve. |
+| NH9 (ceramide, 0.30) vs FTY720 use (ch14d) | FTY720 causes lymphopenia; ME/CFS has pre-existing immune dysfunction | Conflict-adjacent (rel cert 0.40). No certainty change. Flag as contraindication note for FTY720 in ME/CFS. |
 
-**Diminishing-returns guard (Rule 6):** No hypothesis has accumulated 3+ bumps across prior cycles → not triggered.
+**One-bump-per-cycle guard:** Each hypothesis proposed for adjustment appears at most once ✓.
 
-**Certainty ceiling guard (Rule 7):** All proposed values ≤ 0.60 < 0.95 → not triggered.
+**Diminishing-returns guard:** No hypothesis has accumulated 3+ bumps across prior Phase 4c cycles → not triggered.
+
+**Certainty ceiling guard:** All proposed values ≤ 0.60 < 0.95 → not triggered.
 
 (End of file)
