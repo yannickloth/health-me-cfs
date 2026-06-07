@@ -241,3 +241,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | schizophrenia-autoantibodies | [subtrees/schizophrenia-autoantibodies.md](subtrees/schizophrenia-autoantibodies.md) | 2026-06-06 | 20 | 3 | ✅ done |
 | hif2a-endothelial-postviral | [subtrees/hif2a-endothelial-postviral.md](subtrees/hif2a-endothelial-postviral.md) | 2026-06-07 | 54 | 3 | ✅ done |
 | severe-mecfs-care-guide | [subtrees/severe-mecfs-care-guide.md](subtrees/severe-mecfs-care-guide.md) | 2026-06-06 | 29 | 3 | ✅ done |
+| slow-breathing-vagal | [subtrees/slow-breathing-vagal.md](subtrees/slow-breathing-vagal.md) | 2026-06-07 | 18 | 1 | 🔵 in progress |
+| cold-face-immersion | [subtrees/cold-face-immersion.md](subtrees/cold-face-immersion.md) | 2026-06-07 | 12 | 1 | 🔵 in progress |
+| rowing-biomechanics | [subtrees/rowing-biomechanics.md](subtrees/rowing-biomechanics.md) | 2026-06-07 | 11 | 1 | 🔵 in progress |
