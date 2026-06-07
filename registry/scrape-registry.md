@@ -24,6 +24,16 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## HIF-2α Endothelial Post-Viral Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-07 | Multi-query search: "HIF-2alpha endothelial", "viral HIF-2alpha", "HIF-2α post-COVID", "belzutifan endothelial", "HIF-2α senescence", "HIF-2α blood-brain barrier", "HIF-2α ME/CFS endothelial" |
+| PubMed (E-utilities API) | 2026-06-07 | Specific queries: "SARS-CoV-2 spike HIF-2α", "EBV HIF-2α endothelial", "HIF-2α complement endothelial", "endothelial dysfunction ME/CFS FMD" |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (batch) | pubmed/eutils | 2026-06-07 | 2026-06-07 | content-staging/hif2a-endothelial-literature-&ast;.md, bib/appendix-h — HIF-2α endothelial post-viral literature collection (14 papers) |
+
 ## Articles
 
 | URL | Source | Scraped | Integrated | Target |
