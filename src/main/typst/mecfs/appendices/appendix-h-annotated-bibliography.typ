@@ -19920,3 +19920,180 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Relevance:*: General biomechanics context for rowing technique. Newsletter format limits peer review quality, but Kleshnev is the preeminent rowing biomechanics researcher.
     *Certainty:*: 0.50 (newsletter format, limited peer review).
 
+// =============================================================================
+// SLE / ME/CFS Overlap — added 2026-06-07
+// =============================================================================
+
+== SLE—ME/CFS Overlap and Shared Fatigue Mechanisms
+<sec:bib-sle-mecfs>
+
+=== Schwarting et al.\ 2019 — Anti-NMDAR Autoantibodies and Fatigue in SLE
+
+    *Full Citation:*: Schwarting A, Möckel T, Lütgendorf F, Triantafyllias K, Grella S, et al.\ Fatigue in SLE: diagnostic and pathogenic impact of anti-N-methyl-D-aspartate receptor (NMDAR) autoantibodies. _Annals of the Rheumatic Diseases_. 2019;78:1226–1233.
+    *DOI:*: #link("https://doi.org/10.1136/annrheumdis-2019-215098")[10.1136/annrheumdis-2019-215098]
+    *PMID:*: 31186256
+    *Key Findings:*:
+        - Anti-NR2 (NMDAR) antibodies correlate with fatigue severity in 426 SLE patients independent of neuropsychiatric lupus
+        - Anti-NR2 detected in CSF; bind hippocampus in situ; downregulate neuronal energy metabolism without cytotoxicity
+        - Belimumab therapy (n=86) ≥6 months reduces both anti-NR2 and fatigue
+    *Conclusion:*: Anti-NR2 antibodies are a diagnostic and therapeutic target for SLE fatigue; mechanism involves neuronal metabolic suppression — directly parallels ME/CFS energy metabolism hypotheses.
+    *Limitations:*: Cross-sectional; treatment subgroup not randomized.
+    *Certainty:*: 0.85
+
+=== Zheng et al.\ 2024 — Shared Fatigue Mechanisms SLE and ME/CFS
+
+    *Full Citation:*: Zheng D, Li X, Wang P, Zhu Q, Huang Z, et al.\ Exploring the shared mechanism of fatigue between systemic lupus erythematosus and myalgic encephalomyelitis/chronic fatigue syndrome: monocytic dysregulation and drug repurposing. _Frontiers in Immunology_. 2024;15:1440922.
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2024.1440922")[10.3389/fimmu.2024.1440922]
+    *PMID:*: 39845969
+    *Key Findings:*:
+        - 58 overlapping genes between SLE and ME/CFS (IL1β, CCL2, TLR2, STAT1, IFIH1)
+        - Classical monocytes enriched with shared targets at single-cell level
+        - Drug repurposing predicts N-acetyl-L-cysteine and simvastatin
+    *Conclusion:*: Monocytic dysregulation links inflammation and fatigue in both SLE and ME/CFS; shared innate immune pathway.
+    *Limitations:*: Bioinformatics + in vitro only; no patient validation.
+    *Certainty:*: 0.60
+
+=== Parodis et al.\ 2025 — Poor HRQoL Despite SLE Remission
+
+    *Full Citation:*: Parodis I, Lindblom J, Palazzo L, Tsoi A, Cetrez N, et al.\ Poor health-related quality of life despite Lupus Low Disease Activity State or Definitions of Remission in SLE: results from a clinical trial setting. _RMD Open_. 2025;11:e006061.
+    *DOI:*: #link("https://doi.org/10.1136/rmdopen-2025-006061")[10.1136/rmdopen-2025-006061]
+    *PMID:*: 41173511
+    *Key Findings:*:
+        - Pooled analysis of 4 phase III belimumab RCTs (n=2406): 18.5--26.2% report FACIT-F $<30$ despite LLDAS/DORIS remission
+        - PCS scores remain below population norms even after 52 weeks of treatment
+    *Conclusion:*: Current therapeutic goal definitions do not capture patient-reported fatigue; fatigue is an unmet need in SLE even when inflammation is controlled.
+    *Limitations:*: Post-hoc analysis; clinical trial population.
+    *Certainty:*: 0.80
+
+=== Arcani et al.\ 2023 — Type 1/2 Categorization of SLE Fatigue
+
+    *Full Citation:*: Arcani R, Jouve E, Chiche L, Jourde-Chiche N.\ Categorization of patients with systemic lupus erythematosus using disease activity, patient-reported outcomes, and transcriptomic signatures. _Clinical Rheumatology_. 2023;42:2061–2070.
+    *DOI:*: #link("https://doi.org/10.1007/s10067-023-06525-8")[10.1007/s10067-023-06525-8]
+    *PMID:*: 36759402
+    *Key Findings:*:
+        - SLE patients categorized as type 1 (inflammatory, n=37%) vs type 2 (fatigue/pain, n=9%) vs mixed (15%)
+        - Type 2 symptoms showed NO correlation with interferon signatures or immunological biomarkers
+    *Conclusion:*: SLE fatigue is a biologically distinct dimension, not merely a reflection of inflammatory activity.
+    *Limitations:*: Small cohort (n=50); single center.
+    *Certainty:*: 0.60
+
+=== Fluder et al.\ 2026 — Mitochondrial Dysfunction Drives NK Cell Dysfunction in SLE
+
+    *Full Citation:*: Fluder N, Humbel M, Recazens E, Jourdain AA, Ribi C, et al.\ Mitochondrial dysfunction drives natural killer cell dysfunction in systemic lupus erythematosus. _JCI Insight_. 2026. @Fluder2026NKmitoSLE
+    *DOI:*: #link("https://doi.org/10.1172/jci.insight.195170")[10.1172/jci.insight.195170]
+    *PMID:*: 41628153
+    *Key Findings:*:
+        - SLE NK cells accumulate enlarged, dysfunctional mitochondria with impaired mitophagy
+        - Defective NK cytotoxicity and cytokine production — mirrors ME/CFS NK cell dysfunction
+    *Conclusion:*: Mitochondrial dysfunction drives NK cell impairment in SLE; shared mechanistic node with ME/CFS.
+    *Limitations:*: Preclinical; sample size not specified.
+    *Certainty:*: 0.75
+
+=== Morand et al.\ 2020 — Anifrolumab in Active SLE (TULIP-2)
+
+    *Full Citation:*: Morand EF, Furie R, Tanaka Y, Bruce IN, Askanase AD, et al.\ Trial of Anifrolumab in Active Systemic Lupus Erythematosus. _New England Journal of Medicine_. 2020;382:211–221.
+    *DOI:*: #link("https://doi.org/10.1056/NEJMoa1912196")[10.1056/NEJMoa1912196]
+    *PMID:*: 31851795
+    *Key Findings:*:
+        - Phase 3 RCT: anifrolumab (anti-IFNAR) met primary endpoint in moderate-to-severe SLE
+        - Fatigue improvement as secondary outcome; IFN blockade reduces disease activity
+    *Conclusion:*: Type I IFN blockade effective in SLE; fatigue improvement accompanies reduced disease activity.
+    *Limitations:*: Fatigue was secondary endpoint; mechanism not directly studied.
+    *Certainty:*: 0.90
+
+=== Weissman-Tsukamoto et al.\ 2025 — Diffuse Neuropsychiatric Lupus
+
+    *Full Citation:*: Weissman-Tsukamoto R, Carroll KR, Diamond B.\ Diffuse neuropsychiatric lupus: clinical evidence, immune-mediated mechanisms, and therapeutic insights. _Seminars in Immunology_. 2025;78:101981.
+    *DOI:*: #link("https://doi.org/10.1016/j.smim.2025.101981")[10.1016/j.smim.2025.101981]
+    *PMID:*: 40818249
+    *Key Findings:*:
+        - NPSLE affects >50% of SLE patients; fatigue among most debilitating symptoms
+        - Brain-reactive autoantibodies cross compromised BBB causing neuronal dysfunction
+    *Conclusion:*: Diffuse NPSLE has identifiable immune-mediated mechanisms; treatable.
+    *Limitations:*: Review; primarily animal model data.
+    *Certainty:*: 0.75
+
+=== Mertz et al.\ 2020 — Practical Management of Fatigue in SLE
+
+    *Full Citation:*: Mertz P, Schlencker A, Schneider M, Gavand PE, Martin T, et al.\ Towards a practical management of fatigue in systemic lupus erythematosus. _Lupus Science & Medicine_. 2020;7:e000441.
+    *DOI:*: #link("https://doi.org/10.1136/lupus-2020-000441")[10.1136/lupus-2020-000441]
+    *PMID:*: 33214160
+    *Key Findings:*:
+        - 2/3 of SLE patients report significant fatigue; 1/3 severe
+        - Fatigue occurs both with and without disease activity
+        - Algorithm separates SLE vs non-SLE causes; in remission, non-pharmacological approaches
+    *Conclusion:*: Fatigue management in SLE requires separating inflammatory from non-inflammatory drivers.
+    *Limitations:*: Expert opinion; limited trial evidence.
+    *Certainty:*: 0.50
+
+=== Rubio and Kyttaris 2023 — Undifferentiated Connective Tissue Disease
+
+    *Full Citation:*: Rubio J, Kyttaris VC.\ Undifferentiated connective tissue disease: comprehensive review. _Current Rheumatology Reports_. 2023;25:98–106.
+    *DOI:*: #link("https://doi.org/10.1007/s11926-023-01099-5")[10.1007/s11926-023-01099-5]
+    *PMID:*: 36884206
+    *Key Findings:*:
+        - UCTD: clinical + lab autoimmunity without fulfilling SLE/SSc criteria
+        - Fatigue common; subcategorized as evolving vs stable; 18% evolve to defined CTD
+    *Conclusion:*: UCTD represents a population with autoimmune fatigue below diagnostic thresholds — potential overlap with ME/CFS.
+    *Limitations:*: UCTD definition varies; fatigue not primary focus.
+    *Certainty:*: 0.65
+
+=== Spinelli et al.\ 2023 — Exercise Modulates Interferon Signature in SLE
+
+    *Full Citation:*: Spinelli FR, Berti R, Farina G, Ceccarelli F, Conti F.\ Exercise-induced modulation of Interferon-signature: a therapeutic route toward management of Systemic Lupus Erythematosus. _Autoimmunity Reviews_. 2023;22:103412.
+    *DOI:*: #link("https://doi.org/10.1016/j.autrev.2023.103412")[10.1016/j.autrev.2023.103412]
+    *PMID:*: 37597604
+    *Key Findings:*:
+        - IFNα-signature central to SLE pathogenesis; exercise can modulate IFN signature
+        - Physical activity reduces pro-inflammatory cytokines; improves fatigue and QoL
+    *Conclusion:*: Exercise may reduce IFN signature providing mechanistic basis for fatigue improvement.
+    *Limitations:*: Narrative review; does not address post-exertional malaise.
+    *Certainty:*: 0.65
+
+=== Paroli and Sirinian 2025 — Neuroimmune Crosstalk in Rheumatic Diseases
+
+    *Full Citation:*: Paroli M, Sirinian MI.\ Pathogenic crosstalk between the peripheral and central nervous system in rheumatic diseases: emerging evidence and clinical implications. _International Journal of Molecular Sciences_. 2025;26:6036.
+    *DOI:*: #link("https://doi.org/10.3390/ijms26136036")[10.3390/ijms26136036]
+    *PMID:*: 40649815
+    *Key Findings:*:
+        - Fatigue, cognitive dysfunction, ANS disturbances in SLE/Sjögren's/RA not fully explained by peripheral inflammation
+        - Glial activation, SFN, central sensitization, and ANS dysfunction contribute
+    *Conclusion:*: Neuroimmune dysregulation produces fatigue through mechanisms distinct from peripheral inflammation.
+    *Limitations:*: Narrative review; broad scope.
+    *Certainty:*: 0.55
+
+=== Aboagye et al.\ 2025 — Digital Biomarkers of Fatigue in Chronic Diseases
+
+    *Full Citation:*: Aboagye NY, Hinchliffe C, Del Din S, Ng WF, Baker KF, et al.\ Systematic review: digital biomarkers of fatigue in chronic diseases. _NPJ Digital Medicine_. 2025;8:317.
+    *DOI:*: #link("https://doi.org/10.1038/s41746-025-01939-x")[10.1038/s41746-025-01939-x]
+    *PMID:*: 41062803
+    *Key Findings:*:
+        - Systematic review of digital biomarkers (wearables) for fatigue; covers SLE, CFS, RA, MS, Long COVID, Sjögren's
+        - Reduced physical activity, increased sedentary behavior, and ANS dysfunction associated with fatigue across all conditions
+    *Conclusion:*: Objective digital biomarkers reveal disease-specific fatigue patterns; cross-disease convergence on ANS and activity metrics.
+    *Limitations:*: Heterogeneous device types; disease-specific biomarkers not fully characterized.
+    *Certainty:*: 0.70
+
+=== Andreoli and Tincani 2017 — UCTD, Fibromyalgia and Environment
+
+    *Full Citation:*: Andreoli L, Tincani A.\ Undifferentiated connective tissue disease, fibromyalgia and the environmental factors. _Current Opinion in Rheumatology_. 2017;29:380–386.
+    *DOI:*: #link("https://doi.org/10.1097/BOR.0000000000000392")[10.1097/BOR.0000000000000392]
+    *PMID:*: 28368979
+    *Key Findings:*:
+        - UCTD and fibromyalgia share undefined clinical features; environmental exposures as triggers
+        - Both may fit under ASIA framework
+    *Conclusion:*: UCTD and fibromyalgia (and by extension ME/CFS) may share environmental triggers and fatigue as common endpoint.
+    *Limitations:*: Opinion review; ASIA framework controversial.
+    *Certainty:*: 0.55
+
+=== Urbańska-Krawiec and Hrycek 2010 — CFS with Focus on SLE
+
+    *Full Citation:*: Urbańska-Krawiec D, Hrycek A.\ Chronic fatigue syndrome with special focus on systemic lupus erythematosus. _Polski Merkuriusz Lekarski_. 2010;29(172):260–264.
+    *PMID:*: 21268918
+    *Key Findings:*:
+        - CFS diagnostic criteria reviewed; SLE as model for CFS
+        - Fatigue in 80% of SLE patients; immune, hormonal, and neurotransmitter mechanisms in both
+    *Conclusion:*: SLE and CFS share fatigue as central symptom; SLE can serve as model for CFS pathophysiology.
+    *Limitations:*: Polish-language journal; narrative review; 2010 publication.
+    *Certainty:*: 0.25
+

@@ -1338,10 +1338,14 @@ The diagnostic implications are bidirectional. The average diagnostic delay for 
 
 *Systemic Lupus Erythematosus.*
 
-    - Fatigue is often the most disabling symptom
-    - Neuropsychiatric lupus resembles ME/CFS cognitively
-    - Complement abnormalities in both
-    - _Speculative link:_ ME/CFS might involve lupus-like autoimmunity below diagnostic thresholds
+    - Fatigue is the most disabling symptom in two-thirds of SLE patients; one-third report severe fatigue @Mertz2020FatigueManagementSLE
+    - Neuropsychiatric lupus (NPSLE) affects >50%, producing fatigue and cognitive dysfunction through brain-reactive autoantibodies crossing a compromised blood-brain barrier @WeissmanTsukamoto2025NPSLE
+    - 58 shared genes between SLE and ME/CFS enriched in monocytes — IL1$beta$, CCL2, TLR2, STAT1, IFIH1 — suggesting a common innate immune fatigue pathway @Zheng2024SharedFatigueSLEMECFS
+    - NK cell mitochondrial dysfunction in SLE (enlarged mitochondria, impaired mitophagy, defective cytotoxicity @Fluder2026NKmitoSLE) mirrors the well-characterized NK cell impairment in ME/CFS
+    - Anti-NR2 (NMDAR) antibodies in SLE correlate with fatigue independent of neuropsychiatric lupus and directly downregulate neuronal energy metabolism _without_ cytotoxicity @Schwarting2019AntiNR2Fatigue — the same "functional suppression, not cell death" pattern proposed for anti-GPCR antibodies in ME/CFS
+    - Fatigue in SLE dissociates from inflammation: 13.6–26.2% of patients in DORIS remission still report clinically significant fatigue @Parodis2025PoorHRQoLRemission; type 2 (fatigue/pain) symptoms show no correlation with interferon signatures or immunological biomarkers @Arcani2023Type2SLE — directly parallel to ME/CFS fatigue persistence
+    - _Speculative link:_ ME/CFS might involve lupus-like autoimmunity below diagnostic thresholds — UCTD (undifferentiated connective tissue disease) patients with autoimmune fatigue not fulfilling SLE/SSc criteria may overlap significantly with ME/CFS populations @Rubio2023UCTDReview @Andreoli2017UCTDFibromyalgia
+    - _Speculative link:_ Anti-NR2-mediated neuronal metabolic suppression in SLE provides a proof-of-concept mechanism for how autoantibodies targeting neural receptors can produce fatigue without systemic inflammation — if analogous antibodies target autonomic GPCRs in ME/CFS, the resulting phenotype would be dysautonomia-driven energy failure rather than frank neuropsychiatric lupus
 
 *Multiple Sclerosis.*
 

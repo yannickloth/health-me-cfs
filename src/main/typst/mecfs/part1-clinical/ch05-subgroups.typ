@@ -975,3 +975,29 @@ The shared biological framework includes:
 - *Post-infectious trigger*: SARS-CoV-2 joins EBV and enteroviruses as ME/CFS triggers
 
 Recognition of this spectrum is essential for accurate diagnosis and appropriate management strategies.
+
+<sec:autoimmune-fatigue-subgroups>
+
+==== Autoimmune-Overlap Subgroups
+
+Several well-characterized autoimmune diseases produce fatigue phenotypes that overlap substantially with ME/CFS, raising the question of whether "post-autoimmune ME/CFS" represents a distinct mechanistically grounded subgroup.
+
+#hypothesis(title: [Post-SLE Remission Fatigue as a ME/CFS Subgroup Analog])[
+*(Certainty: 0.45 — two independent large-cohort studies converge on persistent fatigue after remission; the parallel to ME/CFS is inferential.)*
+
+Systemic lupus erythematosus provides the strongest evidence that fatigue can persist independently of inflammatory disease activity — directly paralleling the ME/CFS phenotype. Two high-quality studies converge on this finding: Parodis et al.\ (2025, n=2,406 pooled belimumab RCTs) found that 13.6% of SLE patients in DORIS remission and 15.7% in Lupus Low Disease Activity State still report poor physical quality of life; 18.5–26.2% have clinically significant fatigue (FACIT-F $<30$) despite controlled disease @Parodis2025PoorHRQoLRemission. Arcani et al.\ (2023, n=50, 100 visits with transcriptomic profiling) demonstrated that type 2 SLE fatigue symptoms show *no correlation* with modular interferon signatures or immunological biomarkers — fatigue is a biologically distinct dimension @Arcani2023Type2SLE.
+
+This dissociation between inflammation and fatigue in SLE is not marginal; it is a reproducible pattern across independent studies using different methodologies. The mechanism may involve anti-NR2 (NMDAR) autoantibodies that downregulate neuronal energy metabolism without cytotoxicity @Schwarting2019AntiNR2Fatigue — a "functional suppression" pattern directly analogous to the proposed mechanism of GPCR autoantibodies in ME/CFS.
+
+*Clinical implication:* If SLE in remission can produce a persistent fatigue syndrome indistinguishable from ME/CFS, then any ME/CFS patient with a history of autoimmune features (ANA positivity, malar rash, arthritis, serositis without meeting full ACR/SLICC criteria) should be evaluated for UCTD or latent SLE — particularly since stable UCTD may remain undiagnosed for years @Rubio2023UCTDReview. The diagnostic question is not "ME/CFS or SLE?" but "Did subclinical SLE drive this ME/CFS?" — with treatment implications: belimumab (which reduced both anti-NR2 antibodies and fatigue in SLE @Schwarting2019AntiNR2Fatigue) and anifrolumab (which improved fatigue as a secondary endpoint in TULIP-2 @Morand2020TULIP2) are mechanistically grounded if SLE-specific autoantibodies or interferon signatures are confirmed.
+
+*Falsifiable prediction:* In a cohort of 200+ ME/CFS patients, those with ANA ≥1:80 and at least one additional SLE criterion will show: (a) elevated anti-NR2 antibodies vs seronegative ME/CFS controls; (b) anti-NR2 titers correlating with fatigue severity (FSS) but not with CRP or ESR; (c) reduced neuronal energy metabolism (magnetic resonance spectroscopy PCr/ATP ratio) correlating with anti-NR2 titer. Falsified if anti-NR2 antibodies are absent in the ANA-positive ME/CFS subgroup. Not yet replicated (ME/CFS-specific anti-NR2 data absent).
+
+*Limitations:* The SLE fatigue literature uses FACIT-F, not DSQ-PEM — PEM has never been assessed in SLE. ANA positivity occurs in healthy populations (~5–10% at 1:80, ~3% at 1:160). UCTD diagnostic criteria vary; many patients remain undiagnosed. Belimumab and anifrolumab have zero ME/CFS safety data.
+] <spec:sle-remission-fatigue-subgroup>
+
+#open-question(title: [UCTD as a Hidden Autoimmune ME/CFS Subgroup?])[
+Undifferentiated connective tissue disease (UCTD) — characterized by clinical symptoms and laboratory evidence of autoimmunity without fulfilling criteria for SLE, SSc, or other defined connective tissue diseases — shares fatigue as a primary symptom. UCTD is subcategorized as evolving (progressing to a defined CTD, ~18%) or stable (remaining undifferentiated for years) @Rubio2023UCTDReview. UCTD and fibromyalgia share undefined clinical features and may both recognize environmental exposures as triggering factors @Andreoli2017UCTDFibromyalgia.
+
+The diagnostic implications for ME/CFS are bidirectional: (1) UCTD patients meeting ME/CFS criteria may be misdiagnosed as having "idiopathic" chronic fatigue when their fatigue is autoimmune-mediated; (2) ME/CFS patients with borderline autoimmune features (ANA, arthralgia without synovitis, Raynaud's) may have UCTD driving their ME/CFS phenotype. No study has systematically assessed ME/CFS diagnostic criteria in UCTD cohorts or UCTD prevalence in ME/CFS cohorts. ANA testing alone is insufficient — anti-ENA panel (anti-Ro/SSA, anti-La/SSB, anti-RNP, anti-Sm, anti-Scl-70) with serial reassessment is warranted given the pace of UCTD evolution.
+] <oq:uctd-me-cfs-group>
