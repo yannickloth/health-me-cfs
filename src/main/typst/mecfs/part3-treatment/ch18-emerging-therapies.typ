@@ -744,7 +744,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 == Hypoxia and Oxygen-Sensing Pathway Modulation
 
 #speculation(title: [Normobaric Intermittent Hypoxic Training (IHT) for ME/CFS])[
-*Certainty: 0.40.* Brief controlled hypoxic exposures may induce beneficial HIF-1$alpha$-dependent adaptations including mitochondrial biogenesis, angiogenesis, and metabolic efficiency @Gangwar2019IHTaltitude. IHT has shown promise in Parkinson's disease @JanssenDaalen2025hypoxicPD and in athletic conditioning. The ME/CFS adaptation requires: supine position (eliminates orthostatic stress), mild hypoxia (FiO#sub[2] 0.16, equivalent to ~2000~m), short cycles (3--5~min hypoxia alternating with 3~min normoxia, total 30~min), and strict PEM monitoring (48~h post-session).
+*Certainty: 0.45.* Brief controlled hypoxic exposures may induce beneficial HIF-1$alpha$-dependent adaptations including mitochondrial biogenesis, angiogenesis, and metabolic efficiency @Gangwar2019IHTaltitude. IHT has shown promise in Parkinson's disease @JanssenDaalen2025hypoxicPD and in athletic conditioning. The ME/CFS adaptation requires: supine position (eliminates orthostatic stress), mild hypoxia (FiO#sub[2] 0.16, equivalent to ~2000~m), short cycles (3--5~min hypoxia alternating with 3~min normoxia, total 30~min), and strict PEM monitoring (48~h post-session).
 
 *Mechanistic rationale.* Brief hypoxia → HIF-1$alpha$ stabilization → transcriptional programme activation → VEGF (angiogenesis), EPO (erythropoiesis), PGC-1$alpha$ (mitochondrial biogenesis), GLUT1 (glycolytic capacity). Repeated sessions are hypothesised to raise the hypoxic threshold and improve exercise tolerance.
 
@@ -754,7 +754,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 ] <spec:iht-mecfs>
 
 #speculation(title: [HIF-PH Inhibitors (Roxadustat, Daprodustat) for ME/CFS])[
-*Certainty: 0.25.* Prolyl hydroxylase domain (PHD) inhibitors stabilise HIF-1$alpha$/2$alpha$ by blocking oxygen-dependent degradation, increasing endogenous EPO and erythropoiesis. Roxadustat is approved for anaemia of chronic kidney disease; daprodustat is in clinical use. In ME/CFS, low-dose PHD inhibition could restore the hypoxic adaptation programme that appears blunted (see HIF Pathway Inertia hypothesis @spec:hif-pathway-inertia). Unlike exogenous EPO, PHD inhibitors upregulate the full HIF transcriptional programme (EPO + VEGF + glycolytic enzymes + mitophagy regulators), potentially producing broader metabolic benefit @Winkler2004.
+*Certainty: 0.30.* Prolyl hydroxylase domain (PHD) inhibitors stabilise HIF-1$alpha$/2$alpha$ by blocking oxygen-dependent degradation, increasing endogenous EPO and erythropoiesis. Roxadustat is approved for anaemia of chronic kidney disease; daprodustat is in clinical use. In ME/CFS, low-dose PHD inhibition could restore the hypoxic adaptation programme that appears blunted (see HIF Pathway Inertia hypothesis @spec:hif-pathway-inertia). Unlike exogenous EPO, PHD inhibitors upregulate the full HIF transcriptional programme (EPO + VEGF + glycolytic enzymes + mitophagy regulators), potentially producing broader metabolic benefit @Winkler2004.
 
 *CAUTION:*
     + Could exacerbate autoimmunity — HIF-1$alpha$ promotes Th17 differentiation and B cell activation @Little2023HIF1lupus
@@ -762,11 +762,11 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
     + Excessive erythropoiesis increases blood viscosity, potentially worsening cerebral hypoperfusion
     + No ME/CFS safety data exist; all literature is from CKD populations with different baseline physiology
 
-*Testable prediction.* Low-dose daprodustat (1mg TIW, one-quarter the CKD dose) improves submaximal exercise endurance (constant-workload cycling time) without elevating haematocrit >45% in ME/CFS patients with blunted hypoxia-challenge EPO response.
+*Testable prediction.* Low-dose daprodustat (1mg TIW, one-quarter the CKD dose) increases constant-workload cycling time to exhaustion by $>=30$% without elevating haematocrit above 45% in ME/CFS patients with blunted hypoxia-challenge EPO response.
 ] <spec:hif-ph-inhibitors>
 
 #speculation(title: [Belzutifan (HIF-2$alpha$ Inhibitor) for Post-Viral ME/CFS with Endothelial Dysfunction])[
-*Certainty: 0.20.* Belzutifan is a selective HIF-2$alpha$ inhibitor approved for VHL disease-associated tumours. HIF-2$alpha$ activation in pulmonary endothelium drives vascular remodelling; if post-viral ME/CFS involves HIF-2$alpha$-mediated endothelial dysfunction, belzutifan could rescue endothelial barrier function and reduce capillary permeability @Ribeiro2026HIF2alpha.
+*Certainty: 0.25.* Belzutifan is a selective HIF-2$alpha$ inhibitor approved for VHL disease-associated tumours. HIF-2$alpha$ activation in pulmonary endothelium drives vascular remodelling; if post-viral ME/CFS involves HIF-2$alpha$-mediated endothelial dysfunction, belzutifan could rescue endothelial barrier function and reduce capillary permeability @Ribeiro2026HIF2alpha.
 
 *Mechanistic rationale.* SARS-CoV-2 spike protein upregulates HIF-2$alpha$ in pulmonary endothelium, promoting VEGF production, intercellular gap formation, and increased permeability. If a similar mechanism operates in ME/CFS (whether from SARS-CoV-2 or other viral triggers), HIF-2$alpha$ inhibition could restore endothelial barrier integrity.
 

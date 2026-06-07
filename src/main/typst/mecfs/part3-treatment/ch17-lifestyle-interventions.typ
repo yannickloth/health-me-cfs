@@ -1919,6 +1919,24 @@ Rosalba Courtney (Australian PhD specializing in dysfunctional breathing in ME/C
     - *Steps practice:* Walk while holding the nose (start with 10 steps, progress gradually). This teaches muscles to extract oxygen with less available air and may modify the anaerobic threshold---McKeown notes it mimics high-altitude training effects and may increase red blood cell mass
     - *Integration with pacing:* Walking pace should be set by breathing, not perceived effort. If breathing deepens, the pace is too fast
 
+=== Buteyko-Style Breathing for Cerebral Blood Flow Stabilization
+
+#speculation(title: [Reduced-Breathing Protocol for Chronic Hypocapnia in ME/CFS])[
+*Certainty: 0.50.* ME/CFS patients are chronically hypocapnic during orthostasis, with ETCO#sub[2] of 33.9~mmHg vs 42.8~mmHg in healthy controls @Medow2024cerebralautoregulation. Chronic hypocapnia (even without tachypnoea) reduces cerebral blood flow velocity via CO#sub[2]-mediated vasoconstriction — every 1~mmHg reduction in ETCO#sub[2] below 40~mmHg reduces CBFv by approximately 2--4% @Badhwar2025brainbloodflow. Buteyko-style reduced-breathing techniques (gentle breath reduction, nasal breathing, Control Pause target 20~s) could raise ETCO#sub[2] toward 40~Torr, improving cerebral oxygenation and reducing orthostatic cognitive symptoms.
+
+*Mechanistic rationale.* The physiological basis is distinct from the conventional Buteyko rationale for asthma or anxiety. In ME/CFS, low ETCO#sub[2] is a *consequence* of impaired cellular respiration (compensatory hyperpnoea driven by poor O#sub[2] extraction), not primary hyperventilation. However, even if low CO#sub[2] is secondary, the resulting cerebral vasoconstriction creates an independent pathological contribution to brain hypoperfusion that may be therapeutically modifiable. The CO#sub[2]-CBFv relationship is among the most robust in cerebrovascular physiology — raising ETCO#sub[2] from 34 to 40~mmHg should produce a ~12--24% increase in CBFv, which is clinically meaningful in a condition where orthostatic CBFv declines of ~30% are documented.
+
+*Safety.* The adapted (gentle) Buteyko approach is inherently low-risk: mild air hunger during breath reduction does not trigger Valsalva or syncope. Patients with panic disorder or severe hyperventilation syndrome may require professional supervision. Must not be combined with breath-holds >10~s in POTS patients (Valsalva risk).
+
+*Testable predictions.*
+    + 4 weeks of adapted Buteyko (15~min daily breath reduction, nasal breathing, Control Pause tracking) increases ETCO#sub[2] from baseline ≤34 to ≥38~Torr
+    + CBFv (transcranial Doppler MCA) increases ≥8% at matched workload
+    + N-back performance (working memory) improves ≥1 SD at 4 weeks, correlating with CBFv change
+    + The intervention is tolerated without PEM induction in ≥80% of mild-to-moderate ME/CFS patients
+
+*Limitations.* No Buteyko trial has been performed in ME/CFS — all predictions are extrapolated from healthy physiology and one adapted-CO2-training study in Long COVID (pending publication). Individual baseline ETCO#sub[2] may determine response; patients with normal ETCO#sub[2] (>38) cannot benefit. The protocol may be less effective in severe ME/CFS where breathing drive is dominated by metabolic acidosis.
+] <spec:buteyko-cbfv>
+
 === Structured Reconditioning: The Klimas Program
 <sec:klimas-program>
 

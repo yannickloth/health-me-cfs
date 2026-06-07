@@ -61,11 +61,11 @@ _Certainty: 0.30._ PS externalisation on ME/CFS RBCs has not been directly measu
 ] <hyp:rbc-ps-microclot-nucleation>
 
 #hypothesis(title: [BBB Transport Confounding of TSPO PET Neuroinflammation Findings])[
-Peripheral inflammation in ME/CFS may reduce blood-to-brain transport of TSPO PET tracers \cite{Barzon2026TSPOBBB}, creating false-negative neuroinflammation findings. Negative TSPO PET results in ME/CFS \cite{Raijmakers2021TSPOCFS} may reflect BBB dysfunction rather than absence of central inflammation.
+Peripheral inflammation in ME/CFS may reduce blood-to-brain transport of TSPO PET tracers @Barzon2026TSPOBBB, creating false-negative neuroinflammation findings. Negative TSPO PET results in ME/CFS @Raijmakers2021TSPOCFS may reflect BBB dysfunction rather than absence of central inflammation.
 
 Barzon et al.\ (2026) analyzed 358 TSPO PET scans across three tracers ([11C]-PK11195, [18F]-DPA714, [11C]-PBR28) and demonstrated that peripheral inflammation (elevated CRP) correlates with reduced tracer brain influx rate constant (K1). This effect was consistent across all tracers tested, indicating a fundamental BBB transport limitation rather than tracer-specific issue.
 
-If ME/CFS involves systemic inflammation (as suggested by plasma proteomics and cytokine studies), TSPO PET may systematically under-detect brain microglial activation in ME/CFS patients. This confounding factor complicates interpretation of the single published ME/CFS TSPO-PET study, which found no significant difference in TSPO binding between ME/CFS patients and healthy controls \cite{Raijmakers2021TSPOCFS}.
+If ME/CFS involves systemic inflammation (as suggested by plasma proteomics and cytokine studies), TSPO PET may systematically under-detect brain microglial activation in ME/CFS patients. This confounding factor complicates interpretation of the single published ME/CFS TSPO-PET study, which found no significant difference in TSPO binding between ME/CFS patients and healthy controls @Raijmakers2021TSPOCFS.
 
 Under this hypothesis, three interpretations of negative TSPO PET findings in ME/CFS are possible:
 1. *No neuroinflammation*: ME/CFS pathology is entirely peripheral (muscle, bone marrow, immune system) without central microglial involvement
@@ -74,7 +74,7 @@ Under this hypothesis, three interpretations of negative TSPO PET findings in ME
 
 *Falsifiable prediction:* TSPO tracer brain influx rate (K1) will be lower in ME/CFS patients compared to healthy controls, particularly during PEM flare-ups when peripheral inflammation is expected to be highest. Patients with highest CRP or plasma cytokine levels will show lowest brain TSPO K1 values. If K1 values are normal in ME/CFS, BBB transport confounding is not the explanation for negative TSPO-PET findings.
 
-*Limitations:* No study has directly measured TSPO tracer K1 (brain influx rate) in ME/CFS. Barzon et al.\ (2026) finding was in depression and schizophrenia patients, not ME/CFS. Replication status: BBB transport limitation well-established across three tracers; ME/CFS application untested. Single negative ME/CFS TSPO-PET study \cite{Raijmakers2021TSPOCFS} did not measure K1 and cannot distinguish between "no inflammation" and "masked inflammation" interpretations.
+*Limitations:* No study has directly measured TSPO tracer K1 (brain influx rate) in ME/CFS. Barzon et al.\ (2026) finding was in depression and schizophrenia patients, not ME/CFS. Replication status: BBB transport limitation well-established across three tracers; ME/CFS application untested. Single negative ME/CFS TSPO-PET study @Raijmakers2021TSPOCFS did not measure K1 and cannot distinguish between "no inflammation" and "masked inflammation" interpretations.
 ] <hyp:bbb-tspo-confounding>
 
 #hypothesis(title: [Peripheral-Inflation, Central-Starvation: Resource Reallocation Hypothesis])[
@@ -146,9 +146,9 @@ The hypothesis is that the two components are additive because they target mecha
 === Endothelial Senescence as Unifying Mechanism (Long COVID ↔ ME/CFS)
 
 #hypothesis(title: [Endothelial Senescence as Unifying Mechanism in ME/CFS and Long COVID])[
-Nunes et al.~\cite{Nunes2026endothelialsenescence} propose that acute viral infection induces endothelial dysfunction and senescence at blood-brain barrier, cerebral arteries, gastrointestinal tract, and skeletal muscle.
+Nunes et al.~@Nunes2026endothelialsenescence propose that acute viral infection induces endothelial dysfunction and senescence at blood-brain barrier, cerebral arteries, gastrointestinal tract, and skeletal muscle.
 The endothelial senescence-associated secretory phenotype (SASP) is characterized by proinflammatory, prooxidative, procoagulant, and vasoconstriction-prone properties.
-Critically, authors distinguish endothelial dysfunction from coagulopathy: SASP is procoagulant but does not equate to overt clotting disorder~\cite{McAlpine2026,Nunes2026}.
+Critically, authors distinguish endothelial dysfunction from coagulopathy: SASP is procoagulant but does not equate to overt clotting disorder @McAlpine2026 @Nunes2026endothelialsenescence.
 Study: (hypothesis framework, no primary data, certainty: Low).
 Testable predictions: (1) senescent endothelial cells accumulate in ME/CFS/Long COVID patients; (2) SASP factors elevated in plasma; (3) immune dysfunction prevents clearance of senescent cells; (4) senolytic therapy improves symptoms.
 ] <hyp:nunes2026endothelialsenescence>
@@ -156,8 +156,8 @@ Testable predictions: (1) senescent endothelial cells accumulate in ME/CFS/Long 
 === Vascular Dysfunction Biomarkers in ME/CFS (First Direct Evidence)
 
 #achievement(title: [Vascular Dysfunction Biomarkers in ME/CFS])[
-Heng et al.~\cite{Heng2025} conducted multimodal analysis of ME/CFS patients, identifying elevated plasma proteins associated with thrombus formation and vascular reactivity.
-Importantly, study distinguishes vascular endothelial dysfunction from overt coagulopathy, aligning with both McAlpine~\cite{McAlpine2026} in Long COVID and Nunes'~\cite{Nunes2026endothelialsenescence} theoretical framework.
+Heng et al.~@heng2025mecfs conducted multimodal analysis of ME/CFS patients, identifying elevated plasma proteins associated with thrombus formation and vascular reactivity.
+Importantly, study distinguishes vascular endothelial dysfunction from overt coagulopathy, aligning with both McAlpine @McAlpine2026 in Long COVID and Nunes @Nunes2026endothelialsenescence theoretical framework.
 The study also documented immune cell energy deficits (reduced ATP/ADP ratio) and T/NK subset skewing, providing cross-system evidence of ME/CFS pathophysiology.
 Study: (n=[SPECIFY from full paper], multimodal design, proteomics, certainty: Medium-High).
 ] <ach:heng2025-vascular>
@@ -165,7 +165,7 @@ Study: (n=[SPECIFY from full paper], multimodal design, proteomics, certainty: M
 === Cross-Disease Comparison: Long COVID Vascular Biomarkers
 
 #clinical-finding(title: [Long COVID: Vascular Biomarkers Correlate with Cognitive and Psychiatric Symptoms])[
-McAlpine et al.~\cite{McAlpine2026} found that vascular biomarkers in neuropsychiatric Long COVID differ from recovered controls and acute COVID-19.
+McAlpine et al.~@McAlpine2026 found that vascular biomarkers in neuropsychiatric Long COVID differ from recovered controls and acute COVID-19.
 Elevated endothelial adhesion markers (sL-selectin, ADAMTS13, sP-selectin, sICAM-1) and vascular reactivity proteins (fetuin, α-2 macroglobulin) characterize Long COVID vascular pathology. Note: ADAMTS13 is a VWF-cleaving protease primarily synthesized in hepatic stellate cells; its elevation reflects thrombotic risk rather than direct endothelial adhesion.
 Importantly, coagulation markers (D-dimer, fibrinogen) did not differ from recovered controls, supporting endothelial dysfunction WITHOUT overt coagulopathy.
 These vascular biomarkers correlated with cognitive measures (fluency, verbal learning, memory) and psychiatric symptoms (depression, anxiety), linking endothelial dysfunction to "brain fog."
@@ -175,7 +175,7 @@ Study: (n=50 Long COVID, n=29 recovered controls, n=28 acute COVID-19, certainty
 === Novel Hypotheses from Vascular Biomarker Findings
 
 #hypothesis(title: [Endothelial Adhesion Markers as Cognitive Performance Modulators in ME/CFS])[
-McAlpine et al.\ ~\cite{McAlpine2026} demonstrated that elevated endothelial adhesion markers (sP-selectin, sICAM-1, sL-selectin, ADAMTS13) correlate with impaired cognitive performance in Long COVID, including reduced verbal fluency, learning, and memory. If ME/CFS shares the same endothelial dysfunction pathophysiology , the same biomarker-cognition relationship should hold.
+McAlpine et al.\ @McAlpine2026 demonstrated that elevated endothelial adhesion markers (sP-selectin, sICAM-1, sL-selectin, ADAMTS13) correlate with impaired cognitive performance in Long COVID, including reduced verbal fluency, learning, and memory. If ME/CFS shares the same endothelial dysfunction pathophysiology , the same biomarker-cognition relationship should hold.
 
 The proposed mechanism: endothelial activation increases vascular permeability and reduces cerebral perfusion efficiency through microvascular adhesion and inflammatory signaling. This could explain "brain fog" and cognitive processing speed deficits in ME/CFS through a vascular-mediated pathway rather than primary neural damage.
 
@@ -190,7 +190,7 @@ _Certainty: 0.40._ The biomarker-cognition correlation is established in Long CO
 ] <hyp:endothelial-adhesion-cognition>
 
 #speculation(title: [α1-Acid Glycoprotein as Protective Cognitive Biomarker])[
-McAlpine et al.\ ~\cite{McAlpine2026} found that lower α1-acid glycoprotein (AGP) levels were strongly associated with poorer verbal memory, verbal learning, fluency, depression, and anxiety in Long COVID. This inverse relationship (higher AGP = better cognition) is unexpected, as AGP is typically considered an acute-phase reactant.
+McAlpine et al.\ @McAlpine2026 found that lower α1-acid glycoprotein (AGP) levels were strongly associated with poorer verbal memory, verbal learning, fluency, depression, and anxiety in Long COVID. This inverse relationship (higher AGP = better cognition) is unexpected, as AGP is typically considered an acute-phase reactant.
 
 Potential interpretations:
     (1) AGP may have neuroprotective properties in chronic post-viral states independent of its role as an inflammatory marker
@@ -205,7 +205,7 @@ _Certainty: 0.25._ The inverse AGP-cognition relationship is observed in Long CO
 ] <spec:agp-cognitive-protection>
 
 #hypothesis(title: [Temporal Evolution of Vascular Biomarkers Predicts ME/CFS Recovery Trajectory])[
-McAlpine et al.\ ~\cite{McAlpine2026} found that vascular biomarker dysregulation normalized in a "late Long COVID" cohort (>3 years post-infection), while cognitive and psychiatric symptoms persisted in some individuals. This suggests a dissociation between acute vascular inflammation and chronic symptom maintenance.
+McAlpine et al.\ @McAlpine2026 found that vascular biomarker dysregulation normalized in a "late Long COVID" cohort (>3 years post-infection), while cognitive and psychiatric symptoms persisted in some individuals. This suggests a dissociation between acute vascular inflammation and chronic symptom maintenance.
 
 If ME/CFS follows a similar temporal pattern:
     (1) Acute phase (0-12 months): Endothelial activation markers elevated, correlate with symptom severity
@@ -227,7 +227,7 @@ _Certainty: 0.35._ Temporal evolution pattern observed in Long COVID; ME/CFS tem
 === Novel Treatment Proposals from Vascular Findings
 
 #open-question(title: [Anti-Adhesion Therapy for Cognitive Symptoms in ME/CFS])[
-If endothelial adhesion markers (sP-selectin, sICAM-1, sL-selectin) mediate cognitive impairment through vascular inflammation as suggested by McAlpine et al.\ ~\cite{McAlpine2026}, then targeting these pathways could improve cognitive function.
+If endothelial adhesion markers (sP-selectin, sICAM-1, sL-selectin) mediate cognitive impairment through vascular inflammation as suggested by McAlpine et al.\ @McAlpine2026, then targeting these pathways could improve cognitive function.
 
 *Potential agents:*
     - *Crizanlizumab* (anti-P-selectin monoclonal antibody): Approved for sickle cell vaso-occlusive crises; directly targets P-selectin-mediated platelet adhesion
@@ -248,7 +248,7 @@ If endothelial adhesion markers (sP-selectin, sICAM-1, sL-selectin) mediate cogn
 ] <oq:anti-adhesion-therapy-cognitive>
 
 #open-question(title: [Biomarker-Guided ME/CFS Subtype Stratification for Targeted Therapy])[
-McAlpine et al.\ ~\cite{McAlpine2026} suggest that vascular biomarkers correlate with specific symptom domains (cognition, psychiatric symptoms) in Long COVID. This implies that ME/CFS patients could be stratified by biomarker profiles into mechanistically distinct subtypes:
+McAlpine et al.\ @McAlpine2026 suggest that vascular biomarkers correlate with specific symptom domains (cognition, psychiatric symptoms) in Long COVID. This implies that ME/CFS patients could be stratified by biomarker profiles into mechanistically distinct subtypes:
 
 *Proposed ME/CFS vascular subtypes:*
     - *Endothelial Adhesion-Dominant*: Elevated sP-selectin/sICAM-1 → cognitive impairment, brain fog; target with anti-adhesion therapy
@@ -353,3 +353,38 @@ The following priorities are ranked by mechanistic novelty $times$ clinical impa
 
 *Research priority.* Systematic CT venography or MRV screening of an ME/CFS cohort (n ≥ 200), stratified by orthostatic severity.
 ] <spec:mts-vascular-substrate>
+
+=== Hypoxia-Mediated Mechanisms
+
+#speculation(title: [HIF Pathway Inertia: Failure of Hypoxic Adaptation in ME/CFS])[
+_Certainty: 0.50._ ME/CFS may involve a failure of HIF-1$alpha$ stabilization and transcriptional programme activation despite chronic tissue hypoxia. Under normal physiology, tissue hypoxia triggers HIF-1$alpha$ stabilization, transcriptional activation of >200 target genes including EPO (erythropoiesis), VEGF (angiogenesis), GLUT1 (glycolysis), and BNIP3 (mitophagy). The predicted consequence: ME/CFS patients show blunted EPO and VEGF responses to hypoxia, with miRNA-mediated silencing of the HIF transcriptional programme @Kaczmarek2023miRNAhypoxia. Winkler et al. reported normal basal EPO in ME/CFS, suggesting the deficit may be in *inducibility* rather than baseline production @Winkler2004.
+
+*Falsifiable predictions:*
+    + ME/CFS patients exposed to mild normobaric hypoxia (FiO#sub[2] 0.14, 2~h) will show peak plasma EPO elevation less than 60% of control median and peak VEGF elevation less than 50% of control median at 4--8~h
+    + ME/CFS PBMCs under 1% O#sub[2] for 6~h will show leq 2-fold induction of HIF-1$alpha$ target genes (EPO, VEGF, PDK1, BNIP3) vs geq 5-fold in healthy PBMCs
+    + Baseline miRNA-155/-210 levels will correlate with blunted HIF response (corr coeff leq -0.5 for peak EPO fold-change) and classify responders vs non-responders with AUC geq 0.80
+
+*Limitations.* HIF-1$alpha$ protein measurement is technically challenging (rapid proteasomal degradation on reoxygenation); miRNA-HIF interaction data are from in vitro models, not patient tissue. Blunted inducibility is inferred from single-timepoint basal EPO measurements — serial hypoxia-challenge data do not exist.
+] <spec:hif-pathway-inertia>
+
+#speculation(title: [The Altitude Paradox: Biphasic Response to Hypoxia in ME/CFS])[
+_Certainty: 0.40._ Moderate altitude (1500--2500~m) may trigger beneficial hypoxic conditioning via mild HIF-1$alpha$ stabilization, improved mitochondrial efficiency, and increased erythropoiesis — an adaptive response similar to intermittent hypoxic training in athletes @Gangwar2019IHTaltitude. However, higher altitude (>3000~m) may overwhelm the impaired cerebral autoregulation documented in ME/CFS, producing disproportionate cerebral hypoperfusion, worsening cognitive symptoms, and triggering PEM @Medow2024cerebralautoregulation @Badhwar2025brainbloodflow. This biphasic dose-response curve predicts a narrow therapeutic window: moderate hypoxia may benefit, severe hypoxia harms.
+
+*Falsifiable predictions:*
+    + ME/CFS patients exposed to simulated altitude at 2000~m (FiO#sub[2] 0.165) for 2~h will show composite cognitive score improvement $>=0.5$~SD (CANTAB/COGBAT) and CBFv within 10% of pre-exposure baseline on NIRS
+    + The same patients exposed to 3500~m (FiO#sub[2] 0.135) will show cognitive score decline $>=0.5$~SD, CBFv decline above 20%, and PEM incidence at least 50% at 24~h
+    + ETCO#sub[2] decline at 3500~m will exceed the alveolar gas equation prediction by >=3~mmHg, confirming intact hypoxic ventilatory response but inadequate vasodilatory compensation
+
+*Limitations.* No altitude-chamber study exists in ME/CFS. The dose-response curve is extrapolated from healthy altitude physiology and POTS/hypocapnia studies. Individual variability in hypoxic ventilatory response may mask group effects.
+] <spec:altitude-paradox>
+
+#speculation(title: [PEM as Maladaptive Persistence of HIF-Mediated Metabolic Suppression])[
+_Certainty: 0.50._ PEM may not be merely tissue damage from ischaemia-reperfusion injury after exertion @Kell2022IRinjury but a maladaptive persistence of the HIF-mediated hypoxic metabolic programme. HIF-1$alpha$ normally suppresses oxidative phosphorylation (PDK1 inhibits pyruvate dehydrogenase), shifts metabolism to glycolysis, and induces a hibernation-mimetic state that conserves ATP during hypoxia @Hoel2021metabolicphenotypes. In ME/CFS, this programme may fail to deactivate upon reoxygenation — cells remain locked in a hypoxic metabolic state despite adequate oxygen, producing sustained lactate production, impaired oxidative ATP synthesis, and prolonged recovery. miRNA-mediated HIF stabilisation may underlie this persistence @Kaczmarek2023miRNAhypoxia.
+
+*Falsifiable predictions:*
+    + After submaximal exercise, ME/CFS PBMCs will show prolonged HIF-1$alpha$ target gene expression (PDK1, BNIP3, LDHA) at 24--48~h compared to controls where expression returns to baseline by 6~h
+    + PDH activity will be $<=70$% of pre-exercise baseline at 24~h and 48~h post-exercise in ME/CFS vs $>90$% at 24~h in controls
+    + Serum lactate remains $>=2$~mmol/L above pre-exercise baseline at 24~h post-exercise in ME/CFS and correlates with sustained HIF target gene expression ($r >= 0.5$)
+
+*Limitations.* Post-exercise HIF target gene time-course has not been measured in ME/CFS. The hibernation-mimetic model is derived from ischaemia-reperfusion and cardiac preconditioning literature, not primary ME/CFS studies. PBMC findings may not reflect muscle or brain tissue.
+] <spec:pem-hif-maladaptation>
