@@ -34,6 +34,15 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (batch) | pubmed/eutils | 2026-06-07 | 2026-06-07 | content-staging/hif2a-endothelial-literature-&ast;.md, bib/appendix-h — HIF-2α endothelial post-viral literature collection (14 papers) |
 
+## SLE→ME/CFS Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-07 | 8 queries: SLE+ME/CFS overlap, SLE fatigue mechanisms (mitochondrial/IFN/cytokine), anti-dsDNA/fatigue, type I IFN SLE fatigue, NK cell SLE, SLE subtypes (UCTD/incomplete lupus), null/negative SLE fatigue results, cross-disease SLE/ME/CFS |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (8 queries, batch) | pubmed/eutils | 2026-06-07 | — | content-staging/lit-sle-mecfs-2026-06-07.md, bib/appendix-h — SLE→ME/CFS literature survey (18 papers) |
+
 ## Articles
 
 | URL | Source | Scraped | Integrated | Target |

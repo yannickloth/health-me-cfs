@@ -47,7 +47,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | butyrate-intestinal-permeability | [subtrees/butyrate-intestinal-permeability.md](subtrees/butyrate-intestinal-permeability.md) | 2026-05-20      | 7          | 0          | ⬜ pending     |
 | ebv-heterogeneity     | [subtrees/ebv-heterogeneity.md](subtrees/ebv-heterogeneity.md)        | 2026-04-20      | 0          | 0          | ⬜ stub        |
 | autoimmune-diseases   | [subtrees/autoimmune-diseases.md](subtrees/autoimmune-diseases.md)    | 2026-05-02      | 0          | 0          | ⬜ group-root  |
-| autoimmune-sle        | [subtrees/autoimmune-sle.md](subtrees/autoimmune-sle.md)              | 2026-05-02      | 0          | 0          | ⬜ stub        |
+| autoimmune-sle        | [subtrees/autoimmune-sle.md](subtrees/autoimmune-sle.md)              | 2026-06-07      | 33         | 1          | 🔵 in progress |
 | autoimmune-sjogren    | [subtrees/autoimmune-sjogren.md](subtrees/autoimmune-sjogren.md)      | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | autoimmune-ms         | [subtrees/autoimmune-ms.md](subtrees/autoimmune-ms.md)                | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | autoimmune-ra         | [subtrees/autoimmune-ra.md](subtrees/autoimmune-ra.md)                | 2026-05-02      | 0          | 0          | ⬜ stub        |
