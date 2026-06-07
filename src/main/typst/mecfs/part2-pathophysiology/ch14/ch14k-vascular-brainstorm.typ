@@ -159,7 +159,7 @@ Testable predictions: (1) senescent endothelial cells accumulate in ME/CFS/Long 
 Heng et al.~@heng2025mecfs conducted multimodal analysis of ME/CFS patients, identifying elevated plasma proteins associated with thrombus formation and vascular reactivity.
 Importantly, study distinguishes vascular endothelial dysfunction from overt coagulopathy, aligning with both McAlpine @McAlpine2026 in Long COVID and Nunes @Nunes2026endothelialsenescence theoretical framework.
 The study also documented immune cell energy deficits (reduced ATP/ADP ratio) and T/NK subset skewing, providing cross-system evidence of ME/CFS pathophysiology.
-Study: (n=[SPECIFY from full paper], multimodal design, proteomics, certainty: Medium-High).
+Study: (multimodal design, proteomics, certainty: Medium-High).
 ] <ach:heng2025-vascular>
 
 === Cross-Disease Comparison: Long COVID Vascular Biomarkers
@@ -359,6 +359,8 @@ The following priorities are ranked by mechanistic novelty $times$ clinical impa
 #speculation(title: [HIF Pathway Inertia: Failure of Hypoxic Adaptation in ME/CFS])[
 _Certainty: 0.50._ ME/CFS may involve a failure of HIF-1$alpha$ stabilization and transcriptional programme activation despite chronic tissue hypoxia. Under normal physiology, tissue hypoxia triggers HIF-1$alpha$ stabilization, transcriptional activation of >200 target genes including EPO (erythropoiesis), VEGF (angiogenesis), GLUT1 (glycolysis), and BNIP3 (mitophagy). The predicted consequence: ME/CFS patients show blunted EPO and VEGF responses to hypoxia, with miRNA-mediated silencing of the HIF transcriptional programme @Kaczmarek2023miRNAhypoxia. Winkler et al. reported normal basal EPO in ME/CFS, suggesting the deficit may be in *inducibility* rather than baseline production @Winkler2004.
 
+*Subtype qualification:* The pattern may differ by disease subtype. The HIF-2$alpha$ post-viral evidence suggests that post-viral ME/CFS patients may show *elevated* basal VEGF (from sustained HIF-2$alpha$) rather than blunted VEGF, while gradual-onset patients may show the predicted blunted pattern (Section @sec:hif2a-endothelial in @ch:cardiovascular). The HIF inertia hypothesis should be understood as primarily describing the HIF-1$alpha$ arm; the HIF-2$alpha$ arm may follow a separate, subtype-dependent trajectory. Future hypoxia-challenge studies should therefore measure both HIF isoforms and stratify by onset type.
+
 *Falsifiable predictions:*
     + ME/CFS patients exposed to mild normobaric hypoxia (FiO#sub[2] 0.14, 2~h) will show peak plasma EPO elevation less than 60% of control median and peak VEGF elevation less than 50% of control median at 4--8~h
     + ME/CFS PBMCs under 1% O#sub[2] for 6~h will show leq 2-fold induction of HIF-1$alpha$ target genes (EPO, VEGF, PDK1, BNIP3) vs geq 5-fold in healthy PBMCs
@@ -377,6 +379,33 @@ _Certainty: 0.40._ Moderate altitude (1500--2500~m) may trigger beneficial hypox
 
 *Limitations.* No altitude-chamber study exists in ME/CFS. The dose-response curve is extrapolated from healthy altitude physiology and POTS/hypocapnia studies. Individual variability in hypoxic ventilatory response may mask group effects.
 ] <spec:altitude-paradox>
+
+=== HIF-2$alpha$ Mechanism and Endothelial Dysfunction Subtyping
+
+#hypothesis(title: [HIF-2$alpha$ Sustained Activation as the Molecular Basis for Post-Viral Endothelial Dysfunction])[
+Ribeiro et al.\ (2026) @Ribeiro2026HIF2alpha demonstrated that SARS-CoV-2 spike S1 protein drives a dichotomous hypoxia-inducible factor response in endothelial cells: transient HIF-1$alpha$ activation followed by sustained HIF-2$alpha$ nuclear localization persisting for days, with VEGF overproduction, intercellular gap formation, and increased permeability rescued by belzutifan. This establishes a direct molecular pathway from viral protein exposure to chronic endothelial dysfunction — relevant beyond COVID-19, as multiple viruses exploit HIF-2$alpha$ for replication (HCV @Couteaudier2025HIF2HCV, RSV @Morris2025HIFRSV) and the antiviral signalling protein IRF3 directly regulates HIF-$alpha$ cytoplasmic retention @Deng2026IRF3HIFalpha. The sustained HIF-2$alpha$ mechanism explains several features of post-viral ME/CFS: (1) endothelial dysfunction in the ~70% of patients without $beta_2$AR autoantibodies @Stein2025ImmunoadsorptionPostCOVIDMECFS, the mechanism of which has been unexplained; (2) persistence of vascular dysfunction after viral clearance; (3) the pattern of microvascular impairment documented by OCT-A and retinal vessel analysis.
+
+_Certainty: 0.55._ The mechanistic chain from spike → sustained HIF-2$alpha$ → barrier impairment is established in vitro (Ribeiro2026, cert 0.50). Antiviral-HIF linkage (Deng2026IRF3HIFalpha, cert 0.65) and viral HIF exploitation (Couteaudier2025HIF2HCV, cert 0.55) provide convergent support. Direct ME/CFS endothelial HIF-2$alpha$ measurements are lacking.
+
+*Falsifiable predictions:*
+    + Nuclear HIF-2$alpha$ protein is elevated in dermal endothelial cells from post-viral ME/CFS patients vs healthy controls (skin biopsy IHC)
+    + Post-viral ME/CFS patients (but not gradual-onset) show elevated plasma VEGF, vWF, and sFlt-1 compared to healthy controls
+    + Belzutifan reduces VEGF and improves endothelial function (FMD) in post-viral ME/CFS: predicted effect size ΔFMD ≥ 20% over 8 weeks
+
+*Research priority:* Skin biopsy or PBMC nuclear fraction for HIF-2$alpha$ IHC combined with plasma VEGF, vWF, sFlt-1 panel — cross-sectional post-viral ME/CFS (n=40) vs gradual-onset (n=20) vs healthy (n=20).
+] <hyp:hif2a-sustained-postviral>
+
+#speculation(title: [Exercise-Induced HIF-2$alpha$ Dynamics Differentiate Post-Viral from Gradual-Onset ME/CFS])[
+If post-viral ME/CFS involves sustained HIF-2$alpha$ activation (Section @hyp:hif2a-sustained-postviral), a single bout of maximal exercise (CPET) should produce distinct temporal profiles of nuclear HIF-1$alpha$ and HIF-2$alpha$ in PBMCs across subtypes. Prediction: healthy controls show transient HIF-1$alpha$ nuclear peak at 0~h post-CPET returning to baseline by 2~h; post-viral ME/CFS shows delayed HIF-2$alpha$ nuclear rise at 24--48~h persisting at 48~h; gradual-onset ME/CFS shows an intermediate pattern. This could serve as a dynamic functional test analogous to the glucose tolerance test. *Certainty: 0.55* (temporal HIF dynamics after exercise are unmeasured in ME/CFS; the prediction follows from Ribeiro2026 in vitro kinetics applied to the post-exertional context).
+
+*Falsifiable:* In serial PBMC nuclear fractions collected before and after CPET (baseline, 0 h, 2 h, 6 h, 24 h, 48 h), post-viral ME/CFS shows HIF-2\$alpha\$ AUC at 2 fold controls over 0-48h, with sustained elevation at 48 h (p less than 0.01).
+] <spec:hif2a-cpet-dynamics>
+
+#speculation(title: [sFlt-1:PlGF Ratio as Anti-Angiogenic Biomarker in Post-Viral ME/CFS, Analogous to Preeclampsia])[
+In preeclampsia, HIF-2$alpha$ activation drives excessive sFlt-1 (soluble VEGFR1, an anti-angiogenic VEGF trap) production, causing systemic endothelial dysfunction. The sFlt-1:PlGF ratio is validated clinically for preeclampsia diagnosis and risk stratification. A parallel mechanism may operate in post-viral ME/CFS: viral-triggered HIF-2$alpha$ activation may produce elevated sFlt-1 that functionally neutralises VEGF, creating an anti-angiogenic state despite normal or elevated total VEGF levels. The net effect would be impaired angiogenic compensation — consistent with the failed angiogenic response of ME/CFS serum @Flaskamp2022endothelial. *Certainty: 0.45* (sFlt-1:HIF-2$alpha$ link in preeclampsia is established; no ME/CFS sFlt-1 data exist).
+
+*Falsifiable:* sFlt-1:PlGF ratio is elevated in post-viral ME/CFS vs controls (mean ratio $gt.eq$38 vs $lt.eq$38 in controls), correlating with PEM severity and impaired angiogenic serum activity. Ratio normalises in patients who respond to belzutifan.
+] <spec:sflt1-plgf-biomarker>
 
 #speculation(title: [PEM as Maladaptive Persistence of HIF-Mediated Metabolic Suppression])[
 _Certainty: 0.50._ PEM may not be merely tissue damage from ischaemia-reperfusion injury after exertion @Kell2022IRinjury but a maladaptive persistence of the HIF-mediated hypoxic metabolic programme. HIF-1$alpha$ normally suppresses oxidative phosphorylation (PDK1 inhibits pyruvate dehydrogenase), shifts metabolism to glycolysis, and induces a hibernation-mimetic state that conserves ATP during hypoxia @Hoel2021metabolicphenotypes. In ME/CFS, this programme may fail to deactivate upon reoxygenation — cells remain locked in a hypoxic metabolic state despite adequate oxygen, producing sustained lactate production, impaired oxidative ATP synthesis, and prolonged recovery. miRNA-mediated HIF stabilisation may underlie this persistence @Kaczmarek2023miRNAhypoxia.

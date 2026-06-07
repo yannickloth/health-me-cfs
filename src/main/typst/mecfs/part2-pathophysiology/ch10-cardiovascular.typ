@@ -319,6 +319,44 @@ population typically excluded from vascular studies. Results, expected mid-2026,
 will provide the first endothelial function data specifically from severe and
 very severe patients assessed in their home environment.
 
+==== HIF-2$alpha$-Mediated Endothelial Dysfunction as a Post-Viral Mechanism
+<sec:hif2a-endothelial>
+
+A distinct line of evidence points to sustained hypoxia-inducible factor 2$alpha$ (HIF-2$alpha$, encoded by *EPAS1*) activation as a molecular mechanism for endothelial dysfunction specifically in post-viral ME/CFS, with implications for the ~70% of ME/CFS patients who lack $beta_2$-adrenergic receptor autoantibodies and whose endothelial dysfunction mechanism has remained unexplained @Sandvik2023EndothelialMECFS @Stein2025ImmunoadsorptionPostCOVIDMECFS.
+
+Ribeiro et al.\ (2026) @Ribeiro2026HIF2alpha demonstrated that SARS-CoV-2 spike S1 protein produces a dichotomous HIF response in retinal endothelial cells: transient HIF-1$alpha$ activation (resolving within hours) followed by sustained HIF-2$alpha$ activation persisting for days, driving VEGF production, intercellular gap formation, and increased permeability. Critically, belzutifan — a selective HIF-2$alpha$ inhibitor approved for VHL disease-associated tumours — rescued endothelial barrier integrity in this model. This establishes a direct molecular pathway from viral protein exposure to chronic endothelial dysfunction via sustained HIF-2$alpha$, distinct from the acute HIF-1$alpha$ response that is normally adaptive @Ribeiro2026HIF2alpha @Bishop2025HIF2alphaReview.
+
+The pathophysiological significance of sustained HIF-2$alpha$ (rather than HIF-1$alpha$) as the mediator of post-viral endothelial injury is supported by convergent evidence. In pulmonary endothelium, acute hypoxia drives HIF-1$alpha$-dependent barrier disruption, while chronic hypoxia produces HIF-2$alpha$-dependent vascular remodelling — a temporal dissociation that mirrors the pattern triggered by spike protein @Reiterer2019AcuteChronicHypoxia. Mechanistically, antiviral signalling intersects directly with HIF regulation: interferon regulatory factor 3 (IRF3) retains both HIF-1$alpha$ and HIF-2$alpha$ in the cytoplasm under resting conditions, and its depletion during viral infection increases HIF signalling @Deng2026IRF3HIFalpha. The HIF-2$alpha$ isoform is exploited by multiple viruses for replication — hepatitis C virus requires HIF-2$alpha$ for production of infectious lipoviroparticles @Couteaudier2025HIF2HCV, and respiratory syncytial virus stabilises HIFs under normoxic conditions @Morris2025HIFRSV — suggesting that post-viral HIF-2$alpha$ activation may be a general phenomenon rather than SARS-CoV-2-specific.
+
+This mechanism may explain several observations in post-viral ME/CFS. First, it provides a molecular basis for endothelial dysfunction in the $beta_2$AR-autoantibody-negative majority: approximately 70% of ME/CFS patients have documented endothelial dysfunction (impaired FMD, reduced PORH) without detectable $beta_2$-adrenergic receptor autoantibodies @Sandvik2023EndothelialMECFS @Stein2025ImmunoadsorptionPostCOVIDMECFS. HIF-2$alpha$-mediated VEGF production and barrier disruption would produce the same net tissue hypoxia as autoantibody-mediated vasoconstriction, but through increased capillary permeability rather than reduced vessel calibre — a mechanistic distinction with therapeutic implications (HIF-2$alpha$ inhibition vs immunomodulation). Second, sustained HIF-2$alpha$ activation could drive the immunothrombotic microclot phenotype documented in ME/CFS: HIF-2$alpha$ target VEGF triggers Weibel-Palade body exocytosis, releasing ultra-large von Willebrand factor multimers that promote platelet adhesion and microclot formation @VanderLinden2023microclots @Wirth2024MicrovascularPostCOVIDMECFS. Third, the NRF2-HIF-2$alpha$ axis offers a framework for understanding why endothelial dysfunction persists: NRF2 normally competes with HIF-2$alpha$ for transcriptional co-activators and maintains endothelial junction integrity @Shen2024NRF2HIF2Senescence, but NRF2 depletion from prolonged oxidative stress (documented in ME/CFS) removes this brake, permitting unchecked HIF-2$alpha$ dominance @Zhang2026HIFSwitchICH.
+
+#speculation(title: [Sustained HIF-2$alpha$ as a Mechanistic Explanation for $beta_2$AR-Autoantibody-Negative Endothelial Dysfunction])[
+The ~70% of ME/CFS patients without detectable $beta_2$AR autoantibodies @Stein2025ImmunoadsorptionPostCOVIDMECFS nonetheless show endothelial dysfunction comparable to the autoantibody-positive subgroup @Sandvik2023EndothelialMECFS. This paradox may reflect two distinct proximal mechanisms converging on the same distal phenotype: autoantibody-driven vasoconstriction in the ~30% vs HIF-2$alpha$-driven capillary permeability in the ~70%. The latter would explain normal or elevated VEGF in this subgroup, responsiveness to compression therapy (which counteracts capillary leak), and the association between post-viral onset and elevated endothelial activation markers (vWF, ICAM-1). This framework generates a testable prediction: $beta_2$AR-autoantibody-negative ME/CFS patients will show elevated plasma VEGF, vWF, and EPO compared to autoantibody-positive and healthy controls, with VEGF levels correlating with FMD impairment. Certainty: 0.55 (indirect evidence from separate literatures converged; direct ME/CFS testing is pending).
+
+*Falsifiable predictions:*
+    + In a cohort of ME/CFS patients stratified by $beta_2$AR autoantibody status, the autoantibody-negative subgroup will show higher plasma VEGF and vWF than the autoantibody-positive subgroup
+    + VEGF levels will correlate inversely with FMD in the autoantibody-negative subgroup (r $<$ -0.5) but not in the autoantibody-positive subgroup
+    + Belzutifan (HIF-2$alpha$ inhibitor) will improve FMD and reduce VEGF preferentially in the autoantibody-negative subgroup
+] <spec:hif2a-beta2ar-negative>
+
+#speculation(title: [HIF-2$alpha$ as the Proximal Mechanism for Post-Viral Microclot Formation])[
+HIF-2$alpha$ target VEGF induces Weibel-Palade body exocytosis, releasing ultra-large vWF multimers that promote platelet adhesion without requiring coagulation cascade activation @Ribeiro2026HIF2alpha. This provides a direct mechanism for the fibrinolysis-resistant amyloid-type microclots documented in ME/CFS and Long COVID @VanderLinden2023microclots. The HIF-2$alpha$-driven pathway does not require autoantibodies and would operate in any post-viral state where viral proteins or nucleic acids persist sufficiently to maintain HIF-2$alpha$ activation. Certainty: 0.50 (VEGF-vWF link is established; microclot composition data are consistent; direct demonstration of HIF-2$alpha$ dependence in ME/CFS microclots is pending).
+
+*Falsifiable predictions:*
+    + Plasma vWF antigen and vWF propeptide (marker of acute Weibel-Palade release) will be elevated in post-viral ME/CFS and correlate with microclot burden measured by fluorescence microscopy
+    + vWF levels will correlate with VEGF but not with $beta_2$AR autoantibody titres
+    + In vitro, belzutifan reduces spike-induced vWF release from cultured endothelial cells (HUVEC or HREC)
+] <spec:hif2a-microclot-vwf>
+
+#speculation(title: [NRF2 Exhaustion Permits Unchecked HIF-2$alpha$ Dominance in Post-Viral Endothelial Cells])[
+Acute viral infection depletes NRF2 antioxidant reserve (GSH consumption, lipid peroxidation). NRF2 normally maintains endothelial junction integrity and competes with HIF-2$alpha$ for CBP/p300 transcriptional co-activators @Shen2024NRF2HIF2Senescence. NRF2 exhaustion removes this brake, allowing unchecked HIF-2$alpha$ activation and sustained VEGF production — a bimodal switch: moderate oxidative stress recruits protective NRF2-HIF-2$alpha$ signalling, but severe or prolonged stress depletes NRF2, permitting pathological HIF-2$alpha$ dominance @Zhang2026HIFSwitchICH. This provides a mechanistic link between the oxidative stress documented in ME/CFS and the sustained endothelial dysfunction: the same reactive species that mark the disease may also lock the HIF-2$alpha$ system in its pathological state. Certainty: 0.50 (Shen2024NRF2HIF2Senescence and Zhang2026HIFSwitchICH mechanistic studies; NRF2 depletion in ME/CFS is plausible but not directly measured in endothelial cells).
+
+*Falsifiable predictions:*
+    + NRF2 target genes (NQO1, HO-1, GCLC) will be suppressed in post-viral ME/CFS endothelial cells relative to HIF-2$alpha$ targets
+    + Sulforaphane (NRF2 activator) will rescue barrier integrity in spike-stimulated endothelial cells in vitro
+    + NRF2 activation status will predict VEGF response: patients with low NRF2 activity show the greatest VEGF reduction with NRF2 activator treatment
+] <spec:nrf2-exhaustion-hif2a>
+
 Several 2025–2026 studies extend the endothelial dysfunction evidence.
 Retinal vessel analysis revealed reduced venular flicker-induced dilation in
 ME/CFS and post-COVID patients, providing a non-invasive measure of
@@ -1032,7 +1070,9 @@ _Certainty: 0.30._ The in vitro finding is from a single study with small number
     + Angiogenic capacity of patient serum should correlate inversely with capillary basement membrane thickness on biopsy
     + Pro-angiogenic interventions (e.g., VEGF-based approaches, hypoxia-inducible factor stabilisers) should attenuate ME/CFS development in at-risk post-COVID patients if given early
 
-*Limitations:* Single in vitro study; serum angiogenic activity is a composite of many factors; mechanism of selective angiogenic failure in ME/CFS is not established.
+*CAUTION regarding VEGF-based approaches:* The Ribeiro et al.\ (2026) @Ribeiro2026HIF2alpha findings complicate the straightforward pro-angiogenic rationale. In post-viral ME/CFS specifically, VEGF elevation from sustained HIF-2$alpha$ activation may itself be pathological — driving capillary permeability rather than angiogenesis. Exogenous VEGF or HIF stabilisation (which also increases HIF-2$alpha$) could *worsen* endothelial barrier dysfunction in patients whose HIF-2$alpha$ is already pathologically active (Section @sec:hif2a-endothelial). This means pro-angiogenic strategies must be stratified: patients with elevated VEGF/vWF (HIF-2$alpha$-active phenotype) would be harmed, while those with blunted VEGF (HIF-inert phenotype) might benefit. VEGF or sFlt-1 measurement is recommended before any pro-angiogenic intervention.
+
+*Limitations:* Single in vitro study; serum angiogenic activity is a composite of many factors; mechanism of selective angiogenic failure in ME/CFS is not established. The HIF-2$alpha$ stratification caveat is theoretical — no interventional data exist.
 ] <hyp:failed-angiogenesis-mecfs>
 
 === Speculative Endothelial Diagnostics and Therapeutics

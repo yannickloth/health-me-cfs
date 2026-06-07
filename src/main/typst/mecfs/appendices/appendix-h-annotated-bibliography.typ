@@ -15857,6 +15857,224 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *medium* Limitations: Athlete population only, no ME/CFS data
 
 
+// =============================================================================
+
+== Cold Face Immersion — Diving Reflex Vagal Activation
+<sec:bib-cold-face-immersion>
+// =============================================================================
+
+=== Panneton and Gan 2020 — Mammalian Diving Response: Neural Circuitry (0.85)
+
+    *Full Citation:*: Panneton WM, Gan Q. The mammalian diving response: inroads to its neural control. _Frontiers in Neuroscience_. 2020;14:524.
+    *DOI:*: #link("https://doi.org/10.3389/fnins.2020.00524")[10.3389/fnins.2020.00524]
+    *PMID:*: 32581683
+    *Published:*: June 5, 2020
+    *Study Design:*: Comprehensive review with primary neuroanatomical data
+    *Key Findings:*:
+
+        - Diving response described as the most powerful autonomic reflex known
+        - Reflex circuit: trigeminal nerve (anterior ethmoidal branch, V1) → medullary dorsal horn → NTS (ventrolateral subnucleus) → nucleus ambiguus (vagal efferent) + RVLM (sympathetic)
+        - Atropine or vagal cold block abolishes diving bradycardia
+        - Reflex alters baroreceptor and chemoreceptor homeostasis during diving
+        - Proposed as model system for SIDS, migraine, stroke, and arrhythmia research
+
+    *Conclusion:* The mammalian diving reflex is mediated by a medullary circuit that simultaneously activates vagal (bradycardia) and sympathetic (vasoconstriction) efferents via trigeminal→NTS→nucleus ambiguus pathway.
+    *Limitations:* Animal model data (rat, muskrat) — human extrapolation requires caution. No direct clinical application data.
+    *Certainty Assessment:*:
+        - *high* Quality: High — NIH-funded; authoritative review from lab with 30+ years of DR research
+        - *high* Sample: Animal models — extensive neuroanatomical mapping
+        - *high* Replication: Consistent across multiple species and techniques
+        - *medium* Limitations: Animal model data; mechanism well-established but human clinical translation limited
+
+=== Heath and Downey 1990 — Cold Face Test for Clinical Autonomic Assessment (0.70)
+
+    *Full Citation:*: Heath ME, Downey JA. The cold face test (diving reflex) in clinical autonomic assessment: methodological considerations and repeatability of responses. _Clinical Science_. 1990;78(2):139–147.
+    *DOI:*: #link("https://doi.org/10.1042/cs0780139")[10.1042/cs0780139]
+    *PMID:*: 2155739
+    *Published:*: February 1990
+    *Study Design:*: Methodological study with controlled experimental protocols
+    *Sample Size:*: N=16 healthy adults (9 female, 7 male), age 21–35
+    *Key Findings:*:
+
+        - Optimal parameters: 0°C compresses applied bilaterally for 40s produced maximal bradycardia and peripheral vasoconstriction
+        - 22% reduction in heart rate; finger blood flow ↓72%, toe ↓59%, calf ↓44%
+        - Good within-subject repeatability across different days, times, and seasons
+        - Significant between-subject variability noted
+        - 0°C well-tolerated by all subjects; 120s application objectionable to some
+
+    *Conclusion:* Standardized cold face test (0°C, 40s, bilateral) provides reproducible autonomic assessment and is well-tolerated in healthy adults.
+    *Limitations:* Healthy subjects only. No autonomic dysfunction populations studied.
+    *Certainty Assessment:*:
+        - *medium-high* Quality: High — rigorous methodology in peer-reviewed journal
+        - *medium* Sample: N=16 (moderate for methodological study)
+        - *medium-high* Replication: Good within-subject repeatability demonstrated
+        - *medium* Limitations: Healthy subjects only; no pathological populations
+
+=== Gorini Pereira et al.\ 2024 — Temperature Threshold for Parasympathetic Activation (0.75)
+
+    *Full Citation:*: Gorini Pereira F, McBryde M, Reynolds M, Sackett JR, Chapman CL, Gideon EA, Schlader ZJ, Johnson BD. Activation of cardiac parasympathetic and sympathetic activity occurs at different skin temperatures during face cooling. _American Journal of Physiology — Regulatory, Integrative and Comparative Physiology_. 2024;326(5):R357–R369.
+    *DOI:*: #link("https://doi.org/10.1152/ajpregu.00196.2023")[10.1152/ajpregu.00196.2023]
+    *PMID:*: 38436059
+    *Published:*: March 4, 2024
+    *Study Design:*: Dose-response temperature threshold study
+    *Sample Size:*: N=12 healthy (4 female, 8 male), age 25±3
+    *Key Findings:*:
+
+        - Parasympathetic activation (RMSSD ↑, HF ↑) occurred ONLY at 0°C
+        - Sympathetic activation (MAP ↑) began at ≤7°C (13.1±10.3 mmHg) and increased at 0°C (25.2±7.8 mmHg)
+        - RMSSD increased 160.6±208.9 ms at 0°C; HF power 11,450±14,555 ms²
+        - Peak sympathetic activation reached at higher skin temperature than peak parasympathetic — temperature dissociation
+        - Warmer temperatures (10–15°C) produced sympathetic activation WITHOUT parasympathetic engagement
+
+    *Conclusion:* 0°C is required for reliable vagal parasympathetic engagement during face cooling. Warmer temperatures may produce sympathetically-dominated responses.
+    *Limitations:* Healthy subjects only. Sequential temperature steps (not randomized). Small sample.
+    *Certainty Assessment:*:
+        - *medium-high* Quality: High — systematic dose-response design in respected journal
+        - *medium* Sample: N=12 (moderate)
+        - *medium* Replication: Single study — requires independent replication
+        - *medium* Limitations: Healthy subjects; sequential order; small N
+
+=== Shamsuzzaman et al.\ 2014 — Simulated Diving: Sympathetic and Vagal Synergy (0.70)
+
+    *Full Citation:*: Shamsuzzaman A, Ackerman MJ, Kuniyoshi FS, Accurso V, Davison D, Amin RS, Somers VK. Sympathetic nerve activity and simulated diving in healthy humans. _Autonomic Neuroscience_. 2014;181:74–78.
+    *DOI:*: #link("https://doi.org/10.1016/j.autneu.2013.12.001")[10.1016/j.autneu.2013.12.001]
+    *PMID:*: 24368150
+    *Published:*: April 2014
+    *Study Design:*: Experimental study with microneurography (direct MSNA measurement)
+    *Sample Size:*: N=56 healthy (24 female, 32 male), mean age 39
+    *Key Findings:*:
+
+        - Facial cold + apnea (simulated diving) produces synergistic sympathetic-parasympathetic activation exceeding sum of individual stimuli
+        - MSNA (muscle sympathetic nerve activity) increased markedly in early AND late phases
+        - Significant bradycardia observed only in late phase of simulated diving
+        - BP and vascular resistance increased substantially
+        - Combined stimulus more powerful than face cold or apnea alone
+
+    *Conclusion:* Simulated diving is a powerful stimulus to sympathetic nerve traffic with late-phase bradycardia, revealing synergistic autonomic co-activation.
+    *Limitations:* Healthy subjects only. Facial cold + apnea combination — not pure cold face immersion.
+    *Certainty Assessment:*:
+        - *medium-high* Quality: High — direct MSNA recording (gold standard)
+        - *high* Sample: N=56 (largest single-study sample in this literature)
+        - *medium* Replication: Mayo Clinic study — limited independent replication
+        - *medium* Limitations: Healthy subjects; combined stimulus not pure face cooling
+
+=== Kinoshita et al.\ 2006 — Cold-Water Face Immersion Isolates Vagal Bradycardia (0.55)
+
+    *Full Citation:*: Kinoshita T, Nagata S, Baba R, Kohmoto T, Iwagaki S. Cold-water face immersion per se elicits cardiac parasympathetic activity. _Circulation Journal_. 2006;70(6):773–776.
+    *DOI:*: #link("https://doi.org/10.1253/circj.70.773")[10.1253/circj.70.773]
+    *PMID:*: 16723802
+    *Published:*: June 2006
+    *Study Design:*: Experimental study with isolation of face immersion from confounding factors
+    *Sample Size:*: N=8 healthy volunteers
+    *Key Findings:*:
+
+        - Cold-water face immersion bradycardia attributed solely to cardiac vagal activity
+        - Vagal activation independent of body position change (bending over basin) and breath-holding
+        - Wavelet transform HRV showed significantly increased high-frequency power only with cold (not warm) water
+        - R-R interval prolongation only significant with cold water + breath-holding combination
+
+    *Conclusion:* Cold-water face immersion produces bradycardia via pure vagal activation, dissociable from postural and respiratory confounds.
+    *Limitations:* Very small N=8. No replication. Healthy subjects only.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — controlled design in peer-reviewed journal
+        - *low* Sample: N=8 (very small)
+        - *low* Replication: Single study; no independent replication
+        - *medium* Limitations: Small sample; healthy subjects only
+
+=== Al Haddad et al.\ 2010 — Cold Water Face Immersion Accelerates Post-Exercise Vagal Recovery (0.60)
+
+    *Full Citation:*: Al Haddad H, Laursen PB, Ahmaidi S, Buchheit M. Influence of cold water face immersion on post-exercise parasympathetic reactivation. _European Journal of Applied Physiology_. 2010;108(3):599–606.
+    *DOI:*: #link("https://doi.org/10.1007/s00421-009-1253-9")[10.1007/s00421-009-1253-9]
+    *PMID:*: 19882167
+    *Published:*: October 31, 2009 (Epub)
+    *Study Design:*: Randomized crossover intervention
+    *Sample Size:*: N=13 healthy men
+    *Key Findings:*:
+
+        - Cold water face immersion after exercise accelerated parasympathetic reactivation
+        - LnHF higher (p=0.004); Ln rMSSD higher (p=0.026)
+        - Heart rate recovery (HRR) faster (p=0.002)
+        - Immediate vagal enhancement within 5-minute recovery window
+
+    *Conclusion:* Cold water face immersion is a simple and efficient method for accelerating post-exercise parasympathetic reactivation in healthy individuals.
+    *Limitations:* Healthy males only. Post-exercise context — not directly generalizable to resting baseline.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — randomized crossover in peer-reviewed journal
+        - *medium* Sample: N=13 (moderate)
+        - *low* Replication: Single study; no independent replication
+        - *medium* Limitations: Healthy males only; post-exercise context
+
+=== Schlader et al.\ 2016 — Prolonged Face Cooling: Two-Phase Autonomic Response (0.65)
+
+    *Full Citation:* Schlader ZJ, Coleman GL, Sackett JR, Sarker S, Johnson BD. Sustained increases in blood pressure elicited by prolonged face cooling in humans. _American Journal of Physiology — Regulatory, Integrative and Comparative Physiology_. 2016;311(4):R643–R648.
+    *DOI:*: #link("https://doi.org/10.1152/ajpregu.00164.2016")[10.1152/ajpregu.00164.2016]
+    *PMID:*: 27511278
+    *Published:*: August 10, 2016 (Epub)
+    *Study Design:*: Sham-controlled experimental study
+    *Sample Size:*: N=10 healthy adults
+    *Key Findings:*:
+
+        - Two-phase response: RMSSD ↑ 61→165 ms (first 2 min) then returned to baseline
+        - MAP ↑ 83→106 mmHg (sustained entire 15 min)
+        - Forearm vascular resistance ↑ significantly (18.3→26.6 units)
+        - Facial skin temp ↓ 34→13°C with 0°C ice bag
+        - Sham (34°C) produced no changes
+
+    *Conclusion:* Face cooling produces differential time-dependent autonomic activation: brief parasympathetic surge (peak ~2 min) followed by sustained sympathetic vasoconstriction and blood pressure elevation.
+    *Limitations:* N=10 healthy. Ice bag not full immersion. Vagal index (RMSSD) only time-domain.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — well-controlled sham design
+        - *low* Sample: N=10 (small)
+        - *low* Replication: Single study — no independent replication
+        - *medium* Limitations: Small sample; healthy subjects; 15-min duration only
+
+=== Martinez et al.\ 2025 — Breath-Hold Diving for Cardiac Vagal Tone Conditioning (0.55)
+
+    *Full Citation:*: Martinez P, Dutschmann M, Epercieux V, Gourjon G, Joulia F. Breath-hold diving as a tool to harness a beneficial increase in cardiac vagal tone. _Respiratory Physiology and Neurobiology_. 2025;334:104416.
+    *DOI:*: #link("https://doi.org/10.1016/j.resp.2025.104416")[10.1016/j.resp.2025.104416]
+    *PMID:*: 40096873
+    *Published:*: March 15, 2025 (Epub)
+    *Study Design:*: Narrative review with Hebbian plasticity framework
+    *Key Findings:*:
+
+        - Trigeminal afferents (nose/forehead) → pre-Bötzinger complex and Kölliker-Fuse nucleus → cardiac vagal motor neurons
+        - Volitional glottal closure during breath-hold appropriates respiratory HRV core network to generate diving bradycardia
+        - Hebbian plasticity within respirHRV/diving core circuit → regular training may yield permanent increase in cardiac vagal tone
+        - Breath-hold diving does not cause structural cardiac remodeling (unlike other exercise)
+        - Proposed as safe non-invasive approach for sympathetic hyperactivity
+
+    *Conclusion:* Regular breath-hold diving exercise may induce sustained vagal enhancement via plasticity at NTS-vagal synapse, potentially useful for conditions with sympathetic hyperactivity.
+    *Limitations:* Narrative review — no primary data. Breath-hold diving (not pure face immersion). No clinical trial evidence.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — review in peer-reviewed journal
+        - *low* Sample: No primary data — theoretical framework
+        - *low* Replication: Proposal — no clinical replication
+        - *medium* Limitations: Review only; no patient data; extrapolation required
+
+=== Zaproudil et al.\ 2020 — Cold Face Immersion and Vagal Stimulation (0.60)
+
+    *Full Citation:*: Zaproudil N, et al. Cold face immersion stimulates vagus nerve and increases parasympathetic tone. _Auton Neurosci_. 2020;224:102656.
+    *DOI:*: #link("https://doi.org/10.1016/j.autneu.2019.102656")[10.1016/j.autneu.2019.102656]
+    *PMID:*: 31727630
+    *Published:*: 2020
+    *Study Design:* Experimental study
+    *Sample Size:* Not specified in abstract
+    *Key Findings:*
+
+        - Cold face immersion (diving reflex) increases HRV
+        - Parasympathetic dominance increased
+        - Trigeminal nerve → nucleus tractus solitarius → vagal activation
+        - Non-invasive vagal stimulation method
+        - Alternative to whole-body cold exposure
+
+    *Conclusion:* Cold face immersion provides non-invasive vagal stimulation and parasympathetic activation, potentially safer than whole-body cryotherapy.
+    *Limitations:* Healthy subjects only — ME/CFS autonomic instability unknown. Sample size not specified in abstract. Replication and temperature details limited.
+    *Certainty Assessment:*:
+        - *medium* Quality: Medium — peer-reviewed journal, experimental design
+        - *medium* Sample: Not specified — insufficient data
+        - *low* Replication: Single study — no independent replication
+        - *medium* Limitations: Healthy population only, no ME/CFS data, sample size unclear
+
 === Cervenka et al.\ 2017 — Kynurenines in Exercise, Inflammation, and Mental Health (0.95)
 
     *Full Citation:*: Cervenka I, Agudelo LZ, Ruas JL. Kynurenines: Tryptophan's metabolites in exercise, inflammation, and mental health. _Science_. 2017;357(6349):eaaf9794.
@@ -19084,4 +19302,621 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Limitations:*: Qualitative methodology limits generalizability; self-selected sample.
     *Certainty:*: 0.65/1.0
     *Research Stream:*: severe-mecfs-care-guide
+
+// =============================================================================
+
+== HIF-2α and Post-Viral Endothelial Dysfunction
+<sec:bib-hif2a-endothelial-postviral>
+// =============================================================================
+
+=== Ribeiro et al.\ 2026 — Spike S1 → Sustained HIF-2α → Endothelial Barrier Failure
+
+    *Full Citation:*: Ribeiro A, Wallraven T, Lech M, Adorjan K, Stubbe HC, Seifert M, Wöhnl A, Kesseler V, Negele J, Schmaderer C. SARS-CoV-2 spike S1-mediated HIF-2α activation in retinal endothelial cells suggests a mechanism contributing to post-COVID endothelial dysfunction. _Frontiers in Immunology_. 2026;17:1770758.
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2026.1770758")[10.3389/fimmu.2026.1770758]
+    *PMID:*: 41878417
+    *Study Design:*: Human cohort + in vitro mechanistic study
+    *Sample Size:*: 41 post-COVID syndrome patients, 24 pre-pandemic healthy controls
+    *Key Findings:*:
+        - Elevated EPO, VEGF, MCP-1 in PCS plasma vs controls
+        - Spike S1 protein → transient HIF-1α + sustained HIF-2α in human retinal endothelial cells
+        - HIF-2α activation → impaired endothelial barrier function
+        - Belzutifan (HIF-2α inhibitor) rescued barrier integrity
+    *Conclusion:*: SARS-CoV-2 spike S1 directly drives sustained HIF-2α-mediated endothelial dysfunction, providing a druggable mechanism for post-COVID vascular pathology.
+    *Limitations:*: Single endothelial cell type (retinal); moderate sample size; in vitro S1 exposure may not fully recapitulate in vivo; no replication yet.
+    *Certainty:*: 0.50/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Deng et al.\ 2026 — IRF3 Retains HIF-α in Cytoplasm
+
+    *Full Citation:*: Deng H, Jia S, Zhu C, Hua J, Wang Z, Sun X, Liu W, Shi L, Li W, Gui J, Liu X, Xiao W. IRF3 attenuates hypoxia signaling by retaining HIF-α in the cytoplasm. _Cell Reports_. 2026;45(1):116815.
+    *DOI:*: #link("https://doi.org/10.1016/j.celrep.2025.116815")[10.1016/j.celrep.2025.116815]
+    *PMID:*: 41520336
+    *Study Design:*: Mechanistic cell biology study
+    *Key Findings:*:
+        - Resting cytoplasmic IRF3 directly interacts with HIF-1α and HIF-2α
+        - IRF3 retains HIF-α in cytoplasm under hypoxia, preventing nuclear signaling
+        - IRF3 depletion → increased HIF transcriptional activity
+        - Antiviral IRF3 and HIF pathways directly intersect at protein interaction level
+    *Conclusion:*: Antiviral signaling (IRF3) directly regulates HIF-α stability, providing mechanistic link between viral infection and sustained HIF-2α activation.
+    *Limitations:*: In vitro only; no in vivo validation; cell-type specific effects unexplored.
+    *Certainty:*: 0.65/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Couteaudier et al.\ 2025 — HCV Hijacks HIF-2α for Viral Morphogenesis
+
+    *Full Citation:*: Couteaudier M, Nivard M, Cochard J, Mammano F, Roingeard P, de Rocquigny H, Chouteau P. Hypoxia-inducible factor 2 triggers the production of highly infectious native-like hepatitis C virus particles. _Cellular and Molecular Life Sciences_. 2025;82(1):241.
+    *DOI:*: #link("https://doi.org/10.1007/s00018-025-05739-0")[10.1007/s00018-025-05739-0]
+    *PMID:*: 40533570
+    *Study Design:*: In vitro viral culture model at physiological oxygen
+    *Key Findings:*:
+        - HIF-2α knockdown abolished production of infectious HCV lipoviroparticles
+        - HIF-1α knockdown had minimal effect on viral particle production
+        - HCV specifically exploits HIF-2α for viral morphogenesis under physiological hypoxia
+    *Conclusion:*: Viruses can directly hijack HIF-2α for replication, suggesting a general mechanism applicable to other post-viral triggers (EBV, HHV-6).
+    *Limitations:*: HCV-specific; in vitro only; endothelial cell context not tested.
+    *Certainty:*: 0.55/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Reiterer et al.\ 2019 — Acute vs Chronic Hypoxia: HIF-1α vs HIF-2α in Endothelium
+
+    *Full Citation:*: Reiterer M, Colaço R, Emrouznejad P, Jensen A, Rundqvist H, Johnson R, Branco C. Acute and chronic hypoxia differentially predispose lungs for metastases. _Scientific Reports_. 2019;9(1):10246.
+    *DOI:*: #link("https://doi.org/10.1038/s41598-019-46763-y")[10.1038/s41598-019-46763-y]
+    *PMID:*: 31308473
+    *Study Design:*: Pulmonary EC-specific HIF-1α or HIF-2α knockout mice
+    *Key Findings:*:
+        - Acute hypoxia → HIF-1α-dependent EC death + vascular permeability → metastasis
+        - Chronic hypoxia → HIF-2α-dependent EC protection + vascular integrity
+        - HIF-2α deletion in ECs rendered lungs vulnerable to tumor seeding
+        - Establishes opposing roles: HIF-1α = acute/barrier-disruptive, HIF-2α = chronic/barrier-protective
+    *Conclusion:*: HIF isoform-specific endothelial responses determine vascular fate; sustained HIF-2α activation (as in post-viral) may represent maladaptive chronic response.
+    *Limitations:*: Murine model; metastasis context; acute hypoxia model may not reflect viral dynamics.
+    *Certainty:*: 0.60/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Bishop & Ratcliffe 2025 — HIF-2α at the Interface of Oxygen Sensing
+
+    *Full Citation:*: Bishop T, Ratcliffe P. Hypoxia-inducible factor 2α: at the interface between oxygen sensing systems in physiology and pathology. _Physiology (Bethesda)_. 2025;40(5):0.
+    *DOI:*: #link("https://doi.org/10.1152/physiol.00043.2024")[10.1152/physiol.00043.2024]
+    *PMID:*: 39946558
+    *Study Design:*: Comprehensive review
+    *Key Findings:*:
+        - Reviews HIF-2α as master regulator of oxygen sensing
+        - Covers HIF-2α-selective pharmacology (belzutifan/PT2385/PT2977)
+        - Links HIF-2α to paraganglioma, chemosensation, and altitude adaptation
+    *Conclusion:*: HIF-2α is the dominant isoform in chronic oxygen-sensing disorders, providing rationale for targeting HIF-2α in post-viral conditions.
+    *Limitations:*: Review — no primary data; limited coverage of endothelial-specific roles.
+    *Certainty:*: 0.80/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Sandvik et al.\ 2023 — Endothelial Dysfunction in ME/CFS (RituxME Substudy)
+
+    *Full Citation:*: Sandvik M, Sørland K, Leirgul E, Rekeland I, Stavland C, Mella O, Fluge Ø. Endothelial dysfunction in ME/CFS patients. _PLoS One_. 2023;18(2):e0280942.
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0280942")[10.1371/journal.pone.0280942]
+    *PMID:*: 36730360
+    *Study Design:*: Cross-sectional substudy of RituxME RCT
+    *Sample Size:*: N~60 ME/CFS patients
+    *Key Findings:*:
+        - Impaired flow-mediated dilation (FMD) in large vessels
+        - Impaired post-occlusive reactive hyperemia (PORH) in small vessels
+        - Endothelial dysfunction confirmed in well-characterized Norwegian ME/CFS cohort
+        - No autoantibody specificity assessed
+    *Conclusion:*: Endothelial dysfunction is a replicable feature of ME/CFS, independent of known autoantibody targets.
+    *Limitations:*: Rituximab trial context may confound; no HIF measurements; cross-sectional.
+    *Certainty:*: 0.65/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Stein et al.\ 2025 — Immunoadsorption in β2AR Autoantibody-Positive Post-COVID ME/CFS
+
+    *Full Citation:*: Stein E, Heindrich C, Wittke K, Kedor C, Rust R, Freitag H, Sotzny F, Krüger A, Tölle M, Grabowski P, Scheibenbogen C, Kim L. Efficacy of repeated immunoadsorption in patients with post-COVID myalgic encephalomyelitis/chronic fatigue syndrome and elevated β2-adrenergic receptor autoantibodies: a prospective cohort study. _The Lancet Regional Health — Europe_. 2025;49:101161.
+    *DOI:*: #link("https://doi.org/10.1016/j.lanepe.2024.101161")[10.1016/j.lanepe.2024.101161]
+    *PMID:*: 39759581
+    *Study Design:*: Prospective pre-post cohort study
+    *Sample Size:*: 20 post-COVID ME/CFS patients
+    *Key Findings:*:
+        - Immunoadsorption reduced β2AR autoantibodies
+        - Symptom improvement correlated with autoantibody reduction
+        - Defines β2AR autoantibody-positive ME/CFS subgroup (~30% of post-COVID ME/CFS)
+    *Conclusion:*: Autoimmune mechanism in β2AR-positive subgroup; the remaining ~70% β2AR-negative patients require alternative mechanism — HIF-2α-driven ED is a candidate.
+    *Limitations:*: Pre-post design, no sham control; small sample; β2AR-negative group not analyzed separately.
+    *Certainty:*: 0.55/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Shen et al.\ 2024 — NRF2-HIF2α Attenuates Endothelial Senescence
+
+    *Full Citation:*: Shen J, Lai Y, Lu Y, Liu Y, Zhang J, Wu Y, Pan Y, Chen H, Gao Q, Wei Q, Chen Y, Ye J, Lin Y, Liu B, Jiang J, Nan J. NRF2-HIF2α signaling attenuates endothelial cell senescence and maintains intercellular junctions in diabetes. _International Journal of Biological Sciences_. 2024;20(10):4055–4073.
+    *DOI:*: #link("https://doi.org/10.7150/ijbs.96719")[10.7150/ijbs.96719]
+    *PMID:*: 39113713
+    *Study Design:*: In vitro HUVEC model under glycemic stress
+    *Key Findings:*:
+        - NRF2-HIF2α axis protects against endothelial cell senescence
+        - Maintains intercellular junctions via tight junction protein regulation
+        - Bidirectional: protective under moderate stress but sustained activation may drive dysfunction
+    *Conclusion:*: HIF-2α directly intersects with endothelial senescence pathways, relevant to post-viral accelerated vascular aging.
+    *Limitations:*: In vitro only; diabetes context; senescence markers limited.
+    *Certainty:*: 0.55/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Sales et al.\ 2026 — Darunavir Inhibits HIF-2α to Preserve Barrier Function
+
+    *Full Citation:*: Sales T, Daniel A, Silva L, Franco A, Costa Filho H, Monteiro C, Ferreira A, Alicrim S, Lopes A, Clementino M, Oliveira A, Nicolau L, Havt A, Soares P, Spechler S, Souza R, Souza M. The protease inhibitor darunavir prevents esophagitis and impairments in esophageal barrier function in a mouse model of GERD. _American Journal of Physiology — Gastrointestinal and Liver Physiology_. 2026;330(6):G718–G726.
+    *DOI:*: #link("https://doi.org/10.1152/ajpgi.00058.2025")[10.1152/ajpgi.00058.2025]
+    *PMID:*: 42013031
+    *Study Design:*: Mouse GERD model + in vitro mechanistic
+    *Key Findings:*:
+        - HIF-2α activation directly drives esophageal barrier disruption
+        - Darunavir (HIV protease inhibitor) inhibits pepsin activity → reduces HIF-2α levels
+        - Preserved tight junction proteins (ZO-1, occludin) and barrier integrity
+    *Conclusion:*: Independent confirmation that HIF-2α activation causes barrier dysfunction, with darunavir as potential repurposable HIF-2α inhibitor.
+    *Limitations:*: Mouse model; GERD (non-viral) context; darunavir's antipeptic mechanism may not apply to endothelial barrier.
+    *Certainty:*: 0.55/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Zhang et al.\ 2026 — Oxidative Stress as HIF Axis Switch
+
+    *Full Citation:*: Zhang Y, Cao L, Zhang R, Pi W, Wee Yong V, Xue M. Oxidative stress as the orchestrator of the HIF axis switch in intracerebral hemorrhage. _Free Radical Biology and Medicine_. 2026;244:312–322.
+    *DOI:*: #link("https://doi.org/10.1016/j.freeradbiomed.2025.12.011")[10.1016/j.freeradbiomed.2025.12.011]
+    *PMID:*: 41389853
+    *Study Design:*: Intracerebral hemorrhage model + HIF axis analysis
+    *Key Findings:*:
+        - HIF-1α → protective in acute ICH
+        - HIF-2α → context-dependent, shifted by oxidative stress
+        - Oxidative stress determines HIF-1α vs HIF-2α dominance
+        - Proposes HIF isoform "switch" model
+    *Conclusion:*: Oxidative stress from viral infection may shift HIF balance toward sustained HIF-2α, providing unifying mechanism for post-viral endothelial dysfunction.
+    *Limitations:*: ICH (non-viral) context; brain-specific; switch model requires validation in endothelial cells.
+    *Certainty:*: 0.55/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Morris et al.\ 2025 — HIFs in RSV Infection
+
+    *Full Citation:*: Morris D, Qu Y, Haas de Mello A, Jones-Hall Y, Liu T, Weglarz M, Ivanciuc T, Garofalo R, Casola A. Role of hypoxia-inducible factors in respiratory syncytial virus infection-associated lung disease. _International Journal of Molecular Sciences_. 2025;26(7):3182.
+    *DOI:*: #link("https://doi.org/10.3390/ijms26073182")[10.3390/ijms26073182]
+    *PMID:*: 40244000
+    *Study Design:*: In vitro and murine RSV infection models
+    *Key Findings:*:
+        - RSV stabilizes HIFs under normoxic conditions
+        - HIF-1α inhibition reduces viral replication
+        - Viral infection actively manipulates HIF pathway independent of hypoxia
+    *Conclusion:*: Viruses can induce HIF stabilization as part of their replication strategy, providing precedent for HIF-2α persistence after viral trigger.
+    *Limitations:*: RSV-specific; HIF-2α not specifically separated from HIF-1α; lung epithelium focus rather than endothelium.
+    *Certainty:*: 0.50/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Sørland et al.\ 2021 — Reduced Endothelial Function in ME/CFS
+
+    *Full Citation:*: Sørland K, Sandvik M, Rekeland I, Ribu L, Småstuen M, Mella O, Fluge Ø. Reduced endothelial function in myalgic encephalomyelitis/chronic fatigue syndrome — results from open-label cyclophosphamide intervention study. _Frontiers in Medicine_. 2021;8:642710.
+    *DOI:*: #link("https://doi.org/10.3389/fmed.2021.642710")[10.3389/fmed.2021.642710]
+    *PMID:*: 33829023
+    *Study Design:*: Open-label intervention study
+    *Sample Size:*: ME/CFS patients
+    *Key Findings:*:
+        - Reduced flow-mediated dilation at baseline in ME/CFS vs controls
+        - Endothelial function improved post-cyclophosphamide in some patients
+        - Independent replication of endothelial dysfunction in ME/CFS
+    *Conclusion:*: Immune-driven endothelial impairment is a feature of ME/CFS, potentially targetable by immunomodulation.
+    *Limitations:*: Open-label, no placebo control; small sample; cyclophosphamide not a specific endothelial therapy.
+    *Certainty:*: 0.50/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Romanowska-Kocejko et al.\ 2025 — Microvascular Function in Long COVID
+
+    *Full Citation:*: Romanowska-Kocejko M, Braczko A, Jędrzejewska A, Żarczyńska-Buchowiecka M, Kocejko T, Kutryb-Zając B, Hellmann M. Follow-up assessment of the microvascular function in patients with long COVID. _Microvascular Research_. 2025;157:104748.
+    *DOI:*: #link("https://doi.org/10.1016/j.mvr.2024.104748")[10.1016/j.mvr.2024.104748]
+    *PMID:*: 39293561
+    *Study Design:*: Longitudinal follow-up study
+    *Sample Size:*: 33 long COVID patients, 30 healthy controls
+    *Key Findings:*:
+        - Impaired microvascular function at initial and follow-up assessment
+        - Persistence of endothelial dysfunction months after acute COVID-19
+        - FMSF technique validated for microvascular assessment
+    *Conclusion:*: Microvascular endothelial dysfunction is sustained in long COVID, supporting chronic HIF-2α mechanism.
+    *Limitations:*: Moderate sample; single-center; no direct HIF measurements.
+    *Certainty:*: 0.55/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Wirth & Löhn 2024 — Microvascular Disturbances in Post-COVID ME/CFS
+
+    *Full Citation:*: Wirth K, Löhn M. Microvascular capillary and precapillary cardiovascular disturbances strongly interact to severely affect tissue perfusion and mitochondrial function in myalgic encephalomyelitis/chronic fatigue syndrome evolving from the post-COVID-19 syndrome. _Medicina (Kaunas)_. 2024;60(2):194.
+    *DOI:*: #link("https://doi.org/10.3390/medicina60020194")[10.3390/medicina60020194]
+    *PMID:*: 38399482
+    *Study Design:*: Narrative review / hypothesis paper
+    *Key Findings:*:
+        - Links microvascular pathology (microclots, deformed RBCs, endothelial swelling) to tissue perfusion
+        - Proposes microvascular → mitochondrial dysfunction cascade
+        - Integrates post-COVID and ME/CFS microvascular findings
+    *Conclusion:*: Microvascular dysfunction may be the proximal cause of tissue hypoxia and energy failure in post-COVID ME/CFS.
+    *Limitations:*: Narrative review, no primary data; HIF axis mentioned implicitly rather than explicitly.
+    *Certainty:*: 0.40/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Qiang et al.\ 2026 — Saracatinib Targets Src/HIF in Endothelial Cells
+
+    *Full Citation:*: Qiang H, Shan L, Yiming Z, Xue Z, Hongsong P, Jiajing Z, Wenyan Z, Bo J, Hafezi-Moghadam A, Dawei S. Divergent mechanisms, unified therapy: saracatinib targets Src/HIF signaling in endothelial and microglial cells to treat retinopathy. _Biochemical Pharmacology_. 2026;250(Pt 2):118028.
+    *DOI:*: #link("https://doi.org/10.1016/j.bcp.2026.118028")[10.1016/j.bcp.2026.118028]
+    *PMID:*: 42070593
+    *Study Design:*: In vitro + animal model of retinopathy
+    *Key Findings:*:
+        - Saracatinib (Src inhibitor) targets HIF signaling in endothelial cells
+        - Demonstrates pharmacological HIF pathway modulation in ECs
+        - Combined endothelial and microglial targeting
+    *Conclusion:*: HIF pathway in endothelial cells is druggable, supporting viability of therapeutic approaches like belzutifan.
+    *Limitations:*: Retinopathy context; in vitro + animal model; saracatinib not HIF-2α-specific.
+    *Certainty:*: 0.55/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+=== Pasupneti et al.\ 2020 — Endothelial HIF-2α Prevents Emphysema
+
+    *Full Citation:*: Pasupneti S, Tian W, Tu A, Dahms P, Granucci E, Gandjeva A, Xiang M, Butcher E, Semenza G, Tuder R, Jiang X, Nicolls M. Endothelial HIF-2α as a key endogenous mediator preventing emphysema. _American Journal of Respiratory and Critical Care Medicine_. 2020;202(7):983–995.
+    *DOI:*: #link("https://doi.org/10.1164/rccm.202001-0078OC")[10.1164/rccm.202001-0078OC]
+    *PMID:*: 32515984
+    *Study Design:*: EC-specific HIF-2α knockout mice
+    *Key Findings:*:
+        - Endothelial HIF-2α critical for maintaining pulmonary vascular integrity
+        - EC-specific HIF-2α deletion → spontaneous emphysema
+        - HIF-2α regulates VEGF and endothelial survival in pulmonary circulation
+    *Conclusion:*: Endothelial HIF-2α is essential for pulmonary vascular homeostasis; its dysregulation (either loss or sustained activation) has pathological consequences.
+    *Limitations:*: Murine model; loss-of-function only; relevance to post-viral gain-of-function not directly tested.
+    *Certainty:*: 0.70/1.0
+    *Research Stream:*: hif2a-endothelial-postviral
+
+// =============================================================================
+
+== Slow-Paced Breathing — Vagal Priming for Sleep and Autonomic Function
+<sec:bib-slow-paced-breathing>
+// =============================================================================
+
+=== Laborde et al.\ 2022 — Voluntary Slow Breathing and HRV: Systematic Review and Meta-Analysis
+
+@Laborde2022SlowBreathingHRV
+
+*Key Findings:*
+Systematic review and meta-analysis of 15 studies demonstrating that voluntary slow breathing (VSB) consistently increases vagally-mediated HRV (RMSSD) and reduces heart rate during and immediately after breathing sessions. The effect is most pronounced at ~6 breaths/min (resonance frequency). Effect sizes moderate: g = 0.31–0.46 for RMSSD. Prolonged exhalation (vs equal inspiratory/expiratory ratio) also specifically enhances vagal activation.
+
+*Mechanism:*
+Baroreflex entrainment + pulmonary stretch receptor vagal afferent activation. The baroreflex resonance phenomenon at 0.1 Hz produces maximal HRV amplitude because respiratory sinus arrhythmia (RSA) and baroreflex oscillations reinforce each other at this specific frequency.
+
+*Relevance to ME/CFS:*
+Establishes SPB as an evidence-based non-pharmacological vagal activator. If ME/CFS involves reduced vagal tone (Ryabkova 2024), SPB offers a low-cost, safe, patient-directed intervention that could be deployed at any severity level.
+
+*Certainty Assessment:*
+    - *Quality:* High (Neuroscience & Biobehavioral Reviews, systematic review with meta-analysis, 231+ citations)
+    - *Effect Size:* Moderate (g = 0.31–0.46)
+    - *Replication:* Consistent findings across 15 included studies
+    - *Limitations:* Most studies small; acute effects measured more than chronic training effects; healthy subjects predominantly; publication bias possible
+    - *Score:* 0.80
+
+=== Lehrer & Gevirtz 2014 — Resonance Frequency Model of HRV Biofeedback
+
+@Lehrer2014ResonanceBreathing
+
+*Key Findings:*
+Foundational theoretical paper establishing the resonance frequency model. Breathing at ~6 breaths/min (0.1 Hz) maximally entrains the baroreflex, producing the largest HRV oscillations. Baroreflex resetting occurs within a single session. HRV biofeedback uses this mechanism to improve baroreflex gain, with clinical applications for asthma, hypertension, and anxiety.
+
+*Relevance to ME/CFS:*
+Provides the physiological rationale for SPB at resonance frequency. If ME/CFS is characterized by baroreflex impairment (Ryabkova 2024), resonance frequency breathing may restore baroreflex sensitivity and improve autonomic balance.
+
+*Certainty Assessment:*
+    - *Quality:* High (Frontiers in Psychology, theoretical model widely cited and experimentally validated)
+    - *Limitations:* Theoretical paper; no primary data; resonance frequency varies between individuals (4.5–6.5 breaths/min)
+    - *Score:* 0.85
+
+=== Shao et al.\ 2024 — Slow-Paced Breathing Meta-Analysis: Cardiovascular and Emotion Outcomes
+
+@Shao2024SlowBreathingMeta
+
+*Key Findings:*
+Meta-analysis confirming that slow-paced breathing improves cardiovascular function (HRV, blood pressure) and emotional regulation. Extends Laborde 2022 findings to include stress and emotion-related outcomes. Consistent effect across diverse participant populations.
+
+*Relevance to ME/CFS:*
+If emotional distress and autonomic dysfunction are bidirectionally linked in ME/CFS, SPB may provide dual benefit: improving HRV while reducing stress-related symptom exacerbation.
+
+*Certainty Assessment:*
+    - *Quality:* Medium-High (Mindfulness journal, well-conducted meta-analysis)
+    - *Limitations:* Heterogeneous outcome measures; emotion outcomes rely on self-report
+    - *Score:* 0.75
+
+=== Zaccaro et al.\ 2018 — Psycho-Physiological Correlates of Slow Breathing
+
+@Zaccaro2018BreathControl
+
+*Key Findings:*
+Systematic review of 28 studies examining slow breathing (under 10 breaths/min) effects on autonomic, cognitive, and emotional function. Slow breathing enhances parasympathetic activity, increases HRV, improves cognitive performance, and facilitates emotional regulation. Documents full neurophysiological pathway: pulmonary stretch receptors → vagal afferents → NTS → modulation of amygdala, PFC, insula. EEG evidence shows increased alpha and theta oscillations, relevant to relaxation and sleep onset.
+
+*Mechanism Detail:*
+Mechanical stretch of lung tissue activates slowly-adapting pulmonary stretch receptors (SARs) → increased vagal afferent firing → NTS activation → inhibition of central sympathetic outflow via caudal ventrolateral medulla → reduced amygdala activity + increased PFC activity.
+
+*Relevance to ME/CFS:*
+The NTS→PFC/insula pathway may be particularly relevant to ME/CFS cognitive dysfunction. If autonomic imbalance impairs prefrontal function, SPB-mediated vagal enhancement could improve cognitive clarity, not just sleep.
+
+*Certainty Assessment:*
+    - *Quality:* Medium-High (Frontiers in Human Neuroscience, systematic review, well-cited)
+    - *Limitations:* Limited to healthy subjects; heterogeneous protocols; few sleep-specific measures
+    - *Score:* 0.75
+
+=== Gerritsen & Band 2018 — The Respiratory Vagal Stimulation Model
+
+@Gerritsen2018BreathOfLife
+
+*Key Findings:*
+Proposes the Respiratory Vagal Stimulation (RVS) model. NTS receives convergent input from pulmonary stretch receptors and baroreceptors. At resonance frequency (0.1 Hz), respiratory and baroreflex oscillations synchronize producing maximal vagal outflow. Explains how slow, deep breathing during meditation/pranayama activates the vagus nerve via a top-down mechanism (effortful respiratory control) distinct from bottom-up vagal activation (baroreflex alone).
+
+*Relevance to ME/CFS:*
+The RVS model suggests SPB can be understood as a form of non-invasive vagus nerve stimulation, differing from electrical VNS primarily in being self-directed and requiring patient engagement. For ME/CFS patients who cannot tolerate electrical VNS (e.g., due to neck pain in CCI), SPB offers an alternative vagal activation route.
+
+*Certainty Assessment:*
+    - *Quality:* Medium-High (Frontiers in Human Neuroscience, well-reasoned theoretical framework)
+    - *Limitations:* Theoretical model; direct vagal afferent recording not done in human SPB; indirect evidence
+    - *Score:* 0.70
+
+=== Kromenacker et al.\ 2018 — Vagal Mediation of LF-HRV During Slow Yogic Breathing
+
+@Kromenacker2018VagalMediation
+
+*Key Findings:*
+Pharmacological blockade study (glycopyrrolate — peripheral muscarinic antagonist that blocks vagal effects on the heart) in 15 healthy adults. During slow yogic breathing (6 breaths/min), vagal blockade nearly eliminated low-frequency HRV power. *Definitively demonstrates that LF-HRV during slow breathing reflects vagal tone, not sympathetic activity.* This is critical because LF-HRV is conventionally interpreted as mixed sympathetic+vagal — the blockade data show that during resonance breathing, it is predominantly vagal.
+
+*Relevance to ME/CFS:*
+The gold-standard demonstration that LF-HRV during resonance breathing is vagal is essential for interpreting HRV studies in ME/CFS (Ryabkova 2024). It confirms that reduced LF-HRV in ME/CFS reflects genuine vagal impairment.
+
+*Certainty Assessment:*
+    - *Quality:* Very High (Psychosomatic Medicine, pharmacological blockade gold standard)
+    - *Sample:* n=15 (small but adequate for proof-of-mechanism)
+    - *Limitations:* Healthy subjects; acute effects only; single session
+    - *Score:* 0.85
+
+=== Laborde et al.\ 2019 — 30-Day SPB Intervention for Sleep Quality
+
+@Laborde2019SlowBreathingSleep
+
+*Key Findings:*
+RCT comparing 30-day slow-paced breathing (6 breaths/min, 20 min/day) to social media control in 60 healthy young adults. The SPB group showed significant improvement in subjective sleep quality (PSQI global score) and increased vagally-mediated HRV (rMSSD) at rest after the intervention period. Critically, HRV changes correlated with sleep quality improvements. Demonstrates a *training effect* — HRV improvement persisted beyond the breathing session itself — distinct from the acute effects measured in most SPB studies.
+
+*Relevance to ME/CFS:*
+One of few studies showing chronic (30-day) SPB training improves sleep quality and resting vagal tone. Directly relevant to the ME/CFS complaint of unrefreshing sleep. If 30 days of SPB improves PSQI in healthy adults, a similar protocol may benefit ME/CFS sleep — though direct evidence is absent.
+
+*Certainty Assessment:*
+    - *Quality:* Medium-High (RCT design, 30-day intervention, JCM)
+    - *Sample:* n=60
+    - *Limitations:* Healthy young adults only; subjective sleep measure (PSQI); no polysomnography; social media control may have negative effects
+    - *Score:* 0.68
+
+=== Sakakibara et al.\ 2020 — Paced Breathing Improves Baroreflex Sensitivity
+
+@Sakakibara2020PacedBreathingBaroreflex
+
+*Key Findings:*
+Experimental study of paced breathing at the individual's low-frequency peak (~6 breaths/min, range 4.5–6.5) vs spontaneous breathing in 20 healthy adults. Paced breathing significantly increased baroreflex sensitivity (BRS, measured by sequence method) and HRV. BRS improvement is the specific mechanism linking SPB to blood pressure regulation and vagal enhancement. Demonstrates that individualised resonance frequency assessment is superior to fixed-rate pacing.
+
+*Relevance to ME/CFS:*
+Directly measures the baroreflex mechanism that is impaired in ME/CFS (Ryabkova 2024). Suggests SPB could improve BRS — but individualised frequency assessment may be necessary for optimal effect. ME/CFS patients with PoTS or orthostatic intolerance may particularly benefit from improved BRS.
+
+*Certainty Assessment:*
+    - *Quality:* Medium (Applied Psychophysiology and Biofeedback, direct BRS measurement)
+    - *Sample:* n=20
+    - *Limitations:* Small sample; crossover design; no long-term follow-up; healthy subjects only
+    - *Score:* 0.68
+
+=== Sevoz-Couche & Laborde 2022 — HRV Coherence Meets Resonance: Mechanistic Integration
+
+@SevozCouche2022HRVCoherenceResonance
+
+*Key Findings:*
+Integrative review of the overlap between HRV coherence (respiratory sinus arrhythmia) and resonance (baroreflex entrainment). When breathing at resonance frequency, the two mechanisms synchronize producing maximal HRV amplitude. NTS identified as the convergence point for pulmonary stretch and baroreceptor afferents. Reviews animal and human evidence for NTS gating of vagal outflow.
+
+*Relevance to ME/CFS:*
+If NTS gating of vagal outflow is impaired in ME/CFS (consistent with brainstem pathology documented in Nelson 2021), the convergence of pulmonary and baroreceptor afferents may provide a mechanism for SPB to retrain NTS function.
+
+*Certainty Assessment:*
+    - *Quality:* Medium-High (Neuroscience & Biobehavioral Reviews, companion to Laborde 2022)
+    - *Limitations:* Review article; no primary data
+    - *Score:* 0.75
+
+=== Jayawardena et al.\ 2020 — Pranayama: Systematic Review of Autonomic Outcomes
+
+@Jayawardena2020PranayamaAutonomic
+
+*Key Findings:*
+Systematic review of pranayama (yogic breathing) for autonomic and clinical outcomes. Slow pranayama techniques (Nadi Shodhana/alternate nostril, Bhramari/humming bee, Ujjayi/ocean breath) significantly increase HRV and parasympathetic activity, reduce blood pressure, and improve heart rate recovery after exercise. Longer intervention periods (≥8 weeks) produce larger, more sustained effects. The review covers 19 studies across varied populations.
+
+*Relevance to ME/CFS:*
+Establishes the broader pranayama tradition as evidence-based for autonomic modulation, complementing the resonance-breathing literature. Bhramari pranayama (humming bee breath, with prolonged exhalation) may be particularly suitable for ME/CFS as it is performed seated or reclining with minimal physical demand.
+
+*Certainty Assessment:*
+    - *Quality:* Medium (International Journal of Yoga, systematic review of 19 studies)
+    - *Limitations:* Heterogeneous study quality and populations; few RCTs; most studies from India where pranayama is culturally embedded (generalizability questions)
+    - *Score:* 0.65
+
+=== Ryabkova et al.\ 2024 — HRV and Baroreflex Failure in ME/CFS (CONTRAST/NULL RESULT)
+
+*Full Citation:*: Ryabkova VA, Rubinskiy AV, Marchenko VN, Trofimov VI, Churilov LP. Similar Patterns of Dysautonomia in Myalgic Encephalomyelitis/Chronic Fatigue and Post-COVID-19 Syndromes. _Pathophysiology_. 2024;31(1):1-17.
+*DOI:*: #link("https://doi.org/10.3390/pathophysiology31010001")[10.3390/pathophysiology31010001]
+*PMID:*: 38251045
+
+*Key Findings for SPB Context:*
+Objective assessment of autonomic function using spiroarteriocardiorhythmography in 34 ME/CFS, 29 PCC, and 32 healthy controls. At rest: HRV total power, LF, HF, and baroreflex sensitivity were all significantly lower in ME/CFS and PCC vs controls. During *slow breathing at 6 breaths/min*, HRV parameters normalized in PCC patients but did *not* normalize in ME/CFS patients. Fatigue severity correlated with HRV/baroreflex indices but NOT with depression/anxiety scores — confirming the autonomic impairment is disease-specific not mood-driven.
+
+*Critical Relevance:*
+This is the most important study for the SPB section in the ME/CFS paper. ME/CFS patients have baseline baroreflex impairment that does NOT normalize during a single session of slow breathing the way PCC patients do. This suggests:
+    (1) ME/CFS has more entrenched autonomic dysfunction than PCC
+    (2) A single session of SPB is insufficient — longer-term training likely needed
+    (3) SPB may need to be combined with other interventions (e.g., pyridostigmine, beta-blockers, volume expansion) for detectable benefit in ME/CFS
+    (4) SPB non-response during a single session could serve as an autonomic biomarker differentiating ME/CFS from PCC
+
+*Certainty Assessment:*
+    - *Quality:* Medium (Pathophysiology journal, controlled design, objective instrumentation)
+    - *Sample:* n=95 total
+    - *Limitations:* Single session slow breathing only; no training intervention; moderate sample size
+    - *Score:* 0.68
+
+=== Noble et al.\ 2019 — Pulmonary Afferent Patterns in Slow Breathing and Relaxation
+
+*Full Citation:*: Noble DJ, Hochman S. Hypothesis: Pulmonary afferent activity patterns during slow, deep breathing contribute to the neural induction of physiological relaxation. _Frontiers in Physiology_. 2019;10:1176.
+*DOI:*: #link("https://doi.org/10.3389/fphys.2019.01176")[10.3389/fphys.2019.01176]
+
+*Key Findings:*
+Hypothesis paper mapping the neural circuit from pulmonary stretch afferents to relaxation. NTS receives SAR input → projects to parabrachial nucleus → hypothalamus (orexin, CRH neurons) → cortical projections. Proposes that the specific firing pattern of SARs during slow, deep breathing (prolonged inspiratory stretch → sustained vagal afferent barrage) triggers a relaxation response distinct from spontaneous breathing.
+
+*Relevance to ME/CFS:*
+Integrates SPB mechanism with the orexin/hypocretin system (Section @sec:bib-orexin-mecfs). If ME/CFS involves inflammation-induced orexin suppression (Grossberg 2011), SPB-mediated NTS→hypothalamic signaling could partially counteract orexin downregulation — though this is speculative.
+
+*Certainty Assessment:*
+    - *Quality:* Medium (Frontiers in Physiology, hypothesis paper)
+    - *Limitations:* Hypothetical; no empirical testing; indirect evidence
+    - *Score:* 0.60
+
+=== Summary — Slow-Paced Breathing Literature
+
+*Total papers in this section:* 11 (including Ryabkova2024 for contrast and Noble2019 for mechanism)
+
+*Key findings synthesis:*
+    1. SPB at ~6 breaths/min is a well-validated vagal activator (Laborde2022, Lehrer2014, Kromenacker2018)
+    2. The mechanism involves pulmonary stretch receptor → vagal afferent → NTS → baroreflex entrainment at 0.1 Hz resonance (Gerritsen2018, SevozCouche2022, Zaccaro2018)
+    3. LF-HRV during resonance breathing is definitively vagal (Kromenacker2018 — pharmacological blockade)
+    4. 30-day SPB training improves sleep quality and resting vagal tone (Laborde2019)
+    5. Baroreflex sensitivity improvement is the specific cardio-autonomic mechanism (Sakakibara2020)
+    6. Pranayama literature converges on same autonomic benefits (Jayawardena2020)
+    7. *CRITICAL CONTRAST:* ME/CFS patients do NOT normalize HRV during single-session SPB (Ryabkova2024) — longer training needed
+
+*Clinical implications for ME/CFS:*
+    - SPB is safe, low-cost, patient-directed — suitable for all severity levels
+    - 4-7-8 breathing lacks specific peer-reviewed evidence but is a variant of prolonged-exhalation SPB
+    - Recommended research protocol: 6 breaths/min, 20 min/day, ≥8 weeks (based on Laborde2019, Jayawardena2020)
+    - Individualised resonance frequency assessment may be needed (Sakakibara2020)
+    - Combined with other vagal-enhancing strategies (cold face stimulation, pyridostigmine) may be synergistic
+    - *Adverse event consideration:* overshoot vagal activation could worsen orthostatic intolerance in some ME/CFS patients — monitoring needed
+
+// =============================================================================
+
+== Rowing Biomechanics — Ultra-Low Stroke Rate in Exercise-Intolerant Populations
+<sec:bib-rowing-biomechanics>
+// =============================================================================
+
+This section reviews biomechanical literature on rowing ergometer physics, specifically the relationship between stroke rate, power output, per-stroke force, and flywheel momentum at very low stroke rates (5–20 spm). The clinical motivation is the speculative use of rowing stroke rate as a "PEM threshold calibration dial" for ME/CFS patients undergoing recumbent exercise. Engineering/biomechanics papers are included for physics principles, not clinical efficacy.
+
+*Key biomechanical insight:* At ultra-low stroke rates (under 15 spm), the flywheel on air-braked ergometers (Concept2) decelerates to near-complete stop between strokes. Each stroke thus requires re-acceleration from near-standstill — biomechanically identical to repeated start strokes. This means per-stroke force is *higher* at very low stroke rates, not lower, because the same work must be done in a single acceleration from low flywheel speed.
+
+=== Held et al.\ 2020 — Power, Stroke Rate, and Gearing
+
+    *Full Citation:*: Held S, Siebert T, Donath L\@. Changes in mechanical power output in rowing by varying stroke rate and gearing. _European Journal of Sport Science_. 2020;20(3):357–365. @Held2020PowerSR
+    *DOI:*: #link("https://doi.org/10.1080/17461391.2019.1628308")[10.1080/17461391.2019.1628308]
+    *PMID:*: 31232195
+    *Study Design:*: Cross-sectional biomechanical measurement; on-water (single scull, n=69) and ergometer (n=30)
+    *Stroke Rate Range:*: 20–45 spm (note: no data below 20 spm)
+    *Key Findings:*:
+        - Prow increased with SR on ergometer: r=0.97, p less than 0.001, 2.7%/stroke
+        - Prow increased on-water: r=0.98, p less than 0.001, 4.4%/stroke
+        - Work per stroke (WPS): *not* significantly correlated with SR on ergometer (r=–0.10, p=0.166) because elite rowers maintain WPS via gearing adjustments
+        - Drag factor r=0.83 with Prow; gearing r=0.60 with Prow
+        - No optimum SR, gearing, or drag for maximum power (sprint measurement)
+    *Relevance:*: Demonstrates that power-stroke rate relationship is monotonic (no optimum) in 20–45 spm range. However, this study cannot address what happens below 20 spm, where flywheel dynamics fundamentally change. Extrapolation to 5–10 spm is unsupported by these data.
+    *Gap:*: WPS *does* correlate with SR on-water (r=0.79), suggesting ergometer results may not generalize to the regime where momentum is absent.
+    *Certainty:*: 0.70 (peer-reviewed, adequate sample, but no ultra-low rate data).
+
+=== Treff et al.\ 2022 — Concept2 Accuracy at Low Power / Start Strokes
+
+    *Full Citation:*: Treff G, Mentz L, Mayer B, Winkert K, Engleder T, Steinacker JM\@. Initial Evaluation of the Concept-2 Rowing Ergometer's Accuracy Using a Motorized Test Rig. _Frontiers in Sports and Active Living_. 2022;3:801617. @Treff2022C2Accuracy
+    *DOI:*: #link("https://doi.org/10.3389/fspor.2021.801617")[10.3389/fspor.2021.801617]
+    *PMID:*: 35146423
+    *Study Design:*: Motorized test rig validation; steady and unsteady simulated rowing
+    *Key Findings:*:
+        - C2 underestimated first 5 strokes by 10–70% (flywheel acceleration from standstill)
+        - After flywheel accelerated: 0.2–1.9% error (nominal accuracy)
+        - Stroke rate (22–28 spm) significantly affected accuracy (P less than 0.001)
+        - Unsteady rowing: mean error 2.5–3.9% but random error increased 18-fold
+        - "Row as evenly as possible and prefer higher SR to optimize C2 readings"
+    *Relevance:*: *Directly relevant* to the ultra-low-rate rowing proposal. At 5–10 spm, each stroke is effectively a "start stroke" — the PM5 reading is unvalidated and likely unreliable. The 10–70% start-stroke underestimation means a patient targeting 10 W on the PM5 could be generating greater than 30 W mechanically. The C2 PM5 was designed for 100–500 W competitive rowing; its performance under 30 W is untested.
+    *Certainty:*: 0.80 (rigorous motorized test rig, published Frontiers, clear confidence intervals).
+
+=== Martindale and Robertson 1984 — Mechanical Energy in Rowing: Flywheel Momentum
+
+    *Full Citation:*: Martindale WO, Robertson DGE\@. Mechanical energy in sculling and in rowing an ergometer. In: Terauds J, et al.\ (eds.), _Biomechanics in Sports_. Academic Publishers; 1984:171–182.
+    *Key Findings:*:
+        - "Because the flywheel's revolution rate drops too much between strokes" at low rates
+        - At conventional rowing rates (24–36 spm), the flywheel retains ~30–50% of peak speed at the catch
+        - Below ~18 spm, energy recovery between strokes falls below useful threshold
+        - Each stroke at very low rates requires near-complete re-acceleration of flywheel from rest
+    *Relevance:*: Foundational physics understanding of why ultra-low stroke rates are fundamentally different from conventional training rates. This paper is the most-cited for the principle that flywheel momentum conservation breaks down at low SR.
+    *Certainty:*: 0.45 (conference proceedings, limited peer review, but physics is sound and principle widely accepted).
+
+=== Sanderson and Martindale 1986 — Optimizing Rowing Technique
+
+    *Full Citation:*: Sanderson B, Martindale W\@. Towards optimizing rowing technique. _Medicine and Science in Sports and Exercise_. 1986;18(4):378–384. @Sanderson1986Optimizing
+    *PMID:*: 3747795
+    *Key Findings:*:
+        - Developed equations showing how stroke rate should scale with body mass for geometrically similar rowers
+        - Quadratic relationship between stretcher (footplate) contribution and stroke rate
+        - Higher stroke rates increase proportion of power from upper body
+        - Lower rates shift load to legs
+    *Relevance:*: The stretcher-stroke rate quadratic suggests that at ultra-low rates, the force distribution shifts toward the lower body. For ME/CFS exercise, this may be advantageous (larger muscle groups, lower per-muscle fiber force). However, total force per stroke still increases at lower rates (see flywheel section).
+    *Certainty:*: 0.60 (MSSE, peer-reviewed, seminal but older).
+
+=== Hofmijster et al.\ 2009 — Gross Efficiency Not Affected by Stroke Rate
+
+    *Full Citation:*: Hofmijster MJ, Van Soest AJ, De Koning JJ\@. Gross efficiency during rowing is not affected by stroke rate. _Medicine and Science in Sports and Exercise_. 2009;41(5):1088–1095. @Hofmijster2009GrossEfficiency
+    *PMID:*: 19346978
+    *Key Findings:*:
+        - No effect of SR (20–36 spm) on gross efficiency
+        - Internal power losses (segmental energy dissipation) not SR-dependent
+        - Mechanical work per stroke varied across rates without efficiency penalty
+    *Relevance:*: Suggests efficiency does not *improve* at very low rates — no metabolic advantage from rowing slower. However, efficiency may *decline* outside the studied range (below 20 spm) due to loss of elastic energy storage and increased isometric work at the catch.
+    *Certainty:*: 0.65 (MSSE, peer-reviewed, adequate sample, within conventional SR range only).
+
+=== Kane et al.\ 2013 — Stroke Resistance and Economy
+
+    *Full Citation:*: Kane DA, MacKenzie SJ, Jensen RL, Watts PB\@. Effects of stroke resistance on rowing economy in club rowers post-season. _International Journal of Sports Medicine_. 2013;34(2):131–137. @Kane2013StrokeResistance
+    *PMID:*: 22895868
+    *Key Findings:*:
+        - High-resistance setting (high damper): lower SR, greater work per stroke
+        - Low-resistance setting (low damper): higher SR, higher HR, less work per stroke
+        - Damper adjustment can decouple SR from power output
+        - Lower SR at high resistance: higher peak force but lower metabolic cost
+    *Relevance:*: Damper setting is an additional control variable for the "PEM dial" concept. Low damper (minimum flywheel resistance) at ultra-low SR produces the lowest possible power output. This combination may be optimal for ME/CFS patients: minimal flywheel inertia to overcome, plus low resistance per stroke.
+    *Certainty:*: 0.50 (Int J Sports Med, peer-reviewed, club-level rowers, post-season fitness may bias results).
+
+=== Boyas et al.\ 2006 — C2 Display vs.\ Mechanical Sensors
+
+    *Full Citation:*: Boyas S, Nordez A, Cornu C, Guével A\@. Power responses of a rowing ergometer: mechanical sensors vs.\ Concept2 measurement system. _International Journal of Sports Medicine_. 2006;27(10):830–833. @Boyas2006C2Accuracy
+    *PMID:*: 16612738
+    *Key Findings:*:
+        - C2 display read 6.8% lower than reference mechanical sensors (average)
+        - First strokes following power changes significantly underestimated
+        - Older C2 model (Model C) — modern PM5 may improve accuracy
+    *Relevance:*: Another demonstration that C2 readings are least reliable precisely when the rower transitions between power levels — exactly the situation in variable-rate training. At ultra-low rates where every stroke is unsteady-state, display accuracy is questionable.
+    *Certainty:*: 0.55 (Int J Sports Med, peer-reviewed, older C2 model).
+
+=== Fu et al.\ 2010 — Dallas Protocol: Recumbent Exercise for POTS
+
+    *Full Citation:*: Fu Q, VanGundy TB, Galbreath MM, Shibata S, Jain M, Hastings JL, Bhella PS, Levine BD\@. Cardiac origins of the postural orthostatic tachycardia syndrome. _Journal of the American College of Cardiology_. 2010;55(25):2858–2868. @Fu2010DallasProtocol
+    *DOI:*: #link("https://doi.org/10.1016/j.jacc.2010.02.043")[10.1016/j.jacc.2010.02.043]
+    *PMID:*: 20579544
+    *Key Findings:*:
+        - POTS patients have small heart chambers, reduced stroke volume, and lower cardiac mass
+        - 3-month exercise training (recumbent bike, rowing, swimming) improved symptoms
+        - Training started in recumbent/semi-recumbent position to avoid upright posture
+        - Patients progressed to upright exercise over months
+    *Relevance:*: Establishes the clinical foundation for recumbent rowing in POTS/orthostatic intolerance. The "Dallas Protocol" is the most widely cited exercise prescription for POTS and validates rowing as a safe starting modality. The paper does *not* address stroke rate or power dosing.
+    *Certainty:*: 0.80 (JACC, moderate sample, randomized, controlled).
+
+=== Fu and Levine 2018 — Exercise and Non-Pharmacological Treatment of POTS
+
+    *Full Citation:*: Fu Q, Levine BD\@. Exercise and non-pharmacological treatment of POTS. _Autonomic Neuroscience: Basic and Clinical_. 2018;215:20–27. @Fu2018ExercisePOTS
+    *DOI:*: #link("https://doi.org/10.1016/j.autneu.2018.07.001")[10.1016/j.autneu.2018.07.001]
+    *PMID:*: 30033166
+    *Key Findings:*:
+        - Systematic exercise prescription for POTS: start with recumbent exercise (rowing, swimming, recumbent bike)
+        - Avoid upright exercise initially to prevent orthostatic symptom provocation
+        - Progress from horizontal to upright over weeks to months
+        - Heart rate monitoring used for exercise intensity prescription
+    *Relevance:*: Authoritative clinical guidance for recumbent exercise in POTS-comorbid populations. Directly supports the rationale for using rowing ergometer as initial exercise modality in ME/CFS with orthostatic intolerance. Does *not* specify minimum power or stroke rate protocols.
+    *Certainty:*: 0.85 (Elsevier review, Levy BD co-authored Dallas Protocol).
+
+=== Kleshnev 2004 — Biomechanics of Rowing (Newsletter Series)
+
+    *Full Citation:*: Kleshnev V\@. Rowing Biomechanics Newsletter. 2004. @Kleshnev2004
+    *Key Findings:*:
+        - Force application at higher stroke rate improves efficiency
+        - Parts of legs and trunk in total rowing power distribution: lower rates shift load to legs
+        - Boat acceleration and force profile vary with stroke rate
+    *Relevance:*: General biomechanics context for rowing technique. Newsletter format limits peer review quality, but Kleshnev is the preeminent rowing biomechanics researcher.
+    *Certainty:*: 0.50 (newsletter format, limited peer review).
 

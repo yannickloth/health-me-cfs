@@ -758,7 +758,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 
 *CAUTION:*
     + Could exacerbate autoimmunity — HIF-1$alpha$ promotes Th17 differentiation and B cell activation @Little2023HIF1lupus
-    + VEGF elevation could worsen endothelial dysfunction or vascular permeability @Ribeiro2026HIF2alpha
+    + VEGF elevation from HIF-2$alpha$ stabilisation could worsen endothelial barrier dysfunction in patients whose HIF-2$alpha$ is already pathologically active (Section @sec:hif2a-endothelial) @Ribeiro2026HIF2alpha. This risk is subtype-dependent: patients with elevated baseline VEGF/vWF should not receive PHD inhibitors
     + Excessive erythropoiesis increases blood viscosity, potentially worsening cerebral hypoperfusion
     + No ME/CFS safety data exist; all literature is from CKD populations with different baseline physiology
 
@@ -766,19 +766,39 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 ] <spec:hif-ph-inhibitors>
 
 #speculation(title: [Belzutifan (HIF-2$alpha$ Inhibitor) for Post-Viral ME/CFS with Endothelial Dysfunction])[
-*Certainty: 0.25.* Belzutifan is a selective HIF-2$alpha$ inhibitor approved for VHL disease-associated tumours. HIF-2$alpha$ activation in pulmonary endothelium drives vascular remodelling; if post-viral ME/CFS involves HIF-2$alpha$-mediated endothelial dysfunction, belzutifan could rescue endothelial barrier function and reduce capillary permeability @Ribeiro2026HIF2alpha.
+*Certainty: 0.45.* Belzutifan is a selective HIF-2$alpha$ inhibitor approved for VHL disease-associated tumours that blocks HIF-2$alpha$/ARNT heterodimerization, preventing transcriptional activation of VEGF, EDN1, and SERPINE1. Ribeiro et al.\ (2026) @Ribeiro2026HIF2alpha directly demonstrated that belzutifan rescues endothelial barrier integrity in spike S1-stimulated retinal endothelial cells — the only drug shown to reverse this specific post-viral mechanism. The initial certainty (0.25) has been increased to 0.45 based on convergent supporting evidence: (a) Sales et al.\ (2026) independently showed that HIF-2$alpha$ inhibition (via darunavir) preserves tight junction proteins ZO-1 and occludin in a separate epithelial barrier model @Sales2026DarunavirHIF2Barrier, (b) the NRF2-HIF-2$alpha$ axis provides a mechanistic framework for sustained HIF-2$alpha$ dominance after NRF2 depletion @Shen2024NRF2HIF2Senescence @Zhang2026HIFSwitchICH, and (c) the general principle of viral HIF-2$alpha$ exploitation is supported across multiple virus types (HCV @Couteaudier2025HIF2HCV, RSV @Morris2025HIFRSV). However, belzutifan's brain penetration is unknown — peripheral endothelial improvement is expected, but BBB effects are uncertain.
 
-*Mechanistic rationale.* SARS-CoV-2 spike protein upregulates HIF-2$alpha$ in pulmonary endothelium, promoting VEGF production, intercellular gap formation, and increased permeability. If a similar mechanism operates in ME/CFS (whether from SARS-CoV-2 or other viral triggers), HIF-2$alpha$ inhibition could restore endothelial barrier integrity.
+*Mechanistic rationale.* SARS-CoV-2 spike protein upregulates HIF-2$alpha$ in pulmonary and retinal endothelium, promoting VEGF production, intercellular gap formation, and increased permeability. If a similar mechanism operates in ME/CFS (whether from SARS-CoV-2, EBV, HHV-6, or other viral triggers), HIF-2$alpha$ inhibition could restore endothelial barrier integrity. The antiviral signalling protein IRF3 directly regulates HIF-$alpha$ cytoplasmic retention — viral infection relieves this retention, linking diverse viral triggers to the same HIF-2$alpha$ pathway @Deng2026IRF3HIFalpha.
 
-*CAUTION.* HIF-2$alpha$ is not HIF-1$alpha$ — the isoforms have distinct, sometimes opposing functions. HIF-2 inhibition could paradoxically worsen hypoxia sensing. HIF-2$alpha$ supports erythropoietin production in adults; its inhibition could cause anaemia. No ME/CFS data exist.
+*Selection criteria:* Post-viral onset, elevated VEGF/vWF, $beta_2$AR-autoantibody-negative (the ~70% subgroup with no known ED mechanism — Section @sec:hif2a-endothelial).
 
-*Testable prediction.* 8 weeks belzutifan 40mg TIW reduces VWF antigen (endothelial activation marker) by ≥20% and improves 6MWT distance by ≥30~m in post-viral ME/CFS patients with elevated baseline VWF (>150% normal).
+*Dosing:* Start 40~mg daily. Monitor hemoglobin (risk of anemia — HIF-2$alpha$ supports renal EPO production), blood pressure, VEGF q2 wks.
+
+*CAUTION.* HIF-2$alpha$ is not HIF-1$alpha$ — the isoforms have distinct, sometimes opposing functions. HIF-2 inhibition could paradoxically worsen hypoxia sensing. HIF-2$alpha$ supports erythropoietin production in adults; its inhibition could cause anaemia (15--20% incidence in VHL trials). No ME/CFS data exist. Contraindicated in pregnancy.
+
+*Testable prediction.* 8 weeks belzutifan 40~mg daily reduces VWF antigen (endothelial activation marker) by ≥20% and improves 6MWT distance by ≥30~m in post-viral ME/CFS patients with elevated baseline VWF (>150% normal) and $beta_2$AR-autoantibody-negative status. VEGF reduction should precede clinical improvement by 2--4 weeks.
 ] <spec:belzutifan-endothelial>
+
+#speculation(title: [Darunavir/Ritonavir (HIV Protease Inhibitor, HIF-2$alpha$ Blocker) for Endothelial Barrier Rescue])[
+*Certainty: 0.40.* Darunavir, an HIV protease inhibitor in clinical use since 2006, was recently shown to prevent HIF-2$alpha$ activation and preserve tight junction proteins (ZO-1, occludin) in an experimental oesophageal barrier disruption model @Sales2026DarunavirHIF2Barrier. The mechanism is independent of protease inhibition — darunavir directly blocks HIF-2$alpha$ transcriptional activity, preventing the VEGF-driven permeability programme. This represents a repurposing opportunity with an established safety track record (20+ years in HIV populations), dramatically lower cost than belzutifan, and known pharmacokinetics.
+
+*Mechanistic rationale.* HIF-2$alpha$ activation drives VEGF production, which induces intercellular gap formation and barrier disruption. Darunavir inhibits HIF-2$alpha$ activation, preserving junctional integrity @Sales2026DarunavirHIF2Barrier. If the same HIF-2$alpha$ mechanism operates in post-viral ME/CFS endothelial cells, darunavir may provide barrier protection comparable to belzutifan but at a fraction of the cost.
+
+*Dosing:* Darunavir 600~mg BID boosted with ritonavir 100~mg BID (standard HIV dosing). CYP3A4 interaction profile is well-characterized.
+
+*CAUTION.* Hepatotoxicity (3--7%), rash, GI intolerance. Drug interactions via CYP3A4: fludrocortisone, midodrine, LDN, mestinon — all substrates or co-metabolised; levels may change substantially. Requires specialist monitoring. Low CNS penetration — peripheral endothelial protection expected; cognitive symptoms may not improve.
+
+*Drug interactions with common ME/CFS co-prescriptions:* Darunavir/ritonavir is a strong CYP3A4 inhibitor and CYP2D6 inducer. Fludrocortisone: levels may increase (CYP3A4 substrate) — monitor for hypertension, hypokalemia. Midodrine: levels may increase (CYP3A4). LDN: naltrexone is CYP3A4 substrate — levels may increase. Mestinon (pyridostigmine): not CYP3A4-dependent — no interaction. Beta-blockers: metoprolol and propranolol are CYP2D6 substrates — levels may decrease. Antihistamines: fexofenadine is not CYP3A4-dependent — no interaction; loratadine is CYP3A4 substrate — levels may increase.
+
+*Contraindications for bedbound patients:* Hepatotoxicity risk requires regular LFT monitoring. GI intolerance may worsen malnutrition risk. Drug interactions are substantial — polypharmacy in bedbound patients requires careful review.
+
+*Testable prediction.* 4 weeks darunavir/ritonavir in post-viral ME/CFS reduces plasma VEGF and vWF by ≥25% and improves FMD compared to placebo in a double-blind, randomised crossover trial (n=20).
+] <spec:darunavir-hif2a>
 
 #speculation(title: [EPO Stimulation Test as Diagnostic Probe for HIF Pathway Integrity])[
 *Certainty: 0.40.* A standardised hypoxia challenge with serial EPO measurement could serve as a dynamic functional test of HIF pathway integrity in ME/CFS, analogous to the ACTH stimulation test for adrenal insufficiency @Winkler2004.
 
-*Protocol.* 2~h mild hypoxia (FiO#sub[2] 0.14, supine, continuous SpO#sub[2] monitoring, SpO#sub[2] maintained ≥88%) with serum EPO measured at baseline, 2~h, 4~h, 8~h, 24~h, and 48~h. The outcome metric is EPO AUC over 48~h, with detection threshold defined as \u{3c}60% of age/sex-matched control median.
+*Protocol.* 2~h mild hypoxia (FiO#sub[2] 0.14, supine, continuous SpO#sub[2] monitoring, SpO#sub[2] maintained ≥88%) with serum EPO measured at baseline, 2~h, 4~h, 8~h, 24~h, and 48~h. The outcome metric is EPO AUC over 48~h, with detection threshold defined as less than 60% of age/sex-matched control median.
 
 *Mechanistic rationale.* If HIF pathway inertia is a core feature of ME/CFS, the EPO response to a controlled hypoxic stimulus should be blunted relative to controls while basal EPO remains normal — a pattern consistent with impaired inducibility rather than absolute HIF deficiency.
 
