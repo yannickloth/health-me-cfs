@@ -845,7 +845,11 @@ _Research priority_: Low cost, mechanistically decisive. Could be combined with 
 == Noradrenergic Deficiency: Mechanism-to-Treatment Bridge
 <sec:noradrenergic-hypotheses>
 
-This section builds on the selectively noradrenergic central catecholamine deficiency documented by Aregawi et al. (2026) @Aregawi2026Noradrenergic and the mechanistic framework developed in Chapter @ch:neurological. The novelty here lies not in restating the CSF findings but in extending to treatment implications derived from the mechanism.
+#warning-box(title: [Cross-File Evidence Proportionality Warning])[
+*This section explores therapeutic implications of the central noradrenergic deficiency finding.* The underlying finding --- selectively reduced CSF NE Pathway in PI-ME/CFS --- derives from a single center (NIH Clinical Center), n=16 PI-ME/CFS patients, a novel unvalidated composite index, and no independent replication. All 18+ drug, biomarker, and mechanism speculations in this section are anchored to this single unreplicated observation. The most parsimonious alternative explanation --- low CSF NE reflects reduced physical activity rather than causing ME/CFS symptoms --- is addressed in Chapter @ch:neurological but has not been experimentally eliminated. Individually rated certainties (0.05--0.45) are honest; collectively, the density of treatment proposals creates an impression of therapeutic richness disproportionate to the evidence. Before any clinical consideration, the NE Pathway index requires independent validation in multi-center cohorts with deconditioning-matched control groups, and the direction of causality must be established (is NE deficiency cause, consequence, or epiphenomenon?). The clonidine null RCT in adolescent CFS (Sulheim 2014, n=120) @Sulheim2014clonidine provides a cautionary data point: the most direct pharmacological test of NE modulation in CFS produced no benefit. All agents discussed below are *research hypotheses*, not clinical recommendations.
+]
+
+This section builds on the selectively noradrenergic central catecholamine deficiency documented by Aregawi et al. (2026) @Aregawi2026Noradrenergic and the mechanistic framework developed in Chapter @ch:neurological.
 
 === Noradrenergic Reuptake Inhibition as Mechanistically Targeted Therapy
 
@@ -878,7 +882,7 @@ This section builds on the selectively noradrenergic central catecholamine defic
 *Certainty: 0.20.* (Purely mechanistic; zero direct data in ME/CFS.) An alternative pharmacological strategy to NRI agents is α2-adrenergic receptor antagonism. Presynaptic α2 autoreceptors on noradrenergic neurons provide negative feedback: when NE is released, it binds α2 receptors, inhibiting further release. In a state of central NE deficiency, α2-mediated autoinhibition may be pathologically active --- blocking these receptors (with yohimbine, idazoxan, or atipamezole) would disinhibit NE release, potentially restoring central noradrenergic tone.
 
 *Rationale for testing despite low certainty:*
-    - The clonidine negative trial provides indirect support: if α2 agonism (further suppressing NE release) was harmful or neutral, α2 antagonism (enhancing NE release) might be beneficial --- the pharmacological opposite of a null intervention is a rational next candidate
+    - The clonidine negative trial provides a cautionary data point rather than positive evidence: α2 agonism was neutral (not harmful), so the logical inference that α2 antagonism should be beneficial is unwarranted. However, the pharmacological distinction between agonism and antagonism at a receptor subtype level means the null does not refute the α2 antagonist strategy --- it simply provides no evidence for it
     - The ATP-dependent vesicular defect would limit the magnitude of NE release enhancement (vesicles still need ATP to load), but even partial restoration of synaptic NE could improve arousal, attention, and motor output
     - Yohimbine is a natural alkaloid with extensive use in traditional medicine; idazoxan and atipamezole are more selective α2 antagonists used experimentally
 
@@ -964,7 +968,7 @@ Pupil diameter correlates with LC firing rate in non-human primates (Joshi 2016)
 === NE as Descending Analgesia Gate: Pain-Fatigue Mechanism Link
 
 #speculation(title: [CSF NE Deficiency Disinhibits Descending Pain Pathways])[
-*Certainty: 0.35.* (Mechanism coherent; direct test feasible.) The PAG-RVM descending pain modulation system depends on LC-origin NE: LC → spinal cord NE release → α2-AR on nociceptive terminals → inhibition of pain transmission. Low CSF NE impairs descending analgesia → central sensitization → pain amplification. This provides a direct mechanism for the pain-fatigue overlap in ME/CFS and FM: the same NE deficiency that causes fatigue also disinhibits pain processing. FM patients have normal CSF NE but exhibit α2-AR desensitization; ME/CFS patients have low CSF NE with potentially normal receptors. Both converge on impaired NE-mediated pain inhibition through different mechanisms --- explaining why SNRIs (which increase synaptic NE) work in both conditions @Arnold2004duloxetine @Malik2025SNRIfibromyalgia.
+*Certainty: 0.35.* (Mechanism coherent; direct test feasible.) The PAG-RVM descending pain modulation system depends on LC-origin NE: LC → spinal cord NE release → α2-AR on nociceptive terminals → inhibition of pain transmission. Low CSF NE impairs descending analgesia → central sensitization → pain amplification. This provides a direct mechanism for the pain-fatigue overlap in ME/CFS and FM: the same NE deficiency that causes fatigue also disinhibits pain processing. Whether ME/CFS and FM share the same underlying mechanism (low CSF NE vs. α2-AR desensitization, or both) remains unresolved without head-to-head CSF comparison, but both conditions show impaired conditioned pain modulation and respond to SNRIs @Arnold2004duloxetine @Malik2025SNRIfibromyalgia.
 
 Conditioned pain modulation (CPM) --- a clinical measure of endogenous analgesia --- is impaired in both FM and ME/CFS. If CPM impairment correlates with CSF NE Pathway, this identifies a testable NE-pain link.
 
