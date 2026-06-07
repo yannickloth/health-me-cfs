@@ -845,7 +845,7 @@ _Research priority_: Low cost, mechanistically decisive. Could be combined with 
 == Noradrenergic Deficiency: Mechanism-to-Treatment Bridge
 <sec:noradrenergic-hypotheses>
 
-#warning-box(title: [Cross-File Evidence Proportionality Warning])[
+#warning-env(title: [Cross-File Evidence Proportionality Warning])[
 *This section explores therapeutic implications of the central noradrenergic deficiency finding.* The underlying finding --- selectively reduced CSF NE Pathway in PI-ME/CFS --- derives from a single center (NIH Clinical Center), n=16 PI-ME/CFS patients, a novel unvalidated composite index, and no independent replication. All 18+ drug, biomarker, and mechanism speculations in this section are anchored to this single unreplicated observation. The most parsimonious alternative explanation --- low CSF NE reflects reduced physical activity rather than causing ME/CFS symptoms --- is addressed in Chapter @ch:neurological but has not been experimentally eliminated. Individually rated certainties (0.10--0.45) are honest; collectively, the density of treatment proposals creates an impression of therapeutic richness disproportionate to the evidence. Before any clinical consideration, the NE Pathway index requires independent validation in multi-center cohorts with deconditioning-matched control groups, and the direction of causality must be established (is NE deficiency cause, consequence, or epiphenomenon?). The clonidine null RCT in adolescent CFS (Sulheim 2014, n=120) @Sulheim2014clonidine provides a cautionary data point: the most direct pharmacological test of NE modulation in CFS produced no benefit. All agents discussed below are *research hypotheses*, not clinical recommendations.
 ]
 
