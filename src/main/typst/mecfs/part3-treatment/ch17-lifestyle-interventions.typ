@@ -1740,7 +1740,7 @@ All bedbound muscle preservation interventions depend on caregiver execution. St
 
 #speculation(title: [PEM Frequency May Accelerate Muscle Atrophy Independently of Disuse in ME/CFS])[
 
-*Certainty: 0.15.* Theoretical inference only; no direct evidence for PEM-specific atrophy acceleration.
+*Certainty: 0.20.* (0.15→0.20: caregiver-implemented pacing provides the PEM-reduction tool needed to test this mechanism; the connection is feed-into, not independent confirmation) Theoretical inference only; no direct evidence for PEM-specific atrophy acceleration.
 
 If PEM episodes involve systemic inflammatory activation, oxidative stress, and metabolic crisis — all catabolic stimuli — then repeated PEM may accelerate muscle protein breakdown beyond the rate expected from disuse alone. In this model, muscle CSA decline rate = f(disuse duration, PEM frequency, PEM severity, nutritional status), where frequent PEM increases the slope of atrophy. This would imply that PEM prevention (via aggressive pacing) is itself a muscle preservation intervention.
 
