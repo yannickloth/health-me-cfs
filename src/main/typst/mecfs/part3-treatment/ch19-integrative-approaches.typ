@@ -14,7 +14,7 @@ This section provides a safety-first framework for treatment planning, integrati
 <subsec:treatment-safety-imperative>
 
 #warning-env(title: [Treatment Trials as Energy Gambles])[
-*Every medication or supplement trial in ME/CFS carries an energy cost independent of the treatment's intended effect.* Processing any exogenous substance requires ATP for hepatic metabolism (CYP450 system), renal clearance, protein binding, receptor adaptation, and immune surveillance. In a system with impaired mitochondrial ATP production—as demonstrated by two-day cardiopulmonary exercise testing (positive studies: @keller2024cpet @VanCampen2020SeverityCPET; contested by null replication @Mancini2026CPET, though both agree on elevated RPE and chronotropic incompetence), mitochondrial function assays @Myhill2009mitochondrial, and metabolomic profiling @Naviaux2017suramin @Fluge2016—this processing overhead can itself trigger post-exertional malaise.
+*Every medication or supplement trial in ME/CFS carries an energy cost independent of the treatment's intended effect.* Processing any exogenous substance requires ATP for hepatic metabolism (CYP450 system), renal clearance, protein binding, receptor adaptation, and immune surveillance. In a system with impaired mitochondrial ATP production—as demonstrated by two-day cardiopulmonary exercise testing (positive studies: @keller2024cpet @VanCampen2020SeverityCPET; contested by null replication @Mancini2026CPET, though both agree on elevated RPE and chronotropic incompetence), mitochondrial function assays @Myhill2009mitochondrial, and metabolomic profiling @Naviaux2017suramin @Fluge2016 — this processing overhead can itself trigger post-exertional malaise.
 
 *The clinical consequence*: A treatment that is safe and well-tolerated in healthy individuals may provoke a crash in a severe ME/CFS patient—not because of pharmacological adverse effects, but because the body cannot afford the metabolic cost of processing the substance.
 
@@ -1133,6 +1133,7 @@ Cross-domain knowledge transfer is most valuable when:
     - *Reasonable biological plausibility*: Mechanistic rationale supports potential benefit
 
 ==== Success Story: Sports Medicine and ME/CFS
+<subsubsec:sports-medicine-parallel>
 
 The sports medicine parallel (Section @ch:energy-metabolism) demonstrates this approach's value. Recognizing that ME/CFS muscle pathophysiology resembles athletes' post-exercise metabolic stress led to adoption of:
 
