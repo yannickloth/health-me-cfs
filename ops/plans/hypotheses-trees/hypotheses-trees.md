@@ -238,4 +238,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | sleep-deprivation-saliva | [subtrees/sleep-deprivation-saliva.md](subtrees/sleep-deprivation-saliva.md) | 2026-06-04 | 38 | 0 | 🔵 in progress | —
 | inflammation-registry | [subtrees/inflammation-registry.md](subtrees/inflammation-registry.md) | 2026-06-05 | 30 | 0 | ✅ done | — |
 | schizophrenia-autoantibodies | [subtrees/schizophrenia-autoantibodies.md](subtrees/schizophrenia-autoantibodies.md) | 2026-06-06 | 20 | 3 | ✅ done |
-| severe-mecfs-care-guide | [subtrees/severe-mecfs-care-guide.md](subtrees/severe-mecfs-care-guide.md) | 2026-06-06 | 4 | 4 | ✅ done | — |
+| severe-mecfs-care-guide | [subtrees/severe-mecfs-care-guide.md](subtrees/severe-mecfs-care-guide.md) | 2026-06-06 | 29 | 3 | ✅ done |
