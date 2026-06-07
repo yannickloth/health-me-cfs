@@ -16,7 +16,7 @@
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|---|---|---|---|---|---|
 | H1.1 | HIF pathway inertia | core | 0.45 | ✅ done | Integrated into ch06 |
-| H1.2 | HIF-2 post-viral subtype | core | 0.50 | 🔵 in progress | Auto-escalated; see hif2a-endothelial-postviral-integration-plan.md |
+| H1.2 | HIF-2 post-viral subtype | core | 0.50 | ✅ done | Auto-escalated; integrated in hif2a-endothelial-postviral cycle (commit 6054b13) |
 | H1.3 | Altitude paradox | core | 0.55 | ✅ done | Integrated into ch12 |
 | H1.4 | Pericyte NVC failure | supporting | 0.40 | ✅ done | Integrated into ch12 |
 | H1.5 | PEM hibernation-mimetic | core | 0.50 | ✅ done | Integrated into ch06, ch13 |
@@ -29,4 +29,4 @@
 | D3.2 | Belzutifan post-viral | drug | 0.20 | ✅ done | Integrated into ch06 |
 | R2.5 | EPO stimulation test | research | n/a | ✅ done | Integrated into ch13 |
 | S4.2 | L-Carn+CoQ10+Ribose | supplement | 0.50 | ⏭️ queued | Not integrated this cycle |
-| H1.2/auto-escalation | HIF-2 post-viral subtype | auto | 0.50 | 🔵 in progress | Active cycle; see hif2a-endothelial-postviral-integration-plan.md |
+| H1.2/auto-escalation | HIF-2 post-viral subtype | auto | 0.50 | ✅ done | Completed cycle; see hif2a-endothelial-postviral-integration-plan.md (commit 6054b13) |

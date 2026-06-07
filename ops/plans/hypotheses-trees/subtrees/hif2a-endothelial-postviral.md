@@ -11,7 +11,7 @@
 
 | ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
 |----|-------|-----|------|------|----|------|------|----|--------|----------|
-| H1.2 | HIF-2 post-viral subtype | hypothesis | 0.50 | 4 | 3 | 3 | 1 | 2 | ⏭️ | subtrees/hif2a-endothelial-postviral.md |
+| H1.2 | HIF-2 post-viral subtype | hypothesis | 0.50 | 4 | 3 | 3 | 1 | 2 | ✅ | subtrees/hif2a-endothelial-postviral.md |
 | H1.1 | HIF-2α epigenetic lock-in | speculation | 0.45 | 3 | 2 | 3 | 1 | 1 | ⬜ | — |
 | H1.2 | β2AR-negative ED = HIF-2α | hypothesis | 0.55 | 4 | 3 | 4 | 2 | 3 | ⬜ | — |
 | H1.3 | HIF-2α immunothrombosis→microclots | hypothesis | 0.50 | 4 | 2 | 3 | 1 | 2 | ⬜ | — |

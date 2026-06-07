@@ -12,7 +12,7 @@
 | ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
 |----|-------|-----|------|------|----|------|------|----|--------|----------|
 | H1.1 | HIF pathway inertia | hypothesis | 0.45 | 4 | 4 | 3 | 3 | 2 | ✅ | — |
-| H1.2 | HIF-2 post-viral subtype | hypothesis | 0.50 | 4 | 3 | 3 | 1 | 2 | 🔵 | subtrees/hif2a-endothelial-postviral.md |
+| H1.2 | HIF-2 post-viral subtype | hypothesis | 0.50 | 4 | 3 | 3 | 1 | 2 | ✅ | subtrees/hif2a-endothelial-postviral.md |
 | H1.3 | Altitude paradox | speculation | 0.55 | 4 | 3 | 4 | 2 | 1 | ✅ | — |
 | H1.4 | Pericyte NVC failure | speculation | 0.40 | 3 | 2 | 3 | 2 | 3 | ✅ | — |
 | H1.5 | PEM hibernation-mimetic | hypothesis | 0.50 | 5 | 3 | 5 | 3 | 2 | ✅ | — |
