@@ -88,6 +88,8 @@ Current risk profile in ME/CFS is entirely unknown.
 ]
 
 == Emergency PEM Prevention Protocol
+#practical-warning[This is a mechanistic speculation (certainty 0.30), not an established clinical protocol. No RCTs validate this approach. The doses below are extrapolated from general metabolic biochemistry, not ME/CFS trials. Discuss with your physician before considering any component.]
+
 <subsec:pem-prevention>
 
 Post-exertional malaise (PEM) represents a metabolic crisis in ME/CFS. The emergency PEM prevention protocol aims to intervene during the critical 0–72 hour window after exertion to prevent entry into prolonged crash state.
@@ -693,7 +695,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 <sec:albumin-damp-clearance>
 
 #speculation(title: [Intravenous Albumin for Triple-Mechanism DAMP Clearance and Iron Buffering])[
-*Certainty: 0.25.* Intravenous albumin infusion (25% albumin, 100 mL weekly × 4) provides three complementary anti-inflammatory mechanisms from a single, well-established intervention already used in critical care: (a) iron-binding capacity — albumin binds free iron, reducing Fenton chemistry-driven ROS generation and ferroptosis; (b) HMGB1 sequestration — albumin directly binds and neutralizes extracellular HMGB1, the central DAMP implicated in PEM amplification (Section @sec:um-resolution); (c) thiol-mediated antioxidant activity — albumin's free cysteine (Cys34) is a major plasma thiol reservoir with radical-scavenging capacity. These three effects — iron buffering, DAMP neutralization, and antioxidant activity — address distinct nodes of the ferroptosis-DAMP-oxidative stress cycle with one intervention. A pilot study design (n=10, pre/post) would measure free iron, ferritin, HMGB1, isoprostanes, and fatigue scores before and after 4 weekly infusions.
+*Certainty: 0.25.* Intravenous albumin infusion (25% albumin, 100 mL weekly × 4) provides three complementary anti-inflammatory mechanisms from a single, well-established intervention already used in critical care: (a) iron-binding capacity — albumin binds free iron, reducing Fenton chemistry-driven ROS generation and ferroptosis; (b) HMGB1 sequestration — albumin directly binds and neutralizes extracellular HMGB1, the central DAMP implicated in PEM amplification (Section @sec:um-resolution); (c) thiol-mediated antioxidant activity — albumin's free cysteine (Cys34) is a major plasma thiol reservoir with radical-scavenging capacity. These three effects — iron buffering, DAMP neutralization, and antioxidant activity — address distinct nodes of the ferroptosis-DAMP-oxidative stress cycle with one intervention. Important parsimony caveat: these "three mechanisms" may represent three descriptions of the same underlying redox pathway (iron buffering *is* antioxidant activity; HMGB1 sequestration *operates through* redox state) rather than dissociable, independent targets. The triple-mechanism claim is an organizational convenience, not evidence of three separate therapeutic modes. A pilot study design (n=10, pre/post) would measure free iron, ferritin, HMGB1, isoprostanes, and fatigue scores before and after 4 weekly infusions.
 
 *Safety:*
 - Albumin infusion is well-tolerated in critical care and volume expansion indications
