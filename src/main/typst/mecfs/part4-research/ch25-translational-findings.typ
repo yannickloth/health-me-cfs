@@ -1484,7 +1484,7 @@ Neuroinflammation contributes to ME/CFS, Long COVID, fibromyalgia, neurodegenera
 
 *Limitations.* n=1 case report with strong commercial conflict of interest (Berlin Cures). No dose-ranging data exist. The aptamer is selective for GPCR autoantibodies with a specific target profile — patients without the cognate autoantibody target will not benefit. Phase 2/3 RCT results are not yet available. The Germain 2025 null raises questions about GPCR autoantibody prevalence in ME/CFS, which would limit BC 007's addressable population.
 
-*Cross-reference.* Dose-finding trial proposed in @spec:bc007-dose-finding (Chapter @ch:emerging-therapies).
+*Cross-reference.* BC 007 aptamer neutralizes GPCR autoantibodies (proof-of-concept case report @Hohberger2021NeutralizationGPCR). Dose-finding trial needed.
 
 *Falsifiable prediction:* RCT (n≥40, BC 007 vs placebo) will show COMPASS-31 difference ≥15 points between groups at 4 weeks. Falsified if between-group difference \<10 points or p≥0.05.
 ] <pred:bc007-proof-of-mechanism>
@@ -1495,7 +1495,7 @@ Neuroinflammation contributes to ME/CFS, Long COVID, fibromyalgia, neurodegenera
 
 *Relevance to the neuroimmune framework.* If the Blitshteyn 2026 three-condition overlap involves predominantly IgG1 (pathogenic) autoantibodies, this strengthens the case for immunomodulation. If ME/CFS GPCR autoantibodies are predominantly IgG4 (blocking), the immunomodulation rationale weakens. Subclass profiling directly tests this. @Blitshteyn2026Neuroimmune
 
-*Falsifiable prediction.* In GPCR autoantibody-positive ME/CFS (n=50, CellTrend-positive), subclass analysis reveals: ≥ 40% are IgG4-dominant (IgG1/IgG4 < 1); ≥ 30% are IgG1-dominant (> 1); IgG1-dominant patients have worse COMPASS-31, fatigue, and PEM severity than IgG4-dominant (d > 0.6); IgG1/IgG4 ratio predicts immunoadsorption response (AUC > 0.75). Falsified if total IgG titer predicts severity better than IgG1/IgG4 ratio.
+*Falsifiable prediction.* In GPCR autoantibody-positive ME/CFS (n=50, CellTrend-positive), subclass analysis reveals: ≥ 40% are IgG4-dominant (IgG1/IgG4 \< 1); ≥ 30% are IgG1-dominant (\> 1); IgG1-dominant patients have worse COMPASS-31, fatigue, and PEM severity than IgG4-dominant (d \> 0.6); IgG1/IgG4 ratio predicts immunoadsorption response (AUC \> 0.75). Falsified if total IgG titer predicts severity better than IgG1/IgG4 ratio.
 
 *Limitations.* No subclass-specific GPCR ELISA is commercially available. IgG4 detection may require specialized reagents (anti-IgG4 subclass-specific secondary antibodies). The isotype switch hypothesis (IgG4→IgG1) requires longitudinal data not currently available.
 ] <spec:igg-subclass-pathogenicity>

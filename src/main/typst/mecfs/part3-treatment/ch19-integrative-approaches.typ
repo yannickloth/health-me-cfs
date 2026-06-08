@@ -3192,7 +3192,7 @@ ME/CFS and POTS have >80% comorbidity, but their thermoregulatory failure mechan
 #open-question(title: [Cholinergic Precursor Stack (Alpha-GPC + Huperzine A + CDP-Choline) for Vagal Tone Enhancement])[
 Could a cholinergic precursor stack — alpha-GPC (600 mg), Huperzine A (50-100 µg), CDP-choline (500 mg) — enhance vagal efferent tone and the cholinergic anti-inflammatory pathway in ME/CFS? The rationale: augmenting central and peripheral ACh availability should improve GI motility (M3 receptor), CAP-mediated TNF-α suppression, and cardiac vagal tone (HRV). However, Huperzine A at even low doses carries risk of cholinergic excess (bradycardia, salivation, diarrhea). No ME/CFS trials exist. Whether vagal tone enhancement in the presence of GPCR autoantibodies (M2/M4) can overcome receptor blockade is unknown. @Blitshteyn2026Neuroimmune
 
-*Falsifiable prediction:* Open-label pilot (n=20, 8 weeks) will show HRV rMSSD increase ≥15%, fatigue reduction ≥8 points (MFI), and GI symptom reduction ≥20% (GSRS). Falsified if <3/5 participants show improvement in ≥2 domains.
+*Falsifiable prediction:* Open-label pilot (n=20, 8 weeks) will show HRV rMSSD increase ≥15%, fatigue reduction ≥8 points (MFI), and GI symptom reduction ≥20% (GSRS). Falsified if fewer than 3 of 5 participants show improvement in ≥2 domains.
 ] <oq:cholinergic-stack-vagal>
 
 #open-question(title: [Glial Modulation Stack (PEA + Luteolin + Pterostilbene) for Brainstem Neuroinflammation])[
@@ -3204,5 +3204,5 @@ Could a glial modulation stack — palmitoylethanolamide (PEA, 400 mg bid), lute
 #open-question(title: [NAD+ Precursors (NR/NMN) + Apigenin for CD38 Inhibition in GPCR Autoantibody-Positive ME/CFS])[
 Could NAD+ precursors (NR 300 mg bid or NMN 250 mg qd) combined with apigenin (50 mg qd, a CD38 inhibitor) preserve NAD+ for SIRT1-mediated autonomic and mitochondrial function in GPCR autoantibody-positive ME/CFS? The mechanism: GPCR autoantibody signaling (M3/Gq → IP3 → Ca2+) activates CD38 (the primary NADase), consuming NAD+. Apigenin blocks CD38, preserving NAD+ for SIRT1 which drives PGC-1α-mediated mitochondrial biogenesis and autonomic regulation. No ME/CFS data on CD38 activity or apigenin effects exist. @Blitshteyn2026Neuroimmune
 
-*Falsifiable prediction:* Open-label pilot (n=15, 12 weeks) in GPCR AAb+ ME/CFS will show NAD+/NADH ratio increase ≥1.5×, SIRT1 activity increase ≥30%, and fatigue reduction ≥8 points (MFI). Falsified if NAD+/NADH ratio increase <1.2× or fatigue reduction <4 points.
+*Falsifiable prediction:* Open-label pilot (n=15, 12 weeks) in GPCR AAb+ ME/CFS will show NAD+/NADH ratio increase ≥1.5×, SIRT1 activity increase ≥30%, and fatigue reduction ≥8 points (MFI). Falsified if NAD+/NADH ratio increase is below 1.2× or fatigue reduction is below 4 points.
 ] <oq:nad-cd38-stack>

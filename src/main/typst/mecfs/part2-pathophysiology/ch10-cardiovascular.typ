@@ -35,6 +35,8 @@ Chronotropic incompetence refers to an inadequate heart rate response to exercis
 
 Chronotropic incompetence limits cardiac output augmentation during exercise, as cardiac output = heart rate $times$ stroke volume. Without adequate heart rate increase, oxygen delivery to exercising muscles is compromised.
 
+*Deconditioning as an alternative explanation.* It must be acknowledged that some portion of the cardiovascular findings — reduced peak VO₂, chronotropic incompetence, reduced blood volume, and orthostatic intolerance — can be explained by physical deconditioning rather than primary disease pathology. Prolonged inactivity reduces cardiac stroke volume, blunts heart rate variability, and decreases plasma volume, all of which overlap with the ME/CFS cardiovascular phenotype. However, deconditioning does not explain: (a) the selective pattern of orthostatic abnormalities (disproportionate CBF decline relative to systemic hemodynamics), (b) the GPCR autoantibody evidence linking specific receptor dysfunction to exercise and orthostatic impairment, (c) the failure of Day 2 CPET recovery that persists after controlling for fitness level, and (d) the lack of correlation between disease duration and cardiac volume reductions @Newton2016. Deconditioning is a contributing factor in many patients — worsening baseline function through inactivity — but it is insufficient as a primary explanation for the full cardiovascular phenotype.
+
 *Mechanisms of Chronotropic Incompetence*
 Several mechanisms have been proposed; their relative contributions in ME/CFS remain under investigation:
 
