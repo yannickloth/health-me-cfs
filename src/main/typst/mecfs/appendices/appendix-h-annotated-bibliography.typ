@@ -458,9 +458,9 @@ First official institutional medication list for ME/CFS with insurance coverage 
 === Tatai2026 --- Tissue-Specific Autoantibodies in Long COVID
 <sec:bib-tatai2026-autoantibodies>
 
-    / *Full Citation:*: Tatai O, Nagy S, Nguyen THT, et al. Tissue-specific autoantibody signatures reveal immune alterations undetected by routine serology in long COVID. _GeroScience_. 2026.
-    / *DOI:*: https://doi.org/10.1007/s11357-026-02286-9
-    / *Key Findings:*:
+    *Full Citation:*: Tatai O, Nagy S, Nguyen THT, et al. Tissue-specific autoantibody signatures reveal immune alterations undetected by routine serology in long COVID. _GeroScience_. 2026.
+    *DOI:*: https://doi.org/10.1007/s11357-026-02286-9
+    *Key Findings:*:
         - Tissue-specific autoantibodies: cardiac 54%, vascular 34%, pulmonary 34% in long COVID patients (n=114 long COVID, n=36 controls)
         - IgM-dominated (60 pct vs 36 pct in controls, p $lt.eq 0.05$)
         - NOT detected by routine ANA HEp-2 testing (83% seropositive on Western blot vs.\ no discriminatory value on ANA)
@@ -468,8 +468,8 @@ First official institutional medication list for ME/CFS with insurance coverage 
         - CRP only marginally elevated in seropositive individuals
         - Polyreactive pattern (up to 8 distinct bands per patient)
         - Follow-up (n=30, 141 days): persistent IgM and emergence of new autoantibodies
-    / *Conclusion:*: IgM-dominant tissue-specific autoantibodies are prevalent in long COVID, invisible to standard ANA screening, and associated with neurovascular symptoms. Suggests ongoing immune dysregulation with failed/atypical class switching.
-    / *Limitations:*: Single study, moderate sample size, not yet independently replicated. Western blot uses denatured antigens (may detect linear epitopes not relevant in vivo). Control group small (n=36).
+    *Conclusion:*: IgM-dominant tissue-specific autoantibodies are prevalent in long COVID, invisible to standard ANA screening, and associated with neurovascular symptoms. Suggests ongoing immune dysregulation with failed/atypical class switching.
+    *Limitations:*: Single study, moderate sample size, not yet independently replicated. Western blot uses denatured antigens (may detect linear epitopes not relevant in vivo). Control group small (n=36).
 
 === TRPM3 Ion Channel Dysfunction
 
@@ -801,7 +801,7 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     *DOI:*: #link("https://doi.org/10.3390/pathophysiology31010001")[10.3390/pathophysiology31010001]
     *PMCID:*: PMC10801610
 
-[/ *Full Citation:*: Wells R, Spurrier AJ, Linz D, et al.\ Is postural orthostatic tachycardia syndrome (POTS) a central nervous system disorder? _Journal of Neurology, Neurosurgery & Psychiatry_. 2021;92(11):1196–1207.],
+    *Full Citation:*: Wells R, Spurrier AJ, Linz D, et al.\ Is postural orthostatic tachycardia syndrome (POTS) a central nervous system disorder? _Journal of Neurology, Neurosurgery & Psychiatry_. 2021;92(11):1196–1207.
     *DOI:*: #link("https://doi.org/10.1136/jnnp-2020-325932")[10.1136/jnnp-2020-325932]
     *PMCID:*: PMC7936931
 
@@ -17730,109 +17730,109 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - *Limitation:* Very small sample; short duration; no PEM assessment
 
 === Tiedemann2024 — UHRF1 Ubiquitin Ligase Supports Low-Density CpG Maintenance
-    / *Full Citation:*: Tiedemann RL, Hrit J, Du Q, Wiseman AK, Kong NR, Eames H, Dickson BM, Rothbart SB. UHRF1 ubiquitin ligase activity supports the maintenance of low-density CpG methylation. _Nucleic Acids Research_. 2024;52(22):13733-13751.
-    / *DOI:*: 10.1093/nar/gkae1125
-    / *PMID:*: 39607687
-    / *Key Findings:*:
+    *Full Citation:*: Tiedemann RL, Hrit J, Du Q, Wiseman AK, Kong NR, Eames H, Dickson BM, Rothbart SB. UHRF1 ubiquitin ligase activity supports the maintenance of low-density CpG methylation. _Nucleic Acids Research_. 2024;52(22):13733-13751.
+    *DOI:*: 10.1093/nar/gkae1125
+    *PMID:*: 39607687
+    *Key Findings:*:
         - DNA methylation maintenance at low-density CpG regions is particularly vulnerable to disruption of UHRF1 ubiquitin ligase activity and DNMT1 ubiquitin reading activity.
         - Low-CpG-density regions require UHRF1 ubiquitin ligase activity more than high-density regions for stable maintenance.
         - Provides direct experimental support for a methylation density threshold below which maintenance fidelity degrades.
-    / *Conclusion:*: The UHRF1-DNMT1 ubiquitin axis is the main protection mechanism for low-density CpG methylation. Disruption creates differential vulnerability based on local CpG density.
-    / *Relevance:*: Direct experimental support for the irreversibility threshold $m_i^\\"crit\\"$ in the methylation vector model (Chapter @ch:causal-hierarchy-formal, @oq:consolidation-directionality). Validates the concept that loci with sparse CpG methylation are harder to maintain.
-    / *Quality:*: High (Nucleic Acids Research; peer-reviewed; mechanistic with biochemical validation)
-    / *Certainty:*: 0.70
-    / *Limitations:*: Cancer cell lines (HCT116, RKO); may not generalize to all genomic contexts. Single study; independent replication pending.
+    *Conclusion:*: The UHRF1-DNMT1 ubiquitin axis is the main protection mechanism for low-density CpG methylation. Disruption creates differential vulnerability based on local CpG density.
+    *Relevance:*: Direct experimental support for the irreversibility threshold $m_i^\\"crit\\"$ in the methylation vector model (Chapter @ch:causal-hierarchy-formal, @oq:consolidation-directionality). Validates the concept that loci with sparse CpG methylation are harder to maintain.
+    *Quality:*: High (Nucleic Acids Research; peer-reviewed; mechanistic with biochemical validation)
+    *Certainty:*: 0.70
+    *Limitations:*: Cancer cell lines (HCT116, RKO); may not generalize to all genomic contexts. Single study; independent replication pending.
 
 === Crider2012 — Folate and DNA Methylation Review
-    / *Full Citation:*: Crider KS, Yang TP, Berry RJ, Bailey LB. Folate and DNA Methylation: A Review of Molecular Mechanisms and the Evidence for Folate's Role. _Advances in Nutrition_. 2012;3(1):21-38.
-    / *DOI:*: 10.3945/an.111.000992
-    / *PMID:*: 22332098
-    / *Key Findings:*:
+    *Full Citation:*: Crider KS, Yang TP, Berry RJ, Bailey LB. Folate and DNA Methylation: A Review of Molecular Mechanisms and the Evidence for Folate's Role. _Advances in Nutrition_. 2012;3(1):21-38.
+    *DOI:*: 10.3945/an.111.000992
+    *PMID:*: 22332098
+    *Key Findings:*:
         - Folate, choline, betaine, vitamin B12, and other B vitamins serve as methyl donors and co-factors in one-carbon metabolism.
         - SAM (S-adenosylmethionine) is the universal methyl donor for DNA methyltransferases.
         - Three clinical trials examined impact of folic acid supplementation (0.4--10 mg/d) on global DNA methylation — results were mixed and context-dependent.
         - Methyl-donor supplementation can affect DNA methylation levels but effect sizes are modest and depend on baseline methylation and genetic background.
-    / *Conclusion:*: Methyl-donor supplementation has a plausible mechanistic basis for affecting DNA methylation but efficacy is not uniform. Baseline methylation status, genetic polymorphisms (MTHFR), and tissue type moderate response.
-    / *Relevance:*: General-population evidence cited to support methyl-donor support as the safe default strategy in the methylation vector model (Chapter @ch:causal-hierarchy, Speculation @spec:methylation-loss-consolidation). No ME/CFS-specific data.
-    / *Quality:*: Medium-High (well-cited review summarizing multiple clinical trials)
-    / *Certainty:*: 0.60
-    / *Limitations:*: Review paper, not a meta-analysis. Trials summarized are heterogeneous (different populations, doses, outcomes). No ME/CFS data.
+    *Conclusion:*: Methyl-donor supplementation has a plausible mechanistic basis for affecting DNA methylation but efficacy is not uniform. Baseline methylation status, genetic polymorphisms (MTHFR), and tissue type moderate response.
+    *Relevance:*: General-population evidence cited to support methyl-donor support as the safe default strategy in the methylation vector model (Chapter @ch:causal-hierarchy, Speculation @spec:methylation-loss-consolidation). No ME/CFS-specific data.
+    *Quality:*: Medium-High (well-cited review summarizing multiple clinical trials)
+    *Certainty:*: 0.60
+    *Limitations:*: Review paper, not a meta-analysis. Trials summarized are heterogeneous (different populations, doses, outcomes). No ME/CFS data.
 
 === Kok2015 — Long-Term Folic Acid and B12 Supplementation and DNA Methylation
-    / *Full Citation:*: Kok DEG, Dhonukshe-Rutten RAM, Lute C, Heil SG, Uitterlinden AG, van der Velde N, et al. The effects of long-term daily folic acid and vitamin B12 supplementation on genome-wide DNA methylation in elderly subjects. _Clinical Epigenetics_. 2015;7:113.
-    / *DOI:*: 10.1186/s13148-015-0154-5
-    / *PMID:*: 26500703
-    / *Key Findings:*:
-        - Randomized controlled trial (n=87) of folic acid (400 μg/day) + vitamin B12 (500 μg/day) vs placebo for 2 years in elderly subjects.
+    *Full Citation:*: Kok DEG, Dhonukshe-Rutten RAM, Lute C, Heil SG, Uitterlinden AG, van der Velde N, et al. The effects of long-term daily folic acid and vitamin B12 supplementation on genome-wide DNA methylation in elderly subjects. _Clinical Epigenetics_. 2015;7:113.
+    *DOI:*: 10.1186/s13148-015-0154-5
+    *PMID:*: 26500703
+    *Key Findings:*:
+        - Randomized controlled trial (n=87) of folic acid (400 mcg/day) + vitamin B12 (500 mcg/day) vs placebo for 2 years in elderly subjects.
         - Genome-wide methylation profiling (Illumina 450K array) identified differentially methylated positions.
         - Effect sizes were modest; methylation changes primarily in genes related to development and cellular processes.
-    / *Conclusion:*: Long-term methyl-donor supplementation at moderate doses can produce measurable changes in DNA methylation profiles in humans. Effects are locus-specific and modest in magnitude.
-    / *Relevance:*: Demonstrates that methyl-donor supplementation is capable of modifying the methylation vector $bold(cal(M))$ in vivo — the premise underlying methyl-donor support as therapeutic strategy. General-population evidence; no ME/CFS data.
-    / *Quality:*: High (RCT design; peer-reviewed; genome-wide methylation measurement)
-    / *Certainty:*: 0.65
-    / *Limitations:*: Elderly population (not ME/CFS); small sample size (n=87); 450K array limited CpG coverage; did not specifically assess repetitive element methylation.
+    *Conclusion:*: Long-term methyl-donor supplementation at moderate doses can produce measurable changes in DNA methylation profiles in humans. Effects are locus-specific and modest in magnitude.
+    *Relevance:*: Demonstrates that methyl-donor supplementation is capable of modifying the methylation vector $bold(cal(M))$ in vivo — the premise underlying methyl-donor support as therapeutic strategy. General-population evidence; no ME/CFS data.
+    *Quality:*: High (RCT design; peer-reviewed; genome-wide methylation measurement)
+    *Certainty:*: 0.65
+    *Limitations:*: Elderly population (not ME/CFS); small sample size (n=87); 450K array limited CpG coverage; did not specifically assess repetitive element methylation.
 
 === Kimura2012 — DNMT1 Regulatory Mechanisms Review (Allosteric Switch)
-    / *Full Citation:*: Kimura M, Sasaki H. An insight into the various regulatory mechanisms modulating human DNA methyltransferase 1 stability and function. _Epigenetics_. 2012;7(7):686-696.
-    / *DOI:*: 10.4161/epi.20157
-    / *PMID:*: 22647247
-    / *Key Findings:*:
+    *Full Citation:*: Kimura M, Sasaki H. An insight into the various regulatory mechanisms modulating human DNA methyltransferase 1 stability and function. _Epigenetics_. 2012;7(7):686-696.
+    *DOI:*: 10.4161/epi.20157
+    *PMID:*: 22647247
+    *Key Findings:*:
         - DNMT1 operates via an allosteric binary switch — processive on highly methylated DNA, inactivated on poorly methylated/unmethylated sites.
         - MeCP2 interacts directly with DNMT1 via the TRD domain, recruiting DNMT1 to methylated regions.
         - UHRF1 recognizes hemimethylated CpGs and guides DNMT1; PCNA binding enhances processivity ~2-fold.
         - This biphasic behavior creates stable methylation maintenance at high-density regions while preserving unmethylated regions — density-dependent maintenance fidelity.
-    / *Conclusion:*: DNMT1 maintenance fidelity is not uniform across the genome. Methylation density determines maintenance robustness, with low-density CpG regions at higher risk of maintenance failure.
-    / *Relevance:*: Provides mechanistic foundation for the irreversibility threshold in the methylation vector model.
-    / *Quality:*: Medium-High (well-established review summarizing multiple mechanistic studies)
-    / *Certainty:*: 0.65
-    / *Limitations:*: Review paper; mechanisms described at protein biochemistry level but critical threshold values for specific loci not quantified. No genome-wide locus-level resolution of density thresholds.
+    *Conclusion:*: DNMT1 maintenance fidelity is not uniform across the genome. Methylation density determines maintenance robustness, with low-density CpG regions at higher risk of maintenance failure.
+    *Relevance:*: Provides mechanistic foundation for the irreversibility threshold in the methylation vector model.
+    *Quality:*: Medium-High (well-established review summarizing multiple mechanistic studies)
+    *Certainty:*: 0.65
+    *Limitations:*: Review paper; mechanisms described at protein biochemistry level but critical threshold values for specific loci not quantified. No genome-wide locus-level resolution of density thresholds.
 
 === Strom2017 — Phase Separation Drives Heterochromatin Domain Formation
-    / *Full Citation:*: Strom AR, Emelyanov AV, Mir M, Fyodorov DV, Darzacq X, Karpen GH. Phase separation drives heterochromatin domain formation. _Nature_. 2017;547:241-245.
-    / *DOI:*: 10.1038/nature22989
-    / *Key Findings:*:
+    *Full Citation:*: Strom AR, Emelyanov AV, Mir M, Fyodorov DV, Darzacq X, Karpen GH. Phase separation drives heterochromatin domain formation. _Nature_. 2017;547:241-245.
+    *DOI:*: 10.1038/nature22989
+    *Key Findings:*:
         - HP1a protein undergoes liquid-liquid phase separation (demixing) in vitro and nucleates into foci with liquid properties during early heterochromatin domain formation in Drosophila embryos.
         - Heterochromatin domains exhibit dynamics characteristic of phase separation: sensitivity to hydrophobic disruption (1,6-hexanediol), reduced probe diffusion, increased coordinated movement, and inert probe exclusion at domain boundaries.
         - Mature heterochromatin domains are not pure liquid — they solidify into stable compartments while retaining some liquid properties.
         - Phase separation provides a nucleation threshold model: below a critical HP1 concentration/density, droplets cannot nucleate.
-    / *Conclusion:*: Heterochromatin domains form via liquid-liquid phase separation driven by HP1a, maturing into structures with both liquid and solid properties. Domain formation requires a nucleation threshold.
-    / *Relevance:*: Supports the sigmoidal functional form for B-strength in the methylation vector model (Chapter @ch:causal-hierarchy-formal). Below a critical HP1/H3K9me3 density at ProB repeats, liquid domain nucleation fails → compartment identity lost → genome unfolds. The phase-separation mechanism provides biophysical plausibility for a nonlinear (threshold) relationship between ProB methylation and B compartment integrity.
-    / *Quality:*: Very High (Nature; two-lab independent validation; Drosophila + mammalian cells; companion to Larson 2017)
-    / *Certainty:*: 0.75
-    / *Limitations:*: Drosophila embryonic system and cultured cells; threshold values not quantified for specific genomic loci. Does not directly measure A/B compartment transitions in human cells.
+    *Conclusion:*: Heterochromatin domains form via liquid-liquid phase separation driven by HP1a, maturing into structures with both liquid and solid properties. Domain formation requires a nucleation threshold.
+    *Relevance:*: Supports the sigmoidal functional form for B-strength in the methylation vector model (Chapter @ch:causal-hierarchy-formal). Below a critical HP1/H3K9me3 density at ProB repeats, liquid domain nucleation fails → compartment identity lost → genome unfolds. The phase-separation mechanism provides biophysical plausibility for a nonlinear (threshold) relationship between ProB methylation and B compartment integrity.
+    *Quality:*: Very High (Nature; two-lab independent validation; Drosophila + mammalian cells; companion to Larson 2017)
+    *Certainty:*: 0.75
+    *Limitations:*: Drosophila embryonic system and cultured cells; threshold values not quantified for specific genomic loci. Does not directly measure A/B compartment transitions in human cells.
 
 === Larson2017 — HP1α Liquid Droplet Formation and Phase Separation
-    / *Full Citation:*: Larson AG, Elnatan D, Keenen MM, Trnka MJ, Johnston JB, Burlingame AL, Agard DA, Redding S, Narlikar GJ. Liquid droplet formation by HP1α suggests a role for phase separation in heterochromatin. _Nature_. 2017;547:236-240.
-    / *DOI:*: 10.1038/nature22822
-    / *Key Findings:*:
+    *Full Citation:*: Larson AG, Elnatan D, Keenen MM, Trnka MJ, Johnston JB, Burlingame AL, Agard DA, Redding S, Narlikar GJ. Liquid droplet formation by HP1α suggests a role for phase separation in heterochromatin. _Nature_. 2017;547:236-240.
+    *DOI:*: 10.1038/nature22822
+    *Key Findings:*:
         - Human HP1α protein forms phase-separated droplets in vitro; unmodified HP1α is soluble; phosphorylation or DNA binding promotes droplet formation.
         - HP1α phase separation is reversible — specific ligands can dissolve droplets.
         - Nucleosomes and DNA preferentially partition into HP1α droplets; transcription factors do not.
         - HP1α phase-separation mutant (W200A) forms fewer and smaller nuclear puncta in mammalian cells — direct functional confirmation.
         - Establishes concentration-dependent nucleation: below a critical HP1α concentration, no droplets form.
-    / *Conclusion:*: Phase separation is an intrinsic biophysical property of HP1α protein, suggestible for heterochromatin assembly and gene silencing through physical sequestration of chromatin.
-    / *Relevance:*: Independent confirmation (different lab, human protein) that HP1-driven phase separation requires a concentration threshold. Supports the B-strength nucleation model — ProB repeat methylation loss reduces H3K9me3 → reduces HP1 binding → drops below nucleation threshold → heterochromatin domain dissolves. Companion to Strom 2017.
-    / *Quality:*: Very High (Nature; independent lab from Strom 2017; human protein; in vitro + cell-based validation)
-    / *Certainty:*: 0.75
-    / *Limitations:*: In vitro biochemistry and cultured cells; does not directly measure compartment transitions in tissue. HP1α phase separation at endogenous expression levels not verified.
+    *Conclusion:*: Phase separation is an intrinsic biophysical property of HP1α protein, suggestible for heterochromatin assembly and gene silencing through physical sequestration of chromatin.
+    *Relevance:*: Independent confirmation (different lab, human protein) that HP1-driven phase separation requires a concentration threshold. Supports the B-strength nucleation model — ProB repeat methylation loss reduces H3K9me3 → reduces HP1 binding → drops below nucleation threshold → heterochromatin domain dissolves. Companion to Strom 2017.
+    *Quality:*: Very High (Nature; independent lab from Strom 2017; human protein; in vitro + cell-based validation)
+    *Certainty:*: 0.75
+    *Limitations:*: In vitro biochemistry and cultured cells; does not directly measure compartment transitions in tissue. HP1α phase separation at endogenous expression levels not verified.
 
 === Mancini2026CPET — Null Replication of 2-Day CPET in ME/CFS
-    / *Full Citation:*: Mancini DM, Cook DB, Brunjes DL, Soto T, Blate M, Quan P, Yamazaki T, Norweg A, Natelson BH. Cardiopulmonary exercise test results do not change over two sequential days in patients with chronic fatigue syndrome. _Frontiers in Physiology_. 2026;17:1816082.
-    / *DOI:*: 10.3389/fphys.2026.1816082
-    / *Key Findings:*:
+    *Full Citation:*: Mancini DM, Cook DB, Brunjes DL, Soto T, Blate M, Quan P, Yamazaki T, Norweg A, Natelson BH. Cardiopulmonary exercise test results do not change over two sequential days in patients with chronic fatigue syndrome. _Frontiers in Physiology_. 2026;17:1816082.
+    *DOI:*: 10.3389/fphys.2026.1816082
+    *Key Findings:*:
         - No significant Day 1→Day 2 change in peak VO₂ or VO₂ at VT in 58 ME/CFS (Fukuda criteria + PEM requirement) vs 25 sedentary controls
         - ME/CFS had significantly higher Borg RPE at all workloads (p < 0.001)
         - Lower maximal HR in ME/CFS (chronotropic incompetence in 9/58 vs 1/25 controls)
         - 13/58 ME/CFS (22%) had ≥1 mL/kg/min VO₂ decline on Day 2 vs 8/25 controls (33%) — NS
-    / *Conclusion:*: The data do not support using the 2-day CPET protocol to define PEM or disability. Changes in peak VO₂ or VO₂ at VT on 2-day CPET do not appear to be a good marker for PEM; subjective symptom monitoring post-exercise may be more sensitive.
-    / *Quality:*: Medium (peer-reviewed, decent n, controlled; Fukuda criteria less selective than CCC; single study; control group small at n=25)
-    / *Certainty:*: 0.60
-    / *Limitations:*: Fukuda criteria (broader than CCC used in Keller 2024); single study not yet independently replicated; max-effort enforcement excludes patients who fail ACSM criteria on Day 2, which Keller argued is part of the PEM phenotype; abstract-only at time of initial discussion.
+    *Conclusion:*: The data do not support using the 2-day CPET protocol to define PEM or disability. Changes in peak VO₂ or VO₂ at VT on 2-day CPET do not appear to be a good marker for PEM; subjective symptom monitoring post-exercise may be more sensitive.
+    *Quality:*: Medium (peer-reviewed, decent n, controlled; Fukuda criteria less selective than CCC; single study; control group small at n=25)
+    *Certainty:*: 0.60
+    *Limitations:*: Fukuda criteria (broader than CCC used in Keller 2024); single study not yet independently replicated; max-effort enforcement excludes patients who fail ACSM criteria on Day 2, which Keller argued is part of the PEM phenotype; abstract-only at time of initial discussion.
 
 === He2021 — eMSN in Primate Striatum
-    / *Full Citation:*: He J, Kleyman M, Chen J, et al. Transcriptional and Anatomical Diversity of Medium Spiny Neurons in the Primate Striatum. _Current Biology_. 2021;31(24):5473-5486.
-    / *DOI:*: 10.1016/j.cub.2021.10.015
-    / *Key Findings:*:
+    *Full Citation:*: He J, Kleyman M, Chen J, et al. Transcriptional and Anatomical Diversity of Medium Spiny Neurons in the Primate Striatum. _Current Biology_. 2021;31(24):5473-5486.
+    *DOI:*: 10.1016/j.cub.2021.10.015
+    *Key Findings:*:
         - Identified nine distinct MSN subtypes in rhesus macaque striatum
         - Confirmed D1/D2 hybrid neurons (eMSN) in primate striatum
         - eMSN marker gene: RXFP1 (highly specific)
@@ -17840,70 +17840,70 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - eMSN constitute ~10% of MSNs in dorsal striatum
         - Uniformly distributed throughout dorsal striatum
         - Express high DRD1, low DRD2 compared to D2-MSNs
-    / *Conclusion:*: eMSN are distinct MSN subtype with hybrid D1/D2 receptor expression, potentially integrating both direct and indirect basal ganglia pathways.
-    / *Relevance:*: Primary source for eMSN discovery and characterization in primates. Provides marker genes (RXFP1) for eMSN identification. Critical for eMSN biology but does not address ME/CFS.
-    / *Quality:*: High (peer-reviewed, Current Biology, rigorous methodology, FISH validation)
-    / *Certainty:*: 0.85
-    / *Limitations:*: Primate model, not human; small N for tissue validation (n=2 for FISH); does not address ME/CFS or disease associations.
+    *Conclusion:*: eMSN are distinct MSN subtype with hybrid D1/D2 receptor expression, potentially integrating both direct and indirect basal ganglia pathways.
+    *Relevance:*: Primary source for eMSN discovery and characterization in primates. Provides marker genes (RXFP1) for eMSN identification. Critical for eMSN biology but does not address ME/CFS.
+    *Quality:*: High (peer-reviewed, Current Biology, rigorous methodology, FISH validation)
+    *Certainty:*: 0.85
+    *Limitations:*: Primate model, not human; small N for tissue validation (n=2 for FISH); does not address ME/CFS or disease associations.
 
 === Siletti2023 — Human Brain Cell Atlas
-    / *Full Citation:*: Siletti K, Hodge RD, Mossi Albiach A, et al. Transcriptomic diversity of cell types across the adult human brain. _Science_. 2023;382(6667).
-    / *DOI:*: 10.1126/science.add7046
-    / *Key Findings:*:
+    *Full Citation:*: Siletti K, Hodge RD, Mossi Albiach A, et al. Transcriptomic diversity of cell types across the adult human brain. _Science_. 2023;382(6667).
+    *DOI:*: 10.1126/science.add7046
+    *Key Findings:*:
         - Comprehensive single-nucleus RNA-seq atlas of entire human brain (3.3 million cells, 105 dissections)
         - Identified 31 superclusters, 461 clusters, 3,313 subclusters
         - High neuronal diversity outside cortex (hypothalamus, midbrain, hindbrain)
         - eMSN confirmed in human brain: GAD1/GAD2 (CXCL14+ DRD1+ ADARB2+)
         - Dataset publicly available for validation
-    / *Conclusion:*: Unprecedented resolution of human brain cell types confirms eMSN as distinct cell type.
-    / *Relevance:*: Confirms eMSN presence in human brain and provides human-specific marker genes for identification. Establishes eMSN as validated human cell type. Essential reference for human eMSN biology but does not address ME/CFS.
-    / *Quality:*: Very High (landmark study, Science journal, peer-reviewed)
-    / *Certainty:*: 0.95
-    / *Limitations:*: Postmortem tissue quality; limited donors (n=3); does not address ME/CFS or disease associations.
+    *Conclusion:*: Unprecedented resolution of human brain cell types confirms eMSN as distinct cell type.
+    *Relevance:*: Confirms eMSN presence in human brain and provides human-specific marker genes for identification. Establishes eMSN as validated human cell type. Essential reference for human eMSN biology but does not address ME/CFS.
+    *Quality:*: Very High (landmark study, Science journal, peer-reviewed)
+    *Certainty:*: 0.95
+    *Limitations:*: Postmortem tissue quality; limited donors (n=3); does not address ME/CFS or disease associations.
 
 === DecodeME2025 — ME/CFS GWAS (Brain Tissue Enrichment, No eMSN)
-    / *Full Citation:*: DecodeME Genetics Consortium, Bretherick AD, Boutin T, Dibble JJ, et al. Initial findings from the DecodeME genome-wide association study of myalgic encephalomyelitis/chronic fatigue syndrome. _medRxiv_. 2025.
-    / *DOI:*: 10.1101/2025.08.06.25333109
-    / *Key Findings:*:
+    *Full Citation:*: DecodeME Genetics Consortium, Bretherick AD, Boutin T, Dibble JJ, et al. Initial findings from the DecodeME genome-wide association study of myalgic encephalomyelitis/chronic fatigue syndrome. _medRxiv_. 2025.
+    *DOI:*: 10.1101/2025.08.06.25333109
+    *Key Findings:*:
         - Largest ME/CFS GWAS: 15,579 cases vs 259,909 controls
         - 8 genome-wide significant loci identified
         - MAGMA analysis showed brain tissue enrichment in all 13 brain tissues
         - Genes implicated in immune function (BTN2A2, OLFM4, RABGAP1L) and neurological processes (CA10, ARFGEF2)
         - NO eMSN-specific findings reported (analysis was tissue-level, not cell-type specific)
-    / *Conclusion:*: ME/CFS has genetic component with both immunological and neurological involvement. Brain tissue enrichment suggests striatal/basal ganglia relevance but eMSN not identified.
-    / *Relevance:*: First large-scale genetic evidence for ME/CFS. Brain tissue enrichment is significant but broad. Critical null result: no eMSN-specific genes despite brain enrichment (tissue-level analysis, not cell-type specific). Not a refutation of eMSN hypothesis but indicates cell-type specific analysis required.
-    / *Quality:*: High (large sample, rigorous methods, preprint)
-    / *Certainty:*: 0.80
-    / *Limitations:*: Preprint (not peer-reviewed); limited to European ancestry; case definition challenges; no cell-type specific analysis.
+    *Conclusion:*: ME/CFS has genetic component with both immunological and neurological involvement. Brain tissue enrichment suggests striatal/basal ganglia relevance but eMSN not identified.
+    *Relevance:*: First large-scale genetic evidence for ME/CFS. Brain tissue enrichment is significant but broad. Critical null result: no eMSN-specific genes despite brain enrichment (tissue-level analysis, not cell-type specific). Not a refutation of eMSN hypothesis but indicates cell-type specific analysis required.
+    *Quality:*: High (large sample, rigorous methods, preprint)
+    *Certainty:*: 0.80
+    *Limitations:*: Preprint (not peer-reviewed); limited to European ancestry; case definition challenges; no cell-type specific analysis.
 
 === Maccallini2025 — ME/CFS Disease Module (Metabolic Focus)
-    / *Full Citation:*: Maccallini P. Toward a Disease Module for ME/CFS: A Network-Based Gene Prioritization. _medRxiv_. 2025.
-    / *DOI:*: 10.1101/2025.04.13.25325733
-    / *Key Findings:*:
+    *Full Citation:*: Maccallini P. Toward a Disease Module for ME/CFS: A Network-Based Gene Prioritization. _medRxiv_. 2025.
+    *DOI:*: 10.1101/2025.04.13.25325733
+    *Key Findings:*:
         - Network analysis of 22 seed genes from ME/CFS literature
         - 272-gene ME/CFS module identified via STRING PPI + Random Walk with Restart
         - Module enriched in: sphingolipid metabolism, energy-related pathways (oxidative phosphorylation, TP53-regulated genes), heme degradation, thermogenesis
         - Overlap with neurodegenerative diseases (Parkinson's, Alzheimer's)
         - NO eMSN or striatum-specific findings
-    / *Conclusion:*: ME/CFS as metabolic network disorder with candidate genes for therapeutic targeting.
-    / *Relevance:*: Proposes ME/CFS disease module focusing on metabolic dysfunction. Does not support or refute eMSN hypothesis (different focus). Complementary to DecodeME: both find no eMSN but via different methods.
-    / *Quality:*: Medium (computational analysis, single author, preprint)
-    / *Certainty:*: 0.60
-    / *Limitations:*: Preprint (not peer-reviewed); computational analysis only, no experimental validation; pseudogene substitution may introduce error; no cell-type specific analysis.
+    *Conclusion:*: ME/CFS as metabolic network disorder with candidate genes for therapeutic targeting.
+    *Relevance:*: Proposes ME/CFS disease module focusing on metabolic dysfunction. Does not support or refute eMSN hypothesis (different focus). Complementary to DecodeME: both find no eMSN but via different methods.
+    *Quality:*: Medium (computational analysis, single author, preprint)
+    *Certainty:*: 0.60
+    *Limitations:*: Preprint (not peer-reviewed); computational analysis only, no experimental validation; pseudogene substitution may introduce error; no cell-type specific analysis.
 
 === HealthRising2025 — ME/CFS Autopsy (CRH Depletion)
-    / *Full Citation:*: Health Rising. ME/CFS Autopsy Study Finds a Wrecked HPA Axis: The 2025 IACFS Conference. 2025.
-    / *URL:*: https://www.healthrising.org/blog/2025/12/04/chronic-fatigue-hpa-axis-autopsy/
-    / *Key Findings:*:
+    *Full Citation:*: Health Rising. ME/CFS Autopsy Study Finds a Wrecked HPA Axis: The 2025 IACFS Conference. 2025.
+    *URL:*: https://www.healthrising.org/blog/2025/12/04/chronic-fatigue-hpa-axis-autopsy/
+    *Key Findings:*:
         - University of Amsterdam autopsy study of 7-10 ME/CFS patients
         - Very low levels of CRH-producing neurons in hypothalamus
         - Dramatic CRH depletion indicates HPA axis dysfunction
         - No mention of striatum, eMSN, or basal ganglia findings
-    / *Conclusion:*: Preliminary evidence for hypothalamic CRH depletion in ME/CFS supporting HPA axis dysfunction.
-    / *Relevance:*: Provides preliminary evidence for HPA axis dysfunction via CRH depletion. Critical: study focused on hypothalamus, not striatum; does not address eMSN. CRH is present in striatum but eMSN-specific CRH production unknown.
-    / *Quality:*: Low (secondary source, conference presentation, not peer-reviewed)
-    / *Certainty:*: 0.30
-    / *Limitations:*: Secondary source (Health Rising blog); conference presentation not peer-reviewed; limited details; no primary publication yet; small sample size (n=7-10); no striatal analysis.
+    *Conclusion:*: Preliminary evidence for hypothalamic CRH depletion in ME/CFS supporting HPA axis dysfunction.
+    *Relevance:*: Provides preliminary evidence for HPA axis dysfunction via CRH depletion. Critical: study focused on hypothalamus, not striatum; does not address eMSN. CRH is present in striatum but eMSN-specific CRH production unknown.
+    *Quality:*: Low (secondary source, conference presentation, not peer-reviewed)
+    *Certainty:*: 0.30
+    *Limitations:*: Secondary source (Health Rising blog); conference presentation not peer-reviewed; limited details; no primary publication yet; small sample size (n=7-10); no striatal analysis.
 
 
 // =============================================================================
@@ -20473,4 +20473,200 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Conclusion:*: Clinical trials may overestimate real-world medication effectiveness.
     *Limitations:*: Qualitative; self-selected sample; single center (Raj lab).
     *Certainty:*: 0.55
+
+// =============================================================================
+
+== GWAS/WGS Meta-Analysis and ME/CFS Genetic Studies
+<sec:bib-gwas-meta-maccallini-2026>
+// =============================================================================
+
+=== Maccallini 2026 — Biological Insights from GWAS and WGS of ME/CFS
+
+    @Maccallini2026metaGWAS
+
+    *Key Findings:*:
+        - Meta-GWAS and post-GWAS analysis of 19,470 ME/CFS cases
+        - Brain tissue enrichment, glutamatergic synapse involvement, specific neuronal cell types
+        - Integrates DecodeME, MVP, and UK Biobank summary statistics
+        - Post-GWAS analyses (LDSC, MAGMA, FUMA) point to CNS-specific mechanisms
+    *Conclusion:*: Largest ME/CFS meta-GWAS to date; provides converging evidence for brain-based genetic architecture.
+    *Limitations:*: Preprint; not yet peer-reviewed; methodology sound but unvalidated.
+    *Certainty:*: 0.45
+
+=== DecodeME Consortium 2025 — Initial GWAS Findings
+
+    @DecodeME2025
+
+    *Key Findings:*:
+        - 8 genome-wide significant loci in up to 15,579 cases, 259,909 controls
+        - Three loci near infection-response genes (BTN2A2, OLFM4, RABGAP1L)
+        - Four of eight replicated in UK Biobank/Lifelines
+        - CA10 colocalises with multisite chronic pain
+        - No shared causal variants with depression or anxiety
+    *Conclusion:*: Both immunological and neurological processes involved in ME/CFS genetic risk.
+    *Limitations:*: Preprint; European ancestry only; fine-mapping not conclusive for causal genes.
+    *Certainty:*: 0.60
+
+=== Sardell et al.\ 2026 — Combinatorial Genetic Risk Factors in DecodeME
+
+    @Sardell2026combinatorial
+
+    *Key Findings:*:
+        - Reproducible combinatorial genetic risk factors across DecodeME and independent cohorts
+        - Synergistic SNP interactions not detectable by standard GWAS
+        - Shared genetic architecture across ME/CFS and comorbidities
+    *Conclusion:*: Combinatorial analytics reveal additional genetic risk architecture invisible to conventional GWAS.
+    *Limitations:*: Proprietary PrecisionLife platform; independent replication needed.
+    *Certainty:*: 0.55
+
+=== Birch et al.\ 2025 — Rare Monogenic Variation in ME/CFS
+
+    @Birch2025rare
+
+    *Key Findings:*:
+        - Rare monogenic variation contributes to ME/CFS genetic architecture
+        - Complements common variant GWAS findings
+        - Identifies rare variant burden in neurological and immune pathways
+    *Conclusion:*: Precision genomics approach reveals rare variation contribution.
+    *Limitations:*: Limited sample size for rare variant analysis; single study.
+    *Certainty:*: 0.50
+
+=== Huang et al.\ 2026 — Metabolite GWAS in ME/CFS
+
+    @Huang2026mGWAS
+
+    *Key Findings:*:
+        - GWAS on plasma biomarker levels in ME/CFS patients (UK Biobank)
+        - Genetic susceptibility toward a specific metabolic phenotype
+        - Identifies variants linking metabolic perturbations to ME/CFS risk
+    *Conclusion:*: Genetic basis for metabolic phenotype in ME/CFS.
+    *Limitations:*: UK Biobank case definition; metabolic proxy not direct ME/CFS measure.
+    *Certainty:*: 0.55
+
+=== Steen et al.\ 2026 — Shared Genetic Risk Across Functional Somatic Syndromes
+
+    @Steen2026sharedgenetic
+
+    *Key Findings:*:
+        - Twin-sibling study estimating genetic/environmental contributions
+        - Shared heritability between CFS, fibromyalgia, IBS, internalizing disorders
+        - Genetic overlap with immune-mediated diseases
+    *Conclusion:*: Substantial shared genetic architecture across functional somatic syndromes.
+    *Limitations:*: Self-reported diagnoses; twin-sibling design cannot fully separate shared environment.
+    *Certainty:*: 0.65
+
+=== Hirsch et al.\ 2025 — Comparative GWAS (PTLDS, FM, ME/CFS)
+
+    @Hirsch2025comparativeGWAS
+
+    *Key Findings:*:
+        - Compared genetic architecture across post-Lyme, FM, and ME/CFS
+        - Identifies shared and distinct genetic factors
+    *Conclusion:*: Cross-condition GWAS reveals condition-specific and shared loci.
+    *Limitations:*: Small sample sizes for PTLDS subgroup.
+    *Certainty:*: 0.50
+
+=== Duan et al.\ 2025 — Mendelian Randomization: Immune Cells → ME/CFS
+
+    @Duan2025immuneMR
+
+    *Key Findings:*:
+        - MR supports causal role for specific immune cell types in ME/CFS
+        - Inflammatory cytokines identified as mediators
+    *Conclusion:*: Genetically predicted immune profiles causally influence ME/CFS risk.
+    *Limitations:*: MR assumptions; pleiotropy; modest effect sizes.
+    *Certainty:*: 0.50
+
+=== Wirth & Scheibenbogen 2026 — Glutamatergic/GABAergic Imbalance in ME/CFS
+
+    @WirthScheibenbogen2026glutamate
+
+    *Key Findings:*:
+        - ME/CFS and post-COVID share excitatory/inhibitory neurotransmitter imbalance
+        - "Wired but tired" explained by glutamatergic excess / GABAergic deficit
+        - Integrates genetic findings pointing to glutamatergic synapse
+    *Conclusion:*: Neurotransmitter imbalance provides mechanistic link between genetic findings and symptoms.
+    *Limitations:*: Review paper; synthesizes existing evidence rather than new data.
+    *Certainty:*: 0.55
+
+=== Hajdarevic et al.\ 2022 — Genetic Association Study (n=2,532)
+
+    @Hajdarevic2022gwas
+
+    *Key Findings:*:
+        - Largest published GWAS at the time (2,532 cases)
+        - Several potential risk loci identified
+        - No genome-wide significant loci
+    *Conclusion:*: Underpowered for GWAS; highlights need for larger samples.
+    *Limitations:*: Below genome-wide significance threshold.
+    *Certainty:*: 0.55
+
+=== Schlauch et al.\ 2016 — First ME/CFS GWAS
+
+    @Schlauch2016gwas
+
+    *Key Findings:*:
+        - 442 SNPs identified as candidate associations
+        - First published ME/CFS GWAS
+        - No genome-wide significant loci
+    *Conclusion:*: Pioneering study; establishes feasibility of GWAS in ME/CFS.
+    *Limitations:*: Severely underpowered by modern standards.
+    *Certainty:*: 0.40
+
+=== Ueland et al.\ 2022 — Failed Replication of TRA Locus
+
+    @Ueland2022trareplication
+
+    *Key Findings:*:
+        - Failed to replicate previously reported TRA locus association
+        - Important negative control for the field
+    *Conclusion:*: TRA locus finding likely false positive; field needs rigorous replication standards.
+    *Limitations:*: Single replication study; different population.
+    *Certainty:*: 0.60
+
+=== Dibble et al.\ 2020 — Critical Review of ME/CFS Genetics
+
+    @Dibble2020genetics
+
+    *Key Findings:*:
+        - Comprehensive review of heritability and genetic risk factors
+        - Documents small sample sizes and lack of replication
+        - Calls for adequately powered GWAS (subsequently addressed by DecodeME)
+    *Conclusion:*: Heritable component established; specific loci elusive pre-DecodeME.
+    *Limitations:*: Review paper; no new data.
+    *Certainty:*: 0.70
+
+=== Song et al.\ 2025 — MDD-ME/CFS Mendelian Randomization
+
+    @Song2025mddmecfsMR
+
+    *Key Findings:*:
+        - Two-sample MR investigating MDD-ME/CFS causal relationship
+        - Complements DecodeME finding of no shared causal variants
+    *Conclusion:*: Genetic evidence does not support causal MDD→ME/CFS pathway.
+    *Limitations:*: MR assumptions; GWAS summary statistic limitations.
+    *Certainty:*: 0.50
+
+=== Das et al.\ 2022 — Combinatorial Analysis (UK Biobank)
+
+    @Das2022geneticrisk
+
+    *Key Findings:*:
+        - GWAS + PrecisionLife combinatorial analytics on UK Biobank
+        - Identified genetic risk factors missed by conventional GWAS
+        - Synergistic SNP-SNP interactions
+    *Conclusion:*: Combinatorial approaches complement standard GWAS.
+    *Limitations:*: Proprietary platform; replication needed.
+    *Certainty:*: 0.55
+
+=== Frank et al.\ 2026 — Molecular Reclassification of ME/CFS
+
+    @Frank2026molecularreclass
+
+    *Key Findings:*:
+        - Integrates multi-omics, machine learning, and precision medicine
+        - Toward molecular reclassification of ME/CFS subtypes
+    *Conclusion:*: Multi-omics integration can redefine ME/CFS classification.
+    *Limitations:*: Review/hypothesis paper; requires empirical validation.
+    *Certainty:*: 0.45
 

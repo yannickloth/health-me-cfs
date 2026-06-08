@@ -513,6 +513,25 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/17484316/ | pubmed | 2026-05-26 | — | Search for VanNess 2007 CPET (incorrect PMID) |
 | https://pubmed.ncbi.nlm.nih.gov/29475645/ | pubmed | 2026-05-26 | — | Search for Davenport paper (incorrect PMID) |
 | https://pubmed.ncbi.nlm.nih.gov/20095905/ | pubmed | 2026-05-26 | — | VanNess2010PEM (already in bibliography) |
+| PubMed API queries (batch) | pubmed/eutils | 2026-06-08 | — | content-staging/lit-review-gwas-meta-maccallini-2026-2026-06-08.md, bib/appendix-h — GWAS/WGS meta-analysis ME/CFS literature (15 core + 10 supplementary papers) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://doi.org/10.21203/rs.3.rs-9702020/v1 | Research Square | 2026-06-08 | — | bib/appendix-h — Maccallini2026metaGWAS — Primary meta-GWAS paper |
+| https://doi.org/10.1101/2025.08.06.25333109 | medRxiv | 2026-06-08 | — | bib/appendix-h — DecodeME2025 — DecodeME GWAS initial findings |
+| https://pubmed.ncbi.nlm.nih.gov/42015188/ | pubmed | 2026-06-08 | — | bib/appendix-h — Sardell2026combinatorial — DecodeME combinatorial analysis |
+| https://pubmed.ncbi.nlm.nih.gov/41444612/ | pubmed | 2026-06-08 | — | bib/appendix-h — Birch2025rare — Rare monogenic variation ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/41536999/ | pubmed | 2026-06-08 | — | bib/appendix-h — Huang2026mGWAS — Metabolite GWAS ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/42190845/ | pubmed | 2026-06-08 | — | bib/appendix-h — Steen2026sharedgenetic — Twin-sibling functional somatic syndromes |
+| https://pubmed.ncbi.nlm.nih.gov/39994562/ | pubmed | 2026-06-08 | — | bib/appendix-h — Hirsch2025comparativeGWAS — Comparative GWAS PTLDS/FM/ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/40427027/ | pubmed | 2026-06-08 | — | bib/appendix-h — Duan2025immuneMR — MR immune cells → ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/42123618/ | pubmed | 2026-06-08 | — | bib/appendix-h — WirthScheibenbogen2026glutamate — Glutamatergic imbalance ME/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/40321247/ | pubmed | 2026-06-08 | — | bib/appendix-h — Zhang2025deeplearning — Deep learning genome analysis |
+| https://pubmed.ncbi.nlm.nih.gov/40564862/ | pubmed | 2026-06-08 | — | bib/appendix-h — ArcosBurgos2025Olduvai — Olduvai domains ME/CFS neuropsychiatric |
+| https://pubmed.ncbi.nlm.nih.gov/42053855/ | pubmed | 2026-06-08 | — | bib/appendix-h — Zhang2026mitoMR — Mitochondria MR chronic fatigue |
+| https://pubmed.ncbi.nlm.nih.gov/35354508/ | pubmed | 2026-06-08 | — | bib/appendix-h — Kendler2023familygenetic — Family genetic risk FM/IBS/CFS |
+| https://pubmed.ncbi.nlm.nih.gov/41752134/ | pubmed | 2026-06-08 | — | bib/appendix-h — Keele2026mitodysregulation — Mitochondrial dysregulation gene expression |
+
 | https://doi.org/10.1016/j.cell.2026.04.048 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — Chayama2026BrainClearance — Physiological brain clearance architecture revealed by neuronal protein tracing
 | https://doi.org/10.1016/j.mehy.2018.07.007 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — Wostyn2018GlymphaticCFS — Glymphatic signature of chronic fatigue syndrome hypothesis
 | https://doi.org/10.3390/ijms262311524 | doi.org | 2026-05-30 | — | bib/appendix-h/integration-guide — NematGorgani2025GlymphaticMECFS — Glymphatic system dysregulation in ME/CFS review
