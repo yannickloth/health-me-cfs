@@ -247,8 +247,8 @@ The TRPM3 dysfunction finding has been reported across multiple sites @Sasso2026
         - *Consequential hypothesis*: TRPM3 dysfunction is a downstream consequence of chronic immune activation, redox stress, or altered membrane lipid composition caused by the disease---all of which modulate TRP channel gating independently of primary TRPM3 pathology. Correcting TRPM3 would not address the upstream cause.
         - *Biomarker hypothesis*: TRPM3 dysfunction is a reliable marker of NK cell state in ME/CFS with no direct causal role; useful diagnostically but not therapeutically.
         Available cross-sectional data cannot distinguish between these three; prospective intervention studies are required.
-    - The proposed TRPM3-GPCR signalling convergence and calcium-mitochondria cascade are mechanistically plausible models, but the causal links (autoantibodies $\to$ TRPM3 dysfunction $\to$ mitochondrial failure) have not been demonstrated in any experimental system.
-    - Therapeutic speculation regarding TRPM3 agonists/antagonists is premature: TRPM3 pharmacology in humans is poorly characterised, and no TRPM3-modulating compound has been tested in ME/CFS patients.
+    - The proposed TRPM3-GPCR signaling convergence and calcium-mitochondria cascade are mechanistically plausible models, but the causal links (autoantibodies $\to$ TRPM3 dysfunction $\to$ mitochondrial failure) have not been demonstrated in any experimental system.
+    - Therapeutic speculation regarding TRPM3 agonists/antagonists is premature: TRPM3 pharmacology in humans is poorly characterized, and no TRPM3-modulating compound has been tested in ME/CFS patients.
 
 ]
 
@@ -400,7 +400,7 @@ The NCX reversal mechanism (NHE1 → Na#super[+] overload → NCX1 reverse mode 
 
 If GPCR autoantibody-driven PLC activation generates chronic IP3 flux, ER calcium release would be elevated. NCS-1 (neuronal calcium sensor protein 1) amplifies IP3R channel open probability approximately five-fold; whether NCS-1 expression is elevated in ME/CFS is unknown, but if so this would further amplify ER Ca#super[2+] release (see @oq:ncs1-mecfs-expression and @spec:low-dose-lithium). The IP3R/GRP75/VDAC1/MCU pathway would then deliver excessive calcium directly to the mitochondrial matrix. This ER-side route is additive with the NCX-reversal route: during PEM, both could operate simultaneously — NCX-reversal from plasma membrane-side sodium overload, AND IP3R/VDAC/MCU from ER-side IP3 excess. The combination would impose greater mitochondrial calcium loading than either mechanism alone, potentially explaining why mitochondrial damage in ME/CFS appears disproportionate to the degree of ischemia.
 
-A further connection: S1R stabilises IP3R3 at MAMs (Section @subsubsec:sigma1-mechanism). If S1R function is impaired in ME/CFS (by viral protein binding, ER stress, or autoimmune disruption), the IP3R3/MAM coupling may become dysregulated, contributing to uncontrolled calcium transfer.
+A further connection: S1R stabilizes IP3R3 at MAMs (Section @subsubsec:sigma1-mechanism). If S1R function is impaired in ME/CFS (by viral protein binding, ER stress, or autoimmune disruption), the IP3R3/MAM coupling may become dysregulated, contributing to uncontrolled calcium transfer.
 
 *Falsifiable predictions.* (a) ME/CFS patient cells should show elevated mitochondrial calcium at baseline, measurable by Rhod-2 AM fluorescence. (b) IP3R inhibition (2-APB or xestospongin C, in vitro) should reduce mitochondrial calcium overload in ME/CFS cells more than in healthy controls. (c) GRP75 expression or IP3R3/VDAC1 co-localization at MAMs should be altered in ME/CFS cells.
 
@@ -808,7 +808,7 @@ This yields a 2x2 classification: (A+/B−) Subtype A dominant → metabolic/vas
 === Post-Infectious Channelopathy: Brugada Syndrome Parallel
 
 #speculation(title: [Post-Viral Acquired Channelopathy — Brugada Syndrome as Mechanistic Precedent])[
-Brugada syndrome provides a compelling precedent for post-infectious acquired ion channel dysfunction. Type 1 Brugada ECG patterns can appear or become unmasked after febrile viral illness, and in some patients the phenotype persists after recovery. The mechanism involves post-infectious alteration of Nav1.5 (cardiac sodium channel) function — through immune-mediated targeting, viral protease cleavage, or epigenetic silencing — producing durable channel dysfunction without ongoing viral infection.
+Brugada syndrome provides a clear precedent for post-infectious acquired ion channel dysfunction. Type 1 Brugada ECG patterns can appear or become unmasked after febrile viral illness, and in some patients the phenotype persists after recovery. The mechanism involves post-infectious alteration of Nav1.5 (cardiac sodium channel) function — through immune-mediated targeting, viral protease cleavage, or epigenetic silencing — producing durable channel dysfunction without ongoing viral infection.
 
 If post-infectious mechanisms can permanently alter Nav1.5 in cardiac cells, analogous mechanisms could alter TRPM3 in immune cells. The Brugada precedent establishes that: (a) post-viral channelopathy is biologically real (not speculative), (b) the dysfunction can persist indefinitely after pathogen clearance, and (c) viral proteases are candidates for the initiating mechanism.
 
@@ -867,7 +867,7 @@ This section builds on the selectively noradrenergic central catecholamine defic
     - Milnacipran, despite being an SNRI, did not reduce ventricular lactate in fibromyalgia (Chapter @ch:medications-mechanisms), suggesting the clinical benefit is via central mechanisms rather than peripheral metabolic effects @Natelson2015milnacipran
 
 *Falsifiable predictions:*
-    1. Atomoxetine (40--80 mg/day, titrated from 10 mg) over 12 weeks in ME/CFS will reduce MFI physical fatigue by ≥1 standardised mean difference vs placebo in a double-blind RCT, and this effect will be larger in the subgroup with more severe orthostatic intolerance
+    1. Atomoxetine (40--80 mg/day, titrated from 10 mg) over 12 weeks in ME/CFS will reduce MFI physical fatigue by ≥1 standardized mean difference vs placebo in a double-blind RCT, and this effect will be larger in the subgroup with more severe orthostatic intolerance
     2. CSF NE Pathway index will be the strongest predictor of NRI response among all candidates in an enrichment-design trial
     3. A head-to-head trial of atomoxetine (pure NRI) vs duloxetine (SNRI) in ME/CFS will show atomoxetine superior on fatigue while duloxetine superior on pain, reflecting the different neurotransmitter targets
 
@@ -962,7 +962,7 @@ Pupil diameter correlates with LC firing rate in non-human primates (Joshi 2016)
 
 *Falsifiable predictions:* (a) Baseline pupil diameter and PLR latency correlate with CSF NE Pathway index (r > 0.5) in ME/CFS patients. (b) Pupillometry parameters discriminate PI-ME/CFS from HV (AUC > 0.75). (c) Task-evoked pupil dilation correlates with handgrip duration. (d) Blunted phasic response predicts larger NRI benefit (predictive biomarker).
 
-*Limitations.* Pupil size is affected by ambient light, arousal, medications (anticholinergics, antihistamines, antidepressants), and iris muscle fatigue. Standardised protocol required. Correlation with CSF NE must be established before clinical use.
+*Limitations.* Pupil size is affected by ambient light, arousal, medications (anticholinergics, antihistamines, antidepressants), and iris muscle fatigue. Standardized protocol required. Correlation with CSF NE must be established before clinical use.
 ] <spec:pupillometry-lc-ne>
 
 === NE as Descending Analgesia Gate: Pain-Fatigue Mechanism Link
@@ -995,7 +995,7 @@ Conditioned pain modulation (CPM) --- a clinical measure of endogenous analgesia
 #speculation(title: [24-Hour Urinary VMA/HVA Ratio as Non-Invasive DBH Index])[
 *Certainty: 0.25.* (Plausible but unvalidated against CSF.) Vanillylmandelic acid (VMA) is the primary NE metabolite; homovanillic acid (HVA) is the primary DA metabolite. The 24h urinary VMA/HVA ratio reflects systemic NE:DA turnover balance. Since NE is derived from DA via DBH, a low VMA/HVA ratio implies impaired DBH function or selective NE deficiency --- the same biochemical pattern as the CSF NE Pathway. If peripheral DBH activity mirrors central DBH (as in Parkinson's disease), urine VMA/HVA could serve as a cheap, non-invasive surrogate for CSF NE Pathway status.
 
-VMA/HVA ratio is used clinically in neuroblastoma diagnosis and is standardised, widely available, and non-invasive. No ME/CFS study has measured 24h urine VMA/HVA or correlated it with CSF NE.
+VMA/HVA ratio is used clinically in neuroblastoma diagnosis and is standardized, widely available, and non-invasive. No ME/CFS study has measured 24h urine VMA/HVA or correlated it with CSF NE.
 
 *Falsifiable predictions:* (a) 24h urinary VMA/HVA ratio correlates with CSF NE Pathway in ME/CFS patients (r > 0.5). (b) VMA/HVA below age/sex-adjusted threshold discriminates PI-ME/CFS from HV (AUC > 0.70). (c) Ratio normalises after droxidopa treatment.
 
@@ -1021,7 +1021,7 @@ This has direct clinical implications: treating central NE deficiency (atomoxeti
 
 *Falsifiable predictions:* (a) TRPM3 function in ME/CFS iPSC-derived LC neurons correlates with CSF NE Pathway activity. (b) Calcium imaging in patient-derived LC neurons shows reduced depolarization-evoked Ca²⁺ influx. (c) TRPM3 agonist (pregnenolone sulfate) increases NE release from patient LC neurons in vitro; TRPM3 antagonist reduces it.
 
-*Limitations.* No iPSC-derived LC neurons available from ME/CFS patients. TRPM3 expression pattern in human LC not fully characterised. The NK cell TRPM3 defect may not generalise to LC neurons --- different cellular context, different regulatory mechanisms.
+*Limitations.* No iPSC-derived LC neurons available from ME/CFS patients. TRPM3 expression pattern in human LC not fully characterized. The NK cell TRPM3 defect may not generalise to LC neurons --- different cellular context, different regulatory mechanisms.
 ] <spec:trpm3-ne-twohit>
 
 === Pregnenolone Sulfate as TRPM3-Mediated NE Release Enhancer
@@ -1097,7 +1097,7 @@ This hypothesis predicts: (a) ME/CFS patients do not develop PD at elevated rate
 === Cerebellar Cognitive-Affective Syndrome (CCAS) in ME/CFS
 
 #hypothesis(title: [Maccallini Cerebellar Signal Maps to CCAS Cognitive Phenotype])[
-Schmahmann's Cerebellar Cognitive-Affective Syndrome (CCAS) produces executive dysfunction, impaired working memory, blunted affect, and language difficulties — precisely the cognitive profile of ME/CFS. The Maccallini 2026 meta-GWAS provides genetic grounding for this reframing: independent replicated signals in cerebellar neuronal populations with glutamatergic synapses as the most specific replicated gene-set @Maccallini2026metaGWAS (Section @sec:maccallini-metagwas). The cerebellum, rather than being a secondary motor structure, is reframed as a cognitive epicentre whose dysfunction is genetically inscribed.
+Schmahmann's Cerebellar Cognitive-Affective Syndrome (CCAS) produces executive dysfunction, impaired working memory, blunted affect, and language difficulties — precisely the cognitive profile of ME/CFS. The Maccallini 2026 meta-GWAS provides genetic grounding for this reframing: independent replicated signals in cerebellar neuronal populations with glutamatergic synapses as the most specific replicated gene-set @Maccallini2026metaGWAS (Section @sec:maccallini-metagwas). The cerebellum, rather than being a secondary motor structure, is reframed as a cognitive epicenter whose dysfunction is genetically inscribed.
 
 *Proposed mechanism:* Glutamatergic synapse enrichment (genetically determined) → altered cerebellar circuit computation → disrupted cerebellar modulation of prefrontal and parietal cortical networks → CCAS triad. Cerebellar Purkinje cells are GABAergic but receive massive glutamatergic input from parallel fibres and climbing fibres; the glutamatergic enrichment may preferentially affect this input pathway, altering Purkinje cell output and disrupting cerebro-cerebellar loops. The cerebellum has among the highest metabolic demands per gram of any brain region, making cerebellar circuits — particularly Purkinje cells with their extensive dendritic arbours — disproportionately vulnerable to the energy deficits documented in ME/CFS, compounding the genetic vulnerability.
 

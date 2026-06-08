@@ -48,10 +48,10 @@ Integrate the largest ME/CFS GWAS/WGS meta-analysis to date (Maccallini 2026, 19
 | 4c | ✅ | 10 reinforcement pairs, 5 feed-into pairs, 1 conflict cluster (brain-first vs autoantibody — unresolved tension, not refutation), multiple independent pairs. 2 certainty bumps applied (+0.05 to CCAS and terrain+trigger). Compatibility audit at `content-staging/compat-audit-gwas-meta-maccallini-2026-2026-06-08.md` |
 | 5 | ✅ | Build PASS (pre-existing NF-kappaB bracket errors in ch16 fixed opportunistically; ch12 unbalanced bracket in FPEB citation fixed) |
 | 6a | ✅ | 2 rounds: 12 findings fixed (missing certainty values, broken cross-refs, formatting); build PASS |
-| 6b | ⏭️ | Skipped — context constraints; adversarial review deferred to dedicated session |
-| 6c | ⏭️ | Skipped — context constraints; typst review deferred to dedicated session |
+| 6b | ✅ | 6 personas: 51 findings total. Critical fixes applied: certainty 0.80→0.50 + single-anchor warning, MVP sex confound, cell-type→regional, KA/QA citation swap, duplicate depression paradox spec merged |
+| 6c | ✅ | 2 rounds converged: ~50 AI lang + UK→US fixes; 0 findings R2. Build PASS. |
 | 7 | ✅ | `src/main/typst/mecfs/shared/changelog.typ` — Version 11 entry added |
-| 8 | ⬜ | — |
+| 8 | ✅ | 3 commits: `f5f08c1` (lit/bib), `ffe3996` (content 9 chapters), `e3d5578` (planning infra) |
 
 ## Notes
 - Source: 2026 lit scan — paper #7 in catalogue (TODO: create ops/lit-scan/ catalogue)

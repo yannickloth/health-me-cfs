@@ -111,7 +111,7 @@ Category A (net energy provider). Essential cofactor for Na#super[+]/K#super[+]-
 Category A (net energy provider). Required cofactor for over 300 enzymatic reactions, including ATP synthesis itself (ATP exists physiologically as Mg-ATP complex). Deficiency directly impairs energy production at multiple points: glycolysis, TCA cycle, and oxidative phosphorylation. Supplementation restores enzymatic capacity with minimal metabolic processing cost. Among the highest-priority supplements for energy-depleted patients.
 
 #speculation(title: [Magnesium L-Threonate for NMDA Receptor Regulation])[
-*Certainty: 0.35.* Magnesium L-threonate is the only magnesium form demonstrated to reliably elevate brain magnesium levels in humans, crossing the blood-brain barrier via monocarboxylate transporters. Magnesium blocks the NMDA receptor channel in a voltage-dependent manner --- at resting membrane potential, Mg#super[2+] occupies the channel pore and prevents Ca#super[2+] influx. When glutamatergic hyperexcitability depolarises the postsynaptic membrane, Mg#super[2+] is expelled, allowing NMDA receptor activation @Maccallini2026metaGWAS. If ME/CFS involves genetically driven glutamatergic hyperexcitability (Hypothesis @hyp:glutamatergic-synaptic-dysfunction), elevating brain magnesium could raise the threshold for NMDA receptor activation, reducing excitotoxic signalling.
+*Certainty: 0.35.* Magnesium L-threonate is the only magnesium form demonstrated to reliably elevate brain magnesium levels in humans, crossing the blood-brain barrier via monocarboxylate transporters. Magnesium blocks the NMDA receptor channel in a voltage-dependent manner --- at resting membrane potential, Mg#super[2+] occupies the channel pore and prevents Ca#super[2+] influx. When glutamatergic hyperexcitability depolarizes the postsynaptic membrane, Mg#super[2+] is expelled, allowing NMDA receptor activation @Maccallini2026metaGWAS. If ME/CFS involves genetically driven glutamatergic hyperexcitability (Hypothesis @hyp:glutamatergic-synaptic-dysfunction), elevating brain magnesium could raise the threshold for NMDA receptor activation, reducing excitotoxic signaling.
 
 *Dosing:* 1-2 g/day magnesium L-threonate providing approximately 144-288 mg elemental magnesium. Divided doses (morning and afternoon) to maintain stable brain magnesium levels. Titrate from 1 g/day.
 
@@ -1701,7 +1701,7 @@ Zinc carnosine (L-carnosine zinc complex) may enhance butyrate's barrier-protect
 
     - *Antioxidant activity:* Scavenges reactive oxygen species (ROS) generated during inflammation and barrier repair
     - *Mucosal healing:* Enhances mucus production and epithelial regeneration in gastric ulcer models
-    - *Anti-inflammatory:* Inhibits NF-κB signalling and reduces pro-inflammatory cytokine production
+    - *Anti-inflammatory:* Inhibits NF-κB signaling and reduces pro-inflammatory cytokine production
     - *Zinc delivery:* Provides bioavailable zinc, essential for tight junction protein synthesis
 
 *Synergy with butyrate:*
@@ -1709,7 +1709,7 @@ Zinc carnosine (L-carnosine zinc complex) may enhance butyrate's barrier-protect
     - Butyrate directly fuels colonocyte mitochondria, providing ATP for tight junction assembly
     - Zinc carnosine reduces oxidative damage to tight junction proteins, preventing their degradation
     - Combined effect: sustained barrier integrity during butyrate-mediated repair
-    - Zinc carnosine stabilises mucosal integrity, reducing leakage during butyrate titration
+    - Zinc carnosine stabilizes mucosal integrity, reducing leakage during butyrate titration
 
 *Evidence and Rationale:*
 
@@ -2192,12 +2192,12 @@ Work with a knowledgeable healthcare provider when possible, especially for high
 
 === Immunomodulatory Supplements for B Cell and Autoantibody Regulation
 
-*Context.* Tissue-specific IgM autoantibody persistence in long COVID — driven by ongoing extrafollicular B cell activation @Tatai2026TSAutoantibodies — provides mechanistic rationale for supplements that modulate BCR signalling, NF-$kappa$B activation, and immune tolerance. None of the following supplements have been tested for autoantibody reduction in ME/CFS; evidence is from in vitro studies, animal models, and other autoimmune conditions.
+*Context.* Tissue-specific IgM autoantibody persistence in long COVID — driven by ongoing extrafollicular B cell activation @Tatai2026TSAutoantibodies — provides mechanistic rationale for supplements that modulate BCR signaling, NF-$kappa$B activation, and immune tolerance. None of the following supplements have been tested for autoantibody reduction in ME/CFS; evidence is from in vitro studies, animal models, and other autoimmune conditions.
 
 #speculation(title: [Quercetin for BCR Signal Modulation])[
-*(Certainty: 0.25.)* Quercetin is a bioflavonoid that inhibits SYK and BTK phosphorylation — key BCR signalling kinases — and suppresses extrafollicular IgM plasmablast differentiation in vitro. By partially reducing BCR signal intensity, quercetin could lower the threshold for autoreactive B cell activation without the immunosuppression of pharmaceutical BTK inhibitors.
+*(Certainty: 0.25.)* Quercetin is a bioflavonoid that inhibits SYK and BTK phosphorylation — key BCR signaling kinases — and suppresses extrafollicular IgM plasmablast differentiation in vitro. By partially reducing BCR signal intensity, quercetin could lower the threshold for autoreactive B cell activation without the immunosuppression of pharmaceutical BTK inhibitors.
 
-*Evidence level:* In vitro mechanistic data only; no human autoantibody-reduction studies. Mast-cell-stabilising, antioxidant, and anti-inflammatory effects are better characterised. Typical dose: 500 mg twice daily; quercetin phytosomal formulations improve bioavailability.
+*Evidence level:* In vitro mechanistic data only; no human autoantibody-reduction studies. Mast-cell-stabilising, antioxidant, and anti-inflammatory effects are better characterized. Typical dose: 500 mg twice daily; quercetin phytosomal formulations improve bioavailability.
 
 *Limitations:* In vitro BCR inhibition may not translate to in vivo autoantibody reduction. Quercetin's effect size on autoantibody titers is unknown. Not tested in ME/CFS autoantibody cohorts. @Tatai2026TSAutoantibodies.
 ] <spec:quercetin-bcr>
@@ -2211,7 +2211,7 @@ Work with a knowledgeable healthcare provider when possible, especially for high
 ] <spec:curcumin-nfkb>
 
 #speculation(title: [Omega-3 Fatty Acids (EPA/DHA) for B Cell Membrane Lipid Raft Modulation])[
-*(Certainty: 0.20.)* BCR signalling intensity depends on lipid raft composition in the B cell membrane. Omega-3 fatty acids (EPA/DHA) incorporate into membrane phospholipids, increase membrane fluidity, and alter lipid raft composition — potentially reducing BCR signal intensity. Omega-3s also have anti-inflammatory effects via resolvin and protectin production.
+*(Certainty: 0.20.)* BCR signaling intensity depends on lipid raft composition in the B cell membrane. Omega-3 fatty acids (EPA/DHA) incorporate into membrane phospholipids, increase membrane fluidity, and alter lipid raft composition — potentially reducing BCR signal intensity. Omega-3s also have anti-inflammatory effects via resolvin and protectin production.
 
 *Evidence level:* Omega-3 supplementation reduces disease activity in rheumatoid arthritis and SLE; B cell effects are inferred from lipid raft biology, not directly demonstrated in human autoantibody studies. Typical dose: EPA+DHA 2–3 g daily.
 
@@ -2347,7 +2347,7 @@ Melatonin is produced by the pineal gland and by thymic epithelial cells, where 
 ] <spec:polyphenol-exosome-loading>
 
 #speculation(title: [Omega-3 Fatty Acids Enhance Exosome Membrane Fluidity and Cargo Delivery])[
-*Certainty: 0.20.* Omega-3 fatty acids (DHA, EPA) incorporate into exosome lipid bilayers, increasing membrane fluidity and fusogenicity — potentially enhancing cargo release into target cells. Exosomes from omega-3-supplemented donors may deliver cargo more efficiently. Dietary omega-3 levels in ME/CFS patients are not characterised relative to exosome function.
+*Certainty: 0.20.* Omega-3 fatty acids (DHA, EPA) incorporate into exosome lipid bilayers, increasing membrane fluidity and fusogenicity — potentially enhancing cargo release into target cells. Exosomes from omega-3-supplemented donors may deliver cargo more efficiently. Dietary omega-3 levels in ME/CFS patients are not characterized relative to exosome function.
 ] <spec:omega3-exosome-fluidity>
 
 == Thermoregulatory Support Supplements
