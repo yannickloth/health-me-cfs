@@ -2092,6 +2092,12 @@ The approach assumes that environmental modifications produce measurable functio
 
 *Limitations:* Sensory deprivation may paradoxically increase anxiety in some patients. Complete deprivation is difficult to implement in home care settings. No ME/CFS trial exists. ] <spec:sensory-fasting>
 
+#speculation(title: [Glutamate-Directed Pacing: Sensory Load Management])[
+*Certainty: 0.40.* Glutamatergic neurotransmission increases with sensory and cognitive load. If ME/CFS involves genetically driven glutamatergic hyperexcitability, sensory stimulation may produce disproportionate metabolic demand and excitotoxicity. Sensory load management — minimising light, sound, screen-based cognitive work — may reduce glutamatergic burden and preserve E/I balance below the PEM threshold. Distinguish from standard "energy envelope" pacing: this is specifically about glutamatergic drive reduction, not general activity management.
+
+*Falsifiable prediction.* Structured sensory-rest protocol reduces post-cognitive-exertion MRS Glx elevation vs unrestricted sensory exposure in ME/CFS.
+] <spec:glutamate-directed-pacing>
+
 === Chemical and Environmental Sensitivities
 
 Multiple chemical sensitivity (MCS) is common in ME/CFS and may reflect mast cell activation, neuroinflammation, or impaired xenobiotic metabolism:

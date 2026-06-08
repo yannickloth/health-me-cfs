@@ -345,6 +345,46 @@ The kynurenine pathway bridges immune activation and glutamatergic neurotransmis
 *Falsifiable prediction:* ME/CFS patients with low serum KA/QA ratio (< median of healthy distribution) will show greater clinical response to glutamatergic modulation (memantine) compared to high-KA/QA patients in a stratified randomised trial. Low KA/QA should also correlate with high glutamatergic PRS.
 ] <spec:ka-qa-glutamate-biomarker>
 
+#speculation(title: [VTA/SN Dopaminergic Effort-Motivation Collapse])[
+Maccallini 2026 identified a secondary dopaminergic midbrain signal (VTA/substantia nigra) with convergent support from both common-variant GWAS and rare-variant WGS data @Maccallini2026metaGWAS. Dopamine encodes effort cost — how much a given action is "worth" metabolically. If dopaminergic midbrain dysfunction tilts effort valuation toward "not worth it," this reframes ME/CFS "fatigue" as a computational problem in effort-reward valuation rather than muscle exhaustion, consistent with the effort-cost miscalibration documented in cortico-striatal circuits (Chapter @ch:neurological).
+
+(Certainty: 0.40)
+
+*Falsifiable prediction:* A dopamine-dependent effort-based decision-making task (e.g., progressive ratio task with fMRI) will show steeper effort discounting in ME/CFS vs controls, with discounting rate correlating with DA-PRS. Patients with high DA-PRS will show greater effort-cost sensitivity despite normal peripheral energy metabolism markers.
+] <spec:vta-sn-dopaminergic>
+
+#speculation(title: [Enteric Glutamatergic Dysfunction as Genetic Link to IBS r_g = 0.75])[
+The strongest genetic correlation with ME/CFS is IBS at $r_g = 0.75$ @Maccallini2026metaGWAS. The enteric nervous system uses glutamate as its primary excitatory neurotransmitter — the same genes, same synaptic machinery as the CNS. If glutamatergic risk variants affect enteric circuits, this would explain both the IBS genetic overlap and GI symptoms in ME/CFS without requiring a gut-to-brain or brain-to-gut directionality assumption: the same genetic liability operates in both compartments simultaneously.
+
+(Certainty: 0.35)
+
+*Falsifiable prediction:* ME/CFS+IBS patients will show significantly higher glutamatergic PRS than ME/CFS-only patients, independent of depression or anxiety comorbidity. Glutamatergic PRS will correlate with GI symptom severity (visceral hypersensitivity, dysmotility) within the ME/CFS+IBS subgroup.
+] <spec:enteric-glutamatergic-ibs>
+
+#speculation(title: [Dopaminergic Midbrain PRS for Effort-Motivation Subtyping])[
+If VTA/SN dysfunction drives effort-motivation collapse (Speculation @spec:vta-sn-dopaminergic), a dopamine-pathway-specific polygenic risk score (DA-PRS) could identify patients whose "fatigue" is primarily a motivational-effort valuation deficit rather than a metabolic-muscular limitation. DA-PRS would complement glutamatergic PRS (Hypothesis @hyp:glutamatergic-synaptic-dysfunction) by capturing a distinct dimension of genetic liability.
+
+(Certainty: 0.40)
+
+*Falsifiable prediction:* DA-PRS predicts effort-based decision-making task performance (willingness to exert effort for reward) better than Glu-PRS in ME/CFS, while Glu-PRS better predicts sensory hypersensitivity and PEM severity.
+] <spec:da-prs-subtyping>
+
+#speculation(title: [Composite Neuronal Risk Score for Subtype Discrimination])[
+A composite polygenic risk score combining Glu-PRS + DA-PRS + cerebellar PRS (Cer-PRS) from Maccallini cell-type enrichment data may provide better subtype discrimination than any single PRS alone @Maccallini2026metaGWAS. This is analogous to polygenic risk scores combining multiple trait-specific scores for cardiovascular disease risk prediction.
+
+(Certainty: 0.45)
+
+*Falsifiable prediction:* Composite neuronal PRS (Glu + DA + Cer) will show significantly better discrimination between clinically defined ME/CFS subtypes (e.g., cognitively-predominant vs pain-predominant vs autonomic-predominant) compared to any single PRS, with AUC improvement > 0.10 over best single PRS.
+] <spec:composite-neuronal-prs>
+
+#speculation(title: [Combinatorial SNP Interactions as Clinical Prediction Tool])[
+Sardell et al.\ (2026) employed the PrecisionLife combinatorial analytics platform to identify synergistic SNP-SNP interactions in ME/CFS, capturing epistatic effects invisible to standard additive GWAS models @Sardell2026combinatorial. These combinatorial markers may outperform additive polygenic risk scores for clinical ME/CFS risk prediction.
+
+(Certainty: 0.50)
+
+*Falsifiable prediction:* A combinatorial epistatic risk score will show AUC improvement > 0.15 above the best additive PRS in predicting ME/CFS case-control status (p < 0.01), in an independent validation cohort not used for discovery.
+] <spec:combinatorial-snp-risk>
+
 == Epigenetic Modifications
 <sec:epigenetics>
 

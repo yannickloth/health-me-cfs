@@ -241,6 +241,22 @@ Pomaglumetad (mGluR2/3 agonist) failed in schizophrenia Phase III trials despite
 *Falsifiable prediction.* ME/CFS patients stratified by high vs. low glutamatergic PRS will show differential response to glutamatergic modulators (memantine benefit in high-PRS subgroup), supporting circuit-specific glutamatergic pathology distinct from schizophrenia.
 ] <spec:schizophrenia-glutamatergic-parallel>
 
+#speculation(title: [Epilepsy: Glutamatergic Hyperexcitability Threshold])[
+Epilepsy is the archetypal glutamatergic hyperexcitability disorder. Anti-epileptic drugs (lamotrigine, levetiracetam, zonisamide) are already discussed in Chapter @ch:neurological for their microglial-suppressive and anti-kindling properties. Maccallini 2026 glutamatergic synapse enrichment provides a genetic rationale: ME/CFS may share a sub-convulsive hyperexcitability phenotype with epilepsy, manifesting as altered neural network excitability without overt seizure activity @Maccallini2026metaGWAS.
+
+(Certainty: 0.35)
+
+*Falsifiable prediction:* Interictal-like discharges on sleep EEG (already documented as alpha-delta sleep in ME/CFS) will be more common in high Glu-PRS ME/CFS patients than low Glu-PRS patients, and sleep EEG abnormality burden will correlate with glutamatergic PRS.
+] <spec:epilepsy-glutamatergic>
+
+#speculation(title: [Autism: Cerebellar Development and Glutamatergic Circuits])[
+Cerebellar Purkinje cell loss is among the most replicated neuropathological findings in autism. Both ME/CFS and autism show: (a) glutamatergic synapse genetic enrichment in GWAS, (b) Purkinje cell vulnerability to metabolic and inflammatory stress, (c) sensory hypersensitivity, and (d) autonomic dysfunction. Maccallini 2026 independent cerebellar neuronal signal provides a genetic bridge: if cerebellar glutamatergic dysfunction is a shared developmental vulnerability, it could explain the disproportionate ME/CFS prevalence in neurodivergent populations @Maccallini2026metaGWAS.
+
+(Certainty: 0.35)
+
+*Falsifiable prediction:* A cerebellar cell-type PRS derived from Maccallini enrichment data will correlate with Sensory Profile questionnaire scores (especially auditory and tactile sensitivity) in both autism and ME/CFS cohorts, and will be elevated in ME/CFS patients with co-occurring autism traits.
+] <spec:autism-cerebellar-glutamate>
+
 #limitation(title: [HSAT2 Cluster: Single-Anchor Architecture Risk])[
 All environments in the HSAT2 hypothesis cluster — across Chapters 14a, 14d, 16, 17, 18, and 20 — share a single foundational mechanistic anchor: Evdokimova et al.\ 2019 (bioRxiv, Ewing sarcoma, unpublished). If this anchor fails to replicate in non-cancer biology, the downstream speculations (exosomal propagation, MDSC expansion, NK suppression, epigenetic combination strategies) are individually unmotivated. The certainty values assigned to each environment are conditional on the anchor's plausibility; readers should weight them accordingly.
 ]

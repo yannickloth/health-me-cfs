@@ -823,7 +823,7 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 #speculation(title: [C1-Esterase Inhibitor for Complement-Mediated Glycocalyx Damage in GPCR Autoantibody-Positive ME/CFS+POTS])[
 *Certainty: 0.20.* GPCR autoantibodies (IgG1 subclass) fix complement via C1q, activating the classical complement pathway and generating C5a/C3a anaphylatoxins. Complement activation damages the endothelial glycocalyx (heparan sulfate shedding → impaired vasomotor tone). C1-esterase inhibitor (C1-INH) blocks complement at the earliest step, preventing C5a/C3a generation. In hereditary angioedema, C1-INH prevents bradykinin-mediated vascular leak — a parallel mechanism to glycocalyx loss described in POTS/ME/CFS. Target: GPCR AAb-positive patients with elevated complement split products (C3a, C5a, sC5b-9). @Blitshteyn2026Neuroimmune @Gunning2019GPCRPOTS
 
-*Warning.* Investigational only. C1-INH is very expensive ($5,000-15,000/dose). Thrombotic risk (rare). No ME/CFS safety data. Requires IV administration.
+*Warning.* Investigational only. C1-INH is very expensive (approx 5,000--15,000 per dose). Thrombotic risk (rare). No ME/CFS safety data. Requires IV administration.
 
 *Falsifiable prediction.* C1-INH (1000 U IV, then weekly ×3) in GPCR AAb+ ME/CFS+POTS with elevated C3a/C5a (n=10): reduces C3a/C5a to ≤1.2 × ULN within 24h; reduces standing HR ≥8 bpm at week 4; plasma syndecan-1 (glycocalyx marker) decreases ≥25%.
 ] <spec:c1-inh-complement>
@@ -837,5 +837,41 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 
 *Falsifiable prediction:* 12-week RCT of memantine 5-10 mg daily vs placebo in ME/CFS stratified by glutamatergic PRS will show significant improvement in cognitive processing speed and PEM frequency only in the high-PRS subgroup (PRS > 75th percentile). The low-PRS subgroup will show no benefit or worsening.
 ] <spec:memantine-glutamate>
+
+#speculation(title: [Riluzole for Glutamatergic Hyperexcitability])[
+*Certainty: 0.35.* Riluzole reduces presynaptic glutamate release, stabilises inactivated sodium channels, and enhances astrocytic glutamate uptake via EAAT2. FDA-approved for ALS. Glutamatergic tone reduction mechanism directly addresses genetically anchored E/I imbalance. 50mg BID standard ALS dose; 25mg QD starting dose in severe ME/CFS. Safety: hepatotoxicity risk — requires monthly LFT monitoring. No ME/CFS data.
+
+*Falsifiable prediction.* 12-week RCT of riluzole 25mg BID vs placebo stratified by Glu-PRS will show improved cognitive processing speed only in high-PRS subgroup.
+] <spec:riluzole-glutamate>
+
+#speculation(title: [Lamotrigine for E/I Balance])[
+*Certainty: 0.30.* Lamotrigine reduces presynaptic glutamate release via sodium channel blockade, upregulates BDNF and Bcl-2, and is widely considered the most cognitive-sparing anticonvulsant. Extensive existing ME/CFS clinical discussion already in ch08 (kindling hypothesis). Cross-reference `@sec:glutamatergic-modulators` and existing ch08 lamotrigine content. 25mg QD starting, titrate over 6-8 weeks to 100-200mg. Safety: Stevens-Johnson syndrome risk — slow titration mandatory. No ME/CFS RCT data.
+
+*Falsifiable prediction.* Lamotrigine 100mg vs placebo in high Glu-PRS ME/CFS will reduce PEM frequency ≥30% at 12 weeks vs baseline.
+] <spec:lamotrigine-glutamate>
+
+#speculation(title: [Memantine + NAC + Pyridoxal-5-Phosphate Triple Therapy for Glutamatergic Hyperexcitability])[
+*Certainty: 0.35.* Three complementary mechanisms: memantine (non-competitive NMDA antagonist, 5–10 mg daily) blocks postsynaptic glutamate action; NAC (600–1200 mg BID) modulates extracellular glutamate via the cystine-glutamate antiporter and restores glutathione; pyridoxal-5-phosphate (P5P, 50–100 mg daily) drives glutamate decarboxylation to GABA via GAD65/67. Three-hit approach: block receptor, modulate release, enhance inhibitory conversion. Never tested as combination in any condition; each component has independent human safety data.
+
+*Falsifiable prediction:* 12-week triple therapy vs memantine alone in high Glu-PRS ME/CFS (PRS > 75th percentile) will show superior cognitive processing speed improvement (≥0.5 SD on SDMT) and greater PEM frequency reduction (≥40%).
+] <spec:memantine-nac-p5p-triple>
+
+#speculation(title: [Pregabalin/Gabapentin Stratified by Glutamatergic PRS])[
+*Certainty: 0.35.* Pregabalin and gabapentin bind α2δ-1/2 subunits of voltage-gated calcium channels, reducing presynaptic glutamate release — directly addressing the glutamatergic signal from GWAS. Already used clinically in ME/CFS for pain and sleep. GWAS provides a mechanistic rationale for stratification: high Glu-PRS patients should derive greater benefit because their pathophysiology is driven by excessive glutamatergic signaling. Gabapentin 300–900 mg daily or pregabalin 75–300 mg daily, titrated to tolerance.
+
+*Falsifiable prediction:* High Glu-PRS patients (PRS > 75th percentile) show ≥2× pain reduction (NRS) on gabapentin vs low Glu-PRS over 8 weeks; the response gap is not accounted for by baseline pain severity alone.
+] <spec:gabapentinoid-glu-prs>
+
+#speculation(title: [L-DOPA/Carbidopa for Dopaminergic PRS-Positive ME/CFS])[
+*Certainty: 0.30.* If the dopaminergic midbrain GWAS signal represents impaired dopamine synthesis in VTA/SN, L-DOPA/carbidopa (25/100 mg TID) could restore effort valuation. Dopamine drives effort-cost computation in mesolimbic and mesocortical circuits; low DA tone predicts effort avoidance. High risk: dyskinesia (chronic use), nausea, orthostatic hypotension — particularly problematic in ME/CFS with concurrent POTS. Contraindicated in POTS with prominent hypotension.
+
+*Falsifiable prediction:* DA-PRS-positive patients (PRS > 75th percentile, n=30) show effort-discounting improvement (effort expenditure for reward task) on L-DOPA vs placebo over 4 weeks; DA-PRS-negative patients show no improvement. PEM worsening in the POTS subgroup would contraindicate the approach.
+] <spec:ldopa-da-prs>
+
+#speculation(title: [Amiloride as Acid-Sensing Ion Channel Blocker for Lactate-Driven Hyperexcitability])[
+*Certainty: 0.20.* Acid-sensing ion channels (ASICs) are proton-gated sodium channels activated during tissue acidosis — the direct consequence of glycolytic shift and lactate accumulation in ME/CFS (Chapter @ch:energy-metabolism). Amiloride blocks ASICs at low micromolar concentrations (5–10 mg daily, below diuretic threshold), reducing acid-induced pain and potentially cerebellar granule cell hyperexcitability during PEM. Potassium-sparing diuretic; contraindicated in hyperkalemia, renal impairment, and concurrent ACE inhibitors/ARBs. Distinguish this ASIC-blocking rationale from the NHE1-blocking rationale in the AIMM model (Section @sec:mdc002) — different molecular target, different dose range.
+
+*Falsifiable prediction:* Amiloride 5 mg daily reduces PEM-associated pain severity (NRS ≥2-point reduction) in ME/CFS patients with high post-exertional lactate (>2× resting) vs placebo over 6 weeks; effect correlates with post-exertional lactate AUC.
+] <spec:amiloride-asic>
 
 #include "ch18-brain-clearance-drugs.typ"

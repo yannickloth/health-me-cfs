@@ -1048,3 +1048,42 @@ where $sigma(I)$ represents autocatalytic IRE1alpha activation (clustering-induc
 
 *Cross-reference:* UPR/ER stress section at @sec:um-proteostasis. PERK-ATF4-CHOP apoptosis at Chapter @ch:energy-metabolism.
 ]
+
+=== Glutamate-GABA E/I Balance ODE Module
+<prop:e-i-ode>
+
+#proposal(title: [Glutamate-GABA E/I Balance ODE: Glutamate Trap Bistability])[
+*Proposal:* Extend the existing ODE family (Watton 2026, Fourel) with a glutamate-GABA E/I balance module. Let $G(t)$ = extracellular glutamate concentration, $B(t)$ = extracellular GABA, and $R_"EI"(t)$ = E/I balance ratio. The minimal system is:
+
+$("d G")/("d"t) = k_"rel" - k_"uptake" G - k_"GAD" G dot P$
+$("d B")/("d"t) = k_"GAD" G dot P - k_"clear" B$
+$R_"EI" = G / (k_"half" + B)$
+
+where $k_"rel"$ = vesicular glutamate release (ATP-dependent), $k_"uptake"$ = astrocytic EAAT2 clearance (ATP-dependent), $k_"GAD"$ = GAD activity converting Glu to GABA (P5P-dependent), $P$ = available pyridoxal-5'-phosphate, and $k_"clear"$ = GABA clearance. The ATP dependence of both $k_"rel"$ and $k_"uptake"$ creates an asymmetry: EAAT2 requires 3 Na+ per glutamate transported → Na+/K+-ATPase → ~1 ATP per glutamate, while vesicular release requires ~0.5 ATP per glutamate via VGLUT. When ATP drops below a threshold, $k_"uptake"$ decreases faster than $k_"rel"$, creating a "glutamate trap": $G$ rises unchecked, shifting $R_"EI"$ toward excitotoxicity.
+
+*Key predictions:*
+- The system shows bistability when genetically reduced clearance (risk variants in astrocytic EAAT2, reduced GAD activity from cofactor depletion) is combined with risk-variant-increased release: two stable steady states (low-Glu healthy, high-Glu excitotoxic) separated by an unstable threshold
+- PEM duration in ME/CFS vs controls is predicted by the time required for ATP-dependent clearance to restore $G$ below the excitotoxicity threshold after exertion-driven glutamate release
+- P5P supplementation shifts the bifurcation point by increasing $k_"GAD"$, raising the ATP threshold at which the trap activates
+- The genetic PRS parameter shifts the glutamate release setpoint (higher $k_"rel"$ in high-PRS), lowering the ATP threshold at which the trap activates
+
+*Cross-reference:* Glutamatergic hypothesis @hyp:glutamatergic-synaptic-dysfunction (Chapter @ch:genetics-epigenetics); P5P-gutamate connection at Section @sec:genetic-correlations.
+]
+
+=== Brain-to-Periphery Efferent Coupling DAG Model
+<prop:efferent-coupling-dag>
+
+#proposal(title: [Brain-to-Periphery Efferent Coupling DAG])[
+*Proposal:* Extend the existing causal DAG (Section @sec:root-cause-relationships) with a formal efferent coupling pathway from CNS genetic liability to peripheral pathology. The canonical path is:
+
+$"CNS Genetic Liability" -> "Efferent Coupling" -> "Peripheral Pathology"$
+
+where "Efferent Coupling" is a composite node representing autonomic (sympathetic/parasympathetic), neuroendocrine (HPA axis), and descending pain modulation pathways. This formalizes the brain-first model (Hypothesis @hyp:brain-first-genetic, Chapter @ch:genetics-epigenetics) in the graphical causal framework: primary genetic liability operates through neuronal circuits, and peripheral manifestations arise as downstream consequences of efferent signaling dysfunction.
+
+*Key predictions:*
+- The efferent coupling parameter $theta_"EC" in [0,1]$ determines the gain from CNS liability to peripheral pathology. At high $theta_"EC"$ (greater than 0.7), identical genetic liability produces severe peripheral manifestations (orthostatic intolerance, GI dysmotility, immune dysregulation). At low $theta_"EC"$ (under 0.3), peripheral pathology is minimal despite equivalent CNS liability.
+- Causal mediation analysis will show that central glutamate measures (MRS, fMRI) mediate the relationship between glutamatergic PRS and peripheral symptoms (orthostatic intolerance, GI symptoms). The direct path from PRS to peripheral symptoms should be non-significant when central glutamate is included as mediator.
+- Patients with high peripheral symptom burden but moderate genetic liability should have high $theta_"EC"$ — i.e., their efferent coupling amplifies a modest CNS signal into substantial peripheral pathology, explaining the brain-periphery discordance observed in some ME/CFS patients.
+
+*Cross-reference:* Brain-first genetic model @hyp:brain-first-genetic; entry points discussion @sec:entry-points; Maccallini 2026 tissue enrichment @ach:maccallini-metagwas.
+]

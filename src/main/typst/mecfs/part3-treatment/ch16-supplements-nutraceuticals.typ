@@ -840,7 +840,13 @@ See NAD#super[+] precursors above.
 
 *Dosing.* 25–100 mg daily. P5P (pyridoxal-5-phosphate) is the active form and may be better for those with conversion issues. When supporting gut serotonin synthesis (see Section @sec:5-htp), pair with 5-HTP or tryptophan supplementation.
 
-*Cautions.* High doses ($\>$200 mg/day chronically) can cause peripheral neuropathy. Assess RBC P5P levels if possible, as this is a more sensitive marker than serum B6.
+*Cautions.* High doses ($\>$200 mg/day chronically) can cause peripheral neuropathy. Assess RBC P5P levels if possible, as this is a more sensitive marker than serum B6.
+
+#speculation(title: [Vitamin B6/P5P for Glu→GABA Conversion])[
+*Certainty: 0.35.* The active form P5P is the essential cofactor for glutamic acid decarboxylase (GAD), the rate-limiting enzyme converting glutamate to GABA. If E/I imbalance involves insufficient GABA synthesis, P5P supplementation could shift the glutamate→GABA balance toward inhibition. P5P 50-100mg/day. No ME/CFS data.
+
+*Falsifiable prediction.* 8 weeks P5P increases MRS-measured GABA:Glx ratio only in high Glu-PRS subgroup.
+] <spec:p5p-gaba>
 
 === Folate (B9)
 
@@ -1111,6 +1117,12 @@ A second open question: does baseline taurine status predict the magnitude of po
 
 *Combination note: taurine in the ionic resilience stack.* For patients in whom the AIMM cascade is suspected (significant exertion-triggered PEM, documented orthostatic intolerance, intracellular sodium accumulation if tested by sodium MRI), taurine combines rationally with its ionic support partners: magnesium (cofactor for Mg-ATP, the true Na#super[+]/K#super[+]-ATPase substrate), and potassium (the pump's import substrate). All three support Na#super[+]/K#super[+]-ATPase function at different molecular points. For practical dosing of this combination, see Section:electrolytes (magnesium, potassium) and this section.
 
+#speculation(title: [Taurine GABA Agonist + Glutamate Modulator])[
+*Certainty: 0.30.* Taurine acts as a GABA-A receptor agonist and reduces extracellular glutamate via volume-regulated anion channels. Lowers glutamatergic tone; improves mitochondrial calcium handling. 500-2000mg/day. No ME/CFS data.
+
+*Falsifiable prediction.* 8 weeks taurine 1g BID reduces cognitive fatigue only in high Glu-PRS subgroup.
+] <spec:taurine-gaba-glutamate>
+
 === Glycine
 
 *Rationale.*
@@ -1139,6 +1151,12 @@ Category A–B (provider to neutral). Glycine is one of three glutathione precur
 
 *Energy Profile.*
 Category A–B (provider to neutral). Primary fuel for enterocytes (intestinal cells) and immune cells. Provides energy substrate for gut barrier maintenance, potentially reducing the energy cost of intestinal permeability and immune activation from microbial translocation. Also serves as gluconeogenic substrate when glucose is depleted.
+
+#speculation(title: [Theanine Glutamate Analog + GABAergic])[
+*Certainty: 0.30.* L-theanine structurally resembles glutamate and competes for glutamate transporters, reducing synaptic glutamate concentrations. Also increases GABA, serotonin, and dopamine in brain. Crosses BBB. 200-400mg/day, well-tolerated with minimal side effects, low cost. No ME/CFS data.
+
+*Falsifiable prediction.* 4 weeks theanine 200mg BID reduces subjective sensory hypersensitivity only in high Glu-PRS subgroup.
+] <spec:theanine-gaba>
 
 === 5-HTP (5-Hydroxytryptophan)
 <sec:5-htp>
@@ -1466,6 +1484,12 @@ Category B (energy-neutral). Small organic molecule requiring minimal metabolic 
 
 *Energy Profile.*
 Category B (energy-neutral). Essential trace mineral and enzymatic cofactor absorbed through intestinal metallothionein pathways. Processing demands minimal at supplemental doses (15–30 mg). Supports immune function and wound healing without significant direct energy cost.
+
+#speculation(title: [Zinc NMDA Receptor Modulator])[
+*Certainty: 0.25.* Zinc is released from glutamatergic presynaptic terminals and acts as an endogenous NMDA receptor antagonist at the GluN2A subunit. Zinc deficiency could disinhibit NMDA receptors, amplifying glutamatergic signalling. Also cofactor for GAD (GABA synthesis). Zinc picolinate or citrate 15-30mg/day. No ME/CFS data.
+
+*Falsifiable prediction.* Low serum zinc (under 70 µg/dL) will predict response to zinc+Mg combination in ME/CFS with cognitive PEM.
+] <spec:zinc-nmda>
 
 == Probiotics and Gut Health
 <sec:probiotics>

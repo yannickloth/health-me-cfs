@@ -1416,6 +1416,18 @@ The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction
     - *Sustained attention*: Increased from minutes to 20–60 minutes
     - *Best responders*: Those with prominent brain fog as limiting symptom
 
+#speculation(title: [Ultra-Short Supine Mindfulness — Low-Effort Passive Awareness for Cognitive Rest])[
+*Certainty: 0.30.* Active cognitive effort — sustained attention, working memory manipulation, executive control — increases glutamatergic tone in prefrontal cortex. Passive awareness — specifically supine, eyes-closed mindfulness without effortful focus — minimizes glutamatergic drive while preserving restful wakefulness. Distinguished from "meditation" which typically involves effortful attention redirection (counting breaths, body scanning). The protocol: 15 min supine, eyes closed, no instructions beyond "lie still and let thoughts pass." No ME/CFS data.
+
+*Falsifiable prediction:* 15-min supine passive awareness reduces post-rest subjective brain fog (VAS) by ≥2 points vs 15-min effortful attention meditation in ME/CFS within-session crossover; the effect correlates with reduced prefrontal glutamate by MRS.
+] <spec:supine-mindfulness-cognitive-rest>
+
+#speculation(title: [Cerebellar Cognitive Training for CCAS in ME/CFS])[
+*Certainty: 0.25.* If cerebellar dysfunction underlies the cerebellar cognitive affective syndrome (CCAS) in ME/CFS — impaired executive function, visuospatial processing, verbal fluency — cerebellar-targeted cognitive training (eye movement exercises, balance-vestibular integration tasks, coordinated finger tapping) could improve cognitive function. Must be performed supine or seated within energy envelope (5–10 min sessions, no orthostatic demand). The cerebellum has distinct metabolic vulnerability: high glutamate receptor density, high metabolic rate per gram. No ME/CFS data.
+
+*Falsifiable prediction:* 6-week cerebellar training (supine, 10 min/day, eye saccades + coordinated finger sequences) improves CCAS scale scores (≥2 point improvement) vs sham attention training control in ME/CFS with baseline CCAS-positive status.
+] <spec:cerebellar-cognitive-training>
+
 === Passive Neuromuscular Electrical Stimulation (NMES) for CNS Bypass
 <subsec:nmes-cns-bypass>
 
@@ -1605,6 +1617,12 @@ In severe and very-severe ME/CFS, pacing transitions from a self-management stra
 *Warning: Caregiver as Overexertion Risk.*
 
 Caregivers who are also family members face unique challenges. Emotional investment can drive over-care — attempting more interventions than the patient can tolerate. The rule "less is more" must be consciously enforced. Caregiver burnout directly threatens the patient's stability, and caregiver self-care is a medical priority for the patient's sake @Hermisson2026CareGuide @Fennell2021Suffering.
+
+#speculation(title: [Caregiver-Implemented Supine Sensory Rest for Severe ME/CFS])[
+*Certainty: 0.35.* For severe/bedbound patients, sensory input is a continuous drain on an already-oversubscribed glutamatergic system. A sensory deprivation protocol administered entirely by caregiver: eye mask (or blackout curtain), ear plugs or noise-cancelling headphones, darkened room, no conversation, no screens, supine position. The protocol reduces glutamatergic drive from sensory input to near-zero, providing a period of true metabolic rest distinct from the passive rest typically recommended. 2 hours daily in two 1-hour blocks. Cross-reference: existing severe ME/CFS care content (Section @sec:sensitization-prevention-severe). No controlled ME/CFS data.
+
+*Falsifiable prediction:* Caregiver-administered 2h/day sensory rest (1h × 2 blocks) reduces PEM frequency (≥30% reduction at 4 weeks) vs standard rest alone in severe ME/CFS (n=20 crossover); effect is independent of total horizontal rest time.
+] <spec:caregiver-sensory-rest>
 
 == Expected 2-Week Outcomes
 <sec:two-week-outcomes>
