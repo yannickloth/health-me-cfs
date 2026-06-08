@@ -11,14 +11,14 @@
 
 | ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
 |----|-------|-----|------|------|----|------|------|----|--------|----------|
-| 1.1 | IL-11 Drives TRPM3 via Inflammaging | speculation | 0.35 | 5 | 4 | 4 | 3 | 2 | ⬜ | — |
+| 1.1 | IL-11 Drives TRPM3 via Inflammaging | speculation | 0.35 | 5 | 4 | 4 | 3 | 2 | ✅ | — |
 | 1.2 | MMP-9 Paradox: Cell-Type Dysregulation | speculation | 0.25 | 4 | 2 | 3 | 1 | 3 | ⬜ | — |
 | 1.3 | IL-11 as Molecular Aging Clock | speculation | 0.30 | 4 | 3 | 4 | 2 | 3 | ⬜ | — |
-| 1.4 | Serum MMP-9 as Platelet Activation Assay | speculation | 0.35 | 3 | 2 | 2 | 1 | 4 | ⬜ | — |
+| 1.4 | Serum MMP-9 as Platelet Activation Assay | speculation | 0.35 | 3 | 2 | 2 | 1 | 4 | ✅ | — |
 | 1.5 | PIP2 Reallocation NK/Mast Cell | speculation | 0.25 | 5 | 3 | 4 | 3 | 1 | ⬜ | — |
 | 1.6 | Dual Hit: MMP-9 + Reduced Repair | speculation | 0.20 | 4 | 2 | 2 | 2 | 1 | ⬜ | — |
 | 1.7 | Naltrexone via IL-11/STAT3 Pathway | speculation | 0.20 | 3 | 4 | 3 | 1 | 1 | ⬜ | — |
-| 1.8 | MMP-9 BBB Neuroinflammatory Trap | speculation | 0.35 | 5 | 3 | 5 | 3 | 2 | ⬜ | — |
+| 1.8 | MMP-9 BBB Neuroinflammatory Trap | speculation | 0.35 | 5 | 3 | 5 | 3 | 2 | ✅ | — |
 | 2.1 | Minimum Viable Plasma MMP-9 Study | proposal | n/a | 5 | 3 | 3 | 1 | 5 | ⬜ | — |
 | 2.2 | Plasma + CSF MMP-9/IL-11 PEM Study | proposal | n/a | 4 | 2 | 3 | 2 | 4 | ⬜ | — |
 | 2.3 | Mast Cell-Microglia Axis Model | proposal | n/a | 4 | 2 | 3 | 2 | 2 | ⬜ | — |
@@ -42,7 +42,7 @@
 | 8.2 | MS: MMP-9 BBB Disruption Parallel | speculation | 0.35 | 3 | 2 | 3 | 2 | 2 | ⬜ | — |
 | 8.3 | CSU: Mast Cell/Platelet Activation | speculation | 0.30 | 3 | 2 | 2 | 1 | 3 | ⬜ | — |
 | 8.4 | Progeroid Syndromes: IL-11 Aging | speculation | 0.20 | 3 | 2 | 3 | 1 | 2 | ⬜ | — |
-| 9.1 | Serum/Plasma MMP-9 Ratio Biomarker | speculation | 0.35 | 3 | 2 | 2 | 1 | 5 | ⬜ | — |
+| 9.1 | Serum/Plasma MMP-9 Ratio Biomarker | speculation | 0.35 | 3 | 2 | 2 | 1 | 5 | ✅ | — |
 | 9.2 | IL-11 + MMP-9 + TRPM3 Multi-Marker Panel | speculation | 0.30 | 3 | 2 | 3 | 1 | 5 | ⬜ | — |
 | 9.3 | MMP-9 + S100B BBB Integrity Index | speculation | 0.30 | 3 | 2 | 3 | 1 | 3 | ⬜ | — |
-| 9.4 | MMP-9 Serum/Plasma Methodological Case Study | proposal | 0.80 | 2 | 1 | 1 | 1 | 3 | ⬜ | — |
+| 9.4 | MMP-9 Serum/Plasma Methodological Case Study | proposal | 0.80 | 2 | 1 | 1 | 1 | 3 | ✅ | — |

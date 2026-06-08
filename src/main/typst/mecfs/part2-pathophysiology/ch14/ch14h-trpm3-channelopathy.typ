@@ -1114,32 +1114,34 @@ Schmahmann's Cerebellar Cognitive-Affective Syndrome (CCAS) produces executive d
 <sec:il11-trpm3>
 
 #speculation(title: [IL-11 → mTORC1 → PIP#sub[2] Depletion → TRPM3 Impairment])[
-*Certainty: 0.25.* (Each step individually supported; IL-11→TRPM3 link is novel inference; no direct evidence.)
+*Certainty: 0.30.* (No two consecutive steps demonstrated in the same experiment. 0.25→0.30: convergence with existing PIP2/GPCR Convergence hypothesis (cert 0.45) — independent upstream mechanisms (mTORC1 vs PLC) converging on the same PIP2 depletion → TRPM3 dysfunction endpoint.)
 
-IL-11, a member of the IL-6 cytokine family, was recently found to be elevated in ME/CFS serum by Chinnappan et al.\ (2026, n=40 vs 38, $p < 0.001$) @Chinnappan2026IL11MMP9. A landmark Nature study demonstrated that IL-11 is a master regulator of inflammaging, driving ERK/AMPK/mTORC1 pathway dysregulation, metabolic dysfunction, and chronic inflammation; IL-11 knockout mice live approximately 25% longer @Widjaja2024IL11Aging. These findings may be mechanistically connected to TRPM3 dysfunction via PIP#sub[2] metabolism.
+IL-11, a member of the IL-6 cytokine family, was recently found to be elevated in ME/CFS serum by Chinnappan et al.\ (2026, n=40 vs 38, $p < 0.001$) @Chinnappan2026IL11MMP9. A landmark Nature study demonstrated that IL-11 is a master regulator of inflammaging, driving ERK/AMPK/mTORC1 pathway dysregulation, metabolic dysfunction, and chronic inflammation; IL-11 knockout mice live approximately 25% longer @Widjaja2024IL11Aging. TRPM3 gating requires PIP#sub[2] binding in the plasma membrane — reduced TRPM3/PIP#sub[2] co-localization is documented in ME/CFS NK cells @EatonFitch2021trpm3pip2.
 
-TRPM3 gating requires PIP#sub[2] binding in the plasma membrane — reduced TRPM3/PIP#sub[2] co-localization is documented in ME/CFS NK cells @EatonFitch2021trpm3pip2. Chronic IL-11 elevation activates mTORC1 (downstream of ERK/AMPK), which alters membrane phospholipid composition and reduces PIP#sub[2] availability. If IL-11-driven mTORC1 hyperactivity depletes plasma membrane PIP#sub[2], this would directly impair TRPM3 gating — linking two independently reported ME/CFS findings (IL-11 elevation + TRPM3 channelopathy) into a single causal cascade: infection → IL-11 elevation → mTORC1 → PIP#sub[2] depletion → TRPM3 dysfunction → impaired NK cell cytotoxicity.
+This speculation considers whether IL-11 elevation could drive TRPM3 dysfunction through a chain of inferred steps: IL-11 elevation (ME/CFS, unreplicated) → mTORC1 activation (mouse, Widjaja 2024) → altered membrane phospholipid composition → PIP#sub[2] depletion → impaired TRPM3 gating (Eaton-Fitch 2021). No two consecutive steps of this chain have been demonstrated in the same cell type, let alone the same experiment. The simplest alternative — that IL-11 elevation and TRPM3 dysfunction are independent consequences of a shared upstream cause (viral infection) with no direct causal link — is equally consistent with all available data.
 
 *Falsifiable predictions.*
 - ME/CFS NK cells exposed to IL-11 at concentrations matching Chinnappan 2026 patient sera should show reduced TRPM3-mediated Ca#super[2+] flux within 24--48h
 - Anti-IL-11 antibody pre-treatment should prevent this effect
-- Rapamycin (mTORC1 inhibitor) should partially restore TRPM3 function in IL-11-treated cells
+- mTORC1 inhibition (rapamycin) should partially restore TRPM3 function in patient NK cells
 - ME/CFS patients with highest serum IL-11 should show the most severe TRPM3 dysfunction
 
-*Limitations.* IL-11→TRPM3 link is entirely inferred — no study has tested whether IL-11 affects TRPM3 function. Chinnappan 2026 IL-11 findings are from a single unreplicated study with methodological concerns (age mismatch, serum not plasma, >10-year sample storage). The inflammaging model derives from mouse data; human IL-11/TRPM3 interaction is unstudied. TRPM3 dysfunction may be independent of IL-11 — both could be co-occurring consequences of a shared upstream driver (viral infection) rather than causally linked.
+*Limitations.* Every step in the IL-11→TRPM3 chain is inferred from different studies; no study has tested whether IL-11 affects TRPM3 function. Chinnappan 2026 is a single unreplicated study with methodological concerns (age mismatch, serum not plasma, >10-year sample storage). Direction of mTORC1 effect on PIP#sub[2] is unestablished — mTORC1 can increase PIP#sub[2] synthesis via S6K→PI4K, not deplete it. The independent-epiphenomena alternative (both IL-11 elevation and TRPM3 dysfunction are downstream of a shared viral trigger with no causal link) requires only one causal entity; the cascade hypothesis requires four unbroken arrows. Not clinically actionable.
+
+*Clinical status.* Research use only — no clinical action recommended.
 ] <spec:il11-trpm3-inflammaging>
 
 === MMP-9 Blood-Brain Barrier Neuroinflammatory Trap
 <sec:mmp9-bbb-trap>
 
 #speculation(title: [Mast Cell MMP-9 → BBB Breakdown → Peripheral-CNS IL-11 Entry → Microglial Activation → More MMP-9])[
-*Certainty: 0.30.* (Each step individually supported; the full loop as a self-amplifying system is inferred from separate studies across different populations.)
+*Certainty: 0.35.* (Individual steps documented; no two consecutive loop components measured together in any study. 0.30→0.35: convergence with HMGB1 as Central DAMP hypothesis (cert 0.55) — both propose self-amplifying neuroinflammatory loops via different amplification axes, MMP-9/BBB vs TLR4/RAGE.)
 
-This hypothesis proposes a self-sustaining neuroinflammatory trap that operates at the blood-brain barrier (BBB), linking peripheral mast cell activation to central neuroinflammation:
+This hypothesis proposes a self-sustaining neuroinflammatory trap that operates at the blood-brain barrier (BBB), linking peripheral mast cell activation to central neuroinflammation. *Note on evidence structure:* the four numbered stages below are assembled from independent publications in different patient populations. No single study has measured even two consecutive loop components (mast cell MMP-9 + BBB markers, or BBB markers + microglial MMP-9) simultaneously in ME/CFS patients. A single cross-sectional study measuring plasma MMP-9, S100B, and IL-11 in ME/CFS would provide the baseline correlation data needed to test any element of this loop.
 
 1. *Initiation:* EBV reactivation (or other viral trigger) activates tissue mast cells to release MMP-9, as demonstrated in vitro @Chinnappan2026IL11MMP9. Mast cell-derived MMP-9 degrades extracellular matrix and tight junction proteins at the blood-brain barrier.
 
-2. *BBB breach:* MMP-9 elevation correlates with BBB disruption markers (S100B, NSE) in COVID-19 neurological patients @Bonetto2022MMP9BBBCOVID. Permeable BBB allows peripheral inflammatory mediators — including IL-11, autoantibodies, and cytokines — to enter the CNS compartment.
+2. *BBB breach:* MMP-9 elevation correlates with BBB disruption markers (S100B, NSE) in COVID-19 neurological patients @Bonetto2022MMP9BBBCOVID. *This correlation has not been demonstrated in ME/CFS — the step from COVID-19 to ME/CFS is an extrapolation.* Permeable BBB allows peripheral inflammatory mediators — including IL-11, autoantibodies, and cytokines — to enter the CNS compartment.
 
 3. *CNS amplification:* Peripheral IL-11 and other mediators entering the CNS activate microglia. Activated microglia, in turn, release MMP-9 @Kempuraj2024LongCOVIDMMP9 @Tsilioni2023SpikeMicrogliaMMP9, further degrading the BBB — closing the loop.
 

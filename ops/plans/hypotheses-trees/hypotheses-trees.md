@@ -251,7 +251,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | tinnitus | [subtrees/tinnitus.md](subtrees/tinnitus.md) | 2026-06-07 | 0 | 0 | ⬜ stub |
 | visual-dysfunction | [subtrees/visual-dysfunction.md](subtrees/visual-dysfunction.md) | 2026-06-07 | 0 | 0 | ⬜ stub |
 | gwas-meta-maccallini-2026 | [subtrees/gwas-meta-maccallini-2026.md](subtrees/gwas-meta-maccallini-2026.md) | 2026-06-08 | 57 | 14 | ✅ done |
-| trpm3-ion-channels | [subtrees/trpm3-ion-channels.md](subtrees/trpm3-ion-channels.md) | 2026-06-08 | 35 | 0 | ⬜ pending |
+| trpm3-ion-channels | [subtrees/trpm3-ion-channels.md](subtrees/trpm3-ion-channels.md) | 2026-06-08 | 35 | 5 | ✅ done |
 
 ---
 ## 2026 Literature Scan Notes
