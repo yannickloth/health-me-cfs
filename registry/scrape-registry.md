@@ -61,6 +61,27 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (12 queries, batch) | pubmed/eutils | 2026-06-07 | — | content-staging/noradrenergic-deficiency-literature-summary-2026-06-07.md, bib/appendix-h — Noradrenergic deficiency literature collection (13 papers, 9 new bib entries + 3 updated) |
 
+## Neuroimmune (Blitshteyn 2026) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-08 | Multi-query: "neuroimmune POTS ME/CFS", "autonomic ganglia autoantibodies", "GPCR autoantibodies orthostatic tachycardia", "POTS autoimmunity neuroinflammation", "long COVID POTS autoantibodies", "vagus nerve inflammation POTS", "POTS autoantibody null negative replication", "POTS autoantibodies systematic review" |
+| Crossref API | 2026-06-08 | Metadata for Blitshteyn 2026 primary paper (DOI 10.2147/ITT.S581262) |
+| PubMed (E-utilities API) | 2026-06-08 | Specific author queries: Wallukat Long COVID GPCR, Fedorowski POTS autoantibodies, Gunning POTS GPCR/inflammatory, Blitshteyn autoimmune markers/neuroinflammation |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (batch) | pubmed/eutils | 2026-06-08 | — | content-staging/literature-neuroimmune-blitshteyn-2026.md, bib/appendix-h — Neuroimmune POTS/ME/CFS/LC literature collection (16 papers) |
+| Crossref API (10.2147/ITT.S581262) | crossref | 2026-06-08 | — | content-staging/literature-neuroimmune-blitshteyn-2026.md — Primary paper metadata + 74 reference list |
+
+## MMP-9 / IL-11 / Mast Cell Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-08 | Multi-query: "MMP-9 ME/CFS", "MMP-9 long COVID", "IL-11 ME/CFS", "IL-11 senescence inflammaging", "mast cell MMP-9 release", "EBV mast cell activation", "MMP-9 serum plasma preanalytical", "MMP-9 biomarker interference" |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (batch, ~15 queries) | pubmed/eutils | 2026-06-08 | — | content-staging/integration-guide-trpm3-ion-channels-2026-06-08.md, bib/appendix-h — MMP-9/IL-11/mast cell literature collection (12 papers: 4 primary + 8 additional) |
+
 ## Articles
 
 | URL | Source | Scraped | Integrated | Target |

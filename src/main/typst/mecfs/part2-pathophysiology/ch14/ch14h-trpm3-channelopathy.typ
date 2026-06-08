@@ -1110,3 +1110,45 @@ Schmahmann's Cerebellar Cognitive-Affective Syndrome (CCAS) produces executive d
 *Limitations.* Maccallini cerebellar signal is tissue-level enrichment; cell-type resolution within cerebellum (Purkinje vs granule vs Golgi cells) not yet achieved. CCAS has not been systematically assessed in ME/CFS using the validated scale. Cerebellar MRI findings could also reflect the high metabolic vulnerability of cerebellum to systemic energy deficit rather than genetically driven circuit dysfunction — distinguishing these requires demonstrating CCAS deficits correlate with cerebellar PRS independently of metabolic markers. (Certainty: 0.50. 0.45→0.50: feed-into from glutamatergic synapse enrichment — glutamatergic synapse vulnerability specifically amplifies cerebellar circuit risk, providing convergent genetic support for the CCAS model @Maccallini2026metaGWAS.)
 ] <hyp:ch14h-ccas-cerebellar>
 
+=== IL-11 as Upstream Driver of TRPM3 Dysfunction via Inflammaging
+<sec:il11-trpm3>
+
+#speculation(title: [IL-11 → mTORC1 → PIP#sub[2] Depletion → TRPM3 Impairment])[
+*Certainty: 0.25.* (Each step individually supported; IL-11→TRPM3 link is novel inference; no direct evidence.)
+
+IL-11, a member of the IL-6 cytokine family, was recently found to be elevated in ME/CFS serum by Chinnappan et al.\ (2026, n=40 vs 38, $p < 0.001$) @Chinnappan2026IL11MMP9. A landmark Nature study demonstrated that IL-11 is a master regulator of inflammaging, driving ERK/AMPK/mTORC1 pathway dysregulation, metabolic dysfunction, and chronic inflammation; IL-11 knockout mice live approximately 25% longer @Widjaja2024IL11Aging. These findings may be mechanistically connected to TRPM3 dysfunction via PIP#sub[2] metabolism.
+
+TRPM3 gating requires PIP#sub[2] binding in the plasma membrane — reduced TRPM3/PIP#sub[2] co-localization is documented in ME/CFS NK cells @EatonFitch2021trpm3pip2. Chronic IL-11 elevation activates mTORC1 (downstream of ERK/AMPK), which alters membrane phospholipid composition and reduces PIP#sub[2] availability. If IL-11-driven mTORC1 hyperactivity depletes plasma membrane PIP#sub[2], this would directly impair TRPM3 gating — linking two independently reported ME/CFS findings (IL-11 elevation + TRPM3 channelopathy) into a single causal cascade: infection → IL-11 elevation → mTORC1 → PIP#sub[2] depletion → TRPM3 dysfunction → impaired NK cell cytotoxicity.
+
+*Falsifiable predictions.*
+- ME/CFS NK cells exposed to IL-11 at concentrations matching Chinnappan 2026 patient sera should show reduced TRPM3-mediated Ca#super[2+] flux within 24--48h
+- Anti-IL-11 antibody pre-treatment should prevent this effect
+- Rapamycin (mTORC1 inhibitor) should partially restore TRPM3 function in IL-11-treated cells
+- ME/CFS patients with highest serum IL-11 should show the most severe TRPM3 dysfunction
+
+*Limitations.* IL-11→TRPM3 link is entirely inferred — no study has tested whether IL-11 affects TRPM3 function. Chinnappan 2026 IL-11 findings are from a single unreplicated study with methodological concerns (age mismatch, serum not plasma, >10-year sample storage). The inflammaging model derives from mouse data; human IL-11/TRPM3 interaction is unstudied. TRPM3 dysfunction may be independent of IL-11 — both could be co-occurring consequences of a shared upstream driver (viral infection) rather than causally linked.
+] <spec:il11-trpm3-inflammaging>
+
+=== MMP-9 Blood-Brain Barrier Neuroinflammatory Trap
+<sec:mmp9-bbb-trap>
+
+#speculation(title: [Mast Cell MMP-9 → BBB Breakdown → Peripheral-CNS IL-11 Entry → Microglial Activation → More MMP-9])[
+*Certainty: 0.30.* (Each step individually supported; the full loop as a self-amplifying system is inferred from separate studies across different populations.)
+
+This hypothesis proposes a self-sustaining neuroinflammatory trap that operates at the blood-brain barrier (BBB), linking peripheral mast cell activation to central neuroinflammation:
+
+1. *Initiation:* EBV reactivation (or other viral trigger) activates tissue mast cells to release MMP-9, as demonstrated in vitro @Chinnappan2026IL11MMP9. Mast cell-derived MMP-9 degrades extracellular matrix and tight junction proteins at the blood-brain barrier.
+
+2. *BBB breach:* MMP-9 elevation correlates with BBB disruption markers (S100B, NSE) in COVID-19 neurological patients @Bonetto2022MMP9BBBCOVID. Permeable BBB allows peripheral inflammatory mediators — including IL-11, autoantibodies, and cytokines — to enter the CNS compartment.
+
+3. *CNS amplification:* Peripheral IL-11 and other mediators entering the CNS activate microglia. Activated microglia, in turn, release MMP-9 @Kempuraj2024LongCOVIDMMP9 @Tsilioni2023SpikeMicrogliaMMP9, further degrading the BBB — closing the loop.
+
+4. *Persistence:* Once established, this loop becomes self-sustaining: ongoing microglial MMP-9 maintains BBB permeability, permitting continuous entry of peripheral mediators that fuel neuroinflammation, even after the initial viral trigger is resolved.
+
+5. *TRPM3 connection:* TRPM3 dysfunction impairs calcium-dependent BBB repair mechanisms (tight junction reassembly requires calcium-dependent signaling), compounding the damage.
+
+*Falsifiable predictions:* (a) Serial plasma and CSF S100B + MMP-9 + IL-11 measurements in ME/CFS over 12 months will show progressive increase, with S100B (BBB marker) predicting subsequent MMP-9 and IL-11 increases (Granger causality). (b) Mast cell stabilizers will reduce plasma MMP-9 levels. (c) If the loop is truly self-sustaining, MMP-9 levels will not normalize during periods of clinical remission (partial uncoupling from symptom state). (d) TRPM3 agonist treatment (naltrexone) will reduce CSF MMP-9 over 3 months.
+
+*Limitations.* No longitudinal MMP-9/BBB data in ME/CFS. All MMP-9 studies to date used serum, not plasma — the magnitudes are unreliable (Section @warn:mmp9-serum-plasma). The Bonetto 2022 BBB correlation is cross-sectional. The peripheral-to-CNS loop is inferred from separate studies in different populations (ME/CFS for IL-11, COVID-19 for BBB). No study has measured all 3 markers (MMP-9, S100B, IL-11) simultaneously in ME/CFS.
+] <spec:mmp9-bbb-neuroinflammatory-trap>
+

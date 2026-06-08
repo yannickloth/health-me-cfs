@@ -199,6 +199,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | mcas-primary-driver | [subtrees/mcas-primary-driver.md](subtrees/mcas-primary-driver.md) | 2026-05-01 | 0 | 0 | ⬜ stub |
 | parasites-mecfs | [subtrees/parasites-mecfs.md](subtrees/parasites-mecfs.md) | 2026-04-06 | 0 | 0 | ⬜ stub |
 | covid-immune-reset | [subtrees/covid-immune-reset.md](subtrees/covid-immune-reset.md) | 2026-03-18 | 0 | 0 | ⬜ stub |
+| neuroimmune-blitshteyn-2026 | [subtrees/neuroimmune-blitshteyn-2026.md](subtrees/neuroimmune-blitshteyn-2026.md) | 2026-06-08 | 40 | 0 | 🔵 in progress |
 | neuropsychiatric-secondary | [subtrees/neuropsychiatric-secondary.md](subtrees/neuropsychiatric-secondary.md) | 2026-03-27 | 0 | 0 | ⬜ stub |
 | pending-hypotheses    | [subtrees/pending-hypotheses.md](subtrees/pending-hypotheses.md)        | (various)       | 0          | 0          | ⬜ stub        |
 | clinical-case-integration | [subtrees/clinical-case-integration.md](subtrees/clinical-case-integration.md) | 2026-04 | 0 | 0 | ⬜ stub |
@@ -250,6 +251,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | tinnitus | [subtrees/tinnitus.md](subtrees/tinnitus.md) | 2026-06-07 | 0 | 0 | ⬜ stub |
 | visual-dysfunction | [subtrees/visual-dysfunction.md](subtrees/visual-dysfunction.md) | 2026-06-07 | 0 | 0 | ⬜ stub |
 | gwas-meta-maccallini-2026 | [subtrees/gwas-meta-maccallini-2026.md](subtrees/gwas-meta-maccallini-2026.md) | 2026-06-08 | 57 | 14 | ✅ done |
+| trpm3-ion-channels | [subtrees/trpm3-ion-channels.md](subtrees/trpm3-ion-channels.md) | 2026-06-08 | 35 | 0 | ⬜ pending |
 
 ---
 ## 2026 Literature Scan Notes

@@ -1607,6 +1607,22 @@ In ME/CFS patients with concurrent MCAS (~25% of the population), skin mast cell
 *Limitations.* MMPs are stress-responsive and have high day-to-day variability; single measurements may be unreliable. Population-level discrimination requires large cohorts for validation.
 ] <hyp:ct-mmp-timp-biomarker>
 
+#warning-env(title: [Critical Pre-Analytical Caveat: Serum vs Plasma for MMP-9])[
+All serum-based MMP-9 measurements suffer from a fundamental pre-analytical artifact: MMP-9 is released from platelets and leukocytes during the coagulation process used to prepare serum, producing concentrations 3--4× higher than those measured in paired plasma samples @Jung1998MMP9Preanalytical @Jung2008MMP9Preanalytical @Olson2008MMP9Sampling. This artifact affects the Chinnappan et al.\ (2026) ME/CFS study (which used serum for MMP-9 and found 7× elevated levels — 126 vs 17 ng/ml) @Chinnappan2026IL11MMP9 and the Kempuraj et al.\ (2024) Long COVID study @Kempuraj2024LongCOVIDMMP9. Citrate plasma is the recommended matrix for circulating MMP-9 measurement @Garvin2015MMP9CHD. Until plasma-based MMP-9 is measured in ME/CFS, all serum MMP-9 findings in the field must be interpreted with caution — differential platelet activation or clotting efficiency between patients and controls could produce apparent group differences that are technical rather than biological.
+] <warn:mmp9-serum-plasma>
+
+#speculation(title: [Serum/Plasma MMP-9 Ratio as Platelet Activation Biomarker])[
+*Certainty: 0.35.* (Novel ratio concept; requires paired sample validation; platelet hyperactivation in ME/CFS is provisionally supported.)
+
+The serum/plasma MMP-9 discrepancy is normally dismissed as pure artifact. However, the magnitude of the differential is itself informative: in healthy individuals, serum MMP-9 is approximately 3--4× higher than paired plasma MMP-9 because platelets and leukocytes release their MMP-9 stores during clotting @Jung2008MMP9Preanalytical @Olson2008MMP9Sampling. If ME/CFS patients have hyperactive platelets (a finding supported by some preliminary studies), their clotting-induced MMP-9 release should be larger, producing a higher serum/plasma MMP-9 ratio than controls.
+
+This ratio — serum MMP-9 / plasma MMP-9, measured from the same venipuncture — could serve as a low-cost, clinically accessible functional platelet activation assay. Unlike flow cytometry-based platelet activation tests (P-selectin, PAC-1 binding), which require fresh samples and expensive equipment, the MMP-9 ratio requires only paired serum and citrate plasma collection, standard ELISA, and division of two values. This approach has precedent in chronic spontaneous urticaria, where elevated serum/plasma MMP-9 ratios correlate with platelet hyperactivity and mast cell activation.
+
+*Testable prediction.* In a paired-sample design (n=50 ME/CFS, n=50 controls), the serum/plasma MMP-9 ratio will differentiate ME/CFS from controls (AUC >0.70), and correlate with established platelet activation markers (platelet factor 4, beta-thromboglobulin, P-selectin) and with mast cell activation markers (tryptase, histamine metabolites).
+
+*Limitations.* Serum/plasma ratio has never been formally validated as a platelet activation assay. Sampling protocol (collection tube type, centrifugation speed and time, time-to-freeze) must be rigorously standardized. The ratio may be confounded by platelet count, medications affecting platelet function (aspirin, NSAIDs), and recent exercise or meals.
+] <spec:mmp9-ratio-platelet-biomarker>
+
 #speculation(title: [Mass Spectrometry-Based Circulating ECM Fragment Diagnostic Signature])[
 *Certainty: 0.40.* Different tissues produce characteristic ECM proteins with specific fragment patterns when degraded. ME/CFS may have a unique pattern of circulating ECM fragments reflecting the specific tissues affected (vascular basement membrane, cervical ligaments, GI basement membrane). Mass spectrometry-based peptidomics could identify this "ECM signature" as a diagnostic biomarker. This approach has precedent in osteoarthritis and liver fibrosis.
 

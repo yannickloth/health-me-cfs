@@ -1139,6 +1139,25 @@ This chain connects the autonomic aging phenotype (Section @sec:ans-aging-phenot
 *Note — cross-disease reinforcement:* Chelette et al. (2025, bioRxiv) directly demonstrated that cGAS-STING activation drives fatigue-like behavior in a murine cancer model — providing the first mechanistic link between cGAS-STING-mediated inflammation and the fatigue phenotype outside of classical immune challenge models @Chelette2025cGASSTINGFatigue. This supports the plausibility of a cGAS-STING-fatigue connection in ME/CFS but the cancer context and preprint status limit the strength of inference (certainty 0.40 for the general principle). Not yet independently replicated.
 ] <spec:mtdna-cgas-sting-loop>
 
+=== Interleukin-11 (IL-11) and the Inflammaging Axis
+<sec:il-11-inflammaging>
+
+Interleukin-11 (IL-11) is a pleiotropic member of the IL-6 cytokine family, expressed by many cell types including astrocytes, monocytes, macrophages, endothelial cells, dendritic cells, neutrophils, and damaged cells @Seyedsadr2023IL11NLRP3. It signals through the JAK/STAT and NF-$kappa$B pathways, driving proinflammatory cytokine expression, NLRP3 inflammasome activation, and monocyte migration into the central nervous system @Seyedsadr2023IL11NLRP3. IL-11 is also implicated in senescence and aging pathologies @Airapetov2023IL11Neuro.
+
+In 2024, IL-11 received renewed attention as a central driver of inflammaging. Widjaja et al.\ demonstrated in a landmark Nature study that IL-11 knockout mice live approximately 25% longer with reduced aging pathology, and that pharmacological IL-11 blockade (anti-IL-11 antibody) improves healthspan and lifespan @Widjaja2024IL11Aging. IL-11 drives ERK/AMPK/mTORC1 pathway dysregulation, metabolic dysfunction, and chronic inflammation — pathways all implicated in ME/CFS pathophysiology.
+
+#speculation(title: [Elevated Serum IL-11 in ME/CFS May Reflect Accelerated Inflammaging])[
+*Certainty: 0.30.* (Single unreplicated study; age mismatch confound; mouse data for inflammaging model.)
+
+Chinnappan et al.\ (2026) reported the first measurement of serum IL-11 in ME/CFS, finding significantly elevated levels in 40 female patients compared to 38 age-and-gender-matched controls (mean 127 vs 67 pg/ml, $p < 0.001$) @Chinnappan2026IL11MMP9. If replicated, this finding is mechanistically significant: IL-11 elevation would link the immune dysfunction of ME/CFS to the broader biology of cellular senescence and accelerated aging ("inflammaging" — chronic, sterile, low-grade inflammation that accompanies aging).
+
+The elevation of IL-11 in ME/CFS, combined with other evidence of immunosenescence signatures in ME/CFS (Chapter @ch:immune-dysfunction, Section @sec:immunosenescence), suggests ME/CFS may involve a state of *premature* inflammaging — not the gradual accumulation of senescent cells seen in normal aging, but a chronic IL-11-mediated inflammatory state that mimics age-related decline in younger patients. If validated, anti-IL-11 therapies currently in preclinical development could represent a disease-modifying strategy for ME/CFS.
+
+*Falsifiable predictions:* (a) Plasma IL-11 (measured in citrate plasma, per Widjaja protocol) will be ≥1.5× elevated in an independent ME/CFS cohort (P < 0.01, n=40 per group) and show Spearman ρ ≥ 0.4 against at least 2 of 3 canonical SASP proteins (IL-6, IL-8, CXCL10) and p16#super[INK4a] expression. (b) ME/CFS patient fibroblasts or PBMCs will show ≥2-fold elevated IL-11 expression and SASP markers compared to matched controls under standardized culture conditions. (c) Anti-IL-11 antibody treatment will reduce SASP markers in patient-derived cell models by ≥40% compared to isotype control. (d) IL-11 levels will show a positive Spearman correlation (ρ ≥ 0.3) with disease duration (years since onset) but not with chronological age, distinguishing disease-driven from age-driven elevation.
+
+*Limitations.* Single unreplicated study. Chinnappan et al.\ used serum, not plasma, for IL-11 measurement — though IL-11 is less affected by clotting artifact than MMP-9, pre-analytical standardization matters. Age mismatch between groups (51 vs 43, $p < 0.05$) is a critical confound given IL-11's age-dependent expression. The inflammaging interpretation extrapolates from mouse models; human translational data for anti-IL-11 therapy do not yet exist. Serum from Chinnappan 2026 was stored $>$10 years at $-80\u{00B0}$C, which may have altered protein integrity.
+] <spec:il-11-inflammaging>
+
 == Cytokines and Inflammatory Mediators
 <sec:cytokines>
 
@@ -2451,6 +2470,18 @@ Mast cells release numerous vasoactive and inflammatory mediators :
     - *Prostaglandins*: Inflammatory mediators contributing to pain and fatigue
     - *Leukotrienes*: Cause bronchoconstriction, vascular dysfunction, inflammation
     - *Cytokines*: IL-6, IL-8, TNF-$alpha$, VEGF contribute to systemic inflammation
+
+#speculation(title: [EBV-Directed Mast Cell Degranulation as MMP-9 Source in ME/CFS])[
+*Certainty: 0.30.* (In vitro mast cell culture, n=3; serum MMP-9 measurement subject to pre-analytical artifact; unreplicated.)
+
+Chinnappan et al.\ (2026) demonstrated that incubation of human cord blood-derived mast cells with recombinant EBV protein (rEBV, 100 ng/ml) for 24 hours significantly increased MMP-9 release compared to untreated cells (mean 2,464 vs 433 pg/ml, $p < 0.001$) @Chinnappan2026IL11MMP9. LPS as a positive control also increased MMP-9 release (1,422 pg/ml). This provides a direct mechanistic link: viral antigens (EBV protein) can activate mast cells to release MMP-9 — an enzyme that degrades extracellular matrix, disrupts the blood-brain barrier, and contributes to neuroinflammation.
+
+If operative in ME/CFS patients, this pathway would mean that EBV reactivation (documented in ME/CFS) drives mast cell activation in tissues, releasing MMP-9 locally. MMP-9-mediated BBB disruption @Bonetto2022MMP9BBBCOVID could then permit peripheral inflammatory mediators to access CNS compartments, contributing to neuroinflammation. The same mechanism has been proposed for Long COVID, where SARS-CoV-2 spike protein stimulates microglia to release MMP-9 @Kempuraj2024LongCOVIDMMP9 — suggesting a convergent pathway across post-viral syndromes.
+
+*Falsifiable predictions:* (a) ME/CFS patients with detectable EBV reactivation markers (EA-IgG, VCA-IgM) will show higher plasma MMP-9 than EBV-latent patients. (b) Mast cell stabilizers (cromolyn, ketotifen) will reduce plasma MMP-9 in EBV-reactive patients. (c) Mast cells cultured from ME/CFS patients will show exaggerated MMP-9 release in response to EBV protein compared to healthy donor mast cells.
+
+*Limitations.* Entirely in vitro; mast cells were cultured from cord blood, not from ME/CFS patients. n=3 for the in vitro experiment due to the 12-week culture requirement. The human MMP-9 data from this study used serum, which inflates MMP-9 3--4× due to platelet/leukocyte degranulation during clotting @Jung2008MMP9Preanalytical @Olson2008MMP9Sampling — the circulating MMP-9 claim requires plasma-based replication (see Section @warn:mmp9-serum-plasma). Unreplicated.
+] <spec:ebv-mast-cell-mmp9>
 
 ==== Vascular Pathomechanisms
 
