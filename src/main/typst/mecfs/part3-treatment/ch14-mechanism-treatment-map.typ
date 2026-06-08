@@ -146,9 +146,9 @@ An evolutionarily conserved metabolic suppression programme — initiated by inf
 
     [MDC002 (Mitodicure)], [Ion homeostasis restoration → AIMM reversal], [Medication], [A#super[\*]], [Phase I — safety only; no efficacy data; not prescribable],
     [NAD⁺ precursors (NR/NMN)], [Kynurenine bypass + PARP substrate replenishment], [Supplement], [A], [Clinical use; emerging Long COVID data],
-    [Rapamycin (sirolimus)], [mTOR inhibition → autophagy/mitophagy restored, immune brake], [Medication], [B/C], [Pilot — ~34% ITT response],
-    [Metformin], [AMPK activation → mitochondrial biogenesis], [Medication], [B], [Off-label; studied in Long COVID],
-    [Berberine], [AMPK activation (Complex I inhibition)], [Supplement], [B], [Experimental; _caution_ — AMPK role may be protective],
+    [Rapamycin (sirolimus)], [mTORC1 inhibition → ATG13 dephosphorylation → autophagy/mitophagy restored; SASP suppression via IL-1α→NF-κB block @Laberge2015SASP], [Medication], [B/C], [Pilot — Ruan 2025 n=86 uncontrolled @Ruan2025rapamycin; ~34% ITT response; RCT needed],
+    [Metformin], [AMPK activation → mTORC1 inhibition + mitochondrial biogenesis; AMPK rescue in ME/CFS myotubes @Brown2018AMPK], [Medication], [B], [Off-label; studied in Long COVID; Fineberg 2025 perspective @Fineberg2025Metformin],
+    [Berberine], [AMPK activation (Complex I inhibition) → mTORC1 suppression], [Supplement], [B], [Experimental; _caution_ — AMPK role may be protective],
     [Ketogenic diet], [Ketone bodies bypass glycolytic bottlenecks; NAD⁺-dependent OXPHOS ↑], [Dietary], [A], [Feasibility study; no outcome improvement shown],
     [5-HTP], [IDO bypass → direct serotonin precursor], [Supplement], [B], [Clinical; _serotonin syndrome risk_ with SSRIs/SNRIs/MAOIs],
     [Thiamine (TTFD form)], [PDH cofactor; restores pyruvate → acetyl-CoA flux], [Supplement], [A], [Clinical; TTFD form preferred for BBB crossing],

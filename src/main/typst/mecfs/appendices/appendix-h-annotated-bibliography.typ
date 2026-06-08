@@ -20879,3 +20879,197 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Limitations:*: Review/hypothesis paper; requires empirical validation.
     *Certainty:*: 0.45
 
+// =============================================================================
+
+== mTOR and Autophagy
+<sec:bib-mtor-autophagy>
+// =============================================================================
+
+=== Ruan et al.\ 2025 — Low-Dose Rapamycin in ME/CFS Pilot
+
+    *Full Citation:*: Ruan BT, Bulbule S, Gile B, Reyes A, Chheda B, Bateman L, Bell J, Yellman B, Grach SL, Berner J, Peterson DL, Kaufman D, Roy A, Gottschalk CG. Low-dose rapamycin alleviates clinical symptoms of fatigue and PEM in ME/CFS patients via improvement of autophagy: a pilot study. _Journal of Translational Medicine_. 2025;23:1148. @Ruan2025rapamycin
+    *DOI:*: #link("https://doi.org/10.1186/s12967-025-07213-8")[10.1186/s12967-025-07213-8]
+    *PMID:*: 41121328
+    *Published:*: October 21, 2025
+    *Study Design:*: Uncontrolled pilot study
+    *Sample Size:*: n=86 ME/CFS (Canadian Consensus Criteria)
+    *Key Findings:*:
+        - 74.3% of participants reported improved fatigue and PEM symptoms
+        - Exploratory biomarker changes: reduced pSer258-ATG13, increased BECLIN-1
+        - Consistent with mechanism: mTOR inhibition restores autophagy
+    *Conclusion:*: First clinical evidence linking autophagy restoration to symptom improvement in ME/CFS. Results are promising but preliminary.
+    *Limitations:*: Uncontrolled, unblinded, no sham/placebo group. High placebo response likely. Single-center. No independent replication.
+    *Certainty:*: 0.45
+
+=== Drosen et al.\ 2025 — ATG13 Inactivation Drives PEM-Like Phenotype in Mice
+
+    *Full Citation:*: Drosen ME, Bulbule S, Gottschalk G, Peterson D, Allen LA, Arnold L, Roy A. Inactivation of ATG13 stimulates chronic demyelinating pathologies in muscle-serving nerves and spinal cord. _Immunologic Research_. 2025;73(1):27. @Drosen2025ATG13
+    *DOI:*: #link("https://doi.org/10.1007/s12026-024-09557-7")[10.1007/s12026-024-09557-7]
+    *PMID:*: 39777574
+    *Published:*: January 7, 2025
+    *Study Design:*: Murine mechanistic model
+    *Key Findings:*:
+        - mTOR-mediated ATG13 inactivation triggers M1 macrophage infiltration in muscle
+        - IL-6 and RANTES (CCL5) production via STAT3 signaling
+        - Progressive demyelination of muscle-serving nerve fibers
+        - Mice develop reproducible exercise intolerance with 24-48h PEM-like kinetics
+    *Conclusion:*: Provides mechanistic animal model directly linking mTOR/ATG13 axis to PEM pathophysiology. Demonstrates inflammatory cascade from autophagy block to exercise intolerance.
+    *Limitations:*: Animal model; single study; same group (Oklahoma) as Toriola 2026 extension.
+    *Certainty:*: 0.55
+
+=== Huang et al.\ 2025 — AMPK/SIRT1/PGC-1α and mTORC1 in Mitochondrial Biogenesis
+
+    *Full Citation:*: Huang Y, Wang C, Cui H, Sun G, Qi X, Yao X. Mitochondrial dysfunction in age-related sarcopenia: mechanistic insights, diagnostic advances, and therapeutic prospects. _Frontiers in Cell and Developmental Biology_. 2025;13:1590524. @HuangY2025AMPK
+    *DOI:*: #link("https://doi.org/10.3389/fcell.2025.1590524")[10.3389/fcell.2025.1590524]
+    *PMID:*: 41113460
+    *Published:*: 2025
+    *Study Design:*: Narrative review (sarcopenia context)
+    *Key Findings:*:
+        - AMPK/SIRT1/PGC-1α and mTORC1 pathways regulate mitochondrial biogenesis
+        - mTOR hyperactivation suppresses PGC-1α, blocking mitochondrial renewal
+        - SASP exacerbates muscle degeneration
+        - Reviews therapeutic approaches: exercise, senolytics, mitophagy enhancers
+    *Conclusion:*: Pathway mechanisms are well-characterized in sarcopenia; directly applicable to ME/CFS mitochondrial dysfunction context.
+    *Limitations:*: Sarcopenia-focused, not ME/CFS-specific. Review paper, no new data.
+    *Certainty:*: 0.50
+
+=== Rachakatla & Kalashikam 2022 — AMPK Activates Autophagy via ULK1
+
+    *Full Citation:*: Rachakatla A, Kalashikam RR. Calorie Restriction-Regulated Molecular Pathways and Its Impact on Various Age Groups: An Overview. _DNA and Cell Biology_. 2022;41(5):459-468. @Rachakatla2022AMPK
+    *DOI:*: #link("https://doi.org/10.1089/dna.2021.0922")[10.1089/dna.2021.0922]
+    *PMID:*: 35451872
+    *Published:*: May 2022
+    *Study Design:*: Mechanistic review
+    *Key Findings:*:
+        - AMPK phosphorylates RAPTOR (Ser792), inhibiting mTORC1
+        - AMPK directly activates ULK1 (Ser317/777), initiating autophagy
+        - Mutual inhibition between AMPK and mTOR forms homeostatic energy sensor
+        - Calorie restriction engages this pathway
+    *Conclusion:*: Established molecular mechanism directly relevant to the AMPK/mTOR balance hypothesis in ME/CFS.
+    *Limitations:*: General mechanism review; no ME/CFS-specific data.
+    *Certainty:*: 0.50
+
+=== Fattahi et al.\ 2022 — SARS-CoV-2 Hijacks PI3K/AKT/mTOR Signaling
+
+    *Full Citation:*: Fattahi S, Khalifehzadeh-Esfahani Z, Mohammad-Rezaei M, Mafi S, Jafarinia M. PI3K/Akt/mTOR pathway: a potential target for anti-SARS-CoV-2 therapy. _Immunologic Research_. 2022;70(3):269-275. @Fattahi2022PI3K
+    *DOI:*: #link("https://doi.org/10.1007/s12026-022-09268-x")[10.1007/s12026-022-09268-x]
+    *PMID:*: 35107743
+    *Published:*: 2022
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - SARS-CoV-2 activates PI3K/AKT/mTOR cascade after ACE2 binding
+        - mTOR activation serves viral replication via protein synthesis
+        - Autophagy block prevents viral degradation and antigen presentation
+        - Persistent mTOR dysregulation documented in severe COVID-19 lung tissue
+    *Conclusion:*: mTOR pathway hijacking is a plausible mechanism for post-viral syndromes including Long COVID and potentially ME/CFS.
+    *Limitations:*: Review; persistent dysregulation data limited; causal link to Long COVID not established.
+    *Certainty:*: 0.55
+
+=== Laberge et al.\ 2015 — mTOR Regulates SASP via IL-1α
+
+    *Full Citation:*: Laberge RM, Sun Y, Orjalo AV, et al. MTOR regulates the pro-tumorigenic senescence-associated secretory phenotype by promoting IL1A translation. _Nature Cell Biology_. 2015;17(8):1049-1061. @Laberge2015SASP
+    *DOI:*: #link("https://doi.org/10.1038/ncb3195")[10.1038/ncb3195]
+    *PMID:*: 26147250
+    *Published:*: 2015
+    *Study Design:*: Rigorous multi-model mechanistic study
+    *Key Findings:*:
+        - mTOR promotes IL-1α translation, activating NF-κB and SASP genes
+        - SASP includes IL-6, IL-8, TNF-α, MMPs
+        - Rapamycin selectively suppresses SASP without affecting cell cycle arrest
+        - Chronic mTOR activation sustains pro-inflammatory secretome
+    *Conclusion:*: mTOR is the master regulator of the senescence-associated inflammatory phenotype. Provides mechanistic basis for mTOR-driven chronic inflammation.
+    *Limitations:*: Cancer context; not ME/CFS-specific. Mechanism is generalizable.
+    *Certainty:*: 0.85
+
+=== Rolt et al.\ 2019 — Rapamycin Reduces IL-6 in Senescent Cells
+
+    *Full Citation:*: Rolt A, Nair A, Cox LS. Optimisation of a screening platform for determining IL-6 inflammatory signalling in the senescence-associated secretory phenotype (SASP). _Biogerontology_. 2019;20(3):359-371. @Rolt2019IL6
+    *DOI:*: #link("https://doi.org/10.1007/s10522-019-09796-4")[10.1007/s10522-019-09796-4]
+    *PMID:*: 30741380
+    *Published:*: 2019
+    *Study Design:*: In vitro screening study
+    *Key Findings:*:
+        - Rapamycin dose-dependently reduces IL-6 secretion from senescent cells
+        - Senescence markers (SA-β-gal) unaffected by rapamycin
+        - SASP suppression without eliminating senescent cells (senomorphic effect)
+    *Conclusion:*: Rapamycin reduces specific SASP components without affecting senescence itself. Supports mTOR as senomorphic target.
+    *Limitations:*: In vitro only; single cell type; screening platform optimisation study.
+    *Certainty:*: 0.55
+
+=== Mannick & Lamming 2023 — Targeting Aging with mTOR Inhibitors
+
+    *Full Citation:*: Mannick JB, Lamming DW. Targeting the biology of aging with mTOR inhibitors. _Nature Aging_. 2023;3(6):642-660. @Mannick2023mTOR
+    *DOI:*: #link("https://doi.org/10.1038/s43587-023-00416-y")[10.1038/s43587-023-00416-y]
+    *PMID:*: 37142830
+    *Published:*: 2023
+    *Study Design:*: Comprehensive review
+    *Key Findings:*:
+        - Rapamycin extends lifespan and healthspan in multiple model organisms
+        - Clinical trials show mTOR inhibitors improve immune function in elderly
+        - mTORC1-specific inhibition key for therapeutic index
+        - Covers mTOR pharmacology, aging, and disease applications
+    *Conclusion:*: mTOR inhibitors are a promising class for targeting aging-related conditions; safety and tolerability at low doses established.
+    *Limitations:*: Aging focus, not disease-specific; review, no new data.
+    *Certainty:*: 0.80
+
+=== Zerdka & Owczarska 2025 — mTOR Pathway as Anti-Aging Target
+
+    *Full Citation:*: Zerdka J, Owczarska A. The Mechanistic Target of Rapamycin (mTOR) Pathway as a Target of Anti-aging Therapies: The Role of Rapamycin and Its Analogs in the Regulation of Cellular Processes and Their Impact on Longevity. _Cureus_. 2025;17:e98514. @Zerdka2025mTOR
+    *DOI:*: #link("https://doi.org/10.7759/cureus.98514")[10.7759/cureus.98514]
+    *PMID:*: 41497909
+    *Published:*: 2025
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - mTOR pathway integrates metabolic, hormonal, and environmental signals
+        - Rapamycin extends lifespan in animal models
+        - Low-dose rapamycin well tolerated in human clinical trials
+        - Improves immune, cardiac, cognitive, and metabolic function
+    *Conclusion:*: mTOR inhibition is a promising anti-aging strategy; low-dose regimens show good tolerability.
+    *Limitations:*: Lower-tier journal (Cureus); narrative review; no new data.
+    *Certainty:*: 0.45
+
+=== Bar-Tana 2025 — mTORC1 Syndrome (TorS) Unifying Paradigm
+
+    *Full Citation:*: Bar-Tana J. mTORC1 syndrome (TorS): unifying paradigm for PASC, ME/CFS and PAIS. _Journal of Translational Medicine_. 2025;23(1):325. @BarTana2025mTOR
+    *DOI:*: #link("https://doi.org/10.1186/s12967-025-06293-w")[10.1186/s12967-025-06293-w]
+    *PMID:*: 40059164
+    *Published:*: March 10, 2025
+    *Study Design:*: Hypothesis/perspective paper
+    *Key Findings:*:
+        - Proposes mTORC1 hyperactivation as unifying mechanism for post-acute infection syndromes
+        - Integrates viral persistence, metabolic dysfunction, senescence, autophagy block
+    *Conclusion:*: mTORC1 syndrome (TorS) may represent a common pathophysiological pathway across PASC, ME/CFS, and PAIS.
+    *Limitations:*: Hypothesis only; no primary data; single-proponent model; no experimental validation.
+    *Certainty:*: 0.40
+
+=== Toriola et al.\ 2026 — ATG13 Depletion Impairs Mitochondrial/Macrophage Axis
+
+    *Full Citation:*: Toriola MA, Timlin E, Bulbule S, Gottschalk G, Peterson D, Arnold L, Roy A. Genetic depletion of the early autophagy protein ATG13 impairs mitochondrial energy metabolism, augments oxidative stress, induces the polarization of macrophages to the M1 inflammatory mode, and compromises myelin integrity in skeletal muscle. _Inflammation Research_. 2026. @Toriola2026ATG13
+    *DOI:*: #link("https://doi.org/10.1007/s00011-025-02158-6")[10.1007/s00011-025-02158-6]
+    *PMID:*: 41591477
+    *Published:*: 2026
+    *Study Design:*: Mechanistic ATG13 knockout study
+    *Key Findings:*:
+        - ATG13 depletion impairs mitochondrial energy metabolism
+        - Augments oxidative stress
+        - Promotes M1 macrophage polarization
+        - Compromises myelin integrity in skeletal muscle
+    *Conclusion:*: Extends Drosen 2025 mechanism showing ATG13 loss drives mitochondrial and inflammatory pathology.
+    *Limitations:*: Same research group as Drosen 2025; murine model; independent replication pending.
+    *Certainty:*: 0.50
+
+=== Fineberg et al.\ 2025 — Metformin in ME/CFS and Long COVID
+
+    *Full Citation:*: Fineberg D, Moreau A, Schneider-Futschik EK. A Perspective on the Role of Metformin in Treating Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Long COVID. _ACS Pharmacology and Translational Science_. 2025. @Fineberg2025Metformin
+    *DOI:*: #link("https://doi.org/10.1021/acsptsci.5c00229")[10.1021/acsptsci.5c00229]
+    *PMID:*: 41189723
+    *Published:*: 2025
+    *Study Design:*: Perspective/opinion piece
+    *Key Findings:*:
+        - Metformin activates AMPK, which inhibits mTOR
+        - Reviews rationale for AMPK activation in ME/CFS and Long COVID
+        - Proposes clinical trial framework for metformin in these conditions
+    *Conclusion:*: AMPK activators such as metformin represent a rational therapeutic approach worth testing in ME/CFS and Long COVID.
+    *Limitations:*: Perspective only; no original data; no clinical trial results.
+    *Certainty:*: 0.35
+
