@@ -1462,6 +1462,53 @@ Neuroinflammation contributes to ME/CFS, Long COVID, fibromyalgia, neurodegenera
     - POTS with brain fog
     - Cancer-related fatigue (LDN may modulate cancer-related inflammation)
 
+=== GPCR Autoantibodies as Clinical Biomarkers Across POTS, ME/CFS, and Long COVID
+<sec:gpcr-biomarkers>
+
+#prediction(title: [GPCR Autoantibody Panel as Diagnostic and Stratification Biomarker for Neuroimmune Subtype])[
+*Certainty: 0.50.* A panel of 10 GPCR autoantibody targets (β1, β2, α1, α2, M2, M3, M4, AT1, ET-A, ET-B) measured by standardized cell-based ELISA (CellTrend) can identify a neuroimmune-dominant subtype across POTS, ME/CFS, and Long COVID. The panel distinguishes these conditions from healthy controls (POTS: AUC ~0.85 by Gunning 2019 @Gunning2019GPCRPOTS; ME/CFS: variable AUC ~0.65–0.80 depending on cohort) and may stratify patients by predicted immunomodulatory treatment response.
+
+*Key evidence supporting biomarker utility:* (a) GPCR autoantibodies in POTS correlate with orthostatic symptom severity (Kharraziha 2020 functional bioassay @Kharraziha2020GPCRseverity); (b) β2-AR autoantibodies correlate with HRV deficits in ME/CFS (Azcue 2026, r=0.45 @Azcue2026gpcr); (c) immunoadsorption targeting these autoantibodies shows 70% response in autoantibody-selected post-COVID ME/CFS @Stein2024immunoadsorption; (d) BC 007 aptamer neutralization shows proof-of-concept @Hohberger2021NeutralizationGPCR.
+
+*Cross-disease significance.* The same autoantibody species (β2-AR, M3, M4) are found across POTS, ME/CFS, and Long COVID, suggesting GPCR autoantibody profiling could serve as a transdiagnostic neuroimmune biomarker. @Blitshteyn2026Neuroimmune @Moen2025NeuroimmuneLongCOVID
+
+*Limitations.* Assay standardization is lacking — cell-based ELISA (CellTrend) and Luminex/REAP (Germain 2025 null @Germain2025autoantibody) produce discordant results. IgG subclass (IgG1 vs IgG4) is unresolved (see @spec:igg-subclass-pathogenicity). The panel's predictive value for treatment response requires prospective validation. Positive predictive value in general ME/CFS populations (not highly selected) is unknown.
+
+*Falsifiable prediction:* GPCR AAb panel will discriminate ME/CFS from healthy controls with AUC ≥0.75 in a validation cohort (n≥100). Falsified if AUC \<0.65.
+] <pred:gpcr-autoantibody-biomarker>
+
+#prediction(title: [BC 007 Aptamer — Proof-of-Mechanism for GPCR Autoantibody Neutralization as Therapeutic Strategy])[
+*Certainty: 0.40.* Hohberger et al. @Hohberger2021NeutralizationGPCR demonstrated proof-of-concept that a single intravenous infusion of BC 007 (DNA aptamer that binds and neutralizes GPCR autoantibodies) functionally inactivates GPCR autoantibodies within 48 hours in a single Long COVID/CFS patient, with sustained fatigue improvement and capillary microcirculation improvement at 4 weeks. This represents the first direct evidence that neutralization — rather than removal (immunoadsorption) — of GPCR autoantibodies can produce clinical benefit.
+
+*Why this matters for ME/CFS.* Unlike immunoadsorption (non-selective IgG removal, requires apheresis, expensive, limited access, short-lived benefit), BC 007 provides selective autoantibody neutralization via a single IV infusion. The BC 007 mechanism — binding the variable region of the autoantibody to form inert complexes — preserves normal IgG function for infection defense. The single-infusion design enables self-controlled autoantibody time course (autoantibodies return after aptamer clearance, ~2–4 weeks, providing an on-off-on demonstration of causality).
+
+*Limitations.* n=1 case report with strong commercial conflict of interest (Berlin Cures). No dose-ranging data exist. The aptamer is selective for GPCR autoantibodies with a specific target profile — patients without the cognate autoantibody target will not benefit. Phase 2/3 RCT results are not yet available. The Germain 2025 null raises questions about GPCR autoantibody prevalence in ME/CFS, which would limit BC 007's addressable population.
+
+*Cross-reference.* Dose-finding trial proposed in @spec:bc007-dose-finding (Chapter @ch:emerging-therapies).
+
+*Falsifiable prediction:* RCT (n≥40, BC 007 vs placebo) will show COMPASS-31 difference ≥15 points between groups at 4 weeks. Falsified if between-group difference \<10 points or p≥0.05.
+] <pred:bc007-proof-of-mechanism>
+
+{{/* D40: IgG1/IgG4 subclass pathogenicity (Tier 1, cert 0.50) — placed here as speculation */}}
+#speculation(title: [GPCR Autoantibody IgG1/IgG4 Subclass Ratio as Pathogenicity Discriminator — Resolving Assay Contradictions])[
+*Certainty: 0.50.* GPCR autoantibody detection in ME/CFS is inconsistent: ELISA shows 29–91% prevalence @Loebel2016 @Bynke2020, but REAP/Luminex in n=172 found null @Germain2025autoantibody. A resolution: the subclass composition of GPCR autoantibodies (IgG1, pro-inflammatory/complement-fixing vs IgG4, non-inflammatory/blocking) determines both detectability by different assays and clinical relevance. IgG1 autoantibodies are more readily detected by ELISA (with crosslinking secondary antibodies) while IgG4 may be underrepresented in certain detection platforms (e.g., REAP using protein A/G may have differential subclass affinity). The existing paper's IgG4→IgG1 isotype switch speculation (certainty 0.42) predicts that chronic disease favors IgG1, while early disease or PCC has IgG4-dominant autoantibodies.
+
+*Relevance to the neuroimmune framework.* If the Blitshteyn 2026 three-condition overlap involves predominantly IgG1 (pathogenic) autoantibodies, this strengthens the case for immunomodulation. If ME/CFS GPCR autoantibodies are predominantly IgG4 (blocking), the immunomodulation rationale weakens. Subclass profiling directly tests this. @Blitshteyn2026Neuroimmune
+
+*Falsifiable prediction.* In GPCR autoantibody-positive ME/CFS (n=50, CellTrend-positive), subclass analysis reveals: ≥ 40% are IgG4-dominant (IgG1/IgG4 < 1); ≥ 30% are IgG1-dominant (> 1); IgG1-dominant patients have worse COMPASS-31, fatigue, and PEM severity than IgG4-dominant (d > 0.6); IgG1/IgG4 ratio predicts immunoadsorption response (AUC > 0.75). Falsified if total IgG titer predicts severity better than IgG1/IgG4 ratio.
+
+*Limitations.* No subclass-specific GPCR ELISA is commercially available. IgG4 detection may require specialized reagents (anti-IgG4 subclass-specific secondary antibodies). The isotype switch hypothesis (IgG4→IgG1) requires longitudinal data not currently available.
+] <spec:igg-subclass-pathogenicity>
+
+{{/* D36: Composite neuroimmune panel (Tier 1, cert 0.45) */}}
+#speculation(title: [Composite Neuroimmune Stratification Panel — GPCR Autoantibody Profile + HLA + Autonomic Function + Neuroinflammation])[
+*Certainty: 0.45.* A 4-domain panel: (1) GPCR autoantibody profile (10 targets by CellTrend), (2) HLA-DR/DQ typing (DRB1*15:01, DQB1*06:02), (3) autonomic function testing (24h HRV rMSSD, standing HR increment, baroreflex sensitivity), (4) neuroinflammation marker (plasma NfL as proxy for TSPO-PET). Each "+" indicates abnormality. The code (e.g., AAb+/HLA+/ANS−/PET+) maps to a specific neuroimmune subtype and treatment algorithm: 4+/4 → aggressive immunomodulation (IA + IVIG + taVNS); 0/4 → pacing and symptom management. @Blitshteyn2026Neuroimmune @Shin2019HLAPOTS @Gunning2019GPCRPOTS @VanElzakker2024NeuroinflammationPASC
+
+*Limitations.* This is a proposal, not a validated algorithm. Each domain has independent limitations (GPCR assay standardization, HLA population specificity, ANS testing test-retest issues, NfL as neuroinflammation proxy is untested in ME/CFS). The panel is resource-intensive and not yet cost-justified.
+
+*Falsifiable prediction.* The composite panel code predicts immunomodulatory treatment response with AUC > 0.75: ≥ 3/4 domains positive predicts ≥ 50% response to IA+IVIG; ≤ 1/4 positive predicts ≤ 10% response.
+] <spec:composite-neuroimmune-panel>
+
 === Energy Envelope Management (Pacing)
 <sec:pacing-universal>
 

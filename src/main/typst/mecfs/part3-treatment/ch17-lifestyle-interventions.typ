@@ -1965,7 +1965,7 @@ Rosalba Courtney (Australian PhD specializing in dysfunctional breathing in ME/C
     + 4 weeks of adapted Buteyko (15~min daily breath reduction, nasal breathing, Control Pause tracking) increases ETCO#sub[2] from baseline ≤34 to ≥38~Torr
     + CBFv (transcranial Doppler MCA) increases ≥8% at matched workload
     + N-back performance (working memory) improves ≥1 SD at 4 weeks, correlating with CBFv change
-    + The intervention is tolerated without PEM induction in ≥80% of mild-to-moderate ME/CFS patients
+    + The intervention is tolerated without PEM induction in ≥ 80% of mild-to-moderate ME/CFS patients
 
 *Limitations.* No Buteyko trial has been performed in ME/CFS — all predictions are extrapolated from healthy physiology and one adapted-CO2-training study in Long COVID (pending publication). Individual baseline ETCO#sub[2] may determine response; patients with normal ETCO#sub[2] (>38) cannot benefit. The protocol may be less effective in severe ME/CFS where breathing drive is dominated by metabolic acidosis.
 ] <spec:buteyko-cbfv>
@@ -2756,6 +2756,37 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 
 *Limitations.* No ME/CFS trials. Individual variation in PEM threshold. Requires patient education on PEM recognition and tracking. Progression may be very slow (months to years). Risk of PEM if progression not conservative enough.
 ]
+
+=== Neuroimmune Lifestyle Interventions
+
+{{/* NP22: taVNS stratified by GPCR AAb profile (Tier 1, cert 0.40) */}}
+#speculation(title: [Transcutaneous Auricular Vagus Nerve Stimulation Stratified by GPCR Autoantibody Profile])[
+*Certainty: 0.40.* taVNS (left tragus, 20-25 Hz, 0.5-2 mA, 30-60 min daily) activates the cholinergic anti-inflammatory pathway (CAP). However, β2-AR autoantibodies may block the CAP at the splenic T cell step (see @spec:cap-autoantibody-blockade), rendering taVNS ineffective in patients with high β2-AR autoantibody titers. Stratification: low β2-AR AAb → taVNS should improve HRV, reduce TNF-α, and improve fatigue; high β2-AR AAb → taVNS may be ineffective until autoantibody burden is reduced. This resolves the variable taVNS response in ME/CFS pilots. @Blitshteyn2026Neuroimmune @Azcue2026gpcr
+
+*Mechanism.* taVNS → afferent vagus → NTS → vagal efferent → spleen → ACh → β2-AR on T cells → ACh release → α7-nAChR on macrophages → TNF-α suppression. β2-AR autoantibodies block the T cell step. If β2-AR AAb titer is high, taVNS cannot activate the CAP regardless of stimulus intensity.
+
+*Falsifiable prediction.* In an 8-week taVNS trial (N=50 ME/CFS, stratified by β2-AR AAb), low-AAb patients show ≥20% HRV improvement, ≥20% TNF-α reduction, and ≥8-point PROMIS Fatigue improvement vs sham. High-AAb patients show \<10% improvement on all outcomes. High-AAb patients who undergo immunoadsorption before taVNS show restored taVNS response.
+
+*Limitations.* taVNS devices are not universally available. Optimal stimulation parameters (frequency, intensity, duration, laterality) are not established in ME/CFS. The correlation between β2-AR AAb titer and taVNS response has not been tested.
+] <spec:tavns-aa-stratified>
+
+{{/* NP23: 0.1 Hz SPB HRV biofeedback (Tier 2, cert 0.35) */}}
+#speculation(title: [Slow Paced Breathing (0.1 Hz) with HRV Biofeedback for Baroreflex Training])[
+*Certainty: 0.35.* Slow paced breathing at 0.1 Hz (6 breaths/min) entrains the baroreflex, increasing HRV via vagal modulation. In ME/CFS+POTS, 0.1 Hz breathing may: (1) improve baroreflex sensitivity, (2) increase vagal efferent tone counteracting sympathetic predominance, (3) provide neuroplastic baroreflex conditioning. Ryabkova 2024 found ME/CFS patients do not acutely normalize HRV during SPB (unlike PCC), suggesting vagal receptor blockade by M2/M4 autoantibodies — but chronic SPB training (10 min bid × 8 weeks) may restore baroreflex gain through neuroplasticity. @Blitshteyn2026Neuroimmune
+
+*Falsifiable prediction.* 8-week daily HRV-biofeedback + 0.1 Hz SPB (N=30 ME/CFS+POTS): resting baroreflex sensitivity increases ≥25%; standing HR increment decreases ≥5 bpm; COMPASS-31 improves ≥20%. M2/M4 autoantibody titer inversely predicts response (high titer → minimal benefit).
+
+*Limitations.* Requires daily practice. Biofeedback equipment may be costly. Adherence may be poor in severe patients with cognitive dysfunction.
+] <spec:spb-hrv-biofeedback>
+
+{{/* NP24: Graded cold face immersion (Tier 3, cert 0.30) */}}
+#speculation(title: [Graded Cold Face Immersion for Vagal Autonomic Conditioning])[
+*Certainty: 0.30.* Cold face immersion (CFI, diving reflex — face in 10°C water, 15-30 sec) triggers the trigeminal-cardiac reflex: trigeminal nerve → spinal trigeminal nucleus → NTS → vagal activation → bradycardia. This is the most potent physiological vagal stimulus (HR can drop to 30-40 bpm). Graded CFI (start 22°C, decrease 2°C/week to 10°C, 15 sec, 3×/day) may strengthen the trigeminal-vagal reflex arc via NTS synaptic plasticity. The trigeminal-vagal reflex bypasses autoantibody blockade at the GPCR level because vagal efferents are activated directly via the brainstem pathway. @Blitshteyn2025Neuroinflammation
+
+*Falsifiable prediction.* 4-week graded CFI (hyperadrenergic POTS+ME/CFS, n=15): resting HRV rMSSD increases ≥25%; standing plasma NE decreases ≥20%; standing HR decreases ≥8 bpm. Effect persists at 4-week follow-up (learned reflex potentiation).
+
+*Limitations.* Contraindicated in arrhythmia, epilepsy, severe cold urticaria. May trigger PEM-like responses in sensitive patients (pre-monitoring required). Trigeminal nerve stimulation may cause headache in some patients.
+] <spec:graded-cfi>
 
 == Thermal Conditioning and Vasomotor Training
 

@@ -110,6 +110,49 @@ The Watton--Prusty review @Watton2026unified provides a historical analysis cont
 
 *Additional historical context and limitations.* This historical analysis is a review synthesis, not original historical research. The PACE trial's original investigators maintain that methodological criticisms are overstated, and their published responses deserve engagement alongside the critiques. The McEvedy and Beard reclassification of the Royal Free outbreak has itself been challenged on methodological and sociological grounds. Engel's original BPS framework was developed to counter biomedical reductionism, and some ME/CFS researchers have argued that the paper's own multi-system model is broadly compatible with BPS principles, differing primarily in the weighting assigned to biological versus psychological factors. Readers should weigh the full record — trial protocols, reanalyses, investigator responses, independent critiques, and the 2021 NICE revision — when forming conclusions about this period of ME/CFS history. A steelman of any position is a prerequisite for a durable critique.
 
+=== Neuroimmune Classification Framework
+<sec:neuroimmune-classification>
+
+#achievement(title: [POTS, ME/CFS, and Long COVID Converge on Shared Neuroimmune Mechanisms])[
+*Certainty: 0.70.* Blitshteyn, Doherty, and Steinman @Blitshteyn2026Neuroimmune have synthesized a convergent neuroimmune framework across POTS, ME/CFS, and Long COVID — arguing that these three conditions form a spectrum of neuroimmune disorders with shared pathophysiology. The core evidence for convergence rests on four pillars: (1) GPCR autoantibodies (adrenergic α1, β1/β2, muscarinic M2/M4) identified across all three conditions by multiple independent groups @Gunning2019GPCRPOTS @Fedorowski2017Antiadrenergic @Wallukat2021GPCRLongCOVID; (2) brainstem neuroinflammation at the dorsolateral inferior medulla as a shared CNS substrate @Blitshteyn2025Neuroinflammation @Wagoner2019MedullaInflammation; (3) vagus nerve / cholinergic anti-inflammatory pathway dysfunction as a common neuroimmune mechanism; and (4) immunomodulatory treatment overlap (IVIG, immunoadsorption, rituximab) with preliminary benefit in all three conditions.
+
+*Certainty basis:* The GPCR autoantibody evidence is strongest in POTS (0.65–0.70 from functional validation including cell-based assays @Fedorowski2017Antiadrenergic and rabbit passive transfer @Li2019AdrenergicRabbit), moderate in Long COVID (0.60–0.70 from Wallukat 2021 bioassay evidence @Wallukat2021GPCRLongCOVID), and moderate in ME/CFS (0.50–0.60 from multiple ELISA studies @Loebel2016 @Bynke2020). The Germain 2025 null result in ME/CFS (n=172, REAP/Luminex) @Germain2025autoantibody introduces an unresolved assay-sensitivity issue. Brainstem neuroinflammation evidence remains modest (0.45–0.60). Clinical neuroimmune overlap between the three conditions is the highest-certainty pillar (0.80) based on epidemiological and clinical convergence @Moen2025NeuroimmuneLongCOVID @ElRhermoul2023AutoimmunityLCPOTS.
+
+*Replication status:* GPCR autoantibodies in POTS replicated by three independent groups (Oklahoma, Lund, CellTrend). In ME/CFS, two independent replications (Loebel 2016, Bynke 2020) but Germain 2025 null challenges reproducibility. The three-condition convergence is a narrative synthesis, not a head-to-head comparison study.
+
+*Limitations:* Narrative review (not systematic); limited original data; GPCR autoantibody detection not standardized across labs; whether GPCR autoantibodies are causal or epiphenomenal debated; Germain 2025 null unresolved; brainstem neuroinflammation lacks direct human histopathology.
+] <ach:neuroimmune-classification>
+
+#hypothesis(title: [GPCR Autoantibodies as a Shared Transdiagnostic Neuroimmune Biomarker Across POTS, ME/CFS, and Long COVID])[
+*Certainty: 0.60.* Functional GPCR autoantibodies targeting α1/β1/β2 adrenergic and M2/M4 muscarinic receptors represent a shared biomarker across the three conditions, with prevalence decreasing from POTS (89% by Gunning 2019 @Gunning2019GPCRPOTS, 8/17 by Fedorowski 2017 functional assay @Fedorowski2017Antiadrenergic) through Long COVID (Wallukat 2021 functional bioassay @Wallukat2021GPCRLongCOVID) to ME/CFS (29.5–91% prevalence depending on assay and cohort @Loebel2016 @Bynke2020). The autoantibodies demonstrate functional activity in cell-based assays @Fedorowski2017Antiadrenergic and animal passive transfer models @Li2019AdrenergicRabbit, supporting pathogenicity.
+
+*Replication status:* Multiple independent cohorts in POTS (Oklahoma, Lund, Korean). Two independent cohorts in ME/CFS (Würzburg, Uppsala). Germain 2025 @Germain2025autoantibody null in ME/CFS (n=172 using REAP/Luminex) constitutes a substantive non-replication that may reflect assay sensitivity differences (conformational vs. linear epitopes).
+
+*Limitations:* ELISA-based detection is not standardized across labs; functional bioassays are not scalable to routine clinical use; the Germain 2025 null requires resolution; no longitudinal data exist on titer stability.
+
+*Falsifiable prediction:* Two-way ANOVA (condition × AAb panel) will show significant main effect of condition (POTS → ME/CFS → LC → HC, p \< 0.01) with effect size η² ≥ 0.25 for β2-AR and M3 targets. Falsified if no significant condition effect or η² \< 0.10.
+] <hyp:gpcr-transdiagnostic-biomarker>
+
+{{/* H4: GPCR AAb → mast cell sensitization loop (Tier 2, cert 0.35) */}}
+#speculation(title: [GPCR Autoantibody-Mediated Mast Cell Sensitization — Bidirectional Amplification Loop])[
+*Certainty: 0.35.* GPCR autoantibodies (β2-adrenergic, M3 muscarinic) may directly sensitize mast cells, which express the cognate receptors. β2-AR autoantibodies can chronically activate mast cell β2-AR, leading to desensitization and removal of the adrenergic brake on degranulation. M3 autoantibodies directly activate muscarinic receptors on mast cells, triggering histamine and tryptase release. This creates a bidirectional amplification loop: GPCR autoantibodies → mast cell degranulation → inflammatory mediators → increased BBB permeability → more autoantibody CNS access → brainstem neuroinflammation → autonomic dysregulation → further immune dysregulation. The loop explains why both MCAS-targeted treatment and immunomodulation show benefit — they interrupt different points of the same autoantibody-mast cell loop. @Blitshteyn2026Neuroimmune @Blitshteyn2025Neuroinflammation
+
+*Replication status:* Mast cell β2-AR expression and M3-muscarinic expression are established in the mast cell biology literature. The specific GPCR autoantibody-mast cell interaction has not been tested in ME/CFS. This is a mechanistic synthesis from two independently established lines.
+
+*Limitations:* No direct evidence of GPCR autoantibody binding to mast cells from ME/CFS patients. The direction of β2-AR autoantibody effect (agonistic vs antagonistic) on mast cells is unknown. The loop model is a hypothesis requiring direct cellular testing.
+
+*Falsifiable prediction:* Plasma tryptase will correlate with β2-AR AAb titer (r \> 0.4, p \< 0.01) in ME/CFS patients (n ≥ 30). Falsified if r ≤ 0.2 or no significant correlation.
+] <spec:gpcr-mast-cell-loop>
+
+{{/* H6: CAP-autoantibody blockade (Tier 1, cert 0.40) */}}
+#speculation(title: [Cholinergic Anti-Inflammatory Pathway Blockade by GPCR Autoantibodies — Potential Mechanism for Vagal Treatment Stratification])[
+*Certainty: 0.40.* GPCR autoantibodies (particularly M2/M4 muscarinic and β2-adrenergic) may block the cholinergic anti-inflammatory pathway (CAP) at multiple points: (a) M2 autoantibodies on cardiac vagal terminals impair vagal efferent signaling before the spleen; (b) β2-AR autoantibodies on splenic T cells block the adrenergic-to-cholinergic conversion step that normally suppresses macrophage TNF-α. The result is the vagus brake on systemic inflammation becoming disengaged, producing the low-grade inflammatory state characteristic of ME/CFS, POTS, and Long COVID. This hypothesis predicts that taVNS (transcutaneous auricular vagus nerve stimulation) efficacy depends on GPCR autoantibody profile: patients with high β2-AR autoantibodies should show blunted taVNS response because the CAP effector step is blocked at the splenic T cell level, regardless of vagal afferent activation. @Blitshteyn2026Neuroimmune @Moen2025NeuroimmuneLongCOVID @Azcue2026gpcr
+
+*Replication status:* CAP blockade by GPCR autoantibodies is a mechanistic hypothesis that has not been directly tested in any condition. The individual components (M2 AAb on vagal terminals, β2-AR on splenic T cells) are established in isolated experiments but not as an integrated pathway.
+
+*Limitations:* No direct test of CAP function in GPCR autoantibody-positive ME/CFS. The splenic β2-AR T cell step is established in the basic immunology literature but the functional effect of patient-derived GPCR autoantibodies on this pathway has not been assayed. The taVNS stratification prediction is untested.
+] <spec:cap-autoantibody-blockade>
+
 == Research Questions and Future Directions
 <sec:questions>
 

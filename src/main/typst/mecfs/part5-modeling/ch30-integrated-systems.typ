@@ -748,6 +748,28 @@ The HIF-1alpha-ECM coupled differential equations proposed in Chapter @ch:energy
 *Certainty: 0.45.* The HIF-1alpha-ECM coupling mechanism is biochemically validated in tendinopathy and other connective tissue disorders @Moschini2026HIFTendinopathy. The application to ME/CFS disease staging requires validation that: (1) ME/CFS patients show elevated HIF-1alpha and ECM degradation markers relative to healthy controls; (2) the temporal pattern of these markers (slow increase over months) differs from inflammatory markers (fast fluctuations over hours to days); and (3) clinical severity correlates more strongly with ECM markers in late-stage disease and with inflammatory markers in early-stage disease. If confirmed, the HIF-1alpha-ECM loop would explain why ME/CFS tends to worsen over time despite apparent symptom stability: slow structural degradation accumulates beneath the surface of fluctuating acute symptoms.
 ]
 
+=== Neuroimmune Integration — GPCR Autoantibody and Vagal CAP Extensions
+
+{{/* M29: CAP ODE vagus-immune axis (Tier 2, cert 0.35) */}}
+#proposal(title: [Cholinergic Anti-Inflammatory Pathway (CAP) ODE — Vagus-Immune Axis with GPCR Autoantibody Blockade])[
+*Certainty: 0.35.* Add a 4-variable CAP subsystem: V_eff(t) = vagal efferent activity, A_ch(t) = ACh at splenic T cell synapse, T_act(t) = activated splenic CD4+ T cell fraction, M_TNF(t) = macrophage TNF-α production. V_eff is driven by baroreflex output (existing S/V from ch29) and external inputs (taVNS, SPB). A_ch is a function of V_eff modulated by M2/M4 autoantibody blockade. T_act depends on A_ch via β2-AR, modulated by β2-AR autoantibodies. M_TNF is suppressed by T_act (the CAP efferent arm). Key parameter: α_β2 = 1/(1 + [AAb_β2]/K_d) reduces CAP gain. Above a critical β2-AR AAb threshold, the CAP is completely disabled — taVNS produces no TNF-α suppression. Below threshold, CAP gain increases with V_eff — taVNS is effective. @Blitshteyn2026Neuroimmune
+
+*Testable prediction.* The relationship between β2-AR AAb titer and taVNS-induced TNF-α suppression is sigmoidal (not linear) with a critical threshold at ~2 × ULN. Above threshold: taVNS suppresses TNF-α by < 10%. Below threshold: by > 30%. Stratify ME/CFS patients by β2-AR AAb quartile and measure acute taVNS TNF-α suppression — the quartile × suppression interaction follows a sigmoid, not a linear gradient.
+
+*Existing model context.* Extends ch30 vagal coupling (@eq:vagal-coupling); connects to ch29 baroreflex model.
+] <prop:cap-ode>
+
+{{/* M30: GPCR binding-internalization ODE (Tier 3, cert 0.30) */}}
+#proposal(title: [GPCR Antibody-Receptor Binding and Internalization ODE — Predicting Receptor Availability and Signaling Output])[
+*Certainty: 0.30.* Extend the GPCR AAb ODE (ch28) with three-state receptor dynamics: free R(t), AAb-occupied R(t), internalized R_int(t). Signaling output S(t) depends on whether AAb is agonistic or antagonistic. Binding: d[AAb·R]/dt = k_on·AAb·R − k_off·[AAb·R] − k_int·[AAb·R]. Internalization rate k_int depends on β-arrestin bias (epitope-specific). The model captures the cell-based functional data from Fedorowski 2017/Kharraziha 2020: different autoantibody profiles produce different signaling/internalization ratios. @Fedorowski2017Antiadrenergic @Kharraziha2020GPCRseverity
+
+*Testable prediction.* Patients with internalization-biased autoantibodies (rapid k_int) have worse autonomic function (fewer functional receptors). Immunoadsorption removes AAb → R recovers on timescale of days (receptor recycling from intracellular pools). Recovery is faster for receptors with high recycling rates (β2-AR recycles quickly, M3 slowly). The model explains variable autonomic improvement after IA.
+
+*Existing model context.* Extends ch28 GPCR AAb ODE; requires receptor-specific kinetics.
+
+*Falsifiable prediction.* RCT (n≥40, IA vs sham) will show COMPASS-31 between-group difference ≥15 points and receptor recovery time <14 days for β2-AR. Falsified if COMPASS-31 difference \<10 points or receptor recovery ≥21 days.
+] <prop:gpcr-binding-internalization-ode>
+
 #speculation(title: [Exosome-Mediated Neuroimmune Feedback Loop — ODE Model Extension])[
 *Certainty: 0.25.* The Kang et al.@Kang2026ExosomeHSP70Sleep data provide quantitative cytokine reduction time-courses and cognitive recovery rates suitable for ODE parameterisation. An exosome variable `E_exo(t)` crosses the BBB with rate constant `k_BBB`, reduces neuroinflammation `I_n(t)` with efficacy `eta_hsp`, and enhances glymphatic clearance `G(t)`. The resulting 3-variable ODE system (`E_exo`, `I_n`, `G`) would predict: (a) the dose-frequency regimen achieving sustained neuroinflammation reduction with minimised fluctuation amplitude, (b) the therapeutic window before chronic inflammation alters BBB EV trafficking kinetics, and (c) the optimal cargo mRNA species for each patient subgroup based on their dominant neuroinflammatory cytokine profile. The model is parameterisable from Kang et al. cytokine time-course data but has not been implemented.
 ] <spec:exosome-ode-feedback-loop>

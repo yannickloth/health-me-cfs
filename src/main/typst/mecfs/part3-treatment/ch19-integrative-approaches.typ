@@ -3187,3 +3187,22 @@ ME/CFS and POTS have >80% comorbidity, but their thermoregulatory failure mechan
 #speculation(title: [M10 -- Stochastic Resilience Model: Heterogeneity in Thermal Vulnerability])[
 *Certainty: 0.20.* ME/CFS thermoregulatory heterogeneity — some patients tolerate heat but not cold, others neither — can be captured by sampling individual resilience parameters (HSP70 sensitivity, ET-1 baseline, spare respiratory capacity, BAT threshold, vasomotor bias) from population distributions. Stochastic simulation predicts three responder clusters: heat-tolerant (30%), cold-tolerant (25%), and mixed-intolerant (45% non-responders requiring combination therapy). Falsifiable: cluster analysis of thermal challenge responses in n >= 50 ME/CFS patients identifies the predicted proportions. No ME/CFS stochastic modeling data.
 ] <spec:m10-stochastic-model>
+
+{{/* Supplement stacks from SU18-SU21 placed as open-questions */}}
+#open-question(title: [Cholinergic Precursor Stack (Alpha-GPC + Huperzine A + CDP-Choline) for Vagal Tone Enhancement])[
+Could a cholinergic precursor stack — alpha-GPC (600 mg), Huperzine A (50-100 µg), CDP-choline (500 mg) — enhance vagal efferent tone and the cholinergic anti-inflammatory pathway in ME/CFS? The rationale: augmenting central and peripheral ACh availability should improve GI motility (M3 receptor), CAP-mediated TNF-α suppression, and cardiac vagal tone (HRV). However, Huperzine A at even low doses carries risk of cholinergic excess (bradycardia, salivation, diarrhea). No ME/CFS trials exist. Whether vagal tone enhancement in the presence of GPCR autoantibodies (M2/M4) can overcome receptor blockade is unknown. @Blitshteyn2026Neuroimmune
+
+*Falsifiable prediction:* Open-label pilot (n=20, 8 weeks) will show HRV rMSSD increase ≥15%, fatigue reduction ≥8 points (MFI), and GI symptom reduction ≥20% (GSRS). Falsified if <3/5 participants show improvement in ≥2 domains.
+] <oq:cholinergic-stack-vagal>
+
+#open-question(title: [Glial Modulation Stack (PEA + Luteolin + Pterostilbene) for Brainstem Neuroinflammation])[
+Could a glial modulation stack — palmitoylethanolamide (PEA, 400 mg bid), luteolin (100 mg qd), pterostilbene (50 mg bid) — reduce microglial activation in the dorsolateral medulla and improve autonomic function? PEA activates PPAR-α on microglia reducing TNF-α/IL-1β release. Luteolin inhibits TLR4/MyD88 on microglia and mast cells. Pterostilbene activates SIRT1/NRF2 reducing oxidative stress. The combination targets the brainstem neuroinflammation mechanism proposed by Blitshteyn 2025. All three are available as supplements but have not been tested in ME/CFS as a combination, and no human TSPO-PET studies exist to confirm target engagement in brainstem microglia. @Blitshteyn2025Neuroinflammation
+
+*Falsifiable prediction:* Open-label pilot (n=20, 12 weeks) will show TSPO-PET SUVR decrease ≥15% in dorsolateral medulla and COMPASS-31 reduction ≥15 points. Falsified if TSPO-PET SUVR change under 5% or COMPASS-31 change \<10 points.
+] <oq:glial-modulation-stack>
+
+#open-question(title: [NAD+ Precursors (NR/NMN) + Apigenin for CD38 Inhibition in GPCR Autoantibody-Positive ME/CFS])[
+Could NAD+ precursors (NR 300 mg bid or NMN 250 mg qd) combined with apigenin (50 mg qd, a CD38 inhibitor) preserve NAD+ for SIRT1-mediated autonomic and mitochondrial function in GPCR autoantibody-positive ME/CFS? The mechanism: GPCR autoantibody signaling (M3/Gq → IP3 → Ca2+) activates CD38 (the primary NADase), consuming NAD+. Apigenin blocks CD38, preserving NAD+ for SIRT1 which drives PGC-1α-mediated mitochondrial biogenesis and autonomic regulation. No ME/CFS data on CD38 activity or apigenin effects exist. @Blitshteyn2026Neuroimmune
+
+*Falsifiable prediction:* Open-label pilot (n=15, 12 weeks) in GPCR AAb+ ME/CFS will show NAD+/NADH ratio increase ≥1.5×, SIRT1 activity increase ≥30%, and fatigue reduction ≥8 points (MFI). Falsified if NAD+/NADH ratio increase <1.2× or fatigue reduction <4 points.
+] <oq:nad-cd38-stack>

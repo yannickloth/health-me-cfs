@@ -422,6 +422,46 @@ The following mechanisms have either no targeted treatments or treatments with e
 *Emerging gap — Neuromodulation:* tVNS is the most clinically advanced non-pharmacological neuromodulation approach, but rTMS, tDCS, and photobiomodulation all lack sham-controlled ME/CFS RCTs. These are low-risk, non-invasive interventions that are under-investigated relative to their mechanistic rationale.
 ]
 
+=== Emerging Neuroimmune Treatment Strategies
+
+{{/* C25: Tiered neuroimmune care protocol (Tier 1, cert 0.40) */}}
+#speculation(title: [Tiered Neuroimmune Treatment Protocol Stratified by GPCR Autoantibody Profile])[
+*Certainty: 0.40.* A 4-tier protocol stratifying patients by GPCR autoantibody status + autonomic function + disease severity: Tier 1 (AAb−, mild-moderate): taVNS + 0.1 Hz SPB biofeedback + cholinergic support + pacing. Tier 2 (AAb+, moderate): T1 + immunomodulation (IVIG or IA or BC 007) + LDN. Tier 3 (AAb+, severe, MCAS+): T2 + mast cell stabilization + graded cold face immersion + S1P precursors. Tier 4 (AAb+, pan-autonomic failure, bedbound): T3 + efgartigimod or low-dose rituximab + NAD+ stack. @Blitshteyn2026Neuroimmune
+
+*Rationale.* Stratifying by GPCR autoantibody status (the core neuroimmune biomarker) provides rational triage: autoantibody-negative patients focus on vagal enhancement and pacing; autoantibody-positive patients receive immunomodulation as a prerequisite. Testable in stepped-wedge cluster RCT across 4 clinics with primary endpoint COMPASS-31 at 6 months.
+
+*Limitations.* Each intervention within each tier has independent evidence limitations. The tiering order is a proposal, not evidence-based. Cost and access barriers are substantial for Tier 2-4 interventions. No stepped-wedge implementation data exist in ME/CFS.
+
+*Falsifiable prediction:* Stepped-wedge cluster RCT (4 clinics) will show COMPASS-31 reduction ≥15 points in AAb+ patients receiving Tier 2+ vs Tier 1 alone at 6 months. Falsified if between-group difference \<10 points or p≥0.05.
+] <spec:tiered-neuroimmune-protocol>
+
+{{/* DR13: IA + belimumab (Tier 1, cert 0.40) */}}
+#speculation(title: [Immunoadsorption + Belimumab Combination for Sustained Autoantibody Suppression])[
+*Certainty: 0.40.* Immunoadsorption (IA) removes existing GPCR autoantibodies but benefit is transient (3-6 months). Belimumab (anti-BAFF, approved for SLE) blocks BAFF-mediated survival of autoreactive B cells, preventing rebound. The combination — IA for rapid removal + belimumab for sustained production suppression — could achieve durable autoantibody reduction. Patient selection: IA-responsive (≥30% improvement post-IA) + GPCR autoantibody-positive. Phase 1 pilot: n=10 IA+belimumab vs n=10 IA alone. @Blitshteyn2026Neuroimmune @Stein2024immunoadsorption
+
+*Warning.* Belimumab is not approved for ME/CFS. Infection risk (pneumonia, sepsis) documented in SLE trials. The combination adds significant cost and monitoring burden. IA is invasive with vascular access requirements. This is an investigational combination only.
+
+*Falsifiable prediction.* Combination group retains ≥ 80% of peak post-IA improvement at 12 months (PROMIS Fatigue); IA-alone retains ≤30%. Combination group shows sustained GPCR AAb suppression (≤50% baseline); IA-alone rebounds to ≥ 80% baseline.
+] <spec:ia-belimumab-combo>
+
+{{/* DR14: Efgartigimod (Tier 2, cert 0.35) */}}
+#speculation(title: [Efgartigimod for FcRn-Mediated IgG Depletion in GPCR Autoantibody-Positive ME/CFS])[
+*Certainty: 0.35.* Efgartigimod (neonatal Fc receptor blocker) accelerates IgG catabolism, reducing total IgG and pathogenic autoantibodies by 50-70% within 2-4 weeks. Unlike IVIG (cost-prohibitive, $5-10K/dose, 4-6h infusion), efgartigimod is a 1-hour IV infusion. The negative Phase 2 in unselected ME/CFS may reflect patient selection failure — no enrichment for GPCR autoantibody positivity. A re-do with pre-selection is warranted. @Blitshteyn2026Neuroimmune
+
+*Warning.* Investigational only. Non-specific IgG reduction increases infection risk. Requires monitoring of IgG levels and infection surveillance. No ME/CFS safety data in autoantibody-selected patients.
+
+*Falsifiable prediction.* Efgartigimod (10 mg/kg IV weekly ×4, then biweekly ×8) in GPCR AAb+ ME/CFS (n=20, open-label): reduces total IgG ≥50% at week 4; reduces GPCR AAb functional activity ≥60%; ≥40% of patients show ≥10-point PROMIS Fatigue improvement.
+] <spec:efgartigimod-aa-selected>
+
+{{/* DR15: Low-dose rituximab (Tier 2, cert 0.30) */}}
+#speculation(title: [Low-Dose Rituximab (200 mg × 2) for GPCR Autoantibody-Positive ME/CFS Without PEM Trigger])[
+*Certainty: 0.30.* RituxME (Fluge 2019) was negative in unselected patients using standard 500 mg × 2 dose which causes significant cytokine release syndrome (CRS — fever, rigors, fatigue — indistinguishable from PEM). Low-dose rituximab (200 mg × 2, as used in ITP) achieves B cell depletion with minimal CRS. If GPCR autoantibodies are the pathogenic target, partial B cell depletion (50-70%) may reduce autoantibody production without the fulminant CRS that may have confounded RituxME. Retreatment when B cells recover to ≥50% of baseline (typically 4-6 months). @Blitshteyn2026Neuroimmune
+
+*Warning.* Investigational only. CRS risk, though reduced at low dose, is not zero. Infection risk from B cell depletion. No ME/CFS safety data for low-dose regimen. Requires monitoring of B cell counts and immunoglobulin levels.
+
+*Falsifiable prediction.* Low-dose rituximab (200 mg IV, days 0 and 14) in GPCR AAb+ ME/CFS (n=15, open-label): B cell depletion (CD19+ <20 cells/µL) in ≥ 80%; CRS ≥ grade 2 in ≤10%; ≥30% show ≥30% PROMIS Fatigue improvement at 3 months.
+] <spec:low-dose-rituximab-aa>
+
 #direction(title: [Highest-Priority Treatment Research Directions])[
 Based on the coverage analysis above, the following research directions offer the greatest potential for therapeutic advance:
 

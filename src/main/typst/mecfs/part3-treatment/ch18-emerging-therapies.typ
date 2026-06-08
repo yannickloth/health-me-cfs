@@ -808,6 +808,26 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 == Glutamatergic Modulators
 <sec:glutamatergic-modulators>
 
+=== Neuroimmune Investigational Therapies
+
+{{/* DR16: LDN + verapamil (Tier 3, cert 0.25) */}}
+#speculation(title: [Low-Dose Naltrexone + Verapamil Combination — TLR4 Blockade + Calcium Channel Modulation for GPCR Autoantibody-Driven Neuroinflammation])[
+*Certainty: 0.25.* Low-dose naltrexone (LDN, 1.5-4.5 mg) is a TLR4 antagonist at low concentrations — it blocks microglial TLR4-mediated neuroinflammation. Verapamil (L-type calcium channel blocker, 40-80 mg bid) reduces intracellular Ca2+ flux — the downstream signal from GPCR autoantibody-induced receptor activation (both α1-AR and M3 mAChR signal through Gq → PLC → IP3 → Ca2+). The combination: LDN reduces microglial output; verapamil blunts cellular response to GPCR autoantibody signaling in neurons, cardiomyocytes, and vascular smooth muscle. LDN is widely used in ME/CFS (anecdotal). Verapamil is rarely used but mechanistically rational for the GPCR autoantibody+ subset. @Blitshteyn2026Neuroimmune @Fedorowski2017Antiadrenergic
+
+*Warning.* Verapamil can worsen constipation (in a population with GI dysmotility). Bradycardia risk in POTS patients. Hypotension risk with concurrent fludrocortisone. Requires cardiac monitoring. No ME/CFS safety data for the combination.
+
+*Falsifiable prediction.* 8-week LDN (4.5 mg qhs) + verapamil ER (120 mg qd) in GPCR AAb+ ME/CFS+POTS (n=20, open-label): ≥40% show ≥30% PROMIS Fatigue improvement; standing HR decreases ≥5 bpm; NfL decreases ≥15%.
+] <spec:ldn-verapamil-combo>
+
+{{/* DR17: C1-INH (Tier 3, cert 0.20) */}}
+#speculation(title: [C1-Esterase Inhibitor for Complement-Mediated Glycocalyx Damage in GPCR Autoantibody-Positive ME/CFS+POTS])[
+*Certainty: 0.20.* GPCR autoantibodies (IgG1 subclass) fix complement via C1q, activating the classical complement pathway and generating C5a/C3a anaphylatoxins. Complement activation damages the endothelial glycocalyx (heparan sulfate shedding → impaired vasomotor tone). C1-esterase inhibitor (C1-INH) blocks complement at the earliest step, preventing C5a/C3a generation. In hereditary angioedema, C1-INH prevents bradykinin-mediated vascular leak — a parallel mechanism to glycocalyx loss described in POTS/ME/CFS. Target: GPCR AAb-positive patients with elevated complement split products (C3a, C5a, sC5b-9). @Blitshteyn2026Neuroimmune @Gunning2019GPCRPOTS
+
+*Warning.* Investigational only. C1-INH is very expensive ($5,000-15,000/dose). Thrombotic risk (rare). No ME/CFS safety data. Requires IV administration.
+
+*Falsifiable prediction.* C1-INH (1000 U IV, then weekly ×3) in GPCR AAb+ ME/CFS+POTS with elevated C3a/C5a (n=10): reduces C3a/C5a to ≤1.2 × ULN within 24h; reduces standing HR ≥8 bpm at week 4; plasma syndecan-1 (glycocalyx marker) decreases ≥25%.
+] <spec:c1-inh-complement>
+
 #speculation(title: [Memantine for Glutamatergic PRS-Positive ME/CFS])[
 *Certainty: 0.45.* Low-dose memantine (5-10 mg daily) — a non-competitive NMDA receptor antagonist FDA-approved for Alzheimer's disease — may normalise glutamatergic signaling in patients with high glutamatergic PRS. If glutamatergic hyperexcitability drives E/I imbalance in ME/CFS (Hypothesis @hyp:glutamatergic-synaptic-dysfunction), NMDA blockade could reduce excitotoxic signaling and restore cortical excitability toward normal range @Maccallini2026metaGWAS.
 

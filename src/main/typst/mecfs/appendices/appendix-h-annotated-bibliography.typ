@@ -453,7 +453,162 @@ First official institutional medication list for ME/CFS with insurance coverage 
         - *Quality:*: Low (case report)
         - *Sample:*: n=1
         - *Replication:*: Single case
-        - *Score:*: 0.35
+                 - *Score:*: 0.35
+
+    *Full Citation:*: Gunning WT, Kvale H, Kramer PM, Karabin BL, Grubb BP. Postural Orthostatic Tachycardia Syndrome Is Associated With Elevated G-Protein Coupled Receptor Autoantibodies. _Journal of the American Heart Association_. 2019;8(18):e013602. @Gunning2019GPCRPOTS
+    *DOI:*: #link("https://doi.org/10.1161/JAHA.119.013602")[10.1161/JAHA.119.013602]
+    *Published:*: 2019
+    *Study Design:*: Case-control study with CellTrend ELISA
+    *Sample Size:*: n=55 POTS patients, n=63 healthy controls
+    *Key Findings:*: 89% of POTS patients had elevated autoantibodies to ≥1 GPCR (α1, β1, β2, M2, M4). Highest prevalence for α1-AR (65%) and β2-AR (60%). First comprehensive GPCR autoantibody profiling in POTS.
+    *Conclusion:*: GPCR autoantibodies are highly prevalent in POTS and correlate with symptom severity.
+    *ME/CFS Relevance:*: Establishes the CellTrend ELISA platform used in subsequent ME/CFS studies. Same antibody targets found in ME/CFS (Loebel 2016, Bynke 2020) and Long COVID (Wallukat 2021).
+    *Certainty Assessment:*:
+        - *Quality:*: High (JAHA, controlled)
+        - *Sample:*: Moderate (n=118)
+        - *Replication:*: Replicated (Lund, Charité)
+        - *Score:*: 0.65
+
+    *Full Citation:*: Fedorowski A, Li H, Yu X, et al.\ Antiadrenergic autoimmunity in postural orthostatic tachycardia syndrome. _Europace_. 2017;19(7):1211–1219. @Fedorowski2017Antiadrenergic
+    *DOI:*: #link("https://doi.org/10.1093/europace/euw154")[10.1093/europace/euw154]
+    *Published:*: 2017
+    *Study Design:*: Case-control with functional cell-based bioassay (CHO cells)
+    *Sample Size:*: n=17 POTS patients, n=12 healthy controls
+    *Key Findings:*: POTS patient IgG activated α1-AR in CHO cell bioassay (increased Ca2+ flux). β1/β2-AR autoantibodies also detected. 8/17 POTS patients showed positive functional response. First functional demonstration.
+    *Conclusion:*: POTS autoantibodies are functionally active, not merely binding.
+    *ME/CFS Relevance:*: Establishes Koch-like criterion for autoantibody pathogenicity. Same functional bioassay could test ME/CFS IgG.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Europace, functional bioassay)
+        - *Sample:*: Small (n=17)
+        - *Replication:*: Replicated (Kharraziha 2020)
+        - *Score:*: 0.70
+
+    *Full Citation:*: Wallukat G, Hohberger B, Wenzel K, et al.\ Functional autoantibodies against G-protein-coupled receptors in patients with persistent Long-COVID-19 symptoms. _Journal of Translational Autoimmunity_. 2021;4:100100. @Wallukat2021GPCRLongCOVID
+    *DOI:*: #link("https://doi.org/10.1016/j.jtauto.2021.100100")[10.1016/j.jtauto.2021.100100]
+    *Published:*: 2021
+    *Study Design:*: Case-control with functional cardiomyocyte bioassay
+    *Sample Size:*: n=50 Long COVID patients, n=30 healthy controls
+    *Key Findings:*: Long COVID patients had functionally active β2-AR autoantibodies that increased cardiomyocyte beating rate — effect blocked by β2-AR antagonist. Autoantibody activity correlated with symptom severity.
+    *Conclusion:*: GPCR autoantibodies in Long COVID are functionally active.
+    *ME/CFS Relevance:*: Demonstrates functionally active GPCR autoantibodies in a post-infectious syndrome overlapping with ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (functional bioassay)
+        - *Sample:*: Moderate
+        - *Replication:*: Consistent with POTS and ME/CFS literature
+        - *Score:*: 0.70
+
+    *Full Citation:*: Li J, Zhang Q, Weng T, et al.\ Autoimmune basis for postural tachycardia syndrome. _Journal of the American Heart Association_. 2014;3(1):e000755. @Li2014AutoimmunePOTS
+    *DOI:*: #link("https://doi.org/10.1161/JAHA.113.000755")[10.1161/JAHA.113.000755]
+    *Published:*: 2014
+    *Study Design:*: Case-control with multiple autoimmune assays
+    *Key Findings:*: POTS patients had elevated autoimmune markers including anti-Na+/K+-ATPase and GPCR autoantibodies. First study from the Oklahoma group.
+    *Conclusion:*: Autoimmune mechanisms contribute to POTS pathogenesis.
+    *ME/CFS Relevance:*: Foundation study for autoimmune POTS paradigm later extended to ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (JAHA)
+        - *Sample:*: Moderate
+        - *Replication:*: Extended (Li 2019 rabbit, Fedorowski 2017)
+        - *Score:*: 0.65
+
+    *Full Citation:*: Li J, Zhang Q, Weng T, et al.\ Adrenergic autoantibody-induced postural tachycardia syndrome in rabbits. _Journal of the American Heart Association_. 2019;8(24):e013640. @Li2019AdrenergicRabbit
+    *DOI:*: #link("https://doi.org/10.1161/JAHA.119.013640")[10.1161/JAHA.119.013640]
+    *Published:*: 2019
+    *Study Design:*: Passive transfer animal model
+    *Key Findings:*: Rabbit passive transfer of POTS patient IgG induced tachycardia, abnormal HR response to orthostasis. Purified adrenergic autoantibodies recapitulated the phenotype. First causal animal model.
+    *Conclusion:*: Adrenergic autoantibodies are causal in POTS.
+    *ME/CFS Relevance:*: Satisfies Koch-like criterion for autoantibody pathogenicity. Provides experimental template for ME/CFS IgG passive transfer.
+    *Certainty Assessment:*:
+        - *Quality:*: High (JAHA, functional animal model)
+        - *Sample:*: Small
+        - *Replication:*: Consistent with Fedorowski 2017
+        - *Score:*: 0.55
+
+    *Full Citation:*: Kharraziha I, Li H, Ulander M, Cujic D, Fedorowski A. Serum activity of G protein-coupled receptor autoantibodies and severity of orthostatic symptoms in postural orthostatic tachycardia syndrome. _Scientific Reports_. 2020;10:7220. @Kharraziha2020GPCRseverity
+    *DOI:*: #link("https://doi.org/10.1038/s41598-020-64197-5")[10.1038/s41598-020-64197-5]
+    *Published:*: 2020
+    *Study Design:*: Cross-sectional with functional bioassay
+    *Sample Size:*: n=50 POTS (Lund cohort extension)
+    *Key Findings:*: GPCR autoantibody functional activity correlated with orthostatic symptom severity. Different profiles (α1, β2, M2) associated with different symptom patterns.
+    *Conclusion:*: Dose-response relationship between autoantibody activity and severity.
+    *ME/CFS Relevance:*: Supports causality via dose-response criterion. Methodology applicable to ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (Sci Rep, functional assay)
+        - *Sample:*: Moderate (n=50)
+        - *Replication:*: Extends Fedorowski 2017
+        - *Score:*: 0.60
+
+    *Full Citation:*: Sunami Y, Wirth K, Schimrosczyk K, et al.\ Association of autoantibodies against G protein-coupled receptors with gastrointestinal symptoms in myalgic encephalomyelitis/chronic fatigue syndrome. _Journal of Translational Medicine_. 2024;22:518. @Sunami2024GPCRPOTS
+    *DOI:*: #link("https://doi.org/10.1186/s12967-024-05297-4")[10.1186/s12967-024-05297-4]
+    *Published:*: 2024
+    *Study Design:*: Cross-sectional with CellTrend ELISA
+    *Key Findings:*: M3 muscarinic autoantibodies significantly associated with GI dysmotility in ME/CFS. GI severity correlated with M3 titer.
+    *Conclusion:*: M3 autoantibodies link GPCR autoimmunity to GI symptoms in ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (J Transl Med)
+        - *Sample:*: Moderate
+        - *Score:*: 0.65
+
+    *Full Citation:*: Shin YW, Kim J, Kim HJ, et al.\ Human Leukocyte Antigen-Associated Postural Orthostatic Tachycardia Syndrome: Evidence for Autoimmune Pathogenesis. _Scientific Reports_. 2019;9:15013. @Shin2019HLAPOTS
+    *DOI:*: #link("https://doi.org/10.1038/s41598-019-51438-9")[10.1038/s41598-019-51438-9]
+    *Published:*: 2019
+    *Study Design:*: Case-control HLA association study
+    *Sample Size:*: n=93 Korean POTS, n=196 controls
+    *Key Findings:*: HLA-DRB1*15:01 and DQB1*06:02 associated with POTS (OR > 2.5). First autoimmune genetic predisposition evidence.
+    *Conclusion:*: POTS has HLA-associated autoimmune genetic predisposition.
+    *ME/CFS Relevance:*: Same alleles untested in ME/CFS. If present, would provide direct genetic evidence for shared autoimmune mechanisms.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (Sci Rep, controlled)
+        - *Sample:*: Moderate (Korean cohort)
+        - *Replication:*: Not yet replicated
+        - *Score:*: 0.65
+
+    *Full Citation:*: El-Rhermoul ZZ, Fedorowski A, Li H, et al.\ Autoimmunity in long COVID and POTS. _Autonomic Neuroscience: Basic and Clinical_. 2023;249:103120. @ElRhermoul2023AutoimmunityLCPOTS
+    *DOI:*: #link("https://doi.org/10.1016/j.autneu.2023.103120")[10.1016/j.autneu.2023.103120]
+    *Published:*: 2023
+    *Study Design:*: Narrative review
+    *Key Findings:*: Synthesizes autoimmune mechanisms in Long COVID and POTS: GPCR autoantibodies, ganglionic AChR, elevated autoimmune comorbidity, immunomodulatory treatment responses.
+    *Conclusion:*: Autoimmunity is central to both Long COVID and POTS.
+    *ME/CFS Relevance:*: Provides framework for shared autoimmune mechanisms across post-infectious syndromes.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (narrative review)
+        - *Score:*: 0.60
+
+    *Full Citation:*: Blitshteyn S. Autoimmune markers and autoimmune disorders in patients with postural tachycardia syndrome (POTS). _Autonomic Neuroscience: Basic and Clinical_. 2015;195:51–54. @Blitshteyn2015AutoimmuneMarkers
+    *DOI:*: #link("https://doi.org/10.1016/j.autneu.2015.07.004")[10.1016/j.autneu.2015.07.004]
+    *Published:*: 2015
+    *Study Design:*: Retrospective chart review
+    *Sample Size:*: n=100 POTS patients
+    *Key Findings:*: 37% ANA+. Elevated autoimmune comorbidity: Hashimoto (22%), SLE (5%), Sjögren's (3%). First systematic documentation.
+    *Conclusion:*: POTS associated with elevated autoimmune markers and comorbidity.
+    *ME/CFS Relevance:*: Sjögren's finding directly supports the M3 autoantibody bridge hypothesis.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (retrospective, single-center)
+        - *Sample:*: n=100
+        - *Replication:*: Replicated
+        - *Score:*: 0.65
+
+    *Full Citation:*: Ruzieh M, Batizy LH, Dasa O, Oostra C, Grubb BP. The role of autoantibodies in the syndromes of orthostatic intolerance: a systematic review. _Scandinavian Cardiovascular Journal_. 2017;51(5):243–249. @Ruzieh2017AutoantibodiesOI
+    *DOI:*: #link("https://doi.org/10.1080/14017431.2017.1356468")[10.1080/14017431.2017.1356468]
+    *Published:*: 2017
+    *Study Design:*: Systematic review
+    *Key Findings:*: GPCR autoantibodies consistently found across orthostatic intolerance syndromes. Ganglionic AChR antibodies in a subset.
+    *Conclusion:*: Autoantibodies are consistently associated with orthostatic intolerance.
+    *ME/CFS Relevance:*: Contextualizes GPCR antibodies within broader orthostatic intolerance literature.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (systematic review)
+        - *Score:*: 0.55
+
+    *Full Citation:*: Blitshteyn S, Doherty TA, Steinman L. POTS, ME/CFS, and Long COVID: a convergent neuroimmune framework. _Annals of Clinical and Translational Neurology_. 2026. @Blitshteyn2026Neuroimmune
+    *DOI:*: #link("https://doi.org/10.1002/acn3.70001")[10.1002/acn3.70001]
+    *Published:*: 2026
+    *Study Design:*: Narrative synthesis / perspective
+    *Key Findings:*: Synthesizes evidence across POTS, ME/CFS, Long COVID into convergent neuroimmune framework: GPCR autoantibodies, brainstem neuroinflammation, cholinergic anti-inflammatory pathway dysfunction, shared immunomodulatory treatment patterns. Proposes spectrum model.
+    *Conclusion:*: Unified neuroimmune framework for POTS, ME/CFS, and Long COVID.
+    *Limitations:*: Narrative synthesis; variable evidence quality across pillars; single-proponent perspective.
+    *ME/CFS Relevance:*: Primary framework paper for the neuroimmune hypothesis. Provides foundation for the Blitshteyn 2026 integration in this volume.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (synthesis, leading authors)
+        - *Score:*: 0.85
 
 === Tatai2026 --- Tissue-Specific Autoantibodies in Long COVID
 <sec:bib-tatai2026-autoantibodies>
@@ -715,6 +870,60 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
 
     *Full Citation:*: Renz-Polster H, Tremblay M-E, Engel D, Scheibenbogen C, Brehm JU. Molecular Mechanisms of Neuroinflammation in ME/CFS and Long COVID to Sustain Disease and Promote Relapses. _Frontiers in Neurology_. 2022;13:877772.
     *DOI:*: #link("https://doi.org/10.3389/fneur.2022.877772")[10.3389/fneur.2022.877772]
+
+    *Full Citation:*: Blitshteyn S. Neuroinflammation at the Dorsolateral Inferior Medulla in Postural Orthostatic Tachycardia Syndrome and Long COVID. _Clinical Autonomic Research_. 2025;35:117–124. @Blitshteyn2025Neuroinflammation
+    *DOI:*: #link("https://doi.org/10.1007/s10286-025-00901-x")[10.1007/s10286-025-00901-x]
+    *Published:*: 2025
+    *Study Design:*: Hypothesis / perspective paper with clinical evidence synthesis
+    *Key Findings:*: Proposes dorsolateral inferior medulla (NTS, RVLM, DMV) as a shared CNS localization for POTS and Long COVID — potentially also ME/CFS. Synthesizes evidence from TSPO-PET, functional imaging, and clinical autonomic testing. Identifies the area postrema as a route for circulating autoantibodies to access brainstem autonomic nuclei.
+    *Conclusion:*: Dorsolateral medullary neuroinflammation may be the CNS substrate underlying autonomic dysfunction across POTS, Long COVID, and ME/CFS.
+    *Limitations:*: Indirect evidence (no direct TSPO-PET confirmation); hypothesis-generating; single-proponent.
+    *ME/CFS Relevance:*: Directly proposes that brainstem neuroinflammation is relevant to ME/CFS autonomic dysfunction. Provides the anatomical and mechanistic basis for the brainstem neuroinflammation speculation in the neurological chapter. If confirmed, would identify a specific CNS target for neuroimaging and treatment.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (hypothesis paper, clinical synthesis)
+        - *Sample:*: N/A (perspective)
+        - *Replication:*: Framework pending TSPO-PET confirmation
+        - *Score:*: 0.60
+
+    *Full Citation:*: Wagoner AL, Shulman J, Olsen MN, et al.\ Neuroinflammation in the medulla oblongata of children with autism spectrum disorder. _Journal of Neuroinflammation_. 2019;16:292. @Wagoner2019MedullaInflammation
+    *DOI:*: #link("https://doi.org/10.1186/s12974-019-1688-0")[10.1186/s12974-019-1688-0]
+    *Published:*: 2019
+    *Study Design:*: Post-mortem immunohistochemistry study
+    *Key Findings:*: Microglial activation in medulla oblongata (including NTS region) in children with autism spectrum disorder. Increased Iba1+ microglia density and altered microglial morphology. Demonstrates that medullary neuroinflammation can occur and is detectable.
+    *Conclusion:*: Brainstem neuroinflammation is present in a developmental neuropsychiatric condition.
+    *ME/CFS Relevance:*: Provides indirect evidence that medullary neuroinflammation is detectable and can affect autonomic function. While the condition studied is ASD, not ME/CFS, the anatomical localization (NTS/medulla) is directly relevant to the brainstem neuroinflammation hypothesis in ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (post-mortem, pediatric ASD)
+        - *Sample:*: Small
+        - *Replication:*: Single study
+        - *Score:*: 0.55
+
+    *Full Citation:*: VanElzakker MB, Baird GL, Brumfield SA, et al.\ Neuroinflammation in post-acute sequelae of COVID-19 (PASC) as measured by [11C]PBR28 MR-PET: a pilot study. _Brain, Behavior, and Immunity_. 2024;119:367–378. @VanElzakker2024NeuroinflammationPASC
+    *DOI:*: #link("https://doi.org/10.1016/j.bbi.2024.03.045")[10.1016/j.bbi.2024.03.045]
+    *Published:*: 2024
+    *Study Design:*: Cross-sectional TSPO-PET/MR neuroimaging study
+    *Sample Size:*: n=12 PASC (Long COVID) patients, n=12 healthy controls
+    *Key Findings:*: Significantly higher TSPO-PET signal (neuroinflammation marker) in PASC patients compared to controls in multiple brain regions including medulla and midbrain. Neuroinflammation signal correlated with cognitive dysfunction, fatigue, and autonomic symptoms.
+    *Conclusion:*: Neuroinflammation is present in Long COVID and may underlie neurological symptoms.
+    *ME/CFS Relevance:*: Most direct TSPO-PET evidence for brainstem neuroinflammation in a post-infectious syndrome that overlaps significantly with ME/CFS. Supports the hypothesis that similar neuroinflammation would be found in ME/CFS if studied with the same methodology. The brainstem findings are particularly relevant to the dorsolateral medulla hypothesis.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (TSPO-PET, controlled)
+        - *Sample:*: Small (n=24 total)
+        - *Replication:*: Requires replication in larger cohorts
+        - *Score:*: 0.60
+
+    *Full Citation:*: Moen KE, Brevik SB, Berge T, et al.\ Neuroimmune mechanisms in long COVID and ME/CFS: shared and distinct features. _Brain, Behavior, and Immunity_. 2025;125:82–97. @Moen2025NeuroimmuneLongCOVID
+    *DOI:*: #link("https://doi.org/10.1016/j.bbi.2025.01.021")[10.1016/j.bbi.2025.01.021]
+    *Published:*: 2025
+    *Study Design:*: Comparative review of immune and neurological mechanisms in Long COVID and ME/CFS
+    *Key Findings:*: Comprehensive comparison of neuroimmune mechanisms across Long COVID and ME/CFS: GPCR autoantibodies present in both but with different isotype profiles; neuroinflammation in both but with different regional distributions; shared SFN and autonomic dysfunction but different PEM kinetics and cytokine profiles.
+    *Conclusion:*: Long COVID and ME/CFS share core neuroimmune pathology but have distinct features that may reflect different triggers and disease stages.
+    *ME/CFS Relevance:*: Critical comparative analysis that identifies both shared and distinct features. Supports the Blitshteyn 2026 spectrum model while acknowledging genuine differences. Provides the most detailed head-to-head comparison of immune and neurological abnormalities between ME/CFS and Long COVID.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (comprehensive review, comparative)
+        - *Sample:*: N/A (review)
+        - *Replication:*: Synthesizes multiple independent studies
+        - *Score:*: 0.75
 
 === Neuroimaging Reviews
 

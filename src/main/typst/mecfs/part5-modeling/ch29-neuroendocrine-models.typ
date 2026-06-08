@@ -468,6 +468,30 @@ The model predicts that pain reduction (lowering $cal(S)$) should improve autono
 *Clinical implications.*
 *Whom to treat*: patients with elevated temporal summation on QST (indicating high $k_(upright("wind"))$) or reduced IENFD ($cal(F)/cal(F)_0 < 0.8$). *How*: (1) LDN operates through both immune modulation and endorphin upregulation---the model predicts analgesic onset (days) precedes anti-inflammatory onset (weeks); (2) for structurally maintained sensitization (high $cal(S)$ with low $k_(upright("resolve"))/k_(upright("wind"))$): neuromodulatory approaches (low-dose ketamine as NMDAR antagonist, transcranial stimulation); (3) the model predicts that treating the upstream inflammatory drive (reducing $mu_(1,upright("spinal"))$ and $P_(upright("noci"))$) is more effective than treating sensitization directly, because it addresses both the input and the feedback amplification simultaneously.
 
+=== Neuroimmune Model Extensions
+
+{{/* M31: Multi-scale neuroimmune DAG (Tier 1, cert 0.40) */}}
+#proposal(title: [Multi-Scale Neuroimmune Network DAG Across POTS, ME/CFS, and Long COVID])[
+*Certainty: 0.40.* The Blitshteyn 2026 neuroimmune framework @Blitshteyn2026Neuroimmune proposes shared pathophysiology across POTS, ME/CFS, and Long COVID. A multi-scale DAG formalizes this into a testable network with four layers: (1) *Genetic/Trigger layer*: HLA-DRB1*15:01, post-infectious trigger (SARS-CoV-2, EBV), molecular mimicry epitope; (2) *Autoimmune layer*: GPCR autoantibody production (β2, M2, M4, α1), intrathecal synthesis, ganglionic AChR antibodies; (3) *CNS layer*: brainstem neuroinflammation (TSPO-PET+ dorsolateral medulla), baroreflex gain resetting via NTS GPCR internalization, cholinergic anti-inflammatory pathway blockade, neurovascular coupling failure; (4) *Clinical output layer*: orthostatic HR increment, CBF, fatigue, PEM, pain, cognitive dysfunction.
+
+*Canonical paths.* Path A: GPCR AAb → baroreflex resetting → orthostatic tachycardia. Path B: GPCR AAb → CAP blockade → systemic inflammation + vagal withdrawal → fatigue. Path C: Intrathecal AAb → brainstem neuroinflammation → central sensitization → PEM amplification.
+
+*Testable prediction.* DAG centrality analysis identifies GPCR autoantibody production and brainstem neuroinflammation as the two highest-betweenness nodes — interventions targeting either node produce the largest downstream effects. Combining both (immunoadsorption + taVNS) should produce supra-additive effects, testable in a 2×2 factorial trial.
+
+*Existing model context.* Extends ch29 DAG with neuroimmune nodes; connects to ch30 integrated model.
+
+*Falsifiable prediction.* DAG centrality will show GPCR AAb and brainstem neuroinflammation as top-3 by betweenness, each with ≥1.5× interaction with ≥2 other nodes. Falsified if centrality analysis identifies different top nodes or no node has ≥1.5× interaction count.
+] <prop:neuroimmune-multiscale-dag>
+
+{{/* M28: Intrathecal AAb compartment ODE (Tier 2, cert 0.35) */}}
+#proposal(title: [Two-Compartment (Plasma + CSF) GPCR Autoantibody Kinetics ODE])[
+*Certainty: 0.35.* The existing GPCR AAb ODE (ch28) treats autoantibodies as a single plasma compartment. Adding a CSF compartment with intrathecal production captures the possibility of CNS-restricted autoantibody synthesis (from brainstem B cell aggregates, @spec:brainstem-bcell-aggregates). Variables: A_p(t) = plasma titer, A_csf(t) = CSF titer. Kinetic terms: peripheral production by plasma cells, CNS crossing (k_brain_in, modulated by BBB permeability P_BBB), intrathecal production (k_intrathecal, active only if CNS B cells present), and CSF clearance. The model predicts: early disease: A_csf ~ k_brain_in·A_p (peripheral source dominates); established disease: intrathecal production dominates, A_csf/A_p ratio increases. This explains discordant IA response (rapid peripheral improvement despite slow CNS recovery — CSF autoantibodies clear slowly). @Blitshteyn2026Neuroimmune
+
+*Testable prediction.* Fitted to paired serum+CSF autoantibody data (n=20, 3 timepoints over 6 months), the model shows: A_csf/A_p > 0.05 in ≥ 30% of ME/CFS patients; intrathecal production parameter k_intrathecal correlates with TSPO-PET signal in dorsolateral medulla (r > 0.5). IA reduces A_p by ≥ 70% but A_csf by ≤ 30% within 2 weeks.
+
+*Existing model context.* Extends ch28 GPCR AAb ODE; requires BBB permeability variable from ch28.
+] <prop:intrathecal-aab-ode>
+
 === Nerve Sheath and Tissue Pain Compartments (Equations @eq:nerve-sheath-inflammation and @eq:total-noci-compartments)
 
 *Measurements required.*
