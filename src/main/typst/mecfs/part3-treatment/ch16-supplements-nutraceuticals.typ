@@ -110,6 +110,16 @@ Category A (net energy provider). Essential cofactor for Na#super[+]/K#super[+]-
 *Energy Profile.*
 Category A (net energy provider). Required cofactor for over 300 enzymatic reactions, including ATP synthesis itself (ATP exists physiologically as Mg-ATP complex). Deficiency directly impairs energy production at multiple points: glycolysis, TCA cycle, and oxidative phosphorylation. Supplementation restores enzymatic capacity with minimal metabolic processing cost. Among the highest-priority supplements for energy-depleted patients.
 
+#speculation(title: [Magnesium L-Threonate for NMDA Receptor Regulation])[
+*Certainty: 0.35.* Magnesium L-threonate is the only magnesium form demonstrated to reliably elevate brain magnesium levels in humans, crossing the blood-brain barrier via monocarboxylate transporters. Magnesium blocks the NMDA receptor channel in a voltage-dependent manner --- at resting membrane potential, Mg#super[2+] occupies the channel pore and prevents Ca#super[2+] influx. When glutamatergic hyperexcitability depolarises the postsynaptic membrane, Mg#super[2+] is expelled, allowing NMDA receptor activation @Maccallini2026metaGWAS. If ME/CFS involves genetically driven glutamatergic hyperexcitability (Hypothesis @hyp:glutamatergic-synaptic-dysfunction), elevating brain magnesium could raise the threshold for NMDA receptor activation, reducing excitotoxic signalling.
+
+*Dosing:* 1-2 g/day magnesium L-threonate providing approximately 144-288 mg elemental magnesium. Divided doses (morning and afternoon) to maintain stable brain magnesium levels. Titrate from 1 g/day.
+
+*Safety note (no human ME/CFS data):* No ME/CFS-specific trials exist for magnesium L-threonate. General magnesium safety applies: loose stools at high doses, caution in renal impairment (CrCl < 30 mL/min), potential interaction with aminoglycoside antibiotics and bisphosphonates. Magnesium L-threonate is more expensive than other magnesium forms.
+
+*Falsifiable prediction:* 12-week trial of magnesium L-threonate 2 g/day vs placebo in ME/CFS patients stratified by glutamatergic PRS will show significant reduction in cognitive PEM severity and improved processing speed only in the high-glutamatergic-PRS subgroup, with effect size correlating with brain magnesium elevation measured by MRS.
+] <spec:mg-threonate-nmda>
+
 === Complete Electrolyte Formulas
 
 Many patients find pre-mixed electrolyte formulas convenient. Key ingredients to look for:
@@ -559,6 +569,16 @@ A direct test would re-run the disconfirmation with the HSAT2-specific readout: 
 *Limitations:* No published protocol uses HSAT2 as a NAC outcome. TRAP-ddPCR for plasma EV HSAT2 requires a research laboratory adapted from the Kishikawa serum method. The test would settle whether `spec:nac-hsat2` should be upgraded or downgraded; current certainty (0.25) is near floor.
 
 ] <oq:nac-hsat2-direct-test>
+
+#speculation(title: [NAC as Glutamate Modulator via Cystine-Glutamate Antiporter])[
+*Certainty: 0.40.* Beyond its glutathione precursor role, NAC modulates glutamatergic neurotransmission through a distinct mechanism: NAC is converted to cystine, which is taken up by astrocytes via the cystine-glutamate antiporter (system xc-). Antiporter activation increases astrocytic glutamate release into the extrasynaptic space, where it acts on presynaptic mGluR2/3 autoreceptors to reduce synaptic glutamate release @Maccallini2026metaGWAS. This paradoxical mechanism --- increasing extrasynaptic glutamate to suppress synaptic glutamate --- normalises glutamatergic tone in conditions of hyperexcitability. NAC is FDA-approved for acetaminophen overdose and has extensive off-label use in psychiatric conditions at 600-1200 mg BID.
+
+*Relevance to ME/CFS:* If genetically driven glutamatergic hyperexcitability underlies neurological symptoms (Hypothesis @hyp:glutamatergic-synaptic-dysfunction), NAC's dual mechanism --- glutamate modulation + glutathione restoration --- addresses both the excitotoxicity and oxidative stress arms of the glutamatergic dysregulation model.
+
+*Safety note (no human ME/CFS data):* No ME/CFS trials have tested NAC specifically for glutamate modulation. NAC is generally well-tolerated at standard doses. Rare bronchospasm --- caution in asthma. OTC, low cost.
+
+*Falsifiable prediction:* 8-week RCT of NAC 1200 mg BID vs placebo in ME/CFS patients stratified by glutamatergic PRS will show significant reduction in cognitive fatigue and PEM duration only in the high-PRS subgroup, with effect size correlating with plasma cystine/glutathione ratio.
+] <spec:nac-glutamate-modulator>
 
 #speculation(title: [Nicotinamide Riboside (NR) or NMN as SIRT1/SUV39H1-Mediated HSAT2 Silencing Support])[
 

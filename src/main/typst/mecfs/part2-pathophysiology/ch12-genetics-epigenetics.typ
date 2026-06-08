@@ -219,7 +219,7 @@ DecodeME computed genetic correlations ($r_g$) via LD Score Regression against 3
 
 The strongest genetic correlations (all Bonferroni-corrected for 3,167 comparisons; threshold $approx 1.6 times 10^(-5)$) are with functional and symptom-based conditions:
 
-    - Irritable bowel syndrome: $r_g = 0.75$ ($p = 0.00015$)
+    - Irritable bowel syndrome: $r_g = 0.75$ ($p = 0.00015$); confirmed by twin-sibling and family studies showing shared genetic architecture between CFS, fibromyalgia, and IBS @Steen2026sharedgenetic @Kendler2023familygenetic
     - Self-reported chronic fatigue syndrome: $r_g = 0.70$ ($p = 0.00005$)
     - Sleeping too much: $r_g = 0.66$ ($p = 0.00028$)
     - Depression (professionally diagnosed): $r_g = 0.60$ ($p < 0.00001$)
@@ -233,6 +233,14 @@ The high correlation with IBS ($r_g = 0.75$) is consistent with the well-documen
 Genetic correlation measures shared common-variant architecture, not shared causal mechanisms. Two conditions can show high $r_g$ because they share upstream risk variants that diverge into different downstream pathologies. The $r_g = 0.60$ with depression, for example, may reflect that neuronal genes affecting synaptic function (such as those identified at DecodeME loci) contribute to both conditions through different circuits. Critically, ME/CFS shows *no significant genetic correlation* with classic autoimmune diseases: multiple sclerosis, rheumatoid arthritis, Crohn's disease, type 1 diabetes, or type 2 diabetes @MECFSScience2025decodeme. This absence challenges hypotheses positioning ME/CFS as primarily an autoimmune condition and suggests that any autoimmune component operates through mechanisms genetically distinct from established autoimmune diseases.
 ]
 
+#speculation(title: [Depression Paradox: High r_g, No Shared Causal Variants])[
+The high genetic correlation with depression ($r_g = 0.60$, $p < 0.00001$) has been interpreted by some as evidence that ME/CFS is fundamentally a mood disorder. DecodeME's finding of *no shared causal variants* between ME/CFS and depression resolves this apparent paradox: glutamatergic synaptic genes are shared risk factors, but circuit expression differs — prefrontal-limbic circuits in depression versus cortico-cerebellar and brainstem circuits in ME/CFS @Maccallini2026metaGWAS @DecodeME2025. This circuit-level divergence explains how the same genetic variants can produce clinically distinct conditions. The depression correlation is therefore a signal of shared synaptic biology, not shared psychiatric aetiology.
+
+(Certainty: 0.50)
+
+*Falsifiable prediction:* Brain-region-specific eQTL analysis will demonstrate that ME/CFS-associated glutamatergic variants have differential expression effects between cerebellum/brainstem and prefrontal cortex, while depression-associated variants show the opposite regional pattern (prefrontal > cerebellar). If glutamatergic variants show equivalent expression effects in both regional profiles, circuit-level divergence fails as an explanation for the r_g/causal-variant paradox.
+] <spec:depression-paradox>
+
 ==== Polygenic Risk Scores
 
 Polygenic risk scores (PRS) aggregate the effects of thousands or millions of genetic variants into a single quantitative measure of inherited liability. PRS can identify individuals at high genetic risk (top decile of PRS distribution), who may benefit from preventive interventions, or individuals at low genetic risk despite environmental exposures. For ME/CFS, PRS applications include risk stratification, mechanistic subtyping, and prediction.
@@ -241,13 +249,13 @@ DecodeME could enable development of ME/CFS polygenic risk scores, though none h
 
 #open-question(title: [ME/CFS Polygenic Risk Score Clinical Utility])[
 
-Beyond individual risk prediction, PRS may also resolve the longstanding subtype problem in ME/CFS. If patients with high neuronal-gene PRS differ clinically from those with high autophagy-gene or immune-gene PRS, this would enable biologically coherent subtyping that could transform clinical trial design from "one size fits all" to pharmacogenomic stratification (see Open Question @oq:genetic-subtypes, Chapter @ch:integrative-models, and proposed study design in Chapter @ch:proposed-studies).
+Beyond individual risk prediction, PRS may also resolve the longstanding subtype problem in ME/CFS. If patients with high neuronal-gene PRS differ clinically from those with high autophagy-gene or immune-gene PRS, this would enable biologically coherent subtyping that could transform clinical trial design from "one size fits all" to pharmacogenomic stratification (see Open Question @oq:genetic-subtypes, Chapter @ch:integrative-models, and proposed study design in Chapter @ch:proposed-studies). The Maccallini 2026 meta-GWAS, with nearly 20,000 cases, substantially expands the discovery sample for PRS development and may improve predictive performance through better effect-size estimation @Maccallini2026metaGWAS.
 Several key questions remain untested: Does high PRS predict which individuals develop ME/CFS following infectious mononucleosis or COVID-19? Do patients with high versus low PRS show different clinical phenotypes, treatment responses, or prognoses? Can PRS combined with environmental risk factors improve prediction compared to either alone? The clinical utility of PRS depends on effect size distribution. If ME/CFS liability reflects thousands of variants each contributing tiny effects, PRS discriminative ability may be modest (for illustration, AUC approximately 0.6--0.65), limiting clinical utility. If a subset of variants have larger effects, PRS performance improves. Even modest predictive ability could have clinical value if the risk gradient between high and low PRS is sufficiently large to guide post-exposure monitoring and early intervention.
 ]
 
 ==== Earlier GWAS Attempts and Methodological Challenges
 
-Prior to DecodeME, several smaller GWAS attempts were conducted with sample sizes of 200–500 cases. These studies were severely underpowered to detect realistic effect sizes for complex disease variants and produced no genome-wide significant findings that replicated. This failure reflects general principles of GWAS: detecting odds ratios of 1.1–1.2 (typical for complex disease variants) requires thousands to tens of thousands of cases, not hundreds.
+Prior to DecodeME, several smaller GWAS attempts were conducted with sample sizes of 200–500 cases. These studies were severely underpowered to detect realistic effect sizes for complex disease variants and produced no genome-wide significant findings that replicated. This failure reflects general principles of GWAS: detecting odds ratios of 1.1–1.2 (typical for complex disease variants) requires thousands to tens of thousands of cases, not hundreds. Notably, Ueland et al.\ (2022) explicitly attempted to replicate the TRA locus association from earlier candidate studies and found no significant association in their Norwegian cohort @Ueland2022trareplication, a null result that reflects the field's maturation from candidate-gene to GWAS-driven approaches.
 
 Small GWAS can still provide value through polygenic analyses aggregating information across many sub-threshold variants and through contributing data to meta-analyses. However, their inability to identify genome-wide significant loci frustrated early genetic investigation of ME/CFS and highlighted the necessity of large collaborative efforts.
 Several methodological challenges complicate ME/CFS GWAS beyond simply achieving adequate sample size. Diagnostic heterogeneity creates noise: if different diagnostic criteria capture partially overlapping patient populations with different genetic architectures, this heterogeneity reduces power. Potential solutions include stratified analyses by diagnostic criteria and phenotype refinement using quantitative traits (severity scores, specific symptoms) rather than binary case-control status.
@@ -264,6 +272,8 @@ Second, the absence of genetic correlation with established autoimmune diseases 
 
 Third, the autophagy/mitophagy genes (_FBXL4_, _CCPG1_) provide a genetic link to the mitochondrial dysfunction documented in Chapter @ch:energy-metabolism --- the possible mechanistic implications are formalised in Hypothesis @hyp:mitophagy-vulnerability below.
 
+The Maccallini 2026 meta-GWAS, combining DecodeME with the Million Veteran Program (19,470 cases, 699,111 controls), has confirmed and extended these brain enrichment findings @Maccallini2026metaGWAS. Beyond single-variant associations, Sardell et al.\ (2026) employed the PrecisionLife combinatorial analytics platform to identify synergistic SNP-SNP interactions in ME/CFS — epistatic effects invisible to standard GWAS — suggesting that gene-gene interactions contribute additional liability beyond the additive effects captured by GWAS arrays @Sardell2026combinatorial. The meta-analysis replicated brain tissue enrichment across 14 brain regions + pituitary with no peripheral tissue reaching significance, identified glutamatergic synapses as the most specific replicated gene-set, and provided the first cell-type resolution: independent replicated signals in distinct neuronal populations of subcortical and cerebellar regions, with a secondary signal in dopaminergic midbrain (VTA/substantia nigra).
+
 GWAS also enables Mendelian randomisation analyses testing causal relationships between exposures and ME/CFS. Using genetic variants as instrumental variables, researchers can test whether genetically predicted inflammatory markers, vitamin D levels, or other biomarkers causally contribute to disease liability, distinguishing causation from the reverse causation and confounding that plague observational ME/CFS studies.
 
 #hypothesis(title: [Genetic Mitophagy Vulnerability: The Accumulation Threshold Model])[
@@ -278,6 +288,63 @@ If this hypothesis is correct, then: (1) ME/CFS patients should show elevated ma
 
 *Limitations:* The _FBXL4_ locus is sub-threshold in the main DecodeME analysis and the gene assignment is not definitive. No study has directly measured mitophagy capacity in ME/CFS patients. The two-hit threshold model is conceptually appealing but has not been tested in any chronic fatigue condition. The proposed interventions (urolithin A, NAD+ precursors) have not been trialled specifically in ME/CFS with genotype stratification.
 ] <hyp:mitophagy-vulnerability>
+
+=== Maccallini 2026 Meta-GWAS: Brain-First Genetic Architecture
+<sec:maccallini-metagwas>
+
+#achievement(title: [Maccallini Meta-GWAS: Brain-First Genetic Architecture])[
+*Certainty: 0.80 (preprint; not yet peer reviewed).* The Maccallini 2026 meta-analysis combines DecodeME with the Million Veteran Program (MVP) GWAS, yielding a total of 19,470 ME/CFS cases and 699,111 controls---the largest genetic investigation of ME/CFS to date @Maccallini2026metaGWAS. The study provides four converging lines of evidence supporting a brain-first genetic architecture.
+
+First, tissue enrichment across 30 tissue types found significant enrichment exclusively in 14 brain regions and pituitary, with no peripheral tissue reaching significance. This replicates and extends the DecodeME brain enrichment finding (Achievement @ach:decodeme-brain-enrichment) and argues against a primary peripheral genetic origin. Second, gene-set analysis replicated neuronal and synaptic gene sets, with glutamatergic synapses emerging as the most specific replicated signal---dovetailing with the DecodeME identification of _SHISA6_ and _UNC13C_ (Section @sec:decodeme-genes). Third, cell-type enrichment identified independent replicated signals in distinct neuronal populations of subcortical and cerebellar regions, providing the first cell-type resolution of ME/CFS genetic architecture. Fourth, a secondary signal in dopaminergic midbrain (ventral tegmental area/substantia nigra) was identified, with convergent support from both common (GWAS) and rare (WGS) variant data---rare variant analysis independently implicating synaptic genes @Birch2025rare.
+
+The absence of any peripheral tissue enrichment has broad implications: if ME/CFS were primarily a peripheral immune or metabolic disorder, genetic risk variants should be detectable in those tissues. Their absence points to a brain-first model where primary genetic liability operates through neuronal circuits, and peripheral pathology arises as a downstream consequence.
+
+Meta-analysis of DecodeME + MVP: n=19,470 cases, n=699,111 controls. Tissue enrichment in 30 tissues, cell-type analysis, gene-set replication.
+] <ach:maccallini-metagwas>
+
+#hypothesis(title: [Glutamatergic Synaptic Dysfunction as Genetically-Driven Core Mechanism])[
+*Certainty: 0.60.* Replicated enrichment of glutamatergic synapse genes across both DecodeME (single-gene level via _SHISA6_, _UNC13C_) and the Maccallini meta-GWAS (gene-set level, Bonferroni-corrected) provides convergent evidence that glutamatergic signalling dysfunction is a genetically grounded component of ME/CFS, not an epiphenomenon @Maccallini2026metaGWAS @DecodeME2025. This dovetails with the excitatory/inhibitory imbalance model proposed independently from immunological and neuroimaging data (Section @sec:genetic-correlations; Chapter @ch:neurological) @WirthScheibenbogen2026glutamate.
+
+*Falsifiable predictions:* (1) iPSC-derived neurons from high-risk genotype carriers should show altered glutamatergic synaptic transmission (altered mEPSC frequency/amplitude, aberrant AMPA/NMDA ratios) compared to low-risk carriers. (2) PET with glutamate receptor ligands (e.g., ^18F-FPEB for mGluR5) should reveal altered receptor density or occupancy in ME/CFS, with effect size correlating with glutamatergic PRS. (3) ME/CFS patients stratified by high glutamatergic PRS should show differential response to glutamatergic modulators (memantine, riluzole, lamotrigine) in a randomised trial, with greater benefit in the high-PRS subgroup.
+] <hyp:glutamatergic-synaptic-dysfunction>
+
+#hypothesis(title: [Two-Hit Model: Glutamatergic Vulnerability + Infectious Trigger])[
+*Certainty: 0.50.* Glutamatergic synaptic genes (_SHISA6_, _UNC13C_, plus sub-threshold hits) identified by DecodeME and the Maccallini meta-GWAS establish a constitutional hyperexcitability substrate affecting cortico-cerebellar and brainstem circuits @DecodeME2025 @Maccallini2026metaGWAS. Under normal conditions, this genetic vulnerability is subclinical — synaptic E/I balance is maintained within a tolerable range by homeostatic mechanisms. An infectious trigger (EBV, SARS-CoV-2, other) activates innate immune cascades that, via cytokine-mediated blood-brain barrier disruption and microglial activation, deliver an additional glutamatergic insult: IL-1$beta$ and TNF-$alpha$ increase synaptic glutamate release and impair astrocytic glutamate reuptake @WirthScheibenbogen2026glutamate. In genetically vulnerable individuals, this superimposed immune-mediated excitation pushes the system past a critical E/I threshold from which homeostasis cannot recover. The chronicity arises because the genetic substrate is fixed and the immune trigger produces sustained neuroinflammation — neither factor resolves independently once the destabilising synergy is established.
+
+*Falsifiable predictions:* (1) iPSC-derived neurons from high-glutamatergic-PRS carriers should show greater excitotoxic vulnerability to inflammatory cytokines (IL-1$beta$, TNF-$alpha$) compared to low-PRS carriers; (2) PET imaging during acute infectious illness should reveal greater glutamate receptor availability changes in ME/CFS-susceptible individuals; (3) early post-infectious treatment with glutamatergic modulators (memantine, lamotrigine) should reduce progression to chronic ME/CFS in high-PRS individuals.
+] <hyp:two-hit-glutamatergic-infectious>
+
+#hypothesis(title: [Brain-First Genetic Model])[
+*Certainty: 0.55.* The Maccallini meta-GWAS demonstrates that ME/CFS genetic risk variants are enriched exclusively in brain and pituitary tissues, with no peripheral tissue reaching significance @Maccallini2026metaGWAS. This pattern---genetic liability operating primarily through neuronal circuits---contrasts with peripheral immune hypothesis expectations, which would predict enrichment in blood, spleen, or lymph node.
+
+The brain-first model does not exclude peripheral pathology; it posits that genetic vulnerability originates in the CNS and produces peripheral manifestations through efferent signalling (autonomic dysregulation, neuroendocrine disruption, altered descending pain modulation). This is consistent with the absence of genetic correlation with classical autoimmune diseases (Section @sec:genetic-correlations) and with neurological abnormalities documented in Chapter @ch:neurological.
+
+*Falsifiable prediction:* Partitioned heritability analysis will show that common-variant heritability for ME/CFS is significantly higher in brain tissues than in blood, lymphoid, or other peripheral tissues after controlling for eQTL sharing. Falsified if peripheral tissue heritability is comparable to brain tissue heritability. Additionally, a tissue-specific Mendelian randomisation study showing that a peripheral immune biomarker (e.g., NK cell cytotoxicity) mediates ME/CFS risk independently of brain eQTL effects would refute the brain-first architecture.
+
+*Limitations:* (1) Tissue enrichment reflects cumulative expression across all cell types and states; rare cell types or state-dependent expression may be missed. (2) GWAS captures common variants only; rare variants affecting peripheral tissues are not detected. (3) Brain enrichment does not identify which specific circuits are primarily affected---cell-type resolution and functional validation are required.
+] <hyp:brain-first-genetic>
+
+#speculation(title: [Depression Paradox Resolution: Circuit-Level Divergence of Shared Glutamatergic Risk])[
+The high genetic correlation between ME/CFS and depression ($r_g = 0.60$, $p < 0.00001$) combined with the absence of shared causal variants has generated apparent contradiction. The Maccallini meta-GWAS provides resolution: glutamatergic synaptic genes are shared risk factors, but circuit-level expression diverges — prefrontal-limbic circuits in depression versus cortico-cerebellar and brainstem circuits in ME/CFS @Maccallini2026metaGWAS. The same glutamatergic variants thus produce clinically distinct conditions through brain-region-specific effects.
+
+(Certainty: 0.50)
+
+*Falsifiable prediction:* Brain-region-specific eQTL analysis will demonstrate that ME/CFS-associated glutamatergic variants have differential expression effects between cerebellum/brainstem and prefrontal cortex, while depression-associated variants show the opposite regional pattern.
+] <spec:depression-paradox-resolution>
+
+#open-question(title: [Cell-Type-Specific PRS for Biologically Coherent Subtyping])[
+The Maccallini meta-GWAS provides the first cell-type resolution of ME/CFS genetic architecture, with independent replicated signals in distinct neuronal populations of subcortical and cerebellar regions, a secondary signal in dopaminergic midbrain, and autophagy-related genes @Maccallini2026metaGWAS. Could polygenic risk scores stratified by functional category — neuronal (glutamatergic) PRS, autophagy/mitophagy PRS, immune PRS — define biologically coherent subtypes with distinct clinical features, treatment responses, and prognoses? This requires cell-type-specific eQTL reference panels and partitioned heritability analysis to determine whether genetic architecture partitions into separable biological dimensions or represents a single continuous liability distribution.
+
+*Key test:* Partitioned heritability analysis will show significant heterogeneity in PRS component loadings across individuals, with identifiable subgroups showing predominantly glutamatergic, autophagy, or immune genetic signatures.
+] <oq:cell-type-prs-subtyping>
+
+#speculation(title: [Serum Kynurenic Acid/Quinolinic Acid Ratio as Glutamate-Status Biomarker])[
+The kynurenine pathway bridges immune activation and glutamatergic neurotransmission. Pro-inflammatory cytokines activate indoleamine 2,3-dioxygenase (IDO), shunting tryptophan toward kynurenine metabolism rather than serotonin synthesis. Downstream, kynurenic acid (KYNA) acts as an NMDA receptor antagonist (neuroprotective), while quinolinic acid (QUIN) is an NMDA agonist (neurotoxic). The KA/QA ratio therefore reflects net glutamatergic tone: a low ratio predicts glutamatergic hyperexcitability @Maccallini2026metaGWAS. If ME/CFS involves glutamatergic dysregulation from genetically driven synaptic vulnerability, serum KA/QA ratio (HPLC-MS/MS) could serve as a peripheral proxy for central glutamatergic status, enabling treatment stratification for glutamatergic modulators (memantine, lamotrigine).
+
+(Certainty: 0.40)
+
+*Falsifiable prediction:* ME/CFS patients with low serum KA/QA ratio (< median of healthy distribution) will show greater clinical response to glutamatergic modulation (memantine) compared to high-KA/QA patients in a stratified randomised trial. Low KA/QA should also correlate with high glutamatergic PRS.
+] <spec:ka-qa-glutamate-biomarker>
 
 == Epigenetic Modifications
 <sec:epigenetics>
@@ -427,7 +494,7 @@ Histone proteins package DNA into nucleosomes, the fundamental units of chromati
 Evidence for altered histone modifications in ME/CFS comes primarily from studies of immune cells, where chromatin remodeling regulates immune activation, differentiation, and exhaustion states.
 
 #hypothesis(title: [Epigenetic Basis of T Cell Exhaustion])[
-T cell exhaustion—a state of progressive functional impairment occurring during chronic antigen exposure—involves characteristic epigenetic reprogramming that maintains exhaustion even after antigen removal. Exhausted T cells demonstrate specific histone modification patterns including reduced H3K27ac (active enhancer mark) at effector genes and increased H3K27me3 (repressive mark) at genes required for T cell function @iu2024tcell_exhaustion.
+*Certainty: 0.50.* T cell exhaustion—a state of progressive functional impairment occurring during chronic antigen exposure—involves characteristic epigenetic reprogramming that maintains exhaustion even after antigen removal. Exhausted T cells demonstrate specific histone modification patterns including reduced H3K27ac (active enhancer mark) at effector genes and increased H3K27me3 (repressive mark) at genes required for T cell function @iu2024tcell_exhaustion.
 
 If ME/CFS involves chronic T cell exhaustion as discussed in Chapter @ch:immune-dysfunction, the epigenetic signatures of exhaustion should be detectable. T cells from ME/CFS patients might show chromatin states characteristic of exhaustion: closed chromatin at effector cytokine loci (IFN-$gamma$, TNF-$alpha$), reduced accessibility at proliferation genes, and altered expression of exhaustion markers (PD-1, TIM-3, LAG-3). These epigenetic states would perpetuate T cell dysfunction even if the original triggering antigen is cleared, explaining chronicity and providing therapeutic targets (epigenetic modifying drugs might reverse exhaustion states).
 ]

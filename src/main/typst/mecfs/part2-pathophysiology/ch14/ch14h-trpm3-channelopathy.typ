@@ -110,7 +110,7 @@ If TRPM3 dysfunction is systemic, ME/CFS is fundamentally a *channelopathy*—a 
 === The “Wired but Tired” Ion Channel Explanation
 
 #hypothesis(title: [Bidirectional Channel Dysfunction Creates Paradoxical State])[
-The “wired but tired” phenomenon—feeling simultaneously exhausted and unable to relax—is a hallmark of ME/CFS. Ion channel dysfunction offers a mechanistic explanation:
+*Certainty: 0.40.* The “wired but tired” phenomenon—feeling simultaneously exhausted and unable to relax—is a hallmark of ME/CFS. Ion channel dysfunction offers a mechanistic explanation:
 
 *Proposed mechanism:*
 
@@ -216,7 +216,7 @@ TRPM3 function may require specific cofactors or post-translational modification
 === The Temperature Dysregulation Connection
 
 #hypothesis(title: [TRPM3 as the Missing Link in Thermoregulation])[
-ME/CFS patients commonly report:
+*Certainty: 0.35.* ME/CFS patients commonly report:
 
     - Feeling cold when ambient temperature is normal
     - Inability to regulate body temperature
@@ -1093,4 +1093,20 @@ This hypothesis predicts: (a) ME/CFS patients do not develop PD at elevated rate
 
 *Limitations.* No 7T LC neuromelanin imaging in ME/CFS. ME/CFS is not neurodegenerative — the functional pre-PD framing is provocative but requires imaging confirmation. Low CSF NE may have different mechanisms in the two conditions entirely (metabolic vs degenerative).
 ] <spec:functional-pre-pd>
+
+=== Cerebellar Cognitive-Affective Syndrome (CCAS) in ME/CFS
+
+#hypothesis(title: [Maccallini Cerebellar Signal Maps to CCAS Cognitive Phenotype])[
+Schmahmann's Cerebellar Cognitive-Affective Syndrome (CCAS) produces executive dysfunction, impaired working memory, blunted affect, and language difficulties — precisely the cognitive profile of ME/CFS. The Maccallini 2026 meta-GWAS provides genetic grounding for this reframing: independent replicated signals in cerebellar neuronal populations with glutamatergic synapses as the most specific replicated gene-set @Maccallini2026metaGWAS (Section @sec:maccallini-metagwas). The cerebellum, rather than being a secondary motor structure, is reframed as a cognitive epicentre whose dysfunction is genetically inscribed.
+
+*Proposed mechanism:* Glutamatergic synapse enrichment (genetically determined) → altered cerebellar circuit computation → disrupted cerebellar modulation of prefrontal and parietal cortical networks → CCAS triad. Cerebellar Purkinje cells are GABAergic but receive massive glutamatergic input from parallel fibres and climbing fibres; the glutamatergic enrichment may preferentially affect this input pathway, altering Purkinje cell output and disrupting cerebro-cerebellar loops. The cerebellum has among the highest metabolic demands per gram of any brain region, making cerebellar circuits — particularly Purkinje cells with their extensive dendritic arbours — disproportionately vulnerable to the energy deficits documented in ME/CFS, compounding the genetic vulnerability.
+
+*Falsifiable predictions.*
+- ME/CFS patients score ≥2 SD below age/education norms on ≥3 CCAS scale domains (validated Schmahmann battery), with deficits correlating with cerebellar polygenic risk score
+- Resting-state fMRI shows reduced cerebellar-cortical functional connectivity (Crus I/II to prefrontal cortex) during cognitive tasks
+- High-resolution 7T MRI reveals Purkinje cell layer abnormalities or volumetric changes in cerebellar lobules VI–VII (cognitive lobules)
+- Patients with highest glutamatergic PRS show greatest CCAS deficits
+
+*Limitations.* Maccallini cerebellar signal is tissue-level enrichment; cell-type resolution within cerebellum (Purkinje vs granule vs Golgi cells) not yet achieved. CCAS has not been systematically assessed in ME/CFS using the validated scale. Cerebellar MRI findings could also reflect the high metabolic vulnerability of cerebellum to systemic energy deficit rather than genetically driven circuit dysfunction — distinguishing these requires demonstrating CCAS deficits correlate with cerebellar PRS independently of metabolic markers. (Certainty: 0.50. 0.45→0.50: feed-into from glutamatergic synapse enrichment — glutamatergic synapse vulnerability specifically amplifies cerebellar circuit risk, providing convergent genetic support for the CCAS model @Maccallini2026metaGWAS.)
+] <hyp:ch14h-ccas-cerebellar>
 

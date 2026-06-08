@@ -115,21 +115,21 @@ Post-exertional malaise (PEM) represents a metabolic crisis in ME/CFS. The emerg
 - Discuss with physician before attempting, especially for severe patients.
 - May not prevent PEM in all cases; individual variation in response is expected.
 
- == Sigma-1 Receptor Mechanisms and Fluvoxamine Therapy
- <sec:sigma1-fluvoxamine>
+== Sigma-1 Receptor Mechanisms and Fluvoxamine Therapy
+<sec:sigma1-fluvoxamine>
 
- === Sigma-1 Receptor Biology and Mechanism
- <subsubsec:sigma1-mechanism>
+=== Sigma-1 Receptor Biology and Mechanism
+<subsubsec:sigma1-mechanism>
 
- The Sigma-1 receptor (S1R) is a unique chaperone protein located at the mitochondrial-associated ER membrane (MAM) that regulates calcium signalling, mitochondrial function, and cellular stress responses. S1R agonists like fluvoxamine have shown promise in ME/CFS due to their ability to modulate multiple dysregulated pathways simultaneously.
+The Sigma-1 receptor (S1R) is a unique chaperone protein located at the mitochondrial-associated ER membrane (MAM) that regulates calcium signalling, mitochondrial function, and cellular stress responses. S1R agonists like fluvoxamine have shown promise in ME/CFS due to their ability to modulate multiple dysregulated pathways simultaneously.
 
- *Mechanism of action:* S1R binds to IP3 receptors at MAMs, stabilising calcium transfer between ER and mitochondria. This regulation prevents calcium overload and mitochondrial permeability transition pore opening. In ME/CFS, where calcium dysregulation is documented across multiple cell types (TRPM3 channelopathy, impaired calcium handling), S1R agonism may restore normal calcium homeostasis.
+*Mechanism of action:* S1R binds to IP3 receptors at MAMs, stabilising calcium transfer between ER and mitochondria. This regulation prevents calcium overload and mitochondrial permeability transition pore opening. In ME/CFS, where calcium dysregulation is documented across multiple cell types (TRPM3 channelopathy, impaired calcium handling), S1R agonism may restore normal calcium homeostasis.
 
- *Therapeutic implications:* Fluvoxamine, at doses effective for ME/CFS (50–100 mg), acts primarily as an S1R agonist rather than as an antidepressant. Clinical observations suggest efficacy in PEM reduction, cognitive symptoms, and sleep disruption, likely through restoration of calcium-dependent processes in neurons, immune cells, and mitochondria.
+*Therapeutic implications:* Fluvoxamine, at doses effective for ME/CFS (50–100 mg), acts primarily as an S1R agonist rather than as an antidepressant. Clinical observations suggest efficacy in PEM reduction, cognitive symptoms, and sleep disruption, likely through restoration of calcium-dependent processes in neurons, immune cells, and mitochondria.
 
- *Evidence status:* While RCT evidence in ME/CFS is pending, fluvoxamine has shown benefit in acute COVID-19 for preventing clinical deterioration, establishing S1R mechanism in infectious contexts. Case reports and small series in ME/CFS show promise but lack controlled validation.
+*Evidence status:* While RCT evidence in ME/CFS is pending, fluvoxamine has shown benefit in acute COVID-19 for preventing clinical deterioration, establishing S1R mechanism in infectious contexts. Case reports and small series in ME/CFS show promise but lack controlled validation.
 
- *Certainty:* 0.40 (moderate mechanistic plausibility with limited clinical validation)
+*Certainty:* 0.40 (moderate mechanistic plausibility with limited clinical validation)
 
 === Sodium-Calcium Cycle Correction for AIMM
 <sec:mdc002>
@@ -191,7 +191,7 @@ The intervention targets the proposed AIMM mechanism, but direct validation in M
 
 ] <prop:mdc002>
 
- == Open Questions
+== Open Questions
 
 #open-question(title: [Does Immune-Targeted Therapy Require Endotype Stratification?])[
 Petrov et al.\ achieved only moderate discrimination between ME/CFS and long COVID using composite immune markers, suggesting significant within-group heterogeneity and overlapping distributions between the two conditions @Petrov2026monocyteDC. If ME/CFS encompasses multiple discrete immune endotypes (CCR7-predominant defect, CD80-predominant defect, combined defect, checkpoint-dominant exhaustion), treating all patients with a single immune-restorative strategy would dilute effect sizes and risk exacerbating the wrong pathway. However, the alternative — that immune variation in ME/CFS is continuous and multidimensional with no natural clustering — is equally consistent with the data and would argue against categorical endotype-based trial designs. Single-cell immunophenotyping to identify whether discrete endotypes actually exist — and whether they predict differential treatment response — may be a prerequisite for rational immune-targeted trial design.
@@ -804,5 +804,18 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 
 *Testable prediction.* AUC of EPO response over 48~h is ≥40% lower in ME/CFS vs age/sex-matched healthy controls. Abnormal test (>2 SD below control mean) identifies a HIF-inert ME/CFS subtype with distinct clinical features (worse orthostatic intolerance, lower CBFv, steeper PEM gradient).
 ] <spec:epo-stimulation-test>
+
+== Glutamatergic Modulators
+<sec:glutamatergic-modulators>
+
+#speculation(title: [Memantine for Glutamatergic PRS-Positive ME/CFS])[
+*Certainty: 0.45.* Low-dose memantine (5-10 mg daily) — a non-competitive NMDA receptor antagonist FDA-approved for Alzheimer's disease — may normalise glutamatergic signalling in patients with high glutamatergic PRS. If glutamatergic hyperexcitability drives E/I imbalance in ME/CFS (Hypothesis @hyp:glutamatergic-synaptic-dysfunction), NMDA blockade could reduce excitotoxic signalling and restore cortical excitability toward normal range @Maccallini2026metaGWAS.
+
+*Stratification:* Genotype-guided — high glutamatergic PRS (neuronal gene set) predicts response; patients with low glutamatergic PRS or primarily immune/autophagy genetic architecture are unlikely to benefit and may experience side effects without therapeutic gain.
+
+*Safety note (no human ME/CFS data):* No controlled trials of memantine exist in ME/CFS. Side effects include dizziness, confusion, sedation, and headache. In ME/CFS, brain fog worsening is a particular concern — start 2.5 mg daily and titrate slowly (increase by 2.5 mg every 2 weeks) to minimise cognitive side effects. Contraindicated in severe renal impairment (CrCl < 30 mL/min). Memantine is not CYP-metabolised; minimal interactions expected with LDN, fludrocortisone, midodrine.
+
+*Falsifiable prediction:* 12-week RCT of memantine 5-10 mg daily vs placebo in ME/CFS stratified by glutamatergic PRS will show significant improvement in cognitive processing speed and PEM frequency only in the high-PRS subgroup (PRS > 75th percentile). The low-PRS subgroup will show no benefit or worsening.
+] <spec:memantine-glutamate>
 
 #include "ch18-brain-clearance-drugs.typ"
