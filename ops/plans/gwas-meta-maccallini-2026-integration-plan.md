@@ -25,15 +25,15 @@ Integrate the largest ME/CFS GWAS/WGS meta-analysis to date (Maccallini 2026, 19
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|-------------------|------|-----------|--------|-------|
-| 1 | Glutamatergic synapse as genetically-driven core mechanism | 1 | 0.80 | ⬜ pending | Bonferroni-replicated across DecodeME + MVP |
-| 2 | Brain-first genetic model (no peripheral enrichment) | 1 | 0.75 | ⬜ pending | Tissue enrichment — multiple brain regions + pituitary |
-| 3 | Subcortical + cerebellar neuron vulnerability loci | 1 | 0.70 | ⬜ pending | Cell-type specific signals |
-| 4 | GWAS-WGS convergence strengthens causal inference | 1 | 0.65 | ⬜ pending | Common + rare variant concordance |
-| 5 | GWAS → E/I imbalance genetic anchoring | 1 | 0.60 | ⬜ pending | Cross-paper synthesis with Wirth/Scheibenbogen |
-| 6 | Astrocytic GABA-glutamate cycling disruption | 2 | 0.50 | ⬜ pending | Brain tissue enrichment of GWAS hits |
-| 7 | Dopaminergic midbrain secondary vulnerability | 2 | 0.55 | ⬜ pending | VTA/SN enrichment |
-| 8 | Pituitary → HPA = downstream, not primary | 2 | 0.50 | ⬜ pending | Tissue enrichment interpretation |
-| 9–16 | (see brainstorm: 57 ideas across 9 categories) | varies | varies | ⬜ pending | `content-staging/brainstorm-gwas-meta-maccallini-2026-2026-06-08.md` |
+| 1 | Glutamatergic synapse as genetically-driven core mechanism | 1 | 0.60 | ✅ done | @hyp:glutamatergic-synaptic-dysfunction in ch12; registry entry; cert lowered 0.80→0.60 (preprint) |
+| 2 | Brain-first genetic model (no peripheral enrichment) | 1 | 0.55 | ✅ done | @hyp:brain-first-genetic in ch12; registry entry; cert lowered 0.75→0.55 (preprint + annotation bias caveats) |
+| 3 | Subcortical + cerebellar neuron vulnerability loci | 1 | 0.50 | ✅ done | Regional neuronal enrichment noted in @ach:maccallini-metagwas; CCAS hyp @hyp:ch14h-ccas-cerebellar in ch14h |
+| 4 | GWAS-WGS convergence strengthens causal inference | 1 | 0.55 | ✅ done | Registry entry; Birch2025rare cited in ch12 achievement + GWAS-WGS convergence hypothesis |
+| 5 | GWAS → E/I imbalance genetic anchoring | 1 | 0.60 | ✅ done | Registry entry; cross-referenced in ch12 glutamatergic hypothesis + ch14d cross-disease |
+| 6 | Astrocytic GABA-glutamate cycling disruption | 2 | 0.50 | ↩️ parked | Not yet integrated inline; speculative secondary signal behind glutamatergic core |
+| 7 | Dopaminergic midbrain secondary vulnerability | 2 | 0.55 | ↩️ parked | Noted in achievement; no dedicated hypothesis created; deferred as secondary signal |
+| 8 | Pituitary → HPA = downstream, not primary | 2 | 0.50 | ↩️ parked | Noted in achievement + brain-first model; explicit spec not written; HPA downstream framing already present |
+| 9–65 | (see brainstorm: 57 ideas across 9 categories) | varies | varies | varies | ~12 integrated; ~45 ↩️ parked in subtree for future cycles |
 
 ## Phase Status
 | Phase | Status | Details |

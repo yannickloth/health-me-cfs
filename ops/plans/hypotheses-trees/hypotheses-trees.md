@@ -249,7 +249,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | noradrenergic-deficiency | [subtrees/noradrenergic-deficiency.md](subtrees/noradrenergic-deficiency.md) | 2026-06-07 | 28 | 4 | 🔵 in progress |
 | tinnitus | [subtrees/tinnitus.md](subtrees/tinnitus.md) | 2026-06-07 | 0 | 0 | ⬜ stub |
 | visual-dysfunction | [subtrees/visual-dysfunction.md](subtrees/visual-dysfunction.md) | 2026-06-07 | 0 | 0 | ⬜ stub |
-| gwas-meta-maccallini-2026 | [subtrees/gwas-meta-maccallini-2026.md](subtrees/gwas-meta-maccallini-2026.md) | 2026-06-08 | 57 | 0 | 🔵 in progress |
+| gwas-meta-maccallini-2026 | [subtrees/gwas-meta-maccallini-2026.md](subtrees/gwas-meta-maccallini-2026.md) | 2026-06-08 | 57 | 14 | ✅ done |
 
 ---
 ## 2026 Literature Scan Notes
