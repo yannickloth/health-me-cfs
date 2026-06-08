@@ -154,7 +154,7 @@
 **Target chapters:** ch06, ch05, ch14h, ch21
 **Relevance score:** mech:5 tx:1 expl:5 math:4 dx:3
 **Pre-identified hypotheses:** Glutamatergic synaptic dysfunction as genetically-driven core mechanism — dovetails with E/I imbalance (Wirth/Scheibenbogen); subcortical + cerebellar neuron populations as ME/CFS vulnerability loci; no peripheral tissue enrichment → brain-first genetic model; convergence of common + rare variant data strengthens causal inference
-**Status:** ⬜
+**Status:** 🔵
 
 ---
 
