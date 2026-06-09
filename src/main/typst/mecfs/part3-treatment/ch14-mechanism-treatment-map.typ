@@ -5,7 +5,7 @@
 
 This chapter serves as the navigational entry point to Part III. It answers a single question: *for each known ME/CFS mechanism, what treatment options exist?*
 
-The map is organised by causal tier, as established in Chapter @ch:causal-hierarchy. Tier 1 mechanisms are those with evidence of trigger-capability — they can initiate ME/CFS independently from a healthy baseline. Tier 2 mechanisms are amplifiers: real, documented processes that worsen or perpetuate disease but cannot initiate it alone. The distinction matters therapeutically: *in theory*, addressing Tier 1 mechanisms could produce remission in some patients; addressing Tier 2 mechanisms primarily reduces disease burden and prevents further deterioration. This is the *theoretical expectation* of the causal model — no controlled trial has yet demonstrated durable remission from any Tier 1-targeted intervention.
+The map is organized by causal tier, as established in Chapter @ch:causal-hierarchy. Tier 1 mechanisms are those with evidence of trigger-capability — they can initiate ME/CFS independently from a healthy baseline. Tier 2 mechanisms are amplifiers: real, documented processes that worsen or perpetuate disease but cannot initiate it alone. The distinction matters therapeutically: *in theory*, addressing Tier 1 mechanisms could produce remission in some patients; addressing Tier 2 mechanisms primarily reduces disease burden and prevents further deterioration. This is the *theoretical expectation* of the causal model — no controlled trial has yet demonstrated durable remission from any Tier 1-targeted intervention.
 
 #key-point(title: [How to Use This Chapter])[
 *For clinicians and patients*, this chapter functions as a diagnostic checklist. The overview table below (@tab:mechanism-overview) shows all mechanisms at a glance with their tier, treatment priority, and coverage count. For each active mechanism, proceed to the corresponding section for the full treatment list. Guidance on how to assess which mechanisms are active in a given patient is in Chapter @ch:integrative-treatment (phenotyping protocol, Section @sec:phenotyping-imperative).
@@ -64,7 +64,7 @@ These are the mechanisms for which there is evidence of independent disease-init
 === GPCR Autoantibody Cascade
 <sec:map-gpcr>
 
-Autoantibodies against β2-adrenergic receptors and muscarinic M3/M4 receptors are hypothesised to drive endothelial dysfunction, autonomic dysregulation, and neuroinflammation. Prevalence estimates range 29–91% across studies — a spread reflecting assay heterogeneity and varying cut-offs rather than a stable biomarker @Scheibenbogen2018immunoadsorption; @Loebel2016. Uncontrolled immunoadsorption series show high response rates (~70%), but controlled RCTs of rituximab, efgartigimod, and plasma exchange targeting the same mechanism have all returned negative primary endpoints. The mechanistic hypothesis remains plausible and clinically important; it has not yet been confirmed by a positive sham-controlled trial.
+Autoantibodies against β2-adrenergic receptors and muscarinic M3/M4 receptors are hypothesized to drive endothelial dysfunction, autonomic dysregulation, and neuroinflammation. Prevalence estimates range 29–91% across studies — a spread reflecting assay heterogeneity and varying cut-offs rather than a stable biomarker @Scheibenbogen2018immunoadsorption; @Loebel2016. Uncontrolled immunoadsorption series show high response rates (~70%), but controlled RCTs of rituximab, efgartigimod, and plasma exchange targeting the same mechanism have all returned negative primary endpoints. The mechanistic hypothesis remains plausible and clinically important; it has not yet been confirmed by a positive sham-controlled trial.
 
 #figure(
   table(
@@ -74,7 +74,7 @@ Autoantibodies against β2-adrenergic receptors and muscarinic M3/M4 receptors a
 
     [Immunoadsorption], [IgG + EV depletion], [Procedure], [C], [Trial — ~70% response @Scheibenbogen2018immunoadsorption],
     [Daratumumab], [CD38+ plasma cell depletion], [Biologic], [C], [Trial — ~60% response, 8–9 mo latency],
-    [BC007], [β2-AR autoantibody neutralisation], [Biologic], [C], [Phase I/II],
+    [BC007], [β2-AR autoantibody neutralization], [Biologic], [C], [Phase I/II],
     [Rituximab], [Anti-CD20 B-cell depletion], [Biologic], [C], [Trial — RCT negative overall; subset signal],
     [Efgartigimod], [FcRn blocker → IgG half-life ↓], [Biologic], [C], [Trial — Phase 2 RCT _negative_],
     [Plasma exchange (TPE)], [Autoantibody + mediator removal], [Procedure], [C], [Trial — Phase 2 RCT _negative_],
@@ -87,7 +87,7 @@ Autoantibodies against β2-adrenergic receptors and muscarinic M3/M4 receptors a
 === TRPM3 Channelopathy
 <sec:map-trpm3>
 
-Post-viral dysfunction of the TRPM3 calcium channel impairs NK cell function, neuronal signalling, vascular tone regulation, and pancreatic insulin secretion. The 2026 Sasso multi-site study confirmed this as a consistent finding. LDN's restoration of TRPM3-like ionic currents in NK cells from ME/CFS patients has been demonstrated in vitro @Cabanas2021.
+Post-viral dysfunction of the TRPM3 calcium channel impairs NK cell function, neuronal signaling, vascular tone regulation, and pancreatic insulin secretion. The 2026 Sasso multi-site study (internal NCNED network validation) replicated this finding; independent replication by groups outside this collaboration remains pending. LDN's restoration of TRPM3-like ionic currents in NK cells from ME/CFS patients has been demonstrated in vitro @Cabanas2021.
 
 #figure(
   table(
@@ -105,7 +105,7 @@ Post-viral dysfunction of the TRPM3 calcium channel impairs NK cell function, ne
 === CNS Energy Crisis
 <sec:map-cns-energy>
 
-Central nervous system hypometabolism driven by neuroinflammation, neurovascular uncoupling, or direct mitochondrial dysfunction. Supported by PET/SPECT hypometabolism studies and CSF catecholamine precursor deficits @Walitt2024NIH, with follow-up demonstrating selective central noradrenergic (not dopaminergic) deficiency @Aregawi2026Noradrenergic. Note: that study's authors interpret the findings in terms of altered effort signalling rather than primary metabolic pathology; the "energy crisis" framing is one valid reading of the data, not the only one. The CNS energy crisis produces downstream autonomic dysfunction, immune dyscoordination, endocrine disruption, and sleep fragmentation.
+Central nervous system hypometabolism driven by neuroinflammation, neurovascular uncoupling, or direct mitochondrial dysfunction. Supported by PET/SPECT hypometabolism studies and CSF catecholamine precursor deficits @Walitt2024NIH, with follow-up demonstrating selective central noradrenergic (not dopaminergic) deficiency @Aregawi2026Noradrenergic. Note: that study's authors interpret the findings in terms of altered effort signaling rather than primary metabolic pathology; the "energy crisis" framing is one valid reading of the data, not the only one. The CNS energy crisis produces downstream autonomic dysfunction, immune dyscoordination, endocrine disruption, and sleep fragmentation.
 
 #figure(
   table(
@@ -126,8 +126,8 @@ Central nervous system hypometabolism driven by neuroinflammation, neurovascular
     [Nicotine (transdermal)], [α7-nAChR → cholinergic anti-inflammatory pathway], [Neuromodulation], [B], [Experimental (n=4 case series)],
     [Pembrolizumab], [PD-1 checkpoint → T-cell exhaustion reversal], [Biologic], [C], [Phase 1 (Long COVID, n=15)],
     [Psilocybin], [5-HT2A, DMN reset, kynurenine pathway (speculative)], [Psychedelic], [B], [Experimental; no ME/CFS RCT],
-    [Temelimab], [HERV-W ENV neutralisation → neuroinflammation ↓], [Biologic], [C], [Trial — Phase 2 RCT _negative_],
-    [Far-infrared sauna (Waon therapy)], [CBF ↑, mitochondrial function ↑ (Hochecker 2025), autophagy normalisation], [Physical], [A/B], [Small uncontrolled pilots (n=9-10); caution with POTS; HSAT2 risk uncharacterised],
+    [Temelimab], [HERV-W ENV neutralization → neuroinflammation ↓], [Biologic], [C], [Trial — Phase 2 RCT _negative_],
+    [Far-infrared sauna (Waon therapy)], [CBF ↑, mitochondrial function ↑ (Hochecker 2025), autophagy normalization], [Physical], [A/B], [Small uncontrolled pilots (n=9-10); caution with POTS; HSAT2 risk uncharacterized],
   ),
   caption: [Treatments targeting CNS energy crisis],
   kind: table,
@@ -146,9 +146,9 @@ An evolutionarily conserved metabolic suppression programme — initiated by inf
 
     [MDC002 (Mitodicure)], [Ion homeostasis restoration → AIMM reversal], [Medication], [A#super[\*]], [Phase I — safety only; no efficacy data; not prescribable],
     [NAD⁺ precursors (NR/NMN)], [Kynurenine bypass + PARP substrate replenishment], [Supplement], [A], [Clinical use; emerging Long COVID data],
-    [Rapamycin (sirolimus)], [mTORC1 inhibition → ATG13 dephosphorylation → autophagy/mitophagy restored; SASP suppression via IL-1α→NF-κB block @Laberge2015SASP], [Medication], [B/C], [Pilot — Ruan 2025 n=86 uncontrolled @Ruan2025rapamycin; ~34% ITT response; RCT needed],
-    [Metformin], [AMPK activation → mTORC1 inhibition + mitochondrial biogenesis; AMPK rescue in ME/CFS myotubes @Brown2018AMPK], [Medication], [B], [Off-label; studied in Long COVID; Fineberg 2025 perspective @Fineberg2025Metformin],
-    [Berberine], [AMPK activation (Complex I inhibition) → mTORC1 suppression], [Supplement], [B], [Experimental; _caution_ — AMPK role may be protective],
+    [Rapamycin (sirolimus)], [mTORC1 inhibition → ATG13 dephosphorylation → autophagy/mitophagy restored; SASP suppression via IL-1α→NF-κB block @Laberge2015SASP (see also @sec:map-cross-tier)], [Medication], [B/C], [Pilot — Ruan 2025 n=86 uncontrolled @Ruan2025rapamycin; ~34% ITT response; RCT needed],
+    [Metformin], [AMPK activation → mTORC1 inhibition + mitochondrial biogenesis; AMPK rescue in ME/CFS myotubes @Brown2018AMPK], [Medication], [B], [Off-label; Long COVID RCT null for established fatigue (REVIVE-TOGETHER); prevention signal (COVID-OUT); Fineberg 2025 perspective @Fineberg2025Metformin],
+    [Berberine], [AMPK activation (Complex I inhibition) → mTORC1 suppression], [Supplement], [B], [Experimental; _caution_ — AMPK role may be protective (same caveat applies to metformin given shared AMPK mechanism)],
     [Ketogenic diet], [Ketone bodies bypass glycolytic bottlenecks; NAD⁺-dependent OXPHOS ↑], [Dietary], [A], [Feasibility study; no outcome improvement shown],
     [5-HTP], [IDO bypass → direct serotonin precursor], [Supplement], [B], [Clinical; _serotonin syndrome risk_ with SSRIs/SNRIs/MAOIs],
     [Thiamine (TTFD form)], [PDH cofactor; restores pyruvate → acetyl-CoA flux], [Supplement], [A], [Clinical; TTFD form preferred for BBB crossing],
@@ -188,7 +188,7 @@ PARP hyperactivation from oxidative damage, CD38-mediated consumption by immune 
 === Oxidative Stress Vicious Cycle
 <sec:map-oxidative>
 
-Reactive oxygen species peroxidise cardiolipin, destabilising ETC supercomplexes and causing further electron leak — a self-amplifying loop. Elevated lipid peroxidation, 8-isoprostanes, and protein carbonyls are documented in ME/CFS @Maes2009CoQ10.
+Reactive oxygen species peroxidize cardiolipin, destabilising ETC supercomplexes and causing further electron leak — a self-amplifying loop. Elevated lipid peroxidation, 8-isoprostanes, and protein carbonyls are documented in ME/CFS @Maes2009CoQ10.
 
 #figure(
   table(
@@ -200,7 +200,7 @@ Reactive oxygen species peroxidise cardiolipin, destabilising ETC supercomplexes
     [NAC (N-acetyl cysteine)], [Glutathione precursor; ROS scavenger], [Supplement], [A], [Clinical use],
     [Alpha-lipoic acid (ALA)], [Nrf2 activator; mitochondrial antioxidant; start low (paradoxical worsening risk)], [Supplement], [A/B], [Clinical use],
     [Omega-3 (EPA/DHA)], [Membrane lipid protection; cardiolipin preservation], [Supplement], [A], [Clinical use],
-    [Quercetin], [Nrf2 activator; mast cell stabiliser], [Supplement], [A/B], [Clinical use],
+    [Quercetin], [Nrf2 activator; mast cell stabilizer], [Supplement], [A/B], [Clinical use],
     [Curcumin], [NF-κB inhibition; Nrf2 activation (bioavailability issue)], [Supplement], [A/B], [Clinical use; enhanced formulation required],
     [Vitamin D3], [Immune regulation + antioxidant response], [Supplement], [A], [Clinical; target 40–60 ng/mL],
     [Zinc (glycinate)], [SOD cofactor; gut barrier + antioxidant], [Supplement], [A], [Clinical use],
@@ -226,10 +226,10 @@ Bidirectional activation: mast cell mediators worsen energy state; energy failur
 
     [H1 antihistamines (cetirizine, loratadine)], [H1 receptor blockade], [Medication], [B], [Clinical],
     [H2 antihistamines (famotidine, cimetidine)], [H2 blockade + immune modulation], [Medication], [B], [Clinical],
-    [Cromolyn sodium], [Mast cell stabiliser; degranulation inhibition], [Medication], [B], [Clinical, off-label],
-    [Ketotifen], [Mast cell stabiliser + H1 blocker], [Medication], [B], [Clinical, off-label],
-    [Quercetin], [Mast cell stabiliser; Nrf2], [Supplement], [A/B], [Clinical use],
-    [PEA], [PPAR-α → mast cell membrane stabilisation], [Supplement], [B], [Clinical, off-label],
+    [Cromolyn sodium], [Mast cell stabilizer; degranulation inhibition], [Medication], [B], [Clinical, off-label],
+    [Ketotifen], [Mast cell stabilizer + H1 blocker], [Medication], [B], [Clinical, off-label],
+    [Quercetin], [Mast cell stabilizer; Nrf2], [Supplement], [A/B], [Clinical use],
+    [PEA], [PPAR-α → mast cell membrane stabilization], [Supplement], [B], [Clinical, off-label],
     [Amitriptyline (low-dose)], [Mast cell mediator inhibition + sleep], [Medication], [B], [Clinical],
     [Low-histamine diet], [Reduced histamine load; degranulation triggers ↓], [Dietary], [A], [Lifestyle; 2–4 week trial recommended],
   ),
@@ -303,9 +303,9 @@ Orthostatic intolerance, POTS, impaired cerebral autoregulation, and parasympath
     [Guanfacine], [α2A-AR agonism → sympathetic ↓; prefrontal cortex ↑], [Medication], [B], [Experimental; no RCT],
     [Nicotine (transdermal)], [α7-nAChR → cholinergic anti-inflammatory + ANS], [Neuromodulation], [B], [Experimental (n=4)],
     [Acupuncture], [ANS modulation; HRV ↑; NF-κB ↓], [Physical], [A/B], [Pilot RCTs; symptom-focused evidence],
-    [Far-infrared sauna (Waon)], [CBF ↑; vascular function ↑; mitochondrial O₂ consumption ↑ (Hochecker 2025)], [Physical], [A/B], [Small uncontrolled pilots (n=9-10); _caution in severe dysautonomia_; HSAT2 risk uncharacterised],
+    [Far-infrared sauna (Waon)], [CBF ↑; vascular function ↑; mitochondrial O₂ consumption ↑ (Hochecker 2025)], [Physical], [A/B], [Small uncontrolled pilots (n=9-10); _caution in severe dysautonomia_; HSAT2 risk uncharacterized],
     [Cold water immersion / cryotherapy], [ANS reset; sympathetic recalibration], [Physical], [A/B], [Pilot n=32; _safety caution in POTS/dysautonomia_],
-    [Taurine], [Mitochondrial membrane stabilisation; autonomic support], [Supplement], [A], [Clinical use],
+    [Taurine], [Mitochondrial membrane stabilization; autonomic support], [Supplement], [A], [Clinical use],
     [Magnesium (glycinate/taurate)], [NMDA modulation; 300+ enzyme cofactor; ANS support], [Supplement], [A], [Clinical; moderate evidence],
   ),
   caption: [Treatments targeting dysautonomia and ANS dysfunction],
@@ -339,7 +339,7 @@ Butyrate-producer depletion → intestinal permeability ↑ → LPS translocatio
 === Epigenetic Consolidation
 <sec:map-epigenetic>
 
-DNA methylation changes and histone modifications observed in ME/CFS patients may stabilise disease-promoting gene expression patterns. This is a hypothesis, not a confirmed mechanism: the observed methylation differences are cross-sectional and could reflect consequences of illness state, medication, or activity level rather than causal drivers @Trivedi2018methylation. If valid, this mechanism would help explain why some patients who partially respond to Tier 1 interventions do not fully recover. A falsifiable prediction: methylation-stratified treatment trials should show that patients with high "consolidation signatures" fail treatments that low-signature patients respond to.
+DNA methylation changes and histone modifications observed in ME/CFS patients may stabilize disease-promoting gene expression patterns. This is a hypothesis, not a confirmed mechanism: the observed methylation differences are cross-sectional and could reflect consequences of illness state, medication, or activity level rather than causal drivers @Trivedi2018methylation. If valid, this mechanism would help explain why some patients who partially respond to Tier 1 interventions do not fully recover. A falsifiable prediction: methylation-stratified treatment trials should show that patients with high "consolidation signatures" fail treatments that low-signature patients respond to.
 
 #figure(
   table(
@@ -385,21 +385,21 @@ Some interventions target multiple mechanisms simultaneously, or address disease
     [*Treatment*], [*Primary targets*], [*Energy*], [*Evidence*],
 
     [Pacing / energy envelope management], [Prevents Tier 2 amplification cascade; avoids PEM-driven worsening], [A], [Core clinical practice; validated by 2-day CPET @keller2024cpet],
-    [Sleep optimisation (environment + schedule)], [Tiers 1+2: CNS recovery, immune regulation, ANS restoration], [A], [Clinical consensus],
+    [Sleep optimization (environment + schedule)], [Tiers 1+2: CNS recovery, immune regulation, ANS restoration], [A], [Clinical consensus],
     [CPAP (if OSA comorbid)], [Tier 2: sleep fragmentation ↓; dysautonomia ↓; treats comorbidity only], [A/B], [Clinical; does _not_ resolve core ME/CFS],
     [Mediterranean / anti-inflammatory diet], [Tier 2: oxidative stress ↓, gut barrier ↑, mast cell load ↓], [A], [Lifestyle; no ME/CFS RCT],
     [MCT oil], [Ketone substrate; bypasses glycolytic bottleneck], [A], [Supplement; no ME/CFS RCT],
     [Rapamycin (sirolimus)], [Tier 1 (immune brake) + Tier 2 (mitophagy, epigenetic aging ↓)], [B/C], [Pilot — ~34% ITT response],
     [GLP-1 agonists (semaglutide)], [Neuroinflammation ↓ + metabolic + vagal tone], [B/C], [Experimental; Long COVID signal],
     [LOLA (L-ornithine L-aspartate)], [Ammonia detoxification + mitochondrial substrate], [A/B], [Experimental],
-    [Perrin technique (lymphatic drainage)], [Glymphatic clearance of CNS neurotoxins; ANS normalisation], [A], [Very low evidence; mechanistically plausible],
-    [CA inhibitors (acetazolamide / topiramate)], [CSF volume reduction / intracranial pressure normalisation; topiramate adds TRPV1–mast cell modulation], [B/C], [IIH Class I evidence (acetazolamide); no ME/CFS trial; cognitive worsening concern @Mitchell2025drugComparison; @Medow2024acetazolamideMECFS; see @sec:csf-drainage-synergy],
+    [Perrin technique (lymphatic drainage)], [Glymphatic clearance of CNS neurotoxins; ANS normalization], [A], [Very low evidence; mechanistically plausible],
+    [CA inhibitors (acetazolamide / topiramate)], [CSF volume reduction / intracranial pressure normalization; topiramate adds TRPV1–mast cell modulation], [B/C], [IIH Class I evidence (acetazolamide); no ME/CFS trial; cognitive worsening concern @Mitchell2025drugComparison; @Medow2024acetazolamideMECFS; see @sec:csf-drainage-synergy],
     [Acupuncture], [ANS, neuroinflammation, pain; see @sec:map-dysautonomia], [A/B], [Pilot RCTs],
     [Melatonin], [Sleep + antioxidant + immune modulation; start 0.5 mg — higher doses may worsen sleep], [A/B], [Clinical use],
     [B-vitamin complex (B1, B2, B6, B9, B12)], [Methylation; mitochondrial cofactors; neurotransmitter synthesis], [A], [Clinical use; MTHFR genotype relevant for B9/B12],
     [Tocilizumab (anti-IL-6R)], [Cytokine dysregulation (Tier 1/2 boundary)], [C], [Off-label; _1 case report only_],
     [Amifampridin (3,4-DAP)], [Neuromuscular junction; voltage-gated Ca²⁺ channel modulation], [B], [Experimental],
-    [Graded motor imagery / mirror therapy], [Central sensitisation; pain-movement coupling (strong evidence in CRPS; no ME/CFS RCT)], [A], [High in CRPS; _absent in ME/CFS_],
+    [Graded motor imagery / mirror therapy], [Central sensitization; pain-movement coupling (strong evidence in CRPS; no ME/CFS RCT)], [A], [High in CRPS; _absent in ME/CFS_],
   ),
   caption: [Cross-tier and mechanism-agnostic interventions],
   kind: table,
@@ -469,6 +469,6 @@ Based on the coverage analysis above, the following research directions offer th
 2. *TRPM3 agonist trials:* Controlled trial of pregnenolone sulfate as a direct TRPM3 agonist, stratified by TRPM3 function assay (patch-clamp NK cell assessment)
 3. *tVNS RCT in ME/CFS:* Escalate from Long COVID feasibility data to a dedicated ME/CFS sham-controlled RCT targeting both ANS and neuroinflammatory outcomes
 4. *rTMS with adapted protocol:* Sham-controlled RCT addressing the retention challenge identified in the 2025 Corlier pilot (home-based or reduced session frequency design)
-5. *Rapamycin biomarker-stratified trial:* Enrich for mTOR-activation signature or epigenetic aging score to identify the responder subpopulation within the ~34% ITT signal
+5. *Rapamycin biomarker-stratified trial:* Enrich for mTOR-activation signature or epigenetic aging score to identify the responder subpopulation within the ~34% ITT signal. The pSer258-ATG13/total ATG13 ratio (`@spec:mTOR-tone-index` in Chapter @ch:energy-metabolism, Section @sec:mTOR-AMPK-autophagy-balance) is the mechanistically most proximal candidate enrichment biomarker — it measures mTORC1 activity directly at the autophagy gate rather than through distant readouts (e.g., pS6K) or non-specific proxies (epigenetic clocks).
 6. *Combination Tier 1 targeting:* Assess whether simultaneous targeting of two Tier 1 mechanisms (e.g., immunoadsorption + LDN for GPCR + TRPM3) produces additive benefit
 ]
