@@ -20993,7 +20993,7 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
         - Senescence markers (SA-β-gal) unaffected by rapamycin
         - SASP suppression without eliminating senescent cells (senomorphic effect)
     *Conclusion:*: Rapamycin reduces specific SASP components without affecting senescence itself. Supports mTOR as senomorphic target.
-    *Limitations:*: In vitro only; single cell type; screening platform optimisation study.
+    *Limitations:*: In vitro only; single cell type; screening platform optimization study.
     *Certainty:*: 0.55
 
 === Mannick & Lamming 2023 — Targeting Aging with mTOR Inhibitors
