@@ -53,10 +53,7 @@
 | 5 — Build verification | ✅ done | Single-file syntax verified clean; pre-existing full-build failure unrelated |
 | 6 — Review convergence | ✅ done | 6a: 1 round (3 citation fixes); 6b: 6 personas, 34 findings, top 5 fixed (IC50 gap, IgE contradiction, Basselin LPS-dependence, clinical risks, GSK-3β null hypothesis); 6c: 0 findings |
 | 7 — Changelog | ✅ done | Entry added to Version 11 |
-| 8 — Commit | ✅ done | 8bd14fd |
-| 6 — Review | ✅ done | Self-review: open-question structure balanced (complete mechanistic chain + explicit "no direct support" caveat + testable predictions) |
-| 7 — Changelog | ✅ done | Entry added to Version 11 |
-| 8 — Commit | ⬜ pending | One commit per convention |
+| 8 — Commit | ✅ done | 8bd14fd + 64c841a (adversarial fixes + SPM combined) |
 
 ## Notes
 

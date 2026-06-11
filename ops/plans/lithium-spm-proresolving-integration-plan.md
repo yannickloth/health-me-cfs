@@ -30,11 +30,11 @@
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|------------------|------|-----------|--------|-------|
-| 1 | Li⁺ enhances SPM biosynthesis (resolvin D1, protectin D1, maresin 1) | 1 | 0.15 | 🔵 in progress | Toricelli IL-10↑ as resolvin hallmark (inferential — SPMs not directly measured); SPM GPCRs nM-pM affinity |
-| 2 | Lithium shifts microglial phenotype via SPM receptor signaling | 2 | 0.15 | ⬜ pending | ChemR23/GPR32/ALX activation → pro-resolving phenotype (M1/M2 nomenclature oversimplified; use activation spectrum) |
-| 3 | SPM biosynthesis pathway as resolution biology target for ME/CFS | 2 | 0.15 | ⬜ pending | Under-covered area in ME/CFS inflammation literature |
-| 4 | Lithium + omega-3 (resolvin precursor) synergy | 3 | 0.12 | ⬜ pending | EPA/DHA as resolvin substrate; Li enhances conversion |
-| 5 | Delayed lithium onset reflects resolution program kinetics | 3 | 0.12 | ⬜ pending | Resolution is enzymatic cascade requiring days to engage |
+| 1 | Li⁺ enhances SPM biosynthesis (resolvin D1, protectin D1, maresin 1) | 1 | 0.15 | ✅ done | Integrated as paragraph in ch17 Family 19; Basselin LPS-dependence + GSK-3β null hypothesis caveats added per adversarial review |
+| 2 | Lithium shifts microglial phenotype via SPM receptor signaling | 2 | 0.15 | ↩️ parked | Noted as downstream consequence of SPM hypothesis; insufficient evidence for standalone treatment |
+| 3 | SPM biosynthesis pathway as resolution biology target for ME/CFS | 2 | 0.15 | ↩️ parked | Existing SPM deficiency content covers this; lithium is additive mechanism |
+| 4 | Lithium + omega-3 (resolvin precursor) synergy | 3 | 0.12 | ↩️ parked | Noted in text as future direction; no evidence |
+| 5 | Delayed lithium onset reflects resolution program kinetics | 3 | 0.12 | ↩️ parked | Speculative; no evidence for lithium resolution kinetics |
 
 ## Notes
 
