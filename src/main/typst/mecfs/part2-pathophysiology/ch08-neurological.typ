@@ -1079,11 +1079,15 @@ The therapeutic relevance to ME/CFS is speculative but structurally specific: if
 
 (ME/CFS-specific translation certainty: 0.28. Base mechanism — Li#super[+] inhibits IMPA1 → reduces PIP#sub[2] resynthesis → attenuates IP3-mediated Ca#super[2+] release — is established in human cortical neurons. ME/CFS application is entirely inferential from convergence with the PIP#sub[2] exhaustion hypothesis; no direct ME/CFS data exist.)
 
+_Bimodal dose-response and multiple mechanism-specific optima (post-hoc observation):_ A key uncertainty is whether lithium's dose-response across different mechanisms is linear or multiphasic. The Toricelli 2021 preclinical data suggest a bimodal curve: neuroprotection and anti-inflammatory effects (reduced IL-1$alpha$, IL-6, NF-$kappa$B; increased IL-10) at 2--20 µM Li#sub[2]CO3#sub[3], versus toxicity at 200 µM @Toricelli2021MicrodoseLithiumInflammation. The clinical evidence consists of three data points at three different doses from non-comparable study systems (in-vitro hippocampal cultures; Long COVID n=52 RCT; depression n=1). This is insufficient to claim a "pattern": the available points are consistent with a biphasic model but equally consistent with monotonic or flat dose-response given measurement and population variance. The observation that different lithium mechanisms have different concentration optima (NCS-1/IP3R modulation ~350 µM IC#sub[50]; IMPase ~800 µM; GSK-3$beta$ ~2 mM) is a mechanistic fact independent of the clinical data. The clinical speculation is that different endpoints (sensory hypersensitivity, fatigue, cognitive dysfunction, suicidal ideation) may align with different optima — this is explicitly post-hoc, requires prospective dose-ranging, and should not be treated as emergent from the data. See @spec:ultralow-dose-lithium-case for the case report evidence.
+
 *Testable predictions*
 
-  - ME/CFS patients treated with lithium orotate (10--20 mg elemental, ~equivalent to 40--45 mg lithium aspartate) for 8--12 weeks should show improvement on cognitive testing (specifically processing speed and working memory) compared to baseline.
-  - Serum BDNF levels should increase measurably at these sub-therapeutic doses.
-  - If structural MRI is feasible, grey matter volume should not decline (and may increase) over 6--12 months of treatment.
+  - In a placebo-controlled trial, ME/CFS patients treated with lithium orotate (10--20 mg elemental, ~equivalent to 40--45 mg lithium aspartate) for 8--12 weeks should show ≥0.4 SD improvement on cognitive testing (processing speed and working memory, e.g., DSST and digit span) relative to placebo. Falsified if placebo-corrected improvement is less than 0.2 SD or non-significant in an adequately powered (N of 80 or more per arm) study.
+  - Serum BDNF should increase by ≥20% from baseline at these sub-therapeutic doses, exceeding the assay's minimal detectable change. Falsified if BDNF does not change, decreases, or the increase is within measurement noise.
+  - If structural MRI is feasible, grey matter volume should not decline (≥0% change vs placebo) over 6--12 months of treatment. Falsified if grey matter volume declines at a rate comparable to or exceeding untreated ME/CFS natural history data.
+  - Inositol supplementation (myo-inositol 2--6 g/day) should reverse lithium's PIP#sub[2]-mediated effects on calcium signalling, as measured by PBMC calcium flux assays. Falsified if inositol co-administration does not attenuate lithium-induced changes in IP3-mediated Ca#super[2+] release.
+  - Bimodal dose-response: a dose-ranging study (2, 10, 20, 40 mg elemental Li#super[+]) in ME/CFS should show non-monotonic efficacy curves across endpoints (sensory hypersensitivity improving at microdoses, cognition at 40 mg). Falsified if all endpoints improve or fail along the same monotonic dose-response curve.
 
 *Safety considerations*
 
@@ -1112,6 +1116,18 @@ Although lithium orotate is sold over-the-counter as a supplement, this does *no
   - No ME/CFS-specific lithium trial exists; historical attempts used standard psychiatric dosing and were negative.
   - The IMPase/PIP#sub[2] mechanism creates a context-dependent risk: in ME/CFS where PIP#sub[2] is already depleted (@hyp:ch14h-pip2-convergence), Li#super[+] may further impair PIP#sub[2]-dependent ion channel gating. Co-administration of myo-inositol could address this arm --- see @spec:inositol-lithium-cotherapy.
 ] <spec:low-dose-lithium>
+
+#speculation(title: [Ultra-Low-Dose Lithium: Clinical Signals Below Pharmacological Threshold])[
+*Certainty: 0.20.* A self-experiment case report (2026) describes complete remission of recurrent brief depressive episodes (3--6 days, every 4--8 weeks) on lithium citrate 2 mg/day (elemental Li#super[+]), sustained over 4 months @Sikorav2026UltraLowDoseLithium. The dose is 5--22× below the Long COVID trial's tested range and orders of magnitude below psychiatric doses.
+
+Key case features relevant to ME/CFS: the patient (30-year-old psychiatrist) had sensory hypersensitivity (sound, screens, crowds, eye contact) exclusively during depressive episodes. Within 4 months on 2 mg/day: complete resolution of sensory hypersensitivity, disappearance of suicidal ideation, sustained emotional stability under sleep restriction and stress, no side effects. The patient had no PEM, orthostatic intolerance, or unrefreshing sleep — this is not an ME/CFS case.
+
+*Limitations and caveats.* Single n=1 self-report by a psychiatrist with professional expectations about lithium — lowest evidence tier. No blinding, no biomarker confirmation, no follow-up beyond 4 months. Cyclic condition means the episode-free interval could reflect natural history; regression-to-the-mean cannot be excluded. The patient started lithium at the beginning of a 3-week holiday, confounding vacation-induced recovery. No ME/CFS-specific inference is warranted from this single case.
+
+The case is retained here because (1) sensory hypersensitivity resolution at ultralow dose intersects with the PIP#sub[2]/TRP channel mechanism discussed in @spec:low-dose-lithium, and (2) the dose is 5--22× below the only positive ME/CFS-adjacent trial. Both reasons are hypothesis-generating only.
+
+The possibility that this dose corrects a subclinical lithium deficiency is noted but is structurally unfalsifiable without an established lithium-deficiency biomarker (e.g., PBMC lithium content, PI cycle flux) and is not developed further here.
+] <spec:ultralow-dose-lithium-case>
 
 #open-question(title: [NCS-1 in ME/CFS: Elevated, Normal, or Reduced?])[
 NCS-1 (neuronal calcium sensor protein 1) amplifies InsP3R1 channel open probability approximately five-fold via direct protein--protein interaction @schlecker2006ncs1. Lithium disrupts this NCS-1/InsP3R1 association at concentrations within the therapeutic plasma range (IC#sub[50] ≈ 350 µM), constituting a second mechanism by which Li#super[+] reduces IP3-mediated ER Ca#super[2+] release. NCS-1 expression is elevated in bipolar disorder and schizophrenia, where it correlates with aberrant calcium signaling @boeckel2018ncs1.
