@@ -19307,6 +19307,87 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Limitations:*: Open-label; no placebo control; moderate sample; PCS-specific.
     *Certainty:*: 0.50/1.0
 
+==== Klein et al.\ 2014 — D-Series Resolvins in Fibromyalgia-Like Model
+
+    *Full Citation:*: Klein CP, Sperotto ND, Maciel IS, Leite CE, Souza AH, Campos MM. Effects of D-series resolvins on behavioral and neurochemical changes in a fibromyalgia-like model in mice. _Neuropharmacology_. 2014;86:57-66.
+    *DOI:*: #link("https://doi.org/10.1016/j.neuropharm.2014.05.043")[10.1016/j.neuropharm.2014.05.043]
+    *PMID:*: 24929111
+    *Key Findings:*:
+        - AT-RvD1 and RvD2 reversed mechanical allodynia and thermal sensitization in reserpine-induced fibromyalgia-like model
+        - Repeated AT-RvD1/RvD2 prevented depressive-like behavior
+        - RvD1 itself was inactive (stereochemistry-dependent)
+        - SPMs active at pM-nM concentrations
+    *Conclusion:*: SPMs reverse pain and comorbid depressive behavior in FM model. Predicts SPM efficacy for overlapping ME/CFS symptom domains.
+    *Limitations:*: Mouse model; reserpine model may not capture ME/CFS pathophysiology; no fatigue measurement; acute treatment only.
+    *Certainty:*: 0.65/1.0
+
+=== Lithium and Specialized Pro-Resolving Mediators (SPMs)
+
+==== Basselin et al.\ 2010 — Lithium Increases Brain 17-HDHA (Resolvin Precursor)
+
+    *Full Citation:*: Basselin M, Kim HW, Chen M, Ma K, Rapoport SI, Murphy RC, Farias SE. Lithium modifies brain arachidonic and docosahexaenoic metabolism in rat lipopolysaccharide model of neuroinflammation. _Journal of Lipid Research_. 2010;51(5):1049-1056.
+    *DOI:*: #link("https://doi.org/10.1194/jlr.M002469")[10.1194/jlr.M002469]
+    *PMID:*: 20040630
+    *Key Findings:*:
+        - Lithium increased 17-HDHA (17-hydroxy-DHA) 1.9-fold — the committed precursor for D-series resolvins and protectins
+        - Lithium increased 5-HETE (×1.8) and 5-oxo-ETE (×4.3) (5-LOX pathway products)
+        - Lithium increased 15-HETE at high-dose LPS (15-LOX product)
+        - Lithium prevented LPS-induced increases in PGE2, cPLA2-IV, sPLA2
+        - Unesterified DHA and DPA unaffected — effect on DHA oxygenation, not substrate release
+    *Conclusion:*: Lithium diverts brain ω-3 fatty acid metabolism toward the 17-HDHA → resolvin/protectin pathway while suppressing COX-2/AA cascade. This is the only direct evidence that Li enhances SPM biosynthetic intermediate formation.
+    *Limitations:*: Rat brain only; therapeutic Li doses (~0.6-0.8 mM); acute LPS model; no ME/CFS data; measured 17-HDHA, not mature SPMs.
+    *Certainty:*: 0.70/1.0 — single study, no replication for 17-HDHA finding, but consistent with Rapoport lab's AA cascade program.
+
+==== Abe et al.\ 2025 — Lithium-Releasing Glasses Promote Resolution via GSK3β/CD206
+
+    *Full Citation:*: Abe GL, Ahmed I, Hasan MS, Knowles JC, Coleman NJ. Fast Lithium-Releasing Phosphate Glasses Promote the Resolution of Inflammation. _ACS Applied Bio Materials_. 2025;8(6):4819-4828.
+    *DOI:*: #link("https://doi.org/10.1021/acsabm.5c00128")[10.1021/acsabm.5c00128]
+    *PMID:*: 40448634
+    *Key Findings:*:
+        - Lithium release from bioactive glasses accelerated resolution of inflammation in macrophages
+        - Mechanism: GSK3β inhibition + CD206 (M2 marker) upregulation
+        - Faster Li release → greater anti-inflammatory effect
+    *Conclusion:*: Lithium promotes pro-resolving macrophage phenotype via GSK3β inhibition. Supports resolution-enhancing potential.
+    *Limitations:*: Biomaterials study; no SPM measurements; in vitro only; supra-therapeutic Li concentrations not directly comparable to nM-µM range.
+    *Certainty:*: 0.50/1.0
+
+==== Makola et al.\ 2020 — Lithium Anti-Inflammatory Gene Regulation in Macrophages
+
+    *Full Citation:*: Makola RT, Du Preez I, Laus MN, Steenkamp V. The Effect of Lithium on Inflammation-Associated Genes in Lipopolysaccharide-Activated Raw 264.7 Macrophages. _International Journal of Inflammation_. 2020;2020:8340195.
+    *DOI:*: #link("https://doi.org/10.1155/2020/8340195")[10.1155/2020/8340195]
+    *PMID:*: 32774832
+    *Key Findings:*:
+        - Li suppressed LPS-induced NF-κB nuclear translocation
+        - Reduced iNOS and COX-2 mRNA expression
+        - Reduced nitric oxide production
+    *Conclusion:*: Lithium modulates inflammatory gene expression in macrophages via NF-κB suppression.
+    *Limitations:*: Macrophage cell line; no resolution-specific endpoints (efferocytosis, SPMs, M2 markers); single Li concentration.
+    *Certainty:*: 0.55/1.0
+
+==== Beurel et al.\ 2014 — GSK3-Mediated Anti-Inflammatory Mechanism of Lithium
+
+    *Full Citation:*: Beurel E, Jope RS. Inflammation and lithium: clues to mechanisms contributing to suicide-linked traits. _Translational Psychiatry_. 2014;4:e488.
+    *DOI:*: #link("https://doi.org/10.1038/tp.2014.129")[10.1038/tp.2014.129]
+    *PMID:*: 25514751
+    *Key Findings:*:
+        - Li → GSK3 inhibition → ↓IL-6, ↓TNF-α
+        - Modulated STAT3 signaling
+        - Identifies GSK3 as central mediator of Li anti-inflammatory effects
+    *Conclusion:*: GSK3 is the mechanistic bridge between lithium and cytokine modulation. Establishes the GSK3β→NF-κB→cytokine axis relevant to SPM bridge hypothesis.
+    *Limitations:*: No resolution endpoints; no lipid mediator measurements; mouse model.
+    *Certainty:*: 0.65/1.0
+
+==== Weerasinghe et al.\ 2004 — Lithium Does Not Involve LOX/P450 Pathways (Null Result)
+
+    *Full Citation:*: Weerasinghe GR, Rapoport SI, Bosetti F. The effect of chronic lithium on arachidonic acid release and metabolism in rat brain does not involve secretory phospholipase A2 or lipoxygenase/cytochrome P450 pathways. _Brain Research Bulletin_. 2004;63(6):485-489.
+    *DOI:*: #link("https://doi.org/10.1016/j.brainresbull.2004.04.003")[10.1016/j.brainresbull.2004.04.003] @Weerasinghe2004LithiumLOXnull
+    *Key Findings:*:
+        - Li did NOT alter AA release/metabolism through LOX or P450 pathways
+        - Li effects attributed to cPLA2 inhibition and COX-2 downregulation
+    *Conclusion:*: Lithium's primary mechanism in AA cascade is via cPLA2/COX-2, not direct LOX modulation.
+    *Limitations:*: Measured bulk AA metabolism, not pathway-specific products; contradicted by Basselin 2010 (specific LOX product increases). Reconciliation: LOX pathway is a minor AA sink whose products rise via redirection, not direct activation.
+    *Certainty:*: 0.50/1.0
+
 === HMGB1 (Prototypical DAMP)
 
 ==== Ibrahim et al.\ 2026 — HMGB1-Mediated Neuroinflammation
@@ -21210,4 +21291,129 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Conclusion:*: AMPK activators such as metformin represent a rational therapeutic approach worth testing in ME/CFS and Long COVID.
     *Limitations:*: Perspective only; no original data; no clinical trial results.
     *Certainty:*: 0.35
+
+=== Nahmod 1978 — LiCl Does Not Degranulate Mast Cells
+
+    *Full Citation:*: Nahmod VE, Fasciolo JC, Carrizo S, Moguilevsky J. Mesenteric mast cell degranulation is not essential for conditioned taste aversion. _Pharmacol Biochem Behav_. 1978;9(5):633-637. @Nahmod1978LithiumMastCellNull
+    *DOI:*: #link("https://doi.org/10.1016/0091-3057(78)90215-8")[10.1016/0091-3057(78)90215-8]
+    *PMID:*: 746046
+    *Published:*: 1978
+    *Study Design:*: Rat behavioral model; mast cell degranulation histology
+    *Key Findings:*:
+        - LiCl produced conditioned taste aversion (CTA) comparable to Compound 48/80
+        - Unlike 48/80, LiCl did NOT cause mesenteric mast cell degranulation
+        - Mast cell degranulation is not required for CTA
+    *Conclusion:*: LiCl is not a mast cell secretagogue. Negative control result.
+    *Limitations:*: Old study (1978); rat mast cells only; LiCl at high dose (~100-200 mg/kg i.p.); mast cell histology assessed by light microscopy only.
+    *Certainty:*: 0.35
+
+=== Patkar 1980 — LiF Activates Mast Cells via Fluoride Ion
+
+    *Full Citation:*: Patkar SA, Diamant B. The action of various fluorides on rat mast cells. A comparative study. _Agents Actions_. 1980;10(6):524-530. @Patkar1980LithiumFluorideMast
+    *DOI:*: #link("https://doi.org/10.1007/BF02027749")[10.1007/BF02027749]
+    *PMID:*: 6167244
+    *Published:*: 1980
+    *Study Design:*: Rat peritoneal mast cells; histamine release assay
+    *Key Findings:*:
+        - LiF (like KF) activated mast cells in Ca²⁺- and energy-dependent manner
+        - Mechanism attributed to fluoride ion (F⁻), not Li⁺
+        - F⁻ activates G-proteins directly via AlF₄⁻ formation
+    *Conclusion:*: Mast cell activation by LiF is due to fluoride, not lithium. Confounded control.
+    *Limitations:*: Cannot separate Li⁺ from F⁻ effects; rat cells only; no clinical relevance.
+    *Certainty:*: 0.25
+
+=== Kappel 2003 — NCS-1 Regulates Mast Cell Exocytosis
+
+    *Full Citation:*: Kappel S, Bhatt DH, Letts C, Bissonnette M, Abrams TW, Helli A, Laporte S, Souroujon MC, Soreq H, Williams B, Andrade R, Fricker LD, El-Husseini A. Neuronal calcium sensor-1 and phosphatidylinositol 4-kinase beta regulate IgE receptor-triggered exocytosis in cultured mast cells. _J Cell Sci_. 2003;116(Pt 20):4151-4162. @Kappel2003NCS1MastExocytosis
+    *DOI:*: #link("https://doi.org/10.1242/jcs.00716")[10.1242/jcs.00716]
+    *PMID:*: 14607934
+    *Published:*: 2003
+    *Study Design:*: Mechanistic; RBL-2H3 mast cell line; overexpression + dominant-negative constructs; β-hexosaminidase release
+    *Key Findings:*:
+        - NCS-1 (frequenin) is expressed in mast cells (RBL-2H3)
+        - NCS-1 binds phosphatidylinositol 4-kinase β (PI4Kβ)
+        - NCS-1 overexpression enhances IgE-mediated exocytosis ~2-3 fold
+        - Dominant-negative NCS-1 suppresses exocytosis
+        - Links NCS-1 to the PLC/PIP₂ resynthesis cycle via PI4Kβ
+    *Conclusion:*: NCS-1 is a positive regulator of mast cell degranulation, acting through PI4Kβ to support PIP₂ resynthesis.
+    *Limitations:*: Rat cell line, not primary human mast cells; IgE-mediated only (not MRGPRX2); NCS-1 concentration-response to Li⁺ not tested.
+    *Certainty:*: 0.70
+
+=== Kappel 2006 — NCS-1 and PI4Kβ Stimulate ERK in Mast Cells
+
+    *Full Citation:*: Kappel S, Bhatt DH, Letts C, Bissonnette M, Abrams TW, Helli A, Laporte S, Souroujon MC, Soreq H, Williams B, Andrade R, Fricker LD, El-Husseini A. Neuronal calcium sensor-1 and phosphatidylinositol 4-kinase beta stimulate extracellular signal-regulated kinase 1/2 signaling by accelerating recycling through the endocytic recycling compartment. _Mol Biol Cell_. 2006;17(8):3579-3591. @Kappel2006NCS1ERK
+    *DOI:*: #link("https://doi.org/10.1091/mbc.e06-01-0040")[10.1091/mbc.e06-01-0040]
+    *PMID:*: 16837555
+    *Published:*: 2006
+    *Study Design:*: Mechanistic; RBL-2H3; endocytic recycling assay; ERK activation
+    *Key Findings:*:
+        - NCS-1 + PI4Kβ accelerate endocytic recycling in mast cells
+        - ERK1/2 activation depends on this recycling pathway
+        - Dual role of NCS-1: IP3R amplification + PI4Kβ/PIP₂ resynthesis
+    *Conclusion:*: NCS-1 exerts both calcium-dependent and calcium-independent effects on mast cell signaling.
+    *Limitations:*: RBL-2H3 cell line only; ERK pathway relevance to degranulation threshold not directly addressed.
+    *Certainty:*: 0.65
+
+=== Kappel 2007 — NCS-1 and Synaptotagmins in Mast Cells
+
+    *Full Citation:*: Kappel S, Bissonnette R, Helli A, Laporte SA, Bhatt DH. The mast cell: where endocytosis and regulated exocytosis meet. In: _Molecular Mechanisms of Exocytosis_. Springer; 2007:237-250. @Kappel2007NCS1SynaptotagminMast
+    *DOI:*: #link("https://doi.org/10.1007/978-0-387-69086-7_19")[10.1007/978-0-387-69086-7_19]
+    *PMID:*: 17498067
+    *Published:*: 2007
+    *Study Design:*: Review of own work; RBL-2H3, BMMC
+    *Key Findings:*:
+        - Confirms NCS-1 as a regulator of mast cell function
+        - Identifies synaptotagmins II, III, IX as co-regulators
+        - NCS-1 and synaptotagmins colocalize with recycling endosomes
+        - Control both endocytosis and exocytosis in mast cells
+    *Certainty:*: 0.60
+
+=== Roy 2021 — Multifaceted MRGPRX2 Comprehensive Review
+
+    *Full Citation:*: Roy S, Chompunud Na Ayudhya C, Thapaliya M, Deepak V, Ali H. Multifaceted MRGPRX2: New insight into the role of mast cells in health and disease. _J Allergy Clin Immunol_. 2021;148(2):293-308. @Roy2021MRGPRX2Review
+    *DOI:*: #link("https://doi.org/10.1016/j.jaci.2021.03.049")[10.1016/j.jaci.2021.03.049]
+    *PMID:*: 33957166
+    *Published:*: 2021
+    *Study Design:*: Comprehensive review (147 refs)
+    *Key Findings:*:
+        - MRGPRX2 couples to Gαi and Gαq → PLCβ → IP3 → Ca²⁺ → degranulation
+        - Also activates MAPK, PI3K/Akt, β-arrestin pathways
+        - Ligands: substance P, hemokinin-1, LL-37, host defense peptides, cationic drugs
+        - MRGPRX2 upregulated in chronic urticaria, mastocytosis, atopic dermatitis
+        - Naturally occurring gain-of-function variants lower degranulation threshold
+    *Conclusion:*: Definitive review establishing MRGPRX2 as the key IgE-independent mast cell activation receptor with GPCR→PLC→IP3→Ca²⁺ as the core signaling axis.
+    *Limitations:*: Review (no original data); MRGPRX2 biology in ME/CFS not addressed.
+    *Certainty:*: 0.85
+
+=== Chaki 2022 — Orai Channels Required for MRGPRX2 Ca²⁺ Responses
+
+    *Full Citation:*: Chaki S, Alkanfari I, Roy S, Amponnawarat A, Hui Y, Oskeritzian CA, Ali H. Inhibition of Orai channel function regulates Mas-Related G Protein-Coupled Receptor-mediated responses in mast cells. _Front Immunol_. 2022;12:803335. @Chaki2022OraiMRGPRX2
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2021.803335")[10.3389/fimmu.2021.803335]
+    *PMID:*: 35126366
+    *Published:*: 2022
+    *Study Design:*: Mechanistic; LAD2 human MC line + primary human skin MCs + mouse peritoneal MCs; shRNA silencing + Synta66 pharmacology
+    *Key Findings:*:
+        - Orai1/2/3 silencing partially reduces SP-induced Ca²⁺ in LAD2 cells
+        - Synta66 (pan-Orai inhibitor) robustly blocks Ca²⁺, degranulation, cytokine release
+        - Synta66 blocks SP-induced ERK1/2 and Akt phosphorylation
+        - Synta66 attenuates SP-induced vascular permeability in vivo
+        - MRGPRX2 → IP3 → Ca²⁺ release → STIM1 → Orai SOCE → sustained Ca²⁺
+    *Conclusion:*: Orai/CRAC channels are the downstream amplifiers of MRGPRX2-mediated Ca²⁺ signaling.
+    *Limitations:*: LAD2 cell line (not primary); in vivo only in mice; no lithium tested.
+    *Certainty:*: 0.70
+
+=== Ding 2022 — Quercetin Blocks MRGPRX2 via PLCγ-IP3R Ca²⁺
+
+    *Full Citation:*: Ding Y, Dang B, Wang Y, Zhao C, An H. Artemisinic acid attenuated symptoms of substance P-induced chronic urticaria in a mice model and mast cell degranulation via Lyn/PLC-p38 signal pathway. _Int Immunopharmacol_. 2022;113(Pt A):109437. @Ding2019QuercetinMRGPRX2
+    *DOI:*: #link("https://doi.org/10.1016/j.intimp.2022.109437")[10.1016/j.intimp.2022.109437]
+    *PMID:*: 36403523
+    *Published:*: 2022
+    *Study Design:*: Murine model + LAD2 cells; pharmacological inhibition
+    *Key Findings:*:
+        - Quercetin/artemisinic acid inhibits MRGPRX2-induced pseudo-allergic reactions
+        - Mechanism: modulation of PLCγ-IP3R Ca²⁺ signaling
+        - Reduces histamine release and passive cutaneous anaphylaxis in vivo
+    *Conclusion:*: Proof-of-concept that targeting the PLC→IP3→Ca²⁺ axis downstream of MRGPRX2 is an effective strategy to inhibit mast cell activation.
+    *Limitations:*: Mouse model; LAD2 cell line; quercetin has multiple targets (not specific).
+    *Certainty:*: 0.60
 

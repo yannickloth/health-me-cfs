@@ -47,9 +47,13 @@
 | 3 — Creative brainstorm | 🚫 skipped | Ideas from parent brainstorm 2.6 already cover this space; no new ideation needed for single open-question |
 | 3a — Hypothesis tree | ✅ done | Updated parent subtree node 2.6 status to ✅; no child subtree needed (single node, fully integrated) |
 | 4 — Integration | ✅ done | Ideas 1-2 integrated as open-question; ideas 3-8 parked (insufficient evidence for standalone environments) |
-| 4a — Falsifiability audit | ✅ done | Open-question includes 3 falsifiable predictions (β-hexosaminidase, pathway specificity with IgE control, tryptase) |
+| 4a — Falsifiability audit | ✅ done | 5 testable predictions with specific thresholds and falsification criteria; IC50 gap (350 µM vs ~1 µM) explicitly flagged; IgE specificity softened per adversarial review |
 | 4b — Retrospective adaptation | ✅ done | 0 overlaps — no pre-existing content claims lithium affects mast cells; new content is additive only |
-| 5 — Build verification | ⏭️ deferred | Pre-existing build failure (untracked ch18 file); single-file syntax check passes |
+| 4c — Cross-hypothesis compatibility | ✅ done | 22 pairs audited: 5 reinforcement, 4 feed-into, 0 conflict, 0 certainty adjustments |
+| 5 — Build verification | ✅ done | Single-file syntax verified clean; pre-existing full-build failure unrelated |
+| 6 — Review convergence | ✅ done | 6a: 1 round (3 citation fixes); 6b: 6 personas, 34 findings, top 5 fixed (IC50 gap, IgE contradiction, Basselin LPS-dependence, clinical risks, GSK-3β null hypothesis); 6c: 0 findings |
+| 7 — Changelog | ✅ done | Entry added to Version 11 |
+| 8 — Commit | ✅ done | 8bd14fd |
 | 6 — Review | ✅ done | Self-review: open-question structure balanced (complete mechanistic chain + explicit "no direct support" caveat + testable predictions) |
 | 7 — Changelog | ✅ done | Entry added to Version 11 |
 | 8 — Commit | ⬜ pending | One commit per convention |

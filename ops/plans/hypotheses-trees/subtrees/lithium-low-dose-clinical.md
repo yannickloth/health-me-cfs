@@ -26,7 +26,7 @@
 | 2.6 | Lithium mast cell GPCR-PIP2 axis stabilization | speculation | 0.20 | 3 | 3 | 2 | 1 | 1 | ✅ | subtrees/mast-cell-lithium-gpcr-pip2.md |
 | 2.7 | Lithium circadian dosing optimization | open-question | n/a | 1 | 3 | 1 | 1 | 1 | ↩️ | brainstorm only |
 | 3.1 | Pregnenolone sulfate-TRPM3-lithium sensitivity axis | speculation | 0.15 | 3 | 2 | 2 | 2 | 2 | ↩️ | brainstorm only |
-| 3.2 | Lithium as pro-resolving mediator (SPM enhancement) | speculation | 0.15 | 3 | 3 | 2 | 1 | 1 | ⏭️ | immune auto-escalation — queued for separate /integrate-topic |
+| 3.2 | Lithium as pro-resolving mediator (SPM enhancement) | speculation | 0.15 | 3 | 3 | 2 | 1 | 1 | ✅ | subtrees/lithium-spm-proresolving.md |
 | 3.3 | Lithium-caffeine IP3R interaction | speculation | 0.15 | 2 | 2 | 1 | 1 | 1 | ↩️ | brainstorm only |
 | 3.4 | Cyclic-severity+sensory hypersensitivity lithium-responsive phenotype | speculation | 0.20 | 2 | 3 | 3 | 1 | 3 | ↩️ | brainstorm only; no evidence |
 | 3.5 | Lithium+T3 thyroid-sparing neuroprotection stack | speculation | 0.15 | 2 | 4 | 2 | 1 | 1 | ↩️ | brainstorm only |
