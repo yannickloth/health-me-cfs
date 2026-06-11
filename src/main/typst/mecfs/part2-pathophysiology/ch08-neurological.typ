@@ -1137,7 +1137,7 @@ In ME/CFS, NCS-1 expression has never been measured. The clinical implications d
     - *If NCS-1 is elevated:* Chronic GPCR autoantibody stimulation may upregulate NCS-1 as a compensatory response, creating IP3R hyperactivation coexisting with PIP#sub[2] depletion. Li#super[+]'s NCS-1 disruption would then be specifically therapeutic, dampening pathological Ca#super[2+] oscillations.
     - *If NCS-1 is normal or reduced:* Li#super[+]'s disruption of a non-elevated NCS-1/InsP3R1 interaction might further impair calcium signaling in a system already compromised. It would make Li#super[+] the wrong therapeutic choice and low-dose NCS-1 agonism potentially beneficial.
 
-NCS-1 protein quantification in ME/CFS PBMCs by ELISA or Western blot would be inexpensive, immediately feasible on stored biobank samples, and diagnostically informative. It could also serve as a patient-stratification biomarker predicting lithium response direction — one of the most actionable unknowns in the low-dose lithium research agenda.
+NCS-1 protein quantification in ME/CFS PBMCs by ELISA or Western blot would be inexpensive, immediately feasible on stored biobank samples, and diagnostically informative. It could also serve as a patient-stratification biomarker predicting lithium response direction — one of the most actionable unknowns in the low-dose lithium research agenda. For the specific relevance of NCS-1 to mast cell degranulation and MCAS, see @oq:lithium-mast-cell-ncs1.
 ] <oq:ncs1-mecfs-expression>
 
 == Autonomic Nervous System Dysfunction

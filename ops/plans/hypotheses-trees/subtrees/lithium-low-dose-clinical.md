@@ -23,7 +23,7 @@
 | 2.3 | Lithium citrate bioavailability at ultra-low doses | open-question | n/a | 2 | 3 | 1 | 1 | 1 | ↩️ | brainstorm only |
 | 2.4 | Fluvoxamine-lithium synergy: IP3R isoform separation | speculation | 0.20 | 3 | 3 | 2 | 2 | 1 | ↩️ | brainstorm only; insufficient evidence |
 | 2.5 | T-type calcium channelopathy in ME/CFS | speculation | 0.20 | 3 | 2 | 3 | 3 | 2 | ↩️ | brainstorm only |
-| 2.6 | Lithium mast cell GPCR-PIP2 axis stabilization | speculation | 0.20 | 3 | 3 | 2 | 1 | 1 | ⏭️ | immune auto-escalation — queued for separate /integrate-topic |
+| 2.6 | Lithium mast cell GPCR-PIP2 axis stabilization | speculation | 0.20 | 3 | 3 | 2 | 1 | 1 | ✅ | subtrees/mast-cell-lithium-gpcr-pip2.md |
 | 2.7 | Lithium circadian dosing optimization | open-question | n/a | 1 | 3 | 1 | 1 | 1 | ↩️ | brainstorm only |
 | 3.1 | Pregnenolone sulfate-TRPM3-lithium sensitivity axis | speculation | 0.15 | 3 | 2 | 2 | 2 | 2 | ↩️ | brainstorm only |
 | 3.2 | Lithium as pro-resolving mediator (SPM enhancement) | speculation | 0.15 | 3 | 3 | 2 | 1 | 1 | ⏭️ | immune auto-escalation — queued for separate /integrate-topic |
