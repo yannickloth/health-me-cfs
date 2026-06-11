@@ -129,7 +129,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | mcas-isr              | [subtrees/mcas-isr.md](subtrees/mcas-isr.md)                          | 2026-05-02      | 5          | 5          | ✅ done        |
 | li-mg-analogs         | [subtrees/li-mg-analogs.md](subtrees/li-mg-analogs.md)                | 2026-04-17      | 12         | 0          | ⬜ stub        |
 | lithium-ip3           | [subtrees/lithium-ip3.md](subtrees/lithium-ip3.md)                    | 2026-04-17      | 21         | 0          | ⬜ stub        |
-| lithium-low-dose-clinical | [subtrees/lithium-low-dose-clinical.md](subtrees/lithium-low-dose-clinical.md) | 2026-06-11 | 24 | 0 | 🔵 in progress |
+| lithium-low-dose-clinical | [subtrees/lithium-low-dose-clinical.md](subtrees/lithium-low-dose-clinical.md) | 2026-06-11 | 24 | 4 | ✅ done (2 mast cell + 2 SPM queued via auto-escalation) |
 | mcas-domain6          | [subtrees/mcas-domain6.md](subtrees/mcas-domain6.md)                  | 2026-05-01      | 26         | 26         | ✅ complete (12-round review-fix converged 2026-05-03) |
 | mecfsmed-de           | [subtrees/mecfsmed-de.md](subtrees/mecfsmed-de.md)                    | 2026-03-28      | 0          | 0          | ⬜ stub        |
 | metabolic-reserve     | [subtrees/metabolic-reserve.md](subtrees/metabolic-reserve.md)        | 2026-04-20      | 34         | 0          | ⬜ stub        |
