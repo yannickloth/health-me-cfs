@@ -1,0 +1,34 @@
+---
+title: "ME/CFS — A Comprehensive Medical Documentation"
+about:
+  template: jolla
+---
+
+## Myalgic Encephalomyelitis / Chronic Fatigue Syndrome
+
+Welcome. This website presents a comprehensive medical documentation of ME/CFS — a severe, chronic, multi-system neuroimmune disease affecting an estimated 0.89% to 2.5% of the global population.
+
+The content spans five parts:
+
+- **Part I — Clinical Presentation:** Core and additional symptoms, diagnostic criteria, disease course
+- **Part II — Pathophysiology:** Energy metabolism, immune dysfunction, neurological, endocrine, cardiovascular, gut-microbiome, integrative models
+- **Part III — Treatment:** Symptom management, medications, supplements, lifestyle interventions, emerging therapies, integrative approaches
+- **Part IV — Research Evidence:** Biomarker research, clinical trials, mechanistic studies, epidemiology, controversies, translational findings
+- **Part V — Quantitative Modeling:** Mathematical models of disease dynamics using ordinary differential equations
+
+### Navigating This Document
+
+Use the **sidebar** to browse chapters and sections. Each page has its own table of contents for in-page navigation. Use the **search** bar to find specific topics.
+
+### About This Work
+
+- **Author:** Ing. Yannick Loth, M.Sc. (Management)
+- **License:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+- **DOI:** [10.5281/zenodo.19627450](https://doi.org/10.5281/zenodo.19627450)
+- **Methodology:** Structured epistemic classification system — achievements, hypotheses, speculations, predictions, warnings, and recommendations
+
+::: {.callout-warning}
+## Medical Disclaimer
+
+This documentation represents literature synthesis and personal experience documentation, **not clinical advice**. All treatment decisions must be made in consultation with qualified healthcare providers.
+:::

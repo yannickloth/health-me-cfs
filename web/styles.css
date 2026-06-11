@@ -1,0 +1,85 @@
+/* --- Typst environment mappings --- */
+
+/* Left-bar environments: warning, limitation, achievement, hypothesis, speculation, open-question, chapter-abstract */
+div.callout-warning,
+div.callout-note,
+div.callout-important,
+div.callout-tip,
+div.callout-caution {
+  border-left: 4px solid;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+  background: #f8f9fa;
+}
+
+div.callout-warning     { border-color: #dc3545; background: #fff5f5; }
+div.callout-note        { border-color: #0d6efd; background: #f0f7ff; }
+div.callout-important   { border-color: #198754; background: #f0fff4; }
+div.callout-tip         { border-color: #6f42c1; background: #f8f0ff; }
+div.callout-caution     { border-color: #fd7e14; background: #fff8f0; }
+
+div.callout-warning .callout-title,
+div.callout-note .callout-title,
+div.callout-important .callout-title,
+div.callout-tip .callout-title,
+div.callout-caution .callout-title {
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+
+/* Chapter abstract intro block */
+div.epigraph,
+blockquote {
+  border-left: 3px solid #6c757d;
+  padding: 0.6em 1em;
+  margin: 1em 0;
+  background: #f8f8f8;
+  font-style: italic;
+}
+
+/* Figure styling */
+figure img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 0.4em;
+}
+
+/* Table styling */
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.9em;
+}
+
+th {
+  background: #f0f0f0;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid #dee2e6;
+  padding: 0.4em 0.6em;
+}
+
+/* Math display tweaks */
+.math.display {
+  overflow-x: auto;
+  padding: 0.2em 0;
+}
+
+/* Sidebar TOC depth */
+.sidebar nav[role=doc-toc] ul {
+  list-style-type: none;
+  padding-left: 0.8em;
+}
+
+/* Unstyled list for bullet point sections without bullets */
+.unbulleted {
+  list-style-type: none;
+  padding-left: 0;
+}
