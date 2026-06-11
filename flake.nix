@@ -1,5 +1,5 @@
 {
-  description = "ME/CFS documentation - Typst PDF build";
+  description = "ME/CFS documentation - Typst PDF + Quarto web build";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -66,11 +66,40 @@
           '';
         };
 
+        buildWeb = pkgs.stdenvNoCC.mkDerivation {
+          name = "mecfs-web";
+          src = cleanSrc;
+          buildInputs = [
+            pkgs.coreutils
+            pkgs.typst
+            pkgs.quarto
+            pkgs.jdk
+          ];
+          phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+          buildPhase = ''
+            export HOME="$NIX_BUILD_TOP/home"
+            mkdir -p "$HOME"
+
+            # Generate .qmd files and figures
+            java src/main/java/web/BuildWeb.java
+
+            # Render HTML
+            quarto render web --to html
+          '';
+          installPhase = ''
+            mkdir -p $out
+            cp -r web/_site/* $out/
+          '';
+        };
+
       in {
-        packages.default = buildTypstPdf;
+        packages = {
+          default = buildTypstPdf;
+          web = buildWeb;
+        };
 
         devShells.default = pkgs.mkShell {
-          buildInputs = [ pkgs.coreutils pkgs.typst ];
+          buildInputs = [ pkgs.coreutils pkgs.typst pkgs.quarto pkgs.jdk ];
           shellHook = ''
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
           '';
