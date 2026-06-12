@@ -1,102 +1,83 @@
 # ME/CFS Documentation Project
-Comprehensive documentation of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS), built with LaTeX for professional medical and scientific typesetting.
+
+Comprehensive documentation of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS), built with Typst for PDF and Quarto for the web.
 
 ## Quick Start
 
-1. **Clone and initialize**
-   ```bash
-   git clone <your-project>
-   cd <your-project>
-   git submodule update --init --recursive
-   ```
+```bash
+git clone <repo-url>
+cd health-me-cfs
+```
 
-2. **Build the document**
-   ```bash
-   nix build              # Output: result/ms.pdf
-   ```
+## Build
 
-3. **Edit** [ms.tex](ms.tex) and rebuild as needed
+### PDF (Typst)
+```bash
+nix build              # → result/loth2026-mecfs.pdf
+```
 
-## Building
+### Website (Quarto)
+```bash
+nix build .#web        # → result/ (deployable _site/)
+```
 
-### With Nix (recommended)
-- `nix build` - Build ms.tex to PDF (output in `result/ms.pdf`)
-- `nix develop` - Enter development shell with all dependencies
-- `nix run .#clean` - Remove build artifacts
+Or step-by-step:
+```bash
+java src/main/java/web/BuildWeb.java   # generate .qmd + SVG from Typst
+quarto render web                       # build HTML
+# output: web/_site/
+```
 
-### Without Nix
-- `latexmk -pdf ms.tex` - Automated build with dependency tracking
-- `latexmk -pdf -pvc ms.tex` - Continuous preview mode
+## How the Website Is Generated
+
+1. **`BuildWeb.java`** iterates over every `ch*.typ` in `src/main/typst/mecfs/part*/`, plus `appendix-*.typ` and `shared/*.typ`.
+2. For each, it invokes **`ConvertAndSplit.java`**, which splits the Typst file at `==` headings into individual `.qmd` files and converts Typst markup to Quarto-compatible markdown.
+3. Output lands in `web/part*/chNN-description/01-section.qmd`, `web/z-appendices/appendix-X/01-section.qmd`, `web/_shared/01-section.qmd`.
+4. All `figures/*.typ` are compiled to `figures/*.svg` via `typst compile`.
+5. **`quarto render web`** builds the HTML site. The sidebar hierarchy is derived automatically from the directory structure (`contents: auto` in `_quarto.yml`).
+
+### Hand-Authored (Not Generated)
+
+| File | Purpose |
+|------|---------|
+| `web/index.qmd` | Landing page |
+| `web/styles.css` | Custom styling |
+| `web/*.bib` | Bibliographies |
+| `web/_quarto.yml` | Quarto config (sidebar, theme, toc) |
+| `web/_shared/_metadata.yml` | Excludes shared/ from sidebar |
+| `web/_part-intros/_metadata.yml` | Excludes part-intros/ from sidebar |
+| `web/.gitignore` | Generated path exclusions |
+
+### CI/CD
+
+On push to `main`, `.github/workflows/deploy-web.yml` runs `nix build .#web` and deploys to GitHub Pages.
 
 ## Project Structure
 
-- [ms.tex](ms.tex) - Main ME/CFS documentation source
-- [infolead-latex-templates/](infolead-latex-templates/) - Git submodule with reusable LaTeX preambles
-- [flake.nix](flake.nix) - Nix build configuration for reproducible builds
-- `.gitignore` - Pre-configured for LaTeX build artifacts
+```
+src/main/
+  typst/mecfs/              # Typst sources
+    part1-clinical/         # ch01–ch05
+    part2-pathophysiology/  # ch06–ch17
+    part3-treatment/        # ch18–ch28
+    part4-research/         # ch29–ch36
+    part5-modeling/         # ch37–ch44
+    shared/                 # front/back matter
+    appendices/             # appendix-a through appendix-i
+    figures/                # *.typ → SVG figures
+  java/web/
+    BuildWeb.java           # pipeline orchestrator
+    ConvertAndSplit.java    # typ → qmd converter
 
-## Document Contents
-
-This documentation aims to provide an exhaustive overview of ME/CFS, covering:
-- Clinical definitions and diagnostic criteria
-- Pathophysiology and proposed mechanisms
-- Symptoms and disease progression
-- Current research findings
-- Treatment approaches and management strategies
-- Patient experiences and quality of life impacts
-
-## Updating the Preamble
-
-The project uses a git submodule for shared LaTeX preambles. To update to the latest version:
-
-```bash
-git submodule update --remote infolead-latex-templates
+web/
+  index.qmd                 # landing page
+  styles.css                # custom CSS
+  _quarto.yml               # Quarto config
+  _site/                    # rendered output (gitignored)
 ```
 
-## Contributing
+## Development Shell
 
-Contributions to improve the accuracy and completeness of this documentation are welcome. When contributing:
-
-1. Ensure all medical claims are properly cited with peer-reviewed sources
-2. Follow the established document structure and LaTeX conventions
-3. Run the build process to verify no compilation errors
-4. Consider using the subagent system (see [.claude/CLAUDE.md](.claude/CLAUDE.md)) for automated quality checks
-
-## Preamble Modules
-
-The [infolead-latex-templates/](infolead-latex-templates/) submodule provides modular LaTeX preambles. Load only what you need:
-
-**Required (in order):**
-1. `koma-config.tex` - KOMA-Script settings
-2. `typography.tex` - Font configuration
-3. `packages.tex` - Core packages
-4. `math.tex` - Mathematical operators
-5. `theorems.tex` - Theorem environments
-
-**Optional (as needed):**
-- `bibliography.tex` - Citations
-- `tables.tex` - Professional tables
-- `algorithms.tex` - Algorithm pseudocode
-- `listings.tex` - Code syntax highlighting
-- `diagrams.tex` - TikZ diagrams (warning: slow compilation)
-
-**Always load last:**
-- `spacing.tex`
-- `koma-headers.tex`
-- `hyperref.tex` - Must be the final module
-
-See [.claude/preamble-setup.md](.claude/preamble-setup.md) for details on the module system and load order requirements.
-
-## Development Environment
-
-- **With Nix**: Run `nix develop` to enter a shell with all LaTeX packages
-- **direnv**: If you have direnv installed, it will automatically load the environment when entering the directory
-- **Editor config**: [.editorconfig](.editorconfig) is provided for consistent formatting
-
-## More Information
-
-See the [.claude/](.claude/) directory for detailed documentation:
-- [preamble-setup.md](.claude/preamble-setup.md) - Preamble system architecture and module details
-- [build-system.md](.claude/build-system.md) - Build commands and artifact management
-- [writing-style.md](.claude/writing-style.md) - Writing guidelines for LaTeX content
-- [CLAUDE.md](.claude/CLAUDE.md) - Instructions for Claude Code when working with this repository
+```bash
+nix develop   # typst + quarto + jdk + coreutils
+```
