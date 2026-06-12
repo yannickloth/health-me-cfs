@@ -874,4 +874,4 @@ Experimental M1/M4 PAMs (e.g., VU0467154) enhance endogenous acetylcholine signa
 *Falsifiable prediction:* Amiloride 5 mg daily reduces PEM-associated pain severity (NRS ≥2-point reduction) in ME/CFS patients with high post-exertional lactate (>2× resting) vs placebo over 6 weeks; effect correlates with post-exertional lactate AUC.
 ] <spec:amiloride-asic>
 
-#include "ch18-brain-clearance-drugs.typ"
+#include "ch27-brain-clearance-drugs.typ"
