@@ -6,6 +6,8 @@
 // Typst sources: src/main/typst/mecfs/
 // Output: web/part*/ch*/, web/z-appendices/, web/_shared/
 import static java.nio.file.Files.*;
+import java.nio.file.NoSuchFileException;
+import java.nio.file.Path;
 import static java.nio.file.Paths.*;
 import java.io.*;
 import java.util.*;
@@ -41,6 +43,7 @@ void main(String[] args) throws IOException, InterruptedException {
         var excludeSet = new HashSet<>(m.exclude());
 
         System.out.println("=== " + m.srcDir() + " ===");
+        createDirectories(webDir); // ensure exists (not tracked in git)
         // Clear existing chapter subdirectories
         try (var stream = list(webDir)) {
             for (var entry : stream.toList()) {
@@ -71,7 +74,8 @@ void main(String[] args) throws IOException, InterruptedException {
 
                 // Run ConvertAndSplit
                 var cmd = new String[]{
-                    "java", casPath.toString(),
+                    "java", "--enable-preview", "--source", "21",
+                    casPath.toString(),
                     ch.toAbsolutePath().toString(),
                     outDir.toAbsolutePath().toString()
                 };
@@ -94,7 +98,7 @@ void main(String[] args) throws IOException, InterruptedException {
                 }
                 if (exitCode != 0) {
                     System.out.println("    ERROR (exit " + exitCode + "):");
-                    System.out.println("    " + output.lines().filter(l -> l.contains("Exception") || l.contains("Error")).collect(java.util.stream.Collectors.joining("\n    ")));
+                    output.lines().forEach(l -> System.out.println("    " + l));
                 }
             }
         }
@@ -104,6 +108,7 @@ void main(String[] args) throws IOException, InterruptedException {
     // --- Appendices ---
     System.out.println("=== appendices ===");
     var webAppDir = webRoot.resolve("z-appendices");
+    createDirectories(webAppDir); // ensure exists (not tracked in git)
     // Clear existing subdirectories
     try (var stream = list(webAppDir)) {
         for (var entry : stream.toList()) {
@@ -132,7 +137,8 @@ void main(String[] args) throws IOException, InterruptedException {
             createDirectories(outDir);
 
             var cmd = new String[]{
-                "java", casPath.toString(),
+                "java", "--enable-preview", "--source", "21",
+                casPath.toString(),
                 app.toAbsolutePath().toString(),
                 outDir.toAbsolutePath().toString()
             };
@@ -158,6 +164,7 @@ void main(String[] args) throws IOException, InterruptedException {
     System.out.println();
     System.out.println("=== shared → _shared/ ===");
     var webSharedDir = webRoot.resolve("_shared");
+    createDirectories(webSharedDir); // ensure exists (not tracked in git)
     // Clear existing .qmd files (but keep _metadata.yml)
     try (var stream = list(webSharedDir)) {
         for (var entry : stream.toList()) {
@@ -183,7 +190,8 @@ void main(String[] args) throws IOException, InterruptedException {
             createDirectories(webSharedDir);
 
             var cmd = new String[]{
-                "java", casPath.toString(),
+                "java", "--enable-preview", "--source", "21",
+                casPath.toString(),
                 sf.toAbsolutePath().toString(),
                 webSharedDir.toAbsolutePath().toString()
             };

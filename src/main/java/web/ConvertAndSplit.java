@@ -3,6 +3,8 @@
 // CONVENTION: output-dir = partX/chYY-descriptive-name/
 // e.g.: java ConvertAndSplit.java src/part3/ch14-mechanism.typ web/part3-treatment/ch14-mechanism-treatment-map/
 import static java.nio.file.Files.*;
+import java.nio.file.NoSuchFileException;
+import java.nio.file.Path;
 import static java.nio.file.Paths.*;
 import java.io.*;
 import java.util.*;

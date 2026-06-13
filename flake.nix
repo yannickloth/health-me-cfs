@@ -73,15 +73,15 @@
             pkgs.coreutils
             pkgs.typst
             pkgs.quarto
-            pkgs.jdk
+            pkgs.jdk21
           ];
           phases = [ "unpackPhase" "buildPhase" "installPhase" ];
           buildPhase = ''
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
 
-            # Generate .qmd files and figures
-            java src/main/java/web/BuildWeb.java
+            # Generate .qmd files and figures (JDK 21 preview for unnamed classes)
+            java --enable-preview --source 21 src/main/java/web/BuildWeb.java
 
             # Render HTML
             quarto render web --to html
