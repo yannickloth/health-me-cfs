@@ -21417,3 +21417,275 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Limitations:*: Mouse model; LAD2 cell line; quercetin has multiple targets (not specific).
     *Certainty:*: 0.60
 
+// =============================================================================
+
+== Stigmatisation in ME/CFS
+<sec:bib-stigmatisation>
+// =============================================================================
+
+=== Froehlich et al.\ 2022 — Causal Attributions and Perceived Stigma
+
+    *Full Citation:*: Froehlich L, Hattesohl DBR, Cotler J, Jason LA, Scheibenbogen C, Behrends U. Causal attributions and perceived stigma for myalgic encephalomyelitis/chronic fatigue syndrome. _Journal of Health Psychology_. 2022;27(10):2291–2304. @Froehlich2022CausalStigma
+    *DOI:*: #link("https://doi.org/10.1177/13591053211027631")[10.1177/13591053211027631]
+    *PMID:*: 34240650
+    *Study Design:*: Cross-sectional survey; mediation analysis
+    *Sample Size:*: n=499 (self-diagnosed ME/CFS)
+    *Key Findings:*:
+        - Perceived stigma mediates the relationship between others' causal attributions and health outcomes
+        - Higher perceived attributions to controllable + unstable causes → lower functional status via higher stigma
+        - 62% of participants reported perceived stigma from healthcare providers
+        - Biological causal attributions were associated with lower perceived stigma
+    *Conclusion:*: Stigma is a key mechanism through which negative causal attributions worsen functional outcomes in ME/CFS.
+    *Limitations:*: Self-diagnosed sample (not clinician-confirmed); cross-sectional (no causal inference); online convenience sample.
+    *Certainty:*: 0.72
+
+=== Terman et al.\ 2020 — ME/CFS Stigma Scale Validation
+
+    *Full Citation:*: Terman JM, Awsumb JM, Cotler J, Jason LA. Confirmatory factor analysis of a myalgic encephalomyelitis and chronic fatigue syndrome stigma scale. _Journal of Health Psychology_. 2020;25(14):2352–2361. @Terman2020StigmaScale
+    *DOI:*: #link("https://doi.org/10.1177/1359105318796906")[10.1177/1359105318796906]
+    *PMID:*: 30183363
+    *Study Design:*: Psychometric validation; confirmatory factor analysis
+    *Sample Size:*: n=345
+    *Key Findings:*:
+        - Four-factor structure confirmed: alienated, self-blame, perceived discrimination, disclosure concerns
+        - Good model fit (CFI=0.92, RMSEA=0.06)
+        - Stigma scores correlated with depression and functional impairment
+        - Internal consistency high (α=0.89–0.94 across subscales)
+    *Conclusion:*: The adapted Chronic Illness Stigma Scale is a valid and reliable measure for use in ME/CFS populations.
+    *Limitations:*: Convenience sample; cross-sectional; single study (no independent replication).
+    *Certainty:*: 0.68
+
+=== McManimen et al.\ 2018 — Unsupportive Interactions, Stigma, and Suicide Risk
+
+    *Full Citation:*: McManimen SL, McClellan D, Stoothoff J, Jason LA. Effects of unsupportive social interactions, stigma, and symptoms on patients with myalgic encephalomyelitis and chronic fatigue syndrome. _Journal of Community Psychology_. 2018;46(8):959–971. @McManimen2018UnsupportiveStigma
+    *DOI:*: #link("https://doi.org/10.1002/jcop.21984")[10.1002/jcop.21984]
+    *PMID:*: 30311972
+    *Study Design:*: Cross-sectional survey; hierarchical regression
+    *Sample Size:*: n=495
+    *Key Findings:*:
+        - Unsupportive social interactions and stigma independently predict suicidal ideation (controlling for depression)
+        - Stigma associated with greater symptom severity and functional impairment
+        - 38% of sample reported suicidal ideation
+    *Conclusion:*: Stigma and social rejection are modifiable risk factors for suicidality in ME/CFS, independent of depression severity.
+    *Limitations:*: Cross-sectional; self-report measures; convenience sample.
+    *Certainty:*: 0.70
+
+=== Terman et al.\ 2019 — Psychiatric Referrals and Stigmatization (US/UK)
+
+    *Full Citation:*: Terman JM, Cotler J, Jason LA. How psychiatric referrals influence stigmatization in patients with myalgic encephalomyelitis and chronic fatigue syndrome: an examination of American and British models. _Community Psychology in Global Perspective_. 2019;5(2):19–29. @Terman2019PsychiatricReferrals
+    *DOI:*: #link("https://doi.org/10.1285/i24212113v5i2p19")[10.1285/i24212113v5i2p19]
+    *Study Design:*: Comparative survey (US vs UK patients)
+    *Sample Size:*: n=336
+    *Key Findings:*:
+        - UK model of mandatory/recommended psychiatric referral associated with higher perceived delegitimization
+        - US patients reported lower stigma from healthcare system despite less access to care
+        - Psychiatric referral perceived as communicating "it's all in your head"
+    *Conclusion:*: The framing and mandatory nature of psychiatric referral affects perceived stigmatization; optional psychiatric consultation may be less delegitimizing.
+    *Limitations:*: Retrospective self-report; non-random samples; niche journal.
+    *Certainty:*: 0.58
+
+=== Asbring & Närvänen 2002 — Women's Experiences of Stigma
+
+    *Full Citation:*: Asbring P, Närvänen AL. Women's experiences of stigma in relation to chronic fatigue syndrome and fibromyalgia. _Qualitative Health Research_. 2002;12(2):148–160. @Asbring2002WomensStigma
+    *DOI:*: #link("https://doi.org/10.1177/104973230201200202")[10.1177/104973230201200202]
+    *PMID:*: 11837367
+    *Study Design:*: Qualitative interview study
+    *Sample Size:*: n=25 women
+    *Key Findings:*:
+        - Women experienced stigma from healthcare, family, and workplace
+        - Healthcare stigma most impactful: disbelief and psychosomatic labelling
+        - Stigma led to social withdrawal and identity disruption
+        - Difficulty obtaining diagnosis created prolonged uncertainty
+    *Conclusion:*: Stigma is a pervasive experience for women with CFS/FM, compounded by the contested nature of the diagnoses.
+    *Limitations:*: Small sample; women only (no male perspective); single time point; not replicated.
+    *Certainty:*: 0.45
+
+=== Looper & Kirmayer 2004 — Perceived Stigma in Functional Somatic Syndromes
+
+    *Full Citation:*: Looper KJ, Kirmayer LJ. Perceived stigma in functional somatic syndromes and comparable medical conditions. _Journal of Psychosomatic Research_. 2004;57(4):373–378. @Looper2004PerceivedStigmaFSS
+    *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2004.03.005")[10.1016/j.jpsychores.2004.03.005]
+    *PMID:*: 15518673
+    *Study Design:*: Cross-sectional comparative survey
+    *Sample Size:*: n=203
+    *Key Findings:*:
+        - Patients with FSS (CFS, FM, IBS) perceived greater stigma than medical controls
+        - Stigma levels in CFS were comparable to other FSS
+        - Higher stigma associated with poorer health outcomes across all groups
+        - Stigma related to perceived病因 ambiguity and lack of biomarkers
+    *Conclusion:*: Perceived stigma is elevated across functional somatic syndromes compared to medically explained conditions, likely related to contested etiology.
+    *Limitations:*: Single urban hospital; cross-sectional; no causal pathway identified.
+    *Certainty:*: 0.65
+
+=== Ko et al.\ 2022 — Stigma in FSS: Systematic Review
+
+    *Full Citation:*: Ko C, Lucassen P, van der Linden B, Ballering A, Olde Hartman T. Stigma perceived by patients with functional somatic syndromes and its effect on health outcomes — a systematic review. _Journal of Psychosomatic Research_. 2022;154:110715. @Ko2022StigmaFSSReview
+    *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2021.110715")[10.1016/j.jpsychores.2021.110715]
+    *PMID:*: 35016138
+    *Study Design:*: Systematic review
+    *Sample Size:*: 12 studies included
+    *Key Findings:*:
+        - Stigma consistently associated with worse health outcomes across FSS
+        - ME/CFS shows comparable or higher stigma vs other FSS
+        - Stigma affects quality of life, symptom severity, healthcare utilization
+        - Internalized stigma (self-blame, shame) prominent in ME/CFS
+    *Conclusion:*: Stigma is a clinically meaningful factor in FSS outcomes; systematic assessment recommended.
+    *Limitations:*: Heterogeneous stigma measures; most studies cross-sectional; limited ME/CFS-specific subgroup analysis.
+    *Certainty:*: 0.75
+
+=== Fennell et al.\ 2021 — Elements of Suffering: Stigma in Severe ME/CFS
+
+    *Full Citation:*: Fennell PA, Dorr N, George SS. Elements of suffering in myalgic encephalomyelitis/chronic fatigue syndrome: the experience of loss, grief, stigma, and trauma in the severely and very severely affected. _Healthcare_. 2021;9(5):553. @Fennell2021Suffering
+    *DOI:*: #link("https://doi.org/10.3390/healthcare9050553")[10.3390/healthcare9050553]
+    *PMID:*: 34065069
+    *Study Design:*: Qualitative analysis (written narratives + interviews)
+    *Sample Size:*: n=16 severely/very severely affected
+    *Key Findings:*:
+        - Stigma is a core element of suffering in severe ME/CFS
+        - Stigma compounds loss, grief, and trauma
+        - Healthcare dismissal particularly damaging for severe patients
+        - Stigma from family members and social networks reported
+    *Conclusion:*: Stigma is inseparable from the experience of severe ME/CFS and must be addressed clinically.
+    *Limitations:*: Very small sample; severe subgroup only (not generalizable to mild/moderate); single study.
+    *Certainty:*: 0.55
+
+=== Melby & Nair 2024 — Healthcare Dissatisfaction in ME/CFS
+
+    *Full Citation:*: Melby L, Nair RD. 'We have no services for you\ldots so you have to make the best out of it': a qualitative study of myalgic encephalomyelitis/chronic fatigue syndrome patients' dissatisfaction with healthcare services. _Health Expectations_. 2024;27(1):e13900. @Melby2024HealthcareDissatisfaction
+    *DOI:*: #link("https://doi.org/10.1111/hex.13900")[10.1111/hex.13900]
+    *PMID:*: 37905602
+    *Study Design:*: Qualitative semi-structured interviews
+    *Sample Size:*: n=22
+    *Key Findings:*:
+        - Feeling disbelieved by healthcare providers is the dominant theme
+        - Lack of clinician knowledge about ME/CFS is universal
+        - Inadequate referral pathways to appropriate specialists
+        - Patients forced into self-management due to service absence
+    *Conclusion:*: Healthcare systems fail ME/CFS patients through disbelief, lack of knowledge, and absence of coordinated specialist services.
+    *Limitations:*: Norwegian healthcare context; self-selected; moderate sample for qualitative study.
+    *Certainty:*: 0.60
+
+=== Hussein et al.\ 2024 — Healthcare Barriers in Canada: Scoping Review
+
+    *Full Citation:*: Hussein S, Eiriksson L, MacQuarrie M, Merriam S, Dalton M, Nacul L, Lacerda E. Healthcare system barriers impacting the care of Canadians with myalgic encephalomyelitis: a scoping review. _Journal of Evaluation in Clinical Practice_. 2024;30(7):1337–1360. @Hussein2024HealthcareBarriers
+    *DOI:*: #link("https://doi.org/10.1111/jep.14047")[10.1111/jep.14047]
+    *PMID:*: 39031904
+    *Study Design:*: Scoping review
+    *Sample Size:*: 14 sources
+    *Key Findings:*:
+        - Contested nosology and lack of diagnostic framework are foundational barriers
+        - Insufficient clinician education about ME/CFS at all levels
+        - Absence of standardized diagnostic pathways and referral protocols
+        - Geographic inequity in access to specialized care
+        - Systemic dismissal of patient-reported symptoms
+    *Conclusion:*: Healthcare barriers for ME/CFS are structural and systemic, requiring policy-level interventions beyond individual clinician education.
+    *Limitations:*: Canadian context (may not generalize); sources limited to peer-reviewed literature; gray literature excluded.
+    *Certainty:*: 0.72
+
+=== Guise et al.\ 2010 — Discourse Analysis of Doctor-Patient Interactions
+
+    *Full Citation:*: Guise J, McVittie C, McKinlay A. A discourse analytic study of ME/CFS (chronic fatigue syndrome) sufferers' experiences of interactions with doctors. _Journal of Health Psychology_. 2010;15(3):426–435. @Guise2010DiscourseDoctors
+    *DOI:*: #link("https://doi.org/10.1177/1359105309350515")[10.1177/1359105309350515]
+    *PMID:*: 20348363
+    *Study Design:*: Discourse analysis of written accounts
+    *Sample Size:*: n=18
+    *Key Findings:*:
+        - Patients navigate three discursive positions: legitimizing illness, challenging psychosomatic framing, managing spoiled identity
+        - Doctor responses that delegitimize illness force patients into defensive rhetorical work
+        - Psychosomatic attribution is experienced as stigmatizing regardless of intent
+    *Conclusion:*: Medical encounters involve a discursive struggle over the legitimacy of ME/CFS; patients expend significant effort managing their identity as credible.
+    *Limitations:*: Small sample; written accounts only; no observation of actual consultations; not replicated.
+    *Certainty:*: 0.55
+
+=== Deale & Wessely 2001 — Patients' Perceptions of Medical Care
+
+    *Full Citation:*: Deale A, Wessely S. Patients' perceptions of medical care in chronic fatigue syndrome. _Social Science & Medicine_. 2001;52(12):1859–1864. @Deale2001PerceptionsCare
+    *DOI:*: #link("https://doi.org/10.1016/S0277-9536(00)00302-6")[10.1016/S0277-9536(00)00302-6]
+    *PMID:*: 11352411
+    *Study Design:*: Cross-sectional survey of a specialist clinic cohort
+    *Sample Size:*: n=68
+    *Key Findings:*:
+        - 64% reported dissatisfaction with prior medical care for CFS
+        - Key issues: lack of sympathy, diagnostic delay, contested etiology
+        - Patients who received a sympathetic explanation reported lower distress
+    *Conclusion:*: Patient dissatisfaction with medical care is high and associated with perceived lack of legitimacy.
+    *Limitations:*: Single specialist clinic; UK context; dated (2001); no independent replication.
+    *Certainty:*: 0.58
+
+=== Bayliss et al.\ 2014 — Barriers in Primary Care: Meta-Synthesis
+
+    *Full Citation:*: Bayliss K, Goodall M, Chisholm A, Fordham B, Chew-Graham C, Riste L, Fisher L, Lovell K, Peters S, Wearden A. Overcoming the barriers to the diagnosis and management of chronic fatigue syndrome/ME in primary care: a meta-synthesis of qualitative studies. _BMC Family Practice_. 2014;15:44. @Bayliss2014BarriersPrimaryCare
+    *DOI:*: #link("https://doi.org/10.1186/1471-2296-15-44")[10.1186/1471-2296-15-44]
+    *PMID:*: 24606913
+    *Study Design:*: Meta-synthesis of qualitative studies
+    *Sample Size:*: 12 qualitative studies
+    *Key Findings:*:
+        - GPs lack knowledge about diagnostic criteria and management
+        - Diagnostic uncertainty leads to therapeutic nihilism
+        - Contested nosology undermines confidence in diagnosis
+        - Poor doctor-patient communication perpetuates mutual frustration
+    *Conclusion:*: Primary care barriers to ME/CFS management are multifactorial; interventions must address knowledge gaps and attitudinal barriers.
+    *Limitations:*: Included studies mostly UK; meta-synthesis cannot quantify prevalence of barriers; publication window 2000–2013.
+    *Certainty:*: 0.68
+
+=== Knudsen et al.\ 2011 — Media Portrayal of CFS
+
+    *Full Citation:*: Knudsen AK, Omenås AN, Harvey SB, Løvvik CM, Lervik LV, Mykletun A. Chronic fatigue syndrome in the media: a content analysis of newspaper articles. _JRSM Short Reports_. 2011;2(5):42. @Knudsen2011MediaStigma
+    *DOI:*: #link("https://doi.org/10.1258/shorts.2011.011016")[10.1258/shorts.2011.011016]
+    *PMID:*: 21637403
+    *Study Design:*: Content analysis of newspaper articles
+    *Sample Size:*: 280 articles (UK and Norwegian newspapers)
+    *Key Findings:*:
+        - 70% of articles emphasized psychological causes or controversy
+        - Biological/medical framing was rare
+        - Headlines disproportionately used sceptical or dismissive language
+        - Media contributes to stigmatization through psychiatric characterisation
+    *Conclusion:*: Media representation of CFS emphasizes psychiatric framing and controversy, likely contributing to public stigma.
+    *Limitations:*: Newspapers only (no broadcast/social media); UK and Norway only; dated (2011).
+    *Certainty:*: 0.70
+
+=== Ware 1999 — Social Course of Chronic Illness: CFS Model
+
+    *Full Citation:*: Ware NC. Toward a model of social course in chronic illness: the example of chronic fatigue syndrome. _Culture, Medicine and Psychiatry_. 1999;23(3):303–331. @Ware1999SocialCourse
+    *DOI:*: #link("https://doi.org/10.1023/A:1005577823045")[10.1023/A:1005577823045]
+    *PMID:*: 10572737
+    *Study Design:*: Ethnographic study; narrative analysis
+    *Sample Size:*: n=50
+    *Key Findings:*:
+        - Disputed diagnosis leads to social marginalization
+        - Identity disruption from contested illness status
+        - Delegitimization by physicians, family, and broader society
+        - Proposes "social course" as parallel to clinical course in chronic illness
+    *Conclusion:*: The social course of CFS is characterized by progressive delegitimization that compounds clinical burden.
+    *Limitations:*: Single ethnographic study; limited generalizability; dated (1999); not replicated with current diagnostic criteria.
+    *Certainty:*: 0.60
+
+=== Jason et al.\ 2002 — Illness Name and Stigma
+
+    *Full Citation:*: Jason LA, Taylor RR, Plioplys S, Stepanek Z, Shlaes J. Evaluating attributions for an illness based upon the name: chronic fatigue syndrome, myalgic encephalopathy and Florence Nightingale disease. _American Journal of Community Psychology_. 2002;30(1):133–148. @Jason2002IllnessName
+    *DOI:*: #link("https://doi.org/10.1023/A:1014328319297")[10.1023/A:1014328319297]
+    *PMID:*: 11928774
+    *Study Design:*: Experimental vignette study
+    *Sample Size:*: n=143
+    *Key Findings:*:
+        - "Chronic fatigue syndrome" generates more negative attributions than "myalgic encephalopathy"
+        - "Florence Nightingale disease" generates the least negative attributions
+        - Name directly influences perceived seriousness and organicity
+    *Conclusion:*: The illness name itself is a vector of stigma; "myalgic encephalopathy" reduces negative attributions compared to "chronic fatigue syndrome."
+    *Limitations:*: Vignette methodology (hypothetical scenarios); student sample; dated (2002).
+    *Certainty:*: 0.60
+
+=== Johnson et al.\ 2022 — Suicide Risk Factors and Stigma in CFS
+
+    *Full Citation:*: Johnson ML, Cotler J, Terman JM, Jason LA. Risk factors for suicide in chronic fatigue syndrome. _Death Studies_. 2022;46(3):738–744. @Johnson2022SuicideRiskStigma
+    *DOI:*: #link("https://doi.org/10.1080/07481187.2020.1776789")[10.1080/07481187.2020.1776789]
+    *PMID:*: 32527207
+    *Study Design:*: Cross-sectional survey; logistic regression
+    *Sample Size:*: n=495
+    *Key Findings:*:
+        - Perceived stigma and illness delegitimization associated with suicidal ideation after controlling for depression
+        - Prior suicide attempts more frequent in ME/CFS vs general population
+        - Stigma from healthcare providers specifically associated with worse outcomes
+    *Conclusion:*: Stigma and delegitimization are independent risk factors for suicide in ME/CFS, meriting clinical attention.
+    *Limitations:*: Cross-sectional; online convenience sample; self-report measures.
+    *Certainty:*: 0.68
+

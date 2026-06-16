@@ -578,3 +578,14 @@ Prevents re-processing of already-integrated content.
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8150292/ | pubmed/pmc | 2026-06-04 | — | Maksoud2021MECFSSleepReview — Systematic review ME/CFS sleep characteristics |
 | https://www.science.org/doi/10.1126/sciadv.adj6834 | science.org | 2026-06-04 | — | Jeppe2024SleepMetabolomeBlood — Blood metabolomic sleep deprivation biomarker |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC7815960/ | pubmed/pmc | 2026-06-06 | 2026-06-06 | ch14d/appendix-h/bib/content-staging — Bartley2020SchizophreniaHomecoming — Schizophrenia autoantibody history cross-disease parallel for ME/CFS |
+
+## Stigmatisation in ME/CFS Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-16 | 10 queries: stigma ME/CFS title search, healthcare experiences, medical gaslighting, psychosocial burden, scoping review, child stigma, narratives/perceptions, illness legitimacy, internalized stigma, work stigma |
+| Crossref API | 2026-06-16 | Title/semantic search for "Stigmatisation in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome" scoping review (RG #406829675 — not found) |
+| OpenAlex API | 2026-06-16 | Title/keyword search for primary scoping review (not found in indexed literature) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (10 queries, batch) | pubmed/eutils | 2026-06-16 | — | content-staging/literature-stigmatisation-2026-06-16.md, bib/appendix-h — Stigmatisation in ME/CFS literature collection (17 bib entries, 15 annotated) |
