@@ -255,6 +255,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | gwas-meta-maccallini-2026 | [subtrees/gwas-meta-maccallini-2026.md](subtrees/gwas-meta-maccallini-2026.md) | 2026-06-08 | 57 | 14 | ✅ done |
 | trpm3-ion-channels | [subtrees/trpm3-ion-channels.md](subtrees/trpm3-ion-channels.md) | 2026-06-08 | 35 | 5 | ✅ done |
 | mtor-autophagy | [subtrees/mtor-autophagy.md](subtrees/mtor-autophagy.md) | 2026-06-09 | 37 | 28 | 🔵 in progress |
+| stigmatisation | [subtrees/stigmatisation.md](subtrees/stigmatisation.md) | 2026-06-16 | 81 | 0 | 🔵 in progress |
 
 ---
 ## 2026 Literature Scan Notes
