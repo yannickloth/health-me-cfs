@@ -1,0 +1,56 @@
+date: 2026-06-11
+
+sleep:
+  previous_night:
+    date: 2026-06-10
+    quality: very_poor
+    notes: "Headache (less intense), restless legs, multiple nocturnal awakenings, insomnia, diffuse leg pain"
+    source: patient_report
+  duration_hours: unknown
+
+medications_supplements:
+  prescribed_medications:
+    - "All prescribed medication taken daily as prescribed"
+  supplements: ~
+  notes: ~
+
+symptoms:
+  headache:
+    severity: moderate
+    notes: "Headache continued from previous day, through evening"
+  brain_fog:
+    severity: present
+    notes: "Brain fog continued through evening"
+  restless_legs:
+    severity: present
+    notes: "Restless legs during previous night — new PEM feature"
+  flu_like_state:
+    severity: present
+    notes: "Flu-like state: fatigue, sweating, sensation of heat — classic PEM constitutional symptom"
+  leg_pain:
+    severity: present
+    notes: "Diffuse leg pain during previous night"
+  insomnia:
+    severity: present
+    notes: "Multiple nocturnal awakenings, insomnia during previous night"
+  overall:
+    severity: severe
+    notes: "Migraine + brain fog + flu-like state (fatigue, sweating, heat sensation) persisted through Thursday. PEM day 3, ongoing. Night: headache less intense but restless legs + leg pain + insomnia."
+
+overall_wellbeing: very_low
+
+activity:
+  activity_level:
+    - description: "Forced rest, symptoms ongoing"
+
+hypotheses:
+  - id: restless_legs_pem_manifestation
+    text: "Restless legs emerging during PEM night (Thu→Fri) suggests dopaminergic/iron dysregulation or peripheral neuropathy triggered by exertion. Not previously documented as PEM symptom for this patient."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If restless legs resolve with PEM resolution, supports causal link. If persists independently, separate pathology."
+  - id: pem_day3_pattern
+    text: "Day 3 of PEM (Jun 11) still severe — headache + brain fog continue. Consistent with 5-7 day recovery pattern observed after lawn mowing episode."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If recovery trajectory matches prior episodes (5-7 days), supports consistent PEM physiology."

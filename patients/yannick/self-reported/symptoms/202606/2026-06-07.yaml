@@ -1,0 +1,25 @@
+date: 2026-06-07
+
+sleep:
+  duration_hours: unknown
+  quality: unknown
+  source: patient_report
+
+medications_supplements:
+  prescribed_medications:
+    - "All prescribed medication taken daily as prescribed"
+  supplements: ~
+  notes: ~
+
+symptoms:
+  muscle_pain:
+    severity: absent
+    notes: "Zero muscle pain — day 2 of 3-day pain-free window."
+  overall:
+    severity: minimal
+
+overall_wellbeing: good
+
+activity:
+  activity_level:
+    - description: "Not recorded"

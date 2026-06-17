@@ -1,0 +1,8 @@
+Title: Incretin-based therapeutics for the treatment of neurodegenerative diseases.
+Authors: Vear Anika; Heneka Michael T; Clemmensen Christoffer
+Journal: Nature metabolism (2025)
+DOI: 10.1038/s42255-025-01263-4
+PMID: 40211045
+
+ABSTRACT:
+Neurodegenerative diseases (NDDs) represent a heterogeneous group of disorders characterized by progressive neuronal loss, which results in significant deficits in memory, cognition, motor skills, and sensory functions. As the prevalence of NDDs rises, there is an urgent unmet need for effective therapies. Current drug development approaches primarily target single pathological features of the disease, which could explain the limited efficacy observed in late-stage clinical trials. Originally developed for the treatment of obesity and diabetes, incretin-based therapies, particularly long-acting GLP-1 receptor (GLP-1R) agonists and GLP-1R-gastric inhibitory polypeptide receptor (GIPR) dual agonists, are emerging as promising treatments for NDDs. Despite limited conclusive preclinical evidence, their pleiotropic ability to reduce neuroinflammation, enhance neuronal energy metabolism and promote synaptic plasticity positions them as potential disease-modifying NDD interventions. In anticipation of results from larger clinical trials, continued advances in next-generation incretin mimetics offer the potential for improved brain access and enhanced neuroprotection, paving the way for incretin-based therapies as a future cornerstone in the management of NDDs.

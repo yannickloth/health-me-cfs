@@ -1,0 +1,39 @@
+date: 2026-06-12
+
+sleep:
+  previous_night:
+    date: 2026-06-11
+    quality: very_poor
+    notes: "Restless legs, multiple nocturnal awakenings, insomnia, diffuse leg pain. Headache less intense than previous night."
+    source: patient_report
+  duration_hours: unknown
+
+medications_supplements:
+  prescribed_medications:
+    - "All prescribed medication taken daily as prescribed"
+  supplements: ~
+  notes: ~
+
+symptoms:
+  fatigue:
+    severity: severe
+    notes: "Irresistible fatigue sensation"
+  leg_pain:
+    severity: present
+    notes: "Diffuse leg pain"
+  overall:
+    severity: severe
+    notes: "Irresistible fatigue + diffuse leg pain. PEM day 4."
+
+overall_wellbeing: very_low
+
+activity:
+  activity_level:
+    - description: "Forced rest due to severe fatigue"
+
+hypotheses:
+  - id: pem_day4_fatigue_dominant
+    text: "Day 4 shift from headache/brain-fog dominant (days 2-3) to fatigue/pain dominant. Suggests evolving PEM phases: early neuroinflammatory → later metabolic depletion."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If this phase pattern repeats across future PEM episodes, supports multi-phase PEM model."

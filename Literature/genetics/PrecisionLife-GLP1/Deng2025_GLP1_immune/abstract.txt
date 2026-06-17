@@ -1,0 +1,8 @@
+Title: Roles of glucagon-like peptide 1 receptor agonists in immune cell biology and autoimmune/autoinflammatory diseases.
+Authors: Deng Sihui; Chen Zeyu; Shi Yuling
+Journal: Cell & bioscience (2025)
+DOI: 10.1186/s13578-025-01486-8
+PMID: 41074143
+
+ABSTRACT:
+Glucagon-like peptide-1 (GLP-1) is a gut-derived hormone essential for maintaining glucose homeostasis through multiple physiological pathways: triggering insulin release, inhibiting glucagon secretion, delaying gastric emptying, enhancing feelings of fullness, and suppressing appetite. Since GLP-1 is prone to degradation by dipeptidyl peptidase 4, GLP-1 receptor agonists (GLP-1RAs) have been developed to surmount this degradation challenge. At present, GLP-1RAs have become highly effective treatments for managing type 2 diabetes mellitus and obesity. Beyond their well-established benefits for blood sugar regulation and weight control, GLP-1RAs also exhibit various biological activities associated with both insulinotropic effects and immunoregulation. These effects have been demonstrated through in vitro studies, preclinical models, and clinical observations. This review aims to explore the effects of GLP-1R signaling on various immune cells and evaluate the therapeutic potential of GLP-1RAs in autoimmune and autoinflammatory diseases, including psoriasis, inflammatory bowel diseases, rheumatoid arthritis, asthma, multiple sclerosis, Sjögren's syndrome, and systemic lupus erythematosus.

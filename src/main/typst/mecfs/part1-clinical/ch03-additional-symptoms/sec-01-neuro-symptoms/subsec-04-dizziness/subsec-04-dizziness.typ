@@ -36,6 +36,4 @@ Reduced HRV (particularly RMSSD) is observed across all three conditions, reflec
 
 The similarity in dysautonomic profiles suggests a common dysregulation of the autonomic nervous system rather than distinct pathologies specific to each diagnosis. The substantial underdiagnosis—due to lack of routine tilt testing—contributes to prolonged diagnostic delays.
 
-#achievement(title: [Autonomic Testing Utility])[
-Objective autonomic testing (HRV measurement, tilt testing) provides measurable evidence of dysautonomia in ME/CFS, fibromyalgia, and Long COVID. The convergence of autonomic abnormalities across these conditions supports a shared biological mechanism and provides a pathway for objective diagnosis.
-]
+#include "achievements/ach-autonomic-testing-utility.typ"

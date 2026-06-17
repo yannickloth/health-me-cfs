@@ -1,0 +1,11 @@
+Title: Utility of glucagon-like-peptide-1-receptor agonists in mast cell activation syndrome.
+Authors: Afrin Lawrence B; Weinstock Leonard B; Dempsey Tania T; Aschenbrenner Katja; Blitshteyn Svetlana; Schofield Jill R
+Journal: The American journal of the medical sciences (2025)
+DOI: 10.1016/j.amjms.2025.07.006
+PMID: 40675372
+
+ABSTRACT:
+INTRODUCTION: Mast cell (MC) activation syndrome (MCAS) is a collection of illnesses rooted in inappropriate MC activation with little to no neoplastic MC proliferation, distinguishing it from mastocytosis. Due to great heterogeneity in the underlying MC regulatory gene mutational profiles present in most cases and resulting great heterogeneity in aberrant expression of the hundreds of potent mediators known to be expressed by MCs, MCAS presents with great heterogeneity but dominantly manifests as chronic multisystem polymorbidity of generally inflammatory, allergic, and dystrophic phenotypes. MCAS's heterogeneity at multiple levels poses challenges for identifying optimal individual treatment. Targeting commonly affected downstream effectors of the disease's various symptoms may yield clinical benefit independent of the root/upstream mutational profile in the individual patient. Glucagon-like peptide-1 receptor agonists (GLP-1RAs) engage with GLP-1 receptors present on many types of cells, including MCs. These drugs are already approved for management of a few chronic inflammatory diseases (e.g., diabetes mellitus type 2, obesity, obstructive sleep apnea) but are increasingly being appreciated to help in a wide range of other inflammatory diseases.
+METHODS: We present the first case series showing utility of a variety of GLP-1RAs for managing refractory MCAS in a diverse assortment of such patients.
+RESULTS: Among 47 cases (mean age 39, range 15-71, 89 % female), 89 % demonstrated clinical benefit with GLP-1RAs for a broad range of problems associated with MCAS.
+CONCLUSION: GLP-1RAs may have substantial benefit in MCAS. Randomized controlled trials are needed to assess the efficacy, and identify optimal dosing, of GLP-1RA treatment in MCAS.

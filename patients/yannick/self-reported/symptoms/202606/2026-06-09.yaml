@@ -1,0 +1,31 @@
+date: 2026-06-09
+
+sleep:
+  duration_hours: unknown
+  quality: unknown
+  source: patient_report
+
+medications_supplements:
+  prescribed_medications:
+    - "All prescribed medication taken daily as prescribed"
+  supplements: ~
+  notes: ~
+
+symptoms:
+  overall:
+    severity: minimal
+    notes: "Jun 6-8 inclusive: zero muscle pain — unprecedented since patient began tracking in Jan 2026. Felt well enough to test recovery capacity."
+
+overall_wellbeing: good
+
+activity:
+  exercise:
+    - description: "WaterRower (on floor), moderate pace, 20 minutes"
+    purpose: "Deliberate exertion test after 3 symptom-free days"
+
+hypotheses:
+  - id: exertion_test_post_recovery
+    text: "20min water rower at moderate pace used as self-assessment of energy envelope after 3 asymptomatic days. Risk of PEM if envelope not yet restored."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If no PEM develops within 48h, envelope restored. If PEM develops, recovery lagged behind subjective state."

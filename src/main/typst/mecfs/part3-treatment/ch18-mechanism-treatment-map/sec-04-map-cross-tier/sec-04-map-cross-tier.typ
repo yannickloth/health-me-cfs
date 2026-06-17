@@ -17,7 +17,7 @@ Some interventions target multiple mechanisms simultaneously, or address disease
     [Mediterranean / anti-inflammatory diet], [Tier 2: oxidative stress ↓, gut barrier ↑, mast cell load ↓], [A], [Lifestyle; no ME/CFS RCT],
     [MCT oil], [Ketone substrate; bypasses glycolytic bottleneck], [A], [Supplement; no ME/CFS RCT],
     [Rapamycin (sirolimus)], [Tier 1 (immune brake) + Tier 2 (mitophagy, epigenetic aging ↓)], [B/C], [Pilot — ~34% ITT response],
-    [GLP-1 agonists (semaglutide)], [Neuroinflammation ↓ + metabolic + vagal tone; genetic pathway enrichment (PrecisionLife @Gardner2026BRMEC15)], [B/C], [Experimental; Long COVID signal; no ME/CFS data; liraglutide preferred for CNS endpoints (see @sec:glp1-subgroup-stratified-repurposing)],
+    [GLP-1 agonists (semaglutide)], [Neuroinflammation ↓ + metabolic + vagal tone; genetic pathway enrichment (PrecisionLife @Gardner2026BRMEC15)], [B/C], [Experimental; Long COVID signal; no ME/CFS data; liraglutide preferred for CNS endpoints (see @spec:glp1-subgroup-stratified-repurposing)],
     [LOLA (L-ornithine L-aspartate)], [Ammonia detoxification + mitochondrial substrate], [A/B], [Experimental],
     [Perrin technique (lymphatic drainage)], [Glymphatic clearance of CNS neurotoxins; ANS normalization], [A], [Very low evidence; mechanistically plausible],
     [CA inhibitors (acetazolamide / topiramate)], [CSF volume reduction / intracranial pressure normalization; topiramate adds TRPV1–mast cell modulation], [B/C], [IIH Class I evidence (acetazolamide); no ME/CFS trial; cognitive worsening concern @Mitchell2025drugComparison; @Medow2024acetazolamideMECFS; see @sec:csf-drainage-synergy],

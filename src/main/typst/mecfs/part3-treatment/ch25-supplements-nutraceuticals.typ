@@ -2416,4 +2416,4 @@ Quercetin (500 mg BID) stabilizes mast cells and desensitizes TRPV1 receptors in
 *Certainty: 0.25.* Taurine (1--3 g/day) stabilizes mitochondrial membranes, reduces oxidative stress, and modulates calcium handling — all processes stressed during thermoregulatory work. While taurine's mitochondrial-protective and calcium-modulating effects are well-characterized, no ME/CFS thermoregulation-specific data exist. Falsifiable: taurine over 12 weeks increases mitochondrial membrane potential stability during controlled heat challenge by >25%. Taurine is generally safe and inexpensive, making it a low-risk adjunct.
 ] <spec:taurine-thermoreg>
 
-#include "ch25-brain-clearance-supplements.typ"
+#include "ch25-brain-clearance-supplements/ch25-brain-clearance-supplements.typ"

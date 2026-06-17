@@ -1,4 +1,4 @@
-#import "../shared/environments.typ": *
+#import "../../shared/environments.typ": *
 
 = Clinical Trials and Treatment Studies
 <ch:clinical-trials>

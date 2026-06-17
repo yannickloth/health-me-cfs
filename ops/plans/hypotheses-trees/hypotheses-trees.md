@@ -256,6 +256,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | trpm3-ion-channels | [subtrees/trpm3-ion-channels.md](subtrees/trpm3-ion-channels.md) | 2026-06-08 | 35 | 5 | ✅ done |
 | mtor-autophagy | [subtrees/mtor-autophagy.md](subtrees/mtor-autophagy.md) | 2026-06-09 | 37 | 28 | 🔵 in progress |
 | stigmatisation | [subtrees/stigmatisation.md](subtrees/stigmatisation.md) | 2026-06-16 | 81 | 0 | 🔵 in progress |
+| precisionlife-glp1 | [subtrees/precisionlife-glp1.md](subtrees/precisionlife-glp1.md) | 2026-06-17 | 35 | 35 | ✅ done |
 
 ---
 ## 2026 Literature Scan Notes

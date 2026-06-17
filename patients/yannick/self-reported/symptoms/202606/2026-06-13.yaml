@@ -1,0 +1,44 @@
+date: 2026-06-13
+
+sleep:
+  previous_night:
+    date: 2026-06-12
+    quality: poor
+    notes: "Restless legs, somewhat calmer than previous night but still fragmented with awakenings"
+    source: patient_report
+  duration_hours: unknown
+
+medications_supplements:
+  prescribed_medications:
+    - "All prescribed medication taken daily as prescribed"
+  supplements: ~
+  notes: ~
+
+symptoms:
+  fatigue:
+    severity: present
+    notes: "Fatigue during day"
+  leg_pain:
+    severity: present
+    notes: "Diffuse leg pain during day"
+  overall:
+    severity: moderate
+    notes: "Leg pain + fatigue during day. Evening was better — first improvement signal. PEM day 5."
+
+overall_wellbeing: low  # evening improved
+
+activity:
+  activity_level:
+    - description: "Rest during day; evening shows improvement"
+
+hypotheses:
+  - id: pem_day5_improvement_signal
+    text: "Evening improvement on day 5 — first sign of recovery. Consistent with 5-7 day PEM recovery trajectory. Restless legs still present during night, suggesting incomplete resolution."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If full recovery occurs by day 7-8, matches expected trajectory. If symptoms persist beyond day 10, recovery trajectory extended."
+  - id: diurnal_symptom_fluctuation
+    text: "Evening improvement while daytime symptoms persist — suggests circadian or activity-dependent symptom modulation."
+    status: patient_hypothesis
+    falsifiable: false
+    test: "Cannot falsify — pattern observation only."

@@ -82,6 +82,18 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (batch, ~15 queries) | pubmed/eutils | 2026-06-08 | — | content-staging/integration-guide-trpm3-ion-channels-2026-06-08.md, bib/appendix-h — MMP-9/IL-11/mast cell literature collection (12 papers: 4 primary + 8 additional) |
 
+## PrecisionLife GLP-1 Genetics Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-17 | 17 queries: GLP-1 RA + CFS, GLP-1 + ME/CFS, PrecisionLife combinatorial analytics, GLP-1 neuroinflammation calcium/synaptic, GLP-1 endothelial dysfunction, GLP-1 autoimmune/inflammatory, polygenic heterogeneity CFS, drug repurposing ME/CFS stratification, GLP-1 negative/null, GLP-1 neurological effects, Gardner PrecisionLife, semaglutide long COVID, combinatorial genetics ME/CFS, exenatide fatigue, GLP-1 post-viral fatigue, genetic risk SNP interaction, GLP-1 neuroprotection fatigue |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (17 queries, batch) | pubmed/eutils | 2026-06-17 | — | content-staging/literature-glp1-genetics-2026-06-17.md, bib — PrecisionLife GLP-1 genetics literature (17 primary papers) |
+| https://precisionlife.com/glp1 | precisionlife.com | 2026-06-17 | — | content-staging/literature-glp1-genetics-2026-06-17.md — PrecisionLife GLP-1 prediction platform |
+| https://investinme.org/brmec15-stevegardner.shtml | investinme.org | 2026-06-17 | — | content-staging/literature-glp1-genetics-2026-06-17.md — BRMEC15 Gardner GLP-1 presentation |
+| https://www.sciencedirect.com/science/article/pii/S266731852500017 | sciencedirect | 2026-06-17 | — | content-staging/literature-glp1-genetics-2026-06-17.md — Related paper (403 error, access blocked) |
+
 ## Articles
 
 | URL | Source | Scraped | Integrated | Target |

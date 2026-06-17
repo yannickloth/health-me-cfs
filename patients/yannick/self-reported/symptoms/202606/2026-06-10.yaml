@@ -1,0 +1,41 @@
+date: 2026-06-10
+
+sleep:
+  duration_hours: unknown
+  quality: unknown
+  source: patient_report
+
+medications_supplements:
+  prescribed_medications:
+    - "All prescribed medication taken daily as prescribed"
+  supplements: ~
+  notes: ~
+
+symptoms:
+  headache:
+    severity: severe
+    notes: "Strong migraine starting at midday"
+  brain_fog:
+    severity: severe
+    notes: "Mental fog, starting at midday"
+  overall:
+    severity: severe
+    notes: "Severe migraine + brain fog from midday through evening. Delayed-onset PEM from Jun 9 water rower (~20h latency)."
+
+overall_wellbeing: very_low
+
+activity:
+  activity_level:
+    - description: "Forced rest due to severe symptoms"
+
+hypotheses:
+  - id: pem_delayed_onset_waterrower
+    text: "Severe migraine + brain fog ~20h after 20min water rower exertion. Classic delayed-onset PEM pattern, more neurological-weighted than prior episodes."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If symptoms resolve within 3-5 days with strict rest, PEM confirmed. If symptoms persist beyond 7 days, consider alternative trigger."
+  - id: neuroinflammatory_pem_presentation
+    text: "Headache and brain fog as dominant PEM features suggests neuroinflammatory mechanism rather than purely metabolic depletion."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If anti-inflammatory interventions (LDN, famotidine) reduce symptom severity during future episodes, supports neuroinflammatory component."

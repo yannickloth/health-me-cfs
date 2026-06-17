@@ -1,0 +1,11 @@
+Title: The effect of GLP-1 receptor agonists on circulating inflammatory markers in type 2 diabetes patients: A systematic review and meta-analysis.
+Authors: Ren Yifan; Chen Yuzhang; Zheng Wenbin; Kong Wen; Liao Yunfei; Zhang Jiaoyue; Wang Meng; Zeng Tianshu
+Journal: Diabetes, obesity & metabolism (2025)
+DOI: 10.1111/dom.16366
+PMID: 40230207
+
+ABSTRACT:
+AIM: To investigate whether the antidiabetic agent glucagon-like peptide-1 receptor agonists (GLP-1 RAs) can exert anti-inflammatory effects while lowering blood glucose, we performed a meta-analysis and systematic review.
+METHODS: We searched 4 online databases (Medline, Embase, Cochrane Library and the Web of Science) for randomised controlled trials (RCTs) that examined changes after GLP-1RAs intervention in commonly accepted biomarkers of inflammation: C-reactive protein (CRP), tumour necrosis factor-alpha (TNF-α), interleukin-6 (IL-6), interleukin-1β (IL-1β), leptin, adiponectin, plasminogen activator inhibitor-1 (PAI-1), monocyte chemotactic protein-1(MCP-1) and advanced glycation end products (AGEs).
+RESULTS: This meta-analysis included 52 eligible RCTs (n = 4734) with a median follow-up of 24 weeks, a mean age of 54.13 years, 44.46% females, body mass index (BMI) 29.80 kg/m2, glycated haemoglobin (HbA1c) 8.28% and diabetes duration 7.27 years. GLP-1 RAs treatment, compared to placebo or conventional diabetes therapies (including oral medicine and insulin), resulted in significant reductions in CRP, TNF-α, IL-6, IL-1β and leptin (standard mean difference [SMD] -0.63 [-1.03, -0.23]; SMD -0.92 [-1.57, -0.27]; SMD -0.76 [-1.32, -0.20], SMD -3.89 [-6.56, -1.22], SMD -0.67 [-1.09, -0.26], respectively), as well as significant increases in adiponectin (SMD 0.69 [0.19, 1.19]).
+CONCLUSIONS: Our meta-analysis demonstrates that GLP-1 RAs exert significant anti-inflammatory effects in patients with T2DM. Our findings provide important insights that may guide the therapeutic application of GLP-1 RAs and inform the development of related therapies.

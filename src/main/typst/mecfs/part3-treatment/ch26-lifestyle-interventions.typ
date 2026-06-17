@@ -2571,7 +2571,6 @@ Cold face immersion activates the mammalian diving reflex — a phylogenetically
 
 *Limitations:* Zero patient-population data. The sympathetic co-activation documented by Schlader et al. (23 mmHg MAP rise, 44--72% vasoconstriction) is a genuine safety concern in ME/CFS where sympathetic overactivity and vasomotor constriction bias are documented features. The 0°C temperature required for vagal activation is far colder than common recommendations and carries practical risks (frostbite, discomfort, poor adherence). No dosing or conditioning data exist. CFI is mechanistically less selective for vagal activation than tVNS. This intervention should remain research-stage until safety data in autonomic dysfunction populations are available. *Clinical bottom line: given the near-universal contraindications (POTS, orthostatic intolerance, hypertension, Raynaud's — affecting 70-97% of ME/CFS patients), cold face immersion at 0°C is not a clinically viable intervention for the ME/CFS population. The present protocol is included for mechanistic completeness only.*
 ] <spec:cold-face-immersion>
-<sec:pacing-isr-frame>
 
 Pacing is the central non-pharmacological intervention in ME/CFS, grounded in decades of clinical experience and supported by the post-exertional malaise (PEM) evidence base. The Integrated Stress Response provides a mechanistic frame that reconceptualises pacing not merely as energy budgeting but as prevention of an ISR cycle that, once entered, may be difficult to exit.
 
@@ -2808,4 +2807,72 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 *Certainty: 0.25.* If Waon therapy (far-infrared sauna, 60°C ambient) produces clinical benefit via the HSP70 → autophagy normalization → mitochondrial improvement pathway (ch06:@spec:mitochondrial-reserve-thermoreg), and the effective stimulus is core temperature elevation sufficient to activate HSF1, then hot water immersion may be mechanistically equivalent — water transfers heat far more efficiently than infrared air, potentially reaching the same HSP70 induction threshold at a lower ambient temperature and shorter duration. The existing paced heat exposure protocol (ch17:@spec:paced-heat-exposure) already uses water immersion as the delivery method; this speculation explicitly extends the Waon mechanism to home-accessible hot baths (38--40°C, 10--15 min, supine position, shower chair). Falsifiable: a hot bath protocol (40°C, 15 min, 3x/week, 8 weeks) produces PBMC HSP70 induction and mitochondrial respiratory improvement of equivalent magnitude to Waon therapy (within 20% non-inferiority margin). No head-to-head hot bath vs Waon data exist; HSF1 activation threshold for HSP70 induction in ME/CFS immune cells is unknown; heat-intolerant and POTS-comorbid patients are excluded.
 ] <spec:hot-bath-hsp70>
 
-#include "ch26-brain-clearance-lifestyle.typ"
+#include "ch26-brain-clearance-lifestyle/ch26-brain-clearance-lifestyle.typ"
+
+== Dietary Strategies for GLP-1 Pathway Support
+<sec:dietary-glp1>
+
+The emerging genetic evidence for GLP-1 pathway involvement in ME/CFS (Chapter @ch:genetics-epigenetics, Section @sec:glp1-genetics) motivates exploring dietary strategies that enhance endogenous GLP-1 secretion, independent of pharmacological intervention. These strategies are zero-cost, zero-risk, and accessible to patients at all severity levels.
+
+=== Protein-First Meal Sequencing
+
+#speculation(title: [Protein-First Meal Sequencing to Maximise Endogenous GLP-1 Release])[
+*Certainty: 0.30.* (Replicated in T2D RCTs; zero risk; zero cost; ME/CFS-specific effect unknown.)
+
+GLP-1 secretion is maximally stimulated by protein and fat (not carbohydrate), with whey protein being the most potent known dietary GLP-1 secretagogue via L-cell amino acid sensors. Simple meal sequencing — consuming protein first, before carbohydrates — enhances GLP-1 and delays gastric emptying, improving glycaemic control in T2D (replicated RCTs). For ME/CFS patients, this could mean: (a) consuming a whey protein shake or protein-dense food (eggs, fish) at the start of each meal, (b) waiting 15–20 minutes before consuming carbohydrate-rich components. This strategy costs nothing and requires no supplements beyond food.
+
+*Falsifiable prediction.* A protein-first meal sequence (whey shake before carbohydrate-rich meal) increases GLP-1 AUC by ≥40% compared to standard mixed meal in ME/CFS. Postprandial fatigue and cognitive fog reduced by ≥20% with protein-first sequence vs standard.
+
+*Limitations.* Effect size in ME/CFS unknown. Requires meal planning. May not benefit patients with L-cell dysfunction (glucose-independent effect). Effect on PEM not studied.
+] <spec:protein-first-glp1>
+
+=== Chronobiotic Meal Timing
+
+#speculation(title: [Chronobiotic Meal Timing to Entrain Circadian GLP-1 Peaks])[
+*Certainty: 0.25.* (Circadian GLP-1 biology well-established; ME/CFS circadian disruption documented; Ruhrländer 2026 posits orexin-GLP-1 coupling disruption.)
+
+GLP-1 secretion follows a circadian rhythm with peak sensitivity in the morning (when L-cell responsiveness is highest). ME/CFS patients often have disrupted meal timing (late eating, skipping breakfast) due to morning fatigue or sleep disruption. This may cause a phase shift that desynchronises GLP-1 secretion from the circadian orexin/arousal cycle @Ruhrländer2026orexinGLP1. Consuming the largest meal within 2 hours of waking could entrain GLP-1 peaks to the early morning, supporting orexin signalling and arousal.
+
+*Falsifiable prediction.* 4 weeks of time-restricted feeding (≥50% of daily calories within 2h of waking) increases morning GLP-1 peak AUC by ≥25% and improves morning fatigue scores (VAS) vs habitual eating patterns.
+
+*Limitations.* Zero-cost, zero-risk. No ME/CFS chronobiotic GLP-1 data exist. Adherence may be challenging in severe patients due to morning symptoms.
+] <spec:chronobiotic-glp1>
+
+== GLP-1 Pathway Nutritional Modulators
+
+=== Butyrate and SCFA Supplementation
+
+#speculation(title: [Butyrate Supplementation to Enhance Endogenous GLP-1 Secretion])[
+*Certainty: 0.30.* (Established SCFA→GLP-1 mechanism; ME/CFS dysbiosis with reduced butyrate producers replicated across some cohorts; supplement safety established; zero ME/CFS GLP-1 data.)
+
+Short-chain fatty acids (butyrate, propionate, acetate) produced by gut microbiota are the primary endogenous stimulus for GLP-1 secretion from L cells, acting through FFAR2/FFAR3 (GPR43/GPR41) receptors. SCFAs also directly enhance vagal afferent sensitivity to GLP-1. ME/CFS patients have reduced SCFA-producing bacteria (_Faecalibacterium_, _Roseburia_) in some studies. Supplementing butyrate (as tributyrin or sodium butyrate) could restore endogenous GLP-1 secretion. This is an OTC, oral, cheap nutritional route to GLP-1 pathway modulation.
+
+*Falsifiable prediction.* 4 weeks of tributyrin 2g/day increases postprandial GLP-1 AUC by ≥30% in ME/CFS vs placebo. GLP-1 increase correlates with reduction in fatigue score (VAS).
+
+*Limitations.* Not all ME/CFS microbiome cohorts show reduced SCFAs. Effect may be small and dose-dependent. Gut tolerability may be an issue for butyrate at effective doses.
+] <spec:butyrate-glp1>
+
+=== Berberine
+
+#speculation(title: [Berberine as Dual GLP-1 Secretagogue and AMPK-Metabolic Modulator])[
+*Certainty: 0.25.* (GLP-1 secretagogue activity established in T2D; AMPK activation documented; some small ME/CFS trial data — mixed results, underpowered; OTC; used informally by ME/CFS patients.)
+
+Berberine activates AMPK, improves mitochondrial function, stimulates GLP-1 secretion (via sweet taste receptors and TGR5 bile acid receptors), and improves glucose metabolism. It is oral, cheap, OTC. However, berberine has poor oral bioavailability (~5%), variable GLP-1 effects across studies, and can cause GI side effects. Some ME/CFS patients use it informally with mixed reports. Whether berberine's GLP-1 effect is substantial enough to be clinically meaningful, or whether it acts primarily through AMPK-independent mechanisms, is unresolved.
+
+*Falsifiable prediction.* Berberine 500mg TID × 8 weeks increases postprandial GLP-1 AUC by ≥15% and reduces CRP by ≥0.5 mg/L in ME/CFS. GLP-1 change does NOT correlate with symptom improvement (suggesting AMPK-mediated effects dominate over GLP-1).
+
+*Limitations.* Poor bioavailability limits effect size. GI side effects common. Variable response across ME/CFS patients. No dose-response data in ME/CFS.
+] <spec:berberine-glp1>
+
+=== Taurine
+
+#speculation(title: [Taurine as GLP-1 Secretagogue and Mitochondrial Modulator])[
+*Certainty: 0.25.* (GLP-1 secretagogue activity established in vitro and in vivo; safety excellent (500mg–3g/day); taurine levels reported reduced in some ME/CFS metabolomics studies.)
+
+Taurine stimulates GLP-1 secretion from L cells via TAS1R2/TAS1R3 sweet taste receptors and calcium-dependent exocytosis. It also improves mitochondrial function, reduces ER stress, and enhances insulin sensitivity — all mechanisms relevant to ME/CFS energy metabolism dysfunction. Taurine levels are reduced in ME/CFS in some metabolomics studies. Taurine supplementation is safe, cheap, and OTC.
+
+*Falsifiable prediction.* Taurine 3g/day × 4 weeks increases fasting and postprandial GLP-1 by ≥20% and improves DSQ-PEM score by ≥15% vs placebo.
+
+*Limitations.* ME/CFS taurine data limited and mixed. Effect size likely small. GLP-1 secretagogue effect may be insufficient alone; combination with other strategies likely needed.
+] <spec:taurine-glp1>
+

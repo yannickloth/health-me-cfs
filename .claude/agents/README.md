@@ -99,6 +99,9 @@ System prompt / instructions for the agent...
 | `quantitative-model-builder` | Building quantitative models with uncertainty |
 | `model-integrator` | Converting completed YAML/TikZ models into Part V chapter LaTeX |
 | `meta-analysis-coordinator` | Synthesizing findings across multiple papers into evidence tables |
+| `hypothesis-compatibility-auditor` | Cross-hypothesis compatibility: pairwise mechanism overlap, reinforcement/feed-into/conflict classification, writes audit file |
+| `hypothesis-reinforcement-builder` | From compatibility audit: builds reinforcement chains, conflict clusters, proposes certainty adjustments, writes to plan file |
+| `hypothesis-registry-updater` | Applies approved certainty adjustments to hypothesis-registry.typ entries |
 | `publication-preparer` | Checking publication-readiness: anonymization, metadata, checklist |
 | `evidence-mapper` | Building citation→model-component reverse index for Part V |
 | `research-gap-synthesizer` | Harvesting open_question/hypothesis/speculation into research agenda |

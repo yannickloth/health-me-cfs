@@ -1,0 +1,8 @@
+Title: Glucagon-like peptide-1: a multi-faceted anti-inflammatory agent.
+Authors: Mehdi Syed Faizan; Pusapati Suma; Anwar Muhammad Saad; Lohana Durga; Kumar Parkash; Nandula Savitri Aninditha; Nawaz Fatima Kausar; Tracey Kevin; Yang Huan; LeRoith Derek; Brownstein Michael J; Roth Jesse
+Journal: Frontiers in immunology (2023)
+DOI: 10.3389/fimmu.2023.1148209
+PMID: 37266425
+
+ABSTRACT:
+Inflammation contributes to many chronic conditions. It is often associated with circulating pro-inflammatory cytokines and immune cells. GLP-1 levels correlate with disease severity. They are often elevated and can serve as markers of inflammation. Previous studies have shown that oxytocin, hCG, ghrelin, alpha-MSH and ACTH have receptor-mediated anti-inflammatory properties that can rescue cells from damage and death. These peptides have been studied well in the past century. In contrast, GLP-1 and its anti-inflammatory properties have been recognized only recently. GLP-1 has been proven to be a useful adjuvant therapy in type-2 diabetes mellitus, metabolic syndrome, and hyperglycemia. It also lowers HbA1C and protects cells of the cardiovascular and nervous systems by reducing inflammation and apoptosis. In this review we have explored the link between GLP-1, inflammation, and sepsis.
