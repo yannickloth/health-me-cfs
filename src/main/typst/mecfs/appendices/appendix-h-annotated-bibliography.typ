@@ -21627,6 +21627,258 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Limitations:*: Included studies mostly UK; meta-synthesis cannot quantify prevalence of barriers; publication window 2000–2013.
     *Certainty:*: 0.68
 
+// =============================================================================
+// PrecisionLife GLP-1 Genetics Literature
+// Added 2026-06-17 — research_stream = precisionlife-glp1
+// =============================================================================
+
+== GLP-1 Receptor Agonists and PrecisionLife Genetics in ME/CFS
+<sec:bib-glp1-genetics>
+
+This section covers literature at the intersection of ME/CFS genetics (PrecisionLife combinatorial analysis), GLP-1 receptor agonist biology, and the therapeutic potential of GLP-1 RAs for ME/CFS subgroups. The core finding from Gardner's BRMEC15 presentation is that GLP-1 RA target pathways — synaptic and calcium signalling, glucose homeostasis, endothelial dysfunction — are enriched among the 250+ genes identified by PrecisionLife's combinatorial analysis of ME/CFS. Protective genes for ME/CFS overlap with T2D, insulin-related signalling, and BMI pathways. Three potential subgroups for GLP-1 RA trials were proposed: autoimmune/inflammatory, cardiovascular, and energy metabolism.
+
+=== Gardner 2026 — GLP-1 RAs: Hype, Hope and Hidden Dangers (BRMEC15)
+
+    *Full Citation:*: Gardner S. GLP-1 RAs: Hype, Hope and Hidden Dangers. Presented at: 15th Biomedical Research into ME Colloquium (BRMEC15); May 30, 2026; London, UK. @Gardner2026BRMEC15
+    *URL:*: #link("https://investinme.org/brmec15-stevegardner.shtml")
+    *Published:*: May 30, 2026
+    *Study Design:*: Conference presentation; combinatorial genetic analysis + clinical rationale
+    *Sample Size:*: DecodeME + UK Biobank (n>20,000 cases); GLP-1 prediction cohort (n=4,600 Phase 1, scaling to 25,000 Phase 2)
+    *Key Findings:*:
+        - ME/CFS is highly polygenic and heterogeneous: different combinations of risk variants across patients
+        - GLP-1 RA target biological pathways (synaptic and calcium signalling, glucose homeostasis, endothelial dysfunction) are enriched among ME/CFS-associated genes
+        - Protective genes for ME/CFS overlap with T2D, insulin signalling, and BMI pathways
+        - Three subgroups proposed for GLP-1 RA trials: autoimmune/inflammatory, cardiovascular, energy metabolism
+        - AI-driven combinatorial analytics (PrecisionLife) enables prediction of GLP-1 efficacy and stratified patient selection
+        - Low-dose initiation recommended due to ME/CFS medication sensitivity
+    *Conclusion:*: GLP-1 receptor agonists warrant investigation in ME/CFS, with genetic stratification to identify responsive subgroups. The overlapping genetic architecture between ME/CFS protection and T2D/insulin/BMI pathways provides a mechanistic rationale.
+    *Limitations:*: Conference presentation (not peer-reviewed); proprietary PrecisionLife platform; genetic findings require independent replication; GLP-1 RA efficacy in ME/CFS untested.
+    *Certainty:*: 0.45
+
+=== Ruhrländer et al.\ 2026 — Regulatory Cycles of Orexin and GLP-1 in Post-Viral Syndromes
+
+    *Full Citation:*: Ruhrländer J, Schieffer E, Schieffer B. Regulatory cycles of orexin and glucagon-like peptide-1 in post-viral syndromes. _Endocrine Reviews_. 2026;bnag009. @Ruhrländer2026orexinGLP1
+    *DOI:*: #link("https://doi.org/10.1210/endrev/bnag009")[10.1210/endrev/bnag009]
+    *PMID:*: 42037238
+    *Published:*: April 27, 2026
+    *Study Design:*: Narrative review
+    *Sample Size:*: N/A (review article)
+    *Key Findings:*:
+        - Orexin and GLP-1 form reciprocal regulatory cycles disrupted in post-viral syndromes including ME/CFS
+        - Orexin deficiency (hypoarousal) and GLP-1 dysregulation may create self-reinforcing metabolic and autonomic dysfunction
+        - Post-viral ME/CFS shares orexin-GLP-1 disruption features with PASC
+        - Identifies orexin-GLP-1 axis as potential therapeutic target
+    *Conclusion:*: Reciprocal orexin-GLP-1 dysregulation may drive core symptoms in post-viral syndromes; GLP-1 receptor modulation represents a candidate therapeutic strategy.
+    *Limitations:*: Narrative review (no systematic search); ME/CFS-specific data limited; hypothesis-generating rather than confirmatory.
+    *Certainty:*: 0.55
+
+=== Athauda et al.\ 2026 — The Promise of GLP-1 Receptor Agonists for Neurodegenerative Diseases
+
+    *Full Citation:*: Athauda D, Greig NH, Meissner WG, Foltynie T, Gandhi S. The promise of GLP-1 receptor agonists for neurodegenerative diseases. _Journal of Clinical Investigation_. 2026;136(4):e194745. @Athauda2026GLP1neurodegenerative
+    *DOI:*: #link("https://doi.org/10.1172/JCI194745")[10.1172/JCI194745]
+    *PMID:*: 41697753
+    *Study Design:*: Authoritative review
+    *Sample Size:*: N/A (comprehensive literature review)
+    *Key Findings:*:
+        - GLP-1 RAs demonstrate neuroprotective effects across diverse neurodegenerative conditions
+        - Mechanisms include: reduced protein aggregation, enhanced autophagy, improved mitochondrial function, suppression of neuroinflammation, preservation of synaptic integrity
+        - Epidemiological analyses suggest reduced incidence of dementia, Parkinson's disease, and MS among GLP-1 RA users
+        - Phase II trials in Parkinson's and Alzheimer's show encouraging signals
+    *Conclusion:*: GLP-1 RAs represent a promising therapeutic strategy for neurodegenerative diseases, with converging preclinical and clinical evidence supporting disease-modifying potential.
+    *Limitations:*: Review; no primary ME/CFS data; most clinical evidence from neurodegenerative populations, not post-viral fatigue.
+    *Certainty:*: 0.80
+
+=== Cukierman-Yaffe et al.\ 2020 — Dulaglutide and Cognitive Impairment (REWIND Trial)
+
+    *Full Citation:*: Cukierman-Yaffe T, Gerstein HC, Colhoun HM, Diaz R, García-Pérez LE, et al. Effect of dulaglutide on cognitive impairment in type 2 diabetes: an exploratory analysis of the REWIND trial. _Lancet Neurology_. 2020;19(7):582-590. @CukiermanYaffe2020dulaglutide
+    *DOI:*: #link("https://doi.org/10.1016/S1474-4422(20)30173-3")[10.1016/S1474-4422(20)30173-3]
+    *PMID:*: 32562683
+    *Study Design:*: Exploratory analysis of randomised controlled trial (REWIND)
+    *Sample Size:*: n=9,901; median 5.4 years follow-up
+    *Key Findings:*:
+        - Dulaglutide associated with reduced risk of cognitive impairment (HR 0.86, 95% CI 0.76-0.98)
+        - Consistent effect across multiple cognitive domains
+        - Benefit independent of glycaemic control — suggests direct neuroprotective effect
+        - Largest and longest GLP-1 RA cognitive outcome study to date
+    *Conclusion:*: GLP-1 receptor agonism may reduce cognitive decline in T2D; exploratory finding supports neuroprotective hypothesis.
+    *Limitations:*: Exploratory (not primary endpoint); T2D population only (not ME/CFS); effect modest; mechanism unclear.
+    *Certainty:*: 0.78
+
+=== Ren et al.\ 2025 — GLP-1 RAs Reduce Circulating Inflammatory Markers: Meta-Analysis
+
+    *Full Citation:*: Ren Y, Chen Y, Zheng W, Kong W, Liao Y. The effect of GLP-1 receptor agonists on circulating inflammatory markers in type 2 diabetes patients: a systematic review and meta-analysis. _Diabetes, Obesity and Metabolism_. 2025;doi:10.1111/dom.16366. @Ren2025GLP1inflammatory
+    *DOI:*: #link("https://doi.org/10.1111/dom.16366")[10.1111/dom.16366]
+    *PMID:*: 40230207
+    *Study Design:*: Systematic review and meta-analysis of RCTs
+    *Sample Size:*: Multiple RCTs (meta-analysis)
+    *Key Findings:*:
+        - GLP-1 RAs significantly reduce circulating CRP, TNF-alpha, and IL-6 in T2D patients
+        - Anti-inflammatory effect is independent of glycaemic improvement
+        - Effect magnitude moderate but consistent across studies
+        - Supports anti-inflammatory mechanism as class effect of GLP-1 RAs
+    *Conclusion:*: GLP-1 RAs exert clinically meaningful anti-inflammatory effects in addition to metabolic benefits, supporting potential utility in inflammatory conditions.
+    *Limitations:*: T2D population only; ME/CFS data absent; meta-analysis heterogeneity; publication bias not excluded.
+    *Certainty:*: 0.72
+
+=== Deng et al.\ 2025 — GLP-1 RAs in Immune Cell Biology and Autoimmune Diseases
+
+    *Full Citation:*: Deng S, Chen Z, Shi Y. Roles of glucagon-like peptide 1 receptor agonists in immune cell biology and autoimmune/autoinflammatory diseases. _Cell & Bioscience_. 2025;15:89. @Deng2025GLP1immune
+    *DOI:*: #link("https://doi.org/10.1186/s13578-025-01486-8")[10.1186/s13578-025-01486-8]
+    *PMID:*: 41074143
+    *Study Design:*: Comprehensive review
+    *Sample Size:*: N/A (review)
+    *Key Findings:*:
+        - GLP-1 RAs modulate T cell, macrophage, and dendritic cell function
+        - Reduce pro-inflammatory cytokine production from immune cells
+        - Promote regulatory T cell differentiation
+        - Show benefit in preclinical models of autoimmune disease
+    *Conclusion:*: GLP-1 RAs have broad immunomodulatory effects beyond metabolic action, providing mechanistic rationale for use in autoimmune and inflammatory conditions.
+    *Limitations:*: Review; most evidence from preclinical models; autoimmune clinical trial data still emerging.
+    *Certainty:*: 0.60
+
+=== Bilgin et al.\ 2025 — GLP-1 RAs in Rheumatology: Scoping Review
+
+    *Full Citation:*: Bilgin E, Venerito V, Bogdanos DP. Glucagon-Like Peptide-1 (GLP-1) receptor agonists in rheumatology: a review of current evidence and future directions. _Autoimmunity Reviews_. 2025;103864. @Bilgin2025GLP1rheum
+    *DOI:*: #link("https://doi.org/10.1016/j.autrev.2025.103864")[10.1016/j.autrev.2025.103864]
+    *PMID:*: 40617296
+    *Study Design:*: Scoping review (PRISMA-ScR)
+    *Sample Size:*: 52 studies and 7 clinical trials
+    *Key Findings:*:
+        - GLP-1 RAs show anti-inflammatory effects in inflammatory arthritis, osteoarthritis, and systemic autoimmune diseases
+        - Reductions in disease activity scores and inflammatory biomarkers reported
+        - GLP-1 RA benefits may be independent of weight loss
+        - Evidence strongest for rheumatoid arthritis and psoriatic arthritis
+    *Conclusion:*: Emerging evidence supports GLP-1 RA repurposing for rheumatic and autoimmune diseases; controlled trials needed.
+    *Limitations:*: Scoping review (evidence mapping, not formal synthesis); heterogeneity in study designs; most studies observational.
+    *Certainty:*: 0.65
+
+=== Spezani & Mandarim-de-Lacerda 2026 — GLP-1 RAs in Metabolic Dysfunction and Neuroinflammation
+
+    *Full Citation:*: Spezani R, Mandarim-de-Lacerda CA. Beyond diabetes and obesity: GLP-1 receptor agonists in disrupting the vicious cycle of metabolic dysfunction and neuroinflammation. _Diabetes, Obesity and Metabolism_. 2026;doi:10.1111/dom.70400. @Spezani2026GLP1neuroinflamm
+    *DOI:*: #link("https://doi.org/10.1111/dom.70400")[10.1111/dom.70400]
+    *PMID:*: 41417476
+    *Study Design:*: Narrative review
+    *Sample Size:*: N/A (review)
+    *Key Findings:*:
+        - GLP-1 RAs disrupt the positive feedback cycle between metabolic dysfunction and neuroinflammation
+        - Microglial phenotype switching (M1→M2) mediated by GLP-1 receptor signalling
+        - Improved mitochondrial function in neurons and glia
+        - Restoration of insulin/IGF-1 signalling in the CNS
+    *Conclusion:*: GLP-1 RAs target both metabolic and neuroinflammatory components of neurodegenerative disease, suggesting utility in conditions where both are dysregulated.
+    *Limitations:*: Narrative review; no systematic methodology; ME/CFS not discussed specifically.
+    *Certainty:*: 0.55
+
+=== Forny Germano et al.\ 2024 — Negative Result: Semaglutide and Tirzepatide in AD Mice
+
+    *Full Citation:*: Forny Germano L, Koehler JA, Baggio LL, Cui F, Wong CK, et al. The GLP-1 medicines semaglutide and tirzepatide do not alter disease-related pathology, behaviour or cognitive function in 5XFAD and APP/PS1 mice. _Molecular Metabolism_. 2024;89:102019. @FornyGermano2024GLP1negative
+    *DOI:*: #link("https://doi.org/10.1016/j.molmet.2024.102019")[10.1016/j.molmet.2024.102019]
+    *PMID:*: 39216535
+    *Study Design:*: Preclinical study in two transgenic AD mouse models
+    *Sample Size:*: Two mouse models (5XFAD, APP/PS1)
+    *Key Findings:*:
+        - Semaglutide and tirzepatide showed no effect on amyloid pathology, behaviour, or cognition
+        - Negative result contrasts with previous positive findings for other GLP-1 RAs (e.g., liraglutide)
+        - Possible compound-specific or model-specific effects
+        - Cautions against assuming class-wide neuroprotection across all GLP-1 RAs
+    *Conclusion:*: Not all GLP-1 RAs show neuroprotective effects; compound selection matters for CNS indication development.
+    *Limitations:*: Preclinical (mouse models); negative result may reflect model limitations or dose/route issues; single study.
+    *Certainty:*: 0.70
+
+=== Blitshteyn et al.\ 2026 — Semaglutide Improves POTS: Case Report
+
+    *Full Citation:*: Blitshteyn S, Suresh S, Lorenzi LM. Significant improvement of postural orthostatic tachycardia syndrome (POTS) with semaglutide: a case report. _Clinical Autonomic Research_. 2026;doi:10.1007/s10286-026-01197-1. @Blitshteyn2026semaglutidePOTS
+    *DOI:*: #link("https://doi.org/10.1007/s10286-026-01197-1")[10.1007/s10286-026-01197-1]
+    *PMID:*: 41739421
+    *Study Design:*: Single case report
+    *Sample Size:*: n=1
+    *Key Findings:*:
+        - Patient with POTS showed significant symptom improvement on semaglutide
+        - Improvement in heart rate, orthostatic tolerance, and quality of life
+        - Relevant to ME/CFS dysautonomia subgroup
+    *Conclusion:*: Semaglutide may benefit POTS-associated dysautonomia, warranting further investigation.
+    *Limitations:*: Single case; no control; cannot distinguish direct effect from weight-loss-mediated improvement; ME/CFS not studied.
+    *Certainty:*: 0.30
+
+=== Afrin et al.\ 2025 — GLP-1 RAs in Mast Cell Activation Syndrome
+
+    *Full Citation:*: Afrin LB, Weinstock LB, Dempsey TT, Aschenbrenner K, Blitshteyn S. Utility of glucagon-like-peptide-1-receptor agonists in mast cell activation syndrome. _American Journal of the Medical Sciences_. 2025;doi:10.1016/j.amjms.2025.07.006. @Afrin2025GLP1MCAS
+    *DOI:*: #link("https://doi.org/10.1016/j.amjms.2025.07.006")[10.1016/j.amjms.2025.07.006]
+    *PMID:*: 40675372
+    *Study Design:*: Case series/review
+    *Sample Size:*: Small clinical series
+    *Key Findings:*:
+        - GLP-1 RAs may benefit mast cell activation syndrome (MCAS), which frequently co-occurs with ME/CFS
+        - MCAS presents with chronic multisystem inflammatory and allergic phenotypes
+        - GLP-1 RA anti-inflammatory effects may modulate mast cell activity
+        - Supports autoimmune/inflammatory subgroup for GLP-1 RA trials in ME/CFS
+    *Conclusion:*: GLP-1 RAs warrant investigation in MCAS and MCAS-overlap conditions including ME/CFS.
+    *Limitations:*: Very early evidence; no controlled trials; small sample; Am J Med Sci (moderate journal).
+    *Certainty:*: 0.35
+
+=== Mehdi et al.\ 2023 — GLP-1: A Multi-Faceted Anti-Inflammatory Agent
+
+    *Full Citation:*: Mehdi SF, Pusapati S, Anwar MS, Lohana D, Kumar P. Glucagon-like peptide-1: a multi-faceted anti-inflammatory agent. _Frontiers in Immunology_. 2023;14:1148209. @Mehdi2023GLP1antiinflammatory
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2023.1148209")[10.3389/fimmu.2023.1148209]
+    *PMID:*: 37266425
+    *Study Design:*: Comprehensive review
+    *Sample Size:*: N/A (review)
+    *Key Findings:*:
+        - GLP-1 has broad anti-inflammatory properties independent of glycaemic effects
+        - Modulates NF-kB and MAPK signalling pathways in immune cells
+        - Reduces pro-inflammatory cytokines (TNF-alpha, IL-6, IL-1beta) across organ systems
+        - GLP-1 levels correlate with disease severity in inflammatory conditions
+    *Conclusion:*: GLP-1 functions as an endogenous anti-inflammatory peptide; GLP-1 RAs harness this property for therapeutic benefit.
+    *Limitations:*: Review; Frontiers journal; no ME/CFS-specific data; mechanism-to-symptom extrapolation required.
+    *Certainty:*: 0.65
+
+=== Reich & Hölscher 2022 — GLP-1 Neuroprotection in Alzheimer's and Parkinson's
+
+    *Full Citation:*: Reich N, Hölscher C. The neuroprotective effects of glucagon-like peptide 1 in Alzheimer's and Parkinson's disease: an in-depth review. _Frontiers in Neuroscience_. 2022;16:970925. @Reich2022GLP1neuroprotection
+    *DOI:*: #link("https://doi.org/10.3389/fnins.2022.970925")[10.3389/fnins.2022.970925]
+    *PMID:*: 36117625
+    *Study Design:*: In-depth review
+    *Sample Size:*: N/A (review)
+    *Key Findings:*:
+        - GLP-1 mimetics show neuroprotective effects in preclinical AD and PD models
+        - Phase II clinical trials in PD (exenatide) show promising disease-modifying signals
+        - GLP-1 RAs enhance synaptic plasticity, neurogenesis, and mitochondrial function
+        - Type 2 diabetes is a shared risk factor; GLP-1 RAs target common mechanisms
+    *Conclusion:*: GLP-1 RAs are among the most promising neuroprotective drug candidates for AD and PD.
+    *Limitations:*: Review; clinical trial data primarily from PD; no ME/CFS-specific neuroprotection data.
+    *Certainty:*: 0.60
+
+=== Vear et al.\ 2025 — Incretin-Based Therapeutics for Neurodegenerative Diseases
+
+    *Full Citation:*: Vear A, Heneka MT, Clemmensen C. Incretin-based therapeutics for the treatment of neurodegenerative diseases. _Nature Metabolism_. 2025;7(4):706-722. @Vear2025incretinNDD
+    *DOI:*: #link("https://doi.org/10.1038/s42255-025-01263-4")[10.1038/s42255-025-01263-4]
+    *PMID:*: 40211045
+    *Study Design:*: Authoritative review (Nature Metabolism)
+    *Sample Size:*: N/A (comprehensive review)
+    *Key Findings:*:
+        - Dual GLP-1/GIP receptor agonists (e.g., tirzepatide) show enhanced neuroprotective effects
+        - Incretin-based therapies improve mitochondrial function, autophagy, and reduce neuroinflammation
+        - Blood-brain barrier penetration varies across incretin compounds
+        - Clinical trials expanding from diabetes to neurodegenerative indications
+    *Conclusion:*: Incretin-based therapies represent a promising therapeutic strategy for neurodegenerative diseases, with dual agonists potentially offering enhanced benefit.
+    *Limitations:*: Review; clinical data primarily from diabetes and neurodegeneration; no ME/CFS-specific evidence.
+    *Certainty:*: 0.75
+
+=== Taylor et al.\ 2023 — Genetic Risk Factors for Long COVID and Commonalities with ME/CFS
+
+    *Full Citation:*: Taylor K, Pearson M, Das S, Sardell J, Chocian K, Gardner S. Genetic risk factors for severe and fatigue dominant long COVID and commonalities with ME/CFS identified by combinatorial analysis. _Journal of Translational Medicine_. 2023;21:756. @Taylor2023longCOVIDgenetics
+    *DOI:*: #link("https://doi.org/10.1186/s12967-023-04588-4")[10.1186/s12967-023-04588-4]
+    *PMID:*: 37915075
+    *Study Design:*: Case-control genetic association study; combinatorial analysis
+    *Sample Size:*: Long COVID cohort (PrecisionLife analysis)
+    *Key Findings:*:
+        - Genetic risk factors for severe and fatigue-dominant long COVID identified using combinatorial analysis
+        - Significant genetic overlap between long COVID and ME/CFS
+        - Distinct genetic architecture for long COVID subtypes (fatigue-dominant vs respiratory)
+        - Shared pathways include synaptic signalling and immune regulation
+    *Conclusion:*: Long COVID and ME/CFS share genetic risk architecture, supporting a common biological basis for post-viral fatigue syndromes.
+    *Limitations:*: Single cohort; proprietary analytical platform; replication needed in independent cohorts.
+    *Certainty:*: 0.60
+
 === Knudsen et al.\ 2011 — Media Portrayal of CFS
 
     *Full Citation:*: Knudsen AK, Omenås AN, Harvey SB, Løvvik CM, Lervik LV, Mykletun A. Chronic fatigue syndrome in the media: a content analysis of newspaper articles. _JRSM Short Reports_. 2011;2(5):42. @Knudsen2011MediaStigma

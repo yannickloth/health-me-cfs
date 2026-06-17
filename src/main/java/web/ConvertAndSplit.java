@@ -120,8 +120,10 @@ void main(String[] args) throws IOException {
     }
     if (secTitle != null) sections.add(new Section(secTitle, secLabel, new ArrayList<>(current)));
 
-    // Handle files with no == sections: output single file from preamble + post-chapter lines
-    if (sections.isEmpty() && (!preamble.isEmpty() || !current.isEmpty())) {
+    // Handle files with no == sections: output single file from preamble + post-chapter lines.
+    // Also triggers for include-only aggregator files that have a = heading but no body,
+    // or that are pure include aggregators with no content at all.
+    if (sections.isEmpty()) {
         var title = !chapTitle.isEmpty() ? chapTitle : "untitled";
         // If chapTitle is empty, try to derive from first === or ==== heading
         if (chapTitle.isEmpty()) {
@@ -140,6 +142,11 @@ void main(String[] args) throws IOException {
                         break;
                     }
                 }
+            }
+            // Still untitled: derive from input filename
+            if (title.equals("untitled")) {
+                var fname = get(args[0]).getFileName().toString().replaceAll("\\.[^.]+$", "");
+                title = fname.replace("-", " ");
             }
         }
         var allLines = new ArrayList<String>();
