@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#model-insight(title: [Synergy Prediction Requires Nonlinear Models])[
+Pairwise synergy coefficients are fundamentally unpredictable without a mechanistic model. Clinical intuition based on "different targets should combine well" fails to capture the nonlinear interactions: CoQ10 + nattokinase shows high synergy because oxygen delivery and ETC capacity multiply (not add) in the ATP production equation, but CoQ10 + NMN shows lower synergy ($cal(S) approx 0.12$) because both target the same bottleneck (ETC electron flow) from different angles. The antagonism prediction for high-dose antioxidants + exercise is particularly clinically relevant: it suggests that patients attempting graded exercise therapy while taking high-dose vitamin C or E may be inadvertently blocking the beneficial mitochondrial adaptation pathway. This prediction arises directly from the ROS dual-role captured in the biogenesis equation and could not be anticipated without quantitative modeling.
+]

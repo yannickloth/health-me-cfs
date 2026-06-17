@@ -1,0 +1,5 @@
+#import "../../../../shared/environments.typ": *
+
+#hypothesis(title: [Autophagy/mTOR Dysfunction as Septad Unifier])[
+The rapamycin pilot study @Ruan2025rapamycin reported 74.3% symptom improvement and observed autophagy marker changes (BECLIN-1 upregulation and pSer258-ATG13 suppression), though whether autophagy restoration mediated the clinical effect cannot be established from an uncontrolled trial. Autophagy dysfunction could theoretically contribute to multiple Septad components: mast cell degranulation regulation (MCAS), mitochondrial quality control in autonomic neurons (dysautonomia), small nerve fiber maintenance (SFN), enteric nervous system function (GI dysmotility), and intracellular pathogen clearance (chronic infection) @Ruan2025rapamycin. If validated, Septad-positive patients may represent an autophagy-dysfunction subgroup.
+] <hyp:autophagy-septad>

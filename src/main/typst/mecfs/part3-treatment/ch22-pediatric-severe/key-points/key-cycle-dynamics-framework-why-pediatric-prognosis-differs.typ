@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#key-point(title: [Cycle Dynamics Framework: Why Pediatric Prognosis Differs])[
+The vicious cycle dynamics framework (Chapter @ch:core-symptoms, @sec:pem) provides a mechanistic explanation for the superior pediatric prognosis. ME/CFS involves multiple reinforcing pathophysiological loops (mitochondrial, immune, autonomic, neuroinflammatory, endocrine) that progressively recruit over time. Pediatric nervous system plasticity and earlier intervention timing mean: (1) fewer cycles have been recruited at diagnosis; (2) cycle “gain” (amplification strength) remains lower; and (3) reversibility windows remain open longer. The speculative time-dependent reversibility model ($R(t) = R_0 e^(-lambda t)$; Section @subsec:reversibility-windows in Chapter @ch:emerging-therapies) _hypothesizes_ that intervention efficacy decays exponentially with disease duration—which, if validated, would explain why early pediatric intervention preserves recovery potential that closes in chronic adult disease.
+]

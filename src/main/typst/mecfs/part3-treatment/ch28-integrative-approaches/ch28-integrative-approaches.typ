@@ -1,0 +1,16 @@
+#import "../../shared/environments.typ": *
+
+#include "intro-preamble.typ"
+#include "sec-developing-a-treatment-plan/sec-developing-a-treatment-plan.typ"
+#include "sec-treating-comorbidities/sec-treating-comorbidities.typ"
+#include "sec-personalized-medicine-approaches/sec-personalized-medicine-approaches.typ"
+#include "sec-primary-mechanism-map-causal-loops-detection-and-targeted-interventions/sec-primary-mechanism-map-causal-loops-detection-and-targeted-interventions.typ"
+#include "sec-combination-therapies/sec-combination-therapies.typ"
+#include "sec-cross-domain-medical-parallels-learning-from-other-fields/sec-cross-domain-medical-parallels-learning-from-other-fields.typ"
+#include "sec-novel-mechanistic-hypotheses-and-research-opportunities/sec-novel-mechanistic-hypotheses-and-research-opportunities.typ"
+#include "sec-working-with-healthcare-providers/sec-working-with-healthcare-providers.typ"
+#include "sec-severity-stratified-metabolic-reserve-building-protocol/sec-severity-stratified-metabolic-reserve-building-protocol.typ"
+#include "sec-connective-tissue-preservation-strategies/sec-connective-tissue-preservation-strategies.typ"
+#include "sec-thermal-combination-protocols/sec-thermal-combination-protocols.typ"
+#include "sec-math-model-extensions-for-thermoregulation/sec-math-model-extensions-for-thermoregulation.typ"
+#include "sec-additional-math-model-extensions-for-thermoregulation/sec-additional-math-model-extensions-for-thermoregulation.typ"

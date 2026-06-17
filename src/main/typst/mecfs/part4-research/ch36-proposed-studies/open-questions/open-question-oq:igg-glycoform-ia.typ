@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#open-question(title: [IgG Glycoform Profiling as an Alternative Explanation for Immunoadsorption Efficacy])[
+The Anft 2025 discordance (autoantibodies eliminated, symptoms unchanged) and the BC007 Phase II failure raise the possibility that immunoadsorption works through non-autoantibody IgG mechanisms. Agalactosylated IgG is pro-inflammatory (drives complement activation and Fc$gamma$R signalling in RA); if ME/CFS patients have a skewed IgG glycoform profile, IA's benefit may come from removing pro-inflammatory IgG fractions, with reconstituted IgG having a temporarily improved glycoform profile. *Proposed study:* (1) Profile IgG glycoforms (galactosylation, sialylation, fucosylation, bisecting GlcNAc) in ME/CFS vs controls (n=100 each); (2) in IA trial patients, correlate pre-treatment glycoform profile with response; (3) compare post-IA reconstituted IgG glycoforms vs pre-treatment. If responders have more agalactosylated IgG pre-treatment, selective lectin affinity column removal could replicate IA's effect without removing GPCR autoantibodies. Never tested in ME/CFS (2026).
+] <oq:igg-glycoform-ia>

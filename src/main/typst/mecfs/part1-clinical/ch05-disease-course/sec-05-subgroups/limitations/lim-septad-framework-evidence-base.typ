@@ -1,0 +1,5 @@
+#import "../../../../shared/environments.typ": *
+
+#limitation(title: [Septad Framework Evidence Base])[
+The Septad co-occurrence framework was described by Kaufman and Maxwell from clinical practice observation, not from population-based epidemiological data. The best available population-level evidence is the Rohrhofer 2025 Austrian ME/CFS registry (n=687) @Rohrhofer2025mecfsmast, which is a single-center retrospective registry, not a representative cohort. The co-occurrence clustering evidence is largely clinic-based, with ascertainment biases that favor patients severe enough to reach specialist care. The strengthened map presented here is hypothesis-grade: it provides a structured framework for clinical reasoning, not an externally validated diagnostic algorithm. No study has prospectively validated the cascade confirmation criterion or the MCAS-first sequencing advantage in a ME/CFS-specific population.
+]

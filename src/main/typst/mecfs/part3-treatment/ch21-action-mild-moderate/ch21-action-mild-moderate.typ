@@ -1,0 +1,11 @@
+#import "../../shared/environments.typ": *
+#include "ch21-action-mild-moderate-preamble.typ"
+#include "sec-01-defining-mild-moderate/sec-01-defining-mild-moderate.typ"
+#include "sec-02-severity-stratified-pathways/sec-02-severity-stratified-pathways.typ"
+#include "sec-03-immediate-mild-moderate/sec-03-immediate-mild-moderate.typ"
+#include "sec-04-septad-screening-mild-moderate/sec-04-septad-screening-mild-moderate.typ"
+#include "sec-05-disease-modifying-mild-moderate/sec-05-disease-modifying-mild-moderate.typ"
+#include "sec-06-work-study/sec-06-work-study.typ"
+#include "sec-07-get-avoidance/sec-07-get-avoidance.typ"
+#include "sec-08-long-term-mild-moderate/sec-08-long-term-mild-moderate.typ"
+#include "sec-09-summary-mild-moderate/sec-09-summary-mild-moderate.typ"

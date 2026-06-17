@@ -1,0 +1,14 @@
+#import "../../../../shared/environments.typ": *
+
+#speculation(title: [Estrogen Withdrawal as a Shared Th1-Derepression Mechanism Linking LS Onset and Perimenopausal ME/CFS Worsening])[
+
+*Certainty: 0.35.* Based on estrogen's documented immunomodulatory role (IFN-γ and IL-15 suppression, Treg support), the post-menopausal timing of LS onset, and consistent clinical reports of ME/CFS worsening at perimenopause. No direct intervention trial testing estrogen supplementation for ME/CFS immune normalization exists. Not yet replicated.
+
+Lichen sclerosus peaks post-menopause: vulvar epithelium loses estradiol-mediated ERα trophic and immunomodulatory signaling, unmasking the underlying Th1 dominance that was held in check by estrogen during reproductive years. The mechanism is well-characterized: estrogen normally suppresses IFN-γ and IL-15 production, stabilizes Foxp3+ Treg function, and maintains IL-10 tone — exactly the axes dysregulated in both LS and ME/CFS. ME/CFS women frequently report perimenopausal worsening, an observation consistent with the same Th1-derepression dynamic: estradiol withdrawal removes an endogenous immunomodulatory brake, allowing pre-existing Th1 terrain dysregulation to become clinically expressed or to intensify.
+
+This creates a testable subgroup hypothesis: ME/CFS women with peri/post-menopausal onset or worsening, concurrent or subsequent LS diagnosis, and elevated Th1 markers (IL-15, IFN-γ, reduced Treg frequency) represent a hormonally-stratifiable subgroup whose immune dysregulation is partially estrogen-dependent. This subgroup would be predicted to show differential response to hormonal modulation compared to ME/CFS patients with pre-menopausal or male onset.
+
+*Falsifiable prediction:* (1) Topical estradiol responders in LS (those whose LS symptoms improve with topical E2) will show concurrent improvement in fatigue and PEM scores if comorbid ME/CFS is present, in a prospective cohort follow-up (n ≥ 30). (2) In ME/CFS women, perimenopausal onset or worsening will be associated with higher baseline IL-15, lower Foxp3+ Treg frequency, and higher LS co-prevalence than pre-menopausal ME/CFS women matched for disease duration.
+
+*Limitations:* ME/CFS worsening at perimenopause has multiple confounders (sleep disruption, HPA axis changes, social/occupational factors) that must be excluded before attributing worsening to Th1 derepression specifically. Topical estradiol in LS is standard care for symptom management; improvement in LS symptoms does not necessarily indicate systemic immune modulation sufficient to affect ME/CFS. Estrogen's immunological effects are dose-, tissue-, and timing-dependent; systemic vs. local effects differ substantially. See Section @sec:lichen-sclerosus-immune-terrain for the underlying mechanistic evidence.
+] <spec:estrogen-th1-subgroup>

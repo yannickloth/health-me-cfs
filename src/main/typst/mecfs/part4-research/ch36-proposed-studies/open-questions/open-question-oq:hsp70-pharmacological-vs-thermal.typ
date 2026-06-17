@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#open-question(title: [Head-to-Head: Pharmacological vs Thermal HSP70 Induction in ME/CFS])[
+Hochecker et al. demonstrated that WBH induces HSP70 mRNA 48.33% in ME/CFS PBMCs, correlating with mitochondrial respiratory improvement @Hochecker2025HyperthermiaMECFS. Pharmacological HSP70 inducers (arimoclomol, celastrol, geranylgeranylacetone) exist but have never been compared to thermal induction in ME/CFS. A head-to-head three-arm trial (WBH vs arimoclomol vs combined) with HSP70 protein, ISR biomarkers, and mitochondrial respirometry endpoints would determine whether pharmacological induction replicates thermal benefit and whether combination produces synergy (different induction pathways) or ceiling effects (same pathway saturation). Falsifiable: arimoclomol will reproduce ≥80% of WBH's mitochondrial benefit; combined will not be synergistic (shared HSP70 pathway ceiling). Zero ME/CFS data for any pharmacological HSP70 inducer.
+] <oq:hsp70-pharmacological-vs-thermal>

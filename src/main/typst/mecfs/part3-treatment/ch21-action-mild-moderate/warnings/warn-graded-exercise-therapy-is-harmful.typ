@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#warning-env(title: [Graded Exercise Therapy is Harmful])[
+Graded exercise therapy (GET) has been heavily criticized for causing patient deterioration and is no longer recommended by major health organizations @NICE2021mecfs. The PACE trial, which originally promoted GET for ME/CFS, was subsequently discredited following reanalysis revealing unscientific methodology @Wilshire2018. Patient surveys document that 50–74% of ME/CFS patients report worsening from GET, including severe crashes, prolonged recovery periods, and permanent functional decline @EatonFitch2019. Exercise “pushing through” symptoms violates the fundamental principle of energy envelope management and can trigger the post-exertional malaise mechanism. The “crash limit rule” from patient communities suggests individuals should not experience more than 5 total severe crashes, as recovery time increases with each subsequent crash, potentially leading to irreversible worsening.
+] <warn:get-harmful>

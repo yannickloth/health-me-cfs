@@ -1,0 +1,7 @@
+#import "../../../../../shared/environments.typ": *
+
+#hypothesis(title: [Glutamatergic Synaptic Dysfunction as Genetically-Driven Core Mechanism])[
+*Certainty: 0.60.* Replicated enrichment of glutamatergic synapse genes across both DecodeME (single-gene level via _SHISA6_, _UNC13C_) and the Maccallini meta-GWAS (gene-set level, Bonferroni-corrected) provides convergent evidence that glutamatergic signaling dysfunction is a genetically grounded component of ME/CFS, not an epiphenomenon @Maccallini2026metaGWAS @DecodeME2025. This aligns with the excitatory/inhibitory imbalance model proposed independently from immunological and neuroimaging data (Section @sec:genetic-correlations; Chapter @ch:neurological) @WirthScheibenbogen2026glutamate.
+
+*Falsifiable predictions:* (1) iPSC-derived neurons from high-risk genotype carriers should show altered glutamatergic synaptic transmission (altered mEPSC frequency/amplitude, aberrant AMPA/NMDA ratios) compared to low-risk carriers. (2) PET with glutamate receptor ligands (e.g., ^18F-FPEB for mGluR5) should reveal altered receptor density or occupancy in ME/CFS, with effect size correlating with glutamatergic PRS. (3) ME/CFS patients stratified by high glutamatergic PRS should show differential response to glutamatergic modulators (memantine, riluzole, lamotrigine) in a randomised trial, with greater benefit in the high-PRS subgroup.
+] <hyp:glutamatergic-synaptic-dysfunction>

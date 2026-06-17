@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#key-point(title: [The Biogenesis Paradox: The Repair Signal That Cannot Be Executed])[
+The biogenesis equation (@eq:biogenesis) is a product of two Hill functions with opposing energy dependencies. AMPK activation (sensing energy deficit) says "build new mitochondria." NAD#super[+] depletion (also from energy deficit) blocks SIRT1-mediated PGC-1$alpha$ deacetylation, saying "cannot execute the build order." The result is a non-monotonic hump: biogenesis peaks at intermediate energy deficit (where AMPK is active and NAD#super[+] is still adequate) and _collapses_ at severe deficit (where NAD#super[+] depletion blocks execution). Below the threshold $gamma < 0.7$, the cell receives a maximal "build" signal but cannot act on it. This predicts that ME/CFS patients show elevated phospho-AMPK alongside reduced PGC-1$alpha$ activity---a decoupling signature. NAD#super[+] precursor supplementation should improve biogenesis markers (mtDNA copy number, citrate synthase activity) _before_ improving energy capacity, because it unblocks the rate-limiting step.
+]

@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#hypothesis(title: [5-HT Receptor Sensitivity Abnormalities in ME/CFS])[
+Genetic variation in the 5-HT2A receptor gene (HTR2A) may contribute to ME/CFS pathophysiology. Smith et al. @Smith2008HTR2A identified three HTR2A polymorphisms significantly associated with CFS (n=137); the rs6311 A-allele increases promoter activity and creates a transcription factor binding site, potentially conferring enhanced 5-HT2A receptor expression. Anti-5-HT autoantibodies are present in 61.5% of ME/CFS patients versus 5.7% of healthy controls @Maes2013serotonin, and their presence correlates with hyperalgesia, neurocognitive dysfunction, and autonomic symptom severity---consistent with sensitized serotonergic signaling. This autoantibody--symptom correlation mirrors the broader pattern observed across multiple autoantibody classes in ME/CFS, including GPCR autoantibodies (strongest correlation: $beta_2$-adrenergic AAb vs sympathovagal imbalance, $r=0.45$, $p=0.001$ @Azcue2026gpcr). (Certainty: Low-Medium; single genetic study, replication pending.)
+] <hyp:ch15-5ht2a-upregulation>

@@ -1,0 +1,12 @@
+#import "../../shared/environments.typ": *
+#include "ch22-pediatric-severe-preamble.typ"
+#include "sec-01-ped-severe-definition/sec-01-ped-severe-definition.typ"
+#include "sec-02-ped-home-care/sec-02-ped-home-care.typ"
+#include "sec-03-ped-severe-subtype/sec-03-ped-severe-subtype.typ"
+#include "sec-04-ped-severe-medical/sec-04-ped-severe-medical.typ"
+#include "sec-05-ped-bedrest-complications/sec-05-ped-bedrest-complications.typ"
+#include "sec-06-ped-severe-education/sec-06-ped-severe-education.typ"
+#include "sec-07-ped-severe-family/sec-07-ped-severe-family.typ"
+#include "sec-08-ped-severe-red-flags/sec-08-ped-severe-red-flags.typ"
+#include "sec-09-ped-severe-prognosis/sec-09-ped-severe-prognosis.typ"
+#include "sec-10-ped-severe-summary/sec-10-ped-severe-summary.typ"

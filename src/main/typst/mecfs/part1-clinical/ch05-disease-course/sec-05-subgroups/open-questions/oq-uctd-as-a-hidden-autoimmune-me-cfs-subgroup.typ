@@ -1,0 +1,9 @@
+#import "../../../../shared/environments.typ": *
+
+#open-question(title: [UCTD as a Hidden Autoimmune ME/CFS Subgroup?])[
+Undifferentiated connective tissue disease (UCTD) — characterized by clinical symptoms and laboratory evidence of autoimmunity without fulfilling criteria for SLE, SSc, or other defined connective tissue diseases — shares fatigue as a primary symptom. UCTD is subcategorized as evolving (progressing to a defined CTD, ~18%) or stable (remaining undifferentiated for years) @Rubio2023UCTDReview. UCTD and fibromyalgia share undefined clinical features and may both recognize environmental exposures as triggering factors @Andreoli2017UCTDFibromyalgia.
+
+The diagnostic implications for ME/CFS are bidirectional but uncertain: (1) UCTD patients meeting ME/CFS criteria may be misdiagnosed as having "idiopathic" chronic fatigue when their fatigue is autoimmune-mediated; (2) ME/CFS patients with borderline autoimmune features may have UCTD driving their phenotype — or may have coincidental autoimmune markers unrelated to their ME/CFS. No study has systematically assessed ME/CFS diagnostic criteria in UCTD cohorts or UCTD prevalence in ME/CFS cohorts. The fundamental question — whether UCTD fatigue and ME/CFS fatigue share pathophysiology or represent distinct diseases with overlapping symptoms — has no direct evidence.
+
+*Clinical recommendation:* Standard rheumatologic evaluation (ANA, anti-ENA panel) is appropriate when autoimmune features are clinically present (arthralgia, rash, Raynaud's, sicca symptoms) — this is existing clinical practice, not a novel recommendation from the SLE analogy. Universal anti-ENA screening in all ME/CFS patients is not warranted: in a low-prevalence population, false-positives generate unnecessary referrals, anxiety, and echocardiographic/pulmonary function testing. Anti-ENA panel is most informative when ANA is at least 1:160 *with* clinical correlates.
+] <oq:uctd-me-cfs-group>

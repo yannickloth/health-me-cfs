@@ -1,0 +1,7 @@
+#import "../../../../../shared/environments.typ": *
+
+#hypothesis(title: [Bistability of the Energy--Immune Cycle])[
+The coupled energy--immune system exhibits bistability: a healthy attractor (low immune activation, adequate energy) and a disease attractor (chronic immune activation, energy deficit) coexist for the same parameter values. The transition from health to disease occurs when a sufficiently strong perturbation (e.g., acute infection) pushes the system past a separatrix into the basin of attraction of the disease state. Recovery requires a perturbation of comparable magnitude in the reverse direction---or a sustained intervention that eliminates the disease attractor entirely by modifying system parameters (e.g., sufficient immunosuppression to break the cycle). This model predicts that: (1) disease onset is triggered by events exceeding a threshold severity, not by any specific pathogen; (2) spontaneous recovery is rare because the disease attractor is stable; and (3) effective treatment must be sustained long enough to shift the system past the separatrix, explaining why brief interventions often fail.
+
+*Certainty*: 0.50. Bistability is a natural consequence of the positive feedback structure and is consistent with the clinical observation that ME/CFS often begins with an acute trigger but persists indefinitely. Direct demonstration of bistability would require longitudinal measurement of both immune and metabolic variables with sufficient temporal resolution to map the state-space trajectory.
+]

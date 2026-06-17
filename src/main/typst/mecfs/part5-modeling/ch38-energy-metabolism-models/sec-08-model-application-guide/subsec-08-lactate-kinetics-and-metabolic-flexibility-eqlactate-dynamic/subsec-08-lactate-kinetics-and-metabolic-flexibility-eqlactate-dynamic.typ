@@ -1,0 +1,16 @@
+#import "../../../../shared/environments.typ": *
+
+=== Lactate Kinetics and Metabolic Flexibility (@eq:lactate-dynamics and @eq:gpr81-feedback)
+
+*Measurements required.* (1) Resting and exercise lactate: blood sampling at rest and during graded exercise (why: calibrates the lactate production/clearance balance). (2) Respiratory exchange ratio (RER) at rest and during CPET (why: directly measures $Phi$, the fuel selection ratio). (3) Acylcarnitine profile: metabolomics (why: elevated acylcarnitines indicate impaired $beta$-oxidation and carnitine sequestration). (4) Free carnitine level (why: determines whether carnitine supplementation targets the actual bottleneck).
+
+*Worked example.* A patient with $alpha_(upright("CI")) = 0.60$ (below the bistability threshold of 0.65 identified by the GPR81 feedback model). Resting lactate = 2.8 mM (vs. 1.0 healthy), RER = 0.92 (vs. 0.82 healthy, indicating shifted toward carbohydrate oxidation). The GPR81 feedback reduces FFA availability: $[upright("FFA")]_(upright("available")) = [upright("FFA")]_(upright("basal")) dot.op K_(upright("GPR81"))/(K_(upright("GPR81")) + 2.8) approx 0.42 dot.op [upright("FFA")]_(upright("basal"))$ (using $K_(upright("GPR81")) approx 2$ mM). With $<50%$ of normal FFA supply, fat oxidation is severely curtailed, forcing further glycolytic reliance and more lactate---the self-sustaining metabolic loop.
+
+*Inter-model dependencies.* _Inputs_: pyruvate from glycolysis, NADH/$"NAD"^"+"$ from ETC, free carnitine from carnitine balance. _Outputs_: lactate feeds back via GPR81 to FFA supply, affecting fuel selection. RER is a direct model output comparable to CPET data.
+
+*Scope and rationale.* The model captures the Randle cycle (glucose--fatty acid competition) and carnitine shuttle but omits ketone body metabolism and amino acid oxidation. These are quantitatively minor during the submaximal activities relevant to ME/CFS patients and would add parameters without improving predictive power for the target observations (lactate, RER).
+
+*Falsification criteria.* The model predicts a bistable metabolic state when $alpha_(upright("CI")) < 0.65$ (loop gain $> 1$). *Falsified if*: patients with $alpha_(upright("CI")) < 0.65$ do not show the predicted metabolic lock (persistently elevated lactate and RER even at rest), or if experimental GPR81 blockade does not restore metabolic flexibility in a patient with the predicted bistable profile.
+
+*Clinical implications.* The model distinguishes two metabolic phenotypes requiring different interventions: (1) patients above the bistability threshold ($alpha_(upright("CI")) > 0.65$): metabolic inflexibility is reversible with mitochondrial support alone; (2) patients below threshold ($alpha_(upright("CI")) < 0.65$): the GPR81 feedback loop is self-sustaining and requires either breaking the loop (GPR81 antagonism, if available) or simultaneously improving ETC capacity _and_ providing alternative fat delivery (medium-chain triglycerides, which bypass CPT-I). The acylcarnitine profile distinguishes carnitine-responsive patients (elevated acylcarnitines with low free carnitine) from those needing $"NAD"^"+"$ repletion (elevated acylcarnitines with adequate free carnitine).
+

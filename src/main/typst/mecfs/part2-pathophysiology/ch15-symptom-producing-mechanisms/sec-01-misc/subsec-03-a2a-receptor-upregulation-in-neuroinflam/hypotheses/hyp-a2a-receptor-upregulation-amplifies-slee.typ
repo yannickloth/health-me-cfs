@@ -1,0 +1,6 @@
+#import "../../../../../shared/environments.typ": *
+
+#hypothesis(title: [A2A Receptor Upregulation Amplifies Sleep Pressure in ME/CFS Neuroinflammation])[
+During microglial activation, A2A adenosine receptors are upregulated coincident with P2Y12 downregulation @Orr2009A2AMicroglia. This receptor shift has been termed chemotactic reversal: activated microglia respond to extracellular adenosine (the breakdown product of ATP) by retracting processes and adopting amoeboid morphology, rather than extending toward the signal as resting microglia do. In ME/CFS, Nakatomi et al. @Nakatomi2014Neuroinflammation demonstrated 45–199% elevated TSPO binding in cingulate cortex, hippocampus, amygdala, thalamus, and brainstem (n=9 patients vs. n=10 controls), establishing sustained microglial activation as a feature of the disease. The hypothesis is that this persistent neuroinflammation maintains elevated A2A receptor density across the sleep-regulatory regions, enhancing the sensitivity of the system to adenosine and producing excessive sleep pressure responses to normal or modestly elevated adenosine concentrations.
+(Study quality: Medium; direct ME/CFS A2A receptor expression data absent; supported by mechanistic extrapolation from Nakatomi 2014 and Orr 2009.)
+] <hyp:ch15-a2a-neuroinflammation>

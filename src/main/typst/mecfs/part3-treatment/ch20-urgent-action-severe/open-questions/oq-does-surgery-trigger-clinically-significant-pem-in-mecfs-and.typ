@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#open-question(title: [Does Surgery Trigger Clinically Significant PEM in ME/CFS, and Can Pre-operative Protocols Mitigate It?])[
+The only available study of perioperative outcomes in ME/CFS did not assess post-exertional malaise, the cardinal disease feature @Steinkirchner2026anesthesia. Whether surgical stress — involving physical exertion, anesthetic agents, immune activation, pain, and disrupted sleep — triggers PEM in a clinically significant proportion of ME/CFS patients, and how severe and prolonged such crashes are, is entirely unknown. Secondary questions include: does the severity of baseline ME/CFS predict crash severity? Do minimally invasive procedures reduce crash risk? Can pre-operative metabolic preparation (electrolytes, mitochondrial support) or post-operative pacing reduce the perioperative PEM burden? Prospective studies capturing PEM as a primary outcome are urgently needed given the frequency with which ME/CFS patients require surgery.
+]

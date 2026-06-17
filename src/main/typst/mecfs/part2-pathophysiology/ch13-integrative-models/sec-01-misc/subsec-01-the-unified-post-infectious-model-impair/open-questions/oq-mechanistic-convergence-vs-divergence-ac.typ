@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#open-question(title: [Mechanistic Convergence vs. Divergence Across Post-Infectious Conditions])[
+Do ME/CFS, Long COVID, and other post-infectious syndromes share a common core mechanism (impaired physiological resilience) despite differing initial triggers, or do they represent mechanistically distinct entities with superficial symptom overlap? The Shahbaz et al. comparison of Long-COVID-associated ME/CFS vs. idiopathic ME/CFS found both overlap and divergence: shared immune activation was evident, but Long-COVID-associated cases showed more pronounced T-cell exhaustion, NK-cell alteration, MAIT/$gamma delta$ T-cell depletion, and inflammatory monocyte skewing. These findings support placement within a broader post-infectious framework while arguing against unqualified mechanistic equivalence. Longitudinal studies tracking the emergence and evolution of these signatures from acute infection through chronicity are needed to resolve this question. @Watton2026unified
+] <oq:post-infectious-convergence-divergence>

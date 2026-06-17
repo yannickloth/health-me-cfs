@@ -1,0 +1,27 @@
+#import "../../../../shared/environments.typ": *
+
+=== Heart Rate Variability
+<sec:hrv>
+
+Heart rate variability (HRV) reflects autonomic modulation of the sinoatrial node (see Chapter @ch:neurological for detailed discussion). Multiple studies document autonomic dysfunction in ME/CFS @Newton2007autonomicDysfunction, and the NIH deep phenotyping study confirmed significantly reduced HRV in ME/CFS patients (@walitt2024deep):
+
+    - *Reduced overall HRV*: Lower SDNN and total power
+    - *Diminished parasympathetic markers*: Reduced high-frequency power and RMSSD
+    - *Altered sympathovagal balance*: Changed LF/HF ratio
+    - *Prognostic implications*: Low HRV predicts poor health outcomes generally
+
+A comparative study by Ryabkova et al. (2024) demonstrated that while both ME/CFS and post-COVID syndrome patients show similar patterns of reduced HRV and baroreflex sensitivity at rest, the two conditions diverge under controlled slow breathing: HRV parameters normalised in PCS patients but remained abnormal in ME/CFS patients @Ryabkova2024dysautonomia. This differential response suggests that autonomic dysfunction in ME/CFS involves a more fixed or structural impairment than the potentially reversible dysautonomia seen in post-COVID, and may serve as a distinguishing feature between the two conditions. Notably, HRV and blood pressure variability parameters correlated with fatigue severity but not with depression or anxiety scores, supporting a physiological rather than psychological basis for the autonomic findings.
+
+==== Within-Person HRV Fluctuations as Symptom Predictors
+<sec:hrv-fluctuations>
+
+A large intensive longitudinal study of daily HRV monitoring in complex chronic illness (Aitken et al.\ 2026; n=4244 Visible app users with Long COVID, ME/CFS, or other energy-limiting conditions) found that within-person fluctuations in morning HR and HRV (measured as RMSSD scaled to a 0–100 score) predicted same-day symptom reports @Aitken2026digitalHRV. Participants provided 60-second photoplethysmography (PPG) assessments each morning and self-reported crash, fatigue, and brain fog severity each evening, yielding an average of 125 biometric observations per participant. The study was retrospective in design, analysing data already collected through the commercial Visible app; participants self-identified their conditions without standardized diagnostic confirmation.
+
+Within-person increases in morning HR and decreases in HRV were significantly associated with worsening evening symptoms across all three outcomes. Greater 7-day variability (coefficient of variation) in HR and HRV further predicted symptom deterioration, suggesting that short-term instability in cardiovascular dynamics—not just tonic levels—is associated with worsening daily symptom patterns. Walk-forward cross-validation showed that models combining morning biometrics with prior-day symptom reports achieved AUC values of 0.82 for crash, 0.74 for fatigue, and 0.85 for brain fog, representing statistically significant improvements over prior-day symptoms alone (AUC 0.78 for crash, 0.73 for fatigue, 0.83 for brain fog) @Aitken2026digitalHRV.
+
+Between-person patterns were also informative: individuals with more stable morning HR experienced fewer symptoms on average, while lower average morning HRV was associated with increased crash likelihood @Aitken2026digitalHRV. While these observations parallel the autonomic dysfunction findings from research-grade studies documented above, the methodological differences (consumer PPG vs.\ ECG, self-identified vs.\ clinician-confirmed diagnoses) preclude treating them as mutual validation. The data suggest that day-to-day HRV dynamics accessible via consumer devices may carry within-person predictive value for symptom fluctuations, but this remains to be confirmed in clinician-confirmed ME/CFS cohorts using standardized protocols.
+
+#limitation(title: [Digital HRV Monitoring Limitations])[
+The Aitken et al.\ study used retrospective data from a commercial app without standardized ME/CFS diagnostic confirmation; participants self-identified their conditions, and the proportion with ME/CFS specifically (vs.\ Long COVID or other conditions) is not reported. PPG-derived HRV from smartphone cameras and armbands may be less accurate than research-grade ECG, particularly for frequency-domain metrics. The 60-second morning PPG protocol did not standardize posture (supine vs.\ seated), time since waking, or medication status—pre-analytical variables that can shift RMSSD by 20–40%. The modest AUC improvements from biometrics over prior-day symptoms alone (0.01–0.04 in some comparisons) raise questions about clinical utility beyond existing self-monitoring. The study population was self-selected ambulatory app users; severe and very severe patients who cannot sustain daily monitoring were effectively excluded. Future prospective studies with confirmed ME/CFS diagnosis and continuous (rather than 60-second) monitoring are needed to establish clinical applicability @Aitken2026digitalHRV.
+]
+

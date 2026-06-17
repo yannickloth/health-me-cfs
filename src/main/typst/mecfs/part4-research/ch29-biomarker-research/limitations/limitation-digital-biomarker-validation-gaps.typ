@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#limitation(title: [Digital Biomarker Validation Gaps])[
+Current evidence derives from a single retrospective cohort of self-identified participants using a commercial app; the proportion with ME/CFS specifically (vs.\ Long COVID or other conditions) is not reported. The 60-second PPG protocol did not standardize posture, time since waking, or medication status—key pre-analytical variables for autonomic biomarkers. Prospective validation in clinician-confirmed ME/CFS cohorts with research-grade monitoring is needed. The predictive models have not been tested in new populations (only within-person temporal generalization was evaluated). The study population consisted of self-selected ambulatory app users; severe and very severe patients were effectively excluded. Whether real-time prediction translates to improved clinical outcomes (e.g., crash prevention through pacing guidance) remains undemonstrated. Importantly, a "low risk" prediction should not be interpreted as a safe window to exceed one's energy envelope, given that PEM can lag 24–48 hours beyond any same-day monitoring window
+]

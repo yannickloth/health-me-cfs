@@ -1,0 +1,10 @@
+#import "../../../../shared/environments.typ": *
+
+=== Predictions from Oscillatory and Stochastic Dynamics
+
+#include "key-points/crash-prediction-from-wearables-a-24-48-hour-warning-window.typ"
+
+The Hopf bifurcation analysis (Section @sec:oscillation-analysis) predicts endogenous symptom oscillations with a period of 2--6 weeks when the system resides near the bifurcation (Equation @eq:oscillation-period). The oscillation period itself encodes disease dynamics: shorter period indicates higher immune--metabolic loop gain (more active disease); lengthening period signals approaching recovery. This transforms a subjective complaint ("my symptoms cycle") into a quantitative biomarker.
+
+The stochastic resonance analysis (Section @sec:stochastic-resonance) predicts that for patients very near the separatrix, a non-zero level of physiological perturbation could in principle maximise spontaneous recovery probability. The optimal perturbation amplitude scales as $sigma^2_upright("optimal") prop sqrt(Delta U \/ g_upright("loop"))$. However, this prediction is in _direct tension_ with the damage prevention dominance result (Hypothesis @hyp:damage-prevention-dominance): the ratchet model predicts that any perturbation carries a risk of irreversible ceiling loss $delta_k$, and the recovery cost of that loss is disproportionately high at lower $B$. The risk-benefit asymmetry is stark---a failed perturbation (crash) causes permanent damage, while a successful one (separatrix crossing) is beneficial but uncertain. In practice, the stochastic resonance prediction applies only to the narrow subpopulation near the separatrix with shallow attractor depth ($Delta U$ small), where the perturbation needed is small enough that ratchet damage risk is negligible. For patients deep in the disease attractor or in the severe/extremely severe range, the damage prevention logic dominates and perturbation is contraindicated. This analysis does _not_ endorse graded activity programs; the perturbations considered are endogenous physiological fluctuations (hormonal cycling, circadian variation), not externally imposed exercise.
+

@@ -1,0 +1,10 @@
+#import "../../../shared/environments.typ": *
+#include "sec-05-disease-modifying-mild-moderate-intro.typ"
+#include "subsec-01-early-intervention-advantage/subsec-01-early-intervention-advantage.typ"
+#include "subsec-02-subsec:acute-onset-protocol/subsec-02-subsec:acute-onset-protocol.typ"
+#include "subsec-03-subsec:brain-first-implementation/subsec-03-subsec:brain-first-implementation.typ"
+#include "subsec-04-immune-profiling-and-targeted-intervention/subsec-04-immune-profiling-and-targeted-intervention.typ"
+#include "subsec-05-subsec:cycle-mapping/subsec-05-subsec:cycle-mapping.typ"
+#include "subsec-06-early-disease-anti-cytokine-strategy/subsec-06-early-disease-anti-cytokine-strategy.typ"
+#include "subsec-07-hormonal-optimization/subsec-07-hormonal-optimization.typ"
+#include "subsec-08-microbiome-restoration/subsec-08-microbiome-restoration.typ"

@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#key-point(title: [Minimum 4--6 Drug Cocktail: A Structural Prediction])[
+Network controllability analysis of the model Jacobian (Section @sec:network-controllability) predicts that _if the model topology is an adequate representation of the real biological network_, the system requires a minimum of 4--6 independent driver nodes for full structural controllability. This is a property of the network topology, independent of parameter values, but dependent on whether the modelled connections are real. Furthermore, full controllability may not be the clinical goal---partial controllability (disrupting one critical feedback loop) might suffice for recovery. The minimum controllable driver sets span distinct subsystems: metabolic + immune + neuroendocrine + autonomic, at minimum. This explains why unselected monotherapy trials consistently show small average effect sizes even for drugs that may be highly effective within the right patient subtype.
+]

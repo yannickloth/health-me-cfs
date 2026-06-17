@@ -1,0 +1,31 @@
+#import "../../../../shared/environments.typ": *
+
+=== Documented ME/CFS Findings and Failure Modes
+#include "../../../../figures/fig-oxidative-stress-mecfs.typ"
+#include "../../../../figures/fig-oxidative-stress-normal.typ"
+
+
+#achievement(title: [Decreased MnSOD and GPX4 Dysfunction in ME/CFS and Long COVID])[
+Shankar et al.\ demonstrated that both ME/CFS and Long COVID lymphocytes exhibit elevated oxidative stress with *decreased mitochondrial MnSOD protein levels* and *GPX4-mediated lipid peroxidation* damage . Female patients show higher total ROS and mitochondrial calcium; male patients show normal total ROS but greater lipid oxidative damage — indicating sex-specific failure modes in mitochondrial antioxidant defense. This is the first direct measurement showing reduced MnSOD protein (not merely elevated ROS markers) in ME/CFS lymphocytes.
+Study: (multi-cohort; flow cytometry and mass spectrometry; _PNAS_ 2025; certainty: 0.55 — lymphocytes may not reflect tissue-specific MnSOD levels in muscle or brain; study not yet independently replicated; smaller cohort and cell-type specificity warrant conservative calibration relative to Fluge 2016).
+] <ach:shankar2025-mnsod>
+
+#warning-env(title: [Replication Status: Not Yet Independently Replicated])[
+Shankar 2025 is a single study. The lymphocyte measurements may not generalize to skeletal muscle, neurons, or cardiac tissue, where MnSOD has the greatest energy-metabolism significance.
+]
+
+MnSOD decrease has cascading consequences that amplify all other failure modes: elevated mitochondrial superoxide inactivates aconitase (Section @sec:step5-krebs), oxidizes cardiolipin (Section @sec:step6-cofactors), and damages iron-sulfur clusters in Complexes I and II. Notably, PGC-1$alpha$ — the master regulator of mitochondrial biogenesis — transcriptionally upregulates MnSOD; its suppression by chronic inflammation would therefore impair antioxidant defense alongside biogenesis.
+
+*NOT STUDIED in ME/CFS:*
+    - *Peroxiredoxin 3 (PRDX3) expression*: PRDX3-knockout mice develop exercise intolerance, reduced ATP production, impaired mitochondrial fusion, and diminished physical endurance @Lee2020prdxKO — features that overlap with ME/CFS but are also shared by many mitochondrial and metabolic conditions. A critical mechanistic link: PRDX3 protects PINK1 from OMA1-mediated proteolytic degradation, so PRDX3 loss simultaneously impairs both H#sub[2]O#sub[2] scavenging and mitophagy @Sonn2022prdx3cardiac — potentially connecting the ROS and mitochondrial quality-control defects observed in ME/CFS. PRDX3 in ME/CFS patient tissue has not been measured.
+    - *NRF2 pathway*: NRF2 (nuclear factor erythroid 2-related factor 2) is the master antioxidant transcription factor that simultaneously upregulates MnSOD, GPX1, catalase, thioredoxin, HO-1, NQO1, and glutamate-cysteine ligase (the rate-limiting enzyme for glutathione synthesis). Its suppression by chronic inflammation is well-established in other diseases. Davis et al.\ explicitly identify NRF2 inhibition as a contributor to symptom persistence in ME/CFS, Gulf War Syndrome, and fibromyalgia @Davis2025nrf2lipid, yet *no published study has directly measured NRF2 protein levels, NRF2 nuclear translocation, or NRF2 target gene expression panels in ME/CFS patient samples*. The MERUK-funded study at the University of Dundee (PI: Khan, 2014) was specifically designed to measure NRF2 protein and NRF2-target gene expression in ME/CFS blood samples but appears never to have published results. Shankar et al.\  measured several NRF2 target gene products (MnSOD protein, GPX4, glutathione) without measuring NRF2 itself — the upstream regulator remains unmeasured while downstream consequences are well-documented. In Long COVID, SARS-CoV-2 directly suppresses NRF2 protein and NRF2-dependent gene expression (SOD1, catalase, GPX1, GCLC, NQO1, HMOX1) in airway epithelial cells, with NRF2-knockout mice showing worse disease outcomes @Morris2023nrf2covid — providing a mechanistic bridge for post-viral NRF2 suppression that may persist into ME/CFS. An important caveat: the directionality of NRF2 dysfunction is unknown. Under chronic oxidative stress, NRF2 may be _compensatorily upregulated_ (via KEAP1 oxidation and nuclear translocation) rather than suppressed — producing the same downstream pattern (depleted MnSOD, GPX4, glutathione) if the antioxidant demand exceeds NRF2-driven supply. In this scenario, NRF2 activators would be ineffective or even counterproductive (adding activation signal to an already saturated system). The Morris 2023 viral-suppression model and the compensatory-upregulation model predict identical downstream findings but opposite therapeutic implications — distinguishing them requires direct NRF2 protein and nuclear translocation measurement. NRF2 activators (sulforaphane, dimethyl fumarate, omaveloxolone) are clinically available for other conditions but their use in ME/CFS is premature pending this measurement; dimethyl fumarate carries PML risk requiring lymphocyte monitoring, and omaveloxolone requires hepatic monitoring.
+    - *Thioredoxin/thioredoxin reductase (TRX/TXNRD)*: The secondary H#sub[2]O#sub[2] scavenging system and redox regulator. Paul et al.\ documented impaired H#sub[2]S and cysteine metabolism (upstream of thioredoxin) @Paul2021redox but the thioredoxin proteins themselves have not been directly measured.
+
+// Insert Figure: Normal Oxidative Stress Balance
+../../../../figures/fig-oxidative-stress-normal.typ"
+
+// Insert Figure: ME/CFS Oxidative Stress Vicious Cycle
+../../../../figures/fig-oxidative-stress-mecfs.typ"
+
+Figures @fig:oxidative-stress-normal and @fig:oxidative-stress-mecfs illustrate how oxidative stress creates a self-perpetuating cycle in ME/CFS, where excessive ROS production (5–10% electron leakage vs.\ normal 2%) combined with depleted antioxidants leads to progressive damage.
+

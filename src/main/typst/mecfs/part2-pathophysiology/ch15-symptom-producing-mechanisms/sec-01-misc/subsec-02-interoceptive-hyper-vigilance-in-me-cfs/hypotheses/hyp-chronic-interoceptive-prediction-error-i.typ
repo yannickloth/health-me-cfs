@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#hypothesis(title: [Chronic Interoceptive Prediction Error in ME/CFS])[
+In ME/CFS, chronic peripheral dysfunction (autonomic dysregulation, immune activation, impaired oxygen delivery) generates persistently aberrant afferent interoceptive signals. The brain's generative model, attempting to minimize prediction error, increases the _precision weighting_ assigned to interoceptive signals   effectively amplifying internal body awareness and reducing the threshold for detecting deviation from homeostatic norms. This precision upweighting manifests clinically as: heightened heartbeat discrimination accuracy, lower pain pressure thresholds, cognitive effort-intolerance, and the subjective experience of fatigue as a physiological state rather than a psychological one. Importantly, this is not a psychosomatic mechanism; it is the brain's rational response to genuine physiological disorder. (Certainty: Medium; mechanism plausible; direct tests of prior beliefs and precision weighting in ME/CFS are limited.)
+] <hyp:ch15-interoceptive-error>

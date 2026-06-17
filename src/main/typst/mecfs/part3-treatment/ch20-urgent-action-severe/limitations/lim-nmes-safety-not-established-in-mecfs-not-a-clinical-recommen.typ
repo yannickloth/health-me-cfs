@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#limitation(title: [NMES Safety Not Established in ME/CFS — NOT a Clinical Recommendation])[
+NMES is presented here as a *hypothetical* countermeasure only. No ME/CFS-specific NMES safety or efficacy trial exists. The critical unanswered question is whether electrically-induced muscle contractions trigger PEM: if the metabolic cost of muscle activation is the PEM trigger, NMES contractions — which are metabolically indistinguishable from voluntary contractions — could trigger PEM identically to volitional exercise. Ch17 @oq:bedbound-nmes articulates this: whether even 5 minutes at the lowest visible contraction intensity in a single muscle group is tolerated is completely unknown. The protocol below reflects ICU rehabilitation parameters @Dirks2015NMES (n=6, within-subject crossover, 7 days, fully sedated patients); ME/CFS-appropriate parameters, if any exist, would need to be far lower. Contraindicated in patients with pacemakers or implanted electrical devices.
+]

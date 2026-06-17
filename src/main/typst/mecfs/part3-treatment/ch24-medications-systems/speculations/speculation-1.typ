@@ -1,0 +1,7 @@
+#import "../../../shared/environments.typ": *
+
+#speculation(title: [LDN Combination Protocols])[
+Patient community reports describe synergistic benefits from combining LDN with other interventions. One frequently mentioned combination involves LDN (at bedtime), NAD+ precursors (nicotinamide riboside or NMN, in the morning), and melatonin (at bedtime for circadian regulation). The theoretical rationale combines: (1) LDN's anti-neuroinflammatory effects, (2) NAD+'s role in mitochondrial energy production and cellular repair, and (3) melatonin's effects on sleep architecture, circadian rhythm, and its own anti-inflammatory properties. Individual case reports describe dramatic improvements, including return to work after prolonged disability. However, this represents *anecdotal evidence only*—no controlled trials have evaluated this specific combination, and publication bias strongly favors positive reports. The heterogeneous nature of ME/CFS means that treatments helping some patients may be ineffective or harmful for others. Patients considering such combinations should work with knowledgeable physicians and implement changes sequentially to identify individual responses.
+
+*Testable prediction:* A controlled crossover trial of LDN + NAD+ precursors + melatonin vs LDN monotherapy shows greater improvement in PEM frequency and cognitive processing speed at 12 weeks. Falsified if the combination produces no benefit over LDN alone. *Limitations:* Evidence is anecdotal only; no controlled data for this specific combination exist.
+]

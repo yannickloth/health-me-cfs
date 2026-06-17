@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#open-question(title: [Precision Thermal Dose-Response: Mapping Temperature x Duration x Frequency in ME/CFS])[
+Hochecker et al. (2025) demonstrated acute cellular benefit from WBH at 39°C core temperature; Soejima et al. (2015) reported clinical improvement with Waon therapy at 60°C ambient. Neither study establishes the minimal effective thermal dose, optimal frequency, or severity-stratified protocol. A systematic four-arm dose-finding trial (40°C, 45°C, 52°C, 60°C x 10 vs 15 vs 20 min x 2 vs 3 vs 5x/week) with PBMC respirometry, HSP70, and clinical fatigue outcomes is needed. Severity-stratified arms would determine whether moderate and severe patients require lower temperatures or shorter durations. Falsifiable: a U-shaped thermal dose-response curve will emerge with 52°C/15 min/3x/week as the optimal trade-off between HSP70 induction (more than 2-fold increase) and PEM incidence (below 10%). @Hochecker2025HyperthermiaMECFS @Soejima2015WaonTherapyCFS
+] <oq:thermal-dose-response>

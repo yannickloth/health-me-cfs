@@ -1,0 +1,11 @@
+#import "../../../shared/environments.typ": *
+
+#speculation(title: [Exosomal HSP70 as Candidate Sleep Phenotype Biomarker])[
+*Certainty: 0.35.* Derived from Kang et al.@Kang2026ExosomeHSP70Sleep demonstration that exosomal HSP70 delivery reverses sleep-deprivation neuroinflammation; BBB crossing mechanism context from Ramos-Zaldívar et al.; engineering platform context from Sanadgol et al.. No ME/CFS data on exosomal HSP70 levels.
+
+HSP70 acts as both an intracellular chaperone maintaining proteostasis and an extracellular signalling molecule modulating immune responses. The Kang et al. finding establishes that exosome-delivered HSP70 is neuroprotective in the context of sleep loss, reducing hippocampal inflammation and restoring cognitive function. If endogenous exosomal HSP70 reflects CNS chaperone capacity, then lower levels would predict greater vulnerability to sleep-deprivation-induced neuroinflammation — a plausible mechanism in ME/CFS, where unrefreshing sleep is near-universal (95--100% prevalence).
+
+*Prediction.* ME/CFS patients with the most severe unrefreshing sleep should show the lowest neuron-derived exosomal HSP70 levels. If confirmed, exosomal HSP70 would serve as both a diagnostic biomarker (distinguishing ME/CFS sleep pathology from primary insomnia) and a treatment-response biomarker (tracking interventions that improve sleep architecture and glymphatic clearance).
+
+*Limitations.* Certainty 0.30. No data on neuronal exosomal HSP70 in any human population. HSP70 is ubiquitously expressed — distinguishing CNS-derived from peripheral exosomal HSP70 requires cell-type-specific capture. The causal direction is unclear: does low HSP70 cause poor sleep quality, or does poor sleep deplete HSP70? Longitudinal studies would be needed to disentangle this. An orthogonal salivary metabolomic approach (Section @sec:saliva-sleep-metabolomics) may complement exosomal biomarkers by providing a non-invasive at-home metabolic test, but the Scholz chronic null finding suggests peripheral metabolic signatures may wash out with chronic disease duration — limiting the probability that single-timepoint saliva assays will detect sleep-specific signals in ME/CFS.
+] <spec:exosomal-hsp70-biomarker>

@@ -1,0 +1,6 @@
+#import "../../../shared/environments.typ": *
+
+#open-question(title: [Does Early-Onset ME/CFS Have a Distinct Genetic Architecture?])[
+GWAS of DecodeME participants stratified by onset age (early: ≤20 years vs.\ late: ≥30 years, with sensitivity analyses excluding the 20--30 transition zone) would test whether at least one locus shows significantly different allele frequency between subgroups. The HLA region is the primary candidate based on vitiligo precedent and existing ME/CFS HLA associations. A secondary hypothesis: polygenic risk scores will explain more variance in early-onset than late-onset disease, reflecting stronger genetic loading. Pre-licensure surveillance of EBV vaccine efficacy should test whether the early onset peak flattens while the late peak remains unchanged---a differential result that would confirm distinct aetiologies. This analysis is technically feasible with existing data and requires only standard GWAS methodology; no new data collection is needed.
+*Certainty: n/a.* DecodeME onset-age data are approximated from illness duration bins (maximum error ~2.5 years), which adds noise but is unlikely to obscure effect sizes of the magnitude seen in vitiligo (OR > 8).
+]

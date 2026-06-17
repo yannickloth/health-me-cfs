@@ -1,0 +1,13 @@
+#import "../../../shared/environments.typ": *
+
+#speculation(title: [Serum/Plasma MMP-9 Ratio as Platelet Activation Biomarker])[
+*Certainty: 0.35.* (Novel ratio concept; requires paired sample validation; platelet hyperactivation in ME/CFS is provisionally supported.)
+
+The serum/plasma MMP-9 discrepancy is normally dismissed as pure artifact. However, the magnitude of the differential is itself informative: in healthy individuals, serum MMP-9 is approximately 3--4× higher than paired plasma MMP-9 because platelets and leukocytes release their MMP-9 stores during clotting @Jung2008MMP9Preanalytical @Olson2008MMP9Sampling. If ME/CFS patients have hyperactive platelets (a finding supported by some preliminary studies), their clotting-induced MMP-9 release should be larger, producing a higher serum/plasma MMP-9 ratio than controls.
+
+This ratio — serum MMP-9 / plasma MMP-9, measured from the same venipuncture — could serve as a functional platelet activation readout in a research setting, but only if independently validated against established platelet activation markers (platelet factor 4, β-thromboglobulin, P-selectin). Unlike flow cytometry-based platelet activation tests, which require fresh samples and expensive equipment, the MMP-9 ratio requires paired serum and citrate plasma collection, standard ELISA, and division of two values. Citrate plasma collection requires precise tube filling and standardized centrifugation/time-to-freeze (less than 30 min) — research-accessible with protocol infrastructure, not deployable in routine primary care. The ratio has no meaning without independent confirmation of platelet hyperactivity; differential clotting speed between patients and controls (documented coagulation abnormalities in ME/CFS) could produce spurious ratio differences unrelated to platelet biology. This approach has precedent in chronic spontaneous urticaria, where elevated serum/plasma MMP-9 ratios correlate with platelet hyperactivity and mast cell activation.
+
+*Testable prediction.* In a paired-sample design (n=50 ME/CFS, n=50 controls), the serum/plasma MMP-9 ratio will differentiate ME/CFS from controls (AUC >0.70), and correlate with established platelet activation markers (platelet factor 4, beta-thromboglobulin, P-selectin) and with mast cell activation markers (tryptase, histamine metabolites).
+
+*Limitations.* Serum/plasma ratio has never been formally validated as a platelet activation assay. Sampling protocol (collection tube type, centrifugation speed and time, time-to-freeze) must be rigorously standardized. The ratio may be confounded by platelet count, medications affecting platelet function (aspirin, NSAIDs), and recent exercise or meals.
+] <spec:mmp9-ratio-platelet-biomarker>

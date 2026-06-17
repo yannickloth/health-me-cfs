@@ -1,0 +1,4 @@
+#import "../../../shared/environments.typ": *
+
+../../../figures/fig-modeling-framework-overview.typ"
+Mathematical and computational modeling offers a principled framework for integrating the disparate biological observations described in Part II into coherent, testable quantitative theories. ME/CFS presents a particular challenge for modeling because the disease involves simultaneous dysfunction across energy metabolism, immune regulation, autonomic control, and neuroendocrine signaling---systems that interact through nonlinear feedback loops operating on timescales ranging from seconds (ion channel kinetics) to years (disease progression). This chapter establishes the mathematical foundations, modeling strategies, and validation principles that underpin the specific models developed in Chapters @ch:energy-metabolism-models and @ch:predictive-applications.

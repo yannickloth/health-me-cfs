@@ -1,0 +1,9 @@
+#import "../../../../shared/environments.typ": *
+
+=== Thyroid Hormone Regulation of Mitochondrial Function
+
+
+The thyroid hormone abnormalities documented in the preceding sections have direct consequences for mitochondrial energy production---the central deficit in ME/CFS (Chapter @ch:energy-metabolism). T3 regulates mitochondrial function through two pathways: a nuclear/genomic pathway (T3 $arrow.r$ PGC-1$alpha$ $arrow.r$ NRF-1/GABPA $arrow.r$ TFAM $arrow.r$ mitochondrial biogenesis, operating over hours to days) and a direct mitochondrial pathway (via p43, a truncated thyroid receptor imported into the mitochondrial matrix that acts as a T3-dependent transcription factor of mtDNA @WrutniakCabello2018p43). T3 also coordinates the mitochondrial quality-control cycle: a pathway proposed to involve ERR$alpha$-dependent DRP1 and ULK1 expression drives coordinated fission, PINK1/Parkin-dependent mitophagy, and biogenesis to replace damaged mitochondria with functional ones @Singh2017thyroidERR.
+
+The mechanistic details of these pathways---including supercomplex assembly, cardiolipin synthesis, and the overlap with WASF3-mediated supercomplex disruption---are developed in Section @sec:thyroid-mito-regulation of Chapter @ch:energy-metabolism, where a formal hypothesis (@hyp:t3-mito-amplifier) proposes that low tissue T3 may amplify several mechanisms of mitochondrial damage in the Low T3 subgroup of ME/CFS patients. If this hypothesis is correct, the Low T3 Syndrome (@ach:low-t3), the SELENOP autoantibody mechanism (@ach:selenop-autoantibodies), and the cytokine-mediated deiodinase suppression (@hyp:deiodinase-suppression) would represent upstream contributors to mitochondrial dysfunction in the affected subgroup. Whether the Low T3 pattern is itself a driver or a protective adaptation to energy deficiency (see Limitation @sec:thyroid above) remains unresolved and has direct implications for whether T3 correction would help or harm.
+

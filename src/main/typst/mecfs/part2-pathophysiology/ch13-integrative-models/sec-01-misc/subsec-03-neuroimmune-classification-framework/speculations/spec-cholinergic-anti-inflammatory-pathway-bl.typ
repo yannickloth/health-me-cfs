@@ -1,0 +1,9 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Cholinergic Anti-Inflammatory Pathway Blockade by GPCR Autoantibodies — Potential Mechanism for Vagal Treatment Stratification])[
+*Certainty: 0.40.* GPCR autoantibodies (particularly M2/M4 muscarinic and β2-adrenergic) may block the cholinergic anti-inflammatory pathway (CAP) at multiple points: (a) M2 autoantibodies on cardiac vagal terminals impair vagal efferent signaling before the spleen; (b) β2-AR autoantibodies on splenic T cells block the adrenergic-to-cholinergic conversion step that normally suppresses macrophage TNF-α. The result is the vagus brake on systemic inflammation becoming disengaged, producing the low-grade inflammatory state characteristic of ME/CFS, POTS, and Long COVID. This hypothesis predicts that taVNS (transcutaneous auricular vagus nerve stimulation) efficacy depends on GPCR autoantibody profile: patients with high β2-AR autoantibodies should show blunted taVNS response because the CAP effector step is blocked at the splenic T cell level, regardless of vagal afferent activation. @Blitshteyn2026Neuroimmune @Moen2025NeuroimmuneLongCOVID @Azcue2026gpcr
+
+*Replication status:* CAP blockade by GPCR autoantibodies is a mechanistic hypothesis that has not been directly tested in any condition. The individual components (M2 AAb on vagal terminals, β2-AR on splenic T cells) are established in isolated experiments but not as an integrated pathway.
+
+*Limitations:* No direct test of CAP function in GPCR autoantibody-positive ME/CFS. The splenic β2-AR T cell step is established in the basic immunology literature but the functional effect of patient-derived GPCR autoantibodies on this pathway has not been assayed. The taVNS stratification prediction is untested.
+] <spec:cap-autoantibody-blockade>

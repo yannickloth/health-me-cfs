@@ -1,0 +1,9 @@
+#import "../../../../../shared/environments.typ": *
+
+==== ME/CFS Case Study: The Rituximab Saga
+
+The rituximab story illustrates this principle with particular clarity. In the phase II trial by Fluge and colleagues @Fluge2011, 10 of 15 rituximab-treated patients (67%) showed a clinical response to this B-cell depleting monoclonal antibody, with improvements in function and symptoms. This result motivated a large phase III trial, RituxME, enrolling 151 unstratified patients.
+The phase III trial failed: $P = 0.80$, showing no benefit above placebo @Fluge2019. Standard interpretation might conclude that rituximab is ineffective in ME/CFS. However, a 6-year follow-up by Rekeland and colleagues identified a subset of long-term responders whose benefits persisted years after treatment @Rekeland2024, suggesting that rituximab works in some but not all patients.
+The mechanistic clue is that B-cell depletion affects multiple cell populations, including antibody-producing plasmablasts and memory B cells. One plausible explanation is that ME/CFS patients with autoimmune features (particularly elevated GPCR autoantibodies) may preferentially benefit from B-cell depletion, while patients without these features derive less benefit @Scheibenbogen2018immunoadsorption. If this hypothesis is correct, the average effect across both groups would collapse toward zero.
+Similar patterns emerge with other agents. Rintatolimod showed marginal improvement in an intent-to-treat analysis but a 51.2% improvement rate in patients with disease duration of 2–8 years @Strayer2020. Immunoadsorption, when applied to patients pre-selected by positive beta-2 adrenergic receptor autoantibodies, achieved a 70% response rate @Stein2024immunoadsorption. Each trial that appeared to fail at the population level succeeded in a biomarker-enriched subgroup.
+

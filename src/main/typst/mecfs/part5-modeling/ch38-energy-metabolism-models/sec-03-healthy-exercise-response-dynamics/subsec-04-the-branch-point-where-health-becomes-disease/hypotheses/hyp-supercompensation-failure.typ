@@ -1,0 +1,7 @@
+#import "../../../../../shared/environments.typ": *
+
+#hypothesis(title: [Supercompensation Failure as the Mechanistic Basis of Exercise Intolerance])[
+The defining feature of ME/CFS exercise intolerance is not the immediate metabolic response to exertion (which is qualitatively similar to healthy fatigue) but the failure of the post-exertional adaptation process: $Delta M_h^(upright("net")) < 0$ after exertion instead of $Delta M_h^(upright("net")) > 0$. This hypothesis predicts that: (1) mitochondrial DNA copy number decreases in ME/CFS patients 72 hours after standardized exercise but increases in matched healthy controls; (2) PGC-1$alpha$ target gene expression fails to upregulate post-exercise in ME/CFS despite adequate AMPK activation (indicating a SIRT1/$"NAD"^"+"$ bottleneck); (3) interventions that restore $"NAD"^"+"$ pools (e.g., NR supplementation) should partially restore the supercompensation response before improving exercise tolerance directly; and (4) the repeated bout effect (DOMS attenuation with training) is absent or inverted in ME/CFS patients.
+
+*Certainty*: 0.50. The exercise physiology framework is well-established, and the mitochondrial dynamics model is internally consistent. The predictions are specific and testable by combining two-day CPET with pre/post mtDNA quantification and PGC-1$alpha$ gene expression profiling. However, direct measurement of in vivo mitochondrial biogenesis rates post-exercise in ME/CFS has not been performed.
+] <hyp:supercompensation-failure>

@@ -1,0 +1,9 @@
+#import "../../../../shared/environments.typ": *
+
+=== Post-COVID Surge
+
+The COVID-19 pandemic has significantly increased ME/CFS incidence. An estimated 51% of long COVID patients meeting PEM criteria satisfy ME/CFS diagnostic criteria @Komaroff2023. Given the hundreds of millions of SARS-CoV-2 infections worldwide, the projected increase in ME/CFS prevalence is substantial—potentially doubling or tripling the pre-pandemic patient population. This surge has accelerated research funding and clinical attention but has also strained the already limited specialist infrastructure.
+*Population-level cognitive impact.* Beyond prevalence, the post-COVID surge carries significant cognitive morbidity. Hampshire et al. @Hampshire2024cognition assessed 112,964 participants from the UK REACT study and documented a graded dose–response relationship between COVID-19 severity and cognitive decline: mild resolved cases showed deficits equivalent to $tilde$3 IQ points, persistent symptoms (Long COVID) $tilde$6 IQ points, and ICU admission $tilde$9 IQ points, with reinfection adding $tilde$2 points per episode. Douaud et al. @Douaud2022brain demonstrated the structural neuroimaging correlate in UK Biobank longitudinal data ($n = 785$): grey matter loss in orbitofrontal and parahippocampal regions even after predominantly mild (96% non-hospitalized) infection. At population scale, even the modest 3-point deficit from mild COVID, applied across hundreds of millions of infections, represents a substantial shift in the cognitive capacity distribution—a public health dimension that extends well beyond the ME/CFS patient population but is particularly relevant to understanding the cognitive burden in post-COVID ME/CFS cases (see Chapter @ch:neurological, Section @subsec:cognitive-quantification).
+*Vaccination as Prevention Strategy in Children and Adolescents*
+
+

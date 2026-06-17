@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#limitation(title: [Piecewise Model Limitations])[
+The piecewise recovery model (Equations @eq:atp-piecewise, @eq:repair-piecewise) replaces the earlier linear approximations with biophysically grounded functions, but the regime boundaries ($B_upright("cliff")$, $B_upright("collapse")$) are estimated from worked examples, not measured. The shapes of $phi.alt(B)$ and $psi(B)$ within the cliff regime are qualitatively constrained by the ATP synthase threshold equation and the AMPK/NAD#super[+] competition but not numerically integrated. The extremely severe population is exceptionally difficult to study @Sommerfelt2023NorwaySevere, and validation requires home-visit protocols such as ACHTSAM @Fricke2026achtsam. Numerical integration of the full coupled ODE system (Chapters @ch:energy-metabolism-models through @ch:integrated-systems) with patient-specific parameters would yield precise $tau_upright("rec")(B)$ curves, including the exact location and sharpness of the cliff-to-floor transition.
+]

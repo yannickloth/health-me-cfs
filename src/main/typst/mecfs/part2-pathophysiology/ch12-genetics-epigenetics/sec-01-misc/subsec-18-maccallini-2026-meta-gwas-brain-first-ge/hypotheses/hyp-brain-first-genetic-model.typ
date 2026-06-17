@@ -1,0 +1,11 @@
+#import "../../../../../shared/environments.typ": *
+
+#hypothesis(title: [Brain-First Genetic Model])[
+*Certainty: 0.55.* The Maccallini meta-GWAS demonstrates that ME/CFS genetic risk variants are enriched exclusively in brain and pituitary tissues, with no peripheral tissue reaching significance @Maccallini2026metaGWAS. This pattern---genetic liability operating primarily through neuronal circuits---contrasts with peripheral immune hypothesis expectations, which would predict enrichment in blood, spleen, or lymph node.
+
+The brain-first model does not exclude peripheral pathology; it posits that genetic vulnerability originates in the CNS and produces peripheral manifestations through efferent signaling (autonomic dysregulation, neuroendocrine disruption, altered descending pain modulation). This is consistent with the absence of genetic correlation with classical autoimmune diseases (Section @sec:genetic-correlations) and with neurological abnormalities documented in Chapter @ch:neurological.
+
+*Falsifiable prediction:* Partitioned heritability analysis will show that common-variant heritability for ME/CFS is significantly higher in brain tissues than in blood, lymphoid, or other peripheral tissues after controlling for eQTL sharing. Falsified if peripheral tissue heritability is comparable to brain tissue heritability. Additionally, a tissue-specific Mendelian randomisation study showing that a peripheral immune biomarker (e.g., NK cell cytotoxicity) mediates ME/CFS risk independently of brain eQTL effects would refute the brain-first architecture.
+
+*Limitations:* (1) Tissue enrichment reflects cumulative expression across all cell types and states; rare cell types or state-dependent expression may be missed. (2) GWAS captures common variants only; rare variants affecting peripheral tissues are not detected. (3) Brain enrichment does not identify which specific circuits are primarily affected---cell-type resolution and functional validation are required.
+] <hyp:brain-first-genetic>

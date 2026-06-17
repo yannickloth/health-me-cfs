@@ -1,0 +1,13 @@
+#import "../../shared/environments.typ": *
+#include "ch20-urgent-action-severe-preamble.typ"
+#include "sec-01-understanding-urgency/sec-01-understanding-urgency.typ"
+#include "sec-02-subtype-assessment/sec-02-subtype-assessment.typ"
+#include "sec-03-two-week-protocol/sec-03-two-week-protocol.typ"
+#include "sec-04-two-week-outcomes/sec-04-two-week-outcomes.typ"
+#include "sec-05-sensitization-prevention-severe/sec-05-sensitization-prevention-severe.typ"
+#include "sec-06-glymphatic-enhancement-severe/sec-06-glymphatic-enhancement-severe.typ"
+#include "sec-07-medium-term-recovery/sec-07-medium-term-recovery.typ"
+#include "sec-08-long-term-recovery/sec-08-long-term-recovery.typ"
+#include "sec-09-implementation-checklist/sec-09-implementation-checklist.typ"
+#include "sec-10-special-considerations/sec-10-special-considerations.typ"
+#include "sec-11-summary-path/sec-11-summary-path.typ"

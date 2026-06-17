@@ -1,0 +1,5 @@
+#import "../../../../shared/environments.typ": *
+
+#hypothesis(title: [Terrain + Trigger Model for Post-Infectious ME/CFS])[
+ME/CFS follows a "terrain + trigger" model where pre-existing vulnerability factors (genetic predisposition including HLA associations, hypermobility/EDS, pre-existing dysbiosis, chronic stress/trauma, latent MCAS) create a susceptible biological substrate. An acute trigger (viral infection, surgery, physical trauma, or psychological trauma) then precipitates transition from vulnerability to chronic illness. The specific clinical expression—fibromyalgia, ME/CFS, or Long COVID—depends on the combination of pre-existing vulnerabilities and the nature of the trigger. (Certainty: 0.65. 0.60→0.65: H3 two-hit glutamatergic model provides specific molecular mechanism for why only glutamatergic-vulnerable individuals cross the threshold after infectious trigger — the "terrain" = glutamatergic genetic liability @Maccallini2026metaGWAS.)
+] <sec:terrain-trigger-model>

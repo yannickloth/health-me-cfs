@@ -1,0 +1,15 @@
+#import "../../../../shared/environments.typ": *
+
+=== T3 Supplementation: Evidence and Risks
+
+
+The rationale for T3 supplementation in patients with documented Low T3 Syndrome appears mechanistically plausible: directly providing the active hormone bypasses the impaired DIO1/DIO2 conversion step. However, no clinical trial has tested T3 supplementation in ME/CFS patients, and the evidence base is essentially absent.
+
+The only controlled trial identified in a condition with symptom overlap (noting that this was not a systematic search) is Lowe et al.\ (1997) @Lowe1997T3fibro, a double-blind placebo-controlled crossover study in euthyroid fibromyalgia patients using _supraphysiologic_ T3 doses (not the physiologic replacement discussed elsewhere in this section). The study was published in a low-impact specialty journal (_Clinical Bulletin of Myofascial Therapy_), has not been replicated, and the lead author was a prominent T3 advocacy figure whose broader claims about "thyroid hormone resistance" were explicitly rejected by the American Thyroid Association. Fibromyalgia is a distinct condition from ME/CFS; direct extrapolation is unjustified. The literature on T3 supplementation in fatigue conditions is nearly empty: the absence of null-finding studies reflects a lack of research in this area, not an absence of negative results.
+
+#warning-env(title: [Risks of T3 Supplementation in Euthyroid Patients])[
+Established risks of T3 supplementation include: (1) cardiac effects---atrial fibrillation (up to 15% prevalence in hyperthyroid states), tachycardia, and heart failure with prolonged overstimulation; (2) bone effects---increased turnover, osteopenia, and osteoporosis risk (particularly post-menopausal women); (3) thyroid axis suppression---exogenous T3 suppresses TSH and endogenous hormone production, with rebound hypothyroidism on abrupt discontinuation; (4) narrow therapeutic window---T3's shorter half-life (~1 day vs ~7 days for T4) makes iatrogenic thyrotoxicosis more likely. A 2024 meta-analysis of 52 studies ($n = 630{,}254$) found regulated liothyronine use was not associated with increased mortality or serious adverse outcomes in _patients with diagnosed hypothyroidism_. This safety data cannot be directly extrapolated to euthyroid ME/CFS patients, who have intact thyroid axes and may respond differently to exogenous T3. Any T3 supplementation in euthyroid ME/CFS patients remains experimental and requires endocrinologist supervision with cardiac monitoring.
+] <warn:t3-supplementation-risks>
+
+Selenium supplementation represents a potentially safer intervention, particularly for the SELENOP-aAb--positive subgroup (@ach:selenop-autoantibodies): it could support deiodinase function (DIO1/DIO2), glutathione peroxidase activity, and partially bypass the autoantibody-mediated transport deficit. The tolerable upper limit is 400 $mu$g/day; toxicity (selenosis) manifests above this threshold. No clinical trial has specifically tested selenium supplementation for the thyroid-mitochondrial axis in ME/CFS.
+
