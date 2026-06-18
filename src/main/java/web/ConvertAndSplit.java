@@ -34,7 +34,7 @@ void main(String[] args) throws IOException {
     // Citations: @key but NOT internal cross-ref prefixes
     // Cross-references with @: convert to Quarto crossref syntax @sec-xyz
     // Cross-references with @: convert to Quarto crossref syntax @sec-xyz
-    src = src.replaceAll("@(ch|sec|subsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
+    src = src.replaceAll("@(ch|sec|subsec|subsubsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
     // Only convert actual BibTeX citation keys: @AuthorYear(suffix)
     src = src.replaceAll("@([A-Z][A-Za-z]+\\d{4}[a-zA-Z0-9]*)", "[@$1]");
     src = src.replaceAll("@([a-z]+\\d{4}[a-zA-Z0-9]*)", "[@$1]");
@@ -43,8 +43,8 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("(?s)#figure\\s*\\(\\s*kind\\s*:\\s*table[^,]*,.*?\\)\\s*\\n", "<!-- TABLE -->\n");
     // Strip #figure(table\n...), #figure(table(...)...) — table as first arg
     src = removeFigureTable(src);
-    // Strip #table(...) blocks — same issue
-    src = src.replaceAll("(?s)#table\\(.*?\\)\\s*\\n", "<!-- TABLE -->\n");
+    // Strip #table(...) blocks — use bracket counting like removeFigureTable
+    src = removeTableBlocks(src);
     // Strip remaining stray )) from #align(center, ...) calls
     src = src.replaceAll("#align\\(center,\\s*", "");
     src = src.replaceAll("#align\\(\\s*", "");
@@ -73,9 +73,9 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("#chapter-abstract\\[", "::: {.callout-note}\n### Chapter Abstract\n\n");
 
     // Close standalone ] lines — replace any line that is just ] or ]<label>
-    // But only do this for genuine env closings, not stray brackets.
-    // Stray ] lines inside table/figure blocks cause fenced div errors.
-    // Remove all remaining ] lines entirely to avoid Pandoc OOM.
+    // Preserve labels from ] <label> lines as standalone label lines.
+    src = src.replaceAll("(?m)^\\]\\s+(<[a-z][\\w:\\.-]*>)\\s*$", "$1");
+    // Remove remaining ] lines entirely to avoid Pandoc OOM.
     src = src.replaceAll("(?m)^\\].*$", "");
 
     // #sub[X] → ~X~, #super[X] → ^X^
@@ -151,9 +151,9 @@ void main(String[] args) throws IOException {
         if (inPreamble) {
             if (!stripped.isEmpty() && !stripped.startsWith("<ch:")) preamble.add(line);
         } else {
-            if (stripped.startsWith("<sec:") && secLabel.isEmpty()) {
+            if (stripped.matches("^<(sec|subsec|subsubsec):[^>]+>$") && secLabel.isEmpty()) {
                 secLabel = stripped;
-                continue; // don't keep label in body — it goes in the YAML-block section heading
+                continue;
             }
             current.add(line);
         }
@@ -271,52 +271,60 @@ void main(String[] args) throws IOException {
                 raw = "$$" + raw.strip().substring(1, raw.strip().length() - 1) + "$$";
             }
 
-            // Handle <label> on its own line — attach to previous heading if adjacent,
-            // otherwise prepend to the next non-empty non-heading line as inline anchor.
+            // Handle <label> on its own line — attach to nearest heading (before or after),
+            // or emit as invisible HTML anchor if no heading is adjacent.
             if (raw.strip().matches("^<[a-zA-Z][\\w:\\.-]*>$")) {
                 var label = raw.strip()
                     .replaceFirst("^<", "{#")
                     .replaceFirst(">$", "}")
                     .replaceFirst(":", "-");
                 var buf = sb.toString();
-                // Check if the last non-empty line in sb is a markdown heading
-                var lastLine = "";
-                var linesInBuf = buf.split("\n");
+                // Find last heading line in sb (skip blank lines between heading and label)
+                var linesInBuf = buf.split("\n", -1);
+                int headingIdx = -1;
                 for (int li = linesInBuf.length - 1; li >= 0; li--) {
-                    if (!linesInBuf[li].isBlank()) { lastLine = linesInBuf[li]; break; }
+                    if (linesInBuf[li].isBlank()) continue;
+                    if (linesInBuf[li].strip().matches("^#{1,6}\\s+.+")) headingIdx = li;
+                    break;
                 }
-                if (lastLine.strip().matches("^#{1,6}\\s+.+")) {
-                    // Previous line is a heading → attach label inline
-                    if (buf.endsWith("\n")) {
-                        sb.setLength(0);
-                        sb.append(buf.substring(0, buf.length() - 1));
-                        sb.append(' ').append(label).append('\n');
-                    } else {
-                        sb.append(' ').append(label).append('\n');
+                if (headingIdx >= 0) {
+                    // Append label to the heading line, rebuild buffer
+                    linesInBuf[headingIdx] = linesInBuf[headingIdx] + " " + label;
+                    sb.setLength(0);
+                    for (int li = 0; li < linesInBuf.length; li++) {
+                        sb.append(linesInBuf[li]);
+                        if (li < linesInBuf.length - 1) sb.append('\n');
                     }
                 } else {
-                    // Not a heading → prepend label to the NEXT non-empty output line
-                    // Write label as pending, to be attached to the next line
+                    // No heading above — set as pending for the next heading,
+                    // or emit as invisible HTML anchor if next line is not a heading
                     pendingLabel = label;
                 }
                 continue;
             }
 
-            // Prepend pending label to current line (if any)
-            if (pendingLabel != null && !stripped.isEmpty() && !stripped.matches("^#{1,6}\\s+.*")) {
-                raw = pendingLabel + " " + raw;
-                pendingLabel = null;
+            // Attach pending label: to a heading if this line is one, else emit as HTML anchor
+            if (pendingLabel != null && !stripped.isEmpty()) {
+                if (raw.strip().matches("^#{1,6}\\s+.+")) {
+                    raw = raw + " " + pendingLabel;
+                    pendingLabel = null;
+                } else {
+                    var anchorId = pendingLabel.replaceFirst("^\\{#", "").replaceFirst("\\}$", "");
+                    sb.append("<span id=\"").append(anchorId).append("\"></span>\n");
+                    pendingLabel = null;
+                }
             }
 
             // Convert bare cross-ref labels: sec:xyz → @sec-xyz (Quarto crossref)
             // Must NOT be inside angle brackets (<sec:xyz> — those get {#sec-xyz} later)
-            raw = raw.replaceAll("(?<!<)\\b(sec|ch|subsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "@$1-$2$3");
-            raw = raw.replaceAll("(?<!<)\\b(sec|ch|subsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app):([a-zA-Z0-9_-]+)$", "@$1-$2");
+            raw = raw.replaceAll("(?<!<)\\b(sec|ch|subsec|subsubsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "@$1-$2$3");
+            raw = raw.replaceAll("(?<!<)\\b(sec|ch|subsec|subsubsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par):([a-zA-Z0-9_-]+)$", "@$1-$2");
 
             // Convert inline labels: <sec:xyz> → {#sec-xyz}
             // Also handle bare labels (after @ stripped): sec:xyz → {#sec-xyz}
             raw = raw.replaceAll("<sec:", "{#sec-");
             raw = raw.replaceAll("<subsec:", "{#subsec-");
+            raw = raw.replaceAll("<subsubsec:", "{#subsubsec-");
             raw = raw.replaceAll("<ch:", "{#ch-");
             raw = raw.replaceAll("<fig:", "{#fig-");
             raw = raw.replaceAll("<tab:", "{#tab-");
@@ -329,6 +337,12 @@ void main(String[] args) throws IOException {
             raw = raw.replaceAll("<oq:", "{#oq-");
             raw = raw.replaceAll("<pred:", "{#pred-");
             raw = raw.replaceAll("<prop:", "{#prop-");
+            raw = raw.replaceAll("<rec:", "{#rec-");
+            raw = raw.replaceAll("<warn:", "{#warn-");
+            raw = raw.replaceAll("<dir:", "{#dir-");
+            raw = raw.replaceAll("<prot:", "{#prot-");
+            raw = raw.replaceAll("<par:", "{#par-");
+            raw = raw.replaceAll("<app:", "{#app-");
             // Close trailing > on inline label conversions
             raw = raw.replaceAll("(\\{[#][a-zA-Z][\\w:\\.-]*?)>", "$1}");
 
@@ -361,10 +375,10 @@ String encloseEnv(String s, String typstName, String quartoKind, String displayN
     var out = sb.toString();
     // Replace standalone ] lines with ::: to close the fenced div
     out = out.replaceAll("(?m)^\\]$", ":::");
-    // Also handle ] <label> pattern
-    out = out.replaceAll("(?m)^\\] <[a-z][\\w:\\.-]*>$", ":::");
-    // Remove any remaining ] lines that weren't closed
-    out = out.replaceAll("(?m)^\\].*$", "");
+    // Handle ] <label> pattern — preserve label as standalone line after :::
+    out = out.replaceAll("(?m)^\\] (<[a-z][\\w:\\.-]*>)$", ":::\n$1");
+    // Remove remaining ] lines — but NOT ])[  which is a title-close + body-open for multi-line titles
+    out = out.replaceAll("(?m)^\\](?!\\)\\[).*$", "");
     return out;
 }
 
@@ -485,7 +499,55 @@ String removeFigureTable(String s) {
             j++;
         }
         sb.append("<!-- TABLE -->\n");
-        // Also consume trailing newline
+        // Consume optional whitespace + <label> after closing ), preserve label
+        int labelStart = j;
+        while (j < s.length() && s.charAt(j) == ' ') j++;
+        if (j < s.length() && s.charAt(j) == '<') {
+            int labelEnd = s.indexOf('>', j);
+            if (labelEnd >= 0 && labelEnd < s.length()) {
+                var tableLabel = s.substring(j, labelEnd + 1);
+                sb.append(tableLabel).append('\n');
+                j = labelEnd + 1;
+            }
+        }
+        // Consume trailing newline
+        if (j < s.length() && s.charAt(j) == '\n') j++;
+        i = j;
+    }
+    return sb.toString();
+}
+
+// Remove standalone #table(...) and #table(...)[...] blocks using bracket counting.
+String removeTableBlocks(String s) {
+    var sb = new StringBuilder();
+    int i = 0;
+    while (i < s.length()) {
+        int pos = s.indexOf("#table(", i);
+        if (pos < 0) { sb.append(s.substring(i)); break; }
+        sb.append(s, i, pos);
+        // Count parens to find end of #table(...)
+        int depth = 1;
+        int j = pos + 7; // after "#table("
+        while (j < s.length() && depth > 0) {
+            char c = s.charAt(j);
+            if (c == '(') depth++;
+            else if (c == ')') depth--;
+            j++;
+        }
+        // After closing ), check for optional [content] block
+        while (j < s.length() && s.charAt(j) == ' ') j++;
+        if (j < s.length() && s.charAt(j) == '[') {
+            int bracketDepth = 1;
+            j++;
+            while (j < s.length() && bracketDepth > 0) {
+                char c = s.charAt(j);
+                if (c == '[') bracketDepth++;
+                else if (c == ']') bracketDepth--;
+                j++;
+            }
+        }
+        sb.append("<!-- TABLE -->\n");
+        while (j < s.length() && s.charAt(j) == ' ') j++;
         if (j < s.length() && s.charAt(j) == '\n') j++;
         i = j;
     }
