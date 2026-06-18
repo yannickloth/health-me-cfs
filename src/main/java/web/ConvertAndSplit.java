@@ -62,6 +62,8 @@ void main(String[] args) throws IOException {
     src = encloseEnv(src, "proposal",      "note",   "Proposal");
     src = encloseEnv(src, "prediction",    "note",   "Prediction");
     src = encloseEnv(src, "key-point",     "tip",    "Key Point");
+    src = encloseEnv(src, "practical-warning", "warning", "Practical Warning");
+    src = encloseEnv(src, "protocol",       "note",   "Protocol");
 
     // #chapter-abstract[...]
     src = src.replaceAll("#chapter-abstract\\[", "::: {.callout-note}\n### Chapter Abstract\n\n");
@@ -85,10 +87,20 @@ void main(String[] args) throws IOException {
     src = src.replace("$arrow.r$", "→");
     src = src.replace("$arrow.l$", "←");
 
+    // Typst definition list: / term: desc → - **term:** desc
+    src = src.replaceAll("(?m)^\\s*/\\s+\\*([^*]+)\\*:(.*)$", "- **$1:**$2");
+
     // Typst math → LaTeX/MathJax math translation
-    src = src.replaceAll("upright\\(\"([^\"]+)\"\\)", "\\text{$1}");  // upright("X") → \text{X}
-    src = src.replaceAll("dot\\.op\\s+", "\\cdot ");                    // dot.op → \cdot
-    src = src.replaceAll("space\\s+", "");                              // space → (discard)
+    src = src.replace("$lt.eq$", "$\\leq$");
+    src = src.replace("$gt.eq$", "$\\geq$");
+    src = src.replace("$lt$", "$<$");
+    src = src.replace("$gt$", "$>$");
+    src = src.replace("$approx$", "$\\approx$");
+    src = src.replace("$times$", "$\\times$");
+    src = src.replace("$arrow.double.r$", "$\\Rightarrow$");
+    src = src.replaceAll("upright\\(\"([^\"]+)\"\\)", "\\\\text{$1}");
+    src = src.replaceAll("dot\\.op\\s+", "\\\\cdot ");
+    src = src.replaceAll("space\\s+", "");
 
     // #align(center, table(...)) → just table
     src = src.replaceAll("#align\\(center,\\s*", "");
@@ -222,9 +234,15 @@ void main(String[] args) throws IOException {
             var raw = line;
             var stripped = raw.strip();
 
-            // Normalize indentation: 4+ spaces → 2 spaces (prevents code blocks)
-            if (!stripped.isEmpty() && raw.length() - stripped.length() >= 4) {
-                raw = "  " + stripped;
+            // Normalize indentation: halve leading spaces to prevent code blocks
+            // (Typst uses 4-space or tab indentation; Markdown needs 2-space for nesting)
+            if (!stripped.isEmpty()) {
+                int leading = raw.length() - stripped.length();
+                if (leading > 2) {
+                    raw = " ".repeat(leading / 2) + stripped;
+                } else if (leading == 0) {
+                    raw = stripped;
+                }
             }
 
             // Promote heading levels BEFORE other conversions
