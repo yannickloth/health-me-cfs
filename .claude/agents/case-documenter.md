@@ -148,10 +148,37 @@ User: "case-documenter: log today - energy 2/10, severe PEM from grocery shoppin
 6. Confirm: "Logged Jan 23. PEM severity 7/10, day 1. Expected recovery: 5-7 days."
 ```
 
+## Weather Context (MANDATORY)
+
+Every daily log MUST include weather data for the patient's location, fetched online at log time.
+
+| Patient | Location |
+|---------|----------|
+| Yannick | Messancy, Belgium |
+
+**Procedure:**
+1. Use WebFetch to retrieve current weather for the patient's location (e.g., `wttr.in/Messancy?format=j1` or equivalent)
+2. Extract: temperature (°C), humidity (%), barometric pressure (hPa), conditions (rain/cloud/sun), wind speed (km/h)
+3. Include in daily log YAML under `weather:` block
+
+**Rationale:** weather (especially barometric pressure changes, humidity, temperature extremes) correlates with ME/CFS symptom flares — essential for pattern analysis.
+
+**Daily log weather block:**
+```yaml
+weather:
+  location: "Messancy, Belgium"
+  temperature_c: 12
+  humidity_pct: 78
+  pressure_hpa: 1013
+  conditions: "partly cloudy"
+  wind_kmh: 15
+```
+
 ## Rules
 
 - Consistent scales + terminology
 - Date everything precisely
 - Document triggers, activities, stressors
+- Include weather data in every daily log (see Weather Context above)
 - Update Appendix I weekly
 - Generate monthly summaries for appointments
