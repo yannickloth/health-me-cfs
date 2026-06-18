@@ -129,6 +129,22 @@
           web-full = buildWebFull;
         };
 
+        checks = {
+          section-audit = pkgs.stdenvNoCC.mkDerivation {
+            name = "mecfs-section-audit";
+            src = cleanSrc;
+            buildInputs = [ pkgs.jdk25 ];
+            phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+            buildPhase = ''
+              java --source 25 src/test/java/web/SectionAuditTest.java
+            '';
+            installPhase = ''
+              mkdir -p $out
+              echo "PASS" > $out/result
+            '';
+          };
+        };
+
         devShells.default = pkgs.mkShell {
           buildInputs = [ pkgs.coreutils pkgs.typst pkgs.quarto pkgs.jdk25 ];
           shellHook = ''
