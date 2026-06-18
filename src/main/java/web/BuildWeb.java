@@ -317,6 +317,7 @@ void deleteRecursive(Path dir) throws IOException {
 
 // Resolve #include "relative/path.typ" directives recursively.
 // Paths are relative to the included file's parent directory.
+// Skips figure includes — ConvertAndSplit handles those separately.
 String resolveIncludes(Path file, Path srcRoot) throws IOException {
     var content = readString(file);
     var parent = file.getParent();
@@ -326,6 +327,11 @@ String resolveIncludes(Path file, Path srcRoot) throws IOException {
     var sb = new StringBuilder();
     while (m.find()) {
         var relPath = m.group(1);
+        // Leave figure includes for ConvertAndSplit to convert → ![alt](figures/...svg)
+        if (relPath.contains("figures/")) {
+            m.appendReplacement(sb, java.util.regex.Matcher.quoteReplacement(m.group()));
+            continue;
+        }
         var target = parent.resolve(relPath).normalize();
         // Guard against escaping srcRoot
         if (!target.startsWith(srcRoot)) {
@@ -336,7 +342,6 @@ String resolveIncludes(Path file, Path srcRoot) throws IOException {
             var included = resolveIncludes(target, srcRoot);
             m.appendReplacement(sb, java.util.regex.Matcher.quoteReplacement(included));
         } catch (NoSuchFileException e) {
-            // File doesn't exist — leave include in place (ConvertAndSplit strips it)
             m.appendReplacement(sb, "");
         }
     }

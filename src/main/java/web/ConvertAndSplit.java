@@ -21,6 +21,8 @@ void main(String[] args) throws IOException {
     // --- Step 1: Pre-process — convert Typst constructs to Pandoc Markdown ---
     src = src.replaceAll("(?m)^#import.*$\\n?", "");
     src = src.replaceAll("(?m)^//.*$\\n?", "");
+    // Strip bare figure path lines (broken includes left from Typst source refactoring)
+    src = src.replaceAll("(?m)^[/.]+figures/fig-[^\"]*\\.typ\"?\\s*$\\n?", "");
     // Convert figure includes: #include "../figures/fig-xxx.typ" → ![Figure](figures/fig-xxx.svg)
     src = src.replaceAll("#include\\s+\"([^\"]*)figures/(fig-[^\"]+)\\.typ\"", "![$2](figures/$2.svg)");
     // Strip any remaining #include lines (outside figures)
@@ -38,6 +40,8 @@ void main(String[] args) throws IOException {
 
     // Strip #figure(kind: table, ...) — Typst tables don't convert to Pandoc
     src = src.replaceAll("(?s)#figure\\s*\\(\\s*kind\\s*:\\s*table[^,]*,.*?\\)\\s*\\n", "<!-- TABLE -->\n");
+    // Strip #figure(table\n...), #figure(table(...)...) — table as first arg
+    src = removeFigureTable(src);
     // Strip #table(...) blocks — same issue
     src = src.replaceAll("(?s)#table\\(.*?\\)\\s*\\n", "<!-- TABLE -->\n");
     // Strip remaining stray )) from #align(center, ...) calls
@@ -55,6 +59,8 @@ void main(String[] args) throws IOException {
     src = encloseEnv(src, "observation",   "note",   "Observation");
     src = encloseEnv(src, "clinical-finding", "note","Clinical Finding");
     src = encloseEnv(src, "recommendation","note",   "Recommendation");
+    src = encloseEnv(src, "proposal",      "note",   "Proposal");
+    src = encloseEnv(src, "prediction",    "note",   "Prediction");
 
     // #chapter-abstract[...]
     src = src.replaceAll("#chapter-abstract\\[", "::: {.callout-note}\n### Chapter Abstract\n\n");
@@ -188,20 +194,24 @@ void main(String[] args) throws IOException {
             sb.append('\n');
         }
 
-        sb.append("## ").append(sec.title()).append('\n');
+        var headingLine = "## " + sec.title();
         if (!sec.label().isEmpty()) {
             var pandocLabel = sec.label()
                 .replaceFirst("^<", "{#")
                 .replaceFirst(">$", "}")
                 .replaceFirst(":", "-");
-            sb.append('\n').append(pandocLabel).append("\n\n");
-        } else {
-            sb.append('\n');
+            headingLine += " " + pandocLabel;
         }
+        sb.append(headingLine).append("\n\n");
 
         for (var line : sec.body) {
             var raw = line;
             var stripped = raw.strip();
+
+            // Normalize indentation: 4+ spaces → 2 spaces (prevents code blocks)
+            if (!stripped.isEmpty() && raw.length() - stripped.length() >= 4) {
+                raw = "  " + stripped;
+            }
 
             // Promote heading levels BEFORE other conversions
             // Match ===, ====, ===== (but not == which are section-level, already ##)
@@ -236,7 +246,7 @@ void main(String[] args) throws IOException {
             raw = raw.replaceAll("<ch:", "{#ch-");
             raw = raw.replaceAll("<fig:", "{#fig-");
             raw = raw.replaceAll("<tab:", "{#tab-");
-            raw = raw.replaceAll("\\b<eq:", "{#eq-");
+            raw = raw.replaceAll("<eq:", "{#eq-");
             raw = raw.replaceAll("<ach:", "{#ach-");
             raw = raw.replaceAll("<hyp:", "{#hyp-");
             raw = raw.replaceAll("<spec:", "{#spec-");
@@ -323,3 +333,39 @@ String quoteToBlockquote(String s) {
 }
 
 String esc(String s) { return s.replace("\"", "\\\""); }
+
+// Remove #figure( table(...), caption: [...], ) blocks.
+// Uses simple paren depth counting to handle nested ().
+String removeFigureTable(String s) {
+    var sb = new StringBuilder();
+    int i = 0;
+    while (i < s.length()) {
+        int pos = s.indexOf("#figure(", i);
+        if (pos < 0) { sb.append(s.substring(i)); break; }
+        sb.append(s, i, pos);
+        // Check if next non-whitespace token is 'table'
+        int afterParen = pos + 8; // after "#figure("
+        while (afterParen < s.length() && Character.isWhitespace(s.charAt(afterParen))) afterParen++;
+        boolean isTable = s.regionMatches(afterParen, "table", 0, 5)
+            && (afterParen + 5 >= s.length() || !Character.isLetterOrDigit(s.charAt(afterParen + 5)));
+        if (!isTable) {
+            sb.append("#figure(");
+            i = pos + 8;
+            continue;
+        }
+        // Skip to end of #figure(...) by counting parens
+        int depth = 1;
+        int j = pos + 7; // start inside the opening (
+        while (j < s.length() && depth > 0) {
+            char c = s.charAt(j);
+            if (c == '(') depth++;
+            else if (c == ')') depth--;
+            j++;
+        }
+        sb.append("<!-- TABLE -->\n");
+        // Also consume trailing newline
+        if (j < s.length() && s.charAt(j) == '\n') j++;
+        i = j;
+    }
+    return sb.toString();
+}

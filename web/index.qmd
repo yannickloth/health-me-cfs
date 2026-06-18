@@ -1,7 +1,5 @@
 ---
 title: "ME/CFS — A Comprehensive Medical Documentation"
-about:
-  template: jolla
 ---
 
 ## Myalgic Encephalomyelitis / Chronic Fatigue Syndrome
@@ -30,5 +28,5 @@ Use the **sidebar** to browse chapters and sections. Each page has its own table
 ::: {.callout-warning}
 ## Medical Disclaimer
 
-This documentation represents literature synthesis and personal experience documentation, **not clinical advice**. All treatment decisions must be made in consultation with qualified healthcare providers.
+This documentation represents literature synthesis, **not clinical advice**. All treatment decisions must be made in consultation with qualified healthcare providers.
 :::

@@ -10,9 +10,6 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-    right:
-      - icon: github
-        href: https://github.com/infolead-ai/health-me-cfs
   sidebar:
     style: docked
     search: true
