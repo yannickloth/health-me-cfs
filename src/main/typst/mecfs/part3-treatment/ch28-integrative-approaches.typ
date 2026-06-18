@@ -387,7 +387,7 @@ Postural orthostatic tachycardia syndrome (POTS) affects an estimated 30--50% of
 
 *Exercise considerations.* Standard POTS exercise protocols (Levine protocol, graded aerobic training) carry high PEM risk in ME/CFS patients @Fu2018ExercisePOTS. Adapted protocols for the ME/CFS-POTS overlap population emphasize:
 
-    - *Recumbent or horizontal exercise only:* Rowing, recumbent cycling, and supine resistance exercises eliminate the orthostatic challenge that standard upright protocols impose. See Section @sec:exercise in Chapter @ch:lifestyle-interventions for detailed exercise guidance.
+    - *Recumbent or horizontal exercise only:* Rowing, recumbent cycling, and supine resistance exercises eliminate the orthostatic challenge that standard upright protocols impose. See Section @sec:exercise in Chapter @ch:lifestyle for detailed exercise guidance.
     - *Very slow progression:* Starting at 2--5 minutes of recumbent activity, advancing by 1--2 minutes per week only if no PEM occurs. Standard POTS protocols advancing at 2--5 minutes per session are too aggressive.
     - *Heart rate monitoring:* Exercise intensity should remain below the anaerobic threshold (typically 50--60% of age-predicted maximum heart rate, or the heart rate at which symptoms begin). Wearable heart rate monitors enable real-time pacing.
 
@@ -594,7 +594,7 @@ Treatment of hEDS in the context of ME/CFS requires careful adaptation of standa
     - *Isometric exercise first.* Begin with static holds (wall sits, plank progressions, glute bridges held for 5--15 seconds) before introducing dynamic movement. Isometric contraction builds joint-stabilizing strength with minimal metabolic cost and reduced joint shear forces compared to isotonic exercise.
     - *Proprioceptive training in recumbent positions.* Joint position sense exercises performed lying down (closed-chain movements with eyes closed, gentle joint approximation) avoid the orthostatic challenge that worsens both POTS and ME/CFS symptoms.
     - *Never exercise to fatigue.* The standard PT instruction to "work to muscle fatigue" is contraindicated in ME/CFS-hEDS overlap. Sessions should stop at 50--70% of perceived capacity, with 48-hour recovery windows between sessions.
-    - *Pacing-integrated progression.* Advances only after confirming no delayed PEM (48--72 hour monitoring). See Section @sec:exercise in Chapter @ch:lifestyle-interventions for comprehensive exercise guidelines.
+    - *Pacing-integrated progression.* Advances only after confirming no delayed PEM (48--72 hour monitoring). See Section @sec:exercise in Chapter @ch:lifestyle for comprehensive exercise guidelines.
 
 *Bracing and support.* Joint hypermobility causes microtrauma during daily activities, triggering nociceptive input and mast cell activation @DeWandele2014dysautonomiaEDS. Appropriate bracing reduces this background inflammatory burden:
 

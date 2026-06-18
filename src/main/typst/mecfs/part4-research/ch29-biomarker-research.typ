@@ -1765,7 +1765,6 @@ Can ML (random forest) on beta2/M1/M3/M4 titers + isotype fractions + demographi
 The following biomarker proposals emerge from the inflammation source registry integration (Chapters @ch:universal-mechanisms, @ch:integrative-models, @ch:emerging-therapies). They target the gap between individual mechanism documentation and multi-analyte panels that capture resolution failure, DAMP burden, and UPR activation — the most underexplored inflammation source categories in ME/CFS.
 
 === B1: Multi-DAMP Panel (HMGB1 + S100A8/A9 + mtDNA + Heme)
-<prop:b1-multi-damp-panel>
 
 #proposal(title: [B1: Multi-DAMP Panel — HMGB1 + S100A8/A9 + mtDNA + Heme])[
 *Open question.* Can a multi-DAMP panel capture the extracellular inflammation burden that standard cytokine panels miss?
@@ -1871,7 +1870,6 @@ where weights $w_i$ are derived from principal component analysis in a training 
 ] <spec:b4-complement-activation-signature>
 
 === R5: Iron/Ferroptosis Panel
-<prop:r5-iron-ferroptosis-panel>
 
 #proposal(title: [R5: Iron/Ferroptosis Panel — GPX4 + 4-HNE + ACSL4 + SLC7A11 + MRI R2^\*])[
 *Proposal.* A panel combining serum markers of ferroptosis susceptibility with MRI-based tissue iron quantification:
@@ -1908,7 +1906,6 @@ where weights $w_i$ are derived from principal component analysis in a training 
 ] <prop:r5-iron-ferroptosis-panel>
 
 === R1: SPM Lipidomics Post-CPET
-<prop:r1-spm-lipidomics-post-cpet>
 
 #proposal(title: [R1: SPM Lipidomics at Rest and Post-CPET])[
 *Proposal.* A timed lipidomics study measuring SPMs (resolvins, protectins, maresins, lipoxins) and pro-inflammatory eicosanoids (PGE2, LTB4, 5-HETE, 12-HETE, 15-HETE) at five time points: baseline (pre-CPET), immediately post-CPET, +2h, +6h, +24h. This would resolve the temporal dynamics of SPM biosynthesis in ME/CFS and test the resolution failure hypothesis.
@@ -1930,7 +1927,6 @@ where weights $w_i$ are derived from principal component analysis in a training 
 ] <prop:r1-spm-lipidomics-post-cpet>
 
 === R3: UPR Sensor Activation in Muscle Post-Exercise
-<prop:r3-upr-muscle-post-exercise>
 
 #proposal(title: [R3: UPR Sensor Activation in Muscle Post-Exercise])[
 *Proposal.* Measure unfolded protein response (UPR) activation in skeletal muscle biopsies before and after standardized exercise in ME/CFS vs healthy controls.

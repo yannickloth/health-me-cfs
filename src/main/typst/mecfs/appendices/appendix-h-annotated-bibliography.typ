@@ -14136,7 +14136,7 @@ This section covers mechanistic and clinical literature on the intersection of m
 // =============================================================================
 
 == Gut-Derived Hydrogen Sulfide and Mitochondrial Toxicity
-<sec:bib-h2s-mitochondria>
+<sec:bib-h2s-mitochondria-2>
 
 
 === Nicholls et al.\ 2013 — Sulfide Inhibition of Cytochrome c Oxidase
@@ -14509,7 +14509,7 @@ This section covers mechanistic and clinical literature on the intersection of m
 
 
 == Laboratory Reference Ranges and Functional Deficiency
-<sec:bib-reference-range-problem>
+<sec:bib-reference-range-problem-2>
 
 This section covers the systematic gap between population-derived laboratory reference
 intervals and the thresholds required for optimal cellular function in chronically ill

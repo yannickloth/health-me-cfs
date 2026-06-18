@@ -10,29 +10,29 @@ This chapter presents speculative hypotheses about ME/CFS pathogenesis that emer
 
 These hypotheses are offered in the spirit of scientific brainstorming: to stimulate new research directions, generate testable predictions, and potentially identify overlooked connections. They should be evaluated by their ability to generate novel experiments and explain otherwise puzzling observations, not treated as established fact.
 
-#include "ch14/ch14-main.typ"
+#include "ch14-speculative-hypotheses/ch14-main.typ"
 
-#include "ch14/ch14a-core-mechanistic.typ"
+#include "ch14-speculative-hypotheses/ch14a-core-mechanistic.typ"
 
-#include "ch14/ch14b-autoimmune-immune.typ"
+#include "ch14-speculative-hypotheses/ch14b-autoimmune-immune.typ"
 
-#include "ch14/ch14c-multi-lock-integration.typ"
+#include "ch14-speculative-hypotheses/ch14c-multi-lock-integration.typ"
 
-#include "ch14/ch14d-cross-disease.typ"
+#include "ch14-speculative-hypotheses/ch14d-cross-disease.typ"
 
-#include "ch14/ch14e-2025-research.typ"
+#include "ch14-speculative-hypotheses/ch14e-2025-research.typ"
 
-#include "ch14/ch14f-cpet-derived.typ"
+#include "ch14-speculative-hypotheses/ch14f-cpet-derived.typ"
 
-#include "ch14/ch14g-2026-autoimmune.typ"
+#include "ch14-speculative-hypotheses/ch14g-2026-autoimmune.typ"
 
-#include "ch14/ch14h-trpm3-channelopathy.typ"
+#include "ch14-speculative-hypotheses/ch14h-trpm3-channelopathy.typ"
 
-#include "ch14/ch14i-clinical-brainstorm.typ"
+#include "ch14-speculative-hypotheses/ch14i-clinical-brainstorm.typ"
 
-#include "ch14/ch14j-selective-dysfunction.typ"
+#include "ch14-speculative-hypotheses/ch14j-selective-dysfunction.typ"
 
-#include "ch14/ch14k-vascular-brainstorm.typ"
+#include "ch14-speculative-hypotheses/ch14k-vascular-brainstorm.typ"
 
 == Conclusion
 
