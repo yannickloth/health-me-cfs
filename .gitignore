@@ -347,6 +347,9 @@ result-*
 # Generated web bib files (produced by SplitBib.java from Typst references.bib)
 web/bib/
 
+# Quarto generated listing metadata
+web/*-listing.json
+
 # direnv
 .direnv/
 .envrc.cache
