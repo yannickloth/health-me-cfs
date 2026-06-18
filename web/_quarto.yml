@@ -20,13 +20,29 @@ website:
       - text: "Blog"
         href: blog/index.qmd
     right:
+      - text: "About"
+        href: about.qmd
       - text: "Download PDF"
         href: loth2026-mecfs.pdf
+      - icon: rss
+        href: blog/index.xml
   sidebar:
     style: docked
     search: true
     collapse-level: 1
-    contents: auto
+    contents:
+      - section: "Part I — Clinical Presentation"
+        contents: part1-clinical/**
+      - section: "Part II — Pathophysiology"
+        contents: part2-pathophysiology/**
+      - section: "Part III — Treatment"
+        contents: part3-treatment/**
+      - section: "Part IV — Research"
+        contents: part4-research/**
+      - section: "Part V — Modeling"
+        contents: part5-modeling/**
+      - section: "Appendices"
+        contents: z-appendices/**
 
 format:
   html:
