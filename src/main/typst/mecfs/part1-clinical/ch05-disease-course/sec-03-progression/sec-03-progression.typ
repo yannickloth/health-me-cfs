@@ -1,7 +1,7 @@
 #import "../../../shared/environments.typ": *
 
-// Disease progression content for Chapter 5
-// This file is \input from ch05-disease-course.tex
+== Disease Progression
+<sec:progression>
 
 ME/CFS is not a static condition. Understanding how the disease evolves over time—including natural history, relapse patterns, and factors that influence trajectory—is essential for patient counseling, treatment planning, and research design.
 

@@ -1,15 +1,15 @@
 #import "../../../shared/environments.typ": *
 
-// Severity levels content for Chapter 5
-// This file is \input from ch05-disease-course.tex
+== Disease Severity Levels
+<sec:severity>
 
-==== Defining Severity
+=== Defining Severity
 
 The International Consensus Criteria (ICC) defines ME/CFS severity based on functional capacity relative to pre-illness baseline @Carruthers2011ICC. These classifications have been objectively validated through activity monitoring, cardiopulmonary exercise testing, and standardized questionnaires @vanCampen2020severity. Understanding severity levels is essential for appropriate clinical management, realistic expectations, and resource allocation.
 
 Prevalence across severity levels follows a characteristic distribution: approximately 29% mild, 58% moderate, 11% severe, and 2% very severe @Lacerda2019prevalence. However, functional impairment studies using different criteria (housebound/bedbound status) report that 25–25.7% of patients experience severe functional limitation at some point in their illness @Pendergrast2020housebound @Montoya2021severe. The discrepancy between these figures (13% severe/very severe vs.\ 25% housebound/bedbound) likely reflects several factors: (1) some moderate patients experience periods of being housebound during severe crashes without meeting criteria for severe ME/CFS classification, (2) the 25% figure represents lifetime prevalence ("at some point") while the 13% figure is a cross-sectional snapshot, and (3) severe patients are systematically underrepresented in research cohorts due to inability to participate. These proportions likely underestimate the true burden of severe disease.
 
-==== Functional Capacity and Objective Measures
+=== Functional Capacity and Objective Measures
 
 Objective validation studies demonstrate that self-reported severity classifications correlate strongly with measurable physiological parameters @vanCampen2020severity:
 
@@ -80,7 +80,7 @@ Mild ME/CFS is not a stable endpoint. Patients who exceed their energy envelope 
 
 Once deterioration occurs, return to baseline is not guaranteed. Many patients describe a “ratchet effect” where each crash leaves them at a lower functional level than before.
 
-==== Moderate ME/CFS
+=== Moderate ME/CFS
 
 Moderate ME/CFS describes patients who are mostly housebound, with severely restricted activity in all domains @Carruthers2011ICC @NICE2021mecfs. This category represents the largest proportion of the ME/CFS population (approximately 58%) and encompasses significant heterogeneity in functional capacity.
 
@@ -135,7 +135,7 @@ The combination of energy limitations, unpredictable symptoms, and inability to 
     - Special occasions (weddings, graduations, funerals) become impossible to attend
     - The patient's world shrinks to the confines of their home
 
-==== Severe ME/CFS
+=== Severe ME/CFS
 
 Severe ME/CFS describes patients who are mostly bedridden, with profound limitation in all activities @Carruthers2011ICC. Approximately 11% of ME/CFS patients fall into this category, though they are underrepresented in research due to inability to travel to study sites or tolerate research protocols.
 
@@ -186,7 +186,7 @@ Approximately 25% of ME/CFS patients are severely affected and almost exclusivel
 
 The result is a population of severely ill patients who are medically abandoned—too sick to access the healthcare system, and invisible to a system that has no mechanism to find them.
 
-==== Very Severe ME/CFS
+=== Very Severe ME/CFS
 
 Very severe ME/CFS represents the extreme end of the disease spectrum: patients who are completely bedridden and require help with all basic functions @Carruthers2011ICC. Approximately 2% of ME/CFS patients fall into this category, representing an estimated 62,000 people in the United States alone @Pendergrast2020housebound.
 

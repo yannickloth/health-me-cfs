@@ -1,9 +1,7 @@
 #import "../../../shared/environments.typ": *
 
-// Trigger mechanisms overview content for Chapter 5
-// This file is \input from ch05-disease-course.tex
-// Audience: patients and general clinical readers — accessible language
-// Cross-references Ch.7 for technical mechanistic detail
+== Trigger Mechanisms: From Acute Infection to Chronic Disease
+<sec:trigger-mechanisms-overview>
 
 The preceding sections document _which_ infections trigger ME/CFS. This section explains _how_: the biological steps by which an acute infection can set in motion a process that does not resolve when the infection itself clears. Understanding these steps helps patients make sense of their illness and explains why recovery does not simply follow pathogen clearance. For detailed pathophysiological mechanisms, see Section @sec:post-infectious-pathogenesis in Chapter @ch:immune-dysfunction.
 

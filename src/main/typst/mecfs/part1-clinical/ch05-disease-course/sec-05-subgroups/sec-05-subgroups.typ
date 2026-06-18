@@ -1,7 +1,7 @@
 #import "../../../shared/environments.typ": *
 
-// Subgroups and phenotypes content for Chapter 5
-// This file is \input from ch05-disease-course.tex
+== Subgroups and Phenotypes
+<sec:subgroups>
 
 ME/CFS is increasingly recognized as a heterogeneous syndrome that likely encompasses multiple distinct biological subgroups. Identifying these subgroups is essential for developing targeted treatments, understanding pathophysiology, and improving diagnostic precision. Research has identified potential subgroups based on symptom profiles, onset patterns, biomarkers, and metabolic phenotypes.
 
@@ -713,7 +713,7 @@ Validating this phenotype would require:
 
 Until validated, this phenotype should be considered a _clinical hypothesis_ useful for generating treatment hypotheses in individual patients, not an established subgroup.
 
-== Lichen Sclerosus as a Potential Subgroup Marker
+=== Lichen Sclerosus as a Potential Subgroup Marker
 <sec:lichen-sclerosus-subgroup>
 
 #include "speculations/spec-lichen-sclerosus-as-a-pre-me-cfs-trip-switch-ptpn22-r620w-convergence.typ"

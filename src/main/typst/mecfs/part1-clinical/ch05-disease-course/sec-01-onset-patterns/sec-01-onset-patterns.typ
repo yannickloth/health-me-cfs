@@ -1,11 +1,11 @@
 #import "../../../shared/environments.typ": *
 
-// Onset patterns content for Chapter 5
-// This file is \input from ch05-disease-course.tex
+== Onset Patterns
+<sec:onset>
 
 The manner in which ME/CFS begins has both diagnostic and prognostic significance. Two primary onset patterns are recognized: acute (typically post-infectious) and gradual @Jason2019onset. Understanding these patterns helps clinicians recognize the disease earlier and may inform treatment approaches.
 
-==== Post-Infectious Onset
+=== Post-Infectious Onset
 
 Approximately 64% of ME/CFS cases begin with an acute infectious illness @Jason2019onset. The patient experiences what appears to be a typical viral infection—influenza, infectious mononucleosis, respiratory illness, or gastrointestinal infection—but fails to recover. Weeks pass, then months, and the expected return to health never comes.
 
@@ -60,7 +60,7 @@ Brain imaging studies show distinct abnormalities in post-infectious ME/CFS comp
 *Prognosis.*
 Some studies suggest that post-infectious onset may carry a better prognosis than gradual onset, particularly when the triggering infection can be identified and when illness duration is short before diagnosis. However, this finding is not consistent across all studies, and many post-infectious cases progress to severe, permanent disability.
 
-==== Gradual Onset
+=== Gradual Onset
 
 Approximately 36% of ME/CFS cases (range 23–41% across studies) develop gradually without a clear infectious trigger @Jason2019onset. Symptoms accumulate over months to years, making it difficult to identify when the illness truly began.
 
@@ -96,7 +96,7 @@ Gradual onset creates particular diagnostic challenges:
     - Pre-illness functional level may be difficult to establish
     - Patients may have adapted to declining function without recognizing its significance
 
-==== Retrospective Prodromal Recognition <sec:prodromal-recognition>
+=== Retrospective Prodromal Recognition <sec:prodromal-recognition>
 
 Many patients with gradual-onset ME/CFS can, after diagnosis, identify years of subclinical symptoms that were individually dismissed as benign or attributed to unrelated causes. These retrospective prodromal signs share a common thread: they reflect energy production insufficiency that is too mild to trigger medical alarm but too persistent to represent normal variation. The pattern applies to both children and adults, and typically spans 2--7 years before formal ME/CFS diagnosis @Wirth2026prodromalICD @Collin2018sleepCFS.
 
@@ -160,7 +160,7 @@ If the prodromal phase is real and identifiable, early intervention becomes poss
 
 #include "predictions/pred-prodromal-recognition-education-reduces-diagnostic-delay.typ"
 
-==== Two-Phase Onset Pattern
+=== Two-Phase Onset Pattern
 
 A third pattern has been identified in some patients: two-phase onset @Jason2019onset. This pattern involves:
 
@@ -170,7 +170,7 @@ A third pattern has been identified in some patients: two-phase onset @Jason2019
 
 This pattern may represent failed recovery from post-infectious illness, with initial improvement reflecting resolution of acute infection while underlying ME/CFS pathophysiology continues to develop.
 
-==== Multi-Hit Cascade Pattern
+=== Multi-Hit Cascade Pattern
 <sec:multi-hit-cascade>
 
 Clinical observation suggests an additional onset variant: the *multi-hit cascade*, where ME/CFS develops through cumulative immune challenges over years rather than a single triggering event.
@@ -207,7 +207,7 @@ The multi-hit cascade pattern suggests that ME/CFS onset may involve:
 
 This model aligns with the “exhausted immune surveillance” phenotype described in Section @sec:exhausted-surveillance, where laboratory findings reflect end-stage depletion of immune reserves after years of chronic stimulation.
 
-==== Bimodal Onset Age Distribution <sec:bimodal-onset-age>
+=== Bimodal Onset Age Distribution <sec:bimodal-onset-age>
 
 A striking epidemiological feature of ME/CFS, unique among diseases with bimodal onset, is the consistent observation of two distinct peaks in age at onset: approximately age 16 and age 37. This pattern was first identified in Norwegian population-based registry data using age at diagnosis @Bakken2014bimodalOnset and subsequently confirmed in European survey data using self-reported age at onset across ten countries ($n = 9{,}380$) @McGrath2026bimodalOnset. The finding was independently replicated in the UK DecodeME dataset ($n = 6{,}455$ with illness duration under ten years) @McGrath2026bimodalOnset.
 
@@ -238,7 +238,7 @@ The bimodal pattern has direct implications for ME/CFS research design:
 
 The cross-disease precedent is examined in Section @sec:bimodal-cross-disease.
 
-==== Clinical Significance of Onset Pattern
+=== Clinical Significance of Onset Pattern
 
 While onset pattern provides useful clinical information, it should not be overemphasized in individual patient management. Both post-infectious and gradual-onset patients develop the same symptom complex and require the same management approaches. The key clinical implications of onset pattern include:
 

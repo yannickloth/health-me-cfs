@@ -1,7 +1,7 @@
 #import "../../../shared/environments.typ": *
 
-// Prognosis content for Chapter 5
-// This file is \input from ch05-disease-course.tex
+== Prognosis
+<sec:prognosis>
 
 Understanding prognosis is essential for patient counseling, treatment planning, and research prioritization. The prognosis of ME/CFS is generally poor in adults, with few patients achieving full recovery. However, outcomes vary considerably by age of onset, illness duration, and other factors.
 
