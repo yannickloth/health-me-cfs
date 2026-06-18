@@ -68,14 +68,15 @@ void main(String[] args) throws IOException {
 
     // #chapter-abstract[...]
     src = src.replaceAll("#chapter-abstract\\[", "::: {.callout-note}\n### Chapter Abstract\n\n");
+
+    // #quote[...] → blockquote (must run BEFORE ] line stripping)
+    src = quoteToBlockquote(src);
+
     // Close standalone ] lines — replace any line that is just ] or ]<label>
     // But only do this for genuine env closings, not stray brackets.
     // Stray ] lines inside table/figure blocks cause fenced div errors.
     // Remove all remaining ] lines entirely to avoid Pandoc OOM.
     src = src.replaceAll("(?m)^\\].*$", "");
-
-    // #quote[...] → blockquote
-    src = quoteToBlockquote(src);
 
     // #sub[X] → ~X~, #super[X] → ^X^
     src = src.replaceAll("#sub\\[(.+?)\\]", "~$1~");
@@ -476,7 +477,7 @@ String removeFigureTable(String s) {
         }
         // Skip to end of #figure(...) by counting parens
         int depth = 1;
-        int j = pos + 7; // start inside the opening (
+        int j = pos + 8; // start after "#figure(" opening paren
         while (j < s.length() && depth > 0) {
             char c = s.charAt(j);
             if (c == '(') depth++;

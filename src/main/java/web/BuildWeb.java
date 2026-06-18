@@ -115,7 +115,7 @@ void main(String[] args) throws IOException, InterruptedException {
                 createDirectories(outDir);
 
                 var cmd = new String[]{
-                    "java", "--enable-preview", "--source", "21",
+                    "java", "--source", "25",
                     casPath.toString(),
                     aggFile.toAbsolutePath().toString(),
                     outDir.toAbsolutePath().toString()
@@ -183,7 +183,7 @@ void main(String[] args) throws IOException, InterruptedException {
             resolvedAppFile.toFile().deleteOnExit();
 
             var cmd = new String[]{
-                "java", "--enable-preview", "--source", "21",
+                "java", "--source", "25",
                 casPath.toString(),
                 resolvedAppFile.toAbsolutePath().toString(),
                 outDir.toAbsolutePath().toString()

@@ -73,15 +73,15 @@
             pkgs.coreutils
             pkgs.typst
             pkgs.quarto
-            pkgs.jdk21
+            pkgs.jdk25
           ];
           phases = [ "unpackPhase" "buildPhase" "installPhase" ];
           buildPhase = ''
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
 
-            # Generate .qmd files and figures (JDK 21 preview for unnamed classes)
-            java --enable-preview --source 21 src/main/java/web/BuildWeb.java
+            # Generate .qmd files and figures
+            java --source 25 src/main/java/web/BuildWeb.java
 
             # Render HTML
             quarto render web --to html
@@ -99,14 +99,14 @@
             pkgs.coreutils
             pkgs.typst
             pkgs.quarto
-            pkgs.jdk21
+            pkgs.jdk25
           ];
           phases = [ "unpackPhase" "buildPhase" "installPhase" ];
           buildPhase = ''
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
 
-            java --enable-preview --source 21 src/main/java/web/BuildWeb.java
+            java --source 25 src/main/java/web/BuildWeb.java
             quarto render web --to html
 
             typst compile \
@@ -130,7 +130,7 @@
         };
 
         devShells.default = pkgs.mkShell {
-          buildInputs = [ pkgs.coreutils pkgs.typst pkgs.quarto pkgs.jdk ];
+          buildInputs = [ pkgs.coreutils pkgs.typst pkgs.quarto pkgs.jdk25 ];
           shellHook = ''
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
           '';
