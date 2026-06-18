@@ -11,8 +11,8 @@
 // Body: KpRoman (kpfonts — Palatino-class with matching math)
 // Heading: KpSans (kpfonts sans companion)
 // Mono: KpMono (kpfonts monospace companion)
-#let font-body    = ("KpRoman", "Libertinus Serif", "Noto Serif")
-#let font-heading = ("KpSans", "Inter", "Noto Sans", "Liberation Sans")
+#let font-body    = ("KpRoman", "Libertinus Serif")
+#let font-heading = ("KpSans", "Liberation Sans")
 #let font-mono    = ("KpMono", "DejaVu Sans Mono")
 
 // ── Type scale ────────────────────────────────────────────────────────────────
