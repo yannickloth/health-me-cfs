@@ -636,6 +636,12 @@ String convertFigureTable(String s) {
         while (afterParen < s.length() && Character.isWhitespace(s.charAt(afterParen))) afterParen++;
         boolean isTable = s.regionMatches(afterParen, "table", 0, 5)
             && (afterParen + 5 >= s.length() || !Character.isLetterOrDigit(s.charAt(afterParen + 5)));
+        if (!isTable && s.regionMatches(afterParen, "kind:", 0, 5)) {
+            int v = afterParen + 5;
+            while (v < s.length() && s.charAt(v) == ' ') v++;
+            isTable = s.regionMatches(v, "table", 0, 5)
+                && (v + 5 >= s.length() || !Character.isLetterOrDigit(s.charAt(v + 5)));
+        }
         if (!isTable) {
             int searchEnd = Math.min(s.length(), pos + 200);
             for (int k = afterParen; k < searchEnd; k++) {
@@ -646,6 +652,15 @@ String convertFigureTable(String s) {
                         && (next + 5 >= s.length() || !Character.isLetterOrDigit(s.charAt(next + 5)))) {
                         isTable = true;
                         break;
+                    }
+                    if (s.regionMatches(next, "kind:", 0, 5)) {
+                        int v = next + 5;
+                        while (v < searchEnd && s.charAt(v) == ' ') v++;
+                        if (s.regionMatches(v, "table", 0, 5)
+                            && (v + 5 >= s.length() || !Character.isLetterOrDigit(s.charAt(v + 5)))) {
+                            isTable = true;
+                            break;
+                        }
                     }
                 }
             }
