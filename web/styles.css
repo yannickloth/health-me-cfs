@@ -1,14 +1,14 @@
 @layer base, components, utilities;
 
 :root {
-  --callout-red:    #b53a34;
-  --callout-teal:   #1a7a6d;
-  --callout-green:  #2a9d8f;
-  --callout-purple: #6f5499;
-  --callout-orange: #c97b1f;
-  --callout-bg:     #f3f0eb;
-  --epigraph-bg:    #f5f3ee;
-  --epigraph-border:#8e8c84;
+  --callout-red:    var(--bs-danger);
+  --callout-teal:   var(--bs-primary);
+  --callout-green:  var(--bs-teal);
+  --callout-purple: var(--bs-purple);
+  --callout-orange: var(--bs-warning);
+  --callout-bg:     var(--bs-light);
+  --epigraph-bg:    var(--bs-light);
+  --epigraph-border:var(--bs-secondary);
 }
 
 @layer base {
