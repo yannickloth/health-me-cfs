@@ -22,8 +22,8 @@ website:
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      - sandstone
+      - custom.scss
     css: styles.css
     toc: true
     toc-depth: 3

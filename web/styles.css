@@ -1,62 +1,20 @@
-/* --- Typst environment mappings --- */
-
 @layer base, components, utilities;
 
-/* ===== Design tokens ===== */
 :root {
-  --color-red-500:    #dc3545;
-  --color-blue-500:   #0d6efd;
-  --color-green-500:  #198754;
-  --color-purple-500: #6f42c1;
-  --color-orange-500: #fd7e14;
-  --color-gray-400:   #6c757d;
-  --color-gray-200:   #dee2e6;
-
-  --bg-base:          #f8f9fa;
-  --bg-subtle:        #f0f0f0;
-  --bg-epigraph:      #f8f8f8;
-  --fg-muted:         #555;
-
-  --space-sm:  0.4em;
-  --space-md:  0.6em;
-  --space-lg:  0.8em;
-  --space-xl:  1em;
-
-  --font-scale-sm: 0.9em;
-  --border-thin: 1px;
-  --border-thick: 3px;
-  --border-accent: 4px;
+  --callout-red:    #b53a34;
+  --callout-teal:   #1a7a6d;
+  --callout-green:  #2a9d8f;
+  --callout-purple: #6f5499;
+  --callout-orange: #c97b1f;
+  --callout-bg:     #f3f0eb;
+  --epigraph-bg:    #f5f3ee;
+  --epigraph-border:#8e8c84;
 }
-
-/* ===== Layers ===== */
 
 @layer base {
   figure img {
     max-inline-size: 100%;
     block-size: auto;
-  }
-
-  figcaption {
-    font-size: var(--font-scale-sm);
-    color: var(--fg-muted);
-    margin-block-start: var(--space-sm);
-  }
-
-  table {
-    border-collapse: collapse;
-    margin-block: var(--space-xl);
-    font-size: var(--font-scale-sm);
-  }
-
-  th {
-    background: var(--bg-subtle);
-    font-weight: bold;
-  }
-
-  th, td {
-    border: var(--border-thin) solid var(--color-gray-200);
-    padding-block: var(--space-sm);
-    padding-inline: var(--space-md);
   }
 
   .math.display {
@@ -66,57 +24,59 @@
 
   .sidebar nav[role="doc-toc"] ul {
     list-style-type: none;
-    padding-inline-start: var(--space-lg);
+    padding-inline-start: 0.8em;
   }
 }
 
 @layer components {
-  /* -- Shared callout base -- */
   .callout-warning,
   .callout-note,
   .callout-important,
   .callout-tip,
   .callout-caution {
-    border-inline-start: var(--border-accent) solid;
-    padding-block: var(--space-lg);
-    padding-inline: var(--space-xl);
-    margin-block: var(--space-xl);
-    background: var(--bg-base);
+    border-inline-start: 4px solid;
+    padding-block: 0.8em;
+    padding-inline: 1em;
+    margin-block: 1em;
+    background: var(--callout-bg);
 
     .callout-title {
       font-weight: bold;
-      margin-block-end: var(--space-sm);
+      margin-block-end: 0.4em;
     }
   }
 
   .callout-warning {
-    border-color: var(--color-red-500);
-    background: color-mix(in srgb, var(--color-red-500) 5%, white);
-  }
-  .callout-note {
-    border-color: var(--color-blue-500);
-    background: color-mix(in srgb, var(--color-blue-500) 5%, white);
-  }
-  .callout-important {
-    border-color: var(--color-green-500);
-    background: color-mix(in srgb, var(--color-green-500) 5%, white);
-  }
-  .callout-tip {
-    border-color: var(--color-purple-500);
-    background: color-mix(in srgb, var(--color-purple-500) 5%, white);
-  }
-  .callout-caution {
-    border-color: var(--color-orange-500);
-    background: color-mix(in srgb, var(--color-orange-500) 5%, white);
+    border-color: var(--callout-red);
+    background: color-mix(in srgb, var(--callout-red) 5%, white);
   }
 
-  /* -- Epigraph / blockquote -- */
+  .callout-note {
+    border-color: var(--callout-teal);
+    background: color-mix(in srgb, var(--callout-teal) 5%, white);
+  }
+
+  .callout-important {
+    border-color: var(--callout-green);
+    background: color-mix(in srgb, var(--callout-green) 5%, white);
+  }
+
+  .callout-tip {
+    border-color: var(--callout-purple);
+    background: color-mix(in srgb, var(--callout-purple) 5%, white);
+  }
+
+  .callout-caution {
+    border-color: var(--callout-orange);
+    background: color-mix(in srgb, var(--callout-orange) 5%, white);
+  }
+
   :where(.epigraph, blockquote) {
-    border-inline-start: var(--border-thick) solid var(--color-gray-400);
-    padding-block: var(--space-md);
-    padding-inline: var(--space-xl);
-    margin-block: var(--space-xl);
-    background: var(--bg-epigraph);
+    border-inline-start: 3px solid var(--epigraph-border);
+    padding-block: 0.6em;
+    padding-inline: 1em;
+    margin-block: 1em;
+    background: var(--epigraph-bg);
     font-style: italic;
   }
 }
