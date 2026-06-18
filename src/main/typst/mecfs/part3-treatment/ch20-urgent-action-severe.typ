@@ -693,7 +693,7 @@ Orthostatic intolerance severely limits function in most severe ME/CFS patients 
     
 
 *Adjunctive Neuromodulation (tVNS)*
-For patients with POTS not adequately controlled by medications, transcutaneous vagus nerve stimulation (tVNS) may provide additional benefit. The first sham-controlled RCT demonstrated reduced orthostatic tachycardia with daily auricular tVNS @Teixeira2024POTS. See Chapter @ch:action-mild-moderate (@sec:tvns-pots) for detailed protocol. *CAUTION*: Standard tVNS settings may cause crashes in severe ME/CFS #cite(<Lugg2024MECFS>) —requires slower titration and careful monitoring in this population.
+For patients with POTS not adequately controlled by medications, transcutaneous vagus nerve stimulation (tVNS) may provide additional benefit. The first sham-controlled RCT demonstrated reduced orthostatic tachycardia with daily auricular tVNS @Teixeira2024POTS. See Chapter @ch:action-mild-moderate (@sec:tvns-pots) for detailed protocol. *CAUTION*: Standard tVNS settings may cause crashes in severe ME/CFS @Lugg2024MECFS —requires slower titration and careful monitoring in this population.
 
 *Expected Relief Timeline*
 
@@ -1777,7 +1777,7 @@ Severe ME/CFS is characterized by hypometabolic state and impaired glucose handl
 
     - *Quarterly HbA1c monitoring*: If trending upward (especially if approaching prediabetes range $gt.eq$5.7%), initiate metformin 500 mg daily (titrate to tolerance). Metabolic dysregulation intensifies neuroinflammation and reduces treatment efficacy @MCMC2024Neurometabolic.
 
-    - *Caloric adequacy*: Severe patients often restrict intake due to GI symptoms or cognitive dysfunction. Ensure minimum caloric support (target: 1500–1800 kcal daily). Undereating amplifies mitochondrial stress and neuroinflammation.
+    - *Caloric adequacy*: Severe patients often restrict intake due to GI symptoms or cognitive dysfunction. Ensure minimum caloric support (target: 1500–1800 kcal daily). Undereating amplifies mitochondrial stress and neuroinflammation. *Caveat:* Standard caloric equations overestimate needs by 15–30% in immobile populations @Alazzam2023SCI, and positive energy balance may paradoxically accelerate muscle atrophy @Biolo2008BedRest. For bedbound patients, the lower end of the range (1400–1500 kcal) may be more appropriate, with protein prioritized within that envelope.
 
     - *Electrolyte homeostasis*: Monitor sodium/potassium; replace as needed. Many severe patients become sodium-depleted from reduced oral intake; careful repletion supports autonomic stability.
 

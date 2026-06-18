@@ -413,7 +413,7 @@ Orthostatic intolerance severely limits function in most severe ME/CFS patients 
     
 
 *Adjunctive Neuromodulation (tVNS)*
-For patients with POTS not adequately controlled by medications, transcutaneous vagus nerve stimulation (tVNS) may provide additional benefit. The first sham-controlled RCT demonstrated reduced orthostatic tachycardia with daily auricular tVNS @Teixeira2024POTS. See Chapter @ch:action-mild-moderate (@sec:tvns-pots) for detailed protocol. *CAUTION*: Standard tVNS settings may cause crashes in severe ME/CFS #cite(<Lugg2024MECFS>) —requires slower titration and careful monitoring in this population.
+For patients with POTS not adequately controlled by medications, transcutaneous vagus nerve stimulation (tVNS) may provide additional benefit. The first sham-controlled RCT demonstrated reduced orthostatic tachycardia with daily auricular tVNS @Teixeira2024POTS. See Chapter @ch:action-mild-moderate (@sec:tvns-pots) for detailed protocol. *CAUTION*: Standard tVNS settings may cause crashes in severe ME/CFS @Lugg2024MECFS —requires slower titration and careful monitoring in this population.
 
 *Expected Relief Timeline*
 

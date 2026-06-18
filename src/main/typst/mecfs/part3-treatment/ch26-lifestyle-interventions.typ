@@ -276,7 +276,7 @@ In healthy individuals, meals trigger 10–30% increase in splanchnic blood flow
 
 Individual responses vary widely; objective symptom tracking (postprandial fatigue, cognitive fog, or gastrointestinal symptoms at 0.5, 1, 2, and 4 hours post-meal) is recommended to identify optimal meal patterns.
 
-] #label("hyp:postprandial-pacing")
+] <hyp:postprandial-pacing>
 
 === Cognitive Energy Envelope for ADHD + ME/CFS
 <subsec:cognitive-pacing-adhd>
@@ -523,7 +523,7 @@ The following principles apply broadly to ME/CFS patients regardless of specific
 
     - *Nutrient density*: Prioritize whole, minimally processed foods that deliver maximum micronutrients per calorie. ME/CFS patients with reduced appetite or energy for food preparation are at particular risk of micronutrient deficiency
     - *Anti-inflammatory emphasis*: Emphasize omega-3 fatty acids (fatty fish, walnuts, flaxseed), colorful fruits and vegetables (polyphenols, flavonoids), and herbs and spices (turmeric, ginger) with documented anti-inflammatory properties. Minimize pro-inflammatory foods: refined sugars, trans fats, processed meats, and excessive omega-6 fatty acids
-    - *Adequate protein*: 1.0–1.2 g/kg/day to prevent muscle wasting in patients with limited activity. Distribute protein across meals to maximize muscle protein synthesis
+    - *Adequate protein*: 1.0–1.2 g/kg/day to prevent muscle wasting in patients with limited activity. During any weight management intervention involving caloric restriction, increase to 1.5–2.0 g/kg ideal body weight to protect lean mass @Weijs2025Protein. Distribute protein across meals to maximize muscle protein synthesis
     - *Hydration*: 2–3 liters of fluid daily, critical for blood volume maintenance in patients with orthostatic intolerance. Electrolyte-supplemented fluids (oral rehydration salts or electrolyte powders) are more effective than water alone
     - *Micronutrient adequacy*: Regular monitoring and correction of vitamin D, B12, folate, iron, magnesium, and zinc—all commonly deficient in ME/CFS and all relevant to mitochondrial function, immune regulation, and neurotransmitter synthesis (Chapter @ch:supplements)
 
@@ -701,11 +701,14 @@ The standard approach — caloric restriction combined with exercise — is cont
 Yet weight gain is common in ME/CFS due to enforced immobility, metabolic slowing, medication effects, and appetite dysregulation driven by cellular energy deficits (Chapter @ch:endocrine).
 Obesity compounds functional impairment beyond the effect of weight alone @Flores2013obesity, and elevated obesity prevalence is documented even in adolescent CFS @Norris2017Obesity.
 The goal is not weight loss per se but *body composition optimization*: preserving lean mass while managing fat mass within the constraints of the disease.
+Before initiating any weight management intervention, screen for disordered eating or eating disorder history — ME/CFS has elevated comorbidity with anxiety and depression, both associated with food-related distress, and body composition messaging may trigger or worsen orthorexia in vulnerable patients (Section @subsubsec:eating-disorders-differential).
 
 === The Immobility-Weight Paradox
 
 Bedbound and severely limited ME/CFS patients face the same body composition challenge as spinal cord injury (SCI), severe multiple sclerosis, and ICU-acquired weakness populations: immobility promotes fat accumulation while simultaneously accelerating muscle atrophy.
-The SCI literature provides the closest metabolic analog.
+The SCI literature provides a useful — though imperfect — metabolic analog: SCI involves neurogenic denervation, absent sympathetic drive below the lesion, and altered thermoregulation, none of which apply to ME/CFS.
+The analogy holds specifically for the *effects of immobility on energy expenditure and body composition*, not for the underlying neurological mechanism.
+ME/CFS patients retain intact peripheral nervous system function — their immobility is a behavioural consequence of post-exertional malaise, not a structural deficit — and may have elevated (rather than reduced) sympathetic tone, which could partially offset the expected REE reduction.
 
 *Caloric needs are lower than predicted.*
 Standard predictive equations (Harris-Benedict, Mifflin-St Jeor) overestimate resting metabolic rate (RMR) by 5–32% in SCI populations @Alazzam2023SCI.
@@ -764,18 +767,19 @@ This must be accompanied by:
   - Body composition monitoring (not just scale weight)
   - Stopping criteria: any increase in PEM frequency or severity, unintended muscle loss, or weight loss exceeding 0.5 kg/week
 
-#warning-env(title: [Caloric Restriction Contraindicated in Moderate-to-Severe ME/CFS])[
-Caloric restriction is contraindicated in patients with moderate-to-severe ME/CFS.
+#warning-env(title: [Caloric Restriction: High Risk in Moderate-to-Severe ME/CFS])[
+Caloric restriction carries substantial risk in patients with moderate-to-severe ME/CFS and is generally not recommended except under specialist supervision for specific indications.
 The metabolic cost of caloric restriction — metabolic adaptation, hormonal counter-regulation (increased ghrelin, decreased leptin and GLP-1), and accelerated lean mass loss @Maclean2011Regain — compounds a physiology already in energy crisis.
-Weight loss attempts in this population should focus exclusively on body composition optimization through macronutrient manipulation (higher protein, reduced refined carbohydrates) and anti-catabolic strategies, never through energy restriction.
-The only exception is if obesity directly threatens life (e.g., obesity hypoventilation syndrome, morbid obesity with cardiovascular emergency) and the intervention is supervised by both ME/CFS-aware and obesity medicine specialists.
+No ME/CFS-specific caloric restriction safety data exist; this risk assessment is inferred from general obesity physiology and the SCI/bed rest literature.
+Weight management in this population should focus on body composition optimization through macronutrient manipulation (higher protein, reduced refined carbohydrates) and anti-catabolic strategies, not through energy restriction.
+The exception: obesity directly threatening life (e.g., obesity hypoventilation syndrome, morbid obesity with cardiovascular emergency), supervised by both ME/CFS-aware and obesity medicine specialists.
 ] <warn:caloric-restriction-severe>
 
 ==== Pharmacological Considerations
 
 *GLP-1 receptor agonists.*
 GLP-1 RAs (semaglutide, liraglutide) produce 10–15% weight loss in general populations @Wilding2021Semaglutide but are problematic in ME/CFS for two reasons: (1) lean mass constitutes 25–60% of total weight lost, unacceptable in a population at baseline sarcopenia risk @Neeland2024LeanMass @Stefanakis2024FFM; (2) gastrointestinal side effects (nausea in ~75%, reduced appetite) may worsen malnutrition.
-The GLP-1 pathway may be therapeutically relevant for neuroinflammation and dysautonomia rather than weight loss (Chapter @ch:neurological, Section @sec:dietary-glp1).
+The GLP-1 pathway may be therapeutically relevant for neuroinflammation and dysautonomia rather than weight loss (Chapter @ch:neurological, Section @sec:dietary-glp1); however, this is entirely theoretical — no ME/CFS-specific clinical data exist for any GLP-1 pathway intervention.
 If GLP-1 RAs are considered for weight management in ME/CFS with obesity, use only at low doses with concurrent high-protein intake (≥1.5 g/kg IBW), HMB, and body composition monitoring.
 Stopping criteria: weight loss exceeding 5% in patients with BMI below 20, or lean mass decline on serial BIA/POCUS.
 
@@ -786,6 +790,7 @@ This makes them preferable for ME/CFS patients who need GLP-1 pathway support wi
 *Metformin.*
 Metformin is weight-neutral and may support metabolic health in ME/CFS through complex I/IV inhibition, mTOR modulation, and anti-inflammatory effects @Fineberg2025Metformin.
 It is not a weight loss drug but may improve metabolic parameters (insulin sensitivity, lipid profile) in ME/CFS patients with metabolic syndrome.
+However, metformin's primary mechanism (complex I inhibition) could theoretically worsen mitochondrial dysfunction in a population with pre-existing complex I impairment — no ME/CFS-specific safety data exist, and this risk should be weighed against the potential anti-inflammatory benefits.
 
 ==== Cross-Condition Evidence and Lessons
 
@@ -797,7 +802,7 @@ Caumo et al.\ (2025) showed that high BMI disrupts pain inhibition in fibromyalg
 The post-COVID dietary framework of Barrea et al.\ (2022) — high protein (1.2–1.5 g/kg), Mediterranean pattern, vitamin D and omega-3 supplementation — is directly adaptable to ME/CFS given overlapping pathophysiology @Barrea2022PostCOVID.
 
 #speculation(title: [ME/CFS Hypometabolic State Requires Recalibrated Caloric Targets])[
-*(Certainty: 0.35 — indirect evidence from SCI, bed rest, and hypometabolic models; no ME/CFS REE study exists.)*
+*(Certainty: 0.40 — indirect evidence from SCI, bed rest, and hypometabolic models; no ME/CFS REE study exists. 0.35→0.40: feed-in from PEM-hibernation-mimetic hypothesis (0.55) providing upstream HIF-mediated metabolic suppression mechanism.)*
 
 ME/CFS involves a hypometabolic state characterized by reduced mitochondrial substrate utilization, altered fuel preference (shift from fatty acid oxidation to anaerobic glycolysis), and reduced physical activity.
 Standard caloric equations, designed for healthy populations, likely overestimate energy needs by 15–30% in moderate-to-severe ME/CFS — similar to the overestimation documented in SCI populations @Alazzam2023SCI.
@@ -838,7 +843,7 @@ Given the shared pathophysiology (central sensitization, mitochondrial dysfuncti
 === Additional Speculative Approaches
 
 #speculation(title: [Fat Oxidation Bypass via Medium-Chain Triglyceride (MCT) Oil])[
-*(Certainty: 0.40 — mechanism solid in isolated systems; unstudied in ME/CFS.)*
+*(Certainty: 0.45 — mechanism solid in isolated systems; unstudied in ME/CFS. 0.40→0.45: convergence of CPT/ACAD impairment (0.75) and GPR81 bistability model (0.65) both predict CPT-I bypass as therapeutic strategy.)*
 
 ME/CFS involves impaired long-chain fatty acid oxidation via CPT1/CPT2/ACAD dysfunction (Section @subsec:weight-changes).
 Medium-chain triglycerides enter mitochondria independently of the CPT transport system via passive diffusion, providing a metabolic bypass: exogenous MCTs produce ketones even when endogenous fat cannot be mobilized.
@@ -846,28 +851,28 @@ This ketone production may (1) spare glucose and reduce the starvation signal th
 MCT oil is liquid, requires no preparation, and is practical for severe patients.
 Start at 5 mL/day, titrate to 15–30 mL/day as tolerated (GI distress is dose-limiting).
 
-_Falsified if_ MCT supplementation in ME/CFS does not reduce hunger scores or increase serum beta-hydroxybutyrate relative to long-chain triglyceride control.
+_Falsified if_ MCT supplementation (15 mL/day × 4 weeks) in ME/CFS does not increase serum beta-hydroxybutyrate by at least 0.3 mmol/L above baseline relative to isocaloric long-chain triglyceride control.
 ] <spec:mct-fat-oxidation-bypass>
 
 #speculation(title: [PEM-Phase Metabolic Protection: High Protein During Crashes])[
-*(Certainty: 0.35 — mechanistic rationale strong; no direct evidence.)*
+*(Certainty: 0.40 — mechanistic rationale strong; no direct evidence. 0.35→0.40: feed-in from supercompensation failure hypothesis (0.60) providing established post-exertion recovery failure mechanism.)*
 
 During PEM crashes, ME/CFS patients enter an acute catabolic state with stress hormone elevation, insulin resistance, and increased proteolysis.
 Standard advice — "rest and eat what you can" — fails to address the accelerated muscle loss of the post-exertional period.
 PEM-phase metabolic protection involves increasing protein intake (to counter proteolysis) and providing MCT-based energy (for CPT-independent fuel) during and immediately after crashes, rather than reducing intake.
 The goal is to transform PEM from a "wasted period" into a therapeutic window where aggressive anti-catabolic nutrition limits muscle damage.
 
-_Falsified if_ PEM-phase protein loading (≥2.0 g/kg IBW/day for 48 hours post-crash) does not reduce urinary nitrogen excretion or preserve quadriceps thickness compared to standard intake.
+_Falsified if_ PEM-phase protein loading (≥2.0 g/kg IBW/day for 48 hours post-crash) does not reduce 24-hour urinary nitrogen excretion by at least 15% compared to habitual intake in the same patients (crossover design, POCUS-measured quadriceps thickness as secondary endpoint).
 ] <spec:pem-phase-metabolic-protection>
 
 #speculation(title: [PEM Frequency Drives Insulin Resistance and Weight Gain])[
-*(Certainty: 0.35 — PEM physiology supports this; the fraction-of-time-in-insulin-resistance metric is untested.)*
+*(Certainty: 0.40 — PEM physiology supports this; the fraction-of-time-in-insulin-resistance metric is untested. 0.35→0.40: feed-in from insulin resistance + cerebral glucose hypometabolism (0.55) and cortisol-HPA dysfunction (0.55) as independent upstream drivers.)*
 
 PEM involves sympathetic surge, cortisol elevation, and cytokine release — all inducing acute insulin resistance.
 If PEM is frequent (daily or every-other-day in severe ME/CFS), the patient may spend the majority of their time in an insulin-resistant state, biasing metabolism toward fat storage regardless of diet composition.
 This implies that PEM prevention is not just a symptom management strategy but a weight management strategy: reducing PEM frequency may be the single most effective intervention for weight control in ME/CFS.
 
-_Falsified if_ hours per week in post-PEM insulin-resistant state does not correlate with 12-month weight change after controlling for total caloric intake.
+_Falsified if_ continuous glucose monitoring during PEM episodes shows no sustained elevation of mean glucose above 7.0 mmol/L for more than 4 hours, or if cumulative hours above this threshold per week does not correlate with 12-month weight change (r < 0.3) after controlling for total caloric intake.
 ] <spec:pem-insulin-resistance-weight>
 
 #speculation(title: [GLP-1 RA Microdosing for Appetite Regulation Without Lean Mass Loss])[
@@ -875,11 +880,11 @@ _Falsified if_ hours per week in post-PEM insulin-resistant state does not corre
 
 Standard GLP-1 RA doses (semaglutide 2.4 mg/week) produce substantial lean mass loss (25–60% of total weight lost) @Neeland2024LeanMass @Stefanakis2024FFM.
 However, lower doses (semaglutide 0.25–0.5 mg/week) may produce appetite modulation with minimal lean mass penalty and fewer GI side effects.
-A microdosing protocol — starting at 0.125 mg/week and titrating only to the minimum effective dose for appetite control — could provide GLP-1 benefits (reduced food noise, potential anti-inflammatory effects) while minimizing the muscle-wasting risk.
+A microdosing protocol — starting at the lowest available commercial dose (semaglutide 0.25 mg/week) and titrating only to the minimum effective dose for appetite control — could provide GLP-1 benefits (reduced food noise, potential anti-inflammatory effects) while minimizing the muscle-wasting risk.
 If used, combine with protein ≥1.5 g/kg IBW and body composition monitoring.
 Full-dose progression is not desirable in this population.
 
-_Falsified if_ microdose GLP-1 RA (≤0.5 mg/week semaglutide equivalent) does not improve appetite scores while maintaining lean mass over 24 weeks.
+_Falsified if_ low-dose GLP-1 RA (0.25–0.5 mg/week semaglutide × 24 weeks) does not reduce Visual Analogue Scale hunger scores by at least 20% from baseline while DXA-measured lean mass declines by less than 2%.
 ] <spec:glp1-microdosing>
 
 #speculation(title: [NMES as Weight Management Tool via Metabolic Tissue Preservation])[
@@ -890,7 +895,7 @@ Beyond its established role in muscle preservation (Section @subsec:muscle-prese
 A bedbound patient who loses 5 kg of muscle via disuse atrophy also loses ~70 kcal/day in basal metabolic rate — equivalent to 2.6 kg of fat gain per year at constant intake.
 Daily NMES (30 minutes quadriceps, 5 days/week) may prevent this metabolic decline even when voluntary movement is impossible.
 
-_Falsified if_ daily NMES does not preserve quadriceps cross-sectional area (ultrasound) or resting metabolic rate over 12 weeks in bedbound ME/CFS patients compared to sham.
+_Falsified if_ daily NMES (30 minutes quadriceps, 5 days/week × 12 weeks) does not preserve POCUS-measured rectus femoris cross-sectional area (primary endpoint: less than 5% decline from baseline) in bedbound ME/CFS patients compared to sham stimulation.
 ] <spec:nmes-weight-management>
 
 == Exercise and Movement

@@ -1186,7 +1186,7 @@ IL-6 has both pro- and anti-inflammatory effects and is frequently elevated in M
 
 ==== Tumor Necrosis Factor-Alpha (TNF-$alpha$)
 
-TNF-$alpha$ is a central inflammatory cytokine elevated in some ME/CFS studies. It causes fatigue, malaise, and cognitive dysfunction while also affecting mitochondrial function and promoting muscle wasting (cachexia) via ubiquitin-proteasome pathway activation. Variable findings across studies may reflect patient heterogeneity within the ME/CFS population. Nutritional anti-catabolic strategies that inhibit the ubiquitin-proteasome pathway — such as HMB, a leucine metabolite that preserved lean mass in a bed rest RCT — may partially offset TNF-$alpha$-driven muscle catabolism in immobilized patients; this is discussed in Section @subsec:muscle-preservation-bedbound @Deutz2013HMB.
+TNF-$alpha$ is a central inflammatory cytokine elevated in some ME/CFS studies. It causes fatigue, malaise, and cognitive dysfunction while also affecting mitochondrial function and promoting muscle wasting (cachexia) via ubiquitin-proteasome pathway activation. Variable findings across studies may reflect patient heterogeneity within the ME/CFS population. Nutritional anti-catabolic strategies that inhibit the ubiquitin-proteasome pathway — such as HMB, a leucine metabolite that preserved lean mass in a bed rest RCT — may partially offset TNF-$alpha$-driven muscle catabolism in immobilized patients @Deutz2013HMB. Protein requirements rise to 1.5–2.0 g/kg ideal body weight during caloric restriction to protect against this catabolic drive @Weijs2025Protein. These strategies are discussed in Section @subsec:muscle-preservation-bedbound.
 
 ==== Interferons
 

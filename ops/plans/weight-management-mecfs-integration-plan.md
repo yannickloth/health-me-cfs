@@ -42,3 +42,34 @@ Integrate practical weight management strategies for ME/CFS patients — especia
 - Must respect existing warning: standard exercise-based weight management is CONTRAINDICATED (ch03, ch26)
 - Avoid moral framing — clinical terminology only
 - Body composition > scale weight throughout
+
+## Phase 4c: Compatibility Audit
+
+**Status:** ✅ Complete (2026-06-18)
+
+### Results Summary
+
+| Dimension | Count |
+|-----------|-------|
+| Pairwise relationships evaluated | 51 |
+| Reinforcement | 28 |
+| Feed-into | 11 |
+| Conflict | 3 (all pseudo-conflicts resolved) |
+| Independent | 9 |
+| Certainty bumps applied | 4 |
+
+### Bumped Hypotheses
+
+| Hypothesis | 0.35 → 0.40 | Driver |
+|---|---|---|
+| `spec:hypometabolic-caloric-recalibration` | 0.35 → 0.40 | FI from PEM-hibernation-mimetic (0.55) |
+| `spec:mct-fat-oxidation-bypass` | 0.40 → 0.45 | Convergence: CPT/ACAD (0.75) + GPR81 (0.65) |
+| `spec:pem-phase-metabolic-protection` | 0.35 → 0.40 | FI from supercompensation failure (0.60) |
+| `spec:pem-insulin-resistance-weight` | 0.35 → 0.40 | FI from insulin resistance (0.55) + HPA (0.55) |
+
+### Key Findings
+
+1. **Strongest convergence chain:** Fat oxidation failure — 4 independent lines (CPT/ACAD 0.75, GPR81 bistability 0.65, metabolic flexibility Φ 0.70, carnitine dynamics 0.60) all predict MCT bypass as logical therapy. `spec:mct-fat-oxidation-bypass` becomes the most robust new speculation.
+2. **No genuine conflicts:** All 3 apparent conflicts (overfeeding vs. anti-catabolic; GLP-1 microdosing vs. full-dose risk; overfeeding vs. weight maintenance) resolve on dose, macronutrient, or caloric-envelope dimensions.
+3. **No certainty reductions:** No new hypothesis conflicts with a higher-certainty hypothesis at ≥0.20 difference.
+4. **Audit output:** `content-staging/compat-audit-weight-management-mecfs-2026-06-18.md`
