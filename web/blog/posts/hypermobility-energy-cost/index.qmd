@@ -93,7 +93,11 @@ The fix is pattern recognition. The Beighton score takes two minutes. The questi
 ## References
 
 <span id="ref-1"></span>1. Seneviratne SL et al. Mast cell disorders in Ehlers-Danlos syndrome. *Am J Med Genet C*. 2017;175(1):226-236.
+
 <span id="ref-2"></span>2. Hakim A, Grahame R. Joint hypermobility. *Best Practice & Research Clinical Rheumatology*. 2003;17(6):989-1004.
+
 <span id="ref-3"></span>3. Roma M et al. Postural tachycardia syndrome and its association with Ehlers-Danlos syndrome. *Clinical Autonomic Research*. 2018;28(3):313-321.
+
 <span id="ref-4"></span>4. De Wandele I et al. Dysautonomia and its underlying mechanisms in the hypermobility type of EDS. *Seminars in Arthritis and Rheumatism*. 2014;44(1):93-100.
+
 <span id="ref-5"></span>5. Loth Y. ME/CFS: Mechanisms, Management, and Research Frontiers. 2026. doi.org/10.5281/zenodo.19627450
