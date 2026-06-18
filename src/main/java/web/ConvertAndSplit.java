@@ -237,21 +237,22 @@ void main(String[] args) throws IOException {
         }
 
         var headingLine = "## " + slugTitle;
-        var labels = new ArrayList<String>();
-        if (!sec.label().isEmpty()) {
-            labels.add(sec.label()
-                .replaceFirst("^<", "{#")
-                .replaceFirst(">$", "}")
-                .replaceFirst(":", "-"));
+        var headingLabels = new ArrayList<String>();
+        var spanAnchors = new ArrayList<String>();
+        for (var rawLabel : new String[]{ sec.label(), (secNum == 1 ? chapLabel : "") }) {
+            if (rawLabel == null || rawLabel.isEmpty()) continue;
+            var converted = rawLabel
+                .replaceFirst("^<", "")
+                .replaceFirst(">$", "")
+                .replaceFirst(":", "-");
+            if (rawLabel.matches("^<(sec|subsec|subsubsec):[^>]+>$")) {
+                headingLabels.add("{#" + converted + "}");
+            } else {
+                spanAnchors.add("<span id=\"" + converted + "\"></span>");
+            }
         }
-        // On first section page, also attach chapter label so cross-refs resolve
-        if (secNum == 1 && !chapLabel.isEmpty()) {
-            labels.add(chapLabel
-                .replaceFirst("^<", "{#")
-                .replaceFirst(">$", "}")
-                .replaceFirst(":", "-"));
-        }
-        for (var l : labels) headingLine += " " + l;
+        for (var a : spanAnchors) sb.append(a).append('\n');
+        for (var l : headingLabels) headingLine += " " + l;
         sb.append(headingLine).append("\n\n");
 
         String pendingLabel = null;
@@ -279,8 +280,23 @@ void main(String[] args) throws IOException {
                 int level = 1 + eqCount; // === → level 4 (####), ==== → level 5 (#####)
                 // Wait — should be: === → ### (3), ==== → #### (4). So: level = eqCount
                 level = Math.max(1, eqCount);
-                raw = "#".repeat(level) + stripped.substring(eqCount);
-                // Attach pending label (if any) to this heading
+                var headingText = stripped.substring(eqCount);
+                var inlineLabelPattern = Pattern.compile("\\s*<([a-zA-Z][\\w:\\.-]*)>\\s*");
+                var inlineMatcher = inlineLabelPattern.matcher(headingText);
+                var nonHeadingAnchors = new StringBuilder();
+                var headingAttrs = new StringBuilder();
+                while (inlineMatcher.find()) {
+                    var fullLabel = inlineMatcher.group(1);
+                    var converted = fullLabel.replaceFirst(":", "-");
+                    if (fullLabel.matches("(sec|subsec|subsubsec):.*")) {
+                        headingAttrs.append(" {#").append(converted).append("}");
+                    } else {
+                        nonHeadingAnchors.append("<span id=\"").append(converted).append("\"></span>\n");
+                    }
+                }
+                headingText = inlineMatcher.replaceAll("");
+                if (nonHeadingAnchors.length() > 0) sb.append(nonHeadingAnchors);
+                raw = "#".repeat(level) + headingText + headingAttrs;
                 if (pendingLabel != null) {
                     raw = raw + " " + pendingLabel;
                     pendingLabel = null;
