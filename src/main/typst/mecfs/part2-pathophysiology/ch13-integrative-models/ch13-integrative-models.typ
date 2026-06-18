@@ -4,22 +4,26 @@
 <ch:integrative-models>
 
 == Evidence Level Classification
-<tab:evidence-levels>
 
-#table(
-  columns: (4fr, 3fr, 3fr, 2fr),
-  align: (center, left, left, left),
-  stroke: (x: 0.5pt, y: 0.5pt),
-  inset: 8pt,
-)[
-  *Evidence Level*, *Description*, *ME/CFS Status*, *Reliability*
-  === === === ===
-  #text(weight: "bold")[Established], Replicated across multiple independent cohorts with consistent methodology, Documented in ME/CFS (multiple studies, consistent findings), Highest confidence
-  #text(weight: "bold")[Probable], Replicated in at least two cohorts with some methodological differences, Strong suggestive evidence in ME/CFS but requires replication, Moderate-high confidence
-  #text(weight: "bold")[Preliminary], Single study or limited replication with consistent findings, Emerging evidence in ME/CFS, requires validation, Moderate confidence
-  #text(weight: "bold")[Theoretical], Based on mechanistic inference from related conditions, Hypothesized but not yet tested in ME/CFS, Low confidence
-  #text(weight: "bold")[Speculative], Limited mechanistic basis, no direct testing in ME/CFS, Highly uncertain, Lowest confidence
-]
+#figure(
+  table(
+    columns: (4fr, 3fr, 3fr, 2fr),
+    align: (center, left, left, left),
+    stroke: (x: 0.5pt, y: 0.5pt),
+    inset: 8pt,
+    table.header(
+      [*Evidence Level*], [*Description*], [*ME/CFS Status*], [*Reliability*],
+    ),
+    [*Established*], [Replicated across multiple independent cohorts with consistent methodology], [Documented in ME/CFS (multiple studies, consistent findings)], [Highest confidence],
+    [*Probable*], [Replicated in at least two cohorts with some methodological differences], [Strong suggestive evidence in ME/CFS but requires replication], [Moderate-high confidence],
+    [*Preliminary*], [Single study or limited replication with consistent findings], [Emerging evidence in ME/CFS, requires validation], [Moderate confidence],
+    [*Theoretical*], [Based on mechanistic inference from related conditions], [Hypothesized but not yet tested in ME/CFS], [Low confidence],
+    [*Speculative*], [Limited mechanistic basis, no direct testing in ME/CFS], [Highly uncertain], [Lowest confidence],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [Evidence level classification used throughout this chapter],
+) <tab:evidence-levels>
 
 This chapter synthesizes multi-system pathophysiology documented in Chapters 6–12 into comprehensive models of ME/CFS. The core challenge in understanding ME/CFS is that individual system abnormalities—mitochondrial dysfunction, immune dysregulation, neurological impairment, cardiovascular deficits, endocrine disruption, gut dysbiosis—co-occur in patterns that suggest coordinated, self-reinforcing mechanisms rather than independent parallel pathology.
 
