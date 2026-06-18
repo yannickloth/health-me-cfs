@@ -282,7 +282,8 @@ void main(String[] args) throws IOException, InterruptedException {
         for (var fig : figFiles) {
             var svgName = fig.getFileName().toString().replace(".typ", ".svg");
             var svgPath = figOutDir.resolve(svgName);
-            var cmd = new String[]{"typst", "compile", fig.toAbsolutePath().toString(), svgPath.toAbsolutePath().toString()};
+            var fontPath = srcRoot.resolve("fonts").toAbsolutePath().toString();
+            var cmd = new String[]{"typst", "compile", "--font-path", fontPath, fig.toAbsolutePath().toString(), svgPath.toAbsolutePath().toString()};
             var proc = new ProcessBuilder(cmd)
                 .redirectErrorStream(true)
                 .start();
