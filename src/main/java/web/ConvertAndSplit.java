@@ -100,16 +100,24 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("(?m)^\\s*/\\s+\\*([^*]+)\\*:(.*)$", "- **$1:**$2");
 
     // Typst math → LaTeX/MathJax math translation
-    // Standalone math tokens
+    // Standalone math tokens (pre-translateMath, for tokens used outside $...$ blocks)
     src = src.replace("$lt.eq$", "$\\leq$");
     src = src.replace("$gt.eq$", "$\\geq$");
     src = src.replace("$lt$", "$<$");
     src = src.replace("$gt$", "$>$");
     src = src.replace("$approx$", "$\\approx$");
     src = src.replace("$times$", "$\\times$");
+    src = src.replace("$tilde$", "$\\sim$");
+    src = src.replace("$alpha$", "$\\alpha$");
+    src = src.replace("$beta$", "$\\beta$");
+    src = src.replace("$gamma$", "$\\gamma$");
+    src = src.replace("$delta$", "$\\delta$");
+    src = src.replace("$mu$", "$\\mu$");
     src = src.replace("$arrow.double.r$", "$\\Rightarrow$");
     // Typst math commands — translate within $...$ blocks to avoid prose collisions
     src = translateMath(src);
+    // Prevent MathJax misparsing when closing $ is immediately followed by a digit
+    src = src.replaceAll("\\$([0-9])", "\\$ $1");
 
     // #align(center, table(...)) → just table
     src = src.replaceAll("#align\\(center,\\s*", "");
@@ -466,12 +474,36 @@ String translateMath(String s) {
             .replace("inter", "\\cap")
             .replace("union", "\\cup")
             .replace("eq.not", "\\neq")
+            .replace("gt.eq", "\\geq")
+            .replace("lt.eq", "\\leq")
             .replace("nothing", "\\emptyset")
             .replace("arrow.l.r", "\\leftrightarrow")
+            .replace("arrow.double.r", "\\Rightarrow")
             .replace("arrow.r", "\\rightarrow")
             .replace("arrow.l", "\\leftarrow")
             .replace("dot.op", "\\cdot")
             .replace("plus.minus", "\\pm")
+            .replace("tilde", "\\sim")
+            .replace("alpha", "\\alpha")
+            .replace("beta", "\\beta")
+            .replace("gamma", "\\gamma")
+            .replace("delta", "\\delta")
+            .replace("epsilon", "\\epsilon")
+            .replace("zeta", "\\zeta")
+            .replace("eta", "\\eta")
+            .replace("theta", "\\theta")
+            .replace("kappa", "\\kappa")
+            .replace("lambda", "\\lambda")
+            .replace("mu", "\\mu")
+            .replace("nu", "\\nu")
+            .replace("xi", "\\xi")
+            .replace("pi", "\\pi")
+            .replace("rho", "\\rho")
+            .replace("sigma", "\\sigma")
+            .replace("tau", "\\tau")
+            .replace("phi", "\\phi")
+            .replace("chi", "\\chi")
+            .replace("omega", "\\omega")
             .replace("cal(", "\\mathcal{")
             .replace("bold(", "\\mathbf{")
             .replaceAll("upright\\(\"([^\"]+)\"\\)", "\\\\text{$1}")
