@@ -33,7 +33,8 @@ void main(String[] args) throws IOException {
 
     // Citations: @key but NOT internal cross-ref prefixes
     // Cross-references with @: convert to Quarto crossref syntax @sec-xyz
-    src = src.replaceAll("@(ch|sec|subsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app)(:|_)([a-zA-Z0-9_-]+)", "@$1-$3");
+    // Cross-references with @: convert to Quarto crossref syntax @sec-xyz
+    src = src.replaceAll("@(ch|sec|subsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
     // Only convert actual BibTeX citation keys: @AuthorYear(suffix)
     src = src.replaceAll("@([A-Z][A-Za-z]+\\d{4}[a-zA-Z0-9]*)", "[@$1]");
     src = src.replaceAll("@([a-z]+\\d{4}[a-zA-Z0-9]*)", "[@$1]");
@@ -196,13 +197,14 @@ void main(String[] args) throws IOException {
     // --- Step 3: Generate .qmd files ---
     int secNum = 1;
     for (var sec : sections) {
-        var slug = sec.title().toLowerCase().replaceAll("[^a-z0-9']+", "-").replaceAll("^-|-$", "").replace("'", "");
+        var slugTitle = normalizeUnicode(sec.title());
+        var slug = slugTitle.toLowerCase().replaceAll("[^a-z0-9']+", "-").replaceAll("^-|-$", "").replace("'", "");
         var fname = "%02d-%s.qmd".formatted(secNum, slug);
         var path = get(outDir, fname);
 
         var sb = new StringBuilder();
         sb.append("---\n");
-        sb.append("title: \"").append(esc(sec.title())).append("\"\n");
+        sb.append("title: \"").append(esc(slugTitle)).append("\"\n");
         sb.append("---\n\n");
 
         // Preamble goes on first section page
@@ -212,7 +214,7 @@ void main(String[] args) throws IOException {
             sb.append('\n');
         }
 
-        var headingLine = "## " + sec.title();
+        var headingLine = "## " + slugTitle;
         var labels = new ArrayList<String>();
         if (!sec.label().isEmpty()) {
             labels.add(sec.label()
@@ -378,6 +380,18 @@ String quoteToBlockquote(String s) {
 }
 
 String esc(String s) { return s.replace("\"", "\\\""); }
+
+// Normalize confusable Unicode characters in titles to ASCII equivalents.
+// Preserves semantic intent — en-dash stays as hyphen in source but page content unchanged.
+String normalizeUnicode(String s) {
+    return s
+        .replace('\u2013', '-')  // en dash
+        .replace('\u2014', '-')  // em dash → hyphen
+        .replace('\u2018', '\'') // left single quote
+        .replace('\u2019', '\'') // right single quote
+        .replace('\u201c', '"')  // left double quote
+        .replace('\u201d', '"'); // right double quote
+}
 
 // Remove #figure( table(...), caption: [...], ) blocks.
 // Uses simple paren depth counting to handle nested ().
