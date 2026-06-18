@@ -21941,3 +21941,70 @@ This section covers literature at the intersection of ME/CFS genetics (Precision
     *Limitations:*: Cross-sectional; online convenience sample; self-report measures.
     *Certainty:*: 0.68
 
+== Weight Management in ME/CFS
+
+=== Alazzam et al.\ 2023 — BMR/RMR Measurement after Spinal Cord Injury
+
+    *Full Citation:*: Alazzam AM, Alrubaye MW, Goldsmith JA, Gorgey AS. Trends in measuring BMR and RMR after spinal cord injury: a comprehensive review. _British Journal of Nutrition_. 2023;130(10):1684–1698. @Alazzam2023SCI
+    *DOI:*: #link("https://doi.org/10.1017/S0007114523000831")[10.1017/S0007114523000831]
+    *Study Design:*: Comprehensive review of metabolic rate measurement methods in SCI
+    *Key Findings:*:
+        - BMR constitutes 75–80% of total energy expenditure in SCI (vs 60–70% in ambulatory)
+        - Predictive equations overestimate RMR by 5–32% in SCI
+        - Indirect calorimetry is the gold standard
+    *Conclusion:*: SCI literature provides the best analog for caloric needs estimation in severely immobile ME/CFS patients.
+    *Limitations:*: Review; SCI involves neurogenic denervation absent in ME/CFS.
+    *Certainty:*: 0.70
+
+=== Biolo et al.\ 2008 — Positive Energy Balance Accelerates Muscle Atrophy in Bed Rest
+
+    *Full Citation:*: Biolo G, Agostini F, Simunic B, et al. Positive energy balance is associated with accelerated muscle atrophy and increased erythrocyte glutathione turnover during 5 wk of bed rest. _American Journal of Clinical Nutrition_. 2008;88(4):950–958. @Biolo2008BedRest
+    *DOI:*: #link("https://doi.org/10.1093/ajcn/88.4.950")[10.1093/ajcn/88.4.950]
+    *Study Design:*: Controlled bed rest study; healthy volunteers
+    *Sample Size:*: n=17 bed rest vs n=8 ambulatory control
+    *Key Findings:*:
+        - Positive energy balance during 5-week bed rest ACCELERATED muscle atrophy
+        - Energy balance maintenance was protective against muscle loss
+    *Conclusion:*: Overfeeding bedbound patients may worsen sarcopenic obesity. Energy balance maintenance is critical.
+    *Limitations:*: Healthy volunteers; short duration; controlled setting.
+    *Certainty:*: 0.70
+
+=== D'Onghia et al.\ 2021 — Fibromyalgia and Obesity Meta-Analysis
+
+    *Full Citation:*: D'Onghia M, Ciaffi J, Lisi L, Giunchi D, Malavolta N, Ursini F. Fibromyalgia and obesity: a comprehensive systematic review and meta-analysis. _Seminars in Arthritis and Rheumatism_. 2021;51(3):608–614. @DOnglia2021FMObesity
+    *DOI:*: #link("https://doi.org/10.1016/j.semarthrit.2021.02.007")[10.1016/j.semarthrit.2021.02.007]
+    *Study Design:*: Systematic review and meta-analysis
+    *Sample Size:*: 58 studies
+    *Key Findings:*:
+        - Elevated obesity prevalence in fibromyalgia vs general population
+        - Obesity worsens FM symptoms; weight loss improves them
+    *Conclusion:*: Weight management is a therapeutic priority in FM; analogous benefits likely in ME/CFS.
+    *Limitations:*: FM is not ME/CFS; weight loss modalities heterogeneous.
+    *Certainty:*: 0.75
+
+=== Wilding et al.\ 2021 — STEP 1: Once-Weekly Semaglutide
+
+    *Full Citation:*: Wilding JPH, Batterham RL, Calanna S, et al. Once-weekly semaglutide in adults with overweight or obesity. _New England Journal of Medicine_. 2021;384(11):989–1002. @Wilding2021Semaglutide
+    *DOI:*: #link("https://doi.org/10.1056/NEJMoa2032183")[10.1056/NEJMoa2032183]
+    *Study Design:*: Randomized, double-blind, placebo-controlled (STEP 1)
+    *Sample Size:*: n=1961
+    *Key Findings:*:
+        - Semaglutide 2.4 mg: -14.9% body weight vs -2.4% placebo
+        - ~40% of weight lost from lean mass
+        - GI adverse events in ~75%
+    *Conclusion:*: GLP-1 RAs effective for weight but lean mass loss is a major concern in ME/CFS.
+    *Limitations:*: Excluded chronic illness populations; no ME/CFS patients.
+    *Certainty:*: 0.90
+
+=== Weijs and Wolfe 2025 — Protein Requirement in Obesity
+
+    *Full Citation:*: Weijs PJM, Wolfe RR. Protein requirement in obesity. _Current Opinion in Clinical Nutrition and Metabolic Care_. 2025;28(3):231–237. @Weijs2025Protein
+    *DOI:*: #link("https://doi.org/10.1097/MCO.0000000000001087")[10.1097/MCO.0000000000001087]
+    *Study Design:*: Expert review
+    *Key Findings:*:
+        - Protein needs increase to 1.5–2.0 g/kg IBW during caloric restriction
+        - Higher protein spares lean mass even without resistance exercise
+    *Conclusion:*: Any weight management in ME/CFS must include protein ≥1.5 g/kg IBW.
+    *Limitations:*: General obesity; not specific to immobility.
+    *Certainty:*: 0.65
+
