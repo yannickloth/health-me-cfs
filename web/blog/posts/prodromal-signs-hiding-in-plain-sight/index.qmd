@@ -105,11 +105,17 @@ Recognition is the first intervention. And it costs nothing.
 *Scientific sources:*
 
 - Wirth M, Haastert B, Linnenkamp U, et al. ICD-10 Diagnoses prior to ME/CFS diagnosis in children and young people suggest potential early diagnostic indicators. *Scientific Reports*. 2026. [DOI: 10.1038/s41598-026-40848-1](https://doi.org/10.1038/s41598-026-40848-1)
+
 - Collin SM, Norris T, Gringras P, Blair PS, Tilling K, Crawley E. Childhood sleep and adolescent chronic fatigue syndrome (CFS/ME): evidence of associations in a UK birth cohort. *Sleep Medicine*. 2018;47:85–91. [DOI: 10.1016/j.sleep.2018.01.005](https://doi.org/10.1016/j.sleep.2018.01.005)
+
 - Kato K, Sullivan PF, Evengård B, Pedersen NL. Premorbid predictors of chronic fatigue. *Archives of General Psychiatry*. 2006;63(11):1267–72. [DOI: 10.1001/archpsyc.63.11.1267](https://doi.org/10.1001/archpsyc.63.11.1267)
+
 - Moak JP, Ramwell CB, Gordish-Dressman H, Sule SD, Bettini E. Small fiber neuropathy in children, adolescents, and young adults with chronic orthostatic intolerance and POTS. *Autonomic Neuroscience*. 2024;253:103163. [DOI: 10.1016/j.autneu.2024.103163](https://doi.org/10.1016/j.autneu.2024.103163)
+
 - Wyller VB, Godang K, Mørkrid L, Saul JP, Thaulow E, Walløe L. Abnormal thermoregulatory responses in adolescents with chronic fatigue syndrome. *Pediatrics*. 2007;120(1):e129–37. [DOI: 10.1542/peds.2006-2759](https://doi.org/10.1542/peds.2006-2759)
+
 - Jason LA, Evans M, Brown A, Sunnquist M, Newton JL. Chronic Fatigue Syndrome Versus Sudden Onset Myalgic Encephalomyelitis. *Journal of Prevention & Intervention in the Community*. 2015;43(1):6–12. [DOI: 10.1080/10852352.2014.973233](https://doi.org/10.1080/10852352.2014.973233)
+
 - Geraghty KJ, Adeniji C. The Importance of Accurate Diagnosis of ME/CFS in Children and Adolescents: A Commentary. *Frontiers in Pediatrics*. 2019;7:435. [DOI: 10.3389/fped.2018.00435](https://doi.org/10.3389/fped.2018.00435)
 
 *Full mechanistic framework:*

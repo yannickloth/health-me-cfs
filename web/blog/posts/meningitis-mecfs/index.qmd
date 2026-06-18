@@ -65,20 +65,37 @@ What makes ME/CFS so difficult to live with is precisely this: the immune dysfun
 ## References
 
 - Caligiuri M et al. (1987). Phenotypic and functional deficiency of natural killer cells in CFS. *J Immunol*, 139(10):3306–13.
+
 - Iu DS et al. (2024). Transcriptional reprogramming primes CD8+ T cells toward exhaustion in ME/CFS. *PNAS*, 121(50):e2415119121.
+
 - Sorensen B et al. (2003). Complement activation in a model of CFS. *J Allergy Clin Immunol*, 112(2):397–403.
+
 - Glass KA et al. (2025). Extracellular vesicle proteomics uncovers complement system dysregulation post-exercise in ME/CFS. *Clin Transl Med*, 15(5):e70346.
+
 - Schwitter J et al. (2024). Long-term sequelae after viral meningitis. *Front Neurol*. DOI: 10.3389/fneur.2024.1411860.
+
 - Ungureanu A et al. (2021). Meningitis, meningoencephalitis and encephalitis in Bern. *BMC Neurol*, 21(1):474.
+
 - Hotopf M et al. (1996). Chronic fatigue after viral meningitis. *JNNP*, 60(5):504–9.
+
 - Spronk I et al. (2023). Long-term outcomes of Q-fever fatigue syndrome. *Epidemiol Infect*, 151:e179.
+
 - Magnus P et al. (2015). ME/CFS is associated with pandemic influenza infection, not with vaccine. *Vaccine*, 33(46):6173–7.
+
 - Magnus P et al. (2009). Meningococcal vaccination and ME risk. *Vaccine*, 27(1):23–7.
+
 - Prinsen H et al. (2012). Immune responses after influenza vaccination in CFS. *BMC Immunol*, 13:71.
+
 - Gottschalk G et al. (2022). Elevated ATG13 in ME/CFS serum activates microglial cells via RAGE. *Mol Cell Neurosci*, 120:103731.
+
 - Piñas G et al. (2022). Glymphatic dysfunction in pneumococcal meningitis. *mBio*. DOI: 10.1128/mbio.02350-22.
+
 - Christodoulides M et al. (2025). Dural mast cells regulate CSF dynamics. *Cell*. DOI: 10.1016/j.cell.2025.06.046.
+
 - Phetsouphanh C et al. (2022). Immunological dysfunction persists for 8 months following initial mild-to-moderate SARS-CoV-2 infection. *Nat Immunol*, 23(2):210–6.
+
 - Rohrhofer J et al. (2024). Immunological comparison of ME/CFS and Long COVID. *Front Immunol*, 15:1346530.
+
 - Klein J et al. (2024). Distinguishing features of Long COVID identified through immune profiling. *Science*, 383(6685):eadi9379.
+
 - Ladhani SN et al. (2020). Vaccination of infants with meningococcal group B vaccine (4CMenB) in England. *NEJM*, 382:309–17.

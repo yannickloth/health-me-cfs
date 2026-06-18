@@ -92,10 +92,15 @@ This doesn't mean poor sleep *causes* ME/CFS. Many children sleep badly and neve
 *Scientific sources:*
 
 - Collin SM, Norris T, Gringras P, Blair PS, Tilling K, Crawley E. Childhood sleep and adolescent chronic fatigue syndrome (CFS/ME): evidence of associations in a UK birth cohort. *Sleep Medicine*. 2018;47:85–91. [DOI: 10.1016/j.sleep.2018.01.005](https://doi.org/10.1016/j.sleep.2018.01.005)
+
 - Xie L, Kang H, Xu Q, et al. Sleep drives metabolite clearance from the adult brain. *Science*. 2013;342(6156):373–377. [DOI: 10.1126/science.1241224](https://doi.org/10.1126/science.1241224)
+
 - Hauglund NL, Andersen M, Tokarska K, et al. Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep. *Cell*. 2025;188(4):944–961. [DOI: 10.1016/j.cell.2024.12.027](https://doi.org/10.1016/j.cell.2024.12.027)
+
 - Holth JK, Fritschi SK, Wang C, et al. The sleep–wake cycle regulates brain interstitial fluid tau in mice and CSF tau in humans. *Science*. 2019;363(6429):880–884. [DOI: 10.1126/science.aav2546](https://doi.org/10.1126/science.aav2546)
+
 - Irwin MR, Olmstead R, Carroll JE. Sleep disturbance, sleep duration, and inflammation: a systematic review and meta-analysis of cohort studies and experimental sleep deprivation. *Biological Psychiatry*. 2016;80(1):40–52. [DOI: 10.1016/j.biopsych.2015.05.014](https://doi.org/10.1016/j.biopsych.2015.05.014)
+
 - Jason LA, Evans M, Brown A, Sunnquist M, Newton JL. Chronic Fatigue Syndrome Versus Sudden Onset Myalgic Encephalomyelitis. *Journal of Prevention & Intervention in the Community*. 2015;43(1):6–12. [DOI: 10.1080/10852352.2014.973233](https://doi.org/10.1080/10852352.2014.973233)
 
 *Full mechanistic framework:*

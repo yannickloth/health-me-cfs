@@ -155,8 +155,13 @@ One cofactor. One test. One potential answer — if the hypothesis is correct.
 ## References
 
 1. Fanet H et al. Tetrahydrobiopterin (BH4) pathway: from metabolism to neuropsychiatry. *Curr Neuropharmacol*. 2021;19(5):591–609. PMID: 32744952.
+
 2. Colpani Filho C et al. Tetrahydrobiopterin and ASD: A Systematic Review. *Brain Sciences*. 2025;15(2):151. PMID: 40002484.
+
 3. Williams GE et al. GCH1 deficiency and tetrahydrobiopterin in mental health. *Int J Mol Sci*. 2025;26(16):8030. PMID: 40869351.
+
 4. DelRosso LM et al. Iron Deficiency Across Neurodevelopmental Disorders. *Children*. 2026;13(2):180. PMID: 41749537.
+
 5. Quadt L et al. Childhood neurodivergent traits, inflammation and chronic disabling fatigue. *BMJ Open*. 2024;14(7):e084203. PMID: 39038862.
+
 6. Yokokura M et al. In vivo imaging of dopamine D1 receptor and activated microglia in ADHD. *Mol Psychiatry*. 2021;26(9):4958–4967. PMID: 32439845.

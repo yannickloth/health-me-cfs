@@ -85,21 +85,31 @@ The UK is now re-examining eligibility through the JCVI. The rest of Europe shou
 ## References
 
 - Rappuoli R (2000). Reverse vaccinology. *Curr Opin Microbiol*, 3(5):445–50.
+
 - Pizza M et al. (2000). Identification of vaccine candidates against serogroup B meningococcus by whole-genome sequencing. *Science*, 287(5459):1816–20.
+
 - Ladhani SN et al. (2020). Vaccination of infants with meningococcal group B vaccine (4CMenB) in England. *NEJM*, 382:309–17.
+
 - Parikh SR et al. (2016). Meningococcal serogroup B strain coverage of the multicomponent 4CMenB vaccine. *Lancet Infect Dis*, 16(12):1288–95.
+
 - Vogel U et al. (2013). Predicted strain coverage of a meningococcal multicomponent vaccine (4CMenB) in Europe. *Lancet Infect Dis*, 13(5):416–25.
+
 - Hong E et al. (2018). Genomic surveillance of 4CMenB vaccine antigen variants. *Emerg Infect Dis*, 24(4):673–81.
+
 - Willerton L et al. (2026). Use of MenB-FHbp (Trumenba) to control a nursery outbreak of meningococcal group B disease in England, 2023. *Eurosurveillance*, 31(3):2400789.
 
 ### European vaccination policy
 
 - ECDC (2026). [Vaccine Scheduler: Meningococcal disease](https://vaccine-schedule.ecdc.europa.eu/Scheduler/ByDisease?SelectedDiseaseId=48&SelectedCountryIdByDisease=-1). European Centre for Disease Prevention and Control.
+
 - Findlow J et al. (2019). Evolving strategies for meningococcal vaccination in Europe. *Hum Vaccin Immunother*, 15(2):299–308. [PMC8933022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8933022/).
 
 ### Official sources on the Kent outbreak
 
 - UKHSA (17 March 2026). [Cases of invasive meningococcal disease notified in Kent](https://www.gov.uk/government/news/cases-of-invasive-meningococcal-disease-confirmed-in-kent). GOV.UK.
+
 - Secretary of State for Health and Social Care (17 March 2026). [Update to the House on meningitis outbreak](https://www.gov.uk/government/speeches/secretary-of-state-update-to-the-house-on-meningitis-outbreak). GOV.UK.
+
 - Science Media Centre (17 March 2026). [Expert reaction to meningitis outbreak in Kent](https://www.sciencemediacentre.org/expert-reaction-to-meningitis-outbreak-in-kent/).
+
 - LBC (18 March 2026). [Number of meningitis cases in 'explosive' Kent outbreak rises to 20 as spread declared 'national incident'](https://www.lbc.co.uk/article/meningitis-cases-kent-outbreak-rises-20-national-incident-5HjdWSg_2/).

@@ -69,4 +69,12 @@ A null result — DTI-ALPS normalization within 4 weeks of sleep architecture re
 3. **The ceiling at 12 months is real.** If you've maintained consistent restorative sleep for a year and plateaued, you've extracted everything the glymphatic axis can give you. Further improvement requires targeting other mechanisms — mitochondrial support, pacing, anti-inflammatory strategies, and potentially addressing upstream locks like autoimmune persistence.
 
 4. **Sleep quality matters more than sleep duration.** The pump runs on delta oscillations, not minutes in bed. DORAs and trazodone improve the signal that drives clearance. Z-drugs like zolpidem increase sleep duration but suppress the NE oscillations that drive the pump — and provide zero tau neuroprotection. The medication class matters.
-Sources: Parhizkar et al. 2025 (Nature Neuroscience), Lucey et al. 2023 (Annals of Neurology), Hauglund et al. 2025 (Cell), Holth et al. 2019 (Science), NematGorgani et al. 2025, Ding et al. 2025, and foundational glymphatic biology (Xie et al. 2013, Fultz et al. 2019).
+Sources:
+- Parhizkar et al. 2025. *Nature Neuroscience*.
+- Lucey et al. 2023. *Annals of Neurology*.
+- Hauglund et al. 2025. *Cell*.
+- Holth et al. 2019. *Science*.
+- NematGorgani et al. 2025.
+- Ding et al. 2025.
+- Xie et al. 2013. Foundational glymphatic biology.
+- Fultz et al. 2019. Foundational glymphatic biology.

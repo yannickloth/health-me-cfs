@@ -156,11 +156,19 @@ The energy framing generates testable predictions distinct from these alternativ
 ## References
 
 1. Zametkin AJ et al. Cerebral glucose metabolism in adults with hyperactivity of childhood onset. *NEJM*. 1990;323(20):1361–1366. PMID: 2233902.
+
 2. Berthier J et al. Cerebral blood flow in ADHD: A systematic review. *Neuroscience*. 2025;567:67–76. PMID: 39631658.
+
 3. Yokokura M et al. In vivo imaging of dopamine D1 receptor and activated microglia in ADHD. *Mol Psychiatry*. 2021;26(9):4958–4967. PMID: 32439845.
+
 4. Walitt B et al. Deep phenotyping of post-infectious ME/CFS. *Nat Commun*. 2024;15:907. PMID: 38267427.
+
 5. DelRosso LM et al. Iron Deficiency Across Neurodevelopmental Disorders. *Children*. 2026;13(2):180. PMID: 41749537.
+
 6. Williams GE et al. GCH1 deficiency and tetrahydrobiopterin in mental health. *Int J Mol Sci*. 2025;26(16):8030. PMID: 40869351.
+
 7. Fanet H et al. BH4 pathway: from metabolism to neuropsychiatry. *Curr Neuropharmacol*. 2021;19(5):591–609. PMID: 32744952.
+
 8. Moffitt TE et al. Is adult ADHD a childhood-onset neurodevelopmental disorder? *Am J Psychiatry*. 2015;172(10):967–977. PMID: 25998281.
+
 9. Almutairi MM et al. Mitochondrial dysfunction and mitophagy in ADHD. *Saudi Pharm J*. 2024;32(12):102212. PMID: 39638973.

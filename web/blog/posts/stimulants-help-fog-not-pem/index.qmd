@@ -124,7 +124,11 @@ For ME/CFS patients using stimulants:
 ## References
 
 1. Vernon SD et al. Patient-reported treatment outcomes in ME/CFS and Long COVID. *PNAS*. 2025 [in press]. n = 3,925.
+
 2. Blockmans D et al. Does methylphenidate reduce the symptoms of chronic fatigue syndrome? *Am J Med*. 2006;119(2):167.e23–167.e30. PMID: 16443425.
+
 3. Almutairi MM et al. Mitochondrial dysfunction and mitophagy in ADHD. *Saudi Pharm J*. 2024;32(12):102212. PMID: 39638973.
+
 4. Walitt B et al. Deep phenotyping of post-infectious ME/CFS. *Nat Commun*. 2024;15:907. PMID: 38267427.
+
 5. Zametkin AJ et al. Cerebral glucose metabolism in adults with hyperactivity of childhood onset. *NEJM*. 1990;323(20):1361–1366. PMID: 2233902.
