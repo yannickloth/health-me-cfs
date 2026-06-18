@@ -37,9 +37,10 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("@([a-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
 
     // --- Tables: convert to Markdown pipe tables instead of dropping ---
-    src = src.replaceAll("(?s)#figure\\s*\\(\\s*kind\\s*:\\s*table[^,]*,.*?\\)\\s*\\n", "<!-- TABLE -->\n");
     src = convertFigureTable(src);
     src = convertTableBlocks(src);
+    // Fallback: strip any remaining figure(kind: table, ...) headers not handled above
+    src = src.replaceAll("(?s)#figure\\s*\\(\\s*kind\\s*:\\s*table[^,]*,.*?\\)\\s*\\n", "<!-- TABLE -->\n");
 
     // Strip empty placeholder figure([], kind: table, ...)
     src = src.replaceAll("#figure\\(\\[\\],?\\s*kind:\\s*table[^)]*\\)\\s*(<[a-z][\\w:\\.-]*>)?", "");
@@ -141,7 +142,7 @@ void main(String[] args) throws IOException {
     src = encloseNoTitle(src, "proof", "note", "Proof");
 
     // #chapter-abstract[...]
-    src = src.replaceAll("#chapter-abstract\\[", "::: {.callout-note}\n### Chapter Abstract\n\n");
+    src = src.replaceAll("#chapter-abstract\\[", "\n\n::: {.callout-note}\n### Chapter Abstract\n\n");
 
     // Close standalone ] lines — replace any line that is just ] or ]<label>
     src = src.replaceAll("(?m)^\\]\\s+(<[a-z][\\w:\\.-]*>)\\s*$", "$1");
@@ -451,11 +452,11 @@ String encloseEnv(String s, String typstName, String quartoKind, String displayN
     var sb = new StringBuffer();
     while (m.find()) {
         var title = m.group(1);
-        m.appendReplacement(sb, "::: {.callout-" + quartoKind + "}\n### " + displayName + ": " + Matcher.quoteReplacement(title) + "\n\n");
+        m.appendReplacement(sb, "\n\n::: {.callout-" + quartoKind + "}\n### " + displayName + ": " + Matcher.quoteReplacement(title) + "\n\n");
     }
     m.appendTail(sb);
     var out = sb.toString();
-    out = out.replaceAll("(?m)^\\]$", ":::");
+    out = out.replaceAll("(?m)^\\]$", ":::\n");
     out = out.replaceAll("(?m)^\\] (<[a-z][\\w:\\.-]*>)$", ":::\n$1");
     out = out.replaceAll("(?m)^\\](?!\\)\\[).*$", "");
     return out;
@@ -472,7 +473,7 @@ String encloseFhypothesis(String s) {
         var footer = "\n\n**Falsifiability:** *" + falsifiability;
         if (!justification.isEmpty()) footer += " — " + justification;
         footer += "*";
-        m.appendReplacement(sb, "::: {.callout-note}\n### Hypothesis: " + Matcher.quoteReplacement(title) + "\n\n" + Matcher.quoteReplacement(footer) + "\n\n");
+        m.appendReplacement(sb, "\n\n::: {.callout-note}\n### Hypothesis: " + Matcher.quoteReplacement(title) + "\n\n" + Matcher.quoteReplacement(footer) + "\n\n");
     }
     m.appendTail(sb);
     return sb.toString();
@@ -483,7 +484,7 @@ String encloseNoTitle(String s, String typstName, String quartoKind, String disp
     var m = p.matcher(s);
     var sb = new StringBuffer();
     while (m.find()) {
-        m.appendReplacement(sb, "::: {.callout-" + quartoKind + "}\n### " + displayName + "\n\n");
+        m.appendReplacement(sb, "\n\n::: {.callout-" + quartoKind + "}\n### " + displayName + "\n\n");
     }
     m.appendTail(sb);
     return sb.toString();
