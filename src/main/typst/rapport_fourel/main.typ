@@ -2051,7 +2051,7 @@ Par souci de symétrie avec l'analyse des modèles contrefactuels, voici ce que 
 
 = Notes de transparence
 
-Ce document a été généré le 26 mai 2026 à partir du document ME/CFS (Loth, Version 7) avec l'assistance d'un modèle d'IA (DeepSeek V4 Pro). Toutes les citations ont été vérifiées contre le fichier `references.bib` du document principal.
+Ce document a été généré le 26 mai 2026 à partir du document ME/CFS (Loth, Version 7) avec l'assistance d'un modèle d'IA (DeepSeek V4 Pro). Toutes les citations ont été vérifiées contre les fichiers bibliographiques du document principal.
 
 Les extraits du document principal sont reproduits en anglais (langue originale du document). Les commentaires et le texte de liaison sont en français.
 

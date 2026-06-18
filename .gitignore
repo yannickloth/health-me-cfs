@@ -344,8 +344,7 @@ result-*
 .devenv/
 .devenv.flake.nix
 
-# Generated split bib files (produced by SplitBib.java from Typst references.bib)
-src/main/typst/mecfs/bib/
+# Generated web bib files (copied from Typst source during build)
 web/bib/
 
 # Quarto generated listing metadata

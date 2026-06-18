@@ -54,9 +54,6 @@
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
 
-            # Split references.bib by research_stream for Typst
-            java --source 25 src/main/java/web/SplitBib.java
-
             typst compile \
               --package-cache-path "${typst-package-cache}" \
               --font-path src/main/typst/mecfs/fonts \
@@ -87,8 +84,7 @@
             # Generate .qmd files and figures
             java --source 25 src/main/java/web/BuildWeb.java
 
-            # Split references.bib by research_stream and copy to web/bib/
-            java --source 25 src/main/java/web/SplitBib.java
+            # Copy bib files for Quarto
             cp -r src/main/typst/mecfs/bib/ web/bib/
 
             # Verify no orphaned labels in generated .qmd files
@@ -119,8 +115,7 @@
 
             java --source 25 src/main/java/web/BuildWeb.java
 
-            # Split references.bib by research_stream and copy to web/bib/
-            java --source 25 src/main/java/web/SplitBib.java
+            # Copy bib files for Quarto
             cp -r src/main/typst/mecfs/bib/ web/bib/
 
             # Verify no orphaned labels in generated .qmd files

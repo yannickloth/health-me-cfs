@@ -13824,7 +13824,7 @@ This section covers mechanistic and clinical literature on the intersection of m
 + *Full Citation:* Seifert M et al. (2026). Extracellular Vesicle Protein and MiRNA Signatures as Biomarkers for Post-Infectious ME/CFS Patients. _Int J Mol Sci_, 27(5).
 + *DOI:* `10.3390/ijms27052314`
 + *PMID:* 41828537
-+ *Status:* NEW — not in existing references.bib
++ *Status:* NEW — not yet in bib/
 + *Key Findings:*
         - Altered EV cargo proteins: hemoglobin subunit alpha, IGFBP acid labile subunit
         - hsa-let-7b-5p downregulated in post-COVID ME/CFS EVs
@@ -13837,7 +13837,7 @@ This section covers mechanistic and clinical literature on the intersection of m
 + *Full Citation:* Bragée B et al. (2026). Proteomic signatures in CSF and their clinical associations in ME/CFS. _Sci Rep_.
 + *DOI:* `10.1038/s41598-026-46965-1`
 + *PMID:* 41932997
-+ *Status:* NEW — not in existing references.bib
++ *Status:* NEW — not yet in bib/
 + *Key Findings:*
         - 902 CSF proteins quantified in 31 ME/CFS patients
         - Neutrophil degranulation, platelet activation enriched in POTS+ patients
@@ -13851,7 +13851,7 @@ This section covers mechanistic and clinical literature on the intersection of m
 + *Full Citation:* Yu Q et al. (2026). Evidence of White Matter Neuroinflammation in ME/CFS: A Diffusion-Based Neuroinflammation Imaging Study. _Hum Brain Mapp_, 47(4):e70505.
 + *DOI:* `10.1002/hbm.70505`
 + *PMID:* 41834684
-+ *Status:* NEW — not in existing references.bib
++ *Status:* NEW — not yet in bib/
 + *Key Findings:*
         - 67 ME/CFS vs 67 matched HC: widespread white matter abnormalities on NII metrics
         - Reduced NII-HR (cerebral edema), reduced NII-RF (cellular infiltration), increased NII-FF (axonal reorganisation)
@@ -13865,7 +13865,7 @@ This section covers mechanistic and clinical literature on the intersection of m
 + *Full Citation:* Shahbaz S et al. (2026). Single-cell analysis reveals immune remodeling in Long COVID with ME/CFS. _Front Immunol_, 17:1745933.
 + *DOI:* `10.3389/fimmu.2026.1745933`
 + *PMID:* 41822518
-+ *Status:* NEW — not in existing references.bib
++ *Status:* NEW — not yet in bib/
 + *Key Findings:*
         - LC-ME/CFS: reduced naïve T cells, Tregs, MAIT, gamma-delta T cells; expanded effector T cells
         - NK cells reduced with altered activation; monocytes: reduced phagocytosis, increased pro-inflammatory genes
@@ -13879,7 +13879,7 @@ This section covers mechanistic and clinical literature on the intersection of m
 + *Full Citation:* Maya J et al. (2026). Genetic Insights into Circulating Complement Proteins in ME/CFS: A Potential Inflammatory Subgroup. _Int J Mol Sci_, 27(3).
 + *DOI:* `10.3390/ijms27031574`
 + *PMID:* 41683992
-+ *Status:* NEW — not in existing references.bib
++ *Status:* NEW — not yet in bib/
 + *Key Findings:*
         - pQTL analysis: 50 ME/CFS vs 121 non-fatigued
         - Alternative complement pathway dysregulation in ME/CFS subset (high C3/low Bb)
@@ -13892,7 +13892,7 @@ This section covers mechanistic and clinical literature on the intersection of m
 + *Full Citation:* Germain A et al. (2025). Temporal Dynamics of the Plasma Proteomic Landscape Reveals Maladaptation in ME/CFS Following Exertion. _Mol Cell Proteomics_, 24(12):101467.
 + *DOI:* `10.1016/j.mcpro.2025.101467`
 + *PMID:* 41237904
-+ *Status:* NEW — not in existing references.bib
++ *Status:* NEW — not yet in bib/
 + *Key Findings:*
         - 132 individuals (79 ME/CFS, 53 sedentary controls); SomaScan 7K; pre/post maximal exercise
         - ME/CFS: persistent dysregulation during recovery (PEM onset) — immune, metabolic, neuromuscular
@@ -15605,7 +15605,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
 
 // =============================================================================
 
-// Note: Additional papers (vanCampen2021FemaleCPET, vanCampen2021MaleCPET, Snell2013CPET, Twomey2020PEMCancer, FanoIllic2026SkeletalMuscle, Wu2026ThalamusFatigue, Giloteaux2016Twins) are available in full BibTeX format but not annotated in this appendix due to length constraints. Full citations available in references.bib.
+// Note: Additional papers (vanCampen2021FemaleCPET, vanCampen2021MaleCPET, Snell2013CPET, Twomey2020PEMCancer, FanoIllic2026SkeletalMuscle, Wu2026ThalamusFatigue, Giloteaux2016Twins) are available in full BibTeX format but not annotated in this appendix due to length constraints. Full citations available in bib/*.bib.
 
 // =============================================================================
 
@@ -22007,4 +22007,79 @@ This section covers literature at the intersection of ME/CFS genetics (Precision
     *Conclusion:*: Any weight management in ME/CFS must include protein ≥1.5 g/kg IBW.
     *Limitations:*: General obesity; not specific to immobility.
     *Certainty:*: 0.65
+
+== Narcolepsy Type 2 / Orexin System — ME/CFS Cross-Disease Literature
+<sec:bib-narcolepsy-orexin>
+
+=== Constantinescu 2011 — CSF Orexin-A Not Reduced in MS Fatigue (Null)
+
+    *Full Citation:*: Constantinescu CS, Niepel G, Patterson M, et al. Orexin A (hypocretin-1) levels are not reduced while cocaine/amphetamine regulated transcript levels are increased in the cerebrospinal fluid of patients with multiple sclerosis: no correlation with fatigue and sleepiness. _J Neurol Sci_. 2011;307(1-2):127–131. @Constantinescu2011orexinMSnull
+    *DOI:*: #link("https://doi.org/10.1016/j.jns.2011.04.024")[10.1016/j.jns.2011.04.024]
+    *Study Design:*: Case-control, CSF measurement
+    *Sample Size:*: n=94 (34 MS + 60 controls)
+    *Key Findings:*:
+        - CSF orexin-A NOT reduced in MS patients compared to non-inflammatory controls
+        - No correlation between CSF orexin-A and fatigue scores (FSS) or sleepiness (ESS)
+        - CART (cocaine/amphetamine-regulated transcript) was elevated in MS
+        - Orexin-A slightly decreased in other inflammatory neurological diseases subgroup
+    *Conclusion:*: Null finding — orexin deficiency does not explain fatigue in MS despite significant neuroinflammation. Important counterexample: not all neuroinflammatory fatigue involves orexin suppression.
+    *Limitations:*: MS-specific; does not rule out orexin involvement in ME/CFS; different cytokine profiles may produce different orexin effects.
+    *Certainty:*: 0.65
+
+=== Dauvilliers 2011 — High Pain Frequency in Narcolepsy with Cataplexy
+
+    *Full Citation:*: Dauvilliers Y, Bayard S, Shneerson JM, et al. High pain frequency in narcolepsy with cataplexy. _Sleep Med_. 2011;12(6):572–577. @Dauvilliers2011painNarcolepsy
+    *DOI:*: #link("https://doi.org/10.1016/j.sleep.2011.01.010")[10.1016/j.sleep.2011.01.010]
+    *Study Design:*: Multicenter case-control
+    *Sample Size:*: n=134 (67 NT1 + 67 matched controls)
+    *Key Findings:*:
+        - 32.8% of NT1 patients experience chronic pain vs 17.9% controls
+        - Pain significantly underestimated by physicians
+        - Depression and sleep disturbance were determinants of pain
+        - Orexin loss may impair endogenous pain modulation via descending nociceptive pathways
+    *Conclusion:*: Pain is a neglected symptom in narcolepsy, possibly due to loss of orexin-mediated nociceptive control. Parallel to chronic pain in ME/CFS.
+    *Limitations:*: NT1 only (not NT2); questionnaire-based; cross-sectional.
+    *Certainty:*: 0.60
+
+=== Lopez 2023 — T-cell Autoimmunity in Narcolepsy Type 1
+
+    *Full Citation:*: Lopez R, Barateau L, Evangelista E, Dauvilliers Y. T-cell autoimmunity in narcolepsy type 1: current evidence and future directions. _Nat Sci Sleep_. 2023;15:157–169. @Lopez2023tcellNarcolepsy
+    *DOI:*: #link("https://doi.org/10.2147/NSS.S401979")[10.2147/NSS.S401979]
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - CD8+ and CD4+ T-cells targeting hypocretin/orexin identified in NT1
+        - HLA-DQB1\*06:02 strongest genetic association in sleep medicine (>98% of NT1)
+        - Post-H1N1 (Pandemrix) narcolepsy surge confirmed autoimmune trigger via molecular mimicry
+        - COVID-19 emerging as potential new trigger (case reports)
+        - Graded orexin neuron loss could explain NT1 vs NT2 spectrum
+    *Conclusion:*: Narcolepsy is an autoimmune disease targeting orexin neurons with post-viral trigger. The autoimmune mechanism is well-established for NT1; NT2 autoimmune pathogenesis remains less characterized.
+    *Limitations:*: Review; NT2 autoimmune mechanism less well-characterized than NT1; no ME/CFS comparison.
+    *Certainty:*: 0.60
+
+=== Horiuchi 2015 — Carnitine Deficiency, Orexin Dysregulation, and Fatigue
+
+    *Full Citation:*: Horiuchi M, Nakakuma M, Arimura E, et al. Experimental approach to analysis of the relationship between food environments and lifestyle-related diseases, including cardiac hypertrophy, fatty liver, and fatigue symptoms. _Nihon Eiseigaku Zasshi_. 2015;70(2):110–114. @Horiuchi2015carnitineOrexin
+    *DOI:*: #link("https://doi.org/10.1265/jjh.70.110")[10.1265/jjh.70.110]
+    *Study Design:*: Animal study + epidemiological review
+    *Key Findings:*:
+        - Carnitine-deficient mice showed disturbed orexin neuron activity under fasting
+        - Narcolepsy associated with CPT1B (carnitine palmitoyltransferase 1B) polymorphism
+        - Links mitochondrial fatty acid oxidation to orexin neuron function
+    *Conclusion:*: Provides metabolic bridge between fatty acid oxidation, orexin function, and fatigue — relevant to ME/CFS metabolic dysfunction.
+    *Limitations:*: Low-impact Japanese journal; small animal study; speculative human connection.
+    *Certainty:*: 0.30
+
+=== Nardone 2011 — Cortical Hypoexcitability in Post-Traumatic EDS
+
+    *Full Citation:*: Nardone R, Bergmann J, Kunz A, et al. Cortical excitability changes in patients with sleep-wake disturbances after traumatic brain injury. _J Neurotrauma_. 2011;28(7):1165–1171. @Nardone2011corticalEDS
+    *DOI:*: #link("https://doi.org/10.1089/neu.2010.1748")[10.1089/neu.2010.1748]
+    *Study Design:*: Case-control, TMS
+    *Sample Size:*: n=25 (14 post-TBI EDS + 11 controls)
+    *Key Findings:*:
+        - Post-TBI EDS patients show increased resting motor threshold and SICI
+        - Cortical hypoexcitability pattern mirrors narcolepsy
+        - Suggests acquired orexin deficiency as common pathway for post-injury hypersomnia
+    *Conclusion:*: Acquired orexin dysfunction can produce narcolepsy-like cortical patterns, supporting the concept of acquired (non-autoimmune) orexin deficiency from different causes.
+    *Limitations:*: Very small groups; TMS is indirect; no CSF orexin measurement.
+    *Certainty:*: 0.40
 

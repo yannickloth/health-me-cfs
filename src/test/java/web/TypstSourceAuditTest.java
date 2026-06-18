@@ -24,7 +24,7 @@ record DanglingInclude(String file, String include) {
 
 record MissingBib(String file, int line, String key) {
     @Override public String toString() {
-        return "%s:%d  citation @%s not in references.bib".formatted(file, line, key);
+        return "%s:%d  citation @%s not in bib/*.bib".formatted(file, line, key);
     }
 }
 
@@ -55,11 +55,11 @@ void main() throws IOException {
         dangling.forEach(d -> findings.add("  " + d));
     }
 
-    var bibKeys = loadBibKeys(srcRoot.resolve("references.bib"));
+    var bibKeys = loadBibKeysFromDir(srcRoot.resolve("bib"));
     var missingCits = checkCitationBibConsistency(allTypFiles, srcRoot, bibKeys);
     if (!missingCits.isEmpty()) {
-        System.out.println("--- Check 4: Citation-Bib Consistency (warn-only, bib refactor in progress) ---");
-        System.out.println("  %d citation(s) not in references.bib (informational)".formatted(missingCits.size()));
+        System.out.println("--- Check 4: Citation-Bib Consistency (warn-only) ---");
+        System.out.println("  %d citation(s) not in bib/*.bib (informational)".formatted(missingCits.size()));
     }
 
     checkPlaceholders(allTypFiles);
@@ -209,6 +209,16 @@ Set<String> loadBibKeys(Path bibPath) throws IOException {
     var p = Pattern.compile("@\\w+\\{([^,]+),");
     var m = p.matcher(content);
     while (m.find()) keys.add(m.group(1));
+    return keys;
+}
+
+Set<String> loadBibKeysFromDir(Path bibDir) throws IOException {
+    var keys = new HashSet<String>();
+    try (var stream = walk(bibDir, 1)) {
+        for (var f : stream.filter(p -> p.toString().endsWith(".bib")).toList()) {
+            keys.addAll(loadBibKeys(f));
+        }
+    }
     return keys;
 }
 
