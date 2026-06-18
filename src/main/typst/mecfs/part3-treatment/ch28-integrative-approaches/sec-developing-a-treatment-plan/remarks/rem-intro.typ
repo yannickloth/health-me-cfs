@@ -1,4 +1,5 @@
 #import "../../../../shared/environments.typ": *
+#import "../../../../shared/tables.typ": booktabs-stroke, table-inset
 
 Treatment planning in ME/CFS may differ fundamentally from other chronic conditions. The standard medical approach—try a treatment, observe the response, adjust—assumes that failed trials carry manageable costs. In ME/CFS, this assumption is potentially dangerous. Each treatment trial imposes metabolic demands on an already energy-depleted system, and failed trials can trigger post-exertional malaise severe enough to cause permanent functional decline (see Section @subsubsec:crash-dose-response on crash severity dose-response). For severe and very severe patients, there may be only a narrow margin for error before irreversible deterioration occurs.
 
@@ -59,65 +60,65 @@ ME/CFS patients—especially severe and very severe—must *never* be started on
 
 
 
-// caption: [Micro-dosing reference: ME/CFS starting doses versus standard doses]
-// Placeholder for commented-out table:
-#figure([], kind: table, supplement: [Table], caption: [tab:microdosing-reference — table conversion pending]) <tab:microdosing-reference>
-// <tab:microdosing-reference>
-
-#table(
-  columns: (auto, auto, auto, auto, auto),
+#figure(
+  table(
+    columns: (auto, auto, auto, auto, auto),
+    inset: table-inset,
+    stroke: booktabs-stroke(21),
 
 [*Treatment*], [*Standard dose*], [*ME/CFS start*], [*Energy cat.*], [*Crash risk*],
 
 table.cell(colspan: 5)[_Immune-modulating_],
 
-[LDN], [4.5 mg], [0.5 mg], [B], [Medium],
+[LDN], [4.5 mg], [0.5 mg], [B], [Medium],
 
 [IVIG], [Weight-based], [50% standard rate], [C], [High],
 
-[Cimetidine], [400 mg BID], [200 mg daily], [B–C], [Low],
+[Cimetidine], [400 mg BID], [200 mg daily], [B–C], [Low],
 
 table.cell(colspan: 5)[_Antiviral_],
 
-[Valacyclovir], [1000 mg BID], [500 mg daily], [B–C], [Medium],
+[Valacyclovir], [1000 mg BID], [500 mg daily], [B–C], [Medium],
 
-[Valganciclovir], [900 mg BID], [450 mg daily], [C], [High],
+[Valganciclovir], [900 mg BID], [450 mg daily], [C], [High],
 
 table.cell(colspan: 5)[_Autonomic_],
 
-[Pyridostigmine], [60 mg TID], [15–20 mg daily], [B], [Low],
+[Pyridostigmine], [60 mg TID], [15–20 mg daily], [B], [Low],
 
-[Fludrocortisone], [0.1 mg daily], [0.05 mg daily], [B–C], [Medium],
+[Fludrocortisone], [0.1 mg daily], [0.05 mg daily], [B–C], [Medium],
 
-[Midodrine], [10 mg TID], [2.5 mg daily], [B–C], [Medium],
+[Midodrine], [10 mg TID], [2.5 mg daily], [B–C], [Medium],
 
 table.cell(colspan: 5)[_Neuroactive (incl. herbal)_],
 
-[Aripiprazole], [10–30 mg], [0.5–1 mg], [C], [High],
+[Aripiprazole], [10–30 mg], [0.5–1 mg], [C], [High],
 
-[Trazodone], [50–100 mg], [12.5–25 mg], [B], [Low],
+[Trazodone], [50–100 mg], [12.5–25 mg], [B], [Low],
 
-[Amitriptyline], [25–50 mg], [5 mg], [B], [Low],
+[Amitriptyline], [25–50 mg], [5 mg], [B], [Low],
 
-[Ginkgo biloba], [120–240 mg], [40–60 mg], [B], [Very low],
+[Ginkgo biloba], [120–240 mg], [40–60 mg], [B], [Very low],
 
 table.cell(colspan: 5)[_Mitochondrial and metabolic support_],
 
-[CoQ10 (ubiquinol)], [200–300 mg], [50–100 mg], [A], [Very low],
+[CoQ10 (ubiquinol)], [200–300 mg], [50–100 mg], [A], [Very low],
 
-[D-Ribose], [15 g daily], [2.5 g daily], [A#super[†]], [Very low],
+[D-Ribose], [15 g daily], [2.5 g daily], [A#super[†]], [Very low],
 
-[NR/NMN], [300–500 mg], [100–150 mg], [A#super[†]], [Very low],
+[NR/NMN], [300–500 mg], [100–150 mg], [A#super[†]], [Very low],
 
-[L-Carnitine], [1500–3000 mg], [500 mg], [A], [Very low],
+[L-Carnitine], [1500–3000 mg], [500 mg], [A], [Very low],
 
-[NAC], [1200 mg daily], [300–600 mg daily], [A–B], [Very low],
+[NAC], [1200 mg daily], [300–600 mg daily], [A–B], [Very low],
 
-[Magnesium], [400–600 mg], [100–200 mg], [A], [Very low],
+[Magnesium], [400–600 mg], [100–200 mg], [A], [Very low],
 
-)
-
-
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [Micro-dosing reference: ME/CFS starting doses versus standard doses],
+) <tab:microdosing-reference>
 
 Energy categories: A = net energy provider, B = energy-neutral, C = energy-demanding. #super[†]Category A assignment based on proposed energy-supportive mechanisms; clinical evidence in ME/CFS is preliminary.  
 

@@ -1,4 +1,5 @@
 #import "../../shared/environments.typ": *
+#import "../../shared/tables.typ": landscape, booktabs-stroke, table-inset
 
 == Novel Hypotheses from 2026 Autoimmune Research
 <sec:2026-autoimmune-hypotheses>
@@ -273,46 +274,44 @@ This would mean: autoantibodies ARE involved in ME/CFS, but detecting the pathog
 
 Table @tab:2026-autoimmune-hypotheses summarizes the novel hypotheses emerging from 2026 autoimmune research.
 
-// TODO: landscape
+#landscape[
+  #figure(
+    table(
+      columns: (2fr, 1fr, 1fr, 1fr, 1fr, 2.5fr, 2.5fr),
+      inset: table-inset,
+      stroke: booktabs-stroke(14),
+      align: (left, center, center, center, center, left, left),
+      table.header([*Hypothesis*], [*Evidence Level*], [*Therapeutic Potential*], [*Benefit: Mild*], [*Benefit: Severe*], [*Explains Key Features*], [*Nearest-Term Action*]),
 
-// Placeholder for commented-out table:
-#figure([], kind: table, supplement: [Table], caption: [Novel hypotheses from 2026 autoimmune research — table conversion pending]) <tab:2026-autoimmune-hypotheses>
+      table.cell(colspan: 7, fill: luma(230))[_*EBV-Related Hypotheses*_],
 
-/* TODO: fix this table
-#table(
-  columns: (auto, auto, auto, auto, auto, auto, auto),
-  // TODO: fix columnsp{2cm}p{2cm}p{1.8cm}p{1.8cm}p{4.5cm}p{5cm}}
-// caption: [Novel hypotheses from 2026 autoimmune research]
+      [EBV-B cell CNS infiltration], [Low-Moderate], [High], [Moderate], [Moderate-High], [Post-EBV onset; neuroinflammation; brain fog; cognitive symptoms distinct from fatigue], [CSF B cell analysis; EBV PCR in CSF; LMP1 expression profiling],
 
-[*Hypothesis*], [*Evidence Level*], [*Therapeutic Potential*], [*Benefit: Mild*], [*Benefit: Severe*], [*Explains Key Features*], [*Nearest-Term Action*],
+      [Molecular mimicry (EBV-GPCR homology)], [Low], [High], [Moderate-High], [Moderate-High], [EBV trigger specificity; persistent autoantibodies; why antivirals might help], [Computational homology analysis; cross-reactivity testing],
 
-table.cell(colspan: 7)[_*EBV-Related Hypotheses*_],
+      table.cell(colspan: 7, fill: luma(230))[_*Autoantibody Mechanism Hypotheses*_],
 
-[EBV-B cell CNS infiltration], [Low-Moderate], [High], [Moderate], [Moderate-High], [Post-EBV onset; neuroinflammation; brain fog; cognitive symptoms distinct from fatigue], [CSF B cell analysis; EBV PCR in CSF; LMP1 expression profiling],
+      [Autoantibody-monocyte amplification loop], [Moderate], [High], [High], [Moderate], [Systemic inflammation; cytokine abnormalities; why symptoms persist beyond receptor effects], [Monocyte functional profiling post-immunoadsorption],
 
-[Molecular mimicry (EBV-GPCR homology)], [Low], [High], [Moderate-High], [Moderate-High], [EBV trigger specificity; persistent autoantibodies; why antivirals might help], [Computational homology analysis; cross-reactivity testing],
+      [Receptor internalization (not blockade)], [Low-Moderate], [Moderate-High], [Moderate], [Moderate], [Lag between antibody removal and improvement; why symptoms persist; receptor density changes], [Receptor density assays on patient lymphocytes],
 
-table.cell(colspan: 7)[_*Autoantibody Mechanism Hypotheses*_],
+      [Antigenic hotspot vulnerability], [Very Low], [Moderate], [Moderate], [Moderate], [Genetic susceptibility; family clustering; why some people but not others], [GPCR genetic screening; structural immunogenicity prediction],
 
-[Autoantibody-monocyte amplification loop], [Moderate], [High], [High], [Moderate], [Systemic inflammation; cytokine abnormalities; why symptoms persist beyond receptor effects], [Monocyte functional profiling post-immunoadsorption],
+      [Dual-compartment autoantibodies], [Low], [High], [Moderate-High], [Moderate-High], [Dissociation between peripheral and cognitive symptoms; why some treatments help some symptoms], [Regional CSF sampling; post-mortem tissue analysis],
 
-[Receptor internalization (not blockade)], [Low-Moderate], [Moderate-High], [Moderate], [Moderate], [Lag between antibody removal and improvement; why symptoms persist; receptor density changes], [Receptor density assays on patient lymphocytes],
+      [Functional vs.\ binding assay discrepancy], [Moderate], [Very High], [High], [High], [Failed replications; heterogeneous treatment response; why some high-titer patients don't respond], [Develop functional autoantibody assays; stratify trials],
 
-[Antigenic hotspot vulnerability], [Very Low], [Moderate], [Moderate], [Moderate], [Genetic susceptibility; family clustering; why some people but not others], [GPCR genetic screening; structural immunogenicity prediction],
+      table.cell(colspan: 7, fill: luma(230))[_*Combined/Integrated Hypotheses*_],
 
-[Dual-compartment autoantibodies], [Low], [High], [Moderate-High], [Moderate-High], [Dissociation between peripheral and cognitive symptoms; why some treatments help some symptoms], [Regional CSF sampling; post-mortem tissue analysis],
+      [EBV $arrow.r$ LMP1 $arrow.r$ BBB crossing $arrow.r$ CNS autoimmunity], [Low-Moderate], [Very High], [Moderate-High], [High], [Full pathway from trigger to CNS symptoms; explains post-viral onset, neuroinflammation, autoantibodies], [Integrated CSF + peripheral analysis; antiviral + immunotherapy trials],
 
-[Functional vs.\ binding assay discrepancy], [Moderate], [Very High], [High], [High], [Failed replications; heterogeneous treatment response; why some high-titer patients don't respond], [Develop functional autoantibody assays; stratify trials],
-
-table.cell(colspan: 7)[_*Combined/Integrated Hypotheses*_],
-
-[EBV $arrow.r$ LMP1 $arrow.r$ BBB crossing $arrow.r$ CNS autoimmunity], [Low-Moderate], [Very High], [Moderate-High], [High], [Full pathway from trigger to CNS symptoms; explains post-viral onset, neuroinflammation, autoantibodies], [Integrated CSF + peripheral analysis; antiviral + immunotherapy trials],
-
-[Plasma cell + monocyte dual targeting], [Moderate], [Very High], [High], [Moderate-High], [Why single-target therapies partially work; need for combination approaches], [Daratumumab + monocyte modulator (e.g., JAK inhibitor) trial],
-
-)
-*/
-// end landscape
+      [Plasma cell + monocyte dual targeting], [Moderate], [Very High], [High], [Moderate-High], [Why single-target therapies partially work; need for combination approaches], [Daratumumab + monocyte modulator (e.g., JAK inhibitor) trial],
+    ),
+    kind: table,
+    supplement: [Table],
+    caption: [Novel hypotheses from 2026 autoimmune research],
+  ) <tab:2026-autoimmune-hypotheses>
+]
 
 #limitation(title: [2026 Autoimmune Hypotheses: Extrapolation from Adjacent Diseases])[
 The hypotheses in this section extrapolate from findings in other autoimmune conditions (MS, autoimmune encephalitis, POTS) to ME/CFS. Key epistemic boundaries:

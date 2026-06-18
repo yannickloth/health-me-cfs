@@ -1,4 +1,5 @@
 #import "../shared/environments.typ": *
+#import "../shared/tables.typ": landscape, booktabs-stroke, table-inset
 
 = Ongoing and Planned ME/CFS Research Studies
 <app:research-registry>
@@ -1910,65 +1911,30 @@ Several studies in this registry are expected to report results in the near
 term.  Table @tab:registry-upcoming highlights those with the highest
 potential impact on ME/CFS understanding and treatment.
 
-// Placeholder for commented-out table:
-#figure([], kind: table, supplement: [Table], caption: [Studies with results expected in 2026–2027 — table conversion pending]) <tab:registry-upcoming>
-
-/* TODO: Fix this table - multi-line cells need [] wrapping
-caption: [Studies with results expected in 2026–2027, ranked by anticipated
-impact.],
-<tab:registry-upcoming>
-#table(
-  columns: (auto, auto, auto),
-  // TODO: fix columnsp{3.0cm}p{2.0cm}p{7.3cm}@}
-
-[*Study*], [*Expected*], [*Why it matters*],
-
-[DecodeME], [Mid–late 2026],
-    First adequately powered GWAS ($n>20,000$); could identify
-    causal genetic loci and enable Mendelian randomisation  
-
-[BC007 Phase II], [2026],
-    Largest RCT ($n=114$) testing autoantibody-targeted therapy;
-    validates or refutes the functional GPCR autoantibody hypothesis  
-
-[RECOVER-TLC], [End of 2026],
-    First-round results (baricitinib, structured pacing); largest
-    federally funded treatment trials relevant to ME/CFS  
-
-[BioQuest], [2026–2027],
-    Largest ME/CFS biomarker study ($n=1,000$); could yield first
-    validated blood-based diagnostic panel with disease controls  
-
-[BioMapAI], [2026–2027],
-    Longitudinal multi-omics follow-up; will distinguish state vs
-    trait markers over 4-year disease trajectory  
-
-[ADDRESS-LC], [H1 2026],
-    First CNS-penetrant NF-$kappa$B modulator for Long Covid brain fog;
-    cross-disease (Alzheimer's, Parkinson's) data available  
-
-[Cornell NAC-GSH], [$tilde$2026],
-    First dose-response study of NAC on brain glutathione (MRS);
-    could validate oxidative stress as druggable CNS target  
-
-[NSU Probiotics], [$tilde$2026],
-    First ME/CFS-specific probiotic RCT with IBS stratification;
-    tests gut–brain axis hypothesis directly  
-
-[OMF Kynurenine], [$tilde$2026],
-    First RCT testing kynurenine supplementation; probes
-    tryptophan–serotonin–neuroinflammation axis  
-
-[Berlin Conference], [May 2026],
-    Major venue for unpublished data; BC007, HBOT, and LDN results
-    may be presented  
-
-[Nacul LDN RCT], [Early 2026],
-    First double-blind ME/CFS-specific LDN trial with inflammatory
-    markers and QoL endpoints  
-
-)
-*/
+#landscape[
+#figure(
+  table(
+    columns: (1.5fr, 1fr, 4fr),
+    inset: table-inset,
+    stroke: booktabs-stroke(12),
+    [*Study*], [*Expected*], [*Why it matters*],
+    [DecodeME], [Mid--late 2026], [First adequately powered GWAS ($n>20,000$); could identify causal genetic loci and enable Mendelian randomisation],
+    [BC007 Phase II], [2026], [Largest RCT ($n=114$) testing autoantibody-targeted therapy; validates or refutes the functional GPCR autoantibody hypothesis],
+    [RECOVER-TLC], [End of 2026], [First-round results (baricitinib, structured pacing); largest federally funded treatment trials relevant to ME/CFS],
+    [BioQuest], [2026--2027], [Largest ME/CFS biomarker study ($n=1,000$); could yield first validated blood-based diagnostic panel with disease controls],
+    [BioMapAI], [2026--2027], [Longitudinal multi-omics follow-up; will distinguish state vs trait markers over 4-year disease trajectory],
+    [ADDRESS-LC], [H1 2026], [First CNS-penetrant NF-$kappa$B modulator for Long Covid brain fog; cross-disease (Alzheimer's, Parkinson's) data available],
+    [Cornell NAC-GSH], [~2026], [First dose-response study of NAC on brain glutathione (MRS); could validate oxidative stress as druggable CNS target],
+    [NSU Probiotics], [~2026], [First ME/CFS-specific probiotic RCT with IBS stratification; tests gut--brain axis hypothesis directly],
+    [OMF Kynurenine], [~2026], [First RCT testing kynurenine supplementation; probes tryptophan--serotonin--neuroinflammation axis],
+    [Berlin Conference], [May 2026], [Major venue for unpublished data; BC007, HBOT, and LDN results may be presented],
+    [Nacul LDN RCT], [Early 2026], [First double-blind ME/CFS-specific LDN trial with inflammatory markers and QoL endpoints],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [Studies with results expected in 2026--2027, ranked by anticipated impact],
+) <tab:registry-upcoming>
+]
 
 
 *Recently published results to monitor for follow-up studies.*
@@ -2012,130 +1978,73 @@ replication or extension studies in 2026–2027:
 Table @tab:registry-summary provides a compact overview of all tracked
 studies.
 
-// Placeholder for commented-out table:
-#figure([], kind: table, supplement: [Table], caption: [Summary of ongoing and planned ME/CFS research studies — table conversion pending]) <tab:registry-summary>
+#landscape[
+#figure(
+  table(
+    columns: (1.5fr, 1.5fr, 1fr, 1fr, 2.5fr),
+    inset: table-inset,
+    stroke: booktabs-stroke(45),
+    [*Study*], [*Institution*], [*Status*], [*Cohort*], [*Focus*],
+    [Rosetta Stone], [Imperial College London], [Active], [$n=500+$], [Multi-omics: ME/CFS vs Long Covid],
+    [BioQuest], [Uppsala / OMF], [Analysis], [$n=1,000$], [Multi-omics biomarker panel],
+    [DecodeME], [Univ.\ Edinburgh], [Analysis], [$n>20,000$], [GWAS for ME/CFS],
+    [EpiSwitch CFS], [Oxford BioDynamics], [Validation], [$n=108^*$], [Epigenetic diagnostic test],
+    [BioMapAI], [JAX / Duke], [Ongoing], [$n=249$], [AI-integrated multi-omics],
+    [MEA PhD Project], [Rosalind Franklin Inst.], [Active], [TBD], [Metabolites, infection markers],
+    [Charité IA], [Charité Berlin], [Active], [TBD], [Immunoadsorption (autoantibodies)],
+    [BC007 Phase II], [Berlin Cures], [Analysis], [$n=143$], [Autoantibody neutralisation],
+    [NCNED TRPM3], [Griffith Univ.], [Active], [TBD], [Ion channels + LDN trials],
+    [Charité fMRI], [Charité Berlin], [Funded], [TBD], [Neuroimaging biomarkers],
+    [RECOVER-TLC], [NIH multi-site], [Active], [$n=600+$], [Baricitinib, LDN, GLP-1, pacing],
+    [LIFT Trial], [Brigham Women's], [Recruiting], [TBD], [LDN + pyridostigmine],
+    [Rapamycin], [Multi-site (US)], [Active], [TBD], [mTOR inhibition],
+    [Lumbrokinase], [Mount Sinai], [Recruiting], [TBD], [Fibrinolytic (microclots)],
+    [RESTORE-ME], [Terra Biological], [Published], [$n=82$], [Oxaloacetate (TCA cycle)],
+    [Stellate Ganglion], [Multi-site (US)], [Pilot], [$n=10$], [Autonomic reset (SGB)],
+    [tVNS], [Multi-site], [Recruiting], [TBD], [Vagus nerve stimulation],
+    [Masitinib], [AB Science], [Phase 2], [TBD], [Mast cell (MCAS)],
+    [STOP-PASC/PAX LC], [NIH multi-site], [Published], [TBD], [Paxlovid (negative result)],
+    [Hydrogen Water], [Stony Brook], [Recruiting], [TBD], [Antioxidant dosing],
+    [Wearable Study], [Scripps Research], [Recruiting], [TBD], [Pacing via wearables],
+    table.cell(colspan: 5, fill: luma(240))[_Added March 2026_],
+    [MEA--UCL Biomarker], [UCL / MEA], [Active], [Biobank], [Blood biomarkers (neuro)],
+    [ResetME], [Haukeland / Oslo], [Recruiting], [$n=66$], [Daratumumab (anti-CD38)],
+    [UAB LDN], [U.\ Alabama (Younger)], [Recruiting], [TBD], [LDN dose-finding],
+    [Cornell NAC-GSH], [Weill Cornell], [Recruiting], [$n=60$], [Brain glutathione (MRS)],
+    [NSU Probiotics], [Nova Southeastern], [Recruiting], [$n=100$], [Microbiome / gut--brain axis],
+    [ADDRESS-LC], [BioVie / DoD], [Recruiting], [$n=200$], [Neuroinflammation (brain fog)],
+    [LC-REVITALIZE], [Western Univ.\ / SILC], [Recruiting], [$n=348$], [JAK1 + anti-fibrotic],
+    [CHIIME], [UCSF / PolyBio], [Recruiting], [TBD], [Viral tissue persistence],
+    table.cell(colspan: 5, fill: luma(240))[_Added March 2026 (second expansion)_],
+    [PrecisionLife], [PrecisionLife / DecodeME], [Published], [$n>20,000$], [Combinatorial genomics (250+ genes)],
+    [Cornell cfRNA], [Cornell Univ.], [Published], [$n=168$], [Cell-free RNA liquid biopsy],
+    [CRM Multi-modal], [Multi-centre (US)], [Published], [varied], [Energy + immune + vascular],
+    [HBOT Pilot], [Multi-site], [Published], [$n=30$], [Hyperbaric oxygen therapy],
+    [Palomo Herpesvirus], [Multi-centre], [Published], [varied], [EBV/HHV-6/VZV co-reactivation],
+    [Post-IM 7yr], [Northwestern], [Published], [$n=4,501$], [Post-mononucleosis ME/CFS cohort],
+    [RECOVER Incidence], [NIH multi-site], [Published], [large], [Post-COVID ME/CFS incidence],
+    [CD8+ T cell Atlas], [NIH intramural], [Published], [$n=58$], [scRNA-seq T cell exhaustion],
+    [Elahi scRNA-seq], [U.\ Alberta], [Published], [varied], [Immune remodelling (long COVID)],
+    [IgG Complexes], [Multi-centre], [Published], [varied], [Transfer experiment (energetics)],
+    [MCAM Autonomic], [CDC multi-site], [Published], [varied], [COMPASS-31 + lean test],
+    [SFN (Azcue)], [Multi-centre (Spain)], [Published], [varied], [Small fibre neuropathy],
+    [Microvascular], [Multi-centre (EU)], [Preprint], [varied], [Retinal vessel / endothelial],
+    [POTS Profiling], [Multi-centre], [Published], [varied], [Autonomic subtyping],
+    [2-Day CPET], [Multi-centre (US)], [Published], [largest], [PEM objective measurement],
+    [Muscle Biopsy], [Multi-centre (EU)], [Preprint], [varied], [WASF3 / ER stress in muscle],
+    [JAX Microbiome AI], [JAX / Duke], [Published], [$n=249$], [Gut diagnostic (90% accuracy)],
+    [Gut Composition], [Multi-centre], [Published], [varied], [Microbial dysbiosis],
+    [Steroid Hormones], [Multi-centre], [Published], [varied], [Sex-specific HPA profiling],
+    [OMF Kynurenine], [OMF-funded], [Recruiting], [TBD], [Tryptophan metabolism RCT],
+    [EDS--MCAS], [Multi-centre], [Published], [$n approx 250$], [Triad genetics/pathophysiology],
+    [Nacul LDN], [UBC / BC Women's], [Active], [TBD], [LDN double-blind RCT],
+    [Rituximab Japan], [Japan], [Active], [$n=30$], [Phase 2 rituximab + imaging],
+    [Berlin Conf.\ 2026], [ME/CFS Res.\ Found.], [May 2026], [---], [Conference (mechanisms + trials)],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [Summary of ongoing and planned ME/CFS research studies],
+) <tab:registry-summary>
+]
 
-/* TODO: Fix these tables - multi-line cells need [] wrapping
-
-caption: [Summary of ongoing and planned ME/CFS research studies.],
-<tab:registry-summary>
-#table(
-  columns: (auto, auto, auto),
-  // TODO: fix columnsp{3.0cm}p{2.6cm}p{1.6cm}p{1.3cm}p{4.8cm}@}
-
-[*Study*], [*Institution*], [*Status*], [*Cohort*], [*Focus*],
-
-[Rosetta Stone], [Imperial College London], [Active], [$n=500+$], [Multi-omics: ME/CFS vs Long Covid],
-
-[BioQuest], [Uppsala / OMF], [Analysis], [$n=1,000$], [Multi-omics biomarker panel],
-
-[DecodeME], [Univ.\ Edinburgh], [Analysis], [$n>20,000$], [GWAS for ME/CFS],
-
-[EpiSwitch CFS], [Oxford BioDynamics], [Validation], [$n=108^*$], [Epigenetic diagnostic test],
-
-[BioMapAI], [JAX / Duke], [Ongoing], [$n=249$], [AI-integrated multi-omics],
-
-[MEA PhD Project], [Rosalind Franklin Inst.], [Active], [TBD], [Metabolites], [infection markers],
-
-[Charit\'{e} IA], [Charit\'{e} Berlin], [Active], [TBD], [Immunoadsorption (autoantibodies)],
-
-[BC007 Phase II], [Berlin Cures], [Analysis], [$n=143$], [Autoantibody neutralisation],
-
-[NCNED TRPM3], [Griffith Univ.], [Active], [TBD], [Ion channels + LDN trials],
-
-[Charit\'{e} fMRI], [Charit\'{e} Berlin], [Funded], [TBD], [Neuroimaging biomarkers],
-
-[RECOVER-TLC], [NIH multi-site], [Active], [$n=600+$], [Baricitinib, LDN, GLP-1, pacing],
-
-[LIFT Trial], [Brigham], [Women's], [Recruiting], [TBD], [LDN + pyridostigmine],
-
-[Rapamycin], [Multi-site (US)], [Active], [TBD], [mTOR inhibition],
-
-[Lumbrokinase], [Mount Sinai], [Recruiting], [TBD], [Fibrinolytic (microclots)],
-
-[RESTORE-ME], [Terra Biological], [Published], [$n=82$], [Oxaloacetate (TCA cycle)],
-
-[Stellate Ganglion], [Multi-site (US)], [Pilot], [$n=10$], [Autonomic reset (SGB)],
-
-[tVNS], [Multi-site], [Recruiting], [TBD], [Vagus nerve stimulation],
-
-[Masitinib], [AB Science], [Phase 2], [TBD], [Mast cell (MCAS)],
-
-[STOP-PASC/PAX LC], [NIH multi-site], [Published], [TBD], [Paxlovid (negative result)],
-
-[Hydrogen Water], [Stony Brook], [Recruiting], [TBD], [Antioxidant dosing],
-
-[Wearable Study], [Scripps Research], [Recruiting], [TBD], [Pacing via wearables],
-
-_Added March 2026_  
-
-[MEA–UCL Biomarker], [UCL / MEA], [Active], [Biobank], [Blood biomarkers (neuro)],
-
-[ResetME], [Haukeland / Oslo], [Recruiting], [$n=66$], [Daratumumab (anti-CD38)],
-
-[UAB LDN], [U.\ Alabama (Younger)], [Recruiting], [TBD], [LDN dose-finding],
-
-[Cornell NAC-GSH], [Weill Cornell], [Recruiting], [$n=60$], [Brain glutathione (MRS)],
-
-[NSU Probiotics], [Nova Southeastern], [Recruiting], [$n=100$], [Microbiome / gut–brain axis],
-
-[ADDRESS-LC], [BioVie / DoD], [Recruiting], [$n=200$], [Neuroinflammation (brain fog)],
-
-[LC-REVITALIZE], [Western Univ.\ / SILC], [Recruiting], [$n=348$], [JAK1 + anti-fibrotic],
-
-[CHIIME], [UCSF / PolyBio], [Recruiting], [TBD], [Viral tissue persistence],
-
-_Added March 2026 (second expansion)_  
-
-[PrecisionLife], [PrecisionLife / DecodeME], [Published], [$n>20,000$], [Combinatorial genomics (250+ genes)],
-
-[Cornell cfRNA], [Cornell Univ.], [Published], [$n=168$], [Cell-free RNA liquid biopsy],
-
-[CRM Multi-modal], [Multi-centre (US)], [Published], [varied], [Energy + immune + vascular],
-
-[HBOT Pilot], [Multi-site], [Published], [$n=30$], [Hyperbaric oxygen therapy],
-
-[Palomo Herpesvirus], [Multi-centre], [Published], [varied], [EBV/HHV-6/VZV co-reactivation],
-
-[Post-IM 7yr], [Northwestern], [Published], [$n=4,501$], [Post-mononucleosis ME/CFS cohort],
-
-[RECOVER Incidence], [NIH multi-site], [Published], [large], [Post-COVID ME/CFS incidence],
-
-[CD8+ T cell Atlas], [NIH intramural], [Published], [$n=58$], [scRNA-seq T cell exhaustion],
-
-[Elahi scRNA-seq], [U.\ Alberta], [Published], [varied], [Immune remodelling (long COVID)],
-
-[IgG Complexes], [Multi-centre], [Published], [varied], [Transfer experiment (energetics)],
-
-[MCAM Autonomic], [CDC multi-site], [Published], [varied], [COMPASS-31 + lean test],
-
-[SFN (Azcue)], [Multi-centre (Spain)], [Published], [varied], [Small fibre neuropathy],
-
-[Microvascular], [Multi-centre (EU)], [Preprint], [varied], [Retinal vessel / endothelial],
-
-[POTS Profiling], [Multi-centre], [Published], [varied], [Autonomic subtyping],
-
-[2-Day CPET], [Multi-centre (US)], [Published], [largest], [PEM objective measurement],
-
-[Muscle Biopsy], [Multi-centre (EU)], [Preprint], [varied], [WASF3 / ER stress in muscle],
-
-[JAX Microbiome AI], [JAX / Duke], [Published], [$n=249$], [Gut diagnostic (90% accuracy)],
-
-[Gut Composition], [Multi-centre], [Published], [varied], [Microbial dysbiosis],
-
-[Steroid Hormones], [Multi-centre], [Published], [varied], [Sex-specific HPA profiling],
-
-[OMF Kynurenine], [OMF-funded], [Recruiting], [TBD], [Tryptophan metabolism RCT],
-
-[EDS–MCAS], [Multi-centre], [Published], [$napprox250$], [Triad genetics/pathophysiology],
-
-[Nacul LDN], [UBC / BC Women's], [Active], [TBD], [LDN double-blind RCT],
-
-[Rituximab Japan], [Japan], [Active], [$n=30$], [Phase 2 rituximab + imaging],
-
-[Berlin Conf.\ 2026], [ME/CFS Res.\ Found.], [May 2026], [—], [Conference (mechanisms + trials)],
-
- #super[\*]Proof-of-concept; larger validation cohorts planned.
-)
-
-*/
+#super[\*] Proof-of-concept; larger validation cohorts planned.

@@ -1,4 +1,5 @@
 #import "../../shared/environments.typ": *
+#import "../../shared/tables.typ": landscape, booktabs-stroke, table-inset
 
 = Causal Hierarchy: Root Causes, Amplifiers, and Consequences
 <ch:causal-hierarchy>
@@ -263,49 +264,34 @@ Figure @fig:trigger-mechanism-relationships maps the bidirectional interactions
 
 Amplifier mechanisms are real, well-documented pathophysiological processes that worsen and perpetuate ME/CFS but cannot initiate the disease independently. Each fails at least one of the four trigger-capable criteria. Their importance should not be underestimated: amplifiers are often the difference between mild and severe disease, and some are _load-bearing_—meaning their removal is necessary for recovery even if they were not the original cause. In a multi-lock disease, amplifiers can matter as much as root causes for treatment strategy.
 
-The sections that follow provide the biological reasoning for each classification. // Table @tab:amplifiers summarizes the amplifier mechanisms (pending).
+The sections that follow provide the biological reasoning for each classification. Table @tab:amplifiers summarizes the amplifier mechanisms.
 
-// TODO: landscape
-// Placeholder for commented-out table:
-// #figure([], kind: table, supplement: [Table], caption: [tab:amplifiers — table conversion pending]) <tab:amplifiers>
+#landscape[
+  #figure(
+    table(
+      columns: (2.5fr, 2.5fr, 4.5fr, 3.5fr, 2fr, 2.5fr),
+      inset: table-inset,
+      stroke: booktabs-stroke(7),
+      align: (left, left, left, left, left, left),
+      [*Amplifier*], [*Failed Criterion*], [*Why It Fails*], [*What It Amplifies*], [*Tractability*], [*Formal Model*],
 
-/* TODO: Fix this table
-#table(
-  columns: (auto, auto, auto, auto, auto, auto),
-  // TODO: fix columnsp{2.5cm}p{4.5cm}p{3.5cm}p{2.0cm}p{2.5cm}}
-// caption: [Amplifier Mechanisms in ME/CFS: Classification and Tractability], <tab:amplifiers>
+      [NAD#super[+] depletion spiral], [Criterion 1 (precipitant)], [Requires prior oxidative stress or DNA damage to activate PARPs; does not arise from infection directly], [Energy failure; mitochondrial dysfunction; immune cell exhaustion], [Moderate (NR/NMN supplementation)], [Sec. @sec:energy-immune-coupling],
 
-[*Amplifier*], [*Failed Criterion*], [*Why It Fails*], [*What It Amplifies*], [*Tractability*], [*Formal Model*],
+      [Oxidative stress vicious cycle], [Criterion 1 (precipitant)], [Consequence of upstream mitochondrial dysfunction; ROS overproduction follows energy failure], [Mitochondrial damage; membrane lipid peroxidation; protein carbonylation], [Moderate (antioxidants, Nrf2 activators)], [Sec. @sec:bifurcation-analysis],
 
-[*Amplifier*], [*Failed Criterion*], [*Why It Fails*], [*What It Amplifies*], [*Tractability*], [*Formal Model*],
+      [Mast cell–energy loop], [Criterion 2 (PEM sufficiency)], [MCAS produces neuroinflammation and histamine-mediated symptoms but does not independently produce PEM], [Neuroinflammation; gut permeability; pain; cognitive dysfunction], [High (antihistamines, mast cell stabilizers)], [Sec. @sec:energy-immune-coupling],
 
-[NAD#super[+] depletion spiral], [Criterion 1 (precipitant)], [Requires prior oxidative stress or DNA damage to activate PARPs; does not arise from infection directly], [Energy failure; mitochondrial dysfunction; immune cell exhaustion], [Moderate (NR/NMN supplementation)], [Sec. @sec:energy-immune-coupling],
+      [Viral reactivation $arrow.l.r$ immune exhaustion], [Criterion 1 (precipitant)], [Requires prior immune compromise; HHV-6/EBV reactivation is consequence, not cause, of immune failure], [Immune activation; cytokine burden; T cell exhaustion; tissue damage], [Low--Moderate (antivirals)], [Sec. @sec:energy-immune-coupling],
 
+      [Endothelial activation / microclotting], [Criterion 1 (precipitant)], [Requires upstream inflammatory trigger; endothelial dysfunction follows immune activation], [Tissue hypoxia; cerebral hypoperfusion; exercise intolerance], [Moderate (anticoagulants, endothelial support)], [Sec. @sec:bifurcation-analysis],
 
-
-[Oxidative stress vicious cycle], [Criterion 1 (precipitant)], [Consequence of upstream mitochondrial dysfunction; ROS overproduction follows energy failure], [Mitochondrial damage; membrane lipid peroxidation; protein carbonylation], [Moderate (antioxidants, Nrf2 activators)], [Sec. @sec:bifurcation-analysis],
-
-
-
-[Mast cell–energy loop], [Criterion 2 (PEM sufficiency)], [MCAS produces neuroinflammation and histamine-mediated symptoms but does not independently produce PEM], [Neuroinflammation; gut permeability; pain; cognitive dysfunction], [High (antihistamines, mast cell stabilizers)], [Sec. @sec:energy-immune-coupling],
-
-
-
-[Viral reactivation $arrow.l.r$ immune exhaustion], [Criterion 1 (precipitant)], [Requires prior immune compromise; HHV-6/EBV reactivation is consequence, not cause, of immune failure], [Immune activation; cytokine burden; T cell exhaustion; tissue damage], [Low–Moderate (antivirals)], [Sec. @sec:energy-immune-coupling],
-
-
-
-[Endothelial activation / microclotting], [Criterion 1 (precipitant)], [Requires upstream inflammatory trigger; endothelial dysfunction follows immune activation], [Tissue hypoxia; cerebral hypoperfusion; exercise intolerance], [Moderate (anticoagulants, endothelial support)], [Sec. @sec:bifurcation-analysis],
-
-
-
-[Epigenetic consolidation], [Criterion 1 (precipitant)], [Responds to disease state; DNA methylation changes follow prolonged immune activation and metabolic stress], [Disease persistence; treatment resistance; lock stabilization], [Low (epigenetic modifiers are experimental)], [Sec. @sec:epigenetic-dynamics],
-
-
-
-)
-*/
-// end landscape
+      [Epigenetic consolidation], [Criterion 1 (precipitant)], [Responds to disease state; DNA methylation changes follow prolonged immune activation and metabolic stress], [Disease persistence; treatment resistance; lock stabilization], [Low (epigenetic modifiers are experimental)], [Sec. @sec:epigenetic-dynamics],
+    ),
+    kind: table,
+    supplement: [Table],
+    caption: [Amplifier Mechanisms in ME/CFS: Classification and Tractability],
+  ) <tab:amplifiers>
+]
 
 === NAD#super[+] Depletion Spiral
 <sec:amp-nad>
@@ -419,77 +405,59 @@ The distinction between amplifiers and consequences is sometimes blurry. The key
 
 *Deferred-cost PEM architecture.* The evolutionary deferred-cost model (Section @sec:evolutionary-deferred-cost) proposes that PEM exploits normal physiology: the body's evolved capacity to defer the metabolic cost of acute exertion and collect it later. In health, this mechanism enables emergency performance (fight-or-flight responses that borrow against future metabolic capacity); the deferred cost is repaid during subsequent rest with minimal consequence. In ME/CFS, the “collection” phase is amplified by broken restoration machinery: the metabolic debt incurred during exertion cannot be efficiently repaid because the restoration processes (mitochondrial repair, glycogen replenishment, oxidative damage clearance) are themselves compromised. The deferred-cost architecture is normal physiology—what makes it pathological in ME/CFS is the failure of the restoration systems. Treating the architecture (e.g., by suppressing the deferral mechanism) would be counterproductive; treating the broken restoration machinery requires addressing the upstream causes.
 
-// Table @tab:mechanism-classification consolidates the three-tier classification of all mechanisms discussed in this chapter (pending). The following sections provide the causal role, key evidence, and therapeutic tractability of each mechanism.
+Table @tab:mechanism-classification consolidates the three-tier classification of all mechanisms discussed in this chapter. The following sections provide the causal role, key evidence, and therapeutic tractability of each mechanism.
 
-// TODO: landscape
-// Placeholder for commented-out table:
-// #figure([], kind: table, supplement: [Table], caption: [tab:mechanism-classification — table conversion pending]) <tab:mechanism-classification>
+#landscape[
+  #figure(
+    table(
+      columns: (2.2fr, 1.2fr, 0.8fr, 4.5fr, 3fr, 2.5fr),
+      inset: table-inset,
+      stroke: booktabs-stroke(19),
+      align: (left, left, center, left, left, left),
 
-/* TODO: Fix this table
-#table(
-  columns: (auto, auto, auto, auto, auto, auto),
-  // TODO: fix columnsp{2.2cm}p{1.2cm}p{4.5cm}p{3.0cm}p{2.5cm}}
-// caption: [Complete Mechanism Classification: Root Causes, Amplifiers, and Consequences], <tab:mechanism-classification>
+      [*Mechanism*], [*Causal Tier*], [*Cert.*], [*Key Evidence*], [*Failed Criterion*], [*Tractability*],
 
-[*Mechanism*], [*Causal Tier*], [*Cert.*], [*Key Evidence*], [*Failed Criterion*], [*Tractability*],
+      table.cell(colspan: 6, fill: luma(230))[*Trigger-Capable Root Causes*],
 
-table.cell(colspan: 6)[*Trigger-Capable Root Causes*],
+      [CNS energy crisis], [Root cause], [0.55], [PET/SPECT hypometabolism; CSF catecholamine deficit (Walitt 2024)], [Passes all 4], [Low],
 
-[CNS energy crisis], [Root cause], [0.55], [PET/SPECT hypometabolism; CSF catecholamine deficit (Walitt 2024)], [Passes all 4], [Low],
+      [Metabolic safe mode lock], [Root cause], [0.45], [Itaconate/IDO upregulation; coordinated metabolic suppression pattern], [Passes all 4], [Low--Moderate],
 
+      [GPCR autoantibody cascade], [Root cause], [0.45], [Elevated autoantibodies; 60% daratumumab response; endothelial dysfunction], [Passes all 4], [Moderate--High],
 
-[Metabolic safe mode lock], [Root cause], [0.45], [Itaconate/IDO upregulation; coordinated metabolic suppression pattern], [Passes all 4], [Low–Moderate],
+      [TRPM3 channelopathy], [Root cause], [0.35], [Multi-site NK cell TRPM3 dysfunction; ubiquitous tissue expression], [Passes all 4], [Low],
 
+      table.cell(colspan: 6, fill: luma(230))[*Amplifier Mechanisms*],
 
-[GPCR autoantibody cascade], [Root cause], [0.45], [Elevated autoantibodies; 60% daratumumab response; endothelial dysfunction], [Passes all 4], [Moderate–High],
+      [NAD#super[+] depletion spiral], [Amplifier], [—], [PARP/CD38 consumption; impaired de novo synthesis], [Criterion 1 (precipitant)], [Moderate],
 
+      [Oxidative stress cycle], [Amplifier (secondary)], [—], [Elevated ROS markers; cardiolipin peroxidation; Nrf2 suppression], [Criterion 1 (precipitant)], [Moderate],
 
-[TRPM3 channelopathy], [Root cause], [0.35], [Multi-site NK cell TRPM3 dysfunction; ubiquitous tissue expression], [Passes all 4], [Low],
+      [Mast cell–energy loop], [Amplifier], [—], [30--60% MCAS comorbidity; neuroinflammation via CNS mast cells], [Criterion 2 (PEM)], [High],
 
+      [Viral reactivation $arrow.l.r$ immune exhaustion], [Amplifier], [—], [Elevated EBV/HHV-6 titers; T cell exhaustion markers], [Criterion 1 (precipitant)], [Low--Moderate],
 
+      [Endothelial activation / microclotting], [Amplifier], [—], [Amyloid microclots; endothelial biomarkers], [Criterion 1 (precipitant)], [Moderate],
 
-table.cell(colspan: 6)[*Amplifier Mechanisms*],
+      [Epigenetic consolidation], [Amplifier (load-bearing)], [—], [DNA methylation changes; histone modifications; duration-dependent entrenchment], [Criterion 1 (precipitant)], [Low],
 
-[NAD#super[+] depletion spiral], [Amplifier], [—], [PARP/CD38 consumption; impaired de novo synthesis], [Criterion 1 (precipitant)], [Moderate],
+      table.cell(colspan: 6, fill: luma(230))[*Downstream Consequences*],
 
+      [Sickness behavior], [Consequence], [—], [Cytokine-mediated hypothalamic activation], [All 4 (dependent)], [Low--Moderate],
 
-[Oxidative stress cycle], [Amplifier (secondary)], [—], [Elevated ROS markers; cardiolipin peroxidation; Nrf2 suppression], [Criterion 1 (precipitant)], [Moderate],
+      [Sleep fragmentation], [Consequence], [—], [Reduced slow-wave sleep; circadian disruption], [All 4 (dependent)], [Moderate],
 
+      [Catecholamine synthesis failure], [Consequence], [—], [CSF DOPA/DOPAC reduction; cofactor depletion], [All 4 (dependent)], [Moderate],
 
-[Mast cell–energy loop], [Amplifier], [—], [30–60% MCAS comorbidity; neuroinflammation via CNS mast cells], [Criterion 2 (PEM)], [High],
+      [Ferroptosis susceptibility], [Consequence], [—], [Iron dysregulation; glutathione depletion; lipid peroxidation], [All 4 (dependent)], [Low],
 
-
-[Viral reactivation $arrow.l.r$ immune exhaustion], [Amplifier], [—], [Elevated EBV/HHV-6 titers; T cell exhaustion markers], [Criterion 1 (precipitant)], [Low–Moderate],
-
-
-[Endothelial activation / microclotting], [Amplifier], [—], [Amyloid microclots; endothelial biomarkers], [Criterion 1 (precipitant)], [Moderate],
-
-
-[Epigenetic consolidation], [Amplifier (load-bearing)], [—], [DNA methylation changes; histone modifications; duration-dependent entrenchment], [Criterion 1 (precipitant)], [Low],
-
-
-
-table.cell(colspan: 6)[*Downstream Consequences*],
-
-[Sickness behavior], [Consequence], [—], [Cytokine-mediated hypothalamic activation], [All 4 (dependent)], [Low–Moderate],
-
-
-[Sleep fragmentation], [Consequence], [—], [Reduced slow-wave sleep; circadian disruption], [All 4 (dependent)], [Moderate],
-
-
-[Catecholamine synthesis failure], [Consequence], [—], [CSF DOPA/DOPAC reduction; cofactor depletion], [All 4 (dependent)], [Moderate],
-
-
-[Ferroptosis susceptibility], [Consequence], [—], [Iron dysregulation; glutathione depletion; lipid peroxidation], [All 4 (dependent)], [Low],
-
-
-[Deferred-cost PEM architecture], [Consequence], [—], [Normal physiology exploited by broken restoration machinery], [All 4 (dependent)], [N/A],
-
-
-
-)
-*/
-// end landscape
+      [Deferred-cost PEM architecture], [Consequence], [—], [Normal physiology exploited by broken restoration machinery], [All 4 (dependent)], [N/A],
+    ),
+    kind: table,
+    supplement: [Table],
+    caption: [Complete Mechanism Classification: Root Causes, Amplifiers, and Consequences],
+  ) <tab:mechanism-classification>
+]
 
 // =============================================================================
 // SECTION 5: ENTRY POINTS
@@ -602,74 +570,50 @@ The causal hierarchy developed in this chapter leads to a counterintuitive insig
 *Reason 3: The multi-lock model predicts that single-mechanism treatments fail.* Even if a root cause is both present and accessible, treating it alone may fail because the amplifier locks maintain the disease independently. The multi-lock trap (Section @sec:multi-lock-trap) predicts that recovery requires releasing enough locks simultaneously that the remaining ones cannot sustain the disease state. This means treatment strategy is inherently combinatorial: the relevant question is not “which single mechanism should we target?” but “which combination of mechanisms, when addressed simultaneously, enables escape from the disease attractor?”
 
 The practical conclusion is that treatment priority should be determined by the product of _causal importance_ and _therapeutic tractability_, not by causal importance alone. A highly causal mechanism with zero tractability has zero treatment priority (you cannot treat what you cannot reach). A moderately causal mechanism with high tractability may have the highest treatment priority (you can treat it, and treating it contributes to the combination needed for escape). 
-// Table @tab:treatment-priority applies this reasoning to the mechanisms classified in this chapter (pending).
+Table @tab:treatment-priority applies this reasoning to the mechanisms classified in this chapter.
 
-// TODO: landscape
-// Placeholder for commented-out table:
-// #figure([], kind: table, supplement: [Table], caption: [tab:treatment-priority — table conversion pending]) <tab:treatment-priority>
+#landscape[
+  #figure(
+    table(
+      columns: (2.5fr, 2fr, 2fr, 1.5fr, 5.5fr),
+      inset: table-inset,
+      stroke: booktabs-stroke(11),
+      align: (left, left, left, center, left),
 
-/* TODO: Fix this table
-#table(
-  columns: (auto, auto, auto, auto, auto, auto),
-  // TODO: fix columnsp{2.5cm}p{2.5cm}p{2.5cm}p{5.5cm}}
-// caption: [Treatment Priority as a Function of Causal Tier and Tractability], <tab:treatment-priority>
+      [*Mechanism*], [*Causal Tier*], [*Tractability*], [*Priority Rank*], [*Rationale*],
 
-[*Mechanism*], [*Causal Tier*], [*Tractability*], [*Priority Rank*], [*Rationale*],
+      [GPCR autoantibody cascade], [Root cause], [Moderate--High], [1], [Daratumumab and immunoadsorption demonstrate feasibility; targets a root cause that may still be active; 60% response rate is among the highest reported],
 
-[*Mechanism*], [*Causal Tier*], [*Tractability*], [*Priority Rank*], [*Rationale*],
+      [Mast cell–energy loop], [Amplifier], [High], [2], [Antihistamines and mast cell stabilizers are safe, widely available, and produce rapid symptomatic relief; high tractability compensates for amplifier status; improves quality of life while other interventions take effect],
 
-[GPCR autoantibody cascade], [Root cause], [Moderate–High], [1], [Daratumumab and immunoadsorption demonstrate feasibility; targets a root cause that may still be active; 60% response rate is among the highest reported],
+      [NAD#super[+] depletion spiral], [Amplifier], [Moderate], [3], [NR/NMN supplementation is commercially available and well-tolerated; addresses a key amplifier of energy failure; benefits accrue over 8--12 weeks],
 
+      [Epigenetic consolidation], [Amplifier (load-bearing)], [Low], [4], [Critically important for recovery but current tools are limited; early intervention to _prevent_ consolidation is far more feasible than _reversal_ of established consolidation; argues for aggressive early treatment],
 
+      [Metabolic safe mode lock], [Root cause], [Low--Moderate], [5], [No specific intervention exists to "reset" the hypothalamic setpoint; indirect approaches (controlled immune challenge, metabolic reprogramming protocols) are experimental and poorly characterized],
 
-[Mast cell–energy loop], [Amplifier], [High], [2], [Antihistamines and mast cell stabilizers are safe, widely available, and produce rapid symptomatic relief; high tractability compensates for amplifier status; improves quality of life while other interventions take effect],
+      [Endothelial activation / microclotting], [Amplifier], [Moderate], [6], [Anticoagulants and endothelial support are available; benefit depends on upstream immune activation being concurrently addressed; may enable other treatments to reach target tissues],
 
+      [CNS energy crisis], [Root cause], [Low], [7], [Most causally important but least therapeutically accessible; transcranial photobiomodulation, intranasal insulin, and hyperbaric oxygen are experimental with limited ME/CFS-specific data],
 
+      [TRPM3 channelopathy], [Root cause], [Low], [8], [No approved TRPM3-targeted therapies exist; channel modulation by existing compounds (pregnenolone sulfate) is a research tool, not a therapeutic; pharmaceutical TRPM3 modulators are in early development],
 
-[NAD#super[+] depletion spiral], [Amplifier], [Moderate], [3], [NR/NMN supplementation is commercially available and well-tolerated; addresses a key amplifier of energy failure; benefits accrue over 8–12 weeks],
+      [Viral reactivation $arrow.l.r$ immune exhaustion], [Amplifier], [Low--Moderate], [9], [Antivirals address only one component of a bidirectional loop; benefit inconsistent across trials; most appropriate as adjunct to immune-targeting therapies],
 
-
-
-[Epigenetic consolidation], [Amplifier (load-bearing)], [Low], [4], [Critically important for recovery but current tools are limited; early intervention to _prevent_ consolidation is far more feasible than _reversal_ of established consolidation; argues for aggressive early treatment],
-
-
-
-[Metabolic safe mode lock], [Root cause], [Low–Moderate], [5], [No specific intervention exists to “reset” the hypothalamic setpoint; indirect approaches (controlled immune challenge, metabolic reprogramming protocols) are experimental and poorly characterized],
-
-
-
-[Endothelial activation / microclotting], [Amplifier], [Moderate], [6], [Anticoagulants and endothelial support are available; benefit depends on upstream immune activation being concurrently addressed; may enable other treatments to reach target tissues],
-
-
-
-[CNS energy crisis], [Root cause], [Low], [7], [Most causally important but least therapeutically accessible; transcranial photobiomodulation, intranasal insulin, and hyperbaric oxygen are experimental with limited ME/CFS-specific data],
-
-
-
-[TRPM3 channelopathy], [Root cause], [Low], [8], [No approved TRPM3-targeted therapies exist; channel modulation by existing compounds (pregnenolone sulfate) is a research tool, not a therapeutic; pharmaceutical TRPM3 modulators are in early development],
-
-
-
-[Viral reactivation $arrow.l.r$ immune exhaustion], [Amplifier], [Low–Moderate], [9], [Antivirals address only one component of a bidirectional loop; benefit inconsistent across trials; most appropriate as adjunct to immune-targeting therapies],
-
-
-
-[Oxidative stress vicious cycle], [Amplifier (secondary)], [Moderate], [10], [Antioxidants are widely available but address a secondary lock; benefit is real but modest and supportive; most useful as part of a combination protocol],
-
-
-
-)
-*/
-// end landscape
+      [Oxidative stress vicious cycle], [Amplifier (secondary)], [Moderate], [10], [Antioxidants are widely available but address a secondary lock; benefit is real but modest and supportive; most useful as part of a combination protocol],
+    ),
+    kind: table,
+    supplement: [Table],
+    caption: [Treatment Priority as a Function of Causal Tier and Tractability],
+  ) <tab:treatment-priority>
+]
 
 The ranking discussed below explains several patterns in the ME/CFS treatment literature. GPCR-targeted immunotherapy ranks highest because it addresses a root cause with demonstrated tractability; the 60% daratumumab response rate is among the highest reported for any ME/CFS intervention, suggesting that in the autoantibody-positive subgroup, the autoimmune mechanism is both active and accessible. Mast cell stabilization ranks second despite being "merely" an amplifier because its high tractability and rapid onset make it an efficient first-line intervention that improves quality of life immediately while slower, more causally fundamental treatments take effect. By contrast, the CNS energy crisis—arguably the most causally important mechanism—ranks seventh because no current therapeutic approach can directly and selectively address it.
-// See Table @tab:treatment-priority (pending).
+See Table @tab:treatment-priority.
 
 The ranking also suggests a treatment sequencing strategy: begin with high-tractability interventions (mast cell stabilization, NAD#super[+] supplementation) that provide immediate symptomatic relief, add root-cause-targeting interventions (immunoadsorption or daratumumab in autoantibody-positive patients) as they become available, and incorporate experimental approaches targeting low-tractability mechanisms (CNS energy restoration, epigenetic modification) as the field advances.
 
 Figure @fig:treatment-priority-scatter visualizes the relationship between causal importance and therapeutic tractability for all classified mechanisms. The GPCR autoantibody cascade occupies the most favorable position among root causes (high importance, moderate–high tractability), while the CNS energy crisis—despite being the most causally fundamental—falls in the “important but inaccessible” quadrant. This visual representation makes concrete the chapter's central therapeutic insight: root cause does not equal treatment priority.
-
-../../figures/fig-treatment-priority-scatter.typ"
 
 The treatment optimization framework in Chapter @ch:predictive-applications builds on this hierarchy to model combinatorial treatment strategies, predicting which combinations of interventions are most likely to release enough locks for disease escape.
 
