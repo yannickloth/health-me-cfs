@@ -64,7 +64,7 @@ Timing matters more than duration. Early afternoon, roughly 1:00–3:00 PM, alig
 
 Duration should stay short, but expectations have to be realistic. Fifteen to twenty minutes may prevent deep-sleep entry and limit sleep inertia. Even so, patients should not expect the restoration a healthy person gets from the same nap. The goal is harm reduction: preventing the crash that comes from pushing through exhaustion, without triggering the worse crash that comes from a long, poorly timed nap.
 
-Lying down has value even without actual sleep. Horizontal rest reduces cardiac preload demands — critical for patients with orthostatic intolerance — decreases skeletal muscle energy expenditure, and may improve cerebral perfusion [@VanCampenEtAl2020cbf]. Even if a rest period produces no real sleep, no delta, no spindles, just quiet horizontal stillness, the physiological load reduction has value. Patients who feel guilty about "napping without sleeping" should not.
+Lying down has value even without actual sleep. Horizontal rest reduces cardiac preload demands — critical for patients with orthostatic intolerance — decreases skeletal muscle energy expenditure, and may improve cerebral perfusion [@VanCampenEtAl2020]. Even if a rest period produces no real sleep, no delta, no spindles, just quiet horizontal stillness, the physiological load reduction has value. Patients who feel guilty about "napping without sleeping" should not.
 
 And the worst nap, counterintuitively, is often the one you fight against taking. Pushing through exhaustion to "save sleep for tonight" frequently produces more harm than a brief, timed rest. The metabolic cost of forcing a depleted system to remain active exceeds the circadian cost of a short early-afternoon nap.
 

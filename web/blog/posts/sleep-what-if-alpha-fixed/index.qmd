@@ -36,7 +36,7 @@ The kynurenine pathway keeps running regardless. The tryptophan-to-kynurenine sh
 
 Mast cell-mediated cognitive impairment is similarly untouched. Histamine released from activated mast cells crosses into the brain and acts on H3 receptors to suppress acetylcholine release, directly impairing attention, working memory, and executive function. Sleep oscillations are not part of that circuit.
 
-Cerebral hypoperfusion continues. ME/CFS patients show reduced cerebral blood flow — 26% reductions documented during orthostatic challenge versus 7% in controls (van Campen et al. 2020, *Clinical Neurophysiology Practice* [@VanCampenEtAl2020cbf]) — driven by autonomic dysfunction, endothelial dysfunction, and reduced blood volume. The brain's oxygen supply is limited regardless of how well it sleeps. Cognitive tasks that demand increased blood flow would still fail at the supply level.
+Cerebral hypoperfusion continues. ME/CFS patients show reduced cerebral blood flow — 26% reductions documented during orthostatic challenge versus 7% in controls (van Campen et al. 2020, *Clinical Neurophysiology Practice* [@VanCampenEtAl2020]) — driven by autonomic dysfunction, endothelial dysfunction, and reduced blood volume. The brain's oxygen supply is limited regardless of how well it sleeps. Cognitive tasks that demand increased blood flow would still fail at the supply level.
 
 The mitochondrial picture does not change either. The energy deficit that drives ME/CFS — impaired oxidative phosphorylation, electron transport chain dysfunction, elevated mitochondrial ROS — is a peripheral and systemic problem that sleep architecture alone cannot resolve. Better sleep might modestly improve overnight mitochondrial repair, but the fundamental metabolic defect persists.
 
