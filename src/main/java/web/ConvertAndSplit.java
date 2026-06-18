@@ -99,6 +99,9 @@ void main(String[] args) throws IOException {
     // Typst definition list: / term: desc → - **term:** desc
     src = src.replaceAll("(?m)^\\s*/\\s+\\*([^*]+)\\*:(.*)$", "- **$1:**$2");
 
+    // Typst literal dollar signs (\$) → placeholder before math processing
+    src = src.replace("\\$", "\uFFFD");
+
     // Typst math → LaTeX/MathJax math translation
     // Standalone math tokens (pre-translateMath, for tokens used outside $...$ blocks)
     src = src.replace("$lt.eq$", "$\\leq$");
@@ -118,6 +121,9 @@ void main(String[] args) throws IOException {
     src = translateMath(src);
     // Prevent MathJax misparsing when closing $ is immediately followed by a digit
     src = src.replaceAll("\\$([0-9])", "\\$ $1");
+
+    // Restore literal dollar signs
+    src = src.replace("\uFFFD", "$");
 
     // #align(center, table(...)) → just table
     src = src.replaceAll("#align\\(center,\\s*", "");
