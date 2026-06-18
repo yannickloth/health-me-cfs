@@ -5,7 +5,7 @@
 
 The continuous damage model (Equation @eq:damage-accumulation) captures gradual progression but does not represent the discrete, step-wise decline observed in ME/CFS. While infections are a major trigger (Speculation~@spec:infection-damage-ratchet), the ratchet pattern extends to any event that forces energy expenditure beyond the recoverable envelope: PEM-inducing overexertion, surgical stress, emotional trauma, or hormonal shifts. We therefore formalise a general _energy ratchet_ as a hybrid dynamical system combining continuous inter-event repair dynamics with discrete event-triggered damage jumps.
 
-../../../../figures/fig-energy-ratchet.typ"
+#include "../../../../figures/fig-energy-ratchet.typ"
 
 ==== State Variables and Inter-Event Dynamics
 

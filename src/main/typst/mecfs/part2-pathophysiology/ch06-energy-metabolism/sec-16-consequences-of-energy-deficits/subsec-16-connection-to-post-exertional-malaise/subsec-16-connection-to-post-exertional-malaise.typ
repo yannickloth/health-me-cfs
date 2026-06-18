@@ -14,11 +14,7 @@ Mitochondrial dysfunction provides a compelling explanation for PEM:
     - *Cumulative damage*: Each exertion may worsen mitochondrial function
     - *Symptom cascade*: Energy deficit affects multiple organ systems
 
-// Insert Figure: Normal Exercise Response
-../../../../figures/fig-pem-normal.typ"
 
-// Insert Figure: ME/CFS Post-Exertional Malaise
-../../../../figures/fig-pem-mecfs.typ"
 
 Figures @fig:pem-normal and @fig:pem-mecfs illustrate the critical distinction between normal exercise response (rapid recovery, positive adaptation) and ME/CFS PEM (ATP crisis, maladaptive inflammatory cascade, delayed deterioration). Repeated PEM episodes cause progressive decline.
 

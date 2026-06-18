@@ -40,12 +40,9 @@ The electron transport chain (ETC) in the inner mitochondrial membrane generates
 Complete oxidation of one glucose molecule yields approximately 30–32 ATP, though actual yield varies with cellular conditions.
 
 // Insert Figure: Normal Energy Production
-../../../../figures/fig-energy-production-normal.typ"
+#include "../../../../figures/fig-energy-production-normal.typ"
 
 // Insert Figure: ME/CFS Energy Production Dysfunction
-../../../../figures/fig-energy-production-mecfs.typ"
-
-../../../../figures/fig-energy-cascade-normal.typ"
-../../../../figures/fig-energy-cascade-mecfs.typ"
+#include "../../../../figures/fig-energy-production-mecfs.typ"
 Figures @fig:energy-cascade-normal and @fig:energy-cascade-mecfs illustrate normal ATP production and the multiple impairment points in ME/CFS. ATP deficit cascades into multi-system dysfunction affecting muscle, brain, immune, cardiovascular, and autonomic systems. This multi-system cascade is synthesized with other pathophysiological mechanisms in Chapter @ch:integrative-models, particularly in the discussion of energy-immune-autonomic interactions (Section @sec:synthesis).
 

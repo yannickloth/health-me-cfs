@@ -61,8 +61,6 @@ The formal validation of this framework—including bifurcation analysis demonst
 
 Figure @fig:causal-hierarchy-overview provides an overview of the three-tier classification applied to all mechanisms discussed in this chapter.
 
-../../figures/fig-causal-hierarchy-overview.typ"
-
 === Why Not Simply Use Evidence Levels?
 <sec:why-not-evidence-levels>
 
@@ -252,8 +250,6 @@ These interconnections mean that in practice, trigger-capable mechanisms may co-
 This distinction between _initiating cause_ and _maintaining cause_ is crucial for treatment strategy and is developed further in Section @sec:treatment-vs-cause.
 
 Figure @fig:trigger-mechanism-relationships maps the bidirectional interactions among the four trigger-capable mechanisms, illustrating how co-activation and mutual reinforcement complicate the identification of a single initiating cause.
-
-../../figures/fig-trigger-mechanism-relationships.typ"
 
 // =============================================================================
 // SECTION 3: AMPLIFIER MECHANISMS
@@ -492,8 +488,6 @@ The convergence on a final common pathway—CNS energy failure plus broken resto
 
 Once a patient reaches the final common pathway, the amplifier mechanisms described in Section @sec:amplifiers engage and lock the disease state. The entry door no longer matters because the amplifiers maintain the disease independently of the triggering mechanism. This is why the triggering event is often years in the past by the time patients seek treatment, yet the disease persists: the locks are self-sustaining.
 
-../../figures/fig-entry-points-funnel.typ"
-
 #include "sec-05-entry-points-multiple-doors-one-final-co/hypotheses/hyp-multiple-entry-points-single-final-commo.typ"
 
 The infection cascade walkthrough in Chapter @ch:temporal-evolution provides a worked example of how a specific precipitant (viral infection) progresses through entry, amplification, and lock establishment to reach the final common pathway.
@@ -523,8 +517,6 @@ These findings are consistent with a continuous distribution of "separatrix dist
 The multi-lock trap model (Section @sec:multi-lock-trap) established that ME/CFS persistence depends on multiple self-reinforcing mechanisms—“locks”—that maintain the disease state even after the original trigger has resolved. Not all locks are equal. A _load-bearing lock_ is one whose removal is necessary (though not necessarily sufficient) for escape from the disease attractor. A _secondary lock_ worsens symptoms and slows recovery but is not essential for disease maintenance: the remaining locks can sustain the disease without it.
 
 The structural analogy is to a building: load-bearing walls support the structure; removing them causes collapse (of the disease state, in this case—which is the therapeutic goal). Non-load-bearing walls define spaces and provide insulation; removing them improves the interior without threatening the structure. In the disease context, “collapse” of the disease attractor means the system can return to the healthy state; removing secondary locks improves the patient's experience within the disease state without enabling escape. Figure @fig:load-bearing-locks illustrates this distinction and its predicted effect on disease trajectory.
-
-../../figures/fig-load-bearing-locks.typ"
 
 The distinction has profound therapeutic implications. Treating a secondary lock provides symptomatic benefit—often substantial, and sometimes dramatic enough that patients report feeling “much better.” But the benefit plateaus because the disease architecture remains intact. Treating a load-bearing lock may produce _no immediate improvement_ (because other locks compensate and maintain the disease state), yet it is essential for the eventual possibility of recovery. A treatment strategy that focuses exclusively on the most symptomatic locks—the ones causing the most daily suffering—may paradoxically be less effective in the long term than one that prioritizes load-bearing locks, even if the latter produces less immediate relief.
 

@@ -36,11 +36,7 @@ Walitt et al. @walitt2024deep established direct correlations between CSF catech
 Aregawi et al. (2026) extended these correlations using the composite NE Pathway index @Aregawi2026Noradrenergic. Across all participants (PI-ME/CFS, PASC, and healthy volunteers, n=63), NE Pathway activity correlated positively with handgrip duration (right hand: rho=0.54, P=4e-5; left hand: rho=0.40, P=0.0027), PROMIS mental and physical health scores, and SF-36 physical functioning, vitality, and general health sub-scores. Significant negative correlations were found with PROMIS fatigue, MFI general and physical fatigue sub-scores, and emotional role limitations. Within the patient-only analysis (n=38), the strongest associations were handgrip duration (right: rho=0.62, P=0.00011) and MFI physical fatigue (rho=-0.43, P=0.0094). Notably, NE Pathway activity did _not_ correlate with pain, cognition measures, anxiety, or depression scores, and showed no relationship with orthostatic hypotension or excessive orthostatic tachycardia, suggesting the deficiency is more closely tied to motor output and overall health perception than to autonomic cardiovascular regulation per se.
 
 These correlations suggest, for the first time in direct CSF measurement, a biochemical pathway linking specific neurotransmitter abnormalities to the core symptoms of ME/CFS.
-// Insert Figure: Normal Catecholamine Synthesis
-../../../../figures/fig-catecholamine-normal.typ"
 
-// Insert Figure: ME/CFS Catecholamine Synthesis Failure
-../../../../figures/fig-catecholamine-mecfs.typ"
 
 Figures @fig:catecholamine-normal and @fig:catecholamine-mecfs illustrate the catecholamine synthesis pathway and two major bottlenecks in ME/CFS: (1) tyrosine hydroxylase impairment due to ATP deficit and BH#sub[4] depletion, and (2) dopamine-beta-hydroxylase impairment due to ATP-dependent vesicular uptake failure --- consistent with the selective noradrenergic deficiency pattern reported by Aregawi et al. @Aregawi2026Noradrenergic.
 
@@ -62,11 +58,7 @@ Immune activation, particularly interferon-gamma, stimulates the kynurenine path
 
 The glutamatergic dimension of kynurenine pathway dysregulation acquires additional significance in light of the DecodeME GWAS findings. The genome-wide significant loci include _SHISA6_ (excitatory synaptic transmission at glutamatergic synapses) and _UNC13C_ (glutamatergic synaptic transmission), while _CA10_ and _DCC_ are associated with neuronal development in brain regions governing autonomic regulation (Section @sec:decodeme-genes of Chapter @ch:genetics-epigenetics). This convergence of genetic evidence (constitutional vulnerability in glutamatergic circuits) with metabolomic evidence (kynurenine-mediated disruption of glutamate/GABA balance) suggests a two-hit model: genetically vulnerable glutamatergic circuits are tipped into dysfunction by infection-driven quinolinic acid accumulation, and the resulting excitatory/inhibitory imbalance is maintained by chronic low-grade neuroinflammation. The Glutamatergic--Autonomic Bridge hypothesis (Chapter @ch:integrative-models, Speculation @spec:glutamatergic-autonomic-bridge) formalises this model and identifies glutamatergic modulators (memantine, riluzole) as testable therapeutic candidates.
 
-// Insert Figure: Normal Tryptophan Metabolism
-../../../../figures/fig-tryptophan-normal.typ"
 
-// Insert Figure: ME/CFS Tryptophan Dysregulation
-../../../../figures/fig-tryptophan-mecfs.typ"
 
 Figures @fig:tryptophan-normal and @fig:tryptophan-mecfs illustrate tryptophan metabolism dysregulation in ME/CFS. While normally approximately 95% of tryptophan is metabolized via the kynurenine pathway, inflammation-driven IDO overactivation can substantially increase this proportion. If kynurenine pathway flux increases to approximately 99% (a plausible estimate based on the magnitude of IDO upregulation observed in inflammatory conditions), this seemingly modest 4 percentage-point shift would dramatically reduce serotonin-available tryptophan from 5% to 1%—an 80% reduction in serotonin precursor availability—while quinolinic acid accumulation reaches toxic levels.
 

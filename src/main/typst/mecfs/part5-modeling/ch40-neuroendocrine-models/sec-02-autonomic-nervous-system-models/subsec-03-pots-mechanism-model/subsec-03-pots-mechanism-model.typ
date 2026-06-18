@@ -11,5 +11,5 @@ Postural orthostatic tachycardia syndrome (POTS), defined as a sustained heart r
 
 This subtype classification has treatment implications: hypovolemic POTS responds to volume expansion (saline, fludrocortisone), neuropathic POTS to parasympathetic enhancement (pyridostigmine @Raj2005Pyridostigmine), and hyperadrenergic POTS to sympatholytic agents (propranolol, clonidine).
 
-../../../../figures/fig-tryptophan-branching-model.typ"
+#include "../../../../figures/fig-tryptophan-branching-model.typ"
 

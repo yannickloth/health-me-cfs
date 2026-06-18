@@ -13,5 +13,5 @@ The model predicts that these modifications shift the HPA axis to a low-output s
 
 #include "limitations/hpa-axis-model-simplifications.typ"
 
-../../../../figures/fig-baroreflex-model.typ"
+#include "../../../../figures/fig-baroreflex-model.typ"
 

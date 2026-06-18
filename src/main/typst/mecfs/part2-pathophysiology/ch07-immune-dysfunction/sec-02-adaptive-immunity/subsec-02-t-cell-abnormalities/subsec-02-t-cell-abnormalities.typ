@@ -48,11 +48,7 @@ The epigenetic nature of these changes suggests that T cell exhaustion in ME/CFS
 ==== Integration with NIH Deep Phenotyping Study
 The Iu et al.\ findings complement the Walitt et al.\ NIH study @walitt2024deep, which also documented elevated CD8+ T cell PD-1 expression. Together, these studies consistently document T cell exhaustion as a reproducible feature of ME/CFS immunopathology, supporting the model of chronic antigenic stimulation driving both B cell (naïve/memory imbalance) and T cell (exhaustion) abnormalities.
 
-// Insert Figure: Normal Immune Response
-../../../../figures/fig-immune-normal.typ"
 
-// Insert Figure: ME/CFS Immune Dysfunction
-../../../../figures/fig-immune-mecfs.typ"
 
 Figures @fig:immune-normal and @fig:immune-mecfs illustrate the paradoxical immune state in ME/CFS—simultaneously overactive and underactive. Two interconnected vicious cycles drive disease: chronic inflammation (IDO activation, energy deficit, poor pathogen control) and immune exhaustion (T-cell/NK dysfunction, failed clearance). These cycles reinforce each other. The integration of these immune-specific vicious cycles with metabolic and autonomic cycles is examined in Section @sec:unifying-mechanisms of Chapter @ch:integrative-models.
 
