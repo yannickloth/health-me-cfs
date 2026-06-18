@@ -277,6 +277,159 @@ GWAS also enables Mendelian randomisation analyses testing causal relationships 
 
 #include "sec-01-misc/subsec-21-glp1-genetics/sec-glp1-genetics.typ"
 
+==== Computable Analyses Using Existing DecodeME Data
+<sec:decodeme-computable>
+
+DecodeME's combined genotype and phenotype data (n=17,000+ with GWAS array, severity classification, diagnostic criteria, infection typing, depression comorbidity, amitriptyline use, family history, and sex) enables a programme of computational analyses that require no new recruitment or genotyping. The following hypotheses and open questions are all testable using existing DecodeME data plus publicly available external GWAS summary statistics. They are grouped by analytical approach.
+
+===== Sex-Stratified Genetic Architecture
+
+#hypothesis(title: [Sex-Differential Genetic Architecture in ME/CFS])[
+*Certainty: 0.55.* ME/CFS affects approximately 75% females, but whether this excess reflects a quantitative threshold difference (same genetic architecture, lower threshold in females due to hormonal or X-linked modifiers) or a qualitative difference (partially distinct loci contributing in each sex) is unknown. DecodeME's approximately 11,700 female and 3,900 male cases enable sex-stratified GWAS and cross-sex genetic correlation ($r_(g,"sex")$) estimation via LD score regression.
+
+Autoimmune diseases show both patterns: systemic lupus erythematosus has sex-differential genetic architecture, while rheumatoid arthritis does not. DecodeME's male sample size (n$approx$3,900) is sufficient for discovery of strong-effect sex-specific loci, comparable to early psychiatric GWAS that identified sex-differential signals.
+
+*Falsifiable prediction:* If $r_(g,"sex") > 0.8$, sex-differential genetic architecture is falsified and the female excess arises from non-genetic modifiers (hormonal, immune, environmental). If $r_(g,"sex") < 0.6$, male and female ME/CFS are partially distinct genetic entities. The prediction is that $r_(g,"sex")$ will be 0.6--0.8 (partial overlap), with immune-ambiguous loci showing more sex differentiation than neuronal loci.
+] <hyp:sex-differential-architecture>
+
+#open-question(title: [X Chromosome Association Analysis in ME/CFS])[
+The X chromosome carries the highest density of immune-related genes in the genome, and X-inactivation escape produces higher expression of certain immune genes in XX individuals. Standard GWAS analyses typically exclude the X chromosome. An X chromosome association analysis in DecodeME---with sex-appropriate genotype coding (0/1 for males, 0/1/2 for females with dosage compensation correction)---could test whether X-linked immune gene variants (_TLR7_, _TLR8_, _FOXP3_, _CD40LG_, _CXCR3_) contribute to ME/CFS risk and directly explain part of the female excess. If X-linked associations are absent, the female excess must arise from autosomal loci interacting with sex hormones or other modifiers.
+] <oq:x-chromosome-mecfs>
+
+===== Severity as Genetic Phenotype
+
+#hypothesis(title: [PRS Dose-Response Across ME/CFS Severity Grades])[
+*Certainty: 0.60.* If ME/CFS severity is partly genetically determined (higher genetic loading $=$ more severe disease), polygenic risk score should increase monotonically across severity grades (mild $<$ moderate $<$ severe $<$ very severe). This pattern is documented in schizophrenia (PRS predicts psychosis severity) and inflammatory bowel disease (PRS predicts need for surgery) @DecodeME2025. DecodeME's severity classification across 17,000+ participants enables direct testing via ordinal logistic regression of PRS against severity, adjusted for sex, age at onset, illness duration, and infection trigger.
+
+Additionally, Sardell cluster-specific PRS (neuronal, immune, autophagy) can be tested for differential severity associations: does one genetic pathway predict severity more strongly than others?
+
+*Falsifiable prediction:* If PRS does not differ significantly across severity grades (ANOVA $p > 0.05$, variance explained $< 0.5%$), genetic loading does not determine severity and environmental factors dominate. The prediction is that neuronal-synapse cluster PRS will show the strongest severity gradient (reflecting brain circuit vulnerability as a severity determinant), while immune cluster PRS will be flat across severity grades (reflecting immune variants as susceptibility switches rather than severity modulators).
+] <hyp:prs-severity-dose-response>
+
+#open-question(title: [Severe/Very-Severe Subgroup GWAS])[
+Most ME/CFS GWAS treat all cases identically. A within-case GWAS comparing severe/very-severe cases (estimated n$approx$2,500) versus mild/moderate cases (n$approx$12,500) would remove case-control confounding entirely---both groups have ME/CFS, differing only in severity. If severity-specific loci enrich for autophagy/mitophagy pathways (the _FBXL4_ cluster), this would support the hypothesis that mitochondrial quality control capacity determines the severity ceiling (Hypothesis @hyp:mitophagy-vulnerability). If they enrich for neuronal/synaptic genes, severity is determined by brain circuit vulnerability.
+] <oq:severe-subgroup-gwas>
+
+===== Genotype $times$ Infection Trigger Interactions
+
+#hypothesis(title: [Genotype-Trigger Interaction: SNP Effects That Differ by Infection Type])[
+*Certainty: 0.45.* The two-hit model (Hypothesis @hyp:two-hit-glutamatergic-infectious) predicts that some genetic variants matter more for certain triggers. Using Bretherick 2023 infection typing (EBV/IM, non-EBV respiratory, Lyme/Q-fever, non-infectious), a case-only gene-environment interaction analysis at the eight genome-wide significant loci can test whether effect sizes differ across trigger categories (Cochran $Q$ heterogeneity test). The case-only design---comparing genotype frequencies across trigger subgroups within cases---is more powerful than case-control GxE and requires no new controls @DecodeME2025.
+
+*Falsifiable prediction:* If no SNP shows significant genotype-trigger interaction (interaction $p > 0.006$ for the eight GWS loci after Bonferroni), the same genetic architecture produces ME/CFS regardless of trigger type, and the two-hit model's prediction of trigger-specific genetic modulation is falsified. The prediction is that at least two of eight GWS loci will show significant effect-size heterogeneity across trigger groups, with immune-annotated loci (_BTN2A2_, _RABGAP1L_) showing larger effects in EBV-triggered cases.
+] <hyp:genotype-trigger-interaction>
+
+#hypothesis(title: [Non-Infectious Onset as Higher Genetic Loading Subtype])[
+*Certainty: 0.50.* Non-infectious-onset ME/CFS ($approx$30--40% of cases) lacks the canonical "second hit." If these patients develop ME/CFS without an identifiable environmental trigger, they may require higher genetic loading---more risk alleles at more loci---to cross the disease threshold. Alternatively, their triggers are unmeasured (subclinical infections, gradual stress accumulation). DecodeME can test this directly: if mean PRS is significantly higher in non-infectious-onset cases compared to infection-triggered cases, it supports a spectrum model where genetic risk substitutes for environmental trigger.
+
+*Falsifiable prediction:* If mean PRS is not higher in non-infectious-onset cases compared to EBV-triggered cases (one-sided $t$-test $p > 0.05$), the high-genetic-loading model for non-infectious onset is falsified. The prediction is that non-infectious-onset cases will have $approx$0.15 SD higher PRS, and the genetic correlation between non-infectious and EBV-triggered ME/CFS will be 0.7--0.9 (partially overlapping but not identical architecture).
+] <hyp:non-infectious-higher-loading>
+
+===== Comorbidity Decomposition
+
+#hypothesis(title: [Depression Comorbidity in ME/CFS: Genetic Predictor or Independent Phenocopy?])[
+*Certainty: 0.60.* The depression paradox ($r_g = 0.60$ but no shared causal variants; Speculation @spec:depression-paradox) can be decomposed within DecodeME by constructing a depression PRS from publicly available PGC GWAS summary statistics and applying it to DecodeME participants @DecodeME2025. If depression PRS predicts depression comorbidity within ME/CFS but does not predict ME/CFS core symptoms (PEM, OI, cognitive dysfunction), depression in ME/CFS patients is a genuine comorbidity with shared risk but separate pathology. If depression PRS predicts specific ME/CFS symptoms, those symptoms share biological architecture with depression. If ME/CFS PRS is identical in depressed and non-depressed ME/CFS patients, depression does not arise from the ME/CFS genetic architecture itself.
+
+*Falsifiable prediction:* If depression PRS significantly predicts ME/CFS core symptoms (PEM severity, OI) independent of depression status ($beta > 0.05$, $p < 0.01$), the "separate pathology" model is falsified and shared biology extends beyond comorbidity. The prediction is that depression PRS will predict depression comorbidity (OR $approx$ 1.1--1.2 per SD PRS) but not PEM or OI ($p > 0.1$), confirming that ME/CFS core features are genetically independent of depression.
+] <hyp:depression-comorbidity-genetic>
+
+#speculation(title: [Amitriptyline Pharmacogenomics: CYP Metaboliser Status and Treatment Selection])[
+The $r_g = 0.61$ between ME/CFS and amitriptyline use is unexplained. It could reflect prescribing indication overlap (amitriptyline targets pain, neuropathy, insomnia---all ME/CFS symptoms), pharmacogenomic selection (specific CYP genotypes tolerate amitriptyline and have ME/CFS risk), or shared biological pathways (amitriptyline's NMDA receptor antagonism connects to the glutamatergic hypothesis). CYP2D6 and CYP2C19 metaboliser status can be imputed from DecodeME GWAS array data using Stargazer or PharmCAT pipelines. If the $r_g$ is abolished after conditioning on CYP loci, pharmacogenomic variants are the primary driver. If not, shared glutamatergic/synaptic pathway genes are more likely responsible---specifically, the same neuronal-synapse loci contributing to ME/CFS risk also increase the probability of being prescribed amitriptyline via shared pain/neuropathy phenotype.
+
+(Certainty: 0.50)
+
+*Falsifiable prediction:* If CYP2D6 metaboliser status does not associate with amitriptyline use patterns or symptom burden among users ($p > 0.05$), pharmacogenomic selection is not driving the genetic correlation.
+] <spec:amitriptyline-pharmacogenomics>
+
+===== Heritability Architecture
+
+#hypothesis(title: [Functional Annotation Heritability Partitioning: Brain-First at the Regulatory Level])[
+*Certainty: 0.65.* Stratified LD score regression (S-LDSC) can partition $h^2_("SNP") = 0.095$ into functional categories: coding versus non-coding, enhancer versus promoter versus intergenic, brain-specific regulatory elements (Roadmap Epigenomics), and immune cell regulatory elements @DecodeME2025. If heritability concentrates in brain-specific enhancers (as in schizophrenia and bipolar disorder), the brain-first model (Hypothesis @hyp:brain-first-genetic) gains regulatory-genomic support. If it concentrates in immune cell enhancers, the immune model gains genetic support. If it distributes without enrichment, ME/CFS is genetically diffuse (more like height than schizophrenia). This analysis requires only summary statistics and can be completed in days using existing software.
+
+*Falsifiable prediction:* If no functional category shows significant enrichment (all enrichment $p > 0.05\/97$ after Bonferroni), ME/CFS heritability is diffusely distributed and the brain-first model lacks regulatory-genomic support. The prediction is that brain-specific enhancers (particularly cortical and cerebellar) will show $> 5 times$ enrichment, immune enhancers will show modest enrichment ($approx 2 times$), and coding variants will be depleted---consistent with the regulatory architecture observed in psychiatric GWAS.
+] <hyp:heritability-partitioning-brain>
+
+===== Mendelian Randomisation with DecodeME
+
+#open-question(title: [Bidirectional Mendelian Randomisation: Sleep, IBS, and Depression])[
+DecodeME GWAS summary statistics enable two-sample bidirectional Mendelian randomisation (MR) against publicly available GWAS for sleep traits, IBS, and depression. Three analyses with distinct clinical implications:
+
+*Sleep traits:* If genetic instruments for poor sleep causally increase ME/CFS risk, sleep disruption is on the causal pathway. If genetic instruments for ME/CFS causally increase sleeping too much ($r_g = 0.66$), hypersomnia is a downstream consequence.
+
+*IBS:* Bidirectional MR can distinguish shared glutamatergic vulnerability (no directional causation---horizontal pleiotropy), gut-to-brain causation (IBS $arrow.r$ ME/CFS via immune activation from gut permeability), or brain-to-gut causation (ME/CFS $arrow.r$ IBS via vagal/autonomic disruption). If neither direction shows significance, the $r_g = 0.75$ arises from shared genetic architecture without causal mediation, supporting the enteric glutamatergic hypothesis (Speculation @spec:enteric-glutamatergic-ibs).
+
+*Depression:* If MR shows that genetic liability to depression does not causally increase ME/CFS risk, this is strong evidence against the psychogenic model. If genetic liability to ME/CFS causally increases depression risk, depression is a downstream consequence of chronic illness (reactive depression). Latent causal variable (LCV) analysis can estimate the genetic causality proportion.
+] <oq:mendelian-randomisation-programme>
+
+===== Genetic Correlation Decomposition
+
+#hypothesis(title: [Partitioned Genetic Correlation: Biological Basis of the IBS Overlap])[
+*Certainty: 0.55.* The $r_g = 0.75$ with IBS is the strongest genetic correlation, but its biological basis is unknown. Local genetic correlation estimation (rho-HESS or SUPERGNOVA) across the genome can identify specific genomic regions driving the correlation and partition it into regions containing neuronal/synaptic genes, immune genes, ENS-expressed genes, or serotonergic/dopaminergic genes @DecodeME2025. Three competing models make distinct predictions: (a) shared glutamatergic vulnerability (enteric glutamatergic hypothesis; Speculation @spec:enteric-glutamatergic-ibs) predicts enrichment at glutamatergic loci; (b) shared serotonergic variants predict enrichment at _HTR_ and _TPH_ genes; (c) shared autonomic regulation predicts enrichment at vagal/autonomic loci.
+
+*Falsifiable prediction:* If the $r_g = 0.75$ is uniformly distributed across the genome (no region contributing $> 5%$), no single pathway mediates the correlation. The prediction is that the correlation will be concentrated at $approx$20--50 genomic regions, with significant enrichment for neuronal/synaptic annotations and modest enrichment for serotonergic loci.
+] <hyp:partitioned-rg-ibs>
+
+===== Diagnostic Criteria and Genetic Architecture
+
+#hypothesis(title: [CCC Versus IOM: Do Diagnostic Criteria Cut Along Genetic Boundaries?])[
+*Certainty: 0.45.* DecodeME accepted patients meeting CCC (Canadian Consensus Criteria), ICC (International Consensus Criteria), or IOM criteria. CCC requires PEM plus specific neurological, autonomic, and immune criteria; IOM requires PEM but is broader. If patients meeting CCC (more restrictive) have a different genetic architecture than IOM-only patients, diagnostic criteria cut along a biological boundary. If genetic architecture is identical, the criteria differences are clinically but not biologically meaningful. Testing: GWAS separately for each diagnostic subgroup versus shared controls, followed by cross-subgroup genetic correlation estimation.
+
+*Falsifiable prediction:* If the genetic correlation between CCC-only and IOM-only subgroups exceeds 0.90, the diagnostic criteria do not identify biologically distinct subgroups, and the field's criteria debates are genetically moot. The prediction is that $r_g$ will be 0.7--0.85 (moderate divergence), with CCC-only patients showing higher neuronal-cluster PRS.
+] <hyp:diagnostic-criteria-genetic>
+
+===== Cross-Trait and Cross-Disease Analyses
+
+#open-question(title: [Genetic Correlations with ADHD and Fibromyalgia])[
+Two genetic correlations not yet computed from DecodeME would inform cross-disease models.
+
+*ADHD:* ADHD involves dopaminergic and noradrenergic dysfunction, cognitive fatigue, and executive dysfunction---symptoms shared with ME/CFS. If $r_g$(ME/CFS, ADHD) $> 0.30$, this would support the Maccallini VTA/SN dopaminergic signal (Speculation @spec:vta-sn-dopaminergic), suggest ADHD medications may benefit a dopaminergic ME/CFS subtype, and raise whether childhood ADHD is a risk factor for post-infectious ME/CFS.
+
+*Fibromyalgia:* ME/CFS and fibromyalgia frequently co-occur. If $r_g$(ME/CFS, FM) $> 0.80$, they are genetically near-identical, suggesting a spectrum disorder. If $r_g < 0.30$, the conditions are genetically distinct despite phenotypic overlap. Partitioned $r_g$ by pain pathway genes versus neuronal/synaptic genes would reveal whether the overlap is pain-mediated or reflects shared central sensitisation.
+] <oq:adhd-fm-genetic-correlations>
+
+#hypothesis(title: [76 Shared Long COVID Genes: Trigger-Specific or Shared Downstream Vulnerability?])[
+*Certainty: 0.50.* Sardell et al.\ (2026) identified 76 genes shared between ME/CFS and Long COVID combinatorial analyses @Sardell2026combinatorial. A "shared-gene PRS" constructed from SNPs in these 76 genes can be tested within DecodeME: does it preferentially predict post-respiratory-infection-onset ME/CFS (versus EBV-onset or non-infectious), or does it predict ME/CFS equally across trigger types? If the former, these genes represent a respiratory-post-infectious genetic subtype. If the latter, the overlap reflects shared downstream pathology (brain circuit vulnerability) rather than shared trigger biology.
+
+*Falsifiable prediction:* If the shared-gene PRS does not preferentially predict post-respiratory-onset ME/CFS (interaction $p > 0.1$), the 76-gene overlap reflects shared downstream biology, not trigger-specific vulnerability. The prediction is modest trigger preference (OR $approx$ 1.15 for respiratory versus $approx$ 1.05 for EBV), but the dominant signal will be trigger-independent.
+] <hyp:long-covid-shared-genes>
+
+===== Between-Cluster Epistasis
+
+#speculation(title: [Sardell Cluster Cross-Talk: Synergy Between Neuronal and Autophagy Pathways])[
+Sardell et al.\ (2026) identified within-cluster epistasis (synergistic interactions among genes in the same functional cluster) @Sardell2026combinatorial. The most biologically interesting question is between-cluster interactions: does having both neuronal AND autophagy risk create a synergy beyond their additive effects? A cluster-pair interaction PRS (product of cluster-specific PRSs) can test whether the interaction term predicts ME/CFS risk or severity beyond additive effects. If the neuronal $times$ autophagy interaction is strongest, mitophagy failure in neurons is the critical convergence point, supporting a model where neurons with both synaptic dysfunction and impaired mitophagy are uniquely vulnerable (connecting Hypothesis @hyp:mitophagy-vulnerability with Hypothesis @hyp:glutamatergic-synaptic-dysfunction).
+
+(Certainty: 0.40)
+
+*Falsifiable prediction:* If no between-cluster interaction term is significant (interaction $p > 0.01$ for all pairs), the clusters act independently and ME/CFS risk is additive across pathways. The prediction is that the neuronal $times$ autophagy interaction will show synergy coefficient $> 1.2$, while the immune cluster acts additively.
+] <spec:between-cluster-epistasis>
+
+===== Family History and Genetic Subtyping Validation
+
+#open-question(title: [PRS Versus Family History: Measured and Unmeasured Genetic Risk])[
+Comparing PRS between ME/CFS patients with and without a family history of ME/CFS quantifies what proportion of familial risk is captured by common variants. Family history captures all heritable factors (common variants, rare variants, structural variants, epigenetic inheritance) plus shared environment. If PRS accounts for $< 20%$ of the family history effect, rare variant studies (SequenceME WGS) are high priority. If PRS captures most familial risk, larger GWAS will be the most productive strategy. An interaction test---whether family-history-positive patients with high PRS have earlier onset and greater severity than predicted by either factor alone---probes whether genetic risk compounds non-linearly.
+] <oq:prs-vs-family-history>
+
+===== Cross-Trait PRS for Symptom Subtyping
+
+#speculation(title: [External PRS as Genetic Modifiers of ME/CFS Symptom Profile])[
+ME/CFS symptom heterogeneity may partly reflect the overlay of multiple genetic predispositions. Polygenic risk scores from external GWAS (chronic pain, cognitive performance, blood pressure, iron/ferritin levels, vitamin D) applied to DecodeME participants could identify which symptom dimensions are genetically shared with other traits versus ME/CFS-specific. A patient with high ME/CFS PRS plus high pain PRS might present with a fibromyalgia-like phenotype; high ME/CFS PRS plus high cognitive-performance PRS (protective direction) might have preserved cognition despite severe PEM.
+
+(Certainty: 0.50)
+
+*Falsifiable prediction:* If no external PRS predicts any ME/CFS symptom dimension (all $p > 0.01$), within-ME/CFS symptom variation is not genetically correlated with these common traits. The prediction is that pain PRS will predict pain-dominant phenotype (OR $approx$ 1.1), cognitive PRS will inversely predict cognitive dysfunction severity, and blood pressure PRS will predict orthostatic intolerance severity.
+] <spec:external-prs-symptom-modifiers>
+
+===== PheWAS and Pleiotropy Mapping
+
+#open-question(title: [Phenome-Wide Association of DecodeME Loci])[
+For each of the eight genome-wide significant loci, a phenome-wide association study (PheWAS) using UK Biobank summary statistics can classify loci as ME/CFS-specific (no associations with correlated traits), broadly pleiotropic, or selectively pleiotropic (associated with specific trait clusters). Colocalization analysis (coloc) at each locus tests whether the same causal variant drives ME/CFS and the correlated trait. A locus that colocalises between ME/CFS and IBS but not depression identifies a gut-brain-specific variant. A locus that colocalises with depression and sleeping-too-much but not IBS identifies a central fatigue variant. The prediction---consistent with the "no shared causal variants" finding---is that two to three of eight loci will colocalise with IBS or sleep traits (posterior probability of shared variant $> 0.7$), while none will colocalise with depression.
+] <oq:phewas-decodeme-loci>
+
+===== Onset Age as Quantitative Trait
+
+#open-question(title: [GWAS of Age-at-Onset Within ME/CFS Cases])[
+A within-case GWAS treating onset age as a continuous quantitative trait (linear regression, genotype predicting onset age, adjusted for sex and ancestry PCs) asks: which SNPs influence *when* ME/CFS develops, given that it develops? This is distinct from the already-proposed onset-age-stratified GWAS (which compares early versus late against controls). Onset-age modifier loci have been identified in breast cancer, Parkinson's disease, and diabetes. In ME/CFS, with bimodally distributed onset age ($approx$18.8 and $approx$40.1 peaks), the analysis could identify developmental vulnerability windows (neurodevelopmental genes predicting early onset), aging-related pathways (mitochondrial quality control genes predicting late onset), or immune maturation variants (HLA region predicting onset relative to EBV exposure window). Onset-age modifier loci are clinically actionable: they identify which young people are at highest risk and might benefit from early intervention after infectious mononucleosis.
+] <oq:onset-age-quantitative-gwas>
+
 == Epigenetic Modifications
 <sec:epigenetics>
 
