@@ -242,7 +242,7 @@ void main(String[] args) throws IOException, InterruptedException {
             resolvedSharedFile.toFile().deleteOnExit();
 
             var cmd = new String[]{
-                "java", "--enable-preview", "--source", "21",
+                "java", "--source", "25",
                 casPath.toString(),
                 resolvedSharedFile.toAbsolutePath().toString(),
                 webSharedDir.toAbsolutePath().toString()

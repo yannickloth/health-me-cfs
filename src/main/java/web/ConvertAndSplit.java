@@ -49,6 +49,9 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("#align\\(center,\\s*", "");
     src = src.replaceAll("#align\\(\\s*", "");
 
+    // #quote[...] → blockquote (must run BEFORE encloseEnv which strips ] lines)
+    src = quoteToBlockquote(src);
+
     // Bracketed envs: #achievement(title: [...])[...] → simple unstyled block (no fenced divs to avoid OOM)
     // Just extract text between [!...]
     src = encloseEnv(src, "achievement",   "note",   "Achievement");
@@ -68,9 +71,6 @@ void main(String[] args) throws IOException {
 
     // #chapter-abstract[...]
     src = src.replaceAll("#chapter-abstract\\[", "::: {.callout-note}\n### Chapter Abstract\n\n");
-
-    // #quote[...] → blockquote (must run BEFORE ] line stripping)
-    src = quoteToBlockquote(src);
 
     // Close standalone ] lines — replace any line that is just ] or ]<label>
     // But only do this for genuine env closings, not stray brackets.
