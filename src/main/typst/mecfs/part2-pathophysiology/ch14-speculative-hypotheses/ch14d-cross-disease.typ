@@ -2528,4 +2528,489 @@ This mechanism provides a vascular explanation for POTS that is independent of a
 *Limitations.* Linear epitope prediction (BLASTp) misses conformational epitopes, which may be the relevant targets. Even if a candidate is identified, demonstrating that it drives human disease requires passive transfer experiments that are themselves uncertain. The Guillain-Barré-Campylobacter precedent confirms molecular mimicry works but took decades to fully establish — this hypothesis is at the very start of that arc.
 ] <oq:covid-ebv-mimicry>
 
+=== The Narcolepsy Type 2 Connection: Orexin as Compartmentalized Energy Failure
+<sec:narcolepsy-mecfs>
+
+Narcolepsy Type 1 (NT1) is an autoimmune disease in which CD4+ and CD8+ T-cells destroy hypocretin/orexin-producing neurons in the lateral hypothalamus, causing >90% orexin neuron loss and CSF orexin-A levels below 110 pg/mL @Lopez2023tcellNarcolepsy @Rauf2025narcolepsyOrexin @Shan2026narcolepsy.
+Narcolepsy Type 2 (NT2) occupies a diagnostically ambiguous "gray zone" with intermediate orexin levels (110--200 pg/mL), suggesting partial rather than complete orexin neuron loss @Rauf2025narcolepsyOrexin.
+The ME/CFS connection is not with the autoimmune destruction of NT1, but with the functional orexin suppression that could produce an NT2-like state.
+
+*The orexin suppression pathway.*
+Peripheral inflammatory cytokines (IL-1$beta$, TNF-$alpha$) actively suppress orexin neuron firing in the lateral hypothalamus @Grossberg2011orexinLethargy.
+This suppression is mediated partly through vagal afferent signaling @Gaykema2009orexinSickness and partly through local hypothalamic neurotensin interneurons.
+Critically, chemogenetic reactivation of orexin neurons reverses inflammation-induced lethargy @Grossberg2011orexinLethargy, demonstrating that orexin suppression is _causal_ in inflammation-driven fatigue, not merely correlational.
+The same cytokine-mediated orexin suppression occurs in chemotherapy-induced fatigue, where central orexin-A administration restores activity levels @Weymann2014orexinChemoFatigue.
+
+*Post-infectious trigger precedent.*
+The H1N1 influenza pandemic and Pandemrix vaccination produced a well-documented surge in narcolepsy onset, confirming that viral infection can trigger orexin neuron destruction via molecular mimicry and T-cell-mediated autoimmunity @Lopez2023tcellNarcolepsy.
+SARS-CoV-2 is now emerging as a potential trigger, with case reports of new-onset narcolepsy post-COVID and reduced plasma orexin-A in post-acute sequelae of COVID-19 (PASC) patients @Ruhrländer2025orexinPASC @Heinicke2025orexinCOVID.
+This post-infectious trigger pattern directly parallels ME/CFS, where EBV, enteroviruses, and SARS-CoV-2 are established precipitants.
+
+*Symptom overlap.*
+Narcolepsy shares several features with ME/CFS beyond fatigue: sleep fragmentation and unrefreshing sleep (orexin deficiency directly causes disrupted NREM-REM cycling @Ito2023orexinREM), chronic pain (32.8% of NT1 patients vs 17.9% controls @Dauvilliers2011painNarcolepsy, likely due to impaired orexin-mediated nociceptive modulation), autonomic dysregulation (orexin neurons regulate sympathetic tone and baroreflex sensitivity @Ruhrländer2025orexinPASC), and cognitive dysfunction.
+
+*Metabolic bridge: fatty acid oxidation.*
+Carnitine deficiency disturbs orexin neuron activity under metabolic stress, and narcolepsy is associated with CPT1B (carnitine palmitoyltransferase 1B) polymorphisms @Horiuchi2015carnitineOrexin.
+CPT1B mediates mitochondrial fatty acid $beta$-oxidation --- the same pathway implicated in ME/CFS metabolic dysfunction.
+This links orexin neuron vulnerability to mitochondrial metabolic capacity: orexin neurons, being among the most metabolically demanding in the brain (unmyelinated axons, massive arborization, autonomous pacemaking), may fail preferentially under systemic bioenergetic stress.
+
+*Counterevidence.*
+CSF orexin-A was not reduced in MS patients despite significant neuroinflammation, and no correlation with fatigue was found @Constantinescu2011orexinMSnull.
+This demonstrates that not all neuroinflammatory fatigue involves orexin suppression --- the pathway may be disease-specific.
+Additionally, comprehensive autoantibody profiling in ME/CFS found no anti-orexin or anti-hypocretin antibodies @Germain2025autoantibody, arguing against a humoral autoimmune mechanism analogous to NT1.
+However, neither finding rules out cytokine-mediated functional suppression (without autoimmune destruction) or T-cell-mediated mechanisms not captured by antibody screening.
+
+#speculation(title: [ME/CFS as Functional Narcolepsy Type 2: Cytokine-Mediated Orexin Suppression Without Autoimmune Destruction])[
+*Certainty: 0.30.* (0.25→0.30: feed-into from hyp:ch15-orexin-suppression, cert 0.50, link cert 0.55.) ME/CFS involves chronic low-grade neuroinflammation that functionally suppresses orexin neuron activity, producing an acquired NT2-like state without the autoimmune orexin neuron destruction of NT1.
+The key distinction: NT1 involves permanent orexin neuron loss (>90%); ME/CFS involves reversible cytokine-mediated suppression, explaining why ME/CFS patients can partially recover while NT1 patients cannot.
+The intermediate orexin levels seen in NT2 (110--200 pg/mL) may represent the overlap zone where functional suppression and partial autoimmune destruction are indistinguishable.
+
+*Predictions.* (a) CSF orexin-A levels in ME/CFS patients fall in the NT2 "gray zone" (110--200 pg/mL) at significantly higher rates than healthy controls ($gt.eq$30% of ME/CFS vs $lt.eq$5% controls).
+(b) ME/CFS CSF orexin-A correlates inversely with fatigue severity (CFQ score, $r gt.eq 0.3$) and with IL-6/TNF-$alpha$ levels ($r gt.eq 0.25$).
+(c) Anti-inflammatory treatment (e.g., LDN, which reduces microglial activation) increases CSF orexin-A levels ($gt.eq$15% from baseline at 12 weeks).
+(d) OX2R agonist (danavorexton or oveporexton) improves ME/CFS fatigue ($gt.eq$20% reduction in Chalder Fatigue Scale) and unrefreshing sleep (Pittsburgh Sleep Quality Index $gt.eq$3 point improvement) in a 4-week open-label trial.
+
+*Falsified if* (a) CSF orexin-A levels in ME/CFS are indistinguishable from healthy controls ($gt$200 pg/mL in $gt.eq$90% of patients), or (b) OX2R agonist produces no subjective or objective improvement in fatigue or sleep quality, or (c) cytokine levels do not correlate with orexin-A in ME/CFS CSF.
+
+*Limitations.* CSF orexin measurement requires lumbar puncture, limiting study feasibility.
+Plasma orexin-A is a poor proxy for central orexin tone.
+The MS null finding @Constantinescu2011orexinMSnull suggests that neuroinflammation does not universally suppress orexin --- the pathway may require specific cytokine profiles or hypothalamic involvement that differs between MS and ME/CFS.
+The autoantibody null @Germain2025autoantibody weakens but does not refute the hypothesis, since functional suppression does not require autoantibodies.
+] <spec:mecfs-functional-narcolepsy>
+
+#speculation(title: [Orexin Neurons as Metabolic Canaries: Preferential Failure Under Systemic Bioenergetic Stress])[
+*Certainty: 0.20.* Orexin neurons in the lateral hypothalamus are among the most metabolically demanding neurons in the brain: unmyelinated axons projecting across the entire neuraxis, autonomous pacemaking activity, and massive axonal arborization requiring continuous ATP supply.
+Under systemic mitochondrial stress (as in ME/CFS), these high-demand neurons may fail preferentially --- analogous to how substantia nigra dopaminergic neurons fail first in Parkinson's disease due to their exceptional metabolic demands.
+The CPT1B/carnitine link @Horiuchi2015carnitineOrexin supports this: orexin neurons depend on fatty acid $beta$-oxidation for sustained firing, and disruption of this pathway produces orexin dysfunction and fatigue.
+
+*Predictions.* (a) Orexin neuron activity (measured by CSF orexin-A or functional imaging) correlates with markers of systemic mitochondrial function (PBMC spare respiratory capacity, serum lactate:pyruvate ratio) in ME/CFS ($r gt.eq 0.3$).
+(b) Carnitine supplementation (L-carnitine 2 g/day, 12 weeks) improves both CSF orexin-A ($gt.eq$10% increase) and fatigue scores in ME/CFS patients with documented low serum carnitine.
+(c) ME/CFS patients with the lowest orexin levels also show the most severe PEM, consistent with orexin neurons as a "first failure" indicator of metabolic reserve depletion.
+
+*Falsified if* (a) orexin levels do not correlate with any measure of mitochondrial function, or (b) carnitine supplementation has no effect on orexin levels in carnitine-deficient ME/CFS patients, or (c) ME/CFS patients with low orexin do not differ in PEM severity from those with normal orexin.
+
+*Limitations.* The "metabolic canary" concept is by analogy with Parkinson's dopaminergic neurons; no direct evidence exists for preferential orexin neuron vulnerability in ME/CFS.
+CPT1B data is from one low-quality study @Horiuchi2015carnitineOrexin.
+Carnitine supplementation trials in ME/CFS have shown mixed results, though none measured orexin as an outcome.
+] <spec:orexin-metabolic-canary>
+
+#open-question(title: [Does ME/CFS Produce Acquired Orexinergic Dysfunction Detectable by CSF Orexin-A Measurement?])[
+The critical missing evidence for the narcolepsy--ME/CFS connection is a case-control study measuring CSF orexin-A in well-characterized ME/CFS patients versus healthy controls, NT1, and NT2 patients.
+Existing evidence from animal models demonstrates that inflammatory cytokines suppress orexin neuron activity @Grossberg2011orexinLethargy @Gaykema2009orexinSickness, and reduced plasma orexin-A has been found in post-COVID fatigue @Ruhrländer2025orexinPASC @Heinicke2025orexinCOVID, but no study has measured CSF orexin-A (the gold standard for orexin tone assessment) in ME/CFS patients.
+The null finding in MS @Constantinescu2011orexinMSnull suggests that results may be disease-specific rather than a universal consequence of neuroinflammation.
+A positive finding would open the door to OX2R agonist trials (danavorexton showed +11.1 points on Maintenance of Wakefulness Test in NT1 @Rauf2025narcolepsyOrexin) as a targeted ME/CFS treatment for sleep and fatigue symptoms.
+] <oq:csf-orexin-mecfs>
+
+==== Orexin-ME/CFS Hypotheses
+
+#speculation(title: [Orexin Tone as a Metabolic Thermostat for R_headroom])[
+*Certainty: 0.25.* Orexin neurons are among the most metabolically demanding CNS cells — high mitochondrial enzyme expression, rapid firing, exquisite sensitivity to peripheral energy status. If Architecture C posits systemic metabolic reserve deficit, orexin neuron dysfunction may be the CNS-specific expression of the same deficit: orexin tone becomes a readout of central R_headroom.
+
+*Predictions.* (a) ME/CFS patients with lowest PBMC mitochondrial respiration (lowest R_headroom by Seahorse assay) will have lowest CSF orexin-A. (b) This correlation will be stronger than the correlation between inflammatory cytokines and orexin-A. (c) The relationship persists after controlling for depression and deconditioning.
+
+*Falsified if* no significant correlation between PBMC spare respiratory capacity and CSF orexin-A after controlling for confounders.
+
+*Limitations.* No direct study links R_headroom to orexin firing. Seahorse PBMC assay may not reflect hypothalamic mitochondrial function. Cross-sectional design cannot establish causation.
+] <spec:orexin-metabolic-thermostat>
+
+#speculation(title: [Subclinical SOREMs as PEM Triggers])[
+*Certainty: 0.20.* Orexin deficiency causes REM fragmentation — inappropriate REM intrusions into NREM @Ito2023orexinREM. In ME/CFS, partial orexin deficiency may produce subclinical REM intrusions ($lt$1 minute) during NREM that fragment sleep architecture without meeting SOREM criteria, preventing sustained NREM epochs needed for glymphatic clearance and autonomic resetting.
+
+*Predictions.* (a) Overnight EEG with automated SOREM/micro-sleep-onset-REM detection will reveal 2–5× more REM intrusions in ME/CFS than matched controls. (b) Count of nocturnal REM intrusions will predict next-day PEM threshold (r > 0.4). (c) The number of intrusions will correlate with subjective unrefreshing sleep scores.
+
+*Falsified if* no significant difference in REM intrusion frequency between ME/CFS and controls, or if intrusion frequency does not predict next-day symptom burden.
+
+*Limitations.* Requires automated EEG scoring algorithms not yet validated in ME/CFS. Micro-fragmentation may be detectable only with high-density EEG. No PSG studies have specifically quantified sub-scoring-threshold REM intrusions in ME/CFS.
+] <spec:subclinical-sorems-pem>
+
+#speculation(title: [Dual-Hit Orexin Pathology: Functional Suppression + Incomplete Autoimmune Destruction])[
+*Certainty: 0.30.* Two distinct mechanisms — cytokine-mediated functional suppression @Grossberg2011orexinLethargy @Gaykema2009orexinSickness and autoimmune T-cell-mediated destruction @Lopez2023tcellNarcolepsy — may coexist on a spectrum in ME/CFS. Chronic low-grade neuroinflammation both functionally suppresses orexin neuron firing AND gradually primes the immune system against orexin neurons, a slow autoimmune process causing 10–30% neuron loss over years.
+
+*Predictions.* (a) ME/CFS patients will show elevated CD8+ T-cell reactivity to orexin peptide epitopes vs controls. (b) T-cell reactivity will correlate negatively with CSF orexin-A (r < -0.4). (c) Postmortem hypothalamic tissue will show 20–40% HCRT neuron reduction (not the >95% of NT1). (d) Anti-inflammatory + OX2R agonist therapy partially restores function but immunosuppression may be needed to halt progression.
+
+*Falsified if* no T-cell reactivity to orexin peptides in ME/CFS, or if postmortem orexin neuron counts do not differ from controls.
+
+*Limitations.* Germain 2025 found no anti-orexin antibodies in ME/CFS @Germain2025autoantibody, but the NT1 mechanism is T-cell-mediated, not humoral @Lopez2023tcellNarcolepsy. No study has measured CSF orexin neuron-specific T cells or orexin neuron density in ME/CFS. The Constantinescu 2011 MS null @Constantinescu2011orexinMSnull suggests this pathway is disease-specific.
+] <spec:dual-hit-orexin>
+
+#speculation(title: [Sex-Specific Orexin Neuron Vulnerability via Estrogen Modulation])[
+*Certainty: 0.25.* Orexin neurons express estrogen receptors; estrogen modulates their firing. ME/CFS is 3–4× more common in women. Estrogen increases orexin neuron metabolic demand, making female orexin neurons more vulnerable to cytokine-mediated suppression — explaining both female predominance and perimenopausal/menopausal onset patterns.
+
+*Predictions.* (a) In LPS-challenged ovariectomized female rodents, estradiol-treated animals will show greater orexin suppression and lethargy than untreated. (b) In human ME/CFS, CSF orexin-A will be lowest in women with perimenopausal onset. (c) Women with lowest CSF orexin-A will show strongest correlation with estradiol fluctuation.
+
+*Falsified if* no sex difference in orexin-A levels in ME/CFS, or if estrogen manipulation in animals does not modulate orexin suppression.
+
+*Limitations.* Grossberg 2011 and Gaykema 2009 used predominantly male animals. No sex-disaggregated orexin suppression data exist. Orexin neuron estrogen receptor expression is established basic neuroscience but not studied in disease models.
+] <spec:orexin-sex-vulnerability>
+
+#speculation(title: [OX2R Downregulation as Consequence of Chronic Low-Orexin Tone])[
+*Certainty: 0.20.* Chronic low-level orexin signaling may produce OX2R downregulation in target tissues (LC, TMN, sympathetic neurons) as homeostatic adaptation to reduced ligand availability. Even if orexin levels were restored, receptors would be unresponsive — a pharmacological tolerance to endogenous orexin.
+
+*Predictions.* (a) In a chronic neuroinflammation animal model (4-week LPS infusion), OX2R mRNA and protein in LC and TMN will be significantly reduced. (b) Behavioral response to a single dose of danavorexton will be blunted vs naive animals. (c) OX2R agonist clinical trials in ME/CFS require dose-escalation phases to distinguish non-response from receptor downregulation.
+
+*Falsified if* OX2R expression is not reduced after chronic LPS, or if dose escalation does not improve response in a subset of initial non-responders.
+
+*Limitations.* GPCR desensitization from chronic low agonist exposure is a general pharmacological principle. No direct OX2R studies in the context of chronic endogenous orexin suppression exist. Danavorexton variable response in NT1 @Rauf2025narcolepsyOrexin may reflect receptor downregulation.
+] <spec:ox2r-downregulation>
+
+#speculation(title: [Orexin Suppression as Epiphenomenon, Not Mechanism])[
+*Certainty: 0.15.* (0.20→0.15: conflict with hyp:ch15-orexin-suppression, cert 0.50, diff 0.30.) The null findings in MS fatigue @Constantinescu2011orexinMSnull and lack of anti-orexin antibodies @Germain2025autoantibody, combined with the acute-LPS limitation of animal models, raise the possibility that orexin suppression is a consequence of deeper metabolic failure — a canary in the coal mine rather than the toxic gas. The true driver may be upstream mitochondrial failure in hypothalamic circuits.
+
+*Predictions.* (a) An OX2R agonist (danavorexton or oveporexton) RCT in ME/CFS (n=200, 8 weeks) will produce no significant improvement in fatigue or PEM vs placebo. (b) Improvements in sleep consolidation will not translate to improved energy. (c) Orexin-targeted treatments fail because they target a downstream readout, not root cause.
+
+*Falsified if* OX2R agonist produces clinically meaningful fatigue reduction (≥30% improvement in Chalder Fatigue Scale).
+
+*Limitations.* No OX2R agonist trials in ME/CFS exist. The Architecture C model predicts mitochondrial deficit is primary, but does not rule out orexin as an amplifying intermediate. This hypothesis directly challenges the paper's existing orexin integration.
+] <spec:orexin-epiphenomenon>
+
+#speculation(title: [NT2 and ME/CFS as the Same Disease at Different Stages])[
+*Certainty: 0.10.* NT2 is diagnosed by EDS + MSLT without cataplexy with intermediate CSF orexin (110–200 pg/mL). ME/CFS patients also meet EDS criteria on MSLT, and NT2 patients report fatigue. The diagnostic boundary may be an artifact of which specialty the patient sees. CSF orexin may be the same across both diagnostic labels, challenging the classification entirely.
+
+*Predictions.* (a) In a cross-sectional study (n=50 NT2, n=50 ME/CFS, n=50 comorbid, n=50 controls), CSF orexin-A distribution will overlap substantially between NT2 and ME/CFS. (b) Symptom profiles will show continuous rather than bimodal separation. (c) No statistically significant difference in CSF orexin-A between NT2 and ME/CFS groups.
+
+*Falsified if* CSF orexin-A levels significantly differ between NT2 and ME/CFS groups, or if symptom profiles show clear bimodal clustering.
+
+*Limitations.* No study has simultaneously measured CSF orexin in NT2 and ME/CFS with the same assay @Rauf2025narcolepsyOrexin @LopezAmador2025orexin. Diagnostic criteria overlap confounds patient selection. Requires multi-center collaboration.
+] <spec:nt2-mecfs-same-disease>
+
+==== Cross-Disease Bridges: Orexin Intersections
+
+#speculation(title: [Shared Orexin-Dopamine Dysregulation in ADHD and ME/CFS])[
+*Certainty: 0.25.* Orexin neurons project to the VTA and regulate dopamine neuron firing — orexin enhances phasic dopamine release critical for motivation and sustained attention. Orexin deficiency simultaneously reduces prefrontal dopamine tone (producing brain fog) and mesolimbic reward signaling (producing anhedonia). The 8.1% lower global cerebral glucose metabolism in ADHD may be the systemic expression of the same hypothalamic orexin deficit.
+
+*Predictions.* (a) ME/CFS patients with lowest CSF orexin-A will show lowest CSF homovanillic acid (HVA, dopamine metabolite). (b) Orexin-low ME/CFS patients will show higher ADHD self-report scores (ASRS-v1.1) than orexin-normal ME/CFS. (c) Worst Conners CPT-3 performance in orexin-low patients.
+
+*Falsified if* no correlation between CSF orexin-A and HVA in ME/CFS, or if ADHD scores do not differ by orexin status.
+
+*Limitations.* The paper covers ADHD as brain energy deficit and connects ADHD to ME/CFS via metabolic reserve. The specific orexin-dopamine bridge is novel and untested. No ME/CFS study has measured dopamine in relation to orexin or attention.
+] <spec:orexin-adhd-dopamine>
+
+#speculation(title: [Bidirectional Orexin-Mast Cell Amplification Loop])[
+*Certainty: 0.20.* Mast cells express orexin receptors (OX1R and OX2R). Orexin-A can directly activate mast cells to release histamine and tryptase. Conversely, mast cell-derived histamine and prostaglandins suppress orexin neuron firing. Additionally, orexin normally tightens the BBB via OX1R on endothelial cells — orexin deficiency increases BBB permeability, enabling more mast cell mediator entry into the hypothalamus.
+
+*Predictions.* (a) In an MCAS-ME/CFS subgroup, plasma histamine and tryptase will correlate negatively with plasma orexin-A (r < -0.3). (b) OX2R agonist will reduce histamine release in ex vivo mast cell assays from these patients. (c) Combined orexin-MCAS intervention outperforms either alone.
+
+*Falsified if* no correlation between mast cell mediators and orexin-A, or if OX2R agonist does not modulate mast cell degranulation.
+
+*Limitations.* Mast cells express orexin receptors (documented literature), but the bidirectional loop interaction is untested. The paper covers MCAS extensively. Connects two major paper themes in a testable loop.
+] <spec:orexin-mcas-loop>
+
+#speculation(title: [Orexin-Baroreflex Failure as the POTS Mechanism])[
+*Certainty: 0.25.* Orexin neurons project to brainstem cardiovascular centers and modulate baroreflex sensitivity. Orexin-B at OX2R in the brainstem potentiates the baroreflex. Partial orexin deficiency (specifically orexin-B) causes baroreflex blunting, producing the POTS phenotype: heart rate overcompensates for small BP drops.
+
+*Predictions.* (a) POTS severity in ME/CFS will correlate inversely with CSF orexin-B (not just orexin-A). (b) OX2R agonist administered 30 min before tilt-table test will reduce heart rate increment by >15 bpm in orexin-low patients. (c) Plasma orexin-B during tilt will correlate with baroreflex sensitivity (r > 0.5).
+
+*Falsified if* no correlation between CSF orexin-B and POTS severity, or if OX2R agonist does not improve tilt-table hemodynamics.
+
+*Limitations.* Ruhrländer 2025 links orexin to autonomic function in PASC @Ruhrländer2025orexinPASC. The specific orexin-B/POTS-baroreflex connection is novel. No study has measured CSF orexin-B in POTS patients.
+] <spec:orexin-pots-baroreflex>
+
+#speculation(title: [Orexin-Collagen Crosstalk via TGF-beta in hEDS])[
+*Certainty: 0.10.* hEDS involves altered TGF-beta signaling and abnormal collagen structure. Orexin-A modulates TGF-beta signaling — OX1R activation inhibits TGF-beta1-induced collagen production. Orexin deficiency in ME/CFS may reduce OX1R-mediated TGF-beta inhibition, increasing TGF-beta signaling and altering ECM remodeling in hEDS.
+
+*Predictions.* (a) Plasma TGF-beta1 will be elevated in ME/CFS patients with comorbid hEDS vs ME/CFS without hEDS. (b) TGF-beta1 will correlate negatively with plasma orexin-A (r < -0.3). (c) The hEDS+ME/CFS subgroup will show the lowest orexin levels.
+
+*Falsified if* no difference in TGF-beta1 between hEDS and non-hEDS ME/CFS, or if orexin does not correlate with TGF-beta1.
+
+*Limitations.* Orexin-TGF-beta crosstalk literature is limited, primarily in non-neuronal cells. No direct orexin-hEDS studies exist. Highly speculative but connects two major paper themes.
+] <spec:orexin-heds-tgfb>
+
+#speculation(title: [Post-COVID Narcolepsy as Sentinel for Orexin-Targeted ME/CFS Prevention])[
+*Certainty: 0.20.* COVID-19 is an emerging trigger for narcolepsy @Lopez2023tcellNarcolepsy. If SARS-CoV-2 can trigger autoimmune orexin neuron destruction in some patients, the same mechanism in milder form may underlie post-COVID ME/CFS. Patients with new-onset EDS after COVID could be screened with CSF orexin and followed prospectively as a sentinel population.
+
+*Predictions.* (a) In n=1000 COVID-19 patients, 2–5% will develop new-onset EDS within 6 months; 30–50% of those will have CSF orexin-A in the NT2 gray zone (110–200 pg/mL). (b) Gray-zone orexin patients will have >50% risk of meeting ME/CFS criteria at 12 months. (c) Early OX2R agonist treatment in gray-zone patients prevents chronic orexin suppression.
+
+*Falsified if* no post-COVID EDS patients show gray-zone orexin, or if gray-zone orexin does not predict ME/CFS development.
+
+*Limitations.* COVID-narcolepsy link is based on emerging case reports @Lopez2023tcellNarcolepsy. Prospective sentinel study design is novel and untested. Prevention would require early LP and OX2R agonist availability.
+] <spec:post-covid-narcolepsy-sentinel>
+
+==== Therapeutic Implications
+
+#speculation(title: [Danavorexton as Targeted Oxidative Stress Therapy for ME/CFS PEM])[
+*Certainty: 0.20.* Danavorexton (TAK-925) is a selective OX2R agonist that increased MWT by +11.1 points in NT1 @Rauf2025narcolepsyOrexin. If ME/CFS involves partial orexin deficiency, OX2R agonism should improve fatigue, cognitive dysfunction, and PEM. Direct receptor activation bypasses endogenous orexin, working even if orexin neurons are functionally suppressed.
+
+*Predictions.* (a) Danavorexton IV infusion during 2-day CPET will reduce post-exertional symptom flare (FAS score) by >40% at 24h post-exercise vs placebo in orexin-low ME/CFS (CSF orexin-A < 200 pg/mL). (b) Cognitive PVT performance decline post-exercise is attenuated. (c) Non-responders have lowest CSF orexin and/or longest disease duration.
+
+*Falsified if* no significant difference between danavorexton and placebo on PEM outcomes in any ME/CFS subgroup.
+
+*Limitations.* Danavorexton is IV-only (limited to clinical settings). TAK-861/oveporexton is oral with earlier clinical data. Grossberg 2011 demonstrated orexin-A rescue in animal lethargy @Grossberg2011orexinLethargy and Weymann 2014 in chemotherapy fatigue @Weymann2014orexinChemoFatigue, but no human ME/CFS trial exists.
+] <spec:danavorexton-pem>
+
+#speculation(title: [Almorexant as Short-Half-Life DORA for Sleep Architecture])[
+*Certainty: 0.15.* Almorexant is a DORA with a very short half-life (~3h), potentially producing a narrow window of orexin antagonism — just enough to initiate consolidated NREM without impairing later-night glymphatic processes. Its short action may strengthen the orexin on-off signal as a sleep primer.
+
+*Predictions.* (a) Almorexant 200 mg vs placebo in ME/CFS will increase SWS duration by >20% in the first sleep cycle. (b) Improved DTI-ALPS glymphatic index the next morning. (c) Reduced subjective unrefreshing sleep score, exceeding longer-acting DORAs (suvorexant, lemborexant).
+
+*Falsified if* almorexant does not improve sleep architecture or next-morning symptoms more than placebo or long-acting DORAs.
+
+*Limitations.* Almorexant was withdrawn from development due to CNS safety concerns (not efficacy). The short half-life hypothesis is novel and untested. No ME/CFS DORA comparison data exist @Ito2023orexinREM.
+] <spec:almorexant-sleep>
+
+#speculation(title: [Sulforaphane as Orexin-Protective Nrf2 Activator])[
+*Certainty: 0.15.* Sulforaphane (broccoli sprout extract) is an Nrf2 activator that upregulates antioxidant and mitochondrial protective genes. Orexin neurons are metabolically demanding and vulnerable to oxidative stress. Nrf2 activation in the hypothalamus could protect orexin neurons from cytokine-mediated damage.
+
+*Predictions.* (a) 8 weeks of oral sulforaphane (50 mg/day glucoraphanin) in ME/CFS will increase plasma orexin-A by >15%. (b) Fatigue severity score improves by >20% vs placebo. (c) Largest effects in the orexin-low subgroup.
+
+*Falsified if* sulforaphane does not increase orexin-A or improve fatigue scores.
+
+*Limitations.* No direct orexin-Nrf2 studies exist. Nrf2 activation protects dopaminergic neurons in Parkinson's models (well-established). The paper already covers BH4/neopterin as Nrf2-pathway markers. Horiuchi 2015 supports the metabolic vulnerability theme @Horiuchi2015carnitineOrexin.
+] <spec:sulforaphane-orexin>
+
+#speculation(title: [PGE2/EP3 Antagonists to Disinhibit Orexin Neurons])[
+*Certainty: 0.20.* Grossberg 2011 showed cytokine-mediated orexin suppression is mediated by prostaglandin signaling. PGE2 acting on EP3 receptors at the BBB endothelium transmits the inflammatory signal to orexin neurons. EP3 antagonists could block this signal at the BBB gateway, disinhibiting orexin neurons without systemic immunosuppression.
+
+*Predictions.* (a) In the LPS-induced lethargy rodent model, EP3-selective antagonist pretreatment will prevent orexin neuron suppression. (b) Lethargy attenuated by >50%, comparable to chemogenetic orexin activation. (c) EP3 antagonism does not produce global immunosuppression.
+
+*Falsified if* EP3 antagonist does not prevent orexin suppression in the LPS model, or if systemic immunosuppression occurs.
+
+*Limitations.* EP3 antagonists exist only as research compounds (not yet in clinical use). The paper's PGE2/glymphatic loop already discusses this pathway. No EP3 antagonist has been tested for fatigue in any condition.
+] <spec:ep3-antagonist-orexin>
+
+#speculation(title: [LDN as Orexin-Disinhibiting Agent via Microglial Suppression])[
+*Certainty: 0.25.* LDN is already used in ME/CFS but its mechanism is incompletely understood. A novel mechanism: LDN's microglial suppression (TLR4 antagonism) may reduce hypothalamic microglial activation, lowering local PGE2/TNF-alpha tone, thereby disinhibiting orexin neurons. This would make LDN an orexin-restoring agent.
+
+*Predictions.* (a) LDN responders (>30% fatigue reduction) will show a significant increase in plasma orexin-A compared to non-responders and placebo. (b) Orexin increase will correlate with fatigue improvement (r > 0.5). (c) The effect is specific to patients with elevated inflammatory markers.
+
+*Falsified if* no correlation between LDN response and orexin-A increase, or if LDN non-responders show no orexin change.
+
+*Limitations.* Grossberg 2011 establishes the cytokine-microglia-orexin cascade @Grossberg2011orexinLethargy. LDN's TLR4 antagonism on microglia is established. No study has measured orexin in LDN-treated ME/CFS patients. The paper has extensive LDN coverage but not this mechanism.
+] <spec:ldn-orexin-disinhibition>
+
+#speculation(title: [L-Carnitine + CoQ10 for Orexin Neuron Bioenergetic Support])[
+*Certainty: 0.20.* Orexin neurons depend on fatty acid oxidation. Horiuchi 2015 showed carnitine deficiency causes orexin neuron dysfunction and fatigue @Horiuchi2015carnitineOrexin. CoQ10 supports complex I-III electron transport. The combination may provide the specific metabolic support orexin neurons need to maintain firing in a low-R_headroom environment.
+
+*Predictions.* (a) 12 weeks of L-carnitine (2 g/day) + CoQ10 (200 mg/day) in ME/CFS will increase plasma orexin-A by >20%. (b) 6-minute walk test distance improves by >30 meters vs placebo. (c) Orexin increase correlates with functional improvement (r > 0.4).
+
+*Falsified if* combination does not increase orexin-A or improve functional outcomes vs placebo.
+
+*Limitations.* No study has tested the combination or measured orexin. The paper covers carnitine/CoQ10 in the mitochondrial supplement section but not the orexin-specific rationale.
+] <spec:carnitine-coq10-orexin>
+
+#speculation(title: [Glycine as Orexin-Sparing Sleep Enhancer])[
+*Certainty: 0.20.* Glycine promotes sleep by activating NMDA receptors in the SCN and inhibiting orexin neurons via glycinergic interneurons. Unlike GABA-A agonists (zolpidem) that suppress NE oscillations and impair glymphatic clearance, glycine's mechanism may be orexin-sparing — downregulating orexin only during sleep initiation, then permitting normal oscillatory recovery.
+
+*Predictions.* (a) 3 g glycine before bed in ME/CFS will increase SWS duration by >15% vs placebo. (b) Morning plasma orexin-A levels are not reduced (contrasting with DORAs). (c) Subjective sleep quality improves without next-morning grogginess.
+
+*Falsified if* glycine improves sleep only at the cost of reduced morning orexin-A, or if SWS does not increase.
+
+*Limitations.* The paper already lists glycine as a glymphatic-friendly sleep aid. No study on glycine-orexin interaction in ME/CFS exists. The orexin-sparing mechanism is inferred from basic neuroscience.
+] <spec:glycine-orexin-sparing>
+
+#speculation(title: [Apigenin as Orexin-Protective Flavonoid])[
+*Certainty: 0.10.* Apigenin (chamomile) is a GABAA positive allosteric modulator AND a potent anti-inflammatory (NF-kB inhibitor). Its dual action — mild sedation plus hypothalamic anti-inflammatory activity — could protect orexin neurons from cytokine-induced suppression while promoting sleep initiation.
+
+*Predictions.* (a) In the LPS-induced lethargy mouse model, apigenin (50 mg/day, 7 days) will attenuate orexin neuron suppression by >30% (Fos activation). (b) Lethargy reduced by >25%. (c) Hypothalamic NF-kB activation reduced.
+
+*Falsified if* apigenin does not attenuate orexin suppression or lethargy in the LPS model.
+
+*Limitations.* NF-kB inhibition at CNS-relevant concentrations has been demonstrated in animal models. No orexin-specific studies. The paper does not currently discuss apigenin.
+] <spec:apigenin-orexin>
+
+#speculation(title: [PQQ as Orexin Mitochondrial Enhancer])[
+*Certainty: 0.10.* PQQ stimulates mitochondrial biogenesis via PGC-1alpha. Orexin neurons' high mitochondrial demand makes them dependent on robust mitochondrial turnover. PQQ may increase functional mitochondria in orexin neurons, raising their energy ceiling and resistance to cytokine-induced suppression.
+
+*Predictions.* (a) PQQ (20 mg/day, 8 weeks) will increase PBMC mitochondrial density (MitoTracker) in ME/CFS. (b) Patients with largest mitochondrial increase show largest fatigue improvement (r > 0.4). (c) CSF orexin-A unchanged, but orexin responsiveness (by challenge test) improves.
+
+*Falsified if* PQQ does not increase mitochondrial density or improve fatigue/orexin responsiveness.
+
+*Limitations.* PQQ's mitochondrial biogenesis effect is documented in hepatocytes and neuronal cell lines. No orexin-specific studies exist. The paper covers mitochondrial supplements but not PQQ specifically.
+] <spec:pqq-orexin-mito>
+
+#speculation(title: [Morning Bright Light for Orexin Entrainment])[
+*Certainty: 0.25.* Orexin neuron firing is entrained by the SCN — orexin peaks during wake and reaches nadir during sleep. Morning bright light (10,000 lux, 30 min) is the strongest Zeitgeber. In ME/CFS, reduced orexin tone may create a flattened circadian orexin rhythm. Morning light may strengthen the SCN-orexin entrainment signal.
+
+*Predictions.* (a) 4 weeks of morning bright light in ME/CFS will increase the amplitude of the circadian orexin-A rhythm by >30% (6-point plasma orexin-A over 24h). (b) Fatigue severity reduced by >20% vs dim-red-light placebo. (c) Effect is timing-dependent — morning light superior to midday or evening light.
+
+*Falsified if* bright light does not increase orexin rhythm amplitude or improve fatigue.
+
+*Limitations.* Bright light therapy has modest evidence in ME/CFS. No study has measured orexin before and after light therapy. The paper covers light therapy but not the orexin-specific mechanism.
+] <spec:morning-light-orexin>
+
+#speculation(title: [Timed Cold Exposure for Orexin Activation])[
+*Certainty: 0.15.* The mammalian dive reflex activates the trigeminal-parasympathetic reflex arc with monosynaptic connections to the lateral hypothalamus. Orexin neurons are activated by cold stress. Brief cold exposure (30-sec cold face immersion, 10 degrees C) could transiently activate orexin neurons.
+
+*Predictions.* (a) 30-second cold face immersion in ME/CFS will increase plasma orexin-A by >15% at 30 min post-immersion. (b) PVT reaction time improves by >10%. (c) Pain VAS reduced by >20%, with all effects correlating with baseline orexin-A.
+
+*Falsified if* cold face immersion does not increase orexin-A or improve symptoms.
+
+*Limitations.* The paper's cold face immersion research stream has explored this connection. Dauvilliers 2011 suggests orexin loss impairs nociception @Dauvilliers2011painNarcolepsy. Zero equipment required but patient tolerance unknown in ME/CFS.
+] <spec:cold-exposure-orexin>
+
+#speculation(title: [Slow Breathing + Binaural Beats for Orexin-Vagal Coupling])[
+*Certainty: 0.15.* Gaykema 2009 showed vagal afferent signaling mediates inflammation-to-orexin suppression @Gaykema2009orexinSickness. Slow breathing (6 breaths/min) enhances vagal tone, which both reduces peripheral inflammatory signaling to the hypothalamus and directly modulates orexin neuron firing through vagal-NTS-hypothalamic connectivity.
+
+*Predictions.* (a) 8 weeks of daily 20-min slow breathing + theta binaural beats will increase serum orexin-A by >10%. (b) Fatigue severity reduced by >30%. (c) HRV increase (RMSSD) predicts orexin increase (R^2 > 0.5).
+
+*Falsified if* slow breathing does not increase orexin-A or HRV, or if orexin increase does not correlate with symptom improvement.
+
+*Limitations.* Gaykema 2009 establishes the vagal-orexin pathway. The paper's slow breathing research stream covers vagal enhancement. No study has combined slow breathing with orexin measurement. Binaural beats' effect on hypothalamic activity is debated.
+] <spec:breathing-orexin-vagal>
+
+#speculation(title: [Eliminating Orexin-Suppressing Medications])[
+*Certainty: 0.20.* Multiple medication classes suppress orexin neurons: DORAs directly, clonidine via alpha-2 agonism, benzodiazepines/Z-drugs via GABAergic tone, beta-blockers via LC-NE suppression. In ME/CFS where orexin tone is already low, these medications may unwittingly exacerbate orexin deficiency.
+
+*Predictions.* (a) ME/CFS patients discontinuing orexin-suppressing meds (Z-drugs -> glycine, beta-blockers -> ivabradine where appropriate) will show a mean >15% increase in plasma orexin-A. (b) Fatigue severity improves by >25% at 8 weeks. (c) Effects persist at 12-week follow-up.
+
+*Falsified if* no orexin increase or fatigue improvement after medication switch.
+
+*Limitations.* The paper already warns about Z-drugs and glymphatic clearance. The novel idea is a systematic audit of all medications for orexin-suppressing effects. No prospective cohort study has tested this.
+] <spec:eliminate-orexin-suppressors>
+
+#speculation(title: [Multi-Level Orexin Restoration Protocol])[
+*Certainty: 0.15.* Combining morning bright light (strengthen circadian orexin peak), timed low-dose DORA at bedtime (facilitate natural orexin withdrawal for NREM initiation), and glycine (support sleep depth without orexin suppression) may produce a cleaner orexin on-off signal than any single intervention.
+
+*Predictions.* (a) The triple combination will produce additive or synergistic effects on unrefreshing sleep score. (b) Single interventions show smaller effects. (c) 4-arm crossover (n=40) shows triple combination > any single intervention.
+
+*Falsified if* no additive or synergistic effect of the combination vs individual interventions.
+
+*Limitations.* No study has layered orexin-enhancing wake interventions with orexin-sparing sleep interventions. Requires careful timing coordination. The multi-lock framework predicts single-node failures but multi-node success.
+] <spec:multi-level-orexin>
+
+#speculation(title: [OX2R Agonist + LDN for Orexin Positive Feedback])[
+*Certainty: 0.20.* LDN may partially restore endogenous orexin release by reducing microglial inflammation. The OX2R agonist activates remaining receptors. LDN -> more endogenous orexin -> more OX2R activation -> strengthened orexin signaling -> improved sleep/wake consolidation -> reduced inflammation -> more orexin.
+
+*Predictions.* (a) The combination (danavorexton IV 3x/week + LDN 4.5 mg nightly) for 12 weeks will produce >50% improvement in FAS fatigue score. (b) This significantly exceeds either monotherapy ($lt$30%). (c) Effect is specific to orexin-low subgroup.
+
+*Falsified if* combination does not exceed monotherapy, or if no synergy observed.
+
+*Limitations.* No study has combined OX2R agonists with LDN. The positive feedback rationale is novel. Parallels the multi-lock framework's prediction that dual-node interventions may succeed where single-node fails.
+] <spec:ox2r-ldn-combo>
+
+#speculation(title: [Triage-Based Orexin Protocol for Severe Patients])[
+*Certainty: 0.20.* Severe/bedbound ME/CFS patients cannot undergo CPET, LP, or sleep lab studies. A triage protocol: (1) non-invasive screening — plasma orexin-A + actigraphy + subjective sleepiness/fatigue ratio; (2) if plasma orexin-A < 200 pg/mL + high sleep fragmentation — initiate morning bright light + glycine; (3) if no response in 4 weeks — escalate to LDN trial; (4) if LDN-eligible — CNS orexin assessment via LP if feasible.
+
+*Predictions.* (a) Implementation in n=30 severe patients results in >50% receiving at least one orexin-directed intervention. (b) >20% show clinically meaningful improvement (>30% fatigue reduction) within 8 weeks. (c) Protocol is safe (no SAEs attributable to interventions).
+
+*Falsified if* $lt$10% of severe patients qualify for or respond to orexin-directed interventions.
+
+*Limitations.* Ruhrländer 2025 demonstrated plasma orexin-A feasibility in PASC @Ruhrländer2025orexinPASC. Heinicke 2025 in COVID ICU @Heinicke2025orexinCOVID. The paper's severe ME/CFS care guide covers triage principles. No orexin-specific protocol exists for severe ME/CFS.
+] <spec:triage-orexin-severe>
+
+#speculation(title: [Orexin-Responsive ME/CFS Subtype Classification Algorithm])[
+*Certainty: 0.20.* An algorithm combining (a) plasma orexin-A, (b) overnight actigraphy sleep fragmentation index, (c) subjective sleepiness/fatigue ratio (ESS vs FAS), (d) sleep-onset latency on MSLT, and (e) CPT1B genotype could define an orexin-responsive ME/CFS subtype for targeted treatments.
+
+*Predictions.* (a) Algorithm-defined orexin-responsive subtype shows >50% response rate to OX2R agonist challenge vs $lt$10% in non-orexin ME/CFS. (b) Prevalence of this subtype will be 20–40% of overall ME/CFS. (c) Stratification improves trial efficiency.
+
+*Falsified if* algorithm-defined subtype does not predict differential treatment response.
+
+*Limitations.* Rauf 2025 defines the NT2 gray zone @Rauf2025narcolepsyOrexin. Horiuchi 2015 links CPT1B genetics @Horiuchi2015carnitineOrexin. The paper's existing subtyping proposals do not include an orexin-defined subtype. Algorithm requires validation in independent cohorts.
+] <spec:orexin-responsive-subtype>
+
+==== Mathematical Model Extensions
+
+#speculation(title: [R_headroom Extended with Orexin Tone as CNS-Specific Reserve])[
+*Certainty: 0.20.* Adding an orexin-specific variable to the Architecture C ODE model (orexin neuron firing rate O_t, normalized 0–1) allows representation of CNS-specific energy reserve separately from systemic reserve. Orexin neurons may drain from the systemic reserve faster than other cells — a priority consumer. When systemic R_headroom falls below a threshold, orexin firing drops, reducing whole-brain R_headroom through the glymphatic-sleep feedback loop.
+
+*Predictions.* (a) The extended model predicts PEM occurs at higher systemic R_headroom when CNS orexin tone is impaired. (b) OX2R agonist treatment shifts the PEM threshold leftward. (c) An 8.1% reduction in global cerebral glucose metabolism directly reduces orexin tone by 15–25% in the model.
+
+*Falsified if* model predictions cannot be experimentally validated — i.e., PEM threshold does not differ with orexin tone, or OX2R agonist does not shift PEM threshold.
+
+*Limitations.* No ODE model has incorporated orexin. The mathematical extension is novel and requires parameter estimation from human data that does not yet exist. The architecture C model currently lacks CNS-specific variables.
+] <spec:rheadroom-orexin-model>
+
+#speculation(title: [DAG Extension: Orexin-Glymphatic-Microglia Feedback Loop with Bifurcation])[
+*Certainty: 0.25.* The existing DAG includes orexin suppression and glymphatic failure but not their bidirectional interaction. Adding edges: (1) orexin suppression -> impaired LC-NE oscillations -> glymphatic failure; (2) glymphatic failure -> metabolite accumulation -> microglial activation -> cytokine release -> orexin suppression. Bifurcation analysis determines whether the system has two stable states explaining sudden vs gradual onset.
+
+*Predictions.* (a) The DAG will show a bifurcation parameter (neuroinflammatory cytokine concentration at BBB) where the system transitions from single stable state (health) to bistable regime (health or disease). (b) Sudden-onset patients crossed this threshold rapidly (post-infection cytokine surge); gradual-onset patients sit near threshold and cross slowly. (c) Early anti-inflammatory treatment within 2 weeks of infection could prevent threshold crossing.
+
+*Falsified if* no bifurcation parameter is identified, or if the system does not show bistability across plausible parameter ranges.
+
+*Limitations.* Grossberg 2011 links cytokine to orexin @Grossberg2011orexinLethargy. Ito 2023 links orexin to sleep architecture @Ito2023orexinREM. Hauglund 2025 links LC-NE to glymphatic. Bifurcation analysis is novel for ME/CFS.
+] <spec:orexin-glymphatic-dag>
+
+#speculation(title: [ODE Model of Orexin Dynamics Under Boom-Bust Cycle])[
+*Certainty: 0.15.* The boom-bust cycle (over-exertion -> crash -> recovery -> over-exertion) may be modeled as a relaxation oscillator in the orexin system. During boom, orexin firing pushed to maximum. During bust (PEM), orexin crashes below sustainable baseline. Pacing stabilizes orexin firing in a mid-range where neurons maintain tonic activity without exhausting mitochondrial capacity.
+
+*Predictions.* (a) The orexin oscillation model predicts optimal rest-to-activity ratio of 2:1 (20 min activity -> 40 min rest) for preventing PEM in orexin-deficient ME/CFS vs 1:1 in controls. (b) This ratio is testable in a within-subject pacing intervention using wearable-based activity logs. (c) Orexin-stabilized state prevents oscillation growth.
+
+*Falsified if* the optimal pacing ratio does not differ between orexin-deficient and orexin-normal ME/CFS patients.
+
+*Limitations.* No orexin-based mathematical model of PEM exists. Grossberg 2011 provides firing dynamics under stress @Grossberg2011orexinLethargy. Horiuchi 2015 supports metabolic limitation @Horiuchi2015carnitineOrexin. The Architecture C PEM model does not include CNS-specific dynamics.
+] <spec:orexin-boom-bust-ode>
+
+==== Diagnostic and Biomarker Proposals
+
+#open-question(title: [CSF Orexin-A as Definitive Case-Control LP Study])[
+The single most important experiment to resolve the orexin hypothesis: a case-control study measuring CSF orexin-A in well-characterized ME/CFS patients vs healthy controls, NT1, and NT2 patients, with simultaneous plasma measurement. NT2 threshold: $lt$110 pg/mL (NT1), 110–200 pg/mL (NT2 gray zone), $gt$200 pg/mL (normal) @Rauf2025narcolepsyOrexin.
+
+*Predictions.* (a) 30–50% of ME/CFS patients will show CSF orexin-A in the NT2 gray zone. (b) Orexin-A will correlate with unrefreshing sleep severity (r > 0.4) and PEM severity (r > 0.3). (c) Plasma orexin-A will correlate imperfectly with CSF (establishing peripheral-CNS relationship).
+
+*Limitations.* LP is a barrier for many ME/CFS patients. Requires multi-center collaboration. The null finding in MS @Constantinescu2011orexinMSnull suggests results may be disease-specific.
+] <oq:csf-orexin-definitive-lp>
+
+#open-question(title: [OX2R PET Ligand for Orexin Neuron Integrity])[
+CSF orexin measures total ligand output but does not distinguish functional suppression from partial destruction. A PET ligand targeting OX2R (expressed on orexin neurons as autoreceptors) would provide in vivo measure of orexin neuron density, resolving the functional-vs-structural debate. NT1 postmortem studies show 95% loss @Rauf2025narcolepsyOrexin.
+
+*Predictions.* (a) OX2R PET signal reduced >30% in NT2, >60% in NT1 vs controls. (b) ME/CFS patients with lowest CSF orexin-A show intermediate OX2R PET reduction (10–30%). (c) PET reduction predicts OX2R agonist response.
+
+*Limitations.* No PET ligand for orexin neurons currently exists. GPCR PET ligands are challenging. The Sakurai 1998 discovery mapped OX1R/OX2R distribution @Sakurai1998orexin. Development timeline is years.
+] <oq:ox2r-pet-ligand>
+
+#open-question(title: [Orexin-A Challenge Test for ME/CFS Subtyping])[
+A single IV dose of orexin-A or OX2R agonist (danavorexton) with serial measurement of autonomic parameters, fatigue VAS, and cognitive performance (PVT) could identify which ME/CFS patients have an orexin-responsive fatigue component @Grossberg2011orexinLethargy @Weymann2014orexinChemoFatigue.
+
+*Predictions.* (a) 40–60% of ME/CFS patients show >20% improvement in fatigue VAS and >15% PVT improvement within 60 min of OX2R agonist vs placebo. (b) Orexin-responsive subtype is defined by this challenge. (c) Non-responders have lowest CSF orexin-A and/or longest disease duration.
+
+*Limitations.* No human challenge data in ME/CFS. Danavorexton shows +11.1 MWT points in NT1 @Rauf2025narcolepsyOrexin. Challenge test analogous to dopamine challenge in Parkinson's.
+] <oq:orexin-challenge-test>
+
+#open-question(title: [HLA-DQB1*06:02 Frequency in ME/CFS])[
+HLA-DQB1*06:02 is the strongest genetic association in sleep medicine (>98% of NT1 carry it vs 25% general population). If some ME/CFS patients share the NT1 autoimmune mechanism @Lopez2023tcellNarcolepsy, they should carry this allele at elevated frequency. A null result would strengthen the functional-suppression-over-autoimmune-destruction hypothesis.
+
+*Predictions.* (a) HLA-DQB1*06:02 frequency will be 30–40% in ME/CFS patients with lowest CSF orexin-A ($lt$150 pg/mL) vs 25% in ME/CFS with normal orexin. (b) Frequency in high-orexin ME/CFS will not differ from population controls (2–3%). (c) Low-cost genetic test could identify autoimmune-orexin subtype.
+
+*Limitations.* No study has examined this allele in ME/CFS. The ME/CFS literature has sparse HLA data with inconsistent results across studies. Even if enriched, absolute numbers may be small.
+] <oq:hla-dqb1-mecfs>
+
+#open-question(title: [Orexin Neuron Activity During PEM in a Preclinical Model])[
+If orexin suppression drives PEM, post-exertional phase should show greatest orexin suppression. A rodent model of post-exertional fatigue (repeated swim/forced running + immune activation) with fiber photometry of orexin neurons would directly test whether exercise inflammation suppresses orexin firing and whether this correlates with recovery time.
+
+*Predictions.* (a) Orexin neuron firing drops by 40–60% within 30 min of exercise in the immune-primed group (vs 10–20% in exercise-only). (b) Recovery of orexin firing correlates with recovery of locomotor activity (R^2 > 0.6). (c) Time course (12–72h delayed onset) parallels human PEM.
+
+*Limitations.* Grossberg 2011 and Gaykema 2009 used acute LPS @Grossberg2011orexinLethargy @Gaykema2009orexinSickness. No one has combined exercise + immune challenge in a chronic paradigm to model PEM. Weymann 2014 used chemotherapy + exercise but not ME/CFS-like timing @Weymann2014orexinChemoFatigue.
+] <oq:preclinical-orexin-pem>
+
+#open-question(title: [CSF Orexin-B/A Ratio as ME/CFS Subtype Biomarker])[
+Orexin-A and orexin-B are differentially processed from prepro-orexin with different receptor affinities (OX1R: orexin-A > orexin-B; OX2R: equal). The orexin-B/A ratio may distinguish global neuron loss (ratio preserved) from processing disruption (ratio altered). Orexin-B is rarely measured @LopezAmador2025orexin.
+
+*Predictions.* (a) CSF orexin-B/A ratio will differ between ME/CFS subtypes. (b) High-orexin-B/low-orexin-A identifies a processing-deficit subtype (possible prohormone convertase dysfunction). (c) Balanced low ratio identifies a neuron-loss subtype. (d) Subtypes have different OX2R agonist response rates.
+
+*Limitations.* Orexin-B is rarely measured in clinical studies. Both peptides can be quantified from same sample. No study has systematically compared orexin-B/A ratio across ME/CFS, NT1, NT2, and controls.
+] <oq:orexin-ba-ratio>
+
+#open-question(title: [Nighttime Salivary Orexin-A as Home-Assessable Biomarker])[
+CSF orexin requires LP. Salivary orexin-A shows a circadian pattern. If salivary orexin-A correlates with CSF orexin-A, timed overnight saliva collection could provide a home-assessable proxy for CNS orexin dynamics. Flattened slopes indicate orexin dysfunction.
+
+*Predictions.* (a) Salivary orexin-A shows circadian rhythm in controls (peak at wake, nadir at sleep onset) that is blunted in ME/CFS. (b) Rhythm amplitude correlates with actigraphy-based rest-activity rhythm (r > 0.4). (c) Correlates with subjective unrefreshing sleep (r < -0.3).
+
+*Limitations.* No validated salivary orexin-A assay for clinical use. Ruhrländer 2025 measured plasma orexin-A in PASC @Ruhrländer2025orexinPASC. Heinicke 2025 in COVID ICU @Heinicke2025orexinCOVID. The paper's sleep/saliva biomarker section covers salivary metabolomics.
+] <oq:salivary-orexin>
+
+#open-question(title: [Pupillographic Sleepiness Test as Orexin Tone Surrogate])[
+Pupil diameter is controlled by sympathetic/parasympathetic balance, both modulated by orexin. Orexin deficiency reduces sympathetic tone to the pupil. The PST in NT1 shows characteristic instability. If this reflects orexin deficiency, PST could serve as a non-invasive orexin proxy @Nardone2011corticalEDS.
+
+*Predictions.* (a) PST pupillary instability index (PUI) correlates negatively with CSF orexin-A across NT1, NT2, ME/CFS, and controls (r > 0.5). (b) PUI > 6th percentile predicts CSF orexin-A < 200 pg/mL with >80% sensitivity.
+
+*Limitations.* No orexin-PST correlation has been directly studied. The paper does not currently discuss pupillometry. Cheap (\$50/device), quick (11 min), non-invasive.
+] <oq:pupillometric-orexin>
+
+#open-question(title: [CPT1B Genotyping as Genetic Risk Marker for Orexin Dysfunction])[
+CPT1B encodes carnitine palmitoyltransferase 1B, the rate-limiting enzyme for mitochondrial fatty acid oxidation. Horiuchi 2015 found a CPT1B polymorphism (rs2267384) associated with narcolepsy @Horiuchi2015carnitineOrexin. Orexin neurons preferentially use FAO. A CPT1B variant reducing FAO efficiency would specifically impair orexin neuron energy supply under inflammatory stress.
+
+*Predictions.* (a) CPT1B rs2267384 risk allele enriched in ME/CFS patients with CSF orexin-A < 200 pg/mL vs normal-orexin ME/CFS and controls. (b) Allele frequency in orexin-low ME/CFS resembles NT1 frequency. (c) Risk allele carriers show worse response to mitochondrial supplements.
+
+*Limitations.* Horiuchi 2015 is a low-certainty paper. No ME/CFS CPT1B study exists. The paper covers genetic predisposition. A 5-minute PCR test is inexpensive.
+] <oq:cpt1b-genotyping>
+
+#speculation(title: [CSF Orexin-A Variability: Phase-Shift Artifact vs True Deficiency])[
+*Certainty: 0.25.* (0.30→0.25: conflict with hyp:ch15-orexin-suppression, cert 0.50, diff 0.20.) CSF orexin-A varies significantly by time of day (2× difference peak-to-nadir), sampling conditions, and assay methodology. The NT1 diagnostic threshold ($lt$110 pg/mL) was established under standardized conditions. No study has controlled for circadian phase in ME/CFS CSF orexin measurement. The apparent orexin deficit may be a phase-shift artifact — ME/CFS patients with poor sleep sampled at different circadian phase than controls.
+
+*Predictions.* (a) When ME/CFS patients are strictly sampled under controlled circadian conditions (3-day standardized sleep-wake schedule, LP at 09:00 +/- 1h after PSG-confirmed sleep), CSF orexin-A will not differ from matched controls. (b) The observed low orexin in uncontrolled studies will be explained by circadian phase misalignment rather than absolute deficiency. (c) Orexin treatment should then redirect to circadian entrainment.
+
+*Falsified if* CSF orexin-A remains significantly lower than controls even under strictly controlled circadian sampling.
+
+*Limitations.* Rauf 2025 established the NT1 diagnostic threshold @Rauf2025narcolepsyOrexin. Ruhrländer 2025 documents plasma orexin diurnal variation @Ruhrländer2025orexinPASC. The paper's sleep architecture coverage documents phase-shifts in ME/CFS. This challenges the LopezAmador 2025 review's central claim @LopezAmador2025orexin.
+] <spec:orexin-phase-shift-artifact>
+
 #include "ch14d-brain-clearance-bridges.typ"

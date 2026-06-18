@@ -16,7 +16,7 @@ Modafinil is an atypical wakefulness-promoting agent with a multi-target pharmac
     - *Dopamine transporter (DAT) inhibition*: Competitively binds DAT with approximately 1/100th the potency of methylphenidate. PET studies show 47–57% striatal DAT occupancy at therapeutic doses (200–400 mg), increasing extracellular dopamine in caudate, putamen, and nucleus accumbens @Volkow2009modafinil
     - *Norepinephrine*: Occupies norepinephrine transporters (NET) and elevates NE in prefrontal cortex and hypothalamus, partly as a downstream effect of increased dopamine @Wisor2013modafinilcatecholaminergic
     - *Histamine*: Increases histamine release and activates the tuberomammillary nucleus (TMN) indirectly via upstream modulation
-    - *Orexin/hypocretin*: Activates orexin neurons and potentiates glutamatergic synapses on them, though orexin is not essential (orexin-knockout animals still respond)
+    - *Orexin/hypocretin*: Activates orexin neurons and potentiates glutamatergic synapses on them, though orexin is not essential (orexin-knockout animals still respond). If ME/CFS involves functional orexin suppression (Section @spec:mecfs-functional-narcolepsy), modafinil's orexin-activating action may be particularly relevant — though it cannot compensate for severely depleted orexin neuron firing
     - *Glutamate/GABA*: Region-specific glutamate increases (hypothalamus, thalamus, hippocampus) with decreased GABA across most brain regions, largely through serotonin-mediated pathways
 
 The net effect is enhanced cortical arousal through multiple parallel pathways rather than a single strong mechanism, distinguishing modafinil from classical stimulants.
