@@ -14,7 +14,7 @@ A birth cohort study of 13,978 children followed from infancy to age 18 found th
 
 ## What the ALSPAC study actually showed
 
-Collin et al. (2018, *Sleep Medicine*) tracked children in the Avon Longitudinal Study of Parents and Children from 6 months old. By age 16–18, 242 had developed chronic disabling fatigue meeting research criteria.
+Collin et al. [[1]](#ref-1) (2018, *Sleep Medicine*) tracked children in the Avon Longitudinal Study of Parents and Children from 6 months old. By age 16–18, 242 had developed chronic disabling fatigue meeting research criteria.
 
 Looking backward at their childhood sleep data — collected years before anyone was tired — the pattern was consistent:
 
@@ -55,7 +55,7 @@ What could explain sleep disruption appearing years before energy collapse? Seve
 
 This is not a screening tool. Many children sleep poorly. Most will not develop ME/CFS. The study shows a population-level statistical association, not an individual diagnostic criterion.
 
-It also doesn't apply to everyone with ME/CFS. Approximately half of cases begin abruptly after an infection with no identifiable prior sleep problems (Jason et al. 2015). The sleep-disruption pattern appears specific to the gradual-onset subtype.
+It also doesn't apply to everyone with ME/CFS. Approximately half of cases begin abruptly after an infection with no identifiable prior sleep problems (Jason et al. [[6]](#ref-6)). The sleep-disruption pattern appears specific to the gradual-onset subtype.
 
 ---
 
@@ -77,31 +77,31 @@ Consider what chronic partial sleep deprivation does to a developing body, compo
 
 **Mitochondrial repair happens during deep sleep.** The brain's energy factories — mitochondria — accumulate damage during waking hours (reactive oxygen species, protein misfolding, membrane stress). Deep slow-wave sleep is when repair enzymes are most active, when damaged organelles are cleared through mitophagy, when new mitochondrial components are synthesised. Less deep sleep = less repair = progressive accumulation of mitochondrial damage.
 
-**Glymphatic waste clearance requires sustained sleep.** The brain's waste-disposal system — the glymphatic network — operates primarily during sleep, driven by slow-wave neural oscillations that pump cerebrospinal fluid through brain tissue (Xie et al. 2013, *Science*; Hauglund et al. 2025, *Cell*). Fragmented sleep with frequent awakenings interrupts this process. Metabolic waste that should be cleared overnight remains. Night after night, year after year.
+**Glymphatic waste clearance requires sustained sleep.** The brain's waste-disposal system — the glymphatic network — operates primarily during sleep, driven by slow-wave neural oscillations that pump cerebrospinal fluid through brain tissue (Xie et al. [[2]](#ref-2), 2013, *Science*; Hauglund et al. [[3]](#ref-3), 2025, *Cell*). Fragmented sleep with frequent awakenings interrupts this process. Metabolic waste that should be cleared overnight remains. Sleep-wake regulation of brain waste proteins is well-documented (Holth et al. [[4]](#ref-4), 2019). Night after night, year after year.
 
-**Chronic sleep loss drives inflammation.** Even modest sleep restriction (6 hours instead of 8) elevates inflammatory markers — IL-6, TNF-α, CRP — within days. In children sleeping slightly less than peers for years, this creates a chronic low-grade inflammatory state that further impairs mitochondrial function, creating a vicious cycle.
+**Chronic sleep loss drives inflammation.** Even modest sleep restriction (6 hours instead of 8) elevates inflammatory markers — IL-6, TNF-α, CRP — within days (Irwin et al. [[5]](#ref-5), 2016). In children sleeping slightly less than peers for years, this creates a chronic low-grade inflammatory state that further impairs mitochondrial function, creating a vicious cycle.
 
 **The compound interest analogy.** Each night of slightly-too-short, slightly-too-fragmented sleep means slightly less repair, slightly more oxidative damage, slightly more inflammation. Like compound interest on debt, the effect is invisible day-to-day but devastating over years. By the time an infection hits — EBV at age 16, a bad flu at 14 — the metabolic reserves that should buffer the immune response have been quietly eroding for half a decade.
 
-The Collin data may not be showing us a biomarker of future ME/CFS. It may be showing us one of the mechanisms by which it develops: years of insufficient sleep progressively depleting the energy reserves that eventually prove inadequate when a major physiological stressor arrives.
+The Collin [[1]](#ref-1) data may not be showing us a biomarker of future ME/CFS. It may be showing us one of the mechanisms by which it develops: years of insufficient sleep progressively depleting the energy reserves that eventually prove inadequate when a major physiological stressor arrives.
 
 This doesn't mean poor sleep *causes* ME/CFS. Many children sleep badly and never develop it. But in a child who already has reduced metabolic capacity (genetic predisposition, neurodevelopmental condition, connective tissue disorder), chronic sleep insufficiency may be the slow-burning fuse — the factor that converts a vulnerability into a disease, given time and a trigger.
 
 ---
 
-*Scientific sources:*
+## References
 
-- Collin SM, Norris T, Gringras P, Blair PS, Tilling K, Crawley E. Childhood sleep and adolescent chronic fatigue syndrome (CFS/ME): evidence of associations in a UK birth cohort. *Sleep Medicine*. 2018;47:85–91. [DOI: 10.1016/j.sleep.2018.01.005](https://doi.org/10.1016/j.sleep.2018.01.005)
+<span id="ref-1"></span> 1. Collin SM, Norris T, Gringras P, Blair PS, Tilling K, Crawley E. Childhood sleep and adolescent chronic fatigue syndrome (CFS/ME): evidence of associations in a UK birth cohort. *Sleep Medicine*. 2018;47:85–91. [DOI: 10.1016/j.sleep.2018.01.005](https://doi.org/10.1016/j.sleep.2018.01.005)
 
-- Xie L, Kang H, Xu Q, et al. Sleep drives metabolite clearance from the adult brain. *Science*. 2013;342(6156):373–377. [DOI: 10.1126/science.1241224](https://doi.org/10.1126/science.1241224)
+<span id="ref-2"></span> 2. Xie L, Kang H, Xu Q, et al. Sleep drives metabolite clearance from the adult brain. *Science*. 2013;342(6156):373–377. [DOI: 10.1126/science.1241224](https://doi.org/10.1126/science.1241224)
 
-- Hauglund NL, Andersen M, Tokarska K, et al. Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep. *Cell*. 2025;188(4):944–961. [DOI: 10.1016/j.cell.2024.12.027](https://doi.org/10.1016/j.cell.2024.12.027)
+<span id="ref-3"></span> 3. Hauglund NL, Andersen M, Tokarska K, et al. Norepinephrine-mediated slow vasomotion drives glymphatic clearance during sleep. *Cell*. 2025;188(4):944–961. [DOI: 10.1016/j.cell.2024.12.027](https://doi.org/10.1016/j.cell.2024.12.027)
 
-- Holth JK, Fritschi SK, Wang C, et al. The sleep–wake cycle regulates brain interstitial fluid tau in mice and CSF tau in humans. *Science*. 2019;363(6429):880–884. [DOI: 10.1126/science.aav2546](https://doi.org/10.1126/science.aav2546)
+<span id="ref-4"></span> 4. Holth JK, Fritschi SK, Wang C, et al. The sleep–wake cycle regulates brain interstitial fluid tau in mice and CSF tau in humans. *Science*. 2019;363(6429):880–884. [DOI: 10.1126/science.aav2546](https://doi.org/10.1126/science.aav2546)
 
-- Irwin MR, Olmstead R, Carroll JE. Sleep disturbance, sleep duration, and inflammation: a systematic review and meta-analysis of cohort studies and experimental sleep deprivation. *Biological Psychiatry*. 2016;80(1):40–52. [DOI: 10.1016/j.biopsych.2015.05.014](https://doi.org/10.1016/j.biopsych.2015.05.014)
+<span id="ref-5"></span> 5. Irwin MR, Olmstead R, Carroll JE. Sleep disturbance, sleep duration, and inflammation: a systematic review and meta-analysis of cohort studies and experimental sleep deprivation. *Biological Psychiatry*. 2016;80(1):40–52. [DOI: 10.1016/j.biopsych.2015.05.014](https://doi.org/10.1016/j.biopsych.2015.05.014)
 
-- Jason LA, Evans M, Brown A, Sunnquist M, Newton JL. Chronic Fatigue Syndrome Versus Sudden Onset Myalgic Encephalomyelitis. *Journal of Prevention & Intervention in the Community*. 2015;43(1):6–12. [DOI: 10.1080/10852352.2014.973233](https://doi.org/10.1080/10852352.2014.973233)
+<span id="ref-6"></span> 6. Jason LA, Evans M, Brown A, Sunnquist M, Newton JL. Chronic Fatigue Syndrome Versus Sudden Onset Myalgic Encephalomyelitis. *Journal of Prevention & Intervention in the Community*. 2015;43(1):6–12. [DOI: 10.1080/10852352.2014.973233](https://doi.org/10.1080/10852352.2014.973233)
 
 *Full mechanistic framework:*
 *This is part of an ongoing series exploring ME/CFS mechanisms. Previous articles covered the "morning hangover" feeling, the nap paradox, the tired-but-wired state, alpha-delta intrusion, and why sleep studies come back "normal."*

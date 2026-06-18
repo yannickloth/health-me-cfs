@@ -26,11 +26,11 @@ They are biologically unrelated. Their treatments are incompatible. Applying the
 
 ## Depression: the reward circuit that went quiet
 
-Major depressive disorder is, at its biological core, a disorder of reward processing and monoamine signalling. The anhedonia — inability to experience pleasure or anticipate it — is not a metaphorical sadness but a measurable deficit in dopaminergic and serotonergic function. Neuroimaging shows reduced activity in the ventral striatum and prefrontal cortex during reward tasks (Pizzagalli et al. 2009, *Biological Psychiatry*).
+Major depressive disorder is, at its biological core, a disorder of reward processing and monoamine signalling. The anhedonia — inability to experience pleasure or anticipate it — is not a metaphorical sadness but a measurable deficit in dopaminergic and serotonergic function. Neuroimaging shows reduced activity in the ventral striatum and prefrontal cortex during reward tasks [[1]](#ref-1).
 
 The fatigue of depression is primarily amotivation: the body can perform, but the brain doesn't generate the impulse to begin. A depressed patient placed in an externally structured environment — a physiotherapy session, a walk with a friend who insists — often discovers that the activity itself is manageable, even slightly pleasant. The barrier was initiation, not capacity.
 
-Exercise is genuinely therapeutic for depression. Not as platitude but as pharmacology: it increases BDNF, promotes hippocampal neurogenesis, normalises HPA axis function, and upregulates monoamine transmission (Schuch et al. 2016, *Journal of Psychiatric Research*). Meta-analyses consistently show effect sizes comparable to antidepressants for mild-to-moderate depression.
+Exercise is genuinely therapeutic for depression. Not as platitude but as pharmacology: it increases BDNF, promotes hippocampal neurogenesis, normalises HPA axis function, and upregulates monoamine transmission [[2]](#ref-2). Meta-analyses consistently show effect sizes comparable to antidepressants for mild-to-moderate depression.
 
 **The cortisol pattern in depression** is hyperactive. The HPA axis is over-responsive: elevated cortisol, exaggerated cortisol awakening response, blunted feedback inhibition. The stress response runs too hot.
 
@@ -40,7 +40,7 @@ Exercise is genuinely therapeutic for depression. Not as platitude but as pharma
 
 ## Burnout: the well that ran dry
 
-Burnout is an occupational phenomenon — recognised in ICD-11 as a syndrome resulting from chronic workplace stress that has not been successfully managed. It is characterised by three dimensions: exhaustion, cynicism/depersonalisation, and reduced professional efficacy (Maslach & Leiter 2016, *World Psychiatry*).
+Burnout is an occupational phenomenon — recognised in ICD-11 as a syndrome resulting from chronic workplace stress that has not been successfully managed. It is characterised by three dimensions: exhaustion, cynicism/depersonalisation, and reduced professional efficacy [[3]](#ref-3).
 
 Burnout fatigue is the exhaustion of a system that has been running at high output without adequate recovery. The difference from depression: burnout has a clear external driver, and removal of that driver leads to recovery. A burned-out teacher who takes a six-month sabbatical typically recovers. A depressed person who takes the same sabbatical does not — because the driver is internal.
 
@@ -54,11 +54,11 @@ Burnout fatigue is the exhaustion of a system that has been running at high outp
 
 ## ME/CFS: the engine that broke
 
-ME/CFS is a neuroimmune disease characterised by post-exertional malaise (PEM) — a pathological response to exertion that produces delayed, disproportionate, and prolonged deterioration in physical, cognitive, and neurological function. The 2015 IOM report (*Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome*) identified PEM as the central feature: "patients have a pathological inability to produce sufficient energy on demand."
+ME/CFS is a neuroimmune disease characterised by post-exertional malaise (PEM) — a pathological response to exertion that produces delayed, disproportionate, and prolonged deterioration in physical, cognitive, and neurological function. The 2015 IOM report identified PEM as the central feature: "patients have a pathological inability to produce sufficient energy on demand" [[4]](#ref-4).
 
 The fatigue is not amotivation (the brain wants to act but the body cannot produce sufficient energy) and not deconditioning (exercise makes it worse, not better, as demonstrated on 2-day CPET). It is metabolic: impaired mitochondrial function, altered substrate utilisation, elevated lactate at rest-level workloads, immune activation following exertion.
 
-**The cortisol pattern in ME/CFS** is blunted — reduced total output, flattened diurnal curve, absent or diminished cortisol awakening response (Papadopoulos & Cleare 2012, *Psychoneuroendocrinology*). This is the opposite of depression's hyperactive HPA. The stress response runs too cold.
+**The cortisol pattern in ME/CFS** is blunted — reduced total output, flattened diurnal curve, absent or diminished cortisol awakening response [[5]](#ref-5). This is the opposite of depression's hyperactive HPA. The stress response runs too cold.
 
 **The exercise response** is the diagnostic litmus test. If exercise consistently produces delayed deterioration (24-72 hours later, lasting days to weeks, disproportionate to the effort), it is not depression and it is not burnout. Two-day CPET confirms this objectively: reduced ventilatory threshold, reduced peak VO2, and earlier anaerobic transition on day 2. No other fatigue condition shows this pattern.
 
@@ -113,9 +113,9 @@ For autistic individuals who also have ME/CFS, the two energy drains are additiv
 
 ## The cost of conflation
 
-The PACE trial (White et al. 2011, *The Lancet*) prescribed graded exercise therapy and cognitive behavioural therapy to ME/CFS patients using a protocol derived from the deconditioning hypothesis — the assumption that ME/CFS is maintained by inactivity and illness beliefs, and that graduated exercise would reverse it, just as it reverses depression-related withdrawal.
+The PACE trial [[6]](#ref-6) prescribed graded exercise therapy and cognitive behavioural therapy to ME/CFS patients using a protocol derived from the deconditioning hypothesis — the assumption that ME/CFS is maintained by inactivity and illness beliefs, and that graduated exercise would reverse it, just as it reverses depression-related withdrawal.
 
-The trial claimed success. Independent reanalysis using the trial's own pre-specified outcomes showed no significant benefit (Wilshire et al. 2018, *BMC Psychology*). Patient surveys reported that graded exercise therapy was the intervention most likely to worsen their condition, with 74% of respondents reporting deterioration (ME Association 2015 patient survey).
+The trial claimed success. Independent reanalysis using the trial's own pre-specified outcomes showed no significant benefit [[7]](#ref-7). Patient surveys reported that graded exercise therapy was the intervention most likely to worsen their condition, with 74% of respondents reporting deterioration [[8]](#ref-8).
 
 The harm was not random. It was predictable from the biology. Exercise therapy works for depression because the barrier is amotivation, and the system can handle the load. Exercise therapy harms ME/CFS because the barrier is metabolic capacity, and the system cannot handle the load. The treatment was correct for the wrong diagnosis. The failure was not in the patient's response. It was in the conflation that made the prescription seem rational.
 
@@ -131,11 +131,20 @@ The barrier is not technology, not funding, not research. It is vocabulary. One 
 
 ---
 
-Sources:
-- Pizzagalli DA et al. Reduced caudate and nucleus accumbens response to rewards in unmedicated individuals with MDD. *Am J Psychiatry*. 2009;166(6):702-710.
-- Schuch FB et al. Exercise as a treatment for depression: a meta-analysis. *J Psychiatr Res*. 2016;77:42-51.
-- Maslach C, Leiter MP. Understanding the burnout experience. *World Psychiatry*. 2016;15(2):103-111.
-- Papadopoulos AS, Cleare AJ. Hypothalamic-pituitary-adrenal axis dysfunction in CFS. *Nat Rev Endocrinol*. 2012;8(1):22-32.
-- Wilshire CE et al. Rethinking the treatment of chronic fatigue syndrome. *BMC Psychology*. 2018;6:6.
-- IOM. Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness. 2015.
-- Loth Y. ME/CFS: Mechanisms, Management, and Research Frontiers. 2026. doi.org/10.5281/zenodo.19627450
+## References
+
+<span id="ref-1"></span>1. Pizzagalli DA et al. (2009). Reduced caudate and nucleus accumbens response to rewards in unmedicated individuals with MDD. *Biological Psychiatry*.
+
+<span id="ref-2"></span>2. Schuch FB et al. (2016). Exercise as a treatment for depression: a meta-analysis. *Journal of Psychiatric Research*.
+
+<span id="ref-3"></span>3. Maslach C, Leiter MP (2016). Understanding the burnout experience. *World Psychiatry*.
+
+<span id="ref-4"></span>4. IOM (2015). *Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness*.
+
+<span id="ref-5"></span>5. Papadopoulos AS, Cleare AJ (2012). Hypothalamic-pituitary-adrenal axis dysfunction in CFS. *Psychoneuroendocrinology*.
+
+<span id="ref-6"></span>6. White PD et al. (2011). The PACE trial. *The Lancet*.
+
+<span id="ref-7"></span>7. Wilshire CE et al. (2018). Rethinking the treatment of chronic fatigue syndrome. *BMC Psychology*.
+
+<span id="ref-8"></span>8. ME Association (2015). Patient survey on graded exercise therapy.

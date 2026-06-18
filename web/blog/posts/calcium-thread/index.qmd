@@ -14,7 +14,7 @@ Calcium.
 
 ## Failure mode 1: the muscle that cannot recover
 
-After physical or cognitive exertion, many ME/CFS patients experience a delayed crash — post-exertional malaise — that may not peak until 24 to 48 hours later and can last days or weeks. The mechanism proposed by Wirth and Scheibenbogen (2021) follows a specific ionic chain.
+After physical or cognitive exertion, many ME/CFS patients experience a delayed crash — post-exertional malaise — that may not peak until 24 to 48 hours later and can last days or weeks. The mechanism proposed by Wirth and Scheibenbogen [[1]](#ref-1) follows a specific ionic chain.
 
 Muscle cells require a sodium-potassium pump (the Na⁺/K⁺-ATPase enzyme) to maintain their internal chemistry. In ME/CFS, this pump appears to be underperforming — possibly because the beta-2 adrenergic receptors that activate it are dysfunctional, possibly through autoantibody interference. When the pump fails, sodium accumulates inside the cell.
 
@@ -32,9 +32,9 @@ Natural killer cells are the immune system's first-responder killers — the cel
 
 In ME/CFS, TRPM3 is broken.
 
-The Griffith University group (Marshall-Gradisnik et al.) has been documenting this for years. TRPM3 channel activity is significantly reduced in the natural killer cells of ME/CFS patients. Calcium influx is impaired. The cells cannot degranulate properly. Their killing capacity is demonstrably reduced. A large-scale 2025 study confirmed this finding across multiple laboratory sites — making it one of the most consistently observed biological abnormalities in ME/CFS, though independent replication by separate research groups is still needed.
+The Griffith University group (Marshall-Gradisnik et al.) has been documenting this for years. TRPM3 channel activity is significantly reduced in the natural killer cells of ME/CFS patients. Calcium influx is impaired. The cells cannot degranulate properly. Their killing capacity is demonstrably reduced. A large-scale 2025 study confirmed this finding across multiple laboratory sites [[2]](#ref-2) — making it one of the most consistently observed biological abnormalities in ME/CFS, though independent replication by separate research groups is still needed.
 
-Notably, low-dose naltrexone — a treatment many ME/CFS patients report benefit from — appears to partially restore TRPM3 function in these cells. The 2024 paper by Lohn et al. documented this effect and proposed TRPM3 dysfunction as a mechanistic explanation for why low-dose naltrexone produces benefit in this population.
+Notably, low-dose naltrexone — a treatment many ME/CFS patients report benefit from — appears to partially restore TRPM3 function in these cells. The 2024 paper by Lohn et al. [[3]](#ref-3) documented this effect and proposed TRPM3 dysfunction as a mechanistic explanation for why low-dose naltrexone produces benefit in this population.
 
 Here the calcium problem is upstream, not downstream. The channel itself is dysfunctional — not because of an energy crisis driving a cascade, but as a primary impairment. The immune cell cannot load calcium. It cannot fire. Pathogens or reactivated viruses that the immune system should be clearing are not cleared.
 
@@ -46,7 +46,7 @@ During deep slow-wave sleep, thalamic neurons need to oscillate at low frequency
 
 In some ME/CFS patients, and in the majority of fibromyalgia patients, these slow oscillations are contaminated by alpha activity — the brain's waking frequency (~10 Hz) intruding into deep sleep. The result: sleep that appears normal in duration but fails to restore.
 
-The mechanism, characterized by Timofeev et al. in the *Journal of Neurophysiology* (2015), traces back to the thalamic calcium channel. Specifically, a class of voltage-sensitive calcium channels in thalamo-cortical neurons — which open and close at low voltages, generating rhythmic bursts — are responsible for producing the slow oscillatory activity that creates delta waves. When thalamic excitability is abnormally elevated — when the circuit cannot properly quiet down — these channels produce higher-frequency oscillations instead. Alpha intrudes. Deep sleep becomes non-restorative.
+The mechanism, characterized by Timofeev et al. [[4]](#ref-4), traces back to the thalamic calcium channel. Specifically, a class of voltage-sensitive calcium channels in thalamo-cortical neurons — which open and close at low voltages, generating rhythmic bursts — are responsible for producing the slow oscillatory activity that creates delta waves. When thalamic excitability is abnormally elevated — when the circuit cannot properly quiet down — these channels produce higher-frequency oscillations instead. Alpha intrudes. Deep sleep becomes non-restorative.
 
 The calcium channel involved is different from the TRPM3 channel in immune cells and the sodium-calcium exchanger in muscle. Same element, different molecular machinery, different tissue, different clinical consequence.
 
@@ -98,11 +98,12 @@ That experiment — measuring TRPM3 function in thalamic neurons in ME/CFS — h
 
 ---
 
-**Sources:**
-- Wirth K, Scheibenbogen C. Pathophysiology of skeletal muscle disturbances in ME/CFS. *Journal of Translational Medicine* (2021): [PMC8058748](https://pmc.ncbi.nlm.nih.gov/articles/PMC8058748/)
-- Scheibenbogen C et al. Key Pathophysiological Role of Skeletal Muscle Disturbance in Post COVID and ME/CFS. *Journal of Cachexia, Sarcopenia and Muscle* (2025): [doi:10.1002/jcsm.13669](https://onlinelibrary.wiley.com/doi/full/10.1002/jcsm.13669)
-- Marshall-Gradisnik S et al. Large-scale investigation confirms TRPM3 ion channel dysfunction in ME/CFS. *Frontiers in Medicine* (2025): [fmed.2025.1703924](https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1703924/full)
-- Lohn Y et al. Potential pathophysiological role of TRPM3 in ME/CFS and the therapeutic effect of LDN. *Journal of Translational Medicine* (2024): [doi:10.1186/s12967-024-05412-3](https://link.springer.com/article/10.1186/s12967-024-05412-3)
-- Timofeev I et al. Thalamic mechanisms underlying alpha-delta sleep with implications for fibromyalgia. *Journal of Neurophysiology* (2015): [PMC4575971](https://pmc.ncbi.nlm.nih.gov/articles/PMC4575971/)
-- Falcón D et al. TRPM3 in Brain (Patho)Physiology. *Frontiers in Cell and Developmental Biology* (2021): [PMC7959729](https://pmc.ncbi.nlm.nih.gov/articles/PMC7959729/)
-- Petter H et al. Muscle sodium content in ME/CFS patients. [PMC9733289](https://pmc.ncbi.nlm.nih.gov/articles/PMC9733289/)
+## References
+
+<span id="ref-1"></span>1. Wirth K, Scheibenbogen C (2021). Pathophysiology of skeletal muscle disturbances in ME/CFS. *Journal of Translational Medicine*.
+
+<span id="ref-2"></span>2. Marshall-Gradisnik S et al. (2025). Large-scale investigation confirms TRPM3 ion channel dysfunction in ME/CFS. *Frontiers in Medicine*.
+
+<span id="ref-3"></span>3. Lohn Y et al. (2024). Potential pathophysiological role of TRPM3 in ME/CFS and the therapeutic effect of LDN. *Journal of Translational Medicine*.
+
+<span id="ref-4"></span>4. Timofeev I et al. (2015). Thalamic mechanisms underlying alpha-delta sleep with implications for fibromyalgia. *Journal of Neurophysiology*.

@@ -24,7 +24,7 @@ A standard overnight polysomnography (PSG) records EEG (brain waves), EOG (eye m
 
 The output is a hypnogram — a timeline showing which stage the patient was in at each point in the night — and a set of summary statistics: total sleep time, sleep efficiency, sleep latency, percentage in each stage, number of arousals per hour, and respiratory event indices.
 
-For the conditions PSG was designed to detect — obstructive sleep apnea, narcolepsy, REM behaviour disorder, periodic limb movement disorder — this approach works well. These conditions produce gross architectural disruptions visible at the 30-second epoch level (AASM Scoring Manual, current edition).
+For the conditions PSG was designed to detect — obstructive sleep apnea, narcolepsy, REM behaviour disorder, periodic limb movement disorder — this approach works well. These conditions produce gross architectural disruptions visible at the 30-second epoch level [[1]](#ref-1).
 
 ME/CFS sleep pathology operates at a finer grain.
 
@@ -34,11 +34,11 @@ ME/CFS sleep pathology operates at a finer grain.
 
 Start with the most fundamental problem. Alpha-delta intrusion — alpha-frequency waves (8–12 Hz) intruding into delta sleep (0.5–4 Hz), present in the raw EEG, contaminating slow-wave sleep and preventing it from being restorative — does not change the sleep stage classification at all. An epoch containing both delta and alpha activity is still scored as N3 (slow-wave sleep) by standard visual criteria, because the dominant rhythm is delta. The alpha contamination is simply not captured in the stage score.
 
-Detecting it requires spectral analysis: mathematical decomposition of the EEG signal into its component frequencies. This is not part of standard PSG scoring, most sleep laboratories do not perform it routinely, and most sleep physicians have never seen an alpha-delta power ratio on a report. So the patient's most significant sleep abnormality sits in the raw data, present but invisible in the clinical summary. Alpha-delta intrusion was first identified in fibromyalgia patients by Moldofsky et al. (1975, *Psychosomatic Medicine*) and later quantified with spectral methods by Roizenblatt et al. (2001, *Arthritis & Rheumatism*), yet the finding has never entered routine clinical scoring.
+Detecting it requires spectral analysis: mathematical decomposition of the EEG signal into its component frequencies. This is not part of standard PSG scoring, most sleep laboratories do not perform it routinely, and most sleep physicians have never seen an alpha-delta power ratio on a report. So the patient's most significant sleep abnormality sits in the raw data, present but invisible in the clinical summary. Alpha-delta intrusion was first identified in fibromyalgia patients by Moldofsky et al. [[2]](#ref-2) and later quantified with spectral methods by Roizenblatt et al. [[3]](#ref-3), yet the finding has never entered routine clinical scoring.
 
-Then there is the microarousal problem. The American Academy of Sleep Medicine defines a scorable arousal as an abrupt shift in EEG frequency lasting at least 3 seconds (AASM Scoring Manual). Arousals shorter than that — which may be the most consistent polysomnographic finding in ME/CFS — are not scored. A patient who experiences hundreds of sub-3-second microarousals per night, each briefly disrupting the neural coordination required for restorative sleep, will receive an arousal index reading "within normal limits." Each of those micro-events triggers a brief sympathetic activation, a transient rise in norepinephrine, a momentary suppression of glymphatic flow (Xie et al. 2013, *Science*). Hundreds per night, each too brief to count, each chipping away at overnight restoration, and the scoring system calls it normal.
+Then there is the microarousal problem. The American Academy of Sleep Medicine defines a scorable arousal as an abrupt shift in EEG frequency lasting at least 3 seconds [[1]](#ref-1). Arousals shorter than that — which may be the most consistent polysomnographic finding in ME/CFS — are not scored. A patient who experiences hundreds of sub-3-second microarousals per night, each briefly disrupting the neural coordination required for restorative sleep, will receive an arousal index reading "within normal limits." Each of those micro-events triggers a brief sympathetic activation, a transient rise in norepinephrine, a momentary suppression of glymphatic flow [[4]](#ref-4). Hundreds per night, each too brief to count, each chipping away at overnight restoration, and the scoring system calls it normal.
 
-The percentage problem is subtler but equally consequential. ME/CFS patients may spend a perfectly normal percentage of total sleep time in N3 — and the report reflects this, so the doctor sees no flag. But what matters is continuity. Sustained, uninterrupted slow-wave epochs of 20+ minutes are needed for glymphatic clearance and memory consolidation (Diekelmann & Born 2010, *Nature Reviews Neuroscience*); fragmented N3 — five minutes here, three minutes there, punctuated by stage transitions and microarousals — yields the same percentage but essentially none of the restorative function. Standard PSG reports the percentage; it does not report the longest sustained epoch or a fragmentation index. Two patients both showing 20% N3, one in sustained blocks and one in scattered fragments, receive the same score.
+The percentage problem is subtler but equally consequential. ME/CFS patients may spend a perfectly normal percentage of total sleep time in N3 — and the report reflects this, so the doctor sees no flag. But what matters is continuity. Sustained, uninterrupted slow-wave epochs of 20+ minutes are needed for glymphatic clearance and memory consolidation [[5]](#ref-5); fragmented N3 — five minutes here, three minutes there, punctuated by stage transitions and microarousals — yields the same percentage but essentially none of the restorative function. Standard PSG reports the percentage; it does not report the longest sustained epoch or a fragmentation index. Two patients both showing 20% N3, one in sustained blocks and one in scattered fragments, receive the same score.
 
 On top of this, ME/CFS sleep quality fluctuates dramatically with disease activity, PEM timing, and circadian drift. A single PSG night can catch a relatively good night — the novelty and stress of the sleep lab sometimes even produce a first-night effect that further distorts the architecture — while multi-night home monitoring would give a far more representative picture. It is rarely ordered.
 
@@ -92,13 +92,13 @@ Upgrading the diagnostic approach — spectral analysis, extended arousal scorin
 
 ---
 
-## Key references
+## References
 
-- AASM (current edition). The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications.
-- Moldofsky H et al. (1975). Musculoskeletal symptoms and non-REM sleep disturbance in patients with "fibrositis syndrome" and healthy subjects. *Psychosomatic Medicine*, 37(4), 341–351.
-- Roizenblatt S et al. (2001). Alpha sleep characteristics in fibromyalgia. *Arthritis & Rheumatism*, 44(1), 222–230.
-- Xie L et al. (2013). Sleep drives metabolite clearance from the adult brain. *Science*, 342(6156), 373–377.
-- Diekelmann S & Born J (2010). The memory function of sleep. *Nature Reviews Neuroscience*, 11(2), 114–126.
+<span id="ref-1"></span>1. AASM (current edition). The AASM Manual for the Scoring of Sleep and Associated Events: Rules, Terminology and Technical Specifications.
+<span id="ref-2"></span>2. Moldofsky H et al. (1975). Musculoskeletal symptoms and non-REM sleep disturbance in patients with "fibrositis syndrome" and healthy subjects. *Psychosomatic Medicine*, 37(4), 341–351.
+<span id="ref-3"></span>3. Roizenblatt S et al. (2001). Alpha sleep characteristics in fibromyalgia. *Arthritis & Rheumatism*, 44(1), 222–230.
+<span id="ref-4"></span>4. Xie L et al. (2013). Sleep drives metabolite clearance from the adult brain. *Science*, 342(6156), 373–377.
+<span id="ref-5"></span>5. Diekelmann S & Born J (2010). The memory function of sleep. *Nature Reviews Neuroscience*, 11(2), 114–126.
 
 ---
 

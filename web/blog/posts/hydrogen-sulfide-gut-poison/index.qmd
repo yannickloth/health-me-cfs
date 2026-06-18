@@ -28,9 +28,9 @@ The irony is bitter. Several of these foods and supplements are recommended for 
 
 Cytochrome c oxidase (Complex IV) is the final complex of the electron transport chain. It accepts electrons from cytochrome c and transfers them to molecular oxygen, producing water. This reaction is what makes aerobic respiration "aerobic" — without it, the chain backs up and the cell reverts to anaerobic glycolysis.
 
-H₂S inhibits Complex IV by binding to the copper centre (CuB) in the binuclear active site — the same site where oxygen normally binds (Nicholls & Kim 1982, *Canadian Journal of Physiology and Pharmacology*; Cooper & Brown 2008, *Journal of Biological Chemistry*). The inhibition is reversible: when H₂S is removed, Complex IV function recovers. But in a situation where H₂S is produced continuously — as it is with persistent gut dysbiosis — the inhibition is chronic.
+H₂S inhibits Complex IV by binding to the copper centre (CuB) in the binuclear active site — the same site where oxygen normally binds [[1]](#ref-1)[[2]](#ref-2). The inhibition is reversible: when H₂S is removed, Complex IV function recovers. But in a situation where H₂S is produced continuously — as it is with persistent gut dysbiosis — the inhibition is chronic.
 
-The degree of inhibition depends on concentration. Low nanomolar H₂S may actually be beneficial — endogenous H₂S at physiological concentrations acts as a gaseous signalling molecule, regulating vasodilation, inflammation, and neuronal function. It is micromolar concentrations — the range produced by bacterial overgrowth — that become inhibitory to Complex IV (Módis et al. 2014, *Pharmacological Research*).
+The degree of inhibition depends on concentration. Low nanomolar H₂S may actually be beneficial — endogenous H₂S at physiological concentrations acts as a gaseous signalling molecule, regulating vasodilation, inflammation, and neuronal function. It is micromolar concentrations — the range produced by bacterial overgrowth — that become inhibitory to Complex IV [[3]](#ref-3).
 
 This is a dose-response relationship with a narrow therapeutic window: too little H₂S and you lose its signalling functions, too much and your mitochondria are poisoned. Gut dysbiosis pushes the concentration past the therapeutic range into the inhibitory range — not acutely toxic, but chronically impairing.
 
@@ -62,7 +62,7 @@ The overlap with ME/CFS symptoms is substantial, and the H₂S contribution can 
 
 ## Testing
 
-Standard breath tests for SIBO measure hydrogen and methane. Until recently, H₂S was not measured. The trio-smart breath test (Gemelli Biotech) now measures all three gases, allowing identification of H₂S-dominant SIBO specifically.
+Standard breath tests for SIBO measure hydrogen and methane. Until recently, H₂S was not measured. The trio-smart breath test (Gemelli Biotech) now measures all three gases, allowing identification of H₂S-dominant SIBO specifically [[4]](#ref-4).
 
 Urinary thiosulfate — a downstream metabolite of H₂S — can serve as a rough proxy for systemic H₂S exposure, though it is not specific and is not widely available.
 
@@ -94,13 +94,14 @@ H₂S from gut dysbiosis connects three pillars of ME/CFS pathophysiology throug
 
 This is not "the gut-brain axis" as a vague metaphor. It is a specific molecule, produced by specific bacteria, inhibiting a specific enzyme complex, through a specific binding mechanism, with specific downstream consequences for energy production, intestinal integrity, and immune activation. Every step is biochemically characterised. Every step is, in principle, targetable.
 
-For the ME/CFS patient who has tried "everything" — CoQ10, carnitine, B vitamins, anti-inflammatory diets — and hasn't improved: has anyone checked whether their gut bacteria are producing the very toxin that makes all those interventions irrelevant? If Complex IV is chronically inhibited by H₂S, no amount of upstream cofactor support will restore the ATP output the patient needs. You have to stop the poison before you can fix the engine.
+For the ME/CFS patient who has tried "everything" — CoQ10, carnitine, B vitamins, anti-inflammatory diets — and hasn't improved: has anyone checked whether their gut bacteria are producing the very toxin that makes all those interventions irrelevant? If Complex IV is chronically inhibited by H₂S, no amount of upstream cofactor support will restore the ATP output the patient needs. You have to stop the poison before you can fix the engine [[5]](#ref-5).
 
 ---
 
-Sources:
-- Nicholls P, Kim JK. Sulphide as an inhibitor and electron donor for the cytochrome c oxidase system. *Can J Biochem*. 1982;60(6):613-623.
-- Cooper CE, Brown GC. The inhibition of mitochondrial cytochrome oxidase by the gases carbon monoxide, nitric oxide, hydrogen cyanide and hydrogen sulfide. *J Bioenerg Biomembr*. 2008;40(5):547-556.
-- Módis K et al. Regulation of mitochondrial bioenergetic function by hydrogen sulfide. *Pharmacol Res*. 2014;85:56-63.
-- Pimentel M et al. Methane production during lactulose breath test. *Dig Dis Sci*. 2003;48(1):86-92.
-- Loth Y. ME/CFS: Mechanisms, Management, and Research Frontiers. 2026. doi.org/10.5281/zenodo.19627450
+## References
+
+<span id="ref-1"></span>1. Nicholls P, Kim JK. Sulphide as an inhibitor and electron donor for the cytochrome c oxidase system. *Can J Biochem*. 1982;60(6):613-623.
+<span id="ref-2"></span>2. Cooper CE, Brown GC. The inhibition of mitochondrial cytochrome oxidase by the gases carbon monoxide, nitric oxide, hydrogen cyanide and hydrogen sulfide. *J Bioenerg Biomembr*. 2008;40(5):547-556.
+<span id="ref-3"></span>3. Módis K et al. Regulation of mitochondrial bioenergetic function by hydrogen sulfide. *Pharmacol Res*. 2014;85:56-63.
+<span id="ref-4"></span>4. Pimentel M et al. Methane production during lactulose breath test. *Dig Dis Sci*. 2003;48(1):86-92.
+<span id="ref-5"></span>5. Loth Y. ME/CFS: Mechanisms, Management, and Research Frontiers. 2026. doi.org/10.5281/zenodo.19627450

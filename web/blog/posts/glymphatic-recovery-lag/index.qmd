@@ -14,9 +14,9 @@ This isn't treatment failure. This is biology.
 
 ## The Pump vs. The Pipes
 
-Your brain has a waste-clearance system — the glymphatic system — that operates during slow-wave sleep. Think of it as a pump-and-pipe network: norepinephrine oscillations drive cerebral vasomotion (the pump), which pushes CSF through perivascular spaces surrounded by astrocytic endfeet (the pipes), clearing metabolic waste — tau, amyloid, inflammatory mediators.
+Your brain has a waste-clearance system — the glymphatic system [[7]](#ref-7) — that operates during slow-wave sleep. Think of it as a pump-and-pipe network: norepinephrine oscillations drive cerebral vasomotion (the pump), which pushes CSF through perivascular spaces surrounded by astrocytic endfeet (the pipes), clearing metabolic waste — tau, amyloid, inflammatory mediators.
 
-Sleep medications like trazodone and DORAs can restore the pump within days. They increase slow-wave sleep duration, normalize delta power, and consolidate sleep architecture. Measurable on EEG night one.
+Sleep medications like trazodone and DORAs [[3]](#ref-3) can restore the pump within days. They increase slow-wave sleep duration, normalize delta power, and consolidate sleep architecture. Measurable on EEG night one.
 
 But the pipes? After years of non-restorative sleep, they're not the pipes you started with.
 
@@ -40,13 +40,13 @@ This is not a precise number. It's an order-of-magnitude estimate from the biolo
 
 ## The Month-by-Month Trajectory
 
-**Week 1:** Sleep architecture normalizes. You sleep through the night. You wake up still tired. This is expected — the pump is running, the pipes are still wrecked.
+**Week 1:** Sleep architecture normalizes [[4]](#ref-4). You sleep through the night. You wake up still tired. This is expected — the pump is running, the pipes are still wrecked.
 
-**Weeks 2–8:** DTI-ALPS imaging shows glymphatic function improving by maybe 10–15% of the deficit. AQP4 channels are slowly redistributing to endfeet. You feel no different. The brain is paying down its waste debt before the balance sheet shows positive clearance.
+**Weeks 2–8:** DTI-ALPS imaging [[5]](#ref-5) shows glymphatic function improving by maybe 10–15% of the deficit. AQP4 channels are slowly redistributing to endfeet. You feel no different. The brain is paying down its waste debt before the balance sheet shows positive clearance.
 
 **Month 3:** AQP4 fully repolarized. Endfeet partially re-extended. Accumulated waste substantially cleared. **This is the threshold.** This is where patients start noticing less brain fog, reduced PEM trigger sensitivity, more consistent cognitive stamina. This is why people say it "finally started working" after 8–12 weeks.
 
-**Month 6:** Endfeet largely restored. DTI-ALPS approaches ~50–60% of deficit recovery. Significant symptomatic benefit — but still not 100%.
+**Month 6:** Endfeet largely restored. DTI-ALPS [[6]](#ref-6) approaches ~50–60% of deficit recovery. Significant symptomatic benefit — but still not 100%.
 
 **Month 12+:** Perivascular basement membrane remodeling approaches completion. This is the ceiling of structural recovery. If you're not meaningfully better at 12 months, the remaining impairment is not glymphatic — you need a different intervention class.
 
@@ -54,7 +54,7 @@ This is not a precise number. It's an order-of-magnitude estimate from the biolo
 
 ## The Falsifiable Prediction
 
-This model makes a specific, testable claim: ME/CFS patients with >5 years of non-restorative sleep who achieve objectively normal sleep architecture (delta power, SWS %, spindle density on PSG) after 4 weeks of trazodone + DORA will **still** show reduced DTI-ALPS glymphatic index compared to age-matched controls. The same patients treated for >6 months will show progressive DTI-ALPS improvement.
+This model makes a specific, testable claim: ME/CFS patients with >5 years of non-restorative sleep who achieve objectively normal sleep architecture (delta power, SWS %, spindle density on PSG) after 4 weeks of trazodone + DORA [[2]](#ref-2) will **still** show reduced DTI-ALPS glymphatic index [[5]](#ref-5) compared to age-matched controls. The same patients treated for >6 months will show progressive DTI-ALPS improvement.
 
 A null result — DTI-ALPS normalization within 4 weeks of sleep architecture restoration — would refute the structural degradation model and support a purely functional (reversible) model. No one has run this study.
 
@@ -68,13 +68,14 @@ A null result — DTI-ALPS normalization within 4 weeks of sleep architecture re
 
 3. **The ceiling at 12 months is real.** If you've maintained consistent restorative sleep for a year and plateaued, you've extracted everything the glymphatic axis can give you. Further improvement requires targeting other mechanisms — mitochondrial support, pacing, anti-inflammatory strategies, and potentially addressing upstream locks like autoimmune persistence.
 
-4. **Sleep quality matters more than sleep duration.** The pump runs on delta oscillations, not minutes in bed. DORAs and trazodone improve the signal that drives clearance. Z-drugs like zolpidem increase sleep duration but suppress the NE oscillations that drive the pump — and provide zero tau neuroprotection. The medication class matters.
-Sources:
-- Parhizkar et al. 2025. *Nature Neuroscience*.
-- Lucey et al. 2023. *Annals of Neurology*.
-- Hauglund et al. 2025. *Cell*.
-- Holth et al. 2019. *Science*.
-- NematGorgani et al. 2025.
-- Ding et al. 2025.
-- Xie et al. 2013. Foundational glymphatic biology.
-- Fultz et al. 2019. Foundational glymphatic biology.
+4. **Sleep quality matters more than sleep duration.** The pump runs on delta oscillations, not minutes in bed. DORAs and trazodone [[1]](#ref-1) improve the signal that drives clearance. Z-drugs like zolpidem increase sleep duration but suppress the NE oscillations that drive the pump [[8]](#ref-8) — and provide zero tau neuroprotection [[1]](#ref-1). The medication class matters.
+## References
+
+<span id="ref-1"></span>1. Parhizkar et al. (2025). *Nature Neuroscience*.
+<span id="ref-2"></span>2. Lucey et al. (2023). *Annals of Neurology*.
+<span id="ref-3"></span>3. Hauglund et al. (2025). *Cell*.
+<span id="ref-4"></span>4. Holth et al. (2019). *Science*.
+<span id="ref-5"></span>5. NematGorgani et al. (2025).
+<span id="ref-6"></span>6. Ding et al. (2025).
+<span id="ref-7"></span>7. Xie et al. (2013). Foundational glymphatic biology.
+<span id="ref-8"></span>8. Fultz et al. (2019). Foundational glymphatic biology.

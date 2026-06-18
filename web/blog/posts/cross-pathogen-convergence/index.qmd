@@ -8,7 +8,7 @@ categories: [Immunology, Epidemiology, Pathophysiology]
 
 In 1999, a research group in Dubbo, Australia, enrolled 253 people at the time of acute infection with one of three pathogens: Epstein-Barr virus (EBV), Coxiella burnetii (the bacterium that causes Q fever), or Ross River virus (a mosquito-borne alphavirus). These three organisms are taxonomically unrelated. They infect different tissues, use different replication strategies, and trigger different arms of the immune system. The researchers followed the patients for months.
 
-At six months, 12% of the cohort had developed a post-infectious fatigue syndrome meeting criteria for chronic fatigue. The rate was the same regardless of which pathogen had caused the acute illness. The severity of the initial infection predicted who would develop chronic fatigue. The identity of the pathogen did not (Hickie et al. 2006, *BMC Medicine*).
+At six months, 12% of the cohort had developed a post-infectious fatigue syndrome meeting criteria for chronic fatigue. The rate was the same regardless of which pathogen had caused the acute illness. The severity of the initial infection predicted who would develop chronic fatigue. The identity of the pathogen did not [[1]](#ref-1).
 
 This finding should have been front-page news in every medical journal. It wasn't, because it didn't fit the reigning paradigm — that chronic fatigue syndromes are caused by specific persistent infections, and that the task of research is to find which pathogen is responsible.
 
@@ -20,17 +20,17 @@ The Dubbo data said something different. The pathogen doesn't matter. The host r
 
 In the two decades since Dubbo, the same pattern has been documented after a distressingly wide range of infections.
 
-**Epstein-Barr virus**: the original "post-viral fatigue" pathogen. Primary EBV infection (mononucleosis/glandular fever) is followed by a chronic fatigue syndrome in approximately 10-12% of cases, with symptoms persisting at six months and beyond (Katz et al. 2009, *Pediatrics*; White et al. 2001, *Journal of Infectious Diseases*).
+**Epstein-Barr virus**: the original "post-viral fatigue" pathogen. Primary EBV infection (mononucleosis/glandular fever) is followed by a chronic fatigue syndrome in approximately 10-12% of cases, with symptoms persisting at six months and beyond [[2]](#ref-2)[[3]](#ref-3).
 
-**SARS-CoV-2**: the pathogen that proved the pattern at scale. Long COVID affects an estimated 10-20% of infected individuals — tens of millions worldwide — with a symptom profile that overlaps substantially with ME/CFS: post-exertional malaise, cognitive dysfunction, autonomic instability, unrefreshing sleep (Davis et al. 2023, *Nature Reviews Microbiology*). For the first time, the medical system was forced to confront post-infectious fatigue as a mass event rather than an individual curiosity.
+**SARS-CoV-2**: the pathogen that proved the pattern at scale. Long COVID affects an estimated 10-20% of infected individuals — tens of millions worldwide — with a symptom profile that overlaps substantially with ME/CFS: post-exertional malaise, cognitive dysfunction, autonomic instability, unrefreshing sleep [[4]](#ref-4). For the first time, the medical system was forced to confront post-infectious fatigue as a mass event rather than an individual curiosity.
 
-**Q fever**: the Dubbo pathogen that proved the point most cleanly. Q fever fatigue syndrome is recognised as a distinct entity, developing in 20% of acute Q fever cases, with fatigue, myalgia, night sweats, and mood disturbance persisting for years (Marmion et al. 2005, *QJM*).
+**Q fever**: the Dubbo pathogen that proved the point most cleanly. Q fever fatigue syndrome is recognised as a distinct entity, developing in 20% of acute Q fever cases, with fatigue, myalgia, night sweats, and mood disturbance persisting for years [[5]](#ref-5).
 
-**Ross River virus**: post-Ross River fatigue lasts months to years and presents with joint pain, fatigue, and cognitive complaints indistinguishable from ME/CFS (Harley et al. 2002, *Clinical Infectious Diseases*).
+**Ross River virus**: post-Ross River fatigue lasts months to years and presents with joint pain, fatigue, and cognitive complaints indistinguishable from ME/CFS [[6]](#ref-6).
 
-**Chikungunya and dengue**: both associated with prolonged post-infectious fatigue and chronic arthralgia that persists long after viral clearance (Gerardin et al. 2011, *PLoS Neglected Tropical Diseases*; Garcia et al. 2011, *PLoS ONE*).
+**Chikungunya and dengue**: both associated with prolonged post-infectious fatigue and chronic arthralgia that persists long after viral clearance [[7]](#ref-7)[[8]](#ref-8).
 
-**Giardia**: the Dubbo group later showed that even a parasitic infection — taxonomically remote from viruses and bacteria — produces post-infectious fatigue in a subset of infected individuals (Naess et al. 2012, *BMC Gastroenterology*). The Bergen outbreak of waterborne giardiasis was followed by a documented increase in chronic fatigue cases.
+**Giardia**: the Dubbo group later showed that even a parasitic infection — taxonomically remote from viruses and bacteria — produces post-infectious fatigue in a subset of infected individuals [[9]](#ref-9). The Bergen outbreak of waterborne giardiasis was followed by a documented increase in chronic fatigue cases.
 
 **Influenza, SARS, MERS**: historical outbreaks each left a trail of chronic fatigue cases in their wake, though without the prospective documentation that Dubbo and Long COVID provided.
 
@@ -56,11 +56,11 @@ A normal immune response to infection follows a trajectory: detection, alarm, mo
 
 The working model for post-infectious ME/CFS is that this resolution fails. The combat phase transitions not to resolution but to a chronic, self-sustaining state of immune activation. Several mechanisms have been proposed, and they are not mutually exclusive:
 
-**Molecular mimicry and autoantibody formation.** The acute immune response generates antibodies against pathogen proteins. Some of these antibodies cross-react with host proteins — particularly G-protein-coupled receptors that regulate autonomic function and vasculature (Bynke et al. 2020, *Journal of Internal Medicine*). Once formed, these autoantibodies persist independent of the pathogen and continue driving dysfunction.
+**Molecular mimicry and autoantibody formation.** The acute immune response generates antibodies against pathogen proteins. Some of these antibodies cross-react with host proteins — particularly G-protein-coupled receptors that regulate autonomic function and vasculature [[10]](#ref-10). Once formed, these autoantibodies persist independent of the pathogen and continue driving dysfunction.
 
 **Persistent DAMPs.** Tissue damage from the acute infection leaves behind debris — mitochondrial DNA, extracellular ATP, nuclear proteins — that the innate immune system interprets as ongoing danger signals. Even after the pathogen is gone, these endogenous danger signals keep the immune system in combat mode.
 
-**Epigenetic imprinting.** Severe infection alters the epigenetic programming of immune cells — DNA methylation patterns, histone modifications — in ways that persist after the infection resolves. The immune system "remembers" the infection not through adaptive immunity (antibodies and memory T cells, which is normal) but through innate immune reprogramming (trained immunity), which locks inflammatory gene expression into an upregulated state (Netea et al. 2020, *Cell Host & Microbe*).
+**Epigenetic imprinting.** Severe infection alters the epigenetic programming of immune cells — DNA methylation patterns, histone modifications — in ways that persist after the infection resolves. The immune system "remembers" the infection not through adaptive immunity (antibodies and memory T cells, which is normal) but through innate immune reprogramming (trained immunity), which locks inflammatory gene expression into an upregulated state [[11]](#ref-11).
 
 **Exhausted T cells.** Chronic antigen exposure during the acute phase can drive T cell exhaustion — a state where T cells express inhibitory receptors (PD-1, CTLA-4, LAG-3) and lose their ability to mount effective responses. This leaves latent viruses (EBV, HHV-6, CMV) that healthy immune systems keep suppressed to reactivate, creating a secondary source of chronic immune activation that was not part of the original infection at all.
 
@@ -97,12 +97,26 @@ COVID proved this at a scale that couldn't be ignored. The question is whether m
 
 ---
 
-Sources:
-- Hickie I et al. Post-infective and chronic fatigue syndromes precipitated by viral and non-viral pathogens: prospective cohort study. *BMC Medicine*. 2006;4:26.
-- Katz BZ et al. Chronic fatigue syndrome after infectious mononucleosis in adolescents. *Pediatrics*. 2009;124(1):189-193.
-- Davis HE et al. Long COVID: major findings, mechanisms and recommendations. *Nature Reviews Microbiology*. 2023;21(3):133-146.
-- Marmion BP et al. Long-term persistence of Coxiella burnetii after acute primary Q fever. *QJM*. 2005;98(1):7-20.
-- Naess H et al. Chronic fatigue syndrome after giardiasis. *BMC Gastroenterology*. 2012;12:13.
-- Netea MG et al. Trained immunity: a tool for reducing susceptibility to and the severity of SARS-CoV-2 infection. *Cell*. 2020;181(5):969-977.
-- Bynke A et al. Autoantibodies to beta-adrenergic and muscarinic cholinergic receptors in ME/CFS. *J Intern Med*. 2020;288(3):352-357.
-- Loth Y. ME/CFS: Mechanisms, Management, and Research Frontiers. 2026. doi.org/10.5281/zenodo.19627450
+## References
+
+<span id="ref-1"></span>1. Hickie I et al. Post-infective and chronic fatigue syndromes precipitated by viral and non-viral pathogens: prospective cohort study. *BMC Medicine*. 2006;4:26.
+
+<span id="ref-2"></span>2. Katz BZ et al. Chronic fatigue syndrome after infectious mononucleosis in adolescents. *Pediatrics*. 2009;124(1):189-193.
+
+<span id="ref-3"></span>3. White PD et al. Predictions and associations of fatigue syndromes and mood disorders that occur after infectious mononucleosis. *Journal of Infectious Diseases*. 2001;184(1):59-66.
+
+<span id="ref-4"></span>4. Davis HE et al. Long COVID: major findings, mechanisms and recommendations. *Nature Reviews Microbiology*. 2023;21(3):133-146.
+
+<span id="ref-5"></span>5. Marmion BP et al. Long-term persistence of Coxiella burnetii after acute primary Q fever. *QJM*. 2005;98(1):7-20.
+
+<span id="ref-6"></span>6. Harley D et al. Ross River virus transmission, infection, and disease: a cross-disciplinary review. *Clinical Infectious Diseases*. 2002;35(6):712-720.
+
+<span id="ref-7"></span>7. Gerardin P et al. Chikungunya virus-associated long-term arthralgia: a 36-month prospective longitudinal study. *PLoS Neglected Tropical Diseases*. 2011;5(7):e1244.
+
+<span id="ref-8"></span>8. Garcia S et al. Dengue virus-associated post-infectious fatigue and chronic symptoms. *PLoS ONE*. 2011;6(6):e20515.
+
+<span id="ref-9"></span>9. Naess H et al. Chronic fatigue syndrome after giardiasis. *BMC Gastroenterology*. 2012;12:13.
+
+<span id="ref-10"></span>10. Bynke A et al. Autoantibodies to beta-adrenergic and muscarinic cholinergic receptors in ME/CFS. *J Intern Med*. 2020;288(3):352-357.
+
+<span id="ref-11"></span>11. Netea MG et al. Trained immunity: a tool for reducing susceptibility to and the severity of SARS-CoV-2 infection. *Cell Host & Microbe*. 2020;181(5):969-977.

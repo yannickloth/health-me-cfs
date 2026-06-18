@@ -6,13 +6,13 @@ date: "2026-06-06"
 categories: [ADHD, Treatment, PEM]
 ---
 
-This is the sixth in a series on the energy biology linking ADHD, autism, and ME/CFS. This article explains the striking dissociation between stimulant benefit for cognitive symptoms and their null effect on post-exertional malaise — and what it reveals about an untested treatment combination.
+This is the sixth in a series on the energy biology linking ADHD, autism, and ME/CFS. This article explains the striking dissociation between stimulant benefit for cognitive symptoms and their null effect on post-exertional malaise — and what it reveals about an untested treatment combination. The metabolic reserve model posits that ADHD involves a baseline brain energy deficit [[5]](#ref-5).
 
 ---
 
 ## The data
 
-A 2025 PNAS survey of **3,925 ME/CFS patients** assessed treatment outcomes across multiple domains:
+A 2025 PNAS survey of **3,925 ME/CFS patients** assessed treatment outcomes across multiple domains [[1]](#ref-1):
 
 - Stimulants improved **brain fog in 77.1%**
 - Stimulants improved **fatigue perception in 71.7%**
@@ -21,8 +21,6 @@ A 2025 PNAS survey of **3,925 ME/CFS patients** assessed treatment outcomes acro
 These three numbers appear contradictory. How can something improve fatigue by 72% while simultaneously having zero effect on the defining symptom of the disease?
 
 The metabolic reserve model offers a coherent explanation.
-
-> Vernon SD et al. Patient-reported treatment outcomes in ME/CFS and Long COVID. *PNAS*. 2025 [in press]. n = 3,925.
 
 ---
 
@@ -40,7 +38,7 @@ The subjective experience: thinking becomes easier. The constant effort required
 
 Post-exertional malaise is not triggered by how hard you *feel* you're working. It is triggered by how much total energy you *actually spend* — relative to your production capacity.
 
-PEM occurs when total metabolic demand exceeds mitochondrial maximum production for long enough to initiate oxidative damage. Stimulants do not increase mitochondrial capacity. They do not raise the ceiling. They reduce the cost of one specific category of demand (cognition) without changing the ceiling that determines PEM.
+PEM occurs when total metabolic demand exceeds mitochondrial maximum production for long enough to initiate oxidative damage [[4]](#ref-4). Stimulants do not increase mitochondrial capacity. They do not raise the ceiling. They reduce the cost of one specific category of demand (cognition) without changing the ceiling that determines PEM.
 
 And here is the trap: **when cognition becomes easier, you do more.**
 
@@ -72,13 +70,11 @@ No trial has tested this directly. No study has combined stimulant prescription 
 
 ## A secondary benefit: mitochondrial protection?
 
-There is a separate line of evidence suggesting methylphenidate may have direct mitochondrial effects:
+There is a separate line of evidence suggesting methylphenidate may have direct mitochondrial effects [[3]](#ref-3):
 
 - Increases **Parkin** expression (a mitophagy regulator — helps clear damaged mitochondria)
 - Reduces **reactive oxygen species** production
 - Maintains mitochondrial membrane potential
-
-> Almutairi MM et al. Mitochondrial dysfunction and mitophagy in ADHD: Cellular and molecular mechanisms. *Saudi Pharmaceutical Journal*. 2024;32(12):102212. PMID: 39638973.
 
 If confirmed, this means methylphenidate may not just reduce cognitive energy demand — it may also slightly protect the mitochondria that produce that energy. A drug that does both would be particularly valuable in the metabolic reserve framework. However, this evidence is primarily preclinical and has not been validated in ME/CFS patients.
 
@@ -86,7 +82,7 @@ If confirmed, this means methylphenidate may not just reduce cognitive energy de
 
 ## The Blockmans RCT
 
-The most rigorous trial of methylphenidate in ME/CFS was a double-blind crossover RCT (n = 60, 4 weeks per arm):
+The most rigorous trial of methylphenidate in ME/CFS was a double-blind crossover RCT (n = 60, 4 weeks per arm) [[2]](#ref-2):
 
 - Fatigue scores fell significantly on methylphenidate vs placebo
 - Concentration improved significantly
@@ -94,8 +90,6 @@ The most rigorous trial of methylphenidate in ME/CFS was a double-blind crossove
 - In a separate long-term observational follow-up by the same group (n = 149 surveyed of 194 prescribed): 65% had stopped methylphenidate; among those continuing, 48% reported ≥50% fatigue improvement, 62% reported ≥50% concentration improvement
 
 The high dropout rate (65% stopped) is itself informative. Consistent with the model: patients who stopped may have been those who increased activity, experienced worse PEM, and attributed the worsening to the medication. Patients who continued may have been those who maintained pacing and experienced the cognitive benefit without PEM cost.
-
-> Blockmans D et al. Does methylphenidate reduce the symptoms of chronic fatigue syndrome? *Am J Med*. 2006;119(2):167.e23–167.e30. PMID: 16443425.
 
 ---
 
@@ -123,12 +117,12 @@ For ME/CFS patients using stimulants:
 
 ## References
 
-1. Vernon SD et al. Patient-reported treatment outcomes in ME/CFS and Long COVID. *PNAS*. 2025 [in press]. n = 3,925.
+<span id="ref-1"></span>1. Vernon SD et al. Patient-reported treatment outcomes in ME/CFS and Long COVID. *PNAS*. 2025 [in press]. n = 3,925.
 
-2. Blockmans D et al. Does methylphenidate reduce the symptoms of chronic fatigue syndrome? *Am J Med*. 2006;119(2):167.e23–167.e30. PMID: 16443425.
+<span id="ref-2"></span>2. Blockmans D et al. Does methylphenidate reduce the symptoms of chronic fatigue syndrome? *Am J Med*. 2006;119(2):167.e23–167.e30. PMID: 16443425.
 
-3. Almutairi MM et al. Mitochondrial dysfunction and mitophagy in ADHD. *Saudi Pharm J*. 2024;32(12):102212. PMID: 39638973.
+<span id="ref-3"></span>3. Almutairi MM et al. Mitochondrial dysfunction and mitophagy in ADHD. *Saudi Pharm J*. 2024;32(12):102212. PMID: 39638973.
 
-4. Walitt B et al. Deep phenotyping of post-infectious ME/CFS. *Nat Commun*. 2024;15:907. PMID: 38267427.
+<span id="ref-4"></span>4. Walitt B et al. Deep phenotyping of post-infectious ME/CFS. *Nat Commun*. 2024;15:907. PMID: 38267427.
 
-5. Zametkin AJ et al. Cerebral glucose metabolism in adults with hyperactivity of childhood onset. *NEJM*. 1990;323(20):1361–1366. PMID: 2233902.
+<span id="ref-5"></span>5. Zametkin AJ et al. Cerebral glucose metabolism in adults with hyperactivity of childhood onset. *NEJM*. 1990;323(20):1361–1366. PMID: 2233902.

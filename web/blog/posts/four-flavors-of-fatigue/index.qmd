@@ -20,7 +20,7 @@ The GP hears "I'm tired" twice and reaches for the same differential: thyroid, i
 
 **Peripheral fatigue** is the failure of muscles to generate force. It has a specific physiology: ATP depletion in myocytes, accumulated lactate and hydrogen ions, impaired calcium release from the sarcoplasmic reticulum. You can measure it with a dynamometer — the muscle literally cannot contract as hard. A marathon runner at kilometre 38 has peripheral fatigue. It resolves with rest, glycogen repletion, and time. The mechanism is local, the recovery is predictable, and nobody argues about whether it's real.
 
-**Fatigability** — also called post-exertional malaise (PEM) — is different from fatigue by a dimension most clinicians don't think to ask about: time. The defining feature is delay. Exertion occurs on Monday. The collapse occurs on Tuesday or Wednesday. Between exertion and collapse, the patient may feel fine or even energised. Then the floor drops. Cognitive function degrades. Pain escalates. Basic activities become impossible. Recovery takes days to weeks, not hours. This is the cardinal feature of ME/CFS, and it has no equivalent in any other condition that uses the word "fatigue." It is not muscles failing under load. It is a systemic metabolic crash that follows exertion with a characteristic delay (Jason et al. 2015, *Fatigue: Biomedicine, Health & Behavior*; VanNess et al. 2010, *Medicine & Science in Sports & Exercise*).
+**Fatigability** — also called post-exertional malaise (PEM) — is different from fatigue by a dimension most clinicians don't think to ask about: time. The defining feature is delay. Exertion occurs on Monday. The collapse occurs on Tuesday or Wednesday. Between exertion and collapse, the patient may feel fine or even energised. Then the floor drops. Cognitive function degrades. Pain escalates. Basic activities become impossible. Recovery takes days to weeks, not hours. This is the cardinal feature of ME/CFS, and it has no equivalent in any other condition that uses the word "fatigue." It is not muscles failing under load. It is a systemic metabolic crash that follows exertion with a characteristic delay [[1]](#ref-1)[[2]](#ref-2).
 
 **Sleepiness** (somnolence) is the propensity to fall asleep. It is driven by adenosine accumulation and circadian pressure. A person with narcolepsy is sleepy. A person who slept three hours is sleepy. They can be distinguished from fatigued patients by one observation: put them in a dark quiet room, and they fall asleep within minutes. A patient with ME/CFS-type fatigability, placed in that same room, often cannot fall asleep at all — the "tired but wired" state where exhaustion and insomnia coexist. Sleepiness responds to stimulants, caffeine, and sleep. Fatigability does not.
 
@@ -34,7 +34,7 @@ The four states have different treatments. Applying the treatment for one to a p
 
 **Exercise** is therapeutic for depression-driven amotivation. It has strong evidence for improving mood, restoring dopaminergic function, and breaking the withdrawal-inactivity cycle. Clinicians know this. They generalise it. A patient who says "I'm tired" and has no abnormal blood work gets prescribed graded exercise therapy or encouraged to "push through."
 
-If that patient has ME/CFS-type fatigability, exercise doesn't just fail — it causes measurable physiological deterioration. Two-day cardiopulmonary exercise testing (CPET) shows that ME/CFS patients who exercise to their limit on day 1 have reduced ventilatory threshold, reduced peak oxygen consumption, and earlier anaerobic transition on day 2 (Snell et al. 2013, *Physical Therapy*). The system is objectively worse after exertion. This is the opposite of deconditioning, where day-2 performance is preserved or improved. Graded exercise therapy applied to ME/CFS patients in the PACE trial was followed by reports of significant patient deterioration — and no objective improvement on the trial's own measures when the protocol was independently reanalysed (Wilshire et al. 2018, *BMC Psychology*).
+If that patient has ME/CFS-type fatigability, exercise doesn't just fail — it causes measurable physiological deterioration. Two-day cardiopulmonary exercise testing (CPET) shows that ME/CFS patients who exercise to their limit on day 1 have reduced ventilatory threshold, reduced peak oxygen consumption, and earlier anaerobic transition on day 2 [[3]](#ref-3). The system is objectively worse after exertion. This is the opposite of deconditioning, where day-2 performance is preserved or improved. Graded exercise therapy applied to ME/CFS patients in the PACE trial was followed by reports of significant patient deterioration — and no objective improvement on the trial's own measures when the protocol was independently reanalysed [[4]](#ref-4).
 
 **Stimulants** (methylphenidate, modafinil) help amotivation and sleepiness. They increase dopaminergic and noradrenergic tone, improving drive and alertness. In ADHD, they are first-line. In ME/CFS, they can temporarily improve cognitive function and reduce the feeling of fog — but they do nothing to prevent PEM and may worsen it by masking warning signals. A patient on stimulants feels capable of doing more, does more, and crashes harder.
 
@@ -80,10 +80,12 @@ The English language will not be redesigned for clinical precision. But clinical
 
 ---
 
-Sources:
-- Jason LA et al. Differentiating post-exertional malaise from other fatigue types. *Fatigue: Biomedicine, Health & Behavior*. 2015;3(4):188-199.
-- VanNess JM et al. Postexertional malaise in women with chronic fatigue syndrome. *Medicine & Science in Sports & Exercise*. 2010;42(5):959-966.
-- Snell CR et al. Discriminative validity of metabolic and workload measurements for identifying people with chronic fatigue syndrome. *Physical Therapy*. 2013;93(11):1484-1492.
-- Wilshire CE et al. Rethinking the treatment of chronic fatigue syndrome. *BMC Psychology*. 2018;6:6.
-- Moldofsky H, Scarisbrick P. Induction of neurasthenic musculoskeletal pain syndrome by selective sleep stage deprivation. *Psychosomatic Medicine*. 1976;38(1):35-44.
-- Loth Y. ME/CFS: Mechanisms, Management, and Research Frontiers. 2026. doi.org/10.5281/zenodo.19627450
+## References
+
+<span id="ref-1"></span>1. Jason LA et al. (2015). Differentiating post-exertional malaise from other fatigue types. *Fatigue: Biomedicine, Health & Behavior*.
+
+<span id="ref-2"></span>2. VanNess JM et al. (2010). Postexertional malaise in women with chronic fatigue syndrome. *Medicine & Science in Sports & Exercise*.
+
+<span id="ref-3"></span>3. Snell CR et al. (2013). Discriminative validity of metabolic and workload measurements for identifying people with chronic fatigue syndrome. *Physical Therapy*.
+
+<span id="ref-4"></span>4. Wilshire CE et al. (2018). Rethinking the treatment of chronic fatigue syndrome. *BMC Psychology*.

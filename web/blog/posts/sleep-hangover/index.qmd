@@ -14,9 +14,9 @@ The "hangover without drinking" has a candidate mechanistic explanation — not 
 
 ## The brain's overnight cleaning crew
 
-During healthy deep sleep, the brain runs a waste-clearance operation called the glymphatic system. Cerebrospinal fluid flows along the spaces surrounding blood vessels, exchanges with the fluid between brain cells through specialised water channels (aquaporin-4), and carries out the metabolic debris that accumulated during the day: inflammatory mediators, misfolded proteins, excess neurotransmitters, lactate (Iliff et al. 2012, *Science Translational Medicine*).
+During healthy deep sleep, the brain runs a waste-clearance operation called the glymphatic system. Cerebrospinal fluid flows along the spaces surrounding blood vessels, exchanges with the fluid between brain cells through specialised water channels (aquaporin-4), and carries out the metabolic debris that accumulated during the day: inflammatory mediators, misfolded proteins, excess neurotransmitters, lactate (Iliff et al. 2012[[1]](#ref-1), *Science Translational Medicine*).
 
-This system is not always on. It operates preferentially during slow-wave sleep — the deep, delta-oscillation phase where the brain generates slow, synchronised electrical waves at 0.5–4 Hz. During these oscillations, the spaces between brain cells expand by roughly 60% in mouse models (Xie et al. 2013, *Science*; human measurements pending), opening the channels through which waste is flushed. The cleaning crew needs the building to be quiet, and delta waves are the quiet.
+This system is not always on. It operates preferentially during slow-wave sleep — the deep, delta-oscillation phase where the brain generates slow, synchronised electrical waves at 0.5–4 Hz. During these oscillations, the spaces between brain cells expand by roughly 60% in mouse models (Xie et al. 2013[[2]](#ref-2), *Science*; human measurements pending), opening the channels through which waste is flushed. The cleaning crew needs the building to be quiet, and delta waves are the quiet.
 
 What drives glymphatic clearance is not sleep duration but sleep quality — specifically the depth and continuity of slow-wave sleep. A patient who sleeps twelve hours of fragmented, alpha-contaminated sleep may get less glymphatic clearance than a healthy person who sleeps seven consolidated hours.
 
@@ -26,9 +26,9 @@ What drives glymphatic clearance is not sleep duration but sleep quality — spe
 
 In ME/CFS, the glymphatic system runs into trouble from three directions at once.
 
-The first is architectural. Alpha-delta sleep — the intrusion of waking-frequency alpha waves (8–12 Hz) into what should be deep delta sleep — means the brain never fully enters the oscillatory state that drives glymphatic flow. This pattern was first documented in fibromyalgia patients by Moldofsky et al. (1975, *Psychosomatic Medicine*) and later characterised quantitatively by Roizenblatt et al. (2001, *Arthritis & Rheumatism*). The thalamic calcium channel dysfunction that may cause it — CaV3.1 channels that normally generate deep-sleep oscillations shifting toward alpha frequency when competing ionic currents are disrupted (Perez-Reyes 2005, *PNAS*) — was covered in an earlier article in this series on calcium dysregulation. Without sustained delta oscillations, the interstitial spaces don't expand, the fluid doesn't flow, and the waste doesn't move.
+The first is architectural. Alpha-delta sleep — the intrusion of waking-frequency alpha waves (8–12 Hz) into what should be deep delta sleep — means the brain never fully enters the oscillatory state that drives glymphatic flow. This pattern was first documented in fibromyalgia patients by Moldofsky et al. (1975[[4]](#ref-4), *Psychosomatic Medicine*) and later characterised quantitatively by Roizenblatt et al. (2001[[5]](#ref-5), *Arthritis & Rheumatism*). The thalamic calcium channel dysfunction that may cause it — CaV3.1 channels that normally generate deep-sleep oscillations shifting toward alpha frequency when competing ionic currents are disrupted (Perez-Reyes 2005[[6]](#ref-6), *PNAS*) — was covered in an earlier article in this series on calcium dysregulation. Without sustained delta oscillations, the interstitial spaces don't expand, the fluid doesn't flow, and the waste doesn't move.
 
-The second problem is molecular. Aquaporin-4 (AQP4) channels at the astrocytic endfeet lining blood vessels are the molecular gateway for glymphatic exchange — AQP4-deficient animals show ~70% reduction in solute clearance (Iliff et al. 2012) — and norepinephrine inhibits them (Xie et al. 2013). ME/CFS patients with autonomic dysfunction often have chronically elevated nocturnal norepinephrine, so the same nervous system imbalance that prevents the body from relaxing into sleep also physically blocks the waste-clearance channels.
+The second problem is molecular. Aquaporin-4 (AQP4) channels at the astrocytic endfeet lining blood vessels are the molecular gateway for glymphatic exchange — AQP4-deficient animals show ~70% reduction in solute clearance (Iliff et al. 2012[[1]](#ref-1)) — and norepinephrine inhibits them (Xie et al. 2013[[2]](#ref-2)). ME/CFS patients with autonomic dysfunction often have chronically elevated nocturnal norepinephrine, so the same nervous system imbalance that prevents the body from relaxing into sleep also physically blocks the waste-clearance channels.
 
 Third, the system is starting from behind. Activated microglia — the brain's resident immune cells — disrupt the perivascular spaces through which glymphatic fluid flows, so pre-existing neuroinflammation impairs the plumbing before the overnight cleaning cycle even begins.
 
@@ -42,7 +42,7 @@ Healthy people experience sleep inertia — that groggy first few minutes after 
 
 In ME/CFS, sleep inertia can last two to four hours. Patients describe being unable to form coherent thoughts, unable to respond to conversation, unable to navigate from bedroom to kitchen without resting. Some sleep through multiple alarms, phone calls, physical contact. A brain that didn't complete its overnight maintenance cycle is trying to boot into a functional state while still loaded with the waste it was supposed to clear.
 
-The cortisol component matters here. Healthy waking involves a cortisol awakening response — a sharp rise in cortisol within the first 30–60 minutes after waking that shifts the brain from sleep mode to alert mode. ME/CFS patients typically show flattened cortisol rhythms: the morning spike is blunted, the diurnal variation reduced (Cleare 2003, *Endocrine Reviews*; Papadopoulos & Cleare 2012, *Nature Reviews Endocrinology*). The brain doesn't get the neurochemical signal that it's time to wake up. It drifts between states, half-asleep and half-poisoned, for hours.
+The cortisol component matters here. Healthy waking involves a cortisol awakening response — a sharp rise in cortisol within the first 30–60 minutes after waking that shifts the brain from sleep mode to alert mode. ME/CFS patients typically show flattened cortisol rhythms: the morning spike is blunted, the diurnal variation reduced (Cleare 2003[[7]](#ref-7), *Endocrine Reviews*; Papadopoulos & Cleare 2012[[8]](#ref-8), *Nature Reviews Endocrinology*). The brain doesn't get the neurochemical signal that it's time to wake up. It drifts between states, half-asleep and half-poisoned, for hours.
 
 ---
 
@@ -64,7 +64,7 @@ The mechanism connects directly to the energy deficit. Muscle relaxation is an a
 
 Magnesium plays a dual role: it acts as an endogenous calcium channel blocker and is an essential cofactor for mitochondrial ATP synthesis. ME/CFS patients with gastrointestinal dysfunction are at elevated risk for magnesium malabsorption. Yet Cochrane review evidence shows that magnesium supplementation alone does not reliably resolve nocturnal cramps — suggesting that in ME/CFS, the cramps are driven by the energy deficit itself, not solely by mineral deficiency. Addressing the cofactor without addressing the engine that uses it is insufficient.
 
-The calcium connection runs deeper. The Wirth and Scheibenbogen model proposes that sodium-potassium pump underperformance leads to intracellular sodium accumulation, which forces the sodium-calcium exchanger (NCX1) to run in reverse — importing calcium instead of exporting it. The resulting intracellular calcium overload impairs mitochondria, triggers oxidative stress, and in muscle tissue produces exactly the cramping and contracture pattern ME/CFS patients describe. Sodium MRI has confirmed the predicted 30% increase in intracellular muscle sodium after exercise in ME/CFS patients (Petter et al. 2022, *Journal of Translational Medicine*).
+The calcium connection runs deeper. The Wirth and Scheibenbogen model proposes that sodium-potassium pump underperformance leads to intracellular sodium accumulation, which forces the sodium-calcium exchanger (NCX1) to run in reverse — importing calcium instead of exporting it. The resulting intracellular calcium overload impairs mitochondria, triggers oxidative stress, and in muscle tissue produces exactly the cramping and contracture pattern ME/CFS patients describe. Sodium MRI has confirmed the predicted 30% increase in intracellular muscle sodium after exercise in ME/CFS patients (Petter et al. 2022[[9]](#ref-9), *Journal of Translational Medicine*).
 
 Each cramp is another fragment of the night stolen — another microarousal, another reset of the sleep stage clock, another interruption of the slow-wave sleep that was supposed to drive glymphatic clearance.
 
@@ -72,7 +72,7 @@ Each cramp is another fragment of the night stolen — another microarousal, ano
 
 ## No exit
 
-Failed glymphatic clearance leaves inflammatory mediators in the brain. Those mediators activate the NLRP3 inflammasome in microglia, producing IL-1β and IL-18 — cytokines that further disrupt sleep architecture (Krueger et al. 2001, *Annals of the New York Academy of Sciences*). Worse sleep means worse clearance means more inflammation means worse sleep. The cycle has no natural exit point.
+Failed glymphatic clearance leaves inflammatory mediators in the brain. Those mediators activate the NLRP3 inflammasome in microglia, producing IL-1β and IL-18 — cytokines that further disrupt sleep architecture (Krueger et al. 2001[[3]](#ref-3), *Annals of the New York Academy of Sciences*). Worse sleep means worse clearance means more inflammation means worse sleep. The cycle has no natural exit point.
 
 This is why "just sleep more" doesn't work. The problem isn't insufficient opportunity for sleep; it's that the sleep itself is structurally incapable of performing its primary maintenance function. More hours of broken sleep means more hours of failed clearance. The patient lies in bed longer and wakes up feeling the same, or worse — extended immobility in a sympathetically activated state may itself worsen autonomic dysfunction.
 
@@ -82,7 +82,7 @@ This is why "just sleep more" doesn't work. The problem isn't insufficient oppor
 
 If glymphatic clearance could be restored — through improved slow-wave sleep quality, normalised AQP4 function, or reduced nocturnal norepinephrine — the downstream consequences would be real. Less metabolic waste means less microglial activation, which means better sleep architecture, which means better clearance. The cycle can, in principle, run the other way.
 
-The harder truth is that glymphatic failure is only one of several independent mechanisms producing cognitive dysfunction in ME/CFS. The kynurenine pathway produces quinolinic acid that is directly neurotoxic — ME/CFS patients show significantly elevated quinolinic acid and reduced neuroprotective ratios (Groven et al. 2021, *Psychoneuroendocrinology*). Mast cell-derived histamine suppresses acetylcholine via H3 receptors. Cerebral hypoperfusion limits oxygen delivery regardless of clearance — 26% reductions in cerebral blood flow documented during orthostatic challenge (van Campen et al. 2020, *Clinical Neurophysiology Practice*). Fixing the glymphatic arm would help — it just wouldn't be sufficient on its own.
+The harder truth is that glymphatic failure is only one of several independent mechanisms producing cognitive dysfunction in ME/CFS. The kynurenine pathway produces quinolinic acid that is directly neurotoxic — ME/CFS patients show significantly elevated quinolinic acid and reduced neuroprotective ratios (Groven et al. 2021[[10]](#ref-10), *Psychoneuroendocrinology*). Mast cell-derived histamine suppresses acetylcholine via H3 receptors. Cerebral hypoperfusion limits oxygen delivery regardless of clearance — 26% reductions in cerebral blood flow documented during orthostatic challenge (van Campen et al. 2020[[11]](#ref-11), *Clinical Neurophysiology Practice*). Fixing the glymphatic arm would help — it just wouldn't be sufficient on its own.
 
 ME/CFS keeps returning to this: each mechanism is real, each contributes, and none of them is the whole story. Understanding which ones dominate in a given patient — through polysomnography, autonomic testing, neuroimaging — is the prerequisite for anything resembling targeted intervention.
 
@@ -98,7 +98,7 @@ For now, the morning hangover persists. Not because science doesn't understand i
 
 These interventions act directly on the mechanisms that drive glymphatic clearance — the quality of deep, delta-wave sleep that opens the interstitial spaces and lets the waste flow out.
 
-**Gabapentin and pregabalin.** In fibromyalgia, these medications increase slow-wave sleep and have well-established evidence for pain reduction. In ME/CFS, data are limited and extrapolation from fibromyalgia is unvalidated. Any benefit in ME/CFS would likely occur through pain relief rather than direct glymphatic enhancement. Cognitive side effects (dizziness, confusion) are a significant consideration for patients whose primary complaint may be cognitive dysfunction; starting low and monitoring for cognitive worsening is essential.
+**Gabapentin and pregabalin.** In fibromyalgia, these medications increase slow-wave sleep and have well-established evidence for pain reduction[[15]](#ref-15). In ME/CFS, data are limited and extrapolation from fibromyalgia is unvalidated. Any benefit in ME/CFS would likely occur through pain relief rather than direct glymphatic enhancement. Cognitive side effects (dizziness, confusion) are a significant consideration for patients whose primary complaint may be cognitive dysfunction; starting low and monitoring for cognitive worsening is essential.
 
 **Head-of-bed elevation (10–15 degrees).** The proposed mechanism is improved cerebral venous drainage, potentially enhancing glymphatic clearance. However, ME/CFS patients demonstrate reduced cerebral blood flow, and any intervention that affects cerebral perfusion requires caution. No controlled trials exist in ME/CFS, and the risk of sleep disruption from positional discomfort is non-trivial. This intervention is mechanistically plausible but untested.
 
@@ -108,7 +108,7 @@ These interventions act directly on the mechanisms that drive glymphatic clearan
 
 Norepinephrine inhibits aquaporin-4 channels, the molecular gateway for glymphatic exchange. Anything that reduces sympathetic activation during sleep indirectly helps the cleaning crew do its job.
 
-**Low-dose naltrexone (LDN).** The proposed mechanism involves microglial modulation and reduced neuroinflammation, but this has not been demonstrated in ME/CFS patients. Evidence is limited and inconsistent: a small randomised crossover trial in fibromyalgia (n=30) showed modest pain reduction, but other studies have shown no significant effect. No ME/CFS-specific RCTs exist. Vivid dreams are common, and severe psychiatric reactions including depression and suicidal ideation have been reported. The absolute risk is unknown. Given the weak and inconsistent evidence base and the severity of reported harms, LDN requires careful risk-benefit discussion with a clinician and mood monitoring during the first 2–4 weeks.
+**Low-dose naltrexone (LDN).** The proposed mechanism involves microglial modulation and reduced neuroinflammation, but this has not been demonstrated in ME/CFS patients. Evidence is limited and inconsistent: a small randomised crossover trial in fibromyalgia (n=30) showed modest pain reduction[[12]](#ref-12), but other studies have shown no significant effect[[13]](#ref-13). No ME/CFS-specific RCTs exist. Vivid dreams are common, and severe psychiatric reactions including depression and suicidal ideation have been reported. The absolute risk is unknown. Given the weak and inconsistent evidence base and the severity of reported harms, LDN requires careful risk-benefit discussion with a clinician and mood monitoring during the first 2–4 weeks.
 
 **Relaxation practices and diaphragmatic breathing.** Slow, deep abdominal breathing (4–6 breaths per minute) activates the vagus nerve and shifts autonomic balance toward parasympathetic dominance. This can be practised lying down with minimal energy expenditure. Progressive muscle relaxation (the "release only" variant, without tensing) and guided imagery are also options. No evidence exists that these practices specifically improve glymphatic clearance; the proposed mechanism (reduced norepinephrine → disinhibited AQP4 → better glymphatic flow) is a theoretical chain that has not been demonstrated. Any benefit would occur through general stress reduction rather than targeted glymphatic enhancement.
 
@@ -118,7 +118,7 @@ Norepinephrine inhibits aquaporin-4 channels, the molecular gateway for glymphat
 
 The glymphatic system is not always on — it operates preferentially during slow-wave sleep, which itself is gated by circadian rhythm. Anchoring the circadian clock helps ensure that when the patient does sleep, it happens at the biologically optimal time.
 
-**Fixed wake time.** A consistent morning wake time (within 30 minutes) anchors circadian rhythm. However, for ME/CFS patients with severe sleep debt, forcing an early wake time when sleep is needed may increase deprivation without improving circadian alignment. The balance between circadian consistency and sleep debt management requires individual assessment.
+**Fixed wake time.** A consistent morning wake time (within 30 minutes) anchors circadian rhythm[[16]](#ref-16). However, for ME/CFS patients with severe sleep debt, forcing an early wake time when sleep is needed may increase deprivation without improving circadian alignment. The balance between circadian consistency and sleep debt management requires individual assessment.
 
 **Morning bright light.** Exposure to bright light (10,000 lux from a therapy box or natural daylight) within 30 minutes of waking, for 20–30 minutes, can help shift circadian rhythm toward earlier sleep onset. The effect depends on the patient's existing circadian phase; light therapy is most effective when timed relative to the phase-response curve. Patients who cannot tolerate bright light due to photosensitivity may benefit from shorter exposures or lower-intensity dawn simulation.
 
@@ -132,7 +132,7 @@ These interventions don't fix glymphatic failure directly, but they reduce the a
 
 **Trazodone and amitriptyline.** These sedating antidepressants improve sleep maintenance and may increase slow-wave sleep. Trazodone (25–100 mg at bedtime) has low dependence risk; amitriptyline (5–25 mg at bedtime) also helps with pain and headaches but has anticholinergic side effects that limit dose. Evidence is extrapolated from insomnia populations; ME/CFS-specific data are limited.
 
-**Pain management.** Chronic pain consumes energy and prevents rest, creating a vicious cycle with sleep disruption. Simple analgesics (acetaminophen, NSAIDs) provide modest relief; neuropathic pain agents (gabapentin, pregabalin, duloxetine) are often more effective given the central sensitization and small fiber neuropathy underlying much ME/CFS pain. The goal is not elimination — which is often impossible — but reduction sufficient to allow sleep initiation.
+**Pain management.** Chronic pain consumes energy and prevents rest, creating a vicious cycle with sleep disruption. Simple analgesics (acetaminophen, NSAIDs) provide modest relief; neuropathic pain agents (gabapentin, pregabalin, duloxetine[[14]](#ref-14)) are often more effective given the central sensitization and small fiber neuropathy underlying much ME/CFS pain. The goal is not elimination — which is often impossible — but reduction sufficient to allow sleep initiation.
 
 **Treating comorbidities aggressively.** Sleep apnea, periodic limb movements, allergies, gastrointestinal dysfunction, POTS — every untreated condition adds to the metabolic load. In ME/CFS, patients operate at the absolute edge of capacity; a "minor" sleep disturbance that a healthy person could ignore may cost hours of functionality the next day. Treating comorbidities is important for energy conservation, though evidence that such treatment improves ME/CFS outcomes directly is limited.
 
@@ -152,38 +152,38 @@ This is why patients report that interventions work "very moderately" at best. E
 
 ---
 
-## Key references
+## References
 
 **Glymphatic system and sleep physiology:**
 
-- Iliff JJ et al. (2012). A paravascular pathway facilitates CSF flow through the brain parenchyma. *Science Translational Medicine*, 4(147), 147ra111.
-- Xie L et al. (2013). Sleep drives metabolite clearance from the adult brain. *Science*, 342(6156), 373–377.
-- Krueger JM (2001). Cytokines and sleep. *Annals of the New York Academy of Sciences*, 933, 211–221.
+<span id="ref-1"></span>1. Iliff JJ et al. (2012). A paravascular pathway facilitates CSF flow through the brain parenchyma. *Science Translational Medicine*, 4(147), 147ra111.
+<span id="ref-2"></span>2. Xie L et al. (2013). Sleep drives metabolite clearance from the adult brain. *Science*, 342(6156), 373–377.
+<span id="ref-3"></span>3. Krueger JM (2001). Cytokines and sleep. *Annals of the New York Academy of Sciences*, 933, 211–221.
 
 **Alpha-delta sleep and calcium channels:**
 
-- Moldofsky H et al. (1975). Musculoskeletal symptoms and non-REM sleep disturbance in patients with "fibrositis syndrome" and healthy subjects. *Psychosomatic Medicine*, 37(4), 341–351.
-- Roizenblatt S et al. (2001). Alpha sleep characteristics in fibromyalgia. *Arthritis & Rheumatism*, 44(1), 222–230.
-- Perez-Reyes E (2005). Molecular characterization of T-type calcium channels. *PNAS*, 102(15), 5238–5243.
+<span id="ref-4"></span>4. Moldofsky H et al. (1975). Musculoskeletal symptoms and non-REM sleep disturbance in patients with "fibrositis syndrome" and healthy subjects. *Psychosomatic Medicine*, 37(4), 341–351.
+<span id="ref-5"></span>5. Roizenblatt S et al. (2001). Alpha sleep characteristics in fibromyalgia. *Arthritis & Rheumatism*, 44(1), 222–230.
+<span id="ref-6"></span>6. Perez-Reyes E (2005). Molecular characterization of T-type calcium channels. *PNAS*, 102(15), 5238–5243.
 
 **Cortisol and HPA axis:**
 
-- Cleare AJ (2003). The neuroendocrinology of chronic fatigue syndrome. *Endocrine Reviews*, 24(2), 236–252.
-- Papadopoulos AS & Cleare AJ (2012). Hypothalamic-pituitary-adrenal axis dysfunction in chronic fatigue syndrome. *Nature Reviews Endocrinology*, 8(1), 22–32.
+<span id="ref-7"></span>7. Cleare AJ (2003). The neuroendocrinology of chronic fatigue syndrome. *Endocrine Reviews*, 24(2), 236–252.
+<span id="ref-8"></span>8. Papadopoulos AS & Cleare AJ (2012). Hypothalamic-pituitary-adrenal axis dysfunction in chronic fatigue syndrome. *Nature Reviews Endocrinology*, 8(1), 22–32.
 
 **Other mechanisms (kynurenine pathway, sodium, cerebral blood flow):**
 
-- Petter W et al. (2022). Muscle sodium content in patients with ME/CFS. *Journal of Translational Medicine*, 20, 580.
-- Groven N et al. (2021). Kynurenine metabolites and ratios differ between CFS, fibromyalgia, and healthy controls. *Psychoneuroendocrinology*, 131, 105287.
-- van Campen CLMC et al. (2020). Cerebral blood flow is reduced in ME/CFS during head-up tilt testing. *Clinical Neurophysiology Practice*, 5, 109–117.
+<span id="ref-9"></span>9. Petter W et al. (2022). Muscle sodium content in patients with ME/CFS. *Journal of Translational Medicine*, 20, 580.
+<span id="ref-10"></span>10. Groven N et al. (2021). Kynurenine metabolites and ratios differ between CFS, fibromyalgia, and healthy controls. *Psychoneuroendocrinology*, 131, 105287.
+<span id="ref-11"></span>11. van Campen CLMC et al. (2020). Cerebral blood flow is reduced in ME/CFS during head-up tilt testing. *Clinical Neurophysiology Practice*, 5, 109–117.
 
 **Medications and interventions:**
 
-- Younger J et al. (2013). Low-dose naltrexone for modulation of glial activation in fibromyalgia. *Journal of Pain*, 14(11), 1229–1240.
-- Polo R et al. (2019). Low-dose naltrexone therapy in fibromyalgia patients: a retrospective study. *Clinical Rheumatology*, 38(5), 1535–1540.
-- Arnold LM et al. (2008). Duloxetine for treatment of fibromyalgia in adults: a randomised, double-blind, placebo-controlled trial. *Arthritis & Rheumatism*, 58(1), 299–307.
-- Pregabalin Fibromyalgia Study Group (2005). Pregabalin for the treatment of fibromyalgia syndrome: results of a randomised, double-blind, placebo-controlled trial. *Arthritis & Rheumatism*, 52(4), 1264–1273.
-- Rosa RR et al. (1983). Relationship between sleep and neuroendocrine function in humans. *Journal of Clinical Endocrinology & Metabolism*, 57(2), 418–426. (Evidence for circadian effects on sleep architecture)
+<span id="ref-12"></span>12. Younger J et al. (2013). Low-dose naltrexone for modulation of glial activation in fibromyalgia. *Journal of Pain*, 14(11), 1229–1240.
+<span id="ref-13"></span>13. Polo R et al. (2019). Low-dose naltrexone therapy in fibromyalgia patients: a retrospective study. *Clinical Rheumatology*, 38(5), 1535–1540.
+<span id="ref-14"></span>14. Arnold LM et al. (2008). Duloxetine for treatment of fibromyalgia in adults: a randomised, double-blind, placebo-controlled trial. *Arthritis & Rheumatism*, 58(1), 299–307.
+<span id="ref-15"></span>15. Pregabalin Fibromyalgia Study Group (2005). Pregabalin for the treatment of fibromyalgia syndrome: results of a randomised, double-blind, placebo-controlled trial. *Arthritis & Rheumatism*, 52(4), 1264–1273.
+<span id="ref-16"></span>16. Rosa RR et al. (1983). Relationship between sleep and neuroendocrine function in humans. *Journal of Clinical Endocrinology & Metabolism*, 57(2), 418–426. (Evidence for circadian effects on sleep architecture)
 
 ---
 

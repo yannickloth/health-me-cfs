@@ -14,7 +14,7 @@ Hypermobility spectrum disorder (HSD) and hypermobile Ehlers-Danlos syndrome (hE
 
 ## The invisible tax on every movement
 
-In a normally-jointed person, ligaments provide passive stability. When you stand, your knee ligaments hold the joint in position without any muscular effort. The muscles are free to do other things — generate movement, respond to perturbation, carry loads. The ligaments are like guy-wires on a tent pole: they provide structural stability for free.
+In a normally-jointed person, ligaments provide passive stability. When you stand, your knee ligaments hold the joint in position without any muscular effort. The muscles are free to do other things — generate movement, respond to perturbation, carry loads. The ligaments are like guy-wires on a tent pole: they provide structural stability for free [[2]](#ref-2).
 
 In a hypermobile person, the ligaments are elastic enough that they don't fully stabilise the joint. The muscles must compensate. Every joint, every moment, the postural muscles are doing the work that ligaments should handle passively. Standing still is not effortless — it requires continuous active muscle contraction to prevent the joint from subluxing, hyperextending, or drifting into an unstable position.
 
@@ -30,7 +30,7 @@ The result: a person with hypermobility expends significantly more energy on pos
 
 Connective tissue isn't only in joints. It forms the walls of blood vessels. In hypermobility, blood vessels are abnormally distensible — they stretch more easily under pressure. This has a specific and devastating consequence for blood pressure regulation.
 
-When a person with hEDS stands up, blood pools in the distensible veins of the lower body. Normally, venous tone and the muscle pump return blood to the heart promptly. In hEDS, the veins stretch excessively, pooling is greater, and venous return drops. The heart receives less blood. Cardiac output falls. Blood pressure drops. The brain, sitting at the top of the circulatory system, gets perfused last and least.
+When a person with hEDS stands up, blood pools in the distensible veins of the lower body. Normally, venous tone and the muscle pump return blood to the heart promptly. In hEDS, the veins stretch excessively, pooling is greater, and venous return drops. The heart receives less blood. Cardiac output falls. Blood pressure drops. The brain, sitting at the top of the circulatory system, gets perfused last and least [[3]](#ref-3)[[4]](#ref-4).
 
 This is the mechanism of POTS (postural orthostatic tachycardia syndrome) in hEDS patients: the heart rate surges to compensate for reduced stroke volume, producing tachycardia. The patient experiences palpitations, lightheadedness, and cognitive dysfunction on standing — not because the heart is diseased, but because the blood vessels are too stretchy to maintain adequate preload.
 
@@ -40,7 +40,7 @@ The energy cost of compensatory tachycardia is real. A resting heart rate of 100
 
 ## The mast cell connection
 
-The overlap between hEDS and mast cell activation syndrome (MCAS) is clinically striking and not fully explained. Estimates vary, but MCAS prevalence in hEDS cohorts is far above the general population (Seneviratne et al. 2017, *American Journal of Medical Genetics*).
+The overlap between hEDS and mast cell activation syndrome (MCAS) is clinically striking and not fully explained. Estimates vary, but MCAS prevalence in hEDS cohorts is far above the general population [[1]](#ref-1).
 
 One hypothesis: defective connective tissue provides abnormal mechanical signalling to mast cells that reside within it. Mast cells are mechanosensitive — they respond to physical forces in their surrounding matrix. In abnormal extracellular matrix, the mechanical signals are abnormal, potentially leading to inappropriate mast cell activation.
 
@@ -74,7 +74,7 @@ The framework this series has been developing suggests why: ME/CFS is a state of
 
 On this model, a hypermobile person doesn't develop ME/CFS because of bad luck. They develop it because their baseline energy margin was always smaller. The buffer between "managing" and "failing" was narrower. The cliff was closer.
 
-This has a practical implication: in the hEDS subset of ME/CFS patients, treatment must address the structural energy drain alongside the metabolic and immune mechanisms. Compression garments (reducing venous pooling), joint bracing (reducing muscular compensation), POTS management (fludrocortisone, midodrine, increased sodium and fluids), and MCAS treatment (antihistamines, mast cell stabilisers) are not peripheral interventions. They are direct reductions in the energy tax that the connective tissue dysfunction imposes.
+This has a practical implication: in the hEDS subset of ME/CFS patients, treatment must address the structural energy drain alongside the metabolic and immune mechanisms. Compression garments (reducing venous pooling), joint bracing (reducing muscular compensation), POTS management (fludrocortisone, midodrine, increased sodium and fluids), and MCAS treatment (antihistamines, mast cell stabilisers) are not peripheral interventions. They are direct reductions in the energy tax that the connective tissue dysfunction imposes [[5]](#ref-5).
 
 ---
 
@@ -90,9 +90,10 @@ The fix is pattern recognition. The Beighton score takes two minutes. The questi
 
 ---
 
-Sources:
-- Seneviratne SL et al. Mast cell disorders in Ehlers-Danlos syndrome. *Am J Med Genet C*. 2017;175(1):226-236.
-- Hakim A, Grahame R. Joint hypermobility. *Best Practice & Research Clinical Rheumatology*. 2003;17(6):989-1004.
-- Roma M et al. Postural tachycardia syndrome and its association with Ehlers-Danlos syndrome. *Clinical Autonomic Research*. 2018;28(3):313-321.
-- De Wandele I et al. Dysautonomia and its underlying mechanisms in the hypermobility type of EDS. *Seminars in Arthritis and Rheumatism*. 2014;44(1):93-100.
-- Loth Y. ME/CFS: Mechanisms, Management, and Research Frontiers. 2026. doi.org/10.5281/zenodo.19627450
+## References
+
+<span id="ref-1"></span>1. Seneviratne SL et al. Mast cell disorders in Ehlers-Danlos syndrome. *Am J Med Genet C*. 2017;175(1):226-236.
+<span id="ref-2"></span>2. Hakim A, Grahame R. Joint hypermobility. *Best Practice & Research Clinical Rheumatology*. 2003;17(6):989-1004.
+<span id="ref-3"></span>3. Roma M et al. Postural tachycardia syndrome and its association with Ehlers-Danlos syndrome. *Clinical Autonomic Research*. 2018;28(3):313-321.
+<span id="ref-4"></span>4. De Wandele I et al. Dysautonomia and its underlying mechanisms in the hypermobility type of EDS. *Seminars in Arthritis and Rheumatism*. 2014;44(1):93-100.
+<span id="ref-5"></span>5. Loth Y. ME/CFS: Mechanisms, Management, and Research Frontiers. 2026. doi.org/10.5281/zenodo.19627450

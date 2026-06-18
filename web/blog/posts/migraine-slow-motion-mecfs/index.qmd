@@ -12,7 +12,7 @@ This is the seventh and final article in a series on the energy biology linking 
 
 ## The epidemiological signal
 
-A Taiwan national cohort study followed **6,902 migraine patients** and **27,608 matched controls** from 2006 to 2010:
+A Taiwan national cohort study followed **6,902 migraine patients** and **27,608 matched controls** from 2006 to 2010 [[1]](#ref-1):
 
 - CFS incidence: **52.72 per 10,000 person-years** in migraineurs vs **28.85** in controls
 - Incidence rate ratio: approximately **1.5×**
@@ -22,8 +22,6 @@ A Taiwan national cohort study followed **6,902 migraine patients** and **27,608
 The risk increases with age. It increases with frequency. It accumulates.
 
 *Limitation: This study used ICD codes from the Taiwan National Health Insurance database. CFS diagnosis via administrative codes has low specificity — many coded cases may not meet ME/CFS research criteria (ICC or CCC). The association may partially reflect shared diagnostic patterns or medication side effects (migraine prophylactics commonly cause fatigue) rather than a pure biological relationship.*
-
-> Lau C-I et al. Increased risk of chronic fatigue syndrome in patients with migraine: A retrospective cohort study. *J Psychosom Res*. 2015;79(6):514–518. PMID: 26505533.
 
 ---
 
@@ -42,7 +40,7 @@ CSD is one of the most energy-demanding events in neurobiology. The recovery —
 
 ## The chronic deficit between attacks
 
-Migraineurs are not metabolically normal between attacks. Multiple lines of evidence show **chronic mitochondrial impairment** even in the interictal period:
+Migraineurs are not metabolically normal between attacks. Multiple lines of evidence show **chronic mitochondrial impairment** even in the interictal period [[2]](#ref-2):
 
 - **Elevated blood lactate** (indicating anaerobic glycolysis compensation)
 - **Lower N-acetylaspartate (NAA)** on MR spectroscopy (a marker of neuronal energy capacity and mitochondrial function)
@@ -51,8 +49,6 @@ Migraineurs are not metabolically normal between attacks. Multiple lines of evid
   - Citrate synthase (Krebs cycle entry enzyme)
   - Cytochrome c oxidase (Complex IV — the terminal electron acceptor)
 - **Calcium dysregulation** creating feed-forward oxidative damage
-
-> Wang Y et al. Energy metabolism disturbance in migraine: From a mitochondrial point of view. *Frontiers in Physiology*. 2023;14:1133528. PMID: 37123270.
 
 Between migraines, the brain is not "normal." It is operating with reduced mitochondrial capacity. Under the cumulative depletion model, each attack depletes reserves and each recovery is slightly incomplete.
 
@@ -131,14 +127,14 @@ Across this seven-article series, a unified framework has emerged:
 
 | Condition / predisposing factor | Mechanism of reserve reduction | Type |
 | --- | --- | --- |
-| ADHD | Prefrontal hypometabolism + dopaminergic inefficiency | Static baseline deficit |
-| ASD | Systemic mitochondrial ETC dysfunction + low BH4 | Static baseline deficit |
+| ADHD | Prefrontal hypometabolism + dopaminergic inefficiency [[4]](#ref-4) [[6]](#ref-6) | Static baseline deficit |
+| ASD | Systemic mitochondrial ETC dysfunction + low BH4 [[5]](#ref-5) [[7]](#ref-7) | Static baseline deficit |
 | hEDS/POTS | Cerebral hypoperfusion from connective tissue laxity | Static delivery deficit |
 | Migraine | Cumulative CSD damage to mitochondria | Progressive erosion |
 | GCH1 rs841 | Reduced BH4 production | Static genetic deficit |
 | Iron deficiency | Impaired complex I/II + dopamine synthesis | Modifiable deficit |
 
-Each condition reduces the brain's metabolic reserve through a different mechanism. The convergent result: less buffer to absorb an immune insult. The convergent outcome when a virus arrives: ME/CFS.
+Each condition reduces the brain's metabolic reserve through a different mechanism. The convergent result: less buffer to absorb an immune insult. Neurodivergent traits in childhood predict chronic disabling fatigue in adolescence [[3]](#ref-3). The convergent outcome when a virus arrives: ME/CFS.
 
 The framework generates clear research priorities:
 
@@ -156,16 +152,16 @@ These studies haven't been done. But for the first time, the hypothesis is clear
 
 ## References
 
-1. Lau C-I et al. Increased risk of chronic fatigue syndrome in patients with migraine. *J Psychosom Res*. 2015;79(6):514–518. PMID: 26505533.
+<span id="ref-1"></span>1. Lau C-I et al. Increased risk of chronic fatigue syndrome in patients with migraine. *J Psychosom Res*. 2015;79(6):514–518. PMID: 26505533.
 
-2. Wang Y et al. Energy metabolism disturbance in migraine: From a mitochondrial point of view. *Front Physiol*. 2023;14:1133528. PMID: 37123270.
+<span id="ref-2"></span>2. Wang Y et al. Energy metabolism disturbance in migraine: From a mitochondrial point of view. *Front Physiol*. 2023;14:1133528. PMID: 37123270.
 
-3. Quadt L et al. Childhood neurodivergent traits, inflammation and chronic disabling fatigue. *BMJ Open*. 2024;14(7):e084203. PMID: 39038862.
+<span id="ref-3"></span>3. Quadt L et al. Childhood neurodivergent traits, inflammation and chronic disabling fatigue. *BMJ Open*. 2024;14(7):e084203. PMID: 39038862.
 
-4. Zametkin AJ et al. Cerebral glucose metabolism in adults with hyperactivity of childhood onset. *NEJM*. 1990;323(20):1361–1366. PMID: 2233902.
+<span id="ref-4"></span>4. Zametkin AJ et al. Cerebral glucose metabolism in adults with hyperactivity of childhood onset. *NEJM*. 1990;323(20):1361–1366. PMID: 2233902.
 
-5. Frye RE et al. Biomarkers of mitochondrial dysfunction in ASD. *Neurobiol Dis*. 2024;197:106520. PMID: 38703861.
+<span id="ref-5"></span>5. Frye RE et al. Biomarkers of mitochondrial dysfunction in ASD. *Neurobiol Dis*. 2024;197:106520. PMID: 38703861.
 
-6. Berthier J et al. Cerebral blood flow in ADHD: A systematic review. *Neuroscience*. 2025;567:67–76. PMID: 39631658.
+<span id="ref-6"></span>6. Berthier J et al. Cerebral blood flow in ADHD: A systematic review. *Neuroscience*. 2025;567:67–76. PMID: 39631658.
 
-7. Fanet H et al. BH4 pathway: from metabolism to neuropsychiatry. *Curr Neuropharmacol*. 2021;19(5):591–609. PMID: 32744952.
+<span id="ref-7"></span>7. Fanet H et al. BH4 pathway: from metabolism to neuropsychiatry. *Curr Neuropharmacol*. 2021;19(5):591–609. PMID: 32744952.
