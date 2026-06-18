@@ -27,3 +27,8 @@ format:
     number-sections: true
     html-math-method: mathjax
     cite-method: citeproc
+    crossref:
+      sec-prefix: Section
+      fig-prefix: Figure
+      tbl-prefix: Table
+      eq-prefix: Equation

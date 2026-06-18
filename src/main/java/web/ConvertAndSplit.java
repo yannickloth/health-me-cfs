@@ -84,6 +84,11 @@ void main(String[] args) throws IOException {
     src = src.replace("$arrow.r$", "→");
     src = src.replace("$arrow.l$", "←");
 
+    // Typst math → LaTeX/MathJax math translation
+    src = src.replaceAll("upright\\(\"([^\"]+)\"\\)", "\\text{$1}");  // upright("X") → \text{X}
+    src = src.replaceAll("dot\\.op\\s+", "\\cdot ");                    // dot.op → \cdot
+    src = src.replaceAll("space\\s+", "");                              // space → (discard)
+
     // #align(center, table(...)) → just table
     src = src.replaceAll("#align\\(center,\\s*", "");
     // Remove stray #align leftover closing parens
@@ -195,13 +200,21 @@ void main(String[] args) throws IOException {
         }
 
         var headingLine = "## " + sec.title();
+        var labels = new ArrayList<String>();
         if (!sec.label().isEmpty()) {
-            var pandocLabel = sec.label()
+            labels.add(sec.label()
                 .replaceFirst("^<", "{#")
                 .replaceFirst(">$", "}")
-                .replaceFirst(":", "-");
-            headingLine += " " + pandocLabel;
+                .replaceFirst(":", "-"));
         }
+        // On first section page, also attach chapter label so cross-refs resolve
+        if (secNum == 1 && !chapLabel.isEmpty()) {
+            labels.add(chapLabel
+                .replaceFirst("^<", "{#")
+                .replaceFirst(">$", "}")
+                .replaceFirst(":", "-"));
+        }
+        for (var l : labels) headingLine += " " + l;
         sb.append(headingLine).append("\n\n");
 
         for (var line : sec.body) {
@@ -224,13 +237,26 @@ void main(String[] args) throws IOException {
                 raw = "#".repeat(level) + stripped.substring(eqCount);
             }
 
-            // Handle <label> on its own line → {#label}
+            // Convert standalone $...$ display math lines to $$...$$
+            if (raw.strip().matches("^\\$[^$].*[^$]\\$\\s*$")) {
+                raw = "$$" + raw.strip().substring(1, raw.strip().length() - 1) + "$$";
+            }
+
+            // Handle <label> on its own line — attach to previous heading
             if (raw.strip().matches("^<[a-zA-Z][\\w:\\.-]*>$")) {
                 var label = raw.strip()
                     .replaceFirst("^<", "{#")
                     .replaceFirst(">$", "}")
-                    .replaceFirst(":", "-"); // {#obs:viral-meta} → {#obs-viral-meta}
-                sb.append(label).append('\n');
+                    .replaceFirst(":", "-");
+                // Replace trailing newline of last sb line with " " + label + "\n"
+                var buf = sb.toString();
+                if (buf.endsWith("\n")) {
+                    sb.setLength(0);
+                    sb.append(buf.substring(0, buf.length() - 1));
+                    sb.append(' ').append(label).append('\n');
+                } else {
+                    sb.append(' ').append(label).append('\n');
+                }
                 continue;
             }
 
