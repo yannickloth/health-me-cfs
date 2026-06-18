@@ -30,7 +30,6 @@
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns
 
     [*Severity Tier*], [*Functional Capacity*], [*Employment Feasibility*], [*Care Location*], [*Primary Goal*],
 
@@ -53,7 +52,6 @@
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns
 
     [*Severity Tier*], [*Office Visits*], [*Telemedicine*], [*Lab Testing*],
 

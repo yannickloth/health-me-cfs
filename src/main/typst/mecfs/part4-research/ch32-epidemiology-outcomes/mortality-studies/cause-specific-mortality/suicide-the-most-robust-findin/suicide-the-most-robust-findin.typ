@@ -6,7 +6,6 @@ Across _all_ study types—registry cohorts, clinical cohorts, and memorial reco
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columns
     [*Study*], [*SMR or Rate Ratio*], [*Significance*],
     [Roberts et al.\ (2016)], [6.85], [$p = 0.002$],
     [Smith et al.\ (2006) – CFS], [3.6], [Significant],

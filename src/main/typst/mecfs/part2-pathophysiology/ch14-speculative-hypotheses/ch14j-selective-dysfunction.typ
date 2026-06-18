@@ -132,7 +132,6 @@ Table @tab:process-classification classifies biological processes by their pred
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columns
   
   [*Process*], [$delta_("CNS")$], [$tilde(rho)$], [*Predicted $S$*], [*Observed*], [*Certainty*],
   

@@ -178,7 +178,6 @@ The key distinction is between _organic food avoidance_ (driven by physical symp
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columns p{4.5cm} p{4.5cm}}
   
   [*Feature*], [*ME/CFS eating difficulties*], [*Primary eating disorder (AN/BN)*],
   

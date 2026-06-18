@@ -5,7 +5,6 @@
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columns
     [*Mechanism*], [*ME/CFS Evidence*], [*Long COVID Evidence*],
     [GPCR autoantibodies], [29.5–91% prevalence @Loebel2016 @Bynke2020], [$beta$2-AR, M3 autoantibodies detected],
     [Plasma cell autoimmunity], [Daratumumab 60% response @Fluge2025daratumumab], [BC007 case reports],

@@ -13,7 +13,6 @@ While both are H2 blockers, cimetidine and famotidine have important differences
 
 #table(
   columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columns
 
 [*Property*], [*Cimetidine*], [*Famotidine*],
 

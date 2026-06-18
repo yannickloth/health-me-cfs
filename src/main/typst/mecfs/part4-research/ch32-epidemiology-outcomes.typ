@@ -300,7 +300,6 @@ Across _all_ study types—registry cohorts, clinical cohorts, and memorial reco
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columns
 
     [*Study*], [*SMR or Rate Ratio*], [*Significance*],
 

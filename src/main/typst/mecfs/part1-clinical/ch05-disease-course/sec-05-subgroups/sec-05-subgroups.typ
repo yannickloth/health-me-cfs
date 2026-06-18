@@ -91,7 +91,6 @@ Analysis of 83 ME/CFS patients identified three distinct metabolic phenotypes:
 #figure(
   table(
     columns: (auto, auto, auto, auto),
-    // TODO: fix columns
   
   [*Subgroup*], [*Size*], [*Metabolic Features*], [*Clinical Features*],
   
@@ -186,7 +185,6 @@ Different diagnostic criteria identify different patient populations with varyin
 #figure(
   table(
     columns: (auto, auto, auto, auto),
-    // TODO: fix columns
   
   [*Criteria*], [*Disease Severity*], [*Characteristics*],
   
@@ -305,7 +303,6 @@ Based on emerging literature, the following endotype-to-treatment mappings are s
 #figure(
   table(
     columns: (auto, auto, auto, auto),
-    // TODO: fix columnsp{2.2cm}p{3.2cm}p{1.2cm}p{3.5cm}p{1cm}p{1.3cm}@}
   
   [*Proposed Endotype*], [*Minimum Biomarkers*], [*Access*], [*Targeted Treatments*], [*Evid.*], [*Reprod.*],
   

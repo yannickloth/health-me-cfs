@@ -1253,7 +1253,6 @@ High-altitude medicine addresses tissue hypoxia from reduced atmospheric oxygen.
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{5cm}p{5cm}}
   
   [*Feature*], [*High Altitude*], [*ME/CFS*],
   
@@ -1377,7 +1376,6 @@ The phenomenological overlap with ME/CFS is striking. PICS may represent acquire
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{5cm}p{5cm}}
   
   [*Mechanism*], [*PICS*], [*ME/CFS*],
   
@@ -1567,7 +1565,6 @@ The key difference: Astronauts' symptoms are predictable and (mostly) reversible
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{5cm}p{4.5cm}}
   
   [*Feature*], [*Post-Spaceflight*], [*ME/CFS*],
   
@@ -1775,7 +1772,6 @@ The interventions from multiple fields can be integrated into a comprehensive ap
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{4cm}p{6cm}}
   
   [*Domain*], [*Key Interventions*], [*Primary Benefits*],
   
@@ -2570,7 +2566,6 @@ Table @tab:novel-hypotheses-summary summarizes the mechanistic hypotheses, prop
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{3cm}p{2.8cm}p{2.5cm}p{2.5cm}}
   
   [*Hypothesis*], [*Proposed Mechanism*], [*Intervention*], [*Evidence Basis*], [*Testability*],
   
@@ -2606,7 +2601,6 @@ Table @tab:novel-hypotheses-summary summarizes the mechanistic hypotheses, prop
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{3cm}p{2.5cm}p{3cm}p{2.5cm}}
   
   [*Intervention*], [*Safety Profile*], [*Cost*], [*Implementation Barrier*], [*Priority Tier*],
   

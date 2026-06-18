@@ -21,7 +21,6 @@ Table @tab:mito-supplements lists supplements targeting energy metabolism dysfu
 #figure(
   table(
     columns: (auto, auto, auto, auto),
-    // TODO: fix columnsp{2.5cm}p{1.5cm}p{4.5cm}}
   
   [*Supplement*], [*Typical Dose*], [*Evidence*], [*Mechanism and Notes*],
   
@@ -49,7 +48,6 @@ Table @tab:mito-supplements lists supplements targeting energy metabolism dysfu
 #figure(
   table(
     columns: (auto, auto, auto, auto),
-    // TODO: fix columnsp{2.5cm}p{1.5cm}p{4.5cm}}
   
   [*Supplement*], [*Typical Dose*], [*Evidence*], [*Mechanism and Notes*],
   
@@ -75,7 +73,6 @@ Table @tab:mito-supplements lists supplements targeting energy metabolism dysfu
 #figure(
   table(
     columns: (auto, auto, auto, auto),
-    // TODO: fix columnsp{2.5cm}p{1.5cm}p{4.5cm}}
   
   [*Supplement*], [*Typical Dose*], [*Evidence*], [*Mechanism and Notes*],
   
@@ -99,7 +96,6 @@ Table @tab:mito-supplements lists supplements targeting energy metabolism dysfu
 #figure(
   table(
     columns: (auto, auto, auto, auto),
-    // TODO: fix columnsp{2.5cm}p{1.5cm}p{4.5cm}}
   
   [*Supplement*], [*Typical Dose*], [*Evidence*], [*Mechanism and Notes*],
   

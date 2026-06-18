@@ -177,7 +177,6 @@ The three-pathway stratification (mild 75–100%, moderate 50–75%, moderate-se
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns
 
     [*Severity Tier*], [*Functional Capacity*], [*Employment Feasibility*], [*Care Location*], [*Primary Goal*],
 
@@ -200,7 +199,6 @@ The three-pathway stratification (mild 75–100%, moderate 50–75%, moderate-se
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns
 
     [*Severity Tier*], [*Office Visits*], [*Telemedicine*], [*Lab Testing*],
 
@@ -475,7 +473,6 @@ To operationalize crash prevention, we propose a four-tier severity classificati
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{2cm}p{3cm}p{3.5cm}p{5cm}@}
   
   [*Tier*], [*Exertion Relative to Envelope*], [*Typical Recovery Time*], [*Predicted Long-Term Impact*],
   
@@ -948,7 +945,6 @@ Sports medicine-adapted pacing shares superficial similarities with graded exerc
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{0.45100%} \>{\raggedright\arraybackslash}p{0.45100%}}
 
     [*GET (Inappropriate for ME/CFS)*], [*Sports-Adapted Pacing*],
 
@@ -2695,7 +2691,6 @@ After completing the diagnostic battery, create a visual representation of which
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsllll@}
   
   [*Cycle*], [*Status*], [*Key Biomarker(s)*], [*Treatment Priority*],
   
@@ -2753,7 +2748,6 @@ For patients with limited financial resources, prioritize high-yield, low-cost t
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{4cm}p{2.5cm}p{3cm}p{4cm}@}
   
   [*Test*], [*Approximate Cost*], [*Information Yield*], [*Cost-Effectiveness*],
   

@@ -59,7 +59,6 @@ Long COVID and ME/CFS share post-viral onset, exercise intolerance with delayed 
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columns
 
     [*Mechanism*], [*ME/CFS Evidence*], [*Long COVID Evidence*],
 
@@ -284,7 +283,6 @@ The following mechanisms are *well-documented in ME/CFS but not yet studied in E
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columnsp{4cm}p{3cm}p{3cm}}
 
     [*Protocol*], [*Rationale*], [*Certainty in EDS*], [*Evidence Base*],
 
@@ -1114,7 +1112,6 @@ Which ME/CFS mechanisms need testing in which conditions:
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columnsp{10cm}}
 
     [*Mechanism*], [*Priority Conditions for Testing*],
 

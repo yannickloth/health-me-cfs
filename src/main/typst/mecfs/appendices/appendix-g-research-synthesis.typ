@@ -16,7 +16,6 @@ This section synthesizes key research findings integrated from literature review
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{1.8cm}p{2.2cm}p{4cm}p{2.5cm}p{1.8cm}}
   
   [*Study*], [*Design*], [*Sample*], [*Key Findings*], [*Implications*], [*Certainty*],
   
@@ -41,7 +40,6 @@ This section synthesizes key research findings integrated from literature review
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{1.8cm}p{2.5cm}p{4cm}p{2cm}}
   
   [*Study*], [*Design*], [*Sample*], [*Key Findings*], [*Evidence Level*],
   
@@ -64,7 +62,6 @@ This section synthesizes key research findings integrated from literature review
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{2cm}p{2.2cm}p{4.2cm}p{2cm}}
   
   [*Study*], [*Design*], [*Sample*], [*Key Findings*], [*Certainty*],
   
@@ -87,7 +84,6 @@ This section synthesizes key research findings integrated from literature review
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{2cm}p{4cm}p{2.5cm}p{2cm}}
   
   [*Biomarker*], [*Measurement*], [*Finding*], [*Clinical Utility*], [*Validation Status*],
   
@@ -117,7 +113,6 @@ This section synthesizes key research findings integrated from literature review
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{1.8cm}p{2cm}p{4cm}p{2.2cm}p{1.5cm}}
   
   [*Intervention*], [*Study Type*], [*Sample*], [*Findings*], [*Recommendation*], [*Evidence*],
   
@@ -142,7 +137,6 @@ These interventions lack formal RCT validation but have plausible mechanisms and
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{2cm}p{3.5cm}p{3cm}p{2.5cm}}
   
   [*Intervention*], [*Reported Dose*], [*Reported Benefits*], [*Plausible Mechanism*], [*Research Status*],
   
@@ -169,7 +163,6 @@ These interventions lack formal RCT validation but have plausible mechanisms and
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{2.5cm}p{4cm}p{3cm}}
   
   [*Condition*], [*Diagnostic Test*], [*Presentation Overlap*], [*Clinical Implication*],
   
@@ -199,7 +192,6 @@ These interventions lack formal RCT validation but have plausible mechanisms and
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{3.5cm}p{4cm}p{2cm}p{1.5cm}}
   
   [*Mechanism*], [*Supporting Evidence*], [*Key Studies/Findings*], [*Gaps*], [*Strength*],
   
@@ -234,7 +226,6 @@ Community-reported patterns from online forums, patient advocacy groups, and Hac
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{4.5cm}p{3.5cm}p{2.5cm}}
   
   [*Pattern/Rule*], [*Description*], [*Clinical Implication*], [*Validation Status*],
   
@@ -267,7 +258,6 @@ Community-reported patterns from online forums, patient advocacy groups, and Hac
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{5cm}p{5cm}}
   
   [*Gap*], [*Current Status*], [*Research Need*],
   
@@ -300,7 +290,6 @@ Table @tab:cross-domain-parallels summarizes validated interventions from other
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{2cm}p{3.5cm}p{3cm}p{2.5cm}}
   
   [*Source Field*], [*Shared Feature*], [*Intervention*], [*ME/CFS Application*], [*Implementation Status*],
   
@@ -331,7 +320,6 @@ Table @tab:treatment-quick-reference provides a rapid-access summary for clinic
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{2cm}p{2.5cm}p{3cm}p{2cm}p{1.5cm}}
   
   [*Intervention*], [*Typical Dose*], [*Evidence Level*], [*Primary Indication*], [*Cost/Month*], [*Tier*],
   

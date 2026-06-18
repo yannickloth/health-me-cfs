@@ -130,7 +130,6 @@ Two RCTs tested hydrocortisone replacement based on mild hypocortisolism finding
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{2.5cm}p{1.2cm}p{0.8cm}p{1.3cm}p{5.5cm}@}
 
     [*Intervention*], [*Design*], [$n$], [*Result*], [*Key Lesson*],
 

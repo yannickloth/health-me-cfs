@@ -1117,7 +1117,6 @@ If rest-day symptom relief is the goal, agents that do not mask fatigue or incre
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns
 
     [*Drug*], [*Half-life*], [*Full clearance*], [*Rebound*], [*PEM window*],
 
@@ -1212,7 +1211,6 @@ The social reality is that many ME/CFS patients face economic or social pressure
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns
 
     [*Agent*], [*PEM risk*], [*Depletion*], [*Sleep*], [*Immune*], [*CV risk*],
 
@@ -1717,7 +1715,6 @@ While both are H2 blockers, cimetidine and famotidine have important differences
 
 #table(
   columns: (auto, auto, auto, auto, auto),
-  // TODO: fix columns
 
 [*Property*], [*Cimetidine*], [*Famotidine*],
 
@@ -1905,7 +1902,6 @@ A study of 59 patients receiving *above-fourfold doses* (median 8$times$, range 
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns
 
     [*Drug*], [*Standard*], [*MCAS initial*], [*MCAS max (4$times$)*], [*Evidence*], [*Responder rate*],
 
@@ -1945,7 +1941,6 @@ Rupatadine occupies a unique position among H1 antihistamines due to its triple 
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns
 
     [*Step*], [*Dose*], [*Context*],
 
@@ -1971,7 +1966,6 @@ Unlike H1 antihistamines, there is *no equivalent formal guideline* recommending
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns
 
     [*Drug*], [*Standard (GI)*], [*MCAS initial*], [*MCAS max*], [*Notes*],
 

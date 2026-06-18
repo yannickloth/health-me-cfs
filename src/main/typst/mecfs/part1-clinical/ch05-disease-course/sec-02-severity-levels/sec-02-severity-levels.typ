@@ -18,7 +18,6 @@ Objective validation studies demonstrate that self-reported severity classificat
 #figure(
   table(
     columns: (auto, auto, auto, auto),
-    // TODO: fix columns
 
     [*Measure*], [*Mild*], [*Moderate*], [*Severe*],
 

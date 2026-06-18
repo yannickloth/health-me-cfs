@@ -268,7 +268,6 @@ After completing the diagnostic battery, create a visual representation of which
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsllll@}
   
   [*Cycle*], [*Status*], [*Key Biomarker(s)*], [*Treatment Priority*],
   
@@ -326,7 +325,6 @@ For patients with limited financial resources, prioritize high-yield, low-cost t
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{4cm}p{2.5cm}p{3cm}p{4cm}@}
   
   [*Test*], [*Approximate Cost*], [*Information Yield*], [*Cost-Effectiveness*],
   

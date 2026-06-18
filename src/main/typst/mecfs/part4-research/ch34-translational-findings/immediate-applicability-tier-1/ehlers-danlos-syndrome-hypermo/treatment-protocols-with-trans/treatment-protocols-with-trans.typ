@@ -5,7 +5,6 @@
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columnsp{4cm}p{3cm}p{3cm}}
     [*Protocol*], [*Rationale*], [*Certainty in EDS*], [*Evidence Base*],
     [POTS management (salt, fluids, compression, fludrocortisone)], [Addresses hypovolemia and preload failure], [High], [Well-established],
     [Mast cell stabilization (H1+H2 antihistamines, quercetin, cromolyn)], [Addresses MCAS in hEDS-MCAS subset], [High], [Clinical use common],

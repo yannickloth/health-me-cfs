@@ -602,7 +602,6 @@ Report by Meleri Williams profiling three Welsh ME/CFS patients and the state of
 
 #table(
   columns: (auto, auto),
-  // TODO: fix columns
 [`\#MillionsMissing`], [Primary advocacy hashtag for global protests],
 
 [`\#MECFS`], [Standard disease hashtag],

@@ -6,7 +6,6 @@ Which ME/CFS mechanisms need testing in which conditions:
 #figure(
   table(
     columns: (auto, auto, auto),
-    // TODO: fix columnsp{10cm}}
     [*Mechanism*], [*Priority Conditions for Testing*],
     [Plasma cell autoimmunity (daratumumab)], [Long COVID, PTLDS, autoimmune diseases where rituximab failed],
     [$beta$2-receptor desensitization], [EDS-POTS-MCAS, dysautonomia, Long COVID],

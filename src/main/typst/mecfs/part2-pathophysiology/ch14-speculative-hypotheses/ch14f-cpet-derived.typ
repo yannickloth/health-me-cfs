@@ -283,7 +283,6 @@ Table @tab:cpet-hypotheses summarizes the mechanistic hypotheses and treatment 
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columns{p{3.2cm}p{1.2cm}p{1.5cm}p{4.5cm}X}
   
   [*Hypothesis*], [*Evidence*], [*Therapeutic Potential*], [*Key Prediction*], [*Nearest-Term Test*],
   

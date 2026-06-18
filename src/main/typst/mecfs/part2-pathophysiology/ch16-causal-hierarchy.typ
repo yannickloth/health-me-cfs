@@ -348,7 +348,6 @@ The sections that follow provide the biological reasoning for each classificatio
 /* TODO: Fix this table
 #table(
   columns: (auto, auto, auto, auto, auto, auto),
-  // TODO: fix columnsp{2.5cm}p{4.5cm}p{3.5cm}p{2.0cm}p{2.5cm}}
 // caption: [Amplifier Mechanisms in ME/CFS: Classification and Tractability], <tab:amplifiers>
 
 [*Amplifier*], [*Failed Criterion*], [*Why It Fails*], [*What It Amplifies*], [*Tractability*], [*Formal Model*],
@@ -593,7 +592,6 @@ The distinction between amplifiers and consequences is sometimes blurry. The key
 /* TODO: Fix this table
 #table(
   columns: (auto, auto, auto, auto, auto, auto),
-  // TODO: fix columnsp{2.2cm}p{1.2cm}p{4.5cm}p{3.0cm}p{2.5cm}}
 // caption: [Complete Mechanism Classification: Root Causes, Amplifiers, and Consequences], <tab:mechanism-classification>
 
 [*Mechanism*], [*Causal Tier*], [*Cert.*], [*Key Evidence*], [*Failed Criterion*], [*Tractability*],
@@ -816,7 +814,6 @@ The practical conclusion is that treatment priority should be determined by the 
 /* TODO: Fix this table
 #table(
   columns: (auto, auto, auto, auto, auto, auto),
-  // TODO: fix columnsp{2.5cm}p{2.5cm}p{2.5cm}p{5.5cm}}
 // caption: [Treatment Priority as a Function of Causal Tier and Tractability], <tab:treatment-priority>
 
 [*Mechanism*], [*Causal Tier*], [*Tractability*], [*Priority Rank*], [*Rationale*],

@@ -89,7 +89,6 @@ To operationalize crash prevention, we propose a four-tier severity classificati
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{2cm}p{3cm}p{3.5cm}p{5cm}@}
   
   [*Tier*], [*Exertion Relative to Envelope*], [*Typical Recovery Time*], [*Predicted Long-Term Impact*],
   
@@ -372,7 +371,6 @@ Sports medicine-adapted pacing shares superficial similarities with graded exerc
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{0.45100%} \>{\raggedright\arraybackslash}p{0.45100%}}
 
     [*GET (Inappropriate for ME/CFS)*], [*Sports-Adapted Pacing*],
 

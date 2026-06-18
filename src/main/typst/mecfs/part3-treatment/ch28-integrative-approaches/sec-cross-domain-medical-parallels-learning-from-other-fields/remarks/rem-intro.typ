@@ -44,8 +44,6 @@ High-altitude medicine addresses tissue hypoxia from reduced atmospheric oxygen.
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{5cm}p{5cm}}
-  
   [*Feature*], [*High Altitude*], [*ME/CFS*],
   
   [Primary cause], [Reduced atmospheric O#sub[2]], [Impaired O#sub[2] delivery or utilization],
@@ -168,8 +166,6 @@ The phenomenological overlap with ME/CFS is striking. PICS may represent acquire
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{5cm}p{5cm}}
-  
   [*Mechanism*], [*PICS*], [*ME/CFS*],
   
   [Mitochondrial dysfunction], [Sepsis-induced damage], [Constitutional or acquired],
@@ -358,8 +354,6 @@ The key difference: Astronauts' symptoms are predictable and (mostly) reversible
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{5cm}p{4.5cm}}
-  
   [*Feature*], [*Post-Spaceflight*], [*ME/CFS*],
   
   [Blood volume], [Reduced 10–15%], [Reduced (documented in many patients)],
@@ -566,8 +560,6 @@ The interventions from multiple fields can be integrated into a comprehensive ap
 #figure(
   table(
     columns: (auto, auto, auto, auto, auto),
-    // TODO: fix columnsp{4cm}p{6cm}}
-  
   [*Domain*], [*Key Interventions*], [*Primary Benefits*],
   
   [*Sports Medicine*], [ORS, magnesium, Acetyl-L-carnitine, D-ribose], [Lactate clearance, ATP support, cramp reduction],
