@@ -276,4 +276,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 **Priority order** for `/integrate-topic` runs listed in catalogue (section: Integration Priority Order). Recommended: start with Maccallini GWAS/WGS meta-analysis (19K cases, largest ME/CFS genetics to date, glutamatergic synapse convergence) — dovetails with noradrenergic-deficiency and E/I imbalance papers.
 
+| decodeme-verifiable   | [subtrees/decodeme-verifiable.md](subtrees/decodeme-verifiable.md)    | 2026-06-18      | 25         | 0          | ⬜ pending     |
+
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
