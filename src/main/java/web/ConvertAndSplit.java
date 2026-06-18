@@ -24,29 +24,26 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("(?m)^#let\\b.*$\\n?", "");
     src = src.replaceAll("(?m)^#set\\b.*$\\n?", "");
     src = src.replaceAll("(?m)^#show\\b.*$\\n?", "");
-    // Strip bare figure path lines (broken includes left from Typst source refactoring)
     src = src.replaceAll("(?m)^[/.]+figures/fig-[^\"]*\\.typ\"?\\s*$\\n?", "");
-    // Convert figure includes: #include "../figures/fig-xxx.typ" → ![Figure](figures/fig-xxx.svg)
     src = src.replaceAll("#include\\s+\"([^\"]*)figures/(fig-[^\"]+)\\.typ\"", "![$2](../../figures/$2.svg)");
-    // Strip any remaining #include lines (outside figures)
     src = src.replaceAll("(?m)^#include.*$\\n?", "");
 
     // Typst _italic_ → *italic* (only outside code/math)
     src = src.replaceAll("(?<!`|\"|\\w)_([^_\\s](?:[^_]*[^_\\s])?)_(?!\\w|\"|`)", "*$1*");
 
     // Citations: @key but NOT internal cross-ref prefixes
-    // All cross-ref prefixes → HTML anchor links (website project, not book — native @sec- doesn't resolve cross-file)
     src = src.replaceAll("@(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open)(:|_|-)([a-zA-Z0-9_-]+)", "[#$1-$3](#$1-$3)");
-    // Only convert actual BibTeX citation keys: @AuthorYear(suffix)
     src = src.replaceAll("@([A-Z][A-Za-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
     src = src.replaceAll("@([a-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
 
-    // Strip #figure(kind: table, ...) — Typst tables don't convert to Pandoc
+    // --- Tables: convert to Markdown pipe tables instead of dropping ---
     src = src.replaceAll("(?s)#figure\\s*\\(\\s*kind\\s*:\\s*table[^,]*,.*?\\)\\s*\\n", "<!-- TABLE -->\n");
-    // Strip #figure(table\n...), #figure(table(...)...) — table as first arg
-    src = removeFigureTable(src);
-    // Strip #table(...) blocks — use bracket counting like removeFigureTable
-    src = removeTableBlocks(src);
+    src = convertFigureTable(src);
+    src = convertTableBlocks(src);
+
+    // Strip empty placeholder figure([], kind: table, ...)
+    src = src.replaceAll("#figure\\(\\[\\],?\\s*kind:\\s*table[^)]*\\)\\s*(<[a-z][\\w:\\.-]*>)?", "");
+
     // Strip remaining #figure(...) calls (non-table layout wrappers)
     src = src.replaceAll("#figure\\(", "");
     // Strip #pad(...) layout calls
@@ -55,41 +52,104 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("#align\\(center,\\s*", "");
     src = src.replaceAll("#align\\(\\s*", "");
 
+    // --- Inline formatting ---
+    src = src.replaceAll("#strong\\[([^\\]]+?)\\]", "**$1**");
+    src = src.replaceAll("#emph\\[([^\\]]+?)\\]", "*$1*");
+    src = src.replaceAll("#smallcaps\\[([^\\]]+?)\\]", "$1");
+    src = src.replaceAll("#text\\(weight:\\s*\"bold\"\\)\\[([^\\]]+?)\\]", "**$1**");
+    src = src.replaceAll("#text\\(style:\\s*\"italic\"\\)\\[([^\\]]+?)\\]", "*$1*");
+    src = src.replaceAll("#text\\(style:\\s*\"italic\",\\s*weight:\\s*\"bold\"\\)\\[([^\\]]+?)\\]", "***$1***");
+    src = src.replaceAll("#text\\(weight:\\s*\"bold\",\\s*style:\\s*\"italic\"\\)\\[([^\\]]+?)\\]", "***$1***");
+    src = src.replaceAll("#text\\([^)]*\\)\\[([^\\]]+?)\\]", "$1");
+
+    // --- Links ---
+    src = src.replaceAll("#link\\(\"([^\"]+)\"\\)\\[([^\\]]+?)\\]", "[$2]($1)");
+    src = src.replaceAll("#link\\(\"([^\"]+)\"\\)", "<$1>");
+    src = src.replaceAll("#link\\(<([^>]+)>\\)\\[([^\\]]+?)\\]", "[$2](#$1)");
+
+    // --- Footnotes → Markdown footnotes ---
+    src = convertFootnotes(src);
+
+    // --- Horizontal rules ---
+    src = src.replaceAll("#line\\([^)]*\\)", "\n---\n");
+
+    // --- Spacing: #h(...) and #v(...) in prose ---
+    src = src.replaceAll("#h\\([^)]*\\)", " ");
+    src = src.replaceAll("#v\\([^)]*\\)", "\n");
+
+    // --- Block wrappers ---
+    src = src.replaceAll("#block\\([^)]*\\)\\[", "");
+
+    // --- [style=nextline] attribute ---
+    src = src.replaceAll("(?m)^\\[style=nextline\\]\\s*$\\n?", "");
+
     // #quote[...] → blockquote (must run BEFORE encloseEnv which strips ] lines)
     src = quoteToBlockquote(src);
 
-    // Bracketed envs: #achievement(title: [...])[...] → simple unstyled block (no fenced divs to avoid OOM)
-    // Just extract text between [!...]
+    // --- Environments: fhypothesis MUST run before hypothesis to avoid substring match ---
+    src = encloseFhypothesis(src);
+
+    // Bracketed envs: #envname(title: [...])[...] → callout blocks
+    src = encloseEnv(src, "achievement-unnumbered", "note", "Achievement");
     src = encloseEnv(src, "achievement",   "note",   "Achievement");
     src = encloseEnv(src, "speculation",   "note",   "Speculation");
+    src = encloseEnv(src, "hypothesis-unnumbered", "note", "Hypothesis");
     src = encloseEnv(src, "hypothesis",    "note",   "Hypothesis");
+    src = encloseEnv(src, "warning-unnumbered", "caution", "Warning");
     src = encloseEnv(src, "warning-env",   "caution","Warning");
+    src = encloseEnv(src, "limitation-unnumbered", "warning", "Limitation");
     src = encloseEnv(src, "limitation",    "warning","Limitation");
+    src = encloseEnv(src, "open-question-unnumbered", "note", "Open Question");
     src = encloseEnv(src, "open-question", "note",   "Open Question");
+    src = encloseEnv(src, "observation-unnumbered", "note", "Observation");
     src = encloseEnv(src, "observation",   "note",   "Observation");
+    src = encloseEnv(src, "clinical-finding-unnumbered", "note", "Clinical Finding");
     src = encloseEnv(src, "clinical-finding", "note","Clinical Finding");
     src = encloseEnv(src, "recommendation","note",   "Recommendation");
+    src = encloseEnv(src, "proposal-unnumbered", "note", "Proposal");
     src = encloseEnv(src, "proposal",      "note",   "Proposal");
+    src = encloseEnv(src, "prediction-unnumbered", "note", "Prediction");
     src = encloseEnv(src, "prediction",    "note",   "Prediction");
     src = encloseEnv(src, "key-point",     "tip",    "Key Point");
     src = encloseEnv(src, "practical-warning", "warning", "Practical Warning");
+    src = encloseEnv(src, "protocol-unnumbered", "note", "Protocol");
     src = encloseEnv(src, "protocol",       "note",   "Protocol");
+    src = encloseEnv(src, "requirement",   "important", "Requirement");
+    src = encloseEnv(src, "model-insight", "note",   "Model Insight");
+    src = encloseEnv(src, "definition",    "note",   "Definition");
+    src = encloseEnv(src, "continuation",  "note",   "Continued");
+    src = encloseEnv(src, "remark",        "note",   "Remark");
+    src = encloseEnv(src, "direction",     "note",   "Research Direction");
+    src = encloseEnv(src, "roadmap",       "note",   "Chapter Roadmap");
+    src = encloseEnv(src, "proposition",   "note",   "Proposition");
+    src = encloseEnv(src, "assumption-unnumbered", "note", "Assumption");
+    src = encloseEnv(src, "assumption",    "note",   "Assumption");
+    src = encloseEnv(src, "axiom-unnumbered", "note", "Axiom");
+    src = encloseEnv(src, "axiom",         "note",   "Axiom");
+    src = encloseEnv(src, "theorem",       "note",   "Theorem");
+    src = encloseEnv(src, "lemma",         "note",   "Lemma");
+    src = encloseEnv(src, "corollary",     "note",   "Corollary");
+    src = encloseEnv(src, "example",       "note",   "Example");
+    src = encloseEnv(src, "principle",     "note",   "Principle");
+    src = encloseEnv(src, "derivation",    "note",   "Derivation");
+    src = encloseEnv(src, "calculation",   "note",   "Calculation");
+    src = encloseEnv(src, "conclusion",    "note",   "Conclusion");
+    src = encloseEnv(src, "note-env",      "note",   "Note");
+    src = encloseEnv(src, "consistency-check", "note", "Consistency Check");
+
+    // #proof[...] (no title: param)
+    src = encloseNoTitle(src, "proof", "note", "Proof");
 
     // #chapter-abstract[...]
     src = src.replaceAll("#chapter-abstract\\[", "::: {.callout-note}\n### Chapter Abstract\n\n");
 
     // Close standalone ] lines — replace any line that is just ] or ]<label>
-    // Preserve labels from ] <label> lines as standalone label lines.
     src = src.replaceAll("(?m)^\\]\\s+(<[a-z][\\w:\\.-]*>)\\s*$", "$1");
-    // Remove remaining ] lines entirely to avoid Pandoc OOM.
     src = src.replaceAll("(?m)^\\].*$", "");
 
     // #sub[X] → ~X~, #super[X] → ^X^
     src = src.replaceAll("#sub\\[(.+?)\\]", "~$1~");
     src = src.replaceAll("#super\\[(.+?)\\]", "^$1^");
-
-    // Italic _text_ → *text* (but not inside math $$...$$)
-    // Too complex, skip for now — _ is rare in headings anyway
 
     // Arrows
     src = src.replace("$arrow.r$", "→");
@@ -102,7 +162,6 @@ void main(String[] args) throws IOException {
     src = src.replace("\\$", "\uFFFD");
 
     // Typst math → LaTeX/MathJax math translation
-    // Standalone math tokens (pre-translateMath, for tokens used outside $...$ blocks)
     src = src.replace("$lt.eq$", "$\\leq$");
     src = src.replace("$gt.eq$", "$\\geq$");
     src = src.replace("$lt$", "$<$");
@@ -116,9 +175,7 @@ void main(String[] args) throws IOException {
     src = src.replace("$delta$", "$\\delta$");
     src = src.replace("$mu$", "$\\mu$");
     src = src.replace("$arrow.double.r$", "$\\Rightarrow$");
-    // Typst math commands — translate within $...$ blocks to avoid prose collisions
     src = translateMath(src);
-    // Prevent MathJax misparsing when closing $ is immediately followed by a digit
     src = src.replaceAll("\\$([0-9])", "\\$ $1");
 
     // Restore literal dollar signs
@@ -126,8 +183,6 @@ void main(String[] args) throws IOException {
 
     // #align(center, table(...)) → just table
     src = src.replaceAll("#align\\(center,\\s*", "");
-    // Remove stray #align leftover closing parens
-    // (leave tables as-is — Pandoc won't parse them, but they render as raw HTML)
 
     // --- Step 2: Parse headings and split into sections ---
     var lines = src.split("\n");
@@ -147,7 +202,6 @@ void main(String[] args) throws IOException {
 
         if (stripped.startsWith("= ") && !stripped.startsWith("== ")) {
             chapTitle = stripped.substring(2).strip().replaceAll("\\s*<[a-z]+:[^>]+>\\s*$", "");
-            // Extract label from heading line if present
             var headingLabel = stripped.replaceAll("^=\\s+", "");
             var m = Pattern.compile("<([a-z]+):([^>]+)>").matcher(headingLabel);
             if (m.find()) chapLabel = "<" + m.group(1) + ":" + m.group(2) + ">";
@@ -159,7 +213,6 @@ void main(String[] args) throws IOException {
                 sections.add(new Section(secTitle, secLabel, new ArrayList<>(current)));
             }
             secTitle = stripped.substring(3).strip().replaceAll("\\s*<[a-z]+:[^>]+>\\s*$", "");
-            // If label was on heading line, extract it as secLabel
             var headingLabel = stripped.replaceAll("^==+\\s+", "");
             var m = Pattern.compile("<([a-z]+):([^>]+)>").matcher(headingLabel);
             if (m.find()) secLabel = "<" + m.group(1) + ":" + m.group(2) + ">";
@@ -181,12 +234,8 @@ void main(String[] args) throws IOException {
     }
     if (secTitle != null) sections.add(new Section(secTitle, secLabel, new ArrayList<>(current)));
 
-    // Handle files with no == sections: output single file from preamble + post-chapter lines.
-    // Also triggers for include-only aggregator files that have a = heading but no body,
-    // or that are pure include aggregators with no content at all.
     if (sections.isEmpty()) {
         var title = !chapTitle.isEmpty() ? chapTitle : "untitled";
-        // If chapTitle is empty, try to derive from first === or ==== heading
         if (chapTitle.isEmpty()) {
             for (var l : preamble) {
                 var s = l.strip();
@@ -204,7 +253,6 @@ void main(String[] args) throws IOException {
                     }
                 }
             }
-            // Still untitled: derive from input filename
             if (title.equals("untitled")) {
                 var fname = get(args[0]).getFileName().toString().replaceAll("\\.[^.]+$", "");
                 title = fname.replace("-", " ");
@@ -229,8 +277,6 @@ void main(String[] args) throws IOException {
         sb.append("title: \"").append(esc(slugTitle)).append("\"\n");
         sb.append("---\n\n");
 
-        // Preamble goes on first section page
-        // Skip preamble when it matches body (solo-section fallback — all content is body)
         if (secNum == 1 && !preamble.isEmpty() && sections.size() > 1) {
             for (var p : preamble) sb.append(p).append('\n');
             sb.append('\n');
@@ -261,8 +307,6 @@ void main(String[] args) throws IOException {
             var raw = line;
             var stripped = raw.strip();
 
-            // Normalize indentation: halve leading spaces to prevent code blocks
-            // (Typst uses 4-space or tab indentation; Markdown needs 2-space for nesting)
             if (!stripped.isEmpty()) {
                 int leading = raw.length() - stripped.length();
                 if (leading > 2) {
@@ -272,14 +316,10 @@ void main(String[] args) throws IOException {
                 }
             }
 
-            // Promote heading levels BEFORE other conversions
-            // Match ===, ====, ===== (but not == which are section-level, already ##)
             if (stripped.matches("^={3,}\\s+.+")) {
                 int eqCount = 0;
                 for (int i = 0; i < stripped.length() && stripped.charAt(i) == '='; i++) eqCount++;
-                int level = 1 + eqCount; // === → level 4 (####), ==== → level 5 (#####)
-                // Wait — should be: === → ### (3), ==== → #### (4). So: level = eqCount
-                level = Math.max(1, eqCount);
+                int level = Math.max(1, eqCount);
                 var headingText = stripped.substring(eqCount);
                 var inlineLabelPattern = Pattern.compile("\\s*<([a-zA-Z][\\w:\\.-]*)>\\s*");
                 var inlineMatcher = inlineLabelPattern.matcher(headingText);
@@ -303,7 +343,6 @@ void main(String[] args) throws IOException {
                 }
             }
 
-            // Convert standalone $...$ display math lines to $$...$$
             if (raw.strip().matches("^\\$[^$].*[^$]\\$\\s*$")) {
                 raw = "$$" + raw.strip().substring(1, raw.strip().length() - 1) + "$$";
             }
@@ -352,12 +391,9 @@ void main(String[] args) throws IOException {
                 }
             }
 
-            // Convert bare cross-ref labels to HTML anchor links (website project — no native cross-file resolution)
             raw = raw.replaceAll("(?<!<)\\b(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "[#$1-$2](#$1-$2)$3");
             raw = raw.replaceAll("(?<!<)\\b(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)$", "[#$1-$2](#$1-$2)");
 
-            // Convert inline labels: <sec:xyz> → {#sec-xyz}
-            // Also handle bare labels (after @ stripped): sec:xyz → {#sec-xyz}
             raw = raw.replaceAll("<sec:", "{#sec-");
             raw = raw.replaceAll("<subsec:", "{#subsec-");
             raw = raw.replaceAll("<subsubsec:", "{#subsubsec-");
@@ -386,12 +422,7 @@ void main(String[] args) throws IOException {
             raw = raw.replaceAll("<cont:", "{#cont-");
             raw = raw.replaceAll("<cf:", "{#cf-");
             raw = raw.replaceAll("<open:", "{#open-");
-            // Close trailing > on inline label conversions
             raw = raw.replaceAll("(\\{[#][a-zA-Z][\\w:\\.-]*?)>", "$1}");
-
-            // Close only label-style angle brackets: {...> becomes {...}
-            raw = raw.replaceAll("\\{[#a-z][\\w:-]+>", "$0".replace(">", "}")); // doesn't work, doing it differently
-            // Actually just fix the pattern: {#sec-xyz> → {#sec-xyz}
             raw = raw.replaceAll("(\\{[#][a-zA-Z][\\w:\\.-]*)>", "$1}");
 
             sb.append(raw).append('\n');
@@ -414,34 +445,54 @@ void main(String[] args) throws IOException {
     System.out.println("Done — " + (secNum-1) + " sections written.");
 }
 
-// Replace #envname(title: [...])[...] → fenced div with proper closing :::
 String encloseEnv(String s, String typstName, String quartoKind, String displayName) {
-    var p = Pattern.compile("#" + typstName + "\\(title:\\s*\\[(.*?)\\]\\)\\[", Pattern.DOTALL);
+    var p = Pattern.compile("#" + Pattern.quote(typstName) + "\\(title:\\s*\\[(.*?)\\]\\)\\[", Pattern.DOTALL);
     var m = p.matcher(s);
     var sb = new StringBuffer();
     while (m.find()) {
         var title = m.group(1);
         m.appendReplacement(sb, "::: {.callout-" + quartoKind + "}\n### " + displayName + ": " + Matcher.quoteReplacement(title) + "\n\n");
-        // Find the matching closing ] and replace with ::: followed by \n
     }
     m.appendTail(sb);
     var out = sb.toString();
-    // Replace standalone ] lines with ::: to close the fenced div
     out = out.replaceAll("(?m)^\\]$", ":::");
-    // Handle ] <label> pattern — preserve label as standalone line after :::
     out = out.replaceAll("(?m)^\\] (<[a-z][\\w:\\.-]*>)$", ":::\n$1");
-    // Remove remaining ] lines — but NOT ])[  which is a title-close + body-open for multi-line titles
     out = out.replaceAll("(?m)^\\](?!\\)\\[).*$", "");
     return out;
 }
 
-// Close the [ of a matched env — simplistic but works for non-nested brackets
+String encloseFhypothesis(String s) {
+    var p = Pattern.compile("#fhypothesis(?:-unnumbered)?\\(title:\\s*\\[(.*?)\\],\\s*falsifiability:\\s*\\[?(.*?)\\]?,\\s*justification:\\s*\\[?(.*?)\\]?\\)\\[", Pattern.DOTALL);
+    var m = p.matcher(s);
+    var sb = new StringBuffer();
+    while (m.find()) {
+        var title = m.group(1);
+        var falsifiability = m.group(2);
+        var justification = m.group(3);
+        var footer = "\n\n**Falsifiability:** *" + falsifiability;
+        if (!justification.isEmpty()) footer += " — " + justification;
+        footer += "*";
+        m.appendReplacement(sb, "::: {.callout-note}\n### Hypothesis: " + Matcher.quoteReplacement(title) + "\n\n" + Matcher.quoteReplacement(footer) + "\n\n");
+    }
+    m.appendTail(sb);
+    return sb.toString();
+}
+
+String encloseNoTitle(String s, String typstName, String quartoKind, String displayName) {
+    var p = Pattern.compile("#" + Pattern.quote(typstName) + "\\[", Pattern.DOTALL);
+    var m = p.matcher(s);
+    var sb = new StringBuffer();
+    while (m.find()) {
+        m.appendReplacement(sb, "::: {.callout-" + quartoKind + "}\n### " + displayName + "\n\n");
+    }
+    m.appendTail(sb);
+    return sb.toString();
+}
+
 String replaceClosingBracket(String s, String envName) {
-    // Already handled by encloseEnv
     return s;
 }
 
-// #quote[...] → blockquote. Handles multi-line quotes.
 String quoteToBlockquote(String s) {
     var sb = new StringBuilder();
     var lines = s.split("\n");
@@ -453,14 +504,12 @@ String quoteToBlockquote(String s) {
             inQuote = true;
             quoteDepth = 1;
         } else if (inQuote) {
-            // Count brackets
             for (int i = 0; i < line.length(); i++) {
                 if (line.charAt(i) == '[') quoteDepth++;
                 else if (line.charAt(i) == ']') quoteDepth--;
             }
             if (quoteDepth <= 0) {
                 inQuote = false;
-                // Add the attribution part if any (after the closing ])
                 var remaining = line.substring(line.lastIndexOf(']') + 1).strip();
                 if (!remaining.isEmpty()) sb.append("> ").append(remaining).append('\n');
             } else {
@@ -473,10 +522,39 @@ String quoteToBlockquote(String s) {
     return sb.toString();
 }
 
+String convertFootnotes(String s) {
+    var footnotes = new ArrayList<String>();
+    var sb = new StringBuilder();
+    int i = 0;
+    while (i < s.length()) {
+        int pos = s.indexOf("#footnote[", i);
+        if (pos < 0) { sb.append(s.substring(i)); break; }
+        sb.append(s, i, pos);
+        int bracketDepth = 1;
+        int j = pos + 10;
+        while (j < s.length() && bracketDepth > 0) {
+            char c = s.charAt(j);
+            if (c == '[') bracketDepth++;
+            else if (c == ']') bracketDepth--;
+            j++;
+        }
+        int fnNum = footnotes.size() + 1;
+        var content = s.substring(pos + 10, j - 1).strip();
+        footnotes.add(content);
+        sb.append("[^").append(fnNum).append("]");
+        i = j;
+    }
+    if (!footnotes.isEmpty()) {
+        sb.append("\n\n");
+        for (int k = 0; k < footnotes.size(); k++) {
+            sb.append("[^").append(k + 1).append("]: ").append(footnotes.get(k)).append("\n");
+        }
+    }
+    return sb.toString();
+}
+
 String esc(String s) { return s.replace("\"", "\\\""); }
 
-// Translate Typst math commands to LaTeX within $...$ and $$...$$ blocks.
-// Avoids matching prose words like "subset" or "cal" outside math mode.
 String translateMath(String s) {
     var sb = new StringBuilder();
     int i = 0;
@@ -484,7 +562,6 @@ String translateMath(String s) {
         int dollar = s.indexOf('$', i);
         if (dollar < 0) { sb.append(s.substring(i)); break; }
         sb.append(s, i, dollar);
-        // Find matching closing $
         int end = s.indexOf('$', dollar + 1);
         if (end < 0) { sb.append(s.substring(dollar)); break; }
         var math = s.substring(dollar + 1, end);
@@ -535,28 +612,25 @@ String translateMath(String s) {
     return sb.toString();
 }
 
-// Normalize confusable Unicode characters in titles to ASCII equivalents.
-// Preserves semantic intent — en-dash stays as hyphen in source but page content unchanged.
 String normalizeUnicode(String s) {
     return s
-        .replace('\u2013', '-')  // en dash
-        .replace('\u2014', '-')  // em dash → hyphen
-        .replace('\u2018', '\'') // left single quote
-        .replace('\u2019', '\'') // right single quote
-        .replace('\u201c', '"')  // left double quote
-        .replace('\u201d', '"'); // right double quote
+        .replace('\u2013', '-')
+        .replace('\u2014', '-')
+        .replace('\u2018', '\'')
+        .replace('\u2019', '\'')
+        .replace('\u201c', '"')
+        .replace('\u201d', '"');
 }
 
-// Remove #figure( table(...), caption: [...], ) blocks.
-// Uses simple paren depth counting to handle nested ().
-String removeFigureTable(String s) {
+// Convert #figure( table(...), caption: [...] ) blocks to Markdown pipe tables.
+// Uses the SAME detection logic as the original removeFigureTable but converts instead of dropping.
+String convertFigureTable(String s) {
     var sb = new StringBuilder();
     int i = 0;
     while (i < s.length()) {
         int pos = s.indexOf("#figure(", i);
         if (pos < 0) { sb.append(s.substring(i)); break; }
         sb.append(s, i, pos);
-        // Check if 'table' appears as an argument (possibly after keyword args like placement:)
         int afterParen = pos + 8;
         while (afterParen < s.length() && Character.isWhitespace(s.charAt(afterParen))) afterParen++;
         boolean isTable = s.regionMatches(afterParen, "table", 0, 5)
@@ -580,67 +654,408 @@ String removeFigureTable(String s) {
             i = pos + 8;
             continue;
         }
-        // Skip to end of #figure(...) by counting parens
         int depth = 1;
-        int j = pos + 8; // start after "#figure(" opening paren
+        int j = pos + 8;
         while (j < s.length() && depth > 0) {
             char c = s.charAt(j);
             if (c == '(') depth++;
             else if (c == ')') depth--;
             j++;
         }
-        sb.append("<!-- TABLE -->\n");
-        // Consume optional whitespace + <label> after closing ), preserve label
-        int labelStart = j;
+        var figureContent = s.substring(pos + 8, j - 1);
+
+        // Check for optional [content] block after closing )
+        int afterClose = j;
+        while (afterClose < s.length() && s.charAt(afterClose) == ' ') afterClose++;
+        String outerBracketContent = null;
+        if (afterClose < s.length() && s.charAt(afterClose) == '[') {
+            int bd = 1;
+            int bStart = afterClose + 1;
+            int bEnd = bStart;
+            while (bEnd < s.length() && bd > 0) {
+                char c = s.charAt(bEnd);
+                if (c == '[') bd++;
+                else if (c == ']') bd--;
+                bEnd++;
+            }
+            outerBracketContent = s.substring(bStart, bEnd - 1);
+            j = bEnd;
+        }
+
+        // Extract caption
+        var captionPat = Pattern.compile("caption:\\s*\\[([^\\]]*(?:\\[[^\\]]*\\][^\\]]*)*)\\]");
+        var capMatcher = captionPat.matcher(figureContent);
+        String caption = capMatcher.find() ? capMatcher.group(1) : null;
+
+        // Find inner table and convert
+        String tableContent = outerBracketContent != null ? outerBracketContent : figureContent;
+        String md = extractAndConvertTable(tableContent);
+
+        if (md != null) {
+            if (caption != null && !caption.isBlank()) {
+                sb.append(md).append("\n: ").append(cleanCellContent(caption)).append("\n\n");
+            } else {
+                sb.append(md).append("\n");
+            }
+        } else {
+            sb.append("<!-- TABLE (conversion failed) -->\n");
+        }
+
+        // Consume optional whitespace + <label> after figure
         while (j < s.length() && s.charAt(j) == ' ') j++;
         if (j < s.length() && s.charAt(j) == '<') {
             int labelEnd = s.indexOf('>', j);
-            if (labelEnd >= 0 && labelEnd < s.length()) {
+            if (labelEnd >= 0) {
                 var tableLabel = s.substring(j, labelEnd + 1);
                 sb.append(tableLabel).append('\n');
                 j = labelEnd + 1;
             }
         }
-        // Consume trailing newline
         if (j < s.length() && s.charAt(j) == '\n') j++;
         i = j;
     }
     return sb.toString();
 }
 
-// Remove standalone #table(...) and #table(...)[...] blocks using bracket counting.
-String removeTableBlocks(String s) {
+// Convert standalone #table(...) blocks to Markdown pipe tables.
+String convertTableBlocks(String s) {
     var sb = new StringBuilder();
     int i = 0;
     while (i < s.length()) {
         int pos = s.indexOf("#table(", i);
         if (pos < 0) { sb.append(s.substring(i)); break; }
         sb.append(s, i, pos);
-        // Count parens to find end of #table(...)
         int depth = 1;
-        int j = pos + 7; // after "#table("
+        int j = pos + 7;
         while (j < s.length() && depth > 0) {
             char c = s.charAt(j);
             if (c == '(') depth++;
             else if (c == ')') depth--;
             j++;
         }
-        // After closing ), check for optional [content] block
-        while (j < s.length() && s.charAt(j) == ' ') j++;
-        if (j < s.length() && s.charAt(j) == '[') {
-            int bracketDepth = 1;
-            j++;
-            while (j < s.length() && bracketDepth > 0) {
-                char c = s.charAt(j);
-                if (c == '[') bracketDepth++;
-                else if (c == ']') bracketDepth--;
-                j++;
+        var tableBody = s.substring(pos + 7, j - 1);
+
+        // Check for optional [content] block
+        int afterClose = j;
+        while (afterClose < s.length() && s.charAt(afterClose) == ' ') afterClose++;
+        String bracketContent = null;
+        if (afterClose < s.length() && s.charAt(afterClose) == '[') {
+            int bd = 1;
+            int bStart = afterClose + 1;
+            int bEnd = bStart;
+            while (bEnd < s.length() && bd > 0) {
+                char c = s.charAt(bEnd);
+                if (c == '[') bd++;
+                else if (c == ']') bd--;
+                bEnd++;
             }
+            bracketContent = s.substring(bStart, bEnd - 1);
+            j = bEnd;
         }
-        sb.append("<!-- TABLE -->\n");
+
+        var md = typstTableToMarkdown(tableBody, bracketContent);
+        sb.append(md).append("\n");
+
         while (j < s.length() && s.charAt(j) == ' ') j++;
         if (j < s.length() && s.charAt(j) == '\n') j++;
         i = j;
     }
     return sb.toString();
+}
+
+// Find #table(...) inside content and convert it
+String extractAndConvertTable(String content) {
+    int tPos = content.indexOf("table(");
+    if (tPos < 0) tPos = content.indexOf("#table(");
+    if (tPos < 0) return null;
+
+    int parenStart = content.indexOf('(', tPos);
+    if (parenStart < 0) return null;
+
+    int depth = 1;
+    int j = parenStart + 1;
+    while (j < content.length() && depth > 0) {
+        char c = content.charAt(j);
+        if (c == '(') depth++;
+        else if (c == ')') depth--;
+        j++;
+    }
+    var tableBody = content.substring(parenStart + 1, j - 1);
+
+    // Check for [content] after table(...)
+    int afterClose = j;
+    while (afterClose < content.length() && content.charAt(afterClose) == ' ') afterClose++;
+    String bracketContent = null;
+    if (afterClose < content.length() && content.charAt(afterClose) == '[') {
+        int bd = 1;
+        int bStart = afterClose + 1;
+        int bEnd = bStart;
+        while (bEnd < content.length() && bd > 0) {
+            char c = content.charAt(bEnd);
+            if (c == '[') bd++;
+            else if (c == ']') bd--;
+            bEnd++;
+        }
+        bracketContent = content.substring(bStart, bEnd - 1);
+    }
+
+    return typstTableToMarkdown(tableBody, bracketContent);
+}
+
+String typstTableToMarkdown(String tableBody, String bracketContent) {
+    int numCols = detectColumnCount(tableBody);
+    var cells = extractTableCells(tableBody);
+
+    if (bracketContent != null && !bracketContent.isBlank()) {
+        var bracketCells = extractBracketCells(bracketContent);
+        if (!bracketCells.isEmpty()) cells = bracketCells;
+    }
+
+    if (cells.isEmpty()) return "<!-- TABLE (no cells found) -->";
+    if (numCols == 0) numCols = cells.size();
+    if (numCols == 0) return "<!-- TABLE (no columns) -->";
+
+    var rows = new ArrayList<List<String>>();
+    var currentRow = new ArrayList<String>();
+    for (var cell : cells) {
+        currentRow.add(cell);
+        if (currentRow.size() == numCols) {
+            rows.add(new ArrayList<>(currentRow));
+            currentRow.clear();
+        }
+    }
+    if (!currentRow.isEmpty()) {
+        while (currentRow.size() < numCols) currentRow.add("");
+        rows.add(currentRow);
+    }
+
+    if (rows.isEmpty()) return "<!-- TABLE (no rows) -->";
+
+    var sb = new StringBuilder();
+    sb.append('\n');
+
+    var header = rows.get(0);
+    sb.append("|");
+    for (var h : header) sb.append(" ").append(cleanCellContent(h)).append(" |");
+    sb.append("\n|");
+    for (int c = 0; c < numCols; c++) sb.append("---|");
+    sb.append("\n");
+
+    for (int r = 1; r < rows.size(); r++) {
+        var row = rows.get(r);
+        sb.append("|");
+        for (var cell : row) sb.append(" ").append(cleanCellContent(cell)).append(" |");
+        sb.append("\n");
+    }
+
+    return sb.toString();
+}
+
+int detectColumnCount(String tableBody) {
+    var colPat = Pattern.compile("columns:\\s*\\(([^)]+)\\)");
+    var m = colPat.matcher(tableBody);
+    if (m.find()) return m.group(1).split(",").length;
+    var colNumPat = Pattern.compile("columns:\\s*(\\d+)");
+    m = colNumPat.matcher(tableBody);
+    if (m.find()) return Integer.parseInt(m.group(1));
+    return 0;
+}
+
+List<String> extractTableCells(String body) {
+    var cells = new ArrayList<String>();
+    int i = 0;
+    while (i < body.length()) {
+        while (i < body.length() && Character.isWhitespace(body.charAt(i))) i++;
+        if (i >= body.length()) break;
+
+        if (matchesKeywordArg(body, i)) {
+            i = skipKeywordArg(body, i);
+            continue;
+        }
+
+        if (body.regionMatches(i, "table.header(", 0, 13)) {
+            int hStart = i + 13;
+            int hDepth = 1;
+            int hEnd = hStart;
+            while (hEnd < body.length() && hDepth > 0) {
+                char c = body.charAt(hEnd);
+                if (c == '(') hDepth++;
+                else if (c == ')') hDepth--;
+                hEnd++;
+            }
+            cells.addAll(extractCellsFromContent(body.substring(hStart, hEnd - 1)));
+            i = hEnd;
+            while (i < body.length() && (body.charAt(i) == ',' || Character.isWhitespace(body.charAt(i)))) i++;
+            continue;
+        }
+
+        if (body.regionMatches(i, "table.cell(", 0, 11)) {
+            int tcStart = i + 11;
+            int tcDepth = 1;
+            int tcEnd = tcStart;
+            while (tcEnd < body.length() && tcDepth > 0) {
+                char c = body.charAt(tcEnd);
+                if (c == '(') tcDepth++;
+                else if (c == ')') tcDepth--;
+                tcEnd++;
+            }
+            var cellArgs = body.substring(tcStart, tcEnd - 1);
+            int colspan = 1;
+            var csPat = Pattern.compile("colspan:\\s*(\\d+)");
+            var csm = csPat.matcher(cellArgs);
+            if (csm.find()) colspan = Integer.parseInt(csm.group(1));
+
+            int afterTc = tcEnd;
+            while (afterTc < body.length() && Character.isWhitespace(body.charAt(afterTc))) afterTc++;
+            String cellContent = "";
+            if (afterTc < body.length() && body.charAt(afterTc) == '[') {
+                int bd = 1;
+                int bStart = afterTc + 1;
+                int bEnd = bStart;
+                while (bEnd < body.length() && bd > 0) {
+                    char c = body.charAt(bEnd);
+                    if (c == '[') bd++;
+                    else if (c == ']') bd--;
+                    bEnd++;
+                }
+                cellContent = body.substring(bStart, bEnd - 1);
+                i = bEnd;
+            } else {
+                i = tcEnd;
+            }
+            cells.add(cellContent);
+            for (int c = 1; c < colspan; c++) cells.add("");
+            while (i < body.length() && (body.charAt(i) == ',' || Character.isWhitespace(body.charAt(i)))) i++;
+            continue;
+        }
+
+        if (body.charAt(i) == '[') {
+            int bd = 1;
+            int start = i + 1;
+            int end = start;
+            while (end < body.length() && bd > 0) {
+                char c = body.charAt(end);
+                if (c == '[') bd++;
+                else if (c == ']') bd--;
+                end++;
+            }
+            cells.add(body.substring(start, end - 1));
+            i = end;
+            while (i < body.length() && (body.charAt(i) == ',' || Character.isWhitespace(body.charAt(i)))) i++;
+            continue;
+        }
+
+        i++;
+    }
+    return cells;
+}
+
+List<String> extractBracketCells(String content) {
+    var cells = new ArrayList<String>();
+    // Bracket content uses comma-separated values, each line may have multiple cells
+    // The cells are bare text separated by commas, NOT wrapped in [...]
+    var lines = content.split("\n");
+    for (var line : lines) {
+        var trimmed = line.strip();
+        if (trimmed.isEmpty()) continue;
+        // Split on comma that's followed by a space and not inside nested brackets
+        int depth = 0;
+        int cellStart = 0;
+        for (int i = 0; i <= trimmed.length(); i++) {
+            if (i == trimmed.length() || (trimmed.charAt(i) == ',' && depth == 0)) {
+                var cell = trimmed.substring(cellStart, i).strip();
+                if (!cell.isEmpty()) cells.add(cell);
+                cellStart = i + 1;
+            } else if (trimmed.charAt(i) == '[') {
+                depth++;
+            } else if (trimmed.charAt(i) == ']') {
+                depth--;
+            }
+        }
+    }
+    return cells;
+}
+
+boolean matchesKeywordArg(String body, int pos) {
+    for (var kw : List.of("columns:", "align:", "stroke:", "inset:", "fill:", "gutter:")) {
+        if (body.regionMatches(pos, kw, 0, kw.length())) return true;
+    }
+    return false;
+}
+
+int skipKeywordArg(String body, int pos) {
+    int j = pos;
+    while (j < body.length() && body.charAt(j) != ':') j++;
+    j++;
+    while (j < body.length() && Character.isWhitespace(body.charAt(j))) j++;
+    if (j >= body.length()) return j;
+
+    if (body.charAt(j) == '(') {
+        int depth = 1;
+        j++;
+        while (j < body.length() && depth > 0) {
+            if (body.charAt(j) == '(') depth++;
+            else if (body.charAt(j) == ')') depth--;
+            j++;
+        }
+    } else {
+        while (j < body.length() && body.charAt(j) != ',' && body.charAt(j) != '\n') {
+            if (body.charAt(j) == '(') {
+                int depth = 1;
+                j++;
+                while (j < body.length() && depth > 0) {
+                    if (body.charAt(j) == '(') depth++;
+                    else if (body.charAt(j) == ')') depth--;
+                    j++;
+                }
+            } else {
+                j++;
+            }
+        }
+    }
+    while (j < body.length() && (body.charAt(j) == ',' || Character.isWhitespace(body.charAt(j)))) j++;
+    return j;
+}
+
+List<String> extractCellsFromContent(String content) {
+    var cells = new ArrayList<String>();
+    int i = 0;
+    while (i < content.length()) {
+        while (i < content.length() && Character.isWhitespace(content.charAt(i))) i++;
+        if (i >= content.length()) break;
+        if (content.charAt(i) == '[') {
+            int bd = 1;
+            int start = i + 1;
+            int end = start;
+            while (end < content.length() && bd > 0) {
+                char c = content.charAt(end);
+                if (c == '[') bd++;
+                else if (c == ']') bd--;
+                end++;
+            }
+            cells.add(content.substring(start, end - 1));
+            i = end;
+            while (i < content.length() && (content.charAt(i) == ',' || Character.isWhitespace(content.charAt(i)))) i++;
+        } else {
+            i++;
+        }
+    }
+    return cells;
+}
+
+String cleanCellContent(String cell) {
+    var s = cell.strip();
+    s = s.replaceAll("#strong\\[([^\\]]+?)\\]", "**$1**");
+    s = s.replaceAll("#emph\\[([^\\]]+?)\\]", "*$1*");
+    s = s.replaceAll("#text\\(weight:\\s*\"bold\"\\)\\[([^\\]]+?)\\]", "**$1**");
+    s = s.replaceAll("#text\\(style:\\s*\"italic\"\\)\\[([^\\]]+?)\\]", "*$1*");
+    s = s.replaceAll("#text\\([^)]*\\)\\[([^\\]]+?)\\]", "$1");
+    s = s.replaceAll("#sub\\[([^\\]]+?)\\]", "~$1~");
+    s = s.replaceAll("#super\\[([^\\]]+?)\\]", "^$1^");
+    s = s.replaceAll("#link\\(\"([^\"]+)\"\\)\\[([^\\]]+?)\\]", "[$2]($1)");
+    s = s.replaceAll("#link\\(\"([^\"]+)\"\\)", "<$1>");
+    s = s.replaceAll("<(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)>", "");
+    s = s.replace("|", "\\|");
+    s = s.replaceAll("\\s*\\n\\s*", " ");
+    return s;
 }

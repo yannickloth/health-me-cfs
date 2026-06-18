@@ -172,6 +172,25 @@ int countTypstEnv(String content, String typstName) {
         count++;
         idx += pattern.length();
     }
+    var unnumbered = "#" + typstName + "-unnumbered(title:";
+    idx = 0;
+    while ((idx = content.indexOf(unnumbered, idx)) >= 0) {
+        count++;
+        idx += unnumbered.length();
+    }
+    if (typstName.equals("hypothesis")) {
+        var fp = "#fhypothesis(title:";
+        idx = 0;
+        while ((idx = content.indexOf(fp, idx)) >= 0) { count++; idx += fp.length(); }
+        var fpu = "#fhypothesis-unnumbered(title:";
+        idx = 0;
+        while ((idx = content.indexOf(fpu, idx)) >= 0) { count++; idx += fpu.length(); }
+    }
+    if (typstName.equals("warning-env")) {
+        var wu = "#warning-unnumbered(title:";
+        idx = 0;
+        while ((idx = content.indexOf(wu, idx)) >= 0) { count++; idx += wu.length(); }
+    }
     return count;
 }
 
