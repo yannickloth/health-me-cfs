@@ -1,0 +1,96 @@
+date: 2026-06-17
+
+sleep:
+  previous_night:
+    date: 2026-06-16
+    quality: very_poor
+    notes: "Restless legs + diffuse muscle pain caused multiple awakenings and hours-long insomnia. Night 6 of 6 — last night of consecutive sleep disruption block (Thu Jun 11→Mon Jun 16). Patient reports sleeping issues resolved after this night."
+    source: patient_report
+    disruption_cause: ["restless_legs", "diffuse_muscle_pain"]
+
+medications_supplements:
+  prescribed_medications:
+    - "All prescribed medication taken daily as prescribed"
+  supplements: ~
+  notes: ~
+
+symptoms:
+  fatigue:
+    severity: severe
+    notes: "Faiblesse généralisée (weakness)"
+  nausea:
+    severity: moderate
+    notes: "Nausées"
+  headache:
+    severity: moderate
+    notes: "Mal de tête similaire à post-commotion (headache reminiscent of 2018 concussion aftermath)"
+  cognitive:
+    severity: ~
+    notes: "Quasi comme après une commotion — global malaise resembling post-concussion state"
+  restless_legs:
+    severity: present
+    notes: "Restless legs syndrome persisting — PEM day 9 post WaterRower (Jun 9)"
+  muscle_pain:
+    severity: present
+    location: ["cuisses (thighs)", "avant-bras (forearms)"]
+    notes: "Douleurs musculaires cuisses + avant-bras continuing from rowing PEM"
+  overall:
+    severity: severe
+    notes: "Sickness-like episode: weakness, nausea, concussion-type headache + ongoing PEM (day 9): restless legs, muscle pain (thighs, forearms). Patient describes feeling 'almost sick' with symptom cluster reminiscent of post-concussion syndrome (ref: 2018-06-29 TBI event). Forced to perform extensive errands despite all of this."
+
+overall_wellbeing: very_low
+
+activity:
+  activity_level:
+    - description: "Hypermarché (grocery shopping)"
+      exertion_level: moderate-to-high
+      notes: "Major errand despite feeling sick"
+    - description: "Psychologue enfants (children's psychologist appointment)"
+      exertion_level: moderate
+      notes: "Accompaniment/waiting"
+    - description: "Conduire + rechercher enfants à l'école (driving, school drop-off/pick-up)"
+      exertion_level: moderate
+      notes: "Multiple car trips"
+  unable_to_rest: true
+  notes: "Beaucoup de courses — patient unable to rest despite severe symptoms. High cumulative exertion on a day with sickness-like malaise."
+
+pem_tracking:
+  trigger_event: "WaterRower 20min (2026-06-09)"
+  pem_day: 9
+  status: ongoing
+  notes: "Extended PEM episode — day 9, well beyond previous longest (lawn mowing: 5-7 days). RLS + muscle pain (thighs, forearms) unresolved. Sickness-like overlay (nausea, concussion-type headache) may indicate compounding neuroinflammatory response."
+
+pem_risk:
+  level: very_high
+  rationale: "Already in extended PEM (day 9) + sickness-like symptoms + forced high activity (hypermarché, psychologist, school runs) without rest. Compounding PEM-on-PEM risk."
+  expected_onset: "Worsening expected Jun 18-20 from today's forced exertion layered on existing PEM"
+  monitoring: "Track symptom evolution Jun 18-20 — expect amplified crash from dual trigger (ongoing PEM + forced exertion)"
+
+hypotheses:
+  - id: sickness_behavior_immune_activation
+    text: "Sickness-like presentation (weakness, nausea, headache) without confirmed infection may indicate immune activation or neuroinflammatory flare — common in ME/CFS."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If symptoms resolve within 24-48h without infectious signs (fever, sore throat, cough), supports immune/neuroinflammatory mechanism over viral illness."
+  - id: concussion_type_headache_autonomic
+    text: "Patient explicitly compares headache to post-concussion type (2018 TBI). May indicate brainstem/autonomic flare sharing pathophysiology with original concussion injury — sympathetic dominance, reduced vagal tone."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "Track whether concussion-type headaches correlate with barometric pressure changes, PEM episodes, or sleep disruption."
+  - id: forced_exertion_on_sick_day_pem
+    text: "Unable to rest on a day with sickness-like symptoms (weakness, nausea, headache). Forced activity (hypermarché, driving, school runs, psychologist) on an already-depleted day is a strong PEM trigger. This pattern — obligations preventing rest when rest is most needed — is a recurring caregiving burden risk."
+    status: patient_hypothesis
+    falsifiable: true
+    test: "If PEM develops Jun 18-20 with severity > baseline crashes, supports forced-exertion-on-sick-day as compounding trigger."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 20.0
+  temperature_max_c: 25.8
+  temperature_min_c: 13.9
+  humidity_pct: 72
+  pressure_msl_hpa: 1019.9
+  precipitation_mm: 0.9
+  wind_max_kmh: 12.1
+  conditions: "moderate drizzle"
+  source: "Open-Meteo archive API"

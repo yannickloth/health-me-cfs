@@ -1,0 +1,39 @@
+date: 2026-06-16
+
+sleep:
+  previous_night:
+    date: 2026-06-15
+    quality: very_poor
+    notes: "Restless legs + diffuse muscle pain caused multiple awakenings and hours-long insomnia. Night 5 of 6 consecutive disrupted nights (Thu Jun 11→Mon Jun 16)."
+    source: patient_report
+    disruption_cause: ["restless_legs", "diffuse_muscle_pain"]
+
+symptoms:
+  restless_legs:
+    severity: present
+    notes: "Restless legs syndrome persisting — PEM day 8 post WaterRower (Jun 9)"
+  muscle_pain:
+    severity: present
+    location: ["cuisses (thighs)", "avant-bras (forearms)"]
+    notes: "Douleurs musculaires cuisses + avant-bras continuing"
+  overall:
+    severity: moderate-to-severe
+    notes: "PEM day 8. Restless legs + muscle pain (thighs, forearms) still present. No baseline return."
+
+pem_tracking:
+  trigger_event: "WaterRower 20min (2026-06-09)"
+  pem_day: 8
+  status: ongoing
+  notes: "Extended PEM episode — now exceeds previous longest (lawn mowing: 5-7 days)."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 19.4
+  temperature_max_c: 25.9
+  temperature_min_c: 14.6
+  humidity_pct: 67
+  pressure_msl_hpa: 1015.5
+  precipitation_mm: 1.1
+  wind_max_kmh: 19.3
+  conditions: "moderate drizzle"
+  source: "Open-Meteo archive API"

@@ -29,6 +29,9 @@
 | Sat Jun 13 | daytime | Leg pain, fatigue; evening improved |
 | Sat Jun 13 → Sun Jun 14 | night | Restless legs, sleep onset ~2230, wake ~0000, wake ~0300, insomnia until ~0600, natural wake ~0830 |
 | Sun Jun 14 | daytime | Severe fatigue, diffuse leg pain, desire to sleep all day |
+| Sun Jun 15 | daytime | Restless legs, muscle pain (thighs + forearms). PEM day 7 — exceeds typical 5-7 day window |
+| Mon Jun 16 | daytime | Restless legs, muscle pain (thighs + forearms). PEM day 8 — extended episode confirmed |
+| Tue Jun 17 | daytime | Restless legs, muscle pain (thighs + forearms) + sickness-like overlay (weakness, nausea, concussion-type headache). PEM day 9. Unable to rest — forced errands (hypermarché, psychologist, school runs). Very high PEM-on-PEM risk |
 
 ---
 
@@ -37,11 +40,13 @@
 ### Key Observations
 
 1. **Delayed onset:** PEM symptoms began ~20h post-exertion (midday Jun 10), consistent with classic 12-48h PEM window
-2. **Duration:** Symptoms ongoing at day 5 (Jun 14), no return to baseline yet
+2. **Duration:** Symptoms ongoing at day 9 (Jun 17), well beyond typical 5-7 day recovery. Extended PEM episode.
 3. **Neurological dominant:** Headache, brain fog, restless legs — suggests neuroinflammatory/ANS component
-4. **Restless legs prominent:** Appears every night Thu→Sun, a consistent new feature of this episode
-5. **Sleep fragmentation:** Nocturnal insomnia with early-morning sleep window (0600-0830) on Sat→Sun night
-6. **Evening improvement pattern:** Saturday evening was better, consistent with diurnal symptom fluctuation
+4. **Restless legs prominent:** Appears every night Thu→Sun and continues Sun-Tue (days 7-9)
+5. **Forearm pain emerged:** Days 7+ show forearm pain — delayed rowing-specific muscle involvement (biceps/forearm flexors used in rowing pull)
+6. **Sickness-like overlay day 9:** Nausea, concussion-type headache, generalized weakness — possible compounding neuroinflammatory flare
+7. **Sleep disruption block:** 6 consecutive nights (Thu Jun 11→Mon Jun 16) of severely impaired sleep — restless legs + diffuse muscle pain causing multiple awakenings and hours-long insomnia each night
+8. **Evening improvement pattern:** Saturday evening was better, consistent with diurnal symptom fluctuation
 
 ### Trigger Magnitude Assessment
 
