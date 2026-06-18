@@ -32,7 +32,7 @@ Natural killer cells are the immune system's first-responder killers — the cel
 
 In ME/CFS, TRPM3 is broken.
 
-The Griffith University group (Marshall-Gradisnik et al.) has been documenting this for years. TRPM3 channel activity is significantly reduced in the natural killer cells of ME/CFS patients. Calcium influx is impaired. The cells cannot degranulate properly. Their killing capacity is demonstrably reduced. A large-scale 2025 study confirmed this finding across multiple laboratory sites [@MarshallGradisnik2025TRPM3] — making it one of the most consistently observed biological abnormalities in ME/CFS, though independent replication by separate research groups is still needed.
+The Griffith University group (Marshall-Gradisnik et al.) has been documenting this for years. TRPM3 channel activity is significantly reduced in the natural killer cells of ME/CFS patients. Calcium influx is impaired. The cells cannot degranulate properly. Their killing capacity is demonstrably reduced. A large-scale 2025 study confirmed this finding across multiple laboratory sites [@marshall2025trpm3] — making it one of the most consistently observed biological abnormalities in ME/CFS, though independent replication by separate research groups is still needed.
 
 Notably, low-dose naltrexone — a treatment many ME/CFS patients report benefit from — appears to partially restore TRPM3 function in these cells. The 2024 paper by Lohn et al. [@WirthLohn2024microvascular] documented this effect and proposed TRPM3 dysfunction as a mechanistic explanation for why low-dose naltrexone produces benefit in this population.
 
