@@ -13,13 +13,13 @@ about:
 
 ## About
 
-Ing. Yannick Loth, M.Sc. (Management) — patient-researcher living with ME/CFS.
+Ing. Yannick Loth, M.Sc. (Management)
 
 This work synthesises the scientific literature on Myalgic Encephalomyelitis / Chronic Fatigue Syndrome with structured epistemic rigour — separating what is established from what is hypothesised, speculated, or unknown. Every claim is classified as an achievement, hypothesis, speculation, prediction, warning, or recommendation, with an explicit certainty rating.
 
 ## Motivation
 
-As a patient diagnosed with ME/CFS, I found the medical literature scattered across thousands of papers, often contradictory, and rarely synthesised in a way that serves both clinicians and patients. This documentation exists to bridge that gap — to make the evidence accessible, structured, and honest about its limits.
+The medical literature on ME/CFS is scattered across thousands of papers, often contradictory, and rarely synthesised in a way that serves both clinicians and patients. This documentation exists to bridge that gap — to make the evidence accessible, structured, and honest about its limits.
 
 ## Methodology
 

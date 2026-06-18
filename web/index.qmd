@@ -43,16 +43,9 @@ Use the **sidebar** to browse chapters and sections. Each page has its own table
 
 ::: {.g-col-12 .g-col-md-5}
 
-## About the Author
-
-**Ing. Yannick Loth, M.Sc. (Management)**
-
-Patient-researcher living with ME/CFS. This work synthesises the scientific literature with structured epistemic rigour — separating what is established from what is hypothesised, speculated, or unknown.
-
-[Read more &rarr;](about.qmd)
-
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 **DOI:** [10.5281/zenodo.19627450](https://doi.org/10.5281/zenodo.19627450)
+**Author:** [Yannick Loth](about.qmd)
 
 :::
 
