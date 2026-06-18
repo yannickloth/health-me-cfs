@@ -26,9 +26,9 @@ The diversity of entry points is what makes chronic energy failure conditions so
 
 ME/CFS is not one of the fourteen mechanisms. It is what happens when several of them become simultaneously active and mutually reinforcing.
 
-A patient with post-viral immune activation (mechanism 4) [[5]](#ref-5) develops secondary mitochondrial dysfunction (mechanism 1) from the metabolic cost of chronic immune surveillance. The mitochondrial impairment reduces sleep quality (mechanism 12) because the thalamic calcium channels that generate slow-wave oscillations are ATP-dependent. Poor sleep impairs glymphatic clearance, leaving inflammatory mediators in the brain that sustain neuroinflammation (mechanism 5). Neuroinflammation disrupts autonomic regulation (mechanism 13), producing POTS and cerebral hypoperfusion. The hypoperfusion impairs hepatic clearance of gut-derived toxins, worsening the impact of any existing dysbiosis (mechanism 8). The dysbiosis produces H₂S, which further inhibits mitochondria (back to mechanism 1).
+A patient with post-viral immune activation (mechanism 4) [@Hickie2006postinfectious] develops secondary mitochondrial dysfunction (mechanism 1) from the metabolic cost of chronic immune surveillance. The mitochondrial impairment reduces sleep quality (mechanism 12) because the thalamic calcium channels that generate slow-wave oscillations are ATP-dependent. Poor sleep impairs glymphatic clearance, leaving inflammatory mediators in the brain that sustain neuroinflammation (mechanism 5). Neuroinflammation disrupts autonomic regulation (mechanism 13), producing POTS and cerebral hypoperfusion. The hypoperfusion impairs hepatic clearance of gut-derived toxins, worsening the impact of any existing dysbiosis (mechanism 8). The dysbiosis produces H₂S, which further inhibits mitochondria (back to mechanism 1).
 
-The loops close. Each mechanism feeds the others. No single mechanism is "the cause." The disease is the loop [[6]](#ref-6) — the self-sustaining state in which multiple energy-draining mechanisms reinforce each other faster than the body can resolve any one of them.
+The loops close. Each mechanism feeds the others. No single mechanism is "the cause." The disease is the loop [@Davis2023] — the self-sustaining state in which multiple energy-draining mechanisms reinforce each other faster than the body can resolve any one of them.
 
 This is why ME/CFS presents as an attractor state in the mathematical models: once the system crosses a threshold of cumulative mechanism activation, it settles into a stable pathological equilibrium that resists perturbation. Push one mechanism down with treatment, and the others hold the system in place. The ball is in a valley, and the valley has steep walls.
 
@@ -36,7 +36,7 @@ This is why ME/CFS presents as an attractor state in the mathematical models: on
 
 ## Why single-target treatments fail
 
-The history of ME/CFS treatment trials is a graveyard of drugs that helped a subset and failed on average. Rituximab [[2]](#ref-2) helped some patients dramatically and did nothing for others. Rintatolimod showed signal in some trials and not others. Valaciclovir helped patients with documented EBV reactivation and not patients without it. Thyroid replacement helped the low-T3 subset. Iron infusions helped the low-ferritin subset. CoQ10 helped patients with documented deficiency.
+The history of ME/CFS treatment trials is a graveyard of drugs that helped a subset and failed on average. Rituximab [@Fluge2011] helped some patients dramatically and did nothing for others. Rintatolimod showed signal in some trials and not others. Valaciclovir helped patients with documented EBV reactivation and not patients without it. Thyroid replacement helped the low-T3 subset. Iron infusions helped the low-ferritin subset. CoQ10 helped patients with documented deficiency.
 
 Each treatment targeted one of the fourteen mechanisms. Each worked — when that mechanism was active in that patient. In unselected cohorts, the signal was diluted to noise.
 
@@ -50,7 +50,7 @@ The framework this series has developed implies a clinical approach that differs
 
 **Step 1: Mechanism inventory.** For each patient, systematically assess which of the fourteen mechanism categories are active. This requires tests beyond the standard panel:
 
-- Mitochondrial: 2-day CPET, organic acids, acylcarnitine profile [[1]](#ref-1)
+- Mitochondrial: 2-day CPET, organic acids, acylcarnitine profile [@Naviaux2016metabolomics]
 - Immune: cytokine panels, NK cell function, viral reactivation markers (EBV EA-IgG, HHV-6 IgG)
 - Endocrine: diurnal cortisol (4-point), full thyroid (TSH + fT3 + fT4 + rT3 + antibodies), sex hormones, fasting insulin
 - Vascular: tilt table with transcranial Doppler, blood volume measurement (Daxor BVA-100 or equivalent)
@@ -70,7 +70,7 @@ The framework this series has developed implies a clinical approach that differs
 - EBV reactivation → antiviral trial
 - Alpha-delta sleep → DORA trial (suvorexant), or neurostimulation research protocols
 - H₂S dysbiosis → sulfur restriction, bismuth, targeted probiotics
-- Autoantibodies → immunoadsorption [[3]](#ref-3) (where available)
+- Autoantibodies → immunoadsorption [@Scheibenbogen2018immunoadsorption] (where available)
 - Low vitamin D, B12, magnesium → repletion to optimal (not just "within range")
 
 **Step 3: Reduce total load.** Each treated mechanism reduces the total energy drain on the system. No single intervention cures ME/CFS. But five interventions, each reducing the energy deficit by 5-10%, collectively create a 25-50% improvement — which in a patient whose functional capacity is measured in single-digit percentages of normal can be transformative.
@@ -83,7 +83,7 @@ This is not a cure. It is systematic burden reduction. It is the difference betw
 
 If this framework is correct, then "ME/CFS" as a unitary diagnosis is roughly as useful as "fever" as a diagnosis. It describes a state, not a mechanism. The state is real — the convergence is real, the disability is real, the attractor dynamics are real. But the mechanisms driving it differ between patients, and treatment must be mechanism-specific.
 
-This predicts that ME/CFS clinical trials will continue to fail until they stratify by mechanism. A rituximab [[2]](#ref-2) trial that enrols all ME/CFS patients will fail on average, even if it cures every patient with a specific autoantibody profile. The signal is real. The trial design buries it.
+This predicts that ME/CFS clinical trials will continue to fail until they stratify by mechanism. A rituximab [@Fluge2011] trial that enrols all ME/CFS patients will fail on average, even if it cures every patient with a specific autoantibody profile. The signal is real. The trial design buries it.
 
 The research agenda this framework demands is not "find the cause of ME/CFS." It is: **characterise the mechanism portfolio of individual patients, identify which mechanisms are treatable with existing tools, and run stratified trials that match treatment to mechanism.**
 
@@ -95,7 +95,7 @@ This is harder than finding a single cause and a single cure. It is also more ho
 
 If you have ME/CFS, the framework this series has developed says three things:
 
-**First:** your disease is real, biological, measurable, and mechanistically explicable [[4]](#ref-4). It is not one thing — it is a convergence of mechanisms — but that does not make it less real. It makes it more complex and harder to treat, which is a property of the disease, not of your psychology.
+**First:** your disease is real, biological, measurable, and mechanistically explicable [@IOM2015]. It is not one thing — it is a convergence of mechanisms — but that does not make it less real. It makes it more complex and harder to treat, which is a property of the disease, not of your psychology.
 
 **Second:** there are likely treatable components within your mechanism portfolio. Most ME/CFS patients have never had a systematic mechanism inventory. They have had standard blood panels (which miss sub-clinical deficiencies), a TSH (which misses tissue-level hypothyroidism), and perhaps a psychiatric referral (which misses metabolic disease). A comprehensive workup may identify three, four, or five treatable contributors that have never been addressed.
 
@@ -105,7 +105,7 @@ If you have ME/CFS, the framework this series has developed says three things:
 
 ## The landscape is the map
 
-This series [[7]](#ref-7) began with a question: why are you so tired? The answer turned out to be: for fourteen possible reasons, in varying combinations, maintained by feedback loops that resist individual intervention.
+This series [@Loth2026mecfs] began with a question: why are you so tired? The answer turned out to be: for fourteen possible reasons, in varying combinations, maintained by feedback loops that resist individual intervention.
 
 The energy failure landscape is not a single road to a single destination. It is a terrain with many entry points, many paths, and one valley at the centre where the paths converge. Getting out of the valley requires knowing which paths brought you there — and working on each one.
 
@@ -113,12 +113,3 @@ The tests exist. The treatments exist for many of the mechanisms. What doesn't y
 
 ---
 
-## References
-
-<span id="ref-1"></span>1. Naviaux RK et al. Metabolic features of chronic fatigue syndrome. *PNAS*. 2016;113(37):E5472-E5480.
-<span id="ref-2"></span>2. Fluge Ø et al. B-lymphocyte depletion in myalgic encephalopathy/chronic fatigue syndrome. *PLoS ONE*. 2011;6(10):e26358.
-<span id="ref-3"></span>3. Scheibenbogen C et al. Immunoadsorption to remove ß2 adrenergic receptor antibodies in chronic fatigue syndrome. *PLoS ONE*. 2018;13(3):e0193672.
-<span id="ref-4"></span>4. IOM. Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness. 2015.
-<span id="ref-5"></span>5. Hickie I et al. Post-infective and chronic fatigue syndromes precipitated by viral and non-viral pathogens. *BMC Medicine*. 2006;4:26.
-<span id="ref-6"></span>6. Davis HE et al. Long COVID: major findings, mechanisms and recommendations. *Nature Reviews Microbiology*. 2023;21(3):133-146.
-<span id="ref-7"></span>7. Loth Y. ME/CFS: Mechanisms, Management, and Research Frontiers. 2026. doi.org/10.5281/zenodo.19627450

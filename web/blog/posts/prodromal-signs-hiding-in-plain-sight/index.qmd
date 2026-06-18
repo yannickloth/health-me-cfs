@@ -48,11 +48,11 @@ The adult version: the high-achiever who needs 10+ hours of sleep, can't sustain
 
 A young person with fine hand tremor — "shaky hands like old ladies" — for which no neurological cause is identified. Worse when tired. Fluctuates with activity level. Dismissed as "nervous" or "just how they are."
 
-The mechanism: fine motor control requires continuous rapid adjustments that consume ATP. When mitochondrial output is marginal, precision degrades into visible tremor. Recent research shows that 53% of children with postural orthostatic tachycardia syndrome (POTS) have small fiber neuropathy on skin biopsy (Moak et al. [[4]](#ref-4)) — degrading the proprioceptive feedback that fine motor control depends on.
+The mechanism: fine motor control requires continuous rapid adjustments that consume ATP. When mitochondrial output is marginal, precision degrades into visible tremor. Recent research shows that 53% of children with postural orthostatic tachycardia syndrome (POTS) have small fiber neuropathy on skin biopsy (Moak et al. [@Moak2024SFNpediatric]) — degrading the proprioceptive feedback that fine motor control depends on.
 
 ### 5. The catalogue of "nothing" symptoms
 
-Cold hands and feet — "poor circulation" (Wyller et al. [[5]](#ref-5) documents abnormal thermoregulation in adolescent ME/CFS). Dizziness on standing — "growing too fast." Sleep that never refreshes despite adequate hours. Brain fog after sport or exams — "just needs more rest." Catching every infection that goes around. Craving salt. Crashing on weekends and holidays while appearing fine during the school week.
+Cold hands and feet — "poor circulation" (Wyller et al. [@Wyller2007thermoregCFS] documents abnormal thermoregulation in adolescent ME/CFS). Dizziness on standing — "growing too fast." Sleep that never refreshes despite adequate hours. Brain fog after sport or exams — "just needs more rest." Catching every infection that goes around. Craving salt. Crashing on weekends and holidays while appearing fine during the school week.
 
 Each one individually: unremarkable. Collectively: a pattern of autonomic dysfunction and energy insufficiency that is invisible until you know what you're looking at.
 
@@ -62,11 +62,11 @@ Each one individually: unremarkable. Collectively: a pattern of autonomic dysfun
 
 This isn't just pattern recognition from patient stories. There's data:
 
-**German insurance claims data (Wirth et al. [[1]](#ref-1), N=36,332):** Children later diagnosed with ME/CFS had significantly elevated rates of fatigue (OR 2.19), pain (OR 1.55), "somatoform disorders" (OR 1.32), and cognitive impairment (OR 2.93) — diagnosed up to five years before the ME/CFS diagnosis. Those "somatoform" codes are particularly telling: they likely represent doctors seeing real symptoms and having no explanation, so they defaulted to "medically unexplained." The symptoms were real. The explanation came five years later.
+**German insurance claims data (Wirth et al. [@WirthScheibenbogen2026glutamate], N=36,332):** Children later diagnosed with ME/CFS had significantly elevated rates of fatigue (OR 2.19), pain (OR 1.55), "somatoform disorders" (OR 1.32), and cognitive impairment (OR 2.93) — diagnosed up to five years before the ME/CFS diagnosis. Those "somatoform" codes are particularly telling: they likely represent doctors seeing real symptoms and having no explanation, so they defaulted to "medically unexplained." The symptoms were real. The explanation came five years later.
 
-**ALSPAC birth cohort (Collin et al. [[2]](#ref-2), N=13,978):** Children who later developed chronic disabling fatigue had measurably disrupted sleep — shorter duration, later bedtime, more nighttime awakenings — starting 4–7 years before any fatigue diagnosis. Each additional hour of sleep at age 9 cut later fatigue odds by 39%. Measured prospectively. Not recalled after the fact.
+**ALSPAC birth cohort (Collin et al. [@Collin2018sleepCFS], N=13,978):** Children who later developed chronic disabling fatigue had measurably disrupted sleep — shorter duration, later bedtime, more nighttime awakenings — starting 4–7 years before any fatigue diagnosis. Each additional hour of sleep at age 9 cut later fatigue odds by 39%. Measured prospectively. Not recalled after the fact.
 
-**Twin study (Kato et al. [[3]](#ref-3), N=19,192):** Premorbid perceived stress — measured 25 years before fatigue onset — predicted chronic fatigue with a 5.81-fold risk increase after controlling for shared genetics. This is a true environmental risk factor, not a personality trait.
+**Twin study (Kato et al. [@Kato2006premorbid], N=19,192):** Premorbid perceived stress — measured 25 years before fatigue onset — predicted chronic fatigue with a 5.81-fold risk increase after controlling for shared genetics. This is a true environmental risk factor, not a personality trait.
 
 ---
 
@@ -82,9 +82,9 @@ The eventual collapse into ME/CFS happens when an immune trigger — an infectio
 
 ## The important caveats
 
-**This applies to about half of cases.** Approximately 50% of ME/CFS begins abruptly after an infection with no identifiable prior symptoms (Jason et al. [[6]](#ref-6)). The prodromal pattern described here applies to gradual-onset ME/CFS specifically.
+**This applies to about half of cases.** Approximately 50% of ME/CFS begins abruptly after an infection with no identifiable prior symptoms (Jason et al. [@Jason2015CFSvsME]). The prodromal pattern described here applies to gradual-onset ME/CFS specifically.
 
-**Most tired children don't have ME/CFS.** The diagnostic error rate in pediatric fatigue referrals is approximately 40% (Geraghty & Adeniji [[7]](#ref-7)). These patterns are hypothesis-generating, not diagnostic criteria.
+**Most tired children don't have ME/CFS.** The diagnostic error rate in pediatric fatigue referrals is approximately 40% (Geraghty & Adeniji [@Geraghty2019diagnosticAccuracy]). These patterns are hypothesis-generating, not diagnostic criteria.
 
 **We don't have the prospective proof.** No study has measured exercise capacity in children before ME/CFS diagnosis. No longitudinal study tracks overtrained athletes into ME/CFS. The prodromal composite score is proposed but unvalidated. We can recognise these patterns in retrospect — we can't yet use them to predict who will get sick.
 
@@ -102,21 +102,6 @@ Recognition is the first intervention. And it costs nothing.
 
 ---
 
-## References
-
-<span id="ref-1"></span> 1. Wirth M, Haastert B, Linnenkamp U, et al. ICD-10 Diagnoses prior to ME/CFS diagnosis in children and young people suggest potential early diagnostic indicators. *Scientific Reports*. 2026. [DOI: 10.1038/s41598-026-40848-1](https://doi.org/10.1038/s41598-026-40848-1)
-
-<span id="ref-2"></span> 2. Collin SM, Norris T, Gringras P, Blair PS, Tilling K, Crawley E. Childhood sleep and adolescent chronic fatigue syndrome (CFS/ME): evidence of associations in a UK birth cohort. *Sleep Medicine*. 2018;47:85–91. [DOI: 10.1016/j.sleep.2018.01.005](https://doi.org/10.1016/j.sleep.2018.01.005)
-
-<span id="ref-3"></span> 3. Kato K, Sullivan PF, Evengård B, Pedersen NL. Premorbid predictors of chronic fatigue. *Archives of General Psychiatry*. 2006;63(11):1267–72. [DOI: 10.1001/archpsyc.63.11.1267](https://doi.org/10.1001/archpsyc.63.11.1267)
-
-<span id="ref-4"></span> 4. Moak JP, Ramwell CB, Gordish-Dressman H, Sule SD, Bettini E. Small fiber neuropathy in children, adolescents, and young adults with chronic orthostatic intolerance and POTS. *Autonomic Neuroscience*. 2024;253:103163. [DOI: 10.1016/j.autneu.2024.103163](https://doi.org/10.1016/j.autneu.2024.103163)
-
-<span id="ref-5"></span> 5. Wyller VB, Godang K, Mørkrid L, Saul JP, Thaulow E, Walløe L. Abnormal thermoregulatory responses in adolescents with chronic fatigue syndrome. *Pediatrics*. 2007;120(1):e129–37. [DOI: 10.1542/peds.2006-2759](https://doi.org/10.1542/peds.2006-2759)
-
-<span id="ref-6"></span> 6. Jason LA, Evans M, Brown A, Sunnquist M, Newton JL. Chronic Fatigue Syndrome Versus Sudden Onset Myalgic Encephalomyelitis. *Journal of Prevention & Intervention in the Community*. 2015;43(1):6–12. [DOI: 10.1080/10852352.2014.973233](https://doi.org/10.1080/10852352.2014.973233)
-
-<span id="ref-7"></span> 7. Geraghty KJ, Adeniji C. The Importance of Accurate Diagnosis of ME/CFS in Children and Adolescents: A Commentary. *Frontiers in Pediatrics*. 2019;7:435. [DOI: 10.3389/fped.2018.00435](https://doi.org/10.3389/fped.2018.00435)
 
 *Full mechanistic framework:*
 *This is part of an ongoing series exploring ME/CFS mechanisms. The book project behind these articles is freely available and updated regularly.*

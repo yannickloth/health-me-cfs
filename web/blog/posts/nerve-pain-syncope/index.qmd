@@ -36,7 +36,7 @@ What arrives at the brain ~1–2 seconds after impact is a crescendo of C-fiber 
 
 ## Step 3: The nucleus tractus solitarius — where the reflex hijacks the system (~1–2 seconds)
 
-All that nociceptive (pain) information ascends the spinal cord and brainstem to a structure called the **nucleus tractus solitarius (NTS)** in the medulla oblongata — the lowest part of the brain, right above the spinal cord. The NTS is the central integration hub for **visceral sensation**: it receives input from the heart, lungs, gut, and — critically — from nociceptors [[1]](#ref-1).
+All that nociceptive (pain) information ascends the spinal cord and brainstem to a structure called the **nucleus tractus solitarius (NTS)** in the medulla oblongata — the lowest part of the brain, right above the spinal cord. The NTS is the central integration hub for **visceral sensation**: it receives input from the heart, lungs, gut, and — critically — from nociceptors [@Benarroch2022NTS].
 
 When the NTS receives an **intense, rapid-onset nociceptive volley**, it interprets this as a threat signal too massive for the normal regulatory systems to handle. It triggers an emergency override.
 
@@ -44,7 +44,7 @@ When the NTS receives an **intense, rapid-onset nociceptive volley**, it interpr
 
 ## Step 4: The dual autonomic cascade — vagal activation + sympathetic withdrawal (~1.5–2.5 seconds)
 
-The NTS sends two simultaneous output signals [[3]](#ref-3):
+The NTS sends two simultaneous output signals [@Raj2020syncope]:
 
 **Signal 1: Vagal activation.** The **vagus nerve** (cranial nerve X, the tenth cranial nerve — there are twelve numbered sets of nerves directly attached to the brain) carries parasympathetic fibers to the heart. When the NTS fires it, vagal output to the heart's sinoatrial node — its natural pacemaker — surges. Heart rate drops sharply. This is called **bradycardia** (slow heart rate).
 
@@ -68,7 +68,7 @@ In rapid-pain-onset syncope, the escalation can compress these prodromal signs i
 
 ## Step 6: Syncope — the brain's forced reboot (~2.5–3.5 seconds from impact)
 
-**Syncope** (SIN-co-pee) is the medical term for transient loss of consciousness due to cerebral hypoperfusion [[4]](#ref-4) [[5]](#ref-5). It is not a seizure — it's the brain shutting down non-essential systems to preserve core metabolism, like a laptop entering emergency sleep when the battery hits 1%.
+**Syncope** (SIN-co-pee) is the medical term for transient loss of consciousness due to cerebral hypoperfusion [@Grubb2005syncope] [@Adkisson2017syncope]. It is not a seizure — it's the brain shutting down non-essential systems to preserve core metabolism, like a laptop entering emergency sleep when the battery hits 1%.
 
 During syncope, muscle tone is lost (the person collapses), which is actually the body's most effective countermeasure: **going horizontal removes the gravity gradient** that was pulling blood away from the brain. In the supine position — lying flat on the back — the heart and brain are at roughly the same level, and perfusion pressure is restored by simple physics.
 
@@ -106,7 +106,7 @@ Some people naturally have a more reactive vagus nerve — lower resting heart r
 
 ### 2. POTS (Postural Orthostatic Tachycardia Syndrome)
 
-POTS patients already have a dysregulated autonomic nervous system [[2]](#ref-2) [[8]](#ref-8) [[10]](#ref-10). Their hallmark is an **excessive heart rate increase upon standing** — the sympathetic system overcompensates to maintain cerebral perfusion against blood pooling. But many POTS patients also have **neuropathic POTS** — the sympathetic nerves to the lower-body blood vessels are partially damaged (small-fiber neuropathy [[7]](#ref-7)), meaning vasoconstriction is already impaired.
+POTS patients already have a dysregulated autonomic nervous system [@POTSautonomicProfiles2025] [@Sheldon2015POTScriteria] [@Garland2015POTSbeyond]. Their hallmark is an **excessive heart rate increase upon standing** — the sympathetic system overcompensates to maintain cerebral perfusion against blood pooling. But many POTS patients also have **neuropathic POTS** — the sympathetic nerves to the lower-body blood vessels are partially damaged (small-fiber neuropathy [@Schondorf2021autonomicPOTS]), meaning vasoconstriction is already impaired.
 
 When a pain spike triggers the NTS-mediated sympathetic withdrawal, a POTS patient's cardiovascular system is less able to compensate. The vasodilation is larger relative to baseline, and the baroreflex recovery is slower. **Syncope is more likely and recovery takes longer.**
 
@@ -122,13 +122,13 @@ In conditions like **Ehlers-Danlos syndromes (EDS/hypermobility spectrum disorde
 
 ### 4. ME/CFS and Long COVID
 
-Autonomic dysfunction is near-universal in ME/CFS and common in Long COVID [[6]](#ref-6). Orthostatic intolerance, POTS, and abnormal heart rate variability are well-documented. Many ME/CFS patients have **reduced baroreflex sensitivity** — the system that detects blood pressure drops and compensates is sluggish.
+Autonomic dysfunction is near-universal in ME/CFS and common in Long COVID [@Baschieri2019circadianAutonomic]. Orthostatic intolerance, POTS, and abnormal heart rate variability are well-documented. Many ME/CFS patients have **reduced baroreflex sensitivity** — the system that detects blood pressure drops and compensates is sluggish.
 
 Combined with **neuroinflammation** (elevated brain cytokines, activated microglia), which can lower the NTS threshold for triggering the reflex, ME/CFS patients may be more vulnerable to pain-induced syncope even without pre-existing POTS.
 
 ### 5. Iron deficiency
 
-Iron deficiency impairs **tyrosine hydroxylase** — the rate-limiting enzyme for dopamine and norepinephrine synthesis [[9]](#ref-9). Norepinephrine is the primary neurotransmitter of the sympathetic nervous system. Low norepinephrine production means **reduced sympathetic tone** — the baseline vasoconstriction that keeps blood pressure up.
+Iron deficiency impairs **tyrosine hydroxylase** — the rate-limiting enzyme for dopamine and norepinephrine synthesis [@DelRosso2020ironRLS]. Norepinephrine is the primary neurotransmitter of the sympathetic nervous system. Low norepinephrine production means **reduced sympathetic tone** — the baseline vasoconstriction that keeps blood pressure up.
 
 When the NTS triggers sympathetic withdrawal on top of already-low sympathetic tone, the blood pressure drop is deeper. Iron-deficient individuals have less cardiovascular reserve to absorb the hit.
 
@@ -157,24 +157,4 @@ Passing out from a nerve hit is not a sign of weakness or a psychological overre
 The 1-second lag between the initial sharp jab and the intolerable wave is the exact signature of **Aδ-first, C-fiber-amplified nociception** triggering the NTS autonomic override. The brain warns, then pulls the ripcord.
 
 That's not dysfunction. That's the brainstem doing exactly what evolution designed it to do when it receives a pain signal it interprets as a survival-level threat — it gets the body horizontal, restores blood to the brain, and reboots the system.
-## References
 
-<span id="ref-1"></span>1. Benarroch EE. Nucleus of the solitary tract. In: *The Central Autonomic Network*. Oxford University Press; 2022. [Chapter covering NTS afferent/efferent integration and baroreflex pathways.]
-
-<span id="ref-2"></span>2. Freeman R, Wieling W, Axelrod FB, et al. Consensus statement on the definition of orthostatic hypotension, neurally mediated syncope and the postural tachycardia syndrome. *Clinical Autonomic Research*. 2011;21(2):69–72. PMID: 21431947.
-
-<span id="ref-3"></span>3. Raj SR, Sheldon RS. Syncope: investigation and treatment. *Current Problems in Cardiology*. 2020;45(10):100612.
-
-<span id="ref-4"></span>4. Grubb BP. Neurocardiogenic syncope and related disorders of orthostatic intolerance. *Circulation*. 2005;111(22):2997–3006. PMID: 15939833.
-
-<span id="ref-5"></span>5. Adkisson WO, Benditt DG. Pathophysiology of neurally mediated syncope. *Cardiac Electrophysiology Clinics*. 2017;9(4):575–586.
-
-<span id="ref-6"></span>6. Baschieri F, Cortelli P. Circadian rhythms and autonomic dysfunction in neurodegenerative disorders. *Autonomic Neuroscience*. 2019;217:66–74.
-
-<span id="ref-7"></span>7. Schondorf R, Freeman R. The importance of autonomic testing in POTS and related disorders. *Clinical Autonomic Research*. 2021;31(3):307–316.
-
-<span id="ref-8"></span>8. Sheldon RS, Grubb BP, Olshansky B, et al. 2015 Heart Rhythm Society expert consensus statement on the diagnosis and treatment of postural tachycardia syndrome, inappropriate sinus tachycardia, and vasovagal syncope. *Heart Rhythm*. 2015;12(6):e41–e63. PMID: 25980576.
-
-<span id="ref-9"></span>9. DelRosso LM, Bruni O, Ferri R. Iron deficiency and restless legs syndrome. *Sleep Medicine Clinics*. 2020;15(2):197–207.
-
-<span id="ref-10"></span>10. Garland EM, Celedonio JE, Raj SR. Postural tachycardia syndrome: beyond orthostatic intolerance. *Current Neurology and Neuroscience Reports*. 2015;15(9):60. PMID: 26198889.

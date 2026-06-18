@@ -32,13 +32,13 @@ In total: 2 (glycolysis) + 2 (Krebs) + ~34 (ETC) = ~38 ATP per glucose. The asse
 
 The evidence for mitochondrial dysfunction in ME/CFS is no longer circumstantial. It comes from multiple independent lines of investigation.
 
-**The PDH bottleneck.** Fluge, Mella, and colleagues at Haukeland University Hospital reported that ME/CFS patients show evidence of impaired pyruvate dehydrogenase function — the enzyme complex that converts pyruvate to acetyl-CoA, the gateway from glycolysis to the Krebs cycle [[1]](#ref-1). When PDH is inhibited, pyruvate can't enter the mitochondria efficiently. It backs up and is converted to lactate instead. The cell falls back on glycolysis — 2 ATP instead of 38. The same glucose, a twentieth of the energy.
+**The PDH bottleneck.** Fluge, Mella, and colleagues at Haukeland University Hospital reported that ME/CFS patients show evidence of impaired pyruvate dehydrogenase function — the enzyme complex that converts pyruvate to acetyl-CoA, the gateway from glycolysis to the Krebs cycle [@Fluge2016]. When PDH is inhibited, pyruvate can't enter the mitochondria efficiently. It backs up and is converted to lactate instead. The cell falls back on glycolysis — 2 ATP instead of 38. The same glucose, a twentieth of the energy.
 
-**The metabolic shift.** Metabolomics studies consistently show that ME/CFS patients have altered amino acid profiles, disrupted lipid metabolism, and patterns consistent with impaired mitochondrial fatty acid oxidation [[2]](#ref-2)[[3]](#ref-3). The picture is one of metabolic inflexibility: the machinery for burning fat (beta-oxidation) and for running the full Krebs cycle is underperforming, forcing greater reliance on the inefficient glycolytic pathway.
+**The metabolic shift.** Metabolomics studies consistently show that ME/CFS patients have altered amino acid profiles, disrupted lipid metabolism, and patterns consistent with impaired mitochondrial fatty acid oxidation [@Germain2017taurineME; @Naviaux2016metabolomics]. The picture is one of metabolic inflexibility: the machinery for burning fat (beta-oxidation) and for running the full Krebs cycle is underperforming, forcing greater reliance on the inefficient glycolytic pathway.
 
-**The CPET evidence.** Two-day cardiopulmonary exercise testing (CPET) provides the most direct window. On day 1, ME/CFS patients exercise to maximum capacity and show reduced peak oxygen consumption compared to sedentary controls — but this alone could be deconditioning. On day 2, 24 hours later, healthy controls reproduce their day-1 performance. ME/CFS patients cannot. Their ventilatory threshold drops, their peak VO2 drops, and they cross into anaerobic metabolism at lower workloads [[4]](#ref-4)[[5]](#ref-5). The system is objectively worse after a single bout of maximal exertion. This is the metabolic signature of PEM — post-exertional malaise written in oxygen consumption curves.
+**The CPET evidence.** Two-day cardiopulmonary exercise testing (CPET) provides the most direct window. On day 1, ME/CFS patients exercise to maximum capacity and show reduced peak oxygen consumption compared to sedentary controls — but this alone could be deconditioning. On day 2, 24 hours later, healthy controls reproduce their day-1 performance. ME/CFS patients cannot. Their ventilatory threshold drops, their peak VO2 drops, and they cross into anaerobic metabolism at lower workloads [@Snell2013CPET; @Stevens2018CPETmethod]. The system is objectively worse after a single bout of maximal exertion. This is the metabolic signature of PEM — post-exertional malaise written in oxygen consumption curves.
 
-**The lactate data.** ME/CFS patients show elevated venous lactate after exercise at intensities that do not produce significant lactate in controls [[6]](#ref-6). This means they are crossing their anaerobic threshold — the point at which glycolysis outpaces oxidative phosphorylation — at workloads that a healthy person handles aerobically. Walking to the kitchen can exceed the anaerobic threshold. The burning, the exhaustion, the multi-day recovery — these are not imagined symptoms. They are the subjective experience of lactic acidosis at rest-level activity.
+**The lactate data.** ME/CFS patients show elevated venous lactate after exercise at intensities that do not produce significant lactate in controls [@Jones2012lactate]. This means they are crossing their anaerobic threshold — the point at which glycolysis outpaces oxidative phosphorylation — at workloads that a healthy person handles aerobically. Walking to the kitchen can exceed the anaerobic threshold. The burning, the exhaustion, the multi-day recovery — these are not imagined symptoms. They are the subjective experience of lactic acidosis at rest-level activity.
 
 ---
 
@@ -76,22 +76,7 @@ This is not laziness, depression, or lack of willpower. It is measurable, reprod
 
 Your body recycles 50 kg of ATP daily. If that recycling rate drops by a third, you lose the energetic equivalent of everything above baseline survival. No vigorous movement. No sustained concentration. No immune surveillance beyond the minimum. No tissue repair beyond emergencies. Everything above keeping you alive gets cut.
 
-That is the energy envelope. Not a metaphor. Not a coping strategy. A metabolic constraint imposed by the output of compromised mitochondria, operating in cells that do their best with machinery that isn't working properly [[7]](#ref-7).
+That is the energy envelope. Not a metaphor. Not a coping strategy. A metabolic constraint imposed by the output of compromised mitochondria, operating in cells that do their best with machinery that isn't working properly [@Loth2026mecfs].
 
 ---
 
-## References
-
-<span id="ref-1"></span>1. Fluge Ø et al. Metabolic profiling indicates impaired pyruvate dehydrogenase function in myalgic encephalopathy/chronic fatigue syndrome. *JCI Insight*. 2016;1(21):e89376.
-
-<span id="ref-2"></span>2. Germain A et al. Metabolic profiling of a myalgic encephalomyelitis/chronic fatigue syndrome discovery cohort. *Mol Biosyst*. 2017;13(2):371-379.
-
-<span id="ref-3"></span>3. Naviaux RK et al. Metabolic features of chronic fatigue syndrome. *PNAS*. 2016;113(37):E5472-E5480.
-
-<span id="ref-4"></span>4. Snell CR et al. Discriminative validity of metabolic and workload measurements. *Physical Therapy*. 2013;93(11):1484-1492.
-
-<span id="ref-5"></span>5. Stevens S et al. Cardiopulmonary exercise test methodology for ME/CFS. *Medicine & Science in Sports & Exercise*. 2018;50(6):1089-1095.
-
-<span id="ref-6"></span>6. Jones DEJ et al. Loss of capacity to recover from acidosis on repeat exercise in CFS. *BMJ Open*. 2012;2(4):e001200.
-
-<span id="ref-7"></span>7. Loth Y. ME/CFS: Mechanisms, Management, and Research Frontiers. 2026. doi.org/10.5281/zenodo.19627450

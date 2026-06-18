@@ -16,9 +16,9 @@ That's the reality for many people with Myalgic Encephalomyelitis/Chronic Fatigu
 
 Blood volume deficits in ME/CFS are not subtle. They've been measured with gold-standard techniques — radiolabeled red blood cells and dual-isotope dilution — across multiple independent studies:
 
-- **Total blood volume**: 10-15% below predicted values [[1]](#ref-1) [[2]](#ref-2)
-- **Plasma volume** (the liquid portion): 21% lower in POTS patients — a condition overlapping with ME/CFS in ~60% of cases [[3]](#ref-3); 11 ml/kg below reference in ME/CFS patients [[4]](#ref-4)
-- **Red blood cell mass**: reduced in 94% of female and 50% of male ME/CFS patients [[2]](#ref-2)
+- **Total blood volume**: 10-15% below predicted values [@Newton2016] [@Streeten1998blood]
+- **Plasma volume** (the liquid portion): 21% lower in POTS patients — a condition overlapping with ME/CFS in ~60% of cases [@Raj2005]; 11 ml/kg below reference in ME/CFS patients [@vanCampen2018plasmaVolume]
+- **Red blood cell mass**: reduced in 94% of female and 50% of male ME/CFS patients [@Streeten1998blood]
 
 To put this in perspective: a blood donation takes about 10% of your blood volume. These patients are living, permanently, in a state comparable to having just donated blood — except their body never replenishes the deficit.
 
@@ -30,7 +30,7 @@ The connection between blood volume and energy is not complicated:
 
 **Less blood volume means less blood returning to the heart** (reduced venous return). **Less venous return means the heart fills less** with each beat (reduced preload). **Less preload means each heartbeat pumps less blood** (reduced stroke volume). **Less blood pumped means less oxygen reaching tissues.** Less oxygen means less ATP — the molecular fuel that powers everything you do.
 
-Cardiac MRI studies confirm this chain directly: ME/CFS patients have reduced left ventricular end-diastolic volume (the heart fills less) and reduced stroke volume (each beat pumps less), with strong correlations to measured blood volume [[1]](#ref-1). Crucially, these reductions are *disproportionate to inactivity level* — this is not deconditioning. The same study found no relationship between disease duration and cardiac volumes, ruling out gradual physical decline as the explanation.
+Cardiac MRI studies confirm this chain directly: ME/CFS patients have reduced left ventricular end-diastolic volume (the heart fills less) and reduced stroke volume (each beat pumps less), with strong correlations to measured blood volume [@Newton2016]. Crucially, these reductions are *disproportionate to inactivity level* — this is not deconditioning. The same study found no relationship between disease duration and cardiac volumes, ruling out gradual physical decline as the explanation.
 
 The brain sits at the end of this chain and has nowhere to borrow from. Cerebral blood flow can be reduced by up to 40% in ME/CFS, driven by low cardiac output, autonomic dysfunction, reduced blood volume, and impaired autoregulation acting together. Unlike other organs, the brain cannot meaningfully compensate — which is why patients report cognitive dysfunction ("brain fog") and difficulty concentrating, and why many feel noticeably sharper lying down, where improved venous return restores cerebral perfusion.
 
@@ -42,9 +42,9 @@ Here's where it gets strange. Your body has a well-tested system for detecting l
 
 In ME/CFS, this system is paradoxically suppressed.
 
-Miwa & Fujita [[5]](#ref-5) found that ME/CFS patients had 33% lower aldosterone and 33% lower antidiuretic hormone (ADH) than healthy controls — *despite* documented hypovolemia. The hormonal response was to retain *less* fluid, not more.
+Miwa & Fujita [@Miwa2017] found that ME/CFS patients had 33% lower aldosterone and 33% lower antidiuretic hormone (ADH) than healthy controls — *despite* documented hypovolemia. The hormonal response was to retain *less* fluid, not more.
 
-Raj et al. [[3]](#ref-3) found the same paradox in POTS patients (a condition overlapping with ME/CFS in about 60% of cases): blood volume was markedly reduced, but plasma renin activity was unchanged and aldosterone was low. The volume-sensing system was broken.
+Raj et al. [@Raj2005] found the same paradox in POTS patients (a condition overlapping with ME/CFS in about 60% of cases): blood volume was markedly reduced, but plasma renin activity was unchanged and aldosterone was low. The volume-sensing system was broken.
 
 The result is a self-perpetuating deficit. The body is low on blood, but the hormonal systems that should correct this are either suppressed or unresponsive. Why this happens — whether it's central nervous system dysregulation, autoimmune interference with hormone receptors, or something else — remains an open research question.
 
@@ -52,7 +52,7 @@ The result is a self-perpetuating deficit. The body is low on blood, but the hor
 
 ## Reduced quantity, compromised quality
 
-Even the blood that remains doesn't work optimally. Red blood cells in ME/CFS patients show reduced deformability [[6]](#ref-6) — they're stiffer and less able to squeeze through capillaries to deliver oxygen. This means that even if you could magically restore blood volume overnight, oxygen delivery would still be impaired at the tissue level.
+Even the blood that remains doesn't work optimally. Red blood cells in ME/CFS patients show reduced deformability [@Saha2019] — they're stiffer and less able to squeeze through capillaries to deliver oxygen. This means that even if you could magically restore blood volume overnight, oxygen delivery would still be impaired at the tissue level.
 
 On top of that, inflammatory cytokines (IL-6, TNF-alpha) — which are elevated in ME/CFS — suppress the production of new red blood cells (erythropoiesis) and sequester iron, creating a pattern resembling anemia of chronic disease. The blood is not just reduced in quantity; its quality is compromised.
 
@@ -79,7 +79,7 @@ Several approaches address the deficit directly, with varying mechanisms:
 
 These interventions help — but they're managing the deficit, not fixing the cause. So why are the volume-regulatory hormones suppressed?
 
-One leading theory points to autoantibodies — immune proteins that mistakenly target the body's own receptors. ME/CFS patients show elevated autoantibodies against G protein-coupled receptors (GPCRs), including angiotensin II AT1 receptors [[7]](#ref-7) [[8]](#ref-8) [[9]](#ref-9). The AT1 receptor is a key link in the RAAS chain: angiotensin II binds it to trigger aldosterone release. Autoantibodies interfering with this receptor would directly explain why the system fails to correct low blood volume — the signal gets through, but the receptor doesn't respond normally.
+One leading theory points to autoantibodies — immune proteins that mistakenly target the body's own receptors. ME/CFS patients show elevated autoantibodies against G protein-coupled receptors (GPCRs), including angiotensin II AT1 receptors [@Loebel2016] [@Sotzny2021] [@Bynke2020]. The AT1 receptor is a key link in the RAAS chain: angiotensin II binds it to trigger aldosterone release. Autoantibodies interfering with this receptor would directly explain why the system fails to correct low blood volume — the signal gets through, but the receptor doesn't respond normally.
 
 This is still a hypothesis, not established fact. But it's testable: three complementary approaches — immunoadsorption (filtering autoantibodies from blood), BC007 (a synthetic molecule that neutralizes them), and daratumumab (targeting the cells that produce them) — are in active clinical trials. If the autoantibody theory is correct, these treatments could fix the RAAS suppression at its source — restoring the body's ability to regulate its own blood volume.
 
@@ -99,22 +99,3 @@ This is arguably one of the most actionable findings in ME/CFS research: a measu
 
 Not all ME/CFS patients show the same degree of hypovolemia. Blood volume reduction may represent a subtype or a contributing factor rather than a universal mechanism. The numbers cited here come from studies with sample sizes of 14-42 patients — significant for ME/CFS research, but not large by general medical standards. And the relationship between blood volume and overall ME/CFS severity, while correlated, is not the complete picture — immune dysfunction, mitochondrial impairment, and neurological factors all contribute independently.
 
-## References
-
-<span id="ref-1"></span>1. Newton et al. (2016). Blood volume deficits and reduced cardiac dimensions in ME/CFS measured by dual-isotope dilution and cardiac MRI.
-
-<span id="ref-2"></span>2. Streeten & Bell (1998). Reduced red blood cell mass in ME/CFS patients.
-
-<span id="ref-3"></span>3. Raj et al. (2005). Plasma volume deficits and suppressed renin-aldosterone in POTS. *Circulation*.
-
-<span id="ref-4"></span>4. van Campen et al. (2018). Plasma volume reduction in ME/CFS patients measured by dual-isotope dilution.
-
-<span id="ref-5"></span>5. Miwa & Fujita (2017). Suppressed aldosterone and antidiuretic hormone in hypovolemic ME/CFS patients.
-
-<span id="ref-6"></span>6. Saha et al. (2019). Reduced red blood cell deformability in ME/CFS.
-
-<span id="ref-7"></span>7. Loebel et al. (2016). Elevated GPCR autoantibodies, including AT1 receptor, in ME/CFS.
-
-<span id="ref-8"></span>8. Sotzny et al. (2021). Elevated GPCR autoantibodies, including AT1 receptor, in ME/CFS.
-
-<span id="ref-9"></span>9. Bynke et al. (2020). AT1 receptor autoantibodies in ME/CFS.

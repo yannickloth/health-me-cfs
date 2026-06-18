@@ -32,7 +32,7 @@ Third, reference ranges treat each analyte in isolation. A ferritin of 30 in som
 
 Iron is the starkest example. There is now substantial evidence that iron deficiency causes fatigue, cognitive dysfunction, and exercise intolerance at ferritin levels well above the standard anaemia cutoff.
 
-[[1]](#ref-1) demonstrated in a randomised controlled trial that intravenous iron improved fatigue in non-anaemic women with ferritin below 50 ng/mL — women whose lab results were "normal" by conventional criteria. [[2]](#ref-2) showed that fatigue severity correlated with ferritin levels below 100, not below 15. The WHO defines iron deficiency as ferritin below 15. Your cells define it as "not enough for what I need," which for mitochondrial enzymes is considerably higher.
+[@Vaucher2012] demonstrated in a randomised controlled trial that intravenous iron improved fatigue in non-anaemic women with ferritin below 50 ng/mL — women whose lab results were "normal" by conventional criteria. [@Krayenbuehl2011] showed that fatigue severity correlated with ferritin levels below 100, not below 15. The WHO defines iron deficiency as ferritin below 15. Your cells define it as "not enough for what I need," which for mitochondrial enzymes is considerably higher.
 
 The gap between these thresholds — the 15-year gap between functional iron depletion and an abnormal lab flag — is the space in which patients live with treatable fatigue and are told they're fine. For ME/CFS patients, whose energy production capacity is already compromised by other mechanisms, a ferritin of 25 isn't a minor sub-optimality. It's another weight on a system already at its limit.
 
@@ -60,9 +60,9 @@ For ME/CFS patients, where methylation dysfunction is documented and where neuro
 
 ## Vitamin D: where "sufficient" was negotiated, not discovered
 
-The threshold for vitamin D sufficiency — 30 ng/mL (75 nmol/L) in most labs — was set to prevent rickets and osteomalacia. It was never set to optimise immune function, mitochondrial biogenesis, or inflammatory modulation [[4]](#ref-4). These effects require higher levels, and the evidence for benefit continues up to at least 50-60 ng/mL.
+The threshold for vitamin D sufficiency — 30 ng/mL (75 nmol/L) in most labs — was set to prevent rickets and osteomalacia. It was never set to optimise immune function, mitochondrial biogenesis, or inflammatory modulation [@Holick2007vitaminD]. These effects require higher levels, and the evidence for benefit continues up to at least 50-60 ng/mL.
 
-A patient with 32 ng/mL has a "normal" vitamin D level. They also have a level at which immune regulatory T-cell function is sub-optimal [[3]](#ref-3), where vitamin D receptor-mediated gene transcription in immune cells is not fully activated, and where the anti-inflammatory effects of vitamin D on the NLRP3 inflammasome are incomplete.
+A patient with 32 ng/mL has a "normal" vitamin D level. They also have a level at which immune regulatory T-cell function is sub-optimal [@Bscheider2016vitaminD], where vitamin D receptor-mediated gene transcription in immune cells is not fully activated, and where the anti-inflammatory effects of vitamin D on the NLRP3 inflammasome are incomplete.
 
 For a patient with ME/CFS, where immune dysregulation and chronic inflammation are central pathophysiology, a vitamin D of 32 is not sufficient. It is above the threshold for bone disease. It is below the threshold for immune optimisation. And the lab report says "normal."
 
@@ -98,18 +98,7 @@ The tests to order beyond standard panels are not exotic:
 
 None of these costs more than a few hundred euros. All of them identify treatable contributors to fatigue that standard panels miss.
 
-When a chronically ill patient's blood tests come back "normal," the clinical response should not be "good news, nothing wrong." It should be: "nothing abnormal by reference range — but let's look at whether these levels are adequate for what your body actually needs [[5]](#ref-5)."
+When a chronically ill patient's blood tests come back "normal," the clinical response should not be "good news, nothing wrong." It should be: "nothing abnormal by reference range — but let's look at whether these levels are adequate for what your body actually needs [@Loth2026mecfs]."
 
 ---
 
-## References
-
-<span id="ref-1"></span>1. Vaucher P et al. (2012). Effect of iron supplementation on fatigue in nonanemic menstruating women with low ferritin. *CMAJ*. 184(11):1247-1254.
-
-<span id="ref-2"></span>2. Krayenbuehl PA et al. (2011). Intravenous iron for the treatment of fatigue in nonanemic, premenopausal women with low serum ferritin concentration. *Blood*. 118(12):3222-3227.
-
-<span id="ref-3"></span>3. Bscheider M, Butcher EC. (2016). Vitamin D immunoregulation through dendritic cells. *Eur J Immunol*. 46(4):856-865.
-
-<span id="ref-4"></span>4. Holick MF. (2007). Vitamin D deficiency. *N Engl J Med*. 357(3):266-281.
-
-<span id="ref-5"></span>5. Loth Y. (2026). ME/CFS: Mechanisms, Management, and Research Frontiers. doi.org/10.5281/zenodo.19627450

@@ -30,7 +30,7 @@ This misdiagnosis is documented. It has specific, serious consequences.
 
 Nutritional support — including tube feeding — is withheld while teams pursue psychiatric explanations. Standard eating disorder treatments are applied: behavioral activation, graded exposure to feared foods, motivational enhancement targeting the "refusal" to eat. These interventions assume the patient's restriction is volitional and that the solution is psychological. When the restriction is organic, they fail. Worse: behavioral activation risks triggering post-exertional malaise in a patient who is already severely ill.
 
-In 2021, Baxter, Speight, and Weir published a case series in *Healthcare* documenting five patients with very severe ME/CFS who became life-threateningly malnourished [[1]](#ref-1). In every case, the delay was caused by clinician hesitation — teams "postulating psychological theories" rather than addressing a primary medical need. The consequences included neurological damage, osteoporosis, cardiac complications, poor wound healing.
+In 2021, Baxter, Speight, and Weir published a case series in *Healthcare* documenting five patients with very severe ME/CFS who became life-threateningly malnourished [@Baxter2021malnutrition]. In every case, the delay was caused by clinician hesitation — teams "postulating psychological theories" rather than addressing a primary medical need. The consequences included neurological damage, osteoporosis, cardiac complications, poor wound healing.
 
 The distinguishing features that should prevent this misdiagnosis are clear once you know to look for them. A patient with ME/CFS-driven eating difficulty is *distressed* by her inability to eat. She wants to eat normally. She does not have body image distortion. Her weight loss is not desired — it is lamented. Her eating difficulty tracks her disease severity, worsening during flares and improving when the disease improves. She has objective signs of ME/CFS: orthostatic intolerance on tilt testing, post-exertional malaise documented over days, the specific signature of this disease.
 
@@ -90,6 +90,3 @@ Neither assumption is appropriate, and both miss the underlying biology.
 
 The food problem in ME/CFS is a metabolic, immunological, and neurological problem — wearing the clothes of something more familiar and more convenient to dismiss.
 
-## References
-
-<span id="ref-1"></span>1. Baxter, Speight, and Weir (2021). *Healthcare*. Case series of five patients with very severe ME/CFS who became life-threateningly malnourished due to clinician hesitation postulating psychological theories.

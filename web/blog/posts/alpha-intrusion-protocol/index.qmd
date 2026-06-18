@@ -14,19 +14,19 @@ People tell you to get better sleep. The issue isn't sleep duration—it's sleep
 
 ## Alpha-delta intrusion
 
-Alpha waves (8-12 Hz) belong when you're awake. Delta waves (0.5-4 Hz) should be running the show during deep sleep. In ME/CFS, they get mixed together—alpha waves keep popping into deep sleep stages, so your brain never gets the pure delta oscillations that actually restore you [[1]](#ref-1)[[2]](#ref-2).
+Alpha waves (8-12 Hz) belong when you're awake. Delta waves (0.5-4 Hz) should be running the show during deep sleep. In ME/CFS, they get mixed together—alpha waves keep popping into deep sleep stages, so your brain never gets the pure delta oscillations that actually restore you [@Moldofsky1975alphaDeltaSleep; @Roizenblatt2001alphaFM].
 
-Your brain has a waste-clearance system called the glymphatic system [[3]](#ref-3)[[4]](#ref-4). During proper deep sleep, the spaces between brain cells open up 60%, letting cerebrospinal fluid wash out metabolic waste, inflammatory proteins, and toxic byproducts. Alpha intrusion stops this from happening. The waste piles up. You wake up feeling like you've been poisoned.
+Your brain has a waste-clearance system called the glymphatic system [@Xie2013glymphatic; @NematGorgani2025GlymphaticMECFS]. During proper deep sleep, the spaces between brain cells open up 60%, letting cerebrospinal fluid wash out metabolic waste, inflammatory proteins, and toxic byproducts. Alpha intrusion stops this from happening. The waste piles up. You wake up feeling like you've been poisoned.
 
 ---
 
 ## Sleep pressure doesn't build up properly
 
-Sleep pressure is your brain's "need sleep" signal. A chemical called adenosine builds up throughout the day. When levels get high enough, they trigger deep, restorative sleep [[5]](#ref-5).
+Sleep pressure is your brain's "need sleep" signal. A chemical called adenosine builds up throughout the day. When levels get high enough, they trigger deep, restorative sleep [@Reichert2022adenosine].
 
 Research shows ME/CFS patients have reduced sleep pressure—the adenosine system doesn't build up properly. Even when you're exhausted, your brain doesn't get the strong signal it needs for deep sleep. You're tired, but your brain won't go into the deep sleep that helps.
 
-The thalamus—your brain's sleep wave generator—may be dysfunctional. T-type calcium channels (CaV3.1) create the delta oscillations that drive deep sleep [[8]](#ref-8). Research from fibromyalgia suggests neuroinflammation, oxidative stress, or channelopathy can shift the balance of ionic currents in the thalamus, turning delta oscillations into alpha-delta patterns [[7]](#ref-7). This might be happening in ME/CFS too.
+The thalamus—your brain's sleep wave generator—may be dysfunctional. T-type calcium channels (CaV3.1) create the delta oscillations that drive deep sleep [@Crunelli2006thalamicTtype]. Research from fibromyalgia suggests neuroinflammation, oxidative stress, or channelopathy can shift the balance of ionic currents in the thalamus, turning delta oscillations into alpha-delta patterns [@Vijayan2015alphaDelta]. This might be happening in ME/CFS too.
 
 ---
 
@@ -50,7 +50,7 @@ Standard sleep restriction therapy has people spend less time in bed than they n
 
 ### Nap timing and duration
 
-Napping in ME/CFS is complicated. Rest is essential for energy management, but naps can disrupt night-time sleep architecture. Napping predicts worse cognitive outcomes—because alpha-delta intrusion operates during daytime naps too [[10]](#ref-10).
+Napping in ME/CFS is complicated. Rest is essential for energy management, but naps can disrupt night-time sleep architecture. Napping predicts worse cognitive outcomes—because alpha-delta intrusion operates during daytime naps too [@Gotts2015napCFS].
 
 Keep naps under 20 minutes to avoid entering deep sleep stages where alpha-delta intrusion occurs. Longer naps (60+ minutes) increase the risk of entering N3, where alpha waves can intrude and prevent restorative sleep.
 
@@ -72,7 +72,7 @@ Consistent wake times strengthen circadian rhythms and improve sleep pressure. W
 
 ### Hyperarousal during sleep
 
-Alpha-delta sleep correlates with anxiety levels in ME/CFS—not the disease itself, but anxiety as a separate condition [[6]](#ref-6). Psychological factors, particularly hyperarousal, may contribute to alpha wave intrusions by keeping wake-like cortical activity going during sleep.
+Alpha-delta sleep correlates with anxiety levels in ME/CFS—not the disease itself, but anxiety as a separate condition [@Buysse2015alphaDeltaCFS]. Psychological factors, particularly hyperarousal, may contribute to alpha wave intrusions by keeping wake-like cortical activity going during sleep.
 
 Pre-sleep wind-down involves 30-60 minutes of low-stimulation activities before bedtime. No screens, no work, no emotionally engaging content, no problem-solving discussions.
 
@@ -96,7 +96,7 @@ Complete caffeine avoidance takes commitment, but it's worth it. Caffeine blocks
 
 ### Movement considerations
 
-Exercise increases slow-wave sleep in healthy populations [[9]](#ref-9). But ME/CFS patients have post-exertional malaise—exertion beyond the energy envelope causes symptom exacerbation lasting days to weeks.
+Exercise increases slow-wave sleep in healthy populations [@Kredlow2015exerciseSleep]. But ME/CFS patients have post-exertional malaise—exertion beyond the energy envelope causes symptom exacerbation lasting days to weeks.
 
 If tolerated, low-intensity recumbent exercise (recumbent cycling, gentle stretching) performed at least 4 hours before bedtime may improve sleep architecture without triggering PEM. Patients should not pursue exercise for sleep benefits if it worsens baseline function.
 
@@ -138,24 +138,3 @@ Alpha waves intrude into deep sleep stages in ME/CFS. The protocol focuses on be
 
 ---
 
-## References
-
-<span id="ref-1"></span>1. Moldofsky et al. 1975. "Muscle pain, fibromyalgia, and sleep." *Psychosomatic Medicine*. DOI: 10.1097/00006842-197511000-00004
-
-<span id="ref-2"></span>2. Roizenblatt et al. 2001. "Alpha sleep anomaly in fibromyalgia." *Arthritis & Rheumatism*. DOI: 10.1002/1529-0131(200104)44:1<222::AID-ANR171>3.0.CO;2
-
-<span id="ref-3"></span>3. Xie et al. 2013. "Sleep drives metabolite clearance from the adult brain." *Science*. DOI: 10.1126/science.1241224
-
-<span id="ref-4"></span>4. NematGorgani et al. 2025. "Glymphatic clearance coupling to sleep oscillations in health and disease." *Nature Reviews Neuroscience*. DOI: 10.1038/s41583-025-00901-2
-
-<span id="ref-5"></span>5. Reichert et al. 2022. "Adenosine signaling in sleep homeostasis." *Trends in Neurosciences*. DOI: 10.1016/j.tins.2022.03.004
-
-<span id="ref-6"></span>6. Buysse et al. 2015. "Alpha-delta sleep in chronic fatigue syndrome: correlation with anxiety." *Journal of Psychosomatic Research*. DOI: 10.1016/j.jpsychores.2014.12.008
-
-<span id="ref-7"></span>7. Vijayan et al. 2015. "A thalamocortical mechanism for the generation of alpha-delta sleep." *Journal of Neuroscience*. DOI: 10.1523/JNEUROSCI.3184-15.2015
-
-<span id="ref-8"></span>8. Crunelli et al. 2006. "Thalamic T-type Ca2+ channels and NREM sleep." *Nature Neuroscience*. DOI: 10.1038/nn1751
-
-<span id="ref-9"></span>9. Kredlow et al. 2015. "The effects of physical activity on sleep." *Sleep Medicine Reviews*. DOI: 10.1016/j.smrv.2015.06.002
-
-<span id="ref-10"></span>10. Gotts et al. 2015. "Napping and cognitive performance in chronic fatigue syndrome." *Journal of Psychosomatic Research*. DOI: 10.1016/j.jpsychores.2014.09.013

@@ -39,7 +39,7 @@ A physician who deeply understands thalamo-cortical hyperexcitability can recogn
 
 Consider a patient who has a polysomnography. It shows alpha-wave intrusion in deep sleep (N3) — a pattern in which waking brain activity contaminates slow-wave sleep, preventing restorative function. The quantity of N3 is normal. The quality is not.
 
-This pattern has been documented in fibromyalgia research since 1975 [[1]](#ref-1). The mechanism is reasonably well understood: abnormal thalamo-cortical excitability causes the oscillation frequency to remain in the alpha range (~10 Hz) instead of transitioning to delta (~1 Hz). The result is sleep that looks adequate by duration but fails at the cellular level — glymphatic clearance doesn't happen, metabolic waste accumulates, the brain wakes exhausted.
+This pattern has been documented in fibromyalgia research since 1975 [@Moldofsky1975alphaDeltaSleep]. The mechanism is reasonably well understood: abnormal thalamo-cortical excitability causes the oscillation frequency to remain in the alpha range (~10 Hz) instead of transitioning to delta (~1 Hz). The result is sleep that looks adequate by duration but fails at the cellular level — glymphatic clearance doesn't happen, metabolic waste accumulates, the brain wakes exhausted.
 
 Gabapentin acts on this mechanism directly, via calcium channel modulation in the thalamus.
 
@@ -99,6 +99,3 @@ What's missing is the architecture that connects them.
 
 *Part of an ongoing series on the biology of ME/CFS and what it reveals about medical systems.*
 
-## References
-
-<span id="ref-1"></span>1. Moldofsky H, Scarisbrick P, England R, Smythe H. Musculoskeletal symptoms and non-REM sleep disturbance in patients with "fibrositis" syndrome and healthy subjects. *Psychosomatic Medicine*. 1975;37(4):341-351.

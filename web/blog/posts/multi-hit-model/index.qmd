@@ -50,7 +50,7 @@ The same caveat applies to the threshold values: the autoantibody threshold of 0
 
 ## What the Dubbo studies showed
 
-This explains a pattern that has been documented but incompletely understood. ME/CFS onset is most commonly triggered by infections, but only a small fraction of infected individuals develop ME/CFS [[1]](#ref-1)[[2]](#ref-2). Prospective cohort studies — the Dubbo infection studies being the clearest — followed individuals through acute infectious illness and tracked who developed post-infectious fatigue syndromes. The picture is mixed: acute illness severity was the strongest single predictor in Dubbo [[1]](#ref-1), suggesting the infection's intensity also matters, not only the baseline. But risk factors associated with conversion included the prior health state as well: pre-existing fatigue, prior stress events, other vulnerabilities. The multi-hit framework is consistent with both: acute severity determines the size of the perturbation; baseline position determines how much perturbation is needed [Ch. 33 §Multi-Hit Framework — Epidemiological Implication].
+This explains a pattern that has been documented but incompletely understood. ME/CFS onset is most commonly triggered by infections, but only a small fraction of infected individuals develop ME/CFS [@Hickie2006postinfectious; @Chu2019onsetPatterns]. Prospective cohort studies — the Dubbo infection studies being the clearest — followed individuals through acute infectious illness and tracked who developed post-infectious fatigue syndromes. The picture is mixed: acute illness severity was the strongest single predictor in Dubbo [@Hickie2006postinfectious], suggesting the infection's intensity also matters, not only the baseline. But risk factors associated with conversion included the prior health state as well: pre-existing fatigue, prior stress events, other vulnerabilities. The multi-hit framework is consistent with both: acute severity determines the size of the perturbation; baseline position determines how much perturbation is needed [Ch. 33 §Multi-Hit Framework — Epidemiological Implication].
 
 The model's explanation — and it is an explanation, not an established mechanism — is that those who develop ME/CFS correspond to the fraction of the exposed population whose pre-existing sub-threshold perturbations place them in the multi-hit regime, close enough to the separatrix that the infection provides the final push.
 
@@ -80,11 +80,6 @@ Certainty: 0.35–0.45. The multi-hit principle is well-supported by epidemiolog
 
 ---
 
-## References
-
-<span id="ref-1"></span>1. Hickie et al. (2006). *Dubbo infection cohort study*. Prospective cohort study of post-infectious fatigue syndromes; acute illness severity was the strongest single predictor of ME/CFS conversion.
-
-<span id="ref-2"></span>2. Chu et al. (2019). ME/CFS onset after infection.
 
 *Previous article in this series: [Load-Bearing Walls vs. Interior Walls](https://www.linkedin.com/pulse/) (2026-04-13)*
 
