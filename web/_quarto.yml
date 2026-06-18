@@ -5,11 +5,14 @@ bibliography:
   - references.bib
 
 website:
+  site-url: "https://yannickloth.github.io/health-me-cfs/"
   title: "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome"
   navbar:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "Blog"
+        href: blog/index.qmd
     right:
       - text: "Download PDF"
         href: loth2026-mecfs.pdf
