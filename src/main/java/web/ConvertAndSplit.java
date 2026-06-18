@@ -61,6 +61,7 @@ void main(String[] args) throws IOException {
     src = encloseEnv(src, "recommendation","note",   "Recommendation");
     src = encloseEnv(src, "proposal",      "note",   "Proposal");
     src = encloseEnv(src, "prediction",    "note",   "Prediction");
+    src = encloseEnv(src, "key-point",     "tip",    "Key Point");
 
     // #chapter-abstract[...]
     src = src.replaceAll("#chapter-abstract\\[", "::: {.callout-note}\n### Chapter Abstract\n\n");
