@@ -83,6 +83,12 @@
             # Generate .qmd files and figures
             java --source 25 src/main/java/web/BuildWeb.java
 
+            # Split references.bib into per-part .bib files for Quarto
+            java --source 25 src/main/java/web/SplitBib.java
+
+            # Verify no orphaned labels in generated .qmd files
+            java --source 25 src/test/java/web/QmdLabelAuditTest.java
+
             # Render HTML
             quarto render web --to html
           '';
@@ -107,6 +113,16 @@
             mkdir -p "$HOME"
 
             java --source 25 src/main/java/web/BuildWeb.java
+
+            # Split references.bib into per-part .bib files for Quarto
+            java --source 25 src/main/java/web/SplitBib.java
+
+            # Verify no orphaned labels in generated .qmd files
+            java --source 25 src/test/java/web/QmdLabelAuditTest.java
+
+            # Verify all Typst environments survive conversion
+            java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
+
             quarto render web --to html
 
             typst compile \
@@ -137,6 +153,23 @@
             phases = [ "unpackPhase" "buildPhase" "installPhase" ];
             buildPhase = ''
               java --source 25 src/test/java/web/SectionAuditTest.java
+            '';
+            installPhase = ''
+              mkdir -p $out
+              echo "PASS" > $out/result
+            '';
+          };
+          qmd-label-audit = pkgs.stdenvNoCC.mkDerivation {
+            name = "mecfs-qmd-label-audit";
+            src = cleanSrc;
+            buildInputs = [ pkgs.jdk25 pkgs.typst ];
+            phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+            buildPhase = ''
+              export HOME="$NIX_BUILD_TOP/home"
+              mkdir -p "$HOME"
+              java --source 25 src/main/java/web/BuildWeb.java
+              java --source 25 src/test/java/web/QmdLabelAuditTest.java
+              java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
             '';
             installPhase = ''
               mkdir -p $out
