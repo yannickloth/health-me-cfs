@@ -35,10 +35,8 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("(?<!`|\"|\\w)_([^_\\s](?:[^_]*[^_\\s])?)_(?!\\w|\"|`)", "*$1*");
 
     // Citations: @key but NOT internal cross-ref prefixes
-    // Native Quarto cross-ref prefixes: keep as @prefix-key
-    src = src.replaceAll("@(sec|subsec|subsubsec|fig|tab|eq)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
-    // Non-native cross-ref prefixes: convert to HTML anchor links
-    src = src.replaceAll("@(ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open)(:|_|-)([a-zA-Z0-9_-]+)", "[#$1-$3](#$1-$3)");
+    // All cross-ref prefixes → HTML anchor links (website project, not book — native @sec- doesn't resolve cross-file)
+    src = src.replaceAll("@(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open)(:|_|-)([a-zA-Z0-9_-]+)", "[#$1-$3](#$1-$3)");
     // Only convert actual BibTeX citation keys: @AuthorYear(suffix)
     src = src.replaceAll("@([A-Z][A-Za-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
     src = src.replaceAll("@([a-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
@@ -294,39 +292,39 @@ void main(String[] args) throws IOException {
                 raw = "$$" + raw.strip().substring(1, raw.strip().length() - 1) + "$$";
             }
 
-            // Handle <label> on its own line — attach to nearest heading (before or after),
-            // or emit as invisible HTML anchor if no heading is adjacent.
             if (raw.strip().matches("^<[a-zA-Z][\\w:\\.-]*>$")) {
-                var label = raw.strip()
+                var labelRaw = raw.strip();
+                var label = labelRaw
                     .replaceFirst("^<", "{#")
                     .replaceFirst(">$", "}")
                     .replaceFirst(":", "-");
-                var buf = sb.toString();
-                // Find last heading line in sb (skip blank lines between heading and label)
-                var linesInBuf = buf.split("\n", -1);
-                int headingIdx = -1;
-                for (int li = linesInBuf.length - 1; li >= 0; li--) {
-                    if (linesInBuf[li].isBlank()) continue;
-                    if (linesInBuf[li].strip().matches("^#{1,6}\\s+.+")) headingIdx = li;
-                    break;
-                }
-                if (headingIdx >= 0) {
-                    // Append label to the heading line, rebuild buffer
-                    linesInBuf[headingIdx] = linesInBuf[headingIdx] + " " + label;
-                    sb.setLength(0);
-                    for (int li = 0; li < linesInBuf.length; li++) {
-                        sb.append(linesInBuf[li]);
-                        if (li < linesInBuf.length - 1) sb.append('\n');
+                boolean isHeadingLabel = labelRaw.matches("^<(sec|subsec|subsubsec):[^>]+>$");
+                if (isHeadingLabel) {
+                    var buf = sb.toString();
+                    var linesInBuf = buf.split("\n", -1);
+                    int headingIdx = -1;
+                    for (int li = linesInBuf.length - 1; li >= 0; li--) {
+                        if (linesInBuf[li].isBlank()) continue;
+                        if (linesInBuf[li].strip().matches("^#{1,6}\\s+.+")) headingIdx = li;
+                        break;
+                    }
+                    if (headingIdx >= 0) {
+                        linesInBuf[headingIdx] = linesInBuf[headingIdx] + " " + label;
+                        sb.setLength(0);
+                        for (int li = 0; li < linesInBuf.length; li++) {
+                            sb.append(linesInBuf[li]);
+                            if (li < linesInBuf.length - 1) sb.append('\n');
+                        }
+                    } else {
+                        pendingLabel = label;
                     }
                 } else {
-                    // No heading above — set as pending for the next heading,
-                    // or emit as invisible HTML anchor if next line is not a heading
-                    pendingLabel = label;
+                    var anchorId = label.replaceFirst("^\\{#", "").replaceFirst("\\}$", "");
+                    sb.append("<span id=\"").append(anchorId).append("\"></span>\n");
                 }
                 continue;
             }
 
-            // Attach pending label: to a heading if this line is one, else emit as HTML anchor
             if (pendingLabel != null && !stripped.isEmpty()) {
                 if (raw.strip().matches("^#{1,6}\\s+.+")) {
                     raw = raw + " " + pendingLabel;
@@ -338,13 +336,9 @@ void main(String[] args) throws IOException {
                 }
             }
 
-            // Convert bare cross-ref labels: sec:xyz → @sec-xyz (native Quarto crossref)
-            // Must NOT be inside angle brackets (<sec:xyz> — those get {#sec-xyz} later)
-            raw = raw.replaceAll("(?<!<)\\b(sec|subsec|subsubsec|fig|tab|eq):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "@$1-$2$3");
-            raw = raw.replaceAll("(?<!<)\\b(sec|subsec|subsubsec|fig|tab|eq):([a-zA-Z0-9_-]+)$", "@$1-$2");
-            // Non-native cross-ref prefixes: convert to HTML anchor links
-            raw = raw.replaceAll("(?<!<)\\b(ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "[#$1-$2](#$1-$2)$3");
-            raw = raw.replaceAll("(?<!<)\\b(ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)$", "[#$1-$2](#$1-$2)");
+            // Convert bare cross-ref labels to HTML anchor links (website project — no native cross-file resolution)
+            raw = raw.replaceAll("(?<!<)\\b(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "[#$1-$2](#$1-$2)$3");
+            raw = raw.replaceAll("(?<!<)\\b(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)$", "[#$1-$2](#$1-$2)");
 
             // Convert inline labels: <sec:xyz> → {#sec-xyz}
             // Also handle bare labels (after @ stripped): sec:xyz → {#sec-xyz}
