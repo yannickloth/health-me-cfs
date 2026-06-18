@@ -21,6 +21,9 @@ void main(String[] args) throws IOException {
     // --- Step 1: Pre-process — convert Typst constructs to Pandoc Markdown ---
     src = src.replaceAll("(?m)^#import.*$\\n?", "");
     src = src.replaceAll("(?m)^//.*$\\n?", "");
+    src = src.replaceAll("(?m)^#let\\b.*$\\n?", "");
+    src = src.replaceAll("(?m)^#set\\b.*$\\n?", "");
+    src = src.replaceAll("(?m)^#show\\b.*$\\n?", "");
     // Strip bare figure path lines (broken includes left from Typst source refactoring)
     src = src.replaceAll("(?m)^[/.]+figures/fig-[^\"]*\\.typ\"?\\s*$\\n?", "");
     // Convert figure includes: #include "../figures/fig-xxx.typ" → ![Figure](figures/fig-xxx.svg)
@@ -34,7 +37,7 @@ void main(String[] args) throws IOException {
     // Citations: @key but NOT internal cross-ref prefixes
     // Cross-references with @: convert to Quarto crossref syntax @sec-xyz
     // Cross-references with @: convert to Quarto crossref syntax @sec-xyz
-    src = src.replaceAll("@(ch|sec|subsec|subsubsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
+    src = src.replaceAll("@(ch|sec|subsec|subsubsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
     // Only convert actual BibTeX citation keys: @AuthorYear(suffix)
     src = src.replaceAll("@([A-Z][A-Za-z]+\\d{4}[a-zA-Z0-9]*)", "[@$1]");
     src = src.replaceAll("@([a-z]+\\d{4}[a-zA-Z0-9]*)", "[@$1]");
@@ -45,6 +48,10 @@ void main(String[] args) throws IOException {
     src = removeFigureTable(src);
     // Strip #table(...) blocks — use bracket counting like removeFigureTable
     src = removeTableBlocks(src);
+    // Strip remaining #figure(...) calls (non-table layout wrappers)
+    src = src.replaceAll("#figure\\(", "");
+    // Strip #pad(...) layout calls
+    src = src.replaceAll("#pad\\([^)]*\\)\\[", "");
     // Strip remaining stray )) from #align(center, ...) calls
     src = src.replaceAll("#align\\(center,\\s*", "");
     src = src.replaceAll("#align\\(\\s*", "");
@@ -149,7 +156,8 @@ void main(String[] args) throws IOException {
             continue;
         }
         if (inPreamble) {
-            if (!stripped.isEmpty() && !stripped.startsWith("<ch:")) preamble.add(line);
+            if (!stripped.isEmpty() && !stripped.startsWith("<ch:")
+                    && !stripped.matches("^<[a-z]+:[^>]+>$")) preamble.add(line);
         } else {
             if (stripped.matches("^<(sec|subsec|subsubsec):[^>]+>$") && secLabel.isEmpty()) {
                 secLabel = stripped;
@@ -317,8 +325,8 @@ void main(String[] args) throws IOException {
 
             // Convert bare cross-ref labels: sec:xyz → @sec-xyz (Quarto crossref)
             // Must NOT be inside angle brackets (<sec:xyz> — those get {#sec-xyz} later)
-            raw = raw.replaceAll("(?<!<)\\b(sec|ch|subsec|subsubsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "@$1-$2$3");
-            raw = raw.replaceAll("(?<!<)\\b(sec|ch|subsec|subsubsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par):([a-zA-Z0-9_-]+)$", "@$1-$2");
+            raw = raw.replaceAll("(?<!<)\\b(sec|ch|subsec|subsubsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "@$1-$2$3");
+            raw = raw.replaceAll("(?<!<)\\b(sec|ch|subsec|subsubsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)$", "@$1-$2");
 
             // Convert inline labels: <sec:xyz> → {#sec-xyz}
             // Also handle bare labels (after @ stripped): sec:xyz → {#sec-xyz}
@@ -343,6 +351,13 @@ void main(String[] args) throws IOException {
             raw = raw.replaceAll("<prot:", "{#prot-");
             raw = raw.replaceAll("<par:", "{#par-");
             raw = raw.replaceAll("<app:", "{#app-");
+            raw = raw.replaceAll("<def:", "{#def-");
+            raw = raw.replaceAll("<req:", "{#req-");
+            raw = raw.replaceAll("<protocol:", "{#protocol-");
+            raw = raw.replaceAll("<rem:", "{#rem-");
+            raw = raw.replaceAll("<cont:", "{#cont-");
+            raw = raw.replaceAll("<cf:", "{#cf-");
+            raw = raw.replaceAll("<open:", "{#open-");
             // Close trailing > on inline label conversions
             raw = raw.replaceAll("(\\{[#][a-zA-Z][\\w:\\.-]*?)>", "$1}");
 
@@ -354,7 +369,17 @@ void main(String[] args) throws IOException {
             sb.append(raw).append('\n');
         }
 
-        writeString(path, sb.toString());
+        var output = sb.toString();
+        int openCallouts = 0;
+        for (var l : output.split("\n")) {
+            if (l.strip().startsWith("::: {")) openCallouts++;
+            else if (l.strip().equals(":::")) openCallouts--;
+        }
+        for (int c = 0; c < openCallouts; c++) {
+            output += ":::\n";
+        }
+
+        writeString(path, output);
         System.out.println("  " + fname + " (" + sec.body().size() + " lines)");
         secNum++;
     }
@@ -479,11 +504,25 @@ String removeFigureTable(String s) {
         int pos = s.indexOf("#figure(", i);
         if (pos < 0) { sb.append(s.substring(i)); break; }
         sb.append(s, i, pos);
-        // Check if next non-whitespace token is 'table'
-        int afterParen = pos + 8; // after "#figure("
+        // Check if 'table' appears as an argument (possibly after keyword args like placement:)
+        int afterParen = pos + 8;
         while (afterParen < s.length() && Character.isWhitespace(s.charAt(afterParen))) afterParen++;
         boolean isTable = s.regionMatches(afterParen, "table", 0, 5)
             && (afterParen + 5 >= s.length() || !Character.isLetterOrDigit(s.charAt(afterParen + 5)));
+        if (!isTable) {
+            int searchEnd = Math.min(s.length(), pos + 200);
+            for (int k = afterParen; k < searchEnd; k++) {
+                if (s.charAt(k) == ',' || s.charAt(k) == '\n') {
+                    int next = k + 1;
+                    while (next < searchEnd && Character.isWhitespace(s.charAt(next))) next++;
+                    if (s.regionMatches(next, "table", 0, 5)
+                        && (next + 5 >= s.length() || !Character.isLetterOrDigit(s.charAt(next + 5)))) {
+                        isTable = true;
+                        break;
+                    }
+                }
+            }
+        }
         if (!isTable) {
             sb.append("#figure(");
             i = pos + 8;
