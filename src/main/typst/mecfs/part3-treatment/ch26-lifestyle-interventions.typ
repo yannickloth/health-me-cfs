@@ -898,6 +898,238 @@ Daily NMES (30 minutes quadriceps, 5 days/week) may prevent this metabolic decli
 _Falsified if_ daily NMES (30 minutes quadriceps, 5 days/week × 12 weeks) does not preserve POCUS-measured rectus femoris cross-sectional area (primary endpoint: less than 5% decline from baseline) in bedbound ME/CFS patients compared to sham stimulation.
 ] <spec:nmes-weight-management>
 
+=== Research Proposals and Biomarker Ideas
+
+#proposal(title: [ME/CFS-Calibrated REE Predictive Equation])[
+*(Certainty: 0.50 — rationale strong; equation needs prospective validation vs indirect calorimetry.)*
+
+Until indirect calorimetry becomes clinically accessible, an ME/CFS-adjusted REE equation is needed. Based on SCI literature @Alazzam2023SCI (5--32% overestimation) and the bedbound/chairbound PAL of 1.2--1.4 @Buchholz2003PAL, an ME/CFS-specific correction factor can be derived: REE_ME/CFS = REE_Mifflin × (range 0.75 to 0.95) depending on severity. This would give clinicians a practical starting point for caloric prescription without requiring calorimetry.
+
+_Falsified if_ the ME/CFS-adjusted equation has a mean prediction bias outside ±5% of measured REE or limits of agreement wider than ±20% compared to unadjusted Mifflin-St Jeor in a head-to-head validation against indirect calorimetry.
+] <prop:ree-equation-mecfs>
+
+#proposal(title: [Hypometabolic Index as Clinical Biomarker])[
+*(Certainty: 0.55 — indirect calorimetry validated; index straightforward; clinical utility in ME/CFS needs validation.)*
+
+The ratio of measured REE (by indirect calorimetry) to predicted REE (by Mifflin-St Jeor or ME/CFS-adjusted equation) defines a "hypometabolic index." Values less than 0.80 indicate clinically significant hypometabolism. This single number could (1) guide caloric prescription, (2) track metabolic trajectory over time, (3) stratify patients into high/low metabolic reserve phenotypes, (4) predict which patients will gain weight fastest at standard caloric intake. Analogous to the Metabolic Reserve Score (Section @sec:architecture-c-metabolic-reserve) but derived from a single 15-minute measurement.
+
+_Falsified if_ the hypometabolic index does not correlate with weight trajectory over 6 months (r less than 0.3) in ME/CFS patients consuming standardized diets.
+] <prop:hypometabolic-index>
+
+#proposal(title: [Respiratory Quotient as Substrate Inflexibility Marker])[
+*(Certainty: 0.50 — RQ measurement straightforward; pathophysiological rationale strong; no ME/CFS RQ data exist.)*
+
+Respiratory quotient (RQ = VCO2/VO2) reflects the mix of fuels being oxidized. RQ ~0.70 = pure fat oxidation; RQ ~1.0 = pure carbohydrate. ME/CFS patients with impaired CPT/ACAD cannot oxidize fat (Section @subsec:weight-changes), so their RQ should be elevated (above 0.85) even during fasting — they are "metabolically locked" into glucose oxidation. Measuring RQ by indirect calorimetry could quantify this inflexibility, track response to interventions (MCT oil, carnitine), and identify which patients need fat-bypass strategies.
+
+_Falsified if_ fasting RQ in ME/CFS patients does not significantly differ from BMI-matched sedentary controls (more than 0.05 difference), the substrate inflexibility hypothesis as measured by RQ is falsified.
+] <prop:rq-substrate-inflexibility>
+
+#speculation(title: [Severity-Tiered Weight Management Protocol for ME/CFS])[
+*(Certainty: 0.40 — tiering concept is clinical common sense; no protocol tested.)*
+
+No single weight management approach fits all ME/CFS severity levels. A tiered protocol based on mobility/energy status ensures safety and feasibility: (1) Bedbound: liquid PSMF (BMI >35 only, Section @spec:psmf-severe-obesity) or energy balance maintenance with MCT + leucine + HMB stack ± metformin; (2) Chairbound: same + time-restricted feeding (12:12) + protein-first meals; (3) Housebound: add standing tolerance and positional eating + gradual caloric adjustment; (4) Improved: add the exercise ladder from Section @sec:exercise. Each tier has explicit calorie targets, protein minimums, and escalation/de-escalation criteria. Tiering prevents the common error of prescribing housebound-level interventions to bedbound patients, which causes failure and demoralization.
+
+_Falsified if_ a tiered protocol does not produce at least 5% greater preservation of lean mass (DXA-measured appendicular lean mass index) than ad-hoc management over 12 months in a pragmatic trial.
+] <spec:severity-tiered-protocol>
+
+#proposal(title: [DXA Body Composition as Standard ME/CFS Assessment])[
+*(Certainty: 0.65 — DXA is gold standard; application to ME/CFS is a recommendation to use existing technology.)*
+
+BMI misclassifies body composition in immobile populations — SCI children with reduced lean mass and increased fat mass are frequently misclassified by BMI alone @Liusuwan2004SCI. The same applies to ME/CFS: sarcopenic obesity is invisible to BMI. DXA provides fat mass, lean mass, bone density, and visceral fat in a single 10-minute low-radiation scan. It is the only definitive way to distinguish "weight gain" (fat mass increase) from "weight maintenance" (lean mass loss masking fat gain) and to track intervention effects.
+
+_Falsified if_ DXA does not reclassify more than 20% of ME/CFS patients' body composition status compared to BMI-based classification.
+] <prop:dxa-standard-assessment>
+
+#speculation(title: [Microbiome-Metabolite Profiling for Weight Trajectory Prediction])[
+*(Certainty: 0.30 — microbiome-weight links established in general population; ME/CFS-specific microbiome-weight correlation absent.)*
+
+Gut microbiome composition predicts weight gain in the general population — short-chain fatty acid producers (butyrate) are protective; certain taxa predict weight gain. In ME/CFS, microbiome dysbiosis is well-documented (Chapter @ch:gut-microbiome). Metabolomic profiling (serum and fecal) could identify which patients are on a weight-gain trajectory before it manifests clinically, enabling preemptive dietary intervention. Bile acid profiles and TMAO may be particularly relevant given their roles in energy harvest and inflammation.
+
+_Falsified if_ baseline microbiome composition does not predict 12-month weight change in ME/CFS patients (AUC less than 0.65).
+] <spec:microbiome-weight-trajectory>
+
+#speculation(title: [POCUS and MUAC as Bedside Body Composition Surrogates in ME/CFS])[
+*(Certainty: 0.30 — surrogates validated in other populations; no ME/CFS validation.)*
+
+DXA is not available in most clinics. Simple bedside alternatives exist: (1) mid-upper arm circumference and calf circumference predict sarcopenia in elderly populations; (2) point-of-care ultrasound of quadriceps rectus femoris thickness correlates with DXA-measured lean mass. In bedbound ME/CFS patients, a 2-minute POCUS scan can track muscle status over time without moving the patient. MUAC has no cost and no equipment barrier. The question is whether these surrogates track DXA lean mass changes with sufficient precision in ME/CFS to guide clinical decisions.
+
+_Falsified if_ POCUS quadriceps thickness changes do not correlate with DXA lean mass changes (r less than 0.7) over 6 months in ME/CFS.
+] <spec:pocus-bedside-composition>
+
+=== Pharmacological and Nutraceutical Speculations
+
+#speculation(title: [GLP-1 RA + ActRII Blockade Combination for Muscle-Sparing Weight Loss])[
+*(Certainty: 0.25 — preclinical only; no human data for this dual approach.)*
+
+GLP-1 RAs produce 10--15% weight loss but 25--60% from lean mass @Wilding2021Semaglutide @Neeland2024LeanMass @Stefanakis2024FFM. ActRII blockade (bimagrumab) preserves muscle during GLP-1 RA therapy in preclinical models (Nunn 2024, preclinical). For ME/CFS, where baseline muscle is compromised @Scheibenbogen2025muscle, a GLP-1 RA without muscle protection is likely unacceptable. The combination — microdose GLP-1 RA for appetite regulation + ActRII blockade for muscle preservation — could achieve fat-predominant weight loss while improving muscle mass. Bimagrumab also directly blocks activin/myostatin signaling, which may be elevated in inflammatory states.
+
+_Falsified if_ the GLP-1 RA + ActRII blockade combination does not reduce the proportion of weight loss from lean mass below 25% in any human trial.
+] <spec:glp1-actriib-combo>
+
+#speculation(title: [Protein-Sparing Modified Fast for Severe Obesity in ME/CFS])[
+*(Certainty: 0.30 — PSMF established in obesity; novel application to ME/CFS.)*
+
+PSMF provides very low calories (800--1000 kcal/d) but high protein (1.5--2.0 g/kg IBW), forcing fat utilization while preserving muscle via continuous amino acid supply (Sukkar 2013; Bakhach 2016). For severe ME/CFS with obesity (BMI above 35), PSMF could achieve rapid weight loss with muscle preservation under medical supervision. Liquid/pureed form eliminates the meal preparation barrier that limits adherence in severe patients — for very severe patients who cannot prepare food, cannot sit up to eat, or have insufficient energy to chew, a liquid PSMF via nasogastric tube (Sukkar 2013) or oral liquid supplement (protein powder + micronutrients + water providing 800--1000 kcal, 100--150 g protein) separates "nutrition delivery" from "meal behavior."
+
+_Falsified if_ ME/CFS patients on a 4-week PSMF lose more than 25% of total weight from fat-free mass (measured by DXA).
+] <spec:psmf-severe-obesity>
+
+#speculation(title: [Metformin as Metabolic Platform for Weight Stabilization])[
+*(Certainty: 0.35 — metformin's bidirectional effect on metabolic rate is speculative.)*
+
+Rather than treating metformin as a weight loss drug, frame it as a "metabolic platform" that stabilizes energy metabolism enough to make other interventions feasible. Metformin improves insulin sensitivity, activates AMPK (which may improve fat oxidation), and reduces inflammation @Fineberg2025Metformin. These effects may blunt the metabolic adaptation response @Maclean2011Regain that otherwise sabotages weight maintenance. If ME/CFS patients are in a chronic hypometabolic state, metformin's net effect may be to raise (normalize) metabolic rate rather than suppress it — opposite of its effect in healthy individuals.
+
+_Falsified if_ metformin does not maintain REE (less than 2% decline from baseline) in hypometabolic ME/CFS patients while REE declines by at least 5% in matched non-ME/CFS controls on metformin.
+] <spec:metformin-metabolic-platform>
+
+#speculation(title: [Urolithin A for Mitophagy-Directed Muscle Preservation])[
+*(Certainty: 0.25 — Urolithin A safety established; trials in sarcopenia positive; no ME/CFS data.)*
+
+Urolithin A (postbiotic metabolite of ellagitannins, found in pomegranates/berries) induces mitophagy — clearance of damaged mitochondria — which is impaired in aging and metabolic disease. In ME/CFS, where mitochondrial damage is central @Scheibenbogen2025muscle and mitophagy may be overwhelmed, Urolithin A could remove dysfunctional mitochondria that produce ROS instead of ATP, improving muscle mitochondrial quality and enhancing fat oxidation by restoring functional mitochondrial density.
+
+_Falsified if_ Urolithin A supplementation does not improve muscle phosphocreatine recovery time constant (31P-MRS) by at least 15% in ME/CFS vs placebo over 12 weeks.
+] <spec:urolithin-mitophagy>
+
+#speculation(title: [L-Carnitine for CPT Bypass in Fat Oxidation Failure])[
+*(Certainty: 0.30 — carnitine well-studied in metabolic disease; CPT bypass rationale strong; ME/CFS data absent.)*
+
+Carnitine is the obligate carrier for long-chain fatty acid entry into mitochondria via CPT1/CPT2. Impaired CPT function in ME/CFS (Section @subsec:weight-changes) may be partially correctable with supraphysiological carnitine (2--4 g/d). Acetyl-L-carnitine additionally provides acetyl groups for the TCA cycle and reduces oxidative stress. If ME/CFS patients have functional but submaximal CPT (rather than structural deficiency), carnitine loading could increase fat oxidation rates and reduce the glucose dependency that drives hunger.
+
+_Falsified if_ high-dose L-carnitine does not both (a) reduce fasting RQ by at least 0.03 and (b) increase fasting beta-hydroxybutyrate by at least 0.2 mmol/L in ME/CFS patients.
+] <spec:carnitine-cpt-bypass>
+
+#speculation(title: [TRH/T3 Augmentation for Hypometabolic State])[
+*(Certainty: 0.15 — highly speculative; no data in ME/CFS; NTIS literature provides indirect support.)*
+
+ME/CFS involves a functional hypometabolic state that physiologically resembles non-thyroidal illness syndrome: low T3, normal TSH, elevated reverse T3. Low-dose T3 supplementation (or TRH to stimulate endogenous production) could increase metabolic rate without the risks of full thyroid suppression. The target is functional hypometabolism, not thyroid hormone deficiency. High risk — thyroid hormone can increase metabolic demand, potentially worsening PEM or triggering cardiac events. Only for severe hypometabolic cases where other measures have failed.
+
+_Falsified if_ low-dose T3 does not increase REE by at least 5% in ME/CFS patients with low T3/reverse T3 ratio (free T3 below 3.5 pmol/L, rT3 above 0.25 nmol/L) compared to placebo.
+] <spec:trh-t3-augmentation>
+
+#speculation(title: [Creatine Monohydrate for Muscle and Cognitive Metabolic Support])[
+*(Certainty: 0.40 — creatine well-established for muscle; cognitive evidence growing; no ME/CFS-specific trials.)*
+
+Creatine is the most evidence-based muscle-preserving supplement, with additional cognitive benefits via increased brain phosphocreatine. In bedbound ME/CFS, creatine (5--10 g/d) may increase muscle phosphocreatine stores, improving the energy buffer depleted in ME/CFS muscles @Scheibenbogen2025muscle, preserve muscle mass during inactivity, and reduce cognitive fatigue. Creatine also improves glucose tolerance and may support glycogen storage — relevant for the "carb dependence" of ME/CFS metabolism.
+
+_Falsified if_ creatine supplementation does not reduce the phosphocreatine recovery time constant (31P-MRS, τ_PCr) by at least 20% in ME/CFS vs healthy controls matched for activity level.
+] <spec:creatine-metabolic>
+
+#speculation(title: [Butyrate + Berberine + Protein as Endogenous GLP-1 Pathway Stack])[
+*(Certainty: 0.30 — each component validated; combination unstudied; synergistic GLP-1 effect speculative.)*
+
+The paper already documents nutritional modulators of the GLP-1 pathway: protein-first, berberine, butyrate, taurine (Section @sec:dietary-glp1). The combination may produce synergistic GLP-1 stimulation without the lean mass loss of exogenous GLP-1 RAs. Berberine activates AMPK (improving fat oxidation signaling); butyrate stimulates colonic L-cells to secrete endogenous GLP-1; protein (leucine) stimulates GLP-1 and PYY. Together, they recreate the GLP-1 RA effect endogenously — but with pulsatile rather than continuous receptor activation, possibly better for muscle preservation.
+
+_Falsified if_ the butyrate + berberine + protein stack does not increase post-prandial GLP-1 AUC by at least 30% compared to protein alone in ME/CFS patients.
+] <spec:glp1-pathway-stack>
+
+#speculation(title: [Cancer Cachexia Drugs Repurposed for ME/CFS Muscle Preservation])[
+*(Certainty: 0.25 — cachexia drugs exist; bridge to ME/CFS speculative; safety profiles known from cancer trials.)*
+
+Cancer cachexia shares features with ME/CFS muscle pathology: elevated myostatin/activin, ubiquitin-proteasome activation, mitochondrial dysfunction @Scheibenbogen2025muscle. Drugs in development for cancer cachexia — ActRIIB-Fc (sotatercept-related), ghrelin receptor agonists (anamorelin), selective androgen receptor modulators, and beta-blockers — may be directly applicable to ME/CFS muscle preservation. The cancer cachexia literature has already solved the problem ME/CFS faces: how to preserve muscle in a catabolic state where exercise is impossible.
+
+_Falsified if_ anamorelin does not increase DXA-measured appendicular lean mass by at least 2% in ME/CFS patients over 12 weeks.
+] <spec:cachexia-drugs-repurposed>
+
+#speculation(title: [Berberine Dose-Timing for AMPK-Fat Oxidation Synergy])[
+*(Certainty: 0.30 — berberine mechanisms well-studied; timing hypothesis novel; no ME/CFS data.)*
+
+Berberine is already identified as a GLP-1 pathway modulator (Section @sec:dietary-glp1). Its primary mechanism is AMPK activation — the same target affected by ME/CFS pathophysiology (Chapter @ch:endocrine). Timing berberine before the daily "best energy window" meal could maximize AMPK activation when the cell can respond to it, improve fat oxidation during that meal, and potentiate GLP-1 secretion. Dose timing may matter more than dose magnitude: 500 mg 30 minutes before the largest meal vs spreading across meals.
+
+_Falsified if_ pre-meal berberine (500 mg, 30 min before) does not both (a) reduce post-prandial glucose AUC by at least 15% and (b) increase post-prandial fat oxidation (RQ reduction ≥0.02) compared to with-meal berberine.
+] <spec:berberine-dose-timing>
+
+#speculation(title: [Omega-3 EPA/DHA for Inflammation and Anabolic Sensitivity])[
+*(Certainty: 0.35 — omega-3 well-studied; anti-inflammatory effects established; lean mass preservation during weight loss shown in some metabolic populations.)*
+
+EPA/DHA (2--4 g/d) reduce inflammatory signaling (NF-kappaB, TNF-alpha, IL-6) and may improve muscle anabolic sensitivity by modulating membrane fluidity and insulin signaling. For ME/CFS, omega-3s address two barriers simultaneously: (1) inflammation-driven leptin resistance (improving satiety signaling), (2) inflammation-induced anabolic resistance (improving the muscle's ability to use dietary protein for synthesis). Fish oil also improves mitochondrial function in some models.
+
+_Falsified if_ high-dose omega-3 (4 g/d EPA+DHA) does not improve nitrogen balance by at least +2 g/d relative to placebo, and does not limit DXA-measured lean mass loss during caloric restriction to at least 2 percentage points less than placebo in ME/CFS patients.
+] <spec:omega3-anabolic-sensitivity>
+
+=== Mechanistic Hypotheses
+
+#speculation(title: [Leptin-AMPK Double Lesion as ME/CFS Appetite Driver])[
+*(Certainty: 0.35 — AMPK dysregulation confirmed in ME/CFS; leptin resistance inferred but not directly measured.)*
+
+AMPK dysregulation is documented in ME/CFS (Chapter @ch:endocrine). Leptin resistance is likely given elevated obesity prevalence @Norris2017Obesity and the well-established connection between inflammation and leptin resistance. The convergence: leptin resistance reduces POMC activation, losing satiety signaling, while AMPK dysregulation produces inappropriate hunger signals despite adequate adiposity. This double lesion in energy sensing creates relentless hunger that drives caloric surplus, identifying leptin sensitizers (not just appetite suppressants) as the correct therapeutic class.
+
+_Falsified if_ ME/CFS patients with obesity show normal leptin sensitivity (POMC activation in response to recombinant leptin ≥60% of the mean response in BMI-matched healthy controls).
+] <spec:leptin-ampk-driver>
+
+#fhypothesis(title: [Metabolic Adaptation Amplifies Weight Regain in ME/CFS], falsifiability: "strongly", justification: "Metabolic adaptation well-established in general population; ME/CFS-specific amplification is mechanistically plausible via blunted baseline REE")[
+*(Certainty: 0.55 — metabolic adaptation well-established; ME/CFS-specific amplification is speculative but mechanistically plausible.)*
+
+Weight loss triggers metabolic adaptation (REE falls more than predicted by mass loss alone) and prolonged hormonal counter-regulation (increased ghrelin, decreased GLP-1, leptin, PYY) persisting for at least 1 year @Maclean2011Regain. ME/CFS patients likely have blunted baseline REE from immobility, mitochondrial dysfunction, and reduced muscle mass. Any further REE reduction from dieting would drop absolute energy needs below survivable intake levels, making weight maintenance biologically impossible and causing regain exceeding pre-diet weight.
+
+_Falsified if_ ME/CFS patients completing a 12-week caloric restriction protocol show REE decline exceeding 5% beyond that predicted by mass loss alone (metabolic adaptation >5%), or if 12-month weight regain does not exceed pre-diet weight in those who lose ≥5% initial body weight.
+] <hyp:metabolic-adaptation-amplification>
+
+#speculation(title: [Cachexia-Like PEM Muscle Loss as Distinct ME/CFS Phenotype])[
+*(Certainty: 0.30 — inflammatory cachexia biology well-understood; analogy to ME/CFS plausible but unproven.)*
+
+Some ME/CFS patients lose significant muscle mass rapidly during PEM crashes, resembling cancer cachexia more than simple disuse atrophy. In cancer cachexia, TNF-alpha, IL-6, and activin/myostatin drive proteolysis via ubiquitin-proteasome and autophagy-lysosome pathways. If ME/CFS PEM involves similar inflammatory signaling, the muscle loss may be driven by active catabolic signaling, not just lack of use. This "slow cachexia" phenotype would require anti-catabolic treatment (ActRII blockade, HMB, beta-blockers), not just increased protein intake.
+
+_Falsified if_ PEM episodes do not both (a) elevate urinary activin A by at least 20% above baseline and (b) elevate urinary 3-methylhistidine/creatinine ratio by at least 15% above baseline, measured at 24 and 48 hours post-exertion.
+] <spec:cachexia-pem-phenotype>
+
+#speculation(title: [ME/CFS as Chronic Low-Grade Catabolic Syndrome])[
+*(Certainty: 0.30 — phenotype analogy mechanistically grounded; no direct biomarker data in ME/CFS.)*
+
+Cancer cachexia represents rapid, inflammatory-driven muscle wasting despite adequate nutrition. ME/CFS muscle loss may represent a slow, PEM-driven, inflammatory-mediated muscle wasting. The difference may be cytokine amplitude (cachexia: high TNF/IL-6; ME/CFS: low-grade persistent elevation) rather than qualitative pathway differences. If the same pathways are active at lower intensity, the same anti-catabolic treatments (at lower doses) may be effective. The key prediction: chronic low-level activin/myostatin elevation in ME/CFS, detectable by serum assays.
+
+_Falsified if_ serum activin A levels in ME/CFS are not at least 1.5-fold higher than healthy sedentary controls matched for BMI and age, or myostatin levels are not at least 1.3-fold higher.
+] <spec:slow-cachexia-phenotype>
+
+=== Non-Pharmacological Approaches
+
+#speculation(title: [Alternate-Day Modified Fasting for Muscle Preservation])[
+*(Certainty: 0.35 — single positive study in cirrhosis; null meta-analysis in general population; no ME/CFS data.)*
+
+Dunn 2024 found alternate-day modified fasting preserved fat-free mass better than continuous energy restriction in cirrhosis with obesity (Dunn 2024). The mechanism may involve preserved autophagy on fasting days, less sustained insulin suppression, and lower cortisol exposure than continuous restriction @Maclean2011Regain. For ME/CFS, where continuous restriction may trigger PEM or exacerbate HPA axis dysfunction, intermittent approaches could be better tolerated while preserving muscle. The existing 12-hour fast window (Section @sec:dietary) could be expanded gradually to 14--16 hours in those who tolerate it.
+
+_Falsified if_ ADMF in ME/CFS shows more than 2% greater loss of DXA-measured appendicular lean mass than isocaloric continuous feeding (matched protein) in a crossover trial.
+] <spec:admf-muscle-preservation>
+
+#proposal(title: [Positional Feeding Protocol for Bedbound ME/CFS Patients])[
+*(Certainty: 0.50 — feeding position physiology well-established; application to ME/CFS novel.)*
+
+Supine feeding alters gastric emptying (delayed), esophageal motility (reduced peristalsis), and aspiration risk. In bedbound ME/CFS patients, standard upright feeding recommendations are impossible. Positional feeding strategies — left lateral decubitus (improves gastric emptying vs supine), semi-recumbent at 30--45 degrees, small-volume frequent feeds, thickening liquids — address the mechanical barrier to adequate nutrition. Poor feeding position leads to inadequate intake misinterpreted as "needs more calories," leading to overcompensation with calorie-dense low-protein foods.
+
+_Falsified if_ modifying feeding position in bedbound ME/CFS patients does not improve protein intake (g/kg/d) by at least 20%.
+] <prop:positional-feeding>
+
+#speculation(title: [Pacing-Based Meal Timing Aligned with Daily Energy Windows])[
+*(Certainty: 0.40 — clinically observed strategy; no formal study.)*
+
+ME/CFS patients experience diurnal energy variability — some have morning energy, others peak in evening. Standard meal timing (breakfast-lunch-dinner) fights this rhythm. A pacing-based approach: eat when energy is available, not when the clock says to. For severely affected patients, this may mean one large protein-rich meal during the daily "energy window" and liquid supplements when energy is too low to eat. This aligns caloric intake with the patient's capacity to prepare food, chew/swallow, and digest (splanchnic blood flow varies with energy state).
+
+_Falsified if_ energy-aligned meal timing does not both (a) increase total daily protein intake by at least 15% and (b) reduce meal-skipping frequency by at least 30% vs fixed meal schedule in a crossover trial.
+] <spec:pacing-meal-timing>
+
+#speculation(title: [UCP1-Mediated Thermogenesis via Mild Cold Exposure])[
+*(Certainty: 0.15 — BAT activation well-established in healthy individuals; cold intolerance common in ME/CFS; net risk-benefit unclear.)*
+
+Brown adipose tissue activation via mild cold exposure (16--19 degrees C, 2--4 h/d) increases energy expenditure by 100--300 kcal/d through UCP1 uncoupling, and improves insulin sensitivity @Buchholz2003PAL. For bedbound ME/CFS patients with reduced total energy expenditure (~1400--1800 kcal/d), cold-induced thermogenesis could provide a non-exercise metabolic boost. However, cold exposure is physiologically stressful and may trigger PEM or sympathetic overactivation. More likely harmful than helpful unless carefully individualized — patients with cold intolerance, Raynaud's, or autonomic dysfunction may worsen.
+
+_Falsified if_ mild cold exposure (18 degrees C, 2 h/d for 4 weeks) does not increase REE by at least 5% in ME/CFS patients without triggering PEM exacerbation.
+] <spec:cold-thermogenesis>
+
+#speculation(title: [Vagal Tone Modulation for Appetite and Metabolic Regulation])[
+*(Certainty: 0.20 — taVNS well-studied in depression/epilepsy; appetite effects preliminary; no ME/CFS data.)*
+
+The vagus nerve is the primary afferent pathway for satiety signaling (gastric distension, CCK, GLP-1) and efferent pathway for hepatic glucose production, insulin secretion, and thermogenesis. In ME/CFS, vagal dysfunction is hypothesized (Chapter @ch:neurological). Transcutaneous auricular vagal stimulation — a non-invasive, at-home device — could improve vagal tone, enhance satiety signaling, and increase parasympathetic drive to reduce stress-induced overeating. No exercise, no preparation, 20 min/day while lying down.
+
+_Falsified if_ 4 weeks of taVNS does not both (a) reduce VAS hunger scores by at least 20% and (b) increase post-prandial GLP-1 AUC by at least 25% in ME/CFS vs sham.
+] <spec:vagal-tone-appetite>
+
+#speculation(title: [Periacetabular Brown Fat Activation During Immobility])[
+*(Certainty: 0.10 — highly speculative; BAT activation in ME/CFS may trigger PEM via sympathetic activation.)*
+
+Brown adipose tissue depots around major blood vessels are inversely correlated with BMI and improve metabolic health. In ME/CFS, BAT may be inactive due to low sympathetic tone (autonomic dysfunction), warm environment (bedbound patients often kept warm), and inflammation. If BAT activation were feasible without triggering PEM — very uncertain — it could provide 100--300 kcal/d extra expenditure, enough to shift weight trajectory. Pharmacological BAT activation (beta3-adrenergic agonists like mirabegron) is a potential but risky route, as it activates the same sympathetic system that is dysregulated in ME/CFS.
+
+_Falsified if_ mirabegron does not increase supraclavicular BAT glucose uptake (18F-FDG PET standardized uptake value) by at least 50% in ME/CFS, or if BAT activation triggers PEM in ≥30% of treated patients.
+] <spec:brown-fat-activation>
+
 == Exercise and Movement
 <sec:exercise>
 
