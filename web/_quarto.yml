@@ -2,7 +2,13 @@ project:
   type: website
 
 bibliography:
-  - references.bib
+  - bib/shared.bib
+  - bib/part1-clinical.bib
+  - bib/part2-pathophysiology.bib
+  - bib/part3-treatment.bib
+  - bib/part4-research.bib
+  - bib/part5-modeling.bib
+  - bib/appendices.bib
 
 website:
   site-url: "https://yannickloth.github.io/health-me-cfs/"

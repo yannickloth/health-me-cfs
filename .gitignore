@@ -344,6 +344,9 @@ result-*
 .devenv/
 .devenv.flake.nix
 
+# Generated web bib files (produced by SplitBib.java from Typst references.bib)
+web/bib/
+
 # direnv
 .direnv/
 .envrc.cache

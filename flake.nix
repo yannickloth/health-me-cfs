@@ -170,6 +170,33 @@
               java --source 25 src/main/java/web/BuildWeb.java
               java --source 25 src/test/java/web/QmdLabelAuditTest.java
               java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
+              java --source 25 src/test/java/web/QmdQualityAuditTest.java
+            '';
+            installPhase = ''
+              mkdir -p $out
+              echo "PASS" > $out/result
+            '';
+          };
+          typst-source-audit = pkgs.stdenvNoCC.mkDerivation {
+            name = "mecfs-typst-source-audit";
+            src = cleanSrc;
+            buildInputs = [ pkgs.jdk25 ];
+            phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+            buildPhase = ''
+              java --source 25 src/test/java/web/TypstSourceAuditTest.java
+            '';
+            installPhase = ''
+              mkdir -p $out
+              echo "PASS" > $out/result
+            '';
+          };
+          blog-audit = pkgs.stdenvNoCC.mkDerivation {
+            name = "mecfs-blog-audit";
+            src = cleanSrc;
+            buildInputs = [ pkgs.jdk25 ];
+            phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+            buildPhase = ''
+              java --source 25 src/test/java/web/BlogAuditTest.java
             '';
             installPhase = ''
               mkdir -p $out
