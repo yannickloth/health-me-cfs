@@ -205,12 +205,8 @@ Dysfunction in the astrocyte-neuron lactate shuttle causes CNS-specific energy f
 
 *Mechanism:*
 
-// TODO: align environment
-$
-L_n &= k_("MCT") dot [L_a] dot f("transporter integrity")  
-
-E_n &= g(L_n, "mitochondrial function")
-$
+$ L_n &= k_("MCT") dot [L_a] dot f("transporter integrity") \
+E_n &= g(L_n, "mitochondrial function") $
 
 where $L_n$ = neuronal lactate uptake, $L_a$ = astrocyte lactate concentration, $k_("MCT")$ = MCT transporter efficiency, $E_n$ = neuronal ATP production.
 

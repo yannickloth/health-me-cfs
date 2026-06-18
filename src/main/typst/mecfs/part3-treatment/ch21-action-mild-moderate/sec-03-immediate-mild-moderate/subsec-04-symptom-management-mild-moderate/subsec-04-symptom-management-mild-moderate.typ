@@ -137,8 +137,20 @@ Pain in ME/CFS involves inflammatory mediators (Section @sec:pro-inflammatory),
 *Palmitoylethanolamide (PEA) for Neuropathic and Inflammatory Pain*
 
 <obs:pea-chronic-pain-meta>
-  // TODO: needs #table() wrapper
-[Palmitoylethanolamide (PEA), a naturally occurring endocannabinoid-like fatty acid amide, has robust meta-analytic evidence for chronic pain reduction. Three independent meta-analyses demonstrate consistent, large effect sizes: Artukoglu et al. @Artukoglu2017pea analyzed 10 studies (n=1298) finding weighted mean difference of 2.03 (95% CI 1.19–2.87, p\<0.001); Lang-Ilievich et al. @LangIlievich2023pea confirmed these findings in 11 double-blind RCTs (n=774), reporting standardized mean difference of 1.68 (95% CI 1.05–2.31, p\<0.00001); Viña and López-Moreno @Vina2025pea conducted the most comprehensive analysis (18 RCTs, n=1196), demonstrating PEA efficacy across all pain types: nociceptive (SMD=-0.74), neuropathic (SMD=-0.97), and nociplastic (SMD=-0.59). Benefits emerged at 4–6 weeks and increased through 24–26 weeks. Quality of life improved significantly beyond pain reduction alone. No major adverse events were reported across all trials.],
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Meta-Analysis*], [*Key Findings*],
+    [Artukoglu et al. @Artukoglu2017pea], [10 studies (n=1298); weighted mean difference 2.03 (95% CI 1.19–2.87, $p < 0.001$)],
+    [Lang-Ilievich et al. @LangIlievich2023pea], [11 double-blind RCTs (n=774); SMD 1.68 (95% CI 1.05–2.31, $p < 0.00001$)],
+    [Viña, López-Moreno @Vina2025pea], [18 RCTs (n=1196); nociceptive SMD=-0.74, neuropathic SMD=-0.97, nociplastic SMD=-0.59],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [
+    Palmitoylethanolamide (PEA) meta-analytic evidence for chronic pain reduction.
+  ],
+) <tab:pea-meta-analyses>
 
 *Evidence quality*: HIGH for general chronic pain (multiple independent meta-analyses, n>1000 patients). MEDIUM for ME/CFS-specific use (extrapolated; no ME/CFS RCTs).
 #include "../../hypotheses/hyp-pea-mechanisms-align-with-mecfs-pain-pathophysiology.typ"

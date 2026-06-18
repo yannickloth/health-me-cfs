@@ -198,8 +198,16 @@ Multidisciplinary organization for UK healthcare professionals delivering care t
 
 Works to improve the situation for people with ME/CFS in Ireland. Notable advocate: Tom Kindlon (Assistant Chairperson), who has been housebound with severe ME for over 22 years. Known internationally for his extensive analysis and publications on the PACE trial and harms of graded exercise therapy.
 
-  // TODO: needs #table() wrapper
-/ *Hope for ME & Fibro Northern Ireland*: Founded 2011 by Joan McParland MBE, inspired by Tom Kindlon's work.
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Organization Name*], [*Description*],
+    [Hope for ME & Fibro Northern Ireland], [Founded 2011 by Joan McParland MBE, inspired by Tom Kindlon's work.],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [Northern Ireland ME/CFS and fibromyalgia patient organization.],
+) <tab:hope-for-me-northern-ireland>
 
 === Norway
 <subsec:norway-orgs>
@@ -236,11 +244,27 @@ National association since 1992. Works to increase knowledge in the Danish healt
 
 Self-help organization founded 1993 in Zurich. Offers information platform, networking, and support. Hosts regular group meetings in several Swiss cities.
 
-  // TODO: needs #table() wrapper
-/ *Schweizerische Gesellschaft für ME/CFS*: #link("https://sgme.ch/")
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Organization Name*], [*Description*],
+    [Schweizerische Gesellschaft für ME/CFS (#link("https://sgme.ch/"))], [Swiss professional society for ME/CFS.],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [Swiss German ME/CFS professional society.],
+) <tab:schweizerische-gesellschaft>
 
-  // TODO: needs #table() wrapper
-[Swiss Association for ME], [CFS, founded 2019. Fights for recognition and adequate care. Conducts biennial comprehensive surveys on Swiss ME patient situations. First analysis published 2021.],
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Organization Name*], [*Description*],
+    [Swiss Association for ME/CFS], [Founded 2019. Fights for recognition and adequate care. Conducts biennial comprehensive surveys on Swiss ME patient situations. First analysis published 2021.],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [Swiss French ME/CFS patient association.],
+) <tab:swiss-association-mecfs>
 
 Swiss research shows mean diagnosis time of 6.7 years, average 11.1 different appointments, 2.6 misdiagnoses, and 13.5% of patients traveling abroad to seek diagnosis. 90.5% of patients were told at least once that symptoms were psychosomatic.
 === Spain
@@ -385,13 +409,21 @@ Primary ME/CFS subreddit. Research discussions, treatment experiences, and perso
 
 Major ME/CFS Facebook groups (search on Facebook):
 
-  // TODO: needs #table() wrapper
-[- Chronic Fatigue Syndrome], [Myalgic Encephalomyelitis ME Self Help Group (founded 2012)],
-    - \#MEAction state/regional chapters
-    - Pregnancy and Parenting with ME/CFS
-    - Caregiver Support groups
-    - Severe ME support groups
-    - Youth ME/CFS support (ages 13–21)
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Group Name*], [*Description*],
+    [Chronic Fatigue Syndrome], [Myalgic Encephalomyelitis ME Self Help Group (founded 2012)],
+    [\#MEAction state/regional chapters], [Local advocacy groups across the US],
+    [Pregnancy and Parenting with ME/CFS], [Support for parents and expecting parents with ME/CFS],
+    [Caregiver Support groups], [Support for family members and caregivers],
+    [Severe ME support groups], [Dedicated support for severely affected patients],
+    [Youth ME/CFS support (ages 13--21)], [Peer support for young patients],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [Major ME/CFS Facebook support groups.],
+) <tab:facebook-groups>
 
 === Other Platforms
 
@@ -530,8 +562,16 @@ The severity of ME/CFS has led to difficult conversations within the patient com
 [style=nextline]
 / *The Understanding ME/CFS Podcast*:  Apple Podcasts, Spotify 
 
-  // TODO: needs #table() wrapper
-[Hosted by Patrick Ussher (7-year ME/CFS patient, author of _Understanding ME/CFS: Strategies for Healing_). Weekly interviews with patients and experts. Covers research, treatments, quality of life, and recovery stories.],
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Podcast*], [*Description*],
+    [The Understanding ME/CFS Podcast], [Hosted by Patrick Ussher (7-year ME/CFS patient, author of _Understanding ME/CFS: Strategies for Healing_). Weekly interviews with patients and experts. Covers research, treatments, quality of life, and recovery stories.],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [The Understanding ME/CFS Podcast — patient-hosted weekly interview show.],
+) <tab:understanding-mecfs-podcast>
 
 / *Chronically Complex: The \#MEAction Podcast*:  #link("https://www.meaction.net/chronically-complex-meaction-podcast/") 
 
@@ -543,8 +583,16 @@ Interviews influential voices in ME/CFS and Long COVID. Topics include books on 
 
 / *This Podcast Will Kill You – Episode 137*:  “ME/CFS: What's in a name? (A lot, actually)” (April 2024). Deep dive into biology, history, and current research.
 
-  // TODO: needs #table() wrapper
-/ *Hope and Help for Fatigue & Chronic Illness*: Mission to help people with post-viral syndromes including Long COVID and ME/CFS.
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Podcast*], [*Description*],
+    [Hope and Help for Fatigue & Chronic Illness], [Mission to help people with post-viral syndromes including Long COVID and ME/CFS.],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [Hope and Help for Fatigue & Chronic Illness podcast.],
+) <tab:hope-help-fatigue-podcast>
 
 // =============================================================================
 
@@ -641,8 +689,16 @@ The campaign highlights the “millions missing” from their own lives due to i
 
 / *_The Puzzle Solver: A Scientist's Desperate Quest to Cure the Illness that Stole His Son_*:  Tracie White and Ron Davis (2021). Story of Ron Davis and Whitney Dafoe.
 
-  // TODO: needs #table() wrapper
-/ *_Understanding ME/CFS: Strategies for Healing_*: Patrick Ussher. Guide by a patient, companion to podcast.
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Book Title*], [*Author / Description*],
+    [_Understanding ME/CFS: Strategies for Healing_], [Patrick Ussher. Guide by a patient, companion to podcast.],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [Understanding ME/CFS — patient-authored guidebook.],
+) <tab:understanding-mecfs-book>
 
 / *_The Long Haul_*:  Ryan Prior. On Long COVID and ME/CFS advocacy.
 
@@ -691,8 +747,16 @@ Solve M.E.'s patient registry. Collects patient-reported data and biospecimens. 
 
 / *AusME Registry*:  Australian ME/CFS and Long COVID registry, partnership between Emerge Australia and Solve M.E.
 
-  // TODO: needs #table() wrapper
-[/ *UK ME/CFS Biobank*:  London School of Hygiene], [Tropical Medicine. Funded partly by ME Association.],
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Registry / Biobank*], [*Description*],
+    [UK ME/CFS Biobank], [London School of Hygiene & Tropical Medicine. Funded partly by ME Association.],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [UK ME/CFS Biobank — London-based tissue and data repository.],
+) <tab:uk-mecfs-biobank>
 
 / *Netherlands ME/CFS Cohort and Biobank (NMCB)*:  National Dutch infrastructure for ME/CFS research.
 

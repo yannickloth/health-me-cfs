@@ -2,8 +2,18 @@
 
 ==== Novel Translational Findings from ME/CFS
 
-  // TODO: needs #table() wrapper
-[- *$beta$2-Adrenergic Receptor Dysfunction as Common Link*: Wirth], [Löhn (2023) propose that dysfunctional $beta$2-adrenergic receptors create bidirectional disease worsening:],
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Finding*], [*Detail*],
+    [$beta$2-Adrenergic Receptor Dysfunction as Common Link], [Wirth, Löhn (2023) propose that dysfunctional $beta$2-adrenergic receptors create bidirectional disease worsening.],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [
+    Novel translational findings from ME/CFS: $beta$2-adrenergic receptor dysfunction as a common link.
+  ],
+) <tab:beta2-translational-findings>
         - ME/CFS orthostatic stress desensitizes $beta$2 receptors
         - Desensitized $beta$2 receptors favor mast cell degranulation
         - Mast cell mediators worsen orthostatic dysfunction and cerebral hypoperfusion

@@ -9,8 +9,18 @@ The following mechanisms are *well-documented in ME/CFS but not yet studied in E
         - *Gap*: These may represent different stages or phenotypes. Chronic EDS-related orthostatic stress could lead to eventual desensitization.
     *Research opportunity*: Test $beta$2-receptor function longitudinally in EDS patients to determine if hyperresponsiveness transitions to desensitization.
     - *Bidirectional MCAS $arrow.l.r$ $beta$2-Receptor Cycle*:
-  // TODO: needs #table() wrapper
-[The Wirth], [Löhn (2023) model proposes:],
+#figure(
+  table(
+    columns: (auto, auto),
+    [*Model*], [*Description*],
+    [Wirth, Löhn (2023) model], [Orthostatic stress $arrow.r$ $beta$2-receptor desensitization $arrow.r$ mast cell degranulation $arrow.r$ vascular dysfunction $arrow.r$ worse orthostatic stress],
+  ),
+  kind: table,
+  supplement: [Table],
+  caption: [
+    Bidirectional MCAS–$beta$2-receptor cycle model proposed by Wirth and Löhn (2023).
+  ],
+) <tab:wirth-lohn-mcas-cycle>
         - Orthostatic stress $arrow.r$ $beta$2-receptor desensitization
         - Desensitized $beta$2 receptors $arrow.r$ mast cell degranulation
         - Mast cell mediators (histamine, PAF) $arrow.r$ vascular dysfunction

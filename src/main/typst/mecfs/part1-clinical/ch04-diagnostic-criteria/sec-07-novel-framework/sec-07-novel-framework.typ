@@ -384,8 +384,7 @@ The "Viral-Immune-Metabolic" cluster (see Section @sec:cimetidine-responder for 
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto),
-        // TODO: fix column widths for comparison table
+    columns: (1fr, 2fr, 2fr, 1.5fr),
   
   [*Domain*], [*Priority 1 Tests*], [*Priority 2 Tests*], [*Phenotype Indicator*],
   
@@ -701,8 +700,7 @@ Table @tab:framework-comparison compares the novel biology-informed framework to
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto, auto),
-    // TODO: fix column widths
+    columns: (1fr, 1.2fr, 1.2fr, 1.2fr, 1.5fr),
   
   [*Feature*], [*Fukuda (1994)*], [*Canadian (2003)*], [*IOM (2015)*], [*Novel Framework (2026)*],
   
