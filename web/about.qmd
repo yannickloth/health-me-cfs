@@ -1,0 +1,36 @@
+---
+title: "Yannick Loth"
+about:
+  template: trestles
+  links:
+    - icon: github
+      href: https://github.com/YannickLoth
+    - text: DOI
+      href: https://doi.org/10.5281/zenodo.19627450
+    - icon: rss
+      href: blog/index.xml
+---
+
+## About
+
+Ing. Yannick Loth, M.Sc. (Management) — patient-researcher living with ME/CFS.
+
+This work synthesises the scientific literature on Myalgic Encephalomyelitis / Chronic Fatigue Syndrome with structured epistemic rigour — separating what is established from what is hypothesised, speculated, or unknown. Every claim is classified as an achievement, hypothesis, speculation, prediction, warning, or recommendation, with an explicit certainty rating.
+
+## Motivation
+
+As a patient diagnosed with ME/CFS, I found the medical literature scattered across thousands of papers, often contradictory, and rarely synthesised in a way that serves both clinicians and patients. This documentation exists to bridge that gap — to make the evidence accessible, structured, and honest about its limits.
+
+## Methodology
+
+The paper uses a multi-layer approach:
+
+- **Structured epistemic classification** — every statement tagged by evidence level
+- **AI-assisted literature synthesis** — with mandatory human critical oversight
+- **Adversarial review** — multiple AI personas attack the content from hostile angles
+- **Formal modeling** — ordinary differential equations for disease dynamics
+- **Open source** — all content, code, and build tooling publicly available
+
+## License
+
+All content is released under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).

@@ -1,32 +1,70 @@
 ---
 title: "ME/CFS — A Comprehensive Medical Documentation"
+listing:
+  id: recent-posts
+  contents: blog/posts
+  sort: "date desc"
+  type: grid
+  grid-columns: 3
+  max-items: 6
+  fields: [title, date, categories, description]
+  date-format: iso
+page-layout: full
 ---
 
-## Myalgic Encephalomyelitis / Chronic Fatigue Syndrome
-
-Welcome. This website presents a comprehensive medical documentation of ME/CFS — a severe, chronic, multi-system neuroimmune disease affecting an estimated 0.89% to 2.5% of the global population.
-
-The content spans five parts:
-
-- **Part I — Clinical Presentation:** Core and additional symptoms, diagnostic criteria, disease course
-- **Part II — Pathophysiology:** Energy metabolism, immune dysfunction, neurological, endocrine, cardiovascular, gut-microbiome, integrative models
-- **Part III — Treatment:** Symptom management, medications, supplements, lifestyle interventions, emerging therapies, integrative approaches
-- **Part IV — Research Evidence:** Biomarker research, clinical trials, mechanistic studies, epidemiology, controversies, translational findings
-- **Part V — Quantitative Modeling:** Mathematical models of disease dynamics using ordinary differential equations
-
-### Navigating This Document
-
-Use the **sidebar** to browse chapters and sections. Each page has its own table of contents for in-page navigation. Use the **search** bar to find specific topics.
-
-### About This Work
-
-- **Author:** Ing. Yannick Loth, M.Sc. (Management)
-- **License:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-- **DOI:** [10.5281/zenodo.19627450](https://doi.org/10.5281/zenodo.19627450)
-- **Methodology:** Structured epistemic classification system — achievements, hypotheses, speculations, predictions, warnings, and recommendations
+::: {.lead}
+A comprehensive, open-access medical documentation of Myalgic Encephalomyelitis / Chronic Fatigue Syndrome — a severe, chronic, multi-system neuroimmune disease affecting an estimated 0.89--2.5% of the global population.
+:::
 
 ::: {.callout-warning}
 ## Medical Disclaimer
-
 This documentation represents literature synthesis, **not clinical advice**. All treatment decisions must be made in consultation with qualified healthcare providers.
 :::
+
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-7}
+
+## The Paper
+
+A structured reference work spanning five parts, with an epistemic classification system (achievements, hypotheses, speculations, predictions, warnings, recommendations). Available as a navigable website and [downloadable PDF](loth2026-mecfs.pdf).
+
+- **[Part I — Clinical Presentation:](part1-clinical/)** Core and additional symptoms, diagnostic criteria, disease course
+- **[Part II — Pathophysiology:](part2-pathophysiology/)** Energy metabolism, immune dysfunction, neurological, endocrine, cardiovascular, gut-microbiome, integrative models
+- **[Part III — Treatment:](part3-treatment/)** Symptom management, medications, supplements, lifestyle interventions, emerging therapies
+- **[Part IV — Research Evidence:](part4-research/)** Biomarker research, clinical trials, mechanistic studies, epidemiology, controversies
+- **[Part V — Quantitative Modeling:](part5-modeling/)** Mathematical models of disease dynamics using ordinary differential equations
+
+Use the **sidebar** to browse chapters and sections. Each page has its own table of contents.
+
+:::
+
+::: {.g-col-12 .g-col-md-5}
+
+## About the Author
+
+**Ing. Yannick Loth, M.Sc. (Management)**
+
+Patient-researcher living with ME/CFS. This work synthesises the scientific literature with structured epistemic rigour — separating what is established from what is hypothesised, speculated, or unknown.
+
+[Read more &rarr;](about.qmd)
+
+**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+**DOI:** [10.5281/zenodo.19627450](https://doi.org/10.5281/zenodo.19627450)
+
+:::
+
+:::
+
+---
+
+## Recent Blog Articles {.unlisted}
+
+Short, accessible articles exploring specific ME/CFS topics — mechanisms, treatment reasoning, and patient-facing explanations.
+
+::: {#recent-posts}
+:::
+
+[See all blog posts &rarr;](blog/index.qmd){.btn .btn-outline-primary}
