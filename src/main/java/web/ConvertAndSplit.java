@@ -26,9 +26,12 @@ void main(String[] args) throws IOException {
     // Strip any remaining #include lines (outside figures)
     src = src.replaceAll("(?m)^#include.*$\\n?", "");
 
-    // Citations: @key but NOT internal cross-ref prefixes (ch:, sec:, fig:, tab:, ach:, hyp:, spec:, oq:, app:, pred:, prop:, lim:, obs:)
-    // First: convert cross-references to plain text (remove @ prefix)
-    src = src.replaceAll("@(ch|sec|subsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app)(:|_)([a-zA-Z0-9_-]+)", "$1:$3");
+    // Typst _italic_ → *italic* (only outside code/math)
+    src = src.replaceAll("(?<!`|\"|\\w)_([^_\\s](?:[^_]*[^_\\s])?)_(?!\\w|\"|`)", "*$1*");
+
+    // Citations: @key but NOT internal cross-ref prefixes
+    // Cross-references with @: convert to Quarto crossref syntax @sec-xyz
+    src = src.replaceAll("@(ch|sec|subsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app)(:|_)([a-zA-Z0-9_-]+)", "@$1-$3");
     // Only convert actual BibTeX citation keys: @AuthorYear(suffix)
     src = src.replaceAll("@([A-Z][A-Za-z]+\\d{4}[a-zA-Z0-9]*)", "[@$1]");
     src = src.replaceAll("@([a-z]+\\d{4}[a-zA-Z0-9]*)", "[@$1]");
@@ -97,7 +100,11 @@ void main(String[] args) throws IOException {
         var stripped = line.strip();
 
         if (stripped.startsWith("= ") && !stripped.startsWith("== ")) {
-            chapTitle = stripped.substring(2).strip();
+            chapTitle = stripped.substring(2).strip().replaceAll("\\s*<[a-z]+:[^>]+>\\s*$", "");
+            // Extract label from heading line if present
+            var headingLabel = stripped.replaceAll("^=\\s+", "");
+            var m = Pattern.compile("<([a-z]+):([^>]+)>").matcher(headingLabel);
+            if (m.find()) chapLabel = "<" + m.group(1) + ":" + m.group(2) + ">";
             inPreamble = true;
             continue;
         }
@@ -105,8 +112,12 @@ void main(String[] args) throws IOException {
             if (secTitle != null) {
                 sections.add(new Section(secTitle, secLabel, new ArrayList<>(current)));
             }
-            secTitle = stripped.substring(3).strip();
-            secLabel = "";
+            secTitle = stripped.substring(3).strip().replaceAll("\\s*<[a-z]+:[^>]+>\\s*$", "");
+            // If label was on heading line, extract it as secLabel
+            var headingLabel = stripped.replaceAll("^==+\\s+", "");
+            var m = Pattern.compile("<([a-z]+):([^>]+)>").matcher(headingLabel);
+            if (m.find()) secLabel = "<" + m.group(1) + ":" + m.group(2) + ">";
+            else secLabel = "";
             current = new ArrayList<>();
             inPreamble = false;
             continue;
@@ -114,7 +125,10 @@ void main(String[] args) throws IOException {
         if (inPreamble) {
             if (!stripped.isEmpty() && !stripped.startsWith("<ch:")) preamble.add(line);
         } else {
-            if (stripped.startsWith("<sec:") && secLabel.isEmpty()) secLabel = stripped;
+            if (stripped.startsWith("<sec:") && secLabel.isEmpty()) {
+                secLabel = stripped;
+                continue; // don't keep label in body — it goes in the YAML-block section heading
+            }
             current.add(line);
         }
     }
@@ -165,18 +179,25 @@ void main(String[] args) throws IOException {
         var sb = new StringBuilder();
         sb.append("---\n");
         sb.append("title: \"").append(esc(sec.title())).append("\"\n");
-        sb.append("citeproc: false\n");
         sb.append("---\n\n");
 
         // Preamble goes on first section page
-        if (secNum == 1 && !preamble.isEmpty()) {
+        // Skip preamble when it matches body (solo-section fallback — all content is body)
+        if (secNum == 1 && !preamble.isEmpty() && sections.size() > 1) {
             for (var p : preamble) sb.append(p).append('\n');
             sb.append('\n');
         }
 
         sb.append("## ").append(sec.title()).append('\n');
-        if (!sec.label().isEmpty()) sb.append(sec.label().replace('<','{').replace('>','}')).append('\n');
-        sb.append('\n');
+        if (!sec.label().isEmpty()) {
+            var pandocLabel = sec.label()
+                .replaceFirst("^<", "{#")
+                .replaceFirst(">$", "}")
+                .replaceFirst(":", "-");
+            sb.append('\n').append(pandocLabel).append("\n\n");
+        } else {
+            sb.append('\n');
+        }
 
         for (var line : sec.body) {
             var raw = line;
@@ -195,12 +216,21 @@ void main(String[] args) throws IOException {
 
             // Handle <label> on its own line → {#label}
             if (raw.strip().matches("^<[a-zA-Z][\\w:\\.-]*>$")) {
-                var label = raw.strip().replaceFirst("^<", "{#").replaceFirst(">$", "}");
+                var label = raw.strip()
+                    .replaceFirst("^<", "{#")
+                    .replaceFirst(">$", "}")
+                    .replaceFirst(":", "-"); // {#obs:viral-meta} → {#obs-viral-meta}
                 sb.append(label).append('\n');
                 continue;
             }
 
+            // Convert bare cross-ref labels: sec:xyz → @sec-xyz (Quarto crossref)
+            // Must NOT be inside angle brackets (<sec:xyz> — those get {#sec-xyz} later)
+            raw = raw.replaceAll("(?<!<)\\b(sec|ch|subsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "@$1-$2$3");
+            raw = raw.replaceAll("(?<!<)\\b(sec|ch|subsec|fig|tab|eq|ach|hyp|spec|lim|obs|oq|pred|prop|app):([a-zA-Z0-9_-]+)$", "@$1-$2");
+
             // Convert inline labels: <sec:xyz> → {#sec-xyz}
+            // Also handle bare labels (after @ stripped): sec:xyz → {#sec-xyz}
             raw = raw.replaceAll("<sec:", "{#sec-");
             raw = raw.replaceAll("<subsec:", "{#subsec-");
             raw = raw.replaceAll("<ch:", "{#ch-");
@@ -215,6 +245,8 @@ void main(String[] args) throws IOException {
             raw = raw.replaceAll("<oq:", "{#oq-");
             raw = raw.replaceAll("<pred:", "{#pred-");
             raw = raw.replaceAll("<prop:", "{#prop-");
+            // Close trailing > on inline label conversions
+            raw = raw.replaceAll("(\\{[#][a-zA-Z][\\w:\\.-]*?)>", "$1}");
 
             // Close only label-style angle brackets: {...> becomes {...}
             raw = raw.replaceAll("\\{[#a-z][\\w:-]+>", "$0".replace(">", "}")); // doesn't work, doing it differently
