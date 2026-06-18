@@ -1,13 +1,12 @@
-// SplitBib — split monolithic references.bib into per-part .bib files
-// for the Quarto web build (which cannot handle a single large .bib).
+// SplitBib — split monolithic references.bib into per-topic .bib files
+// based on the research_stream field in each entry.
 //
-// Strategy:
-//   1. Parse all BibTeX entries from src/main/typst/mecfs/references.bib
-//   2. Scan each part's .typ files (once) for @citekey references
-//   3. Assign each entry to every part that cites it (duplication is fine;
-//      Quarto's citeproc deduplicates at render time)
-//   4. Entries cited by no part go into shared.bib
-//   5. Write split files to web/bib/
+// Streams are mapped to ~20 file-level categories. Both the Typst build
+// and the Quarto web build consume the same split files.
+//
+// Output: bib/ directory (relative to project root) with one .bib per category.
+// Typst: #bibliography(("bib/sleep.bib", "bib/immune.bib", ...), style: "ieee")
+// Quarto: _quarto.yml lists bib/*.bib files; Nix build copies them to web/bib/
 //
 // Run from project root: java --source 25 src/main/java/web/SplitBib.java
 import java.io.*;
@@ -17,103 +16,164 @@ import java.util.regex.*;
 
 void main() throws IOException {
     var bibPath = Path.of("src/main/typst/mecfs/references.bib");
-    var srcRoot = Path.of("src/main/typst/mecfs");
-    var outDir  = Path.of("web/bib");
+    var outDir  = Path.of("src/main/typst/mecfs/bib");
 
     long t0 = System.currentTimeMillis();
 
     var entries = parseBibEntries(bibPath);
-    System.out.println("Parsed " + entries.size() + " BibTeX entries ("
-                       + (System.currentTimeMillis() - t0) + " ms)");
-
-    var bibKeys = new HashSet<String>();
-    for (var e : entries) bibKeys.add(e.key());
-
-    var dirs = List.of("part1-clinical", "part2-pathophysiology", "part3-treatment",
-                       "part4-research", "part5-modeling", "appendices", "shared");
-
-    var citePat = Pattern.compile("@([A-Za-z][A-Za-z0-9_:./-]*)");
-    var dirCitations = new LinkedHashMap<String, Set<String>>();
-
-    for (var dir : dirs) {
-        long td = System.currentTimeMillis();
-        var keys = new HashSet<String>();
-        var dirPath = srcRoot.resolve(dir);
-        if (!Files.isDirectory(dirPath)) continue;
-        try (var walk = Files.walk(dirPath)) {
-            var typFiles = walk.filter(p -> p.toString().endsWith(".typ")).toList();
-            for (var f : typFiles) {
-                var content = Files.readString(f);
-                var m = citePat.matcher(content);
-                while (m.find()) {
-                    var k = m.group(1);
-                    if (bibKeys.contains(k)) keys.add(k);
-                }
-            }
-        }
-        dirCitations.put(dir, keys);
-        System.out.println("  " + dir + ": " + keys.size() + " keys ("
-                           + (System.currentTimeMillis() - td) + " ms)");
-    }
-
-    var sharedKeys = dirCitations.getOrDefault("shared", Set.of());
-
-    record PartDef(String srcDir, String bibName) {}
-    var parts = List.of(
-        new PartDef("part1-clinical",        "part1-clinical.bib"),
-        new PartDef("part2-pathophysiology",  "part2-pathophysiology.bib"),
-        new PartDef("part3-treatment",        "part3-treatment.bib"),
-        new PartDef("part4-research",         "part4-research.bib"),
-        new PartDef("part5-modeling",         "part5-modeling.bib"),
-        new PartDef("appendices",            "appendices.bib")
-    );
+    System.out.println("Parsed " + entries.size() + " BibTeX entries");
 
     Files.createDirectories(outDir);
 
-    var assigned = new HashSet<String>();
-    var partEntries = new LinkedHashMap<String, List<BibEntry>>();
-    for (var p : parts) partEntries.put(p.bibName(), new ArrayList<>());
-
-    for (var entry : entries) {
-        for (var p : parts) {
-            var partKeys = dirCitations.getOrDefault(p.srcDir(), Set.of());
-            if (partKeys.contains(entry.key()) || sharedKeys.contains(entry.key())) {
-                partEntries.get(p.bibName()).add(entry);
-                assigned.add(entry.key());
-            }
-        }
+    var buckets = new LinkedHashMap<String, List<BibEntry>>();
+    for (var e : entries) {
+        var cat = streamToCategory(e.stream());
+        buckets.computeIfAbsent(cat, k -> new ArrayList<>()).add(e);
     }
 
-    var unassigned = new ArrayList<BibEntry>();
-    for (var entry : entries) {
-        if (!assigned.contains(entry.key())) unassigned.add(entry);
+    var sortedCats = new ArrayList<>(buckets.keySet());
+    sortedCats.sort(String::compareTo);
+
+    for (var cat : sortedCats) {
+        var list = buckets.get(cat);
+        var path = outDir.resolve(cat + ".bib");
+        writeBibFile(path, list);
+        System.out.println("  " + cat + ".bib: " + list.size() + " entries");
     }
 
-    for (var p : parts) {
-        writeBibFile(outDir.resolve(p.bibName()), partEntries.get(p.bibName()));
-        System.out.println("  " + p.bibName() + ": " + partEntries.get(p.bibName()).size() + " entries");
+    System.out.println("\nDone: " + entries.size() + " entries → " + sortedCats.size()
+                       + " files in " + (System.currentTimeMillis() - t0) + " ms");
+
+    System.out.println("\nFile list for Typst #bibliography:");
+    var sb = new StringBuilder("#bibliography((");
+    for (int i = 0; i < sortedCats.size(); i++) {
+        if (i > 0) sb.append(", ");
+        sb.append("\"bib/").append(sortedCats.get(i)).append(".bib\"");
     }
+    sb.append("), style: \"ieee\")");
+    System.out.println(sb);
 
-    writeBibFile(outDir.resolve("shared.bib"), unassigned);
-    System.out.println("  shared.bib: " + unassigned.size() + " entries (uncited)");
-
-    int total = parts.stream().mapToInt(p -> partEntries.get(p.bibName()).size()).sum()
-                + unassigned.size();
-    System.out.println("\nDone: " + entries.size() + " source entries → "
-                       + (parts.size() + 1) + " files (" + total + " total incl. duplicates)"
-                       + " in " + (System.currentTimeMillis() - t0) + " ms");
+    System.out.println("\nFile list for _quarto.yml:");
+    System.out.println("bibliography:");
+    for (var cat : sortedCats) {
+        System.out.println("  - bib/" + cat + ".bib");
+    }
 }
 
-record BibEntry(String key, String rawText) {}
+String streamToCategory(String stream) {
+    if (stream == null || stream.isEmpty()) return "general";
+    var s = stream.toLowerCase();
+
+    if (s.contains("sleep") || s.contains("circadian") || s.contains("cryotherapy")
+        || s.contains("dora") || s.contains("lemborexant") || s.contains("orexin")
+        || s.equals("exosome-sleep-reversal")) return "sleep";
+
+    if (s.contains("glymphatic") || s.contains("brain-clearance") || s.contains("csf-drainage")) return "brain-clearance";
+
+    if (s.contains("energy-metabolism") || s.contains("krebs") || s.contains("nad-")
+        || s.contains("creatine") || s.contains("pgc1a") || s.contains("pdk-muscle")
+        || s.contains("mitochond") || s.contains("mtor") || s.contains("q10")
+        || s.contains("ubiquinol") || s.contains("funcap") || s.contains("cofactor")
+        || s.equals("riboflavin-metabolism") || s.equals("nrf2-pathway")) return "energy-metabolism";
+
+    if (s.contains("autoimmun") || s.contains("sle-mecfs") || s.contains("schizophrenia-autoantibod")
+        || s.contains("ant-autoantibod") || s.contains("tissue-specific-autoantibod")
+        || s.contains("gpcr-autoantibod") || s.contains("lc-autoantibodies")
+        || s.contains("monocyte-dc")) return "autoimmunity";
+
+    if (s.contains("mast-cell") || s.contains("mcas") || s.contains("mastcell")
+        || s.contains("isr") || s.contains("histamine")) return "mast-cell";
+
+    if (s.contains("neuroinflam") || s.contains("neuroimmune") || s.contains("tspo")
+        || s.contains("kynurenine") || s.contains("central-noradrenergic")
+        || s.contains("neuroimaging")) return "neuroinflammation";
+
+    if (s.contains("inflamm") || s.contains("cytokine") || s.contains("immune")
+        || s.contains("cd4-tcell") || s.contains("nets-dnase") || s.contains("blood-immune")
+        || s.contains("hsat2") || s.contains("mdsc") || s.contains("splicing")) return "immune";
+
+    if (s.contains("pots") || s.contains("autonomic") || s.contains("dysautonomia")
+        || s.contains("ans-aging") || s.contains("barorefl")) return "autonomic-cardiovascular";
+
+    if (s.contains("exercise") || s.contains("pem") || s.contains("cpet")) return "exercise-pem";
+
+    if (s.contains("endocrin") || s.contains("progesterone") || s.contains("hpa")
+        || s.contains("thyroid") || s.contains("pregnancy") || s.contains("reproductive")) return "endocrine-reproductive";
+
+    if (s.contains("gut") || s.contains("microbiom") || s.contains("butyrate")
+        || s.contains("gi,") || s.equals("gi") || s.contains("dysmotility")
+        || s.contains("ibs")) return "gut-microbiome";
+
+    if (s.contains("genetic") || s.contains("gwas") || s.contains("epigenetic")
+        || s.contains("methylat") || s.contains("lower-baseline")) return "genetics-epigenetics";
+
+    if (s.contains("long-covid") || s.contains("post-covid") || s.contains("sars-cov")
+        || s.contains("pasc") || s.contains("post-infectious")
+        || s.contains("methylprednisolone-long")) return "long-covid";
+
+    if (s.contains("connective") || s.contains("heds") || s.contains("hypermobil")
+        || s.contains("collagen") || s.contains("may-thurner")) return "connective-tissue";
+
+    if (s.contains("ion-channel") || s.contains("trpm") || s.contains("trp-")
+        || s.contains("calcium-channelopathy") || s.contains("pip2")
+        || s.contains("lithium")) return "ion-channels-lithium";
+
+    if (s.contains("vascular") || s.contains("endotheli") || s.contains("hif")
+        || s.contains("perfusion") || s.contains("hypoxia")) return "vascular";
+
+    if (s.contains("pain") || s.contains("fibromyalgia") || s.contains("central-sensitiz")) return "pain-fibromyalgia";
+
+    if (s.contains("stigma") || s.contains("psychogenic") || s.contains("psychosocial")) return "stigma";
+
+    if (s.contains("biomarker") || s.contains("diagnos") || s.contains("septad")
+        || s.contains("voice-biomarker") || s.contains("severity-classif")
+        || s.contains("mecfs-consensus") || s.contains("assessment")
+        || s.contains("fatigue,") || s.equals("fatigue")) return "diagnosis-assessment";
+
+    if (s.contains("epidemiolog") || s.contains("prevalence") || s.contains("prognosis")
+        || s.contains("bimodal-onset") || s.contains("mecfs-epidemiology")) return "epidemiology";
+
+    if (s.contains("treatment") || s.contains("medication") || s.contains("supplement")
+        || s.contains("taurine") || s.contains("vagal") || s.contains("land-rowing")
+        || s.contains("muscle-preservation") || s.contains("heat-cold")
+        || s.contains("rehabilitation") || s.contains("pacing") || s.contains("severe-mecfs")
+        || s.contains("stream-1-severe") || s.contains("severe-me")
+        || s.contains("weight-management") || s.contains("vitamin-k")
+        || s.contains("glp") || s.contains("precisionlife")) return "treatments";
+
+    if (s.contains("model") || s.contains("ode") || s.contains("simulation")
+        || s.contains("unified-mechanistic") || s.contains("cartography")) return "modeling";
+
+    if (s.contains("virus") || s.contains("herpes") || s.contains("ebv")
+        || s.contains("hhv") || s.contains("viral") || s.contains("pathogen")) return "viral-infection";
+
+    if (s.contains("adhd") || s.contains("cognit") || s.contains("depression")
+        || s.contains("neurology") || s.contains("pediatric")) return "neurology-comorbidities";
+
+    if (s.contains("wirth") || s.contains("universal-mechanisms")
+        || s.contains("pathophysiology") || s.contains("pathology")
+        || s.contains("senescence") || s.contains("stress-response")) return "pathophysiology-general";
+
+    if (s.contains("dermatolog") || s.contains("lichen")) return "dermatology";
+
+    if (s.equals("general") || s.equals("clinical-general") || s.equals("research-general")
+        || s.equals("reference-general") || s.equals("fourel-corrections")) return "general";
+
+    return "general";
+}
+
+record BibEntry(String key, String stream, String rawText) {}
 
 List<BibEntry> parseBibEntries(Path bibPath) throws IOException {
     var lines = Files.readAllLines(bibPath);
     var entries = new ArrayList<BibEntry>();
     var entryStart = Pattern.compile("^@(\\w+)\\{([^,]+),\\s*$");
+    var streamPat = Pattern.compile("research_stream\\s*=\\s*\\{([^}]+)\\}");
 
     var commentBuf = new ArrayList<String>();
     var entryBuf = new StringBuilder();
     String currentKey = null;
+    String currentStream = "";
     int braceDepth = 0;
     boolean inEntry = false;
 
@@ -127,6 +187,7 @@ List<BibEntry> parseBibEntries(Path bibPath) throws IOException {
             var m = entryStart.matcher(stripped);
             if (m.matches()) {
                 currentKey = m.group(2).trim();
+                currentStream = "";
                 inEntry = true;
                 braceDepth = 1;
                 if (!commentBuf.isEmpty()) {
@@ -143,13 +204,17 @@ List<BibEntry> parseBibEntries(Path bibPath) throws IOException {
         }
 
         entryBuf.append('\n').append(line);
+
+        var sm = streamPat.matcher(line);
+        if (sm.find()) currentStream = sm.group(1);
+
         for (int i = 0; i < line.length(); i++) {
             char c = line.charAt(i);
             if (c == '{') braceDepth++;
             else if (c == '}') {
                 braceDepth--;
                 if (braceDepth == 0) {
-                    entries.add(new BibEntry(currentKey, entryBuf.toString()));
+                    entries.add(new BibEntry(currentKey, currentStream, entryBuf.toString()));
                     entryBuf.setLength(0);
                     currentKey = null;
                     inEntry = false;
