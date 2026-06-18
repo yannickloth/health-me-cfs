@@ -92,6 +92,7 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("(?m)^\\s*/\\s+\\*([^*]+)\\*:(.*)$", "- **$1:**$2");
 
     // Typst math → LaTeX/MathJax math translation
+    // Standalone math tokens
     src = src.replace("$lt.eq$", "$\\leq$");
     src = src.replace("$gt.eq$", "$\\geq$");
     src = src.replace("$lt$", "$<$");
@@ -99,9 +100,8 @@ void main(String[] args) throws IOException {
     src = src.replace("$approx$", "$\\approx$");
     src = src.replace("$times$", "$\\times$");
     src = src.replace("$arrow.double.r$", "$\\Rightarrow$");
-    src = src.replaceAll("upright\\(\"([^\"]+)\"\\)", "\\\\text{$1}");
-    src = src.replaceAll("dot\\.op\\s+", "\\\\cdot ");
-    src = src.replaceAll("space\\s+", "");
+    // Typst math commands — translate within $...$ blocks to avoid prose collisions
+    src = translateMath(src);
 
     // #align(center, table(...)) → just table
     src = src.replaceAll("#align\\(center,\\s*", "");
@@ -232,6 +232,8 @@ void main(String[] args) throws IOException {
         for (var l : labels) headingLine += " " + l;
         sb.append(headingLine).append("\n\n");
 
+        String pendingLabel = null;
+
         for (var line : sec.body) {
             var raw = line;
             var stripped = raw.strip();
@@ -256,6 +258,11 @@ void main(String[] args) throws IOException {
                 // Wait — should be: === → ### (3), ==== → #### (4). So: level = eqCount
                 level = Math.max(1, eqCount);
                 raw = "#".repeat(level) + stripped.substring(eqCount);
+                // Attach pending label (if any) to this heading
+                if (pendingLabel != null) {
+                    raw = raw + " " + pendingLabel;
+                    pendingLabel = null;
+                }
             }
 
             // Convert standalone $...$ display math lines to $$...$$
@@ -263,22 +270,41 @@ void main(String[] args) throws IOException {
                 raw = "$$" + raw.strip().substring(1, raw.strip().length() - 1) + "$$";
             }
 
-            // Handle <label> on its own line — attach to previous heading
+            // Handle <label> on its own line — attach to previous heading if adjacent,
+            // otherwise prepend to the next non-empty non-heading line as inline anchor.
             if (raw.strip().matches("^<[a-zA-Z][\\w:\\.-]*>$")) {
                 var label = raw.strip()
                     .replaceFirst("^<", "{#")
                     .replaceFirst(">$", "}")
                     .replaceFirst(":", "-");
-                // Replace trailing newline of last sb line with " " + label + "\n"
                 var buf = sb.toString();
-                if (buf.endsWith("\n")) {
-                    sb.setLength(0);
-                    sb.append(buf.substring(0, buf.length() - 1));
-                    sb.append(' ').append(label).append('\n');
+                // Check if the last non-empty line in sb is a markdown heading
+                var lastLine = "";
+                var linesInBuf = buf.split("\n");
+                for (int li = linesInBuf.length - 1; li >= 0; li--) {
+                    if (!linesInBuf[li].isBlank()) { lastLine = linesInBuf[li]; break; }
+                }
+                if (lastLine.strip().matches("^#{1,6}\\s+.+")) {
+                    // Previous line is a heading → attach label inline
+                    if (buf.endsWith("\n")) {
+                        sb.setLength(0);
+                        sb.append(buf.substring(0, buf.length() - 1));
+                        sb.append(' ').append(label).append('\n');
+                    } else {
+                        sb.append(' ').append(label).append('\n');
+                    }
                 } else {
-                    sb.append(' ').append(label).append('\n');
+                    // Not a heading → prepend label to the NEXT non-empty output line
+                    // Write label as pending, to be attached to the next line
+                    pendingLabel = label;
                 }
                 continue;
+            }
+
+            // Prepend pending label to current line (if any)
+            if (pendingLabel != null && !stripped.isEmpty() && !stripped.matches("^#{1,6}\\s+.*")) {
+                raw = pendingLabel + " " + raw;
+                pendingLabel = null;
             }
 
             // Convert bare cross-ref labels: sec:xyz → @sec-xyz (Quarto crossref)
@@ -380,6 +406,42 @@ String quoteToBlockquote(String s) {
 }
 
 String esc(String s) { return s.replace("\"", "\\\""); }
+
+// Translate Typst math commands to LaTeX within $...$ and $$...$$ blocks.
+// Avoids matching prose words like "subset" or "cal" outside math mode.
+String translateMath(String s) {
+    var sb = new StringBuilder();
+    int i = 0;
+    while (i < s.length()) {
+        int dollar = s.indexOf('$', i);
+        if (dollar < 0) { sb.append(s.substring(i)); break; }
+        sb.append(s, i, dollar);
+        // Find matching closing $
+        int end = s.indexOf('$', dollar + 1);
+        if (end < 0) { sb.append(s.substring(dollar)); break; }
+        var math = s.substring(dollar + 1, end);
+        math = math
+            .replace("subset", "\\subset")
+            .replace("supset", "\\supset")
+            .replace("inter", "\\cap")
+            .replace("union", "\\cup")
+            .replace("eq.not", "\\neq")
+            .replace("nothing", "\\emptyset")
+            .replace("arrow.l.r", "\\leftrightarrow")
+            .replace("arrow.r", "\\rightarrow")
+            .replace("arrow.l", "\\leftarrow")
+            .replace("dot.op", "\\cdot")
+            .replace("plus.minus", "\\pm")
+            .replace("cal(", "\\mathcal{")
+            .replace("bold(", "\\mathbf{")
+            .replaceAll("upright\\(\"([^\"]+)\"\\)", "\\\\text{$1}")
+            .replace("#h(1em)", "\\quad")
+            .replaceAll("\\bspace\\b\\s*", "");
+        sb.append('$').append(math).append('$');
+        i = end + 1;
+    }
+    return sb.toString();
+}
 
 // Normalize confusable Unicode characters in titles to ASCII equivalents.
 // Preserves semantic intent — en-dash stays as hyphen in source but page content unchanged.
