@@ -27,7 +27,7 @@ void main(String[] args) throws IOException {
     // Strip bare figure path lines (broken includes left from Typst source refactoring)
     src = src.replaceAll("(?m)^[/.]+figures/fig-[^\"]*\\.typ\"?\\s*$\\n?", "");
     // Convert figure includes: #include "../figures/fig-xxx.typ" → ![Figure](figures/fig-xxx.svg)
-    src = src.replaceAll("#include\\s+\"([^\"]*)figures/(fig-[^\"]+)\\.typ\"", "![$2](figures/$2.svg)");
+    src = src.replaceAll("#include\\s+\"([^\"]*)figures/(fig-[^\"]+)\\.typ\"", "![$2](../../figures/$2.svg)");
     // Strip any remaining #include lines (outside figures)
     src = src.replaceAll("(?m)^#include.*$\\n?", "");
 
