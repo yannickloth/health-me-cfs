@@ -85,3 +85,15 @@ notes: >
   stools may be part of the same underlying pathophysiological process that
   also produced the headache on 2026-03-03. A shared upstream trigger is the
   working hypothesis; Bactecal is the therapeutic response, not the cause.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 8.0
+  temperature_max_c: 15.1
+  temperature_min_c: 1.5
+  humidity_pct: 74
+  pressure_msl_hpa: 1026.0
+  precipitation_mm: 0.0
+  wind_max_kmh: 11.8
+  conditions: "clear sky"
+  source: "Open-Meteo archive API (backfilled)"

@@ -29,3 +29,15 @@ overall_wellbeing: moderate
 
 activity:
   notes: "Took Rilatine MR 30 mg; felt sleepy"
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 12.2
+  temperature_max_c: 17.0
+  temperature_min_c: 6.6
+  humidity_pct: 35
+  pressure_msl_hpa: 1024.4
+  precipitation_mm: 0.0
+  wind_max_kmh: 24.0
+  conditions: "clear sky"
+  source: "Open-Meteo archive API (backfilled)"

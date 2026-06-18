@@ -21,3 +21,15 @@ sleep:
 notes: >
   Generally OK day. Required afternoon nap — may indicate mild energy
   depletion from household activities (ironing, cooking, light tasks).
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 7.5
+  temperature_max_c: 12.4
+  temperature_min_c: 2.9
+  humidity_pct: 71
+  pressure_msl_hpa: 1014.1
+  precipitation_mm: 0.0
+  wind_max_kmh: 19.2
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

@@ -93,3 +93,15 @@ interpretation: |
   the characteristic weakness → tremors → resolution pattern over 50 minutes.
 
   Night sleep disrupted by right buttock pain suggests musculoskeletal stress from recent activity levels.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 8.3
+  temperature_max_c: 9.6
+  temperature_min_c: 7.0
+  humidity_pct: 95
+  pressure_msl_hpa: 986.9
+  precipitation_mm: 18.1
+  wind_max_kmh: 26.8
+  conditions: "slight rain"
+  source: "Open-Meteo archive API (backfilled)"

@@ -29,3 +29,15 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: true
     test: "If no PEM develops within 48h, envelope restored. If PEM develops, recovery lagged behind subjective state."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 12.9
+  temperature_max_c: 15.8
+  temperature_min_c: 9.9
+  humidity_pct: 73
+  pressure_msl_hpa: 1017.9
+  precipitation_mm: 1.7
+  wind_max_kmh: 19.7
+  conditions: "moderate drizzle"
+  source: "Open-Meteo archive API (backfilled)"

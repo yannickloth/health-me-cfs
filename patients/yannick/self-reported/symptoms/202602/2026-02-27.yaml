@@ -27,3 +27,15 @@ notes: >
   noticeable and not absent). This is the first reported day at LDN 4 mg.
   Diffuse arm pain also reported (quite uncomfortable).
   Second day at LDN 4 mg (dose increase started 2026-02-26).
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 11.3
+  temperature_max_c: 17.2
+  temperature_min_c: 7.2
+  humidity_pct: 75
+  pressure_msl_hpa: 1018.6
+  precipitation_mm: 0.0
+  wind_max_kmh: 17.9
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

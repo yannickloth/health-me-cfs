@@ -45,3 +45,15 @@ overall_wellbeing: bad
 
 activity:
   notes: "Bad day — 4h morning nap non-restorative; post-nap headache, toxic feeling, brain fog; difficulty initiating sleep in evening due to headache"
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 11.5
+  temperature_max_c: 16.6
+  temperature_min_c: 6.2
+  humidity_pct: 74
+  pressure_msl_hpa: 1022.0
+  precipitation_mm: 0.3
+  wind_max_kmh: 16.6
+  conditions: "light drizzle"
+  source: "Open-Meteo archive API (backfilled)"

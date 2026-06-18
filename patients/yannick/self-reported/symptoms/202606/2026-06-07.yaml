@@ -23,3 +23,15 @@ overall_wellbeing: good
 activity:
   activity_level:
     - description: "Not recorded"
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 14.0
+  temperature_max_c: 17.9
+  temperature_min_c: 10.6
+  humidity_pct: 74
+  pressure_msl_hpa: 1022.8
+  precipitation_mm: 0.0
+  wind_max_kmh: 20.0
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

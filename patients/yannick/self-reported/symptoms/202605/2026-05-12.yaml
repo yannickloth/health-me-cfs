@@ -40,3 +40,15 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: true
     test: "If improvement continues, healing confirmed. If pain returns, consider alternative pathology."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 5.9
+  temperature_max_c: 9.3
+  temperature_min_c: 1.1
+  humidity_pct: 73
+  pressure_msl_hpa: 1015.2
+  precipitation_mm: 0.5
+  wind_max_kmh: 17.3
+  conditions: "light drizzle"
+  source: "Open-Meteo archive API (backfilled)"

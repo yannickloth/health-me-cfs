@@ -594,3 +594,15 @@ interpretation: |
   circulating inflammatory mediators (cytokines) from Feb 12 crash, possibly amplified by LCAR
   metabolic stress. The specificity of joint involvement (right medial knee, not diffuse) is more
   consistent with inflammatory arthritis than simple overuse.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 1.7
+  temperature_max_c: 5.2
+  temperature_min_c: -0.8
+  humidity_pct: 81
+  pressure_msl_hpa: 1006.4
+  precipitation_mm: 0.0
+  wind_max_kmh: 24.5
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

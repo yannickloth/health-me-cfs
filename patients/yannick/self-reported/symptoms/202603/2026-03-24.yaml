@@ -62,3 +62,15 @@ notes: >
   arm pain, following garden work (cutting branches, ~1h) the prior day
   with heart rate exceeding the ~105 bpm aerobic threshold. Medications
   and supplements taken as planned.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 8.6
+  temperature_max_c: 14.1
+  temperature_min_c: 3.0
+  humidity_pct: 66
+  pressure_msl_hpa: 1020.0
+  precipitation_mm: 0.0
+  wind_max_kmh: 20.1
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

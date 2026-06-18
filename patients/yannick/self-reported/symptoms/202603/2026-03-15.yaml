@@ -19,3 +19,15 @@ sleep:
 notes: >
   Weight measurement recorded: approximately 74 kg (self-report, 2026-03-15).
   No other symptom data provided for this date.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 3.5
+  temperature_max_c: 8.4
+  temperature_min_c: -0.6
+  humidity_pct: 79
+  pressure_msl_hpa: 1015.6
+  precipitation_mm: 0.0
+  wind_max_kmh: 13.6
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

@@ -43,3 +43,15 @@ notes: >
   sleep-deprivation-driven rather than PEM given today's improvement).
   All medications and supplements taken. Evening doses (1 famotidine, 1 rupatall,
   1 B2) taken as planned. Vitamin C discontinued (supply exhausted).
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 2.5
+  temperature_max_c: 6.1
+  temperature_min_c: -0.6
+  humidity_pct: 78
+  pressure_msl_hpa: 1017.1
+  precipitation_mm: 1.0
+  wind_max_kmh: 21.4
+  conditions: "slight snowfall"
+  source: "Open-Meteo archive API (backfilled)"

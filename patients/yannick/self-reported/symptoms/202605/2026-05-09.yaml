@@ -25,3 +25,15 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: true
     test: "If fatigue/headaches improve with anti-inflammatory treatment, inflammatory hypothesis supported. Monitor for PEM after physical activity."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 13.8
+  temperature_max_c: 19.8
+  temperature_min_c: 6.6
+  humidity_pct: 67
+  pressure_msl_hpa: 1016.4
+  precipitation_mm: 0.0
+  wind_max_kmh: 11.7
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

@@ -135,3 +135,15 @@ interpretation: |
   Consistent supplement protocol through recovery period is appropriate.
   The metabolic support supplements (D-ribose, MCT, CoQ10 equivalents) are especially
   relevant during PEM recovery when energy metabolism is compromised.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 2.4
+  temperature_max_c: 4.3
+  temperature_min_c: -1.1
+  humidity_pct: 86
+  pressure_msl_hpa: 1010.4
+  precipitation_mm: 1.2
+  wind_max_kmh: 23.9
+  conditions: "slight snowfall"
+  source: "Open-Meteo archive API (backfilled)"

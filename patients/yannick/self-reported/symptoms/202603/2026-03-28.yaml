@@ -64,3 +64,15 @@ notes: >
   Cognitive load during poker: mental arithmetic and card/token counting
   felt effortful and degraded vs. usual ability.
   Medication adherence not reported for this date.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 3.9
+  temperature_max_c: 7.8
+  temperature_min_c: 1.4
+  humidity_pct: 74
+  pressure_msl_hpa: 1021.7
+  precipitation_mm: 5.2
+  wind_max_kmh: 20.4
+  conditions: "moderate snowfall"
+  source: "Open-Meteo archive API (backfilled)"

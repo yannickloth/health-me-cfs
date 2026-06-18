@@ -30,3 +30,15 @@ symptoms:
 activity:
   pace: calm
   notes: "Low-activity day"
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 10.6
+  temperature_max_c: 13.8
+  temperature_min_c: 8.4
+  humidity_pct: 91
+  pressure_msl_hpa: 1020.9
+  precipitation_mm: 2.1
+  wind_max_kmh: 20.3
+  conditions: "light drizzle"
+  source: "Open-Meteo archive API (backfilled)"

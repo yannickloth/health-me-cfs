@@ -371,3 +371,15 @@ interpretation: |
   - Sleep optimization critical (cognitive preservation suggests CNS has capacity if sleep improves)
   - Energy metabolism support (LCAR, CoQ10) still appropriate for peripheral fatigue
   - **14-day strict rest may be overly conservative** if this is autonomic rather than PEM - patient can likely resume light cognitive work as tolerated given preserved cognitive function
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 6.4
+  temperature_max_c: 8.6
+  temperature_min_c: 5.2
+  humidity_pct: 88
+  pressure_msl_hpa: 993.1
+  precipitation_mm: 1.9
+  wind_max_kmh: 26.9
+  conditions: "light drizzle"
+  source: "Open-Meteo archive API (backfilled)"

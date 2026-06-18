@@ -36,3 +36,15 @@ notes: >
   a nap. Today's morning tiredness may represent delayed post-exertional
   response to yesterday's activities, or baseline non-restorative sleep.
   Worth monitoring whether this worsens or resolves with rest.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 7.5
+  temperature_max_c: 14.4
+  temperature_min_c: 1.1
+  humidity_pct: 63
+  pressure_msl_hpa: 1018.3
+  precipitation_mm: 0.0
+  wind_max_kmh: 8.7
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

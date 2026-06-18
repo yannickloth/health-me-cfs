@@ -30,3 +30,15 @@ overall_wellbeing: fair
 
 activity:
   notes: "All medications taken, mild fatigue noted"
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 10.6
+  temperature_max_c: 17.8
+  temperature_min_c: 5.4
+  humidity_pct: 73
+  pressure_msl_hpa: 1012.2
+  precipitation_mm: 7.3
+  wind_max_kmh: 21.1
+  conditions: "moderate rain"
+  source: "Open-Meteo archive API (backfilled)"

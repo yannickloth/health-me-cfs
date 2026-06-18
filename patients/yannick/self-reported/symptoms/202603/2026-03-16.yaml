@@ -20,3 +20,15 @@ notes: >
   Pain is periarticular (surrounding tissues), not intra-articular — patient clarification.
   Onset after grocery shopping (Auchan) this morning — physical exertion trigger.
   Mild cognitive dip likely related to no Ritalin today (took it yesterday, worked well).
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 6.0
+  temperature_max_c: 8.8
+  temperature_min_c: 3.2
+  humidity_pct: 78
+  pressure_msl_hpa: 1018.0
+  precipitation_mm: 5.8
+  wind_max_kmh: 22.9
+  conditions: "moderate snowfall"
+  source: "Open-Meteo archive API (backfilled)"

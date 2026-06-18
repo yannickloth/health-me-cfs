@@ -29,3 +29,15 @@ overall_wellbeing: unknown
 
 activity:
   notes: "Tinnitus whole day — added retrospectively"
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 8.3
+  temperature_max_c: 13.6
+  temperature_min_c: 1.6
+  humidity_pct: 75
+  pressure_msl_hpa: 1019.9
+  precipitation_mm: 0.0
+  wind_max_kmh: 6.6
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

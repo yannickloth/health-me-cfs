@@ -40,3 +40,15 @@ notes: >
   legs and shoulders. Cooking pancakes triggered fatigue and weakness, consistent with
   reduced functional capacity for light household tasks. Preferred posture is lying on
   couch. No PEM episode active. Iron and Vitamin C not taken today. LDN not taken.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 9.5
+  temperature_max_c: 10.4
+  temperature_min_c: 8.9
+  humidity_pct: 98
+  pressure_msl_hpa: 1022.1
+  precipitation_mm: 17.0
+  wind_max_kmh: 27.8
+  conditions: "moderate rain"
+  source: "Open-Meteo archive API (backfilled)"

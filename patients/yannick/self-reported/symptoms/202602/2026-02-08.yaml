@@ -30,3 +30,15 @@ clinical_notes: |
   - Decision: Continued activity despite low energy and pain
 
   Clinical significance: Possible activity-triggered PEM precursor.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 3.2
+  temperature_max_c: 5.3
+  temperature_min_c: 0.8
+  humidity_pct: 95
+  pressure_msl_hpa: 1008.2
+  precipitation_mm: 0.0
+  wind_max_kmh: 12.2
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

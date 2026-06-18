@@ -39,3 +39,15 @@ notes: >
   with the LDN pause. The periarticular pain and non-restorative sleep
   pattern may reflect baseline ME/CFS symptoms now visible without LDN's
   masking/modulating effect, or could be unrelated.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 7.9
+  temperature_max_c: 14.2
+  temperature_min_c: 2.3
+  humidity_pct: 63
+  pressure_msl_hpa: 1019.9
+  precipitation_mm: 0.0
+  wind_max_kmh: 10.2
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

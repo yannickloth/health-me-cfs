@@ -142,3 +142,15 @@ clinical_notes: |
   - Objective monitoring tools (heart rate, step counts)
   - Provigil usage strategy (may be counterproductive for pacing)
   - Psychological support for pacing adherence (very difficult to rest when feeling well)
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 4.1
+  temperature_max_c: 7.8
+  temperature_min_c: 1.4
+  humidity_pct: 95
+  pressure_msl_hpa: 999.8
+  precipitation_mm: 7.4
+  wind_max_kmh: 21.9
+  conditions: "moderate snowfall"
+  source: "Open-Meteo archive API (backfilled)"

@@ -36,3 +36,15 @@ notes: >
   Took a nap 11:30-14:00 (2.5h). Diffuse muscle pain emerged during the nap,
   waking patient but without energy to get up — stayed in bed waiting for
   pain to subside.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 7.7
+  temperature_max_c: 14.2
+  temperature_min_c: 3.2
+  humidity_pct: 75
+  pressure_msl_hpa: 1021.8
+  precipitation_mm: 0.0
+  wind_max_kmh: 12.5
+  conditions: "mainly clear"
+  source: "Open-Meteo archive API (backfilled)"

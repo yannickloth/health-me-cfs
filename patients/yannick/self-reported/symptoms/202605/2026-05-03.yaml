@@ -25,3 +25,15 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: true
     test: "If fatigue resolves on stimulant-free days without prior Rilatine use, rebound hypothesis supported; if fatigue persists equally, hypothesis refuted."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 14.5
+  temperature_max_c: 16.5
+  temperature_min_c: 12.3
+  humidity_pct: 64
+  pressure_msl_hpa: 1013.6
+  precipitation_mm: 2.3
+  wind_max_kmh: 20.0
+  conditions: "moderate drizzle"
+  source: "Open-Meteo archive API (backfilled)"

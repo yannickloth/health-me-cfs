@@ -34,3 +34,15 @@ overall_wellbeing: very_bad
 
 activity:
   notes: "Lawn mowing ~20 min (only activity). Continued rest/sleep due to ongoing lumbago + headache. See event: events/2026-04-23_lumbago-headache-episode.md"
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 11.5
+  temperature_max_c: 19.3
+  temperature_min_c: 3.7
+  humidity_pct: 54
+  pressure_msl_hpa: 1022.9
+  precipitation_mm: 0.0
+  wind_max_kmh: 12.0
+  conditions: "partly cloudy"
+  source: "Open-Meteo archive API (backfilled)"

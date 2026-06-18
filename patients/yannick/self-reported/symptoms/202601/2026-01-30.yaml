@@ -75,3 +75,15 @@ alerts:
   - type: "SUCCESSFUL_LIMITATION"
     severity: "LOW"
     message: "Patient limited activity after trigger, prevented PEM escalation"
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 1.2
+  temperature_max_c: 4.2
+  temperature_min_c: -1.1
+  humidity_pct: 96
+  pressure_msl_hpa: 998.1
+  precipitation_mm: 0.4
+  wind_max_kmh: 17.1
+  conditions: "light drizzle"
+  source: "Open-Meteo archive API (backfilled)"

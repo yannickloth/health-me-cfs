@@ -100,3 +100,15 @@ interpretation: |
   **Recommendation**: Strict rest for remainder of day. Monitor for PEM development over next 24-48h.
   Consider whether stimulant support (Provigil/Ritalin) might prevent such rapid deterioration on
   necessary-activity days.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 7.5
+  temperature_max_c: 8.6
+  temperature_min_c: 6.3
+  humidity_pct: 94
+  pressure_msl_hpa: 982.4
+  precipitation_mm: 15.4
+  wind_max_kmh: 29.7
+  conditions: "moderate rain"
+  source: "Open-Meteo archive API (backfilled)"

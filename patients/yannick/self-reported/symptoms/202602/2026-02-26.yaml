@@ -20,3 +20,15 @@ medications:
 notes: >
   First day at LDN 4 mg. Diffuse musculoskeletal pain reported across
   shoulders, legs, and mildly in arms. No other symptoms reported for this date.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 9.9
+  temperature_max_c: 15.7
+  temperature_min_c: 5.6
+  humidity_pct: 86
+  pressure_msl_hpa: 1022.6
+  precipitation_mm: 0.0
+  wind_max_kmh: 15.1
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

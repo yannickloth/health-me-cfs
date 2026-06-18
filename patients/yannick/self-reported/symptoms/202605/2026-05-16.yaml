@@ -40,3 +40,15 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: false
     test: "Cannot falsify - grief response expected and highly individual."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 6.8
+  temperature_max_c: 11.2
+  temperature_min_c: 3.3
+  humidity_pct: 84
+  pressure_msl_hpa: 1010.8
+  precipitation_mm: 3.8
+  wind_max_kmh: 15.0
+  conditions: "slight rain"
+  source: "Open-Meteo archive API (backfilled)"

@@ -42,3 +42,15 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: true
     test: "Monitor days 7-10 for baseline return. If recovery >10 days, document as extended PEM episode."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 14.2
+  temperature_max_c: 18.5
+  temperature_min_c: 9.2
+  humidity_pct: 70
+  pressure_msl_hpa: 1018.7
+  precipitation_mm: 0.0
+  wind_max_kmh: 15.9
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

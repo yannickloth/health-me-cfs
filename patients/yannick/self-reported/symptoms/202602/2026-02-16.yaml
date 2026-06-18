@@ -267,3 +267,15 @@ interpretation: |
   continued strict rest.
 
   [To be updated with sleep quality tonight and any additional evening/night symptoms]
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 3.4
+  temperature_max_c: 4.8
+  temperature_min_c: 1.6
+  humidity_pct: 94
+  pressure_msl_hpa: 999.2
+  precipitation_mm: 9.1
+  wind_max_kmh: 26.0
+  conditions: "heavy snowfall"
+  source: "Open-Meteo archive API (backfilled)"

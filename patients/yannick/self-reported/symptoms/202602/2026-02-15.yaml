@@ -336,3 +336,15 @@ interpretation: |
   - Strict pacing with 48h symptom monitoring
   - Conservative energy envelope (far below what feels possible)
   - Minimum 14-day rest after any crash before testing increased activity
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 0.1
+  temperature_max_c: 2.5
+  temperature_min_c: -1.1
+  humidity_pct: 79
+  pressure_msl_hpa: 1013.6
+  precipitation_mm: 8.6
+  wind_max_kmh: 24.2
+  conditions: "heavy snowfall"
+  source: "Open-Meteo archive API (backfilled)"

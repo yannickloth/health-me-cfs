@@ -43,3 +43,15 @@ notes: >
   a common underlying cause rather than being independent events. The
   co-occurrence warrants longitudinal monitoring to identify any recurring
   pattern.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 8.9
+  temperature_max_c: 15.9
+  temperature_min_c: 3.7
+  humidity_pct: 72
+  pressure_msl_hpa: 1025.5
+  precipitation_mm: 0.0
+  wind_max_kmh: 8.7
+  conditions: "clear sky"
+  source: "Open-Meteo archive API (backfilled)"

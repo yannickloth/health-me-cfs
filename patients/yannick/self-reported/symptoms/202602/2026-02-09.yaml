@@ -50,3 +50,15 @@ clinical_notes: |
     3) Recording time may have been late in recovery
 
   Relevant context for Monday Ritalin trial: This recovery day appears to be when Ritalin MR was first taken.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 3.6
+  temperature_max_c: 5.4
+  temperature_min_c: 2.1
+  humidity_pct: 92
+  pressure_msl_hpa: 1006.8
+  precipitation_mm: 0.0
+  wind_max_kmh: 13.3
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

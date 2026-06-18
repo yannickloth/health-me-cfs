@@ -55,3 +55,15 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: false
     test: "Cannot falsify - emotional processing effects are highly individual and lack clear counterfactual."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 9.0
+  temperature_max_c: 13.4
+  temperature_min_c: 3.8
+  humidity_pct: 84
+  pressure_msl_hpa: 1014.1
+  precipitation_mm: 1.4
+  wind_max_kmh: 20.7
+  conditions: "light drizzle"
+  source: "Open-Meteo archive API (backfilled)"

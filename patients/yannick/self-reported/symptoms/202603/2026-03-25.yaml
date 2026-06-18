@@ -26,3 +26,15 @@ notes: >
   Fatigue on day 2 post-exertion (garden work 2026-03-23). Etiology unclear:
   could be PEM continuation, sleep deprivation, or both. Prior night's sleep
   was fragmented (toothpain ~00:00, TV ~03:00 on 2026-03-24 night).
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 5.9
+  temperature_max_c: 9.6
+  temperature_min_c: 1.6
+  humidity_pct: 82
+  pressure_msl_hpa: 1008.0
+  precipitation_mm: 9.3
+  wind_max_kmh: 27.3
+  conditions: "moderate snowfall"
+  source: "Open-Meteo archive API (backfilled)"

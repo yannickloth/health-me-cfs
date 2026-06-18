@@ -25,3 +25,15 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: true
     test: "If fatigue/headaches improve with anti-inflammatory treatment, inflammatory hypothesis supported."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 10.7
+  temperature_max_c: 11.9
+  temperature_min_c: 9.1
+  humidity_pct: 88
+  pressure_msl_hpa: 1007.4
+  precipitation_mm: 2.7
+  wind_max_kmh: 14.9
+  conditions: "moderate drizzle"
+  source: "Open-Meteo archive API (backfilled)"

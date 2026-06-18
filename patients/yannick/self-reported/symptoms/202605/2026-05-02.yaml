@@ -24,3 +24,15 @@ overall_wellbeing: ~
 
 activity:
   notes: "No stimulants taken."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 16.2
+  temperature_max_c: 21.4
+  temperature_min_c: 11.1
+  humidity_pct: 60
+  pressure_msl_hpa: 1018.9
+  precipitation_mm: 4.0
+  wind_max_kmh: 13.0
+  conditions: "slight rain"
+  source: "Open-Meteo archive API (backfilled)"

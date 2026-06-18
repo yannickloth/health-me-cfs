@@ -85,3 +85,15 @@ clinical_notes: |
   - Hypoglycemic-like tremors warrant checking actual blood glucose if possible
   - Could also represent dysautonomia (Ritalin affects BP/HR)
   - Should discuss with physician before next Ritalin trial
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 5.9
+  temperature_max_c: 9.6
+  temperature_min_c: 2.2
+  humidity_pct: 94
+  pressure_msl_hpa: 995.5
+  precipitation_mm: 3.0
+  wind_max_kmh: 17.7
+  conditions: "moderate drizzle"
+  source: "Open-Meteo archive API (backfilled)"

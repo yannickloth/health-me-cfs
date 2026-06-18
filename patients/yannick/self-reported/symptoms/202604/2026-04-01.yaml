@@ -20,3 +20,15 @@ medications_supplements:
   mct_oil:           { taken: false, reason: "Skipped" }
   d_ribose:          { taken: false, reason: "Skipped" }
   vitamin_c:         { taken: false, reason: "discontinued 2026-03-26" }
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 6.3
+  temperature_max_c: 10.6
+  temperature_min_c: 2.2
+  humidity_pct: 72
+  pressure_msl_hpa: 1024.9
+  precipitation_mm: 0.0
+  wind_max_kmh: 11.9
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

@@ -39,3 +39,15 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: true
     test: "If anti-inflammatory interventions (LDN, famotidine) reduce symptom severity during future episodes, supports neuroinflammatory component."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 11.4
+  temperature_max_c: 15.2
+  temperature_min_c: 8.1
+  humidity_pct: 80
+  pressure_msl_hpa: 1018.9
+  precipitation_mm: 5.3
+  wind_max_kmh: 18.7
+  conditions: "dense drizzle"
+  source: "Open-Meteo archive API (backfilled)"

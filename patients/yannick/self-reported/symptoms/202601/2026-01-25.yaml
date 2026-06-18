@@ -98,3 +98,15 @@ alerts:
   - type: "INFECTION_MONITORING"
     severity: "MODERATE"
     message: "Track symptom progression and watch for bacterial complications"
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: -1.1
+  temperature_max_c: 1.2
+  temperature_min_c: -3.2
+  humidity_pct: 86
+  pressure_msl_hpa: 999.6
+  precipitation_mm: 0.0
+  wind_max_kmh: 10.8
+  conditions: "overcast"
+  source: "Open-Meteo archive API (backfilled)"

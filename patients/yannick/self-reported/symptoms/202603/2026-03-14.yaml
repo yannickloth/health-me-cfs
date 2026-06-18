@@ -37,3 +37,15 @@ notes: >
   Morning medications taken (see 2026-03-14.yaml in medications/):
   Rupatadine (Rupatall), PEA, L-Carnitine (LCar), Montelukast, LDN 4.5 mg.
   No information on other activities, triggers, or additional symptoms for this date.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 3.4
+  temperature_max_c: 6.3
+  temperature_min_c: 0.9
+  humidity_pct: 85
+  pressure_msl_hpa: 1003.6
+  precipitation_mm: 8.4
+  wind_max_kmh: 25.3
+  conditions: "slight rain"
+  source: "Open-Meteo archive API (backfilled)"

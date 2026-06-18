@@ -36,3 +36,15 @@ overall_wellbeing: good
 
 activity:
   notes: "Feeling well overall — no headache, no pain. Back pain still present. Took Rilatine MR 30 mg."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 14.2
+  temperature_max_c: 21.3
+  temperature_min_c: 6.9
+  humidity_pct: 36
+  pressure_msl_hpa: 1024.0
+  precipitation_mm: 0.0
+  wind_max_kmh: 16.4
+  conditions: "clear sky"
+  source: "Open-Meteo archive API (backfilled)"

@@ -84,3 +84,15 @@ interpretation: |
   - Feb 14 pattern: felt well → overexerted → secondary crash
   - Wait for Feb 19 report before updating activity envelope
   - If Feb 19 remains symptom-free → cautious stepwise increase can be considered
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 0.8
+  temperature_max_c: 4.1
+  temperature_min_c: -2.5
+  humidity_pct: 84
+  pressure_msl_hpa: 1011.3
+  precipitation_mm: 4.7
+  wind_max_kmh: 22.7
+  conditions: "moderate snowfall"
+  source: "Open-Meteo archive API (backfilled)"

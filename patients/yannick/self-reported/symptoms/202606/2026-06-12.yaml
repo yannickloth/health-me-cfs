@@ -37,3 +37,15 @@ hypotheses:
     status: patient_hypothesis
     falsifiable: true
     test: "If this phase pattern repeats across future PEM episodes, supports multi-phase PEM model."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 14.5
+  temperature_max_c: 17.0
+  temperature_min_c: 11.2
+  humidity_pct: 93
+  pressure_msl_hpa: 1022.2
+  precipitation_mm: 6.2
+  wind_max_kmh: 23.8
+  conditions: "moderate drizzle"
+  source: "Open-Meteo archive API (backfilled)"

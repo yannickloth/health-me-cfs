@@ -28,3 +28,15 @@ overall_wellbeing: moderate
 
 activity:
   notes: "Nap required. Tired but no mental fog."
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 13.7
+  temperature_max_c: 19.1
+  temperature_min_c: 7.8
+  humidity_pct: 38
+  pressure_msl_hpa: 1020.9
+  precipitation_mm: 0.0
+  wind_max_kmh: 22.8
+  conditions: "mainly clear"
+  source: "Open-Meteo archive API (backfilled)"

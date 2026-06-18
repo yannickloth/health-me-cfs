@@ -66,3 +66,15 @@ notes: >
   tokens, money) felt effortful and degraded — normally a strength.
   Priority: hydration, electrolytes, salt, rest. Keep activity minimal to avoid
   stacking hangover with PEM.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 4.2
+  temperature_max_c: 9.6
+  temperature_min_c: -0.5
+  humidity_pct: 71
+  pressure_msl_hpa: 1028.7
+  precipitation_mm: 0.1
+  wind_max_kmh: 17.6
+  conditions: "light drizzle"
+  source: "Open-Meteo archive API (backfilled)"

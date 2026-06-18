@@ -107,3 +107,15 @@ notes: >
   rapid malaise and tachycardia. Attributed to autonomic dysregulation and central
   sensitization facilitated by ME/CFS. Flag for physician discussion.
   All medications taken today (see 2026-03-13.yaml in medications/).
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 7.4
+  temperature_max_c: 10.7
+  temperature_min_c: 4.7
+  humidity_pct: 86
+  pressure_msl_hpa: 1009.6
+  precipitation_mm: 14.3
+  wind_max_kmh: 30.7
+  conditions: "moderate rain"
+  source: "Open-Meteo archive API (backfilled)"

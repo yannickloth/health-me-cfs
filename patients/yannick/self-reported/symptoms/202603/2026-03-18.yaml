@@ -49,3 +49,15 @@ notes: >
   worsening to 2 weeks on LDN 4.5 mg (started ~2026-03-06) and questions whether
   the dose is too high. This symptom profile — sedation, nausea, cognitive
   disturbance — is a recognised pattern of LDN dose intolerance.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 7.9
+  temperature_max_c: 11.9
+  temperature_min_c: 4.0
+  humidity_pct: 65
+  pressure_msl_hpa: 1022.6
+  precipitation_mm: 0.0
+  wind_max_kmh: 24.8
+  conditions: "partly cloudy"
+  source: "Open-Meteo archive API (backfilled)"

@@ -25,3 +25,15 @@ symptoms:
     present: true
     severity: moderate
     notes: "Tired, likely due to lack of sleep"
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 5.3
+  temperature_max_c: 10.9
+  temperature_min_c: -1.4
+  humidity_pct: 82
+  pressure_msl_hpa: 1019.2
+  precipitation_mm: 0.3
+  wind_max_kmh: 25.1
+  conditions: "light drizzle"
+  source: "Open-Meteo archive API (backfilled)"

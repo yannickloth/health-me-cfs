@@ -36,3 +36,15 @@ new_medication:
     which is the low end of the proposed range from the Mestinon request
     document (which suggested starting at 30 mg 1-2x/day). Actual prescription
     is 10 mg pills, 3x/day. Only 2 pills today since started in the afternoon.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 4.4
+  temperature_max_c: 9.4
+  temperature_min_c: -1.0
+  humidity_pct: 75
+  pressure_msl_hpa: 1028.2
+  precipitation_mm: 0.4
+  wind_max_kmh: 16.2
+  conditions: "light drizzle"
+  source: "Open-Meteo archive API (backfilled)"

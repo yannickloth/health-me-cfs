@@ -22,3 +22,15 @@ notes: >
   fatigue ("well tired") is notable but within expected ME/CFS energy envelope
   patterns rather than the LDN-associated symptom cluster. Continued improvement
   off LDN 4.5 mg supports dose intolerance hypothesis.
+
+weather:
+  location: "Messancy, Belgium"
+  temperature_mean_c: 8.6
+  temperature_max_c: 13.9
+  temperature_min_c: 4.0
+  humidity_pct: 61
+  pressure_msl_hpa: 1023.7
+  precipitation_mm: 0.0
+  wind_max_kmh: 18.3
+  conditions: "partly cloudy"
+  source: "Open-Meteo archive API (backfilled)"
