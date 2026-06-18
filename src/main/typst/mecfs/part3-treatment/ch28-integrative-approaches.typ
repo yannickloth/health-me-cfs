@@ -213,6 +213,24 @@ See Section @sec:protocols in Chapter @ch:supplements for cost-stratified supp
 === When to Stop Trying
 <subsec:when-to-stop>
 
+Not every treatment works for every patient. ME/CFS patients frequently try dozens of interventions across years; knowing when to discontinue a treatment is as important as knowing when to start. Discontinuation decisions must weigh three factors: trial adequacy, response evidence, and risk of harm.
+
+*Trial duration adequacy.* Most supplements require 4--8 weeks to produce detectable effects; medications typically require 2--12 weeks depending on mechanism. Interventions with slow pharmacodynamics (LDN, immunomodulators, antidepressants) require minimum 8-week trials before concluding non-response. Lifestyle interventions (dietary changes, breathing protocols, pacing strategies) require 4--6 weeks minimum. Discontinuing earlier than these windows risks discarding an effective treatment before benefit manifests.
+
+*Adverse effect thresholds.* Treatment should be discontinued immediately if: liver transaminases exceed 3$times$ upper limit of normal, renal function declines by greater than 20%, QTc prolongation exceeds 500 ms or increases by greater than 60 ms from baseline, anaphylaxis or angioedema occurs, or the patient develops new suicidal ideation temporally linked to treatment initiation. These thresholds are standard pharmacovigilance criteria, not ME/CFS-specific.
+
+*PEM-worsening as a discontinuation signal.* An increase in PEM frequency, severity, or duration that persists beyond the expected adaptation period (typically 2--4 weeks) is a valid reason to discontinue. Distinguishing transient adaptation effects from genuine intolerance requires systematic symptom tracking (daily PEM severity 0--10, activity log) across the full trial period. A sustained increase in PEM severity of 2+ points on a 0--10 scale for greater than 2 consecutive weeks without alternative explanation warrants discontinuation.
+
+*Distinguishing transient side effects from intolerance.* Many ME/CFS treatments produce initial side effects that resolve with continued use (LDN: sleep disturbance and vivid dreams for 1--2 weeks; SSRIs: nausea and activation for 1--3 weeks; CoQ10: mild gastrointestinal upset for 1--2 weeks). These should not trigger discontinuation unless severe. Side effects that worsen over time, fail to improve after 2 weeks, or significantly impair daily function despite dose reduction are intolerance signals.
+
+*Cost-effectiveness stopping rules.* Treatments costing more than $100/month should demonstrate objective benefit (quantified symptom improvement, functional capacity gain, or biomarker normalization) within 3 months. Subjective "feeling slightly better" is insufficient justification for continued high-cost treatment. Treatments without measurable benefit after an adequate trial of maximum tolerated dose should be discontinued to preserve financial and metabolic resources for other interventions.
+
+*Patient autonomy.* Discontinuation decisions must be shared between patient and clinician. Patients who wish to continue a treatment despite modest benefit should be supported if safety monitoring is maintained. Conversely, patients who wish to discontinue despite clinician recommendation should not be pressured to continue. The energy cost of continuing an unwanted treatment is itself a harm in ME/CFS.
+
+#open-question(title: [Optimal Trial Duration in ME/CFS])[
+  *Certainty: 0.25.* No prospective study has determined optimal trial durations for specific ME/CFS treatments. Current recommendations are extrapolated from general pharmacology, related conditions (fibromyalgia, POTS, autoimmune disease), and clinical experience. A systematic study of time-to-response for common ME/CFS interventions (LDN, CoQ10, SSRIs, antivirals) would directly inform clinical practice.
+]
+
 === Time-Dependent Reversibility Windows
 <subsec:reversibility-windows>
 
@@ -348,8 +366,43 @@ The treatment energy classification (Categories A/B/C), micro-dosing imperative,
 <sec:comorbidities-treatment>
 
 === POTS Management
-// See also Chapter @ch:symptom-management
-// Integrated approach
+<subsec:pots-management>
+
+Postural orthostatic tachycardia syndrome (POTS) affects an estimated 30--50% of ME/CFS patients according to recent meta-analysis @Wang2026POTS36prevalence, with orthostatic intolerance representing one of the most functionally disabling comorbid features. POTS management in ME/CFS requires particular attention to the energy cost of interventions, as many standard POTS treatments (exercise protocols, vasoactive medications) impose metabolic demands that may trigger PEM in this population.
+
+*Non-pharmacological foundation.* First-line POTS management begins with interventions that impose minimal energy cost:
+
+    - *Fluid and salt loading.* 2--3 liters of water daily with 6--10 g sodium chloride, ideally distributed across waking hours. This expands plasma volume without pharmacological processing burden (Category A).
+    - *Compression garments.* Waist-high 30--40 mmHg compression stockings or abdominal binders reduce venous pooling and improve orthostatic tolerance. Compression is particularly effective when combined with fluid loading @Okamoto2025pyridostigmine.
+    - *Counter-pressure maneuvers.* Leg crossing, squatting, and muscle tensing during presyncopal episodes can abort syncope without any metabolic cost. These maneuvers are teachable in a single clinical visit.
+    - *Sleep positioning.* Head-of-bed elevation (10--20 degrees, 6--8 inches) using blocks under bed legs rather than pillows reduces nocturnal diuresis and preserves morning plasma volume. This is a zero-energy-cost intervention supported by autonomic physiology @Bagai2011sleepPOTS.
+
+*Pharmacological management.* When non-pharmacological measures are insufficient, pharmacotherapy follows a stepwise approach ordered by energy cost (see Section @subsec:energy-categories):
+
+    - *Fludrocortisone* (0.05--0.2 mg/day, Category B--C): Synthetic mineralocorticoid for plasma volume expansion via renal sodium retention. Potassium monitoring is mandatory. Severe patients may not tolerate initial adaptation period (2--4 weeks of electrolyte rebalancing). Starting dose for severe ME/CFS: 0.05 mg/day with slow titration.
+    - *Midodrine* (2.5--10 mg 2--3$times$/day, Category B--C): Peripheral alpha-1 agonist for vasoconstriction @Kwok2026midodrine. Energy cost from sustained vasoconstriction and cardiovascular compensation. Supine hypertension is a documented risk requiring monitoring. Dose timing 3--4 hours before supine position to avoid nocturnal hypertension.
+    - *Ivabradine* (2.5--7.5 mg twice daily, Category B): Selective sinus node I_f channel inhibitor that reduces heart rate without affecting blood pressure or contractility @Marchetta2025ivabradine. Lower energy cost than beta-blockers (no negative inotropy, no bronchoconstriction). Particularly suitable for POTS patients with prominent tachycardia without hypotension.
+    - *Pyridostigmine* (30--60 mg 2--3$times$/day, Category B): Acetylcholinesterase inhibitor that enhances parasympathetic ganglionic transmission, reducing orthostatic heart rate increment by approximately 10--15 bpm without lowering supine blood pressure @Raj2005Pyridostigmine @Joseph2022pyridostigmine. Favorable side-effect profile; gastrointestinal effects (cramping, diarrhea) may limit tolerability.
+    - *Beta-blockers* (propranolol 10--20 mg, Category B--C): Low-dose non-selective beta-blockade for heart rate control. Energy cost is moderate but risk of worsening fatigue and exercise intolerance is higher in ME/CFS than in isolated POTS. Atenolol or bisoprolol (cardioselective) may be better tolerated. Initiation at doses far below standard cardiology dosing is critical.
+
+*Exercise considerations.* Standard POTS exercise protocols (Levine protocol, graded aerobic training) carry high PEM risk in ME/CFS patients @Fu2018ExercisePOTS. Adapted protocols for the ME/CFS-POTS overlap population emphasize:
+
+    - *Recumbent or horizontal exercise only:* Rowing, recumbent cycling, and supine resistance exercises eliminate the orthostatic challenge that standard upright protocols impose. See Section @sec:exercise in Chapter @ch:lifestyle-interventions for detailed exercise guidance.
+    - *Very slow progression:* Starting at 2--5 minutes of recumbent activity, advancing by 1--2 minutes per week only if no PEM occurs. Standard POTS protocols advancing at 2--5 minutes per session are too aggressive.
+    - *Heart rate monitoring:* Exercise intensity should remain below the anaerobic threshold (typically 50--60% of age-predicted maximum heart rate, or the heart rate at which symptoms begin). Wearable heart rate monitors enable real-time pacing.
+
+*Interaction and contraindication notes for ME/CFS.* Multiple POTS medications require monitoring when combined with common ME/CFS co-prescriptions:
+
+    - Fludrocortisone + NSAIDs (used for ME/CFS pain): increased risk of gastrointestinal bleeding and fluid retention.
+    - Midodrine + stimulants (methylphenidate for ADHD/PEM): additive vasoconstriction and hypertension risk.
+    - Beta-blockers + mast cell stabilizers: beta-blockers may worsen mast cell activation in some patients by unopposed alpha-adrenergic activity. Caution in MCAS-POTS overlap.
+    - Ivabradine + CYP3A4 inhibitors (azole antifungals, macrolides, grapefruit): increased ivabradine exposure with bradycardia risk. Not relevant for most ME/CFS patients but worth noting for those on antifungals for Candida overgrowth.
+
+*Prognosis.* A subset of patients (estimated 15--20%) experience spontaneous POTS improvement over 2--5 years; however, in ME/CFS, the underlying autonomic dysfunction may persist even if heart rate criteria no longer meet POTS thresholds @Sheldon2015POTScriteria. Treatment should be periodically re-evaluated; annual medication holidays may identify patients who no longer require pharmacotherapy.
+
+#limitation(title: [No POTS Trials in ME/CFS-Specific Populations])[
+  POTS pharmacological trials have been conducted in general POTS populations, not specifically in patients meeting ME/CFS diagnostic criteria. The treatment responses, side-effect profiles, and energy-cost considerations described here are extrapolated from general POTS literature and clinical experience. ME/CFS-POTS overlap patients may respond differently — for instance, beta-blockers that improve orthostatic tachycardia in isolated POTS may worsen fatigue in ME/CFS. Prospective trials in ME/CFS-diagnosed populations with comorbid POTS are needed.
+]
 
 === Mast Cell Activation Syndrome
 <subsec:mcas-treatment>
@@ -530,9 +583,50 @@ No randomized controlled trial has tested dietary elimination in ME/CFS patients
 ] <lim:elimination-no-rct>
 
 === Ehlers-Danlos Syndrome
-// Physical therapy adaptations
-// Bracing and support
-// Surgical considerations
+<subsec:eds-management>
+
+Ehlers-Danlos syndromes — particularly the hypermobile type (hEDS) — are among the most important comorbidities to identify in ME/CFS patients. Prevalence estimates suggest 30--57% of ME/CFS patients meet criteria for generalized joint hypermobility or hEDS, compared with 10--15% in the general population @Eccles2021hypermobility @Roma2018POTShEDS. For detailed discussion of hEDS clinical features, diagnostic criteria, and the hEDS-MCAS-POTS triad, see Section @subsec:eds-mcas.
+
+Treatment of hEDS in the context of ME/CFS requires careful adaptation of standard connective tissue management approaches to account for energy limitations and PEM risk.
+
+*Physical therapy adaptations.* Standard hEDS physical therapy focuses on joint stabilization through progressive resistance training and proprioceptive retraining. In ME/CFS, this must be modified:
+
+    - *Isometric exercise first.* Begin with static holds (wall sits, plank progressions, glute bridges held for 5--15 seconds) before introducing dynamic movement. Isometric contraction builds joint-stabilizing strength with minimal metabolic cost and reduced joint shear forces compared to isotonic exercise.
+    - *Proprioceptive training in recumbent positions.* Joint position sense exercises performed lying down (closed-chain movements with eyes closed, gentle joint approximation) avoid the orthostatic challenge that worsens both POTS and ME/CFS symptoms.
+    - *Never exercise to fatigue.* The standard PT instruction to "work to muscle fatigue" is contraindicated in ME/CFS-hEDS overlap. Sessions should stop at 50--70% of perceived capacity, with 48-hour recovery windows between sessions.
+    - *Pacing-integrated progression.* Advances only after confirming no delayed PEM (48--72 hour monitoring). See Section @sec:exercise in Chapter @ch:lifestyle-interventions for comprehensive exercise guidelines.
+
+*Bracing and support.* Joint hypermobility causes microtrauma during daily activities, triggering nociceptive input and mast cell activation @DeWandele2014dysautonomiaEDS. Appropriate bracing reduces this background inflammatory burden:
+
+    - *Cervical spine:* Soft cervical collars for nighttime use only (daytime use causes muscle atrophy). Cervical traction devices under PT supervision for CCI-related symptoms. Upright MRI referral if cervical medullary syndrome is suspected (see Section @subsec:eds-mcas for CCI discussion).
+    - *Peripheral joints:* Ring splints for finger hyperextension; lace-up ankle braces for unstable ankles; knee braces with patellar stabilization for hypermobile knees. The energy cost of wearing braces is negligible; the energy savings from reduced microtrauma and mast cell activation are substantial.
+    - *Compression garments:* Full-length compression (20--30 mmHg) serves dual purpose — joint proprioceptive feedback (improving body awareness and reducing hyperextension injuries) plus POTS symptom reduction through venous return augmentation. Abdominal compression is particularly effective for splanchnic pooling @DeWandele2014dysautonomiaEDS.
+
+*Surgical considerations.* hEDS patients have higher surgical complication rates (wound dehiscence, poor scar formation, prolonged healing, increased bleeding) due to collagen fragility. In ME/CFS-hEDS patients, these risks compound with baseline metabolic vulnerability: surgery imposes massive energy demand (Category C+), and post-operative PEM can last months. Surgical decisions must weigh:
+
+    - Is the condition progressive without surgery (e.g., progressive CCI with neurological deficits)?
+    - Can the patient's baseline function sustain the metabolic cost of surgical recovery?
+    - Are non-surgical alternatives exhausted (targeted PT, bracing, prolotherapy, platelet-rich plasma injections)?
+
+Elective surgery in severe or very-severe ME/CFS patients is generally contraindicated unless the untreated condition itself threatens function. Pre-operative consultation should involve both an EDS-aware surgeon and a clinician familiar with ME/CFS perioperative management.
+
+*Connective tissue supplementation.* Several supplement strategies target collagen synthesis pathways relevant to hEDS (see Section @sec:connective-tissue-supplements in Chapter @ch:supplements for detailed protocols):
+
+    - *Vitamin C* (500--1000 mg/day) is a required cofactor for prolyl hydroxylase and lysyl hydroxylase, enzymes essential for collagen crosslinking. Ascorbic acid deficiency directly impairs collagen synthesis.
+    - *Collagen peptides* (5--10 g/day hydrolyzed collagen, types I and III) provide glycine, proline, and hydroxyproline — the rate-limiting amino acids for collagen production. Circadian timing (evening dosing) may align collagen synthesis with nocturnal peaks.
+    - *Copper* (2 mg/day if deficient) is a cofactor for lysyl oxidase (LOX), which catalyzes collagen and elastin crosslinking. Avoid supplementation without documented deficiency given copper toxicity risk.
+
+*Distinguishing hEDS symptoms from ME/CFS.* Several symptoms attributed to ME/CFS may be primarily driven by undiagnosed hEDS @Eccles2021hypermobility:
+
+    - *Chronic widespread pain:* hEDS-related joint instability and repeated microtrauma produce nociceptive pain distinct from ME/CFS central sensitization. Physical examination of joint hypermobility (Beighton score) distinguishes these.
+    - *Orthostatic intolerance:* hEDS-related vascular laxity causes venous pooling independent of autonomic neuropathy. Compression garments and fluid loading are particularly effective in this phenotype.
+    - *Cognitive dysfunction:* hEDS patients show elevated ADHD comorbidity rates @Kindgren2021hEDSadhd. Cervical instability (CCI) may cause brainstem compression contributing to brain fog via impaired CSF dynamics.
+
+Patients who meet hEDS diagnostic criteria and show partial ME/CFS symptom improvement with connective tissue-targeted interventions (PT, bracing, collagen support) may have hEDS as the primary driver of their ME/CFS-like presentation, with PEM representing the cumulative metabolic cost of daily joint microtrauma rather than a primary metabolic disorder.
+
+#limitation(title: [No RCTs of Connective Tissue Intervention in ME/CFS-hEDS])[
+  No randomized controlled trial has tested any connective tissue intervention (physical therapy protocol, bracing strategy, collagen supplementation) specifically in patients meeting both ME/CFS and hEDS diagnostic criteria. The interventions described here are drawn from hEDS management guidelines, general hypermobility literature, and mechanistic rationale. Treatment responses in the ME/CFS-hEDS overlap population have not been systematically studied.
+]
 
 === Other Common Comorbidities
 
@@ -649,6 +743,7 @@ European Lyme disease (Borrelia species) can present as chronic fatigue with pos
 
 *Clinical recommendation:* All ME/CFS patients with tick exposure history or residence in Lyme-endemic regions should undergo Lyme serology before diagnosis. Patients with European exposure require European-specific testing panels. A subset of "ME/CFS" cases represent missed Lyme disease diagnoses; antibiotic treatment can be life-changing for these individuals.
 ==== Ehlers-Danlos Syndrome and Mast Cell Activation
+<subsec:eds-mcas>
 
 <obs:eds-mcas-mecfs>
 Hypermobile Ehlers-Danlos syndrome (hEDS) and mast cell activation syndrome (MCAS) are frequently misdiagnosed as ME/CFS or occur as comorbid conditions. Patient advocacy groups and specialist clinicians suggest hEDS prevalence may be "100-fold higher than recognized" due to limited physician awareness, particularly among general practitioners unfamiliar with connective tissue disorders.
