@@ -17,4 +17,6 @@ A particularly important pattern is _sarcopenic obesity_: a combination of reduc
 
 Fat oxidation impairment may further entrench abnormal body composition. Maya et al.\ (2023) identified deficits in acyl-CoA dehydrogenase (ACAD) and carnitine palmitoyltransferase (CPT) enzymes in ME/CFS, indicating reduced capacity to oxidize fatty acids for energy @Maya2023fattyacid. When the body cannot efficiently burn stored fat, adipose tissue accumulates even under caloric restriction, while muscle remains deprived of adequate fuel for maintenance. This fat oxidation impairment is discussed further in Chapter @ch:energy-metabolism.
 
+Standard caloric equations designed for healthy populations likely overestimate energy needs by 15–30% in moderate-to-severe ME/CFS, analogous to the overestimation documented in spinal cord injury populations @Alazzam2023SCI. This overestimation, combined with appetite dysregulation (Chapter @ch:endocrine), may inadvertently promote positive energy balance — which paradoxically accelerates muscle atrophy during immobility @Biolo2008BedRest. Practical weight management strategies adapted to ME/CFS constraints are discussed in Section @sec:weight-management.
+
 #include "warnings/warn-weight-management.typ"
