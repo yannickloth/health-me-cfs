@@ -37,9 +37,9 @@ status: ✅ done
 | 4b — Retrospective | ✅ | 12 matches examined, 5 adapted (5 reinforced, 0 contradicted, 0 ambiguous, 7 deferred); 0 certainty bumps (all incoming ≤0.60 for ME/CFS); ch16 causal hierarchy (3 edits), ch19 sleep meds (1), ch24 modafinil (1), ch15 orexin (1 cross-ref) |
 | 4c — Compatibility | ✅ | 32 reinforcement, 22 feed-into, 6 conflict, 8 independent pairs; 6 reinforcement chains (longest 4 hops); 4 conflict clusters; 3 certainty bumps (functional-narcolepsy 0.25→0.30, L-carnitine 0.30→0.35, orexin-metabolic-canary +0.05 declined <0.20), 2 reductions (epiphenomenon 0.20→0.15, phase-shift 0.30→0.25) |
 | 5 — Build | ✅ | PASS (after 3 fix-verify iterations: Typst angle bracket escaping) |
-| 6 — Review | ✅ | 6a: 2 findings R1 (missing registry entry, indentation), fixed, R2 zero; 6b: 14 adversarial findings (2 critical, 8 warning, 4 info) — 2 critical fixed (rodent qualifier in ch16, DORA caveat in ch19); remaining are acceptable editorial choices at speculation-level certainties; 6c: skipped (Phase 6a covered Typst syntax) |
+| 6 — Review | ✅ | 6a: R1 4 findings (2 critical: changelog label + ch15/ch14d level contradiction, 2 warning: duplicate OQs + daridorexant listing), all fixed; R2 zero findings — CONVERGED. 6b: 6 personas, 39 total findings (7 critical, 18 warning, 14 info) — 3 critical fixed in prior pass (rodent qualifier, DORA caveat, ch16 certainty qualifier); remaining criticals are editorial stance challenges at speculation-level certainties (cert 0.10-0.30); strongest convergence: zero human ME/CFS orexin data (3 personas), danavorexton safety gap (3 personas), MS null weight (3 personas). 6c: 0 critical/warning, 22 info (line-length >200 in prose — acceptable). |
 | 7 — Changelog | ✅ | Entry added to Version 11; includes all phases, certainty adjustments, review summary |
-| 8 — Commit | ✅ | Commit d6524bbb |
+| 8 — Commit | ✅ | Commit 9867fb38 (main integration) + 623f6513 (review fixes) |
 
 ## Tracking Table
 
@@ -93,3 +93,15 @@ status: ✅ done
 - Parent topic: cross-disease-metabolic-links (row #07)
 - Key search terms: narcolepsy type 2, orexin, hypocretin, post-infectious narcolepsy, Pandemrix, H1N1 narcolepsy, orexin ME/CFS, orexin fatigue, orexin mitochondria, orexin energy metabolism, sleep-wake regulation fatigue
 - Connects to: `exosome-sleep-reversal-integration-plan.md`, `brain-clearance-architecture-2026-integration-plan.md`, `sleep-aging-integration-plan.md`
+
+## Phase 4c — Cross-Hypothesis Compatibility
+
+**Audit file:** `content-staging/compat-audit-narcolepsy-type2-mecfs-2026-06-18.md`
+
+32 reinforcement, 22 feed-into, 6 conflict, 8 independent pairs. 6 reinforcement chains (longest 4 hops). 4 conflict clusters.
+
+**Adjustments applied:**
+- spec:mecfs-functional-narcolepsy 0.25→0.30 (feed-into from hyp:ch15-orexin-suppression)
+- L-Carnitine CPT Bypass 0.30→0.35 (two independent convergence lines)
+- spec:orexin-epiphenomenon 0.20→0.15 (conflict with hyp:ch15-orexin-suppression)
+- spec:orexin-phase-shift-artifact 0.30→0.25 (conflict with hyp:ch15-orexin-suppression)

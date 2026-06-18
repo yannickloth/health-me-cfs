@@ -25,7 +25,7 @@ This documentation represents literature synthesis, **not clinical advice**. All
 
 ::: {.grid}
 
-::: {.g-col-12 .g-col-md-7}
+::: {.g-col-12 .g-col-md-12}
 
 ## The Paper
 
@@ -38,14 +38,6 @@ A structured reference work spanning five parts, with an epistemic classificatio
 - **[Part V — Quantitative Modeling:](part5-modeling/)** Mathematical models of disease dynamics using ordinary differential equations
 
 Use the **sidebar** to browse chapters and sections. Each page has its own table of contents.
-
-:::
-
-::: {.g-col-12 .g-col-md-5}
-
-**License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-**DOI:** [10.5281/zenodo.19627450](https://doi.org/10.5281/zenodo.19627450)
-**Author:** [Yannick Loth](about.qmd)
 
 :::
 
