@@ -2,7 +2,7 @@
 
 #recommendation(title: [Pink/White Noise for Sleep Architecture in School-Attending Children])[
 
-*Mechanism:* Sleep spindles are brief bursts of brain electrical activity during light sleep that contribute to cognitive consolidation and memory protection. Acoustic stimulation during sleep (pink noise or pink noise burst sequences) can enhance spindle density, potentially improving memory encoding and resilience to cognitive fatigue. In school-attending children with ME/CFS, improved sleep architecture may translate to better cognitive performance during school day. See Chapter @sec:selective-dysfunction, lines 552–569, for detailed mechanism and neurophysiology.
+*Mechanism:* Sleep spindles are brief bursts of brain electrical activity during light sleep that contribute to cognitive consolidation and memory protection. Acoustic stimulation during sleep (pink noise or pink noise burst sequences) can enhance spindle density, potentially improving memory encoding and resilience to cognitive fatigue. In school-attending children with ME/CFS, improved sleep architecture may translate to better cognitive performance during school day. See Section @sec:selective-dysfunction, lines 552–569, for detailed mechanism and neurophysiology.
 
 *Pediatric School-Context Protocol:*
 

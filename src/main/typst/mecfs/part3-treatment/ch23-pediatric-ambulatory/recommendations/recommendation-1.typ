@@ -2,7 +2,7 @@
 
 #recommendation(title: [Pediatric Subtype Assessment and Early Intervention Prioritization])[
 
-*Rationale:* The selective energy dysfunction hypothesis (Chapter @sec:selective-dysfunction) proposes that ME/CFS involves different primary compartment dysfunction across subtypes. Identifying your child's dominant subtype guides which interventions to prioritize.
+*Rationale:* The selective energy dysfunction hypothesis (Section @sec:selective-dysfunction) proposes that ME/CFS involves different primary compartment dysfunction across subtypes. Identifying your child's dominant subtype guides which interventions to prioritize.
 
 *Parent/caregiver assessment:*
 
@@ -62,7 +62,7 @@
         - *Critical*: Do NOT push your child to maintain full schedule; early appropriate accommodation prevents progression to severe disease
     
 
-*Evidence level*: Plausible (subtype framework from Chapter @sec:selective-dysfunction, adapted for pediatrics with school considerations)
+*Evidence level*: Plausible (subtype framework from Section @sec:selective-dysfunction, adapted for pediatrics with school considerations)
 
 *Key principle*: Subtype assessment informs prioritization but should NOT delay implementation of foundational interventions (pacing, sleep, hydration) while optimizing.
 

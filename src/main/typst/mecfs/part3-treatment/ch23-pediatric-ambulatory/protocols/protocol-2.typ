@@ -40,7 +40,7 @@ The goal is improved cognitive function and fatigue tolerance while maintaining 
         
         - If used, must be coupled with strict monitoring to prevent exceeding energy envelope
         - Alternative: Low-dose modafinil has been used in some adolescents with limited pediatric data
-        - *Intranasal delivery option*: If cognitive dysfunction persists despite above interventions, discuss intranasal dopamine precursors or other CNS-targeted compounds with a neurologist familiar with ME/CFS. Not standard care but mechanistically rational for BBB dysfunction (Chapter @sec:selective-dysfunction, lines 238–257). EXPERIMENTAL.
+        - *Intranasal delivery option*: If cognitive dysfunction persists despite above interventions, discuss intranasal dopamine precursors or other CNS-targeted compounds with a neurologist familiar with ME/CFS. Not standard care but mechanistically rational for BBB dysfunction (Section @sec:selective-dysfunction, lines 238–257). EXPERIMENTAL.
     
 
 *School Accommodation as Treatment*

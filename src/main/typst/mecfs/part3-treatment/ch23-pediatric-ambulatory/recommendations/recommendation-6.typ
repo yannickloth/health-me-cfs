@@ -2,7 +2,7 @@
 
 #recommendation(title: [Pediatric tDCS for Cognitive Support (Age >12 with Caution)])[
 
-*Mechanism:* tDCS applied to dorsolateral prefrontal cortex (DLPFC) may reduce baseline energy cost of executive function, improving sustainable academic performance (Chapter @sec:selective-dysfunction, lines 207–228).
+*Mechanism:* tDCS applied to dorsolateral prefrontal cortex (DLPFC) may reduce baseline energy cost of executive function, improving sustainable academic performance (Section @sec:selective-dysfunction, lines 207–228).
 
 *Pediatric Considerations:*
 

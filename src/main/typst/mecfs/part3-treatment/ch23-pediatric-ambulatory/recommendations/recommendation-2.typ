@@ -2,7 +2,7 @@
 
 #recommendation(title: [Medical-Grade Compression Stockings for Pediatric OI])[
 
-*Mechanism:* Compression reduces autonomic load by maintaining venous pressure, decreasing sympathetic activation required for orthostatic compensation (Chapter @sec:selective-dysfunction, lines 609–626).
+*Mechanism:* Compression reduces autonomic load by maintaining venous pressure, decreasing sympathetic activation required for orthostatic compensation (Section @sec:selective-dysfunction, lines 609–626).
 
 *Pediatric Implementation:*
 
