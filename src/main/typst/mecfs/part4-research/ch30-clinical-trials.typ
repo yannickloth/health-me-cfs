@@ -141,8 +141,14 @@ Complementary and alternative medicine (CAM) approaches are widely used by ME/CF
 
 The ME/CFS clinical trial landscape has expanded significantly since 2020, partly driven by overlap with long COVID research. Key ongoing or recently initiated trials include:
 
-  // TODO: needs #table() wrapper
-[- *LIFT Trial* (Brigham], [Women's Hospital): LDN combined with pyridostigmine for ME/CFS. Double-blind RCT],
+#figure(
+  table(
+    columns: (auto, auto),
+
+    [- *LIFT Trial* (Brigham], [Women's Hospital): LDN combined with pyridostigmine for ME/CFS. Double-blind RCT],
+  ),
+  kind: table, supplement: [Table], caption: [Ongoing and planned ME/CFS clinical trials as of 2025 — pharmacological, device-based, and pacing interventions],
+) <tab:ongoing-trials>
     - *UAB LDN dose-finding* (University of Alabama, Younger lab): Establishing optimal LDN dosing for ME/CFS
     - *Nacul LDN RCT* (UBC / BC Women's Hospital): Double-blind RCT of LDN for ME/CFS
     - *Lumbrokinase trial* (Mount Sinai): Fibrinolytic agent targeting microclots in ME/CFS and long COVID

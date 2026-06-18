@@ -279,9 +279,16 @@ Analysis of 56 deaths reported by caregivers @McManimen2016 found:
 
 *Critical limitation:* Memorial records inherently overrepresent severe cases and premature deaths (survivors do not appear in memorials). This creates profound selection bias.
 
-  // TODO: needs #table() wrapper
-[*Sirotiak, Amro (2025) – Updated Memorial Analysis.*],
-The most recent memorial record analysis @Sirotiak2025 examined 505 deaths:
+#figure(
+  table(
+    columns: (auto, auto),
+
+    [*Sirotiak, Amro (2025) – Updated Memorial Analysis.*],
+    [The most recent memorial record analysis @Sirotiak2025 examined 505 deaths:],
+  ),
+  kind: table, supplement: [Table], caption: [Updated memorial record analysis of ME/CFS mortality — 505 deaths with mean age at death 52.5 years, most frequent causes being ME/CFS complications, suicide, cancer, and cardiovascular disease],
+) <tab:sirotiak-memorial-2025>
+
 
     - Mean age at death: *52.5 years* (SD = 16.7)
     - Most frequent causes: ME/CFS complications (28.3%), suicide (25.4%), cancer (23.0%), cardiovascular disease (14.2%)

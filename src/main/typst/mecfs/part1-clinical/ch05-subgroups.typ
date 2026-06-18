@@ -263,8 +263,14 @@ Multiple lines of evidence suggest that ME/CFS subgroups, though heterogeneous i
 
 *Metabolic convergence.* Naviaux et al. @Naviaux2016metabolic described a “dauer-like” hypometabolic state observed across ME/CFS cohorts, characterized by downregulation of metabolic pathways, mitochondrial ATP production, and oxidative stress defenses. The metabolic signature showed diagnostic accuracy of 94–96%, with 80% of diagnostic metabolites decreased across the cohort. This suggests that regardless of how a patient develops ME/CFS, the resulting metabolic reorganization follows a stereotyped pattern.
 
-  // TODO: needs #table() wrapper
-[*Genetic convergence.* More recently, Birch], [Younger @Birch2025precision examined genetic variation across ME/CFS patients and found gene-level heterogeneity in which specific genes were dysregulated. However, at the pathway level, patients consistently showed convergence on impaired energy production pathways, reduced stress resilience, and dysregulated post-exertional metabolic recovery. Thus genetic heterogeneity at the individual gene level masks functional convergence at the pathway level.],
+#figure(
+  table(
+    columns: (auto, auto),
+
+    [*Genetic convergence.* More recently, Birch], [Younger @Birch2025precision examined genetic variation across ME/CFS patients and found gene-level heterogeneity in which specific genes were dysregulated. However, at the pathway level, patients consistently showed convergence on impaired energy production pathways, reduced stress resilience, and dysregulated post-exertional metabolic recovery. Thus genetic heterogeneity at the individual gene level masks functional convergence at the pathway level.],
+  ),
+  kind: table, supplement: [Table], caption: [Genetic convergence in ME/CFS across heterogeneous patient populations — pathway-level analysis reveals stereotyped patterns of energy production impairment, reduced stress resilience, and dysregulated post-exertional recovery],
+) <tab:genetic-convergence>
 
 ==== Cross-Disease Paradigm Lessons
 
@@ -272,8 +278,14 @@ The convergence-on-pathways pattern has clear precedent in other complex disease
 
 *Asthma.* Severe asthma was long treated as a single entity with poor outcomes in trial-and-error approaches. Only with endotyping (Th2-high vs.\ Th2-low stratification) did molecular stratification become possible @Woodruff2009asthma. Subsequent clinical trials demonstrated that Th2-high patients respond to IL-4/IL-13 inhibition and anti-IgE therapy, while Th2-low endotypes require different approaches. The heterogeneity was not the problem—the lack of stratification was.
 
-  // TODO: needs #table() wrapper
-[*Depression.* Major depressive disorder appears clinically homogeneous but encompasses distinct biological subtypes. Miller], [Raison @MillerRaison2023depression demonstrated that a subset of depressed patients with elevated inflammatory markers (CRP $> 3$ mg/L) show poor response to conventional antidepressants but improved outcomes with anti-TNF biologics (infliximab). Patients without inflammatory elevation do not benefit from anti-inflammatory add-ons, showing that stratification is essential.],
+#figure(
+  table(
+    columns: (auto, auto),
+
+    [*Depression.* Major depressive disorder appears clinically homogeneous but encompasses distinct biological subtypes. Miller], [Raison @MillerRaison2023depression demonstrated that a subset of depressed patients with elevated inflammatory markers (CRP $> 3$ mg/L) show poor response to conventional antidepressants but improved outcomes with anti-TNF biologics (infliximab). Patients without inflammatory elevation do not benefit from anti-inflammatory add-ons, showing that stratification is essential.],
+  ),
+  kind: table, supplement: [Table], caption: [Depression stratification by inflammatory marker elevation — CRP $>$ 3 mg/L distinguishes patients who benefit from anti-TNF biologics from those who do not],
+) <tab:depression-stratification>
 
 *Breast cancer.* Perou et al. @Perou2000breast established that morphologically similar breast cancers represent distinct molecular subtypes (luminal A/B, HER2-enriched, basal-like), each with different prognoses and treatment responses. This molecular stratification transformed oncology from cytotoxic chemotherapy for all to subtype-matched targeted therapies (ER/PR inhibitors, HER2 inhibitors, etc.), dramatically improving outcomes.
 

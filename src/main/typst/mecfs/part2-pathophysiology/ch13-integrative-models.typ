@@ -13,7 +13,6 @@
   inset: 8pt,
 )[
   *Evidence Level*, *Description*, *ME/CFS Status*, *Reliability*
-  === === === ===
   #text(weight: "bold")[Established], Replicated across multiple independent cohorts with consistent methodology, Documented in ME/CFS (multiple studies, consistent findings), Highest confidence
   #text(weight: "bold")[Probable], Replicated in at least two cohorts with some methodological differences, Strong suggestive evidence in ME/CFS but requires replication, Moderate-high confidence
   #text(weight: "bold")[Preliminary], Single study or limited replication with consistent findings, Emerging evidence in ME/CFS, requires validation, Moderate confidence

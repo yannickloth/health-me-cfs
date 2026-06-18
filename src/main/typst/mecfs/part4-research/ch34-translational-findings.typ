@@ -167,13 +167,25 @@ Fibromyalgia shares chronic widespread pain, fatigue, sleep disturbance, and exe
 === Mast Cell Activation Syndrome (MCAS)
 <sec:mcas-translational>
 
-  // TODO: needs #table() wrapper
-[MCAS frequently co-occurs with ME/CFS. The Wirth], [Löhn (2023) study provides novel mechanistic understanding of this relationship @Wirth2023.],
+#figure(
+  table(
+    columns: (auto, auto),
+
+    [MCAS frequently co-occurs with ME/CFS. The Wirth], [Löhn (2023) study provides novel mechanistic understanding of this relationship @Wirth2023.],
+  ),
+  kind: table, supplement: [Table], caption: [Mast cell activation syndrome (MCAS) co-occurrence with ME/CFS — Wirth and Löhn (2023) mechanistic framework for the bidirectional relationship],
+) <tab:mcas-mecfs-cooccurrence>
 
 ==== Novel Translational Findings from ME/CFS
 
-  // TODO: needs #table() wrapper
-[- *$beta$2-Adrenergic Receptor Dysfunction as Common Link*: Wirth], [Löhn (2023) propose that dysfunctional $beta$2-adrenergic receptors create bidirectional disease worsening:],
+#figure(
+  table(
+    columns: (auto, auto),
+
+    [- *$beta$2-Adrenergic Receptor Dysfunction as Common Link*: Wirth], [Löhn (2023) propose that dysfunctional $beta$2-adrenergic receptors create bidirectional disease worsening:],
+  ),
+  kind: table, supplement: [Table], caption: [$beta$2-adrenergic receptor dysfunction as a common link between ME/CFS and MCAS — the bidirectional disease-worsening cycle proposed by Wirth and Löhn (2023)],
+) <tab:beta2-receptor-mcas>
     
         - ME/CFS orthostatic stress desensitizes $beta$2 receptors
         - Desensitized $beta$2 receptors favor mast cell degranulation
@@ -238,8 +250,14 @@ The following mechanisms are *well-documented in ME/CFS but not yet studied in E
 
     - *Bidirectional MCAS $arrow.l.r$ $beta$2-Receptor Cycle*:
 
-  // TODO: needs #table() wrapper
-[The Wirth], [Löhn (2023) model proposes:],
+#figure(
+  table(
+    columns: (auto, auto),
+
+    [The Wirth], [Löhn (2023) model proposes:],
+  ),
+  kind: table, supplement: [Table], caption: [Wirth and Löhn (2023) model of the bidirectional $beta$2-receptor-MCAS cycle — orthostatic stress drives $beta$2 desensitization, favoring mast cell degranulation and vascular dysfunction],
+) <tab:wirth-model-vicious-cycle>
     
         - Orthostatic stress $arrow.r$ $beta$2-receptor desensitization
         - Desensitized $beta$2 receptors $arrow.r$ mast cell degranulation
