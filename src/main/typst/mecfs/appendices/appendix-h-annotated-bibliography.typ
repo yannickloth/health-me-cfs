@@ -3890,9 +3890,9 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
         - *Limitation:* No primary data; no ME/CFS cohort
 
 
-=== Ret\'{ey et al.\ 2007 — ADORA2A Genotype and Caffeine Sensitivity}
+=== Retéy et al.\ 2007 — ADORA2A Genotype and Caffeine Sensitivity}
 
-[/ *Full Citation:*: R\'{e}tey JV, Adam M, Khatami R, Luhmann UFO, Jung HH, Berger W, Landolt HP\@. A genetic variation in the adenosine A2A receptor gene (ADORA2A) contributes to individual sensitivity to caffeine effects on sleep. _Clinical Pharmacology & Therapeutics_. 2007;81(5):692–698. DOI: 10.1038/sj.clpt.6100102.],
+[/ *Full Citation:*: Rétey JV, Adam M, Khatami R, Luhmann UFO, Jung HH, Berger W, Landolt HP\@. A genetic variation in the adenosine A2A receptor gene (ADORA2A) contributes to individual sensitivity to caffeine effects on sleep. _Clinical Pharmacology & Therapeutics_. 2007;81(5):692–698. DOI: 10.1038/sj.clpt.6100102.],
     *Key Findings:*:
 
         - ADORA2A c.1083T>C genotype distribution differs significantly between caffeine-sensitive and caffeine-insensitive adults
@@ -3962,9 +3962,9 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
         - *Limitation:* Mechanistic extrapolation to ME/CFS; no direct measurement of ENT expression in ME/CFS glia
 
 
-=== R\'{abago-Monz\'{o}n et al.\ 2025 — Astrocytes, Microglia, and Sleep Dysregulation}
+=== Rábago-Monzón et al.\ 2025 — Astrocytes, Microglia, and Sleep Dysregulation}
 
-    *Full Citation:*: R\'{a}bago-Monz\'{o}n \'{A}R, Osuna-Ramos JF, Armienta-Rojas DA, et al. Stress-Induced Sleep Dysregulation: The Roles of Astrocytes and Microglia in Neurodegenerative and Psychiatric Disorders. _Biomedicines_. 2025;13(5):1121. DOI: 10.3390/biomedicines13051121.
+    *Full Citation:*: Rábago-Monzón AR, Osuna-Ramos JF, Armienta-Rojas DA, et al. Stress-Induced Sleep Dysregulation: The Roles of Astrocytes and Microglia in Neurodegenerative and Psychiatric Disorders. _Biomedicines_. 2025;13(5):1121. DOI: 10.3390/biomedicines13051121.
     *Key Findings:*:
 
         - Astrocytes regulate sleep architecture via two primary mechanisms: adenosine signaling and glymphatic clearance
@@ -5549,11 +5549,11 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 === Newton et al.\ 2007 — Fatigue Comparison with Sj\"{ogren's}
 
-    *Full Citation:*: Newton JL, Harte AL, Man W, Jones DE, Pyke DA, Deary IJ, Ng W-F. Fatigue in primary Sj\"{o}gren's syndrome: A comparison with chronic fatigue syndrome. _Rheumatology_. 2007;46(12):1817–1821. @Newton2007
+    *Full Citation:*: Newton JL, Harte AL, Man W, Jones DE, Pyke DA, Deary IJ, Ng W-F. Fatigue in primary Sjögren's syndrome: A comparison with chronic fatigue syndrome. _Rheumatology_. 2007;46(12):1817–1821. @Newton2007
     *DOI:*: #link("https://doi.org/10.1093/rheumatology/kem235")[10.1093/rheumatology/kem235]
     *Key Findings:*:
 
-        - CFS and primary Sj\"{o}gren's show overlapping fatigue profiles
+        - CFS and primary Sjögren's show overlapping fatigue profiles
         - Suggests shared pathophysiological mechanisms for fatigue across autoimmune conditions
 
     *Relevance to Part V:*: Cross-disease comparison for model generalization and shared fatigue pathway identification.
@@ -5649,7 +5649,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 === Fluge et al.\ 2011 — Rituximab Phase II RCT
 
-    *Full Citation:*: Fluge {\O}, Bruland O, Risa K, Storstein A, Mella O. Benefit from B-lymphocyte depletion using the anti-CD20 antibody rituximab in chronic fatigue syndrome: a double-blind and placebo-controlled study. _PLOS ONE_. 2011;6(10):e26838. @Fluge2011rituximab
+    *Full Citation:*: Fluge Ø, Bruland O, Risa K, Storstein A, Mella O. Benefit from B-lymphocyte depletion using the anti-CD20 antibody rituximab in chronic fatigue syndrome: a double-blind and placebo-controlled study. _PLOS ONE_. 2011;6(10):e26838. @Fluge2011rituximab
     *DOI:*: #link("https://doi.org/10.1371/journal.pone.0026838")[10.1371/journal.pone.0026838]
     *Key Findings:*:
 
@@ -5660,7 +5660,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 === Fluge et al.\ 2015 — Rituximab Maintenance RCT
 
-    *Full Citation:*: Fluge {\O}, Mella O, Bruland O, et al.\ B-lymphocyte depletion in patients with myalgic encephalomyelitis/chronic fatigue syndrome: a randomized, double-blind, placebo-controlled trial. _Annals of Internal Medicine_. 2015;162(6):401–410. @Fluge2015rituximab_rct
+    *Full Citation:*: Fluge Ø, Mella O, Bruland O, et al.\ B-lymphocyte depletion in patients with myalgic encephalomyelitis/chronic fatigue syndrome: a randomized, double-blind, placebo-controlled trial. _Annals of Internal Medicine_. 2015;162(6):401–410. @Fluge2015rituximab_rct
     *DOI:*: #link("https://doi.org/10.7326/M14-1083")[10.7326/M14-1083]
     *Key Findings:*:
 
@@ -5671,7 +5671,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 === Fluge et al.\ 2019 — RituxME: Definitive Negative Trial
 
-    *Full Citation:*: Fluge {\O}, Rekeland IG, Lien K, et al.\ B-Lymphocyte Depletion in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Randomized, Double-Blind, Placebo-Controlled Trial. _Annals of Internal Medicine_. 2019;170(9):585–593. @Fluge2019
+    *Full Citation:*: Fluge Ø, Rekeland IG, Lien K, et al.\ B-Lymphocyte Depletion in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Randomized, Double-Blind, Placebo-Controlled Trial. _Annals of Internal Medicine_. 2019;170(9):585–593. @Fluge2019
     *DOI:*: #link("https://doi.org/10.7326/M18-1451")[10.7326/M18-1451]
     *Key Findings:*:
 
@@ -6136,7 +6136,7 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
 
 === Castro-Marrero et al.\ 2021 — Melatonin + Zinc RCT
 
-    *Full Citation:*: Castro-Marrero J, Zaragoz\'{a} MC, L\'{o}pez-Vill\'{e}n L, et al.\ Melatonin Plus Zinc Supplementation Improves Health Status in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Randomized Controlled Clinical Trial. _Antioxidants_. 2021;10(7):1010. @castromarrero2021melatonin
+    *Full Citation:*: Castro-Marrero J, Zaragozá MC, López-Villén L, et al.\ Melatonin Plus Zinc Supplementation Improves Health Status in Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Randomized Controlled Clinical Trial. _Antioxidants_. 2021;10(7):1010. @castromarrero2021melatonin
     *DOI:*: #link("https://doi.org/10.3390/antiox10071010")[10.3390/antiox10071010]
     *Key Findings:*:
 
@@ -17006,7 +17006,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
 
 === Fluge et al.\ 2024 — Long-Term Follow-Up of Rituximab in ME/CFS (0.85)
 
-    *Full Citation:*: Fluge {\O}, Mella O, Bruland O, et al.\ Long-term follow-up of rituximab treatment in ME/CFS. _Journal of Translational Medicine_. 2024.
+    *Full Citation:*: Fluge Ø, Mella O, Bruland O, et al.\ Long-term follow-up of rituximab treatment in ME/CFS. _Journal of Translational Medicine_. 2024.
     *Note*: Six-year follow-up of NCT02229942; 151 patients; no clinical benefit found
     *Published:*: 2024
     *Study Design:*: Long-term follow-up of phase III RCT
@@ -18085,7 +18085,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - Low-CpG-density regions require UHRF1 ubiquitin ligase activity more than high-density regions for stable maintenance.
         - Provides direct experimental support for a methylation density threshold below which maintenance fidelity degrades.
     *Conclusion:*: The UHRF1-DNMT1 ubiquitin axis is the main protection mechanism for low-density CpG methylation. Disruption creates differential vulnerability based on local CpG density.
-    *Relevance:*: Direct experimental support for the irreversibility threshold $m_i^\\"crit\\"$ in the methylation vector model (Chapter @ch:causal-hierarchy-formal, @oq:consolidation-directionality). Validates the concept that loci with sparse CpG methylation are harder to maintain.
+    *Relevance:*: Direct experimental support for the irreversibility threshold $m_i^"crit"$ in the methylation vector model (Chapter @ch:causal-hierarchy-formal, @oq:consolidation-directionality). Validates the concept that loci with sparse CpG methylation are harder to maintain.
     *Quality:*: High (Nucleic Acids Research; peer-reviewed; mechanistic with biochemical validation)
     *Certainty:*: 0.70
     *Limitations:*: Cancer cell lines (HCT116, RKO); may not generalize to all genomic contexts. Single study; independent replication pending.

@@ -416,8 +416,8 @@ microclot literature @Nunes2022microclots.
 
     / *Principal Investigator:*: Carmen Scheibenbogen, MD, Professor of
         Immunology
-    / *Institution:*: Charit\'{e} – Universit\"{a}tsmedizin Berlin,
-        Charit\'{e} Fatigue Centrum, Germany
+    / *Institution:*: Charité – Universitätsmedizin Berlin,
+        Charité Fatigue Centrum, Germany
     / *Contact/URL:*: #link("https://cfc.charite.de/en/clinical_research/nksg/trial_ia_pacs_cfs")
     / *Registry ID:*: NCT05710770
     / *Funder:*: Institutional and ME/CFS Research Foundation
@@ -439,7 +439,7 @@ microclot literature @Nunes2022microclots.
     / *Document Relevance:*: Ch. 7 (immune dysfunction—autoantibodies),
         Ch. 10 (autonomic dysfunction), Ch. 19 (integrative approaches)
 
-The Charit\'{e} immunoadsorption programme is the most advanced clinical
+The Charité immunoadsorption programme is the most advanced clinical
 investigation of the autoantibody hypothesis in ME/CFS.  Scheibenbogen's group
 has systematically built from case reports through an open-label cohort to a
 sham-controlled RCT—the methodological progression needed to establish
@@ -551,7 +551,7 @@ extension to non-COVID ME/CFS cohorts will be needed.
 === ResetME Trial (Daratumumab)
 <sec:registry-resetme>
 
-    / *Principal Investigator:*: \Oystein Fl\"{u}ge and Olav Mella
+    / *Principal Investigator:*: Øystein Flüge and Olav Mella
     / *Institution:*: Haukeland University Hospital, Bergen, Norway (with
         Oslo University Hospital)
     / *Contact/URL:*: EudraCT / EU Clinical Trials Register
@@ -579,7 +579,7 @@ extension to non-COVID ME/CFS cohorts will be needed.
         Ch. 10 (adrenergic receptor autoantibodies),
         Ch. 19 (integrative approaches)
 
-ResetME is among the highest-priority ongoing ME/CFS trials.  Fl\"{u}ge and
+ResetME is among the highest-priority ongoing ME/CFS trials.  Flüge and
 Mella are the same group that conducted the rituximab trials; daratumumab
 targets plasma cells more selectively via CD38.  Unlike rituximab (which
 depletes CD20+ B cells), daratumumab directly reduces the antibody-secreting
@@ -642,8 +642,8 @@ by patients.
 <sec:registry-charite-neuroimaging>
 
     / *Principal Investigator:*: Carmen Scheibenbogen, MD (PI);
-        neuroimaging team at Charit\'{e}
-    / *Institution:*: Charit\'{e} – Universit\"{a}tsmedizin Berlin, Germany
+        neuroimaging team at Charité
+    / *Institution:*: Charité – Universitätsmedizin Berlin, Germany
     / *Contact/URL:*: #link("https://mecfs-research.org/en/researchfunding-charite-biomarker2/")
     / *Funder:*: ME/CFS Research Foundation (Germany)
     / *Status:*: Funded; starting January 2026
