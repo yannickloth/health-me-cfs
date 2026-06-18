@@ -1,6 +1,9 @@
 project:
   type: website
 
+bibliography:
+  - references.bib
+
 website:
   title: "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome"
   navbar:
@@ -26,3 +29,4 @@ format:
     toc-depth: 3
     number-sections: true
     html-math-method: mathjax
+    cite-method: citeproc
