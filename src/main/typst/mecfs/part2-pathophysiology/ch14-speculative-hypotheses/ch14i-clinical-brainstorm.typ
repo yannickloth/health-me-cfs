@@ -16,11 +16,11 @@ All hypotheses in this chapter were generated through clinical pattern recogniti
 All drug doses cited in this chapter (including lithium, liothyronine, levetiracetam, gabapentinoids, and combination protocols) are for research-context illustration only and must *not* be interpreted as treatment recommendations. All named medications are prescription drugs requiring physician evaluation, contraindication screening, and ongoing monitoring before use. In particular, liothyronine carries cardiovascular contraindications and levetiracetam requires renal dose adjustment and carries behavioural side-effect risk.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === The “Metabolic Runway” Theory of PEM
 <sec:metabolic-runway>
-%=============================================================================
+// =============================================================================
 
 #hypothesis(title: [PEM Delay Reflects Metabolic Depletion Kinetics])[
 The characteristic 24–72 hour delay between exertion and post-exertional malaise (PEM) onset may reflect the time required for metabolic substrate pools to become critically depleted.
@@ -47,11 +47,11 @@ The characteristic 24–72 hour delay between exertion and post-exertional malai
 This hypothesis is mechanistically plausible but untested. The 24–72 hour delay could alternatively reflect: inflammatory cascade kinetics, gene expression changes, mitochondrial damage accumulation, or other processes. Serial metabolomic studies during controlled exertion protocols are needed to test this specific mechanism. Certainty: Low.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === The Mast Cell “Memory” Hypothesis
 <sec:mast-cell-memory>
-%=============================================================================
+// =============================================================================
 
 #hypothesis(title: [Epigenetic Mast Cell Sensitization])[
 Mast cells can be epigenetically programmed by early life events, infections, and trauma. ME/CFS may represent a “mast cell memory disease” where cells remain sensitized to threats that are no longer present.
@@ -82,11 +82,11 @@ ME/CFS patients with documented mast cell activation will show elevated H3K4me3 
 Mast cell epigenetics in ME/CFS has not been studied. The hypothesis extrapolates from other mast cell disorders and general epigenetic principles. No ME/CFS-specific data supports this mechanism. The “reset” speculation is highly preliminary. Certainty: Low.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === The Vagus Nerve as “Master Regulator”
 <sec:vagus-hub>
-%=============================================================================
+// =============================================================================
 
 #hypothesis(title: [Vagal Dysfunction as Central Hub])[
 The vagus nerve connects gut, heart, brain, and immune system. It directly inhibits mast cells via the cholinergic anti-inflammatory pathway. Vagal dysfunction may be the central hub connecting apparently disparate Septad components.
@@ -117,11 +117,11 @@ Heart rate variability (HRV) indices of vagal tone (RMSSD, high-frequency power)
 While vagal involvement in ME/CFS is plausible and HRV changes are documented, no studies have demonstrated that vagal dysfunction is causal rather than consequential. The “hub” model is conceptually appealing but may oversimplify the multi-directional interactions. Certainty: Low-Medium.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === The “Two Fuel Tanks” Hypothesis
 <sec:two-fuel-tanks>
-%=============================================================================
+// =============================================================================
 
 #hypothesis(title: [Ketones as Bypass Fuel])[
 Normal energy metabolism relies primarily on glucose $arrow.r$ TCA cycle $arrow.r$ ATP. If TCA cycle dysfunction is present in ME/CFS (as metabolomic studies suggest @Naviaux2016metabolomics), ketone bodies may provide a bypass pathway.
@@ -147,11 +147,11 @@ Normal energy metabolism relies primarily on glucose $arrow.r$ TCA cycle $arrow.
 Ketogenic diets have not been systematically studied in ME/CFS. Anecdotal reports are mixed. The hypothesis assumes TCA dysfunction is rate-limiting, which may not be true for all patients. Ketosis can be difficult to achieve and maintain. Certainty: Low.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === The “Protective Downregulation” Paradox
 <sec:protective-downregulation>
-%=============================================================================
+// =============================================================================
 
 #hypothesis(title: [Mitochondria as Deliberate Energy Throttle])[
 ME/CFS mitochondria may not be “broken”—they may be deliberately downregulated as a protective response to perceived cellular danger.
@@ -189,11 +189,11 @@ The cell danger response hypothesis @Naviaux2014cdr is itself not fully validat
 The hypothesis addresses root cause mechanisms, not whether symptomatic support is appropriate. Even if mitochondria are deliberately throttled, supporting their function may still improve quality of life while underlying causes are addressed. Certainty: Low.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === The “Circadian Core” Hypothesis
 <sec:circadian-core>
-%=============================================================================
+// =============================================================================
 
 #hypothesis(title: [Circadian Disruption as Upstream Driver])[
 Sleep disturbance is nearly universal in ME/CFS and usually treated as a symptom. But circadian rhythms regulate mitochondrial function, immune activity, gut motility, and HPA axis—all systems implicated in ME/CFS. What if circadian disruption is cause rather than effect?
@@ -227,11 +227,11 @@ Interventions that restore circadian cortisol rhythm (timed bright light, melato
 Circadian disruption in ME/CFS is documented but causality is not established. Severely ill patients may have limited ability to implement circadian interventions (cannot tolerate light, cannot maintain schedules). The hypothesis does not explain post-infectious onset. Certainty: Low-Medium.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === The “Microclot” Bridge Hypothesis
 <sec:microclot-bridge>
-%=============================================================================
+// =============================================================================
 
 #hypothesis(title: [Capillary Occlusion as Final Common Pathway])[
 Emerging Long COVID research has identified microclots — fibrin deposits that occlude capillaries — as a potential mechanism @VanderLinden2023microclots. If capillaries are blocked, oxygen delivery fails regardless of mitochondrial health.
@@ -279,11 +279,11 @@ Fluorescence microscopy-quantified microclot burden in platelet-poor plasma will
 Microclots have been documented in Long COVID but not systematically studied in pre-pandemic ME/CFS. The overlap between Long COVID and ME/CFS is significant but not complete. Anticoagulant therapy carries bleeding risks. No controlled trials support these interventions in ME/CFS. Certainty: Low.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === The “Infection Doesn't Matter” Hypothesis
 <sec:infection-irrelevant>
-%=============================================================================
+// =============================================================================
 
 #hypothesis(title: [Susceptibility Over Pathogen])[
 ME/CFS can be triggered by remarkably diverse infections: EBV, COVID-19, Lyme disease, Q fever, Ross River virus, giardia, and others @Carruthers2011ICC. What if the specific infection is largely irrelevant, and what matters is host susceptibility?
@@ -312,11 +312,11 @@ ME/CFS can be triggered by remarkably diverse infections: EBV, COVID-19, Lyme di
 This hypothesis does not explain why some infections (EBV, COVID) seem more likely to trigger ME/CFS than others (rhinovirus, norovirus). Susceptibility factors have not been identified with certainty. The hypothesis may be partially true (susceptibility matters) while specific pathogen factors also contribute. Certainty: Low-Medium.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === Female Predominance: Hormonal Amplification
 <sec:female-predominance>
-%=============================================================================
+// =============================================================================
 
 #hypothesis(title: [Estrogen as Cascade Amplifier])[
 Women are 3–4$times$ more likely to develop ME/CFS than men @heng2025sexspecific. While often attributed to general “autoimmunity is more common in women,” the cascade model suggests a more specific mechanism: estrogen amplifies multiple steps.
@@ -343,11 +343,11 @@ Women are 3–4$times$ more likely to develop ME/CFS than men @heng2025sexspecif
 Sex hormone studies in ME/CFS are limited and inconsistent. The hypothesis does not explain male ME/CFS cases or post-menopausal onset. Hormonal interventions are complex and can have significant side effects. Certainty: Low-Medium.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === The “Bistable Equilibrium” and “Reset” Concept
 <sec:bistable-reset>
-%=============================================================================
+// =============================================================================
 
 #speculation(title: [ME/CFS as Stable Dysfunctional State])[
 ME/CFS may represent a *stable but dysfunctional equilibrium*—the body “stuck” in a local energy minimum, unable to spontaneously return to health.
@@ -391,7 +391,7 @@ The bistable equilibrium model is a metaphor, not a validated biophysical descri
 The “energy landscape” with “wells” and “hills” is a mathematical metaphor from dynamical systems theory, not a description of identified biological states. No study has demonstrated that ME/CFS represents a distinct stable equilibrium in any measurable state space (metabolic, immune, or neurological). The existence of a second attractor (the “health” state) separated by an energy barrier is assumed, not demonstrated. The “reset” framing risks encouraging dangerous self-experimentation with interventions (fasting, hyperthermia, psychedelics) that have no evidence of efficacy and carry substantial harm potential in metabolically fragile patients.
 ]
 
-%=============================================================================
+// =============================================================================
 
 === The Oral Infection--Autoimmunity Bridge
 <sec:oral-autoimmunity-bridge>
@@ -419,11 +419,11 @@ A further mechanism is trained immunity: _P.\ gingivalis_ reprogrammes bone marr
 *Certainty:* 0.20. Highly speculative. Each individual link (citrullination → autoimmunity; gingipains → neuroinflammation; trained immunity → sustained inflammation) is established in other diseases, but the composite hypothesis applied to ME/CFS is entirely untested.
 ] <spec:oral-autoimmunity>
 
-%=============================================================================
+// =============================================================================
 
 === Drug Candidates for Systematic Investigation
 <sec:drug-candidates>
-%=============================================================================
+// =============================================================================
 
 #open-question(title: [Unexplored Pharmacological Targets])[
 Cimetidine's immunomodulatory effects were discovered accidentally. What other existing drugs might have unexplored relevance to ME/CFS?
@@ -460,11 +460,11 @@ Cimetidine's immunomodulatory effects were discovered accidentally. What other e
 These candidates are presented for research consideration, not as treatment recommendations. Systematic investigation of repurposed drugs could be more efficient than novel drug development.
 ] <oq:drug-candidates>
 
-%=============================================================================
+// =============================================================================
 
 === The “Kitchen Sink” Protocol Concept
 <sec:kitchen-sink>
-%=============================================================================
+// =============================================================================
 
 #hypothesis(title: [Simultaneous Multi-Target Intervention])[
 If ME/CFS is maintained by multiple interacting feedback loops (the “multi-lock” model), addressing one mechanism at a time may fail because remaining mechanisms compensate. Effective treatment might require overwhelming the dysfunctional equilibrium by hitting multiple targets simultaneously.
@@ -497,7 +497,7 @@ If ME/CFS is maintained by multiple interacting feedback loops (the “multi-loc
 This “kitchen sink” approach has not been tested in any controlled manner. The complexity makes it difficult to implement and study. Not all patients can tolerate aggressive multi-intervention protocols. This concept is presented to stimulate thinking about treatment strategy, not as a validated protocol. Certainty: Very Low (for specific protocol); Medium (for multi-target concept).
 ]
 
-%=============================================================================
+// =============================================================================
 
 == Mechanistic Convergence: Cross-Treatment Integration
 <sec:mechanistic-convergence-novel>

@@ -6,11 +6,11 @@
 This appendix provides a comprehensive guide to ME/CFS patient organizations, online communities, advocacy resources, and prominent patient voices. Unlike the scientific literature cited throughout this document, these resources represent the patient community's perspective and lived experience—an essential complement to clinical and research knowledge.
 
 The ME/CFS patient community has developed sophisticated knowledge networks that often outpace formal medical understanding. Forums like Phoenix Rising and Science for ME regularly discuss research papers with clinical depth that would be impressive in any medical setting. Patient advocates have successfully challenged flawed research (notably the PACE trial), influenced government policy, and funded significant research initiatives. This appendix acknowledges that patient expertise is a legitimate and valuable form of knowledge.
-%===============================================================================
+// =============================================================================
 
 == International Patient Organizations
 <sec:international-orgs>
-%===============================================================================
+// =============================================================================
 
 === Major Global Organizations
 
@@ -46,11 +46,11 @@ Pan-European patient organization representing 18 countries. Founded in 2008 as 
 
 European Network on ME/CFS—a COST (European Cooperation in Science and Technology) supported network of research groups across Europe. Published expert consensus on diagnosis, service provision, and care in Europe (2021).
 
-%===============================================================================
+// =============================================================================
 
 == National Patient Organizations by Country
 <sec:national-orgs>
-%===============================================================================
+// =============================================================================
 
 === Belgium
 <subsec:belgium-orgs>
@@ -305,11 +305,11 @@ Provides resources for medical providers caring for ME/CFS patients. Developed c
 
 Medical center of excellence for ME/CFS and fibromyalgia. Founded by Dr. Lucinda Bateman. Focuses on diagnosis, treatment, research, and patient empowerment.
 
-%===============================================================================
+// =============================================================================
 
 == Research Centers and Specialized Clinics
 <sec:research-centers>
-%===============================================================================
+// =============================================================================
 
 === Leading Research Centers
 
@@ -347,11 +347,11 @@ Run by Dr. David Kaufman. Known for complex chronic illness expertise.
 
 Site of rituximab trials and ongoing autoimmunity research.
 
-%===============================================================================
+// =============================================================================
 
 == Online Communities and Forums
 <sec:online-communities>
-%===============================================================================
+// =============================================================================
 
 === Discussion Forums
 
@@ -402,11 +402,11 @@ Peer-to-peer support where patients and families share experiences and research.
 
 / *NURA*:  Social network platform specifically for Long COVID, ME/CFS, and fibromyalgia patients, created by people with these conditions.
 
-%===============================================================================
+// =============================================================================
 
 == Prominent Patient Advocates and Content Creators
 <sec:patient-advocates>
-%===============================================================================
+// =============================================================================
 
 ME/CFS advocacy is largely driven by patients themselves, often working with extremely limited energy. The individuals listed here represent a fraction of the patient community dedicating their scarce functional capacity to improving conditions for all patients. Many severely ill patients contribute via social media, writing single tweets or posts that may represent their entire energy expenditure for a day.
 === Filmmakers and Documentarians
@@ -521,11 +521,11 @@ The severity of ME/CFS has led to difficult conversations within the patient com
 
     - *Austrian Policy Discussion* – Reddit r/Austria community discussion on euthanasia policies: #link("https://www.reddit.com/r/Austria/s/JUzy5LM6O7")
 
-%===============================================================================
+// =============================================================================
 
 == Podcasts
 <sec:podcasts>
-%===============================================================================
+// =============================================================================
 
 [style=nextline]
 / *The Understanding ME/CFS Podcast*:  Apple Podcasts, Spotify 
@@ -546,11 +546,11 @@ Interviews influential voices in ME/CFS and Long COVID. Topics include books on 
   // TODO: needs #table() wrapper
 / *Hope and Help for Fatigue & Chronic Illness*: Mission to help people with post-viral syndromes including Long COVID and ME/CFS.
 
-%===============================================================================
+// =============================================================================
 
 == YouTube Channels and Video Resources
 <sec:youtube>
-%===============================================================================
+// =============================================================================
 
 === Patient-Focused Channels
 
@@ -592,11 +592,11 @@ Interviews influential voices in ME/CFS and Long COVID. Topics include books on 
 
 Report by Meleri Williams profiling three Welsh ME/CFS patients and the state of ME services in Wales. Tomos Sleep (28, Swansea) — diagnosed with severe ME in 2023 after symptoms began in 2019 with dizziness. By late 2023 he became completely bedbound, unable to walk, talk, open his eyes, or move. His parents describe him as looking "paralysed"; he communicates only through eye gaze. Carers were tried but made him worse — he cannot tolerate other people in the room. His father Charlie Sleep: "The problem with having severe ME is that you can't communicate... people with ME are invisible." Fflur Evans (39, Bala, Gwynedd) — moderate ME diagnosed two years prior; former teacher forced to leave work. Reports daily pain, dizziness from stairs, hypersensitivity to sounds (zips, cupboards closing). Alwen Davies (46, Denbighshire) — moderate ME diagnosed 2023; uses pacing techniques but on bad days is bedbound in the dark; had to leave work. Campaigner Rob Messenger (Carmarthenshire) — whose two children were diagnosed with ME in their teens — describes ME services in Wales as "a postcode lottery" and for severe patients "pretty much a desert." Dr Binita Kane notes that "doctors aren't taught about this condition" and that early pacing support can prevent deterioration. The Welsh government stated that proposals for an all-Wales specialist, an expert group, and national standards were being "actively considered."
 
-%===============================================================================
+// =============================================================================
 
 == Social Media Hashtags and Campaigns
 <sec:social-media>
-%===============================================================================
+// =============================================================================
 
 === Key Hashtags
 
@@ -628,11 +628,11 @@ Annual global campaign for ME health equality, organized by \#MEAction. May 12th
 
 The campaign highlights the “millions missing” from their own lives due to illness, and the millions of research dollars missing from funding.
 
-%===============================================================================
+// =============================================================================
 
 == Books by Patients and Advocates
 <sec:books>
-%===============================================================================
+// =============================================================================
 
 === Patient Memoirs
 
@@ -650,11 +650,11 @@ The campaign highlights the “millions missing” from their own lives due to i
 
 See also the scientific literature cited throughout this document. Patient organizations often maintain curated reading lists of accessible scientific overviews.
 
-%===============================================================================
+// =============================================================================
 
 == Clinical Trial Registries
 <sec:clinical-trials>
-%===============================================================================
+// =============================================================================
 
 [style=nextline]
 / *ClinicalTrials.gov*:  #link("https://clinicaltrials.gov/") 
@@ -678,11 +678,11 @@ Specialized registry tracking ME/CFS research internationally.
     - How will participant safety be monitored?
     - Will results be shared with participants?
 
-%===============================================================================
+// =============================================================================
 
 == Patient Registries and Biobanks
 <sec:registries>
-%===============================================================================
+// =============================================================================
 
 [style=nextline]
 / *You+ME Registry and Biobank*:  #link("https://youandme.solvecfs.org/") 
@@ -698,11 +698,11 @@ Solve M.E.'s patient registry. Collects patient-reported data and biospecimens. 
 
 / *DecodeME*:  UK-based genetic study with 15,000+ participants. Largest ME/CFS study ever conducted.
 
-%===============================================================================
+// =============================================================================
 
 == Disability and Legal Resources
 <sec:disability-resources>
-%===============================================================================
+// =============================================================================
 
 === General Guidance
 
@@ -724,11 +724,11 @@ Most national patient organizations provide country-specific guidance on:
 
 The *Steungroep ME en Arbeidsongeschiktheid* (Netherlands) specifically focuses on employment and disability issues. The *ME Association* (UK) provides extensive guidance on UK benefits system.
 
-%===============================================================================
+// =============================================================================
 
 == Resource Evaluation Guidelines
 <sec:evaluation-guidelines>
-%===============================================================================
+// =============================================================================
 
 The ME/CFS information landscape includes high-quality patient-led resources alongside misinformation and exploitation. The patient community has developed sophisticated evaluation skills born of necessity.
 === Indicators of Reliable Resources
