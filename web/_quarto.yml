@@ -10,6 +10,9 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+    right:
+      - text: "Download PDF"
+        href: loth2026-mecfs.pdf
   sidebar:
     style: docked
     search: true

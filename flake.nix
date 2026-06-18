@@ -92,10 +92,41 @@
           '';
         };
 
+        buildWebFull = pkgs.stdenvNoCC.mkDerivation {
+          name = "mecfs-web-full";
+          src = cleanSrc;
+          buildInputs = [
+            pkgs.coreutils
+            pkgs.typst
+            pkgs.quarto
+            pkgs.jdk21
+          ];
+          phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+          buildPhase = ''
+            export HOME="$NIX_BUILD_TOP/home"
+            mkdir -p "$HOME"
+
+            java --enable-preview --source 21 src/main/java/web/BuildWeb.java
+            quarto render web --to html
+
+            typst compile \
+              --package-cache-path "${typst-package-cache}" \
+              --root . \
+              src/main/typst/mecfs/loth2026-mecfs.typ \
+              loth2026-mecfs.pdf
+          '';
+          installPhase = ''
+            mkdir -p $out
+            cp -r web/_site/* $out/
+            cp loth2026-mecfs.pdf $out/loth2026-mecfs.pdf
+          '';
+        };
+
       in {
         packages = {
           default = buildTypstPdf;
           web = buildWeb;
+          web-full = buildWebFull;
         };
 
         devShells.default = pkgs.mkShell {
