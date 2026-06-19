@@ -2,21 +2,21 @@
 
 Typst → PDF + Quarto HTML web generation. Nix-hermetic; Java generator bridge.
 
-Full build system reference: [`.claude/build-system.md`](build-system.md)
+Full build system reference: [`build-system.md`](build-system.md)
 
 ## Prerequisites
 
-- **Nix** with flakes enabled: `experimental-features = nix-command flakes`
-- (No Nix): typst, quarto, jdk25
+- **Nix** ≥ 2.4 with flakes: `experimental-features = nix-command flakes`
+- (Non-Nix unsupported — typst packages, fonts, and env vars are Nix-managed)
 
 ## Build Commands
 
 ```bash
 nix build              # PDF only → result/loth2026-mecfs.pdf
-nix build .#web        # Quarto HTML site only
-nix build .#web-full   # HTML + PDF
+nix build .#web        # → result/ (HTML site only)
+nix build .#web-full   # → result/ (HTML site + PDF)
 nix flake check         # All CI checks
-nix run .#clean         # Clean artifacts
+nix run .#clean         # Clean .cache, .build, result, temp PDFs
 nix develop             # Dev shell (typst, quarto, jdk25)
 ```
 
@@ -25,6 +25,8 @@ nix develop             # Dev shell (typst, quarto, jdk25)
 ```
 src/main/typst/mecfs/
 ├── loth2026-mecfs.typ       # Root doc
+├── fonts/                    # Bundled fonts
+├── packages/                 # Cached typst packages for figure builds
 ├── bib/                      # 26 topic .bib files
 ├── figures/                  # Typst figure sources → .svg for web
 ├── shared/                   # Shared .typ includes
@@ -40,12 +42,13 @@ src/main/java/web/
 └── ConvertAndSplit.java      # Per-file converter
 
 web/
-├── index.qmd / about.qmd     # Static pages
-├── blog/posts/<slug>/        # Handwritten blog posts (NOT generated)
-├── part*/ch*/                # Generated .qmd files
-├── z-appendices/             # Generated appendix .qmd files
-├── _shared/                  # Generated shared .qmd files
-├── bib/                      # Copied from src/main/typst/mecfs/bib/
+├── index.qmd / about.qmd     # Static pages (handwritten)
+├── blog/posts/<slug>/        # 51 handwritten blog posts (NOT generated)
+├── _quarto.yml / styles.css  # Site config
+├── part*/ch*/                # Generated .qmd (do not edit)
+├── z-appendices/             # Generated appendix .qmd (do not edit)
+├── _shared/                  # Generated shared .qmd (do not edit)
+├── bib/                      # Copied from typst/src/bib/
 └── figures/                  # Compiled .svg from typst figure sources
 ```
 
@@ -54,15 +57,16 @@ web/
 | Symptom | Fix in |
 |---------|--------|
 | HTML content/layout | Typst source or `ConvertAndSplit.java` |
+| Static page (index, about) | `web/index.qmd` or `web/about.qmd` |
 | Blog issue | `web/blog/posts/<slug>/index.qmd` (handwritten) |
 | Bibliography | `.bib` in `src/main/typst/mecfs/bib/` |
 | Figure | `.typ` in `src/main/typst/mecfs/figures/` |
-| **Never edit** | Generated `.qmd` or `web/_site/` |
+| **Never edit** | Generated `.qmd`, `web/_site/`, `web/figures/*.svg` |
 
 ## CI/CD
 
 | Workflow | Trigger | Does |
 |----------|---------|------|
 | `ci.yml` | PR → main | `nix flake check` |
-| `build-pdf.yml` | push/PR → main, manual | PDF + GitHub Release `latest` |
-| `deploy-web.yml` | push → main, manual | Checks → web-full → GitHub Pages |
+| `build-pdf.yml` | push or PR → main, manual | PDF + GitHub Release `latest` |
+| `deploy-web.yml` | push → main, manual | Checks → web-full → GitHub Pages deploy |

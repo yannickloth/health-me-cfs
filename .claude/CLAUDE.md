@@ -2,7 +2,7 @@
 
 # CLAUDE.md
 
-ME/CFS documentation (Typst-based) with automatic subagent delegation for quality assurance.
+ME/CFS documentation — Typst PDF + Quarto HTML web generation, Nix-hermetic.
 
 ---
 
@@ -10,57 +10,28 @@ ME/CFS documentation (Typst-based) with automatic subagent delegation for qualit
 
 ```bash
 nix build              # → result/loth2026-mecfs.pdf
-nix build .#web        # → Quarto HTML site
-nix build .#web-full   # → HTML site + PDF
+nix build .#web        # → result/ (HTML site)
+nix build .#web-full   # → result/ (HTML + PDF)
 nix flake check         # All CI checks
-nix run .#clean         # Clean artifacts
+nix run .#clean         # Clean build artifacts
+nix develop             # Dev shell (typst, quarto, jdk25)
 ```
 
-Full build system: [`.claude/build-system.md`](.claude/build-system.md)
-
-## Fix Discipline
-
-| Symptom | Fix in |
-|---------|--------|
-| HTML content/layout | Typst source or `ConvertAndSplit.java` |
-| Blog issue | `web/blog/posts/<slug>/index.qmd` (handwritten) |
-| Bibliography | `.bib` in `src/main/typst/mecfs/bib/` |
-| Figure | `.typ` in `src/main/typst/mecfs/figures/` |
-| **Never edit** | Generated `.qmd` or `web/_site/` |
+Full build system + fix discipline: [`build-system.md`](build-system.md)
 
 ---
 
-## Lazy-Loading Principle
+## Routing
 
-Inline documentation cost > lazy search + read on demand.
-
-- This file: routing and core behavior only
-- Full details: load from `.claude/project-context/` on demand
-
----
-
-## Context and Cost Management
-
-Full protocol: [`.claude/project-context/context-management.md`](.claude/project-context/context-management.md)
+| Concern | Reference |
+|---------|-----------|
+| Context & cost management | [`project-context/context-management.md`](project-context/context-management.md) |
+| Scrape registry (check before scraping) | `registry/scrape-registry.md`; protocol: [`project-context/scrape-registry.md`](project-context/scrape-registry.md) |
+| Skills index | [`project-context/skills-index.md`](project-context/skills-index.md) |
+| Systems index (agents, formalization, literature, review) | [`project-context/systems-index.md`](project-context/systems-index.md) |
 
 ---
 
-## Scrape Registry (MANDATORY)
+## Lazy-Loading
 
-Registry location: `registry/scrape-registry.md` — check before scraping any URL.
-
-Full protocol: [`.claude/project-context/scrape-registry.md`](.claude/project-context/scrape-registry.md)
-
----
-
-## Skills and Multi-Step Operations
-
-Full index: [`.claude/project-context/skills-index.md`](.claude/project-context/skills-index.md)
-
----
-
-## Systems Index (Lazy-Load)
-
-Agents, formalization, literature, medical case management, review, quality — all lazy-load.
-
-Full index: [`.claude/project-context/systems-index.md`](.claude/project-context/systems-index.md)
+This file: routing and core behavior only. Full details on demand from `project-context/`.
