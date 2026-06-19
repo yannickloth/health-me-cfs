@@ -1,63 +1,95 @@
 # Build System
 
-This file contains detailed build commands and system information. Reference this when building, deploying, or troubleshooting the build process.
+Typst → PDF + Quarto HTML web generation. Nix-hermetic; Java generator bridge.
 
-## Building Documents
+## Build Commands
 
-This template is configured to build `ms.tex` as the main document.
+| Command | Output |
+|---------|--------|
+| `nix build` | `result/loth2026-mecfs.pdf` (default) |
+| `nix build .#web` | `result/` → Quarto HTML site (no PDF) |
+| `nix build .#web-full` | `result/` → HTML site + PDF |
+| `nix flake check` | All checks: section-audit, qmd-label-audit, typst-source-audit, blog-audit |
+| `nix run .#clean` | Remove build artifacts |
+| `nix develop` | Dev shell (typst, quarto, jdk25) |
 
-### With Nix (recommended)
+## PDF Build
 
-- `nix build` - Build ms.tex to PDF (output in `result/ms.pdf`)
-- `nix run .#clean` - Remove build artifacts and auxiliary files
-- `nix develop` - Enter development shell with all dependencies
+1. `typst compile` on `src/main/typst/mecfs/loth2026-mecfs.typ`
+2. Hermetic: pinned typst packages (cetz 0.3.4, oxifmt 0.2.1) + font path
+3. Output: `loth2026-mecfs.pdf`
 
-### Without Nix
+## Web Build (`.#web` / `.#web-full`)
 
-- `pdflatex ms.tex` - Compile LaTeX to PDF (single pass)
-- `pdflatex ms.tex && bibtex ms && pdflatex ms.tex && pdflatex ms.tex` - Full build with bibliography
-- `latexmk -pdf ms.tex` - Automated build with dependency tracking
-- `latexmk -pdf -pvc ms.tex` - Continuous preview mode
+### Generation pipeline
 
-## Cleaning Build Artifacts
+| Step | Tool | Detail |
+|------|------|--------|
+| 1. qmd gen | `java BuildWeb.java` | Typst → `.qmd` via `ConvertAndSplit.java` |
+| 2. Copy bib | `cp` | `src/main/typst/mecfs/bib/` → `web/bib/` (26 topic .bib files) |
+| 3. Label audit | `java QmdLabelAuditTest.java` | Orphaned labels in .qmd |
+| 4. Env count | `java QmdEnvironmentCountTest.java` | (#web-full only) All Typst envs survive |
+| 5. Render | `quarto render web --to html` | → `web/_site/` |
 
-- `nix run .#clean` - Remove all build artifacts (Nix + LaTeX)
-- `latexmk -c` - Remove auxiliary files only
-- `latexmk -C` - Remove all generated files including PDFs
+### BuildWeb.java flow
 
-## Nix Build System
+- `src/main/java/web/BuildWeb.java` → orchestrates conversion
+- Iterates parts 1–5 + appendices + shared
+- Per chapter: resolves `#include` directives (recursive, skips fig includes), then spawns `ConvertAndSplit.java` on resolved temp file
+- Figures: compiles each `src/main/typst/mecfs/figures/*.typ` → `web/figures/*.svg` via `typst compile`
+- Output dirs: `web/part*/ch*/`, `web/z-appendices/`, `web/_shared/`
 
-The `flake.nix` provides:
-- **Reproducible builds**: All LaTeX dependencies managed by Nix
-- **Hermetic environment**: Builds isolated from system LaTeX installation
-- **Automatic submodule handling**: The infolead-latex-templates submodule is automatically copied into the build environment
+### Correct fix discipline
 
-The Nix build:
-1. Uses `texlive.combined.scheme-full` for complete LaTeX package coverage
-2. Copies the infolead-latex-templates submodule into the build directory
-3. Runs `latexmk` with proper environment variables for caching
-4. Outputs the final PDF to `result/ms.pdf`
+| Symptom | Fix in |
+|---------|--------|
+| Content/layout issue in rendered HTML | Typst source (`src/main/typst/mecfs/`) or `ConvertAndSplit.java` |
+| Blog issue | `web/blog/posts/<slug>/index.qmd` directly |
+| Bibliography issue | `.bib` in `src/main/typst/mecfs/bib/` |
+| Figure issue | `.typ` in `src/main/typst/mecfs/figures/` |
+| **Never edit** | Generated `.qmd` files or `web/_site/` |
 
-## LaTeX Build Artifacts
+### Blog
 
-The .gitignore is configured to exclude all standard LaTeX auxiliary and intermediate files including:
-- Core LaTeX outputs: .aux, .log, .out, .toc, .lof, .lot
-- Bibliography files: .bbl, .blg, .bcf, .run.xml
-- Build tool files: .fdb_latexmk, .synctex.gz
-- Package-specific files: beamer (.nav, .snm, .vrb), glossaries, minted, etc.
-- Nix build artifacts: result, result-*, .direnv/
+- NOT generated from Typst
+- Handwritten `.qmd` files: `web/blog/posts/<slug>/index.qmd` (52 posts)
+- Own `_metadata.yml`: sidebar=false, number-sections=false
+- Audited by `BlogAuditTest.java`
 
-When adding new files to a LaTeX project, be aware that most build artifacts are already ignored.
+## CI/CD (GitHub Actions)
 
-## Working with Submodules
+| Workflow | Trigger | Does |
+|----------|---------|------|
+| `ci.yml` | PR → main | `nix flake check` |
+| `build-pdf.yml` | push/PR → main, manual | PDF build + GitHub Release `latest` |
+| `deploy-web.yml` | push → main, manual | Checks → `web-full` → GitHub Pages deploy |
 
-When cloning a project based on this template, initialize the submodule:
-```bash
-git clone <your-project>
-git submodule update --init --recursive
+## Source Layout
+
+```
+src/main/typst/mecfs/
+├── loth2026-mecfs.typ          # Root doc
+├── fonts/                       # Bundled fonts
+├── bib/                         # 26 topic .bib files
+├── figures/                     # Typst figure sources (.typ → .svg for web)
+├── shared/                      # Shared .typ includes
+├── appendices/                  # appendix-*.typ files
+├── part1-clinical/              # chXX-name/ aggregators + includes
+├── part2-pathophysiology/
+├── part3-treatment/
+├── part4-research/
+└── part5-modeling/
 ```
 
-To update the shared preamble to the latest version:
-```bash
-git submodule update --remote infolead-latex-templates
-```
+## Nix Flake Structure
+
+| Attribute | Type | Description |
+|-----------|------|-------------|
+| `packages.default` | pkg | PDF only |
+| `packages.web` | pkg | Web only (qmd + quarto) |
+| `packages.web-full` | pkg | Web + PDF |
+| `checks.section-audit` | check | `SectionAuditTest.java` |
+| `checks.qmd-label-audit` | check | BuildWeb + QmdLabelAuditTest + QmdEnvironmentCountTest + QmdQualityAuditTest |
+| `checks.typst-source-audit` | check | `TypstSourceAuditTest.java` |
+| `checks.blog-audit` | check | `BlogAuditTest.java` |
+| `devShells.default` | shell | typst + quarto + jdk25 with TYPST env vars preset |

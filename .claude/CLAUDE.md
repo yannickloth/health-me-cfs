@@ -9,9 +9,24 @@ ME/CFS documentation (Typst-based) with automatic subagent delegation for qualit
 ## Build
 
 ```bash
-nix build              # → result/ms.pdf
-nix run .#clean        # Clean artifacts
+nix build              # → result/loth2026-mecfs.pdf
+nix build .#web        # → Quarto HTML site
+nix build .#web-full   # → HTML site + PDF
+nix flake check         # All CI checks
+nix run .#clean         # Clean artifacts
 ```
+
+Full build system: [`.claude/build-system.md`](.claude/build-system.md)
+
+## Fix Discipline
+
+| Symptom | Fix in |
+|---------|--------|
+| HTML content/layout | Typst source or `ConvertAndSplit.java` |
+| Blog issue | `web/blog/posts/<slug>/index.qmd` (handwritten) |
+| Bibliography | `.bib` in `src/main/typst/mecfs/bib/` |
+| Figure | `.typ` in `src/main/typst/mecfs/figures/` |
+| **Never edit** | Generated `.qmd` or `web/_site/` |
 
 ---
 

@@ -202,7 +202,7 @@ void main(String[] args) throws IOException {
         var stripped = line.strip();
 
         if (stripped.startsWith("= ") && !stripped.startsWith("== ")) {
-            chapTitle = stripped.substring(2).strip().replaceAll("\\s*<[a-z]+:[^>]+>\\s*$", "");
+            chapTitle = stripHeadingMath(stripped.substring(2).strip().replaceAll("\\s*<[a-z]+:[^>]+>\\s*$", ""));
             var headingLabel = stripped.replaceAll("^=\\s+", "");
             var m = Pattern.compile("<([a-z]+):([^>]+)>").matcher(headingLabel);
             if (m.find()) chapLabel = "<" + m.group(1) + ":" + m.group(2) + ">";
@@ -213,7 +213,7 @@ void main(String[] args) throws IOException {
             if (secTitle != null) {
                 sections.add(new Section(secTitle, secLabel, new ArrayList<>(current)));
             }
-            secTitle = stripped.substring(3).strip().replaceAll("\\s*<[a-z]+:[^>]+>\\s*$", "");
+            secTitle = stripHeadingMath(stripped.substring(3).strip().replaceAll("\\s*<[a-z]+:[^>]+>\\s*$", ""));
             var headingLabel = stripped.replaceAll("^==+\\s+", "");
             var m = Pattern.compile("<([a-z]+):([^>]+)>").matcher(headingLabel);
             if (m.find()) secLabel = "<" + m.group(1) + ":" + m.group(2) + ">";
@@ -321,7 +321,7 @@ void main(String[] args) throws IOException {
                 int eqCount = 0;
                 for (int i = 0; i < stripped.length() && stripped.charAt(i) == '='; i++) eqCount++;
                 int level = Math.max(1, eqCount);
-                var headingText = stripped.substring(eqCount);
+                var headingText = stripHeadingMath(stripped.substring(eqCount));
                 var inlineLabelPattern = Pattern.compile("\\s*<([a-zA-Z][\\w:\\.-]*)>\\s*");
                 var inlineMatcher = inlineLabelPattern.matcher(headingText);
                 var nonHeadingAnchors = new StringBuilder();
@@ -336,6 +336,7 @@ void main(String[] args) throws IOException {
                     }
                 }
                 headingText = inlineMatcher.replaceAll("");
+                headingText = stripHeadingMath(headingText);
                 if (nonHeadingAnchors.length() > 0) sb.append(nonHeadingAnchors);
                 raw = "#".repeat(level) + headingText + headingAttrs;
                 if (pendingLabel != null) {
@@ -610,6 +611,87 @@ String replaceGreekLetters(String math) {
         math = math.replaceAll("(?<=^|[^a-zA-Z\\\\{])" + pair[0] + "(?=[^a-zA-Z}]|$)", Matcher.quoteReplacement(pair[1]));
     }
     return math;
+}
+
+String stripHeadingMath(String s) {
+    var sb = new StringBuilder();
+    int i = 0;
+    while (i < s.length()) {
+        int dollar = s.indexOf('$', i);
+        if (dollar < 0) { sb.append(s.substring(i)); break; }
+        sb.append(s, i, dollar);
+        int end = s.indexOf('$', dollar + 1);
+        if (end < 0) { sb.append(s.substring(dollar)); break; }
+        var math = s.substring(dollar + 1, end);
+        sb.append(latexMathToUnicode(math));
+        i = end + 1;
+    }
+    return sb.toString();
+}
+
+String latexMathToUnicode(String math) {
+    return math
+        .replace("\\alpha",  "\u03B1")
+        .replace("\\beta",   "\u03B2")
+        .replace("\\gamma",  "\u03B3")
+        .replace("\\delta",  "\u03B4")
+        .replace("\\epsilon","\u03B5")
+        .replace("\\theta",  "\u03B8")
+        .replace("\\kappa",  "\u03BA")
+        .replace("\\lambda", "\u03BB")
+        .replace("\\mu",     "\u03BC")
+        .replace("\\nu",     "\u03BD")
+        .replace("\\pi",     "\u03C0")
+        .replace("\\rho",    "\u03C1")
+        .replace("\\sigma",  "\u03C3")
+        .replace("\\tau",    "\u03C4")
+        .replace("\\phi",    "\u03C6")
+        .replace("\\chi",    "\u03C7")
+        .replace("\\psi",    "\u03C8")
+        .replace("\\omega",  "\u03C9")
+        .replace("\\Gamma",  "\u0393")
+        .replace("\\Delta",  "\u0394")
+        .replace("\\Theta",  "\u0398")
+        .replace("\\Lambda", "\u039B")
+        .replace("\\Sigma",  "\u03A3")
+        .replace("\\Omega",  "\u03A9")
+        .replace("\\zeta",   "\u03B6")
+        .replace("\\eta",    "\u03B7")
+        .replace("\\xi",     "\u03BE")
+        .replace("\\varepsilon","\u03B5")
+        .replace("\\vartheta","\u03D1")
+        .replace("\\varphi", "\u03C6")
+        .replace("\\rightarrow", "\u2192")
+        .replace("\\leftarrow",  "\u2190")
+        .replace("\\leftrightarrow","\u2194")
+        .replace("\\Rightarrow", "\u21D2")
+        .replace("\\geq",    "\u2265")
+        .replace("\\leq",    "\u2264")
+        .replace("\\neq",    "\u2260")
+        .replace("\\cdot",   "\u22C5")
+        .replace("\\pm",     "\u00B1")
+        .replace("\\approx", "\u2248")
+        .replace("\\text{", "")
+        .replace("}", "")
+        .replace("^+", "\u207A")
+        .replace("^2", "\u00B2")
+        .replace("^3", "\u00B3")
+        .replace("_0", "\u2080")
+        .replace("_1", "\u2081")
+        .replace("_2", "\u2082")
+        .replace("_i", "\u1D62")
+        .replace("\\cap", "\u2229")
+        .replace("\\cup", "\u222A")
+        .replace("\\subset", "\u2282")
+        .replace("\\supset", "\u2283")
+        .replace("\\times", "\u00D7")
+        .replace("\\mathcal{", "")
+        .replace("\\mathbf{", "")
+        .replace("\\emptyset", "\u2205")
+        .replace("\\sim", "\u223C")
+        .replaceAll("\\\\?\\bspace\\b", "")
+        .replaceAll("\\\\s*bolde?r?\\{|\\\\s*cal\\{", "")
+        .replace("\"", "");
 }
 
 String normalizeUnicode(String s) {
