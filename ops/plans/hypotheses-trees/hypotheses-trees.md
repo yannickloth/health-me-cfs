@@ -43,6 +43,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| mast-cell-ige-connective-tissue | [subtrees/mast-cell-ige-connective-tissue.md](subtrees/mast-cell-ige-connective-tissue.md) | 2026-06-19      | 0          | 0          | ⬜ pending     |
 | ans-aging             | [subtrees/ans-aging.md](subtrees/ans-aging.md)                        | 2026-04-20      | 25         | 0          | ⬜ stub        |
 | butyrate-intestinal-permeability | [subtrees/butyrate-intestinal-permeability.md](subtrees/butyrate-intestinal-permeability.md) | 2026-05-20      | 7          | 0          | ⬜ pending     |
 | ebv-heterogeneity     | [subtrees/ebv-heterogeneity.md](subtrees/ebv-heterogeneity.md)        | 2026-04-20      | 0          | 0          | ⬜ stub        |
@@ -279,5 +280,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | decodeme-verifiable   | [subtrees/decodeme-verifiable.md](subtrees/decodeme-verifiable.md)    | 2026-06-18      | 25         | 0          | ⬜ pending     |
 | weight-management-mecfs | [subtrees/weight-management-mecfs.md](subtrees/weight-management-mecfs.md) | 2026-06-18 | 40 | 40 | ✅ done |
 | narcolepsy-type2-mecfs | [subtrees/narcolepsy-type2-mecfs.md](subtrees/narcolepsy-type2-mecfs.md) | 2026-06-18 | 42 | 42 | ✅ done |
+| post-exercise-recovery-optimization | [subtrees/post-exercise-recovery-optimization.md](subtrees/post-exercise-recovery-optimization.md) | 2026-06-18 | 90 | 0 | 🔵 in progress |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.

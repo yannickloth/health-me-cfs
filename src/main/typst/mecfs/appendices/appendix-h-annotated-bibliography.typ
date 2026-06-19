@@ -22083,3 +22083,314 @@ This section covers literature at the intersection of ME/CFS genetics (Precision
     *Limitations:*: Very small groups; TMS is indirect; no CSF orexin measurement.
     *Certainty:*: 0.40
 
+// =============================================================================
+
+== Post-Exercise Recovery Optimization
+<sec:bib-post-exercise-recovery>
+// =============================================================================
+
+=== Jammes2020 — Altered Muscle Membrane Potential in ME/CFS
+
+    *Full Citation:*: Jammes Y, Adjriou N, Kipson N, et al.\ Altered muscle membrane potential and redox status differentiates two subgroups of patients with chronic fatigue syndrome. _J Transl Med_. 2020;18(1):173.
+    *DOI:*: #link("https://doi.org/10.1186/s12967-020-02341-9")[10.1186/s12967-020-02341-9]
+    *PMID:*: 32306967
+    *PMCID:*: PMC7168976
+    *Study Design:*: Cross-sectional exercise physiology study with M-wave recordings
+    *Sample Size:*: 72 ME/CFS patients (no healthy controls)
+    *Key Findings:*:
+        - 39/72 (54%) had altered muscle membrane excitability (M-wave changes) + elevated oxidative stress (TBARS, ORP)
+        - 33/72 (46%) had normal muscle membrane and lower baseline oxidative stress
+        - M-wave changes inversely proportional to TBARS and ORP
+        - Two subgroups identified, suggesting differential recovery needs
+        - Resting muscles already show membrane excitability alterations
+    *Conclusion:*: Muscle membrane dysfunction and oxidative stress distinguish ME/CFS subgroups. Oxidative stress biomarkers may improve diagnosis and subgroup stratification.
+    *Limitations:*: Single-center; no healthy controls; 10-min recovery window insufficient for PEM; subgroup distinction not independently replicated.
+    *Certainty:*: 0.60
+
+=== Munemoto2017 — Waon rCBF SPECT Imaging
+
+    *Full Citation:*: Munemoto T, Soejima Y, Masuda A, et al.\ Increase in the Regional Cerebral Blood Flow following Waon Therapy in Patients with Chronic Fatigue Syndrome: A Pilot Study. _Intern Med_. 2017;56(14):1817–1823.
+    *DOI:*: #link("https://doi.org/10.2169/internalmedicine.56.8001")[10.2169/internalmedicine.56.8001]
+    *PMID:*: 28717076
+    *Study Design:*: Open-label pilot; SPECT imaging before/after intervention
+    *Sample Size:*: 12 CFS patients
+    *Key Findings:*:
+        - Waon therapy (far-infrared sauna 60°C, 15 min, 5×/week for 5 weeks)
+        - rCBF significantly increased in bilateral prefrontal cortex, anterior cingulate gyrus, and thalamus post-treatment
+        - rCBF increase correlated with reduced fatigue scores
+    *Conclusion:*: Cerebral hypoperfusion as a therapeutic target; Waon therapy may reduce fatigue through rCBF enhancement.
+    *Limitations:*: n=12; no control group; open-label; same group as Soejima2015 (overlapping sample possible).
+    *Certainty:*: 0.30
+
+=== Li2024 — Massage Meta-Analysis for CFS
+
+    *Full Citation:*: Li J, Piao F, Zeng Q, et al.\ The effect of massage on patients with chronic fatigue syndrome: A systematic review and meta-analysis. _Medicine (Baltimore)_. 2024;103(18):e37973.
+    *DOI:*: #link("https://doi.org/10.1097/MD.0000000000037973")[10.1097/MD.0000000000037973]
+    *PMID:*: 38701244
+    *Study Design:*: Systematic review and meta-analysis of RCTs
+    *Sample Size:*: 5 RCTs, 385 total patients
+    *Key Findings:*:
+        - Massage significantly reduced fatigue (SMD = -0.89, 95% CI -1.57 to -0.21, p=0.01)
+        - Improved quality of life, anxiety, and depression
+        - Various massage types (Tui Na, acupressure, Swedish)
+    *Conclusion:*: Massage therapy may effectively alleviate fatigue in CFS, but evidence quality is limited by heterogeneity and small study numbers.
+    *Limitations:*: Few studies; high heterogeneity; most from China; varied protocols; publication bias possible.
+    *Certainty:*: 0.45
+
+=== White2023 — Pro-GET NICE Critique
+
+    *Full Citation:*: White PD, Abbey S, Angus B, et al.\ Anomalies in the review process and interpretation of the evidence in the NICE guideline for chronic fatigue syndrome and myalgic encephalomyelitis. _J Neurol Neurosurg Psychiatry_. 2023;94(9):745–752.
+    *DOI:*: #link("https://doi.org/10.1136/jnnp-2022-330463")[10.1136/jnnp-2022-330463]
+    *PMID:*: 37434321
+    *Study Design:*: Evidence critique / position paper
+    *Key Findings:*:
+        - 51 authors argue NICE 2021 guideline misrepresented GET evidence
+        - GET showed moderate benefit in multiple RCTs including PACE trial
+        - Claim harms not consistently demonstrated in trials
+        - Cite 7 "anomalies" in NICE review process and evidence interpretation
+    *Conclusion:*: Authors argue GET should remain an option for some ME/CFS patients, contrary to NICE 2021 recommendation.
+    *Limitations:*: Authors include PACE trial investigators (COI); patient groups strongly oppose GET; PACE methodology criticized (subjective outcomes, lowered recovery thresholds).
+    *Certainty:*: 0.40
+
+=== Vink2025 — Anti-GET PACE Analysis
+
+    *Full Citation:*: Vink M, Partyka-Vink K. The PACE Trial's GET Manual for Therapists Exposes the Fixed Incremental Nature of Graded Exercise Therapy for ME/CFS. _Life (Basel)_. 2025;15(4):584.
+    *DOI:*: #link("https://doi.org/10.3390/life15040584")[10.3390/life15040584]
+    *PMID:*: 40283139
+    *Study Design:*: Analysis of original PACE GET therapist manual
+    *Key Findings:*:
+        - GET manual specifies fixed incremental increases in exercise duration regardless of symptoms
+        - Fixed incremental approach conflicts with "energy envelope" pacing
+        - Supports NICE 2021 decision to recommend against GET
+        - Concludes harms reported by patients are consistent with manual design
+    *Conclusion:*: GET's fixed incremental structure is incompatible with post-exertional nature of ME/CFS and likely harmful.
+    *Limitations:*: Single-study analysis; author COI as patient advocate/critic of PACE; lower-tier journal.
+    *Certainty:*: 0.30
+
+=== Godlewska2024 — Creatine ME/CFS Feasibility
+
+    *Full Citation:*: Godlewska BR, Sylvester A, Emir U, et al.\ Six-Week Supplementation with Creatine in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): A Magnetic Resonance Spectroscopy Feasibility Study at 3 Tesla. _Nutrients_. 2024;16(19):3308.
+    *DOI:*: #link("https://doi.org/10.3390/nu16193308")[10.3390/nu16193308]
+    *PMID:*: 39408275
+    *Study Design:*: Open-label feasibility study with MRS at 3T
+    *Sample Size:*: 14 ME/CFS patients
+    *Key Findings:*:
+        - 6-week creatine monohydrate (20g/day × 5d loading, then 10g/day)
+        - No significant changes in brain PCr, ATP, or pH on 3T MRS
+        - Self-reported fatigue trended toward improvement (not significant)
+        - Feasibility established: protocol acceptable, 3T MRS feasible
+    *Conclusion:*: Creatine supplementation did not significantly alter brain energetics or fatigue in this small feasibility study. Larger placebo-controlled trials needed.
+    *Limitations:*: n=14; no placebo; open-label; short duration (6 weeks); brain MRS may miss muscle PCr changes; trend may be placebo.
+    *Certainty:*: 0.30
+
+=== Lien2019 — Abnormal Lactate in ME/CFS CPET
+
+    *Full Citation:*: Lien K, Johansen B, Veierød MB, et al.\ Abnormal blood lactate accumulation during repeated exercise testing in myalgic encephalomyelitis/chronic fatigue syndrome. _Physiol Rep_. 2019;7(18):e14138.
+    *DOI:*: #link("https://doi.org/10.14814/phy2.14138")[10.14814/phy2.14138]
+    *PMID:*: 31161646
+    *Study Design:*: Case-control repeated CPET on consecutive days
+    *Sample Size:*: 18 ME/CFS patients, 18 matched controls
+    *Key Findings:*:
+        - ME/CFS patients had higher blood lactate at submaximal workloads vs controls on day 1
+        - Day 2: abnormal lactate accumulation at even lower workloads in ME/CFS
+        - Controls showed normal lactate handling on both days
+        - Impaired metabolic recovery capacity between exercise sessions
+    *Conclusion:*: Repeated exercise reveals impaired lactate metabolism in ME/CFS, indicating reduced recovery capacity between exercise sessions. Two-day CPET is essential to detect this abnormality.
+    *Limitations:*: n=18 moderate sample; well-designed (matched controls, 2-day CPET).
+    *Certainty:*: 0.55
+
+// =============================================================================
+// IgE → Mast Cell → Connective Tissue Degradation — added 2026-06-19
+// =============================================================================
+
+=== Magarinos2013 — Mast Cell Tryptases Activate MMP-3 and MMP-13 in Cartilage
+
+    *Full Citation:*: Magarinos NJ, Bryant KJ, Fosang AJ, Adachi R, Stevens RL, McNeil HP. Mast cell-restricted, tetramer-forming tryptases induce aggrecanolysis in articular cartilage by activating matrix metalloproteinase-3 and -13 zymogens. _Journal of Immunology_. 2013;191(3):1404-1412. @Magarinos2013TryptaseMMP
+    *DOI:*: #link("https://doi.org/10.4049/jimmunol.1300856")[10.4049/jimmunol.1300856]
+    *PMID:*: 23797671
+    *Key Findings:*:
+        - mMCP-6-null mice lost less aggrecan from articular cartilage ECM during inflammatory arthritis
+        - Recombinant hTryptase-β (human ortholog) and mMCP-6 activated MMP-3 and MMP-13 zymogens in cartilage explants
+        - Aggrecan fragments contained DIPEN and FFGVG neoepitopes — consistent with MMP-dependent cleavage
+        - hTryptase-β unable to induce aggrecanolysis in Chloe mice (resist MMP cleavage at DIPEN↓FFGVG site)
+    *Conclusion:*: Mast cell tryptases act upstream of MMP-3 and MMP-13 to induce aggrecan and ECM degradation in cartilage. Direct mechanistic link between mast cell degranulation and connective tissue matrix breakdown.
+    *Limitations:*: Ex vivo and mouse model; direct extrapolation to human ligament/bone ECM requires confirmation; cartilage-specific (not ligament-specific).
+    *Certainty:*: 0.70
+
+=== Saarinen1994 — Mast Cell Chymase Activates Procollagenase (MMP-1)
+
+    *Full Citation:*: Saarinen J, Kalkkinen N, Welgus HG, Kovanen PT. Activation of human interstitial procollagenase through direct cleavage of the Leu83-Thr84 bond by mast cell chymase. _Journal of Biological Chemistry_. 1994;269(27):18134-18140. @Saarinen1994ChymaseMMP1
+    *PMID:*: 8027075
+    *Key Findings:*:
+        - Purified human skin chymase activates procollagenase (MMP-1) in time- and concentration-dependent manner
+        - Heparin accelerates cleavage rate and prevents further degradation
+        - Novel mechanism: direct cleavage of Leu83-Thr84 bond without intermediate species
+        - Distinct from all other known MMP activation mechanisms
+    *Conclusion:*: Mast cell chymase directly activates the key collagen-degrading enzyme MMP-1, establishing a direct biochemical pathway from mast cell degranulation to collagen degradation.
+    *Limitations:*: In vitro study using purified proteins; context is skin, not ligament/joint; >30 years old but foundational and unreplicated in modern context.
+    *Certainty:*: 0.75
+
+=== Janicki2006 — Cardiac Mast Cells Regulate MMP-Related ECM Remodeling
+
+    *Full Citation:*: Janicki JS, Brower GL, Gardner JD, Forman MF, Stewart JA Jr, Murray DB, Chancey AL. Cardiac mast cell regulation of matrix metalloproteinase-related ventricular remodeling in chronic pressure or volume overload. _Cardiovascular Research_. 2006;69(3):657-665. @Janicki2006CardiacMastMMP
+    *DOI:*: #link("https://doi.org/10.1016/j.cardiores.2005.10.020")[10.1016/j.cardiores.2005.10.020]
+    *PMID:*: 16376324
+    *Key Findings:*:
+        - Cardiac mast cells store and release tryptase, chymase, and TNF-α → induce MMP activation
+        - Increased mast cell density implicated in pathological ventricular ECM remodeling
+        - Fibrillar collagen must be disrupted for ventricular dilatation to occur
+        - Latent MMP population coexists with fibrillar collagen — activation threshold regulated by mast cells
+    *Conclusion:*: Mast cells are key regulators of MMP-mediated collagen degradation in cardiac ECM remodeling. Establishes mast cell → MMP → collagen degradation axis in a mechanically stressed connective tissue context.
+    *Limitations:*: Cardiovascular context, not joint/ligament; review/synthesis rather than original experimental data; indirect extrapolation to hypermobility.
+    *Certainty:*: 0.70
+
+=== Lind2022 — Mast Cell Chymase Negatively Impacts Osteoblasts and Bone ECM
+
+    *Full Citation:*: Lind T, Melo FR, Gustafson AM, Sundqvist A, Zhao XO, Moustakas A, Melhus H, Pejler G. Mast cell chymase has a negative impact on human osteoblasts. _Matrix Biology_. 2022;112:1-19. @Lind2022ChymaseOsteoblast
+    *DOI:*: #link("https://doi.org/10.1016/j.matbio.2022.07.005")[10.1016/j.matbio.2022.07.005]
+    *PMID:*: 35908613
+    *Key Findings:*:
+        - Chymase directly impacts human primary osteoblasts, reducing bone matrix integrity
+        - Mice lacking chymase develop increased diaphyseal bone mass
+        - Chymase affects osteoblast function and ECM production
+    *Conclusion:*: Mast cell chymase is a negative regulator of connective tissue matrix in bone, providing further evidence that mast cell proteases degrade connective tissue.
+    *Limitations:*: Bone-specific; in vitro and mouse model; not directly ligament/joint capsule.
+    *Certainty:*: 0.65
+
+=== Zhu2026 — Histaminylation Alters Collagen Matrix Mechanics
+
+    *Full Citation:*: Zhu J, Sun D, Zeng G, Wu K, Yang X, Zhu X, Aierken D, Ding S, Wang X, Ge J, Yang X. Histaminylation alters collagen matrix mechanics and attenuates cardiac fibrosis post-myocardial infarction via mechanotransduction signaling axis. _Signal Transduction and Targeted Therapy_. 2026;11(1):229. @Zhu2026HistaminylationCollagen
+    *DOI:*: #link("https://doi.org/10.1038/s41392-026-02721-5")[10.1038/s41392-026-02721-5]
+    *PMID:*: 42270610
+    *Key Findings:*:
+        - Histamine covalently modifies collagen via histaminylation (non-enzymatic post-translational modification)
+        - Histaminylation directly alters collagen matrix mechanical properties
+        - Affects mechanotransduction signaling in fibroblasts
+        - Novel MMP-independent mechanism for histamine-mediated ECM alteration
+    *Conclusion:*: Beyond MMP activation, mast cell-derived histamine can directly alter collagen mechanics through histaminylation. Provides a second, independent mechanism by which mast cells could weaken connective tissue.
+    *Limitations:*: Cardiac fibrosis context; not yet studied in ligament/tendon/joint; mechanism novel and not yet replicated.
+    *Certainty:*: 0.70
+
+=== Guo2021 — Mast Cell Proteases and Synovial HA Degradation
+
+    *Full Citation:*: Guo Y, Wei T, Hu N, Zhou X. Disrupted homeostasis of synovial hyaluronic acid and its associations with synovial mast cell proteases of rheumatoid arthritis patients and collagen-induced arthritis rats. _Immunologic Research_. 2021;69(6):584-593. @Guo2021MastProteaseHA
+    *DOI:*: #link("https://doi.org/10.1007/s12026-021-09231-2")[10.1007/s12026-021-09231-2]
+    *PMID:*: 34482531
+    *Key Findings:*:
+        - Synovial mast cell proteases (tryptase, chymase) correlated with disrupted HA homeostasis
+        - MMP-2 and MMP-9 also associated with HA degradation in RA synovium and CIA rats
+        - Inflammation-induced HA rapid-metabolism reduces viscosity and ECM integrity
+    *Conclusion:*: Mast cell serine proteases contribute to ECM breakdown in joint tissues, with both direct protease activity and indirect MMP activation.
+    *Limitations:*: RA context (inflammatory arthritis), not hypermobility; correlational; n=limited.
+    *Certainty:*: 0.50
+
+=== Hart2026 — Mast Cells in Intervertebral Disc and Connective Tissues
+
+    *Full Citation:*: Hart DA. Potential Role of Mast Cells in Intervertebral Disc Ageing, Herniation Resolution, and Degeneration: Evidence and Lessons Learned from Studies of Mast Cells in Other Connective Tissues. _International Journal of Molecular Sciences_. 2026;27(6):2804. @Hart2026MastCellConnectiveTissue
+    *DOI:*: #link("https://doi.org/10.3390/ijms27062804")[10.3390/ijms27062804]
+    *PMID:*: 41898664
+    *Key Findings:*:
+        - Mast cells found in nucleus pulposus; numbers elevated in degenerative conditions
+        - Proposes mast cell stabilizers (ketotifen) as treatment for CT degeneration
+        - Notes MMP-3 and HTRA1 as target proteinsases in affected tissues
+        - Comprehensive review across CT contexts (skin, heart, bone, intervertebral disc)
+    *Conclusion:*: Mast cells play a role in CT integrity across multiple tissue types. MC stabilization (ketotifen) proposed as therapeutic strategy for preserving CT.
+    *Limitations:*: Review, not original data; no direct hypermobility data; primarily IVD-focused.
+    *Certainty:*: 0.55
+
+=== Weiss2026 — Subglottic Stenosis in MCAS: Connective Tissue Pathology
+
+    *Full Citation:*: Weiss N, Elijah I, Dahiya R, Menton S, Ishmael L, Rutt A. Iatrogenic Subglottic Stenosis in Mast Cell Activation Syndrome: A Sentinel Case and Narrative Review. _Ear, Nose, and Throat Journal_. 2026. @Weiss2026SubglotticMCAS
+    *DOI:*: #link("https://doi.org/10.1177/01455613261423415")[10.1177/01455613261423415]
+    *PMID:*: 41700025
+    *Key Findings:*:
+        - Sentinel case of grade III subglottic stenosis in MCAS patient
+        - Mast cell mediators implicated in airway fibrosis and impaired wound healing
+        - Post-operative management: cromolyn, fexofenadine, montelukast, omalizumab
+        - Literature review supports mechanistic role for MC mediators in CT pathology
+    *Conclusion:*: MCAS patients uniquely vulnerable to connective tissue pathology of the airway. Illustrates clinical relevance of MC → CT link.
+    *Limitations:*: Single case report; airway fibrosis, not ligament laxity (opposite CT pathology).
+    *Certainty:*: 0.40
+
+=== Wilson2026 — Mast Cell Score Associates with Symptoms in hEDS/HSD (n=2141)
+
+    *Full Citation:*: Wilson FC, Zangerle DJ, Rozen LE, et al. Mast cell score associates with wide-spread mast cell symptoms and comorbidities in patients with hEDS and HSD. _medRxiv_ [Preprint]. 2026. @Wilson2026MastCellScorehEDS
+    *DOI:*: #link("https://doi.org/10.64898/2026.05.31.26354552")[10.64898/2026.05.31.26354552]
+    *PMID:*: 42282176
+    *Key Findings:*:
+        - N=2141 hEDS/HSD patients; 25% had high MC score (≥5/11)
+        - IgE significantly elevated in high MC group (hEDS p=0.0004; HSD p=0.003)
+        - Random tryptase and urinary MC markers NOT elevated in high MC group
+        - Random IgE, tryptase and MBP elevated by ELISA in high MC group
+        - Abuse/PTSD nearly doubled in high MC group (p < 0.0001)
+    *Conclusion:*: Largest cohort evidence that MC symptom burden is clinically significant in hEDS/HSD. IgE elevation in MC-high subgroup suggests IgE pathway involvement. Random mediator measurement misses most cases.
+    *Limitations:*: Preprint (not peer-reviewed); self-reported MC score; no longitudinal hypermobility data; random mediator collection.
+    *Certainty:*: 0.45
+
+=== Ganesh2024 — Long COVID and HSD Share Pathophysiology
+
+    *Full Citation:*: Ganesh R, Munipalli B. Long COVID and hypermobility spectrum disorders have shared pathophysiology. _Frontiers in Neurology_. 2024;15:1455498. @Ganesh2024LongCOVIDHSD
+    *DOI:*: #link("https://doi.org/10.3389/fneur.2024.1455498")[10.3389/fneur.2024.1455498]
+    *PMID:*: 39301475
+    *Key Findings:*:
+        - Hypermobility detected in 30-57% of ME/CFS, fibromyalgia, POTS, and long COVID
+        - "Mast cell activation and degranulation occurring in both LC and ME/CFS may result in hyperinflammation and damage to connective tissue in these patients, thereby inducing hypermobility"
+        - Proposes screening for hypermobility in LC patients
+    *Conclusion:*: Directly proposes the mechanism that MC activation → CT damage → hypermobility. Hypothesis-level paper from Mayo Clinic.
+    *Limitations:*: Hypothesis/review; no original data; does not examine MC mediators or CT biomarkers.
+    *Certainty:*: 0.40
+
+=== Martin2019 — hEDS: Acquired or Heritable?
+
+    *Full Citation:*: Martin A. An acquired or heritable connective tissue disorder? A review of hypermobile Ehlers Danlos Syndrome. _European Journal of Medical Genetics_. 2019;62(7):103672. @Martin2019hEDSAcquired
+    *DOI:*: #link("https://doi.org/10.1016/j.ejmg.2019.103672")[10.1016/j.ejmg.2019.103672]
+    *PMID:*: 31102747
+    *Key Findings:*:
+        - No definitive molecular basis identified for most hEDS
+        - Questions whether hEDS is purely heritable vs. acquired musculoskeletal condition
+        - Current hEDS classification may encompass both heritable and acquired phenotypes
+    *Conclusion:*: The absence of a consistent genetic defect in most hEDS patients opens the door to acquired/non-genetic mechanisms (including MC-mediated CT degradation).
+    *Limitations:*: Narrative review; does not specifically address mast cells; no original data.
+    *Certainty:*: 0.55
+
+=== Matheny2025 — Systematic Review: Omalizumab for Refractory MCAS
+
+    *Full Citation:*: Matheny MV, Craig T, Al-Shaikhly T. Systematic review of omalizumab for refractory clonal and non-clonal mast cell activation syndrome. _Allergy and Asthma Proceedings_. 2025;46(1):11-18. @Matheny2025OmalizumabMCAS
+    *DOI:*: #link("https://doi.org/10.2500/aap.2025.46.240076")[10.2500/aap.2025.46.240076]
+    *PMID:*: 39741373
+    *Key Findings:*:
+        - 9 studies, 28 refractory MCAS patients
+        - 75% nonclonal, 25% clonal MCAS
+        - 61% partial response, 18% complete response
+        - No major adverse events reported
+        - Higher dose (≥300 mg/month) associated with complete response
+    *Conclusion:*: Omalizumab is safe and effective for refractory MCAS. No studies have examined effects on CT integrity or hypermobility.
+    *Limitations:*: Only 28 patients; no RCTs; no CT/hypermobility outcomes; short follow-up in most studies.
+    *Certainty:*: 0.55
+
+=== Berry2019 — Low-Dose Omalizumab for Idiopathic MCAS
+
+    *Full Citation:*: Berry R, Hollingsworth P, Lucas M. Successful treatment of idiopathic mast cell activation syndrome with low-dose Omalizumab. _Clinical and Translational Immunology_. 2019;8(10):e01075. @Berry2019OmalizumabIdiopathicMCAS
+    *DOI:*: #link("https://doi.org/10.1002/cti2.1075")[10.1002/cti2.1075]
+    *PMID:*: 31576204
+    *Key Findings:*:
+        - Low-dose omalizumab 150 mg monthly → 5-year sustained clinical response
+        - Controlled debilitating MCAS symptoms
+        - Allowed reintroduction and maintenance of bee venom SCIT
+    *Conclusion:*: Low-dose omalizumab is effective for idiopathic MCAS maintenance. Safe long-term use documented.
+    *Limitations:*: Single case report; idiopathic MCAS only; no CT outcomes.
+    *Certainty:*: 0.40
+
+=== Imanaka2026 — TNXB Variants and Hypermobility (Competing Mechanism)
+
+    *Full Citation:*: Imanaka B, et al. Splicing Alterations Associated with Multiple Homozygous TNXB Variants in a Patient with Suspected Classical-Like Ehlers-Danlos Syndrome. _Biochemical Genetics_. 2026. @Imanaka2026TNXBHypermobility
+    *DOI:*: #link("https://doi.org/10.1007/s10528-026-11416-z")[10.1007/s10528-026-11416-z]
+    *PMID:*: 42295573
+    *Key Findings:*:
+        - TNXB homozygous variants cause hypermobility via tenascin-X deficiency
+        - Tenascin-X is an ECM glycoprotein; its deficiency impairs collagen matrix organization
+        - Represents a genetic mechanism for hypermobility independent of mast cells
+    *Conclusion:*: ~5-10% of hypermobility may be explained by TNXB haploinsufficiency. Competing mechanism that accounts for a subset of patients without MC involvement.
+    *Limitations:*: Rare variant; classical-like EDS, not hEDS; single case.
+    *Certainty:*: 0.55
+

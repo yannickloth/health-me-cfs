@@ -595,9 +595,18 @@ Prevents re-processing of already-integrated content.
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
 | PubMed (E-utilities API) | 2026-06-16 | 10 queries: stigma ME/CFS title search, healthcare experiences, medical gaslighting, psychosocial burden, scoping review, child stigma, narratives/perceptions, illness legitimacy, internalized stigma, work stigma |
+
+## IgE → Mast Cell → Connective Tissue Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-19 | 28 queries: mast cell tryptase/chymase/MMP ECM degradation, IgE hypermobility/hEDS/POTS, omalizumab MCAS/CT, acquired hypermobility, null/negative, competing mechanisms, safety |
 | Crossref API | 2026-06-16 | Title/semantic search for "Stigmatisation in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome" scoping review (RG #406829675 — not found) |
 | OpenAlex API | 2026-06-16 | Title/keyword search for primary scoping review (not found in indexed literature) |
 
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (10 queries, batch) | pubmed/eutils | 2026-06-16 | — | content-staging/literature-stigmatisation-2026-06-16.md, bib/appendix-h — Stigmatisation in ME/CFS literature collection (17 bib entries, 15 annotated) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (28 queries, batch) | pubmed/eutils | 2026-06-19 | — | content-staging/search-log-mast-cell-ige-connective-tissue-2026-06-19.md, bib/appendix-h — IgE → mast cell → connective tissue literature search (13 papers added) |

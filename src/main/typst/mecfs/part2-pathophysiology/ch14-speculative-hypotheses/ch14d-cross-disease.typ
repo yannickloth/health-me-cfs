@@ -1304,6 +1304,66 @@ Critical unanswered questions include:
 Answering these questions could identify preventive strategies and targeted treatments for this high-risk subgroup.
 ]
 
+#speculation(title: [Acquired Progressive Hypermobility via Mast Cell Mediator-Mediated Connective Tissue Degradation])[
+*(Certainty: 0.35 — individual mechanistic steps well-supported; causal chain from MC activation to clinical hypermobility progression is assembled from separate literatures, not demonstrated in a single study. Origin: brainstorm.)*
+
+The premise that hypermobility is exclusively genetic is challenged by the failure to identify a molecular defect in most hEDS cases despite extensive genetic search @Martin2019hEDSAcquired, and by the observation that some patients report new or worsening hypermobility following infections, new allergies, or MCAS onset. Mast cell mediators provide a plausible mechanism for acquired connective tissue degradation:
+
+*Mechanistic chain (component steps individually supported, chain unvalidated).*
+- Mast cell tryptase activates MMP-3 and MMP-13 zymogens (certainty 0.70) @Magarinos2013TryptaseMMP
+- Mast cell chymase directly activates procollagenase MMP-1 via Leu83-Thr84 cleavage (certainty 0.75) @Saarinen1994ChymaseMMP1
+- Mast cell mediators regulate MMP-mediated collagen degradation in tissue ECM (certainty 0.70) @Janicki2006CardiacMastMMP
+- Histaminylation independently alters collagen matrix mechanics via covalent histamine modification (certainty 0.70) @Zhu2026HistaminylationCollagen
+- Chymase negatively impacts bone ECM via osteoblast effects (certainty 0.65) @Lind2022ChymaseOsteoblast
+
+*Proposed causal cascade.* Triggering event (infection, newly acquired allergy, persistent pathogen) → chronic mast cell activation → sustained tryptase/chymase release + histaminylation → cumulative collagen/ECM degradation → progressive ligament/joint capsule laxity → clinically significant increase in hypermobility (Beighton score increase, new joint instability, worsening POTS from vascular CT changes).
+
+*Gates.* This hypothesis is constrained by three null findings: (a) hereditary alpha-tryptasemia (elevated tryptase genetics) does NOT concentrate in hypermobility disorders @Vazquez2022TPSAB1 — genetic tryptase elevation alone is insufficient; (b) random clinical tryptase and urinary mast cell markers are NOT elevated in high-MC-score hEDS patients @Wilson2026MastCellScorehEDS — dynamic, event-associated measurement is required; (c) no molecular defect has been identified for most hEDS @Martin2019hEDSAcquired — the field is open to non-genetic mechanisms but has not yet demonstrated them.
+
+*Clinical prediction.* Patients presenting with progressive or new-onset hypermobility after an infectious trigger or after developing new allergies/atopic disease will show elevated mast cell activation markers (provoked, not random tryptase; urinary N-methylhistamine/LTE4/PGD2 metabolite) and elevated serum MMP-3/MMP-9 relative to patients with stable, lifelong hypermobility. Mast cell stabilization (cromolyn, ketotifen) or anti-IgE therapy (omalizumab, if IgE-mediated) should slow or arrest hypermobility progression in responsive patients — a prediction not yet tested in any clinical trial.
+
+*Falsifiable prediction.* In a prospective study of post-infectious hypermobility patients (n≥30), those randomized to mast cell stabilizer + antihistamine therapy will show no significant Beighton score increase over 12 months, while untreated controls will show ≥1-point increase. Falsified if mast cell stabilizer treatment does not alter hypermobility progression rate. A stronger falsification: if provoked mast cell mediator levels (tryptase >20%+2 ng/mL above baseline during symptoms) are normal in patients with progressive hypermobility, the MC→CT chain is incorrect for that patient.
+
+*Limitations.* The full causal chain is assembled from separate literatures and has not been demonstrated end-to-end. Progressive hypermobility may reflect cumulative mechanical joint damage from MCAS-driven proprioceptive dysfunction rather than direct CT degradation — an alternative explanation that is equally consistent with the clinical observation. The Wilson 2026 prevalence data (25% high MC score in hEDS/HSD) suggest MCAS is present in a subset, not universal. Beighton score ceiling effects may mask progression in already-highly-hypermobile patients. Competing mechanism: TNXB haploinsufficiency (tenascin-X deficiency) causes hypermobility in ~5–10% of cases via a non-MC mechanism @Imanaka2026TNXBHypermobility.
+] <spec:acquired-progressive-hypermobility-mc>
+
+#clinical-finding(title: [Clinical Algorithm: Evaluating Progressive Hypermobility for MC-Driven Causes])[
+*Evidence type: mechanistic synthesis; no interventional data. Severity applicability: all levels where progressive hypermobility is reported.*
+
+In patients with hypermobility spectrum disorders or hEDS who report progressive worsening of joint laxity, subluxations, or POTS severity — particularly following a known infectious trigger, mould exposure, or development of new allergies — a targeted evaluation for mast-cell-driven connective tissue degradation may identify reversible factors:
+
+*Step 1 — Identify triggers:*
+  - Tickborne disease serology (Lyme, Bartonella — note diagnostic limitations of seronegative disease)
+  - Recent or prior COVID-19 infection (temporal relationship to hypermobility onset/worsening)
+  - Mould/mycotoxin exposure history (water-damaged building, visible mould)
+  - Other infections: EBV reactivation, persistent viral infections
+  - Newly acquired allergies (including food, environmental — may postdate hypermobility onset)
+  - New autoimmune disease onset
+
+*Step 2 — Evaluate mast cell activation:*
+  - Provoked serum tryptase during symptoms (baseline + 1–4h post-symptom-onset; >20%+2 ng/mL above baseline is the international consensus threshold)
+  - 24-hour urinary N-methylhistamine, LTE4, PGD2 metabolite (paired baseline-vs-symptomatic day if feasible)
+  - Screen for hereditary alpha-tryptasemia (TPSAB1 copy number) — a genetic confound with chronically elevated baseline tryptase
+  - Evaluate for clinical MCAS features: flushing, urticaria, dermatographism, food reactions, autonomic instability, GI symptoms
+  - Note: random/single-point tryptase is frequently normal even in patients with clinically significant MCAS; negative random labs do not exclude MCAS
+
+*Step 3 — If MC activation confirmed or clinically suspected:*
+  - H1+H2 antihistamine combination (e.g., rupatadine 10mg + famotidine 20mg BID) as first-line, low-risk trial
+  - If refractory or IgE-elevated (total IgE >100 IU/mL): consider mast cell stabilizer (cromolyn, ketotifen) or anti-IgE therapy (omalizumab — specialist prescribing, requires documented IgE-mediated component)
+  - Track hypermobility metrics (Beighton score, subluxation frequency, POTS orthostatic tolerance) at baseline and every 3 months
+  - Monitor for treatment response: stabilisation of previously progressive hypermobility is the target; reversal is not expected
+
+*Step 4 — Stopping criteria:*
+  - No improvement in hypermobility metrics or MCAS symptom burden after 6 months of optimal MC-targeted therapy → discontinue; evaluate alternative mechanisms (TNXB deficiency, cumulative mechanical damage, proprioceptive dysfunction)
+  - Treatment-emergent adverse effects → discontinue per standard clinical judgment
+
+*Limitations.* This algorithm is based on mechanistic plausibility, not clinical trial evidence. No RCT has tested whether mast-cell-directed therapy alters hypermobility progression. Individual steps (provoked tryptase testing, urinary mediator panels) require access to specialised laboratory services that may not be available in all settings. The Wilson 2026 finding that random MC markers are normal in most hEDS patients means the algorithm depends on provoked/dynamic testing that is logistically demanding. Stopping rule at 6 months is pragmatic consensus, not evidence-based. Risk of over-investigation: most progressive hypermobility may reflect cumulative mechanical joint damage from proprioceptive dysfunction, not active MC-driven degradation — applying this algorithm broadly risks inappropriate treatment.
+] <clin:progressive-hypermobility-algorithm>
+
+#limitation(title: [Hereditary Alpha-Tryptasemia Does Not Explain MCAS-Hypermobility Link])[
+Hereditary alpha-tryptasemia (HaT; extra copies of TPSAB1, ~5–6% of the general population) causes chronically elevated baseline tryptase and an MCAS-like clinical picture. However, HaT does NOT concentrate in hypermobility disorders @Vazquez2022TPSAB1 (certainty 0.70). This is an important constraint on the MCAS→hypermobility hypothesis: constitutive, genetically elevated tryptase is insufficient to produce hypermobility — episodic, high-amplitude degranulation (i.e., acquired mast cell activation) may be required. HaT should be excluded in patients being evaluated for MCAS-hypermobility overlap, but the absence of HaT enrichment in hEDS does not negate the role of acquired MC activation, as these represent different physiological states (chronic low-grade elevation vs episodic high-amplitude degranulation with different downstream mediator profiles).
+] <lim:hat-no-heds>
+
 === The Fibromyalgia Overlap
 
 ME/CFS and fibromyalgia share extensive clinical and biological overlap. A systematic review and meta-analysis of 21 publications found that the two diagnoses co-occur in 47.3% of cases (95% CI: 45.97–48.63), though high heterogeneity ($I^2=98%$) reflects varying diagnostic criteria across studies . The 2016 Wolfe fibromyalgia criteria, which incorporate fatigue, unrefreshed sleep, and cognitive dysfunction, likely inflate this figure by absorbing core ME/CFS features into the FM definition. Community-based estimates place co-occurrence closer to 22–35%.
