@@ -22394,3 +22394,206 @@ This section covers literature at the intersection of ME/CFS genetics (Precision
     *Limitations:*: Rare variant; classical-like EDS, not hEDS; single case.
     *Certainty:*: 0.55
 
+// =============================================================================
+
+== Elevated Rheumatoid Factor in ME/CFS
+<sec:bib-rf-elevated-mecfs>
+// =============================================================================
+
+=== Hashimoto1992 — RF Positivity in Japanese CFS Cohort
+
+    *Full Citation:*: Hashimoto N, Kura F, Taniguchi I. Chronic fatigue syndrome — 51 cases in the Jikei University School of Medicine. _Nihon Rinsho_. 1992;50(11):2796–2800. @Hashimoto1992CFSRF
+    *PMID:*: 1287241
+    *Key Findings:*:
+        - 6/51 (11.8%) CFS patients were rheumatoid factor positive
+        - 16/51 (31.3%) were ANF positive
+        - No specific EBV antibody pattern
+        - 77.5% had flu-like onset (5 with acute infectious mononucleosis)
+        - 56.8% generally improved at follow-up
+    *Conclusion:*: First report of elevated RF in CFS patients. Suggests autoimmune features in a subset of CFS, particularly post-infectious onset.
+    *Limitations:*: Small single-center case series without healthy controls. Japanese language, English abstract only. No RF isotype or titer details.
+    *Certainty:*: 0.30
+
+=== Kerr2002 — Parvovirus B19 CFS: No Characteristic Autoantibody Pattern
+
+    *Full Citation:*: Kerr JR, Bracewell J, Laing I, Mattey DL, Tyrrell DAJ. Chronic fatigue syndrome and arthralgia following parvovirus B19 infection. _Journal of Rheumatology_. 2002;29(3):595–602. @Kerr2002ParvovirusB19CFS
+    *PMID:*: 11911112
+    *Key Findings:*:
+        - 5/39 (13%) of follow-up patients met CDC CFS criteria after B19 infection
+        - No characteristic pattern of B19 markers or autoantibodies (including RF) distinguished CFS
+        - Chronic B19 fatigue associated only with acute B19 fatigue (p=0.011)
+        - CFS attribution to B19 infection extremely difficult without serology at onset
+    *Conclusion:*: RF and other autoantibodies are not reliable markers for post-parvovirus CFS.
+    *Limitations:*: Small number of CFS outcomes (n=5). Single-center. B19-specific, not generalizable to all CFS.
+    *Certainty:*: 0.50
+
+=== Liñán Ponce2024 — Fibromyalgia with Elevated RF: Poor Treatment Response
+
+    *Full Citation:*: Liñán Ponce F, Yampufe Canani J, et al. Fibromyalgia with elevated rheumatoid factor is associated with poor therapeutic response but not with progression to rheumatoid arthritis. _Reumatología Clínica (English Edition)_. 2024;20(10):535–542. @LinanPonce2024FMRF
+    *DOI:*: #link("https://doi.org/10.1016/j.reumae.2024.10.001")[10.1016/j.reumae.2024.10.001]
+    *PMID:*: 39455297
+    *Key Findings:*:
+        - 124 FM patients: 62 high RF (>20 U/mL) vs 62 RF negative
+        - High RF group: significantly poorer treatment response (24 vs 45 improved at 6 months)
+        - Progression to RA: 5 vs 4 (NS) — RF does not predict RA conversion in FM
+        - First prospective identification of RF+ FM as a distinct phenotype
+    *Conclusion:*: Elevated RF in fibromyalgia identifies a severe, treatment-refractory subgroup without RA progression.
+    *Limitations:*: Moderate sample (n=124). Single center. Not replicated. FM-specific, not ME/CFS.
+    *Certainty:*: 0.50
+
+=== Bergman2009 — Fatigue Is Not an Inflammatory Variable in RA
+
+    *Full Citation:*: Bergman MJ, Shahouri SH, Shaver TS, et al. Is fatigue an inflammatory variable in rheumatoid arthritis (RA)? Analyses of fatigue in RA, osteoarthritis, and fibromyalgia. _Journal of Rheumatology_. 2009;36(12):2788–2794. @Bergman2009FatigueInflammatoryRA
+    *DOI:*: #link("https://doi.org/10.3899/jrheum.090561")[10.3899/jrheum.090561]
+    *PMID:*: 19918042
+    *Key Findings:*:
+        - Inflammatory markers (ESR, SJC) contributed 9.2% to fatigue variance in RA
+        - Patient global assessment explained 43.1% of fatigue variance
+        - RA and OA fatigue levels did not differ (4.5 vs 4.4, NS) after age/sex adjustment
+        - FM fatigue (7.6) was substantially higher than RA/OA (~4.8)
+        - RF seropositivity not associated with fatigue level
+    *Conclusion:*: Fatigue in RA is not driven by inflammation. RF status does not predict fatigue severity.
+    *Limitations:*: Cross-sectional, VAS fatigue measurement, multiple cohorts with different methodologies.
+    *Certainty:*: 0.75
+
+=== Germain2025 — Comprehensive Autoantibody Profiling: Null Result
+
+    *Full Citation:*: Germain A, Jaycox JR, Emig CJ, Ring AM, Hanson MR. An in-depth exploration of the autoantibody immune profile in ME/CFS using novel antigen profiling techniques. _International Journal of Molecular Sciences_. 2025;26(6):2799. @Germain2025comprehensiveNull
+    *DOI:*: #link("https://doi.org/10.3390/ijms26062799")[10.3390/ijms26062799]
+    *PMID:*: 40141440
+    *Key Findings:*:
+        - 7542 antibody-antigen interactions analyzed: Luminex (1134 autoantigens) + REAP (6183 extracellular + 225 viral proteins)
+        - No significant differences in autoantibody reactivities between ME/CFS (n=172) and controls
+        - GPCRs and β-adrenergic receptors: no group differences
+        - Subtle male-female trends and herpesvirus reactivation patterns observed
+        - Largest and most comprehensive autoantibody study in ME/CFS
+    *Conclusion:*: No evidence for ME/CFS-specific autoantibody reactivity. Previous positive reports may reflect assay limitations or subgroup effects.
+    *Limitations:*: Cross-sectional; does not rule out autoantibodies to rare antigens or conformational epitopes.
+    *Certainty:*: 0.65
+
+=== Ryabkova2023 — Altered Natural Autoantibody Signatures in ME/CFS and FM
+
+    *Full Citation:*: Ryabkova VA, Churilov LP, Shoenfeld Y. Autoantibody correlation signatures in fibromyalgia and myalgic encephalomyelitis/chronic fatigue syndrome: association with symptom severity. _Biomedicines_. 2023;11(2):257. @Ryabkova2023naturalAAb
+    *DOI:*: #link("https://doi.org/10.3390/biomedicines11020257")[10.3390/biomedicines11020257]
+    *PMID:*: 36830795
+    *Key Findings:*:
+        - 33 natural autoantibodies measured in 11 ME/CFS+FM, 11 ME/CFS-FM, 11 HC
+        - GABA-receptor immunoreactivity deviated in patients
+        - Correlation patterns between AAb levels and symptom severity differed across groups
+        - No RF measured
+        - Authors: homeostasis of natural autoimmune relationships is disrupted
+    *Conclusion:*: Altered autoantibody network homeostasis found, but no specific autoantibody (including RF) emerged as a biomarker.
+    *Limitations:*: Tiny pilot (n=33 total). Single center. No RF data.
+    *Certainty:*: 0.30
+
+=== Batham2024 — Autoimmunity in ME/CFS: Systematic Review
+
+    *Full Citation:*: Batham J, Marshall-Gradisnik S. Autoimmunity's enigmatic role: exploring the connection with myalgic encephalomyelitis/chronic fatigue syndrome. _BMC Immunology_. 2024;25:66. @Batham2024autoimmunitySysRev
+    *DOI:*: #link("https://doi.org/10.1186/s12865-024-00657-5")[10.1186/s12865-024-00657-5]
+    *PMID:*: 39354352
+    *Key Findings:*:
+        - PRISMA systematic review of 10 papers on autoimmunity in ME/CFS
+        - 6 investigated autoantibodies, 3 genetics, 1 cytokine
+        - Inconsistent and insufficient evidence to classify ME/CFS as autoimmune
+        - Autoantibody evidence deemed limited and conflicting
+        - Difficulty distinguishing autoreactivity from deregulatory processes
+    *Conclusion:*: Current evidence insufficient to support an autoimmune classification for ME/CFS.
+    *Limitations:*: Only 10 papers included; narrow scope; autoantibody methods heterogeneous.
+    *Certainty:*: 0.65
+
+=== Sirois2001 — Sjögren's Syndrome in a Subset of CFS
+
+    *Full Citation:*: Sirois DA, Natelson BH. Clinicopathological findings consistent with primary Sjögren's syndrome in a subset of patients diagnosed with chronic fatigue syndrome: preliminary observations. _Journal of Rheumatology_. 2001;28(1):126–131. @Sirois2001SjogrenCFS
+    *PMID:*: 11196514
+    *Key Findings:*:
+        - 13/25 (52%) CFS patients reported mucosal dryness
+        - 8/25 (32%) met full diagnostic criteria for primary SS (p=0.05)
+        - 10/25 (40%) had low Schirmer test (p=0.01 vs 6% controls)
+        - 0/18 controls met SS criteria
+        - CFS-Sjögren overlap documented with histology
+    *Conclusion:*: A subset of CFS patients may have primary Sjögren's syndrome. RF would be expected in this subset.
+    *Limitations:*: Small sample (n=25+18). Preliminary. Single center. No RF measurement concurrent with sicca evaluation.
+    *Certainty:*: 0.45
+
+=== Azcue2026 — GPCR Autoantibodies in ME/CFS and PCC
+
+    *Full Citation:*: Azcue N, Prada A, Del Pino R, et al. Involvement of autoantibodies against G protein-coupled receptors in post-COVID condition and chronic fatigue syndrome. _Scientific Reports_. 2026;16:49131. @Azcue2026GPCRmecfs
+    *DOI:*: #link("https://doi.org/10.1038/s41598-026-49131-9")[10.1038/s41598-026-49131-9]
+    *PMID:*: 42082542
+    *Key Findings:*:
+        - ME/CFS (n=59): significantly higher β2 adrenergic AAb than PCC (n=96) and HC (n=36)
+        - β2 AAb correlated with sympathovagal imbalance in ME/CFS (r=0.45, p=0.001)
+        - M1, M3, M4 muscarinic AAb positively correlated with memory in ME/CFS
+        - RF not measured — competing mechanism via GPCR AAb
+    *Conclusion:*: GPCR autoantibodies (especially β2 adrenergic) are relevant to ME/CFS pathophysiology, not RF.
+    *Limitations:*: Cross-sectional; moderate sample; no RF comparison.
+    *Certainty:*: 0.55
+
+=== Kim2023 — Sjögren Fatigue vs ME/CFS: Distinct Phenotypes
+
+    *Full Citation:*: Kim L, Freitag H, Sotzny F, et al. Characterizing Sjögren-associated fatigue: a distinct phenotype from ME/CFS. _Journal of Clinical Medicine_. 2023;12(15):4994. @Kim2023SjogrenFatigueME
+    *DOI:*: #link("https://doi.org/10.3390/jcm12154994")[10.3390/jcm12154994]
+    *PMID:*: 37568396
+    *Key Findings:*:
+        - Sjögren fatigue and ME/CFS fatigue are distinct phenotypes
+        - Different immunological and clinical dimensions
+        - Important for differential diagnosis in RF+ patients
+    *Conclusion:*: Fatigue in Sjögren's (where RF is often elevated) has a different profile from ME/CFS fatigue.
+    *Limitations:*: Moderate sample size; cross-sectional.
+    *Certainty:*: 0.50
+
+=== Sotzny2022 — Dysregulated Autoantibodies in Post-COVID Syndrome
+
+    *Full Citation:*: Sotzny F, Filgueiras I, Kedor C, et al. Dysregulated autoantibodies targeting vaso- and immunoregulatory receptors in Post COVID Syndrome correlate with symptom severity. _Frontiers in Immunology_. 2022;13:981532. @Sotzny2022postcovidAAb
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2022.981532")[10.3389/fimmu.2022.981532]
+    *PMID:*: 36238301
+    *Key Findings:*:
+        - AAb targeting GPCR, vasoregulatory and immunoregulatory receptors elevated in post-COVID
+        - AAb levels correlated with symptom severity
+        - Establishes autoantibody dysregulation in post-viral fatigue
+        - RF not measured — competing non-RF autoantibody mechanism
+    *Conclusion:*: Post-viral fatigue involves autoantibodies, but to GPCR receptors, not classical RA-associated autoantibodies like RF.
+    *Limitations:*: Post-COVID specific; cross-sectional; no RF comparison.
+    *Certainty:*: 0.50
+
+=== Berwick2025 — Anti-Satellite Glial Cell IgG in FM and Post-COVID
+
+    *Full Citation:*: Berwick RJ, Andersson DA, Goebel A. Postacute COVID-19 syndrome and fibromyalgia syndrome are associated with anti-satellite glial cell IgG serum autoantibodies but only fibromyalgia syndrome serum-IgG is pronociceptive. _Pain_. 2025;166(10):e121–e135. @Berwick2025antiGlialFM
+    *DOI:*: #link("https://doi.org/10.1097/j.pain.0000000000003629")[10.1097/j.pain.0000000000003629]
+    *PMID:*: 40408228
+    *Key Findings:*:
+        - Both post-COVID and FM patients had anti-satellite glial cell autoantibodies
+        - Only FM IgG was pronociceptive in passive transfer
+        - Autoantibody target distinct from RF (not classical RA-linked)
+    *Conclusion:*: Autoantibody-mediated mechanisms in FM and post-viral fatigue target glial cells, not the RF/RA pathway.
+    *Limitations:*: Animal passive transfer; in vitro; post-COVID and FM, not ME/CFS specifically.
+    *Certainty:*: 0.60
+
+=== Kozłowska2022 — Fatigue in RA: RF Not a Predictor
+
+    *Full Citation:*: Kozłowska KA, Bączyk G. The link between the demographic and clinical factors and fatigue symptoms among rheumatoid arthritis patients. _International Journal of Environmental Research and Public Health_. 2022;19(22):14681. @Kozlowska2022FatigueRARF
+    *DOI:*: #link("https://doi.org/10.3390/ijerph192214681")[10.3390/ijerph192214681]
+    *PMID:*: 36429400
+    *Key Findings:*:
+        - 128 RA patients: fatigue assessed by FACIT-F and SF-36 vitality
+        - Fatigue associated with pain, morning stiffness, DAS28, low hemoglobin
+        - RF not a significant predictor of fatigue in multivariate analysis
+        - Null context: RF seropositivity does not independently cause fatigue even in RA
+    *Conclusion:*: Even in RA (where RF is highly prevalent and pathogenic), RF does not independently predict fatigue.
+    *Limitations:*: Cross-sectional; moderate sample; single center; RA-specific.
+    *Certainty:*: 0.40
+
+=== Wohlrab2025 — Autoantibody-Targeting Therapies in ME/CFS
+
+    *Full Citation:*: Wohlrab F, Eltity M, Ufer F, Paul F, Scheibenbogen C, Bellmann-Strobl J. Autoantibody targeting therapies in Post COVID syndrome and myalgic encephalomyelitis/chronic fatigue syndrome. _Expert Opinion on Biological Therapy_. 2025;25(5):621–634. @Wohlrab2025AAbTargetingTx
+    *DOI:*: #link("https://doi.org/10.1080/14712598.2025.2492774")[10.1080/14712598.2025.2492774]
+    *PMID:*: 40211686
+    *Key Findings:*:
+        - Immunoadsorption, B-cell depletion, IVIG being trialled in post-COVID and ME/CFS
+        - Rationale: β2-adrenergic and M3 muscarinic AAb are elevated in subsets
+        - RF not discussed as a therapeutic target
+        - Ongoing RCT: EXTINCT (NCT05954325), IMPACT (NCT07529197)
+    *Conclusion:*: Autoantibody-targeting therapies are under investigation for ME/CFS, but target GPCR AAb, not RF.
+    *Limitations:*: Narrative review; no new data; ongoing trials not yet reported.
+    *Certainty:*: 0.45
+
