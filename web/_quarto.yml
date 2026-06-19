@@ -60,6 +60,10 @@ website:
         contents: part4-research/**
       - section: "Part V — Modeling"
         contents: part5-modeling/**
+      - text: "---"
+      - text: "Patient Resources"
+        href: patient-resources/index.qmd
+      - text: "---"
       - section: "Appendices"
         contents: z-appendices/**
 

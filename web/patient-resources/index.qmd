@@ -1,0 +1,34 @@
+---
+title: "Patient Resources"
+toc: true
+---
+
+## Practical Tools and Resources
+
+This page collects practical, actionable tools and resources for ME/CFS patients — things you can use today, separate from the scientific content of the paper.
+
+### Hidden Disabilities Sunflower
+
+The [Hidden Disabilities Sunflower](https://hiddendisabilitiesstore.com/) is a discreet, internationally recognised signal that the wearer has a non-visible disability and may need additional support, time, or understanding in public spaces.
+
+ME/CFS is an invisible illness. The Sunflower lanyard lets you make it visible — on your own terms, without having to explain yourself every time.
+
+**Where it's recognised:** airports, train stations, supermarkets, banks, hospitals, sports venues, universities, and many more — across 30+ countries worldwide.
+
+**How to get one:** Lanyards are available free or at low cost directly from the Sunflower website. You do not need a formal diagnosis to wear one.
+
+[Visit the Sunflower website →](https://hiddendisabilitiesstore.com/)
+
+---
+
+### Finding Recognised Venues
+
+Use the [Sunflower location map](https://hdsunflower.com/find-the-sunflower) to find businesses and venues near you that recognise the Sunflower.
+
+---
+
+::: {.callout-tip}
+## Also See
+
+The [full Resources and Support appendix](z-appendices/appendix-d-resources/) contains a comprehensive guide to patient organisations, online communities, clinical trial registries, disability and legal resources, and more.
+:::
