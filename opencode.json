@@ -712,6 +712,15 @@
         },
         "reasoning_effort": "max"
       }
+    },
+    "consequence-field-writer": {
+      "model": "deepseek/deepseek-v4-pro",
+      "options": {
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "max"
+      }
     }
   }
 }

@@ -79,6 +79,7 @@ Run only agents relevant to file scope. Before launching each, grep target files
 | 5.1 | `safety-auditor` | 2. Medical Safety | Hypothesis-as-recommendation, contraindications |
 | 5.2 | `pharmacology-auditor` | 12. Pharmacology | MOA, interactions, off-label, withdrawal |
 | 5.3 | `patient-safety-auditor` | 20. Patient-Facing Safety | PEM harm, severity gaps, psych framing |
+| 5.4 | `consequence-field-scanner` | 21. Non-Specialist Accessibility | Missing `*Consequence:*` fields — flag environments without plain-language significance translation |
 
 ### Phase 6: Publication Readiness (final pass)
 
