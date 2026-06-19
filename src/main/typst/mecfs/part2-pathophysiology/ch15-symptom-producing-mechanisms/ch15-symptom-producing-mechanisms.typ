@@ -778,7 +778,7 @@ The interoceptive prediction error model is explicitly distinguished from psycho
 
 === Why Graded Exposure Fails
 
-Graded exposure therapy operates on the premise that catastrophizing and fear-avoidance maintain symptoms by preventing corrective experiences. This is appropriate when avoidance is maintained by maladaptive beliefs about safe activities. In ME/CFS, however, two-day CPET demonstrates that the belief “exercise causes harm” is physiologically accurate: Day 2 objective capacity declines are reproducible and measurable @keller2024cpet @VanCampen2020SeverityCPET, though a 2026 null replication did not find group-average decline @Mancini2026CPET (elevated RPE and CI are consistent). Exposing patients to an activity that genuinely produces physiological harm (NLRP3 activation, ASIC3 upregulation, immune surge) to demonstrate it is “safe” is both theoretically inconsistent with the interoceptive error model and inconsistent with the physiological evidence.
+Graded exposure therapy operates on the premise that catastrophizing and fear-avoidance maintain symptoms by preventing corrective experiences. This is appropriate when avoidance is maintained by maladaptive beliefs about safe activities. However, two lines of evidence directly challenge this premise in chronic fatigue. First, Poort et al.\ (2021, n=134, RCT mediation analysis) found that changes in catastrophizing did _not_ mediate fatigue improvement in either GET or CBT — fatigue reduction was mediated by physical conditioning and perceived activity, not by cognitive variables @Poort2021catastrophizingNull. If catastrophizing does not drive treatment outcomes even in CBT for fatigue, targeting it is not supported by mechanistic evidence. Second, two-day CPET demonstrates that the belief “exercise causes harm” is physiologically accurate: Day 2 objective capacity declines are reproducible and measurable @keller2024cpet @VanCampen2020SeverityCPET, though a 2026 null replication did not find group-average decline @Mancini2026CPET (elevated RPE and CI are consistent). Exposing patients to an activity that genuinely produces physiological harm (NLRP3 activation, ASIC3 upregulation, immune surge) to demonstrate it is “safe” is both theoretically inconsistent with the interoceptive error model and inconsistent with the physiological evidence.
 
 === Therapeutic Implications: Interoceptive Retraining
 
@@ -991,6 +991,17 @@ The metabolic danger hypothesis predicts lactate/succinate surge, NLRP3 inflamma
 
 *Priority 7: Systems Biology Modeling of the Symptom Cascade.*
 Develop mechanistic computational models integrating cytokine dynamics, neurochemical generators, and systems amplifiers. Study design: Agent-based or network-based modeling (e.g., using data from above studies) to simulate cascade dynamics and predict treatment combinations. Validation: Prospective simulation of responses to single and combined interventions, tested against clinical trial outcomes. Feasibility: High (modeling is computationally feasible with existing data). Impact: Would provide framework for treatment optimization and prediction of which interventions will synergize vs. antagonize. Expected timeline: Parallel to above studies (1–5 years).
+
+*Priority 8: Interoceptive Psychophysics in ME/CFS.*
+Three interconnected research directions bridge the theoretical interoceptive framework to empirical validation:
+
+#include "sec-20-research-directions/interoception/oq-tripartite-interoception-mecfs.typ"
+
+#include "sec-20-research-directions/interoception/oq-post-infectious-interoceptive-trajectory.typ"
+
+#include "sec-20-research-directions/interoception/oq-interoceptive-training-mecfs.typ"
+
+#include "sec-20-research-directions/interoception/spec-afferent-noise-precision-hysteresis.typ"
 
 All these directions are designed to be complementary, iterative, and hypothesis-driven. Early results from mechanistic studies (Priorities 1–4) would inform trial design for Priority 5. Together, they would generate the mechanistic understanding and clinical evidence needed to move ME/CFS treatment from trial-and-error to precision medicine approaches.
 
