@@ -21,11 +21,11 @@ Scans the entire paper (or scoped subset) for scattered environments that collec
 **Agent:** multiple `explore` agents (one per chapter/part) | **Model:** haiku | **Execution:** parallel foreground (each writes its own output file)
 
 **Partitioning rule:**
-- Full-document scan (no scope argument) → split by part: `part1-clinical`, `part2-pathophysiology`, `part3-treatment`, `part4-research`, `part5-modeling`, plus `shared/` and `appendices/`. Seven agents total.
-- Scoped scan (e.g., `ch07 ch14d ch15`) → one agent per chapter in the scope. Minimum 1, maximum 10 agents.
+- Full-document scan (no scope argument) → single `sonnet-general` agent scans the full `src/main/typst/mecfs/` directory. This avoids the coordination overhead of 6 parallel agents and eliminates terminology drift entirely, since one agent reads everything. Sonnet is used (not haiku) because accurate term extraction from 3,000+ environments across 6 parts requires domain judgment — haiku's higher error rate would create false negatives/positives that break the merge.
+- Scoped scan (e.g., `ch07 ch14d ch15`) → one `explore` agent (haiku) per chapter in the scope. Scoped scans have fewer environments, so the coordination overhead is acceptable and the speed gain from parallelism outweighs the inconsistency risk. Minimum 1, maximum 5 agents.
 - If a single chapter has >200 environments → split that chapter into two agents (first half, second half). The `appendices/` directory is its own agent.
 
-**Shared term vocabulary (MANDATORY — prevents terminology drift across agents).** Every agent must use this exact taxonomy when filling the Mechanism/Tissue/Drug/Process columns. If an environment mentions a term on this list, use the canonical form exactly as written here. If an environment mentions a concept not on this list, use the standard biomedical name (not an abbreviation unique to one chapter).
+**Shared term vocabulary (MANDATORY — prevents terminology drift across agents).** Every agent must use this exact taxonomy when filling the Mechanism/Tissue/Drug/Process columns. If an environment mentions a term on this list, use the canonical form exactly as written here. If an environment mentions a concept not on this list, add it using the standard biomedical name (not an abbreviation unique to one chapter) and flag it with `[+]` in the output table so the merge step can identify novel terms. For drugs, include the approval status suffix: `†` = FDA/EMA-approved for any indication, `‡` = research-stage only (no regulatory approval for any indication). This prevents syntheses from implying therapeutic readiness for research-stage compounds.
 
 | Column | Canonical terms |
 |--------|----------------|
@@ -47,7 +47,7 @@ Scans the entire paper (or scoped subset) for scattered environments that collec
 
 3. **Output:** Write `tmp/synthesis-inventory-<part>-<date>.md` with the structured table. One file per agent.
 
-**Merge (main session):** After all agents complete, the main session reads all output files, deduplicates (same label in monolithic + split versions counts once), concatenates into a master inventory, and builds the four inverted indexes (mechanism → labels, tissue → labels, drug → labels, process → labels). Any term appearing in ≥3 rows AND spanning ≥2 chapters OR ≥2 research streams is a candidate cluster.
+**Merge (main session):** After all agents complete, the main session reads all output files, deduplicates (same label in monolithic + split versions counts once), concatenates into a master inventory, and builds the four inverted indexes (mechanism → labels, tissue → labels, drug → labels, process → labels). Before identifying candidate clusters, **filter out promiscuous terms** — any term appearing in >20% of all rows (e.g., "IL-6", "TNF-α", "NF-κB", "oxidative-stress") is a generic biological marker, not a meaningful convergence signal. These are excluded from candidate clusters. After filtering, any remaining term appearing in ≥3 rows AND spanning ≥2 chapters OR ≥2 research streams is a candidate cluster.
 
 **Output:** Master inventory + candidate cluster list written to `tmp/synthesis-inventory-master-<date>.md`. This file is the input to Phase 2.
 
@@ -78,8 +78,7 @@ Read the Phase 1 master output file (`tmp/synthesis-inventory-master-<date>.md`)
 
 | Gate | Condition | Action |
 |------|-----------|--------|
-| **Density** | ≥3 environments from ≥2 chapters OR ≥2 different integration cycles, AND not all in the same chapter section (if all adjacent, skip — reader can see the pattern) | Eligible |
-| **Single-chapter density** | ≥3 environments from ≥2 integration cycles, all in one chapter but not in the same section | Eligible (cross-cycle convergence within one chapter still benefits from synthesis) |
+| **Density** | ≥3 eligible environments (after applying hard skip rules below) from ≥2 different integration cycles (across any number of chapters), AND not all in the same chapter section | Eligible |
 | **Already synthesized** | A `#synthesis` environment in the paper already covers this cluster's argument | Skip (note existing label) |
 | **Adjacent** | All environments are in the same chapter section and visible to a reader scanning that section | Skip (reader can see the pattern) |
 | **Thin** | <3 labeled environments exist (prose mentions or single bibliography entries don't count) | Skip (insufficient integration density) |
@@ -179,8 +178,9 @@ Build: PASS
 
 | Phase | Agent | Model | Reason |
 |-------|-------|-------|--------|
-| 1 | `explore` × N (parallel) | haiku | Per-part/chapter grep + term extraction — 5–7 agents in parallel for full doc, cheap |
-| 1 (merge) | main session | haiku | Deduplicate + merge + index — mechanical, no domain reasoning |
+| 1 (full doc) | `sonnet-general` | sonnet | Single agent scans full document — avoids coordination overhead of 6 parallel agents, eliminates terminology drift |
+| 1 (scoped) | `explore` × N (parallel) | haiku | Per-chapter grep + term extraction — cheap, parallelizable for smaller scopes |
+| 1 (merge) | main session | haiku | Deduplicate + merge + index + filter promiscuous terms — mechanical |
 | 2 | `sonnet-general` | sonnet | Judgment-based cluster evaluation — needs domain reasoning |
 | 3 | main session | sonnet | Composition — needs placement judgment, not deep reasoning |
 | 4 | review-convergence + review-adversarial | sonnet/opus | Same as Phase 11 in integrate-topic |

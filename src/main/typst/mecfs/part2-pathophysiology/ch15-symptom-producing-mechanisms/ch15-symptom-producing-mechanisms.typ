@@ -786,7 +786,40 @@ Consistent with the model, therapeutic approaches that improve interoceptive _re
 
   - *Heart rate variability (HRV) biofeedback:* Provides high-resolution, real-time autonomic feedback, potentially improving the precision and accuracy of cardiovascular interoceptive prediction, reducing allostatic load.
   - *Pacing within energy envelope:* By remaining below the ventilatory threshold, pacing prevents the generation of genuine metabolic danger signals, reducing the afferent input driving prediction error.
-  - *Interoceptive awareness training:* Mindfulness-based approaches that explicitly target interoceptive attention have been explored in chronic pain and fatigue; effects are modest and require careful implementation to avoid effort-based exacerbation in ME/CFS.
+  - *Interoceptive awareness training:* Mindfulness-based approaches that explicitly target interoceptive attention have been explored in chronic pain and fatigue; effects are modest and require careful implementation to avoid effort-based exacerbation in ME/CFS. No interoceptive training/rehabilitation trials have been conducted in ME/CFS specifically — a complete evidence gap.
+
+=== Inflammation-to-Interoception: The Immune-Interoceptive Axis
+<sec:ch15-inflammation-interoception>
+
+The sections above describe interoceptive predictive processing in abstract computational terms. This section provides the biological anchor: the experimental evidence that peripheral inflammation directly modulates the brain's interoceptive hubs.
+
+#include "sec-01-misc/subsec-02-inflammation-to-interoception-pathway/achievements/ach-inflammation-modulates-interoceptive-hub.typ"
+
+The inflammation-to-interoception pathway is detailed in Chapter @ch:immune-dysfunction (Section @sec:ch15-sickness-behavior), where the three cytokine-to-brain routes (vagal, humoral, transport) are described @Dantzer2000neural @McCusker2013. The Harrison (2009) and Savitz/Harrison (2018) evidence completes the circuit: the same interoceptive regions mapped by Zhang, Wager et al.\ (2025) are the targets of inflammation-induced modulation. This makes a specific, testable prediction: if fatigue in ME/CFS is driven by CNS-confined inflammation (as Omdal et al.\ 2026 @Omdal2026LCFatigueStress demonstrated — normal peripheral cytokines with disabling fatigue), the interoceptive dysfunction should persist even when blood cytokines are normal, because the relevant inflammatory signaling is occurring behind the blood-brain barrier, at hypothalamic mast cells, circumventricular organs, and vagal paraganglia.
+
+=== The Interoceptive Accuracy-Sensibility Dissociation
+<sec:ch15-interoceptive-dissociation>
+
+A critical question for the interoceptive model in ME/CFS is whether patients have _elevated_ interoceptive accuracy (consistent with hypervigilance) or _reduced_ interoceptive accuracy (consistent with signal corruption). The answer may be: both, depending on which dimension is measured.
+
+#include "sec-01-misc/subsec-03-interoceptive-accuracy-sensibility-dissociation/hypotheses/hyp-interoceptive-accuracy-sensibility-dissociat.typ"
+
+Danciut, Garfinkel et al.\ (2024, n=33 MS patients + 33 controls) provided the first empirical demonstration that interoceptive deficits correlate with fatigue severity in a neuroinflammatory disease @DanciutGarfinkel2024MSinteroception. White matter dysconnectivity in interoceptive network tracts correlated with both interoceptive accuracy deficits and fatigue severity. MS provides a cross-disease template: neuroinflammation → white matter damage in interoceptive pathways → interoceptive accuracy deficit → fatigue. The Manjaly, Harrison, Critchley et al.\ (2019) review proposed the same pathway for MS fatigue specifically, linking interoceptive prediction error (via anterior cingulate and insula) to pathological fatigue @ManjalyCritchley2019MSfatigue.
+
+#include "sec-01-misc/subsec-03-interoceptive-accuracy-sensibility-dissociation/speculations/spec-greenhouse-tucknott-predictive-coding-fatigu.typ"
+
+=== Emotional-Interoceptive Dysfunction as Downstream Biology
+<sec:ch15-emotional-interoceptive>
+
+The emotional processing abnormalities documented in ME/CFS—alexithymia, flattened affect, emotional-autonomic dissociation—are not psychologically mediated. They are downstream consequences of the same immune-to-brain signaling that produces the sickness behavior program, refracted through the computational lens of interoceptive predictive processing.
+
+#include "sec-01-misc/subsec-02-inflammation-to-interoception-pathway/hypotheses/hyp-sickness-behavior-as-emotional-phenotype.typ"
+
+#include "sec-01-misc/subsec-04-emotional-interoceptive-dysfunction/hypotheses/hyp-alexithymia-acquired-interoceptive-deficit.typ"
+
+#include "sec-01-misc/subsec-04-emotional-interoceptive-dysfunction/speculations/spec-emotional-autonomic-dissociation.typ"
+
+*Clinical implication.* These findings support the NICE NG206 (2021) position that emotional symptoms in ME/CFS should not be treated as evidence of psychological causation @NICE2021mecfs. Alexithymia screening should not lead to psychiatric referral alone but to evaluation for underlying immune-autonomic dysfunction. Emotional processing difficulties are biologically real but their treatment target is the upstream biology, not the downstream psychology. This is the same principle that applies to fatigue: no one would treat the fatigue of myositis by recommending activity scheduling without investigating muscle inflammation; the fatigue is real but its source is biological. The same logic applies to emotional symptoms in ME/CFS.
 
 // =============================================================================
 // PART D: SYNTHESIS
