@@ -6,8 +6,9 @@ Full build system reference: [`build-system.md`](build-system.md)
 
 ## Prerequisites
 
-- **Nix** ≥ 2.4 with flakes: `experimental-features = nix-command flakes`
-- (Non-Nix unsupported — typst packages, fonts, and env vars are Nix-managed)
+- **Nix** with flakes: add `experimental-features = nix-command flakes` to `~/.config/nix/nix.conf` or `/etc/nix/nix.conf`
+- Non-Nix unsupported (typst packages, fonts, and env vars are Nix-managed)
+- First build downloads Nix dependencies (~10–30 min); subsequent builds are fast
 
 ## Build Commands
 
@@ -16,9 +17,11 @@ nix build              # PDF only → result/loth2026-mecfs.pdf
 nix build .#web        # → result/ (HTML site only)
 nix build .#web-full   # → result/ (HTML site + PDF)
 nix flake check         # All CI checks
-nix run .#clean         # Clean .cache, .build, result, temp PDFs
-nix develop             # Dev shell (typst, quarto, jdk25)
+nix run .#clean         # .cache, .build, result, *.pdf in src/main/typst/
+nix develop             # Dev shell (typst, quarto, jdk25); TYPST_* env vars preset
 ```
+
+`result/` is a symlink into the Nix store — `cp result/<file> .` to persist. Stale deps? `nix flake update`
 
 ## Source Layout
 
@@ -48,8 +51,8 @@ web/
 ├── part*/ch*/                # Generated .qmd (do not edit)
 ├── z-appendices/             # Generated appendix .qmd (do not edit)
 ├── _shared/                  # Generated shared .qmd (do not edit)
-├── bib/                      # Copied from typst/src/bib/
-└── figures/                  # Compiled .svg from typst figure sources
+├── bib/                      # Copied from src/main/typst/mecfs/bib/ (generated)
+└── figures/                  # Compiled .svg from typst figure sources (generated, do not edit)
 ```
 
 ## Fix Discipline

@@ -57,8 +57,8 @@
 | 3 | ✅ | 1 observation added to ch04 sec-08-differential-diagnosis (obs:rf-not-mecfs-biomarker); 1 line note added to RA testing entry |
 | 4 | ✅ | 36 ideas generated (3 novel hypotheses, 5 research directions, 3 drug, 2 supplement, 2 non-pharm, 2 combinations, 2 math, 3 cross-disease, 3 biomarker, 5 NOT-relevant, 1 null assessment, 5 quality concerns); brainstorm at content-staging/brainstorm-rf-elevated-mecfs-2026-06-19.md |
 | 4a | ✅ | Subtree at subtrees/rf-elevated-mecfs.md with 36 nodes; root index updated |
-
----
+| 5 | ✅ | 36 ideas triaged: critical categories (Z1-Z5, NH1, EQ1-EQ5) integrated inline into existing observation; Tier 1 ideas mostly implied or research proposals — no additional chapter mods needed; no scope-escalation candidates |
+| 5a | ✅ | Falsifiability audit: observation fully refutable (implicit claims all have contradicting evidence tests); no fixes needed |
 
 **Created:** 2026-06-19
 **Topic slug:** rf-elevated-mecfs

@@ -104,6 +104,8 @@ void main(String[] args) throws IOException {
     src = encloseEnv(src, "open-question", "note",   "Open Question");
     src = encloseEnv(src, "observation-unnumbered", "note", "Observation");
     src = encloseEnv(src, "observation",   "note",   "Observation");
+    src = encloseEnv(src, "synthesis-unnumbered", "note", "Synthesis");
+    src = encloseEnv(src, "synthesis",     "note",   "Synthesis");
     src = encloseEnv(src, "clinical-finding-unnumbered", "note", "Clinical Finding");
     src = encloseEnv(src, "clinical-finding", "note","Clinical Finding");
     src = encloseEnv(src, "recommendation","note",   "Recommendation");

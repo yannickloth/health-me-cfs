@@ -14,8 +14,8 @@ nix develop             # Dev shell w/ typst, quarto, jdk25
 ## Development
 
 ```bash
-nix develop
-# Inside shell: TYPST_PACKAGE_CACHE_PATH / TYPST_FONT_PATHS preset
+  nix develop
+  # Inside shell: TYPST_PACKAGE_CACHE_PATH, TYPST_FONT_PATHS preset
 
 typst compile src/main/typst/mecfs/loth2026-mecfs.typ  # PDF
 
