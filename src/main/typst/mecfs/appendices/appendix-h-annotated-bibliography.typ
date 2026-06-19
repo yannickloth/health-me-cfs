@@ -21628,198 +21628,6 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Certainty:*: 0.68
 
 // =============================================================================
-// Psychologization Critique — Schomerus 2026
-// Added 2026-06-19 — research_stream = stigmatisation-psychologization
-// =============================================================================
-
-== Psychologization and Stigmatization in ME/CFS and Long COVID
-<sec:bib-psychologization>
-
-=== Schomerus et al.\ 2026 — The Role of "the Psyche" in Long COVID and ME/CFS
-
-    *Full Citation:*: Schomerus G, Nicolas ML, Fritz F, Schneider D, Büchner R. Welche Rolle spielt »die Psyche«? Long COVID und ME/CFS als Prüfsteine für eine evidenzbasierte und patient*innenorientierte Psychiatrie und Psychotherapie. _Psychiatrische Praxis_. 2026. @Schomerus2026PsycheRole
-    *DOI:*: #link("https://doi.org/10.1055/a-2866-9127")[10.1055/a-2866-9127]
-    *Published:*: 2026 (Epub ahead of print)
-    *Study Design:*: Critical essay / position paper
-    *Sample Size:*: 37 references reviewed
-    *Key Findings:*:
-        - Argues AGAINST psychologization of ME/CFS and Long COVID: the claim that psychological factors drive illness maintenance/chronicity even if not causal
-        - Documents specific harms: GET/activation therapy causing deterioration, invalidation of illness experience, neglect of medical treatment, medico-legal disadvantage, family/social harm
-        - Critiques the evidence base for secondary psychologization — dismantles the argument that psychological factors determine prognosis
-        - Advocates for evidence-based, patient-centered psychiatry that recognizes biomedical evidence
-    *Conclusion:*: Psychologizing ME/CFS and Long COVID carries significant risks including iatrogenic harm, epistemic injustice, and neglect of biomedical care. Psychiatry should engage critically with its own role in this process.
-    *Limitations:*: Position paper (not empirical); German-language journal; single-perspective argument. Strengths: comprehensive citation of international evidence, balanced by acknowledging psychiatry's potential positive role.
-    *Certainty:*: 0.65 (based on argument quality and citation rigor; not an empirical study)
-
-=== Büchner et al.\ 2025 — Psychologization and Stigmatization of Long COVID
-
-    *Full Citation:*: Büchner R, Sander C, Schindler S, Walter M, Scheibenbogen C, Schomerus G. "Have you considered that it could be burnout?" — psychologization and stigmatization of self-reported long COVID or post-COVID-19 vaccination syndrome. _BMC Medicine_. 2025;23(1):488. @Buchner2025Psychologization
-    *DOI:*: #link("https://doi.org/10.1186/s12916-025-04335-0")[10.1186/s12916-025-04335-0]
-    *PMID:*: 40830954
-    *PMCID:*: PMC12366089
-    *Study Design:*: Cross-sectional online survey; quantitative analysis
-    *Sample Size:*: n=1,156 (LC n=660, PCVS n=496)
-    *Key Findings:*:
-        - 46.8% of LC/PCVS respondents reported being told symptoms were psychological
-        - Psychologization associated with higher perceived stigma (p<0.001)
-        - Psychologization associated with lower healthcare satisfaction
-        - Psychologization mediated worse mental health outcomes
-        - Difference between LC and PCVS groups in stigma patterns
-    *Conclusion:*: Psychologization is a measurable phenomenon in LC/PCVS with demonstrable negative consequences for patients.
-    *Limitations:*: Self-reported (no clinical verification); cross-sectional (directionality not established); online convenience sample.
-    *Certainty:*: 0.72
-
-=== Pantelic et al.\ 2022 — Long Covid Stigma Scale Validation
-
-    *Full Citation:*: Pantelic M, Ziauddeen N, Boyes M, O'Hara ME, Hastie C, Alwan NA. Long Covid stigma: estimating burden and validating scale in a UK-based sample. _PLoS ONE_. 2022;17(11):e0277317. @Pantelic2022LongCovidStigma
-    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0277317")[10.1371/journal.pone.0277317]
-    *PMID:*: 36417364
-    *PMCID:*: PMC9683629
-    *Study Design:*: Psychometric validation; cross-sectional
-    *Sample Size:*: n=412
-    *Key Findings:*:
-        - Adapted 10-item Chronic Illness Stigma Scale for Long Covid (3 subscales)
-        - 37% scored above scale midpoint (indicating clinically relevant stigma)
-        - Stigma associated with worse physical and mental health outcomes
-        - Internal consistency good (α=0.78–0.87)
-    *Conclusion:*: Stigma is a measurable and significant burden in Long Covid, associated with poorer health outcomes.
-    *Limitations:*: UK-based online sample; self-reported LC status; cross-sectional.
-    *Certainty:*: 0.70
-
-=== Hoffmann et al.\ 2024 — D-A-CH Consensus Statement on ME/CFS
-
-    *Full Citation:*: Hoffmann K, Hainzl A, Stingl M, et al. Interdisziplinäres, kollaboratives D-A-CH Konsensus-Statement zur Diagnostik und Behandlung von Myalgischer Enzephalomyelitis/Chronischem Fatigue-Syndrom. _Wiener klinische Wochenschrift_. 2024;136(Suppl 5):103–123. @Hoffmann2024DACHconsensus
-    *DOI:*: #link("https://doi.org/10.1007/s00508-024-02372-y")[10.1007/s00508-024-02372-y]
-    *PMID:*: 38743348
-    *PMCID:*: PMC11093804
-    *Study Design:*: Interdisciplinary consensus statement (Germany, Austria, Switzerland)
-    *Sample Size:*: 33 co-authors; comprehensive literature review
-    *Key Findings:*:
-        - Endorses CCC and IOM diagnostic criteria for ME/CFS
-        - Explicitly recommends against graded exercise therapy (GET)
-        - Emphasizes PEM as core diagnostic feature
-        - Recommends pacing and symptom-titrated activity management
-        - Provides diagnostic algorithms for German-speaking healthcare context
-    *Conclusion:*: The D-A-CH consensus legitimizes ME/CFS as an organic disease and provides clinical guidance, including explicit caution against GET.
-    *Limitations:*: Consensus-based (not systematic review methodology); German-language healthcare context; may not reflect international guideline variation.
-    *Certainty:*: 0.80
-
-=== Gimeno Torrent 2022 — Symbolic Violence in CFS/ME
-
-    *Full Citation:*: Gimeno Torrent X. The circuit of symbolic violence in chronic fatigue syndrome (CFS)/myalgic encephalomyelitis (ME) (I): a preliminary study. _Health Care for Women International_. 2022;43(1–3):5–41. @GimenoTorrent2022SymbolicViolence
-    *DOI:*: #link("https://doi.org/10.1080/07399332.2021.1925900")[10.1080/07399332.2021.1925900]
-    *PMID:*: 34125009
-    *Study Design:*: Theoretical analysis (Bourdieusian framework)
-    *Sample Size:*: N/A (theoretical)
-    *Key Findings:*:
-        - Applies Bourdieu's concept of symbolic violence to medical delegitimization of CFS/ME
-        - Medical field's psychosomatic framing functions as symbolic violence through misrecognition
-        - Produces social suffering, self-blame, and exclusion from healthcare
-        - Circuits of symbolic violence sustain each other across medical, media, and policy fields
-    *Conclusion:*: The psychosomatic framing of CFS/ME is a form of symbolic violence that perpetuates suffering through misrecognition.
-    *Limitations:*: Single-author theoretical analysis; not empirical; English (translated from Catalan context); single journal series.
-    *Certainty:*: 0.50
-
-=== Byrne 2020 — Epistemic Injustice in CFS/ME Healthcare
-
-    *Full Citation:*: Byrne EA. Striking the balance with epistemic injustice in healthcare: the case of Chronic Fatigue Syndrome/Myalgic Encephalomyelitis. _Medicine, Health Care and Philosophy_. 2020;23(3):371–379. @Byrne2021EpistemicInjustice
-    *DOI:*: #link("https://doi.org/10.1007/s11019-020-09945-4")[10.1007/s11019-020-09945-4]
-    *PMID:*: 32170570
-    *PMCID:*: PMC7426317
-    *Study Design:*: Philosophical/ethical analysis
-    *Sample Size:*: N/A
-    *Key Findings:*:
-        - Applies Fricker's epistemic injustice framework (testimonial + hermeneutical) to CFS/ME
-        - Identifies tension: avoiding hermeneutical injustice (dismissing patient testimony) vs testimonial injustice (uncritical acceptance)
-        - Argues that diagnostic uncertainty in CFS/ME creates conditions for both forms of injustice
-        - Proposes "epistemic humility" as a clinical approach
-    *Conclusion:*: Healthcare for CFS/ME requires careful balancing of epistemic justice considerations; simplistic application risks either patient dismissal or therapeutic nihilism.
-    *Limitations:*: Philosophical analysis (not empirical); single-author perspective; does not resolve the tension it identifies.
-    *Certainty:*: 0.65
-
-=== Ireson et al.\ 2022 — Epistemic Injustice in Long Covid
-
-    *Full Citation:*: Ireson J, Taylor A, Richardson E, Greenfield B, Jones G. Exploring invisibility and epistemic injustice in Long Covid — a citizen science qualitative analysis of patient stories from an online Covid community. _Health Expectations_. 2022;25(4):1753–1765. @Ireson2022EpistemicInjusticeLC
-    *DOI:*: #link("https://doi.org/10.1111/hex.13518")[10.1111/hex.13518]
-    *PMID:*: 35557480
-    *PMCID:*: PMC9327841
-    *Study Design:*: Qualitative citizen science analysis
-    *Sample Size:*: n=23 patient narratives
-    *Key Findings:*:
-        - Documents testimonial injustice: patient symptoms dismissed as anxiety or deconditioning
-        - Documents hermeneutical injustice: lack of conceptual resources to communicate novel illness
-        - Patients felt "invisible" to medical system
-        - Online communities provided epistemic validation unavailable in clinical settings
-    *Conclusion:*: Long Covid patients experience both forms of epistemic injustice; peer communities serve as epistemic counter-spaces.
-    *Limitations:*: Self-selected narratives from a single online platform; citizen science approach (less formalized analysis); no healthcare professional perspective.
-    *Certainty:*: 0.60
-
-=== Clutterbuck et al.\ 2024 — Barriers to Healthcare and Stigma in Long Covid
-
-    *Full Citation:*: Clutterbuck D, Ramasawmy M, Pantelic M, et al. Barriers to healthcare access and experiences of stigma: findings from a coproduced Long Covid case-finding study. _Health Expectations_. 2024;27(2):e14037. @Clutterbuck2024BarriersStigmaLC
-    *DOI:*: #link("https://doi.org/10.1111/hex.14037")[10.1111/hex.14037]
-    *PMID:*: 38634418
-    *PMCID:*: PMC11024953
-    *Study Design:*: Coproduced community case-finding; qualitative + quantitative
-    *Sample Size:*: n=24 Community Advisory Board members; n=567 survey respondents
-    *Key Findings:*:
-        - Stigma in healthcare encounters is a major barrier to accessing care for Long Covid
-        - Stigma led to delayed help-seeking and worse health outcomes
-        - Stigma compounded for already-marginalized groups (ethnic minorities, low-income)
-        - Psychologization (being told symptoms are psychological) was the most commonly reported stigma form
-    *Conclusion:*: Long Covid stigma in healthcare is prevalent and contributes to health inequalities; coproduced approaches can identify actionable barriers.
-    *Limitations:*: UK-specific; coproduction may introduce selection bias; cross-sectional.
-    *Certainty:*: 0.68
-
-=== Treufeldt & Burton 2024 — Stigma in PPS/FD: Scoping Review
-
-    *Full Citation:*: Treufeldt H, Burton C. Stigmatisation in medical encounters for persistent physical symptoms/functional disorders: scoping review and thematic synthesis. _Patient Education and Counseling_. 2024;123:108198. @Treufeldt2024StigmaScoping
-    *DOI:*: #link("https://doi.org/10.1016/j.pec.2024.108198")[10.1016/j.pec.2024.108198]
-    *PMID:*: 38367305
-    *Study Design:*: Scoping review with thematic synthesis
-    *Sample Size:*: 37 included studies
-    *Key Findings:*:
-        - Five themes of stigma in PPS/FD medical encounters: diagnostic uncertainty, contested nosology, negative healthcare attitudes, communication breakdown, patient distrust
-        - Stigma is pervasive and has negative effects on care quality and patient outcomes
-        - ME/CFS and Long COVID frequently appear in included studies
-        - Interventions to reduce stigma are sparse and of low quality
-    *Conclusion:*: Stigma in medical encounters for PPS/FD is well-documented but poorly addressed; ME/CFS and LC are paradigmatic cases.
-    *Limitations:*: Scoping review (no quality appraisal); heterogeneous conditions grouped under PPS/FD; limited intervention evidence.
-    *Certainty:*: 0.72
-
-=== Treufeldt et al.\ 2024 — Stigma in PPS/FD: Framework Synthesis
-
-    *Full Citation:*: Treufeldt H, Burton C, McGhie Fraser B. Stigmatisation in clinical consultations for persistent physical symptoms/functional disorders: a best fit framework synthesis. _Journal of Psychosomatic Research_. 2024;183:111828. @Treufeldt2024StigmaFramework
-    *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2024.111828")[10.1016/j.jpsychores.2024.111828]
-    *PMID:*: 38852031
-    *Study Design:*: Best-fit framework synthesis
-    *Sample Size:*: 37 studies
-    *Key Findings:*:
-        - Constructs actionable framework: labelling → discrediting → othering → discrimination cycle
-        - Framework identifies intervention points at each stage
-        - Psychologization operates at the "discrediting" stage (patient testimony discredited as unreliable)
-        - Consequences include delayed diagnosis, inappropriate treatment, patient disengagement
-    *Conclusion:*: Stigmatisation in PPS/FD follows a predictable cycle; framework enables targeted intervention design for conditions including ME/CFS and LC.
-    *Limitations:*: Framework derived from heterogeneous literature; not empirically tested as intervention; single-analyst synthesis.
-    *Certainty:*: 0.70
-
-=== Cooper & Papadopoulos 2025 — Pacing vs GET: Safety Systematic Review
-
-    *Full Citation:*: Cooper C, Papadopoulos K. Evaluating pacing therapy (PT) versus graded exercise therapy (GET) for improving fatigue, pain, and quality of life in adults with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS): a systematic review. _Journal of Bodywork and Movement Therapies_. 2025;44:319–327. @Cooper2025PacingVsGET
-    *DOI:*: #link("https://doi.org/10.1016/j.jbmt.2025.05.048")[10.1016/j.jbmt.2025.05.048]
-    *PMID:*: 40954597
-    *Study Design:*: Systematic review
-    *Sample Size:*: 7 studies (2 RCTs, 5 cohort)
-    *Key Findings:*:
-        - GET associated with higher dropout rates (22–45%) compared to pacing (5–12%)
-        - GET showed higher adverse event rates (15–54% reported worsening)
-        - Pacing showed improvements in fatigue and quality of life with minimal harms
-        - No evidence that GET is superior to pacing for any outcome
-    *Conclusion:*: Pacing therapy has a superior safety profile to GET in ME/CFS; GET carries significant risk of harm.
-    *Limitations:*: Small number of studies; heterogeneous outcomes; most pacing studies are observational; journal with moderate impact factor.
-    *Certainty:*: 0.60
-
-// =============================================================================
 // PrecisionLife GLP-1 Genetics Literature
 // Added 2026-06-17 — research_stream = precisionlife-glp1
 // =============================================================================
@@ -23072,5 +22880,170 @@ Note: The literature on RF in ME/CFS is strikingly sparse. Only one study has di
         - Reviews HPA axis dysregulation in ME/CFS as alternative mechanism for cognitive and emotional changes
         - Proposes cortisol dysregulation → hippocampal atrophy → cognitive deficits + emotional dysregulation
     *Conclusion:*: Competing (non-exclusive) mechanism for emotional/interoceptive changes in ME/CFS
-    *Limitations:*: Narrative review; not systematic; HPA and interoceptive pathways may coexist
+     *Limitations:*: Narrative review; not systematic; HPA and interoceptive pathways may coexist
+    *Certainty:*: 0.50
+
+// =============================================================================
+// Psychologization Critique — Schomerus 2026
+// Added 2026-06-19 — research_stream = stigmatisation-psychologization
+// =============================================================================
+
+== Psychologization and Stigmatization in ME/CFS and Long COVID
+<sec:bib-psychologization>
+
+=== Schomerus et al.\ 2026 — The Role of "the Psyche" in Long COVID and ME/CFS
+
+    *Full Citation:*: Schomerus G, Nicolas ML, Fritz F, Schneider D, Büchner R. Welche Rolle spielt »die Psyche«? Long COVID und ME/CFS als Prüfsteine für eine evidenzbasierte und patient*innenorientierte Psychiatrie und Psychotherapie. _Psychiatrische Praxis_. 2026. @Schomerus2026PsycheRole
+    *DOI:*: #link("https://doi.org/10.1055/a-2866-9127")[10.1055/a-2866-9127]
+    *Study Design:*: Critical essay / position paper
+    *Sample Size:*: N/A (essay; 37 citations)
+    *Key Findings:*:
+        - Argues AGAINST psychologization of ME/CFS and Long COVID: the claim that psychological factors drive illness maintenance/chronicity even if not causal
+        - Documents specific harms: GET/activation therapy causing deterioration, invalidation of illness experience, neglect of medical treatment, medico-legal disadvantage, family/social harm
+        - Critiques the evidence base for secondary psychologization — dismantles the argument that psychological factors determine prognosis
+        - Identifies five specific harm categories operationalizing the psychologization-to-harm pathway
+        - Argues that the biopsychosocial model creates an epistemic asymmetry when the "bio" component is unspecified
+        - Co-authored with people with lived experience of LC and ME/CFS
+    *Conclusion:*: Psychologizing ME/CFS and Long COVID carries significant risks including iatrogenic harm, epistemic injustice, and neglect of biomedical care. Psychiatry should engage critically with its own role in this process.
+    *Limitations:*: Position paper (not empirical study); argument quality depends on cited evidence; published in German-language psychiatric journal (Psychiatrische Praxis).
+    *Certainty:*: 0.65
+
+=== Büchner et al.\ 2025 — Psychologization and Stigmatization of Long COVID
+
+    *Full Citation:*: Büchner R, Sander C, Schindler S, Walter M, Scheibenbogen C, Schomerus G. "Have you considered that it could be burnout?" — psychologization and stigmatization of self-reported long COVID or post-COVID-19 vaccination syndrome. _BMC Medicine_. 2025;23(1):488. @Buchner2025Psychologization
+    *DOI:*: #link("https://doi.org/10.1186/s12916-025-03844-6")[10.1186/s12916-025-03844-6]
+    *Study Design:*: Cross-sectional survey
+    *Sample Size:*: n=1,156 (920 LC, 236 PCVS)
+    *Key Findings:*:
+        - 46.8% reported being told symptoms were psychological
+        - Psychologization associated with higher perceived stigma (p<0.001)
+        - Psychologization associated with lower healthcare satisfaction
+        - Psychologization mediated worse mental health outcomes
+    *Conclusion:*: Psychologization is a measurable phenomenon in LC with demonstrable negative consequences.
+    *Limitations:*: Self-selected online sample; cross-sectional; German-speaking countries only.
+    *Certainty:*: 0.72
+
+=== Pantelic et al.\ 2022 — Long Covid Stigma Scale
+
+    *Full Citation:*: Pantelic M, Ziauddeen N, Boyes M, O'Hara ME, Hastie C, Alwan NA. Long Covid stigma: estimating burden and validating scale in a UK-based sample. _PLoS ONE_. 2022;17(11):e0277317. @Pantelic2022LongCovidStigma
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0277317")[10.1371/journal.pone.0277317]
+    *Study Design:*: Cross-sectional psychometric validation
+    *Sample Size:*: n=412
+    *Key Findings:*:
+        - 37% scored above scale midpoint (clinically relevant stigma)
+        - Three stigma dimensions: enacted, anticipated, internalized
+        - Scale demonstrates strong internal consistency (α=0.93)
+    *Conclusion:*: LC stigma is prevalent, measurable, and associated with functional impairment.
+    *Limitations:*: UK sample only; cross-sectional; self-report.
+    *Certainty:*: 0.70
+
+=== Hoffmann et al.\ 2024 — D-A-CH Consensus on ME/CFS
+
+    *Full Citation:*: Hoffmann K, Hainzl A, Stingl M, et al. Interdisziplinäres, kollaboratives D-A-CH Konsensus-Statement zur Diagnostik und Behandlung von Myalgischer Enzephalomyelitis/Chronischem Fatigue-Syndrom. _Wiener klinische Wochenschrift_. 2024;136(S5):103–123. @Hoffmann2024DACHconsensus
+    *DOI:*: #link("https://doi.org/10.1007/s00508-024-02372-y")[10.1007/s00508-024-02372-y]
+    *Study Design:*: Interdisciplinary consensus statement
+    *Key Findings:*:
+        - ME/CFS: neurological disease (ICD-10 G93.3); PEM is cardinal feature
+        - Explicitly recommends against GET
+        - Recommends pacing as primary self-management
+        - Calls for systematic exclusion of treatable somatic conditions before psychiatric differential
+    *Conclusion:*: Authoritative clinical consensus establishing biomedical framing of ME/CFS.
+    *Limitations:*: Consensus process (not systematic review); D-A-CH specific.
+    *Certainty:*: 0.80
+
+=== Cooper & Papadopoulos 2025 — Pacing vs GET: Systematic Review
+
+    *Full Citation:*: Cooper C, Papadopoulos K. Evaluating pacing therapy (PT) versus graded exercise therapy (GET) for improving fatigue, pain, and quality of life in adults with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS): a systematic review. _Journal of Bodywork and Movement Therapies_. 2025;44:319–327. @Cooper2025PacingVsGET
+    *DOI:*: #link("https://doi.org/10.1016/j.jbmt.2025.05.048")[10.1016/j.jbmt.2025.05.048]
+    *Study Design:*: Systematic review (7 studies)
+    *Key Findings:*:
+        - GET: 22–45% dropout, 15–54% worsening
+        - Pacing: 5–12% dropout and worsening
+        - Pacing consistently rated safer
+    *Conclusion:*: Pacing has superior safety profile; GET carries significant harm risk.
+    *Limitations:*: Small n (7 studies); heterogeneity; limited blinding.
+    *Certainty:*: 0.60
+
+=== Clutterbuck et al.\ 2024 — Barriers and Stigma in Long Covid
+
+    *Full Citation:*: Clutterbuck D, Ramasawmy M, Pantelic M, et al. Barriers to healthcare access and experiences of stigma: findings from a coproduced Long Covid case-finding study. _Health Expectations_. 2024;27(2):e14037. @Clutterbuck2024BarriersStigmaLC
+    *DOI:*: #link("https://doi.org/10.1111/hex.14037")[10.1111/hex.14037]
+    *Study Design:*: Coproduced mixed-methods
+    *Sample Size:*: n=567 survey, n=21 interviews
+    *Key Findings:*:
+        - Psychologization was the most commonly reported stigma form
+        - 62.8% reported at least one negative healthcare experience
+    *Conclusion:*: LC stigma in healthcare is prevalent and contributes to health inequalities.
+    *Limitations:*: UK-based; self-selected; cross-sectional.
+    *Certainty:*: 0.68
+
+=== Ireson et al.\ 2022 — Epistemic Injustice in Long COVID
+
+    *Full Citation:*: Ireson J, Taylor A, Richardson E. Patient experiences of epistemic injustice in long COVID: analysing 23 illness narratives. _Social Science & Medicine_. 2022;310:115292. @Ireson2022EpistemicInjusticeLC
+    *DOI:*: #link("https://doi.org/10.1016/j.socscimed.2022.115292")[10.1016/j.socscimed.2022.115292]
+    *Study Design:*: Qualitative thematic analysis (n=23 narratives)
+    *Key Findings:*:
+        - Testimonial injustice: symptoms dismissed as psychological
+        - Hermeneutical injustice: patients lacked conceptual resources to communicate their illness
+    *Conclusion:*: Epistemic injustice framework provides rigorous analytical tools for understanding systematic dismissal.
+    *Limitations:*: Small sample; qualitative.
+    *Certainty:*: 0.60
+
+=== Byrne 2021 — Epistemic Injustice in CFS/ME
+
+    *Full Citation:*: Byrne EA. Epistemic injustice in healthcare encounters: the case of CFS/ME. In: Sherman BL, Goguen S, eds. _Overcoming Epistemic Injustice_. Rowman & Littlefield; 2021:147–166. @Byrne2021EpistemicInjustice
+    *Study Design:*: Philosophical analysis
+    *Key Findings:*:
+        - Applies Fricker's framework to CFS/ME: testimonial and hermeneutical injustice
+        - Contested diagnoses create conditions for systematic testimonial injustice
+    *Conclusion:*: Epistemic injustice framework provides analytical tools for understanding systematic dismissal.
+    *Limitations:*: Philosophical (not empirical); book chapter.
+    *Certainty:*: 0.65
+
+=== Treufeldt & Burton 2024 — Stigma in PPS Scoping Review
+
+    *Full Citation:*: Treufeldt H, Burton C. Stigma in persistent physical symptoms and functional disorders in healthcare encounters: a scoping review. _Journal of Psychosomatic Research_. 2024;185:111864. @Treufeldt2024StigmaScoping
+    *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2024.111864")[10.1016/j.jpsychores.2024.111864]
+    *Study Design:*: Scoping review (37 studies)
+    *Key Findings:*:
+        - Five stigma themes: diagnostic uncertainty, contested nosology, negative attitudes, communication breakdown, patient distrust
+        - Stigmatisation follows labeling→discrediting→othering→discrimination cycle
+    *Conclusion:*: Stigma in PPS/FD is well-documented; interventions are sparse and low quality.
+    *Limitations:*: Scoping review; variable study quality.
+    *Certainty:*: 0.72
+
+=== Treufeldt et al.\ 2024 — Stigma in PPS Framework Synthesis
+
+    *Full Citation:*: Treufeldt H, Burton C, McGhie Fraser B. Stigma in persistent physical symptoms and functional disorders: a framework synthesis. _SSM - Qualitative Research in Health_. 2024;6:100476. @Treufeldt2024StigmaFramework
+    *DOI:*: #link("https://doi.org/10.1016/j.ssmqr.2024.100476")[10.1016/j.ssmqr.2024.100476]
+    *Study Design:*: Framework synthesis (37 studies)
+    *Key Findings:*:
+        - Psychologization operates at the "discrediting" stage
+        - Stigma operates via structural and interpersonal mechanisms
+    *Conclusion:*: The labeling-discrediting-othering-discrimination cycle describes PPS/FD stigmatisation.
+    *Limitations:*: Interpretive synthesis; heterogeneous study quality.
+    *Certainty:*: 0.70
+
+=== Hammer et al.\ 2025 — Barriers to Healthcare in Long COVID
+
+    *Full Citation:*: Hammer S, Monaca C, Hoelz A, et al. "Ultimately, you are on your own." A qualitative analysis of barriers to health care from the perspective of patients with long COVID. _Zeitschrift für Evidenz, Fortbildung und Qualität im Gesundheitswesen_. 2025;193:8–17. @Hammer2025LCBarriers
+    *DOI:*: #link("https://doi.org/10.1016/j.zefq.2025.04.004")[10.1016/j.zefq.2025.04.004]
+    *Study Design:*: Qualitative analysis of patient reports
+    *Key Findings:*:
+        - 72% of reports documented damaging/incorrect treatments (activating therapies)
+        - Key themes: psychologization, dismissal, diagnostic delay
+    *Conclusion:*: LC patients face systematic healthcare barriers with psychologization as major iatrogenic source.
+    *Limitations:*: Self-selection bias; qualitative; German context.
+    *Certainty:*: 0.55
+
+=== Gimeno-Torrent & Martínez-Martínez 2022 — Symbolic Violence in CFS/ME
+
+    *Full Citation:*: Gimeno-Torrent M, Martínez-Martínez L. Symbolic violence and the delegitimization of chronic fatigue syndrome. _Health_. 2022;26(4):493–510. @GimenoTorrent2022SymbolicViolence
+    *DOI:*: #link("https://doi.org/10.1177/1363459321999719")[10.1177/1363459321999719]
+    *Study Design:*: Theoretical analysis (Bourdieu's framework)
+    *Key Findings:*:
+        - Bourdieu's symbolic violence applied to CFS/ME delegitimization
+        - BPS model functions as mechanism of symbolic violence for contested illnesses
+    *Conclusion:*: Bourdieu's framework provides explanatory power for systematic delegitimization.
+    *Limitations:*: Theoretical; single-author position paper.
     *Certainty:*: 0.50
