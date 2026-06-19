@@ -803,6 +803,40 @@ Add to Phase 0 tracking: `7 | R reinforcement pairs, F feed-in pairs, C conflict
 **Output:** The modified `.typ` file with the new `#synthesis` environment.
 **Report:** "Phase 10a complete: synthesis environment @syn:<topic-slug>-model added to chapter N, condensing K environments into convergent model."
 
+### Retroactive Synthesis for Completed Integrations
+
+Many integrations completed before Phase 10a existed. They may contain scattered environments that collectively form a coherent argument without any synthesis to surface it. This section describes how to identify and fill those gaps retroactively.
+
+**When to retro-apply:**
+- User explicitly requests: "check for missing synthesis environments"
+- A new `/integrate-topic` cycle integrates a topic that strongly reinforces an existing completed topic → flag whether the existing topic lacks a synthesis and offer to add one
+- A cross-chapter coherence review or adversarial review finds that environments feel disconnected and would benefit from a convergent summary
+- Never retro-apply unilaterally — always flag the opportunity and ask the user before writing
+
+**Detection procedure:**
+
+1. **Scan `ops/plans/*integration-plan.md`** for integration plans with tracking statuses indicating completion (Phase 13 row status `✅ done`, or ≥1 subtree node status `✅`).
+
+2. **For each completed integration**, check:
+   - Does the plan's tracking table show ≥3 environments integrated across ≥2 chapters? (Trigger condition)
+   - Does a `#synthesis` environment already exist in the target chapter(s)? (Skip if yes)
+   - Cross-reference the plan's target chapters against the actual `.typ` files to confirm environments still exist and haven't been moved.
+
+3. **If ≥3 completed integrations lack synthesis** → present the user with a prioritized list:
+   ```
+   Integrations eligible for retroactive synthesis:
+   1. <topic-slug> — N environments across M chapters — <one-line topic description>
+   2. <topic-slug> — N environments across M chapters — <one-line topic description>
+   ...
+   ```
+   Priority order: (a) cross-disease/integrative topics > (b) mechanistic topics > (c) treatment topics > (d) methodological/single-paper integrations.
+   
+   Ask: "Add synthesis environments to any of these? (select by number, or 'all')"
+
+4. **For each selected integration:** re-read the Phase 3 and Phase 5 environments (same procedure as Phase 10a Step 1), identify emergent themes, write the synthesis, add the label, and update the changelog to reference `@syn:<slug>`.
+
+5. **Cross-topic synthesis (advanced):** If ≥3 completed integrations share a common mechanism (e.g., mast cell activation, connective tissue degradation, mitochondrial dysfunction), flag this as a potential *cross-topic synthesis* — a `#synthesis` paragraph that transcends any single integration cycle and synthesizes across multiple completed topics. This is rare; it requires ≥3 completed integrations with overlapping mechanism terms. Flag it; do not write it unilaterally. Ask: "These 3 completed integrations all focus on <mechanism X>. Add a cross-topic synthesis paragraph?"
+
 ---
 
 ## Phase 11 — Review to Convergence
