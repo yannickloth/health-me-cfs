@@ -10579,7 +10579,7 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
     *Article Type:*: Twin study with PRS analysis
     *Key Findings:*:
         - N=13,923 twin pairs at age 9
-        - ASD PRS → ASD traits (\ensuremath{\beta}=0.04, p<0.01); ADHD PRS → ADHD traits (\ensuremath{\beta}=0.27, p<0.001)
+        - ASD PRS → ASD traits ($beta=0.04$, $p<0.01$); ADHD PRS → ADHD traits ($beta=0.27$, $p<0.001$)
         - Genetic factors for categorical diagnoses also influence continuous traits in the general population
     *Conclusion:*: The dimensional model of psychopathology is genetically validated — the same variants causing clinical disorders produce subthreshold traits in the broader population.
     *Limitations:*: Population-based — limited severe case representation; PRS predictive power modest.
