@@ -1164,7 +1164,7 @@ Dual orexin receptor antagonists (DORAs) offer a mechanistically targeted approa
 Unlike Z-drugs and benzodiazepines, DORAs consolidate sleep by reducing _long_ wake bouts (>6 minutes) correlated with daytime impairment, while preserving brief arousals that maintain healthy sleep-wake boundary control @DiMarco2023wakebouts. This mechanism addresses non-restorative sleep without producing hangover effects or tolerance.
 
 *Long-term safety*: 52-week extension study (n=801) demonstrated no tolerance or withdrawal phenomena with continuous or intermittent use @Kunz2022daridorexant.
-] <achievement:daridorexant-efficacy>
+] <achievement-daridorexant-efficacy>
 
 *Practical protocol*: Start daridorexant 25 mg 30 minutes before bedtime with at least 7 hours available for sleep @Nie2023daridorexant. If insufficient after 4–6 weeks, increase to 50 mg. Safe for chronic use without tolerance development @StOnge2022daridorexant. *Advantages over traditional sleep aids*: No next-day sedation; no cognitive impairment; no tolerance; suitable for long-term use in ME/CFS.
 

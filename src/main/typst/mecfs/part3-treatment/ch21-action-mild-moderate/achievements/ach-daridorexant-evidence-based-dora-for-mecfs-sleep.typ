@@ -6,4 +6,4 @@ Dual orexin receptor antagonists (DORAs) offer a mechanistically targeted approa
 Unlike Z-drugs and benzodiazepines, DORAs consolidate sleep by reducing _long_ wake bouts (>6 minutes) correlated with daytime impairment, while preserving brief arousals that maintain healthy sleep-wake boundary control @DiMarco2023wakebouts. This mechanism addresses non-restorative sleep without producing hangover effects or tolerance.
 
 *Long-term safety*: 52-week extension study (n=801) demonstrated no tolerance or withdrawal phenomena with continuous or intermittent use @Kunz2022daridorexant.
-] <achievement:daridorexant-efficacy>
+] <achievement-daridorexant-efficacy>
