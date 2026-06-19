@@ -22381,6 +22381,81 @@ This section covers literature at the intersection of ME/CFS genetics (Precision
     *Limitations:*: Single case report; idiopathic MCAS only; no CT outcomes.
     *Certainty:*: 0.40
 
+== Elevated Rheumatoid Factor in ME/CFS
+<sec:bib-rf-elevated-mecfs>
+
+Note: The literature on RF in ME/CFS is strikingly sparse. Only one study has directly measured RF in a CFS cohort (Hashimoto 1992). The topic is included here to document what is known and, more importantly, what is not known — highlighting a significant evidence gap.
+
+=== Hashimoto 1992 — CFS: 51 Cases at Jikei University
+
+    *Full Citation:*: Hashimoto N, Kuraishi Y, Yokose T, Tajima N, Mochio S. Chronic fatigue syndrome — 51 cases in the Jikei University School of Medicine. _Nihon Rinsho_. 1992;50(11):2796–2801.
+    *PMID:*: 1287241
+    *Study Design:*: Cross-sectional case series
+    *Sample Size:*: n=51 CFS (CDC 1988 criteria), 41 female, 11 male
+    *Key Findings:*:
+        - 6/51 (11.8%) positive for rheumatoid factor
+        - 16/51 (31.3%) positive for antinuclear factor
+        - 77.5% had flu-like onset
+        - Most common age: 20-30 years (45% of cohort)
+        - No control group for RF comparison
+    *Conclusion:*: RF positivity in ~12% of CFS patients suggests possible autoimmune subset, but no control comparison precludes inference about elevated prevalence.
+    *Limitations:*: Small sample; single-center Japan; CDC 1988 criteria (broad, pre-IOM); no healthy controls for RF; no replication in 34 years. Certainty: 0.25.
+
+=== Kerr 2002 — Chronic Fatigue Syndrome and Arthralgia Following Parvovirus B19 Infection
+
+    *Full Citation:*: Kerr JR, Bracewell J, Laing I, Mattey DL, Bernstein RM, Bruce IN. Chronic fatigue syndrome and arthralgia following parvovirus B19 infection. _J Rheumatol_. 2002;29(3):595–602.
+    *PMID:*: 11911112
+    *Study Design:*: Prospective cohort
+    *Sample Size:*: n=51 acute B19, n=39 followed (mean 22.5 mo), n=50 controls
+    *Key Findings:*:
+        - 5 patients met CDC CFS criteria after B19 infection
+        - RF among autoantibodies measured; RF+ associated with IL-6 detection in acute phase (p=0.038)
+        - No RF-specific analysis for CFS subgroup
+    *Conclusion:*: Post-parvovirus CFS occurs in a minority; RF may be marker of immune activation in this post-infectious context.
+    *Limitations:*: CFS subgroup too small (n=5) for RF-specific analysis; not designed for RF prevalence estimation. Certainty: 0.40.
+
+=== Liñán Ponce 2024 — Fibromyalgia with Elevated RF: Poor Treatment Response
+
+    *Full Citation:*: Liñán Ponce F, Leiva Goicochea J, Sevilla Rodríguez D, Hidalgo Bravo E, Obregón Atanacio G, et al. Fibromyalgia with elevated rheumatoid factor is associated with poor therapeutic response but not with progression to rheumatoid arthritis. Prospective cohort study. _Reumatol Clin (Engl Ed)_. 2024;20(9):476–482.
+    *DOI:*: 10.1016/j.reumae.2024.10.001
+    *PMID:*: 39455297
+    *Study Design:*: Prospective cohort study
+    *Sample Size:*: n=124 FM (62 RF+ >20 U/mL, 62 RF- 0-20 U/mL)
+    *Key Findings:*:
+        - RF+ FM: significantly poorer treatment response at 6 months (24/62 vs 45/62, p\<0.001)
+        - At 12 months: 20/62 vs 38/62 improved (p\<0.001)
+        - No difference in progression to RA (5 vs 4, ns)
+        - First study demonstrating RF+ is clinically meaningful in FM (predicts treatment resistance)
+    *Conclusion:*: RF positivity identifies a treatment-resistant FM subset without excess RA progression risk.
+    *Limitations:*: Moderate n; single country; FM-specific not ME/CFS. ME/CFS relevance via high FM-ME/CFS overlap (50-75%). Certainty: 0.55.
+
+=== Dar 2022 — Fatigue in Rheumatoid Arthritis
+
+    *Full Citation:*: Dar WR, Mir IA, Siddiq S, Nadeem M, Singh G. The assessment of fatigue in rheumatoid arthritis patients and its impact on their quality of life. _Clin Pract_. 2022;12(4):591–605.
+    *DOI:*: 10.3390/clinpract12040062
+    *PMID:*: 35892448
+    *Study Design:*: Cross-sectional with MAF scale
+    *Sample Size:*: n=140 RA, n=100 controls
+    *Key Findings:*:
+        - 67% RA patients had significant fatigue
+        - >70% reported symptoms similar to CFS
+        - RF+ disease had highest fatigue burden
+    *Conclusion:*: Fatigue in RF+ RA is severe and CFS-like.
+    *Limitations:*: Not ME/CFS cohort; RA-specific. Indirect relevance. Certainty: 0.50.
+
+=== Batham 2024 — Autoimmunity's Enigmatic Role in ME/CFS (Systematic Review)
+
+    *Full Citation:*: Batham J, Dwyer J, Eaton-Fitch N, Marshall-Gradisnik S. Autoimmunity's enigmatic role: exploring the connection with myalgic encephalomyelitis/chronic fatigue syndrome. _BMC Immunol_. 2024;25(1):71.
+    *DOI:*: 10.1186/s12865-024-00665-5
+    *PMID:*: 39354352
+    *Study Design:*: Systematic review of 10 publications
+    *Key Findings:*:
+        - Inconsistent and insufficient evidence to classify ME/CFS as autoimmune
+        - RF not addressed in any included study
+        - Highlights conflicting evidence for autoantibodies in ME/CFS (Loebel 2016 positive, Germain 2025 null)
+    *Conclusion:*: Autoantibody research in ME/CFS insufficiently replicated.
+    *Limitations:*: Only 10 papers reviewed; RF not searched. Certainty: 0.55.
+
 === Imanaka2026 — TNXB Variants and Hypermobility (Competing Mechanism)
 
     *Full Citation:*: Imanaka B, et al. Splicing Alterations Associated with Multiple Homozygous TNXB Variants in a Patient with Suspected Classical-Like Ehlers-Danlos Syndrome. _Biochemical Genetics_. 2026. @Imanaka2026TNXBHypermobility

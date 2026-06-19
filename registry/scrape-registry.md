@@ -94,6 +94,15 @@ Prevents re-processing of already-integrated content.
 | https://investinme.org/brmec15-stevegardner.shtml | investinme.org | 2026-06-17 | — | content-staging/literature-glp1-genetics-2026-06-17.md — BRMEC15 Gardner GLP-1 presentation |
 | https://www.sciencedirect.com/science/article/pii/S266731852500017 | sciencedirect | 2026-06-17 | — | content-staging/literature-glp1-genetics-2026-06-17.md — Related paper (403 error, access blocked) |
 
+## Elevated Rheumatoid Factor + ME/CFS Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-19 | 12 queries: RF+ME/CFS, RF+chronic fatigue, RF+fibromyalgia, autoAb profiling ME/CFS, autoimmune ME/CFS sysrev, RF+Sjogrens+fatigue, RF+SLE+fatigue, GPCR autoAbs ME/CFS, RF+elevated+CFS, negative/null autoAb ME/CFS |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (12 queries, batch) | pubmed/eutils | 2026-06-19 | 2026-06-19 | content-staging/search-log-rf-elevated-mecfs-2026-06-19.md, content-staging/literature-summary-rf-elevated-mecfs-2026-06-19.md, bib/autoimmunity.bib, appendix-h — RF+ME/CFS literature search (10 papers, all low certainty, decision: DEFER) |
+
 ## Articles
 
 | URL | Source | Scraped | Integrated | Target |
