@@ -22672,3 +22672,247 @@ Note: The literature on RF in ME/CFS is strikingly sparse. Only one study has di
     *Limitations:*: Narrative review; no new data; ongoing trials not yet reported.
     *Certainty:*: 0.45
 
+// =============================================================================
+
+== Emotional Processing, Interoception, and Illness Cognitions
+<sec:bib-emotional-interoceptive-processing>
+// =============================================================================
+
+=== Garfinkel2015 — Knowing Your Own Heart: Interoceptive Accuracy vs Awareness
+
+    *Full Citation:*: Garfinkel SN, Seth AK, Barrett AB, Suzuki K, Critchley HD. Knowing your own heart: distinguishing interoceptive accuracy from interoceptive awareness. _Biological Psychology_. 2015;104:65–74. @Garfinkel2015Knowing
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsycho.2014.11.004")[10.1016/j.biopsycho.2014.11.004]
+    *Key Findings:*:
+        - Established tripartite interoceptive model: accuracy (objective performance), sensibility (self-reported), and awareness (metacognitive insight)
+        - Accuracy and sensibility are frequently dissociated in clinical populations — key for interpreting patient-reported body awareness vs objective deficits
+    *Conclusion:*: Foundational framework for understanding interoceptive dysfunction in clinical conditions. The accuracy-sensibility dissociation has direct relevance to ME/CFS where patients may report heightened body awareness while showing objective interoceptive deficits.
+    *Limitations:*: Healthy volunteers; non-clinical sample; heartbeat detection task may not generalize to other interoceptive channels.
+    *Certainty:*: 0.75
+
+=== Quadt2018 — The Neurobiology of Interoception in Health and Disease
+
+    *Full Citation:*: Quadt L, Critchley HD, Garfinkel SN. The neurobiology of interoception in health and disease. _Annals of the New York Academy of Sciences_. 2018;1428(1):112–128. @Quadt2018Neurobiology
+    *DOI:*: #link("https://doi.org/10.1111/nyas.13915")[10.1111/nyas.13915]
+    *Key Findings:*:
+        - Comprehensive review establishing interoception as transdiagnostic mechanism in psychiatric and neurological disorders
+        - Insula identified as hub of interoceptive processing with predictive coding architecture
+        - Links interoceptive dysfunction to anxiety, depression, autism, and functional disorders
+    *Conclusion:*: Provides the theoretical framework for applying interoceptive models to chronic fatigue states. Directly relevant to ME/CFS interoceptive predictive processing content.
+    *Limitations:*: Narrative review; no new empirical data; comprehensive but selective.
+    *Certainty:*: 0.80
+
+=== Greenhouse-Tucknott2022 — Predictive Processing Model of Pathological and Exertional Fatigue
+
+    *Full Citation:*: Greenhouse-Tucknott A, Butterworth JB, Wrightson JG, Smeeton NJ, Critchley HD, Dekerle J, Harrison NA. Toward the unity of pathological and exertional fatigue: A predictive processing model. _Cognitive, Affective, & Behavioral Neuroscience_. 2022;22(2):215–228. @GreenhouseTucknott2022
+    *DOI:*: #link("https://doi.org/10.3758/s13415-021-00958-x")[10.3758/s13415-021-00958-x]
+    *Key Findings:*:
+        - Unified predictive coding model bridging pathological fatigue (chronic illness) and exertional fatigue (healthy)
+        - Fatigue proposed as increased prior precision for effort costs → reduced willingness to exert
+        - Introduces precision-weighted effort estimation concept
+    *Conclusion:*: Provides computational mechanism for fatigue perception unifying peripheral and central contributions. Among the few papers explicitly bridging exercise physiology and predictive coding.
+    *Limitations:*: Theoretical model only; not empirically tested in clinical populations; moderate citations to date.
+    *Certainty:*: 0.60
+
+=== Seth2011 — Interoceptive Predictive Coding Model of Conscious Presence
+
+    *Full Citation:*: Seth AK, Suzuki K, Critchley HD. An interoceptive predictive coding model of conscious presence. _Frontiers in Psychology_. 2011;2:395. @Seth2011Interoceptive
+    *DOI:*: #link("https://doi.org/10.3389/fpsyg.2011.00395")[10.3389/fpsyg.2011.00395]
+    *Key Findings:*:
+        - Foundational predictive coding model of interoception: conscious presence emerges from prediction error minimization
+        - Hierarchical framework with precision weighting of interoceptive signals
+    *Conclusion:*: Provides the theoretical foundation for understanding altered interoceptive presence in chronic illness. Directly applicable to the free energy/interoceptive inference framework in the paper.
+    *Limitations:*: Theoretical model; purely conceptual; no direct clinical validation.
+    *Certainty:*: 0.70
+
+=== Harrison2009 — Neural Origins of Human Sickness in Interoceptive Responses to Inflammation
+
+    *Full Citation:*: Harrison NA, Brydon L, Walker C, Gray MA, Steptoe A, Dolan RJ, Critchley HD. Neural origins of human sickness in interoceptive responses to inflammation. _Biological Psychiatry_. 2009;66(5):415–422. @Harrison2009NeuralSickness
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2009.03.007")[10.1016/j.biopsych.2009.03.007]
+    *Key Findings:*:
+        - Typhoid vaccination-induced inflammation altered brain activity in interoceptive regions (insula, ACC)
+        - Inflammatory cytokines directly modulated interoceptive cortex activity
+        - First experimental demonstration of inflammation→interoceptive processing pathway in humans
+    *Conclusion:*: Landmark experimental study directly linking immune activation to altered interoceptive-emotional processing. Foundational for the inflammation→interoception pathway in ME/CFS.
+    *Limitations:*: Small sample (n=16); acute inflammatory challenge differs from chronic inflammation; healthy volunteers only.
+    *Certainty:*: 0.65
+
+=== SavitzHarrison2018 — Interoception and Inflammation in Psychiatric Disorders
+
+    *Full Citation:*: Savitz J, Harrison NA. Interoception and inflammation in psychiatric disorders. _Biological Psychiatry: Cognitive Neuroscience and Neuroimaging_. 2018;3(6):514–524. @SavitzHarrison2018
+    *DOI:*: #link("https://doi.org/10.1016/j.bpsc.2017.12.011")[10.1016/j.bpsc.2017.12.011]
+    *Key Findings:*:
+        - Systematic review of the inflammation-interoception link
+        - Humoral immune signals (cytokines) directly modulate interoceptive brain regions via vagal and humoral pathways
+        - Inflammation-induced interoceptive changes contribute to emotional symptoms in psychiatric disorders
+    *Conclusion:*: Provides the mechanistic bridge between inflammation (well-established in ME/CFS) and interoceptive/emotional processing changes. Strongly supports bidirectional immune-interoceptive axis in ME/CFS.
+    *Limitations:*: Narrative review; psychiatric focus; not ME/CFS-specific.
+    *Certainty:*: 0.70
+
+=== Barrett2025 — The Theory of Constructed Emotion: More Than a Feeling
+
+    *Full Citation:*: Barrett LF, Atzil S, Bliss-Moreau E, Chanes L, Gendron M, Hoemann K, Katsumi Y, Kleckner IR, Lindquist KA, Quigley KS. The Theory of Constructed Emotion: More Than a Feeling. _Perspectives on Psychological Science_. 2025;20(3):392–420. @Barrett2025Constructed
+    *DOI:*: #link("https://doi.org/10.1177/17456916251319045")[10.1177/17456916251319045]
+    *Key Findings:*:
+        - Major update and defense of the Theory of Constructed Emotion
+        - Emotions = predictions constructed from interoceptive and exteroceptive sensory arrays, categorized using prior experience
+        - Core brain networks (salience, default mode, frontoparietal) instantiate emotion categories from interoceptive predictions
+    *Conclusion:*: The constructed emotion framework predicts that chronic interoceptive prediction error (from inflammation, autonomic dysfunction) would fundamentally alter emotional experience in ME/CFS.
+    *Limitations:*: Theoretical framework; debated by basic emotion theorists; not ME/CFS-specific.
+    *Certainty:*: 0.75
+
+=== ZhangWager2025 — Cortical and Subcortical Mapping of the Allostatic-Interoceptive System
+
+    *Full Citation:*: Zhang J, Chen D, Deming P, Srirangarajan T, Theriault JE, Kragel PA, Hartley L, Lee KM, McVeigh K, Wager TD. Cortical and subcortical mapping of the human allostatic-interoceptive system using 7 Tesla fMRI. _Nature Neuroscience_. 2025;28(11):2380–2391. @ZhangWager2025Allostatic
+    *DOI:*: #link("https://doi.org/10.1038/s41593-025-02087-x")[10.1038/s41593-025-02087-x]
+    *Key Findings:*:
+        - Comprehensive 7T fMRI mapping (n>200) of the allostatic-interoceptive system at high resolution
+        - Identified widespread cortical (anterior insula, ACC, mPFC) and subcortical (hypothalamus, PAG, amygdala, brainstem nuclei) network
+        - Replicated and extended previous allostatic-interoceptive network findings
+    *Conclusion:*: Provides the neural reference map for the interoceptive-allostatic system dysregulated in ME/CFS. Key regions overlap with known ME/CFS abnormalities (insula, ACC, brainstem autonomic nuclei).
+    *Limitations:*: Healthy volunteers; cross-sectional; 7T not yet feasible in ME/CFS studies.
+    *Certainty:*: 0.80
+
+=== Danciut2024 — Interoception, Metacognition and White Matter Dysconnectivity in MS Fatigue
+
+    *Full Citation:*: Danciut I, Rae CL, Rashid W, Scott J, Bozzali M, Iancu M, Garfinkel SN, Bouyagoub S, Dowell NG, Langdon D. Understanding the mechanisms of fatigue in multiple sclerosis: linking interoception, metacognition and white matter dysconnectivity. _Brain Communications_. 2024;6(5):fcae292. @Danciut2024MSFatigue
+    *DOI:*: #link("https://doi.org/10.1093/braincomms/fcae292")[10.1093/braincomms/fcae292]
+    *Key Findings:*:
+        - First empirical link between interoceptive accuracy and fatigue severity in MS (n=33)
+        - Metacognitive insight (interoceptive awareness) — not just accuracy — correlated with fatigue
+        - White matter dysconnectivity in interoceptive network tracts correlated with both interoceptive deficits and fatigue
+    *Conclusion:*: Provides template for ME/CFS interoception studies. White matter dysconnectivity in insular tracts as candidate mechanism for interoceptive-fatigue link.
+    *Limitations:*: Moderate sample; MS-specific; single study; no replication yet.
+    *Certainty:*: 0.55
+
+=== Valenzuela-Moguillansky2017 — Body-Self Awareness in Fibromyalgia
+
+    *Full Citation:*: Valenzuela-Moguillansky C, Reyes-Reyes A, Gaete MI. Exteroceptive and interoceptive body-self awareness in fibromyalgia patients. _Frontiers in Human Neuroscience_. 2017;11:117. @Valenzuela2017FibroIntero
+    *DOI:*: #link("https://doi.org/10.3389/fnhum.2017.00117")[10.3389/fnhum.2017.00117]
+    *Key Findings:*:
+        - FM patients showed increased attention to bodily sensations but decreased tactile localization accuracy
+        - Dissociation between body awareness dimensions — elevated subjective body focus with impaired objective processing
+        - Demonstrates interoceptive accuracy-sensibility dissociation in FM (highly comorbid with ME/CFS)
+    *Conclusion:*: Provides indirect evidence for similar interoceptive dissociation pattern in ME/CFS. Body awareness measures applicable to CFS populations.
+    *Limitations:*: Fibromyalgia-specific; moderate sample; no CFS comparison group.
+    *Certainty:*: 0.50
+
+=== Maroti2017 — Alexithymia in Chronic Fatigue Syndrome and Exhaustion Syndrome
+
+    *Full Citation:*: Maroti D, Molander P, Bileviciute-Ljungar I. Differences in alexithymia and emotional awareness in exhaustion syndrome and chronic fatigue syndrome. _Scandinavian Journal of Psychology_. 2017;58(1):52–61. @Maroti2017AlexithymiaCFS
+    *DOI:*: #link("https://doi.org/10.1111/sjop.12332")[10.1111/sjop.12332]
+    *Key Findings:*:
+        - Elevated alexithymia in both CFS (n=43) and exhaustion syndrome (n=34) vs controls
+        - Difficulty Identifying Feelings factor most elevated in both groups
+        - No difference in externally-oriented thinking style
+        - CFS patients showed lower emotional awareness than exhaustion syndrome
+    *Conclusion:*: Direct evidence for alexithymia in ME/CFS. Difficulty identifying feelings consistent with interoceptive accuracy deficit pattern. Distinguishes CFS from stress-related exhaustion.
+    *Limitations:*: Moderate sample; single study; no independent replication; cross-sectional.
+    *Certainty:*: 0.50
+
+=== Bileviciute-Ljungar2020 — Emotional Awareness and Sleep in ME/CFS
+
+    *Full Citation:*: Bileviciute-Ljungar I, Friberg D. Emotional awareness correlated with number of awakenings from polysomnography in patients with myalgic encephalomyelitis/chronic fatigue syndrome — A pilot study. _Frontiers in Psychiatry_. 2020;11:222. @Bileviciute2020Emotional
+    *DOI:*: #link("https://doi.org/10.3389/fpsyt.2020.00222")[10.3389/fpsyt.2020.00222]
+    *Key Findings:*:
+        - Lower emotional awareness (TAS-20) correlated with more frequent nocturnal awakenings on PSG in ME/CFS (n=30)
+        - No significant correlation with other sleep parameters (sleep efficiency, total sleep time)
+        - Suggests emotional-interoceptive processing linked specifically to sleep fragmentation
+    *Conclusion:*: Links emotional awareness deficits with objective sleep disruption in ME/CFS. Small but specific finding connecting interoceptive-emotional processing to sleep architecture.
+    *Limitations:*: Modest sample (n=30); pilot study; no control group; single study.
+    *Certainty:*: 0.40
+
+=== Brooks2017 — Emotional Processing Vulnerability Factors in CFS
+
+    *Full Citation:*: Brooks SK, Chalder T, Rimes KA. Chronic fatigue syndrome: cognitive, behavioural and emotional processing vulnerability factors. _Behavioural and Cognitive Psychotherapy_. 2017;45(2):156–169. @Brooks2017CFSVulnerability
+    *DOI:*: #link("https://doi.org/10.1017/S1352465816000631")[10.1017/S1352465816000631]
+    *Key Findings:*:
+        - CFS patients (n=67) showed higher emotional processing difficulties (ambivalence over emotional expression, thought suppression)
+        - Emotional processing factors correlated with fatigue severity
+        - Vulnerabilities distinguished CFS patients from population norms
+    *Conclusion:*: Identifies emotional processing factors specifically in CFS population. Supports relationship between emotional regulation and fatigue severity.
+    *Limitations:*: Cross-sectional; single UK tertiary care site; no control group; CB model framing.
+    *Certainty:*: 0.45
+
+=== Rimes2016 — Emotional Suppression in CFS: Experimental Study
+
+    *Full Citation:*: Rimes KA, Ashcroft J, Bryan L, Chalder T. Emotional suppression in chronic fatigue syndrome: Experimental study. _Health Psychology_. 2016;35(9):979–986. @Rimes2016EmotionSuppression
+    *DOI:*: #link("https://doi.org/10.1037/hea0000341")[10.1037/hea0000341]
+    *Key Findings:*:
+        - CFS patients had greater self-reported emotional suppression
+        - During experimental suppression task: blunted EDA (autonomic reactivity) but higher subjective distress in CFS
+        - Dissociation between physiological and subjective emotional response
+    *Conclusion:*: Experimental evidence of emotion-autonomic dissociation in CFS. The gap between blunted autonomic reactivity and heightened subjective distress parallels interoceptive accuracy-sensibility dissociation.
+    *Limitations:*: Moderate sample (n=80 total); single study; laboratory emotion induction may not reflect real-world processing.
+    *Certainty:*: 0.55
+
+=== Wortinger2017 — Emotional Conflict Processing in Adolescent CFS: fMRI Pilot
+
+    *Full Citation:*: Wortinger LA, Endestad T, Melinder AM, Øie MG, Sulheim D, Fagermoen E, Wyller VB. Emotional conflict processing in adolescent chronic fatigue syndrome: A pilot study using functional magnetic resonance imaging. _Journal of Clinical and Experimental Neuropsychology_. 2017;39(4):355–368. @Wortinger2017EmotionConflict
+    *DOI:*: #link("https://doi.org/10.1080/13803395.2016.1230180")[10.1080/13803395.2016.1230180]
+    *Key Findings:*:
+        - Only fMRI study of emotional conflict processing in ME/CFS (n=10 CFS, n=10 controls)
+        - Altered ACC and PFC activation during emotional conflict in CFS despite preserved behavioral performance
+        - Pattern suggests compensatory neural recruitment to maintain behavioral output
+    *Conclusion:*: Provides neural evidence for altered emotion processing circuitry in ME/CFS even when behavioral performance appears normal. ACC/insula findings converge with interoceptive processing literature.
+    *Limitations:*: Very small sample; adolescent-specific; pilot; single study.
+    *Certainty:*: 0.40
+
+=== VanDenHoute2017 — Negative Affect and Somatic Symptom Amplification in CFS/FM
+
+    *Full Citation:*: Van Den Houte M, Bogaerts K, Van Diest I, De Bie J, Persoons P, Van Oudenhove L, Van den Bergh O. Inducing somatic symptoms in functional syndrome patients: Effects of manipulating state negative affect. _Psychosomatic Medicine_. 2017;79(9):1000–1007. @VanDenHoute2017Somatic
+    *DOI:*: #link("https://doi.org/10.1097/PSY.0000000000000527")[10.1097/PSY.0000000000000527]
+    *Key Findings:*:
+        - Negative affect induction amplified somatic symptom reporting in FM and CFS patients significantly more than controls
+        - Symptom amplification mediated by negative affect — but this is a normal psychophysiological pathway, not evidence of psychogenesis
+    *Conclusion:*: Important for understanding affect-symptom amplification without falling into psychogenic causation fallacy. Negative affect genuinely increases symptom perception — exaggerated in CFS.
+    *Limitations:*: Laboratory setting; acute affect induction vs chronic affect; cross-sectional.
+    *Certainty:*: 0.60
+
+=== SohlFriedberg2008 — Catastrophizing and Fatigue Memory in CFS
+
+    *Full Citation:*: Sohl SJ, Friedberg F. Memory for fatigue in chronic fatigue syndrome: relationships to fatigue variability, catastrophizing, and negative affect. _Behavioral Medicine_. 2008;34(1):29–38. @SohlFriedberg2008Catastroph
+    *DOI:*: #link("https://doi.org/10.3200/BMED.34.1.29-38")[10.3200/BMED.34.1.29-38]
+    *Key Findings:*:
+        - Catastrophizing correlated with retrospective fatigue recall bias, not with concurrent fatigue ratings
+        - Catastrophizing did not predict objective activity levels in CFS (n=43)
+        - Limits clinical significance: catastrophizing affects fatigue memory, not real-time experience or behavior
+    *Conclusion:*: Important null-context finding. Catastrophizing may primarily distort recall rather than drive symptoms in CFS.
+    *Limitations:*: Modest CFS sample; single study; limited catastrophizing measure; published 2008.
+    *Certainty:*: 0.40
+
+=== Poort2021 — Catastrophizing as Mediator of Fatigue Change: Null Finding
+
+    *Full Citation:*: Poort H, Müller F, Bleijenberg G, Verhagen SAHHVM, Verdam MGE, Nieuwkerk PT, Knoop H. Condition or cognition? Mechanism of change in fatigue in a randomized controlled trial of graded exercise therapy or cognitive behavior therapy for severe fatigue in patients with advanced cancer. _Journal of Consulting and Clinical Psychology_. 2021;89(9):731–741. @Poort2021CatastrophizingNull
+    *DOI:*: #link("https://doi.org/10.1037/ccp0000670")[10.1037/ccp0000670]
+    *Key Findings:*:
+        - Catastrophizing did NOT mediate fatigue improvement in GET or CBT (n=134 RCT)
+        - Fatigue reduction mediated by physical conditioning (GET) and perceived activity (CBT)
+        - Cognitive variables including catastrophizing did not drive change
+    *Conclusion:*: Null result for catastrophizing as mediator of fatigue treatment outcome. If catastrophizing does not drive fatigue improvement even in CBT, its role as treatment target in ME/CFS is questionable.
+    *Limitations:*: Cancer fatigue population (not ME/CFS); advanced cancer; 6-month follow-up only.
+    *Certainty:*: 0.65
+
+=== Manjaly2019 — Fatigue Mechanisms in MS: Predictive Coding and Interoception
+
+    *Full Citation:*: Manjaly ZM, Harrison NA, Critchley HD, Do CT, Stefanics G, Wenderoth N, Lutterotti A, Müller A, Stephan KE. Pathophysiological and cognitive mechanisms of fatigue in multiple sclerosis. _Journal of Neurology, Neurosurgery & Psychiatry_. 2019;90(6):642–651. @Manjaly2019FatigueMS
+    *DOI:*: #link("https://doi.org/10.1136/jnnp-2018-320050")[10.1136/jnnp-2018-320050]
+    *Key Findings:*:
+        - Links interoceptive processing, inflammation, and predictive coding models of fatigue in MS
+        - Fatigue arises from dysregulated interoceptive prediction error signaling in ACC and insula
+        - Proposes computational model with direct cross-disease applicability to ME/CFS
+    *Conclusion:*: The MS fatigue model directly parallels ME/CFS — inflammation-driven interoceptive predictive processing changes leading to pathological fatigue. Establishes cross-disease mechanism.
+    *Limitations:*: MS-specific; narrative review with computational proposal; not empirically tested.
+    *Certainty:*: 0.75
+
+=== Kang2026 — HPA Axis Dysregulation and Hippocampal Plasticity in ME/CFS
+
+    *Full Citation:*: Kang H, Shao T, Shi Y, Wang S, Xiong H, Jin X, Ren J. Chronic stress and cognitive dysfunction in myalgic encephalomyelitis/chronic fatigue syndrome: HPA axis dysregulation and hippocampal plasticity. _Frontiers in Neuroscience_. 2026;20:1814098. @Kang2026HPAaxis
+    *DOI:*: #link("https://doi.org/10.3389/fnins.2026.1814098")[10.3389/fnins.2026.1814098]
+    *Key Findings:*:
+        - Reviews HPA axis dysregulation in ME/CFS as alternative mechanism for cognitive and emotional changes
+        - Hippocampal plasticity proposed as key mediator of cortisol→cognition pathway
+        - Competing mechanism: emotional/interoceptive changes may be driven primarily by HPA/cortisol
+    *Conclusion:*: Provides competing mechanism: emotional/interoceptive changes may be driven by HPA axis and cortisol, not solely interoceptive predictive processing. Both mechanisms likely coexist.
+    *Limitations:*: Narrative review; not systematic; published in mid-tier journal.
+    *Certainty:*: 0.50
+
