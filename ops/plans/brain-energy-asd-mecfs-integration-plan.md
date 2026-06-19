@@ -29,6 +29,26 @@
 |---|-------------------|------|-----------|--------|-------|
 | (rows populated after Phase 4 brainstorm) |
 
+## Phase Status
+
+| Phase | Status | Details |
+|-------|--------|---------|
+| 0 | ✅ | Plan created at `ops/plans/brain-energy-asd-mecfs-integration-plan.md` |
+| 1 | ✅ | 13 papers found, 12 new bib entries in `energy-metabolism.bib`, search log at `content-staging/search-log-brain-energy-asd-mecfs-2026-06-19.md` |
+| 2 | ✅ | PROCEED — 4 strong (≥0.60), 6 moderate (0.40–0.59), 3 weak (<0.40). Clinical relevance: LOW. Contradictions: 1 resolved |
+| 3 | ✅ | 3 environments added to ch06 (`spec`, `oq`, `oq`), 1 paragraph to ch08, 1 bullet to ch13, 3 entries to hypothesis registry |
+| 4 | ✅ | 50 ideas generated (brainstorm file at `content-staging/brainstorm-brain-energy-asd-mecfs-2026-06-19.md`) |
+| 4a | ✅ | Subtree `subtrees/brain-energy-asd-mecfs.md` with 50 nodes; root index updated |
+| 5 | ⬜ pending | |
+| 6 | ⬜ pending | |
+| 7 | ⬜ pending | |
+| 8 | ⬜ pending | |
+| 9 | ⬜ pending | |
+| 10 | ⬜ pending | |
+| 11 | ⬜ pending | |
+| 12 | ⬜ pending | |
+| 13 | ⬜ pending | |
+
 ## Notes
 - Source paper is a review article (no new primary data) — evidence is synthetic, not novel
 - ASD is a neurodevelopmental condition; ME/CFS is acquired — developmental timing differs
