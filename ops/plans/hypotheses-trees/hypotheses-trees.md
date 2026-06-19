@@ -283,5 +283,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | narcolepsy-type2-mecfs | [subtrees/narcolepsy-type2-mecfs.md](subtrees/narcolepsy-type2-mecfs.md) | 2026-06-18 | 42 | 42 | ✅ done |
 | post-exercise-recovery-optimization | [subtrees/post-exercise-recovery-optimization.md](subtrees/post-exercise-recovery-optimization.md) | 2026-06-18 | 90 | 0 | 🔵 in progress |
 | emotional-interoceptive-processing | [subtrees/emotional-interoceptive-processing.md](subtrees/emotional-interoceptive-processing.md) | 2026-06-19 | 52 | 0 | 🔵 in progress |
+| psychologization-critique-schomerus-2026 | [subtrees/psychologization-critique-schomerus-2026.md](subtrees/psychologization-critique-schomerus-2026.md) | 2026-06-19 | 36 | 0 | ⬜ pending |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.

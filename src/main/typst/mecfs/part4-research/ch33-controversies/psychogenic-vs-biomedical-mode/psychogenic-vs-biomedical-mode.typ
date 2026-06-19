@@ -9,4 +9,7 @@ The most consequential debate in ME/CFS history has been whether the illness is 
 #include "./evidence-for-biological-basis/evidence-for-biological-basis.typ"
 #include "./the-role-of-psychological-fact/the-role-of-psychological-fact.typ"
 #include "./patient-advocacy-and-the-psych/patient-advocacy-and-the-psych.typ"
+#include "./achievements/ach-psychologization-five-harms.typ"
+#include "./speculations/spec-harm-monitoring-gap.typ"
+#include "./open-questions/oq-psychologization-prospective-cohort.typ"
 
