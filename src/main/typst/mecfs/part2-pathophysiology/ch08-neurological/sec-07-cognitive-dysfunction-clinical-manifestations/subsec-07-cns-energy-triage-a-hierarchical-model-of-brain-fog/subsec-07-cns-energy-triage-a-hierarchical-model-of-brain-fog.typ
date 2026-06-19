@@ -12,6 +12,9 @@ The human brain comprises approximately 2% of body mass yet consumes 20–25% of
 Not all brain regions have equal metabolic demands. The prefrontal and frontoparietal association cortices, which support executive function, cognitive flexibility, and novel problem-solving, exhibit the highest _relative metabolic cost_—defined as energy utilization exceeding baseline activity levels @Jamadar2025metabolic. In contrast, brainstem nuclei governing vital functions (respiration, cardiovascular regulation, arousal) and primary sensory cortices operate with lower relative metabolic overhead, relying on phylogenetically older, more energy-efficient circuits.
 
 *Evidence from metabolic disruption models.*
+
+*Cross-disease convergence.* An independently developed brain energy disorder framework for autism spectrum disorder proposes an identical energy-saving adaptation: prefrontal and association cortices — with the highest relative metabolic cost — are sacrificed first under energy constraint, while phylogenetically older circuits are preserved @BlagojevicStokic2026brainenergy. This convergence across diagnostic boundaries suggests that hierarchical cognitive shutdown may be a general property of CNS energy scarcity rather than a disease-specific phenomenon (Section @sec:brain-energy-cross-disease).
+
 Two natural experiments demonstrate hierarchical cognitive shutdown under energy scarcity:
 
     - *Hypoglycemia:* Acute reduction in brain glucose supply impairs complex higher-order cognitive processes at higher glucose thresholds and to a greater extent than lower-level functions. Executive functions show large effect sizes ($d > 0.8$) during hypoglycemia @Graveling2013hypoglycemia, consistent with the prefrontal cortex's elevated metabolic sensitivity.

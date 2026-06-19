@@ -348,7 +348,7 @@ Early epigenetic clock studies in ME/CFS are consistent with this picture (preli
 
 *Cross-disease retrotransposon activation: Evidence summary table.*
 
-Table [NO TABLE] summarizes the current state of HSAT2 and retrotransposon research across ME/CFS and related conditions. This comparative framework is essential for diagnostic specificity assessment.
+Table @tab:hsat2-cross-disease-summary summarizes the current state of HSAT2 and retrotransposon research across ME/CFS and related conditions. This comparative framework is essential for diagnostic specificity assessment.
 
 #figure(
   caption: [Cross-disease evidence summary for HSAT2 and retrotransposon activation],
@@ -918,7 +918,7 @@ Mast cell activation appears connected to ME/CFS:
 
 *Mast Cell Activation Syndrome (MCAS).*
 
-MCAS is the diagnosable subset of the broader "mast cell / histaminergic dysregulation" domain (Domain 6 in the multi-domain framework; Section [NO SECTION]); histamine intolerance (HIT) due to DAO deficiency is a distinct, overlapping but mechanistically separate condition.
+MCAS is the diagnosable subset of the broader "mast cell / histaminergic dysregulation" domain (Domain 6 in the multi-domain framework; Section @sec:domain6-mast-cell); histamine intolerance (HIT) due to DAO deficiency is a distinct, overlapping but mechanistically separate condition.
 
     - High comorbidity with ME/CFS
     - Explains chemical sensitivities, food reactions, flushing

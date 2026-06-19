@@ -5,7 +5,7 @@
 
 The selective energy dysfunction hypothesis (Section @sec:selective-dysfunction) proposes that neurological symptoms in ME/CFS reflect _primary_ CNS energy failure rather than downstream effects of systemic dysfunction. Several observations support this framing:
 
-    - *CNS-specific findings*: Neuroinflammation (45–199% elevation in key regions @Nakatomi2014neuroinflammation), catecholamine deficiency in CSF, and regional hypometabolism are documented in the CNS specifically, not as reflections of peripheral dysfunction
+    - *CNS-specific findings*: Neuroinflammation (45–199% elevation in key regions @Nakatomi2014neuroinflammation), catecholamine deficiency in CSF, and regional hypometabolism are documented in the CNS specifically @Zhu2025MetabolicNeuroimaging, not as reflections of peripheral dysfunction
 
     - *Preserved autonomous processes*: Hair growth, nail growth, and basal cardiac automaticity—processes that operate locally without CNS coordination—remain intact even in severe ME/CFS, arguing against global metabolic failure
 
@@ -13,7 +13,7 @@ The selective energy dysfunction hypothesis (Section @sec:selective-dysfunction
 
     - *Cognitive triage hierarchy*: The observation that complex cognition and executive function (“brain fog”) are affected before motor coordination or sensory processing suggests an energy triage system that sacrifices “luxury” cognitive functions first
 
-    - *Astrocyte vulnerability*: The brain's unique metabolic architecture—with neurons depending on astrocytes for lactate via the ANLS (Section @sec:astrocyte-energy-gate)—may create CNS-specific vulnerability not present in peripheral tissues with direct glucose access @Pellerin1994 @Magistretti2018
+    - *Astrocyte vulnerability*: The brain's unique metabolic architecture—with neurons depending on astrocytes for lactate via the ANLS (Section @sec:astrocyte-energy-gate)—may create CNS-specific vulnerability not present in peripheral tissues with direct glucose access @Pellerin1994 @Magistretti2018 @Xu2026Neurovascular
 
 This perspective has treatment implications: interventions that bypass CNS coordination (e.g., direct-acting autonomic agents like midodrine) or that specifically target CNS metabolism may be more effective than peripheral mitochondrial support alone.
 

@@ -198,7 +198,7 @@ Three hypotheses (certainty $gt.eq 0.45$) and two speculations (certainty $< 0.4
 
 ==== Astrocyte Energy Gate Hypothesis
 
-The astrocyte-neuron lactate shuttle (ANLS) provides 30–50% of neuronal ATP @Pellerin1994 @Magistretti2018. Unlike peripheral tissues with direct glucose access, neurons depend on astrocytes to convert glucose to lactate and shuttle it via monocarboxylate transporters (MCT2/MCT4).
+The astrocyte-neuron lactate shuttle (ANLS) provides 30–50% of neuronal ATP @Pellerin1994 @Magistretti2018. Unlike peripheral tissues with direct glucose access, neurons depend on astrocytes to convert glucose to lactate and shuttle it via monocarboxylate transporters (MCT2/MCT4). An independently developed brain energy disorder model for ASD converges on the same ANLS failure mechanism, providing cross-disease validation @BlagojevicStokic2026brainenergy (Section @sec:brain-energy-cross-disease).
 
 #speculation(title: [Astrocyte Energy Gate])[
 Dysfunction in the astrocyte-neuron lactate shuttle causes CNS-specific energy failure while peripheral tissues (with direct glucose access) remain unaffected.
@@ -212,7 +212,7 @@ where $L_n$ = neuronal lactate uptake, $L_a$ = astrocyte lactate concentration, 
 
 *ME/CFS hypothesis:* Reduced $k_("MCT")$ or impaired $f(dot)$ $=>$ $L_n arrow.b$ despite normal $L_a$ $=>$ CNS-specific energy deficit.
 
-*Certainty:* 0.4 (plausible mechanism from neuroscience; no direct ME/CFS evidence)
+*Certainty:* 0.5 (plausible mechanism from neuroscience; ME/CFS-specific astrocytic glucose metabolism evidence now documented @Xu2026Neurovascular; originally 0.40, bumped +0.10 in Phase 6 retrospective adaptation)
 ] <spec:astrocyte-gate>
 
 Figure @fig:astrocyte-lactate-shuttle illustrates the ANLS mechanism and proposed dysfunction site.
@@ -239,7 +239,7 @@ The CNS implements a priority-based energy allocation system under scarcity:
 
 *Clinical correlation:* “Brain fog” (executive dysfunction, Tier 5–6) is among the earliest and most prominent symptoms, consistent with these tiers being sacrificed first.
 
-*Certainty:* 0.5 (consistent with observed symptom hierarchy; formal testing needed)
+*Certainty:* 0.5 (consistent with observed symptom hierarchy; convergent cross-disease evidence from ASD brain energy disorder model @BlagojevicStokic2026brainenergy; formal testing needed)
 ] <hyp:energy-triage>
 
 Figure @fig:energy-triage-hierarchy visualizes the triage hierarchy with the typical ME/CFS energy threshold.
