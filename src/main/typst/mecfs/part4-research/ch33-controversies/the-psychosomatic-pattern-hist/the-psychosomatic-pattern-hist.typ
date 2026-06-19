@@ -6,7 +6,7 @@
 ME/CFS is not the first disease to be dismissed as psychosomatic before its biological basis was established. A systematic review of the history of psychosomatic medicine reveals a recurring pattern across at least ten major diseases @MECFSScience2021psychosomatic:
     - *Multiple sclerosis* was considered psychosomatic for decades; patients were told their weakness was hysterical
     - *Asthma* was attributed to the "asthma personality" and treated with psychotherapy
-    - *Epilepsy* was classified as a psychological condition and patients were institutionalised
+    - *Epilepsy* was classified as a psychological condition and patients were institutionalized
     - *Diabetes* was linked to emotional stress and treated with psychoanalysis
     - *Autism* was blamed on "refrigerator mothers" who failed to bond with their children
     - *Schizophrenia* was attributed to "schizophrenogenic mothers"
