@@ -22916,7 +22916,7 @@ Note: The literature on RF in ME/CFS is strikingly sparse. Only one study has di
     *Sample Size:*: n=1,156 (920 LC, 236 PCVS)
     *Key Findings:*:
         - 46.8% reported being told symptoms were psychological
-        - Psychologization associated with higher perceived stigma (p<0.001)
+        - Psychologization associated with higher perceived stigma ($p<0.001$)
         - Psychologization associated with lower healthcare satisfaction
         - Psychologization mediated worse mental health outcomes
     *Conclusion:*: Psychologization is a measurable phenomenon in LC with demonstrable negative consequences.
