@@ -6,4 +6,3 @@
 #include "subsec-interaction-risks/subsec-interaction-risks.typ"
 #include "subsec-sequencing-considerations/subsec-sequencing-considerations.typ"
 #include "../warnings/warning-env-7.typ"
-#include "../hypotheses/hypothesis-6.typ"

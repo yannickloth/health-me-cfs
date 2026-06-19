@@ -1,5 +1,7 @@
 #import "../../../shared/environments.typ": *
 
+#include "../hypotheses/hypothesis-hyp:metabolic-immune-ldn.typ"
+
 == Metabolic-Immune Crosstalk Study
 <sec:metabolic-immune-crosstalk>
 

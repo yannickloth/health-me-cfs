@@ -18,7 +18,6 @@
 #include "../proposals/proposal-10.typ"
 #include "../proposals/proposal-11.typ"
 #include "../proposals/proposal-12.typ"
-#include "../speculations/speculation-13.typ"
 #include "../open-questions/open-question-4.typ"
 #include "../open-questions/open-question-5.typ"
 #include "../open-questions/open-question-6.typ"

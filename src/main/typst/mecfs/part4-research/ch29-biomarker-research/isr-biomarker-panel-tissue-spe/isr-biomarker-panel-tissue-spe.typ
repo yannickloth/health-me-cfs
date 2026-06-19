@@ -9,4 +9,7 @@ The ISR/GCN2--ATF4 pathway is mechanistically implicated in ME/CFS pathophysiolo
 #include "./hhv-6-mir-au14-plasma-exosome/hhv-6-mir-au14-plasma-exosome.typ"
 #include "./functional-pbmc-isr-challenge/functional-pbmc-isr-challenge.typ"
 #include "./additional-isr-biomarker-candi/additional-isr-biomarker-candi.typ"
+#include "../open-questions/open-question-oq:skin-isr-biopsy.typ"
+#include "../open-questions/open-question-oq:pbmc-isr-challenge.typ"
+#include "../speculations/speculation-spec:gdf15-fgf21-ratio.typ"
 
