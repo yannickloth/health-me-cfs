@@ -44,6 +44,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
 | mast-cell-ige-connective-tissue | [subtrees/mast-cell-ige-connective-tissue.md](subtrees/mast-cell-ige-connective-tissue.md) | 2026-06-19      | 46         | 0          | ⬜ pending     |
+| rf-elevated-mecfs     | [subtrees/rf-elevated-mecfs.md](subtrees/rf-elevated-mecfs.md)        | 2026-06-19      | 36         | 8          | ⬜ pending     |
 | ans-aging             | [subtrees/ans-aging.md](subtrees/ans-aging.md)                        | 2026-04-20      | 25         | 0          | ⬜ stub        |
 | butyrate-intestinal-permeability | [subtrees/butyrate-intestinal-permeability.md](subtrees/butyrate-intestinal-permeability.md) | 2026-05-20      | 7          | 0          | ⬜ pending     |
 | ebv-heterogeneity     | [subtrees/ebv-heterogeneity.md](subtrees/ebv-heterogeneity.md)        | 2026-04-20      | 0          | 0          | ⬜ stub        |

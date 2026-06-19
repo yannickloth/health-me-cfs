@@ -37,12 +37,15 @@ The following autoimmune and inflammatory diseases share symptoms with ME/CFS bu
     - *Symptoms*: Fatigue, joint pain
     - *Distinguishing features*: Joint swelling, morning stiffness $>1$ hour, symmetric small joint involvement
     - *Testing*: Rheumatoid factor (RF), anti-CCP antibodies, elevated ESR/CRP
+    - *Note*: Elevated RF alone does not establish ME/CFS autoimmunity; its clinical significance in a fatigued patient is differential diagnosis for primary autoimmune connective tissue disease (see @obs:rf-not-mecfs-biomarker)
 
 *Multiple Sclerosis (MS):*
 
     - *Symptoms*: Fatigue, cognitive impairment, sensory disturbances
     - *Distinguishing features*: Focal neurological deficits (optic neuritis, weakness, sensory loss), relapsing-remitting pattern
     - *Testing*: MRI brain and spine (demyelinating lesions disseminated in space and time), CSF oligoclonal bands
+
+#include "observations/obs-rf-not-mecfs-biomarker.typ"
 
 ==== Hematologic Disorders
 
