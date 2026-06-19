@@ -22689,11 +22689,11 @@ Note: The literature on RF in ME/CFS is strikingly sparse. Only one study has di
     *Limitations:*: Rare variant; classical-like EDS, not hEDS; single case.
     *Certainty:*: 0.55
 
-// =============================================================================
+//
 
 == Elevated Rheumatoid Factor in ME/CFS
-<sec:bib-rf-elevated-mecfs>
-// =============================================================================
+sec-bib-rf-elevated-mecfs-duplicate
+//
 
 === Hashimoto1992 — RF Positivity in Japanese CFS Cohort
 
