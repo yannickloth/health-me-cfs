@@ -18,26 +18,38 @@ Scans the entire paper (or scoped subset) for scattered environments that collec
 
 ## Phase 1 — Environment Inventory
 
-**Agent:** `explore` | **Model:** haiku | **Execution:** foreground (must return structured data)
+**Agent:** multiple `explore` agents (one per chapter/part) | **Model:** haiku | **Execution:** parallel foreground (each writes its own output file)
 
-1. **Extract all environments** from scoped `.typ` files:
-   ```bash
-   rg -U '(#(speculation|hypothesis-box|fhypothesis|open-question|achievement|clinical-finding|limitation)\()' <scope>
-   ```
-   The `-U` (multiline) flag ensures environments with arguments on subsequent lines are matched.
+**Partitioning rule:**
+- Full-document scan (no scope argument) → split by part: `part1-clinical`, `part2-pathophysiology`, `part3-treatment`, `part4-research`, `part5-modeling`, plus `shared/` and `appendices/`. Seven agents total.
+- Scoped scan (e.g., `ch07 ch14d ch15`) → one agent per chapter in the scope. Minimum 1, maximum 10 agents.
+- If a single chapter has >200 environments → split that chapter into two agents (first half, second half). The `appendices/` directory is its own agent.
+
+**Shared term vocabulary (MANDATORY — prevents terminology drift across agents).** Every agent must use this exact taxonomy when filling the Mechanism/Tissue/Drug/Process columns. If an environment mentions a term on this list, use the canonical form exactly as written here. If an environment mentions a concept not on this list, use the standard biomedical name (not an abbreviation unique to one chapter).
+
+| Column | Canonical terms |
+|--------|----------------|
+| Mechanism | tryptase, chymase, MMP-1, MMP-3, MMP-9, MMP-12, MMP-13, histaminylation, TG2, IgE, FcεRI, MRGPRX2, PIP2, TRPM3, TRPV1, TRPV4, CADM1, NCS-1, InsP3R1, Gαq, PLC, HIF-1α, HIF-2α, VEGF, TGF-β, TNF-α, IL-1β, IL-6, IL-11, IFN-α, IFN-γ, NF-κB, NLRP3, mTORC1, AMPK, PGC-1α, SPM, resolvin, protectin, autophagy, mitophagy, NETosis, DNase, NET, complement, C3a, C5a, orexin, tau, PKA, HSP70, BDNF, GDNF |
+| Tissue | endothelial, basement-membrane, blood-brain-barrier, glymphatic, connective-tissue, ligament, tendon, cartilage, skeletal-muscle, cardiac-muscle, smooth-muscle, bone, skin, brainstem, hypothalamus, hippocampus, prefrontal-cortex, DRG, nodose-ganglion, sympathetic-ganglion, enthesis, periodontal |
+| Drug | omalizumab, ligelizumab, ketotifen, cromolyn, doxycycline, lithium, rapamycin, metformin, belzutifan, darunavir, semaglutide, liraglutide, methylprednisolone, hydrocortisone, fludrocortisone, midodrine, ivabradine, LDN, beta-blocker, ACE-inhibitor, rituximab, efgartigimod, lemborexant, suvorexant |
+| Process | autoantibody, GPCR-autoantibody, senescence, inflammaging, apoptosis, pyroptosis, fibrosis, endothelial-dysfunction, microvascular, oxidative-stress, ER-stress, ISR, unfolded-protein-response, epigenetic, methylation, acetylation, demyelination, neurodegeneration, neuroinflammation, central-sensitization |
+
+**Per-agent task:**
+
+1. **`rg -U`** within assigned directory to find all `#speculation`, `#hypothesis-box`, `#fhypothesis`, `#open-question`, `#achievement`, `#clinical-finding`, `#limitation` environments. The `-U` (multiline) flag ensures environments with arguments on subsequent lines are matched.
 
 2. For each environment found, **read ≥10 lines of context** to understand the claim. Record in a structured table:
 
    | Label | Chapter | Type | Cert | Claim (≤1 sentence) | Mechanism terms | Tissue terms | Drug terms | Process terms |
    |-------|---------|------|------|---------------------|-----------------|--------------|------------|---------------|
 
-   Extract terms from the title and body. Be thorough — a single environment may contribute to multiple clusters.
+   Extract terms from the title and body. Be thorough — a single environment may contribute to multiple clusters. Include the `origin: brainstorm` tag status and `research_stream` value if found in nearby `.bib` entry context.
 
-3. **Index by terms.** Build four inverted indexes mapping each mechanism/tissue/drug/process term → list of environment labels. Term extraction is mechanical — the explore agent should return the full structured table and inverted indexes, not a summary.
+3. **Output:** Write `tmp/synthesis-inventory-<part>-<date>.md` with the structured table. One file per agent.
 
-4. **Identify candidate clusters.** For each term that appears in ≥3 environment rows AND those environments span ≥2 chapters OR ≥2 distinct `research_stream` values (from `.bib` files), flag as a candidate cluster. Report: term, environment count, chapter list, stream list.
+**Merge (main session):** After all agents complete, the main session reads all output files, deduplicates (same label in monolithic + split versions counts once), concatenates into a master inventory, and builds the four inverted indexes (mechanism → labels, tissue → labels, drug → labels, process → labels). Any term appearing in ≥3 rows AND spanning ≥2 chapters OR ≥2 research streams is a candidate cluster.
 
-**Output:** Structured table (all environments + terms) and candidate cluster list written to `tmp/synthesis-inventory-<date>.md`. The main session reads this file; the explore agent does not perform Phase 2.
+**Output:** Master inventory + candidate cluster list written to `tmp/synthesis-inventory-master-<date>.md`. This file is the input to Phase 2.
 
 ---
 
@@ -45,7 +57,7 @@ Scans the entire paper (or scoped subset) for scattered environments that collec
 
 **Agent:** `sonnet-general` | **Model:** sonnet | **Execution:** foreground (report → main session decision)
 
-Read the Phase 1 output file (`tmp/synthesis-inventory-<date>.md`). For each candidate cluster:
+Read the Phase 1 master output file (`tmp/synthesis-inventory-master-<date>.md`). For each candidate cluster:
 
 1. **Read ≥10 lines of context** for every environment in the cluster to verify the claim summaries are accurate and that environments genuinely share the claimed mechanism/tissue/drug/process.
 
@@ -167,7 +179,8 @@ Build: PASS
 
 | Phase | Agent | Model | Reason |
 |-------|-------|-------|--------|
-| 1 | `explore` | haiku | Mechanical grep + term extraction + structured table — cheap, parallelizable |
+| 1 | `explore` × N (parallel) | haiku | Per-part/chapter grep + term extraction — 5–7 agents in parallel for full doc, cheap |
+| 1 (merge) | main session | haiku | Deduplicate + merge + index — mechanical, no domain reasoning |
 | 2 | `sonnet-general` | sonnet | Judgment-based cluster evaluation — needs domain reasoning |
 | 3 | main session | sonnet | Composition — needs placement judgment, not deep reasoning |
 | 4 | review-convergence + review-adversarial | sonnet/opus | Same as Phase 11 in integrate-topic |
