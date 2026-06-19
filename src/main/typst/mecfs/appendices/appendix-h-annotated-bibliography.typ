@@ -21628,6 +21628,198 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
     *Certainty:*: 0.68
 
 // =============================================================================
+// Psychologization Critique — Schomerus 2026
+// Added 2026-06-19 — research_stream = stigmatisation-psychologization
+// =============================================================================
+
+== Psychologization and Stigmatization in ME/CFS and Long COVID
+<sec:bib-psychologization>
+
+=== Schomerus et al.\ 2026 — The Role of "the Psyche" in Long COVID and ME/CFS
+
+    *Full Citation:*: Schomerus G, Nicolas ML, Fritz F, Schneider D, Büchner R. Welche Rolle spielt »die Psyche«? Long COVID und ME/CFS als Prüfsteine für eine evidenzbasierte und patient*innenorientierte Psychiatrie und Psychotherapie. _Psychiatrische Praxis_. 2026. @Schomerus2026PsycheRole
+    *DOI:*: #link("https://doi.org/10.1055/a-2866-9127")[10.1055/a-2866-9127]
+    *Published:*: 2026 (Epub ahead of print)
+    *Study Design:*: Critical essay / position paper
+    *Sample Size:*: 37 references reviewed
+    *Key Findings:*:
+        - Argues AGAINST psychologization of ME/CFS and Long COVID: the claim that psychological factors drive illness maintenance/chronicity even if not causal
+        - Documents specific harms: GET/activation therapy causing deterioration, invalidation of illness experience, neglect of medical treatment, medico-legal disadvantage, family/social harm
+        - Critiques the evidence base for secondary psychologization — dismantles the argument that psychological factors determine prognosis
+        - Advocates for evidence-based, patient-centered psychiatry that recognizes biomedical evidence
+    *Conclusion:*: Psychologizing ME/CFS and Long COVID carries significant risks including iatrogenic harm, epistemic injustice, and neglect of biomedical care. Psychiatry should engage critically with its own role in this process.
+    *Limitations:*: Position paper (not empirical); German-language journal; single-perspective argument. Strengths: comprehensive citation of international evidence, balanced by acknowledging psychiatry's potential positive role.
+    *Certainty:*: 0.65 (based on argument quality and citation rigor; not an empirical study)
+
+=== Büchner et al.\ 2025 — Psychologization and Stigmatization of Long COVID
+
+    *Full Citation:*: Büchner R, Sander C, Schindler S, Walter M, Scheibenbogen C, Schomerus G. "Have you considered that it could be burnout?" — psychologization and stigmatization of self-reported long COVID or post-COVID-19 vaccination syndrome. _BMC Medicine_. 2025;23(1):488. @Buchner2025Psychologization
+    *DOI:*: #link("https://doi.org/10.1186/s12916-025-04335-0")[10.1186/s12916-025-04335-0]
+    *PMID:*: 40830954
+    *PMCID:*: PMC12366089
+    *Study Design:*: Cross-sectional online survey; quantitative analysis
+    *Sample Size:*: n=1,156 (LC n=660, PCVS n=496)
+    *Key Findings:*:
+        - 46.8% of LC/PCVS respondents reported being told symptoms were psychological
+        - Psychologization associated with higher perceived stigma (p<0.001)
+        - Psychologization associated with lower healthcare satisfaction
+        - Psychologization mediated worse mental health outcomes
+        - Difference between LC and PCVS groups in stigma patterns
+    *Conclusion:*: Psychologization is a measurable phenomenon in LC/PCVS with demonstrable negative consequences for patients.
+    *Limitations:*: Self-reported (no clinical verification); cross-sectional (directionality not established); online convenience sample.
+    *Certainty:*: 0.72
+
+=== Pantelic et al.\ 2022 — Long Covid Stigma Scale Validation
+
+    *Full Citation:*: Pantelic M, Ziauddeen N, Boyes M, O'Hara ME, Hastie C, Alwan NA. Long Covid stigma: estimating burden and validating scale in a UK-based sample. _PLoS ONE_. 2022;17(11):e0277317. @Pantelic2022LongCovidStigma
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0277317")[10.1371/journal.pone.0277317]
+    *PMID:*: 36417364
+    *PMCID:*: PMC9683629
+    *Study Design:*: Psychometric validation; cross-sectional
+    *Sample Size:*: n=412
+    *Key Findings:*:
+        - Adapted 10-item Chronic Illness Stigma Scale for Long Covid (3 subscales)
+        - 37% scored above scale midpoint (indicating clinically relevant stigma)
+        - Stigma associated with worse physical and mental health outcomes
+        - Internal consistency good (α=0.78–0.87)
+    *Conclusion:*: Stigma is a measurable and significant burden in Long Covid, associated with poorer health outcomes.
+    *Limitations:*: UK-based online sample; self-reported LC status; cross-sectional.
+    *Certainty:*: 0.70
+
+=== Hoffmann et al.\ 2024 — D-A-CH Consensus Statement on ME/CFS
+
+    *Full Citation:*: Hoffmann K, Hainzl A, Stingl M, et al. Interdisziplinäres, kollaboratives D-A-CH Konsensus-Statement zur Diagnostik und Behandlung von Myalgischer Enzephalomyelitis/Chronischem Fatigue-Syndrom. _Wiener klinische Wochenschrift_. 2024;136(Suppl 5):103–123. @Hoffmann2024DACHconsensus
+    *DOI:*: #link("https://doi.org/10.1007/s00508-024-02372-y")[10.1007/s00508-024-02372-y]
+    *PMID:*: 38743348
+    *PMCID:*: PMC11093804
+    *Study Design:*: Interdisciplinary consensus statement (Germany, Austria, Switzerland)
+    *Sample Size:*: 33 co-authors; comprehensive literature review
+    *Key Findings:*:
+        - Endorses CCC and IOM diagnostic criteria for ME/CFS
+        - Explicitly recommends against graded exercise therapy (GET)
+        - Emphasizes PEM as core diagnostic feature
+        - Recommends pacing and symptom-titrated activity management
+        - Provides diagnostic algorithms for German-speaking healthcare context
+    *Conclusion:*: The D-A-CH consensus legitimizes ME/CFS as an organic disease and provides clinical guidance, including explicit caution against GET.
+    *Limitations:*: Consensus-based (not systematic review methodology); German-language healthcare context; may not reflect international guideline variation.
+    *Certainty:*: 0.80
+
+=== Gimeno Torrent 2022 — Symbolic Violence in CFS/ME
+
+    *Full Citation:*: Gimeno Torrent X. The circuit of symbolic violence in chronic fatigue syndrome (CFS)/myalgic encephalomyelitis (ME) (I): a preliminary study. _Health Care for Women International_. 2022;43(1–3):5–41. @GimenoTorrent2022SymbolicViolence
+    *DOI:*: #link("https://doi.org/10.1080/07399332.2021.1925900")[10.1080/07399332.2021.1925900]
+    *PMID:*: 34125009
+    *Study Design:*: Theoretical analysis (Bourdieusian framework)
+    *Sample Size:*: N/A (theoretical)
+    *Key Findings:*:
+        - Applies Bourdieu's concept of symbolic violence to medical delegitimization of CFS/ME
+        - Medical field's psychosomatic framing functions as symbolic violence through misrecognition
+        - Produces social suffering, self-blame, and exclusion from healthcare
+        - Circuits of symbolic violence sustain each other across medical, media, and policy fields
+    *Conclusion:*: The psychosomatic framing of CFS/ME is a form of symbolic violence that perpetuates suffering through misrecognition.
+    *Limitations:*: Single-author theoretical analysis; not empirical; English (translated from Catalan context); single journal series.
+    *Certainty:*: 0.50
+
+=== Byrne 2020 — Epistemic Injustice in CFS/ME Healthcare
+
+    *Full Citation:*: Byrne EA. Striking the balance with epistemic injustice in healthcare: the case of Chronic Fatigue Syndrome/Myalgic Encephalomyelitis. _Medicine, Health Care and Philosophy_. 2020;23(3):371–379. @Byrne2021EpistemicInjustice
+    *DOI:*: #link("https://doi.org/10.1007/s11019-020-09945-4")[10.1007/s11019-020-09945-4]
+    *PMID:*: 32170570
+    *PMCID:*: PMC7426317
+    *Study Design:*: Philosophical/ethical analysis
+    *Sample Size:*: N/A
+    *Key Findings:*:
+        - Applies Fricker's epistemic injustice framework (testimonial + hermeneutical) to CFS/ME
+        - Identifies tension: avoiding hermeneutical injustice (dismissing patient testimony) vs testimonial injustice (uncritical acceptance)
+        - Argues that diagnostic uncertainty in CFS/ME creates conditions for both forms of injustice
+        - Proposes "epistemic humility" as a clinical approach
+    *Conclusion:*: Healthcare for CFS/ME requires careful balancing of epistemic justice considerations; simplistic application risks either patient dismissal or therapeutic nihilism.
+    *Limitations:*: Philosophical analysis (not empirical); single-author perspective; does not resolve the tension it identifies.
+    *Certainty:*: 0.65
+
+=== Ireson et al.\ 2022 — Epistemic Injustice in Long Covid
+
+    *Full Citation:*: Ireson J, Taylor A, Richardson E, Greenfield B, Jones G. Exploring invisibility and epistemic injustice in Long Covid — a citizen science qualitative analysis of patient stories from an online Covid community. _Health Expectations_. 2022;25(4):1753–1765. @Ireson2022EpistemicInjusticeLC
+    *DOI:*: #link("https://doi.org/10.1111/hex.13518")[10.1111/hex.13518]
+    *PMID:*: 35557480
+    *PMCID:*: PMC9327841
+    *Study Design:*: Qualitative citizen science analysis
+    *Sample Size:*: n=23 patient narratives
+    *Key Findings:*:
+        - Documents testimonial injustice: patient symptoms dismissed as anxiety or deconditioning
+        - Documents hermeneutical injustice: lack of conceptual resources to communicate novel illness
+        - Patients felt "invisible" to medical system
+        - Online communities provided epistemic validation unavailable in clinical settings
+    *Conclusion:*: Long Covid patients experience both forms of epistemic injustice; peer communities serve as epistemic counter-spaces.
+    *Limitations:*: Self-selected narratives from a single online platform; citizen science approach (less formalized analysis); no healthcare professional perspective.
+    *Certainty:*: 0.60
+
+=== Clutterbuck et al.\ 2024 — Barriers to Healthcare and Stigma in Long Covid
+
+    *Full Citation:*: Clutterbuck D, Ramasawmy M, Pantelic M, et al. Barriers to healthcare access and experiences of stigma: findings from a coproduced Long Covid case-finding study. _Health Expectations_. 2024;27(2):e14037. @Clutterbuck2024BarriersStigmaLC
+    *DOI:*: #link("https://doi.org/10.1111/hex.14037")[10.1111/hex.14037]
+    *PMID:*: 38634418
+    *PMCID:*: PMC11024953
+    *Study Design:*: Coproduced community case-finding; qualitative + quantitative
+    *Sample Size:*: n=24 Community Advisory Board members; n=567 survey respondents
+    *Key Findings:*:
+        - Stigma in healthcare encounters is a major barrier to accessing care for Long Covid
+        - Stigma led to delayed help-seeking and worse health outcomes
+        - Stigma compounded for already-marginalized groups (ethnic minorities, low-income)
+        - Psychologization (being told symptoms are psychological) was the most commonly reported stigma form
+    *Conclusion:*: Long Covid stigma in healthcare is prevalent and contributes to health inequalities; coproduced approaches can identify actionable barriers.
+    *Limitations:*: UK-specific; coproduction may introduce selection bias; cross-sectional.
+    *Certainty:*: 0.68
+
+=== Treufeldt & Burton 2024 — Stigma in PPS/FD: Scoping Review
+
+    *Full Citation:*: Treufeldt H, Burton C. Stigmatisation in medical encounters for persistent physical symptoms/functional disorders: scoping review and thematic synthesis. _Patient Education and Counseling_. 2024;123:108198. @Treufeldt2024StigmaScoping
+    *DOI:*: #link("https://doi.org/10.1016/j.pec.2024.108198")[10.1016/j.pec.2024.108198]
+    *PMID:*: 38367305
+    *Study Design:*: Scoping review with thematic synthesis
+    *Sample Size:*: 37 included studies
+    *Key Findings:*:
+        - Five themes of stigma in PPS/FD medical encounters: diagnostic uncertainty, contested nosology, negative healthcare attitudes, communication breakdown, patient distrust
+        - Stigma is pervasive and has negative effects on care quality and patient outcomes
+        - ME/CFS and Long COVID frequently appear in included studies
+        - Interventions to reduce stigma are sparse and of low quality
+    *Conclusion:*: Stigma in medical encounters for PPS/FD is well-documented but poorly addressed; ME/CFS and LC are paradigmatic cases.
+    *Limitations:*: Scoping review (no quality appraisal); heterogeneous conditions grouped under PPS/FD; limited intervention evidence.
+    *Certainty:*: 0.72
+
+=== Treufeldt et al.\ 2024 — Stigma in PPS/FD: Framework Synthesis
+
+    *Full Citation:*: Treufeldt H, Burton C, McGhie Fraser B. Stigmatisation in clinical consultations for persistent physical symptoms/functional disorders: a best fit framework synthesis. _Journal of Psychosomatic Research_. 2024;183:111828. @Treufeldt2024StigmaFramework
+    *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2024.111828")[10.1016/j.jpsychores.2024.111828]
+    *PMID:*: 38852031
+    *Study Design:*: Best-fit framework synthesis
+    *Sample Size:*: 37 studies
+    *Key Findings:*:
+        - Constructs actionable framework: labelling → discrediting → othering → discrimination cycle
+        - Framework identifies intervention points at each stage
+        - Psychologization operates at the "discrediting" stage (patient testimony discredited as unreliable)
+        - Consequences include delayed diagnosis, inappropriate treatment, patient disengagement
+    *Conclusion:*: Stigmatisation in PPS/FD follows a predictable cycle; framework enables targeted intervention design for conditions including ME/CFS and LC.
+    *Limitations:*: Framework derived from heterogeneous literature; not empirically tested as intervention; single-analyst synthesis.
+    *Certainty:*: 0.70
+
+=== Cooper & Papadopoulos 2025 — Pacing vs GET: Safety Systematic Review
+
+    *Full Citation:*: Cooper C, Papadopoulos K. Evaluating pacing therapy (PT) versus graded exercise therapy (GET) for improving fatigue, pain, and quality of life in adults with myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS): a systematic review. _Journal of Bodywork and Movement Therapies_. 2025;44:319–327. @Cooper2025PacingVsGET
+    *DOI:*: #link("https://doi.org/10.1016/j.jbmt.2025.05.048")[10.1016/j.jbmt.2025.05.048]
+    *PMID:*: 40954597
+    *Study Design:*: Systematic review
+    *Sample Size:*: 7 studies (2 RCTs, 5 cohort)
+    *Key Findings:*:
+        - GET associated with higher dropout rates (22–45%) compared to pacing (5–12%)
+        - GET showed higher adverse event rates (15–54% reported worsening)
+        - Pacing showed improvements in fatigue and quality of life with minimal harms
+        - No evidence that GET is superior to pacing for any outcome
+    *Conclusion:*: Pacing therapy has a superior safety profile to GET in ME/CFS; GET carries significant risk of harm.
+    *Limitations:*: Small number of studies; heterogeneous outcomes; most pacing studies are observational; journal with moderate impact factor.
+    *Certainty:*: 0.60
+
+// =============================================================================
 // PrecisionLife GLP-1 Genetics Literature
 // Added 2026-06-17 — research_stream = precisionlife-glp1
 // =============================================================================
@@ -22672,3 +22864,213 @@ Note: The literature on RF in ME/CFS is strikingly sparse. Only one study has di
     *Limitations:*: Narrative review; no new data; ongoing trials not yet reported.
     *Certainty:*: 0.45
 
+
+// =============================================================================
+// Emotional Processing, Interoceptive Processing, and Illness Cognitions
+// Added 2026-06-19 — research_stream = emotional-interoceptive-processing
+// =============================================================================
+
+== Emotional Processing, Interoceptive Processing, and Illness Cognitions in ME/CFS
+<sec:bib-emotional-interoceptive-processing>
+
+=== Garfinkel et al.\ 2015 — Distinguishing Interoceptive Accuracy from Interoceptive Awareness
+    *Full Citation:*: Garfinkel SN, Seth AK, Barrett AB, Suzuki K, Critchley HD. Knowing Your Own Heart: Distinguishing Interoceptive Accuracy from Interoceptive Awareness. _Biological Psychology_. 2015;104:65--74. @Garfinkel2015interoceptionAccuracy
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsycho.2014.11.004")[10.1016/j.biopsycho.2014.11.004]
+    *Key Findings:*:
+        - Established tripartite model: interoceptive accuracy (objective), interoceptive sensibility (self-reported), interoceptive awareness (metacognitive)
+        - Accuracy-sensibility dissociation is fundamental — frequently dissociated in clinical populations
+    *Conclusion:*: The tripartite framework is essential for interpreting interoceptive findings in chronic illness
+    *Limitations:*: Healthy volunteer sample (n=108). Validation in clinical populations (including ME/CFS) pending
+    *Certainty:*: 0.75
+
+=== Quadt, Critchley \& Garfinkel 2018 — The Neurobiology of Interoception in Health and Disease
+    *Full Citation:*: Quadt L, Critchley HD, Garfinkel SN. The Neurobiology of Interoception in Health and Disease. _Annals of the New York Academy of Sciences_. 2018;1428(1):112--128. @QuadtCritchleyGarfinkel2018interoception
+    *DOI:*: #link("https://doi.org/10.1111/nyas.13915")[10.1111/nyas.13915]
+    *Key Findings:*:
+        - Comprehensive review: interoception as transdiagnostic mechanism in psychiatric and neurological disorders
+        - Insula as core interoceptive hub; interoceptive predictive coding framework
+    *Conclusion:*: Establishes the theoretical basis for applying interoceptive framework to chronic fatigue states
+    *Limitations:*: Narrative review; no ME/CFS-specific data
+    *Certainty:*: 0.80
+
+=== Seth, Suzuki \& Critchley 2011 — Interoceptive Predictive Coding Model of Conscious Presence
+    *Full Citation:*: Seth AK, Suzuki K, Critchley HD. An Interoceptive Predictive Coding Model of Conscious Presence. _Frontiers in Psychology_. 2011;2:395. @Seth2011interoceptivePresence
+    *DOI:*: #link("https://doi.org/10.3389/fpsyg.2011.00395")[10.3389/fpsyg.2011.00395]
+    *Key Findings:*:
+        - Foundational predictive coding model of interoception
+        - Conscious presence emerges from prediction error minimization in interoceptive processing
+        - Hierarchical interoceptive inference with precision weighting
+    *Conclusion:*: Theoretical framework for understanding altered interoceptive presence in chronic illness
+    *Limitations:*: Theoretical/model paper; empirical validation indirect
+    *Certainty:*: 0.70
+
+=== Greenhouse-Tucknott et al.\ 2022 — Toward the Unity of Pathological and Exertional Fatigue
+    *Full Citation:*: Greenhouse-Tucknott A, Butterworth JB, Wrightson JG, Smeeton NJ, Critchley HD, Dekerle J, Harrison NA. Toward the Unity of Pathological and Exertional Fatigue: A Predictive Processing Model. _Cognitive, Affective, \& Behavioral Neuroscience_. 2022;22(2):215--228. @GreenhouseTucknott2022predictiveCodingFatigue
+    *DOI:*: #link("https://doi.org/10.3758/s13415-021-00958-x")[10.3758/s13415-021-00958-x]
+    *Key Findings:*:
+        - Unified predictive coding model bridging pathological and exertional fatigue
+        - Fatigue = increased prior precision for effort costs → reduced willingness to exert
+    *Conclusion:*: Provides computational mechanism for fatigue perception unifying peripheral and central contributions
+    *Limitations:*: Theoretical; not empirically tested in any fatigue population
+    *Certainty:*: 0.60
+
+=== Manjaly, Harrison, Critchley et al.\ 2019 — Fatigue in Multiple Sclerosis: Interoception and Predictive Coding
+    *Full Citation:*: Manjaly ZM, Harrison NA, Critchley HD, et al. Pathophysiological and Cognitive Mechanisms of Fatigue in Multiple Sclerosis. _Journal of Neurology, Neurosurgery \& Psychiatry_. 2019;90(6):642--651. @ManjalyCritchley2019MSfatigue
+    *DOI:*: #link("https://doi.org/10.1136/jnnp-2018-320050")[10.1136/jnnp-2018-320050]
+    *Key Findings:*:
+        - Links interoceptive processing, inflammation, and predictive coding models of fatigue in MS
+        - Proposes fatigue arises from dysregulated interoceptive prediction error involving ACC and insula
+    *Conclusion:*: Cross-disease template for applying interoceptive predictive coding to ME/CFS
+    *Limitations:*: Narrative review with computational model proposal; not tested in ME/CFS
+    *Certainty:*: 0.75
+
+=== Barrett et al.\ 2025 — The Theory of Constructed Emotion
+    *Full Citation:*: Barrett LF. The Theory of Constructed Emotion: More Than a Feeling. _Perspectives on Psychological Science_. 2025. @Barrett2025ConstructedEmotion
+    *DOI:*: #link("https://doi.org/10.1177/17456916251319045")[10.1177/17456916251319045]
+    *Key Findings:*:
+        - Emotions = predictions constructed from interoceptive and exteroceptive sensory arrays
+        - Core brain networks instantiate emotion categories from interoceptive predictions
+    *Conclusion:*: Degraded interoceptive input → impaired emotion category construction → alexithymia acquired in ME/CFS
+    *Limitations:*: Theoretical framework; not tested in ME/CFS
+    *Certainty:*: 0.75
+
+=== Zhang, Wager et al.\ 2025 — 7T fMRI Mapping of the Allostatic-Interoceptive System
+    *Full Citation:*: Zhang Z, Wager TD, et al. Cortical and Subcortical Mapping of the Human Allostatic-Interoceptive System Using 7 Tesla fMRI. _Nature Neuroscience_. 2025. @ZhangWager2025AllostaticInteroceptive
+    *DOI:*: #link("https://doi.org/10.1038/s41593-025-02087-x")[10.1038/s41593-025-02087-x]
+    *Key Findings:*:
+        - Comprehensive 7T mapping of allostatic-interoceptive system (n=200+)
+        - Identifies anterior insula, ACC, mPFC, hypothalamus, PAG, amygdala as interoceptive-allostatic network
+    *Conclusion:*: Definitive neural reference map for interoceptive system dysregulated in ME/CFS
+    *Limitations:*: General population sample; ME/CFS-specific mapping needed
+    *Certainty:*: 0.80
+
+=== Harrison et al.\ 2009 — Neural Origins of Human Sickness in Interoceptive Responses to Inflammation
+    *Full Citation:*: Harrison NA, Brydon L, Walker C, Gray MA, Steptoe A, Dolan RJ, Critchley HD. Neural Origins of Human Sickness in Interoceptive Responses to Inflammation. _Biological Psychiatry_. 2009;66(5):415--422. @Harrison2009inflammationInteroception
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2009.03.007")[10.1016/j.biopsych.2009.03.007]
+    *Key Findings:*:
+        - Typhoid vaccination-induced inflammation altered insula/ACC activity and coupling during emotional-interoceptive task
+        - First experimental demonstration that inflammation directly modulates human interoceptive brain regions
+    *Conclusion:*: Provides causal pathway from ME/CFS immune dysfunction to altered interoceptive processing
+    *Limitations:*: Modest sample (n=16); typhoid vaccination model may not reflect chronic inflammation
+    *Certainty:*: 0.65
+
+=== Savitz \& Harrison 2018 — Interoception and Inflammation in Psychiatric Disorders
+    *Full Citation:*: Savitz J, Harrison NA. Interoception and Inflammation in Psychiatric Disorders. _Biological Psychiatry: Cognitive Neuroscience and Neuroimaging_. 2018;3(6):514--524. @SavitzHarrison2018interoception
+    *DOI:*: #link("https://doi.org/10.1016/j.bpsc.2017.12.011")[10.1016/j.bpsc.2017.12.011]
+    *Key Findings:*:
+        - Systematic review of inflammation-interoception link
+        - Cytokines modulate interoceptive brain regions via vagal (neural) and circumventricular organ (humoral) pathways
+    *Conclusion:*: Mechanistic bridge between established ME/CFS immune abnormalities and interoceptive/emotional processing changes
+    *Limitations:*: Psychiatry-focused; general population mechanisms; not tested in ME/CFS
+    *Certainty:*: 0.70
+
+=== Maroti, Molander \& Bileviciute-Ljungar 2017 — Alexithymia in CFS and Exhaustion Syndrome
+    *Full Citation:*: Maroti D, Molander P, Bileviciute-Ljungar I. Differences in Alexithymia and Emotional Awareness in Exhaustion Syndrome and Chronic Fatigue Syndrome. _Scandinavian Journal of Psychology_. 2017;58(1):52--61. @Maroti2017alexithymiaCFS
+    *DOI:*: #link("https://doi.org/10.1111/sjop.12332")[10.1111/sjop.12332]
+    *Key Findings:*:
+        - Elevated alexithymia in CFS and exhaustion syndrome vs controls (TAS-20)
+        - Difficulty Identifying Feelings factor most elevated; externally-oriented thinking not different
+        - CFS patients showed lower emotional awareness than exhaustion syndrome
+    *Conclusion:*: First direct evidence of alexithymia in CFS; distinguishes chronic fatigue from stress-related exhaustion
+    *Limitations:*: Moderate sample (n=43 CFS); cross-sectional; single study; no interoceptive measures
+    *Certainty:*: 0.50
+
+=== Bileviciute-Ljungar \& Friberg 2020 — Emotional Awareness and Sleep in ME/CFS
+    *Full Citation:*: Bileviciute-Ljungar I, Friberg D. Emotional Awareness Correlated With Number of Awakenings From PSG in ME/CFS. _Frontiers in Psychiatry_. 2020;11:222. @BileviciuteLjungar2020emotionAwarenessSleep
+    *DOI:*: #link("https://doi.org/10.3389/fpsyt.2020.00222")[10.3389/fpsyt.2020.00222]
+    *Key Findings:*:
+        - Lower emotional awareness (TAS-20) correlated with more frequent PSG nocturnal awakenings
+        - No correlation with other sleep parameters
+    *Conclusion:*: Links emotional-interoceptive processing to objective sleep fragmentation in ME/CFS
+    *Limitations:*: Small sample (n=30 ME/CFS); no control group; pilot study design
+    *Certainty:*: 0.40
+
+=== Brooks, Chalder \& Rimes 2017 — Emotional Processing Vulnerability Factors in CFS
+    *Full Citation:*: Brooks SK, Chalder T, Rimes KA. CFS: Cognitive, Behavioural and Emotional Processing Vulnerability Factors. _Behavioural and Cognitive Psychotherapy_. 2017;45(2):156--169. @Brooks2017emotionalProcessingCFS
+    *DOI:*: #link("https://doi.org/10.1017/S1352465816000631")[10.1017/S1352465816000631]
+    *Key Findings:*:
+        - Elevated emotional processing difficulties (ambivalence over emotional expression, thought suppression) in CFS
+        - Correlated with fatigue severity
+    *Conclusion:*: Identifies emotional processing factors specifically in CFS population
+    *Limitations:*: Moderate sample (n=67); single-center; cross-sectional; no control group
+    *Certainty:*: 0.45
+
+=== Rimes, Ashcroft, Bryan \& Chalder 2016 — Emotional Suppression in CFS: Experimental Study
+    *Full Citation:*: Rimes KA, Ashcroft J, Bryan L, Chalder T. Emotional Suppression in CFS: Experimental Study. _Health Psychology_. 2016;35(9):979--986. @Rimes2016emotionSuppressionCFS
+    *DOI:*: #link("https://doi.org/10.1037/hea0000341")[10.1037/hea0000341]
+    *Key Findings:*:
+        - CFS patients showed blunted EDA response (reduced autonomic reactivity) with heightened self-reported distress during emotion suppression
+        - Dissociation between physiological and subjective emotional response in CFS
+    *Conclusion:*: Provides experimental evidence of emotion-autonomic dissociation in CFS
+    *Limitations:*: Moderate sample (n=40 per group); single study; not replicated
+    *Certainty:*: 0.55
+
+=== Wortinger et al.\ 2017 — Emotional Conflict Processing in Adolescent CFS: Pilot fMRI
+    *Full Citation:*: Wortinger LA, Endestad T, Melinder AMD, et al. Emotional Conflict Processing in Adolescent CFS: A Pilot fMRI Study. _Journal of Clinical and Experimental Neuropsychology_. 2017;39(2):107--119. @Wortinger2017emotionConflictCFS
+    *DOI:*: #link("https://doi.org/10.1080/13803395.2016.1230180")[10.1080/13803395.2016.1230180]
+    *Key Findings:*:
+        - Altered ACC and PFC activation during emotional conflict processing in CFS
+        - Preserved behavioural performance with divergent neural circuitry
+    *Conclusion:*: Neural evidence of altered emotion processing circuitry in CFS with compensatory recruitment
+    *Limitations:*: Very small sample (n=10 per group); adolescent-specific; pilot design
+    *Certainty:*: 0.40
+
+=== Van Den Houte et al.\ 2017 — Negative Affect Amplifies Somatic Symptoms in CFS and Fibromyalgia
+    *Full Citation:*: Van Den Houte M, Bogaerts K, Van Diest I, et al. Inducing Somatic Symptoms in Functional Syndrome Patients: Effects of Manipulating State Negative Affect. _Psychosomatic Medicine_. 2017;79(9):1000--1007. @VanDenHoute2017negativeAffectSomatic
+    *DOI:*: #link("https://doi.org/10.1097/PSY.0000000000000527")[10.1097/PSY.0000000000000527]
+    *Key Findings:*:
+        - Experimentally inducing negative affect amplified somatic symptom reporting in FM and CFS more than controls
+        - Amplification pathway is psychophysiological, not psychogenic
+    *Conclusion:*: Negative affect amplification is a real, bidirectional mechanism exaggerated in CFS
+    *Limitations:*: Single experimental study; CFS sample (n=29) relatively small
+    *Certainty:*: 0.60
+
+=== Sohl \& Friedberg 2008 — Memory for Fatigue in CFS: Catastrophizing and Recall Bias
+    *Full Citation:*: Sohl SJ, Friedberg F. Memory for Fatigue in CFS: Relationships to Fatigue Variability, Catastrophizing, and Negative Affect. _Behavioral Medicine_. 2008;34(1):29--38. @SohlFriedberg2008catastrophizingRecall
+    *DOI:*: #link("https://doi.org/10.3200/BMED.34.1.29-38")[10.3200/BMED.34.1.29-38]
+    *Key Findings:*:
+        - Catastrophizing correlated with retrospective fatigue recall bias, NOT concurrent fatigue
+        - Did not predict objective activity levels or momentary fatigue
+    *Conclusion:*: Catastrophizing affects fatigue memory but not real-time fatigue experience — limiting clinical significance
+    *Limitations:*: Modest sample (n=43); single study; limited catastrophizing measure
+    *Certainty:*: 0.40
+
+=== Poort et al.\ 2021 — Catastrophizing Does NOT Mediate Fatigue Treatment Outcomes
+    *Full Citation:*: Poort H, Verhagen SJ, Peters MEWJ, Bleijenberg G, van der Graaf WTA, Knoop H. Condition or Cognition? Mechanism of Change in Fatigue RCT. _Journal of Consulting and Clinical Psychology_. 2021;89(8):693--706. @Poort2021catastrophizingNull
+    *DOI:*: #link("https://doi.org/10.1037/ccp0000670")[10.1037/ccp0000670]
+    *Key Findings:*:
+        - RCT mediation analysis (n=134): changes in catastrophizing did NOT mediate fatigue improvement in GET or CBT
+        - Fatigue reduction mediated by physical conditioning (GET) and perceived activity (CBT), not cognitive variables
+    *Conclusion:*: Null mediation finding for catastrophizing — if it does not drive treatment outcomes even in CBT for fatigue, targeting it is not supported
+    *Limitations:*: Cancer fatigue (not ME/CFS); single study; formal mediation analysis is appropriate design
+    *Certainty:*: 0.65
+
+=== Danciut, Garfinkel et al.\ 2024 — Interoception, Metacognition, and White Matter in MS Fatigue
+    *Full Citation:*: Danciut I, Garfinkel SN, et al. Understanding the Mechanisms of Fatigue in MS: Linking Interoception, Metacognition and White Matter Dysconnectivity. _Brain Communications_. 2024;6(6):fcae292. @DanciutGarfinkel2024MSinteroception
+    *DOI:*: #link("https://doi.org/10.1093/braincomms/fcae292")[10.1093/braincomms/fcae292]
+    *Key Findings:*:
+        - Interoceptive accuracy and metacognitive insight correlated with fatigue severity in MS
+        - White matter dysconnectivity in interoceptive network tracts correlated with interoceptive deficits and fatigue
+    *Conclusion:*: First empirical demonstration linking interoceptive accuracy deficits to fatigue via white matter damage in a neuroinflammatory disease
+    *Limitations:*: Moderate sample (n=33 per group); MS-specific; single study
+    *Certainty:*: 0.55
+
+=== Valenzuela-Moguillansky et al.\ 2017 — Body Awareness in Fibromyalgia
+    *Full Citation:*: Valenzuela-Moguillansky C, Reyes-Reyes A, Gaete MI. Exteroceptive and Interoceptive Body-Self Awareness in Fibromyalgia Patients. _Frontiers in Human Neuroscience_. 2017;11:117. @ValenzuelaMoguillansky2017bodyAwarenessFM
+    *DOI:*: #link("https://doi.org/10.3389/fnhum.2017.00117")[10.3389/fnhum.2017.00117]
+    *Key Findings:*:
+        - FM patients showed increased attention to bodily sensations but decreased tactile localization accuracy
+        - Dissociation between body awareness dimensions in a condition highly comorbid with ME/CFS
+    *Conclusion:*: Indirect evidence for interoceptive accuracy-sensibility dissociation in ME/CFS via comorbid FM data
+    *Limitations:*: Moderate sample (n=34 FM); FM-specific; tactile (not cardiac) interoception
+    *Certainty:*: 0.50
+
+=== Kang et al.\ 2026 — HPA Axis Dysregulation and Cognitive-Emotional Dysfunction in ME/CFS
+    *Full Citation:*: Kang H, et al. Chronic Stress and Cognitive Dysfunction in ME/CFS: HPA Axis Dysregulation and Hippocampal Plasticity. _Frontiers in Neuroscience_. 2026. @Kang2026hpaEmotionCFS
+    *DOI:*: #link("https://doi.org/10.3389/fnins.2026.1814098")[10.3389/fnins.2026.1814098]
+    *Key Findings:*:
+        - Reviews HPA axis dysregulation in ME/CFS as alternative mechanism for cognitive and emotional changes
+        - Proposes cortisol dysregulation → hippocampal atrophy → cognitive deficits + emotional dysregulation
+    *Conclusion:*: Competing (non-exclusive) mechanism for emotional/interoceptive changes in ME/CFS
+    *Limitations:*: Narrative review; not systematic; HPA and interoceptive pathways may coexist
+    *Certainty:*: 0.50

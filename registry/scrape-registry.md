@@ -103,6 +103,16 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (12 queries, batch) | pubmed/eutils | 2026-06-19 | 2026-06-19 | content-staging/search-log-rf-elevated-mecfs-2026-06-19.md, content-staging/literature-summary-rf-elevated-mecfs-2026-06-19.md, bib/autoimmunity.bib, appendix-h — RF+ME/CFS literature search (10 papers, all low certainty, decision: DEFER) |
 
+## Psychologization Critique — Schomerus 2026
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-19 | ~20 queries: Schomerus 2026, Büchner 2025, Pantelic 2022, Hoffmann D-A-CH 2024, epistemic injustice, symbolic violence, PPS stigma scoping reviews, pacing vs GET safety |
+| Crossref API | 2026-06-19 | Author metadata for 14 DOIs (Schomerus, Büchner, Pantelic, Hoffmann, Vink 2025, Treufeldt, Byrne, Ireson, Clutterbuck, Cooper, Gimeno Torrent, Eckey, Lebrun) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (~20, batch) | pubmed/eutils | 2026-06-19 | — | content-staging/search-log-psychologization-critique-2026-06-19.md, bib/stigma.bib, appendix-h — Psychologization critique literature (10 new bib entries + 10 existing stigma entries linked) |
+
 ## Articles
 
 | URL | Source | Scraped | Integrated | Target |
