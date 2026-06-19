@@ -1,6 +1,7 @@
 #import "../../../../shared/environments.typ": *
 
 === Evidence for Biological Basis
+<sec:biological-evidence>
 
 The accumulated biological evidence against a psychogenic model is now overwhelming:
     - *Immune dysfunction*: Reduced NK cell cytotoxicity, T cell exhaustion, altered cytokine profiles, and autoantibodies—none of which are features of psychological conditions @Hardcastle2016 @Che2025

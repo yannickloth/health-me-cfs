@@ -10426,6 +10426,226 @@ This section covers: (1) the discovery that TRP channels can adopt pentameric st
         - *Replication:* Consistent direction
         - *Score:* 0.70
 
+=== Lai et al.\ 2019 --- ADHD Prevalence in Autism: Meta-Analysis
+
+    *Full Citation:*: Lai M-C, Kassee C, Besney J, et al. Prevalence of co-occurring mental health diagnoses in the autism population: A systematic review and meta-analysis. _The Lancet Psychiatry_. 2019;6(10):819--829. @Lai2019metaADHDasd
+    *DOI:*: #link("https://doi.org/10.1016/S2215-0366(19)30289-5")[10.1016/S2215-0366(19)30289-5]
+    *Article Type:*: Systematic review and meta-analysis
+    *Key Findings:*:
+        - Pooled ADHD prevalence 28% (95% CI 25--32) in ASD population — highest of all co-occurring conditions
+        - Anxiety disorders 20%, depressive disorders 11%, OCD 9%
+        - Clinical samples yielded higher estimates than population/registry-based studies
+    *Conclusion:*: ADHD is the single most common co-occurring psychiatric condition in ASD. The prevalence far exceeds general-population base rates, confirming a genuine overlap not attributable to diagnostic inflation.
+    *Limitations:*: High unexplained heterogeneity (all I#super[2] > 95%); English/French-language only.
+    *ME/CFS Relevance:*: Establishes the ADHD--ASD co-occurrence prevalence baseline that informs Architecture C's compound-risk model. If 28% of autistic individuals also carry ADHD, both conditions' independent metabolic reserve drains compound.
+    *Certainty Assessment:*:
+        - *Quality:* High (systematic meta-analysis in top journal)
+        - *Sample:* 96 studies
+        - *Replication:* Consistent direction
+        - *Score:* 0.90
+
+=== Ghirardi et al.\ 2018 --- Familial Co-Aggregation of ASD and ADHD
+
+    *Full Citation:*: Ghirardi L, Brikell I, Kuja-Halkola R, et al. The familial co-aggregation of ASD and ADHD: A register-based cohort study. _Molecular Psychiatry_. 2018;23(2):257--263. @Ghirardi2018familialADHDasd
+    *DOI:*: #link("https://doi.org/10.1038/mp.2017.17")[10.1038/mp.2017.17]
+    *Article Type:*: Register-based cohort study
+    *Key Findings:*:
+        - N=1,899,654 Swedish births (1987--2006); OR=22.33 (95% CI 21.77--22.92) for diagnosed ASD→ ADHD co-occurrence
+        - MZ twin OR=17.77 vs DZ twin OR=4.33 vs full sibling OR=4.59
+        - Stronger association for high-functioning ASD than low-functioning (with intellectual disability)
+    *Conclusion:*: ADHD--ASD co-occurrence is not a clinical artifact — the pattern across decreasing genetic relatedness confirms substantial shared genetic liability.
+    *Limitations:*: Swedish register data may not generalize globally; clinical diagnoses not standardized across all settings.
+    *ME/CFS Relevance:*: If ADHD and ASD co-occur 22× more often than expected by chance, ME/CFS patients carrying one neurodevelopmental condition have dramatically elevated probability of carrying both — relevant to the multiplicative reserve reduction model.
+    *Certainty Assessment:*:
+        - *Quality:* High (largest familial co-aggregation study; top journal)
+        - *Sample:* ~1.9M individuals
+        - *Replication:* Consistent with twin literature
+        - *Score:* 0.92
+
+=== Ghirardi et al.\ 2019 --- Genetic Overlap of ADHD and ASD Trait Dimensions in Adults
+
+    *Full Citation:*: Ghirardi L, Pettersson E, Taylor MJ, et al. Genetic and environmental contributions to the overlap between ADHD and ASD trait dimensions in young adults: A twin study. _Psychological Medicine_. 2019;49(14):2366--2373. @Ghirardi2019dimensionsADHDasd
+    *DOI:*: #link("https://doi.org/10.1017/S003329171800243X")[10.1017/S003329171800243X]
+    *Article Type:*: Twin study
+    *Key Findings:*:
+        - N=6,866 young adults (20--28 yrs) from Swedish Twin Registry
+        - Inattention similarly correlated with restricted/repetitive behaviors (r=0.33) and social-communication difficulties (r=0.32)
+        - Hyperactivity/impulsivity more strongly linked to RRB (r=0.38) than SIC (r=0.24)
+        - Highest genetic correlation: HI--RRB (r#sub[g]=0.56)
+    *Conclusion:*: The ADHD--ASD genetic overlap is not uniform — specific symptom dimensions show different aetiological overlap strengths. Hyperactivity and repetitive behaviors share the strongest genetic signal.
+    *Limitations:*: Self-report trait measures; cross-sectional; mainly European ancestry.
+    *ME/CFS Relevance:*: Supports a dimensional, not categorical, model of neurodevelopmental risk — patients may carry subthreshold traits from both conditions that still drain metabolic reserve.
+    *Certainty Assessment:*:
+        - *Quality:* High (large adult twin study)
+        - *Sample:* n=6,866
+        - *Replication:* Consistent with childhood twin studies
+        - *Score:* 0.85
+
+=== Polderman et al.\ 2014 --- Autistic and ADHD Dimensions in 17,770 Adult Twins
+
+    *Full Citation:*: Polderman TJC, Hoekstra RA, Posthuma D, Larsson H. The co-occurrence of autistic and ADHD dimensions in adults: An etiological study in 17,770 twins. _Translational Psychiatry_. 2014;4:e435. @Polderman2014cooccuradhdasd
+    *DOI:*: #link("https://doi.org/10.1038/tp.2014.84")[10.1038/tp.2014.84]
+    *Article Type:*: Twin study
+    *Key Findings:*:
+        - N=17,770 adult twins; phenotypic correlation autistic-ADHD traits r=0.51
+        - Genetic correlation r#sub[g]=0.54--0.60; no sex differences in etiology
+        - ADHD traits more heritable in adults than in childhood
+    *Conclusion:*: The genetic overlap between ADHD and ASD traits persists into adulthood and is among the strongest genetic correlations in psychiatry. The dimensional continuum means subthreshold traits from both conditions can accumulate.
+    *Limitations:*: Trait-based not clinical diagnosis; self-report; mainly European.
+    *ME/CFS Relevance:*: The dimensional model (traits not just diagnoses) is key: a patient with mild ADHD traits plus mild ASD traits has additive metabolic reserve depletion even without formal dual diagnosis.
+    *Certainty Assessment:*:
+        - *Quality:* High (very large twin study)
+        - *Sample:* n=17,770
+        - *Replication:* Multiple twin studies converge
+        - *Score:* 0.87
+
+=== Ronald et al.\ 2008 --- Overlapping Genetic Influences on Autistic and ADHD Behaviours
+
+    *Full Citation:*: Ronald A, Simonoff E, Kuntsi J, Asherson P, Plomin R. Evidence for overlapping genetic influences on autistic and ADHD behaviours in a community twin sample. _Journal of Child Psychology and Psychiatry_. 2008;49(5):535--542. @Ronald2008overlapADHDasd
+    *DOI:*: #link("https://doi.org/10.1111/j.1469-7610.2007.01757.x")[10.1111/j.1469-7610.2007.01757.x]
+    *Article Type:*: Twin study
+    *Key Findings:*:
+        - N=6,768 twin pairs (TEDS), ages 7--9
+        - Correlation autistic-ADHD behaviours r=0.50--0.60
+        - Cross-twin cross-trait correlations: MZ > DZ → genetic overlap confirmed
+    *Conclusion:*: Strong genetic overlap between autistic traits and ADHD behaviours is present from childhood — not an artefact of adult recall or diagnostic drift.
+    *Limitations:*: Community sample not clinical diagnosis; parent-report only; cross-sectional.
+    *ME/CFS Relevance:*: Establishes that the ADHD--ASD shared diathesis is a lifespan feature, present before any ME/CFS trigger. This is central to Architecture C (pre-existing vulnerability).
+    *Certainty Assessment:*:
+        - *Quality:* High (large twin study, early demonstration of overlap)
+        - *Sample:* n=6,768 twin pairs
+        - *Replication:* Replicated in larger adult samples
+        - *Score:* 0.83
+
+=== Demontis et al.\ 2023 --- Largest ADHD GWAS: 27 Risk Loci
+
+    *Full Citation:*: Demontis D, Walters GB, Athanasiadis G, et al. Genome-wide analyses of ADHD identify 27 risk loci, refine the genetic architecture and implicate several cognitive domains. _Nature Genetics_. 2023;55(2):198--208. @Demontis2023GWASadhd
+    *DOI:*: #link("https://doi.org/10.1038/s41588-022-01285-8")[10.1038/s41588-022-01285-8]
+    *Article Type:*: GWAS
+    *Key Findings:*:
+        - Largest ADHD GWAS (N=38,691 cases, 186,843 controls)
+        - 27 genome-wide significant loci (up from 12 in prior GWAS)
+        - Genetic correlation ADHD--ASD: r#sub[g]=0.36 (SE=0.06)
+        - Implicated cognitive domains and brain-expressed genes
+    *Conclusion:*: Substantially expanded ADHD genetic architecture with confirmed genetic overlap with ASD at the molecular level.
+    *Limitations:*: European ancestry only; case-control design.
+    *ME/CFS Relevance:*: Molecular confirmation that ADHD and ASD share common-variant genetic risk — these shared variants may also influence the immune and metabolic pathways that determine ME/CFS susceptibility.
+    *Certainty Assessment:*:
+        - *Quality:* High (largest ADHD GWAS; Nature Genetics)
+        - *Sample:* N=225,534
+        - *Replication:* Consistent with prior GWAS
+        - *Score:* 0.93
+
+=== Grove et al.\ 2019 --- Largest ASD GWAS: Shared Variants with ADHD
+
+    *Full Citation:*: Grove J, Ripke S, Als TD, et al. Identification of common genetic risk variants for autism spectrum disorder. _Nature Genetics_. 2019;51(3):431--444. @Grove2019GWASasd
+    *DOI:*: #link("https://doi.org/10.1038/s41588-019-0344-z")[10.1038/s41588-019-0344-z]
+    *Article Type:*: GWAS
+    *Key Findings:*:
+        - Largest ASD GWAS at publication (N=18,381 cases, 27,969 controls)
+        - 5 genome-wide significant loci + 7 likely; SNP heritability ~0.12
+        - Genetic correlation ASD--ADHD: r#sub[g]=0.35--0.41
+    *Conclusion:*: Common variants contribute to ASD risk; confirmed molecular overlap with ADHD.
+    *Limitations:*: Modest SNP heritability suggests rare variants play larger role in ASD; European only.
+    *ME/CFS Relevance:*: Complements Demontis 2023 — GWAS from both directions confirm ADHD--ASD genetic overlap.
+    *Certainty Assessment:*:
+        - *Quality:* High (largest ASD GWAS; Nature Genetics)
+        - *Sample:* N=46,350
+        - *Replication:* Consistent with twin literature
+        - *Score:* 0.90
+
+=== Cross-Disorder Group PGC 2013 --- Genetic Architecture Across Five Psychiatric Disorders
+
+    *Full Citation:*: Cross-Disorder Group of the Psychiatric Genomics Consortium. Genetic relationship between five psychiatric disorders estimated from genome-wide SNPs. _Nature Genetics_. 2013;45(9):984--994. @CrossDisorderPGC2013
+    *DOI:*: #link("https://doi.org/10.1038/ng.2711")[10.1038/ng.2711]
+    *Article Type:*: Cross-disorder GWAS
+    *Key Findings:*:
+        - N=33,332 cases + 27,888 controls across 5 disorders (ASD, ADHD, BIP, MDD, SCZ)
+        - SNP-based genetic correlation ASD--ADHD: r#sub[g]=0.32--0.38
+        - Two latent factors: psychotic (SCZ, BIP, MDD) and neurodevelopmental (ASD, ADHD)
+    *Conclusion:*: ASD and ADHD genetically cluster together as neurodevelopmental disorders, distinct from the psychotic/mood cluster — the genetic architecture validates clinical comorbidity observations.
+    *Limitations:*: Only common SNPs; ASD/ADHD samples smaller than SCZ; European ancestry.
+    *ME/CFS Relevance:*: The neurodevelopmental genetic factor (shared by ADHD and ASD) may be a latent variable that independently reduces metabolic reserve. This is the genetic foundation for Architecture C.
+    *Certainty Assessment:*:
+        - *Quality:* High (landmark cross-disorder GWAS; Nature Genetics)
+        - *Sample:* N=61,220
+        - *Replication:* Consistent with later, larger GWAS
+        - *Score:* 0.88
+
+=== Taylor et al.\ 2019 --- Psychiatric PRS and Dimensional Traits in Swedish Twins
+
+    *Full Citation:*: Taylor MJ, Martin J, Lu Y, et al. Association of genetic risk factors for psychiatric disorders and traits in a Swedish national twin sample. _JAMA Psychiatry_. 2019;76(3):280--289. @Taylor2019geneticTraits
+    *DOI:*: #link("https://doi.org/10.1001/jamapsychiatry.2018.3652")[10.1001/jamapsychiatry.2018.3652]
+    *Article Type:*: Twin study with PRS analysis
+    *Key Findings:*:
+        - N=13,923 twin pairs at age 9
+        - ASD PRS → ASD traits (\ensuremath{\beta}=0.04, p<0.01); ADHD PRS → ADHD traits (\ensuremath{\beta}=0.27, p<0.001)
+        - Genetic factors for categorical diagnoses also influence continuous traits in the general population
+    *Conclusion:*: The dimensional model of psychopathology is genetically validated — the same variants causing clinical disorders produce subthreshold traits in the broader population.
+    *Limitations:*: Population-based — limited severe case representation; PRS predictive power modest.
+    *ME/CFS Relevance:*: Key for the metabolic reserve model: even individuals with subthreshold ADHD/ASD traits (no formal diagnosis) carry genetic loading that may lower metabolic reserve. The categorical diagnosis is the visible tip of a genetic iceberg.
+    *Certainty Assessment:*:
+        - *Quality:* High (large twin study + PRS; JAMA Psychiatry)
+        - *Sample:* n=13,923 twin pairs
+        - *Replication:* Consistent with dimensional model literature
+        - *Score:* 0.86
+
+=== Hindley et al.\ 2022 --- Charting Genetic Overlap Between Mental Disorders
+
+    *Full Citation:*: Hindley G, Frei O, Shadrin AA, et al. Charting the landscape of genetic overlap between mental disorders and phenotypes using large-scale genomic data. _The American Journal of Psychiatry_. 2022;179(11):833--842. @Hindley2022landscapeADHDasd
+    *DOI:*: #link("https://doi.org/10.1176/appi.ajp.21101051")[10.1176/appi.ajp.21101051]
+    *Article Type:*: MiXeR genomic analysis
+    *Key Findings:*:
+        - MiXeR analysis across 8 mental disorders (N up to 500K)
+        - ADHD and ASD extensively polygenic (~10K variants each)
+        - Highly overlapping variant sets across neurodevelopmental disorders
+        - ADHD shared more variants with ASD than with mood disorders
+    *Conclusion:*: The genetic overlap between neurodevelopmental disorders is more extensive than genetic correlation estimates alone suggest — variant-level overlap exceeds what r#sub[g] captures.
+    *Limitations:*: Cannot distinguish causal from tagging variants; European ancestry.
+    *ME/CFS Relevance:*: The extensive variant overlap means ADHD and ASD do not just share broad genetic factors — they share thousands of specific variants. These variants likely influence the same metabolic and immune pathways relevant to ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:* High (state-of-the-art MiXeR analysis; top journal)
+        - *Sample:* up to N=500K
+        - *Replication:* First large-scale MiXeR for psychiatric disorders
+        - *Score:* 0.87
+
+=== Martin et al.\ 2014 --- CNV Overlap Between ADHD and ASD
+
+    *Full Citation:*: Martin J, Cooper M, Hamshere ML, et al. Biological overlap of attention-deficit/hyperactivity disorder and autism spectrum disorder: Evidence from copy number variants. _Journal of the American Academy of Child and Adolescent Psychiatry_. 2014;53(7):761--770. @Martin2014CNVadhdasd
+    *DOI:*: #link("https://doi.org/10.1016/j.jaac.2014.03.004")[10.1016/j.jaac.2014.03.004]
+    *Article Type:*: CNV burden analysis
+    *Key Findings:*:
+        - ADHD cases had increased CNV burden specifically at ASD-implicated loci
+        - Shared rare variant risk across neurodevelopmental pathways (synaptic, neuronal)
+        - Confirms shared biology beyond common variants
+    *Conclusion:*: Rare CNVs contribute ADHD risk at the same genomic loci as ASD — the shared biology spans both common and rare variant architectures.
+    *Limitations:*: CNV detection resolution limits; moderate sample size; cannot detect common variants.
+    *ME/CFS Relevance:*: Neurodevelopmental pathway disruption (synaptic, neuronal genes) may have pleiotropic effects on the immune and metabolic systems relevant to ME/CFS susceptibility.
+    *Certainty Assessment:*:
+        - *Quality:* High (first demonstration of shared CNV burden)
+        - *Sample:* Moderate (not a mega-study)
+        - *Replication:* Consistent with GWAS overlap findings
+        - *Score:* 0.82
+
+=== Tesfaye et al.\ 2024 --- Anxiety GWAS with ADHD/ASD Genetic Overlap
+
+    *Full Citation:*: Tesfaye M, Werme J, Frei O, et al. Novel genomic loci for anxiety and extensive genetic overlap with psychiatric disorders. _Psychiatry and Clinical Neurosciences_. 2024;78(12):700--708. @Tesfaye2024anxietyGWAS
+    *DOI:*: #link("https://doi.org/10.1111/pcn.13742")[10.1111/pcn.13742]
+    *Article Type:*: GWAS
+    *Key Findings:*:
+        - N=301,732 anxiety GWAS (UKB + MVP)
+        - Anxiety polygenic with ~12.9K variants
+        - Shared loci: 20 with ADHD, 5 with ASD
+        - Cell adhesion and neurofibrillary pathways enriched
+    *Conclusion:*: Anxiety shares extensive polygenic overlap with ADHD and ASD — anxiety may be a genetic bridge linking neurodevelopmental disorders to internalising symptoms (including fatigue).
+    *Limitations:*: Anxiety self-report measure; limited non-European replication.
+    *ME/CFS Relevance:*: Anxiety is highly prevalent in ME/CFS and independently linked to fatigue. The shared genetic architecture between anxiety and ADHD/ASD suggests a tripartite risk: ADHD/ASD genetic loading → elevated anxiety → further metabolic and HPA-axis drain. This adds a third pathway to the BH4 and IL-6 mediators already in the paper.
+    *Certainty Assessment:*:
+        - *Quality:* High (very large GWAS)
+        - *Sample:* N=301,732
+        - *Replication:* Consistent with prior anxiety GWAS
+        - *Score:* 0.88
+
 === Baeza-Velasco et al.\ 2025 --- Autism--Hypermobility--EDS Meta-Analysis
 
     *Full Citation:*: Baeza-Velasco C, Vergne J, Poli M, et al. Autism in the context of joint hypermobility, HSD, and EDS: A systematic review and prevalence meta-analyses. _Autism_. 2025;29(8):1939--1958. @BaezaVelasco2025autismEDS
