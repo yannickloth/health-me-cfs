@@ -10,7 +10,7 @@ Scans the entire paper (or scoped subset) for scattered environments that collec
 
 **When to use:** After several `/integrate-topic` cycles have accumulated; when a reviewer notes fragmentation; when you suspect themes are converging across chapters without explicit acknowledgment.
 
-**Scope:** `$ARGUMENTS` — optional. If empty, scans every `.typ` file under `src/main/typst/mecfs/`. If specified, limits to those chapters/parts (e.g., `ch07 ch14d ch15`, `part2-pathophysiology`, `ch07 ch26 ch28`).
+**Scope:** `$ARGUMENTS` — optional. If empty, defaults to `src/main/typst/mecfs/` (the ME/CFS Typst document). If specified, limits to those chapters/parts (e.g., `ch07 ch14d ch15`, `part2-pathophysiology`, `ch07 ch26 ch28`).
 
 **Guard:** Scope resolves to zero `.typ` files → report empty match; ask user to refine.
 
