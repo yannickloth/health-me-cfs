@@ -2,7 +2,7 @@
 title: "Depression, Burnout, ME/CFS: Three Diseases, One Word"
 description: "A woman in her thirties tells her doctor she's exhausted. She can't work. She can barely get through the day. She used to run half-marathons and now she can't walk to the corner shop without consequences that last for days."
 author: "Yannick Loth"
-date: "2026-06-21"
+date: "2026-06-19"
 categories: [Misdiagnosis, Comorbidities, Diagnostics]
 ---
 

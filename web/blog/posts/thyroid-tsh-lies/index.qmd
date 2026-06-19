@@ -2,7 +2,7 @@
 title: "Your Thyroid Is \"Normal\": Why TSH Alone Tells You Nothing"
 description: "TSH 2.8 mIU/L. Reference range 0.4-4.0. Normal. Case closed."
 author: "Yannick Loth"
-date: "2026-06-30"
+date: "2026-06-19"
 categories: [Endocrine, Diagnostics, Misdiagnosis]
 ---
 

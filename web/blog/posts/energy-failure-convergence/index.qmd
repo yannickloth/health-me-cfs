@@ -2,7 +2,7 @@
 title: "One Disease, Fourteen Entry Points, One Endpoint"
 description: "This is the article everything in this series has been building toward. If you've read the preceding articles on mitochondria, sleep, gut, thyroid, immune activation, hypermobility, infections, depression, and diagnostics — you've seen the pieces...."
 author: "Yannick Loth"
-date: "2026-07-09"
+date: "2026-06-19"
 categories: [Energy Metabolism, Systems Biology, Pathophysiology]
 ---
 

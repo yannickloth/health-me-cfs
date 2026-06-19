@@ -2,7 +2,7 @@
 title: "Hypermobility Isn't Just Flexibility: The Energy Cost of Unstable Joints"
 description: "She looks healthy. She's young, she's slim, she can touch her palms to the floor without bending her knees. Doctors have called her \"flexible\" since childhood, and physiotherapists have admired her range of motion. Nobody told her that her flexibi..."
 author: "Yannick Loth"
-date: "2026-07-03"
+date: "2026-06-19"
 categories: [Hypermobility, Energy Metabolism, Comorbidities]
 ---
 

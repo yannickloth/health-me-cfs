@@ -2,7 +2,7 @@
 title: "SIBO: The Bacteria Stealing Your Breakfast"
 description: "The small intestine is supposed to be relatively sterile. The large intestine — the colon — is a microbial metropolis, hosting trillions of bacteria that ferment fibre, produce vitamins, and maintain the mucosal immune system. The small intestine,..."
 author: "Yannick Loth"
-date: "2026-06-27"
+date: "2026-06-19"
 categories: [Gut Microbiome, Treatment]
 ---
 

@@ -2,7 +2,7 @@
 title: "One Virus, One Bacterium, One Parasite: Different Pathogens, Same Aftermath"
 description: "In 1999, a research group in Dubbo, Australia, enrolled 253 people at the time of acute infection with one of three pathogens: Epstein-Barr virus (EBV), Coxiella burnetii (the bacterium that causes Q fever), or Ross River virus (a mosquito-borne a..."
 author: "Yannick Loth"
-date: "2026-06-24"
+date: "2026-06-19"
 categories: [Immunology, Epidemiology, Pathophysiology]
 ---
 

@@ -2,7 +2,7 @@
 title: "Hydrogen Sulfide: Your Gut Bacteria Are Poisoning Your Mitochondria"
 description: "Cyanide kills by binding cytochrome c oxidase — Complex IV of the mitochondrial electron transport chain, the final step of ATP production. Without Complex IV, electrons pile up, the proton gradient collapses, ATP synthase stops, and the cell dies..."
 author: "Yannick Loth"
-date: "2026-07-06"
+date: "2026-06-19"
 categories: [Gut Microbiome, Mitochondria, Pathophysiology]
 ---
 
