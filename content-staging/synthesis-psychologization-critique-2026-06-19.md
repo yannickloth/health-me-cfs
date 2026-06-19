@@ -87,3 +87,17 @@ Rationale:
 The topic meets PROCEED criteria comfortably. The evidence base is robust, directly clinically relevant, and fills an explicable gap in the paper (the existing ch33 "Psychogenic Harm" section is a bullet list; the Schomerus 2026 essay provides a systematic framework that strengthens and structures this content).
 
 ### Contradictions: None
+
+---
+
+## Phase 9 — Integration Quality Assessment
+
+| Metric | Value |
+|--------|-------|
+| Net certainty change | 0 (no bumps/reductions in Phases 6-7) |
+| Reinforcement:contradiction ratio | 41:0 (0 contradictions deferred below quality floor) |
+| New falsifiable predictions | 3 (spec:harm-monitoring-gap, spec:psychologization-lag-biomarker, oq:psychologization-prospective-cohort) |
+| Paper length delta | +505 lines, -7 lines (net +498) |
+| Tier distribution | T1: 1 (spec), T2: 2 (lim+oq), T3: 33 tree-only |
+| Clinical relevance | HIGH |
+| Quality flags | **NONE** — no BLOAT (>2000 words not reached, 5 new environments), no WEAK-EVIDENCE (Phase 2 was PROCEED), no CLINICAL-RISK (no treatment environments) |

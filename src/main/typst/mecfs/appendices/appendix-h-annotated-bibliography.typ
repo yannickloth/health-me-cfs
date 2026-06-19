@@ -23047,3 +23047,130 @@ Note: The literature on RF in ME/CFS is strikingly sparse. Only one study has di
     *Conclusion:*: Bourdieu's framework provides explanatory power for systematic delegitimization.
     *Limitations:*: Theoretical; single-author position paper.
     *Certainty:*: 0.50
+
+// =============================================================================
+
+== Brain Energy Metabolism: ASD-ME/CFS Cross-Disease Framework
+<sec:bib-brain-energy-asd-mecfs>
+// =============================================================================
+
+=== Xu et al.\ 2026 — Neurovascular and Synaptic Milieu in ME/CFS Cognitive Dysfunction
+    *Full Citation:*: Xu H, et al.\ Neurovascular and synaptic milieu of brain-resident cells in cognitive dysfunction of myalgic encephalomyelitis/chronic fatigue syndrome. _Journal of Translational Medicine_. 2026;24(1):xxx. @Xu2026Neurovascular
+    *DOI:*: #link("https://doi.org/10.1186/s12967-026-08156-4")[10.1186/s12967-026-08156-4]
+    *Key Findings:*:
+        - Synthesizes neuroimaging, neuroimmunology, neurovascular, and metabolism evidence for ME/CFS brain fog
+        - Microglial priming and astrocytic dysfunction proposed as context-dependent drivers
+        - Excitation–inhibition imbalance and neurovascular unit alterations implicated
+        - Sections on astrocytic glucose metabolism and lactate shuttle dysfunction directly relevant
+    *Conclusion:*: ME/CFS cognitive dysfunction reflects persistent neuroimmune and neurometabolic dysregulation, not neurodegeneration.
+    *Limitations:*: Cross-sectional studies dominate; causal relationships unproven.
+    *Certainty:*: 0.70
+
+=== Zhu et al.\ 2025 — Metabolic Neuroimaging of ME/CFS and Long-COVID
+    *Full Citation:*: Zhu Y, et al.\ Metabolic neuroimaging of myalgic encephalomyelitis/chronic fatigue syndrome and Long-COVID. _Immunometabolism_. 2025;7(4):e00068. @Zhu2025MetabolicNeuroimaging
+    *DOI:*: #link("https://doi.org/10.1097/IN9.0000000000000068")[10.1097/IN9.0000000000000068]
+    *Key Findings:*:
+        - Review of FDG-PET, MRS metabolic neuroimaging converging on brain glucose hypometabolism and elevated lactate
+        - Mitochondrial dysfunction identified as converging cerebral metabolic signature
+        - Long-COVID shares similar metabolic neuroimaging pattern with ME/CFS
+    *Conclusion:*: Brain energy deficit, not structural damage, underlies cognitive symptoms.
+    *Limitations:*: Review; heterogeneous study methodologies.
+    *Certainty:*: 0.65
+
+=== Lacourt et al.\ 2018 — Inflammation, Cellular Energy, and Fatigue
+    *Full Citation:*: Lacourt TE, et al.\ The high costs of low-grade inflammation: persistent fatigue as a consequence of reduced cellular-energy availability and non-adaptive energy expenditure. _Frontiers in Behavioral Neuroscience_. 2018;12:78. @Lacourt2018InflammationEnergy
+    *DOI:*: #link("https://doi.org/10.3389/fnbeh.2018.00078")[10.3389/fnbeh.2018.00078]
+    *Key Findings:*:
+        - Low-grade inflammation → reduced cellular energy availability
+        - Mismatch between energy demand and supply → fatigue as energy conservation
+        - Direct parallel to ASD's "energy-saving adaptation" concept
+        - Inflammation impairs mitochondrial OXPHOS, redirects resources to immune system
+    *Conclusion:*: Persistent fatigue may represent non-adaptive energy conservation strategy.
+    *Limitations:*: Narrative review; energy conservation model not empirically tested in ME/CFS.
+    *Certainty:*: 0.60
+
+=== Morris et al.\ 2015 — Central Pathways Causing Fatigue
+    *Full Citation:*: Morris G, Berk M, Walder K, Maes M. Central pathways causing fatigue in neuro-inflammatory and autoimmune illnesses. _BMC Medicine_. 2015;13:28. @Morris2015CentralPathways
+    *DOI:*: #link("https://doi.org/10.1186/s12916-014-0259-2")[10.1186/s12916-014-0259-2]
+    *Key Findings:*:
+        - TLR activation → cytokines → microglial and astrocyte activation
+        - Chronic astrocyte dysfunction → impaired glutamate clearance, disrupted lactate supply to neurons
+        - CNS energy failure as final common pathway for fatigue across conditions
+    *Conclusion:*: Astrocyte dysfunction is a central mechanism for brain energy deficit causing fatigue.
+    *Limitations:*: Narrative review; autism/ME/CFS link speculative.
+    *Certainty:*: 0.60
+
+=== Natelson et al.\ 2017 — Elevated Ventricular Lactate in CFS and Fibromyalgia
+    *Full Citation:*: Natelson BH, et al.\ Elevations of ventricular lactate levels occur in both chronic fatigue syndrome and fibromyalgia. _Fatigue: Biomedicine, Health & Behavior_. 2017;5(1):15–20. @Natelson2017Lactate
+    *DOI:*: #link("https://doi.org/10.1080/21641846.2017.1280114")[10.1080/21641846.2017.1280114]
+    *Key Findings:*:
+        - Elevated ventricular lactate in CFS (n=34) and FM (n=30) vs controls
+        - Lactate elevation indicates OXPHOS-to-glycolysis shift or impaired clearance
+        - Supports brain energy metabolism disruption model
+    *Conclusion:*: CNS lactate dysregulation is a shared feature of CFS and FM.
+    *Limitations:*: Cross-sectional; cannot distinguish cause from consequence.
+    *Certainty:*: 0.55
+
+=== Tomas et al.\ 2017 — Impaired Cellular Bioenergetics in CFS
+    *Full Citation:*: Tomas C, et al.\ Cellular bioenergetics is impaired in patients with chronic fatigue syndrome. _PLoS One_. 2017;12(10):e0186802. @Tomas2017Bioenergetics
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0186802")[10.1371/journal.pone.0186802]
+    *Key Findings:*:
+        - Reduced basal and maximal respiration in CFS PBMCs
+        - Reduced ATP-linked respiration and glycolytic capacity
+        - Integrated OXPHOS + glycolysis assessment
+    *Conclusion:*: Cellular energy metabolism is fundamentally impaired in CFS.
+    *Limitations:*: PBMCs as proxy for CNS; unclear tissue specificity.
+    *Certainty:*: 0.50
+
+=== Tomas et al.\ 2020 — Severity-Dependent Bioenergetic Impairment
+    *Full Citation:*: Tomas C, et al.\ The effect of ME/CFS severity on cellular bioenergetic function. _PLoS One_. 2020;15(4):e0231136. @Tomas2020SeverityBioenergetics
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0231136")[10.1371/journal.pone.0231136]
+    *Key Findings:*:
+        - Severely affected patients: more OXPHOS impairment, greater glycolysis reliance
+        - Severity-dependent bioenergetic gradient
+    *Conclusion:*: Energy metabolism impairment scales with disease severity.
+    *Limitations:*: PBMC proxy; cross-sectional.
+    *Certainty:*: 0.55
+
+=== McGregor et al.\ 2019 — PEM and Hypermetabolism in ME/CFS
+    *Full Citation:*: McGregor NR, et al.\ Post-exertional malaise is associated with hypermetabolism, hypoacetylation and purine metabolism deregulation in ME/CFS cases. _Diagnostics_. 2019;9(3):70. @McGregor2019PEMHypermetabolism
+    *DOI:*: #link("https://doi.org/10.3390/diagnostics9030070")[10.3390/diagnostics9030070]
+    *Key Findings:*:
+        - PEM associated with hypermetabolism despite rest
+        - Hypoacetylation (reduced acetyl-CoA) — impairs acetylcholine synthesis and cognition
+        - Purine metabolism deregulation — ATP breakdown products
+    *Conclusion:*: PEM reflects energy metabolism crisis, not simple deconditioning.
+    *Limitations:*: Observational; biochemical markers not CNS-specific.
+    *Certainty:*: 0.50
+
+=== Siessmeier et al.\ 2003 — Cerebral Glucose Metabolism in CFS (Null/Regional)
+    *Full Citation:*: Siessmeier T, Nix WA, Hardt J, Schreckenberger M, Egle UT, Bartenstein P. Observer independent analysis of cerebral glucose metabolism in patients with chronic fatigue syndrome. _Journal of Neurology, Neurosurgery & Psychiatry_. 2003;74(7):922–928. @siessmeier2003pet
+    *DOI:*: #link("https://doi.org/10.1136/jnnp.74.7.922")[10.1136/jnnp.74.7.922]
+    *Key Findings:*:
+        - Null for global glucose metabolism differences between CFS and controls
+        - Regional hypometabolism found in right caudate nucleus and brainstem
+        - Mixed results: partially null, partially positive
+    *Conclusion:*: Regional but not global brain glucose hypometabolism in CFS.
+    *Limitations:*: Small sample; heterogeneous CFS criteria; 2003 methods.
+    *Certainty:*: 0.45
+
+=== Van Der Gucht et al.\ 2017 — FDG-PET Hypometabolism in MMF
+    *Full Citation:*: Van Der Gucht A, et al.\ Brain 18F-FDG PET metabolic abnormalities in patients with long-lasting macrophagic myofascitis. _Journal of Nuclear Medicine_. 2017;58(3):492–498. @VanDerGucht2017MMFFDG
+    *DOI:*: #link("https://doi.org/10.2967/jnumed.114.151878")[10.2967/jnumed.114.151878]
+    *Key Findings:*:
+        - Widespread cortical hypometabolism in MMF (shared symptom profile with ME/CFS)
+        - Hypometabolism correlated with cognitive dysfunction severity
+    *Conclusion:*: Brain FDG-PET hypometabolism pattern aligns with ME/CFS-related energy deficit.
+    *Limitations:*: MMF is a distinct condition; indirect relevance.
+    *Certainty:*: 0.50
+
+=== Sun et al.\ 2025 — PKM2-Glycolysis-Neuroinflammation in CFS
+    *Full Citation:*: Sun M, et al.\ PKM2 accelerated the progression of chronic fatigue syndrome via promoting the H4K12la/NF-κB induced neuroinflammation and mitochondrial damage. _Scientific Reports_. 2025;15(1):10772. @Sun2025PKM2CFS
+    *DOI:*: #link("https://doi.org/10.1038/s41598-025-93313-w")[10.1038/s41598-025-93313-w]
+    *Key Findings:*:
+        - Lactate-driven H4K12la upregulates PKM2 → amplifies glycolysis and neuroinflammation
+        - Mitochondrial damage in hippocampal cells via NF-κB
+        - PKM2 knockdown reverses CFS phenotype in mice
+    *Conclusion:*: Glycolytic shift directly drives neuroinflammation and CNS energy failure.
+    *Limitations:*: Mouse model; preclinical only.
+    *Certainty:*: 0.35
