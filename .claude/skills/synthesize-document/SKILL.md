@@ -84,7 +84,9 @@ Read the Phase 1 output file (`tmp/synthesis-inventory-<date>.md`). For each can
 
 ## Phase 3 — Synthesis Writing
 
-**Agent:** main session | **Model:** current
+**Agent:** main session | **Model:** sonnet
+
+Composition requires judgment about where to place syntheses (which chapter, before which section heading), how to frame convergent arguments for different audiences, and how to balance certainty with caveats. Sonnet is sufficient for this — no deep reasoning (opus) needed since the evidence has already been evaluated by Phase 2.
 
 For each eligible cluster, in priority order (mechanism > tissue > drug class > pathological process):
 
@@ -129,6 +131,10 @@ For every `#synthesis` environment written in Phase 3:
 
 ## Phase 5 — Commit
 
+**Agent:** main session | **Model:** haiku
+
+Mechanical git operations — staging, commit message formatting, queue file update. No domain reasoning required.
+
 1. Stage and commit with message: `feat(synthesis): N cross-document syntheses across M chapters`
 2. If any synthesis identifies a new research gap or unresolved contradiction that warrants a standalone `/integrate-topic` cycle → add to `ops/queued-topics.md` with Gate C source
 
@@ -163,6 +169,6 @@ Build: PASS
 |-------|-------|-------|--------|
 | 1 | `explore` | haiku | Mechanical grep + term extraction + structured table — cheap, parallelizable |
 | 2 | `sonnet-general` | sonnet | Judgment-based cluster evaluation — needs domain reasoning |
-| 3 | main session | current | Composition — needs full paper context for placement decisions |
+| 3 | main session | sonnet | Composition — needs placement judgment, not deep reasoning |
 | 4 | review-convergence + review-adversarial | sonnet/opus | Same as Phase 11 in integrate-topic |
-| 5 | main session | current | Git operations |
+| 5 | main session | haiku | Mechanical git operations — no domain reasoning required |
