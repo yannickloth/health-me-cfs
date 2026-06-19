@@ -137,7 +137,7 @@ The optimal control model implies targeted resource allocation across functional
 *Testable Prediction.*
 In a 12-week pacing intervention study, patients receiving FUNCAP-informed domain-targeted pacing should show greater improvement in total FUNCAP score than patients receiving generic pacing advice, with the same total activity restriction. The intervention targets *distribution* of activity, not total amount.
 
- *Limitations.*
+*Limitations.*
 Weekly FUNCAP-27 may not have sufficient sensitivity to detect domain-specific changes within a week. The approach requires clinicians trained in FUNCAP interpretation and domain-specific pacing strategies. Patient burden of weekly assessments may limit adherence in severe patients.
 ]
 
@@ -164,7 +164,7 @@ The care approach for severe ME/CFS aligns closely with palliative care principl
     - *Caregiver as care recipient.* Caregiver well-being is not ancillary — it is medically necessary for the patient's stability. Caregiver burnout leads to protocol breakdown, increased patient crashes, and potentially permanent deterioration @Hermisson2026CareGuide @Fennell2021Suffering.
 
 #limitation(title: [Risk of Palliative Framing in Non-Terminal Illness])[
-Applying palliative care concepts — developed for terminal illness — to non-terminal ME/CFS carries risks: (a) lowered recovery expectations may become self-fulfilling; (b) clinicians may conflate "palliative approach" with "no treatment possible"; (c) patients may internalise a terminal-illness identity that impedes engagement when improvement becomes possible. These principles are used here only to describe the *care approach* for severe patients, not to predict prognosis or limit treatment ambition. Palliative framing does not replace active mechanism-directed treatment — it describes how care is delivered while treatment is pursued.
+Applying palliative care concepts — developed for terminal illness — to non-terminal ME/CFS carries risks: (a) lowered recovery expectations may become self-fulfilling; (b) clinicians may conflate "palliative approach" with "no treatment possible"; (c) patients may internalize a terminal-illness identity that impedes engagement when improvement becomes possible. These principles are used here only to describe the *care approach* for severe patients, not to predict prognosis or limit treatment ambition. Palliative framing does not replace active mechanism-directed treatment — it describes how care is delivered while treatment is pursued.
 ]
 
 #speculation(title: [Caregiver-Implemented Pacing Reduces PEM Frequency in Severe ME/CFS])[
@@ -172,7 +172,7 @@ Applying palliative care concepts — developed for terminal illness — to non-
 
 *Falsifiable prediction:* Severe ME/CFS patients receiving structured caregiver-implemented pacing (defined protocol including prophylactic rest, stop signal, activity spoiler, post-care rest) will show reduced weekly PEM episodes over 8 weeks compared to a control period of self-managed pacing, using a daily PEM diary with blinded symptom rating.
 
-*Limitations:* Requires reliable caregiver availability — not feasible for patients living alone. Caregiver training and protocol fidelity are unstandardised. The distinction between caregiver-implemented and patient-accepted pacing may blur in practice. No blinding possible. Effect size cannot be predicted from existing data.
+*Limitations:* Requires reliable caregiver availability — not feasible for patients living alone. Caregiver training and protocol fidelity are unstandardized. The distinction between caregiver-implemented and patient-accepted pacing may blur in practice. No blinding possible. Effect size cannot be predicted from existing data.
 ] <spec:caregiver-pacing>
 
 #speculation(title: [Caregiver PEM Diary as Research-Grade Outcome])[
@@ -284,7 +284,7 @@ Individual responses vary widely; objective symptom tracking (postprandial fatig
 Standard ME/CFS pacing advice ("stay within your energy envelope") assumes that the patient can prospectively monitor their energy state and voluntarily limit activity. ADHD fundamentally compromises both abilities: poor prospective self-monitoring, hyperfocus episodes where time awareness vanishes, and dopamine-seeking behavior that overrides energy conservation. A modified protocol addresses these ADHD-specific barriers.
 
 + *External timers, not internal awareness.* Set physical timers for 25-minute cognitive blocks (modified Pomodoro). ADHD patients cannot reliably sense energy depletion until crash.
- + *Mandatory 10-minute rest between blocks.* Non-negotiable, even if "feeling fine." The micro-PEM hypothesis predicts damage accumulates before symptoms appear.
++ *Mandatory 10-minute rest between blocks.* Non-negotiable, even if "feeling fine." The micro-PEM hypothesis predicts damage accumulates before symptoms appear.
 + *Maximum 4 cognitive blocks per session, 2 sessions per day (mild ME/CFS).* Hard cap, adjustable downward based on PEM response. Severe patients: 1–2 blocks per day.
 + *Hyperfocus interruption strategy.* External accountability partner or app-based interruption. Hyperfocus in ME/CFS patients produces cognitive exertion exceeding the energy envelope — the capability is present but using it causes damage.
 + *Dopamine scheduling.* Plan engaging tasks strategically. Instead of dopamine-seeking filling all available time, schedule 1–2 high-engagement tasks per day with mandatory low-demand periods between them.
@@ -336,7 +336,7 @@ Circadian rhythm disruption is common in ME/CFS and contributes to the delayed s
     - *Fixed wake time*: A consistent morning wake time (within 30 minutes) is the single most powerful circadian anchor, more important than a fixed bedtime
     - *Gradual schedule shifting*: Patients with severely delayed sleep phase should advance their schedule by 15 minutes every 3–5 days rather than attempting abrupt changes
     - *Avoid compensatory sleeping*: Sleeping late after a bad night perpetuates the cycle. Brief daytime rest (20–30 minutes, before 14:00) is preferable to extended morning sleep
-     - *Napping guidelines*: See nap management below
+    - *Napping guidelines*: See nap management below
 
 == Sleep Architecture Enhancement and Gut-Barrier Repair
 <sec:sleep-gut-barrier-repair>
@@ -407,7 +407,7 @@ Circadian rhythm disruption is common in ME/CFS and contributes to the delayed s
  Naps in ME/CFS do not function like naps in healthy fatigue. The mechanisms that make healthy naps restorative --- adenosine clearance, brief entry into light sleep stages, rapid return to alertness --- are all impaired in ME/CFS (Section on nap paradox). Nap guidance must therefore aim at harm reduction rather than restoration:
 
     - *Timing*: Early afternoon (13:00--15:00), aligned with the natural post-prandial circadian dip in alertness. Late naps (after 16:00) risk shifting the already-fragile circadian phase, delaying nighttime sleep onset, and reducing overnight slow-wave sleep
-     - *Duration*: 15--20 minutes limits deep-sleep entry and reduces the risk of prolonged sleep inertia (which can persist 2--4 hours in ME/CFS). However, expectations must be realistic: even optimally timed short naps rarely provide the refreshment a healthy person would experience, because adenosine regenerates immediately due to the underlying metabolic deficit (Section on adenosine metabolism).
+    - *Duration*: 15--20 minutes limits deep-sleep entry and reduces the risk of prolonged sleep inertia (which can persist 2--4 hours in ME/CFS). However, expectations must be realistic: even optimally timed short naps rarely provide the refreshment a healthy person would experience, because adenosine regenerates immediately due to the underlying metabolic deficit (Section on adenosine metabolism).
     - *Horizontal rest without sleep has independent value*: Lying down reduces cardiac preload demands (critical for patients with orthostatic intolerance), decreases skeletal muscle energy expenditure, and may improve cerebral perfusion. Patients who "nap without sleeping" should not consider the time wasted
     - *Avoid fighting the nap*: Pushing through exhaustion to "save sleep for tonight" often costs more metabolically than a brief timed rest. The energy expenditure of forcing a depleted system to remain upright and active typically exceeds the circadian cost of a short early-afternoon rest
     - *Set an alarm*: Uncontrolled nap duration is the primary risk. A 20-minute alarm prevents entry into slow-wave sleep and the associated amplified sleep inertia
@@ -442,13 +442,13 @@ A consistent pre-sleep routine signals the transition from wakefulness to sleep:
 
     - *Wind-down period*: 30–60 minutes of low-stimulation activities (gentle music, audiobooks, light reading). Avoid emotionally stimulating content, news, or social media
     - *Warm bath or shower*: A warm bath 1–2 hours before bed raises core body temperature; the subsequent cooling promotes sleep onset. A shower chair reduces the physical exertion
-    - *Relaxation practices*: Guided relaxation recordings, breathing exercises, or body scan meditation can reduce the hyperarousal that interferes with sleep initiation in ME/CFS. The 4-7-8 breathing technique (inhale for 4 seconds, hold for 7, exhale for 8) is theorised to activate the parasympathetic nervous system and reduce hyperarousal, though this specific count pattern has no direct ME/CFS evidence (see @subsec:478-breathing).
+    - *Relaxation practices*: Guided relaxation recordings, breathing exercises, or body scan meditation can reduce the hyperarousal that interferes with sleep initiation in ME/CFS. The 4-7-8 breathing technique (inhale for 4 seconds, hold for 7, exhale for 8) is theorized to activate the parasympathetic nervous system and reduce hyperarousal, though this specific count pattern has no direct ME/CFS evidence (see @subsec:478-breathing).
     - *Avoid cognitive stimulation*: Problem-solving, planning, or worrying close to bedtime activates the prefrontal cortex and delays sleep. A "worry journal" earlier in the evening can offload anxious thoughts
 
 ==== 4-7-8 Breathing: Vagal Priming for Sleep Onset
 <subsec:478-breathing>
 
-The 4-7-8 technique is a paced breathing exercise that activates the parasympathetic nervous system via vagal afferent signaling from pulmonary stretch receptors (Hering-Breuer reflex) and baroreflex-mediated heart rate deceleration during prolonged exhalation. It is a specific instance of slow-paced breathing (SPB), which a 2022 systematic review and meta-analysis (n=15 studies) found consistently increases vagally-mediated heart rate variability (RMSSD) and reduces heart rate *in healthy populations* during and immediately after each breathing session @Laborde2022SlowBreathingHRV. The 4-7-8 pattern is an adaptation of yogic pranayama popularised by Andrew Weil MD (2015) — the specific 4-7-8 count ratio has *no* peer-reviewed clinical evidence; the literature on SPB underpins the mechanistic rationale, not the specific count pattern itself.
+The 4-7-8 technique is a paced breathing exercise that activates the parasympathetic nervous system via vagal afferent signaling from pulmonary stretch receptors (Hering-Breuer reflex) and baroreflex-mediated heart rate deceleration during prolonged exhalation. It is a specific instance of slow-paced breathing (SPB), which a 2022 systematic review and meta-analysis (n=15 studies) found consistently increases vagally-mediated heart rate variability (RMSSD) and reduces heart rate *in healthy populations* during and immediately after each breathing session @Laborde2022SlowBreathingHRV. The 4-7-8 pattern is an adaptation of yogic pranayama popularized by Andrew Weil MD (2015) — the specific 4-7-8 count ratio has *no* peer-reviewed clinical evidence; the literature on SPB underpins the mechanistic rationale, not the specific count pattern itself.
 
 #speculation(title: [Pre-Sleep Slow-Paced Breathing Improves Sleep Onset Latency via Vagal Priming])[
 
@@ -468,7 +468,7 @@ The 4-7-8 technique is a paced breathing exercise that activates the parasympath
 - *Secondary (training, 2--4 weeks):* If daily SPB training at adequate duration (Laborde 2019: 15 min/day) is feasible, sustained improvement in resting HRV and sleep quality is plausible. The 4-7-8 protocol at 1.5 min/night is substantially below this training dose — the 4-7-8 name-brand protocol addresses acute sleep onset, not training-induced vagal tone conditioning.
 - *Time to first benefit:* Acute sleep onset effect expected on night 1. Training-induced vagal conditioning (if the dosing is sufficient) requires ≥2 weeks per the Laborde 2019 data; 4 weeks for sustained autonomic adaptation @Zaccaro2018BreathControl (umbrella review of 15 SPB studies).
 
-*Limitations:* The 4-7-8 count pattern has zero peer-reviewed clinical evidence — the entire evidence base is the broader SPB literature. Ryabkova et al. (2024) provides the most directly relevant experimental constraint: ME/CFS patients show impaired single-session HRV response to SPB, suggesting that the acute mechanism may be blunted in this population. Laborde 2019's 30-day training protocol (15 min/day) is substantially longer than the 4-7-8 duration (1.5 min/night) — the minimal effective training dose for vagal conditioning is unknown. Individual resonance frequency varies (typically 4.5--6.5 breaths/min); the 4-7-8 pattern (5.5/min) is a population average, not individualised. No ME/CFS SPB outcome data exist. The 4-7-8 name originates from Andrew Weil MD (2015) as an adaptation of pranayama; formal validation trials are absent.
+*Limitations:* The 4-7-8 count pattern has zero peer-reviewed clinical evidence — the entire evidence base is the broader SPB literature. Ryabkova et al. (2024) provides the most directly relevant experimental constraint: ME/CFS patients show impaired single-session HRV response to SPB, suggesting that the acute mechanism may be blunted in this population. Laborde 2019's 30-day training protocol (15 min/day) is substantially longer than the 4-7-8 duration (1.5 min/night) — the minimal effective training dose for vagal conditioning is unknown. Individual resonance frequency varies (typically 4.5--6.5 breaths/min); the 4-7-8 pattern (5.5/min) is a population average, not individualized. No ME/CFS SPB outcome data exist. The 4-7-8 name originates from Andrew Weil MD (2015) as an adaptation of pranayama; formal validation trials are absent.
 ] <spec:478-breathing-sleep>
 
 === Glymphatic Enhancement Through Sleep Positioning
@@ -991,7 +991,7 @@ _Falsified if_ Urolithin A supplementation does not improve muscle phosphocreati
 ] <spec:urolithin-mitophagy>
 
 #speculation(title: [L-Carnitine for CPT Bypass in Fat Oxidation Failure])[
-*(Certainty: 0.30 — carnitine well-studied in metabolic disease; CPT bypass rationale strong; ME/CFS data absent.)*
+*(Certainty: 0.35 — 0.30→0.35: two independent lines converge on carnitine/FAO as central to orexin neuron vulnerability [spec:orexin-metabolic-canary + spec:carnitine-coq10-orexin]; carnitine well-studied in metabolic disease; CPT bypass rationale strong; ME/CFS data absent.)*
 
 Carnitine is the obligate carrier for long-chain fatty acid entry into mitochondria via CPT1/CPT2. Impaired CPT function in ME/CFS (Section @subsec:weight-changes) may be partially correctable with supraphysiological carnitine (2--4 g/d). Acetyl-L-carnitine additionally provides acetyl groups for the TCA cycle and reduces oxidative stress. If ME/CFS patients have functional but submaximal CPT (rather than structural deficiency), carnitine loading could increase fat oxidation rates and reduce the glucose dependency that drives hunger.
 
@@ -1604,7 +1604,7 @@ Land-based rowing on an indoor water-resistance rowing machine retains the seate
 
 #speculation(title: [Rowing Stroke Rate as Precision Calibration Dial for Individual PEM Threshold])[
 
-*Certainty: 0.25.* (Reduced from 0.40 after literature review.) The power-stroke rate relationship is characterised only at ≥20 spm: Held et al. (2020) measured 245--369±23 W across 20--45 spm on a RowPerfect3 ergometer @Held2020PowerSR; Treff et al. (2022) validated Concept2 PM5 accuracy at 120--400 W but found unvalidated accuracy below ~30 W with start-stroke errors of 10--70% @Treff2022C2Accuracy. Critically, *zero* published data exist at 5--10 spm. The entire ultra-low-stroke-rate protocol is an extrapolation across a data gap spanning 15 spm (from 20 spm, the lowest measured rate, down to the recommended 5 spm). Martindale & Robertson (1984) established that flywheel momentum resets between strokes at rates below approximately 12--14 spm @Martindale1984Energy — below this rate, each stroke is a "start from standstill" requiring substantially higher per-stroke force than continuous rowing @Sanderson1986Optimizing. Hofmijster et al. (2009) found gross mechanical efficiency is not systematically affected by stroke rate at 20--32 spm @Hofmijster2009GrossEfficiency — but this provides zero information about efficiency at 5 spm where the stretch-shortening cycle is eliminated. Not yet replicated.
+*Certainty: 0.25.* (Reduced from 0.40 after literature review.) The power-stroke rate relationship is characterized only at ≥20 spm: Held et al. (2020) measured 245--369±23 W across 20--45 spm on a RowPerfect3 ergometer @Held2020PowerSR; Treff et al. (2022) validated Concept2 PM5 accuracy at 120--400 W but found unvalidated accuracy below ~30 W with start-stroke errors of 10--70% @Treff2022C2Accuracy. Critically, *zero* published data exist at 5--10 spm. The entire ultra-low-stroke-rate protocol is an extrapolation across a data gap spanning 15 spm (from 20 spm, the lowest measured rate, down to the recommended 5 spm). Martindale & Robertson (1984) established that flywheel momentum resets between strokes at rates below approximately 12--14 spm @Martindale1984Energy — below this rate, each stroke is a "start from standstill" requiring substantially higher per-stroke force than continuous rowing @Sanderson1986Optimizing. Hofmijster et al. (2009) found gross mechanical efficiency is not systematically affected by stroke rate at 20--32 spm @Hofmijster2009GrossEfficiency — but this provides zero information about efficiency at 5 spm where the stretch-shortening cycle is eliminated. Not yet replicated.
 
 Rowing power output scales with stroke rate at ≥20 spm: Held et al. (2020) measured 245±13 W at 20 spm to 369±23 W at 45 spm on a RowPerfect3 (RP3) ergometer @Held2020PowerSR. At the ultra-low stroke rates (5--10 spm) used in the ME/CFS protocol, *no data exist* — this entire range is extrapolation. The lowest validated power output on a Concept2 PM5 monitor is approximately 30 W; below this, the PM5 exhibits start-stroke errors of 10--70% @Treff2022C2Accuracy. Whether the minimum achievable power output of standard rowing ergometers (~30 W at 10 spm on minimum damper setting @Boyas2006C2Accuracy) is below the PEM threshold for any ME/CFS severity level is unknown.
 
@@ -1614,7 +1614,7 @@ The concept extends generic sub-threshold pacing (start low, increase gradually,
 
 *Falsifiable prediction:* Patients following a rowing-specific sub-threshold titration protocol will show no superiority over recumbent cycling with matched titration parameters (start low, increase gradually, PEM-monitored rollback), contradicting the claim that rowing provides unique precision for therapeutic-window calibration.
 
-*Limitations:* Zero bioenergetic data at 5--10 spm — the entire protocol operates in an unmeasured range. The lowest published data is at 20 spm (245 W, Held 2020); the gap to the recommended 5 spm starting point is 15 spm of biomechanical and metabolic extrapolation. Concept2 PM5 power accuracy unvalidated below ~30 W @Treff2022C2Accuracy — the monitor may display a number at 5 spm but it has no validated relationship to the patient's actual metabolic work. Threshold day-to-day variability is clinically documented but not quantitatively characterised in ME/CFS. Flywheel reset dynamics (Martindale 1984) are known to create higher per-stroke force at stop-start rates — the net metabolic cost of high-force, low-frequency rowing vs. lower-force, higher-frequency rowing at equal power output is not characterised at these rates. Technique errors introduce further nonlinearity. WaterRower and Concept2 behaviour diverge at ultra-low rates (Kane 2013) — a protocol calibrated on one ergometer type cannot be directly transferred to the other. The stability assumption underlying any calibration approach is clinically dubious. Completely untested in any clinical population.
+*Limitations:* Zero bioenergetic data at 5--10 spm — the entire protocol operates in an unmeasured range. The lowest published data are at 20 spm (245 W, Held 2020); the gap to the recommended 5 spm starting point is 15 spm of biomechanical and metabolic extrapolation. Concept2 PM5 power accuracy unvalidated below ~30 W @Treff2022C2Accuracy — the monitor may display a number at 5 spm but it has no validated relationship to the patient's actual metabolic work. Threshold day-to-day variability is clinically documented but not quantitatively characterized in ME/CFS. Flywheel reset dynamics (Martindale 1984) are known to create higher per-stroke force at stop-start rates — the net metabolic cost of high-force, low-frequency rowing vs. lower-force, higher-frequency rowing at equal power output is not characterized at these rates. Technique errors introduce further nonlinearity. WaterRower and Concept2 behaviour diverge at ultra-low rates (Kane 2013) — a protocol calibrated on one ergometer type cannot be directly transferred to the other. The stability assumption underlying any calibration approach is clinically dubious. Completely untested in any clinical population.
 
 ] <spec:rowing-stroke-rate-dial>
 
@@ -1913,8 +1913,6 @@ A patient whose ADL capacity is steady over 6 months, whose PEM threshold is not
 *Limitations:* This is a conceptual framework, not an empirically tested model. The distinction between "recovery of latent capacity" and "acquisition of new capacity" cannot be experimentally distinguished in an individual patient without knowing their hypothetical pre-illness ceiling. "Fitness" redefinition is semantic/philosophical — useful for clinical communication but not subject to hypothesis testing. ACT acceptance approaches may not suit all patients; some find the framing of "accepting limitation" demoralizing rather than empowering. Not yet replicated as a structured protocol.
 
 ] <hyp:fitness-maintenance-distinction>
-
-
 
 ===== Fitness Maintenance Framework: Activities of Daily Living Capacity as Primary Outcome Metric
 
@@ -2267,6 +2265,419 @@ None of the above compounds have been tested in ME/CFS. They are listed for rese
 ]
 
 ] <oq:speculative-adjuncts>
+
+== Post-Exercise Recovery Optimization
+<sec:post-exercise-recovery>
+
+Recovery after exertion is fundamentally different in ME/CFS compared to healthy athletes.
+In health, exercise triggers well-characterized repair cascades: lactate clearance via active recovery, mitochondrial biogenesis through PGC-1alpha/AMPK/SIRT1 signaling, HSP70-mediated protein repair, and sleep-mediated growth hormone release.
+In ME/CFS, each of these recovery pathways is disrupted at the molecular level.
+This section covers what facilitates recovery, what undermines it, and why strategies that work in health --- including "active recovery" (décrassage) --- may be harmful in ME/CFS.
+
+=== Why Normal Recovery Fails in ME/CFS
+<sec:recovery-failure-contrast>
+
+In healthy physiology, post-exercise recovery follows a predictable sequence.
+Lactate clearance occurs within 30--60 minutes via the Cori cycle, oxidative metabolism, and active recovery perfusion.
+Mitochondrial biogenesis is triggered by the PGC-1alpha/AMPK/SIRT1 axis in response to energy stress (AMP/ATP ratio elevation).
+HSP70 chaperones refold damaged proteins and stabilize membranes.
+Sleep --- particularly slow-wave sleep --- drives growth hormone secretion, which directs tissue repair.
+
+In ME/CFS, each step is compromised.
+The PGC-1alpha/AMPK/SIRT1 axis is broken at multiple points: AMPK activation is blunted (SNS overdrive suppresses it via PKA), NAD+ depletion limits SIRT1 activity, and PGC-1alpha is neither transcribed nor deacetylated properly.
+Mitophagy --- the clearance of damaged mitochondria --- is impaired, leading to the accumulation of dysfunctional mitochondria that produce ROS rather than ATP.
+Membrane depolarization, documented at rest in ME/CFS muscle, worsens post-exercise and impairs ion gradients necessary for excitation--contraction coupling and metabolite transport @Jammes2020MembranePotential.
+Lactate clearance is delayed despite normal or elevated oxidative enzyme capacity, suggesting a substrate utilization or redox shift rather than simple deconditioning @Lien2019LactateAbnormal.
+
+#speculation(title: [Recovery Failure as Network Collapse Rather Than Single-Deficit Blockade])[
+
+_(Certainty: 0.40.)_ Post-exercise recovery failure in ME/CFS may not be attributable to any single molecular block, but to a network-level failure in which multiple parallel recovery pathways are simultaneously impaired.
+In health, compensatory overlap exists: if SIRT1 activity is low, AMPK alone can partially trigger PGC-1alpha; if mitophagy is slow, HSP70-mediated refolding can extend protein life.
+In ME/CFS, the overlapping recovery mechanisms fail concurrently: AMPK is suppressed by SNS overdrive, SIRT1 is NAD+-limited, mitophagy is ATG13/mTOR-blocked, and membrane repair is ATP-limited by the very mitochondrial dysfunction that needs repair.
+This creates a collapse that no single intervention can fully rescue.
+
+*Falsifiable prediction:* Simultaneous measurement of AMPK phosphorylation (pAMPK/AMPK ratio), NAD+/NADH ratio, ATG13 Ser258 phosphorylation, and muscle membrane potential (resting Em) at 6h and 24h post-exercise will show that ME/CFS patients are below the healthy 5th percentile on ≥3 of 4 measures simultaneously, whereas healthy controls never fall below on more than 1.
+Recovery rate correlates with the *number* of impaired pathways, not with any single pathway deficit.
+
+*Limitations:* Network-level hypothesis is inherently harder to test than single-deficit models because it requires simultaneous multi-measure time-series.
+No study has measured even 2 of these 4 markers simultaneously post-exercise in ME/CFS.
+The threshold of "≥3 of 4 below 5th percentile" is illustrative; the actual threshold requires normative data from healthy controls under identical protocol.
+
+] <spec:recovery-network-collapse>
+
+=== PEM as Multi-Component Phenomenon
+<sec:pem-decomposition>
+
+PEM is not a single symptom but a composite of at least three independently targetable components, each with distinct mechanisms:
+
+/Cognitive PEM (brain fog, headache):/
+- Driven by noradrenergic deficiency in the locus coeruleus, reducing cortical arousal and attention @Aregawi2026Noradrenergic
+- Neuroinflammatory amplification: microglial activation, exosome-mediated mtDNA release into the CSF, TLR9/NF-kappaB signaling
+- Cerebral hypoperfusion (prefrontal and limbic regions) reducing metabolic substrate delivery
+- Resolves when neuroinflammation subsides and/or noradrenergic tone normalizes
+
+/Muscular PEM (weakness, myalgia):/
+- Mitochondrial ATP resynthesis failure: PCr recovery slowed, oxidative phosphorylation uncoupled
+- Muscle membrane depolarization impairing EC coupling and force generation @Jammes2020MembranePotential
+- Accumulation of metabolic byproducts: lactate, ROS, lipid peroxides
+- Delayed resolution corresponds to clearance of damaged mitochondria and restoration of membrane potential
+
+/Autonomic PEM (HR, BP, temperature dysregulation):/
+- Vascular dysregulation: impaired microvascular perfusion, endothelial dysfunction @Wirth2023
+- Baroreflex sensitivity reduced, leading to orthostatic instability
+- Thermoregulatory failure: impaired sweating, post-exercise hypothermia or hyperthermia
+
+If brain fog and headaches disappear while muscular weakness persists, that is already a clinically meaningful improvement.
+Partial relief of PEM components is a legitimate treatment goal even when complete PEM prevention is not yet achievable.
+
+=== Active Recovery ("Décrassage"): Contraindicated in ME/CFS
+<sec:active-recovery-contraindication>
+
+Active recovery --- slow jogging, light cycling, or walking at 30--50% VO2max for 15--20 minutes post-exercise --- is the standard approach in sports medicine for accelerating lactate clearance and maintaining perfusion.
+In health, this works: low-intensity contraction maintains muscle pump activity, supporting venous return, capillary perfusion, and metabolic washout.
+
+In ME/CFS, active recovery adds metabolic and mechanical load to an already-broken recovery machinery.
+The PGC-1alpha/AMPK/SIRT1 axis cannot convert the training signal into adaptation; the additional contraction simply increases ATP demand beyond the compromised supply, deepens the NAD+ deficit, and extends the period during which ROS-damaged mitochondria accumulate.
+Even low-intensity contraction imposes ATP demand on Type I fibers, which in ME/CFS are metabolically stressed and may not recover during the active recovery period itself.
+
+#warning-env(title: [Active Recovery Contraindicated in ME/CFS])[
+
+Active recovery (décrassage) --- any intentional low-to-moderate intensity movement performed within 4 hours of exertion for the purpose of accelerating recovery --- is contraindicated in ME/CFS.
+Rationale:
+
+- *Metabolic load override:* The ATP cost of even light contraction (30% VO2max) adds ~3--5 kcal/min, which in ME/CFS is drawn from an already-depleted pool
+- *NAD+ deficit amplification:* Active recovery diverts NAD+ from sirtuin-mediated repair toward glycolysis
+- *Delayed membrane recovery:* Additional contraction extends the depolarization period documented post-exercise in ME/CFS muscle @Jammes2020MembranePotential
+- *PEM provocation:* Anecdotal patient reports consistently describe worsened PEM following "cool-down" activity
+
+*Exception:* Gentle passive range-of-motion (caregiver-assisted, no patient effort) does not constitute active recovery and is safe.
+Intentional contraction for recovery purposes is not.
+
+*Evidence level:* Mechanistic inference from pathway analysis + consistent patient reports.
+No controlled trial has compared active recovery vs passive rest post-exercise in ME/CFS.
+*Required trial to validate:* Within-subject crossover (N≥20, 4-week phases): active recovery (15 min cycling at 30% peak) vs supine rest post-standardized exertion, with PEM severity (DSQ-PEM at 24h) as primary outcome.
+*Falsified if:* Active recovery reduces PEM severity by ≥20% compared to rest, or produces no difference.
+
+] <warn:active-recovery-contraindicated>
+
+=== Passive Recovery Modalities
+<sec:passive-recovery>
+
+==== Infrared Sauna and Waon Therapy
+
+Waon therapy --- a form of mild systemic warming using an infrared sauna at 60°C for 15 minutes followed by blanket insulation for 30 minutes --- has been studied in two small ME/CFS trials.
+Soejima et al.\ (2015) found that repeated Waon therapy over 4 weeks significantly reduced fatigue scores and improved cerebral blood flow as measured by SPECT @Soejima2015WaonTherapyCFS.
+Munemoto et al.\ (2017) confirmed increased regional CBF in the prefrontal cortex, correlating with reduced subjective fatigue @Munemoto2017Waon.
+
+The mechanistic rationale is compelling: mild hyperthermia upregulates HSP70, which in turn activates PGC-1alpha via p38 MAPK --- without the metabolic cost of exercise.
+Heat stress also increases NO-mediated vasodilation, improving perfusion to muscle and brain.
+If thermal therapy can trigger PGC-1alpha/HSP70 repair cascades without ATP demand, it could represent a passive substitute for exercise-induced repair.
+
+#speculation(title: [Thermal HSP70/PGC-1alpha Bypass as Exercise Mimetic])[
+
+_(Certainty: 0.35.)_ Mild hyperthermia (core temperature increase of 0.5--1.0°C, as achieved by Waon or controlled sauna) may activate the HSP70--p38 MAPK--PGC-1alpha signaling cascade without the exercise-induced ATP depletion and NAD+ consumption that normally accompany such activation.
+If validated, this would constitute a genuine "exercise mimetic" for the repair arm of exercise --- triggering the anabolic recovery cascade without the catabolic stress.
+The implication is that ME/CFS patients unable to tolerate any exercise might nevertheless access PGC-1alpha-dependent mitochondrial repair through thermal therapy alone.
+
+*Falsifiable prediction:* Waon therapy (60°C, 15 min, followed by 30 min blanket wrap, 3×/week for 4 weeks) increases PBMC PGC-1alpha mRNA expression by ≥1.5-fold and muscle HSP70 protein by ≥2-fold in ME/CFS, without increasing circulating lactate or reducing NAD+/NADH ratio.
+rCBF increase in prefrontal cortex (SPECT) correlates with PGC-1alpha fold-change.
+
+*Limitations:* Only 2 small pilot studies in ME/CFS (combined n ~40).
+No sham-controlled trial exists.
+Mechanism is inferred from general heat-shock biology --- no ME/CFS-specific thermal PGC-1alpha data.
+Heat intolerance may limit applicability in POTS and hypermobility subgroups.
+
+] <spec:thermal-exercise-mimetic>
+
+/Autonomic caution:/
+Patients with heat intolerance, POTS, or hypermobility should use thermal therapy cautiously.
+Core temperature monitoring and gradual habituation are recommended.
+If sauna triggers orthostatic symptoms (dizziness, palpitations), stop and consider lower temperatures (40--50°C) or shorter duration (10 min).
+
+==== Massage and Manual Therapy
+
+A meta-analysis of massage therapy in CFS (Li et al.\ 2024) found significant fatigue reduction with a standardized mean difference of -0.89 (95% CI -1.38 to -0.40, p < 0.001) compared to control @Li2024MassageMeta.
+The analysis included multiple massage modalities (Swedish, acupressure, reflexology) and suggested that regular sessions (2--3×/week) produced the largest effects.
+
+However, massage carries specific risks in ME/CFS that are not captured in the meta-analysis.
+Mechanical pressure on muscle tissue can trigger mast cell degranulation, releasing histamine, tryptase, and pro-inflammatory cytokines @Rohrhofer2025mecfsmast.
+In moderate-to-severe ME/CFS, even gentle massage has been anecdotally reported to trigger PEM, likely through this mast cell pathway.
+
+#practical-warning(title: [Massage: Severity-Gated Application])[
+
+Massage therapy should be severity-gated:
+- *Mild ME/CFS:* Likely safe; standard Swedish massage, acupressure, and reflexology are appropriate
+- *Moderate ME/CFS:* Use caution; prefer very light pressure, short duration (20 min max), and avoid trigger-point work
+- *Severe ME/CFS:* Contraindicated unless extremely gentle (light touch only, 10--15 min max, caregiver-administered)
+- *All severities:* Stop immediately if pain, malaise, or unusual fatigue emerges during or within 48 hours of session
+
+Mast cell activation risk is the primary concern: mechanical shear stress degranulates mast cells, and histamine release can trigger vasodilation, hypotension, and brain fog in ME/CFS patients who are already mast cell-sensitive.
+If massage is well-tolerated, it can remain part of the recovery toolkit.
+If it triggers PEM, discontinue --- the SMD -0.89 meta-analytic benefit does not apply if the individual patient worsens.
+
+] <warn:massage-severity-gating>
+
+==== Compression Garments
+
+Compression garments (waist-high stockings, abdominal binders) provide orthostatic support by reducing venous pooling in the lower extremities and splanchnic circulation.
+In ME/CFS, they are primarily used for POTS management, but they also support post-exercise recovery by maintaining venous return during the recovery period when vasodilation may be excessive.
+Compression should be graduated (20--30 mmHg at ankle, decreasing proximally) and applied before rising from supine position for maximum benefit.
+
+=== Intercepting PEM Inflammation
+<sec:intercepting-pem-inflammation>
+
+==== The Resolution Failure Hypothesis
+
+#speculation(title: [Resolution Failure as Primary PEM Defect])[
+
+_(Certainty: 0.45.)_ PEM in ME/CFS may persist not because the initial inflammatory response is excessive but because the resolution cascade is impaired.
+Normal exercise triggers appropriate cytokine release (IL-6, TNF-alpha, IL-10), which resolves within 24--48 hours via specialized pro-resolving mediators (SPMs): resolvins, protectins, maresins, and lipoxins.
+SPMs actively terminate inflammation by promoting neutrophil apoptosis, enhancing efferocytosis, and shifting macrophage polarization from M1 (pro-inflammatory) to M2 (pro-resolving).
+
+In ME/CFS, SPM production may be impaired, efferocytosis slowed, and M1-to-M2 polarization delayed, extending the inflammatory half-life 3--5×.
+The consequence is that a normal exercise-induced cytokine pulse becomes a prolonged inflammatory tail, which in turn deepens the metabolic dysfunction, delays mitochondrial repair, and produces the 24--72 hour symptom window characteristic of PEM.
+
+*Falsifiable prediction:* ME/CFS plasma resolvin D1 and protectin D1 at 6h, 24h, and 48h post-exercise will be ≤50% of healthy control levels, while initial cytokine levels (IL-6, TNF-alpha at 0--2h) will not differ between groups.
+SPM receptor (ChemR23, BLT1, GPR32) expression on PBMCs will be reduced ≥30% in ME/CFS.
+SPM supplementation (oral omega-3 EPA/DHA enriched in resolvin precursors) will shorten PEM duration by ≥24h in a pilot crossover trial.
+
+*Limitations:* No direct SPM measurement post-exercise in ME/CFS exists.
+Hypothesis rests on general resolution biology applied to the ME/CFS context.
+SPM measurement requires specialized LC--MS/MS; commercial assays are not yet validated.
+The omega-3→resolvin conversion pathway may itself be impaired in ME/CFS (delta-6 desaturase, peroxisomal beta-oxidation deficits), meaning precursor supplementation may not restore SPM levels.
+
+] <spec:resolution-failure-pem>
+
+==== Pre-Emptive Antihistamine Protocol
+
+Exercise --- even minimal exertion --- triggers mast cell degranulation in ME/CFS, releasing histamine, tryptase, and prostaglandins @Rohrhofer2025mecfsmast.
+Histamine causes vasodilation, increased vascular permeability, and --- crucially --- cerebral vasodilation followed by reflex vasoconstriction that can reduce cortical perfusion.
+The result: post-exertional brain fog, headache, and fatigue.
+
+A pre-emptive antihistamine protocol takes advantage of this known pathway:
+- H1 blockade (fexofenadine 180 mg, or loratadine 10 mg) 1--2 hours before planned exertion
+- H2 blockade (famotidine 20--40 mg) concurrently, as histamine released during exercise acts on both H1 and H2 receptors in the vasculature
+- The combination (H1 + H2) is essential because H2 receptors mediate splanchnic vasodilation that contributes to orthostatic pooling
+
+For patients with known mast cell activation, add:
+- Mast cell stabilizer (cromolyn sodium 200 mg 4×/day, or ketotifen 1--2 mg BID) as ongoing prophylaxis, not acutely
+- Quercetin (500 mg BID) and vitamin C (1000 mg/day) as natural mast cell stabilizers with favorable safety profiles
+
+#speculation(title: [Antihistamine Pre-Treatment as PEM Blocker])[
+
+_(Certainty: 0.40.)_ H1 + H2 antihistamine blockade 1--2 hours before exercise may reduce post-exertional brain fog and fatigue by preventing histamine-mediated cerebral hypoperfusion and neuroinflammation.
+The mechanism is not anti-inflammatory in the classical sense --- it is *preventive:* blocking histamine receptor activation before histamine is released prevents the downstream cascade of vasodilation, edema, and reflex vasoconstriction.
+Clinical signal: open-label reports and n=1 experiments.
+
+*Falsifiable prediction:* A randomized crossover trial (fexofenadine 180 mg + famotidine 40 mg vs placebo, 1h pre-2-day CPET) will show reduced Day 2 cognitive PEM (as measured by cognitive test battery decline Day 1→Day 2) by ≥30% in the antihistamine arm.
+Subjective brain fog (0--10 VAS at 24h post-CPET) will be reduced by ≥2 points.
+Muscle PEM will be unaffected (confirming the specificity of the mechanism to histamine-mediated cerebral effects).
+
+*Limitations:* No controlled trial of antihistamines for PEM exists.
+Duration of effect uncertain --- histamine blockade for 4--6h may not cover the entire PEM window.
+Mast cell activation is not present in all ME/CFS patients; antihistamine non-responders may be non-mast-cell phenotype.
+Chronic antihistamine use carries theoretical risks (cognitive effects of H1 antagonists, B12 deficiency with long-term H2 blockade).
+
+] <spec:antihistamine-pem-blockade>
+
+==== Anti-Neuroinflammatory Strategies for Cognitive PEM
+
+Cognitive PEM (brain fog, headache, cognitive slowing) may be the most treatable PEM component because it is driven by neuroinflammation --- a process for which several safe, existing interventions exist:
+- *Palmitoylethanolamide (PEA):* Glial modulator that downregulates microglial and astrocytic activation via PPAR-alpha activation
+- *Low-dose naltrexone (LDN):* Glial modulation through TLR4 antagonism --- can be timed pre-exercise (3--4.5 mg the evening before planned exertion) to blunt the microglial response
+- *Curcumin/boswellia:* NF-kappaB inhibition reduces pro-inflammatory cytokine transcription; boswellic acids additionally inhibit 5-LOX
+
+These interventions target the neuroinflammatory amplifier rather than the triggering mechanism, meaning they may partially suppress cognitive PEM even if the underlying exercise-induced metabolic stress is unaltered.
+They are not substitutes for pacing but may widen the tolerable activity window.
+
+=== Post-Exercise Nutrition and Supplementation
+<sec:post-exercise-nutrition>
+
+==== Recovery Nutrition Timing
+
+Post-exercise nutrient timing takes on heightened importance in ME/CFS because the window for glycogen resynthesis and protein repair is narrow when metabolic machinery is compromised.
+
+/Protein and carbohydrate:/
+Post-exercise protein (20--30 g within 30 minutes) supports muscle protein synthesis, which is anabolic-dependent and may be impaired in ME/CFS.
+Carbohydrate co-ingestion (1:1 or 2:1 carb:protein ratio) is particularly important --- fast carbohydrates (dextrose, maltodextrin) may bypass the glycolytic bottleneck that characterizes ME/CFS muscle, directly entering the hexosamine and pentose phosphate pathways.
+The standard sports nutrition recommendation for healthy athletes emphasizes protein timing; in ME/CFS, carbohydrate timing may be equally critical due to the glycolytic shift.
+
+/Electrolyte replacement:/
+Oral rehydration solution (ORS) is preferred over plain water following exertion in ME/CFS, given the high prevalence of dysautonomia and hypovolemia.
+Sodium (500--1000 mg per 500 mL), potassium, and magnesium are the key electrolytes.
+Salt loading for POTS management should continue post-exercise without interruption.
+
+==== Mitochondrial Recovery Stack
+
+Several nutritional compounds support the post-exercise mitochondrial recovery processes that are impaired in ME/CFS:
+- *CoQ10/ubiquinol (200--400 mg/day):* Electron transport chain carrier; oxidized CoQ10 accumulates in states of high oxidative stress, and ubiquinol (the reduced form) may be more bioavailable
+- *NAD+ precursors (NR 300 mg/day or NMN 250--500 mg/day):* Restore NAD+ pools consumed by PARP activation and sirtuin-mediated repair during post-exercise recovery
+- *D-ribose (5 g post-exercise):* Bypasses pentose phosphate pathway to support ATP resynthesis via the salvage pathway; Teitelbaum data in CFS, though trial quality is low
+- *L-carnitine (1000--2000 mg/day):* Fatty acid shuttle for mitochondrial beta-oxidation; acetyl-L-carnitine form may provide additional acetyl groups for acetyl-CoA
+- *Creatine monohydrate (5 g/day):* Supports PCr recovery --- muscle PCr resynthesis is ATP-dependent and is slowed in ME/CFS; brain PCr effects are less clear (Godlewska 2024 MRS showed no difference in brain PCr between ME/CFS and controls @Godlewska2024creatineMRS)
+- *Magnesium glycinate (200--400 mg/day):* Cofactor for Complex I and Complex V (ATP synthase); also supports muscle relaxation and reduces cramping
+
+==== Anti-Inflammatory Nutrition
+
+- *Omega-3 EPA/DHA (2000--3000 mg/day):* Direct precursors for resolvins, protectins, and maresins --- the SPM pathway discussed above.
+  High-dose EPA (≥2000 mg/day) is required for resolvin synthesis.
+- *Tart cherry juice (240 mL/day, ~100 mg anthocyanins):* Reduces post-exercise inflammation in sports science literature; anti-inflammatory through NF-kappaB inhibition and COX-2 suppression.
+  No ME/CFS data, but good safety profile and plausible mechanism.
+
+Nutritional interventions are discussed in greater detail in Chapter @ch:supplements, including dose ranges, safety considerations, and drug--nutrient interactions.
+
+=== Timing Protocol: Pre/During/Post Exercise
+<sec:exercise-timing-protocol>
+
+#protocol(title: [Proposed Recovery Protocol: Pre/During/Post Exercise (Untested)])[
+
+*Status: Mechanistic proposal --- no component of this protocol has been tested as a PEM-reduction strategy in a controlled trial.*
+Dosages are drawn from general-population supplement literature and ME/CFS clinical practice; timing is inferred from exercise physiology.
+This protocol is presented as a structured hypothesis for clinical testing, not as validated guidance.
+
+*Rationale:* Recovery supplements may work synergistically when timed to match the metabolic state of each recovery phase.
+Empty stomach pre-exercise allows AMPK activation (caloric restriction mimetic); immediate post-exercise refeeding provides substrate for repair.
+
+/Pre-exercise (1--2 hours before):/
+- Antihistamine: fexofenadine 180 mg + famotidine 20--40 mg (if mast cell activation suspected)
+- Mast cell stabilizer: cromolyn or ketotifen (ongoing, not acute)
+- Creatine monohydrate 5 g (daily maintenance, independent of exercise timing)
+- Hydration: 500 mL water + 500--1000 mg sodium (if POTS protocol active)
+
+/During exercise:/
+- Hydration: 250--500 mL/h water with electrolytes (ORS formulation)
+- Stop at first sign of increased perceived exertion --- do not push through
+
+/Post-exercise (within 30 minutes):/
+- Protein 20--30 g + fast carbohydrate 30--60 g (dextrose, maltodextrin, or fruit juice)
+- D-ribose 5 g
+- Electrolyte rehydration: 500 mL ORS
+
+/Post-exercise (within 2 hours):/
+- CoQ10/ubiquinol 200 mg
+- NAD+ precursor (NR 300 mg or NMN 250 mg)
+- Magnesium glycinate 200 mg
+- L-carnitine 1000 mg (with next meal)
+
+/Post-exercise (evening):/
+- Infrared sauna or Waon therapy if tolerated (heat tolerance-dependent)
+- Sleep optimization (Section @sec:sleep-optimization)
+- Omega-3 EPA/DHA 2000--3000 mg (daily, not acute)
+
+*Expected effect:* Estimated to reduce PEM duration by 15--30% in mild-to-moderate ME/CFS based on mechanistic plausibility; this estimate is speculative.
+*Risk:* None of the listed supplements exceed generally recognized as safe (GRAS) doses; antihistamines are OTC.
+*Limitation:* Individual responses vary; start with micro-doses of any new supplement and monitor PEM for 1 week before scaling to full protocol.
+
+*Required trial to validate:* Parallel-group RCT (N≥40, 8 weeks): full protocol vs pacing-only control, with PEM frequency (DSQ-PEM diary), PEM severity (24h AUC), and PEM duration (hours to baseline) as co-primary outcomes.
+Secondary: HRV recovery kinetics, blood lactate clearance rate, subjective fatigue (Chalder).
+*Falsified if:* Protocol group shows no reduction in PEM frequency or severity vs pacing-only (p > 0.05 on all co-primaries).
+
+] <protocol:recovery-timing>
+
+=== Muscle Mass and Recovery Capacity
+<sec:muscle-mass-recovery>
+
+Skeletal muscle mass serves as a metabolic buffer: more muscle provides a larger pool of PCr, intramyocellular glycogen, and mitochondrial oxidative capacity, raising the absolute threshold at which exertion triggers PEM.
+Patients with greater baseline muscle mass may tolerate higher activity levels without crossing into PEM territory because their metabolic reserve is larger.
+
+However, muscle mass carries a metabolic cost.
+Each kilogram of lean tissue increases resting energy expenditure by ~13 kcal/day, potentially exceeding the energy envelope in patients with very limited budgets.
+The relationship between muscle mass and PEM threshold is therefore not linear: at low muscle mass, small gains produce large PEM-threshold improvements; at moderate-to-high muscle mass, the metabolic cost may offset the benefit.
+
+/Safe muscle building in ME/CFS:/
+- Isometric exercise lowest risk (no sarcomere shortening, minimal ATP demand per force unit)
+- Concentric exercise moderate risk (controlled shortening)
+- Eccentric exercise highest risk (muscle damage + high ATP demand per force unit) --- avoid for muscle building in ME/CFS
+- Heart rate must remain below the individual anaerobic threshold at all times
+- PEM monitoring: if PEM occurs after a muscle-building session, reduce load by 50% and reassess
+
+Cross-reference: exercise modality sections above for detailed guidance on isometric protocols.
+
+=== The GET Debate: Training Through PEM
+<sec:get-debate-recovery>
+
+The graded exercise therapy (GET) controversy is the most contentious issue in ME/CFS treatment.
+Understanding both sides is essential for informed decision-making.
+
+/The GET rationale:/
+GET proposes that gradual, structured increases in physical activity --- even when exacerbating symptoms initially --- produce physiological adaptation through progressive overload.
+The theoretical basis is the same principle that governs athletic training: controlled stress followed by recovery produces net adaptation.
+Proponents argue that deconditioning from inactivity causes many ME/CFS symptoms and that gradual reintroduction of activity is the only way to reverse it @White2023GETanomalies.
+
+/Why GET fails in ME/CFS:/
+The mechanistic problem is that the PGC-1alpha/AMPK/SIRT1 axis --- the molecular machinery that converts the training stimulus into adaptation --- is broken in ME/CFS.
+Progressive overload without functional adaptation is not recovery; it is cumulative tissue damage.
+The training stimulus cannot produce adaptation when the signaling cascade is blocked at multiple points:
+- AMPK cannot activate (SNS-override via PKA)
+- SIRT1 cannot deacetylate PGC-1alpha (NAD+ depletion)
+- Autophagy/mitophagy cannot clear damaged mitochondria (mTORC1-mediated ATG13 block)
+- Membrane repair is ATP-limited and fails
+
+The two-day CPET literature demonstrates the consequence: ME/CFS patients show decreased (or at best unchanged) capacity on Day 2, while healthy controls and deconditioned-but-healthy individuals improve or maintain performance @Lien2019LactateAbnormal.
+This pattern is the opposite of what GET requires for adaptation.
+
+A 2025 analysis by Vink and Niese re-examined the PACE trial data and concluded that the GET interventions, as delivered, were inconsistent with international exercise physiology standards --- raising the possibility that even the PACE results (which showed modest positive effects, themselves controversial) were not tests of GET as properly prescribed @Vink2025GET.
+
+/Deconditioning is real but not causal:/
+Deconditioning co-occurs with ME/CFS and contributes to secondary disability.
+However, the two-day CPET evidence shows that ME/CFS patients differ from deconditioned controls: deconditioned healthy controls recover by Day 2, while ME/CFS patients worsen or fail to improve.
+Deconditioning must be addressed --- but through pacing, not GET.
+Treating deconditioning without conflating it with the primary disease mechanism is the correct clinical approach.
+
+#warning-env(title: [GET Produces Net Harm in ME/CFS])[
+
+The mechanistic argument against GET is grounded in pathway-level evidence:
+PGC-1alpha/AMPK/SIRT1 axis failure precludes the adaptation that progressive overload requires.
+Two-day CPET evidence shows decreased rather than increased capacity following exertion.
+Patient-reported outcomes consistently show harm rates of 50--74% in community surveys.
+
+Deconditioning is a genuine secondary problem in ME/CFS and requires intervention --- but GET is not the appropriate intervention.
+The pacing approach (Section @sec:pacing), combined with passive modalities (heat, compression, nutrition), provides a path to functional maintenance without the harm profile of GET.
+
+*Falsifiable prediction:* A prospective cohort comparing GET vs pacing in mild ME/CFS over 12 weeks will show ≥40% of the GET group experiencing ≥2-point increase in PEM severity (DePaul Symptom Questionnaire) vs ≤15% in the pacing group, with no GET subgroup showing net benefit (≥5-point SF-36 Physical Functioning improvement without concurrent PEM worsening).
+
+] <warn:get-harm-mecfs>
+
+=== Severity-Stratified Recovery Protocols
+<sec:severity-recovery-protocols>
+
+Recovery strategies must be adapted to disease severity.
+What is safe and beneficial in mild ME/CFS may trigger PEM in moderate disease and be dangerous in severe disease.
+
+/Mild ME/CFS:/
+- Broader recovery toolkit available
+- Gentle movement (stretching, mild isometric) may aid recovery without triggering PEM
+- Sauna/Waon therapy likely safe
+- Massage at standard pressure likely safe
+- Entire supplement protocol accessible
+- Antihistamine pre-treatment optional but helpful
+
+/Moderate ME/CFS:/
+- Passive modalities preferred over active
+- No active recovery --- use heat, compression, and rest instead
+- Massage: light pressure only, short duration (20 min max), monitor for 48h PEM
+- Sauna: use with caution; may trigger orthostatic symptoms
+- Supplement protocol: full, but start each new agent at 1/4 dose for 1 week
+- Antihistamine pre-treatment recommended for any planned exertion
+
+/Severe ME/CFS:/
+- Goal: prevent PEM entirely, not manage it
+- Recovery = rest + supplementation only --- no active or passive therapies that require energy expenditure
+- No massage, no sauna, no active recovery of any kind
+- Compression garments for orthostatic support, bed-based only
+- Supplement protocol: oral only; no IM/IV without physician supervision
+- Antihistamine: ongoing prophylaxis considered; pre-treatment only if unavoidable exertion (e.g., medical appointment)
+- Any new intervention must follow the micro-dosing imperative (1/10 standard dose, single agent, 2-week wash-in)
+
+#limitation(title: [Evidence Level of This Section])[
+
+Every intervention in this section --- antihistamine pre-treatment, recovery timing protocols, thermal exercise mimetics, resolution-enhancing nutrition --- rests on mechanistic plausibility (certainty 0.25--0.45), not randomized controlled trial evidence.
+Each environment includes the specific trial design that would validate or refute the proposal.
+Until those trials are conducted, every protocol in this section should be treated as hypothesis-generating, not as validated clinical guidance.
+The distinction from GET is not that these proposals have better evidence --- they do not --- but that GET has been tested and found harmful by multiple criteria (two-day CPET, patient surveys, mechanistic analysis), whereas these alternatives have not been tested at all.
+Untested-but-mechanistically-plausible is not the same as tested-and-harmful, but it is also not evidence of benefit.
+
+]
 
 == Stress Management
 <sec:stress-management>
@@ -2641,7 +3052,6 @@ TRPM8 is a cold-activated TRP channel (activation threshold $<$25°C, enhanced b
 ] <spec:ch17-cold-trpm8>
 
 
-
 === Mild Heat Adaptation as an Allopregnanolone-Independent GABA Tone Modulator
 <sec:heat-gaba-adaptation>
 
@@ -2685,7 +3095,9 @@ This stack targets the substrate side (P5P increases GABA production) and the re
 <sec:bed-micro-movement-severe>
 
 #proposal(title: [N3: Severe Patient Bed-Based Micro-Movement (0.50)])[
-Mechanism and Rationale.
+  *Section label:* `sec:bed-micro-movement-severe`
+
+  *Mechanism and Rationale.*
 
 Severe ME/CFS patients—particularly those bedridden or severely debilitated—require gentle movement strategies to maintain gut motility and prevent deconditioning complications. Complete immobility contributes to:
 - Reduced gastrointestinal motility
@@ -2769,7 +3181,9 @@ Consider bed-based micro-movement as a supportive strategy for severe ME/CFS pat
 <sec:temperature-modulated-gut-therapy>
 
 #proposal(title: [N4: Temperature-Modulated Therapy (0.45)])[
-Mechanism and Rationale.
+  *Section label:* `sec:temperature-modulated-gut-therapy`
+
+  *Mechanism and Rationale.*
 
 Local temperature modulation of the abdomen may improve splanchnic perfusion, gut barrier repair, and butyrate production through circulatory and metabolic effects. Temperature has dual roles: heat improves blood flow and tissue repair, while cold may reduce inflammation and pain sensitivity.
 
@@ -2892,13 +3306,13 @@ A 2024 randomized pilot in Long COVID (Verbanck et al.) documented HRV improveme
 
 == Pacing and HSAT2 Amplification: A Speculative Epigenetic Frame
 
-The clinical rationale for strict pacing in ME/CFS is well-established: staying within the anaerobic threshold prevents post-exertional malaise and reduces symptom exacerbation. The HSAT2 exosomal loop hypothesis adds a deeper mechanistic frame: each exertional event that activates HSF1 at pericentromeric loci transiently amplifies HSAT2 EV release, re-inoculating circulating myeloid cells and widening the MDSC pool:hsat2-pem-amplification. If this mechanism is operative, strict pacing is not merely symptom management — it is *epigenetic prophylaxis*, reducing the rate of cumulative pericentromeric derepression events.
+The clinical rationale for strict pacing in ME/CFS is well-established: staying within the anaerobic threshold prevents post-exertional malaise and reduces symptom exacerbation. The HSAT2 exosomal loop hypothesis adds a deeper mechanistic frame: each exertional event that activates HSF1 at pericentromeric loci transiently amplifies HSAT2 EV release, re-inoculating circulating myeloid cells and widening the MDSC pool @spec:hsat2-pem-amplification. If this mechanism is operative, strict pacing is not merely symptom management — it is *epigenetic prophylaxis*, reducing the rate of cumulative pericentromeric derepression events.
 
 #speculation(title: [Strict Pacing as Prevention of Cumulative HSAT2 Epigenetic Amplification — Beyond Symptom Management])[
 
 *(Certainty: 0.35 — pacing clinical benefit established; HSAT2 amplification prevention mechanism speculative; the mechanism upgrades rather than replaces the established clinical rationale.)*
 
-The established clinical rationale for pacing is avoidance of physiological overshoot and symptom prevention. The proposed mechanistic extension: if each PEM event involves HSF1-mediated HSAT2 transcription (via heat-shock and oxidative stress):hsat2-pem-amplification, then *each PEM event is also an epigenetic insult* — a pulse of HSAT2 EV release that widens the MDSC pool, deepens NK suppression, and lowers the threshold for the next PEM episode. The cumulative effect over months to years of repeated PEM events would be a progressively worsening HSAT2/MDSC burden. Strict pacing prevents these insults from accumulating.
+The established clinical rationale for pacing is avoidance of physiological overshoot and symptom prevention. The proposed mechanistic extension: if each PEM event involves HSF1-mediated HSAT2 transcription (via heat-shock and oxidative stress) @spec:hsat2-pem-amplification, then *each PEM event is also an epigenetic insult* — a pulse of HSAT2 EV release that widens the MDSC pool, deepens NK suppression, and lowers the threshold for the next PEM episode. The cumulative effect over months to years of repeated PEM events would be a progressively worsening HSAT2/MDSC burden. Strict pacing prevents these insults from accumulating.
 
 This framing has a practical implication beyond symptom management: the harm from exceeding the energy envelope is not only the immediate PEM episode but the long-term epigenetic trajectory. A patient who paces perfectly for 6 months is predicted to have a meaningfully lower EV HSAT2 trajectory than one who has repeated PEM events, even if both report the same symptom severity at any single timepoint. This would show up as lower EV HSAT2 and MDSC frequency in adherent-pacers versus non-adherent patients matched for baseline severity.
 
@@ -2914,7 +3328,7 @@ Importantly, this framing should not be communicated to patients in a way that i
 
 == Thermal Interventions and the HSAT2 Caution
 
-Some ME/CFS patients report subjective benefit from gentle heat exposure (warm baths, low-temperature infrared sauna). However, a mechanistic concern arises from the proposed exosomal HSAT2 hypothesis:hsat2-pem-amplification: heat-shock factor 1 (HSF1) — the master stress-response transcription factor activated by thermal stress — is a known inducer of HSAT2 pericentromeric repeat transcription. If HSAT2 exosomal release contributes to ME/CFS immunosuppression and PEM amplification, then heat-stress interventions could plausibly worsen the underlying loop in HSAT2-high patients.
+Some ME/CFS patients report subjective benefit from gentle heat exposure (warm baths, low-temperature infrared sauna). However, a mechanistic concern arises from the proposed exosomal HSAT2 hypothesis @spec:hsat2-pem-amplification: heat-shock factor 1 (HSF1) — the master stress-response transcription factor activated by thermal stress — is a known inducer of HSAT2 pericentromeric repeat transcription. If HSAT2 exosomal release contributes to ME/CFS immunosuppression and PEM amplification, then heat-stress interventions could plausibly worsen the underlying loop in HSAT2-high patients.
 
 This concern is speculative — no ME/CFS heat-exposure data exists for exosomal HSAT2 — but it illustrates a broader principle: interventions that activate cellular stress responses may have unintended downstream effects on the epigenetic and exosomal axis.
 
@@ -3201,7 +3615,7 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 
 === Neuroimmune Lifestyle Interventions
 
-{{/* NP22: taVNS stratified by GPCR AAb profile (Tier 1, cert 0.40) */}}
+/* NP22: taVNS stratified by GPCR AAb profile (Tier 1, cert 0.40) */
 #speculation(title: [Transcutaneous Auricular Vagus Nerve Stimulation Stratified by GPCR Autoantibody Profile])[
 *Certainty: 0.40.* taVNS (left tragus, 20-25 Hz, 0.5-2 mA, 30-60 min daily) activates the cholinergic anti-inflammatory pathway (CAP). However, β2-AR autoantibodies may block the CAP at the splenic T cell step (see @spec:cap-autoantibody-blockade), rendering taVNS ineffective in patients with high β2-AR autoantibody titers. Stratification: low β2-AR AAb → taVNS should improve HRV, reduce TNF-α, and improve fatigue; high β2-AR AAb → taVNS may be ineffective until autoantibody burden is reduced. This resolves the variable taVNS response in ME/CFS pilots. @Blitshteyn2026Neuroimmune @Azcue2026gpcr
 
@@ -3212,7 +3626,7 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 *Limitations.* taVNS devices are not universally available. Optimal stimulation parameters (frequency, intensity, duration, laterality) are not established in ME/CFS. The correlation between β2-AR AAb titer and taVNS response has not been tested.
 ] <spec:tavns-aa-stratified>
 
-{{/* NP23: 0.1 Hz SPB HRV biofeedback (Tier 2, cert 0.35) */}}
+/* NP23: 0.1 Hz SPB HRV biofeedback (Tier 2, cert 0.35) */
 #speculation(title: [Slow Paced Breathing (0.1 Hz) with HRV Biofeedback for Baroreflex Training])[
 *Certainty: 0.35.* Slow paced breathing at 0.1 Hz (6 breaths/min) entrains the baroreflex, increasing HRV via vagal modulation. In ME/CFS+POTS, 0.1 Hz breathing may: (1) improve baroreflex sensitivity, (2) increase vagal efferent tone counteracting sympathetic predominance, (3) provide neuroplastic baroreflex conditioning. Ryabkova 2024 found ME/CFS patients do not acutely normalize HRV during SPB (unlike PCC), suggesting vagal receptor blockade by M2/M4 autoantibodies — but chronic SPB training (10 min bid × 8 weeks) may restore baroreflex gain through neuroplasticity. @Blitshteyn2026Neuroimmune
 
@@ -3221,7 +3635,7 @@ ME/CFS patients with comorbid hypermobility spectrum disorders (hEDS/HSD) or cer
 *Limitations.* Requires daily practice. Biofeedback equipment may be costly. Adherence may be poor in severe patients with cognitive dysfunction.
 ] <spec:spb-hrv-biofeedback>
 
-{{/* NP24: Graded cold face immersion (Tier 3, cert 0.30) */}}
+/* NP24: Graded cold face immersion (Tier 3, cert 0.30) */
 #speculation(title: [Graded Cold Face Immersion for Vagal Autonomic Conditioning])[
 *Certainty: 0.30.* Cold face immersion (CFI, diving reflex — face in 10°C water, 15-30 sec) triggers the trigeminal-cardiac reflex: trigeminal nerve → spinal trigeminal nucleus → NTS → vagal activation → bradycardia. This is the most potent physiological vagal stimulus (HR can drop to 30-40 bpm). Graded CFI (start 22°C, decrease 2°C/week to 10°C, 15 sec, 3×/day) may strengthen the trigeminal-vagal reflex arc via NTS synaptic plasticity. The trigeminal-vagal reflex bypasses autoantibody blockade at the GPCR level because vagal efferents are activated directly via the brainstem pathway. @Blitshteyn2025Neuroinflammation
 

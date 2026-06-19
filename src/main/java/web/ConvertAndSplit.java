@@ -567,50 +567,49 @@ String translateMath(String s) {
         if (end < 0) { sb.append(s.substring(dollar)); break; }
         var math = s.substring(dollar + 1, end);
         math = math
-            .replace("subset", "\\subset")
-            .replace("supset", "\\supset")
-            .replace("inter", "\\cap")
-            .replace("union", "\\cup")
+            .replace("upright(\"", "\\text{")
+            .replace("\")", "}")
             .replace("eq.not", "\\neq")
             .replace("gt.eq", "\\geq")
             .replace("lt.eq", "\\leq")
-            .replace("nothing", "\\emptyset")
             .replace("arrow.l.r", "\\leftrightarrow")
             .replace("arrow.double.r", "\\Rightarrow")
             .replace("arrow.r", "\\rightarrow")
             .replace("arrow.l", "\\leftarrow")
             .replace("dot.op", "\\cdot")
             .replace("plus.minus", "\\pm")
-            .replace("tilde", "\\sim")
-            .replace("alpha", "\\alpha")
-            .replace("beta", "\\beta")
-            .replace("gamma", "\\gamma")
-            .replace("delta", "\\delta")
-            .replace("epsilon", "\\epsilon")
-            .replace("zeta", "\\zeta")
-            .replace("eta", "\\eta")
-            .replace("theta", "\\theta")
-            .replace("kappa", "\\kappa")
-            .replace("lambda", "\\lambda")
-            .replace("mu", "\\mu")
-            .replace("nu", "\\nu")
-            .replace("xi", "\\xi")
-            .replace("pi", "\\pi")
-            .replace("rho", "\\rho")
-            .replace("sigma", "\\sigma")
-            .replace("tau", "\\tau")
-            .replace("phi", "\\phi")
-            .replace("chi", "\\chi")
-            .replace("omega", "\\omega")
-            .replace("cal(", "\\mathcal{")
-            .replace("bold(", "\\mathbf{")
-            .replaceAll("upright\\(\"([^\"]+)\"\\)", "\\\\text{$1}")
+            .replace("nothing", "\\emptyset")
             .replace("#h(1em)", "\\quad")
-            .replaceAll("\\bspace\\b\\s*", "");
+            .replace("cal(", "\\mathcal{")
+            .replace("bold(", "\\mathbf{");
+        math = replaceGreekLetters(math);
+        math = math
+            .replace("subset", "\\subset")
+            .replace("supset", "\\supset");
+        math = math.replaceAll("(?<=^|[^a-zA-Z])inter(?=[^a-zA-Z]|$)", "\\\\cap");
+        math = math.replaceAll("(?<=^|[^a-zA-Z])union(?=[^a-zA-Z]|$)", "\\\\cup");
+        math = math.replaceAll("\\bspace\\b\\s*", "");
         sb.append('$').append(math).append('$');
         i = end + 1;
     }
     return sb.toString();
+}
+
+String replaceGreekLetters(String math) {
+    String[][] greekLetters = {
+        {"epsilon", "\\epsilon"}, {"omega", "\\omega"}, {"lambda", "\\lambda"},
+        {"theta", "\\theta"}, {"kappa", "\\kappa"}, {"sigma", "\\sigma"},
+        {"alpha", "\\alpha"}, {"gamma", "\\gamma"}, {"delta", "\\delta"},
+        {"tilde", "\\sim"},
+        {"beta", "\\beta"}, {"zeta", "\\zeta"},
+        {"eta", "\\eta"},
+        {"mu", "\\mu"}, {"nu", "\\nu"}, {"xi", "\\xi"}, {"pi", "\\pi"},
+        {"rho", "\\rho"}, {"tau", "\\tau"}, {"phi", "\\phi"}, {"chi", "\\chi"},
+    };
+    for (var pair : greekLetters) {
+        math = math.replaceAll("(?<=^|[^a-zA-Z\\\\{])" + pair[0] + "(?=[^a-zA-Z}]|$)", Matcher.quoteReplacement(pair[1]));
+    }
+    return math;
 }
 
 String normalizeUnicode(String s) {
