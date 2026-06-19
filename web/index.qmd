@@ -3,7 +3,9 @@ title: "ME/CFS — A Comprehensive Medical Documentation"
 listing:
   id: recent-posts
   contents: blog/posts
-  sort: "date desc"
+  sort:
+    - "date desc"
+    - "title asc"
   type: grid
   grid-columns: 3
   max-items: 6
