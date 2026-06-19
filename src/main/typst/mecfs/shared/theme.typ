@@ -37,6 +37,9 @@
   model-insight-frame: rgb("#3949AB"),
   model-insight-bg:    rgb("#E8EAF6"),
 
+  synthesis-frame:     rgb("#0D7377"),
+  synthesis-bg:        rgb("#E0F7F6"),
+
   // ── Standard theorem-class environments (from theorems.tex palette) ───────
   hypothesis-frame:  rgb("#A58200"),
   hypothesis-bg:     rgb("#FFFDF2"),

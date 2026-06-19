@@ -4,33 +4,35 @@
 
 ```bash
 nix build              # → result/loth2026-mecfs.pdf (default)
-nix build .#web        # → Quarto HTML site
-nix build .#web-full   # → HTML site + PDF
+nix build .#web        # → result/ (HTML site)
+nix build .#web-full   # → result/ (HTML + PDF)
 nix flake check         # Run all CI checks
-nix run .#clean         # Clean build artifacts
-nix develop             # Dev shell w/ typst, quarto, jdk25
+nix run .#clean         # .cache, .build, result, *.pdf in src/main/typst/
+nix develop             # Dev shell (typst, quarto, jdk25)
 ```
 
 ## Development
 
 ```bash
 nix develop
-# Inside shell: TYPST_PACKAGE_CACHE_PATH / TYPST_FONT_PATHS preset
+# Inside shell: TYPST_PACKAGE_CACHE_PATH, TYPST_FONT_PATHS preset
 
 typst compile src/main/typst/mecfs/loth2026-mecfs.typ  # PDF
-quarto render web --to html                            # HTML (after java BuildWeb.java)
+
+# Web: generate .qmd files, copy bib, then render
+java --source 25 src/main/java/web/BuildWeb.java
+cp -r src/main/typst/mecfs/bib/ web/bib/
+quarto render web --to html
 ```
-
-## Build Outputs
-
-| Command | Output |
-|---------|--------|
-| `nix build` | `result/loth2026-mecfs.pdf` |
-| `nix build .#web` | `result/` (HTML site) |
-| `nix build .#web-full` | `result/` (HTML + PDF) |
 
 ## Common Issues
 
-**Build fails** → `nix build -L` for verbose logs
-**Web content wrong** → fix Typst source or `ConvertAndSplit.java`, never `.qmd` files
-**Blog issue** → fix `web/blog/posts/<slug>/index.qmd` directly
+| Issue | Action |
+|-------|--------|
+| Build fails | `nix build -L --show-trace` |
+| Web content missing/stale | Run java BuildWeb → copy bib → quarto render (inside `nix develop`) |
+| Blog issue | Fix `web/blog/posts/<slug>/index.qmd` directly |
+| Typst compile outside nix | Must run `nix develop` first |
+| `nix flake check` fails | Check which test; run individually via `nix build .#checks.x86_64-linux.<name>` |
+
+Fix discipline: see [`build-system.md`](build-system.md)

@@ -147,6 +147,7 @@
 #let _cnt-recommendation = counter("recommendation")
 #let _cnt-limitation    = counter("limitation")
 #let _cnt-modelinsight  = counter("model_insight")
+#let _cnt-synthesis     = counter("synthesis")
 #let _cnt-observation   = counter("observation")
 #let _cnt-proposal      = counter("proposal")
 
@@ -178,6 +179,7 @@
     show figure.where(kind: "continuation"):     it => align(start, it.body)
     show figure.where(kind: "speculation"):      it => align(start, it.body)
     show figure.where(kind: "observation"):      it => align(start, it.body)
+    show figure.where(kind: "synthesis"):        it => align(start, it.body)
     show figure.where(kind: "direction"):        it => align(start, it.body)
     show figure.where(kind: "roadmap"):          it => align(start, it.body)
     show figure.where(kind: "theorem"):          it => align(start, it.body)
@@ -411,6 +413,21 @@
     fig-kind: "proposal-unnumbered",
     fig-supplement: [Proposal],
     "⊢", "Proposal", body, title: title, style: "solid")
+}
+
+// --- Synthesis (⇌, solid, cyan) ----------------------------------------------
+#let synthesis(title: none, body) = {
+  let n = _num(_cnt-synthesis)
+  _callout(color.synthesis-frame, color.synthesis-bg,
+    fig-kind: "synthesis",
+    fig-supplement: [Synthesis],
+    "⇌", "Synthesis", body, title: title, style: "solid", number: n)
+}
+#let synthesis-unnumbered(title: none, body) = {
+  _callout(color.synthesis-frame, color.synthesis-bg,
+    fig-kind: "synthesis-unnumbered",
+    fig-supplement: [Synthesis],
+    "⇌", "Synthesis", body, title: title, style: "solid")
 }
 
 // --- Note (i, solid, slate) --------------------------------------------------
