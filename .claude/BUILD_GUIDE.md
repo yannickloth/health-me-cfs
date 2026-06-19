@@ -23,7 +23,9 @@ nix run .#clean         # .cache, .build, result, *.pdf in src/main/typst/
 nix develop             # Dev shell (typst, quarto, jdk25); TYPST_* env vars preset
 ```
 
-Stale deps? `nix flake update`
+Stale deps? `nix flake update`. Stale build artifacts? `nix run .#clean`; also manually delete `web/` subdirs (figures, part*/, z-appendices/, _shared/, bib/, _site/).
+
+Troubleshooting: see [`build-system.md#troubleshooting`](build-system.md#troubleshooting)
 
 ## Source Layout
 
@@ -45,6 +47,14 @@ src/main/typst/mecfs/
 src/main/java/web/
 ├── BuildWeb.java             # Orchestrator: Typst → .qmd
 └── ConvertAndSplit.java      # Per-file converter
+
+src/test/java/web/            # Audit/test classes
+├── SectionAuditTest.java
+├── QmdLabelAuditTest.java
+├── QmdEnvironmentCountTest.java
+├── QmdQualityAuditTest.java
+├── BlogAuditTest.java
+└── TypstSourceAuditTest.java
 
 web/
 ├── index.qmd / about.qmd     # Static pages (handwritten)

@@ -27,7 +27,9 @@ Run from project root. `result/` is a symlink into the Nix store; `cp result/<fi
 
 ### Generation pipeline
 
-Steps 3–5 are CI audits — they don't gate local rendering but must pass for `nix flake check`. Steps 1–2 required before step 6 whenever Typst or bib sources change.
+Steps 3–5 are CI audits — they don't gate local rendering but must pass for `nix flake check`.
+
+Steps 1 (qmd gen) and 2 (copy bib) must run before step 6 (render). Re-run 1–2 whenever Typst or bib sources change.
 
 | Step | Tool | Detail |
 |------|------|--------|
@@ -69,7 +71,7 @@ Steps 3–5 are CI audits — they don't gate local rendering but must pass for 
 | Issue | Action |
 |-------|--------|
 | `nix build` fails | `nix build -L --show-trace` for verbose diagnostics |
-| `nix flake check` fails | Check which check name in output; run individually via `nix build .#checks.x86_64-linux.<name>` |
+| `nix flake check` fails | Check which check name in output; run individually via `nix build .#checks.<system>.<name>` (use `x86_64-linux` on most Linux) |
 | `quarto render` fails | Ensure `java --source 25 src/main/java/web/BuildWeb.java` ran first from project root |
 | Web content missing/blank | Run steps 1, 2, 6 from generation pipeline (inside `nix develop`) |
 | Figure missing on web | Run `BuildWeb.java` figure compilation; verify `src/main/typst/mecfs/packages/preview/cetz/` exists |

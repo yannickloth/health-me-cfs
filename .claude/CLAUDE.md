@@ -14,7 +14,7 @@ nix build .#web        # → result/ (HTML site)
 nix build .#web-full   # → result/ (HTML + PDF)
 nix flake check         # section-audit, qmd-label-audit, typst-source-audit, blog-audit
 nix run .#clean         # .cache, .build, result, *.pdf in src/main/typst/
-nix develop             # Dev shell (typst, quarto, jdk25)
+nix develop             # Dev shell (typst, quarto, jdk25; TYPST_PACKAGE_CACHE_PATH, TYPST_FONT_PATHS preset)
 ```
 
 Full build system + fix discipline: [`build-system.md`](build-system.md)

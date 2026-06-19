@@ -31,8 +31,11 @@ quarto render web --to html
 |-------|--------|
 | Build fails | `nix build -L --show-trace` |
 | Web content missing/stale | Run java BuildWeb → copy bib → quarto render (inside `nix develop`) |
+| Figure missing on web | Run `BuildWeb.java`; verify `src/main/typst/mecfs/packages/preview/cetz/` exists |
 | Blog issue | Fix `web/blog/posts/<slug>/index.qmd` directly |
 | Typst compile outside nix | Must run `nix develop` first |
-| `nix flake check` fails | Check which test; run individually via `nix build .#checks.x86_64-linux.<name>` |
+| `nix flake check` fails | Check which test; run individually via `nix build .#checks.<system>.<name>` (usually `x86_64-linux`) |
+
+`nix run .#clean` does NOT clean `web/` (figures, part*/, z-appendices/, _shared/, bib/, _site/) — delete those manually.
 
 Fix discipline: see [`build-system.md`](build-system.md)
