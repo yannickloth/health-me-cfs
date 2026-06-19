@@ -2619,7 +2619,7 @@ MCAS diagnosis requires:
 ] <hyp:matrix-stiffness-mast>
 
 #speculation(title: [Histaminylation as MMP-Independent Collagen Weakening Mechanism])[
-*Certainty: 0.30.* Histamine covalently modifies collagen via histaminylation — a non-enzymatic post-translational modification that directly alters collagen matrix mechanical properties @Zhu2026HistaminylationCollagen. This provides a second, mechanistically independent route by which mast cell histamine release could weaken connective tissue, parallel to the tryptase/chymase→MMP pathway. (Origin: brainstorm.)
+*Certainty: 0.30.* Histamine covalently modifies collagen via histaminylation — a post-translational modification catalysed by transglutaminase 2 (TG2) that directly alters collagen matrix mechanical properties @Zhu2026HistaminylationCollagen. This provides a second, mechanistically independent route by which mast cell histamine release could weaken connective tissue, parallel to the tryptase/chymase→MMP pathway. (Origin: brainstorm.)
 
 *Mechanism.* Histaminylation is the covalent attachment of histamine to glutamine residues on collagen, catalysed by transglutaminase 2 (TG2) — an enzyme that crosslinks extracellular matrix proteins. Zhu 2026 demonstrated that histaminylation alters collagen fibril assembly and matrix stiffness in vitro (certainty 0.70 for the biochemical finding). In the context of ME/CFS with MCAS, episodic mast cell degranulation releases histamine into the interstitial space; TG2, which is upregulated during tissue inflammation and remodeling, could histaminylate nearby collagen fibrils, progressively reducing the biomechanical quality of ligaments and joint capsules. This mechanism is independent of MMP-mediated degradation — meaning both pathways can operate simultaneously and cooperatively.
 
@@ -2628,6 +2628,8 @@ MCAS diagnosis requires:
 *Falsifiable prediction.* Skin biopsy collagen from MCAS-positive ME/CFS patients with hypermobility should show elevated histaminylation (detected via anti-histaminyl-glutamine antibody or mass spectrometry) compared to non-MCAS ME/CFS patients and healthy controls. Histaminylation levels should correlate inversely with measured collagen stiffness (atomic force microscopy) and positively with disease duration.
 
 *Limitations.* Histaminylation has been demonstrated biochemically in vitro; in vivo detection in human tissue requires specialized mass spectrometry. The relationship between histaminylation levels and clinical hypermobility severity is entirely untested. TG2 upregulation in ME/CFS tissue has not been measured. H1 antihistamine effect on hypermobility progression is anecdotal — no controlled data exist. Chronic TG2 activity can also stabilise ECM via irreversible crosslinking in some contexts; the net effect of TG2 activity on tissue mechanics is context-dependent.
+
+*Cross-reference:* For the integrated model linking histaminylation, MMP-mediated degradation, and IgE pathway activation to acquired progressive hypermobility, see Section @spec:acquired-progressive-hypermobility-mc in Chapter @ch:cross-disease.
 ] <spec:histaminylation-collagen>
 
 #open-question(title: [IgE-Specific Pathway in MCAS-Connective Tissue Interaction])[
