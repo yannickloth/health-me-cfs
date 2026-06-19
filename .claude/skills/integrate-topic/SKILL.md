@@ -6,7 +6,7 @@ argument-hint: <topic description>
 
 # Evaluate and Integrate New Topic into the ME/CFS Paper
 
-End-to-end: research → synthesize → **integration decision** → develop → brainstorm → triage → integrate (tiered) → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → review convergence → changelog → commit.
+End-to-end: research → synthesize → **integration decision** → develop → brainstorm → triage → integrate (tiered) → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → review convergence → changelog → commit.
 
 **Null hypothesis:** The default outcome is *non-integration*. The burden of proof is on demonstrating that the topic has sufficient evidence and relevance to warrant inclusion. Integration must be earned by passing evidence gates — not assumed.
 
@@ -56,8 +56,9 @@ Before starting any other phase:
    - Phase 7 → R reinforcement pairs, F feed-in pairs, C conflict pairs, I independents; J certainty bumps, K reductions, L tensions flagged
    - Phase 8 → build status
    - Phase 9 → quality metrics summary, quality flags
-   - Phase 10 → cross-chapter coherence status
-   - Phase 11 → review convergence status per pass
+    - Phase 10 → cross-chapter coherence status
+    - Phase 10a → synthesis environment added (label, chapter), environments condensed
+    - Phase 11 → review convergence status per pass
    - Phase 12 → changelog entry summary
    - Phase 13 → row status `✅ done`; Notes: integration guide path, chapters updated, commit hash
 
@@ -754,6 +755,56 @@ Add to Phase 0 tracking: `7 | R reinforcement pairs, F feed-in pairs, C conflict
 
 ---
 
+## Phase 10a — High-Level Synthesis
+
+**Agent:** main session | **Model:** current
+
+**Purpose:** Phases 3, 5, and 6 scatter environments across multiple chapters. These collectively form an argument. Phase 10a condenses them into a single `#synthesis` environment so a reader skimming the chapter can grasp the convergent model without reading every individual environment. Without this, the paper has evidence components but no synthesized takeaway.
+
+**When to run:** After Phase 10 (cross-chapter coherence), before Phase 11 (review convergence). Coherence must be verified before synthesis, since the synthesis cross-references the integrated environments.
+
+**Trigger condition:** This phase runs when ≥3 environments were integrated across ≥2 chapters — the threshold at which the argument exceeds what a casual chapter reader can reconstruct. For single-chapter or 1–2 environment integrations, synthesis is unnecessary; the environments speak for themselves.
+
+**Procedure:**
+
+1. **Re-read all Phase 3 and Phase 5 environments** — including their certainties, falsifiable predictions, and limitations. Read any Phase 6 retroactive adaptations that modified pre-existing claims.
+
+2. **Identify 2–4 convergent themes** that the environments collectively establish. A theme must be supported by ≥2 environments from different evidence sources (not just the brainstorm). Examples:
+   - "Two independent mechanisms converge on the same endpoint"
+   - "Cross-disease models provide in vivo precedent"
+   - "Null findings constrain but do not refute"
+   - "An approved drug represents a pathway-specific therapeutic probe"
+
+3. **Draft a 4–8 sentence synthesis paragraph** using the `#synthesis` environment:
+   ```
+   #synthesis(title: [Short Descriptive Title])[
+   First sentence: what the body of evidence collectively argues.
+   Middle sentences: strongest constraints, open questions, and cross-references to key environments.
+   Final sentence: the most actionable implication or the central unanswered question.
+   ] <syn:topic-slug-model>
+   ```
+
+4. **Placement rules:**
+   - If all environments are in a single chapter → after the last environment, before the next major section heading
+   - If environments span multiple chapters → in the chapter where the *assembled framework* lives (typically ch14d for cross-disease, ch13 for integrative models); add a cross-reference from the mechanism-level chapter to the synthesis
+   - Never place in the hypothesis registry or appendix — synthesis belongs in the narrative body
+
+5. **Environment constraints:**
+   - Must use `#synthesis` (not `#hypothesis-box`, `#speculation`, or `#achievement` — synthesis aggregates evidence, it doesn't present a new claim)
+   - Must cross-reference at least two integrated environments via `@spec:`, `@hyp:`, `@oq:`, or `@lim:` labels
+   - Must state the most important open question(s) — synthesis is not triumphalism
+   - Must distinguish what the evidence supports from what remains speculative
+   - No new citations beyond those already in the integrated environments
+
+6. **Add label** `<syn:topic-slug-model>` for changelog cross-referencing.
+
+**Environment definition:** `#synthesis(title: [...])[body] <label>` renders as a solid cyan box with `⇌` icon. Defined in `src/main/typst/mecfs/shared/environments.typ`. The Java Qmd converter (`ConvertAndSplit.java`) maps it to a Quarto `note` callout.
+
+**Output:** The modified `.typ` file with the new `#synthesis` environment.
+**Report:** "Phase 10a complete: synthesis environment @syn:<topic-slug>-model added to chapter N, condensing K environments into convergent model."
+
+---
+
 ## Phase 11 — Review to Convergence
 
 **Collect changed files** at the start of each review pass (not once for all passes — fixes may modify additional files):
@@ -842,6 +893,7 @@ WIP checkpoint commits from the Git Checkpoint Protocol are squashed into the fi
 | 8 | `test-runner` | haiku | Mechanical build check |
 | 9 | main session | current | Quality metrics — actionable before review convergence |
 | 10 | `cross-section-coherence-auditor` | sonnet | Cross-chapter consistency + evidence-to-claim calibration |
+| 10a | main session | current | High-level synthesis → `#synthesis` environment condensing scattered environments into convergent model |
 | 11a | review-convergence agents | sonnet | Consistency/logic checking |
 | 11b | review-adversarial agents | opus | Adversarial personas need deep reasoning |
 | 11c | review-typst agents | sonnet | Typst-specific review |
