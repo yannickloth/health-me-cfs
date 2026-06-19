@@ -785,6 +785,7 @@ Most national patient organizations provide country-specific guidance on:
     - Some countries recognize ME/CFS for disability; others require extensive advocacy
     - Patient organizations often provide template letters and case examples
     - Legal advocacy organizations exist in some countries
+    - The *Hidden Disabilities Sunflower* lanyard (#link("https://hiddendisabilitiesstore.com/")) is a discreet, internationally recognised signal that the wearer has a non-visible disability and may need additional support, time, or understanding in public spaces. Widely adopted by airports, train stations, supermarkets, hospitals, and other venues in 30+ countries. Lanyards are available directly from the Sunflower website. ME/CFS is an invisible illness; the Sunflower offers a low-friction way to make it visible on the patient's own terms.
 
 The *Steungroep ME en Arbeidsongeschiktheid* (Netherlands) specifically focuses on employment and disability issues. The *ME Association* (UK) provides extensive guidance on UK benefits system.
 
