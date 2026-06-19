@@ -2629,7 +2629,7 @@ MCAS diagnosis requires:
 
 *Limitations.* Histaminylation has been demonstrated biochemically in vitro; in vivo detection in human tissue requires specialized mass spectrometry. The relationship between histaminylation levels and clinical hypermobility severity is entirely untested. TG2 upregulation in ME/CFS tissue has not been measured. H1 antihistamine effect on hypermobility progression is anecdotal — no controlled data exist. Chronic TG2 activity can also stabilise ECM via irreversible crosslinking in some contexts; the net effect of TG2 activity on tissue mechanics is context-dependent.
 
-*Cross-reference:* For the integrated model linking histaminylation, MMP-mediated degradation, and IgE pathway activation to acquired progressive hypermobility, see Section @spec:acquired-progressive-hypermobility-mc in Chapter @ch:cross-disease.
+*Cross-reference:* For the integrated model linking histaminylation, MMP-mediated degradation, and IgE pathway activation to acquired progressive hypermobility, see Section @spec:acquired-progressive-hypermobility-mc in Section @sec:cross-disease of Chapter @ch:speculative-hypotheses.
 ] <spec:histaminylation-collagen>
 
 #open-question(title: [IgE-Specific Pathway in MCAS-Connective Tissue Interaction])[
@@ -2639,7 +2639,7 @@ Wilson 2026 (n=2141 hEDS/HSD, certainty 0.45) found that IgE levels were signifi
 
 Omalizumab is safe and effective for refractory MCAS (Matheny 2025, 28 patients, certainty 0.55), but no study has examined its effect on connective tissue integrity or hypermobility progression. The hypothesis that IgE pathway stabilization could improve hEDS/POTS in some patients — proposed on clinical grounds — remains untested. This represents a tractable research question: omalizumab is approved, its safety profile is established, and its mechanism (IgE sequestration → reduced FcεRI activation → reduced mast cell degranulation) is specific to one degranulation pathway, allowing pathway-specific hypothesis testing.
 
-*Falsifiable prediction:* An open-label omalizumab trial in IgE-elevated hEDS/MCAS patients with progressive hypermobility will test three outcomes: (a) if both MC activation markers AND hypermobility progression are reduced → IgE→MC→CT chain supported; (b) if MC activation is reduced but CT degradation continues → the MC→CT degradation step is wrong, or damage is cumulative and irreversible by time of treatment; (c) if neither changes → the IgE pathway is not the dominant degranulation route. Falsification occurs in branches (b) and (c).
+*Falsifiable prediction:* An open-label omalizumab trial in IgE-elevated hEDS/MCAS patients with progressive hypermobility will test three outcomes: (a) if both MC activation markers AND hypermobility progression are reduced → IgE→MC→CT chain supported; (b) if MC activation is reduced but CT degradation continues at the pre-treatment rate → the MC→CT degradation step is wrong (continued degradation despite suppressed MC activation rules out MC as the primary driver of ongoing CT loss); (c) if neither changes → the IgE pathway is not the dominant degranulation route. Falsification occurs in branches (b) and (c). The "cumulative and irreversible damage" alternative in branch (b) can be distinguished by comparing baseline damage severity: if prior damage burden predicts continued progression regardless of treatment, self-sustaining mechanical damage rather than active MC input is the driver.
 ] <oq:ige-pathway-ct-mcas>
 
     - Avoid aged/fermented foods, alcohol, cured meats, leftovers $>$24 hours
