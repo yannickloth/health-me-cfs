@@ -40,6 +40,7 @@ grep -rn "TODO\|FIXME" typst/src/main/typst/mecfs/
 - Examples where helpful
 - Edge cases addressed
 - Assumptions stated
+- **Non-specialist consequence present:** every `#hypothesis-box`, `#fhypothesis`, `#speculation`, `#synthesis`, `#achievement`, `#clinical-finding`, `#prediction`, `#open-question`, `#limitation` must contain a `*Consequence:* [one sentence]` field explaining why the finding matters in language an educated non-specialist can grasp. Flag missing fields. Do not check for consequence *quality* — only presence. The consequence translates significance, not the mechanism; scientific precision is preserved (see Phase 3.5 quality criteria in `/integrate-topic` skill)
 
 ### Assumptions and Open Questions
 

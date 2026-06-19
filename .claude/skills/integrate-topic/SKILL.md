@@ -23,6 +23,7 @@ Create a single WIP checkpoint commit before Phase 3 (the first phase that modif
 **Rollback triggers:**
 - Phase 11 hits max rounds with >5 unresolved findings → offer rollback to pre-Phase-6 checkpoint
 - Phase 8 build fails after 5 iterations → offer rollback to pre-Phase-3 checkpoint
+- Phase 3.5 identifies consequence gaps that require substantive rework of Phase 3 environments → offer rollback to pre-Phase-3 checkpoint
 - Any phase produces results the user rejects → offer rollback to previous checkpoint
 
 ---
@@ -48,6 +49,7 @@ Before starting any other phase:
    - Phase 1 → papers found, bib entries added, search log path
    - Phase 2 → synthesis verdict, evidence quality summary, integration decision (PROCEED / PARTIAL / REJECT / DEFER)
    - Phase 3 → environments added, chapters touched
+   - Phase 3.5 → N environments verified, M missing consequence fields added
    - Phase 4 → brainstorm file path, idea count
    - Phase 4a → subtree file path, N nodes written, root index updated
    - Phase 5 → ideas integrated (by tier); queued topics from Gates A/B with one-line rationale
@@ -251,6 +253,7 @@ Read Phase 2 synthesis. Use the evidence summary and contradiction framing to gu
 - **Contradiction framing:** If Phase 2 identified contradictions, integrate both sides using the framing decided in Phase 2 (open-question, weighted, or user-decided)
 - **Falsifiability:** Every `#hypothesis-box`, `#fhypothesis`, and `#speculation` written in Phase 3 must include a falsifiable prediction, same as Phase 5's inline requirement. If unfalsifiable: retain the environment type and certainty; add explicit note "Critique: structurally unfalsifiable." Only reclassify to `#open-question` if the claim is also poorly evidenced (certainty < 0.30). This rule is consistent with Phase 5a's reclassification constraint.
 - **Clinical labelling:** Every treatment-related environment must state whether the evidence is preclinical, general-population, or ME/CFS-specific. If `#clinical-finding` is used, state the evidence type: case report, observational study, RCT, meta-analysis, or expert opinion.
+- **Non-specialist consequence (MANDATORY):** Every `#hypothesis-box`, `#fhypothesis`, `#speculation`, `#synthesis`, `#achievement`, `#clinical-finding`, `#prediction`, `#open-question`, and `#limitation` must end with a plain-language consequence sentence explaining why the finding matters. Format: `*Consequence:* [one sentence — what does this change for understanding, treatment, diagnosis, or research direction? Answer in terms an educated non-specialist can grasp. Never overstate. Never fabricate. If the finding has zero current practical consequence, state that honestly.]` Scientific precision is preserved — this is translation, not simplification. The mechanism description and certainty remain untouched. The consequence field translates significance, not the mechanism itself.
 
 **Additional rules for Part 3 (ch14a–ch19):**
 - State expected time-to-response if known
@@ -264,6 +267,35 @@ Read Phase 2 synthesis. Use the evidence summary and contradiction framing to gu
 - State severity applicability (mild / moderate / severe / very severe); if not specified in the evidence → state: "severity applicability unknown"
 
 **Report:** "Phase 3 complete: N environments added across M chapters, hypothesis registry updated."
+
+---
+
+## Phase 3.5 — Non-Specialist Consequences Verification
+
+**Agent:** main session | **Model:** current
+
+**Purpose:** Verify that every new environment from Phase 3 includes an accessible consequence sentence. This is a verification pass — the consequence field should have been written inline during Phase 3. Phase 3.5 catches omissions before downstream phases build on the new content.
+
+**Scope:** All `.typ` files modified/created in Phase 3.
+
+1. Read every new `#hypothesis-box`, `#fhypothesis`, `#speculation`, `#achievement`, `#clinical-finding`, `#prediction`, `#open-question`, and `#limitation` environment.
+2. For each: verify a `*Consequence:* [sentence]` field is present inside the environment body.
+3. If missing or consisting only of technical restatement with no accessible translation:
+   - Write a one-sentence consequence that answers: what changes for understanding, treatment, diagnosis, or research direction because of this finding?
+   - Use language an educated non-specialist can grasp without background in ME/CFS pathophysiology.
+   - Never overstate: if the finding has zero current practical consequence (pure basic science, no translational horizon), state that honestly — e.g., "Consequence: currently a basic mechanistic observation with no direct clinical or diagnostic application."
+   - Never fabricate implications.
+4. Verify scientific accuracy is preserved — the consequence must not contradict or overstate the finding it translates.
+
+**Quality criteria for consequence sentences:**
+- Concrete, not abstract: "If replicated, this would give clinicians a blood test that distinguishes ME/CFS from depression" > "This has diagnostic implications."
+- Specific about who it matters to: patients, clinicians, researchers, drug developers.
+- Specific about timeframe if known: "This could be actionable within 2–3 years" vs "This is decades from clinical application."
+- Honest about uncertainty: "This is early-stage — may turn out to be a dead end" is acceptable.
+
+**Gate:** Every new environment from Phase 3 must have a consequence field before Phase 4 begins.
+
+**Report:** "Phase 3.5 complete: N environments verified, M missing consequence fields added, K existing fields accepted as-is."
 
 ---
 
@@ -289,7 +321,7 @@ Synthesize Phase 1 findings + Phase 2 synthesis + existing paper. Generate ideas
 11. Null hypothesis assessment — what would it mean if this mechanism has no role? What existing paper claims would need revision?
 12. Evidence quality concerns — limitations not captured by certainty scores (confounders, selection bias, measurement validity, generalizability gaps)
 
-Per idea: mechanistic rationale + evidence link + preliminary certainty (0.0–1.0) + falsifiable prediction.
+Per idea: mechanistic rationale + evidence link + preliminary certainty (0.0–1.0) + falsifiable prediction + **non-specialist consequence** (one sentence: why would this matter if true? Who would it affect — patient, clinician, researcher? What would change? Never overstate; if the idea has zero foreseeable practical consequence, state that).
 
 **Brainstorm certainty is provisional:** Phase 4 certainties are the generator's self-assessment and MUST be independently reassessed in Phase 5 before integration decisions. The Phase 5 triage uses the reassessed certainty, not the Phase 4 value.
 
@@ -422,6 +454,10 @@ This prevents rework in Phase 5a.
 ### Brainstorm Origin Labelling
 
 Every idea integrated from the brainstorm must carry `(Origin: brainstorm)` in the environment body, persisting into the published chapter text. This distinguishes AI-generated speculative content from literature-derived findings. Readers can see provenance.
+
+### Non-Specialist Consequence (applies to Tiers 1–2 and Critical Categories)
+
+Same requirement as Phase 3: every environment written in Phase 5 must contain a `*Consequence:* [one sentence]` field. For brainstorm ideas — inherently more speculative than Phase 3's literature-derived findings — consequences must be especially careful about certainty and must never overstate. Format: `*Consequence:* [what changes if this is true — for patients, clinicians, or researchers. If zero current practical consequence, state that honestly.]` This is translation of significance, not simplification of the science.
 
 ### Context Chunking
 
@@ -748,6 +784,7 @@ Add to Phase 0 tracking: `7 | R reinforcement pairs, F feed-in pairs, C conflict
 4. **Narrative coherence:** If ch06 introduces a mechanism and ch14 discusses its treatment implications, the treatment rationale must accurately reflect the ch06 description (not a stale version).
 5. **Contradiction detection:** Flag any case where two chapters make incompatible claims about the same mechanism (e.g., ch07 says "upregulated" and ch09 says "downregulated" for the same pathway).
 6. **Evidence-to-claim calibration:** If the same mechanism has certainty 0.60 in ch06 and certainty 0.45 in ch09, verify that the difference reflects different evidence bases (not a synchronization error).
+7. **Non-specialist consequence presence:** Every environment scope (new and pre-existing, across all modified chapters) must have a `*Consequence:*` field. Flag any environment missing it. For pre-existing environments that lack a consequence field (written before this rule existed), flag them as "retrofit needed."
 
 **Output:** `content-staging/coherence-audit-<topic-slug>-<date>.md`
 
@@ -792,11 +829,12 @@ Add to Phase 0 tracking: `7 | R reinforcement pairs, F feed-in pairs, C conflict
    - Never place in the hypothesis registry or appendix — synthesis belongs in the narrative body
 
 5. **Environment constraints:**
-   - Must use `#synthesis` (not `#hypothesis-box`, `#speculation`, or `#achievement` — synthesis aggregates evidence, it doesn't present a new claim)
-   - Must cross-reference at least two integrated environments via `@spec:`, `@hyp:`, `@oq:`, or `@lim:` labels
-   - Must state the most important open question(s) — synthesis is not triumphalism
-   - Must distinguish what the evidence supports from what remains speculative
-   - No new citations beyond those already in the integrated environments
+    - Must use `#synthesis` (not `#hypothesis-box`, `#speculation`, or `#achievement` — synthesis aggregates evidence, it doesn't present a new claim)
+    - Must cross-reference at least two integrated environments via `@spec:`, `@hyp:`, `@oq:`, or `@lim:` labels
+    - Must state the most important open question(s) — synthesis is not triumphalism
+    - Must distinguish what the evidence supports from what remains speculative
+    - No new citations beyond those already in the integrated environments
+    - **Must include a `*Consequence:* [one sentence]` field** translating what the convergent model means for non-specialists. A synthesis consequence should capture the collective significance: e.g., "Consequence: multiple independent mechanisms pointing to the same cellular defect strengthen the case for targeting that defect therapeutically, even though each individual mechanism is still under investigation."
 
 6. **Add label** `<syn:topic-slug-model>` for changelog cross-referencing.
 
@@ -872,6 +910,8 @@ Between passes: run `nix build` — confirm no regressions from fixes.
 
 **Post-convergence update:** Update Phase 9's `SLOW-CONVERGENCE` flag retroactively based on actual round counts.
 
+**Additional review scope — non-specialist consequence audit:** During Phase 11a (review-convergence) and 11c (review-typst), the reviewer must also check: does every environment in the changed files include a `*Consequence:*` field? If not, flag as a finding. For pre-existing environments that lack consequence fields (written before this rule was added), flag as "retrofit-candidate: consequence field missing" — do not block convergence on these, but report them. For environments created in the current `/integrate-topic` cycle, missing consequence fields are blocking findings.
+
 ---
 
 ## Phase 12 — Changelog Update
@@ -917,6 +957,7 @@ WIP checkpoint commits from the Git Checkpoint Protocol are squashed into the fi
 | 1 | `literature-integrator` | sonnet | Research synthesis needs judgment |
 | 2 | main session | current | Evidence synthesis + integration decision at zero marginal cost |
 | 3 | main session | current | Composition at zero marginal cost |
+| 3.5 | main session | current | Non-specialist consequence verification — read environments, add missing consequence fields |
 | 4 | `scientific-insight-generator` | opus | Creative cross-domain synthesis (constructive + critical categories) |
 | 4a | main session | current | Mechanical tree write |
 | 5 | `literature-integrator` (sub) | sonnet | Per-idea research (Tier 1 only) |
@@ -955,3 +996,4 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 - **Scrape registry checked** before scraping any URL
 - **Build must pass** — do not declare completion if `nix build` fails
 - **Queue persistence** — all queued topics written to `ops/queued-topics.md`; survives context rotation
+- **Non-specialist consequence required** — every `#hypothesis-box`, `#fhypothesis`, `#speculation`, `#synthesis`, `#achievement`, `#clinical-finding`, `#prediction`, `#open-question`, and `#limitation` must carry a `*Consequence:*` field translating why the finding matters in language an educated non-specialist can grasp. This is translation of significance — scientific precision is preserved, not diluted. If the finding has zero current practical consequence, that is the honest answer.

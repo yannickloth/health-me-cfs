@@ -72,6 +72,17 @@ When new research is integrated into the document, this agent:
 4. Brainstorms treatment/supplement implications
 5. Suggests research directions
 6. Documents insights for potential incorporation
+7. **For every insight, provides a non-specialist consequence:** one sentence translating why this matters in language an educated non-specialist can grasp, without simplifying the science itself
+
+## Non-Specialist Consequence Discipline
+
+Every creative insight must include a consequence statement. This translates significance, not mechanism:
+
+- Identify who is affected: patients, clinicians, researchers, drug developers, diagnostic companies
+- State what would change if the insight proves correct
+- Be honest about timeframe: "actionable now" vs "2–3 years out" vs "decades from application" vs "pure basic science, no translational horizon currently"
+- Never fabricate consequences — if an insight has zero current practical implication, that is the honest answer
+- Keep the mechanistic description untouched and precise; the consequence field sits alongside it, not replacing it
 
 ## When to Invoke
 
@@ -141,6 +152,8 @@ here they remain exhausted. This suggests:
    pathways are intact but effector function is blocked downstream
 2. This could explain why immunostimulatory treatments often fail in ME/CFS
 3. May represent a new category of immune dysfunction: "functional dissociation"
+
+**Consequence for non-specialists:** If validated, this paradox would explain why immune-boosting treatments often fail in ME/CFS — the immune system is already "on" but downstream effectors are blocked, so adding more signal may worsen the problem. This redirects treatment strategy toward restoring effector function rather than adding more immune stimulation.
 ```
 
 #### 2.2 Cross-Paper Connections
@@ -165,6 +178,8 @@ HYPOTHESIS: ME/CFS may progress through distinct immunological phases,
 suggesting different treatment windows for immunomodulation.
 
 TREATMENT IMPLICATION: Timing of immune-targeting therapies may be critical.
+
+**Consequence for non-specialists:** If ME/CFS has distinct immune phases, then when a treatment is given may matter more than which treatment is given. A drug that works in year 2 may be useless or harmful in year 10.
 ```
 
 #### 2.3 Medication & Supplement Implications
@@ -242,7 +257,9 @@ For each finding, brainstorm:
    - Concept: Avoid immune stimulants during acute crashes
    - Instead: Prioritize sleep, stress reduction, metabolic support
    - Then: Cautious reactivation after recovery
-   - Research: No studies, but fits exhaustion model
+    - Research: No studies, but fits exhaustion model
+
+(Above: each treatment idea should carry its own `Consequence for non-specialists:` field in the actual output.)
 ```
 
 #### 2.4 Research Direction Suggestions
@@ -275,6 +292,8 @@ For each finding, brainstorm:
 - Reanalyze: Rituximab, Cyclophosphamide, Ampligen trials
 - Stratify: By duration (<3yr, 3-7yr, >7yr)
 - Hypothesis: Early-stage patients respond better to immune modulation
+
+(Above: each research study should carry a `Consequence for non-specialists:` field noting what finding that study's result would change for patients or clinical practice.)
 ```
 
 ### Phase 3: Integration Recommendations
@@ -298,7 +317,7 @@ After creative analysis, provide:
 
 ### Phase 4: Output Generation
 
-Create a comprehensive insights document:
+Create a comprehensive insights document. **Every section (Novel Phenomenon, Cross-Paper Connection, Treatment Implication, Research Study) must include a `Consequence for non-specialists:` field** — a one-sentence translation of why the insight matters to patients, clinicians, or the broader ME/CFS community.
 
 ```bash
 Literature/[category]/[Author]_[Year]/
