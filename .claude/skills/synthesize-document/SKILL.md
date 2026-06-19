@@ -18,29 +18,51 @@ Scans the entire paper (or scoped subset) for scattered environments that collec
 
 ## Phase 1 — Environment Inventory
 
-**Agent:** main session | **Model:** current
+**Agent:** `explore` | **Model:** haiku | **Execution:** foreground (must return structured data)
 
 1. **Extract all environments** from scoped `.typ` files:
    ```bash
    rg -U '(#(speculation|hypothesis-box|fhypothesis|open-question|achievement|clinical-finding|limitation)\()' <scope>
    ```
-   The `-U` (multiline) flag ensures environments with arguments on subsequent lines are matched. For each: record label, chapter, environment type, certainty (if present), and a one-line claim summary.
+   The `-U` (multiline) flag ensures environments with arguments on subsequent lines are matched.
 
-2. **Index by mechanism terms.** Build a term→environment map. Extract from each environment's title and body: drug names, gene/protein names, disease names, pathway names, tissue/organ names, molecular mechanisms. Use these as clustering keys:
-   - **Mechanism clusters:** same enzyme, receptor, ion channel, signaling pathway (e.g., "tryptase", "MMP", "FcεRI", "PIP2", "TRPM3")
-   - **Tissue clusters:** same organ or tissue (e.g., "endothelial", "connective tissue", "brainstem", "skeletal muscle")
-   - **Drug class clusters:** same drug or drug family (e.g., "omalizumab", "lithium", "GLP-1 RA", "ketotifen")
-   - **Pathological process clusters:** same disease mechanism (e.g., "autoantibody", "NETosis", "senescence", "glymphatic")
+2. For each environment found, **read ≥10 lines of context** to understand the claim. Record in a structured table:
 
-3. **Identify candidate clusters.** A candidate cluster has ≥3 environments from ≥2 different integration cycles OR ≥2 different chapters that share a mechanism/tissue/drug/pathology key. Determine integration cycle origin from `origin: brainstorm` tags in environment bodies or from `research_stream` fields in `.bib` files — do not rely on integration plan formats which vary. Priority for cluster formation: mechanism > tissue > drug class > pathological process. Rationale: mechanistic convergence is the strongest argument (independent pathways hitting the same target), followed by tissue-level (same organ, different mechanisms), then drug class (same therapeutic approach), then pathological process (same disease pattern).
+   | Label | Chapter | Type | Cert | Claim (≤1 sentence) | Mechanism terms | Tissue terms | Drug terms | Process terms |
+   |-------|---------|------|------|---------------------|-----------------|--------------|------------|---------------|
+
+   Extract terms from the title and body. Be thorough — a single environment may contribute to multiple clusters.
+
+3. **Index by terms.** Build four inverted indexes mapping each mechanism/tissue/drug/process term → list of environment labels. Term extraction is mechanical — the explore agent should return the full structured table and inverted indexes, not a summary.
+
+4. **Identify candidate clusters.** For each term that appears in ≥3 environment rows AND those environments span ≥2 chapters OR ≥2 distinct `research_stream` values (from `.bib` files), flag as a candidate cluster. Report: term, environment count, chapter list, stream list.
+
+**Output:** Structured table (all environments + terms) and candidate cluster list written to `tmp/synthesis-inventory-<date>.md`. The main session reads this file; the explore agent does not perform Phase 2.
 
 ---
 
 ## Phase 2 — Cluster Evaluation
 
-**Agent:** main session | **Model:** current
+**Agent:** `sonnet-general` | **Model:** sonnet | **Execution:** foreground (report → main session decision)
 
-For each candidate cluster, determine eligibility:
+Read the Phase 1 output file (`tmp/synthesis-inventory-<date>.md`). For each candidate cluster:
+
+1. **Read ≥10 lines of context** for every environment in the cluster to verify the claim summaries are accurate and that environments genuinely share the claimed mechanism/tissue/drug/process.
+
+2. **Apply eligibility gates:** classify each candidate as Eligible, Skip (Adjacent), Skip (Thin), Skip (Already Synthesized), or Merge (Overlap). Use the rules below. Output a decision table:
+
+   ```
+   | Cluster | Term | N envs | N chapters | N streams | Decision | Rationale |
+   |---------|------|--------|------------|-----------|----------|-----------|
+   ```
+
+3. **For eligible clusters**, add a `Convergent theme` column: one sentence describing what this body of evidence collectively argues or reinforces. The theme must cite ≥2 independent evidence sources (different labs, different integration cycles). If environments only reinforce an existing claim, state "reinforces [claim] via N independent lines."
+
+4. **Halt at 10.** If >10 clusters are eligible after filtering, stop and report the top 10 (prioritized: mechanism > tissue > drug class > process). Defer the rest.
+
+**Output:** Decision table written to `tmp/synthesis-evaluation-<date>.md`. The main session reads this file and decides which syntheses to write in Phase 3.
+
+**Gates (applied by agent):**
 
 | Gate | Condition | Action |
 |------|-----------|--------|
@@ -139,8 +161,8 @@ Build: PASS
 
 | Phase | Agent | Model | Reason |
 |-------|-------|-------|--------|
-| 1 | main session | current | Mechanical grep + term extraction |
-| 2 | main session | current | Judgment-based cluster evaluation |
-| 3 | main session | current | Composition at zero marginal cost |
+| 1 | `explore` | haiku | Mechanical grep + term extraction + structured table — cheap, parallelizable |
+| 2 | `sonnet-general` | sonnet | Judgment-based cluster evaluation — needs domain reasoning |
+| 3 | main session | current | Composition — needs full paper context for placement decisions |
 | 4 | review-convergence + review-adversarial | sonnet/opus | Same as Phase 11 in integrate-topic |
 | 5 | main session | current | Git operations |
