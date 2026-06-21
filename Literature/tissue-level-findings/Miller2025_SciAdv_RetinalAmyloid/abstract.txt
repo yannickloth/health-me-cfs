@@ -1,0 +1,7 @@
+Miller SJ, Dhodapkar RM, Sutova HE, et al. SARS-CoV-2 induces Alzheimer's disease-related amyloid-β pathology in ex vivo human retinal explants and retinal organoids. Science Advances. 2025;11(27):eads5006.
+
+PMID: 40614201 | PMC12227045 | DOI: 10.1126/sciadv.ads5006
+
+Ex vivo human retinal explants and iPSC-derived retinal organoids infected with SARS-CoV-2 produce Aβ pathology. Demonstrates virus can trigger neurodegenerative proteinopathy outside the brain in accessible ocular tissue.
+
+Certainty: 0.60

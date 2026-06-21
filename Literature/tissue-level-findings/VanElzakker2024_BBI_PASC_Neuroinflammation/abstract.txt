@@ -1,0 +1,7 @@
+VanElzakker MB, Bues HF, Brusaferri L, et al. Neuroinflammation in post-acute sequelae of COVID-19 (PASC) as assessed by [11C]PBR28 PET imaging. Brain, Behavior, and Immunity. 2024;118:345-358.
+
+PMID: 38642615 | DOI: 10.1016/j.bbi.2024.03.014
+
+TSPO PET imaging study in PASC patients showing increased neuroinflammation in brainstem and other brain regions. First published PET evidence of neuroinflammation in Long COVID. Direct brain-level tissue examination.
+
+Certainty: 0.55

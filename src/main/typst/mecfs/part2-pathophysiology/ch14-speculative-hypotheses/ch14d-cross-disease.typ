@@ -2410,6 +2410,26 @@ In parallel, Kumar et al. demonstrated persistent alterations in T-cell activati
 How stable is the reprogrammed immune state in post-infectious conditions? Is selective immune cell reprogramming an actively maintained process (requiring ongoing antigenic or inflammatory drive) or an epigenetically self-sustaining state that persists after the initial trigger resolves? The Bergemann hyperthermia study's finding (now replicated mechanistically by Hochecker et al., who demonstrated WBH reduces autophagy and improves mitochondrial respiration in ME/CFS PBMCs @Hochecker2025HyperthermiaMECFS) that some stress signatures are dynamically modifiable suggests at least partial reversibility, but the durability and scope of immune reprogramming remain unknown. Longitudinal studies tracking immune cell states from acute infection through chronicity, combined with perturbation-based assays (heat, exercise, pharmacological challenge), are needed. @Watton2026unified
 ] <oq:immune-reprogramming-durability>
 
+#speculation(title: [Intrapulmonary Shunt as Post-Viral Mechanism of Tissue Hypoxia])[
+*(Certainty: 0.35 — inferred from Long COVID data; zero direct ME/CFS measurements; mechanistic plausibility supported by pre-existing anatomical substrate and documented HPV impairment.)*
+
+Intrapulmonary right-left shunt — blood bypassing alveolar oxygenation via pre-existing arteriovenous anastomoses (IPAVAs) — may be a shared post-viral mechanism contributing to tissue hypoxia in both Long COVID and post-infectious ME/CFS. The evidence chain supporting this inference comes from five independent lines, all from post-COVID populations, with no direct ME/CFS data:
+
+- *Shunt persistence:* Qs/Qt elevated to ~8% (normal 3--5%) at 6 months post-COVID, despite normal spirometry and DLCO @Farrow2023IntrapulmonaryShunt. Independently replicated @Sandhu2026AlveolarDeadspace.
+- *Anatomical substrate:* Intrapulmonary arteriovenous anastomoses are present in ~30% of adults at rest and open in nearly all during exercise @Lyne2024IntrapulmonaryShunt. Intrapulmonary bronchopulmonary anastomoses serve as microvascular shunt channels @Bush2022MicrovascularShunts.
+- *Impaired protective reflex:* Hypoxic pulmonary vasoconstriction (HPV) — the mechanism that normally reduces shunt by constricting vessels in poorly ventilated lung regions — is impaired after SARS-CoV-2 infection @Li2024RepercussionsShunt. If other viral triggers similarly impair HPV, the mechanism generalizes beyond COVID.
+- *Functional shunt regulation:* IPAVA flow is actively regulated by oxygen tension — hyperoxia reduces shunt flow, while exercise and hypoxia may increase it @Davis2023HyperoxiaIPAVA. This dynamic regulation suggests a mechanism for exertional worsening.
+- *Clinical phenotype match:* The case of platypnea-orthodeoxia (positional hypoxemia) after COVID with no cardiac shunt @Espejo2025PlatypneaOrthodeoxia demonstrates that post-viral intrapulmonary shunt can be clinically significant — severe enough to cause measurable desaturation on standing.
+
+(Origin: integrative — literature-derived; no ME/CFS data exist.)
+
+*If this mechanism operates in ME/CFS:* Post-exertional tissue hypoxia — already inferred from metabolic phenotypes @Hoel2021MetabolicPhenotypes, lactate elevation, and impaired oxygen extraction @walitt2024deep — would have an identifiable proximal cause upstream of the microcirculatory and mitochondrial dysfunction documented in Chapter @ch:energy-metabolism. The shunt would be a *source* of reduced arterial oxygen content, distinct from the *delivery* bottlenecks (endothelial dysfunction, RBC deformability, capillary remodeling) already described.
+
+*Falsifiable prediction:* ME/CFS patients undergoing 100% FiO#sub[2] shunt testing (A-a gradient measurement) would show Qs/Qt significantly above healthy controls (>5%), with the shunt fraction correlating with 2-day CPET measures of exertional desaturation and PEM severity. Falsified if Qs/Qt is normal (3--5%) in ME/CFS patients with documented exertional hypoxemia.
+
+*Consequence:* If confirmed, intrapulmonary shunt would provide a treatable upstream target — supplemental oxygen during exertion, or interventions to restore HPV (pulmonary vasoconstriction) — for a subset of ME/CFS patients whose hypoxia is driven at the pulmonary level rather than the microcirculatory level. Until measured, this remains a plausible but untested extrapolation from Long COVID.
+] <spec:intrapulmonary-shunt-postviral>
+
 === Cross-Disease Research Directions
 
 #open-question(title: [Long-COVID ATG13 Signature Comparison])[

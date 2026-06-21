@@ -3000,6 +3000,216 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
 
 // =============================================================================
 
+== Direct Tissue Examination Findings in Long COVID and ME/CFS
+<sec:bib-tissue-level-findings>
+// =============================================================================
+
+    *Full Citation:*: VanElzakker MB, Bues HF, Brusaferri L, et al.\ Neuroinflammation in post-acute sequelae of COVID-19 (PASC) as assessed by [11C]PBR28 PET imaging. _Brain, Behavior, and Immunity_. 2024;118:345–358. @VanElzakker2024NeuroinflammationPASC
+    *DOI:*: #link("https://doi.org/10.1016/j.bbi.2024.03.014")[10.1016/j.bbi.2024.03.014]
+    *PMID:*: 38642615
+    *Published:*: 2024
+    *Study Design:*: TSPO PET neuroimaging study
+    *Sample Size:*: Approximately 20 PASC patients
+    *Key Findings:*: Increased TSPO PET signal (marker of glial activation/neuroinflammation) in brainstem and other brain regions of PASC patients compared to controls. Provides direct brain-level evidence that neuroinflammation is present in long COVID.
+    *Conclusion:*: Neuroinflammation is detectable in PASC brain tissue via PET imaging, supporting neuroimmune mechanisms.
+    *Limitations:*: Moderate sample size; TSPO tracers bind to both microglia and astrocytes; single timepoint.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (Brain, Behavior, and Immunity; PET imaging gold standard)
+        - *Sample:* Moderate (n~20)
+        - *Replication:* First published PASC TSPO PET study
+        - *Score:* 0.55
+
+---
+
+    *Full Citation:*: Miller SJ, Dhodapkar RM, Sutova HE, et al.\ SARS-CoV-2 induces Alzheimer's disease-related amyloid-$\beta$ pathology in ex vivo human retinal explants and retinal organoids. _Science Advances_. 2025;11(27):eads5006. @Miller2025RetinalAmyloid
+    *DOI:*: #link("https://doi.org/10.1126/sciadv.ads5006")[10.1126/sciadv.ads5006]
+    *PMID:*: 40614201
+    *PMCID:*: PMC12227045
+    *Published:*: 2025
+    *Study Design:*: Ex vivo human tissue + iPSC retinal organoid infection model
+    *Key Findings:*: SARS-CoV-2 infection of human retinal explants and retinal organoids induces amyloid-$\beta$ pathology. Virus triggers neurodegenerative proteinopathy in accessible ocular tissue, suggesting a possible retinal biomarker for CNS pathology. First author SJ Miller (Yale).
+    *Conclusion:*: SARS-CoV-2 directly induces Alzheimer's-related amyloid pathology in retinal tissue, supporting the antimicrobial hypothesis of amyloid-$\beta$ and providing a window into CNS effects.
+    *Limitations:*: Ex vivo / organoid model, not in vivo human; long-term consequences unknown.
+    *Certainty Assessment:*:
+        - *Quality:* High (Science Advances; ex vivo human tissue)
+        - *Sample:* Not applicable (ex vivo)
+        - *Replication:* Single study
+        - *Score:* 0.60
+
+---
+
+    *Full Citation:*: Lederer K, Bettini E, Parvathaneni K, et al.\ Germinal center responses to SARS-CoV-2 mRNA vaccines in healthy and immunocompromised individuals. _Cell_. 2022;185(6):1008–1024. @Lederer2022LymphNodeGC
+    *DOI:*: #link("https://doi.org/10.1016/j.cell.2022.01.027")[10.1016/j.cell.2022.01.027]
+    *PMID:*: 35202565
+    *Published:*: 2022
+    *Study Design:*: Lymph node fine-needle aspiration with spectral flow cytometry
+    *Sample Size:*: 54 subjects (healthy + immunocompromised)
+    *Key Findings:*: Direct lymph node sampling to characterize germinal center B cell and Tfh cell responses after SARS-CoV-2 mRNA vaccination. Established LN FNA methodology for assessing GC dynamics in humans. Locci is co-author.
+    *Conclusion:*: SARS-CoV-2 mRNA vaccines elicit robust GC reactions in draining lymph nodes; responses impaired in immunocompromised individuals.
+    *Limitations:*: Vaccine response study, not disease study. No ME/CFS or LC patients included.
+    *Certainty Assessment:*:
+        - *Quality:* High (Cell; robust methodology)
+        - *Sample:* N=54
+        - *Replication:* Replicated by multiple groups
+        - *Score:* 0.70
+    *ME/CFS Relevance:*: Establishes the methodological framework for examining lymph node tissue directly in post-infectious syndromes. The same FNA approach could test whether GC dysfunction characterizes ME/CFS.
+
+---
+
+    *Full Citation:*: Eberhardt N, Noval MG, Kaur R, et al.\ SARS-CoV-2 infection triggers pro-atherogenic inflammatory responses in human coronary vessels. _Nature Cardiovascular Research_. 2023;2(11):1034–1049. @Eberhardt2023CoronaryPlaque
+    *DOI:*: #link("https://doi.org/10.1038/s44161-023-00336-5")[10.1038/s44161-023-00336-5]
+    *PMID:*: 38076343
+    *Published:*: 2023
+    *Study Design:*: Ex vivo human coronary tissue analysis (autopsy/surgery specimens)
+    *Key Findings:*: SARS-CoV-2 Spike protein detected in coronary plaque macrophages. COVID-19 infection triggers pro-atherogenic inflammatory gene expression in human coronary arteries. Direct tissue evidence that SARS-CoV-2 promotes vascular inflammation at the plaque level.
+    *Conclusion:*: SARS-CoV-2 infection directly promotes pro-atherogenic inflammation in the coronary vasculature, providing mechanism for increased cardiovascular risk post-COVID.
+    *Limitations:*: Ex vivo analysis; primarily descriptive without interventional component.
+    *Certainty Assessment:*:
+        - *Quality:* High (Nature Cardiovascular Research)
+        - *Sample:* Moderate
+        - *Replication:* Consistent with clinical epidemiology of increased MI risk post-COVID
+        - *Score:* 0.65
+
+---
+
+    *Full Citation:*: Schlick S, Lucio M, Wallukat G, et al.\ Post-COVID-19 syndrome: retinal microcirculation as a potential marker for chronic fatigue. _International Journal of Molecular Sciences_. 2022;23(22):13982. @Schlick2022RetinalMicrocirc
+    *DOI:*: #link("https://doi.org/10.3390/ijms232213982")[10.3390/ijms232213982]
+    *PMID:*: 36430175
+    *Published:*: 2022
+    *Study Design:*: Retinal OCT-A imaging cross-sectional study
+    *Sample Size:*: 40 PCS patients
+    *Key Findings:*: Retinal microcirculation parameters measured by OCT-A significantly correlated with self-reported chronic fatigue severity in PCS. Direct retinal vascular imaging reveals microcirculatory pathology linked to fatigue symptoms.
+    *Conclusion:*: Retinal microcirculation may serve as a biomarker for chronic fatigue severity in PCS, supporting microvascular involvement in symptom persistence.
+    *Limitations:*: Cross-sectional; moderate sample size; correlation does not establish causation.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (IJMS)
+        - *Sample:* n=40
+        - *Replication:* Single study
+        - *Score:* 0.45
+
+---
+
+    *Full Citation:*: Cañadas P, Gonzalez-Vides L, Alberquilla García-Velasco M, et al.\ Neuroinflammatory findings of corneal confocal microscopy in long COVID-19 patients, 2 years after acute SARS-CoV-2 infection. _Diagnostics_. 2023;13(22):3469. @Cañadas2023CornealConfocal
+    *DOI:*: #link("https://doi.org/10.3390/diagnostics13223469")[10.3390/diagnostics13223469]
+    *PMID:*: 37892009
+    *Published:*: 2023
+    *Study Design:*: Corneal confocal microscopy cross-sectional study
+    *Sample Size:*: 50 long COVID patients, 2 years post-infection
+    *Key Findings:*: Reduced corneal nerve fiber density and increased immune cell infiltrate detected by corneal confocal microscopy. Direct corneal tissue-level evidence of persistent small nerve fiber pathology and neuroinflammation in long COVID years after acute infection.
+    *Conclusion:*: Ocular neuroinflammation persists for at least 2 years after SARS-CoV-2 infection, suggesting ongoing tissue-level immune dysregulation.
+    *Limitations:*: Cross-sectional; corneal findings may not directly reflect CNS pathology.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (Diagnostics)
+        - *Sample:* n=50
+        - *Replication:* Single study
+        - *Score:* 0.50
+
+---
+
+    *Full Citation:*: Mátyás BB, Benedek I, Blîndu E, et al.\ Elevated FAI index of pericoronary inflammation on coronary CT identifies increased risk of coronary plaque vulnerability after COVID-19 infection. _International Journal of Molecular Sciences_. 2023;24(8):7394. @Mátyás2023PericoronaryInflam
+    *DOI:*: #link("https://doi.org/10.3390/ijms24087394")[10.3390/ijms24087394]
+    *PMID:*: 37108558
+    *Published:*: 2023
+    *Study Design:*: Coronary CT angiography study
+    *Sample Size:*: 128 patients
+    *Key Findings:*: Increased pericoronary fat attenuation index (FAI) post-COVID-19, indicating enhanced local vascular inflammation and plaque vulnerability. Imaging surrogate for arterial tissue-level inflammatory response.
+    *Limitations:*: Single-center; retrospective; FAI is an indirect marker of inflammation.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (IJMS)
+        - *Sample:* n=128
+        - *Replication:* Consistent with known cardiovascular risk post-COVID
+        - *Score:* 0.55
+
+---
+
+    *Full Citation:*: Blagova O, Lutokhina Y, Kogan E, et al.\ Chronic biopsy proven post-COVID myoendocarditis with SARS-Cov-2 persistence and high level of antiheart antibodies. _Clinical Cardiology_. 2022;45(11):1159–1167. @Blagova2022Myoendocarditis
+    *DOI:*: #link("https://doi.org/10.1002/clc.23927")[10.1002/clc.23927]
+    *PMID:*: 35855554
+    *Published:*: 2022
+    *Study Design:*: Endomyocardial biopsy with virological and immunological analysis
+    *Sample Size:*: 14 post-COVID patients
+    *Key Findings:*: Endomyocardial biopsy-proven inflammation months after COVID-19. SARS-CoV-2 detected in myocardium by PCR. Elevated anti-heart antibodies. Direct tissue evidence of viral persistence and ongoing autoimmune response in cardiac tissue.
+    *Limitations:*: Small n; selected population (symptomatic enough to undergo biopsy); single center.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (Clinical Cardiology)
+        - *Sample:* n=14
+        - *Replication:* Consistent with broader viral persistence literature
+        - *Score:* 0.40
+
+---
+
+    *Full Citation:*: Yonker LM, Swank Z, Gilboa T, et al.\ Zonulin antagonist, larazotide (AT1001), as an adjuvant treatment for multisystem inflammatory syndrome in children: a case series. _Critical Care Explorations_. 2022;4(2):e0637. @Yonker2022LarazotideMISC
+    *DOI:*: #link("https://doi.org/10.1097/CCE.0000000000000637")[10.1097/CCE.0000000000000637]
+    *PMID:*: 35211683
+    *Published:*: 2022
+    *Study Design:*: Case series (n=3)
+    *Key Findings:*: Larazotide (zonulin antagonist, tight junction regulator) used as adjuvant therapy in MIS-C. Clinical improvement observed. Hypothesis: SARS-CoV-2 in gut lumen causes zonulin release, loosening tight junctions and enabling viral particle translocation into circulation. Larazotide blocks zonulin receptor, restoring gut barrier integrity.
+    *Limitations:*: n=3, case series, no control. Not studied in ME/CFS or adult LC.
+    *Certainty Assessment:*:
+        - *Quality:* Low (case series)
+        - *Sample:* n=3
+        - *Replication:* Single case series
+        - *Score:* 0.20
+
+---
+
+    *Full Citation:*: Visser D, Pieperhoff L, Lorenzini L, et al.\ Decreased functional connectivity in post-COVID syndrome patients with high neuroinflammatory activity. _NeuroImage_. 2026;292:120624. @Visser2026NeuroinflammFC
+    *DOI:*: #link("https://doi.org/10.1016/j.neuroimage.2026.120624")[10.1016/j.neuroimage.2026.120624]
+    *PMID:*: 42034234
+    *Published:*: 2026
+    *Study Design:*: Combined TSPO PET and resting-state fMRI
+    *Sample Size:*: Approximately 50 post-COVID syndrome patients
+    *Key Findings:*: Combined TSPO PET neuroinflammation imaging with resting-state fMRI connectivity. Patients with high neuroinflammatory activity showed decreased functional connectivity, linking glial activation to network-level brain dysfunction. Complements VanElzakker 2024 finding by adding functional consequence dimension.
+    *Limitations:*: Cross-sectional; correlation between neuroinflammation and connectivity cannot establish directionality.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (NeuroImage)
+        - *Sample:* n~50
+        - *Replication:* Complements VanElzakker 2024
+        - *Score:* 0.55
+
+---
+
+    *Full Citation:*: Kim DY, Youn J, Kang N, et al.\ Potential application of brain-gut axis-based treatments in Long COVID and ME/CFS: a case-based systematic review. _Journal of Translational Medicine_. 2026;24:298. @Kim2026BrainGutAxis
+    *DOI:*: #link("https://doi.org/10.1186/s12967-026-06297-2")[10.1186/s12967-026-06297-2]
+    *PMID:*: 41668172
+    *Published:*: 2026
+    *Study Design:*: Case-based systematic review
+    *Key Findings:*: Systematic review covering brain-gut axis dysregulation in ME/CFS and Long COVID. Addresses intestinal permeability (leaky gut), dysbiosis, microbial translocation, and neuroinflammation as linked across gut and brain compartments.
+    *Limitations:*: Systematic review of existing literature, no new data.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (J Transl Med, systematic review)
+        - *Replication:* Synthesizes multiple studies
+        - *Score:* 0.55
+
+---
+
+    *Full Citation:*: Saleem S, Hussain A, Haroon M, et al.\ Dynamic microclot profiling: thromboelastography advances precision management in long COVID and myalgic encephalomyelitis/chronic fatigue syndrome. _Blood Coagulation & Fibrinolysis_. 2026. @Saleem2026MicroclotProfiling
+    *DOI:*: #link("https://doi.org/10.1097/MBC.0000000000001278")[10.1097/MBC.0000000000001278]
+    *PMID:*: 42274123
+    *Published:*: 2026
+    *Study Design:*: Literature review
+    *Key Findings:*: Reviews evidence for persistent fibrinoid microclots in LC and ME/CFS. Proposes thromboelastography as a diagnostic tool for detecting hypercoagulable state. Summarizes emerging field linking microclot formation, amyloid deposition, and impaired microcirculation.
+    *Limitations:*: Review of emerging field; limited interventional data.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (review)
+        - *Replication:* Synthesizes multiple labs' findings (Pretorius group, Kell group)
+        - *Score:* 0.50
+
+---
+
+    *Full Citation:*: Nemat-Gorgani M, Jensen MA, Davis RW. Glymphatic system dysregulation as a key contributor to myalgic encephalomyelitis/chronic fatigue syndrome. _International Journal of Molecular Sciences_. 2025;26(12):5798. @NematGorgani2025GlymphaticMECFS
+    *DOI:*: #link("https://doi.org/10.3390/ijms26125798")[10.3390/ijms26125798]
+    *PMID:*: 41373677
+    *Published:*: 2025
+    *Study Design:*: Narrative review
+    *Key Findings:*: Reviews evidence for glymphatic system dysfunction in ME/CFS. DTI-ALPS studies find 66% of ME/CFS patients have reduced glymphatic scores. Proposes glymphatic failure as a unifying mechanism linking sleep disruption, neuroinflammation, cognitive impairment, and waste accumulation (amyloid, tau).
+    *Limitations:*: Narrative review, not systematic; limited primary data on glymphatic function in ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (IJMS, review)
+        - *Score:* 0.40
+
+// =============================================================================
+
 == Long COVID and ME/CFS Overlap
 <sec:bib-long-covid>
 // =============================================================================
@@ -23136,3 +23346,167 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Limitations:*: Narrative review; not systematic; published in mid-tier journal.
     *Certainty:*: 0.50
 
+=== Farrow et al.\ 2023 — Increased Intrapulmonary Shunt and Alveolar Dead Space Post-COVID-19
+
+    *Full Citation:*: Farrow CE, Robles RA, Prisk GK, Harbut P, Malhotra A, Amis TC, Wagner PD. Increased intrapulmonary shunt and alveolar dead space post-COVID-19. _Journal of Applied Physiology_. 2023;135(5):1012--1022. @Farrow2023IntrapulmonaryShunt
+    *DOI:*: #link("https://doi.org/10.1152/japplphysiol.00267.2023")[10.1152/japplphysiol.00267.2023]
+    *Study Design:*: Prospective physiologic study: 100% O2 method for Qs/Qt
+    *Sample Size:*: n=26 post-COVID, n=13 healthy controls
+    *Key Findings:*:
+        - Qs/Qt elevated in post-COVID (~8%) vs healthy (~3%), persisted at 6-month follow-up
+        - Alveolar dead space also elevated
+        - Worsened with exercise
+        - Normal spirometry and DLCO in most patients — the "normal PFTs with desaturation" paradox
+        - Shunt fraction >5% (pathological) in 81% of post-COVID patients vs 23% of controls
+    *Conclusion:*: Intrapulmonary shunt persists at 6 months after COVID-19 despite apparent clinical recovery and normal routine pulmonary function tests. Exercise exacerbates shunt.
+    *Limitations:*: Moderate sample size; single-center; predominantly post-hospitalization; healthy controls not age-matched for exercise testing.
+    *Certainty:*: 0.62
+
+=== Harbut et al.\ 2023 — Intrapulmonary Shunt and Alveolar Dead Space in COVID-19
+
+    *Full Citation:*: Harbut P, Prisk GK, Lindwall R, Hamzei F, Palmgren J. Intrapulmonary shunt and alveolar dead space in a cohort of patients with acute COVID-19 pneumonitis and early recovery. _European Respiratory Journal_. 2023;61(1):2201117. @Harbut2023IntrapulmonaryShunt
+    *DOI:*: #link("https://doi.org/10.1183/13993003.01117-2022")[10.1183/13993003.01117-2022]
+    *Study Design:*: Prospective cohort: gas exchange analysis
+    *Sample Size:*: n=26 moderate COVID-19
+    *Key Findings:*:
+        - Elevated Qs/Qt during acute COVID-19 pneumonitis
+        - Elevated VD/VT indicating alveolar dead space from microvascular thrombi
+        - Gas exchange impairment persisted into early recovery phase
+        - Dual pathology: shunt from alveolar damage + dead space from microvascular thrombosis
+    *Conclusion:*: COVID-19 produces a dual gas exchange defect — shunt from alveolar injury and dead space from microvascular thrombosis, both quantifiable via gas exchange analysis.
+    *Limitations:*: Moderate sample size; acute/recovery only, not long-term follow-up; no healthy control group for comparison.
+    *Certainty:*: 0.62
+
+=== Sandhu et al.\ 2026 — Alveolar Deadspace and Intrapulmonary Shunt in Recovered COVID-19
+
+    *Full Citation:*: Sandhu D, Magor-Elliott S, Petousi N, Talbot N, Bennett A, Robbins PA. Alveolar deadspace and intrapulmonary shunt in healthy individuals and in individuals who have recovered from COVID-19 infection. _Experimental Physiology_. 2026;111(2):556--567. @Sandhu2026AlveolarDeadspace
+    *DOI:*: #link("https://doi.org/10.1113/EP092971")[10.1113/EP092971]
+    *Study Design:*: Cross-sectional physiologic study
+    *Sample Size:*: Recovered COVID-19 patients vs healthy controls
+    *Key Findings:*:
+        - Both alveolar deadspace and intrapulmonary shunt elevated in recovered COVID patients
+        - Confirms Farrow et al.\ 2023 findings in independent cohort
+        - Persistent pulmonary vascular dysfunction after COVID-19
+    *Conclusion:*: Independent replication of persistent intrapulmonary shunt after COVID-19, suggesting long-lasting pulmonary vascular impairment.
+    *Limitations:*: Moderate sample size; mid-tier journal; recovered patients only (no severe acute).
+    *Certainty:*: 0.55
+
+=== Grist et al.\ 2022 — Lung Abnormalities on 129Xe MRI in Long COVID
+
+    *Full Citation:*: Grist JT, Collier GJ, Walters H, Kim M, Chen M, Abu Eid G, Laws A, Matthews V, Jacob J, Rodgers O, Smith L, Grainge C, Rahman N, Gleeson FV. Lung abnormalities detected with hyperpolarized 129Xe MRI in patients with long COVID. _Radiology_. 2022;305(3):709--717. @Grist2022LungAbnormalities
+    *DOI:*: #link("https://doi.org/10.1148/radiol.220069")[10.1148/radiol.220069]
+    *Study Design:*: Prospective imaging study: hyperpolarized 129Xe MRI
+    *Sample Size:*: n=11 Long COVID patients with breathlessness, n=9 healthy controls
+    *Key Findings:*:
+        - Reduced RBC:TP ratio on 129Xe MRI in breathless Long COVID patients
+        - Impaired gas transfer despite normal CT scans, normal spirometry, normal DLCO
+        - Ventilation defects minimal — defect is in gas exchange/transfer, not ventilation
+        - Consistent with shunt-like physiology (blood bypasses ventilated alveoli)
+    *Conclusion:*: 129Xe MRI detects gas exchange impairment in Long COVID patients with normal PFTs. The pattern is consistent with intrapulmonary shunt rather than V/Q mismatch.
+    *Limitations:*: Very small sample; single-center; no direct shunt measurement (inferential via 129Xe MRI).
+    *Certainty:*: 0.55
+
+=== Lyne et al.\ 2024 — Intrapulmonary Shunt in Viral Hypoxaemia
+
+    *Full Citation:*: Lyne T, Camporota L, Montgomery H. Contribution of intrapulmonary shunt to the pathogenesis of profound hypoxaemia in viral infection: a mechanistic discussion with an illustrative case. _Journal of the Intensive Care Society_. 2024;25(4):427--431. @Lyne2024IntrapulmonaryShunt
+    *DOI:*: #link("https://doi.org/10.1177/17511437241267745")[10.1177/17511437241267745]
+    *Study Design:*: Case report + mechanistic narrative review
+    *Sample Size:*: 1 case
+    *Key Findings:*:
+        - Intrapulmonary arteriovenous anastomoses persist in ~30% of adults at rest
+        - These anastomoses open in nearly all adults during exertion
+        - Blood flowing through these anastomoses bypasses the alveolar capillary bed, causing hypoxemia
+        - This mechanism contributes to hypoxemia in COVID-19 and influenza A
+        - Anatomical substrate: pulmonary artery-vein anastomoses and bronchopulmonary anastomoses
+    *Conclusion:*: Intrapulmonary shunt via pre-existing anastomoses is a significant contributor to hypoxemia in viral infection, with implications for post-viral syndromes.
+    *Limitations:*: Single case report; review of established physiology rather than novel data; not specific to ME/CFS.
+    *Certainty:*: 0.42
+
+=== Li et al.\ 2024 — SARS-CoV-2 Repercussions on Intrapulmonary Shunt During OLV
+
+    *Full Citation:*: Li M, Duan X, Zhang J, Yang D. Repercussions of SARS-CoV-2 infection on intrapulmonary shunt in patients undergoing one-lung ventilation. _Journal of Cardiothoracic Surgery_. 2024;19(1):522. @Li2024RepercussionsShunt
+    *DOI:*: #link("https://doi.org/10.1186/s13019-024-03037-7")[10.1186/s13019-024-03037-7]
+    *Study Design:*: Observational study during one-lung ventilation
+    *Sample Size:*: Patients with prior SARS-CoV-2 vs controls
+    *Key Findings:*:
+        - Prior COVID infection associated with increased shunt fraction during OLV
+        - Implies impaired hypoxic pulmonary vasoconstriction (HPV) after COVID
+        - HPV impairment persists beyond acute infection
+        - Mechanism: pulmonary microarterial thrombosis and endothelial dysfunction
+    *Conclusion:*: SARS-CoV-2 impairs HPV, a key protective mechanism that normally limits shunt. This effect persists after infection resolution, increasing vulnerability to shunt-mediated hypoxemia.
+    *Limitations:*: Observational; surgical population; single-center; lower-tier journal.
+    *Certainty:*: 0.48
+
+=== Durand et al.\ 2020 — Exercise-Induced Hypoxemia and Intrapulmonary Shunt
+
+    *Full Citation:*: Durand F, Gaston AF, Vicenzi M, Deboeck G, Subirats E. Noninvasive pulmonary hemodynamic evaluation in athletes with exercise-induced hypoxemia. _Chest_. 2020;157(6):1560--1568. @Durand2020EIHemodynamic
+    *DOI:*: #link("https://doi.org/10.1016/j.chest.2020.01.037")[10.1016/j.chest.2020.01.037]
+    *Study Design:*: Hemodynamic study during exercise
+    *Sample Size:*: Athletes with and without exercise-induced hypoxemia
+    *Key Findings:*:
+        - Pulmonary capillary stress failure contributes to exercise-induced hypoxemia (EIH)
+        - Intrapulmonary shunt is a recognized mechanism of EIH
+        - Pulmonary hemodynamic changes during exercise correlate with desaturation
+    *Conclusion:*: Intrapulmonary shunt and pulmonary capillary stress are established causes of exercise-induced hypoxemia. This mechanism may be relevant to exertional dyspnea and PEM in ME/CFS.
+    *Limitations:*: Athlete population (not directly generalizable to ME/CFS); moderate sample size.
+    *Certainty:*: 0.60
+
+=== Davis et al.\ 2023 — Hyperoxia Reduces IPAVA Flow During Exercise
+
+    *Full Citation:*: Davis JT, Elliott JE, Duke JW, Cristobal A, Lovering AT. Hyperoxia-induced stepwise reduction in blood flow through intrapulmonary, but not intracardiac, shunt during exercise. _American Journal of Physiology: Regulatory, Integrative and Comparative Physiology_. 2023;324(5):R689--R700. @Davis2023HyperoxiaIPAVA
+    *DOI:*: #link("https://doi.org/10.1152/ajpregu.00014.2023")[10.1152/ajpregu.00014.2023]
+    *Study Design:*: Physiologic study: saline contrast echocardiography
+    *Sample Size:*: Healthy human subjects
+    *Key Findings:*:
+        - Hyperoxia dose-dependently reduces IPAVA (intrapulmonary shunt) blood flow during exercise
+        - Intracardiac shunt (PFO) unaffected by hyperoxia
+        - Demonstrates that intrapulmonary shunt is actively regulated by oxygen tension
+        - IPAVA flow is the primary source of exercise-induced shunt
+    *Conclusion:*: Intrapulmonary shunt via IPAVAs is dynamically regulated during exercise by oxygen levels. Higher FiO2 reduces shunt, while hypoxia (or exercise-induced desaturation) may increase it.
+    *Limitations:*: Small healthy sample; saline contrast is semi-quantitative; does not measure actual Qs/Qt.
+    *Certainty:*: 0.55
+
+=== Bush et al.\ 2022 — Microvascular Shunts in COVID-19 Pneumonia
+
+    *Full Citation:*: Bush D, Abman SH, Galambos C. Microvascular shunts in COVID-19 pneumonia. _American Journal of Respiratory and Critical Care Medicine_. 2022;206(2):227--228. @Bush2022MicrovascularShunts
+    *DOI:*: #link("https://doi.org/10.1164/rccm.202111-2627LE")[10.1164/rccm.202111-2627LE]
+    *Study Design:*: Morphologic review / letter
+    *Sample Size:*: N/A (review of prior histopathologic data)
+    *Key Findings:*:
+        - Intrapulmonary bronchopulmonary anastomoses act as anatomical microvascular shunts
+        - These shunts bypass the alveolar capillary bed
+        - Recruited in COVID-19 pneumonia, contributing to hypoxemia
+        - Potential link to "long COVID" symptoms via persistent shunt vessel recruitment
+    *Conclusion:*: The anatomical substrate for intrapulmonary shunting in COVID is pre-existing bronchopulmonary anastomoses that become recruited during infection.
+    *Limitations:*: Letter/review; no original data; top journal but limited evidence level.
+    *Certainty:*: 0.50
+
+=== Hoel et al.\ 2021 — Metabolic Phenotypes in ME/CFS
+
+    *Full Citation:*: Hoel F, Hoel A, Pettersen IKN, Rekeland IG, Risa K, Alme K, Sørland K, Bruland O, Lægreid IJ, Drevon CA, Fluge Ø, Mella O, Schrøder K, Tronstad KJ. A map of metabolic phenotypes in patients with myalgic encephalomyelitis/chronic fatigue syndrome. _JCI Insight_. 2021;6(16):e149217. @Hoel2021MetabolicPhenotypes
+    *DOI:*: #link("https://doi.org/10.1172/jci.insight.149217")[10.1172/jci.insight.149217]
+    *Study Design:*: Global metabolomics, lipidomics, hormone measurements
+    *Sample Size:*: n=83 ME/CFS, n=35 healthy controls
+    *Key Findings:*:
+        - Metabolic changes compatible with elevated energy strain
+        - Altered utilization of fatty acids and amino acids as catabolic fuels
+        - Three patient subsets with heterogeneous metabolic profiles
+        - Indirect evidence of tissue hypoxia driving metabolic adaptations
+    *Conclusion:*: ME/CFS involves a state of elevated energy strain and metabolic reprogramming. The pattern is compatible with, but not specific to, tissue hypoxia from intrapulmonary shunting.
+    *Limitations:*: Cross-sectional; metabolomics cannot determine the cause of energy strain; indirect evidence for shunt mechanism.
+    *Certainty:*: 0.65
+
+=== Espejo et al.\ 2025 — Platypnea-Orthodeoxia After COVID-19
+
+    *Full Citation:*: Espejo T, Kiakouama L, Etter R, Condrau S. Sudden-onset platypnea-orthodeoxia syndrome in a patient with lung adenocarcinoma and COVID-19 without a patent foramen ovale. _European Journal of Case Reports in Internal Medicine_. 2025;12(11):005732. @Espejo2025PlatypneaOrthodeoxia
+    *DOI:*: #link("https://doi.org/10.12890/2025_005732")[10.12890/2025_005732]
+    *Study Design:*: Case report
+    *Sample Size:*: 1 patient
+    *Key Findings:*:
+        - Platypnea-orthodeoxia (positional hypoxemia worse upright, better supine) occurred after COVID-19
+        - No PFO identified on bubble study — shunt was intrapulmonary, not intracardiac
+        - Demonstrates that COVID-19 can trigger functionally significant intrapulmonary shunt
+        - Positional variation (upright vs supine) suggests gravity-dependent recruitment of shunt vessels
+    *Conclusion:*: COVID-19 can induce intrapulmonary right-to-left shunt severe enough to cause positional hypoxemia, even without cardiac shunt.
+    *Limitations:*: Single case report; underlying lung adenocarcinoma confounds interpretation; no Qs/Qt measured.
+    *Certainty:*: 0.25
