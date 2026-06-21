@@ -121,3 +121,21 @@ In post-infectious conditions, viral antigen persistence and/or immune dysregula
 
 ---
 **Report:** Phase 2 complete: 2 papers strong (cert ≥ 0.60), 7 medium, 5 weak, 0 null, 5 missing evidence types. Decision: PARTIAL. Clinical relevance: LOW. Contradictions: none (1 methodological tension already documented in paper).
+
+---
+
+## Phase 9 — Integration Quality Assessment
+
+| Metric | Value |
+|--------|-------|
+| Net certainty change | 0 (no bumps or reductions applied) |
+| Reinforcement:contradiction ratio | 1:0 (Phase 6) + 2:0 (Phase 7) |
+| New falsifiable predictions | 12 (9 specs + 3 oqs) |
+| Paper length delta | +273 lines, 9 files |
+| Tier distribution | 0 T1, 6 T2, 12 T3 |
+| Clinical relevance | LOW |
+
+**Flags:**
+- **WEAK-EVIDENCE**: FIRED — Phase 2 was PARTIAL. All new envs cert 0.15–0.30.
+- **BLOAT**: NOT FIRED — 273 lines for 14 environments.
+- **CLINICAL-RISK**: NOT FIRED — no clinical recommendations made.
