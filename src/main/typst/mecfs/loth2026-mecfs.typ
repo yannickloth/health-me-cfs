@@ -176,6 +176,7 @@
 #include "part4-research/ch34-translational-findings/ch34-translational-findings.typ"
 #include "part4-research/ch35-research-infrastructure/ch35-research-infrastructure.typ"
 #include "part4-research/ch36-proposed-studies/ch36-proposed-studies.typ"
+#include "part4-research/research-proposals-index.typ"
 
 // ── Part V: Mathematical and Computational Modeling ───────────────────────────
 #include "part5-modeling/part5-intro.typ"
