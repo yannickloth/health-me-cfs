@@ -267,7 +267,33 @@ Intrapulmonary right-left shunt — blood traversing the pulmonary circulation w
 *Was intrapulmonary shunt ever measured in ME/CFS? No.* Zero studies have assessed Qs/Qt, IPAVA flow, or ventilatory gas exchange efficiency (A-a gradient on 100% FiO#sub[2]) in ME/CFS patients. All evidence comes from Long COVID cohorts or general exercise physiology. The anatomical substrate (IPAVAs) exists in the general population; the mechanism is physiologically validated; the post-viral persistence is documented. What is missing is the direct measurement in ME/CFS.
 
 *Consequence:* If intrapulmonary shunt contributes to tissue hypoxia in a subset of ME/CFS patients, a simple clinical test (shunt measurement on 100% O#sub[2]) could identify patients whose exertional dyspnea and desaturation are driven by a treatable pulmonary vascular mechanism. Currently, this is a research gap — not a clinical tool — but one that is directly measurable with existing gas exchange equipment. Until measured, shunt remains a plausible but unconfirmed contributor to the pre-mitochondrial oxygen delivery bottleneck documented above.
+
+*A direct test is feasible with existing equipment.* The 100% O#sub[2] shunt measurement protocol (15--20 minutes of 100% FiO#sub[2] breathing with arterial blood gas sampling) is standard clinical practice in pulmonary function laboratories. A cross-sectional study of 30 ME/CFS patients versus 30 controls would definitively answer whether shunt is elevated. Retrospective analysis of existing CPET datasets — which routinely archive arterial blood gas data including PaO#sub[2] and PaCO#sub[2] — could provide preliminary evidence at zero marginal cost: the A-a gradient (the alveolar-arterial oxygen pressure difference, a shunt surrogate that widens when blood bypasses ventilated alveoli) is calculable from standard CPET ABG data archived in studies by Walitt 2024 @walitt2024deep, Keller 2024 @keller2024cpet, and others. These datasets could answer the question without recruiting a single new patient. If the A-a gradient is normal in archived ME/CFS CPET data, shunt is unlikely to be a contributor; if it is elevated, formal Qs/Qt testing is warranted.
 ] <oq:intrapulmonary-shunt-mecfs>
+
+#speculation(title: [RBC Deformability--IPAVA Routing Synergy as Self-Reinforcing Shunt Driver])[
+*(Certainty: 0.20 — individual components (RBC stiffness, IPAVA anatomy) established; interaction untested. This speculation is contingent on shunt being elevated in ME/CFS (@oq:intrapulmonary-shunt-mecfs); if Qs/Qt is normal, the synergy mechanism is irrelevant. Origin: brainstorm.)*
+
+ME/CFS red blood cells exhibit impaired deformability: stiffer membranes, slower capillary transit, and elevated oxidative stress @Saha2025RBC_MECFS @GuoRBC2025microfluidic. In the pulmonary circulation, RBCs must deform to traverse alveolar capillaries (diameter ~5--7 μm, similar to RBC diameter ~7--8 μm). Stiff RBCs that cannot deform will preferentially route through low-resistance intrapulmonary arteriovenous anastomoses (IPAVAs, diameter ~25--50 μm) — channels that bypass the alveolar gas exchange surface. This routing preference creates a self-reinforcing shunt loop: stiff RBCs → increased IPAVA flow → reduced alveolar O#sub[2] uptake → tissue hypoxia → further oxidative RBC damage → more stiffness. Each pass through the lungs preferentially shunts the most-damaged RBCs away from oxygenation, while healthy deformable RBCs traverse capillaries and receive full oxygenation — creating a bimodal distribution of oxygenated vs deoxygenated blood that is more damaging than uniform mild hypoxemia.
+
+*Falsifiable prediction:* Within ME/CFS patients, RBC deformability (measured by microfluidic transit time or ektacytometry elongation index) inversely correlates with Qs/Qt on 100% O#sub[2] testing, independent of age, sex, and BMI. Falsified if R#super[2] < 0.10 in the combined model.
+
+*Consequence:* If stiff red blood cells preferentially bypass lung oxygenation, then RBC health and shunt magnitude are two sides of the same problem — interventions improving RBC deformability (antioxidants, membrane fluidity enhancers) could reduce shunt fraction without directly targeting pulmonary vasculature.
+
+*Limitation:* This is a mechanistic inference from two separately documented ME/CFS abnormalities (RBC stiffness + IPAVA anatomy). No study has measured both in the same patients. The IPAVA-diameter advantage for stiff RBCs is theoretical — actual flow partitioning depends on local pressure gradients, blood viscosity, and vasomotor tone that have not been characterized in ME/CFS.
+] <spec:rbc-ipava-synergy>
+
+#speculation(title: [Post-Exertional Shunt Window: Delayed IPAVA Closure as PEM Mechanism])[
+*(Certainty: 0.20 — IPAVA opening during exercise is documented in all adults @Lyne2024IntrapulmonaryShunt; HPV impairment post-viral is documented @Li2024RepercussionsShunt; the temporal link to PEM is conjectural. This speculation is doubly contingent: it requires both that shunt is elevated in ME/CFS (@oq:intrapulmonary-shunt-mecfs) AND that HPV impairment delays IPAVA closure by hours rather than minutes. Origin: brainstorm.)*
+
+In healthy individuals, IPAVAs open during exercise to accommodate increased pulmonary blood flow, then close within minutes of exercise cessation via hypoxic pulmonary vasoconstriction (HPV). If HPV is impaired — as documented after SARS-CoV-2 infection @Li2024RepercussionsShunt — IPAVAs may remain patent for hours after exercise rather than closing promptly. This creates a *persistent post-exertional shunt window*: arterial hypoxemia continues for hours after exercise cessation, producing prolonged tissue hypoxia that could contribute to the 24--48 hour PEM peak. The mechanism would explain the temporal gap between exercise and peak PEM that current models (lactate accumulation, cytokine release, ion dyshomeostasis) address only partially: if oxygen delivery is impaired for the entire recovery period, ATP regeneration and tissue repair are slowed, amplifying all downstream PEM mechanisms.
+
+*Falsifiable prediction:* ME/CFS patients show Qs/Qt >5% at 1h and 6h post-exercise (vs normalization within 30 min in healthy controls), with 6h Qs/Qt correlating with Day 2 PEM severity (ΔVO#sub[2] at ventilatory threshold) on 2-day CPET. Falsified if post-exercise Qs/Qt normalizes within 30 min in all patients, or if residual shunt does not predict PEM severity.
+
+*Consequence:* If a delayed shunt window exists, the key therapeutic window for PEM prevention would be the first 1--6 hours after exertion — targeting shunt closure (supplemental O#sub[2], positional strategies) in this window might reduce PEM severity even if the underlying HPV impairment cannot be permanently reversed.
+
+*Limitation:* IPAVA closure kinetics post-exercise have never been measured in any post-viral population, let alone ME/CFS. The healthy-physiology literature (Lovering 2008) shows IPAVA closure within minutes — the hypothesis requires that HPV impairment substantially delays this, which is unproven. Exercise-induced shunt may also be driven by factors other than IPAVAs (recruitment of bronchopulmonary anastomoses, increased cardiac output through fixed anatomical shunts) that would not respond to HPV restoration.
+] <spec:post-exertional-shunt-window>
 
 === Research Gaps at Step 1
 
@@ -2164,7 +2190,7 @@ A consistent finding across multiple physiological systems is preserved baseline
     - *Cardiovascular*: Resting cardiac parameters often normal; profound dysfunction during orthostatic or exercise challenge (Section @sec:cerebral-orthostatic)
     - *Cognitive*: Basic language comprehension preserved; executive function and working memory (high-demand) severely impaired @walitt2024deep
     - *Autonomic*: Baseline HRV present; blunted response to physiological challenges
-    - *Cerebral perfusion*: 91% of patients with normal resting HR/BP show abnormal cerebral blood flow reduction during tilt testing 
+    - *Cerebral perfusion*: 91% of patients with normal resting HR/BP show abnormal cerebral blood flow reduction during tilt testing
 
 This pattern is consistent with intact energy production capacity but impaired ability to _mobilize_ energy in response to demand—a coordination failure rather than a production failure.
 
@@ -2530,7 +2556,7 @@ Several findings support compartmental rather than global dysfunction:
 
     - *Preserved peripheral ATP at rest*: 31P-MRS studies show variable findings, with some patients showing normal resting muscle ATP despite symptoms
     - *Demand-response failure*: 91–100% of ME/CFS patients show abnormal cerebral blood flow reduction during orthostatic challenge—3-fold greater than controls —yet baseline perfusion may be preserved
-    - *Brain-specific hypometabolism*: PET and SPECT studies reveal regional brain hypometabolism without corresponding peripheral findings 
+    - *Brain-specific hypometabolism*: PET and SPECT studies reveal regional brain hypometabolism without corresponding peripheral findings
     - *Pharmacological bypass effectiveness*: Direct-acting agents like midodrine can restore function that CNS coordination cannot achieve, suggesting intact peripheral machinery
 
 === The Astrocyte-Neuron Lactate Shuttle
