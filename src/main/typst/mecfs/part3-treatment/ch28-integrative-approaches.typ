@@ -1246,7 +1246,7 @@ This section systematically examines other medical fields with similar potential
 
 ==== Mechanistic Overlap
 
-High-altitude medicine addresses tissue hypoxia from reduced atmospheric oxygen. ME/CFS involves functional hypoxia despite normal oxygen availability:
+High-altitude medicine addresses tissue hypoxia from reduced atmospheric oxygen. ME/CFS involves functional hypoxia despite normal oxygen availability in most patients — impaired O#sub[2] delivery (microcirculatory, rheological) or utilisation (mitochondrial) are the dominant mechanisms. Intrapulmonary shunt, demonstrated post-COVID with normal PFTs, represents an additional candidate mechanism in a subset via *reduced arterial O#sub[2] content* rather than impaired delivery @Farrow2023IntrapulmonaryShunt @Sandhu2026AlveolarDeadspace @Grist2022LungAbnormalities, though this remains entirely untested in ME/CFS (see @oq:intrapulmonary-shunt-mecfs).
 
 
 
