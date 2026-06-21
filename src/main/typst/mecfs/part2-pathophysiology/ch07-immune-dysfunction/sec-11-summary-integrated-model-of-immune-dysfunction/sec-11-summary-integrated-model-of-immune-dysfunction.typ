@@ -35,7 +35,7 @@ This generates a fundamental puzzle: _what immune mechanism is potent enough to 
 
 Three frameworks can account for this paradox:
 
-    - *Compartmentalised immunity:* The pathology resides in tissues that blood sampling cannot access---gut mucosa, dorsal root ganglia, brain parenchyma, lymph node microenvironments. Peluso et al.\ (2024) demonstrated SARS-CoV-2 viral persistence in gut tissue biopsies of Long COVID patients with no detectable virus in blood, proving this is biologically possible. Blood-based studies may be systematically missing the relevant compartment.
+    - *Compartmentalised immunity:* The pathology resides in tissues that blood sampling cannot access---gut mucosa, dorsal root ganglia, brain parenchyma, lymph node microenvironments. Peluso et al.\ (2024) demonstrated SARS-CoV-2 viral persistence in gut tissue biopsies of Long COVID patients with no detectable virus in blood, proving this is biologically possible @Peluso2024ViralPersistence. Further supporting this compartmentalised pathology model, Eberhardt et al.\ (2023) found SARS-CoV-2 spike protein persisting in coronary plaque macrophages with pro-atherogenic gene activation, and viral RNA was detected in plaques two years post-infection @Eberhardt2023CoronaryPlaque. Blood-based studies may be systematically missing the relevant compartment.
 
     - *The exhaustion interpretation:* Hornig et al.\ documented that cytokine elevations occur in early ME/CFS ($<$3 years) but normalize in chronic disease . By the time patients enter research studies (often after years of illness), the inflammatory fire has burned out. The null results in chronic cohorts may accurately reflect late-stage immunology while missing the critical early window.
 

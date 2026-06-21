@@ -25,3 +25,5 @@ Neurological abnormalities represent one of the most consistently documented fea
 
 #include "sec-01-misc/subsec-glp1-neuroprotection-research/sec-glp1-cns-research.typ"
 
+#include "sec-01-misc/subsec-retinal-corneal-cns-window/subsec-retinal-corneal-cns-window.typ"
+

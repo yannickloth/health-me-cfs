@@ -39,6 +39,8 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 ---
 
+| tissue-level-findings | subtrees/tissue-level-findings.md | 2026-06-21 | 27 | 9 | ⬜ pending |
+
 ## Subtree index
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
@@ -285,5 +287,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | emotional-interoceptive-processing | [subtrees/emotional-interoceptive-processing.md](subtrees/emotional-interoceptive-processing.md) | 2026-06-19 | 52 | 0 | 🔵 in progress |
 | psychologization-critique-schomerus-2026 | [subtrees/psychologization-critique-schomerus-2026.md](subtrees/psychologization-critique-schomerus-2026.md) | 2026-06-19 | 36 | 0 | ⬜ pending |
 | brain-energy-asd-mecfs | [subtrees/brain-energy-asd-mecfs.md](subtrees/brain-energy-asd-mecfs.md) | 2026-06-19 | 50 | 0 | ⬜ pending |
+| intrapulmonary-shunt  | [subtrees/intrapulmonary-shunt.md](subtrees/intrapulmonary-shunt.md)   | 2026-06-21      | 27         | 16         | 🔵 in progress  |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
