@@ -6,8 +6,14 @@
 **Phase 2:** Decision: PARTIAL (7/13 papers weak, all controlled trials null/sham-superior). WEAK-EVIDENCE flag. Clinical relevance: LOW. Contradictions: none (methodological, not fundamental).
 **Phase 3:** 4 environments added across 3 chapters: ch27 (spec: tvns-pcc systematic review), ch26 (lim: tvns-pcc null evidence), ch18 (research direction update), ch14d (oq: sham-superior paradox). Hypothesis registry: 2 new entries added.
 **Phase 3.5:** 4 environments verified — all have consequence fields (0 missing).
-**Phase 11: SKIPPED** — review convergence deferred due to context pressure. Build passes. Reviews should be run in a fresh session: `/review-convergence`, `/review-adversarial`, `/review-typst` on changed `.typ` files.
-**Phase 12:** Changelog updated — entry at `src/main/typst/mecfs/shared/changelog.typ`.
+**Phase 9:** Quality: WEAK-EVIDENCE flag (appropriate — PARTIAL). No BLOAT (~1500 words, 6 environments). No CLINICAL-RISK. Net certainty: −0.15.
+**Phase 10:** 5 checks, 1 minor fix. All cross-refs resolve. No contradictions. Consequence fields present.
+**Phase 10a:** Synthesis `@syn:tvns-pcc-model` added to ch27.
+**Phase 11a:** `/review-convergence` — 3 rounds. R1: 3 major + 22 minor fixed. R2: 0 findings. R3: 0 findings. **CONVERGED.**
+**Phase 11b:** `/review-adversarial` — 6 personas. 5 convergent findings addressed.
+**Phase 11c:** `/review-typst` — 2 minor fixes. BUILD PASS.
+**Phase 12:** Changelog updated with review details.
+**Phase 13:** 4 commits: `33620ed7` (core content), `ed54a0cd` (planning docs), `9e73f515` (adversarial fixes), `<final>` (convergence fixes).
 **Phase 13:** 2 commits created: `33620ed7` (core content), `bcbc7953` (planning docs).
 
 ## Tracking Table
