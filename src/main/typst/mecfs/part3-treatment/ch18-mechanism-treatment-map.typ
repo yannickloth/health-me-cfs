@@ -118,7 +118,7 @@ Central nervous system hypometabolism driven by neuroinflammation, neurovascular
     [PEA (palmitoylethanolamide)], [PPAR-α → mast cell + neuroinflammation ↓], [Supplement], [B], [Clinical, off-label],
     [Low-dose aripiprazole], [Dopaminergic / microglial modulation], [Medication], [C], [Clinical, off-label; pharmacogenomics required],
     [Memantine], [NMDA antagonism → glutamatergic excess ↓], [Medication], [B], [Experimental; fibromyalgia evidence],
-    [tVNS / taVNS], [Cholinergic anti-inflammatory + ANS reset + CBF ↑], [Neuromodulation], [A], [RCT feasibility done; active RCTs ongoing],
+    [tVNS / taVNS], [Cholinergic anti-inflammatory + ANS reset + CBF ↑], [Neuromodulation], [A], [RCT feasibility done (POTS); active RCTs ongoing; *PCC sham-controlled RCTs null for clinical efficacy @Balan2026taVNS*],
     [rTMS (repetitive TMS)], [Cortical excitability, dopamine, motor circuit modulation], [Neuromodulation], [B], [Pilot n=15, 2025; no sham-RCT yet],
     [tDCS], [Prefrontal cortical excitability modulation], [Neuromodulation], [B], [Long COVID RCT _negative_; no ME/CFS RCT],
     [HBOT], [Mitochondrial ATP ↑, thalamic connectivity restoration, O₂ delivery], [Procedure], [B], [2025 RCT promising],
@@ -299,7 +299,7 @@ Orthostatic intolerance, POTS, impaired cerebral autoregulation, and parasympath
     [High sodium + electrolytes], [Plasma volume loading], [Supplement], [A], [Clinical; 8–12 g sodium daily; _contraindicated in hypertension, heart failure, renal disease_],
     [Compression garments], [Venous return ↑; orthostatic pooling ↓], [Physical], [A], [Clinical],
     [Stellate ganglion block (SGB)], [Sympathetic denervation C6–C7; vasoconstriction ↓; ANS reset], [Procedure], [B], [Trial — uncontrolled case series; no RCT],
-    [tVNS / taVNS], [Parasympathetic tone ↑; sympathetic ↓; HRV ↑], [Neuromodulation], [A], [RCT feasibility; ongoing RCTs],
+    [tVNS / taVNS], [Parasympathetic tone ↑; sympathetic ↓; HRV ↑], [Neuromodulation], [A], [RCT feasibility (POTS); ongoing RCTs; *PCC sham-controlled RCTs null for efficacy @Balan2026taVNS*],
     [Guanfacine], [α2A-AR agonism → sympathetic ↓; prefrontal cortex ↑], [Medication], [B], [Experimental; no RCT],
     [Nicotine (transdermal)], [α7-nAChR → cholinergic anti-inflammatory + ANS], [Neuromodulation], [B], [Experimental (n=4)],
     [Acupuncture], [ANS modulation; HRV ↑; NF-κB ↓], [Physical], [A/B], [Pilot RCTs; symptom-focused evidence],
@@ -467,7 +467,7 @@ Based on the coverage analysis above, the following research directions offer th
 
 1. *Epigenetic modifier trials:* Investigate epigenetic reprogramming agents (safe HDAC modulators, dietary compounds such as spermidine) in ME/CFS patients with confirmed epigenetic signatures
 2. *TRPM3 agonist trials:* Controlled trial of pregnenolone sulfate as a direct TRPM3 agonist, stratified by TRPM3 function assay (patch-clamp NK cell assessment)
-3. *tVNS RCT in ME/CFS:* Escalate from Long COVID feasibility data to a dedicated ME/CFS sham-controlled RCT targeting both ANS and neuroinflammatory outcomes
+3. *tVNS RCT in ME/CFS:* The Long COVID feasibility data now include three sham-controlled RCTs, all null for clinical efficacy despite confirmed HRV engagement @Balan2026taVNS — a dedicated ME/CFS sham-controlled RCT must first establish that clinical benefit is achievable before scaling, and must target both ANS and neuroinflammatory outcomes with validated target engagement markers beyond HRV alone
 4. *rTMS with adapted protocol:* Sham-controlled RCT addressing the retention challenge identified in the 2025 Corlier pilot (home-based or reduced session frequency design)
 5. *Rapamycin biomarker-stratified trial:* Enrich for mTOR-activation signature or epigenetic aging score to identify the responder subpopulation within the ~34% ITT signal. The pSer258-ATG13/total ATG13 ratio (`@spec:mTOR-tone-index` in Chapter @ch:energy-metabolism, Section @sec:mTOR-AMPK-autophagy-balance) is the mechanistically most proximal candidate enrichment biomarker — it measures mTORC1 activity directly at the autophagy gate rather than through distant readouts (e.g., pS6K) or non-specific proxies (epigenetic clocks).
 6. *Combination Tier 1 targeting:* Assess whether simultaneous targeting of two Tier 1 mechanisms (e.g., immunoadsorption + LDN for GPCR + TRPM3) produces additive benefit

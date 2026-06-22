@@ -23510,3 +23510,137 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Conclusion:*: COVID-19 can induce intrapulmonary right-to-left shunt severe enough to cause positional hypoxemia, even without cardiac shunt.
     *Limitations:*: Single case report; underlying lung adenocarcinoma confounds interpretation; no Qs/Qt measured.
     *Certainty:*: 0.25
+
+// =============================================================================
+// taVNS for Post-COVID-19 Condition (PCC) Research Stream
+// Added 2026-06-22 per literature search
+// =============================================================================
+
+=== Balan et al.\ 2026 — Systematic Review of taVNS for PCC
+
+    *Full Citation:*: Balan A, Graham G, Herban S, Marcu M, Gheorghe N, Mara G, Rasinar FC, Lascu A, Mot CI, Dan TF, Mihaicuta S, Frent SM. Transcutaneous auricular vagus nerve stimulation for post-COVID-19 condition: a systematic review and critical appraisal of clinical evidence. _Journal of Clinical Medicine_. 2026;15(11):4247. @Balan2026taVNS
+    *DOI:*: #link("https://doi.org/10.3390/jcm15114247")[10.3390/jcm15114247]
+    *PMID:*: 42279108
+    *Study Design:*: PRISMA 2020 systematic review; GRADE certainty assessment; narrative synthesis (SWiM)
+    *Sample Size:*: 5 studies (n=154): 3 RCTs, 2 single-arm
+    *Key Findings:*:
+        - 3/5 studies (60%) rated high overall risk of bias; only 2 RCTs achieved "some concerns"
+        - Only adequately double-blinded RCT (Percin 2025) found NO significant between-group differences on any outcome
+        - Paradoxically, best-powered RCT: sham stimulation produced significantly greater fatigue improvement than active taVNS
+        - Active taVNS produced significant HRV increases (demonstrating cardiac autonomic engagement) yet no clinical benefit
+        - All efficacy outcomes rated "very low" certainty (GRADE); safety rated "low" certainty
+        - Positive findings confined to inadequately controlled studies (single-arm, open-label)
+    *Conclusion:*: Available evidence for taVNS in PCC remains limited and inconclusive. Sound physiological rationale but no reliable clinical efficacy data. Calls for mechanistic clarification, dose-finding, and double-blind sham-controlled trials with validated vagal engagement markers before clinical recommendation.
+    *Limitations:*: Small number of included studies; high heterogeneity; no meta-analysis possible; most studies underpowered; no validated target engagement markers in source studies.
+    *Certainty:*: 0.65
+
+=== Percin et al.\ 2025 — The Best-Powered taVNS RCT for PCC (Null/Paradoxical)
+
+    *Full Citation:*: Percin A, Ozden AV, Yenisehir S, et al. Effects of transcutaneous auricular vagus nerve stimulation on fatigue in post-COVID syndrome: a randomized, single-blind, sham-controlled study. _International Journal of Clinical Practice_. 2025;2025:5641307. @Percin2025taVNS
+    *DOI:*: #link("https://doi.org/10.1155/ijcp/5641307")[10.1155/ijcp/5641307]
+    *Study Design:*: Randomized, double-blind, sham-controlled trial
+    *Sample Size:*: ~50 participants
+    *Key Findings:*:
+        - **Primary null result:** No significant difference between active taVNS and sham on fatigue improvement
+        - **Paradoxical finding:** Sham stimulation produced significantly greater fatigue improvement than active taVNS
+        - Active taVNS produced significant HRV increases (confirming target engagement at the autonomic level)
+        - HRV changes dissociated from clinical outcomes — autonomic engagement ≠ symptom improvement
+        - FSS scores decreased significantly over time in BOTH groups
+    *Conclusion:*: taVNS modulates cardiac autonomic function (HRV) in PCC but does not translate to clinical fatigue improvement. Sham superiority suggests possible non-specific effects, conditioning, or even interference of active stimulation with natural recovery processes.
+    *Limitations:*: Single-center; moderate sample size; limited detail on blinding integrity; no objective biomarkers beyond HRV.
+    *Certainty:*: 0.55
+
+=== Gierthmuehlen et al.\ 2026 — COVIVA Trial
+
+    *Full Citation:*: Gierthmuehlen M, Schmieder K, Thon N, Gierthmuehlen PC. Transcutaneous auricular vagal nerve stimulation against fatigue syndrome in patients with long COVID: results of the randomized, placebo-controlled clinical pilot trial COVIVA. _Neurology and Therapy_. 2026;15(3):1327-1343. @Gierthmuehlen2026COVIVA
+    *DOI:*: #link("https://doi.org/10.1007/s40120-026-00928-w")[10.1007/s40120-026-00928-w]
+    *PMID:*: 41926033
+    *Study Design:*: Randomized, sham-controlled, single-blinded pilot trial; 1:1:1 sham : sub-threshold : above-threshold
+    *Sample Size:*: 45 enrolled (mean age 42.4; 73% female)
+    *Key Findings:*:
+        - No statistically significant differences between sham and active groups on fatigue (MFI-20) or any secondary outcome
+        - All groups improved over time — suggests strong natural history or placebo component
+        - High adherence: mean 236 min/day (>80% participants met criterion)
+        - Safety: mild AEs only — skin irritation (6.7%), vertigo (6.7%); no serious AEs
+        - CE-certified tVNS-L device used (25 Hz, 250 µs, 4 h/day, 4 weeks)
+    *Conclusion:*: taVNS was safe, feasible, and associated with high adherence but showed no superiority over sham for long COVID fatigue. Larger multicenter trials with objective biomarkers needed.
+    *Limitations:*: Single-blinded (investigators not blinded); pilot sample size (not powered for efficacy); 4-week duration may be insufficient; moderate attrition (8.9% dropout).
+    *Certainty:*: 0.55
+
+=== Badran et al.\ 2022 — At-Home taVNS Pilot RCT
+
+    *Full Citation:*: Badran BW, Huffman SM, Dancy M, Austelle CW, Bikson M, Kautz SA, George MS. A pilot randomized controlled trial of supervised, at-home, self-administered transcutaneous auricular vagus nerve stimulation (taVNS) to manage long COVID symptoms. _Bioelectronic Medicine_. 2022;8(1):13. @Badran2022taVNS
+    *DOI:*: #link("https://doi.org/10.1186/s42234-022-00094-y")[10.1186/s42234-022-00094-y]
+    *PMID:*: 36002874
+    *Study Design:*: Pilot double-blind, sham-controlled RCT; fully contactless with video supervision
+    *Sample Size:*: 13 participants
+    *Key Findings:*:
+        - Contactless, at-home taVNS feasible and safe (2 sessions/day, 1 h each, 4 weeks)
+        - Not powered for efficacy, but trends suggested mild-moderate effect on mental fatigue in a subset of participants
+        - First fully contactless taVNS RCT in any condition — methodological innovation
+        - Simultaneous remote monitoring of physiological biomarkers
+    *Conclusion:*: Demonstrates safety and feasibility of supervised, self-administered taVNS under fully contactless protocol. Effect on mental fatigue in subset warrants larger replication.
+    *Limitations:*: Tiny sample (n=13); not powered; subset analysis post-hoc; short duration; heterogeneous symptom presentation.
+    *Certainty:*: 0.40
+
+=== Azabou et al.\ 2026 — Open-Label taVNS Pilot for Dysautonomia/PTSD/Cognition
+
+    *Full Citation:*: Azabou E, Pillot A, Bao G, Mehlal S, Arnould A, Agar-Hug N, Zagdoun M, Genolini A, Russo A, Rangon CM, Azouvi P. Transcutaneous auricular vagus nerve stimulation improves dysautonomia, post-traumatic stress disorder and cognitive impairment in long covid patients: a pilot study. _Scientific Reports_. 2026;16:---. @Azabou2026taVNS
+    *DOI:*: #link("https://doi.org/10.1038/s41598-026-52582-9")[10.1038/s41598-026-52582-9]
+    *PMID:*: 42106490
+    *Study Design:*: Open-label, single-arm prospective pilot study
+    *Sample Size:*: 17 long COVID patients
+    *Key Findings:*:
+        - COMPASS-31 (autonomic): decreased from 33.7 to 13.8 (p\<0.0001) — large effect
+        - PCL-5 (PTSD): decreased from 25.8 to 19.5 (p=0.028)
+        - COGBAT (cognition): increased from 37.7 to 49.4 (p=0.011)
+        - Weekly 1-h taVNS sessions for 8 consecutive weeks
+        - No adverse events reported
+    *Conclusion:*: taVNS appears safe and promising for dysautonomia, PTSD, and cognitive impairment in long COVID. All findings require confirmation in sham-controlled trials.
+    *Limitations:*: No sham/control group — all improvements attributable to natural history, regression to mean, or placebo. Small sample (n=17). Open-label design. Single center. No long-term follow-up.
+    *Certainty:*: 0.35
+
+=== Zheng et al.\ 2024 — taVNS Female Cohort Pilot
+
+    *Full Citation:*: Zheng ZS, Simonian N, Wang J, Rosario ER. Transcutaneous vagus nerve stimulation improves Long COVID symptoms in a female cohort: a pilot study. _Frontiers in Neurology_. 2024;15:1393371. @Zheng2024tVNS
+    *DOI:*: #link("https://doi.org/10.3389/fneur.2024.1393371")[10.3389/fneur.2024.1393371]
+    *PMID:*: 38756213
+    *Study Design:*: Open-label pilot study; home tVNS 30 min twice daily for 10 days
+    *Sample Size:*: 24 female long COVID patients (age 45.8 ± 11.7 years)
+    *Key Findings:*:
+        - Significant improvements: cognition, anxiety, depression, sleep at post-intervention (all p\<0.05)
+        - Fatigue improvement delayed — reached significance only at 1-month follow-up
+        - No significant changes in olfactory function
+        - Benefits persisted or progressed at 1-month follow-up
+    *Conclusion:*: Preliminary evidence supporting tVNS potential for female long COVID patients. Results justify larger sham-controlled RCTs.
+    *Limitations:*: No sham/control group. Female only — generalizability unknown. Small sample (n=24). Unblinded. Single short-term intervention (10 days). Subjective outcomes only.
+    *Certainty:*: 0.35
+
+=== Pfoser-Poschacher et al.\ 2025 — Feasibility RCT of TENS-Based taVNS for Long COVID Fatigue
+
+    *Full Citation:*: Pfoser-Poschacher V, Keilani M, Steiner M, Schmeckenbecher J, Zwick RH, Crevenna R. Feasibility and acceptance of transdermal auricular vagus nerve stimulation using a TENS device in females suffering from long COVID fatigue. _Wiener Klinische Wochenschrift_. 2025;137(19-20):635-641. @PfoserPoschacher2025
+    *DOI:*: #link("https://doi.org/10.1007/s00508-025-02501-1")[10.1007/s00508-025-02501-1]
+    *PMID:*: 39969545
+    *Study Design:*: Prospective, blinded, randomized sham-controlled feasibility pilot
+    *Sample Size:*: 30 females with long COVID fatigue
+    *Key Findings:*:
+        - TENS-device based taVNS feasible and accepted in female cohort
+        - Primary endpoint (feasibility) met
+        - Sham-controlled design provides methodologically sound framework
+    *Conclusion:*: TENS-device taVNS is a feasible and well-accepted intervention for long COVID fatigue in women. Efficacy requires adequately powered trials.
+    *Limitations:*: Feasibility-focused, not powered for efficacy. Female only. TENS device may deliver different electrical parameters vs dedicated taVNS devices.
+    *Certainty:*: 0.45
+
+=== Genç et al.\ 2024 — taVNS for Post-Exercise Recovery in Post-COVID
+
+    *Full Citation:*: Genç H, Tahmaz T, et al. The impact of non-invasive vagus nerve stimulation on recovery following aerobic exercise in individuals with post-COVID syndrome: a randomized controlled clinical trial. _Eurasian Journal of Pulmonology_. 2024. @Genc2024taVNS
+    *DOI:*: #link("https://doi.org/10.14744/ejp.2024.1204")[10.14744/ejp.2024.1204]
+    *Study Design:*: Randomized, controlled clinical trial
+    *Sample Size:*: ~40 participants
+    *Key Findings:*:
+        - taVNS showed no significant effect on recovery following aerobic exercise compared to sham
+        - Post-exercise outcomes not different between groups
+        - Consistent with broader pattern: adequately controlled taVNS studies in PCC show no benefit over sham
+    *Conclusion:*: taVNS does not improve post-exercise recovery in post-COVID syndrome.
+    *Limitations:*: Full details limited; moderate journal; limited description of blinding and methods.
+    *Certainty:*: 0.40
