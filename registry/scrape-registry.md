@@ -629,3 +629,31 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (28 queries, batch) | pubmed/eutils | 2026-06-19 | — | content-staging/search-log-mast-cell-ige-connective-tissue-2026-06-19.md, bib/appendix-h — IgE → mast cell → connective tissue literature search (13 papers added) |
+
+## taVNS for Post-COVID-19 Condition (PCC) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-22 | 15 queries: taVNS+PCC, tVNS+long COVID, taVNS+RCT+fatigue, taVNS+sham+null, VNS+contraindications/safety, VNS+ME/CFS, HRV+CFS, vagal tone+CFS, competing mechanisms, neuroinflammation+PET+post-COVID fatigue |
+| Crossref API | 2026-06-22 | DOI lookups: Percin 2025 (10.1155/ijcp/5641307), Genç 2024 (10.14744/ejp.2024.1204) |
+| Google Scholar | 2026-06-22 | "taVNS post-COVID", "Percin taVNS" |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (15 queries, batch) | pubmed/eutils | 2026-06-22 | — | content-staging/lit-summary-tvns-pcc-2026-06-22.md, content-staging/search-log-tvns-pcc-2026-06-22.md, bib/treatments.bib (9 entries), appendix-h (9 annotated entries) — taVNS for PCC literature collection |
+
+## Food Insecurity in ME/CFS and Long COVID Literature Search (2026-06-23)
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://doi.org/10.1080/21641846.2026.2688051 | DOI (Taylor \& Francis) | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Dey2026FoodInsecurity — anchor paper |
+| https://pubmed.ncbi.nlm.nih.gov/40924424/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Lin2025LongCOVIDFoodInsecurity — food insecurity Long COVID US |
+| https://pubmed.ncbi.nlm.nih.gov/39618261/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Datta2025LongCOVIDFinancial — financial hardship Long COVID |
+| https://pubmed.ncbi.nlm.nih.gov/40720834/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Feldman2025SDoHLongCOVID — RECOVER SDoH |
+| https://pubmed.ncbi.nlm.nih.gov/42032509/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Bowden2026MECFSLabourMarket — NZ ME/CFS labour market |
+| https://pubmed.ncbi.nlm.nih.gov/41460857/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Weigel2025SustainedBurden — Australian ME/CFS burden |
+| https://pubmed.ncbi.nlm.nih.gov/40986167/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Vester2026BurdenReview — burden scoping review |
+| https://pubmed.ncbi.nlm.nih.gov/40259275/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Samms2025UnequalAccess — diagnosis inequity England |
+| https://pubmed.ncbi.nlm.nih.gov/33352747/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — AguilarAguilar2020FoodCSS — food CSS review |
+| https://pubmed.ncbi.nlm.nih.gov/28616881/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Jones2017DietaryCFS — diet CFS systematic review |
+| https://pubmed.ncbi.nlm.nih.gov/39940333/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Dorczok2025DietarySupplements — supplement review |
+| PubMed API queries (12 queries, batch) | pubmed/eutils | 2026-06-23 | — | content-staging/literature-food-insecurity-2026-06-23.md, content-staging/search-log-food-insecurity-2026-06-23.md, bib/epidemiology.bib (11 entries), appendix-h (11 annotated entries) — food insecurity ME/CFS LC literature |

@@ -23644,3 +23644,172 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Conclusion:*: taVNS does not improve post-exercise recovery in post-COVID syndrome.
     *Limitations:*: Full details limited; moderate journal; limited description of blinding and methods.
     *Certainty:*: 0.40
+
+== Dey et al.\ 2026 — Food Insecurity Survey in NZ ME/CFS and Long COVID
+
+    *Full Citation:*: Dey K, Butler J, Riordan Crichton T, Jeffreys I, Jeffreys M. ME/CFS and/or Long Covid in Aotearoa New Zealand: results from a food insecurity survey. _Fatigue: Biomedicine, Health & Behavior_. 2026:1-15. @dey2026foodinsecurity
+    *DOI:*: #link("https://doi.org/10.1080/21641846.2026.2688051")[10.1080/21641846.2026.2688051]
+    *Study Design:*: Cross-sectional survey
+    *Key Findings:*:
+        - First survey of food insecurity prevalence among ME/CFS and Long COVID patients in New Zealand
+        - Reports marginal, moderate, and severe food insecurity rates
+        - Disease severity associated with food access difficulties
+        - Compounding effect of disability benefit inadequacy and food costs
+    *Conclusion:*: Food insecurity is a significant unmet need among ME/CFS and Long COVID populations in New Zealand.
+    *Limitations:*: NZ-specific; survey design; self-reported; single-country context.
+    *Certainty:*: 0.65
+
+== Lin et al.\ 2025 — Long COVID and Food Insecurity in US Adults
+
+    *Full Citation:*: Lin JC, McCarthy M, Potluri S, Nguyen D, Yan R, Aysola J. Long COVID and Food Insecurity in US Adults, 2022-2023. _JAMA Network Open_. 2025;8(9):e2530730. @lin2025longcovidfoodinsecurity
+    *DOI:*: #link("https://doi.org/10.1001/jamanetworkopen.2025.30730")[10.1001/jamanetworkopen.2025.30730]
+    *PMID:*: 40924424
+    *Study Design:*: Retrospective cross-sectional survey using NHIS 2022-2023
+    *Sample Size:*: 21,631 adults (1,807 food insecure)
+    *Key Findings:*:
+        - Food insecurity associated with current long COVID: aOR 1.73 (95% CI 1.39-2.15)
+        - Food insecurity associated with lower recovery odds: aOR 0.70 (95% CI 0.54-0.92)
+        - 15% of food insecure reported current long COVID vs 7% of food secure
+        - SNAP participation (p-interaction=0.04) and unemployment (p-interaction=0.04) modified associations
+    *Conclusion:*: Food insecurity is associated with greater odds of long COVID and lower recovery. SNAP participation mitigates this association.
+    *Limitations:*: Cross-sectional; cannot establish causality; self-reported long COVID; US-specific.
+    *Certainty:*: 0.80
+
+== Datta et al.\ 2025 — Long COVID and Financial Hardship Across Socioeconomic Strata
+
+    *Full Citation:*: Datta BK, Fazlul I, Khan MM. Long COVID and financial hardship: A disaggregated analysis at income and education levels. _Health Services Research_. 2025;60(2):e14413. @datta2025longcovidfinancial
+    *DOI:*: #link("https://doi.org/10.1111/1475-6773.14413")[10.1111/1475-6773.14413]
+    *PMID:*: 39618261
+    *Study Design:*: Cross-sectional analysis of BRFSS 2022
+    *Sample Size:*: 271,076 adults
+    *Key Findings:*:
+        - Long COVID associated with 1-11 percentage point increase in food insecurity across income/education groups
+        - Employment loss/reduced hours mediated 6-20% of financial distress
+        - Effects present across all socioeconomic strata but stronger in lower-income groups
+    *Conclusion:*: Long COVID causes financial hardship including food insecurity across income levels, disproportionately affecting lower-income groups.
+    *Limitations:*: Cross-sectional; BRFSS self-report; employment mediation estimated, not directly observed.
+    *Certainty:*: 0.75
+
+== Feldman et al.\ 2025 — Social Determinants of Health and Long COVID Risk (RECOVER)
+
+    *Full Citation:*: Feldman CH, Santacroce L, Bassett IV, et al. Social Determinants of Health and Risk for Long COVID in the U.S. RECOVER-Adult Cohort. _Annals of Internal Medicine_. 2025;178(9):1287-1297. @feldman2025sdohlongcovid
+    *DOI:*: #link("https://doi.org/10.7326/ANNALS-24-01971")[10.7326/ANNALS-24-01971]
+    *PMID:*: 40720834
+    *Study Design:*: Prospective cohort study (NIH RECOVER)
+    *Sample Size:*: Large multi-site cohort
+    *Key Findings:*:
+        - Social determinants of health, including food access, associated with long COVID risk
+        - Multiple SDoH domains independently contribute to risk
+    *Conclusion:*: Addressing social determinants including food access may reduce long COVID burden.
+    *Limitations:*: Observational; SDoH self-reported; RECOVER enrollment criteria may limit generalizability.
+    *Certainty:*: 0.70
+
+== Bowden et al.\ 2026 — ME/CFS Labour Market Outcomes in NZ
+
+    *Full Citation:*: Bowden N, McLeod K, Anns F, et al. Health, labour market, and social service outcomes for people with Myalgic Encephalomyelitis / Chronic Fatigue Syndrome on a health or disability related benefit: an Aotearoa | New Zealand nationwide cross-sectional study using the integrated data infrastructure. _BMC Public Health_. 2026;26(1):1834. @bowden2026mecfslabourmarket
+    *DOI:*: #link("https://doi.org/10.1186/s12889-026-27499-7")[10.1186/s12889-026-27499-7]
+    *PMID:*: 42032509
+    *Study Design:*: Nationwide cross-sectional study using Integrated Data Infrastructure (IDI), propensity score matching
+    *Sample Size:*: 1,902 ME/CFS on benefit
+    *Key Findings:*:
+        - Only 18.3% employed vs 83.8% general population
+        - 64.7% on Supported Living Payment (vs 49% other benefit recipients)
+        - Higher ED visits and medication use but lower disability support service use
+        - Disproportionately female and European; Māori, Pacific, Asian underrepresented
+    *Conclusion:*: ME/CFS patients face severe economic vulnerability and limited access to supports. Systemic policy exclusions disadvantage chronic fluctuating conditions.
+    *Limitations:*: Only those on benefit included; may not represent milder cases; cross-sectional; NZ-specific.
+    *Certainty:*: 0.75
+
+== Weigel et al.\ 2025 — Sustained Illness Burden in Australian ME/CFS
+
+    *Full Citation:*: Weigel B, Eaton-Fitch N, Thapaliya K, Marshall-Gradisnik S. Sustained illness burden over time among Australians with myalgic encephalomyelitis/chronic fatigue syndrome. _PLOS ONE_. 2025;20(12):e0338433. @weigel2025sustainedburden
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0338433")[10.1371/journal.pone.0338433]
+    *PMID:*: 41460857
+    *Study Design:*: Longitudinal (12 months, 3 timepoints)
+    *Sample Size:*: 32 pwME/CFS
+    *Key Findings:*:
+        - Median 30 symptoms at each timepoint, no significant change over 12 months
+        - Health status, physical health, daily/work activity most impacted
+        - Quality of life significantly reduced vs population norms at all timepoints
+        - Majority unable to maintain employment
+    *Conclusion:*: ME/CFS imposes substantial and sustained illness burden; improved disability and social support access urgently needed.
+    *Limitations:*: Small sample (n=32); self-selected; longitudinal but not population-based; Australian.
+    *Certainty:*: 0.55
+
+== Vester et al.\ 2026 — Burden of Disease in ME/CFS Scoping Review
+
+    *Full Citation:*: Vester P, Boudouroglou-Walter S, Schreyögg J, Wieting C, Blome C. Burden of Disease in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): A Scoping Review. _Applied Health Economics and Health Policy_. 2026;24(1):147-161. @vester2026burdenreview
+    *DOI:*: #link("https://doi.org/10.1007/s40258-025-01006-2")[10.1007/s40258-025-01006-2]
+    *PMID:*: 40986167
+    *Study Design:*: Systematic scoping review (PRISMA-ScR), 6 databases
+    *Sample Size:*: 20 studies included
+    *Key Findings:*:
+        - Costs per patient: $2,916-$119,611 USD
+        - Indirect costs (lost productivity) dominate
+        - DALYs for US: 0.714 million (2016) to 5.77 million (2022)
+        - Employment rates and school attendance severely impacted
+    *Conclusion:*: ME/CFS imposes substantial economic and social burden; underdiagnosis suggests true burden may be higher.
+    *Limitations:*: Scoping review, not meta-analysis; heterogeneous cost components across studies.
+    *Certainty:*: 0.70
+
+== Samms and Ponting 2025 — Unequal Access to ME Diagnosis in England
+
+    *Full Citation:*: Samms GL, Ponting CP. Unequal access to diagnosis of myalgic encephalomyelitis in England. _BMC Public Health_. 2025;25(1):1417. @samms2025unequalaccess
+    *DOI:*: #link("https://doi.org/10.1186/s12889-025-22603-9")[10.1186/s12889-025-22603-9]
+    *PMID:*: 40259275
+    *Study Design:*: Population database analysis (Hospital Episode Statistics, NHS England)
+    *Sample Size:*: 100,055 diagnosed with ME/CFS (G93.3)
+    *Key Findings:*:
+        - White individuals ~5x more likely diagnosed than other ethnicities
+        - Deprivation associated with lower diagnosis rates
+        - Female:male ratio 3.88:1, peaking at ~6:1 in 4th-5th decades
+        - Prevalence varies 10x across NHS Integrated Care Boards
+    *Conclusion:*: Ethnic minorities, older adults, and deprived populations are disproportionately undiagnosed. Estimated lifetime prevalence up to 0.92% (females) and 0.25% (males).
+    *Limitations:*: Relies on diagnostic coding; only diagnosed cases captured; England-specific.
+    *Certainty:*: 0.80
+
+== Aguilar-Aguilar et al.\ 2020 — Food Implications in Central Sensitization Syndromes
+
+    *Full Citation:*: Aguilar-Aguilar E, Marcos-Pasero H, Ikonomopoulou MP, Loria-Kohen V. Food Implications in Central Sensitization Syndromes. _Journal of Clinical Medicine_. 2020;9(12):4106. @aguilaraguilar2020foodcss
+    *DOI:*: #link("https://doi.org/10.3390/jcm9124106")[10.3390/jcm9124106]
+    *PMID:*: 33352747
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Dietary modifications may improve quality of life at low cost in central sensitization syndromes
+        - Micronutrient deficiencies common among FM, CFS, MCS patients
+        - Evidence contradictory; calls for personalized treatment
+    *Conclusion:*: Nutritional management should be part of multidisciplinary care for central sensitization syndromes.
+    *Limitations:*: Narrative review, not systematic; combines FM, CFS, MCS data.
+    *Certainty:*: 0.45
+
+== Jones and Probst 2017 — Dietary Modification for CFS Systematic Review
+
+    *Full Citation:*: Jones K, Probst Y. Role of dietary modification in alleviating chronic fatigue syndrome symptoms: a systematic review. _Australian and New Zealand Journal of Public Health_. 2017;41(4):338-344. @jones2017dietarycfs
+    *DOI:*: #link("https://doi.org/10.1111/1753-6405.12670")[10.1111/1753-6405.12670]
+    *PMID:*: 28616881
+    *Study Design:*: Systematic review (PRISMA), 5 databases, 1994-2016
+    *Sample Size:*: 22 studies included
+    *Key Findings:*:
+        - Limited evidence for dietary modifications alleviating CFS symptoms
+        - Polyphenol intakes (animal studies) and omega-3 showed some positive outcomes
+        - D-ribose supplementation showed some human benefit
+        - Evidence overall narrow and inconsistent
+    *Conclusion:*: Few dietary modifications found useful for CFS; further research needed.
+    *Limitations:*: Dated (searched 1994-2016); heterogeneous study designs; limited high-quality human trials.
+    *Certainty:*: 0.50
+
+== Dorczok et al.\ 2025 — Dietary Supplementation for Fatigue in ME/CFS Systematic Review
+
+    *Full Citation:*: Dorczok MC, Mittmann G, Mossaheb N, et al. Dietary Supplementation for Fatigue Symptoms in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS)-A Systematic Review. _Nutrients_. 2025;17(3):475. @dorczok2025dietarysupplementation
+    *DOI:*: #link("https://doi.org/10.3390/nu17030475")[10.3390/nu17030475]
+    *PMID:*: 39940333
+    *Study Design:*: Systematic review (PRISMA), 1994-2024
+    *Sample Size:*: 14 studies (N=809)
+    *Key Findings:*:
+        - L-carnitine/guanidinoacetic acid, oxaloacetate, CoQ10+selenium, NADH showed fatigue reductions
+        - High risk of bias across studies (missing data, selection bias)
+        - 6 studies reported adverse effects (nausea, insomnia)
+        - No firm conclusions possible due to methodological limitations
+    *Conclusion:*: Some dietary supplements show potential but methodological flaws prevent definitive recommendations.
+    *Limitations:*: High risk of bias; small sample sizes; heterogeneous interventions and outcomes.
+    *Certainty:*: 0.55
