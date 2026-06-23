@@ -176,18 +176,18 @@
 #include "part4-research/ch34-translational-findings/ch34-translational-findings.typ"
 #include "part4-research/ch35-research-infrastructure/ch35-research-infrastructure.typ"
 #include "part4-research/ch36-proposed-studies/ch36-proposed-studies.typ"
-#include "part4-research/research-proposals-index.typ"
+#include "part4-research/ch37-research-proposals-index.typ"
 
 // ── Part V: Mathematical and Computational Modeling ───────────────────────────
 #include "part5-modeling/part5-intro.typ"
-#include "part5-modeling/ch37-modeling-foundations/ch37-modeling-foundations.typ"
-#include "part5-modeling/ch38-energy-metabolism-models/ch38-energy-metabolism-models.typ"
-#include "part5-modeling/ch39-immune-system-models/ch39-immune-system-models.typ"
-#include "part5-modeling/ch40-neuroendocrine-models/ch40-neuroendocrine-models.typ"
-#include "part5-modeling/ch41-integrated-systems/ch41-integrated-systems.typ"
-#include "part5-modeling/ch42-temporal-evolution/ch42-temporal-evolution.typ"
-#include "part5-modeling/ch43-predictive-applications/ch43-predictive-applications.typ"
-#include "part5-modeling/ch44-causal-hierarchy-formal/ch44-causal-hierarchy-formal.typ"
+#include "part5-modeling/ch38-modeling-foundations/ch38-modeling-foundations.typ"
+#include "part5-modeling/ch39-energy-metabolism-models/ch39-energy-metabolism-models.typ"
+#include "part5-modeling/ch40-immune-system-models/ch40-immune-system-models.typ"
+#include "part5-modeling/ch41-neuroendocrine-models/ch41-neuroendocrine-models.typ"
+#include "part5-modeling/ch42-integrated-systems/ch42-integrated-systems.typ"
+#include "part5-modeling/ch43-temporal-evolution/ch43-temporal-evolution.typ"
+#include "part5-modeling/ch44-predictive-applications/ch44-predictive-applications.typ"
+#include "part5-modeling/ch45-causal-hierarchy-formal/ch45-causal-hierarchy-formal.typ"
 
 // =============================================================================
 // APPENDICES  (lettered: A, B, C … with sub-sections A.1, A.1.1)
