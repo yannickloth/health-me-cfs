@@ -143,6 +143,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | prodromal-signs       | [subtrees/prodromal-signs.md](subtrees/prodromal-signs.md)            | 2026-04-20      | 25         | 0          | ⬜ stub        |
 | progesterone          | [subtrees/progesterone.md](subtrees/progesterone.md)                  | 2026-04-25      | 31         | 0          | ⬜ stub        |
 | septad-diagnostic     | [subtrees/septad-diagnostic.md](subtrees/septad-diagnostic.md)        | 2026-05-01      | 77         | 0          | ⬜ stub        |
+| sleep-synaptic-reset  | [subtrees/sleep-synaptic-reset.md](subtrees/sleep-synaptic-reset.md) | 2026-06-24      | 22         | 0          | 🔵 in progress  |
 | sleep-glymphatic      | [subtrees/sleep-glymphatic.md](subtrees/sleep-glymphatic.md)          | 2026-04-20      | 51         | 0          | ⬜ stub        |
 | taurine               | [subtrees/taurine.md](subtrees/taurine.md)                            | 2026-04-16      | 40         | 0          | ⬜ stub        |
 | trp-pentamer          | [subtrees/trp-pentamer.md](subtrees/trp-pentamer.md)                  | 2026-04-19      | 49         | 0          | ⬜ stub        |

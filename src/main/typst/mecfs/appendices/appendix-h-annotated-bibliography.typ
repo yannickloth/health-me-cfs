@@ -23800,7 +23800,7 @@ sec-bib-rf-elevated-mecfs-duplicate
 
 == Dorczok et al.\ 2025 — Dietary Supplementation for Fatigue in ME/CFS Systematic Review
 
-    *Full Citation:*: Dorczok MC, Mittmann G, Mossaheb N, et al. Dietary Supplementation for Fatigue Symptoms in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS)-A Systematic Review. _Nutrients_. 2025;17(3):475. @dorczok2025dietarysupplementation
+    *Full Citation:*: Dorczok MC, Mittmann G, Mossaheb N, et al.\ Dietary Supplementation for Fatigue Symptoms in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS)-A Systematic Review. _Nutrients_. 2025;17(3):475. @dorczok2025dietarysupplementation
     *DOI:*: #link("https://doi.org/10.3390/nu17030475")[10.3390/nu17030475]
     *PMID:*: 39940333
     *Study Design:*: Systematic review (PRISMA), 1994-2024
@@ -23813,3 +23813,138 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Conclusion:*: Some dietary supplements show potential but methodological flaws prevent definitive recommendations.
     *Limitations:*: High risk of bias; small sample sizes; heterogeneous interventions and outcomes.
     *Certainty:*: 0.55
+
+// =============================================================================
+
+== Sleep Synaptic Homeostasis / SV2A PET — Elmenhorst 2026 and Related
+<sec:bib-sleep-synaptic-reset>
+
+=== Elmenhorst et al.\ 2026 — Core Finding: Sleep Deprivation Increases SV2A in Human Brain
+
+    *Full Citation:*: Elmenhorst D, Foerges AL, Gordji-Nejad A, et al.\ Sleep deprivation increases levels of the synaptic density marker SV2A in the human brain. _PLOS Biology_. 2026;24(6):e3003816. @Elmenhorst2026SV2Asleep
+    *DOI:*: #link("https://doi.org/10.1371/journal.pbio.3003816")[10.1371/journal.pbio.3003816]
+    *Study Design:*: Controlled PET imaging study; within-subject (sleep deprivation vs normal sleep)
+    *Sample Size:*: 40 healthy adults (27.5 ± 6.5 years)
+    *Key Findings:*:
+        - SV2A binding (synaptic density proxy) increased significantly after one night sleep deprivation vs normal sleep controls
+        - Thalamus: +4.6%, Hippocampus: +5.6%, Parietal cortex: +3.2%
+        - Control group (normal sleep) showed no changes
+        - SV2A increase correlated with elevated slow wave activity during recovery sleep
+    *Conclusion:*: First direct in vivo human evidence for the synaptic homeostasis hypothesis (SHY): wakefulness increases synaptic density, sleep downscales it.
+    *Relevance to ME/CFS:*: If alpha-delta sleep in ME/CFS disrupts deep NREM stages required for synaptic downscaling, patients may experience pathological synaptic accumulation → sensory hypersensitivity, cognitive dysfunction, unrefreshing sleep. Establishes testable hypothesis: do ME/CFS patients have elevated SV2A after sleep vs healthy controls?
+    *Certainty:*: 0.85 (PLOS Biology; n=40; well-controlled; first-in-human finding; replication needed)
+
+=== Tononi and Cirelli 2003 — Original Synaptic Homeostasis Hypothesis
+
+    *Full Citation:*: Tononi G, Cirelli C. Sleep and synaptic homeostasis: a hypothesis. _Brain Research Bulletin_. 2003;62(2):143-150. @Tononi2003SHY
+    *DOI:*: #link("https://doi.org/10.1016/j.brainresbull.2003.09.004")[10.1016/j.brainresbull.2003.09.004]
+    *Key Contribution:*: Original formulation of SHY: wakefulness → net synaptic strengthening, sleep → synaptic downscaling to restore cellular homeostasis, conserve energy, and maintain signal-to-noise ratio.
+    *Citations:*: 955+
+    *Certainty:*: 0.80 (Highly cited; theoretical; widely influential)
+
+=== Tononi and Cirelli 2006 — SHY Comprehensive Review
+
+    *Full Citation:*: Tononi G, Cirelli C. Sleep function and synaptic homeostasis. _Sleep Medicine Reviews_. 2006;10(1):49-62. @Tononi2006SHYreview
+    *DOI:*: #link("https://doi.org/10.1016/j.smrv.2005.05.002")[10.1016/j.smrv.2005.05.002]
+    *Key Contribution:*: Extended and updated SHY with behavioral, electrophysiological, and molecular evidence.
+    *Citations:*: 1778+
+    *Certainty:*: 0.85 (Review; highly cited; field-defining)
+
+=== Tononi and Cirelli 2014 — Definitive SHY Statement
+
+    *Full Citation:*: Tononi G, Cirelli C. Sleep and the price of plasticity: from synaptic and cellular homeostasis to memory consolidation and integration. _Neuron_. 2014;81(1):12-34. @Tononi2014SHYneuron
+    *DOI:*: #link("https://doi.org/10.1016/j.neuron.2013.12.025")[10.1016/j.neuron.2013.12.025]
+    *Key Contribution:*: Most comprehensive statement of SHY integrating synaptic homeostasis, memory consolidation, and cellular energetics. Argues sleep evolved as a price of plasticity.
+    *Citations:*: 1993+
+    *Certainty:*: 0.90 (Cell Press; extremely influential; definitive theoretical synthesis)
+
+=== Cirelli and Tononi 2019 — Update on SHY
+
+    *Full Citation:*: Cirelli C, Tononi G. Linking the need to sleep with synaptic function. _Science_. 2019;366(6462):189-190. @Cirelli2019SHYscience
+    *DOI:*: #link("https://doi.org/10.1126/science.aay5304")[10.1126/science.aay5304]
+    *Key Contribution:*: Concise update in Science on molecular pathways linking sleep need to synaptic function. Context for Elmenhorst 2026's SV2A findings.
+    *Certainty:*: 0.80 (Science perspective; concise; authoritative)
+
+=== de Vivo et al.\ 2017 — Ultrastructural Evidence for Synaptic Scaling Across Sleep/Wake
+
+    *Full Citation:*: de Vivo L, Bellesi M, Marshall W, et al.\ Ultrastructural evidence for synaptic scaling across the wake/sleep cycle. _Science_. 2017;355(6324):507-510. @DeVivo2017SHYultrastructural
+    *DOI:*: #link("https://doi.org/10.1126/science.aah5982")[10.1126/science.aah5982]
+    *Study Design:*: Serial block-face electron microscopy in mouse sensorimotor cortex
+    *Key Findings:*: ~18% decrease in synapse density and length after sleep vs wake periods. Direct structural evidence for SHY.
+    *Citations:*: 556+
+    *Certainty:*: 0.88 (Science; rigorous ultrastructural quantification; animal model)
+    *Relevance:*: Demonstrates that synaptic downscaling involves physical removal/reduction of synaptic structures — not just functional depression.
+
+=== Diering et al.\ 2017 — Homer1a Drives Synaptic Downscaling During Sleep
+
+    *Full Citation:*: Diering GH, Nirujogi RS, Roth RH, et al.\ Homer1a drives homeostatic scaling-down of excitatory synapses during sleep. _Science_. 2017;355(6324):511-515. @Diering2017Homer1aSHY
+    *DOI:*: #link("https://doi.org/10.1126/science.aai8355")[10.1126/science.aai8355]
+    *Study Design:*: Proteomic and molecular characterization in mouse brain
+    *Key Findings:*: Sleep decreases AMPA receptor content at synapses via Homer1a-dependent mechanism. Identifies the molecular machinery of synaptic downscaling.
+    *Citations:*: 498+
+    *Certainty:*: 0.87 (Science; elegant molecular mechanism; animal model)
+    *Relevance:*: Molecular mechanism that, if disrupted by alpha-delta sleep, would prevent normal downscaling → synaptic accumulation hypothesis for ME/CFS.
+
+=== Finnema et al.\ 2016 — Imaging Synaptic Density in Living Human Brain (SV2A PET)
+
+    *Full Citation:*: Finnema SJ, Nabulsi NB, Eid T, et al.\ Imaging synaptic density in the living human brain. _Science Translational Medicine_. 2016;8(348):348ra96. @Finnema2016SV2APET
+    *DOI:*: #link("https://doi.org/10.1126/scitranslmed.aaf6667")[10.1126/scitranslmed.aaf6667]
+    *Study Design:*: PET imaging validation study; [11C]UCB-J ligand
+    *Key Findings:*: Landmark validation of SV2A PET for synaptic density imaging in living humans. Demonstrated reduced SV2A binding in temporal lobe epilepsy.
+    *Citations:*: 502+
+    *Certainty:*: 0.92 (Sci Transl Med; rigorous validation; human; ground-truth confirmation via surgical specimens)
+    *Relevance:*: Methodological foundation enabling Elmenhorst 2026. Confirms SV2A is a reliable proxy for synaptic density.
+
+=== Horne and Shackell 1991 — Alpha EEG Activity in Fibromyalgia NREM Sleep
+
+    *Full Citation:*: Horne JA, Shackell BS. Alpha-like EEG activity in non-REM sleep and the fibromyalgia (fibrositis) syndrome. _Electroencephalography and Clinical Neurophysiology_. 1991;79(4):271-276. @Horne1991alphaEEGfibromyalgia
+    *DOI:*: #link("https://doi.org/10.1016/0013-4694(91)90122-K")[10.1016/0013-4694(91)90122-K]
+    *Key Findings:*: Seminal demonstration of alpha-like EEG activity during NREM sleep in fibromyalgia patients — the alpha-delta sleep anomaly.
+    *Citations:*: 91+
+    *Certainty:*: 0.70 (Well-cited; first demonstration; clinical EEG; small samples)
+    *Relevance:*: Foundational observation that disrupted NREM sleep architecture (alpha intrusion into delta sleep) characterizes chronic pain/fatigue conditions. Directly relevant to the hypothesis that impaired synaptic downscaling in ME/CFS stems from poor NREM sleep quality.
+
+=== Guilleminault et al.\ 2006 — Chronic Fatigue, Unrefreshing Sleep and Polysomnography
+
+    *Full Citation:*: Guilleminault C, Poyares D, da Rosa A, et al.\ Chronic fatigue, unrefreshing sleep and nocturnal polysomnography. _Sleep Medicine_. 2006;7(6):513-520. @Guilleminault2006CFSPSG
+    *DOI:*: #link("https://doi.org/10.1016/j.sleep.2006.03.016")[10.1016/j.sleep.2006.03.016]
+    *Study Design:*: Case-control polysomnographic study
+    *Key Findings:*: CFS patients had more alpha-delta sleep and increased cyclic alternating pattern rate vs controls. NREM sleep disruption correlated with fatigue severity.
+    *Citations:*: 67+
+    *Certainty:*: 0.75 (Sleep Medicine; moderate sample; well-documented PSG protocol)
+    *Relevance:*: Direct evidence linking ME/CFS unrefreshing sleep to measurable NREM sleep disruption — the substrate for impaired synaptic downscaling.
+
+=== Van Hoof et al.\ 2007 — Alpha-Delta Sleep in CFS
+
+    *Full Citation:*: Van Hoof E, De Becker P, De Meirleir K, et al.\ Defining the occurrence and influence of alpha-delta sleep in chronic fatigue syndrome. _American Journal of the Medical Sciences_. 2007;333(2):78-84. @VanHoof2007alphaDeltaCFS
+    *DOI:*: #link("https://doi.org/10.1097/00000441-200702000-00003")[10.1097/00000441-200702000-00003]
+    *Study Design:*: Cross-sectional PSG study
+    *Key Findings:*: Defined alpha-delta sleep patterns in CFS and found correlation with symptom severity.
+    *Certainty:*: 0.55 (Small sample; heterogeneous diagnostic criteria; modest journal)
+
+=== Durkin and Aton 2016 — Null/Counterevidence to SHY
+
+    *Full Citation:*: Durkin J, Aton SJ. Sleep-dependent potentiation in the visual system is at odds with the synaptic homeostasis hypothesis. _Sleep_. 2016;39(1):155-159. @Durkin2016SHYcounter
+    *DOI:*: #link("https://doi.org/10.5665/sleep.5338")[10.5665/sleep.5338]
+    *Key Finding:*: In mouse visual cortex, sleep promotes synaptic potentiation (not downscaling). Challenges the generality of SHY.
+    *Citations:*: 67+
+    *Certainty:*: 0.65 (Sleep; animal model; regional specificity may reduce force of challenge)
+    *Relevance:*: Important to acknowledge in discussion: SHY may not apply uniformly across all brain regions. Cortical vs subcortical differences may matter.
+
+=== Elmenhorst et al.\ 2007 — Sleep Deprivation Increases A1 Adenosine Receptor Binding
+
+    *Full Citation:*: Elmenhorst D, Meyer PT, Winz OH, et al.\ Sleep deprivation increases A1 adenosine receptor binding in the human brain: a positron emission tomography study. _Journal of Neuroscience_. 2007;27(9):2410-2415. @Elmenhorst2007A1adenosine
+    *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.5066-06.2007")[10.1523/JNEUROSCI.5066-06.2007]
+    *Key Finding:*: Human PET: sleep deprivation increases A1 adenosine receptor binding. Demonstrates adenosineergic sleep pressure.
+    *Citations:*: 159+
+    *Certainty:*: 0.80 (J Neurosci; human PET; well-cited; direct precedent for Elmenhorst 2026)
+    *Relevance:*: Adenosine accumulation during wakefulness is a key biochemical signal for sleep pressure and may gate synaptic downscaling. Links to adenosine dysregulation in ME/CFS.
+
+=== Elmenhorst et al.\ 2017 — Recovery Sleep Restores Adenosine Receptor Availability
+
+    *Full Citation:*: Elmenhorst D, Elmenhorst E-M, Hennecke E, et al.\ Recovery sleep after extended wakefulness restores elevated A1 adenosine receptor availability in the human brain. _Proceedings of the National Academy of Sciences_. 2017;114(16):4243-4248. @Elmenhorst2017recoveryA1
+    *DOI:*: #link("https://doi.org/10.1073/pnas.1614677114")[10.1073/pnas.1614677114]
+    *Key Finding:*: Recovery sleep normalizes A1 adenosine receptor availability after deprivation. PNAS.
+    *Citations:*: 86+
+    *Certainty:*: 0.82 (PNAS; human PET; confirmation of adenosineergic sleep homeostasis)
+    *Relevance:*: Demonstrates that sleep actively restores adenosine homeostasis — parallel to the SV2A synaptic density restoration story.
