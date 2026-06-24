@@ -23895,6 +23895,14 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Certainty:*: 0.92 (Sci Transl Med; rigorous validation; human; ground-truth confirmation via surgical specimens)
     *Relevance:*: Methodological foundation enabling Elmenhorst 2026. Confirms SV2A is a reliable proxy for synaptic density.
 
+=== Mikkelsen et al.\ 2023 — SV2A Levels in Alzheimer's Disease: A Caution on SV2A as Synaptic Density Proxy
+
+    *Full Citation:*: Mikkelsen JD, Kaad S, Aripaka SS, Finsen B. Synaptic vesicle glycoprotein 2A (SV2A) levels in the cerebral cortex in patients with Alzheimer's disease: a radioligand binding study in postmortem brains. _Neurobiology of Aging_. 2023;129:108-115. @Mikkelsen2023SV2Apostmortem
+    *DOI:*: #link("https://doi.org/10.1016/j.neurobiolaging.2023.05.003")[10.1016/j.neurobiolaging.2023.05.003]
+    *Key Findings:*: Postmortem validation of SV2A binding. Regional variability in SV2A levels — SV2A is a reasonable but imperfect proxy for synaptic density. SV2A signal reflects vesicle trafficking state and recycling pool size in addition to synapse count.
+    *Certainty:*: 0.65 (Postmortem study; modest n; regional variability important caveat)
+    *Relevance:*: Critical context for interpreting Elmenhorst 2026 and any proposed ME/CFS SV2A studies. The SV2A PET signal is not a pure synaptic-density readout; activity-dependent vesicle dynamics may contribute to observed changes.
+
 === Horne and Shackell 1991 — Alpha EEG Activity in Fibromyalgia NREM Sleep
 
     *Full Citation:*: Horne JA, Shackell BS. Alpha-like EEG activity in non-REM sleep and the fibromyalgia (fibrositis) syndrome. _Electroencephalography and Clinical Neurophysiology_. 1991;79(4):271-276. @Horne1991alphaEEGfibromyalgia
