@@ -719,7 +719,7 @@ Identifies IL-2 as potentially important cytokine in ME/CFS pathophysiology. Not
 
 *Hunter et al.\ 2025 — Epigenetic Biomarkers and IL-2 Pathway*
 
-@Hunter2025
+@hunter2025biomarker
 
 *Key Findings:*
 Developed blood-based diagnostic test using EpiSwitch\textregistered\ technology identifying 200 chromosome conformation markers that distinguish ME/CFS from controls with 92% sensitivity and 98% specificity. Pathway analysis revealed involvement of IL-2, TNF$alpha$, toll-like receptor signaling, and JAK/STAT mechanisms. IL-2 identified as shared pathway with existing therapies (Rituximab, glatiramer acetate).
@@ -23956,3 +23956,158 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Citations:*: 86+
     *Certainty:*: 0.82 (PNAS; human PET; confirmation of adenosineergic sleep homeostasis)
     *Relevance:*: Demonstrates that sleep actively restores adenosine homeostasis — parallel to the SV2A synaptic density restoration story.
+
+// =============================================================================
+<sec:bib-extracellular-vesicles-rydland-2026>
+// =============================================================================
+
+== Extracellular Vesicles in ME/CFS — Rydland 2026 Focus
+
+=== Rydland et al.\ 2026 — Protein Cargo of EVs from ME/CFS Plasma
+
+    *Full Citation:*: Rydland A, Yran ES, Nyman TA, Strand EB, Trøseid A-MS, Øvstebø R, Heinicke F, Lie BA, Viken MK. Exploring differences in protein cargo of extracellular vesicles from ME/CFS patient plasma compared to healthy controls. _Biochemistry and Biophysics Reports_. 2026;47:102679. @rydland2026evcargo
+    *DOI:*: #link("https://doi.org/10.1016/j.bbrep.2026.102679")[10.1016/j.bbrep.2026.102679]
+    *Study Design:*: Case-control EV proteomics
+    *Sample Size:*: n=49 ME/CFS (Canadian criteria, pre-pandemic), n=50 HC
+    *Key Findings:*:
+        - Elevated EV counts in ME/CFS vs HC (replicates Castro-Marrero 2018, Oltra 2020, Hanson/Giloteaux 2024)
+        - 11 differentially abundant proteins: up ITIH3, AMBP, FGB (liver-specific); down IGKV1-12, IGKV1-8, IGLV3-15, IGHV3-7 (immunoglobulin light chain variable domains), HBA1, HBB, HBD (hemoglobin), F13A1 (coagulation factor XIII A chain)
+        - Liver-derived EV proteins enriched in ME/CFS (ITIH3, AMBP, FGB)
+        - Reduced immunoglobulin-related proteins in EV cargo
+        - Reduced hemoglobin and coagulation factor XIII
+        - None survived FDR multiple-comparison correction (adjusted $p > 0.05$)
+        - Binding before SARS-CoV-2 pandemic
+    *Conclusion:*: EV protein cargo differs between ME/CFS and HC, with liver-derived proteins upregulated and immunoglobulin/hemoglobin/coagulation proteins downregulated. However, no protein survived multiple-comparison correction. EV count elevation is the most robust finding, consistent with prior studies.
+    *Limitations:*: No FDR-significant hits; confounders (medication, comorbidities, activity levels) not controlled; single EV isolation method (no orthogonal validation); pre-pandemic binding may not reflect post-pandemic ME/CFS; cross-sectional.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (largest EV study in ME/CFS; standard proteomic workflow; no FDR hits)
+        - *Sample:* Medium (n=99 total)
+        - *Replication:* Partial (EV count replicates; protein cargo new, needs independent validation)
+        - *Score:* 0.55
+
+=== Castro-Marrero et al.\ 2018 — Circulating EVs as Biomarkers in ME/CFS
+
+    *Full Citation:*: Castro-Marrero J, Serrano-Pertierra E, Oliveira-Rodríguez M, Zaragozá MC, Martínez-Martínez A, Blanco-López MC. Circulating extracellular vesicles as potential biomarkers in chronic fatigue syndrome/myalgic encephalomyelitis: an exploratory pilot study. _Journal of Extracellular Vesicles_. 2018;7(1):1453730. @castromarrero2018ev
+    *DOI:*: #link("https://doi.org/10.1080/20013078.2018.1453730")[10.1080/20013078.2018.1453730]
+    *Study Design:*: Pilot case-control EV characterization
+    *Sample Size:*: n=20 ME/CFS, n=20 HC
+    *Key Findings:*:
+        - First EV study in ME/CFS: elevated EV numbers in ME/CFS plasma
+        - EV size distribution differed between groups
+        - EV surface markers CD9, CD63, CD81 detected
+        - Characterised by NTA, TEM, and flow cytometry
+    *Conclusion:*: Circulating EVs are elevated in ME/CFS and may serve as biomarker candidates.
+    *Limitations:*: Small pilot; no protein/miRNA cargo analysis; single isolation method.
+    *Certainty:*: 0.40
+
+=== Giloteaux et al.\ 2020 — Cytokine Profiling of EVs in ME/CFS
+
+    *Full Citation:*: Giloteaux L, O'Neal A, Castro-Marrero J, Levine SM, Hanson MR. Cytokine profiling of extracellular vesicles isolated from plasma in myalgic encephalomyelitis/chronic fatigue syndrome: a pilot study. _Journal of Translational Medicine_. 2020;18(1):387. @giloteaux2020evcytokine
+    *DOI:*: #link("https://doi.org/10.1186/s12967-020-02560-0")[10.1186/s12967-020-02560-0]
+    *Study Design:*: Pilot cross-sectional EV cytokine analysis
+    *Sample Size:*: n=8 ME/CFS, n=9 HC
+    *Key Findings:*:
+        - IL-2 elevated in ME/CFS EV fraction
+        - No significant differences in IL-1β, IL-6, IL-8, IL-10, TNFα
+        - First study isolating plasma EVs for cytokine profiling in ME/CFS
+    *Limitations:*: Very small sample; pilot only; single timepoint.
+    *Certainty:*: 0.35
+
+=== Almenar-Pérez et al.\ 2020 — Diagnostic Value of EV miRNAs in ME/CFS
+
+    *Full Citation:*: Almenar-Pérez E, Sarría L, Nathanson L, Oltra E. Assessing diagnostic value of microRNAs from peripheral blood mononuclear cells and extracellular vesicles in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Scientific Reports_. 2020;10(1):3181. @almenarperez2020evmirna
+    *DOI:*: #link("https://doi.org/10.1038/s41598-020-58506-5")[10.1038/s41598-020-58506-5]
+    *Study Design:*: Case-control miRNA profiling
+    *Sample Size:*: n=22 ME/CFS, n=17 HC
+    *Key Findings:*:
+        - EV miRNA profiles distinguish ME/CFS from HC with moderate accuracy
+        - Combined PBMC + EV miRNA panels improve discrimination
+        - miR-124-3p, miR-142-5p, miR-150-5p among differentially expressed
+    *Conclusion:*: EV miRNAs are potential diagnostic biomarkers for ME/CFS.
+    *Limitations:*: Moderate sample; single-lab; no independent validation cohort.
+    *Certainty:*: 0.45
+
+=== Eguchi et al.\ 2020 — Talin-1 and Filamin-A in EVs as ME/CFS Biomarkers
+
+    *Full Citation:*: Eguchi A, Fukuda S, Kuratsune H, Nojima J, Nakatomi Y, Watanabe Y, Feldstein AE. Identification of actin network proteins, talin-1 and filamin-A, in circulating extracellular vesicles as blood biomarkers for human myalgic encephalomyelitis/chronic fatigue syndrome. _Brain, Behavior, and Immunity_. 2020;84:205-214. @eguchi2020evbiomarker
+    *DOI:*: #link("https://doi.org/10.1016/j.bbi.2019.11.015")[10.1016/j.bbi.2019.11.015]
+    *Study Design:*: Case-control EV proteomics
+    *Sample Size:*: n=25 ME/CFS, n=22 HC
+    *Key Findings:*:
+        - Talin-1 and filamin-A identified as EV-associated biomarkers
+        - Actin cytoskeleton, focal adhesion, ECM-receptor interaction pathways enriched
+        - First proteomic study on circulating EVs in ME/CFS
+    *Limitations:*: Moderate n; candidate approach; needs independent validation.
+    *Certainty:*: 0.50
+
+=== Bonilla et al.\ 2022 — EV Surface Markers by Severity in ME/CFS
+
+    *Full Citation:*: Bonilla H, Hampton D, Marques de Menezes EG, Deng X, Montoya JG, Anderson J, Maecker HT. Comparative Analysis of Extracellular Vesicles in Patients with Severe and Mild Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Frontiers in Immunology_. 2022;13:841910. @bonilla2022evseverity
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2022.841910")[10.3389/fimmu.2022.841910]
+    *Study Design:*: Cross-sectional EV surface marker analysis by severity
+    *Sample Size:*: n=15 ME/CFS (8 severe, 7 mild), n=6 HC
+    *Key Findings:*:
+        - EV surface markers differ by ME/CFS severity
+        - CD8+ T-cell and B-cell derived EVs elevated
+        - CD14+ monocyte EVs reduced in severe ME/CFS
+        - Reflects immune cell activation state in EV profiles
+    *Limitations:*: Very small n per severity group; single institution; Stanford cohort.
+    *Certainty:*: 0.45
+
+=== González-Cebrián et al.\ 2022 — PLS-DA Diagnosis Using EV miRNAs
+
+    *Full Citation:*: González-Cebrián A, Almenar-Pérez E, Xu J, Yu T, Huang WE, Giménez-Orenga K, Nathanson L, Oltra E. Diagnosis of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome With Partial Least Squares Discriminant Analysis: Relevance of Blood Extracellular Vesicles. _Frontiers in Medicine_. 2022;9:842991. @gonzalezcebrian2022evdiagnosis
+    *DOI:*: #link("https://doi.org/10.3389/fmed.2022.842991")[10.3389/fmed.2022.842991]
+    *Study Design:*: Case-control miRNA diagnostic model with validation
+    *Sample Size:*: n=32 ME/CFS, n=22 HC (training); n=19 ME/CFS, n=56 HC (validation)
+    *Key Findings:*:
+        - PLS-DA model using EV miRNA achieved AUC 0.87-0.93 in validation
+        - Largest EV miRNA diagnostic study at publication
+        - Oltra group expanded EV miRNA panel
+    *Limitations:*: Single-lab; validation cohort still modest; platform-specific.
+    *Certainty:*: 0.55
+
+=== Nunes et al.\ 2024 — Coagulation and Complement in ME/CFS Plasma Proteomics
+
+    *Full Citation:*: Nunes M, Vlok M, Proal AD, Kell DB, Pretorius E. Data-independent LC-MS/MS analysis of ME/CFS plasma reveals a dysregulated coagulation system, endothelial dysfunction, downregulation of complement machinery. _Cardiovascular Diabetology_. 2024;23:254. @Nunes2024coagulation
+    *DOI:*: #link("https://doi.org/10.1186/s12933-024-02315-x")[10.1186/s12933-024-02315-x]
+    *Study Design:*: Plasma proteomics; DIA-LC-MS/MS
+    *Sample Size:*: n=20 ME/CFS, n=20 HC
+    *Key Findings:*:
+        - Dysregulated coagulation cascade in ME/CFS plasma
+        - Endothelial dysfunction markers elevated
+        - Complement system downregulated
+        - Vascular pathology consistent with EV cargo findings in Rydland 2026
+    *Limitations:*: Whole plasma (not EV-focused); moderate n.
+    *Certainty:*: 0.55
+
+=== Hunter et al.\ 2025 — Blood-Based Diagnostic Biomarkers Using EpiSwitch
+
+    *Full Citation:*: Hunter E, Alshaker H, Bundock O, Weston C, Bautista S, Gebregzabhar A, et al. Development and validation of blood-based diagnostic biomarkers for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) using EpiSwitch. _Journal of Translational Medicine_. 2025;23(1):486. @hunter2025biomarker
+    *DOI:*: #link("https://doi.org/10.1186/s12967-025-07203-w")[10.1186/s12967-025-07203-w]
+    *Study Design:*: Blood-based biomarker development with training/validation
+    *Sample Size:*: n=210 training, n=88 validation
+    *Key Findings:*:
+        - EpiSwitch 3D genomic biomarker panel discriminates ME/CFS
+        - Chromatin architecture differences in blood
+        - Not EV-specific but relevant as blood-based diagnostic comparator
+    *Limitations:*: Novel platform, limited independent replication.
+    *Certainty:*: 0.55
+
+=== Wang et al.\ 2025 — Exosomal LncRNAs in CFS (Review)
+
+    *Full Citation:*: Wang L, Xu Y, Zhong X, Wang G, Shi Z, Mei C. The emerging role of exosomal LncRNAs in chronic fatigue syndrome: from intercellular communication to disease biomarkers. _Frontiers in Molecular Biosciences_. 2025;12:1653627. @wang2025exosomelncrna
+    *DOI:*: #link("https://doi.org/10.3389/fmolb.2025.1653627")[10.3389/fmolb.2025.1653627]
+    *Key Findings:*: Review proposing exosomal lncRNAs as CFS biomarkers.
+    *Limitations:*: No primary data; speculative; review only.
+    *Certainty:*: 0.20
+
+=== Kell et al.\ 2022 — Amyloid Fibrin Microclots in Long COVID
+
+    *Full Citation:*: Kell DB, Laubscher GJ, Pretorius E. A central role for amyloid fibrin microclots in long COVID/PASC: origins and therapeutic implications. _Biochemical Journal_. 2022;479(4):537-559. @kell2022microclots
+    *DOI:*: #link("https://doi.org/10.1042/BCJ20220016")[10.1042/BCJ20220016]
+    *Key Findings:*:
+        - Reviews mechanism of amyloid fibrin microclot formation in PASC
+        - Contextually relevant to Rydland 2026 FGB (fibrinogen beta) finding
+        - Links EV-associated coagulation to microclot pathology
+    *Certainty:*: 0.60

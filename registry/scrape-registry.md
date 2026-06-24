@@ -657,3 +657,13 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/28616881/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Jones2017DietaryCFS — diet CFS systematic review |
 | https://pubmed.ncbi.nlm.nih.gov/39940333/ | PubMed | 2026-06-23 | — | bib/epidemiology.bib, appendix-h — Dorczok2025DietarySupplements — supplement review |
 | PubMed API queries (12 queries, batch) | pubmed/eutils | 2026-06-23 | — | content-staging/literature-food-insecurity-2026-06-23.md, content-staging/search-log-food-insecurity-2026-06-23.md, bib/epidemiology.bib (11 entries), appendix-h (11 annotated entries) — food insecurity ME/CFS LC literature |
+
+## Extracellular Vesicles (Rydland 2026) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-24 | 33 queries: direct EV queries (4) + previous EV studies (3) + specific protein-ME/CFS queries (15) + EV-related coagulation/proteomics (8) + null/negative (1) + CrossRef (2) |
+| CrossRef API | 2026-06-24 | Metadata for Rydland 2026 (DOI 10.1016/j.bbrep.2026.102679) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (33 queries, batch) | pubmed/eutils | 2026-06-24 | — | content-staging/search-log-extracellular-vesicles-rydland-2026-2026-06-24.md, bib/immune.bib (11 entries), appendix-h — Extracellular vesicles ME/CFS literature (11 papers, Rydland 2026 focus) |
