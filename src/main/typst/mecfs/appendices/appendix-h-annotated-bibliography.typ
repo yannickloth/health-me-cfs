@@ -24111,3 +24111,267 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Contextually relevant to Rydland 2026 FGB (fibrinogen beta) finding
         - Links EV-associated coagulation to microclot pathology
     *Certainty:*: 0.60
+
+// =============================================================================
+
+== IgE Sensitization — Spike/Tick/Neuroinflammation (Added 2026-06-24)
+<sec:bib-ige-sensitization-spike-tick>
+
+=== Oh et al.\ 2024 — Incident Allergic Diseases After COVID-19 (Multinational)
+
+    *Full Citation:*: Oh J, Lee M, Kim M, Kim HJ, Lee SW, Rhee SY, Koyanagi A, Smith L, Kim MS, Lee H, Lee J, Yon DK. Incident allergic diseases in post-COVID-19 condition: multinational cohort studies from South Korea, Japan and the UK. _Nature Communications_. 2024;15(1):2830. @oh2024incident
+    *DOI:*: #link("https://doi.org/10.1038/s41467-024-47176-w")[10.1038/s41467-024-47176-w]
+    *Study Design:*: Population-based propensity-matched cohort studies
+    *Sample Size:*: n=836,164 (South Korea), n=2,541,021 (Japan replication), n=325,843 (UK Biobank replication)
+    *Key Findings:*:
+        - COVID-19 increases risk of incident allergic disease (HR 1.20; 95% CI 1.13-1.27)
+        - Asthma: HR 2.25; allergic rhinitis: HR 1.23; risk persists >6 months
+        - Risk increases with COVID-19 severity
+        - Vaccination (≥2 doses) protective against subsequent allergic disease (HR 0.81)
+        - Replicated across three independent cohorts from different countries
+    *Conclusion:*: COVID-19 significantly increases risk of new-onset allergic disease, providing population-level evidence for infection-triggered allergic sensitization.
+    *Limitations:*: Potential misclassification of pre-existing allergic conditions; observational design.
+    *Certainty:*: 0.85
+
+=== Clarion et al.\ 2026 — Post-COVID-19 Onset of Allergic Conditions
+
+    *Full Citation:*: Clarion J, Berill Z, Susi A, Mitre E, Schwartz D, Nylund CM. Post-COVID-19 onset of allergic conditions in a propensity-matched cohort of children and adults. _Annals of Allergy, Asthma and Immunology_. 2026. @clarion2026postcovid
+    *DOI:*: #link("https://doi.org/10.1016/j.anai.2026.05.022")[10.1016/j.anai.2026.05.022]
+    *Study Design:*: 1:2 propensity-matched retrospective cohort
+    *Sample Size:*: ~200,000 individuals, 18-month follow-up
+    *Key Findings:*:
+        - COVID-19 associated with significantly increased HR for all six allergic conditions studied
+        - Asthma and rhinoconjunctivitis significant in active-duty adult subset
+        - All conditions except food allergies significant in children
+        - Higher socioeconomic status (rank) protective against asthma
+    *Conclusion:*: Adds to evidence that COVID-19 predisposes to allergic disease, suggesting mechanistic link between viral infection and type 2 inflammation.
+    *Limitations:*: Retrospective; military/insurance-based population.
+    *Certainty:*: 0.70
+
+=== Platts-Mills et al.\ 2025 — The Immunology of Alpha-Gal Syndrome
+
+    *Full Citation:*: Platts-Mills TAE, Gangwar RS, Workman L, Wilson JM. The immunology of alpha-gal syndrome: history, tick bites, IgE, and delayed anaphylaxis to mammalian meat. _Immunological Reviews_. 2025;332(1):e70035. @plattsmills2025immunology
+    *DOI:*: #link("https://doi.org/10.1111/imr.70035")[10.1111/imr.70035]
+    *Study Design:*: Authoritative review by alpha-gal syndrome discoverers
+    *Key Findings:*:
+        - Tick bites induce IgE to galactose-alpha-1,3-galactose via Th2 (IL-4/IL-13) signal
+        - IgE-producing B cells derive from IgM/IgG B cells, not naive B cells
+        - Alpha-gal is a carbohydrate, not a protein — unique among allergens
+        - Delayed anaphylaxis (3-6h) due to glycolipid digestion kinetics
+        - Avoidance of tick bites reduces IgE levels over time
+    *Conclusion:*: Definitive review establishing tick bite→specific IgE→clinical disease paradigm.
+    *Limitations:*: Review; no primary data.
+    *Certainty:*: 0.90
+
+=== Wilson et al.\ 2024 — Tick Bites, IgE to Alpha-Gal and the Alpha-Gal Syndrome
+
+    *Full Citation:*: Wilson JM, Erickson L, Levin M, Ailsworth SM, Commins SP, Platts-Mills TAE. Tick bites, IgE to galactose-alpha-1,3-galactose and urticarial or anaphylactic reactions to mammalian meat: the alpha-gal syndrome. _Allergy_. 2024;79(6):1440-1454. @wilson2024ticksalpha
+    *DOI:*: #link("https://doi.org/10.1111/all.16003")[10.1111/all.16003]
+    *Study Design:*: Comprehensive review
+    *Sample Size:*: >2500 patients clinical experience
+    *Key Findings:*:
+        - Alpha-gal syndrome is tick-acquired IgE to the oligosaccharide galactose-alpha-1,3-galactose
+        - Reactions are delayed (2-6h after ingestion), often involving GI symptoms
+        - Alpha-gal IgE is likely an incidental consequence of adaptive immune defense against ectoparasites
+        - Increasingly recognized as cause of isolated GI morbidity
+        - Alpha-gal sensitization linked with cardiovascular disease
+    *Conclusion:*: AGS is the best-established model of tick-borne antigen-specific IgE causing clinical disease.
+    *Limitations:*: Review; regional variation in tick species.
+    *Certainty:*: 0.85
+
+=== Tan et al.\ 2022 — Hypersensitivity and Spike-Specific IgE in Severe COVID-19
+
+    *Full Citation:*: Tan C, Zheng X, Sun F, He J, Shi H, Chen M, Tu C, Huang Y, Wang Z, Liang Y, Wu J, Liu Y, Liu J, Huang J. Hypersensitivity may be involved in severe COVID-19. _Clinical and Experimental Allergy_. 2022;52(2):324-333. @tan2022hypersensitivity
+    *DOI:*: #link("https://doi.org/10.1111/cea.14023")[10.1111/cea.14023]
+    *Study Design:*: Cross-sectional serology and histology
+    *Sample Size:*: n=36 COVID-19 patients
+    *Key Findings:*:
+        - Anti-spike S1 IgE and anti-nucleocapsid IgE significantly higher in severe vs mild COVID-19
+        - Specific IgE levels correlated with total lung severity scores and PaO₂
+        - Mast cell degranulation observed in airway tissue histology
+        - Corticosteroid responsiveness in severe cases consistent with hypersensitivity mechanism
+    *Conclusion:*: Spike-specific IgE is generated during severe COVID-19 and correlates with disease severity.
+    *Limitations:*: Small n; single centre; acute COVID-19 only (not ME/CFS or Long COVID).
+    *Certainty:*: 0.55
+
+=== Meltendorf et al.\ 2022 — IL-13 Determines Specific IgE Responses After Mild COVID-19
+
+    *Full Citation:*: Meltendorf S, Vogel K, Thurm C, Prätsch F, Reinhold D, Heuft HG, Stoll M, Venerito M, Geginat J, Schindler M. IL-13 determines specific IgE responses and SARS-CoV-2 immunity after mild COVID-19 and novel mRNA vaccination. _European Journal of Immunology_. 2022;52(12):1990-2002. @meltendorf2022iligespike
+    *DOI:*: #link("https://doi.org/10.1002/eji.202249951")[10.1002/eji.202249951]
+    *Study Design:*: Prospective cohort
+    *Sample Size:*: n=38
+    *Key Findings:*:
+        - IL-13 drives spike-specific IgE after mild COVID-19
+        - Spike-specific IgE correlates with IL-13 rather than IL-4
+        - Th2 cytokine control of anti-spike IgE production demonstrated
+    *Conclusion:*: Th2 pathway activation after COVID-19 can generate spike-specific IgE.
+    *Limitations:*: Small n; single timepoint; mild disease only.
+    *Certainty:*: 0.60
+
+=== Skowera et al.\ 2004 — High Levels of Type 2 Cytokine-Producing Cells in CFS
+
+    *Full Citation:*: Skowera A, Cleare A, Blair D, Bevis L, Wessely SC, Peakman M. High levels of type 2 cytokine-producing cells in chronic fatigue syndrome. _Clinical and Experimental Immunology_. 2004;135(2):294-302. @skowera2004type2
+    *DOI:*: #link("https://doi.org/10.1111/j.1365-2249.2004.02354.x")[10.1111/j.1365-2249.2004.02354.x]
+    *Study Design:*: Case-control flow cytometry
+    *Sample Size:*: n=32 CFS, n=32 controls
+    *Key Findings:*:
+        - Significant Th2/Tc2 bias in CFS vs controls (higher IL-4-producing CD4+ and CD8+ T cells)
+        - Ongoing type 0 immune activation in unstimulated cultures
+        - IFN-γ, IL-2, IL-10 levels similar between groups
+    *Conclusion:*: ME/CFS is associated with a Th2-biased immune profile that could predispose to IgE-mediated responses.
+    *Limitations:*: Small n; cross-sectional; Wessely cohort (broad criteria).
+    *Certainty:*: 0.55
+
+=== Kowal et al.\ 2002 — Prevalence of Allergen-Specific IgE in CFS (Null)
+
+    *Full Citation:*: Kowal K, Schacterele RS, Schur PH, Komaroff AL, DuBuske LM. Prevalence of allergen-specific IgE among patients with chronic fatigue syndrome. _Allergy and Asthma Proceedings_. 2002;23(1):35-39. @kowal2002prevalence
+    *Study Design:*: Case-control
+    *Sample Size:*: n=58 CFS, n=58 controls
+    *Key Findings:*:
+        - Allergen-specific IgE prevalence does NOT differ between CFS and controls
+        - No difference in IgE levels to common aeroallergens or food allergens
+    *Conclusion:*: ME/CFS patients do not have elevated specific IgE to common allergens — important null finding for the IgE-sensitization hypothesis.
+    *Limitations:*: Standard allergen panel only; not tested for spike or tick antigens.
+    *Certainty:*: 0.60
+
+=== Repka-Ramirez et al.\ 2001 — IgE Levels in CFS and Controls (Replicated Null)
+
+    *Full Citation:*: Repka-Ramirez MS, Naranch K, Park YJ, Velarde A, Clauw D, Baraniuk JN. IgE levels are the same in chronic fatigue syndrome (CFS) and control subjects when stratified for atopic status. _Annals of Allergy, Asthma and Immunology_. 2001;86(2):175-180. @reparramirez2001igelevels
+    *DOI:*: #link("https://doi.org/10.1016/S1081-1206(10)62229-6")[10.1016/S1081-1206(10)62229-6]
+    *Study Design:*: Case-control
+    *Sample Size:*: n=34 CFS, n=41 controls
+    *Key Findings:*:
+        - Total IgE levels do NOT differ between CFS and controls when stratified by atopic status
+        - Elevated IgE in CFS is explained by co-morbid atopy, not by CFS itself
+    *Conclusion:*: Replicated null: IgE is not elevated in ME/CFS beyond co-morbid atopy.
+    *Limitations:*: Small n; single centre.
+    *Certainty:*: 0.65
+
+=== Rocha et al.\ 2016 — Histamine Induces Microglia Activation via H1 Receptor
+
+    *Full Citation:*: Rocha SM, Saraiva T, Cristóvão AC, Ferreira R, Santos T, Esteves M, Saraiva C, Je G, Cortes L, Valero J, Alves G, Klibanov A, Kim YS, Bernardino L. Histamine induces microglia activation and dopaminergic neuronal toxicity via H1 receptor activation. _Journal of Neuroinflammation_. 2016;13(1):137. @rocha2016histamine
+    *DOI:*: #link("https://doi.org/10.1186/s12974-016-0600-0")[10.1186/s12974-016-0600-0]
+    *Study Design:*: In vitro + in vivo mouse model
+    *Key Findings:*:
+        - Histamine triggers microglial phagocytosis via H1R and ROS production via H1R/H4R/Nox1
+        - Histamine-induced microglial activation causes dopaminergic neurotoxicity in substantia nigra
+        - H1R blockade protects against histamine-induced neuronal death in vivo
+        - Nox1 signaling pathway involved in both phagocytosis and ROS production
+    *Conclusion:*: Histamine directly activates microglia leading to neuronal damage — key mechanistic link in the mast cell mediator→neuroinflammation pathway.
+    *Limitations:*: Mouse model; Parkinson's disease context; in vitro at high histamine concentrations.
+    *Certainty:*: 0.70
+
+=== Theoharides et al.\ 1995 — Stress-Induced Intracranial Mast Cell Degranulation via CRH
+
+    *Full Citation:*: Theoharides TC, Spanos C, Pang X, Alferes L, Ligris K, Letourneau R, Rozniecki JJ, Webster E, Chrousos GP. Stress-induced intracranial mast cell degranulation: a corticotropin-releasing hormone mediated effect. _Endocrinology_. 1995;136(12):5745-5750. @theoharides1995stressinduced
+    *DOI:*: #link("https://doi.org/10.1210/endo.136.12.7588332")[10.1210/endo.136.12.7588332]
+    *Study Design:*: Mechanistic animal study
+    *Key Findings:*:
+        - Restraint stress degranulates 70% of rat dura mast cells within 30 min
+        - Effect mediated by CRH → substance P from sensory nerve endings
+        - Blocked by anti-CRH antiserum and neonatal capsaicin treatment
+        - CSF mast cell protease I elevated, confirming connective tissue mast cell activation
+        - Mast cells localized close to substance P-containing nerve fibers
+    *Conclusion:*: Foundational demonstration that stress activates intracranial mast cells via CRH, providing a mechanism for stress-exacerbated neuroinflammatory disorders.
+    *Limitations:*: Rat model; dura mater specifically; IgE-independent (CRH-mediated) pathway.
+    *Certainty:*: 0.85
+
+=== Lakatos & Rosta 2025 — Bidirectional Interplay Between Microglia and Mast Cells
+
+    *Full Citation:*: Lakatos S, Rosta J. Bidirectional interplay between microglia and mast cells. _International Journal of Molecular Sciences_. 2025;26(15):7556. @lakatos2025bidirectional
+    *DOI:*: #link("https://doi.org/10.3390/ijms26157556")[10.3390/ijms26157556]
+    *Study Design:*: Comprehensive review
+    *Key Findings:*:
+        - Mast cells disrupt BBB and activate microglia via histamine, interleukins, tryptase
+        - Mast cell mediators activate microglia through PAR2 and purinergic receptors
+        - Bidirectional crosstalk amplifies neuroinflammatory cascades
+        - Mast cell-derived tryptase, histamine, and cytokines modulate microglial phenotype switching
+        - Interactions implicated in both neurodegenerative progression and repair mechanisms
+    *Conclusion:*: Mast cell-microglia crosstalk is a key amplifier of neuroinflammation with relevance to cognitive dysfunction in chronic inflammatory conditions.
+    *Limitations:*: Review; no primary data; not ME/CFS-specific.
+    *Certainty:*: 0.75
+
+=== Portilho et al.\ 2024 — Unexpected IgE Anti-RBD Response After Infection and Vaccination
+
+    *Full Citation:*: Portilho AI, Silva VO, Da Costa HHM, Silva VH, Barbosa APM, Villar LM, De Gaspari EN. An unexpected IgE anti-receptor binding domain response following natural infection and different types of SARS-CoV-2 vaccination. _Scientific Reports_. 2024;14:18950. @portilho2024igeanti
+    *DOI:*: #link("https://doi.org/10.1038/s41598-024-71047-5")[10.1038/s41598-024-71047-5]
+    *Study Design:*: Cross-sectional serology
+    *Sample Size:*: n~50
+    *Key Findings:*:
+        - Spike RBD-specific IgE detected after both natural infection and vaccination
+        - Demonstrates anti-spike IgE is not restricted to acute infection
+        - Vaccine-induced anti-spike IgE also detected
+    *Conclusion:*: Anti-spike IgE can be generated through multiple routes of antigen exposure.
+    *Limitations:*: Single cohort; cross-sectional; modest sample size.
+    *Certainty:*: 0.50
+
+=== Cabezas-Cruz et al.\ 2021 — Tick-Human Interactions and the α-Gal Syndrome
+
+    *Full Citation:*: Cabezas-Cruz A, Hodžić A, Mateos-Hernández L, Contreras M, de la Fuente J. Tick-human interactions: from allergic klendusity to the α-Gal syndrome. _Biochemical Journal_. 2021;478(9):1783-1794. @caberascruz2021tickhuman
+    *DOI:*: #link("https://doi.org/10.1042/BCJ20200915")[10.1042/BCJ20200915]
+    *Study Design:*: Mechanistic review
+    *Key Findings:*:
+        - Tick saliva contains alpha-gal; Borrelia burgdorferi carries alpha-gal on its surface
+        - Anti-tick IgE is part of acquired tick resistance (ATR)
+        - Alpha-gal IgE response is evolutionary adaptation with AGS as trade-off
+        - Tick-borne pathogens share antigens driving IgE responses
+    *Conclusion:*: Tick-borne pathogens carry the same carbohydrate antigens that drive IgE responses, linking tick-borne infection to allergic sensitization.
+    *Limitations:*: Review; no primary human data.
+    *Certainty:*: 0.70
+
+=== van Nunen 2015 — Tick-Induced Allergies: Mammalian Meat Allergy and Anaphylaxis
+
+    *Full Citation:*: van Nunen S. Tick-induced allergies: mammalian meat allergy, tick anaphylaxis and their significance. _Asia Pacific Allergy_. 2015;5(1):3-16. @vanrunen2015tickinduced
+    *DOI:*: #link("https://doi.org/10.5415/apallergy.2015.5.1.3")[10.5415/apallergy.2015.5.1.3]
+    *Study Design:*: Clinical case series and review
+    *Key Findings:*:
+        - First description establishing tick bites as cause of mammalian meat allergy
+        - Alpha-gal identified as mechanism of allergic reaction
+        - Tick anaphylaxis is rare outside Australia
+        - Prevention of tick bites may ameliorate mammalian meat allergy
+    *Conclusion:*: Seminal clinical observation establishing the tick bite→specific IgE→clinical allergy paradigm, later validated by mechanistic studies.
+    *Limitations:*: Case series; Australian context.
+    *Certainty:*: 0.80
+
+=== Körner et al.\ 2023 — Atopy and Elevated IgE as Risk Factors for Post-COVID-19 Condition
+
+    *Full Citation:*: Körner RW, Bansemir OY, Franke R, Sturm J, Diexer S, Purschke O, Frese T, Mauck L, Girndt M, Sedding D, Binder M, Mikolajczyk R, Gekle M, Klinger C. Atopy and elevation of IgE, IgG3, and IgG4 may be risk factors for post COVID-19 condition. _Children_. 2023;10(10):1598. @korner2023atopy
+    *DOI:*: #link("https://doi.org/10.3390/children10101598")[10.3390/children10101598]
+    *Study Design:*: Case-control
+    *Sample Size:*: n=84
+    *Key Findings:*:
+        - Atopy and elevated IgE, IgG3, IgG4 are risk factors for post-COVID-19 condition
+        - Pre-existing allergic predisposition increases risk of PASC
+    *Conclusion:*: Pre-existing atopic immune profile may predispose to prolonged post-COVID symptoms.
+    *Limitations:*: Small n; single centre; paediatric cohort.
+    *Certainty:*: 0.40
+
+=== Filippatos et al.\ 2025 — Immunological Mechanisms of Allergy Predisposition After SARS-CoV-2
+
+    *Full Citation:*: Filippatos F, Matara DI, Michos A, Kakleas K. Immunological mechanisms underlying allergy predisposition after SARS-CoV-2 infection in children. _Cells_. 2025;14(19):1511. @filippatos2025immunological
+    *DOI:*: #link("https://doi.org/10.3390/cells14191511")[10.3390/cells14191511]
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Epithelial injury → alarmin release (IL-33, IL-25, TSLP) → Th2 polarization + ILC2 expansion
+        - Epigenetic scars (e.g. LMAN2 methylation) sustain long-term Th2 bias
+        - Cytokine memory via IL-7 and IL-15 alters T-cell and B-cell homeostasis
+        - Disrupted Treg function may reduce tolerance thresholds
+    *Conclusion:*: SARS-CoV-2 infection can foster a pro-allergic milieu via multiple converging mechanisms.
+    *Limitations:*: Review; primarily paediatric; heterogeneous epidemiological data.
+    *Certainty:*: 0.65
+
+=== Giménez-Orenga et al.\ 2025 — Blood Parameters Differentiate Post-COVID Condition from ME/CFS
+
+    *Full Citation:*: Giménez-Orenga K, Pierquin J, Brunel J, Charvet B, Martín-Martínez E, Lemarinier M, Fried S, Lucas A, Perron H, Oltra E. Blood parameters differentiate post COVID-19 condition from Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Fibromyalgia. _Brain, Behavior, and Immunity — Health_. 2025;48:101058. @gimenezorenga2025blood
+    *DOI:*: #link("https://doi.org/10.1016/j.bbih.2025.101058")[10.1016/j.bbih.2025.101058]
+    *Study Design:*: Cross-sectional serological comparison
+    *Sample Size:*: ~100 total (post-COVID, ME/CFS, FM, controls)
+    *Key Findings:*:
+        - Anti-spike IgE levels differentiate post-COVID condition from prepandemic ME/CFS
+        - 100% sensitivity, 71.9% specificity for discrimination
+        - Anti-spike IgE is a COVID-specific phenomenon, not general to ME/CFS
+        - HERV-W ENV protein detected in both post-COVID and prepandemic ME/CFS/FM
+        - Measured IgG, IgM, IgA, IgE anti-spike/nucleocapsid + cytokines + NfL
+    *Conclusion:*: Only study directly measuring anti-spike IgE in ME/CFS vs post-COVID. Anti-spike IgE is COVID-specific, not a general ME/CFS feature.
+    *Limitations:*: Cross-sectional; moderate sample size; Oltra group (requires independent replication).
+    *Certainty:*: 0.60

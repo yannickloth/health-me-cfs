@@ -15,16 +15,50 @@
 - B-cell/erythrocyte-derived EV proteins are downregulated — possible immune/bone marrow involvement
 - None of the 11 differentially abundant proteins survived multiple-comparison correction
 
+**Phase 4:** 17 ideas generated across categories 1 (4), 2 (4), 10 (3), 11 (2), 12 (4). No categories 3-9 per PARTIAL constraints. Brainstorm at `content-staging/brainstorm-extracellular-vesicles-rydland-2026-2026-06-24.md`.
+
+**Phase 4a:** Subtree `subtrees/extracellular-vesicles-rydland-2026.md` written with 17 nodes; root index updated.
+
+**Phase 5:** All brainstorm ideas are Tier 2 or Tier 3 (PARTIAL cap — no Tier 1). Critical categories (10-12) integrated as #limitation inline in ch07. Categories 1-2: tree-only (Tier 3 — certainty < 0.20 for all).
+
 **Tracking table:**
 
-| # | Idea / hypothesis | Tier | Certainty | Status | Notes |
-|---|-------------------|------|-----------|--------|-------|
-| (populated after Phase 4 brainstorm) |
+| # | Idea | Tier | Certainty | Status | Notes |
+|---|------|------|-----------|--------|-------|
+| 1.1 | Hepatic acute-phase EV signaling suppresses bone marrow | 3 | 0.15 | ↩️ | Tree-only |
+| 1.2 | Reduced EV Ig as B-cell exhaustion (EBV link) | 3 | 0.20 | ↩️ | Tree-only |
+| 1.3 | EV count elevation as failed CDR resolution | 3 | 0.20 | ↩️ | Tree-only |
+| 1.4 | EV cargo ratio (Ceramide:PS) as severity readout | 3 | 0.15 | ↩️ | Tree-only |
+| 2.1 | EV proteomics power study | 2 | 0.90 | ✅ | Integrated as #open-question in ch07 |
+| 2.2 | CERAMIC study — ceramide/nSMase2 measurement | 2 | 0.30 | ↩️ | Tree-only |
+| 2.3 | CLEAR-ANCE study — EV clearance rate | 3 | 0.15 | ↩️ | Tree-only |
+| 2.4 | Cross-disease EV comparison | 3 | 0.25 | ↩️ | Tree-only |
+| 10.1 | EV elevation as generic sickness signal | — | 0.50 | ✅ | Critical — integrated as #limitation |
+| 10.2 | Publication bias — null EV studies unpublished | — | 0.60 | ✅ | Critical — integrated as #limitation |
+| 10.3 | Pre-analytical variables confound EV studies | — | 0.40 | ✅ | Critical — integrated as #limitation |
+| 11.1 | EV elevation has no causal role | — | 0.35 | ✅ | Critical — integrated into spec:ev-dual-pathway-count |
+| 11.2 | Nominal protein findings are statistical noise | — | 0.55 | ✅ | Critical — integrated as #limitation |
+| 12.1 | All studies underpowered | — | 0.85 | ✅ | Critical — integrated as inline caveat |
+| 12.2 | Single-lab dominance in EV miRNA | — | 0.60 | ✅ | Critical — integrated as #limitation |
+| 12.3 | No longitudinal EV data | — | 0.90 | ✅ | Critical — integrated as #open-question |
+| 12.4 | Severity representation gap | — | 0.70 | ✅ | Critical — integrated as #limitation |
 
-**Phase 1:** 11 papers found (10 new, 1 existing re-tagged). Bib keys (all lowercase): rydland2026evcargo, castromarrero2018ev, giloteaux2020evcytokine, almenarperez2020evmirna, eguchi2020evbiomarker, bonilla2022evseverity, gonzalezcebrian2022evdiagnosis, hunter2025biomarker, wang2025exosomelncrna, kell2022microclots, seifert2026extracellular-vesicles. Added to immune.bib + annotated bibliography. Search log at `content-staging/search-log-extracellular-vesicles-rydland-2026-2026-06-24.md`.
+**Phase 5a:** 3 integrated environments (2 updated specs + 1 new spec in ch07) audited — all falsifiable. No additional findings.
 
-**Phase 2:** 11 papers; 0 strong (≥0.60); 5 moderate (0.40–0.59): Rydland 0.55, González-Cebrián 0.55, Eguchi 0.50, Almenar-Pérez 0.45, Bonilla 0.45; 4 weak (<0.40): Castro-Marrero 0.40, Giloteaux 0.35, Seifert 0.30, Wang 0.20; 2 contextual: Kell 0.60 (review), Hunter 0.55 (non-EV). Decision: PARTIAL — EV count elevation replicated across 6+ labs but zero FDR-significant proteomic findings; all content capped at #speculation/#open-question. Clinical relevance: LOW. Contradictions: 2 pairs (EV count vs biogenesis impairment hypothesis resolved via dual-pathway model; EV size variability resolved via multi-mechanism model). Synthesis at `content-staging/synthesis-extracellular-vesicles-rydland-2026-2026-06-24.md`.
+**Phase 6:** 2 pre-existing matches examined in ch07 EV section; 2 contradictions resolved (EV count vs biogenesis prediction, size variability vs multi-mechanism). 0 certainty bumps. Synonym map at `content-staging/synonym-map-extracellular-vesicles-rydland-2026.md`.
 
-Key finding: EV count elevation in ME/CFS consistently replicated across 6+ independent studies (Castro-Marrero 2018, Giloteaux/Hanson 2020, Almenar-Pérez/Oltra 2020, Eguchi 2020, Bonilla 2022, Rydland 2026). EV miRNA signatures discriminate ME/CFS with AUC 0.87-0.93 (González-Cebrián/Oltra 2022). Protein cargo differences (Rydland 2026: liver-derived up, B-cell/erythrocyte-derived down) are nominal-only — none survived FDR correction.
+**Phase 7:** 3 pairs audited; 0 reinforcement, 0 feed-into, 1 tension flagged (EV count elevation vs exosome biogenesis impairment), 2 independents. 0 certainty adjustments.
 
-**Notes:** This is a standalone `/integrate-topic` invocation (not recursive). The Rydland 2026 paper is the primary source. Previous EV studies by Oltra, Castro-Marrero, and Hanson exist but were small/underpowered. Rydland 2026 is the largest but still underpowered (n=49 patients). The protein findings did not survive multiple-comparison correction — this is a REJECT or PARTIAL candidate depending on whether Phase 1 finds supporting literature for the identified proteins/pathways. Related to existing exosome-sleep-reversal plan (engineered exosomes — different topic).
+**Phase 8:** Build PASS.
+
+**Phase 9:** Quality metrics: WEAK-EVIDENCE (confirmed), BLOAT (none — 3 environments, compact). CLINICAL-RISK: none (no treatment content). Net certainty: −0.05 (biogenesis impairment downgrade). Paper length delta: ~80 lines net addition.
+
+**Phase 10:** Cross-chapter coherence: 2 chapters touched (ch07, hypothesis registry). Certainty consistent. Terminology consistent. Cross-references resolve. Non-specialist consequences present.
+
+**Phase 10a:** Not triggered — only 2 chapters touched with 3 environments; below 3-chapter/2-chapter threshold for synthesis.
+
+**Phase 11:** Review convergence PASS (11a 2 rounds, 11b 2 passes, 11c 2 rounds).
+
+**Phase 12:** Changelog entry added.
+
+**Phase 13:** Committed.
