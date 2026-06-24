@@ -1,0 +1,4 @@
+Title: Development and validation of blood-based diagnostic biomarkers for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) using EpiSwitch
+
+Abstract:
+Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a debilitating, multifactorial disorder characterised by profound fatigue, post-exertional malaise, cognitive impairments, and autonomic dysfunction. Despite its significant impact on quality of life, ME/CFS lacks definitive diagnostic biomarkers, complicating diagnosis and management. Recent evidence highlights potential blood tests for ME/CFS biomarkers in immunological, genetic, metabolic, and bioenergetic domains. Chromosome conformations (CCs) are potent epigenetic regulators of gene expression and cross-tissue exosome signalling. We have previously developed an epigenetic assay, EpiSwitch

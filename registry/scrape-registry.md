@@ -73,6 +73,15 @@ Prevents re-processing of already-integrated content.
 | PubMed API queries (batch) | pubmed/eutils | 2026-06-08 | — | content-staging/literature-neuroimmune-blitshteyn-2026.md, bib/appendix-h — Neuroimmune POTS/ME/CFS/LC literature collection (16 papers) |
 | Crossref API (10.2147/ITT.S581262) | crossref | 2026-06-08 | — | content-staging/literature-neuroimmune-blitshteyn-2026.md — Primary paper metadata + 74 reference list |
 
+## IgE Sensitization — Spike/Tick/Neuroinflammation Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-06-24 | 17 queries across 7 families: spike-specific IgE, tick IgE/alpha-gal, infection→allergy, ME/CFS IgE, mast cell→BBB→cognition, null/negative, competing non-IgE MCAS |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (17 queries, batch) | pubmed/eutils | 2026-06-24 | — | content-staging/literature-summary-ige-sensitization-spike-tick-neuroinflammation-2026-06-24.md, content-staging/search-log-ige-sensitization-spike-tick-neuroinflammation-2026-06-24.md, bib/immune.bib, appendix-h — IgE sensitization literature search (14 papers added) |
+
 ## MMP-9 / IL-11 / Mast Cell Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|

@@ -1,0 +1,4 @@
+Title: Diagnosis of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome With Partial Least Squares Discriminant Analysis: Relevance of Blood Extracellular Vesicles.
+
+Abstract:
+Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS), a chronic disease characterized by long-lasting persistent debilitating widespread fatigue and post-exertional malaise, remains diagnosed by clinical criteria. Our group and others have identified differentially expressed miRNA profiles in the blood of patients. However, their diagnostic power individually or in combinations seems limited. A Partial Least Squares-Discriminant Analysis (PLS-DA) model initially based on 817 variables: two demographic, 34 blood analytic, 136 PBMC miRNAs, 639 Extracellular Vesicle (EV) miRNAs, and six EV features, selected an optimal number of five components, and a subset of 32 regressors showing statistically significant discriminant power. The presence of four EV-features (size and 

@@ -1,0 +1,4 @@
+Title: Cytokine profiling of extracellular vesicles isolated from plasma in myalgic encephalomyelitis/chronic fatigue syndrome: a pilot study.
+
+Abstract:
+Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) is a debilitating disease of unknown etiology lasting for a minimum of 6 months but usually for many years, with features including fatigue, cognitive impairment, myalgias, post-exertional malaise, and immune system dysfunction. Dysregulation of cytokine signaling could give rise to many of these symptoms. Cytokines are present in both plasma and extracellular vesicles, but little investigation of EVs in ME/CFS has been reported. Therefore, we aimed to characterize the content of extracellular vesicles (EVs) isolated from plasma (including circulating cytokine/chemokine profiling) from individuals with ME/CFS and healthy controls.
