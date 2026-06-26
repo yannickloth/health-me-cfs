@@ -107,8 +107,7 @@ Category C (energy-demanding). B-cell depletion triggers major immune remodeling
 
 Additional immunomodulatory agents (corticosteroids, interferons, cyclophosphamide) have been explored in ME/CFS on a case-report or small-series basis, but lack sufficient evidence to warrant detailed treatment protocols. These are generally Category C (energy-demanding) due to broad immune activation or suppression and should only be considered within specialized research settings.
 
-== Antiviral Medications
-<sec:antivirals>
+== Antiviral Medications <sec:antivirals>
 
 Viral triggers and persistent viral reactivation have been implicated in ME/CFS pathogenesis. A systematic review and meta-analysis found significant associations with enteroviruses, HHV-7, parvovirus B19, and Borna disease virus @hwang2023viral. EBV and HHV-6 are among the most commonly identified persistent viral agents across the literature @Rasa2018, with enteroviruses implicated by both reviews. A subset of ME/CFS patients may benefit from antiviral therapy, though identifying responders remains challenging.
 
@@ -164,6 +163,7 @@ Consider antiviral trial in patients with:
     - No clear titer threshold predicts response
     - Some responders have “normal” titers
     - Treatment is empirical
+    - *High VCA IgG alone does not confirm active reactivation --- but does not exclude it either.* Very high VCA IgG (\>750) with negative/low EA-D and negative PCR is consistent with an inert post-infectious antibody set-point, with ongoing abortive lytic replication (an active, potentially antiviral-responsive process; see @subsec:viral-reactivation-biomarkers and @sec:abortive-lytic), or with episodic/tissue-compartmentalised reactivation --- serology cannot separate these. Note that the only controlled positive trials (Lerner 2007; Montoya 2013) enrolled patients on elevated antibody titres, not on confirmed productive replication, so a high titre is a legitimate reason to *consider* a trial. Confirmatory markers (EA-D, EBV/HHV-6 PCR, and --- where clinically available --- anti-dUTPase IgG, which remains largely a research assay) can *support* but not gate the decision: a negative panel does not rule out an active process. When all confirmatory tests are negative or unavailable in a patient with classic post-infectious onset and high VCA IgG, a time-limited valacyclovir trial (the lower-toxicity first-line option) with a predefined stopping rule at 3--6 months remains reasonable given the documented 30--60% responder rate; the absence of confirmation argues for monitoring response carefully, not for withholding treatment outright.
 
 ==== Side Effects and Monitoring
 

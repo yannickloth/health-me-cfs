@@ -1,6 +1,6 @@
 #import "../../../shared/environments.typ": *
 
-== Antiviral Medications
+== Antiviral Medications <sec:antivirals>
 #include "remarks/rem-intro.typ"
 #include "subsec-valacyclovir-and-acyclovir/subsec-valacyclovir-and-acyclovir.typ"
 #include "subsec-valganciclovir/subsec-valganciclovir.typ"
