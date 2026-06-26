@@ -307,6 +307,22 @@ The high comorbidity between ME/CFS and hypermobile Ehlers-Danlos syndrome (hEDS
 
 #include "sec-01-misc/subsec-08-connective-tissue-disorder-parallels-and/speculations/spec-alzheimer-disease-mmp-mediated-ecm-degra.typ"
 
+=== Peripheral Serotonin Depletion: Multi-Compartment Dysregulation
+
+Peripheral serotonin depletion — driven by IDO-mediated tryptophan diversion, enterochromaffin cell damage, and platelet storage defects — has been reported in ME/CFS (a single n=38 study) and more robustly in Long COVID, POTS, and fibromyalgia. Because peripheral serotonin is associated with mitochondrial function, vagal tone, vascular stability, gut motility, and immune modulation, its depletion has been proposed as a candidate multi-system convergence point that would cut across individual organ-system boundaries — though for several of these links (notably the mitochondrial one) the direction of causality is unestablished. The following hypothesis formalises this proposed mechanism and the open question that immediately follows assesses the null hypothesis.
+
+#include "sec-01-misc/subsec-09-peripheral-serotonin-multi-compartment/hypotheses/hyp-peripheral-serotonin-multi-compartment-convergence.typ"
+
+#include "sec-01-misc/subsec-09-peripheral-serotonin-multi-compartment/open-questions/oq-peripheral-serotonin-null-hypothesis.typ"
+
+#synthesis(title: [Peripheral Serotonin Depletion: Convergent Evidence, Convergent Caution])[
+The preceding environments collectively argue that peripheral serotonin depletion — documented across ME/CFS, Long COVID, POTS, and fibromyalgia — is a partial common pathway linking gut dysbiosis, immune activation, autonomic dysfunction, mitochondrial impairment, and pain amplification. The strongest constraint is the absence of interventional data: no trial has tested whether serotonin restoration improves ME/CFS outcomes. The cross-disease convergence (@spec:cross-disease-serotonin-convergence, cert 0.50) provides clinical context — 81% of POTS patients have platelet serotonin deficiency, and an RCT showed SSRIs worsen POTS hemodynamics — but this is POTS data, not ME/CFS. The multi-system mechanism (@hyp:peripheral-serotonin-convergence, cert 0.50) is biologically plausible and consistent with the established IDO/kynurenine pathway diversion, but dietary tryptophan intake (the dominant determinant of peripheral serotonin) has not been controlled in any study. The null hypothesis assessment (@oq:serotonin-null-hypothesis) identifies multiple ways the signal could be artifactual or epiphenomenal, including a structural parallel to the failed serotonin hypothesis of depression. The central unanswered question is whether platelet serotonin measurement in a large, well-controlled ME/CFS cohort would confirm depletion independently of diet, inflammation, and medication confounds — and whether serotonin restoration improves outcomes. Until that study is done, the hypothesis is mechanistically attractive but clinically unvalidated.
+
+*Clinical note:* The SSRI caution discussed across these environments applies only to ME/CFS patients with confirmed POTS comorbidity. For ME/CFS patients without POTS, SSRIs remain indicated for comorbid depression per standard psychiatric guidelines — untreated depression worsens ME/CFS outcomes. For patients with POTS comorbidity who require antidepressant therapy, non-serotonergic alternatives (bupropion, SNRIs with orthostatic monitoring) may be considered. The serotonin-restoring interventions mentioned are research hypotheses only — no dosing, safety, or efficacy data exist in ME/CFS. 5-HTP carries a risk of serotonin syndrome when combined with SSRIs or MAOIs and must never be used without medical supervision.
+
+*Consequence:* Peripheral serotonin depletion is a promising mechanistic model that connects gut, immune, autonomic, and energy systems in a way few other hypotheses do — but promising mechanism does not equal proven treatment. Patients and clinicians should understand this as a research framework, not a basis for self-treatment. The most important action now is a properly controlled measurement study, not a treatment trial.
+] <syn:peripheral-serotonin-depletion-model>
+
 == Inflammation Source Interaction Network: Extended Causal DAG
 <sec:inflammation-source-dag>
 

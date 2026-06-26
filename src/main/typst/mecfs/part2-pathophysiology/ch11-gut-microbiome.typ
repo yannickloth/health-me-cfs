@@ -109,9 +109,11 @@ The Xiong et al.\ (2023) multi-omic integration findings come from a single cent
 
 *Tryptophan Metabolism Alterations.*
 
+*Caveat:* Dietary tryptophan intake — the dominant determinant of systemic tryptophan availability — has never been controlled in any ME/CFS metabolomics study. The reductions in circulating serotonin and kynurenine described below may partially reflect reduced dietary intake rather than pathway-level metabolic diversion alone.
+
 The gut microbiome significantly modulates tryptophan availability, with gut enterochromaffin cells producing $>$90% of the body's serotonin. ME/CFS patients show disrupted tryptophan pathways @Kavyani2022kynurenine @Abujrais2024tryptophan:
 
-    - Reduced circulating serotonin and kynurenine affecting neurotransmission @Simonato2021tryptophan—notably, these changes appeared independent of cytokine levels, suggesting tryptophan dysregulation may be a primary feature rather than secondary to inflammation
+    - Reduced circulating serotonin and kynurenine affecting neurotransmission @Simonato2021tryptophan—notably, these changes did not correlate with measured cytokine levels (which does not exclude inflammatory drivers acting through unmeasured mediators such as IFN-γ–IDO, the primary known driver of this pathway)
     - Altered kynurenine pathway metabolites—lower 3-hydroxykynurenine and 3-hydroxyanthranilic acid, with elevated kynurenine/3HK ratios @Abujrais2024tryptophan
     - Kynurenine pathway hyperactivation may deplete NAD#super[+] via PARP activation, contributing to energy deficits @Dehhaghi2022kynurenine @Dehhaghi2022AD
     - Disrupted indole derivative production (aryl hydrocarbon receptor ligands)
@@ -119,6 +121,10 @@ The gut microbiome significantly modulates tryptophan availability, with gut ent
 *IDO2-Mediated Tryptophan Diversion.*
 
 Post-infectious immune activation may further deplete tryptophan availability through upregulation of indoleamine 2,3-dioxygenase 2 (IDO2), which diverts tryptophan into the kynurenine pathway. Two lines of evidence support this mechanism in post-COVID patients: Guo et al.\ found persistently elevated IDO2 expression in peripheral blood mononuclear cells, associated with reduced intracellular tryptophan and impaired mitochondrial function @Guo2023kynurenine; Rus et al.\ independently confirmed kynurenine pathway activation with reduced serotonin synthesis and elevated neurotoxic metabolites @Rus2025. Wirth and Scheibenbogen#footnote[Currently available as a preprint; not yet peer-reviewed.] proposed that this IDO2-driven tryptophan diversion—simultaneously depleting serotonin and generating neurotoxic kynurenine derivatives—may link post-infectious immune activation to neurocognitive symptoms @WirthScheibenbogen2025Neurotransmitter. Whether this mechanism also impairs gut–brain signaling via reduced enterochromaffin serotonin (see Section @sec:gut-brain) remains an untested extension of their framework.
+
+In ME/CFS specifically, multi-omics data from the Lipkin group confirms that innate immune activation drives tryptophan diversion away from serotonin synthesis @che2025innate. A cross-sectional study by Raij and Raij found lower peripheral serotonin correlated with fatigue severity and L-carnitine levels @raij2024serotonin — a correlation of unknown directionality (could reflect shared tryptophan availability rather than serotonin regulating mitochondrial function).
+
+In Long COVID, Wong et al.\ (2023, Cell) independently identified three converging serotonin depletion mechanisms — IFN-γ-IDO diversion, enterochromaffin cell damage, and impaired platelet serotonin uptake — providing a mechanistic template that may also apply to other post-infectious conditions @wong2023serotonin. In POTS, 81% of patients exhibit platelet dense granule storage pool deficiency with reduced serotonin content (Gunning et al.\ 2016, n=181, @gunning2016pots), and a crossover RCT demonstrated that SSRI administration worsens POTS hemodynamics @mar2014ssripots, consistent with — but not proof of — peripheral serotonin deficiency in that population (POTS-specific; not demonstrated in ME/CFS).
 
 === Gut-Brain Axis
 <sec:gut-brain>

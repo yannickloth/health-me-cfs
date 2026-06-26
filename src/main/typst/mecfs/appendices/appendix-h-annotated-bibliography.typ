@@ -24375,3 +24375,228 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Conclusion:*: Only study directly measuring anti-spike IgE in ME/CFS vs post-COVID. Anti-spike IgE is COVID-specific, not a general ME/CFS feature.
     *Limitations:*: Cross-sectional; moderate sample size; Oltra group (requires independent replication).
     *Certainty:*: 0.60
+
+// =============================================================================
+// Peripheral Serotonin Depletion in ME/CFS, Long COVID, and POTS
+// Added 2026-06-26
+// =============================================================================
+
+== Peripheral Serotonin Depletion
+<sec:bib-peripheral-serotonin>
+
+=== Wong et al.\ 2023 — Serotonin Reduction in Post-Acute Sequelae of Viral Infection
+    *Full Citation:*: Wong AC, Devason AS, Umana IC, et al.\ Serotonin reduction in post-acute sequelae of viral infection. _Cell_. 2023;186(22):4851-4867.e20. @wong2023serotonin
+    *DOI:*: #link("https://doi.org/10.1016/j.cell.2023.09.013")[10.1016/j.cell.2023.09.013]
+    *PMID:*: 37848036
+    *Study Design:*: Multi-mechanism translational study
+    *Sample Size:*: Multiple cohorts; ~100+ Long COVID patients + controls + animal models
+    *Key Findings:*:
+        - Reduced serum serotonin in Long COVID via 3 converging mechanisms: (1) IFN-gamma-driven IDO activation diverting tryptophan from serotonin synthesis; (2) viral persistence reducing enteric serotonin absorption (impaired enterochromaffin cell function); (3) impaired platelet serotonin storage and release
+        - Serotonin reduction correlates with fatigue and cognitive impairment
+        - Mechanism extends to other post-viral fatigue states relevant to ME/CFS
+    *Conclusion:*: Peripheral serotonin depletion is a tractable mechanism in post-viral fatigue; proposed as biomarker and therapeutic target.
+    *Limitations:*: Single group (Penn); platelet serotonin measurements need standardization (per Anderson 2024).
+    *Certainty:*: 0.85
+
+=== Mathé et al.\ 2025 — No Reduced Serum Serotonin in PASC (Null Result)
+    *Full Citation:*: Mathé P, Götz V, Stete K, et al.\ No reduced serum serotonin levels in patients with post-acute sequelae of COVID-19. _Infection_. 2025;53(1):463-466. @mathe2025noserotonin
+    *DOI:*: #link("https://doi.org/10.1007/s15010-024-02397-5")[10.1007/s15010-024-02397-5]
+    *PMID:*: 39356444
+    *Study Design:*: Cross-sectional replication attempt
+    *Key Findings:*:
+        - No significant difference in serum serotonin between PASC and controls
+        - Contradicts Wong et al.\ 2023 Cell study
+        - Differences may relate to patient selection, timing, or sample handling
+    *Conclusion:*: Important negative finding; robustness of peripheral serotonin depletion requires clarification.
+    *Limitations:*: Smaller sample; single center; unstandardized measurement.
+    *Certainty:*: 0.60
+
+=== Anderson et al.\ 2024 — Long COVID and Peripheral Serotonin: Commentary
+    *Full Citation:*: Anderson GM, Cook EH, Blakely RD, Sutcliffe JS, Veenstra-VanderWeele J. Long COVID-19 and peripheral serotonin: a commentary and reconsideration. _Journal of Inflammation Research_. 2024;17:2169-2172. @anderson2024serotonin
+    *DOI:*: #link("https://doi.org/10.2147/JIR.S456000")[10.2147/JIR.S456000]
+    *PMID:*: 38628604
+    *Study Design:*: Methodological commentary
+    *Key Findings:*:
+        - Concerns: platelet-derived serotonin variability; platelet count/handling confounds; clinical significance unclear
+    *Conclusion:*: Calls for standardized measurement protocols and independent replication.
+    *Limitations:*: Commentary; no primary data.
+    *Certainty:*: 0.65
+
+=== Thorpe et al.\ 2026 — Peripheral Serotonin in SARS-CoV-2 and Long COVID
+    *Full Citation:*: Thorpe DW, Jones LA, Martin AM, et al.\ The role of peripheral serotonin in SARS-CoV-2 infectivity, COVID-19 treatment and long COVID. _Immunology and Cell Biology_. 2026;104(4):368-376. @thorpe2026serotonin
+    *DOI:*: #link("https://doi.org/10.1111/imcb.70097")[10.1111/imcb.70097]
+    *PMID:*: 41795913
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Enterochromaffin cell serotonin modulates gut inflammation, immunity, platelet function
+        - SARS-CoV-2 infects enterochromaffin cells via ACE2, disrupting serotonin synthesis
+        - Depletion contributes to fatigue, cognitive impairment, autonomic dysfunction
+    *Conclusion:*: Peripheral serotonin as biomarker and therapeutic target.
+    *Certainty:*: 0.70
+
+=== Bai et al.\ 2024 — Serotonin Signaling as Therapeutic Target
+    *Full Citation:*: Bai L, Zhou F, Zhang L. Serotonin signaling: a new player and therapeutic target beyond long-haul coronavirus disease. _MedComm_. 2024;5(4):e523. @bai2024serotonin
+    *DOI:*: #link("https://doi.org/10.1002/mco2.523")[10.1002/mco2.523]
+    *PMID:*: 38562420
+    *Key Findings:*:
+        - Viral persistence reduces enterochromaffin serotonin; IFN-gamma-IDO diverts tryptophan; platelet serotonin storage impaired
+        - Extends serotonin hypothesis to ME/CFS
+    *Conclusion:*: Serotonin signaling as tractable therapeutic target.
+    *Limitations:*: Review; speculative therapeutic claims.
+    *Certainty:*: 0.50
+
+=== Taenzer et al.\ 2023 — Urine Metabolomics in Long COVID
+    *Full Citation:*: Taenzer M, Löffler-Ragg J, Schroll A, et al.\ Urine metabolite analysis to identify pathomechanisms of long COVID: a pilot study. _International Journal of Tryptophan Research_. 2023;16:11786469231220781. @taenzer2023urine
+    *PMID:*: 38144169
+    *Key Findings:*:
+        - Urine metabolomics shows tryptophan pathway shifts predicting reduced serotonin synthesis
+    *Conclusion:*: Systemic evidence of tryptophan diversion in post-COVID fatigue.
+    *Limitations:*: Pilot; small sample.
+    *Certainty:*: 0.45
+
+=== Raij and Raij 2024 — Peripheral Serotonin in CFS and Hypothyroidism
+    *Full Citation:*: Raij T, Raij K. Association between fatigue, peripheral serotonin, and L-carnitine in hypothyroidism and in chronic fatigue syndrome. _Frontiers in Endocrinology_. 2024;15:1358404. @raij2024serotonin
+    *PMID:*: 38505756
+    *Sample Size:*: n=38 ME/CFS + hypothyroid + controls
+    *Key Findings:*:
+        - Lower serotonin associated with fatigue severity across both conditions
+        - L-carnitine correlated with serotonin levels (mitochondrial link)
+    *Limitations:*: Small cross-sectional; unreplicated.
+    *Certainty:*: 0.55
+
+=== Che et al.\ 2025 — Heightened Innate Immunity in ME/CFS (Lipkin Group)
+    *Full Citation:*: Che X, Ranjan A, Guo C, et al.\ Heightened innate immunity may trigger chronic inflammation, fatigue and post-exertional malaise in ME/CFS. _NPJ Metabolic Health and Disease_. 2025;3(1):34. @che2025innate
+    *PMID:*: 40903540
+    *Study Design:*: Multi-omic analysis; multi-center collaborative
+    *Key Findings:*:
+        - Heightened innate immunity with tryptophan pathway alterations; inflammatory signatures linked to tryptophan diversion from serotonin
+    *Limitations:*: Tryptophan/serotonin not primary focus.
+    *Certainty:*: 0.70
+
+=== Wirth and Scheibenbogen 2026 — Neurotransmitter Imbalance in ME/CFS
+    *Full Citation:*: Wirth KJ, Scheibenbogen C. Imbalance of excitatory and inhibitory neurotransmitter systems in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _International Journal of Molecular Sciences_. 2026;27(9):4041. @wirth2026neurotransmitter
+    *PMID:*: 42123618
+    *Key Findings:*:
+        - Peripheral serotonin depletion co-occurs with altered central serotonergic signaling; part of global neurotransmitter network disruption
+    *Certainty:*: 0.65
+
+=== Gunning et al.\ 2016 — POTS and Platelet Serotonin Deficiency
+    *Full Citation:*: Gunning WT 3rd, Karabin BL, Blomquist TM, Grubb BP. Postural orthostatic tachycardia syndrome is associated with platelet storage pool deficiency. _Medicine (Baltimore)_. 2016;95(37):e4849. @gunning2016pots
+    *PMID:*: 27631244
+    *Sample Size:*: n=181 POTS patients
+    *Key Findings:*:
+        - 81% of POTS patients had delta-granule storage pool deficiency; platelet serotonin significantly lower in POTS vs controls
+    *Conclusion:*: POTS is a low serotonin disorder.
+    *Limitations:*: Retrospective; single center.
+    *Certainty:*: 0.65
+
+=== Raziq et al.\ 2021 — Serotonin in POTS and Vasovagal Syncope
+    *Full Citation:*: Raziq H, Fayyaz H, Azhar R, Hayyat A, Waqas S. Association of serotonin levels in patients of vasovagal syncope and postural tachycardia syndrome. _J Pak Med Assoc_. 2021;71(8):1963-1966. @raziq2021serotonin
+    *PMID:*: 34418010
+    *Key Findings:*:
+        - Lower serotonin in both POTS and VVS vs controls
+    *Limitations:*: Small; unreplicated.
+    *Certainty:*: 0.40
+
+=== Mar et al.\ 2014 — SSRI Hemodynamic Effects in POTS (RCT)
+    *Full Citation:*: Mar PL, Raj V, Black BK, et al.\ Acute hemodynamic effects of a selective serotonin reuptake inhibitor in postural tachycardia syndrome: a randomized, crossover trial. _Journal of Psychopharmacology_. 2014;28(2):155-161. @mar2014ssripots
+    *PMID:*: 24227635
+    *Sample Size:*: n=20, randomized crossover
+    *Key Findings:*:
+        - SSRI increased standing HR and worsened symptoms in POTS; consistent with low serotonin hypothesis
+    *Limitations:*: Acute only; single dose.
+    *Certainty:*: 0.75
+
+=== Loçasso et al.\ 2024 — IL-6 and Serotonin in Fibromyalgia
+    *Full Citation:*: Loçasso FA, Filho HA, Alvarenga RMP, et al.\ Assessing the impact of IL-6 and serotonin on pain and symptomatology in fibromyalgia. _J Pers Med_. 2024;14(8):886. @locasso2024serotonin
+    *PMID:*: 39202077
+    *Key Findings:*:
+        - Lower serotonin correlated with higher pain in FM; IL-6 inversely correlated with serotonin
+    *Limitations:*: Small (~40); unreplicated.
+    *Certainty:*: 0.45
+
+=== Paredes et al.\ 2019 — Serotonin, Pain Disorders, and Estrogen
+    *Full Citation:*: Paredes S, Cantillo S, Candido KD, Knezevic NN. An association of serotonin with pain disorders and its modulation by estrogens. _Int J Mol Sci_. 2019;20(22):5729. @paredes2019serotonin
+    *PMID:*: 31731606
+    *Key Findings:*:
+        - Serotonin modulates pain via 5-HT1A (inhibitory) and 5-HT2A/3 (excitatory); estrogen modulates serotonergic signaling; peripheral depletion may amplify pain
+    *Certainty:*: 0.60
+
+=== Audhya et al.\ 2012 — Platelet Serotonin Correlates with CSF (r=0.97)
+    *Full Citation:*: Audhya T, Adams JB, Johansen L. Correlation of serotonin levels in CSF, platelets, plasma, and urine. _Biochim Biophys Acta_. 2012;1820(10):1496-1501. @audhya2012serotonin
+    *PMID:*: 22664303
+    *Key Findings:*:
+        - Platelet serotonin correlates with CSF at r=0.97 in humans and rats using optimized siliconized-glassware HPLC/MS protocol
+        - Plasma (r=0.57-0.77) and urine (r=0.62-0.67) correlations weaker
+        - Validates platelet serotonin as minimally invasive CNS serotonin surrogate
+    *ME/CFS Relevance:*: Foundational for platelet serotonin index (PSI) as ME/CFS biomarker
+    *Certainty:*: 0.80
+
+=== Szeitz & Bandiera 2018 — Serotonin Analytical Methodology Review
+    *Full Citation:*: Szeitz A, Bandiera SM. Analysis and measurement of serotonin. _Biomed Chromatogr_. 2018;32(1):e4135. @szeitz2018serotonin
+    *PMID:*: 29135035
+    *Key Findings:*:
+        - Comprehensive review of serotonin analytical methods: UV, fluorescence, HPLC, LC-MS/MS
+        - Covers pre-analytical variables, platelet-rich vs platelet-poor plasma, reference ranges
+    *ME/CFS Relevance:*: Essential reference for standardizing PSI assay protocols
+    *Certainty:*: 0.85
+
+=== de Jong et al.\ 2010 — Automated LC-MS/MS Serotonin Assay
+    *Full Citation:*: de Jong WHA, Wilkens MHL, de Vries EGE, Kema IP. Automated mass spectrometric analysis of urinary and plasma serotonin. _Anal Bioanal Chem_. 2010;396(7):2609-2616. @dejong2010serotonin
+    *PMID:*: 20140664
+    *Key Findings:*:
+        - Validated on-line SPE-LC-MS/MS with 6-min run time and LOQ 0.9 nmol/L in plasma
+        - Established urinary reference interval (10-78 µmol/mol creatine, n=120)
+    *ME/CFS Relevance:*: Clinical-scale throughput suitable for PSI deployment
+    *Certainty:*: 0.80
+
+=== Chen et al.\ 2012 — Polyphenols Inhibit IDO-1 Enzymatic Activity
+    *Full Citation:*: Chen SS, Corteling R, Stevanato L, Sinden J. Polyphenols inhibit indoleamine 3,5-dioxygenase-1 enzymatic activity — a role of immunomodulation in chemoprevention. _Discov Med_. 2012;14(78):327-333. @chen2012polyphenolido
+    *PMID:*: 23200064
+    *Key Findings:*:
+        - IDO-1 inhibition potency: apigenin > wogonin > chrysin > baicalein > genistein > quercetin
+        - Curcumin potently inhibits IDO-1 but cytotoxic to neural stem cells
+        - IC50s in low µM range
+    *ME/CFS Relevance:*: Dietary polyphenols may suppress IDO activity and restore tryptophan for serotonin synthesis
+    *Certainty:*: 0.65
+
+=== Chen et al.\ 2012 — Natural IDO Inhibitors in Neural Stem Cells
+    *Full Citation:*: Chen S, Corteling R, Stevanato L, Sinden J. Natural inhibitors of indoleamine 3,5-dioxygenase induced by interferon-gamma in human neural stem cells. _Biochem Biophys Res Commun_. 2012;429(1-2):117-123. @chen2012naturalido
+    *PMID:*: 23063682
+    *Key Findings:*:
+        - Apigenin, baicalein, chrysin, wogonin inhibit IDO-1 with IC50s comparable to indomethacin
+        - Curcumin inhibits IDO-1 but shows cytotoxicity
+        - Inhibition post-translational (mRNA/protein unchanged); flavone backbone is IDO-1 pharmacophore
+    *ME/CFS Relevance:*: Identifies natural compounds for tryptophan-serotonin salvage strategies in inflammatory states
+    *Certainty:*: 0.65
+
+=== Jung et al.\ 2010 — Curcumin Suppresses IDO via COX-2/PGE2 Pathway
+    *Full Citation:*: Jung ID, Jeong YI, Lee CM, et al. COX-2 and PGE2 signaling is essential for the regulation of IDO expression by curcumin in murine bone marrow-derived dendritic cells. _Int Immunopharmacol_. 2010;10(7):760-768. @jung2010curcuminido
+    *PMID:*: 20399909
+    *Key Findings:*:
+        - Curcumin suppresses IFN-γ-induced IDO expression via COX-2/PGE2 inhibition
+        - Acts upstream of IDO transcription, not on enzymatic activity directly
+    *ME/CFS Relevance:*: Anti-inflammatory IDO-suppression pathway relevant to restoring tryptophan→serotonin flux
+    *Certainty:*: 0.60
+
+=== Meyer et al.\ 2015 — 5-HTTLPR Genotype Predicts CFS Severity
+    *Full Citation:*: Meyer B, Nguyen CBT, Moen A, et al. Maintenance of chronic fatigue syndrome (CFS) in young CFS patients is associated with the 5-HTTLPR and SNP rs25531 A > G genotype. _PLoS One_. 2015;10(10):e0140883. @meyer2015cfs
+    *PMID:*: 26473596
+    *Study Design:*: Genotype-phenotype association study
+    *Sample Size:*: 120 CFS patients (12-18 years)
+    *Key Findings:*:
+        - SS or SLG genotypes (low SERT expression) associated with fewer steps/day and higher disability at 30 weeks vs LA carriers
+        - SLC6A4 variation directly influences CFS maintenance and severity
+        - Replicates/extends Narita 2003 findings
+    *Certainty:*: 0.70
+
+=== Bull et al.\ 2009 — SERT and IL-6 Polymorphisms in IFN-alpha-Induced Fatigue
+    *Full Citation:*: Bull SJ, Huezo-Diaz P, Binder EB, et al. Functional polymorphisms in the interleukin-6 and serotonin transporter genes, and depression and fatigue induced by interferon-alpha and ribavirin treatment. _Mol Psychiatry_. 2009;14(12):1095-1104. @bull2009sertfatigue
+    *PMID:*: 18458677
+    *Study Design:*: Prospective pharmacogenetic study
+    *Key Findings:*:
+        - SERT LL genotype (high-expression) associated with greater fatigue during IFN-alpha + ribavirin treatment
+        - IL-6 -174CC genotype independently associated with fatigue
+        - Gene-gene interaction between inflammatory signaling and SERT
+    *ME/CFS Relevance:*: Parallel model for cytokine-driven fatigue; demonstrates SERT genetics modulate fatigue susceptibility
+    *Certainty:*: 0.65

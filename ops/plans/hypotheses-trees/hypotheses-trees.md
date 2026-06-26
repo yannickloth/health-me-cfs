@@ -292,5 +292,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | psychologization-critique-schomerus-2026 | [subtrees/psychologization-critique-schomerus-2026.md](subtrees/psychologization-critique-schomerus-2026.md) | 2026-06-19 | 36 | 0 | ⬜ pending |
 | brain-energy-asd-mecfs | [subtrees/brain-energy-asd-mecfs.md](subtrees/brain-energy-asd-mecfs.md) | 2026-06-19 | 50 | 0 | ⬜ pending |
 | intrapulmonary-shunt  | [subtrees/intrapulmonary-shunt.md](subtrees/intrapulmonary-shunt.md)   | 2026-06-21      | 27         | 16         | 🔵 in progress  |
+| peripheral-serotonin-depletion | [subtrees/peripheral-serotonin-depletion.md](subtrees/peripheral-serotonin-depletion.md) | 2026-06-26 | 23 | 2 | 🔵 in progress |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
