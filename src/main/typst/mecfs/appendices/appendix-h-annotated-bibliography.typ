@@ -23541,8 +23541,8 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Study Design:*: Randomized, double-blind, sham-controlled trial
     *Sample Size:*: ~50 participants
     *Key Findings:*:
-        - **Primary null result:** No significant difference between active taVNS and sham on fatigue improvement
-        - **Paradoxical finding:** Sham stimulation produced significantly greater fatigue improvement than active taVNS
+        - *Primary null result:* No significant difference between active taVNS and sham on fatigue improvement
+        - *Paradoxical finding:* Sham stimulation produced significantly greater fatigue improvement than active taVNS
         - Active taVNS produced significant HRV increases (confirming target engagement at the autonomic level)
         - HRV changes dissociated from clinical outcomes — autonomic engagement ≠ symptom improvement
         - FSS scores decreased significantly over time in BOTH groups
