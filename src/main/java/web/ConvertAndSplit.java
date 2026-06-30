@@ -36,6 +36,9 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("@([A-Z][A-Za-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
     src = src.replaceAll("@([a-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
 
+    // --- Registry entries: convert #registry-entry(...) to Markdown ---
+    src = convertRegistryEntries(src);
+
     // --- Tables: convert to Markdown pipe tables instead of dropping ---
     src = convertFigureTable(src);
     src = convertTableBlocks(src);
@@ -704,6 +707,135 @@ String normalizeUnicode(String s) {
         .replace('\u2019', '\'')
         .replace('\u201c', '"')
         .replace('\u201d', '"');
+}
+
+// Convert #registry-entry(...) blocks to Markdown definition list / table.
+// Each entry becomes a compact 2-column table: field label | value.
+String convertRegistryEntries(String s) {
+    var sb = new StringBuilder();
+    int i = 0;
+    while (i < s.length()) {
+        int pos = s.indexOf("#registry-entry(", i);
+        if (pos < 0) { sb.append(s.substring(i)); break; }
+        sb.append(s, i, pos);
+
+        // Find matching )
+        int bodyStart = pos + 16;
+        int depth = 1;
+        int end = bodyStart;
+        while (end < s.length() && depth > 0) {
+            char c = s.charAt(end);
+            if (c == '(') depth++;
+            else if (c == ')') depth--;
+            end++;
+        }
+        String body = s.substring(bodyStart, end - 1);
+
+        // Extract named args and positional arg (name is positional first)
+        var args = extractRegistryArgs(body);
+        String name = args.getOrDefault("_name", "");
+        String type = args.getOrDefault("type", "H");
+        String certainty = args.getOrDefault("certainty", "---");
+        String evidence = args.getOrDefault("evidence", "");
+        String citations = args.getOrDefault("citations", "");
+        String mechanism = args.getOrDefault("mechanism", "");
+        String chapterRef = args.getOrDefault("chapter-ref", "");
+        String prediction = args.getOrDefault("prediction", "");
+        String treatment = args.getOrDefault("treatment", "");
+        String limitation = args.getOrDefault("limitation", "");
+
+        // Render as a tight 2-column Markdown table
+        var out = new StringBuilder();
+        String certStr = certainty.equals("---") ? "—" : "p=" + certainty;
+        out.append("\n**[").append(type).append("] ").append(certStr).append("** ")
+           .append(cleanCellContent(name)).append("\n\n");
+        out.append("| Field | Detail |\n|---|---|\n");
+        if (!evidence.isBlank())   out.append("| Evidence | ").append(cleanCellContent(evidence)).append(" |\n");
+        if (!citations.isBlank())  out.append("| Citations | ").append(cleanCellContent(citations)).append(" |\n");
+        if (!mechanism.isBlank())  out.append("| Mechanism | ").append(cleanCellContent(mechanism)).append(" |\n");
+        if (!chapterRef.isBlank()) out.append("| Chapter ref | ").append(cleanCellContent(chapterRef)).append(" |\n");
+        if (!prediction.isBlank()) out.append("| Prediction | ").append(cleanCellContent(prediction)).append(" |\n");
+        if (!treatment.isBlank())  out.append("| Treatment | ").append(cleanCellContent(treatment)).append(" |\n");
+        if (!limitation.isBlank()) out.append("| Limitation | ").append(cleanCellContent(limitation)).append(" |\n");
+        out.append("\n");
+
+        sb.append(out);
+        i = end;
+        while (i < s.length() && s.charAt(i) == '\n') { i++; }
+    }
+    return sb.toString();
+}
+
+// Extract arguments from #registry-entry(...) body.
+// Returns map with "_name" for positional first arg, and named args by key.
+Map<String, String> extractRegistryArgs(String body) {
+    var result = new LinkedHashMap<String, String>();
+    int i = 0;
+    boolean firstArg = true;
+    while (i < body.length()) {
+        while (i < body.length() && Character.isWhitespace(body.charAt(i))) i++;
+        if (i >= body.length()) break;
+
+        // Skip // comments
+        if (i + 1 < body.length() && body.charAt(i) == '/' && body.charAt(i+1) == '/') {
+            while (i < body.length() && body.charAt(i) != '\n') i++;
+            continue;
+        }
+
+        // Named arg: word: value
+        var namedPat = java.util.regex.Pattern.compile("^([a-z][a-z0-9-]*)\\s*:");
+        var m = namedPat.matcher(body.substring(i));
+        if (m.find()) {
+            String key = m.group(1);
+            i += m.end();
+            while (i < body.length() && body.charAt(i) == ' ') i++;
+            // Value is either "string" or [content]
+            if (i < body.length() && body.charAt(i) == '"') {
+                int start = i + 1;
+                int end = body.indexOf('"', start);
+                if (end < 0) end = body.length();
+                result.put(key, body.substring(start, end));
+                i = end + 1;
+            } else if (i < body.length() && body.charAt(i) == '[') {
+                int start = i + 1;
+                int depth = 1;
+                int end = start;
+                while (end < body.length() && depth > 0) {
+                    char c = body.charAt(end);
+                    if (c == '[') depth++;
+                    else if (c == ']') depth--;
+                    end++;
+                }
+                result.put(key, body.substring(start, end - 1));
+                i = end;
+            }
+            while (i < body.length() && (body.charAt(i) == ',' || body.charAt(i) == ' ')) i++;
+            continue;
+        }
+
+        // Positional [content] arg (name)
+        if (body.charAt(i) == '[') {
+            int start = i + 1;
+            int depth = 1;
+            int end = start;
+            while (end < body.length() && depth > 0) {
+                char c = body.charAt(end);
+                if (c == '[') depth++;
+                else if (c == ']') depth--;
+                end++;
+            }
+            if (firstArg) {
+                result.put("_name", body.substring(start, end - 1));
+                firstArg = false;
+            }
+            i = end;
+            while (i < body.length() && (body.charAt(i) == ',' || body.charAt(i) == ' ')) i++;
+            continue;
+        }
+
+        i++;
+    }
+    return result;
 }
 
 // Convert #figure( table(...), caption: [...] ) blocks to Markdown pipe tables.
