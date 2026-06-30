@@ -71,6 +71,69 @@
     background: color-mix(in srgb, var(--callout-orange) 5%, white);
   }
 
+  /* Registry entry cards — hypothesis registry */
+  .registry-entry {
+    border-inline-start: 4px solid;
+    border-radius: 0 4px 4px 0;
+    padding: 0.75em 1em 0.5em;
+    margin-block: 1em;
+  }
+  .registry-entry .registry-header {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6em;
+    margin-block-end: 0.5em;
+  }
+  .registry-entry .registry-badge {
+    font-size: 0.78em;
+    font-weight: bold;
+    padding: 0.15em 0.45em;
+    border-radius: 3px;
+    white-space: nowrap;
+    color: white;
+  }
+  .registry-entry .registry-name {
+    font-weight: bold;
+    font-size: 0.95em;
+  }
+  dl.registry-fields {
+    display: grid;
+    grid-template-columns: 7em 1fr;
+    gap: 0.2em 0.75em;
+    font-size: 0.88em;
+    margin: 0;
+  }
+  dl.registry-fields dt {
+    font-weight: bold;
+    color: #555;
+    padding-block-start: 0.1em;
+    margin: 0;
+  }
+  dl.registry-fields dd {
+    margin: 0;
+  }
+  /* Type-specific colors */
+  .registry-H {
+    border-color: #3b82f6;
+    background: #eff6ff;
+  }
+  .registry-H .registry-badge { background: #3b82f6; }
+  .registry-S {
+    border-color: #8b5cf6;
+    background: #f5f3ff;
+  }
+  .registry-S .registry-badge { background: #8b5cf6; }
+  .registry-OQ {
+    border-color: #f59e0b;
+    background: #fffbeb;
+  }
+  .registry-OQ .registry-badge { background: #f59e0b; }
+  .registry-P {
+    border-color: #10b981;
+    background: #ecfdf5;
+  }
+  .registry-P .registry-badge { background: #10b981; }
+
   :where(.epigraph, blockquote) {
     border-inline-start: 3px solid var(--epigraph-border);
     padding-block: 0.6em;

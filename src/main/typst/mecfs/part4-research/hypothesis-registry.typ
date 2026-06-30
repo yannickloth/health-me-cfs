@@ -727,133 +727,163 @@
 === Connective Tissue and ECM Dysregulation
 
 #registry-entry(
-  [(a) Prolyl hydroxylases (P4H, P3H) exhibit circadian rhythms essential for collagen crosslinking. (b) ROS-mediated inhibition of these enzymes in ME/CFS impairs ligament stability, particularly in hypermobile patients. (c) Timed cofactor supplementation (ascorbic acid, alpha-ketoglutarate) at circadian peak times may maximize enzymatic activity and improve collagen crosslinking efficiency. (d) This addresses the connective tissue weakness observed in ME/CFS hypermobility through timed nutritional intervention.],
-  type: "Wirth 2026 CTD-MECFS study on ROS-prolyl hydroxylase-HIF-1alpha connection; circadian regulation of prolyl hydroxylases in collagen synthesis literature; ascorbic acid deficiency causing scurvy via collagen crosslinking failure.",
-  certainty: "Circadian optimization of prolyl hydroxylase activity to improve collagen crosslinking in hypermobile ME/CFS patients. Nutritional timing strategy to overcome ROS inhibition.",
-  evidence: [Ch.14a:prolyl-hydroxylase-circadian],
-  citations: [Periostin-Targeted ECM Restoration],
-  mechanism: [H],
-  chapter-ref: [0.35],
-  prediction: [(a) Periostin (POSTN) is a matricellular protein critical for collagen crosslinking and tissue remodeling. (b) ME/CFS may involve periostin deficiency or dysregulation, impairing connective tissue repair. (c) Recombinant periostin or TGF-beta modulators could restore ECM integrity in hypermobile patients. (d) This addresses the molecular basis of connective tissue weakness in ME/CFS.],
-  treatment: [Periostin mutations cause connective tissue disorders; periostin-deficient mice show ligament laxity and impaired wound healing; TGF-beta dysregulation documented in ME/CFS.],
-  limitation: [Targeted biological approach to connective tissue pathology using recombinant periostin or TGF-beta modulators to restore collagen crosslinking.],
+  [Chronobiological Prolyl Hydroxylase Optimization],
+  type: "H",
+  certainty: "0.45",
+  mechanism: [(a) Prolyl hydroxylases (P4H, P3H) exhibit circadian rhythms essential for collagen crosslinking. (b) ROS-mediated inhibition of these enzymes in ME/CFS impairs ligament stability, particularly in hypermobile patients. (c) Timed cofactor supplementation (ascorbic acid, alpha-ketoglutarate) at circadian peak times may maximize enzymatic activity and improve collagen crosslinking efficiency. (d) This addresses the connective tissue weakness observed in ME/CFS hypermobility through timed nutritional intervention.],
+  evidence: [Wirth 2026 CTD-MECFS study on ROS-prolyl hydroxylase-HIF-1alpha connection; circadian regulation of prolyl hydroxylases in collagen synthesis literature; ascorbic acid deficiency causing scurvy via collagen crosslinking failure.],
+  treatment: [Circadian optimization of prolyl hydroxylase activity to improve collagen crosslinking in hypermobile ME/CFS patients. Nutritional timing strategy to overcome ROS inhibition.],
+  chapter-ref: [Ch.14a:prolyl-hydroxylase-circadian],
 )
 
 #registry-entry(
-  [`hyp:periostin-ecm-restoration`],
-  type: "Glymphatic-Capillary Clearance Enhancement",
-  certainty: "H",
-  evidence: [0.65],
-  citations: [(a) Glymphatic system clears metabolic waste, including extracellular matrix fragments, from the interstitial space during sleep. (b) ME/CFS sleep architecture abnormalities impair glymphatic clearance (alpha-delta sleep, impaired LC-NE-vasomotion coupling). (c) Diminished glymphatic removal of ECM fragments may contribute to elevated circulating ECM biomarkers and chronic inflammation. (d) Glymphatic function may be modulated by positional factors (supine vs upright), sleep quality, and cerebrospinal fluid dynamics.],
-  mechanism: [Sleep-based glymphatic dysfunction documented in ME/CFS (alpha-delta sleep, impaired vasomotion coupling). Glymphatic clearance role in ECM homeostasis established in healthy brain. Positional effects on glymphatic flow documented.],
-  chapter-ref: [Enhanced glymphatic clearance via sleep optimization, positional therapy (supine sleep), or direct glymphatic modulation could reduce circulating ECM burden in ME/CFS.],
-  prediction: [`hyp:ct-glymphatic-capillary`],
-  treatment: [Structural-Autonomic Stratification],
-  limitation: [H],
+  [Periostin-Targeted ECM Restoration],
+  type: "H",
+  certainty: "0.35",
+  mechanism: [(a) Periostin (POSTN) is a matricellular protein critical for collagen crosslinking and tissue remodeling. (b) ME/CFS may involve periostin deficiency or dysregulation, impairing connective tissue repair. (c) Recombinant periostin or TGF-beta modulators could restore ECM integrity in hypermobile patients. (d) This addresses the molecular basis of connective tissue weakness in ME/CFS.],
+  evidence: [Periostin mutations cause connective tissue disorders; periostin-deficient mice show ligament laxity and impaired wound healing; TGF-beta dysregulation documented in ME/CFS.],
+  treatment: [Targeted biological approach to connective tissue pathology using recombinant periostin or TGF-beta modulators to restore collagen crosslinking.],
+  chapter-ref: [`hyp:periostin-ecm-restoration`],
 )
 
 #registry-entry(
-  [0.60],
-  type: "(a) Connective tissue disorders (CTDs) and autonomic dysfunction (POTS, NMH) may co-occur as distinct but interacting subtypes. (b) Structural features (hypermobility, CCI, ligament laxity) may predispose to autonomic dysfunction via craniospinal instability, mechanical strain, or impaired vascular compliance. (c) Conversely, autonomic dysfunction may exacerbate connective tissue pathology through impaired tissue perfusion, oxidative stress, and inflammatory cascades. (d) Distinguishing these subtypes requires combined structural (MRI, Beighton score) and autonomic testing (tilt table, HRV) to guide targeted treatment.",
-  certainty: "CTD prevalence 30-57% in ME/CFS vs 10-15% general population. Hypermobility, CCI, POTS comorbidity documented. Vascular connective tissue interactions established in physiology.",
-  evidence: [Combined structural and autonomic phenotyping to identify CTD + autonomic subtypes requiring different therapeutic approaches (mechanical stabilization vs autonomic modulation vs combination).],
-  citations: [`hyp:ct-structural-autonomic-stratification`],
-  mechanism: [LOX-Mediated Collagen Stabilization],
-  chapter-ref: [H],
-  prediction: [0.40],
-  treatment: [(a) LOX (lysyl oxidase) enzymes catalyze collagen and elastin crosslinking, essential for tissue strength and stability. (b) ROS-mediated inhibition of LOX in ME/CFS may impair collagen crosslinking, contributing to ligament laxity and connective tissue weakness. (c) Co-factors (ascorbic acid, copper) are required for LOX activity; deficiency may exacerbate the defect. (d) Supplementation with LOX cofactors or modulation of LOX activity could improve connective tissue integrity.],
-  limitation: [LOX function essential for collagen crosslinking established in connective tissue biology. ROS inhibition of LOX documented in oxidative stress pathophysiology. ME/CFS ROS elevation documented.],
+  [Glymphatic-Capillary Clearance Enhancement],
+  type: "H",
+  certainty: "0.65",
+  mechanism: [(a) Glymphatic system clears metabolic waste, including extracellular matrix fragments, from the interstitial space during sleep. (b) ME/CFS sleep architecture abnormalities impair glymphatic clearance (alpha-delta sleep, impaired LC-NE-vasomotion coupling). (c) Diminished glymphatic removal of ECM fragments may contribute to elevated circulating ECM biomarkers and chronic inflammation. (d) Glymphatic function may be modulated by positional factors (supine vs upright), sleep quality, and cerebrospinal fluid dynamics.],
+  evidence: [Sleep-based glymphatic dysfunction documented in ME/CFS (alpha-delta sleep, impaired vasomotion coupling). Glymphatic clearance role in ECM homeostasis established in healthy brain. Positional effects on glymphatic flow documented.],
+  treatment: [Enhanced glymphatic clearance via sleep optimization, positional therapy (supine sleep), or direct glymphatic modulation could reduce circulating ECM burden in ME/CFS.],
+  chapter-ref: [`hyp:ct-glymphatic-capillary`],
 )
 
 #registry-entry(
-  [LOX cofactor supplementation (ascorbic acid, copper, vitamin C) to restore collagen crosslinking in ME/CFS with connective tissue weakness or hypermobility.],
-  type: "`hyp:ct-lox-collagen`",
-  certainty: "Post-Infectious Acquired Chiari",
-  evidence: [H],
-  citations: [0.35],
+  [Structural-Autonomic Stratification],
+  type: "H",
+  certainty: "0.60",
+  mechanism: [(a) Connective tissue disorders (CTDs) and autonomic dysfunction (POTS, NMH) may co-occur as distinct but interacting subtypes. (b) Structural features (hypermobility, CCI, ligament laxity) may predispose to autonomic dysfunction via craniospinal instability, mechanical strain, or impaired vascular compliance. (c) Conversely, autonomic dysfunction may exacerbate connective tissue pathology through impaired tissue perfusion, oxidative stress, and inflammatory cascades. (d) Distinguishing these subtypes requires combined structural (MRI, Beighton score) and autonomic testing (tilt table, HRV) to guide targeted treatment.],
+  evidence: [CTD prevalence 30-57% in ME/CFS vs 10-15% general population. Hypermobility, CCI, POTS comorbidity documented. Vascular connective tissue interactions established in physiology.],
+  treatment: [Combined structural and autonomic phenotyping to identify CTD + autonomic subtypes requiring different therapeutic approaches (mechanical stabilization vs autonomic modulation vs combination).],
+  chapter-ref: [`hyp:ct-structural-autonomic-stratification`],
+)
+
+#registry-entry(
+  [LOX-Mediated Collagen Stabilization],
+  type: "H",
+  certainty: "0.40",
+  mechanism: [(a) LOX (lysyl oxidase) enzymes catalyze collagen and elastin crosslinking, essential for tissue strength and stability. (b) ROS-mediated inhibition of LOX in ME/CFS may impair collagen crosslinking, contributing to ligament laxity and connective tissue weakness. (c) Co-factors (ascorbic acid, copper) are required for LOX activity; deficiency may exacerbate the defect. (d) Supplementation with LOX cofactors or modulation of LOX activity could improve connective tissue integrity.],
+  evidence: [LOX function essential for collagen crosslinking established in connective tissue biology. ROS inhibition of LOX documented in oxidative stress pathophysiology. ME/CFS ROS elevation documented.],
+  treatment: [LOX cofactor supplementation (ascorbic acid, copper, vitamin C) to restore collagen crosslinking in ME/CFS with connective tissue weakness or hypermobility.],
+  chapter-ref: [`hyp:ct-lox-collagen`],
+)
+
+#registry-entry(
+  [Post-Infectious Acquired Chiari],
+  type: "H",
+  certainty: "0.35",
   mechanism: [(a) Chiari malformation type I can develop post-infectiously, particularly following infections causing significant inflammation or swelling. (b) Post-infectious CCI may occur via chronic inflammation-induced swelling of cerebellar tonsils or ligamentous laxity at craniovertebral junction. (c) Clinical presentation (headache, neck pain, dizziness) overlaps with ME/CFS, contributing to diagnostic confusion. (d) MRI evaluation should be considered in ME/CFS patients with unexplained orthostatic symptoms, cervical pain, or neurological abnormalities.],
-  chapter-ref: [Post-infectious CCI documented in Long COVID, post-viral meningoencephalitis, and infectious mononucleosis. Cervical symptoms common in ME/CFS. MRI screening guidelines established.],
-  prediction: [MRI-based screening for CCI in ME/CFS patients with cervical symptoms to identify post-infectious structural subtype requiring decompression or rehabilitation.],
-  treatment: [`hyp:ct-acquired-chiari`],
-  limitation: [Mechanical Stress-Modulated Mast Cell Threshold],
+  evidence: [Post-infectious CCI documented in Long COVID, post-viral meningoencephalitis, and infectious mononucleosis. Cervical symptoms common in ME/CFS. MRI screening guidelines established.],
+  treatment: [MRI-based screening for CCI in ME/CFS patients with cervical symptoms to identify post-infectious structural subtype requiring decompression or rehabilitation.],
+  chapter-ref: [`hyp:ct-acquired-chiari`],
 )
 
 #registry-entry(
-  [H],
-  type: "0.50",
-  certainty: "(a) Mast cells are mechanically sensitive; mechanical stress (stretch, compression, vibration) can trigger degranulation. (b) Mechanosensitive ion channels (Piezo1/2) and integrin-mediated signaling transduce mechanical forces into mast cell activation signals. (c) Connective tissue weakness or hypermobility may lower the mechanical threshold for mast cell activation, particularly in tissues with poor connective tissue support (joints, ligaments, vasculature). (d) ME/CFS patients with CTD or hypermobility may have mechanically primed mast cells, explaining high MCAS prevalence in this subgroup.",
+  [Mechanical Stress-Modulated Mast Cell Threshold],
+  type: "H",
+  certainty: "0.50",
+  mechanism: [(a) Mast cells are mechanically sensitive; mechanical stress (stretch, compression, vibration) can trigger degranulation. (b) Mechanosensitive ion channels (Piezo1/2) and integrin-mediated signaling transduce mechanical forces into mast cell activation signals. (c) Connective tissue weakness or hypermobility may lower the mechanical threshold for mast cell activation, particularly in tissues with poor connective tissue support (joints, ligaments, vasculature). (d) ME/CFS patients with CTD or hypermobility may have mechanically primed mast cells, explaining high MCAS prevalence in this subgroup.],
   evidence: [Mast cell mechanosensitivity documented in mast cell biology literature. Mechanical stress triggers degranulation in experimental models. ME/CFS MCAS prevalence elevated in hypermobile subgroups.],
-  citations: [Mechanical stability interventions (physical therapy, cervical stabilization, joint support) may reduce mast cell activation in ME/CFS patients with mechanically primed mast cells.],
-  mechanism: [`hyp:ct-mechanical-mast-cell`],
-  chapter-ref: [ECM Microbiome Interaction],
-  prediction: [H],
-  treatment: [0.40],
-  limitation: [(a) Extracellular matrix provides structural scaffold and bioactive niches for host cells and microorganisms. (b) Microbial products (LPS, bacterial peptidoglycan) can bind to ECM components, modulating inflammation and immune cell recruitment. (c) Gut microbiome dysbiosis in ME/CFS may influence ECM composition via microbial metabolites (short-chain fatty acids, indoles) that modulate ECM production and remodeling. (d) ECM microenvironment may selectively promote pathogenic microbial communities, creating a bidirectional dysbiosis-ECM interaction.],
+  treatment: [Mechanical stability interventions (physical therapy, cervical stabilization, joint support) may reduce mast cell activation in ME/CFS patients with mechanically primed mast cells.],
+  chapter-ref: [`hyp:ct-mechanical-mast-cell`],
 )
 
 #registry-entry(
-  [ECM microenvironment influences microbial colonization established in tissue engineering. Microbial metabolites modulate collagen and fibronectin expression documented. ME/CFS gut dysbiosis well-documented.],
-  type: "Microbiome-targeted interventions (probiotics, antimicrobial peptides, diet) may modulate ECM composition and reduce inflammation in ME/CFS via microbiome-ECM cross-talk.",
-  certainty: "`hyp:ct-ecm-microbiome`",
-  evidence: [Senescence-Associated CT Decline],
-  citations: [H],
-  mechanism: [0.50],
-  chapter-ref: [(a) Cellular senescence contributes to connective tissue aging through senescence-associated secretory phenotype (SASP) production of inflammatory cytokines and proteases. (b) ME/CFS may show accelerated connective tissue aging and senescent cell burden in skin, tendon, or ligament tissues. (c) Senolytic or senomorphic therapies targeting senescent fibroblasts could improve connective tissue integrity in ME/CFS. (d) Skin or tendon biopsies could quantify senescence burden (p16#super[INK4a], SA-β-gal) as biomarker of connective tissue aging.],
-  prediction: [Senescence-associated ECM degradation established in aging and fibrosis literature. SASP cytokines (IL-6, TGF-β) degrade ECM components. ME/CFS accelerated aging phenotype documented.],
+  [ECM Microbiome Interaction],
+  type: "H",
+  certainty: "0.40",
+  mechanism: [(a) Extracellular matrix provides structural scaffold and bioactive niches for host cells and microorganisms. (b) Microbial products (LPS, bacterial peptidoglycan) can bind to ECM components, modulating inflammation and immune cell recruitment. (c) Gut microbiome dysbiosis in ME/CFS may influence ECM composition via microbial metabolites (short-chain fatty acids, indoles) that modulate ECM production and remodeling. (d) ECM microenvironment may selectively promote pathogenic microbial communities, creating a bidirectional dysbiosis-ECM interaction.],
+  evidence: [ECM microenvironment influences microbial colonization established in tissue engineering. Microbial metabolites modulate collagen and fibronectin expression documented. ME/CFS gut dysbiosis well-documented.],
+  treatment: [Microbiome-targeted interventions (probiotics, antimicrobial peptides, diet) may modulate ECM composition and reduce inflammation in ME/CFS via microbiome-ECM cross-talk.],
+  chapter-ref: [`hyp:ct-ecm-microbiome`],
+)
+
+#registry-entry(
+  [Senescence-Associated CT Decline],
+  type: "H",
+  certainty: "0.50",
+  mechanism: [(a) Cellular senescence contributes to connective tissue aging through senescence-associated secretory phenotype (SASP) production of inflammatory cytokines and proteases. (b) ME/CFS may show accelerated connective tissue aging and senescent cell burden in skin, tendon, or ligament tissues. (c) Senolytic or senomorphic therapies targeting senescent fibroblasts could improve connective tissue integrity in ME/CFS. (d) Skin or tendon biopsies could quantify senescence burden (p16#super[INK4a], SA-β-gal) as biomarker of connective tissue aging.],
+  evidence: [Senescence-associated ECM degradation established in aging and fibrosis literature. SASP cytokines (IL-6, TGF-β) degrade ECM components. ME/CFS accelerated aging phenotype documented.],
   treatment: [Senolytic or senomorphic therapies to reduce senescent fibroblast burden and improve connective tissue integrity in ME/CFS. Senescence biomarkers as outcome measures.],
-  limitation: [`hyp:ct-senescence`],
+  chapter-ref: [`hyp:ct-senescence`],
 )
 
 #registry-entry(
   [Circadian Collagen Resynchronization],
   type: "H",
   certainty: "0.50",
-  evidence: [(a) Collagen synthesis exhibits circadian rhythms, with peak production during nighttime hours. (b) ME/CFS circadian disruption (phase delay, fragmented sleep, abnormal melatonin secretion) may impair collagen synthesis efficiency, contributing to connective tissue weakness over time. (c) Circadian optimization (light therapy, sleep schedule stabilization, melatonin supplementation) could restore collagen production patterns. (d) Circadian markers (melatonin, cortisol rhythm) may predict collagen synthesis capacity and connective tissue healing potential.],
-  citations: [Circadian regulation of collagen synthesis established in connective tissue physiology. ME/CFS circadian disruption well-documented. Melatonin effects on collagen documented.],
-  mechanism: [Circadian rhythm optimization to restore collagen synthesis capacity in ME/CFS, with circadian markers as biomarkers of connective tissue health.],
+  mechanism: [(a) Collagen synthesis exhibits circadian rhythms, with peak production during nighttime hours. (b) ME/CFS circadian disruption (phase delay, fragmented sleep, abnormal melatonin secretion) may impair collagen synthesis efficiency, contributing to connective tissue weakness over time. (c) Circadian optimization (light therapy, sleep schedule stabilization, melatonin supplementation) could restore collagen production patterns. (d) Circadian markers (melatonin, cortisol rhythm) may predict collagen synthesis capacity and connective tissue healing potential.],
+  evidence: [Circadian regulation of collagen synthesis established in connective tissue physiology. ME/CFS circadian disruption well-documented. Melatonin effects on collagen documented.],
+  treatment: [Circadian rhythm optimization to restore collagen synthesis capacity in ME/CFS, with circadian markers as biomarkers of connective tissue health.],
   chapter-ref: [`hyp:ct-circadian-collagen`],
-  prediction: [Basal Lamina-Targeted Capillary Restoration],
-  treatment: [H],
-  limitation: [0.45],
 )
 
 #registry-entry(
-  [(a) Capillary basement membrane thickening impairs endothelial function and microvascular perfusion. (b) ME/CFS may show basement membrane pathology contributing to orthostatic intolerance and tissue hypoperfusion. (c) Targeted restoration of basal lamina integrity (MMP inhibition, collagen IV support, growth factor modulation) could improve capillary function. (d) Pericyte-mediated capillary stabilization may support basement membrane repair.],
-  type: "Basement membrane thickening documented in ME/CFS and Long COVID microvascular pathology. Capillary pericyte biology established in angiogenesis. ME/CFS microvascular dysfunction documented.",
-  certainty: "Basement membrane-targeted therapies to restore capillary function and improve tissue perfusion in ME/CFS with microvascular dysfunction.",
-  evidence: [`hyp:ct-arb-capillary`],
-  citations: [Glycine-Proline Collagen Optimization],
-  mechanism: [H],
-  chapter-ref: [0.50],
-  prediction: [(a) Glycine and proline are primary amino acids in collagen structure; deficiencies impair collagen synthesis. (b) ME/CFS patients may have suboptimal glycine/proline intake or impaired utilization, contributing to connective tissue weakness. (c) Supplementation with glycine, proline, or collagen peptides could improve collagen production and connective tissue integrity. (d) Circadian timing of supplementation may align with collagen synthesis peaks.],
-  treatment: [Glycine and proline requirements for collagen synthesis established in biochemistry literature. ME/CFS nutritional deficiencies documented. Collagen peptide supplementation effects documented.],
-  limitation: [Glycine-proline or collagen peptide supplementation to improve collagen synthesis and connective tissue integrity in ME/CFS, with circadian timing for maximal effect.],
+  [Basal Lamina-Targeted Capillary Restoration],
+  type: "H",
+  certainty: "0.45",
+  mechanism: [(a) Capillary basement membrane thickening impairs endothelial function and microvascular perfusion. (b) ME/CFS may show basement membrane pathology contributing to orthostatic intolerance and tissue hypoperfusion. (c) Targeted restoration of basal lamina integrity (MMP inhibition, collagen IV support, growth factor modulation) could improve capillary function. (d) Pericyte-mediated capillary stabilization may support basement membrane repair.],
+  evidence: [Basement membrane thickening documented in ME/CFS and Long COVID microvascular pathology. Capillary pericyte biology established in angiogenesis. ME/CFS microvascular dysfunction documented.],
+  treatment: [Basement membrane-targeted therapies to restore capillary function and improve tissue perfusion in ME/CFS with microvascular dysfunction.],
+  chapter-ref: [`hyp:ct-arb-capillary`],
 )
 
 #registry-entry(
-  [`hyp:ct-collagen-peptides`],
-  type: "Vagal-Mast Cell-Connective Tissue Axis",
-  certainty: "H",
-  evidence: [0.55],
-  citations: [(a) Vagal tone modulates mast cell degranulation and inflammatory responses; high vagal activity suppresses mast cell release. (b) Connective tissue integrity may influence vagal afferent signaling via mechanoreceptors and nociceptors. (c) ME/CFS may involve impaired vagal control of mast cells, contributing to MCAS prevalence. (d) Vagus nerve stimulation or vagal tone modulation could reduce mast cell activation and improve connective tissue inflammation.],
-  mechanism: [Vagal control of mast cell activity established in neuroimmunology. Vagal afferent signaling via connective tissue mechanoreceptors documented. ME/CFS vagal dysfunction documented.],
-  chapter-ref: [Vagal modulation therapies (tVNS, breathwork, biofeedback) to reduce mast cell activation and improve connective tissue inflammation in ME/CFS with MCAS features.],
-  prediction: [`hyp:ct-vagal-mast-cell-ecm`],
-  treatment: [Elastin-Specific Degradation],
-  limitation: [H],
+  [Glycine-Proline Collagen Optimization],
+  type: "H",
+  certainty: "0.50",
+  mechanism: [(a) Glycine and proline are primary amino acids in collagen structure; deficiencies impair collagen synthesis. (b) ME/CFS patients may have suboptimal glycine/proline intake or impaired utilization, contributing to connective tissue weakness. (c) Supplementation with glycine, proline, or collagen peptides could improve collagen production and connective tissue integrity. (d) Circadian timing of supplementation may align with collagen synthesis peaks.],
+  evidence: [Glycine and proline requirements for collagen synthesis established in biochemistry literature. ME/CFS nutritional deficiencies documented. Collagen peptide supplementation effects documented.],
+  treatment: [Glycine-proline or collagen peptide supplementation to improve collagen synthesis and connective tissue integrity in ME/CFS, with circadian timing for maximal effect.],
+  chapter-ref: [`hyp:ct-collagen-peptides`],
 )
 
 #registry-entry(
-  [0.40],
-  type: "(a) Elastin provides elastic recoil to connective tissues; its degradation contributes to tissue laxity and structural weakness. (b) Elastin-specific MMPs (MMP-12, MMP-9) may be dysregulated in ME/CFS, leading to elastin breakdown. (c) Elastin fragments (sVTI) may serve as diagnostic biomarkers of connective tissue degradation. (d) Elastin-specific protection strategies (MMP inhibitors, elastin stabilizers) could preserve tissue integrity.",
-  certainty: "Elastin degradation mechanisms established in connective tissue biology. MMP-12 and MMP-9 elastolytic activity documented. Elastin fragment biomarkers developed.",
-  evidence: [Elastin-specific biomarkers (sVTI) to detect connective tissue degradation in ME/CFS, with elastin-protective therapies for tissue preservation.],
-  citations: [`hyp:ct-elastin-degradation`],
-  mechanism: [HIF-1alpha Isoform Targeting],
-  chapter-ref: [H],
-  prediction: [0.40],
-  treatment: [(a) HIF-1alpha and HIF-2alpha have distinct target gene profiles; HIF-1alpha preferentially induces MMP-3 and ECM degradation. (b) ME/CFS may show HIF-1alpha-dominant activation driving connective tissue pathology. (c) Selective HIF-1alpha inhibition could reduce ECM degradation without affecting beneficial HIF-2alpha functions (erythropoiesis, angiogenesis). (d) Isoform-specific modulation may provide connective tissue benefits while minimizing off-target effects.],
-  limitation: [HIF-1alpha vs HIF-2alpha isoform specificity documented in hypoxia biology. HIF-1alpha-driven MMP-3 expression established. Isoform-selective inhibitors in development.],
+  [Vagal-Mast Cell-Connective Tissue Axis],
+  type: "H",
+  certainty: "0.55",
+  mechanism: [(a) Vagal tone modulates mast cell degranulation and inflammatory responses; high vagal activity suppresses mast cell release. (b) Connective tissue integrity may influence vagal afferent signaling via mechanoreceptors and nociceptors. (c) ME/CFS may involve impaired vagal control of mast cells, contributing to MCAS prevalence. (d) Vagus nerve stimulation or vagal tone modulation could reduce mast cell activation and improve connective tissue inflammation.],
+  evidence: [Vagal control of mast cell activity established in neuroimmunology. Vagal afferent signaling via connective tissue mechanoreceptors documented. ME/CFS vagal dysfunction documented.],
+  treatment: [Vagal modulation therapies (tVNS, breathwork, biofeedback) to reduce mast cell activation and improve connective tissue inflammation in ME/CFS with MCAS features.],
+  chapter-ref: [`hyp:ct-vagal-mast-cell-ecm`],
+)
+
+#registry-entry(
+  [Elastin-Specific Degradation],
+  type: "H",
+  certainty: "0.40",
+  mechanism: [(a) Elastin provides elastic recoil to connective tissues; its degradation contributes to tissue laxity and structural weakness. (b) Elastin-specific MMPs (MMP-12, MMP-9) may be dysregulated in ME/CFS, leading to elastin breakdown. (c) Elastin fragments (sVTI) may serve as diagnostic biomarkers of connective tissue degradation. (d) Elastin-specific protection strategies (MMP inhibitors, elastin stabilizers) could preserve tissue integrity.],
+  evidence: [Elastin degradation mechanisms established in connective tissue biology. MMP-12 and MMP-9 elastolytic activity documented. Elastin fragment biomarkers developed.],
+  treatment: [Elastin-specific biomarkers (sVTI) to detect connective tissue degradation in ME/CFS, with elastin-protective therapies for tissue preservation.],
+  chapter-ref: [`hyp:ct-elastin-degradation`],
+)
+
+#registry-entry(
+  [HIF-1alpha Isoform Targeting],
+  type: "H",
+  certainty: "0.40",
+  mechanism: [(a) HIF-1alpha and HIF-2alpha have distinct target gene profiles; HIF-1alpha preferentially induces MMP-3 and ECM degradation. (b) ME/CFS may show HIF-1alpha-dominant activation driving connective tissue pathology. (c) Selective HIF-1alpha inhibition could reduce ECM degradation without affecting beneficial HIF-2alpha functions (erythropoiesis, angiogenesis). (d) Isoform-specific modulation may provide connective tissue benefits while minimizing off-target effects.],
+  evidence: [HIF-1alpha vs HIF-2alpha isoform specificity documented in hypoxia biology. HIF-1alpha-driven MMP-3 expression established. Isoform-selective inhibitors in development.],
+  treatment: [Isoform-selective HIF-1alpha inhibition to reduce MMP-3 and ECM degradation in ME/CFS with connective tissue pathology.],
+  chapter-ref: [`hyp:ct-hif-isoform`],
+)
+
+#registry-entry(
+  [Matrix Stiffness-Mast Cell Priming],
+  type: "H",
+  certainty: "0.45",
+  mechanism: [(a) Matrix stiffness influences immune cell phenotype and activation; stiffer ECM environments promote pro-inflammatory phenotypes. (b) ME/CFS may show increased tissue stiffness due to ECM accumulation or crosslinking, potentially priming mast cells for hyperreactivity. (c) Mechanoreceptors (Piezo1/2, integrins) on mast cells may sense ECM stiffness and trigger degranulation. (d) Softening of ECM or mechanoreceptor blockade could reduce mast cell activation in stiff-tissue ME/CFS subtypes.],
+  evidence: [Matrix stiffness effects on immune cell activation established in tissue engineering. Mast cell mechanosensitivity documented. ME/CFS ECM accumulation hypothesized.],
+  treatment: [ECM softening or mechanoreceptor blockade to reduce mast cell activation in ME/CFS patients with stiff-tissue phenotypes or elevated mast cell mediators.],
+  chapter-ref: [`hyp:ct-matrix-stiffness-mast-cell`],
 )
 
 

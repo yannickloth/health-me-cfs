@@ -744,20 +744,30 @@ String convertRegistryEntries(String s) {
         String treatment = args.getOrDefault("treatment", "");
         String limitation = args.getOrDefault("limitation", "");
 
-        // Render as a tight 2-column Markdown table
+        // Render as a styled HTML card
         var out = new StringBuilder();
         String certStr = certainty.equals("---") ? "—" : "p=" + certainty;
-        out.append("\n**[").append(type).append("] ").append(certStr).append("** ")
-           .append(cleanCellContent(name)).append("\n\n");
-        out.append("| Field | Detail |\n|---|---|\n");
-        if (!evidence.isBlank())   out.append("| Evidence | ").append(cleanCellContent(evidence)).append(" |\n");
-        if (!citations.isBlank())  out.append("| Citations | ").append(cleanCellContent(citations)).append(" |\n");
-        if (!mechanism.isBlank())  out.append("| Mechanism | ").append(cleanCellContent(mechanism)).append(" |\n");
-        if (!chapterRef.isBlank()) out.append("| Chapter ref | ").append(cleanCellContent(chapterRef)).append(" |\n");
-        if (!prediction.isBlank()) out.append("| Prediction | ").append(cleanCellContent(prediction)).append(" |\n");
-        if (!treatment.isBlank())  out.append("| Treatment | ").append(cleanCellContent(treatment)).append(" |\n");
-        if (!limitation.isBlank()) out.append("| Limitation | ").append(cleanCellContent(limitation)).append(" |\n");
-        out.append("\n");
+        String typeLabel = switch (type) {
+            case "H"  -> "Hypothesis";
+            case "S"  -> "Speculation";
+            case "OQ" -> "Open Question";
+            case "P"  -> "Prediction";
+            default   -> type;
+        };
+        out.append("\n<div class=\"registry-entry registry-").append(type).append("\">\n");
+        out.append("<div class=\"registry-header\">")
+           .append("<span class=\"registry-badge\">").append(typeLabel).append(" ").append(certStr).append("</span>")
+           .append("<span class=\"registry-name\">").append(cleanCellContent(name)).append("</span>")
+           .append("</div>\n");
+        out.append("<dl class=\"registry-fields\">\n");
+        if (!evidence.isBlank())   out.append("<dt>Evidence</dt><dd>").append(cleanCellContent(evidence)).append("</dd>\n");
+        if (!citations.isBlank())  out.append("<dt>Citations</dt><dd>").append(cleanCellContent(citations)).append("</dd>\n");
+        if (!mechanism.isBlank())  out.append("<dt>Mechanism</dt><dd>").append(cleanCellContent(mechanism)).append("</dd>\n");
+        if (!chapterRef.isBlank()) out.append("<dt>Chapter ref</dt><dd>").append(cleanCellContent(chapterRef)).append("</dd>\n");
+        if (!prediction.isBlank()) out.append("<dt>Prediction</dt><dd>").append(cleanCellContent(prediction)).append("</dd>\n");
+        if (!treatment.isBlank())  out.append("<dt>Treatment</dt><dd>").append(cleanCellContent(treatment)).append("</dd>\n");
+        if (!limitation.isBlank()) out.append("<dt>Limitation</dt><dd>").append(cleanCellContent(limitation)).append("</dd>\n");
+        out.append("</dl>\n</div>\n");
 
         sb.append(out);
         i = end;
