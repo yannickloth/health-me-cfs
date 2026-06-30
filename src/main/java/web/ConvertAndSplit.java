@@ -22,6 +22,7 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("(?m)^#import.*$\\n?", "");
     src = src.replaceAll("(?m)^//.*$\\n?", "");
     src = src.replaceAll("(?m)^#let\\b.*$\\n?", "");
+    src = stripLetBlocks(src);
     src = src.replaceAll("(?m)^#set\\b.*$\\n?", "");
     src = src.replaceAll("(?m)^#show\\b.*$\\n?", "");
     src = src.replaceAll("(?m)^[/.]+figures/fig-[^\"]*\\.typ\"?\\s*$\\n?", "");
@@ -1282,6 +1283,39 @@ List<String> extractCellsFromContent(String content) {
         }
     }
     return cells;
+}
+
+// Strip remaining multi-line #let blocks: #let name(...) = { ... } spanning multiple lines.
+// The single-line regex already removed `#let name = value` forms; this removes block forms.
+String stripLetBlocks(String src) {
+    var sb = new StringBuilder();
+    var lines = src.split("\n", -1);
+    int i = 0;
+    while (i < lines.length) {
+        var line = lines[i];
+        // Detect a #let block form: line starts with #let and contains '{'
+        if (line.stripLeading().startsWith("#let") && line.contains("{")) {
+            // Count brace depth; consume lines until balanced
+            int depth = 0;
+            while (i < lines.length) {
+                for (char c : lines[i].toCharArray()) {
+                    if (c == '{') depth++;
+                    else if (c == '}') depth--;
+                }
+                i++;
+                if (depth <= 0) break;
+            }
+            continue;
+        }
+        sb.append(line).append("\n");
+        i++;
+    }
+    // Remove trailing extra newline added by the loop
+    if (sb.length() > 0 && sb.charAt(sb.length() - 1) == '\n'
+            && (src.isEmpty() || src.charAt(src.length() - 1) != '\n')) {
+        sb.deleteCharAt(sb.length() - 1);
+    }
+    return sb.toString();
 }
 
 String cleanCellContent(String cell) {
