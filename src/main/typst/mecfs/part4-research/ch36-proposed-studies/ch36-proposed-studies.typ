@@ -44,3 +44,13 @@ design specifications, and expected outcomes.
 #include "./engineered-exosome-mediated-cn/engineered-exosome-mediated-cn.typ"
 #include "./thermoregulatory-research-prot/thermoregulatory-research-prot.typ"
 
+// ============================================================================
+// SECTION: Cross-Document Hypothesis Registry
+// ============================================================================
+
+== Hypothesis and Speculation Registry
+<sec:hypothesis-registry>
+
+This registry collects all hypotheses, speculations, open questions, and predictions from across the paper, organised by topic. Each entry records the type (H=Hypothesis, S=Speculation, OQ=Open Question), certainty level, supporting evidence, source citations, underlying mechanism, chapter reference, testable prediction, treatment implications, and known limitations.
+
+#include "../hypothesis-registry.typ"

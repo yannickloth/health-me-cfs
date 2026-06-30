@@ -14,8 +14,6 @@
 - Provide evidence for early intervention advocacy
 - Reduce diagnostic uncertainty through biomarker development
 - Support disability claims through objective markers of dysfunction
-// === Cross-Document Hypothesis Registry (A6, V5) ===
-#include "../../../hypothesis-registry.typ"
 // ============================================================================
 // SECTION: SleepFM Cross-Modal Decoupling Validation in ME/CFS
 // ============================================================================

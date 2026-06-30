@@ -684,3 +684,89 @@
   ]
   body
 }
+
+// --- Hypothesis Registry Entry -----------------------------------------------
+// Renders a single hypothesis/speculation/open-question registry entry as a
+// structured labeled-field card. Replace wide 10-column tables in hypothesis-registry.typ.
+//
+// type: "H" | "S" | "OQ" | "P"  (Hypothesis, Speculation, Open Question, Prediction)
+// certainty: numeric string or "---" for open questions
+#let registry-entry(
+  name,
+  type: "H",
+  certainty: "---",
+  evidence: [],
+  citations: [],
+  mechanism: [],
+  chapter-ref: [],
+  prediction: [],
+  treatment: [],
+  limitation: [],
+) = {
+  let (frame-color, bg-color, type-label) = if type == "H" {
+    (color.hypothesis-frame, color.hypothesis-bg, "Hypothesis")
+  } else if type == "S" {
+    (color.speculation-frame, color.speculation-bg, "Speculation")
+  } else if type == "OQ" {
+    (color.openq-frame, color.openq-bg, "Open Question")
+  } else if type == "P" {
+    (color.prediction-frame, color.prediction-bg, "Prediction")
+  } else {
+    (color.note-frame, color.note-bg, type)
+  }
+
+  let certainty-display = if certainty == "---" { "—" } else { certainty }
+
+  block(
+    above: 0.8em,
+    below: 0.8em,
+    width: 100%,
+    stroke: (left: 3pt + frame-color, rest: 0.5pt + frame-color),
+    radius: 2pt,
+    fill: bg-color,
+    inset: (left: 8pt, rest: 6pt),
+  )[
+    // Title bar: type badge + certainty + name
+    #block(below: 4pt)[
+      #box(
+        fill: frame-color,
+        radius: 2pt,
+        inset: (x: 4pt, y: 2pt),
+      )[#text(fill: white, weight: "bold", size: 0.75em, type-label)]
+      #h(4pt)
+      #if certainty != "---" [
+        #box(
+          fill: luma(220),
+          radius: 2pt,
+          inset: (x: 4pt, y: 2pt),
+        )[#text(size: 0.75em, "p = " + certainty-display)]
+        #h(4pt)
+      ]
+      #text(weight: "bold", name)
+    ]
+
+    // Field rows: label + content in a 2-column grid
+    #let field(label, content) = {
+      if content != none and content != [] {
+        grid(
+          columns: (5.5em, 1fr),
+          gutter: 0pt,
+          block(above: 2pt, below: 2pt)[
+            #text(size: 0.78em, weight: "bold", fill: frame-color, label + ":")
+          ],
+          block(above: 2pt, below: 2pt, inset: (left: 4pt))[
+            #text(size: 0.85em, content)
+          ],
+        )
+      }
+    }
+
+    #field("Evidence", evidence)
+    #field("Citations", citations)
+    #field("Mechanism", mechanism)
+    #field("Chapter ref", chapter-ref)
+    #field("Prediction", prediction)
+    #field("Treatment", treatment)
+    #field("Limitation", limitation)
+  ]
+}

@@ -84,7 +84,16 @@
       "mcp__web-reader__webReader",
       "Bash(opencode --version)",
       "Bash(opencode agent *)",
-      "Bash(opencode run *)"
+      "Bash(opencode run *)",
+      "Bash(awk:*)",
+      "Bash(chmod:*)",
+      "Bash(uniq:*)",
+      "Bash(cut:*)",
+      "Bash(tr:*)",
+      "Bash(touch:*)",
+      "Bash(ln:*)",
+      "Bash(diff:*)",
+      "Bash(xargs java:*)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
