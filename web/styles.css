@@ -134,6 +134,76 @@
   }
   .registry-P .registry-badge { background: #10b981; }
 
+  /* Environment-specific color overrides — apply on top of base callout styling */
+  /* Hypothesis: deep blue — high epistemic commitment */
+  .env-hypothesis {
+    border-color: #1d4ed8 !important;
+    background: #eff6ff !important;
+  }
+  .env-hypothesis .callout-title { color: #1e3a8a; }
+
+  /* Speculation: amber — exploratory, uncertain */
+  .env-speculation {
+    border-color: #d97706 !important;
+    background: #fffbeb !important;
+  }
+  .env-speculation .callout-title { color: #92400e; }
+
+  /* Achievement: emerald — established finding */
+  .env-achievement {
+    border-color: #059669 !important;
+    background: #ecfdf5 !important;
+  }
+  .env-achievement .callout-title { color: #065f46; }
+
+  /* Open question: teal — information, inquiry */
+  .env-open-question {
+    border-color: #0891b2 !important;
+    background: #ecfeff !important;
+  }
+  .env-open-question .callout-title { color: #164e63; }
+
+  /* Limitation: crimson — caution */
+  .env-limitation {
+    border-color: #dc2626 !important;
+    background: #fef2f2 !important;
+  }
+  .env-limitation .callout-title { color: #991b1b; }
+
+  /* Prediction: purple — forward-looking */
+  .env-prediction {
+    border-color: #7c3aed !important;
+    background: #f5f3ff !important;
+  }
+  .env-prediction .callout-title { color: #4c1d95; }
+
+  /* Recommendation: green — actionable */
+  .env-recommendation {
+    border-color: #16a34a !important;
+    background: #f0fdf4 !important;
+  }
+  .env-recommendation .callout-title { color: #14532d; }
+
+  /* Synthesis: teal-green — convergent evidence */
+  .env-synthesis {
+    border-color: #0d9488 !important;
+    background: #f0fdfa !important;
+  }
+  .env-synthesis .callout-title { color: #134e4a; }
+
+  /* Clinical finding: slate-blue */
+  .env-clinical-finding {
+    border-color: #4f46e5 !important;
+    background: #eef2ff !important;
+  }
+  .env-clinical-finding .callout-title { color: #312e81; }
+
+  /* Research direction */
+  .env-direction {
+    border-color: #2563eb !important;
+    background: #eff6ff !important;
+  }
+
   :where(.epigraph, blockquote) {
     border-inline-start: 3px solid var(--epigraph-border);
     padding-block: 0.6em;

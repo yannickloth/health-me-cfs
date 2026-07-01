@@ -95,54 +95,55 @@ void main(String[] args) throws IOException {
     src = encloseFhypothesis(src);
 
     // Bracketed envs: #envname(title: [...])[...] → callout blocks
-    src = encloseEnv(src, "achievement-unnumbered", "note", "Achievement");
-    src = encloseEnv(src, "achievement",   "note",   "Achievement");
-    src = encloseEnv(src, "speculation",   "note",   "Speculation");
-    src = encloseEnv(src, "hypothesis-unnumbered", "note", "Hypothesis");
-    src = encloseEnv(src, "hypothesis",    "note",   "Hypothesis");
-    src = encloseEnv(src, "warning-unnumbered", "caution", "Warning");
-    src = encloseEnv(src, "warning-env",   "caution","Warning");
-    src = encloseEnv(src, "limitation-unnumbered", "warning", "Limitation");
-    src = encloseEnv(src, "limitation",    "warning","Limitation");
-    src = encloseEnv(src, "open-question-unnumbered", "note", "Open Question");
-    src = encloseEnv(src, "open-question", "note",   "Open Question");
-    src = encloseEnv(src, "observation-unnumbered", "note", "Observation");
-    src = encloseEnv(src, "observation",   "note",   "Observation");
-    src = encloseEnv(src, "synthesis-unnumbered", "note", "Synthesis");
-    src = encloseEnv(src, "synthesis",     "note",   "Synthesis");
-    src = encloseEnv(src, "clinical-finding-unnumbered", "note", "Clinical Finding");
-    src = encloseEnv(src, "clinical-finding", "note","Clinical Finding");
-    src = encloseEnv(src, "recommendation","note",   "Recommendation");
-    src = encloseEnv(src, "proposal-unnumbered", "note", "Proposal");
-    src = encloseEnv(src, "proposal",      "note",   "Proposal");
-    src = encloseEnv(src, "prediction-unnumbered", "note", "Prediction");
-    src = encloseEnv(src, "prediction",    "note",   "Prediction");
-    src = encloseEnv(src, "key-point",     "tip",    "Key Point");
-    src = encloseEnv(src, "practical-warning", "warning", "Practical Warning");
-    src = encloseEnv(src, "protocol-unnumbered", "note", "Protocol");
-    src = encloseEnv(src, "protocol",       "note",   "Protocol");
-    src = encloseEnv(src, "requirement",   "important", "Requirement");
-    src = encloseEnv(src, "model-insight", "note",   "Model Insight");
-    src = encloseEnv(src, "definition",    "note",   "Definition");
-    src = encloseEnv(src, "continuation",  "note",   "Continued");
-    src = encloseEnv(src, "remark",        "note",   "Remark");
-    src = encloseEnv(src, "direction",     "note",   "Research Direction");
-    src = encloseEnv(src, "roadmap",       "note",   "Chapter Roadmap");
-    src = encloseEnv(src, "proposition",   "note",   "Proposition");
-    src = encloseEnv(src, "assumption-unnumbered", "note", "Assumption");
-    src = encloseEnv(src, "assumption",    "note",   "Assumption");
-    src = encloseEnv(src, "axiom-unnumbered", "note", "Axiom");
-    src = encloseEnv(src, "axiom",         "note",   "Axiom");
-    src = encloseEnv(src, "theorem",       "note",   "Theorem");
-    src = encloseEnv(src, "lemma",         "note",   "Lemma");
-    src = encloseEnv(src, "corollary",     "note",   "Corollary");
-    src = encloseEnv(src, "example",       "note",   "Example");
-    src = encloseEnv(src, "principle",     "note",   "Principle");
-    src = encloseEnv(src, "derivation",    "note",   "Derivation");
-    src = encloseEnv(src, "calculation",   "note",   "Calculation");
-    src = encloseEnv(src, "conclusion",    "note",   "Conclusion");
-    src = encloseEnv(src, "note-env",      "note",   "Note");
-    src = encloseEnv(src, "consistency-check", "note", "Consistency Check");
+    // Scientific epistemic environments: distinct callout types for visual differentiation
+    src = encloseEnv(src, "achievement-unnumbered", "tip",      "Achievement",      "env-achievement");
+    src = encloseEnv(src, "achievement",            "tip",      "Achievement",      "env-achievement");
+    src = encloseEnv(src, "speculation",            "caution",  "Speculation",      "env-speculation");
+    src = encloseEnv(src, "hypothesis-unnumbered",  "important","Hypothesis",       "env-hypothesis");
+    src = encloseEnv(src, "hypothesis",             "important","Hypothesis",       "env-hypothesis");
+    src = encloseEnv(src, "warning-unnumbered",     "caution",  "Warning",          "env-warning");
+    src = encloseEnv(src, "warning-env",            "caution",  "Warning",          "env-warning");
+    src = encloseEnv(src, "limitation-unnumbered",  "warning",  "Limitation",       "env-limitation");
+    src = encloseEnv(src, "limitation",             "warning",  "Limitation",       "env-limitation");
+    src = encloseEnv(src, "open-question-unnumbered","note",    "Open Question",    "env-open-question");
+    src = encloseEnv(src, "open-question",          "note",     "Open Question",    "env-open-question");
+    src = encloseEnv(src, "observation-unnumbered", "note",     "Observation",      "env-observation");
+    src = encloseEnv(src, "observation",            "note",     "Observation",      "env-observation");
+    src = encloseEnv(src, "synthesis-unnumbered",   "tip",      "Synthesis",        "env-synthesis");
+    src = encloseEnv(src, "synthesis",              "tip",      "Synthesis",        "env-synthesis");
+    src = encloseEnv(src, "clinical-finding-unnumbered","note", "Clinical Finding", "env-clinical-finding");
+    src = encloseEnv(src, "clinical-finding",       "note",     "Clinical Finding", "env-clinical-finding");
+    src = encloseEnv(src, "recommendation",         "tip",      "Recommendation",   "env-recommendation");
+    src = encloseEnv(src, "proposal-unnumbered",    "note",     "Proposal",         "env-proposal");
+    src = encloseEnv(src, "proposal",               "note",     "Proposal",         "env-proposal");
+    src = encloseEnv(src, "prediction-unnumbered",  "note",     "Prediction",       "env-prediction");
+    src = encloseEnv(src, "prediction",             "note",     "Prediction",       "env-prediction");
+    src = encloseEnv(src, "key-point",              "tip",      "Key Point",        "env-key-point");
+    src = encloseEnv(src, "practical-warning",      "warning",  "Practical Warning","env-practical-warning");
+    src = encloseEnv(src, "protocol-unnumbered",    "note",     "Protocol",         "env-protocol");
+    src = encloseEnv(src, "protocol",               "note",     "Protocol",         "env-protocol");
+    src = encloseEnv(src, "requirement",            "important","Requirement",       "env-requirement");
+    src = encloseEnv(src, "model-insight",          "note",     "Model Insight",    "env-model-insight");
+    src = encloseEnv(src, "definition",             "note",     "Definition",       "env-definition");
+    src = encloseEnv(src, "continuation",           "note",     "Continued",        "");
+    src = encloseEnv(src, "remark",                 "note",     "Remark",           "");
+    src = encloseEnv(src, "direction",              "note",     "Research Direction","env-direction");
+    src = encloseEnv(src, "roadmap",                "note",     "Chapter Roadmap",  "");
+    src = encloseEnv(src, "proposition",            "note",     "Proposition",      "");
+    src = encloseEnv(src, "assumption-unnumbered",  "note",     "Assumption",       "");
+    src = encloseEnv(src, "assumption",             "note",     "Assumption",       "");
+    src = encloseEnv(src, "axiom-unnumbered",       "note",     "Axiom",            "");
+    src = encloseEnv(src, "axiom",                  "note",     "Axiom",            "");
+    src = encloseEnv(src, "theorem",                "note",     "Theorem",          "");
+    src = encloseEnv(src, "lemma",                  "note",     "Lemma",            "");
+    src = encloseEnv(src, "corollary",              "note",     "Corollary",        "");
+    src = encloseEnv(src, "example",                "note",     "Example",          "");
+    src = encloseEnv(src, "principle",              "note",     "Principle",        "");
+    src = encloseEnv(src, "derivation",             "note",     "Derivation",       "");
+    src = encloseEnv(src, "calculation",            "note",     "Calculation",      "");
+    src = encloseEnv(src, "conclusion",             "note",     "Conclusion",       "");
+    src = encloseEnv(src, "note-env",               "note",     "Note",             "");
+    src = encloseEnv(src, "consistency-check",      "note",     "Consistency Check","");
 
     // #proof[...] (no title: param)
     src = encloseNoTitle(src, "proof", "note", "Proof");
@@ -453,13 +454,14 @@ void main(String[] args) throws IOException {
     System.out.println("Done — " + (secNum-1) + " sections written.");
 }
 
-String encloseEnv(String s, String typstName, String quartoKind, String displayName) {
+String encloseEnv(String s, String typstName, String quartoKind, String displayName, String extraClass) {
     var p = Pattern.compile("#" + Pattern.quote(typstName) + "\\(title:\\s*\\[(.*?)\\]\\)\\[", Pattern.DOTALL);
     var m = p.matcher(s);
     var sb = new StringBuffer();
+    var classAttr = extraClass.isEmpty() ? "" : " ." + extraClass;
     while (m.find()) {
         var title = m.group(1);
-        m.appendReplacement(sb, "\n\n::: {.callout-" + quartoKind + "}\n### " + displayName + ": " + Matcher.quoteReplacement(title) + "\n\n");
+        m.appendReplacement(sb, "\n\n::: {.callout-" + quartoKind + classAttr + "}\n### " + displayName + ": " + Matcher.quoteReplacement(title) + "\n\n");
     }
     m.appendTail(sb);
     var out = sb.toString();
