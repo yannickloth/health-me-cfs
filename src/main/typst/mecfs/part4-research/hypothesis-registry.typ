@@ -100,7 +100,10 @@
 
 #import "../shared/environments.typ": *
 
-== Antigen-Specific IgE Sensitization to Infectious Antigens (PARTIAL — unstudied in ME/CFS)
+== Hypothesis and Speculation Registry
+<sec:hypothesis-speculation-registry>
+
+=== Antigen-Specific IgE Sensitization to Infectious Antigens (PARTIAL — unstudied in ME/CFS)
 // Added 2026-06-24
 
 #registry-entry(
@@ -157,7 +160,7 @@
 
 
 
-== Neuroimmune POTS/ME/CFS/Long COVID (Blitshteyn 2026)
+=== Neuroimmune POTS/ME/CFS/Long COVID (Blitshteyn 2026)
 // Added 2026-06-08
 
 #registry-entry(
@@ -227,7 +230,7 @@
 
 
 
-== Corticosteroid Failure and Steroid-Avoidant Strategies
+=== Corticosteroid Failure and Steroid-Avoidant Strategies
 // Added 2026-05-09
 
 #registry-entry(
@@ -724,7 +727,7 @@
 //     [@Tatai2026TSAutoantibodies.],
 //     [Multi-tissue Western blot panel as diagnostic/prognostic biomarker. Tissue-specific autoantibody patterns may map to clinical phenotypes. Minimal-cost translational research using existing biobanked serum. No ME/CFS validation — extrapolated from long COVID.],
 
-=== Connective Tissue and ECM Dysregulation
+==== Connective Tissue and ECM Dysregulation
 
 #registry-entry(
   [Chronobiological Prolyl Hydroxylase Optimization],
@@ -968,7 +971,7 @@
 
 // [Gender Paradox: XCI Escape as Constant Female Susceptibility], [S], [0.30], [The ~80% female ratio is identical between onset peaks despite divergent hormonal trajectories. X chromosome carries highest density of immune-related genes; incomplete XCI for immune genes creates baseline immune activation independent of hormonal state. 20% male cases represent individuals with strong triggers that overcome X-dosage advantage.], [@McGrath2026bimodalOnset (XCI escape biology well-established per Carrel & Willard 2005; X chromosome immune gene enrichment per Fish 2018)], [X chromosome immune-gene dosage (not hormones) → constant female susceptibility across both peaks. XCI escapee genes (TLR7, CD40L, FOXP3, CXCR3) produce higher expression in XX individuals regardless of hormonal status.], [`spec:xci-escape-gender-paradox`], [Female ME/CFS patients will show higher XCI escapee immune gene expression and higher XCI skewness than controls, with equal magnitude in early- and late-onset. Males with Klinefelter syndrome (XXY) will have elevated ME/CFS risk approaching female rates.], [No direct XCI-escapee measurement in ME/CFS; Klinefelter/ME/CFS comorbidity data do not exist.],
 
-== Exercise Modality Expansion
+=== Exercise Modality Expansion
 // Added 2026-05-26
 
 #registry-entry(
@@ -1207,7 +1210,7 @@
 
 
 
-== Exosome-Mediated Sleep Deprivation Reversal
+=== Exosome-Mediated Sleep Deprivation Reversal
 // Added 2026-05-26
 
 #registry-entry(
@@ -1381,7 +1384,7 @@
 
 
 
-== May Thurner Syndrome and Venous Compression
+=== May Thurner Syndrome and Venous Compression
 // Added 2026-05-27
 
 #registry-entry(
@@ -1442,7 +1445,7 @@
 
 
 
-== Central Noradrenergic Deficiency
+=== Central Noradrenergic Deficiency
 // Added 2026-05-28
 
 #registry-entry(
@@ -1551,7 +1554,7 @@
 
 
 
-== Brain Clearance Architecture
+=== Brain Clearance Architecture
 // Added 2026-05-30
 
 #registry-entry(
@@ -1621,7 +1624,7 @@
 
 
 
-== Cell Autoantibody Passive Transfer Synthesis
+=== Cell Autoantibody Passive Transfer Synthesis
 // Added 2026-05-30
 
 #registry-entry(
@@ -1678,7 +1681,7 @@
 
 
 
-== Heat and Cold Thermoregulation
+=== Heat and Cold Thermoregulation
 // Added 2026-05-31
 
 #registry-entry(
@@ -2008,7 +2011,7 @@
 
 
 
-== POTS/ME/CFS Integration
+=== POTS/ME/CFS Integration
 // Added 2026-06-07
 
 #registry-entry(
@@ -2052,7 +2055,7 @@
 
 
 
-== Hypoxia/Altitude/HIF1$alpha$
+=== Hypoxia/Altitude/HIF1$alpha$
 // Added 2026-06-07
 
 #registry-entry(
@@ -2354,7 +2357,7 @@
   limitation: [PEM never assessed in SLE — if SLE remission fatigue lacks PEM, these are distinct clinical entities regardless of molecular overlap. ANA false-positive rate ~5-10%. Schwarting belimumab data is non-randomized observational subgroup. UCTD diagnostic criteria vary.],
 )
 
-== Noradrenergic Deficiency Phase 4
+=== Noradrenergic Deficiency Phase 4
 // Added 2026-06-07
 
 #registry-entry(
@@ -2385,7 +2388,7 @@
 
 
 
-== GWAS/WGS Meta-Analysis — Maccallini 2026
+=== GWAS/WGS Meta-Analysis — Maccallini 2026
 // Added 2026-06-08
 
 #registry-entry(
@@ -2429,7 +2432,7 @@
 
 
 
-== TRPM3 Ion Channels / MMP-9 / IL-11 Phase 2
+=== TRPM3 Ion Channels / MMP-9 / IL-11 Phase 2
 // Added 2026-06-08
 
 #registry-entry(
@@ -2590,7 +2593,7 @@
 
 
 
-== Stigmatisation in ME/CFS (Phase 2)
+=== Stigmatisation in ME/CFS (Phase 2)
 // Added 2026-06-16
 
 #registry-entry(
@@ -2699,7 +2702,7 @@
 
 
 
-== DecodeME-Verifiable Hypotheses (Computable from Existing Data)
+=== DecodeME-Verifiable Hypotheses (Computable from Existing Data)
 // Added 2026-06-18
 
 #registry-entry(
@@ -2860,7 +2863,7 @@
 
 
 
-== Weight Management in ME/CFS
+=== Weight Management in ME/CFS
 // Added 2026-06-18
 
 #registry-entry(
@@ -3853,7 +3856,7 @@
 
 
 
-== Post-Exercise Recovery Optimization (Ch.26)
+=== Post-Exercise Recovery Optimization (Ch.26)
 // Added 2026-06-18
 
 #registry-entry(
@@ -3910,7 +3913,7 @@
 
 
 
-== Mast Cell IgE → Connective Tissue (Phase 3)
+=== Mast Cell IgE → Connective Tissue (Phase 3)
 // Added 2026-06-19
 
 #registry-entry(
@@ -3954,7 +3957,7 @@
 
 
 
-== Mast Cell IgE → Connective Tissue (Phase 5)
+=== Mast Cell IgE → Connective Tissue (Phase 5)
 // Added 2026-06-19
 
 #registry-entry(
