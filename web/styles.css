@@ -12,6 +12,19 @@
 }
 
 @layer base {
+  body, p, li, dd, td, th {
+    text-align: justify;
+    hyphens: auto;
+  }
+
+  /* Don't justify headings, navigation, or code */
+  h1, h2, h3, h4, h5, h6,
+  nav, .sidebar, pre, code,
+  .callout-title, .registry-badge, .registry-name,
+  dt, caption, figcaption, .quarto-title-meta {
+    text-align: unset;
+  }
+
   figure img {
     max-inline-size: 100%;
     block-size: auto;
