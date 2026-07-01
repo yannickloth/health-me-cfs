@@ -17,7 +17,7 @@ Literature integration specialist: complete pipeline from paper discovery to bib
 
 ### Query-First
 ```bash
-grep -n "CitationKey" references.bib
+grep -rn "authorYEARkeyword" src/main/typst/mecfs/bib/   # check key not already used (lowercase)
 grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
 ```
 ✗ Never load entire files for lookups.
@@ -137,9 +137,13 @@ curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=[PM
 
 ## Phase 4: Bibliography
 
-### references.bib Entry
+**Bib file location (Typst project — IMPORTANT):** There is NO root `references.bib`. The bibliography is split into topic sub-files under `src/main/typst/mecfs/bib/` (e.g. `immune.bib`, `treatments.bib`, `epidemiology.bib`, `neuroinflammation.bib`, …). Add each new entry to the sub-file matching its subject. Append only — never disturb existing entries (other integration streams write the same files concurrently).
+
+**Bib key convention (MANDATORY — lowercase ASCII):** Keys are **lowercase ASCII only**, format `authorYEARkeyword` — e.g. `dey2026foodinsecurity`, `oh2024incident`, `reparramirez2001igelevels`. NO PascalCase, NO CamelCase, NO Unicode, NO punctuation. Do NOT write `Author2024`-style keys; the build and all `@CiteKey` references depend on lowercase.
+
+### bib entry (append to the matching `bib/<topic>.bib`)
 ```bibtex
-@article{Author2024,
+@article{authorYEARkeyword,
   author = {Author, First and Other, Second and others},
   title = {Paper Title},
   journal = {Journal Name},
@@ -149,27 +153,23 @@ curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=[PM
   doi = {10.xxxx/xxxxx},
   pmid = {12345678},
   url = {https://doi.org/10.xxxx/xxxxx},
-  keywords = {ME/CFS, [topics]}
+  keywords = {ME/CFS, [topics]},
+  certainty = {0.XX},
+  research_stream = {<topic-slug>}
 }
 ```
 
-### Appendix Entry (`appendix-h-annotated-bibliography.typ`)
-```latex
-\bibentry{Author2024}
-
-\paragraph{Key Findings:}
-[Summary of main findings]
-
-\paragraph{Relevance:}
-[Why this matters for the document]
-
-\paragraph{Certainty Assessment:}
-\begin{itemize}
-  \item \textbf{Quality:} [High/Medium/Low]
-  \item \textbf{Sample:} n=[number]
-  \item \textbf{Replication:} [status]
-  \item \textbf{Limitations:} [key limitations]
-\end{itemize}
+### Appendix Entry — `appendix-h-annotated-bibliography.typ` (TYPST, not LaTeX)
+Append in the existing Typst term-list format (NOT `\bibentry`/`\paragraph`):
+```typst
+=== AuthorYear — Short Title
+    / *Full Citation:*: Author, F. et al. (Year). Title. Journal, vol(iss), pages.
+    / *DOI:*: 10.xxxx/xxxxx
+    / *Key Findings:*:
+        - finding 1
+        - finding 2
+    / *Conclusion:*: ...
+    / *Limitations:*: ...
 ```
 
 ## Phase 5: Integration Guide
@@ -180,23 +180,25 @@ Create `integration-guide.md` for the main session:
 # Integration Guide: [Author] [Year]
 
 ## Paper Citation Key
-**BibTeX key:** `Author2024`
+**bib key:** `authorYEARkeyword` (lowercase ASCII)
 
 ## Recommended Chapters for Integration
 
 ### Primary Target: ch[NN]-[name].typ
-**File:** `src/main/typst/mecfs/part[X]-[section]/ch[NN]-[name].typ`
+**File:** `src/main/typst/mecfs/part[X]-[section]/ch[NN]-[name]...typ`
 **Section hint:** "[specific section]"
-**Environment type:** hypothesis | achievement | observation | warning | speculation
+**Environment type:** hypothesis | achievement | speculation | open-question | clinical-finding | limitation | warning
 **Rationale:** [Why this chapter and environment type]
 
-**Suggested LaTeX:**
-```latex
-\begin{[environment]}[[Title]]
-\label{[env]:author2024-keyword}
-[Author] et al.~\cite{Author2024} [finding description].
-Study: (n=[number], [design], certainty: [High/Medium/Low]).
-\end{[environment]}
+**Suggested Typst:**
+```typst
+#speculation(title: [Title])[
+[Author] et al. @authorYEARkeyword [finding description]. (Certainty: 0.XX)
+
+*Falsifiable prediction:* [...]
+
+*Consequence:* [one plain-language sentence — why it matters]
+] <spec:author-keyword>
 ```
 
 ## Key Points to Convey
@@ -212,7 +214,7 @@ Study: (n=[number], [design], certainty: [High/Medium/Low]).
 
 ## Phase 6: Verification (MANDATORY)
 
-ALL FOUR must pass before declaring complete:
+ALL must pass before declaring complete:
 
 ```bash
 # 1. Folder exists
@@ -221,11 +223,14 @@ ls Literature/[category]/[Author]_[Year]_[ShortTitle]/
 # 2. Files not empty
 wc -l Literature/[category]/[Author]_[Year]_[ShortTitle]/{abstract.txt,notes.md,key-findings.md,integration-guide.md}
 
-# 3. BibTeX entry exists
-grep "@article{[CitationKey]" references.bib
+# 3. bib entry exists in the matching sub-file (lowercase key)
+grep "@article{authorYEARkeyword" src/main/typst/mecfs/bib/<topic>.bib
 
-# 4. Appendix updated
-grep "cite{[CitationKey]}" src/main/typst/mecfs/appendices/appendix-h*.typ
+# 4. Appendix updated (Typst === heading, NOT \cite)
+grep "=== AuthorYear" src/main/typst/mecfs/appendices/appendix-h*.typ
+
+# 5. Key-convention audit: NO uppercase letters in any new key
+awk '/^@/{k=$0} /research_stream = \{<topic-slug>\}/{print k}' src/main/typst/mecfs/bib/<topic>.bib | grep -E "\{[a-z0-9]*[A-Z]" && echo "FAIL: uppercase key found — normalize" || echo "OK: all lowercase"
 ```
 
 ## Output Format
@@ -237,8 +242,8 @@ SAVED TO: Literature/[category]/[Author]_[Year]_[ShortTitle]/
    ✓ [Author]_[Year].pdf (or: ⚠ abstract only)
    ✓ abstract.txt  ✓ notes.md  ✓ key-findings.md  ✓ integration-guide.md
 
-REFERENCES.BIB: ✓ Added @[citekey]
-APPENDIX: ✓ Updated appendix-h-annotated-bibliography.typ
+BIB: ✓ Added @authorYEARkeyword to bib/<topic>.bib
+APPENDIX: ✓ Updated appendix-h-annotated-bibliography.typ (=== heading)
 INTEGRATION GUIDE: ✓ Created in content-staging/
    Recommended chapters: [list] | Environment types: [types]
 
@@ -248,8 +253,15 @@ KEY FINDINGS:
    - [Finding 2]
 
 ✓ ALL VERIFICATIONS PASSED
-Next: main session reads integration-guide.md and writes to chapter files
 ```
+
+**BIB KEYS PRODUCED (MANDATORY — generate FROM the bib, not from memory):** End every multi-paper run with the exact key list extracted from the written bib file, so the main session never has to trust a hand-typed list:
+```bash
+awk '/^@/{k=$0} /research_stream = \{<topic-slug>\}/{gsub(/@[a-z]+\{|,/,"",k); print k}' src/main/typst/mecfs/bib/<topic>.bib
+```
+Paste that command's output verbatim as the "Bib keys produced" list. If you cannot run the command, state so — do NOT transcribe keys from memory (transcription has produced wrong keys, e.g. `oh2024incidental` for `oh2024incident`, and omitted keys entirely).
+
+Next: main session reads integration-guide.md and writes to chapter files using the verified keys.
 
 ## Certainty Assessment
 
@@ -265,6 +277,10 @@ Next: main session reads integration-guide.md and writes to chapter files
 - Never duplicate papers — check first
 - Always include certainty assessment
 - Never overstate certainty — be conservative
-- Never add papers without BibTeX entries
+- Never add papers without bib entries
 - Always note if PDF unavailable
 - Never edit main chapter files — use integration guides
+- **Bib keys lowercase ASCII only** (`authorYEARkeyword`) — never PascalCase/CamelCase; build depends on it
+- **Bib lives in `bib/<topic>.bib` sub-files** — there is NO root `references.bib`; append only (concurrent streams share these files)
+- **Appendix-h is Typst** (`=== Author Year — Title` term lists) — never LaTeX (`\bibentry`/`\cite`/`\begin`)
+- **"Bib keys produced" list must be generated from the bib file** (awk extraction), never transcribed from memory

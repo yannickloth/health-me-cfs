@@ -16,17 +16,68 @@ End-to-end: research → synthesize → **integration decision** → develop →
 
 ---
 
-## Git Checkpoint Protocol
+## Working-Tree State Check (run FIRST, before Phase 0)
 
-Create a single WIP checkpoint commit before Phase 3 (the first phase that modifies chapter files): `git commit -m "WIP: [topic-slug] pre-integration"`. Create an additional checkpoint before Phase 6. These are squashed/rewritten in Phase 13. Purpose: rollback to any phase boundary if a later phase fails to converge. For finer-grained rollback, use `git reflog`.
+Determine tree cleanliness — governs checkpoint strategy + commit scope for the whole cycle.
+
+```bash
+git status --short
+```
+
+| Tree state | Meaning | Action |
+|------------|---------|--------|
+| Clean (empty output) | No pending changes | **CLEAN mode** — WIP checkpoints enabled (default protocol below) |
+| Dirty, only this-topic files | (recursive cycle resuming own WIP) | CLEAN mode — WIP checkpoints scoped to this topic's files only |
+| Dirty, unrelated files present | Parallel session / prior WIP / other topic | **MIXED mode** — see below |
+
+**MIXED mode (mandatory):**
+1. Report to user: "Working tree has unrelated changes: `<file list>`. These are not part of this topic."
+2. Ask: "(a) commit/stash them first, (b) proceed in MIXED mode (no WIP checkpoints; rollback via `git reflog`; commit scoped by explicit file list)?" Wait for answer.
+3. If (b): WIP checkpoint commits are **SKIPPED** (a WIP commit would bundle unrelated changes). Record in plan Phase-0 note: "MIXED tree — WIP checkpoints skipped; rollback = git reflog; all phases scoped by explicit file lists, NOT `git diff`."
+4. In MIXED mode every phase that uses `git diff --name-only` for scoping MUST instead use the **explicit file list from the plan's per-phase reports** (the plan is the source of truth — see Shared-File Ownership below). `git diff` is fallback only.
+
+## Concurrency & Shared-File Ownership Protocol
+
+Multiple `/integrate-topic` cycles (or a parallel session) may write the same shared files. A parallel commit can sweep in *your* uncommitted entries, violating your Phase 13 scope. Mitigate:
+
+**Shared files (always written by multiple streams):** `bib/*.bib`, `appendices/appendix-h-annotated-bibliography.typ`, `shared/changelog.typ`, `part4-research/hypothesis-registry.typ`, `ops/plans/hypotheses-trees/hypotheses-trees.md`, `ops/queued-topics.md`.
+
+**Ownership rule:** Track *which entries* you added to each shared file by **key/label**, not just the filename, in the plan's per-phase reports. Examples: bib keys produced (Phase 1), registry labels added (Phases 3/5/7), changelog entry topic-title (Phase 12), subtree row slug (Phase 4a). This lets a later commit or audit reconstruct ownership even if the file was committed by another stream.
+
+**Re-check before commit (Phase 13):** A shared file you modified may have been committed by a parallel stream mid-cycle (`git status` no longer shows it as `M`, but `git show HEAD:<file>` contains your entries). This is acceptable — your entries shipped — but DO verify via `git show HEAD:<file> | grep <your-key>` that none of your entries were lost, and note in the Phase 13 report which of your entries landed in another stream's commit.
+
+## Git Checkpoint Protocol (CLEAN mode only)
+
+In CLEAN mode: create a single WIP checkpoint commit before Phase 3 (the first phase that modifies chapter files): `git commit -m "WIP: [topic-slug] pre-integration"`. Create an additional checkpoint before Phase 6. These are squashed/rewritten in Phase 13. Purpose: rollback to any phase boundary if a later phase fails to converge. For finer-grained rollback, use `git reflog`.
+
+In MIXED mode: WIP checkpoints are skipped; rollback is via `git reflog` only.
 
 **Rollback triggers:**
-- Phase 11 hits max rounds with >5 unresolved findings → offer rollback to pre-Phase-6 checkpoint
-- Phase 8 build fails after 5 iterations → offer rollback to pre-Phase-3 checkpoint
+- Phase 11 hits max rounds with >5 unresolved findings → offer rollback to pre-Phase-6 checkpoint (CLEAN) or `git reflog` target (MIXED)
+- Phase 8 build fails after 5 iterations → offer rollback to pre-Phase-3 checkpoint (CLEAN) or `git reflog` (MIXED)
 - Phase 3.5 identifies consequence gaps that require substantive rework of Phase 3 environments → offer rollback to pre-Phase-3 checkpoint
 - Any phase produces results the user rejects → offer rollback to previous checkpoint
 
 ---
+
+## Agent Registry — Available Agents
+
+Verify these exist before delegating any phase. Run: `ls .claude/agents/<name>.md`.
+
+| Agent file | Used by phase | Status |
+|-----------|---------------|--------|
+| `literature-integrator.md` | Phases 1, 5 (sub-research) | ✓ exists (refreshed 2026-06: lowercase keys, Typst, `bib/<topic>.bib`, verified key-list) |
+| `scientific-insight-generator.md` | Phase 4 | ✓ exists |
+| `falsifiability-auditor.md` | Phase 5a | ✓ exists |
+| `hypothesis-compatibility-auditor.md` | Phase 7 (reference only; inline execution) | ✓ exists |
+| `hypothesis-reinforcement-builder.md` | Phase 7 (reference only; inline execution) | ✓ exists |
+| `cynic-auditor.md` | Phase 11b | ✓ exists |
+| `sophist-auditor.md` | Phase 11b | ✓ exists |
+| `strawman-auditor.md` | Phase 11b | ✓ exists |
+| `reductionist-auditor.md` | Phase 11b | ✓ exists |
+| `clinician-auditor.md` | Phase 11b | ✓ exists |
+| `devil-advocate-auditor.md` | Phase 11b | ✓ exists |
+| `cross-section-coherence-auditor` | None (Phase 10 inline) | ✗ does not exist |
 
 ## Phase 0 — Plan Maintenance
 
@@ -87,6 +138,9 @@ Before starting any other phase:
 - Create `Literature/` folder per literature-integration workflow
 - Add entries to `src/main/typst/mecfs/references.bib`:
   - Standard BibTeX fields + `certainty = {0.XX}` + `research_stream = {topic-slug}`
+  - **Bib key convention (MANDATORY):** All keys use **lowercase ASCII only**, no spaces, no punctuation, no Unicode. Format: `authorYEARkeyword` (e.g., `dey2026foodinsecurity`, `lin2025longcovidfoodinsecurity`). This is the convention used by the existing bib files. Phase 1 report must include a "bib keys produced" list — the main session uses these exact keys in all subsequent `@Citation` references. Do NOT invent PascalCase or CamelCase variants of bib keys. If the literature-integrator produces keys that don't match this convention, the main session must normalize them before Phase 3 writes any `@` references.
+  - **Existing-key audit (NEW — after Phase 1 bib write):** After Phase 1 writes new bib entries, grep for non-lowercase keys in the Phase-1-written section of the bib file. If any PascalCase or CamelCase keys are found, normalize them in both the bib file and the annotated appendix. Do NOT audit pre-existing bib entries from other integrations — only the Phase 1 batch.
+  - **Bib-key reconciliation gate (MANDATORY, HARD):** The agent's "bib keys produced" list is advisory and HAS been observed to contain typos / omissions (e.g. `oh2024incidental` reported vs `oh2024incident` actually written; a key omitted entirely). The `.bib` file is the ONLY ground truth. Before Phase 3 writes any `@` reference, extract the actual keys from the bib (e.g. `awk '/^@/{k=$0} /research_stream = \{<slug>\}/{print k}' <bibfile>`) and use ONLY those verified keys. At each build check, every `@CiteKey` in new `.typ` files must be confirmed present in the bib (grep each key). Do NOT trust the report's key list for citing.
 - Add annotated entries to `src/main/typst/mecfs/appendices/appendix-h-annotated-bibliography.typ`:
   ```
   === AuthorYear — Short Title
@@ -152,7 +206,7 @@ Write `content-staging/search-log-<topic-slug>-<date>.md`:
 **Guard — Uniformly null evidence:** If all included papers report null results, failed replications, or conclude "no relationship to ME/CFS" → report: "Phase 1: N papers found, all null/negative. Evidence does not support this mechanism." Options: (a) integrate as `#limitation` or `#open-question` documenting the null evidence, (b) abandon topic. Do NOT proceed to brainstorming about a mechanism the evidence rejects.
 
 **Output:** Literature summary in `content-staging/` + annotated bib entries + references.bib updates + search log.
-**Report:** "Phase 1 complete: N papers found, M added to bib, annotated bib updated, search log at `content-staging/search-log-<slug>-<date>.md`."
+**Report:** "Phase 1 complete: N papers found, M added to bib (`bib/<topic>.bib`), annotated bib updated, search log at `content-staging/search-log-<slug>-<date>.md`. Bib keys (VERIFIED against bib via awk, not transcribed): [list]. Any report/bib key mismatches noted."
 
 ---
 
@@ -205,6 +259,18 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
 
    **Guard:** PARTIAL decision → this will trigger `WEAK-EVIDENCE` flag in Phase 9. Phase 9's trigger condition is: "Phase 2 decision was PARTIAL, OR >50% of papers have certainty <0.40" — either condition alone fires the flag. This is by design — the sufficiency gate and quality flag are aligned.
 
+   **Active-caps checklist (MANDATORY — write into the plan file):** The integration decision sets caps that apply across ALL downstream phases and are easy to violate (they are restated in Phases 4, 5, 7, 9). To make them a gate rather than a memory test, Phase 2 MUST write a `## Active Caps` block into `ops/plans/<topic-slug>-integration-plan.md`. Each downstream phase reads it and confirms compliance in its report. Template:
+
+   ```markdown
+   ## Active Caps (set by Phase 2 — decision: <DECISION>)
+   - Environments allowed: <all | speculation/open-question/limitation ONLY (PARTIAL)>
+   - #hypothesis-box / #fhypothesis: <allowed | FORBIDDEN even if idea cert ≥0.45 or Phase 7 bump crosses 0.45 (PARTIAL)>
+   - Brainstorm categories (Phase 4): <all 1–12 | 1–2 + 10–12 ONLY (PARTIAL — skip 3–9)>
+   - Certainty bumps (Phases 6–7): <per normal rules | capped: no bump may cross 0.45 (PARTIAL)>
+   - Phase 9 flags pre-fired: <none | WEAK-EVIDENCE (PARTIAL)>
+   ```
+   For PROCEED, write the block with "all"/"allowed"/"none" so downstream phases still have an explicit reference. For REJECT/DEFER, no caps block needed (cycle ends at Phase 2).
+
 **Output:** `content-staging/synthesis-<topic-slug>-<date>.md`
 **Report:** "Phase 2 complete: N papers strong, M weak, K null, J missing. Decision: [PROCEED / PARTIAL / REJECT / DEFER]. Clinical relevance: [HIGH/MEDIUM/LOW/NONE]. Contradictions: [none / N pairs]."
 
@@ -241,6 +307,7 @@ Read Phase 2 synthesis. Use the evidence summary and contradiction framing to gu
 
 **For every new hypothesis, speculation, prediction, or open-question:**
 - Add entry to `src/main/typst/mecfs/part4-research/hypothesis-registry.typ` (match existing format)
+  - **Registry multi-table-block caution:** the registry contains several dated `#table()` blocks each under a `=` heading. When adding a new dated block, write a COMPLETE block: `= Entries added <date>: <topic>` heading, then `#table(...)` with its own column spec + header row + your rows + closing `)`. Do NOT let your rows merge into an adjacent block or drop the next block's header. After editing, verify each existing `=` heading still has its own `#table(` opener and closing `)` (a build pass confirms bracket balance, but a dropped header compiles silently — visually confirm the seam).
 
 **Integration rules:**
 - Every mechanistic claim → `@CitationKey`
@@ -266,15 +333,24 @@ Read Phase 2 synthesis. Use the evidence summary and contradiction framing to gu
 - Pregnancy/lactation safety: state available data or "no pregnancy/lactation safety data available"
 - State severity applicability (mild / moderate / severe / very severe); if not specified in the evidence → state: "severity applicability unknown"
 
-**Report:** "Phase 3 complete: N environments added across M chapters, hypothesis registry updated."
+**Report:** "Phase 3 complete: N environments added across M chapters, hypothesis registry updated. Files modified/created: <space-separated relative paths>."
 
----
+## Phase 3a — Intermediate Build Check
+
+**Agent:** main session | **Model:** current
+
+**Purpose:** Catch compilation errors early before downstream phases build on broken content.
+
+1. `git add <files-modified-or-created-in-Phase-3>` — stage ONLY Phase 3 files, not a blanket `-A`
+2. `nix build` — check compilation
+3. If build fails: fix ALL errors before proceeding to Phase 3.5. Common Phase 3 errors: import paths too short (new subdirectories need extra `../` levels), `include` directives pointing to files not yet staged, Typst syntax (`<` in prose interpreted as label opener), `@CitationKey` not matching a bib entry key
+4. Report: "Phase 3a build: PASS / FAIL (N errors fixed)"
+
+This check is also run after Phase 5 (see Phase 5b below — the intermediate build check after Phase 5).
 
 ## Phase 3.5 — Non-Specialist Consequences Verification
 
 **Agent:** main session | **Model:** current
-
-**Purpose:** Verify that every new environment from Phase 3 includes an accessible consequence sentence. This is a verification pass — the consequence field should have been written inline during Phase 3. Phase 3.5 catches omissions before downstream phases build on the new content.
 
 **Scope:** All `.typ` files modified/created in Phase 3.
 
@@ -418,6 +494,8 @@ Phase 4 certainties are the brainstorm generator's self-assessment. Before triag
 
 Read Phase 4 output. Classify every idea into a tier using **reassessed** usefulness scores and **reassessed** certainty:
 
+**Phase-3 deduplication (MANDATORY — run BEFORE triage):** Phase 3 already integrated the topic's *core* claims as environments. Several brainstorm ideas (especially critical-category items: nulls, competing-mechanism, null-assessment) are frequently *already covered* by a Phase 3 environment. For each Phase 4 idea, check whether an existing environment (from Phase 3 or pre-existing) already states the same claim — grep the changed chapter files for the idea's key terms. If already covered: mark the idea `⏭️ covered-by-<label>` in the plan/subtree, do NOT integrate a duplicate, and (if the existing environment is weaker than the idea) optionally strengthen the existing environment instead of adding a new one. Only genuinely *new* content proceeds to triage.
+
 | Tier | Criteria | Integration action |
 |------|----------|-------------------|
 | **Tier 1** | Reassessed certainty ≥ 0.45 OR any usefulness score ≥ 3 | Full integration: sub-research via `literature-integrator` → develop → write into chapter |
@@ -477,19 +555,30 @@ Same requirement as Phase 3: every environment written in Phase 5 must contain a
 
 **Integration threshold (Tiers 1–2):** ANY mechanistic connection to ME/CFS is sufficient. Cross-disease parallels → appropriate chapter (ch13, ch14d). Non-pharmacological interventions → ch17. Research tools → ch20 or ch25b. Long-shot drug ideas → ch18 or ch06 as open questions.
 
-**Report:** "Phase 5 complete: N ideas triaged (T1: X integrated, T2: Y integrated, T3: Z tree-only), P queued as child topics."
+**Report:** "Phase 5 complete: N ideas triaged (T1: X integrated, T2: Y integrated, T3: Z tree-only), P queued as child topics. Files modified/created: <space-separated relative paths>."
 
-Subtree status updates are deferred to after Phase 5a (falsifiability sweep may reclassify environments). See Phase 5a for the update rules.
+Subtree status updates are deferred to after Phase 5a (which follows the Phase 5b build check).
+
+## Phase 5b — Intermediate Build Check
+
+**Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit). The lettering reflects content type, not execution order.
+
+**Agent:** main session | **Model:** current
+
+1. `git add <files-modified-or-created-in-Phase-5>` — stage ONLY Phase 5 files
+2. `nix build` — common Phase 5 errors: new `@CitationKey` references not matching bib, `<` in prose, new `#include` directives to files not yet staged
+3. Fix ALL errors before proceeding to Phase 5a (falsifiability)
+4. Report: "Phase 5b build: PASS / FAIL (N errors fixed)"
 
 ---
 
-### Phase 5a — Falsifiability Sweep (Verification)
+## Phase 5a — Falsifiability Sweep (Verification)
 
 **Agent:** `falsifiability-auditor` | **Model:** sonnet | **Execution:** foreground (report → main session fixes)
 
 **Run after all Phase 5 integration is complete.** This is a verification sweep — most falsifiability work should have been done inline during Phases 3 and 5. Scope: all `.typ` files modified/created in Phases 3 and 5 (Phase 3 hypotheses also need independent verification — the inline check in Phase 3 is a self-check with no agent-based verification).
 
-1. Invoke `falsifiability-auditor` on the changed files (use `git diff --name-only HEAD | grep '\.typ$'` + `git ls-files --others --exclude-standard | grep '\.typ$'`).
+1. Invoke `falsifiability-auditor` on the changed files (CLEAN mode: `git diff --name-only HEAD | grep '\.typ$'` + `git ls-files --others --exclude-standard | grep '\.typ$'`; MIXED mode: use the explicit file list from plan reports — `git diff` would include unrelated files). Scope the auditor to the new section(s) of this cycle, not the whole changed file if the file is shared/pre-existing.
 2. **Gate:** Every `#hypothesis-box()`, `#fhypothesis()`, `#speculation()`, and `#prediction()` that was newly integrated must have at least one falsifiable prediction.
 3. Fix any that slipped through inline checking:
    - Criterion: "weakly" or missing falsifiability → add a specific, testable prediction (what observation would refute the hypothesis)
@@ -639,45 +728,32 @@ Add to Phase 0 tracking: `6 | M matches examined, N adapted (R reinforced, T con
 
 ## Phase 7 — Cross-Hypothesis Compatibility
 
-**Purpose:** New hypotheses don't only interact with evidence — they interact with *each other*. Phase 7 maps how each newly integrated hypothesis relates to every existing hypothesis in the registry: which reinforce (mutually increase plausibility), which feed into (one supplies mechanism input to another), which conflict (cannot both be true), and which are independent. Output: compatibility matrix + reinforcement chains + conflict clusters + certainty adjustment proposals.
+**Purpose:** New hypotheses don't only interact with evidence — they interact with *each other*. Phase 7 maps how each newly integrated hypothesis relates to every existing hypothesis in the registry: which reinforce, which feed into, which conflict, which are independent. Output: compatibility matrix + reinforcement chains + conflict clusters + certainty adjustment proposals.
 
-### Step 1 — Compatibility Audit
+**Execution mode:** Phase 7 runs inline in the main session (current model). No separate agent is spawned — the main session performs all three steps below as a single integrated pass. The `hypothesis-compatibility-auditor` and `hypothesis-reinforcement-builder` agent files exist in `.claude/agents/` for reference (audit checklist and reinforcement rules) but are not delegated to; the main session reads them for guidance and executes directly. This avoids the agent non-existence / blank output issues observed in prior cycles.
 
-**Agent:** `hypothesis-compatibility-auditor` | **Model:** sonnet
+**Before starting Phase 7, verify agent output quality gate:** If a prior phase delegated to an agent that returned blank output, check whether the agent actually exists in `.claude/agents/`. If it does not exist → escalate to user: "Agent `<agent-name>` not found in `.claude/agents/`. Should I implement Phase N manually, or do you want to create the agent first?" Do not silently proceed with manual fallback; the user must approve the deviation from the cost model.
 
-Input:
-- Labels/titles of all newly integrated hypotheses from Phases 3 and 5
-- Modified `.typ` files from Phases 3, 5, **and Phase 6** (Phase 6 may have changed existing claims' certainties, which affects compatibility relationships)
-- Registry path: `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`
+### Step 1 — Compatibility Audit (main session, inline)
 
-Output: `content-staging/compat-audit-<topic-slug>-<date>.md`
+1. Extract mechanism terms from titles/descriptions of both new hypotheses AND all existing registry entries. For the existing entries, use the title field (column 1), mechanism description (column 7), and key references (column 5) from the registry table to build a term index.
+2. Use the term index to find overlapping pairs efficiently: hypotheses sharing ≥1 distinct mechanism term → candidate pair. Full N×M set intersection is not required; the term index serves as a cheap pre-filter.
+3. For each candidate pair: grep all `.typ` files for the shared terms — using the Phase 6 synonym map (`content-staging/synonym-map-<topic-slug>.md`) if available — + read 20 lines of context per match.
+4. Classify each pairwise relationship (reinforcement / feed-into / conflict / independent) with a relationship certainty (0.1–1.0).
+5. Write output: `content-staging/compat-audit-<topic-slug>-<date>.md`
 
-The agent:
-1. Extracts mechanism terms from each new hypothesis
-2. Greps all `.typ` files for those terms — **using the Phase 6 synonym map** (`content-staging/synonym-map-<topic-slug>.md`) if available — + reads 20 lines of context per match
-3. Cross-references against the full registry entries for existing hypotheses
-4. Classifies each pairwise relationship (reinforcement / feed-into / conflict / independent) with a relationship certainty (0.1–1.0)
-5. Searches external literature for confirmatory/conflicting evidence (max 3 WebSearch calls per pair; global cap: 50 WebSearch calls total per Phase 7 cycle)
-6. Writes the full pairwise matrix
+**Independence validation:** For pairs classified as "independent," verify they share no common upstream mechanisms, shared assumptions, or common preconditions. If they do → reclassify as weak-reinforcement or weak-feed-into. Document: "Reclassified from independent: shares upstream mechanism [X] with [hypothesis Y]."
 
-**Independence validation:** For pairs classified as "independent," verify they share no common upstream mechanisms, shared assumptions, or common preconditions. If they do → reclassify as weak-reinforcement (shared upstream supports both) or weak-feed-into (common precondition). Document: "Reclassified from independent: shares upstream mechanism [X] with [hypothesis Y]."
+**Scale cap:** If the term index (Step 1) yields >200 candidate pairs, cap at 200. Prioritize by tiers: (0) pairs involving at least one hypothesis newly integrated in the current cycle (the point of Phase 7), then (1) pairs with the most shared mechanism terms, then (2) hypotheses in the same chapter, then (3) hypotheses with certainty ≥0.40. Document truncated pairs in report: "N pairs unexamined — deferred to Phase 11 review agents which independently sweep for contradictions."
 
-**Guard:** If compatibility audit finds zero overlapping mechanism pairs (all new hypotheses are in systems with zero existing hypotheses in the registry) → skip Steps 2 and 3; report "Phase 7: zero mechanism overlap — no reinforcement/conflict pairs found." Still update the plan file with a `## Phase 7` section noting this.
+**Guard:** If compatibility audit finds zero overlapping mechanism pairs (socioeconomic topics, pure methodological topics, or all new hypotheses are in systems with zero existing hypotheses in the registry) → skip Steps 2 and 3; report "Phase 7: zero mechanism overlap — no reinforcement/conflict pairs found." Still update the plan file. This is the most common outcome; the pipeline should handle it without error.
 
-### Step 2 — Reinforcement Chains & Adjustments
+### Step 2 — Reinforcement Chains & Adjustments (main session, inline)
 
-**Agent:** `hypothesis-reinforcement-builder` | **Model:** sonnet
-
-Input:
-- Compatibility audit file from Step 1
-- Plan file: `ops/plans/<topic-slug>-integration-plan.md`
-- Topic slug
-
-The agent:
-1. Builds feed-into chains (H1→H2→H3) and reinforcement clusters (H4, H7, H12 all converge)
-2. Identifies conflict clusters (mutually exclusive groups, overlapping-but-distinct tensions)
-3. Proposes certainty adjustments per reinforcement/conflict rules (see below)
-4. Writes all artifacts into the plan file (`## Phase 7 — Cross-Hypothesis Compatibility` section)
+1. Build feed-into chains (H1→H2→H3) and reinforcement clusters
+2. Identify conflict clusters
+3. Propose certainty adjustments per rules below
+4. Write all artifacts into the plan file
 
 ### Certainty Adjustment Rules
 
@@ -691,14 +767,14 @@ The agent:
 | Conflict between comparably-certain hypotheses (cert diff ≤ 0.10) | No change | Flag as "unresolved tension" |
 | Any hypothesis already bumped 3+ times across prior cycles | Any bump requires that both hypotheses in the pair have certainty ≥ 0.50 | Diminishing returns guard (adapted from Phase 6's ≥ 0.70 rule to Phase 7's relationship context: since Phase 7 bumps are driven by hypothesis pairs rather than papers, the guard uses the paired hypotheses' own certainties as the quality signal) |
 
-**Never exceed certainty 0.95.** Document every adjustment: "0.XX→0.YY: [reason] — [mechanism link]." Main session reviews all proposed adjustments from Step 2 before applying them via `hypothesis-registry-updater`.
+**Never exceed certainty 0.95.** Document every adjustment: "0.XX→0.YY: [reason] — [mechanism link]." Main session reviews all proposed adjustments from Step 2 before applying them — update the registry file directly (inline edit, no agent delegation):
 
 ### Step 3 — Apply Adjustments
 
 **Agent:** main session | **Model:** current
 
 Review the reinforcement builder's proposals. For each approved adjustment:
-- Invoke `hypothesis-registry-updater` with action: update, label, new certainty, and reason
+- **Update hypothesis registry:** Directly edit `src/main/typst/mecfs/part4-research/hypothesis-registry.typ` to change the certainty value, type, and label reference in the relevant entry row. Match existing format exactly.
 - **Update chapter text:** Write the new certainty value into the claim's text with self-documenting provenance (e.g., `*Certainty: 0.50.* (0.45→0.50: reinforced by convergence with [hypothesis Y])`), same format as Phase 6 adjustments. This applies to ALL adjustments, not just threshold-crossing ones.
 - **Cross-phase bump cap check:** Before approving any bump, verify whether the same hypothesis already received a Phase 6 bump in this cycle. If it did, reject the Phase 7 bump (per-cycle cap: max one bump across Phases 6 and 7 combined).
 - If a bump crosses an environment threshold (speculation 0.45 → hypothesis), also reclassify the environment in the chapter text (e.g., `#speculation` → `#hypothesis-box`) and update the registry type column
@@ -724,13 +800,33 @@ Add to Phase 0 tracking: `7 | R reinforcement pairs, F feed-in pairs, C conflict
 
 ## Phase 8 — Build Verification
 
-**Agent:** `test-runner` | **Model:** haiku
+**Agent:** main session | **Model:** current
 
-`test-runner` = report-only (no fixes). Build fails → main session reads error report, applies fixes (missing `@` citations, broken labels, malformed Typst syntax), re-invokes `test-runner`.
+**Purpose:** Verify the paper compiles successfully. No agent delegation — the main session runs `nix build` directly.
 
-**Max 5 fix-verify iterations.** Still failing → stop, report errors verbatim, offer rollback via `git reflog` or ask user before continuing.
+**Pre-build staging (MANDATORY):** Before running `nix build`, stage all new and modified files:
+```bash
+# Stage ONLY files created/modified in Phases 3–7 (tracked in plan file reports).
+# Use specific paths, not git add -A (which stages unrelated WIP changes).
+git add <file-list-from-phase-reports>
+```
+The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.typ` files are invisible to the build. Every build failure traced to an "include not found" error for a new file is caused by missing `git add`. Do not delegate this step — the main session executes it.
 
-**Report:** "Phase 8 complete: build PASS / FAIL (errors if FAIL)."
+**MIXED-mode staging:** In MIXED mode (unrelated WIP in tree), `git add -A` is FORBIDDEN — it would stage another stream's work. Always use the explicit per-phase file list from the plan. The build derivation needs your new files tracked, but staging is per-topic; this is also what makes the Phase 13 commit scope clean.
+
+**Build check at intermediate phases:** To catch errors early, run a quick build after:
+- Phase 3 (first content writes — catches import path errors, missing `#include` directives)
+- Phase 5 (more content writes — catches new citation key issues, `<` escaping problems)
+
+These are lightweight checks (the build may fail; that's the point). If either fails, fix all errors before continuing to the next phase. This prevents error accumulation that forces multiple fix-verify rounds in Phase 8.
+
+**Phase 8 proper:** Full build verification after all content changes (Phases 3–7).
+
+**Citation key convention (NEW — enforced at Phase 3 build check):** Bib entry keys in `references.bib` and sub-files use **lowercase ASCII only** (e.g., `dey2026foodinsecurity`). All `@CitationKey` references in `.typ` files must match this convention exactly. The `literature-integrator` agent writes lowercase keys; Phase 1 output should include a "bib keys produced" list so the main session uses matching keys from Phase 3 onward. Do not PascalCase or CamelCase bib keys — the bib file convention is lowercase.
+
+**Max 5 fix-verify iterations in Phase 8 proper.** Still failing → stop, report errors verbatim, offer rollback via `git reflog` or ask user before continuing.
+
+**Report:** "Phase 8 complete: build PASS / FAIL (errors if FAIL). Intermediate build checks at Phase 3: PASS/FAIL, Phase 5: PASS/FAIL."
 
 ---
 
@@ -771,13 +867,13 @@ Add to Phase 0 tracking: `7 | R reinforcement pairs, F feed-in pairs, C conflict
 
 ## Phase 10 — Cross-Chapter Coherence Review
 
-**Agent:** `cross-section-coherence-auditor` (if available) or main session | **Model:** sonnet
+**Agent:** main session | **Model:** sonnet (no Agent delegation — the `cross-section-coherence-auditor` agent does not exist in `.claude/agents/`. Phase 10 runs inline.)
 
 **Purpose:** Phases 5 and 6 modify content across multiple chapters. This phase verifies the cross-chapter narrative is still coherent after scattered modifications.
 
 **Input:** All `.typ` files modified in Phases 3, 5, 6, and 7 (Phase 7 may reclassify environments and update certainty values in chapter text).
 
-**The agent checks:**
+**The main session checks:**
 1. **Certainty consistency:** Same mechanism mentioned in multiple chapters → certainty values must agree. Flag any mismatches.
 2. **Terminology consistency:** Same concept must use the same term across chapters. Flag divergences (e.g., "mitochondrial dysfunction" in ch06 vs "bioenergetic impairment" in ch09 for the same mechanism).
 3. **Cross-reference web:** New `@sec:` and `@fig:` references must resolve. Existing cross-references to modified content must still be accurate.
@@ -881,7 +977,18 @@ Many integrations completed before Phase 10a existed. They may contain scattered
 
 ## Phase 11 — Review to Convergence
 
-**Collect changed files** at the start of each review pass (not once for all passes — fixes may modify additional files):
+**Scope tier (choose based on integration size):**
+
+| Tier | When | Review approach |
+|------|------|-----------------|
+| **Lightweight** | Single chapter/section touched AND (PARTIAL decision OR ≤10 new environments) | Run focused `Task`-based passes: one adversarial pass (`devil-advocate-auditor` or a 6-persona prompt) + one `typst-xref-checker` pass, each scoped to the changed regions only. Fix CRITICAL/HIGH (+ opportunistically MEDIUM/LOW). Full multi-agent convergence skills are token-disproportionate for a small PARTIAL section. |
+| **Full** | Multi-chapter integration OR PROCEED with >10 new environments OR any treatment/clinical content | Run the full convergence loop below (11a/11b/11c skills to 2 consecutive zero-finding rounds). |
+
+State which tier you chose and why in the Phase 11 report. The lightweight tier still requires zero CRITICAL and zero HIGH before proceeding.
+
+### Full-tier convergence loop
+
+**Collect changed files** at the start of each review pass (not once for all passes — fixes may modify additional files). In CLEAN mode use `git diff`; in MIXED mode use the explicit file list from plan reports (git diff would sweep unrelated files):
 
 ```bash
 git diff --name-only HEAD | grep '\.typ$'
@@ -944,9 +1051,19 @@ Add entry to `src/main/typst/mecfs/shared/changelog.typ` under current version (
 
 Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit` skill rules (conventional commits, no generated files, no PDFs except published artifacts).
 
-WIP checkpoint commits from the Git Checkpoint Protocol are squashed into the final commits. Do not leave WIP commits in the history.
+**Scope precisely (MANDATORY):** Stage ONLY this topic's files (chapters, registry, changelog, ops artifacts, content-staging docs). Use the explicit file list from the plan's per-phase reports — never `git add -A`. Exclude: unrelated WIP (other topics' `SKILL.md` edits, etc.), and transient review-skill artifacts (e.g. `.claude/review-checkpoint-*.md` — do NOT commit these per `.claude/` hygiene).
 
-**Report:** "Phase 13 complete: N commits created."
+**Shared-file ownership re-check (MIXED mode / concurrency):** Before committing, verify your shared-file entries survived any parallel commit:
+```bash
+# For each shared file you wrote (bib, appendix-h, changelog, registry, trees):
+git show HEAD:<shared-file> | grep <your-key-or-label>   # already committed by another stream?
+git status --short <shared-file>                          # still pending in your tree?
+```
+If a shared file you modified is no longer in `git status` (committed by a parallel stream) BUT `git show HEAD` contains your entries → your entries shipped; note this in the Phase 13 report ("bib/appendix entries landed in commit <hash> of stream <X>"). If your entries are MISSING from both HEAD and your tree → they were lost; re-apply before committing.
+
+WIP checkpoint commits from the Git Checkpoint Protocol (CLEAN mode only) are squashed into the final commits. Do not leave WIP commits in the history.
+
+**Report:** "Phase 13 complete: N commits created (hash). Shared-file entries verified present. Excluded: <unrelated files left untouched>."
 
 ---
 
@@ -964,18 +1081,33 @@ WIP checkpoint commits from the Git Checkpoint Protocol are squashed into the fi
 | 5 | main session | current | Development + integration |
 | 5a | `falsifiability-auditor` | sonnet | Verification sweep (most work done inline in Phase 5) |
 | 6 | main session | current | Evidence→claim retrospective adaptation |
-| 7 Step 1 | `hypothesis-compatibility-auditor` | sonnet | Pairwise mechanism search + classification (includes Phase-6-modified claims) |
-| 7 Step 2 | `hypothesis-reinforcement-builder` | sonnet | Chain/cluster construction + certainty proposals |
-| 7 Step 3 | main session | current | Review proposals, invoke registry updater |
-| 8 | `test-runner` | haiku | Mechanical build check |
+| 7 | main session (inline) | current | Compatibility audit + reinforcement chains + adjustments — all three steps |
+| 8 | main session | current | Build verification + pre-build staging. Intermediate checks at Phases 3 and 5 |
 | 9 | main session | current | Quality metrics — actionable before review convergence |
-| 10 | `cross-section-coherence-auditor` | sonnet | Cross-chapter consistency + evidence-to-claim calibration |
+| 10 | main session (inline) | sonnet | Cross-chapter consistency audit — no separate agent; execute directly |
 | 10a | main session | current | High-level synthesis → `#synthesis` environment condensing scattered environments into convergent model |
 | 11a | review-convergence agents | sonnet | Consistency/logic checking |
-| 11b | review-adversarial agents | opus | Adversarial personas need deep reasoning |
+| 11b | review-adversarial personas | opus | Adversarial personas need deep reasoning |
 | 11c | review-typst agents | sonnet | Typst-specific review |
 | 12 | main session | haiku | Mechanical changelog formatting |
 | 13 | commit | current | Git operations |
+
+### Agent Output Validation (NEW — mandatory for every delegated phase)
+
+**Before accepting any agent's output as complete**, the main session must verify:
+
+| Check | Condition | Action if fails |
+|-------|-----------|-----------------|
+| Agent exists | Agent file in `.claude/agents/<name>.md` | If not found → escalate to user: "Agent `<name>` missing. Implement Phase N manually or create agent?" Do NOT silently fall back to manual execution. |
+| Output non-empty | `task_result` is not null/blank | If blank → re-run once with same agent/prompt. If still blank → escalate to user: "Agent returned empty output twice. Run Phase N manually?" |
+| Output files exist | Any paths claimed in output exist on disk | If missing → re-run once. If still missing → escalate. |
+| Phase-specific checks | e.g., Phase 1: `references.bib`/sub-bib has new entries AND every key in the agent's "bib keys produced" list resolves to a real entry in the bib (reconcile — report typos/omissions); Phase 4: brainstorm file has ≥8 ideas across required categories | If failed → report which checks failed; ask user whether to proceed or fix. Phase 1 key mismatches are auto-resolved by using the bib as ground truth (do not block on them). |
+
+**Re-run budget:** Each agent may be re-invoked at most once for blank output and once for missing files (2 total retries). After that, escalate. This prevents pipelines stalling on transient failures while avoiding infinite retry loops.
+
+**Unattended mode fallback:** If the user indicated the pipeline should run unattended (e.g., continuation prompt, "run all phases"), blank-output agents may fall back to main-session inline execution after 1 retry without escalating — **except** for agents with model `opus` (Phase 4 `scientific-insight-generator`, Phase 11b adversarial personas) and agents whose primary capability is web search (`literature-integrator` in any phase). Opus-level reasoning and web-search workflows cannot be replicated by the main session's current model; these must escalate to user even in unattended mode. For all other agents: state "[Phase N] agent returned blank — falling back to inline execution." This prevents long-running pipelines from blocking on user input while preserving quality for capability-critical phases.
+
+**Rationale:** Agents returned silent blank outputs in prior cycles (`cross-section-coherence-auditor` did not exist; some agents returned empty `task_result` despite valid `task_id`). Without output validation, blank agent results propagate as "phase complete." This guard catches both non-existent agents and execution failures.
 
 ---
 
@@ -997,3 +1129,8 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 - **Build must pass** — do not declare completion if `nix build` fails
 - **Queue persistence** — all queued topics written to `ops/queued-topics.md`; survives context rotation
 - **Non-specialist consequence required** — every `#hypothesis-box`, `#fhypothesis`, `#speculation`, `#synthesis`, `#achievement`, `#clinical-finding`, `#prediction`, `#open-question`, and `#limitation` must carry a `*Consequence:*` field translating why the finding matters in language an educated non-specialist can grasp. This is translation of significance — scientific precision is preserved, not diluted. If the finding has zero current practical consequence, that is the honest answer.
+- **Tree-mode discipline** — run the Working-Tree State Check first; in MIXED mode never use `git add -A` and never scope phases by `git diff` (use explicit plan file lists); WIP checkpoints only in CLEAN mode
+- **Shared-file ownership** — track your entries in shared files (bib, appendix-h, changelog, registry, trees, queue) by key/label in plan reports; re-verify at Phase 13 that none were lost to a parallel commit
+- **Bib is ground truth, not the agent's report** — cite only keys verified present in the `.bib` file; never trust a transcribed key list
+- **No duplicate integration** — Phase 5 must dedup brainstorm ideas against Phase 3 environments before integrating
+- **Commit scope is per-topic** — Phase 13 stages only this topic's files by explicit list; never commit transient review-skill artifacts (`.claude/review-checkpoint-*.md`) or unrelated WIP

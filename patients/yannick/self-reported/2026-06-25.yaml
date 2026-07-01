@@ -1,0 +1,27 @@
+date: 2026-06-25
+symptoms:
+  energy: null
+  brain_fog: null
+  pain: null
+  sleep_quality: null
+  orthostatic_intolerance: null
+  pem_active: null
+  pem_severity: null
+  pem_trigger: null
+
+sleep:
+  night_before:
+    duration_hours: 6
+    quality: short
+  daytime:
+    slept: true
+    start: "09:00"
+    end: "15:00"
+    duration_hours: 6.0
+
+medications: []
+
+activity: []
+
+notes: "Slept the whole morning (from 09:00) and afternoon (until 15:00), in addition to a short 6-hour night before."
+
