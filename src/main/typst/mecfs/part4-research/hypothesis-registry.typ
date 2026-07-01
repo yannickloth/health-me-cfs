@@ -103,6 +103,8 @@
 == Hypothesis and Speculation Registry
 <sec:hypothesis-speculation-registry>
 
+This registry collects all hypotheses, speculations, open questions, and predictions from across the paper, organised by topic. Each entry records the type (H=Hypothesis, S=Speculation, OQ=Open Question), certainty level, supporting evidence, source citations, underlying mechanism, chapter reference, testable prediction, treatment implications, and known limitations.
+
 === Antigen-Specific IgE Sensitization to Infectious Antigens (PARTIAL — unstudied in ME/CFS)
 // Added 2026-06-24
 
