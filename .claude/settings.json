@@ -94,7 +94,8 @@
       "Bash(touch:*)",
       "Bash(ln:*)",
       "Bash(diff:*)",
-      "Bash(xargs java:*)"
+      "Bash(xargs java:*)",
+      "Bash(gh run *)"
     ],
     "deny": [
       "Bash(rm -rf:*)",
