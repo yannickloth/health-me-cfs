@@ -29,8 +29,33 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("#include\\s+\"([^\"]*)figures/(fig-[^\"]+)\\.typ\"", "![$2](../../figures/$2.svg)");
     src = src.replaceAll("(?m)^#include.*$\\n?", "");
 
+    // Pre-process multi-line block equations BEFORE italic substitution to prevent
+    // subscript patterns like _(upright("text")) from being mangled by the italic regex.
+    src = preprocessBlockMath(src);
+
+    // Protect $$...$$  block math from the italic regex (replaces _ which is LaTeX subscript)
+    // by temporarily replacing the blocks with indexed placeholders.
+    var blockMathPlaceholders = new ArrayList<String>();
+    {
+        var bm = Pattern.compile("(?s)\\$\\$\n.*?\n\\$\\$(?:[^\n]*)?").matcher(src);
+        var bsb = new StringBuffer();
+        int bIdx = 0;
+        while (bm.find()) {
+            blockMathPlaceholders.add(bm.group());
+            bm.appendReplacement(bsb, "BLOCKMATH" + bIdx + "");
+            bIdx++;
+        }
+        bm.appendTail(bsb);
+        src = bsb.toString();
+    }
+
     // Typst _italic_ → *italic* (only outside code/math)
     src = src.replaceAll("(?<!`|\"|\\w)_([^_\\s](?:[^_]*[^_\\s])?)_(?!\\w|\"|`)", "*$1*");
+
+    // Restore $$...$$ block math placeholders
+    for (int bIdx = 0; bIdx < blockMathPlaceholders.size(); bIdx++) {
+        src = src.replace("BLOCKMATH" + bIdx + "", blockMathPlaceholders.get(bIdx));
+    }
 
     // Citations: @key but NOT internal cross-ref prefixes
     src = src.replaceAll("@(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open|clin|syn|pr)(:|_|-)([a-zA-Z0-9_-]+)", "[#$1-$3](#$1-$3)");
@@ -565,6 +590,273 @@ String convertFootnotes(String s) {
 
 String esc(String s) { return s.replace("\"", "\\\""); }
 
+// Pre-process multi-line block equations: $\ncontent\n$ → $$\ntranslated\n$$ {#eq-label}
+String preprocessBlockMath(String src) {
+    var lines = src.split("\n", -1);
+    var out = new StringBuilder();
+    int i = 0;
+    while (i < lines.length) {
+        var line = lines[i];
+        var stripped = line.strip();
+        // Detect standalone $ line (block math open)
+        if (stripped.equals("$")) {
+            // Collect content lines until closing $
+            var contentLines = new ArrayList<String>();
+            String labelSuffix = "";
+            i++;
+            boolean closed = false;
+            while (i < lines.length) {
+                var cl = lines[i];
+                var cls = cl.strip();
+                // Closing $ possibly with label: $ <eq:something>
+                if (cls.equals("$") || cls.matches("^\\$\\s*<[^>]+>\\s*$")) {
+                    // Extract label if present
+                    var lm = Pattern.compile("<([^>]+)>").matcher(cls);
+                    if (lm.find()) {
+                        var lbl = lm.group(1).replaceFirst(":", "-");
+                        labelSuffix = " {#" + lbl + "}";
+                    }
+                    i++;
+                    closed = true;
+                    break;
+                }
+                contentLines.add(cl);
+                i++;
+            }
+            if (!closed) {
+                // Not a proper block eq — emit as-is
+                out.append("$\n");
+                for (var cl : contentLines) out.append(cl).append('\n');
+            } else {
+                var mathContent = String.join("\n", contentLines);
+                var translated = translateTypstMathContent(mathContent);
+                out.append("$$\n").append(translated).append("\n$$").append(labelSuffix).append('\n');
+            }
+        } else {
+            out.append(line).append('\n');
+            i++;
+        }
+    }
+    // Remove trailing newline added by loop if source didn't end with one
+    var result = out.toString();
+    if (!src.endsWith("\n") && result.endsWith("\n")) {
+        result = result.substring(0, result.length() - 1);
+    }
+    return result;
+}
+
+// Translate Typst math content (without surrounding $ delimiters) to LaTeX.
+// Used by both preprocessBlockMath (block equations) and translateMath (inline).
+String translateTypstMathContent(String math) {
+    // 1. upright("text") → \text{text}  (must be first, before generic "..." handling)
+    math = math.replaceAll("upright\\(\"([^\"]+)\"\\)", "\\\\text{$1}");
+
+    // 2. Bare quoted strings in math → \text{...}  (only if not already \text{...})
+    math = math.replaceAll("(?<!\\\\text\\{[^}]*)\"([^\"]+)\"", "\\\\text{$1}");
+
+    // 3. Symbol replacements — operators and arrows
+    math = math
+        .replace("dot.op",         "\\cdot")
+        .replace("plus.minus",     "\\pm")
+        .replace("eq.not",         "\\neq")
+        .replace("gt.eq",          "\\geq")
+        .replace("lt.eq",          "\\leq")
+        .replace("arrow.l.r",      "\\leftrightarrow")
+        .replace("arrow.double.r", "\\Rightarrow")
+        .replace("arrow.r",        "\\rightarrow")
+        .replace("arrow.l",        "\\leftarrow")
+        .replace("nothing",        "\\emptyset")
+        .replace("#h(1em)",        "\\quad")
+        .replace("slash",          "/")
+        .replace("bullet",         "\\bullet")
+        .replace("ast",            "\\ast")
+        .replace("prop",           "\\propto")
+        .replace("equiv",          "\\equiv")
+        .replace("cong",           "\\cong")
+        .replace("prec",           "\\prec")
+        .replace("succ",           "\\succ")
+        .replace("perp",           "\\perp")
+        .replace("parallel",       "\\parallel")
+        .replace("forall",         "\\forall")
+        .replace("exists",         "\\exists")
+        .replace("partial",        "\\partial")
+        .replace("nabla",          "\\nabla")
+        .replace("infinity",       "\\infty")
+        .replace("approx",         "\\approx");
+
+    // 4. Standalone "in" symbol (not part of a word like "infty" or "int") — must come after "infinity"
+    math = math.replaceAll("(?<![a-zA-Z\\\\])in(?![a-zA-Z])", "\\\\in");
+
+    // 5. "not" / "and" / "or" as logic symbols — standalone only
+    math = math.replaceAll("(?<![a-zA-Z\\\\])not(?![a-zA-Z])", "\\\\neg");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])and(?![a-zA-Z])", "\\\\wedge");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])or(?![a-zA-Z])", "\\\\vee");
+
+    // 6. "sim" standalone → \sim (avoid matching "sigma", "epsilon", etc.)
+    math = math.replaceAll("(?<![a-zA-Z\\\\])sim(?![a-zA-Z])", "\\\\sim");
+
+    // 7. Uppercase Greek letters (before lowercase, since names are prefix-free here)
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Delta(?![a-zA-Z])",   "\\\\Delta");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Psi(?![a-zA-Z])",     "\\\\Psi");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Sigma(?![a-zA-Z])",   "\\\\Sigma");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Lambda(?![a-zA-Z])",  "\\\\Lambda");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Omega(?![a-zA-Z])",   "\\\\Omega");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Gamma(?![a-zA-Z])",   "\\\\Gamma");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Theta(?![a-zA-Z])",   "\\\\Theta");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Pi(?![a-zA-Z])",      "\\\\Pi");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Phi(?![a-zA-Z])",     "\\\\Phi");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Chi(?![a-zA-Z])",     "\\\\Chi");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Xi(?![a-zA-Z])",      "\\\\Xi");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])Eta(?![a-zA-Z])",     "\\\\Eta");
+
+    // 8. Lowercase Greek letters (via existing helper, which already guards against prefix matches)
+    math = replaceGreekLetters(math);
+
+    // 9. Function wrappers: tilde(X) → \tilde{X}, hat(X) → \hat{X}, etc.
+    //    Use iterative replacement to handle nesting.
+    math = replaceFunctionWrapper(math, "tilde",  "\\tilde");
+    math = replaceFunctionWrapper(math, "hat",    "\\hat");
+    math = replaceFunctionWrapper(math, "bar",    "\\bar");
+    math = replaceFunctionWrapper(math, "bold",   "\\mathbf");
+    math = replaceFunctionWrapper(math, "cal",    "\\mathcal");
+    math = replaceFunctionWrapper(math, "norm",   "\\|", "\\|");
+    math = replaceFunctionWrapper(math, "abs",    "|",   "|");
+    math = replaceFunctionWrapper(math, "floor",  "\\lfloor ", " \\rfloor");
+    math = replaceFunctionWrapper(math, "ceil",   "\\lceil ",  " \\rceil");
+    math = replaceFunctionWrapper(math, "exp",    "\\exp(", ")");
+    math = replaceFunctionWrapper(math, "ln",     "\\ln(",  ")");
+    math = replaceFunctionWrapper(math, "log",    "\\log(", ")");
+    math = replaceFunctionWrapper(math, "max",    "\\max(", ")");
+    math = replaceFunctionWrapper(math, "min",    "\\min(", ")");
+    math = replaceFunctionWrapper(math, "sup",    "\\sup(", ")");
+    math = replaceFunctionWrapper(math, "inf",    "\\inf(", ")");
+
+    // 10. set operators: subset, supset, inter, union  (must come before generic word replacements)
+    math = math.replace("subset", "\\subset");
+    math = math.replace("supset", "\\supset");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])inter(?![a-zA-Z])", "\\\\cap");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])union(?![a-zA-Z])", "\\\\cup");
+    math = math.replace("times", "\\times");
+
+    // 11. Parenthesized subscripts/superscripts: _(expr) → _{expr} and ^(expr) → ^{expr}
+    //     Iterate to handle nested cases from inside out.
+    math = convertParenGroupsToLatex(math);
+
+    // 12. frac(a, b) → \frac{a}{b} — iterative to handle nesting
+    math = convertFracCalls(math);
+
+    // 13. Operator names that may remain after subscript conversion
+    math = math.replaceAll("(?<![a-zA-Z\\\\])sum(?![a-zA-Z])",  "\\\\sum");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])prod(?![a-zA-Z])", "\\\\prod");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])lim(?![a-zA-Z])",  "\\\\lim");
+    // int: watch out for "\\in" already replaced; only replace bare "int"
+    math = math.replaceAll("(?<![a-zA-Z\\\\])int(?![a-zA-Z])",  "\\\\int");
+
+    // 14. Cleanup
+    math = math.replaceAll("\\bspace\\b\\s*", "");
+
+    return math;
+}
+
+// Replace func(content) → prefix{content}suffix  (simple single-arg wrapper, non-nested).
+// Handles one level of nesting by scanning for matching paren.
+String replaceFunctionWrapper(String math, String funcName, String prefix) {
+    return replaceFunctionWrapper(math, funcName, prefix + "{", "}");
+}
+
+String replaceFunctionWrapper(String math, String funcName, String open, String close) {
+    // Only match funcName( not preceded by a letter (avoid matching e.g. "exp" inside "inexperience")
+    var sb = new StringBuilder();
+    int i = 0;
+    var pattern = "(?<![a-zA-Z\\\\])" + Pattern.quote(funcName) + "\\(";
+    var pat = Pattern.compile(pattern);
+    var m = pat.matcher(math);
+    int last = 0;
+    while (m.find()) {
+        sb.append(math, last, m.start());
+        // Find matching closing paren
+        int start = m.end(); // position after '('
+        int depth = 1;
+        int j = start;
+        while (j < math.length() && depth > 0) {
+            char c = math.charAt(j);
+            if (c == '(') depth++;
+            else if (c == ')') depth--;
+            j++;
+        }
+        var content = math.substring(start, j - 1);
+        sb.append(open).append(content).append(close);
+        last = j;
+    }
+    sb.append(math.substring(last));
+    return sb.toString();
+}
+
+// Convert _(expr) → _{expr} and ^(expr) → ^{expr}, handling nested parens iteratively.
+String convertParenGroupsToLatex(String math) {
+    // Iterate until no more changes (handles nesting inside-out due to regex greediness)
+    String prev;
+    int maxIter = 20;
+    do {
+        prev = math;
+        // Replace _( non-paren-content ) — innermost first via non-capturing of nested parens
+        math = math.replaceAll("_\\(([^()]*)\\)", "_{$1}");
+        math = math.replaceAll("\\^\\(([^()]*)\\)", "^{$1}");
+        maxIter--;
+    } while (!math.equals(prev) && maxIter > 0);
+    return math;
+}
+
+// Convert frac(a, b) → \frac{a}{b}, handling nested frac calls iteratively.
+String convertFracCalls(String math) {
+    // Iterative: keep replacing until no more frac( found
+    int maxIter = 20;
+    while (math.contains("frac(") && maxIter-- > 0) {
+        var sb = new StringBuilder();
+        int i = 0;
+        boolean found = false;
+        while (i < math.length()) {
+            int pos = math.indexOf("frac(", i);
+            if (pos < 0) { sb.append(math.substring(i)); break; }
+            // Make sure it's not "\\frac" already
+            if (pos > 0 && math.charAt(pos - 1) == '\\') {
+                sb.append(math, i, pos + 5);
+                i = pos + 5;
+                continue;
+            }
+            sb.append(math, i, pos);
+            // Find matching ) for frac(
+            int argStart = pos + 5; // after 'frac('
+            // Extract first arg (up to top-level comma)
+            int depth = 1;
+            int j = argStart;
+            int commaPos = -1;
+            while (j < math.length() && depth > 0) {
+                char c = math.charAt(j);
+                if (c == '(') depth++;
+                else if (c == ')') depth--;
+                else if (c == ',' && depth == 1 && commaPos < 0) commaPos = j;
+                j++;
+            }
+            int closePos = j - 1; // position of matching ')'
+            if (commaPos < 0 || commaPos >= closePos) {
+                // Malformed — emit as-is
+                sb.append("frac(");
+                i = pos + 5;
+                continue;
+            }
+            var arg1 = math.substring(argStart, commaPos).strip();
+            var arg2 = math.substring(commaPos + 1, closePos).strip();
+            sb.append("\\frac{").append(arg1).append("}{").append(arg2).append("}");
+            i = closePos + 1;
+            found = true;
+        }
+        math = sb.toString();
+        if (!found) break;
+    }
+    return math;
+}
+
 String translateMath(String s) {
     var sb = new StringBuilder();
     int i = 0;
@@ -575,29 +867,8 @@ String translateMath(String s) {
         int end = s.indexOf('$', dollar + 1);
         if (end < 0) { sb.append(s.substring(dollar)); break; }
         var math = s.substring(dollar + 1, end);
-        math = math
-            .replace("upright(\"", "\\text{")
-            .replace("\")", "}")
-            .replace("eq.not", "\\neq")
-            .replace("gt.eq", "\\geq")
-            .replace("lt.eq", "\\leq")
-            .replace("arrow.l.r", "\\leftrightarrow")
-            .replace("arrow.double.r", "\\Rightarrow")
-            .replace("arrow.r", "\\rightarrow")
-            .replace("arrow.l", "\\leftarrow")
-            .replace("dot.op", "\\cdot")
-            .replace("plus.minus", "\\pm")
-            .replace("nothing", "\\emptyset")
-            .replace("#h(1em)", "\\quad")
-            .replace("cal(", "\\mathcal{")
-            .replace("bold(", "\\mathbf{");
-        math = replaceGreekLetters(math);
-        math = math
-            .replace("subset", "\\subset")
-            .replace("supset", "\\supset");
-        math = math.replaceAll("(?<=^|[^a-zA-Z])inter(?=[^a-zA-Z]|$)", "\\\\cap");
-        math = math.replaceAll("(?<=^|[^a-zA-Z])union(?=[^a-zA-Z]|$)", "\\\\cup");
-        math = math.replaceAll("\\bspace\\b\\s*", "");
+        // Skip if this looks like a block equation marker (standalone $ on its own — already processed)
+        math = translateTypstMathContent(math);
         sb.append('$').append(math).append('$');
         i = end + 1;
     }
