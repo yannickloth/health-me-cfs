@@ -80,6 +80,7 @@
           buildPhase = ''
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
+            export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
 
             # Generate .qmd files and figures
             java --source 25 src/main/java/web/BuildWeb.java
@@ -112,6 +113,7 @@
           buildPhase = ''
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
+            export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
 
             java --source 25 src/main/java/web/BuildWeb.java
 
