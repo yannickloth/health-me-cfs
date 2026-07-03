@@ -171,6 +171,7 @@
             buildPhase = ''
               export HOME="$NIX_BUILD_TOP/home"
               mkdir -p "$HOME"
+              export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
               java --source 25 src/main/java/web/BuildWeb.java
               java --source 25 src/test/java/web/QmdLabelAuditTest.java
               java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
