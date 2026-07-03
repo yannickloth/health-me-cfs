@@ -630,6 +630,10 @@ String preprocessBlockMath(String src) {
             } else {
                 var mathContent = String.join("\n", contentLines);
                 var translated = translateTypstMathContent(mathContent);
+                // Wrap aligned equations (containing &) in \begin{aligned}...\end{aligned}
+                if (translated.contains("&")) {
+                    translated = "\\begin{aligned}\n" + translated + "\n\\end{aligned}";
+                }
                 out.append("$$\n").append(translated).append("\n$$").append(labelSuffix).append('\n');
             }
         } else {
@@ -719,6 +723,7 @@ String translateTypstMathContent(String math) {
     math = replaceFunctionWrapper(math, "bar",    "\\bar");
     math = replaceFunctionWrapper(math, "bold",   "\\mathbf");
     math = replaceFunctionWrapper(math, "cal",    "\\mathcal");
+    math = replaceFunctionWrapper(math, "bb",     "\\mathbb");
     math = replaceFunctionWrapper(math, "norm",   "\\|", "\\|");
     math = replaceFunctionWrapper(math, "abs",    "|",   "|");
     math = replaceFunctionWrapper(math, "floor",  "\\lfloor ", " \\rfloor");
@@ -746,11 +751,17 @@ String translateTypstMathContent(String math) {
     math = convertFracCalls(math);
 
     // 13. Operator names that may remain after subscript conversion
-    math = math.replaceAll("(?<![a-zA-Z\\\\])sum(?![a-zA-Z])",  "\\\\sum");
-    math = math.replaceAll("(?<![a-zA-Z\\\\])prod(?![a-zA-Z])", "\\\\prod");
-    math = math.replaceAll("(?<![a-zA-Z\\\\])lim(?![a-zA-Z])",  "\\\\lim");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])sum(?![a-zA-Z])",      "\\\\sum");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])prod(?![a-zA-Z])",     "\\\\prod");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])lim(?![a-zA-Z])",      "\\\\lim");
+    // integral: Typst uses full word "integral"; int is shorthand — both → \int
+    math = math.replaceAll("(?<![a-zA-Z\\\\])integral(?![a-zA-Z])", "\\\\int");
     // int: watch out for "\\in" already replaced; only replace bare "int"
-    math = math.replaceAll("(?<![a-zA-Z\\\\])int(?![a-zA-Z])",  "\\\\int");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])int(?![a-zA-Z])",      "\\\\int");
+    // quad spacing
+    math = math.replaceAll("(?<![a-zA-Z\\\\])quad(?![a-zA-Z])", "\\\\quad ");
+    // \ line breaks in multi-line aligned equations: Typst uses single \ , LaTeX uses \\
+    math = math.replaceAll("(?<!\\\\)\\\\(?!\\\\|[a-zA-Z{])", "\\\\\\\\");
 
     // 14. Cleanup
     math = math.replaceAll("\\bspace\\b\\s*", "");
@@ -827,15 +838,22 @@ String convertFracCalls(String math) {
             sb.append(math, i, pos);
             // Find matching ) for frac(
             int argStart = pos + 5; // after 'frac('
-            // Extract first arg (up to top-level comma)
+            // Extract first arg (up to top-level comma), skipping quoted strings and {} groups
             int depth = 1;
+            int braceDepth = 0;
             int j = argStart;
             int commaPos = -1;
             while (j < math.length() && depth > 0) {
                 char c = math.charAt(j);
-                if (c == '(') depth++;
+                if (c == '"') {
+                    // skip over quoted string
+                    j++;
+                    while (j < math.length() && math.charAt(j) != '"') j++;
+                } else if (c == '{') braceDepth++;
+                else if (c == '}') { if (braceDepth > 0) braceDepth--; }
+                else if (c == '(') depth++;
                 else if (c == ')') depth--;
-                else if (c == ',' && depth == 1 && commaPos < 0) commaPos = j;
+                else if (c == ',' && depth == 1 && braceDepth == 0 && commaPos < 0) commaPos = j;
                 j++;
             }
             int closePos = j - 1; // position of matching ')'
