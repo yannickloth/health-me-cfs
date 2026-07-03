@@ -668,21 +668,21 @@ String translateTypstMathContent(String math) {
         .replace("nothing",        "\\emptyset")
         .replace("#h(1em)",        "\\quad")
         .replace("slash",          "/")
-        .replace("bullet",         "\\bullet")
-        .replace("ast",            "\\ast")
-        .replace("prop",           "\\propto")
-        .replace("equiv",          "\\equiv")
-        .replace("cong",           "\\cong")
-        .replace("prec",           "\\prec")
-        .replace("succ",           "\\succ")
-        .replace("perp",           "\\perp")
-        .replace("parallel",       "\\parallel")
-        .replace("forall",         "\\forall")
-        .replace("exists",         "\\exists")
+        .replace("infinity",       "\\infty")
         .replace("partial",        "\\partial")
         .replace("nabla",          "\\nabla")
-        .replace("infinity",       "\\infty")
+        .replace("parallel",       "\\parallel")
+        .replace("perp",           "\\perp")
+        .replace("forall",         "\\forall")
+        .replace("exists",         "\\exists")
         .replace("approx",         "\\approx");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])bullet(?![a-zA-Z])", "\\\\bullet");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])ast(?![a-zA-Z])",    "\\\\ast");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])prop(?![a-zA-Z])",   "\\\\propto");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])equiv(?![a-zA-Z])",  "\\\\equiv");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])cong(?![a-zA-Z])",   "\\\\cong");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])prec(?![a-zA-Z])",   "\\\\prec");
+    math = math.replaceAll("(?<![a-zA-Z\\\\])succ(?![a-zA-Z])",   "\\\\succ");
 
     // 4. Standalone "in" symbol (not part of a word like "infty" or "int") — must come after "infinity"
     math = math.replaceAll("(?<![a-zA-Z\\\\])in(?![a-zA-Z])", "\\\\in");
@@ -864,10 +864,16 @@ String translateMath(String s) {
         int dollar = s.indexOf('$', i);
         if (dollar < 0) { sb.append(s.substring(i)); break; }
         sb.append(s, i, dollar);
+        // Inline math must not span newlines — find closing $ on the same line only.
+        int lineEnd = s.indexOf('\n', dollar);
         int end = s.indexOf('$', dollar + 1);
-        if (end < 0) { sb.append(s.substring(dollar)); break; }
+        if (end < 0 || (lineEnd >= 0 && end > lineEnd)) {
+            // No closing $ on same line — treat as literal $
+            sb.append('$');
+            i = dollar + 1;
+            continue;
+        }
         var math = s.substring(dollar + 1, end);
-        // Skip if this looks like a block equation marker (standalone $ on its own — already processed)
         math = translateTypstMathContent(math);
         sb.append('$').append(math).append('$');
         i = end + 1;
