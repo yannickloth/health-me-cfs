@@ -49,8 +49,40 @@ void main(String[] args) throws IOException {
         src = bsb.toString();
     }
 
+    // Protect inline $...$ math from the italic regex — scan line by line.
+    // Inline math spans only within a single line, so we replace pairs per line.
+    var inlineMathPlaceholders = new ArrayList<String>();
+    {
+        var lines2 = src.split("\n", -1);
+        var sb2 = new StringBuilder();
+        for (var ln : lines2) {
+            var sbLn = new StringBuilder();
+            int pos2 = 0;
+            while (pos2 < ln.length()) {
+                int d1 = ln.indexOf('$', pos2);
+                if (d1 < 0) { sbLn.append(ln.substring(pos2)); break; }
+                int d2 = ln.indexOf('$', d1 + 1);
+                if (d2 < 0) { sbLn.append(ln.substring(pos2)); break; }
+                sbLn.append(ln, pos2, d1);
+                int idx = inlineMathPlaceholders.size();
+                inlineMathPlaceholders.add(ln.substring(d1, d2 + 1));
+                sbLn.append("\u0002INLINEMATH").append(idx).append("\u0003");
+                pos2 = d2 + 1;
+            }
+            sb2.append(sbLn).append('\n');
+        }
+        if (!src.endsWith("\n") && sb2.length() > 0 && sb2.charAt(sb2.length()-1) == '\n')
+            sb2.deleteCharAt(sb2.length()-1);
+        src = sb2.toString();
+    }
+
     // Typst _italic_ → *italic* (only outside code/math)
     src = src.replaceAll("(?<!`|\"|\\w)_([^_\\s](?:[^_]*[^_\\s])?)_(?!\\w|\"|`)", "*$1*");
+
+    // Restore inline math placeholders
+    for (int iIdx = 0; iIdx < inlineMathPlaceholders.size(); iIdx++) {
+        src = src.replace("\u0002INLINEMATH" + iIdx + "\u0003", inlineMathPlaceholders.get(iIdx));
+    }
 
     // Restore $$...$$ block math placeholders
     for (int bIdx = 0; bIdx < blockMathPlaceholders.size(); bIdx++) {
@@ -184,9 +216,18 @@ void main(String[] args) throws IOException {
     src = src.replaceAll("#sub\\[(.+?)\\]", "~$1~");
     src = src.replaceAll("#super\\[(.+?)\\]", "^$1^");
 
-    // Arrows
-    src = src.replace("$arrow.r$", "→");
-    src = src.replace("$arrow.l$", "←");
+    // Arrows (standalone prose tokens)
+    src = src.replace("$arrow.r$",        "→");
+    src = src.replace("$arrow.l$",        "←");
+    src = src.replace("$arrow.b$",        "↓");
+    src = src.replace("$arrow.t$",        "↑");
+    src = src.replace("$arrow.double.r$", "⇒");
+    src = src.replace("$arrow.double.l$", "⇐");
+    src = src.replace("$arrow.r.double$", "⇒");
+    src = src.replace("$=>$",             "⇒");
+    src = src.replace("$arrow.l.r$",      "↔");
+    src = src.replace("$rightarrow.double$", "⇒");
+    src = src.replace("$leftarrow.double$",  "⇐");
 
     // Typst definition list: / term: desc → - **term:** desc
     src = src.replaceAll("(?m)^\\s*/\\s+\\*([^*]+)\\*:(.*)$", "- **$1:**$2");
@@ -654,6 +695,8 @@ String preprocessBlockMath(String src) {
 String translateTypstMathContent(String math) {
     // 1. upright("text") → \text{text}  (must be first, before generic "..." handling)
     math = math.replaceAll("upright\\(\"([^\"]+)\"\\)", "\\\\text{$1}");
+    // upright(bareword) without quotes → \text{bareword}
+    math = math.replaceAll("upright\\(([A-Za-z][A-Za-z0-9_-]*)\\)", "\\\\text{$1}");
 
     // 2. Bare quoted strings in math → \text{...}  (only if not already \text{...})
     math = math.replaceAll("(?<!\\\\text\\{[^}]*)\"([^\"]+)\"", "\\\\text{$1}");
@@ -661,14 +704,19 @@ String translateTypstMathContent(String math) {
     // 3. Symbol replacements — operators and arrows
     math = math
         .replace("dot.op",         "\\cdot")
+        .replace("times.op",       "\\times")
         .replace("plus.minus",     "\\pm")
         .replace("eq.not",         "\\neq")
         .replace("gt.eq",          "\\geq")
         .replace("lt.eq",          "\\leq")
         .replace("arrow.l.r",      "\\leftrightarrow")
         .replace("arrow.double.r", "\\Rightarrow")
+        .replace("arrow.double.l", "\\Leftarrow")
+        .replace("arrow.r.double", "\\Rightarrow")
         .replace("arrow.r",        "\\rightarrow")
         .replace("arrow.l",        "\\leftarrow")
+        .replace("arrow.b",        "\\downarrow")
+        .replace("arrow.t",        "\\uparrow")
         .replace("nothing",        "\\emptyset")
         .replace("#h(1em)",        "\\quad")
         .replace("slash",          "/")
@@ -680,6 +728,9 @@ String translateTypstMathContent(String math) {
         .replace("forall",         "\\forall")
         .replace("exists",         "\\exists")
         .replace("approx",         "\\approx");
+    // .op suffix — strip Typst "op" variant marker (sim.op, ~.op, etc.) after known symbols handled above
+    math = math.replaceAll("(\\\\(?:sim|approx|cdot|times|pm|leq|geq|neq))\\.op\\b", "$1");
+    math = math.replaceAll("\\.op\\b", "");
     math = math.replaceAll("(?<![a-zA-Z\\\\])bullet(?![a-zA-Z])", "\\\\bullet");
     math = math.replaceAll("(?<![a-zA-Z\\\\])ast(?![a-zA-Z])",    "\\\\ast");
     math = math.replaceAll("(?<![a-zA-Z\\\\])prop(?![a-zA-Z])",   "\\\\propto");
@@ -712,6 +763,12 @@ String translateTypstMathContent(String math) {
     math = math.replaceAll("(?<![a-zA-Z\\\\])Chi(?![a-zA-Z])",     "\\\\Chi");
     math = math.replaceAll("(?<![a-zA-Z\\\\])Xi(?![a-zA-Z])",      "\\\\Xi");
     math = math.replaceAll("(?<![a-zA-Z\\\\])Eta(?![a-zA-Z])",     "\\\\Eta");
+
+    // 7b. Typst alternate Greek variants (before standard Greek replacement)
+    math = math.replace("phi.alt", "\\varphi");
+    math = math.replace("psi.alt", "\\psi");
+    math = math.replace("epsilon.alt", "\\varepsilon");
+    math = math.replace("theta.alt", "\\vartheta");
 
     // 8. Lowercase Greek letters (via existing helper, which already guards against prefix matches)
     math = replaceGreekLetters(math);
@@ -765,6 +822,16 @@ String translateTypstMathContent(String math) {
 
     // 14. Cleanup
     math = math.replaceAll("\\bspace\\b\\s*", "");
+
+    // 15. Fix underscores inside \text{...}: \text{ECM_q} → \text{ECM}_{q}
+    //     MathJax requires _ to be a math subscript operator, not literal inside \text{}.
+    //     Pattern: \text{word_rest} → \text{word}_{rest}  (handles one underscore)
+    math = fixUnderscoresInText(math);
+
+    // 16. Fix superscripts inside \text{^{N}X}: \text{^{31}P} → {}^{31}\text{P}
+    math = math.replaceAll("\\\\text\\{\\^\\{([^}]+)\\}([^}]*)\\}", "{}^{$1}\\\\text{$2}");
+    // Also handle \text{^N X} without braces around N
+    math = math.replaceAll("\\\\text\\{\\^([A-Za-z0-9]+)([^}]*)\\}", "{}^{$1}\\\\text{$2}");
 
     return math;
 }
@@ -908,7 +975,7 @@ String replaceGreekLetters(String math) {
         {"beta", "\\beta"}, {"zeta", "\\zeta"},
         {"eta", "\\eta"},
         {"mu", "\\mu"}, {"nu", "\\nu"}, {"xi", "\\xi"}, {"pi", "\\pi"},
-        {"rho", "\\rho"}, {"tau", "\\tau"}, {"phi", "\\phi"}, {"chi", "\\chi"},
+        {"psi", "\\psi"}, {"rho", "\\rho"}, {"tau", "\\tau"}, {"phi", "\\phi"}, {"chi", "\\chi"},
     };
     for (var pair : greekLetters) {
         math = math.replaceAll("(?<=^|[^a-zA-Z\\\\{])" + pair[0] + "(?=[^a-zA-Z}]|$)", Matcher.quoteReplacement(pair[1]));
@@ -1221,10 +1288,8 @@ String convertFigureTable(String s) {
             j = bEnd;
         }
 
-        // Extract caption
-        var captionPat = Pattern.compile("caption:\\s*\\[([^\\]]*(?:\\[[^\\]]*\\][^\\]]*)*)\\]");
-        var capMatcher = captionPat.matcher(figureContent);
-        String caption = capMatcher.find() ? capMatcher.group(1) : null;
+        // Extract caption — use bracket-depth scan to handle nested brackets (e.g., $[...]$ math)
+        String caption = extractBracketArg(figureContent, "caption:");
 
         // Find inner table and convert
         String tableContent = outerBracketContent != null ? outerBracketContent : figureContent;
@@ -1615,6 +1680,74 @@ String stripLetBlocks(String src) {
     return sb.toString();
 }
 
+// Extract the [...] content of a named argument like "caption: [...]" using bracket-depth scanning.
+// Returns the content inside the brackets, or null if not found.
+String extractBracketArg(String s, String argName) {
+    int pos = s.indexOf(argName);
+    if (pos < 0) return null;
+    int k = pos + argName.length();
+    while (k < s.length() && s.charAt(k) == ' ') k++;
+    if (k >= s.length() || s.charAt(k) != '[') return null;
+    int depth = 1;
+    int start = k + 1;
+    int end = start;
+    while (end < s.length() && depth > 0) {
+        char c = s.charAt(end);
+        if (c == '[') depth++;
+        else if (c == ']') depth--;
+        end++;
+    }
+    return s.substring(start, end - 1);
+}
+
+// Fix underscores inside \text{...} blocks.
+// \text{ECM_q} → \text{ECM}_{q}
+// \text{MC_act} → \text{MC}_{\text{act}}
+// Multiple underscores: \text{k_on_rate} → \text{k}_{on\_rate} (simplified: first _ splits)
+String fixUnderscoresInText(String math) {
+    var sb = new StringBuilder();
+    int i = 0;
+    while (i < math.length()) {
+        int pos = math.indexOf("\\text{", i);
+        if (pos < 0) { sb.append(math.substring(i)); break; }
+        sb.append(math, i, pos);
+        // Find matching closing }
+        int contentStart = pos + 6;
+        int depth = 1;
+        int j = contentStart;
+        while (j < math.length() && depth > 0) {
+            char c = math.charAt(j);
+            if (c == '{') depth++;
+            else if (c == '}') depth--;
+            j++;
+        }
+        var content = math.substring(contentStart, j - 1);
+        // Check if content contains underscore (not preceded by backslash)
+        int uPos = -1;
+        for (int k = 0; k < content.length(); k++) {
+            if (content.charAt(k) == '_' && (k == 0 || content.charAt(k-1) != '\\')) {
+                uPos = k;
+                break;
+            }
+        }
+        if (uPos >= 0) {
+            var before = content.substring(0, uPos);
+            var after = content.substring(uPos + 1);
+            // If "after" is a single word/token, use _{\text{after}}; else _{after}
+            boolean afterIsWord = after.matches("[A-Za-z0-9]+");
+            if (afterIsWord && after.length() > 1) {
+                sb.append("\\text{").append(before).append("}_{\\text{").append(after).append("}}");
+            } else {
+                sb.append("\\text{").append(before).append("}_{").append(after).append("}");
+            }
+        } else {
+            sb.append("\\text{").append(content).append("}");
+        }
+        i = j;
+    }
+    return sb.toString();
+}
+
 String cleanCellContent(String cell) {
     var s = cell.strip();
     s = s.replaceAll("#strong\\[([^\\]]+?)\\]", "**$1**");
@@ -1626,6 +1759,15 @@ String cleanCellContent(String cell) {
     s = s.replaceAll("#super\\[([^\\]]+?)\\]", "^$1^");
     s = s.replaceAll("#link\\(\"([^\"]+)\"\\)\\[([^\\]]+?)\\]", "[$2]($1)");
     s = s.replaceAll("#link\\(\"([^\"]+)\"\\)", "<$1>");
+    // Translate Typst inline math in cell/caption content
+    s = translateMath(s);
+    // Convert Typst cross-refs in chapter-ref / registry fields (used in HTML <dd> context → use <a>).
+    //   ch14b:@spec:foo-bar  →  <a href="#spec-foo-bar">spec-foo-bar</a>  (strips chapter prefix)
+    //   `spec:foo-bar`       →  <a href="#spec-foo-bar">spec-foo-bar</a>  (backtick-quoted)
+    //   @spec:foo-bar        →  <a href="#spec-foo-bar">spec-foo-bar</a>
+    s = s.replaceAll("[a-z][a-z0-9]*:@(sec|subsec|subsubsec|hyp|spec|lim|obs|oq|pred|prop|rec|warn|dir|prot|def|req|rem|open|clin|syn|pr)(?::)([a-zA-Z0-9_-]+)", "<a href=\"#$1-$2\">$1-$2</a>");
+    s = s.replaceAll("`(sec|subsec|subsubsec|hyp|spec|lim|obs|oq|pred|prop|rec|warn|dir|prot|def|req|rem|open|clin|syn|pr):([a-zA-Z0-9_-]+)`", "<a href=\"#$1-$2\">$1-$2</a>");
+    s = s.replaceAll("@(sec|subsec|subsubsec|hyp|spec|lim|obs|oq|pred|prop|rec|warn|dir|prot|def|req|rem|open|clin|syn|pr):([a-zA-Z0-9_-]+)", "<a href=\"#$1-$2\">$1-$2</a>");
     s = s.replaceAll("<(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)>", "");
     s = s.replace("|", "\\|");
     s = s.replaceAll("\\s*\\n\\s*", " ");
