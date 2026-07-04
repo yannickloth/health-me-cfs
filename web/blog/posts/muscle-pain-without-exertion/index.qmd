@@ -1,0 +1,111 @@
+---
+title: "Why Your Muscles Hurt When You Haven't Done Anything"
+description: "An evidence-based model of muscle pain in ME/CFS, explaining how sleep loss can produce the same pain as physical exertion — through continuous metabolic stress, oxidative nociceptor sensitisation, and autonomic microvascular dysfunction."
+author: "Yannick Loth"
+date: "2026-07-04"
+categories: [Pain, Sleep, Energy Metabolism, Pathophysiology]
+---
+
+You wake up after a bad night — three hours of fragmented sleep, awake at 4 a.m., mind racing — and your muscles ache. Not the satisfying soreness of yesterday's workout. The deep, flu-like ache. The same ache you get after overdoing it physically, the one that makes you feel poisoned, the one that says your body is paying for something.
+
+But you haven't done anything. You haven't exercised. You haven't walked further than the bathroom. You've barely moved. And yet your muscles hurt like you ran a marathon.
+
+If you have ME/CFS, you've lived this. If you don't, it sounds impossible. In healthy people, muscle pain typically follows exertion and resolves with recovery. But several conditions — including ME/CFS — can produce muscle pain without prior exertion, through distinct mechanisms. Here is what we know about how this works.
+
+---
+
+## The athlete comparison
+
+Elite athletes know what post-exercise metabolic stress feels like. After an all-out effort — a 400-meter race, a maximal lift, a match that went into overtime — their muscles burn. There's lactate accumulated in the tissue, the pH has dropped, ATP is depleted and hasn't been replenished, and the muscle fibres are in a state that's one step away from cramping. It hurts. But it passes. Within hours to a day, their mitochondria catch up, the lactate clears, the pH normalises, and the pain resolves. The metabolic crisis was real, but it was transient.
+
+In ME/CFS, a subset of patients show several of these same markers at rest:
+- Elevated resting blood lactate (44.7% of patients with ≥2 mmol/L) [@Ghali2019]
+- Impaired recovery from exercise-induced acidosis between repeat exercise sessions [@Jones2012lactate]
+- Broad disruption of energy metabolites in plasma — though the overall pattern is a hypometabolic (energy conservation) state, not simply "metabolic stress" [@Naviaux2016metabolomics]
+
+These findings come from blood and plasma, not direct muscle tissue measurements. The overlap with post-exercise profiles is real but partial: the data suggest metabolic dysregulation at rest, but the patterns are not identical to post-exercise recovery, and only about half of patients show elevated lactate. The model described below applies to the subset of patients in whom these resting metabolic abnormalities are present, and the picture is still being assembled.
+
+---
+
+## Three candidate mechanisms
+
+### 1. The muscle may be in metabolic crisis at rest
+
+**Evidence tier: partially confirmed, with gaps.** Multiple studies suggest mitochondrial electron transport chain function is impaired in ME/CFS — not completely, but enough to constrain aerobic ATP production [@Anderson2020mitochondriaMECFS]. Reduced oxygen extraction capacity during exercise has been measured [@Vermeulen2014O2extraction]. The inference is that even at rest, muscle cells may not be meeting their ATP requirement through aerobic respiration, leaning instead on anaerobic glycolysis, which produces ATP faster but at the cost of lactate accumulation. Elevated resting lactate is found in ~45% of patients. Whether this reflects increased glycolytic flux, reduced oxidative clearance, or both has not been resolved.
+
+The key question for pain: do the biochemical conditions in resting ME/CFS muscle activate pain receptors? Three families are relevant, though direct measurement of their activation in ME/CFS has not been performed.
+
+**ASIC3 receptors** are acid-sensing ion channels that detect low pH (acidosis). Elevated lactate potentiates their activation in acidic environments, making them integrative sensors of metabolic distress. When pH drops and lactate rises — as happens after strenuous exercise in healthy people — ASIC3 fires. Whether resting muscle pH is sufficiently low in ME/CFS to activate ASIC3 has not been measured directly. **Prediction:** if muscle pH is normal at rest in ME/CFS, ASIC3-mediated pain at rest is not occurring, and this mechanism fails.
+
+**P2X3 receptors** are ATP-activated channels on sensory nerve endings. When muscle cells are metabolically stressed, they leak ATP into the extracellular space. That extracellular ATP binds P2X3 and signals pain. Whether resting extracellular ATP is chronically elevated in ME/CFS muscle is unknown — this has not been measured. **Prediction:** if microdialysis of ME/CFS muscle shows normal resting ATP levels, P2X3 is not driving resting pain.
+
+**TRPV1 receptors** — the same channels activated by capsaicin — respond to protons, heat, and inflammatory mediators. Prostaglandins (particularly PGE2) sensitise TRPV1, lowering its activation threshold [@Moriyama2005]. If muscle pH is low and inflammatory mediators are present, TRPV1 may be sensitised at rest — but muscle inflammation in ME/CFS at rest is not a well-replicated finding.
+
+What is established: the molecular machinery that would convert metabolic distress into pain signals is present in muscle. What is not established: that this machinery is active at rest in ME/CFS. The model is coherent but awaiting direct verification.
+
+### 2. Oxidative stress may sustain a self-amplifying pain loop
+
+**Evidence tier: mechanism established in vitro, ME/CFS application inferential.** Elevated systemic oxidative stress has been documented in ME/CFS, with evidence for both increased ROS production and reduced antioxidant capacity [@maes2012oxidative]. Redox proteomics analysis corroborates broad oxidative modification patterns [@oxidativestress2025].
+
+Two TRP channels translate oxidative stress into pain:
+
+- **TRPA1** — the "wasabi receptor" — detects oxidative tissue damage directly. ROS, lipid peroxidation products, and reactive aldehydes activate TRPA1 via covalent modification of reactive cysteine residues [@Macpherson2007]. Whether oxidative stress in ME/CFS reaches the concentration and tissue compartment necessary to activate TRPA1 on muscle nociceptors has not been directly tested. **Prediction:** if TRPA1 antagonists reduce resting muscle pain in ME/CFS patients more than in fibromyalgia controls, TRPA1 is specifically contributing.
+
+- **TRPV1** participates in a positive feedback loop: ROS upregulate COX-2 → increased prostaglandin production → TRPV1 sensitisation → nociceptor firing → neurogenic inflammation (substance P, CGRP release) → sustained COX-2 activation [@Li2021]. In principle, chronic oxidative stress could push this loop into a constitutive low-grade state. Whether it does so in ME/CFS at levels sufficient to maintain pain is not known. **Prediction:** if this loop is driving pain, COX-2 inhibitors or TRPV1 antagonists should reduce spontaneous pain reports.
+
+### 3. Microvascular dysfunction may cause autonomous muscle ischemia
+
+**Evidence tier: inferential, with supporting physiology.** In ME/CFS, autonomic regulation is impaired. Reduced blood volume has been documented [@Streeten1998blood], and abnormal endothelial function has been reported [@lacerda2024proteomics]. The prediction is that capillary recruitment is unreliable, with some muscle regions receiving inadequate perfusion even at rest.
+
+When oxygen delivery falls below the tissue's metabolic requirement, affected fibres experience focal ischemia. The ischemia-reperfusion cycle — blood flow returning to deprived tissue — generates ROS, activates inflammatory pathways, and triggers nociceptor firing. This chain has not been directly visualised in ME/CFS muscle; each link is individually plausible from related physiology, but the full integrated pathway in ME/CFS is unconfirmed. **Prediction:** if near-infrared spectroscopy (NIRS) shows normal resting tissue oxygenation in ME/CFS muscle, microvascular ischemia is not contributing to resting pain.
+
+This microvascular dysfunction varies with posture, blood volume, and autonomic state — not with activity level. Standing up shifts blood volume and changes perfusion patterns. Lying down changes them again. A bad night of sleep destabilises autonomic regulation, making the perfusion fluctuations worse. If the ischemia hypothesis is correct, the muscle pain that follows is real — the tissue experienced oxygen deprivation. But it wasn't caused by muscle contraction. It was caused by a vascular supply failure the patient had no control over.
+
+Arteriolar TRPV1 in vascular smooth muscle — distinct from neuronal TRPV1 — may contribute to vasoconstriction in resistance arterioles [@Phan2020trpv1arterial]. This is a general vascular physiology finding; its relevance to ME/CFS is speculative.
+
+---
+
+## Why sleep loss makes it worse
+
+*The mechanisms below describe plausible pathways. Each link is supported by general-physiology evidence; whether these pathways operate as described specifically in ME/CFS has not been demonstrated. The weight of the model depends on convergence across multiple independent lines of evidence rather than on any single link.*
+
+**Sleep loss deepens the metabolic crisis.** Sleep fragmentation impairs brain energy metabolism: glucose uptake in cortex and hippocampus drops [@Baud2016fragmentation]. (Contrary to total sleep deprivation — which raises brain lactate — fragmentation reduces cortical lactate.) Brain metabolic stress likely feeds back through hypothalamic autonomic centres, worsening vascular regulation. **Prediction:** if autonomic function does not change after poor sleep in ME/CFS, this pathway is not operative.
+
+**Sleep loss shortens the nocturnal antioxidant window.** Melatonin — a potent antioxidant — rises nocturnally under circadian (suprachiasmatic nucleus) control, reaching its peak during the early-to-mid sleep period. Melatonin directly scavenges ROS within the mitochondrial matrix [@Reiter2016antioxidant]. Sleep loss truncates the melatonin exposure window: total production is roughly maintained, but the duration of elevated nighttime melatonin — and therefore mitochondrial antioxidant protection — is shortened. Reduced antioxidant activity through the night → elevated muscle ROS at morning → increased TRPV1/TRPA1 activation. **Prediction:** if melatonin supplementation during sleep deprivation fails to reduce morning muscle pain in ME/CFS, the melatonin→ROS→TRP arm of this model is substantially weakened.
+
+**Sleep loss prevents glymphatic clearance.** The brain's waste clearance system is most active during NREM sleep, driven by norepinephrine-mediated slow vasomotion [@Hauglund2025neVasomotion]. When sleep is fragmented, inflammatory mediators and metabolic waste remain in the brain, sustaining neuroinflammation. This feeds central sensitisation — a state of dorsal horn hyperexcitability where descending pain inhibition fails and normally innocuous input is amplified into pain [@Nijs2017neuroinflammation]. Whether glymphatic impairment specifically drives central sensitisation in ME/CFS (rather than glial activation from systemic inflammation or other factors) is undetermined. **Prediction:** if improving glymphatic function independently of sleep duration does not reduce pain, this pathway is not the primary driver.
+
+**Sleep loss destabilises autonomic control.** A single night of poor sleep measurably increases sympathetic tone and reduces parasympathetic activity in healthy populations. Since muscle microvascular perfusion depends on balanced autonomic regulation, this directly worsens ischemia-reperfusion cycles in muscle.
+
+The overall picture: a bad night of sleep plausibly shifts the biochemical profile in muscle toward the aftermath of physical exertion — elevated ROS, sensitised pain receptors, activated inflammatory pathways, impaired microvascular perfusion, and amplified central pain processing. The different pathways converge on the same outcome through independent mechanisms. Each mechanism alone would be a weak explanation; their convergence is what gives the model its weight.
+
+---
+
+## This is not "deconditioning"
+
+The deconditioning hypothesis — that muscle pain in ME/CFS reflects weakness from inactivity — correctly identifies a real phenomenon (reduced activity can cause deconditioning) but gets the causal direction wrong in most patients. The primary driver of muscle pain is metabolic impairment; the inactivity, and any secondary deconditioning, follows from it. They are not mutually exclusive: both can coexist, but the evidence from exercise-challenge studies suggests that metabolic dysfunction precedes and drives the activity limitation, not vice versa.
+
+Using graded exercise to treat this state is problematic because it adds metabolic demand to a system that is already unable to meet resting demand aerobically. The rationale behind graded exercise — that deconditioning drives symptoms and can be reversed by slowly increasing activity — fails when the underlying problem is not deconditioning but a metabolic impairment that exercise itself exacerbates.
+
+---
+
+## What you can do about it
+
+*The advice below applies to your familiar, pattern-consistent ME/CFS-related muscle pain. If your pain is new, different from your usual pattern, unilateral, associated with swelling/redness/fever, or accompanied by chest pain or shortness of breath — seek medical evaluation. This article describes one mechanism model; it is not a complete differential diagnosis.*
+
+If you woke up this morning with muscle pain after a bad night of sleep, here is what may be happening and what may help:
+
+**If the mechanisms above are correct, your mitochondria are likely operating at reduced capacity.** They were already constrained before the bad night. Sleep loss likely reduced it further — less glymphatic clearance, less antioxidant activity, less parasympathetic recovery.
+
+**Your muscle pain receptors are probably sensitised.** TRPV1, TRPA1, ASIC3, and P2X3 detect the metabolic distress signals your muscle cells are emitting and likely fire at a lower threshold than in a healthy person.
+
+**Your microvascular perfusion may be unstable.** Autonomic dysregulation from sleep loss plausibly means some muscle regions are getting inadequate blood flow even at rest.
+
+What helps:
+
+- **Rest, genuinely.** Not "pushing through." The biochemical deficit is real, and demanding ATP from a system that can't produce it deepens the crisis. Lying horizontal, in a dark quiet room, reduces metabolic demand and sympathetic tone simultaneously. Pacing — balancing activity and rest within your energy envelope — is the most evidence-supported long-term approach.
+- **Hydration with electrolytes.** Reduced blood volume worsens microvascular perfusion. Expanding plasma volume with water and sodium supports capillary recruitment. If you have hypertension, heart failure, kidney disease, or are on medications that affect fluid balance (including fludrocortisone, which some ME/CFS patients take), check with your doctor before increasing sodium intake.
+- **Avoid the temptation to "test" the pain by moving.** Many patients, understandably, try to move the affected muscles to see if they're "really" sore. This adds ATP demand to fibres that are already in metabolic crisis. Gentle range-of-motion without resistance is fine — the point is not to push against the pain.
+- **Recognise this as what it is.** The muscle pain is not imagined or psychosomatic — it has a coherent mechanistic model grounded in documented metabolic dysfunction, nociceptor biology, and autonomic impairment. It will often improve as your body recovers from the sleep deficit, though some degree of baseline muscle pain may persist due to the underlying metabolic impairment. Protecting your sleep is protecting your muscles — because in ME/CFS, poor sleep shifts the biochemical profile further into territory that overlaps with post-exertion stress.
+
+For the comprehensive picture of how these mechanisms integrate into the broader ME/CFS pathophysiology, see [@Loth2026mecfs].
