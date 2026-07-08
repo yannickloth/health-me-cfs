@@ -1,0 +1,128 @@
+---
+title: "The Study Nobody Thought to Do: Do ME/CFS Patients Heal Normally?"
+description: "For years, researchers assumed wound healing was one of the few things ME/CFS left untouched. Hair grows, nails grow, skin repairs itself — those are autonomous processes, right? Then someone checked the literature. The assumption wasn't just wrong. It had never been tested."
+author: "Yannick Loth"
+date: "2026-07-05"
+categories: [Research, Biomarkers, Pathophysiology, Diagnostics]
+---
+
+For years, in the paper I've been writing on ME/CFS pathophysiology, wound healing sat in the chapter with the other preserved functions. Hair growth, nail growth, skin repair — autonomous processes that keep running no matter how sick the rest of the body is. A patient with severe ME/CFS can't walk to the bathroom, can't hold a conversation, can't tolerate light. But they don't stop growing hair. Their body, at least at the surface, keeps maintaining itself.
+
+It made intuitive sense. Wound healing is local — platelets, clotting factors, fibroblasts doing their work at the site of injury. Why would a brain-centered disease of energy failure touch a process that plays out in the skin?
+
+Then we checked the literature. Not the assumption — the evidence. Has anyone actually measured wound healing in ME/CFS?
+
+Nobody has. Not one study. The assumption was wrong in the worst way: not disproved, never tested.
+
+---
+
+## Three independent pathways, all pointing the same way
+
+When you find a gap in the literature, the next question is: what should we *expect* to find? You look for mechanistic clues — known biology in ME/CFS that, elsewhere, has been shown to regulate wound repair. Three lines of evidence converged, each from a different domain. None was designed to ask about wound healing, but all three point toward impairment.
+
+### 1. NK cells: the repair crew is at half strength
+
+NK cells — natural killer cells — are the most robustly replicated immune abnormality in ME/CFS. A 2024 meta-analysis of 28 studies found their cytotoxic function reduced to roughly 50% of healthy control levels (Hedges' g = 0.96, a large effect) [@Baraniuk2024NKMeta].
+
+What does that have to do with wound healing? In 2021, Sobecki et al. showed that NK cells are not passive bystanders in tissue repair — they are upstream regulators [@Sobecki2021NKWoundHypoxia]. Under the control of HIF-1α, NK cells secrete IFN-γ and GM-CSF, which directly modulate the speed and quality of wound closure. Remove NK cell function, and the wound closes faster — at first. But it closes badly: poor immune coordination, impaired bacterial defense, eventual breakdown of repair quality.
+
+The relevant detail: the NK function that matters for wound healing is *cytokine secretion*, not *cytotoxicity*. The ME/CFS literature has measured cytotoxicity exhaustively. Cytokine output from the same cells — the wound-relevant arm — has barely been assessed. We know one half of NK function is impaired. We don't know about the other half, but there is no reason to assume it's intact.
+
+### 2. The autonomic nervous system: macrophages are getting the wrong signal
+
+ME/CFS involves sympathetic overactivation and parasympathetic withdrawal — documented in POTS, heart rate variability studies, and tilt table testing. It's a disease of autonomic imbalance.
+
+Xue et al. (2018) identified two macrophage populations in healing tissue: one driven by sympathetic signals (β2-adrenergic, pro-inflammatory, anti-repair) and one driven by parasympathetic signals (α7-nAChR, anti-inflammatory, pro-repair) [@Xue2018ANSWoundHealing]. The autonomic nervous system doesn't just regulate heart rate and blood pressure — it tells wound macrophages which repair program to run.
+
+If ME/CFS tilts the autonomic balance toward sympathetic dominance, the prediction is straightforward: macrophages at wound sites receive a persistent "stay inflamed, delay repair" signal. The mouse data is clean. Whether human ME/CFS tissue reaches the catecholamine concentrations required to produce this shift is unknown — but the machinery is there, and the autonomic imbalance is documented.
+
+### 3. Immune exhaustion: not just low energy, low repair capacity
+
+Immune exhaustion in ME/CFS extends beyond NK cells. CD8+ T cells show transcriptional and epigenetic reprogramming toward late-stage exhaustion [@Iu2024CD8exhaustion]. Cytokine profiles show suppressed interferon signaling and reduced immunoglobulin gene expression [@EatonFitch2024ImmuneExhaustion].
+
+What happens when the immune system is globally exhausted? A clinical model exists: burn patients. Stanojcic et al. (2016) documented that immune exhaustion in elderly burn patients — a phenotype of NK dysfunction, dysregulated cytokines, and impaired early immune response — produced clinically significant wound healing impairment [@Stanojcic2016ImmuneExhaustionBurns]. The burn model is more extreme than ME/CFS, but the immune phenotype overlaps: halved NK cytotoxicity, chronic TGF-β elevation, persistent immune activation, and epigenetic suppression of repair programs [@Abhimanyu2021PostInfectiousEpigenetics].
+
+Chronic TGF-β elevation adds a further mechanism. Petri et al. (2017) showed that TGF-β and IL-6 lock NK cells into a regulatory state terminally, disrupting the normal temporal sequencing required for wound healing [@Petri2017MSCNKTGFb]. In ME/CFS, TGF-β is chronically elevated. The prediction: the regulatory circuit that should activate NK cells early and suppress them late is stuck in the late-suppression phase.
+
+---
+
+## The clinical silence problem
+
+If all three pathways predict impaired healing, why don't patients report slow wound healing as a prominent complaint?
+
+There are at least three possibilities, and they're not mutually exclusive:
+
+1. **Sedentary patients encounter fewer wounds.** If you're housebound or bedbound, you simply don't cut yourself on things, trip, or scrape your knee as often as someone living an active life. Clinical silence could reflect low wound *incidence*, not normal wound *healing*.
+
+2. **Compensatory mechanisms mask the deficit.** Elevated TGF-β promotes fibrosis — scar formation. A wound could close at a normal rate but produce inferior scar quality, leaving tissue that is structurally weaker and more prone to reinjury. If patients aren't examining their scars histologically, they wouldn't notice.
+
+3. **Subclinical impairment is real but subtle.** The healing rate difference might be 15–30% slower — clinically meaningful for a biomarker, but not dramatic enough for patients to spontaneously report it as a problem distinct from their other symptoms.
+
+The honest answer: we don't know which of these is correct because nobody has looked.
+
+---
+
+## The study: €64,000, bedside-feasible, one measurement
+
+Here is the proposal. It is not expensive. It does not require a multi-site consortium. It can be done at a single research hospital in under a year.
+
+**Participants:** 40 ME/CFS patients (ICC criteria) + 20 age- and sex-matched sedentary healthy controls + 20 disease controls (fibromyalgia or multiple sclerosis, matched for disability level). The disease control arm is critical: it distinguishes ME/CFS-specific healing abnormalities from generic deconditioning- or disability-associated effects.
+
+**The procedure:** A suction blister — an 8mm standardized blister created by negative pressure, an established dermatological technique that is low-risk and bedside-feasible. You measure reepithelialization time: how long it takes the blister to close.
+
+**What you measure in the blister fluid:** IFN-γ and GM-CSF (NK cytokine output — the wound-relevant arm of NK function, not cytotoxicity), TGF-β (the MSC-NK regulatory circuit), and catecholamines (local sympathetic drive at the wound site).
+
+**What you correlate with:** NK cytotoxicity *and* NK cytokine secretion from stimulated PBMCs (both needed — cytotoxicity tells you about one arm, cytokine secretion tells you about the wound-relevant arm), heart rate variability (sympathovagal balance), Bell disability score (disease severity).
+
+**Stratification:** By disease severity (mild/moderate/severe), disease duration (<3yr, 3–7yr, >7yr), POTS comorbidity, and beta-blocker use (which confounds local catecholamine measurements).
+
+**Cost:** ~€800 per participant for the wound procedure, histology, blister fluid cytokine panel, NK assays, and HRV measurement. Total: ~€64,000 for 80 participants.
+
+**Timeline:** 6 months recruitment + 1 month follow-up.
+
+---
+
+## Why one blister answers four questions
+
+A single suction blister is not just a wound healing measurement. Four independent questions resolve simultaneously:
+
+1. **Is wound healing actually impaired?** The primary question. If reepithelialization time is normal in ME/CFS, the three mechanistic pathways described above are either wrong or compensated. If it's abnormal, we have a new biomarker.
+
+2. **Which mechanism dominates?** The blister fluid cytokine profile distinguishes mechanistic subtypes. Pattern A (high IFN-γ, low GM-CSF) suggests NK cells shifted to defense mode under HIF-1α. Pattern B (low IFN-γ, low GM-CSF) suggests globally non-functional NK cells — general exhaustion. Pattern C (high TGF-β) suggests the MSC-NK regulatory circuit is constitutively activated. Pattern D (high catecholamines) suggests sympathetic drive to wound macrophages dominates. These are not mutually exclusive — patterns can overlap — but dominant signals suggest treatment targets.
+
+3. **Is the selective energy dysfunction model correct?** The theoretical framework underlying ME/CFS pathophysiology proposes that some processes are autonomously preserved (hair growth, nail growth) while demand-responsive processes are selectively impaired. Wound healing is a boundary case: it looks autonomous but requires NK mobilization, autonomic regulation, and significant ATP expenditure. If healing is impaired, the framework's process classification is strengthened. If it's normal, the boundary between preserved and impaired processes needs redrawing.
+
+4. **Can wound healing serve as a biomarker?** If healing rate correlates with disease severity (Bell score), we have a functional biomarker that doesn't require exercise testing. This is valuable for severe and bedbound patients where CPET — the current gold standard for functional impairment — is impossible.
+
+---
+
+## The systems-biology readout
+
+This is the most elegant feature of the proposal. Wound healing is not a single biological process — it is an integrated output of NK cell function, autonomic balance, macrophage polarization, and metabolic capacity. Measuring healing rate is effectively measuring the health of all four systems simultaneously.
+
+A single composite functional biomarker, from a bedside procedure that costs €500, integrating information about multiple dysfunctional systems. No PET scanner required. No exercise test that would crash the patient. Just a blister and a timer.
+
+---
+
+## And if wound healing is normal?
+
+The proposal includes a pilot phase: 10 ME/CFS + 10 controls first, to establish effect size and confirm feasibility.
+
+If wound healing turns out to be normal — if reepithelialization time, scar quality, and blister fluid cytokines are indistinguishable from controls — the study still produces valuable data. It rules out tissue repair deficit as a clinically relevant mechanism. It refines the selective dysfunction model by establishing that this particular demand-responsive process is, in fact, preserved. It tells us something important about what the body can still do when it can't do almost anything else.
+
+Science advances by ruling things out as much as by ruling things in. This is one of the cheapest, fastest ways to rule something in or out that has implications for how we understand the disease.
+
+---
+
+## The larger point
+
+ME/CFS research has a funnel problem. Limited funding flows toward the same targets — viral persistence, autoantibodies, metabolic profiling — while large, simple, mechanistically informative questions go unasked because nobody noticed the gap.
+
+Wound healing is one of those gaps. It was sitting in the "preserved functions" category because it seemed like it belonged there, not because anyone tested it. When we checked, three independent lines of evidence pointed the other way. The question is worth €64,000 and six months. It requires nothing we don't already know how to do.
+
+The study design, detailed protocol, and mechanistic rationale are available in the full paper [@Loth2026mecfs]. If you're a researcher with access to a suction chamber and an ME/CFS clinic, this one is ready to go.
+
+---
+
+*Full mechanistic framework:*
+*This is part of an ongoing series exploring ME/CFS mechanisms. The book project behind these articles is freely available and updated regularly.*
