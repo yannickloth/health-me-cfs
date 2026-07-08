@@ -1,0 +1,40 @@
+date: 2026-07-05
+symptoms:
+  energy: null
+  brain_fog: null
+  pain: null
+  sleep_quality: null
+  orthostatic_intolerance: null
+  pem_active: null
+  pem_severity: null
+  pem_trigger: null
+
+sleep:
+  night_before:
+    duration_hours: null
+    quality: null
+  daytime:
+    slept: true
+    timing: "whole morning"
+    previous_day_also_slept_all_day: true
+
+medications: []
+
+activity: []
+
+observations:
+  - pattern: |
+      After extended sleep recovery (all day yesterday, this morning),
+      note improved executive function: less stress about time-consuming
+      tasks, less procrastination, more active in household.
+      Contrast with typical state (procrastination, time-stress, task-avoidance).
+      Consistent with lifelong pattern documented in
+      patterns/lifelong-executive-dysfunction.yaml.
+
+notes: |
+  Yesterday slept the whole day. Today again the morning. On waking:
+  feeling more relaxed about tasks, less procrastinating, more
+  spontaneously active. This contrast supports the hypothesis that
+  lifelong executive-function difficulties (onset ~14-15) are at
+  least partly driven by underlying fatigue/energy deficit rather
+  than primary ADHD.

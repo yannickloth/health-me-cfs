@@ -1,0 +1,67 @@
+pattern: lifelong_executive_dysfunction
+category: premorbid_trait
+onset: "~age 14-15"
+duration: lifelong
+
+description: |
+  Persistent difficulty with task initiation, organization, and time management
+  since adolescence — procrastination, poor organization, heightened stress around
+  task/time management, both professional and private.
+
+  The pattern is consistent with executive function being disproportionately
+  energy-hungry: planning, task-switching, and inhibition depend on prefrontal
+  circuits that are metabolically expensive. Mild energy impairment hits these
+  first, before gross motor fatigue shows up. On days with lower overall fatigue,
+  the patient reports reduced stress about time-consuming tasks, less
+  procrastination, and greater spontaneous engagement in household activities.
+
+associated_symptoms:
+  - daytime_fatigue:
+      onset: "~age 14-15"
+      description: "Always quite tired throughout the day; onset coincident with executive-function difficulties"
+
+  - excessive_sleep:
+      pattern: "Tendency to fall asleep whenever sitting or lying down — lifelong"
+      note: "Attributed to intense sports training (16–20 h/week) during adolescence, masking pathological significance"
+
+compensatory_mechanisms:
+  - "Adrenaline-driven last-minute cramming"
+  - "Avoidance of planning/organization"
+  - "Functioned via extreme compensatory effort — 'barely holding on' professionally"
+  - "Methylphenidate (Rilatine) from ~age 20: transformative cognitive improvement"
+
+contrast_with_good_days:
+  observation: |
+    On lower-fatigue days (e.g. following extended sleep recovery), patient reports:
+    - Reduced stress about time-consuming tasks
+    - Less procrastination
+    - More spontaneous initiation of household activity
+    - Normalized time perception — tasks feel less daunting
+  interpretation: |
+    Consistent with fatigue having a cognitive/affective dimension beyond physical
+    energy. When fatigue is lower, decision cost falls, affective tolerance rises,
+    and prefrontal-dependent executive functions improve. Post-exertional malaise
+    (PEM) includes emotional/cognitive narrowing — everything feels harder —
+    which lifts on better days.
+
+uncertainty:
+  differential: "TDAH vs. executive dysfunction secondary to energetic deficit"
+  evidence_against_tdah: "Multiple formal ADHD tests all NEGATIVE"
+  family_history: "Mother and 2 sisters with ADHD diagnoses"
+  note: "Dramatic response to methylphenidate despite negative tests suggests the deficit
+    is real but may be energetically rather than neurodevelopmentally driven"
+
+relevance_to_mecfs:
+  - "Fits prodromal-phase model: subthreshold energy impairment for decades before
+    clinical threshold reached"
+  - "Executive function as early sentinel: metabolically expensive prefrontal
+    circuits affected before gross motor fatigue"
+  - "Pattern of lifelong fatigue load consistent with multi-hit model (genetic
+    predisposition + accumulating insults)"
+  - "Compensation (adrenaline, stimulants, avoidance) masked severity for years"
+  - "Current contrast on good vs bad days = real-time evidence of energy
+    availability driving cognitive/executive function"
+
+documentation_status:
+  source: "Patient self-report (2026-07-05)"
+  verification: "None — subjective life-history pattern"
