@@ -42,3 +42,25 @@ The evidence establishes that mild COVID-19 can produce a persistent ocular synd
 - Certainty bumps (Phases 6–7): **per normal rules**
 - Phase 9 flags pre-fired: **none**
 - Overclaim guard: ME/CFS ≡ post-COVID ocular syndrome must remain `#speculation`/`#open-question`; Moustardas cohort not ME/CFS-screened.
+
+---
+
+## Phase 9 — Integration Quality Assessment (added post-hoc during gap-fill)
+
+| Metric | Value | Signal |
+|--------|-------|--------|
+| Net certainty change (Phases 6–7) | 0 | No bumps/reductions; confirmatory topic, conservatively held |
+| Reinforcement:contradiction ratio | 13:0 | Uniformly supportive; 0 contradictions found. (Note: quality floor did not suppress any contradictions — none existed) |
+| New falsifiable predictions | 6 STRONG (after 3 WEAK fixes) | High testability |
+| Gross words added (`.typ`) | ~408 across 8 files | Well under BLOAT (2000) |
+| New environments | 5 chapter + 3 registry | Proportionate |
+| Tier distribution (Phase 5) | 2 T1 integrated, 4 covered-by, 3 escalated, ~28 tree-only | Healthy — most brainstorm value captured or deferred, not force-integrated |
+| Clinical relevance | MEDIUM | Biomarker/diagnostic, not treatment |
+
+### Quality flags
+- `BLOAT`: **not fired** (408 « 2000 words)
+- `WEAK-EVIDENCE`: **not fired** (PROCEED decision; only 1/7 papers < 0.40)
+- `CLINICAL-RISK`: **not fired** — `#clinical-finding` states evidence type (observational study); FL-41 speculation states low-risk/symptomatic-only + severity note; no treatment claim on preclinical-only evidence
+- `SLOW-CONVERGENCE`: TBD after Phase 11
+
+**Verdict:** Integration improved the paper (added testable predictions, an ODE observable, confirmatory cross-disease evidence) without bloat or unearned certainty inflation. No actionable flags.

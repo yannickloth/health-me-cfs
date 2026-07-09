@@ -18,5 +18,7 @@ where $cal(F)$ is small fiber density (normalizing between 0 and 1), $k_(upright
 *Consequence:* If confirmed, an eye scan taken repeatedly at low cost and zero risk could substitute for repeated skin biopsies as the way to track nerve damage and recovery over time — turning an abstract model term into something a clinical trial can actually measure.
 ] <pred:cnfd-sfn-observable>
 
+Whether corneal nerve tortuosity and fiber density reflect distinct pathological processes or the same process at different stages is unknown — longitudinal CCM data in ME/CFS, which do not exist, would be needed to determine if these variables track independently.
+
 #include "open-questions/reversibility-of-central-sensitization-in-mecfs.typ"
 

@@ -197,6 +197,57 @@ Impaired baroreflex function:
     - Indicates parasympathetic dysfunction
     - Objective, quantifiable measure
 
+==== Pupillary Light Reflex as Autonomic Probe
+<sec:pupillometry-biomarker>
+
+The pupillary light reflex (PLR) provides a quantitative, noninvasive window into autonomic function that operates through well-characterized neuroanatomical pathways. The parasympathetic branch drives constriction via acetylcholine release at M3 muscarinic receptors on the iris sphincter muscle (Edinger-Westphal nucleus → ciliary ganglion → short ciliary nerves), while the sympathetic branch drives dilation via norepinephrine release at α1-adrenergic receptors on the iris dilator muscle (superior cervical ganglion → long ciliary nerves) @lisowski2025pupillary.
+
+#speculation(title: [Pupillometry as ME/CFS Autonomic Biomarker])[
+*Certainty: 0.30.* Pupillometry has been validated as an autonomic biomarker in several conditions with autonomic dysfunction overlapping ME/CFS — pure autonomic failure, diabetic neuropathy, multiple sclerosis, concussion — but has never been studied in a modern, properly-powered ME/CFS cohort. The only direct CFS pupillometry study (Sendrowski et al. 1997, n small, outdated methodology) tested sympathetic denervation hypersensitivity using pharmacological pupillary measures @sendrowski1997sympathetic. A replication study has never been conducted.
+
+The mechanistic rationale for pupillometry in ME/CFS is unusually direct compared to most candidate biomarkers: the M3 muscarinic and α1-adrenergic receptors that control pupil constriction and dilation are the exact same receptors targeted by autoantibodies elevated in ME/CFS @szklarski2021cd26 @azcue2026gpcrpupil. If pathogenic GPCR autoantibodies impair autonomic signaling at these receptors, pupillometry should detect functional impairment in the form of slowed constriction (parasympathetic), abnormal dilation (sympathetic), or both.
+
+Key PLR parameters with known autonomic significance @sander2025pupillometry @rizzuto2025hippus:
+
+    - *Constriction amplitude* — parasympathetic integrity (M3-mediated). Reduced in diabetic autonomic neuropathy and pure autonomic failure.
+    - *Constriction latency* — nerve conduction speed through Edinger-Westphal → ciliary ganglion pathway.
+    - *Dilation velocity* — sympathetic integrity (α1-mediated). Slowed in CRPS and autonomic failure @drummond2022crps.
+    - *Baseline pupil diameter* — balance of sympathetic dilator tone vs. parasympathetic sphincter tone.
+    - *Pupillary hippus* — spontaneous oscillations reflecting autonomic rhythmicity. Spectral analysis maps to respiratory/vasomotor frequencies @rizzuto2025hippus.
+
+Methodological strengths: measurement takes ~30 seconds with handheld devices, no patient effort required (can be performed supine, suitable for severe/bedbound patients), cost is low, and normative data exist for autonomic failure patients @sander2025pupillometry. Machine learning approaches applied to pupillographic features have shown diagnostic capacity for autonomic impairment in multiple sclerosis @parmakyener2026pupillography, demonstrating feasibility of automated PLR-based autonomic screening.
+
+*Consequence:* If pupillometry detects autonomic dysfunction in ME/CFS, it would provide a validated, low-burden, objective biomarker accessible even to severely affected patients — a significant improvement over current autonomic tests (tilt-table, HRV) that require patient cooperation. A positive finding would also independently confirm GPCR autoantibody-mediated autonomic impairment, since pupil receptors are the same target.
+
+*Falsifiable predictions:* (a) ME/CFS patients with elevated α1-adrenergic or M3 muscarinic autoantibodies will show significantly slower PLR constriction velocity and/or reduced dilation velocity compared to ME/CFS patients without these autoantibodies and healthy controls. (b) PLR parameters will correlate with autonomic symptom severity (COMPASS-31) and orthostatic intolerance measures. (c) PLR parameters will show PEM-dependent changes: altered constriction/dilation dynamics post-exertional challenge compared to pre-exertion baseline.
+
+*Limitations.* No modern ME/CFS pupillometry data exists. Egg et al. (2002) found that pupillary unrest (hippus) was inversely correlated with fatigue in MS (r=−0.521, p=0.001) — a null result warning that not all PLR parameters track fatigue, even in diseases with documented autonomic involvement @egg2002pupillary. PLR is sensitive to medications (anticholinergics, α-blockers, opioids), ambient light, alertness state, and age — all require standardization. Day-to-day reliability in ME/CFS is unknown.
+
+*Origin: brainstorm*
+] <spec:pupillometry-biomarker>
+
+#open-question(title: [Pupillometry During PEM Provocation])[
+The dynamic nature of ME/CFS — where autonomic function is often normal at rest but deranged after provocation — makes pupil dynamics during or after exercise challenge a natural experimental design. No study has measured PLR before vs. after a PEM provocation protocol. A handheld pupillometer could capture serial measurements at rest, during orthostatic challenge, and at multiple timepoints post-exertion.
+
+*Consequence:* A PLR response to PEM provocation, if present, would provide objective evidence of dynamic autonomic decompensation — the "physiological crash" that patients describe — in a format that is quantifiable, reproducible, and accessible to researchers lacking tilt-table or metabolic chamber facilities.
+
+*Falsifiable prediction:* PLR constriction velocity and dilation velocity measured 2 hours post-exertion will be significantly slower than pre-exertion baseline in ME/CFS patients, with magnitude of slowing proportional to subjective PEM severity, while healthy controls will show no change or faster recovery.
+] <oq:pupillometry-pem>
+
+The GPCR autoantibody literature provides a biochemical bridge that distinguishes pupillometry from other autonomic measurements. Unlike HRV or baroreflex sensitivity — which measure the output of the autonomic system — pupillometry measures *end-organ function* at receptors directly targeted by ME/CFS-associated autoantibodies. This receptor-level readout could identify a subset of ME/CFS patients with functionally significant GPCR autoantibodies: those with positive GPCR antibody titers AND impaired PLR dynamics would have both the immunological signature and its end-organ consequence, providing stronger evidence of pathogenic relevance than antibody titers alone.
+
+#open-question(title: [PLR as GPCR Autoantibody Functional Bioassay])[
+Pupillometry could serve as an in vivo functional assay for the pathogenic significance of GPCR autoantibodies. In vitro GPCR antibody testing (CellTrend ELISA, bioassay) measures binding to recombinant receptor fragments or transfected cells, but binding does not establish functional impairment at physiological receptor densities in native tissue. The pupil is a native tissue where M3 and α1 receptors function at physiological densities and can be measured noninvasively with high temporal resolution — potentially distinguishing functionally neutralizing from non-pathogenic autoantibodies.
+
+*Consequence:* If PLR dynamics discriminate between patients with functional (pathogenic) vs. non-functional GPCR autoantibodies, pupillometry could identify which autoantibody-positive patients would benefit from immunomodulatory therapies (IVIG, plasmapheresis) — addressing a central challenge in ME/CFS immunotherapy trials, where response heterogeneity may reflect this distinction.
+
+*Falsifiable prediction:* Among ME/CFS patients with positive anti-α1 or anti-M3 antibody titers, PLR constriction/dilation velocity will be slower in those who show clinical improvement after IVIG than the same patients' post-treatment values, while antibody titers alone will not predict treatment response.
+] <oq:plr-gpcr-bioassay>
+
+==== Machine Learning-Based Pupillography
+
+Parmak Yener et al. (2026) demonstrated the feasibility of machine learning applied to pupillographic features for automated autonomic dysfunction screening in multiple sclerosis @parmakyener2026pupillography. This approach automatically extracts PLR dynamic parameters and applies a supervised classifier distinguishing patients with autonomic impairment from those without. Adapting this framework to ME/CFS would require (a) collecting normative PLR data in ME/CFS severity-stratified cohorts, (b) integrating PLR features with clinical autonomic assessments (COMPASS-31, tilt-table), and (c) validating the classifier against an independent holdout set — none of which has been done.
+
 === Cardiopulmonary Biomarkers
 
 ==== Exercise Testing Parameters

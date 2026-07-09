@@ -41,7 +41,7 @@
 | 7.2 | Pupillometry-ANS coupled ODE | speculation | 0.30 | 2 | 0 | 2 | 4 | 3 | ⬜ | — |
 | 7.3 | Immune→tear proteome multi-compartment DAG | speculation | 0.35 | 3 | 0 | 2 | 4 | 3 | ⬜ | — |
 | 7.4 | Circadian tear proteome oscillator model | speculation | 0.15 | 1 | 0 | 1 | 3 | 1 | ⬜ | — |
-| 8.1 | Sjögren's as model for tear signature | speculation | 0.30 | 3 | 1 | 2 | 1 | 3 | ⏭️ | subtrees/autoimmune-sjogren.md |
+| 8.1 | Sjögren's as model for tear signature | speculation | 0.30 | 3 | 1 | 2 | 1 | 3 | ✅ | subtrees/ocular-sjogren-mecfs-overlap.md |
 | 8.2 | Diabetic neuropathy CNFD reference dynamics | speculation | 0.40 | 3 | 1 | 2 | 3 | 4 | 🔵 | — |
 | 8.3 | MS as model for oculomotor involvement | speculation | 0.25 | 2 | 0 | 2 | 1 | 2 | ⬜ | — |
 | 8.4 | Fibromyalgia corneal confocal cross-validation | speculation | 0.35 | 2 | 0 | 2 | 1 | 4 | ⬜ | — |

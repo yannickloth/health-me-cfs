@@ -68,7 +68,7 @@ Evaluate/integrate a peer-reviewed observational study (n=100 post-COVID ocular-
 | B5.1 | FL-41 tinted glasses for photophobia | T1 | 0.25 | ✅ integrated | ch03 `#speculation spec:fl41-photophobia` |
 | B6.5 | Ocular biomarker suite for severe-ME/CFS trials | T1 | 0.30 | ⏭️ covered-by spec:tear-tcell-readout + pred:cnfd | overlap |
 | B1.4 | Photophobia as quantifiable autonomic biomarker | T2 | 0.30 | ⏭️ queued | → pupillometry-autonomic-biomarker cycle |
-| B8.1 | Sjögren's tear-signature overlap | escalate | 0.30 | ⏭️ queued | → ocular-sjogren-mecfs-overlap cycle |
+| B8.1 | Sjögren's tear-signature overlap | escalate | 0.30 | ✅ done | → ocular-sjogren-mecfs-overlap cycle (subtrees/ocular-sjogren-mecfs-overlap.md), committed 2026-07-09 |
 | Bcrit | Categories 10–12 (not-relevant, null, evidence-quality) | crit | n/a | ✅ integrated | folded into ch08 `lim:postcovid-ocular-mecfs-gap` |
 | Btier3 | ~28 remaining low-cert ideas | T3 | <0.20 | 📋 tree-only | recorded in subtree, not chapter |
 
