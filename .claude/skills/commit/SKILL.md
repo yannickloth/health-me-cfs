@@ -20,12 +20,21 @@ Mark as **excluded** (do not stage):
 **Always exclude:**
 - `tmp/**` — project temp
 - `result` / `result/**` — Nix build outputs
-- `**/*.pdf` — generated PDFs (see exception)
 - `**/*.aux`, `**/*.log`, `**/*.toc`, `**/*.out`, `**/*.fls`, `**/*.fdb_latexmk`, `**/*.synctex.gz`, `**/*.bcf`, `**/*.blg`, `**/*.bbl`, `**/*.run.xml` — LaTeX artifacts
 - `**/__pycache__/**`, `**/*.pyc` — Python cache
 - Files already in `.gitignore`
 
-**PDF exception:** Legitimate to commit if: published artifact/release trace (`releases/`, `publications/`, `dist/`, explicitly versioned), OR literature artifact (`Literature/**`). When in doubt, **ask**.
+**PDF rule — decide by provenance, not extension:**
+
+| PDF kind | Action | Examples |
+|----------|--------|----------|
+| **Source copy** (a genuine copy of an external artifact we did NOT generate — must be retained) | **COMMIT** (default) | `Literature/**` cited papers, guidelines, downloaded references |
+| **Published artifact / release trace** | **COMMIT** | `releases/`, `publications/`, `dist/`, explicitly versioned deliverables |
+| **Generated** (produced by our build from source in-repo) | **EXCLUDE** | `result/loth2026-mecfs.pdf`, `src/**/*.pdf` build output, Typst/LaTeX compile output |
+
+- Test: "Could we recreate this PDF byte-for-byte from source in this repo by running the build?" **Yes → generated → exclude. No → source/artifact → commit.**
+- A source-copy PDF is **content**, not a build product — losing it loses irreplaceable cited material. Do NOT skip it.
+- Only ask the user when provenance is genuinely unclear after applying the test; otherwise commit source copies without prompting.
 
 ## Step 3 — Group Into Logical Commits
 

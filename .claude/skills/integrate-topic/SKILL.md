@@ -26,15 +26,16 @@ git status --short
 
 | Tree state | Meaning | Action |
 |------------|---------|--------|
-| Clean (empty output) | No pending changes | **CLEAN mode** — WIP checkpoints enabled (default protocol below) |
-| Dirty, only this-topic files | (recursive cycle resuming own WIP) | CLEAN mode — WIP checkpoints scoped to this topic's files only |
-| Dirty, unrelated files present | Parallel session / prior WIP / other topic | **MIXED mode** — see below |
+| Clean (empty output) | No pending changes | **CLEAN mode** — scratch-pointer checkpoints enabled (see Git Checkpoint Protocol) |
+| Dirty, only this-topic files | (recursive cycle resuming own WIP) | CLEAN mode — checkpoints scoped to this topic's files only |
+| Dirty, unrelated files present | Parallel session / prior WIP / other topic | **MIXED / CONCURRENT mode** — see below |
 
-**MIXED mode (mandatory):**
-1. Report to user: "Working tree has unrelated changes: `<file list>`. These are not part of this topic."
-2. Ask: "(a) commit/stash them first, (b) proceed in MIXED mode (no WIP checkpoints; rollback via `git reflog`; commit scoped by explicit file list)?" Wait for answer.
-3. If (b): WIP checkpoint commits are **SKIPPED** (a WIP commit would bundle unrelated changes). Record in plan Phase-0 note: "MIXED tree — WIP checkpoints skipped; rollback = git reflog; all phases scoped by explicit file lists, NOT `git diff`."
+**MIXED / CONCURRENT mode (mandatory):**
+1. Report to user: "Working tree has unrelated changes: `<file list>`. These are not part of this topic — another cycle may be active."
+2. Ask: "(a) commit/stash them first, (b) proceed in MIXED mode (scratch-pointer checkpoints only; rollback via `git checkout <ref> -- <file>`, never `git reset`; commit scoped by explicit file list)?" Wait for answer.
+3. If (b): shared-branch WIP commits are **SKIPPED**; use scratch pointers or `git reflog` refs only. Record in plan Phase-0 note: "MIXED tree — no shared-branch WIP commits; rollback = `git checkout <ref> -- <file>` (NEVER reset/rebase/amend); all phases scoped by explicit file lists, NOT `git diff`."
 4. In MIXED mode every phase that uses `git diff --name-only` for scoping MUST instead use the **explicit file list from the plan's per-phase reports** (the plan is the source of truth — see Shared-File Ownership below). `git diff` is fallback only.
+5. **All HARD CONCURRENCY GUARDS apply** (see Git Checkpoint Protocol): no `git reset`, no `rebase`, no `--amend`, no `git add -A`, no history rewrite of any kind. Ask before any destructive-looking git step.
 
 ## Concurrency & Shared-File Ownership Protocol
 
@@ -46,17 +47,39 @@ Multiple `/integrate-topic` cycles (or a parallel session) may write the same sh
 
 **Re-check before commit (Phase 13):** A shared file you modified may have been committed by a parallel stream mid-cycle (`git status` no longer shows it as `M`, but `git show HEAD:<file>` contains your entries). This is acceptable — your entries shipped — but DO verify via `git show HEAD:<file> | grep <your-key>` that none of your entries were lost, and note in the Phase 13 report which of your entries landed in another stream's commit.
 
-## Git Checkpoint Protocol (CLEAN mode only)
+## Git Checkpoint Protocol
 
-In CLEAN mode: create a single WIP checkpoint commit before Phase 3 (the first phase that modifies chapter files): `git commit -m "WIP: [topic-slug] pre-integration"`. Create an additional checkpoint before Phase 6. These are squashed/rewritten in Phase 13. Purpose: rollback to any phase boundary if a later phase fails to converge. For finer-grained rollback, use `git reflog`.
+### HARD CONCURRENCY GUARDS (never violate — these prevent destroying parallel cycles' work)
 
-In MIXED mode: WIP checkpoints are skipped; rollback is via `git reflog` only.
+Multiple `/integrate-topic` cycles may run against the same repo concurrently. History-rewriting operations on the shared branch have **dropped other cycles' committed work** (observed: a `git reset`/rebase/squash discarded 8 commits from 3 cycles). Therefore:
+
+| Operation | Rule |
+|-----------|------|
+| `git reset --hard`, `git reset` to a prior commit | ✗ **FORBIDDEN** on the shared branch, always. Rollback = `git revert` (new commit) or restore specific files with `git checkout <ref> -- <file>`. |
+| `git rebase` (any form) | ✗ **FORBIDDEN** on the shared branch, always. |
+| `git commit --amend` | ✗ **FORBIDDEN** on any commit — even your own, even "unpushed". A parallel commit may already build on it. Fix = new commit. |
+| squash / "rewrite in Phase 13" | ✗ **FORBIDDEN.** Ship WIP checkpoints as-is or drop them via scratch-branch discard (below). Never squash shared-branch history. |
+| `git push --force` | ✗ **FORBIDDEN.** |
+| `git add -A` / `git add .` | ✗ **FORBIDDEN.** Always stage by explicit per-topic file list (sweeps other cycles' files otherwise). |
+
+**Concurrency detection (run before ANY commit/checkpoint):** `git status --short`. If files outside this cycle's explicit plan file-list appear as modified/untracked → **another cycle is active → CONCURRENT mode.** Treat CONCURRENT as a stricter MIXED mode for all git operations.
+
+**Before any destructive-looking git step, STOP and ask the user** if the working tree contains another cycle's files. Never assume "unpushed = safe to rewrite" in a shared repo.
+
+### Checkpoints (rollback WITHOUT rewriting shared history)
+
+Checkpoints give phase-boundary rollback. To avoid the history-rewrite hazard entirely, use a **scratch branch**, never shared-branch WIP commits that later get squashed:
+
+- **CLEAN mode (tree clean at start, no other cycle active):** before Phase 3 and before Phase 6, create a scratch tag/branch pointer: `git branch wip/<topic-slug>-preN` (or `git tag wip/<topic-slug>-preN`). This is a pointer, not a commit on the shared branch — nothing to squash later. To roll back: `git checkout wip/<topic-slug>-preN -- <files>` (restore files) — NOT `git reset`. Delete the scratch pointers at Phase 13 (`git branch -D` / `git tag -d`); deleting a pointer rewrites no history.
+- **MIXED / CONCURRENT mode:** no checkpoint pointers needed beyond `git reflog`; rollback = `git checkout <reflog-ref> -- <explicit-files>`. Never `git reset`.
+
+**Rollback mechanism (all modes):** restore specific files from a checkpoint ref with `git checkout <ref> -- <path...>`. This is non-destructive to history and to other cycles. **Never** roll back with `git reset`.
 
 **Rollback triggers:**
-- Phase 11 hits max rounds with >5 unresolved findings → offer rollback to pre-Phase-6 checkpoint (CLEAN) or `git reflog` target (MIXED)
-- Phase 8 build fails after 5 iterations → offer rollback to pre-Phase-3 checkpoint (CLEAN) or `git reflog` (MIXED)
-- Phase 3.5 identifies consequence gaps that require substantive rework of Phase 3 environments → offer rollback to pre-Phase-3 checkpoint
-- Any phase produces results the user rejects → offer rollback to previous checkpoint
+- Phase 11 hits max rounds with >5 unresolved findings → offer file-level restore from pre-Phase-6 checkpoint ref
+- Phase 8 build fails after 5 iterations → offer file-level restore from pre-Phase-3 checkpoint ref
+- Phase 3.5 identifies consequence gaps requiring substantive rework of Phase 3 → offer restore from pre-Phase-3 checkpoint ref
+- Any phase produces results the user rejects → offer restore from previous checkpoint ref
 
 ---
 
@@ -1049,7 +1072,7 @@ Add entry to `src/main/typst/mecfs/shared/changelog.typ` under current version (
 
 ## Phase 13 — Commit
 
-Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit` skill rules (conventional commits, no generated files, no PDFs except published artifacts).
+Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit` skill rules (conventional commits, no generated build outputs, PDF rule by provenance — source-copy PDFs under `Literature/**` ARE committed; only build-generated PDFs are excluded).
 
 **Scope precisely (MANDATORY):** Stage ONLY this topic's files (chapters, registry, changelog, ops artifacts, content-staging docs). Use the explicit file list from the plan's per-phase reports — never `git add -A`. Exclude: unrelated WIP (other topics' `SKILL.md` edits, etc.), and transient review-skill artifacts (e.g. `.claude/review-checkpoint-*.md` — do NOT commit these per `.claude/` hygiene).
 
@@ -1061,7 +1084,14 @@ git status --short <shared-file>                          # still pending in you
 ```
 If a shared file you modified is no longer in `git status` (committed by a parallel stream) BUT `git show HEAD` contains your entries → your entries shipped; note this in the Phase 13 report ("bib/appendix entries landed in commit <hash> of stream <X>"). If your entries are MISSING from both HEAD and your tree → they were lost; re-apply before committing.
 
-WIP checkpoint commits from the Git Checkpoint Protocol (CLEAN mode only) are squashed into the final commits. Do not leave WIP commits in the history.
+**Checkpoint cleanup (NO history rewrite):** Scratch checkpoint pointers (`wip/<topic-slug>-preN` branches/tags from the Git Checkpoint Protocol) are deleted at the end: `git branch -D wip/<topic-slug>-pre3 wip/<topic-slug>-pre6` (or `git tag -d ...`). Deleting a pointer removes no commits and rewrites no history. **NEVER** squash, rebase, `--amend`, or `git reset` to "clean up" — those operations have dropped parallel cycles' committed work. If earlier drafts exist as extra commits on the shared branch, leave them; they are harmless and history-rewriting to remove them is forbidden.
+
+**Post-commit integrity check (MANDATORY):** After committing, confirm the shared branch still builds and that no parallel work was lost:
+```bash
+git status --short          # only foreign/parallel files remain, none of yours
+nix build 2>&1 | grep -c "error:"   # 0 — HEAD is referentially consistent
+```
+If `nix build` fails on a key that a parallel stream's rebase/reset may have dropped, restore it non-destructively with `git checkout <reflog-ref> -- <file>` and commit as a `fix(build): restore rebase-dropped content` commit — never reset.
 
 **Report:** "Phase 13 complete: N commits created (hash). Shared-file entries verified present. Excluded: <unrelated files left untouched>."
 
@@ -1129,7 +1159,7 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 - **Build must pass** — do not declare completion if `nix build` fails
 - **Queue persistence** — all queued topics written to `ops/queued-topics.md`; survives context rotation
 - **Non-specialist consequence required** — every `#hypothesis-box`, `#fhypothesis`, `#speculation`, `#synthesis`, `#achievement`, `#clinical-finding`, `#prediction`, `#open-question`, and `#limitation` must carry a `*Consequence:*` field translating why the finding matters in language an educated non-specialist can grasp. This is translation of significance — scientific precision is preserved, not diluted. If the finding has zero current practical consequence, that is the honest answer.
-- **Tree-mode discipline** — run the Working-Tree State Check first; in MIXED mode never use `git add -A` and never scope phases by `git diff` (use explicit plan file lists); WIP checkpoints only in CLEAN mode
+- **Tree-mode discipline** — run the Working-Tree State Check first; never use `git add -A`, and in MIXED/CONCURRENT mode never scope phases by `git diff` (use explicit plan file lists); use scratch-pointer checkpoints (not shared-branch WIP commits); NEVER `git reset`/`rebase`/`--amend`/squash/force-push — history rewriting has dropped parallel cycles' work; ask before any destructive-looking git step
 - **Shared-file ownership** — track your entries in shared files (bib, appendix-h, changelog, registry, trees, queue) by key/label in plan reports; re-verify at Phase 13 that none were lost to a parallel commit
 - **Bib is ground truth, not the agent's report** — cite only keys verified present in the `.bib` file; never trust a transcribed key list
 - **No duplicate integration** — Phase 5 must dedup brainstorm ideas against Phase 3 environments before integrating

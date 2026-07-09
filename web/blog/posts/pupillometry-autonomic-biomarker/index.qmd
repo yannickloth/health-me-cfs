@@ -1,0 +1,142 @@
+---
+title: "Your Pupil Could Tell Us Why You Crash — and Nobody Has Checked Yet"
+description: "A 30-second eye measurement could resolve one of the biggest controversies in ME/CFS research: whether GPCR autoantibodies actually impair autonomic function, or are just innocent bystanders. The technology exists. The study has never been done."
+author: "Yannick Loth"
+date: "2026-07-09"
+categories: [Biomarkers, Diagnostics, Autonomic Dysfunction, Immunology, Research]
+---
+
+A handheld device that measures how fast your pupil constricts and dilates in response to light costs about €3,000, is FDA-cleared, and has been validated in concussion, diabetes, multiple sclerosis, and pure autonomic failure. The measurement takes 30 seconds. You don't have to stand up. You don't have to exercise. You just sit in a dim room and the device records your pupil's light reflex.
+
+Nobody has ever done this study in ME/CFS.
+
+And the reason it matters — the reason it should have been done years ago — is that the receptors controlling your pupil are the exact same receptors targeted by autoantibodies found in many ME/CFS patients. Your pupil could tell us whether those autoantibodies are actually doing anything.
+
+---
+
+## The pupil is a window into the autonomic nervous system
+
+Your autonomic nervous system controls things you don't think about: heart rate, digestion, sweating, blood pressure, and the size of your pupils. It has two branches:
+
+- **Parasympathetic** ("rest and digest") — slows things down, conserves energy. Constricts the pupil.
+- **Sympathetic** ("fight or flight") — speeds things up, mobilises energy. Dilates the pupil.
+
+The pupil's response to a flash of light — the *pupillary light reflex*, or PLR — is one of the fastest, simplest, and most reproducible autonomic measurements available. A brief light stimulus hits the retina. The signal travels through the optic nerve to the Edinger-Westphal nucleus in the midbrain, then to the ciliary ganglion, and finally to the iris sphincter muscle, which constricts the pupil. The whole reflex takes about 200 milliseconds.
+
+When the light goes off, the pupil dilates again — this time driven by the sympathetic branch, which sends a signal from the superior cervical ganglion in your neck to the alpha-1 adrenergic receptors on the iris dilator muscle.
+
+What researchers measure with a modern pupillometer is precise: constriction amplitude (how much the pupil shrinks), constriction latency (how fast it starts shrinking), dilation velocity (how fast it opens again), and baseline diameter (the resting balance between the two systems).
+
+Each of these parameters maps to a specific receptor type. **Constriction** depends on M3 muscarinic receptors — these are cholinergic, parasympathetic. **Dilation** depends on alpha-1 adrenergic receptors — these are sympathetic [@lisowski2025pupillary]. This matters because both receptor types are targets of autoantibodies found in ME/CFS.
+
+---
+
+## The autoantibody controversy
+
+In 2016, Loebel and colleagues published a study showing that 29.5% of 268 ME/CFS patients had elevated autoantibodies against beta-2 adrenergic and M3/M4 muscarinic receptors. In 2021, Szklarski and colleagues confirmed this and found that infection-triggered ME/CFS patients had significantly higher autoantibody levels than patients without an infectious trigger — and that these antibodies correlated with symptom severity [@szklarski2021cd26]. In 2026, Azcue and colleagues replicated the finding in a post-COVID and CFS cohort [@azcue2026gpcrpupil].
+
+But in 2025, Germain and colleagues ran the largest screen to date: 172 participants, 7,542 antibody-antigen interactions using two different high-throughput platforms (REAP and Luminex). They found *zero* ME/CFS-specific autoantibody signal [@Germain2025autoantibody]. All GPCR targets — beta-1, beta-2, beta-3 adrenergic, M1 through M4 muscarinic — were negative. No autoantibody differed between patients and controls at any statistically meaningful threshold.
+
+This is not a minor disagreement. It's a deadlock. Two different assay platforms — ELISA (positive) and REAP/Luminex (negative) — give opposite answers on the same biological question. And in 2022, Vernino and colleagues tried to replicate the ELISA findings in POTS: they found 100% of *healthy controls* tested positive, making the diagnostic value of the test zero [@POTS2022failed_replication].
+
+Here is where it gets clinically consequential. BC007, a DNA aptamer that neutralises GPCR autoantibodies, showed dramatic improvement in a Long COVID pilot case. An immunoadsorption trial in ME/CFS is underway. Patients are getting tested for these antibodies. Some are pursuing immunomodulatory therapies based on positive results. But nobody knows whether a positive ELISA result means the antibodies are actually impairing receptor function, or whether it means the test has a specificity problem — detecting antibodies that are present but harmless, or worse, detecting nothing real at all.
+
+---
+
+## What the pupil can tell us
+
+M3 muscarinic receptors and alpha-1 adrenergic receptors are present throughout the body — on blood vessels, on the heart, on gut smooth muscle, on immune cells, on mast cells. But in virtually every tissue, measuring receptor function is technically difficult. You'd need a biopsy, or an invasive catheter, or a specialised PET scan.
+
+The pupil is different. The M3 and alpha-1 receptors on the iris are accessible through a transparent medium (the cornea). They are activated by a precise, repeatable stimulus (a flash of light). Their response is mechanically simple — constrict or dilate — and can be quantified at millisecond resolution with a device the size of a small flashlight.
+
+If GPCR autoantibodies in ME/CFS are *functional* — meaning they bind to the receptor and impair its signalling — a pupillometer should detect it. M3-blocking antibodies should slow constriction. Alpha-1-blocking antibodies should slow dilation. If both are present, both parameters should be abnormal.
+
+If GPCR autoantibodies are *non-functional* — meaning they bind to the receptor without affecting its signalling, or they bind to something else entirely that cross-reacts with the ELISA — the pupil should be normal, regardless of what the blood test says.
+
+This is an in vivo bioassay. It uses native tissue at physiological receptor densities. It doesn't require recombinant protein, transfection, or any of the artificial conditions of a lab assay. It's measuring exactly what matters: does the antibody impair the receptor it's supposed to target?
+
+---
+
+## Cross-disease evidence
+
+Pupillometry has been validated as an autonomic biomarker across multiple conditions with features overlapping ME/CFS.
+
+In **diabetic autonomic neuropathy**, PLR constriction amplitude and dilation velocity are reduced, and the magnitude of reduction correlates with disease duration. Li and colleagues (2026) showed that scotopic-photopic pupil diameter difference could serve as a biomarker for long-term glycemic management [@li2026pupil]. Thakar and colleagues (2025) confirmed the correlation between PLR parameters and retinal nerve fibre layer thickness — a structural correlate [@thakar2025pupillometry].
+
+In **multiple sclerosis**, Parmak Yener and colleagues (2026) demonstrated that machine learning applied to pupillographic features could discriminate patients with autonomic impairment from those without [@parmakyener2026pupillography]. De Rodez Benavent and colleagues (2019) linked retinal and pupillary autonomic abnormalities to cardiovascular autonomic dysfunction in early MS — showing that the eye reflects systemic autonomic state [@derodezbenavent2019autonomic].
+
+In **concussion**, Master and colleagues (2020, JAMA Ophthalmology) published a study of 352 adolescents showing that PLR metrics distinguish concussed from healthy athletes. This was a large, rigorous validation of PLR as an objective physiologic biomarker — just in a different condition [@master2020plr].
+
+In **post-COVID syndrome**, Smit and colleagues (2026) found altered task-evoked pupillary dynamics in 397 patients versus 129 controls. The Index of Pupillary Activity was significantly lower in post-COVID patients across all task difficulty levels [@smit2026pupillary].
+
+In **CRPS** (complex regional pain syndrome), Drummond and Finch (2022) used pupil dilation to arousal stimuli as a probe of locus coeruleus function, finding that the affected side showed smaller pupils — consistent with ipsilateral noradrenergic deficit [@drummond2022crps].
+
+Across all these conditions, pupillometry detects autonomic dysfunction [@sander2025pupillometry @rizzuto2025hippus]. The pattern varies by disease, but the method works. A notable caution: Egg and colleagues (2002) found that the one PLR parameter most intuitively related to autonomic instability — pupillary hippus, the spontaneous oscillation of pupil size — was *inversely* correlated with fatigue in MS (r = -0.52). More pupil oscillation meant *less* fatigue [@egg2002pupillary]. This null should temper expectations: not every PLR parameter will track symptoms, and the direction of effect may not be what intuition predicts.
+
+**The only direct CFS pupillometry study was published in 1997** by Sendrowski and colleagues. It used pharmacological methodology (phenylephrine mydriasis) rather than modern automated pupillometry, had fewer than 20 participants, and tested a specific hypothesis about sympathetic denervation hypersensitivity [@sendrowski1997sympathetic]. It was never replicated.
+
+A 29-year gap between the only ME/CFS study and a technology that is now routine in neurology, ophthalmology, and sports medicine — that is the evidence gap.
+
+---
+
+## What would the study look like?
+
+A first-pass study would require nothing that doesn't already exist:
+
+| Component | Status |
+|-----------|--------|
+| **Device** | NeurOptics PLR-3000 or equivalent — FDA-cleared, €2–5K, used daily in concussion clinics |
+| **Participants** | 60 GPCR-autoantibody-positive ME/CFS + 60 negative + 60 healthy controls — achievable at any single centre with an existing cohort |
+| **Autoantibody testing** | Already established at Charité (CellTrend ELISA) and through published REAP/Luminex protocols (Germain 2025) |
+| **Protocol** | Single session, 30 seconds per measurement, supine, no exercise required, no drug washout (confounds documented but not exclusionary) |
+| **Analysis** | Compare constriction velocity and dilation velocity between groups. Control for age, medications, and ambient light |
+| **Duration** | Data collection: half a day per participant. Total: feasible within 6–12 months at a single site |
+| **Cost** | A fraction of a typical metabolomics or proteomics study |
+
+The primary analysis tests two predictions:
+1. ME/CFS patients with elevated GPCR autoantibodies will show slower PLR constriction velocity (if M3 antibodies are functional) and/or slower dilation velocity (if alpha-1 antibodies are functional) compared to antibody-negative patients and controls.
+2. PLR parameters will correlate with autonomic symptom severity (COMPASS-31 score) and orthostatic intolerance measures.
+
+The secondary analysis tests whether autoantibody subtype — M3-dominant versus alpha-1-dominant — predicts which PLR parameter is affected. If this double dissociation holds, pupillometry could serve as a receptor-specific bioassay, telling clinicians which autonomic pathway is impaired without a blood draw.
+
+---
+
+## Three scenarios: what each would mean
+
+### Scenario A: Positive — PLR is abnormal in AAb-positive patients
+
+The pupil test reveals functional receptor impairment in patients with positive autoantibody titers — but not in patients with negative titers and not in healthy controls. The dissociation between M3 antibodies and constriction (versus alpha-1 antibodies and dilation) is clean.
+
+**What changes for patients:** A positive pupillometry finding would be the first evidence that GPCR autoantibodies are *pathogenic* in ME/CFS — not just a laboratory finding. It would mean the autoantibodies are impairing autonomic receptor function at physiological concentrations in native tissue. This directly strengthens the rationale for immunomodulatory therapies (IVIG, immunoadsorption, BC007). A patient could be told: "Your antibodies are impairing your receptors. Therapies that remove or neutralise them have a mechanistic target we can actually measure."
+
+Pupillometry could also serve as a treatment-response monitor. If a therapy works, pupil function should improve. A 30-second measurement before and after treatment replaces subjective symptom reports with an objective physiological endpoint.
+
+### Scenario B: Null — PLR is normal regardless of autoantibody status
+
+The pupil responds normally in all ME/CFS groups — antibody-positive, antibody-negative, no difference from controls. The autoantibodies detected by ELISA are either non-functional, non-pathogenic, or not reliably detected.
+
+**What changes for patients:** The Germain 2025 null result is functionally confirmed. The search for GPCR autoantibody-depletion therapies should be de-prioritised. Patients with positive ELISA results but no functional receptor impairment can avoid pursuing treatments that have no mechanistic rationale. This doesn't mean *no* autoantibodies are involved in ME/CFS — antibodies against non-GPCR targets (ANT, thyroid, ganglionic AChR) are a separate question. But it closes the GPCR autoantibody chapter or sharply narrows its scope.
+
+### Scenario C: Mixed — PLR abnormal only in a subset, or effects too small for clinical use
+
+A subset of antibody-positive patients shows PLR abnormalities, but the effect is small, or the overlap between groups is too large for individual diagnosis. PLR may track autonomic dysfunction but can't distinguish pathogenic from non-pathogenic antibodies at the individual patient level.
+
+**What changes for patients:** A partial signal that requires refinement. The method works in principle, but confounds (medications, diurnal variation, alertness) or biological heterogeneity (not all antibodies are functional) reduce its clinical utility. The path forward would involve larger cohorts, confound-standardised protocols, or combining PLR with other autonomic measures.
+
+---
+
+## Why this matters now
+
+There is a specific quality to this evidence gap that is unusual. Most biomarker gaps in ME/CFS are expensive to close. You need mass spectrometry for metabolomics. You need sequencing for genomics. You need specialised MRI for neuroimaging.
+
+Pupillometry needs a €3,000 device, a dim room, and 30 seconds per patient.
+
+The technology is FDA-cleared. Normative data exist. Cross-disease validation has been done. The mechanistic rationale — GPCR autoantibodies targeting the exact receptors controlling the pupil — is specific and falsifiable.
+
+What's missing is a study.
+
+This is not a call for funding, or infrastructure, or a new device. It is a call for someone with an existing ME/CFS cohort, a GPCR autoantibody dataset, and a €3,000 equipment budget to spend one year answering a question that the field has been arguing about for a decade.
+
+---
+
+*Note: This article draws on the systematic literature review and evidence synthesis documented in the pupillometry-autonomic-biomarker integration plan and the formal integration into the ME/CFS paper (Chapter 29, Biomarker Research; Chapter 8, Neurological Dysfunction; Chapter 14d, Cross-Disease Connections) completed on 2026-07-09.*
