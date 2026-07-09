@@ -1,4 +1,6 @@
-A study should be done. It will cost very little, take one year, and answer a question that has been paralysing ME/CFS research for a decade. Here's why.
+A 30-second pupil measurement could tell ME/CFS patients whether their autoantibody test result is real — or an artifact that shouldn't guide treatment. The study has never been done. It should be, because it's cheap, fast, and the answer matters directly to patients.
+
+Here's why.
 
 Your pupil constricts and dilates through two specific receptors: M3 muscarinic (parasympathetic) and alpha-1 adrenergic (sympathetic). A 30-second measurement with a handheld pupillometer — FDA-cleared, €3,000, used daily in concussion clinics — tells you exactly how well each branch is functioning at the receptor level.
 
