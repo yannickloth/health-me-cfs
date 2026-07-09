@@ -16,4 +16,13 @@ This is one of the cheapest, fastest, highest-impact questions in ME/CFS researc
 
 Full article: [link in first comment]
 
+Sources (in comments):
+- Lisowski et al. Pupillary reflex pathways. Front Neurosci. 2025. doi.org/10.3389/fnins.2025.1677431
+- Szklarski et al. CD26 and GPCR autoantibodies in ME/CFS. Front Immunol. 2021. doi.org/10.3389/fimmu.2021.644548
+- Azcue et al. GPCR autoantibodies in post-COVID and CFS. Sci Rep. 2026. doi.org/10.1038/s41598-026-49131-9
+- Germain et al. Autoantibody profiling in ME/CFS — negative. 2025.
+- Master et al. PLR as biomarker for concussion. JAMA Ophthalmol. 2020. doi.org/10.1001/jamaophthalmol.2020.3466
+- Sander et al. Pupillometry in autonomic failure. Eur J Neurol. 2025. doi.org/10.1111/ene.70320
+- Sendrowski et al. Sympathetic hypersensitivity in CFS. Optom Vis Sci. 1997. doi.org/10.1097/00006324-199708000-00027
+
 #MECFS #Biomarkers #Autoimmunity #Dysautonomia #Research #Pupillometry
