@@ -1,7 +1,7 @@
 # Current Medication Regimen
 
 regimen_date: 2026-05-22
-last_updated: 2026-05-22
+last_updated: 2026-07-09
 
 medications:
   - name: Low-Dose Naltrexone (LDN)
@@ -10,6 +10,7 @@ medications:
     timing: morning
     recent_change: increased from 3.5mg to 4mg
     change_date: 2026-05-22
+    status: "under review — ~6 months non-response; switching to LDA"
 
   - name: Pyridostigmine (Mestinon)
     current_dose: 3×1 pill per day
@@ -32,6 +33,14 @@ medications:
     frequency: as prescribed
     status: intermittent use
     notes: stimulant medication used situationally
+
+pending:
+  - name: Aripiprazole (low-dose, LDA)
+    start_date: 2026-07-10
+    starting_dose: 0.5mg
+    titration_plan: "0.5 mg/day a few days, then 1 mg/day if tolerated; ceiling ~1 mg"
+    prescriber: "Dr. Nicolas"
+    indication: "cognitive symptoms / unrefreshing sleep; after LDN non-response"
 
 supplements:
   - name: Electrolyte mix

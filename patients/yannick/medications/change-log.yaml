@@ -1,6 +1,36 @@
 # Medication Change Log
 
 changes:
+  - date: 2026-07-10
+    medication: "Aripiprazole (low-dose, LDA)"
+    action: start
+    previous_dose: none
+    new_dose: 0.5mg
+    titration_plan: "0.5 mg/day for a few days, then increase to 1 mg/day if well tolerated; prescriber unlikely to exceed 1 mg"
+    rationale: >
+      Switch to dopaminergic/microglial-modulating agent after ~6 months of
+      LDN non-response (still tired daily; extended sleep helps more than LDN).
+      LDA targets unrefreshing sleep and brain fog (Crosby2021LDA domains).
+    prescriber: "Dr. Nicolas"
+    monitoring: >
+      Prescriber's efficacy-assessment window: 6 weeks (clinical experience).
+      Watch early adverse effects: akathisia/restlessness, agitation, sleep
+      disruption, nausea. Metabolic baseline (fasting glucose, HbA1c, insulin,
+      lipids) and CYP2D6 status recommended per paper but not yet documented.
+    notes: >
+      0.5-1 mg requires compounding pharmacy (standard tablets >=2 mg).
+      Dose ceiling (~1 mg) is within Crosby2021 range (mean 1.1 mg/day).
+
+  - date: 2026-07-09
+    medication: "Low-Dose Naltrexone (LDN)"
+    action: assessment
+    status: "non-response over ~6 months"
+    notes: >
+      Patient reports persistent daily fatigue on LDN; extended sleep provides
+      significantly more relief than LDN has for ~6 months. Prior 4.5 mg
+      intolerance episode (Mar 2026) was dose-related, but subsequent adequate
+      trial at tolerated doses (3.5-4 mg) shows no meaningful benefit.
+      Considered an adequate trial; basis for switching to LDA.
   - date: 2026-05-22
     medication: "Low-Dose Naltrexone (LDN)"
     action: dose increase

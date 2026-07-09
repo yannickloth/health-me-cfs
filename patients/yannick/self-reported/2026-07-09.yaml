@@ -1,0 +1,55 @@
+date: 2026-07-09
+symptoms:
+  energy: low
+  brain_fog: null
+  pain: null
+  sleep_quality: non-restorative
+  orthostatic_intolerance: null
+  pem_active: null
+  pem_severity: null
+  pem_trigger: null
+
+sleep:
+  pattern: |
+    Requires a lot of sleep and still wakes tired. At least ~6h at night
+    PLUS ~6h during the day (~12h/24h total) and still feels fatigued.
+    Extended sleep is the single most effective intervention to date —
+    subjectively helps significantly more than LDN.
+  refreshment: poor
+
+medications:
+  - name: Low-Dose Naltrexone (LDN)
+    dose: 4mg
+    assessment: "~6 months non-response"
+
+observations:
+  - pattern: |
+      LDN non-response: after ~6 months, persistent daily fatigue with no
+      meaningful benefit from LDN. Earlier 4.5 mg intolerance (Mar 2026) was
+      dose-related; trial at tolerated 3.5-4 mg still shows no clear benefit.
+      Considered an adequate trial. Basis for switching to low-dose
+      aripiprazole (LDA).
+  - pattern: |
+      Non-restorative sleep as primary lever: ~12h sleep/24h still leaves
+      patient tired. This targets the domain LDA improved most in Crosby2021
+      (unrefreshing sleep -2.05, p<0.001; brain fog -2.33), giving a
+      mechanistic rationale for the LDA trial beyond "LDN failed."
+  - pattern: |
+      Unresolved sleep-architecture question (alpha-intrusion, per
+      2026-05-19 consultation) may independently explain non-restorative
+      sleep. Polysomnography worth considering regardless of LDA outcome.
+
+plan:
+  - "Start LDA 2026-07-10: 0.5 mg/day, then 1 mg/day if tolerated (ceiling ~1 mg, Dr. Nicolas)."
+  - "Prescriber efficacy window: 6 weeks (his clinical experience)."
+  - "Recommended before/near start (per paper, not yet documented): metabolic baseline (fasting glucose, HbA1c, insulin, lipids); CYP2D6 status (poor-metabolizer = contraindicated)."
+  - "0.5-1 mg needs compounding pharmacy (standard tablets >=2 mg)."
+  - "During 6-week trial: log cognition, sleep refreshment, side effects (akathisia, nausea), and PEM episodes so a crash week is not misread as non-response."
+
+notes: |
+  Discussion summary: LDN judged an adequate ~6-month trial with non-response;
+  switching to low-dose aripiprazole. Sleep is the strongest positive
+  responder and overlaps LDA's best-evidenced domains, supporting the switch.
+  LDA rated WEAK-theoretical in the paper; informed consent re: uncertain
+  evidence. Records previously reflected only the Mar 2026 LDN dose
+  intolerance, not the 6-month non-response now documented here.
