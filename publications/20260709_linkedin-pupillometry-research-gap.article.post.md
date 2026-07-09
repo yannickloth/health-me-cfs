@@ -1,4 +1,4 @@
-There is a study that could tell ME/CFS patients whether their autoantibody test result means real autonomic impairment — or harmless antibodies that shouldn't guide treatment. It has never been done. It should be, because it's cheap, fast, and the answer matters directly to patients.
+Can a 30-second pupil measurement tell a doctor whether a patient's autonomic nervous system is impaired — and whether the autoantibodies found in their blood are causing it? We don't know, because the study has never been done. It should be: cheap, fast, and the answer matters directly to patients.
 
 Here's why.
 
