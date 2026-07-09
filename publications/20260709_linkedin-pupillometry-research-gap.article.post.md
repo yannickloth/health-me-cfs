@@ -1,4 +1,4 @@
-A 30-second pupil measurement could tell ME/CFS patients whether their autoantibody test result is real — or an artifact that shouldn't guide treatment. The study has never been done. It should be, because it's cheap, fast, and the answer matters directly to patients.
+There is a study that could tell ME/CFS patients whether their autoantibody test result means real autonomic impairment — or harmless antibodies that shouldn't guide treatment. It has never been done. It should be, because it's cheap, fast, and the answer matters directly to patients.
 
 Here's why.
 
