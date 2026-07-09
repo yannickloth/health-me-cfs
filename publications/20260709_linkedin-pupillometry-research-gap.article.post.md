@@ -6,7 +6,7 @@ Your pupil constricts and dilates through two specific receptors: M3 muscarinic 
 
 These are the exact receptors targeted by GPCR autoantibodies found in many ME/CFS patients. But here is the problem: one set of studies (ELISA) says the antibodies are present and correlate with symptoms. The largest screen ever done (REAP + Luminex, 7,500 antibody-antigen interactions) says they don't exist. The methods disagree. Nobody knows which is right.
 
-This is not an academic dispute. Patients with positive autoantibody tests are making real treatment decisions based on those results. They should not have to guess whether the test is real or an artifact.
+This is not an academic dispute. Patients with positive autoantibody tests are making real treatment decisions based on those results. They deserve to know whether those antibodies are actually impairing their autonomic function — or are harmless bystanders that no treatment should target.
 
 A pupillometry study would resolve this. If the antibodies are real and functional, the pupil should be abnormal. If they're harmless or absent, it should be normal. The answer tells you whether treatment is mechanistically justified or a waste of time and risk.
 
