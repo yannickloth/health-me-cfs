@@ -86,7 +86,7 @@
             java --source 25 src/main/java/web/BuildWeb.java
 
             # Copy bib files for Quarto
-            cp -r src/main/typst/mecfs/bib/ web/bib/
+            cp -r src/main/typst/mecfs/bib/* web/bib/
 
             # Verify no orphaned labels in generated .qmd files
             java --source 25 src/test/java/web/QmdLabelAuditTest.java
@@ -118,7 +118,7 @@
             java --source 25 src/main/java/web/BuildWeb.java
 
             # Copy bib files for Quarto
-            cp -r src/main/typst/mecfs/bib/ web/bib/
+            cp -r src/main/typst/mecfs/bib/* web/bib/
 
             # Verify no orphaned labels in generated .qmd files
             java --source 25 src/test/java/web/QmdLabelAuditTest.java
