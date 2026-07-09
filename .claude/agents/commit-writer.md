@@ -59,9 +59,11 @@ git diff --stat
 git diff
 ```
 
-### 2. Check for Multi-Purpose Changes
+### 2. Check for Multi-Purpose Changes + Foreign/Pre-Staged Files
 
-Changes span unrelated areas → warn user; offer split.
+Two distinct semantic judgments (this is why this agent is Sonnet, not Haiku — these need nuance, not mechanical matching):
+
+**(a) Do all staged files belong in ONE commit?** Changes span unrelated concerns → warn user; offer split.
 
 ```
 ⚠️ MULTIPLE CHANGES DETECTED
@@ -77,6 +79,20 @@ These could be:
 
 Recommendation: [your judgment based on relatedness]
 ```
+
+**(b) Foreign pre-staged file detection (MANDATORY — a parallel session's files may already be staged).**
+`git commit` commits *everything staged*, not only what you just `git add`ed. Before committing:
+
+```bash
+git diff --cached --name-only   # the ACTUAL commit contents
+```
+
+For each staged path, judge semantically whether it belongs to *this* commit's stated scope. Watch for the subtle cases Haiku would miss:
+- a file in the same directory tree as your topic but authored by another cycle (e.g. another topic's chapter under the same `part*/`),
+- a shared file (`bib/*.bib`, `changelog.typ`, `hypothesis-registry.typ`) carrying *another* cycle's entries,
+- unrelated `web/`, blog, or config files left staged by a concurrent session.
+
+Any staged file NOT part of this commit's scope → unstage it with `git restore --staged <file>` (index-only, safe, rewrites no history). Re-run `git diff --cached --name-only` and confirm it equals the intended set exactly before proceeding. Do NOT `git reset`, `--amend`, or rebase to fix scope.
 
 If splitting:
 ```bash
@@ -130,9 +146,11 @@ nix build
 # Secret detection
 git diff --cached | grep -iE "(password|secret|api.?key|token|credential)" && echo "⚠️ Possible secrets detected!"
 
-# Verify staged content
-git diff --cached --stat
+# Verify staged content == intended scope (foreign-file guard, see Step 2b)
+git diff --cached --name-only
 ```
+
+**PDF handling (provenance, not extension):** commit *source-copy* PDFs (a genuine copy of an external artifact we did NOT generate — `Literature/**` cited papers, guidelines, downloaded references) and published/release artifacts; exclude *build-generated* PDFs (`result/**`, `src/**` Typst/LaTeX output). Test: "Could the build recreate this byte-for-byte from in-repo source? Yes → exclude, No → commit." A source PDF is irreplaceable content — never skip it.
 
 ## Output Format
 
@@ -165,8 +183,12 @@ Critique: type correct? scope specific enough? summary captures "why"? body usef
 ## Constraints
 
 - NEVER commit without reviewing staged changes first
+- ALWAYS run `git diff --cached --name-only` and confirm every staged file belongs to this commit's scope BEFORE committing (foreign pre-staged files get swept in otherwise)
+- NEVER `git reset`, `git commit --amend`, `git rebase`, or force-push to fix scope/mistakes — unstage with `git restore --staged <file>` (index-only) and make new commits; history rewriting on a shared branch drops concurrent sessions' work
+- NEVER use `git add -A` / `git add .` — stage explicit paths only
 - NEVER commit if build fails (content changes)
 - NEVER commit files with secrets
+- COMMIT source-copy PDFs (`Literature/**`); EXCLUDE build-generated PDFs
 - ALWAYS use HEREDOC for multi-line messages
 - ALWAYS include Co-Authored-By line
 - PREFER atomic commits (one logical change)
