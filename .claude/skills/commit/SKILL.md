@@ -111,9 +111,16 @@ Per group:
 ## Step 5 — Execute
 
 Per commit in order:
-1. `git add <specific files>` — stage only this commit's files
-2. `git commit -m "$(cat <<'EOF' ... EOF)"` — commit with drafted message
-3. Verify with `git status` — nothing unexpected staged
+1. `git add <specific files>` — stage only this commit's files.
+2. **Pre-commit staging check (MANDATORY — catches parallel-session contamination):** run `git diff --cached --name-only` and confirm the staged set contains ONLY this commit's intended files. `git commit` commits *everything staged*, not just what you just added — a parallel session may have left **foreign files pre-staged** (shown as `A `/`M ` in the first column of `git status --short`). Unstage any foreign file with `git restore --staged <file>` (index-only; NOT history rewriting, safe). Only proceed when `git diff --cached --name-only` == your intended file list exactly.
+3. **Cohesion check (MANDATORY — staged files must belong together):** before committing, verify the staged set is one logical change, not a bundle.
+   - Inspect content, not just names: `git diff --cached` (or `--stat` for large sets) to confirm each file's change serves the *same* concern.
+   - IVP test: do all staged files share the same change driver? (same fix / same feature / same section / same infra concern). If a file would need to change for a *different* reason than the others, it does **not** belong in this commit.
+   - "and" test: if the drafted subject needs "and" to describe the staged set → the set is not cohesive → split.
+   - On failure: `git restore --staged <outlier>` to defer it to its own commit; re-run this check until the staged set is cohesive.
+   - Only proceed when every staged file demonstrably belongs to this one logical change.
+4. `git commit -m "$(cat <<'EOF' ... EOF)"` — commit with drafted message.
+5. Verify with `git status` — nothing unexpected committed; foreign files still unstaged/untracked for their owning session.
 
 After all commits: show `git log --oneline -N` (N = commits made).
 

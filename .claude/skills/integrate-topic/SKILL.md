@@ -55,12 +55,14 @@ Multiple `/integrate-topic` cycles may run against the same repo concurrently. H
 
 | Operation | Rule |
 |-----------|------|
-| `git reset --hard`, `git reset` to a prior commit | ✗ **FORBIDDEN** on the shared branch, always. Rollback = `git revert` (new commit) or restore specific files with `git checkout <ref> -- <file>`. |
+| `git reset --hard`, `git reset` to a prior commit | ✗ **FORBIDDEN** on the shared branch, always. Rollback = restore specific files with `git checkout <ref> -- <file>` (index/worktree only, no history change). |
 | `git rebase` (any form) | ✗ **FORBIDDEN** on the shared branch, always. |
 | `git commit --amend` | ✗ **FORBIDDEN** on any commit — even your own, even "unpushed". A parallel commit may already build on it. Fix = new commit. |
-| squash / "rewrite in Phase 13" | ✗ **FORBIDDEN.** Ship WIP checkpoints as-is or drop them via scratch-branch discard (below). Never squash shared-branch history. |
+| squash / "rewrite in Phase 13" | ✗ **FORBIDDEN.** There are no WIP *commits* to squash (checkpoints are pointers — see below). Never squash or rewrite shared-branch history. |
 | `git push --force` | ✗ **FORBIDDEN.** |
+| `git revert` | ⚠ Use only to undo YOUR OWN most-recent commit when no parallel commit builds on it; on interleaved history it can clobber another cycle's changes. Prefer file-level `git checkout <ref> -- <file>` + a new corrective commit. |
 | `git add -A` / `git add .` | ✗ **FORBIDDEN.** Always stage by explicit per-topic file list (sweeps other cycles' files otherwise). |
+| `git restore --staged <file>` / unstaging a specific path | ✓ **Allowed** — index-only, changes no history. Use to remove a foreign pre-staged file before committing. |
 
 **Concurrency detection (run before ANY commit/checkpoint):** `git status --short`. If files outside this cycle's explicit plan file-list appear as modified/untracked → **another cycle is active → CONCURRENT mode.** Treat CONCURRENT as a stricter MIXED mode for all git operations.
 
@@ -1036,7 +1038,7 @@ Between passes: run `nix build` — confirm no regressions from fixes.
 
 **Gate C — Review surfaces missing topic:** If any review finding identifies a missing mechanism, pathway, or body of evidence that constitutes a *distinct ME/CFS-relevant topic* (not just a missing citation or clarification) → pause and ask the user: "Review identified a missing topic (`<topic-gap>`). Address inline, queue as `/integrate-topic <topic-gap>`, or ignore?" Add any queued topic to `ops/queued-topics.md`. Wait for answer before continuing.
 
-**Context:** Pipeline is long. Context >35% before reviews complete → generate continuation prompt per CLAUDE.md; hand off to fresh session. Include: phases completed, files modified, review passes remaining, checkpoint commit hash, queue file path.
+**Context:** Pipeline is long. Context >35% before reviews complete → generate continuation prompt per CLAUDE.md; hand off to fresh session. Include: phases completed, files modified, review passes remaining, current HEAD hash + any scratch checkpoint pointers (`wip/<topic-slug>-preN`), queue file path.
 
 **Post-convergence update:** Update Phase 9's `SLOW-CONVERGENCE` flag retroactively based on actual round counts.
 
