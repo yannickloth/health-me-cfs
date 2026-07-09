@@ -85,7 +85,20 @@ If so, the M-MDSC compartment has already been implicitly identified in ME/CFS b
 
 *Limitations:* The Iu 2024 panel did not include HLA-DR or CD33 specifically for MDSC gating; retrospective analysis would require stored samples. PD-L1 upregulation on monocytes occurs in many contexts (LPS, IFN-γ, complement activation) independent of MDSC biology; the overlap is phenotypic rather than functional. Not replicated; this is a testable retroactive hypothesis.
 ] <spec:pd-l1-mdsc-overlap>
-Two recent single-cell transcriptomic studies strengthen the T cell exhaustion
+
+#speculation(title: [Tear-Fluid T-Cell Dysregulation as an Accessible Readout of Systemic Immune Reprogramming])[
+*(Origin: literature synthesis.)* *(Certainty: 0.35 — direct tear--blood signature concordance demonstrated in post-COVID ocular syndrome; extension to ME/CFS is inference.)* Moustardas et al.\ (2026) reported that the tear fluid of patients with persistent post-COVID ocular symptoms carries a CD4+ T-cell dysregulation proteomic signature (ITGB6, NFASC, ANGPTL2, SKAP2, DAPP1) matching protein patterns previously documented in blood and tissue in _severe and fatal_ COVID-19 @moustardas2026ocular. This concordance suggests tear fluid — trivially and non-invasively sampled — can mirror the systemic T-cell dysregulation otherwise requiring blood draws or tissue biopsy.
+
+If the T-cell exhaustion and reprogramming documented in ME/CFS blood (Hypothesis @hyp:tcell-exhaust-ev-downstream) is systemic rather than compartment-restricted, an analogous tear signature might be detectable in ME/CFS, offering a low-burden longitudinal immune biomarker especially valuable for severe and bedbound patients for whom repeated venepuncture is difficult. This is an inference: no tear proteomics has been performed in a criteria-defined ME/CFS cohort, and the Moustardas cohort was selected for ocular symptoms, not ME/CFS criteria.
+
+*Falsifiable prediction:* Tear-fluid proteomics in ME/CFS patients versus matched controls will reveal a CD4+/CD8+ T-cell dysregulation signature correlating with blood T-cell exhaustion markers (PD-1, TCF7 chromatin state) within individuals. Falsified if tear proteomes are indistinguishable from controls in patients with documented blood T-cell exhaustion.
+
+*Limitations:* Entirely untested in ME/CFS. Tear--blood concordance shown only in a selected post-COVID ocular-symptom cohort. Tear composition varies with ocular surface disease, diet, environment, and sleep — all confounders in ME/CFS. Mechanism of spillover (active secretion vs passive leakage vs local ocular immune response) unknown.
+
+*Consequence:* If confirmed, a tear sample — collectable at home without a needle — could track immune status in ME/CFS, making immune-focused trials feasible in the severe patients usually excluded by blood-draw burden. This is currently an untested research proposal, not a clinical test.
+] <spec:tear-tcell-readout>
+
+Two recent single-cell transcriptomic studies strengthen the T cell exhaustion
 finding.  Mayer et al.\ (2025) constructed a scRNA-seq atlas of 336,269
 T lymphoid cells from 28 ME/CFS patients and 30 controls, demonstrating
 transcriptional reprogramming of CD8+ T cells toward exhaustion that is

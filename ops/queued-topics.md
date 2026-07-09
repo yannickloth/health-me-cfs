@@ -4,4 +4,6 @@ Topics queued for standalone `/integrate-topic` cycles, pending completion of th
 
 | Topic slug | Parent topic | Rationale | Gate source | Date queued | Status |
 |------------|-------------|-----------|-------------|-------------|--------|
-| (empty — no topics queued yet) |
+| ocular-sjogren-mecfs-overlap | postcovid-ocular-syndrome | Sjögren's has own ≥5-paper tear-proteomics + SFN + fatigue literature; existing autoimmune-sjogren subtree stub. Shared M3 muscarinic autoantibody / sicca mechanism with ME/CFS. | A (scope-escalation) | 2026-07-09 | ⬜ queued |
+| pupillometry-autonomic-biomarker-mecfs | postcovid-ocular-syndrome | Pupillometry as objective autonomic-dysfunction biomarker — own literature (Smit 2026 n=526, migraine/fibromyalgia/PCS studies); cross-disease method topic. | A (scope-escalation) | 2026-07-09 | ⬜ queued |
+| corneal-confocal-cross-disease-sfn | postcovid-ocular-syndrome | Corneal confocal microscopy as SFN biomarker across diabetic neuropathy, fibromyalgia, MS, ME/CFS — own methodology literature; specificity/cross-validation topic. | A (scope-escalation) | 2026-07-09 | ⬜ queued |

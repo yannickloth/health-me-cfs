@@ -45,6 +45,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| postcovid-ocular-syndrome | [subtrees/postcovid-ocular-syndrome.md](subtrees/postcovid-ocular-syndrome.md) | 2026-07-09 | 35 | 2 | ✅ done |
 | ige-sensitization-spike-tick-neuroinflammation | [subtrees/ige-sensitization-spike-tick-neuroinflammation.md](subtrees/ige-sensitization-spike-tick-neuroinflammation.md) | 2026-06-24 | 13 | 8 | ✅ done |
 | mast-cell-ige-connective-tissue | [subtrees/mast-cell-ige-connective-tissue.md](subtrees/mast-cell-ige-connective-tissue.md) | 2026-06-19      | 46         | 0          | ⬜ pending     |
 | rf-elevated-mecfs     | [subtrees/rf-elevated-mecfs.md](subtrees/rf-elevated-mecfs.md)        | 2026-06-19      | 36         | 8          | ⬜ pending     |

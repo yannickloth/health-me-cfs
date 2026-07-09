@@ -676,3 +676,13 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (33 queries, batch) | pubmed/eutils | 2026-06-24 | — | content-staging/search-log-extracellular-vesicles-rydland-2026-2026-06-24.md, bib/immune.bib (11 entries), appendix-h — Extracellular vesicles ME/CFS literature (11 papers, Rydland 2026 focus) |
+
+## Post-COVID Ocular Syndrome (Moustardas 2026) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| DOI resolver | 2026-07-09 | Primary paper DOI 10.1038/s41467-026-74858-4 |
+| PubMed (E-utilities API) | 2026-07-09 | 13 queries: ocular symptoms, pupillometry, corneal confocal, tear proteomics, strabismus/accommodation, dry eye, T-cell tear film, SFN-ME/CFS-corneal |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://doi.org/10.1038/s41467-026-74858-4 | doi.org | 2026-07-09 | — | content-staging/lit-summary-postcovid-ocular-syndrome-2026-07-09.md, content-staging/search-log-postcovid-ocular-syndrome-2026-07-09.md, bib/neurology-comorbidities.bib (4 new entries), appendix-h — Post-COVID ocular syndrome literature (7 papers: 4 new + 3 pre-existing reused) |

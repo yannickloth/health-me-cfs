@@ -24600,3 +24600,92 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Gene-gene interaction between inflammatory signaling and SERT
     *ME/CFS Relevance:*: Parallel model for cytokine-driven fatigue; demonstrates SERT genetics modulate fatigue susceptibility
     *Certainty:*: 0.65
+
+// =============================================================================
+
+== Post-COVID Ocular Syndrome
+<sec:bib-postcovid-ocular>
+// =============================================================================
+
+=== Moustardas et al.\ 2026 — Long-Term Ocular Symptoms After COVID-19
+
+    *Full Citation:*: Moustardas P, Setterud H, Meijer H, Andersson G, Roth J, Dashti A, Johansson B, Macedo AF, Lagali N. Long-term ocular symptoms following COVID-19 linked to immune dysregulation, dysautonomia and peripheral neuropathy. _Nature Communications_. 2026;17(1):5624. @moustardas2026ocular
+    *DOI:*: #link("https://doi.org/10.1038/s41467-026-74858-4")[10.1038/s41467-026-74858-4]
+    *PMID:*: 42420292
+    *Published:*: July 8, 2026
+    *Study Design:*: Prospective cross-sectional observational study
+    *Sample Size:*: n=100 non-hospitalised post-mild-COVID patients with persistent ocular symptoms (3mo–3yr), n=32 mild-COVID controls without ocular symptoms
+    *Key Findings:*:
+        - 1 in 3 patients on full/part-time sick leave due to ocular disability
+        - Standard ophthalmic exams (visual acuity, slit-lamp, fundoscopy) normal; abnormalities only on specialised testing
+        - Near vision disturbances, adult-onset strabismus, weakened autonomic pupillary reflexes, corneal neurodegeneration (reduced nerve fiber density), chronic activation of ocular surface dendritic/T cells (corneal confocal microscopy)
+        - Tear fluid proteomics: abnormal pattern of nerve-regulating and T-cell-regulating proteins; same protein pattern found in blood/tissue of severe/fatal COVID (other studies)
+        - Upregulation of ITGB6, NFASC, CTGF, TPSAB1, CKMT1A-CKMT1B
+        - Pupil dysfunction correlated with elevated JUN; dendritic/T-cell dysregulation correlated with ANGPTL2, SKAP2, DAPP1
+        - Two diagnostic models proposed: instrument-only (eye clinic measurements, ~77% accuracy) and instrument + tear proteomics (~91% accuracy)
+    *Conclusion:*: Post-COVID ocular syndrome is a debilitating condition driven by immune dysregulation, dysautonomia, and peripheral neuropathy manifesting in the eye. Tear proteomics implicates chronic T-cell-mediated neuroinflammation. Requires specialised testing for diagnosis; standard ophthalmic exams are insufficient.
+    *Limitations:*: Cross-sectional design; single center (Linköping, Sweden); non-hospitalised cohort only; no ME/CFS subgroup analysis; controls were mild-COVID without ocular symptoms (not infection-naïve). Diagnostic models need external validation.
+    *ME/CFS Relevance:*: Directly demonstrates small-fiber neuropathy, dysautonomia, and immune dysregulation in a post-COVID cohort. The tear proteomic signature (T-cell dysregulation, nerve-regulatory proteins) parallels mechanisms implicated in ME/CFS. Documented corneal nerve degeneration provides accessible tissue-level window into small-fiber pathology shared with ME/CFS. Self-report photophobia + accommodation deficits overlap with ME/CFS cognitive/visual symptoms.
+    *Certainty Assessment:*:
+        - *Quality:* High (Nature Communications; prospective; multimodal: clinical, imaging, proteomics, diagnostic modeling)
+        - *Sample:* Medium (n=132 total; n=100 POS, n=32 controls)
+        - *Replication:* Single study — not yet independently replicated
+        - *Score:* 0.75
+
+=== Smit et al.\ 2026 — Altered Pupillary Dynamics in Post-COVID Syndrome
+
+    *Full Citation:*: Smit A, Fleischmann P, Knauer TS, Mardin CY, Michelson G, Zott J, Güttes M, Sarmiento H, Ilgner M, Jakobi M, Rech J, Hohberger B. Task-evoked pupillary dynamics are altered in post-COVID syndrome. _Medical Sciences_. 2026;14(2):269. @smit2026pupillary
+    *DOI:*: #link("https://doi.org/10.3390/medsci14020269")[10.3390/medsci14020269]
+    *PMID:*: 42201061
+    *Study Design:*: Cross-sectional pupillometry study using VR-based stereoscopic task
+    *Sample Size:*: n=397 PCS patients, n=129 healthy controls
+    *Key Findings:*:
+        - Index of Pupillary Activity (IPA) significantly lower in PCS at all three task difficulty levels ($beta = -0.111$, 95% CI $-0.160$ to $-0.062$, $p < 0.001$)
+        - Low/High IPA (LHIPA) also significantly lower ($beta = -0.164$, 95% CI $-0.253$ to $-0.074$, $p < 0.001$)
+        - Lower task difficulty associated with higher pupillary metrics (inverse difficulty-IPA relationship)
+        - Age negatively associated; male sex positively associated
+        - No significant interaction between cohort and task difficulty
+    *Conclusion:*: Post-COVID syndrome is associated with reduced task-evoked pupillary dynamics, suggesting altered autonomic regulation of pupillary function that may serve as objective marker for cognitive-load processing deficits.
+    *Limitations:*: Cross-sectional; single VR-based task; PCS diagnosis per self-report without laboratory confirmation; IPA/LHIPA as surrogate markers require validation against clinical pupillometry standards.
+    *ME/CFS Relevance:*: Directly demonstrates pupil dysfunction as objective marker of autonomic dysregulation in a post-infectious syndrome overlapping with ME/CFS. Complements Moustardas 2026 pupillary findings with a larger cohort and quantitative task-evoked paradigm. Supports pupillometry as non-invasive biomarker for autonomic dysfunction.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed, large n, controlled design)
+        - *Sample:* Large (n=526)
+        - *Replication:* Single study with novel methodology
+        - *Score:* 0.65
+
+=== Johansson et al.\ 2022 — Visual Function in Post-COVID Neurorehabilitation
+
+    *Full Citation:*: Johansson J, Levi R, Jakobsson M, Gunnarsson S, Samuelsson K. Multiprofessional neurorehabilitation after COVID-19 infection should include assessment of visual function. _Archives of Rehabilitation Research and Clinical Translation_. 2022;4(2):100184. @johansson2022visual
+    *DOI:*: #link("https://doi.org/10.1016/j.arrct.2022.100184")[10.1016/j.arrct.2022.100184]
+    *PMID:*: 35434699
+    *Study Design:*: Cross-sectional observational study in neurorehabilitation setting
+    *Key Findings:*:
+        - High prevalence of convergence insufficiency and accommodative dysfunction in post-COVID patients referred for neurorehabilitation
+        - Visual processing deficits contributing to reading difficulty, concentration problems, and fatigue
+        - Visual symptoms often overlooked in standard post-COVID assessment protocols
+    *Conclusion:*: Visual function assessment should be routinely included in post-COVID neurorehabilitation.
+    *Limitations:*: Small sample; referral bias (neurorehabilitation population); no control group; not specific to ocular sequelae of COVID-19 vs. general post-viral visual dysfunction.
+    *ME/CFS Relevance:*: Documents convergence insufficiency and accommodative dysfunction in post-COVID patients — the same near-vision deficits that Moustardas 2026 found to be hallmark features of post-COVID ocular syndrome. Supports the eye muscle nerve-control hypothesis (cranial nerve III/IV/VI involvement in post-infectious dysautonomia).
+    *Certainty Assessment:*:
+        - *Quality:* Low-Medium (small, uncontrolled, rehabilitation setting)
+        - *Sample:* Small
+        - *Score:* 0.40
+
+=== Naseri et al.\ 2025 — Dry Eye Disease Post-COVID: Systematic Review
+
+    *Full Citation:*: Naseri A, Fard MA, Zarei M, Jabbarvand M, Taheri F. Prevalence and risk factors of dry eye disease after COVID-19: a systematic review and meta-analysis. _International Ophthalmology_. 2025;45(1):134. @naseri2025dryeye
+    *DOI:*: #link("https://doi.org/10.1007/s10792-025-03532-9")[10.1007/s10792-025-03532-9]
+    *Study Design:*: Systematic review and meta-analysis
+    *Key Findings:*:
+        - Pooled prevalence of dry eye disease significantly elevated after COVID-19
+        - Risk factors: female sex, acute disease severity, longer recovery period
+        - Dry eye symptoms persisted in a substantial subset beyond 6 months
+    *Conclusion:*: Dry eye disease is a common long-term ocular complication of COVID-19.
+    *Limitations:*: Heterogeneity across included studies; publication bias possible; limited longitudinal data.
+    *ME/CFS Relevance:*: Establishes the prevalence of ocular surface disease post-COVID, providing epidemiological context for Moustardas 2026 findings. Dry eye in ME/CFS may share similar mechanisms (autonomic dysfunction reducing lacrimal secretion, neuroinflammation affecting corneal nerves).
+    *Certainty Assessment:*:
+        - *Quality:* Medium (systematic review/meta-analysis)
+        - *Sample:* Large (pooled across studies)
+        - *Replication:* Multiple studies included
+        - *Score:* 0.55

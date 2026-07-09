@@ -3297,3 +3297,39 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [Proof-of-mechanism trial is immediately feasible using approved drug with established MCAS safety. Positive result would justify an RCT; negative result would redirect research away from IgE pathway. No clinical recommendation outside trial setting.],
   limitation: [Therapeutic probe only tests IgE pathway, not MC→CT chain itself. If dominant degranulation is MRGPRX2/complement/TLR-mediated, omalizumab will be negative even if MC→CT chain is correct. Single-arm open-label design limits causal inference.],
 )
+#registry-entry(
+  [Post-COVID Ocular Syndrome as a Dysautonomia–SFN–Immune Triad Instance in Accessible Tissue],
+  type: "H",
+  certainty: "0.65",
+  evidence: [Moustardas et al. (2026, Nature Communications, n=100 post-COVID ocular, n=32 controls) found: standard eye exam normal, yet specialised testing revealed corneal neurodegeneration + dendritic/T-cell activation (confocal microscopy), weakened pupillary reflexes, adult-onset strabismus, and a tear CD4+ T-cell dysregulation proteomic signature matching severe/fatal COVID tissue patterns. Two diagnostic models (77–91% accuracy). Smit et al. (2026, n=397 PCS, n=129 controls) confirmed pupillary autonomic dysregulation (IPA/LHIPA reduced, $p < 0.001$) @smit2026pupillary. Already corroborated by Cañadas 2023 (corneal confocal long COVID) @Cañadas2023CornealConfocal and Azcue 2025 (corneal tortuosity ME/CFS) @Azcue2025sfn. Origin: literature-derived.],
+  citations: [@moustardas2026ocular @smit2026pupillary @Cañadas2023CornealConfocal @Azcue2025sfn @johansson2022visual @naseri2025dryeye],
+  mechanism: [Mild COVID-19 → chronic T-cell-mediated neuroinflammation → (a) corneal small-fiber degeneration, (b) autonomic pupillary/oculomotor dysfunction, (c) immune dysregulation detectable in tear fluid. Triad = dysautonomia + small-fiber neuropathy + T-cell dysregulation — the same three-chamber cascade the paper's causal hierarchy identifies as propagating CNS energy failure to end-organs (Chapter @ch:causal-hierarchy). Eye = tissue where all three are non-invasively measurable.],
+  chapter-ref: [ch08:@cf:postcovid-ocular-syndrome, ch03:sec-10-ocular, ch07:@spec:tear-tcell-readout],
+  prediction: [A criteria-defined ME/CFS cohort subjected to the same multimodal protocol (corneal confocal, pupillometry, tear proteomics) will show reduced corneal nerve fibre density (≥20% below matched controls), reduced pupillary light-reflex amplitude or constriction velocity (≥25% below controls), and a tear proteomic classifier separating patients from controls at AUC ≥0.75. Falsified if patients with documented dysautonomia and SFN have corneal nerve density, pupillary reflexes, and tear proteomes statistically indistinguishable from controls.],
+  treatment: [No treatment tested. Diagnostic models (77–91% accuracy) suggest objective biomarkers are feasible.],
+  limitation: [Moustardas cohort was selected for ocular symptoms, not ME/CFS criteria. Tear proteomics not performed in any ME/CFS cohort. Single study, unreplicated. Dry eye and convergence insufficiency are confounders (e.g. increased screen use post-virally). No causative mechanism established — correlational.],
+)
+#registry-entry(
+  [Tear-Fluid Proteomics as Low-Burden Immune Biomarker Window for Severe ME/CFS],
+  type: "S",
+  certainty: "0.30",
+  evidence: [Moustardas et al. (2026) demonstrated that tear CD4+ T-cell dysregulation proteomics matches blood/tissue signatures from severe/fatal COVID @moustardas2026ocular. Tear fluid is collectable non-invasively — no needle, no clinic visit required. T-cell exhaustion and immune dysregulation are documented in ME/CFS blood @iu2024tcell_exhaustion @walitt2024deep but no tear study exists. Origin: literature-derived inference.],
+  citations: [@moustardas2026ocular @iu2024tcell_exhaustion @walitt2024deep],
+  mechanism: [Systemic T-cell dysregulation → spillover into lacrimal gland/tear fluid → detectable proteomic signature. Tear fluid mirrors systemic immune state for some compartments (shown for post-COVID; unverified for ME/CFS).],
+  chapter-ref: [ch07:@spec:tear-tcell-readout, ch08:@cf:postcovid-ocular-syndrome],
+  prediction: [Tear proteomics in ME/CFS shows CD4+/CD8+ dysregulation signature correlating with blood T-cell exhaustion markers (PD-1 expression, TCF7 state) within individuals. Falsified if tear and blood signatures are uncorrelated.],
+  treatment: [No treatment proposed. If validated, tear biomarkers would enable home-collection immune monitoring in trials enrolling severe/bedbound patients normally excluded by phlebotomy burden.],
+  limitation: [Entirely untested in ME/CFS. Tear-blood concordance shown only for a selected post-COVID ocular-symptom cohort. Tear composition varies with ocular surface condition (dry eye, blepharitis), diet, environment, and sleep — all confounders in ME/CFS. Mechanism of spillover (active secretion vs passive leakage vs local ocular immune response) unknown.],
+)
+#registry-entry(
+  [Adult-Onset Strabismus as Clinical Sign of Oculomotor Nerve Involvement in Post-Infectious Syndromes],
+  type: "H",
+  certainty: "0.45",
+  evidence: [Moustardas et al. (2026) found adult-onset strabismus (normally a childhood condition) in a subset of post-COVID patients and attributed it to oculomotor nerve involvement @moustardas2026ocular. Strabismus and double vision (diplopia) are documented clinical features of ME/CFS (Chapter 3, sec-10-ocular). Origin: literature-derived.],
+  citations: [@moustardas2026ocular],
+  mechanism: [Oculomotor (CN III), trochlear (CN IV), or abducens (CN VI) nerve dysfunction → impaired extraocular muscle coordination → eye misalignment. Consistent with α3-nAChR autoantibody-mediated autonomic ganglionopathy (Chapter @ch:cardiovascular) and SFN affecting nerve control.],
+  chapter-ref: [ch03:sec-10-ocular, ch08:@cf:postcovid-ocular-syndrome],
+  prediction: [A proportion of ME/CFS patients reporting diplopia (predicted $gt.eq 15%$) will show measurable strabismus ($gt 5$ prism dioptres deviation on cover test) on orthoptic examination with normal extraocular muscle anatomy on imaging (nerve, not muscle). Falsified if $lt 5%$ show measurable deviation, or if diplopia in ME/CFS consistently traces to accommodation fatigue rather than oculomotor misalignment.],
+  treatment: [May respond to prism correction or botulinum toxin, as in conventional strabismus. No ME/CFS-specific trial data.],
+  limitation: [Strabismus in Moustardas cohort is a minority finding — core ocular phenotype is corneal neuropathy + pupillary dysautonomia. Diplopia in ME/CFS more commonly fatigue-related (accommodation failure) than structural misalignment. Nerve-vs-muscle distinction requires specialist orthoptic testing, not available in routine exams. Single study.],
+)
