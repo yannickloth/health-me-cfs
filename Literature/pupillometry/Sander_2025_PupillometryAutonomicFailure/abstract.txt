@@ -1,0 +1,10 @@
+Validation of Monocular Pupillometry in Healthy Controls and Patients With Autonomic Dysfunction: Pupillary Biomarkers for Autonomic Failure.
+
+Sander L, Oommen G, Brophy C, Bohus-Roper S, Chiaro G, Bremner F, Iodice V.
+
+European Journal of Neurology. 2025;32(8):e70320.
+doi: 10.1111/ene.70320
+PMID: 40831073
+
+ABSTRACT:
+Pupillary function is frequently impaired in autonomic disorders, and biomarkers for early diagnosis and disease progression are urgently needed. Pupillometry allows for noninvasive ocular autonomic evaluation. This prospective study technically and clinically validates a handheld monocular pupillometer available for broad application as an autonomic screening tool in autonomic disorders.

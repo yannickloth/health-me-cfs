@@ -24689,3 +24689,868 @@ sec-bib-rf-elevated-mecfs-duplicate
         - *Sample:* Large (pooled across studies)
         - *Replication:* Multiple studies included
         - *Score:* 0.55
+
+// =============================================================================
+
+== Pupillometry as Autonomic Biomarker [pupillometry-autonomic-biomarker-mecfs]
+<sec:bib-pupillometry-autonomic-biomarker>
+// =============================================================================
+
+=== Sander et al.\ 2025 — Validation of Monocular Pupillometry in Autonomic Failure
+
+    *Full Citation:*: Sander L, Oommen G, Brophy C, Bohus-Roper S, Chiaro G, Bremner F, Iodice V. Validation of monocular pupillometry in healthy controls and patients with autonomic dysfunction: pupillary biomarkers for autonomic failure. _European Journal of Neurology_. 2025;32(8):e70320. @sander2025pupillometry
+    *DOI:*: #link("https://doi.org/10.1111/ene.70320")[10.1111/ene.70320]
+    *PMID:*: 40831073
+    *Study Design:*: Prospective validation study
+    *Sample Size:*: Patients with autonomic dysfunction + healthy controls
+    *Key Findings:*:
+        - Handheld monocular pupillometer validated for autonomic screening
+        - PLR parameters (constriction amplitude, constriction latency, dilation velocity) distinguish autonomic failure patients from controls
+        - Normative values established for clinical interpretation
+        - Noninvasive, portable assessment tool suitable for broad clinical application
+    *Conclusion:*: Pupillometry provides validated, noninvasive ocular autonomic evaluation and is suitable as an autonomic screening tool in autonomic disorders.
+    *Limitations:*: Moderate sample size; single study without independent replication; no ME/CFS-specific data.
+    *ME/CFS Relevance:*: Provides validated methodology directly applicable to autonomic assessment in ME/CFS. Establishes normative PLR parameters for comparison.
+    *Certainty Assessment:*:
+        - *Quality:* High (prospective validation, top neurology journal, rigorous methodology)
+        - *Sample:* Medium
+        - *Replication:* Single study
+        - *Score:* 0.70
+
+=== Koay et al.\ 2025 — Multimodal Autonomic Biomarkers Predict Phenoconversion in PAF
+
+    *Full Citation:*: Koay S, Vichayanrat E, Bremner F, Valerio F, Mackenzie R, Chiaro G, Ingle G, McNamara P, Watson L, Panicker JN, Lunn MP, Mathias C, Iodice V. Multimodal autonomic biomarkers predict phenoconversion in pure autonomic failure. _Annals of Clinical and Translational Neurology_. 2025;12(11):2170--2180. @koay2025multimodal
+    *DOI:*: #link("https://doi.org/10.1002/acn3.70140")[10.1002/acn3.70140]
+    *PMID:*: 40696849
+    *Study Design:*: Longitudinal multimodal biomarker study
+    *Key Findings:*:
+        - Pupillometry component of multimodal autonomic panel predicting phenoconversion from PAF to MSA/LBD
+        - Supports role of pupillary assessment in longitudinal autonomic monitoring
+        - Multimodal approach outperforms single-modality assessment
+    *Conclusion:*: Pupillometry contributes to multimodal autonomic biomarker panels capable of predicting disease trajectory.
+    *Limitations:*: PAF-specific population; moderate sample; pupillometry is one component of multimodal panel, not standalone.
+    *ME/CFS Relevance:*: Demonstrates value of pupillometry in longitudinal autonomic assessment and phenoconversion prediction — directly applicable to ME/CFS subgroup stratification.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (longitudinal design, multimodal approach)
+        - *Sample:* Medium
+        - *Replication:* Single study
+        - *Score:* 0.65
+
+=== Parmak Yener et al.\ 2026 — ML-Based Pupillography for Autonomic Dysfunction in MS
+
+    *Full Citation:*: Parmak Yener N, Fırat Y, Seferoğlu M, Kargın AM, Kılıçaslan Y. Exploratory analysis of pupillography-based machine learning for assessing autonomic dysfunction in multiple sclerosis. _Multiple Sclerosis and Related Disorders_. 2026;112:107326. @parmakyener2026pupillography
+    *DOI:*: #link("https://doi.org/10.1016/j.msard.2026.107326")[10.1016/j.msard.2026.107326]
+    *PMID:*: 42322958
+    *Study Design:*: Exploratory ML analysis of pupillographic features
+    *Key Findings:*:
+        - First ML-based analytical framework applied to pupillographic features for autonomic assessment in MS
+        - PLR dynamics quantified via pupillography provide informative features for autonomic dysfunction classification
+        - Demonstrates feasibility of automated PLR-based autonomic screening
+    *Conclusion:*: Pupillography-based ML analysis is feasible for assessing autonomic dysfunction in MS and may generalize to other conditions.
+    *Limitations:*: Exploratory design; moderate sample; novel methodology not yet validated; MS-specific.
+    *ME/CFS Relevance:*: Establishes precedent for automated PLR-based autonomic screening applicable to ME/CFS. ML approach could enable scalable, objective autonomic assessment.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (exploratory, peer-reviewed)
+        - *Sample:* Medium
+        - *Replication:* Single study with novel methodology
+        - *Score:* 0.50
+
+=== Master et al.\ 2020 — PLR Metrics as Biomarker for Adolescent Concussion
+
+    *Full Citation:*: Master CL, Podolak OE, Ciuffreda KJ, Metzger KB, Joshi NR, McDonald CC, Margulies SS, Grady MF, Arbogast KB. Utility of pupillary light reflex metrics as a physiologic biomarker for adolescent sport-related concussion. _JAMA Ophthalmology_. 2020;138(11):1135--1141. @master2020plr
+    *DOI:*: #link("https://doi.org/10.1001/jamaophthalmol.2020.3466")[10.1001/jamaophthalmol.2020.3466]
+    *PMID:*: 32970102
+    *Study Design:*: Cross-sectional diagnostic biomarker study
+    *Sample Size:*: n=352 adolescents (concussed and controls)
+    *Key Findings:*:
+        - PLR metrics validated as objective physiologic biomarker for concussion
+        - PLR distinguishes concussed adolescents from healthy controls with good diagnostic performance
+        - Deficits in visual accommodation and autonomic function after concussion make PLR a promising target biomarker
+        - Provides strong precedent for PLR as neurologic/autonomic biomarker in clinical populations
+    *Conclusion:*: PLR metrics serve as an objective physiologic biomarker for adolescent concussion, supporting broader application of pupillometry in neurologic assessment.
+    *Limitations:*: Concussion-specific; adolescent population; single center.
+    *ME/CFS Relevance:*: Large-scale validation of PLR as objective biomarker establishes precedent and methodology transferable to ME/CFS. Demonstrates that PLR captures central autonomic dysfunction in a clinical population.
+    *Certainty Assessment:*:
+        - *Quality:* High (large sample, high-impact journal, rigorous design)
+        - *Sample:* Large (n=352)
+        - *Replication:* Single study but validates PLR as biomarker paradigm
+        - *Score:* 0.75
+
+=== Egg et al.\ 2002 — Null Finding: Pupillary Unrest Not Associated with MS Fatigue
+
+    *Full Citation:*: Egg R, Högl B, Glatzl S, Beer R, Berger T. Autonomic instability, as measured by pupillary unrest, is not associated with multiple sclerosis fatigue severity. _Multiple Sclerosis_. 2002;8(3):256--260. @egg2002pupillary
+    *DOI:*: #link("https://doi.org/10.1191/1352458502ms793oa")[10.1191/1352458502ms793oa]
+    *PMID:*: 12120699
+    *Study Design:*: Cross-sectional pupillography study
+    *Sample Size:*: n=51 MS patients, n=22 healthy controls
+    *Key Findings:*:
+        - **Null result:** Pupillary unrest index (PUI) inversely correlated with fatigue severity in MS (r = -0.521, p = 0.001) — opposite of the autonomic instability hypothesis
+        - Central autonomic instability as measured by pupillography does NOT explain MS fatigue
+        - Challenges the generic "autonomic dysfunction causes fatigue" narrative
+        - MS patients had significantly higher fatigue scores than controls, yet pupillary unrest was inversely related
+    *Conclusion:*: Autonomic instability, as measured by pupillary unrest, is not associated with MS fatigue severity. The relationship between autonomic function and fatigue may be more complex than simple dysautonomia.
+    *Limitations:*: Older study (2002); small sample; MS-specific (may not generalize); PUI measures spontaneous pupillary oscillations, not stimulated PLR parameters.
+    *ME/CFS Relevance:*: Critical negative control: the autonomic instability → fatigue hypothesis may not hold universally. If pupillary autonomic markers are pursued in ME/CFS, this finding underscores the need for disease-specific validation rather than assuming cross-disease generalizability.
+    *Certainty Assessment:*:
+        - *Quality:* Low-Medium (small sample, older, single study)
+        - *Sample:* Small (n=51 MS + 22 controls)
+        - *Replication:* Single study, not replicated
+        - *Score:* 0.40
+
+=== Drummond and Finch 2022 — Pupillary Reflexes in CRPS: Locus Coeruleus Deficit
+
+    *Full Citation:*: Drummond PD, Finch PM. Pupillary reflexes in complex regional pain syndrome: asymmetry to arousal stimuli suggests an ipsilateral locus coeruleus deficit. _Journal of Pain_. 2022;23(1):131--140. @drummond2022crps
+    *DOI:*: #link("https://doi.org/10.1016/j.jpain.2021.07.003")[10.1016/j.jpain.2021.07.003]
+    *PMID:*: 34375745
+    *Study Design:*: Cross-sectional pupillometry study with arousal-evoked and light-reflex paradigms
+    *Sample Size:*: n=33 CRPS patients
+    *Key Findings:*:
+        - Pupil on CRPS-affected side was smaller than contralateral pupil at baseline and after arousal stimuli
+        - Pupillary light reflex (constriction to bright light, dilation in dim light) was symmetrical and intact
+        - Asymmetry specific to arousal-evoked dilation, implicating ipsilateral locus coeruleus (LC) deficit
+        - LC deficit may contribute to autonomic disturbances, auditory discomfort, and pain in CRPS
+        - Acoustic startle stimuli failed to inhibit shock-induced pain on affected side
+    *Conclusion:*: Neural activity in LC-linked pathways is compromised ipsilaterally in CRPS, contributing to autonomic disturbances and pain amplification.
+    *Limitations:*: CRPS-specific; moderate sample (n=33); single study; arousal-evoked pupillometry methodology not yet standardized.
+    *ME/CFS Relevance:*: Establishes pupillometry as noninvasive probe of LC function — directly relevant to central noradrenergic deficiency hypothesis in ME/CFS (Aregawi 2026, Walitt 2024). Supports use of task-evoked pupillary dynamics to assess LC integrity in ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (innovative methodology, good journal)
+        - *Sample:* Small-Medium (n=33)
+        - *Replication:* Single study
+        - *Score:* 0.55
+
+=== Rizzuto et al.\ 2025 — Pupillary Hippus as Autonomic Biomarker
+
+    *Full Citation:*: Rizzuto V, Laurino M, Montanari R, Gemignani A, Figus M, Covello G, Candelise N, Borroni D, Laganovska G, Mesin L. Pupillary hippus as a biomarker: spectral signatures and complexity approaches in autonomic and clinical contexts. _Bioengineering_. 2025;12(12):1376. @rizzuto2025hippus
+    *DOI:*: #link("https://doi.org/10.3390/bioengineering12121376")[10.3390/bioengineering12121376]
+    *PMID:*: 41463672
+    *Study Design:*: Narrative review with synthesis
+    *Key Findings:*:
+        - Synthesizes spectral signatures of pupillary hippus (spontaneous bilateral pupil oscillations under constant illumination)
+        - Low-frequency hippus components covary with respiratory/vasomotor autonomic rhythms
+        - Higher-frequency fluctuations sensitive to cognitive load, visual fatigue, and pathological states
+        - Proposes unified taxonomy of hippus frequency bands
+        - Identifies methodological heterogeneity as key translational gap
+    *Conclusion:*: Pupillary hippus provides a noninvasive window into autonomic and central nervous system dynamics, but validation and standardization are needed before clinical adoption.
+    *Limitations:*: Review article (no original data); methodological heterogeneity across studies limits synthesis; hippus-based biomarkers not yet validated in clinical populations.
+    *ME/CFS Relevance:*: Provides theoretical and methodological framework for using spontaneous pupillary oscillations as autonomic biomarker. Low-frequency hippus tracking autonomic rhythms could be applied to assess autonomic dysfunction in ME/CFS without requiring light stimulation.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (comprehensive review, no original data)
+        - *Sample:* N/A (review)
+        - *Replication:* N/A (synthesis)
+        - *Score:* 0.60
+
+=== Lisowski et al.\ 2025 — Diagnostic Significance of Pupillary Reflex Pathways
+
+    *Full Citation:*: Lisowski Ł, Lisowska J, Charytonowicz A, Mariak Z, Obuchowska I, Konopińska J. The diagnostic significance of pupillary reflex pathways: insights from classical examination and advanced pupillometry. _Frontiers in Neuroscience_. 2025;19:1677431. @lisowski2025pupillary
+    *DOI:*: #link("https://doi.org/10.3389/fnins.2025.1677431")[10.3389/fnins.2025.1677431]
+    *PMID:*: 41169745
+    *Study Design:*: Comprehensive interdisciplinary review
+    *Key Findings:*:
+        - Reviews anatomical pathways: afferent (retina → pretectal olivary nucleus → Edinger-Westphal nucleus) and efferent (EW → ciliary ganglion → iris sphincter M3 muscarinic; sympathetics → iris dilator alpha-1 adrenergic)
+        - Links pupillary reflex abnormalities to specific neurological lesion locations
+        - Classical examination plus automated pupillometry provides complementary diagnostic information
+        - Identifies pupillometry as noninvasive window into autonomic pathway integrity
+    *Conclusion:*: Understanding pupillary reflex pathways enables targeted neurological and autonomic diagnosis through pupillometry.
+    *Limitations:*: Review article (no original data); primarily classical neurological examination focus; limited coverage of quantitative pupillometry methodology.
+    *ME/CFS Relevance:*: Provides essential anatomical and physiological framework for understanding how pupillometry measures autonomic function. The M3 muscarinic and alpha-1 adrenergic pathways are the same receptors targeted by GPCR autoantibodies found in ME/CFS (Szklarski 2021, Azcue 2026).
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (comprehensive, peer-reviewed review)
+        - *Sample:* N/A (review)
+        - *Replication:* N/A (established neuroanatomy)
+        - *Score:* 0.65
+
+=== Szklarski et al.\ 2021 — CD26 and GPCR Autoantibodies in ME/CFS
+
+    *Full Citation:*: Szklarski M, Freitag H, Lorenz S, Becker SC, Sotzny F, Bauer S, Hartwig J, Heidecke H, Wittke K, Kedor C, Hanitsch LG, Grabowski P, Sepúlveda N, Scheibenbogen C. Delineating the association between soluble CD26 and autoantibodies against G-protein coupled receptors, immunological and cardiovascular parameters identifies distinct patterns in post-infectious vs.\ non-infection-triggered myalgic encephalomyelitis/chronic fatigue syndrome. _Frontiers in Immunology_. 2021;12:644548. @szklarski2021cd26
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2021.644548")[10.3389/fimmu.2021.644548]
+    *PMID:*: 33889154
+    *Study Design:*: Cross-sectional autoantibody profiling study
+    *Sample Size:*: ME/CFS cohort (post-infectious and non-infection-triggered)
+    *Key Findings:*:
+        - Infection-triggered ME/CFS patients show elevated autoantibodies against alpha-1 adrenergic receptors (pupillary dilator) and M3 muscarinic acetylcholine receptors (pupillary sphincter)
+        - sCD26 concentrations inversely correlate with these autoantibodies, distinct patterns by onset type
+        - Establishes biochemical bridge between pupil autonomic control receptors and ME/CFS autoimmunity
+        - Non-infection-triggered ME/CFS shows different pattern linked to orthostatic regulation
+    *Conclusion:*: Autoantibodies against the exact receptors controlling pupillary function are elevated in infection-triggered ME/CFS, suggesting autoimmune-mediated autonomic dysfunction.
+    *Limitations:*: Cross-sectional; no pupillometry measurements; single-center; does not directly assess pupil function.
+    *ME/CFS Relevance:*: Critical indirect link: the receptors targeted by autoantibodies in ME/CFS (alpha-1 AR, M3 mAChR) are the same receptors that control pupillary dilation and constriction. This provides a biochemical mechanism by which pupillometry could detect autoimmune autonomic dysfunction in ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (well-characterized cohort, rigorous serology)
+        - *Sample:* Medium
+        - *Replication:* Partially replicated (consistent with broader GPCR autoantibody literature)
+        - *Score:* 0.65
+
+=== Oesch-Régeni et al.\ 2025 — Plasmapheresis/IVIG in ME/CFS with M3 Antibodies
+
+    *Full Citation:*: Oesch-Régeni B, Germann N, Hafer G, Schmid D, Arn N. The effect on quality of life of therapeutic plasmapheresis and intravenous immunoglobulins on a population of myalgic encephalomyelitis/chronic fatigue syndrome patients with elevated β-adrenergic and M3-muscarinic receptor antibodies—a pilot study. _Journal of Clinical Medicine_. 2025;14(11):3802. @oeschregeni2025m3
+    *DOI:*: #link("https://doi.org/10.3390/jcm14113802")[10.3390/jcm14113802]
+    *PMID:*: 40507564
+    *Study Design:*: Pilot interventional study (plasmapheresis/IVIG)
+    *Sample Size:*: Small pilot (ME/CFS patients with elevated M3 and beta-adrenergic autoantibodies)
+    *Key Findings:*:
+        - M3-muscarinic receptor autoantibodies are clinically actionable in ME/CFS
+        - Patients treated with plasmapheresis/IVIG showed quality of life improvements
+        - Demonstrates clinical relevance of M3 pathway in ME/CFS pathophysiology
+    *Conclusion:*: M3-muscarinic receptor autoantibodies represent a treatable target in a subset of ME/CFS patients.
+    *Limitations:*: Pilot study without control group; very small sample; no pupillometry measurements; uncontrolled design limits causal inference.
+    *ME/CFS Relevance:*: Establishes that M3 receptor autoantibodies (which would affect pupillary sphincter function) are not only present in ME/CFS but clinically actionable. Supports rationale for pupillometry as functional readout of M3-mediated autonomic function.
+    *Certainty Assessment:*:
+        - *Quality:* Low (pilot, no control group)
+        - *Sample:* Small
+        - *Replication:* Single pilot, not replicated
+        - *Score:* 0.35
+
+=== Azcue et al.\ 2026 — GPCR Autoantibodies in Post-COVID and CFS
+
+    *Full Citation:*: Azcue N, Prada A, Del Pino R, Acera M, Fernández-Valle T, Ayo-Mentxakatorre N, Pérez-Concha T, Murueta-Goyena A, Lafuente JV, López de Munain A, Ruiz Irastorza G, Ribacoba L, Gabilondo I, Tijero-Merino B, Gómez-Esteban JC. Involvement of autoantibodies against G protein-coupled receptors in post-COVID condition and Chronic Fatigue Syndrome. _Scientific Reports_. 2026;16(1):11837. @azcue2026gpcrpupil
+    *DOI:*: #link("https://doi.org/10.1038/s41598-026-49131-9")[10.1038/s41598-026-49131-9]
+    *PMID:*: 42082542
+    *Study Design:*: Large cross-sectional autoantibody profiling
+    *Sample Size:*: Large cohort (post-COVID and CFS patients)
+    *Key Findings:*:
+        - GPCR autoantibodies including anti-alpha-1 adrenergic detected in both post-COVID and CFS
+        - Autoantibodies target receptors mediating autonomic control, including pupillary function
+        - Provides large-cohort evidence for autoimmune autonomic dysfunction in post-infectious syndromes
+        - Replicates and extends prior GPCR autoantibody findings (Szklarski 2021, Freitag 2021)
+    *Conclusion:*: GPCR autoantibodies are involved in both post-COVID condition and CFS, supporting autoimmune mechanisms in post-infectious autonomic dysfunction.
+    *Limitations:*: Cross-sectional; no functional pupillometry measurements; does not directly link autoantibody levels to pupillary function.
+    *ME/CFS Relevance:*: Large-cohort replication of alpha-1 adrenergic receptor autoantibodies in ME/CFS and related conditions. Directly relevant to pupillometry as functional readout: if autoantibodies block or stimulate these receptors, pupillary dynamics should detect the functional consequence.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (large cohort, peer-reviewed)
+        - *Sample:* Large
+        - *Replication:* Replicates prior GPCR autoantibody findings
+        - *Score:* 0.70
+
+=== Li et al.\ 2026 — Scotopic-Photopic Pupil Difference as Glycemic Indicator
+
+    *Full Citation:*: Li Y, Pan Z, Ren Q, Shi F, Wan P. The difference in scotopic and photopic pupil responses: a potential indicator for long-term glycemic management. _Frontiers in Neurology_. 2026;17:1785905. @li2026pupil
+    *DOI:*: #link("https://doi.org/10.3389/fneur.2026.1785905")[10.3389/fneur.2026.1785905]
+    *PMID:*: 42388712
+    *Study Design:*: Cross-sectional diagnostic biomarker study
+    *Sample Size:*: Diabetic patients and non-diabetic controls
+    *Key Findings:*:
+        - Scotopic-photopic pupil diameter (PD) difference significantly attenuated in diabetic group (0.94 ± 0.44) vs controls (1.21 ± 0.48)
+        - ROC analysis shows PD difference meets performance criteria for identifying established diabetic autonomic neuropathy (>1 year duration)
+        - Quantitative pupillometry provides viable clinical endpoint for autonomic neuropathy chronicity
+        - Diabetic autonomic neuropathy manifests in pupillary dynamics as precursor to systemic complications
+    *Conclusion:*: Quantitative pupillometry provides a viable clinical biomarker for assessing autonomic neuropathy chronicity in diabetes.
+    *Limitations:*: Diabetes-specific; cross-sectional; single study.
+    *ME/CFS Relevance:*: Demonstrates quantitative pupillometry as valid biomarker for autonomic neuropathy in a systemic disease. Same methodology could assess autonomic neuropathy in ME/CFS, where small-fiber neuropathy is a documented feature.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (ROC-based diagnostic validation)
+        - *Sample:* Medium
+        - *Replication:* Single study
+        - *Score:* 0.55
+
+=== Thakar et al.\ 2025 — Automated Pupillometry in Diabetic Patients
+
+    *Full Citation:*: Thakar M, Tripathy SP, Dutta P, Bhattacharya S, Dhaka U. Quantitative automated pupillometry in diabetic patients and correlation with retinal nerve fibre layer thickness. _Eye_. 2025;39(10):1983--1989. @thakar2025pupillometry
+    *DOI:*: #link("https://doi.org/10.1038/s41433-025-03793-3")[10.1038/s41433-025-03793-3]
+    *PMID:*: 40211015
+    *Study Design:*: Cross-sectional correlation study
+    *Sample Size:*: Diabetic patients
+    *Key Findings:*:
+        - PLR parameters correlate with retinal nerve fiber layer (RNFL) thickness in diabetic patients
+        - Provides structural correlate of pupillary autonomic dysfunction
+        - Automated pupillometry feasible for quantitative autonomic assessment
+    *Conclusion:*: Pupillary dysfunction in diabetes correlates with neurodegeneration of retinal nerve fibers, suggesting a structural basis for autonomic pupillary deficits.
+    *Limitations:*: Diabetes-specific; cross-sectional; correlation does not establish causation.
+    *ME/CFS Relevance:*: Demonstrates structural correlate of pupillary autonomic dysfunction. Similar structural correlations could be investigated in ME/CFS using corneal confocal microscopy (already documented in post-COVID ocular syndrome).
+    *Certainty Assessment:*:
+        - *Quality:* Medium (peer-reviewed, adequate methodology)
+        - *Sample:* Medium
+        - *Replication:* Single study
+        - *Score:* 0.50
+
+=== de Rodez Benavent et al.\ 2019 — Autonomic Dysregulation and Retina in Early MS
+
+    *Full Citation:*: de Rodez Benavent SA, Nygaard GO, Nilsen KB, Etholm L, Sowa P, Wendel-Haga M, Harbo HF, Drolsum L, Laeng B, Kerty E, Celius EG. Neurodegenerative interplay of cardiovascular autonomic dysregulation and the retina in early multiple sclerosis. _Frontiers in Neurology_. 2019;10:507. @derodezbenavent2019autonomic
+    *DOI:*: #link("https://doi.org/10.3389/fneur.2019.00507")[10.3389/fneur.2019.00507]
+    *PMID:*: 31156539
+    *Study Design:*: Cross-sectional multimodal autonomic study
+    *Key Findings:*:
+        - Integrates cardiovascular autonomic testing with retinal/pupillary assessment in early MS
+        - Demonstrates link between systemic autonomic dysregulation and ocular autonomic manifestations
+        - Supports multimodal autonomic assessment including pupillary measures
+    *Conclusion:*: Systemic autonomic dysregulation has ocular manifestations that can be measured noninvasively.
+    *Limitations:*: MS-specific; cross-sectional; pupillary assessment is a component, not primary outcome.
+    *ME/CFS Relevance:*: Supports integration of ocular autonomic measures into multimodal assessment protocols for ME/CFS. Demonstrates feasibility of combined cardiovascular + pupillary autonomic assessment.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (multimodal design, peer-reviewed)
+        - *Sample:* Medium
+        - *Replication:* Single study
+        - *Score:* 0.45
+
+=== Sendrowski et al.\ 1997 — Sympathetic Hypersensitivity in CFS
+
+    *Full Citation:*: Sendrowski DP, Buker EA, Gee SS. An investigation of sympathetic hypersensitivity in chronic fatigue syndrome. _Optometry and Vision Science_. 1997;74(8):660--663. @sendrowski1997sympathetic
+    *DOI:*: #link("https://doi.org/10.1097/00006324-199708000-00027")[10.1097/00006324-199708000-00027]
+    *PMID:*: 9323737
+    *Study Design:*: Cross-sectional pupillometry study
+    *Sample Size:*: Small (CFS patients and/or controls)
+    *Key Findings:*:
+        - Only direct pupillometry study in CFS in the literature
+        - Tests sympathetic denervation hypersensitivity hypothesis using pupillary measures
+        - CFS patients show similar brain SPECT patterns to fibromyalgia (sympathetic hypersensitivity)
+        - Hypothesis: CFS involves sympathetic denervation hypersensitivity analogous to fibromyalgia
+    *Conclusion:*: Pupillary assessment may provide diagnostic insights into CFS sympathetic dysfunction, but evidence is limited.
+    *Limitations:*: Very small sample; outdated methodology (1997); single study, never replicated; journal is optometry-focused not neurology.
+    *ME/CFS Relevance:*: Historically important as the only direct pupillometry study in CFS. Provides limited but direct evidence that pupillary assessment can detect autonomic abnormalities in CFS. Modern replication is urgently needed.
+    *Certainty Assessment:*:
+        - *Quality:* Low (small sample, outdated, low-impact journal)
+        - *Sample:* Small (n \< 20)
+        - *Replication:* Single study, not replicated
+        - *Score:* 0.25
+
+// =============================================================================
+// Ocular Sjögren / ME/CFS Overlap — Ocular Surface Dimension
+// Added: 2026-07-09
+// =============================================================================
+
+== Ocular Sjögren / ME/CFS Overlap — Ocular Surface
+<sec:bib-ocular-sjogren-mecfs>
+
+=== Lépine et al.\ 2024 — Sjögren Tear Proteomics Biomarkers
+
+    *Full Citation:*: Lépine M, Robert M-C, Sleno L. Discovery and Verification of Sjögren's Syndrome Protein Biomarkers in Tears by Targeted LC-MRM. _Journal of Proteome Research_. 2024;23(6):2219--2229. @lepine2024tearproteomics
+    *DOI:*: #link("https://doi.org/10.1021/acs.jproteome.4c00163")[10.1021/acs.jproteome.4c00163]
+    *PMID:*: 38682820
+    *Study Design:*: Discovery/verification of tear protein biomarkers; targeted LC-MRM across 3 cohorts
+    *Key Findings:*:
+        - Identified tear protein panel discriminating Sjögren's dry eye from non-Sjögren's dry eye
+        - Targeted LC-MRM methodology established for tear proteomics verification
+        - Demonstrates feasibility of tear-based biomarker approach for autoimmune dry eye
+    *Conclusion:*: Tear proteomics can distinguish Sjögren's from non-autoimmune dry eye.
+    *Limitations:*: Moderate sample size; single center; needs independent validation.
+    *ME/CFS Relevance:*: Provides the methodological framework for tear proteomics as non-invasive diagnostic window into systemic immune dysregulation. If analogous tear proteomic signatures exist in ME/CFS, this approach could enable non-invasive stratification.
+    *Certainty Assessment:*:
+        - *Score:* 0.50
+
+=== George et al.\ 2023 — Tear Proteomics to Discriminate SjS from Non-SjS Sicca
+
+    *Full Citation:*: George CT, Kurien BT, Scofield RH. The Potential Utility of Salivary and Tear Proteomics to Discriminate Sjögren's Disease from Non-Sjögren's Sicca. _International Journal of Molecular Sciences_. 2023;24(24):17497. @george2023tearproteomics
+    *DOI:*: #link("https://doi.org/10.3390/ijms242417497")[10.3390/ijms242417497]
+    *PMID:*: 38139325
+    *Study Design:*: Narrative review of salivary and tear proteomics
+    *Key Findings:*:
+        - Tear proteomic signatures in SjS include T-cell activation proteins, immune response markers, β-2 microglobulin
+        - Proteomics can distinguish SjS from non-SjS sicca
+        - Salivary and tear proteomics show promise for non-invasive diagnosis
+    *Conclusion:*: Tear proteomics is a practical tool for classifying Sjögren's disease and distinguishing it from non-SjS sicca.
+    *Limitations:*: Narrative review; no quantitative synthesis; heterogeneous methods across studies.
+    *ME/CFS Relevance:*: The sicca phenotype in CFS/ME may overlap with SjS without meeting full diagnostic criteria. Tear proteomics could help distinguish ME/CFS-associated sicca from true Sjögren's overlap, guiding workup.
+    *Certainty Assessment:*:
+        - *Score:* 0.50
+
+=== Wu et al.\ 2024 — Sjögren Dry Eye Diagnostics Review
+
+    *Full Citation:*: Wu KY, Serhan O, Faucher A, Tran SD. Advances in Sjögren's Syndrome Dry Eye Diagnostics: Biomarkers and Biomolecules beyond Clinical Symptoms. _Biomolecules_. 2024;14(1):80. @wu2024sjogrendryeyediagnostics
+    *DOI:*: #link("https://doi.org/10.3390/biom14010080")[10.3390/biom14010080]
+    *PMID:*: 38254680
+    *Study Design:*: Comprehensive narrative review
+    *Key Findings:*:
+        - Documents tear film biomarkers for SjS-DED: IL-6, IL-17, MMP-9, BAFF, IFN-γ
+        - Corneal confocal microscopy parameters (CNFD, CNFL, DC density) differentiate SjS from non-SjS dry eye
+        - Tear proteomics, metabolomics, and imaging modalities reviewed
+        - IL-6 and MMP-9 in tears correlate with systemic disease activity
+    *Conclusion:*: Multi-modal biomarker approach improves SjS dry eye diagnosis beyond clinical assessment.
+    *Limitations:*: Narrative review; no systematic methodology; biomarker panels need validation.
+    *ME/CFS Relevance:*: The tear inflammatory markers (IL-6, IL-17, MMP-9) that track SjS disease activity are the same markers elevated systemically in ME/CFS. This establishes the biochemical bridge: ocular surface cytokines reflect systemic neuro-immune status. Corneal confocal microscopy parameters provide a non-invasive window into small-fiber pathology analogous to ME/CFS.
+    *Certainty Assessment:*:
+        - *Score:* 0.55
+
+=== Luzu et al.\ 2022 — CCM in Sjögren's with/without SFN
+
+    *Full Citation:*: Luzu J, Labbé A, Réaux-Le Goazigo A, Rabut G, Liang H, Dupas B, Baudouin C. In vivo confocal microscopic study of corneal innervation in Sjögren's Syndrome with or without small fiber neuropathy. _The Ocular Surface_. 2022;25:155--162. @luzu2022cornealinnervation
+    *DOI:*: #link("https://doi.org/10.1016/j.jtos.2022.07.003")[10.1016/j.jtos.2022.07.003]
+    *PMID:*: 35872076
+    *Study Design:*: Cross-sectional IVCM study
+    *Key Findings:*:
+        - Corneal subbasal nerve parameters differed significantly between SS-SFN+ and SS-SFN- groups
+        - CCM detected corneal nerve changes correlating with SFN status in SS patients
+        - Corneal nerve loss is a marker of systemic small-fiber involvement in autoimmune disease
+    *Conclusion:*: CCM can identify the presence of SFN in Sjögren's syndrome patients.
+    *Limitations:*: Moderate sample; single center; SFN diagnosis by clinical criteria not skin biopsy.
+    *ME/CFS Relevance:*: Directly analogous to ME/CFS: both conditions have a subset with SFN, and CCM can detect it non-invasively. The SS-SFN+ CCM profile may match the ME/CFS SFN subset profile.
+    *Certainty Assessment:*:
+        - *Score:* 0.55
+
+=== Wang et al.\ 2025 — CCM Predicts Serological Activity in Sjögren's
+
+    *Full Citation:*: Wang Y, Jiang X, Li J, Li X. Predictive value of dry eye disease signs and corneal in vivo confocal microscopy on serological activity in primary Sjögren disease. _Medicine_. 2025;104(14):e42054. @wang2025ivcmsjogren
+    *DOI:*: #link("https://doi.org/10.1097/MD.0000000000042054")[10.1097/MD.0000000000042054]
+    *PMID:*: 40193661
+    *Study Design:*: Cross-sectional study comparing IVCM findings in SjS-DED vs non-SjS DED
+    *Sample Size:*: 42 pSS patients (84 eyes), 41 non-pSS DED patients (82 eyes)
+    *Key Findings:*:
+        - pSS patients had significantly lower corneal nerve density (CND, $p \< 0.0001$)
+        - pSS patients had higher corneal dendritic cell density (DCD)
+        - IVCM parameters combined with clinical signs predicted serological activity (anti-Ro/La, IgG)
+    *Conclusion:*: CCM helps differentiate SjS-DED and predicts autoimmune activity.
+    *Limitations:*: Cross-sectional; moderate sample; single center; Asian population only.
+    *ME/CFS Relevance:*: Demonstrates CCM parameters track autoimmune disease activity. For ME/CFS, CCM could similarly track neuro-immune activity and stratify patients into SFN+ vs SFN- subsets.
+    *Certainty Assessment:*:
+        - *Score:* 0.55
+
+=== Vergés et al.\ 2025 — Fibromyalgia-Associated Dry Eye: CCM + Genetics
+
+    *Full Citation:*: Vergés C, Giménez-Capitán A, Ribas V, Martínez-Pérez E, González MJ, March de Ribot F. Clinical and genetic profiling of fibromyalgia-associated dry eye: A multifactorial approach. _The Ocular Surface_. 2025;38:377--387. @verges2025fibrodryeye
+    *DOI:*: #link("https://doi.org/10.1016/j.jtos.2025.10.012")[10.1016/j.jtos.2025.10.012]
+    *PMID:*: 41177509
+    *Study Design:*: Cross-sectional multifactorial study (IVCM + genetics + clinical)
+    *Key Findings:*:
+        - FM-DED patients had corneal nerve abnormalities on IVCM
+        - COMT and MTHFR polymorphisms associated with dry eye severity in FM
+        - Corneal nerve changes suggest neuro-immune phenotype in FM dry eye
+    *Conclusion:*: FM-associated dry eye is a neuro-immune condition with detectable corneal nerve changes.
+    *Limitations:*: Cross-sectional; moderate sample; novel finding requiring replication.
+    *ME/CFS Relevance:*: Directly demonstrates that fatigue-spectrum conditions (FM) have measurable ocular surface abnormalities. Provides evidence for the ocular surface as window into neuro-immune status. ME/CFS may show similar patterns given high FM-ME/CFS overlap (~47%).
+    *Certainty Assessment:*:
+        - *Score:* 0.50
+
+// =============================================================================
+// CCM Cross-Disease SFN Biomarker (corneal-confocal-cross-disease-sfn)
+// Added: 2026-07-09
+// =============================================================================
+
+=== Tavakoli et al.\ 2015 — Normative Values for Corneal Confocal Microscopy
+
+    *Full Citation:*: Tavakoli M, Ferdousi M, Petropoulos IN, et al.\ Normative values for corneal nerve morphology assessed using corneal confocal microscopy: a multinational normative data set. _Diabetes Care_. 2015;38(5):838--843. @tavakoli2015normaliveccm
+    *DOI:*: #link("https://doi.org/10.2337/dc14-2311")[10.2337/dc14-2311]
+    *PMID:*: 25633665
+    *Study Design:*: Multicenter multinational cross-sectional normative data study
+    *Sample Size:*: Large multinational cohort of healthy participants
+    *Key Findings:*:
+        - Established age-adjusted normative reference values for corneal nerve fiber density (CNFD), branch density (CNBD), fiber length (CNFL), and tortuosity
+        - Multicenter collaboration providing worldwide reference standards
+        - Values enable clinical translation and wider use of CCM across peripheral neuropathies
+    *Conclusion:*: Age-adjusted normative CCM values are essential for interpreting corneal nerve morphology across disease states.
+    *Limitations:*: Limited ethnic diversity; need for device-specific reference ranges.
+    *ME/CFS Relevance:*: Provides the reference framework for interpreting CCM findings in ME/CFS patients. Our CNFD comparisons against normative data depend on these reference values.
+    *Certainty Assessment:*:
+        - *Quality:* High (multinational, multicenter, large sample)
+        - *Sample:* Large
+        - *Replication:* Established standard in the field
+        - *Score:* 0.80
+
+=== Cao et al.\ 2022 — Corneal Nerve Reference Values for Chinese Adults
+
+    *Full Citation:*: Cao J, Qu J, Odilov B, et al.\ Corneal nerve parameter reference values for Chinese adults assessed by corneal confocal microscopy. _Journal of Diabetes Research_. 2022;2022:4913031. @cao2022cornealreference
+    *DOI:*: #link("https://doi.org/10.1155/2022/4913031")[10.1155/2022/4913031]
+    *PMID:*: 35265718
+    *Study Design:*: Cross-sectional reference value study
+    *Sample Size:*: Healthy Chinese adults
+    *Key Findings:*:
+        - Established CCM reference values specific to Chinese adults
+        - Identified age and sex associations with CNFD and CNFL
+        - Confirms normative values generalize across ethnic populations
+    *Conclusion:*: Ethnicity-specific reference ranges may be needed for CCM interpretation.
+    *Limitations:*: Single ethnic group; moderate sample size.
+    *ME/CFS Relevance:*: Supports use of population-appropriate normative data when interpreting CCM in diverse ME/CFS cohorts.
+    *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* Moderate
+        - *Replication:* Consistent with Tavakoli 2015
+        - *Score:* 0.60
+
+=== Oreskovic et al.\ 2026 — CCM as Paraclinical Test in Neurodegenerative Disease
+
+    *Full Citation:*: Oreskovic I, Petzold A, Petropoulos IN, Hau S. Corneal confocal microscopy as a paraclinical test in neurodegenerative disease: a scoping review. _British Journal of Ophthalmology_. 2026. @oreskovic2026scoping
+    *Study Design:*: Scoping review
+    *Key Findings:*:
+        - Comprehensive mapping of CCM evidence across neurodegenerative diseases (PD, MS, AD, ALS)
+        - CCM shows promise as cross-disease neurodegeneration biomarker
+        - Identified major research gaps: longitudinal data, standardized protocols, disease-specific signatures
+    *Conclusion:*: CCM is a promising paraclinical test for neurodegeneration but requires methodological standardization.
+    *Limitations:*: Scoping review — does not provide pooled quantitative estimates.
+    *ME/CFS Relevance:*: Directly supports the argument for CCM as a cross-disease biomarker applicable to ME/CFS. Identifies the same gaps present in ME/CFS literature.
+    *Certainty Assessment:*:
+        - *Quality:* High (systematic scoping review methodology)
+        - *Sample:* Large literature base
+        - *Replication:* Systematic synthesis
+        - *Score:* 0.70
+
+=== Ranathunga et al.\ 2026 — Small Fibre Pathology in Non-Neuropathic Chronic Pain
+
+    *Full Citation:*: Ranathunga N, Sterling M, Sierra-Silvestre E, et al.\ Small nerve fibre pathology in non-neuropathic chronic pain conditions: a systematic review and meta-analysis. _Pain_. 2026;167(3):577--590. @ranathunga2026nonneuropathic
+    *DOI:*: #link("https://doi.org/10.1097/j.pain.0000000000003826")[10.1097/j.pain.0000000000003826]
+    *PMID:*: 41114676
+    *Study Design:*: Systematic review and meta-analysis
+    *Key Findings:*:
+        - Significant small fiber pathology across ICD-11 non-neuropathic chronic pain conditions
+        - Reduced IENFD and abnormal CCM metrics in fibromyalgia and related conditions
+        - Provides strong evidence for SFN as a transdiagnostic feature in chronic pain
+    *Conclusion:*: Small fiber pathology is a transdiagnostic feature of chronic pain conditions not traditionally classified as neuropathic.
+    *Limitations:*: Heterogeneity across studies; limited longitudinal data.
+    *ME/CFS Relevance:*: Directly supports the transdiagnostic SFN framework into which ME/CFS fits. Fibromyalgia findings are highly relevant given ME/CFS-FM overlap.
+    *Certainty Assessment:*:
+        - *Quality:* High (systematic review with meta-analysis)
+        - *Sample:* Large (multiple studies pooled)
+        - *Replication:* Consistent across conditions
+        - *Score:* 0.75
+
+=== Sommer and Üçeyler 2025 — Small Fiber Pathology in Fibromyalgia
+
+    *Full Citation:*: Sommer C, Üçeyler N. Small fiber pathology in fibromyalgia syndrome. _Pain Reports_. 2025;10(1):e1223. @sommer2025fibromyalgiasfn
+    *PMID:*: 39726855
+    *Study Design:*: Narrative review with evidence synthesis
+    *Key Findings:*:
+        - ~50% of women with fibromyalgia have reduced skin innervation
+        - CCM detects SFN in ~59% of FMS patients
+        - Microneurography shows spontaneous C-fiber activity, mechanosensitivity, enhanced activity-induced slowing
+        - Consistent across cohorts from different global regions
+    *Conclusion:*: Converging evidence supports a neuropathic SFN subset in fibromyalgia.
+    *Limitations:*: Narrative review; no quantitative synthesis.
+    *ME/CFS Relevance:*: Parallel evidence to the SFN subset in ME/CFS. CCM detection rate (59%) provides benchmark for expected detection in ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:* High (authoritative authors, consistent evidence)
+        - *Sample:* Evidence from multiple cohorts
+        - *Replication:* Global consistency
+        - *Score:* 0.75
+
+=== Kubat et al.\ 2026 — CCM in Fibromyalgia: SFN and Treatment Outcomes
+
+    *Full Citation:*: Kubat B, Ozkan G, Sanal Toprak C, Demirci M, Akkaya Turhan S. Corneal confocal microscopy in fibromyalgia syndrome: small fiber neuropathy, and treatment outcomes. _Eye_. 2026;40(2):279--286. @kubat2026fibromyalgiaccm
+    *DOI:*: #link("https://doi.org/10.1038/s41433-025-04132-2")[10.1038/s41433-025-04132-2]
+    *PMID:*: 41318851
+    *Study Design:*: Cross-sectional with treatment sub-study
+    *Sample Size:*: FMS patients and healthy controls
+    *Key Findings:*:
+        - Reduced CNFD and CNFL with increased corneal dendritic cell density in FMS vs controls
+        - SNRI (duloxetine) treatment partially reversed corneal nerve changes
+        - Corneal sensitivity reduced in FMS
+    *Conclusion:*: CCM detects SFN in FMS and may track treatment response.
+    *Limitations:*: Moderate sample; single center; treatment effect preliminary.
+    *ME/CFS Relevance:*: Demonstrates CCM can detect treatment response in SFN-associated chronic pain. Same SNRIs used in ME/CFS — suggests potential monitoring tool.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-low (moderate sample, preliminary treatment data)
+        - *Sample:* Moderate
+        - *Replication:* Single center
+        - *Score:* 0.45
+
+=== Akowuah et al.\ 2025 — CCM in Multiple Sclerosis: Meta-Analysis
+
+    *Full Citation:*: Akowuah PK, Botchway E, Owusu E, et al.\ Are corneal nerve and dendritic cell parameters assessed via corneal confocal microscopy good markers for multiple sclerosis? A systematic review and meta-analysis. _Journal of Neuroimmunology_. 2025;407:578697. @akowuah2025msccm
+    *DOI:*: #link("https://doi.org/10.1016/j.jneuroim.2025.578697")[10.1016/j.jneuroim.2025.578697]
+    *PMID:*: 40729966
+    *Study Design:*: Systematic review and meta-analysis
+    *Key Findings:*:
+        - Significant corneal nerve loss (reduced CNFD, CNFL) in MS vs controls
+        - Increased dendritic cell density in MS — corneal immune activation
+        - CCM parameters correlate with EDSS disability scores
+    *Conclusion:*: CCM is a promising biomarker for neurodegeneration and neuroinflammation in MS.
+    *Limitations:*: Moderate heterogeneity; limited longitudinal data.
+    *ME/CFS Relevance:*: MS shares immune-mediated neurodegeneration with ME/CFS. Demonstrates CCM captures both nerve loss and immune activation relevant to ME/CFS pathophysiology.
+    *Certainty Assessment:*:
+        - *Quality:* High (meta-analysis)
+        - *Sample:* Multiple studies pooled
+        - *Replication:* Consistent effect across studies
+        - *Score:* 0.72
+
+=== Yin et al.\ 2025 — Corneal Nerve Loss Predicts Pain in Parkinson's Disease
+
+    *Full Citation:*: Yin P, Guan C, Niu X, et al.\ Corneal nerve loss measured by corneal confocal microscopy predicts pain severity in Parkinson's disease. _Neurobiology of Disease_. 2025;217:107197. @yin2025pdpain
+    *DOI:*: #link("https://doi.org/10.1016/j.nbd.2025.107197")[10.1016/j.nbd.2025.107197]
+    *PMID:*: 41260307
+    *Study Design:*: Cross-sectional with pain phenotyping
+    *Key Findings:*:
+        - CNFD independently predicted pain severity in PD
+        - Corneal nerve loss correlates with small fiber involvement in PD
+        - Links central neurodegeneration to peripheral small fiber pathology
+    *Conclusion:*: CCM-derived CNFD is a predictor of pain severity in PD-associated SFN.
+    *Limitations:*: Moderate sample; cross-sectional.
+    *ME/CFS Relevance:*: Pain-SFN correlation in PD parallels pain mechanisms in ME/CFS. Supports CCM as tool to quantify SFN contribution to symptom severity.
+    *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* Moderate
+        - *Replication:* Consistent with broader PD-CCM literature
+        - *Score:* 0.65
+
+=== Niu et al.\ 2024 — CCM Distinguishes MSA from Parkinson's Disease
+
+    *Full Citation:*: Niu X, Yin P, Guan C, et al.\ Corneal confocal microscopy may help to distinguish Multiple System Atrophy from Parkinson's disease. _NPJ Parkinson's Disease_. 2024;10(1):75. @niu2024pdmsa
+    *PMID:*: 38493181
+    *Study Design:*: Cross-sectional diagnostic accuracy study
+    *Sample Size:*: 63 PD, 30 MSA, 31 healthy controls
+    *Key Findings:*:
+        - CCM distinguished MSA from PD using differential corneal nerve loss patterns
+        - Disease-specific CCM signatures beyond simple nerve loss
+        - CNFD and CNFL differed between MSA and PD
+    *Conclusion:*: CCM may aid differential diagnosis of parkinsonian disorders.
+    *Limitations:*: Moderate sample; single center; needs replication.
+    *ME/CFS Relevance:*: Disease-specific CCM signatures raise the possibility of CCM distinguishing ME/CFS from overlapping conditions (fibromyalgia, post-COVID).
+    *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* Moderate
+        - *Replication:* Novel finding requiring replication
+        - *Score:* 0.55
+
+=== Yang et al.\ 2025 — CCM Differentiates Secondary Parkinsonism from Idiopathic PD
+
+    *Full Citation:*: Yang H, Xin R, Che N, et al.\ Corneal confocal microscopy differentiates patients with secondary parkinsonism from idiopathic Parkinson's disease. _NPJ Parkinson's Disease_. 2025;11(1):93. @yang2025pdsecondary
+    *DOI:*: #link("https://doi.org/10.1038/s41531-025-00969-2")[10.1038/s41531-025-00969-2]
+    *PMID:*: 40325027
+    *Study Design:*: Cross-sectional diagnostic accuracy study
+    *Sample Size:*: 45 PD, 25 secondary parkinsonism
+    *Key Findings:*:
+        - CCM distinguished idiopathic PD from secondary parkinsonism with good diagnostic accuracy
+        - Disease-specific CCM signatures
+        - Supports CCM as differential diagnostic tool
+    *Conclusion:*: CCM has diagnostic utility beyond simple neuropathy detection.
+    *Limitations:*: Moderate sample; needs external validation.
+    *ME/CFS Relevance:*: Demonstrates CCM specificity at differential diagnosis — relevant for distinguishing ME/CFS from phenotypically similar conditions.
+    *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* Moderate
+        - *Replication:* Consistent with Niu 2024
+        - *Score:* 0.60
+
+=== Baghdasaryan et al.\ 2026 — CCM Detects Early Chemotherapy-Induced Polyneuropathy
+
+    *Full Citation:*: Baghdasaryan N, Hettlich H, Katz M, Navasardyan V, Borggrefe J, Fan W. In Vivo Confocal Microscopy of Corneal Subbasal Nerve Plexus Detects Early Chemotherapy-Induced Polyneuropathy. _Cornea_. 2026;45(5). @baghdasaryan2026chemo
+    *DOI:*: #link("https://doi.org/10.1097/ICO.0000000000003948")[10.1097/ICO.0000000000003948]
+    *PMID:*: 40757907
+    *Study Design:*: Prospective pilot study
+    *Key Findings:*:
+        - CCM detected chemotherapy-induced polyneuropathy earlier than clinical assessment
+        - Demonstrates utility for treatment monitoring and early intervention
+        - Subbasal nerve plexus changes precede clinical symptoms
+    *Conclusion:*: CCM enables early detection of toxic neuropathy.
+    *Limitations:*: Pilot; small sample; single chemotherapy type.
+    *ME/CFS Relevance:*: Demonstrates CCM sensitivity to detect early/subclinical nerve damage — relevant for detecting SFN in ME/CFS where symptoms may precede objective findings.
+    *Certainty Assessment:*:
+        - *Quality:* Low-Medium (pilot study)
+        - *Sample:* Small
+        - *Replication:* Single center, needs replication
+        - *Score:* 0.40
+
+=== Ghadban et al.\ 2025 — CCM vs Skin Biopsy in Mixed Etiology Polyneuropathy
+
+    *Full Citation:*: Ghadban R, Bay-Smidt M, Bjørnkær T, et al.\ The Correlation Between Functional and Morphometric Small Fiber Assessment in Mixed Etiology Polyneuropathy. _Journal of the Peripheral Nervous System_. 2025;30(2):e70005. @ghadban2025mixed
+    *PMID:*: 40791097
+    *Study Design:*: Cross-sectional method comparison study
+    *Key Findings:*:
+        - Direct head-to-head comparison of CCM vs skin biopsy (IENFD) vs QST
+        - CCM and IENFD showed moderate correlation
+        - CCM offers non-invasive alternative to skin biopsy for SFN diagnosis
+        - Both measures correlated with functional assessments
+    *Conclusion:*: CCM is a valid non-invasive alternative to skin biopsy for SFN assessment.
+    *Limitations:*: Moderate correlations; mixed etiologies.
+    *ME/CFS Relevance:*: Provides the method comparison data needed to argue CCM over skin biopsy in ME/CFS (less invasive, more acceptable to patients).
+    *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* Moderate
+        - *Replication:* Consistent with prior comparison studies
+        - *Score:* 0.60
+
+=== van Welie et al.\ 2026 — CCM in Migraine
+
+    *Full Citation:*: van Welie FC, van Welie S, Dahan A, Tavakoli M, van Velzen M, Terwindt GM. Corneal confocal microscopy reveals nerve fiber alterations in migraine irrespective of subtype or visual hypersensitivity. _Cephalalgia_. 2026. @vanwelie2026migraine
+    *PMID:*: 41603452
+    *Study Design:*: Cross-sectional case-control study
+    *Key Findings:*:
+        - CCM detected corneal nerve alterations in migraine vs controls
+        - Effect independent of migraine subtype or visual hypersensitivity
+        - Demonstrates trigeminal small fiber involvement in migraine
+    *Conclusion:*: Trigeminal small fiber pathology is present in migraine.
+    *Limitations:*: Cross-sectional; moderate sample.
+    *ME/CFS Relevance:*: Extends CCM cross-disease utility to primary headache disorders — relevant given high headache/migraine comorbidity in ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* Moderate
+        - *Replication:* Novel finding
+        - *Score:* 0.55
+
+=== Gharib et al.\ 2025 — CCM as Biomarker of SFN in SLE
+
+    *Full Citation:*: Gharib M, Ponirakis G, Dafaalla M, et al.\ Corneal confocal microscopy: a novel biomarker of small fibre neuropathy in SLE. _Lupus Science \& Medicine_. 2025. @gharib2025sleccm
+    *PMID:*: 41130614
+    *Study Design:*: Cross-sectional study
+    *Key Findings:*:
+        - CCM detected small fiber damage in SLE correlating with disease activity
+        - Correlated with neuropathic pain severity and quality of life
+        - Expands cross-disease evidence to autoimmune connective tissue disease
+    *Conclusion:*: CCM is a valid biomarker for SFN in SLE.
+    *Limitations:*: Moderate sample; cross-sectional.
+    *ME/CFS Relevance:*: SLE shares autoimmune features with ME/CFS. Demonstrates CCM captures autoimmune-mediated SFN, relevant to ME/CFS autoimmune hypotheses.
+    *Certainty Assessment:*:
+        - *Quality:* Medium
+        - *Sample:* Moderate
+        - *Replication:* Consistent with earlier SLE-CCM literature (Bitirgen 2021)
+        - *Score:* 0.60
+
+=== Cantrell et al.\ 2025 — CCM in POTS
+
+    *Full Citation:*: Cantrell S, Rilinger J, Stallkamp Tidd C, Wilson R. Corneal Confocal Microscopy in Postural Orthostatic Tachycardia Syndrome (POTS) as a Diagnostic Tool for Small Fiber Neuropathy. _Cureus_. 2025. @cantrell2025potssfn
+    *PMID:*: 40271232
+    *Study Design:*: Cross-sectional pilot study
+    *Key Findings:*:
+        - CCM identified SFN in POTS patients
+        - Links autonomic dysfunction to corneal nerve abnormalities
+        - Supports CCM utility in dysautonomia-associated SFN
+    *Conclusion:*: CCM may be a useful diagnostic tool for SFN in POTS.
+    *Limitations:*: Small sample; Cureus (lower-tier journal); preliminary.
+    *ME/CFS Relevance:*: POTS is highly comorbid with ME/CFS. CCM detection of SFN in POTS provides indirect evidence for shared SFN mechanisms.
+    *Certainty Assessment:*:
+        - *Quality:* Low
+        - *Sample:* Small
+        - *Replication:* Single center, preliminary
+        - *Score:* 0.35
+
+// ---------------------------------------------------------------------------
+// Sub-research additions (2026-07-09) — 3 ideas from brainstorm
+// ---------------------------------------------------------------------------
+
+=== Lalive et al.\ 2009 — IVCM for Treatment Response in Autoimmune Neuropathy
+
+    *Full Citation:*: Lalive PH, Truffert A, Magistris MR, Landis T, Dosso A. Peripheral autoimmune neuropathy assessed using corneal in vivo confocal microscopy. _Archives of Neurology_. 2009;66(3):403--405. @lalive2009autoimmune
+    *DOI:*: #link("https://doi.org/10.1001/archneurol.2008.587")[10.1001/archneurol.2008.587]
+    *PMID:*: 19273761
+    *Study Design:*: Longitudinal case report
+    *Sample Size:*: 1 patient
+    *Key Findings:*:
+        - Corneal nerve morphology on IVCM paralleled clinical and electrophysiological recovery in anti-MAG neuropathy
+        - Patient underwent IVIG, plasma exchange, rituximab, corticosteroids sequentially
+        - IVCM captured nerve fiber changes at peak disease and recovery phase
+    *Conclusion:*: IVCM can track treatment response in autoimmune peripheral neuropathy — prototype for IVIG response stratification by CCM.
+    *Limitations:*: Single case; multiple concurrent treatments; no blinding.
+    *ME/CFS Relevance:*: Establishes proof-of-concept that CCM can stratify IVIG response in immune-mediated SFN, directly applicable to designing IVIG trials in ME/CFS patients with SFN.
+    *Certainty Assessment:*:
+        - *Quality:* Low (case report)
+        - *Sample:* n=1
+        - *Replication:* None
+        - *Score:* 0.30
+
+=== Karakus et al.\ 2025 — Ocular Surface and CCM in POTS
+
+    *Full Citation:*: Karakus S, Huang JJ, Yashar M, et al.\ Eye pain and ocular surface characteristics in Postural Orthostatic Tachycardia Syndrome (POTS): The role of autonomic dysfunction. _The Ocular Surface_. 2025;38:359--364. @karakus2025potseye
+    *DOI:*: #link("https://doi.org/10.1016/j.jtos.2025.10.009")[10.1016/j.jtos.2025.10.009]
+    *PMID:*: 42183595
+    *Study Design:*: Retrospective observational study
+    *Sample Size:*: 43 POTS patients (39 female; mean age 45.1 yr)
+    *Key Findings:*:
+        - 38/43 reported ocular pain/dryness; proparacaine testing identified neuropathic origin in 34
+        - IVCM in 6 cases: reduced nerve density and microneuromas
+        - Migraine comorbidity (76.7%) strongly associated with pain without staining (OR=15.0)
+    *Conclusion:*: POTS patients have neuropathic ocular pain driven by altered corneal nerve function rather than classic dry eye.
+    *Limitations:*: Retrospective; IVCM only in 6/43 (subset bias); no control group for IVCM.
+    *ME/CFS Relevance:*: More robust evidence than Cantrell 2025 for SFN in POTS. Supports CCM-detected SFN as shared substrate in POTS, which is highly comorbid with ME/CFS. Migraine association relevant to ME/CFS pain phenotypes.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (observational, higher-impact journal)
+        - *Sample:* Moderate (n=43)
+        - *Replication:* Consistent with Cantrell 2025 findings
+        - *Score:* 0.45
+
+// ---------------------------------------------------------------------------
+// Sub-research additions (2026-07-09) — Round 2: primary care access + CIPN trajectory
+// ---------------------------------------------------------------------------
+
+=== Carmichael et al.\ 2022 — CCM in Primary Care for Diabetic Neuropathy Screening
+
+    *Full Citation:*: Carmichael J, Fadavi H, Ishibashi F, Howard S, Boulton AJM, Shore AC, Tavakoli M. Implementation of corneal confocal microscopy for screening and early detection of diabetic neuropathy in primary care alongside retinopathy screening: Results from a feasibility study. _Frontiers in Endocrinology_. 2022;13:891575. @carmichael2022ccmprimarycare
+    *DOI:*: #link("https://doi.org/10.3389/fendo.2022.891575")[10.3389/fendo.2022.891575]
+    *PMID:*: 36313738
+    *Study Design:*: Prospective feasibility study
+    *Sample Size:*: 450 consecutive T1/T2DM subjects in primary care optometry settings
+    *Key Findings:*:
+        - First study introducing CCM to primary care as DPN screening tool alongside existing retinopathy screening
+        - CCM completed successfully in 427/450 (94.9%)
+        - 12.9% had sub-clinical neuropathy (abnormal CNFL) despite no prior neuropathy diagnosis
+        - 9.2% of short-duration T2DM had abnormal CNFL
+        - 12.0% had abnormal CNFL despite no diabetic retinopathy
+        - Significant reductions in CNFD, CNBD, CNFL vs healthy subjects ($p \< 0.001$)
+    *Conclusion:*: CCM is feasible in primary care optometry and can detect sub-clinical DPN before traditional signs appear.
+    *Limitations:*: Single region (UK); optometry-setting specific; automated vs semi-automated analysis concordance evaluated.
+    *ME/CFS Relevance:*: Demonstrates that CCM can be deployed outside academic ophthalmology centers, making it a realistic screening tool for SFN in ME/CFS patients seen in primary care and community settings. Feasibility rate (94.9%) supports translation to routine clinical use.
+    *Certainty Assessment:*:
+        - *Quality:* High (prospective, large n, pragmatic design)
+        - *Sample:* Large (n=450)
+        - *Replication:* Single study — needs replication in other settings
+        - *Score:* 0.60
+
+=== Stache et al.\ 2023 — Longitudinal Taxane CIPN with CCM and OCT
+
+    *Full Citation:*: Stache N, Bohn S, Sperlich K, et al.\ Taxane-Induced Neuropathy and Its Ocular Effects — A Longitudinal Follow-up Study in Breast Cancer Patients. _Cancers_. 2023;15(9):2444. @stache2023taxanelongitudinal
+    *DOI:*: #link("https://doi.org/10.3390/cancers15092444")[10.3390/cancers15092444]
+    *PMID:*: 37173911
+    *Study Design:*: Prospective longitudinal observational study
+    *Sample Size:*: 14 paclitaxel-treated BC patients, 10 controls; 4 timepoints (T0: pre-treatment, T1/T2: during, T3: post-treatment)
+    *Key Findings:*:
+        - First longitudinal study combining oncological exams with CCM + OCT in CIPN
+        - Largest published CCM mosaics (large-area CLSM) with identical-area re-identification
+        - Corneal nerve morphology remained stable during treatment
+        - Retinal thickening detected on OCT (deviation maps)
+        - No patients developed severe CIPN in this small cohort
+    *Conclusion:*: Advanced biophotonic imaging is a powerful tool for objective assessment of neurotoxic events, with ocular structures as potential biomarkers.
+    *Limitations:*: Small sample (n=14); minimal CIPN severity in cohort; no significant corneal nerve loss detected (may reflect small sample or protective effect).
+    *ME/CFS Relevance:*: Demonstrates longitudinal CCM feasibility for monitoring chemotherapy-induced nerve injury. CIPN trajectory (rapid onset, partial recovery) provides an accelerated model for understanding SFN dynamics that may inform ME/CFS SFN progression patterns.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (small longitudinal, advanced methods)
+        - *Sample:* Small (n=14)
+        - *Replication:* Single study
+        - *Score:* 0.45
+
+=== Sterenczak et al.\ 2021 — Longitudinal Dendritic Cell Burst During Chemotherapy
+
+    *Full Citation:*: Sterenczak KA, Stache N, Bohn S, et al.\ Burst of Corneal Dendritic Cells during Trastuzumab and Paclitaxel Treatment. _Diagnostics_. 2021;11(5):838. @sterenczak2021dendriticburst
+    *DOI:*: #link("https://doi.org/10.3390/diagnostics11050838")[10.3390/diagnostics11050838]
+    *PMID:*: 34066952
+    *Study Design:*: Longitudinal case report with 3 timepoints and region re-identification
+    *Sample Size:*: 1 HER2+ breast cancer patient
+    *Key Findings:*:
+        - Same corneal SNP regions re-identified at baseline, 6wk, and 11wk of therapy
+        - Subbasal nerve morphology remained stable
+        - Dendritic cell density increased dramatically with a local burst at 11wk
+        - Demonstrates CCM can track immune cell dynamics, not just nerve morphology
+    *Conclusion:*: Corneal DC density may serve as biomarker of chemotherapy-induced ocular inflammation.
+    *Limitations:*: n=1; cannot generalize; DC burst not linked to CIPN severity.
+    *ME/CFS Relevance:*: Demonstrates CCM's capacity to monitor immune-nerve interactions longitudinally. In ME/CFS, where neuroinflammation and immune activation are hypothesized drivers of SFN, tracking both corneal nerves and dendritic cells could reveal immune-mediated nerve damage dynamics.
+    *Certainty Assessment:*:
+        - *Quality:* Low (case report)
+        - *Sample:* n=1
+        - *Replication:* None
+        - *Score:* 0.30
+
+=== Tyler et al.\ 2022 — COCO Study: CCM in Oxaliplatin CIPN
+
+    *Full Citation:*: Tyler EF, McGhee CNJ, Lawrence B, et al.\ Corneal Nerve Changes Observed by In Vivo Confocal Microscopy in Patients Receiving Oxaliplatin for Colorectal Cancer: The COCO Study. _Journal of Clinical Medicine_. 2022;11(16):4770. @tyler2022cococipn
+    *DOI:*: #link("https://doi.org/10.3390/jcm11164770")[10.3390/jcm11164770]
+    *PMID:*: 36013010
+    *Study Design:*: Longitudinal observational study with 12-month follow-up
+    *Sample Size:*: 23 patients receiving oxaliplatin for GI cancer
+    *Key Findings:*:
+        - CCM, corneal sensitivity, and clinical neuropathy assessed at baseline, during, and post-treatment
+        - CNFD did not change significantly overall but correlated with clinical neuropathy at 20 weeks (r=0.61, p=0.01)
+        - Corneal sensitivity correlated with neuropathy at 12 weeks (r=0.55, p=0.01) and 20 weeks (r=0.64, p=0.006)
+        - Modest association supports CCM potential for monitoring oxaliplatin CIPN
+    *Conclusion:*: Corneal changes on CCM show moderate association with peripheral neuropathy, indicating potential to identify oxaliplatin-induced CIPN.
+    *Limitations:*: No significant CNFD group change over time; modest correlations; single-center.
+    *ME/CFS Relevance:*: Establishes CCM timepoints for CIPN detection (12-20 weeks) relevant to designing accelerated SFN model studies. Oxaliplatin produces predictable, dose-dependent neuropathy that can serve as positive control for CCM sensitivity.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (prospective longitudinal, moderate n)
+        - *Sample:* Moderate (n=23)
+        - *Replication:* Needs confirmation
+        - *Score:* 0.55
+
+=== Chiang et al.\ 2026 — Dose-Dependent CIPN with CCM
+
+    *Full Citation:*: Chiang JCB, Makrynioti D, Goldstein D, et al.\ Dose-dependent neurotoxic chemotherapy and corneal nerve morphological changes. _Clinical and Experimental Optometry_. 2026;109(5):929--937. @chiang2026dosedependentcipn
+    *DOI:*: #link("https://doi.org/10.1080/08164622.2025.2606161")[10.1080/08164622.2025.2606161]
+    *PMID:*: 41570248
+    *Study Design:*: Prospective longitudinal study with 3 timepoints + 12-month follow-up
+    *Sample Size:*: 15 taxane-treated, 18 oxaliplatin-treated cancer patients
+    *Key Findings:*:
+        - Dose-dependent corneal nerve reduction per 100 mg/m² neurotoxic chemotherapy (p=0.02)
+        - Average nerve fibre length (central + inferior whorl) changed earlier and more sensitively than CNFD alone
+        - Post-treatment, CIPN patients had lower CNFL at mid and end of treatment vs those without persistent neuropathy (p=0.02, p=0.006)
+        - Inferior whorl imaging improved sensitivity over central cornea alone
+    *Conclusion:*: Average nerve fibre length loss may have clinical utility as early marker of CIPN progression; wider-area imaging including inferior whorl is more beneficial.
+    *Limitations:*: Modest sample; heterogeneous chemotherapy regimens; no blinding.
+    *ME/CFS Relevance:*: Most methodologically rigorous longitudinal CCM-CIPN study. Dose-response relationship provides quantitative template for modelling SFN progression. Inferior whorl > central cornea finding directly applicable to ME/CFS CCM protocol design. Supports the "accelerated model" concept: CIPN compresses years of SFN progression into weeks.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-high (prospective longitudinal, dose-response analysis, adequate n)
+        - *Sample:* Moderate (n=33 total)
+        - *Replication:* Converges with Tyler 2022, Stache 2023
+        - *Score:* 0.55
+

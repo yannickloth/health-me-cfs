@@ -21,7 +21,7 @@ Several methods assess baroreflex function. Spontaneous baroreflex analysis calc
 
 ==== Evidence for Decreased Parasympathetic Activity
 
-Multiple lines of evidence converge on parasympathetic (vagal) dysfunction as a central feature of ME/CFS autonomic abnormalities. Reduced HRV high-frequency power provides a direct measure of cardiac vagal modulation. Diminished baroreflex sensitivity, which is primarily mediated by vagal mechanisms, further supports this dysfunction. Pupillary abnormalities reveal altered pupil responses to light (parasympathetically mediated), while gastrointestinal dysmotility reflects vagal nerve dysregulation of gut function. Additionally, reduced respiratory sinus arrhythmia indicates impaired vagally mediated heart rate variation with breathing.
+Multiple lines of evidence converge on parasympathetic (vagal) dysfunction as a central feature of ME/CFS autonomic abnormalities. Reduced HRV high-frequency power provides a direct measure of cardiac vagal modulation. Diminished baroreflex sensitivity, which is primarily mediated by vagal mechanisms, further supports this dysfunction. Pupillary abnormalities reveal altered pupil responses to light (parasympathetically mediated — see Section @sec:pupillometry-biomarker for the mechanistic basis and cross-disease evidence), while gastrointestinal dysmotility reflects vagal nerve dysregulation of gut function. Additionally, reduced respiratory sinus arrhythmia indicates impaired vagally mediated heart rate variation with breathing.
 
 The NIH study explicitly concluded that the autonomic findings indicated “decreased parasympathetic activity” @walitt2024deep, providing a unifying explanation for many ME/CFS symptoms.
 

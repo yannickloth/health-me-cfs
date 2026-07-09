@@ -232,6 +232,22 @@ Hauglund et al. (2025) demonstrated that NE oscillation amplitude, not mean NE, 
 *Limitations.* No 24h CSF NE data in ME/CFS. Indwelling CSF catheter carries infection risk. The circadian oscillation hypothesis is central to the LC-NE-glymphatic literature but has never been measured in human ME/CFS. DORA-NRI combination has no safety data.
 ] <spec:ne-circadian-collapse>
 
+==== Pupillometry as Candidate Probe of Locus Coeruleus Function
+
+#speculation(title: [Pupillometry as Noninvasive LC Functional Readout in ME/CFS])[
+*Certainty: 0.25.* The pupil is innervated by the locus coeruleus via an indirect but well-characterized pathway: LC → spinal intermediolateral column → superior cervical ganglion → α1-adrenergic receptors on the iris dilator muscle. Additionally, the Edinger-Westphal nucleus (parasympathetic constriction) receives LC-NE modulation. Pharmacological studies demonstrate that pupil diameter and dilation velocity respond to LC-NE tone: NE reuptake inhibitors increase pupil diameter, α2-agonists (clonidine) reduce it, and LC lesions abolish pupil dilation responses to arousal stimuli @drummond2022crps. Drummond et al. (2022) demonstrated that CRPS patients show smaller pupil diameter on the affected side with preserved light reflex, consistent with ipsilateral LC deficit @drummond2022crps.
+
+The CSF norepinephrine deficiency documented in ME/CFS @Aregawi2026Noradrenergic predicts that LC functional output should be measurable as abnormal pupillary dynamics — specifically, reduced pupil diameter at baseline (reflecting low tonic LC output), slower dilation velocity to arousal stimuli (reflecting impaired phasic LC bursts), or both. This provides a noninvasive, quantitative probe of the same LC dysfunction pathway inferred from invasive CSF sampling. Unlike CSF catecholamine measurement — which requires lumbar puncture and captures a single timepoint — pupillometry can be repeated at high frequency, enabling measurement of LC dynamics across rest, orthostatic challenge, cognitive load, and post-exertional states.
+
+*Consequence:* If pupillary dynamics correlate with CSF NE Pathway indices, pupillometry would offer a bedside proxy for central noradrenergic function that is safer, cheaper, and repeatable — useful for monitoring treatment response (e.g., NRI augmentation) and studying LC dynamics during PEM.
+
+*Falsifiable predictions:* (a) ME/CFS patients will show significantly slower pupil dilation velocity to an auditory arousal stimulus compared to age-matched healthy controls. (b) Dilation velocity will correlate positively with CSF NE Pathway index (NE+DHPG+MHPG) in patients who have undergone both pupillometry and lumbar puncture. (c) Atomoxetine (NRI) administration will increase pupil diameter and dilation velocity in ME/CFS patients, and the magnitude of increase will predict clinical response.
+
+*Limitations.* No direct ME/CFS pupillometry-LC correlation data. The LC→pupil pathway involves multiple synapses (LC → IML → SCG → iris), and peripheral sympathetic dysfunction (documented in ME/CFS) could produce pupil abnormalities independent of LC state. Anticholinergic and α-blocker medications, light adaptation, age, and alertness all affect pupil dynamics. Baseline pupil diameter alone has poor specificity — multiple neurological conditions produce smaller pupils.
+
+*Origin: brainstorm*
+] <spec:pupillometry-lc-readout>
+
 ==== GABAergic and Glutamatergic Imbalance
 
 <obs:gaba-glut>

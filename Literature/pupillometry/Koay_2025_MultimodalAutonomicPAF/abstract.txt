@@ -1,0 +1,10 @@
+Multimodal Autonomic Biomarkers Predict Phenoconversion in Pure Autonomic Failure.
+
+Koay S, Vichayanrat E, Bremner F, Valerio F, Mackenzie R, Chiaro G, Ingle G, McNamara P, Watson L, Panicker JN, Lunn MP, Mathias C, Iodice V.
+
+Annals of Clinical and Translational Neurology. 2025;12(11):2170-2180.
+doi: 10.1002/acn3.70140
+PMID: 40696849
+
+ABSTRACT:
+Pure autonomic failure (PAF) presents with autonomic failure without other neurological features. A third develop central neurological features, fulfilling criteria for multiple system atrophy (MSA) and Lewy body diseases (LBD), including Parkinson's disease and Dementia with Lewy bodies. We hypothesized multimodal autonomic biomarkers would identify differences between PAF, MSA, and LBD, and predict phenoconversion in patients presenting with PAF.

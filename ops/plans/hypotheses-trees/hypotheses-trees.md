@@ -46,6 +46,8 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
 | postcovid-ocular-syndrome | [subtrees/postcovid-ocular-syndrome.md](subtrees/postcovid-ocular-syndrome.md) | 2026-07-09 | 35 | 2 | ✅ done |
+| corneal-confocal-cross-disease-sfn | [subtrees/corneal-confocal-cross-disease-sfn.md](subtrees/corneal-confocal-cross-disease-sfn.md) | 2026-07-09 | 38 | 0 | 🔵 in progress |
+| ocular-sjogren-mecfs-overlap | [subtrees/ocular-sjogren-mecfs-overlap.md](subtrees/ocular-sjogren-mecfs-overlap.md) | 2026-07-09 | 51 | 18 | ✅ done |
 | ige-sensitization-spike-tick-neuroinflammation | [subtrees/ige-sensitization-spike-tick-neuroinflammation.md](subtrees/ige-sensitization-spike-tick-neuroinflammation.md) | 2026-06-24 | 13 | 8 | ✅ done |
 | mast-cell-ige-connective-tissue | [subtrees/mast-cell-ige-connective-tissue.md](subtrees/mast-cell-ige-connective-tissue.md) | 2026-06-19      | 46         | 0          | ⬜ pending     |
 | rf-elevated-mecfs     | [subtrees/rf-elevated-mecfs.md](subtrees/rf-elevated-mecfs.md)        | 2026-06-19      | 36         | 8          | ⬜ pending     |
@@ -110,6 +112,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | vns-anti-catabolic | [subtrees/vns-anti-catabolic.md](subtrees/vns-anti-catabolic.md) | 2026-05-26 | 1 | 0 | ⬜ stub |
 | myostatin-inhibition-mecfs | [subtrees/myostatin-inhibition-mecfs.md](subtrees/myostatin-inhibition-mecfs.md) | 2026-05-26 | 1 | 0 | ⬜ stub |
 | exercise-recovery-pem  | [subtrees/exercise-recovery-pem.md](subtrees/exercise-recovery-pem.md)  | 2026-05-07      | 21         | 21         | ✅ done        |
+| pupillometry-autonomic-biomarker-mecfs | [subtrees/pupillometry-autonomic-biomarker-mecfs.md](subtrees/pupillometry-autonomic-biomarker-mecfs.md) | 2026-07-09 | 27 | 0 | 🔵 in progress |
 | exercise-blinding     | [subtrees/exercise-blinding.md](subtrees/exercise-blinding.md)        | 2026-04-21      | 20         | 0          | ⬜ stub        |
 | funcap                | [subtrees/funcap.md](subtrees/funcap.md)                              | 2026-04-23      | 36         | 0          | ⬜ stub        |
 | G7-mito-pdh           | [subtrees/G7-mito-pdh.md](subtrees/G7-mito-pdh.md)                   | 2026-04-12      | 30         | 0          | ⬜ stub        |

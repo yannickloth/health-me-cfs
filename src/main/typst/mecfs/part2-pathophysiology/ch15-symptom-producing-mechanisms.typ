@@ -193,7 +193,7 @@ If orexin-A (OX1R-preferring) is selectively reduced while orexin-B (OX2R-prefer
 *Testable predictions:*
 
     - (a) ME/CFS patients with lower CSF orexin-A should show reduced DTI-ALPS glymphatic index
-    - (b) ME/CFS patients should show reduced coherence of infraslow pupil oscillations (an LC NE proxy) vs controls
+    - (b) ME/CFS patients should show reduced coherence of infraslow pupil oscillations (an LC NE proxy — see Section @sec:pupillometry-biomarker and @spec:pupillometry-lc-readout for pupillometry-based LC assessment) vs controls
     - (c) The orexin-B/orexin-A ratio should correlate with "tired but wired" severity and inversely with objective SWS duration
 ] <spec:ch15-orexin-vasomotion-triad>
 

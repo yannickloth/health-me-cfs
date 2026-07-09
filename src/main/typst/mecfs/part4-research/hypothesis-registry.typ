@@ -901,7 +901,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
   citations: [@Marshall2022CerebralVenousOI @Patel2024GlymphaticVenousStasis @Hartung2019CerebralVenousReturn @Neglen2008MayThurnerReview @Wolpert2020IliacStentingOutcomes @OSullivan2018StentingQoL @Ferreira2023VenousCompressionReview],
   mechanism: [Extracranial venous compression (MTS, IJV stenosis, CCI) → increased intracranial venous pressure → reduced perivenous CSF drainage → impaired glymphatic clearance → waste accumulation (amyloid-beta, tau, cytokines) → neuroinflammation → fatigue, brain fog, unrefreshing sleep.],
   chapter-ref: [ch14a:@spec:venous-stasis-glymphatic],
-  prediction: [DTI-ALPS index correlates inversely with iliac vein compression severity on CT venography; CSF cytokine/amyloid concentrations higher in patients with compromisedb cerebral venous return on MRV; stenting in MTS+ ME/CFS improves DTI-ALPS at 6 months.],
+  prediction: [DTI-ALPS index correlates inversely with iliac vein compression severity on CT venography; CSF cytokine/amyloid concentrations higher in patients with compromised cerebral venous return on MRV; stenting in MTS+ ME/CFS improves DTI-ALPS at 6 months.],
   treatment: [If confirmed: MRV/CT screening for venous compression in ME/CFS patients with predominant brain fog, unrefreshing sleep, and headache. CO₂ challenge or lumbar puncture opening pressure to distinguish ICP elevation from venous obstruction.],
   limitation: [No study directly measuring MTS-to-glymphatic chain in ME/CFS. Stenting outcomes in MTS general population may not generalize to ME/CFS. Glymphatic dysfunction may persist despite restored venous flow if AQP4 mislocalization or chronic neuroinflammation are irreversible.],
 )
@@ -1182,7 +1182,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
   certainty: "0.55",
   evidence: [Stanculescu et al.\ 2021 identified at least 9 shared pathophysiological mechanisms between heat stroke and ME/CFS: gut permeability/endotoxemia, systemic inflammation (IL-6, TNF-alpha, NLRP3), endothelial dysfunction, mitochondrial dysfunction, HSP deficiency, CNS neuroinflammation, splanchnic vasoconstriction, coagulation disorders, and similar transcriptomic profiles (downregulated respiratory chain genes, glycolysis switch). Female predominance, viral reactivation, and cumulative stress are shared predisposing factors.],
   citations: [@Stanculescu2021HeatStrokeMECFS],
-  mechanism: [Environmental heat exposure activates existing vulnerable pathways in ME/CFS rather than imposing a new stressor. Gut barrier already compromisedb (40-67% elevated LPS antibodies) → heat stress further increases permeability → endotoxemia spike → systemic inflammatory response → PEM. This explains why heat, a universal stressor, is disproportionately harmful in ME/CFS.],
+  mechanism: [Environmental heat exposure activates existing vulnerable pathways in ME/CFS rather than imposing a new stressor. Gut barrier already compromised (40-67% elevated LPS antibodies) → heat stress further increases permeability → endotoxemia spike → systemic inflammatory response → PEM. This explains why heat, a universal stressor, is disproportionately harmful in ME/CFS.],
   chapter-ref: [ch02:@sec:autonomic; ch14:@sec:autonomic-management; ch17:@sec:isr-lifestyle-misc],
   prediction: [ME/CFS patients exposed to standardized environmental heat (30°C, 50% humidity, 2 hours) will show greater increases in LPS, IL-6, and fatigue scores vs healthy controls and vs ME/CFS patients at thermoneutral. Gastric permeability testing (lactulose/rhamnose) will show worsening post-heat in ME/CFS but not controls.],
   treatment: [Heat avoidance during heat waves and hot environments is justified by shared vulnerability pathways. Pre-cooling strategies and gut barrier support (butyrate, glutamine) prior to unavoidable heat exposure may reduce PEM risk. Research-stage.],
@@ -1324,7 +1324,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [BBB Disruption and Autoantibody Access as Dual-Hit Feed-Forward Loop in ME/CFS],
   type: "S",
   certainty: "0.40",
-  evidence: [(a) ME/CFS involves BBB dysfunction (Chapter @ch:neurological). (b) If ME/CFS autoantibodies are pathogenic, BBB disruption enables their CNS access — autoantibodies can then target BBB antigens themselves, further disrupting barrier integrity. (c) Autoantibodies against brain endothelial antigens are documented in neuropsychiatric SLE, where anti-NR2/NMDAR antibodies cross a compromisedb BBB @Kowal2004NRLupusBBB. (d) No study has measured anti-BBB autoantibodies in ME/CFS.],
+  evidence: [(a) ME/CFS involves BBB dysfunction (Chapter @ch:neurological). (b) If ME/CFS autoantibodies are pathogenic, BBB disruption enables their CNS access — autoantibodies can then target BBB antigens themselves, further disrupting barrier integrity. (c) Autoantibodies against brain endothelial antigens are documented in neuropsychiatric SLE, where anti-NR2/NMDAR antibodies cross a compromised BBB @Kowal2004NRLupusBBB. (d) No study has measured anti-BBB autoantibodies in ME/CFS.],
   citations: [@Kowal2004NRLupusBBB],
   mechanism: [Infection/inflammation → initial BBB disruption → peripheral autoantibodies enter CNS → some target BBB endothelium → further disruption → more autoantibody CNS access → feed-forward amplification.],
   chapter-ref: [ch14d:@spec:bbb-autoantibody-feedforward; ch08:@sec:bbb],
@@ -3303,7 +3303,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
   certainty: "0.65",
   evidence: [Moustardas et al. (2026, Nature Communications, n=100 post-COVID ocular, n=32 controls) found: standard eye exam normal, yet specialised testing revealed corneal neurodegeneration + dendritic/T-cell activation (confocal microscopy), weakened pupillary reflexes, adult-onset strabismus, and a tear CD4+ T-cell dysregulation proteomic signature matching severe/fatal COVID tissue patterns. Two diagnostic models (77–91% accuracy). Smit et al. (2026, n=397 PCS, n=129 controls) confirmed pupillary autonomic dysregulation (IPA/LHIPA reduced, $p < 0.001$) @smit2026pupillary. Already corroborated by Cañadas 2023 (corneal confocal long COVID) @Cañadas2023CornealConfocal and Azcue 2025 (corneal tortuosity ME/CFS) @Azcue2025sfn. Origin: literature-derived.],
   citations: [@moustardas2026ocular @smit2026pupillary @Cañadas2023CornealConfocal @Azcue2025sfn @johansson2022visual @naseri2025dryeye],
-  mechanism: [Mild COVID-19 → chronic T-cell-mediated neuroinflammation → (a) corneal small-fiber degeneration, (b) autonomic pupillary/oculomotor dysfunction, (c) immune dysregulation detectable in tear fluid. Triad = dysautonomia + small-fiber neuropathy + T-cell dysregulation — the same three-chamber cascade the paper's causal hierarchy identifies as propagating CNS energy failure to end-organs (Chapter @ch:causal-hierarchy). Eye = tissue where all three are non-invasively measurable.],
+  mechanism: [Mild COVID-19 → chronic T-cell-mediated neuroinflammation → (a) corneal small-fiber degeneration, (b) autonomic pupillary/oculomotor dysfunction, (c) immune dysregulation detectable in tear fluid. Triad = dysautonomia + small fiber neuropathy + T-cell dysregulation — the same three-chamber cascade the paper's causal hierarchy identifies as propagating CNS energy failure to end-organs (Chapter @ch:causal-hierarchy). Eye = tissue where all three are non-invasively measurable.],
   chapter-ref: [ch08:@cf:postcovid-ocular-syndrome, ch03:sec-10-ocular, ch07:@spec:tear-tcell-readout],
   prediction: [A criteria-defined ME/CFS cohort subjected to the same multimodal protocol (corneal confocal, pupillometry, tear proteomics) will show reduced corneal nerve fibre density (≥20% below matched controls), reduced pupillary light-reflex amplitude or constriction velocity (≥25% below controls), and a tear proteomic classifier separating patients from controls at AUC ≥0.75. Falsified if patients with documented dysautonomia and SFN have corneal nerve density, pupillary reflexes, and tear proteomes statistically indistinguishable from controls.],
   treatment: [No treatment tested. Diagnostic models (77–91% accuracy) suggest objective biomarkers are feasible.],
@@ -3317,7 +3317,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
   citations: [@moustardas2026ocular @iu2024tcell_exhaustion @walitt2024deep],
   mechanism: [Systemic T-cell dysregulation → spillover into lacrimal gland/tear fluid → detectable proteomic signature. Tear fluid mirrors systemic immune state for some compartments (shown for post-COVID; unverified for ME/CFS).],
   chapter-ref: [ch07:@spec:tear-tcell-readout, ch08:@cf:postcovid-ocular-syndrome],
-  prediction: [Tear proteomics in ME/CFS shows CD4+/CD8+ dysregulation signature correlating with blood T-cell exhaustion markers (PD-1 expression, TCF7 state) within individuals. Falsified if tear and blood signatures are uncorrelated.],
+  prediction: [Tear proteomics in ME/CFS shows CD4+/CD8+ dysregulation signature correlating with blood T-cell exhaustion markers (PD-1 expression, TCF7 state) within individuals at within-subject $r gt.eq 0.4$, or a tear-only classifier separating patients from controls at AUC $gt.eq 0.70$. Falsified if the within-subject tear--blood correlation is below 0.4 and no tear classifier reaches AUC 0.70 in an adequately powered sample.],
   treatment: [No treatment proposed. If validated, tear biomarkers would enable home-collection immune monitoring in trials enrolling severe/bedbound patients normally excluded by phlebotomy burden.],
   limitation: [Entirely untested in ME/CFS. Tear-blood concordance shown only for a selected post-COVID ocular-symptom cohort. Tear composition varies with ocular surface condition (dry eye, blepharitis), diet, environment, and sleep — all confounders in ME/CFS. Mechanism of spillover (active secretion vs passive leakage vs local ocular immune response) unknown.],
 )
@@ -3331,5 +3331,145 @@ This registry collects all hypotheses, speculations, open questions, and predict
   chapter-ref: [ch03:sec-10-ocular, ch08:@cf:postcovid-ocular-syndrome],
   prediction: [A proportion of ME/CFS patients reporting diplopia (predicted $gt.eq 15%$) will show measurable strabismus ($gt 5$ prism dioptres deviation on cover test) on orthoptic examination with normal extraocular muscle anatomy on imaging (nerve, not muscle). Falsified if $lt 5%$ show measurable deviation, or if diplopia in ME/CFS consistently traces to accommodation fatigue rather than oculomotor misalignment.],
   treatment: [May respond to prism correction or botulinum toxin, as in conventional strabismus. No ME/CFS-specific trial data.],
-  limitation: [Strabismus in Moustardas cohort is a minority finding — core ocular phenotype is corneal neuropathy + pupillary dysautonomia. Diplopia in ME/CFS more commonly fatigue-related (accommodation failure) than structural misalignment. Nerve-vs-muscle distinction requires specialist orthoptic testing, not available in routine exams. Single study.],
+   limitation: [Strabismus in Moustardas cohort is a minority finding — core ocular phenotype is corneal neuropathy + pupillary dysautonomia. Diplopia in ME/CFS more commonly fatigue-related (accommodation failure) than structural misalignment. Nerve-vs-muscle distinction requires specialist orthoptic testing, not available in routine exams. Single study.],
 )
+#registry-entry(
+  [Corneal Confocal Microscopy as Cross-Disease Validated SFN Biomarker with Normative Data],
+  type: "H",
+  certainty: "0.45",
+  evidence: [Corneal confocal microscopy (CCM) has been validated across ≥7 disease groups (diabetic neuropathy, fibromyalgia, MS, PD, SLE, POTS, chemotherapy-induced) for small-fiber neuropathy detection. Multinational normative data (CNFD, CNBD, CNFL, tortuosity) available from Tavakoli et al. (2015, multicenter, n>340) @tavakoli2015normaliveccm with ethnic-specific reference values @cao2022cornealreference. Ranathunga et al. (2026, Pain) meta-analysis confirmed transdiagnostic SFN in chronic pain @ranathunga2026nonneuropathic. Oreskovic et al. (2026) scoping review mapped CCM across neurodegenerative disease @oreskovic2026scoping. In ME/CFS, Azcue et al. (2025) found increased corneal nerve tortuosity as primary discriminator (AUC=0.720) with non-length-dependent distribution @Azcue2025sfn. Azcue 2023 documented C-fiber dysfunction with 31% meeting POTS criteria @Azcue2023sfn. Origin: literature-derived cross-disease synthesis.],
+  citations: [@tavakoli2015normaliveccm @cao2022cornealreference @ranathunga2026nonneuropathic @oreskovic2026scoping @Azcue2025sfn @Azcue2023sfn @sommer2025fibromyalgiasfn @akowuah2025msccm @ghadban2025mixed @gharib2025sleccm @cantrell2025potssfn],
+  mechanism: [CCM images the corneal subbasal nerve plexus (Aδ and C fibers) non-invasively. Corneal nerve loss reflects systemic small-fiber pathology across diseases. In ME/CFS, tortuosity increase (not density loss) is the primary finding — consistent with immune-mediated rather than metabolic neuropathy. Non-length-dependent distribution distinguishes from diabetic neuropathy. CCM and skin biopsy (IENFD) show moderate correlation — they measure partially distinct aspects of SFN (morphology vs density).],
+  chapter-ref: [ch10:@spec:sfn-interface-failure, ch14d:@spec:ccm-cross-disease-patterns, ch08:@spec:retinal-corneal-cns-window],
+  prediction: [A cross-disease CCM study (ME/CFS, fibromyalgia, post-COVID, healthy controls, n≥50 per group) would identify disease-specific CCM patterns (tortuosity-dominant in ME/CFS, DC-density-dominant in MS, density-dominant in diabetic neuropathy). ME/CFS corneal nerve tortuosity should correlate with IENFD reduction, autonomic dysfunction severity, and CNS symptoms. Falsified if CCM parameters are indistinguishable across conditions or within-group variance exceeds between-group difference.],
+  treatment: [CCM is a diagnostic/monitoring tool, not treatment. Could serve as non-invasive longitudinal outcome measure for SFN-targeted treatment trials (IVIG, LDN) — repeatable without biopsy-related morbidity.],
+  limitation: [Only one ME/CFS CCM study exists (Azcue 2025). No head-to-head cross-disease CCM comparison including ME/CFS. CCM-vs-IENFD correlation is moderate (Ghadban 2025) — CCM does not replace skin biopsy. Automated vs manual image analysis significantly affects results (Raasing 2023, method heterogeneity). No normative comparison of ME/CFS CCM parameters against the Tavakoli database. Publication bias toward positive CCM findings — negative CCM studies under-published.],
+)
+#registry-entry(
+  [CCM as Non-Invasive SFN Treatment-Response Monitor for ME/CFS Trials],
+  type: "S",
+  certainty: "0.30",
+  evidence: [CCM detected chemotherapy-induced polyneuropathy earlier than clinical assessment @baghdasaryan2026chemo. SNRI treatment partially reversed corneal nerve changes in fibromyalgia @kubat2026fibromyalgiaccm. CCM is non-invasive, radiation-free, repeatable every few months (skin biopsy requires healing time). In ME/CFS, if SFN-targeted treatments (IVIG, corticosteroids, immunomodulators) reduce small-fiber pathology, serial CCM could provide the first repeatable tissue-level treatment-response biomarker. Origin: literature-derived inference.],
+  citations: [@baghdasaryan2026chemo @kubat2026fibromyalgiaccm @Azcue2025sfn @Azcue2023sfn],
+  mechanism: [Treatment of SFN → reduced immune-mediated nerve damage → corneal nerve regeneration (increased CNFD/CNFL, reduced tortuosity) → detectable by serial CCM within 3–6 months. CCM regeneration signals precede symptom improvement, analogous to diabetic neuropathy CCM monitoring protocols.],
+  chapter-ref: [ch10:@spec:sfn-interface-failure, ch14d:@spec:ccm-cross-disease-patterns],
+  prediction: [In a 12-month IVIG trial for autoimmune SFN in ME/CFS, CCM parameters (CNFD, tortuosity) will show detectable improvement at 6 months (≥10% CNFD increase), preceding symptom improvement at 9–12 months. Falsified if CCM is static despite clinical improvement, or if CCM improvement is dissociated from IENFD improvement.],
+  treatment: [If validated, CCM could serve as early-response biomarker for SFN-targeted trials, enabling shorter trial durations and dose-finding without repeat skin biopsy. No clinical use outside trials.],
+  limitation: [Only one ME/CFS CCM study. Treatment-response CCM data in ME/CFS entirely absent. Regeneration timelines in immune-mediated vs metabolic neuropathy may differ — extrapolation from fibromyalgia/chemo-neuropathy uncertain. CCM cannot distinguish between regeneration of existing nerves and compensatory sprouting. Regeneration signal may reflect corneal-specific recovery not generalizable to somatic small fibers.],
+)
+#registry-entry(
+  [Pupillometry as ME/CFS Autonomic Biomarker],
+  type: "S",
+  certainty: "0.30",
+  evidence: [Sander 2025 validated handheld pupillometer in autonomic failure (certainty 0.70) @sander2025pupillometry. Master 2020 validated PLR as objective biomarker in n=352 concussion patients (certainty 0.75) @master2020plr. Szklarski 2021 demonstrated elevated M3/α1 autoantibodies in ME/CFS (certainty 0.65) @szklarski2021cd26. Azcue 2026 replicated α1 autoantibody elevation in PCS+CFS (certainty 0.70) @azcue2026gpcrpupil. Lisowski 2025 reviewed pupil autonomic anatomy @lisowski2025pupillary. Rizzuto 2025 reviewed hippus as autonomic biomarker @rizzuto2025hippus. Sendrowski 1997 (certainty 0.25) — only direct CFS pupillometry study. Origin: brainstorm.],
+  citations: [@sander2025pupillometry @master2020plr @szklarski2021cd26 @azcue2026gpcrpupil @lisowski2025pupillary @rizzuto2025hippus @sendrowski1997sympathetic @egg2002pupillary @parmakyener2026pupillography],
+  mechanism: [M3 muscarinic receptors (iris sphincter, parasympathetic constriction) and α1-adrenergic receptors (iris dilator, sympathetic dilation) are targets of GPCR autoantibodies elevated in ME/CFS. If antibodies are functionally pathogenic, end-organ effect should be measurable as slowed constriction velocity, reduced dilation velocity, or both. Pupillometry is noninvasive, brief (30s), performable supine — accessible to severe patients.],
+  chapter-ref: [ch29:@spec:pupillometry-biomarker, ch29:@oq:pupillometry-pem, ch29:@oq:plr-gpcr-bioassay],
+  prediction: [ME/CFS patients with elevated α1/M3 autoantibodies will show slower PLR constriction velocity and/or reduced dilation velocity vs ME/CFS without autoantibodies and controls. PLR parameters will correlate with COMPASS-31 and orthostatic intolerance measures. PEM provocation will alter PLR dynamics. Falsified if autoantibody-positive patients show normal PLR, or if PLR does not differ from controls after accounting for age/medication confounds.],
+  treatment: [No treatment proposed. If validated, pupillometry could serve as functional autoantibody bioassay and treatment-response monitor for immunomodulatory trials — distinguishing functionally pathogenic from non-pathogenic autoantibodies.],
+  limitation: [No modern ME/CFS pupillometry data. Egg 2002 found pupillary unrest inversely correlated with fatigue in MS (null result). PLR sensitive to medications, ambient light, alertness, age. Day-to-day reliability in ME/CFS unknown.],
+)
+#registry-entry(
+  [Pupillometry During PEM Provocation],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [ME/CFS autonomic function often normal at rest but deranged after provocation. Sander 2025 @sander2025pupillometry validated methodology. No PEM provocation pupillometry study exists. Origin: brainstorm.],
+  citations: [@sander2025pupillometry],
+  mechanism: [Exercise/orthostatic provocation → autonomic decompensation → measurable PLR changes reflecting dynamic sympathetic/parasympathetic failure. Handheld pupillometer enables serial measurements at rest, during orthostasis, and at multiple timepoints post-exertion.],
+  chapter-ref: [ch29:@oq:pupillometry-pem],
+  prediction: [PLR constriction velocity and dilation velocity measured 2h post-exertion will be significantly slower than pre-exertion baseline in ME/CFS, with slowing magnitude proportional to PEM severity. Healthy controls show no change or faster recovery. Falsified if PLR is stable across pre/post-exertion timepoints, or if within-subject variability exceeds between-state differences.],
+  treatment: [N/A — research direction only.],
+  limitation: [No pilot data. Optimal timing for post-exertion measurement unknown. PEM onset is delayed (12–72h); single 2h measurement may miss the window. Repeated testing itself may be a PEM trigger. Medication half-lives may confound serial PLR.],
+)
+#registry-entry(
+  [PLR as GPCR Autoantibody Functional Bioassay],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Szklarski 2021 @szklarski2021cd26 and Azcue 2026 @azcue2026gpcrpupil demonstrate GPCR autoantibodies in ME/CFS. In vitro ELISA/bioassay measures binding to recombinant receptors; binding does not establish functional impairment at native tissue. Pupil is native tissue with M3/α1 receptors at physiological densities. Origin: brainstorm.],
+  citations: [@szklarski2021cd26 @azcue2026gpcrpupil @lisowski2025pupillary],
+  mechanism: [ME/CFS patients with GPCR autoantibodies → functional impairment of M3/α1 receptor-mediated pupil dynamics IF antibodies are pathogenic. Pupillometry measures end-organ function, distinguishing neutralizing from non-pathogenic autoantibodies — a distinction in vitro binding assays cannot make.],
+  chapter-ref: [ch29:@oq:plr-gpcr-bioassay],
+  prediction: [Among ME/CFS patients with anti-α1 or anti-M3 antibodies, PLR constriction/dilation velocity will be slower in patients who later show clinical improvement after IVIG than same patients' post-treatment values. Antibody titers alone will not predict treatment response. Falsified if PLR does not change post-treatment, or if PLR change is dissociated from clinical improvement.],
+  treatment: [If validated, PLR-based bioassay could identify which autoantibody-positive patients benefit from immunomodulatory therapy — stratifying IVIG/plasmapheresis trials. No clinical use until validated.],
+  limitation: [Entirely untested. PLR impairment may have causes beyond autoantibodies (medications, age, comorbid conditions). Cutoff between "functionally impaired" and "normal" PLR in the context of positive serology is undefined. Pupil receptors represent one tissue — autoantibody effects may be tissue-specific.],
+)
+#registry-entry(
+  [Pupillometry as Noninvasive LC Functional Readout],
+  type: "S",
+  certainty: "0.25",
+  evidence: [Drummond 2022 demonstrated LC deficit via pupil dilation asymmetry in CRPS @drummond2022crps. Aregawi 2026 documented CSF NE deficiency in ME/CFS @Aregawi2026Noradrenergic. LC → IML → SCG → α1-adrenergic iris dilator pathway is well-characterized @lisowski2025pupillary. Origin: brainstorm.],
+  citations: [@drummond2022crps @Aregawi2026Noradrenergic @lisowski2025pupillary],
+  mechanism: [LC functional output → pupil dilation velocity via α1-adrenergic dilator muscle innervation. CSF NE deficiency predicts reduced baseline pupil diameter (low tonic LC output) and slower dilation to arousal stimuli (impaired phasic LC bursts). Provides noninvasive proxy for central noradrenergic state — safer and repeatable vs lumbar puncture.],
+  chapter-ref: [ch08:@spec:pupillometry-lc-readout],
+  prediction: [ME/CFS patients will show slower pupil dilation velocity to auditory arousal vs controls. Dilation velocity will correlate positively with CSF NE Pathway index in patients with both pupillometry and LP. Atomoxetine (NRI) will increase pupil dilation velocity, with magnitude predicting clinical response. Falsified if dilation velocity is normal in ME/CFS, or if no correlation with CSF NE exists.],
+  treatment: [If validated, pupillometry could serve as bedside LC function monitor for NRI treatment trials — avoiding repeat lumbar puncture. No clinical use until validated.],
+  limitation: [No direct ME/CFS pupillometry-LC correlation data. Peripheral sympathetic dysfunction could produce pupil abnormalities independent of LC. Medications, light adaptation, age, alertness all affect pupil dynamics. Baseline pupil diameter has poor specificity — multiple conditions produce smaller pupils.],
+)
+
+=== Ocular Sjögren / ME/CFS Overlap (Phase 3) — added 2026-07-09
+
+#registry-entry(
+   [The Ocular Surface as a Shared Neuro-Immune Window Across Sjögren's and ME/CFS],
+   type: "S",
+   certainty: "0.25",
+  evidence: [Sjögren's tear proteomics discriminates autoimmune from non-autoimmune sicca @lepine2024tearproteomics @george2023tearproteomics; tear IL-6/IL-17/MMP-9/BAFF track systemic disease activity @wu2024sjogrendryeyediagnostics. Corneal confocal microscopy (CCM) of the subbasal nerve plexus detects small-fiber loss in Sjögren's @luzu2022cornealinnervation, predicts serological activity @wang2025ivcmsjogren, and shows corneal nerve abnormalities in fibromyalgia dry eye @verges2025fibrodryeye. CCM already detects SFN in ME/CFS and post-COVID cohorts @Azcue2025sfn @Azcue2023sfn @Cañadas2023CornealConfocal. Distinct from the T-cell tear entry (@spec:tear-tcell-readout) — this entry centres the Sjögren's inflammatory-cytokine + corneal C-fiber axis. Origin: literature synthesis.],
+  citations: [@lepine2024tearproteomics @george2023tearproteomics @wu2024sjogrendryeyediagnostics @luzu2022cornealinnervation @wang2025ivcmsjogren @verges2025fibrodryeye @Azcue2025sfn @Azcue2023sfn @Cañadas2023CornealConfocal],
+  mechanism: [Ocular surface may integrate two dysregulated signals: (a) tear inflammatory mediators reflecting systemic immune activity, and (b) corneal subbasal C-fiber density reflecting small-fiber integrity. The lacrimal functional unit is parasympathetically innervated (CN VII), so ME/CFS dysautonomia could reduce tear secretion downstream of the same autonomic pathology implicated elsewhere. Convergence would make the eye a mostly non-invasive site (tear sampling low-burden; CCM a specialist procedure, not bedside) reflecting the neuro-immune and small-fiber arms of ME/CFS.],
+  chapter-ref: [ch14d:@spec:ocular-surface-neuroimmune-window, ch14d:@oq:mecfs-tear-proteome],
+  prediction: [In an ME/CFS cohort vs matched controls, CCM shows reduced corneal nerve fiber density (lower CNFD in cases, matching Sjögren's/fibromyalgia direction) AND tear IL-6/MMP-9 is elevated in the objective-dry-eye subset. Falsified if CCM shows no group difference in corneal nerve density OR tear inflammatory markers do not differ between ME/CFS cases with sicca and controls (failure of either conjunct refutes the joint window claim).],
+  treatment: [No treatment proposed. If validated, tear sampling (low-burden) plus corneal confocal microscopy (a specialist procedure requiring a fixed device and operator, NOT a bedside test) could largely non-invasively detect small-fiber and inflammatory features of ME/CFS — of particular value where skin-biopsy nerve testing is impractical, though CCM's equipment requirement limits true bedside/bedbound accessibility.],
+  limitation: [No ME/CFS study has measured the tear proteome or performed CCM as a primary endpoint; every ME/CFS-specific claim is analogical (Sjögren's, fibromyalgia, post-COVID). Sicca in ME/CFS is multifactorial (anticholinergic medications, dehydration, dysautonomia) and need not reflect autoimmune glandular pathology. Corneal nerve changes are non-specific across systemic conditions.],
+)
+#registry-entry(
+  [Does the ME/CFS Tear Proteome Resemble the Sjögren's Signature?],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [The ME/CFS tear proteome is entirely uncharacterized. Sjögren's tear proteomics has matured to validated discriminant panels @lepine2024tearproteomics; fibromyalgia shows ocular-surface and corneal-nerve abnormalities @verges2025fibrodryeye. No study has applied the same LC-MRM tear panel to an ME/CFS cohort. Bears on the long-standing seronegative-Sjögren's hypothesis for an ME/CFS subset (see ch14d Sjögren's block). Origin: literature synthesis.],
+  citations: [@lepine2024tearproteomics @george2023tearproteomics @verges2025fibrodryeye],
+  mechanism: [If a subset of ME/CFS patients harbour subclinical autoimmune sicca, their tears could carry a Sjögren's-like inflammatory-proteomic signature (IL-6, IL-17, MMP-9, BAFF, β2-microglobulin); alternatively the signature may be distinct or absent, arguing against the shared-autoimmune-subgroup model.],
+  chapter-ref: [ch14d:@oq:mecfs-tear-proteome, ch14d:@spec:ocular-surface-neuroimmune-window],
+  prediction: [Applying the validated Sjögren's tear LC-MRM panel to an ME/CFS cohort will either separate a sicca-positive subset from controls (supporting shared subclinical autoimmunity) or fail to (arguing against it). Falsified as a shared-signature claim if no ME/CFS subset shows Sjögren's-like tear proteomic clustering.],
+  treatment: [N/A — research direction only. A non-invasive tear test could, if positive, help identify an ME/CFS subset overlapping biologically with a treatable autoimmune disease.],
+   limitation: [Untested in ME/CFS. Tear composition confounded by ocular surface disease, diet, environment, sleep. A negative result would not exclude autoimmunity confined to compartments not reflected in tears.],
+)
+#registry-entry(
+  [Corneal Nerve Tortuosity as Separate ODE State Variable from Fiber Density],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Azcue et al. (2025) found corneal nerve tortuosity (AUC=0.720) is a better discriminator of ME/CFS from controls than CNFD (AUC=0.63), suggesting tortuosity and density are driven by different processes. Phase 4 brainstorm (idea 7.1) proposes a two-variable SFN ODE extension separating tortuosity T (ECM/glycocalyx degradation → fiber kinking) from density F (axonal die-back). ECM/glycocalyx disruption documented in ME/CFS vascular endothelium (Wust 2024, ch06). Origin: brainstorm.],
+  citations: [@Azcue2025sfn],
+  mechanism: [ROS + autoantibody-mediated ECM/glycocalyx degradation → perineurial support loss → nerve fiber buckling (tortuosity increase) independent of axonal die-back (density decrease). Two separable pathological processes with different rate constants: tortuosity (rapid ECM, reversible), density (slow axonal, less reversible).],
+  chapter-ref: [ch41 — see SFN ODE discussion following @pred:cnfd-sfn-observable],
+  prediction: [Longitudinal ME/CFS CCM data: tortuosity T increases early (constant gamma_ECM > 0) while density F declines later (slower k_degen). T and F trajectories are statistically distinguishable (no significant cross-correlation at lag=0) and T/F ratio is a monotonic disease progression marker. Falsified if T and F change synchronously or tortuosity changes only when density is already reduced.],
+  treatment: [If tortuosity is ECM-driven: glycocalyx-stabilizing interventions (sulodexide, doxycycline) vs if density loss is axonal: regenerative interventions (NGF, growth factors). Different treatment targets for different SFN phenotypes.],
+  limitation: [Two-variable model entirely theoretical; no longitudinal ME/CFS CCM data; ECM degradation in trigeminal ganglion unstudied; tortuosity may reflect mechanical deformation from dry eye / blinking artifact rather than glycocalyx pathology.],
+)
+
+=== Ocular Sjögren / ME/CFS Overlap (Phase 5) — added 2026-07-09
+
+#registry-entry(
+  [Functional Lacrimal Denervation as a Candidate Non-Autoimmune Route to Sicca in ME/CFS],
+  type: "S",
+  certainty: "0.28",
+  evidence: [ME/CFS parasympathetic dysfunction is documented @Azcue2023sfn; the lacrimal functional unit is parasympathetically innervated (CN VII, pterygopalatine ganglion). Sjögren's sicca is destruction-driven @wu2024sjogrendryeyediagnostics; the M3-autoantibody account posits antibody-mediated blockade (@spec:me-cfs-sicca-m3-antibodies). This entry proposes a third, non-autoimmune route: functional denervation from autonomic withdrawal, distinguishable by a pilocarpine challenge test (denervation → preserved/supersensitive response; destruction → blunted). No direct ME/CFS data. Origin: brainstorm.],
+  citations: [@Azcue2023sfn @wu2024sjogrendryeyediagnostics @lepine2024tearproteomics],
+  mechanism: [Parasympathetic withdrawal → reduced cholinergic drive to lacrimal/salivary glands → aqueous-deficient sicca with preserved gland architecture. Contrasts with Sjögren's lymphocytic destruction and with M3-antibody blockade. Denervation supersensitivity predicts preserved or exaggerated response to exogenous cholinergic agonist.],
+  chapter-ref: [ch14d:@spec:mecfs-lacrimal-denervation, ch14d:@spec:me-cfs-sicca-m3-antibodies],
+   prediction: [Standardised pilocarpine challenge (oral M3 agonist; Schirmer's at 0/30/60/90 min): $gt.eq 5$ mm tear increase in the majority of ME/CFS sicca patients vs a minority of primary Sjögren's sicca controls; pilocarpine responsiveness correlates with resting HRV. Salivary-gland ultrasound normal in ME/CFS sicca. Falsified if ME/CFS sicca shows SGUS abnormalities matching Sjögren's or an equally blunted pilocarpine response. The test distinguishes functional impairment from gland destruction but NOT denervation from M3-antibody blockade; discriminating the specific non-autoimmune claim requires stratifying pilocarpine response by M3-autoantibody titre (preserved response in the antibody-negative subset). Interpret blunted responses against anticholinergic burden (chronic use causes glandular atrophy).],
+  treatment: [If denervation-driven: cholinergic agonists (pilocarpine, cevimeline). Research hypothesis only, not a recommendation. The pilocarpine challenge is a provocation test, not bloodwork-free simplicity — it requires cardiac monitoring in a population with prevalent orthostatic intolerance. Contraindicated in uncontrolled asthma, narrow-angle glaucoma, acute iritis, GI/biliary obstruction, sick sinus syndrome, concurrent beta-blockers. Side effects (sweating, nausea, diarrhoea, bradycardia) may limit tolerability.],
+  limitation: [No direct ME/CFS data; inferred from documented dysautonomia + lacrimal neuroanatomy. Overlaps with M3-autoantibody account — the pilocarpine challenge distinguishes functional impairment from gland destruction but NOT denervation from M3-antibody blockade (both predict preserved response). Sicca in ME/CFS is multifactorial (anticholinergic medications, dehydration); chronic anticholinergic use can itself cause glandular atrophy, confounding the challenge. Cholinergic agonists unlicensed for ME/CFS; use requires supervised cardiac monitoring.],
+)
+#registry-entry(
+  [Ocular-Surface Signal in ME/CFS May Be Artefact (Medication / Dry-Eye / Spurious-Overlap Confounds)],
+  type: "L",
+  certainty: "n/a",
+  evidence: [Critical self-audit of the ocular-surface hypotheses (@spec:ocular-surface-neuroimmune-window, @oq:mecfs-tear-proteome, @spec:mecfs-lacrimal-denervation). Zero direct ME/CFS tear/CCM primary-endpoint studies exist (~0.95 certainty of gap). Alternative explanations: anticholinergic-medication-induced sicca (~0.50), dry-eye-driven cytokine/nerve changes (~0.45), spurious tear-proteomic overlap as shared DED endotype (~0.40). The one fatigue-spectrum ocular study @verges2025fibrodryeye did not control for anticholinergic medication; Sjögren's tear panels @lepine2024tearproteomics may misclassify autonomic dry eye; tear cytokine assays vary by time/method; referral-clinic selection bias inflates apparent overlap; no multimodal (CCM+tear+IENFD+autonomic) study exists in any disease. Origin: brainstorm critical categories 10–12.],
+  citations: [@verges2025fibrodryeye @lepine2024tearproteomics @wu2024sjogrendryeyediagnostics],
+  mechanism: [Confounds that could produce ocular findings without implicating ME/CFS systemic biology: (1) anticholinergic drugs reduce secretion; (2) local dry-eye inflammation elevates tear cytokines and remodels corneal nerves; (3) common final inflammatory pathway of dry eye mimics disease-mechanism overlap.],
+  chapter-ref: [ch14d:@lim:ocular-surface-mecfs-confounds],
+  prediction: [Any positive ME/CFS ocular-surface finding must survive adjustment for anticholinergic burden and dry-eye severity, and be replicated with standardised tear-collection methods, before it can be attributed to ME/CFS systemic biology. Falsified as a confound-only account if tear-serum cytokine correlation persists after dry-eye adjustment and in medication-free patients.],
+  treatment: [N/A — methodological caveat. Guards against premature clinical use of unvalidated ocular biomarkers.],
+  limitation: [The confounds themselves are inferred; some (e.g. medication burden) are directly testable and should be measured in any future ME/CFS ocular study.],
+)
+
+

@@ -73,6 +73,16 @@ Prevents re-processing of already-integrated content.
 | PubMed API queries (batch) | pubmed/eutils | 2026-06-08 | — | content-staging/literature-neuroimmune-blitshteyn-2026.md, bib/appendix-h — Neuroimmune POTS/ME/CFS/LC literature collection (16 papers) |
 | Crossref API (10.2147/ITT.S581262) | crossref | 2026-06-08 | — | content-staging/literature-neuroimmune-blitshteyn-2026.md — Primary paper metadata + 74 reference list |
 
+## Ocular Sjögren / ME/CFS Overlap Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-07-09 | 14 queries: SjS tear proteomics, CCM SjS/SFN/FM/long COVID, tear cytokines fatigue, dry eye CFS, FM dry eye |
+| PubMed (E-utilities API) | 2026-07-09 | Null/negative search: CCM FM negative, tear proteomics fatigue null |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (14 queries, batch) | pubmed/eutils | 2026-07-09 | — | content-staging/lit-summary-ocular-sjogren-mecfs-overlap-2026-07-09.md, content-staging/search-log-ocular-sjogren-mecfs-overlap-2026-07-09.md, bib/autoimmunity.bib, bib/neurology-comorbidities.bib, appendix-h — Ocular Sjögren/ME/CFS overlap literature (6 new papers + 6 pre-existing reused) |
+
 ## IgE Sensitization — Spike/Tick/Neuroinflammation Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
@@ -686,3 +696,12 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | https://doi.org/10.1038/s41467-026-74858-4 | doi.org | 2026-07-09 | — | content-staging/lit-summary-postcovid-ocular-syndrome-2026-07-09.md, content-staging/search-log-postcovid-ocular-syndrome-2026-07-09.md, bib/neurology-comorbidities.bib (4 new entries), appendix-h — Post-COVID ocular syndrome literature (7 papers: 4 new + 3 pre-existing reused) |
+
+## Pupillometry as Autonomic Biomarker Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-07-09 | 22 queries across 6 families: direct ME/CFS, cross-disease autonomic (POTS/fibromyalgia/migraine/CRPS/MS/diabetes/PAF/concussion), method/validation, null/negative/replication, competing (HRV/tilt table), indirect biochemical (M3 muscarinic/alpha-1 adrenergic/GPCR autoantibodies/Edinger-Westphal), large-scale/cohort |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (22 queries, batch) | pubmed/eutils | 2026-07-09 | — | content-staging/search-log-pupillometry-autonomic-biomarker-mecfs-2026-07-09.md, bib/pupillometry.bib (14 new entries), appendix-h — Pupillometry as autonomic biomarker literature collection (14 papers: 13 new bib entries + 1 reused from postcovid-ocular-syndrome) |

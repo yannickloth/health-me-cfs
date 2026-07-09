@@ -1,0 +1,5 @@
+Pupillography-based ML for assessing autonomic dysfunction in MS.
+Parmak Yener N, Fırat Y, Seferoğlu M, Kargın AM, Kılıçaslan Y.
+Multiple Sclerosis and Related Disorders. 2026;112:107326.
+doi: 10.1016/j.msard.2026.107326
+PMID: 42322958
