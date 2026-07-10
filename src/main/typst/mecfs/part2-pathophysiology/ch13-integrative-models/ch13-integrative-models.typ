@@ -99,7 +99,7 @@ The Watton--Prusty review @Watton2026unified provides a historical analysis cont
 {{/* H6: CAP-autoantibody blockade (Tier 1, cert 0.40) */}}
 #include "sec-01-misc/subsec-03-neuroimmune-classification-framework/speculations/spec-cholinergic-anti-inflammatory-pathway-bl.typ"
 
-{{/* H7: Structural vagal cholinergic denervation → CAP disruption (cert 0.45; Acanfora/Woo/Lladós; vagal-gastric-denervation-longcovid stream) */}}
+{{/* H7: Structural vagal cholinergic denervation → CAP disruption (cert 0.35; cross-disease extrapolation from Acanfora/Woo/Lladós Long COVID; vagal-gastric-denervation-longcovid stream) */}}
 #include "sec-01-misc/subsec-03-neuroimmune-classification-framework/hypotheses/hyp-structural-vagal-denervation-cap.typ"
 
 {{/* Critical categories 10-12: three threats to the structural model (vagal-enteric ambiguity, deconditioning, winner's curse) */}}

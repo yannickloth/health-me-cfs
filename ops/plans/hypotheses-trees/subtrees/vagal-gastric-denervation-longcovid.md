@@ -44,7 +44,7 @@ Usefulness scores 0–5: mech (pathophysiology), tx (therapeutic), expl (explana
 | 6.2 | Severity-strata vagal augmentation | speculation | 0.15 | 0 | 2 | 0 | 0 | 0 | ↩️ | — |
 | 6.3 | SIBO eradication + vagal restoration | speculation | 0.20 | 1 | 2 | 1 | 0 | 0 | ↩️ | — |
 | 7.1 | ODE variable V_d (vagal structural damage) | proposal | 0.30 | 2 | 1 | 2 | 3 | 1 | ✅ | — |
-| 7.2 | DAG node V_str shared upstream cause | proposal | 0.35 | 3 | 1 | 3 | 3 | 1 | ✅ | — |
+| 7.2 | DAG node V_str shared upstream cause | proposal | 0.20 | 3 | 1 | 3 | 3 | 1 | ✅ | — |
 | 7.3 | Two-compartment vagal model (V_aff/V_eff) | proposal | 0.25 | 2 | 0 | 2 | 3 | 0 | ✅ | — |
 | 7.4 | Bistable ODE for VIP+ density | proposal | 0.20 | 1 | 0 | 1 | 2 | 0 | ↩️ | — |
 | 7.5 | Vagal damage lowers disease-attractor threshold | proposal | 0.25 | 2 | 0 | 2 | 3 | 0 | ✅ | — |

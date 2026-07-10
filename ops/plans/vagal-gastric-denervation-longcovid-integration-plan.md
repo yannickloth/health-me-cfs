@@ -132,3 +132,10 @@ Tiers/certainty assigned in Phase 5 (reassessed). Cat 10–12 bypass triage (int
 
 ## Outcome summary
 Decision PROCEED → 6 new environments (ch08/ch10/ch13) + 1 synthesis + strengthened hyp; 5 Phase-6 reinforcement citations; 2 registry entries; 8 bib entries (1 dup removed). Chapters updated: ch08, ch10, ch11, ch13, ch14i, ch17 + registry + appendix-h + changelog. Integration guide: this plan + content-staging/synthesis-vagal-gastric-denervation-longcovid-2026-07-10.md. Commit: 748f4844.
+
+## Phase 11 full-suite completion (follow-up)
+- Phase 11b FULL adversarial suite: all 6 personas run as separate agents. Round 1: cynic 1 CRIT+3 HIGH, sophist 1 HIGH, reductionist 2 HIGH, strawman 2 HIGH, clinician CLEAN, devil-advocate (earlier) converged. Consensus issues fixed: #achievement→#clinical-finding (evidence-typed, "single unreplicated study"); "confirming VanElzakker"→"consistent with... by analogy"; complementary→could-be-redundant (hyp+syn+lim 5th threat); CAP animal-model caveat; V_str "single cause"→"one contributor among many" + r² caveats + cert 0.30→0.20; Ryabkova "structural/documented" softened; ME/CFS-heterogeneity subset qualifier; null-default-weight added. Round 2 (cynic/sophist/reductionist re-run): ALL CONVERGED (0 HIGH/CRITICAL).
+- Phase 11c /review-typst: 0 critical/major-breakage; M2 (stale changelog reinforcement wording) fixed; long-line notes non-blocking; all labels/citations resolve.
+- Phase 11a /review-convergence: converged 2 rounds; lowered hyp:structural-vagal-denervation-cap 0.45→0.35 (cross-disease extrapolation discount below observed-finding 0.45), improving the certainty gradient (0.45 observation → 0.35 ME/CFS hypothesis → 0.20 model node); registry + changelog synced.
+- Phase 10a retroactive-synthesis detection: scanned (4 completed plans); no unilateral cross-topic synthesis written (skill requires user flag before writing). Available on request.
+- Build PASS after every fix round. Consequence fields intact on all 6 env.
