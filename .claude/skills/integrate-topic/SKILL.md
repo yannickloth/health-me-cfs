@@ -91,7 +91,7 @@ Verify these exist before delegating any phase. Run: `ls .claude/agents/<name>.m
 
 | Agent file | Used by phase | Status |
 |-----------|---------------|--------|
-| `literature-integrator.md` | Phases 1, 5 (sub-research) | ✓ exists (refreshed 2026-06: lowercase keys, Typst, `bib/<topic>.bib`, verified key-list) |
+| `literature-integrator.md` | Phases 1, 5 (sub-research) | ✓ exists (refreshed 2026-06: `AuthorYEARkeyword` keys, Typst, split `bib/<topic-area>.bib`, verified key-list) |
 | `scientific-insight-generator.md` | Phase 4 | ✓ exists |
 | `falsifiability-auditor.md` | Phase 5a | ✓ exists |
 | `hypothesis-compatibility-auditor.md` | Phase 7 (reference only; inline execution) | ✓ exists |
@@ -161,11 +161,10 @@ Before starting any other phase:
 - Per paper: evaluate quality (sample size, design, journal, replication status)
 - Download PDFs where available; abstracts otherwise
 - Create `Literature/` folder per literature-integration workflow
-- Add entries to `src/main/typst/mecfs/references.bib`:
+- Add entries to the **topic-appropriate split bib file** under `src/main/typst/mecfs/bib/<topic-area>.bib` (e.g. `bib/immune.bib`, `bib/treatments.bib`, `bib/vascular.bib`). **There is NO `references.bib`** — the build wires the 27 `bib/*.bib` files into `#bibliography((...))` in `loth2026-mecfs.typ`. Entries written outside these listed files are invisible to the build → every `@Citation` to them silently fails. If a topic has no matching file, add to `bib/general.bib` (do NOT create a new `.bib` without also adding it to the `#bibliography(...)` tuple in both `loth2026-mecfs.typ` and `loth2026-p4-build.typ`).
   - Standard BibTeX fields + `certainty = {0.XX}` + `research_stream = {topic-slug}`
-  - **Bib key convention (MANDATORY):** All keys use **lowercase ASCII only**, no spaces, no punctuation, no Unicode. Format: `authorYEARkeyword` (e.g., `dey2026foodinsecurity`, `lin2025longcovidfoodinsecurity`). This is the convention used by the existing bib files. Phase 1 report must include a "bib keys produced" list — the main session uses these exact keys in all subsequent `@Citation` references. Do NOT invent PascalCase or CamelCase variants of bib keys. If the literature-integrator produces keys that don't match this convention, the main session must normalize them before Phase 3 writes any `@` references.
-  - **Existing-key audit (NEW — after Phase 1 bib write):** After Phase 1 writes new bib entries, grep for non-lowercase keys in the Phase-1-written section of the bib file. If any PascalCase or CamelCase keys are found, normalize them in both the bib file and the annotated appendix. Do NOT audit pre-existing bib entries from other integrations — only the Phase 1 batch.
-  - **Bib-key reconciliation gate (MANDATORY, HARD):** The agent's "bib keys produced" list is advisory and HAS been observed to contain typos / omissions (e.g. `oh2024incidental` reported vs `oh2024incident` actually written; a key omitted entirely). The `.bib` file is the ONLY ground truth. Before Phase 3 writes any `@` reference, extract the actual keys from the bib (e.g. `awk '/^@/{k=$0} /research_stream = \{<slug>\}/{print k}' <bibfile>`) and use ONLY those verified keys. At each build check, every `@CiteKey` in new `.typ` files must be confirmed present in the bib (grep each key). Do NOT trust the report's key list for citing.
+  - **Bib key convention (MANDATORY):** Format `AuthorYEARkeyword` — surname capitalized, no spaces/punctuation/Unicode (e.g. `Batham2024MECFSAutoimmunity`, `Sotzny2022postcovid`, `Loebel2016`). This matches the existing corpus (~91% of keys contain uppercase). Do **NOT** lowercase or "normalize" keys — mixed case is the convention. Phase 1 report includes a "bib keys produced" list, but it is advisory only.
+  - **Bib is ground truth (MANDATORY, HARD):** The agent's key list HAS been observed to contain typos/omissions. The `.bib` file is the ONLY authority. Before Phase 3 writes any `@` reference, extract the actual keys from the bib (`grep '^@' bib/<file>.bib` or `awk '/^@/{print} /research_stream = \{<slug>\}/{print}' bib/<file>.bib`) and cite ONLY verified keys — preserving their exact case. At each build check, confirm every `@CiteKey` in new `.typ` files is present in the bib (grep each key). Never transcribe or re-case keys from the report.
 - Add annotated entries to `src/main/typst/mecfs/appendices/appendix-h-annotated-bibliography.typ`:
   ```
   === AuthorYear — Short Title
@@ -230,7 +229,7 @@ Write `content-staging/search-log-<topic-slug>-<date>.md`:
 
 **Guard — Uniformly null evidence:** If all included papers report null results, failed replications, or conclude "no relationship to ME/CFS" → report: "Phase 1: N papers found, all null/negative. Evidence does not support this mechanism." Options: (a) integrate as `#limitation` or `#open-question` documenting the null evidence, (b) abandon topic. Do NOT proceed to brainstorming about a mechanism the evidence rejects.
 
-**Output:** Literature summary in `content-staging/` + annotated bib entries + references.bib updates + search log.
+**Output:** Literature summary in `content-staging/` + annotated bib entries + `bib/<topic-area>.bib` updates + search log.
 **Report:** "Phase 1 complete: N papers found, M added to bib (`bib/<topic>.bib`), annotated bib updated, search log at `content-staging/search-log-<slug>-<date>.md`. Bib keys (VERIFIED against bib via awk, not transcribed): [list]. Any report/bib key mismatches noted."
 
 ---
@@ -572,7 +571,7 @@ Same requirement as Phase 3: every environment written in Phase 5 must contain a
 
 **Gate A — Standalone topic escalation:** Before integrating a Tier 1 idea inline, check: does this idea have its own separable literature base (≥5 papers not already covered by the parent topic's Phase 1)? If yes → it's standalone. Ask user: "Integrate inline as Phase 5 or queue as a new `/integrate-topic` cycle?" Operational threshold: ≥5 separable papers = standalone; <5 = extension. Wait for answer before continuing. If extension → integrate inline as below.
 
-1. **Research** (Tier 1 only) — delegate to `literature-integrator` (sonnet): find supporting/contradicting evidence; produces integration guide in `content-staging/`; updates `references.bib` + annotated bib. Before launching, check whether Phase 1 papers already address this idea — if so, use existing evidence and skip redundant sub-research. **If the idea is treatment-oriented** (drug, supplement, intervention), the sub-research MUST include harm search terms (adverse effects, contraindications) even if the parent topic's Phase 1 was non-treatment.
+1. **Research** (Tier 1 only) — delegate to `literature-integrator` (sonnet): find supporting/contradicting evidence; produces integration guide in `content-staging/`; updates the topic-appropriate `bib/<topic-area>.bib` + annotated bib. Before launching, check whether Phase 1 papers already address this idea — if so, use existing evidence and skip redundant sub-research. **If the idea is treatment-oriented** (drug, supplement, intervention), the sub-research MUST include harm search terms (adverse effects, contraindications) even if the parent topic's Phase 1 was non-treatment.
 2. **Develop + integrate** — main session reads guide; writes directly into target chapter files per Phase 3 rules
 3. **Verify** — confirm `literature-integrator` added bib entries before proceeding
 
@@ -847,7 +846,7 @@ These are lightweight checks (the build may fail; that's the point). If either f
 
 **Phase 8 proper:** Full build verification after all content changes (Phases 3–7).
 
-**Citation key convention (NEW — enforced at Phase 3 build check):** Bib entry keys in `references.bib` and sub-files use **lowercase ASCII only** (e.g., `dey2026foodinsecurity`). All `@CitationKey` references in `.typ` files must match this convention exactly. The `literature-integrator` agent writes lowercase keys; Phase 1 output should include a "bib keys produced" list so the main session uses matching keys from Phase 3 onward. Do not PascalCase or CamelCase bib keys — the bib file convention is lowercase.
+**Citation key convention (enforced at Phase 3 build check):** Bib entries live in the split files `src/main/typst/mecfs/bib/*.bib` (there is NO `references.bib`). Keys use the `AuthorYEARkeyword` format with surname capitalized (e.g. `Batham2024MECFSAutoimmunity`), matching the existing corpus. All `@CitationKey` references in `.typ` files must match the key in the bib **exactly, preserving case**. Do NOT lowercase/PascalCase/re-case keys — cite them verbatim from the `.bib` file, which is ground truth (the agent's "bib keys produced" list is advisory only).
 
 **Max 5 fix-verify iterations in Phase 8 proper.** Still failing → stop, report errors verbatim, offer rollback via `git reflog` or ask user before continuing.
 
@@ -1056,7 +1055,7 @@ Add entry to `src/main/typst/mecfs/shared/changelog.typ` under current version (
 
 **Format** (match existing entries exactly):
 ```
-- *[Topic Title]* ([Chapter X, new Section `sec:xxx`; Appendix H, new Section `sec:bib-xxx`; references.bib, N new entries; hypothesis registry, M new entries]): [2–4 sentence summary of what was added and why]. [Key mechanistic finding]. [Clinical implications if any]. _Motivated by:_ [Author Year @CiteKey] — [one-line reason why this source motivated the change].
+- *[Topic Title]* ([Chapter X, new Section `sec:xxx`; Appendix H, new Section `sec:bib-xxx`; `bib/<topic-area>.bib`, N new entries; hypothesis registry, M new entries]): [2–4 sentence summary of what was added and why]. [Key mechanistic finding]. [Clinical implications if any]. _Motivated by:_ [Author Year @CiteKey] — [one-line reason why this source motivated the change].
 ```
 
 **Rules:**
@@ -1133,7 +1132,7 @@ If `nix build` fails on a key that a parallel stream's rebase/reset may have dro
 | Agent exists | Agent file in `.claude/agents/<name>.md` | If not found → escalate to user: "Agent `<name>` missing. Implement Phase N manually or create agent?" Do NOT silently fall back to manual execution. |
 | Output non-empty | `task_result` is not null/blank | If blank → re-run once with same agent/prompt. If still blank → escalate to user: "Agent returned empty output twice. Run Phase N manually?" |
 | Output files exist | Any paths claimed in output exist on disk | If missing → re-run once. If still missing → escalate. |
-| Phase-specific checks | e.g., Phase 1: `references.bib`/sub-bib has new entries AND every key in the agent's "bib keys produced" list resolves to a real entry in the bib (reconcile — report typos/omissions); Phase 4: brainstorm file has ≥8 ideas across required categories | If failed → report which checks failed; ask user whether to proceed or fix. Phase 1 key mismatches are auto-resolved by using the bib as ground truth (do not block on them). |
+| Phase-specific checks | e.g., Phase 1: the target `bib/<topic-area>.bib` has new entries AND every key in the agent's "bib keys produced" list resolves (case-exact) to a real entry in that bib (reconcile — report typos/omissions); Phase 4: brainstorm file has ≥8 ideas across required categories | If failed → report which checks failed; ask user whether to proceed or fix. Phase 1 key mismatches are auto-resolved by using the bib as ground truth (do not block on them). |
 
 **Re-run budget:** Each agent may be re-invoked at most once for blank output and once for missing files (2 total retries). After that, escalate. This prevents pipelines stalling on transient failures while avoiding infinite retry loops.
 
@@ -1163,6 +1162,6 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 - **Non-specialist consequence required** — every `#hypothesis-box`, `#fhypothesis`, `#speculation`, `#synthesis`, `#achievement`, `#clinical-finding`, `#prediction`, `#open-question`, and `#limitation` must carry a `*Consequence:*` field translating why the finding matters in language an educated non-specialist can grasp. This is translation of significance — scientific precision is preserved, not diluted. If the finding has zero current practical consequence, that is the honest answer.
 - **Tree-mode discipline** — run the Working-Tree State Check first; never use `git add -A`, and in MIXED/CONCURRENT mode never scope phases by `git diff` (use explicit plan file lists); use scratch-pointer checkpoints (not shared-branch WIP commits); NEVER `git reset`/`rebase`/`--amend`/squash/force-push — history rewriting has dropped parallel cycles' work; ask before any destructive-looking git step
 - **Shared-file ownership** — track your entries in shared files (bib, appendix-h, changelog, registry, trees, queue) by key/label in plan reports; re-verify at Phase 13 that none were lost to a parallel commit
-- **Bib is ground truth, not the agent's report** — cite only keys verified present in the `.bib` file; never trust a transcribed key list
+- **Bib is ground truth, not the agent's report** — bib entries live in the split `bib/*.bib` files (there is NO `references.bib`); cite only keys verified present in the `.bib` file, preserving their exact `AuthorYEARkeyword` case; never lowercase/normalize keys and never trust a transcribed key list
 - **No duplicate integration** — Phase 5 must dedup brainstorm ideas against Phase 3 environments before integrating
 - **Commit scope is per-topic** — Phase 13 stages only this topic's files by explicit list; never commit transient review-skill artifacts (`.claude/review-checkpoint-*.md`) or unrelated WIP
