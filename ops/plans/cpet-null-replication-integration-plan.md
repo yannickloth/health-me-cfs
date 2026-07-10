@@ -30,14 +30,14 @@
 
 ## Phase 1 Status: COMPLETE
 - 1 paper found (Mancini2026CPET), already had full text from earlier research
-- 1 entry added to references.bib (Mancini2026CPET)
+- 1 entry added to bib/exercise-pem.bib (Mancini2026CPET)
 - 1 annotated entry added to appendix-h-annotated-bibliography.typ
 
 ## Phase 2 Status: COMPLETE
 - ch17-lifestyle-interventions: Added limitation block, revised fitness-maintenance hypothesis (cert 0.60→0.55), updated bifurcation model, updated GET harms section
 - ch14f-cpet-derived: Updated CPET-as-signature hypothesis (cert 0.60→0.55), updated limitation block with null replication
 - hypothesis-registry: Updated fitness-maintenance-distinction entry (0.60→0.55), updated bifurcation model entry
-- references.bib: Added Mancini2026CPET
+- bib/exercise-pem.bib: Added Mancini2026CPET
 - appendix-h: Added Mancini2026CPET annotated entry
 
 ## Notes
