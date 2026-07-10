@@ -1021,7 +1021,7 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     *Published:*: November 2023
     *Study Design:*: Cross-sectional case-control study with objective SFN testing
     *Key Findings:*: ME/CFS patients showed heat response latencies indicating C-fiber denervation. 31% had POTS. 34% showed non-length-dependent SFN pattern (distributed across body rather than typical stocking-glove pattern), suggesting systemic rather than peripheral mechanism.
-    *Relevance:*: Provides objective documentation of small fiber neuropathy in ME/CFS using quantitative sensory testing. Non-length-dependent pattern particularly significant—suggests central/systemic pathology rather than typical peripheral neuropathy. Links SFN to dysautonomia and POTS prevalence. Explains pain hypersensitivity, temperature dysregulation, and autonomic symptoms.
+    *Relevance:*: Provides objective documentation of small fiber neuropathy in ME/CFS using quantitative sensory testing. Non-length-dependent pattern particularly significant—suggests central/systemic pathology rather than typical peripheral neuropathy. Links SFN to dysautonomia and POTS prevalence. Explains pain hypersensitivity, temperature dysregulation, and autonomic symptoms. Convergent with Acanfora 2026: visceral (vagal) denervation may represent an organ-specific manifestation of SFN in Long COVID, while Azcue captures somatic C-fibre involvement. @Azcue2023sfn
     *Certainty:*: High (objective neurophysiological measurements, published in _J Transl Med_, consistent with Devigili 2023 findings).
 
     *Full Citation:*: Devigili G, Rinaldo S, Lettieri C, Eleopra R. Dysautonomia and Small Fiber Neuropathy in Post-COVID Condition and Chronic Fatigue Syndrome. _J Transl Med_. 2023;21:814.
@@ -1049,7 +1049,174 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
     *PMCID:*: PMC8718708
     *Key Findings:*: Scoping review of 11 MRI studies documenting both structural changes (white and gray matter alterations in midbrain, pons, medulla) and functional connectivity abnormalities in the brainstem. Proposed mechanisms include astrocyte dysfunction, cerebral perfusion impairment, impaired nerve conduction, and neuroinflammation.
     *Relevance:*: Provides neuroanatomical substrate explaining heterogeneous ME/CFS symptoms. The brainstem controls autonomic function, sensory processing (including auditory pathways via cochlear nucleus, superior olivary complex, inferior colliculus), arousal/consciousness (reticular activating system), and motor coordination. Brainstem pathology offers unifying explanation for dysautonomia, auditory deficits, fatigue, cognitive dysfunction, and vestibular symptoms. Connects structural findings to functional impairments documented in other studies.
-    *Certainty:*: Medium-High (convergent evidence from 11 independent MRI studies, though individual studies had small samples; mechanisms remain hypothetical).
+     *Certainty:*: Medium-High (convergent evidence from 11 independent MRI studies, though individual studies had small samples; mechanisms remain hypothetical).
+
+// ---------------------------------------------------------------------------
+// Vagal Cholinergic Denervation of Gastric Mucosa — vagal-gastric-denervation-longcovid
+// Added 2026-07-10
+// ---------------------------------------------------------------------------
+
+=== Acanfora et al.\ 2026 — Vagal Cholinergic Denervation of the Gastric Mucosa in Long COVID
+
+    *Full Citation:*: Acanfora D, Nolano M, Acanfora C, Colella C, Provitera V, Caporaso G, Rengo G, Antonelli Incalzi R, Casucci G. Vagal cholinergic denervation of the gastric mucosa in Long-COVID-19: in vivo evidence of structural autonomic dysfunction. _International Journal of Infectious Diseases_. 2026;152:108973. @acanfora2026vagaldenervation
+    *DOI:*: #link("https://doi.org/10.1016/j.ijid.2026.108973")[10.1016/j.ijid.2026.108973]
+    *PMID:*: 42425362
+    *Study Design:*: Single-center case–control proof-of-concept
+    *Sample Size:*: n=12 Long-COVID-19 patients, n=8 controls (dyspeptic undergoing gastroscopy)
+    *Key Findings:*:
+
+        - Gastric mucosal biopsies (fundus + antrum), IHC with PGP 9.5 (pan-neuronal) and VIP (cholinergic), Neurolucida 360 3D nerve density quantification
+        - Significant reduction in mucosal innervation: fundus PGP 2.1 vs 3.9 nm/µm³ (p\<0.01), antrum 1.9 vs 3.9 (p\<0.05)
+        - VIP (cholinergic) loss more pronounced in fundus (p\<0.01), also antrum (p=0.01)
+        - IENF (leg skin biopsy) NOT different between groups → selective visceral autonomic involvement, sparing somatic fibres
+        - Nerve density correlated with HRV LF/HF (R=0.50, p\<0.05), NT-proBNP (R=0.52, p\<0.01), D-dimer (R=0.61, p\<0.01)
+        - Impaired HRV in LC: LF/HF 1.7±0.2 vs 1.1±0.1; rMSSD 15.3 vs 48.5; pNN50 0.8 vs 18.8; HF 3.8 vs 5.8 ln ms² (all p\<0.01)
+        - 66% orthostatic intolerance; higher D-dimer and NT-proBNP
+
+    *Conclusion:*: First in vivo morphological evidence of selective cholinergic denervation of gastric mucosa in Long COVID. Structural substrate for dysautonomia. Disruption of the cholinergic anti-inflammatory pathway (CAP) may sustain the proinflammatory state. Proposed mechanism: molecular mimicry against vagal nuclei (nucleus ambiguus, DMV). Therapeutic implications: VNS, cholinergic modulation.
+    *Limitations:*: Small n; single center; controls were dyspeptic not healthy; no recovered-asymptomatic COVID group; cannot discriminate intrinsic enteric vs extrinsic vagal or cholinergic vs NANC VIP fibres.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (IJID, novel IHC method, Neurolucida 360 quantification)
+        - *Sample:* Small (n=12+8)
+        - *Replication:* First such study — no direct replication yet; convergent with Woo 2023, Lladós 2024
+        - *Score:* 0.60
+
+=== Woo et al.\ 2023 — Vagus Nerve Inflammation in COVID-19
+
+    *Full Citation:*: Woo MS, Shafiq M, Fitzek A, et al.\ Vagus nerve inflammation contributes to dysautonomia in COVID-19. _Acta Neuropathologica_. 2023;146(3):387–394. @woo2023vagusinflammation
+    *DOI:*: #link("https://doi.org/10.1007/s00401-023-02612-x")[10.1007/s00401-023-02612-x]
+    *PMID:*: 37452829
+    *PMCID:*: PMC10412500
+    *Study Design:*: Postmortem histopathology + clinical cohort
+    *Sample Size:*: Autopsy vagus nerves from COVID-19 patients and controls; clinical cohort n=323
+    *Key Findings:*:
+
+        - SARS-CoV-2 RNA detected in postmortem vagus nerves
+        - Inflammatory cell infiltration composed primarily of monocytes
+        - RNA sequencing revealed strong inflammatory response in neurons, endothelial cells, and Schwann cells
+        - Inflammatory transcriptomic signature correlated with SARS-CoV-2 RNA load
+        - Clinical cohort: decreased respiratory rate in non-survivors of critical COVID-19, consistent with vagal dysfunction
+
+    *Conclusion:*: SARS-CoV-2 induces vagus nerve inflammation followed by autonomic dysfunction. Provides direct anatomical evidence for vagal pathology as substrate for dysautonomia in acute and Long COVID.
+    *Limitations:*: Postmortem — cannot assess functional changes; limited clinical phenotyping; acute COVID context not Long COVID per se.
+    *Certainty Assessment:*:
+        - *Quality:* High (Acta Neuropathologica, comprehensive histopathology+RNAseq)
+        - *Sample:* Adequate (autopsy + n=323 clinical)
+        - *Replication:* Convergent with Acanfora 2026 (structural denervation) and Lladós 2024 (ultrasound evidence)
+        - *Score:* 0.75
+
+=== Lladós et al.\ 2024 — Vagus Nerve Dysfunction in Post-COVID-19 Condition
+
+    *Full Citation:*: Lladós G, Massanella M, Coll-Fernández R, et al.\ Vagus nerve dysfunction in the post-COVID-19 condition: a pilot cross-sectional study. _Clinical Microbiology and Infection_. 2024;30(4):515–521. @llados2024vagusdysfunction
+    *DOI:*: #link("https://doi.org/10.1016/j.cmi.2023.11.007")[10.1016/j.cmi.2023.11.007]
+    *PMID:*: 37984511
+    *Study Design:*: Cross-sectional pilot with neck ultrasound
+    *Sample Size:*: n=30 PCC (with vagal symptoms), n=14 recovered COVID, n=16 never-infected
+    *Key Findings:*:
+
+        - Vagus nerve thickening/hyperechogenicity on neck ultrasound in PCC: CSA 2.4±0.97 mm² vs 2.0±0.52 vs 1.9±0.73 (p=0.08)
+        - Reduced esophageal-gastric-intestinal peristalsis: 34% vs 0% vs 21% (p=0.02)
+        - Hemidiaphragm flattening: 47% vs 6% vs 14% (p=0.007)
+        - Maximal inspiratory pressure reduced: 62% vs 6% vs 17% (p≤0.001)
+        - Additional phrenic nerve involvement
+
+    *Conclusion:*: Vagus and phrenic nerve dysfunction contribute to PCC pathophysiology. Provides structural imaging evidence complementing Woo 2023 (histology) and Acanfora 2026 (mucosal denervation).
+    *Limitations:*: Pilot sample size; cross-sectional; PCC group selected for vagal symptoms (referral bias); ultrasound operator-dependent.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (CMI, controlled design, multi-modality assessment)
+        - *Sample:* Small-moderate (n=30 PCC)
+        - *Replication:* Convergent with Woo 2023 and Acanfora 2026
+        - *Score:* 0.65
+
+=== Tracey 2002 — The Inflammatory Reflex (CAP)
+
+    *Full Citation:*: Tracey KJ. The inflammatory reflex. _Nature_. 2002;420(6917):853–859. @tracey2002inflammatoryreflex
+    *DOI:*: #link("https://doi.org/10.1038/nature01321")[10.1038/nature01321]
+    *PMID:*: 12490958
+    *Study Design:*: Foundational review
+    *Key Findings:*:
+
+        - Discovery that vagus nerve efferent signalling (the inflammatory reflex) inhibits pro-inflammatory cytokine release (TNF, IL-1, HMGB1)
+        - Efferent vagus nerve activates the cholinergic anti-inflammatory pathway (CAP) via alpha7 nicotinic acetylcholine receptor (α7nAChR) on tissue macrophages
+        - Neural circuits reflexively regulate immune responses in real time
+        - Pharmacological or electrical vagus nerve stimulation suppresses systemic inflammation
+
+    *Conclusion:*: The nervous system reflexively controls inflammation. The CAP provides the mechanistic link between vagal structural integrity and immune homeostasis. Directly relevant: structural vagal damage (Acanfora 2026) would disinhibit pro-inflammatory signalling.
+    *Limitations:*: Review of foundational animal studies; human translation emerging at time of publication.
+    *Certainty Assessment:*:
+        - *Quality:* Very High (Nature, >3800 citations, foundational CAP paradigm)
+        - *Sample:* Review (N/A)
+        - *Replication:* Extensively replicated across species and by Bonaz, Pavlov, Olofsson groups
+        - *Score:* 0.85
+
+=== Bonaz et al.\ 2018 — Vagus Nerve at the Interface of the Microbiota-Gut-Brain Axis
+
+    *Full Citation:*: Bonaz B, Bazin T, Pellissier S. The vagus nerve at the interface of the microbiota-gut-brain axis. _Frontiers in Neuroscience_. 2018;12:49. @bonaz2018vagusmicrobiota
+    *DOI:*: #link("https://doi.org/10.3389/fnins.2018.00049")[10.3389/fnins.2018.00049]
+    *PMID:*: 29467611
+    *PMCID:*: PMC5808284
+    *Study Design:*: Comprehensive review
+    *Key Findings:*:
+
+        - Vagus nerve is 80% afferent, 20% efferent — bidirectional brain-gut communication
+        - Anti-inflammatory via HPA axis (afferent) and CAP (efferent, vagovagal)
+        - Vagal efferents synapse with enteric neurons → ACh release onto macrophages via α7nAChR → TNF inhibition
+        - Vagus also synapses with splenic sympathetic nerve → splenic anti-TNF pathway
+        - Bioelectronic medicine: VNS as non-pharmacological anti-TNF for IBD
+
+    *Conclusion:*: Comprehensive mechanistic review of vagal anti-inflammatory pathways. Establishes the theoretical framework linking structural vagal denervation (Acanfora 2026) to gastrointestinal and systemic inflammation via CAP disruption.
+    *Limitations:*: Review (no new primary data); primarily derived from animal and IBD literature; ME/CFS-specific evidence limited.
+    *Certainty Assessment:*:
+        - *Quality:* High (Frontiers in Neuroscience, comprehensive, well-cited)
+        - *Sample:* Review (N/A)
+        - *Replication:* Convergent with Tracey 2002, Pavlov, Olofsson
+        - *Score:* 0.70
+
+=== VanElzakker 2013 — Vagus Nerve Infection Hypothesis of ME/CFS
+
+    *Full Citation:*: VanElzakker MB. Chronic fatigue syndrome from vagus nerve infection: a psychoneuroimmunological hypothesis. _Medical Hypotheses_. 2013;81(3):414–423. @vanelzakker2013vagueinfection
+    *DOI:*: #link("https://doi.org/10.1016/j.mehy.2013.05.034")[10.1016/j.mehy.2013.05.034]
+    *PMID:*: 23790471
+    *Study Design:*: Hypothesis/theory paper
+    *Key Findings:*:
+
+        - Proposes ME/CFS results from infection of the vagus nerve (sensory ganglia/paraganglia)
+        - Pathogen-infected glial cells bombard sensory vagus with proinflammatory cytokines → exaggerated sickness behaviour
+        - Explains: fatigue, myalgia, depression, cognitive dysfunction, fever
+        - Any pathogen infecting vagus nerve can cause ME/CFS — resolves single-pathogen controversy
+        - Predicts vagal ganglia inflammation as testable mechanism
+
+    *Conclusion:*: Predictive hypothesis that anticipated Woo 2023 (vagus nerve inflammation in COVID-19) and Acanfora 2026 (structural vagal denervation in Long COVID) by a decade. Directly proposes vagal pathology as ME/CFS substrate. Highly prescient and falsifiable framework.
+    *Limitations:*: Hypothesis only — no primary data; published in Medical Hypotheses (lower-tier journal); no direct experimental confirmation until Woo 2023.
+    *Certainty Assessment:*:
+        - *Quality:* Low-Medium (hypothesis paper, Medical Hypotheses)
+        - *Sample:* N/A (theoretical)
+        - *Replication:* Partially validated by Woo 2023, Lladós 2024, Acanfora 2026
+        - *Score:* 0.40
+
+=== Oaklander (Joseph) et al.\ 2021 — PGP 9.5 Skin Biopsy SFN in ME/CFS (iCPET)
+
+    *Full Citation:*: Joseph P, Arevalo C, Oliveira RKF, Faria-Urbina M, Felsenstein D, Oaklander AL, Systrom DM. Insights from invasive cardiopulmonary exercise testing of patients with myalgic encephalomyelitis/chronic fatigue syndrome. _Chest_. 2021;160(2):642–651. @josephoaklander2021mecfssfn
+    *DOI:*: #link("https://doi.org/10.1016/j.chest.2021.01.082")[10.1016/j.chest.2021.01.082]
+    *PMID:*: 33577778
+    *PMCID:*: PMC8727854
+    *Study Design:*: Large retrospective with iCPET + skin biopsy
+    *Sample Size:*: n=160 ME/CFS meeting criteria, n=36 controls
+    *Key Findings:*:
+
+        - PGP 9.5-immunolabeled lower-leg skin biopsies (same PGP 9.5 marker as Acanfora 2026)
+        - 31% of ME/CFS biopsies consistent with SFN (epidermal innervation below the 5th percentile of predicted; p\<0.0001)
+        - iCPET identified two neurovascular dysregulation types: (1) depressed Qc from impaired venous return, (2) impaired peripheral O2 extraction
+        - SFN-associated oxygen shunting hypothesis: microvascular dilation shunts oxygenated blood from capillary beds
+        - Denervation severity did NOT correlate with exertional measures
+
+    *Conclusion:*: Establishes PGP 9.5 IHC skin biopsy as method for SFN detection in ME/CFS (same method as Acanfora 2026 used on gastric mucosa, not skin). Key contrast: Acanfora found NO skin denervation in Long COVID, suggesting selective visceral vagal involvement distinct from the somatic SFN in ME/CFS.
+    *Limitations:*: Retrospective; referral bias (tertiary centre); skin biopsy only (lower leg) — cannot assess visceral nerve density.
+    *Certainty Assessment:*:
+        - *Quality:* High (Chest journal, large-n, objective iCPET+biopsy)
+        - *Sample:* Large (n=160 ME/CFS)
+        - *Replication:* Oaklander group replicated SFN in ME/CFS across multiple cohorts
+        - *Score:* 0.70
 
 === Auditory and Sensory Dysfunction
 

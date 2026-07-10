@@ -99,6 +99,15 @@ The Watton--Prusty review @Watton2026unified provides a historical analysis cont
 {{/* H6: CAP-autoantibody blockade (Tier 1, cert 0.40) */}}
 #include "sec-01-misc/subsec-03-neuroimmune-classification-framework/speculations/spec-cholinergic-anti-inflammatory-pathway-bl.typ"
 
+{{/* H7: Structural vagal cholinergic denervation → CAP disruption (cert 0.45; Acanfora/Woo/Lladós; vagal-gastric-denervation-longcovid stream) */}}
+#include "sec-01-misc/subsec-03-neuroimmune-classification-framework/hypotheses/hyp-structural-vagal-denervation-cap.typ"
+
+{{/* Critical categories 10-12: three threats to the structural model (vagal-enteric ambiguity, deconditioning, winner's curse) */}}
+#include "sec-01-misc/subsec-03-neuroimmune-classification-framework/hypotheses/lim-vagal-enteric-deconditioning.typ"
+
+{{/* Phase 10a synthesis: vagal structural-functional axis (condenses ach/hyp/spec/lim/oq across ch08/ch10/ch13) */}}
+#include "sec-01-misc/subsec-03-neuroimmune-classification-framework/hypotheses/syn-vagal-structural-functional-axis.typ"
+
 == Research Questions and Future Directions
 <sec:questions>
 
@@ -329,3 +338,6 @@ The preceding environments collectively argue that peripheral serotonin depletio
 #include "sec-08-inflammation-source-interaction-network-/speculations/spec-inflammation-source-interaction-network-.typ"
 
 #include "sec-08-inflammation-source-interaction-network-/speculations/spec-resolution-failure-as-a-candidate-chroni.typ"
+
+{{/* Structural vagal damage as distinct DAG node (V_str); brainstorm 7.1/7.2/7.3/7.5; vagal-gastric-denervation-longcovid stream */}}
+#include "sec-08-inflammation-source-interaction-network-/speculations/spec-vstr-structural-vagal-dag-node.typ"

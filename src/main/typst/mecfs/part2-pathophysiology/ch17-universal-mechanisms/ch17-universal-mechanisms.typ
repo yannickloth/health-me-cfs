@@ -233,7 +233,7 @@ Full discussion: @ch:cardiovascular.
 
 - *Neurovascular dysregulation via SFN.* Damaged autonomic fibers cause inappropriate vasodilation and oxygenated blood shunting away from exercising muscle, contributing to exercise intolerance via a peripheral mechanism distinct from central fatigue or deconditioning.
 
-- *Impaired vagal tone.* Reduced parasympathetic activity; blunted vagal anti-inflammatory reflex may contribute to chronic immune activation.
+- *Impaired vagal tone.* Reduced parasympathetic activity; blunted vagal anti-inflammatory reflex may contribute to chronic immune activation @tracey2002inflammatoryreflex. In Long COVID, this functional deficit is accompanied by *structural* evidence of selective cholinergic (VIP+) denervation of the gastric mucosa correlating with reduced vagal HRV @acanfora2026vagaldenervation, though whether comparable structural fiber loss occurs in ME/CFS is not yet established (@hyp:structural-vagal-denervation-cap).
 
 Full discussion: @ch:cardiovascular and @ch:neurological.
 

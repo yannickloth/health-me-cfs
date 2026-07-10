@@ -13,6 +13,15 @@ Prevents re-processing of already-integrated content.
 
 ---
 
+## Vagal Gastric Denervation Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-07-10 | 14 queries: seed paper DOI, Woo 2023 vagus inflammation, Lladós 2024 vagus dysfunction, Tracey CAP, Bonaz vagus microbiota, Azcue 2023 SFN, Oaklander 2021 SFN ME/CFS, VanElzakker 2013 vagus infection hypothesis |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (14 queries, batch) | pubmed/eutils | 2026-07-10 | — | content-staging/literature-summary-vagal-gastric-denervation-longcovid-2026-07-10.md, content-staging/search-log-vagal-gastric-denervation-longcovid-2026-07-10.md, bib/autonomic-cardiovascular.bib, appendix-h — Vagal gastric denervation literature (8 papers) |
+
 ## Sources
 
 | Source | Last Scraped | Notes |

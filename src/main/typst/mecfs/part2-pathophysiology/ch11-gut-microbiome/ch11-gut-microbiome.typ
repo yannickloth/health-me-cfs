@@ -102,9 +102,9 @@ The gut-brain axis comprises bidirectional communication between the intestinal 
 
 The vagus nerve connects the gut microbiome directly to brainstem nuclei controlling autonomic function, inflammation, and mood. Proposed mechanisms in ME/CFS:
 
-    - Viral infections may damage vagal afferents, impairing gut-brain communication
+    - Viral infections may damage vagal afferents, impairing gut-brain communication @woo2023vagusinflammation
     - Dysbiosis alters vagal signaling patterns
-    - Reduced vagal tone (common in ME/CFS) impairs anti-inflammatory cholinergic pathway
+    - Reduced vagal tone (common in ME/CFS) impairs anti-inflammatory cholinergic pathway @tracey2002inflammatoryreflex @bonaz2018vagusmicrobiota
     - Bidirectional dysfunction is evident: brain inflammation degrades gut function while gut dysfunction worsens neurological symptoms. The temporal and causal relationships remain unresolved. Longitudinal studies are needed to determine which comes first or whether both result from a common upstream cause. This bidirectional gut-brain interaction is one of several such cycles in ME/CFS, as discussed in Section @sec:unifying-mechanisms of Chapter @ch:integrative-models.
 
 *Enterochromaffin Cell–Vagal Serotonergic Pathway.*

@@ -38,7 +38,7 @@ SFN may explain chronic pain in ME/CFS through:
     - Metabolic dysfunction (mitochondrial, oxidative stress)
     - Chronic inflammation
     - Microvascular abnormalities affecting nerve blood supply
-    - Direct viral damage (in post-infectious cases)
+    - Direct viral damage (in post-infectious cases) — SARS-CoV-2 RNA and monocyte infiltration have been demonstrated within the vagus nerve itself @woo2023vagusinflammation
 
 ==== Post-COVID SFN: ME/CFS Overlap and IVIG Response
 <sec:sfn-postcovid>
@@ -80,4 +80,18 @@ HHV-6 reactivation has been confirmed in multiple brain regions in ME/CFS post-m
 
 *Research question:* Does post-mortem brainstem tissue from ME/CFS patients show HHV-6 miR-aU14, ISR markers (phospho-eIF2α, ATF4), or mitochondrial fragmentation signatures in autonomic nuclei? Would HRV abnormalities correlate with brainstem rather than peripheral autonomic markers in living patients?
 ] <oq:isr-brainstem-autonomic>
+
+==== Visceral versus Somatic Small Fiber Involvement
+<sec:sfn-visceral-somatic>
+
+The small fiber literature in ME/CFS has focused almost entirely on somatic fibers accessible by skin biopsy. A 2026 Long COVID study introduces a complementary — and partly divergent — picture from the visceral compartment. Acanfora et al.\ found selective cholinergic (VIP-positive) denervation of the gastric mucosa in Long COVID patients while intraepidermal (skin) nerve fiber density was preserved @acanfora2026vagaldenervation. This is the mirror image of the classic ME/CFS skin-biopsy finding, where somatic IENFD is reduced in ~31–49% of patients @josephoaklander2021mecfssfn @Grayston2019sfn, and where the non-length-dependent pattern documented by Azcue et al.\ @Azcue2023sfn also involves cutaneous fibers.
+
+#open-question(title: [Does Post-Viral Small Fiber Pathology Preferentially Target Visceral (Vagal) or Somatic Fibers?])[
+Acanfora et al.\ report *selective visceral* cholinergic denervation with *preserved* skin innervation in Long COVID @acanfora2026vagaldenervation, whereas Oaklander/Joseph et al.\ @josephoaklander2021mecfssfn and Azcue et al.\ @Azcue2023sfn document *somatic* small fiber loss in ME/CFS. These evidence bases are not symmetric: the Acanfora finding is a single unreplicated study ($n=12$, dyspeptic controls), while ME/CFS somatic SFN is supported by multiple independent cohorts and meta-analysis (@sec:sfn); the apparent discrepancy may reflect the different evidence bases and the different tissues sampled rather than a genuine biological divergence, and remains an open question. Three explanations are compatible with current data: (a) Long COVID and ME/CFS are *different diseases* with different fiber-tropism; (b) they represent *different stages* of one process (visceral-first, somatic-later, or vice versa); or (c) the difference is *methodological* — gastric mucosal biopsy and lower-leg skin biopsy sample anatomically and functionally distinct fiber populations and cannot be directly compared. Acanfora's small dyspeptic-control sample and the absence of matched skin-versus-mucosa sampling within the same ME/CFS cohort prevent resolution.
+
+*Research question:* In a single ME/CFS cohort, do paired gastric-mucosal and skin biopsies reveal concordant or discordant small fiber loss? Does the visceral-versus-somatic ratio differ systematically between Long COVID and non-COVID ME/CFS, and does it track disease duration? Each explanation makes a discriminating prediction: concordant loss in most patients would rule out the pure methodological-artifact account (c); a visceral:somatic ratio that shifts monotonically with disease duration would support the single-process staging account (b) over the different-diseases account (a); and a stable, condition-specific ratio (visceral in Long COVID, somatic in non-COVID ME/CFS) that does not track duration would support (a).
+
+*Consequence:* Whether the nerve damage in these conditions hits gut/autonomic nerves, skin/sensory nerves, or both determines which tests can detect it and which patients a given biopsy would miss — a skin biopsy could read "normal" in someone whose vagal nerves are actually damaged, so settling this would refine how researchers look for small fiber neuropathy in post-viral illness. This is a research proposition, not a current clinical recommendation: gastric mucosal nerve biopsy has no validated diagnostic role in ME/CFS or post-viral SFN outside research protocols.
+] <oq:sfn-visceral-vs-somatic>
+
 

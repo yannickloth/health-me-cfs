@@ -3473,3 +3473,54 @@ This registry collects all hypotheses, speculations, open questions, and predict
 )
 
 
+
+=== Vagal Cholinergic Gastric Denervation in Long COVID (Phase 3) — added 2026-07-10
+
+#registry-entry(
+  [Structural Vagal Cholinergic Denervation as an Anatomical Substrate for Post-Viral Dysautonomia and Sustained Inflammation],
+  type: "H",
+  certainty: "0.45",
+  evidence: [Acanfora et al. 2026 @acanfora2026vagaldenervation — first in vivo evidence of selective cholinergic (VIP+) gastric-mucosal denervation in Long COVID (n=12 vs 8), correlating with vagal HRV (LF/HF R=0.50), NT-proBNP and D-dimer; skin IENFD preserved (selectively visceral). Proximal mechanism: Woo 2023 @woo2023vagusinflammation (SARS-CoV-2 RNA + monocyte infiltration in vagus nerve) and Llados 2024 @llados2024vagusdysfunction (vagus ultrasound thickening + reduced GI peristalsis); predicted by VanElzakker 2013 @vanelzakker2013vagueinfection. CAP linkage: Tracey 2002 @tracey2002inflammatoryreflex, Bonaz 2018 @bonaz2018vagusmicrobiota. Extrapolation to ME/CFS indirect — no ME/CFS gastric histology exists. Origin: literature integration.],
+  citations: [@acanfora2026vagaldenervation @woo2023vagusinflammation @llados2024vagusdysfunction @vanelzakker2013vagueinfection @tracey2002inflammatoryreflex @bonaz2018vagusmicrobiota],
+  mechanism: [Post-viral vagal injury (viral trafficking / immune-mediated) leads to loss of efferent cholinergic (VIP+) fibers, disengaging the cholinergic anti-inflammatory pathway (vagus, alpha7-nAChR, macrophage TNF-alpha suppression), producing a self-sustaining proinflammatory state maintaining fatigue/autonomic symptoms. Structurally distinct from, and potentially additive with, functional CAP blockade by GPCR autoantibodies (@spec:cap-autoantibody-blockade).],
+  chapter-ref: [ch13:@hyp:structural-vagal-denervation-cap, ch10:@ach:vagal-structural-denervation],
+  prediction: [ME/CFS gastric mucosal biopsy will show reduced VIP+ fiber density vs controls; density will correlate inversely with TNF-alpha/CRP and positively with HF-HRV, independently of GPCR-autoantibody status. Falsified if ME/CFS gastric innervation is normal, or if inflammation tracks autoantibody titre but not fiber density.],
+  treatment: [Mechanistic rationale only (not a recommendation) for vagus-nerve stimulation and cholinergic modulation as investigational approaches; structural denervation argues for early intervention to preserve fibers. No ME/CFS-specific VNS efficacy/safety data.],
+  limitation: [All direct structural evidence is Long-COVID-specific (Acanfora n=12, single-center, dyspeptic controls, no recovered-asymptomatic group). CAP linkage foundational but not ME/CFS-specific. Structural and functional routes not mutually exclusive. Not independently replicated. No ME/CFS gastric-innervation study exists.],
+)
+#registry-entry(
+  [Does Post-Viral Small Fiber Pathology Preferentially Target Visceral (Vagal) or Somatic Fibers?],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Acanfora 2026 @acanfora2026vagaldenervation reports selectively visceral cholinergic denervation with preserved skin IENFD in Long COVID; Oaklander/Joseph 2021 @josephoaklander2021mecfssfn and Azcue 2023 @Azcue2023sfn document somatic small fiber loss in ME/CFS. Comparable certainty (0.55-0.70) prevents weighting either. Origin: literature integration (cross-disease contradiction framing).],
+  citations: [@acanfora2026vagaldenervation @josephoaklander2021mecfssfn @Azcue2023sfn],
+  mechanism: [Three compatible explanations: (a) Long COVID and ME/CFS differ in fiber tropism (different diseases); (b) different stages of one process; (c) methodological — gastric-mucosal vs lower-leg skin biopsy sample distinct fiber populations not directly comparable.],
+  chapter-ref: [ch08:@oq:sfn-visceral-vs-somatic, ch08:@sec:sfn-visceral-somatic],
+  prediction: [Paired gastric-mucosal and skin biopsies within one ME/CFS cohort reveal concordant or discordant small fiber loss; the visceral:somatic ratio differs systematically between Long COVID and non-COVID ME/CFS and tracks disease duration. Resolves (a)/(b)/(c).],
+  treatment: [N/A — research direction. Determines whether skin biopsy can miss vagal small fiber neuropathy in post-viral illness (a normal skin biopsy would not exclude visceral denervation).],
+  limitation: [Acanfora small dyspeptic-control sample; no matched skin-vs-mucosa sampling within a single cohort exists; QST/skin and mucosal-biopsy methods are not standardised against each other.],
+)
+#registry-entry(
+  [Structural Vagal Damage as a Distinct Upstream Node (V_str) in the Causal DAG],
+  type: "S",
+  certainty: "0.30",
+  evidence: [Motivated by the structural denervation hypothesis (@hyp:structural-vagal-denervation-cap) and Acanfora 2026 @acanfora2026vagaldenervation, whose single upstream structural deficit correlated with three downstream readouts (CAP/inflammation, GI motility, HF-HRV). Proposes a slowly-varying structural-capacity variable that bounds functional vagal signaling from above. Origin: brainstorm (ideas 7.1/7.2/7.3/7.5 consolidated).],
+  citations: [@acanfora2026vagaldenervation @tracey2002inflammatoryreflex],
+  mechanism: [V_str = surviving vagal cholinergic fiber capacity; functional tone is bounded by V_str, so afferent activation (incl. taVNS) cannot exceed the surviving-fiber ceiling. Distinct time constant from functional signaling (fiber loss slow; signaling fast). One upstream node, three downstream consequences (inflammation, GI, HRV).],
+  chapter-ref: [ch13:@spec:vstr-dag-node],
+  prediction: [taVNS-induced TNF-alpha suppression shows a response ceiling correlating with structural fiber density (gastric VIP+ IHC / validated proxy), independent of baseline functional HRV; GI, HRV, and inflammatory readouts load on a common latent factor. Falsified if taVNS response is fully predicted by functional tone with no residual structural term, or if the three readouts share no common factor.],
+  treatment: [If validated, would predict a per-patient ceiling on vagus-stimulation efficacy — useful for trial stratification. Untested modeling proposal, not a recommendation.],
+  limitation: [V_str not parameterized; no ME/CFS structural vagal measurement exists to estimate it. May collapse into functional-tone variables if structural and functional deficits prove empirically inseparable (@lim:vagal-enteric-deconditioning).],
+)
+#registry-entry(
+  [Three Unresolved Threats to the Structural Vagal Denervation Model],
+  type: "L",
+  certainty: "n/a",
+  evidence: [Critical self-audit (brainstorm categories 10-12) of @hyp:structural-vagal-denervation-cap. (1) VIP+ IHC cannot separate extrinsic vagal from intrinsic enteric fibers @acanfora2026vagaldenervation; (2) HRV/fiber changes confounded by deconditioning (uncontrolled in Acanfora); (3) n=12 winner's-curse inflates R=0.50-0.61 correlations. Origin: brainstorm critical categories.],
+  citations: [@acanfora2026vagaldenervation],
+  mechanism: [Confounds/ambiguities that could produce the observed findings without supporting a vagal-specific structural-denervation causal model: enteric-source fiber loss, disuse atrophy, small-sample effect-size inflation.],
+  chapter-ref: [ch13:@lim:vagal-enteric-deconditioning],
+  prediction: [Any positive structural finding must survive (a) source attribution (snRNA-seq / retrograde tracing distinguishing vagal from enteric), (b) activity-matched controls, and (c) replication in a larger healthy-controlled cohort before the vagal-denervation causal interpretation is accepted.],
+  treatment: [N/A — methodological caveat; guards against premature clinical use of the structural model or VNS targeting.],
+  limitation: [The confounds are themselves inferred; some (deconditioning, source attribution) are directly testable and should be measured in any future ME/CFS study.],
+)

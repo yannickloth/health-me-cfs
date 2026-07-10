@@ -97,7 +97,7 @@ The vagus nerve connects gut, heart, brain, and immune system. It directly inhib
     - *Vagus $arrow.r$ Heart*: Parasympathetic withdrawal $arrow.r$ elevated resting HR, reduced HRV @Escorihuela2020hrv, POTS
     - *Vagus $arrow.r$ Gut*: Reduced vagal tone $arrow.r$ decreased motility, gastroparesis, SIBO
     - *Vagus $arrow.r$ Brain*: Afferent vagal signals modulate neuroinflammation; dysfunction $arrow.r$ brain fog, fatigue signaling
-    - *Vagus $arrow.r$ Immune*: Inflammatory reflex impairment $arrow.r$ chronic systemic inflammation
+    - *Vagus $arrow.r$ Immune*: Inflammatory reflex impairment $arrow.r$ chronic systemic inflammation @tracey2002inflammatoryreflex
 
 *Clinical support:*
 
