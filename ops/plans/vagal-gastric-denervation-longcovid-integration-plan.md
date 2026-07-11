@@ -139,3 +139,9 @@ Decision PROCEED → 6 new environments (ch08/ch10/ch13) + 1 synthesis + strengt
 - Phase 11a /review-convergence: converged 2 rounds; lowered hyp:structural-vagal-denervation-cap 0.45→0.35 (cross-disease extrapolation discount below observed-finding 0.45), improving the certainty gradient (0.45 observation → 0.35 ME/CFS hypothesis → 0.20 model node); registry + changelog synced.
 - Phase 10a retroactive-synthesis detection: scanned (4 completed plans); no unilateral cross-topic synthesis written (skill requires user flag before writing). Available on request.
 - Build PASS after every fix round. Consequence fields intact on all 6 env.
+
+## Convergence-criteria completion (follow-up 2)
+- Phase 5a re-verify: PASS — hyp:structural-vagal-denervation-cap + spec:vstr-dag-node both FULLY falsifiable after revisions; no weakening. oq/lim/clinical-finding appropriately non-predictive for their genres.
+- Phase 11a /review-convergence: 2nd consecutive zero-finding round achieved → CONVERGED (criterion = 2 consecutive zero rounds).
+- Phase 11c /review-typst: 2nd consecutive zero-finding round achieved → CONVERGED. Fixed changelog registry count (said "2 new entries", actually 4: hyp, oq, spec:vstr, lim).
+- Phase 12 changelog /review-typst (dedicated pass): CLEAN after registry-count fix; all cite keys + certainties (clinical-finding 0.45 / hyp 0.35 / spec:vstr 0.20) verified accurate.
