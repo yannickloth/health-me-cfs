@@ -14301,7 +14301,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
 <sec:bib-mcas-isr>
 // =============================================================================
 
-This section covers mechanistic and clinical literature on the intersection of mast cell biology (ER stress, UPR, degranulation) and the integrated stress response (ISR/eIF2alpha pathway). No direct MCAS--ISR crosstalk study exists as of 2026-05-02; the evidence base is composed of adjacent mechanistic studies. See integration guide: `content-staging/integration-guide-mcas-isr-2026-05-02.md`.
+This section covers mechanistic and clinical literature on the intersection of mast cell biology (ER stress, UPR, degranulation) and the integrated stress response (ISR/eIF2alpha pathway). No direct MCAS--ISR crosstalk study exists as of 2026-05-02; the evidence base is composed of adjacent mechanistic studies.
 
 === Fan et al.\ 2024 --- ER Stress Drives Mast Cell Degranulation via XBP1--Syk; eIF2alpha Suppresses XBP1
 

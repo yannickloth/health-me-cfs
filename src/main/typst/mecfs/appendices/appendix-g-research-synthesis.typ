@@ -388,7 +388,7 @@ Table @tab:treatment-quick-reference provides a rapid-access summary for clinic
 == Selective Energy Dysfunction Hypothesis Research Materials
 <sec:selective-dysfunction-materials>
 
-The Selective Energy Dysfunction Hypothesis (see Chapter @ch:energy-metabolism Section @sec:selective-energy-dysfunction and Chapter @ch:proposed-studies Section @sec:selective-energy-dysfunction-study) has generated six research deliverables available in the project staging area (five completed, one planned). These materials are designed to facilitate hypothesis testing and clinical translation.
+The Selective Energy Dysfunction Hypothesis (see Chapter @ch:energy-metabolism Section @sec:selective-energy-dysfunction and Chapter @ch:proposed-studies Section @sec:selective-energy-dysfunction-study) is accompanied by six research deliverables, outlined below, designed to facilitate hypothesis testing and clinical translation.
 
 === Patient Assessment Tools
 
@@ -401,8 +401,6 @@ A comprehensive 649-line survey instrument designed to test the prediction that 
     - Correlation tracking with disease activity changes
     - Confounder screening (nutrition, medications, hormones)
 
-*Location:* `content-staging/survey-hair-nail-health.md`
-
 *Target population:* 200 ME/CFS patients (50 each severity level) + 100 healthy controls + 100 disease controls
 
 *Expected outcomes:* Hair/nail growth rates should be statistically equivalent to controls despite severe functional impairment, providing objective evidence for selective (not global) dysfunction.
@@ -412,8 +410,6 @@ A patient-friendly protocol for tracking Post-Exertional Malaise patterns to tes
 
     - *Simple mode*: 3 data points (activity type, PEM occurrence, severity) for patients with severe brain fog
     - *Detailed mode*: Activity categorization by CNS involvement, PEM severity across 5 dimensions, timeline tracking
-
-*Location:* `content-staging/protocol-pem-tracking.md`
 
 *Key prediction:* Cognitive exertion (pure CNS) should cause more severe PEM than passive activities (minimal CNS demand).
 
@@ -428,8 +424,6 @@ An inventory of 8 major ME/CFS datasets that could test hypothesis predictions w
     - *Van Campen Autonomic Studies*: CBF during orthostatic challenge (n=400+; replicates demand-response pattern)
     - *UK Biobank ME/CFS Cohort*: Large-scale genetic and activity data (n=1,600; established access process)
 
-*Location:* `content-staging/existing-datasets-analysis.md`
-
 *Contains:* Dataset inventory table, prediction-to-dataset mapping, feasibility assessment, contact information for data access
 
 === Proposed Research Studies
@@ -441,12 +435,8 @@ A comprehensive research proposal (integrated into Chapter @ch:proposed-studies
 
 *Funding targets:* NIH R01, Solve M.E. Initiative, Open Medicine Foundation
 
-*Full proposal location:* `content-staging/research-proposal-selective-dysfunction.md`
-
 *Review Article Outline.*
 A 9-section outline for a comprehensive review article presenting the Selective Energy Dysfunction Hypothesis to the ME/CFS research community. Target journals: _Frontiers in Neurology_, _Journal of Translational Medicine_.
-
-*Location:* `content-staging/review-article-outline.md`
 
 *Length:* 8,000–10,000 words with 7 figures, 7 tables, 150–200 references
 
@@ -456,8 +446,6 @@ A 9-section outline for a comprehensive review article presenting the Selective 
 
 *Brain-Centric Treatment Protocol.*
 *[PLANNED]* An evidence-based treatment protocol translating the Selective Energy Dysfunction Hypothesis into clinical practice. All recommendations are *PRELIMINARY* and require physician review before implementation.
-
-*Location:* `content-staging/treatment-protocol-brain-centric.md` *(not yet created)*
 
 *Core intervention categories:*
 
@@ -472,7 +460,7 @@ A 9-section outline for a comprehensive review article presenting the Selective 
 
 === Research Community Access
 
-All materials in `content-staging/` are available for:
+These supplementary research materials are intended for:
 
     - Patient advocacy organizations (for survey distribution and protocol testing)
     - ME/CFS researchers (for collaboration on dataset analysis or study implementation)
