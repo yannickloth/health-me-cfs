@@ -65,7 +65,7 @@ Example: immune activation → ATP depletion (0.8) × ATP depletion → PEM (0.7
 ### Step 1: Extract Certainty Values
 
 ```bash
-grep -rn "certainty:" ops/ src/main/typst/mecfs/part5-modeling/
+grep -rn "certainty:" src/main/typst/mecfs/part5-modeling/ src/main/typst/mecfs/part4-research/hypothesis-registry.typ
 grep -rn "certainty" figures/*.typ
 ```
 

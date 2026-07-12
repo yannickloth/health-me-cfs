@@ -46,7 +46,7 @@ Ensure mathematical and scientific consistency across the three formalization le
 ```bash
 # Find DAG, EPC, ODE files for the target process
 glob "**/*[process-keyword]*"
-grep -rn "certainty:" ops/ src/main/typst/mecfs/part5-modeling/
+grep -rn "certainty:" src/main/typst/mecfs/part5-modeling/ src/main/typst/mecfs/part4-research/hypothesis-registry.typ
 ```
 
 ### Step 2: Extract Certainty Values

@@ -14,6 +14,8 @@ End-to-end: research → synthesize → **integration decision** → develop →
 
 **Guard:** `$ARGUMENTS` empty/blank/literal → ask user for topic before proceeding.
 
+**Artifact locations (MANDATORY — see `ops/AGENTS.md` for the full map):** kept artifacts go under `ops/` (`ops/research/` = literature summaries + search logs; `ops/brainstorms/` = brainstorms; `ops/integration-guides/` = integration guides + bib fragments; `ops/plans/` = plans + hypothesis trees). Disposable one-cycle audit scratch (synthesis, compat-audit, coherence-audit, synonym-map) goes to `tmp/` and is NEVER committed. Never use the retired `content-staging/` folder. Never write an `ops/` or `tmp/` path into the document (`src/**`).
+
 ---
 
 ## Working-Tree State Check (run FIRST, before Phase 0)
@@ -229,7 +231,7 @@ Write `ops/research/search-log-<topic-slug>-<date>.md`:
 
 **Guard — Uniformly null evidence:** If all included papers report null results, failed replications, or conclude "no relationship to ME/CFS" → report: "Phase 1: N papers found, all null/negative. Evidence does not support this mechanism." Options: (a) integrate as `#limitation` or `#open-question` documenting the null evidence, (b) abandon topic. Do NOT proceed to brainstorming about a mechanism the evidence rejects.
 
-**Output:** Literature summary in `ops/` + annotated bib entries + `bib/<topic-area>.bib` updates + search log.
+**Output:** Literature summary in `ops/research/` + annotated bib entries + `bib/<topic-area>.bib` updates + search log (`ops/research/`). (See `ops/AGENTS.md` for folder conventions.)
 **Report:** "Phase 1 complete: N papers found, M added to bib (`bib/<topic>.bib`), annotated bib updated, search log at `ops/research/search-log-<slug>-<date>.md`. Bib keys (VERIFIED against bib via awk, not transcribed): [list]. Any report/bib key mismatches noted."
 
 ---
@@ -571,7 +573,7 @@ Same requirement as Phase 3: every environment written in Phase 5 must contain a
 
 **Gate A — Standalone topic escalation:** Before integrating a Tier 1 idea inline, check: does this idea have its own separable literature base (≥5 papers not already covered by the parent topic's Phase 1)? If yes → it's standalone. Ask user: "Integrate inline as Phase 5 or queue as a new `/integrate-topic` cycle?" Operational threshold: ≥5 separable papers = standalone; <5 = extension. Wait for answer before continuing. If extension → integrate inline as below.
 
-1. **Research** (Tier 1 only) — delegate to `literature-integrator` (sonnet): find supporting/contradicting evidence; produces integration guide in `ops/`; updates the topic-appropriate `bib/<topic-area>.bib` + annotated bib. Before launching, check whether Phase 1 papers already address this idea — if so, use existing evidence and skip redundant sub-research. **If the idea is treatment-oriented** (drug, supplement, intervention), the sub-research MUST include harm search terms (adverse effects, contraindications) even if the parent topic's Phase 1 was non-treatment.
+1. **Research** (Tier 1 only) — delegate to `literature-integrator` (sonnet): find supporting/contradicting evidence; produces integration guide in `ops/integration-guides/`; updates the topic-appropriate `bib/<topic-area>.bib` + annotated bib. Before launching, check whether Phase 1 papers already address this idea — if so, use existing evidence and skip redundant sub-research. **If the idea is treatment-oriented** (drug, supplement, intervention), the sub-research MUST include harm search terms (adverse effects, contraindications) even if the parent topic's Phase 1 was non-treatment.
 2. **Develop + integrate** — main session reads guide; writes directly into target chapter files per Phase 3 rules
 3. **Verify** — confirm `literature-integrator` added bib entries before proceeding
 
@@ -1078,7 +1080,7 @@ Add entry to `src/main/typst/mecfs/shared/changelog.typ` under current version (
 
 Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit` skill rules (conventional commits, no generated build outputs, PDF rule by provenance — source-copy PDFs under `Literature/**` ARE committed; only build-generated PDFs are excluded).
 
-**Scope precisely (MANDATORY):** Stage ONLY this topic's files (chapters, registry, changelog, ops artifacts, ops pipeline docs). Use the explicit file list from the plan's per-phase reports — never `git add -A`. Exclude: unrelated WIP (other topics' `SKILL.md` edits, etc.), and transient review-skill artifacts (e.g. `.claude/review-checkpoint-*.md` — do NOT commit these per `.claude/` hygiene).
+**Scope precisely (MANDATORY):** Stage ONLY this topic's files (chapters, registry, changelog, and the tracked `ops/` artifacts: plan, subtree, `ops/research/` literature summary + search log, `ops/brainstorms/` brainstorm, `ops/integration-guides/` guides). Use the explicit file list from the plan's per-phase reports — never `git add -A`. Exclude: the disposable audit scratch in `tmp/` (synthesis, compat-audit, coherence-audit, synonym-map — NEVER commit `tmp/`, it is gitignored); unrelated WIP (other topics' `SKILL.md` edits, etc.); and transient review-skill artifacts (e.g. `.claude/review-checkpoint-*.md` — do NOT commit these per `.claude/` hygiene). See `ops/AGENTS.md` for the folder map.
 
 **Shared-file ownership re-check (MIXED mode / concurrency):** Before committing, verify your shared-file entries survived any parallel commit:
 ```bash

@@ -1,25 +1,17 @@
-# ops/ pipeline artifacts — structure & open audit
+# ops/ pipeline artifacts — README
 
-## Directory purpose (post-2026-07-12 refactor)
+**Conventions:** see [`AGENTS.md`](AGENTS.md) for the authoritative directory map
+and write rules. This README covers only history and open audits.
 
-The `/integrate-topic` pipeline's artifacts, split by change-driver. Retired the
-meaningless root-level `content-staging/` folder; artifacts now live under `ops/`
-alongside the pipeline's plans and queue.
+## History (2026-07-12 refactor)
 
-| Dir | Contents | Driver | Tracked |
-|-----|----------|--------|---------|
-| `ops/plans/` | integration plans + `hypotheses-trees/` | pipeline coordination/tracking | yes |
-| `ops/queued-topics.md` | queued cycle list | queue persistence | yes |
-| `ops/research/` | literature summaries + search logs | Phase-1 reproducibility record | yes |
-| `ops/brainstorms/` | brainstorm idea backlogs | future-cycle idea backlog | yes |
-| `ops/integration-guides/` | Phase-5 integration guides + leftover bib/registry fragments | within-cycle scaffolding cited by plans | yes |
-| `tmp/` | synthesis, compat-audit, coherence-audit, synonym-map, adversarial, falsifiability, quality, retro, continuation prompts | one-cycle disposable scratch | no (gitignored) |
-
-The audit-class artifacts (synthesis/compat/coherence/synonym/etc.) are one-shot
-reasoning that is dead once a cycle commits and passes review; the pipeline now
-writes them to `tmp/` (disposable) rather than committing them. The prior 104
-tracked audit files were removed in the 2026-07-12 refactor (recoverable from git
-history if ever needed).
+The `/integrate-topic` pipeline's artifacts were split by change-driver and moved
+out of the meaningless root-level `content-staging/` folder (retired) into `ops/`
+subfolders + `tmp/`. The audit-class artifacts (synthesis/compat/coherence/synonym/
+etc.) are one-shot reasoning that is dead once a cycle commits and passes review;
+the pipeline now writes them to `tmp/` (disposable, gitignored) rather than
+committing them. The prior 104 tracked audit files were removed in the refactor
+(recoverable from git history if ever needed).
 
 ## OPEN AUDIT — un-merged bib/registry fragments in `ops/integration-guides/`
 

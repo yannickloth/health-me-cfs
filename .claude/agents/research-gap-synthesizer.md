@@ -31,12 +31,12 @@ Systematically collect all `open_question`, `hypothesis`, and `speculation` envi
 - Read-only: does NOT modify chapter content
 - Does NOT assess scientific validity of the gaps (accepts what's in document)
 - Does NOT generate new research hypotheses (harvests existing ones)
-- Output goes to a staging file or ch25b — does NOT auto-insert
+- Output goes to an ops/research/ file or ch25b — does NOT auto-insert
 
 ## Tools
 
 - **Read:** Target chapters and appendix files for context
-- **Write:** Staging file with synthesized agenda
+- **Write:** `ops/research/` file with synthesized agenda
 - **Grep:** Harvest environments and their labels/titles
 - **Glob:** Find all .typ content files
 
@@ -115,4 +115,4 @@ CROSS-CUTTING THEMES
   [Pattern observed across multiple mechanism chapters]
 ```
 
-Write output to a staging file (e.g., `ops/research/research-agenda-[date].md`) and report the path. Do NOT auto-insert into ch25b without user review.
+Write output to `ops/research/research-agenda-[date].md` and report the path. Do NOT auto-insert into ch25b without user review.
