@@ -18849,6 +18849,103 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Certainty:*: 0.30
     *Limitations:*: Secondary source (Health Rising blog); conference presentation not peer-reviewed; limited details; no primary publication yet; small sample size (n=7-10); no striatal analysis.
 
+=== Da Silva 2025 — Hypothalamic CRH Neuron Depletion in ME/CFS (Conference)
+<sec:bib-dasilva-crh-depletion>
+
+    *Full Citation:*: Da Silva JP. Hypothalamic CRH neuron depletion in severe ME/CFS: autopsy findings from the Netherlands Brain Bank ME/CFS donation programme. _Conference presentation at IACFS/ME 2025_. Not peer-reviewed. @dasilva2025iacfscrh
+    *URL:*: #link("https://www.healthrising.org/blog/2025/12/04/chronic-fatigue-hpa-axis-autopsy/")[Health Rising summary (secondary source)]
+    *Published:*: 2025 (conference presentation — no preprint or primary publication as of July 2026)
+    *Study Design:*: Post-mortem case-control immunocytochemistry; n=7 severe/very severe ME/CFS vs. matched controls
+    *Key Findings:*
+        - Dramatically reduced CRH-producing neurons in the paraventricular nucleus of the hypothalamus
+        - Some cases showed near-absent CRH neurons
+        - Other hypothalamic neuron types (vasopressin/AVP, oxytocin/OXT) normal or increased — cell-type specific
+        - Downstream pituitary: regulatory hormone receptors downregulated; POMC/ACTH precursor reduced
+        - Picture: collapsed central stress/energy regulation
+    *Interpretation:*: Locates origin of ME/CFS hypocortisolism centrally (hypothalamus/pituitary), not adrenally. Proposed driver: chronic neuroinflammation → years-long CRH neuron overactivation → cell death. Cross-reference to Long COVID (RECOVER brain bank).
+    *Limitations:*: Conference only, not peer-reviewed; n=7; single centre; no primary publication; no independent replication; end-stage only (cause vs. consequence); neuroinflammation not assessed in same brains.
+    *Quality:*: Low (conference presentation, secondary source)
+    *Certainty:*: 0.30
+
+=== Raadsheer et al.\ 1994 — Increased CRH Neurons in Depression
+<sec:bib-raadsheer-crh-depression>
+
+    *Full Citation:*: Raadsheer FC, Hoogendijk WJ, Stam FC, Tilders FJ, Swaab DF. Increased numbers of corticotropin-releasing hormone expressing neurons in the hypothalamic paraventricular nucleus of depressed patients. _Neuroendocrinology_. 1994;60(4):436--444. @raadsheer1994crh
+    *DOI:*: #link("https://doi.org/10.1159/000126778")[10.1159/000126778]
+    *Published:*: 1994
+    *Study Design:*: Post-mortem immunocytochemistry + morphometry; Netherlands Brain Bank tissue
+    *Key Findings:*
+        - CRH-expressing neuron number INCREASED in depression (opposite direction from ME/CFS finding)
+        - Same tissue source (NBB), same region (PVN), same cell-type quantification approach
+    *Significance:*: Provides methodology precedent for Da Silva 2025. The opposite CRH direction in depression vs ME/CFS suggests distinct pathophysiology — not simply "stress system burnout".
+    *Quality:*: High (peer-reviewed, established methodology, NBB tissue)
+    *Certainty:*: 0.80
+
+=== Meynen et al.\ 2007 — CRH Neuron Number in Alzheimer's Depression
+<sec:bib-meynen-crh-alzheimer>
+
+    *Full Citation:*: Meynen G, Unmehopa UA, Hofman MA, Swaab DF, Hoogendijk WJ. Relation between corticotropin-releasing hormone neuron number in the hypothalamic paraventricular nucleus and depressive state in Alzheimer's disease. _Neuroendocrinology_. 2007;85(1):37--44. @meynen2007crh
+    *DOI:*: #link("https://doi.org/10.1159/000100582")[10.1159/000100582]
+    *Key Findings:*: CRH neuron number in PVN related to depressive state in Alzheimer's. Demonstrates Swaab group's sustained methodology for PVN CRH quantification.
+    *Quality:*: High (peer-reviewed)
+    *Certainty:*: 0.75
+
+=== Purba et al.\ 1995 — Increased CRH Neurons in Multiple Sclerosis
+<sec:bib-purba-crh-ms>
+
+    *Full Citation:*: Purba JS, Raadsheer FC, Hofman MA, Ravid R, Polman CH, Kamphorst W, Swaab DF. Increased number of corticotropin-releasing hormone expressing neurons in the hypothalamic paraventricular nucleus of patients with multiple sclerosis. _Neuroendocrinology_. 1995;62(1):62--70. @purba1995crhms
+    *DOI:*: #link("https://doi.org/10.1159/000126989")[10.1159/000126989]
+    *Key Findings:*: PVN CRH neurons increased in MS (chronic neuroinflammatory condition). Opposite direction from ME/CFS depletion, showing CRH neurons respond differently to neuroinflammation across conditions.
+    *Quality:*: High (peer-reviewed)
+    *Certainty:*: 0.70
+
+=== Morris et al.\ 2017 — HPA Hypofunction as Consequence of Immune-Inflammatory Pathways
+<sec:bib-morris-hpa-immune>
+
+    *Full Citation:*: Morris G, Anderson G, Maes M. Hypothalamic-pituitary-adrenal hypofunction in myalgic encephalomyelitis (ME)/chronic fatigue syndrome (CFS) as a consequence of activated immune-inflammatory and oxidative and nitrosative pathways. _Molecular Neurobiology_. 2017;54(9):6806--6819. @morris2017hpa
+    *DOI:*: #link("https://doi.org/10.1007/s12035-016-0170-2")[10.1007/s12035-016-0170-2]
+    *Key Findings:*: Argues HPA hypofunction in ME/CFS is secondary to immune-inflammatory and O&NS pathway activation. Provides mechanistic framework consistent with Da Silva's neuroinflammatory driver model.
+    *Quality:*: Medium-High (peer-reviewed, but hypothesis paper)
+    *Certainty:*: 0.55
+
+=== Tak et al.\ 2011 — HPA Axis Meta-Analysis in Functional Somatic Disorders
+<sec:bib-tak-hpa-meta>
+
+    *Full Citation:*: Tak LM, Cleare AJ, Ormel J, Manoharan A, Kok IC, Wessely S, Rosmalen JG. Meta-analysis and meta-regression of hypothalamic-pituitary-adrenal axis activity in functional somatic disorders. _Biological Psychology_. 2011;87(2):183--194. @tak2011hpa
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsycho.2011.02.002")[10.1016/j.biopsycho.2011.02.002]
+    *Key Findings:*: Meta-analysis showing consistent hypocortisolism in CFS (moderate effect size), not attributable to comorbid depression or medication.
+    *Quality:*: High (meta-analysis, peer-reviewed)
+    *Certainty:*: 0.72
+
+=== De Bellis et al.\ 2021 — Hypothalamic-Pituitary Autoimmunity in CFS
+<sec:bib-debellis-hpa-autoimmunity>
+
+    *Full Citation:*: De Bellis A, Bellastella G, Pernice V, Cirillo P, Longo M, Maiorino MI, Esposito K, Bellastella A. Hypothalamic-pituitary autoimmunity and related impairment of hormone secretions in chronic fatigue syndrome. _Journal of Clinical Endocrinology and Metabolism_. 2021;106(12):e5147--e5155. @debellis2021pituitary
+    *DOI:*: #link("https://doi.org/10.1210/clinem/dgab429")[10.1210/clinem/dgab429]
+    *Key Findings:*: Anti-pituitary and anti-hypothalamus autoantibodies in CFS with associated hormone deficiencies. Presents competing autoimmune (not neurodegenerative) mechanism for central HPA failure.
+    *Conclusion:*: Alternative mechanism: autoantibody-mediated pituitary/hypothalamic dysfunction rather than CRH neuron death.
+    *Quality:*: Medium-High (peer-reviewed, JCEM)
+    *Certainty:*: 0.55
+
+=== Sauve et al.\ 2023 — GnRH Neuron Death in Long COVID Hypothalamus
+<sec:bib-sauve-gnrh-longcovid>
+
+    *Full Citation:*: Sauve F, Nampoothiri S, Clarke SA, Fernandois D, Coelho CFF, et al. Long-COVID cognitive impairments and reproductive hormone deficits in men may stem from GnRH neuronal death. _EBioMedicine_. 2023;96:104784. @sauve2023gnrh
+    *DOI:*: #link("https://doi.org/10.1016/j.ebiom.2023.104784")[10.1016/j.ebiom.2023.104784]
+    *Key Findings:*: Post-mortem study demonstrating GnRH neuronal death in hypothalamus of male Long COVID patients. Establishes precedent for viral-induced hypothalamic neuron subtype loss. Same brain bank methodology (Netherlands Brain Bank / Erasmus MC).
+    *Conclusion:*: Infection/inflammation → specific hypothalamic neuron subtype loss — mechanism directly maps to Da Silva's CRH finding.
+    *Quality:*: High (EBioMedicine, peer-reviewed, post-mortem)
+    *Certainty:*: 0.65
+
+=== Ferrero et al.\ 2017 — CNS Findings in CFS Autopsy
+<sec:bib-ferrero-cns-autopsy>
+
+    *Full Citation:*: Ferrero K, Silver M, Cocchetto A, Masliah E, Langford D. CNS findings in chronic fatigue syndrome and a neuropathological case report. _Journal of Investigative Medicine_. 2017;65(5):974--983. @ferrero2017cns
+    *DOI:*: #link("https://doi.org/10.1136/jim-2016-000390")[10.1136/jim-2016-000390]
+    *Key Findings:*: Case report + review of CFS neuropathology: gliosis, white matter changes. One of very few peer-reviewed autopsy studies in ME/CFS. No hypothalamic-specific analysis.
+    *Quality:*: Medium (single case report + review)
+    *Certainty:*: 0.40
+
 
 // =============================================================================
 

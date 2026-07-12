@@ -95,5 +95,86 @@ This structural finding provides an important differential against major depress
 The Scott and Dinan finding has not been independently replicated in 25+ years. The sample size ($n = 8$) precludes confident generalisation. Modern imaging studies with larger cohorts and correlation to illness duration, severity, and hormonal profiles are needed before structural atrophy can be considered an established feature of ME/CFS.
 ]
 
+==== Central CRH-Neuron Loss in the Hypothalamus
+<sec:central-crh-loss>
+
+The five mechanisms above locate HPA dysfunction at progressively more peripheral levels---enhanced central feedback, cytokine signalling, adrenal enzyme function, pituitary injury, and adrenal atrophy. A sixth candidate mechanism operates at the most upstream point of the entire axis: loss of the hypothalamic neurons that manufacture corticotropin-releasing hormone (CRH) itself. If the paraventricular nucleus (PVN) can no longer produce adequate CRH, every downstream compartment---pituitary ACTH, adrenal cortisol---is deprived of its initiating signal, and no intervention acting below the hypothalamus can restore normal regulation.
+
+#speculation(title: [Selective Depletion of Hypothalamic CRH Neurons in Severe ME/CFS])[
+A preliminary brain-autopsy series presented at the IACFS/ME 2025 conference (Da Silva and colleagues, University of Amsterdam, using tissue from the Netherlands Brain Bank ME/CFS donation programme) reported that the hypothalamus of seven severely affected, deceased ME/CFS patients contained dramatically reduced numbers of CRH-immunoreactive neurons in the PVN---in some cases almost none---compared with matched controls @dasilva2025iacfscrh. Because these counts reflect CRH-peptide immunostaining, they cannot by themselves distinguish loss of neurons from loss of detectable peptide in surviving cells (see limitation below). The change was reported as cell-type specific: neurons producing vasopressin (AVP) and oxytocin (OXT) were normal or relatively preserved, arguing against a global hypothalamic atrophy. Downstream, the pituitary reportedly showed downregulated receptors for regulatory hormones and reduced output of the ACTH precursor pro-opiomelanocortin (POMC). If borne out, this pattern would relocate the origin of the well-documented ME/CFS hypocortisolism (@sec:hpa-axis; meta-analytic hypocortisolism @tak2011hpa) from the adrenal gland to the hypothalamus, reframing low morning cortisol as the readout of a central manufacturing deficit rather than an adrenal or feedback problem.
+
+The single most important caveat is evidential: this is an unpublished conference presentation ($n = 7$, severe/very-severe cases only, single centre, no peer review or independent replication as of 2026). It is reported here at low certainty and must not be treated as an established feature of ME/CFS. The finding is nonetheless notable because direct human hypothalamic histology in ME/CFS is exceptionally rare---the prior peer-reviewed autopsy literature is limited to isolated reports of gliosis and white-matter change without cell-type-specific hypothalamic quantification @ferrero2017cns.
+
+*Certainty: 0.30* --- single non-peer-reviewed source; strong methodological lineage (the Swaab group's PVN CRH-neuron quantification is well established @bao2010crh @bao2008stress) but no ME/CFS-specific replication.
+
+*Refuted if:* independent, blinded stereological quantification of the PVN finds CRH-neuron numbers in severe ME/CFS comparable to matched controls, or the apparent deficit disappears after controlling for agonal state and medication.
+
+*Consequence:* If replicated, this would move the presumed root of the stress-hormone failure in severe ME/CFS from the adrenal gland up to the brain itself, meaning that cortisol deficiency would be secondary to lost central drive rather than a primary adrenal or feedback problem---but the finding is far too preliminary to change any clinical decision today.
+] <spec:central-crh-loss>
+
+#speculation(title: [Cell-Type-Specific CRH Vulnerability Distinguishes ME/CFS from Depression and MS])[
+The reported *direction* of the CRH change is as informative as its magnitude. In major depression @raadsheer1994crh and in multiple sclerosis @purba1995crhms (both studied by the same Netherlands Brain Bank methodology) PVN CRH-expressing neurons are *increased*, reflecting a hyperactive or up-driven stress axis. Da Silva's ME/CFS finding is the opposite: CRH-immunoreactive neurons *reduced*. This reversal, if confirmed, would raise questions about whether ME/CFS hypocortisolism is the tail end of chronic stress-system overdrive ("burnout")---which would predict CRH-neuron preservation or increase---and would instead be consistent with a distinct process that selectively silences or depletes peptide from CRH neurons while sparing neighbouring AVP and OXT populations. A cell-type-specific vulnerability of this kind would parallel the selective GnRH-neuron death documented in the hypothalamus of Long COVID patients @sauve2023gnrh (a cross-disease precedent, not yet demonstrated in ME/CFS), consistent with a shared post-infectious mechanism that targets particular hypothalamic neuronal subtypes rather than the region as a whole.
+
+*Certainty: 0.25* --- rests on the same unpublished finding plus cross-condition histology; the ME/CFS-versus-depression contrast is indirect (different cohorts, not a head-to-head study).
+
+*Refuted if:* a single-run blinded stereology study finds ME/CFS PVN CRH-neuron counts at or above control/depression levels, or finds AVP/OXT neurons also depleted (indicating global rather than cell-type-selective loss).
+
+*Consequence:* If the pattern holds, it would give ME/CFS a biological signature that is the mirror image of depression at the level of brain tissue---further evidence that the two illnesses are mechanistically different, even where their surface symptoms overlap.
+] <spec:crh-cell-type-specificity>
+
+#open-question(title: [What Drives CRH-Neuron Loss---Neuroinflammation, Autoimmunity, or Excitotoxicity?])[
+The mechanism that would produce selective CRH-neuron depletion is unresolved, and the candidate drivers make competing, testable predictions.
+
+    / *Chronic neuroinflammation / excitotoxicity:*: Years of low-grade inflammatory or excitatory overactivation of stress centres could progressively damage the metabolically demanding CRH neurons. This is consistent with immune-inflammatory models of central HPA hypofunction @morris2017hpa. However, it is constrained by a null finding: TSPO-PET studies have not consistently detected neuroinflammation in ME/CFS, though TSPO imaging has limited sensitivity for chronic low-grade hypothalamic inflammation and attributes signal ambiguously across cell types.
+    / *Autoimmune targeting:*: Anti-pituitary and anti-hypothalamus autoantibodies have been detected in a subset of CFS patients @debellis2021pituitary, offering an alternative in which CRH-producing cells (or their pituitary targets) are damaged by autoimmunity rather than inflammation. Distinguishing this from the inflammatory model requires simultaneous autoantibody and histological data in the same brains---which do not yet exist.
+    / *Post-infectious neuronal death:*: The GnRH-neuron precedent @sauve2023gnrh raises the possibility of direct viral or para-infectious injury to specific hypothalamic subtypes.
+
+These are not mutually exclusive, and the current evidence cannot adjudicate between them. The decisive experiment is multiplexed staining of the same CRH-depleted PVN sections for activated microglia, T-cells, and IgG deposition: microglial nodules concentrated in depleted zones would support the inflammatory model, IgG selectively on CRH (not AVP/OXT) neurons would support the autoimmune model, and the absence of both despite CRH loss would point to a metabolic/excitotoxic driver.
+
+*Consequence:* Which driver is correct matters for treatment: an inflammatory cause would point toward anti-inflammatory or immune-calming therapies, an autoimmune cause toward immunomodulation, and neither would be helped by simply replacing the missing hormone---so resolving this question is a prerequisite for any rational therapy aimed at the cause.
+] <oq:crh-loss-driver>
+
+#speculation(title: [Downstream Symptom Predictions of CRH-Neuron Loss: Pain Amplification and Exertional Autonomic Failure])[
+If PVN CRH neurons are genuinely depleted, the loss should have consequences beyond low cortisol, because these neurons contribute to two circuits relevant to core ME/CFS symptoms. (Origin: brainstorm.)
+
+    / *Loss of central stress-induced analgesia:*: CRH and the related urocortins act as endogenous analgesics through CRH receptors in the periaqueductal grey, rostral ventromedial medulla, and spinal dorsal horn. Reduced output from the principal central CRH source would weaken this tonic inhibition of pain transmission, predicting reduced stress-induced analgesia and raised baseline pain sensitivity---a plausible contributor to the widespread pain and fibromyalgia overlap seen in ME/CFS, framed as an abnormal stress--pain interaction rather than simply "more pain."
+    / *Loss of exertion-evoked sympathetic reserve:*: Parvocellular PVN CRH neurons project to brainstem presympathetic centres and shape the acute sympathetic response to stressors. Selective loss (with AVP/OXT and baseline autonomic tone spared) predicts a reserve-dependent deficit: normal resting heart rate and blood pressure but impaired orthostatic and thermoregulatory compensation specifically when demand rises, consistent with the documented exertional and orthostatic intolerance of ME/CFS.
+
+Both predictions are indirect---no ME/CFS study has measured CRH-neuron number against pain or autonomic reserve---and each rests on the unconfirmed depletion finding, assumes permanent circuit loss rather than recoverable peptide depletion, and assumes PVN CRH is the dominant functional pool (extrahypothalamic CRH sources such as the central amygdala and bed nucleus of the stria terminalis could partially compensate).
+
+*Certainty: 0.18* --- physiologically grounded but doubly contingent (on the depletion finding and on untested ME/CFS-specific links).
+
+*Refuted if:* ME/CFS patients show normal conditioned pain modulation and normal stress-evoked sympathetic responses (with intact orthostatic/thermoregulatory compensation on challenge), or these measures show no relationship to HPA-axis output.
+
+*Consequence:* If correct, some of the pain and the activity-triggered crashes in ME/CFS would trace back to the same small population of lost brain cells---but this is a reasoned prediction awaiting the basic experiments to test it, not a current explanation.
+] <spec:crh-loss-downstream-symptoms>
+
+#open-question(title: [Which Experiments Would Confirm or Refute Central CRH-Neuron Loss?])[
+Because the finding is preliminary, its value lies chiefly in the specific, feasible experiments it invites---most executable on existing Netherlands Brain Bank tissue. (Origin: brainstorm.)
+
+    / *Resolve the driver:*: Multiplexed staining of the same PVN sections for CRH neurons, activated microglia (IBA1/CD68), T-cells (CD3), and human IgG would show whether CRH-depleted zones colocalise with inflammatory infiltrate, autoantibody deposition, or neither---distinguishing the neuroinflammatory, autoimmune, and metabolic/excitotoxic models in one experiment.
+    / *Test the depression contrast directly:*: A single blinded stereology run comparing severe ME/CFS, severe major depression, and matched controls in one staining batch would establish whether the reported ME/CFS decrease versus the known depression increase @raadsheer1994crh @purba1995crhms is a real biological reversal or a cross-study artefact.
+    / *Distinguish cause from consequence:*: Regressing CRH-neuron count on documented disease duration tests whether loss is progressive (ongoing, implying a treatment window) or a fixed early deficit.
+    / *Look beyond CRH:*: Single-nucleus RNA sequencing of hypothalamic micropunches would reveal whether other neuron subtypes are also affected and would carry a glial transcriptomic signature indicating the dominant pathological process.
+
+*Consequence:* The finding's main present value is that it points to a short list of concrete experiments, most executable on existing Netherlands Brain Bank tissue, that could within a small number of studies either establish a brain-tissue signature of ME/CFS or retire the claim.
+] <oq:crh-loss-experiments>
+
+#speculation(title: [Trigger-Specific and Autoimmune-Mediated CRH Loss (Weak, Tree-Retained)])[
+Two further possibilities are recorded for completeness at very low certainty. (Origin: brainstorm.) First, by analogy to the selective GnRH-neuron death seen after SARS-CoV-2 @sauve2023gnrh, CRH-neuron loss might be *trigger-specific*---present only in ME/CFS following particular neurotropic infections and absent in other onset types, which would make it a subtype marker rather than a universal feature. Second, the autoimmune and neurodegenerative accounts might be unified in a two-hit model in which anti-hypothalamus autoantibodies @debellis2021pituitary supply targeting specificity (explaining why CRH but not AVP/OXT neurons are affected) while complement and microglia supply the effector killing. Both ideas are currently too weakly evidenced for independent development and are retained only as directions for future cycles should the core finding replicate.
+
+*Certainty: 0.10* --- speculative extensions of an already-preliminary finding.
+
+*Refuted if:* CRH-neuron loss proves trigger-independent across onset types, or PVN co-staining shows no IgG deposition on CRH neurons.
+
+*Consequence:* These are placeholders for future investigation, not claims---if the basic finding fails to replicate, both fall away.
+] <spec:crh-loss-trigger-autoimmune>
+
+#limitation(title: [CRH-Neuron Finding Is Preliminary and Severity-Restricted])[
+Several boundaries constrain any use of the CRH-depletion finding. It derives from a single unpublished conference presentation with no primary publication or independent replication as of 2026, reported only secondarily; "near-absent" may be a paraphrase rather than the investigators' quantitative language. The quantification method is undisclosed---if it was qualitative or unblinded rather than the Swaab group's unbiased stereology @bao2008stress, observer bias aligned with the well-known expectation of HPA dysfunction in ME/CFS is a real risk. A specific technical confound also applies: CRH is a fast-turnover neuropeptide, so terminal HPA hyperactivation could deplete peptide stores below the immunostaining threshold in structurally intact neurons, making "near-absent CRH staining" potentially reflect peptide exhaustion rather than cell death (resolvable by CRH mRNA in-situ hybridisation). The sample ($n = 7$) comprised only severe and very-severe deceased patients; whether comparable CRH-neuron loss occurs in mild or moderate ME/CFS is entirely unknown, and it may represent an end-stage change---or a consequence of prolonged immobility, cachexia, polypharmacy, agonal state, or post-mortem interval---rather than an ME/CFS-specific feature, absent comparison to non-ME/CFS chronically-ill controls. As end-of-life tissue, it cannot distinguish whether CRH-neuron loss is a cause of ME/CFS, a consequence of severe illness, or an artefact. No CRH quantification in other brain regions was reported, so region-specificity is unconfirmed. Until a peer-reviewed publication with a larger, severity-stratified cohort and matched controls appears, this mechanism should be treated as a provocative hypothesis-generating observation, not an established mechanism.
+
+*Consequence:* This finding is exciting but not yet trustworthy enough to act on---patients and clinicians should regard it as a promising lead to watch, not a reason to change diagnosis or treatment.
+]
+
 *DHEA deficiency prevalence:* Nathan (2013) @Nathan2013healing, drawing on clinical experience with over 5,000 patients, reported that more than 90% of fibromyalgia and ME/CFS patients are DHEA-deficient, "often to a profound degree." DHEA supplementation has shown promising results in ME/CFS (see Section on Testosterone and Androgens below for details). Interpretation of DHEA results requires age-appropriate reference ranges, as levels naturally decline from a peak in adolescence; a result appearing "normal" on wide laboratory ranges may represent functional deficiency for a younger patient.
 

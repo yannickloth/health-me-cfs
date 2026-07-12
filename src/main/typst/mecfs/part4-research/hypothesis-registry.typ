@@ -3524,3 +3524,79 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [N/A — methodological caveat; guards against premature clinical use of the structural model or VNS targeting.],
   limitation: [The confounds are themselves inferred; some (deconditioning, source attribution) are directly testable and should be measured in any future ME/CFS study.],
 )
+
+=== Hypothalamic CRH-Neuron Depletion (Phase 3) — added 2026-07-12
+
+#registry-entry(
+  [Selective Depletion of Hypothalamic CRH Neurons in Severe ME/CFS],
+  type: "S",
+  certainty: "0.30",
+  evidence: [Preliminary brain-autopsy series presented at IACFS/ME 2025 (Da Silva et al., University of Amsterdam / Netherlands Brain Bank): dramatically reduced PVN CRH-producing neurons in 7 severe deceased ME/CFS patients vs controls, with AVP/OXT neurons spared and downstream pituitary receptor/POMC downregulation @dasilva2025iacfscrh. Not peer-reviewed; no primary publication. Swaab-group PVN CRH quantification methodology is well established @bao2010crh @bao2008stress. Prior ME/CFS autopsy literature sparse @ferrero2017cns. Origin: literature synthesis.],
+  citations: [@dasilva2025iacfscrh @bao2010crh @bao2008stress @tak2011hpa @ferrero2017cns],
+  mechanism: [Loss of PVN CRH neurons removes the initiating signal of the HPA cascade, relocating documented ME/CFS hypocortisolism from adrenal/feedback level to a central manufacturing deficit. Low morning cortisol becomes the readout of absent CRH drive rather than adrenal or feedback pathology.],
+  chapter-ref: [ch09:@spec:central-crh-loss],
+  prediction: [A peer-reviewed, severity-stratified replication will confirm reduced PVN CRH-neuron counts in severe ME/CFS relative to age/sex/agonal-state-matched controls, with preserved AVP/OXT counts. Falsified if independent PVN CRH quantification finds normal or increased CRH-neuron numbers in ME/CFS, or if the deficit disappears after controlling for agonal state and medication.],
+  treatment: [If central CRH machinery is structurally depleted, cortisol replacement addresses the symptom (low cortisol) not the cause and may be counterproductive; no clinical action warranted at current evidence.],
+  limitation: [Single unpublished conference source; n=7; severe/very-severe only; end-of-life tissue cannot separate cause, consequence, or artefact; no other brain regions quantified; no replication.],
+)
+#registry-entry(
+  [Cell-Type-Specific CRH Vulnerability Distinguishes ME/CFS from Depression and MS],
+  type: "S",
+  certainty: "0.25",
+  evidence: [In depression @raadsheer1994crh and MS @purba1995crhms (same Netherlands Brain Bank methodology @bao2008stress), PVN CRH neurons are increased; the reported ME/CFS finding is the opposite (reduced) @dasilva2025iacfscrh. Selective GnRH-neuron death in Long COVID hypothalamus @sauve2023gnrh provides a post-infectious cell-type-specific precedent (cross-disease, not yet shown in ME/CFS). Origin: literature synthesis.],
+  citations: [@dasilva2025iacfscrh @raadsheer1994crh @purba1995crhms @sauve2023gnrh @bao2008stress],
+  mechanism: [A process that selectively removes/silences CRH neurons while sparing AVP and OXT populations, opposite in direction to the CRH-neuron increase seen in stress-driven hyperactive-HPA conditions — arguing ME/CFS hypocortisolism is not stress-system burnout but a distinct cell-type-specific vulnerability.],
+  chapter-ref: [ch09:@spec:crh-cell-type-specificity],
+  prediction: [Head-to-head PVN histology will show ME/CFS CRH-neuron counts below controls while depression/MS counts remain above, with AVP/OXT preserved across all groups. Falsified if ME/CFS CRH-neuron direction matches depression/MS, or if AVP/OXT are also depleted (indicating global rather than selective loss).],
+  treatment: [None. Mechanistic distinction only.],
+  limitation: [Indirect ME/CFS-vs-depression contrast (different cohorts, not head-to-head); rests on the same unpublished finding.],
+)
+#registry-entry(
+  [What Drives CRH-Neuron Loss — Neuroinflammation, Autoimmunity, or Excitotoxicity?],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Candidate drivers make competing predictions. Immune-inflammatory central HPA hypofunction model @morris2017hpa vs a null: TSPO-PET has not consistently shown neuroinflammation in ME/CFS (TSPO sensitivity/attribution caveats apply). Anti-pituitary/anti-hypothalamus autoantibodies in a CFS subset @debellis2021pituitary support an autoimmune alternative. Post-infectious neuronal death precedent @sauve2023gnrh. Origin: literature synthesis.],
+  citations: [@morris2017hpa @debellis2021pituitary @sauve2023gnrh @dasilva2025iacfscrh],
+  mechanism: [Neuroinflammatory/excitotoxic damage, autoimmune targeting of CRH-producing cells or their pituitary targets, or direct post-infectious neuronal death — not mutually exclusive; current evidence cannot adjudicate.],
+  chapter-ref: [ch09:@oq:crh-loss-driver],
+  prediction: [Simultaneous histology + autoantibody + neuroinflammation markers in the same brains will distinguish drivers: inflammatory signature (activated microglia near depleted PVN), autoantibody deposition, or neither. No such combined dataset exists.],
+  treatment: [Driver identity dictates rational therapy class (anti-inflammatory vs immunomodulatory); none justified until the driver is established.],
+  limitation: [No combined dataset; TSPO-PET null constrains but does not exclude the neuroinflammatory model; all drivers inferred.],
+)
+#registry-entry(
+  [Downstream Symptom Predictions of CRH-Neuron Loss: Pain Amplification and Exertional Autonomic Failure],
+  type: "S",
+  certainty: "0.18",
+  evidence: [Contingent on @spec:central-crh-loss. CRH/urocortins mediate central stress-induced analgesia; parvocellular PVN CRH neurons shape exertion-evoked sympathetic output. ME/CFS shows hypocortisolism @tak2011hpa, widespread pain/fibromyalgia overlap, and exertional/orthostatic intolerance. No ME/CFS study links CRH-neuron number to pain or autonomic reserve. Origin: brainstorm.],
+  citations: [@tak2011hpa @dasilva2025iacfscrh],
+  mechanism: [Loss of central CRH removes tonic analgesic inhibition (→ raised pain sensitivity, reduced stress-induced analgesia) and impairs acute stress-evoked sympathetic reserve while sparing baseline tone (→ exertional/orthostatic/thermoregulatory failure with normal resting measures).],
+  chapter-ref: [ch09:@spec:crh-loss-downstream-symptoms],
+  prediction: [ME/CFS will show reduced conditioned pain modulation correlating with cortisol output, and blunted sympathetic responses (MSNA/plasma NE) to laboratory stress with preserved resting tone. Falsified if pain modulation and stress-evoked sympathetic responses are normal, or fail to correlate with HPA measures.],
+  treatment: [None. Mechanistic prediction only.],
+  limitation: [Doubly contingent (on the unconfirmed depletion finding and on untested ME/CFS-specific circuit links); indirect.],
+)
+#registry-entry(
+  [Which Experiments Would Confirm or Refute Central CRH-Neuron Loss?],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [The finding's value lies in feasible experiments on existing NBB tissue: multiplexed CRH+microglia+T-cell+IgG staining (driver), blinded three-group stereology (depression contrast @raadsheer1994crh @purba1995crhms), CRH-count vs disease-duration regression (cause vs consequence), and hypothalamic snRNA-seq (beyond-CRH discovery). Origin: brainstorm.],
+  citations: [@raadsheer1994crh @purba1995crhms @sauve2023gnrh @bao2008stress],
+  mechanism: [Each experiment maps to one interpretive fork: colocalisation → driver; head-to-head stereology → real vs artefactual direction reversal; duration regression → progressive vs fixed; snRNA-seq → cell-type breadth + glial signature.],
+  chapter-ref: [ch09:@oq:crh-loss-experiments],
+  prediction: [Multiplexed staining will localise (or fail to localise) immune markers to CRH-depleted zones; blinded stereology will confirm (or not) ME/CFS < controls < depression; duration regression slope sign will discriminate progressive from fixed loss. Any outcome is informative.],
+  treatment: [N/A — research directions only.],
+  limitation: [Some experiments limited by existing cohort size (n=7); snRNA-seq depends on tissue RNA integrity.],
+)
+#registry-entry(
+  [Trigger-Specific and Autoimmune-Mediated CRH Loss],
+  type: "S",
+  certainty: "0.10",
+  evidence: [Two low-certainty extensions retained for future cycles. Trigger-specificity by analogy to selective GnRH-neuron death after SARS-CoV-2 @sauve2023gnrh; two-hit autoimmune targeting via anti-hypothalamus autoantibodies @debellis2021pituitary supplying specificity with complement/microglia as effectors. Origin: brainstorm.],
+  citations: [@sauve2023gnrh @debellis2021pituitary @dasilva2025iacfscrh],
+  mechanism: [(a) Neurotropic-pathogen-specific vulnerability making CRH loss a subtype marker; (b) autoantibody targeting + complement/microglial phagocytosis explaining CRH-vs-AVP/OXT selectivity.],
+  chapter-ref: [ch09:@spec:crh-loss-trigger-autoimmune],
+  prediction: [Trigger-stratified autopsy series will show CRH counts differing by infectious trigger; PVN co-staining will show IgG on CRH but not AVP/OXT neurons with adjacent microglia. Falsified if CRH loss is trigger-independent or shows no IgG colocalisation.],
+  treatment: [None now; if the two-hit model were supported, early immunomodulation could theoretically halt (not reverse) damage — untested.],
+  limitation: [Very low certainty; extensions of an already-preliminary finding; deferred pending replication and pilot colocalisation data.],
+)
+
