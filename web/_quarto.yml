@@ -39,6 +39,8 @@ website:
         href: index.qmd
       - text: "Blog"
         href: blog/index.qmd
+      - text: "FAQ"
+        href: faq/index.qmd
     right:
       - text: "About"
         href: about.qmd
@@ -62,6 +64,8 @@ website:
       - section: "Part V — Modeling"
         contents: part5-modeling/**
       - text: "---"
+      - text: "FAQ"
+        href: faq/index.qmd
       - text: "Patient Resources"
         href: patient-resources/index.qmd
       - text: "---"

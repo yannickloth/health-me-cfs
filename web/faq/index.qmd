@@ -1,0 +1,142 @@
+---
+title: "Frequently Asked Questions"
+toc: true
+toc-depth: 2
+---
+
+Each answer here is deliberately brief. It states the essentials and then links to
+the authoritative chapter or appendix, which remains the single source of truth.
+When the underlying section is updated, the answer here is updated with it.
+
+::: {.callout-note}
+## How this FAQ is organised
+
+Questions are grouped by the part of the document their answer draws from, because
+that source section is what determines when an answer must change. Each question is
+tagged with the audience(s) it is most relevant to — **[Patient]**, **[Carer]**,
+**[Clinician]**, **[Researcher]** — as a navigation aid only.
+:::
+
+## Clinical Presentation
+
+### What is ME/CFS? — [Patient] [Carer] [Clinician]
+
+Myalgic encephalomyelitis / chronic fatigue syndrome is a chronic multisystem
+disease whose hallmark is post-exertional malaise (PEM): a delayed, disproportionate
+worsening of symptoms after minor exertion. It is not the same as ordinary tiredness
+and is not a psychological condition.
+See [Chapter 1 — Introduction](../part1-clinical/ch01-introduction/01-overview-and-terminology.qmd) and
+[Chapter 2 — Core Symptoms](../part1-clinical/ch02-core-symptoms/01-post-exertional-malaise-pem.qmd).
+
+### What is post-exertional malaise (PEM)? — [Patient] [Carer] [Clinician]
+
+PEM is the worsening of symptoms after physical, cognitive, or emotional effort that
+would have been tolerated before illness. It is typically delayed by hours to days
+and can last days to weeks. It is the feature that most distinguishes ME/CFS from
+other fatiguing conditions.
+See [Chapter 2 — Core Symptoms](../part1-clinical/ch02-core-symptoms/01-post-exertional-malaise-pem.qmd).
+
+### How is ME/CFS diagnosed? — [Patient] [Clinician]
+
+There is no single confirmatory test. Diagnosis is clinical, using established
+criteria (which require PEM), together with exclusion of other conditions that can
+mimic ME/CFS.
+See [Chapter 4 — Diagnostic Criteria](../part1-clinical/ch04-diagnostic-criteria/01-overview-of-diagnostic-approaches.qmd).
+
+### What else should be ruled out first? — [Clinician]
+
+Anaemia, thyroid and other endocrine disease, sleep apnoea, malignancy, and
+nutritional deficiencies can all mimic ME/CFS and must be excluded before the
+diagnosis is settled.
+See [Chapter 4 — Differential Diagnosis](../part1-clinical/ch04-diagnostic-criteria/01-overview-of-diagnostic-approaches.qmd).
+
+### Does ME/CFS get better or worse over time? — [Patient] [Carer]
+
+The course varies widely between individuals — some improve, some remain stable,
+some deteriorate. Severity ranges from mild to very severe (housebound or bedbound).
+See [Chapter 5 — Disease Course](../part1-clinical/ch05-disease-course/01-onset-patterns.qmd).
+
+## Pathophysiology
+
+### What actually causes ME/CFS? — [Patient] [Clinician] [Researcher]
+
+No single cause is established. The evidence points to a multisystem disturbance
+spanning energy metabolism, immune dysfunction, neurological and autonomic
+involvement, and endocrine dysregulation, often triggered by infection.
+See [Part II — Pathophysiology](../part2-pathophysiology/ch06-energy-metabolism/01-the-energy-chain-ten-steps-from-substrate-to-atp.qmd).
+
+### Is it an energy-production problem? — [Patient] [Researcher]
+
+Impaired cellular energy metabolism is one of the most consistent findings, though
+whether it is a root cause or a downstream consequence remains open.
+See [Chapter 6 — Energy Metabolism](../part2-pathophysiology/ch06-energy-metabolism/01-the-energy-chain-ten-steps-from-substrate-to-atp.qmd).
+
+### Is ME/CFS an autoimmune disease? — [Clinician] [Researcher]
+
+Autoimmune mechanisms are plausible for a subset of patients, but the evidence
+(including GPCR autoantibody findings) is mixed and not yet confirmatory. The
+largest screens have failed to replicate an ME/CFS-specific autoantibody signal.
+See [Chapter 7 — Immune Dysfunction](../part2-pathophysiology/ch07-immune-dysfunction/01-innate-immunity.qmd).
+
+## Treatment
+
+### Is there a cure? — [Patient] [Carer]
+
+No. No treatment cures ME/CFS. Management aims to reduce symptoms, avoid PEM, and
+preserve function.
+See [Part III — Treatment](../part3-treatment/ch18-mechanism-treatment-map/01-mechanism-overview.qmd).
+
+### What is pacing, and why does it matter? — [Patient] [Carer] [Clinician]
+
+Pacing is staying within your energy limits to avoid triggering PEM. It is the
+foundation of ME/CFS management. Graded exercise therapy, by contrast, can cause
+harm and is not recommended.
+See [Chapter 19 — Managing PEM](../part3-treatment/ch19-symptom-management/02-managing-post-exertional-malaise.qmd).
+
+### How does low-dose aripiprazole work in ME/CFS? — [Patient] [Clinician] [Researcher]
+
+Aripiprazole is a dopamine D2 *partial agonist* at all doses; its net effect depends
+on background dopamine tone rather than switching with dose. In ME/CFS the proposed
+benefit is dopaminergic and microglial (anti-inflammatory) modulation. The evidence
+is a single uncontrolled retrospective study, and the mechanism remains speculative;
+metabolic monitoring and CYP2D6 status matter.
+See [Chapter 24 — Atypical Antipsychotics](../part3-treatment/ch24-medications-systems/13-atypical-antipsychotics-metabolic-considerations-in-me-cfs.qmd)
+and the [Annotated Bibliography — Low-Dose Aripiprazole](../z-appendices/appendix-h-annotated-bibliography/16-orexin-hypocretin-system-in-me-cfs-and-related-conditions.qmd).
+
+### What should be done for a severely affected, bedbound patient? — [Carer] [Clinician]
+
+Severe ME/CFS needs a fundamentally different, low-stimulation approach with careful
+attention to nutrition, hydration, and avoidance of exertion. This is urgent.
+See [Chapter 20 — Urgent Action, Severe](../part3-treatment/ch20-urgent-action-severe/).
+
+## Research
+
+### Are there validated biomarkers? — [Patient] [Clinician] [Researcher]
+
+Not yet. Several candidates are under study, but none is validated for routine
+diagnostic use.
+See [Chapter 29 — Biomarker Research](../part4-research/ch29-biomarker-research/).
+
+### What treatments are in clinical trials? — [Patient] [Researcher]
+
+Several, spanning antivirals, immunomodulators, and dopaminergic agents, but most
+evidence remains early-stage or uncontrolled.
+See [Chapter 30 — Clinical Trials](../part4-research/ch30-clinical-trials/).
+
+## Modeling
+
+### Why does this document include mathematical models? — [Researcher]
+
+Formal models (causal, energetic, immune, neuroendocrine) make hypotheses explicit
+and testable, and force uncertainty to be stated quantitatively rather than in
+hand-wavy prose.
+See [Part V — Modeling](../part5-modeling/ch38-modeling-foundations/).
+
+---
+
+::: {.callout-tip}
+## Looking for practical tools?
+
+See [Patient Resources](../patient-resources/) for actionable aids such as the
+Hidden Disabilities Sunflower and support-organisation directories.
+:::
