@@ -1,8 +1,8 @@
 # Hypothesis Subtree: Cold Face Immersion / Diving Reflex
 
 **Origin:** `/integrate-topic cold face immersion diving reflex vagal ME/CFS`
-**Brainstorm file:** `content-staging/brainstorm-cold-face-immersion-2026-06-07.md`
-**Literature file:** `content-staging/literature-cold-face-immersion-2026-06-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-cold-face-immersion-2026-06-07.md`
+**Literature file:** `ops/research/literature-cold-face-immersion-2026-06-07.md`
 **Plan file:** N/A (inline integration)
 **Date:** 2026-06-07
 **Parent topic:** root (lifestyle interventions — vagal stimulation methods)

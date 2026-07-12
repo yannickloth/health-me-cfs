@@ -61,8 +61,8 @@
 - Cardiac function normal in ME/CFS (null result)
 
 **Files created:**
-- `content-staging/literature-exercise-recovery-pem.md` (16KB)
-- `content-staging/P1-exercise-recovery-pem-completed.md` (13KB)
+- `ops/research/literature-exercise-recovery-pem.md` (16KB)
+- (not retained) (13KB)
 - `Literature/pathophysiology/exercise-recovery-pem/` (19 abstracts)
 - `references.bib` (19 new entries)
 - `appendix-h-annotated-bibliography.typ` (11 annotated entries, 339 lines)
@@ -86,7 +86,7 @@
 
 ## Phase 3 Status: COMPLETE (2026-05-07)
 
-**Brainstorm file:** `content-staging/brainstorm-exercise-recovery-pem-2026-05-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-exercise-recovery-pem-2026-05-07.md`
 **Ideas generated:** 21 total across 9 categories
 - Novel hypotheses: 4 (epigenetic kinetics, EV propagation, recovery debt, orthostatic coupling)
 - Research directions: 5 (7-day CPET, home step test, severity patterns, epigenetic kinetics, EV biomarker)
@@ -214,7 +214,7 @@
 **Outstanding issues:**
 - Pre-existing build error in ch14k-vascular-brainstorm.typ needs resolution
 - Phase 6 review convergence should be completed after build fix
-- Literature folder and content-staging files not committed (reference only)
+- Literature folder and pipeline working files not committed (reference only)
 
 **Links:**
 

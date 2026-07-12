@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Causal Hierarchy Extensions
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-causal-hierarchy-extensions.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-causal-hierarchy-extensions.md`
 **Plan file:** `ops/plans/causal-hierarchy-integration-plan.md` (create if needed)
 **Date:** (no date)
 **Parent topic:** root
@@ -16,7 +16,7 @@
 
 ## LinkedIn Article Ideas
 
-> Migrated from `content-staging/linkedin-causal-hierarchy-articles.md`.
+> Migrated from (not retained).
 > Recovered from session `0653b599`. 11 planned articles.
 
 ### From Ch 16 (Qualitative Hierarchy)

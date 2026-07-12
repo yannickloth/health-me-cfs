@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Corneal Confocal Microscopy Cross-Disease SFN
 
 **Origin:** `/integrate-topic corneal-confocal-cross-disease-sfn` — recursive from postcovid-ocular-syndrome
-**Brainstorm file:** `content-staging/brainstorm-corneal-confocal-cross-disease-sfn-2026-07-09.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-corneal-confocal-cross-disease-sfn-2026-07-09.md`
 **Plan file:** `ops/plans/corneal-confocal-cross-disease-sfn-integration-plan.md`
 **Date:** 2026-07-09
 **Parent topic:** postcovid-ocular-syndrome

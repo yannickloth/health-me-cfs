@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Sleep Synaptic Reset (SV2A PET)
 
 **Origin:** `/integrate-topic sleep deprivation increases synaptic density marker SV2A in human brain`
-**Brainstorm file:** `content-staging/brainstorm-sleep-synaptic-reset-2026-06-24.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-sleep-synaptic-reset-2026-06-24.md`
 **Plan file:** `ops/plans/sleep-synaptic-reset-integration-plan.md` (not created — standalone)
 **Date:** 2026-06-24
 **Parent topic:** root

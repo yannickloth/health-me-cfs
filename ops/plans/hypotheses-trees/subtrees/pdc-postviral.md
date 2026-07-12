@@ -1,7 +1,7 @@
 # Hypothesis Subtree: pDC Dysfunction in Post-Viral Conditions
 
 **Origin:** `/integrate-topic pDC dysfunction (child of nets-dnase-covid19)`
-**Brainstorm file:** `content-staging/brainstorm-pdc-postviral-2026-05-24.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-pdc-postviral-2026-05-24.md`
 **Plan file:** `ops/plans/pdc-postviral-integration-plan.md`
 **Date:** 2026-05-24
 **Parent topic:** nets-dnase-covid19

@@ -55,7 +55,7 @@
 | Papers found | 19 (Sikorav 2026 + 18 supporting) |
 | Added to references.bib | 18 new entries |
 | Added to appendix-h-annotated-bibliography | 10 new entries |
-| Integration guide | content-staging/literature-lithium-low-dose-clinical-2026-06-11.md |
+| Integration guide | ops/research/literature-lithium-low-dose-clinical-2026-06-11.md |
 | Scrape registry updated | No URLs scraped |
 
 ## Phase 2 — Content Integration
@@ -71,7 +71,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Output file | content-staging/brainstorm-lithium-low-dose-clinical-2026-06-11.md |
+| Output file | ops/brainstorms/brainstorm-lithium-low-dose-clinical-2026-06-11.md |
 | Ideas generated | 20 (T1: 7, T2: 7, T3: 10) |
 | Categories | Novel hypotheses, research directions, drug/supplement, combinations, model extensions, cross-disease, diagnostics |
 
@@ -128,7 +128,7 @@
 | Certainty bumps applied | 0 (all new hypotheses <0.30; no incoming evidence ≥0.60) |
 | Certainty reductions | 0 |
 | Tensions flagged | 1 |
-| Audit file | content-staging/compat-audit-lithium-low-dose-clinical-2026-06-11.md |
+| Audit file | (not retained) |
 
 ## Phase 5 — Build Verification
 
@@ -162,7 +162,7 @@
 | Commits | 1 |
 | Hash | b8654ff |
 | Files committed | 8 (ch08, ch14d, refs.bib, annotated bib, changelog, plan, subtree, root index) |
-| Files excluded | content-staging/* staging files (not committed per rules) |
+| Files excluded | (not retained)* staging files (not committed per rules) |
 
 ## Queue (from Gates A/B/C)
 

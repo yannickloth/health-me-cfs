@@ -10,7 +10,7 @@
 
 | Type | File |
 |------|------|
-| Integration guide | content-staging/INTEGRATION_GUIDE_endothelial_senescence_2025.md |
+| Integration guide | ops/integration-guides/INTEGRATION_GUIDE_endothelial_senescence_2025.md |
 
 ## Integration Context
 

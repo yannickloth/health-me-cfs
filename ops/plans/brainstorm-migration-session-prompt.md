@@ -2,7 +2,7 @@
 
 ## Goal
 
-Migrate every remaining `content-staging/brainstorm-*.md` file into its corresponding
+Migrate every remaining `ops/brainstorms/brainstorm-*.md` file into its corresponding
 subtree stub in `ops/plans/hypotheses-trees/subtrees/`. After migration, delete the source
 file. Commit at the end.
 
@@ -23,13 +23,13 @@ For each brainstorm file:
 ```
 ## Brainstorm Content
 
-> Migrated from `content-staging/<filename>` — [date]
+> Migrated from (not retained) — [date]
 
 [full verbatim content of the brainstorm file]
 ```
 
 4. **Do not summarize, condense, or omit anything** — verbatim copy only.
-5. **Delete** the brainstorm source file (`git rm content-staging/<filename>`).
+5. **Delete** the brainstorm source file (`git rm (not retained)`).
 6. Update the stub's `**Brainstorm file:**` header field from the filename pointer to:
    `**Brainstorm file:** (migrated into ## Brainstorm Content below)`
 
@@ -111,7 +111,7 @@ For each stub, spawn a `sonnet-general` agent with this prompt (fill in the blan
 TASK: Migrate brainstorm file content into hypothesis-tree stub.
 
 STUB: ops/plans/hypotheses-trees/subtrees/<STUB_FILE>
-BRAINSTORM: content-staging/<BRAINSTORM_FILE>
+BRAINSTORM: (not retained)
 PROJECT ROOT: /home/nicky/code/health-me-cfs
 
 INSTRUCTIONS:
@@ -121,14 +121,14 @@ INSTRUCTIONS:
 
    ## Brainstorm Content
    
-   > Migrated from `content-staging/<BRAINSTORM_FILE>` — <DATE FROM FILE OR TODAY>
+   > Migrated from (not retained) — <DATE FROM FILE OR TODAY>
    
    [full verbatim content of brainstorm file — do not summarize, condense, or omit]
 
 4. Change the stub's `**Brainstorm file:**` header line to:
    **Brainstorm file:** (migrated into ## Brainstorm Content below)
 
-5. Run: git rm content-staging/<BRAINSTORM_FILE>
+5. Run: git rm (not retained)
    [SKIP step 5 if this brainstorm file is shared and the other stub hasn't been
    processed yet — coordinate deletion with the other stub's agent]
 
@@ -142,9 +142,9 @@ CONSTRAINTS:
 
 ## After All Agents Complete
 
-1. Verify no brainstorm-*.md files remain in content-staging/:
-   `ls content-staging/brainstorm-*.md`
+1. Verify no brainstorm-*.md files remain in (not retained):
+   `ls ops/brainstorms/brainstorm-*.md`
 
 2. Commit:
-   `git add ops/plans/hypotheses-trees/subtrees/ content-staging/`
+   `git add ops/plans/hypotheses-trees/subtrees/ (not retained)`
    `git commit -m "refactor(hypotheses-trees): migrate all brainstorm files into subtree stubs"`

@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Striatal eMSN and ME/CFS
 
 **Origin:** `/integrate-topic` LinkedIn article on eccentric medium spiny neurons (eMSN) and ME/CFS
-**Brainstorm file:** `content-staging/brainstorm-emsn-mecfs-2026-05-27.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-emsn-mecfs-2026-05-27.md`
 **Plan file:** None (standalone `/integrate-topic`)
 **Date:** 2026-05-27
 **Parent topic:** root

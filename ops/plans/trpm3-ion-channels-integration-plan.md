@@ -40,7 +40,7 @@
 | Papers found | 12 (4 primary + 8 additional) |
 | Added to references.bib | 12 entries |
 | Added to appendix-h-annotated-bibliography | 12 annotated sections |
-| Integration guide | content-staging/integration-guide-trpm3-ion-channels-2026-06-08.md |
+| Integration guide | ops/integration-guides/integration-guide-trpm3-ion-channels-2026-06-08.md |
 | Scrape registry updated | Yes |
 
 ---
@@ -49,7 +49,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Brainstorm file | content-staging/brainstorm-trpm3-ion-channels-2026-06-08.md |
+| Brainstorm file | ops/brainstorms/brainstorm-trpm3-ion-channels-2026-06-08.md |
 | Total ideas | 35 |
 | Tier 1 | 11 |
 | Tier 2 | 16 |
@@ -91,7 +91,7 @@
 ## Phase 4c — Cross-Hypothesis Compatibility
 
 ### Step 1: Compatibility Audit
-Source: `content-staging/compat-audit-trpm3-2026-06-08.md`
+Source: (not retained)
 
 Five new hypotheses (N1–N5) evaluated against existing registry entries.
 

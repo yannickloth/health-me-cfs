@@ -37,7 +37,7 @@ Content mapped: 12 findings → 5 target chapters (ch10 primary, ch08, ch07, ch1
 
 ## Phase 3
 
-Brainstorm file: `content-staging/brainstorm-pots-2026-06-07.md` — 45 ideas across 9 categories.
+Brainstorm file: `ops/brainstorms/brainstorm-pots-2026-06-07.md` — 45 ideas across 9 categories.
 
 ## Phase 3a
 
@@ -67,7 +67,7 @@ Retrospective adaptation: 12 matches examined, 0 adapted. All new evidence was a
 
 ## Phase 4c
 
-Cross-hypothesis compatibility audit: 35 pairwise relationships — 10 reinforcement, 18 feed-into, 0 conflict, 7 independent. No certainty adjustments triggered. File: `content-staging/compat-audit-pots-2026-06-07.md`
+Cross-hypothesis compatibility audit: 35 pairwise relationships — 10 reinforcement, 18 feed-into, 0 conflict, 7 independent. No certainty adjustments triggered. File: (not retained)
 
 ## Phase 5
 

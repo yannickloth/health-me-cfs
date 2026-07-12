@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Exercise Modality Expansion
 
 **Origin:** `/integrate-topic` user request: modality-by-modality exercise guidance + constant body position criterion
-**Brainstorm file:** `content-staging/brainstorm-exercise-modality-expansion-20260526.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-exercise-modality-expansion-20260526.md`
 **Plan file:** `ops/plans/exercise-modality-expansion-integration-plan.md`
 **Date:** 2026-05-26
 **Parent topic:** root (user request)

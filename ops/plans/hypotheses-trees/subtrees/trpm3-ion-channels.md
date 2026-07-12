@@ -1,7 +1,7 @@
 # Hypothesis Subtree: MMP-9, IL-11, Mast Cells in ME/CFS
 
 **Origin:** `/integrate-topic trpm3-ion-channels`
-**Brainstorm file:** `content-staging/brainstorm-trpm3-ion-channels-2026-06-08.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-trpm3-ion-channels-2026-06-08.md`
 **Plan file:** `ops/plans/trpm3-ion-channels-integration-plan.md`
 **Date:** 2026-06-08
 **Parent topic:** root

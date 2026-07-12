@@ -2,8 +2,8 @@
 
 **Origin:** `/integrate-topic https://link.springer.com/article/10.1007/s10354-026-01155-6`
 **Brainstorm files:**
-- `content-staging/brainstorm-severe-mecfs-care-guide-2026-06-06.md` (29 ideas, sonnet)
-- `content-staging/brainstorm-severe-mecfs-care-guide-2026-06-07.md` (29 ideas, opus deep synthesis)
+- `ops/brainstorms/brainstorm-severe-mecfs-care-guide-2026-06-06.md` (29 ideas, sonnet)
+- `ops/brainstorms/brainstorm-severe-mecfs-care-guide-2026-06-07.md` (29 ideas, opus deep synthesis)
 **Plan file:** `ops/plans/severe-mecfs-care-guide-integration-plan.md`
 **Date:** 2026-06-06
 **Parent topic:** root

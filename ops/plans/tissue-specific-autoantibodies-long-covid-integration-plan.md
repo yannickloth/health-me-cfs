@@ -65,7 +65,7 @@
 **Phase status:**
 - Phase 1: ✅ 6 papers, 1 bib entry added
 - Phase 2: ✅ Environments in ch14b, ch14d, ch20, hypothesis registry
-- Phase 3: ✅ 36 ideas in content-staging/brainstorm-tissue-specific-autoantibodies-long-covid-2026-05-24.md
+- Phase 3: ✅ 36 ideas in ops/brainstorms/brainstorm-tissue-specific-autoantibodies-long-covid-2026-05-24.md
 - Phase 3a: ⬜ pending
 - Phase 4: ⬜ pending
 - Phase 4b: ⬜ pending

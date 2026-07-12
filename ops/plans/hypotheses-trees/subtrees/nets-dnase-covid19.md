@@ -1,7 +1,7 @@
 # Hypothesis Subtree: NET/DNase Imbalance in Post-Viral Conditions
 
 **Origin:** `/integrate-topic https://pmc.ncbi.nlm.nih.gov/articles/PMC10919029/`
-**Brainstorm file:** `content-staging/brainstorm-nets-dnase-covid19-2026-05-24.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-nets-dnase-covid19-2026-05-24.md`
 **Plan file:** `ops/plans/nets-dnase-covid19-integration-plan.md`
 **Date:** 2026-05-24
 **Parent topic:** root

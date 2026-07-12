@@ -1,7 +1,7 @@
 # Hypothesis Subtree: ADHD as Brain Energy Failure and ME/CFS Predisposition
 
-**Origin:** Literature research / content-staging
-**Brainstorm file:** content-staging/brainstorm-adhd-same-causes-mecfs-2026-06-05.md
+**Origin:** Literature research
+**Brainstorm file:** ops/brainstorms/brainstorm-adhd-same-causes-mecfs-2026-06-05.md
 **Date:** 2026-06-05
 **Parent topic:** root
 **Child subtrees:** (none yet)
@@ -10,9 +10,9 @@
 
 | Type | File |
 |------|------|
-| Literature survey | content-staging/literature-adhd-energy-mecfs-predisposition.md |
-| BibTeX entries | content-staging/bib-entries-adhd-energy.bib |
-| Annotated bibliography | content-staging/annotated-bib-adhd-energy.typ |
+| Literature survey | ops/research/literature-adhd-energy-mecfs-predisposition.md |
+| BibTeX entries | (not retained) |
+| Annotated bibliography | (not retained) |
 
 ## Integration Context
 

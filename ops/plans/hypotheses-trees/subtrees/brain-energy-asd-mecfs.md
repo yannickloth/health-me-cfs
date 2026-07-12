@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Brain Energy Metabolism / ASD → ME/CFS
 
 **Origin:** `/integrate-topic https://www.sciencedirect.com/science/article/pii/S3050623926000301`
-**Brainstorm file:** `content-staging/brainstorm-brain-energy-asd-mecfs-2026-06-19.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-brain-energy-asd-mecfs-2026-06-19.md`
 **Plan file:** `ops/plans/brain-energy-asd-mecfs-integration-plan.md`
 **Date:** 2026-06-19
 **Parent topic:** root

@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Emotional Processing, Interoceptive Processing, and Illness Cognitions
 
 **Origin:** `/integrate-topic emotional processing, interoceptive processing, and illness cognitions in ME/CFS pathophysiology`
-**Brainstorm file:** `content-staging/brainstorm-emotional-interoceptive-processing-2026-06-19.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-emotional-interoceptive-processing-2026-06-19.md`
 **Plan file:** `ops/plans/emotional-interoceptive-processing-integration-plan.md`
 **Date:** 2026-06-19
 **Parent topic:** root

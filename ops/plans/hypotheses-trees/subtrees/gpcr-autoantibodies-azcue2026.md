@@ -1,7 +1,7 @@
 # Hypothesis Subtree: GPCR Autoantibodies — Azcue et al. 2026
 
 **Origin:** `/integrate-topic https://www.nature.com/articles/s41598-026-49131-9`
-**Brainstorm file:** `content-staging/brainstorm-gpcr-autoantibodies-azcue2026-2026-06-01.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-gpcr-autoantibodies-azcue2026-2026-06-01.md`
 **Plan file:** `ops/plans/gpcr-autoantibodies-azcue2026-integration-plan.md`
 **Date:** 2026-06-01
 **Parent topic:** root

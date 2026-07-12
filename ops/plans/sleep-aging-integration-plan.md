@@ -4,7 +4,7 @@
 
 **Source:** https://www.fastcompany.com/91550161/sleep-science-how-much-do-you-need-8-hours-aging-health-study — MULTI Consortium et al., *Nature* (2026), DOI: 10.1038/s41586-026-10524-5
 
-**Brainstorm:** `content-staging/brainstorm-sleep-aging-2026-06-04.md`
+**Brainstorm:** `ops/brainstorms/brainstorm-sleep-aging-2026-06-04.md`
 
 ## Target Chapters
 

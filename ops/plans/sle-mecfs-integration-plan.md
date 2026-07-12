@@ -16,7 +16,7 @@
 | 0 — Plan | ✅ | Plan created, reviewed |
 | 1 — Literature | ✅ | 18 papers, 17 bib entries, 13 annotated bib |
 | 2 — Content | ✅ | ch14d expanded, ch05 subgroups added, 3 registry entries |
-| 3 — Brainstorm | ✅ | 33 ideas in content-staging/brainstorm-sle-mecfs-2026-06-07.md |
+| 3 — Brainstorm | ✅ | 33 ideas in ops/brainstorms/brainstorm-sle-mecfs-2026-06-07.md |
 | 3a — Subtree | ✅ | 33 nodes in subtrees/autoimmune-sle.md, root index updated |
 | 4 — Integrate | 🔵 | 23 auto-escalated, 1 inline (5.1), 9 pending |
 | 4a — Falsifiability | ⬜ | Pending |

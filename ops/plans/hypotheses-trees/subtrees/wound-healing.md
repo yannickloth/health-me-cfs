@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Wound Healing
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-wound-healing-20260412.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-wound-healing-20260412.md`
 **Plan file:** `ops/plans/wound-healing-integration-plan.md` (create if needed)
 **Date:** 2026-04-12
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| integration-guide | content-staging/INTEGRATION_GUIDE_wound_healing_2026.md |
+| integration-guide | ops/integration-guides/INTEGRATION_GUIDE_wound_healing_2026.md |
 
 ## Nodes
 

@@ -1,6 +1,6 @@
 # Hypothesis Subtree: SIBO in ME/CFS
 
-**Origin:** Literature research / content-staging
+**Origin:** Literature research
 **Brainstorm file:** (not yet generated — awaiting Phase 3)
 **Date:** 2026-04-21
 **Parent topic:** root
@@ -10,9 +10,9 @@
 
 | Type | File |
 |------|------|
-| Literature survey | content-staging/literature-sibo-mecfs-2026-04-21.md |
-| BibTeX entries | content-staging/bib-entries-sibo.bib |
-| Annotated bibliography | content-staging/annotated-bib-sibo.typ |
+| Literature survey | ops/research/literature-sibo-mecfs-2026-04-21.md |
+| BibTeX entries | (not retained) |
+| Annotated bibliography | (not retained) |
 
 ## Integration Context
 

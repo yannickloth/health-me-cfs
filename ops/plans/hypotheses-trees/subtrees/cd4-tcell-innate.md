@@ -1,7 +1,7 @@
 # Hypothesis Subtree: CD161+ CD56+ CD4 T Cell Innate-Like Immunity
 
 **Origin:** `/integrate-topic https://www.science.org/doi/full/10.1126/sciadv.aed0028`
-**Brainstorm file:** `content-staging/brainstorm-cd4-tcell-innate-2026-05-18.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-cd4-tcell-innate-2026-05-18.md`
 **Plan file:** `ops/plans/cd4-tcell-innate-integration-plan.md`
 **Date:** 2026-05-18
 **Parent topic:** `root`

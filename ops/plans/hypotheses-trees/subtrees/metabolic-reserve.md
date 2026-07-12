@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Metabolic Reserve
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-metabolic-reserve-2026-04-20.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-metabolic-reserve-2026-04-20.md`
 **Plan file:** `ops/plans/metabolic-reserve-integration-plan.md` (create if needed)
 **Date:** 2026-04-20
 **Parent topic:** root

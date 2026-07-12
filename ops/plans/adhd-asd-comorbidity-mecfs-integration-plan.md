@@ -23,8 +23,8 @@
 | Phase | Status | Details |
 |-------|--------|---------|
 | 0 | ✅ | Plan created — light integration (no brainstorm, enhance existing content) |
-| 1 | ✅ | 15 papers found; search log at `content-staging/search-log-adhd-asd-comorbidity-mecfs-2026-06-19.md` |
-| 2 | ✅ | PROCEED — 15 papers all ≥0.75 certainty. No direct ADHD-ASD→ME/CFS literature. Synthesis at `content-staging/synthesis-adhd-asd-comorbidity-mecfs-2026-06-19.md` |
+| 1 | ✅ | 15 papers found; search log at `ops/research/search-log-adhd-asd-comorbidity-mecfs-2026-06-19.md` |
+| 2 | ✅ | PROCEED — 15 papers all ≥0.75 certainty. No direct ADHD-ASD→ME/CFS literature. Synthesis at (not retained) |
 | 3 | ✅ | 8 enhancements to ch14d (no new environments). 12 bib entries added to `epidemiology.bib`. 12 annotated bib entries added to `appendix-h-annotated-bibliography.typ`. |
 | 8 | ✅ | Build verified — pre-existing label errors only; no new errors from these changes |
 

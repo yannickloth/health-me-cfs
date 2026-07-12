@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Salivary Sleep Metabolomics for ME/CFS
 
 **Origin:** `/integrate-topic https://medicalxpress.com/news/2026-06-deprived.html`
-**Brainstorm file:** `content-staging/brainstorm-sleep-deprivation-saliva-2026-06-04.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-sleep-deprivation-saliva-2026-06-04.md`
 **Plan file:** `ops/plans/sleep-deprivation-saliva-metabolomics-integration-plan.md`
 **Date:** 2026-06-04
 **Parent topic:** root

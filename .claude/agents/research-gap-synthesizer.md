@@ -115,4 +115,4 @@ CROSS-CUTTING THEMES
   [Pattern observed across multiple mechanism chapters]
 ```
 
-Write output to a staging file (e.g., `content-staging/research-agenda-[date].md`) and report the path. Do NOT auto-insert into ch25b without user review.
+Write output to a staging file (e.g., `ops/research/research-agenda-[date].md`) and report the path. Do NOT auto-insert into ch25b without user review.

@@ -1,7 +1,7 @@
 # Hypothesis Subtree: myBoussole.fr Veille Covid Long — Mai 2026 Panorama
 
 **Origin:** `/integrate-topic https://www.myboussole.fr/articles/veille-covid-long-actualites-scientifiques/`
-**Brainstorm file:** `content-staging/brainstorm-myboussole-fr-veille-2026-2026-06-01.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-myboussole-fr-veille-2026-2026-06-01.md`
 **Plan file:** `ops/plans/myboussole-fr-veille-2026-integration-plan.md`
 **Date:** 2026-06-01
 **Parent topic:** root

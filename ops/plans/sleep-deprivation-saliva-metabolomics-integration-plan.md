@@ -2,7 +2,7 @@
 
 **Purpose:** Integrate Scholz et al. (2026) salivary metabolomic fingerprint for sleep deprivation — non-invasive biomarker potential for ME/CFS unrefreshing sleep assessment.
 **Source:** https://medicalxpress.com/news/2026-06-deprived.html — Scholz et al., *J Proteome Res* (2026), DOI: 10.1021/acs.jproteome.5c01064
-**Brainstorm:** `content-staging/brainstorm-sleep-deprivation-saliva-2026-06-04.md`
+**Brainstorm:** `ops/brainstorms/brainstorm-sleep-deprivation-saliva-2026-06-04.md`
 **Subtree:** `ops/plans/hypotheses-trees/subtrees/sleep-deprivation-saliva.md`
 
 ## Target Chapters

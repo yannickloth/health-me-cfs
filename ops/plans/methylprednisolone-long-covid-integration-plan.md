@@ -73,7 +73,7 @@
 - `src/main/typst/mecfs/part4-research/hypothesis-registry.typ` — 1 new section with 1 entry
 - `src/main/typst/mecfs/appendices/appendix-h-annotated-bibliography.typ` — 1 new section with 1 entry
 - `src/main/typst/mecfs/shared/changelog.typ` — 1 new entry at top
-- `content-staging/INTEGRATION_GUIDE_methylprednisolone-long-covid-2026-05-08.md` — integration guide created
+- `ops/integration-guides/INTEGRATION_GUIDE_methylprednisolone-long-covid-2026-05-08.md` — integration guide created
 
 **Queued Topics:**
 - "Corticosteroid mechanisms in post-viral fatigue" — deeper immune/inflammatory dive (per auto-escalation rule)

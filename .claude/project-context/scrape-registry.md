@@ -28,4 +28,4 @@ MUST use whenever scraping websites or accessing URLs for content integration. P
 - `Integrated = —` → pending
 - Re-scrape + source newer than `Scraped` → update `Scraped`, reset `Integrated` to `—`
 
-Per-source catalog files (e.g. `content-staging/mecfsscience-org-catalog.md`) are temporary — delete after all entries transferred to registry.
+Per-source catalog files (e.g. `ops/mecfsscience-org-catalog.md`) are temporary — delete after all entries transferred to registry.

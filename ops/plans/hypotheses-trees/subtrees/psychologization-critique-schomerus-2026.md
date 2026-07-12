@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Psychologization Critique — Schomerus 2026
 
 **Origin:** `/integrate-topic https://www.thieme-connect.com/products/ejournals/pdf/10.1055/a-2866-9127.pdf`
-**Brainstorm file:** `content-staging/brainstorm-psychologization-critique-2026-06-19.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-psychologization-critique-2026-06-19.md`
 **Plan file:** `ops/plans/psychologization-critique-schomerus-2026-integration-plan.md`
 **Date:** 2026-06-19
 **Parent topic:** root

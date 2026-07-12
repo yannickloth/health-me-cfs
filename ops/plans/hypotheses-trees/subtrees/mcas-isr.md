@@ -1,7 +1,7 @@
 # Hypothesis Subtree: MCAS–ISR Bidirectional Crosstalk
 
 **Origin:** `/integrate-topic mcas-isr` (child of ISR H9)
-**Brainstorm file:** `content-staging/brainstorm-isr-mecfs-2026-05-01.md` (H9 section)
+**Brainstorm file:** `ops/brainstorms/brainstorm-isr-mecfs-2026-05-01.md` (H9 section)
 **Plan file:** deleted (complete)
 **Date:** 2026-05-02
 **Parent topic:** isr (H9)
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| integration-guide | content-staging/integration-guide-mcas-isr-2026-05-02.md |
+| integration-guide | ops/integration-guides/integration-guide-mcas-isr-2026-05-02.md |
 
 ## Nodes
 

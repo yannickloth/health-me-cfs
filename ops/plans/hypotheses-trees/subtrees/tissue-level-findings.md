@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Direct Tissue Examination Findings — Into the Tissues We Go
 
 **Origin:** `/integrate-topic Into the Tissues We Go`
-**Brainstorm file:** `content-staging/brainstorm-tissue-level-findings-2026-06-21.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-tissue-level-findings-2026-06-21.md`
 **Plan file:** `ops/plans/tissue-level-findings-integration-plan.md`
 **Date:** 2026-06-21
 **Parent topic:** root

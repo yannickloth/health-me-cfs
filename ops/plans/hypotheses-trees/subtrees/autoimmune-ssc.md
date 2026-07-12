@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Systemic Sclerosis (SSc)
 
 **Origin:** `/integrate-topic` — autoimmune diseases plan, Tier 2 item #25
-**Brainstorm file:** `content-staging/brainstorm-autoimmune-ssc-2026-05-03.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-autoimmune-ssc-2026-05-03.md`
 **Plan file:** `ops/plans/hypotheses-trees/autoimmune-diseases.md` (group root)
 **Date:** 2026-05-03
 **Parent topic:** autoimmune-diseases

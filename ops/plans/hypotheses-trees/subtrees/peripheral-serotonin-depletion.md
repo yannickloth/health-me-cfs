@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Peripheral Serotonin Depletion in ME/CFS
 
 **Origin:** `/integrate-topic peripheral serotonin depletion ME/CFS`
-**Brainstorm file:** `content-staging/brainstorm-peripheral-serotonin-depletion-2026-06-26.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-peripheral-serotonin-depletion-2026-06-26.md`
 **Plan file:** `ops/plans/peripheral-serotonin-depletion-integration-plan.md`
 **Date:** 2026-06-26
 **Parent topic:** root

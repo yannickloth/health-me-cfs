@@ -18,7 +18,7 @@
 2. Controlled passive heat paradox (Soejima 2015 + Hochecker 2025) — certainty 0.50
 3. ME/CFS-heat stroke shared pathway vulnerability (Stanculescu 2021) — certainty 0.55
 
-**Brainstorm file:** `content-staging/brainstorm-heat-cold-thermoregulation-2026-05-31.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-heat-cold-thermoregulation-2026-05-31.md`
 **Idea count:** 90 (10 hypotheses + 10 research directions + 10 drug ideas + 10 supplement ideas + 10 non-pharm interventions + 10 combinations + 10 math models + 10 cross-disease bridges + 10 diagnostic/biomarker ideas)
 
 ## Tracking Table

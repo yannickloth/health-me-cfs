@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Connective Tissue and Extracellular Matrix Dysregulation in ME/CFS
 
 **Origin:** Migration from `plans-new-contents/connective-tissue-ecm.md`
-**Brainstorm file:** `content-staging/brainstorm-connective-tissue-2026-05-13.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-connective-tissue-2026-05-13.md`
 **Plan file:** `ops/plans/connective-tissue-disorders-integration-plan.md`
 **Date:** 2026-05-13
 **Parent topic:** new-contents

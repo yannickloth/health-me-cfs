@@ -65,7 +65,7 @@
 
 ## Immediate Next Action (Completed)
 
-Literature search completed 2026-06-11 — see `content-staging/literature-lithium-spm-2026-06-11.md`. Basselin 2010 is the only direct link (17-HDHA 1.9-fold). 11 papers processed.
+Literature search completed 2026-06-11 — see `ops/research/literature-lithium-spm-2026-06-11.md`. Basselin 2010 is the only direct link (17-HDHA 1.9-fold). 11 papers processed.
 
 ## Phase Tracking
 

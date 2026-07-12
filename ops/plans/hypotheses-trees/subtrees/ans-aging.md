@@ -1,7 +1,7 @@
 # Hypothesis Subtree: ANS Aging
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-ans-aging-2026-04-20.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-ans-aging-2026-04-20.md`
 **Plan file:** `ops/plans/ans-aging-integration-plan.md` (create if needed)
 **Date:** 2026-04-20
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-ans-aging-2026-04-20.md |
+| literature | ops/research/literature-ans-aging-2026-04-20.md |
 
 ## Nodes
 

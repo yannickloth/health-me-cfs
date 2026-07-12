@@ -105,7 +105,6 @@
     "additionalDirectories": [
       "/home/nicky/code/claude-router-system/implementation",
       "/home/nicky/code/health-me-cfs/.claude/plans",
-      "/home/nicky/code/health-me-cfs/.claude/content-staging",
       "/tmp",
       "/home/nicky/code/health-me-cfs/.claude/case-data/medications"
     ]

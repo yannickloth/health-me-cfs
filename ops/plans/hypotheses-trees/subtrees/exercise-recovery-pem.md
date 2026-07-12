@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Exercise Recovery and PEM Duration
 
 **Origin:** `/integrate-topic https://pubmed.ncbi.nlm.nih.gov/36984572/`
-**Brainstorm file:** `content-staging/brainstorm-exercise-recovery-pem-2026-05-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-exercise-recovery-pem-2026-05-07.md`
 **Plan file:** `ops/plans/exercise-recovery-pem-integration-plan.md`
 **Date:** 2026-05-07
 **Parent topic:** root
@@ -11,8 +11,8 @@
 
 | Type | File |
 |------|------|
-| literature | `content-staging/literature-exercise-recovery-pem.md` |
-| brainstorm | `content-staging/brainstorm-exercise-recovery-pem-2026-05-07.md` |
+| literature | `ops/research/literature-exercise-recovery-pem.md` |
+| brainstorm | `ops/brainstorms/brainstorm-exercise-recovery-pem-2026-05-07.md` |
 
 ## Nodes
 

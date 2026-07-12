@@ -32,7 +32,7 @@ Integrate practical weight management strategies for ME/CFS patients — especia
 | 0.3 | Literature search — immobility weight management strategies | — | — | ✅ done | Phase 1: 8 papers |
 | 0.4 | Literature search — null/negative weight intervention results | — | — | ✅ done | Phase 1 |
 
-**Phase 1 results:** 25 papers found across 3 domains (9 ME/CFS-specific, 8 cross-condition, 8 pharmacological). Key gap: zero ME/CFS REE studies. SCI literature provides closest analog. Written to `content-staging/literature-weight-management-mecfs-2026-06-18.md`.
+**Phase 1 results:** 25 papers found across 3 domains (9 ME/CFS-specific, 8 cross-condition, 8 pharmacological). Key gap: zero ME/CFS REE studies. SCI literature provides closest analog. Written to `ops/research/literature-weight-management-mecfs-2026-06-18.md`.
 
 ## Notes
 
@@ -72,4 +72,4 @@ Integrate practical weight management strategies for ME/CFS patients — especia
 1. **Strongest convergence chain:** Fat oxidation failure — 4 independent lines (CPT/ACAD 0.75, GPR81 bistability 0.65, metabolic flexibility Φ 0.70, carnitine dynamics 0.60) all predict MCT bypass as logical therapy. `spec:mct-fat-oxidation-bypass` becomes the most robust new speculation.
 2. **No genuine conflicts:** All 3 apparent conflicts (overfeeding vs. anti-catabolic; GLP-1 microdosing vs. full-dose risk; overfeeding vs. weight maintenance) resolve on dose, macronutrient, or caloric-envelope dimensions.
 3. **No certainty reductions:** No new hypothesis conflicts with a higher-certainty hypothesis at ≥0.20 difference.
-4. **Audit output:** `content-staging/compat-audit-weight-management-mecfs-2026-06-18.md`
+4. **Audit output:** (not retained)

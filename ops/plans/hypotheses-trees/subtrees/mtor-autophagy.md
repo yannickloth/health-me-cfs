@@ -1,7 +1,7 @@
 # Hypothesis Subtree: mTOR/Autophagy
 
 **Origin:** `/integrate-topic https://www.myboussole.fr/articles/mtor-autophagie-maladies-chroniques`
-**Brainstorm file:** `content-staging/brainstorm-mtor-autophagy-2026-06-08.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-mtor-autophagy-2026-06-08.md`
 **Plan file:** `ops/plans/mtor-autophagy-integration-plan.md` (optional — standalone topic)
 **Date:** 2026-06-09
 **Parent topic:** root

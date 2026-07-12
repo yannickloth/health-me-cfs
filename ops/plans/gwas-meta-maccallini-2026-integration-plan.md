@@ -40,12 +40,12 @@ Integrate the largest ME/CFS GWAS/WGS meta-analysis to date (Maccallini 2026, 19
 |-------|--------|---------|
 | 1 | ✅ | 25 papers (15 core + 10 supplementary); 17 bib entries; 16 annotated bib entries |
 | 2 | ✅ | 2 hypotheses + 1 achievement added to ch12 (Maccallini 2026 meta-GWAS section); 3 entries added to hypothesis registry; PRS open-question updated; implications section extended |
-| 3 | ✅ | `content-staging/brainstorm-gwas-meta-maccallini-2026-2026-06-08.md` — 57 ideas across 9 categories |
+| 3 | ✅ | `ops/brainstorms/brainstorm-gwas-meta-maccallini-2026-2026-06-08.md` — 57 ideas across 9 categories |
 | 3a | ✅ | `subtrees/gwas-meta-maccallini-2026.md` — 57 nodes; root index updated |
 | 4 | ✅ | 12+ ideas integrated across ch12 (depression paradox, two-hit, combinatorial, shared heritability, cell-type PRS, KA/QA ratio), ch14d (schizophrenia parallel, shared polygenic, depression circuits), ch14h (cerebellar CCAS), ch16 (Mg L-threonate, NAC), ch18 (memantine) |
 | 4a | ✅ | 15 environments audited: 13 fully falsifiable, 0 weakly, 2 unfalsifiable fixed (depression paradox + brain-first model — both now carry falsifiable predictions) |
 | 4b | ✅ | 9 matches examined, 3 adapted (all reinforcements: ch08 CNS-primary cert bump 0.40→0.45, ch23 genetics characterization updated, ch16 causal-hierarchy cert bump 0.55→0.60), 6 deferred |
-| 4c | ✅ | 10 reinforcement pairs, 5 feed-into pairs, 1 conflict cluster (brain-first vs autoantibody — unresolved tension, not refutation), multiple independent pairs. 2 certainty bumps applied (+0.05 to CCAS and terrain+trigger). Compatibility audit at `content-staging/compat-audit-gwas-meta-maccallini-2026-2026-06-08.md` |
+| 4c | ✅ | 10 reinforcement pairs, 5 feed-into pairs, 1 conflict cluster (brain-first vs autoantibody — unresolved tension, not refutation), multiple independent pairs. 2 certainty bumps applied (+0.05 to CCAS and terrain+trigger). Compatibility audit at (not retained) |
 | 5 | ✅ | Build PASS (pre-existing NF-kappaB bracket errors in ch16 fixed opportunistically; ch12 unbalanced bracket in FPEB citation fixed) |
 | 6a | ✅ | 2 rounds: 12 findings fixed (missing certainty values, broken cross-refs, formatting); build PASS |
 | 6b | ✅ | 6 personas: 51 findings total. Critical fixes applied: certainty 0.80→0.50 + single-anchor warning, MVP sex confound, cell-type→regional, KA/QA citation swap, duplicate depression paradox spec merged |

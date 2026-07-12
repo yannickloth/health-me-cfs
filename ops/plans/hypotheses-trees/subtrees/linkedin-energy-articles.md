@@ -1,7 +1,7 @@
 # Hypothesis Subtree: LinkedIn Energy Failure Article Series
 
-**Origin:** Plan migration from `content-staging/plan-linkedin-energy-failure-articles.md`
-**Brainstorm file:** (content-staging/plan-linkedin-energy-failure-articles.md is itself the plan)
+**Origin:** Plan migration from (not retained)
+**Brainstorm file:** ((not retained) is itself the plan)
 **Date:** 2026-04-20
 **Parent topic:** root
 **Child subtrees:** (none yet)
@@ -37,7 +37,7 @@
 
 ## Execution Detail
 
-> Full plan migrated from `content-staging/plan-linkedin-energy-failure-articles.md`. Status: ⬜ all 34 articles pending.
+> Full plan migrated from (not retained). Status: ⬜ all 34 articles pending.
 
 ### Deliverables Per Article
 

@@ -1,7 +1,7 @@
 # Hypothesis Subtree: G28 Complement ANT
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-G28-20260412.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-G28-20260412.md`
 **Plan file:** `ops/plans/G28-complement-ant-integration-plan.md` (create if needed)
 **Date:** 2026-04-12
 **Parent topic:** root

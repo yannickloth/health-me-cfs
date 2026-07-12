@@ -1,7 +1,7 @@
 # Hypothesis Subtree: G32 Astrocyte Creatine
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-G32-20260412.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-G32-20260412.md`
 **Plan file:** `ops/plans/G32-astrocyte-creatine-integration-plan.md` (create if needed)
 **Date:** 2026-04-12
 **Parent topic:** root

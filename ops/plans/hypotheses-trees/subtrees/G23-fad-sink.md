@@ -1,7 +1,7 @@
 # Hypothesis Subtree: G23 FAD Sink
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-G23-20260412.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-G23-20260412.md`
 **Plan file:** `ops/plans/G23-fad-sink-integration-plan.md` (create if needed)
 **Date:** 2026-04-12
 **Parent topic:** root

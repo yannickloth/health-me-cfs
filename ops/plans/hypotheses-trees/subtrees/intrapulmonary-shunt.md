@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Intrapulmonary Right-Left Shunt
 
 **Origin:** `/integrate-topic intrapulmonary shunt in ME/CFS and Long COVID`
-**Brainstorm file:** `content-staging/brainstorm-intrapulmonary-shunt-2026-06-21.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-intrapulmonary-shunt-2026-06-21.md`
 **Plan file:** `ops/plans/intrapulmonary-shunt-integration-plan.md`
 **Date:** 2026-06-21
 **Parent topic:** root

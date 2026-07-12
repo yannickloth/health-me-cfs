@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Fitness-Maintenance Framework
 
 **Origin:** `/integrate-topic fitness-maintenance-framework`
-**Brainstorm file:** `content-staging/brainstorm-fitness-maintenance-2026-05-26.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-fitness-maintenance-2026-05-26.md`
 **Plan file:** `ops/plans/fitness-maintenance-framework-integration-plan.md`
 **Date:** 2026-05-26
 **Parent topic:** exercise-modality-expansion

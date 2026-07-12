@@ -1,7 +1,7 @@
 # Hypothesis Subtree: ANT Autoantibodies
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-ant-autoantibodies-2026-04-12.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-ant-autoantibodies-2026-04-12.md`
 **Plan file:** `ops/plans/ant-autoantibodies-integration-plan.md` (create if needed)
 **Date:** 2026-04-12
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| integration-guide | content-staging/INTEGRATION_GUIDE_ant_autoantibodies_2025.md |
+| integration-guide | ops/integration-guides/INTEGRATION_GUIDE_ant_autoantibodies_2025.md |
 
 ## Nodes
 

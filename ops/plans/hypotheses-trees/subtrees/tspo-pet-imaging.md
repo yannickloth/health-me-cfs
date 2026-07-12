@@ -1,7 +1,7 @@
 # Hypothesis Subtree: TSPO PET Imaging
 
 **Origin:** `/integrate-topic TSPO PET imaging in ME/CFS`
-**Brainstorm file:** `content-staging/brainstorm-tspo-pet-imaging-2026-05-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-tspo-pet-imaging-2026-05-07.md`
 **Plan file:** `ops/plans/tspo-pet-imaging-integration-plan.md`
 **Date:** 2026-05-07
 **Parent topic:** Immune dysfunction and neuroinflammation

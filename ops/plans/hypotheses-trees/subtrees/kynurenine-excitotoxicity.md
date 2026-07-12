@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Kynurenine-Sleep-Mitochondria-Excitotoxicity Feedback Loop
 
 **Origin:** `/integrate-topic kynurenine-sleep-mitochondria-excitotoxicity`
-**Brainstorm file:** `content-staging/brainstorm-kynurenine-excitotoxicity-2026-05-14.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-kynurenine-excitotoxicity-2026-05-14.md`
 **Plan file:** `ops/plans/kynurenine-sleep-mitochondria-excitotoxicity-integration-plan.md`
 **Date:** 2026-05-14
 **Parent topic:** multi-lock-trap

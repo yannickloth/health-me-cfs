@@ -1,7 +1,7 @@
 # Hypothesis Subtree: CPET Null Replication (Mancini/Natelson 2026)
 
 **Origin:** `/integrate-topic this paper immediately, and update everywhere all that must be updated following this paper's integration`
-**Brainstorm file:** `content-staging/brainstorm-cpet-null-replication-2026-05-26.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-cpet-null-replication-2026-05-26.md`
 **Plan file:** `ops/plans/cpet-null-replication-integration-plan.md`
 **Date:** 2026-05-26
 **Parent topic:** fitness-maintenance

@@ -15,7 +15,7 @@
 - B-cell/erythrocyte-derived EV proteins are downregulated — possible immune/bone marrow involvement
 - None of the 11 differentially abundant proteins survived multiple-comparison correction
 
-**Phase 4:** 17 ideas generated across categories 1 (4), 2 (4), 10 (3), 11 (2), 12 (4). No categories 3-9 per PARTIAL constraints. Brainstorm at `content-staging/brainstorm-extracellular-vesicles-rydland-2026-2026-06-24.md`.
+**Phase 4:** 17 ideas generated across categories 1 (4), 2 (4), 10 (3), 11 (2), 12 (4). No categories 3-9 per PARTIAL constraints. Brainstorm at `ops/brainstorms/brainstorm-extracellular-vesicles-rydland-2026-2026-06-24.md`.
 
 **Phase 4a:** Subtree `subtrees/extracellular-vesicles-rydland-2026.md` written with 17 nodes; root index updated.
 
@@ -45,7 +45,7 @@
 
 **Phase 5a:** 3 integrated environments (2 updated specs + 1 new spec in ch07) audited — all falsifiable. No additional findings.
 
-**Phase 6:** 2 pre-existing matches examined in ch07 EV section; 2 contradictions resolved (EV count vs biogenesis prediction, size variability vs multi-mechanism). 0 certainty bumps. Synonym map at `content-staging/synonym-map-extracellular-vesicles-rydland-2026.md`.
+**Phase 6:** 2 pre-existing matches examined in ch07 EV section; 2 contradictions resolved (EV count vs biogenesis prediction, size variability vs multi-mechanism). 0 certainty bumps. Synonym map at (not retained).
 
 **Phase 7:** 3 pairs audited; 0 reinforcement, 0 feed-into, 1 tension flagged (EV count elevation vs exosome biogenesis impairment), 2 independents. 0 certainty adjustments.
 

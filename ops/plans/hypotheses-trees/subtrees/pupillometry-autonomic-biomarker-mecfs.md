@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Pupillometry as Autonomic Biomarker
 
 **Origin:** `/integrate-topic pupillometry-autonomic-biomarker-mecfs`
-**Brainstorm file:** `content-staging/brainstorm-pupillometry-autonomic-biomarker-mecfs-2026-07-09.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-pupillometry-autonomic-biomarker-mecfs-2026-07-09.md`
 **Plan file:** `ops/plans/pupillometry-autonomic-biomarker-mecfs-integration-plan.md`
 **Date:** 2026-07-09
 **Parent topic:** postcovid-ocular-syndrome

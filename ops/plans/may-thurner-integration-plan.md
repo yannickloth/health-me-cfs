@@ -56,7 +56,7 @@
 
 ## Notes
 
-- Brainstorm: `content-staging/brainstorm-may-thurner-2026-05-27.md`
+- Brainstorm: `ops/brainstorms/brainstorm-may-thurner-2026-05-27.md`
 - Zero direct MTS-ME/CFS evidence; all integration is speculative
 - MTS is vascular/anatomical — no auto-escalation to immune/inflammatory
 - No child subtrees queued

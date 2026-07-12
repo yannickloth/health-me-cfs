@@ -90,7 +90,7 @@ These themes span multiple studies and should inform child cycle integration:
 | 0 | ✅ done | Plan created 2026-06-01 |
 | 1 | ⏭️ deferred | Each child cycle runs its own Phase 1 |
 | 2 | ⏭️ deferred | Each child cycle runs its own Phase 2 |
-| 3 | ✅ done | Brainstorm: `content-staging/brainstorm-myboussole-fr-veille-2026-2026-06-01.md` (18 entries: 17 queued child cycles + 4 cross-cutting signals) |
+| 3 | ✅ done | Brainstorm: `ops/brainstorms/brainstorm-myboussole-fr-veille-2026-2026-06-01.md` (18 entries: 17 queued child cycles + 4 cross-cutting signals) |
 | 3a | ✅ done | Subtree: `ops/plans/hypotheses-trees/subtrees/myboussole-fr-veille-2026.md` (17 nodes); root index updated |
 | 4 | ✅ done | Queue presented (17 child cycles, sequentially per queue discipline). See below. |
 | 4a | n/a | Deferred to child cycles |

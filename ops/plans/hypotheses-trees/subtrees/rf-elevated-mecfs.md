@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Elevated Rheumatoid Factor + ME/CFS
 
 **Origin:** `/integrate-topic facteur rhumatoïde élevé + MECFS`
-**Brainstorm file:** `content-staging/brainstorm-rf-elevated-mecfs-2026-06-19.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-rf-elevated-mecfs-2026-06-19.md`
 **Plan file:** `ops/plans/rf-elevated-mecfs-integration-plan.md`
 **Date:** 2026-06-19
 **Parent topic:** root

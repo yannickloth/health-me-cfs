@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Antigen-Specific IgE Sensitization to Spike/Tick Antigens → Mast-Cell Neuroinflammation
 
 **Origin:** `/integrate-topic` (LinkedIn lay hypothesis: IgE allergy to spike/tick antigens + mast-cell neuroinflammation → AuDHD-like features)
-**Brainstorm file:** `content-staging/brainstorm-ige-sensitization-spike-tick-neuroinflammation-2026-06-24.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-ige-sensitization-spike-tick-neuroinflammation-2026-06-24.md`
 **Plan file:** `ops/plans/ige-sensitization-spike-tick-neuroinflammation-integration-plan.md`
 **Date:** 2026-06-24
 **Parent topic:** root

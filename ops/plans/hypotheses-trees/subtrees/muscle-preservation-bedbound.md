@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Muscle Preservation in Severe/Bedbound ME/CFS
 
 **Origin:** `/integrate-topic ops/plans/muscle-preservation-bedbound-integration-plan.md`
-**Brainstorm file:** `content-staging/brainstorm-muscle-preservation-bedbound-20260526.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-muscle-preservation-bedbound-20260526.md`
 **Plan file:** `ops/plans/muscle-preservation-bedbound-integration-plan.md`
 **Date:** 2026-05-26
 **Parent topic:** exercise-modality-expansion

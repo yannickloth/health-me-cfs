@@ -11,7 +11,7 @@
 **Pre-identified hypotheses**:
 - None — this is an update to existing hypotheses, not new ones
 
-**Brainstorm file**: `content-staging/brainstorm-wirth-scheibenbogen-2026-update-2026-05-15.md`
+**Brainstorm file**: `ops/brainstorms/brainstorm-wirth-scheibenbogen-2026-update-2026-05-15.md`
 
 **Tracking table**:
 

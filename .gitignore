@@ -379,7 +379,7 @@ patients/*/generated/**/*.aux
 patients/*/generated/*.log
 patients/*/generated/**/*.log
 Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher/
-Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher.htmlzcontent-staging/
+Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher.html
 target/**/*.pdf
 src/main/typst/stress-reduction/**/*.pdf
 src/main/typst/correspondence/fourel-hsat2-integration-2026-05-01.pdf

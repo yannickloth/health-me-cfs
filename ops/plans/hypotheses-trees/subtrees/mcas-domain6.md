@@ -1,7 +1,7 @@
 # Hypothesis Subtree: MCAS Domain 6
 
 **Origin:** `/integrate-topic` brainstorm (2026-05-01 session) + Phase 4 completion (2026-05-02 session) + 12-round convergence review-fix (2026-05-02/03)
-**Brainstorm file:** `content-staging/brainstorm-mcas-domain6-2026-05-01.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-mcas-domain6-2026-05-01.md`
 **Plan file:** deleted (complete)
 **Date:** 2026-05-01 — converged 2026-05-03
 **Parent topic:** root
@@ -51,11 +51,11 @@
 
 | Type | File |
 |------|------|
-| linkedin-ideas | content-staging/linkedin-food-mcas-articles.md |
+| linkedin-ideas | (not retained) |
 
 ## LinkedIn Article Ideas
 
-> Migrated from `content-staging/linkedin-food-mcas-articles.md`.
+> Migrated from (not retained).
 
 Source chapters:
 - `contents/part2-pathophysiology/ch14/ch14d-cross-disease.tex` (§14d.5: mechanisms, hypotheses)

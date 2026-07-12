@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Tissue-Specific Autoantibodies in Long COVID
 
 **Origin:** `/integrate-topic https://link.springer.com/article/10.1007/s11357-026-02286-9`
-**Brainstorm file:** `content-staging/brainstorm-tissue-specific-autoantibodies-long-covid-2026-05-24.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-tissue-specific-autoantibodies-long-covid-2026-05-24.md`
 **Plan file:** `ops/plans/tissue-specific-autoantibodies-long-covid-integration-plan.md`
 **Date:** 2026-05-24
 **Parent topic:** `autoimmune-diseases` (group root)

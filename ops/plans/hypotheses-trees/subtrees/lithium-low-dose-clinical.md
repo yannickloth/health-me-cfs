@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Ultra-Low-Dose Lithium Clinical Case
 
 **Origin:** `/integrate-topic lithium low dose` (Sikorav 2026 case report)
-**Brainstorm file:** `content-staging/brainstorm-lithium-low-dose-clinical-2026-06-11.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-lithium-low-dose-clinical-2026-06-11.md`
 **Plan file:** `ops/plans/lithium-low-dose-clinical-integration-plan.md`
 **Date:** 2026-06-11
 **Parent topic:** root (adjacent to `lithium-ip3` stub)

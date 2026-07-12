@@ -22,7 +22,7 @@
 - Existing subtree: `ops/plans/hypotheses-trees/subtrees/adhd-energy-predisposition.md` (stub, 0 nodes)
 - Root subtree index: row `adhd-energy-predisposition` (0 ideas, 0 integrated, ⬜ stub)
 - Existing content treats ADHD as predisposition/risk factor, not same-cause
-- Existing lit survey: `content-staging/literature-adhd-energy-mecfs-predisposition.md`
+- Existing lit survey: `ops/research/literature-adhd-energy-mecfs-predisposition.md`
 - Existing bib entries: ~20+ in references.bib under `research_stream = {adhd-energy-mecfs}`
 - User assertion: "ADHD is caused by the same causes as MECFS" — stronger than existing Architecture C framing
 
@@ -31,7 +31,7 @@
 | — | 0 (Plan) | ✅ | Plan created at `ops/plans/adhd-same-causes-mecfs-integration-plan.md` |
 | — | 1 (Literature) | ✅ | Existing content covers it; no new papers needed beyond existing ~20 bib entries |
 | — | 2 (Content) | ✅ | `spec:adhd-mecfs-same-root` added to ch14d at line 1382; inflammation-as-root-driver framing |
-| — | 3 (Brainstorm) | ✅ | `content-staging/brainstorm-adhd-same-causes-mecfs-2026-06-05.md` — 59 ideas across 9 categories |
+| — | 3 (Brainstorm) | ✅ | `ops/brainstorms/brainstorm-adhd-same-causes-mecfs-2026-06-05.md` — 59 ideas across 9 categories |
 | — | 3a (Subtree) | ✅ | `subtrees/adhd-energy-predisposition.md` updated with 20 nodes; root index updated |
 | — | 4 (Integration) | ✅ | Speculation (cert 0.20) + registry entry written; falsifiable prediction included |
 | — | 4a (Falsifiability) | ✅ | Passes: "Falsified if ADHD-only patients show normal inflammatory markers AND normal mitochondrial function" |

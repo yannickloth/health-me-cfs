@@ -1,8 +1,8 @@
 # Hypothesis Subtree: Ultra-Low Stroke Rate Rowing Biomechanics
 
 **Origin:** `/integrate-topic rowing ultra-low stroke rate biomechanics PEM pacing ME/CFS`
-**Brainstorm file:** `content-staging/brainstorm-rowing-biomechanics-2026-06-07.md`
-**Literature file:** `content-staging/literature-rowing-biomechanics-2026-06-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-rowing-biomechanics-2026-06-07.md`
+**Literature file:** `ops/research/literature-rowing-biomechanics-2026-06-07.md`
 **Plan file:** N/A (inline integration; child of land-rowing)
 **Date:** 2026-06-07
 **Parent topic:** land-rowing

@@ -1,7 +1,7 @@
 # Hypothesis Subtree: G22 NAD Paradox
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-G22-20260412.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-G22-20260412.md`
 **Plan file:** `ops/plans/G22-nad-paradox-integration-plan.md` (create if needed)
 **Date:** 2026-04-12
 **Parent topic:** root

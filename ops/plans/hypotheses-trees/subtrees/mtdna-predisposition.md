@@ -1,7 +1,7 @@
 # Hypothesis Subtree: MtDNA Predisposition and ADHD Shared Substrate
 
 **Origin:** `/integrate-topic mitochondrial predisposition hypothesis — inherited mtDNA variants as a vulnerability threshold for ME/CFS, with ADHD comorbidity as a shared substrate expression`
-**Brainstorm file:** `content-staging/brainstorm-mtdna-predisposition-mecfs-2026-05-02.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-mtdna-predisposition-mecfs-2026-05-02.md`
 **Plan file:** deleted (complete)
 **Date:** 2026-05-02
 **Parent topic:** root
@@ -11,13 +11,13 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-mtdna-predisposition-mecfs-2026-05-02.md |
-| integration-guide | content-staging/INTEGRATION_GUIDE_matits-2026-cfmtdna-longcovid.md |
-| scientific-insights | content-staging/scientific-insights-cfmtdna-2026-03-28.md |
+| literature | ops/research/literature-mtdna-predisposition-mecfs-2026-05-02.md |
+| integration-guide | ops/integration-guides/INTEGRATION_GUIDE_matits-2026-cfmtdna-longcovid.md |
+| scientific-insights | (not retained) |
 
 ## Phase Status
 
-- Phase 1 (literature): ✅ complete — 7 bib entries added; staging file at `content-staging/literature-mtdna-predisposition-mecfs-2026-05-02.md`
+- Phase 1 (literature): ✅ complete — 7 bib entries added; staging file at `ops/research/literature-mtdna-predisposition-mecfs-2026-05-02.md`
 - Phase 2 (content development): ✅ complete — 6 pre-identified environments integrated (S1 ch13, S2/S3/OQ1/OQ3 ch14d, OQ2 ch25b)
 - Phase 3 (brainstorm): ✅ complete — 32 ideas generated in brainstorm file
 - Phase 3a (hypothesis tree): ✅ complete — subtree file updated with 38 nodes

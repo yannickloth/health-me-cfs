@@ -1,6 +1,6 @@
 # Hypothesis Subtree: Hydrogen Sulfide as Gut-Derived Mitochondrial Toxin
 
-**Origin:** Literature research / content-staging
+**Origin:** Literature research
 **Brainstorm file:** (not yet generated — awaiting Phase 3)
 **Date:** 2026-04-21
 **Parent topic:** root
@@ -10,9 +10,9 @@
 
 | Type | File |
 |------|------|
-| Literature survey | content-staging/literature-h2s-mitochondria-2026-04-21.md |
-| BibTeX entries | content-staging/bib-entries-h2s.bib |
-| Annotated bibliography | content-staging/annotated-bib-h2s.typ |
+| Literature survey | ops/research/literature-h2s-mitochondria-2026-04-21.md |
+| BibTeX entries | (not retained) |
+| Annotated bibliography | (not retained) |
 
 ## Integration Context
 

@@ -72,7 +72,7 @@ Insert the following into the plan file (after the tracking table, before the No
 ## Phase 4c — Cross-Hypothesis Compatibility
 
 *Audit date:* <YYYY-MM-DD>
-*Compatibility audit:* `content-staging/compat-audit-<topic-slug>-<date>.md`
+*Compatibility audit:* `tmp/compat-audit-<topic-slug>-<date>.md`
 
 ### Reinforcement Chains
 

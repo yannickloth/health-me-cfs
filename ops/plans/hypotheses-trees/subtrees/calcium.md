@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Calcium Channelopathy
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-calcium-2026-04-18.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-calcium-2026-04-18.md`
 **Plan file:** `ops/plans/calcium-integration-plan.md` (create if needed)
 **Date:** 2026-04-18
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-calcium-2026-04-18.md |
+| literature | ops/research/literature-calcium-2026-04-18.md |
 
 ## Nodes
 

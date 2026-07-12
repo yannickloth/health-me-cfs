@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Li/Mg Analogs
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-li-mg-analogs-2026-04-17.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-li-mg-analogs-2026-04-17.md`
 **Plan file:** `ops/plans/li-mg-analogs-integration-plan.md` (create if needed)
 **Date:** 2026-04-17
 **Parent topic:** root
@@ -42,7 +42,7 @@
 
 ## Execution Detail
 
-> Full task list migrated from `content-staging/integrate-topic-tasklist-li-mg-analogs.md`. All items ⬜ pending.
+> Full task list migrated from (not retained). All items ⬜ pending.
 
 ## BATCH 1 — Li/Mg Direct Relationship (from conversation analysis)
 _These directly address the Li ↔ Mg relationship; highest integration priority_

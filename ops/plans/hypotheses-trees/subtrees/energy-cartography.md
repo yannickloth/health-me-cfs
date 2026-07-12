@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Energy Cartography
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-energy-cartography-2026-04-11.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-energy-cartography-2026-04-11.md`
 **Plan file:** `ops/plans/energy-cartography-integration-plan.md` (create if needed)
 **Date:** 2026-04-11
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| integration-guide | content-staging/INTEGRATION_GUIDE_energy_metabolism_cartography_2026.md |
+| integration-guide | ops/integration-guides/INTEGRATION_GUIDE_energy_metabolism_cartography_2026.md |
 
 ## Nodes
 

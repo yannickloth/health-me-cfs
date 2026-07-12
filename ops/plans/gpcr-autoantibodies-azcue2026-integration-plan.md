@@ -46,7 +46,7 @@
 ## Phase 4c — Cross-Hypothesis Compatibility
 
 *Audit date:* 2026-06-01
-*Compatibility audit:* `content-staging/gpcr-autoantibodies-azcue2026/compat-audit-2026-06-01.md`
+*Compatibility audit:* (not retained)
 
 ### Reinforcement Chains
 

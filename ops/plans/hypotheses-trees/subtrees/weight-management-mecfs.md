@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Weight Management in ME/CFS
 
 **Origin:** `/integrate-topic how to lose weight when having MECFS`
-**Brainstorm file:** `content-staging/brainstorm-weight-management-mecfs-2026-06-18.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-weight-management-mecfs-2026-06-18.md`
 **Plan file:** `ops/plans/weight-management-mecfs-integration-plan.md`
 **Date:** 2026-06-18
 **Parent topic:** root

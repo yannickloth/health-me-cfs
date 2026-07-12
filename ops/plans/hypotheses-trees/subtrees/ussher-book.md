@@ -1,6 +1,6 @@
 # Hypothesis Subtree: Ussher Book Integration
 
-**Origin:** Plan migration from `content-staging/plan-ussher-book-integration.md`
+**Origin:** Plan migration from (not retained)
 **Brainstorm file:** (not yet generated)
 **Date:** (not dated)
 **Parent topic:** root
@@ -10,7 +10,7 @@
 
 | Type | File |
 |------|------|
-| integration-guide | content-staging/INTEGRATION_GUIDE_ussher-understanding-mecfs.md |
+| integration-guide | ops/integration-guides/INTEGRATION_GUIDE_ussher-understanding-mecfs.md |
 
 ## Integration Context
 
@@ -28,7 +28,7 @@
 2. Does adrenal atrophy (chronic low ACTH → reduced trophic stimulus) reverse with sustained PEM avoidance, as Selye's rat data suggest?
 
 **Source:** Patrick Ussher, *Understanding ME/CFS & Strategies for Healing* (2025-02-12). HTML: `Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher/index.html`
-**Integration guide:** `content-staging/INTEGRATION_GUIDE_ussher-understanding-mecfs.md`
+**Integration guide:** `ops/integration-guides/INTEGRATION_GUIDE_ussher-understanding-mecfs.md`
 
 **Execution sessions:**
 - Session A (Part 2 pathophysiology): ch10 bradykinin, ch06 calcium PEM, ch09 adrenal
@@ -37,10 +37,10 @@
 
 ## Execution Detail
 
-> Full plan migrated from `content-staging/plan-ussher-book-integration.md`. Status: ⬜ all tasks pending.
+> Full plan migrated from (not retained). Status: ⬜ all tasks pending.
 
 **Source:** Patrick Ussher, *Understanding ME/CFS & Strategies for Healing* (2025-02-12)  
-**Prerequisite:** `content-staging/INTEGRATION_GUIDE_ussher-understanding-mecfs.md` (triage, all extracted content, full bibliography)  
+**Prerequisite:** `ops/integration-guides/INTEGRATION_GUIDE_ussher-understanding-mecfs.md` (triage, all extracted content, full bibliography)  
 **Source HTML:** `Literature/Understanding ME_CFS & Strategies for Heal - Patrick Ussher/index.html`  
 **Estimated sessions:** 2-3 (one for Part 2 pathophysiology, one for Part 3 treatments, one for bibliography + verification)
 

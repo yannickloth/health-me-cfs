@@ -29,7 +29,7 @@ Integrate Aregawi et al. 2026 (Brain Comms) — first CSF study demonstrating se
 | 7 | SNRIs/NRIs as PEM intervention | 3 | 0.35 | ⬜ pending | Duloxetine/milnacipran/atomoxetine |
 
 ## Notes
-- Compat audit already done (2026-05-28, content-staging/)
+- Compat audit already done (2026-05-28, (not retained))
 - This extends existing catecholamine work in ch08, ch16
 - Links to brain-clearance-architecture (NE-vasomotion-glymphatic chain)
 - Links to GPCR autoantibodies (β-adrenergic receptor autoantibodies)

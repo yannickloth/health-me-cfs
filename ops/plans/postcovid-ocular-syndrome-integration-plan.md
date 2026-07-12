@@ -36,12 +36,12 @@ Evaluate/integrate a peer-reviewed observational study (n=100 post-COVID ocular-
 ## Phase log
 
 - **Phase 0** — plan created, CLEAN mode. ✅
-- **Phase 1** — 7 papers (4 new bib entries in `neurology-comorbidities.bib`, 3 pre-existing reused). Verified keys: `moustardas2026ocular`, `smit2026pupillary`, `johansson2022visual`, `naseri2025dryeye`. Reused: `Cañadas2023CornealConfocal`, `Azcue2025sfn`, `Azcue2023sfn`. Primary paper verified via PMID 42420292. Lit summary + search log in content-staging. ✅
-- **Phase 2** — Decision **PROCEED**. 2 strong, 4 medium, 1 weak, 0 null. Clinical relevance MEDIUM. No contradictions. Synthesis: `content-staging/synthesis-postcovid-ocular-syndrome-2026-07-09.md`. ✅
+- **Phase 1** — 7 papers (4 new bib entries in `neurology-comorbidities.bib`, 3 pre-existing reused). Verified keys: `moustardas2026ocular`, `smit2026pupillary`, `johansson2022visual`, `naseri2025dryeye`. Reused: `Cañadas2023CornealConfocal`, `Azcue2025sfn`, `Azcue2023sfn`. Primary paper verified via PMID 42420292. Lit summary + search log in ops/research. ✅
+- **Phase 2** — Decision **PROCEED**. 2 strong, 4 medium, 1 weak, 0 null. Clinical relevance MEDIUM. No contradictions. Synthesis: (not retained). ✅
 - **Phase 3** — 4 environments added: `#clinical-finding` + `#limitation` (ch08 retinal-corneal window), `#speculation` (ch07 T-cell abnormalities, tear proteomics), clinical-feature updates (ch03 sec-10-ocular vision). 3 registry entries. NOTE: initial edit misdirected to orphan flat `ch07-immune-dysfunction.typ`; corrected to live split file `ch07-immune-dysfunction/sec-02-adaptive-immunity/subsec-02-t-cell-abnormalities/`. ✅
 - **Phase 3a** — build PASS after fixing 5 issues (p<0.001 label traps in registry + appendix-h; stray markdown trailer in appendix-h; orphan-file misdirection). ✅
 - **Phase 3.5** — 3 new environments verified for consequence field; 1 missing (`lim:postcovid-ocular-mecfs-gap`) added. ✅
-- **Phase 4** — 52 brainstorm ideas across all 12 categories. `content-staging/brainstorm-postcovid-ocular-syndrome-2026-07-09.md`. ✅
+- **Phase 4** — 52 brainstorm ideas across all 12 categories. `ops/brainstorms/brainstorm-postcovid-ocular-syndrome-2026-07-09.md`. ✅
 - **Phase 4a** — subtree `subtrees/postcovid-ocular-syndrome.md` (35 constructive nodes); root index row added. ✅
 - **Phase 5** — 2 ideas integrated (ch41 `pred:cnfd-sfn-observable`, ch03 `spec:fl41-photophobia`); 4 covered-by existing; critical categories folded into `lim:postcovid-ocular-mecfs-gap`; 3 scope-escalation topics queued (Sjögren's, pupillometry, corneal-confocal cross-disease). ✅
 - **Phase 5b** — build PASS. ✅

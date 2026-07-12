@@ -1,7 +1,7 @@
 # Hypothesis Subtree: May Thurner Syndrome
 
 **Origin:** `/integrate-topic May Thurner syndrome`
-**Brainstorm file:** `content-staging/brainstorm-may-thurner-2026-05-27.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-may-thurner-2026-05-27.md`
 **Plan file:** `ops/plans/may-thurner-integration-plan.md`
 **Date:** 2026-05-27
 **Parent topic:** root

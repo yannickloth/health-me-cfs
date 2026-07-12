@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Butyrate and Intestinal Permeability
 
 **Origin:** `/integrate-topic butyrate and intestinal permeability`
-**Brainstorm file:** `content-staging/brainstorm-butyrate-intestinal-permeability-2026-05-20.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-butyrate-intestinal-permeability-2026-05-20.md`
 **Plan file:** `ops/plans/butyrate-intestinal-permeability-integration-plan.md`
 **Date:** 2026-05-20
 **Parent topic:** root

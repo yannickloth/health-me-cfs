@@ -34,10 +34,10 @@
 | Phase | Status | Details |
 |-------|--------|---------|
 | 0 | ✅ | Plan created at `ops/plans/brain-energy-asd-mecfs-integration-plan.md` |
-| 1 | ✅ | 13 papers found, 12 new bib entries in `energy-metabolism.bib`, search log at `content-staging/search-log-brain-energy-asd-mecfs-2026-06-19.md` |
+| 1 | ✅ | 13 papers found, 12 new bib entries in `energy-metabolism.bib`, search log at `ops/research/search-log-brain-energy-asd-mecfs-2026-06-19.md` |
 | 2 | ✅ | PROCEED — 4 strong (≥0.60), 6 moderate (0.40–0.59), 3 weak (<0.40). Clinical relevance: LOW. Contradictions: 1 resolved |
 | 3 | ✅ | 3 environments added to ch06 (`spec`, `oq`, `oq`), 1 paragraph to ch08, 1 bullet to ch13, 3 entries to hypothesis registry |
-| 4 | ✅ | 50 ideas generated (brainstorm file at `content-staging/brainstorm-brain-energy-asd-mecfs-2026-06-19.md`) |
+| 4 | ✅ | 50 ideas generated (brainstorm file at `ops/brainstorms/brainstorm-brain-energy-asd-mecfs-2026-06-19.md`) |
 | 4a | ✅ | Subtree `subtrees/brain-energy-asd-mecfs.md` with 50 nodes; root index updated |
 | 5 | ⬜ pending | |
 | 6 | ⬜ pending | |
@@ -59,7 +59,7 @@
 
 ### Papers found: 12 new bib entries + 1 existing updated = 13 total
 ### Included: 13 papers (see references.bib research_stream=brain-energy-asd-mecfs)
-### Search log: content-staging/search-log-brain-energy-asd-mecfs-2026-06-19.md
+### Search log: ops/research/search-log-brain-energy-asd-mecfs-2026-06-19.md
 ### Bib entries added to: src/main/typst/mecfs/bib/energy-metabolism.bib (12 new entries)
 ### Bib entry updated: src/main/typst/mecfs/bib/general.bib (siessmeier2003pet updated with certainty/note)
 ### Annotated bibliography: appendix-h-annotated-bibliography.typ (11 new annotated entries)

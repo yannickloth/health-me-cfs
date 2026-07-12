@@ -69,7 +69,7 @@
 
 ## Phase 1
 
-16 papers found, 16 added to references.bib, 15 annotated in Appendix H. Literature summary: `content-staging/literature-neuroimmune-blitshteyn-2026.md`. Key clusters: GPCR autoantibodies (0.65–0.70 POTS, 0.60–0.70 LC, 0.50–0.60 ME/CFS), brainstem neuroinflammation (0.45–0.60), HLA predisposition (0.65), immunomodulatory treatment overlap. Scrape registry updated.
+16 papers found, 16 added to references.bib, 15 annotated in Appendix H. Literature summary: `ops/research/literature-neuroimmune-blitshteyn-2026.md`. Key clusters: GPCR autoantibodies (0.65–0.70 POTS, 0.60–0.70 LC, 0.50–0.60 ME/CFS), brainstem neuroinflammation (0.45–0.60), HLA predisposition (0.65), immunomodulatory treatment overlap. Scrape registry updated.
 
 ## Phase 2
 
@@ -84,7 +84,7 @@ Integration mapping determined:
 
 ## Phase 3
 
-40 ideas generated across all 9 categories. Brainstorm file: `content-staging/brainstorm-neuroimmune-blitshteyn-2026-2026-06-08.md`. Distribution: 16 Tier 1, 16 Tier 2, 7 Tier 3. Breakdown: 6 hypotheses, 6 research directions, 5 drugs, 4 supplements, 3 non-pharmacological, 3 combinations, 4 math models, 4 cross-disease bridges, 5 diagnostics/biomarkers.
+40 ideas generated across all 9 categories. Brainstorm file: `ops/brainstorms/brainstorm-neuroimmune-blitshteyn-2026-2026-06-08.md`. Distribution: 16 Tier 1, 16 Tier 2, 7 Tier 3. Breakdown: 6 hypotheses, 6 research directions, 5 drugs, 4 supplements, 3 non-pharmacological, 3 combinations, 4 math models, 4 cross-disease bridges, 5 diagnostics/biomarkers.
 
 ## Phase 3a
 

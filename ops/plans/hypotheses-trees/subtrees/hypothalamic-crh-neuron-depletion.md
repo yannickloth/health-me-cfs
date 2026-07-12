@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Hypothalamic CRH-Neuron Depletion
 
 **Origin:** `/integrate-topic ME/CFS brain-autopsy CRH-neuron depletion (Da Silva, IACFS/ME 2025, Netherlands Brain Bank)`
-**Brainstorm file:** `content-staging/brainstorm-hypothalamic-crh-neuron-depletion-2026-07-12.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-hypothalamic-crh-neuron-depletion-2026-07-12.md`
 **Plan file:** `ops/plans/hypothalamic-crh-neuron-depletion-integration-plan.md`
 **Date:** 2026-07-12
 **Parent topic:** root

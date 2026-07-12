@@ -1,6 +1,6 @@
 # Hypothesis Subtree: ME Global Chronicle Integration
 
-**Origin:** Migrated from `content-staging/megc-scrape-plan.md`
+**Origin:** Migrated from (not retained)
 **Date:** (no date)
 **Parent topic:** root
 **Child subtrees:** (none yet)
@@ -9,8 +9,8 @@
 
 | Type | File |
 |------|------|
-| scrape-plan | content-staging/megc-scrape-plan.md |
-| url-queue | content-staging/sites-to-integrate.md |
+| scrape-plan | (not retained) |
+| url-queue | (not retained) |
 
 ## Content
 
@@ -137,7 +137,7 @@ For each batch:
 1. Fetch each MEGC article
 2. Extract: primary paper citation, key findings, quantitative data, relevant quotes
 3. Identify the primary paper DOI/PMID
-4. Write integration guide to `content-staging/INTEGRATION_GUIDE_MEGC_BATCH_X.md`
+4. Write integration guide to `ops/integration-guides/INTEGRATION_GUIDE_MEGC_BATCH_X.md`
 5. Add all URLs to `registry/scrape-registry.md`
 
 #### Step 4 — Integration
@@ -179,7 +179,7 @@ After each batch integration, update `registry/scrape-registry.md`:
 
 ## URL Queue
 
-> Migrated from `content-staging/sites-to-integrate.md`.
+> Migrated from (not retained).
 
 - [ ] https://www.cell.com/cell/abstract/S0092-8674(26)00230-8?fbclid=IwdGRjcAQvLbFleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEevFMiYGTTmoQpUBPIA2FEtgi39LSOsPvJ5IB78j6scjSq9y7C4E9C_Awx8Ko_aem_cIOfV-bZXuRA42rHh_M0dw
 - [ ] https://www.eurekalert.org/news-releases/1119656

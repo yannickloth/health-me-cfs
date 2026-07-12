@@ -42,7 +42,7 @@
 
 | Phase | Status | Detail |
 |-------|--------|--------|
-| 1 | ✅ | 15 papers, 14 bib entries, search log at `content-staging/search-log-tissue-level-findings-2026-06-21.md` |
+| 1 | ✅ | 15 papers, 14 bib entries, search log at `ops/research/search-log-tissue-level-findings-2026-06-21.md` |
 | 2 | ✅ | Decision: PARTIAL. 2 strong, 7 medium, 5 weak papers. Clinical relevance: LOW. |
 | 3 | ✅ | 12 environments (8 speculations, 4 open-questions) across ch08, ch14b, ch14d, hypothesis registry |
 | 3.5 | ✅ | 12 environments verified, all have consequence fields |

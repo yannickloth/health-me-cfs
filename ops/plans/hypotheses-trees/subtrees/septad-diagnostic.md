@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Septad Diagnostic Map
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-septad-diagnostic-map-2026-05-01.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-septad-diagnostic-map-2026-05-01.md`
 **Plan file:** `ops/plans/septad-diagnostic-integration-plan.md` (create if needed)
 **Date:** 2026-05-01
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| integration-guide | content-staging/integration-guide-septad-diagnostic-map-2026-05-01.md |
+| integration-guide | ops/integration-guides/integration-guide-septad-diagnostic-map-2026-05-01.md |
 
 ## Nodes
 

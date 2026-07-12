@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Exosome-Mediated Sleep Deprivation Reversal
 
 **Origin:** `/integrate-topic engineered exosomes HSP70 sleep reversal`
-**Brainstorm file:** `content-staging/brainstorm-exosome-sleep-reversal-2026-05-26.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-exosome-sleep-reversal-2026-05-26.md`
 **Plan file:** `ops/plans/exosome-sleep-reversal-integration-plan.md`
 **Date:** 2026-05-26
 **Parent topic:** root

@@ -1,6 +1,6 @@
 # Hypothesis Subtree: Iron Dysregulation and Long COVID
 
-**Origin:** Plan migration from `content-staging/plan-iron-dysregulation-long-covid.md`
+**Origin:** Plan migration from (not retained)
 **Brainstorm file:** (not yet generated — awaiting Phase 3)
 **Date:** (not dated)
 **Parent topic:** root
@@ -35,7 +35,7 @@
 
 ## Execution Detail
 
-> Full plan migrated from `content-staging/plan-iron-dysregulation-long-covid.md`. Status: ⬜ pending.
+> Full plan migrated from (not retained). Status: ⬜ pending.
 
 ### Source
 

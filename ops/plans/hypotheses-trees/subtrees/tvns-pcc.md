@@ -1,7 +1,7 @@
 # Hypothesis Subtree: tVNS for Post-COVID-19 Condition (PCC)
 
 **Origin:** `/integrate-topic tvns-pcc — Balan et al. 2026 systematic review`
-**Brainstorm file:** `content-staging/brainstorm-tvns-pcc-2026-06-22.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-tvns-pcc-2026-06-22.md`
 **Plan file:** `ops/plans/tvns-pcc-integration-plan.md`
 **Date:** 2026-06-22
 **Parent topic:** root

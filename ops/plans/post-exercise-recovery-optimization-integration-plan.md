@@ -176,5 +176,5 @@ This plan is **distinct from but builds on** several existing plans:
 - 14 papers evaluated, 6 new entries added to references.bib (Jammes2020MembranePotential, Munemoto2017Waon, Li2024MassageMeta, White2023GETanomalies, Vink2025GET, Lien2019LactateAbnormal)
 - 1 already in bib (Godlewska2024creatineMRS)
 - 6 pre-existing entries referenced but not re-added (Soejima2015WaonTherapyCFS, Rohrhofer2025mecfsmast, Wirth2023, Jin2026PEMMechanism, Gattoni2025LongCOVIDCPET, Aregawi2026Noradrenergic)
-- Literature review: `content-staging/literature-review-post-exercise-recovery-optimization.md`
+- Literature review: `ops/research/literature-review-post-exercise-recovery-optimization.md`
 - Key gaps: no ME/CFS studies on active recovery/décrassage, SPMs/resolvins, PEA neuroinflammation, PEM component decomposition, muscle mass as buffer, combined protocols

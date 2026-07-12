@@ -1,6 +1,6 @@
 # Hypothesis Subtree: Pending Hypotheses (Unassigned)
 
-**Origin:** Migrated from `content-staging/hypotheses to integrate.md`
+**Origin:** Migrated from `(not retained) to integrate.md`
 **Date:** (various)
 **Parent topic:** root
 **Child subtrees:** (none yet)
@@ -9,7 +9,7 @@
 
 | Type | File |
 |------|------|
-| task-list | content-staging/hypotheses to integrate.md |
+| task-list | (not retained) to integrate.md |
 
 ## Content
 

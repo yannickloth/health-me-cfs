@@ -1,7 +1,7 @@
 # Hypothesis Subtree: VNS Fibre Selectivity
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-vns-fibre-selectivity-20260410.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-vns-fibre-selectivity-20260410.md`
 **Plan file:** `ops/plans/vns-fibre-integration-plan.md` (create if needed)
 **Date:** 2026-04-10
 **Parent topic:** root

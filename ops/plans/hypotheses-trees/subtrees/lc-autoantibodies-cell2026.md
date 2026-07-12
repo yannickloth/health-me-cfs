@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Long COVID CNS Autoantibodies (Cell 2026)
 
 **Origin:** `/integrate-topic https://www.sciencedirect.com/science/article/abs/pii/S009286742600509X`
-**Brainstorm file:** `content-staging/brainstorm-lc-autoantibodies-cell2026-2026-05-30.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-lc-autoantibodies-cell2026-2026-05-30.md`
 **Plan file:** (standalone — no separate plan file)
 **Date:** 2026-05-30
 **Parent topic:** root

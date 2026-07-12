@@ -1,7 +1,7 @@
 # Hypothesis Subtree: PrecisionLife GLP-1 Genetics
 
 **Origin:** `/integrate-topic` — PrecisionLife combinatorial genetic analysis of ME/CFS + GLP-1 receptor agonist repurposing, presented at BRMEC15 by Dr. Steve Gardner
-**Brainstorm file:** `content-staging/brainstorm-glp1-genetics-2026-06-17.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-glp1-genetics-2026-06-17.md`
 **Plan file:** `ops/plans/precisionlife-glp1-integration-plan.md`
 **Date:** 2026-06-17
 **Parent topic:** root

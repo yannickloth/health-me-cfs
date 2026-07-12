@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Pregnancy Reproductive Health
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-pregnancy-reproductive-health-2026-04-25.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-pregnancy-reproductive-health-2026-04-25.md`
 **Plan file:** `ops/plans/pregnancy-repro-integration-plan.md` (create if needed)
 **Date:** 2026-04-25
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-pregnancy-reproductive-health-2026-04-25.md |
+| literature | ops/research/literature-pregnancy-reproductive-health-2026-04-25.md |
 
 ## Nodes
 

@@ -1,7 +1,7 @@
 # Hypothesis Subtree: IgG DRG
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-igg-drg-mecfs-2026-04-30.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-igg-drg-mecfs-2026-04-30.md`
 **Plan file:** `ops/plans/igg-drg-integration-plan.md` (create if needed)
 **Date:** 2026-04-30
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-autoantibody-mecfs-2026-04-30.md |
+| literature | ops/research/literature-autoantibody-mecfs-2026-04-30.md |
 
 ## Nodes
 

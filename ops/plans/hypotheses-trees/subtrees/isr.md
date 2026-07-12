@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Integrated Stress Response
 
 **Origin:** `/integrate-topic brainstorm-isr-mecfs-2026-05-01.md`
-**Brainstorm file:** `content-staging/brainstorm-isr-mecfs-2026-05-01.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-isr-mecfs-2026-05-01.md`
 **Plan file:** deleted (complete)
 **Date:** 2026-05-01
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-isr-mecfs-2026-05-01.md |
+| literature | ops/research/literature-isr-mecfs-2026-05-01.md |
 
 ## Nodes
 

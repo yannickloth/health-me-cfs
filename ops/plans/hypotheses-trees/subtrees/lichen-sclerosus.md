@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Lichen Sclerosus ME/CFS
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-lichen-sclerosus-mecfs-2026-05-01.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-lichen-sclerosus-mecfs-2026-05-01.md`
 **Plan file:** `ops/plans/lichen-sclerosus-integration-plan.md` (create if needed)
 **Date:** 2026-05-01
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| integration-guide | content-staging/integration-guide-lichen-sclerosus-mecfs-2026-05-01.md |
+| integration-guide | ops/integration-guides/integration-guide-lichen-sclerosus-mecfs-2026-05-01.md |
 
 ## Nodes
 

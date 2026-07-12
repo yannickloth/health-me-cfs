@@ -19,4 +19,4 @@
 
 **Phase 1:** 13 queries, 4 papers found (2 new bib entries: Tiedemann2024, Crider2012, Kok2015, Kimura2012)
 **Phase 2:** 4 cites added to ch33 (irreversibility threshold, B_strength), ch30 (scalar caveats), ch16 (methyl-donor treatment)
-**Literature summary:** `content-staging/literature-methylation-vector-model-2026-05-26.md`
+**Literature summary:** `ops/research/literature-methylation-vector-model-2026-05-26.md`

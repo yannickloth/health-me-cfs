@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Methylation Loss as Consolidation
 
 **Origin:** `/integrate-topic Loss of DNA Methylation as the Consolidation Mechanism`
-**Brainstorm file:** `content-staging/brainstorm-methylation-loss-consolidation-2026-05-24.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-methylation-loss-consolidation-2026-05-24.md`
 **Plan file:** `ops/plans/methylation-loss-consolidation-integration-plan.md`
 **Date:** 2026-05-24
 **Parent topic:** epigenetics

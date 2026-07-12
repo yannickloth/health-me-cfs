@@ -1,6 +1,6 @@
 ---
 name: literature-integrator
-description: Search for, download, organize, and integrate research papers into the ME/CFS documentation. Full pipeline from discovery to bibliography. Does NOT edit main chapter files - creates integration guides in content-staging/ for the main session to act on.
+description: Search for, download, organize, and integrate research papers into the ME/CFS documentation. Full pipeline from discovery to bibliography. Does NOT edit main chapter files - creates integration guides in ops/ for the main session to act on.
 model: sonnet
 tools: Read, Write, Edit, Bash, Glob, Grep, WebSearch, WebFetch
 ---
@@ -26,7 +26,7 @@ grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
 
 Pipeline: Search → Evaluate → Download → Organize → Bibliography → Appendix → Integration guide
 
-**Does NOT edit** `src/main/typst/mecfs/part*/*.typ` — creates integration guides in `content-staging/` for the main session to act on.
+**Does NOT edit** `src/main/typst/mecfs/part*/*.typ` — creates integration guides in `ops/` for the main session to act on.
 
 ## Phase 1: Literature Search
 
@@ -244,7 +244,7 @@ SAVED TO: Literature/[category]/[Author]_[Year]_[ShortTitle]/
 
 BIB: ✓ Added @authorYEARkeyword to bib/<topic>.bib
 APPENDIX: ✓ Updated appendix-h-annotated-bibliography.typ (=== heading)
-INTEGRATION GUIDE: ✓ Created in content-staging/
+INTEGRATION GUIDE: ✓ Created in ops/
    Recommended chapters: [list] | Environment types: [types]
 
 CERTAINTY: [High/Medium/Low]

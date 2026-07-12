@@ -20,7 +20,7 @@
 
 ## Phase 1 — Papers Found
 - 14 papers added to `bib/pupillometry.bib` + 1 reused `smit2026pupillary` = 15 total
-- Search log: `content-staging/search-log-pupillometry-autonomic-biomarker-mecfs-2026-07-09.md`
+- Search log: `ops/research/search-log-pupillometry-autonomic-biomarker-mecfs-2026-07-09.md`
 - Bib keys (VERIFIED from bib): sander2025pupillometry, koay2025multimodal, parmakyener2026pupillography, master2020plr, egg2002pupillary, drummond2022crps, rizzuto2025hippus, lisowski2025pupillary, szklarski2021cd26, oeschregeni2025m3, azcue2026gpcrpupil, li2026pupil, thakar2025pupillometry, derodezbenavent2019autonomic, sendrowski1997sympathetic
 - Key indirect biochemical links: Szklarski 2021 + Azcue 2026 (GPCR autoantibodies against M3 muscarinic and α1-adrenergic receptors — the exact receptors controlling pupil constriction/dilation)
 - Null: Egg 2002 (pupillary unrest NOT associated with MS fatigue)
@@ -29,7 +29,7 @@
 - Decision: **PROCEED** (7 papers cert >= 0.40, >=1 paper cert >= 0.60, 13% weak papers)
 - Clinical relevance: **LOW** (research-only; no validated ME/CFS pupillometry data)
 - Contradictions: 1 (Egg 2002 null on hippus vs fatigue — methodological difference, not fundamental)
-- Synthesis file: `content-staging/synthesis-pupillometry-autonomic-biomarker-mecfs-2026-07-09.md`
+- Synthesis file: (not retained)
 
 ## Active Caps (set by Phase 2 — decision: PROCEED)
 - Environments allowed: all
@@ -56,7 +56,7 @@
 - Phase 3.5: 7 environments verified, 0 missing consequence fields, all present
 
 ## Phase 4 — Brainstorm
-- Brainstorm file: `content-staging/brainstorm-pupillometry-autonomic-biomarker-mecfs-2026-07-09.md`
+- Brainstorm file: `ops/brainstorms/brainstorm-pupillometry-autonomic-biomarker-mecfs-2026-07-09.md`
 - 27 ideas across all 12 categories
 - Plan updated with N rows (populated after triage)
 
@@ -75,7 +75,7 @@
 - No certainty bumps (all adaptations were cross-reference only)
 
 ## Phase 7 — Cross-Hypothesis Compatibility
-- Audit file: `content-staging/compat-audit-pupillometry-autonomic-biomarker-mecfs-2026-07-09.md`
+- Audit file: (not retained)
 - 18 pairs classified from ~60 candidate matches
 - 10 reinforcement pairs, 2 feed-into pairs, 1 conflict pair, 5 independent
 - **Reinforcement clusters:** GPCR Autoantibody Cascade (H1+H3+existing GPCR framework, mean cert 0.58), LC-Noradrenergic Function (H4+existing LC hypotheses, mean 0.40), Autonomic Biomarker Complementarity (H1+H2+existing HRV/CPET-2, mean 0.42)

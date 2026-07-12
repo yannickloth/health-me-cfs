@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Fatigue Without Peripheral Inflammation (Omdal et al. 2026)
 
 **Origin:** `/integrate-topic fatigue-no-inflammation-omdal-2026` (child of myboussole-fr-veille-2026)
-**Brainstorm file:** `content-staging/brainstorm-fatigue-no-inflammation-omdal-2026-2026-06-01.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-fatigue-no-inflammation-omdal-2026-2026-06-01.md`
 **Plan file:** `ops/plans/fatigue-no-inflammation-omdal-2026-integration-plan.md`
 **Date:** 2026-06-01
 **Parent topic:** myboussole-fr-veille-2026

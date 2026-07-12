@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Methylprednisolone Long COVID
 
 **Origin:** `/integrate-topic methylprednisolone Long COVID trial failure`
-**Brainstorm file:** `content-staging/brainstorm-methylprednisolone-long-covid-2026-05-09.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-methylprednisolone-long-covid-2026-05-09.md`
 **Plan file:** `ops/plans/methylprednisolone-long-covid-integration-plan.md`
 **Date:** 2026-05-09
 **Parent topic:** root

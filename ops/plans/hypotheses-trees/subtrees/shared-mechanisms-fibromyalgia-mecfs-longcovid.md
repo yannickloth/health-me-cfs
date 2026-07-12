@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Shared Mechanisms (Fibromyalgia, ME/CFS, Long COVID)
 
-**Origin:** `/integrate-topic content-staging/INTEGRATION_GUIDE_shared-mechanisms-fibromyalgia-mecfs-longcovid-2026-05-12.md`
-**Brainstorm file:** `content-staging/brainstorm-shared-mechanisms-fibromyalgia-mecfs-longcovid-2026-05-12.md`
+**Origin:** `/integrate-topic ops/integration-guides/INTEGRATION_GUIDE_shared-mechanisms-fibromyalgia-mecfs-longcovid-2026-05-12.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-shared-mechanisms-fibromyalgia-mecfs-longcovid-2026-05-12.md`
 **Plan file:** `ops/plans/shared-mechanisms-fibromyalgia-mecfs-longcovid-integration-plan.md`
 **Date:** 2026-05-12
 **Parent topic:** root

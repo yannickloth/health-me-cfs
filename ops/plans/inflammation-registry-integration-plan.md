@@ -288,7 +288,7 @@
 ## Phase 4c — Cross-Hypothesis Compatibility
 
 *Audit date:* 2026-06-06
-*Compatibility audit:* `content-staging/compat-audit-inflammation-registry-2026-06-06.md`
+*Compatibility audit:* (not retained)
 *Pairs classified:* 86 (42 reinforcement, 28 feed-into, 0 conflict, 16 independent)
 
 ### Reinforcement Chains

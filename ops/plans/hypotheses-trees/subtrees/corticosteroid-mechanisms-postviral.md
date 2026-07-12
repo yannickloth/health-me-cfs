@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Corticosteroid Mechanisms in Post-Viral Fatigue
 
 **Origin:** `/integrate-topic` for "Corticosteroid mechanisms in post-viral fatigue"
-**Brainstorm file:** `content-staging/brainstorm-methylprednisolone-long-covid-2026-05-09.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-methylprednisolone-long-covid-2026-05-09.md`
 **Plan file:** `ops/plans/corticosteroid-mechanisms-postviral-integration-plan.md`
 **Date:** 2026-05-14
 **Parent topic:** methylprednisolone-long-covid

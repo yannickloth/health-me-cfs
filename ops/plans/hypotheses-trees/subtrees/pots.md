@@ -1,7 +1,7 @@
 # Hypothesis Subtree: POTS
 
 **Origin:** `/integrate-topic pots`
-**Brainstorm file:** `content-staging/brainstorm-pots-2026-06-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-pots-2026-06-07.md`
 **Plan file:** `ops/plans/pots-mecfs-integration-plan.md`
 **Date:** 2026-06-07
 **Parent topic:** root (also feeds into `beyond-pots-subtypes`)

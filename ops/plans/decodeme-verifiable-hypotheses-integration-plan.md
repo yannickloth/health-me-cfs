@@ -50,5 +50,5 @@
 - Parent topic: DecodeME GWAS (already integrated via gwas-meta-maccallini-2026 plan)
 - Focus: hypotheses where DecodeME data alone (no new recruitment) can provide first test
 - Phase 1 skipped — literature already thoroughly reviewed in prior integrations
-- Brainstorm file: `content-staging/brainstorm-decodeme-computable-hypotheses-2026-06-18.md`
+- Brainstorm file: `ops/brainstorms/brainstorm-decodeme-computable-hypotheses-2026-06-18.md`
 - Phase 3 complete: 25 ideas generated (18 hypotheses, 3 MR analyses, 4 QC/descriptive)

@@ -77,14 +77,14 @@
 
 | Phase | Date | Summary |
 |-------|------|---------|
-| 1 | 2026-06-19 | 14 papers found (6 strong, 5 moderate, 3 weak); added to mast-cell.bib + annotated bib; search log at `content-staging/search-log-mast-cell-ige-connective-tissue-2026-06-19.md` |
-| 2 | 2026-06-19 | Decision: PROCEED. 6 papers ≥0.60, ≤50% <0.40. Clinical relevance: MEDIUM. No fundamental contradictions. Null: HaT does not cause hypermobility; random tryptase not elevated; no hEDS gene. Synthesis at `content-staging/synthesis-mast-cell-ige-connective-tissue-2026-06-19.md` |
-| 4 | 2026-06-19 | 46 ideas generated (9 categories × constructive + 3 critical); file at `content-staging/brainstorm-mast-cell-ige-connective-tissue-2026-06-19.md`; plan table populated with 46 rows |
+| 1 | 2026-06-19 | 14 papers found (6 strong, 5 moderate, 3 weak); added to mast-cell.bib + annotated bib; search log at `ops/research/search-log-mast-cell-ige-connective-tissue-2026-06-19.md` |
+| 2 | 2026-06-19 | Decision: PROCEED. 6 papers ≥0.60, ≤50% <0.40. Clinical relevance: MEDIUM. No fundamental contradictions. Null: HaT does not cause hypermobility; random tryptase not elevated; no hEDS gene. Synthesis at (not retained) |
+| 4 | 2026-06-19 | 46 ideas generated (9 categories × constructive + 3 critical); file at `ops/brainstorms/brainstorm-mast-cell-ige-connective-tissue-2026-06-19.md`; plan table populated with 46 rows |
 
 | 5 | 2026-06-19 | 6 ideas integrated (3 specs + 1 OQ + 3 limitations in ch14d; 3 registry entries); ~40 ideas tree-only (T2/T3) |
 | 5a | 2026-06-19 | 11 environments audited: 5 strongly falsifiable, 1 weak→fixed (periodontitis thresholds), 0 structurally unfalsifiable; inline coverage 100% |
 | 6 | 2026-06-19 | 0 overlapping pre-existing claims — no retroactive adaptation needed |
-| 7 | 2026-06-19 | 8 reinforcement pairs, 3 feed-in, 2 conflict; 0 certainty bumps; compatibility audit at `content-staging/compat-audit-mast-cell-ige-connective-tissue-2026-06-19.md` |
+| 7 | 2026-06-19 | 8 reinforcement pairs, 3 feed-in, 2 conflict; 0 certainty bumps; compatibility audit at (not retained) |
 | 8 | 2026-06-19 | build PASS (test-runner agent) |
 | 9 | 2026-06-19 | no quality flags; ~500 words added; >9 falsifiable predictions; good density |
 | 10 | 2026-06-19 | cross-chapter coherence clean (0 new issues; 34 pre-existing placeholders out of scope) |

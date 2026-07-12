@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Lithium IP3/PIP2
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-lithium-ip3-pip2-2026-04-17.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-lithium-ip3-pip2-2026-04-17.md`
 **Plan file:** `ops/plans/lithium-ip3-integration-plan.md` (create if needed)
 **Date:** 2026-04-17
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-lithium-ip3-calcium-2026-04-17.md |
+| literature | ops/research/literature-lithium-ip3-calcium-2026-04-17.md |
 
 ## Nodes
 

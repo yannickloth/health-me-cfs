@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Taurine
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-taurine-2026-04-16.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-taurine-2026-04-16.md`
 **Plan file:** `ops/plans/taurine-integration-plan.md` (create if needed)
 **Date:** 2026-04-16
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-taurine-2026-04-16.md |
+| literature | ops/research/literature-taurine-2026-04-16.md |
 
 ## Nodes
 

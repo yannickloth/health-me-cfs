@@ -1,6 +1,6 @@
 # Hypothesis Subtree: Parasitic Infections as ME/CFS Triggers
 
-**Origin:** Literature research / content-staging
+**Origin:** Literature research
 **Brainstorm file:** (not yet generated — awaiting Phase 3)
 **Date:** 2026-04-06
 **Parent topic:** root
@@ -10,7 +10,7 @@
 
 | Type | File |
 |------|------|
-| Literature survey | content-staging/parasites-literature-search.md |
+| Literature survey | ops/research/parasites-literature-search.md |
 
 ## Integration Context
 

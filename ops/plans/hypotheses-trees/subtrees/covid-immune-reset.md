@@ -1,6 +1,6 @@
 # Hypothesis Subtree: COVID-19 Immune Reset and ME/CFS Overlap
 
-**Origin:** Literature research / content-staging
+**Origin:** Literature research
 **Brainstorm file:** (not yet generated — awaiting Phase 3)
 **Date:** 2026-03-18
 **Parent topic:** root
@@ -10,7 +10,7 @@
 
 | Type | File |
 |------|------|
-| Research report | content-staging/research-covid-immune-reset-mecfs.md |
+| Research report | ops/research/research-covid-immune-reset-mecfs.md |
 
 ## Integration Context
 

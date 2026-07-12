@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Watton & Prusty (2026) — Unified Mechanistic Model
 
 **Origin:** `/integrate-topic Watton & Prusty 2026 Reframing ME/CFS: Unified Mechanistic Model`
-**Brainstorm file:** `content-staging/brainstorm-watton2026-unified-mechanistic-model-2026-05-23.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-watton2026-unified-mechanistic-model-2026-05-23.md`
 **Plan file:** `ops/plans/watton2026-unified-mechanistic-model-integration-plan.md`
 **Date:** 2026-05-23
 **Parent topic:** root

@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Food Insecurity & Socioeconomic Disease Burden in ME/CFS
 
 **Origin:** `/integrate-topic https://www.tandfonline.com/doi/full/10.1080/21641846.2026.2688051`
-**Brainstorm file:** `content-staging/brainstorm-food-insecurity-2026-06-23.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-food-insecurity-2026-06-23.md`
 **Plan file:** `ops/plans/food-insecurity-disease-burden-integration-plan.md`
 **Date:** 2026-06-23
 **Parent topic:** root

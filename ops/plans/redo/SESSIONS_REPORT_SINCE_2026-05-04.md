@@ -2,7 +2,7 @@
 
 **Report Generated:** 2026-05-08  
 **Period Covered:** 2026-05-04 to 2026-05-08 (4 days)  
-**Total Sessions:** 10+ sessions based on git commits and content-staging files  
+**Total Sessions:** 10+ sessions based on git commits and pipeline working files  
 **Total Commits:** 32 commits
 
 ---
@@ -30,8 +30,8 @@ Additionally, significant build system improvements, CI/CD setup, and multiple l
 #### 1. Literature Research
 **Files Created:**
 - `Literature/biomarkers/Heng_2025_MECFSVascularDysfunction/`
-- `content-staging/BRAINSTORM_hsat2-exosome-insights.md`
-- `content-staging/INTEGRATION_GUIDE_hsat2-exosome.md`
+- `ops/brainstorms/BRAINSTORM_hsat2-exosome-insights.md`
+- `ops/integration-guides/INTEGRATION_GUIDE_hsat2-exosome.md`
 
 **Key Papers Researched:**
 - Evdokimova 2019 (HSAT2 exosomes in ME/CFS)
@@ -51,7 +51,7 @@ Additionally, significant build system improvements, CI/CD setup, and multiple l
 
 #### 3. Cross-Disease Comparison Framework
 **New Content:**
-- `content-staging/INTEGRATION_GUIDE_hsat2-cross-disease.md`
+- `ops/integration-guides/INTEGRATION_GUIDE_hsat2-cross-disease.md`
 - Added cross-disease comparison tables for HSAT2 activity across conditions
 
 #### 4. Phase 6 Review Convergence
@@ -170,7 +170,7 @@ fix(build): add ch03-additional-symptoms subdirectory structure to git
 
 **Files Created:**
 - `Literature/pathophysiology/vascular-inflammation/Nunes_2026_VirusInducedEndothelialSenescence/`
-- `content-staging/INTEGRATION_GUIDE_vascular-inflammation-long-covid.md`
+- `ops/integration-guides/INTEGRATION_GUIDE_vascular-inflammation-long-covid.md`
 
 ### Integration Work
 **Content Integration:** Added vascular inflammation findings to relevant sections  
@@ -193,9 +193,9 @@ Integrate vascular inflammation in neuropsychiatric Long COVID research
 
 #### Files Created
 - `Literature/pathophysiology/exercise-recovery-pem/`
-- `content-staging/literature-exercise-recovery-pem.md`
-- `content-staging/brainstorm-exercise-recovery-pem-2026-05-07.md`
-- `content-staging/P1-exercise-recovery-pem-completed.md`
+- `ops/research/literature-exercise-recovery-pem.md`
+- `ops/brainstorms/brainstorm-exercise-recovery-pem-2026-05-07.md`
+- (not retained)
 
 #### Key Findings
 
@@ -268,8 +268,8 @@ feat(article): add treatment interventions section with adversarial review
 #### Literature Research
 **Files Created:**
 - `Literature/pathophysiology/tspo-pet-imaging/`
-- `content-staging/literature-tspo-pet-imaging.md`
-- `content-staging/brainstorm-tspo-pet-imaging-2026-05-07.md`
+- `ops/research/literature-tspo-pet-imaging.md`
+- `ops/brainstorms/brainstorm-tspo-pet-imaging-2026-05-07.md`
 
 **Key Discovery:** **CRITICAL METHODOLOGICAL GAP IDENTIFIED**
 
@@ -461,24 +461,24 @@ Literature/pathophysiology/vascular-inflammation/Nunes_2026_VirusInducedEndothel
 
 ### Integration Guides to Follow
 ```
-content-staging/INTEGRATION_GUIDE_hsat2-exosome.md
-content-staging/INTEGRATION_GUIDE_hsat2-cross-disease.md
-content-staging/INTEGRATION_GUIDE_vascular-inflammation-long-covid.md
-content-staging/literature-exercise-recovery-pem.md
-content-staging/literature-tspo-pet-imaging.md
+ops/integration-guides/INTEGRATION_GUIDE_hsat2-exosome.md
+ops/integration-guides/INTEGRATION_GUIDE_hsat2-cross-disease.md
+ops/integration-guides/INTEGRATION_GUIDE_vascular-inflammation-long-covid.md
+ops/research/literature-exercise-recovery-pem.md
+ops/research/literature-tspo-pet-imaging.md
 ```
 
 ### Brainstorming Documents to Review
 ```
-content-staging/BRAINSTORM_hsat2-exosome-insights.md
-content-staging/brainstorm-exercise-recovery-pem-2026-05-07.md
-content-staging/brainstorm-tspo-pet-imaging-2026-05-07.md
-content-staging/brainstorm-hsat2-cross-disease-2026-05-05.md
+ops/brainstorms/BRAINSTORM_hsat2-exosome-insights.md
+ops/brainstorms/brainstorm-exercise-recovery-pem-2026-05-07.md
+ops/brainstorms/brainstorm-tspo-pet-imaging-2026-05-07.md
+ops/brainstorms/brainstorm-hsat2-cross-disease-2026-05-05.md
 ```
 
 ### Completed Status Documents
 ```
-content-staging/P1-exercise-recovery-pem-completed.md
+(not retained)
 ```
 
 ### Key Papers to Re-Research
@@ -521,7 +521,7 @@ mkdir -p Literature/pathophysiology/tspo-pet-imaging/
 mkdir -p Literature/pathophysiology/vascular-inflammation/
 
 # Run literature-integrator agent for each topic
-# Use the integration guides in content-staging/
+# Use the integration guides in (not retained)
 ```
 
 ### 2. Integration Phase
@@ -616,7 +616,7 @@ endothelial dysfunction AND ME/CFS
 ## Next Steps for Complete Re-Run
 
 ### Immediate Actions
-1. Review all integration guides in `content-staging/`
+1. Review all integration guides in (not retained)
 2. Re-research key papers using PubMed IDs provided
 3. Verify all literature downloads are complete
 4. Check all bibliography entries are properly formatted

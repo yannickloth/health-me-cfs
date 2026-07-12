@@ -40,7 +40,7 @@ status: 🔵 in progress
 
 - Phase 1: 26 papers found, 20 added to bib, 17 annotated bib entries
 - Phase 2: ch14d section (~144 lines), hypothesis registry (3 original entries)
-- Phase 3: brainstorm at content-staging/brainstorm-schizophrenia-autoantibodies-2026-06-06.md (20 ideas)
+- Phase 3: brainstorm at ops/brainstorms/brainstorm-schizophrenia-autoantibodies-2026-06-06.md (20 ideas)
 - Phase 3a: subtree at hypotheses-trees/subtrees/schizophrenia-autoantibodies.md (20 nodes), root index updated
 - Phase 4: 5 additional speculations/hypotheses integrated into ch14d (IgG subclass profiling, BBB feed-forward, conformational epitope, therapeutic window, diagnostic checklist); 4 additional registry entries (total 7); 2 new bib entries
 - Phase 4a: all environments falsifiable — pass

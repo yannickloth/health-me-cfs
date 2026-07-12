@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Land-Based Rowing (WaterRower)
 
 **Origin:** `/integrate-topic rowing on land with a waterrower`
-**Brainstorm file:** `content-staging/brainstorm-land-rowing-2026-05-26.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-land-rowing-2026-05-26.md`
 **Plan file:** `ops/plans/land-rowing-integration-plan.md`
 **Date:** 2026-05-26
 **Parent topic:** exercise-modality-expansion

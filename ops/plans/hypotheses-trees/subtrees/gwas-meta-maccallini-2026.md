@@ -1,7 +1,7 @@
 # Hypothesis Subtree: GWAS/WGS Meta-Analysis — Maccallini 2026
 
 **Origin:** `/integrate-topic gwas-meta-maccallini-2026`
-**Brainstorm file:** `content-staging/brainstorm-gwas-meta-maccallini-2026-2026-06-08.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-gwas-meta-maccallini-2026-2026-06-08.md`
 **Plan file:** `ops/plans/gwas-meta-maccallini-2026-integration-plan.md`
 **Date:** 2026-06-08
 **Parent topic:** root (2026 lit scan — paper #7)

@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Exercise Blinding
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-exercise-blinding-20260421.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-exercise-blinding-20260421.md`
 **Plan file:** `ops/plans/exercise-blinding-integration-plan.md` (create if needed)
 **Date:** 2026-04-21
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-zhao2026-exercise.md |
+| literature | ops/research/literature-zhao2026-exercise.md |
 
 ## Nodes
 

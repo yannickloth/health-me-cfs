@@ -9,7 +9,7 @@
 - ch31-temporal-evolution.typ (intervention window)
 - ch14-mechanism-treatment-map.typ (treatment strategies)
 
-**Brainstorm file:** `content-staging/brainstorm-methylation-loss-consolidation-2026-05-24.md` — 47 ideas
+**Brainstorm file:** `ops/brainstorms/brainstorm-methylation-loss-consolidation-2026-05-24.md` — 47 ideas
 
 **Tracking table:**
 

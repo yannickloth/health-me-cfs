@@ -1,6 +1,6 @@
 # Hypothesis Subtree: EBV Response Heterogeneity
 
-**Origin:** Plan migration from `content-staging/20260420 plan-ebv-response-heterogeneity-integration.md`
+**Origin:** Plan migration from `(not retained) plan-ebv-response-heterogeneity-integration.md`
 **Brainstorm file:** (not yet generated — awaiting Phase 3)
 **Date:** 2026-04-20
 **Parent topic:** root
@@ -33,7 +33,7 @@
 
 ## Execution Detail
 
-> Full plan migrated from `content-staging/20260420 plan-ebv-response-heterogeneity-integration.md`. Status: ⬜ all 4 topics pending.
+> Full plan migrated from `(not retained) plan-ebv-response-heterogeneity-integration.md`. Status: ⬜ all 4 topics pending.
 
 ### Topic 1: EBV Response Heterogeneity — Host Determinants
 

@@ -33,7 +33,7 @@
 ---
 
 ## Phase 1 Status: ✅ COMPLETE
-**Summary:** 12 papers found, 12 BibTeX entries added to references.bib, 12 annotated bibliography entries added, scrape registry updated, literature summary created at content-staging/Literature/cryotherapy-sleep/literature-summary.md
+**Summary:** 12 papers found, 12 BibTeX entries added to references.bib, 12 annotated bibliography entries added, scrape registry updated, literature summary created at ops/research/Literature/cryotherapy-sleep/literature-summary.md
 
 **Key findings:**
 - WBC improves sleep and autonomic function in healthy populations (Douzi 2018)

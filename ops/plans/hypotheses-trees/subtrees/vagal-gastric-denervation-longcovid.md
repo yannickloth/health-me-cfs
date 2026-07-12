@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Vagal Cholinergic Gastric Denervation in Long COVID
 
 **Origin:** `/integrate-topic vagal cholinergic gastric denervation Long COVID (Acanfora 2026)`
-**Brainstorm file:** `content-staging/brainstorm-vagal-gastric-denervation-longcovid-2026-07-10.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-vagal-gastric-denervation-longcovid-2026-07-10.md`
 **Plan file:** `ops/plans/vagal-gastric-denervation-longcovid-integration-plan.md`
 **Date:** 2026-07-10
 **Parent topic:** root

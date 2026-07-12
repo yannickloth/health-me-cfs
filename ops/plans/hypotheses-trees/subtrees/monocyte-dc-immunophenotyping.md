@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Monocyte/DC Immunophenotyping
 
 **Origin:** `/integrate-topic Petrov2026 monocyte/DC immunophenotyping`
-**Brainstorm file:** `content-staging/brainstorm-monocyte-dc-immunophenotyping-2026-05-20.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-monocyte-dc-immunophenotyping-2026-05-20.md`
 **Plan file:** `ops/plans/monocyte-dc-immunophenotyping-integration-plan.md`
 **Date:** 2026-05-20
 **Parent topic:** root

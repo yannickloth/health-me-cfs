@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Immunoadsorption Trials
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-immunoadsorption-trials-20260420.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-immunoadsorption-trials-20260420.md`
 **Plan file:** `ops/plans/immunoadsorption-integration-plan.md` (create if needed)
 **Date:** 2026-04-20
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-immunoadsorption-trials-2026.md |
+| literature | ops/research/literature-immunoadsorption-trials-2026.md |
 
 ## Nodes
 

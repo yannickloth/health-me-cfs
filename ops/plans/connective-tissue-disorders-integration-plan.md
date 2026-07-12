@@ -1,8 +1,8 @@
 # Integration Plan: Connective Tissue Disorders in ME/CFS
 
 **Purpose:** Full integration of all 64 brainstorm ideas across connective tissue pathophysiology, treatment, biomarkers, and cross-disease bridges. Prior limited pass (2026-05-13) integrated 2 hypotheses + 10 papers; the remaining 62 ideas are unintegrated.
-**Brainstorm file:** `content-staging/brainstorm-connective-tissue-2026-05-13.md`
-**Integration guide:** `content-staging/INTEGRATION_GUIDE_connective-tissue-2026-05-13.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-connective-tissue-2026-05-13.md`
+**Integration guide:** `ops/integration-guides/INTEGRATION_GUIDE_connective-tissue-2026-05-13.md`
 **Subtree:** `ops/plans/hypotheses-trees/subtrees/new-contents-connective-tissue.md` (currently stub)
 
 **Target chapters:**

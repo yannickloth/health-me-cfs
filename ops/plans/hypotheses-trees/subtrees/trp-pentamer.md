@@ -1,7 +1,7 @@
 # Hypothesis Subtree: TRP Pentamer Vascular
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-trp-pentamer-vascular-2026-04-19.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-trp-pentamer-vascular-2026-04-19.md`
 **Plan file:** `ops/plans/trp-pentamer-integration-plan.md` (create if needed)
 **Date:** 2026-04-19
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-trp-pentamer-vascular-2026-04-19.md |
+| literature | ops/research/literature-trp-pentamer-vascular-2026-04-19.md |
 
 ## Nodes
 

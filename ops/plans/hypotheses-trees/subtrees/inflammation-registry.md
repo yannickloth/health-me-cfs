@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Inflammation Sources Registry
 
 **Origin:** `/integrate-topic a registry of all known sources of inflammation in the body`
-**Brainstorm file:** `content-staging/brainstorm-inflammation-registry-2026-06-05.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-inflammation-registry-2026-06-05.md`
 **Plan file:** `ops/plans/inflammation-registry-integration-plan.md`
 **Date:** 2026-06-05
 **Parent topic:** root

@@ -1,7 +1,7 @@
 # Hypothesis Subtree: HIF-2α-Mediated Endothelial Dysfunction as Post-Viral ME/CFS Mechanism
 
 **Origin:** `/integrate-topic HIF-2α-mediated endothelial dysfunction as a post-viral ME/CFS mechanism`
-**Brainstorm file:** `content-staging/brainstorm-hif2a-endothelial-2026-06-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-hif2a-endothelial-2026-06-07.md`
 **Plan file:** `ops/plans/hif2a-endothelial-postviral-integration-plan.md`
 **Date:** 2026-06-07
 **Parent topic:** hypoxia-altitude-hif1a (node H1.2)

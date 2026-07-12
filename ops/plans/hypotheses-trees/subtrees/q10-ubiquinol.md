@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Q10 Ubiquinol
 
 **Origin:** `/integrate-topic Q10 Ubiquinol`
-**Brainstorm file:** `content-staging/brainstorm-q10-ubiquinol-2026-05-17.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-q10-ubiquinol-2026-05-17.md`
 **Plan file:** `ops/plans/q10-ubiquinol-integration-plan.md`
 **Date:** 2026-05-17
 **Parent topic:** mitochondrial-support

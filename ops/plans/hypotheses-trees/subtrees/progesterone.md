@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Progesterone ME/CFS
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-progesterone-mecfs-2026-04-25.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-progesterone-mecfs-2026-04-25.md`
 **Plan file:** `ops/plans/progesterone-integration-plan.md` (create if needed)
 **Date:** 2026-04-25
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-progesterone-mecfs-2026-04-25.md |
+| literature | ops/research/literature-progesterone-mecfs-2026-04-25.md |
 
 ## Nodes
 

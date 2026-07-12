@@ -2,7 +2,7 @@
 
 **Purpose:** Integrate the Balan et al. (2026) systematic review of transcutaneous auricular vagus nerve stimulation (taVNS) for post-COVID-19 condition — 5 studies (n=154), three RCTs, two single-arm. Evidence is mixed: sham-controlled RCTs show null results; HRV modulation is confirmed but clinical efficacy uncertain. GRADE: "very low" for efficacy, "low" for safety.
 
-**Phase 1:** 13 papers found, 9 added to bib, 9 annotated bib entries. Search log: `content-staging/search-log-tvns-pcc-2026-06-22.md`
+**Phase 1:** 13 papers found, 9 added to bib, 9 annotated bib entries. Search log: `ops/research/search-log-tvns-pcc-2026-06-22.md`
 **Phase 2:** Decision: PARTIAL (7/13 papers weak, all controlled trials null/sham-superior). WEAK-EVIDENCE flag. Clinical relevance: LOW. Contradictions: none (methodological, not fundamental).
 **Phase 3:** 4 environments added across 3 chapters: ch27 (spec: tvns-pcc systematic review), ch26 (lim: tvns-pcc null evidence), ch18 (research direction update), ch14d (oq: sham-superior paradox). Hypothesis registry: 2 new entries added.
 **Phase 3.5:** 4 environments verified — all have consequence fields (0 missing).

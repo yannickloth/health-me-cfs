@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Epigenetics
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-epigenetics-2026-04-26.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-epigenetics-2026-04-26.md`
 **Plan file:** `ops/plans/epigenetics-integration-plan.md` (create if needed)
 **Date:** 2026-04-26
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-epigenetics-2026-04-26.md |
+| literature | ops/research/literature-epigenetics-2026-04-26.md |
 
 ## Nodes
 

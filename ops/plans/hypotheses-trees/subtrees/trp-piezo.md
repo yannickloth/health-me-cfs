@@ -1,7 +1,7 @@
 # Hypothesis Subtree: TRP Piezo ME/CFS
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-trp-piezo-mecfs-2026-04-13.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-trp-piezo-mecfs-2026-04-13.md`
 **Plan file:** `ops/plans/trp-piezo-integration-plan.md` (create if needed)
 **Date:** 2026-04-13
 **Parent topic:** root
@@ -11,9 +11,9 @@
 
 | Type | File |
 |------|------|
-| integration-guide | content-staging/integration-guide-trp-piezo-ch08.md |
-| integration-guide | content-staging/integration-guide-trp-piezo-ch14h.md |
-| integration-guide | content-staging/integration-guide-trp-piezo-ch15.md |
+| integration-guide | ops/integration-guides/integration-guide-trp-piezo-ch08.md |
+| integration-guide | ops/integration-guides/integration-guide-trp-piezo-ch14h.md |
+| integration-guide | ops/integration-guides/integration-guide-trp-piezo-ch15.md |
 
 ## Nodes
 

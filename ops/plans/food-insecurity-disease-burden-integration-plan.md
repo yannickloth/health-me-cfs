@@ -36,9 +36,9 @@
 - Published 2026-06-15, CC-BY license, funded by ANZMES
 - New Zealand-specific survey study — food insecurity as disease burden dimension
 
-**Phase 1:** 11 papers found, 11 added to bib (epidemiology.bib), 11 annotated bib entries, search log at `content-staging/search-log-food-insecurity-2026-06-23.md`
-**Phase 2:** Synthesis verdict — PROCEED. 8 papers ≥0.40, 6 papers ≥0.70. Clinical relevance: MEDIUM. No contradictions. Evidence quality summary at `content-staging/synthesis-food-insecurity-2026-06-23.md`.
+**Phase 1:** 11 papers found, 11 added to bib (epidemiology.bib), 11 annotated bib entries, search log at `ops/research/search-log-food-insecurity-2026-06-23.md`
+**Phase 2:** Synthesis verdict — PROCEED. 8 papers ≥0.40, 6 papers ≥0.70. Clinical relevance: MEDIUM. No contradictions. Evidence quality summary at (not retained).
 **Phase 3:** 1 achievement environment added to ch32 (QoL→socioeconomic-determinants); ch01 demographics updated; ch32 demographic risk factors updated; 2 hypothesis registry entries added.
 **Phase 3.5:** 1 environment verified, 0 missing consequence fields.
-**Phase 4:** Brainstorm file: `content-staging/brainstorm-food-insecurity-2026-06-23.md` — 16 ideas (5 hypotheses, 8 constructive, 3 critical). Cat 3 skipped (socioeconomic, not pharmacological).
+**Phase 4:** Brainstorm file: `ops/brainstorms/brainstorm-food-insecurity-2026-06-23.md` — 16 ideas (5 hypotheses, 8 constructive, 3 critical). Cat 3 skipped (socioeconomic, not pharmacological).
 **Phase 4a:** Subtree: `ops/plans/hypotheses-trees/subtrees/food-insecurity-disease-burden.md` — 16 nodes. Root index updated.

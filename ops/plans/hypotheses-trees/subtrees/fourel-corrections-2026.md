@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Fourel Corrections & New Knowledge — May 2026
 
 **Origin:** `/integrate-topic` Geneviève Fourel email corrections and new knowledge (May 2026)
-**Brainstorm file:** `content-staging/brainstorm-fourel-corrections-2026-05-27.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-fourel-corrections-2026-05-27.md`
 **Plan file:** `ops/plans/fourel-corrections-integration-plan.md`
 **Date:** 2026-05-27
 **Parent topic:** hsat2-hypotheses (extends prior Fourel-related subtrees)

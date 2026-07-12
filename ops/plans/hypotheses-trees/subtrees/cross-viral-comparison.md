@@ -1,6 +1,6 @@
 # Hypothesis Subtree: Cross-Viral Family Comparison
 
-**Origin:** Plan migration from `content-staging/plan-cross-viral-family-comparison.md`
+**Origin:** Plan migration from (not retained)
 **Brainstorm file:** (not yet generated — awaiting Phase 3)
 **Date:** (not dated)
 **Parent topic:** root
@@ -27,7 +27,7 @@
 
 ## Execution Detail
 
-> Full plan migrated from `content-staging/plan-cross-viral-family-comparison.md`. Status: ⬜ pending.
+> Full plan migrated from (not retained). Status: ⬜ pending.
 
 ### Motivation
 

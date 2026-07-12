@@ -1,7 +1,7 @@
 ## Phase 4c — Cross-Hypothesis Compatibility (lc-autoantibodies-cell2026)
 
 *Audit date:* 2026-05-30
-*Compatibility audit:* `content-staging/compat-audit-lc-autoantibodies-cell2026-2026-05-30.md`
+*Compatibility audit:* (not retained)
 
 ### Reinforcement Chains
 

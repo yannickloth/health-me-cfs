@@ -45,7 +45,7 @@
 | 0 | ✅ done | Plan created 2026-06-01 |
 | 1 | ✅ done | Omdal 2026 + related: paper already in bib + annotated bib |
 | 2 | ✅ done | ch06 (selective energy hypothesis expanded), ch15 (cytokine-fatigue section) |
-| 3 | ✅ done | Brainstorm: `content-staging/brainstorm-fatigue-no-inflammation-omdal-2026-2026-06-01.md` (8 ideas) |
+| 3 | ✅ done | Brainstorm: `ops/brainstorms/brainstorm-fatigue-no-inflammation-omdal-2026-2026-06-01.md` (8 ideas) |
 | 3a | ✅ done | Subtree: `subtrees/fatigue-no-inflammation-omdal-2026.md` (5 nodes); root index updated |
 | 4 | ✅ done | 4 ideas integrated: #1 CNS-confined → ch06 + registry; #4 CRP trap → ch06; #7 sickness behavior → ch15 |
 | 4a | ✅ done | Falsifiability audit: 1 hypothesis integrated → fully falsifiable (CSF biomarker pair test) |

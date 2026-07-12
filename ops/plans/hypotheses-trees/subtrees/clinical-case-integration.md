@@ -1,6 +1,6 @@
 # Hypothesis Subtree: Clinical Case Integration Tasks
 
-**Origin:** Migrated from `content-staging/TO INTEGRATE.md`
+**Origin:** Migrated from `(not retained) INTEGRATE.md`
 **Date:** 2026-04 (approximately)
 **Parent topic:** root
 **Child subtrees:** (none yet)
@@ -9,7 +9,7 @@
 
 | Type | File |
 |------|------|
-| task-list | content-staging/TO INTEGRATE.md |
+| task-list | (not retained) INTEGRATE.md |
 
 ## Content
 

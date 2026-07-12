@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Prodromal Signs
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-prodromal-signs-2026-04-20.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-prodromal-signs-2026-04-20.md`
 **Plan file:** `ops/plans/prodromal-signs-integration-plan.md` (create if needed)
 **Date:** 2026-04-20
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-prodromal-signs-children-2026-04-20.md |
+| literature | ops/research/literature-prodromal-signs-children-2026-04-20.md |
 
 ## Integration Context
 
@@ -29,14 +29,14 @@
 2. Which prospective biomarkers (pre-illness CPET, RBC metabolomics, cytokines in at-risk youth) could validate the prodromal model?
 
 **Literature base (Phase 1 complete):**
-- 8 papers in references.bib; summary: `content-staging/literature-prodromal-signs-children-2026-04-20.md`
+- 8 papers in references.bib; summary: `ops/research/literature-prodromal-signs-children-2026-04-20.md`
 - Key papers: Wirth 2026 (n=36,332), Collin 2018 (n=13,978), Kato 2006 (n=19,192 twins), Moak 2024 (SFN in 53% pediatric POTS), Jason 2015 (NULL: ~50% sudden onset → prodromal model applies to gradual-onset only)
 
 **Integration status:** Phase 1 complete. Resume from Phase 2 of `/integrate-topic`. Clinical vignettes fully specified in source plan.
 
 ## Execution Detail
 
-> Full plan migrated from `content-staging/plan-prodromal-signs-integration.md`. Status: Phase 1 complete, resume from Phase 2.
+> Full plan migrated from (not retained). Status: Phase 1 complete, resume from Phase 2.
 
 ### Clinical Vignettes to Integrate (ALL MUST appear in the final content)
 
@@ -83,7 +83,7 @@
 
 ### Literature Base (Phase 1 — COMPLETE)
 
-Location: `content-staging/literature-prodromal-signs-children-2026-04-20.md`
+Location: `ops/research/literature-prodromal-signs-children-2026-04-20.md`
 
 8 papers integrated into `references.bib` + `appendix-h-annotated-bibliography.typ`:
 
@@ -146,7 +146,7 @@ recognizable only in retrospect. Applies to gradual-onset subtype (not sudden-on
 Adults AND children. Integrate into ch05 (onset patterns) as new section "Retrospective 
 Prodromal Recognition." Cross-reference Architecture C in ch14d-cross-disease.typ. 
 Literature Phase 1 already complete — 8 papers in references.bib, summary in 
-content-staging/literature-prodromal-signs-children-2026-04-20.md. SKIP Phase 1, 
+ops/research/literature-prodromal-signs-children-2026-04-20.md. SKIP Phase 1, 
 resume from Phase 2.
 ```
 

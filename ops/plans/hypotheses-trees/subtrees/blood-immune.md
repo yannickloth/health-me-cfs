@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Blood Immune
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-blood-immune-2026-04-16.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-blood-immune-2026-04-16.md`
 **Plan file:** `ops/plans/blood-immune-integration-plan.md` (create if needed)
 **Date:** 2026-04-16
 **Parent topic:** root
@@ -11,10 +11,10 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-blood-immune-2026-04-16.md |
-| integration-guide | content-staging/integration-guide-blood-immune.md |
-| bib | content-staging/bibtex-blood-immune.bib |
-| annotated-bib | content-staging/annotated-bib-blood-immune.typ |
+| literature | ops/research/literature-blood-immune-2026-04-16.md |
+| integration-guide | ops/integration-guides/integration-guide-blood-immune.md |
+| bib | (not retained) |
+| annotated-bib | (not retained) |
 
 ## Nodes
 

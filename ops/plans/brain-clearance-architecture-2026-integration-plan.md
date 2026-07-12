@@ -22,11 +22,11 @@
 
 **Phase 1:** 8 papers, 9 bib, annotated bib updated.
 **Phase 2:** ch15: 1 achievement, 2 speculations, 1 limitation, neurodegeneration cert 0.30→0.35. Registry: 10 entries.
-**Phase 3:** Brainstorm `content-staging/brainstorm-brain-clearance-architecture-2026-05-30.md`, 63 ideas.
+**Phase 3:** Brainstorm `ops/brainstorms/brainstorm-brain-clearance-architecture-2026-05-30.md`, 63 ideas.
 **Phase 4:** 63 ideas → 4 more specs, 1 open-question, 1 cross-disease bridge. All falsifiable.
 **Phase 4a:** 5 environments, all falsifiable with null-result clauses.
 **Phase 4b:** 1 match (ch08 glymphatic-meningitis), 1 adapted. No certainty changes (<0.60 floor).
-**Phase 4c:** 73 pairs: 24 reinforcement, 28 feed-into, 2 conflict, 19 independent. Audit: `content-staging/compat-audit-brain-clearance-2026-05-30-v2.md`.
+**Phase 4c:** 73 pairs: 24 reinforcement, 28 feed-into, 2 conflict, 19 independent. Audit: (not retained).
 **Certainty adjustments:** 0 bumps, 0 reductions.
 **Phase 5:** Build PASS (3 fix cycles).
 **Phase 6a:** Review convergence: 2 rounds, CONVERGED (1 finding).

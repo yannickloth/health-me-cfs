@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Noradrenergic Deficiency in ME/CFS
 
 **Origin:** `/integrate-topic 1 Noradrenergic deficiency Goldstein DS Brain Comms 0.80 mech:5 tx:4 expl:5`
-**Brainstorm file:** `content-staging/brainstorm-noradrenergic-deficiency-2026-06-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-noradrenergic-deficiency-2026-06-07.md`
 **Plan file:** (none — standalone `/integrate-topic`)
 **Date:** 2026-06-07
 **Parent topic:** root (2026 lit scan catalogue, item #1)

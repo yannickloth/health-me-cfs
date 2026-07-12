@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Post-Exercise Recovery Optimization
 
 **Origin:** `/integrate-topic post-exercise recovery optimization in ME/CFS`
-**Brainstorm file:** `content-staging/brainstorm-post-exercise-recovery-optimization-2026-06-18.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-post-exercise-recovery-optimization-2026-06-18.md`
 **Plan file:** `ops/plans/post-exercise-recovery-optimization-integration-plan.md`
 **Date:** 2026-06-18
 **Parent topic:** root

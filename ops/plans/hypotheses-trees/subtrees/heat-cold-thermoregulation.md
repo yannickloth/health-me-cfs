@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Heat and Cold Thermoregulation in ME/CFS
 
 **Origin:** `/integrate-topic the effect of heat and cold on MECFS patients, research online`
-**Brainstorm file:** `content-staging/brainstorm-heat-cold-thermoregulation-2026-05-31.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-heat-cold-thermoregulation-2026-05-31.md`
 **Plan file:** `ops/plans/heat-cold-thermoregulation-integration-plan.md`
 **Date:** 2026-05-31
 **Parent topic:** root

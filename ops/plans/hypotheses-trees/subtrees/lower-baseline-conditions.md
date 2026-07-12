@@ -1,6 +1,6 @@
 # Hypothesis Subtree: Neurodevelopmental / Neurological Conditions as Lower Metabolic Baseline Predisposing to ME/CFS
 
-**Origin:** Literature research / content-staging
+**Origin:** Literature research
 **Brainstorm file:** (not yet generated — awaiting Phase 3)
 **Date:** 2026-04-20
 **Parent topic:** root
@@ -10,9 +10,9 @@
 
 | Type | File |
 |------|------|
-| Literature survey | content-staging/literature-lower-baseline-conditions.md |
-| BibTeX entries | content-staging/bib-entries-lower-baseline.bib |
-| Annotated bibliography | content-staging/annotated-bib-lower-baseline.typ |
+| Literature survey | ops/research/literature-lower-baseline-conditions.md |
+| BibTeX entries | (not retained) |
+| Annotated bibliography | (not retained) |
 
 ## Integration Context
 

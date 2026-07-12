@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Hypoxia / Altitude / HIF1α
 
 **Origin:** `/integrate-topic Hypoxia / high altitude / HIF1α / EPO and ME/CFS`
-**Brainstorm file:** `content-staging/brainstorm-hypoxia-altitude-hif1a-2026-06-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-hypoxia-altitude-hif1a-2026-06-07.md`
 **Plan file:** `ops/plans/hypoxia-altitude-hif1a-integration-plan.md`
 **Date:** 2026-06-07
 **Parent topic:** root

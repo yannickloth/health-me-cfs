@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Ocular Sjögren / ME/CFS Overlap — Inflammatory-Cytokine + Corneal C-Fibre Axis
 
 **Origin:** `/integrate-topic ocular-sjogren-mecfs-overlap` (recursive from postcovid-ocular-syndrome, Gate A scope-escalation)
-**Brainstorm file:** `content-staging/brainstorm-ocular-sjogren-mecfs-overlap-2026-07-09.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-ocular-sjogren-mecfs-overlap-2026-07-09.md`
 **Plan file:** `ops/plans/ocular-sjogren-mecfs-overlap-integration-plan.md`
 **Date:** 2026-07-09
 **Parent topic:** postcovid-ocular-syndrome

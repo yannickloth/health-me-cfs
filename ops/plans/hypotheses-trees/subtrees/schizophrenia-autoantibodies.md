@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Schizophrenia Autoantibodies — Cross-Disease Model for ME/CFS
 
 **Origin:** `/integrate-topic schizophrenia-autoantibodies (Bartley & Ross 2020)`
-**Brainstorm file:** `content-staging/brainstorm-schizophrenia-autoantibodies-2026-06-06.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-schizophrenia-autoantibodies-2026-06-06.md`
 **Plan file:** `ops/plans/schizophrenia-autoantibodies-integration-plan.md`
 **Date:** 2026-06-06
 **Parent topic:** root (cross-disease comparison)

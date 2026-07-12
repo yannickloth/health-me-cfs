@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Stigmatisation in ME/CFS
 
 **Origin:** `/integrate-topic https://www.researchgate.net/publication/406829675_Stigmatisation_in_ME/CFS_—_a_scoping_review`
-**Brainstorm file:** `content-staging/brainstorm-stigmatisation-2026-06-16.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-stigmatisation-2026-06-16.md`
 **Plan file:** `ops/plans/stigmatisation-integration-plan.md`
 **Date:** 2026-06-16
 **Parent topic:** root

@@ -36,14 +36,14 @@
 
 ### Phase 1 — Literature Research
 - 20 papers found (15 primary + 5 supporting); 20 added to references.bib; 20 annotated bib entries
-- Search log: `content-staging/search-log-emotional-interoceptive-processing-2026-06-19.md`
-- Literature: `content-staging/literature-emotional-interoceptive-processing-2026-06-19.md`
+- Search log: `ops/research/search-log-emotional-interoceptive-processing-2026-06-19.md`
+- Literature: `ops/research/literature-emotional-interoceptive-processing-2026-06-19.md`
 
 ### Phase 2 — Evidence Synthesis
 - Decision: PROCEED (7 strong ≥0.70, 11 medium 0.40-0.69, 2 low <0.40)
 - Clinical relevance: MEDIUM
 - Contradictions: 0 internal (apparent contradictions resolved by Garfinkel tripartite framework)
-- Synthesis: `content-staging/synthesis-emotional-interoceptive-processing-2026-06-19.md`
+- Synthesis: (not retained)
 
 ### Phase 5 — Tiered Integration
 - 52 brainstorm ideas assessed. 42 Tier 1 by OR criterion (max usefulness ≥ 3), 10 Tier 2

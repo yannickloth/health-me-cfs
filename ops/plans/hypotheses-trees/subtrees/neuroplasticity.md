@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Neuroplasticity Integration
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-neuroplasticity-integration-2026-03-27.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-neuroplasticity-integration-2026-03-27.md`
 **Plan file:** `ops/plans/neuroplasticity-integration-plan.md` (create if needed)
 **Date:** 2026-03-27
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| research | content-staging/research-neuroplasticity-agents-2026-03-27.md |
+| research | ops/research/research-neuroplasticity-agents-2026-03-27.md |
 
 ## Nodes
 

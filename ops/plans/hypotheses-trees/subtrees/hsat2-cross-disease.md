@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Cross-Disease HSAT2 Comparison
 
 **Origin:** `/integrate-topic` Cross-disease HSAT2 comparison
-**Brainstorm file:** `content-staging/brainstorm-hsat2-cross-disease-2026-05-05.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-hsat2-cross-disease-2026-05-05.md`
 **Plan file:** `ops/plans/hsat2-cross-disease-integration-plan.md`
 **Date:** 2026-05-05
 **Parent topic:** hsat2-hypotheses (extends cross-disease bridge work from nodes 8.1, 8.5; new subtree)

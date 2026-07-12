@@ -57,7 +57,7 @@
 
 **Phase 1:** 18 papers to bib, 16 annotated bib entries
 **Phase 2:** 3 environments added (ch12, ch07, ch24), 3 hypothesis registry entries
-**Phase 3:** Brainstorm: content-staging/brainstorm-glp1-genetics-2026-06-17.md, 35 ideas
+**Phase 3:** Brainstorm: ops/brainstorms/brainstorm-glp1-genetics-2026-06-17.md, 35 ideas
 - Presenter: Dr. Steve Gardner, PrecisionLife
 - Source: BRMEC15 (May 2026), Invest in ME Research Colloquium
 - URLs: sciencedirect.com/science/article/pii/S2667318525000017, precisionlife.com/glp1, investinme.org/brmec15-stevegardner.shtml

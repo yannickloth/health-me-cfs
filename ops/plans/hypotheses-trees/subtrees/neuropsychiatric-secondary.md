@@ -1,6 +1,6 @@
 # Hypothesis Subtree: ADHD/ASD/Depression as Secondary ME/CFS Manifestations
 
-**Origin:** Scientific insights brainstorm / content-staging
+**Origin:** Scientific insights brainstorm
 **Brainstorm file:** (not yet generated — awaiting Phase 3)
 **Date:** 2026-03-27
 **Parent topic:** root
@@ -10,7 +10,7 @@
 
 | Type | File |
 |------|------|
-| Scientific insights brainstorm | content-staging/scientific-insights-ch14d-neuropsychiatric-secondary.md |
+| Scientific insights brainstorm | (not retained) |
 
 ## Integration Context
 

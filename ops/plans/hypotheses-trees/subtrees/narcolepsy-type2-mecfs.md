@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Narcolepsy Type 2 / Orexin — ME/CFS
 
 **Origin:** `/integrate-topic narcolepsy Type 2`
-**Brainstorm file:** `content-staging/brainstorm-narcolepsy-type2-mecfs-2026-06-18.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-narcolepsy-type2-mecfs-2026-06-18.md`
 **Plan file:** `ops/plans/narcolepsy-type2-mecfs-integration-plan.md`
 **Date:** 2026-06-18
 **Parent topic:** cross-disease-metabolic-links

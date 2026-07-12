@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Universal Mechanisms
 
 **Origin:** `/integrate-topic` brainstorm
-**Brainstorm file:** `content-staging/brainstorm-universal-mechanisms-2026-04-17.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-universal-mechanisms-2026-04-17.md`
 **Plan file:** `ops/plans/universal-mechs-integration-plan.md` (create if needed)
 **Date:** 2026-04-17
 **Parent topic:** root
@@ -11,7 +11,7 @@
 
 | Type | File |
 |------|------|
-| literature | content-staging/literature-universal-mechanisms-2026-04-17.md |
+| literature | ops/research/literature-universal-mechanisms-2026-04-17.md |
 
 ## Nodes
 

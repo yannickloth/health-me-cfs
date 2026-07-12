@@ -10,7 +10,7 @@
 
 | Type | File |
 |------|------|
-| Integration guide | content-staging/integration-guide-mcas-primary-driver-2026-05-01.md |
+| Integration guide | ops/integration-guides/integration-guide-mcas-primary-driver-2026-05-01.md |
 
 ## Integration Context
 

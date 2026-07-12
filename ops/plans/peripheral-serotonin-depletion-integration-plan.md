@@ -22,7 +22,7 @@
 |---|-------------------|------|-----------|--------|-------|
 | — | (populated after Phase 1) | — | — | ⬜ pending | — |
 
-**Phase 1:** 14 papers found; bib keys (VERIFIED): wong2023serotonin, thorpe2026serotonin, bai2024serotonin, taenzer2023urine, mathe2025noserotonin, anderson2024serotonin, raij2024serotonin, che2025innate, wirth2026neurotransmitter, gunning2016pots, raziq2021serotonin, mar2014ssripots, locasso2024serotonin, paredes2019serotonin. Search log: content-staging/search-log-peripheral-serotonin-depletion-2026-06-26.md
+**Phase 1:** 14 papers found; bib keys (VERIFIED): wong2023serotonin, thorpe2026serotonin, bai2024serotonin, taenzer2023urine, mathe2025noserotonin, anderson2024serotonin, raij2024serotonin, che2025innate, wirth2026neurotransmitter, gunning2016pots, raziq2021serotonin, mar2014ssripots, locasso2024serotonin, paredes2019serotonin. Search log: ops/research/search-log-peripheral-serotonin-depletion-2026-06-26.md
 
 **Phase 2:** 14 papers (8 strong ≥0.60, 4 medium 0.40–0.59, 1 weak, 1 null). Decision: **PROCEED**. Clinical relevance: MEDIUM. Contradictions: 1 pair (Mathé/Wong — compartment-explained, non-fundamental).
 
@@ -43,7 +43,7 @@ Files modified/created:
 
 **Phase 3.5:** 2 environments verified, both have consequence fields. ch11 enhancement: citations only.
 
-**Phase 4:** 61 ideas generated across all 12 categories. Brainstorm at `content-staging/brainstorm-peripheral-serotonin-depletion-2026-06-26.md`
+**Phase 4:** 61 ideas generated across all 12 categories. Brainstorm at `ops/brainstorms/brainstorm-peripheral-serotonin-depletion-2026-06-26.md`
 
 **Phase 4a:** Subtree `subtrees/peripheral-serotonin-depletion.md` written with 23 representative nodes; root index updated.
 

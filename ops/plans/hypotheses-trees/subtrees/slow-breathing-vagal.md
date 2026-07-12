@@ -1,8 +1,8 @@
 # Hypothesis Subtree: Slow-Paced Breathing and Vagal Priming
 
 **Origin:** `/integrate-topic slow-paced breathing vagal priming sleep ME/CFS`
-**Brainstorm file:** `content-staging/brainstorm-slow-breathing-vagal-2026-06-07.md`
-**Literature file:** `content-staging/literature-slow-breathing-vagal-2026-06-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-slow-breathing-vagal-2026-06-07.md`
+**Literature file:** `ops/research/literature-slow-breathing-vagal-2026-06-07.md`
 **Plan file:** N/A (inline integration, no standalone plan)
 **Date:** 2026-06-07
 **Parent topic:** root (lifestyle interventions — non-pharmacological vagal stimulation)

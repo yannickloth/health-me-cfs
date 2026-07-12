@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Post-COVID Ocular Syndrome
 
 **Origin:** `/integrate-topic` — Moustardas et al. 2026 (Nature Communications), long-term ocular symptoms after mild COVID linked to immune dysregulation + dysautonomia + peripheral neuropathy
-**Brainstorm file:** `content-staging/brainstorm-postcovid-ocular-syndrome-2026-07-09.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-postcovid-ocular-syndrome-2026-07-09.md`
 **Plan file:** `ops/plans/postcovid-ocular-syndrome-integration-plan.md`
 **Date:** 2026-07-09
 **Parent topic:** root

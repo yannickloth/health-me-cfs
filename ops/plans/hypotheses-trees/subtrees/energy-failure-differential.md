@@ -1,6 +1,6 @@
 # Hypothesis Group-Root: Energy Failure Differential Integration
 
-**Origin:** Plan migration from `content-staging/20260420 plan-energy-failure-differential-integration.md`
+**Origin:** Plan migration from `(not retained) plan-energy-failure-differential-integration.md`
 **Brainstorm file:** (not generated — plan used directly)
 **Date:** 2026-04-20
 **Parent topic:** root
@@ -73,7 +73,7 @@ Direction B (ME/CFS → exacerbation of pre-existing vulnerability):
 
 ## Execution History
 
-> Migrated from `content-staging/continuation-prompt-energy-failure-integration.md`.
+> Migrated from (not retained).
 
 ### Articles written (10/34 complete)
 
@@ -107,7 +107,7 @@ Direction B (ME/CFS → exacerbation of pre-existing vulnerability):
 
 ## Full Item List
 
-> Complete item list migrated from `content-staging/20260420 plan-energy-failure-differential-integration.md`. All items ⬜ pending.
+> Complete item list migrated from `(not retained) plan-energy-failure-differential-integration.md`. All items ⬜ pending.
 
 ### Category 1: Mitochondrial / Cellular Energy Production
 

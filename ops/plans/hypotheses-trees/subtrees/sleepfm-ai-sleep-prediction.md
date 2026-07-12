@@ -1,7 +1,7 @@
 # Hypothesis Subtree: SleepFM AI Sleep Prediction
 
 **Origin:** `/integrate-topic https://med.stanford.edu/news/all-news/2026/01/ai-sleep-disease.html`
-**Brainstorm file:** `content-staging/brainstorm-sleepfm-ai-sleep-prediction-2026-05-24.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-sleepfm-ai-sleep-prediction-2026-05-24.md`
 **Plan file:** `ops/plans/sleepfm-ai-sleep-prediction-integration-plan.md`
 **Date:** 2026-05-24
 **Parent topic:** root

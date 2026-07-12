@@ -54,7 +54,7 @@
 
 **Phase 5a:** 6 new environments audited; added explicit "Refuted if:" clauses to 4 speculations + decisive-outcome to driver OQ. All now falsifiable or exempt.
 
-**Phase 7:** 7 reinforcement/feed-into pairs (mast-switch feeds CRH-loss driver; steroid-trust-breaking reinforces cortisol-replacement caution; orexin models share cell-type-vulnerability principle), 0 conflicts, 0 certainty adjustments (PARTIAL caps + weak-source reinforcement rule). Audit: content-staging/compat-audit-hypothalamic-crh-neuron-depletion-2026-07-12.md.
+**Phase 7:** 7 reinforcement/feed-into pairs (mast-switch feeds CRH-loss driver; steroid-trust-breaking reinforces cortisol-replacement caution; orexin models share cell-type-vulnerability principle), 0 conflicts, 0 certainty adjustments (PARTIAL caps + weak-source reinforcement rule). Audit: (not retained)
 
 **Phase 8:** full build PASS (0 errors).
 

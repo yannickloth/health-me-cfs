@@ -31,7 +31,7 @@
 
 **Phase 3 — Creative Brainstorming (COMPLETE)**
 - 65 ideas generated (7 hypotheses, 33 treatment ideas, 25 research/diagnostic/cross-disease ideas)
-- Full brainstorm file: content-staging/brainstorm-butyrate-intestinal-permeability-2026-05-20.md
+- Full brainstorm file: ops/brainstorms/brainstorm-butyrate-intestinal-permeability-2026-05-20.md
 
 **Phase 3a — Hypothesis Tree Update (COMPLETE)**
 - Subtree created: ops/plans/hypotheses-trees/subtrees/butyrate-intestinal-permeability.md

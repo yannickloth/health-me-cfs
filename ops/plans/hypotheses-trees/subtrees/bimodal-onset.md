@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Bimodal Onset Age in ME/CFS
 
 **Origin:** `/integrate-topic bimodal age of onset patterns in ME/CFS (McGrath et al. 2026)`
-**Brainstorm file:** `content-staging/brainstorm-bimodal-onset-2026-04-16.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-bimodal-onset-2026-04-16.md`
 **Plan file:** `ops/plans/bimodal-onset-integration-plan.md`
 **Date:** 2026-05-26
 **Parent topic:** root

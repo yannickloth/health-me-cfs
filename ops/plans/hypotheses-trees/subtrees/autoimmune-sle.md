@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Systemic Lupus Erythematosus (SLE)
 
 **Origin:** `/integrate-topic` — autoimmune diseases plan, Tier 1 item #1
-**Brainstorm file:** `content-staging/brainstorm-sle-mecfs-2026-06-07.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-sle-mecfs-2026-06-07.md`
 **Date:** 2026-06-07
 **Parent topic:** autoimmune-diseases
 **Child subtrees:** (none yet — 23 auto-escalated nodes queued)

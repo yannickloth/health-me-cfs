@@ -61,7 +61,7 @@
 - Related: GPCR autoantibodies Azcue 2026 (~30% β2AdR +, leaving ~70% unexplained)
 
 ## Phase 3 — Creative Brainstorming (2026-06-07)
-- **Brainstorm file:** `content-staging/brainstorm-hif2a-endothelial-2026-06-07.md`
+- **Brainstorm file:** `ops/brainstorms/brainstorm-hif2a-endothelial-2026-06-07.md`
 - **Ideas generated:** 54 (6 hypotheses, 7 research directions, 7 drug, 6 supplement, 5 non-pharmacological, 4 combinations, 4 math models, 6 cross-disease, 7 diagnostic/biomarkers)
 - **Tier distribution:** 17 Tier 1, 21 Tier 2, 16 Tier 3
 
@@ -101,7 +101,7 @@
 - **Conflict clusters:** 1 (β2AR-neg/PHD inhibitors — both cannot be right for same patient; therapeutic stratification required)
 - **Certainty adjustments:** 1 bump (+0.05 to PEM as hibernation-maladaptation, 0.50→0.55), 0 reductions
 - **Tensions flagged:** 1 (β2AR-neg vs PHD inhibitors — unresolved, requires stratification)
-- **Audit file:** `content-staging/compat-audit-hif2a-endothelial-2026-06-07.md`
+- **Audit file:** (not retained)
 - **Plan file updated:** ops/plans/hif2a-endothelial-postviral-integration-plan.md
 
 ## Phase 4c Step 2 — Reinforcement Chains & Adjustments
@@ -163,5 +163,5 @@
 - **Papers found:** 16 (1 anchor + 15 new)
 - **Bib entries added:** 15 new + 1 updated (Ribeiro stream → hif2a-endothelial-postviral)
 - **Annotated bib:** New section `== HIF-2α and Post-Viral Endothelial Dysfunction` with 16 entries
-- **Literature summary:** `content-staging/hif2a-endothelial-literature-2026-06-07.md`
+- **Literature summary:** `ops/research/hif2a-endothelial-literature-2026-06-07.md`
 - **Key findings:** Spike S1 → transient HIF-1α + sustained HIF-2α → EC barrier impairment (Ribeiro2026). IRF3 directly connects antiviral signaling to HIF-α (Deng2026). HCV/RSV exploit HIF-2α (Couteaudier2025, Morris2025). ED confirmed in ME/CFS (Sandvik2023). β2AR-positive ~30% (Stein2025); ~70% needs alternative mechanism. HIF-2α ↔ senescence link (Shen2024).

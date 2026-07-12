@@ -11,10 +11,10 @@
 
 | Phase | Date | Status | Details |
 |-------|------|--------|---------|
-| 1 | 2026-06-19 | ✅ | 10 papers found, 10 bib entries added, 11 annotated bib entries, search log at `content-staging/search-log-psychologization-critique-2026-06-19.md` |
-| 2 | 2026-06-19 | ✅ PROCEED | 9 papers ≥ 0.60 certainty, 2/12 < 0.40, no contradictions, clinical relevance HIGH; synthesis at `content-staging/synthesis-psychologization-critique-2026-06-19.md` |
+| 1 | 2026-06-19 | ✅ | 10 papers found, 10 bib entries added, 11 annotated bib entries, search log at `ops/research/search-log-psychologization-critique-2026-06-19.md` |
+| 2 | 2026-06-19 | ✅ PROCEED | 9 papers ≥ 0.60 certainty, 2/12 < 0.40, no contradictions, clinical relevance HIGH; synthesis at (not retained) |
 | 3 | 2026-06-19 | ✅ | ch33-controversies.typ: new section `sec:psychologization-schomerus` with achievement `ach:psychologization-five-harms` (cert 0.70), speculation `spec:harm-monitoring-gap` (cert 0.65), BPS asymmetry critique, clinical implications; hypothesis registry: 2 new entries (1 achievement, 1 speculation); annotated bib: 11 new entries in `sec:bib-psychologization`; references.bib: Hammer2025 added to stigma.bib |
-| 4 | 2026-06-19 | ✅ | 36 ideas (24 constructive, 12 critical) at `content-staging/brainstorm-psychologization-critique-2026-06-19.md` |
+| 4 | 2026-06-19 | ✅ | 36 ideas (24 constructive, 12 critical) at `ops/brainstorms/brainstorm-psychologization-critique-2026-06-19.md` |
 | 4a | 2026-06-19 | ✅ | Subtree `subtrees/psychologization-critique-schomerus-2026.md` written with 36 nodes; root index updated |
 | 5 | 2026-06-19 | ✅ | 36 ideas triaged: Tier 1 — cross-disease bridges (Ideas 18-21) integrated as `spec:psychologization-lag-biomarker` (cert 0.40) in ch33 psychosomatic parallels; Tier 2 — critical categories (Ideas 25-36) integrated as `lim:psychologization-cross-sectional` and `oq:psychologization-prospective-cohort`; hypothesis registry +2 (1 S, 1 O); 24 ideas tree-only (Tier 3: diagnostics/proposals) |
 | 5a | 2026-06-19 | ✅ | 5 environments audited (3 falsifiable, 1 fixed with falsifiability added to achievement, 2 exempt); inline coverage 100% |

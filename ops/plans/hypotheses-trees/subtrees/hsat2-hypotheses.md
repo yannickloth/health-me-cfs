@@ -1,7 +1,7 @@
 # Hypothesis Subtree: HSAT2 Hypotheses
 
 **Origin:** `/integrate-topic` HSAT2/MDSC/Cluster A–D brainstorm
-**Brainstorm file:** `content-staging/brainstorm-hsat2-hypotheses-2026-05-01.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-hsat2-hypotheses-2026-05-01.md`
 **Plan file:** deleted (complete)
 **Date:** 2026-05-01
 **Parent topic:** root

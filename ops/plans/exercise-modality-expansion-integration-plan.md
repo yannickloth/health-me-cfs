@@ -32,7 +32,7 @@
 ## Phase 1 — Literature Research
 - 2 papers found, 2 added to references.bib (Schmid2007WaterImmersion, Hanna1993WaterImmersion)
 - 2 annotated bib entries added to appendix-h
-- Literature summary: `content-staging/literature-review-exercise-modality-expansion.md`
+- Literature summary: `ops/research/literature-review-exercise-modality-expansion.md`
 - Zero papers on: water rowing in ME/CFS, swimming in POTS, resistance bands in ME/CFS, modality selection for dysautonomia
 
 ## Phase 2 — Content Development
@@ -41,7 +41,7 @@
 - Cross-refs: ch10-cardiovascular §POTS, hypothesis registry
 
 ## Phase 3 — Creative Brainstorming
-- Brainstorm file: `content-staging/brainstorm-exercise-modality-expansion-20260526.md`
+- Brainstorm file: `ops/brainstorms/brainstorm-exercise-modality-expansion-20260526.md`
 - 45 ideas (6 hypotheses, 6 research directions, 4 drug, 5 supplement, 5 non-pharm, 4 combos+access, 5 math models, 4 cross-disease, 5 diagnostic)
 
 ## Phase 4b — Retrospective Adaptation

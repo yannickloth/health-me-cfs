@@ -1,7 +1,7 @@
 # Hypothesis Subtree: DecodeME-Verifiable Hypotheses
 
 **Origin:** `/integrate-topic DecodeME` — hypotheses verifiable using existing DecodeME data
-**Brainstorm file:** `content-staging/brainstorm-decodeme-computable-hypotheses-2026-06-18.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-decodeme-computable-hypotheses-2026-06-18.md`
 **Plan file:** `ops/plans/decodeme-verifiable-hypotheses-integration-plan.md`
 **Date:** 2026-06-18
 **Parent topic:** root (DecodeME GWAS — already integrated via gwas-meta-maccallini-2026)

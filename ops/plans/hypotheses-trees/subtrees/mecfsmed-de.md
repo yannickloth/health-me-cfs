@@ -1,6 +1,6 @@
 # Hypothesis Subtree: mecfsmed.de Integration
 
-**Origin:** Plan migration from `content-staging/plan-mecfsmed-de-integration.md`
+**Origin:** Plan migration from (not retained)
 **Brainstorm file:** (not yet generated)
 **Date:** 2026-03-28
 **Parent topic:** root
@@ -30,7 +30,7 @@
 
 ## Execution Detail
 
-> Full plan migrated from `content-staging/plan-mecfsmed-de-integration.md`. Status: ⬜ pending.
+> Full plan migrated from (not retained). Status: ⬜ pending.
 
 ### Tier 1: New Knowledge (high integration value)
 

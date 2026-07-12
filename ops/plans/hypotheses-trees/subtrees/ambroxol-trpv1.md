@@ -10,7 +10,7 @@
 
 | Type | File |
 |------|------|
-| Integration guide | content-staging/integration-guide-ambroxol-trpv1.md |
+| Integration guide | ops/integration-guides/integration-guide-ambroxol-trpv1.md |
 
 ## Integration Context
 

@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Neuroimmune POTS/ME/CFS/Long COVID (Blitshteyn 2026)
 
 **Origin:** `/integrate-topic https://www.tandfonline.com/doi/epdf/10.2147/ITT.S581262`
-**Brainstorm file:** `content-staging/brainstorm-neuroimmune-blitshteyn-2026-2026-06-08.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-neuroimmune-blitshteyn-2026-2026-06-08.md`
 **Plan file:** `ops/plans/neuroimmune-blitshteyn-2026-integration-plan.md`
 **Date:** 2026-06-08
 **Parent topic:** root

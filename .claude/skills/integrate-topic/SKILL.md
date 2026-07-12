@@ -180,7 +180,7 @@ Before starting any other phase:
 
 ### Search Log (MANDATORY)
 
-Write `content-staging/search-log-<topic-slug>-<date>.md`:
+Write `ops/research/search-log-<topic-slug>-<date>.md`:
 
 ```markdown
 # Search Log: <Topic>
@@ -229,8 +229,8 @@ Write `content-staging/search-log-<topic-slug>-<date>.md`:
 
 **Guard — Uniformly null evidence:** If all included papers report null results, failed replications, or conclude "no relationship to ME/CFS" → report: "Phase 1: N papers found, all null/negative. Evidence does not support this mechanism." Options: (a) integrate as `#limitation` or `#open-question` documenting the null evidence, (b) abandon topic. Do NOT proceed to brainstorming about a mechanism the evidence rejects.
 
-**Output:** Literature summary in `content-staging/` + annotated bib entries + `bib/<topic-area>.bib` updates + search log.
-**Report:** "Phase 1 complete: N papers found, M added to bib (`bib/<topic>.bib`), annotated bib updated, search log at `content-staging/search-log-<slug>-<date>.md`. Bib keys (VERIFIED against bib via awk, not transcribed): [list]. Any report/bib key mismatches noted."
+**Output:** Literature summary in `ops/` + annotated bib entries + `bib/<topic-area>.bib` updates + search log.
+**Report:** "Phase 1 complete: N papers found, M added to bib (`bib/<topic>.bib`), annotated bib updated, search log at `ops/research/search-log-<slug>-<date>.md`. Bib keys (VERIFIED against bib via awk, not transcribed): [list]. Any report/bib key mismatches noted."
 
 ---
 
@@ -295,7 +295,7 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
    ```
    For PROCEED, write the block with "all"/"allowed"/"none" so downstream phases still have an explicit reference. For REJECT/DEFER, no caps block needed (cycle ends at Phase 2).
 
-**Output:** `content-staging/synthesis-<topic-slug>-<date>.md`
+**Output:** `tmp/synthesis-<topic-slug>-<date>.md`
 **Report:** "Phase 2 complete: N papers strong, M weak, K null, J missing. Decision: [PROCEED / PARTIAL / REJECT / DEFER]. Clinical relevance: [HIGH/MEDIUM/LOW/NONE]. Contradictions: [none / N pairs]."
 
 ---
@@ -425,7 +425,7 @@ Per idea: mechanistic rationale + evidence link + preliminary certainty (0.0–1
 
 **Brainstorm certainty is provisional:** Phase 4 certainties are the generator's self-assessment and MUST be independently reassessed in Phase 5 before integration decisions. The Phase 5 triage uses the reassessed certainty, not the Phase 4 value.
 
-**Output:** `content-staging/brainstorm-[topic-slug]-[date].md` with ranked ideas. Every idea must carry `origin: brainstorm` tag — this tag persists into chapter text to distinguish brainstorm-generated content from literature-derived content.
+**Output:** `ops/brainstorms/brainstorm-[topic-slug]-[date].md` with ranked ideas. Every idea must carry `origin: brainstorm` tag — this tag persists into chapter text to distinguish brainstorm-generated content from literature-derived content.
 
 **Plan update (mandatory after brainstorm):** After the brainstorm file is written, the main session must locate or create `ops/plans/<topic-slug>-integration-plan.md` and add every brainstorm idea as a row in the tracking table (`# | Idea / hypothesis | Tier | Certainty | Status | Notes`), status `⬜ pending`. Ideas integrated inline in Phase 5 are included — their status will be updated as they complete. Validate mechanically (all rows have status, no missing fields).
 
@@ -468,7 +468,7 @@ Intermediate scores (2, 4) are interpolations between the defined anchors.
 # Hypothesis Subtree: <Topic Name>
 
 **Origin:** `/integrate-topic <topic description>`
-**Brainstorm file:** `content-staging/brainstorm-<topic-slug>-<date>.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-<topic-slug>-<date>.md`
 **Plan file:** `ops/plans/<topic-slug>-integration-plan.md`
 **Date:** <YYYY-MM-DD>
 **Parent topic:** <parent slug or "root">
@@ -571,7 +571,7 @@ Same requirement as Phase 3: every environment written in Phase 5 must contain a
 
 **Gate A — Standalone topic escalation:** Before integrating a Tier 1 idea inline, check: does this idea have its own separable literature base (≥5 papers not already covered by the parent topic's Phase 1)? If yes → it's standalone. Ask user: "Integrate inline as Phase 5 or queue as a new `/integrate-topic` cycle?" Operational threshold: ≥5 separable papers = standalone; <5 = extension. Wait for answer before continuing. If extension → integrate inline as below.
 
-1. **Research** (Tier 1 only) — delegate to `literature-integrator` (sonnet): find supporting/contradicting evidence; produces integration guide in `content-staging/`; updates the topic-appropriate `bib/<topic-area>.bib` + annotated bib. Before launching, check whether Phase 1 papers already address this idea — if so, use existing evidence and skip redundant sub-research. **If the idea is treatment-oriented** (drug, supplement, intervention), the sub-research MUST include harm search terms (adverse effects, contraindications) even if the parent topic's Phase 1 was non-treatment.
+1. **Research** (Tier 1 only) — delegate to `literature-integrator` (sonnet): find supporting/contradicting evidence; produces integration guide in `ops/`; updates the topic-appropriate `bib/<topic-area>.bib` + annotated bib. Before launching, check whether Phase 1 papers already address this idea — if so, use existing evidence and skip redundant sub-research. **If the idea is treatment-oriented** (drug, supplement, intervention), the sub-research MUST include harm search terms (adverse effects, contraindications) even if the parent topic's Phase 1 was non-treatment.
 2. **Develop + integrate** — main session reads guide; writes directly into target chapter files per Phase 3 rules
 3. **Verify** — confirm `literature-integrator` added bib entries before proceeding
 
@@ -650,7 +650,7 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 
 ### Search Protocol
 
-1. **Mandatory synonym expansion:** Before searching, generate 3–5 semantic variants per mechanism from Phase 1–2 (medical synonyms, abbreviations, pathway names, gene/protein names). Store the synonym map in `content-staging/synonym-map-<topic-slug>.md` for reproducibility.
+1. **Mandatory synonym expansion:** Before searching, generate 3–5 semantic variants per mechanism from Phase 1–2 (medical synonyms, abbreviations, pathway names, gene/protein names). Store the synonym map in `tmp/synonym-map-<topic-slug>.md` for reproducibility.
 2. **Glossary/index check:** Read the paper's glossary or index (if one exists) to find project-specific terminology for each concept.
 3. Generate search terms from Phase 1–3: key mechanism names, drug names, symptom domains, author last names + all synonym variants.
 4. `grep` across all `.typ` files for each term (original + synonyms simultaneously).
@@ -740,7 +740,7 @@ Phase 6 complete: M matches examined, N adapted
   No action:      S overlaps deferred (D below quality floor, P too tangential/weak/preliminary)
   Truncated:      K matches unexamined (if budget exceeded)
   Skipped:        X matches had zero overlap (keyword hit, unrelated mechanism)
-  Synonym map:    content-staging/synonym-map-<topic-slug>.md
+  Synonym map:    tmp/synonym-map-<topic-slug>.md
 
 Coverage: N adapted + S deferred / M examined (if M < total grep hits, note remaining)
 Zero-overlap case: if M=0 after deduplication, report "Phase 6: no overlapping pre-existing content found for search terms [list]."
@@ -762,9 +762,9 @@ Add to Phase 0 tracking: `6 | M matches examined, N adapted (R reinforced, T con
 
 1. Extract mechanism terms from titles/descriptions of both new hypotheses AND all existing registry entries. For the existing entries, use the title field (column 1), mechanism description (column 7), and key references (column 5) from the registry table to build a term index.
 2. Use the term index to find overlapping pairs efficiently: hypotheses sharing ≥1 distinct mechanism term → candidate pair. Full N×M set intersection is not required; the term index serves as a cheap pre-filter.
-3. For each candidate pair: grep all `.typ` files for the shared terms — using the Phase 6 synonym map (`content-staging/synonym-map-<topic-slug>.md`) if available — + read 20 lines of context per match.
+3. For each candidate pair: grep all `.typ` files for the shared terms — using the Phase 6 synonym map (`tmp/synonym-map-<topic-slug>.md`) if available — + read 20 lines of context per match.
 4. Classify each pairwise relationship (reinforcement / feed-into / conflict / independent) with a relationship certainty (0.1–1.0).
-5. Write output: `content-staging/compat-audit-<topic-slug>-<date>.md`
+5. Write output: `tmp/compat-audit-<topic-slug>-<date>.md`
 
 **Independence validation:** For pairs classified as "independent," verify they share no common upstream mechanisms, shared assumptions, or common preconditions. If they do → reclassify as weak-reinforcement or weak-feed-into. Document: "Reclassified from independent: shares upstream mechanism [X] with [hypothesis Y]."
 
@@ -884,7 +884,7 @@ These are lightweight checks (the build may fail; that's the point). If either f
 
 **Actionability:** If `BLOAT`, `WEAK-EVIDENCE`, or `CLINICAL-RISK` flags fire, address before Phase 10 (coherence) and Phase 11 (review convergence). BLOAT → condense verbose sections. WEAK-EVIDENCE → ensure all weak claims carry appropriate caveats. CLINICAL-RISK → verify adverse effect search was done; add missing safety caveats; ensure severity applicability is stated.
 
-**Output:** Append quality summary to `content-staging/synthesis-<topic-slug>-<date>.md`
+**Output:** Append quality summary to `tmp/synthesis-<topic-slug>-<date>.md`
 **Report:** "Phase 9 complete: [metrics summary]. Quality flags: [flags or NONE]."
 
 ---
@@ -906,7 +906,7 @@ These are lightweight checks (the build may fail; that's the point). If either f
 6. **Evidence-to-claim calibration:** If the same mechanism has certainty 0.60 in ch06 and certainty 0.45 in ch09, verify that the difference reflects different evidence bases (not a synchronization error).
 7. **Non-specialist consequence presence:** Every environment scope (new and pre-existing, across all modified chapters) must have a `*Consequence:*` field. Flag any environment missing it. For pre-existing environments that lack a consequence field (written before this rule existed), flag them as "retrofit needed."
 
-**Output:** `content-staging/coherence-audit-<topic-slug>-<date>.md`
+**Output:** `tmp/coherence-audit-<topic-slug>-<date>.md`
 
 **Fix protocol:** Main session reads the coherence audit and resolves all findings before Phase 11. Fixes may include alignment text (bridging sentences, terminology harmonization, cross-reference updates) — these are structural edits, not new substantive claims. Do not add new mechanistic claims or new evidence.
 
@@ -1078,7 +1078,7 @@ Add entry to `src/main/typst/mecfs/shared/changelog.typ` under current version (
 
 Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit` skill rules (conventional commits, no generated build outputs, PDF rule by provenance — source-copy PDFs under `Literature/**` ARE committed; only build-generated PDFs are excluded).
 
-**Scope precisely (MANDATORY):** Stage ONLY this topic's files (chapters, registry, changelog, ops artifacts, content-staging docs). Use the explicit file list from the plan's per-phase reports — never `git add -A`. Exclude: unrelated WIP (other topics' `SKILL.md` edits, etc.), and transient review-skill artifacts (e.g. `.claude/review-checkpoint-*.md` — do NOT commit these per `.claude/` hygiene).
+**Scope precisely (MANDATORY):** Stage ONLY this topic's files (chapters, registry, changelog, ops artifacts, ops pipeline docs). Use the explicit file list from the plan's per-phase reports — never `git add -A`. Exclude: unrelated WIP (other topics' `SKILL.md` edits, etc.), and transient review-skill artifacts (e.g. `.claude/review-checkpoint-*.md` — do NOT commit these per `.claude/` hygiene).
 
 **Shared-file ownership re-check (MIXED mode / concurrency):** Before committing, verify your shared-file entries survived any parallel commit:
 ```bash

@@ -17,7 +17,7 @@
 | Phase | Status | Summary |
 |-------|--------|---------|
 | 0 | ✅ | Plan created |
-| 1 | ✅ | 13 papers found, 5 added to bib + annotated bib; search log at content-staging/search-log-rf-elevated-mecfs-2026-06-19.md |
+| 1 | ✅ | 13 papers found, 5 added to bib + annotated bib; search log at ops/research/search-log-rf-elevated-mecfs-2026-06-19.md |
 | 2 | ✅ | 0 strong, 1 weak (Hashimoto 0.25), extensive missing/null. Decision: DEFER. Clinical relevance: LOW. Contradictions: 1 indirect |
 
 ---

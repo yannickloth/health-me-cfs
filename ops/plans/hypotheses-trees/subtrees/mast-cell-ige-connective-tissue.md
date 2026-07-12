@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Mast Cell IgE → Connective Tissue Degradation
 
 **Origin:** `/integrate-topic mast cell IgE pathway → connective tissue degradation in hEDS/POTS`
-**Brainstorm file:** `content-staging/brainstorm-mast-cell-ige-connective-tissue-2026-06-19.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-mast-cell-ige-connective-tissue-2026-06-19.md`
 **Plan file:** `ops/plans/mast-cell-ige-connective-tissue-integration-plan.md`
 **Date:** 2026-06-19
 **Parent topic:** root

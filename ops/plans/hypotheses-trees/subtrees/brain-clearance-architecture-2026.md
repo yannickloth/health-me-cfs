@@ -1,7 +1,7 @@
 # Hypothesis Subtree: Brain Clearance Architecture 2026
 
 **Origin:** `/integrate-topic https://www.cell.com/cell/fulltext/S0092-8674(26)00515-5` (Chayama et al. 2026 Cell + prior brainstorm)
-**Brainstorm file:** `content-staging/brainstorm-brain-clearance-architecture-2026-05-30.md`
+**Brainstorm file:** `ops/brainstorms/brainstorm-brain-clearance-architecture-2026-05-30.md`
 **Plan file:** `ops/plans/brain-clearance-architecture-2026-integration-plan.md`
 **Date:** 2026-05-30
 **Parent topic:** root (complementary to sleep-glymphatic)

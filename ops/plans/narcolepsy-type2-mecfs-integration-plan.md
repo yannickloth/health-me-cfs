@@ -28,7 +28,7 @@ status: ✅ done
 | Phase | Status | Details |
 |-------|--------|---------|
 | 0 — Plan | ✅ | Plan created |
-| 1 — Literature | ✅ | 13 papers annotated (2 null); literature file at content-staging/literature-narcolepsy-type2-mecfs-2026-06-18.md |
+| 1 — Literature | ✅ | 13 papers annotated (2 null); literature file at ops/research/literature-narcolepsy-type2-mecfs-2026-06-18.md |
 | 2 — Content | ✅ | ch14d narcolepsy section added (~100 lines, 2 speculations + 1 OQ); 5 new bib entries; 5 annotated bib entries; 2 hypothesis registry entries |
 | 3 — Brainstorm | ✅ | 30 ideas generated (7 hypotheses, 5 research, 5 drug, 4 supplement, 4 non-pharm, 4 combo, 3 math, 5 cross-disease, 5 biomarker); 3 challenging hypotheses included (1.6, 1.7, 9.5); 4 intersection ideas with covered topics (8.1 ADHD, 8.2 MCAS, 8.3 POTS, 7.2 glymphatic) |
 | 3a — Subtree | ✅ | subtrees/narcolepsy-type2-mecfs.md (42 nodes); root index updated |
@@ -96,7 +96,7 @@ status: ✅ done
 
 ## Phase 4c — Cross-Hypothesis Compatibility
 
-**Audit file:** `content-staging/compat-audit-narcolepsy-type2-mecfs-2026-06-18.md`
+**Audit file:** (not retained)
 
 32 reinforcement, 22 feed-into, 6 conflict, 8 independent pairs. 6 reinforcement chains (longest 4 hops). 4 conflict clusters.
 

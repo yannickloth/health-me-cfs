@@ -1,7 +1,7 @@
 # Hypothesis Subtree: HSAT2 Exosome
 
 **Origin:** `/integrate-topic hsat2-exosome`
-**Brainstorm file:** `content-staging/BRAINSTORM_hsat2-exosome-insights.md`
+**Brainstorm file:** `ops/brainstorms/BRAINSTORM_hsat2-exosome-insights.md`
 **Plan file:** `ops/plans/hsat2-exosome-integration-plan.md`
 **Date:** 2026-05-05
 **Parent topic:** root
