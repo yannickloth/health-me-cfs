@@ -2974,7 +2974,7 @@ Of 101 patients taking low-dose aripiprazole (0.2–2.0 mg/day, mean 1.1 mg/da
     - 12% no response; 14% discontinued due to side effects
 
 *Mechanism:*
-At standard doses (10–30 mg), aripiprazole inhibits dopamine. At *low doses (0.2–2 mg)*, it acts as a dopamine agonist (“dopamine stabilizer”). Proposed mechanisms for ME/CFS benefit:
+Aripiprazole is a D2 receptor *partial agonist* (intrinsic activity ~25% of full agonism) at all doses — the molecule's mechanism does not change with dose. Because it binds with high affinity and clamps receptor output toward this fixed intermediate set point, its net effect is *tone-dependent*: where ambient dopamine is high (e.g., mesolimbic overactivity in psychosis) it displaces dopamine and reduces signaling, appearing antagonist-like; where ambient dopamine is low (the proposed hypodopaminergic state in ME/CFS) it holds signaling up, appearing agonist-like. Hence the “dopamine stabilizer” label. The relevance of *low* doses (0.2–2 mg) is a matter of fractional receptor occupancy and possible preferential engagement of non-D2 / microglial targets, not a switch in intrinsic activity; whether this constitutes a therapeutically distinct regime versus simply a low, better-tolerated dose has not been established. Proposed mechanisms for ME/CFS benefit:
 
     - D2 receptor partial agonism may reduce neuroinflammation
     - Modulation of microglial activation
