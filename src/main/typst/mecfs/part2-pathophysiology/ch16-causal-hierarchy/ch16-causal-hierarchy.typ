@@ -24,10 +24,6 @@ This chapter proposes a three-tier classification framework, applies it systemat
 // =============================================================================
 
 == Framework: The Three-Tier Classification
-#include "../../figures/fig-treatment-priority-scatter.typ"
-#include "../../figures/fig-entry-points-funnel.typ"
-#include "../../figures/fig-trigger-mechanism-relationships.typ"
-#include "../../figures/fig-causal-hierarchy-overview.typ"
 <sec:three-tier-framework>
 
 To distinguish causes from effects in a multi-system disease, we need explicit criteria. The temptation is to rely on temporal ordering—what appeared first must be the cause—but this approach fails in ME/CFS for two reasons. First, the triggering event is usually months or years in the past by the time patients are studied, making temporal reconstruction unreliable. Second, many mechanisms engage nearly simultaneously during the acute phase, before any of them has had time to clearly precede the others. We need criteria that can classify mechanisms based on their structural properties, not on the accident of which one was measured first.
@@ -55,11 +51,13 @@ Classification into these tiers requires discriminating criteria. We propose fou
 
 These criteria are stringent by design. Most mechanisms documented in Chapters @ch:energy-metabolism–@ch:speculative-hypotheses fail at least one criterion and are therefore classified as amplifiers or consequences rather than root causes. This is not a deficiency of those mechanisms—it reflects the reality that most pathophysiological processes in ME/CFS are downstream of, or dependent on, a smaller number of trigger-capable failures.
 
+#include "../../figures/fig-causal-hierarchy-overview.typ"
+
 #include "sec-01-framework-the-three-tier-classification/limitations/lim-classification-uncertainty.typ"
 
 The formal validation of this framework—including bifurcation analysis demonstrating that trigger-capable mechanisms correspond to disease attractor basins—is developed in Section @sec:bifurcation-analysis. The mathematical testing of each tier assignment is presented in Chapter @ch:causal-hierarchy-formal.
 
-Figure @fig:causal-hierarchy-overview provides an overview of the three-tier classification applied to all mechanisms discussed in this chapter.
+Figure @fig:causal-hierarchy-overview provides an overview of the three-tier classification applied to all mechanisms discussed in this chapter.
 
 === Why Not Simply Use Evidence Levels?
 <sec:why-not-evidence-levels>
@@ -249,7 +247,9 @@ These interconnections mean that in practice, trigger-capable mechanisms may co-
 
 This distinction between _initiating cause_ and _maintaining cause_ is crucial for treatment strategy and is developed further in Section @sec:treatment-vs-cause.
 
-Figure @fig:trigger-mechanism-relationships maps the bidirectional interactions among the four trigger-capable mechanisms, illustrating how co-activation and mutual reinforcement complicate the identification of a single initiating cause.
+Figure @fig:trigger-mechanism-relationships maps the bidirectional interactions among the four trigger-capable mechanisms, illustrating how co-activation and mutual reinforcement complicate the identification of a single initiating cause.
+
+#include "../../figures/fig-trigger-mechanism-relationships.typ"
 
 // =============================================================================
 // SECTION 3: AMPLIFIER MECHANISMS
@@ -464,7 +464,9 @@ Table @tab:mechanism-classification consolidates the three-tier classification o
 
 If ME/CFS has multiple trigger-capable root causes, a natural question arises: why do patients with different triggering events converge on such a similar clinical picture? A patient whose ME/CFS began after mononucleosis, another whose disease followed a car accident, and a third whose onset was associated with a period of extreme psychological stress all end up with the same cardinal symptoms—PEM, cognitive dysfunction, unrefreshing sleep, autonomic dysfunction. The triggering events share nothing obvious in common. How can such different causes produce the same disease?
 
-The answer, we propose, is that the trigger-capable mechanisms all converge on the same final common pathway: CNS energy failure combined with broken restoration machinery. The entry door differs; the destination is the same. This convergence is not coincidental—it reflects the architecture of human physiology, which has a limited number of “failure modes” despite having many possible inputs. Figure @fig:entry-points-funnel maps the routes from precipitant to entry mechanism to final common pathway.
+The answer, we propose, is that the trigger-capable mechanisms all converge on the same final common pathway: CNS energy failure combined with broken restoration machinery. The entry door differs; the destination is the same. This convergence is not coincidental—it reflects the architecture of human physiology, which has a limited number of “failure modes” despite having many possible inputs. Figure @fig:entry-points-funnel maps the routes from precipitant to entry mechanism to final common pathway.
+
+#include "../../figures/fig-entry-points-funnel.typ"
 
 Consider how different ME/CFS precipitants map to the trigger-capable mechanisms:
 
@@ -516,7 +518,10 @@ These findings are consistent with a continuous distribution of "separatrix dist
 
 The multi-lock trap model (Section @sec:multi-lock-trap) established that ME/CFS persistence depends on multiple self-reinforcing mechanisms—“locks”—that maintain the disease state even after the original trigger has resolved. Not all locks are equal. A _load-bearing lock_ is one whose removal is necessary (though not necessarily sufficient) for escape from the disease attractor. A _secondary lock_ worsens symptoms and slows recovery but is not essential for disease maintenance: the remaining locks can sustain the disease without it.
 
-The structural analogy is to a building: load-bearing walls support the structure; removing them causes collapse (of the disease state, in this case—which is the therapeutic goal). Non-load-bearing walls define spaces and provide insulation; removing them improves the interior without threatening the structure. In the disease context, “collapse” of the disease attractor means the system can return to the healthy state; removing secondary locks improves the patient's experience within the disease state without enabling escape. Figure @fig:load-bearing-locks illustrates this distinction and its predicted effect on disease trajectory.
+The structural analogy is to a building: load-bearing walls support the structure; removing them causes collapse (of the disease state, in this case—which is the therapeutic goal). Non-load-bearing walls define spaces and provide insulation; removing them improves the interior without threatening the structure. In the disease context, “collapse” of the disease attractor means the system can return to the healthy state; removing secondary locks improves the patient's experience within the disease state without enabling escape. Figure @fig:load-bearing-locks illustrates this distinction and its predicted effect on disease trajectory.
+
+#include "../../figures/fig-load-bearing-locks.typ"
+
 
 The distinction has profound therapeutic implications. Treating a secondary lock provides symptomatic benefit—often substantial, and sometimes dramatic enough that patients report feeling “much better.” But the benefit plateaus because the disease architecture remains intact. Treating a load-bearing lock may produce _no immediate improvement_ (because other locks compensate and maintain the disease state), yet it is essential for the eventual possibility of recovery. A treatment strategy that focuses exclusively on the most symptomatic locks—the ones causing the most daily suffering—may paradoxically be less effective in the long term than one that prioritizes load-bearing locks, even if the latter produces less immediate relief.
 
@@ -607,7 +612,9 @@ The ranking also suggests a treatment sequencing strategy: begin with high-tract
 
 Figure @fig:treatment-priority-scatter visualizes the relationship between causal importance and therapeutic tractability for all classified mechanisms. The GPCR autoantibody cascade occupies the most favorable position among root causes (high importance, moderate–high tractability), while the CNS energy crisis—despite being the most causally fundamental—falls in the “important but inaccessible” quadrant. This visual representation makes concrete the chapter's central therapeutic insight: root cause does not equal treatment priority.
 
-The treatment optimization framework in Chapter @ch:predictive-applications builds on this hierarchy to model combinatorial treatment strategies, predicting which combinations of interventions are most likely to release enough locks for disease escape.
+#include "../../figures/fig-treatment-priority-scatter.typ"
+
+The treatment optimization framework in Chapter @ch:predictive-applications builds on this hierarchy to model combinatorial treatment strategies, predicting which combinations of interventions are most likely to release enough locks for disease escape.
 
 // =============================================================================
 // SECTION 7b: TIMED EPIGENETIC REVERSAL

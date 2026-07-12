@@ -19,7 +19,6 @@
 The directionality of ME/CFS epigenetic change is not uniformly toward hypermethylation. While one RRBS study of PBMCs (n=5 ME/CFS) found hypermethylation predominant at differentially methylated features (145 hypermethylated, 69 hypomethylated vs controls) @Peppercorn2025methylation, the broader EWAS literature documents substantial hypomethylation signals. PTPRN2 hypomethylation distinguishes patient subgroups and correlates with brain fog and cognitive symptoms @ChalderMoreau2026ptprn2. Pericentromeric hypomethylation is predicted to derepress HSAT2 satellite repeats, driving immune exhaustion (Chapters @ch:immune-dysfunction and @ch:genetics-epigenetics). Global methylation loss is documented in multiple independent EWAS cohorts @deVega2014methylation @Trivedi2018methylation @Helliwell2020methylation.
 
 === Scope Clarification: Cancer vs ME/CFS Mechanisms
-#include "../../../../../figures/fig-load-bearing-locks.typ"
 
 Geneviève Fourel (personal communication, May 2026) has provided an important scope correction to our earlier framing. The global DNMT3B redistribution model — the wholesale transfer of DNMT3B from the B compartment (heterochromatin) to the A compartment (euchromatin) producing coupled gain and loss — is proposed by Bonnet, Hulo, Fourel et al. for cancer and, by extension, chronic stimulation conditions, but is *not* proposed by the authors for ME/CFS at this time. For ME/CFS, Geneviève proposes a fundamentally different, more targeted mechanism:
 
