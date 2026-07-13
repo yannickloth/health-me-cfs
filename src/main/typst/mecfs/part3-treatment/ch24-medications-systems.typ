@@ -85,7 +85,7 @@ The majority of medications in this chapter are used off-label in ME/CFS, with e
 
 ]
 
-]=== What the Response Tells Us About LDN <sec:ldn-differential>
+=== What the Response Tells Us About LDN <sec:ldn-differential>
 
 Low-dose naltrexone (LDN) targets three distinct mechanisms simultaneously, which makes it a broadly informative probe — though each mechanism's contribution to any individual response cannot be separated. Each mechanism points to a different part of the disease process, so LDN's effects — or lack thereof — tell us which of these mechanisms are potentially contributing to a given patient's illness.
 
