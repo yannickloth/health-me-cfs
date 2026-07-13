@@ -85,6 +85,144 @@ The majority of medications in this chapter are used off-label in ME/CFS, with e
 
 ]
 
+]=== What the Response Tells Us About LDN <sec:ldn-differential>
+
+Low-dose naltrexone (LDN) targets three distinct mechanisms simultaneously, which makes it a broadly informative probe — though each mechanism's contribution to any individual response cannot be separated. Each mechanism points to a different part of the disease process, so LDN's effects — or lack thereof — tell us which of these mechanisms are potentially contributing to a given patient's illness.
+
+Before we examine each mechanism, it is important to understand that LDN works at multiple levels. The brain and immune system are engaged in constant two-way communication. When the brain detects inflammation — through receptors on immune cells called microglia (the brain's resident defenders) — it triggers sickness responses: fatigue, brain fog, pain sensitivity, and withdrawal. LDN interrupts this signaling at one of its key entry points, a receptor called TLR4 (Toll-like receptor 4, a sensor on immune cells that detects danger signals). Simultaneously, LDN appears to restore function to TRPM3 (a calcium channel — a pore that lets calcium into cells, and calcium is required for almost every cellular function). It may also help rebalance the body's natural opioid system, which governs pain, mood, and stress responses.
+
+A clear, sustained improvement on LDN — reduced fatigue, less brain fog, fewer PEM crashes, improved pain tolerance — tells us that at least one of the following mechanisms was dysfunctional and is being compensated.
+
+#works-box(title: [Improved])[
+===== Mechanism 1: Neuroinflammation (TLR4 / microglia)
+
+LDN blocks TLR4 receptors on microglia. TLR4 is a sensor that detects danger signals — fragments of bacteria, cellular debris, or inflammatory molecules that enter the brain or activate immune cells at the brain's borders. When TLR4 is chronically activated, microglia stay in a primed, inflammatory state, releasing signals (cytokines like IL-1β and TNF-α) that cause fatigue, cognitive slowing, and pain sensitivity. This is neuroinflammation — low-grade, persistent immune activation in the brain and nervous system.
+
+*Logical chain:* LDN blocked TLR4 → microglia calmed down → neuroinflammatory signaling decreased → symptoms improved. Therefore, neuroinflammation was contributing.
+
+*Inference strength:* Low to Medium. LDN's TLR4 antagonism is well established in laboratory studies @Younger2013, and the neuroinflammation model is supported by multiple lines of evidence including TSPO-PET brain imaging (@sec:neuroinflammation). However: (a) we do not have direct evidence from ME/CFS patients that LDN's clinical effect is mediated through TLR4, (b) we do not know whether LDN reaches brain microglia at sufficient concentrations at clinical doses (1–4.5 mg), and (c) LDN response cannot be distinguished from placebo without a controlled trial.
+
+*Does NOT tell us:* What is causing the neuroinflammation. The microglia could be responding to autoantibodies entering the brain (@sec:root-gpcr), to viral components, to cellular debris from mitochondrial damage, or to stress signals through the vagus nerve. LDN calms microglia without removing the trigger.
+
+*Why it matters:* If LDN works through this mechanism, other anti-neuroinflammatory strategies (PEA, luteolin, quercetin) are relevant, and treating the upstream trigger (autoantibodies, infection, mast cell activation) could produce deeper improvement.
+
+*What we don't know:* Whether the neuroinflammation is inside the brain or at its borders. Whether LDN reaches brain microglia at low doses. TSPO-PET has shown both positive and negative results.
+
+===== Mechanism 2: TRPM3 ion channel dysfunction
+
+TRPM3 is a calcium channel — a pore in the cell membrane that lets calcium enter the cell. Calcium is the universal signal for cellular functions. When TRPM3 does not work properly, immune cells cannot kill infected cells, neurons cannot release neurotransmitters efficiently, and vascular smooth muscle cannot regulate blood flow. TRPM3 dysfunction has been documented in NK cells from ME/CFS patients across six independent studies @Cabanas2021.
+
+*Logical chain:* LDN restores TRPM3-mediated calcium flux in NK cells in vitro @Cabanas2018trpm3. If this restoration occurs in living patients, cells that depend on TRPM3 (NK cells, neurons, vascular smooth muscle, pancreatic beta cells) would function better — potentially explaining multi-system symptom improvement.
+
+*Inference strength:* Low to Medium. The TRPM3 channelopathy is well-replicated (@sec:root-trpm3), but the central link — LDN restores TRPM3 in living humans, and this produces clinical benefit — has never been demonstrated. LDN's TRPM3 restoration has been shown only in isolated NK cells in a dish.
+
+*Does NOT tell us:* Whether TRPM3 dysfunction is primary (channel defect) or secondary to GPCR autoantibody-driven PIP2 depletion (@hyp:ch14h-pip2-convergence).
+
+*Why it matters:* TRPM3 restoration would make other TRPM3-targeting strategies relevant — pregnenolone sulfate, PIP2 maintenance, avoiding calcium-impairing medications. TRPM3 function measurement (when available) could predict response.
+
+*What we don't know:* Whether in vitro restoration occurs in vivo. Whether TRPM3 dysfunction is universal or subgroup-specific. Whether NK cell TRPM3 correlates with neuronal or muscle TRPM3.
+
+===== Mechanism 3: Orexin system disinhibition
+
+Orexin (hypocretin) promotes wakefulness, arousal, and motivated behavior. In ME/CFS, CSF orexin falls into an intermediate "gray zone" — below healthy but not as low as narcolepsy (@hyp:ch15-orexin-suppression). This may result from inflammatory signals (PGE2, TNF-α) from activated microglia in the hypothalamus suppressing orexin neurons.
+
+*Logical chain:* LDN reduces microglial activation → reduced hypothalamic inflammatory signaling → less orexin neuron suppression → increased orexin release → improved wakefulness, cognition, motivation. This mechanism is more speculative — not directly tested in ME/CFS — but explains why LDN improves brain fog beyond what immune-cell TRPM3 restoration alone would predict.
+
+*Inference strength:* Low to Medium. Each link is individually plausible — LDN reduces microglial activation (established), microglial inflammation suppresses orexin (animal models, @Grossberg2011orexinLethargy), orexin is reduced in ME/CFS (CSF measurements). But no study has measured orexin before/after LDN in ME/CFS.
+
+*Does NOT tell us:* Whether orexin suppression is primary (neuronal damage) or secondary (functional suppression by inflammation).
+
+*Why it matters:* If LDN works through orexin, orexin receptor agonists and orexin-neuron-protective interventions become relevant.
+
+*What we don't know:* This is the least-tested LDN mechanism in ME/CFS. No human orexin-A data with LDN treatment exists.
+
+===== Mechanism 4: Endorphin system rebalancing
+
+At standard doses (50 mg), naltrexone blocks opioid receptors. At low doses (1–4.5 mg), brief blockade triggers compensatory endorphin upregulation. Endorphins are the body's natural painkillers and mood regulators.
+
+*Logical chain:* Brief overnight opioid blockade → compensatory endorphin production → morning endorphin elevation → reduced pain sensitivity, improved mood.
+
+*Inference strength:* Medium for pain, Low for other symptoms. Endorphin rebound is well-documented in pain conditions @Younger2013, but unlikely to explain PEM reduction, cognitive improvement, or immune modulation.
+
+*Does NOT tell us:* What type of pain (inflammatory, neuropathic, centralized) — all respond to endorphins.
+
+*Why it matters:* If LDN's main benefit is endorphin-mediated pain relief, the underlying disease process may still progress — this is symptomatic relief, not disease modification.
+
+*What we don't know:* What proportion of LDN's benefit comes from endorphins vs. anti-inflammatory/TRPM3 mechanisms.
+
+===== Synthesis
+
+When LDN produces a clear, sustained improvement, the most likely interpretation is a neuroinflammatory component (Mechanism 1), quite possibly involving TRPM3 dysfunction (Mechanism 2). If benefit persists over months to years, this suggests LDN may be partially correcting an ongoing pathological process rather than providing temporary symptomatic relief — though placebo effects, natural fluctuation, and concurrent interventions cannot be excluded without controlled evidence.
+]
+
+#fails-box(title: [No improvement])[
+If LDN at adequate dose (3–4.5 mg) for adequate duration (≥8–12 weeks) produces no meaningful improvement:
+
+1. *Neuroinflammation may not be dominant.* LDN's main benefit is microglial TLR4 blockade. If ME/CFS does not involve significant neuroinflammation, LDN would not help. However, LDN may fail to reach brain microglia due to individual pharmacokinetics or BBB permeability. Non-response does not prove neuroinflammation absent.
+
+2. *TRPM3 dysfunction may be absent or not LDN-responsive.* TRPM3 channelopathy may not be universal. Some patients may have normal TRPM3 function, or dysfunction from mechanisms LDN cannot correct (direct channel-blocking autoantibodies). Or LDN may restore NK cell TRPM3 without affecting neuronal/vascular TRPM3.
+
+3. *Dose or duration insufficient.* LDN dosing is empiric — no dose-response studies exist. Some patients may need higher doses (up to 6 mg) or longer treatment.
+
+4. *Objective benefit without subjective improvement.* Some medications improve measurable parameters (immune function, metabolic markers) without the patient feeling better. If TRPM3 function improves on objective testing but the patient does not improve, TRPM3 dysfunction is present but not rate-limiting for symptoms.
+
+5. *Paradoxical reactor.* A subset of patients worsen on LDN (see Section @sec:paradoxical-reactor). Their adverse response is diagnostic — their ME/CFS involves mechanisms aggravated by opioid modulation or TLR4 blockade.
+
+6. *LDN may not work better than placebo in ME/CFS.* No large RCT has demonstrated superiority to placebo. If LDN = placebo, all "responses" interpreted here may be placebo effects or natural fluctuations. This cannot be excluded without a controlled trial.
+
+*Key caveat:* Non-response is weaker evidence than response. Non-response makes the neuroinflammatory/TRPM3 pathway less likely but does not exclude it — the drug may simply not reach its target.
+
+*Does NOT exclude:* Immune involvement. Autoantibody, B-cell, mast-cell, and T-cell mechanisms are not directly targeted by LDN. Non-response to LDN informs which immune mechanisms are NOT dominant — not whether the immune system is involved.
+]
+
+=== What LDN Tells Us That Other Medications Don't
+
+LDN is uniquely informative because it targets the intersection of neuroinflammation and ion channel function. Most ME/CFS medications target one system. LDN straddles the neuroimmune interface — it probes whether the CNS is inflamed (microglial TLR4) and whether cellular calcium signaling is impaired (TRPM3). No other medication provides this combination of signals. Because LDN is energy-neutral, it can be tried in severe patients who cannot tolerate energy-demanding drugs.
+
+=== How LDN Combines with Other Medications
+
+*If LDN works AND pyridostigmine (Mestinon) works:*
+Step 1: LDN → neuroinflammation/TRPM3 present. Step 2: Pyridostigmine increases acetylcholine, improving cerebral blood flow and parasympathetic function. Step 3: Both working → neuroinflammation (calmed by LDN) → autonomic dysfunction (compensated by pyridostigmine) → symptoms. This is the inflammatory-to-autonomic pathway, consistent with brainstem neuroinflammation disrupting autonomic control centers (@sec:root-cns-energy).
+→ *Implication:* Prioritize anti-inflammatory treatment (upstream); add autonomic support for downstream symptoms.
+
+*If LDN works BUT valacyclovir does NOT work:*
+Step 1: LDN → neuroinflammation present, immunomodulation-responsive. Step 2: Valacyclovir non-response → active herpesvirus replication unlikely as main driver. Step 3: Neuroinflammation without active viral replication → post-infectious mechanism: infection triggered persistent immune changes (neuroinflammation, autoantibodies, ion channel dysfunction) after viral clearance.
+→ *Implication:* Stop antiviral pursuit. Focus on immunomodulation and trigger identification.
+
+*If LDN works BUT antihistamines do NOT work:*
+Step 1: LDN → neuroinflammation present. Step 2: Antihistamine non-response → mast cell activation unlikely as primary neuroinflammation driver. Step 3: Neuroinflammation from non-mast-cell sources — autoantibodies, microglial priming from prior infection, metabolic stress.
+→ *Implication:* Distinguishes MCAS-driven from autoantibody/post-infectious neuroinflammatory subtypes. Treatment differs: mast cell stabilizers vs. immunoadsorption vs. microglial approaches.
+
+*If LDN does NOT work BUT cimetidine works:*
+Step 1: LDN non-response → TLR4/TRPM3 pathway less likely. Step 2: Cimetidine uniquely enhances T-cell function (blocking suppressor signals on regulatory T cells) and inhibits CYP450. Step 3: Cimetidine-positive, LDN-negative → T-cell component, possibly viral reactivation (CYP450 potentiation of antivirals or altered viral latency). This matches the VIM (viral-immune-metabolic) phenotype (@sec:vim-phenotype).
+→ *Implication:* Identifies VIM phenotype with distinct pathway: cimetidine + amino acids + metabolic support + antivirals if indicated.
+
+*If LDN does NOT work AND pyridostigmine does NOT work BUT LDA works:*
+Step 1: LDN non-response → neuroinflammation less likely. Step 2: Pyridostigmine non-response → cholinergic autonomic dysfunction less likely. Step 3: LDA (low-dose aripiprazole) response → dopamine signaling impairment. Step 4: Dopamine-responsive, neuroinflammation-non-responsive, autonomic-non-responsive → primary dopaminergic deficit, from inflammation-driven precursor diversion (IDO pathway) or genetic dopamine receptor variants.
+→ *Implication:* Prioritize cognitive/dopaminergic support. Caution: dopamine support compensates downstream while upstream driver continues.
+
+=== What Root Causes Are Consistent with LDN Response
+
+- *TRPM3 channelopathy* (@sec:root-trpm3) — LDN partially restores TRPM3 function; response makes TRPM3 dysfunction likely (primary or secondary via PIP2 depletion).
+- *Post-infectious microglial priming* — Triggering infection activates microglia; they stay primed; LDN calms them. Variant of CNS energy crisis model (@sec:root-cns-energy).
+- *GPCR autoantibody cascade with secondary neuroinflammation* (@sec:root-gpcr) — Autoantibodies → inflammation → microglial activation → LDN dampens microglia. TRPM3 dysfunction is secondary (PIP2 depletion from autoantibody-driven PLC activity).
+- *Orexin suppression from hypothalamic inflammation* — Less established, mechanistically plausible.
+
+A positive LDN response is NOT consistent with pure mitochondrial disease — LDN does not fix energy production machinery directly, though mitochondrial dysfunction can coexist.
+
+=== Limitations and Unknowns
+
+- *No large ME/CFS RCT.* All inferences rest on known mechanisms, retrospective data, fibromyalgia trials, and community reports — not controlled evidence in ME/CFS.
+- *Mechanism specificity uncertain.* LDN targets multiple mechanisms; response cannot identify which is responsible. The drug is a blunt probe.
+- *No biomarker to confirm target engagement.* Cannot measure TLR4 blockade or TRPM3 restoration in individual patients.
+- *TRPM3 testing not clinically available.* Research-grade only.
+- *Orexin and endorphin mechanisms speculative in ME/CFS.* Not directly tested with LDN.
+- *Dose-response unknown.* Optimal dose may differ by mechanism and by individual.
+
+*Overall inference certainty:* Low to Medium. Strong mechanistic rationale, replicated TRPM3 findings, well-supported neuroinflammation model. But the link from LDN's mechanism to clinical response in ME/CFS relies on laboratory studies and clinical observation, not controlled trials with mechanistic endpoints.
+
+*(Origin: medication-differential-analysis)*
+
 === Immunoglobulins (IVIG)
 // Rationale
 // Clinical trials
@@ -2289,3 +2427,109 @@ Most ME/CFS patients show substantial cognitive improvement with foundational in
 
 *Energy Profile.*
 Category C (energy-demanding). Aripiprazole is a substrate of CYP2D6 and CYP3A4 requiring significant hepatic metabolism. Additionally, metabolic syndrome risk—insulin resistance, glucose dysregulation, and lipid abnormalities—represents an ongoing disruption of energy metabolism at the cellular level: impaired insulin signaling reduces glucose uptake into mitochondria, directly limiting ATP production. Even at low doses (1–2 mg), the combination of hepatic processing demand and metabolic perturbation places this firmly in Category C. Use only when cognitive benefit clearly justifies the energy cost, and protect against metabolic amplification with concurrent monitoring and intervention.
+
+=== What the Response Tells Us About LDA <sec:lda-differential>
+
+Low-dose aripiprazole (LDA) is primarily a probe for the dopamine system. It is a partial dopamine agonist — it gently stimulates dopamine receptors — which provides more interpretable information than stimulants that can force a response even in a healthy system. If LDA improves cognitive symptoms, dopamine signaling was likely inadequate. If it does not, dopamine deficiency is less likely. However, LDA's partial agonism interacts with the underlying metabolic and inflammatory state of the ME/CFS brain, and the drug addresses multiple receptor systems — the diagnostic signal is suggestive, not definitive.
+
+#works-box(title: [Improved])[
+A clear improvement in brain fog, attention, mental stamina, or cognitive motivation on LDA (1–2 mg/day):
+
+===== Mechanism 1: Dopaminergic signaling insufficiency
+
+Dopamine is essential for focus, motivation, executive function, and reward experience. It is produced from tyrosine through steps requiring the enzyme tyrosine hydroxylase. This enzyme needs the cofactor BH4 (tetrahydrobiopterin) and adequate ATP — both often compromised in ME/CFS.
+
+*Logical chain:* LDA stimulated dopamine receptors → signaling improved → cognition improved. Therefore, dopamine signaling was inadequate. The diagnostic question is *why* — that distinguishes the underlying mechanism.
+
+*Three possible explanations:*
+
+*Explanation A — Neuroinflammation-driven IDO diversion.* Inflammatory cytokines (IFN-γ, TNF-α) activate IDO (indoleamine 2,3-dioxygenase), redirecting tryptophan toward the kynurenine pathway. This depletes BH4 — the essential cofactor for tyrosine hydroxylase. Tyrosine (not tryptophan) is the dopamine precursor; the link from IDO to dopamine is through BH4 consumption by inflammatory processes.
+
+*Explanation B — Metabolic constraint on neurotransmitter packaging.* The ATP-dependent proton pump that loads dopamine into synaptic vesicles may fail when ATP is scarce. The NIH deep phenotyping study, refined by Aregawi et al. (2026), shows the catecholamine deficit is selective for norepinephrine (the ATP-dependent vesicular step) while cytoplasmic dopamine metabolites are preserved — implicating energy-dependent packaging, not synthesis failure.
+
+*Explanation C — HPA axis hypocortisolism.* Cortisol normally upregulates tyrosine hydroxylase. ME/CFS often involves blunted cortisol, reducing enzyme activation.
+
+*Triangulating between explanations:*
+- LDA + LDN both work → Explanation A (neuroinflammation) more likely.
+- LDA + mitochondrial supplements (CoQ10, NADH) both work → Explanation B (metabolic) more likely.
+- LDA + fludrocortisone both work → Explanation C (HPA) may contribute.
+
+*Inference strength:* Low for the specific mechanism, Low to Medium for dopaminergic involvement. CSF catecholamine reduction is documented (@Walitt2024NIH) and stimulant surveys report 77.1% brain fog improvement (@Vernon2025PNAS), but LDA lacks controlled trials in ME/CFS.
+
+*Does NOT tell us:* Whether the patient has primary ADHD. Acquired dopaminergic deficiency from neuroinflammation can produce identical symptoms in a previously neurotypical person.
+
+*Why it matters:* LDA response confirms a dopaminergic component. This opens cognitive support strategies but carries a warning: dopamine support compensates downstream while the upstream driver continues unchecked.
+
+*Additional insight — anti-manic property as diagnostic clue.* At standard doses (10–30 mg), aripiprazole treats mania via dopamine blockade in regions with excess. At low doses producing cognitive improvement without sedation, this suggests regionally low dopamine in cognitive circuits — consistent with prefrontal hypometabolism in ME/CFS imaging. Sedation alone suggests blockade may dominate (dose too high or deficit less significant).
+
+===== Mechanism 2: 5-HT1A partial agonism and serotonin modulation
+
+LDA is also a partial agonist at 5-HT1A serotonin receptors, which can increase prefrontal dopamine release and stabilize mood.
+
+*Inference strength:* Low. Established in psychiatry, not studied in ME/CFS cognitive dysfunction. Cannot distinguish dopamine from serotonin-mediated benefit.
+
+*Why it matters:* If serotonin modulation is significant, LDA may help patients who do not respond to pure dopaminergic stimulants.
+
+===== Synthesis
+
+When LDA produces clear cognitive improvement, the patient's ME/CFS likely has a dopaminergic deficiency — most commonly from neuroinflammation-driven IDO/BH4 depletion. The response shows cognitive circuits are functional but underpowered. It does not prove reversible vs. structural damage — many drugs improve cognition in structurally damaged brains.
+]
+
+#fails-box(title: [No improvement])[
+If LDA at 1–2 mg/day for ≥4–8 weeks produces no cognitive improvement:
+
+1. *Dopamine deficiency may not be the primary cognitive mechanism.* Brain fog may arise from glymphatic failure, direct cytokine effects on synapses, cerebral hypoperfusion, or neuronal mitochondrial failure — none dopamine-responsive.
+
+2. *Wrong dose for this individual.* Partial agonist net effect is dose-dependent. Even 1–2 mg may produce net blockade in some patients; others may need slightly higher doses.
+
+3. *Dopamine receptors downregulated or desensitized.* Chronic inflammation reduces receptor expression. Insufficient receptors mean even an agonist cannot restore function.
+
+4. *Metabolic constraint limiting neurotransmitter release.* If the ATP-dependent vesicular proton pump fails, stimulating postsynaptic receptors cannot help — the presynaptic neuron cannot release dopamine. This explains why some patients with low CSF HVA do not respond to dopamine agonists.
+
+5. *Structural cognitive impairment.* White matter changes, volume loss, or synaptic loss may limit reversibility.
+
+*Key caveat:* Non-response does not mean dopamine is normal — the deficit may be too severe, receptors too sparse, or the primary problem outside the dopamine system (acetylcholine, norepinephrine, glutamate). Non-response also does not exclude neuroinflammation — it impairs cognition through dopamine-independent pathways.
+]
+
+=== What LDA Tells Us That Other Medications Don't
+
+LDA provides dopamine-system information that stimulants do not. Stimulants increase dopamine by blocking reuptake or releasing stores — they can improve cognition in healthy people. This makes stimulant response harder to interpret: benefit could mean "dopamine was low" or "dopamine was normal but we enhanced it." LDA's partial agonism provides only modest stimulation — if it benefits at low doses, dopamine was likely below the ceiling. However, LDA cannot distinguish dopamine from serotonin-mediated benefit, and its net effect depends on regional dopamine tone (it can act as antagonist where tone is adequate). LDA narrows possibilities — it does not confirm.
+
+=== How LDA Combines with Other Medications
+
+*If LDA works AND LDN works:*
+Step 1: LDA → dopamine insufficient. Step 2: LDN → neuroinflammation present. Step 3: Neuroinflammation → IDO/BH4 depletion → dopamine synthesis failure (compensated by LDA). This is the "inflammatory dopamine depletion" pattern — mechanistically coherent, its prevalence in ME/CFS unknown.
+→ *Implication:* Anti-inflammatory treatment addresses the upstream driver. Continued LDN may allow dopamine recovery, potentially reducing LDA over time — treating cause, not just symptom.
+
+*If LDA works BUT LDN does NOT work:*
+Step 1: LDA → dopamine deficient. Step 2: LDN non-response → TLR4-mediated neuroinflammation less likely. Step 3: Dopamine deficit from non-inflammatory source — metabolic constraint (ATP deficiency), HPA hypocortisolism, or primary genetic factors.
+→ *Implication:* Do not escalate anti-inflammatories. Focus on mitochondrial support, endocrine assessment, precursor support (tyrosine, BH4 cofactors).
+
+*If LDA works AND methylphenidate worsens symptoms:*
+Step 1: LDA → dopamine deficient. Step 2: Methylphenidate blocks reuptake; worsening likely comes from non-dopaminergic effects — norepinephrine reuptake exacerbating POTS, +7% REE draining metabolic resources, sleep disruption, peak-trough overstimulation/crash. Step 3: Dopamine support is needed but stimulant side effects are intolerable.
+→ *Implication:* Use receptor-level dopamine support (LDA, possibly solriamfetol). Avoid drugs increasing sympathetic activity or metabolic demand.
+
+*If LDA works AND CoQ10 + NADH also work:*
+Step 1: LDA → dopamine deficient. Step 2: CoQ10/NADH → mitochondrial energy production benefits. Step 3: The dopamine deficit has a metabolic component (Explanation B): mitochondrial dysfunction → reduced ATP → impaired neurotransmitter packaging. Supplements improve energy; LDA compensates for remaining deficit.
+→ *Implication:* Multi-hit model: brain needs both energy (mitochondrial support) and dopamine (LDA) — energy alone cannot compensate for inflammatory precursor depletion.
+
+=== What Root Causes Are Consistent with LDA Response
+
+- *CNS energy crisis with secondary catecholamine failure* (@sec:root-cns-energy) — Insufficient brain ATP; ATP-dependent neurotransmitter synthesis fails; cognitive circuits starved. LDA compensates for dopamine deficit but not ATP shortage.
+- *Metabolic safe mode with IDO pathway activation* (@sec:safe-mode) — Protective suppression program stuck "on." IDO diverts tryptophan, depleting serotonin precursors and consuming BH4 (dopamine synthesis cofactor). LDA bypasses the bottleneck.
+- *GPCR autoantibody cascade with neuroinflammation* (@sec:root-gpcr) — Autoantibodies → chronic inflammation → IDO activation → dopamine depletion. LDA compensates downstream; treating autoantibodies would address the cause.
+
+A positive LDA response is NOT consistent with pure peripheral pathology — cognitive improvement implies brain involvement, though peripheral inflammation can drive brain dysfunction via circulating cytokines and vagal signaling.
+
+=== Limitations and Unknowns
+
+- *No controlled trials of LDA in ME/CFS.* All evidence is case reports and community experience.
+- *Safety risks.* LDA carries risks beyond metabolic syndrome: akathisia (severe uncontrollable restlessness — dangerous for patients needing profound rest), serotonin syndrome when combined with SSRIs/SNRIs/triptans, and variable exposure from CYP2D6 polymorphisms (~7% of Caucasians are poor metabolizers with 3–5× higher drug levels). See Warning @warn:lda-metabolic.
+- *Metabolic risk limits diagnostic utility.* LDA tells us about dopamine while potentially worsening the metabolic dysfunction driving the illness — a therapeutic paradox.
+- *Primary vs. secondary dopamine deficiency indistinguishable.* Primary ADHD may need lifelong management; secondary deficiency may resolve with upstream treatment.
+- *Multiple receptor targets limit specificity.* D2/D3 partial agonism (only 25–30% of dopamine's intrinsic activity — net effect may be antagonism where dopamine tone is adequate), plus 5-HT1A, 5-HT2A, H1. Cognitive benefit could be serotonin-mediated, anxiolytic, or sleep-improving.
+- *No biomarker confirms target engagement.* Cannot measure receptor occupancy. CSF HVA might predict response but requires lumbar puncture.
+
+*Overall inference certainty:* Low to Medium. Biologically sound rationale, community experience supports cognitive effects. But absence of controlled trials, multiple receptor targets, and no biomarker confirmation keep inference tentative.
+
+*(Origin: medication-differential-analysis)*
