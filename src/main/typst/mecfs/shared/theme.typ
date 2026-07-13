@@ -73,6 +73,12 @@
   keyfinding-bg:    rgb("#FFFDE7"),
   clinfind-frame: rgb("#616161"),
   clinfind-bg:    rgb("#F5F5F5"),
+
+  // ── Differential diagnostic response environments ───────────────────────────
+  works-frame: rgb("#2E7D32"),
+  works-bg:    rgb("#F1F8F1"),
+  fails-frame: rgb("#C62828"),
+  fails-bg:    rgb("#FFF5F5"),
 )
 
 // Link colour rule (mirrors hypersetup urlcolor = viridis_blue)

@@ -37,6 +37,7 @@
   "direction", "roadmap", "theorem", "lemma", "corollary", "proposition",
   "definition", "example", "remark", "conclusion", "principle", "derivation",
   "calculation",
+  "works", "fails",       // differential medication-response analysis
 )
 
 #let _target = sys.inputs.at("target", default: "pdf")
@@ -150,6 +151,8 @@
 #let _cnt-synthesis     = counter("synthesis")
 #let _cnt-observation   = counter("observation")
 #let _cnt-proposal      = counter("proposal")
+#let _cnt-works         = counter("works")
+#let _cnt-fails         = counter("fails")
 
 // Reset all counters when a new chapter (level-1 heading) begins.
 #let apply-counter-resets(body) = {
@@ -216,6 +219,8 @@
     _cnt-modelinsight.update(0)
     _cnt-observation.update(0)
     _cnt-proposal.update(0)
+    _cnt-works.update(0)
+    _cnt-fails.update(0)
     it
   }
   body
@@ -531,6 +536,24 @@
     fig-kind: "clinical-finding-unnumbered",
     fig-supplement: [Clinical Finding],
     "♦", "Clinical Finding", body, title: title, style: "solid")
+}
+
+// --- Works (✓, solid green, left-bar) — differential diagnostic: if medication works ---
+#let works-box(title: none, body) = {
+  let n = _num(_cnt-works)
+  _callout(color.works-frame, color.works-bg,
+    fig-kind: "works",
+    fig-supplement: [If it works],
+    "✓", "If it works", body, title: title, style: "left-bar", number: n)
+} 
+
+// --- Fails (✗, solid red, left-bar) — differential diagnostic: if medication fails ---
+#let fails-box(title: none, body) = {
+  let n = _num(_cnt-fails)
+  _callout(color.fails-frame, color.fails-bg,
+    fig-kind: "fails",
+    fig-supplement: [If it fails],
+    "✗", "If it fails", body, title: title, style: "left-bar", number: n)
 }
 
 // --- Key Point (★, left-bar, gold) — unnumbered by design -------------------
