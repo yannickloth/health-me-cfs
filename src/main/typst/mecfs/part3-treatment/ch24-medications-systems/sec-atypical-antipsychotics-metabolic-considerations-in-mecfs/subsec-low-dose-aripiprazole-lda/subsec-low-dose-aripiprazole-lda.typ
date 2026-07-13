@@ -7,3 +7,4 @@
 #include "subsubsec-metabolic-risk-warning/subsubsec-metabolic-risk-warning.typ"
 #include "subsubsec-metabolic-protection-during-lda-therapy/subsubsec-metabolic-protection-during-lda-therapy.typ"
 #include "subsubsec-alternative-approaches-for-cognitive-dysfunction/subsubsec-alternative-approaches-for-cognitive-dysfunction.typ"
+#include "subsubsec-differential-analysis/subsubsec-differential-analysis.typ"
