@@ -16,6 +16,7 @@ All pipelines are skills or agents. Invoke via `/skill-name`.
 | `/section-review` | "review section [X]" |
 | `/full-document-review` | "full document review" |
 | `/review-biomedical <scope>` | biomedical 20-category review |
+| `/medication-differential-analysis` | "what does LDN response tell us" · "differential analysis for all meds" · "retroactive differential" |
 
 ## Agents (Direct Invocation)
 

@@ -585,6 +585,22 @@ Same requirement as Phase 3: every environment written in Phase 5 must contain a
 
 Subtree status updates are deferred to after Phase 5a (which follows the Phase 5b build check).
 
+### Phase 5c — Differential Analysis for Treatment Topics
+
+**Agent:** delegates to `medication-differential-analyst` | **Model:** opus
+
+**Trigger:** The integrated topic includes a medication, drug, supplement, or intervention that has a known mechanism of action and human evidence in ME/CFS.
+
+**Skip if:** The topic is non-pharmacological (breathing, pacing) OR the intervention has no known mechanism OR evidence is purely animal/preclinical.
+
+**Procedure:**
+1. Invoke `/medication-differential-analysis <medication-name>`
+2. The generated differential entry is placed inside the medication's subsection in ch24 under `==== What the Response Tells Us About Mechanisms`
+3. Update the consolidated Response Pattern Synthesis and From Patterns to Root Causes sections in ch24 if they already exist (if this is the first medication differential entry, the consolidated sections will be generated on the first `/medication-differential-analysis all` retroactive run)
+4. Verify build after integration
+
+**Report:** "Phase 5c complete: differential entry generated for <medication-name> (inference certainty: High/Medium/Low)."
+
 ## Phase 5b — Intermediate Build Check
 
 **Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit). The lettering reflects content type, not execution order.
