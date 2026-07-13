@@ -151,8 +151,6 @@
 #let _cnt-synthesis     = counter("synthesis")
 #let _cnt-observation   = counter("observation")
 #let _cnt-proposal      = counter("proposal")
-#let _cnt-works         = counter("works")
-#let _cnt-fails         = counter("fails")
 
 // Reset all counters when a new chapter (level-1 heading) begins.
 #let apply-counter-resets(body) = {
@@ -219,8 +217,6 @@
     _cnt-modelinsight.update(0)
     _cnt-observation.update(0)
     _cnt-proposal.update(0)
-    _cnt-works.update(0)
-    _cnt-fails.update(0)
     it
   }
   body
@@ -538,22 +534,24 @@
     "♦", "Clinical Finding", body, title: title, style: "solid")
 }
 
-// --- Works (✓, solid green, left-bar) — differential diagnostic: if medication works ---
+// --- Works (✓, solid green, left-bar) — per-mechanism inference: if medication works ---
+// One box per individual mechanism within the "If it works" section.
+// NOT a container for the entire section — boxes are small, one per mechanism.
 #let works-box(title: none, body) = {
-  let n = _num(_cnt-works)
   _callout(color.works-frame, color.works-bg,
     fig-kind: "works",
     fig-supplement: [If it works],
-    "✓", "If it works", body, title: title, style: "left-bar", number: n)
+    "✓", "If it works", body, title: title, style: "left-bar")
 } 
 
-// --- Fails (✗, solid red, left-bar) — differential diagnostic: if medication fails ---
+// --- Fails (✗, solid red, left-bar) — per-mechanism inference: if medication fails ---
+// One box per non-response interpretation within the "If it fails" section.
+// NOT a container for the entire section — boxes are small, one per interpretation.
 #let fails-box(title: none, body) = {
-  let n = _num(_cnt-fails)
   _callout(color.fails-frame, color.fails-bg,
     fig-kind: "fails",
     fig-supplement: [If it fails],
-    "✗", "If it fails", body, title: title, style: "left-bar", number: n)
+    "✗", "If it fails", body, title: title, style: "left-bar")
 }
 
 // --- Key Point (★, left-bar, gold) — unnumbered by design -------------------
