@@ -1,4 +1,4 @@
-#import "../shared/environments.typ": *
+#import "../../shared/environments.typ": *
 
 = Medication Response as Diagnostic Information
 <ch:medication-response-reference>
