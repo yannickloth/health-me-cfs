@@ -1,4 +1,5 @@
-#import "src/main/typst/mecfs/shared/environments.typ": *
+#import "../../../shared/environments.typ": *
+// sec-01 aggregator for ch29
 
 == Why This Chapter Exists
 
