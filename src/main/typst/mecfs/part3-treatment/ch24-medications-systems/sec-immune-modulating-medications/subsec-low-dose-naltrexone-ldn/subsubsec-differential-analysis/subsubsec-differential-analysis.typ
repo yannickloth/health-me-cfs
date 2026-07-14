@@ -18,6 +18,8 @@ LDN blocks TLR4 receptors on microglia (the brain's resident immune cells). TLR4
 
 *Action:* Anti-neuroinflammatory strategies (PEA, luteolin, quercetin) become relevant. Identifying and treating the upstream trigger could produce deeper improvement than LDN alone.
 
+*Level of action:* Partial root cause. LDN calms the microglia (reducing neuroinflammation) but does not remove whatever is activating them. If the trigger is removed and neuroinflammation resolves, LDN may no longer be needed. If the trigger persists, LDN is providing symptomatic neuroimmune suppression without addressing the driver.
+
 ====== Finding 2 — TRPM3 ion channel dysfunction was present
 
 LDN restores TRPM3-mediated calcium flux in NK cells in vitro @Cabanas2018trpm3. TRPM3 is a calcium channel — calcium is the universal cellular "on switch." When TRPM3 fails, immune cells cannot kill infected cells, neurons cannot release neurotransmitters efficiently, and vascular smooth muscle cannot regulate blood flow. TRPM3 dysfunction is the most replicated ion channel finding in ME/CFS, documented across six independent NK cell studies @Cabanas2021.
@@ -29,6 +31,8 @@ LDN restores TRPM3-mediated calcium flux in NK cells in vitro @Cabanas2018trpm3.
 *What this finding does NOT tell us:* Whether TRPM3 dysfunction is the root cause or a downstream consequence. GPCR autoantibodies can deplete PIP2 (a membrane lipid TRPM3 needs to open), causing secondary TRPM3 dysfunction (@hyp:ch14h-pip2-convergence). LDN response does not distinguish primary channelopathy from secondary PIP2 depletion.
 
 *Action:* TRPM3-targeting strategies (pregnenolone sulfate, PIP2 maintenance) become relevant. TRPM3 function measurement, when clinically available, could predict LDN response and track treatment effect.
+
+*Level of action:* Potential root cause. TRPM3 channelopathy is classified as a trigger-capable root cause (@sec:root-trpm3). If LDN restores TRPM3 function, it is partially correcting a core disease mechanism — but whether the restoration is complete and sustained is unknown.
 
 ====== Finding 3 — Orexin suppression may have been relieved
 
@@ -42,6 +46,8 @@ LDN reduces microglial activation in the hypothalamus → less inflammatory sign
 
 *Action:* If this mechanism contributes, orexin receptor agonists and strategies protecting orexin neurons from inflammation become relevant.
 
+*Level of action:* Symptom management. Orexin suppression is a downstream consequence of neuroinflammation, not a root cause. Restoring orexin signaling improves wakefulness and cognition but does not address what caused the suppression in the first place.
+
 ====== Finding 4 — Endorphin-mediated pain relief
 
 At standard doses (50 mg), naltrexone blocks opioid receptors. At low doses (1–4.5 mg), brief overnight blockade triggers compensatory endorphin upregulation. Endorphins are natural painkillers and mood regulators.
@@ -53,6 +59,8 @@ At standard doses (50 mg), naltrexone blocks opioid receptors. At low doses (1�
 *What this finding does NOT tell us:* Whether pain is inflammatory, neuropathic, or centralized — all respond to endorphins.
 
 *Action:* If pain relief is the main benefit, the underlying disease process may still be progressing — this is symptomatic relief, not disease modification. Treating the pain driver directly (neuroinflammation, autoantibodies, mast cell activation) may produce more durable benefit than relying on endorphin compensation alone.
+
+*Level of action:* Symptom management. Endorphin elevation relieves pain and improves mood but does not address any disease mechanism. The underlying pathology continues unchecked.
 
 ====== What a positive response does NOT reveal
 

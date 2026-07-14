@@ -25048,7 +25048,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Study Design:*: Cross-sectional pupillography study
     *Sample Size:*: n=51 MS patients, n=22 healthy controls
     *Key Findings:*:
-        - **Null result:** Pupillary unrest index (PUI) inversely correlated with fatigue severity in MS (r = -0.521, p = 0.001) — opposite of the autonomic instability hypothesis
+        - *Null result:* Pupillary unrest index (PUI) inversely correlated with fatigue severity in MS (r = -0.521, p = 0.001) — opposite of the autonomic instability hypothesis
         - Central autonomic instability as measured by pupillography does NOT explain MS fatigue
         - Challenges the generic "autonomic dysfunction causes fatigue" narrative
         - MS patients had significantly higher fatigue scores than controls, yet pupillary unrest was inversely related

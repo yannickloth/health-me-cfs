@@ -27,6 +27,8 @@ Dopamine governs focus, motivation, executive function, and reward processing. I
 
 *Action:* Cognitive/dopaminergic support is indicated. But the upstream driver (neuroinflammation, metabolic failure, HPA dysfunction) continues unchecked — dopamine support compensates downstream without addressing root cause. If LDN also works, prioritize anti-inflammatory treatment to address the upstream driver.
 
+*Level of action:* Symptom management. LDA stimulates dopamine receptors — it does not restore dopamine production, remove the inflammatory signals depleting BH4, or repair mitochondrial ATP production. The underlying pathology progresses while cognitive symptoms are masked. This is the most important caveat when using LDA as a probe: the diagnostic information is real, but the treatment is compensatory, not curative.
+
 ====== Finding 2 — Serotonin modulation may also contribute
 
 LDA is a partial agonist at 5-HT1A serotonin receptors, which can increase prefrontal dopamine release and stabilize mood. This mechanism is established in psychiatry but has not been specifically studied in ME/CFS cognitive dysfunction.
@@ -38,6 +40,8 @@ LDA is a partial agonist at 5-HT1A serotonin receptors, which can increase prefr
 *What this finding does NOT tell us:* Whether cognitive improvement is dopamine-driven, serotonin-driven, or both. Whether serotonin depletion (also a consequence of IDO-driven tryptophan diversion) contributes to ME/CFS cognitive dysfunction.
 
 *Action:* If LDA helps where stimulants fail, the broader receptor profile (D2/D3 + 5-HT1A) may be clinically relevant — but this does not identify which receptor is responsible.
+
+*Level of action:* Symptom management. Same as Finding 1 — serotonin receptor modulation compensates for a downstream deficit without addressing what depleted serotonin (IDO-driven tryptophan diversion) or impaired the circuits it modulates.
 
 ====== What a positive response does NOT reveal
 
