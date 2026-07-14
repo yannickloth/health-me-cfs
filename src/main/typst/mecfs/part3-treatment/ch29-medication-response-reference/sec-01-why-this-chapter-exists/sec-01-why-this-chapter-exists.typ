@@ -1,5 +1,7 @@
 // sec-01 aggregator for ch29
 
+#import "../../../shared/environments.typ": *
+
 == Why This Chapter Exists
 
 #speculation(title: [Why Medication Response as a Diagnostic Probe — A Methodological Justification])[
