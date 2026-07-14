@@ -3,6 +3,8 @@
 
 All stimulants probe catecholamine (dopamine/norepinephrine) deficiency. Their differences in mechanism, selectivity, and safety create a hierarchy. *All are symptom management* — none address root cause. Hierarchy from safest to most concerning: pitolisant > solriamfetol ≈ modafinil > methylphenidate > amphetamines.
 
+=== Diagnostic Findings
+
 ==== If stimulants work
 
 Finding 1 — Catecholamine signaling was insufficient. Drug increased dopamine/norepinephrine → cognition improved → signaling was inadequate. *Certainty:* Medium — CSF catecholamine reduction documented @Walitt2024NIH; stimulant surveys 77.1% brain fog improvement @Vernon2025PNAS; methylphenidate RCT 17% response @Blockmans2006methylphenidate; solriamfetol RCT significant fatigue improvement (p=0.039) @Young2025solriamfetol. But effect sizes modest and survey data uncontrolled. *Does NOT tell us:* why catecholamines are deficient; whether benefit is sustainable (masking fatigue enables overexertion — PNAS: +77.1% brain fog but −1.5% PEM). *Action:* catecholamine involvement confirmed; combine with LDN (neuroinflammation) or mitochondrial supplements (metabolic constraint) to identify upstream cause. *Level of action:* Symptom management — stimulants compensate for deficient signaling without restoring production or removing inflammatory precursor depletion.
