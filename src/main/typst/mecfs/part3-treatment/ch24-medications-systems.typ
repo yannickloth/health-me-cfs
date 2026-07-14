@@ -1839,6 +1839,111 @@ Some patients report successful transition to commercial tablets after prolonged
 *Energy Profile.*
 Category B (energy-neutral). Pyridostigmine works by preventing enzymatic breakdown of acetylcholine rather than requiring active metabolic synthesis, an energy-efficient mechanism. Low hepatic processing burden at ME/CFS doses (15–60 mg total daily). Does not consume significant ATP, and any improvement in autonomic function may indirectly reduce the energy cost of dysautonomic compensation. Safe from a metabolic energy perspective.
 
+=== What the Response Tells Us About Pyridostigmine
+
+Pyridostigmine probes two systems simultaneously: the autonomic nervous system (by potentiating acetylcholine at ganglia) and the cholinergic anti-inflammatory pathway (by enhancing vagal immune modulation). Both are implicated in ME/CFS — autonomic dysfunction is documented in the majority of patients, and reduced vagal tone contributes to unchecked inflammation. Pyridostigmine has one of the strongest evidence bases of any ME/CFS medication, with an RCT showing objective hemodynamic improvement (Joseph 2022, n=45) and a long-term follow-up showing sustained benefit (Squires 2023). This makes its response signal more reliable than medications with only observational evidence.
+
+==== If pyridostigmine works: improved orthostatic tolerance, reduced PEM, better exercise capacity
+
+====== Finding 1 — Preload failure was contributing to exercise intolerance
+
+Pyridostigmine enhances acetylcholine signaling at autonomic ganglia, which increases venous return to the heart — directly addressing preload failure, the inability to fill the heart adequately when upright. The Joseph 2022 iCPET RCT demonstrated this objectively: a single 60 mg dose improved peak VO₂ (+13.3 mL/min) and right atrial filling pressure versus placebo, which produced worsening on both measures @Joseph2022pyridostigmine. The placebo arm's deterioration simply from exercise provides direct evidence that exertion itself worsens cardiac filling — the hemodynamic mechanism of PEM.
+
+*Why pyridostigmine response implicates it:* Pyridostigmine increased acetylcholine at autonomic ganglia → improved venous return → increased cardiac filling pressure → increased oxygen delivery to tissues → improved exercise capacity. Therefore, preload failure was a significant contributor to exercise intolerance.
+
+*Certainty of this inference:* Medium. Supported by a double-blind, placebo-controlled RCT using invasive hemodynamic measurements (n=45). The Squires 2023 long-term follow-up (n=37 treated) showed sustained improvement over ~690 days @Squires2023pyridostigmine. However, the Joseph RCT tested a single dose — chronic benefit is inferred from the Squires observational data, not from a long-term RCT.
+
+*What this finding does NOT tell us:* Whether preload failure is the primary hemodynamic defect, or a consequence of upstream pathology (autoantibody-mediated vascular dysfunction, hypovolemia from low renin-angiotensin activity, or connective tissue laxity allowing excessive venous pooling). Pyridostigmine improves filling regardless of the cause.
+
+*Action:* Volume expansion (sodium, fludrocortisone) and compression become particularly relevant — they address the same preload deficit through complementary mechanisms. If pyridostigmine + fludrocortisone + compression produce greater benefit than pyridostigmine alone, the preload deficit is multi-factorial.
+
+*Level of action:* Partial root cause. Preload failure is a documented disease mechanism in ME/CFS, downstream of autonomic dysfunction. Pyridostigmine compensates for impaired ganglionic transmission but does not address what caused the autonomic dysfunction (brainstem neuroinflammation, GPCR autoantibodies, small fiber neuropathy). If the upstream driver is treated and autonomic function recovers, pyridostigmine may become unnecessary.
+
+====== Finding 2 — Cholinergic anti-inflammatory pathway was engaged
+
+Pyridostigmine increases acetylcholine availability, which activates α7 nicotinic receptors on macrophages and T cells — the cholinergic anti-inflammatory pathway. This vagally-mediated immune modulation reduces inflammatory cytokine production at the tissue level. The PISCO COVID-19 RCT (n=188) showed pyridostigmine halved 28-day mortality (HR 0.47) and 90-day mortality (HR 0.43) — with no change in systemic cytokine levels @FragosoSaavedra2022pisco. This suggests tissue-level immune modulation that serum markers cannot detect.
+
+*Why pyridostigmine response implicates it:* If pyridostigmine improves symptoms disproportionately to what hemodynamic improvement alone would predict — particularly cognitive function, PEM tolerance, or inflammatory symptoms — the cholinergic anti-inflammatory pathway may be contributing.
+
+*Certainty of this inference:* Low. The PISCO trial was in severe COVID-19, not ME/CFS. No direct immune data exist for pyridostigmine in ME/CFS. The inference rests on a mechanistic parallel, not direct evidence.
+
+*What this finding does NOT tell us:* Whether the improvement is hemodynamic (Finding 1), anti-inflammatory (Finding 2), or both. The two mechanisms cannot be separated by clinical response alone.
+
+*Action:* If pyridostigmine produces benefit beyond what volume expansion and compression achieve, the anti-inflammatory component may be clinically significant. This supports combining pyridostigmine with anti-inflammatory agents (LDN, PEA) — they target inflammation through different pathways (cholinergic vs. TLR4 vs. PPAR-α).
+
+*Level of action:* Partial root cause. Vagal tone is reduced in ME/CFS, and restoring cholinergic signaling partially corrects a documented deficit. But as with Finding 1, the cause of reduced vagal tone (brainstem neuroinflammation, autoantibodies against muscarinic/nicotinic receptors) persists.
+
+====== Finding 3 — Autonomic function was partially preserved
+
+Pyridostigmine enhances existing acetylcholine signaling — it cannot create a signal where the nerve has degenerated. Okamoto et al. (2025) showed wide response variability (systolic change −20 to +29 mmHg) to a single dose, with preserved baroreflex function being the strongest predictor of response @Okamoto2025pyridostigmine.
+
+*Why pyridostigmine response implicates it:* Pyridostigmine works by inhibiting acetylcholinesterase — the enzyme that breaks down acetylcholine. If autonomic nerves are intact and releasing acetylcholine, inhibiting its breakdown amplifies the signal. If the nerves are too damaged to release acetylcholine, inhibiting breakdown does nothing. Therefore, a positive response means sufficient autonomic nerve function remains to be amplified.
+
+*Certainty of this inference:* Medium. Supported by the Okamoto 2025 responder analysis and consistent with pyridostigmine's known mechanism (it potentiates existing signaling, does not replace it).
+
+*What this finding does NOT tell us:* Whether the autonomic dysfunction is central (brainstem neuroinflammation suppressing autonomic output) or peripheral (small fiber neuropathy, autoantibody-mediated receptor blockade). Both can reduce but not abolish acetylcholine release — pyridostigmine response is consistent with either.
+
+*Action:* If pyridostigmine works, autonomic function is not irreversibly lost. This is prognostically favorable — it suggests that treating the upstream cause of autonomic dysfunction (neuroinflammation, autoantibodies) could restore normal autonomic function, potentially eliminating the need for ongoing pyridostigmine.
+
+*Level of action:* Symptom management. Pyridostigmine compensates for impaired autonomic signaling without addressing what impaired it. The positive response tells us autonomic nerves are still functional — which is valuable prognostic information — but the drug itself provides symptomatic autonomic support, not repair.
+
+====== What a positive response does NOT reveal
+
+- *The cause of autonomic dysfunction.* Pyridostigmine improves ganglionic transmission regardless of whether the underlying cause is brainstem neuroinflammation, GPCR autoantibodies, small fiber neuropathy, or connective tissue laxity.
+- *Whether benefit is hemodynamic, anti-inflammatory, or both.* The two mechanisms cannot be separated clinically.
+- *Whether autonomic function would recover with treatment of the upstream driver.* Pyridostigmine response suggests nerves are functional, but does not predict whether removing the driver would restore normal autonomic tone.
+
+==== If pyridostigmine does NOT work (adequate dose 15–60 mg/day, ≥ 4 weeks)
+
+====== Interpretation 1 — Severe autonomic failure with insufficient residual nerve function
+
+If autonomic nerves are too damaged to release acetylcholine, inhibiting acetylcholinesterase cannot help — there is no signal to amplify. This is more likely in patients with severe, long-duration disease, particularly those with documented small fiber neuropathy or severe POTS unresponsive to multiple agents.
+
+====== Interpretation 2 — Preload failure may not be the dominant hemodynamic mechanism
+
+If the primary hemodynamic defect is not preload failure but something pyridostigmine does not address — e.g., excessive venous pooling from connective tissue laxity (requiring compression, not cholinergic enhancement), or hypovolemia from low renin-angiotensin activity (requiring fludrocortisone, not cholinergic enhancement). A patient who fails pyridostigmine but responds to fludrocortisone + compression likely has hypovolemia-driven, not ganglionic-driven, orthostatic intolerance.
+
+====== Interpretation 3 — Gastrointestinal side effects limiting dose
+
+Pyridostigmine increases gut motility. ME/CFS patients with pre-existing GI dysmotility, MCAS, or irritable bowel syndrome may not tolerate doses sufficient for autonomic benefit. Non-response due to dose limitation is not mechanistically informative.
+
+====== Interpretation 4 — Wrong autonomic target
+
+Pyridostigmine enhances both sympathetic and parasympathetic transmission simultaneously. In hyperadrenergic POTS (excessive sympathetic tone), increasing sympathetic signaling could worsen tachycardia. These patients may respond better to ivabradine (pure heart rate reduction) or beta-blockers.
+
+====== Interpretation 5 — Cholinergic anti-inflammatory pathway may not be the relevant mechanism
+
+If the patient's ME/CFS is driven by mast cell activation, autoantibody-mediated inflammation, or metabolic dysfunction rather than vagal-deficiency-driven inflammation, pyridostigmine's anti-inflammatory mechanism would not engage the relevant pathway.
+
+==== How pyridostigmine combines with other medications
+
+*Pyridostigmine works + LDN works:*
+Step 1: Pyridostigmine → autonomic dysfunction present, partially reversible. Step 2: LDN → neuroinflammation present. Step 3: Neuroinflammation (calmed by LDN) → autonomic dysfunction (compensated by pyridostigmine) → the inflammatory-to-autonomic cascade. Consistent with brainstem neuroinflammation disrupting autonomic centers (@sec:root-cns-energy).
+→ *Prioritize anti-inflammatory treatment; pyridostigmine provides autonomic support while upstream driver is treated.*
+
+*Pyridostigmine works + fludrocortisone/midodrine also works:*
+Step 1: Pyridostigmine → ganglionic transmission enhanced. Step 2: Fludrocortisone → plasma volume expanded (mineralocorticoid). Midodrine → peripheral vasoconstriction (α1 agonist). Step 3: All three working → multi-mechanism preload failure: impaired ganglionic transmission + hypovolemia + venous pooling. This is the most common pattern — pyridostigmine monotherapy benefit is modest (51% in POTS review @POTSoralreview2025) but combination therapy produces larger effects.
+→ *Combine pyridostigmine with volume expansion ± vasoconstriction for maximum hemodynamic benefit.*
+
+*Pyridostigmine does NOT work + ivabradine works:*
+Step 1: Pyridostigmine non-response → insufficient ganglionic reserve to amplify. Step 2: Ivabradine slows sinus node firing directly, reducing heart rate independent of autonomic tone. Step 3: Ivabradine working where pyridostigmine fails → the primary defect is excessive sinus node automaticity or inadequate parasympathetic restraint, not impaired ganglionic transmission.
+→ *Switch to heart-rate-directed therapy (ivabradine) rather than ganglionic enhancement. Consider hyperadrenergic POTS subtype.*
+
+*Pyridostigmine works + cimetidine works:*
+Step 1: Pyridostigmine → autonomic dysfunction present. Step 2: Cimetidine → T-cell enhancement, possible antiviral effect. Step 3: Both working → viral-immune-autonomic phenotype: viral trigger → immune dysregulation (cimetidine-responsive) → autonomic dysfunction (pyridostigmine-responsive). Matches VIM phenotype (@sec:vim-phenotype).
+→ *VIM phenotype confirmed: combine cimetidine + antiviral consideration + autonomic support.*
+
+==== Limitations
+
+- *Joseph 2022 RCT tested only a single dose:* Chronic benefit is inferred from observational Squires 2023 data.
+- *Symptomatic improvement rate is modest (51% in POTS reviews):* Pyridostigmine is not the most effective POTS monotherapy; its value is primarily in combination and in ME/CFS-specific preload failure.
+- *Cholinergic anti-inflammatory evidence is from COVID-19, not ME/CFS:* The immunomodulatory mechanism is mechanistically plausible but untested in ME/CFS specifically.
+- *Dose sensitivity in ME/CFS limits achievable dose:* Many patients cannot tolerate doses above 60 mg/day; the optimal autonomic dose may not be reachable.
+- *LIFT trial results pending:* The 4-arm factorial RCT (pyridostigmine × LDN, n=160) will provide higher-quality evidence circa 2027 @LIFT2025protocol.
+- *Overall inference certainty:* Medium. Supported by the strongest objective evidence (iCPET RCT) of any ME/CFS medication discussed here. The preload failure finding is well-established; the anti-inflammatory and autonomic-preservation inferences are more tentative.
+
+*(Origin: medication-differential-analysis)*
+
 == H2 Receptor Antagonists
 <sec:h2-blockers>
 
