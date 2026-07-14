@@ -1,0 +1,3 @@
+=== Omega-3 Fatty Acids (EPA/DHA)
+
+Omega-3s probe failed resolution of inflammation. EPA and DHA are precursors for resolvins, protectins, and maresins (SPMs) that actively terminate inflammation. *If omega-3s work:* resolution failure may be contributing — inflammation persists because the off-switch is broken. *Certainty:* Low for SPM mechanism in ME/CFS (SPMs never measured). *Level of action:* Partial root cause — provides precursors for resolution.
