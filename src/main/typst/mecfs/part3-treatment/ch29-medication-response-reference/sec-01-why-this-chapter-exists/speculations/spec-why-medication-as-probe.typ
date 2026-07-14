@@ -1,5 +1,5 @@
 
-#import "../../../../../shared/environments.typ": *
+#import "../../../../shared/environments.typ": *
 
 #speculation(title: [Why Medication Response as a Diagnostic Probe — A Methodological Justification])[
 *Current reality.* As of 2026, there is no clinically available blood test, scan, or biomarker that can tell a doctor which root cause of ME/CFS — TRPM3 channelopathy, CNS energy crisis, GPCR autoantibody cascade, or metabolic safe mode lock (@ch:causal-hierarchy) — is driving a given patient's illness. Gold-standard tests require lumbar puncture, research-grade flow cytometry, specialized autoantibody panels, or invasive cardiopulmonary exercise testing — none accessible in routine practice.
