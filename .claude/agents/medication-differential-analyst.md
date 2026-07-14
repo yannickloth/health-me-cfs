@@ -84,107 +84,87 @@ The analysis lives in `ch24-medications-systems/sec-interpreting-treatment-respo
 
 ### Per-medication entry format (REUSABLE TEMPLATE)
 
-Each medication gets its own section at `===` level (same prominence as the medication's evidence/safety description itself). Use the `#works-box[]` and `#fails-box[]` environments defined in `shared/environments.typ` — green ✓ left-bar for works, red ✗ left-bar for fails. These provide instant visual scanning.
+Each medication gets a `====` subsubsection within its existing section. The structure uses clear diagnostic finding headings — never "Mechanism 1/2/3" which is ambiguous. Every heading states *what we learned*, not *which mechanism number it is*.
 
 ```
-=== What the Response Tells Us About [Medication Name] <sec:[slug]-differential>
+==== What the Response Tells Us About [Medication Name]
 
-[1-2 paragraph intro: what this drug targets, what systems it probes. Define medical terms. E.g., "LDN blocks TLR4 receptors on microglia (the brain's immune cells) and may restore TRPM3 calcium channel function. Its response tells us whether neuroinflammation and ion channel dysfunction are contributing."]
+[1 paragraph: what this drug targets, what systems it probes. Define medical terms.]
 
-#works-box(title: [Improved])[
-[For each mechanism implicated, a subsection:]
-===== Mechanism 1: [short descriptive title]
+===== If [medication] works: [what improves — fatigue, brain fog, PEM, pain, etc.]
 
-[1-2 sentences: what the mechanism is, plain language.]
+====== Finding 1 — [what the response tells us, e.g. "Neuroinflammation was present"]
 
-*Logical chain:* Drug targets X → X restored/modulated → symptoms improved. Therefore X was dysfunctional.
+[1-2 sentences: the biology — what the drug does to what system.]
 
-*Inference strength:* [Low / Low to Medium / Medium] — [justification, mentioning whether the inference rests on in vitro, animal, or human ME/CFS evidence].
+*Why [medication] response implicates it:* [logical chain: drug X targets mechanism Y → patient improves → mechanism Y was dysfunctional.]
 
-*Does NOT tell us:* [upstream cause unknown, primary vs secondary indistinguishable, etc.]
+*Certainty of this inference:* [Low / Low to Medium / Medium] — [justification grounded in evidence: in vitro, animal, human ME/CFS data, whether controlled trials exist, whether target engagement has been measured in living patients.]
 
-*Why it matters:* [1 sentence: what the doctor does differently knowing this.]
+*What this finding does NOT tell us:* [upstream cause unknown, primary vs secondary indistinguishable, confounded by other drug targets, etc.]
 
-*What we don't know:* [specific gap.]
+*Action:* [1 sentence: what the doctor does differently knowing this. Not a prescription — framed as "becomes relevant" or "should be investigated."]
 
-===== Synthesis
+====== Finding 2 — [next diagnostic finding]
 
-[2-3 sentences: what the overall response pattern suggests. Always include: "Response cannot be distinguished from placebo without a controlled trial."]
-]
+[Same structure as Finding 1.]
 
-#fails-box(title: [No improvement])[
-[Numbered list of interpretations, each 1-2 sentences. Must include:]
-1. [Mechanism X not dominant — but the drug may not reach its target (pharmacokinetics, BBB)]
-2. [Mechanism Y absent or not drug-responsive — channelopathy/dysfunction may not be universal or may arise from mechanisms the drug cannot correct]
+====== What a positive response does NOT reveal
+
+- [Key ambiguities that persist despite response — which mechanisms are indistinguishable, whether response is pharmacological or placebo, etc.]
+
+===== If [medication] does NOT work (adequate dose ≥ [X], ≥ [Y] weeks)
+
+====== Interpretation 1 — [what non-response suggests, e.g. "Neuroinflammation may not be dominant"]
+
+[1-2 sentences: why non-response makes this less likely. Always include the caveat: the drug may simply not reach its target.]
+
+====== Interpretation 2 — [...]
+
 ...
-N. The drug may not work better than placebo in ME/CFS — if no RCT superior to placebo exists, some or all responses are placebo + natural fluctuation. This cannot be excluded without controlled evidence.
 
-*Key caveat:* Non-response is weaker evidence than response. It makes a mechanism less likely but does not exclude it — the drug may simply not reach its target at clinical doses.
+====== Interpretation N — [Medication] may not work better than placebo in ME/CFS
 
-*Does NOT exclude:* [mechanisms the drug does not target at all — e.g., LDN non-response does not exclude autoantibody-mediated, B-cell, mast-cell, or T-cell mechanisms]
-]
+No large RCT has demonstrated superiority to placebo. If the drug = placebo, all responses interpreted above may be placebo effects or natural fluctuations. This cannot be excluded.
 
-=== What [Medication] Tells Us That Other Medications Don't
+====== Key caveat on non-response
 
-[1-2 sentences: the unique diagnostic signal — what question this drug answers that no other drug answers.]
+Non-response is weaker evidence than response. It makes a mechanism less likely but does not exclude it. [Medication] non-response also does not exclude [mechanisms this drug does not target].
 
-=== How [Medication] Combines with Other Medications
+===== How [medication] combines with other medications
 
-For each combination, use the compact format:
-*If [A] works AND [B] works:*
+*[A] works + [B] works:*
 Step 1: [A] → [mechanism]. Step 2: [B] → [mechanism]. Step 3: Combined → [causal chain, root cause implication].
-→ *Implication:* [one-line clinical action.]
+→ *[one-line clinical action.]*
 
-[2-4 of the most informative combinations — not every pair.]
+*[A] works + [B] does NOT work:*
+Step 1: [A] → [mechanism]. Step 2: [B] non-response → [what this rules out]. Step 3: Combined → [remaining possibilities].
+→ *[one-line clinical action.]*
 
-=== What Root Causes Are Consistent with [Medication] Response
+[2-4 most informative combinations.]
 
-[Bullet list of root cause hypotheses with cross-references (@sec:root-trpm3, @sec:root-cns-energy, etc.) and one-line explanations.]
+===== Limitations
 
-A positive response is NOT consistent with: [1-2 excluded root causes.]
-
-=== Limitations and Unknowns
-
-[Bullet list: no RCT, mechanism specificity uncertain, no biomarker to confirm target engagement, specific testing not clinically available, certain mechanisms speculative, dose-response unknown. Include safety risks if applicable (akathisia, serotonin syndrome, metabolic risk, CYP450 interactions).]
-
-*Overall inference certainty:* [Low to Medium / Low / Medium] — [one-sentence justification.]
+- *No large ME/CFS RCT:* [evidence gap statement.]
+- *Mechanism specificity uncertain:* [how many targets, why response can't be attributed to one.]
+- *No biomarker confirms target engagement:* [what can't be measured.]
+- [Safety risks if applicable.]
+- *Overall inference certainty:* [Low to Medium / Low] — [one-sentence justification.]
 
 *(Origin: medication-differential-analysis)*
 ```
 
 ### Key structural conventions
 
-1. **`===` heading for the differential analysis** — same level as the medication's own evidence/safety sections, making it immediately visible in the document outline.
-2. **`#works-box(title: [Improved])`** — all "if it works" content goes inside this green ✓ left-bar box. Unnumbered (each medication's works-box is self-contained).
-3. **`#fails-box(title: [No improvement])`** — all "if it fails" content goes inside this red ✗ left-bar box. Unnumbered.
-4. **`=====` subheadings inside boxes** for individual mechanisms — scannable within the box.
-5. **`*Logical chain:*` / `*Inference strength:*` / `*Does NOT tell us:*` / `*Why it matters:*` / `*What we don't know:*`** — consistent field labels within each mechanism block. Short, telegraphic.
-6. **Combination patterns** use `*If [A] works AND [B] works:*` bold labels, `Step 1/2/3` format, `→ *Implication:*` arrow for clinical action.
-7. **`→ *Implication:*`** — every combination pattern ends with a one-line clinical action after an arrow. Doctor scanning for what to do finds it immediately.
-
-### Visual scanning signature
-
-A reader scanning the chapter sees:
-- Green left-bar `✓ If it works: Improved` — sections with mechanistic inference
-- Red left-bar `✗ If it fails: No improvement` — sections with non-response interpretations
-- Bold `*If A works AND B works:*` labels — combination patterns
-- Arrow `→ *Implication:*` — clinical action items
-
-This structure is identical across every medication. A doctor who has read LDN's analysis can immediately navigate any other medication's section.
-
-=== What root causes are consistent with this response
-
-[A short list of root cause hypotheses that match the expected response pattern to this medication. E.g., for LDN: "TRPM3 channelopathy with secondary neuroinflammation", "Post-infectious microglial priming", etc.]
-
-=== Limitations and unknowns
-
-- [Key limitation of this analysis]
-- [What we don't know that would change the interpretation]
-- [What level of evidence exists for these inferences — controlled trials vs. clinical observation vs. mechanistic reasoning from other conditions]
-- *Inference certainty overall:* Low/Medium/High, with one-sentence justification.
-
-*(Origin: medication-differential-analysis)*
-```
+1. **Heading level:** `====` — a subsubsection within the medication's existing section. `=====` for "If it works" / "If it does NOT work." `======` for individual diagnostic findings and interpretations. This gives each finding its own heading, visible in the PDF outline.
+2. **Finding headings are diagnostic statements, not mechanism numbers.** "Finding 1 — Neuroinflammation was present," not "Mechanism 1 — TLR4/microglia." The heading tells the reader what they learned, not which category it belongs to.
+3. **Causes go under findings, not as competing mechanisms.** When multiple causes could explain a single finding (e.g., dopamine deficiency can come from BH4 depletion, ATP failure, or HPA dysfunction), they are listed under the finding as sub-bullets with triangulation logic, not as separate numbered mechanisms.
+4. **"What this finding does NOT tell us" after every finding.** Symmetric with what it tells us. Equal prominence.
+5. **"Action:" after every finding.** One concrete sentence. Doctor scans for action items.
+6. **"What a positive response does NOT reveal"** — a separate subsection listing ambiguities that persist across all findings. This is where you state that response vs. placebo cannot be distinguished, that mechanism attribution is uncertain with multi-target drugs, etc.
+7. **Non-response interpretations get `======` headings.** Each interpretation is a distinct diagnostic possibility with its own heading.
+8. **Combination patterns:** `*If A works AND B works:*` bold labels, `Step 1/2/3`, `→` arrow for clinical action.
+9. **`*Certainty:*`** field in every finding, with justification that names the evidence type (in vitro, animal, human observational, RCT).
 
 ## Writing Style for Patient Accessibility
 
