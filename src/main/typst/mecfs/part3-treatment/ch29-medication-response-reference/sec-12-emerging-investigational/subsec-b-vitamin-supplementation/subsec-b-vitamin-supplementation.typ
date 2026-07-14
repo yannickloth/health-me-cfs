@@ -1,3 +1,7 @@
 === B Vitamin Supplementation
 
-B1 (thiamine) → PDH/TCA bottleneck. B2 (riboflavin) → Complex II bottleneck. B3 (niacin) → NAD+ pool. B6/P5P → neurotransmitter synthesis or BH4 recycling (GAD impairment if P5P increases GABA:Glx ratio). B9/B12 → methylation cycle, homocysteine burden, BH4 recycling. *Certainty:* Low to Medium — deficiency states well-characterized; specific enzyme bottleneck inference from supplementation is pharmacological. *Level of action:* Partial root cause — corrects deficiency; if deficiency is consumption-driven (inflammation consuming B6/BH4), supplementation compensates without eliminating the consumer.
+B1 (thiamine) → PDH/TCA bottleneck. B2 (riboflavin) → Complex II bottleneck. B3 (niacin) → NAD+ pool. B6/P5P → neurotransmitter synthesis or BH4 recycling (GAD impairment if P5P increases GABA:Glx ratio). B9/B12 → methylation cycle, homocysteine burden, BH4 recycling.
+
+*Certainty*   Low to Medium — deficiency states well-characterized; specific enzyme bottleneck inference from supplementation is pharmacological.
+
+*Level of action*   Partial root cause — corrects deficiency; if deficiency is consumption-driven (inflammation consuming B6/BH4), supplementation compensates without eliminating the consumer.

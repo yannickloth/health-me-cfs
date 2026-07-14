@@ -2,4 +2,8 @@
 
 DAO degrades histamine in the gut. Probes whether histamine intolerance (impaired degradation) or mast cell activation (excessive production) is the mechanism. ==== If DAO works
 
-histamine accumulates because it is not broken down (HIT). *If antihistamines work but DAO does not:* mast cell degranulation, not impaired degradation. *If both work:* combined MCAS + HIT. *Certainty:* Medium for HIT diagnostics. *Level of action:* Symptom management.
+histamine accumulates because it is not broken down (HIT). *If antihistamines work but DAO does not:* mast cell degranulation, not impaired degradation. *If both work:* combined MCAS + HIT.
+
+*Certainty*   Medium for HIT diagnostics.
+
+*Level of action*   Symptom management.

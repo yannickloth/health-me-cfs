@@ -2,4 +2,8 @@
 
 Stimulates auricular vagus nerve, enhancing parasympathetic tone. ==== If tVNS works
 
-vagal deficiency contributed to inflammation and autonomic dysfunction. *If sham outperforms:* GPCR autoantibodies may block muscarinic receptors, preventing acetylcholine signaling. *Certainty:* Low — sham-controlled post-COVID trials null. *Level of action:* Partial root cause.
+vagal deficiency contributed to inflammation and autonomic dysfunction. *If sham outperforms:* GPCR autoantibodies may block muscarinic receptors, preventing acetylcholine signaling.
+
+*Certainty*   Low — sham-controlled post-COVID trials null.
+
+*Level of action*   Partial root cause.

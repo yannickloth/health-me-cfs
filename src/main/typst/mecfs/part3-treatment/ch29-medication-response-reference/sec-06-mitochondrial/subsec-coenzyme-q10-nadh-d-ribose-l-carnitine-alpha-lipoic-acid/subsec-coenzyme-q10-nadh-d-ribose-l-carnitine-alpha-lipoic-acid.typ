@@ -4,11 +4,27 @@ These supplements probe whether energy production failure is a rate-limiting con
 
 ==== If mitochondrial supplements work
 
-Finding 1 — Energy production capacity was limiting function. Supplement provided rate-limiting substrate → ATP production increased → symptoms improved. *Certainty:* Low to Medium — CoQ10 meta-analysis (Tsai 2022) significant; NADH RCT (Forsyth 1999) 31% vs. 8% placebo. But trials are small, single-study, and effect sizes modest (10–30%). *Does NOT tell us:* why the bottleneck exists (genetic, oxidative damage, safe mode downregulation). *Action:* continuing supplementation + reducing demand through pacing + investigating the cause of mitochondrial impairment. *Level of action:* Partial root cause — supplements augment impaired complexes without repairing them.
+Finding 1 — Energy production capacity was limiting function. Supplement provided rate-limiting substrate → ATP production increased → symptoms improved.
 
-Finding 2 — Specific bottleneck identifiable by differential response. CoQ10 works but NADH doesn't → bottleneck downstream of Complex I. NADH works but CoQ10 doesn't → Complex I electron supply limiting. L-Carnitine works → fatty acid oxidation is the bottleneck. D-Ribose works → pentose phosphate pathway/purine salvage limiting ATP regeneration. *Certainty:* Low — no direct comparative ME/CFS studies. *Level of action:* Partial root cause.
+*Certainty*   Low to Medium — CoQ10 meta-analysis (Tsai 2022) significant; NADH RCT (Forsyth 1999) 31% vs. 8% placebo. But trials are small, single-study, and effect sizes modest (10–30%).
 
-Finding 3 — Metabolic safe mode may be partially overridden. If the safe mode has deliberately downregulated energy production (@sec:safe-mode), substrate supplementation may bypass regulated steps — but at the risk of working against the body's protective program. *Certainty:* Low — safe mode is a hypothesis. *Does NOT tell us:* whether overriding safe mode is beneficial or harmful (may accelerate oxidative damage).
+*Does NOT tell us*   why the bottleneck exists (genetic, oxidative damage, safe mode downregulation).
+
+*Action*   continuing supplementation + reducing demand through pacing + investigating the cause of mitochondrial impairment.
+
+*Level of action*   Partial root cause — supplements augment impaired complexes without repairing them.
+
+Finding 2 — Specific bottleneck identifiable by differential response. CoQ10 works but NADH doesn't → bottleneck downstream of Complex I. NADH works but CoQ10 doesn't → Complex I electron supply limiting. L-Carnitine works → fatty acid oxidation is the bottleneck. D-Ribose works → pentose phosphate pathway/purine salvage limiting ATP regeneration.
+
+*Certainty*   Low — no direct comparative ME/CFS studies.
+
+*Level of action*   Partial root cause.
+
+Finding 3 — Metabolic safe mode may be partially overridden. If the safe mode has deliberately downregulated energy production (@sec:safe-mode), substrate supplementation may bypass regulated steps — but at the risk of working against the body's protective program.
+
+*Certainty*   Low — safe mode is a hypothesis.
+
+*Does NOT tell us*   whether overriding safe mode is beneficial or harmful (may accelerate oxidative damage).
 
 ==== If mitochondrial supplements do NOT work
 - Energy production not the rate-limiting symptom driver — ATP produced but cannot be used (neuroinflammation, receptor dysfunction, hypoperfusion).

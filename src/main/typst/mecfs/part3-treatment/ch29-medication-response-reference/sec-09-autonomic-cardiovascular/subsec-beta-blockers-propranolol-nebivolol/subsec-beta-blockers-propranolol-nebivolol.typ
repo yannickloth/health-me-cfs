@@ -1,3 +1,7 @@
 === Beta-Blockers (Propranolol, Nebivolol)
 
-Reduce sympathetic tone. *If they work:* sympathetic overactivity contributing. *If they worsen fatigue:* reduced cardiac output worsens energy deficit. *Research-stage:* low-dose propranolol may competitively antagonize β2-adrenergic autoantibodies — if β2-AAb-positive patients respond preferentially. *Certainty:* Low for autoantibody mechanism. *Level of action:* Symptom management.
+Reduce sympathetic tone. *If they work:* sympathetic overactivity contributing. *If they worsen fatigue:* reduced cardiac output worsens energy deficit. *Research-stage:* low-dose propranolol may competitively antagonize β2-adrenergic autoantibodies — if β2-AAb-positive patients respond preferentially.
+
+*Certainty*   Low for autoantibody mechanism.
+
+*Level of action*   Symptom management.
