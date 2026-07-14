@@ -14,4 +14,4 @@
 
 #include "speculations/spec-exosome-pkpd-model.typ"
 
-#include "../../../ch42-brain-clearance-models.typ"
+#include "../../../ch43-brain-clearance-models.typ"

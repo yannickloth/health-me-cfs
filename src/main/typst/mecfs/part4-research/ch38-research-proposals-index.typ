@@ -4,7 +4,7 @@
 <ch:research-proposals-index>
 
 #chapter-abstract[
-This chapter collects every research proposal scattered across the paper — full protocols from Chapter 36, biomarker proposals from Chapter 29, infrastructure proposals from Chapter 35, and cross-disease proposals from Chapter 14d — into a single table sorted by impact-weighted feasibility. Each row links to the full protocol or source environment.
+This chapter collects every research proposal scattered across the paper — full protocols from Chapter 37, biomarker proposals from Chapter 30, infrastructure proposals from Chapter 36, and cross-disease proposals from Chapter 14d — into a single table sorted by impact-weighted feasibility. Each row links to the full protocol or source environment.
 ]
 
 == Sorted by Impact × Feasibility / Cost
@@ -93,4 +93,4 @@ Each row above links to a full protocol (@ch:proposed-studies), a biomarker spec
 
 *Consequence:* This index transforms 50 proposals scattered across 8 chapters into a single sortable decision tool. A funder can read the top 7 rows and identify the highest-leverage experiments achievable at lowest cost with existing data. The bottom rows identify programs that require infrastructure investment first. Every row is falsifiable: the proposed experiment could return a null result that redirects the field.
 
-#include "./ch36-proposed-studies/limitations/limitation-proposed-studies-untested-hypotheses-fr.typ"
+#include "./ch37-proposed-studies/limitations/limitation-proposed-studies-untested-hypotheses-fr.typ"
