@@ -402,6 +402,105 @@ The risk-benefit ratio requires careful consideration. Many experts consider val
 *Energy Profile.*
 Category C (energy-demanding). Valganciclovir imposes significant hepatic and renal processing burden. Bone marrow suppression diverts cellular resources from ATP-producing pathways toward hematopoietic recovery, directly undermining energy production. The combination of hepatic CYP metabolism, high renal clearance demands, and immune system reorganization makes this among the most metabolically costly medications used in ME/CFS. Reserve for cases where viral phenotyping strongly predicts benefit.
 
+=== What the Response Tells Us About Antivirals (Valacyclovir / Valganciclovir)
+
+Antivirals probe whether active herpesvirus replication — particularly EBV, HHV-6, or CMV — is contributing to ongoing symptoms. Both valacyclovir and valganciclovir inhibit viral DNA polymerase, blocking viral replication. The key diagnostic question is: does the patient have a viral driver, or does their ME/CFS persist through non-viral mechanisms despite a history of viral trigger? Valganciclovir adds a second dimension — it also probes HHV-6 and CMV involvement (broader spectrum) at the cost of significant toxicity (bone marrow suppression, Category C energy cost).
+
+==== If antivirals work: sustained improvement over 3–6 months, relapse on discontinuation
+
+====== Finding 1 — Active herpesvirus replication was contributing to symptoms
+
+Valacyclovir blocks EBV/VZV/HSV replication. Valganciclovir additionally blocks HHV-6 and CMV. Both require 3–6 months of continuous treatment for benefit to emerge, and patients often relapse on discontinuation — consistent with suppression of ongoing viral activity, not eradication.
+
+*Why antiviral response implicates it:* Drug blocked viral DNA polymerase → viral replication suppressed → symptoms improved over months → viral activity was contributing. The delayed response (3–4 months minimum) and relapse on discontinuation are characteristic of antiviral, not placebo, effects — viral suppression takes time and viral reactivation after drug withdrawal reproduces symptoms.
+
+*Certainty of this inference:* Medium for valacyclovir. The Lerner studies demonstrated ~30–40% response in patients with elevated EBV/HHV-6 titers, including one 36-month placebo-controlled trial @Lerner2007valacyclovir. Medium for valganciclovir: the Montoya EVOLVE RCT (n=30) showed 50–60% response with 7.4× increased likelihood of cognitive improvement vs. placebo @Montoya2013valganciclovir. However, both trials are small (total treated ~100 patients across all Lerner studies) and conducted by single groups without independent replication.
+
+*What this finding does NOT tell us:*
+- Whether the virus is the root cause or a secondary reactivation enabled by immune dysfunction. Antivirals suppress replication regardless of whether the virus initiated the disease or opportunistically reactivated in an immunocompromised host.
+- Whether viral clearance would cure ME/CFS or whether the immune and metabolic consequences of the initial infection persist independently. Relapse on discontinuation suggests suppression, not cure — the virus reactivates when the drug is removed.
+- Whether HHV-6 is specifically involved. Valganciclovir response could reflect HHV-6, CMV, or simply more potent EBV suppression than valacyclovir achieves.
+
+*Action:* If antivirals produce sustained improvement, the viral component is significant. Continue suppressive therapy while investigating what enabled the reactivation (immune dysfunction, metabolic stress, autoantibody-mediated immunosuppression). If the underlying immune deficit can be corrected, the virus may return to latency without ongoing antivirals.
+
+*Level of action:* Partial root cause. Active viral replication is a documented amplifier mechanism in ME/CFS — it can maintain the disease state but cannot initiate it from a healthy baseline (requires pre-existing immune compromise). Antivirals suppress the amplifier but do not address the immune deficit that permitted reactivation.
+
+====== Finding 2 (valganciclovir only) — HHV-6 or CMV was specifically involved
+
+Valganciclovir has significantly greater potency against HHV-6 and CMV than valacyclovir. If a patient fails valacyclovir but responds to valganciclovir, the benefit likely reflects suppression of a virus valacyclovir does not adequately cover — most commonly HHV-6 or CMV.
+
+*Why valganciclovir response after valacyclovir failure implicates it:* Valacyclovir failed to suppress EBV/VZV/HSV — the most common herpesvirus targets. Valganciclovir succeeded — the additional spectrum (HHV-6, CMV) is the most likely explanation. This is a specific, informative pattern.
+
+*Certainty of this inference:* Medium. The Montoya trial enrolled patients specifically for elevated HHV-6/EBV titers @Montoya2013valganciclovir. The differential spectrum of the two drugs is well-established. However, valganciclovir is also a more potent EBV inhibitor than valacyclovir — some of the differential response could reflect better EBV suppression rather than HHV-6/CMV involvement.
+
+*Action:* If valganciclovir works where valacyclovir failed, HHV-6 or CMV is likely involved. This directs monitoring toward HHV-6/CMV-specific markers if available.
+
+*Level of action:* Same as Finding 1 — partial root cause, suppressing a viral amplifier.
+
+====== Finding 3 — Immune function was sufficient to sustain antiviral benefit
+
+Antivirals block viral replication but do not eliminate latent virus. The immune system must suppress residual virus once replication is reduced. Patients who maintain improvement after antiviral discontinuation (or on reduced maintenance dosing) likely have sufficient immune function to control the virus once the replication burden was lowered.
+
+*Why sustained response after discontinuation implicates it:* Drug suppressed viral replication → immune system cleared residual active virus → virus returned to latency → no relapse after drug removal → immune function was sufficient, once the replication burden was reduced. This is prognostically favorable.
+
+*Certainty of this inference:* Low. The proportion of patients who maintain improvement after valganciclovir discontinuation is documented anecdotally in the Montoya study but not systematically quantified. The inference rests on the known mechanism of antiviral-immune cooperation, not direct immune function data.
+
+*Action:* If the patient maintains improvement after antiviral discontinuation, continue monitoring viral markers but no further antiviral escalation is needed. The immune system is handling residual virus.
+
+*Level of action:* This finding tells us about the patient, not the drug — it indicates immune competence, which is valuable prognostic information for other interventions (immunomodulation is more likely to succeed in patients with some preserved immune function).
+
+====== What a positive response does NOT reveal
+
+- *Whether the virus is the root cause or a secondary reactivation.* Both respond to antivirals.
+- *Whether ME/CFS would resolve with complete viral clearance or whether post-viral immune/metabolic changes are now self-sustaining.*
+- *Whether the response is specifically antiviral or partially immunomodulatory.* Some herpesvirus antivirals have off-target anti-inflammatory effects.
+
+==== If antivirals do NOT work (adequate dose, ≥ 6 months for valacyclovir, ≥ 3 months for valganciclovir)
+
+====== Interpretation 1 — Active viral replication is not the dominant disease driver
+
+If blocking viral DNA polymerase for months produces no improvement, the virus is not actively replicating at levels that drive symptoms. The elevated antibody titers that prompted the trial likely reflect a robust but irrelevant immune memory response to a past infection, or abortive lytic replication insufficient to generate symptoms responsive to DNA polymerase inhibitors.
+
+====== Interpretation 2 — The virus is in a tissue compartment the drug cannot reach
+
+Herpesviruses establish latency in sanctuary sites — EBV in B cells and epithelial cells, HHV-6 in glial cells and salivary glands, CMV in myeloid progenitors. Some compartments (CNS, salivary glands) may have insufficient drug penetration.
+
+====== Interpretation 3 — Viral reactivation is a consequence, not a cause
+
+If the underlying immune deficit permits viral reactivation, blocking the virus without correcting the immune deficit may simply shunt the virus into a different latency program without clinical benefit. The virus is a marker of immune dysfunction, not the driver of symptoms.
+
+====== Interpretation 4 — Patient selection was wrong
+
+Elevated antibody titers are common (>90% EBV seropositive in general population). Without confirmatory markers (EA-D IgG, PCR, dUTPase IgG), the pretest probability of active replication is low. Non-response in a patient selected only on VCA IgG titers does not meaningfully exclude viral involvement — it may simply mean the patient did not have active replication to suppress.
+
+==== How antivirals combine with other medications
+
+*Valacyclovir works + LDN works:*
+Step 1: Valacyclovir → active viral replication present. Step 2: LDN → neuroinflammation present. Step 3: Two independent drivers: virus maintaining immune activation + neuroinflammation driving symptoms. The viral trigger may be upstream of the neuroinflammation (virus → immune activation → microglial inflammation), or they may be parallel consequences of a shared immune deficit.
+→ *Treat both: continue antivirals for viral suppression + LDN for neuroinflammation. Investigating what enabled the viral reactivation may reveal treatable immune deficits.*
+
+*Valacyclovir works + valacyclovir fails to produce durable remission (relapse on discontinuation):*
+Step 1: Valacyclovir works → virus actively replicating. Step 2: Relapse on discontinuation → virus reactivates when drug removed. Step 3: The infection is not cleared — it is suppressed. The underlying immune deficit permitting reactivation persists.
+→ *The antiviral is suppressive, not curative. Identify and address the immune deficit. Consider indefinite suppressive therapy if immune correction is not achievable.*
+
+*Valacyclovir does NOT work + valganciclovir works:*
+Step 1: Valacyclovir failure → EBV/VZV/HSV not driving symptoms. Step 2: Valganciclovir success → HHV-6 or CMV likely driving symptoms (broader spectrum) or more potent EBV suppression needed. Step 3: The viral driver is qualitatively different or quantitatively larger than valacyclovir can address.
+→ *The virus is involved but requires broader-spectrum or higher-potency suppression. HHV-6 or CMV involvement should be investigated.*
+
+*Valacyclovir does NOT work + cimetidine works:*
+Step 1: Valacyclovir failure → viral DNA polymerase inhibition insufficient. Step 2: Cimetidine enhances T-cell function (blocking suppressor signals on regulatory T cells) and inhibits CYP450 — potentially altering viral latency through immune enhancement rather than direct polymerase inhibition. Step 3: The viral component may be driven by T-cell dysfunction rather than viral replication per se.
+→ *Cimetidine's immunomodulatory mechanism may be more relevant than direct antiviral activity. VIM phenotype consideration.*
+
+==== Limitations
+
+- *Small, single-group trials:* Lerner studies (total ~100 treated patients across all publications) and Montoya EVOLVE (n=30) have not been independently replicated.
+- *No validated biomarker for active replication:* Elevated antibody titers are poor predictors of antiviral response. PCR is insensitive for tissue-compartmentalized viruses. dUTPase IgG is a research assay.
+- *Valganciclovir toxicity limits diagnostic use:* Bone marrow suppression (Black Box Warning), renal toxicity, teratogenicity, and extreme cost make it a poor "diagnostic probe" in practice — the information comes at high clinical and financial cost.
+- *Relapse pattern suggests suppression, not cure:* Antivirals do not eliminate latent herpesviruses. The underlying immune deficit persists.
+- *Overall inference certainty:* Medium for valacyclovir, Low to Medium for valganciclovir. The existence of a viral subset is supported by controlled trials, but the prevalence, characteristics, and durability of response are uncertain.
+
+*(Origin: medication-differential-analysis)*
+
 === Antiretroviral Approaches
 
 ==== Rationale
