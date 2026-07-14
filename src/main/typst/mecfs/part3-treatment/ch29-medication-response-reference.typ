@@ -1,0 +1,18 @@
+#import "../shared/environments.typ": *
+
+= Medication Response as Diagnostic Information
+<ch:medication-response-reference>
+
+#include "ch29-medication-response-reference/sec-01-why-this-chapter-exists.typ"
+#include "ch29-medication-response-reference/sec-02-how-to-use.typ"
+#include "ch29-medication-response-reference/sec-03-immune-neuroimmune.typ"
+#include "ch29-medication-response-reference/sec-04-antiviral.typ"
+#include "ch29-medication-response-reference/sec-05-stimulants.typ"
+#include "ch29-medication-response-reference/sec-06-mitochondrial.typ"
+#include "ch29-medication-response-reference/sec-07-mast-cell-histamine.typ"
+#include "ch29-medication-response-reference/sec-08-oxidative-inflammatory.typ"
+#include "ch29-medication-response-reference/sec-09-autonomic-cardiovascular.typ"
+#include "ch29-medication-response-reference/sec-10-electrolytes.typ"
+#include "ch29-medication-response-reference/sec-11-sleep-pain.typ"
+#include "ch29-medication-response-reference/sec-12-emerging-investigational.typ"
+#include "ch29-medication-response-reference/sec-13-reference-table.typ"
