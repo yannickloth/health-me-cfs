@@ -3597,6 +3597,33 @@ This registry collects all hypotheses, speculations, open questions, and predict
   chapter-ref: [ch09:@spec:crh-loss-trigger-autoimmune],
   prediction: [Trigger-stratified autopsy series will show CRH counts differing by infectious trigger; PVN co-staining will show IgG on CRH but not AVP/OXT neurons with adjacent microglia. Falsified if CRH loss is trigger-independent or shows no IgG colocalisation.],
   treatment: [None now; if the two-hit model were supported, early immunomodulation could theoretically halt (not reverse) damage — untested.],
-  limitation: [Very low certainty; extensions of an already-preliminary finding; deferred pending replication and pilot colocalisation data.],
+   limitation: [Very low certainty; extensions of an already-preliminary finding; deferred pending replication and pilot colocalisation data.],
+)
+
+=== Entries added 2026-07-15: VMAT2 Striatal Dopamine in Long COVID → ME/CFS
+
+#registry-entry(
+  [Striatal Dopaminergic Terminal Loss as Cross-Condition Pathology in Post-Infectious ME/CFS],
+  type: "S",
+  certainty: "0.25",
+  evidence: [Liu et al. (2026) used VMAT2 PET [(+)11C-DTBZ] in 24 long COVID patients and 24 age-matched controls, finding 16-20% reduction in VMAT2 binding across ventral striatum, dorsal putamen, and dorsal caudate (P=4×10⁻⁵) — reductions comparable to mild-moderate Parkinson's disease @Liu2026VMAT2longcovid. The same Toronto cohort showed striatal TSPO PET (microglial activation) @Braga2023neuroCOVID and MAO-B PET (astrogliosis) @Braga2025astrogliosis. COVID-recovered controls had normal VMAT2, confirming specificity to persistent illness. Postmortem evidence shows SARS-CoV-2 infects dopaminergic neurons via ACE2 and induces senescence @Yang2024dopaminesenescence. Convergent postviral DA neuron vulnerability evidence from alphavirus (Bantle 2019) and interferon-alpha (Capuron 2012). Zero VMAT2 PET data in ME/CFS. Aregawi et al. (2026) found normal CSF DA pathway indices in PI-ME/CFS, with selective noradrenergic deficiency @Aregawi2026Noradrenergic.],
+  citations: [@Liu2026VMAT2longcovid @Braga2023neuroCOVID @Braga2025astrogliosis @Yang2024dopaminesenescence @Aregawi2026Noradrenergic @Bantle2019alphavirus @Capuron2012dopamineinterferon @Chen2020ACE2brain],
+  mechanism: [SARS-CoV-2 infection → direct ACE2-mediated DA neuron infection in SN/VTA, OR striatal gliosis (microglial + astroglial activation) → synaptic pruning/ROS damage → dopaminergic terminal loss in ventral striatum (apathy), dorsal putamen (motor slowing), and dorsal caudate (memory decline). Preserved DA synthesis capacity (normal CSF DOPAC/HVA) suggests terminal loss with compensatory synthesis upregulation, or MAO-B hyperactivity increasing DA degradation without structural loss.],
+  chapter-ref: [ch08:@cf:vmat2-longcovid],
+  prediction: [VMAT2 PET [(18F)AV133] in ME/CFS patients will show reduced striatal binding vs healthy controls in a subset with apathy and motor slowing. Falsified if ME/CFS patients show normal VMAT2 binding in all striatal subregions (P≥0.05 for all) — which would establish that the long COVID VMAT2 finding does not generalize. Also falsified if VMAT2 reduction in ME/CFS is present but does not correlate with apathy or motor slowing.],
+  treatment: [If confirmed: DA augmentation (L-DOPA, MAO-B inhibitors, dopamine agonists) as phenotype-targeted treatment for apathy-predominant post-infectious ME/CFS. VMAT2 PET as stratification tool for clinical trials. Currently all hypothetical — no ME/CFS-specific evidence.],
+  limitation: [No VMAT2 or DAT PET in ME/CFS. Cross-condition inference only. Aregawi 2026 normal DA pathway indices argue against global DA deficiency. Liu 2026 sample (young, apathy-predominant, n=24) limits generalizability. VMAT2 binding may reflect vesicle density rather than terminal count. Origin: literature inference.],
+)
+#registry-entry(
+  [Dopaminergic Augmentation as Phenotype-Targeted Treatment in Post-Infectious ME/CFS],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Contingent on the VMAT2 terminal loss hypothesis. L-DOPA augments dopamine in Parkinson's disease with established efficacy on motor and motivational symptoms. MAO-B inhibitors (selegiline, rasagiline) prevent dopamine degradation. Rasagiline + tyramine patent filed for long COVID by Meyer (Liu 2026 senior author). Dopamine agonists (pramipexole, ropinirole) bypass terminal integrity. LDA (aripiprazole) already in off-label ME/CFS use as partial D2/D3 agonist with anti-microglial properties. Zero trials of any dopaminergic augmentation strategy in ME/CFS.],
+  citations: [@Liu2026VMAT2longcovid @Aregawi2026Noradrenergic],
+  mechanism: [Dopamine precursors (L-DOPA) provide substrate for surviving terminals; MAO-B inhibitors slow degradation in synapse, particularly relevant if astrogliosis-driven MAO-B hyperactivity (Braga 2025) accelerates turnover; dopamine agonists activate postsynaptic receptors independent of terminal integrity; partial agonists (LDA) modulate rather than augment tone while adding anti-microglial effects.],
+  chapter-ref: [ch24:@spec:dopaminergic-augmentation-mecfs],
+  prediction: [L-DOPA/carbidopa trial in apathy-predominant PI-ME/CFS will show greater improvement in Marin Apathy Evaluation Scale and Finger Tapping Test in patients with VMAT2 PET-confirmed reduction vs patients with normal VMAT2 binding. Falsified if L-DOPA shows no differential benefit in VMAT2-low vs VMAT2-normal groups, or if it worsens orthostatic intolerance to the point of trial discontinuation.],
+  treatment: [If confirmed in VMAT2-low ME/CFS phenotype: L-DOPA 25/100 mg at 1/4–1/2 tablet starting dose (far below Parkinson's dosing) with slow titration. Selegiline 1.25–2.5 mg/day. Rasagiline 0.5–1 mg/day. All require screening for OI/POTS, dietary counseling for MAOIs, and serotonin syndrome risk assessment. Not for severe/very severe patients due to OI risk.],
+  limitation: [No ME/CFS clinical data. Entire hypothesis rests on cross-condition extrapolation. Aregawi 2026 normal DA pathway raises possibility that VMAT2 reduction does not translate to functional DA deficiency. MAOI dietary/serotonin interactions are burdensome in a population with unpredictable dietary tolerance. Impulse control disorder risk from agonists. OI worsening from L-DOPA and agonists. Origin: literature inference.],
 )
 

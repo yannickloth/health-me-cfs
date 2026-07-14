@@ -25818,3 +25818,144 @@ sec-bib-rf-elevated-mecfs-duplicate
         - *Replication:* Converges with Tyler 2022, Stache 2023
         - *Score:* 0.55
 
+
+// =============================================================================
+// VMAT2 / Striatal Dopamine in Long COVID and ME/CFS
+// Added: 2026-07-15, research_stream = {vmat2-striatum-longcovid}
+// =============================================================================
+
+<sec:bib-vmat2-striatum-longcovid>
+
+== VMAT2 Loss in Striatum of Long COVID and Relevance to ME/CFS
+<sec:bib-vmat2-striatum-longcovid>
+
+=== Liu et al.\ 2026 — Primary VMAT2 PET Study in Long COVID
+
+    *Full Citation:*: Liu YK, Persaud D, Vieira EL, et al.\ Loss of vesicular monoamine transporter 2 in striatum of long COVID and relationship to neuropsychiatric symptoms. _eBioMedicine_. 2026. @Liu2026VMAT2longcovid
+    *DOI:*: #link("https://doi.org/10.1016/j.ebiom.2026.106339")[10.1016/j.ebiom.2026.106339]
+    *Study Design:*: Case-control PET imaging study
+    *Sample Size:*: n=24 long COVID, n=24 age-matched healthy controls (extended to 43)
+    *Key Findings:*:
+        - (+)[11C]DTBZ BPND (VMAT2) reduced 16-20% in ventral striatum, dorsal putamen, dorsal caudate (P=4×10⁻⁵)
+        - COVID-recovered controls had normal VMAT2 binding vs never-COVID controls (P=0.77)
+        - Apathy severity correlated with ventral striatum VMAT2 (r=−0.54, P=0.0069)
+        - Motor slowing (Finger Tapping) correlated with dorsal putamen VMAT2 (r=0.51, P=0.010)
+        - Memory decline correlated with dorsal caudate VMAT2 (r=0.58, P=0.0029)
+        - No relationship to BDI depression score or peripheral DA metabolite markers
+    *Conclusion:*: Long COVID involves reduced striatal dopaminergic terminal integrity, suggesting DA augmentation (L-dopa, MAOIs) as treatment direction
+    *Limitations:*: Young sample (mean 32.2); apathy-predominant phenotype; n=24; no pre-COVID baseline; no D2/D3 receptor measure
+    *ME/CFS Relevance:*: First direct evidence of dopaminergic terminal loss in a postviral chronic illness. If replicated in ME/CFS, would establish DA deficiency as treatment target. Circumstantial support: overlapping symptoms (apathy, cognitive/motor slowing), shared postviral aetiology, and striatal gliosis in ME/CFS (Nakatomi 2014) convergent with Toronto cohort findings.
+    *Certainty Assessment:*:
+        - *Quality:* High (eBioMedicine; well-validated PET methodology; recovery control group)
+        - *Sample:* Medium (n=24 per group; limited power for subgroup analyses)
+        - *Replication:* First study of its kind — requires independent replication
+        - *Score:* 0.72
+
+=== Braga et al.\ 2023 — Striatal Neuroinflammation in Long COVID (Same Cohort)
+
+    *Full Citation:*: Braga J, Lepra M, Kish SJ, et al.\ Neuroinflammation After COVID-19 With Persistent Depressive and Cognitive Symptoms. _JAMA Psychiatry_. 2023;80(8):787--795. @Braga2023neuroCOVID
+    *DOI:*: #link("https://doi.org/10.1001/jamapsychiatry.2023.1321")[10.1001/jamapsychiatry.2023.1321]
+    *PMID:*: 37256580
+    *Study Design:*: Cross-sectional TSPO PET [18F]-FEPPA imaging
+    *Sample Size:*: n=20 COVID-DC, n=20 healthy controls
+    *Key Findings:*:
+        - Elevated TSPO binding (microglial activation) in striatum, prefrontal cortex, ACC
+        - TSPO binding correlated with depressive symptom severity
+        - Same CAMH Toronto cohort subsequently studied for VMAT2 (Liu 2026)
+    *Conclusion:*: Persistent neuroinflammation (gliosis) is present in long COVID striatum
+    *ME/CFS Relevance:*: Provides upstream mechanism for VMAT2 loss: gliosis → synaptic pruning/ROS → DA terminal damage. Striatal gliosis also reported in ME/CFS (Nakatomi 2014).
+    *Certainty Assessment:*:
+        - *Quality:* High (JAMA Psychiatry; well-validated tracer)
+        - *Sample:* Medium (n=20 per group)
+        - *Replication:* Partially replicated by Visser 2025 (variable) and VanElzakker 2024 (vascular-linked)
+        - *Score:* 0.72
+
+=== Braga et al.\ 2025 — Astrogliosis in Long COVID Striatum
+
+    *Full Citation:*: Braga J, Kuik EJY, Lepra M, et al.\ Astrogliosis marker [11C]SL25.1188 after COVID-19 with ongoing depressive and cognitive symptoms. _Biological Psychiatry_. 2025;97(8):816--824. @Braga2025astrogliosis
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2024.09.027")[10.1016/j.biopsych.2024.09.027]
+    *PMID:*: 39395470
+    *Study Design:*: Cross-sectional PET [11C]SL25.1188 (MAO-B, astrogliosis)
+    *Sample Size:*: n=21 COVID-DC, n=22 controls
+    *Key Findings:*:
+        - Elevated MAO-B binding (astrogliosis) in striatum, PFC, ACC, insula
+        - Astrogliosis in identical striatal regions showing VMAT2 loss in Liu 2026
+        - MAO-B hyperactivity may directly degrade dopamine (additional mechanism)
+    *Conclusion:*: Dual microglial (TSPO) and astroglial (MAO-B) activation in long COVID striatum
+    *ME/CFS Relevance:*: MAO-B hyperactivity as treatment target (MAO inhibitors). Astrogliosis also reported in ME/CFS neuropathology.
+    *Certainty Assessment:*:
+        - *Quality:* High (Biological Psychiatry; same well-characterized cohort)
+        - *Sample:* Medium (n=21 per group)
+        - *Replication:* Consistent with Braga 2023; extends to astroglial compartment
+        - *Score:* 0.70
+
+=== Visser et al.\ 2025 — Heterogeneous TSPO in Post-COVID Fatigue
+
+    *Full Citation:*: Visser D, Golla SSV, Palard-Novello X, et al.\ Varying levels of inflammatory activity in brain and body of patients with persistent fatigue and difficulty concentrating after COVID-19: a TSPO PET study. _Journal of Nuclear Medicine_. 2025;66(11):1787--1794. @Visser2025TSPOfatigue
+    *DOI:*: #link("https://doi.org/10.2967/jnumed.124.269297")[10.2967/jnumed.124.269297]
+    *Sample Size:*: n=27 post-COVID fatigue, n=18 controls
+    *Key Findings:*: Variable TSPO binding — subset increased, subset decreased — highlighting neuroinflammatory heterogeneity in long COVID
+    *ME/CFS Relevance:*: Neuroinflammatory heterogeneity likely also present in ME/CFS, complicating interpretation of Raijmakers 2022 null finding.
+    *Certainty Assessment:*: - *Quality:* Medium-high - *Sample:* Moderate (n=27) - *Replication:* Partially consistent with Braga 2023 - *Score:* 0.55
+
+=== VanElzakker et al.\ 2024 — Vascular-Linked TSPO in PASC
+
+    *Full Citation:*: VanElzakker MB, Bues HF, Brusaferri L, et al.\ Neuroinflammation in post-acute sequelae of COVID-19 (PASC) as assessed by [11C]PBR28 PET correlates with vascular disease measures. _Brain, Behavior, and Immunity_. 2024;119:713--723. @VanElzakker2024PASCneuro
+    *DOI:*: #link("https://doi.org/10.1016/j.bbi.2024.04.015")[10.1016/j.bbi.2024.04.015]
+    *Key Findings:*: TSPO binding correlated with vascular disease measures, not uniform neuroinflammation. Raises alternative source of TSPO signal in long COVID.
+    *ME/CFS Relevance:*: Important to consider vascular component of TSPO signal in both long COVID and ME/CFS. Not all TSPO increase = gliosis.
+    *Certainty Assessment:*: - *Quality:* Medium - *Sample:* Small (n=12) - *Replication:* Single study - *Score:* 0.58
+
+=== Yang et al.\ 2024 — DA Neuron Senescence by SARS-CoV-2
+
+    *Full Citation:*: Yang L, Kim TW, Han Y, et al.\ SARS-CoV-2 infection causes dopaminergic neuron senescence. _Cell Stem Cell_. 2024;31(2):196--211.e6. @Yang2024dopaminesenescence
+    *DOI:*: #link("https://doi.org/10.1016/j.stem.2023.12.012")[10.1016/j.stem.2023.12.012]
+    *Study Design:*: Human iPSC-derived DA neurons + postmortem substantia nigra tissue
+    *Sample Size:*: n=13 acute COVID-19 postmortem, 8 controls
+    *Key Findings:*:
+        - SARS-CoV-2 directly infects DA neurons via ACE2
+        - Induces senescence (not acute cell death)
+        - Detectable viral transcripts in SN of COVID-19 postmortem
+    *Limitations:*: Elderly sample (mean 69.7); acute COVID not long COVID; some with dementia/Parkinson's; small n
+    *ME/CFS Relevance:*: Key mechanistic precedent for DA neuron vulnerability to SARS-CoV-2. Suggests viral persistence/dormancy may drive chronic DA dysfunction.
+    *Certainty Assessment:*: - *Quality:* High (Cell Stem Cell, direct mechanistic evidence) - *Sample:* Small (n=13 postmortem) - *Relevance to LC/ME:* Indirect (acute COVID, not long COVID, elderly, comorbid) - *Score:* 0.65
+
+=== Rudroff 2024 — Basal Ganglia Fatigue Circuit in Long COVID
+
+    *Full Citation:*: Rudroff T. Decoding Post-Viral Fatigue: The Basal Ganglia's Complex Role in Long-COVID. _Neurology International_. 2024;16(2):380--393. @Rudroff2024basalganglia
+    *DOI:*: #link("https://doi.org/10.3390/neurolint16020028")[10.3390/neurolint16020028]
+    *Key Findings:*: Narrative review + FDG-PET data showing reduced frontal-striatal glucose metabolism in long COVID. Basal ganglia fatigue circuit model.
+    *ME/CFS Relevance:*: Integrates motor, cognitive, and motivational domains in common circuit. Convergent with Walitt 2024 finding of altered effort preference.
+    *Certainty Assessment:*: - *Quality:* Low-medium (narrative review, limited original data) - *Score:* 0.50
+
+=== Sauve et al.\ 2023 — GnRH Neuron Death in Long COVID (Precedent)
+
+    *Full Citation:*: Sauve F, Nampoothiri S, Clarke SA, et al.\ Long-COVID cognitive impairments and reproductive hormone deficits in men may stem from GnRH neuronal death. _eBioMedicine_. 2023;96:104784. @Sauve2023GnRHlongCOVID
+    *DOI:*: #link("https://doi.org/10.1016/j.ebiom.2023.104784")[10.1016/j.ebiom.2023.104784]
+    *Key Findings:*: Postmortem study showing GnRH neuron death in hypothalamus of male long COVID patients. Establishes precedent for viral-induced specific neuronal subtype loss.
+    *ME/CFS Relevance:*: Same general mechanism (infection → neuron subtype loss) may apply to DA neurons. Different cell type, shared principle.
+    *Certainty Assessment:*: - *Quality:* Medium-high (postmortem, Netherlands Brain Bank) - *Score:* 0.65
+
+=== Bantle et al.\ 2019 — Alphavirus Selective DA Neuron Loss (Animal Model)
+
+    *Full Citation:*: Bantle CM, Phillips AT, Smeyne RJ, et al.\ Infection with mosquito-borne alphavirus induces selective loss of dopaminergic neurons, neuroinflammation and widespread protein aggregation. _NPJ Parkinson's Disease_. 2019;5:20. @Bantle2019alphavirus
+    *DOI:*: #link("https://doi.org/10.1038/s41531-019-0090-8")[10.1038/s41531-019-0090-8]
+    *Key Findings:*: Mouse model: WEEV causes selective DA neuron loss in SN. Demonstrates viral selectivity for DA neurons across virus families.
+    *ME/CFS Relevance:*: Supports postviral DA vulnerability as general mechanism, not specific to SARS-CoV-2.
+    *Certainty Assessment:*: - *Quality:* Medium (animal model only) - *Score:* 0.50
+
+=== Chen et al.\ 2020 — ACE2 Distribution in Human Brain
+
+    *Full Citation:*: Chen R, Wang K, Yu J, et al.\ The spatial and cell-type distribution of SARS-CoV-2 receptor ACE2 in the human and mouse brains. _Frontiers in Neurology_. 2020;11:573095. @Chen2020ACE2brain
+    *DOI:*: #link("https://doi.org/10.3389/fneur.2020.573095")[10.3389/fneur.2020.573095]
+    *Key Findings:*: ACE2 highly expressed in SN and VTA (dopaminergic cell body regions). Establishes molecular basis for SARS-CoV-2 tropism to DA neurons.
+    *ME/CFS Relevance:*: If ME/CFS shares postviral mechanisms, ACE2 expression in DA regions is relevant even without SARS-CoV-2 — similar receptors may exist for other viruses.
+    *Certainty Assessment:*: - *Quality:* Medium - *Replication:* Supported by Hernández 2021 (rat brain) - *Score:* 0.60
+
+=== Capuron et al.\ 2012 — Inflammation-Induced DA Deficiency Model
+
+    *Full Citation:*: Capuron L, Pagnoni G, Drake DF, et al.\ Dopaminergic mechanisms of reduced basal ganglia responses to hedonic reward during interferon alfa administration. _Archives of General Psychiatry_. 2012;69(10):1044--1053. @Capuron2012dopamineinterferon
+    *DOI:*: #link("https://doi.org/10.1001/archgenpsychiatry.2011.2094")[10.1001/archgenpsychiatry.2011.2094]
+    *Key Findings:*: [18F]DOPA PET shows interferon-alpha reduces DA synthesis in basal ganglia, linked to anhedonia and psychomotor slowing. Establishes mechanistic chain: inflammation → DA deficiency → motivational/motor symptoms in humans.
+    *ME/CFS Relevance:*: Foundational precedent for inflammation-driven DA dysfunction producing identical symptoms to ME/CFS (apathy, motor slowing). Cytokine model directly applicable to ME/CFS neuroinflammatory hypothesis.
+    *Certainty Assessment:*: - *Quality:* High (Arch Gen Psychiatry, PET methodology, controlled cytokine challenge) - *Score:* 0.68
