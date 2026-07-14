@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": *
+#import "src/main/typst/mecfs/shared/environments.typ": *
 
 == Why This Chapter Exists
 
