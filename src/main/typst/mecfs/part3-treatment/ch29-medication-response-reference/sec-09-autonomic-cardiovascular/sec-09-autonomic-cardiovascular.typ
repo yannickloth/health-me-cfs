@@ -1,4 +1,3 @@
-#import "../../../../shared/environments.typ": *
 
 == Autonomic and Cardiovascular Probes
 

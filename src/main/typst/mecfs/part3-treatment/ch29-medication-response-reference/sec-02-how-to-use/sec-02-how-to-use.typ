@@ -1,4 +1,3 @@
-#import "../../../../shared/environments.typ": *
 
 == How to Use This Chapter
 

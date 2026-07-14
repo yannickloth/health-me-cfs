@@ -1,4 +1,3 @@
-#import "../../../../shared/environments.typ": *
 
 == Reference Table: Medications by Physiological System Probed
 

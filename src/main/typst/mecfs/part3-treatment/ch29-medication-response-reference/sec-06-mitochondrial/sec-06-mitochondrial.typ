@@ -1,4 +1,3 @@
-#import "../../../../shared/environments.typ": *
 
 == Mitochondrial and Energy Substrate Probes
 

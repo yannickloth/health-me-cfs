@@ -1,4 +1,3 @@
-#import "../../../../shared/environments.typ": *
 
 == Immune and Neuroimmune Probes
 
