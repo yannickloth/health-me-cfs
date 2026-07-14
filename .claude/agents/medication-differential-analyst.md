@@ -91,45 +91,35 @@ Each medication gets a `====` subsubsection within its existing section. The str
 
 [1 paragraph: what this drug targets, what systems it probes. Define medical terms.]
 
-===== If [medication] works: [what improves — fatigue, brain fog, PEM, pain, etc.]
-
-====== Finding 1 — [what the response tells us, e.g. "Neuroinflammation was present"]
+==== ✓ If [medication] works: [what improves — fatigue, brain fog, PEM, pain, etc.]
 
 [1-2 sentences: the biology — what the drug does to what system.]
 
-*Why [medication] response implicates it:* [logical chain: drug X targets mechanism Y → patient improves → mechanism Y was dysfunctional.]
+*Why [medication] response implicates it*   [logical chain: drug X targets mechanism Y → patient improves → mechanism Y was dysfunctional.]
 
-*Certainty of this inference:* [Low / Low to Medium / Medium] — [justification grounded in evidence: in vitro, animal, human ME/CFS data, whether controlled trials exist, whether target engagement has been measured in living patients.]
+*Certainty*   [Low / Low to Medium / Medium] — [justification grounded in evidence: in vitro, animal, human ME/CFS data, whether controlled trials exist, whether target engagement has been measured in living patients.]
 
-*What this finding does NOT tell us:* [upstream cause unknown, primary vs secondary indistinguishable, confounded by other drug targets, etc.]
+*Does NOT tell us*   [upstream cause unknown, primary vs secondary indistinguishable, confounded by other drug targets, etc.]
 
-*Action:* [1 sentence: what the doctor does differently knowing this. Not a prescription — framed as "becomes relevant" or "should be investigated."]
+*Action*   [1 sentence: what the doctor does differently knowing this. Not a prescription — framed as "becomes relevant" or "should be investigated."]
 
-*Level of action:* [Root cause / Partial root cause / Symptom management] — [1 sentence: does this drug fix the disease mechanism, partially correct it, or merely compensate for a downstream consequence? E.g.: "Root cause: LDN restores TRPM3 function, a trigger-capable root cause — but whether restoration is complete and sustained is unknown." "Symptom management: LDA stimulates dopamine receptors without restoring dopamine production or removing the inflammatory signals depleting BH4." "Partial root cause: LDN calms microglia, reducing neuroinflammation, but does not remove whatever is activating them."]
+*Level of action*   [Root cause / Partial root cause / Symptom management] — [1 sentence.]
 
-====== Finding 2 — [next diagnostic finding]
+[Repeat for each additional finding, separated by blank lines.]
 
-[Same structure as Finding 1.]
-
-====== What a positive response does NOT reveal
+==== What a positive response does NOT reveal
 
 - [Key ambiguities that persist despite response — which mechanisms are indistinguishable, whether response is pharmacological or placebo, etc.]
 
-===== If [medication] does NOT work (adequate dose ≥ [X], ≥ [Y] weeks)
+==== ✗ If [medication] does NOT work (adequate dose ≥ [X], ≥ [Y] weeks)
 
-====== Interpretation 1 — [what non-response suggests, e.g. "Neuroinflammation may not be dominant"]
+[1-2 sentences per interpretation. Always include the caveat: the drug may simply not reach its target.]
 
-[1-2 sentences: why non-response makes this less likely. Always include the caveat: the drug may simply not reach its target.]
+- *[Interpretation 1]*   [why non-response makes this less likely.]
+- *[Interpretation 2]*   ...
+- *[Medication] may not work better than placebo in ME/CFS*   No large RCT has demonstrated superiority to placebo. If the drug = placebo, all responses interpreted above may be placebo effects or natural fluctuations. This cannot be excluded.
 
-====== Interpretation 2 — [...]
-
-...
-
-====== Interpretation N — [Medication] may not work better than placebo in ME/CFS
-
-No large RCT has demonstrated superiority to placebo. If the drug = placebo, all responses interpreted above may be placebo effects or natural fluctuations. This cannot be excluded.
-
-====== Key caveat on non-response
+==== Key caveat on non-response
 
 Non-response is weaker evidence than response. It makes a mechanism less likely but does not exclude it. [Medication] non-response also does not exclude [mechanisms this drug does not target].
 
@@ -158,14 +148,10 @@ Step 1: [A] → [mechanism]. Step 2: [B] non-response → [what this rules out].
 
 ### Key structural conventions
 
-1. **Heading level:** `====` — a subsubsection within the medication's existing section. `=====` for "If it works" / "If it does NOT work." `======` for individual diagnostic findings and interpretations. This gives each finding its own heading, visible in the PDF outline.
-2. **Finding headings are diagnostic statements, not mechanism numbers.** "Finding 1 — Neuroinflammation was present," not "Mechanism 1 — TLR4/microglia." The heading tells the reader what they learned, not which category it belongs to.
-3. **Causes go under findings, not as competing mechanisms.** When multiple causes could explain a single finding (e.g., dopamine deficiency can come from BH4 depletion, ATP failure, or HPA dysfunction), they are listed under the finding as sub-bullets with triangulation logic, not as separate numbered mechanisms.
-4. **"What this finding does NOT tell us" after every finding.** Symmetric with what it tells us. Equal prominence.
-5. **"Action:" after every finding.** One concrete sentence. Doctor scans for action items.
-6. **"Level of action:" after every finding.** One of three values — *Root cause* (drug targets a disease-initiating mechanism), *Partial root cause* (drug reduces a disease-maintaining mechanism without removing its trigger), *Symptom management* (drug compensates for a downstream consequence while the disease process continues). This is the most clinically important field — it tells the patient whether the drug is fixing what's broken or masking the symptoms.
-7. **"What a positive response does NOT reveal"** — a separate subsection listing ambiguities that persist across all findings. This is where you state that response vs. placebo cannot be distinguished, that mechanism attribution is uncertain with multi-target drugs, etc.
-8. **Non-response interpretations get `======` headings.** Each interpretation is a distinct diagnostic possibility with its own heading.
+1. **Heading level:** `====` subsubsection within the medication's existing section. `✓` prefix for works, `✗` prefix for doesn't work. Instant visual scan of which inference type.
+2. **Block-level field labels:** `*Certainty*`, `*Does NOT tell us*`, `*Action*`, `*Level of action*`, `*Why response implicates it*` — each on its own line with hanging indent (no colon after the label). Colons removed: `*Certainty*   value` not `*Certainty:* value`. This makes every field scannable without reading paragraphs.
+3. **No `: ` after block labels.** The visual hanging indent replaces the colon as a separator.
+4. **Combination patterns:** `*If A works AND B works:*` bold labels, `Step 1/2/3`, `→` arrow for clinical action.
 8. **Combination patterns:** `*If A works AND B works:*` bold labels, `Step 1/2/3`, `→` arrow for clinical action.
 9. **`*Certainty:*`** field in every finding, with justification that names the evidence type (in vitro, animal, human observational, RCT).
 
