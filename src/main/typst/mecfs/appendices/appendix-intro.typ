@@ -3,5 +3,5 @@
 #doc-appendix[
   A — Glossary · B — Abbreviations · C — Diagnostic Tools · D — Resources \
   E — Mathematical Details · F — Supplement Guide · G — Research Synthesis \
-  H — Annotated Bibliography · I — Research Registry
+  H — Annotated Bibliography · I — Research Registry · J — Medical Toolkit
 ]

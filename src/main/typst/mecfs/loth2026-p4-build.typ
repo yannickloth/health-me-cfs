@@ -215,6 +215,7 @@
 #include "appendices/appendix-g-research-synthesis.typ"
 #include "appendices/appendix-h-annotated-bibliography.typ"
 #include "appendices/appendix-i-research-registry.typ"
+#include "appendices/appendix-j-medical-toolkit.typ"
 
 // =============================================================================
 // BIBLIOGRAPHY
