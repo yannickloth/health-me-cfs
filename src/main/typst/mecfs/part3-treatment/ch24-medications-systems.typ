@@ -245,6 +245,68 @@ Category C (energy-demanding). B-cell depletion triggers major immune remodeling
 
 Additional immunomodulatory agents (corticosteroids, interferons, cyclophosphamide) have been explored in ME/CFS on a case-report or small-series basis, but lack sufficient evidence to warrant detailed treatment protocols. These are generally Category C (energy-demanding) due to broad immune activation or suppression and should only be considered within specialized research settings.
 
+=== What the Response Tells Us About IVIG and Rituximab
+
+IVIG (pooled donor immunoglobulins) and rituximab (anti-CD20 B-cell depletion) probe whether autoantibody-mediated or immune-complex-driven mechanisms are contributing. Both target the humoral immune system — IVIG by neutralizing autoantibodies and modulating Fc receptors, rituximab by eliminating B cells that produce autoantibodies. The diagnostic signal from these interventions is among the most mechanistically specific available, but both carry significant energy costs (Category C) and logistical barriers.
+
+==== If IVIG or rituximab works: improvement across multiple symptom domains (fatigue, cognitive, autonomic)
+
+====== Finding 1 — Autoantibody-mediated pathology was present
+
+IVIG neutralizes circulating autoantibodies (anti-idiotype antibodies, FcRn saturation accelerating autoantibody clearance, FcγR modulation reducing effector responses). Rituximab eliminates CD20+ B cells, the precursors of autoantibody-producing plasma cells. If either produces sustained improvement, autoantibodies were contributing to symptoms.
+
+*Why response implicates it:* Drug reduced autoantibody levels or effects → symptoms improved → autoantibodies were pathogenic. This is among the strongest mechanistic inferences in ME/CFS pharmacology — both drugs have well-characterized mechanisms specifically targeting humoral autoimmunity.
+
+*Certainty of this inference:* Low to Medium. IVIG: uncontrolled series show response, no large ME/CFS RCT. Rituximab: Phase III trial negative in unselected patients, but subset analyses suggest benefit in autoantibody-positive subgroups. The negative overall result and the subset signal together suggest autoantibodies are pathogenic in a minority, not a majority, of ME/CFS patients.
+
+*What this finding does NOT tell us:* Which specific autoantibodies are pathogenic — anti-β2AR, anti-M3R, anti-TRPM3, and dozens of other specificities have been reported (@sec:root-gpcr). Broad immunomodulation does not identify the target. Whether autoantibodies are the root cause or a secondary amplifier of immune dysfunction.
+
+*Action:* Autoantibody testing (GPCR autoantibody panel, if available) is warranted. If specific autoantibodies are identified, targeted therapies (immunoadsorption, B-cell depletion, FcRn blockade) become relevant. If autoantibody testing is negative but the patient responded, consider non-GPCR autoantibodies or autoantibodies not covered by available panels.
+
+*Level of action:* Partial root cause. IVIG and rituximab reduce autoantibody effects but do not eliminate the plasma cells that produce them (rituximab spares long-lived plasma cells, which lack CD20). The autoantibody source persists unless targeted by plasma-cell-depleting agents (daratumumab). This is why rituximab responses are often transient — B cells repopulate and autoantibody production resumes.
+
+====== Finding 2 (rituximab-specific) — B-cell-driven pathology confirmed, but plasma cells spared
+
+Rituximab eliminates CD20+ B cells. If a patient improves then relapses as B cells repopulate, the disease mechanism is B-cell-dependent — but if the improvement is limited, long-lived plasma cells (CD20−) may be maintaining autoantibody production independently of B cells. The rituximab Phase III failure in unselected patients and the subset response signal together suggest that autoantibodies are pathogenic in a minority, and that B-cell depletion alone is insufficient even in responders (plasma cells persist).
+
+*Why the relapse pattern implicates it:* Response → B cells depleted → autoantibody production from short-lived plasmablasts stopped → improvement. Relapse → B cells repopulated → autoantibody production resumed → symptoms returned. The plasma cell compartment (CD20−, long-lived) was not eliminated — explaining why benefit was partial in responders and absent in non-responders.
+
+*Certainty of this inference:* Medium. The Phase III rituximab results are high-quality evidence. The plasma cell sanctuary hypothesis is mechanistically well-supported but has not been directly tested in ME/CFS.
+
+*Action:* Rituximab response confirms B-cell involvement. If response is partial or transient, the plasma cell compartment is likely the dominant autoantibody source — plasma-cell-targeted therapy (daratumumab) becomes relevant.
+
+*Level of action:* Partial root cause — eliminates one autoantibody source (short-lived plasmablasts) but spares another (long-lived plasma cells).
+
+====== What a positive response does NOT reveal
+
+- *The specific autoantibody.* Dozens of GPCR and non-GPCR specificities exist; IVIG/rituximab response does not identify the target.
+- *Whether autoantibodies are cause or consequence.* They could be the primary driver or a secondary phenomenon enabled by broader immune dysregulation.
+- *Whether the improvement is sustainable.* Rituximab responses are often transient. IVIG requires repeated infusions.
+
+==== If IVIG or rituximab does NOT work
+
+====== Interpretation 1 — Autoantibody-mediated pathology is not dominant
+
+If broad humoral immunomodulation produces no benefit, autoantibodies are unlikely to be the primary disease driver. This is the most common outcome — rituximab Phase III was negative overall.
+
+====== Interpretation 2 — The relevant autoantibody-producing cells were not targeted
+
+Rituximab spares CD20− long-lived plasma cells. IVIG neutralizes circulating autoantibodies but does not stop production. Non-response could mean autoantibodies are present but the intervention did not adequately eliminate their source or effects.
+
+====== Interpretation 3 — Autoantibodies are present but not pathogenic
+
+Autoantibodies can be detected in 30–50% of ME/CFS patients, but their presence does not prove causality. Non-response to humoral immunomodulation suggests detected autoantibodies are biomarkers, not drivers.
+
+==== Limitations
+
+- *No large positive RCT in ME/CFS for either agent.* IVIG evidence is from uncontrolled series. Rituximab Phase III was negative overall.
+- *Extreme cost and limited access:* IVIG costs $5,000–15,000 per infusion cycle. Rituximab is similarly expensive. Both require infusion center access — a barrier for severely ill patients.
+- *Category C energy cost:* Both trigger immune activation cascades that consume substantial ATP. Severe patients may worsen transiently.
+- *Rituximab carries infection risk:* B-cell depletion impairs vaccine responses and increases infection susceptibility.
+- *Overall inference certainty:* Low. The negative rituximab Phase III tempers enthusiasm, but the subset signal in autoantibody-positive patients is mechanistically informative.
+
+*(Origin: medication-differential-analysis)*
+
 == Antiviral Medications <sec:antivirals>
 
 Viral triggers and persistent viral reactivation have been implicated in ME/CFS pathogenesis. A systematic review and meta-analysis found significant associations with enteroviruses, HHV-7, parvovirus B19, and Borna disease virus @hwang2023viral. EBV and HHV-6 are among the most commonly identified persistent viral agents across the literature @Rasa2018, with enteroviruses implicated by both reviews. A subset of ME/CFS patients may benefit from antiviral therapy, though identifying responders remains challenging.
@@ -2654,6 +2716,96 @@ Unlike H1 antihistamines, there is *no equivalent formal guideline* recommending
 *ME/CFS-specific caution*: Introduce dose changes more slowly than in general MCAS populations. ME/CFS patients with medication sensitivity phenotypes (Section @sec:med-sensitivity) may not tolerate rapid escalation. Consider 2-week intervals between dose steps rather than 1-week intervals.
 
 ] <prot:mcas-updosing>
+
+=== What the Response Tells Us About Antihistamines (H1, H2, Mast Cell Stabilizers)
+
+Antihistamines probe whether mast cell activation is contributing to symptoms. H1 blockers (cetirizine, fexofenadine, loratadine, rupatadine) block histamine at its primary receptor on blood vessels, nerves, and smooth muscle. H2 blockers (famotidine, cimetidine) block histamine at gastric and immune cell receptors — cimetidine adds T-cell enhancement (see separate differential). Mast cell stabilizers (ketotifen, cromolyn) prevent mast cell degranulation rather than blocking histamine after release. The diagnostic signal is: does histamine-mediated or mast-cell-driven inflammation contribute to this patient's ME/CFS?
+
+==== If antihistamines work: reduced flushing, urticaria, GI symptoms, brain fog, headache, POTS symptoms
+
+====== Finding 1 — Mast cell activation was contributing to symptoms
+
+H1 blockers prevent histamine from activating receptors on blood vessels (flushing, vasodilation, headache), nerves (itching, pain), and smooth muscle (GI cramping). H2 blockers prevent gastric acid hypersecretion and modulate immune cell histamine responses. If antihistamines produce clear improvement, histamine was being released in quantities sufficient to drive symptoms — mast cell activation or histamine intolerance is present.
+
+*Why antihistamine response implicates it:* Drug blocked histamine receptors → histamine-mediated symptoms improved → histamine was being released at supraphysiologic levels. Mast cells are the primary histamine source in tissue.
+
+*Certainty of this inference:* Medium. Antihistamine response is a well-established diagnostic criterion for MCAS in general medicine. MCAS is documented in a subset of ME/CFS patients with characteristic symptoms (flushing, urticaria, GI distress, POTS, brain fog). However, antihistamines have non-specific sedating and anti-inflammatory effects that could produce benefit independent of histamine blockade.
+
+*What this finding does NOT tell us:*
+- Whether the problem is primary MCAS (constitutional mast cell hyperreactivity), secondary MCAS (mast cell activation driven by autoantibodies, infections, or connective tissue pathology), or histamine intolerance (normal mast cells, impaired histamine degradation via reduced DAO activity).
+- Which mast cell triggers are relevant — foods, medications, temperature, stress, exercise, or autoantibody-mediated degranulation.
+
+*Action:* If antihistamines work, MCAS-directed treatment is indicated: identify and avoid triggers, up-dose antihistamines to MCAS protocols, add mast cell stabilizers (ketotifen, cromolyn, quercetin, luteolin). Investigate whether MCAS is primary or secondary — connective tissue laxity (@sec:connective-tissue), GPCR autoantibodies (@sec:root-gpcr), and infections can all drive mast cell activation.
+
+*Level of action:* Partial root cause. In primary MCAS, mast cell stabilization addresses a disease mechanism — mast cells are the driver. In secondary MCAS, antihistamines provide symptomatic relief while the upstream trigger (autoantibodies, infection, connective tissue pathology) continues to degranulate mast cells. The distinction matters for long-term strategy.
+
+====== Finding 2 — H1 vs. H2 differential response localizes histamine effects
+
+H1 response without H2 response → histamine effects are predominantly vascular, neural, and cutaneous — flushing, headache, itching, POTS, brain fog. H2 response without H1 response → histamine effects are predominantly gastric and immune — acid reflux, GI distress, possibly H2-mediated immune modulation. Combined H1+H2 response → multisystem histamine involvement, consistent with systemic MCAS.
+
+*Why this differential implicates it:* H1 receptors are expressed on vasculature and nerves. H2 receptors are expressed on gastric parietal cells and immune cells. Selective response identifies which receptor systems are affected, narrowing the symptom mechanism.
+
+*Certainty of this inference:* Medium. H1/H2 receptor distribution is well-characterized. Clinical correlation between receptor selectivity and symptom profile is standard MCAS diagnostic practice.
+
+*Action:* H1-dominant response → focus on H1 up-dosing, add mast cell stabilizers for vascular/neural symptoms. H2-dominant response → focus on GI MCAS, consider cimetidine if immunomodulation is desired. Combined response → systemic MCAS protocol.
+
+*Level of action:* Symptom management (blocks histamine effects, does not prevent mast cell degranulation unless combined with stabilizers).
+
+====== Finding 3 — Rupatadine response suggests PAF involvement
+
+Rupatadine is unique among H1 blockers: it has dual H1 + PAF (platelet-activating factor) antagonist activity, plus direct mast cell stabilization. If rupatadine works where cetirizine or fexofenadine fail, the benefit likely comes from PAF antagonism — PAF is a potent mast cell and inflammatory mediator not blocked by standard antihistamines.
+
+*Why this differential implicates it:* Standard H1 blocker → H1 blockade only → no benefit. Rupatadine → H1 blockade + PAF blockade + mast cell stabilization → benefit. The PAF component or the direct stabilization is responsible for the differential.
+
+*Certainty of this inference:* Medium. Rupatadine's triple mechanism (H1, PAF, mast cell stabilization) is pharmacologically distinct and well-documented.
+
+*Action:* If rupatadine works where other H1 blockers fail, PAF-mediated inflammation or direct mast cell degranulation is involved. This supports investigating other PAF-pathway interventions and strengthens the case for mast cell stabilizers.
+
+*Level of action:* Partial root cause — rupatadine's mast cell stabilization prevents degranulation, not just blocking histamine after release.
+
+====== What a positive response does NOT reveal
+
+- *Whether MCAS is primary or secondary.* Antihistamine response is identical in both.
+- *The specific trigger.* Food, drug, temperature, stress, and autoantibody triggers all produce histamine release responsive to antihistamines.
+- *Whether mast cells in the CNS are involved.* Most antihistamines have limited CNS penetration at standard doses. CNS mast cell activation (contributing to neuroinflammation) may not respond to peripheral antihistamines.
+
+==== If antihistamines do NOT work (adequate dose, adequate up-dosing, ≥ 4 weeks)
+
+====== Interpretation 1 — Mast cell activation is not a primary symptom driver
+
+If high-dose H1+H2 blockade produces no improvement, histamine is unlikely to be driving the patient's symptoms. This does not exclude subclinical mast cell activation or CNS-restricted mast cell pathology that peripheral antihistamines cannot reach.
+
+====== Interpretation 2 — Histamine-independent mast cell mediators dominate
+
+Mast cells release dozens of mediators beyond histamine: tryptase, chymase, prostaglandins, leukotrienes, TNF-α, IL-6, VEGF, heparin. If these are the primary symptom drivers, antihistamines will not help. Mast cell stabilizers or mediator-specific blockers (montelukast for leukotrienes, NSAIDs for prostaglandins) may be needed.
+
+====== Interpretation 3 — Non-MCAS histamine source
+
+Histamine can be released from basophils (not mast cells), produced by gut bacteria, or accumulate from dietary sources in patients with impaired DAO (diamine oxidase) activity. If the histamine source is not mast cells, antihistamines may still help, but mast cell-directed therapy would be misdirected.
+
+==== How antihistamines combine with other medications
+
+*Antihistamines work + LDN works:*
+Step 1: Antihistamines → mast cell histamine mediator involvement. Step 2: LDN → neuroinflammation present. Step 3: Two inflammatory sources: peripheral mast cells (antihistamine-responsive) + CNS microglia (LDN-responsive). Mast cell mediators can activate microglia — LDN may be helping downstream of mast cell activation.
+→ *Treat both: antihistamines for peripheral mast cells, LDN for neuroinflammation. Mast cell stabilization may reduce LDN requirements over time.*
+
+*Antihistamines work + cromolyn works:*
+Step 1: Antihistamines → histamine receptor blockade. Step 2: Cromolyn → mast cell stabilization (prevents degranulation). Step 3: Mast cells are both degranulating (blocked by cromolyn) AND the released histamine is driving symptoms (blocked by antihistamines). Combined approach addresses both prevention and consequence.
+→ *Continue both. Cromolyn may allow antihistamine dose reduction over time as degranulation frequency decreases.*
+
+*Antihistamines do NOT work + LDN works:*
+Step 1: Antihistamine failure → mast cell histamine not dominant. Step 2: LDN → neuroinflammation present. Step 3: Neuroinflammation from non-mast-cell sources — autoantibodies, microglial priming, metabolic stress. Mast cells are not the primary inflammatory driver.
+→ *Do not escalate MCAS treatment. Focus on anti-neuroinflammatory strategies and identifying the non-mast-cell inflammatory source.*
+
+==== Limitations
+
+- *No ME/CFS-specific antihistamine RCTs:* Evidence is from MCAS literature and clinical experience.
+- *Sedation confounds cognitive assessment:* First-generation H1 blockers (diphenhydramine) and higher-dose second-generation agents can cause sedation, mimicking or masking cognitive improvement.
+- *Up-dosing protocols (2–4× standard) are off-label:* Not FDA-approved; safety data in ME/CFS are observational.
+- *CNS mast cells may not be reached:* Most antihistamines have limited brain penetration. CNS mast cell activation contributing to neuroinflammation may be invisible to peripheral antihistamine response.
+- *Overall inference certainty:* Medium. Antihistamine response is a clinically established diagnostic tool for MCAS. The ME/CFS-specific inference (MCAS as a disease mechanism) is supported by documented MCAS-ME/CFS comorbidity but lacks controlled trial evidence.
+
+*(Origin: medication-differential-analysis)*
 
 == Medication Sensitivity Phenotypes
 <sec:med-sensitivity>
