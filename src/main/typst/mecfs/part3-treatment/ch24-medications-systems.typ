@@ -1193,6 +1193,32 @@ Ginkgo biloba may provide modest support for cognitive symptoms in ME/CFS throug
 *Energy Profile.*
 Category B (energy-neutral). Standardized herbal extract with minimal metabolic processing demands. Improved cerebral blood flow may enhance brain energy substrate delivery, providing an indirect positive effect on cognitive energy availability. Caution: CYP enzyme interactions mean Ginkgo can alter the metabolism of co-administered medications, potentially shifting their energy classification; review the full medication list before initiating.
 
+=== What the Response Tells Us About PEA and Ginkgo
+
+PEA (palmitoylethanolamide) and Ginkgo biloba are both Category B (energy-neutral) agents that probe inflammatory and vascular mechanisms respectively. Both are well-tolerated with benign safety profiles, making them low-risk diagnostic probes even in severe patients.
+
+==== PEA
+
+PEA is an endogenous fatty acid amide that activates PPAR-α (peroxisome proliferator-activated receptor alpha), a nuclear receptor that suppresses inflammatory gene transcription. It also stabilizes mast cells and modulates microglia. A meta-analysis of 11 RCTs (n=774) confirmed efficacy for chronic pain (standardized mean difference 1.68, p<0.00001) with excellent safety @LangIlievich2023PEA. For ME/CFS, PEA probes mast-cell-driven and microglial inflammation.
+
+If PEA works → mast cell or microglial inflammation was contributing. The PPAR-α mechanism is distinct from LDN's TLR4 mechanism and antihistamines' receptor blockade — PEA suppresses inflammatory gene expression upstream of mediator release, whereas LDN blocks the TLR4 sensor and antihistamines block histamine after release. PEA response suggests the inflammatory process can be modulated at the nuclear receptor level.
+
+*Inference strength:* Low to Medium. PEA's pain efficacy is well-established in meta-analyses. Its anti-inflammatory mechanism is well-characterized. But no ME/CFS-specific PEA trial exists, and the inference that PEA response localizes inflammation to PPAR-α-responsive pathways is pharmacological, not clinical.
+
+*Level of action:* Symptom management. PEA reduces inflammation but does not address what is causing it.
+
+==== Ginkgo biloba
+
+Ginkgo (EGb 761) enhances cerebral blood flow (vasodilation, improved microvascular perfusion), antagonizes PAF (reducing neuroinflammation), and provides antioxidant support. It probes whether cerebral hypoperfusion is a significant contributor to cognitive symptoms.
+
+If Ginkgo works → cerebral blood flow was limiting cognitive function. This is consistent with documented cerebral hypoperfusion in ME/CFS and suggests that improving brain perfusion is a viable strategy. If Ginkgo works + pyridostigmine works → both perfusion and preload are contributing — pyridostigmine improves cardiac output, Ginkgo improves microvascular distribution. If Ginkgo works but antihistamines do not → cognitive dysfunction is perfusion-driven, not histamine-driven.
+
+*Inference strength:* Low. Ginkgo's cognitive benefits are documented in dementia and age-related decline, not ME/CFS. No ME/CFS-specific RCT. The cerebral perfusion inference is pharmacological, not demonstrated in ME/CFS patients.
+
+*Level of action:* Symptom management. Ginkgo improves cerebral blood flow but does not address why perfusion is reduced (autonomic dysfunction, hypovolemia, endothelial dysfunction).
+
+*(Origin: medication-differential-analysis)*
+
 == CNS Stimulants and Wakefulness-Promoting Agents
 <sec:stimulants>
 
