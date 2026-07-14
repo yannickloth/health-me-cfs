@@ -3,7 +3,7 @@
 
 All stimulants probe catecholamine (dopamine/norepinephrine) deficiency. Their differences in mechanism, selectivity, and safety create a hierarchy. *All are symptom management* — none address root cause. Hierarchy from safest to most concerning: pitolisant > solriamfetol ≈ modafinil > methylphenidate > amphetamines.
 
-*If stimulants work (improved brain fog, attention, fatigue perception):*
+==== If stimulants work
 
 Finding 1 — Catecholamine signaling was insufficient. Drug increased dopamine/norepinephrine → cognition improved → signaling was inadequate. *Certainty:* Medium — CSF catecholamine reduction documented @Walitt2024NIH; stimulant surveys 77.1% brain fog improvement @Vernon2025PNAS; methylphenidate RCT 17% response @Blockmans2006methylphenidate; solriamfetol RCT significant fatigue improvement (p=0.039) @Young2025solriamfetol. But effect sizes modest and survey data uncontrolled. *Does NOT tell us:* why catecholamines are deficient; whether benefit is sustainable (masking fatigue enables overexertion — PNAS: +77.1% brain fog but −1.5% PEM). *Action:* catecholamine involvement confirmed; combine with LDN (neuroinflammation) or mitochondrial supplements (metabolic constraint) to identify upstream cause. *Level of action:* Symptom management — stimulants compensate for deficient signaling without restoring production or removing inflammatory precursor depletion.
 
@@ -13,7 +13,7 @@ Finding 3 — Brain energy metabolism integrity (modafinil vs. methylphenidate).
 
 Finding 4 — Histaminergic arousal system intact (pitolisant). Pitolisant blocks H3 autoreceptors, increasing endogenous histamine. Works without sympathetic activation → histaminergic pathway functional. *Certainty:* Low — no ME/CFS data. *Level of action:* Partial root cause (speculative) — anti-neuroinflammatory M1→M2 microglial shift.
 
-*If stimulants do NOT work:*
+==== If stimulants do NOT work
 - Catecholamine deficiency may not be present — cognitive dysfunction from glymphatic failure, direct cytokines, cerebral hypoperfusion, or neuronal mitochondrial failure.
 - Receptors downregulated — chronic inflammation reduces expression.
 - Side effects mask benefit — sympathetic activation, metabolic cost, sleep disruption produce net negative effect.

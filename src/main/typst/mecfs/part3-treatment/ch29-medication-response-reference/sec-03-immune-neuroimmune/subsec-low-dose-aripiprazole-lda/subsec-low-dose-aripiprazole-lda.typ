@@ -2,7 +2,7 @@
 
 LDA (1–2 mg/day) is a partial dopamine agonist (only 25–30% of dopamine's intrinsic activity at D2 receptors). Also targets serotonin 5-HT1A receptors. Carries significant risks: akathisia, serotonin syndrome, CYP2D6 variable exposure, and prediabetes/metabolic syndrome (@warn:lda-metabolic).
 
-*If LDA works (improved brain fog, attention, mental stamina, motivation):*
+==== If LDA works
 
 Finding 1 — Dopamine signaling was insufficient. LDA stimulated dopamine receptors → cognition improved → dopamine was below what the brain needed. Three possible causes, distinguished by combining with other medication responses:
 
@@ -14,13 +14,13 @@ Finding 1 — Dopamine signaling was insufficient. LDA stimulated dopamine recep
 
 Finding 2 — Serotonin modulation may also contribute. LDA is a 5-HT1A partial agonist. *Certainty:* Low. Cannot distinguish dopamine from serotonin-mediated benefit. *Level of action:* Symptom management.
 
-*If LDA does NOT work (1–2 mg/day, ≥ 4–8 weeks):*
+==== If LDA does NOT work
 - Dopamine deficiency not the primary cognitive mechanism — glymphatic failure, direct cytokine effects, cerebral hypoperfusion, or neuronal mitochondrial failure do not respond to dopamine.
 - Wrong dose — partial agonist net effect is dose-dependent and varies by regional dopamine tone.
 - Dopamine receptors downregulated — chronic inflammation reduces expression.
 - Metabolic constraint limits neurotransmitter release even with receptor stimulation.
 
-*How LDA combines:*
+==== How LDA combines with other medications
 - LDA + LDN both work → inflammatory dopamine depletion (IDO/BH4 pathway). Treat neuroinflammation as upstream driver.
 - LDA works + LDN does not → dopamine deficit from non-inflammatory source (metabolic, HPA, genetic).
 - LDA works + methylphenidate worsens → receptor-level support needed; stimulant side effects (noradrenergic POTS, +7% REE) intolerable.
