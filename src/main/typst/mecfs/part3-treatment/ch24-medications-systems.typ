@@ -855,6 +855,105 @@ _Severe ME/CFS patients should begin with the most minimal subset (CoQ10 alone o
 
 Mitochondrial support represents a rational therapeutic approach given documented energy metabolism abnormalities, though individual responses vary widely.
 
+=== What the Response Tells Us About Mitochondrial Supplements (CoQ10, NADH, D-Ribose, L-Carnitine, ALA)
+
+Mitochondrial supplements probe whether energy production failure is a rate-limiting contributor to symptoms. They supply substrates or cofactors to the electron transport chain, bypassing damaged complexes or augmenting residual capacity. The diagnostic signal is not "are mitochondria dysfunctional?" — mitochondrial dysfunction is well-documented in ME/CFS — but "which part of the energy production chain is the bottleneck, and how much can substrate supplementation compensate?" This class is unique in probing the *capacity* of energy production rather than the *regulation* of symptoms.
+
+==== If mitochondrial supplements work: improved fatigue, PEM tolerance, cognitive stamina
+
+====== Finding 1 — Energy production capacity was limiting function
+
+All mitochondrial supplements increase the availability of substrates, cofactors, or intermediates needed for ATP production. CoQ10 carries electrons between Complexes I/II and III. NADH donates electrons to Complex I. D-Ribose provides the ribose backbone for ATP synthesis via the pentose phosphate pathway and purine salvage. L-Carnitine shuttles fatty acids into mitochondria for beta-oxidation. ALA is a cofactor for pyruvate dehydrogenase (PDH) and alpha-ketoglutarate dehydrogenase. Each addresses a different node in the energy production network.
+
+*Why supplement response implicates it:* Supplement provided substrate → substrate was rate-limiting → ATP production increased → fatigue and PEM improved. Therefore, the relevant energy production step was below capacity and could be augmented.
+
+*Certainty of this inference:* Low to Medium. Mitochondrial dysfunction is well-documented in ME/CFS (reduced Complex I activity, impaired fatty acid oxidation, elevated lactate/pyruvate ratio). CoQ10 meta-analysis (Tsai 2022) showed significant fatigue reduction. NADH RCT (Forsyth 1999) showed 31% vs. 8% placebo response. However, individual supplement trials are small, often single-study, and effect sizes are modest (10–30% improvement).
+
+*What this finding does NOT tell us:*
+- *Why the bottleneck exists.* Is Complex I genetically impaired, oxidatively damaged, or downregulated by the metabolic safe mode program? Supplement response does not distinguish.
+- *Which specific complex is limiting.* CoQ10 response → Complex I/II or III? NADH response → Complex I? L-Carnitine response → fatty acid oxidation? Supplement overlap makes attribution difficult.
+- *Whether the improvement is sustainable.* Substrate supplementation may produce diminishing returns as downstream bottlenecks emerge, or may mask progressive mitochondrial damage.
+
+*Action:* If mitochondrial supplements produce benefit, energy production is a bottleneck. This supports: (1) continuing supplementation, (2) reducing energy demand through pacing, (3) investigating and treating the cause of mitochondrial impairment (oxidative stress, autoantibody-mediated Complex inhibition, metabolic safe mode lock).
+
+*Level of action:* Partial root cause. Mitochondrial dysfunction is a documented disease mechanism — supplements provide substrates that partially bypass or augment impaired complexes. But they do not repair damaged complexes, remove oxidative stress, or disengage the metabolic safe mode. The underlying cause of mitochondrial impairment persists.
+
+====== Finding 2 — The specific bottleneck can be inferred by differential response
+
+CoQ10 response suggests electron transport chain bottleneck between Complex I and III. NADH response suggests Complex I electron donor deficiency. L-Carnitine response suggests impaired fatty acid oxidation — mitochondria cannot access fat stores for energy, forcing reliance on carbohydrate metabolism which is less efficient in ME/CFS. D-Ribose response suggests the pentose phosphate pathway or purine salvage is limiting ATP regeneration. ALA response suggests PDH or alpha-ketoglutarate dehydrogenase deficiency — the TCA cycle entry points are constricted.
+
+*Why differential response implicates it:* CoQ10 works but NADH doesn't → bottleneck is downstream of Complex I (Complex III or CoQ pool). NADH works but CoQ10 doesn't → Complex I electron supply is limiting, not downstream transfer. L-Carnitine works → fatty acid oxidation is the bottleneck, not the electron transport chain. These differentials direct supplementation toward the specific deficit.
+
+*Certainty of this inference:* Low. No direct comparative studies in ME/CFS. Inference is based on known biochemistry applied to clinical response — a patient improving on L-Carnitine may simply have carnitine deficiency rather than a fatty acid oxidation bottleneck.
+
+*Action:* If one supplement produces clear benefit where others fail, direct supplementation toward that pathway. If all produce partial benefit → multi-site energy production failure, consistent with a global mitochondrial insult rather than a single-enzyme defect. If none produce benefit → energy production is not the rate-limiting symptom driver, or mitochondrial damage is too severe for substrate supplementation to bypass.
+
+*Level of action:* Same as Finding 1.
+
+====== Finding 3 — Metabolic safe mode may be partially overridden (D-Ribose, NADH, CoQ10)
+
+The metabolic safe mode hypothesis proposes that ME/CFS involves a coordinated downregulation of energy production — itaconate shunt activation, IDO upregulation, mitochondrial fission — as an adaptive response to a perceived threat (@sec:safe-mode). Substrate supplementation may partially override this downregulation by flooding the system with substrates that bypass the regulated steps. If this is the mechanism, the response pattern is: supplements produce benefit but at the cost of working against the body's protective program — potentially increasing oxidative stress or triggering compensatory downregulation at other nodes.
+
+*Why supplement response implicates it:* Supplement bypassed regulated step → ATP production increased → the safe mode's suppression was the bottleneck, not irreversible Complex damage. This is distinguishable from Finding 1 because it predicts a specific pattern: initial benefit followed by diminishing returns as the safe mode compensates at other nodes.
+
+*Certainty of this inference:* Low. The metabolic safe mode is a hypothesis, not an established mechanism. No study has tested whether mitochondrial supplement response correlates with safe mode markers (itaconate, IDO activity, mitochondrial morphology).
+
+*What this finding does NOT tell us:* Whether overriding the safe mode is beneficial or harmful. The safe mode may be protecting cells from oxidative damage by limiting ATP production. Forcing ATP production past this limit could accelerate oxidative damage — a theoretical risk not yet studied.
+
+*Action:* If supplements produce clear benefit, continue. If benefit diminishes over time, the safe mode may be compensating — addressing the upstream trigger (inflammation, autoantibodies) may be necessary for sustained energy improvement.
+
+*Level of action:* Partial root cause — but with the caveat that if the safe mode is adaptive, supplements may be working against the body's protective program.
+
+====== What a positive response does NOT reveal
+
+- *The cause of mitochondrial dysfunction.* Genetic, autoimmune, inflammatory, and epigenetic causes cannot be distinguished by supplement response.
+- *Whether improvement is sustainable or whether progressive mitochondrial damage continues.*
+- *Which complex or enzyme is specifically impaired.* Supplement overlap and biochemical network effects make precise localization impossible from clinical response alone.
+- *Whether the safe mode hypothesis (coordinated downregulation) or the damage hypothesis (structural Complex impairment) better explains the deficit.*
+
+==== If mitochondrial supplements do NOT work (adequate dose, ≥ 8–12 weeks)
+
+====== Interpretation 1 — Energy production is not the rate-limiting symptom driver
+
+If the electron transport chain is impaired but other mechanisms (neuroinflammation, autoantibody-mediated receptor dysfunction, cerebral hypoperfusion) are more proximally responsible for symptoms, increasing ATP production may not help — the ATP is produced but cannot be used effectively because the downstream systems are dysfunctional.
+
+====== Interpretation 2 — Mitochondrial damage is too severe for substrate bypass
+
+If Complexes are structurally damaged (oxidative modification, autoantibody binding, genetic deficiency), flooding the system with substrates and cofactors may produce no benefit — the machinery itself is broken. This is more likely in patients with long disease duration and documented severe metabolic abnormalities.
+
+====== Interpretation 3 — The metabolic safe mode is actively suppressing energy production
+
+If the body has deliberately downregulated energy metabolism (itaconate shunt, mitochondrial fission), providing substrates may be ineffective — the regulatory program overrides substrate availability. The itaconate shunt, for example, diverts cis-aconitate away from the TCA cycle — no amount of CoQ10 or NADH can bypass this because the TCA cycle itself is interrupted upstream.
+
+====== Interpretation 4 — The wrong substrate was supplemented for the specific deficit
+
+Responding to the wrong bottleneck produces no benefit. A patient with Complex I deficiency may not respond to CoQ10 (which acts downstream of Complex I) but may respond to NADH (which feeds electrons directly to Complex I). Non-response to one supplement does not exclude mitochondrial involvement.
+
+==== How mitochondrial supplements combine with other medications
+
+*Mitochondrial supplements work + LDN works:*
+Step 1: Supplements → energy production augmentable. Step 2: LDN → neuroinflammation present and modifiable. Step 3: Two independent drivers addressed: energy deficit (supplements) + neuroinflammation (LDN). The energy deficit and neuroinflammation may be linked — inflammation impairs mitochondrial function, mitochondrial dysfunction generates inflammatory signals.
+→ *Treat both in parallel. Anti-inflammatory treatment may improve mitochondrial function over time, potentially reducing supplement dependence.*
+
+*Mitochondrial supplements work + pyridostigmine works:*
+Step 1: Supplements → energy production augmentable. Step 2: Pyridostigmine → preload failure and autonomic dysfunction present. Step 3: Energy supply improved (supplements) + energy delivery improved (pyridostigmine increases cardiac output and tissue perfusion). Synergy: more ATP + better circulation to deliver it.
+→ *This is the most synergistic combination — addressing both production and delivery of energy.*
+
+*Mitochondrial supplements do NOT work + LDA works:*
+Step 1: Supplements fail → energy production not the cognitive bottleneck. Step 2: LDA works → dopamine signaling was the limiting factor for cognition. Step 3: The cognitive deficit is neurotransmitter-level, not energy-supply-level — the brain has enough ATP but cannot use it for dopamine-dependent cognitive functions.
+→ *Energy production is adequate for baseline function. Focus on neurotransmitter support rather than mitochondrial supplementation.*
+
+==== Limitations
+
+- *Small, single-study evidence:* CoQ10 meta-analysis exists, but individual supplements (NADH, D-Ribose, L-Carnitine, ALA) have limited trial data, often single studies with small samples.
+- *Effect sizes modest:* 10–30% improvement — supplements help but do not resolve ME/CFS.
+- *No direct comparative studies:* Which supplement best for which patient is inferred from biochemistry, not from comparative trials.
+- *Substrate supplementation may not overcome regulatory suppression:* If the metabolic safe mode is actively suppressing energy production, providing substrates may not help.
+- *Cost burden:* Comprehensive protocols cost $100–300/month.
+- *Overall inference certainty:* Low to Medium. Mitochondrial dysfunction is well-documented, but the link from specific supplement to specific deficit is inferred from biochemistry rather than demonstrated in controlled trials.
+
+*(Origin: medication-differential-analysis)*
+
 == Herbal Anti-Inflammatory Agents
 <sec:herbal-antiinflammatory>
 
