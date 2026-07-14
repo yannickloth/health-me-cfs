@@ -105,6 +105,8 @@ Each medication gets a `====` subsubsection within its existing section. The str
 
 *Action:* [1 sentence: what the doctor does differently knowing this. Not a prescription — framed as "becomes relevant" or "should be investigated."]
 
+*Level of action:* [Root cause / Partial root cause / Symptom management] — [1 sentence: does this drug fix the disease mechanism, partially correct it, or merely compensate for a downstream consequence? E.g.: "Root cause: LDN restores TRPM3 function, a trigger-capable root cause — but whether restoration is complete and sustained is unknown." "Symptom management: LDA stimulates dopamine receptors without restoring dopamine production or removing the inflammatory signals depleting BH4." "Partial root cause: LDN calms microglia, reducing neuroinflammation, but does not remove whatever is activating them."]
+
 ====== Finding 2 — [next diagnostic finding]
 
 [Same structure as Finding 1.]
@@ -161,8 +163,9 @@ Step 1: [A] → [mechanism]. Step 2: [B] non-response → [what this rules out].
 3. **Causes go under findings, not as competing mechanisms.** When multiple causes could explain a single finding (e.g., dopamine deficiency can come from BH4 depletion, ATP failure, or HPA dysfunction), they are listed under the finding as sub-bullets with triangulation logic, not as separate numbered mechanisms.
 4. **"What this finding does NOT tell us" after every finding.** Symmetric with what it tells us. Equal prominence.
 5. **"Action:" after every finding.** One concrete sentence. Doctor scans for action items.
-6. **"What a positive response does NOT reveal"** — a separate subsection listing ambiguities that persist across all findings. This is where you state that response vs. placebo cannot be distinguished, that mechanism attribution is uncertain with multi-target drugs, etc.
-7. **Non-response interpretations get `======` headings.** Each interpretation is a distinct diagnostic possibility with its own heading.
+6. **"Level of action:" after every finding.** One of three values — *Root cause* (drug targets a disease-initiating mechanism), *Partial root cause* (drug reduces a disease-maintaining mechanism without removing its trigger), *Symptom management* (drug compensates for a downstream consequence while the disease process continues). This is the most clinically important field — it tells the patient whether the drug is fixing what's broken or masking the symptoms.
+7. **"What a positive response does NOT reveal"** — a separate subsection listing ambiguities that persist across all findings. This is where you state that response vs. placebo cannot be distinguished, that mechanism attribution is uncertain with multi-target drugs, etc.
+8. **Non-response interpretations get `======` headings.** Each interpretation is a distinct diagnostic possibility with its own heading.
 8. **Combination patterns:** `*If A works AND B works:*` bold labels, `Step 1/2/3`, `→` arrow for clinical action.
 9. **`*Certainty:*`** field in every finding, with justification that names the evidence type (in vitro, animal, human observational, RCT).
 
