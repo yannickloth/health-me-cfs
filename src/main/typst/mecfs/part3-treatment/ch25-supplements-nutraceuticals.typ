@@ -2416,4 +2416,88 @@ Quercetin (500 mg BID) stabilizes mast cells and desensitizes TRPV1 receptors in
 *Certainty: 0.25.* Taurine (1--3 g/day) stabilizes mitochondrial membranes, reduces oxidative stress, and modulates calcium handling — all processes stressed during thermoregulatory work. While taurine's mitochondrial-protective and calcium-modulating effects are well-characterized, no ME/CFS thermoregulation-specific data exist. Falsifiable: taurine over 12 weeks increases mitochondrial membrane potential stability during controlled heat challenge by >25%. Taurine is generally safe and inexpensive, making it a low-risk adjunct.
 ] <spec:taurine-thermoreg>
 
+== What the Response Tells Us About Select Supplements
+
+=== NAC (N-Acetylcysteine)
+
+NAC probes oxidative stress, glutamate excitotoxicity, and the HSAT2 retroelement pathway. It is a glutathione precursor (antioxidant), a glutamate modulator (via the cystine-glutamate antiporter), and a mucolytic. Its diagnostic signal depends on which mechanism produces benefit.
+
+==== If NAC works: reduced brain fog, improved PEM tolerance, reduced flu-like symptoms
+
+====== Finding 1 — Oxidative stress was a significant disease contributor
+
+NAC is rate-limiting for glutathione synthesis — the body's primary intracellular antioxidant. If NAC produces benefit, oxidative stress was exceeding endogenous antioxidant capacity. This is consistent with documented oxidative damage in ME/CFS (lipid peroxidation, protein carbonylation, reduced glutathione).
+
+*Why NAC response implicates it:* NAC → glutathione synthesis → antioxidant capacity increased → oxidative damage reduced → symptoms improved. Therefore, oxidative stress was contributing.
+
+*Certainty of this inference:* Low to Medium. NAC's glutathione mechanism is well-established. Oxidative stress is well-documented in ME/CFS. But no ME/CFS-specific NAC RCT with redox biomarker endpoints exists.
+
+*Does NOT tell us:* The source of oxidative stress — mitochondrial dysfunction (electron leak), inflammation (NADPH oxidase), or ischemia-reperfusion (PEM cycles).
+
+*Level of action:* Partial root cause. NAC reduces oxidative damage but does not eliminate the source (mitochondrial dysfunction, inflammation). If the oxidative stress generator continues unchecked, NAC provides ongoing protection but does not cure.
+
+====== Finding 2 — Glutamate excitotoxicity was contributing to cognitive symptoms
+
+NAC modulates glutamate via the cystine-glutamate antiporter — it normalizes extrasynaptic glutamate levels, reducing NMDA receptor overactivation that causes excitotoxic neuronal stress. If NAC improves brain fog, cognitive clarity, or sensory sensitivity, glutamate excitotoxicity may be contributing, particularly in patients with high glutamatergic polygenic risk scores.
+
+*Certainty:* Low. Glutamate modulation is established in addiction and OCD, not tested in ME/CFS cognitive dysfunction.
+
+*Level of action:* Symptom management — modulates neurotransmitter balance without addressing why it was disturbed.
+
+====== Finding 3 — HSAT2 retroelement activation may be reduced
+
+NAC reduces ROS, which reduces HSF1 activation — a transcription factor that drives HSAT2 satellite repeat transcription. Reduced HSAT2 expression → reduced CENPA mislocalization → reduced p53-dependent senescence → reduced MDSC expansion. If NAC works and HSAT2 is elevated, this mechanism may be operative.
+
+*Certainty:* Low. The HSAT2→senescence→MDSC cascade is a hypothesis anchored in a single Ewing sarcoma preprint. NAC's effect on HSAT2 in ME/CFS is untested.
+
+*Level of action:* Partial root cause — if HSAT2 contributes to disease maintenance, NAC intervenes in a pathogenic mechanism.
+
+=== Quercetin and Luteolin
+
+Quercetin and luteolin are flavonoids with dual mast cell stabilization and immunomodulatory properties. Quercetin stabilizes mast cells, inhibits PI3K (restoring CD80 on antigen-presenting cells), and may resensitize β2-adrenergic receptors. Luteolin crosses the BBB and stabilizes both peripheral mast cells and CNS microglia. Together they probe whether mast cell activation is central.
+
+If quercetin/luteolin work → mast cell activation was a significant driver. The CD80 restoration mechanism (quercetin) probes whether immune dysfunction involves impaired costimulation (M2-skewed antigen presentation). The BBB penetration (luteolin) probes whether CNS mast cells and microglia are involved — most antihistamines cannot reach these.
+
+*Certainty:* Low. No ME/CFS-specific controlled trials. Mast cell stabilization and CD80 effects are established in vitro.
+
+*Level of action:* Partial root cause — mast cell stabilization prevents degranulation, addressing a disease mechanism if MCAS is the driver.
+
+=== DAO (Diamine Oxidase)
+
+DAO is the enzyme that degrades histamine in the gut. Oral DAO supplementation probes whether histamine intolerance (impaired degradation) rather than mast cell activation (excessive production) is the mechanism. If DAO works → histamine is accumulating because it is not being broken down, not because mast cells are releasing too much. If antihistamines work but DAO does not → mast cell degranulation, not impaired degradation.
+
+*Certainty:* Medium for HIT diagnostics (established in food intolerance). No ME/CFS-specific data.
+
+*Level of action:* Symptom management — DAO degrades histamine but does not address why endogenous DAO activity is low.
+
+=== Creatine
+
+Creatine probes whether the phosphocreatine ATP buffer is depleted. In a brain with reduced mitochondrial ATP production, phosphocreatine acts as a battery backup — regenerating ATP faster than oxidative phosphorylation during cognitive demand. Creatine supplementation increases this buffer.
+
+If creatine works (improved cognitive stamina, reduced mental fatigue) → the brain's ATP demand temporarily exceeds mitochondrial production capacity, and phosphocreatine is bridging the gap. This is consistent with the Architecture C metabolic reserve model (@sec:architecture-c-metabolic-reserve).
+
+*Certainty:* Medium for general cognition (multiple RCTs in healthy adults and sleep-deprived populations). No ME/CFS-specific data.
+
+*Level of action:* Symptom management — creatine buffers ATP but does not increase mitochondrial production capacity.
+
+=== Omega-3 Fatty Acids (EPA/DHA)
+
+Omega-3s probe whether failed resolution of inflammation (SPM deficiency) is contributing to chronicity. EPA and DHA are precursors for specialized pro-resolving mediators (SPMs: resolvins, protectins, maresins) that actively terminate inflammation. If omega-3s produce benefit, resolution failure may be contributing — inflammation persists not because triggers continue, but because the off-switch is broken.
+
+*Certainty:* Low for SPM mechanism in ME/CFS. SPMs have never been measured in ME/CFS. Omega-3 anti-inflammatory effects are well-established generally.
+
+*Level of action:* Partial root cause — if SPM deficiency is a chronicity mechanism, omega-3s provide precursors for resolution, partially correcting the deficit.
+
+=== B Vitamins (B1, B2, B3, B6/P5P, B9/folate, B12)
+
+B vitamins probe enzyme cofactor deficiencies that impair energy metabolism (B1/B2/B3 → TCA cycle and electron transport), neurotransmitter synthesis (B6/P5P → GABA, dopamine, serotonin), methylation (B9/B12 → homocysteine cycle, epigenetic regulation), and BH4 recycling (B6, folate → dihydrofolate reductase pathway).
+
+If B vitamins work → a specific cofactor deficiency was rate-limiting. The differential response identifies which pathway: B1 → PDH/TCA cycle bottleneck. B2 → Complex II bottleneck. B3 → NAD+ pool. B6/P5P → neurotransmitter or BH4 recycling bottleneck (if P5P increases GABA:Glx ratio on MR spectroscopy, GAD impairment is confirmed). B9/B12 → methylation cycle or homocysteine burden.
+
+*Certainty:* Low to Medium. Individual vitamin deficiency states are well-characterized in general medicine. B12 and folate deficiency are documented in ME/CFS subsets. But specific enzyme bottleneck inference from supplementation response is pharmacological, not clinically validated.
+
+*Level of action:* Partial root cause — if the deficiency is dietary/absorptive and supplementation normalizes levels, the cofactor deficit is corrected. If the deficiency is driven by increased consumption (oxidative stress consuming B6/BH4, inflammation consuming B3 for NAD+), supplementation compensates but does not address the consumer.
+
+*(Origin: medication-differential-analysis)*
+
 #include "ch25-brain-clearance-supplements/ch25-brain-clearance-supplements.typ"

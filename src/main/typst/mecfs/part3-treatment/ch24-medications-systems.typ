@@ -2761,7 +2761,7 @@ H1 blockers prevent histamine from activating receptors on blood vessels (flushi
 - Whether the problem is primary MCAS (constitutional mast cell hyperreactivity), secondary MCAS (mast cell activation driven by autoantibodies, infections, or connective tissue pathology), or histamine intolerance (normal mast cells, impaired histamine degradation via reduced DAO activity).
 - Which mast cell triggers are relevant — foods, medications, temperature, stress, exercise, or autoantibody-mediated degranulation.
 
-*Action:* If antihistamines work, MCAS-directed treatment is indicated: identify and avoid triggers, up-dose antihistamines to MCAS protocols, add mast cell stabilizers (ketotifen, cromolyn, quercetin, luteolin). Investigate whether MCAS is primary or secondary — connective tissue laxity (@sec:connective-tissue), GPCR autoantibodies (@sec:root-gpcr), and infections can all drive mast cell activation.
+*Action:* If antihistamines work, MCAS-directed treatment is indicated: identify and avoid triggers, up-dose antihistamines to MCAS protocols, add mast cell stabilizers (ketotifen, cromolyn, quercetin, luteolin). Investigate whether MCAS is primary or secondary — connective tissue laxity, GPCR autoantibodies (@sec:root-gpcr), and infections can all drive mast cell activation.
 
 *Level of action:* Partial root cause. In primary MCAS, mast cell stabilization addresses a disease mechanism — mast cells are the driver. In secondary MCAS, antihistamines provide symptomatic relief while the upstream trigger (autoantibodies, infection, connective tissue pathology) continues to degranulate mast cells. The distinction matters for long-term strategy.
 
