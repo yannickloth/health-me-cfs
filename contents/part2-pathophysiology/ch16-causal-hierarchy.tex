@@ -567,7 +567,7 @@ The convergence on a final common pathway---CNS energy failure plus broken resto
     \item \textbf{Varying treatment responses:} If different patients are maintained by different mechanisms (reflecting their entry pathway and which amplifiers have engaged), then no single treatment will work for everyone. Daratumumab works for the autoimmune-entry subgroup; it would not be expected to help patients whose disease entered through the safe mode pathway and is now maintained by epigenetic consolidation.
 \end{itemize}
 
-Once a patient reaches the final common pathway, the amplifier mechanisms described in Section~\ref{sec:amplifiers} engage and lock the disease state. The entry door no longer matters because the amplifiers maintain the disease independently of the triggering mechanism. This is why the triggering event is often years in the past by the time patients seek treatment, yet the disease persists: the locks are self-sustaining.
+Once a patient reaches the final common pathway, the amplifier mechanisms described in Section~\ref{sec:amplifiers} engage and lock the disease state. Whether the entry door remains therapeutically relevant after this point depends on whether the initiating mechanism is still active---the antigen persistence question of Section~\ref{sec:antigen-stratification}. If the entry mechanism was an infection and the pathogen has been cleared, the entry door no longer matters because the amplifiers maintain the disease independently. If the pathogen (or autoantibody source) persists, the entry door may still be addressable.
 
 \input{figures/fig-entry-points-funnel}
 
@@ -592,7 +592,107 @@ The infection cascade walkthrough in Chapter~\ref{ch:temporal-evolution} provide
 
 
 % =============================================================================
-% SECTION 6: LOAD-BEARING VS. SECONDARY LOCKS
+% SECTION 6: LAYERED POST-INFECTIOUS PATHOGENESIS
+% =============================================================================
+
+\section{Layered Post-Infectious Pathogenesis: A Unified Temporal Cascade}
+\label{sec:layered-post-infectious}
+
+The three-tier classification (trigger-capable, amplifier, consequence) and the entry-point model (Section~\ref{sec:entry-points}) capture \emph{what} each mechanism does in the disease---its causal role. But they do not capture \emph{when} mechanisms typically engage in the temporal evolution from acute infection to entrenched chronic illness. A distinct but complementary perspective is the layered temporal cascade: a sequence of stages through which the post-infectious disease process progresses, where each layer engages the next, and where later layers can reactivate earlier ones, creating self-sustaining cycles that persist long after the initiating pathogen may have been cleared.
+
+This section synthesizes the cascade models developed in Chapters~\ref{ch:immune-dysfunction} (Section~\ref{sec:immune-summary}) and~\ref{ch:symptom-mechanisms} (Section~\ref{sec:ch15-integrated-cascade}) into a single named framework---the \textbf{Layered Post-Infectious Pathogenesis} model---that spans the full arc from infection to attractor lock-in. The model is illustrated in Figure~\ref{fig:layered-pathogenesis}.
+
+\subsection{The Five Layers}
+
+The model proposes five layers in a hypothesised temporal-causal sequence. The ordering reflects a theoretical archetype of post-infectious disease progression; in individual patients, layers may overlap, occur in parallel, or appear in varying sequences. As noted in Chapter~\ref{ch:immune-dysfunction} (Section~\ref{sec:immune-summary}), ``many steps may occur in parallel, and the sequence may vary between patients or subgroups.'' The layered framework is a tool for organising mechanistic reasoning, not a claim that every patient follows this exact order.
+
+\paragraph{Layer 1: Persistent Antigenic Source.} The initiating infection (SARS-CoV-2, EBV, HHV-6, enterovirus, Coxiella, Borrelia) establishes a sustained antigenic presence through one or more of the mechanisms documented in Chapter~\ref{ch:immune-dysfunction}: tissue reservoirs (SARS-CoV-2 gut persistence~\cite{Peluso2024pet}; lymphocyte sanctuary sites~\cite{Kol2026fipv}); abortive lytic replication (ALR) of herpesviruses producing dUTPase without virion production (Section~\ref{sec:abortive-lytic}); or cellular reservoirs below PCR detection (Strategy~\ref{hyp:lymphocyte-reservoir-ratchet}). In the autoimmune-entry subtype (Section~\ref{sec:root-gpcr}), the antigenic source is self-antigen---GPCR autoantibodies produced by long-lived plasma cells (Strategy~\ref{hyp:plasma-cell-sanctuary})---which functions analogously to a persistent pathogen by providing ongoing immune stimulation.
+
+The distinction between active pathogen and autoimmune antigen source is therapeutically critical (Section~\ref{sec:antigen-stratification}), but from the perspective of the cascade, both occupy the same functional position: they supply the persistent immune stimulus that drives Layer~2.
+
+\paragraph{Layer 2: Chronic Immune Hyperactivation $\rightarrow$ Exhaustion.} The persistent antigenic source drives continuous innate and adaptive immune activation---NK cell engagement, B cell expansion, autoantibody production, cytotoxic T cell activation---that, over months to years, produces functional exhaustion. The epigenetic reprogramming of CD8$^+$ T cells toward an exhausted phenotype (PD-1, TIM-3, LAG-3, CTLA-4, EOMES/TOX expression) documented by Iu et al.~\cite{Iu2024pnas} is not a transient activation state but a durable, epigenetically programmed functional impairment (Section~\ref{subsec:pembrolizumab}). Exhausted T cells may remain metabolically active while failing to execute effector functions---a state of immune dysfunction characterised by simultaneous hyperactivation and underperformance---with inadequate pathogen control as the functional consequence.
+
+The duration-dependent Immune Exhaustion Timeline described in Chapter~\ref{ch:disease-course} (Strategy~\ref{hyp:immune-exhaustion-timeline}) predicts a transition from the hyperactive phase (0--3 years) to the exhaustion-dominant phase (3+ years), with distinct therapeutic implications for each phase.
+
+\paragraph{Layer 3: Secondary Reactivations $\rightarrow$ Amplified Antigenic Load.} The exhausted immune system loses control over latent pathogens, permitting reactivation of EBV, HHV-6, CMV, VZV, and other latent viruses. The poly-herpesvirus co-reactivation pattern---72.5\% of patients co-express antibodies to EBV, HHV-6, and VZV simultaneously versus 31\% of controls---is consistent with a shared mechanism of immune control failure (Section~\ref{sec:poly-herpesvirus}). Each newly reactivated pathogen adds its own antigenic load, which further drives immune activation and accelerates exhaustion, creating a feed-forward loop that progressively worsens the condition.
+
+Three causal hypotheses compete regarding the directionality of this relationship (Hypotheses~\ref{hyp:viral-reactivation-consequence},~\ref{spec:viral-reactivation-cause},~\ref{hyp:viral-reactivation-bidirectional}): (1) reactivation as a \emph{consequence} of immune dysfunction, (2) reactivation as a \emph{cause} driving immune dysfunction, and (3) a \emph{bidirectional feedback loop} in which reactivation and immune dysfunction amplify each other. The bidirectional model is arguably most consistent with the clinical observation that antiviral treatment alone produces inconsistent benefit---addressing one side of a loop without breaking the other may be insufficient. The relative plausibility of these hypotheses is assessed in Chapter~\ref{ch:immune-dysfunction}; no empirical test has yet resolved the directionality, and the layered model's temporal ordering should not be taken as answer to this question.
+
+\paragraph{Layer 4: Systemic Amplifiers and Multi-System Consequences.} The sustained immune activation of Layers~2 and~3 cascades into the multi-system pathology documented in Chapters~\ref{ch:cardiovascular} through~\ref{ch:gut-microbiome}:
+\begin{itemize}
+    \item \textbf{Mast cell activation}: Chronic cytokine exposure lowers mast cell degranulation thresholds; histamine, prostaglandins, and mast cell-derived cytokines amplify neuroinflammation and autonomic dysfunction (Chapters~\ref{ch:immune-dysfunction},~\ref{ch:symptom-mechanisms}).
+    \item \textbf{Endothelial activation / microclotting}: Inflammatory mediators trigger endothelial dysfunction, amyloid fibrin(ogen) microclot formation, and impaired tissue perfusion (Section~\ref{sec:amp-endothelial}).
+    \item \textbf{Oxidative stress}: Mitochondrial dysfunction from inflammatory cytokine signaling generates reactive oxygen species that damage membranes, proteins, and DNA (Section~\ref{sec:amp-oxidative}).
+    \item \textbf{Barrier dysfunction}: Gut permeability increases (LBP elevation), permitting bacterial translocation that adds an additional inflammatory stimulus and may have independent effects on the brain via vagal afferent signaling (Section~\ref{subsec:food-mast-cell}).
+    \item \textbf{Dysautonomia}: Autoantibody-mediated adrenergic and muscarinic receptor dysfunction compounds the CNS-driven autonomic failure (Chapter~\ref{ch:cardiovascular}).
+    \item \textbf{Neuroinflammation}: Peripheral inflammatory signals cross the compromised blood-brain barrier, activating microglia and establishing self-sustaining CNS inflammation (Chapter~\ref{ch:neurological}; Section~\ref{sec:ch15-microglia}).
+    \item \textbf{Endocrine disruption}: Hypothalamic-pituitary axis dysfunction produces the characteristic ME/CFS endocrine profile (Chapter~\ref{ch:endocrine}).
+\end{itemize}
+
+These systemic consequences produce the daily symptom burden that defines patients' lived experience---fatigue, brain fog, pain, orthostatic intolerance, unrefreshing sleep, gastrointestinal distress---but none are trigger-capable. They are the downstream manifestations of the upstream immune and metabolic cascade, and treating them in isolation (antihistamines, anticoagulants, antioxidants, symptomatic medications) provides relief without addressing the cascade that generates them.
+
+\paragraph{Layer 5: Attractor Lock-In (Epigenetic Consolidation + Multi-Lock Trap).} Over months to years, the sustained physiological derangement of Layers~1--4 becomes structurally encoded. Epigenetic consolidation (Section~\ref{sec:amp-epigenetic})---DNA methylation changes, histone modifications, and chromatin remodeling in neurons, immune cells, and metabolic tissues---stabilizes the pathological gene expression programs that maintain the disease state. The multi-lock trap (Section~\ref{sec:multi-lock-trap}) emerges: enough self-reinforcing mechanisms are now active that no single one can be removed without the others compensating. The system has crossed from a reversible functional state into an entrenched structural attractor (Chapter~\ref{ch:causal-hierarchy-formal}), where escape requires simultaneous intervention across multiple locks.
+
+It is unknown at what point---if ever---the initiating antigenic source (Layer~1) becomes dispensable. If autoimmune persistence, epigenetic consolidation, and the multi-lock architecture have rendered the disease self-sustaining, clearing the original pathogen would no longer produce recovery: the disease has become independent of its cause. This is the therapeutic paradox Reason~1 of Section~\ref{sec:treatment-vs-cause}: ``the root cause may be gone.'' Conversely, if Layer~1 remains active and Layers~4--5 have not yet fully consolidated, source reduction could produce recovery in principle. The timing of the transition---if one exists---is unknown: no longitudinal data currently capture progression through these layers in individual patients. The formal dynamical systems analysis in Chapter~\ref{ch:causal-hierarchy-formal} models the conditions under which upstream layers become dispensable for attractor maintenance, but the temporal parameters of this transition have not been empirically determined.
+
+\subsection{Feedback and Reactivation Across Layers}
+
+The layered model is not a simple one-way pipeline. Feedback loops connect later layers back to earlier ones, creating the self-sustaining cycles that define chronicity:
+
+\begin{itemize}
+    \item \textbf{Layer 4 $\rightarrow$ Layer 1}: Systemic inflammation and oxidative stress create tissue environments that favor viral reactivation and impair immune clearance, sustaining the antigenic source even when the original infection might otherwise have resolved.
+    \item \textbf{Layer 4 $\rightarrow$ Layer 2}: Mast cell mediators, endothelial dysfunction, and oxidative stress further impair immune effector function, deepening exhaustion.
+    \item \textbf{Layer 5 $\rightarrow$ Layers 1--4}: Epigenetic consolidation locks in the gene expression programs that maintain each layer, making the entire cascade resistant to intervention at any single point.
+\end{itemize}
+
+These feedback connections would explain why patients can deteriorate progressively despite the original trigger being years in the past: if the cascade becomes a self-sustaining system that generates its own drivers, the system no longer needs an external pathogen to maintain itself---the internal feedback loops would have replaced the initiating infection as the disease's engine. This is a theoretical prediction of the model; whether it accurately describes individual patient trajectories is unknown.
+
+\subsection{Long COVID and ME/CFS: Same Cascade, Different Classification}
+
+The Layered Post-Infectious Pathogenesis model is proposed to apply to the subset of Long COVID that resembles ME/CFS, with a hypothesised difference in pathogen specificity rather than mechanistic divergence. This does not claim that all Long COVID follows the same cascade---the Long COVID phenotype is heterogeneous and includes organ-damage-driven presentations (pulmonary fibrosis, cardiac injury) outside the model's scope---but that the post-infectious fatigue/PEM-predominant subtype conforms to the layered architecture.
+
+\begin{itemize}
+    \item \textbf{Long COVID} is a post-infectious disease defined by its initiating pathogen (SARS-CoV-2). In the PEM-predominant subtype, Layer~1 is comparatively well-characterized: the SARS-CoV-2 reservoir in gut tissue documented by Peluso et al.~\cite{Peluso2024pet} provides a specific, identifiable antigenic source. If the cascade model is correct, subsequent layers engage the same pathways as ME/CFS---immune activation, exhaustion, secondary reactivations, systemic amplifiers, attractor lock-in---but the initiating pathogen is known and, in principle, targetable.
+    \item \textbf{ME/CFS} is a more heterogeneous clinical label that likely aggregates post-infectious patients initiated by different pathogens (EBV, HHV-6, CMV, enteroviruses, parvovirus B19, Borrelia, Coxiella) under a single diagnostic category. The hypothesised underlying cascade logic would be identical---persistent antigenic source $\rightarrow$ immune hyperactivation $\rightarrow$ exhaustion $\rightarrow$ reactivations $\rightarrow$ systemic consequences $\rightarrow$ attractor lock-in---but Layer~1 is pathogenically heterogeneous, and in many patients the initiating pathogen is unknown or has been cleared by the time of diagnosis. Non-infectious onset (stress, surgery) may enter the disease through different routes (Section~\ref{sec:entry-points}) without a persistent antigenic source at Layer~1, a gap between the entry-point model and the layered cascade that requires reconciliation (see Section~\ref{sec:antigen-stratification}, Limitation).\end{itemize}
+
+This perspective implies that the PEM/fatigue-predominant subtype of Long COVID and post-infectious ME/CFS are hypothesised to be instances of the same post-infectious cascade, differing in how well Layer~1 is characterized, not in the cascade structure itself. The problem with ME/CFS is not necessarily a different disease mechanism but that it groups patients with different Layer~1 pathogens---and patients whose Layer~1 has resolved or was never infectious---under a single label, obscuring the stratification logic that Long COVID's uniform pathogen makes more visible.
+
+Approximately 50\% of Long COVID patients fulfill ME/CFS diagnostic criteria~\cite{Wong2021LongCOVIDMECFS}, and the cross-disease analysis in Section~\ref{sec:cross-disease} demonstrates convergent neurocognitive, autonomic, and immunological profiles. The layered model would be consistent with this convergence---same hypothesised cascade, driven by different pathogens at Layer~1---while also explaining the residual differences attributable to pathogen-specific effects (SARS-CoV-2's ACE2-mediated endothelial tropism, EBV's B cell tropism, enterovirus effects on mitochondria) that overlay the shared core.
+
+\begin{open_question}[Long COVID as Window into ME/CFS Stratification]
+\label{oq:lc-mecfs-window}
+If Long COVID and ME/CFS share the same post-infectious cascade, then Long COVID---with its uniform pathogen, known onset date, and (in many cases) characterisable antigen persistence status---could serve as a testbed for the cascade model. The question: do the temporal transitions hypothesised in the layered model occur at predictable intervals in post-COVID cohorts, and do treatment responses align with layer-dominant status? If the cascade model is correct, then: (1)~the proportion of symptom variance explained by Layer~2--5 biomarkers (immune exhaustion, reactivation panel, inflammatory mediators) should equal or exceed the proportion explained by Layer~1 biomarkers alone in patients at {\textgreater}12 months post-infection; (2)~antiviral/monoclonal antibody therapy should produce diminishing returns with increasing time from infection (independently of whether antigen remains detectable); and (3)~biomarkers of epigenetic consolidation should increase monotonically with duration and should correlate with treatment resistance across all intervention types. Failure of these predictions would falsify the temporal-ordering component of the cascade model even if the cross-sectional associations (shared immune/metabolic/neurological abnormalities) remain intact.
+
+\textit{Consequence:} if validated, this would mean Long COVID research can serve as an accelerated model for ME/CFS mechanism discovery---rather than requiring decades-long longitudinal ME/CFS studies to learn what cascade progression looks like, we could observe it in compressed time in post-COVID cohorts where time-zero is known. This would dramatically accelerate the identification of therapeutic windows.
+\end{open_question}
+
+\subsection{Therapeutic Implications of the Layered Model}
+
+The layered model refines the treatment priority framework of Section~\ref{sec:treatment-vs-cause} by adding a temporal dimension. Treatment strategy depends not only on \emph{what} mechanism is active but on \emph{which layer} dominates the patient's current state:
+
+\begin{itemize}
+    \item \textbf{Layer-1-dominant (active antigenic source)}: Priority is source reduction---antivirals for active viral replication, monoclonal antibodies for spike persistence, plasma cell depletion for autoantibody production. Note that immune checkpoint therapies (e.g., anti-PD-1), while mechanistically plausible for reversing T cell exhaustion (Section~\ref{subsec:pembrolizumab}), would be expected to amplify immune activation against an ongoing stimulus rather than removing the stimulus. Their investigation should be reserved for patients in whom the antigenic source has been addressed first. In current practice, immune checkpoint therapy has no established role in ME/CFS and carries significant risks of immune-related adverse events.
+    \item \textbf{Layer-2-dominant (immune exhaustion, antigen source unclear or absent)}: Priority is immune restoration---strategies to reverse T cell exhaustion or support metabolic function in exhausted immune cells. If no antigen source is detectable, immunomodulation rather than antiviral therapy is indicated.
+    \item \textbf{Layer-3-dominant (secondary reactivations active)}: Priority is dual: antiviral treatment targeting the reactivated pathogens \emph{while simultaneously} addressing the underlying immune dysfunction that permitted reactivation. Antivirals alone will produce transient benefit followed by re-reactivation if immune control is not restored.
+    \item \textbf{Layer-4-dominant (systemic consequences causing greatest disability)}: Priority is symptomatic management of the consequences that dominate the patient's daily experience---mast cell stabilization for MCAS-dominant patients, pacing for PEM-dominant patients, sleep interventions for sleep-predominant phenotypes. These interventions improve quality of life but should not be mistaken for disease-modifying therapy if upstream layers remain active.
+    \item \textbf{Layer-5-dominant (attractor locked, no detectable upstream activity)}: Priority is combination multi-target therapy aimed at releasing enough locks simultaneously for attractor escape. This is the most difficult therapeutic scenario because it requires coordinated intervention across multiple mechanisms, and the epigenetic component may be only partially reversible. Prevention of Layer~5 consolidation through early, aggressive treatment before the intervention window closes is the strongest argument for treating Long COVID and early ME/CFS as medical emergencies.
+\end{itemize}
+
+These layer-specific strategies are not mutually exclusive. A patient may have active Layer~1 antigen (EBV reactivation detected) while also suffering Layer~4 consequences (MCAS, POTS) and showing early Layer~5 signs (duration $>$3 years with treatment resistance). The model suggests a treatment sequence that respects causal priority: address the most upstream active layer first (to stop the cascade's engine), then address downstream consequences (to relieve suffering), then attempt lock release (to enable escape from the attractor). This sequence is aspirational---most patients in clinical practice are treated in the reverse order (symptoms first) because upstream interventions are less available, less validated, or both.
+
+\begin{limitation}[Layer Attribution Uncertainty]
+The layered model assigns mechanisms to temporal layers based on theoretical reasoning, not on empirical demonstration of temporal sequence. With the exception of the poly-herpesvirus ALR cascade (where the ALR $\rightarrow$ dUTPase $\rightarrow$ T cell exhaustion sequence has biochemical plausibility but lacks longitudinal confirmation---see Section~\ref{sec:poly-herpesvirus}), no layer transition has been captured in longitudinal data. The model should be treated as a framework for organizing mechanistic reasoning and generating testable predictions about disease progression, not as an established temporal sequence.
+
+An additional limitation: the five-layer model was developed for post-infectious ME/CFS, where an antigenic source (Layer~1) is a plausible initiating event. For patients with non-infectious onset (stress, surgery, trauma---see Section~\ref{sec:entry-points}), there may be no persistent antigenic source at Layer~1, and the cascade would be hypothesised to initiate at Layer~2, Layer~4, or through an entirely different route. The relationship between the layered cascade and non-infectious entry remains unresolved and may indicate that the model applies only to a subset of the ME/CFS population.
+\end{limitation}
+
+The formal dynamical systems analysis of cascade progression---including the modeling of each layer as a coupled differential equation and the analysis of conditions under which upstream layers become dispensable for attractor maintenance---is developed in Chapter~\ref{ch:causal-hierarchy-formal}.
+
+\input{figures/fig-layered-pathogenesis}
+
+
+% =============================================================================
+% SECTION 7: LOAD-BEARING VS. SECONDARY LOCKS
 % =============================================================================
 
 \section{Load-Bearing versus Secondary Locks}
@@ -647,7 +747,7 @@ The formal analysis of lock removal---including the minimum number and combinati
 
 
 % =============================================================================
-% SECTION 7: TREATMENT IMPLICATIONS
+% SECTION 8: TREATMENT IMPLICATIONS
 % =============================================================================
 
 \section{Treatment Implications of the Causal Hierarchy}
@@ -665,7 +765,7 @@ The framework presented here is a conceptual tool for reasoning about treatment 
 
 \paragraph{Reason 3: The multi-lock model predicts that single-mechanism treatments fail.} Even if a root cause is both present and accessible, treating it alone may fail because the amplifier locks maintain the disease independently. The multi-lock trap (Section~\ref{sec:multi-lock-trap}) predicts that recovery requires releasing enough locks simultaneously that the remaining ones cannot sustain the disease state. This means treatment strategy is inherently combinatorial: the relevant question is not ``which single mechanism should we target?'' but ``which combination of mechanisms, when addressed simultaneously, enables escape from the disease attractor?''
 
-The practical conclusion is that treatment priority should be determined by the product of \emph{causal importance} and \emph{therapeutic tractability}, not by causal importance alone. A highly causal mechanism with zero tractability has zero treatment priority (you cannot treat what you cannot reach). A moderately causal mechanism with high tractability may have the highest treatment priority (you can treat it, and treating it contributes to the combination needed for escape). Table~\ref{tab:treatment-priority} applies this reasoning to the mechanisms classified in this chapter.
+The practical conclusion is that treatment priority should be determined by the product of \emph{causal importance} and \emph{therapeutic tractability}, not by causal importance alone. A highly causal mechanism with zero tractability has zero treatment priority (you cannot treat what you cannot reach). A moderately causal mechanism with high tractability may have the highest treatment priority (you can treat it, and treating it contributes to the combination needed for escape). Reason~1 and this conclusion are not contradictory: the root cause \emph{may} be gone (Reason~1), but sometimes it is not---and determining which is the case (Section~\ref{sec:antigen-stratification}) is itself a treatment-relevant question. Table~\ref{tab:treatment-priority} applies this reasoning to the mechanisms classified in this chapter.
 
 \begin{landscape}
 \begin{longtable}{p{3.5cm}p{2.5cm}p{2.5cm}p{2.5cm}p{5.5cm}}
@@ -717,7 +817,7 @@ Oxidative stress vicious cycle & Amplifier (secondary) & Moderate & 10 & Antioxi
 \end{longtable}
 \end{landscape}
 
-The ranking in Table~\ref{tab:treatment-priority} explains several patterns in the ME/CFS treatment literature. GPCR-targeted immunotherapy ranks highest because it addresses a root cause with demonstrated tractability; the 60\% daratumumab response rate is among the highest reported for any ME/CFS intervention, suggesting that in the autoantibody-positive subgroup, the autoimmune mechanism is both active and accessible. Mast cell stabilization ranks second despite being ``merely'' an amplifier because its high tractability and rapid onset make it an efficient first-line intervention that improves quality of life immediately while slower, more causally fundamental treatments take effect. By contrast, the CNS energy crisis---arguably the most causally important mechanism---ranks seventh because no current therapeutic approach can directly and selectively address it.
+The ranking in Table~\ref{tab:treatment-priority} explains several patterns in the ME/CFS treatment literature. GPCR-targeted immunotherapy ranks highest because it addresses a root cause with demonstrated tractability; the 60\% daratumumab response rate~\cite{Fluge2025daratumumab} is among the highest reported for any ME/CFS intervention, suggesting that in the autoantibody-positive subgroup, the autoimmune mechanism is both active and accessible. Mast cell stabilization ranks second despite being ``merely'' an amplifier because its high tractability and rapid onset make it an efficient first-line intervention that improves quality of life immediately while slower, more causally fundamental treatments take effect. By contrast, the CNS energy crisis---arguably the most causally important mechanism---ranks seventh because no current therapeutic approach can directly and selectively address it.
 
 The ranking also suggests a treatment sequencing strategy: begin with high-tractability interventions (mast cell stabilization, NAD$^+$ supplementation) that provide immediate symptomatic relief, add root-cause-targeting interventions (immunoadsorption or daratumumab in autoantibody-positive patients) as they become available, and incorporate experimental approaches targeting low-tractability mechanisms (CNS energy restoration, epigenetic modification) as the field advances.
 
@@ -728,8 +828,65 @@ Figure~\ref{fig:treatment-priority-scatter} visualizes the relationship between 
 The treatment optimization framework in Chapter~\ref{ch:predictive-applications} builds on this hierarchy to model combinatorial treatment strategies, predicting which combinations of interventions are most likely to release enough locks for disease escape.
 
 
+\subsection{Antigen Persistence as a Treatment Stratification Axis}
+\label{sec:antigen-stratification}
+
+The treatment priority framework of Table~\ref{tab:treatment-priority} ranks mechanisms by the product of causal importance and tractability. The layered model of Section~\ref{sec:layered-post-infectious} adds a temporal dimension---which layer dominates the patient's current state. But neither framework explicitly addresses a question that meaningfully changes the treatment strategy for any given patient: \textbf{is there an active antigenic source driving the cascade, or has the cascade become self-sustaining?}
+
+This question cuts across both causal tier and temporal layer. A patient may have a trigger-capable root cause (GPCR autoantibodies) that is still active (treatment: plasma cell depletion) or one that was the historical entry door but is no longer driving the disease (treatment: multi-lock release, not immunomodulation). A patient may have an amplifier mechanism (viral reactivation $\leftrightarrow$ immune exhaustion) where the viral component is active and addressable (treatment: antivirals) or where exhaustion alone remains after viral clearance (treatment: immune restoration, not antivirals). The antigen persistence status does not replace the causal hierarchy or the layered model---it \emph{modulates} the treatment strategy within them, shifting individual mechanisms up or down in priority depending on whether their target is present.
+
+\textit{Consequence:} if validated, antigen persistence status would determine whether a given patient should receive antivirals, plasma cell depletion, or combination multi-lock therapy---a treatment decision for which no biomarker guidance exists. For researchers, it provides an additional stratification variable that may explain inconsistent trial results across unselected cohorts.
+
+\subsection{Three Antigen-Persistence Scenarios}
+
+We propose three scenarios, not as validated clinical categories but as a framework for reasoning about treatment selection. Note that these are conceptual categories whose practical application is limited by the sensitivity and availability of current antigen detection methods.
+
+\paragraph{Scenario A: Active antigen source---pathogen or autoantigen.} The patient has evidence of a persistent driver: detectable SARS-CoV-2 reservoir (gut biopsy or imaging), active herpesvirus reactivation with elevated IgM or plasma PCR, or GPCR autoantibodies with functional activity demonstrable in bioassay. In this scenario, the hypothesised priority is \textbf{source reduction}:
+
+\begin{itemize}
+    \item \textbf{Viral persistence}: Antiviral therapy (valacyclovir for EBV, valganciclovir for HHV-6/CMV, combination protocols) or monoclonal antibodies targeting persistent viral antigens (pemivibart for spike protein). The goal is to eliminate the antigenic stimulus that sustains Layers~2--4.
+    \item \textbf{Autoantibody persistence}: Plasma cell depletion (daratumumab) or non-selective antibody removal (immunoadsorption) to eliminate the autoantibody-producing cells or their products.
+    \item \textbf{Caveat}: Neither daratumumab nor immunoadsorption is approved for ME/CFS; both are research-stage interventions with limited availability and substantial cost. Source-reduction strategies in Table~\ref{tab:treatment-priority} (GPCR autoantibody cascade: priority~1; viral reactivation: priority~9) reflect not only causal importance but also tractability---and for most clinicians, the antigen persistence question can only be assessed in research settings.
+\end{itemize}
+
+\paragraph{Scenario B: No detectable antigen source, attractor-locked.} The patient's initiating pathogen was cleared (or was never identified), no active viral replication is detectable, and autoantibody status is negative or at non-functional titers. Yet the disease persists---maintained by the amplifier locks, epigenetic consolidation, and the multi-lock architecture of Layers~4 and~5. In this scenario, the hypothesised priority is \textbf{lock release and attractor destabilization}:
+
+\begin{itemize}
+    \item \textbf{Combination multi-target therapy}: Addressing the minimum set of load-bearing locks required for attractor escape (Section~\ref{sec:load-bearing-locks}). This may include mast cell stabilization, NAD$^+$ replenishment, endothelial support, and neuroinflammation reduction simultaneously---any single intervention alone is predicted to fail because the remaining locks compensate.
+    \item \textbf{Immune restoration}: If T/NK exhaustion persists without ongoing antigen stimulation, strategies targeting the exhausted phenotype (metabolic support for immune cells, cytokine modulation to restore effector function) may accelerate recovery.
+    \item \textbf{Caveat}: Antiviral therapy in Scenario~B targets a pathogen that is no longer detectable and may be absent; non-response to antivirals in such patients is expected and should not be interpreted as evidence against a post-infectious aetiology. Similarly, non-response to antivirals in a given patient does not prove the patient is in Scenario~B---it may indicate that the specific antiviral was inadequate for the specific pathogen.
+\end{itemize}
+
+\paragraph{Scenario C: Antigen source unknown---the most common clinical situation.} Most ME/CFS patients fall into this scenario at presentation. SARS-CoV-2 gut reservoir testing requires invasive biopsy; herpesvirus reactivation markers are non-specific (elevated IgG reflects past exposure, not necessarily active replication); GPCR autoantibody testing is not clinically available in most settings. The patient has not been characterized for Layer~1 status. In this scenario, the \emph{default} strategy is the amplifier-targeting interventions common to both Scenario~A and~B (mast cell stabilization, NAD$^+$ supplementation, pacing), which address Layer~4 consequences that are downstream of all causal pathways and provide symptomatic benefit regardless of antigen status. Source-reduction or immunomodulatory trials---where available through research protocols---serve a dual diagnostic and therapeutic purpose.
+
+The critical distinction is that Scenarios A, B, and C are not mutually exclusive patient \emph{types}---they are \emph{states} that can evolve over time. A patient may begin at onset in Scenario~A (active SARS-CoV-2 reservoir), transition to Scenario~C when standard testing cannot confirm ongoing antigen, and eventually enter Scenario~B after the reservoir is cleared but the multi-lock architecture maintains the disease. Treatment strategy must be re-evaluated as the patient's antigen persistence status changes.
+
+\begin{hypothesis}[Antigen Persistence Modulates Treatment Priority]
+\label{hyp:antigen-stratification}
+The presence or absence of an active antigenic source is \emph{a} therapeutically relevant distinction in post-infectious ME/CFS and Long COVID---one that can meaningfully shift individual mechanism rankings in Table~\ref{tab:treatment-priority} up or down depending on whether the mechanism's target is present. When an antigen source is detectable (Scenario~A), source-reduction therapies warrant higher priority than their baseline ranking would suggest, and caution is warranted with immune-activating therapies that risk amplifying the response against an ongoing stimulus. When no antigen source is detectable (Scenario~B), interventions targeting persistent pathogens become low-value, and multi-lock combination strategies become the primary approach. Whether the transition between Scenario~A and~B (via natural clearance or treatment) represents a genuine inflection point in disease trajectory---and not merely a change in what we can measure---is a testable hypothesis.
+
+\textit{Consequence:} if confirmed, patients whose antigen source is detectable would benefit from prioritising antiviral or plasma-cell-targeted therapy over interventions that assume the cascade is self-sustaining. Patients without detectable antigen would avoid futile antiviral courses and their associated toxicity. For clinical trial design, failing to stratify by antigen persistence may be one reason antiviral and immunomodulatory trials have produced inconsistent results.
+
+\textbf{Certainty:} 0.35. The logic is consistent with the documented biology of antigen persistence (Section~\ref{sec:layered-post-infectious}) and the multi-lock architecture (Section~\ref{sec:multi-lock-trap}), but no prospective trial has stratified patients by antigen persistence status and compared source-reduction versus lock-release strategies. The categories are conceptual---an organising framework for trial design, not a validated clinical algorithm.
+
+\textbf{Falsifiability:} The hypothesis would be weakened or refuted if: (1) treatment response in adequately characterised cohorts shows no interaction between antigen persistence status and treatment type (i.e., source-reduction therapies work equally well regardless of detectable antigen, or multi-lock therapies work equally well regardless of antigen status); or (2) longitudinal tracking demonstrates that the transition from Scenario~A to~B is gradual and continuous rather than an inflection point, suggesting that antigen clearance and attractor destabilization must occur in parallel rather than sequentially.
+
+\textbf{Testable predictions:}
+\begin{enumerate}
+    \item In Long COVID patients with confirmed SARS-CoV-2 gut reservoir (biopsy-proven), antiviral or monoclonal antibody therapy should produce larger and more durable responses than in patients without detectable reservoir, controlling for disease duration and severity.
+    \item Anti-PD-1 therapy (in investigational protocols) should produce more adverse events and less benefit in patients with detectable viral reservoirs than in patients without them.
+    \item The transition from antiviral-responsive to antiviral-unresponsive disease should correlate with the transition from detectable to undetectable antigen persistence, independently of disease duration.
+    \item Combination multi-lock therapy should produce higher response rates in patients without detectable antigen (Scenario~B) than source-reduction monotherapy, and source-reduction therapy should produce higher response rates in patients with detectable antigen (Scenario~A) than multi-lock monotherapy.
+\end{enumerate}
+
+\textbf{Limitations:} Antigen persistence assays for most ME/CFS-relevant pathogens are not clinically validated. Scenario~B status (``antigen absent'') can never be proven---only that antigen is undetectable by current methods, which says nothing about sub-PCR-level reservoirs (Strategy~\ref{hyp:lymphocyte-reservoir-ratchet}). The classification may therefore be operational rather than ontological: ``Scenario~A'' means ``antigen is detectable at our current technological limits,'' and ``Scenario~B'' means ``antigen is not detectable at our current technological limits''---not that antigen is truly absent. Non-response to antivirals in Scenario~A patients does not automatically confirm Scenario~B status; it may indicate inadequate antiviral selection, dosing, or duration for the specific pathogen. The practical value of this framework depends on the development of validated, accessible antigen persistence diagnostics---without them, it remains a research hypothesis rather than a clinical tool.
+\end{hypothesis}
+
+The antigen persistence stratification axis complements the existing biomarker-based stratification framework recommended for clinical trials (Chapter~\ref{ch:clinical-trials}, Strategy~\ref{oq:stratified-trials}). Where feasible---acknowledging that antigen persistence assays are neither standardised nor widely available---future trials should consider stratifying by antigen persistence status: patients with confirmed persistent pathogen should be analysed separately from patients without detectable antigen, because the treatment logic differs and pooling these groups may obscure treatment-specific effects in both directions.
+
+
 % =============================================================================
-% SECTION 8: RESEARCH IMPLICATIONS
+% SECTION 9: RESEARCH IMPLICATIONS
 % =============================================================================
 
 \section{Research Implications}
@@ -739,7 +896,7 @@ The causal hierarchy proposed in this chapter generates specific, testable resea
 
 \paragraph{Single-parameter restoration experiments.} The most direct test of the hierarchy is to normalize a single mechanism and observe whether ME/CFS resolves. The prediction is clean: normalizing a trigger-capable mechanism should produce complete or near-complete recovery in the subgroup where that mechanism is active, while normalizing an amplifier should produce partial improvement that plateaus short of recovery.
 
-The daratumumab trial provides preliminary evidence for this prediction. Depleting CD38$^+$ plasma cells---which are the source of GPCR autoantibodies---produced marked improvement in 60\% of patients. If autoantibodies are trigger-capable in that subgroup, 60\% is a plausible response rate (accounting for patients with concurrent load-bearing locks that prevent full recovery). The 40\% non-responders may represent patients whose disease entered through a different door (safe mode, CNS energy crisis) or patients in whom epigenetic consolidation has made the disease self-sustaining independent of autoantibodies.
+The daratumumab trial provides preliminary evidence for this prediction. Depleting CD38$^+$ plasma cells---which are the source of GPCR autoantibodies---produced marked improvement in 60\% of patients~\cite{Fluge2025daratumumab}. If autoantibodies are trigger-capable in that subgroup, 60\% is a plausible response rate (accounting for patients with concurrent load-bearing locks that prevent full recovery). The 40\% non-responders may represent patients whose disease entered through a different door (safe mode, CNS energy crisis) or patients in whom epigenetic consolidation has made the disease self-sustaining independent of autoantibodies.
 
 By contrast, NAD$^+$ supplementation trials have consistently shown modest benefit---improvement in some symptoms without approaching recovery. This ``helps but doesn't cure'' pattern is precisely what the hierarchy predicts for normalizing an amplifier rather than a root cause.
 
