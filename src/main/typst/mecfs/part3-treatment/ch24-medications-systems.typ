@@ -1270,7 +1270,112 @@ Adenosine is a product of ATP degradation that acts as a protective “slow down
 *Energy Profile.*
 Category C (energy-masking, mild). Caffeine is the mildest stimulant on this spectrum. Most patients self-regulate through tolerance and subjective response. The mast cell stabilisation effect is a genuinely positive pharmacological property distinct from its stimulant action.
 
-=== The “Energy Credit” Model and PEM Dynamics
+=== What the Response Tells Us About Stimulants (Modafinil, Methylphenidate, Amphetamines, Solriamfetol, Pitolisant, Caffeine)
+
+All CNS stimulants probe the same question: is catecholamine (dopamine/norepinephrine) signaling deficient, and can it be compensated? Their differences in mechanism, selectivity, and safety create a hierarchy of diagnostic informativeness. The key distinction is between what a stimulant response tells us (dopamine/norepinephrine deficiency present) and what it does NOT tell us (whether the deficiency is primary or secondary to metabolic/immune pathology, and whether the drug is helping or harming).
+
+==== If stimulants work: improved brain fog, attention, fatigue perception
+
+====== Finding 1 — Catecholamine signaling was insufficient
+
+All stimulants increase dopamine and/or norepinephrine signaling — by blocking reuptake (methylphenidate, solriamfetol, modafinil), forcing release (amphetamines), or recruiting endogenous arousal systems (pitolisant via histamine, caffeine via adenosine). If any stimulant improves cognitive function, the common denominator: catecholamine signaling was below what the brain needed.
+
+*Why stimulant response implicates it:* Drug increased dopamine/norepinephrine tone → cognition improved → catecholamine signaling was inadequate.
+
+*Certainty of this inference:* Medium. CSF catecholamine reduction documented @Walitt2024NIH. Stimulant surveys: 77.1% brain fog improvement @Vernon2025PNAS. Methylphenidate RCT (Blockmans 2006): 17% clinically significant response @Blockmans2006methylphenidate. Solriamfetol RCT (Young 2025, n=38): significant fatigue improvement (p=0.039) @Young2025solriamfetol. However, RCT effect sizes are modest, survey data uncontrolled.
+
+*What this finding does NOT tell us:* Why catecholamines are deficient — (A) neuroinflammation-driven IDO/BH4 depletion (if LDN also works, this is likely), (B) metabolic constraint on neurotransmitter synthesis/packaging (ATP-dependent proton pump failure — if mitochondrial supplements also work), (C) primary genetic factors. Stimulant response alone does not distinguish these. Whether stimulant benefit is sustainable — masking fatigue while energy deficit persists enables overexertion. PNAS: stimulants +77.1% brain fog but -1.5% PEM @Vernon2025PNAS.
+
+*Action:* Catecholamine involvement confirmed but cause unidentified. Combine with medication responses that distinguish upstream mechanism: LDN (neuroinflammation), mitochondrial supplements (metabolic constraint), LDA (receptor-level pattern). If LDN also works, treat neuroinflammation as likely upstream driver — this may allow eventual stimulant reduction.
+
+*Level of action:* Symptom management. Stimulants compensate for deficient catecholamine signaling — they do not restore production, remove inflammatory precursor depletion, or repair mitochondrial ATP production. The underlying pathology progresses while symptoms are masked. This is the most critical caveat for the entire class.
+
+====== Finding 2 — Dopamine deficit type: low-production vs. rapid-clearance (methylphenidate/solriamfetol vs. amphetamines)
+
+Methylphenidate and solriamfetol block reuptake (keep dopamine in the synapse longer). Amphetamines force vesicular release (dump stored dopamine). If a reuptake blocker works but amphetamines cause severe post-drug crash (exhaustion, worsened PEM), the dopamine deficit is low-production — stores are finite and cannot be replenished fast enough.
+
+*Why this differential implicates it:* Reuptake blocker → mild sustained improvement (keeping existing dopamine). Amphetamine → initial benefit then crash (stores depleted, production insufficient to replenish). The amphetamine crash reveals production cannot keep pace with demand.
+
+*Certainty of this inference:* Low to Medium. Pharmacology is well-established; clinical inference untested in ME/CFS prospectively.
+
+*Action:* If methylphenidate/solriamfetol helps but amphetamines crash, dopamine production capacity is low. Receptor-level support (LDA) or precursor support may be safer. Mitochondrial support (CoQ10, NADH) for ATP-dependent neurotransmitter synthesis is particularly relevant.
+
+*Level of action:* Symptom management. Refines which stimulant strategy is least harmful — none address the production deficit.
+
+====== Finding 3 — Brain energy metabolism integrity (modafinil vs. methylphenidate)
+
+Modafinil has documented brain-level ATP enhancement and anti-inflammatory microglial M1→M2 shift @Minzenberg2008modafinil. Methylphenidate increases whole-body REE by +7% and chronically decreases hippocampal ATP @Graveling2023stimulantmitochondria. If modafinil helps but methylphenidate worsens energy (increased crashes, worsened PEM): the brain can benefit from mitochondrial support (modafinil's unique property) but cannot tolerate the metabolic cost of generalized sympathetic activation (+7% REE).
+
+*Why this differential implicates it:* Modafinil → ATP enhancement + anti-inflammatory → benefit. Methylphenidate → +7% REE + mitochondrial toxicity → net harm. Energy is so constrained that even modest metabolic cost overwhelms cognitive benefit.
+
+*Certainty of this inference:* Low. Modafinil's brain ATP effects are preclinical. Differential pattern inferred from pharmacological profiles, not direct comparative data. Modafinil's only ME/CFS RCT (n=14) was negative @Randall2005modafinil.
+
+*Action:* If modafinil tolerated but methylphenidate not: brain has residual metabolic capacity but zero tolerance for additional demand. Direct toward energy-sparing strategies (modafinil, pitolisant); away from sympathetic activators.
+
+*Level of action:* Symptom management — modafinil's anti-inflammatory and ATP-enhancing properties blur the line toward partial root cause (brain-level only, speculative).
+
+====== Finding 4 — Histaminergic arousal system is intact (pitolisant)
+
+Pitolisant blocks H3 autoreceptors, increasing endogenous histamine — recruiting the brain's natural wakefulness system rather than imposing artificial catecholamine signals. If pitolisant works without sympathetic activation (tachycardia, anxiety, vasoconstriction), the histaminergic arousal system is functional.
+
+*Why pitolisant response implicates it:* Pitolisant → increased endogenous histamine → wakefulness improved → histaminergic arousal system intact. Distinct from dopamine/norepinephrine stimulation — probes a different arousal pathway. Pitolisant also has anti-neuroinflammatory properties (M1→M2 microglial shift) that could contribute.
+
+*Certainty of this inference:* Low. No ME/CFS-specific data. Anti-neuroinflammatory mechanism is preclinical.
+
+*Action:* If pitolisant works where dopaminergic stimulants cause side effects: histaminergic strategies preferable. If pitolisant improves cognition + inflammatory symptoms, anti-neuroinflammatory mechanism may be contributing.
+
+*Level of action:* Partial root cause (speculative). Microglial M1→M2 shift could reduce neuroinflammation — partially addressing a disease mechanism. Inferred from preclinical data, not demonstrated in ME/CFS.
+
+====== What a positive response does NOT reveal
+
+- *The cause of catecholamine deficiency.* Inflammation, metabolic failure, HPA dysfunction, or genetics cannot be distinguished by stimulant response alone.
+- *Whether benefit is sustainable.* All stimulants risk PEM worsening through fatigue masking. Solriamfetol's PEM effect is unmeasured. Modafinil's ATP enhancement may partially offset this — unproven.
+- *Whether the underlying pathology is progressing.* Symptomatic improvement can coexist with disease progression. The PNAS -1.5% PEM effect is the critical warning.
+
+==== If stimulants do NOT work
+
+====== Interpretation 1 — Catecholamine deficiency may not be present
+
+If reuptake blockers and releasing agents produce no cognitive improvement at adequate doses, dopamine/norepinephrine signaling may be adequate. Cognitive dysfunction from glymphatic failure, direct cytokine effects, cerebral hypoperfusion, or neuronal mitochondrial failure independent of neurotransmitter levels.
+
+====== Interpretation 2 — Catecholamine receptors may be downregulated
+
+Chronic inflammation reduces receptor expression. Increased synaptic catecholamines cannot restore function with insufficient receptors. LDA (direct receptor agonist) may still provide benefit.
+
+====== Interpretation 3 — Side effects mask benefit
+
+Sympathetic activation (tachycardia, anxiety, vasoconstriction), metabolic cost (+7% REE for methylphenidate), or sleep disruption may produce net negative effect obscuring cognitive benefit. "Wired but still brain-fogged" or "jittery and exhausted" = side-effect-driven non-response, not catecholamine adequacy.
+
+====== Interpretation 4 — Modafinil-specific: negative RCT consistent with non-response
+
+The only modafinil RCT in CFS (Randall 2005, n=14) was negative at 200 mg and 400 mg, with worse cognitive performance at 400 mg @Randall2005modafinil. Non-response is consistent with controlled evidence.
+
+==== How stimulants combine with other medications
+
+*Stimulant works + LDA works:*
+Step 1: Stimulant → reuptake blockade or release sufficient. Step 2: LDA → direct receptor stimulation also sufficient. Step 3: Responding to both reuptake AND receptor agonism → severe dopamine deficit requiring maximal pharmacological support.
+→ *Warning pattern: dopamine deficit is profound. Prioritize treating upstream cause rather than escalating stimulant doses.*
+
+*Stimulant does NOT work + LDA works:*
+Step 1: Stimulant failure → reuptake blockade insufficient. Step 2: LDA success → direct receptor stimulation bypasses deficit. Step 3: Dopamine deficit at receptor or production level, not clearance — too little dopamine in synapse for reuptake blockade to help.
+→ *Common pattern in ME/CFS. Receptor-level support more effective. Investigate dopamine production failure (BH4 depletion, ATP deficit).*
+
+*Stimulant works but PEM worsens (subjectively better, objectively worse):*
+Step 1: Stimulant → cognitive improvement (catecholamine boost). Step 2: PEM worsens (net -1.5% PNAS @Vernon2025PNAS). Step 3: Catecholamine deficit is downstream of energy production deficit — stimulants borrow energy from tomorrow.
+→ *Most important stimulant pattern in ME/CFS. Discontinue or strictly dose-limit. Use ONLY with objective activity monitoring (HR, step counts).*
+
+==== Limitations
+
+- *Modafinil: only ME/CFS RCT was negative (n=14).* Brain ATP and anti-inflammatory mechanisms are preclinical inferences.
+- *Methylphenidate: 17% RCT response rate, +7% REE, mitochondrial toxicity — direct contraindications.*
+- *Amphetamines: highest risk class.* Neurotransmitter depletion, severe crashes, no adequate ME/CFS evidence.
+- *Solriamfetol: PEM data missing.* Critical safety endpoint unmeasured.
+- *Pitolisant: no ME/CFS data.* All inferences extrapolated from pharmacology and narcolepsy.
+- *Overall inference certainty:* Low to Medium. Class consistently demonstrates catecholaminergic involvement across multiple drug types, but benefit-safety ratio unfavorable for most agents and PEM risk is class-wide.
+
+*(Origin: medication-differential-analysis)*
+
+==
 <subsec:energy-credit>
 
 The central question for all stimulants in ME/CFS is whether stimulant-enabled activity is “repaid later” and, if so, with what dynamics.
