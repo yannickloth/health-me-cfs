@@ -2109,6 +2109,96 @@ For ME/CFS patients with confirmed HIT or MCAS-overlap phenotype:
 This contraindication applies regardless of cardiovascular indication, as the histamine burden outweighs cardioprotective benefit.
 ] <warn:aspirin-hit>
 
+=== What the Response Tells Us About Cimetidine
+
+Cimetidine is the most mechanistically distinctive H2 blocker available. Beyond acid suppression, it has three properties that make it a uniquely informative probe: (1) T-cell enhancement via blockade of H2 receptors on CD8+ suppressor T cells — effectively removing a brake on cell-mediated immunity, (2) strong CYP450 inhibition (1A2, 2D6, 3A4) — altering metabolism of co-administered drugs and potentially affecting viral latency through altered intracellular drug concentrations, and (3) moderate CNS penetration. Famotidine lacks these properties and cannot substitute diagnostically. Cimetidine response defines the VIM (viral-immune-metabolic) phenotype in our framework (@sec:vim-phenotype).
+
+==== If cimetidine works: dramatic improvement in energy, cognition, flu-like symptoms, PEM
+
+====== Finding 1 — T-cell-mediated immune dysfunction was present
+
+Cimetidine blocks H2 receptors on CD8+ suppressor T cells, preventing them from receiving the histamine signal that suppresses their activity. The net effect is enhanced T-cell function — increased cytotoxicity, improved viral clearance, and reduced regulatory suppression of effector responses. This is not immunostimulation in the broad sense — it is removal of a specific inhibitory signal on a specific T-cell subset.
+
+*Why cimetidine response implicates it:* Cimetidine blocked H2 receptors on suppressor T cells → suppressor signal removed → T-cell function enhanced → immune surveillance improved → symptoms improved. Therefore, T-cell suppression was contributing to immune dysfunction. Cimetidine is almost unique among ME/CFS medications in targeting this specific mechanism — only very high-dose famotidine might overlap, and no other H2 blocker has this property.
+
+*Certainty of this inference:* Low to Medium. The H2 receptor on CD8+ suppressor T cells is well-characterized in immunology, and cimetidine's effect on T-cell function is documented in oncology contexts (adjunctive use in colorectal cancer, melanoma). However, no ME/CFS-specific study has measured T-cell function before and after cimetidine treatment. The inference rests on known pharmacology applied to a documented immune deficit (reduced NK/T-cell function in ME/CFS), not on direct evidence.
+
+*What this finding does NOT tell us:* Why T-cell suppression was present — whether it reflects adaptive immune regulation (the body deliberately suppressing T-cells to limit inflammation), viral immune evasion (EBV/CMV downregulating MHC-I to escape T-cell recognition), or a primary immunodeficiency.
+
+*Action:* If cimetidine works, T-cell dysfunction is a relevant mechanism. This supports investigating antiviral treatment (enhanced T-cell function may unmask viral involvement), and suggests that other T-cell-enhancing strategies (low-dose IL-2 for Treg expansion, checkpoint modulation in research contexts) may be relevant.
+
+*Level of action:* Partial root cause. T-cell dysfunction is an amplifier mechanism — it permits viral reactivation and impairs immune surveillance, perpetuating the disease state but not initiating it. Cimetidine partially corrects this amplifier.
+
+====== Finding 2 — Viral reactivation was likely contributing (VIM phenotype)
+
+Cimetidine's T-cell enhancement improves immune control of latent herpesviruses. Additionally, its CYP450 inhibition can increase tissue concentrations of co-administered antivirals (valacyclovir, valganciclovir) or alter intracellular drug distribution, potentially affecting viral latency. The pattern of cimetidine response — often dramatic, with improvements in flu-like symptoms, lymphadenopathy, and sore throat — is consistent with enhanced antiviral immune activity.
+
+*Why cimetidine response implicates it:* Cimetidine enhanced T-cell function → improved viral immune surveillance → reduced viral reactivation → flu-like symptoms, lymphadenopathy, and fatigue improved. Cimetidine is probing viral involvement indirectly — through immune enhancement rather than direct polymerase inhibition. A positive response means the immune system, when relieved of suppression, can control the virus.
+
+*Certainty of this inference:* Low. Cimetidine does not have direct antiviral activity. The antiviral inference is two steps removed: immune enhancement → better viral control. Viral load measurements before and after cimetidine treatment would confirm this mechanism but have not been performed.
+
+*What this finding does NOT tell us:* Whether a direct antiviral (valacyclovir, valganciclovir) would produce greater or more durable benefit. Cimetidine works through the immune system; if immune function is fundamentally impaired, immune-mediated viral control may be insufficient even with cimetidine.
+
+*Action:* This is the VIM phenotype — cimetidine response strongly suggests viral-immune-metabolic pathology. Combine cimetidine with metabolic support (amino acids, mitochondrial supplements) and consider adding antivirals if the response is partial or unsustained.
+
+*Level of action:* Same as Finding 1 — the drug corrects an amplifier (T-cell suppression) which secondarily improves viral control.
+
+====== Finding 3 — Famotidine non-response with cimetidine response confirms T-cell mechanism
+
+If a patient fails famotidine (an H2 blocker without significant immunomodulation) but responds to cimetidine, the benefit cannot be attributed to H2 blockade alone — famotidine is a more potent acid suppressor. The differential response isolates cimetidine's unique immunomodulatory property.
+
+*Why this differential implicates it:* Famotidine blocked H2 receptors (acid suppression) → no clinical benefit. Cimetidine blocked H2 receptors + enhanced T-cell function → clinical benefit. Therefore, the T-cell enhancement, not the acid suppression, is responsible. This is one of the clearest differential signals in ME/CFS pharmacology.
+
+*Certainty of this inference:* Medium-High. The cimetidine/famotidine difference is pharmacological fact — famotidine has minimal immunomodulatory and CYP450 effects. Response to one but not the other cleanly isolates the mechanism.
+
+*Action:* Confirms VIM phenotype. Famotidine may still be useful for MCAS-related acid/histamine symptoms, but cimetidine is the immunomodulatory agent.
+
+*Level of action:* This finding tells us about classification, not treatment — it confirms VIM phenotype membership, which opens a specific treatment pathway.
+
+====== What a positive response does NOT reveal
+
+- *Whether the virus is replicating or latent.* Cimetidine enhances immune control of both active and latent virus. Response could reflect elimination of subclinical reactivation or improved latency maintenance.
+- *The specific virus involved.* EBV, HHV-6, and CMV all respond to improved T-cell surveillance. Cimetidine response does not identify the pathogen.
+- *Whether cimetidine's CYP450 inhibition contributes to benefit.* Drug interactions altering antiviral or anti-inflammatory drug levels cannot be excluded as a mechanism in polypharmacy contexts.
+
+==== If cimetidine does NOT work (adequate dose 400–800 mg BID, ≥ 4 weeks)
+
+====== Interpretation 1 — T-cell suppression is not a dominant mechanism
+
+Cimetidine's primary diagnostic signal is T-cell enhancement. If ME/CFS in this patient is driven by autoantibody production (B-cell/plasma cell), mast cell activation, metabolic dysfunction, or neuroinflammation without significant T-cell impairment, cimetidine would not help.
+
+====== Interpretation 2 — Suppressor T-cell blockade is insufficient to restore function
+
+Even when the H2-mediated suppressor signal is removed, T cells may be too exhausted (PD-1+, TIM-3+) to respond. Cimetidine removes a brake — but if the engine has seized, releasing the brake does nothing. This interpretation is more likely in patients with long disease duration and documented T-cell exhaustion markers.
+
+====== Interpretation 3 — Drug interaction context matters
+
+Cimetidine's CYP450 inhibition alters metabolism of co-administered drugs. In a patient not taking CYP450-metabolized medications, this property produces no additional benefit. Conversely, in a patient taking medications whose levels are increased by CYP450 inhibition, benefit or harm may reflect drug interactions rather than cimetidine's direct mechanism.
+
+==== How cimetidine combines with other medications
+
+*Cimetidine works + LDN does NOT work:*
+Step 1: Cimetidine → T-cell enhancement works. Step 2: LDN non-response → TLR4/TRPM3 pathway not dominant. Step 3: Immune dysfunction is T-cell-mediated, not microglia/TRPM3-mediated. The VIM phenotype — distinct from the neuroinflammatory phenotype that LDN probes.
+→ *VIM phenotype confirmed: cimetidine + amino acids + metabolic support + antivirals if indicated. LDN is unlikely to add benefit.*
+
+*Cimetidine works + valacyclovir also works:*
+Step 1: Cimetidine → T-cell enhancement, improved viral immune surveillance. Step 2: Valacyclovir → direct viral polymerase inhibition. Step 3: Both working via complementary mechanisms — immune-mediated (cimetidine) and pharmacological (valacyclovir) viral suppression. Synergy likely.
+→ *Combination therapy: cimetidine enhances immune control while valacyclovir directly suppresses replication. The most robust antiviral strategy.*
+
+*Cimetidine works + pyridostigmine works:*
+Step 1: Cimetidine → T-cell immune dysfunction. Step 2: Pyridostigmine → autonomic dysfunction. Step 3: Two independent systems affected — immune + autonomic. The VIM phenotype with autonomic involvement.
+→ *Treat both: cimetidine for immune dysfunction, pyridostigmine for autonomic support. Consider brainstem pathology linking both (inflammation affecting both immune regulation and autonomic output).*
+
+==== Limitations
+
+- *No ME/CFS-specific immunomodulatory evidence:* Cimetidine's T-cell effect is established in oncology, not ME/CFS. No study has measured T-cell function before/after cimetidine in ME/CFS patients.
+- *CYP450 inhibition complicates interpretation:* Drug interactions can mimic or mask cimetidine's direct effects, especially in polypharmacy contexts.
+- *Response is often dramatic but poorly documented:* Most evidence is case reports and community experience. No controlled trial of cimetidine monotherapy exists in ME/CFS.
+- *Psychiatric adverse effects:* H2 blockers can cause depression and suicidal ideation, particularly in paradoxical reactors (@sec:paradoxical-reactor).
+- *Overall inference certainty:* Low to Medium. The mechanism is pharmacologically distinctive and well-characterized, but all clinical evidence is observational.
+
+*(Origin: medication-differential-analysis)*
+
 === Cimetidine-LDN Synergy Protocol for Viral-Immune-Phenotype ME/CFS
 <sec:cimetidine-ldn-synergy>
 
