@@ -714,3 +714,13 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (22 queries, batch) | pubmed/eutils | 2026-07-09 | — | content-staging/search-log-pupillometry-autonomic-biomarker-mecfs-2026-07-09.md, bib/pupillometry.bib (14 new entries), appendix-h — Pupillometry as autonomic biomarker literature collection (14 papers: 13 new bib entries + 1 reused from postcovid-ocular-syndrome) |
+
+## Inadequate Treatment Duration in Research Literature Search
+
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-07-15 | 24 queries: Lyme antibiotic trial duration, ME/CFS antiviral/immunomodulatory trials, IDSA vs ILADS, co-infection treatment, PTLDS trials, rituximab/valganciclovir/rintatolimod, Borrelia persistence, long-term antibiotic safety |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (24 queries, batch) | pubmed/eutils | 2026-07-15 | 2026-07-15 | ops/research/search-log-inadequate-treatment-duration-research-2026-07-15.md, ops/research/literature-inadequate-treatment-duration-research.md, bib/treatments.bib (14 entries), bib/viral-infection.bib (1 entry), appendix-h (15 annotated entries) — Inadequate treatment duration literature collection |
