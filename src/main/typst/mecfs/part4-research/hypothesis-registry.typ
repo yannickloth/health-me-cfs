@@ -3461,7 +3461,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
 )
 #registry-entry(
   [Ocular-Surface Signal in ME/CFS May Be Artefact (Medication / Dry-Eye / Spurious-Overlap Confounds)],
-  type: "L",
+  type: "OQ",
   certainty: "n/a",
   evidence: [Critical self-audit of the ocular-surface hypotheses (@spec:ocular-surface-neuroimmune-window, @oq:mecfs-tear-proteome, @spec:mecfs-lacrimal-denervation). Zero direct ME/CFS tear/CCM primary-endpoint studies exist (~0.95 certainty of gap). Alternative explanations: anticholinergic-medication-induced sicca (~0.50), dry-eye-driven cytokine/nerve changes (~0.45), spurious tear-proteomic overlap as shared DED endotype (~0.40). The one fatigue-spectrum ocular study @verges2025fibrodryeye did not control for anticholinergic medication; Sjögren's tear panels @lepine2024tearproteomics may misclassify autonomic dry eye; tear cytokine assays vary by time/method; referral-clinic selection bias inflates apparent overlap; no multimodal (CCM+tear+IENFD+autonomic) study exists in any disease. Origin: brainstorm critical categories 10–12.],
   citations: [@verges2025fibrodryeye @lepine2024tearproteomics @wu2024sjogrendryeyediagnostics],
@@ -3514,7 +3514,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
 )
 #registry-entry(
   [Five Unresolved Threats to the Structural Vagal Denervation Model],
-  type: "L",
+  type: "OQ",
   certainty: "n/a",
   evidence: [Critical self-audit (brainstorm categories 10-12) of @hyp:structural-vagal-denervation-cap. (1) VIP+ IHC cannot separate extrinsic vagal from intrinsic enteric fibers @acanfora2026vagaldenervation; (2) HRV/fiber changes confounded by deconditioning (uncontrolled in Acanfora); (3) n=12 winner's-curse inflates R=0.50-0.61 correlations. Origin: brainstorm critical categories.],
   citations: [@acanfora2026vagaldenervation],
@@ -3631,8 +3631,8 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
 #registry-entry(
   [Inadequate Treatment Duration and Spectrum as a Systematic Confound in Negative Chronic Disease Trials],
-  type: "ACH",
-  certainty: "0.65",
+  type: "H",
+  certainty: "0.55",
   evidence: [Lyme retreatment RCTs (Klempner 2001) found "no benefit" to 90-day antibiotics, but enrolled pre-treated patients (mean 4.7yr, 3+ prior courses) and did not cover co-infections @Klempner2001LymeAbx. DeLong's independent biostatistical review found all 4 retreatment RCTs underpowered; Krupp 2003 and Fallon 2008 showed significant benefit @DeLong2012AbxRetreat @Krupp2003StopLD @Fallon2008LymeCeftriaxone. Borrelia forms persister/biofilm variants requiring combination therapy @Feng2019BorreliaPersister. Standard regimens miss Babesia, Bartonella co-infections @Popov2026TickCoinfection. In ME/CFS: Watt (2012) found longer valganciclovir→better response (p=0.0002) @Watt2012ValganciclovirResponse; Fluge (2015) 23-week mean response lag @Fluge2015RituximabPhase2; Strayer (2020) treatment window at 2–8yr @Strayer2020RintatolimodDuration.],
   citations: [@Klempner2001LymeAbx @DeLong2012AbxRetreat @Krupp2003StopLD @Fallon2008LymeCeftriaxone @Feng2019BorreliaPersister @Popov2026TickCoinfection @Watt2012ValganciclovirResponse @Fluge2015RituximabPhase2 @Strayer2020RintatolimodDuration @Fluge2019RituximabPhase3 @Cameron2006Generalizability],
   mechanism: [Three-part framework for interrogating negative trials: (1) duration — was treatment long enough for chronic pathway normalization (not just acute intervention)? (2) spectrum — did coverage include co-morbid mechanisms (co-pathogens, co-morbid pathways)? (3) window — were patients treated within the disease-duration treatment window (before irreversible pathology)? The Lyme paradigm shows that all three factors can conspire to produce false-negative trial conclusions. Does NOT assert that all negative trials are false negatives — the definitive RituxME Phase III (Fluge 2019) was genuinely negative despite 12-month duration.],
@@ -3644,7 +3644,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
 #registry-entry(
   [Caveats to the Duration Critique: Selection Bias, Placebo Response, and Natural Recovery as Alternative Confounds],
-  type: "L",
+  type: "OQ",
   certainty: "n/a",
   evidence: [The duration critique has significant limitations @Cameron2006Generalizability @Fluge2019RituximabPhase3 @["Smith2015ME/CFSTxSysRev"] @Watt2012ValganciclovirResponse @Horowitz2020DapsoneLyme. Selection bias toward pre-treated refractory patients may explain Klempner's negative result better than treatment duration. Placebo response rates exceed 30% in blinded ME/CFS trials. Natural recovery (5–10%/year) can contaminate extended-duration trial results. Watt 2012's duration-response finding is retrospective (confounding by indication). The three-part framework (duration × spectrum × window) may be unfalsifiable in practice because factors cannot be independently tested. Origin: brainstorm.],
   citations: [@Cameron2006Generalizability @Fluge2019RituximabPhase3 @["Smith2015ME/CFSTxSysRev"] @Watt2012ValganciclovirResponse @Horowitz2020DapsoneLyme],
@@ -3659,11 +3659,11 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [Priority Research Directions to Test the Duration Critique in ME/CFS],
   type: "OQ",
   certainty: "n/a",
-  evidence: [Four research programs derived from the duration criticism framework and the Lyme→ME/CFS analogy. (1) DeLong-style biostatistical reanalysis of all 35 ME/CFS treatment trials @["Smith2015ME/CFSTxSysRev"] @DeLong2012AbxRetreat. (2) Head-to-head 6mo vs 12mo valganciclovir RCT @Montoya2013ValganciclovirRCT @Watt2012ValganciclovirResponse. (3) Prospective illness-duration-stratified trial testing the 2–8yr treatment window @Strayer2020RintatolimodDuration. (4) Adaptive platform trial with duration escalation based on interim response. Origin: brainstorm.],
-  citations: [@["Smith2015ME/CFSTxSysRev"] @DeLong2012AbxRetreat @Montoya2013ValganciclovirRCT @Watt2012ValganciclovirResponse @Strayer2020RintatolimodDuration],
+  evidence: [Four research programs derived from the duration criticism framework and the Lyme→ME/CFS analogy. (1) DeLong-style biostatistical reanalysis of all 35 ME/CFS treatment trials @["Smith2015ME/CFSTxSysRev"] @DeLong2012AbxRetreat. (2) Head-to-head 6mo vs 12mo valganciclovir RCT @Montoya2013valganciclovir @Watt2012ValganciclovirResponse. (3) Prospective illness-duration-stratified trial testing the 2–8yr treatment window @Strayer2020RintatolimodDuration. (4) Adaptive platform trial with duration escalation based on interim response. Origin: brainstorm.],
+  citations: [@["Smith2015ME/CFSTxSysRev"] @DeLong2012AbxRetreat @Montoya2013valganciclovir @Watt2012ValganciclovirResponse @Strayer2020RintatolimodDuration],
   mechanism: [Each direction directly tests one component of the duration critique without relying on the Lyme analogy. The DeLong-style reanalysis quantifies how many ME/CFS "negative" trials were structurally underpowered. The head-to-head duration RCT isolates the duration variable. The stratified trial prospectively tests the treatment-window hypothesis. The adaptive platform maps the dose-duration-response curve.],
   chapter-ref: [ch31:@oq:duration-critique-research],
-  prediction: [The DeLong-style reanalysis will find \ge 60% of ME/CFS treatment trials lacked adequate power for clinically meaningful effects. The 12-month valganciclovir arm will outperform the 6-month arm with a moderate effect size (Cohen's d 0.3--0.5). The 3--8 year stratum will show the highest response rate, statistically distinguishable from less than 3 and more than 8 year strata.],
+  prediction: [The DeLong-style reanalysis will find $>=$ 60% of ME/CFS treatment trials lacked adequate power for clinically meaningful effects. The 12-month valganciclovir arm will outperform the 6-month arm with a moderate effect size (Cohen's d 0.3--0.5). The 3--8 year stratum will show the highest response rate, statistically distinguishable from less than 3 and more than 8 year strata.],
   treatment: [Indirectly: positive results would support longer treatment durations in clinical practice for virus-selected patients within the treatment window. Currently, all four research programs are hypothetical — no prospective duration-randomized data exist.],
   limitation: [None of the proposed studies have been conducted. The DeLong-style reanalysis relies on published (potentially selectively reported) data. The RCT designs are hypothetical and may prove infeasible due to cost, recruitment, or toxicity concerns with extended valganciclovir (myelotoxicity). Origin: brainstorm.],
 )
