@@ -25959,3 +25959,123 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Key Findings:*: [18F]DOPA PET shows interferon-alpha reduces DA synthesis in basal ganglia, linked to anhedonia and psychomotor slowing. Establishes mechanistic chain: inflammation → DA deficiency → motivational/motor symptoms in humans.
     *ME/CFS Relevance:*: Foundational precedent for inflammation-driven DA dysfunction producing identical symptoms to ME/CFS (apathy, motor slowing). Cytokine model directly applicable to ME/CFS neuroinflammatory hypothesis.
     *Certainty Assessment:*: - *Quality:* High (Arch Gen Psychiatry, PET methodology, controlled cytokine challenge) - *Score:* 0.68
+
+=== Klempner 2001 — Two Controlled Trials of Antibiotic Treatment in Persistent Lyme Disease
+
+    *Full Citation:*: Klempner MS, Hu LT, Evans J, et al.\ Two controlled trials of antibiotic treatment in patients with persistent symptoms and a history of Lyme disease. _New England Journal of Medicine_. 2001;345(2):85--92. @Klempner2001LymeAbx
+    *DOI:*: #link("https://doi.org/10.1056/NEJM200107123450202")[10.1056/NEJM200107123450202]
+    *Key Findings:*: Two RCTs (n=78 seropositive, n=51 seronegative) testing 30d IV ceftriaxone + 60d oral doxycycline vs placebo in patients with persistent symptoms post-Lyme treatment. No significant difference between groups, but patients had been ill avg 4.7 years with 3+ prior antibiotic courses — heavily pre-treated population with potentially irreversible pathology.
+    *Conclusion:*: Landmark negative trial that shaped IDSA guidelines against retreatment, but selection of chronic, heavily pre-treated patients limits generalizability to earlier-stage disease.
+    *Limitations:*: Selection bias toward chronic refractory patients; underpowered (stopped early); 90-day treatment may be insufficient; did not address co-infections.
+
+=== Fallon 2008 — IV Ceftriaxone for Lyme Encephalopathy
+
+    *Full Citation:*: Fallon BA, Keilp JG, Corbera KM, et al.\ A randomized, placebo-controlled trial of repeated IV antibiotic therapy for Lyme encephalopathy. _Neurology_. 2008;70(13):992--1003. @Fallon2008LymeCeftriaxone
+    *DOI:*: #link("https://doi.org/10.1212/01.WNL.0000284604.61160.2d")[10.1212/01.WNL.0000284604.61160.2d]
+    *Key Findings:*: 37 patients, 10 weeks IV ceftriaxone vs placebo. Cognitive improvement favored antibiotic at week 12, but not sustained to week 24 (relapse after discontinuation). Pain and physical functioning improvement in severely affected patients was sustained.
+    *Conclusion:*: Short-term antibiotic retreatment produces temporary cognitive improvement, but relapse after discontinuation suggests need for longer treatment.
+    *Limitations:*: Small sample (n=37); 10-week treatment may be insufficient; relapse at 24 weeks off-drug.
+
+=== Krupp 2003 — STOP-LD Trial
+
+    *Full Citation:*: Krupp LB, Hyman LG, Grimson R, et al.\ Study and treatment of post Lyme disease (STOP-LD): a randomized double masked clinical trial. _Neurology_. 2003;60(12):1923--1930. @Krupp2003StopLD
+    *DOI:*: #link("https://doi.org/10.1212/01.WNL.0000071227.23769.9e")[10.1212/01.WNL.0000071227.23769.9e]
+    *Key Findings:*: 55 patients, 28d IV ceftriaxone vs placebo. Fatigue improved significantly (rate ratio 3.5, p=0.001). Cognitive function did not improve.
+    *Conclusion:*: Short-term ceftriaxone improved fatigue but not cognition; insufficient to recommend retreatment in post-Lyme syndrome.
+    *Limitations:*: Single center; 28-day treatment may be insufficient; small sample; fatigue-only positive outcome.
+
+=== DeLong 2012 — Biostatistical Review of Lyme Retreatment Trials
+
+    *Full Citation:*: DeLong AK, Blossom B, Maloney EL, Phillips SE.\ Antibiotic retreatment of Lyme disease in patients with persistent symptoms: a biostatistical review of randomized, placebo-controlled, clinical trials. _Contemporary Clinical Trials_. 2012;33(6):1132--1142. @DeLong2012AbxRetreat
+    *DOI:*: #link("https://doi.org/10.1016/j.cct.2012.08.009")[10.1016/j.cct.2012.08.009]
+    *Key Findings:*: Systematic biostatistical review of all 4 RCTs on antibiotic retreatment for persistent Lyme. Klempner trials were underpowered with inefficient methods. Krupp found significant fatigue improvement. Fallon found cognitive improvement at 12 weeks. Treatment effects consistent with continued infection; not refuted by any adequately powered trial.
+    *Conclusion:*: Negative Lyme retreatment trials were methodologically flawed and underpowered; positive findings from Krupp and Fallon suggest retreatment can be beneficial.
+    *Limitations:*: Re-analysis of existing trials, not new data; cannot prove treatment-duration hypothesis directly.
+
+=== Cameron 2006 — Generalizability Critique of Klempner Trials
+
+    *Full Citation:*: Cameron DJ.\ Generalizability in two clinical trials of Lyme disease. _Epidemiologic Perspectives & Innovations_. 2006;3:12. @Cameron2006Generalizability
+    *DOI:*: #link("https://doi.org/10.1186/1742-5573-3-12")[10.1186/1742-5573-3-12]
+    *Key Findings:*: Epidemiologic review showing Klempner trials enrolled patients ill avg 4.7 years with 3+ prior antibiotic courses. These selection factors make trials non-generalizable. NIH press release and IDSA guidelines over-extrapolated these negative results.
+    *Conclusion:*: Klempner trials' negative outcome likely reflects selection of treatment-refractory patients, not evidence against antibiotic efficacy in less chronic disease.
+    *Limitations:*: Re-analysis only; no original data; author is ILADS-affiliated clinician.
+
+=== Feng 2019 — Borrelia Persister/Biofilm in Mouse Model
+
+    *Full Citation:*: Feng J, Li T, Yee R, et al.\ Stationary phase persister/biofilm microcolony of Borrelia burgdorferi causes more severe disease in a mouse model of Lyme arthritis. _Discovery Medicine_. 2019;27(148):125--138. @Feng2019BorreliaPersister
+    *DOI:*: n/a (PMID: 30946803)
+    *Key Findings:*: B.\ burgdorferi biofilm-like microcolonies are more antibiotic-tolerant than log-phase spirochetes. Murine infection with microcolonies could not be eradicated by doxycycline, ceftriaxone, or vancomycin monotherapy, but was eradicated by daptomycin+doxycycline+ceftriaxone combination. Provides mechanistic basis for why standard antibiotic durations fail.
+    *Conclusion:*: Borrelia persister forms require combination therapy, not monotherapy; standard short-term monotherapy cannot eradicate all morphological variants.
+    *Limitations:*: Animal model only; in vitro findings may not fully translate to human disease.
+
+=== Montoya 2013 — Valganciclovir RCT for CFS
+
+    *Full Citation:*: Montoya JG, Kogelnik AM, Bhangoo M, et al.\ Randomized clinical trial to evaluate the efficacy and safety of valganciclovir in a subset of patients with chronic fatigue syndrome. _Journal of Medical Virology_. 2013;85(12):2101--2109. @Montoya2013ValganciclovirRCT
+    *DOI:*: #link("https://doi.org/10.1002/jmv.23713")[10.1002/jmv.23713]
+    *Key Findings:*: 30 CFS patients with elevated HHV-6/EBV IgG, 6 months valganciclovir vs placebo. Primary outcome (MFI-20) not statistically significant, but secondary outcomes significant (mental fatigue, FSS, cognitive function). Responder rate 7.4x higher in valganciclovir arm. Authors called for larger trials with longer treatment.
+    *Conclusion:*: Valganciclovir may benefit a subset, but trial underpowered (n=30) with only 6 months treatment.
+    *Limitations:*: Small sample; primary outcome missed significance; 6-month treatment may be insufficient; selected population.
+
+=== Watt 2012 — Valganciclovir Response in CFS: Duration Matters
+
+    *Full Citation:*: Watt T, Oberfoell S, Balise R, et al.\ Response to valganciclovir in chronic fatigue syndrome patients with human herpesvirus 6 and Epstein-Barr virus IgG antibody titers. _Journal of Medical Virology_. 2012;84(12):1967--1974. @Watt2012ValganciclovirResponse
+    *DOI:*: #link("https://doi.org/10.1002/jmv.23411")[10.1002/jmv.23411]
+    *Key Findings:*: Retrospective review of 61 CFS patients on valganciclovir. 52% responded. Longer treatment duration significantly correlated with improved response (p=0.0002). Mean improvement: +19% physical, +23% cognitive.
+    *Conclusion:*: Treatment duration is a critical variable in antiviral response for CFS; longer treatment yields better outcomes.
+    *Limitations:*: Uncontrolled, unblinded, retrospective; no placebo group.
+
+=== Fluge 2015 — Rituximab Phase II: Delayed Response Pattern
+
+    *Full Citation:*: Fluge Ø, Risa K, Lunde S, et al.\ B-Lymphocyte depletion in Myalgic Encephalopathy/Chronic Fatigue Syndrome. An open-label Phase II study with rituximab maintenance treatment. _PLoS ONE_. 2015;10(7):e0129898. @Fluge2015RituximabPhase2
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0129898")[10.1371/journal.pone.0129898]
+    *Key Findings:*: 29 ME/CFS patients, open-label rituximab with maintenance over 15 months. 64% responded. Mean lag from first infusion to response: 23 weeks (range 8--66). B-cell regeneration preceded relapse.
+    *Conclusion:*: Prolonged B-cell depletion produced sustained responses in a subgroup, but response lag (23 weeks mean) means short trials would miss the effect entirely.
+    *Limitations:*: Open-label; no placebo; small sample; delayed response = short trials would produce false negatives.
+
+=== Fluge 2019 — Rituximab Phase III (RituxME): Negative Result
+
+    *Full Citation:*: Fluge Ø, Rekeland IG, Lien K, et al.\ B-Lymphocyte depletion in patients with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A randomized, double-blind, placebo-controlled trial. _Annals of Internal Medicine_. 2019;170(9):585--593. @Fluge2019RituximabPhase3
+    *DOI:*: #link("https://doi.org/10.7326/M18-1451")[10.7326/M18-1451]
+    *Key Findings:*: 151 ME/CFS patients, double-blind Phase III. Rituximab with maintenance over 12 months vs placebo. No difference in primary or secondary outcomes. Response rate: 26% rituximab vs 35.1% placebo. Cyclophosphamide subgroup may differ.
+    *Conclusion:*: Definitive negative trial contradicting Phase II. Failed to confirm rituximab efficacy. High placebo response.
+    *Limitations:*: Possible placebo confound; the B-cell hypothesis as tested by rituximab was not supported; 12-month treatment may still be insufficient for certain immunological targets.
+
+=== Strayer 2020 — Rintatolimod: Disease Duration as Effect Modifier
+
+    *Full Citation:*: Strayer DR, Young D, Mitchell WM.\ Effect of disease duration in a randomized Phase III trial of rintatolimod, an immune modulator for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _PLoS ONE_. 2020;15(10):e0240403. @Strayer2020RintatolimodDuration
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0240403")[10.1371/journal.pone.0240403]
+    *Key Findings:*: Post-hoc analysis of Phase III rintatolimod trial (n=208). Patients with disease duration 2--8 years showed 2x improvement vs full population. Less than 2 or more than 8 years disease: no response. 51.2% of 2--8 year subset improved exercise by \ge25%.
+    *Conclusion:*: Disease duration at treatment initiation is critical. Trials not stratifying by duration may miss treatment effects.
+    *Limitations:*: Post-hoc analysis; manufacturer-sponsored; needs prospective validation.
+
+=== Smith 2015 — NIH Systematic Review: Trials Limited by Duration
+
+    *Full Citation:*: Smith ME, Haney E, McDonagh M, et al.\ Treatment of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A systematic review for a National Institutes of Health Pathways to Prevention Workshop. _Annals of Internal Medicine_. 2015;162(12):841--850. @["Smith2015ME/CFSTxSysRev"]
+    *DOI:*: #link("https://doi.org/10.7326/M15-0114")[10.7326/M15-0114]
+    *Key Findings:*: Systematic review of 35 ME/CFS treatment trials. Rintatolimod improved exercise (low strength). All other pharmacological treatments inconclusive. Trials limited by size, duration, applicability, and methodological quality.
+    *Conclusion:*: Evidence base insufficient. More definitive studies with adequate size, duration, and subgroup analysis needed.
+    *Limitations:*: Identifies duration as a limitation of most trials, supporting the treatment-duration critique.
+
+=== Popov 2026 — Tick-Borne Co-Infection: Beyond Standard Lyme Treatment
+
+    *Full Citation:*: Popov G, Bashchobanov D, Andonova R.\ Tick-borne co-infection in Lyme disease: Clinical impact, diagnostic challenges, and therapeutic perspectives. _Microorganisms_. 2026;14(2):325. @Popov2026TickCoinfection
+    *DOI:*: #link("https://doi.org/10.3390/microorganisms14020325")[10.3390/microorganisms14020325]
+    *Key Findings:*: Comprehensive review of tick-borne co-infections. Co-infections increase severity, prolong symptoms. Standard Lyme antibiotics do not cover protozoan (Babesia) or viral agents. Pathogen-specific combination therapy required.
+    *Conclusion:*: Monotherapy for Lyme is insufficient when co-infections present. Trials not screening/treating co-infections may produce false-negative results.
+    *Limitations:*: Narrative review; no original data; recommendations from clinical experience not RCTs.
+
+=== Horowitz 2020 — Dapsone Combination for Chronic Lyme/PTLDS
+
+    *Full Citation:*: Horowitz RI, Freeman PR.\ Efficacy of double-dose dapsone combination therapy in the treatment of chronic Lyme disease/post-treatment Lyme disease syndrome (PTLDS) and associated co-infections. _Antibiotics_. 2020;9(11):725. @Horowitz2020DapsoneLyme
+    *DOI:*: #link("https://doi.org/10.3390/antibiotics9110725")[10.3390/antibiotics9110725]
+    *Key Findings:*: Case series (n=3) + retrospective chart review (n=40). Double-dose dapsone combination for chronic Lyme. 98% reported symptom improvement; 45% remission >=1 year. Patients had failed standard protocols.
+    *Conclusion:*: Combination therapy targeting persistent Borrelia + co-infections may succeed where monotherapy fails.
+    *Limitations:*: Uncontrolled retrospective design; small; Horowitz is ILADS-affiliated.
+
+=== Rogerson 2020 — Lyme Patient Outcomes: IDSA vs ILADS Guidelines
+
+    *Full Citation:*: Rogerson AG, Lloyd VK.\ Lyme disease patient outcomes and experiences: A retrospective cohort study. _Healthcare_. 2020;8(3):322. @Rogerson2020LymeIDSAILADS
+    *DOI:*: #link("https://doi.org/10.3390/healthcare8030322")[10.3390/healthcare8030322]
+    *Key Findings:*: 210 Canadian Lyme patients treated per ILADS guidelines (longer duration, combination approaches). Majority responded with significant symptom decrease (p $<$ 0.05). ILADS-guided care produced better outcomes than IDSA short-course recommendations.
+    *Conclusion:*: Longer treatment duration and co-infection management associated with positive outcomes in real-world cohort.
+    *Limitations:*: Retrospective; no control; single clinic; referral bias.

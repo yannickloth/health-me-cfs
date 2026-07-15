@@ -3627,3 +3627,45 @@ This registry collects all hypotheses, speculations, open questions, and predict
   limitation: [No ME/CFS clinical data. Entire hypothesis rests on cross-condition extrapolation. Aregawi 2026 normal DA pathway raises possibility that VMAT2 reduction does not translate to functional DA deficiency. MAOI dietary/serotonin interactions are burdensome in a population with unpredictable dietary tolerance. Impulse control disorder risk from agonists. OI worsening from L-DOPA and agonists. Origin: literature inference.],
 )
 
+=== Entries added 2026-07-15: Inadequate Treatment Duration as Trial Design Confound
+
+#registry-entry(
+  [Inadequate Treatment Duration and Spectrum as a Systematic Confound in Negative Chronic Disease Trials],
+  type: "ACH",
+  certainty: "0.65",
+  evidence: [Lyme retreatment RCTs (Klempner 2001) found "no benefit" to 90-day antibiotics, but enrolled pre-treated patients (mean 4.7yr, 3+ prior courses) and did not cover co-infections @Klempner2001LymeAbx. DeLong's independent biostatistical review found all 4 retreatment RCTs underpowered; Krupp 2003 and Fallon 2008 showed significant benefit @DeLong2012AbxRetreat @Krupp2003StopLD @Fallon2008LymeCeftriaxone. Borrelia forms persister/biofilm variants requiring combination therapy @Feng2019BorreliaPersister. Standard regimens miss Babesia, Bartonella co-infections @Popov2026TickCoinfection. In ME/CFS: Watt (2012) found longer valganciclovir→better response (p=0.0002) @Watt2012ValganciclovirResponse; Fluge (2015) 23-week mean response lag @Fluge2015RituximabPhase2; Strayer (2020) treatment window at 2–8yr @Strayer2020RintatolimodDuration.],
+  citations: [@Klempner2001LymeAbx @DeLong2012AbxRetreat @Krupp2003StopLD @Fallon2008LymeCeftriaxone @Feng2019BorreliaPersister @Popov2026TickCoinfection @Watt2012ValganciclovirResponse @Fluge2015RituximabPhase2 @Strayer2020RintatolimodDuration @Fluge2019RituximabPhase3 @Cameron2006Generalizability],
+  mechanism: [Three-part framework for interrogating negative trials: (1) duration — was treatment long enough for chronic pathway normalization (not just acute intervention)? (2) spectrum — did coverage include co-morbid mechanisms (co-pathogens, co-morbid pathways)? (3) window — were patients treated within the disease-duration treatment window (before irreversible pathology)? The Lyme paradigm shows that all three factors can conspire to produce false-negative trial conclusions. Does NOT assert that all negative trials are false negatives — the definitive RituxME Phase III (Fluge 2019) was genuinely negative despite 12-month duration.],
+  chapter-ref: [ch31:@sec:lyme-paradigm],
+  prediction: [An ME/CFS antiviral trial testing 12+ months of ganciclovir derivatives in HHV-6/EBV co-infected patients within 2–8 years illness duration will show higher response rates than trials testing shorter courses in unstratified populations. Falsified if extended-duration combination antiviral trials in virus-selected ME/CFS patients show no benefit over placebo.],
+  treatment: [Not a treatment recommendation — a methodological framework for trial design. Implies that negative trial results should not be cited as evidence that a mechanism is irrelevant without first checking whether duration, spectrum, and treatment window confounded the outcome.],
+  limitation: [No prospective ME/CFS trial has tested extended-duration vs standard-duration head-to-head. Framework derived from cross-disease evidence (Lyme). Rituximab Phase III counterexample shows duration is not a universal explanation. High-certainty for Lyme; hypothesis-generating for ME/CFS.],
+)
+
+#registry-entry(
+  [Caveats to the Duration Critique: Selection Bias, Placebo Response, and Natural Recovery as Alternative Confounds],
+  type: "L",
+  certainty: "n/a",
+  evidence: [The duration critique has significant limitations @Cameron2006Generalizability @Fluge2019RituximabPhase3 @["Smith2015ME/CFSTxSysRev"] @Watt2012ValganciclovirResponse @Horowitz2020DapsoneLyme. Selection bias toward pre-treated refractory patients may explain Klempner's negative result better than treatment duration. Placebo response rates exceed 30% in blinded ME/CFS trials. Natural recovery (5–10%/year) can contaminate extended-duration trial results. Watt 2012's duration-response finding is retrospective (confounding by indication). The three-part framework (duration × spectrum × window) may be unfalsifiable in practice because factors cannot be independently tested. Origin: brainstorm.],
+  citations: [@Cameron2006Generalizability @Fluge2019RituximabPhase3 @["Smith2015ME/CFSTxSysRev"] @Watt2012ValganciclovirResponse @Horowitz2020DapsoneLyme],
+  mechanism: [Five independent confounds that could produce positive signals in extended-duration trials without genuine treatment efficacy: (1) selection-bias enrollment of refractory patients → 'negative' trial is really a population effect not a treatment effect; (2) placebo-response maintenance in blinded trials; (3) natural recovery contamination; (4) retrospective confounding by indication (responders kept on drug longer); (5) unfalsifiability of the multi-factor framework.],
+  chapter-ref: [ch31:@lim:duration-caveats],
+  prediction: [Head-to-head duration-randomized RCT (6mo vs 12mo valganciclovir) will show the duration effect is present (treatment × time interaction p < 0.05) but its magnitude is ≤30% of what retrospective studies suggest, after controlling for placebo, natural recovery, and selection bias.],
+  treatment: [N/A — methodological critique. Affects interpretation of existing trial results, not clinical recommendations.],
+  limitation: [Synthesizes evidence from multiple studies at different certainty levels. No prospective data directly tests the alternative confounds in ME/CFS. The caveats similarly rest on indirect evidence and may themselves overestimate the importance of alternative explanations.],
+)
+
+#registry-entry(
+  [Priority Research Directions to Test the Duration Critique in ME/CFS],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Four research programs derived from the duration criticism framework and the Lyme→ME/CFS analogy. (1) DeLong-style biostatistical reanalysis of all 35 ME/CFS treatment trials @["Smith2015ME/CFSTxSysRev"] @DeLong2012AbxRetreat. (2) Head-to-head 6mo vs 12mo valganciclovir RCT @Montoya2013ValganciclovirRCT @Watt2012ValganciclovirResponse. (3) Prospective illness-duration-stratified trial testing the 2–8yr treatment window @Strayer2020RintatolimodDuration. (4) Adaptive platform trial with duration escalation based on interim response. Origin: brainstorm.],
+  citations: [@["Smith2015ME/CFSTxSysRev"] @DeLong2012AbxRetreat @Montoya2013ValganciclovirRCT @Watt2012ValganciclovirResponse @Strayer2020RintatolimodDuration],
+  mechanism: [Each direction directly tests one component of the duration critique without relying on the Lyme analogy. The DeLong-style reanalysis quantifies how many ME/CFS "negative" trials were structurally underpowered. The head-to-head duration RCT isolates the duration variable. The stratified trial prospectively tests the treatment-window hypothesis. The adaptive platform maps the dose-duration-response curve.],
+  chapter-ref: [ch31:@oq:duration-critique-research],
+  prediction: [The DeLong-style reanalysis will find \ge 60% of ME/CFS treatment trials lacked adequate power for clinically meaningful effects. The 12-month valganciclovir arm will outperform the 6-month arm with a moderate effect size (Cohen's d 0.3--0.5). The 3--8 year stratum will show the highest response rate, statistically distinguishable from less than 3 and more than 8 year strata.],
+  treatment: [Indirectly: positive results would support longer treatment durations in clinical practice for virus-selected patients within the treatment window. Currently, all four research programs are hypothetical — no prospective duration-randomized data exist.],
+  limitation: [None of the proposed studies have been conducted. The DeLong-style reanalysis relies on published (potentially selectively reported) data. The RCT designs are hypothetical and may prove infeasible due to cost, recruitment, or toxicity concerns with extended valganciclovir (myelotoxicity). Origin: brainstorm.],
+)
+
+
