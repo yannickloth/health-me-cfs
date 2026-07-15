@@ -1,5 +1,50 @@
 === Sodium
 
-Sodium loading expands plasma volume. Probes hypovolemia. *CAUTION:* intracellular sodium overload documented by Na-MRI in ME/CFS — sodium loading may paradoxically worsen by increasing ATPase demands. *If sodium helps:* hypovolemic POTS. *If sodium worsens:* possible intracellular Na overload.
+Sodium loading expands plasma volume and probes hypovolemia as an orthostatic mechanism. It carries a specific ME/CFS caution: intracellular sodium overload has been documented by sodium-MRI, so sodium loading may paradoxically worsen symptoms by increasing ATPase demand to pump the extra sodium out of cells.
 
-*Level of action*   Partial root cause if hypovolemic; potentially harmful if intracellular overload.
+==== ✓ If sodium works
+
+Finding 1 — Hypovolemic POTS
+
+Improvement means low plasma volume was limiting venous return; sodium-driven volume expansion restored preload.
+
+*Certainty*   Medium for volume expansion in hypovolemic POTS.
+
+*Does NOT tell us*   why plasma volume was low.
+
+*Action*   Supports volume expansion as a target; combine with fludrocortisone assessment.
+
+*Level of action*   Partial root cause if hypovolemic.
+
+Finding 2 — Intracellular Na overload (if sodium WORSENS)
+
+If symptoms worsen on sodium, this is diagnostic for the intracellular sodium phenotype documented by sodium-MRI: adding sodium raises the ATPase demand needed to extrude it, worsening the cellular energy deficit.
+
+*Certainty*   Low to Medium — anchored in sodium-MRI findings; the worsening response is a direct signal.
+
+*Does NOT tell us*   the cause of the intracellular sodium accumulation.
+
+*Action*   Stop sodium loading; redirect away from volume strategies toward cellular energetics.
+
+*Level of action*   Diagnostic redirection (potentially harmful if continued).
+
+==== What a positive response does NOT reveal
+
+- Why plasma volume is low.
+- Whether a subclinical intracellular sodium burden coexists.
+
+==== ✗ If sodium does NOT work
+
+- Hypovolemia may not be the mechanism.
+- Venous pooling or ganglionic impairment may predominate.
+- An intracellular sodium burden may offset the benefit of volume expansion.
+
+==== Key caveat
+
+Because intracellular sodium overload is documented by sodium-MRI in ME/CFS, sodium loading must be started cautiously. If symptoms worsen on sodium, this is itself diagnostic for the intracellular Na phenotype, and sodium should be stopped.
+
+==== How sodium combines with other medications
+
+- Sodium + fludrocortisone both work → volume expansion confirmed from two angles.
+- Sodium WORSENS + pyridostigmine works → intracellular Na overload phenotype with ganglionic autonomic failure.
+- Sodium helps + ivabradine works → a mixed hypovolemic plus hyperadrenergic subtype.

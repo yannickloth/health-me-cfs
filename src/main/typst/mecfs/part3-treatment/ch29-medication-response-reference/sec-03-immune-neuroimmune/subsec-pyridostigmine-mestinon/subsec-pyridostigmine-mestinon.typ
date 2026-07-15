@@ -28,11 +28,19 @@ Finding 3 — Autonomic nerve function was partially preserved. Pyridostigmine p
 
 *Level of action*   Symptom management.
 
+==== What a positive response does NOT reveal
+
+A positive pyridostigmine response confirms that impaired ganglionic transmission and preload failure were contributing, but it does not reveal what caused them — autoantibody-mediated vascular dysfunction, hypovolemia, and connective tissue laxity remain indistinguishable from the drug response alone. It shows that residual autonomic nerve function was preserved (pyridostigmine can only potentiate existing acetylcholine, not replace degenerated nerves) but does not localize the upstream driver. The cholinergic anti-inflammatory contribution is inferred from COVID-19 data, not ME/CFS, so its role in any given patient remains uncertain.
+
 ==== ✗ If pyridostigmine does NOT work
 - Severe autonomic failure with insufficient residual nerve function.
 - Preload failure may not be dominant — hypovolemia (fludrocortisone-responsive), excessive venous pooling (compression-responsive), or hyperadrenergic POTS (ivabradine-responsive) may predominate.
 - GI side effects limiting dose — ME/CFS patients with pre-existing dysmotility or MCAS may not tolerate doses sufficient for autonomic benefit.
 - Wrong autonomic target — hyperadrenergic POTS patients may worsen from combined sympathetic/parasympathetic enhancement.
+
+==== Key caveat
+
+Non-response does not exclude autonomic dysfunction. Pyridostigmine can only potentiate existing acetylcholine — where autonomic nerves have degenerated (severe autonomic failure with insufficient residual nerve function), the mechanism may be present but beyond what the drug can restore. Dose-limiting GI side effects can also prevent reaching a therapeutic level, so non-response may reflect intolerance rather than absence of preload failure.
 
 ==== How pyridostigmine combines with other medications
 - Pyridostigmine + LDN both work → neuroinflammation → autonomic dysfunction (inflammatory-to-autonomic cascade).

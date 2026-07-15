@@ -24,10 +24,18 @@ Finding 3 — Famotidine non-response with cimetidine response confirms T-cell m
 
 *Level of action*   Classificatory — confirms VIM phenotype.
 
+==== What a positive response does NOT reveal
+
+A positive cimetidine response confirms that T-cell-mediated immune dysfunction was present but does not reveal why the T cells were suppressed — adaptive immune regulation, viral immune evasion, or primary immunodeficiency all remain possible. It does not directly demonstrate viral reactivation (cimetidine has no antiviral activity; the viral inference is indirect). Because benefit may partly reflect CYP450 inhibition altering the metabolism of co-administered drugs, and because no ME/CFS-specific study has measured T-cell function before and after treatment, a pharmacological immunomodulatory effect cannot be fully separated from confounders or placebo.
+
 ==== ✗ If cimetidine does NOT work
 - T-cell suppression not a dominant mechanism — autoantibody, mast cell, or metabolic dysfunction may predominate.
 - Suppressor T-cell blockade insufficient — T cells may be too exhausted (PD-1+, TIM-3+) to respond even when the H2 brake is removed.
 - CYP450 drug interaction context — benefit or harm may reflect altered metabolism of co-administered drugs.
+
+==== Key caveat
+
+Non-response does not exclude T-cell dysfunction. T cells may be too exhausted (PD-1+, TIM-3+) to respond even when the H2 brake is removed, so the mechanism can still be present while cimetidine fails to correct it. Non-response is weaker evidence than response — it makes T-cell-mediated pathology less likely but does not rule it out.
 
 ==== How cimetidine combines with other medications
 - Cimetidine works + LDN does not → VIM phenotype distinct from neuroinflammatory phenotype.

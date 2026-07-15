@@ -2,7 +2,7 @@
 
 Valacyclovir inhibits EBV/VZV/HSV DNA polymerase. Valganciclovir has broader coverage (HHV-6, CMV) and greater potency, but carries a Black Box Warning for bone marrow suppression and is Category C (energy-demanding). Both probe whether active herpesvirus replication contributes to ongoing symptoms.
 
-==== If antivirals work
+==== ✓ If antivirals work
 
 Finding 1 — Active herpesvirus replication was contributing. Drug blocked viral DNA polymerase → viral replication suppressed → symptoms improved over months → viral activity was driving symptoms.
 
@@ -22,13 +22,21 @@ Finding 3 — Immune function was sufficient to sustain antiviral benefit. If im
 
 *Certainty*   Low — anecdotally documented, not systematically quantified.
 
-==== If antivirals do NOT work
+==== What a positive response does NOT reveal
+
+A positive antiviral response confirms that active herpesvirus replication was contributing but does not reveal whether the virus is the root cause or a secondary reactivation enabled by an underlying immune deficit. Relapse on discontinuation points to suppression rather than cure. It does not, by itself, identify which virus is responsible unless a differential spectrum trial is run (valacyclovir failure followed by valganciclovir success implicates HHV-6 or CMV). Because both antiviral trials are single-group and not independently replicated, an individual response cannot be cleanly separated from placebo or natural fluctuation.
+
+==== ✗ If antivirals do NOT work
 - Active viral replication not the dominant disease driver — elevated antibody titers may reflect immune memory, not active infection.
 - Virus in sanctuary site the drug cannot reach — CNS, salivary glands, latent reservoirs.
 - Viral reactivation is a consequence, not cause — blocking virus without correcting immune deficit simply shunts virus into a different latency program.
 - Incorrect patient selection — elevated antibody titers (>90% EBV seropositive in general population) without confirmatory markers (EA-D, PCR) → low pretest probability.
 
-*How antivirals combine:*
+==== Key caveat
+
+Non-response does not exclude a viral contribution. The drug may fail to reach virus sequestered in sanctuary sites (CNS, salivary glands, latent reservoirs), or the reactivation may be a consequence of an uncorrected immune deficit rather than a cause — blocking polymerase without correcting immunity can simply shunt the virus into a different latency program. Non-response is weaker evidence than response: it makes active replication less likely to be dominant but does not rule it out.
+
+==== How Valacyclovir and Valganciclovir combine with other medications
 - Valacyclovir works + LDN works → two independent drivers: virus + neuroinflammation.
 - Valacyclovir failure + valganciclovir success → HHV-6 or CMV involvement.
 - Valacyclovir works + relapse on discontinuation → viral suppression, not cure; immune deficit persists.

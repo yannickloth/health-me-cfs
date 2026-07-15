@@ -24,6 +24,10 @@ Finding 2 — Serotonin modulation may also contribute. LDA is a 5-HT1A partial 
 
 *Level of action*   Symptom management.
 
+==== What a positive response does NOT reveal
+
+A positive LDA response cannot distinguish whether the benefit is dopaminergic or serotonergic (5-HT1A) — LDA acts at both, and mood, sleep, or anxiolytic effects may account for improvement independently of dopamine. It does not identify the upstream cause of any dopamine deficit (neuroinflammatory BH4 depletion, metabolic packaging failure, or HPA hypocortisolism remain indistinguishable from LDA alone) or whether the deficit is primary or secondary. Because no controlled ME/CFS trials of LDA exist, a genuine pharmacological effect cannot be separated from placebo or natural fluctuation on the basis of one patient's response.
+
 ==== ✗ If LDA does NOT work
 - Dopamine deficiency not the primary cognitive mechanism — glymphatic failure, direct cytokine effects, cerebral hypoperfusion, or neuronal mitochondrial failure do not respond to dopamine.
 - Wrong dose — partial agonist net effect is dose-dependent and varies by regional dopamine tone.

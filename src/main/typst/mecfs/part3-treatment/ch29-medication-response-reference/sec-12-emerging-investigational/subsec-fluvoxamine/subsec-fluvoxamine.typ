@@ -1,9 +1,38 @@
 === Fluvoxamine
 
-Sigma-1 receptor (S1R) agonist at low doses — S1R is an ER chaperone regulating calcium signaling at mitochondria-associated membranes and modulating the ISR. ==== If fluvoxamine works
+At low doses, fluvoxamine is a sigma-1 receptor (S1R) agonist. S1R is an endoplasmic reticulum (ER) chaperone that regulates calcium signaling at mitochondria-associated membranes and modulates the integrated stress response (ISR). Low-dose fluvoxamine therefore probes ER-mitochondrial calcium dysregulation and ISR involvement, separate from its antidepressant (SSRI) action.
 
-S1R agonism is the mechanism (not antidepressant), implicating ER-mitochondrial calcium dysregulation or ISR involvement.
+==== ✓ If fluvoxamine works
 
-*Certainty*   0.40 — case reports.
+Finding 1 — S1R agonism reduces ER-mitochondrial calcium dysregulation or ISR activity
+
+If benefit occurs at doses below the antidepressant range (25–50 mg), the mechanism is S1R agonism rather than serotonin reuptake inhibition — implicating ER stress or disrupted ER-mitochondrial calcium transfer.
+
+*Certainty*   0.40 — case reports only.
+
+*Does NOT tell us*   which arm of the ER stress response is affected.
+
+*Action*   Supports ER-mitochondrial calcium/ISR involvement; low dose distinguishes S1R from SSRI action.
 
 *Level of action*   Partial root cause.
+
+==== What a positive response does NOT reveal
+
+- Whether the benefit is truly S1R-mediated or a low-dose serotonergic effect.
+- Which UPR/ISR branch is involved.
+
+==== ✗ If fluvoxamine does NOT work
+
+- ER stress may not be a dominant mechanism.
+- SSRI-class side effects may confound assessment of benefit.
+- Fluvoxamine strongly inhibits CYP2D6 and CYP1A2 — elevated plasma levels of co-administered drugs may cause adverse effects that mask benefit.
+
+==== Key caveat
+
+Fluvoxamine is the strongest CYP1A2 and CYP2D6 inhibitor among SSRIs. Any co-administered medication metabolized by these enzymes (LDA via 2D6; several antihistamines via 2D6) will have significantly elevated plasma levels — check CYP interactions before combining.
+
+==== How fluvoxamine combines with other medications
+
+- Fluvoxamine + TUDCA/4-phenylbutyrate both work → converging evidence for ER stress.
+- Fluvoxamine + mitochondrial supplements both work → impaired ER-mitochondrial calcium transfer plus a downstream mitochondrial substrate limitation.
+- Fluvoxamine does not work + TUDCA works → a TUDCA-responsive UPR branch is dominant, not the S1R-mediated arm.
