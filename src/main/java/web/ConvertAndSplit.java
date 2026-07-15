@@ -410,6 +410,13 @@ void main(String[] args) throws IOException {
                 }
                 headingText = inlineMatcher.replaceAll("");
                 headingText = stripHeadingMath(headingText);
+                // Wrap ✓/✗ in aria-hidden span so they render as decoration, not prose
+                var htc = headingText.stripLeading();
+                if (htc.startsWith("✓ ")) {
+                    headingText = " <span class=\"response-mark positive\" aria-hidden=\"true\">✓</span>" + htc.substring(1);
+                } else if (htc.startsWith("✗ ")) {
+                    headingText = " <span class=\"response-mark negative\" aria-hidden=\"true\">✗</span>" + htc.substring(1);
+                }
                 if (nonHeadingAnchors.length() > 0) sb.append(nonHeadingAnchors);
                 raw = "#".repeat(level) + headingText + headingAttrs;
                 if (pendingLabel != null) {

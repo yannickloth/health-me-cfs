@@ -82,15 +82,19 @@
       ]
     )
   }
-  // Level 4 (subsubsections)
+  // Level 4 (subsubsections) — ✓/✗ coloured as decoration, not prose
   show heading.where(level: 4): it => {
     block(above: 22pt, below: 10pt,
       text(font: font-heading, size: size-subsubsect, weight: "bold")[
-        #if it.numbering != none {
-          counter(heading).display(it.numbering)
-          [ ]
+        #{
+          show "✓": t => text(fill: rgb("#2e7d32"))[#t]
+          show "✗": t => text(fill: rgb("#c62828"))[#t]
+          if it.numbering != none {
+            counter(heading).display(it.numbering)
+            [ ]
+          }
+          it.body
         }
-        #it.body
       ]
     )
   }

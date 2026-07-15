@@ -233,3 +233,7 @@
     padding-inline-start: 0;
   }
 }
+
+/* ch29 response-mark decoration — ✓/✗ as coloured icons, not prose */
+.response-mark.positive { color: #2e7d32; }
+.response-mark.negative { color: #c62828; }
