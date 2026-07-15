@@ -28,4 +28,6 @@
   kind: table, supplement: [Table], caption: [Expected symptom improvement at 2 weeks with full protocol],
 ) <tab:two-week-relief>
 
+#emph[Basis of estimates.] No controlled trial has evaluated this combined multi-domain protocol over two weeks, so the percentages above are #emph[author estimates], not measured outcomes. They are extrapolated from the evidence base for each component intervention applied individually—pacing and energy-envelope management @jason2009energy @jason2012energy, autonomic and orthostatic pharmacotherapy @Raj2005Pyridostigmine, melatonin and sleep support @castromarrero2021melatonin, and low-dose naltrexone for pain @Younger2013 @Bolton2020LDN—combined with clinical experience in severe disease @Montoya2021severe @strassheim2021experiences. Individual responses vary widely; the figures indicate the direction and rough magnitude of benefit a full protocol may achieve, not a guaranteed result.
+
 

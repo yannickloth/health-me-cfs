@@ -2,7 +2,7 @@
 
 === Key Messages
 
-    - *Immediate action is possible*: You do not need to wait for research trials or physician initiative
+    - *Immediate action is possible*: You can begin many interventions yourself without waiting for research trials or specialist referral
     - *Suffering can be reduced*: Multiple evidence-based interventions exist today
     - *Combination approach*: Simultaneous targeting of 6 symptom domains produces cumulative relief
     - *Pacing is foundation*: Without activity limitation, other interventions less effective

@@ -3,7 +3,7 @@
 === Nutritional Failure and Eating Difficulties
 <sec:nutritional-failure>
 
-Nutritional failure is an underrecognized and potentially life-threatening complication of very severe ME/CFS. Baxter et al.\ (2021) documented five cases of patients who became severely malnourished and dehydrated, in all cases because tube feeding was delayed or withheld while clinicians debated whether the eating difficulty was psychiatric in origin @Baxter2021malnutrition. The consequences included poor wound healing, neurological damage, osteoporosis, and cardiac complications. This pattern reflects a systemic failure: clinicians unfamiliar with severe ME/CFS may interpret the patient's inability to eat as voluntary refusal and pursue psychiatric explanation rather than medical intervention.
+Nutritional failure is an underrecognised and potentially life-threatening complication of very severe ME/CFS. Baxter et al.\ (2021) documented five cases of patients who became severely malnourished and dehydrated, in all cases because tube feeding was delayed or withheld while clinicians debated whether the eating difficulty was psychiatric in origin @Baxter2021malnutrition. The consequences included poor wound healing, neurological damage, osteoporosis, and cardiac complications. This pattern reflects a systemic failure: clinicians unfamiliar with severe ME/CFS may interpret the patient's inability to eat as voluntary refusal and pursue psychiatric explanation rather than medical intervention.
 
 *Mechanisms of Nutritional Failure in Very Severe ME/CFS.*
 Multiple overlapping mechanisms impair oral intake:
