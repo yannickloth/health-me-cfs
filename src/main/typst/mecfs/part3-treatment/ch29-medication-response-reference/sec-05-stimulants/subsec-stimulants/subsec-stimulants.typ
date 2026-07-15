@@ -3,8 +3,6 @@
 
 All stimulants probe catecholamine (dopamine/norepinephrine) deficiency. Their differences in mechanism, selectivity, and safety create a hierarchy. *All are symptom management* — none address root cause. Hierarchy from safest to most concerning: pitolisant > solriamfetol ≈ modafinil > methylphenidate > amphetamines.
 
-==== Diagnostic Findings
-
 ==== ✓ If stimulants work
 
 Finding 1 — Catecholamine signaling was insufficient. Drug increased dopamine/norepinephrine → cognition improved → signaling was inadequate.
