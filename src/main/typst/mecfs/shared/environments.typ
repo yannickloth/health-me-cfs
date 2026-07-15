@@ -554,6 +554,40 @@
     "✗", "If it fails", body, title: title, style: "left-bar")
 }
 
+// --- Finding (n, claim, explanation, certainty, [dntu], [action], level) ------
+// Structured differential diagnostic inference within "✓ If X works" sections.
+// Renders Finding n — claim as ==== subsection heading, explanation as body,
+// then a 2-column grid (label | value) for the structured fields.
+//
+// Fields that are none are omitted. dntu and action default to none.
+#let finding(num, claim: [], explanation: none, certainty: [], dntu: none, action: none, level: []) = {
+  let label(field-name) = text(weight: "bold", fill: luma(120), size: 0.82em)[#field-name]
+
+  block(below: 1em, above: 0.5em)[
+    ==== Finding #num — #claim
+
+    #explanation
+
+    #v(0.4em)
+    #{
+      let cells = (
+        label("Certainty"), certainty,
+      )
+      if dntu != none {
+        cells.push(label("Does NOT tell us"))
+        cells.push(dntu)
+      }
+      if action != none {
+        cells.push(label("Action"))
+        cells.push(action)
+      }
+      cells.push(label("Level of action"))
+      cells.push(level)
+      grid(columns: (6em, 1fr), gutter: 4pt, ..cells)
+    }
+  ]
+}
+
 // --- Key Point (★, left-bar, gold) — unnumbered by design -------------------
 #let key-point(title: none, body) = {
   _callout(color.keyfinding-frame, color.keyfinding-bg,
