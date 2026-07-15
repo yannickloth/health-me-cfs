@@ -1,44 +1,16 @@
+#import "../../../../shared/environments.typ": finding
+
 === Quercetin and Luteolin
 
 Quercetin stabilizes mast cells, inhibits PI3K (restoring CD80 on antigen-presenting cells), and may resensitize β2-adrenergic receptors. Luteolin crosses the blood-brain barrier, stabilizing CNS mast cells and microglia. Together they probe peripheral mast cell activation, CNS mast cell/microglial involvement, and impaired immune costimulation.
 
 ==== ✓ If quercetin/luteolin work
 
-Finding 1 — Mast cell stabilization confirmed
+#finding(1, claim: [Mast cell stabilization confirmed], explanation: [Improvement means mast cell activation was a significant driver; preventing degranulation helped.], certainty: [Low — no ME/CFS controlled trials.], dntu: [whether the mast cell involvement is peripheral, central, or both.], action: [Supports mast cell stabilization as a target.], level: [Partial root cause.])
 
-Improvement means mast cell activation was a significant driver; preventing degranulation helped.
+#finding(2, claim: [CNS mast cell/microglial involvement (luteolin-specific)], explanation: [If luteolin adds benefit beyond quercetin, its blood-brain-barrier penetration implicates CNS mast cells or microglia as a distinct compartment of involvement.], certainty: [Low — inferential from differential response.], dntu: [whether the CNS component is mast cell or microglial.], action: [Points toward central neuroinflammation as a contributor.], level: [Partial root cause.])
 
-*Certainty*   Low — no ME/CFS controlled trials.
-
-*Does NOT tell us*   whether the mast cell involvement is peripheral, central, or both.
-
-*Action*   Supports mast cell stabilization as a target.
-
-*Level of action*   Partial root cause.
-
-Finding 2 — CNS mast cell/microglial involvement (luteolin-specific)
-
-If luteolin adds benefit beyond quercetin, its blood-brain-barrier penetration implicates CNS mast cells or microglia as a distinct compartment of involvement.
-
-*Certainty*   Low — inferential from differential response.
-
-*Does NOT tell us*   whether the CNS component is mast cell or microglial.
-
-*Action*   Points toward central neuroinflammation as a contributor.
-
-*Level of action*   Partial root cause.
-
-Finding 3 — PI3K inhibition restoring CD80 (quercetin-specific)
-
-If systemic inflammation improves beyond mast cell symptoms, quercetin's PI3K inhibition restoring CD80 on antigen-presenting cells suggests an M2-skewed immune dysfunction shifting toward M1 — impaired costimulation was contributing.
-
-*Certainty*   Low — mechanistic inference without ME/CFS confirmation.
-
-*Does NOT tell us*   the extent of the immune-polarization shift.
-
-*Action*   Points toward impaired antigen-presenting-cell costimulation as a contributor.
-
-*Level of action*   Partial root cause.
+#finding(3, claim: [PI3K inhibition restoring CD80 (quercetin-specific)], explanation: [If systemic inflammation improves beyond mast cell symptoms, quercetin's PI3K inhibition restoring CD80 on antigen-presenting cells suggests an M2-skewed immune dysfunction shifting toward M1 — impaired costimulation was contributing.], certainty: [Low — mechanistic inference without ME/CFS confirmation.], dntu: [the extent of the immune-polarization shift.], action: [Points toward impaired antigen-presenting-cell costimulation as a contributor.], level: [Partial root cause.])
 
 ==== What a positive response does NOT reveal
 
@@ -59,3 +31,4 @@ Quercetin bioavailability is poor; phytosome or otherwise enhanced formulations 
 
 - Quercetin/luteolin + antihistamines both work → complementary action: preventing degranulation plus blocking released histamine.
 - Luteolin adds benefit beyond quercetin → a CNS mast cell/microglial component beyond the peripheral one.
+

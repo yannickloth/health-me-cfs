@@ -1,20 +1,12 @@
+#import "../../../../shared/environments.typ": finding
+
 === Fludrocortisone
 
 Mineralocorticoid that expands plasma volume via sodium retention. It probes hypovolemia as an orthostatic mechanism: if low circulating volume is limiting venous return, expanding volume should improve tolerance.
 
 ==== ✓ If fludrocortisone works
 
-Finding 1 — Hypovolemia was present
-
-Improvement means low plasma volume was contributing to orthostatic intolerance. Volume expansion restored adequate preload and cardiac filling.
-
-*Certainty*   Medium for POTS — plasma volume expansion is a well-established effect.
-
-*Does NOT tell us*   why plasma volume was low.
-
-*Action*   Confirms volume expansion as a target; supports continued sodium/volume strategies with potassium monitoring.
-
-*Level of action*   Partial root cause — corrects the volume deficit without addressing why volume regulation is impaired.
+#finding(1, claim: [Hypovolemia was present], explanation: [Improvement means low plasma volume was contributing to orthostatic intolerance. Volume expansion restored adequate preload and cardiac filling.], certainty: [Medium for POTS — plasma volume expansion is a well-established effect.], dntu: [why plasma volume was low.], action: [Confirms volume expansion as a target; supports continued sodium/volume strategies with potassium monitoring.], level: [Partial root cause — corrects the volume deficit without addressing why volume regulation is impaired.])
 
 ==== What a positive response does NOT reveal
 
@@ -37,3 +29,4 @@ Fludrocortisone risks hypokalemia, edema, and supine hypertension; potassium mus
 - Fludrocortisone + pyridostigmine both work → combined hypovolemia and ganglionic impairment, the most common co-occurrence.
 - Fludrocortisone works + ivabradine does not → hypovolemic, not hyperadrenergic, subtype.
 - Fludrocortisone does not work + ivabradine works → pure hyperadrenergic POTS.
+

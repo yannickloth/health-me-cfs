@@ -1,20 +1,12 @@
+#import "../../../../shared/environments.typ": finding
+
 === Magnesium
 
 Magnesium is a cofactor for more than 300 enzymes, including those governing ATP utilization and the sodium-calcium exchanger (NCX). Magnesium L-threonate crosses the blood-brain barrier. Supplementation probes whether systemic or CNS magnesium deficiency is contributing.
 
 ==== ✓ If magnesium works
 
-Finding 1 — Systemic or CNS magnesium deficiency was contributing
-
-Improvement means a magnesium shortfall was limiting enzyme function or neuronal signaling; repletion helped.
-
-*Certainty*   Medium for deficiency states — repletion effects are well characterized.
-
-*Does NOT tell us*   whether the deficiency is dietary, from ongoing loss, or from impaired intracellular trafficking.
-
-*Action*   Supports checking RBC magnesium and repleting; L-threonate form if CNS effects are sought.
-
-*Level of action*   Partial root cause.
+#finding(1, claim: [Systemic or CNS magnesium deficiency was contributing], explanation: [Improvement means a magnesium shortfall was limiting enzyme function or neuronal signaling; repletion helped.], certainty: [Medium for deficiency states — repletion effects are well characterized.], dntu: [whether the deficiency is dietary, from ongoing loss, or from impaired intracellular trafficking.], action: [Supports checking RBC magnesium and repleting; L-threonate form if CNS effects are sought.], level: [Partial root cause.])
 
 ==== What a positive response does NOT reveal
 
@@ -36,3 +28,4 @@ Serum magnesium is unreliable for total body magnesium — RBC magnesium is more
 - Magnesium L-threonate + creatine both work → converging support for CNS energy metabolism.
 - Magnesium + mitochondrial supplements both work → multiple energy-pathway cofactor deficits.
 - Magnesium works + fludrocortisone/sodium does not → a magnesium-specific deficit, not general hypovolemia.
+

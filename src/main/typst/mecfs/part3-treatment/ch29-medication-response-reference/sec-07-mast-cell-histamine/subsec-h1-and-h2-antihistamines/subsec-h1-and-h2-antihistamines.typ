@@ -1,28 +1,16 @@
+#import "../../../../shared/environments.typ": finding
+
 === H1 and H2 Antihistamines
 
 Antihistamines probe mast cell activation and histamine-mediated symptoms. H1 blockers (cetirizine, fexofenadine, loratadine, rupatadine) target vascular, neural, and cutaneous histamine effects. H2 blockers (famotidine) target gastric and immune effects. Mast cell stabilizers (ketotifen, cromolyn) prevent degranulation rather than blocking histamine after release.
 
 ==== ✓ If antihistamines work
 
-Finding 1 — Mast cell activation was contributing. Drug blocked histamine receptors → histamine-mediated symptoms improved → mast cell degranulation was driving symptoms.
+#finding(1, claim: [Mast cell activation was contributing.], explanation: [Drug blocked histamine receptors → histamine-mediated symptoms improved → mast cell degranulation was driving symptoms.], certainty: [Medium — antihistamine response is an established MCAS diagnostic criterion.], dntu: [whether MCAS is primary (constitutional) or secondary (driven by autoantibodies, infections, connective tissue pathology); whether histamine intolerance (impaired DAO degradation) rather than mast cell activation is the mechanism.], action: [MCAS-directed treatment: identify triggers, up-dose to MCAS protocols, add mast cell stabilizers.], level: [Partial root cause in primary MCAS; Symptom management in secondary MCAS.])
 
-*Certainty*   Medium — antihistamine response is an established MCAS diagnostic criterion.
+#finding(2, claim: [H1 vs.], explanation: [H2 differential response localizes histamine effects. H1 response without H2 → histamine effects predominantly vascular, neural, cutaneous. H2 response without H1 → gastric and immune predominance. Combined → systemic MCAS.], certainty: [Medium — receptor distribution is well-characterized.], level: none)
 
-*Does NOT tell us*   whether MCAS is primary (constitutional) or secondary (driven by autoantibodies, infections, connective tissue pathology); whether histamine intolerance (impaired DAO degradation) rather than mast cell activation is the mechanism.
-
-*Action*   MCAS-directed treatment: identify triggers, up-dose to MCAS protocols, add mast cell stabilizers.
-
-*Level of action*   Partial root cause in primary MCAS; Symptom management in secondary MCAS.
-
-Finding 2 — H1 vs. H2 differential response localizes histamine effects. H1 response without H2 → histamine effects predominantly vascular, neural, cutaneous. H2 response without H1 → gastric and immune predominance. Combined → systemic MCAS.
-
-*Certainty*   Medium — receptor distribution is well-characterized.
-
-Finding 3 — Rupatadine response suggests PAF involvement. Rupatadine is unique: dual H1 + PAF antagonist + direct mast cell stabilization. Works where standard H1 blockers fail → PAF or direct stabilization responsible.
-
-*Certainty*   Medium.
-
-*Level of action*   Partial root cause — mast cell stabilization prevents degranulation.
+#finding(3, claim: [Rupatadine response suggests PAF involvement.], explanation: [Rupatadine is unique: dual H1 + PAF antagonist + direct mast cell stabilization. Works where standard H1 blockers fail → PAF or direct stabilization responsible.], certainty: [Medium.], level: [Partial root cause — mast cell stabilization prevents degranulation.])
 
 ==== What a positive response does NOT reveal
 

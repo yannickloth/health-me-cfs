@@ -1,20 +1,12 @@
+#import "../../../../shared/environments.typ": finding
+
 === TUDCA / 4-Phenylbutyrate
 
 TUDCA and 4-phenylbutyrate are chemical chaperones that reduce endoplasmic reticulum (ER) stress by stabilizing protein folding and inhibiting the unfolded protein response (UPR). They probe whether ER stress is a significant disease amplifier.
 
 ==== ✓ If TUDCA/4-PBA work
 
-Finding 1 — ER stress is a significant amplifier
-
-Improvement means accumulated ER stress was amplifying the disease process; stabilizing protein folding and calming the UPR helped.
-
-*Certainty*   Low — no ME/CFS data.
-
-*Does NOT tell us*   which UPR branch is involved or what triggers the ER stress.
-
-*Action*   Supports ER stress as a contributor; use the CNS-penetrant form where central effects are sought.
-
-*Level of action*   Partial root cause.
+#finding(1, claim: [ER stress is a significant amplifier], explanation: [Improvement means accumulated ER stress was amplifying the disease process; stabilizing protein folding and calming the UPR helped.], certainty: [Low — no ME/CFS data.], dntu: [which UPR branch is involved or what triggers the ER stress.], action: [Supports ER stress as a contributor; use the CNS-penetrant form where central effects are sought.], level: [Partial root cause.])
 
 ==== What a positive response does NOT reveal
 
@@ -36,3 +28,4 @@ Improvement means accumulated ER stress was amplifying the disease process; stab
 - TUDCA/4-PBA + fluvoxamine both work → converging evidence for ER stress.
 - TUDCA works + fluvoxamine does not → a TUDCA-responsive UPR branch is dominant, not the S1R-mediated calcium arm.
 - TUDCA + mitochondrial supplements both work → impaired ER-mitochondrial calcium transfer plus a downstream mitochondrial substrate limitation co-present.
+

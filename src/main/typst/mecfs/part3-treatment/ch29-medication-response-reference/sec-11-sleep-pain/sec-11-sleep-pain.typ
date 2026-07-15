@@ -1,3 +1,5 @@
+#import "../../../shared/environments.typ": *
+
 
 == Sleep and Pain Medications
 

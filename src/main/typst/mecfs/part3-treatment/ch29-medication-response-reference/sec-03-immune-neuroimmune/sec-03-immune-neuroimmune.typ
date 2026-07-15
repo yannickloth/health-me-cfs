@@ -1,3 +1,5 @@
+#import "../../../shared/environments.typ": *
+
 
 == Immune and Neuroimmune Probes
 
@@ -6,3 +8,4 @@
 #include "subsec-pyridostigmine-mestinon/subsec-pyridostigmine-mestinon.typ"
 #include "subsec-immunoglobulins-ivig-and-rituximab/subsec-immunoglobulins-ivig-and-rituximab.typ"
 #include "subsec-cimetidine/subsec-cimetidine.typ"
+

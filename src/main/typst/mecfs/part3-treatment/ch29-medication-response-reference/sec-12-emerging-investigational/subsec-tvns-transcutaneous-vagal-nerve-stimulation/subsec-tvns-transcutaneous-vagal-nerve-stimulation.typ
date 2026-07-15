@@ -1,32 +1,14 @@
+#import "../../../../shared/environments.typ": finding
+
 === tVNS (transcutaneous Vagal Nerve Stimulation)
 
 Transcutaneous vagal nerve stimulation stimulates the auricular branch of the vagus nerve, enhancing parasympathetic tone. It probes whether vagal deficiency contributes to inflammation and autonomic dysfunction, and — via its sham comparison — whether muscarinic receptor blockade is present.
 
 ==== ✓ If tVNS works
 
-Finding 1 — Vagal deficiency contributed to inflammation and autonomic dysfunction
+#finding(1, claim: [Vagal deficiency contributed to inflammation and autonomic dysfunction], explanation: [Improvement means insufficient parasympathetic (vagal) tone was permitting inflammation and autonomic imbalance; enhancing it helped, consistent with the cholinergic anti-inflammatory pathway.], certainty: [Low — sham-controlled post-COVID trials were null.], dntu: [whether the deficiency is in vagal output or in downstream receptor responsiveness.], action: [Supports vagal augmentation as a contributor to test further.], level: [Partial root cause.])
 
-Improvement means insufficient parasympathetic (vagal) tone was permitting inflammation and autonomic imbalance; enhancing it helped, consistent with the cholinergic anti-inflammatory pathway.
-
-*Certainty*   Low — sham-controlled post-COVID trials were null.
-
-*Does NOT tell us*   whether the deficiency is in vagal output or in downstream receptor responsiveness.
-
-*Action*   Supports vagal augmentation as a contributor to test further.
-
-*Level of action*   Partial root cause.
-
-Finding 2 — Muscarinic receptor blockade (if sham outperforms active)
-
-If the sham condition outperforms active stimulation, GPCR autoantibodies may be blocking muscarinic receptors, preventing acetylcholine signaling — so delivering more vagal signal cannot help because the receiving receptors are blocked.
-
-*Certainty*   Low — inferential; requires autoantibody testing to confirm.
-
-*Does NOT tell us*   which muscarinic subtype is blocked or the autoantibody titer.
-
-*Action*   Becomes relevant to test for muscarinic (GPCR) autoantibodies.
-
-*Level of action*   Partial root cause (if autoantibody-mediated).
+#finding(2, claim: [Muscarinic receptor blockade (if sham outperforms active)], explanation: [If the sham condition outperforms active stimulation, GPCR autoantibodies may be blocking muscarinic receptors, preventing acetylcholine signaling — so delivering more vagal signal cannot help because the receiving receptors are blocked.], certainty: [Low — inferential; requires autoantibody testing to confirm.], dntu: [which muscarinic subtype is blocked or the autoantibody titer.], action: [Becomes relevant to test for muscarinic (GPCR) autoantibodies.], level: [Partial root cause (if autoantibody-mediated).])
 
 ==== What a positive response does NOT reveal
 
@@ -49,3 +31,4 @@ tVNS requires consistent stimulation parameters; home devices vary in output, an
 - tVNS + pyridostigmine both work → converging vagal/cholinergic augmentation strategies.
 - tVNS works + pyridostigmine does not → tVNS provides a pre-ganglionic signal that pyridostigmine cannot.
 - tVNS sham beats active + LDN works → autoantibody-blocked muscarinic receptors coexist with neuroinflammation.
+

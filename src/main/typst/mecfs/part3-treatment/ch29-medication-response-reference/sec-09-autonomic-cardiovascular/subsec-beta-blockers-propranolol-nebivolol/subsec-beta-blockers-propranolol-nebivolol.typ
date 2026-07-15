@@ -1,32 +1,14 @@
+#import "../../../../shared/environments.typ": finding
+
 === Beta-Blockers (Propranolol, Nebivolol)
 
 Beta-blockers reduce sympathetic tone by blocking β-adrenergic receptors, lowering heart rate and blunting adrenergic drive. They probe whether sympathetic overactivity contributes to symptoms, and — at low doses — whether β2-adrenergic autoantibodies are involved.
 
 ==== ✓ If beta-blockers work
 
-Finding 1 — Sympathetic overactivity was contributing
+#finding(1, claim: [Sympathetic overactivity was contributing], explanation: [Improvement means excess adrenergic drive was driving symptoms; reducing it improved tolerance.], certainty: [Medium — rate/sympathetic effect is well established.], dntu: [whether the sympathetic overactivity is primary or compensatory.], action: [Supports sympatholytic strategies as a target.], level: [Symptom management.])
 
-Improvement means excess adrenergic drive was driving symptoms; reducing it improved tolerance.
-
-*Certainty*   Medium — rate/sympathetic effect is well established.
-
-*Does NOT tell us*   whether the sympathetic overactivity is primary or compensatory.
-
-*Action*   Supports sympatholytic strategies as a target.
-
-*Level of action*   Symptom management.
-
-Finding 2 — β2-autoantibody probe (low-dose propranolol)
-
-If low-dose propranolol helps while other sympatholytic approaches do not, competitive antagonism of β2-adrenergic autoantibodies may be the mechanism — the drug occupies receptors that autoantibodies would otherwise dysregulate.
-
-*Certainty*   Low for the autoantibody mechanism — research-stage; requires β2-AAb testing to confirm.
-
-*Does NOT tell us*   whether the benefit is pharmacological rate control or autoantibody antagonism without antibody testing.
-
-*Action*   Becomes relevant to test β2-adrenergic autoantibody status when low-dose response is disproportionate.
-
-*Level of action*   Partial root cause (if autoantibody-mediated).
+#finding(2, claim: [β2-autoantibody probe (low-dose propranolol)], explanation: [If low-dose propranolol helps while other sympatholytic approaches do not, competitive antagonism of β2-adrenergic autoantibodies may be the mechanism — the drug occupies receptors that autoantibodies would otherwise dysregulate.], certainty: [Low for the autoantibody mechanism — research-stage; requires β2-AAb testing to confirm.], dntu: [whether the benefit is pharmacological rate control or autoantibody antagonism without antibody testing.], action: [Becomes relevant to test β2-adrenergic autoantibody status when low-dose response is disproportionate.], level: [Partial root cause (if autoantibody-mediated).])
 
 ==== What a positive response does NOT reveal
 
@@ -48,3 +30,4 @@ Beta-blockers that worsen fatigue indicate compensatory tachycardia — the wors
 - Beta-blockers work + ivabradine works → converging evidence for a hyperadrenergic subtype.
 - Beta-blockers WORSEN + ivabradine works → low-SV POTS; ivabradine slows the sinoatrial node without reducing contractility, whereas beta-blockade cut output.
 - Beta-blockers work + fludrocortisone does not → pure hyperadrenergic POTS (not volume-depleted).
+

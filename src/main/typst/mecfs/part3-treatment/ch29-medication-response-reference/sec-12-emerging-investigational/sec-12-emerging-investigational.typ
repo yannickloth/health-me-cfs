@@ -1,3 +1,5 @@
+#import "../../../shared/environments.typ": *
+
 
 == Emerging and Investigational Probes
 
@@ -9,3 +11,4 @@
 #include "subsec-dornase-alfa-pulmozyme/subsec-dornase-alfa-pulmozyme.typ"
 #include "subsec-b-vitamin-supplementation/subsec-b-vitamin-supplementation.typ"
 #include "subsec-methyl-donor-support-same-methylfolate-methylcobalamin-choline-betaine/subsec-methyl-donor-support-same-methylfolate-methylcobalamin-choline-betaine.typ"
+

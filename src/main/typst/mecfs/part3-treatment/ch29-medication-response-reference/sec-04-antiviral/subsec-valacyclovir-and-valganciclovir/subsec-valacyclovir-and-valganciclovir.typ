@@ -1,26 +1,16 @@
+#import "../../../../shared/environments.typ": finding
+
 === Valacyclovir and Valganciclovir
 
 Valacyclovir inhibits EBV/VZV/HSV DNA polymerase. Valganciclovir has broader coverage (HHV-6, CMV) and greater potency, but carries a Black Box Warning for bone marrow suppression and is Category C (energy-demanding). Both probe whether active herpesvirus replication contributes to ongoing symptoms.
 
 ==== ✓ If antivirals work
 
-Finding 1 — Active herpesvirus replication was contributing. Drug blocked viral DNA polymerase → viral replication suppressed → symptoms improved over months → viral activity was driving symptoms.
+#finding(1, claim: [Active herpesvirus replication was contributing.], explanation: [Drug blocked viral DNA polymerase → viral replication suppressed → symptoms improved over months → viral activity was driving symptoms.], certainty: [Medium for valacyclovir (Lerner 36-month placebo-controlled trial, ~30–40% response @Lerner2007valacyclovir). Medium for valganciclovir (Montoya EVOLVE RCT, n=30, 50–60% response @Montoya2013valganciclovir). Both single-group, not independently replicated.], dntu: [whether the virus is root cause or secondary reactivation enabled by immune dysfunction. Relapse on discontinuation suggests suppression, not cure.], level: [Partial root cause — antivirals suppress the viral amplifier without correcting the immune deficit that permitted reactivation.])
 
-*Certainty*   Medium for valacyclovir (Lerner 36-month placebo-controlled trial, ~30–40% response @Lerner2007valacyclovir). Medium for valganciclovir (Montoya EVOLVE RCT, n=30, 50–60% response @Montoya2013valganciclovir). Both single-group, not independently replicated.
+#finding(2, claim: [HHV-6 or CMV was specifically involved.], explanation: [Valacyclovir's limited spectrum failed; valganciclovir's broader coverage succeeded.], certainty: [Medium — differential spectrum is established pharmacology.], level: [Partial root cause.])
 
-*Does NOT tell us*   whether the virus is root cause or secondary reactivation enabled by immune dysfunction. Relapse on discontinuation suggests suppression, not cure.
-
-*Level of action*   Partial root cause — antivirals suppress the viral amplifier without correcting the immune deficit that permitted reactivation.
-
-Finding 2 (valganciclovir after valacyclovir failure) — HHV-6 or CMV was specifically involved. Valacyclovir's limited spectrum failed; valganciclovir's broader coverage succeeded.
-
-*Certainty*   Medium — differential spectrum is established pharmacology.
-
-*Level of action*   Partial root cause.
-
-Finding 3 — Immune function was sufficient to sustain antiviral benefit. If improvement persists after discontinuation, the immune system controls residual virus once the replication burden was reduced.
-
-*Certainty*   Low — anecdotally documented, not systematically quantified.
+#finding(3, claim: [Immune function was sufficient to sustain antiviral benefit.], explanation: [If improvement persists after discontinuation, the immune system controls residual virus once the replication burden was reduced.], certainty: [Low — anecdotally documented, not systematically quantified.], level: none)
 
 ==== What a positive response does NOT reveal
 

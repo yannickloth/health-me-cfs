@@ -1,20 +1,12 @@
+#import "../../../../shared/environments.typ": finding
+
 === Creatine
 
 Creatine probes the phosphocreatine ATP buffer — a battery backup that regenerates ATP faster than oxidative phosphorylation during bursts of cognitive or physical demand. It does not increase ATP production; it buffers supply against transient spikes in demand.
 
 ==== ✓ If creatine works
 
-Finding 1 — Brain ATP demand transiently exceeds production
-
-Improvement means ATP demand periodically outstrips mitochondrial output, and the phosphocreatine buffer bridges the gap. This is consistent with the Architecture C metabolic reserve model (@sec:architecture-c-metabolic-reserve), in which baseline production is adequate but burst capacity is limited.
-
-*Certainty*   Medium for cognition in healthy or sleep-deprived subjects; no ME/CFS-specific data.
-
-*Does NOT tell us*   whether the underlying limit is reduced production capacity or elevated demand.
-
-*Action*   Supports buffering the energy reserve; relevant for demand-driven cognitive dips.
-
-*Level of action*   Symptom management — buffers ATP without increasing production.
+#finding(1, claim: [Brain ATP demand transiently exceeds production], explanation: [Improvement means ATP demand periodically outstrips mitochondrial output, and the phosphocreatine buffer bridges the gap. This is consistent with the Architecture C metabolic reserve model (@sec:architecture-c-metabolic-reserve), in which baseline production is adequate but burst capacity is limited.], certainty: [Medium for cognition in healthy or sleep-deprived subjects; no ME/CFS-specific data.], dntu: [whether the underlying limit is reduced production capacity or elevated demand.], action: [Supports buffering the energy reserve; relevant for demand-driven cognitive dips.], level: [Symptom management — buffers ATP without increasing production.])
 
 ==== What a positive response does NOT reveal
 
@@ -36,3 +28,4 @@ Creatine may raise serum creatinine and confound kidney-function tests; clinicia
 - Creatine + mitochondrial supplements both work → both energy production and buffering are impaired.
 - Creatine works + mitochondrial supplements do not → production capacity is adequate but burst capacity is limited (a buffer deficit).
 - Creatine works + low-dose aripiprazole (LDA) does not → the cognitive deficit is energy-level, not neurotransmitter-level.
+

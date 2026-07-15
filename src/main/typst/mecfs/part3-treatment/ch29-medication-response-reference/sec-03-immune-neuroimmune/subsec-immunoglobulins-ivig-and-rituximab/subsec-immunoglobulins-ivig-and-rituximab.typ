@@ -1,22 +1,14 @@
+#import "../../../../shared/environments.typ": finding
+
 === Immunoglobulins (IVIG) and Rituximab
 
 IVIG neutralizes circulating autoantibodies and modulates Fc receptors. Rituximab eliminates CD20+ B cells (autoantibody-producing precursors). Both probe whether humoral autoimmunity is contributing. Both are Category C (energy-demanding), extremely expensive, and require infusion center access.
 
 ==== ✓ If IVIG or rituximab works
 
-Finding 1 — Autoantibody-mediated pathology was present. IVIG neutralized autoantibodies / rituximab eliminated B cells → symptoms improved → autoantibodies were pathogenic.
+#finding(1, claim: [Autoantibody-mediated pathology was present.], explanation: [IVIG neutralized autoantibodies / rituximab eliminated B cells → symptoms improved → autoantibodies were pathogenic.], certainty: [Low to Medium — IVIG: uncontrolled series; rituximab: Phase III negative overall but subset signal in autoantibody-positive patients.], dntu: [which specific autoantibody is pathogenic (anti-β2AR, anti-M3R, anti-TRPM3, etc.).], level: [Partial root cause — both reduce autoantibody effects but do not eliminate the long-lived plasma cells (CD20−) that produce them. This is why rituximab responses are often transient.])
 
-*Certainty*   Low to Medium — IVIG: uncontrolled series; rituximab: Phase III negative overall but subset signal in autoantibody-positive patients.
-
-*Does NOT tell us*   which specific autoantibody is pathogenic (anti-β2AR, anti-M3R, anti-TRPM3, etc.).
-
-*Level of action*   Partial root cause — both reduce autoantibody effects but do not eliminate the long-lived plasma cells (CD20−) that produce them. This is why rituximab responses are often transient.
-
-Finding 2 (rituximab-specific) — B-cell-driven pathology confirmed, plasma cells spared. Response then relapse as B cells repopulate → disease is B-cell-dependent but long-lived plasma cells maintain autoantibody production independently.
-
-*Certainty*   Medium — Phase III rituximab data + plasma cell sanctuary model.
-
-*Level of action*   Partial root cause — eliminates one autoantibody source (short-lived plasmablasts), spares another (long-lived plasma cells).
+#finding(2, claim: [B-cell-driven pathology confirmed, plasma cells spared.], explanation: [Response then relapse as B cells repopulate → disease is B-cell-dependent but long-lived plasma cells maintain autoantibody production independently.], certainty: [Medium — Phase III rituximab data + plasma cell sanctuary model.], level: [Partial root cause — eliminates one autoantibody source (short-lived plasmablasts), spares another (long-lived plasma cells).])
 
 ==== What a positive response does NOT reveal
 

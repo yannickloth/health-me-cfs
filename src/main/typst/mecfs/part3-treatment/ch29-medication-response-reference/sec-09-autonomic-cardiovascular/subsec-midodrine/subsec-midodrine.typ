@@ -1,20 +1,12 @@
+#import "../../../../shared/environments.typ": finding
+
 === Midodrine
 
 α1-adrenergic agonist that constricts peripheral veins and arterioles. It probes whether venous pooling or inadequate vasoconstriction is the orthostatic mechanism, because it raises peripheral vascular tone without expanding volume or altering central drive.
 
 ==== ✓ If midodrine works
 
-Finding 1 — Peripheral vasoconstriction was insufficient
-
-Improvement means blood was pooling in the periphery or vascular tone was inadequate to maintain venous return. This is more likely with connective tissue laxity or autonomic neuropathy, where vessels fail to constrict appropriately on standing.
-
-*Certainty*   Medium — mechanism well characterized; combination data available @Pavic2025pyridostigmine.
-
-*Does NOT tell us*   whether the vasoconstriction failure is structural (connective tissue laxity) or neurogenic (autonomic neuropathy).
-
-*Action*   Supports venoconstriction as a treatment target; combining with pyridostigmine is superior to monotherapy @Pavic2025pyridostigmine.
-
-*Level of action*   Symptom management.
+#finding(1, claim: [Peripheral vasoconstriction was insufficient], explanation: [Improvement means blood was pooling in the periphery or vascular tone was inadequate to maintain venous return. This is more likely with connective tissue laxity or autonomic neuropathy, where vessels fail to constrict appropriately on standing.], certainty: [Medium — mechanism well characterized; combination data available @Pavic2025pyridostigmine.], dntu: [whether the vasoconstriction failure is structural (connective tissue laxity) or neurogenic (autonomic neuropathy).], action: [Supports venoconstriction as a treatment target; combining with pyridostigmine is superior to monotherapy @Pavic2025pyridostigmine.], level: [Symptom management.])
 
 ==== What a positive response does NOT reveal
 
@@ -37,3 +29,4 @@ Midodrine raises blood pressure and can cause supine hypertension; it should be 
 - Midodrine + pyridostigmine both work → dual mechanism of vasoconstriction plus ganglionic transmission; meta-analysis confirms this combination is superior to monotherapy @Pavic2025pyridostigmine.
 - Midodrine works + fludrocortisone does not → venous pooling that is not volume-responsive.
 - Midodrine does not work + fludrocortisone works → hypovolemia, not venous tone, is the mechanism.
+

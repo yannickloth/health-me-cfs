@@ -1,20 +1,12 @@
+#import "../../../../shared/environments.typ": finding
+
 === DAO (Diamine Oxidase)
 
 DAO degrades histamine in the gut. Supplementing it probes whether symptoms arise from histamine intolerance (impaired degradation of dietary histamine) or from mast cell activation (excessive endogenous histamine production).
 
 ==== ✓ If DAO works
 
-Finding 1 — Histamine accumulates because it is not broken down
-
-Improvement means histamine was building up because degradation was impaired — histamine intolerance (HIT) rather than excessive production.
-
-*Certainty*   Medium for HIT diagnostics — mechanism is well understood.
-
-*Does NOT tell us*   whether the degradation deficit is genetic (DAO polymorphism) or acquired (gut mucosal injury).
-
-*Action*   Supports a low-histamine diet trial and DAO supplementation as targets.
-
-*Level of action*   Symptom management.
+#finding(1, claim: [Histamine accumulates because it is not broken down], explanation: [Improvement means histamine was building up because degradation was impaired — histamine intolerance (HIT) rather than excessive production.], certainty: [Medium for HIT diagnostics — mechanism is well understood.], dntu: [whether the degradation deficit is genetic (DAO polymorphism) or acquired (gut mucosal injury).], action: [Supports a low-histamine diet trial and DAO supplementation as targets.], level: [Symptom management.])
 
 ==== What a positive response does NOT reveal
 
@@ -36,3 +28,4 @@ DAO supplementation is most informative combined with a low-histamine diet trial
 - DAO + antihistamines both work → combined mast cell production and impaired degradation.
 - DAO works + antihistamines do not → pure HIT (production normal, degradation impaired).
 - DAO does not work + antihistamines work → pure MCAS (production excessive, degradation intact).
+

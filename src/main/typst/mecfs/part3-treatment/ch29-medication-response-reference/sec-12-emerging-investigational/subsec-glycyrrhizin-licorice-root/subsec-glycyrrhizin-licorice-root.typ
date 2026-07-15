@@ -1,20 +1,12 @@
+#import "../../../../shared/environments.typ": finding
+
 === Glycyrrhizin (Licorice Root)
 
 Glycyrrhizin directly neutralizes HMGB1 — a damage-associated molecular pattern (DAMP) released during cellular stress that drives sterile inflammation. It probes whether HMGB1-mediated DAMP signaling contributes to post-exertional malaise (PEM).
 
 ==== ✓ If glycyrrhizin works
 
-Finding 1 — HMGB1 is a causal PEM mediator
-
-If it reduces post-exertional HMGB1 and PEM together, HMGB1-driven DAMP signaling was contributing causally to PEM.
-
-*Certainty*   Low to Medium.
-
-*Does NOT tell us*   what triggers HMGB1 release in the first place.
-
-*Action*   Supports measuring post-exertional HMGB1 as a biomarker; targets DAMP signaling.
-
-*Level of action*   Partial root cause.
+#finding(1, claim: [HMGB1 is a causal PEM mediator], explanation: [If it reduces post-exertional HMGB1 and PEM together, HMGB1-driven DAMP signaling was contributing causally to PEM.], certainty: [Low to Medium.], dntu: [what triggers HMGB1 release in the first place.], action: [Supports measuring post-exertional HMGB1 as a biomarker; targets DAMP signaling.], level: [Partial root cause.])
 
 ==== What a positive response does NOT reveal
 
@@ -36,3 +28,4 @@ Pseudoaldosteronism (hypertension, hypokalemia, edema) limits use to short trial
 - Glycyrrhizin + NAC both work → an oxidative-stress → DAMP-release cascade.
 - Glycyrrhizin + dornase alfa both work → DAMP-driven inflammation from both HMGB1 and NET components.
 - Glycyrrhizin reduces post-exertional HMGB1 but PEM persists → HMGB1 is one PEM component; other mechanisms also contribute.
+

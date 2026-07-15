@@ -1,20 +1,12 @@
+#import "../../../../shared/environments.typ": finding
+
 === Droxidopa
 
 Norepinephrine prodrug that crosses the blood-brain barrier. It probes central norepinephrine deficiency — a documented CSF catecholamine reduction in ME/CFS @Walitt2024NIH — by supplying the precursor that the body converts into norepinephrine both peripherally and centrally.
 
 ==== ✓ If droxidopa works
 
-Finding 1 — Central norepinephrine deficiency was functionally significant
-
-Improvement means the reduced central catecholamine levels were contributing to symptoms — restoring norepinephrine improved function. This is one of few medications that directly probes the CSF catecholamine finding.
-
-*Certainty*   Low to Medium — no ME/CFS RCT; mechanistic rationale is strong but unconfirmed in trials.
-
-*Does NOT tell us*   why central norepinephrine is deficient.
-
-*Action*   Supports central noradrenergic deficiency as a target; must be taken upright with blood pressure monitoring.
-
-*Level of action*   Partial root cause.
+#finding(1, claim: [Central norepinephrine deficiency was functionally significant], explanation: [Improvement means the reduced central catecholamine levels were contributing to symptoms — restoring norepinephrine improved function. This is one of few medications that directly probes the CSF catecholamine finding.], certainty: [Low to Medium — no ME/CFS RCT; mechanistic rationale is strong but unconfirmed in trials.], dntu: [why central norepinephrine is deficient.], action: [Supports central noradrenergic deficiency as a target; must be taken upright with blood pressure monitoring.], level: [Partial root cause.])
 
 ==== What a positive response does NOT reveal
 
@@ -37,3 +29,4 @@ Droxidopa raises blood pressure and is contraindicated if supine hypertension is
 - Droxidopa + low-dose aripiprazole (LDA) both work → combined noradrenergic and dopaminergic deficit.
 - Droxidopa + LDN both work → inflammatory catecholamine depletion, consistent with the IDO/BH4 pathway.
 - Droxidopa works + mitochondrial supplements do not → the norepinephrine deficit is not primarily from packaging failure.
+

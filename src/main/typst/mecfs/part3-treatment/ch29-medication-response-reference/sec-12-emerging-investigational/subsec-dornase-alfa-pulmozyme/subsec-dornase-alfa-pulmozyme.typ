@@ -1,32 +1,14 @@
+#import "../../../../shared/environments.typ": finding
+
 === Dornase Alfa (Pulmozyme)
 
 Recombinant DNase I that cleaves neutrophil extracellular traps (NETs) — webs of extruded DNA released by neutrophils. It probes whether excessive NETosis contributes, and whether a NET/DNase imbalance is accessible to enzymatic clearance.
 
 ==== ✓ If dornase alfa works
 
-Finding 1 — NETosis confirmed (if NET markers fall)
+#finding(1, claim: [NETosis confirmed (if NET markers fall)], explanation: [If NET biomarkers (cell-free DNA, MPO-DNA complexes, citrullinated histone H3) fall, a NET/DNase imbalance is confirmed and the NETs were accessible to clearance.], certainty: [Low to Medium.], dntu: [whether clearing NETs reverses downstream damage.], action: [Supports measuring NET biomarkers before and after; targets NETosis.], level: [Partial root cause.])
 
-If NET biomarkers (cell-free DNA, MPO-DNA complexes, citrullinated histone H3) fall, a NET/DNase imbalance is confirmed and the NETs were accessible to clearance.
-
-*Certainty*   Low to Medium.
-
-*Does NOT tell us*   whether clearing NETs reverses downstream damage.
-
-*Action*   Supports measuring NET biomarkers before and after; targets NETosis.
-
-*Level of action*   Partial root cause.
-
-Finding 2 — Tissue-sequestered NETs (if markers unchanged despite trial)
-
-If markers do not change, NETs may be sequestered in tissue and inaccessible to the enzyme in circulation.
-
-*Certainty*   Low to Medium — inferential.
-
-*Does NOT tell us*   where the sequestered NETs reside.
-
-*Action*   Points toward a delivery problem rather than absence of NETosis.
-
-*Level of action*   Partial root cause (diagnostic).
+#finding(2, claim: [Tissue-sequestered NETs (if markers unchanged despite trial)], explanation: [If markers do not change, NETs may be sequestered in tissue and inaccessible to the enzyme in circulation.], certainty: [Low to Medium — inferential.], dntu: [where the sequestered NETs reside.], action: [Points toward a delivery problem rather than absence of NETosis.], level: [Partial root cause (diagnostic).])
 
 ==== What a positive response does NOT reveal
 
@@ -47,3 +29,4 @@ This is investigational — measure NET biomarkers before and after to assess bi
 
 - Dornase alfa reduces markers + symptoms lag → NETs cleared but downstream damage (microthrombi, endothelial injury) persists.
 - Dornase alfa + NAC both work → an oxidative-stress → NETosis cascade; ROS drives NET formation, and NAC reduces the upstream ROS.
+

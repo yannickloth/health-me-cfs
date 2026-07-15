@@ -1,20 +1,12 @@
+#import "../../../../shared/environments.typ": finding
+
 === Omega-3 Fatty Acids (EPA/DHA)
 
 Omega-3s probe failed resolution of inflammation. EPA and DHA are precursors for resolvins, protectins, and maresins (specialized pro-resolving mediators, or SPMs) that actively terminate inflammation. Supplementation tests whether inflammation persists because the resolution off-switch is broken rather than because the on-switch is stuck.
 
 ==== ✓ If omega-3s work
 
-Finding 1 — Resolution failure may be contributing
-
-Improvement means inflammation was persisting because resolution was inadequate; supplying SPM precursors helped switch it off.
-
-*Certainty*   Low for the SPM mechanism in ME/CFS — SPMs have never been measured in this population.
-
-*Does NOT tell us*   whether SPM synthesis is actually restored, since SPM levels are not measured clinically.
-
-*Action*   Supports resolution support as a contributor; use therapeutic doses.
-
-*Level of action*   Partial root cause — provides precursors for resolution.
+#finding(1, claim: [Resolution failure may be contributing], explanation: [Improvement means inflammation was persisting because resolution was inadequate; supplying SPM precursors helped switch it off.], certainty: [Low for the SPM mechanism in ME/CFS — SPMs have never been measured in this population.], dntu: [whether SPM synthesis is actually restored, since SPM levels are not measured clinically.], action: [Supports resolution support as a contributor; use therapeutic doses.], level: [Partial root cause — provides precursors for resolution.])
 
 ==== What a positive response does NOT reveal
 
@@ -36,3 +28,4 @@ Aspirin at doses above 100 mg inhibits COX-2 and blocks the EPA→SPM conversion
 - Omega-3 + PEA both work → resolution failure plus mast cell activation (complementary).
 - Omega-3 + NAC both work → oxidative stress and resolution failure are co-present.
 - Omega-3 work + antihistamines do not → inflammation from resolution failure, not acute mast cell mediators.
+
