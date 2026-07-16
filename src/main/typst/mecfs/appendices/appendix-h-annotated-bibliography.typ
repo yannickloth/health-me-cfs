@@ -26022,8 +26022,6 @@ sec-bib-rf-elevated-mecfs-duplicate
 // Added: 2026-07-15, research_stream = {vmat2-striatum-longcovid}
 // =============================================================================
 
-<sec:bib-vmat2-striatum-longcovid>
-
 == VMAT2 Loss in Striatum of Long COVID and Relevance to ME/CFS
 <sec:bib-vmat2-striatum-longcovid>
 
