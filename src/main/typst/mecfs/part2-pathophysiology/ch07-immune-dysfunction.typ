@@ -1844,7 +1844,7 @@ Chronic _Bartonella_ infection can present with neuropsychiatric and systemic sy
     - *Vascular*: Endothelial dysfunction, vasculitis-like presentations
 
 <obs:bartonella-cfs>
-Breitschwerdt et al.\ used specialized enrichment culture techniques to detect _Bartonella_ DNA in blood samples from patients with chronic fatigue and neurological symptoms @BartonellaCFS2025. Of patients tested, 26% were positive for _Bartonella_ species DNA. The same study also detected _Babesia_ DNA in some patients, though prevalence was not separately reported. Without healthy control data in this report, the clinical significance of detection remains uncertain—_Bartonella_ DNA may represent active infection, past exposure, or subclinical carriage. These findings require replication in larger cohorts with appropriate controls to determine whether detection rates exceed background prevalence.
+Breitschwerdt et al.\ used specialized enrichment culture techniques to detect _Bartonella_ DNA in blood samples from patients with chronic fatigue and neurological symptoms @BartonellaCFS2025. Of patients tested, 26% were positive for _Bartonella_ species DNA; the same cohort yielded 24% _Babesia_ DNA positivity (see updated Babesia limitation below, @Breitschwerdt2025BabesiaCFS). Without healthy control data in this report, the clinical significance of detection remains uncertain—_Bartonella_ DNA may represent active infection, past exposure, or subclinical carriage. These findings require replication in larger cohorts with appropriate controls to determine whether detection rates exceed background prevalence.
 *Diagnostic Challenges.*
 _Bartonella_ diagnosis is notoriously difficult:
 

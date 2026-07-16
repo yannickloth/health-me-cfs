@@ -45,6 +45,8 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| tick-borne-symptom-domains | [subtrees/tick-borne-symptom-domains.md](subtrees/tick-borne-symptom-domains.md) | 2026-07-16 | 44 | 6 | ✅ done |
+| babesia-50pct-mecfs | [subtrees/babesia-50pct-mecfs.md](subtrees/babesia-50pct-mecfs.md) | 2026-07-16 | 14 | 6 | ✅ done |
 | hypothalamic-crh-neuron-depletion | [subtrees/hypothalamic-crh-neuron-depletion.md](subtrees/hypothalamic-crh-neuron-depletion.md) | 2026-07-12 | 14 | 13 | ✅ done |
 | postcovid-ocular-syndrome | [subtrees/postcovid-ocular-syndrome.md](subtrees/postcovid-ocular-syndrome.md) | 2026-07-09 | 35 | 2 | ✅ done |
 | vagal-gastric-denervation-longcovid | [subtrees/vagal-gastric-denervation-longcovid.md](subtrees/vagal-gastric-denervation-longcovid.md) | 2026-07-10 | 64 | 12 | ✅ done |

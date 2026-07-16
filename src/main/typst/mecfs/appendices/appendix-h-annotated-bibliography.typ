@@ -183,6 +183,118 @@ First official institutional medication list for ME/CFS with insurance coverage 
 <sec:bib-systematic-reviews>
 // =============================================================================
 
+=== Breitschwerdt et al.\ 2025 — Babesia and Bartonella DNA in Chronic Fatigue
+
+@Breitschwerdt2025BabesiaCFS
+
+*Full Citation:*: Breitschwerdt EB, Maggi RG, Bush JC, Kingston E. Babesia and Bartonella Species DNA in Blood and Enrichment Blood Cultures from People with Chronic Fatigue and Concurrent Neurological Symptoms. _Pathogens_. 2025;15(1):2.
+*DOI:*: #link("https://doi.org/10.3390/pathogens15010002")[10.3390/pathogens15010002]
+*PMID:*: 41598986
+*Study Design:*: Cross-sectional; PCR + enrichment blood culture (BAPGM)
+*Sample Size:*: n=50 self-selected (fatigue ≥6mo + ≥1 neurological symptom); no healthy controls
+*Key Findings:*:
+    - Babesia DNA detected in 24% (12/50, 95% CI 12–36%)
+    - Bartonella DNA detected in 26% (13/50, 95% CI 13.8–38.2%)
+    - Combined Babesia/Bartonella infection: 46% (23/50); 2/50 co-infected with both
+    - Blood enrichment culture increased detection yield vs direct PCR
+    - Fatigue duration ranged from 6 months to 19 years
+*Conclusion:*: Provides PCR-based evidence of Babesia and Bartonella infection in chronic fatigue patients with neurological symptoms. Combined 46% infection rate is the basis for the "~50%" claim circulating in patient communities, though Babesia alone is 24%.
+*Limitations:*: No healthy control group (cannot determine if rate exceeds background seroprevalence); small n; enrichment culture specificity debated; authors are Galaxy Diagnostics co-founders (COI); no species identification for most Babesia detections; self-selected sample.
+*Certainty Assessment:*:
+    - *Quality:* Low (Pathogens; pilot; no controls; significant COI)
+    - *Sample:* Small (n=50, no control group)
+    - *Replication:* None (single group at NC State)
+    - *Score:* 0.45
+
+=== Maggi et al.\ 2024 — Babesia odocoilei and Bartonella Co-Infections
+
+@Maggi2024BabesiaCoinfect
+
+*Full Citation:*: Maggi RG, Calchi AC, Moore CO, Kingston E, Breitschwerdt EB. Human Babesia odocoilei and Bartonella spp. co-infections in the Americas. _Parasites & Vectors_. 2024;17:302.
+*DOI:*: #link("https://doi.org/10.1186/s13071-024-06385-4")[10.1186/s13071-024-06385-4]
+*PMID:*: 38992682
+*Study Design:*: Case series; molecular diagnostics (PCR, DNA sequencing)
+*Sample Size:*: n=7 with chronic non-specific symptoms
+*Key Findings:*:
+    - 7/7 confirmed Babesia odocoilei infection; 6/7 co-infected with Bartonella spp.
+    - Documents B. odocoilei as emerging human pathogen in the Americas
+    - All patients had chronic non-specific symptoms overlapping with ME/CFS
+*Conclusion:*: Babesia odocoilei infection occurs more frequently than previously recognized and frequently presents with Bartonella co-infection.
+*Limitations:*: Very small case series; no controls; same research group as Breitschwerdt2025BabesiaCFS; no ME/CFS diagnostic criteria used.
+*Certainty Assessment:*:
+    - *Score:* 0.30
+
+=== Scott et al.\ 2021 — Babesia odocoilei in Symptomatic Humans
+
+@Scott2021BabesiaOdocoilei
+
+*Full Citation:*: Scott JD, Sajid MS, Pascoe EL, Foley JE. Detection of Babesia odocoilei in Humans with Babesiosis Symptoms. _Diagnostics_. 2021;11(6):947.
+*DOI:*: #link("https://doi.org/10.3390/diagnostics11060947")[10.3390/diagnostics11060947]
+*PMID:*: 34070625
+*Study Design:*: Case series
+*Sample Size:*: n=5 with babesiosis symptoms
+*Key Findings:*:
+    - Babesia odocoilei DNA detected in all 5 symptomatic individuals
+    - Fatigue reported as a presenting symptom of babesiosis
+*Conclusion:*: Provides evidence that Babesia odocoilei is a human pathogen producing fatigue as a core symptom.
+*Limitations:*: Small case series; no controls; no ME/CFS diagnosis.
+*Certainty Assessment:*:
+    - *Score:* 0.35
+
+=== Locke et al.\ 2023 — Neurologic Complications of Babesiosis
+
+@Locke2023BabesiaNeuro
+
+*Full Citation:*: Locke S, O'Bryan J, Zubair AS, Rethana M, Moffarah AS, Krause PJ, Farhadian SF. Neurologic Complications of Babesiosis, United States, 2011–2021. _Emerging Infectious Diseases_. 2023;29(6):1127–1135.
+*DOI:*: #link("https://doi.org/10.3201/eid2906.221890")[10.3201/eid2906.221890]
+*PMID:*: 37209667
+*Study Design:*: Retrospective surveillance analysis (CDC data)
+*Sample Size:*: US population-level data 2011–2021
+*Key Findings:*:
+    - Neurologic complications documented in babesiosis patients
+    - Fatigue, headache, and cognitive symptoms reported as persistent sequelae
+*Conclusion:*: Babesia infection can produce chronic neurologic symptoms including fatigue, establishing it as a potential trigger for post-infectious fatigue syndromes.
+*Limitations:*: Retrospective; relies on ICD coding; population-level, not ME/CFS-specific.
+*Certainty Assessment:*:
+    - *Score:* 0.65
+
+=== MacDonald et al.\ 1996 — CFS Case-Control: Null Babesia Result
+
+@MacDonald1996CFSBabesia
+
+*Full Citation:*: MacDonald KL, Osterholm MT, LeDell KH, White KE, Schenck CH, Chao CC, Persing DH, Johnson RC, Peterson PK. A case-control study to assess possible triggers and cofactors in chronic fatigue syndrome. _American Journal of Medicine_. 1996;101(1):103–110.
+*DOI:*: #link("https://doi.org/10.1016/S0002-9343(96)00245-6")[10.1016/S0002-9343(96)00245-6]
+*PMID:*: 8644768
+*Study Design:*: Matched case-control
+*Sample Size:*: n=47 CFS, n=47 matched community controls
+*Key Findings:*:
+    - **Babesia microti antibodies: 0/47 CFS cases positive**
+    - 2/47 controls positive (babesiosis not associated with CFS)
+    - No serological evidence of past Babesia exposure in CFS
+*Conclusion:*: This study found no association between Babesia infection and CFS, using serological methods available in 1996. Important null result that contrasts with the Breitschwerdt 2025 PCR findings.
+*Limitations:*: 1996-era serology (may lack sensitivity vs modern PCR); small n for seroprevalence assessment.
+*Certainty Assessment:*:
+    - *Score:* 0.50
+
+=== Moezzi et al.\ 2025 — Haptoglobin and Post-Exertional Malaise
+
+@Moezzi2025HaptoglobinME
+
+*Full Citation:*: Moezzi A, Ushenkina A, Widgren A, Bergquist J, Li P, Xiao W, Rostami-Afshari B, Leveau C, Elremaly W, Caraus I, Franco A, Godbout C, Nepotchatykh O, Moreau A. Haptoglobin phenotypes and structural variants associate with post-exertional malaise and cognitive dysfunction in myalgic encephalomyelitis. _Journal of Translational Medicine_. 2025;23.
+*DOI:*: #link("https://doi.org/10.1186/s12967-025-07006-z")[10.1186/s12967-025-07006-z]
+*PMID:*: 40877900
+*Study Design:*: Longitudinal case-control; discovery (n=61 ME, n=20 controls) + validation (n=89 ME, n=24 controls)
+*Sample Size:*: n=140 ME, n=44 controls (total 184)
+*Key Findings:*:
+    - ME patients show significant reduction in haptoglobin (Hp) levels after post-exertional stress
+    - Lower baseline Hp associated with impaired cognitive performance
+    - Hp phenotypes differ in their association with PEM severity
+    - Hp structural proteoforms identified by HPLC analysis
+*Conclusion:*: Haptoglobin is a biomarker of PEM and cognitive dysfunction in ME. Directly relevant to Babesia → hemolysis → haptoglobin depletion → oxidative stress pathway.
+*Limitations:*: No direct Babesia testing in these patients; haptoglobin depletion may arise from multiple causes beyond hemolysis.
+*Certainty Assessment:*:
+    - *Score:* 0.65
+
 === Prevalence and Epidemiology
 
     *Full Citation:*: Lim E-J, Ahn Y-C, Jang E-S, Lee S-W, Lee S-H, Son C-G. Systematic review and meta-analysis of the prevalence of chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME). _Journal of Translational Medicine_. 2020;18(1):100.

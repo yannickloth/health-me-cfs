@@ -181,7 +181,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
   chapter-ref: [ch07:@spec:tickborne-kynurenine-fatigue],
   prediction: [Post-Lyme patients with persistent fatigue show elevated kynurenine:tryptophan ratios and lower peripheral serotonin than recovered controls, magnitude tracking fatigue severity. Refuted if KYN:TRP and serotonin do not differ by fatigue status, or if any difference is fully explained by acute-phase inflammation.],
   treatment: [If validated, IDO-pathway or serotonin-substrate strategies become candidates — research-stage only, no current clinical action.],
-  limitation: [Links two separately-documented mechanisms; never measured as a chain in post-Lyme cohorts. Origin: brainstorm.],
+  limitation: [Links two separately-documented mechanisms; never measured as a chain in post-Lyme cohorts. Contingent on @hyp:peripheral-serotonin-convergence remaining supported (cert 0.60). Origin: brainstorm.],
 )
 #registry-entry(
   [Combinatorial Immune Signatures Behind Cross-Study Inconsistency in ME/CFS],
@@ -206,6 +206,30 @@ This registry collects all hypotheses, speculations, open questions, and predict
   prediction: [Post-tick-exposure ME/CFS patients with _Bartonella_ evidence show higher endothelial-activation markers (vWF, soluble thrombomodulin) and microclot burden than tick-exposed _Bartonella_-negative patients. Refuted if microclot burden is independent of _Bartonella_ status.],
   treatment: [If confirmed, identifies a subset in whom treating chronic infection addresses vascular pathology — not current grounds for antibiotics.],
   limitation: [Endotheliotropism established; link to measured microclots is untested extrapolation. Origin: brainstorm.],
+)
+#registry-entry(
+  [Babesia Hemolysis → Haptoglobin Depletion as a Fatigue-Amplifying Pathway],
+  type: "S",
+  certainty: "0.18",
+  evidence: [_Babesia_ lyses erythrocytes releasing free hemoglobin; ME/CFS patients show post-exertional haptoglobin depletion tracking cognitive severity @Moezzi2025HaptoglobinME; Nrf2/HO-1 axis linked to fibromyalgia fatigue @Luo2025Nrf2HO1Fibro. Each link documented separately; the full Babesia→haptoglobin→fatigue chain never measured in a single cohort.],
+  citations: [@Breitschwerdt2025BabesiaCFS @Moezzi2025HaptoglobinME @Luo2025Nrf2HO1Fibro @Locke2023BabesiaNeuro],
+  mechanism: [Chronic _Babesia_ infection → persistent low-grade hemolysis → free hemoglobin/heme release → haptoglobin depletion + heme oxygenase-1 upregulation via Nrf2 → oxidative stress (Fenton chemistry from free iron) and impaired hemoglobin clearance → fatigue amplification. Converges with documented ME/CFS haptoglobin deficit rather than proposing a separate pathway.],
+  chapter-ref: [ch07:@spec:babesia-hemolysis-haptoglobin],
+  prediction: [In tick-exposed ME/CFS cohort, plasma haptoglobin inversely proportional to _Babesia_ parasitemia; free hemoglobin/heme proportional to parasitemia after controlling for confounders. Refuted if no relationship exists or if haptoglobin suppression is _Babesia_-independent.],
+  treatment: [If validated, haptoglobin could serve as a monitoring marker during anti-_Babesia_ treatment — research-stage only, not a basis for current clinical decisions.],
+  limitation: [Theoretical chain of individually-documented links, never measured as a pathway. Enrichment culture (BAPGM) specificity unresolved. No treatment data. Origin: brainstorm.],
+)
+#registry-entry(
+  [What Would Falsify the Babesia–ME/CFS Hypothesis?],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Breitschwerdt 2025: 24% Babesia PCR in n=50 chronic fatigue patients, no controls, COI. 95% CI 12-36% overlaps background seroprevalence in endemic areas. MacDonald 1996: 0/47 CFS Babesia-seropositive vs 2/47 controls — directionally neutral, only controlled comparison. Babesia detection in immunocompetent adults is typically transient. No controlled Babesia serosurvey exists for ME/CFS.],
+  citations: [@Breitschwerdt2025BabesiaCFS @MacDonald1996CFSBabesia @Locke2023BabesiaNeuro @Moezzi2025HaptoglobinME],
+  mechanism: [Epistemic framing — not a mechanistic hypothesis. Identifies conditions that would reject the null (Babesia prevalence ≤ background) and methodological concerns (enrichment culture contamination risk, Berkson's referral bias, no independent positive replication, BAPGM long culture incubation). Flags trigger-vs-driver distinction: even if Babesia acts only as an acute trigger that clears, a persistent-driver framework would miss it.],
+  chapter-ref: [ch07:@oq:babesia-falsification],
+  prediction: [Null rejected if: (a) Babesia PCR+serology is materially higher in ME/CFS vs matched endemic controls at a statistically significant level, (b) evidence of active infection associated with current symptoms, whether via persistent parasitemia or acute-trigger-then-clear with post-infectious sequelae, (c) haptoglobin/LDH tracks PCR positivity, all from an independent lab. Specific numerical thresholds are illustrative, not prescriptive. Proposed highest-yield studies: (1) controlled serosurvey, (2) independent Breitschwerdt replication, (3) Hp/LDH screening study.],
+  treatment: [None — epistemic framing; treatment premature pending rejection of null.],
+  limitation: [Open question, not a positive claim. Origin: brainstorm critical categories 10–12.],
 )
 === Neuroimmune POTS/ME/CFS/Long COVID (Blitshteyn 2026)
 // Added 2026-06-08
