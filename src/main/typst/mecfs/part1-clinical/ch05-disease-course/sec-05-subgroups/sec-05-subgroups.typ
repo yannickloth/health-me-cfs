@@ -493,7 +493,7 @@ Diagnostic testing should be prioritized based on the dominant clinical presenta
 
 *If Post-Infectious Pattern:*
 
-    - *First*: Viral serology panel (EBV VCA IgG/IgM, EBNA, HHV-6 IgG, CMV IgG)
+    - *First*: Viral serology panel (EBV VCA IgG/IgM, EBNA, HHV-6 IgG, CMV IgG) — structural antigen IgG (VCA, EBNA-1, CMV gB) reflects LLPC output from primary infection, not current viral activity; interpret with caution (Section @sec:herpesvirus-antibody-persistence). Supplement with lytic-cycle antibodies (dUTPase, EA-D) and/or viral DNA (qPCR) for evidence of reactivation.
     - *Second*: T cell immunophenotyping (CD4/CD8, NK function if available)
     - *Third*: Autoantibody screen (anti-autonomic antibodies if accessible)
     - *Rationale*: Post-infectious patients may have ongoing viral reactivation or immune exhaustion that, if addressed (antivirals, immunomodulation), interrupts downstream complications
@@ -706,7 +706,7 @@ Clinical observation has identified a subset of ME/CFS patients who show dramati
 *Proposed Diagnostic Markers.*
 If this phenotype exists, it may be identifiable by:
 
-    - *Viral markers*: Elevated EBV or HHV-6 antibody titers, positive PCR for viral DNA
+    - *Viral markers*: Positive PCR for viral DNA; elevated EBV or HHV-6 antibodies against lytic-cycle antigens (dUTPase, EA-D) — structural antigen IgG alone (VCA, EBNA-1) is uninformative for viral activity (see Section @sec:herpesvirus-antibody-persistence)
     - *Metabolic markers*: Low plasma amino acids (especially citrulline, arginine), abnormal organic acid profile
     - *Immune markers*: T cell exhaustion phenotype (elevated PD-1), reduced NK cell function
     - *Comorbidity pattern*: POTS + MCAS/HIT confirmed

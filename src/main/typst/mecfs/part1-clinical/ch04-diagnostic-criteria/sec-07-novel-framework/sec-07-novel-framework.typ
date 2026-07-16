@@ -388,7 +388,7 @@ The "Viral-Immune-Metabolic" cluster (see Section @sec:cimetidine-responder for 
   
   [*Domain*], [*Priority 1 Tests*], [*Priority 2 Tests*], [*Phenotype Indicator*],
   
-  [*Viral-Immune*], [EBV serology (VCA IgG/IgM, EBNA, EA-D), HHV-6 serology], [HHV-6/EBV PCR, T cell exhaustion panel (PD-1, LAG-3)], [Cimetidine response],
+  [*Viral-Immune*], [EBV serology (VCA IgG/IgM, EBNA, EA-D), HHV-6 serology — note: VCA IgG/EBNA IgG reflect remote infection, not current activity (Section @sec:herpesvirus-antibody-persistence)], [HHV-6/EBV PCR, T cell exhaustion panel (PD-1, LAG-3)], [Cimetidine response],
   
   
   [*Metabolic*], [Amino acid panel (serum), D-Ribose therapeutic trial], [Lactate/pyruvate ratio, organic acids (urine)], [Amino acid response],

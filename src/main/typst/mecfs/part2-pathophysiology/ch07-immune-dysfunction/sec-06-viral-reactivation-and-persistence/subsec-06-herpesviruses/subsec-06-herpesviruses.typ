@@ -126,6 +126,8 @@ If viral-induced brain tissue damage is a necessary precursor to autoantibody-me
 *Limitations:* HSE causes catastrophic, often fatal brain injury; the degree of neuronal damage in typical ME/CFS-triggering infections is orders of magnitude lower. The relevance of this severe model to mild post-viral fatigue requires demonstration that the same mechanism operates at subclinical tissue damage levels. Additionally, only a subset of ME/CFS patients report post-infectious onset, limiting the generalizability of any virus-triggered model.
 ] <hyp:hse-mecfs-template>
 
+#include "subsec-06-antibody-persistence/subsec-06-antibody-persistence.typ"
+
 ==== Abortive Lytic Replication and dUTPase
 <sec:abortive-lytic>
 

@@ -14,7 +14,7 @@
 *Viral Reactivation.*
 
     - Reactivation of latent herpesviruses (EBV, HHV-6, CMV, VZV)
-    - Elevated viral antibody titers
+    - Elevated herpesvirus antibody titers (note: structural antigen IgG — VCA, EBNA-1 — reflects long-lived plasma cell output from primary infection decades earlier, not necessarily current viral activity; see Section @sec:herpesvirus-antibody-persistence for interpretation)
     - Recurrent cold sores or shingles
     - Chronic viral symptoms
 
