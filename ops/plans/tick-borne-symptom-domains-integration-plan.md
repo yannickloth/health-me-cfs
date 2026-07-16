@@ -43,3 +43,5 @@ Decision PROCEED. 4 strong, 4 medium, 2 low, 1 bib-only. Clinical relevance MEDI
 - Parent topic: root (standalone, user-invoked)
 - Related subtree stub: `ops/plans/hypotheses-trees/subtrees/beyond-post-lyme.md` (awaiting population)
 - Phase 0 note: MIXED tree — explicit file lists only; no reset/rebase/amend.
+- **Committed:** `59a123b8` (main integration), `f6125202` (changelog), `5f2c7173` (paren-safety style fix)
+- **Concurrency:** Shared files `bib/immune.bib` and `appendix-h` committed 8 herpesvirus bib entries + 4 appendix headings from parallel stream (my entries verified present in HEAD; their chapter files committed separately: `96d170ed`, `c26e626c`)
