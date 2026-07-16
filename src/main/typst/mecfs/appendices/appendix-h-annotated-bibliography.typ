@@ -268,7 +268,7 @@ First official institutional medication list for ME/CFS with insurance coverage 
 *Study Design:*: Matched case-control
 *Sample Size:*: n=47 CFS, n=47 matched community controls
 *Key Findings:*:
-    - **Babesia microti antibodies: 0/47 CFS cases positive**
+    - _Babesia microti antibodies: 0/47 CFS cases positive_
     - 2/47 controls positive (babesiosis not associated with CFS)
     - No serological evidence of past Babesia exposure in CFS
 *Conclusion:*: This study found no association between Babesia infection and CFS, using serological methods available in 1996. Important null result that contrasts with the Breitschwerdt 2025 PCR findings.
@@ -2372,7 +2372,7 @@ Direct detection of higher EBV viral load in ME/CFS goes beyond antibody evidenc
 @Blomberg2019HerpesvirusNull
 
 *Key Findings:*
-Swedish ME/CFS cohort (Canada criteria) vs blood donor controls. Used suspension multiplex immunoassay (SMIA) with whole purified virus, recombinant proteins, and synthetic peptides for HHV-1-7 IgG. **Overall IgG anti-herpes-viral reactivities of ME/CFS patients and controls did not show significant differences.** Minor relative differences in HHV-1 whole virus antigens and EBV EBNA6/EA, but authors caution: "the subtle serological differences should not be over-interpreted."
+Swedish ME/CFS cohort (Canada criteria) vs blood donor controls. Used suspension multiplex immunoassay (SMIA) with whole purified virus, recombinant proteins, and synthetic peptides for HHV-1-7 IgG. _Overall IgG anti-herpes-viral reactivities of ME/CFS patients and controls did not show significant differences._ Minor relative differences in HHV-1 whole virus antigens and EBV EBNA6/EA, but authors caution: "the subtle serological differences should not be over-interpreted."
 
 *Relevance to antibody persistence question:*
 Critical counterweight to the "elevated herpesvirus antibodies in ME/CFS" narrative. This well-conducted study found no overall elevation. The discrepancy with Palomo 2026 and others may be due to different antigen targets (dUTPase vs whole virus), population differences (Swedish vs North American), or methodological factors. Suggests that if an antibody difference exists, it is subtle and antigen-specific rather than a broad increase.
@@ -2388,7 +2388,7 @@ Critical counterweight to the "elevated herpesvirus antibodies in ME/CFS" narrat
 @Cliff2019Cellular
 
 *Key Findings:*
-Largest herpesvirus seroprevalence study in ME/CFS: 251 patients (54 severely affected), 107 healthy participants, 46 MS controls. **No differences in seroprevalence for six human herpesviruses** between ME/CFS and controls, although EBV seroprevalence was higher in MS patients. T cell compartment altered (increased effector memory CD8+, decreased terminally differentiated CD8+, increased MAIT cells in severe patients). NK cell numbers and function were not different, contrary to earlier reports.
+Largest herpesvirus seroprevalence study in ME/CFS: 251 patients (54 severely affected), 107 healthy participants, 46 MS controls. _No differences in seroprevalence for six human herpesviruses_ between ME/CFS and controls, although EBV seroprevalence was higher in MS patients. T cell compartment altered (increased effector memory CD8+, decreased terminally differentiated CD8+, increased MAIT cells in severe patients). NK cell numbers and function were not different, contrary to earlier reports.
 
 *Relevance to antibody persistence question:*
 The largest and most rigorously controlled study found no herpesvirus seroprevalence differences. This strongly suggests that if antibody differences exist, they are in quantitative titres (not seropositivity) and may be restricted to specific antigens or patient subsets. The T cell alterations in ME/CFS are independent of serological status.

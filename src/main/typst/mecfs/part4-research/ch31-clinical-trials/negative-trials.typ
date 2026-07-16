@@ -165,7 +165,6 @@ DB = double-blind; AB = assessor-blind; RCT = randomized controlled trial.
 
 
 === Cross-Cutting Lessons
-<subsec:neg-lessons>
 <sec:neg-crosscutting>
 
     - *ME/CFS is not one disease for treatment purposes.* Every trial enrolling unstratified patients produced null or weak results. Every trial pre-selecting by biomarker found stronger signals.
