@@ -198,7 +198,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
 #registry-entry(
   [Bartonella Endotheliotropism as a Non-Autoantibody Route to Microclots],
   type: "S",
-  certainty: "0.22",
+  certainty: "0.15",
   evidence: [_Bartonella_ characteristically infects and dysregulates vascular endothelium (vasculitis-like presentations); ME/CFS/Long COVID microclot and endothelial-dysfunction pathology is developed elsewhere. Direct link to measured microclots untested.],
   citations: [@Bush2024Neurobartonelloses],
   mechanism: [Chronic endotheliotropic _Bartonella_ infection → direct endothelial injury/activation → microclot formation via a route distinct from autoantibody or fibrin(ogen)-conformation mechanisms.],
