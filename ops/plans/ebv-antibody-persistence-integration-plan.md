@@ -58,6 +58,31 @@
 - **Critical category bypass:** Ideas 10.1 (already covered by Phase 3 `<lim:herpesvirus-antibody-interpretation>` → ⏭️), 10.2 + 12.1 (merged into new `#limitation` about methodological weaknesses), 11.1 (null framing implicit in existing content)
 - **Queued as child topics:** 0
 - **Files modified:** `subsec-06-antibody-persistence.typ` (added LSR hypothesis + methodological limitation), `hypothesis-registry.typ` (added LSR entry)
+- **Sub-research for LSR (Tier 1):** literature-integrator — 4 new papers (de Sanjosé 2007 lymphoma EBV profile, Xuan 2020 Sjögren's EA/VCA, Lerner 2012 dUTPase precursor, Maes 2025 RRMS dUTPase first independent partial replication). Zero studies compute LSR directly. Integration guide: `ops/integration-guides/lsr-subresearch-2026-07-16.md`. `bib/viral-infection.bib` +4 entries.
+
+### Certainty Reassessment (Phase 5 mandatory)
+| Idea | P4 cert | Reassessed cert | Reasoning |
+|------|---------|-----------------|-----------|
+| 9.1 LSR | 0.45 | 0.40 | Downgraded: sub-research found zero direct LSR studies; concept entirely novel; dUTPase single-group dependency persists despite Maes 2025 partial replication in different disease |
+| 9.2 IgG Avidity | 0.30 | 0.30 | Unchanged: no sub-research triggered (Tier 2) |
+| 8.2 MS Parallel | 0.35 | 0.30 | Downgraded: Lanz 2022 Nature precedent is one specific epitope cross-reaction, not a general antibody class ratio — analogy over-extended |
+| 1.3 Niche Competition | 0.30 | 0.25 | Downgraded: no direct ME/CFS bone marrow data; LLPC niche dynamics inferred from murine models |
+| 1.1 Antigen Depot | 0.25 | 0.20 | Downgraded: LLPC MHC-II presentation established in basic biology but never studied in ME/CFS context |
+| 1.2 Cross-Reactive Diversion | 0.30→0.25 | 0.25 | Downgraded: requires protein microarray validation, never done |
+| 3.1 Bortezomib | 0.15 | 0.10 | Downgraded: no human data in ME/CFS; toxicity risk in already-immunocompromised population |
+| 3.2 Daratumumab | 0.15 | 0.10 | Same as above |
+| 5.1 TPE | 0.20 | 0.15 | No TPE data for herpesvirus antibody removal in ME/CFS |
+| 8.1 MGUS-Like | 0.20 | 0.10 | No MGUS prevalence study in ME/CFS; free light chain data inconsistent |
+| Remaining Tier 3 | unchanged | unchanged | Already very low; further reduction not meaningful |
+
+### Usefulness Score Reassessment
+| Idea | P4 scores | Reassessed | Changes |
+|------|----------|------------|---------|
+| 9.1 LSR | mech=3, dx=5 | mech=2, dx=4 | Downgraded: no mechanistic basis for lytic-only boosting by ALR; dx score still high because concept is testable |
+| 2.1 Antigen Panel | dx=5 | dx=5 | Unchanged: high-yield experiment |
+| 8.2 MS Parallel | mech=3, expl=3 | mech=2, expl=2 | Downgraded: category error in analogy |
+| 3.x Drug ideas | tx=4,4,2,2 | tx=2,2,1,1 | Downgraded: all preclinical, no ME/CFS data, toxicity risk |
+| All remaining Tier 3 | unchanged | unchanged | Already scored appropriately |
 
 ## Tracking Table
 
@@ -105,13 +130,15 @@
 - **Files modified:** `subsec-02-infections.typ`, `sec-07-novel-framework.typ`, `sec-05-subgroups.typ` (×2 edits)
 
 ## Phase 7
+- **Agent files read:** `hypothesis-compatibility-auditor.md` (mechanism extraction, relationship classification, internal search protocol), `hypothesis-reinforcement-builder.md` (chain construction, conflict cluster identification, certainty adjustment proposals) — read for guidance per spec; executed inline by main session
+- **Internal search protocol followed:** extracted mechanism terms from 4 new hypotheses → grep'd all `.typ` files → examined ~20 matches with 20 lines context → zero mechanism-level overlaps (all existing registry EBV/herpesvirus entries are about molecular mimicry, GPCR autoantibodies, mast cell activation, or HIF-2α — none about serology interpretation or LLPC biology)
 - **Pairs audited:** 0 (zero mechanism overlap between new hypotheses and existing registry)
 - **Reinforcement pairs:** 0
 - **Feed-into pairs:** 0
 - **Conflict pairs:** 0
-- **Independent:** 4 (all new hypotheses)
+- **Independent:** 4 (all new hypotheses operate in the serological interpretation domain, distinct from existing mechanistic hypotheses)
 - **Certainty adjusted:** 0
-- **Plan file updated:** yes
+- **Classification default applied per auditor rules:** "When evidence is insufficient to establish reinforcement, feed-into, or conflict → classify as Independent. False positives are worse than false negatives. Classification errors toward independence."
 
 ## Phases 8-13
 - **Phase 8 build:** pending
