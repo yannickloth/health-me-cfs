@@ -338,7 +338,7 @@ Based on emerging literature, the following endotype-to-treatment mappings are s
   [Beta-blockers (POTS); ivabradine; volume expansion; HRV biofeedback @Slomko2020autonomic], [B], [R],
   
   
-  [Post-Infectious (viral)], [Documented viral onset; elevated HHV-6/EBV titers; disease duration 2–8 yr @Strayer2020rintatolimod], [Tier 2],
+  [Post-Infectious (viral)], [Documented viral onset; elevated HHV-6/EBV lytic-cycle antibodies or positive viral DNA; disease duration 2–8 yr @Strayer2020rintatolimod], [Tier 2],
   [Valganciclovir (HHV-6/EBV subset) @Montoya2013valganciclovir; rintatolimod @Strayer2020rintatolimod], [A/B], [P],
   
   
@@ -493,7 +493,7 @@ Diagnostic testing should be prioritized based on the dominant clinical presenta
 
 *If Post-Infectious Pattern:*
 
-    - *First*: Viral serology panel (EBV VCA IgG/IgM, EBNA, HHV-6 IgG, CMV IgG) — structural antigen IgG (VCA, EBNA-1, CMV gB) reflects LLPC output from primary infection, not current viral activity; interpret with caution (Section @sec:herpesvirus-antibody-persistence). Supplement with lytic-cycle antibodies (dUTPase, EA-D) and/or viral DNA (qPCR) for evidence of reactivation.
+    - *First*: Viral serology panel (EBV VCA IgG/IgM, EBNA-1, HHV-6 IgG, CMV IgG) — structural antigen IgG (VCA, EBNA-1, CMV gB) reflects LLPC output from primary infection, not current viral activity; interpret with caution (Section @sec:herpesvirus-antibody-persistence). Supplement with lytic-cycle antibodies (dUTPase, EA-D) and/or viral DNA (qPCR) for evidence of reactivation.
     - *Second*: T cell immunophenotyping (CD4/CD8, NK function if available)
     - *Third*: Autoantibody screen (anti-autonomic antibodies if accessible)
     - *Rationale*: Post-infectious patients may have ongoing viral reactivation or immune exhaustion that, if addressed (antivirals, immunomodulation), interrupts downstream complications
