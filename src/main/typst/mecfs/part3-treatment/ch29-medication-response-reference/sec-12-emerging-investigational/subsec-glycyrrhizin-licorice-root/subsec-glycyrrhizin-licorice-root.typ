@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === Glycyrrhizin (Licorice Root)
 
@@ -6,7 +6,9 @@ Glycyrrhizin directly neutralizes HMGB1 — a damage-associated molecular patter
 
 ==== ✓ If glycyrrhizin works
 
+#findings-group[
 #finding(1, claim: [HMGB1 is a causal PEM mediator], explanation: [If it reduces post-exertional HMGB1 and PEM together, HMGB1-driven DAMP signaling was contributing causally to PEM.], certainty: [Low to Medium.], dntu: [what triggers HMGB1 release in the first place.], action: [Supports measuring post-exertional HMGB1 as a biomarker; targets DAMP signaling.], level: [Partial root cause.])
+]
 
 ==== What a positive response does NOT reveal
 

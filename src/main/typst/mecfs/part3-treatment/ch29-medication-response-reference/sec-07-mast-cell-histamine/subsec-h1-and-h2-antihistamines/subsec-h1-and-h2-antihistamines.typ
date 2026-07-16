@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === H1 and H2 Antihistamines
 
@@ -6,11 +6,13 @@ Antihistamines probe mast cell activation and histamine-mediated symptoms. H1 bl
 
 ==== ✓ If antihistamines work
 
+#findings-group[
 #finding(1, claim: [Mast cell activation was contributing.], explanation: [Drug blocked histamine receptors → histamine-mediated symptoms improved → mast cell degranulation was driving symptoms.], certainty: [Medium — antihistamine response is an established MCAS diagnostic criterion.], dntu: [whether MCAS is primary (constitutional) or secondary (driven by autoantibodies, infections, connective tissue pathology); whether histamine intolerance (impaired DAO degradation) rather than mast cell activation is the mechanism.], action: [MCAS-directed treatment: identify triggers, up-dose to MCAS protocols, add mast cell stabilizers.], level: [Partial root cause in primary MCAS; Symptom management in secondary MCAS.])
 
 #finding(2, claim: [H1 vs.], explanation: [H2 differential response localizes histamine effects. H1 response without H2 → histamine effects predominantly vascular, neural, cutaneous. H2 response without H1 → gastric and immune predominance. Combined → systemic MCAS.], certainty: [Medium — receptor distribution is well-characterized.], level: none)
 
 #finding(3, claim: [Rupatadine response suggests PAF involvement.], explanation: [Rupatadine is unique: dual H1 + PAF antagonist + direct mast cell stabilization. Works where standard H1 blockers fail → PAF or direct stabilization responsible.], certainty: [Medium.], level: [Partial root cause — mast cell stabilization prevents degranulation.])
+]
 
 ==== What a positive response does NOT reveal
 

@@ -555,20 +555,20 @@
 }
 
 // --- Finding (n, claim, explanation, certainty, [dntu], [action], level) ------
-// Structured differential diagnostic inference within "✓ If X works" sections.
-// Renders Finding n — claim as ==== subsection heading, explanation as body,
+// Structured differential diagnostic inference within a findings-group.
+// Renders Finding n — claim as bold heading, explanation as body,
 // then a 2-column grid (label | value) for the structured fields.
 //
 // Fields that are none are omitted. dntu and action default to none.
 #let finding(num, claim: [], explanation: none, certainty: [], dntu: none, action: none, level: []) = {
   let label(field-name) = text(weight: "bold", fill: luma(120), size: 0.82em)[#field-name]
 
-  block(below: 1em, above: 0.5em)[
-    ==== Finding #num — #claim
+  block(below: 0.8em)[
+    #text(weight: "bold")[Finding #num — #claim]
 
     #explanation
 
-    #v(0.4em)
+    #v(0.3em)
     #{
       let cells = (
         label("Certainty"), certainty,
@@ -585,6 +585,22 @@
       cells.push(level)
       grid(columns: (6em, 1fr), gutter: 4pt, ..cells)
     }
+  ]
+}
+
+// --- Findings Group (container for multiple findings) ------------------------
+// Wraps a list of findings in a styled container with left bar and light bg.
+// Use inside "✓ If X works" sections to visually group the differential
+// diagnostic findings. The heading (==== ✓ If X works) stays outside.
+//
+// body: the content containing #finding(...) calls.
+#let findings-group(body) = {
+  block(
+    inset: (left: 0.8em, right: 0.6em, top: 0.5em, bottom: 0.3em),
+    fill: color.works-bg,
+    stroke: (left: 3pt + color.works-frame),
+  )[
+    #body
   ]
 }
 

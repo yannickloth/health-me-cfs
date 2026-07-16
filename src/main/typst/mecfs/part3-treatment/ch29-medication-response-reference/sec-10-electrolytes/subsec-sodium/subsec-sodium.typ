@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === Sodium
 
@@ -6,9 +6,11 @@ Sodium loading expands plasma volume and probes hypovolemia as an orthostatic me
 
 ==== ✓ If sodium works
 
+#findings-group[
 #finding(1, claim: [Hypovolemic POTS], explanation: [Improvement means low plasma volume was limiting venous return; sodium-driven volume expansion restored preload.], certainty: [Medium for volume expansion in hypovolemic POTS.], dntu: [why plasma volume was low.], action: [Supports volume expansion as a target; combine with fludrocortisone assessment.], level: [Partial root cause if hypovolemic.])
 
 #finding(2, claim: [Intracellular Na overload (if sodium WORSENS)], explanation: [If symptoms worsen on sodium, this is diagnostic for the intracellular sodium phenotype documented by sodium-MRI: adding sodium raises the ATPase demand needed to extrude it, worsening the cellular energy deficit.], certainty: [Low to Medium — anchored in sodium-MRI findings; the worsening response is a direct signal.], dntu: [the cause of the intracellular sodium accumulation.], action: [Stop sodium loading; redirect away from volume strategies toward cellular energetics.], level: [Diagnostic redirection (potentially harmful if continued).])
+]
 
 ==== What a positive response does NOT reveal
 

@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === Methyl-Donor Support (SAMe, Methylfolate, Methylcobalamin, Choline, Betaine)
 
@@ -6,9 +6,11 @@ Methyl donors supply the substrate for DNA and protein methylation. They probe w
 
 ==== ✓ If methyl donors work
 
+#findings-group[
 #finding(1, claim: [Epigenetic re-silencing achievable (if HSAT2 expression decreases)], explanation: [If HSAT2 expression falls, the methylation machinery can restore silencing of the derepressed repeats — loss of DNA methylation was contributing.], certainty: [Low — the HSAT2 cascade is anchored in a single Ewing sarcoma preprint.], dntu: [whether HSAT2 derepression was driving symptoms or a bystander.], action: [Supports methylation support; measure HSAT2 where feasible.], level: [Partial root cause.])
 
 #finding(2, claim: [Independent benefit (if HSAT2 does not decrease but clinical improvement occurs)], explanation: [If symptoms improve without a fall in HSAT2, the benefit likely comes from homocysteine reduction or BH4/neurotransmitter support rather than from re-silencing.], certainty: [Low to Medium — the independent pathways are better established than HSAT2.], dntu: [which independent pathway (homocysteine vs. BH4) drove the improvement.], action: [Supports methyl-donor support on its established rationale; check homocysteine.], level: [Partial root cause.])
+]
 
 ==== What a positive response does NOT reveal
 

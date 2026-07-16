@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === DAO (Diamine Oxidase)
 
@@ -6,7 +6,9 @@ DAO degrades histamine in the gut. Supplementing it probes whether symptoms aris
 
 ==== ✓ If DAO works
 
+#findings-group[
 #finding(1, claim: [Histamine accumulates because it is not broken down], explanation: [Improvement means histamine was building up because degradation was impaired — histamine intolerance (HIT) rather than excessive production.], certainty: [Medium for HIT diagnostics — mechanism is well understood.], dntu: [whether the degradation deficit is genetic (DAO polymorphism) or acquired (gut mucosal injury).], action: [Supports a low-histamine diet trial and DAO supplementation as targets.], level: [Symptom management.])
+]
 
 ==== What a positive response does NOT reveal
 

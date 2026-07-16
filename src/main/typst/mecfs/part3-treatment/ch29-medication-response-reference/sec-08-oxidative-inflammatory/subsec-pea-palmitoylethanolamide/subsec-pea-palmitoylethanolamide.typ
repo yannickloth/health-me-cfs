@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === PEA (Palmitoylethanolamide)
 
@@ -6,7 +6,9 @@ PEA activates PPAR-α, suppressing inflammatory gene transcription upstream of m
 
 ==== ✓ If PEA works
 
+#findings-group[
 #finding(1, claim: [Mast cell or microglial inflammation was contributing], explanation: [Improvement means PPAR-α-responsive inflammatory cells were driving symptoms; suppressing their transcription helped. The mechanism is distinct from LDN (TLR4) and antihistamines (receptor blockade) — PEA suppresses at the nuclear-receptor level, upstream of mediator release.], certainty: [Low to Medium — RCT support for pain; no ME/CFS-specific trials.], dntu: [whether the inflammatory driver is peripheral (mast cell) or central (microglial).], action: [Supports upstream anti-inflammatory strategies; distinguishes transcription-level from receptor-level intervention.], level: [Symptom management.])
+]
 
 ==== What a positive response does NOT reveal
 

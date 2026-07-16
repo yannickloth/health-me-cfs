@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === NAC (N-Acetylcysteine)
 
@@ -6,11 +6,13 @@ NAC is a glutathione precursor (antioxidant), glutamate modulator (cystine-gluta
 
 ==== ✓ If NAC works
 
+#findings-group[
 #finding(1, claim: [Oxidative stress was a significant contributor.], explanation: [NAC → glutathione synthesis → antioxidant capacity increased → oxidative damage reduced.], certainty: [Low to Medium.], dntu: [the source of oxidative stress (mitochondrial electron leak, NADPH oxidase, ischemia-reperfusion).], level: [Partial root cause — reduces damage without eliminating source.])
 
 #finding(2, claim: [Glutamate excitotoxicity was contributing (if brain fog and sensory sensitivity improve).], explanation: [NAC normalizes extrasynaptic glutamate via cystine-glutamate antiporter.], certainty: [Low — glutamate modulation established in addiction/OCD, not ME/CFS.], level: [Symptom management.])
 
 #finding(3, claim: [HSAT2 retroelement activation may be reduced.], explanation: [NAC reduces ROS → reduces HSF1 → reduces HSAT2 transcription.], certainty: [Low — HSAT2 cascade anchored in single Ewing sarcoma preprint.], level: [Partial root cause (if HSAT2 contributes to disease maintenance).])
+]
 
 ==== What a positive response does NOT reveal
 

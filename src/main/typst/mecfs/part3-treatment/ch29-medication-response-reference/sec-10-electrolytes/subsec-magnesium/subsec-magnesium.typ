@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === Magnesium
 
@@ -6,7 +6,9 @@ Magnesium is a cofactor for more than 300 enzymes, including those governing ATP
 
 ==== ✓ If magnesium works
 
+#findings-group[
 #finding(1, claim: [Systemic or CNS magnesium deficiency was contributing], explanation: [Improvement means a magnesium shortfall was limiting enzyme function or neuronal signaling; repletion helped.], certainty: [Medium for deficiency states — repletion effects are well characterized.], dntu: [whether the deficiency is dietary, from ongoing loss, or from impaired intracellular trafficking.], action: [Supports checking RBC magnesium and repleting; L-threonate form if CNS effects are sought.], level: [Partial root cause.])
+]
 
 ==== What a positive response does NOT reveal
 

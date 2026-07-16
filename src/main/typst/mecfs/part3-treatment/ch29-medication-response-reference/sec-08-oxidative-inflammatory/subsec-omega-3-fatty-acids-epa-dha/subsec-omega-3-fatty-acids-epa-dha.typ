@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === Omega-3 Fatty Acids (EPA/DHA)
 
@@ -6,7 +6,9 @@ Omega-3s probe failed resolution of inflammation. EPA and DHA are precursors for
 
 ==== ✓ If omega-3s work
 
+#findings-group[
 #finding(1, claim: [Resolution failure may be contributing], explanation: [Improvement means inflammation was persisting because resolution was inadequate; supplying SPM precursors helped switch it off.], certainty: [Low for the SPM mechanism in ME/CFS — SPMs have never been measured in this population.], dntu: [whether SPM synthesis is actually restored, since SPM levels are not measured clinically.], action: [Supports resolution support as a contributor; use therapeutic doses.], level: [Partial root cause — provides precursors for resolution.])
+]
 
 ==== What a positive response does NOT reveal
 

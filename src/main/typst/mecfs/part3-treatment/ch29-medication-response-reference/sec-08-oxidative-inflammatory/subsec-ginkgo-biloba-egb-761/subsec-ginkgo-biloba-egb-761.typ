@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === Ginkgo biloba (EGb 761)
 
@@ -6,7 +6,9 @@ Ginkgo enhances cerebral blood flow (vasodilation, improved microvascular perfus
 
 ==== ✓ If Ginkgo works
 
+#findings-group[
 #finding(1, claim: [Cerebral hypoperfusion was limiting cognition], explanation: [Improvement means reduced cerebral blood flow was constraining cognitive function; enhancing perfusion helped.], certainty: [Low — cognitive benefits are documented in dementia, not ME/CFS.], dntu: [the cause of the hypoperfusion (autonomic vasoregulation, microvascular dysfunction, low cardiac output).], action: [Supports investigating cerebral perfusion as a contributor.], level: [Symptom management.])
+]
 
 ==== What a positive response does NOT reveal
 

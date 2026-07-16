@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding
+#import "../../../../shared/environments.typ": finding, findings-group
 
 === Droxidopa
 
@@ -6,7 +6,9 @@ Norepinephrine prodrug that crosses the blood-brain barrier. It probes central n
 
 ==== ✓ If droxidopa works
 
+#findings-group[
 #finding(1, claim: [Central norepinephrine deficiency was functionally significant], explanation: [Improvement means the reduced central catecholamine levels were contributing to symptoms — restoring norepinephrine improved function. This is one of few medications that directly probes the CSF catecholamine finding.], certainty: [Low to Medium — no ME/CFS RCT; mechanistic rationale is strong but unconfirmed in trials.], dntu: [why central norepinephrine is deficient.], action: [Supports central noradrenergic deficiency as a target; must be taken upright with blood pressure monitoring.], level: [Partial root cause.])
+]
 
 ==== What a positive response does NOT reveal
 
