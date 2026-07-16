@@ -1,0 +1,704 @@
+RETROSPECTIVE ANALYSIS OF A COHORT OF INTERNATIONALLY CASE
+DEFINED CHRONIC FATIGUE SYNDROME PATIENTS IN A LYME ENDEMIC AREA
+
+Samuel Shor1, MD, FACP
+
+Principle Investigator:
+1
+ Samuel Shor, MD, FACP
+Associate Clinical Professor
+George Washington University Health Care Sciences
+Internal Medicine of Northern Virginia
+1860 Town Center Drive #230
+Reston, Virginia 20190
+Phone 703 709-1119
+Fax 703 709-7496
+samshormd@gmail.com
+
+ABSTRACT
+
+Background: Chronic fatigue syndrome is a diagnosis of exclusion for which there are
+no markers. Lyme disease is the most common vector borne illness in the United States
+for which chronic fatigue is a frequent clinical manifestation. Intervention of patients with
+Lyme disease with appropriately directed antimicrobials has been associated with
+improved outcomes.
+
+Methods: An arbitrary date was chosen such that all patients registered in the database
+of the practice of the PI, which is located in the Lyme endemic area of Northern Virginia
+area were reviewed. The diagnosis of clinically significant fatigue > 6 months was
+chosen. Inclusion criteria required fulfilling the International Case Definition for CFS.
+
+Results: Of the total 210 included in the analysis, 209 or 99% were felt to represent a
+high likelihood of “seronegative Lyme disease.” Initiating various antimicrobial regimen,
+involved at least a 50% improvement in clinical status in 130 or 62%. Although not
+achieving the 50% threshold according to the criteria discussed, another 55 patients
+subjectively identified a beneficial clinical response to antimicrobials, representing a total
+of 188 or 88% of the total identified as having a high potential for seronegative Lyme
+disease.
+
+Conclusions: A potentially substantial proportion of patients with what would otherwise
+be consistent with internationally case defined CFS in a Lyme endemic environment
+actually have a perpetuation of their symptoms driven by a persistent infection by
+Borrelia burgdorferi. By treating this cohort with appropriately directed antimicrobials, we
+have the ability to improve outcomes.
+
+
+                                                                                          109
+BACKGROUND
+
+Chronic fatigue syndrome is a diagnosis of exclusion for which there are no markers (1).
+Lyme disease is the most common vector borne illness in the United States for which
+chronic fatigue is a frequent clinical manifestation (2) and for which the diagnosis may be
+challenging (3-6). Chronic Fatigue Syndrome represents a fatiguing symptom complex
+often including the co-morbidities of fractured nonrestorative sleep, endocrinopathies
+[such as decreased cortisol production], autonomic dysfunction [such as neurally
+mediated hypotension and postural orthostatic tachycardia] (7). It is the interpretation of
+the author that this “CFS like complex” represents a valid model for the management of
+many patients with chronic persistent Lyme infection (8).
+
+The adverse societal impact of CFS was reported by Reynolds et al in 2004. Estimates
+were of a 37% decline in household productivity and a 54% reduction in labor force
+productivity among people with CFS. The annual total value of lost productivity in the
+United States was $9.1 billion which represents about $20,000 per person with CFS or
+approximately one-half of the household and labor force productivity of the average
+person with this syndrome(9). The data presented in this treatise would suggest that we
+have the capacity to better characterize a substantial number of “CFS” patients as
+having “seronegative” persistent Lyme infection for which adjustments in intervention are
+shown to improve outcomes. Thus, we are attempting to provide evidence to the etiology
+of a cohort of patients with Chronic Fatigue Syndrome, while also providing input as to
+the clinical manifestation of persistent Lyme infection.
+
+The management of Lyme disease regarding diagnosis and treatment unfortunately is
+wrought with controversy. There is one evidence based school of thought that Lyme
+disease is easily diagnosed and easily treated (10-11). This set of guidelines has had
+questions raised as to the quality of the evidence with which the recommendations have
+been generated: “…The IDSA guideline recommendations are primarily based on low-
+quality evidence derived from nonrandomized studies or expert opinion. These findings
+highlight the limitations of current clinical infectious diseases research that can provide
+high-quality evidence…” (12-14). There is an alternative, evidence based position that
+suggests that the diagnosis of Lyme disease is associated with insensitivities and that
+the management of those identified with this condition frequently have protracted, and
+relapsing courses. As such, following a patient’s clinical course including responses to
+appropriately directed antimicrobials, these complex, relapsing presentations often
+require prolonged courses of treatment (15). In essence, rather than arbitrary durations
+of therapy, clinical judgment is warranted at the point of care.
+
+
+METHODS
+
+An arbitrary date was chosen such that all patients registered in the database of the
+practice of the PI, which is located in the Lyme endemic area of Northern Virginia area
+were reviewed. The diagnosis of clinically significant fatigue > 6 months was chosen to
+filter the patients subsequently chosen. The charts of these individuals were reviewed to
+determine: Qualification for fulfilling the International Case Definition for CFS including
+(1,7): Appropriately guided causes of chronic fatigue have been ruled out [1] [including
+screening serologies for B burgdorferi, vis a vis the recommended “two tiered” system.
+(10) Secondary criteria: CFS symptom criteria [0-absent/10-profound] achieving at least
+4 of the following 8 secondary criteria =>5 of 10 in a severity scale [0 being absent, 10
+
+
+                                                                                        110
+being most severe] impaired memory or concentration, sore throat, tender neck or
+axillary lymph nodes, myalgia, arthralgias, new headaches, unrefreshing sleep or post
+exertional malaise. Possibility of “seronegative” Lyme disease as determined by one or
+more of the following criteria: Seropositivity to ANY highly specific band to Bb IgM or IgG
+[23-25, 31, 34, 39, 83-93](16-20), and/or presence of any tick borne “co-infection” such
+as Babesia, Bartonella, or Ehrlichiosis species(21-32), and/or a low CD57 (33), and/or
+an elevated C4a (34), and/or an elevated C6 peptide (35-37).
+
+Initiation of antimicrobial intervention for those suspected of having seronegative Lyme
+disease: Assessment of clinical course was determined by way of a symptom
+questionnaire attached. To assess construct validity, this metric was given to two
+independent clinical researchers with instructions to assign each item on the value of the
+question asked, for which there was agreement and thus felt to be validated. Completed
+contemporaneously at each office visit by the study patient, this questionnaire provided a
+numeric value of the patient’s complaints that could then be tracked serially with a high
+score representing a more symptomatic individual. Taking the highest score and
+comparing to the lowest score, we were able to determine the relative therapeutic impact
+of intervention employed. Antimicrobial intervention was varied but included such
+protocols as biaxin/omnicef and doxycycline/zithromax. Given that this was a
+retrospective analysis, antimicrobial management was not controlled, but chosen at the
+point of care. At least one visit after initiation of antimicrobials to allow for a relative
+assessment of therapeutic intervention. IRB approval: WIRB Study #1121119
+
+
+
+RESULTS
+
+All patients fulfilled the international case definition of CFS (1), including a negative
+Lyme disease serology. Of the total 210 included in the analysis, 209 or 99% were felt to
+represent a high likelihood of “seronegative Lyme disease.” Initiating various
+antimicrobial regimen [in conjunction with managing co-morbidities in this uncontrolled
+study], involved at least a 50% improvement in clinical status in 130 or 62%. Although
+not achieving the 50% threshold according to the criteria discussed, another 55 patients
+subjectively identified a beneficial clinical response to antimicrobials, representing a total
+of 185 or 88% of the total identified as having a high potential for seronegative Lyme
+disease.
+
+
+
+                                                                         % seronegative Lyme
+                Analysis of PI patients               N       % total          patients
+          International Case Defined CFS             210      100%
+ "seronegative" Bb screen, POSITIVE alternative
+                        criteria                     209       99%               100%
+     equal to or > 50% clinical improvement          130                          62%
+ <50% improvement but still clinically significant   55                           26%
+      total clinically significant improvement       185                          88%
+
+
+
+
+                                                                                          111
+DEMOGRAPHICS
+
+Seronegative Lyme patients:
+
+                                                  women        men
+                      Ethnic background
+                      Caucasian                     158        44
+                      African American               2          1
+                      Hispanic or Latino             0          1
+                      American Indian/Alaskan        0         0
+                      Asian                          0          0
+                      other                          1          0
+                      unknown                        3          0
+
+                      average age:                  42         38
+
+
+The one patient who did not fit the seronegative Lyme criteria was a 46-year-old
+Caucasian woman.
+
+
+ANTIMICROBIALS EMPLOYED
+
+Recognizing that the infectious process to which we are alluding is often polymicrobial
+[including Borrelia, Babesia, Bartonella species and others], several antimicrobials were
+often employed. In addition, there were frequently relapses in many cases when
+antimicrobials were entirely withdrawn. The duration of treatment was generally adjusted
+by the patient’s clinical response and was quite variable. Examples of regimen
+associated with at least a 50% clinical improvement include:
+
+
+
+                                                               Duration
+                          Agent               Dose             [months]
+                      Doxycycline          200mg bid              5
+                     with Zithromax         500mg/d               9
+
+                          Ceftin           1.0gm bid                 8
+                        with Ketek         400mg bid                 7
+
+                        Zithromax      250mg to 500mg/d              4
+                         Mepron           750mg bid                  2
+
+                        Biaxin             500mg bid                12
+                        Mepron             750mg bid                6.5
+                       Amoxicillin         875mg bid                5.5
+
+                                                                                     112
+COMMENTS
+
+Precedence exists in the literature regarding the need for prolonged antimicrobial
+management in certain infections: Mycobacterium tuberculosis treated for 6-18 months
+with multiple agents (38), Nontuberculous mycobacteria such as Mycobacterium
+marinum are likely to require at least 6months of treatment (39) and disseminated
+Mycobacterium chelona treatment may involve a combination of oral and intravenous
+antibiotics administered for 6 to 12 months (40). Lastly, Hansen’s Disease [Leprosy]
+protocols are for up to 2 years (41-43).
+
+
+DISCUSSION
+
+It is our overarching hypothesis that a potentially substantial proportion of patients with
+what would otherwise be consistent with internationally case defined CFS in a Lyme
+endemic environment actually have a perpetuation of their symptoms driven by a
+persistent infection by Borrelia burgdorferi. By treating this cohort with appropriately
+directed antimicrobials, we have the ability to provide improved intervention. In essence,
+by improving our ability to characterize this cohort of individuals as having active Lyme
+disease and treating them accordingly, we are more likely to improve outcomes.
+
+The concept of active seronegative Lyme disease is well established in the literature.
+The detection of DNA by PCR of Bburgdorferi is felt to be indicative of organism
+presence and active infection as described by Lebach, “Since isolation of B. burgdorferi
+from patients with Lyme borreliosis is laborious and often unsuccessful molecular typing
+methods based on PCR are recommended obviating the need for isolation by prior
+culture (44)
+
+Chmielewski et al described “an analysis of 240 hospitalized patients presenting with
+various clinical symptoms suggesting Lyme borreliosis: 221 of the patients with
+neurological abnormalities and 19 with oligoarticular arthritis. Of that group, bacterial
+DNA by PCR were found in samples from 32 patients, including 28 patients with
+neuroborreliosis and 4 with Lyme arthritis. B. burgdorferi-specific IgM and/or IgG serum
+antibodies were detected in 14 of these patients.” (45) In essence, of the 32 patients with
+PCR detected Lyme, 18 were seronegative. Oksi et al described a group of “41 patients
+presenting with symptoms compatible with late Lyme borreliosis (LB)…Only patients with
+culture- or PCR-proven disease were enrolled in the study. …7 patients were
+seronegative by ELISA.” (46) In their 2007 case study, Holl-Wieden et al described
+seronegative Lyme arthritis “diagnosed based on the detection of Borrelia burgdorferi
+DNA in synovial fluid. No humoral immune response to Borrelia burgdorferi was
+detectable before, at the time of diagnosis and up to 3 years.” (47)
+
+Support of post treatment seronegative Lyme disease was described by Luft et al “This
+prospective study confirmed our previous observation that a subpopulation of patients
+treated promptly but ineffectively for erythema migrans may ultimately develop later
+manifestations of Lyme disease and be seronegative on ELISA tests for B. burgdorferi at
+the time of their relapse (48)
+
+In addition, in his statement to the IDSA guideline review committee in 2009, former
+CDC guideline committee member David Volkman, Ph.D., M.D. alluding to a study in
+which he was a co-author (49) “….we described a group of 17 patients who all
+
+
+                                                                                        113
+suffered from either neurological or arthritic signs frequently attributed to chronic
+borrelia infection. These individuals lived in areas endemic for Lyme disease, all had
+had a pathognomonic erythema migrans (EM) rash, all had a course of antibiotics
+(tetracycline, erythromycin, or an abbreviated course of another antibiotic) early in
+their illness, all had T cell blastogenic responses consistent with exposure to borrelia,
+and curiously, all lacked detectable antibodies against borrelia. Although early
+antibiotic treatment abrogated antibody responses, it did not eradicate infection. When
+retreated, most of these chronic patients markedly improved within a month of
+completing a course of intravenous ceftriaxone, consistent with their problems being
+due to persistent, ongoing occult infection” (50)
+
+There are multiple plausible explanations to explain this phenomenon of seronegativity
+using present technology in the diagnosis of Lyme disease. Recognizing that it is the
+organism’s immunogenicity to which the host amounts a response, any mechanisms that
+may alter this immunogenicity has the potential to decrease that response. In so doing,
+the sensitivities by which this serologic response could be detected would likely be
+diminished. Bburgdorferi has in fact evolved a number of mechanisms by which this is a
+likely occurrence. Adapting to changes in its environment, Bburgdorferi has been shown
+to have the capacity to change its physical characterististics, such as modulating the
+composition of its outer membrane. (51-56) Variable gene expressions have been well
+characterized. (57-60) Different structural forms of Bburgorferi have been described.
+Cystic structures (61,62) and “cell wall deficient spheroblasts and L-forms have been
+described (63-67)
+
+Sanctuaries or areas of the body in which sequestered viable spirochetes reside, may
+lead to internal cycles of acute infection that evade the body’s immune response.(68,69)
+This has been detected in the CNS.(70-73) as well as the synovium. (74) Residence in
+an intracellular location confers several survival advantages to Bb through protection
+from cellular and humoral responses. (75-78) Multiple researchers have demonstrated in
+vitro evidence of Bb within endothelial cells, myocardium, fibroblasts, ligamentous tissue,
+synovial cells, keratinocytes, lymphocytes, neurons and glial cells.(79-91)
+
+Lastly, Stricker and Winger have characterized the potential decrease in a subset of NK
+cells in some with Lyme disease. (33) Thus, there is evidence for immune dysfunction to
+contribute to the attenuation of the aforementioned serologic response.
+
+Questions have been raised that the therapeutic gain seen by the use of antimicrobials
+in the aforementioned setting is DUE to their anti-inflammatory affects. In addition to
+their antibacterial properties, it is clear that many antimicrobials also have anti-
+inflammatory effects. Examples would include tetracyclines (92,93), macrolides (94,95)
+and quinolones (96,97). With respect to the above clinical assessment, there may very
+well be a component of therapeutic gain, as likely seen in any other infectious process
+by the anti-inflammatory impact of some of these agents. However, we believe to
+suggest that the potential anti-inflammatory effect is the ONLY mechanism of action is a
+mischaracterization of this phenomenon.Virtually all patients with pain syndromes
+[including arthralgias/arthritis, headache, myalgias, etc] had already taken over the
+counter NSAIDS without adequate therapeutic gain. More importantly, if the mechanism
+of therapeutic impact of antimicrobials in this setting is strictly anti-inflammatory, how do
+we reconcile the development of post treatment Jarisch Herxheimer reactions? This
+frequently described phenomenon is felt to represent an increase in pro-inflammatory
+cytokines. (98,99) Associated with post antimicrobial exacerbation of symptoms (such as
+
+
+                                                                                         114
+headaches, arthralgias or fatigue) anti-inflammatory mechanisms of therapeutic impact
+should theoretically suppress this pro-inflammatory response, instead of actually being
+associated with a crescendoing increase of clinical activity.
+
+
+
+POTENTIAL LIMITATIONS
+
+This is a retrospective study which does not allow for control of confounding variables,
+such as treatment choice or management of co-morbid conditions such as fibromyalgia
+or fractured nonrestorative sleep. On the other hand, this sample may be more
+generalized to patients seen in actual practice as such patients were not excluded.
+Future research should assess for such variables so that they can be statistically
+controlled. The study sample represents those living in an endemic environment for
+Lyme disease and thus cannot be directly extrapolated to non-endemic regions.
+However, this must be qualified by recognizing that with our mobile society, it is quite
+conceivable that individuals not “living” in a Lyme endemic region that by vacationing, or
+other reasons, may very well have intermittent exposure to Lyme endemic regions.
+There may be a selection bias in seeking a clinician known to have expertise in chronic
+fatigue and Lyme disease management. In addition, although likely a lower relative risk
+regions that are not considered “endemic,” there is still likely some level of exposure risk.
+As such, consideration for this paradigm would still be appropriate.
+
+As in any uncontrolled analysis the placebo effect must be considered as having some
+contribution to therapeutic gains. However, it is hard to believe that placebo effect is
+going to result in a normalization of profuse sweating or an improvement in the
+hemodynamics of blood pressure and heart rate in a patient with postural orthostatic
+tachycardic syndrome, as was seen in some of these respondents. In addition, as Brown
+et al described in relation to an assessment of hypothalamic-pituitary-adrenal axis,
+greater degrees of functional abnormalities are associated with a less robust response to
+placebo in depression. (100) The majority of those included in our analysis had
+moderate to severe disabilities and thus less likely to be impacted by placebo effects
+than those less ill. That being said, even if we were to discard inclusion of those with
+symptom scores improving by less than 50%, we would still be left with 62%
+respondents who improved by at least by 50% on antimicrobials.
+
+Lastly, a cautionary caveat needs to be emphasized in relation to the potential of
+indiscriminant antimicrobial use. A careful analysis for the potential diagnosis of Lyme
+disease as characterized in this treatise ought to be obtained prior to the use of
+antibiotics. A careful risk/benefit analysis needs to be performed at the point of care with
+any intervention employed.
+
+
+
+ADDITIONAL SUGGESTIONS FOR FUTURE RESEARCH
+
+Obtain microarray analysis for Borrelia burgdorferi on the “seronegative” Lyme patients.
+Perform a prospective randomized placebo controlled trial for which a protocol and IRB
+are already in place and funding being pursued.
+
+
+
+
+                                                                                         115
+DISCLOSURES
+
+The author has been a member of the International Association of Chronic Fatigue
+Syndrome since the early 90s and of the International Lyme and Associated Diseases
+Society since 2005.
+
+No conflicts of interest are to be noted.
+
+
+FUNDING
+
+An unrestricted grant was provided by Turn the Corner Foundation
+
+
+ACKNOWLEDGEMENTS
+
+Cheryl Koopman, PhD
+Nancy Klimas, MD
+Christine Green, MD
+Sarah Fletcher, MD
+Michael Sheriden, ScD
+G. Dawn Royall
+Khalida Willoughby, MA
+Debbie Repass
+
+	  
+
+REFERENCES
+
+       1.  Fukuda K et al, The Chronic Fatigue Syndrome: A Comprehensive Approach to
+           Its Definition and Study Ann Intern Med. 1994;121:953-959
+       2. Bacon RM, Kugeler KJ, Mead PS; Surveillance for Lyme disease--United States,
+           1992-2006. Centers for Disease Control and Prevention (CDC) MMWR Surveill
+           Summ. 2008 Oct 3;57(10):1-9
+       3. Aucot J, et al Diagnostic challenges of early Lyme disease: Lessons from a
+           community case series BMC Infectious Diseases 2009, 9:79
+       4. Steere AC, Dhar A, Hernandez J, et al: Systemic symptoms without erythema
+           migrans as the presenting picture of early Lyme disease. Am J Med 2003,
+           114:58-62.
+       5. Feder HM, Gerber MA, Krause PJ, et al. Early Lyme disease: a flulike illness
+           without erythema migrans. Pediatrics. 1993;91:456–459.
+       6. Steere AC. Lyme disease. N Engl J Med. 2001;345:115–125
+       7. Shor S, Pathogenesis of Chronic Fatigue Syndrome, a Multisystem Hypothesis J
+           of Chronic Fatigue Syndrome 2003 11(3): 51-68
+       8. Shor, S “Lyme disease presenting as CFS, a case study” JCFS 2007 13(4)
+       9. Reynolds KJ, Vernon SD, Bouchery E and Reeves WC The economic impact of
+           chronic fatigue syndrome Cost Effectiveness and Resource Allocation 2004,
+           2:410.1186/1478-7547-2-4
+       10. Wormser PG et al The Clinical Assessment, Treatment and Prevention of Lyme
+           Disease, Human Granulocytic Anaplasmosis, and Babebiosis: Clinical Practice
+
+
+                                                                                   116
+    Guidelines by the Infectious Disease Society of America CID 2006:43 (1
+    November) 1089-1134
+11. Baker CJ et al Final Report of the Lyme Disease Review Panel of the Infectious
+    Diseases Society of America (IDSA) April 22, 2010
+12. Khan AR, Khan S, Zimmerman V, Baddour LM,and Tleyjeh IM Quality and
+    Strength of Evidence of the Infectious Diseases Society of America Clinical
+    Practice Guidelines CID (15 November) 2010:51
+13. Deresinski S Guiding Clinical Care through Evidence-Free Zones CID (15
+    November) 2010:51 1157-1159
+14. Johnson L and Stricker RB The Infectious Diseases Society of America Lyme
+    guidelines: a cautionary tale about development of clinical practice guidelines
+    Philosophy, Ethics, and Humanities in Medicine 2010, 5:9 doi:10.1186/1747-
+    5341-5-9
+15. The ILADS Working Group. Evidence-based guidelines for the management of
+    Lyme disease. Expert Rev Anti-Infect. Ther 2004; 2(suppl): S1-S13
+16. Hilton E, Devoti J, Sood S Recommendation To Include OspA and OspB in the
+    New Immunoblotting Criteria for Serodiagnosis of Lyme Disease
+    JClinMicrobiology June 1996 Vol34 No6 p1353-1354
+17. Tilly K, Krum JG et al Borrelia burgdorferi OspC Protein Required Exclusively in a
+    Crucial Early Stage of Mammalian Infection Infect Immun June 2006 74; 6; 3354-
+    3564
+18. Ma, B, Chrsten B, Leung D, Vigo-Pelfrey C Serodiagnosis of Lyme Borreliosis by
+    Western Immunoblot: Reacitivity of Various Signficant antibodies against Borrelia
+    burgdorferi JClinMicrobiology Feb 1992 30;2; 370-376
+19. Fikrig E, Barthold SW, Marcantonio N, et al. Roles of OspA, OspB, and flagellin
+    in protective immunity to Lyme borreliosis in the laboratory mouse. Infect Immun.
+    1992; 60: 657-661.
+20. Steere, et al. Vaccination against Lyme Disease with Recombinant Borrelia
+    burgdorferi Outer-Surface Lipoprotein A with Adjuvant N Engl J Med 1998 Jul
+    23;339(4):209-215
+21. Claudia C. dos Santos, MD; Kevin C. Kain, MD Two tick-borne diseases in one:
+    a case report of concurrent Babesiosis and Lyme disease in Ontario CMAJ
+    1999;160:1851-3
+22. Thompson C, Spiellman A,Krause P Coinfecting Deer-Associated Zoonoses:
+    Lyme Disease, Babesiosis, and Ehrlichiosis Clinical Infectious Diseases 2001;
+    33:676–85
+23. Hunfeld K.-P., Hildebrandt A,Gray JS Babesiosis: Recent insights into an ancient
+    disease International Journal for Parasitology 38 (2008) 1219–1237
+24. Aguero-Rosenfeld, M Laboratory Aspects of Tick-Borne Diseases:Lyme, Human
+    Granulocytic Ehrlichiosis and Babesiosis THE MOUNT SINAI JOURNAL OF
+    MEDICINE May 2003Vol. 70 No. 3
+25. Podsiad E, Chmielewski YT and Tylewska-Wierzbanowska S Bartonella
+    henselae and Borrelia burgdorferi Infections of the Central Nervous System Ann.
+    N.Y. Acad. Sci. (2003)990: 404–406
+26. Messina F, Talini I, Massimetti M, Palla G, Macchia P, Maggiore G, Widening of
+    the clinical spectrum of Bartonella henselae infection as recognized through
+    serodiagnostics Eur J Pediatr (2000) 159: 416±419
+27. Massei F, Gori L, Macchia P, Maggiore G The Expanded Spectrum of
+    Bartonellosis in Children Infect Dis Clin N Am 19 (2005) 691–711
+28. Florin T, Zaoutis TE and Zaoutis LB Beyond Cat Scratch Disease: Widening
+    Spectrum of Bartonella henselae Infection Pediatrics 2008;121;e1413-e1425
+
+                                                                                  117
+29. Minnick MF, Battisti JM, Pestilence, persistence and pathogenicity: infection
+    strategies of Bartonella Future Microbiol. 2009 August ; 4: 743–758.
+    doi:10.2217/fmb.09.41
+30. Angelakis E, Billeter SA, Breitschwerdt EB, Chomel BB and Raoult D Potential
+    for Tick-borne Bartonelloses Emerging Infectious Diseases • www.cdc.gov/eid •
+    March 2010Vol. 16, No. 3,
+31. Wakeel A, Zhu B, Yu XJ, McBride JW. New Insights into Molecular Ehrlichia
+    chaffeensis-Host Interactions, Microbes and Infection (2010), doi:
+    10.1016/j.micinf.2010.01.009
+32. Cohen S, Yabsley MJ, Freye JD,Dunlap BG,Rowland ME,Huang, J Dunn JR,
+    Jones TF, and Moncayo AC Prevalence of Ehrlichia chaffeensis and Ehrlichia
+    ewingii in Ticks from Tennessee VECTOR-BORNE AND ZOONOTIC DISEASES
+    Volume 10, Number 5, 2010
+33. Stricker RB, Winger EE Decreased CD57 Lymphocyte subset in patients with
+    chronic Lyme disease Immunology Letters 76 2001 43-48
+34. Stricker RB, Savely VR, Motanya NC & Giclas PC Complement Split Products
+    C3a and C4a in Chronic Lyme Disease Scandinavian Journal of Immunology
+    2008 64-69
+35. Burbelo PD, Issa AT, Ching KH, Cohen JI, Iadarola MJ, Marques A.Rapid,
+    simple, quantitative, and highly sensitive antibody detection for lyme disease.
+    Clin Vaccine Immunol. 2010 Jun;17(6):904-9. 	  
+36. Krupka I, Knauer J, Lorentzen L, O'Connor TP, Saucier J, Straubinger RK.
+    Borrelia burgdorferi sensu lato species in Europe induce diverse immune
+    responses against C6 peptides in infected mice.Clin Vaccine Immunol. 2009
+    Nov;16(11):1546-62. Epub 2009 Sep 2.
+37. Tjernberg I, Schön T, Ernerudh J, Wistedt AC, Forsberg P, Eliasson I. C6-peptide
+    serology as diagnostic tool in neuroborreliosis. APMIS. 2008 May;116(5):393-9.
+38. Small PM, Fujiwara PI Management of tuberculosis in the USA N. Engl. J. Med.
+    345, 189-200 (2001)
+39. Cummins DL, Delacerda D, Tausk FA. Mycobacterium marinum with different
+    responses to second-generation tetracyclines. Int J Dermatol 2005;44:518-20. Int
+    J Dermatol. 2005 Jun;44(6):518-20.
+40. Wallace RJ Jr, Tanner D, Brennan PJ., Brown BA. Clinical trial of clarithromycin
+    for cutaneous (disseminated) infection due to Mycobacterium chelona. Ann.
+    Intern. Med (1993) 119, 482-486
+41. Shaw IN, Natrajan MM, Rao GS, Jesudasan K, Christain M, Kavitha M Long-term
+    follow up of multibacillary leprosy patients with high BI treated with WHO/MDT
+    regimen for a fixed duration of 2yrs. Int. J. Lepr. Other Mycobact. Dis. 2000, 68,
+    405-409
+42. Goto M, Nogami R, Hatano K, Okano Y, , Gidoh M, Ishida Y, Ozaki M; ad hoc
+    committee on treatment guideline and judgment of cure, Japanese Leprosy.
+    Guideline for the treatment of Hansen's disease in Japan (Second edition). Nihon
+    Hansenbyo Gakkai Zasshi. 2006 Sep;75(3):191-226.
+43. Goto M. Chemotherapy of leprosy: theoretical basis of new guideline in Japan.
+    Nihon Hansenbyo Gakkai Zasshi (2001)70, 151-155
+44. Lebech AM. Polymerase chain reaction in diagnosis of Borrelia burgdorferi
+    infections and studies on taxonomic classification. APMIS Suppl. 2002;(105):1-40
+45. Chmielewski T, Fiett J, Gniadkowski M, Tylewska-Wierzbanowska S.
+    Improvement in the laboratory recognition of Lyme borreliosis with the
+    combination of culture and PCR methods. Mol Diagn. 2003;7(3-4):155-62	  
+
+
+                                                                                    118
+46. Oksi, J., J. Uksila, M. Marjamaki, J. Nikoskelainen, and M. K. Viljanen. 1995.
+    Antibodies against whole sonicated Borrelia burgdorferi spirochetes, 41-
+    kilodalton flagellin, and P39 protein in patients with PCR- or culture-proven late
+    Lyme borreliosis. J Clin Microbiol 33:2260-4
+47. Holl-Wieden A, Suerbaum S, Girschick HJ. Seronegative Lyme arthritis.
+    Rheumatol Int. 2007 ;27:1091-3
+48. Luft BJ et al Azithromycin Compared with Amoxicillin in the Treatment of
+    Erythema Migrans A Double-Blind, Randomized, Controlled Trial Ann Intern Med.
+    1996;124:785-791
+49. Dattwyler RJ, Volkman DJ, Luft BJ, Halperin JJ, Thomas J, Golightly MG.
+    Seronegative late Lyme borreliosis: dissociation of Borrelia burgdorferi specific T
+    and B lymphocyte responses following early antibiotic therapy. N Engl J Med
+    1988;319:1441–6
+50. Volkman D Evidence Based Observations in Lyme” IDSA Hearing on Lyme July
+    30, 2009
+51. Hojgaard, A., R.J. Eisen, and J. Piesman, Transmission dynamics of Borrelia
+    burgdorferi s.s. during the key third day of feeding by nymphal Ixodes scapularis
+    (Acari: Ixodidae). J Med Entomol, 2008. 45(4): p. 732-6.
+52. Liang, F.T., et al., Borrelia burgdorferi changes its surface antigenic expression in
+    response to host immune responses. Infect Immun, 2004. 72(10): p. 5759-67.
+53. Bykowski, T., et al., Transcriptional regulation of the Borrelia burgdorferi
+    antigenically variable VlsE surface protein. J Bacteriol, 2006. 188(13): p. 4879-
+    89.
+54. Ohnishi, J., J. Piesman, and A.M. de Silva, Antigenic and genetic heterogeneity
+    of Borrelia burgdorferi populations transmitted by ticks. Proc Natl Acad Sci U S A,
+    2001. 98(2): p. 670-5.
+55. Schwan, T.G., et al., Induction of an outer surface protein on Borrelia burgdorferi
+    during tick feeding. Proc Natl Acad Sci U S A, 1995. 92(7): p. 2909-13.
+56. Embers, M.E., R. Ramamoorthy, and M.T. Philipp, Survival strategies of Borrelia
+    burgdorferi, the etiologic agent of Lyme disease. Microbes Infect, 2004. 6(3): p.
+    312-8
+57. Zhang, J.R. and S.J. Norris, Genetic variation of the Borrelia burgdorferi gene
+    vlsE involves cassette-specific, segmental gene conversion. Infect Immun, 1998.
+    66(8): p. 3698-704.
+58. Radolf, J.D., et al., Characterization of outer membranes isolated from Borrelia
+    burgdorferi, the Lyme disease spirochete. Infect Immun, 1995. 63(6): p. 2154-63.
+59. Coutte, L., et al., Detailed analysis of sequence changes occurring during vlsE
+    antigenic variation in the mouse model of Borrelia burgdorferi infection. PLoS
+    Pathog, 2009. 5(2): p. e1000293.
+60. Wilske, B., et al., Antigenic variation and strain heterogeneity in Borrelia spp. Res
+    Microbiol, 1992. 143(6): p. 583-96.
+61. Duray, P.H., et al., Invasion of human tissue ex vivo by Borrelia burgdorferi. J
+    Infect Dis, 2005. 191(10): p. 1747-54.
+62. Miklossy, J., et al., Persisting atypical and cystic forms of Borrelia burgdorferi and
+    local inflammation in Lyme neuroborreliosis. J Neuroinflammation, 2008. 5: p. 40.
+63. Valesova, M., et al., Detection of Borrelia in the synovial tissue from a patient
+    with Lyme borreliosis by electron microscopy. J Rheumatol, 1989. 16(11): p.
+    1502-5.
+64. Mursic, V.P., et al., Formation and cultivation of Borrelia burgdorferi spheroplast-
+    L-form variants. Infection, 1996. 24(3): p. 218-26.
+
+
+
+                                                                                      119
+65. Allan, E.J., C. Hoischen, and J. Gumpert, Bacterial L-forms. Adv Appl Microbiol,
+    2009. 68: p. 1-39.
+66. Clarissou, J., et al., Efficacy of a long-term antibiotic treatment in patients with a
+    chronic Tick Associated Poly-organic Syndrome (TAPOS). Med Mal Infect, 2009.
+    39(2): p. 108-15.
+67. Gruntar, I., et al., Conversion of Borrelia garinii cystic forms to motile spirochetes
+    in vivo. Apmis, 2001. 109(5): p. 383-8
+68. Cabello, F.C., H.P. Godfrey, and S.A. Newman, Hidden in plain sight: Borrelia
+    burgdorferi and the extracellular matrix. Trends Microbiol, 2007. 15(8): p. 350-4.
+69. Szczepanski, A. and J.L. Benach, Lyme borreliosis: host responses to Borrelia
+    burgdorferi. Microbiol Rev, 1991. 55(1): p. 21-34.
+70. Aberer, E., F. Koszik, and M. Silberer, Why is chronic Lyme borreliosis chronic?
+    Clin Infect Dis, 1997. 25 Suppl 1: p. S64-70.
+71. Liang, F.T., et al., An immune evasion mechanism for spirochetal persistence in
+    Lyme borreliosis. J Exp Med, 2002. 195(4): p. 415-22.
+72. Schutzer, S.E., Lyme disease : molecular and immunologic approaches. Current
+    communications in cell & molecular biology1992, Plainview, N.Y.: Cold Spring
+    Harbor Laboratory Press. x, 329 p.
+73. Johnston, Y.E., et al., Lyme arthritis. Spirochetes found in synovial
+    microangiopathic lesions. Am J Pathol, 1985. 118(1): p. 26-34.
+74. Steere, A.C., et al., Successful parenteral penicillin therapy of established Lyme
+    arthritis. N Engl J Med, 1985. 312(14): p. 869-74.
+75. Mahmoud, A.A., The challenge of intracellular pathogens. N Engl J Med, 1992.
+    326(11): p. 761-2.
+76. Brouqui, P., S. Badiaga, and D. Raoult, Eucaryotic cells protect Borrelia
+    burgdorferi from the action of penicillin and ceftriaxone but not from the action of
+    doxycycline and erythromycin. Antimicrob Agents Chemother, 1996. 40(6): p.
+    1552-4.
+77. Ma, Y., A. Sturrock, and J.J. Weis, Intracellular localization of Borrelia burgdorferi
+    within human endothelial cells. Infect Immun, 1991. 59(2): p. 671-8.
+78. Klempner, M.S., R. Noring, and R.A. Rogers, Invasion of human skin fibroblasts
+    by the Lyme disease spirochete, Borrelia burgdorferi. J Infect Dis, 1993. 167(5):
+    p. 1074-81.
+79. Haupl, T., et al., Persistence of Borrelia burgdorferi in ligamentous tissue from a
+    patient with chronic Lyme borreliosis. Arthritis Rheum, 1993. 36(11): p. 1621-6.
+80. Livengood, J.A. and R.D. Gilmore, Jr., Invasion of human neuronal and glial cells
+    by an infectious strain of Borrelia burgdorferi. Microbes Infect, 2006. 8(14-15): p.
+    2832-40.
+81. Ma, Y., A. Sturrock, and J.J. Weis, Intracellular localization of Borrelia burgdorferi
+    within human endothelial cells. Infect Immun, 1991. 59(2): p. 671-8.
+82. Klempner, M.S., R. Noring, and R.A. Rogers, Invasion of human skin fibroblasts
+    by the Lyme disease spirochete, Borrelia burgdorferi. J Infect Dis, 1993. 167(5):
+    p. 1074-81.
+83. Dorward, D.W., E.R. Fischer, and D.M. Brooks, Invasion and cytopathic killing of
+    human lymphocytes by spirochetes causing Lyme disease. Clin Infect Dis, 1997.
+    25 Suppl 1: p. S2-8.
+84. Girschick, H.J., et al., Intracellular persistence of Borrelia burgdorferi in human
+    synovial cells. Rheumatol Int, 1996. 16(3): p. 125-32.
+85. Duray, P.H., et al., Invasion of human tissue ex vivo by Borrelia burgdorferi. J
+    Infect Dis, 2005. 191(10): p. 1747-54.
+
+
+
+                                                                                        120
+   86. Aberer, E., et al., Heterogeneity of Borrelia burgdorferi in the skin. Am J
+       Dermatopathol, 1996. 18(6): p. 571-9.
+   87. Valesova, M., et al., Detection of Borrelia in the synovial tissue from a patient
+        with Lyme borreliosis by electron microscopy. J Rheumatol, 1989. 16(11): p.
+        1502-5.
+   88. Priem, S., et al., Detection of Borrelia burgdorferi by polymerase chain reaction in
+        synovial membrane, but not in synovial fluid from patients with persisting Lyme
+        arthritis after antibiotic therapy. Ann Rheum Dis, 1998. 57(2): p. 118-21.
+   89. de Koning, J., et al., Demonstration of spirochetes in cardiac biopsies of patients
+        with Lyme disease. J Infect Dis, 1989. 160(1): p. 150-3.
+   90. Stanek, G., et al., Isolation of Borrelia burgdorferi from the myocardium of a
+        patient with longstanding cardiomyopathy. N Engl J Med, 1990. 322(4): p. 249-
+        52.
+   91. Nanagara, R., P.H. Duray, and H.R. Schumacher, Jr., Ultrastructural
+        demonstration of spirochetal antigens in synovial fluid and synovial membrane in
+        chronic Lyme disease: possible factors contributing to persistence of organisms.
+        Hum Pathol, 1996. 27(10): p. 1025-34.
+   92. Griffin MO, Ceballos G, Villarreal FJ. Tetracycline compounds with non-
+        antimicrobial organ protective properties: Possible mechanisms of action.
+        Pharmacol Res. 2010 Oct 14.
+   93. Plane JM, Shen Y, Pleasure DE, Deng W. Prospects for minocycline
+        neuroprotection. Arch Neurol. 2010 Dec;67(12):1442-8. Epub 2010 Aug 9.
+   94. Friedlander AL, Albert RK. Chronic macrolide therapy in inflammatory airways
+        diseases. Chest. 2010 Nov;138(5):1202-12.
+   95. Rubin BK: Immunomodulatory properties of macrolides: overview and historical
+        perspective. Am J Med 2004117. (suppl 9A): 2S-4S.
+   96. Galley HF, Nelson SJ, Dubbels AM, Webster NR.Effect of ciprofloxacin on the
+        accumulation of interleukin-6, interleukin-8, and nitrite from a human endothelial
+        cell model of sepsis. Crit Care Med. 1997;25(8):1392-1395.
+   97. Yoshimura T, Kurita C, Usami E, et al. Immunomodulatory action of levofloxacin
+        on cytokine production by human peripheral blood mononuclear cells.
+        Chemotherapy. 1996;42(6):459-464.
+   98. Pound MW, May DB Proposed mechanisms and preventative options of Jarisch-
+        Herxheimer reactions Journal of Clnical Pharmacy and Therapeutics (2005)
+        30,291-295
+   99. See S, , Scott EK,, and Levin MW, Penicillin-Induced Jarisch-Herxheimer
+        Reaction Published Online, , www.theannals.com, The Annals of
+        Pharmacotherapy: 15 November 2005 Vol. 39, No. 12, pp. 2128-2130.
+   100. Brown, W.A., Shrivastava, R.K., & Arato, M. (1987). Pre-treatment pituitary-
+        adrenocortical status and placebo response in depression. Psychopharmacology
+        Bulletin, 23(1), 155-159.
+
+
+
+
+Bulletin of the IACFS/ME. 2011;18(4):109-123. © 2011 IACFS/ME
+
+
+
+
+                                                                                           121
+SYMPTOM QUESTIONNAIRE
+
+	  
+
+
+
+
+                              	  
+
+	  
+
+	  
+
+
+                        122
+CHRONIC FATIGUE PARADIGM
+
+
+
+
+                                 	  
+
+                           123
+

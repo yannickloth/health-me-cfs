@@ -26534,3 +26534,106 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Conclusion:*: Dysautonomia is a key but under-researched component of PTLDS that bridges to ME/CFS and long COVID.
     *ME/CFS Relevance:*: Supports ch35 coverage of shared autonomic dysfunction; provides Hopkins group perspective.
     *Limitations:*: Review; no original data; content largely covered in ch35.
+
+=== Shor 2011 — Seronegative Chronic Lyme in Internationally-Defined CFS
+
+    *Full Citation:*: Shor S.\ Seronegative chronic Lyme disease in a large proportion of patients with internationally-defined chronic fatigue syndrome. IACFS/ME Biennial Conference, San Francisco, CA. 2011. @Shor2011SeronegativeLyme
+    *DOI:*: N/A (conference presentation)
+    *Study Design:*: Single-author retrospective uncontrolled chart review
+    *Sample Size:*: n=210
+    *Key Findings:*:
+        - 209/210 (99%) patients with internationally-defined CFS classified as "seronegative chronic Lyme"
+        - Diagnostic criteria: ANY ONE of single WB band, co-infection serology, low CD57, elevated C4a, or elevated C6
+        - Claims 62-88% benefit from prolonged antimicrobial therapy
+        - No placebo control, no blinding, no objective outcome measures
+    *Conclusion:*: Author concludes most CFS is actually seronegative Lyme and responds to prolonged antibiotics.
+    *Limitations:*: Single-author, retrospective, uncontrolled, unblinded. Non-validated diagnostic criteria. Author is past president of ILADS (Lyme advocacy body). Highest-vs-lowest outcome comparison prone to regression-to-mean. Directly contradicted by multiple RCTs.
+
+=== Feder 2007 — A Critical Appraisal of "Chronic Lyme Disease"
+
+    *Full Citation:*: Feder HM, Johnson BJB, O'Connell S, Shapiro ED, Steere AC, Wormser GP, Ad Hoc International Lyme Disease Group.\ A critical appraisal of "chronic Lyme disease". _New England Journal of Medicine_. 2007;357(14):1422-1430. @Feder2007ChronicLyme
+    *DOI:*: #link("https://doi.org/10.1056/NEJMra072023")[10.1056/NEJMra072023]
+    *PMID:*: 17914043
+    *Study Design:*: Multi-author expert review
+    *Key Findings:*:
+        - Rejects "chronic Lyme disease" as a valid diagnostic entity
+        - Distinguishes PTLDS from the non-validated "chronic Lyme" construct
+        - Documents that prolonged antibiotic therapy is unproven and causes harm
+        - Covers widespread serologic misinterpretation and non-validated testing
+    *Conclusion:*: "Chronic Lyme disease" is a misdiagnosis applied to patients with medically unexplained symptoms, not persistent Borrelia infection.
+    *Limitations:*: Narrative review; author group includes notable Lyme experts. Inflammatory to some patients and alternative practitioners.
+
+=== Lantos 2015 — Chronic Lyme Disease (Review)
+
+    *Full Citation:*: Lantos PM.\ Chronic Lyme disease. _Infectious Disease Clinics of North America_. 2015;29(2):325-340. @Lantos2015ChronicLyme
+    *DOI:*: #link("https://doi.org/10.1016/j.idc.2015.02.006")[10.1016/j.idc.2015.02.006]
+    *PMID:*: 25999227
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Chronic Lyme is a poorly defined diagnosis for prolonged unexplained symptoms
+        - No evidence for treatment-refractory persistent Borrelia infection
+        - Prolonged antibiotics do not prevent or ameliorate symptoms and cause harm
+        - Non-validated diagnostic tests (ELISPOT, CD57, C4a) lack specificity
+    *Conclusion:*: Chronic Lyme is not a valid infectious disease diagnosis.
+    *Limitations:*: Single-author review; reflects mainstream infectious disease consensus.
+
+=== Berende 2016 — PLEASE Trial: Longer-Term Antibiotics for Lyme Symptoms
+
+    *Full Citation:*: Berende A, ter Hofstede HJM, Vos FJ, van Middendorp H, Vogelaar ML, Tromp M, van den Hoogen FH, Donders ART, Evers AWM, Kullberg BJ.\ Randomized trial of longer-term therapy for symptoms attributed to Lyme disease. _New England Journal of Medicine_. 2016;374(13):1209-1220. @Berende2016PLEASE
+    *DOI:*: #link("https://doi.org/10.1056/NEJMoa1505425")[10.1056/NEJMoa1505425]
+    *PMID:*: 27028911
+    *Study Design:*: Multicenter, double-blind, randomized, placebo-controlled trial
+    *Sample Size:*: n=281 (280 in modified ITT)
+    *Key Findings:*:
+        - 2 weeks open-label IV ceftriaxone then 12 weeks doxycycline, clarithromycin+hydroxychloroquine, or placebo
+        - SF-36 PCS at week 14: no significant difference between groups (P=0.69)
+        - Mean PCS: doxycycline 35.0, clarithromycin+HCQ 35.6, placebo 34.8
+        - All groups improved from baseline (P\<0.001)
+        - No serious drug-related AEs in randomized phase
+    *Conclusion:*: Longer-term antibiotic treatment did not improve quality of life beyond shorter-term treatment. Directly contradicts antibiotic-response claims.
+    *Limitations:*: All patients received 2 weeks open-label ceftriaxone first (confounds interpretation of oral phase). Inclusion required positive Lyme serology or documented prior Lyme; not generalizable to "seronegative" populations.
+
+=== Patrick 2015 — Lyme Diagnosed by Alternative Methods vs CFS
+
+    *Full Citation:*: Patrick DM, Miller RR, Gardy JL, Parker SM, Morshed MG, Steiner TS, Singer J, Shojania KG, Tang P, Complex Chronic Disease Study Group.\ Lyme disease diagnosed by alternative methods: a phenotype similar to that of chronic fatigue syndrome. _Clinical Infectious Diseases_. 2015;61(7):1084-1091. @Patrick2015LymeCFS
+    *DOI:*: #link("https://doi.org/10.1093/cid/civ470")[10.1093/cid/civ470]
+    *PMID:*: 26054331
+    *Study Design:*: Prospective cohort comparison
+    *Sample Size:*: n=81 (51 chronic Lyme by alternative diagnosis, 30 CFS)
+    *Key Findings:*:
+        - No objective laboratory evidence of active Borrelia infection in either group
+        - Phenotypes were essentially indistinguishable between groups
+        - "Chronic Lyme" patients diagnosed by alternative methods have CFS by another name
+        - Both groups had similarly elevated symptom burden
+    *Conclusion:*: Chronic Lyme diagnosed by alternative methods is phenotypically identical to CFS.
+    *Limitations:*: Moderate sample size; single Canadian centre.
+
+=== Dattwyler 1988 — Seronegative Lyme Disease (Original Description)
+
+    *Full Citation:*: Dattwyler RJ, Volkman DJ, Luft BJ, Halperin JJ, Thomas J, Golightly MG.\ Seronegative Lyme disease: dissociation of specific T- and B-lymphocyte responses to Borrelia burgdorferi. _New England Journal of Medicine_. 1988;319(22):1441-1446. @Dattwyler1988Seronegative
+    *DOI:*: #link("https://doi.org/10.1056/NEJM198812013192203")[10.1056/NEJM198812013192203]
+    *PMID:*: 3054554
+    *Study Design:*: Case-control immunology study
+    *Sample Size:*: n=17 seronegative chronic Lyme, n=18 seropositive chronic Lyme, controls
+    *Key Findings:*:
+        - 17 patients with documented prior acute Lyme and oral antibiotics had absent antibodies by ELISA/IFA
+        - T-cell proliferative responses to B. burgdorferi were preserved (SI 17.8 vs 15.8 in seropositives)
+        - Establishes that seronegativity does not exclude Borrelia infection in patients with antecedent Lyme
+    *Conclusion:*: Seronegative Lyme exists in patients with documented antecedent Lyme and early antibiotic treatment.
+    *Limitations:*: n=17; pre-dates modern two-tier serologic testing; all patients had documented acute Lyme (not applicable to Shor's CFS population without known antecedent Lyme).
+
+=== Marzec 2017 — Serious Infections from Chronic Lyme Treatment (CDC/MMWR)
+
+    *Full Citation:*: Marzec NS, Nelson C, Waldron PR, Blackburn BG, Hosain S, Greenhow T, Green GM, Lomen-Hoerth C, Golden M, Mead PS.\ Serious bacterial infections acquired during treatment of patients given a diagnosis of chronic Lyme disease — United States. _MMWR Morbidity and Mortality Weekly Report_. 2017;66(23):607-609. @Marzec2017LymeAntibioticHarm
+    *DOI:*: #link("https://doi.org/10.15585/mmwr.mm6623a3")[10.15585/mmwr.mm6623a3]
+    *PMID:*: 28617768
+    *Study Design:*: CDC MMWR case series (public health surveillance)
+    *Sample Size:*: 5 cases
+    *Key Findings:*:
+        - Septic shock from contaminated IV lines
+        - Osteomyelitis
+        - C. difficile colitis
+        - Paraspinal abscess
+        - Documented fatal outcomes from prolonged IV antibiotics for "chronic Lyme"
+    *Conclusion:*: Treatments for "chronic Lyme disease" carry serious, potentially fatal risks. No evidence of benefit justifies these harms.
+    *Limitations:*: Case series (n=5), not population-level incidence. May underestimate prevalence as passive surveillance.

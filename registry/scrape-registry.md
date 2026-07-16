@@ -724,3 +724,4 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (24 queries, batch) | pubmed/eutils | 2026-07-15 | 2026-07-15 | ops/research/search-log-inadequate-treatment-duration-research-2026-07-15.md, ops/research/literature-inadequate-treatment-duration-research.md, bib/treatments.bib (14 entries), bib/viral-infection.bib (1 entry), appendix-h (15 annotated entries) — Inadequate treatment duration literature collection |
+| http://www.christinegreenmd.com/uploads/shor-CRIDS-Lyme-IACFS.pdf | christinegreenmd.com | 2026-07-17 | — | Literature/viral-persistence/Shor2011-seronegative-lyme-cfs/ — Shor 2011 seronegative/chronic Lyme in CFS (IACFS presentation) |
