@@ -156,6 +156,21 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [Determines whether antihistamine/anti-IgE approaches are worth trialling at all; no current clinical action.],
   limitation: [Must control time-since-infection, acute severity, atopy, vaccination. Must use native conformational spike (denatured-antigen artifacts) and objective IgE (not self-report).],
 )
+=== Tick-Borne Infections × ME/CFS Symptom Domains (2024–2026)
+// Added 2026-07-16
+
+#registry-entry(
+  [Weak HLA–Antigen Binding as a Shared Vulnerability Across Post-Infectious Illness],
+  type: "S",
+  certainty: "0.30",
+  evidence: [In-silico HLA binding-affinity analysis reports ME/CFS-susceptibility alleles (C\*07:04, DQB1\*03:03) bind _Borrelia burgdorferi_ antigens weakly while protective alleles (B\*08:01, DPB1\*02:01) bind strongly — same pattern reported for herpesvirus and SARS-CoV-2 antigens. Computational only; no wet-lab or functional validation; few alleles tested.],
+  citations: [@Georgopoulos2025HLAPTLDS],
+  mechanism: [Weak HLA presentation → inefficient antigen clearance → antigen persistence → chronic immune activation, offering one reason the same host could develop ME/CFS, PTLDS, or Long COVID depending on the arriving pathogen.],
+  chapter-ref: [ch07:@spec:hla-shared-susceptibility],
+  prediction: [In an HLA-genotyped cohort, carriers of the "weak-binding" susceptibility alleles show higher rates of chronic post-infectious illness after documented tick-borne or viral infection than carriers of "strong-binding" protective alleles. Refuted if chronic-illness incidence is independent of HLA-binding class, or if measured binding does not match the in-silico predictions.],
+  treatment: [None. A genetic risk marker, if validated, would inform risk stratification — not treatment. Not usable for individual risk prediction at present.],
+  limitation: [In-silico only; binding affinity does not guarantee functional immune outcome; small allele set; no prospective genotype–outcome cohort exists. Origin: literature-derived.],
+)
 === Neuroimmune POTS/ME/CFS/Long COVID (Blitshteyn 2026)
 // Added 2026-06-08
 
@@ -3666,6 +3681,58 @@ This registry collects all hypotheses, speculations, open questions, and predict
   prediction: [The DeLong-style reanalysis will find $>=$ 60% of ME/CFS treatment trials lacked adequate power for clinically meaningful effects. The 12-month valganciclovir arm will outperform the 6-month arm with a moderate effect size (Cohen's d 0.3--0.5). The 3--8 year stratum will show the highest response rate, statistically distinguishable from less than 3 and more than 8 year strata.],
   treatment: [Indirectly: positive results would support longer treatment durations in clinical practice for virus-selected patients within the treatment window. Currently, all four research programs are hypothetical — no prospective duration-randomized data exist.],
   limitation: [None of the proposed studies have been conducted. The DeLong-style reanalysis relies on published (potentially selectively reported) data. The RCT designs are hypothetical and may prove infeasible due to cost, recruitment, or toxicity concerns with extended valganciclovir (myelotoxicity). Origin: brainstorm.],
+)
+
+#registry-entry(
+  [Herpesvirus Antibody Titres Reflect Long-Lived Plasma Cell Output, Not Necessarily Ongoing Viral Replication],
+  type: "H",
+  certainty: "0.85",
+  evidence: [Amanna 2007 (NEJM) — antiviral antibody half-lives >200 yr for EBV, >50 yr for VZV, n=45 followed ≤26 yr. Hammarlund 2017 (Nat Commun) — LLPCs survive >10 yr without memory B cells in primate model. Robinson 2022 (Sci Immunol) — LLPCs accrue in bone marrow at ~1 cell/hr, number determined by initial GC response duration. Slifka 2019 (Front Immunol) — multivalent antigen arrays (viral capsids) preferentially drive LLPC generation. Chackerian 2020 (Viruses) — antigen structure, not persistence, determines antibody longevity.],
+  citations: [@Amanna2007Duration @Hammarlund2017PlasmaCell @Robinson2022LLPC @Slifka2019Multivalency @Chackerian2020LLPC],
+  mechanism: [LLPCs migrate to bone marrow survival niches after primary infection, constitutively secrete antibody for host lifetime without antigen re-exposure, cell division, or memory B cell replenishment. Herpesviruses present multivalent repetitive epitopes (capsids, envelope glycoproteins) that are structurally optimised for LLPC induction. Antibody titre reflects initial infection magnitude + individual niche capacity, not current viral activity.],
+  chapter-ref: [ch07:@sec:herpesvirus-antibody-persistence, @lim:herpesvirus-antibody-interpretation],
+  prediction: [ME/CFS patients with elevated structural antigen IgG (VCA, EBNA-1, gB) but normal viral DNA loads will not differ in clinical outcomes from those receiving antiviral therapy vs placebo. Falsified if structural-antigen IgG elevation without viral DNA predicts antiviral response.],
+  treatment: [Clinicians should not diagnose "chronic EBV" or initiate antiviral therapy based on structural antigen IgG titres alone. Antiviral treatment decisions require viral DNA (qPCR), viral mRNA, or early lytic gene product antibody data.],
+  limitation: [The LLPC biology is settled in healthy populations; the formal demonstration that the same principles hold in ME/CFS immune context has not been done (no ME/CFS bone marrow LLPC study exists). The prediction that structural-antigen IgG does not predict antiviral response is plausible but untested in a trial stratified by antibody specificity.],
+)
+
+#registry-entry(
+  [Antigen-Specific (Not Global) Herpesvirus Antibody Elevation in ME/CFS — Lytic-Cycle and Cross-Reactive Epitopes Selectively Elevated],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Cliff 2019 (Front Immunol, n=251) — no seroprevalence difference for 6 herpesviruses. Blomberg 2019 (Front Immunol) — overall HHV-1-7 IgG no significant difference. Palomo 2026 (J Med Virol, n=40+16) — elevated dUTPase IgG. Loebel 2017 (PLOS ONE, n=92+50) — EBNA-6 repeat region enhanced, overall pattern "quite similar". Apostolou 2022 (Front Immunol, n=95+110) — salivary EBNA-1 elevated.],
+  citations: [@Cliff2019Cellular @Blomberg2019HerpesvirusNull @Palomo2026dUTPase @Loebel2017EBVsero @Apostolou2022Saliva],
+  mechanism: [Total IgG against structural antigens (VCA, EBNA-1, gB) is driven by LLPCs and may not differ between ME/CFS and controls. Lytic-cycle antigens (dUTPase, EA-D) and latency proteins with human homology (EBNA-6 repeat) may be selectively elevated because they reflect: (a) recent abortive lytic events not captured by structural-antigen serology; (b) epitope spreading targeting cross-reactive epitopes; or (c) altered B cell regulation amplifying responses to specific epitopes.],
+  chapter-ref: [ch07:@oq:herpesvirus-antibody-universal],
+  prediction: [A study measuring IgG against structural antigens AND lytic-cycle antigens AND latency-protein repeat regions simultaneously in the same ME/CFS cohort should find elevations only in lytic and repeat-region categories, not in structural antigen IgG. Falsified if structural antigen IgG is equally elevated.],
+  treatment: [If confirmed, clinical herpesvirus serology panels should include dUTPase and EA-D IgG, not just VCA/EBNA-1. Total IgG panels — the most commonly used clinical test — are uninformative for ME/CFS.],
+  limitation: [No study has simultaneously measured all three categories of herpesvirus antibodies in the same ME/CFS cohort. The antigen-specificity model is inferred from comparing results across studies with different populations, methods, and antigens. The Palomo and Cliff cohorts are from different countries.],
+)
+
+#registry-entry(
+  [B Cell Dysregulation as Driver of Elevated Herpesvirus Antibodies in ME/CFS — Not Viral Reactivation],
+  type: "S",
+  certainty: "0.30",
+  evidence: [Sun 2024 (J Transl Med) — scRNA-seq, n=4 ME/CFS, n=4 controls. Memory B cells in ME/CFS show unique subtype early in pseudotime, increased trajectory toward plasma cell differentiation. Single study, very small n.],
+  citations: [@Sun2024Immunometabolic],
+  mechanism: [Intrinsic B cell dysregulation → biased memory B cell → plasma cell differentiation → elevated antibody output across all specificities, including herpesvirus antigens, without requiring antigenic stimulation. Would explain elevated antibody in the absence of viral DNA.],
+  chapter-ref: [ch07:@spec:antibody-elevation-bcell-dysregulation],
+  prediction: [ME/CFS patients with elevated herpesvirus antibodies will show increased frequencies of antibody-secreting cells (CD19^low CD27^high CD38^high) in peripheral blood AND increased plasma cell numbers in bone marrow aspirates, independent of viral DNA load. Falsified if antibody elevation always correlates with detectable viral DNA.],
+  treatment: [If confirmed: antiviral therapy would not be expected to reduce antibody titres; B cell-targeted interventions (rituximab, BAFF inhibitors) might be more appropriate. Currently entirely speculative — no clinical implication.],
+  limitation: [n=4 patients, single study, single time point, peripheral blood only. No direct measurement of herpesvirus antibody titres in the same patients. The increased plasma cell differentiation trajectory is an inference from pseudotime analysis, not a direct observation. Entirely unvalidated. Origin: brainstorm.],
+)
+
+#registry-entry(
+  [Lytic-to-Structural IgG Ratio (LSR) as a Diagnostic Biomarker in ME/CFS — Distinguishing LLPC Output from Reactivation-Driven Antibody],
+  type: "H",
+  certainty: "0.45",
+  evidence: [Cliff 2019 — structural-antigen seroprevalence identical (null). Palomo 2026 — lytic-antigen dUTPase IgG elevated (positive). Loebel 2017 — EBNA-6 repeat region enhanced, overall pattern "quite similar" (mixed). Apostolou 2022 — salivary lytic-cycle antigen antibodies elevated. This contradictory pattern is precisely explained by the LSR: structural antibodies normal, lytic antibodies elevated. MS EBNA-1→GlialCAM cross-reactivity precedent (Lanz 2022) supports the principle that qualitative antibody shifts, not quantitative titres, are pathogenic.],
+  citations: [@Cliff2019Cellular @Blomberg2019HerpesvirusNull @Palomo2026dUTPase @Loebel2017EBVsero @Apostolou2022Saliva],
+  mechanism: [In normal LLPC biology, the ratio of lytic-cycle to structural-antigen IgG is stable (same LLPC pool produces both). Abortive lytic reactivation (→ preferential boosting of lytic antigens via short-lived plasmablasts) OR epitope-specific autoimmune drift (→ selective elevation of cross-reactive lytic epitopes) would elevate the LSR. Each patient serves as their own internal control, eliminating confounding by infection timing, age, and initial antigen load.],
+  chapter-ref: [ch07:@hyp:lytic-structural-igg-ratio],
+  prediction: [The LSR (anti-BZLF1 IgG / anti-VCA-p18 IgG ratio) will discriminate ME/CFS from healthy seropositive controls (AUC ≥ 0.75) and correlate with symptom severity (r ≥ 0.3 with fatigue score). IgG avidity will be uniformly high in ME/CFS (avidity index >0.6, consistent with remote past infection). Falsified if: structural-antigen IgG is equally elevated, OR low-avidity IgG ($<$0.4) is detected (indicating recent reactivation rather than LLPC maintenance).],
+  treatment: [If validated, the LSR would provide a low-cost blood test using existing clinical serology assays to stratify ME/CFS patients by mechanism (LLPC-driven vs reactivation-driven). Patients with elevated LSR may benefit from different treatment approaches (B cell-targeted vs antiviral) — but this is presently a research question, not a clinical recommendation.],
+  limitation: [No study has simultaneously measured lytic-cycle and structural-antigen IgG in the same ME/CFS cohort and computed the LSR. The LSR hypothesis is inferred from comparing results across studies with different populations, methods, and antigens. The MS cross-reactivity precedent is mechanistically analogous but may not apply to ME/CFS. Origin: brainstorm.],
 )
 
 

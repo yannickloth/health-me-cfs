@@ -2123,6 +2123,204 @@ Provides quantitative meta-analytic evidence for viral associations in ME/CFS et
     *Full Citation:*: Ruiz-Pab\'on JF, Henao E, Pinto F, Estrada S, Corredor V. Epstein–Barr virus-acquired immunodeficiency in myalgic encephalomyelitis—Is it present in long COVID? _Journal of Translational Medicine_. 2023;21:633.
     *DOI:*: #link("https://doi.org/10.1186/s12967-023-04515-7")[10.1186/s12967-023-04515-7]
 
+=== Antibody Persistence and Long-Lived Plasma Cells
+
+*Amanna et al.\ 2007 — Duration of Humoral Immunity*
+
+@Amanna2007Duration
+
+*Key Findings:*
+45 subjects followed longitudinally for up to 26 years. Antiviral antibody responses were remarkably stable, with half-lives of ~50 years for VZV and >200 years for EBV, measles, and mumps. Tetanus and diphtheria antibodies waned faster (half-lives 11–19 years). Critically, memory B-cell numbers did NOT correlate with serum antibody titers for 5 of 8 antigens tested, indicating that long-lived plasma cells (LLPCs) — not memory B cells — are the primary maintainers of long-term serological memory. This is the foundational human study for understanding why antiviral antibodies persist for decades without antigenic re-exposure.
+
+*Relevance to antibody persistence question:*
+Demonstrates that EBV and VZV IgG antibodies have half-lives measured in decades, meaning elevated titres in ME/CFS cannot be assumed to reflect active viral reactivation. The dissociation between memory B cells and antibody titers suggests LLPCs independently maintain antibody output. An alternative explanation for elevated titres in ME/CFS could be a larger LLPC pool established during primary infection, not ongoing viral replication.
+
+*Certainty Assessment:*
+    - *Quality:* High (NEJM, longitudinal design, rigorous antibody kinetics modeling)
+    - *Sample:* n=45 (moderate, but 26-year follow-up is exceptional)
+    - *Replication:* Partially replicated by independent groups with shorter follow-up
+    - *Score:* 0.85
+
+*Hammarlund et al.\ 2017 — Plasma Cell Survival Without B Cell Memory*
+
+@Hammarlund2017PlasmaCell
+
+*Key Findings:*
+Decade-long rhesus macaque study. Antibody responses to multiple virus and vaccine antigens persisted for years after sustained memory B cell depletion. BrdU+ cells with plasma cell morphology were detectable 10 years after vaccination and BrdU administration, indicating that LLPCs can persist without cell division for a prolonged period. Conclusive experimental evidence that LLPCs alone — without memory B cell replenishment — can maintain serological memory for the lifespan of the organism.
+
+*Relevance to antibody persistence question:*
+Direct experimental proof that antibody levels are maintained by bone marrow LLPCs in an antigen-independent manner. If herpesvirus-specific antibodies are similarly maintained, then elevated titres in ME/CFS do not require ongoing viral antigen stimulation. This shifts the explanatory burden from "is the virus reactivating?" to "is the LLPC compartment expanded or dysregulated?"
+
+*Certainty Assessment:*
+    - *Quality:* High (Nature Communications, decade-long, rigorous B cell depletion model)
+    - *Sample:* n=12 rhesus macaques (adequate for NHP study)
+    - *Replication:* Consistent with Amanna 2007 human data; conceptually replicated by Robinson 2022
+    - *Score:* 0.80
+
+*Robinson et al.\ 2022 — LLPC Accumulation in Bone Marrow*
+
+@Robinson2022LLPC
+
+*Key Findings:*
+Mouse genetic timestamping study showed persistent plasma cells accrue in bone marrow at a constant rate (~1 cell/hour) over weeks following immunization. LLPC lifespan is partly intrinsic and preprogrammed. The final number of LLPCs is related to the duration of the germinal centre response, implying that a larger or prolonged initial infection will produce a larger LLPC pool and thus higher sustained antibody titres.
+
+*Relevance to antibody persistence question:*
+Provides the quantitative framework for understanding how the magnitude of the initial infection determines long-term antibody levels. In ME/CFS, if the primary EBV infection (e.g., infectious mononucleosis) was more severe or prolonged, this alone would predict higher antibody titres decades later — even without reactivation. This is a testable prediction: ME/CFS patients with post-EBV onset should have higher EBV antibodies than those with non-EBV triggers, which would be consistent with a larger LLPC pool rather than reactivation.
+
+*Certainty Assessment:*
+    - *Quality:* High (Science Immunology, state-of-the-art genetic labeling)
+    - *Sample:* Mouse model (n adequate for labeling experiments; human extrapolation requires caution)
+    - *Replication:* Convergent with Hammarlund 2017 and Amanna 2007
+    - *Score:* 0.75
+
+*Chackerian & Peabody 2020 — Factors in Long-Lived Antibody Responses*
+
+@Chackerian2020LLPC
+
+*Key Findings:*
+Review describing structural features of antigens that drive LLPC differentiation. Multivalent, repetitive arrays are especially effective. Pathogens with highly ordered, dense surface epitopes (viral capsids, viral envelopes) are particularly potent at generating durable antibody responses. LLPCs likely persist for decades once established.
+
+*Relevance to antibody persistence question:*
+Herpesviruses — with their icosahedral capsids, dense envelope glycoprotein arrays, and tegument proteins — present precisely the type of multivalent repetitive antigen array that maximally drives LLPC generation. This structural feature predicts that herpesvirus infections should produce exceptionally stable, long-lasting antibody responses relative to non-repetitive antigens (e.g., bacterial toxins). The IgE longevity review (Ding 2023, Allergy) provides parallel evidence for isotype-specific LLPC biology.
+
+*Certainty Assessment:*
+    - *Quality:* Medium-High (Viruses, peer-reviewed review)
+    - *Replication:* Consistent structural immunology principles from multiple groups
+    - *Score:* 0.70
+
+=== Serological Studies in ME/CFS — Elevated
+
+*Palomo et al.\ 2026 — Herpesvirus dUTPase IgG in ME/CFS*
+
+@Palomo2026dUTPase
+
+*Key Findings:*
+873 longitudinal serum samples from 40 ME/CFS patients and 378 from 16 healthy controls. Significant increase in dUTPase IgG antibodies to EBV, HHV-6, and VZV in ME/CFS (p $<$ 0.001). 72.5% of ME/CFS patients simultaneously co-expressed antibodies to multiple herpesvirus dUTPases vs 31% of controls. Chi-square analysis showed strong associations for all three viruses. Spearman correlation revealed significant positive associations of EBV and HHV-6 dUTPase IgG with fatigue severity.
+
+*Relevance to antibody persistence question:*
+Supports elevated herpesvirus antibodies in ME/CFS. However, dUTPase is an early lytic protein, so antibodies to it may reflect recent reactivation events rather than steady-state LLPC output. This specificity matters: if ME/CFS patients have elevated lytic-cycle antibodies but not latent-cycle antibodies, reactivation is a more plausible explanation than a globally expanded LLPC pool. Contradicts the null findings of Blomberg 2019 and Cliff 2019.
+
+*Certainty Assessment:*
+    - *Quality:* Medium (J Med Virol; n=40 patients adequate, but n=16 controls is small)
+    - *Replication:* First study using dUTPase-specific antigens — no direct replication yet
+    - *Score:* 0.60
+
+*Loebel et al.\ 2017 — EBV Seroprofile in CFS*
+
+@Loebel2017EBVsero
+
+*Key Findings:*
+Comprehensive EBV IgG peptide microarray (3054 peptides from 14 EBV proteins) comparing 92 CFS patients with 50 healthy controls, plus MS, SLE, and cancer-fatigue controls. Overall EBV IgG response pattern was "quite similar" between CFS and controls. The main difference was enhanced IgG reactivity to an EBNA-6 repeat sequence in CFS patients, which correlated with EBNA-6 protein responses. The EBNA-6 repeat showed sequence homology to various human proteins, suggesting antigenic mimicry as a potential mechanism.
+
+*Relevance to antibody persistence question:*
+The "quite similar" overall EBV profile argues against broad EBV reactivation in CFS. The specific EBNA-6 elevation could reflect epitope spreading, molecular mimicry, or B cell dysregulation rather than increased viral replication. Important nuance: the antibody differences are qualitative (which epitopes are targeted), not quantitative (total antibody levels), which is more consistent with altered immune regulation than viral reactivation.
+
+*Certainty Assessment:*
+    - *Quality:* High (PLoS ONE, comprehensive peptide array, multiple disease controls)
+    - *Sample:* n=92 CFS (well-powered for serological study)
+    - *Replication:* Partially replicated in CFS but limited for EBNA-6-specific findings
+    - *Score:* 0.65
+
+*Apostolou et al.\ 2022 — Saliva Antibody Fingerprint in ME/CFS*
+
+@Apostolou2022Saliva
+
+*Key Findings:*
+95 ME/CFS and 110 healthy donors studied after mild/asymptomatic SARS-CoV-2 infection. SARS-CoV-2 triggered reactivation of EBV, HHV-6, and HERV-K in both groups (detected by antiviral antibody fingerprints in saliva). In ME/CFS patients, antibody responses were significantly stronger, particularly EBNA-1 IgG. EBV-VCA IgG was also elevated at baseline (before SARS-CoV-2 infection) in ME/CFS compared to controls. Novel finding: antibody elevation was detectable locally in saliva but not systemically in plasma.
+
+*Relevance to antibody persistence question:*
+Provides evidence for a "chronically aroused" anti-viral state in ME/CFS. The fact that baseline EBV-VCA IgG is already elevated suggests a pre-existing difference in herpesvirus antibody regulation. The dissociation between saliva (elevated) and plasma (not elevated) is particularly interesting — it may reflect local mucosal immune dysregulation or that conventional plasma serology underestimates herpesvirus activity in ME/CFS.
+
+*Certainty Assessment:*
+    - *Quality:* Medium (Frontiers in Immunology; novel saliva methodology but well-conducted)
+    - *Sample:* n=95 ME/CFS, n=110 controls (well-powered)
+    - *Replication:* Single study with novel methodology — awaits independent replication
+    - *Score:* 0.55
+
+*Hannestad et al.\ 2025 — EBV Viral Load in ME/CFS Sputum*
+
+@Hannestad2025Sputum
+
+*Key Findings:*
+13 ME/CFS patients, 10 healthy controls, 4 elderly controls, 2 immunosuppressed controls. Higher EBV viral load in sputum of ME/CFS patients (p=0.0256). HHV-6 present in ~50% of all participants at similar levels. HAdV detected in immunosuppression and severe ME/CFS cases. Anti-IFN-I autoantibodies not different between groups except in one severe ME/CFS case. Concluded that ME/CFS patients have significantly higher EBV load and that IFN-I autoantibodies cannot explain IFN-I dysfunction except possibly in severe cases.
+
+*Relevance to antibody persistence question:*
+Direct detection of higher EBV viral load in ME/CFS goes beyond antibody evidence to suggest active or increased viral replication. However, sputum may reflect local respiratory mucosal shedding rather than systemic reactivation. Small sample size limits confidence.
+
+*Certainty Assessment:*
+    - *Quality:* Medium (Viruses, peer-reviewed)
+    - *Sample:* n=13 ME/CFS (very small)
+    - *Replication:* Single study — requires independent replication
+    - *Score:* 0.50
+
+=== Serological Studies in ME/CFS — Null/No Difference
+
+*Blomberg et al.\ 2019 — Herpesvirus Antibodies No Difference in ME/CFS*
+
+@Blomberg2019HerpesvirusNull
+
+*Key Findings:*
+Swedish ME/CFS cohort (Canada criteria) vs blood donor controls. Used suspension multiplex immunoassay (SMIA) with whole purified virus, recombinant proteins, and synthetic peptides for HHV-1-7 IgG. **Overall IgG anti-herpes-viral reactivities of ME/CFS patients and controls did not show significant differences.** Minor relative differences in HHV-1 whole virus antigens and EBV EBNA6/EA, but authors caution: "the subtle serological differences should not be over-interpreted."
+
+*Relevance to antibody persistence question:*
+Critical counterweight to the "elevated herpesvirus antibodies in ME/CFS" narrative. This well-conducted study found no overall elevation. The discrepancy with Palomo 2026 and others may be due to different antigen targets (dUTPase vs whole virus), population differences (Swedish vs North American), or methodological factors. Suggests that if an antibody difference exists, it is subtle and antigen-specific rather than a broad increase.
+
+*Certainty Assessment:*
+    - *Quality:* Medium-High (Frontiers in Immunology, rigorous multiplex methodology)
+    - *Sample:* Adequate (cohort size not explicitly stated in abstract but appears powered)
+    - *Replication:* Consistent with Cliff 2019 seroprevalence null result
+    - *Score:* 0.65
+
+*Cliff et al.\ 2019 — Null Herpesvirus Seroprevalence in UK ME/CFS Biobank*
+
+@Cliff2019Cellular
+
+*Key Findings:*
+Largest herpesvirus seroprevalence study in ME/CFS: 251 patients (54 severely affected), 107 healthy participants, 46 MS controls. **No differences in seroprevalence for six human herpesviruses** between ME/CFS and controls, although EBV seroprevalence was higher in MS patients. T cell compartment altered (increased effector memory CD8+, decreased terminally differentiated CD8+, increased MAIT cells in severe patients). NK cell numbers and function were not different, contrary to earlier reports.
+
+*Relevance to antibody persistence question:*
+The largest and most rigorously controlled study found no herpesvirus seroprevalence differences. This strongly suggests that if antibody differences exist, they are in quantitative titres (not seropositivity) and may be restricted to specific antigens or patient subsets. The T cell alterations in ME/CFS are independent of serological status.
+
+*Certainty Assessment:*
+    - *Quality:* High (Frontiers in Immunology, UK Biobank cohort, well-characterised)
+    - *Sample:* n=251 ME/CFS (excellent), n=107 HC (adequate)
+    - *Replication:* Consistent with Blomberg 2019; partially replicated by Domingues 2023
+    - *Score:* 0.70
+
+*Domingues et al.\ 2023 — Herpesvirus IgG Symptom Associations in ME/CFS*
+
+@Domingues2023HerpesIgG
+
+*Key Findings:*
+Re-analysis of UK ME/CFS Biobank data (n=222 ME/CFS, n=46 MS) examining associations between IgG to 6 herpesviruses (CMV, EBV, HHV-6, HSV-1/2, VZV) and symptomology. Most significant finding: positive association between HSV-1 IgG and brain fog. More antibody-symptom associations in MS than ME/CFS. SuperLearner algorithm could distinguish some ME/CFS subgroups from MS using serological data but could not distinguish ME/CFS from all subgroups equally.
+
+*Relevance to antibody persistence question:*
+Mixed findings: herpesvirus IgG levels do correlate with some symptoms (especially HSV-1 and cognition), but the pattern is weaker than in MS. Antibody-symptom associations may reflect immune activation rather than viral reactivation per se. The failure to distinguish ME/CFS subgroups serologically is consistent with antibody levels being a non-specific marker rather than a disease-specific driver.
+
+*Certainty Assessment:*
+    - *Quality:* Medium (Heliyon; re-analysis of existing data; multiple comparisons)
+    - *Sample:* n=222 ME/CFS (adequate)
+    - *Replication:* Convergent with Cliff 2019 dataset
+    - *Score:* 0.60
+
+=== Cellular Basis of Antibody Persistence in ME/CFS
+
+*Sun et al.\ 2024 — scRNA-seq Reveals B Cell Overactivity in ME/CFS*
+
+@Sun2024Immunometabolic
+
+*Key Findings:*
+Single-cell RNA sequencing of PBMCs from 4 ME/CFS patients and 4 healthy controls. Memory B cells in ME/CFS showed a unique subtype in pseudotime, with increased differentiation to plasma cells suggesting B cell overactivity. CD4+ and CD8+ T cells showed altered differentiation trajectories. Reduced NK cell cytotoxicity with decreased perforin and CD107a expression. Identified ESRRA-APP-CD74 signaling pathway as potential peripheral biomarker. The analysis also confirmed higher ESRRA expression in male ME/CFS patients' monocytes.
+
+*Relevance to antibody persistence question:*
+If memory B cells in ME/CFS are overactive and preferentially differentiate to plasma cells, this could drive elevated antibody production even in the absence of ongoing antigenic stimulation. This provides a potential mechanistic basis for elevated herpesvirus antibody titres without requiring viral reactivation — the B cell compartment itself may be dysregulated. Very preliminary (n=4) but hypothesis-generating.
+
+*Certainty Assessment:*
+    - *Quality:* Medium (J Transl Med; state-of-the-art scRNA-seq but tiny sample)
+    - *Sample:* n=4 patients, n=4 controls (pilot/exploratory only)
+    - *Replication:* Single study — no independent replication
+    - *Score:* 0.45
+
 // =============================================================================
 
 == Pathophysiology: Genetics and Epigenetics
@@ -26079,3 +26277,150 @@ sec-bib-rf-elevated-mecfs-duplicate
     *Key Findings:*: 210 Canadian Lyme patients treated per ILADS guidelines (longer duration, combination approaches). Majority responded with significant symptom decrease (p $<$ 0.05). ILADS-guided care produced better outcomes than IDSA short-course recommendations.
     *Conclusion:*: Longer treatment duration and co-infection management associated with positive outcomes in real-world cohort.
     *Limitations:*: Retrospective; no control; single clinic; referral bias.
+
+=== Girgis 2025 — Aberrant T-Cell Phenotypes in PTLDS
+
+    *Full Citation:*: Girgis AA, Cimbro R, Yang T, Rebman AW, Sewell T, Villegas de Flores D, Vadalia A, Robinson WH, Cox AL, Darrah E, Soloski MJ, Aucott J.\ Aberrant T-cell phenotypes in a cohort of patients with post-treatment Lyme disease. _Frontiers in Immunology_. 2025;16:1607619. @Girgis2025PTLDTcell
+    *DOI:*: #link("https://doi.org/10.3389/fimmu.2025.1607619")[10.3389/fimmu.2025.1607619]
+    *PMID:*: 40703523
+    *Study Design:*: Cross-sectional immunophenotyping (19-parameter flow cytometry + cytokine profiling)
+    *Sample Size:*: n=272 PTLD, n=28 healthy controls
+    *Key Findings:*:
+        - Fewer CXCR5+ CD4+ naïve T cells in PTLD vs HC (5.2% vs 8.3%, Padj $<$ 0.001)
+        - Increased CXCR3+CCR4-CCR6- CD8 T cells (43.1% vs 25.7%, Padj $<$ 0.01)
+        - Elastic net classifier AUC 0.83
+        - Female-specific central memory CD8 expansion in high-fatigue subgroup
+        - Symptom-domain linking: musculoskeletal pain associated with CXCR5+CD4+ abundance
+    *Conclusion:*: PTLDS is characterized by aberrant T-cell homeostasis with symptom-domain-specific immune correlates; first detailed immunophenotyping in PTLDS.
+    *ME/CFS Relevance:*: Directly comparable to ME/CFS immunophenotyping studies; supports shared immune dysregulation mechanisms. Symptom-domain linking approach parallels ME/CFS subgroup analyses.
+    *Limitations:*: Cross-sectional; no ME/CFS comparator arm; Hopkins cohort may not generalize.
+
+=== Yakubovsky 2026 — Cat Scratch Disease Encephalitis: Long-Term Outcomes
+
+    *Full Citation:*: Yakubovsky M, Kadar L, Katchman E, Regev A, Atamna A, Yelin D, Paul M, Finn T, Cohen R, Yahav D, Megged O, Chazan B, Gottesman G, Moran-Gilad J, Zimhony O, Grisaru-Soen G, Paran Y, Ben-Ami R, Gadoth A, Aizenstein O, Ephros M, Gurevich T, Giladi M.\ Cat scratch disease encephalitis: New insights into rate, clinical features, and long-term outcomes. _International Journal of Infectious Diseases_. 2026;164:108395. @Yakubovsky2026CatScratchCNS
+    *DOI:*: #link("https://doi.org/10.1016/j.ijid.2026.108395")[10.1016/j.ijid.2026.108395]
+    *PMID:*: 41544843
+    *Study Design:*: National retrospective cohort (Israeli CSD surveillance)
+    *Key Findings:*: Largest systematic description of B. henselae encephalitis. Neurological involvement with measurable long-term cognitive deficits. Recovery trajectory prolonged.
+    *Conclusion:*: Bartonella CNS infection produces persistent cognitive sequelae independent of prior ME/CFS diagnosis.
+    *ME/CFS Relevance:*: Demonstrates Bartonella neuroinvasion as a potential mechanism for cognitive dysfunction in tick-exposed ME/CFS patients. Independent from Breitschwerdt chronic fatigue data.
+    *Limitations:*: Retrospective; B. henselae only; CSD cases only (not chronic Bartonella); no ME/CFS comparator.
+
+=== Guirguis 2024 — Bartonella in Mild Cognitive Impairment (Pilot)
+
+    *Full Citation:*: Guirguis V, Pupillo F, Rodrigues S, Walker N, Roth H, Liedig CE, Maggi RG, Breitschwerdt EB, Frohlich F.\ Bartonella spp. infection in people with Mild Cognitive Impairment: A pilot study. _PLoS One_. 2024;19(8):e0307060. @Guirguis2024BartonellaMCI
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0307060")[10.1371/journal.pone.0307060]
+    *PMID:*: 39172940
+    *Study Design:*: Pilot cross-sectional
+    *Sample Size:*: n=16 MCI, n=30 controls
+    *Key Findings:*: Higher Bartonella spp. DNA detection in MCI patients than controls. Suggests Bartonella may contribute to cognitive decline.
+    *Conclusion:*: Extends Bartonella cognitive involvement beyond ME/CFS into broader cognitive impairment.
+    *Limitations:*: Very small pilot; unblinded; low statistical power. Low certainty.
+
+=== Bush 2024 — Neurobartonelloses
+
+    *Full Citation:*: Bush JC, Robveille C, Maggi RG, Breitschwerdt EB.\ Neurobartonelloses: emerging from obscurity! _Parasites & Vectors_. 2024;17(1):416. @Bush2024Neurobartonelloses
+    *DOI:*: #link("https://doi.org/10.1186/s13071-024-06491-3")[10.1186/s13071-024-06491-3]
+    *PMID:*: 39369199
+    *Study Design:*: Comprehensive review
+    *Key Findings:*:
+        - Bartonella species are established neurotropic pathogens
+        - Neurological spectrum: cognitive impairment, neuropsychiatric, neuropathy, movement disorders
+        - Serology insensitive; enrichment culture/PCR preferred for diagnosis
+        - Proposes "neurobartonelloses" as distinct clinical entity
+    *Conclusion:*: Bartonella causes a broad spectrum of neurological disease that is underdiagnosed due to insensitive serology.
+    *ME/CFS Relevance:*: Provides neurological framework for understanding Bartonella as a driver of CNS symptoms in tick-exposed ME/CFS patients. Complements ch07 coverage.
+    *Limitations:*: Review; some claims extrapolated from animal models; Breitschwerdt group perspective.
+
+=== Marques 2026 — PTLDS Epitope Profiling
+
+    *Full Citation:*: Marques AR, Sanchez-Vicente S, Nagapurkar A, Eschman A, Ng SP, Lipkin WI, Tokarz R.\ Evaluation of immunoreactive epitopes in the sera and cerebrospinal fluid of patients with post-treatment Lyme disease syndrome. _Scientific Reports_. 2026;16(1):10389. @Marques2026PTLDSepitopes
+    *DOI:*: #link("https://doi.org/10.1038/s41598-026-42941-x")[10.1038/s41598-026-42941-x]
+    *PMID:*: 41826406
+    *Study Design:*: Cross-sectional epitope profiling
+    *Key Findings:*:
+        - Identified immunoreactive epitopes differentiating PTLDS from resolved Lyme
+        - Paired CSF-serum analysis provides CNS-compartment immune window
+        - Potential epitope-based biomarker for objective PTLDS diagnosis
+    *Conclusion:*: Epitope profiling offers a novel diagnostic approach for PTLDS that may improve upon standard two-tier serology.
+    *ME/CFS Relevance:*: If validated, could help identify tick-borne infection as etiological driver in ME/CFS subgroups. Parallel to ME/CFS epitope-based biomarker development.
+    *Limitations:*: Cross-sectional; replication needed; preprint at time of analysis.
+
+=== Nawrocki 2025 — CDC: Nonspecific Symptoms After Lyme Disease
+
+    *Full Citation:*: Nawrocki CC, Delorey MJ, Earley AR, Hook SA, Kugeler KJ, Marx GE, Mead PS, Hinckley AF.\ Nonspecific Symptoms Attributable to Lyme Disease in High-Incidence Areas, United States, 2017-2021. _Emerging Infectious Diseases_. 2025;31(14):30-37. @Nawrocki2025LymeSymptomsCDC
+    *DOI:*: #link("https://doi.org/10.3201/eid3114.250459")[10.3201/eid3114.250459]
+    *PMID:*: 41570190
+    *Study Design:*: Retrospective claims cohort
+    *Sample Size:*: n=24,503 LD cases, n=122,095 matched controls
+    *Key Findings:*:
+        - Pain/fatigue/cognitive codes 5.0% more frequent in LD vs controls
+        - Symptom codes comprised ~11% of total codes in LD patients
+        - Symptoms declined at 6-12 months
+        - Fatigue specifically persisted beyond 12 months (only domain not normalizing)
+    *Conclusion:*: Absolute risk of persistent post-Lyme symptoms may be lower than 10-20% in general LD population, but fatigue is the most persistent domain.
+    *ME/CFS Relevance:*: Largest population-level estimate of post-Lyme symptom burden. Fatigue persistence mirrors ME/CFS. Suggests PTLDS prevalence estimates require domain-specific stratification.
+    *Limitations:*: Claims-based (ICD codes, not validated questionnaires); may undercount mild symptoms; no ME/CFS comparator.
+
+=== Georgopoulos 2025 — HLA Bridge: ME/CFS, PTLDS, Long COVID
+
+    *Full Citation:*: Georgopoulos AP, James LM, Peterson PK.\ HLA and pathogens in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and other post-infection conditions. _Scientific Reports_. 2025;15:37303. @Georgopoulos2025HLAPTLDS
+    *DOI:*: #link("https://doi.org/10.1038/s41598-025-21230-z")[10.1038/s41598-025-21230-z]
+    *PMID:*: 41136524
+    *Study Design:*: In silico HLA binding affinity prediction
+    *Key Findings:*:
+        - ME/CFS susceptibility HLA alleles weakly bind Borrelia burgdorferi antigens
+        - ME/CFS protective HLA alleles strongly bind Borrelia antigens
+        - Same pattern for HHV and SARS-CoV-2 antigens
+        - Unifying mechanism: weak HLA-antigen binding → persistent antigens → chronic illness
+    *Conclusion:*: Shared HLA-mediated vulnerability across ME/CFS, PTLDS, and Long COVID suggests common mechanism of persistent antigen-driven pathology.
+    *ME/CFS Relevance:*: Direct mechanistic hypothesis for why tick-borne infection triggers ME/CFS in genetically susceptible individuals. Bridges the three post-infectious syndromes.
+    *Limitations:*: In silico only; small number of HLA alleles; binding affinity does not guarantee functional outcome; requires wet-lab validation.
+
+=== Milovanovic 2025 — Autonomic Comparison: Late-Stage Lyme vs CFS vs Post-COVID
+
+    *Full Citation:*: Milovanovic B, Markovic N, Petrovic M, Stojanovic S, Zugic V, Ostojic M, Bojic M.\ The Relationship Between Hemodynamic Responses During Head-Up Tilt Testing and Parameters of Infection in Post-COVID Syndrome, Chronic Fatigue Syndrome, and Late-Stage Lyme Disease. _Viruses_. 2025;17(11):1430. @Milovanovic2025LymeHUT
+    *DOI:*: #link("https://doi.org/10.3390/v17111430")[10.3390/v17111430]
+    *PMID:*: 41305452
+    *Study Design:*: Cross-sectional HUT testing with infection parameter correlation
+    *Key Findings:*:
+        - All three groups (post-COVID, CFS, late-stage Lyme) show similar autonomic dysfunction
+        - Infection parameters correlate with hemodynamic responses
+        - Lyme and CFS groups show similar HUT patterns
+    *Conclusion:*: Shared dysautonomia mechanism across late-stage Lyme, CFS, and post-COVID with infection parameter correlation.
+    *ME/CFS Relevance:*: Direct HUT comparison confirms that Lyme-associated dysautonomia matches ME/CFS pattern. Supports autonomic dysfunction as shared mechanism.
+    *Limitations:*: Unclear diagnostic criteria for "late-stage Lyme"; single center; moderate sample size.
+
+=== Nair 2025 — VlsE Antibody Differentiates Lyme Disease Stage
+
+    *Full Citation:*: Nair N, Marques A, Horn EJ, Brown G, Gomes-Solecki M.\ Class and isotype of VlsE-specific antibody differentiates Lyme disease stage. _Journal of Clinical Microbiology_. 2025;63(8):e0034725. @Nair2025VlsELyme
+    *DOI:*: #link("https://doi.org/10.1128/jcm.00347-25")[10.1128/jcm.00347-25]
+    *PMID:*: 40662763
+    *Study Design:*: Cross-sectional diagnostic accuracy
+    *Key Findings:*: VlsE antibody class/isotype differentiates early vs late vs post-treatment Lyme disease stages. Potential to distinguish active infection from past exposure.
+    *Conclusion:*: VlsE isotyping may improve Lyme disease staging and help differentiate ongoing antigenic stimulation from resolved infection.
+    *ME/CFS Relevance:*: If validated, could identify ME/CFS patients with ongoing Borrelia antigenic stimulation who might benefit from targeted treatment.
+    *Limitations:*: Moderate sample size; needs validation in PTLDS/chronic Lyme controversy populations.
+
+=== Kuvaldina 2025 — Disulfiram Pilot for Persistent Lyme
+
+    *Full Citation:*: Kuvaldina M, Preston J, McClellan D, Pavlicova M, Brannagan TH, Fallon BA.\ A pilot study of disulfiram for individuals with persistent symptoms despite prior antibiotic treatment for Lyme disease. _Frontiers in Medicine_. 2025;12:1549324. @Kuvaldina2025DisulfiramLyme
+    *DOI:*: #link("https://doi.org/10.3389/fmed.2025.1549324")[10.3389/fmed.2025.1549324]
+    *PMID:*: 40265182
+    *Study Design:*: Open-label pilot
+    *Sample Size:*: n=15
+    *Key Findings:*: Some symptom improvement with disulfiram (anti-persister mechanism). Significant neuropathy adverse effects.
+    *Conclusion:*: Disulfiram shows potential for persistent Lyme symptoms but tolerability concerns limit use.
+    *ME/CFS Relevance:*: Novel treatment mechanism outside antibiotic framework. If persistent Borrelia drives some ME/CFS cases, antipersister agents may be relevant.
+    *Limitations:*: Open-label; n=15; no control arm; high AE rate (neuropathy).
+
+=== Adler 2024 — Dysautonomia Following Lyme Disease (Review)
+
+    *Full Citation:*: Adler BL, Chung T, Rowe PC, Aucott J.\ Dysautonomia following Lyme disease: a key component of post-treatment Lyme disease syndrome? _Frontiers in Neurology_. 2024;15:1344862. @Adler2024DysautonomiaLyme
+    *DOI:*: #link("https://doi.org/10.3389/fneur.2024.1344862")[10.3389/fneur.2024.1344862]
+    *PMID:*: 38390594
+    *Study Design:*: Narrative review
+    *Key Findings:*: Synthesizes evidence for Lyme-associated dysautonomia. Proposes PTLDS shares autonomic dysfunction mechanisms with PASC and ME/CFS. Identifies gaps.
+    *Conclusion:*: Dysautonomia is a key but under-researched component of PTLDS that bridges to ME/CFS and long COVID.
+    *ME/CFS Relevance:*: Supports ch35 coverage of shared autonomic dysfunction; provides Hopkins group perspective.
+    *Limitations:*: Review; no original data; content largely covered in ch35.
