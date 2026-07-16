@@ -150,6 +150,40 @@ A targeted 2024–2026 search returned no new studies linking _Babesia_ infectio
 *Consequence:* Of the three pathogens, the ME/CFS link for _Babesia_ rests on the most inferential evidence; this is a concrete gap where a well-controlled cohort study would add real value.
 ] <lim:babesia-evidence-gap>
 
+===== Mechanistic Bridges to Existing ME/CFS Pathways
+
+The tick-borne findings above need not sit in isolation; several plausibly connect to mechanisms this book develops elsewhere. The following are exploratory bridges (Origin: brainstorm), offered as testable hypotheses rather than established links.
+
+#speculation(title: [Infection-Driven Kynurenine Shunt as a Route to Post-Lyme Fatigue])[
+Chronic or recently-cleared tick-borne infection sustains interferon-γ signalling, which activates indoleamine-2,3-dioxygenase (IDO) and diverts tryptophan down the kynurenine pathway — the same enzymatic shunt discussed for ME/CFS (@sec:kynurenine-trap) and mechanistically upstream of the peripheral-serotonin-depletion model (@hyp:peripheral-serotonin-convergence). If IDO activity is sustained after the pathogen is controlled, tryptophan diversion would lower peripheral serotonin and NAD⁺ substrate availability — one biochemical route by which post-Lyme fatigue could persist as the single non-normalising domain seen in population data @Nawrocki2025LymeSymptomsCDC. *Certainty: 0.28* (Origin: brainstorm) — IDO activation in Lyme is established and the ME/CFS serotonin/kynurenine machinery is documented, but the specific post-Lyme tryptophan → serotonin → fatigue chain has not been measured directly.
+
+*Falsifiable prediction:* Post-Lyme patients with persistent fatigue will show elevated kynurenine:tryptophan ratios and lower peripheral (platelet/serum) serotonin than recovered post-Lyme controls, with magnitude tracking fatigue severity. Refuted if KYN:TRP and serotonin do not differ by fatigue status, or if any difference is fully explained by acute-phase inflammation rather than sustained IDO activity.
+
+*Consequence:* If it holds, an inexpensive metabolic ratio could identify a treatable neurochemical mechanism behind lingering post-Lyme fatigue — but this currently links two separately-documented mechanisms, not a measured pathway.
+] <spec:tickborne-kynurenine-fatigue>
+
+#speculation(title: [Combinatorial Immune Signatures, Not Single Markers, Behind Cross-Study Inconsistency])[
+The PTLD immunophenotyping study separated patients from controls only with a multi-parameter classifier, not by any single cell frequency @Girgis2025PTLDTcell — echoing the long-standing difficulty of finding one reproducible immune marker in ME/CFS (@hyp:tcell-exhaust-ev-downstream). If the discriminating signal in both conditions is inherently *combinatorial*, single-marker studies would be expected to disagree across cohorts, and reanalysis of existing ME/CFS flow-cytometry datasets with multivariate classifiers could recover a signal that univariate tests miss. *Certainty: 0.35* (Origin: brainstorm) — the combinatorial finding is solid for PTLD, but its transfer to ME/CFS is inference, not measurement.
+
+*Falsifiable prediction:* A multivariate (e.g. elastic-net) classifier applied to published ME/CFS immunophenotyping datasets will separate patients from controls with materially higher AUC than the best single marker in the same data. Refuted if multivariate and univariate performance are equivalent, or if any multivariate signal fails to replicate across independent cohorts.
+
+*Consequence:* If true, this reframes a decade of "inconsistent" ME/CFS immune results as an analysis-method artifact rather than absence of signal, and points to how existing data should be re-mined — a low-cost, high-leverage research direction.
+] <spec:tickborne-combinatorial-immune>
+
+#speculation(title: [Bartonella Endotheliotropism as a Non-Autoantibody Route to Microclots])[
+_Bartonella_ species characteristically infect and dysregulate vascular endothelium, and the tick-borne section above notes their vasculitis-like presentations. Endothelial activation is also central to the microclot and endothelial-dysfunction pathology this book develops for ME/CFS and Long COVID (@hyp:microclot). A chronic endotheliotropic infection could therefore contribute to microclot formation through direct endothelial injury rather than the autoantibody or fibrin(ogen)-conformation routes emphasised elsewhere. *Certainty: 0.22* (Origin: brainstorm) — endotheliotropism is well-established for _Bartonella_; the specific link to measured microclots is an untested extrapolation.
+
+*Falsifiable prediction:* Post-tick-exposure ME/CFS patients with laboratory or PCR evidence of _Bartonella_ will show higher circulating endothelial-activation markers (von Willebrand factor, soluble thrombomodulin) and microclot burden than tick-exposed _Bartonella_-negative patients. Refuted if microclot burden is independent of _Bartonella_ status, or if endothelial markers do not differ.
+
+*Consequence:* If confirmed, it would identify a subset in whom treating a chronic bacterial infection — not just anticoagulating — addresses the vascular pathology; at present it is a mechanistic conjecture, not grounds for antibiotic use.
+] <spec:bartonella-endothelial-microclot>
+
+#limitation(title: [How Much of the PTLDS–ME/CFS Overlap Is Definitional?])[
+The frequently-cited 26-of-29 symptom overlap between PTLDS and ME/CFS is striking, but part of it may be *definitional* rather than mechanistic: both conditions are defined largely by the same core features — fatigue, cognitive dysfunction, unrefreshing sleep, and pain — so a high symptom concordance is partly guaranteed by how the two syndromes are constructed. Shared symptom checklists cannot, on their own, establish shared biology. *Certainty: n/a* (methodological caveat, not a claim).
+
+*Consequence:* Readers should not treat symptom-overlap statistics as evidence of a common cause; the mechanistic bridges (immune signatures, autonomic testing, HLA) — not the symptom counts — are what would establish genuine shared pathophysiology.
+] <lim:ptlds-overlap-definitional>
+
 ==== Clinical Implications for ME/CFS Evaluation
 
 *When to Consider Tick-Borne Infections.*

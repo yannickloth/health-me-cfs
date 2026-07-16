@@ -224,6 +224,8 @@ void main(String[] args) throws IOException, InterruptedException {
         var _sharedFiles = stream
             .filter(f -> f.getFileName().toString().endsWith(".typ"))
             .filter(f -> !isDirectory(f))
+            .filter(f -> !f.getFileName().toString().equals("environments.typ"))
+            .filter(f -> !f.getFileName().toString().equals("tables.typ"))
             .sorted()
             .toList();
 

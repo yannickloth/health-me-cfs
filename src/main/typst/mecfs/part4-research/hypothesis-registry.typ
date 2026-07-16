@@ -171,6 +171,42 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [None. A genetic risk marker, if validated, would inform risk stratification — not treatment. Not usable for individual risk prediction at present.],
   limitation: [In-silico only; binding affinity does not guarantee functional immune outcome; small allele set; no prospective genotype–outcome cohort exists. Origin: literature-derived.],
 )
+#registry-entry(
+  [Infection-Driven Kynurenine Shunt as a Route to Post-Lyme Fatigue],
+  type: "S",
+  certainty: "0.28",
+  evidence: [IDO activation by sustained interferon-γ is established in Lyme disease; ME/CFS peripheral-serotonin depletion and the kynurenine trap are documented separately. The specific post-Lyme tryptophan → serotonin → fatigue chain has not been measured directly.],
+  citations: [@Nawrocki2025LymeSymptomsCDC],
+  mechanism: [Tick-borne infection → sustained IFN-γ → IDO activation → tryptophan diverted down kynurenine pathway → lower peripheral serotonin + reduced NAD⁺ substrate → persistent fatigue as the non-normalising post-Lyme domain.],
+  chapter-ref: [ch07:@spec:tickborne-kynurenine-fatigue],
+  prediction: [Post-Lyme patients with persistent fatigue show elevated kynurenine:tryptophan ratios and lower peripheral serotonin than recovered controls, magnitude tracking fatigue severity. Refuted if KYN:TRP and serotonin do not differ by fatigue status, or if any difference is fully explained by acute-phase inflammation.],
+  treatment: [If validated, IDO-pathway or serotonin-substrate strategies become candidates — research-stage only, no current clinical action.],
+  limitation: [Links two separately-documented mechanisms; never measured as a chain in post-Lyme cohorts. Origin: brainstorm.],
+)
+#registry-entry(
+  [Combinatorial Immune Signatures Behind Cross-Study Inconsistency in ME/CFS],
+  type: "S",
+  certainty: "0.35",
+  evidence: [PTLD immunophenotyping separated patients from controls only with a multi-parameter classifier, not any single marker @Girgis2025PTLDTcell; ME/CFS immune studies are chronically inconsistent at the single-marker level.],
+  citations: [@Girgis2025PTLDTcell],
+  mechanism: [If the discriminating immune signal is inherently combinatorial in both PTLD and ME/CFS, univariate studies would disagree across cohorts while multivariate classifiers on the same data recover a reproducible signal.],
+  chapter-ref: [ch07:@spec:tickborne-combinatorial-immune],
+  prediction: [A multivariate (elastic-net) classifier on published ME/CFS immunophenotyping datasets separates patients from controls at materially higher AUC than the best single marker. Refuted if multivariate ≈ univariate, or if the signal fails to replicate across cohorts.],
+  treatment: [None directly; a diagnostic/analysis-method insight, not a treatment.],
+  limitation: [Combinatorial finding solid for PTLD; transfer to ME/CFS is inference, not measurement. Origin: brainstorm.],
+)
+#registry-entry(
+  [Bartonella Endotheliotropism as a Non-Autoantibody Route to Microclots],
+  type: "S",
+  certainty: "0.22",
+  evidence: [_Bartonella_ characteristically infects and dysregulates vascular endothelium (vasculitis-like presentations); ME/CFS/Long COVID microclot and endothelial-dysfunction pathology is developed elsewhere. Direct link to measured microclots untested.],
+  citations: [@Bush2024Neurobartonelloses],
+  mechanism: [Chronic endotheliotropic _Bartonella_ infection → direct endothelial injury/activation → microclot formation via a route distinct from autoantibody or fibrin(ogen)-conformation mechanisms.],
+  chapter-ref: [ch07:@spec:bartonella-endothelial-microclot],
+  prediction: [Post-tick-exposure ME/CFS patients with _Bartonella_ evidence show higher endothelial-activation markers (vWF, soluble thrombomodulin) and microclot burden than tick-exposed _Bartonella_-negative patients. Refuted if microclot burden is independent of _Bartonella_ status.],
+  treatment: [If confirmed, identifies a subset in whom treating chronic infection addresses vascular pathology — not current grounds for antibiotics.],
+  limitation: [Endotheliotropism established; link to measured microclots is untested extrapolation. Origin: brainstorm.],
+)
 === Neuroimmune POTS/ME/CFS/Long COVID (Blitshteyn 2026)
 // Added 2026-06-08
 
