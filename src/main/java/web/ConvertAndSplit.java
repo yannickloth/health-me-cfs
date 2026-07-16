@@ -90,7 +90,8 @@ void main(String[] args) throws IOException {
     }
 
     // Citations: @key but NOT internal cross-ref prefixes
-    src = src.replaceAll("@(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open|clin|syn|pr)(:|_|-)([a-zA-Z0-9_-]+)", "[#$1-$3](#$1-$3)");
+    // Convert Typst @sec:label to Quarto native @sec-label (cross-book resolution)
+    src = src.replaceAll("@(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open|clin|syn|pr)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
     src = src.replaceAll("@([A-Z][A-Za-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
     src = src.replaceAll("@([a-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
 
@@ -268,6 +269,7 @@ void main(String[] args) throws IOException {
     String secLabel = "";
     String chapTitle = "";
     String chapLabel = "";
+    List<String> preambleLabels = new ArrayList<>();
     boolean inPreamble = true;
 
     for (var rawLine : lines) {
@@ -296,8 +298,10 @@ void main(String[] args) throws IOException {
             continue;
         }
         if (inPreamble) {
-            if (!stripped.startsWith("<ch:")
-                    && !stripped.matches("^<[a-z]+:[^>]+>$")) preamble.add(line);
+            if (stripped.matches("^<[a-z]+:[^>]+>$") && !stripped.matches("^<(sec|subsec|subsubsec):[^>]+>$"))
+                preambleLabels.add(stripped);
+            else
+                preamble.add(line);
         } else {
             if (stripped.matches("^<(sec|subsec|subsubsec):[^>]+>$") && secLabel.isEmpty()) {
                 secLabel = stripped;
@@ -370,6 +374,13 @@ void main(String[] args) throws IOException {
             } else {
                 spanAnchors.add("<span id=\"" + converted + "\"></span>");
             }
+        }
+        for (var rawLabel : preambleLabels) {
+            var converted = rawLabel
+                .replaceFirst("^<", "")
+                .replaceFirst(">$", "")
+                .replaceFirst(":", "-");
+            spanAnchors.add("<span id=\"" + converted + "\"></span>");
         }
         for (var a : spanAnchors) sb.append(a).append('\n');
         for (var l : headingLabels) headingLine += " " + l;
@@ -473,8 +484,8 @@ void main(String[] args) throws IOException {
                 }
             }
 
-            raw = raw.replaceAll("(?<!<)\\b(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "[#$1-$2](#$1-$2)$3");
-            raw = raw.replaceAll("(?<!<)\\b(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)$", "[#$1-$2](#$1-$2)");
+            raw = raw.replaceAll("(?<!<)\\b(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)([^}\\w-]|$)", "@$1-$2$3");
+            raw = raw.replaceAll("(?<!<)\\b(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)$", "@$1-$2");
 
             raw = raw.replaceAll("<sec:", "{#sec-");
             raw = raw.replaceAll("<subsec:", "{#subsec-");
