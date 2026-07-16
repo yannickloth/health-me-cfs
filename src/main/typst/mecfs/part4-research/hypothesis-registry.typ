@@ -231,6 +231,18 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [None — epistemic framing; treatment premature pending rejection of null.],
   limitation: [Open question, not a positive claim. Origin: brainstorm critical categories 10–12.],
 )
+#registry-entry(
+  [Babesia–ME/CFS Research Priorities],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Five research proposals drawn from brainstorm: (1) three-arm serosurvey with 2-day CPET, (2) Hp/LDH ratio as screening triage, (3) ODE model of parasitemia→haptoglobin→PEM, (4) RBC deformability as functional biomarker, (5) diagnostic equity program. Each anchored in the Babesia evidence base from this cycle.],
+  citations: [@Breitschwerdt2025BabesiaCFS @MacDonald1996CFSBabesia @Moezzi2025HaptoglobinME @Luo2025Nrf2HO1Fibro],
+  mechanism: [Aggregate research proposals, not a mechanistic hypothesis. Covers serosurvey design (n at least 200 per arm, IFA+PCR+hemolytic panel+CPET), Hp/LDH screening (threshold ratio below 0.5, sensitivity/specificity validation pending), ODE modeling (parasitemia → haptoglobin depletion → exercise threshold), RBC deformability (ektacytometry, elongation index at 3 Pa), and diagnostic equity (subsidized PCR in endemic areas).],
+  chapter-ref: [ch07:@oq:babesia-research-priorities],
+  prediction: [Research proposals, not predictions — the proposals themselves are the output. The predicted finding from the serosurvey: Babesia detection rate higher in ME/CFS than matched controls, seropositive predicts greater day-2 VO2max decline. Hp/LDH: sensitivity above 80% for Babesia PCR at ratio below 0.5, reducing PCR testing by roughly 4-fold. ODE: predicts parasitemia at 0.3% infected RBCs depletes haptoglobin below 50 mg/dL within 6–8 weeks.],
+  treatment: [None — none of the proposed tests or models should be ordered outside research protocols until validated.],
+  limitation: [Aggregate proposals, each with its own limitations (small-n prediction for serosurvey, unvalidated Hp/LDH thresholds, ODE calibration against scarce parasitemia kinetic data, no RBC deformability data in ME/CFS, diagnostic equity contingent on funding). Origin: brainstorm.],
+)
 === Neuroimmune POTS/ME/CFS/Long COVID (Blitshteyn 2026)
 // Added 2026-06-08
 
