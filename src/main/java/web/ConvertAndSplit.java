@@ -296,7 +296,7 @@ void main(String[] args) throws IOException {
             continue;
         }
         if (inPreamble) {
-            if (!stripped.isEmpty() && !stripped.startsWith("<ch:")
+            if (!stripped.startsWith("<ch:")
                     && !stripped.matches("^<[a-z]+:[^>]+>$")) preamble.add(line);
         } else {
             if (stripped.matches("^<(sec|subsec|subsubsec):[^>]+>$") && secLabel.isEmpty()) {
