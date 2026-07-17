@@ -54,6 +54,8 @@ The goals are twofold. First, *completeness*: ensuring the paper does not inadve
 
 - *Glycolytic shift and lactate accumulation.* Excess reliance on anaerobic glycolysis produces lactate at workloads where healthy individuals sustain OXPHOS; brain MRS shows elevated ventricular lactate. Consistent with PDK upregulation and reduced OXPHOS capacity.
 
+- *Pathogen-driven glycolytic reprogramming (subset).* Beyond the host's intrinsic glycolytic shift, the pathogens that trigger post-infectious ME/CFS may impose one: neurotropic viruses reprogram glia toward glycolysis @Rodrigues2025ViralReprogrammingGlialMetabolism, and the non-viral tick-borne pathogens do so too — _Borrelia_ via LDHA induction and trained-immunity macrophage memory with mitochondrial downregulation @Barriales2021BorreliaMacrophage, _Bartonella_ via HIF-1$alpha$ stabilisation and host ATP depletion @Kempf2005BartonellaHIF1. In a tick-borne-triggered subset this may compound the host's own glycolytic deficit (Chapter @ch:immune-dysfunction, @hyp:tickborne-glycolytic-reprogramming). Mechanistic parallel only; not yet measured in ME/CFS.
+
 - *NAD⁺ metabolism dysregulation.* Elevated AMP and reduced ATP/ADP ratio in PBMCs indicate impaired ATP generation; kynurenine pathway disruption (Family 11) reduces NAD⁺ biosynthesis @naviaux2016metabolic.
 
 - *TCA cycle constraint.* Metabolomics studies show reduced TCA intermediates, consistent with impaired cycle flux secondary to PDH inhibition and substrate limitation.
