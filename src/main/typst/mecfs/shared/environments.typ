@@ -564,11 +564,8 @@
 #let finding(num, claim: [], explanation: none, certainty: [], dntu: none, action: none, level: []) = {
   let label(field-name) = text(weight: "bold", fill: luma(120), size: 0.82em)[#field-name]
 
-  block(
-    inset: 0pt,
-    above: 0.8em,
-    below: 0.8em,
-  )[
+  v(1em)
+  block(inset: 0pt)[
     #text(weight: "bold")[Finding #num — #claim]
 
     #explanation
