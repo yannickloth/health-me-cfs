@@ -35,8 +35,21 @@ void main(String[] args) throws IOException, InterruptedException {
     int totalFiles = 0;
     int totalChapters = 0;
 
+    // Chapter discovery follows the canonical include list in loth2026-mecfs.typ,
+    // NOT a directory glob. This keeps the web build in lock-step with the PDF build:
+    // standalone chapter files (e.g. ch25-supplements-nutraceuticals.typ) are picked up,
+    // and directories that are sub-content of a chapter (e.g. ch27-brain-clearance-drugs/)
+    // are NOT built as top-level chapters. Chapter labels therefore resolve correctly.
+    var canonical = readString(srcRoot.resolve("loth2026-mecfs.typ"));
+    var includePat = Pattern.compile("#include\\s+\"((part[1-5][^\"/]*)/(ch[^\"]+\\.typ))\"");
+    // part-dir → ordered list of chapter include paths (relative to srcRoot)
+    var chaptersByPart = new LinkedHashMap<String, List<String>>();
+    var im = includePat.matcher(canonical);
+    while (im.find()) {
+        chaptersByPart.computeIfAbsent(im.group(2), k -> new ArrayList<>()).add(im.group(1));
+    }
+
     for (var m : mappings) {
-        var srcDir = srcRoot.resolve(m.srcDir());
         var webDir = webRoot.resolve(m.webDir());
 
         System.out.println("=== " + m.srcDir() + " ===");
@@ -51,96 +64,54 @@ void main(String[] args) throws IOException, InterruptedException {
             }
         }
 
-        // Collect chapter subdirectories
-        try (var stream = list(srcDir)) {
-            var chapDirs = stream
-                .filter(f -> isDirectory(f) && f.getFileName().toString().startsWith("ch"))
-                .filter(f -> !f.getFileName().toString().startsWith("."))
-                .sorted()
-                .toList();
+        var chapterIncludes = chaptersByPart.getOrDefault(m.srcDir(), List.of());
+        for (var relInclude : chapterIncludes) {
+            var aggFile = srcRoot.resolve(relInclude);
+            if (!exists(aggFile)) {
+                System.out.println("  SKIP " + relInclude + " (not found)");
+                continue;
+            }
+            // chName = aggregator filename stem — same for nested (ch18/ch18.typ) and
+            // standalone (ch25-supplements-nutraceuticals.typ) forms.
+            var chName = aggFile.getFileName().toString().replaceFirst("\\.typ$", "");
+            var outDir = webDir.resolve(chName);
 
-            for (var chDir : chapDirs) {
-                var chName = chDir.getFileName().toString();
-                var outDir = webDir.resolve(chName);
+            // Resolve #include directives: inline included files into a temp aggregator.
+            var resolved = resolveIncludes(aggFile, srcRoot);
+            var resolvedFile = createTempFile("buildweb-", ".typ");
+            writeString(resolvedFile, resolved);
+            resolvedFile.toFile().deleteOnExit();
 
-                // Find the aggregator .typ file (matches directory basename)
-                Path aggFile = null;
-                var preambleFiles = new ArrayList<Path>();
-                try (var chStream = list(chDir)) {
-                    var typFiles = chStream
-                        .filter(f -> f.getFileName().toString().endsWith(".typ"))
-                        .filter(f -> !isDirectory(f))
-                        .sorted()
-                        .toList();
-                    for (var tf : typFiles) {
-                        var fn = tf.getFileName().toString();
-                        if (fn.equals(chName + ".typ")) { aggFile = tf; }
-                        else if (fn.endsWith("-preamble.typ") || fn.equals("intro-preamble.typ")) { preambleFiles.add(tf); }
-                    }
+            System.out.println("  " + chName + " → " + m.webDir() + "/" + chName);
+            totalChapters++;
+
+            createDirectories(outDir);
+
+            var cmd = new String[]{
+                "java", "--source", "25",
+                casPath.toString(),
+                resolvedFile.toAbsolutePath().toString(),
+                outDir.toAbsolutePath().toString()
+            };
+            var proc = new ProcessBuilder(cmd)
+                .directory(webRoot.toFile())
+                .redirectErrorStream(true)
+                .start();
+
+            var output = new String(proc.getInputStream().readAllBytes());
+            int exitCode = proc.waitFor();
+
+            // Count output files
+            try (var outStream = list(outDir)) {
+                var files = outStream.filter(f -> f.toString().endsWith(".qmd")).toList();
+                totalFiles += files.size();
+                if (!output.contains("Done")) {
+                    System.out.println("    " + files.size() + " sections");
                 }
-
-                // Multi-fragment chapters: no single aggregator, concat all .typ + preambles
-                if (aggFile == null) {
-                    try (var chStream = list(chDir)) {
-                        var typFiles = chStream
-                            .filter(f -> f.getFileName().toString().endsWith(".typ"))
-                            .filter(f -> !isDirectory(f))
-                            .sorted()
-                            .toList();
-                        if (typFiles.isEmpty()) {
-                            System.out.println("  SKIP " + chName + " (no .typ files)");
-                            continue;
-                        }
-                        // Concat preambles first, then all .typ files into a temp file
-                        var tmpContent = new StringBuilder();
-                        for (var pf : preambleFiles) { tmpContent.append(readString(pf)).append('\n'); }
-                        for (var tf : typFiles) { tmpContent.append(readString(tf)).append('\n'); }
-                        aggFile = createTempFile("buildweb-", ".typ");
-                        writeString(aggFile, tmpContent.toString());
-                        aggFile.toFile().deleteOnExit();
-                    }
-                }
-
-                // Resolve #include directives: read aggregator, inline included files, write to temp
-                {
-                    var resolved = resolveIncludes(aggFile, srcRoot);
-                    var resolvedFile = createTempFile("buildweb-", ".typ");
-                    writeString(resolvedFile, resolved);
-                    resolvedFile.toFile().deleteOnExit();
-                    aggFile = resolvedFile;
-                }
-
-                System.out.println("  " + chName + " → " + m.webDir() + "/" + chName);
-                totalChapters++;
-
-                createDirectories(outDir);
-
-                var cmd = new String[]{
-                    "java", "--source", "25",
-                    casPath.toString(),
-                    aggFile.toAbsolutePath().toString(),
-                    outDir.toAbsolutePath().toString()
-                };
-                var proc = new ProcessBuilder(cmd)
-                    .directory(webRoot.toFile())
-                    .redirectErrorStream(true)
-                    .start();
-
-                var output = new String(proc.getInputStream().readAllBytes());
-                int exitCode = proc.waitFor();
-
-                // Count output files
-                try (var outStream = list(outDir)) {
-                    var files = outStream.filter(f -> f.toString().endsWith(".qmd")).toList();
-                    totalFiles += files.size();
-                    if (!output.contains("Done")) {
-                        System.out.println("    " + files.size() + " sections");
-                    }
-                }
-                if (exitCode != 0) {
-                    System.out.println("    ERROR (exit " + exitCode + "):");
-                    output.lines().forEach(l -> System.out.println("    " + l));
-                }
+            }
+            if (exitCode != 0) {
+                System.out.println("    ERROR (exit " + exitCode + "):");
+                output.lines().forEach(l -> System.out.println("    " + l));
             }
         }
         System.out.println();
