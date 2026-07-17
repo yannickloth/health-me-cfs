@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding, findings-group
+#import "../../../../shared/environments.typ": finding
 
 === Low-Dose Aripiprazole (LDA)
 
@@ -6,14 +6,13 @@ LDA (1–2 mg/day) is a partial dopamine agonist (only 25–30% of dopamine's in
 
 ==== ✓ If LDA works
 
-#findings-group[
+
 #finding(1, claim: [Dopamine signaling was insufficient.], explanation: [LDA stimulated dopamine receptors → cognition improved → dopamine was below what the brain needed. Three possible causes, distinguished by combining with other medication responses:
 - *Cause A — Neuroinflammation-driven BH4 depletion:* Inflammatory cytokines (IFN-γ, TNF-α) activate IDO, which consumes BH4 — the essential cofactor for tyrosine hydroxylase. Tyrosine (not tryptophan) is the dopamine precursor; the link from IDO to dopamine is through BH4 consumption. → *If LDA + LDN both work, Cause A is most likely.*
 - *Cause B — Metabolic constraint on neurotransmitter packaging:* The ATP-dependent proton pump that loads dopamine into vesicles fails when ATP is scarce. Aregawi et al. (2026) showed the catecholamine deficit is selective for norepinephrine (the ATP-dependent step), implicating packaging failure @Aregawi2026Noradrenergic. → *If LDA + mitochondrial supplements both work, Cause B is most likely.*
 - *Cause C — HPA axis hypocortisolism:* Cortisol normally upregulates tyrosine hydroxylase. Blunted cortisol in ME/CFS reduces enzyme activation. → *If LDA + fludrocortisone both work, Cause C may contribute.*], certainty: [Low to Medium — CSF catecholamine reduction is documented @Walitt2024NIH, stimulant surveys 77.1% brain fog improvement @Vernon2025PNAS, but LDA specifically has zero controlled ME/CFS trials.], dntu: [whether the deficit is primary (ADHD) or secondary (acquired); whether benefit is dopaminergic, serotonergic, or non-specific (mood, sleep, anxiolytic).], action: [cognitive/dopaminergic support is indicated, but the upstream driver continues unchecked.], level: [Symptom management — LDA stimulates receptors without restoring dopamine production or removing the inflammatory signals depleting BH4.])
 
 #finding(2, claim: [Serotonin modulation may also contribute.], explanation: [LDA is a 5-HT1A partial agonist.], certainty: [Low. Cannot distinguish dopamine from serotonin-mediated benefit.], level: [Symptom management.])
-]
 
 ==== What a positive response does NOT reveal
 

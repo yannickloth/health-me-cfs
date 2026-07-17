@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding, findings-group
+#import "../../../../shared/environments.typ": finding
 
 === Fludrocortisone
 
@@ -6,9 +6,8 @@ Mineralocorticoid that expands plasma volume via sodium retention. It probes hyp
 
 ==== ✓ If fludrocortisone works
 
-#findings-group[
+
 #finding(1, claim: [Hypovolemia was present], explanation: [Improvement means low plasma volume was contributing to orthostatic intolerance. Volume expansion restored adequate preload and cardiac filling.], certainty: [Medium for POTS — plasma volume expansion is a well-established effect.], dntu: [why plasma volume was low.], action: [Confirms volume expansion as a target; supports continued sodium/volume strategies with potassium monitoring.], level: [Partial root cause — corrects the volume deficit without addressing why volume regulation is impaired.])
-]
 
 ==== What a positive response does NOT reveal
 

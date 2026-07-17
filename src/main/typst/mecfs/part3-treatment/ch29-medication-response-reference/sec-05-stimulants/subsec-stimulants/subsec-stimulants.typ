@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding, findings-group
+#import "../../../../shared/environments.typ": finding
 
 
 === CNS Stimulants and Wake-Promoting Agents
@@ -7,7 +7,7 @@ All stimulants probe catecholamine (dopamine/norepinephrine) deficiency. Their d
 
 ==== ✓ If stimulants work
 
-#findings-group[
+
 #finding(1, claim: [Catecholamine signaling was insufficient.], explanation: [Drug increased dopamine/norepinephrine → cognition improved → signaling was inadequate.], certainty: [Medium — CSF catecholamine reduction documented @Walitt2024NIH; stimulant surveys 77.1% brain fog improvement @Vernon2025PNAS; methylphenidate RCT 17% response @Blockmans2006methylphenidate; solriamfetol RCT significant fatigue improvement (p=0.039) @Young2025solriamfetol. But effect sizes modest and survey data uncontrolled.], dntu: [why catecholamines are deficient; whether benefit is sustainable (masking fatigue enables overexertion — PNAS: +77.1% brain fog but −1.5% PEM).], action: [catecholamine involvement confirmed; combine with LDN (neuroinflammation) or mitochondrial supplements (metabolic constraint) to identify upstream cause.], level: [Symptom management — stimulants compensate for deficient signaling without restoring production or removing inflammatory precursor depletion.])
 
 #finding(2, claim: [Dopamine deficit type (methylphenidate/solriamfetol vs. amphetamines).], explanation: [Reuptake blocker works but amphetamines cause severe crashes → low-production deficiency (stores depleted, production insufficient to replenish).], certainty: [Low to Medium.], level: [Symptom management.])
@@ -15,7 +15,6 @@ All stimulants probe catecholamine (dopamine/norepinephrine) deficiency. Their d
 #finding(3, claim: [Brain energy metabolism integrity (modafinil vs. methylphenidate).], explanation: [Modafinil has brain ATP enhancement and M1→M2 microglial shift @Minzenberg2008modafinil. Methylphenidate increases REE +7% and chronically decreases hippocampal ATP @Graveling2023stimulantmitochondria. Modafinil tolerated + methylphenidate worsens energy → brain can benefit from ATP enhancement but cannot tolerate +7% metabolic cost.], certainty: [Low (modafinil's only ME/CFS RCT was negative, n=14 @Randall2005modafinil).], level: [Symptom management — modafinil blurs toward partial root cause (brain-level, speculative).])
 
 #finding(4, claim: [Histaminergic arousal system intact (pitolisant).], explanation: [Pitolisant blocks H3 autoreceptors, increasing endogenous histamine. Works without sympathetic activation → histaminergic pathway functional.], certainty: [Low — no ME/CFS data.], level: [Partial root cause (speculative) — anti-neuroinflammatory M1→M2 microglial shift.])
-]
 
 ==== What a positive response does NOT reveal
 

@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding, findings-group
+#import "../../../../shared/environments.typ": finding
 
 === Fluvoxamine
 
@@ -6,9 +6,8 @@ At low doses, fluvoxamine is a sigma-1 receptor (S1R) agonist. S1R is an endopla
 
 ==== ✓ If fluvoxamine works
 
-#findings-group[
+
 #finding(1, claim: [S1R agonism reduces ER-mitochondrial calcium dysregulation or ISR activity], explanation: [If benefit occurs at doses below the antidepressant range (25–50 mg), the mechanism is S1R agonism rather than serotonin reuptake inhibition — implicating ER stress or disrupted ER-mitochondrial calcium transfer.], certainty: [0.40 — case reports only.], dntu: [which arm of the ER stress response is affected.], action: [Supports ER-mitochondrial calcium/ISR involvement; low dose distinguishes S1R from SSRI action.], level: [Partial root cause.])
-]
 
 ==== What a positive response does NOT reveal
 

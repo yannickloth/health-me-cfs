@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding, findings-group
+#import "../../../../shared/environments.typ": finding
 
 === Low-Dose Naltrexone (LDN)
 
@@ -6,7 +6,7 @@ LDN blocks TLR4 receptors on microglia (reducing neuroinflammation), restores TR
 
 ==== ✓ If LDN works
 
-#findings-group[
+
 #finding(1, claim: [Neuroinflammation was present.], explanation: [LDN blocked TLR4 → microglia calmed → inflammatory cytokines (IL-1β, TNF-α) decreased → symptoms improved.], certainty: [Low to Medium — LDN's TLR4 antagonism is established in vitro @Younger2013; neuroinflammation is documented in ME/CFS (@sec:neuroinflammation). But no direct evidence that clinical benefit is TLR4-mediated.], dntu: [what is causing the neuroinflammation — autoantibodies (@sec:root-gpcr), viral components, mitochondrial debris, or vagal stress signals.], action: [anti-neuroinflammatory strategies become relevant.], level: [Partial root cause — LDN calms microglia without removing the trigger.])
 
 #finding(2, claim: [TRPM3 ion channel dysfunction was present.], explanation: [LDN restores TRPM3-mediated calcium flux in NK cells in vitro @Cabanas2018trpm3. TRPM3 is essential for immune killing, neurotransmitter release, and vascular tone. TRPM3 dysfunction is the most replicated ion channel finding in ME/CFS @Cabanas2021.], certainty: [Low to Medium — the central link (LDN restores TRPM3 in living humans, producing clinical benefit) has never been demonstrated.], dntu: [whether TRPM3 dysfunction is primary or secondary to GPCR autoantibody-driven PIP2 depletion (@hyp:ch14h-pip2-convergence).], action: [TRPM3-targeting strategies (pregnenolone sulfate, PIP2 maintenance) become relevant.], level: [Potential root cause — TRPM3 is a trigger-capable root cause (@sec:root-trpm3); LDN partially restores its function.])
@@ -14,7 +14,6 @@ LDN blocks TLR4 receptors on microglia (reducing neuroinflammation), restores TR
 #finding(3, claim: [Orexin suppression may have been relieved.], explanation: [LDN reduces hypothalamic microglial activation → less PGE2/TNF-α suppressing orexin neurons → increased orexin → improved wakefulness and cognition. Orexin falls into an intermediate "gray zone" in ME/CFS CSF (@hyp:ch15-orexin-suppression).], certainty: [Low — no study has measured orexin before/after LDN in ME/CFS.], level: [Symptom management.])
 
 #finding(4, claim: [Endorphin-mediated pain relief and mood improvement.], explanation: [Brief overnight opioid blockade triggers compensatory endorphin upregulation.], certainty: [Medium for pain, Low for other symptoms.], level: [Symptom management.])
-]
 
 ==== What a positive response does NOT reveal
 

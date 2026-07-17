@@ -555,7 +555,7 @@
 }
 
 // --- Finding (n, claim, explanation, certainty, [dntu], [action], level) ------
-// Structured differential diagnostic inference within a findings-group.
+// Structured differential diagnostic inference block.
 // Renders Finding n — claim as bold heading, explanation as body,
 // then a 2-column grid (label | value) for the structured fields.
 //
@@ -587,22 +587,6 @@
       cells.push(level)
       grid(columns: (6em, 1fr), gutter: 4pt, ..cells)
     }
-  ]
-}
-
-// --- Findings Group (container for multiple findings) ------------------------
-// Wraps a list of findings in a styled container with left bar and light bg.
-// Use inside "✓ If X works" sections to visually group the differential
-// diagnostic findings. The heading (==== ✓ If X works) stays outside.
-//
-// body: the content containing #finding(...) calls.
-#let findings-group(body) = {
-  block(
-    inset: (left: 0.8em, right: 0.6em, top: 0.5em, bottom: 0.3em),
-    fill: color.works-bg,
-    stroke: (left: 3pt + color.works-frame),
-  )[
-    #body
   ]
 }
 

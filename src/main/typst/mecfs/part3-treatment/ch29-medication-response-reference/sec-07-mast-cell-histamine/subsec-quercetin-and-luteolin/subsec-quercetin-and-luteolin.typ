@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding, findings-group
+#import "../../../../shared/environments.typ": finding
 
 === Quercetin and Luteolin
 
@@ -6,13 +6,12 @@ Quercetin stabilizes mast cells, inhibits PI3K (restoring CD80 on antigen-presen
 
 ==== ✓ If quercetin/luteolin work
 
-#findings-group[
+
 #finding(1, claim: [Mast cell stabilization confirmed], explanation: [Improvement means mast cell activation was a significant driver; preventing degranulation helped.], certainty: [Low — no ME/CFS controlled trials.], dntu: [whether the mast cell involvement is peripheral, central, or both.], action: [Supports mast cell stabilization as a target.], level: [Partial root cause.])
 
 #finding(2, claim: [CNS mast cell/microglial involvement (luteolin-specific)], explanation: [If luteolin adds benefit beyond quercetin, its blood-brain-barrier penetration implicates CNS mast cells or microglia as a distinct compartment of involvement.], certainty: [Low — inferential from differential response.], dntu: [whether the CNS component is mast cell or microglial.], action: [Points toward central neuroinflammation as a contributor.], level: [Partial root cause.])
 
 #finding(3, claim: [PI3K inhibition restoring CD80 (quercetin-specific)], explanation: [If systemic inflammation improves beyond mast cell symptoms, quercetin's PI3K inhibition restoring CD80 on antigen-presenting cells suggests an M2-skewed immune dysfunction shifting toward M1 — impaired costimulation was contributing.], certainty: [Low — mechanistic inference without ME/CFS confirmation.], dntu: [the extent of the immune-polarization shift.], action: [Points toward impaired antigen-presenting-cell costimulation as a contributor.], level: [Partial root cause.])
-]
 
 ==== What a positive response does NOT reveal
 

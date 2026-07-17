@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding, findings-group
+#import "../../../../shared/environments.typ": finding
 
 === Cimetidine
 
@@ -6,13 +6,12 @@ Cimetidine uniquely blocks H2 receptors on CD8+ suppressor T cells, removing an 
 
 ==== ✓ If cimetidine works
 
-#findings-group[
+
 #finding(1, claim: [T-cell-mediated immune dysfunction was present.], explanation: [Cimetidine blocked H2 receptors on suppressor T cells → suppressor signal removed → T-cell function enhanced → immune surveillance improved → symptoms improved.], certainty: [Low to Medium — H2 receptor on CD8+ suppressor T cells is well-characterized in immunology; cimetidine's T-cell effect is documented in oncology. But no ME/CFS-specific study measured T-cell function before/after.], dntu: [why T-cells were suppressed — adaptive immune regulation, viral immune evasion, or primary immunodeficiency.], level: [Partial root cause — corrects T-cell dysfunction amplifier.])
 
 #finding(2, claim: [Viral reactivation was likely contributing (VIM phenotype).], explanation: [Enhanced T-cell function improved immune control of latent herpesviruses. CYP450 inhibition may potentiate co-administered antivirals.], certainty: [Low — cimetidine has no direct antiviral activity; inference is indirect (immune enhancement → viral control).], level: [Partial root cause.])
 
 #finding(3, claim: [Famotidine non-response with cimetidine response confirms T-cell mechanism.], explanation: [Famotidine blocked H2 (acid suppression only) → no benefit. Cimetidine blocked H2 + enhanced T-cells → benefit. The differential isolates cimetidine's unique immunomodulatory property.], certainty: [Medium-High — pharmacological fact: famotidine lacks immunomodulatory and CYP450 effects.], level: [Classificatory — confirms VIM phenotype.])
-]
 
 ==== What a positive response does NOT reveal
 

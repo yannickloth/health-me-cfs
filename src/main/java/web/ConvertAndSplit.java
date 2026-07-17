@@ -1871,8 +1871,9 @@ String cleanCellContent(String cell) {
 // Runs BEFORE any Typst preprocessing so brackets/bib-refs inside field values
 // are intact.
 String convertFindingsGroup(String s) {
-    // 1. Convert #findings-group[...] → callout wrapper
-    s = s.replaceAll("#findings-group\\s*\\[", "\n\n::: {.callout-note .env-findings-group}\n### Findings\n\n");
+    // findings-group wrapper removed from Typst sources.
+    // Just convert bare #finding(...) → structured HTML.
+    // Find #finding( n, ... ) calls and convert them inline.
 
     // 2. Convert #finding(n, ...) → structured HTML. Findings can span multiple
     //    lines; scan character-by-character for #finding(...) and track depth.

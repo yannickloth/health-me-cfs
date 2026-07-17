@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding, findings-group
+#import "../../../../shared/environments.typ": finding
 
 === Pyridostigmine (Mestinon)
 
@@ -6,13 +6,12 @@ Pyridostigmine inhibits acetylcholinesterase, prolonging acetylcholine at autono
 
 ==== ✓ If pyridostigmine works
 
-#findings-group[
+
 #finding(1, claim: [Preload failure was contributing.], explanation: [Pyridostigmine increased acetylcholine at autonomic ganglia → improved venous return → increased cardiac filling → increased oxygen delivery → improved exercise capacity. The Joseph 2022 RCT demonstrated this objectively: +13.3 mL/min peak VO₂ with pyridostigmine vs. −40.2 mL/min worsening with placebo.], certainty: [Medium — double-blind RCT with invasive hemodynamic measurements.], dntu: [whether preload failure is from autoantibody-mediated vascular dysfunction, hypovolemia, or connective tissue laxity.], action: [volume expansion (fludrocortisone, sodium) and compression become particularly relevant.], level: [Partial root cause — pyridostigmine compensates for impaired ganglionic transmission without addressing what caused it.])
 
 #finding(2, claim: [Cholinergic anti-inflammatory pathway was engaged.], explanation: [Pyridostigmine increases acetylcholine, activating α7 nicotinic receptors on macrophages and T cells — vagally-mediated immune modulation. PISCO COVID-19 RCT (n=188): pyridostigmine halved 28-day mortality (HR 0.47) with no change in systemic cytokines @FragosoSaavedra2022pisco — suggesting tissue-level immune modulation.], certainty: [Low — evidence from COVID-19, not ME/CFS.], level: [Partial root cause.])
 
 #finding(3, claim: [Autonomic nerve function was partially preserved.], explanation: [Pyridostigmine potentiates existing acetylcholine — it cannot create a signal where nerves have degenerated. Okamoto et al. (2025) showed preserved baroreflex function predicts response @Okamoto2025pyridostigmine.], certainty: [Medium.], action: [if pyridostigmine works, autonomic nerves are functional — treating the upstream cause could restore normal autonomic tone, potentially eliminating the need for ongoing pyridostigmine.], level: [Symptom management.])
-]
 
 ==== What a positive response does NOT reveal
 

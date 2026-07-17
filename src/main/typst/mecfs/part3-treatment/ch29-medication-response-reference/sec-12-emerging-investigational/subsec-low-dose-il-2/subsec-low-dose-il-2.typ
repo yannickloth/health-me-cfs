@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding, findings-group
+#import "../../../../shared/environments.typ": finding
 
 === Low-Dose IL-2
 
@@ -6,11 +6,10 @@ Low-dose interleukin-2 selectively expands regulatory T cells (Tregs), the immun
 
 ==== ✓ If low-dose IL-2 works
 
-#findings-group[
+
 #finding(1, claim: [Treg deficiency was permissive (if Tregs expand AND autoantibodies fall)], explanation: [If Tregs expand and autoantibody titers fall, an inadequate regulatory-T-cell population had been permitting autoantibody production; restoring it suppressed that production.], certainty: [Low.], dntu: [why Tregs were deficient in the first place.], action: [Supports Treg deficiency as a target; requires Treg frequency measurement to confirm.], level: [Partial root cause.])
 
 #finding(2, claim: [Treg-independent autoantibody production (if Tregs expand but autoantibodies do not fall)], explanation: [If Tregs expand but autoantibodies do not fall, autoantibody production is Treg-independent — driven by autonomous B cells or plasma cells that no longer require permissive conditions.], certainty: [Low — inferential from the dissociation.], dntu: [which B-cell/plasma-cell population is autonomous.], action: [Redirects toward B-cell-directed therapy rather than Treg support.], level: [Partial root cause (diagnostic redirection).])
-]
 
 ==== What a positive response does NOT reveal
 

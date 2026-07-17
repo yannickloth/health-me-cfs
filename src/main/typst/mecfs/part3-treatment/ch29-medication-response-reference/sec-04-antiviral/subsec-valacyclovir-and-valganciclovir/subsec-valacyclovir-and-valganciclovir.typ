@@ -1,4 +1,4 @@
-#import "../../../../shared/environments.typ": finding, findings-group
+#import "../../../../shared/environments.typ": finding
 
 === Valacyclovir and Valganciclovir
 
@@ -6,13 +6,12 @@ Valacyclovir inhibits EBV/VZV/HSV DNA polymerase. Valganciclovir has broader cov
 
 ==== ✓ If antivirals work
 
-#findings-group[
+
 #finding(1, claim: [Active herpesvirus replication was contributing.], explanation: [Drug blocked viral DNA polymerase → viral replication suppressed → symptoms improved over months → viral activity was driving symptoms.], certainty: [Medium for valacyclovir (Lerner 36-month placebo-controlled trial, ~30–40% response @Lerner2007valacyclovir). Medium for valganciclovir (Montoya EVOLVE RCT, n=30, 50–60% response @Montoya2013valganciclovir). Both single-group, not independently replicated.], dntu: [whether the virus is root cause or secondary reactivation enabled by immune dysfunction. Relapse on discontinuation suggests suppression, not cure.], level: [Partial root cause — antivirals suppress the viral amplifier without correcting the immune deficit that permitted reactivation.])
 
 #finding(2, claim: [HHV-6 or CMV was specifically involved.], explanation: [Valacyclovir's limited spectrum failed; valganciclovir's broader coverage succeeded.], certainty: [Medium — differential spectrum is established pharmacology.], level: [Partial root cause.])
 
 #finding(3, claim: [Immune function was sufficient to sustain antiviral benefit.], explanation: [If improvement persists after discontinuation, the immune system controls residual virus once the replication burden was reduced.], certainty: [Low — anecdotally documented, not systematically quantified.], level: none)
-]
 
 ==== What a positive response does NOT reveal
 
