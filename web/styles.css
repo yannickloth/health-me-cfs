@@ -214,7 +214,7 @@
   /* Findings-group: differential diagnostic inference container (ch29).
      Each .env-finding is a bordered cards inside the callout. */
   .env-findings-group .callout-title { color: #2E7D32; }
-  .env-finding { margin-block: 1em; }
+  .env-findings-group .callout-body .env-finding { margin: 0 0 1.5em 0 !important; }
   .env-finding-heading { font-weight: 600; margin-bottom: 0.35em; }
   .env-finding-explanation { margin-bottom: 0.5em; }
   .env-finding-fields {
