@@ -2424,7 +2424,7 @@ NAC probes oxidative stress, glutamate excitotoxicity, and the HSAT2 retroelemen
 
 ==== If NAC works: reduced brain fog, improved PEM tolerance, reduced flu-like symptoms
 
-====== Finding 1 — Oxidative stress was a significant disease contributor
+===== Finding 1 — Oxidative stress was a significant disease contributor
 
 NAC is rate-limiting for glutathione synthesis — the body's primary intracellular antioxidant. If NAC produces benefit, oxidative stress was exceeding endogenous antioxidant capacity. This is consistent with documented oxidative damage in ME/CFS (lipid peroxidation, protein carbonylation, reduced glutathione).
 
@@ -2436,7 +2436,7 @@ NAC is rate-limiting for glutathione synthesis — the body's primary intracellu
 
 *Level of action:* Partial root cause. NAC reduces oxidative damage but does not eliminate the source (mitochondrial dysfunction, inflammation). If the oxidative stress generator continues unchecked, NAC provides ongoing protection but does not cure.
 
-====== Finding 2 — Glutamate excitotoxicity was contributing to cognitive symptoms
+===== Finding 2 — Glutamate excitotoxicity was contributing to cognitive symptoms
 
 NAC modulates glutamate via the cystine-glutamate antiporter — it normalizes extrasynaptic glutamate levels, reducing NMDA receptor overactivation that causes excitotoxic neuronal stress. If NAC improves brain fog, cognitive clarity, or sensory sensitivity, glutamate excitotoxicity may be contributing, particularly in patients with high glutamatergic polygenic risk scores.
 
@@ -2444,7 +2444,7 @@ NAC modulates glutamate via the cystine-glutamate antiporter — it normalizes e
 
 *Level of action:* Symptom management — modulates neurotransmitter balance without addressing why it was disturbed.
 
-====== Finding 3 — HSAT2 retroelement activation may be reduced
+===== Finding 3 — HSAT2 retroelement activation may be reduced
 
 NAC reduces ROS, which reduces HSF1 activation — a transcription factor that drives HSAT2 satellite repeat transcription. Reduced HSAT2 expression → reduced CENPA mislocalization → reduced p53-dependent senescence → reduced MDSC expansion. If NAC works and HSAT2 is elevated, this mechanism may be operative.
 
