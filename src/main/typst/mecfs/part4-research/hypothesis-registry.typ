@@ -3848,7 +3848,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
   chapter-ref: [ch08:@spec:tickborne-glial-reprogramming],
   prediction: [Microglia/astrocytes exposed to Borrelia or Bartonella antigens in vitro will show a sustained OXPHOS-to-glycolysis shift (elevated LDHA/lactate, downregulated mitochondrial transcripts, H3K4me1/H3K27ac at inflammatory loci) persisting after antigen removal, comparable to viral glial reprogramming. Falsified if bacterial/protozoal antigen exposure produces only transient metabolic change with no epigenetic stabilisation in glia.],
   treatment: [If confirmed, broadens "post-viral" to "post-infectious" glial reprogramming — tick-borne-triggered patients could benefit from metabolic/epigenetic-reversal strategies proposed for post-viral ME/CFS. Untested research direction.],
-  limitation: [No glial glycolytic-reprogramming data for any tick-borne pathogen; all evidence from peripheral macrophages/monocytes or non-CNS tissue; no ME/CFS glial data. Whether these pathogens reprogram glia specifically (vs peripheral immune cells) untested. Lower-certainty (0.30) extension of an already-speculative hypothesis (0.40).],
+  limitation: [No glial glycolytic-reprogramming data for any tick-borne pathogen; all evidence from peripheral macrophages/monocytes or non-CNS tissue; no ME/CFS glial data. Whether these pathogens reprogram glia specifically (vs peripheral immune cells) untested. Compound speculation (cert 0.25): peripheral tick-borne hypothesis (0.35) × untested glial extrapolation.],
 )
 
 #registry-entry(
@@ -3900,7 +3900,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
   chapter-ref: [ch07:@syn:tickborne-glycolytic-reprogramming-model],
   prediction: [The synthesis stands or falls on the research programme (@oq:tickborne-glycolytic-research-programme): the central testable claim is that tick-borne-triggered ME/CFS shows a monocyte trained-immunity glycolytic signature exceeding viral-triggered ME/CFS. Falsified if no such signature exists.],
   treatment: [Unifies post-viral and tick-borne ME/CFS under a metabolic-memory framework IF confirmed — would support metabolic (not antimicrobial) intervention. Not a current clinical recommendation.],
-  limitation: [Aggregative synthesis at certainty 0.35 (below the hypothesis it summarises because it also spans lower-certainty speculations). 0 direct ME/CFS measurement; direction-of-effect unresolved; closest human data (PTLDS serum) null. Origin: brainstorm-derived aggregation.],
+  limitation: [Aggregative synthesis at certainty 0.30 (below the 0.35 hypothesis it summarises because it also spans lower-certainty speculations). 0 direct ME/CFS measurement; direction-of-effect unresolved; closest human data (PTLDS serum) null. Origin: brainstorm-derived aggregation.],
 )
 
 #registry-entry(
@@ -3933,7 +3933,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
 #registry-entry(
   [Borrelia burgdorferi Directly Activates Human Microglia — Bacterial Counterpart to Viral Microglial Coverage],
-  type: "ACH",
+  type: "S",
   certainty: "0.70",
   evidence: [Six+ independent studies across three labs: Bb directly activates human and primate microglia via TLR1/TLR2/MyD88→NF-κB→TNF-α, IL-1β, IL-6, chemokines @Myers2009Microglia (PLoS Pathog, cert 0.70) @Parthasarathy2015MicrogliaTLR (J Neuroinflamm, cert 0.70) @CassianiIngoni2006MicrogliaTLR (J Neuropathol Exp Neurol, cert 0.65, human microglia) @Kuhlow2005MicrogliaPhag (J Neuroimmunol, cert 0.65). Non-viable Bb debris suffices to sustain microglial activation @Parthasarathy2022NonviableBb (cert 0.65) — explains post-antibiotic neuroinflammation. In vivo human PET confirms glial activation persists years after treatment in PTLDS @Coughlin2018PTLDSglialPET (n=12, cert 0.60).],
   citations: [@Myers2009Microglia @Parthasarathy2015MicrogliaTLR @CassianiIngoni2006MicrogliaTLR @Kuhlow2005MicrogliaPhag @Parthasarathy2022NonviableBb @Coughlin2018PTLDSglialPET],
@@ -3948,7 +3948,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [Microglial Mitochondrial Dysfunction After Bb/Bartonella — Untested Deductive Hypothesis],
   type: "S",
   certainty: "0.20",
-  evidence: [Upstream: Bb→TLR→microglial activation well-established (cert 0.70, 6+ studies). Bb drives M1 microglial polarisation with iNOS induction @Akinlusi2025MicrogliaPolar (cert 0.45). Bb induces oxidative stress in host cells, likely mitochondrial targets @Peacock2015LymeOxidative (cert 0.50). Bb OMVs induce ROS in neuronal cells @Wawrzeniak2020BbOMVOxidative (cert 0.50). Downstream: ME/CFS exosomal mtDNA activates human microglia to produce IL-1β @Tsilioni2022exosome (cert 0.55). Middle: NO study has measured mitochondrial function in microglia after Bb/Bartonella exposure — the central link is a complete blank. Bartonella microglial infection: single 2001 feline study @Munana2001BartonellaMicroglia (cert 0.55).],
+  evidence: [Upstream: Bb→TLR→microglial activation well-established (cert 0.70, 6+ studies). Bb drives M1 microglial polarisation with iNOS induction @Akinlusi2025MicrogliaPolar (cert 0.45). Bb induces oxidative stress in host cells, likely mitochondrial targets @Peacock2015LymeOxidative (cert 0.50). Bb OMVs induce ROS in neuronal cells @Wawrzeniak2020BbOMVOxidative (cert 0.50, ROS in dermal fibroblasts/keratinocytes). Downstream: ME/CFS exosomal mtDNA activates human microglia to produce IL-1β @Tsilioni2022exosome (cert 0.55). Middle: NO study has measured mitochondrial function in microglia after Bb/Bartonella exposure — the central link is a complete blank. Bartonella microglial infection: single 2001 feline study @Munana2001BartonellaMicroglia (cert 0.55).],
   citations: [@Myers2009Microglia @Parthasarathy2015MicrogliaTLR @Akinlusi2025MicrogliaPolar @Peacock2015LymeOxidative @Wawrzeniak2020BbOMVOxidative @Tsilioni2022exosome @Munana2001BartonellaMicroglia @Parthasarathy2022NonviableBb],
   mechanism: [Sustained TLR→NF-κB→iNOS→NO→mitochondrial complex inhibition→mtDNA release→NLRP3/cGAS-STING→sustained IL-1β. M1 polarisation→Warburg-like glycolytic shift→impaired mitophagy→accumulation of damaged mitochondrial mass. A deductive assembly: the upstream (Bb→microglia TLR) and downstream (mtDNA→microglia IL-1β) are separately documented; the middle (mitochondrial dysfunction in microglia after bacterial infection) has never been measured.],
   chapter-ref: [ch07:@spec:microglial-mitochondrial-borrelia],

@@ -47,7 +47,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
 | coq10-infection-depletion | [subtrees/coq10-infection-depletion.md](subtrees/coq10-infection-depletion.md) | 2026-07-17 | 44 | 4 | ✅ done |
 | tick-borne-symptom-domains | [subtrees/tick-borne-symptom-domains.md](subtrees/tick-borne-symptom-domains.md) | 2026-07-16 | 44 | 6 | ✅ done |
-| microglial-mitochondrial-borrelia | [subtrees/microglial-mitochondrial-borrelia.md](subtrees/microglial-mitochondrial-borrelia.md) | 2026-07-17 | 46 | 0 | ⬜ pending |
+| microglial-mitochondrial-borrelia | [subtrees/microglial-mitochondrial-borrelia.md](subtrees/microglial-mitochondrial-borrelia.md) | 2026-07-17 | 46 | 23 | ✅ done |
 | babesia-50pct-mecfs | [subtrees/babesia-50pct-mecfs.md](subtrees/babesia-50pct-mecfs.md) | 2026-07-16 | 14 | 9 | ✅ done |
 | hypothalamic-crh-neuron-depletion | [subtrees/hypothalamic-crh-neuron-depletion.md](subtrees/hypothalamic-crh-neuron-depletion.md) | 2026-07-12 | 14 | 13 | ✅ done |
 | postcovid-ocular-syndrome | [subtrees/postcovid-ocular-syndrome.md](subtrees/postcovid-ocular-syndrome.md) | 2026-07-09 | 35 | 2 | ✅ done |
