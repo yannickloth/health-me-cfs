@@ -560,10 +560,17 @@
 // then a 2-column grid (label | value) for the structured fields.
 //
 // Fields that are none are omitted. dntu and action default to none.
+// Each finding is wrapped in its own stroked box so siblings are visually distinct.
 #let finding(num, claim: [], explanation: none, certainty: [], dntu: none, action: none, level: []) = {
   let label(field-name) = text(weight: "bold", fill: luma(120), size: 0.82em)[#field-name]
 
-  block(below: 0.8em)[
+  block(
+    inset: (left: 0.6em, right: 0.4em, top: 0.4em, bottom: 0.3em),
+    stroke: 0.5pt + luma(210),
+    radius: 3pt,
+    above: 0.5em,
+    below: 0.5em,
+  )[
     #text(weight: "bold")[Finding #num — #claim]
 
     #explanation

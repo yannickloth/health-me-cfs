@@ -211,6 +211,32 @@
   }
   .env-clinical-finding .callout-title { color: #312e81; }
 
+  /* Findings-group: differential diagnostic inference container (ch29).
+     Each .env-finding is a bordered cards inside the callout. */
+  .env-findings-group .callout-title { color: #2E7D32; }
+  .env-finding {
+    background: oklch(from var(--callout-tip-bg) l c h / 0.35);
+    border: 1px solid hsl(from var(--callout-tip-border) h s calc(l + 32));
+    border-radius: 4px;
+    padding: 0.7em 0.85em;
+    margin-block: 1em;
+  }
+  .env-finding-heading { font-weight: 600; margin-bottom: 0.35em; }
+  .env-finding-explanation { margin-bottom: 0.5em; }
+  .env-finding-fields {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2px 12px;
+    margin-block: 0;
+    font-size: 0.9em;
+  }
+  .env-finding-fields dt {
+    font-weight: 500;
+    color: oklch(0.44 0 0);
+    white-space: nowrap;
+  }
+  .env-finding-fields dd { margin-inline-start: 0; }
+
   /* Research direction */
   .env-direction {
     border-color: #2563eb !important;

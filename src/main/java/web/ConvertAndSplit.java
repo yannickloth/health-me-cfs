@@ -180,6 +180,11 @@ void main(String[] args) throws IOException {
     src = encloseEnv(src, "practical-warning",      "warning",  "Practical Warning","env-practical-warning");
     src = encloseEnv(src, "protocol-unnumbered",    "note",     "Protocol",         "env-protocol");
     src = encloseEnv(src, "protocol",               "note",     "Protocol",         "env-protocol");
+
+    // findings-group / finding : differential diagnostic inference blocks (ch29).
+    // Custom converter needed — plain encloseEnv would mangle #finding(...) kwargs.
+    src = convertFindingsGroup(src);
+
     src = encloseEnv(src, "requirement",            "important","Requirement",       "env-requirement");
     src = encloseEnv(src, "model-insight",          "note",     "Model Insight",    "env-model-insight");
     src = encloseEnv(src, "definition",             "note",     "Definition",       "env-definition");
@@ -1856,5 +1861,95 @@ String cleanCellContent(String cell) {
     s = s.replaceAll("<(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)>", "");
     s = s.replace("|", "\\|");
     s = s.replaceAll("\\s*\\n\\s*", " ");
+    return s;
+}
+
+
+// Convert #findings-group[...] containing #finding(1, claim: [...], ...) calls
+// into a styled callout wrapping structured <div> blocks so each finding is visually
+// separated online (matching Typst rendering).
+String convertFindingsGroup(String s) {
+    // 1. Convert #findings-group[...] → callout wrapper
+    var fgPattern = Pattern.compile("#findings-group\\s*\\[", Pattern.DOTALL);
+    var msg = fgPattern.matcher(s);
+    var sb = new StringBuffer();
+    while (msg.find()) {
+        msg.appendReplacement(sb, "\n\n::: {.callout-note .env-findings-group}\n### Findings\n\n");
+    }
+    msg.appendTail(sb);
+    s = sb.toString();
+
+    // 2. Convert #finding(n, claim: [...], explanation: [...], certainty: [...],
+    //    dntu: [...], action: [...], level: [...]) into structured HTML.
+    //    dntu, action, explanation are optional.
+    var fPat = Pattern.compile("#finding\\(\\s*(\\d+)\\s*,\\s*claim:\\s*\\[", Pattern.DOTALL);
+    var fm = fPat.matcher(s);
+    var sb2 = new StringBuffer();
+    while (fm.find()) {
+        var num = fm.group(1);
+        var fieldStart = fm.end();
+        var fields = new LinkedHashMap<String, String>();
+        var currentField = "claim";
+        var depth = 1;
+        int j = fieldStart;
+        while (j < s.length() && depth > 0) {
+            var c = s.charAt(j);
+            if (c == '[') { depth++; }
+            else if (c == ']') { depth--; }
+            if (depth == 0) {
+                fields.put(currentField, processFindingValue(s.substring(fieldStart, j)));
+                break;
+            }
+            if (c == ',' && depth == 1) {
+                var after = s.substring(j + 1);
+                var fieldMatch = Pattern.compile("^\\s*([a-z]+)\\s*:\\s*\\[", Pattern.DOTALL).matcher(after);
+                if (fieldMatch.lookingAt()) {
+                    fields.put(currentField, processFindingValue(s.substring(fieldStart, j)));
+                    currentField = fieldMatch.group(1);
+                    j += fieldMatch.end();
+                    fieldStart = j;
+                    depth = 1;
+                    j--;
+                }
+            }
+            j++;
+        }
+
+        var claim = fields.getOrDefault("claim", "");
+        var explanation = fields.getOrDefault("explanation", "");
+        var certainty = fields.getOrDefault("certainty", "");
+        var dntu = fields.getOrDefault("dntu", "");
+        var action = fields.getOrDefault("action", "");
+        var level = fields.getOrDefault("level", "");
+
+        var findingHtml = """
+            <div class="env-finding">
+            <div class="env-finding-heading">Finding %s — %s</div>
+            <div class="env-finding-body">
+            """.formatted(num, claim);
+        if (!explanation.isEmpty()) {
+            findingHtml += "  <div class=\"env-finding-explanation\">" + explanation + "</div>\n";
+        }
+        findingHtml += "  <dl class=\"env-finding-fields\">\n";
+        findingHtml += "    <dt>Certainty</dt><dd>" + certainty + "</dd>\n";
+        if (!dntu.isEmpty()) {
+            findingHtml += "    <dt>Does NOT tell us</dt><dd>" + dntu + "</dd>\n";
+        }
+        if (!action.isEmpty()) {
+            findingHtml += "    <dt>Action</dt><dd>" + action + "</dd>\n";
+        }
+        findingHtml += "    <dt>Level of action</dt><dd>" + level + "</dd>\n";
+        findingHtml += "  </dl>\n</div>\n</div>\n";
+
+        fm.appendReplacement(sb2, Matcher.quoteReplacement(findingHtml));
+    }
+    fm.appendTail(sb2);
+    return sb2.toString();
+}
+
+String processFindingValue(String raw) {
+    var s = raw.startsWith("[") ? raw.substring(1, raw.length() - 1) : raw;
+    s = s.replaceAll("#strong\\[([^\\]]+)\\]", "**$1**");
+    s = s.replaceAll("#link\\(\"([^\"]+)\"\\)\\[([^\\]]+)\\]", "[$2]($1)");
     return s;
 }
