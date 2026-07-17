@@ -565,11 +565,9 @@
   let label(field-name) = text(weight: "bold", fill: luma(120), size: 0.82em)[#field-name]
 
   block(
-    inset: (left: 0.6em, right: 0.4em, top: 0.4em, bottom: 0.3em),
-    stroke: 0.5pt + luma(210),
-    radius: 3pt,
-    above: 0.5em,
-    below: 0.5em,
+    inset: 0pt,
+    above: 0.8em,
+    below: 0.8em,
   )[
     #text(weight: "bold")[Finding #num — #claim]
 

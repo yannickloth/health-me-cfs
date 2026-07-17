@@ -214,13 +214,7 @@
   /* Findings-group: differential diagnostic inference container (ch29).
      Each .env-finding is a bordered cards inside the callout. */
   .env-findings-group .callout-title { color: #2E7D32; }
-  .env-finding {
-    background: oklch(from var(--callout-tip-bg) l c h / 0.35);
-    border: 1px solid hsl(from var(--callout-tip-border) h s calc(l + 32));
-    border-radius: 4px;
-    padding: 0.7em 0.85em;
-    margin-block: 1em;
-  }
+  .env-finding { margin-block: 1em; }
   .env-finding-heading { font-weight: 600; margin-bottom: 0.35em; }
   .env-finding-explanation { margin-bottom: 0.5em; }
   .env-finding-fields {
