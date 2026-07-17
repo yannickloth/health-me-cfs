@@ -343,6 +343,9 @@ void main(String[] args) throws IOException {
     }
 
     // --- Step 3: Generate .qmd files ---
+    // Cross-reference registry: {anchor-id, absolute-qmd-path, link-text}.
+    // Written to <outDir>/_xref.tsv; BuildWeb aggregates these to rewrite @refs into links.
+    var xref = new ArrayList<String[]>();
     int secNum = 1;
     for (var sec : sections) {
         var slugTitle = normalizeUnicode(sec.title());
@@ -360,19 +363,22 @@ void main(String[] args) throws IOException {
             sb.append('\n');
         }
 
-        var headingLine = "## " + slugTitle;
         var headingLabels = new ArrayList<String>();
         var spanAnchors = new ArrayList<String>();
         for (var rawLabel : new String[]{ sec.label(), (secNum == 1 ? chapLabel : "") }) {
             if (rawLabel == null || rawLabel.isEmpty()) continue;
+            boolean isChapLabel = rawLabel.equals(chapLabel);
+            var linkText = (isChapLabel && !chapTitle.isEmpty()) ? chapTitle : slugTitle;
             var converted = rawLabel
                 .replaceFirst("^<", "")
                 .replaceFirst(">$", "")
                 .replaceFirst(":", "-");
             if (rawLabel.matches("^<(sec|subsec|subsubsec):[^>]+>$")) {
-                headingLabels.add("{#" + converted + "}");
+                headingLabels.add(converted);
+                xref.add(new String[]{ converted, path.toAbsolutePath().toString(), linkText });
             } else {
                 spanAnchors.add("<span id=\"" + converted + "\"></span>");
+                xref.add(new String[]{ converted, path.toAbsolutePath().toString(), linkText });
             }
         }
         for (var rawLabel : preambleLabels) {
@@ -381,12 +387,21 @@ void main(String[] args) throws IOException {
                 .replaceFirst(">$", "")
                 .replaceFirst(":", "-");
             spanAnchors.add("<span id=\"" + converted + "\"></span>");
+            // Chapter-level labels (<ch:...>) get the chapter title as link text;
+            // section 1 sorts first so BuildWeb's first-wins keeps the chapter title.
+            var linkText = (rawLabel.startsWith("<ch:") && !chapTitle.isEmpty()) ? chapTitle : slugTitle;
+            xref.add(new String[]{ converted, path.toAbsolutePath().toString(), linkText });
         }
+        // The page title (H1) is emitted by Quarto from the front-matter `title:`.
+        // Emit the section anchor(s) as invisible spans instead of a duplicate `## Title`
+        // heading, so the target still resolves without repeating the title on the page.
+        for (var l : headingLabels) spanAnchors.add("<span id=\"" + l + "\"></span>");
         for (var a : spanAnchors) sb.append(a).append('\n');
-        for (var l : headingLabels) headingLine += " " + l;
-        sb.append(headingLine).append("\n\n");
+        sb.append('\n');
 
         String pendingLabel = null;
+        String lastCalloutTitle = slugTitle;
+        boolean prevOpenedCallout = false;
 
         for (var line : sec.body) {
             var raw = line;
@@ -400,6 +415,17 @@ void main(String[] args) throws IOException {
                     raw = stripped;
                 }
             }
+
+            // Track callout titles (### DisplayName: Title emitted by encloseEnv) so
+            // environment anchors that follow (e.g. <rec:...>) get readable link text.
+            var calloutTitleMatch = Pattern.compile("^#{3,6}\\s+(.+)$").matcher(stripped);
+            if (prevOpenedCallout && calloutTitleMatch.matches()) {
+                var ct = calloutTitleMatch.group(1).strip();
+                int colon = ct.indexOf(": ");
+                if (colon >= 0) ct = ct.substring(colon + 2).strip();
+                if (!ct.isEmpty()) lastCalloutTitle = ct;
+            }
+            prevOpenedCallout = stripped.startsWith("::: {");
 
             if (stripped.matches("^={3,}\\s+.+")) {
                 int eqCount = 0;
@@ -421,6 +447,17 @@ void main(String[] args) throws IOException {
                 }
                 headingText = inlineMatcher.replaceAll("");
                 headingText = stripHeadingMath(headingText);
+                var headingTextClean = headingText.strip();
+                lastCalloutTitle = headingTextClean;
+                // Register heading anchors so cross-refs resolve to readable link text.
+                var haMatcher = Pattern.compile("\\{#([^}]+)\\}").matcher(headingAttrs.toString());
+                while (haMatcher.find()) {
+                    xref.add(new String[]{ haMatcher.group(1), path.toAbsolutePath().toString(), headingTextClean });
+                }
+                var nhaMatcher = Pattern.compile("id=\"([^\"]+)\"").matcher(nonHeadingAnchors.toString());
+                while (nhaMatcher.find()) {
+                    xref.add(new String[]{ nhaMatcher.group(1), path.toAbsolutePath().toString(), headingTextClean });
+                }
                 // Wrap ✓/✗ in aria-hidden span so they render as decoration, not prose
                 var htc = headingText.stripLeading();
                 if (htc.startsWith("✓ ")) {
@@ -466,9 +503,12 @@ void main(String[] args) throws IOException {
                     } else {
                         pendingLabel = label;
                     }
+                    var hid = label.replaceFirst("^\\{#", "").replaceFirst("\\}$", "");
+                    xref.add(new String[]{ hid, path.toAbsolutePath().toString(), lastCalloutTitle });
                 } else {
                     var anchorId = label.replaceFirst("^\\{#", "").replaceFirst("\\}$", "");
                     sb.append("<span id=\"").append(anchorId).append("\"></span>\n");
+                    xref.add(new String[]{ anchorId, path.toAbsolutePath().toString(), lastCalloutTitle });
                 }
                 continue;
             }
@@ -480,6 +520,7 @@ void main(String[] args) throws IOException {
                 } else {
                     var anchorId = pendingLabel.replaceFirst("^\\{#", "").replaceFirst("\\}$", "");
                     sb.append("<span id=\"").append(anchorId).append("\"></span>\n");
+                    xref.add(new String[]{ anchorId, path.toAbsolutePath().toString(), lastCalloutTitle });
                     pendingLabel = null;
                 }
             }
@@ -531,9 +572,35 @@ void main(String[] args) throws IOException {
             output += ":::\n";
         }
 
+        // Final sweep: register every anchor present in the output (headings {#id},
+        // equation/figure/table labels, spans) so cross-refs to them resolve. Entries
+        // already added above (with better link text) win via putIfAbsent semantics in
+        // BuildWeb, so only genuinely new ids fall back to the humanised slug.
+        var known = new HashSet<String>();
+        for (var e : xref) known.add(e[0]);
+        var anchorScan = Pattern.compile("\\{#([A-Za-z][\\w:-]*)\\}|id=\"([A-Za-z][\\w:-]*)\"").matcher(output);
+        while (anchorScan.find()) {
+            var aid = anchorScan.group(1) != null ? anchorScan.group(1) : anchorScan.group(2);
+            if (known.add(aid)) {
+                xref.add(new String[]{ aid, path.toAbsolutePath().toString(), "" });
+            }
+        }
+
         writeString(path, output);
         System.out.println("  " + fname + " (" + sec.body().size() + " lines)");
         secNum++;
+    }
+    // Emit cross-reference registry for BuildWeb to aggregate and resolve into links.
+    if (!xref.isEmpty()) {
+        var tsv = new StringBuilder();
+        for (var e : xref) {
+            var id = e[0].strip();
+            var qmdPath = e[1];
+            var text = e[2] == null ? "" : e[2].replace("\t", " ").replace("\n", " ").strip();
+            if (id.isEmpty()) continue;
+            tsv.append(id).append('\t').append(qmdPath).append('\t').append(text).append('\n');
+        }
+        writeString(get(outDir, "_xref.tsv"), tsv.toString());
     }
     System.out.println("Done — " + (secNum-1) + " sections written.");
 }

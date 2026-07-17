@@ -10,6 +10,7 @@ import java.nio.file.Path;
 import static java.nio.file.Paths.*;
 import java.io.*;
 import java.util.*;
+import java.util.regex.*;
 
 void main(String[] args) throws IOException, InterruptedException {
     var srcRoot = Path.of("src/main/typst/mecfs").toAbsolutePath().normalize();
@@ -269,6 +270,11 @@ void main(String[] args) throws IOException, InterruptedException {
     System.out.println();
     System.out.println("Done: " + totalChapters + " chapters processed, " + totalFiles + " .qmd files generated");
 
+    // --- Cross-reference resolution: rewrite @sec-x / @ch-x tokens into Markdown links ---
+    System.out.println();
+    System.out.println("=== cross-references ===");
+    resolveCrossRefs(webRoot);
+
     // --- Figures: compile each .typ → .svg ---
     var figSrcDir = srcRoot.resolve("figures");
     var figOutDir = webRoot.resolve("figures");
@@ -316,6 +322,138 @@ void deleteRecursive(Path dir) throws IOException {
     try {
         deleteIfExists(dir);
     } catch (IOException ignored) {}
+}
+
+// Internal cross-ref prefixes that ConvertAndSplit emits as bare @prefix-id tokens.
+// (Bibliography citations are wrapped as [@Key] and are NOT matched here.)
+static final String XREF_PREFIXES =
+    "sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open|clin|syn|pr";
+
+// Aggregate all <chapter>/_xref.tsv registries, then rewrite bare @prefix-id
+// cross-reference tokens across every generated .qmd into Markdown links.
+// Unresolved tokens degrade to plain humanised text (and are logged), so nothing
+// renders as a broken Pandoc citation.
+void resolveCrossRefs(Path webRoot) throws IOException {
+    // id → [absolute-qmd-path, link-text]; first occurrence wins for duplicates.
+    var registry = new HashMap<String, String[]>();
+    var tsvFiles = new ArrayList<Path>();
+    try (var walk = walk(webRoot)) {
+        for (var p : walk.filter(f -> f.getFileName().toString().equals("_xref.tsv")).toList()) {
+            tsvFiles.add(p);
+            for (var line : readString(p).split("\n")) {
+                if (line.isBlank()) continue;
+                var parts = line.split("\t", -1);
+                if (parts.length < 2) continue;
+                var id = parts[0].strip();
+                var qmdPath = parts[1].strip();
+                var text = parts.length >= 3 ? parts[2].strip() : "";
+                registry.putIfAbsent(id, new String[]{ qmdPath, text });
+            }
+        }
+    }
+    System.out.println("  registry: " + registry.size() + " anchors from " + tsvFiles.size() + " chapters");
+
+    var tokenPat = Pattern.compile("(?<![\\[\\w@])@(" + XREF_PREFIXES + ")-([A-Za-z0-9][A-Za-z0-9_-]*)");
+    var missing = new TreeSet<String>();
+    int fileCount = 0;
+
+    List<Path> qmdFiles;
+    try (var walk = walk(webRoot)) {
+        qmdFiles = walk.filter(f -> f.toString().endsWith(".qmd")).sorted().toList();
+    }
+
+    for (var qmd : qmdFiles) {
+        var src = readString(qmd);
+        var outLines = new ArrayList<String>();
+        boolean inFence = false;
+        boolean changed = false;
+        for (var line : src.split("\n", -1)) {
+            var trimmed = line.strip();
+            if (trimmed.startsWith("```") || trimmed.startsWith("~~~")) {
+                inFence = !inFence;
+                outLines.add(line);
+                continue;
+            }
+            if (inFence || !line.contains("@")) {
+                outLines.add(line);
+                continue;
+            }
+            var resolved = rewriteLine(line, tokenPat, registry, qmd, missing);
+            if (!resolved.equals(line)) changed = true;
+            outLines.add(resolved);
+        }
+        if (changed) {
+            writeString(qmd, String.join("\n", outLines));
+            fileCount++;
+        }
+    }
+
+    System.out.println("  rewrote links in " + fileCount + " files");
+    if (!missing.isEmpty()) {
+        System.out.println("  " + missing.size() + " unresolved anchor(s) degraded to plain text:");
+        for (var m : missing) System.out.println("    ? " + m);
+    }
+
+    // Clean up registry files so they are not served by Quarto.
+    for (var p : tsvFiles) deleteIfExists(p);
+}
+
+// Rewrite all @prefix-id tokens in one line, skipping inline code (`...`) and math ($...$).
+String rewriteLine(String line, Pattern tokenPat, Map<String, String[]> registry,
+                   Path qmd, Set<String> missing) {
+    var seg = Pattern.compile("`[^`]*`|\\$[^$\\n]+\\$");
+    var protector = seg.matcher(line);
+    var sb = new StringBuilder();
+    int last = 0;
+    while (protector.find()) {
+        sb.append(rewriteSegment(line.substring(last, protector.start()), tokenPat, registry, qmd, missing));
+        sb.append(protector.group());
+        last = protector.end();
+    }
+    sb.append(rewriteSegment(line.substring(last), tokenPat, registry, qmd, missing));
+    return sb.toString();
+}
+
+String rewriteSegment(String text, Pattern tokenPat, Map<String, String[]> registry,
+                      Path qmd, Set<String> missing) {
+    var m = tokenPat.matcher(text);
+    var sb = new StringBuilder();
+    while (m.find()) {
+        var prefix = m.group(1);
+        var id = prefix + "-" + m.group(2);
+        String replacement;
+        var target = registry.get(id);
+        if (target != null) {
+            var link = relLink(qmd, Path.of(target[0]), id);
+            var label = target[1] == null || target[1].isBlank() ? humanize(prefix, id) : target[1];
+            replacement = "[" + label + "](" + link + ")";
+        } else {
+            missing.add(id);
+            replacement = humanize(prefix, id);
+        }
+        m.appendReplacement(sb, Matcher.quoteReplacement(replacement));
+    }
+    m.appendTail(sb);
+    return sb.toString();
+}
+
+// Build a site-relative link from the referencing .qmd to the target anchor.
+// Same file → "#id"; otherwise relative path with .qmd→.html and "#id".
+String relLink(Path fromQmd, Path toQmd, String id) {
+    if (fromQmd.toAbsolutePath().normalize().equals(toQmd.toAbsolutePath().normalize())) {
+        return "#" + id;
+    }
+    var rel = fromQmd.toAbsolutePath().getParent()
+        .relativize(toQmd.toAbsolutePath()).normalize().toString();
+    rel = rel.replace(File.separatorChar, '/');
+    rel = rel.replaceFirst("\\.qmd$", ".html");
+    return rel + "#" + id;
+}
+
+// Fallback link text for an unresolved reference: strip the prefix, de-slug the rest.
+String humanize(String prefix, String id) {
+    var body = id.substring(prefix.length() + 1).replace('-', ' ').replace('_', ' ').strip();
+    return body.isEmpty() ? id : body;
 }
 
 // Resolve #include "relative/path.typ" directives recursively.
