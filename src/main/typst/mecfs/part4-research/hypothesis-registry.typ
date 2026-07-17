@@ -3823,3 +3823,164 @@ This registry collects all hypotheses, speculations, open questions, and predict
 )
 
 
+=== Entries added 2026-07-17: Glycolytic Reprogramming by Tick-Borne Pathogens (Borrelia / Bartonella / Babesia)
+
+#registry-entry(
+  [Tick-Borne Pathogen-Driven Glycolytic Reprogramming as a Compounding Immunometabolic Insult in a Post-Infectious ME/CFS Subset],
+  type: "H",
+  certainty: "0.35",
+  evidence: [Borrelia (strongest): LDHA/TXN upregulation with glucose depletion and lactate accumulation in human THP-1 monocytes @Dong2026BorreliaGlycolysis (in vitro, cert 0.50); persistent trained-immunity glycolytic macrophage memory with mitochondrial downregulation, reversed in vivo by glycolysis inhibition @Barriales2021BorreliaMacrophage (mouse + in vitro, cert 0.65, PLoS Biol); cell-type-specific trained immunity @Bernard2020BorreliaTrained (cert 0.50); Borrelia obligately glycolytic, LDH druggable @Lynch2023LDHBorrelia (cert 0.45). Bartonella: B. henselae stabilises HIF-1α → cellular hypoxia → decreased host ATP → VEGF @Kempf2005BartonellaHIF1 (cert 0.70, Circulation). Babesia (weakest): increased de-novo glucose uptake in infected murine RBCs @Ohmori2004BabesiaGlucose (cert 0.35, single animal study). Contradiction: Kerstholt2022BorreliaLactate found DECREASED baseline glycolysis in primary monocytes (cert 0.60) — context/timepoint-dependent, bidirectional. Null: PTLDS serum metabolomics found NO glycolytic signature @Fitzgerald2021PTLDSMetabolic (cert 0.65) — consistent with cell-type-restricted reprogramming. 0 direct ME/CFS studies.],
+  citations: [@Dong2026BorreliaGlycolysis @Barriales2021BorreliaMacrophage @Kempf2005BartonellaHIF1 @Ohmori2004BabesiaGlucose @Kerstholt2022BorreliaLactate @Fitzgerald2021PTLDSMetabolic @Mandarano2020 @naviaux2016metabolic],
+  mechanism: [Tick-borne pathogens drive a Warburg-like glycolytic shift in host immune, endothelial, and erythroid cells via pathogen-specific routes (Borrelia LDHA/trained immunity; Bartonella HIF-1α/ATP depletion; Babesia RBC glucose uptake). In a tick-borne-triggered or co-infected subset this compounds the pre-existing ME/CFS immunometabolic defect (failed CD8+ Warburg @Mandarano2020; cell-danger-response glycolysis @naviaux2016metabolic) and, if epigenetically stabilised as trained immunity, may persist after pathogen clearance to sustain chronic symptoms — mirroring the post-viral glial mechanism (@spec:post-viral-cns-reprogramming).],
+  chapter-ref: [ch07:@hyp:tickborne-glycolytic-reprogramming],
+  prediction: [In a tick-borne-triggered ME/CFS subset with serology/PCR-confirmed infection, isolated monocytes/macrophages will show a trained-immunity glycolytic signature (elevated LDHA/lactate, downregulated mitochondrial transcripts, enhanced ex-vivo cytokine responses) exceeding non-tick-borne ME/CFS patients and controls; attenuated in patients whose infection was eradicated early. Falsified if tick-borne-triggered ME/CFS monocytes show no glycolytic/mitochondrial transcriptional difference from other ME/CFS patients.],
+  treatment: [If confirmed: identifies a subset potentially addressable by metabolic (glycolysis-modulating) rather than purely antimicrobial approaches. Currently a research direction, not a treatment basis. No human data.],
+  limitation: [No study has measured tick-borne pathogen-driven glycolytic reprogramming in any ME/CFS patient — ME/CFS relevance is mechanistic parallel only. Strongest evidence (Borrelia trained immunity) is mouse/human-cell; Bartonella/Babesia thinner (Babesia = single animal study). PTLDS serum metabolomics null for glycolysis. Subset size and severity applicability unknown. Direction of effect (↑ vs ↓ glycolysis) context-dependent, unresolved in vivo.],
+)
+
+#registry-entry(
+  [Non-Viral Tick-Borne Pathogens May Drive Comparable Glial Glycolytic Reprogramming],
+  type: "S",
+  certainty: "0.25",
+  evidence: [Extension of the post-viral glial reprogramming hypothesis (@spec:post-viral-cns-reprogramming, cert 0.40) to non-viral tick-borne pathogens. Peripheral (non-glial) evidence: Borrelia trained-immunity glycolytic macrophage memory reversible in vivo @Barriales2021BorreliaMacrophage (cert 0.65); Bartonella HIF-1α stabilisation + host ATP depletion @Kempf2005BartonellaHIF1 (cert 0.70). Analogous to microglial trained-immunity reprogramming @Wendeln2018InnateImmuneMemoryBrain @Nirakis2025MetabolicRegulationMicroglial and viral glial reprogramming @Rodrigues2025ViralReprogrammingGlialMetabolism. NO glial-specific data for any tick-borne pathogen; 0 ME/CFS glial data.],
+  citations: [@Barriales2021BorreliaMacrophage @Kempf2005BartonellaHIF1 @Wendeln2018InnateImmuneMemoryBrain @Nirakis2025MetabolicRegulationMicroglial @Rodrigues2025ViralReprogrammingGlialMetabolism],
+  mechanism: [If Borrelia/Bartonella reprogram glia (as they reprogram peripheral macrophages) toward glycolysis with epigenetic stabilisation, the same self-sustaining cycle proposed for viruses (metabolic shift → epigenetic stabilisation → chronic neuroinflammation) would apply. Bartonella is neurotropic (encephalopathy-capable), making CNS access plausible.],
+  chapter-ref: [ch08:@spec:tickborne-glial-reprogramming],
+  prediction: [Microglia/astrocytes exposed to Borrelia or Bartonella antigens in vitro will show a sustained OXPHOS-to-glycolysis shift (elevated LDHA/lactate, downregulated mitochondrial transcripts, H3K4me1/H3K27ac at inflammatory loci) persisting after antigen removal, comparable to viral glial reprogramming. Falsified if bacterial/protozoal antigen exposure produces only transient metabolic change with no epigenetic stabilisation in glia.],
+  treatment: [If confirmed, broadens "post-viral" to "post-infectious" glial reprogramming — tick-borne-triggered patients could benefit from metabolic/epigenetic-reversal strategies proposed for post-viral ME/CFS. Untested research direction.],
+  limitation: [No glial glycolytic-reprogramming data for any tick-borne pathogen; all evidence from peripheral macrophages/monocytes or non-CNS tissue; no ME/CFS glial data. Whether these pathogens reprogram glia specifically (vs peripheral immune cells) untested. Lower-certainty (0.30) extension of an already-speculative hypothesis (0.40).],
+)
+
+#registry-entry(
+  [Borrelia-Trained Immune Glycolysis May Reverse the Astrocyte–Neuron Lactate Gradient],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Bridges two separately-documented mechanisms: Borrelia-trained macrophage glycolytic lactate output @Barriales2021BorreliaMacrophage (cert 0.65) and ANLS gradient-dependence (@sec:astrocyte-energy-gate). Contrast with failed-Warburg immune deficit @Mandarano2020. Entirely inferential; 0 direct measurement. Origin: brainstorm (idea 1.1).],
+  citations: [@Barriales2021BorreliaMacrophage @Mandarano2020],
+  mechanism: [Chronically elevated systemic lactate from widely-distributed trained-immune cells reduces the serum-to-brain lactate gradient driving the astrocyte–neuron lactate shuttle, depriving neurons of a fuel supplying 30–50% of neuronal ATP — a mechanism distinct from and potentially compounding the failed-Warburg immune deficit.],
+  chapter-ref: [ch08:@spec:tickborne-anls-gradient-reversal],
+  prediction: [In tick-borne-triggered ME/CFS: resting venous lactate and arterial-to-venous lactate difference elevated vs non-tick ME/CFS; CSF-to-serum lactate ratio reduced from ~0.6–0.8 toward ~0.4. Falsified if lactate gradients do not differ by tick-exposure history.],
+  treatment: [Motivates ketone-body bypass (ANLS-independent neuronal fuel) as symptomatic strategy; no direct treatment implication established.],
+  limitation: [No measurement of immune-derived lactate flux, ANLS function, or lactate gradients in tick-borne ME/CFS. Magnitude of trained-immune lactate contribution unquantified, may be negligible. Inherits the Borrelia direction-of-effect contradiction. Certainty 0.20 — below both parent mechanisms. Origin: brainstorm.],
+)
+
+#registry-entry(
+  [Metformin as a Hypothetical Trained-Immunity Metabolic Reset in Tick-Borne-Triggered ME/CFS — Research-Stage Only],
+  type: "S",
+  certainty: "0.22",
+  evidence: [Corollary of @hyp:tickborne-glycolytic-reprogramming. Barriales2021 showed glycolysis inhibition in vivo reversed the Borrelia-trained macrophage phenotype (cert 0.65). Metformin opposes trained-immunity establishment via AMPK / reduced acetyl-CoA in other models (general immunometabolism literature, not tick-borne-specific). 0 human data in ME/CFS or any tick-borne fatigue population. Origin: brainstorm (idea 3.1).],
+  citations: [@Barriales2021BorreliaMacrophage],
+  mechanism: [Metformin → AMPK activation + reduced acetyl-CoA for histone acetylation → opposes trained-immunity glycolytic epigenetic imprint → may reverse the pathogen-imprinted glycolytic macrophage memory. Metabolic, NOT antimicrobial — distinct from and not in tension with the rejection of prolonged antimicrobials for "seronegative chronic Lyme" (@lim:seronegative-chronic-lyme-cfs).],
+  chapter-ref: [ch07:@spec:metformin-trained-immunity-reset],
+  prediction: [Open-label pilot in tick-borne-triggered ME/CFS with documented, treated prior infection: metformin reduces ex-vivo monocyte glycolytic output (ECAR/OCR) and raises mitochondrial-transcript expression vs baseline. Falsified if monocyte metabolism and fatigue unchanged.],
+  treatment: [Explicitly NOT a treatment recommendation. Harms: GI intolerance, B12 depletion, rare lactic acidosis (relative contraindication in renal impairment; ironic given lactate-centred rationale). No human efficacy/dosing data for this indication.],
+  limitation: [Untested in ME/CFS or any tick-borne fatigue population. Whole chain (tick-borne glycolytic reprogramming → reversibility → metformin as the reversing agent in humans) unvalidated at every link. Certainty 0.22. Origin: brainstorm.],
+)
+
+#registry-entry(
+  [Research Programme to Test Tick-Borne Glycolytic Reprogramming in ME/CFS],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Consolidated research agenda for @hyp:tickborne-glycolytic-reprogramming. Motivated by the 0-direct-evidence gap and the Dong @Dong2026BorreliaGlycolysis / Kerstholt @Kerstholt2022BorreliaLactate direction contradiction and the Fitzgerald @Fitzgerald2021PTLDSMetabolic serum null. Origin: brainstorm (ideas 2.1, 2.2, 2.3, 6.1, 9.1).],
+  citations: [@Dong2026BorreliaGlycolysis @Kerstholt2022BorreliaLactate @Fitzgerald2021PTLDSMetabolic @Barriales2021BorreliaMacrophage],
+  mechanism: [Not a mechanistic claim — a testability agenda. Four priority studies: (1) ex-vivo monocyte Seahorse ECAR/OCR (tick-borne vs viral ME/CFS vs controls); (2) systematic replication resolving Borrelia glycolysis direction across cell substrates/timepoints; (3) CSF (not serum) metabolomics in PTLDS; (4) post-hoc stratification of existing ME/CFS trial datasets by documented tick-exposure history.],
+  chapter-ref: [ch07:@oq:tickborne-glycolytic-research-programme],
+  prediction: [Study (1) predicts tick-borne-triggered ME/CFS monocytes show elevated ECAR/OCR vs viral-triggered and controls (AUC ≥0.75 for tick-exposure stratification). Study (2) resolves whether the contradiction is cell-type or timepoint driven. Each is individually falsifiable.],
+  treatment: [No treatment implication — determines whether the hypothesis is worth pursuing therapeutically.],
+  limitation: [An agenda, not a finding. Respects @lim:seronegative-chronic-lyme-cfs (documented exposure, not "chronic Lyme" labels). Origin: brainstorm.],
+)
+
+#registry-entry(
+  [Tick-Borne Pathogens Converge on Glycolytic Reprogramming — A Post-Infectious Metabolic-Memory Synthesis],
+  type: "S",
+  certainty: "0.30",
+  evidence: [Synthesis (not a new claim) condensing @hyp:tickborne-glycolytic-reprogramming (0.40), @spec:tickborne-glial-reprogramming (0.30), @spec:tickborne-anls-gradient-reversal (0.20), @spec:metformin-trained-immunity-reset (0.22), and @oq:tickborne-glycolytic-research-programme, cross-referenced to @spec:post-viral-cns-reprogramming. Convergence of Borrelia (@Barriales2021BorreliaMacrophage, @Dong2026BorreliaGlycolysis), Bartonella (@Kempf2005BartonellaHIF1), Babesia (@Ohmori2004BabesiaGlucose) on a glycolytic endpoint. 0 direct ME/CFS data; direction-of-effect unresolved; PTLDS serum null @Fitzgerald2021PTLDSMetabolic.],
+  citations: [@Barriales2021BorreliaMacrophage @Dong2026BorreliaGlycolysis @Kempf2005BartonellaHIF1 @Ohmori2004BabesiaGlucose @Fitzgerald2021PTLDSMetabolic],
+  mechanism: [Three tick-borne pathogens each drive a Warburg-like glycolytic shift via pathogen-specific routes, converging on the same endpoint as viral glial reprogramming — motivating a broader "post-infectious" (not merely post-viral) metabolic-memory model, with downstream reach to the ANLS and a metabolic therapeutic corollary.],
+  chapter-ref: [ch07:@syn:tickborne-glycolytic-reprogramming-model],
+  prediction: [The synthesis stands or falls on the research programme (@oq:tickborne-glycolytic-research-programme): the central testable claim is that tick-borne-triggered ME/CFS shows a monocyte trained-immunity glycolytic signature exceeding viral-triggered ME/CFS. Falsified if no such signature exists.],
+  treatment: [Unifies post-viral and tick-borne ME/CFS under a metabolic-memory framework IF confirmed — would support metabolic (not antimicrobial) intervention. Not a current clinical recommendation.],
+  limitation: [Aggregative synthesis at certainty 0.35 (below the hypothesis it summarises because it also spans lower-certainty speculations). 0 direct ME/CFS measurement; direction-of-effect unresolved; closest human data (PTLDS serum) null. Origin: brainstorm-derived aggregation.],
+)
+
+#registry-entry(
+  [Infection-Driven Oxidative Consumption as a Contributor to CoQ10 Depletion],
+  type: "S",
+  certainty: "0.40",
+  evidence: [Every component separately documented in ME/CFS: low plasma CoQ10 @Maes2009CoQ10 (cert 0.55); elevated lipid peroxidation @Maes2014OSEs @Maes2021Reification; viral-reactivation mitochondrial ROS @Schreiner2020HHV6Mito (in vitro); post-viral antioxidant depletion in Long COVID @Al-Hakeim2023LongCOVIDOx. Biochemical framework for oxidative CoQ10 consumption @Morris2013CoQ10 (cert 0.65). Unified causal chain never directly tested.],
+  citations: [@Maes2009CoQ10 @Morris2013CoQ10 @Morris2014Mito @Maes2014OSEs @Maes2021Reification @Schreiner2020HHV6Mito @Al-Hakeim2023LongCOVIDOx],
+  mechanism: [Persistent/reactivating infection → sustained ROS load → oxidative consumption of CoQ10 (a regenerable lipophilic antioxidant quenching lipid peroxyl radicals) faster than ETC/GSH/vitamin-E regeneration → contributes to documented CoQ10 deficiency. Self-amplifying via ROS→ETC damage→more ROS feed-forward loop.],
+  chapter-ref: [ch07:@spec:coq10-infection-consumption],
+  prediction: [Pathogen-burden markers (EBV/HHV-6 load or composite infection-activity index) correlate inversely with plasma/tissue CoQ10 and positively with lipid-peroxidation markers; suppression of viral reactivation is followed by a rise in CoQ10 / fall in lipid-peroxidation markers. Refuted if CoQ10 deficiency occurs without elevated oxidative-consumption markers or if pathogen burden and CoQ10 are uncorrelated after adjustment.],
+  treatment: [If confirmed, controlling infection/oxidative source may matter as much as CoQ10 repletion (leaking-tank logic); not a clinical recommendation — inference only. No direct evidence antiviral therapy restores CoQ10.],
+  limitation: [Causal arrow untested; competing biosynthesis-defect mechanism @Laredj2014CoQBiosynth (cert 0.70) not excluded (see @oq:coq10-consumption-vs-biosynthesis). HHV-6 evidence in vitro only; Long COVID analogy not ME/CFS-replicated. All CoQ10 data plasma, not tissue.],
+)
+
+#registry-entry(
+  [Is ME/CFS CoQ10 Deficiency Driven by Oxidative Consumption or Impaired Biosynthesis?],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Documented low CoQ10 @Maes2009CoQ10 consistent with two untested-against-each-other mechanisms: oxidative consumption (@spec:coq10-infection-consumption) vs impaired biosynthesis @Laredj2014CoQBiosynth (COQ genetics, biogenesis downregulation, statins, malabsorption).],
+  citations: [@Maes2009CoQ10 @Laredj2014CoQBiosynth @Morris2013CoQ10],
+  mechanism: [Not a mechanistic claim — a discrimination agenda. Consumption-dominant predicts high CoQ10 turnover + elevated oxidative markers + intact biosynthesis-gene expression; biosynthesis-dominant predicts low turnover + reduced biosynthetic-gene expression.],
+  chapter-ref: [ch07:@oq:coq10-consumption-vs-biosynthesis],
+  prediction: [A single cohort measuring CoQ10 turnover kinetics, pathogen-activity biomarkers, COQ-biosynthesis gene expression, and tissue CoQ10 would separate the two mechanisms. Each arm is individually falsifiable.],
+  treatment: [Determines whether priority is infection/oxidative control vs straightforward repletion for a CoQ10-deficient patient.],
+  limitation: [No study has co-measured turnover, pathogen burden, and biosynthesis genes in ME/CFS. All existing CoQ10 data are static plasma levels.],
+)
+
+=== Entries added 2026-07-17: Microglial Mitochondrial Dysregulation from Borrelia / Bartonella
+
+#registry-entry(
+  [Borrelia burgdorferi Directly Activates Human Microglia — Bacterial Counterpart to Viral Microglial Coverage],
+  type: "ACH",
+  certainty: "0.70",
+  evidence: [Six+ independent studies across three labs: Bb directly activates human and primate microglia via TLR1/TLR2/MyD88→NF-κB→TNF-α, IL-1β, IL-6, chemokines @Myers2009Microglia (PLoS Pathog, cert 0.70) @Parthasarathy2015MicrogliaTLR (J Neuroinflamm, cert 0.70) @CassianiIngoni2006MicrogliaTLR (J Neuropathol Exp Neurol, cert 0.65, human microglia) @Kuhlow2005MicrogliaPhag (J Neuroimmunol, cert 0.65). Non-viable Bb debris suffices to sustain microglial activation @Parthasarathy2022NonviableBb (cert 0.65) — explains post-antibiotic neuroinflammation. In vivo human PET confirms glial activation persists years after treatment in PTLDS @Coughlin2018PTLDSglialPET (n=12, cert 0.60).],
+  citations: [@Myers2009Microglia @Parthasarathy2015MicrogliaTLR @CassianiIngoni2006MicrogliaTLR @Kuhlow2005MicrogliaPhag @Parthasarathy2022NonviableBb @Coughlin2018PTLDSglialPET],
+  mechanism: [Bb→TLR1/TLR2 on human microglia→MyD88→NF-κB + MAPK→proinflammatory cytokine release (TNF-α, IL-1β, IL-6, CCL2, CXCL10). Microglia are necessary intermediaries — Bb alone does not directly kill neurons; microglial inflammatory response is required. Non-viable bacterial debris sustains this activation → convergent neuroimmunological endpoint for viral and bacterial post-infectious ME/CFS triggers. Complement to the existing viral microglial coverage in @sec:glial.],
+  chapter-ref: [ch07:@sec:tick-borne; ch08:@sec:glial (microglial activation paragraph)],
+  prediction: [Not a hypothesis — established finding. Would be refuted if a well-powered study found Bb does not activate human microglia, but evidence against this scenario is strong (6+ studies, 3 labs, human and primate cells).],
+  treatment: [The activation mechanism explains post-antibiotic symptom persistence (non-viable debris sustains inflammation) — clinically useful for patient education but no direct therapeutic target identified at this stage. Research-stage only.],
+  limitation: [In vitro microglial studies (primate and human cell lines/primary); in vivo human evidence is a single pilot PET study (n=12). No ME/CFS-specific microglial data; evidence is from neuroborreliosis/PTLDS models. Does not establish that microglial activation is present in ME/CFS patients with a tick-borne trigger — only that Bb can cause it and that PTLDS patients show it.],
+)
+
+#registry-entry(
+  [Microglial Mitochondrial Dysfunction After Bb/Bartonella — Untested Deductive Hypothesis],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Upstream: Bb→TLR→microglial activation well-established (cert 0.70, 6+ studies). Bb drives M1 microglial polarisation with iNOS induction @Akinlusi2025MicrogliaPolar (cert 0.45). Bb induces oxidative stress in host cells, likely mitochondrial targets @Peacock2015LymeOxidative (cert 0.50). Bb OMVs induce ROS in neuronal cells @Wawrzeniak2020BbOMVOxidative (cert 0.50). Downstream: ME/CFS exosomal mtDNA activates human microglia to produce IL-1β @Tsilioni2022exosome (cert 0.55). Middle: NO study has measured mitochondrial function in microglia after Bb/Bartonella exposure — the central link is a complete blank. Bartonella microglial infection: single 2001 feline study @Munana2001BartonellaMicroglia (cert 0.55).],
+  citations: [@Myers2009Microglia @Parthasarathy2015MicrogliaTLR @Akinlusi2025MicrogliaPolar @Peacock2015LymeOxidative @Wawrzeniak2020BbOMVOxidative @Tsilioni2022exosome @Munana2001BartonellaMicroglia @Parthasarathy2022NonviableBb],
+  mechanism: [Sustained TLR→NF-κB→iNOS→NO→mitochondrial complex inhibition→mtDNA release→NLRP3/cGAS-STING→sustained IL-1β. M1 polarisation→Warburg-like glycolytic shift→impaired mitophagy→accumulation of damaged mitochondrial mass. A deductive assembly: the upstream (Bb→microglia TLR) and downstream (mtDNA→microglia IL-1β) are separately documented; the middle (mitochondrial dysfunction in microglia after bacterial infection) has never been measured.],
+  chapter-ref: [ch07:@spec:microglial-mitochondrial-borrelia],
+  prediction: [Primary/iPSC-derived human microglia exposed to live and non-viable B. burgdorferi in vitro will show reduced mitochondrial respiration (Seahorse OCR), elevated ECAR, and detectable mtDNA release within 24 h. Falsified if microglia maintain normal respiration and produce no mtDNA after 48 h Bb exposure at any MOI. Experimentally straightforward, never done.],
+  treatment: [Pure basic science — no clinical application at this stage. Identifies a specific, testable gap rather than an undifferentiated "neuroinflammation" construct.],
+  limitation: [The central step (microglial mitochondrial dysfunction) is unmeasured — this is a gap-identification hypothesis, not a finding. M1 polarisation data from HMC3 cell line only; Bb oxidative stress studies in non-microglial cell types; Bartonella microglial data in feline cells only, 2001, no human replication; whole chain deductive not empirical. Certainty 0.20 reflects the weight of separately-documented components but zero direct evidence for the assembled mechanism.],
+)
+
+#registry-entry(
+  [Two-Hit Microglial Priming: Borrelia as Primer, Exercise mtDNA as Second Hit],
+  type: "S",
+  certainty: "0.30",
+  evidence: [Priming: Bb upregulates TLR1/TLR2 and NLRP3/pro-IL-1β in human microglia @CassianiIngoni2006MicrogliaTLR (cert 0.65) @Myers2009Microglia (cert 0.70). Second hit: exercise-induced exosomal mtDNA activates human microglia to secrete IL-1β in ME/CFS @Tsilioni2022exosome (cert 0.55). Two-hit NLRP3 biology established in macrophages; not specifically demonstrated in Bb-exposed human microglia. Origin: brainstorm (idea 1.3).],
+  citations: [@CassianiIngoni2006MicrogliaTLR @Myers2009Microglia @Tsilioni2022exosome],
+  mechanism: [Bb exposure primes microglia (TLR/NLRP3 upregulation) but does not alone trigger IL-1β secretion (canonical NLRP3 requires priming + activation). The second hit — exercise-induced exosomal mtDNA — activates NLRP3, producing mature IL-1β and the PEM crash. Pacing prevents mtDNA release from exercise, thus preventing the second hit. Molecular mechanism for PEM in tick-borne-triggered ME/CFS specifically.],
+  chapter-ref: [ch07:@spec:microglial-two-hit-priming],
+  prediction: [Bb-exposed primary microglia (24 h): elevated NLRP3/pro-IL-1β mRNA but minimal mature IL-1β. Addition of mtDNA (10 μg/mL) at 24 h → 5–10× IL-1β increase vs mtDNA alone or Bb alone, blocked by MCC950 (NLRP3) and DNase. Falsified if Bb alone drives full IL-1β (single-hit) or mtDNA does not amplify.],
+  treatment: [Pacing justified by a specific molecular mechanism (prevents exercise mtDNA second-hit on primed microglia), not just by general energy conservation. No direct treatment implication beyond pacing.],
+  limitation: [NLRP3 two-hit biology in Bb-exposed human microglia not specifically demonstrated; priming-by-Bb inferred from TLR upregulation studies, not from a direct Bb-primed + mtDNA-triggered experiment. Applies to tick-borne-triggered ME/CFS specifically; viral-triggered PEM may involve different priming signals. Certainty 0.30 — inferential assembly of separately-plausible components. Origin: brainstorm.],
+)
+
+#registry-entry(
+  [Serum Exosomal mtDNA + Tick Serology Stratification Panel],
+  type: "OQ",
+  certainty: "0.35",
+  evidence: [Post-exercise exosomal mtDNA elevated in ME/CFS @Tsilioni2022exosome (cert 0.55) but never stratified by trigger type. If tick-borne-triggered ME/CFS involves a separate NO $arrow.r$ mito $arrow.r$ mtDNA pathway, seropositive patients with elevated post-exercise exosomal mtDNA might identify the subgroup for microglial-targeted trials. Panel: exosomal mtDNA post-exercise + Borrelia C6 peptide IgG + Bartonella IgG (approximately USD 150). PPV untested. Origin: brainstorm (idea 9.2).],
+  citations: [@Tsilioni2022exosome],
+  mechanism: [Not a mechanistic claim — a stratification/biomarker proposal. Hypothesis: tick-borne-triggered ME/CFS patients will show higher post-exercise exosomal mtDNA than viral-triggered, and mtDNA reduction will correlate with response to microglial-targeted interventions.],
+  chapter-ref: [ch07:@oq:exosomal-mtdna-tick-serology-panel],
+  prediction: [In a cohort with documented tick-exposure history + ME/CFS, seropositive patients (Borrelia C6 IgG+) will show ≥30% higher post-exercise exosomal mtDNA than seronegative patients. Panel AUC ≥0.75 for predicting response to a microglial-targeted intervention. Falsified if mtDNA does not differ by serostatus or does not correlate with treatment response.],
+  treatment: [Research-stage stratification tool only; not for clinical use. Could identify who to enroll in trials of microglial-targeted agents.],
+  limitation: [mtDNA trigger-type stratification completely untested. Borrelia serology has known sensitivity/specificity limitations. Panel PPV for treatment-response prediction is nil — unmeasured. No data on whether mtDNA response to exercise differs between tick-borne and viral ME/CFS. Serial pharmacodynamic application (pre/post-intervention mtDNA) is also untested. Origin: brainstorm.],
+)
+
+

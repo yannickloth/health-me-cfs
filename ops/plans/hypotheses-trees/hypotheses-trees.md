@@ -45,7 +45,9 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| coq10-infection-depletion | [subtrees/coq10-infection-depletion.md](subtrees/coq10-infection-depletion.md) | 2026-07-17 | 44 | 4 | ✅ done |
 | tick-borne-symptom-domains | [subtrees/tick-borne-symptom-domains.md](subtrees/tick-borne-symptom-domains.md) | 2026-07-16 | 44 | 6 | ✅ done |
+| microglial-mitochondrial-borrelia | [subtrees/microglial-mitochondrial-borrelia.md](subtrees/microglial-mitochondrial-borrelia.md) | 2026-07-17 | 46 | 0 | ⬜ pending |
 | babesia-50pct-mecfs | [subtrees/babesia-50pct-mecfs.md](subtrees/babesia-50pct-mecfs.md) | 2026-07-16 | 14 | 9 | ✅ done |
 | hypothalamic-crh-neuron-depletion | [subtrees/hypothalamic-crh-neuron-depletion.md](subtrees/hypothalamic-crh-neuron-depletion.md) | 2026-07-12 | 14 | 13 | ✅ done |
 | postcovid-ocular-syndrome | [subtrees/postcovid-ocular-syndrome.md](subtrees/postcovid-ocular-syndrome.md) | 2026-07-09 | 35 | 2 | ✅ done |
@@ -303,5 +305,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | peripheral-serotonin-depletion | [subtrees/peripheral-serotonin-depletion.md](subtrees/peripheral-serotonin-depletion.md) | 2026-06-26 | 23 | 2 | 🔵 in progress |
 | inadequate-treatment-duration-research | [subtrees/inadequate-treatment-duration-research.md](subtrees/inadequate-treatment-duration-research.md) | 2026-07-15 | 38 | 18 | ✅ done |
 | herpesvirus-antibody-persistence | [subtrees/herpesvirus-antibody-persistence.md](subtrees/herpesvirus-antibody-persistence.md) | 2026-07-16 | 22 | 0 | 🔵 in progress |
+| glycolytic-reprogramming-tickborne | [subtrees/glycolytic-reprogramming-tickborne.md](subtrees/glycolytic-reprogramming-tickborne.md) | 2026-07-17 | 46 | 7 | 🔵 in progress |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.

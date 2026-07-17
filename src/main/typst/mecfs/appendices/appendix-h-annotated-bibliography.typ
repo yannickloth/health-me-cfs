@@ -26637,3 +26637,511 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Documented fatal outcomes from prolonged IV antibiotics for "chronic Lyme"
     *Conclusion:*: Treatments for "chronic Lyme disease" carry serious, potentially fatal risks. No evidence of benefit justifies these harms.
     *Limitations:*: Case series (n=5), not population-level incidence. May underestimate prevalence as passive surveillance.
+
+// =============================================================================
+// GLYCOLYTIC REPROGRAMMING — TICK-BORNE PATHOGENS (2026-07-17)
+// =============================================================================
+
+== Glycolytic Reprogramming in the Host Response to Tick-Borne Pathogens
+<sec:bib-glycolytic-reprogramming-tickborne>
+
+*Context:* These papers address whether Borrelia, Bartonella, and Babesia drive glycolytic reprogramming in host cells analogous to the viral glial reprogramming mechanism. The evidence is overwhelmingly in vitro or animal-based; direct ME/CFS-specific evidence is absent. The mechanistic parallels are strong, particularly for Bartonella (HIF-1α activation via Kempf2005) and Borrelia (trained immunity with glycolytic switch via Barriales2021).
+
+=== Dong 2026 — Glycolytic Reprogramming in Host Response to B. burgdorferi
+
+    *Full Citation:*: Dong Y, Chen Y, Luo Y, Liu M, Song C, Chen X, Yang F, Luo Q, Zhou G.\ Glycolytic reprogramming in host response to Borrelia burgdorferi. _Experimental and Therapeutic Medicine_. 2026;32(1):187. @Dong2026BorreliaGlycolysis
+    *DOI:*: #link("https://doi.org/10.3892/etm.2026.13182")[10.3892/etm.2026.13182]
+    *PMID:*: 42199349
+    *Study Design:*: Bioinformatics + in vitro validation (THP-1 human monocytic cell line)
+    *Key Findings:*:
+        - 63 differentially expressed glycolysis-related genes in Borrelia burgdorferi infection
+        - LDHA and TXN identified as key diagnostic genes via LASSO and SVM-RFE
+        - RT-qPCR confirmed LDHA and TXN upregulation in Bb-infected THP-1 cells
+        - Reduced extracellular glucose and increased lactate accumulation
+        - Immune infiltration: LDHA/TXN linked to Tregs, γδ T cells, CD4 memory resting T cells, monocytes
+    *Conclusion:*: Borrelia burgdorferi drives a Warburg-like glycolytic shift in human monocytes (↑LDHA → ↑lactate), contributing to LD immunopathology.
+    *Limitations:*: Single cell line (THP-1); bioinformatics-heavy with limited functional validation; single timepoint; no primary human cells; no ME/CFS context.
+
+=== Barriales 2021 — B. burgdorferi Induces Long-Term Macrophage Memory with Glycolytic Reprogramming
+
+    *Full Citation:*: Barriales D, Martín-Ruiz I, Carreras-González A, et al.\ Borrelia burgdorferi infection induces long-term memory-like responses in macrophages with tissue-wide consequences in the heart. _PLoS Biology_. 2021;19(1):e3001062. @Barriales2021BorreliaMacrophage
+    *DOI:*: #link("https://doi.org/10.1371/journal.pbio.3001062")[10.1371/journal.pbio.3001062]
+    *PMID:*: 33395408
+    *Study Design:*: In vitro + in vivo mouse model (transcriptomics, proteomics, metabolomics)
+    *Key Findings:*:
+        - Broad transcriptomic/proteomic changes in heart: profound downregulation of mitochondrial components
+        - Bb-exposed macrophages: augmented glycolytic output, increased spirochetal binding, reduced inflammatory responses
+        - Glycolysis inhibition in vitro: reduces TNF production by memory macrophages
+        - In vivo glycolysis inhibition: reverses memory phenotype, recovers mitochondrial components, decreases inflammation and spirochetal burdens
+    *Conclusion:*: Bb induces long-term trained immunity with glycolytic reprogramming that is reversible by metabolic intervention — directly analogous to the viral glial reprogramming paradigm.
+    *Limitations:*: Mouse model; cardiac focus may not generalize to other tissues; in vivo glycolysis inhibition used broad-spectrum inhibitor (2-DG) with pleiotropic effects.
+
+=== Kerstholt 2022 — B. burgdorferi Alters Monocyte Glucose Metabolism and Lactate
+
+    *Full Citation:*: Kerstholt M, van de Schoor FR, Oosting M, et al.\ Identifying platelet-derived factors as amplifiers of B. burgdorferi-induced cytokine production. _Clinical and Experimental Immunology_. 2022;210(1):53-67. @Kerstholt2022BorreliaLactate
+    *DOI:*: #link("https://doi.org/10.1093/cei/uxac073")[10.1093/cei/uxac073]
+    *PMID:*: 36001729
+    *Study Design:*: Human in vitro (primary monocytes) + GWAS
+    *Key Findings:*:
+        - Bb exposure decreases baseline glycolysis (lactate production) in human monocytes
+        - MFAP3L identified via GWAS: influences lactate and cytokine production after Bb
+        - MFAP3L mediates effects via ERK2 activation and platelet degranulation
+        - CXCL7 and CCL5 elevated in circulation of LB patients vs healthy
+    *Conclusion:*: Bb modulates monocyte lactate production via the novel MFAP3L→ERK2→platelet axis. Bidirectional metabolic effects suggest complex, context-dependent host glycolytic response.
+    *Limitations:*: Decreased lactate finding contrasts with Dong2026 (increased lactate); in vitro only for mechanistic experiments; GWAS requires replication in larger cohorts.
+
+=== Oosting 2016 — Functional Genomics of Borrelia-Induced Cytokine Responses
+
+    *Full Citation:*: Oosting M, Kerstholt M, Ter Horst R, et al.\ Functional and genomic architecture of Borrelia burgdorferi-induced cytokine responses in humans. _Cell Host & Microbe_. 2016;20(6):822-833. @Oosting2016BorreliaCytokine
+    *DOI:*: #link("https://doi.org/10.1016/j.chom.2016.10.006")[10.1016/j.chom.2016.10.006]
+    *PMID:*: 27818078
+    *Study Design:*: Human in vitro (primary monocytes, two healthy cohorts, n=~500)
+    *Key Findings:*:
+        - Non-genetic and genetic host factors influence Borrelia-induced cytokine production
+        - Age strongly impairs IL-22 responses
+        - Genetic variants in immune genes identified
+        - Monocyte glucose metabolism is altered by Borrelia (framework for Kerstholt 2022)
+    *Conclusion:*: Host genetic variation shapes Borrelia-induced immune responses, providing the framework for subsequent immunometabolic studies.
+    *Limitations:*: In vitro stimulation only; healthy donors not Lyme patients; pre-dates detailed metabolic characterization.
+
+=== Bernard 2020 — Borrelia Induces Cell-Type-Specific Trained Immunity
+
+    *Full Citation:*: Bernard Q, Hu LT.\ Innate immune memory to repeated Borrelia burgdorferi exposure. _Journal of Immunology_. 2020;205(12):3383-3389. @Bernard2020BorreliaTrained
+    *DOI:*: #link("https://doi.org/10.4049/jimmunol.2000686")[10.4049/jimmunol.2000686]
+    *PMID:*: 33168577
+    *Study Design:*: In vitro + ex vivo mouse model
+    *Key Findings:*:
+        - Murine fibroblast-like synoviocytes display trained immunity upon Bb exposure
+        - Trained phenotype correlates with Lyme arthritis susceptibility (C3H > C57BL/6)
+        - Skin fibroblasts do NOT exhibit trained immunity (tissue specificity)
+        - Host genetic background affects trained phenotype
+    *Conclusion:*: Borrelia induces trained immunity in a cell-type-specific manner, influenced by host genetics.
+    *Limitations:*: Short report format; mouse only; limited mechanistic depth; no direct glycolytic measurements.
+
+=== Lynch 2023 — Borrelia burgdorferi Is Obligately Glycolytic; LDH as Drug Target
+
+    *Full Citation:*: Lynch A, Pearson P, Savinov SN, Li AY, Rich SM.\ Lactate dehydrogenase inhibitors suppress Borrelia burgdorferi growth in vitro. _Pathogens_. 2023;12(7):962. @Lynch2023LDHBorrelia
+    *DOI:*: #link("https://doi.org/10.3390/pathogens12070962")[10.3390/pathogens12070962]
+    *PMID:*: 37513809
+    *Study Design:*: In vitro axenic culture
+    *Key Findings:*:
+        - Bb has highly reduced genome, relies heavily on glycolysis for carbon metabolism
+        - LDH inhibitors (gossypol, oxamate, galloflavin, stiripentol) suppress Bb growth dose-dependently
+    *Conclusion:*: Bb's obligate glycolytic metabolism means a host glycolytic environment may favor spirochetal persistence — potential mechanism for ongoing immune activation in PTLDS.
+    *Limitations:*: In vitro only; no host cells; single species; therapeutic concentrations may not be achievable in vivo.
+
+=== Kempf 2005 — Bartonella henselae Activates HIF-1α in Host Cells
+
+    *Full Citation:*: Kempf VAJ, Lebiedziejewski M, Alitalo K, et al.\ Activation of hypoxia-inducible factor-1 in bacillary angiomatosis: evidence for a role of hypoxia-inducible factor-1 in bacterial infections. _Circulation_. 2005;111(8):1054-1062. @Kempf2005BartonellaHIF1
+    *DOI:*: #link("https://doi.org/10.1161/01.CIR.0000155608.07691.B7")[10.1161/01.CIR.0000155608.07691.B7]
+    *PMID:*: 15723970
+    *Study Design:*: In vitro + human tissue immunohistochemistry
+    *Key Findings:*:
+        - B. henselae activates HIF-1α in infected host cells (immunofluorescence, Western blot, EMSA, reporter gene, microarray)
+        - HIF-1α essential for B. henselae-induced VEGF expression (siRNA inhibition)
+        - Infection increases oxygen consumption, causes cellular hypoxia, decreases ATP
+        - Pilus-negative variant does not activate HIF-1α or VEGF
+    *Conclusion:*: Bartonella stabilizes HIF-1α → VEGF → cellular hypoxia → decreased ATP. First demonstration of HIF-1α in any bacterial infection. Directly parallels viral HIF-1α → glycolytic shift mechanism.
+    *Limitations:*: 2005 publication; no direct glycolytic flux measurements; bacillary angiomatosis-specific (not typical Bartonella presentation in ME/CFS); no ME/CFS context.
+
+=== Ohmori 2004 — Babesia-Infected Erythrocytes Show Increased Glucose Uptake
+
+    *Full Citation:*: Ohmori T, Adachi K, Fukuda Y, Tamahara S, Matsuki N, Ono K.\ Glucose uptake activity in murine red blood cells infected with Babesia microti and Babesia rodhaini. _Journal of Veterinary Medical Science_. 2004;66(8):945-949. @Ohmori2004BabesiaGlucose
+    *DOI:*: #link("https://doi.org/10.1292/jvms.66.945")[10.1292/jvms.66.945]
+    *PMID:*: 15353845
+    *Study Design:*: Animal (mouse), radiolabeled glucose uptake assay
+    *Key Findings:*:
+        - Babesia-infected RBCs show increased glucose and L-glucose uptake vs uninfected
+        - De novo, non-transporter-mediated uptake systems develop
+        - Two distinct systems: one common to B. microti and B. rodhaini, another with higher activity in B. microti
+        - Sodium-independent, temperature-sensitive
+    *Conclusion:*: Babesia-infected RBCs develop novel glucose uptake pathways, effectively a glycolytic reprogramming of the erythrocyte — suggesting increased glucose consumption as part of the host-parasite metabolic interaction.
+    *Limitations:*: Small n; pooled mouse blood; single assay method; no human data; older publication (2004); no protein/molecular characterization of the novel uptake system.
+
+=== Fitzgerald 2021 — PTLDS Metabolomic Profile (Glycolysis-Null Finding)
+
+    *Full Citation:*: Fitzgerald BL, Graham B, Delorey MJ, et al.\ Metabolic response in patients with post-treatment Lyme disease symptoms/syndrome. _Clinical Infectious Diseases_. 2021;73(7):e2342-e2349. @Fitzgerald2021PTLDSMetabolic
+    *DOI:*: #link("https://doi.org/10.1093/cid/ciaa1455")[10.1093/cid/ciaa1455]
+    *PMID:*: 32975577
+    *Study Design:*: Untargeted LC-MS metabolomics, multi-timepoint longitudinal, two-cohort validation
+    *Sample Size:*: PTLDS patients vs clinically cured non-PTLDS Lyme patients
+    *Key Findings:*:
+        - Observable metabolic differences between PTLDS and non-PTLDS at multiple time points
+        - Differentially abundant metabolites: glycerophospholipids, bile acids, acylcarnitines (NOT glycolytic metabolites)
+        - Greater metabolic variability in PTLDS patients
+        - 6-40 metabolites discriminate PTLDS from non-PTLDS at defined time points
+        - Validated in second cohort
+    *Conclusion:*: PTLDS has a distinct metabolomic signature. Non-glycolytic pathways (phospholipid, bile acid, acylcarnitine) dominate serum metabolome — consistent with upstream mitochondrial dysfunction rather than direct glycolytic shift. Host glycolytic changes may be cell-type specific and not detectable in serum.
+    *Limitations:*: Serum metabolomics may miss cell-type-specific or tissue-level metabolic changes (e.g., in macrophages or synoviocytes); not ME/CFS-specific; cross-sectional at each time point.
+
+// =============================================================================
+
+== Microglial Mitochondrial Dysregulation from Borrelia/Bartonella Infection
+<sec:bib-microglial-mitochondrial-borrelia>
+// =============================================================================
+
+=== Myers 2009 — Microglia Mediate Borrelia-Induced Neuronal Apoptosis
+
+    *Full Citation:*: Myers TA, Kaushal D, Philipp MT.\ Microglia are mediators of Borrelia burgdorferi-induced apoptosis in SH-SY5Y neuronal cells. _PLoS Pathogens_. 2009;5(11):e1000659. @Myers2009Microglia
+    *DOI:*: #link("https://doi.org/10.1371/journal.ppat.1000659")[10.1371/journal.ppat.1000659]
+    *PMID:*: 19911057
+    *Study Design:*: In vitro co-culture (primary rhesus microglia + SH-SY5Y neuroblastoma + live Bb)
+    *Key Findings:*:
+        - Bb alone does not induce neuronal apoptosis; microglia + Bb produces robust inflammatory cytokine/chemokine expression
+        - Neurons + microglia + Bb → neuronal apoptosis via caspase-3
+        - Microglial conditioned medium sufficient (soluble mediators: TNF-α, IL-1β)
+    *Conclusion:*: Microglia are necessary intermediaries for Bb-induced neuronal injury.
+    *Limitations:*: In vitro; rhesus not human microglia; cell line neurons; no mitochondrial readouts.
+
+=== Kuhlow 2005 — Microglia as Phagocytes for Borrelia
+
+    *Full Citation:*: Kuhlow CJ, Garcia-Monco JC, Coleman JL, Benach JL.\ Murine microglia are effective phagocytes for Borrelia burgdorferi. _Journal of Neuroimmunology_. 2005;168(1-2):183-187. @Kuhlow2005MicrogliaPhag
+    *DOI:*: #link("https://doi.org/10.1016/j.jneuroim.2005.06.030")[10.1016/j.jneuroim.2005.06.030]
+    *PMID:*: 16125249
+    *Study Design:*: In vitro murine microglial phagocytosis assay
+    *Key Findings:*:
+        - Microglia rapidly phagocytose live Bb → proinflammatory cytokine release
+        - Microglial clearance may explain spirochete scarcity in CNS
+    *Conclusion:*: Microglia are first-line CNS defenders against Bb; immediate activation upon exposure.
+    *Limitations:*: Murine cells; no human confirmation; no mitochondrial assays.
+
+=== Parthasarathy 2015 — Multi-Receptor Microglial Activation by Borrelia
+
+    *Full Citation:*: Parthasarathy G, Philipp MT.\ Inflammatory mediator release from primary rhesus microglia in response to Borrelia burgdorferi results from the activation of several receptors and pathways. _Journal of Neuroinflammation_. 2015;12:60. @Parthasarathy2015MicrogliaTLR
+    *DOI:*: #link("https://doi.org/10.1186/s12974-015-0274-z")[10.1186/s12974-015-0274-z]
+    *PMID:*: 25889406
+    *Study Design:*: In vitro rhesus microglia + live Bb; TLR blocking; signaling inhibitors
+    *Key Findings:*:
+        - Bb activates microglia via TLR1/TLR2/TLR5 → MyD88/TRIF → NF-κB/MAPK
+        - TNF-α, IL-6, IL-12, CCL2, CXCL10 all upregulated
+        - Multiple receptor redundancy — single-target blockade only partially effective
+    *Conclusion:*: Microglial inflammatory response to Bb is multi-receptor, multi-pathway.
+    *Limitations:*: In vitro; rhesus cells; no mitochondrial readouts.
+
+=== Cassiani-Ingoni 2006 — TLR1/TLR2 in Human Microglia
+
+    *Full Citation:*: Cassiani-Ingoni R, et al.\ Borrelia burgdorferi induces TLR1 and TLR2 in human microglia and peripheral blood monocytes but differentially regulates HLA-class II expression. _Journal of Neuropathology and Experimental Neurology_. 2006;65(6):540-548. @CassianiIngoni2006MicrogliaTLR
+    *DOI:*: #link("https://doi.org/10.1097/00005072-200606000-00002")[10.1097/00005072-200606000-00002]
+    *PMID:*: 16783164
+    *Study Design:*: In vitro human fetal microglia, astrocytes, neurons + Bb; oligoarray gene expression
+    *Key Findings:*:
+        - Bb upregulates TLR1/TLR2 in primary human microglia (critical species translation)
+        - Broad transcriptional response encompassing 30+ immune genes
+        - Differential HLA class II regulation: microglia upregulate, PBMCs downregulate
+    *Conclusion:*: Human microglia recognize Bb through TLR1/TLR2 with a distinct transcriptional program.
+    *Limitations:*: Fetal tissue; in vitro; no mitochondrial gene expression data.
+
+=== Parthasarathy 2023 — FGF/FGFR System in Borrelia-Induced Neuroinflammation
+
+    *Full Citation:*: Parthasarathy G, Pattison MB, Midkiff CC.\ The FGF/FGFR system in the microglial neuroinflammation with Borrelia burgdorferi: likely intersectionality with other neurological conditions. _Journal of Neuroinflammation_. 2023;20(1):10. @Parthasarathy2023FGFRmicroglia
+    *DOI:*: #link("https://doi.org/10.1186/s12974-022-02681-x")[10.1186/s12974-022-02681-x]
+    *PMID:*: 36650549
+    *Study Design:*: In vitro rhesus microglia + Bb; RNA-seq; FGFR pathway analysis
+    *Key Findings:*:
+        - Bb upregulates FGF2 and FGFR1 in microglia
+        - FGFR signaling contributes to inflammatory mediator production
+        - Links neuroborreliosis to Alzheimer's/MS — shared neuroinflammatory pathways
+    *Conclusion:*: FGF/FGFR system is a common mechanism linking neuroborreliosis to neurodegenerative diseases.
+    *Limitations:*: In vitro; rhesus; no mitochondrial analysis.
+
+=== Xu 2023 — BmpA Protein Alone Stimulates Microglia
+
+    *Full Citation:*: Xu X, et al.\ A key protein from Borrelia burgdorferi could stimulate cytokines in human microglial cells and inhibitory effects of Cucurbitacin IIa. _IBRO Neuroscience Reports_. 2023;15:376-385. @Xu2023BmpAmicroglia
+    *DOI:*: #link("https://doi.org/10.1016/j.ibneur.2023.11.004")[10.1016/j.ibneur.2023.11.004]
+    *PMID:*: 38046885
+    *Study Design:*: In vitro HMC3 human microglia + recombinant BmpA; cytokine chip + qPCR
+    *Key Findings:*:
+        - Recombinant BmpA (Bb membrane protein) alone induces IL-6, IL-8, MCP-1, GRO from microglia
+        - Intact spirochete not required — single protein sufficient for inflammatory response
+        - Cucurbitacin IIa (plant compound) inhibits cytokine production
+    *Conclusion:*: Individual Bb components can trigger microglial inflammatory response.
+    *Limitations:*: HMC3 immortalized cell line; recombinant protein only; no mitochondrial data.
+
+=== Akinlusi 2025 — Borrelia Shifts Microglia to M1 Polarization
+
+    *Full Citation:*: Akinlusi I, et al.\ Human microglia polarization following infection with the Lyme disease spirochete. _Journal of Investigative Medicine_. 2025;73(1):172-178. @Akinlusi2025MicrogliaPolar
+    *DOI:*: #link("https://doi.org/10.1177/10815589241290206")[10.1177/10815589241290206]
+    *PMID:*: 39324305
+    *Study Design:*: In vitro HMC3 human microglia + Bb; M1/M2 polarization markers
+    *Key Findings:*:
+        - Bb shifts microglia toward M1 (proinflammatory): iNOS, TNF-α, IL-1β upregulated
+        - M2 markers decreased: Arg-1, CD206
+        - M1 polarization would imply metabolic shift to aerobic glycolysis (not measured)
+    *Conclusion:*: Neuroborreliosis drives microglial M1 polarization, consistent with chronic neuroinflammation.
+    *Limitations:*: HMC3 cell line; limited polarization markers; no metabolic/mitochondrial assays.
+
+=== Muñana 2001 — Bartonella henselae Infects Microglia
+
+    *Full Citation:*: Munana KR, Vitek SM, Hegarty BC, Kordick DL, Breitschwerdt EB.\ Infection of fetal feline brain cells in culture with Bartonella henselae. _Infection and Immunity_. 2001;69(1):564-569. @Munana2001BartonellaMicroglia
+    *DOI:*: #link("https://doi.org/10.1128/IAI.69.1.564-569.2001")[10.1128/IAI.69.1.564-569.2001]
+    *PMID:*: 11119554
+    *Study Design:*: In vitro feline fetal microglial- and astrocyte-enriched cultures + B. henselae
+    *Key Findings:*:
+        - B. henselae infects and survives in feline microglia and astrocytes
+        - Non-cytolytic persistence — bacteria survive intracellularly without immediate cell death
+        - Establishes Bartonella can directly invade CNS glial cells
+    *Conclusion:*: Bartonella henselae can directly infect microglia — a mechanism for CNS involvement in cat-scratch disease.
+    *Limitations:*: Feline cells, not human; single study; no follow-up in human microglia; no mitochondrial or cytokine data.
+
+=== Coughlin 2018 — In Vivo Glial Activation in PTLDS (PET Imaging)
+
+    *Full Citation:*: Coughlin JM, et al.\ Imaging glial activation in patients with post-treatment Lyme disease symptoms: a pilot study using [11C]DPA-713 PET. _Journal of Neuroinflammation_. 2018;15(1):346. @Coughlin2018PTLDSglialPET
+    *DOI:*: #link("https://doi.org/10.1186/s12974-018-1381-4")[10.1186/s12974-018-1381-4]
+    *PMID:*: 30567544
+    *Study Design:*: Human PET imaging; [11C]DPA-713 TSPO ligand; PTLDS vs healthy controls
+    *Sample Size:*: 12 PTLDS, 19 controls
+    *Key Findings:*:
+        - Increased TSPO binding in PTLDS brains — evidence of glial activation
+        - Binding correlates with cognitive complaints, pain, fatigue
+        - Activation persists years after antibiotic treatment
+    *Conclusion:*: Glial activation is present in PTLDS patients and may drive persistent symptoms — first in vivo human evidence.
+    *Limitations:*: Small n (12); TSPO cannot distinguish microglia from astrocytes; no pre-treatment baseline.
+
+=== Parthasarathy 2022 — Non-Viable Borrelia Remnants Sustain Microglial Activation
+
+    *Full Citation:*: Parthasarathy G, Gadila SKG.\ Neuropathogenicity of non-viable Borrelia burgdorferi ex vivo. _Scientific Reports_. 2022;12(1):688. @Parthasarathy2022NonviableBb
+    *DOI:*: #link("https://doi.org/10.1038/s41598-021-03837-0")[10.1038/s41598-021-03837-0]
+    *PMID:*: 35027599
+    *Study Design:*: Ex vivo comparison of viable vs antibiotic-killed Bb effects on microglia
+    *Key Findings:*:
+        - Non-viable Bb remnants still activate microglia and induce neuroinflammation
+        - Antibiotic treatment does not eliminate the inflammatory stimulus
+        - Explains persistent symptoms in PTLDS after antibiotic treatment
+    *Conclusion:*: Microbial debris suffices for sustained microglial activation — important for PTLDS/ME/CFS overlap.
+    *Limitations:*: Ex vivo; mechanisms of debris recognition not fully characterized; no mitochondrial analysis.
+
+=== Peacock 2015 — Oxidative Stress in Lyme Disease
+
+    *Full Citation:*: Peacock BN, et al.\ New insights into Lyme disease. _Redox Biology_. 2015;5:66-70. @Peacock2015LymeOxidative
+    *DOI:*: #link("https://doi.org/10.1016/j.redox.2015.03.002")[10.1016/j.redox.2015.03.002]
+    *PMID:*: 25838067
+    *Study Design:*: Review + original oxidative stress data in Bb-infected cells
+    *Key Findings:*:
+        - Bb infection induces oxidative stress in multiple cell types
+        - Lipid peroxidation and protein carbonylation detected
+        - Mitochondria are primary targets of Bb-induced oxidative damage (inferred)
+    *Conclusion:*: Oxidative stress is a core pathological mechanism in Lyme disease; mitochondrial involvement likely.
+    *Limitations:*: Predominantly review; limited original mitochondrial data; not microglia-specific.
+
+=== Wawrzeniak 2020 — Borrelia Outer Membrane Vesicles Induce ROS
+
+    *Full Citation:*: Wawrzeniak K, et al.\ Effect of Borrelia burgdorferi outer membrane vesicles on host oxidative stress response. _Antibiotics_. 2020;9(5):275. @Wawrzeniak2020BbOMVOxidative
+    *DOI:*: #link("https://doi.org/10.3390/antibiotics9050275")[10.3390/antibiotics9050275]
+    *PMID:*: 32466166
+    *Study Design:*: In vitro BE2C neuroblastoma + Bb outer membrane vesicles
+    *Key Findings:*:
+        - Bb OMVs induce oxidative stress in neuronal cells (ROS production)
+        - OMV lipoproteins, DNA, RNA sufficient to trigger host stress responses
+        - Antioxidant gene expression altered
+    *Conclusion:*: Bb-derived OMVs are vehicles for host cell oxidative damage with mitochondrial implications.
+    *Limitations:*: Neuroblastoma cell line, not microglia; no direct mitochondrial function assays.
+
+=== Tsilioni 2022 — ME/CFS Exosomal mtDNA Activates Microglia
+
+    *Full Citation:*: Tsilioni I, Natelson B, Theoharides TC.\ Exosome-associated mitochondrial DNA from patients with myalgic encephalomyelitis/chronic fatigue syndrome stimulates human microglia to release IL-1β. _European Journal of Neuroscience_. 2022;56(10):5784-5794. @Tsilioni2022exosome
+    *DOI:*: #link("https://doi.org/10.1111/ejn.15828")[10.1111/ejn.15828]
+    *PMID:*: 36153118
+    *Study Design:*: In vitro HMC3 microglia + serum exosomes from ME/CFS patients; mtDNA quantification
+    *Key Findings:*:
+        - ME/CFS serum exosomes contain elevated mtDNA (post-exercise) vs healthy controls
+        - ME/CFS exosomes activate HMC3 microglia to release IL-1β
+        - DNase treatment blocks activation → mtDNA is the active moiety
+    *Conclusion:*: Exercise-induced exosomal mtDNA release in ME/CFS directly activates microglia — bridges mitochondrial dysfunction to neuroinflammation.
+    *Limitations:*: HMC3 cell line; small n (~20 ME/CFS, ~10 controls); post-exercise only; no subtyping.
+
+=== Chaves-Filho 2019 — Shared Microglial Mechanisms in CFS and Depression
+
+    *Full Citation:*: Chaves-Filho AJM, Macedo DS, de Lucena DF, Maes M.\ Shared microglial mechanisms underpinning depression and chronic fatigue syndrome and their comorbidities. _Behavioural Brain Research_. 2019;372:111975. @ChavesFilho2019MicrogliaCFS
+    *DOI:*: #link("https://doi.org/10.1016/j.bbr.2019.111975")[10.1016/j.bbr.2019.111975]
+    *PMID:*: 31136774
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Activated microglia contribute to both depression and CFS through shared cytokine pathways
+        - M1 polarization drives neuroinflammation
+        - Kynurenine pathway activation links inflammation to glutamate dysregulation
+    *Conclusion:*: Microglial activation is a transdiagnostic mechanism for neuroinflammatory symptoms.
+    *Limitations:*: Review; no original data; broad CFS/ME focus.
+
+=== Hirsch 2025 — GWAS Overlap Between PTLDS and ME/CFS
+
+    *Full Citation:*: Hirsch AG, et al.\ A comparison of genome-wide association analyses of persistent symptoms after Lyme disease, fibromyalgia, and myalgic encephalomyelitis — chronic fatigue syndrome. _BMC Infectious Diseases_. 2025;25(1):265. @Hirsch2025GWASPTLDSMECFS
+    *DOI:*: #link("https://doi.org/10.1186/s12879-024-10238-x")[10.1186/s12879-024-10238-x]
+    *PMID:*: 39994562
+    *Study Design:*: GWAS comparing PTLDS, FM, and ME/CFS
+    *Key Findings:*:
+        - No genome-wide significant loci for PTLDS (underpowered, ~200 cases)
+        - Suggestive genetic overlap between PTLDS, FM, and ME/CFS
+        - Shared pathways include immune function and neuroinflammation
+    *Conclusion:*: Tentative genetic evidence linking PTLDS to ME/CFS — supports shared neuroinflammatory susceptibility.
+    *Limitations:*: Underpowered for PTLDS; no microglia-specific or mitochondrial genes at genome-wide significance.
+
+// =============================================================================
+
+== Infection-Driven Coenzyme Q10 Depletion Hypothesis
+<sec:bib-coq10-infection-depletion>
+// =============================================================================
+
+=== Maes et al.\ 2009 — Foundational CoQ10 Deficiency in ME/CFS
+
+    *Full Citation:*: Maes M, Mihaylova I, Kubera M, Uytterhoeven M, Vrydags N, Bosmans E. Coenzyme Q10 deficiency in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is related to fatigue, autonomic and neurocognitive symptoms and is another risk factor explaining the early mortality in ME/CFS due to cardiovascular disorder. _Neuro Endocrinology Letters_. 2009;30(4):470–476. @Maes2009CoQ10
+    *PMID:*: 20010505
+    *Study Design:*: Case-control; plasma CoQ10 measurement
+    *Sample Size:*: n=58 ME/CFS, n=22 healthy controls
+    *Key Findings:*:
+        - Significantly lower plasma CoQ10 in ME/CFS vs controls
+        - CoQ10 deficiency correlated with fatigue severity, autonomic symptoms, and neurocognitive symptoms
+        - Attributed to oxidative stress (IO&NS pathways) but did not distinguish infection-driven consumption from other causes
+    *Conclusion:*: First documentation of CoQ10 deficiency in ME/CFS. Provides the observational foundation for the depletion hypothesis. Does not address mechanism of deficiency beyond general IO&NS activation.
+    *Limitations:*: Lower-tier journal; moderate sample size; single measurement (plasma CoQ10, not tissue levels); cross-sectional; no mechanistic decomposition.
+    *Certainty Assessment:*:
+        - *Quality:* Medium (Neuro Endocrinol Lett, single group)
+        - *Sample:* Moderate (n=58 ME/CFS, n=22 controls)
+        - *Replication:* Not independently replicated for CoQ10 specifically; consistent with Maes group's broader IO&NS findings
+        - *Score:* 0.55
+
+=== Maes & Twisk 2009 — IO&NS Pathways and Cardiovascular Risk in ME/CFS
+
+    *Full Citation:*: Maes M, Twisk FNM. Why myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) may kill you: disorders in the inflammatory and oxidative and nitrosative stress (IO&NS) pathways may explain cardiovascular disorders in ME/CFS. _Neuro Endocrinology Letters_. 2009;30(6):677–693. @Maes2009IOandNS
+    *PMID:*: 20038921
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Documents lowered antioxidant status in ME/CFS including CoQ10
+        - Identifies bacterial and viral infections as precipitating/perpetuating factors
+        - Proposes chronic IO&NS activation drives pathology
+    *Conclusion:*: Establishes IO&NS framework in which CoQ10 depletion occurs as part of broader antioxidant depletion.
+    *Limitations:*: Review; single-group perspective; no quantitative synthesis.
+    *Certainty Assessment:*:
+        - *Score:* 0.50
+
+=== Morris et al.\ 2013 — CoQ10 Depletion Across Medical Disorders (Biochemical Framework)
+
+    *Full Citation:*: Morris G, Anderson G, Berk M, Maes M. Coenzyme Q10 depletion in medical and neuropsychiatric disorders: potential repercussions and therapeutic implications. _Molecular Neurobiology_. 2013;48(3):883–903. @Morris2013CoQ10
+    *DOI:*: 10.1007/s12035-013-8477-8
+    *PMID:*: 23761046
+    *Study Design:*: Comprehensive mechanistic review
+    *Key Findings:*:
+        - CoQ10 functions as: (1) ETC electron carrier, (2) lipophilic antioxidant quenching lipid peroxidation, (3) membrane stabilizer
+        - CoQ10 is CONSUMED when neutralizing lipid peroxyl radicals (sacrificial antioxidant)
+        - Regeneration requires: (1) ETC re-reduction (Complex I/II → CoQ → CoQH2), (2) other antioxidants (GSH, vitamin E, vitamin C)
+        - Depletion mechanisms: increased consumption (oxidative stress), impaired biosynthesis (genetic COQ defects), statin inhibition of HMG-CoA reductase
+    *Conclusion:*: Provides the complete biochemical framework for CoQ10 depletion by oxidative consumption. Establishes that any condition with sustained ROS elevation will deplete CoQ10. Critical for the infection-driven consumption hypothesis: persistent viral/bacterial infection generates chronic ROS → CoQ10 consumed faster than regenerated → deficiency.
+    *Limitations:*: Review; not ME/CFS-specific; no quantitative modeling.
+    *Certainty Assessment:*:
+        - *Quality:* High (Mol Neurobiol, comprehensive)
+        - *Sample:* N/A (review)
+        - *Score:* 0.65
+
+=== Morris & Maes 2014 — Mitochondrial Dysfunction Explained by IO&NS Pathways
+
+    *Full Citation:*: Morris G, Maes M. Mitochondrial dysfunctions in myalgic encephalomyelitis/chronic fatigue syndrome explained by activated immuno-inflammatory, oxidative and nitrosative stress pathways. _Metabolic Brain Disease_. 2014;29(1):19–36. @Morris2014Mito
+    *DOI:*: 10.1007/s11011-013-9435-x
+    *PMID:*: 24557875
+    *Study Design:*: Mechanistic review
+    *Key Findings:*:
+        - IO&NS activation in ME/CFS damages ETC complexes, impairing ATP synthesis
+        - O&NS-mediated damage creates feed-forward loop: inflammation → ROS → ETC damage → more ROS → further CoQ10 consumption
+        - CoQ10 is both ETC cofactor (depleted by ETC damage) and antioxidant (consumed by ROS)
+    *Conclusion:*: Feed-forward loop between inflammation, ROS, mitochondrial damage, and CoQ10 depletion. Any chronic trigger (including persistent infection) could initiate and sustain this loop.
+    *Limitations:*: Review; no direct testing of infection→CoQ10 depletion pathway.
+    *Certainty Assessment:*:
+        - *Score:* 0.60
+
+=== Maes & Leunis 2014 — Oxidative Specific Epitopes in ME/CFS (Lipid Peroxidation Evidence)
+
+    *Full Citation:*: Maes M, Leunis J-C. Attenuation of autoimmune responses to oxidative specific epitopes, but not nitroso-adducts, is associated with a better clinical outcome in Myalgic Encephalomyelitis/chronic fatigue syndrome. _Neuro Endocrinology Letters_. 2014;35(7):577–585. @Maes2014OSEs
+    *PMID:*: 25617880
+    *Study Design:*: Case-control; IgM autoimmune responses to oxidative epitopes
+    *Key Findings:*:
+        - Elevated IgM against malondialdehyde (MDA)-modified adducts in ME/CFS
+        - MDA is a byproduct of lipid peroxidation — direct evidence of oxidative lipid damage in ME/CFS
+        - CoQ10 is the primary lipophilic antioxidant protecting membrane lipids — lipid peroxidation implies CoQ10 consumption
+        - Autoimmune responses to OSEs correlated with clinical outcome
+    *Conclusion:*: Direct evidence of oxidative lipid damage in ME/CFS. The same oxidative environment would consume CoQ10 (biochemical logic: if membranes are being peroxidized, the CoQ10 protecting them has been consumed).
+    *Limitations:*: No direct CoQ10 measurement in this study; indirect evidence.
+    *Certainty Assessment:*:
+        - *Score:* 0.50
+
+=== Schreiner et al.\ 2020 — HHV-6 Reactivation, Mitochondrial Fragmentation, and ROS in ME/CFS
+
+    *Full Citation:*: Schreiner P, Harrer T, Scheibenbogen C, Lamer S, Schlosser A, Naviaux RK, Prusty BK. Human Herpesvirus-6 Reactivation, Mitochondrial Fragmentation, and the Coordination of Antiviral and Metabolic Phenotypes in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _ImmunoHorizons_. 2020;4(4):201–215. @Schreiner2020HHV6Mito
+    *DOI:*: 10.4049/immunohorizons.2000006
+    *PMID:*: 32327453
+    *Study Design:*: In vitro mechanistic study; U2-OS cells with chromosomally integrated HHV-6
+    *Key Findings:*:
+        - HHV-6 reactivation induces mitochondrial fragmentation
+        - Metabolic shift from OXPHOS to glycolysis following viral reactivation
+        - Mitochondrial fragmentation increases ROS production
+        - Proteomic changes include altered ETC protein expression
+    *Conclusion:*: Direct mechanistic link between herpesvirus reactivation and mitochondrial dysfunction with increased ROS. HHV-6 → mitochondrial fragmentation → ROS → CoQ10 consumption. Provides the viral→oxidative pathway required by the infection-driven depletion hypothesis.
+    *Limitations:*: In vitro (U2-OS cells, not patient tissue); no direct CoQ10 measurement; HHV-6 reactivation model may not fully recapitulate in vivo latency.
+    *Certainty Assessment:*:
+        - *Quality:* Medium-High (ImmunoHorizons, rigorous proteomics + microscopy)
+        - *Sample:* In vitro
+        - *Replication:* Prusty group extended findings; convergent with broader virology literature
+        - *Score:* 0.60
+
+=== Maes et al.\ 2021 — Nomothetic Network of ME/CFS as IO&NS Disorder
+
+    *Full Citation:*: Maes M, Kubera M, Stoyanova K, Leunis J-C. The Reification of the Clinical Diagnosis of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) as an Immune and Oxidative Stress Disorder. _Current Topics in Medicinal Chemistry_. 2021;21(16):1488–1499. @Maes2021Reification
+    *DOI:*: 10.2174/1568026621666210727170147
+    *PMID:*: 34315375
+    *Study Design:*: PLS path analysis; nomothetic network construction
+    *Key Findings:*:
+        - Identifies bacterial translocation and autoimmune responses to OSEs as key nodes
+        - IO&NS pathways are central to ME/CFS pathophysiology
+        - Oxidative damage to lipids (consuming CoQ10) is a core network component
+    *Conclusion:*: Data-driven confirmation of IO&NS centrality in ME/CFS.
+    *Limitations:*: Single cohort; PLS model depends on variable selection.
+    *Certainty Assessment:*:
+        - *Score:* 0.55
+
+=== Al-Hakeim et al.\ 2023 — Oxidative Damage and Lowered Antioxidant Defenses in Long COVID
+
+    *Full Citation:*: Al-Hakeim HK, Al-Rubaye HT, Al-Hadrawi DS, Almulla AF, Maes M. Long-COVID post-viral chronic fatigue and affective symptoms are associated with oxidative damage, lowered antioxidant defenses and inflammation: a proof of concept and mechanism study. _Molecular Psychiatry_. 2023;28(2):564–578. @Al-Hakeim2023LongCOVIDOx
+    *DOI:*: 10.1038/s41380-022-01836-9
+    *PMID:*: 36280755
+    *Study Design:*: Cross-sectional; IO&NS markers in Long COVID
+    *Key Findings:*:
+        - Long COVID patients have increased oxidative damage (lipid peroxidation, protein oxidation)
+        - Lowered antioxidant defenses (includes CoQ10 pathway components)
+        - Acute infection severity (SpO2, peak temperature) predicts IO&NS marker elevation 3–4 months later
+        - Mechanism: viral infection generates sustained ROS that deplete antioxidant reserves
+    *Conclusion:*: Proof-of-concept for infection-driven antioxidant depletion in post-viral chronic fatigue. Directly relevant to ME/CFS by analogy — if SARS-CoV-2 causes sustained antioxidant depletion, other persistent pathogens (EBV, HHV-6, enteroviruses) likely do the same.
+    *Limitations:*: Long COVID, not ME/CFS; cross-sectional; no direct CoQ10 measurement.
+    *Certainty Assessment:*:
+        - *Quality:* High (Molecular Psychiatry, well-powered)
+        - *Sample:* Moderate
+        - *Replication:* Single study — conceptual replication needed in ME/CFS
+        - *Score:* 0.65
+
+=== Laredj et al.\ 2014 — Molecular Genetics of CoQ10 Biosynthesis (Competing Mechanism)
+
+    *Full Citation:*: Laredj LN, Licitra F, Puccio HM. The molecular genetics of coenzyme Q biosynthesis in health and disease. _Biochimie_. 2014;100:78–87. @Laredj2014CoQBiosynth
+    *DOI:*: 10.1016/j.biochi.2013.12.006
+    *PMID:*: 24355204
+    *Study Design:*: Comprehensive review of CoQ biosynthesis genetics
+    *Key Findings:*:
+        - Primary CoQ10 deficiency is caused by mutations in COQ1–COQ10 genes
+        - Tissue-specific manifestations depend on which gene is mutated
+        - Biosynthetic defects produce static deficiency; not driven by consumption
+    *Conclusion:*: CoQ10 deficiency can arise from genetic biosynthetic defects without any infection involvement. This is the primary competing explanation: if ME/CFS patients carry COQ gene polymorphisms, deficiency could be intrinsic rather than consumption-driven.
+    *Limitations:*: Not ME/CFS-specific; no evidence that ME/CFS patients have COQ mutations.
+    *Certainty Assessment:*:
+        - *Quality:* High (Biochimie, comprehensive genetics review)
+        - *Sample:* N/A (review)
+        - *Score:* 0.70
+
+=== Maes 2011 — Shared IO&NS Pathways in Depression and ME/CFS (Indirect Evidence)
+
+    *Full Citation:* Maes M. An intriguing and hitherto unexplained co-occurrence: Depression and chronic fatigue syndrome are manifestations of shared inflammatory, oxidative and nitrosative (IO&NS) pathways. _Progress in Neuro-Psychopharmacology & Biological Psychiatry_. 2011;35(3):784–794. @Maes2011DepressionCFS
+    *DOI:*: 10.1016/j.pnpbp.2010.06.023
+    *PMID:*: 20609377
+    *Study Design:* Narrative review
+    *Key Findings:*
+        - Depression and ME/CFS share IO&NS pathway activation
+        - Immune-inflammatory activation → oxidative/nitrosative stress → antioxidant depletion (including CoQ10)
+        - Chronic inflammation creates sustained demand for antioxidant consumption
+    *Conclusion:* Provides additional indirect support: chronic inflammation (from any source including infection) depletes antioxidants including CoQ10.
+    *Limitations:* Narrative review; depression-focused.
+    *Certainty Assessment:*
+        - *Score:* 0.55
