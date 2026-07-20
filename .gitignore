@@ -347,7 +347,12 @@ result-*
 # Generated web bib files (copied from Typst source during build)
 web/bib/
 
-# Quarto generated listing metadata
+# Quarto build artifacts
+web/_site/
+web/.quarto/
+web/_freeze/
+web/site_libs/
+web/*.html
 web/*-listing.json
 
 # direnv

@@ -3983,4 +3983,60 @@ This registry collects all hypotheses, speculations, open questions, and predict
   limitation: [mtDNA trigger-type stratification completely untested. Borrelia serology has known sensitivity/specificity limitations. Panel PPV for treatment-response prediction is nil — unmeasured. No data on whether mtDNA response to exercise differs between tick-borne and viral ME/CFS. Serial pharmacodynamic application (pre/post-intervention mtDNA) is also untested. Origin: brainstorm.],
 )
 
+=== Hidradenitis Suppurativa as Autoinflammatory Comparator
+// Added 2026-07-20
+
+#registry-entry(
+  [HS-NLRP3-IL-1beta Pathway as Mechanistic Bridge to ME/CFS Fatigue],
+  type: "S",
+  certainty: "0.35",
+  evidence: [NLRP3 is a firmly established driver of HS inflammation (scRNA-seq explant @Moran2023NLRP3HS cert 0.75; PCR overexpression @Krajewski2024NLRP3HS cert 0.50; metformin AMPK-NLRP3 @Petrasca2023MetforminHS cert 0.65). NLRP3 mediates fatigue in mouse models: KO mice show markedly reduced LPS-fatigue and swim-fatigue with decreased brain IL-1beta @Zhang2016NLRP3CFS cert 0.70 @Zhang2017NLRP3Fatigue cert 0.65. PEM model in CFS/Long COVID includes NLRP3→IL-1beta→neuroinflammation @Jin2026PEMinflammasome cert 0.65. Single epidemiological association HS–ME/CFS OR 1.72 @Prens2022HSComorbidities cert 0.70. Zero direct HS–ME/CFS mechanistic studies exist. Kilgour 2026: NLRP3 inhibition alone (AZD9056) insufficient for clinical HS response despite restoring PBMC cytokines — suggests redundant pathways.],
+  citations: [@Moran2023NLRP3HS @Krajewski2024NLRP3HS @Petrasca2023MetforminHS @Zhang2016NLRP3CFS @Zhang2017NLRP3Fatigue @Jin2026PEMinflammasome @Prens2022HSComorbidities],
+  mechanism: [HS systemic inflammation → NLRP3/IL-1beta/IL-17 → systemic cytokine spillover → neuroinflammation → fatigue. Both HS and ME/CFS share NLRP3/IL-1beta as a plausibly common fatigue mediator; HS provides a human autoinflammatory model where the NLRP3 axis is causal and therapeutic targets are FDA-approved, making it a tractable platform for studying cytokine→fatigue mechanisms that cannot be directly studied in ME/CFS. Distinct from classical autoimmunity (adaptive-T/B-cell-driven) — HS is an innate-immune-driven autoinflammatory disease of the IL-1beta/IL-18/NLRP3 axis.],
+  chapter-ref: [ch14d:@spec:hs-nlrp3-mechanistic-bridge],
+  prediction: [Observational study of HS patients initiating biologics: anti-IL-1beta therapy (anakinra/canakinumab) will show the largest FSS/PROMIS-Fatigue reduction by Week 16 among cytokine-targeting agents, exceeding anti-TNF and anti-IL-17. Falsified if no anti-cytokine therapy reduces fatigue beyond placebo despite clinical HS response (HiSCR≥50).],
+  treatment: [No direct ME/CFS treatment implication. HS biologics are not indicated for ME/CFS. The hypothesis is mechanistic: HS as model system for cytokine→fatigue biology. Kilgour 2026 (NLRP3 inhibition alone ineffective for HS) already constrains any single-agent NLRP3 strategy.],
+  limitation: [Entire bridge is inferential — zero direct NLRP3 measurements in ME/CFS patients, zero HS biologic trials with fatigue endpoints. Prens 2022 is cross-sectional and self-reported (single study). HS has its own pathogenic drivers (follicular occlusion, keratinocyte dysfunction, pilosebaceous microbiome) unrelated to ME/CFS. Fatigue phenotype in HS never characterised for PEM — unknown whether Type 1 (post-exertional) or Type 2 (constant cytokine-driven).],
+)
+
+#registry-entry(
+  [Prodromal HS Fatigue as PEM Latency Model],
+  type: "S",
+  certainty: "0.30",
+  evidence: [83.3% of HS patients experience prodromal symptoms 12–24+ h before visible lesions; 32% report fatigue prodrome, alongside malaise (23%), headache (11%), nausea (2%) @Ring2017HSProdrome cert 0.65. Temporal pattern parallels delayed PEM onset (12–48 h). NLRP3/IL-1beta activation in incipient follicular inflammation → systemic cytokine spillover → sickness behaviour is the proposed mechanism. Zero studies have directly compared HS prodrome time-course to ME/CFS PEM time-course.],
+  citations: [@Ring2017HSProdrome],
+  mechanism: [Local NLRP3/IL-1beta activation in incipient HS lesion → systemic IL-1beta/IL-6/TNF-alpha spillover → sickness behaviour (fatigue, malaise, hyperalgesia) 12–24 h before clinical lesion — temporally analogous to PEM onset latency post-exertion. If both share a common effector (cytokine→sickness-behaviour), HS provides a tractable model where the trigger is visible/accessible (skin) and serial sampling is feasible — impractical in ME/CFS where the trigger (exertion) is not localisable.],
+  chapter-ref: [ch14d:@spec:hs-prodrome-pem-latency],
+  prediction: [Serial serum IL-6/TNF-alpha/IL-1beta Q4h through HS flare prodrome-to-resolution: cytokine peak temporally precedes fatigue-severity peak by ≥4 h in N-of-1 responder analyses. PEM-like symptom latency correlates with cytokine-to-fatigue lag (r>0.5). Falsified if fatigue rises simultaneously with or before systemic cytokines.],
+  treatment: [Research-stage model only. If validated, HS becomes a "fast-track" platform for testing anti-IL-1beta pre-treatment for aborting cytokine-induced fatigue — relevant to both HS and ME/CFS but with an accessible spontaneous trigger rather than requiring controlled exertion.],
+  limitation: [Ring 2017 is a questionnaire study (n=72) with no serum cytokines — prodrome entirely patient-reported, no validated fatigue instrument. PEM comparison is structural analogy, not empirical. HS biopsies cannot ethically confirm incipient inflammation during prodrome — cytokine source is inferred. Intrafollicular anaerobic microbiome may drive inflammation in ways with no ME/CFS parallel.],
+)
+
+#registry-entry(
+  [Kinesiophobia as Shared Behavioral Phenotype Across HS, FM, and ME/CFS],
+  type: "S",
+  certainty: "0.35",
+  evidence: [HS patients have significantly higher kinesiophobia and lower physical activity vs controls; pain intensity, fatigue severity, and depressive symptoms are independent predictors in multivariable regression @MeralKetenci2026HSKinesiophobia cert 0.60. Convergent with documented activity-avoidance patterns in FM and ME/CFS. No cross-condition TSK comparison has been performed.],
+  citations: [@MeralKetenci2026HSKinesiophobia],
+  mechanism: [Repeated symptom exacerbation after physical activity → learned avoidance (kinesiophobia) → deconditioning → reduced activity tolerance → further avoidance — a unified behavioural phenotype of chronic inflammatory conditions. Mediated by a shared neurobiological substrate (possibly IL-1beta/IL-6 sickness behaviour acting on anterior insula/ACC) rather than condition-specific psychology. Distinct physical triggers (skin friction in HS, diffuse pain in FM, metabolic/PEM in ME/CFS) converge on the same behavioural output.],
+  chapter-ref: [ch14d:@spec:hs-kinesiophobia-shared-phenotype],
+  prediction: [TSK across HS/FM/ME/CFS cohorts: structural equation model shows configural invariance (CFI>0.95, RMSEA $<$ 0.06) for a latent "movement-avoidance" factor driven equally by pain and fatigue. Falsified if configural invariance is rejected across conditions.],
+  treatment: [Graded-activity and pain-neuroscience-education interventions developed for FM could be adapted to HS and ME/CFS with minimal modification if kinesiophobia is a shared phenotype. Critical caveat: for ME/CFS patients with metabolic PEM, kinesiophobia reduction without addressing the metabolic limit could be harmful — distinguishing perceptual from metabolic avoidance is the clinical priority.],
+  limitation: [Single HS study (Meral Ketenci 2026). No cross-condition TSK data. Correlation ≠ causation — fatigue-pain-depression-kinesiophobia cluster could be confounded by sleep, socioeconomic status, or diagnostic odyssey. TSK was validated in musculoskeletal pain, not inflammatory skin disease — psychometric properties in HS unknown. IL-1beta/insula→kinesiophobia link is itself inferential, never tested in any condition.],
+)
+
+#registry-entry(
+  [Autoinflammatory Disease Category Absent from ME/CFS Literature],
+  type: "L",
+  certainty: "0.70",
+  evidence: [PubMed search for "autoinflammatory disease" AND ("chronic fatigue syndrome" OR ME/CFS) returned zero results (July 2026). Autoinflammatory diseases (FMF, CAPS, TRAPS, HS, AOSD, SAPHO, Behçet's) are innate-immune-driven, IL-1beta/IL-18/NLRP3-mediated conditions with fatigue as a major symptom — yet the entire category has never been compared to or studied alongside ME/CFS. This is a categorical research gap (absence of investigation), not a null result.],
+  citations: [],
+  mechanism: [Not a mechanistic claim — an evidence-gap observation. Autoinflammatory diseases share the NLRP3/IL-1beta effector arm with ME/CFS PEM models, produce fluctuating fatigue, are treated with mechanistically-targeted therapies (anakinra, canakinumab, colchicine), but are distinguishable by elevated systemic inflammatory markers (CRP, SAA, ESR) that are typically normal/minimally elevated in ME/CFS. The gap may reflect a real biological distinction or a field artefact.],
+  chapter-ref: [ch14d:@lim:autoinflammatory-category-absent],
+  prediction: [Not applicable — this is a categorical evidence gap, not a testable hypothesis. Adding ME/CFS screening instruments to autoinflammatory disease registries would directly address the gap.],
+  treatment: [No treatment implication. Research implication: add DSQ-PEM and CCC/IOM criteria to autoinflammatory registries (Eurofever, HS ALLIANCE) at minimal cost — a one-year timeline to establish or refute autoinflammatory-ME/CFS comorbidity.],
+  limitation: [Litigation search limitation: zero results may reflect PubMed indexing gaps (autoinflammatory disease is a relatively recent category, unified ~1999; many constituent diseases were historically indexed under "rheumatology" or "dermatology"). Google Scholar and EMBASE search may yield additional results. The gap is documented, not guaranteed — a positive finding could emerge from databases or registries not yet searched.],
+)
+
+
 
