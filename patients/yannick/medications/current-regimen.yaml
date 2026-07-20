@@ -1,7 +1,7 @@
 # Current Medication Regimen
 
 regimen_date: 2026-05-22
-last_updated: 2026-07-09
+last_updated: 2026-07-18
 
 medications:
   - name: Low-Dose Naltrexone (LDN)
@@ -10,7 +10,41 @@ medications:
     timing: morning
     recent_change: increased from 3.5mg to 4mg
     change_date: 2026-05-22
-    status: "under review — ~6 months non-response; switching to LDA"
+    status: "active — continuing alongside LDA; ~6 months non-response noted, but maintained during LDA trial"
+
+  - name: Aripiprazole (low-dose, LDA)
+    current_dose: 1mg
+    frequency: once daily
+    timing: morning
+    start_date: 2026-07-10
+    recent_change: increased from 0.5mg to 1mg
+    change_date: 2026-07-12
+    prescriber: "Dr. Nicolas"
+    indication: "cognitive symptoms / unrefreshing sleep; after LDN non-response"
+    status: active
+
+  - name: Rupatadine (Rupatall)
+    current_dose: 20-30mg/day (3 pills)
+    frequency: three times daily
+    timing: 2x daytime, 1x evening
+    indication: "antihistamine / mast cell stabiliser (PAF antagonist + H1)"
+    status: active
+    notes: long-standing; precedes LDA
+
+  - name: Famotidine
+    current_dose: 20mg/day
+    frequency: once daily
+    timing: evening
+    indication: "H2 antagonist / mast cell"
+    status: active
+    notes: long-standing; precedes LDA
+
+  - name: Montelukast
+    current_dose: 10mg/day
+    frequency: once daily
+    indication: "leukotriene receptor antagonist / mast cell"
+    status: active
+    notes: long-standing; precedes LDA
 
   - name: Pyridostigmine (Mestinon)
     current_dose: 3×1 pill per day
@@ -33,14 +67,6 @@ medications:
     frequency: as prescribed
     status: intermittent use
     notes: stimulant medication used situationally
-
-pending:
-  - name: Aripiprazole (low-dose, LDA)
-    start_date: 2026-07-10
-    starting_dose: 0.5mg
-    titration_plan: "0.5 mg/day a few days, then 1 mg/day if tolerated; ceiling ~1 mg"
-    prescriber: "Dr. Nicolas"
-    indication: "cognitive symptoms / unrefreshing sleep; after LDN non-response"
 
 supplements:
   - name: Electrolyte mix

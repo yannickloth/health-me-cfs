@@ -1,6 +1,39 @@
 # Medication Change Log
 
 changes:
+  - date: 2026-07-18
+    medication: "Aripiprazole (low-dose, LDA)"
+    action: observation
+    notes: >
+      Patient performed 5h heavy garden work (tree cutting, chainsaw) on
+      2026-07-17. Next morning (Jul 18): no PEM signs. Normal muscle
+      soreness/stiffness only. Clinically significant — prior events
+      triggered PEM at far lower exertion (e.g., 2h Auchan shopping
+      triggered next-day crash Feb 2026; 20min WaterRower triggered 9-day
+      PEM Jun 2026). First documented instance of major exertion with no
+      PEM onset. Possible LDA-mediated PEM protection (dopaminergic
+      microglial modulation attenuating post-exertional neuroimmune
+      response). Early signal; single data point — requires replication.
+      Also reported (week of Jul 10-18): no brain fog or concentration
+      issues for entire first week on LDA, despite disrupted/reduced
+      sleep throughout. Patient notes "need to sleep" and body
+      perspiration from sleep-debt muscular fatigue, but cognitive
+      domain and PEM domain remain fully protected — a dissociation
+      not seen pre-LDA, where sleep deprivation reliably triggered
+      brain fog and PEM vulnerability. Sleep normalised post-exertion
+      night (Jul 17→18). LDN 4mg continued concurrently.
+
+  - date: 2026-07-12
+    medication: "Aripiprazole (low-dose, LDA)"
+    action: dose increase
+    previous_dose: 0.5mg
+    new_dose: 1mg
+    notes: >
+      Rapid titration — patient moved directly from 0.5mg to 1mg after
+      ~2 days (Jul 10-11) rather than the planned few-day step. Well
+      tolerated; no reported akathisia, agitation, sleep disruption, or
+      nausea.
+
   - date: 2026-07-10
     medication: "Aripiprazole (low-dose, LDA)"
     action: start
