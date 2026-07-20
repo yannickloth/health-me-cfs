@@ -92,6 +92,15 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (14 queries, batch) | pubmed/eutils | 2026-07-09 | — | content-staging/lit-summary-ocular-sjogren-mecfs-overlap-2026-07-09.md, content-staging/search-log-ocular-sjogren-mecfs-overlap-2026-07-09.md, bib/autoimmunity.bib, bib/neurology-comorbidities.bib, appendix-h — Ocular Sjögren/ME/CFS overlap literature (6 new papers + 6 pre-existing reused) |
 
+## Infection-Driven CoQ10 Depletion Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-07-17 | 22 queries: Maes2009CoQ10, Morris2013CoQ10 (biochemical framework), Schreiner2020HHV6Mito (viral→ROS→mito), Al-Hakeim2023LongCOVIDOx (post-viral antioxidant depletion), Laredj2014CoQBiosynth (competing genetics), plus lipid peroxidation/oxidative stress/EBV/enterovirus searches |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (22 queries, batch) | pubmed/eutils | 2026-07-17 | — | ops/research/literature-coq10-infection-depletion-2026-07-17.md, ops/research/search-log-coq10-infection-depletion-2026-07-17.md, bib/immune.bib, appendix-h — Infection-driven CoQ10 depletion literature (10 papers) |
+
 ## IgE Sensitization — Spike/Tick/Neuroinflammation Literature Search
 | Source | Last Scraped | Notes |
 |--------|--------------|-------|
@@ -725,3 +734,21 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (24 queries, batch) | pubmed/eutils | 2026-07-15 | 2026-07-15 | ops/research/search-log-inadequate-treatment-duration-research-2026-07-15.md, ops/research/literature-inadequate-treatment-duration-research.md, bib/treatments.bib (14 entries), bib/viral-infection.bib (1 entry), appendix-h (15 annotated entries) — Inadequate treatment duration literature collection |
 | http://www.christinegreenmd.com/uploads/shor-CRIDS-Lyme-IACFS.pdf | christinegreenmd.com | 2026-07-17 | — | Literature/viral-persistence/Shor2011-seronegative-lyme-cfs/ — Shor 2011 seronegative/chronic Lyme in CFS (IACFS presentation) |
+
+## Glycolytic Reprogramming in Tick-Borne Pathogens Literature Search (2026-07-17)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-07-17 | 25 queries: Borrelia/Bartonella/Babesia glycolysis, HIF-1α, lactate, trained immunity, immunometabolism, PTLDS metabolomics |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (25 queries, batch) | pubmed/eutils | 2026-07-17 | — | ops/research/literature-glycolytic-reprogramming-tickborne-2026-07-17.md, ops/research/search-log-glycolytic-reprogramming-tickborne-2026-07-17.md, bib/immune.bib (9 new entries), appendix-h (9 annotated entries) — Glycolytic reprogramming in tick-borne pathogens literature collection |
+
+## Microglial Mitochondrial Dysregulation — Borrelia/Bartonella Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-07-17 | 24 queries: Borrelia microglia, Bartonella microglia, Borrelia mitochondrial, Bartonella mitochondrial, bacterial microglial infection, ME/CFS microglia, PTLDS neuroinflammation + indirect biochemical links |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (24 queries, batch) | pubmed/eutils | 2026-07-17 | — | ops/research/literature-microglial-mitochondrial-borrelia-2026-07-17.md, ops/research/search-log-microglial-mitochondrial-borrelia-2026-07-17.md, bib/immune.bib (16 new entries), appendix-h (16 annotated entries) — Microglial mitochondrial dysregulation from Borrelia/Bartonella literature collection |
