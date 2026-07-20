@@ -435,7 +435,10 @@ void main(String[] args) throws IOException {
             if (stripped.matches("^={3,}\\s+.+")) {
                 int eqCount = 0;
                 for (int i = 0; i < stripped.length() && stripped.charAt(i) == '='; i++) eqCount++;
-                int level = Math.max(1, eqCount);
+                // Shift Typst sub-section headings down one Markdown level: === -> ##, ==== -> ###.
+                // The page title is already emitted from YAML front matter as an unnumbered H1,
+                // so the first body heading must be H2 to start numbering at 1 instead of 0.1.
+                int level = Math.max(2, eqCount - 1);
                 var headingText = stripHeadingMath(stripped.substring(eqCount));
                 var inlineLabelPattern = Pattern.compile("\\s*<([a-zA-Z][\\w:\\.-]*)>\\s*");
                 var inlineMatcher = inlineLabelPattern.matcher(headingText);
