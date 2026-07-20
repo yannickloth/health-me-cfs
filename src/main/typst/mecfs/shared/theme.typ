@@ -73,6 +73,8 @@
   keyfinding-bg:    rgb("#FFFDE7"),
   clinfind-frame: rgb("#616161"),
   clinfind-bg:    rgb("#F5F5F5"),
+  finding-frame: rgb("#2E7D32"),
+  finding-bg:    rgb("#E8F5E9"),
 
   // ── Differential diagnostic response environments ───────────────────────────
   works-frame: rgb("#2E7D32"),

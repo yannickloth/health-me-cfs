@@ -4,17 +4,17 @@
 
 Glycyrrhizin directly neutralizes HMGB1 — a damage-associated molecular pattern (DAMP) released during cellular stress that drives sterile inflammation. It probes whether HMGB1-mediated DAMP signaling contributes to post-exertional malaise (PEM).
 
-==== ✓ If glycyrrhizin works
+==== If glycyrrhizin works
 
 
-#finding(1, claim: [HMGB1 is a causal PEM mediator], explanation: [If it reduces post-exertional HMGB1 and PEM together, HMGB1-driven DAMP signaling was contributing causally to PEM.], certainty: [Low to Medium.], dntu: [what triggers HMGB1 release in the first place.], action: [Supports measuring post-exertional HMGB1 as a biomarker; targets DAMP signaling.], level: [Partial root cause.])
+#finding(claim: [HMGB1 is a causal PEM mediator], explanation: [If it reduces post-exertional HMGB1 and PEM together, HMGB1-driven DAMP signaling was contributing causally to PEM.], certainty: [Low to Medium.], dntu: [what triggers HMGB1 release in the first place.], action: [Supports measuring post-exertional HMGB1 as a biomarker; targets DAMP signaling.], level: [Partial root cause.])
 
 ==== What a positive response does NOT reveal
 
 - What triggers HMGB1 release (oxidative stress, cell death, other DAMPs upstream).
 - Whether HMGB1 is the sole or one of several PEM mediators.
 
-==== ✗ If glycyrrhizin does NOT work
+==== If glycyrrhizin does NOT work
 
 - HMGB1 may not be the dominant DAMP.
 - PEM may be driven by other mechanisms.

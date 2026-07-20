@@ -554,20 +554,23 @@
     "✗", "If it fails", body, title: title, style: "left-bar")
 }
 
-// --- Finding (n, claim, explanation, certainty, [dntu], [action], level) ------
+// --- Finding (claim, explanation, certainty, [dntu], [action], level) ------
 // Structured differential diagnostic inference block.
-// Renders Finding n — claim as bold heading, explanation as body,
-// then a 2-column grid (label | value) for the structured fields.
+// Renders "Finding N — Claim" as a level-5 heading (N = heading counter leaf),
+// explanation as body, then a 2-column grid (label | value) for the structured fields.
 //
 // Fields that are none are omitted. dntu and action default to none.
 // Each finding is wrapped in its own stroked box so siblings are visually distinct.
-#let finding(num, claim: [], explanation: none, certainty: [], dntu: none, action: none, level: []) = {
+#let finding(claim: [], explanation: none, certainty: [], dntu: none, action: none, level: []) = {
   let label(field-name) = text(weight: "bold", fill: luma(120), size: 0.82em)[#field-name]
+  counter(heading).step(level: 5)
 
-  v(1em)
-  block(inset: 0pt)[
-    #text(weight: "bold")[Finding #num — #claim]
+  heading(level: 5, numbering: none, context {
+    let num = counter(heading).get()
+    [Finding #str(num.at(4, default: 1)) — #claim]
+  })
 
+  block(stroke: (left: 4pt + color.finding-frame), fill: color.finding-bg, inset: (top: 0.6em, bottom: 0.6em, left: 0.8em, right: 0.8em), radius: (right: 4pt))[
     #explanation
 
     #v(0.3em)

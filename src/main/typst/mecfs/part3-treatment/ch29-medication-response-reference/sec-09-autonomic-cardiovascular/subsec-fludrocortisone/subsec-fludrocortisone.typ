@@ -4,17 +4,17 @@
 
 Mineralocorticoid that expands plasma volume via sodium retention. It probes hypovolemia as an orthostatic mechanism: if low circulating volume is limiting venous return, expanding volume should improve tolerance.
 
-==== ✓ If fludrocortisone works
+==== If fludrocortisone works
 
 
-#finding(1, claim: [Hypovolemia was present], explanation: [Improvement means low plasma volume was contributing to orthostatic intolerance. Volume expansion restored adequate preload and cardiac filling.], certainty: [Medium for POTS — plasma volume expansion is a well-established effect.], dntu: [why plasma volume was low.], action: [Confirms volume expansion as a target; supports continued sodium/volume strategies with potassium monitoring.], level: [Partial root cause — corrects the volume deficit without addressing why volume regulation is impaired.])
+#finding(claim: [Hypovolemia was present], explanation: [Improvement means low plasma volume was contributing to orthostatic intolerance. Volume expansion restored adequate preload and cardiac filling.], certainty: [Medium for POTS — plasma volume expansion is a well-established effect.], dntu: [why plasma volume was low.], action: [Confirms volume expansion as a target; supports continued sodium/volume strategies with potassium monitoring.], level: [Partial root cause — corrects the volume deficit without addressing why volume regulation is impaired.])
 
 ==== What a positive response does NOT reveal
 
 - Why plasma volume is low — candidates include autoantibody-driven vascular dysregulation, HPA-axis hypocortisolism, or autonomically mediated sodium wasting.
 - Whether the volume deficit is primary or secondary to another autonomic process.
 
-==== ✗ If fludrocortisone does NOT work
+==== If fludrocortisone does NOT work
 
 - Ganglionic impairment is not volume-responsive (the pyridostigmine target).
 - Venous pooling is not helped by extra volume alone (compression plus midodrine may be needed).

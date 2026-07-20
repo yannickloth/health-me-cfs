@@ -4,17 +4,17 @@
 
 Omega-3s probe failed resolution of inflammation. EPA and DHA are precursors for resolvins, protectins, and maresins (specialized pro-resolving mediators, or SPMs) that actively terminate inflammation. Supplementation tests whether inflammation persists because the resolution off-switch is broken rather than because the on-switch is stuck.
 
-==== ✓ If omega-3s work
+==== If omega-3s work
 
 
-#finding(1, claim: [Resolution failure may be contributing], explanation: [Improvement means inflammation was persisting because resolution was inadequate; supplying SPM precursors helped switch it off.], certainty: [Low for the SPM mechanism in ME/CFS — SPMs have never been measured in this population.], dntu: [whether SPM synthesis is actually restored, since SPM levels are not measured clinically.], action: [Supports resolution support as a contributor; use therapeutic doses.], level: [Partial root cause — provides precursors for resolution.])
+#finding(claim: [Resolution failure may be contributing], explanation: [Improvement means inflammation was persisting because resolution was inadequate; supplying SPM precursors helped switch it off.], certainty: [Low for the SPM mechanism in ME/CFS — SPMs have never been measured in this population.], dntu: [whether SPM synthesis is actually restored, since SPM levels are not measured clinically.], action: [Supports resolution support as a contributor; use therapeutic doses.], level: [Partial root cause — provides precursors for resolution.])
 
 ==== What a positive response does NOT reveal
 
 - Whether SPMs are genuinely being synthesized or the benefit is a general anti-inflammatory effect.
 - Whether resolution failure is primary or downstream of a persistent trigger.
 
-==== ✗ If omega-3s do NOT work
+==== If omega-3s do NOT work
 
 - The inflammation may not be the resolution-failure type.
 - EPA/DHA conversion to SPMs may be impaired.

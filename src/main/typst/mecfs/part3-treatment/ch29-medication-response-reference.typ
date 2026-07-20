@@ -3,6 +3,23 @@
 = Medication Response as Diagnostic Information
 <ch:medication-response-reference>
 
+#show heading.where(level: 4): it => {
+  let s = repr(it.body)
+  if s.starts-with("\"If ") {
+    if "does NOT work" in s {
+      counter(heading).update(n => (..n.slice(0, 4), 0))
+      [#sym.xmark #it.body]
+    } else if s.ends-with("works\"") {
+      counter(heading).update(n => (..n.slice(0, 4), 0))
+      [#sym.checkmark #it.body]
+    } else {
+      it
+    }
+  } else {
+    it
+  }
+}
+
 #include "ch29-medication-response-reference/sec-01-why-this-chapter-exists/sec-01-why-this-chapter-exists.typ"
 #include "ch29-medication-response-reference/sec-02-how-to-use/sec-02-how-to-use.typ"
 #include "ch29-medication-response-reference/sec-03-immune-neuroimmune/sec-03-immune-neuroimmune.typ"

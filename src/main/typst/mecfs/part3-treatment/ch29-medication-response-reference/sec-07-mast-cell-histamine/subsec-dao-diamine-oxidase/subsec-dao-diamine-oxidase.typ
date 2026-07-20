@@ -4,17 +4,17 @@
 
 DAO degrades histamine in the gut. Supplementing it probes whether symptoms arise from histamine intolerance (impaired degradation of dietary histamine) or from mast cell activation (excessive endogenous histamine production).
 
-==== ✓ If DAO works
+==== If DAO works
 
 
-#finding(1, claim: [Histamine accumulates because it is not broken down], explanation: [Improvement means histamine was building up because degradation was impaired — histamine intolerance (HIT) rather than excessive production.], certainty: [Medium for HIT diagnostics — mechanism is well understood.], dntu: [whether the degradation deficit is genetic (DAO polymorphism) or acquired (gut mucosal injury).], action: [Supports a low-histamine diet trial and DAO supplementation as targets.], level: [Symptom management.])
+#finding(claim: [Histamine accumulates because it is not broken down], explanation: [Improvement means histamine was building up because degradation was impaired — histamine intolerance (HIT) rather than excessive production.], certainty: [Medium for HIT diagnostics — mechanism is well understood.], dntu: [whether the degradation deficit is genetic (DAO polymorphism) or acquired (gut mucosal injury).], action: [Supports a low-histamine diet trial and DAO supplementation as targets.], level: [Symptom management.])
 
 ==== What a positive response does NOT reveal
 
 - Whether the degradation deficit is inherited or acquired.
 - Whether a concurrent mast cell component also contributes.
 
-==== ✗ If DAO does NOT work
+==== If DAO does NOT work
 
 - Mast cell degranulation, not DAO deficiency, may be the mechanism.
 - Dose may have been insufficient.

@@ -98,6 +98,18 @@
       ]
     )
   }
+  // Level 5 (Finding sub-headings in ch29) — formatted "Finding N — …"
+  show heading.where(level: 5): it => {
+    let n = counter(heading).get().last()
+    block(above: 16pt, below: 8pt,
+      text(font: font-heading, size: 10.5pt, weight: "bold")[
+        #if n != none {
+          [Finding #n — ]
+        }
+        #it.body
+      ]
+    )
+  }
   body
 }
 
