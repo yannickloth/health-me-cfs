@@ -13,12 +13,12 @@
 |------|------|
 | `main.tex` | single-file LaTeX source |
 | `refs.bib` | bibliography (unsrtnat) |
-| `EVALUATION-CRITERIA.md` | 14 criteria for hypothesis papers (criteria only, no verdicts) |
+| `EVALUATION-CRITERIA.md` | 16 criteria for hypothesis papers (criteria only, no verdicts) |
 | `YYYYMMDD-HHMM-evaluation.md` | evaluation results — one per assessment run, never edited after creation |
 
 ## Evaluation
-- This paper is assessed against the 14 criteria in `EVALUATION-CRITERIA.md` (clarity, accessibility, arc, calibration, falsifiability, coherence, references, clinical relevance, limitations, actionability, fidelity, disclosure, author integrity, scope discipline)
-- Results go in a new datetime-prefixed file each run; latest: `20260720-2013-evaluation.md` — 14 PASS
+- This paper is assessed against the 16 criteria in `EVALUATION-CRITERIA.md` (clarity, accessibility, arc, calibration, falsifiability, coherence, references, clinical relevance, limitations, actionability, fidelity, disclosure, author integrity, scope discipline, novelty, scientific value)
+- Results go in a new datetime-prefixed file each run; latest: `20260720-2041-evaluation.md` — 16 PASS
 - Before any structural change, re-check against the criteria — edits must not downgrade any PASS
 
 ## Structure (aligned to abstract)

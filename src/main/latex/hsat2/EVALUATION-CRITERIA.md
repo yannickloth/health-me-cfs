@@ -82,3 +82,14 @@ Evaluation results (scorecards, verdicts, residual issues) go in datetime-prefix
 - Body does not introduce claims, mechanisms, or evidence that the abstract does not commit to
 - Every section in the body serves a claim in the abstract
 - No tangential mechanisms, no digressions into side-pathways not required for the central argument
+
+## 15. Novelty
+- Does the hypothesis offer a genuinely new connection between previously unlinked domains (e.g., cancer mechanism → post-viral disease)?
+- Or does it merely repackage existing ideas without adding a new mechanistic prediction?
+- Novelty ≠ correctness; a novel false hypothesis is more useful than a trivially correct one
+
+## 16. Scientific value / worthiness of testing
+- What is the payoff if correct? (e.g., first biomarker-derived subgroup, first mechanistic entry point for therapy)
+- What is the cost of being wrong? (e.g., one negative study, wasted trials — low if predictions are cheap to test)
+- Falsification cost: if wrong, does that kill the hypothesis cleanly or is the hypothesis slippery?
+- Asymmetric payoff: a high-risk, high-reward hypothesis may be more worth testing than a safe incremental one
