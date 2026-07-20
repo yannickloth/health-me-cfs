@@ -27143,5 +27143,315 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Chronic inflammation creates sustained demand for antioxidant consumption
     *Conclusion:* Provides additional indirect support: chronic inflammation (from any source including infection) depletes antioxidants including CoQ10.
     *Limitations:* Narrative review; depression-focused.
-    *Certainty Assessment:*
+     *Certainty Assessment:*
         - *Score:* 0.55
+
+// =============================================================================
+
+== Maladie de Verneuil (Hidradenitis Suppurativa) and ME/CFS
+<sec:bib-maladie-de-verneuil>
+// =============================================================================
+
+=== Prens et al.\ 2022 — Population-Based Dutch Cohort: HS Comorbidities
+
+    *Full Citation:* Prens LM, Bouwman K, Troelstra LD, Prens EP, Alizadeh BZ, Horváth B.\ New insights in hidradenitis suppurativa from a population-based Dutch cohort: prevalence, smoking behaviour, socioeconomic status and comorbidities. _British Journal of Dermatology_. 2022;186(5):814–822. @Prens2022HSComorbidities
+    *DOI:* #link("https://doi.org/10.1111/bjd.20954")[10.1111/bjd.20954]
+    *PMID:* 34921556
+    *PMCID:* PMC9321679
+    *Study Design:* Cross-sectional survey-based study within the Lifelines Cohort
+    *Sample Size:* n=56,084 respondents (from 167,729 invited); HS prevalence 2.1%
+    *Key Findings:*
+        - ME/CFS associated with HS: OR 1.72 (95% CI 1.06–2.78), adjusted for age, sex, BMI, smoking, socioeconomic status
+        - Fibromyalgia: OR 2.26 (95% CI 1.64–3.11)
+        - Other new associations: IBS (OR 1.63), migraine (OR 1.48)
+        - HS respondents had lower socioeconomic status and higher smoking rates
+        - Many HS cases undiagnosed and untreated
+    *Conclusion:* HS prevalence in Northern Netherlands (2.1%) is double the commonly cited 1%. HS is epidemiologically associated with ME/CFS and fibromyalgia, independent of confounding factors.
+    *Limitations:* Self-reported survey (no clinical HS confirmation); cross-sectional; ME/CFS status also self-reported; no PEM assessment.
+    *Certainty Assessment:*
+        - *Quality:* High (Br J Dermatol; large population-based cohort)
+        - *Sample:* Very large (n=56,084)
+        - *Replication:* No independent replication yet
+        - *Score:* 0.70
+
+=== Ring et al.\ 2017 — Prodromal Symptoms in HS
+
+    *Full Citation:* Ring HC, Theut Riis P, Zarchi K, Miller IM, Saunte DM, Jemec GB.\ Prodromal symptoms in hidradenitis suppurativa. _Clinical and Experimental Dermatology_. 2017;42(3):261–265. @Ring2017HSProdrome
+    *DOI:* #link("https://doi.org/10.1111/ced.13025")[10.1111/ced.13025]
+    *PMID:* 28194809
+    *Study Design:* Cross-sectional questionnaire study
+    *Sample Size:* n=72 HS patients
+    *Key Findings:*
+        - 83.3% experienced prodromal symptoms before HS flares
+        - Fatigue prodrome reported by 32% of patients
+        - Malaise (fever-like sensation): 23%
+        - Headache: 11%; nausea: 2%
+        - Prodrome onset >24h before lesion eruption in 45% of patients
+        - Local prodromes: skin erythema (75%), paraesthesia (63%), itching (20%)
+    *Conclusion:* Systemic prodromal symptoms including fatigue precede visible HS lesions by 12–24+ hours, suggesting cytokine-mediated sickness behavior as a prodromal mechanism.
+    *Limitations:* Small sample (n=72); single center; retrospective questionnaire; no cytokine measurements.
+    *Certainty Assessment:*
+        - *Quality:* Moderate (Clin Exp Dermatol)
+        - *Sample:* Small (n=72)
+        - *Replication:* No independent replication
+        - *Score:* 0.65
+
+=== McGrath et al.\ 2026 — Fatigue and Sleep in HS: Patient and HCP Perspectives
+
+    *Full Citation:* McGrath BM, Atherton D, Brady P, Bru-Daprés MF, Hsiao JL, Lobo S, Palmer L, Pintori G, Szepietowski JC, Go M, Alarcon I, Ingram JR.\ Exploring the impact of fatigue and sleep disturbance in hidradenitis suppurativa: perspectives from patients and healthcare professionals. _Acta Dermato-Venereologica_. 2026;106:0179. @McGrath2026HSFatigue
+    *DOI:* #link("https://doi.org/10.2340/actadv.v106.adv-2025-0179")[10.2340/actadv.v106.adv-2025-0179]
+    *PMID:* 41992712
+    *PMCID:* PMC13086963
+    *Study Design:* Multi-stakeholder perspective paper (patients + HCPs)
+    *Key Findings:*
+        - Fatigue described as debilitating, underrecognized symptom affecting all QoL domains
+        - HCPs noted patients unaware of full fatigue impact until treatment improved HS symptoms
+        - Sleep disturbance mainly from HS-related pain, pruritus, and lesion drainage
+        - Fatigue and sleep disturbance reduced work productivity, career progression, financial stability
+        - Social impact: reduced interest in social/intimate relationships → guilt, failure, isolation
+    *Conclusion:* HS fatigue is underrecognized by both patients and clinicians. Systematic assessment with validated instruments and multidisciplinary management are recommended.
+    *Limitations:* Perspective/narrative piece (not empirical study); industry-funded (Novartis); potential conflict of interest bias.
+    *Certainty Assessment:*
+        - *Quality:* Moderate (Acta Derm Venereol)
+        - *Sample:* N/A (qualitative perspective)
+        - *Replication:* N/A
+        - *Score:* 0.60
+
+=== Almahdi et al.\ 2026 — Palliative and Supportive Care in Advanced HS: Systematic Review
+
+    *Full Citation:* Almahdi MA, Mashi A, Shaikh AY, Alahmadi MM, Alalyani MA, Alghamdi MS, Hamzi SA.\ Palliative and supportive care needs in advanced hidradenitis suppurativa: a systematic review. _Cureus_. 2026;18(5):e108573. @Almahdi2026HSPalliative
+    *DOI:* #link("https://doi.org/10.7759/cureus.108573")[10.7759/cureus.108573]
+    *PMID:* 42272576
+    *PMCID:* PMC13247365
+    *Study Design:* PRISMA 2020 systematic review
+    *Sample Size:* 7 studies (n=77–1,787), 27 countries
+    *Key Findings:*
+        - Fatigue prevalence: 61.0% (n=793/1,299)
+        - Moderate-to-severe pain: 61.4% (n=798/1,299)
+        - Drainage: 71.8% (n=933/1,299)
+        - Depression: 30.3–35.8%; anxiety: 36.2–57.5%
+        - Suicidal ideation: 7.9%; suicidal attempt: 4.2%
+        - Sexual dysfunction: 60.8%
+        - Only 4.5% achieved complete disease control despite active dermatologist treatment
+    *Conclusion:* Advanced HS carries a multidimensional palliative care burden comparable to advanced cancer. Emotional burden consistently exceeds physical symptom burden.
+    *Limitations:* Cureus journal (lower tier); heterogeneity across included studies; no meta-analysis.
+    *Certainty Assessment:*
+        - *Quality:* Moderate (Cureus; PRISMA-compliant)
+        - *Sample:* Combined n=1,299 across studies
+        - *Replication:* Consistent patterns across multiple studies
+        - *Score:* 0.55
+
+=== Meral Ketenci et al.\ 2026 — Kinesiophobia in HS
+
+    *Full Citation:* Meral Ketenci B, Meral HB, Meral Obholzer Z.\ Determinants of kinesiophobia in patients with hidradenitis suppurativa: the role of pain, fatigue, physical activity and depression. _BMC Psychology_. 2026. @MeralKetenci2026HSKinesiophobia
+    *DOI:* #link("https://doi.org/10.1186/s40359-026-05165-2")[10.1186/s40359-026-05165-2]
+    *PMID:* 42432792
+    *Study Design:* Cross-sectional, HS patients vs age/sex-matched healthy controls
+    *Key Findings:*
+        - HS patients: significantly higher kinesiophobia and fatigue, lower physical activity vs controls
+        - Kinesiophobia positively correlated with disease severity (IHS4), pain (VAS), fatigue (FSS), depression (BDI)
+        - In multivariable regression: pain intensity, fatigue, and depressive symptoms were independent determinants of kinesiophobia
+        - First study investigating kinesiophobia in HS
+    *Conclusion:* Kinesiophobia is an underrecognized component of HS disease burden. Pain, fatigue, and depression contribute to movement-related fear, which reduces physical activity — a pattern mirroring ME/CFS activity avoidance.
+    *Limitations:* Cross-sectional; single center; sample size not reported in abstract.
+    *Certainty Assessment:*
+        - *Quality:* Moderate (BMC Psychology)
+        - *Sample:* Not specified (categorized as medium)
+        - *Replication:* First study; no replication
+        - *Score:* 0.60
+
+=== Moran et al.\ 2023 — Targeting NLRP3 Inflammasome in HS Skin
+
+    *Full Citation:* Moran B, Smith CM, Zaborowski A, Ryan M, Karman J, Dunstan RW, Smith KM, Hambly R, Musilova J, Petrasca A, Fabre A, O'Donnell M, Hokamp K, Mills KHG, Housley WJ, Winter DC, Kirby B, Fletcher JM.\ Targeting the NLRP3 inflammasome reduces inflammation in hidradenitis suppurativa skin. _British Journal of Dermatology_. 2023;189(4):447–458. @Moran2023NLRP3HS
+    *DOI:* #link("https://doi.org/10.1093/bjd/ljad184")[10.1093/bjd/ljad184]
+    *PMID:* 37243544
+    *Study Design:* Single-cell RNA-seq + flow cytometry + skin explant culture
+    *Key Findings:*
+        - scRNA-seq: enrichment of plasma cells, Th17 cells, dendritic cell subsets in HS vs healthy skin
+        - Flow cytometry: significantly increased T cells, B cells, neutrophils, macrophages, dendritic cells in HS skin
+        - Th17, IL-17, IL-1β, and NLRP3 inflammasome pathways enhanced in HS skin
+        - Inflammasome constituent genes mapped to Langerhans cells and dendritic cell subpopulations
+        - NLRP3 inhibitor (MCC950) significantly reduced IL-1β and IL-17A secretion from HS skin explants
+    *Conclusion:* NLRP3 inflammasome is a central driver of inflammation in HS. Targeting NLRP3 provides a rationale for therapeutic development, with small-molecule inhibitors in development.
+    *Limitations:* Ex vivo explant model; single center (Trinity College Dublin); industry collaboration (AbbVie).
+    *Certainty Assessment:*
+        - *Quality:* High (Br J Dermatol; rigorous multi-method approach)
+        - *Sample:* Adequate for scRNA-seq
+        - *Replication:* Partially replicated (Krajewski 2024 for NLRP3 expression)
+        - *Score:* 0.75
+
+=== Petrasca et al.\ 2023 — Metformin and NLRP3 in HS
+
+    *Full Citation:* Petrasca A, Hambly R, Kearney N, Smith CM, Pender EK, Mac Mahon J, O'Rourke AM, Ismaiel M, Boland PA, Almeida JP, Kennedy C, Zaborowski A, Murphy S, Winter D, Kirby B, Fletcher JM.\ Metformin has anti-inflammatory effects and induces immunometabolic reprogramming via multiple mechanisms in hidradenitis suppurativa. _British Journal of Dermatology_. 2023;189(6):730–740. @Petrasca2023MetforminHS
+    *DOI:* #link("https://doi.org/10.1093/bjd/ljad305")[10.1093/bjd/ljad305]
+    *PMID:* 37648653
+    *PMCID:* PMC13077222
+    *Study Design:* In vivo (PBMCs HS patients ± metformin) + ex vivo (skin explants ± metformin) + in vitro assays
+    *Key Findings:*
+        - Metabolic pathways dysregulated in HS PBMCs vs healthy individuals
+        - Metformin restored metabolic pathways and reduced inflammatory markers in HS patients
+        - Overnight metformin culture reduced inflammatory cytokines and glycolytic genes in HS skin explants
+        - Anti-inflammatory effects via NLRP3 inflammasome and AMPK-mTOR pathway
+    *Conclusion:* Metformin exerts anti-inflammatory effects in HS through immunometabolic reprogramming targeting NLRP3. Supports targeting metabolism as therapeutic strategy in inflammatory diseases.
+    *Limitations:* Small sample sizes for patient subgroups; ex vivo/in vitro models; no randomized trial.
+    *Certainty Assessment:*
+        - *Quality:* High (Br J Dermatol)
+        - *Sample:* Medium
+        - *Replication:* No independent replication (single group)
+        - *Score:* 0.65
+
+=== Zhang et al.\ 2016 — NLRP3 Inflammasome in LPS-Induced Mouse Fatigue
+
+    *Full Citation:* Zhang ZT, Du XM, Ma XJ, Zong Y, Chen JK, Yu CL, Liu YG, Chen YC, Zhao LJ, Lu GC.\ Activation of the NLRP3 inflammasome in lipopolysaccharide-induced mouse fatigue and its relevance to chronic fatigue syndrome. _Journal of Neuroinflammation_. 2016;13(1):71. @Zhang2016NLRP3CFS
+    *DOI:* #link("https://doi.org/10.1186/s12974-016-0539-1")[10.1186/s12974-016-0539-1]
+    *PMID:* 27048470
+    *PMCID:* PMC4822300
+    *Study Design:* Mouse model: LPS + swim stress; NLRP3 KO comparison
+    *Key Findings:*
+        - LPS+swim stress produced fatigue-like behaviors: decreased locomotor activity, reduced rota-rod fall-off time
+        - NLRP3 expression, caspase-1 activation, mature IL-1β increased in diencephalon
+        - Serum IL-1β and IL-6 increased
+        - NLRP3 KO mice: significantly less fatigue, lower serum and brain IL-1β
+        - IL-6 levels not affected by NLRP3 KO
+    *Conclusion:* LPS-induced fatigue is IL-1β-dependent via NLRP3/caspase-1 pathway. NLRP3/caspase-1 inhibition is a potential therapeutic target for fatigue.
+    *Limitations:* Mouse model (LPS-induced, not spontaneous CFS); limited to diencephalon brain region; single group.
+    *Certainty Assessment:*
+        - *Quality:* High (J Neuroinflammation; well-controlled KO design)
+        - *Sample:* Adequate for mouse study
+        - *Replication:* Partially replicated (Zhang 2017 with different model)
+        - *Score:* 0.70
+
+=== Zhang et al.\ 2017 — NLRP3 Mediates Fatigue Behaviors via Neuroinflammation
+
+    *Full Citation:* Zhang Z, Ma X, Xia Z, Chen J, Liu Y, Chen Y, Zhu J, Li J, Yu H, Zong Y, Lu G.\ NLRP3 inflammasome activation mediates fatigue-like behaviors in mice via neuroinflammation. _Neuroscience_. 2017;358:115–123. @Zhang2017NLRP3Fatigue
+    *DOI:* #link("https://doi.org/10.1016/j.neuroscience.2017.06.048")[10.1016/j.neuroscience.2017.06.048]
+    *PMID:* 28684277
+    *Study Design:* Mouse model: repeated forced swim; NLRP3 KO comparison
+    *Key Findings:*
+        - Repeated forced swim produced fatigue-like behaviors: decreased locomotor activity, reduced rota-rod fall-off time
+        - NLRP3 protein expression, inflammasome formation, and mature IL-1β increased in prefrontal cortex (PFC)
+        - Serum MDA elevated
+        - NLRP3 KO mice: significantly moderated fatigue behaviors, decreased PFC and serum IL-1β
+    *Conclusion:* NLRP3 inflammasome activation mediates swimming-induced fatigue via neuroinflammation. Targeting NLRP3/IL-1β pathway in prefrontal cortex may have potential for fatigue prevention.
+    *Limitations:* Mouse model (forced swim, not spontaneous fatigue); prefrontal cortex only; single group.
+    *Certainty Assessment:*
+        - *Quality:* Moderate-High (Neuroscience)
+        - *Sample:* Adequate for mouse study
+        - *Replication:* Consistent with Zhang 2016 (different model)
+        - *Score:* 0.65
+
+=== Jin et al.\ 2026 — PEM Pathophysiology: Metabolism-Immune-Neuro Model
+
+    *Full Citation:* Jin H, An Y, Huang J, Luo T, Wu X.\ Pathophysiological mechanisms of post-exertional malaise: an integrative analysis based on the metabolism-immune-neuro interaction model. _Frontiers in Immunology_. 2026;17:1774310. @Jin2026PEMinflammasome
+    *DOI:* #link("https://doi.org/10.3389/fimmu.2026.1774310")[10.3389/fimmu.2026.1774310]
+    *PMID:* 42051540
+    *PMCID:* PMC13110949
+    *Study Design:* Systematic review / integrative model
+    *Key Findings:*
+        - Central model: mitochondrial dysfunction → ROS/mtDNA as DAMPs → NLRP3 inflammasome activation → IL-1β, IL-6, TNF-α → systemic inflammation → neuroinflammation (glial activation, insular cortex) → altered fatigue/pain perception
+        - Proposes PEM as a "energy exhaustion — inflammation amplification" self-perpetuating loop
+        - Links exercise-induced mitochondrial dysfunction to innate immune activation in predisposed individuals
+        - Explicitly connects NLRP3 inflammasome to PEM in both CFS and Long COVID
+    *Conclusion:* PEM results from complex interplay among mitochondrial dysfunction, immune activation (NLRP3/IL-1β/TNF-α), and neuroinflammation. Multi-target interventions needed to disrupt pathological cycle.
+    *Limitations:* Review/theoretical model; no original data; Chinese institution; quality of included primary studies not systematically appraised.
+    *Certainty Assessment:*
+        - *Quality:* Moderate-High (Front Immunol)
+        - *Sample:* N/A (review)
+        - *Replication:* Consistent with prior animal models (Zhang 2016, 2017)
+        - *Score:* 0.65
+
+=== Krajewski et al.\ 2024 — NLRP3 Overexpression in HS Lesions
+
+    *Full Citation:* Krajewski PK, Szukała W, Szepietowski JC.\ The NLRP3 inflammasome gene is overexpressed in hidradenitis suppurativa lesions: a preliminary study on the role of pyroptosis in disease pathogenesis. _Current Issues in Molecular Biology_. 2024;46(3):2544–2552. @Krajewski2024NLRP3HS
+    *DOI:* #link("https://doi.org/10.3390/cimb46030161")[10.3390/cimb46030161]
+    *PMID:* 38534777
+    *PMCID:* PMC10969583
+    *Study Design:* RNA-seq + real-time PCR of skin biopsies
+    *Key Findings:*
+        - NLRP3 gene significantly overexpressed in lesional and perilesional HS skin vs healthy controls
+        - NLRP3 mRNA significantly higher in lesional vs non-lesional skin in HS patients
+        - P2X7R gene expression not significantly different between groups
+        - Suggests inflammation spreads to adjacent tissue in HS
+    *Conclusion:* NLRP3 inflammasome is involved in HS pathogenesis and is a potential therapeutic target. P2X7R may not play a significant role.
+    *Limitations:* Preliminary study; small sample; single center; limited to gene expression (no protein data).
+    *Certainty Assessment:*
+        - *Quality:* Moderate (Curr Issues Mol Biol; peer-reviewed)
+        - *Sample:* Small
+        - *Replication:* Partially consistent with Moran 2023
+        - *Score:* 0.50
+
+=== D'Onghia et al.\ 2024 — Fibromyalgia and Skin Disorders: Systematic Review
+
+    *Full Citation:* D'Onghia M, Ciaffi J, Calabrese L, Tognetti L, Cinotti E, Rubegni P, Frediani B, Ursini F.\ Fibromyalgia and skin disorders: a systematic review. _Journal of Clinical Medicine_. 2024;13(15):4404. @DOnghia2024FMskin
+    *DOI:* #link("https://doi.org/10.3390/jcm13154404")[10.3390/jcm13154404]
+    *PMID:* 39124671
+    *PMCID:* PMC11312914
+    *Study Design:* PRISMA systematic review
+    *Sample Size:* 21 articles
+    *Key Findings:*
+        - Increased frequency of FM among patients with cutaneous diseases: psoriasis, chronic urticaria, contact allergy, acneiform disorders, hidradenitis suppurativa, vitiligo
+        - Comorbid FM may intensify skin conditions, negatively impacting QoL
+        - Bidirectional relationship suggested — each condition may worsen the other
+    *Conclusion:* FM and skin disorders including HS co-occur. The HS–FM–ME/CFS triad may share central sensitization and neuroinflammation pathways.
+    *Limitations:* Heterogeneous included studies; no meta-analysis possible.
+    *Certainty Assessment:*
+        - *Quality:* Moderate-High (J Clin Med; PRISMA-compliant)
+        - *Sample:* 21 studies
+        - *Replication:* Consistent with Prens 2022 finding of FM OR 2.26 in HS
+        - *Score:* 0.55
+
+=== Romanelli et al.\ 2025 — Musculoskeletal Symptom Burden in HS
+
+    *Full Citation:* Romanelli S, Ball GD, Hamade H, Taliercio M, Levy Z, Perez-Chada L, Merola JF, Gottlieb AB.\ Hidradenitis suppurativa patients experience a significant musculoskeletal symptom burden: a quality improvement initiative using the IDEOM MSK-Q. _Journal of Clinical and Aesthetic Dermatology_. 2025;18(9):22–25. @Romanelli2025HSMSK
+    *PMID:* 41416234
+    *PMCID:* PMC12710871
+    *Study Design:* Quality improvement initiative; cross-sectional with follow-up
+    *Sample Size:* n=115 HS patients
+    *Key Findings:*
+        - 79.14% reported joint symptoms
+        - 33.91% rating joint pain ≥7/10 on 10-point scale
+        - Fatigue ≥7/10 in 47.82%
+        - Higher HS severity significantly correlated with greater MSK symptom burden
+        - Greatest impact on work/school and daily physical activities
+    *Conclusion:* Substantial MSK symptom burden and fatigue in HS. IDEOM MSK-Q may be a valuable assessment tool for HS. Follow-up suggested symptom improvement with systemic treatment.
+    *Limitations:* Small sample; single clinic; limited follow-up duration; no statistical significance for treatment effect.
+    *Certainty Assessment:*
+        - *Quality:* Moderate (J Clin Aesthet Dermatol)
+        - *Sample:* Small-medium (n=115)
+        - *Replication:* No replication
+        - *Score:* 0.45
+
+=== Deckers et al.\ 2016 — Severe Fatigue from Anaemia in HS
+
+    *Full Citation:* Deckers IE, van der Zee HH, Prens EP.\ Severe fatigue based on anaemia in patients with hidradenitis suppurativa: report of two cases and a review of the literature. _Journal of the European Academy of Dermatology and Venereology_. 2016;30(1):174–175. @Deckers2016HSAnaemiaFatigue
+    *DOI:* #link("https://doi.org/10.1111/jdv.12680")[10.1111/jdv.12680]
+    *PMID:* 25185839
+    *Study Design:* Case reports + literature review
+    *Key Findings:*
+        - HS-associated anaemia of chronic disease can cause severe fatigue
+        - Fatigue responsive to treatment of underlying inflammation
+        - Pathway: systemic inflammation → anaemia → fatigue
+    *Conclusion:* Anaemia of chronic disease is a mechanistically plausible mediator of HS fatigue relevant to ME/CFS fatigue pathways.
+    *Limitations:* Only 2 case reports; letter format; no quantitative fatigue data.
+    *Certainty Assessment:*
+        - *Quality:* Low (case reports + review in letter format)
+        - *Sample:* n=2
+        - *Replication:* N/A
+        - *Score:* 0.30
+
+=== Riis et al.\ 2018 — Pilot Study of Fatigue in HS
+
+    *Full Citation:* Riis PT, Sigsgaard V, Boer J, Jemec GBE.\ A pilot study of fatigue in patients with hidradenitis suppurativa. _British Journal of Dermatology_. 2018;178(1):e42–e43. @Riis2018HSFatigue
+    *DOI:* #link("https://doi.org/10.1111/bjd.15842")[10.1111/bjd.15842]
+    *PMID:* 28734010
+    *Study Design:* Pilot study (letter format)
+    *Key Findings:*
+        - First study specifically quantifying fatigue in HS patients
+        - Established fatigue as a measurable construct in HS
+    *Conclusion:* Foundational pilot demonstrating feasibility of fatigue assessment in HS.
+    *Limitations:* Letter format; small sample; limited detail available.
+    *Certainty Assessment:*
+        - *Quality:* Low (letter, limited data)
+        - *Sample:* Small pilot
+        - *Replication:* Subsequent studies confirm fatigue prevalence
+        - *Score:* 0.40

@@ -306,5 +306,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | inadequate-treatment-duration-research | [subtrees/inadequate-treatment-duration-research.md](subtrees/inadequate-treatment-duration-research.md) | 2026-07-15 | 38 | 18 | ✅ done |
 | herpesvirus-antibody-persistence | [subtrees/herpesvirus-antibody-persistence.md](subtrees/herpesvirus-antibody-persistence.md) | 2026-07-16 | 22 | 0 | 🔵 in progress |
 | glycolytic-reprogramming-tickborne | [subtrees/glycolytic-reprogramming-tickborne.md](subtrees/glycolytic-reprogramming-tickborne.md) | 2026-07-17 | 46 | 7 | 🔵 in progress |
+| maladie-de-verneuil | [subtrees/maladie-de-verneuil.md](subtrees/maladie-de-verneuil.md) | 2026-07-20 | 15 | 9 | 🔵 in progress |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
