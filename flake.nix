@@ -211,7 +211,7 @@
         };
 
         devShells.default = pkgs.mkShell {
-          buildInputs = [ pkgs.coreutils pkgs.typst pkgs.quarto pkgs.jdk25 ];
+          buildInputs = [ pkgs.coreutils pkgs.typst pkgs.quarto pkgs.jdk25 pkgs.texliveFull ];
           shellHook = ''
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
             export TYPST_FONT_PATHS="src/main/typst/mecfs/fonts"
