@@ -1902,12 +1902,11 @@ String convertFindingsGroup(String s) {
     return out.toString();
 }
 
-static final Pattern FINDING_HEAD = Pattern.compile("#finding\\(\\s*(\\d+)\\s*,\\s*claim:\\s*\\[");
+static final Pattern FINDING_HEAD = Pattern.compile("#finding\\(\\s*claim:\\s*\\[");
 
 String convertFinding(String rawCall) {
     var hm = FINDING_HEAD.matcher(rawCall);
     if (!hm.find()) return rawCall;
-    var num = hm.group(1);
     var fields = new LinkedHashMap<String, String>();
     var currentField = "claim";
     var depth = 1;
@@ -1942,7 +1941,7 @@ String convertFinding(String rawCall) {
 
     var html = new StringBuilder();
     html.append("<div class=\"env-finding\">\n");
-    html.append("<div class=\"env-finding-heading\">Finding ").append(num).append(" — ").append(claim).append("</div>\n");
+    html.append("<h5 class=\"env-finding-heading\">Finding — ").append(claim).append("</h5>\n");
     html.append("<div class=\"env-finding-body\">\n");
     if (!explanation.isEmpty()) {
         html.append("  <div class=\"env-finding-explanation\">").append(explanation).append("</div>\n");

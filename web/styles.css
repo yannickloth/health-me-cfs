@@ -212,8 +212,17 @@
   .env-clinical-finding .callout-title { color: #312e81; }
 
   /* Finding: differential diagnostic inference block (ch29).
-     Vertical gap between consecutive sibling findings. */
-  .env-finding { margin: 0 0 1.5em 0 !important; }
+     Card appearance — green left border + tinted background matching the
+     findings-group callout-note color. Only consecutive siblings get top gap. */
+  .env-finding {
+    border-inline-start: 4px solid oklch(0.5 0.09 135);
+    background: oklch(0.96 0.02 140);
+    border-radius: 0 4px 4px 0;
+    padding-block: 0.6em;
+    padding-inline-end: 0.8em;
+
+    & + .env-finding { margin-block-start: 1.5em; }
+  }
   .env-finding-heading { font-weight: 600; margin-block-end: 0.35em; }
   .env-finding-explanation { margin-block-end: 0.5em; }
   .env-finding-fields {
