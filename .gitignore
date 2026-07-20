@@ -384,3 +384,7 @@ target/**/*.pdf
 src/main/typst/stress-reduction/**/*.pdf
 src/main/typst/correspondence/fourel-hsat2-integration-2026-05-01.pdf
 src/main/typst/rapport_fourel/main.pdf
+src/main/latex/hsat2/main.pdf
+src/main/latex/hsat2/20260720_hsat2_ISLC_PAIS.pdf
+src/main/latex/hsat2/20260720T1953_hsat2_ISLC_PAIS.pdf
+test-l3.pdf
