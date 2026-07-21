@@ -197,6 +197,8 @@ Upright cervical MRI (performed during active symptoms) can identify CCI+ vs. CC
 - CCI+ patients will have elevated standing norepinephrine and abnormal sympathetic testing disproportionate to other autonomic measures
 
 *Treatment implications:* Pre-treatment upright cervical MRI or careful clinical CCI assessment should guide first-line therapy. Structural OI patients receive cervical stabilization first; functional OI patients receive standard POTS treatment. This stratification may improve treatment response rates by matching mechanism to intervention.
+
+*Thoracolumbar extension:* The structural/functional OI distinction may also apply to mechanical dysautonomia originating outside the cervical spine — vertebral rotation or osteophytic encroachment along the thoracolumbar sympathetic chain (T1–L2) could produce multi-organ dysautonomia without CCI (@spec:ch08-thoracolumbar-sympathetic-irritation). EOS full-spine radiography could identify ME/CFS patients whose orthostatic intolerance has a thoracolumbar mechanical driver rather than a craniocervical one.
 ] <hyp:ch10-structural-functional-oi>
 
 #speculation(title: [tVNS for Structural-Autonomic Dysfunction in Hypermobile ME/CFS])[

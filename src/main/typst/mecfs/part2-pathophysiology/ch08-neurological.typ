@@ -2455,6 +2455,8 @@ Neck muscles (deep cervical flexors, multifidi) provide proprioceptive feedback 
 - EMG-measured cervical muscle endurance time will predict symptom severity during head-dependent activities (reading, computer use) independently of structural findings
 
 *Clinical implications:* Differentiating functional from structural CCI guides treatment: structural CCI requires orthopedic stabilization (collar, PT, potentially surgery), while functional instability responds to proprioceptive training and graded neck muscle endurance exercise without requiring invasive intervention.
+
+*Asymmetry-driven functional CCI:* Skeletal asymmetry below the cervical spine (pelvic obliquity, rotoscoliosis, leg length discrepancy) imposes sustained compensatory demand on cervical stabilizers to maintain horizontal gaze — the same neck muscles whose fatigue drives functional CCI. In this cascade, asymmetry is the upstream mechanical source: pelvic obliquity → lumbar/thoracic countercurves → cervical tilt → chronic subclinical neck muscle overwork → premature fatigue → proprioceptive degradation → functional CCI (@spec:skeletal-asymmetry-cascade, Pathway 4). This identifies a potentially reversible driver of functional CCI — postural correction (shoe lifts, orthotics) could reduce the compensatory neck load and delay the onset of proprioceptive fatigue — and provides a testable mechanism linking skeletal asymmetry to the cervicothoracic instability phenotype common in ME/CFS.
 ] <spec:ch08-proprioceptive-fatigue-instability>
 
 #speculation(title: [Cervical Sympathetic Ganglion Compression in CCI])[

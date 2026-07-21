@@ -73,6 +73,7 @@
 | 10a | SKIP — @syn:genetic-neuronal-convergence already serves as convergent synthesis condensing the 3 new/modified ch08 environments + ch12 brain-first model. No additional synthesis needed. Trigger: 4 environments across 2 chapters but convergence already expressed. |
 | 11 | Lightweight review (single section, 6 files, ≤10 envs). R1: 1 finding (missing @Finucane2018stratifiedLDSC citation in achievement) → fixed. R2: 0 findings. Convergence at 2 clean rounds. Also: ch14d build failure from external cycle's skeletal-asymmetry wip (NOT this cycle's content) — confirmed my changes compile clean when external WIP stashed. |
 | 12 | Changelog entry added under Version 11. References @ach:cell-type-enrichment-convergence, @hyp:striatal-symptom-signalling, @syn:genetic-neuronal-convergence, @lim:cell-type-enrichment-caveats. 10 bib entries (+ 2 pre-existing), 11 appendix H entries, 4 registry entries. Changelog compiles. |
+| 13 | **1 commit created (4893880).** 15 files: 6 new, 9 modified. No scratch checkpoint pointers to clean (MIXED mode — no pointers created). Shared-file verification: appendix-h entries already in HEAD (committed by Phase 1 agent — verified present via `git show HEAD`). Registry entries committed. Changelog committed. Excluded: 10 unrelated WIP files (HSAT2 LaTeX, SVG agents, skeletal-asymmetry cycle, etc.). Row status: ✅ done. |
 
 ## Certainty Bump Log
 
