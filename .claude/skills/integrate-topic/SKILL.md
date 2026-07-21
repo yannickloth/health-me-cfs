@@ -14,7 +14,7 @@ End-to-end: research → synthesize → **integration decision** → develop →
 
 **Guard:** `$ARGUMENTS` empty/blank/literal → ask user for topic before proceeding.
 
-**Artifact locations (MANDATORY — see `ops/AGENTS.md` for the full map):** kept artifacts go under `ops/` (`ops/research/` = literature summaries + search logs; `ops/brainstorms/` = brainstorms; `ops/integration-guides/` = integration guides + bib fragments; `ops/plans/` = plans + hypothesis trees). Disposable one-cycle audit scratch (synthesis, compat-audit, coherence-audit, synonym-map) goes to `tmp/` and is NEVER committed. Never use the retired `content-staging/` folder. Never write an `ops/` or `tmp/` path into the document (`src/**`).
+**Artifact locations (MANDATORY — see `ops/AGENTS.md` for the full map):** kept artifacts go under `ops/` (`ops/research/` = literature summaries + search logs; `ops/brainstorms/` = brainstorms; `ops/integration-guides/` = integration guides + bib fragments; `ops/plans/` = plans + hypothesis trees). Disposable one-cycle audit scratch (synthesis, compat-audit, coherence-audit, synonym-map) goes to `tmp/` and is NEVER committed. Never use the retired `content-staging/` folder (retired 2026-07-12; do not create or reference). Never write an `ops/` or `tmp/` path into the document (`src/**`).
 
 ---
 
@@ -104,7 +104,7 @@ Verify these exist before delegating any phase. Run: `ls .claude/agents/<name>.m
 | `reductionist-auditor.md` | Phase 11b | ✓ exists |
 | `clinician-auditor.md` | Phase 11b | ✓ exists |
 | `devil-advocate-auditor.md` | Phase 11b | ✓ exists |
-| `cross-section-coherence-auditor` | None (Phase 10 inline) | ✗ does not exist |
+| `cross-section-coherence-auditor` | None (Phase 10 inline) | ✗ not created — Phase 10 runs inline indefinitely. No agent because: (1) coherence audit requires integrative judgment across multiple chapters simultaneously, (2) span of files is large (~20+ .typ files), (3) each audit pass is context-heavy and single-session focused. If context budgets improve or a two-pass architecture (grep-index-then-reason) becomes feasible, reconsider.
 
 ## Phase 0 — Plan Maintenance
 
@@ -120,8 +120,9 @@ Before starting any other phase:
      - **Purpose** — one sentence: what topic, why it matters for ME/CFS
      - **Target chapters** — bullet list
      - **Pre-identified hypotheses** — bullet list with preliminary certainty, if any already known
-     - **Tracking table** — columns: `# | Idea / hypothesis | Tier | Certainty | Status | Notes`; one row per brainstorm idea, status `⬜ pending`
-     - **Notes** — constraints, links to related plans, parent topic
+      - **Tracking table** — columns: `# | Idea / hypothesis | Tier | Certainty | Status | Notes`; one row per brainstorm idea, status `⬜ pending`
+      - **Certainty bump log** — empty at creation; populated by Phases 6 and 7. Table: `Hypothesis | Phase | Old cert | New cert | Δ | Reason`. This is the single source of truth for bump-rate enforcement — the per-cycle "one bump per hypothesis" guard checks this log before applying any new bump. Bump log entries also serve as the audit trail for the Phase 9 G-UNSUSTAINED-CERTAINTY flag (≥2 bumps in one cycle triggers the flag).
+      - **Notes** — constraints, links to related plans, parent topic
    Then validate the plan file mechanically: all required fields present, no empty statuses. Tracking table must have at least one row — for recursive invocations, populate with the parent cycle's queued idea(s) as initial rows (status `⬜ pending`); for standalone invocations, the table may be empty at creation and populated after Phase 1. Do NOT run `/review-convergence` on a tracking document — it is a coordination artifact, not publishable content. Only proceed to Phase 1 when validation passes.
 4. **After every subsequent phase**, update the tracking table row(s) and any notes in the plan:
    - Phase 1 → papers found, bib entries added, search log path
@@ -132,8 +133,8 @@ Before starting any other phase:
    - Phase 4a → subtree file path, N nodes written, root index updated
    - Phase 5 → ideas integrated (by tier); queued topics from Gates A/B with one-line rationale
    - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
-   - Phase 6 → M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred)
-   - Phase 7 → R reinforcement pairs, F feed-in pairs, C conflict pairs, I independents; J certainty bumps, K reductions, L tensions flagged
+    - Phase 6 → M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred); bump log updated with K bumps
+    - Phase 7 → R reinforcement pairs, F feed-in pairs, C conflict pairs, I independents; J certainty bumps, K reductions, L tensions flagged; bump log updated with J+K adjustments
    - Phase 8 → build status
    - Phase 9 → quality metrics summary, quality flags
     - Phase 10 → cross-chapter coherence status
@@ -594,16 +595,16 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 **Skip if:** The topic is non-pharmacological (breathing, pacing) OR the intervention has no known mechanism OR evidence is purely animal/preclinical.
 
 **Procedure:**
-1. Invoke `/medication-differential-analysis <medication-name>`
-2. The generated differential entry is placed inside the medication's subsection in ch24 under `==== What the Response Tells Us About Mechanisms`
-3. Update the consolidated Response Pattern Synthesis and From Patterns to Root Causes sections in ch24 if they already exist (if this is the first medication differential entry, the consolidated sections will be generated on the first `/medication-differential-analysis all` retroactive run)
+1. Load the skill: `skill medication-differential-analysis`. The skill delegates to the `medication-differential-analyst` agent internally; do not invoke the agent directly.
+2. When prompted for medication name, provide `<topic-slug>`.
+3. Update the consolidated Response Pattern Synthesis and From Patterns to Root Causes sections in ch24 if they already exist (if this is the first medication differential entry, the consolidated sections will be generated by a retroactive `skill medication-differential-analysis` run with "all" as the medication name)
 4. Verify build after integration
 
 **Report:** "Phase 5c complete: differential entry generated for <medication-name> (inference certainty: High/Medium/Low)."
 
 ## Phase 5b — Intermediate Build Check
 
-**Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit). The lettering reflects content type, not execution order.
+**Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit) and after Phase 5c (differential analysis, `c` = clinical). The lettering reflects content type, not execution order. Execution sequence: 5 → 5c → 5b → 5a.
 
 **Agent:** main session | **Model:** current
 
@@ -748,6 +749,19 @@ For each overlap, classify the relationship and apply **one** primary action. Ca
 - **Diminishing returns enforcement:** Before applying any bump, read the claim's self-documented certainty history in the chapter text. Count prior bumps. If 3+ prior bumps exist, apply the ≥ 0.70 incoming certainty requirement. This is an operational step, not just a rule — the main session must verify the count before approving.
 - Certainty reductions are not artificially floored. If evidence warrants reduction below 0.10, apply it with human review flag.
 
+### Certainty Bump Log (write to plan file after adjustments)
+
+After all Phase 6 adjustments are applied, append entries to the plan's `## Certainty Bump Log` table:
+
+```markdown
+| Hypothesis | Phase | Old cert | New cert | Δ | Reason |
+|------------|-------|----------|----------|---|--------|
+| H-immune-paradox | 6 | 0.40 | 0.45 | +0.05 | External validation (Lancet 2024, independent lab, n=120) |
+| NK-exhaustion-phase | 6 | 0.30 | 0.25 | −0.05 | Partial contradiction (smaller effect in replication) |
+```
+
+This log is the **mechanism of enforcement** for the per-cycle cap — before applying any bump in Phase 7, check the log: if the hypothesis already has a Phase 6 bump entry, reject any further +0.05 (the combined cap is ≤1 bump per hypothesis per cycle). The log is also the trigger for the Phase 9 G-UNSUSTAINED-CERTAINTY flag: ≥2 bumps for the same hypothesis in a single cycle fires the flag.
+
 ### Report
 
 ```
@@ -823,6 +837,8 @@ Review the reinforcement builder's proposals. For each approved adjustment:
 
 **Gate:** All proposed certainty adjustments — both bumps and reductions — must be explicitly approved by the main session before application. Do not silently bump or lower.
 
+**Certainty Bump Log:** After all Phase 7 adjustments are approved and applied, append entries to the plan's `## Certainty Bump Log` table (create one if it doesn't exist). Format same as Phase 6. Before appending any entry, check the log for any existing Phase 6 bump for the same hypothesis — if found, reject (per-cycle cap: ≤1 bump per hypothesis across Phases 6+7).
+
 **Intra-cycle dependency check:** Before approving, verify no circular dependencies within the proposed adjustments. Specifically: if H_a is proposed for reduction (e.g., conflict with H_c) AND H_a feeds into H_b (proposed for bump contingent on H_a ≥ 0.50), and the reduction would take H_a below 0.50 → reject the contingent bump on H_b. Apply reductions first, then evaluate remaining bump proposals against updated certainties.
 
 **Report:**
@@ -895,7 +911,7 @@ These are lightweight checks (the build may fail; that's the point). If either f
 |------|-----------|--------|
 | `BLOAT` | Gross words added (via `git diff --word-diff --stat`) > 2000 AND <3 new hypotheses/speculations | Review for verbose integration; consider condensing before Phase 10–11 reviews |
 | `WEAK-EVIDENCE` | Phase 2 decision was PARTIAL, OR >50% of papers have certainty < 0.40 | Aligned with Phase 2 sufficiency gate by design |
-| `CLINICAL-RISK` | Treatment environment integrated without harm literature search, OR `#clinical-finding` without evidence type stated, OR treatment claim with only preclinical evidence, OR treatment/clinical content without severity applicability statement | Verify adverse effect search was done; add missing safety caveats; add severity applicability |
+| `CLINICAL-RISK` | Treatment environment integrated without harm literature search, OR `#clinical-finding` without evidence type stated, OR treatment claim with only preclinical evidence, OR treatment/clinical content without severity applicability statement, OR drug idea integrated without checking interactions with common ME/CFS co-prescriptions (Phase 5 Augment H) | Verify adverse effect search was done; add missing safety caveats; add severity applicability; run drug interaction check |
 | `SLOW-CONVERGENCE` | (computed after Phase 11 — added to report retroactively; informational, not actionable) | Integration introduced structural issues |
 
 **Note on net certainty direction:** Negative net certainty change is a *successful correction*, not a failure. Report direction without valence judgment: "Net certainty change: −0.15 (corrections predominated)." Positive direction is not inherently better than negative.
@@ -909,7 +925,7 @@ These are lightweight checks (the build may fail; that's the point). If either f
 
 ## Phase 10 — Cross-Chapter Coherence Review
 
-**Agent:** main session | **Model:** sonnet (no Agent delegation — the `cross-section-coherence-auditor` agent does not exist in `.claude/agents/`. Phase 10 runs inline.)
+**Agent:** main session | **Model:** sonnet (inline execution — no agent delegation. See Agent Registry for rationale on why no `cross-section-coherence-auditor` agent exists.)
 
 **Purpose:** Phases 5 and 6 modify content across multiple chapters. This phase verifies the cross-chapter narrative is still coherent after scattered modifications.
 
@@ -976,7 +992,7 @@ These are lightweight checks (the build may fail; that's the point). If either f
 
 6. **Add label** `<syn:topic-slug-model>` for changelog cross-referencing.
 
-**Environment definition:** `#synthesis(title: [...])[body] <label>` renders as a solid cyan box with `⇌` icon. Defined in `src/main/typst/mecfs/shared/environments.typ`. The Java Qmd converter (`ConvertAndSplit.java`) maps it to a Quarto `note` callout.
+**Environment definition:** `#synthesis(title: [...])[body] <label>` renders as a solid cyan box with `⇌` icon. Defined in `src/main/typst/mecfs/shared/environments.typ`. The Java Qmd converter (`src/main/java/web/ConvertAndSplit.java`) maps it to a Quarto `note` callout.
 
 **Output:** The modified `.typ` file with the new `#synthesis` environment.
 **Report:** "Phase 10a complete: synthesis environment @syn:<topic-slug>-model added to chapter N, condensing K environments into convergent model."
@@ -1108,6 +1124,13 @@ If a shared file you modified is no longer in `git status` (committed by a paral
 
 **Checkpoint cleanup (NO history rewrite):** Scratch checkpoint pointers (`wip/<topic-slug>-preN` branches/tags from the Git Checkpoint Protocol) are deleted at the end: `git branch -D wip/<topic-slug>-pre3 wip/<topic-slug>-pre6` (or `git tag -d ...`). Deleting a pointer removes no commits and rewrites no history. **NEVER** squash, rebase, `--amend`, or `git reset` to "clean up" — those operations have dropped parallel cycles' committed work. If earlier drafts exist as extra commits on the shared branch, leave them; they are harmless and history-rewriting to remove them is forbidden.
 
+**Checkpoint validity test (before deletion):** Before deleting a scratch pointer, verify the checkpoint is actually reachable — a pointer that was never created (missed Phase 3/Phase 6 checkpoint) would silently fail to roll back later:
+```bash
+# Verify at least one pointer exists (not both — only phases that ran created them)
+git branch --list 'wip/<topic-slug>-pre*' ; git tag --list 'wip/<topic-slug>-pre*'
+```
+If zero pointers exist and the tree was CLEAN at cycle start → non-destructive: checkpoint creation was skipped (no pre-commit phases produced meaningful change). Warn: "No scratch checkpoints found — rollback unavailable for this cycle. Checkpoint creation may have been missed." If MIXED mode → expected (no pointers needed). If ≥1 pointer exists: proceed with deletion.
+
 **Post-commit integrity check (MANDATORY):** After committing, confirm the shared branch still builds and that no parallel work was lost:
 ```bash
 git status --short          # only foreign/parallel files remain, none of yours
@@ -1121,28 +1144,29 @@ If `nix build` fails on a key that a parallel stream's rebase/reset may have dro
 
 ## Cost Model
 
-| Phase | Agent | Model | Reason |
-|-------|-------|-------|--------|
-| 1 | `literature-integrator` | sonnet | Research synthesis needs judgment |
+| Phase | Agent / Skill | Model | Reason |
+|-------|---------------|-------|--------|
+| 1 | `literature-integrator` (agent) | sonnet | Research synthesis needs judgment |
 | 2 | main session | current | Evidence synthesis + integration decision at zero marginal cost |
 | 3 | main session | current | Composition at zero marginal cost |
 | 3.5 | main session | current | Non-specialist consequence verification — read environments, add missing consequence fields |
-| 4 | `scientific-insight-generator` | opus | Creative cross-domain synthesis (constructive + critical categories) |
+| 4 | `scientific-insight-generator` (agent) | opus | Creative cross-domain synthesis (constructive + critical categories) |
 | 4a | main session | current | Mechanical tree write |
-| 5 | `literature-integrator` (sub) | sonnet | Per-idea research (Tier 1 only) |
+| 5 | `literature-integrator` (agent, sub) | sonnet | Per-idea research (Tier 1 only) |
 | 5 | main session | current | Development + integration |
-| 5a | `falsifiability-auditor` | sonnet | Verification sweep (most work done inline in Phase 5) |
+| 5a | `falsifiability-auditor` (agent) | sonnet | Verification sweep (most work done inline in Phase 5) |
+| 5c | `medication-differential-analysis` (skill → `medication-differential-analyst` agent) | opus | Differential diagnostic reasoning for medication topics |
 | 6 | main session | current | Evidence→claim retrospective adaptation |
 | 7 | main session (inline) | current | Compatibility audit + reinforcement chains + adjustments — all three steps |
 | 8 | main session | current | Build verification + pre-build staging. Intermediate checks at Phases 3 and 5 |
 | 9 | main session | current | Quality metrics — actionable before review convergence |
 | 10 | main session (inline) | sonnet | Cross-chapter consistency audit — no separate agent; execute directly |
 | 10a | main session | current | High-level synthesis → `#synthesis` environment condensing scattered environments into convergent model |
-| 11a | review-convergence agents | sonnet | Consistency/logic checking |
-| 11b | review-adversarial personas | opus | Adversarial personas need deep reasoning |
-| 11c | review-typst agents | sonnet | Typst-specific review |
+| 11a | `review-convergence` (skill) | sonnet | Consistency/logic checking |
+| 11b | `review-adversarial` (skill) | opus | Adversarial personas need deep reasoning |
+| 11c | `review-typst` (skill) | sonnet | Typst-specific review |
 | 12 | main session | haiku | Mechanical changelog formatting |
-| 13 | commit | current | Git operations |
+| 13 | `commit` (skill) | current | Git operations |
 
 ### Agent Output Validation (NEW — mandatory for every delegated phase)
 
@@ -1159,7 +1183,7 @@ If `nix build` fails on a key that a parallel stream's rebase/reset may have dro
 
 **Unattended mode fallback:** If the user indicated the pipeline should run unattended (e.g., continuation prompt, "run all phases"), blank-output agents may fall back to main-session inline execution after 1 retry without escalating — **except** for agents with model `opus` (Phase 4 `scientific-insight-generator`, Phase 11b adversarial personas) and agents whose primary capability is web search (`literature-integrator` in any phase). Opus-level reasoning and web-search workflows cannot be replicated by the main session's current model; these must escalate to user even in unattended mode. For all other agents: state "[Phase N] agent returned blank — falling back to inline execution." This prevents long-running pipelines from blocking on user input while preserving quality for capability-critical phases.
 
-**Rationale:** Agents returned silent blank outputs in prior cycles (`cross-section-coherence-auditor` did not exist; some agents returned empty `task_result` despite valid `task_id`). Without output validation, blank agent results propagate as "phase complete." This guard catches both non-existent agents and execution failures.
+**Rationale:** Agents returned silent blank outputs in prior cycles (`cross-section-coherence-auditor` did not exist at the time; now deferred indefinitely — see Agent Registry; some agents returned empty `task_result` despite valid `task_id`).
 
 ---
 
@@ -1186,3 +1210,63 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 - **Bib is ground truth, not the agent's report** — bib entries live in the split `bib/*.bib` files (there is NO `references.bib`); cite only keys verified present in the `.bib` file, preserving their exact `AuthorYEARkeyword` case; never lowercase/normalize keys and never trust a transcribed key list
 - **No duplicate integration** — Phase 5 must dedup brainstorm ideas against Phase 3 environments before integrating
 - **Commit scope is per-topic** — Phase 13 stages only this topic's files by explicit list; never commit transient review-skill artifacts (`.claude/review-checkpoint-*.md`) or unrelated WIP
+
+---
+
+## Document-Specific Instruction Augments
+
+These are not bugs — they are correctness improvements driven by what this document IS and what its adversaries are. A patient-commissioned ME/CFS paper faces unique epistemic challenges that generic scientific pipelines don't defend against. These rules harden the pipeline against those specific failure modes.
+
+### A. Patient-Subset Visibility (all phases that write environments)
+
+**Problem:** ME/CFS spans mild to very-severe — but most studies recruit only the most-abled patients. Integrated content that doesn't acknowledge this silently trains readers to think the paper's conclusions apply to a bedbound patient when the evidence came from an ambulatory cohort.
+
+**Rule:** Every environment that references a clinical finding, biomarker, or treatment result must state which severity levels the evidence covers. If the evidence doesn't specify: `(Severity coverage: unknown — study population not stratified by severity.)` This is NOT yet required by the existing body rules (only treatment content specifies severity). Expand to all clinical claims.
+
+### B. Cohort-Overlapping Detection (Phase 1, Phase 2)
+
+**Problem:** In ME/CFS research, a single patient cohort gets sliced into multiple papers (same biobank, same recruitment wave, same PIs). If Phase 1 treats these as independent replications, certainty is systematically inflated.
+
+**Rule:** Phase 1 must collate the study sites, recruitment years, and PI names for every included paper. Phase 2 must flag pairs (or triplets) where ≥2 papers share: (a) same PI AND recruitment year, OR (b) same PI AND same unique institutional biobank, OR (c) explicit statement that the cohorts overlap. If ≥2 papers share a cohort → only the highest-certainty paper's evidence weight counts toward the PROCEED/PARTIAL decision; the others are treated as re-analyses (add context but don't add independent evidence weight). Record the overlap verdict in the synthesis: `"Cohort overlap detected: papers X, Y, Z share [biobank/site/PI]. Treated as N independent evidence sources, not N+M+L."`
+
+### C. Biomarker-to-Functional Claim Gap (Phase 3, Phase 5)
+
+**Problem:** The most common error in ME/CFS research is: "blood marker X is elevated" → "therefore tissue/system X is dysfunctional." Most ME/CFS biomarkers are peripheral (blood, PBMCs, plasma), but the claims target central systems (brain, muscle tissue, mitochondria in situ). The pipeline writes `#hypothesis-box` content that elides this gap.
+
+**Rule:** Every environment making a claim about a system whose evidence comes from a different compartment must explicitly bridge the gap: state where the evidence was measured, state where the claim is about, and state whether the link is direct (measured the target system) or indirect (measured in blood, inferred for target). Format: `(Evidence source: PBMC — Inference target: brain tissue. Link is indirect: [rationale or "no validation of PBMC-to-brain correlation in this pathway."])` If the inference gap is large (blood → brain without CSF or imaging), the claim may not be written as `#hypothesis-box` — it's `#speculation` regardless of how high the certainty of the blood finding is.
+
+### D. Study-Date Anchoring (Phase 1, Phase 3)
+
+**Problem:** ME/CFS is a field where diagnostic criteria, patient selection, and disease understanding have shifted dramatically — Fukuda (1994) ≠ CCC (2003) ≠ IOM (2015) ≠ ICC (2011). A paper that selects patients using Fukuda criteria in 2002 is measuring a different population than one using IOM criteria in 2020. Phase 3 integrates findings without always noting which diagnostic era produced them.
+
+**Rule:** Every bib entry must include a `diagnostic_criteria = {Fukuda|CCC|ICC|IOM|NICE|custom}` field. Phase 3 must, for every environment that cites clinical evidence, state which diagnostic criteria the cited papers used. If ≥2 criteria are represented: note the heterogeneity explicitly. This is particularly important for findings from <2015 (almost entirely Fukuda) — do not present them as equivalent to post-IOM findings without the diagnostic gap noted.
+
+### E. GET-Retracted / GET-Legacy Hygiene (Phase 3, Phase 5, strawman-auditor)
+
+**Problem:** The paper attacks GET and BPS models. This is legitimate — the evidence warrants it. But the pipeline can over-correct into "everything associated with these models is wrong," which weakens credibility when a legitimate BPS-context finding (e.g., depression comorbidity, sleep hygiene benefits, pacing concepts from CBT) shows up in the literature.
+
+**Rule:** Before any environment criticizes GET, BPS, or psychiatric models: verify the cited work is genuinely GET/BPS (operationalized: the paper uses graded exercise + cognitive reframing OR endorses the biopsychosocial model as the *primary* explanatory framework, not as one component). If the paper uses CBT for sleep in ME/CFS or recommends activity pacing (which BPS practitioners DO recommend too), do not bin it as "GET literature." Distinguish: "GET-therapy" (graded exercise as primary intervention) from "GET-adjacent" (activity management, pacing). Only the former is the target.
+
+### F. Consequence Field — Honesty Floor (Phase 3.5, Phase 5)
+
+**Problem:** The `*Consequence:*` field is mandatory but the existing rule allows "state that honestly" when there's no practical consequence. In practice, the pipeline fills this with not-quite-honest variations: "This may inform future research" (always true, always meaningless), "This adds to our understanding" (circular — the finding added itself to itself).
+
+**Rule:** Prohibit the phrases: "may inform future research," "adds to our understanding," "contributes to the growing body of evidence," "warrants further investigation," and "highlights the complexity of" as standalone consequence sentences. If the honest answer is "no current practical consequence," write: `*Consequence:* none — basic mechanistic observation with no translational horizon.` If the only honest answer is "unknown," write: `*Consequence:* unknown — insufficient evidence to project what this finding would change for patients or clinical practice.`
+
+### G. Adversarial Auditor Preamble: Document Identity
+
+**Problem:** The cynic asks "would this appear in a Cochrane review?" The strawman flags emotional language about patient dismissal. Both are valid checks but both risk stripping the document of its identity as a patient-commissioned work. A Cochrane review and a patient-commissioned paper have different audiences, different scopes, and legitimately different tone. The auditors should distinguish "biased" from "not written for an audience of dispassionate academics."
+
+**Rule:** All adversarial auditor definitions updated to include a scope qualifier: "Flag: X. Frame: This finding affects credibility with [audience: researcher / clinician / policymaker]. The paper's identity as a patient-commissioned document is NOT a strike against it — but within that identity, arguments must still be evidenced. Strike only when the particular claim fails on its own terms, not when the document's voice differs from a Cochrane review."
+
+### H. Drug-Interaction Pre-Check (Phase 5 treatment ideas)
+
+**Problem:** The pipeline brainstorms drug repurposing ideas, then writes them into environments with safety warnings. But it never checks whether the proposed drug interacts with the small, well-known set of medications ME/CFS patients commonly take (fludrocortisone, midodrine, LDN, mestinon, beta-blockers, antihistamines, gabapentin, low-dose naltrexone, trazodone, amitriptyline, NSAIDs). A Phase 6 retrospective safety check is too late — the brainstorm should self-censor ideas that are biologically plausible but pharmacologically dangerous for the target population.
+
+**Rule:** For every drug idea Tier 1 or Tier 2, before integrating, run a WebSearch for `"[drug] interaction [common ME/CFS medication]"` for each of: fludrocortisone, midodrine, LDN, mestinon, propranolol/atenolol, antihistamines (diphenhydramine, cetirizine), gabapentin/pregabalin. If a moderate or higher interaction exists with ≥1 → the brainstorm idea is capped at `#open-question` (mechanism is interesting but practical deployment is blocked) and must note the interaction. This is a Phase 5 integration gate, not a Phase 9 quality check.
+
+### I. Certainty Bump Symmetry Enforcement (Phase 6, 7)
+
+**Problem:** The pipeline has a per-cycle bump cap and a diminishing-returns guard — but only for bumps. Reductions have no equivalent guard: a single contradictory paper can trigger a 0.05 or 0.10 reduction regardless of how many times the hypothesis has already been reduced. This is asymmetric: bumps face administrative friction, reductions don't. Over cycles, this creates a downward drift bias toward very-low certainty even for hypotheses whose evidence hasn't changed since their last cycle.
+
+**Rule:** Mirror the bump guard for reductions: a hypothesis that has already been reduced in N prior cycles (N ≥ 3) requires a `≥ 0.70` incoming evidence certainty for further reduction. A hypothesis at 0.15 that gets reduced five times across cycles is at 0.00 — effectively deleted — through administrative drift rather than evidence. Track reductions in the bump log (they already are; just enforce the guard). Reduction floor: no hypothesis may be reduced below 0.05 through Phase 6/7 adjustments alone (deletion requires evidence of refutation, not incremental contradiction).

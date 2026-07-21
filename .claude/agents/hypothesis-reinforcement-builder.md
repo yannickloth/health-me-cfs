@@ -18,7 +18,7 @@ Transform a pairwise compatibility matrix into actionable artifacts:
 
 ## Input
 
-Must be given:
+Required input:
 - **Compatibility audit file** (output of `hypothesis-compatibility-auditor`)
 - **Plan file path** (`ops/plans/<topic-slug>-integration-plan.md`)
 - **Topic slug**
@@ -69,7 +69,7 @@ From conflict pairs, group into:
 Insert the following into the plan file (after the tracking table, before the Notes section):
 
 ```markdown
-## Phase 4c — Cross-Hypothesis Compatibility
+## Phase 7 — Cross-Hypothesis Compatibility
 
 *Audit date:* <YYYY-MM-DD>
 *Compatibility audit:* `tmp/compat-audit-<topic-slug>-<date>.md`
@@ -101,15 +101,16 @@ Insert the following into the plan file (after the tracking table, before the No
 
 ### 5. Verify Before Reporting
 
-```bash
-grep -c "Certainty Adjustments Proposed" ops/plans/<topic-slug>-integration-plan.md
-grep -n "## Phase 4c" ops/plans/<topic-slug>-integration-plan.md
+Before returning, verify the plan file was updated by reading the relevant section:
+
+```
+Read ops/plans/<topic-slug>-integration-plan.md — confirm Phase 7 section exists with certainty adjustments.
 ```
 
 ## Output Format (to main session)
 
 ```
-Phase 4c — Cross-Hypothesis Compatibility Builder
+Phase 7 — Cross-Hypothesis Compatibility Builder
 ===================================================
 Input: N pairs classified
 
@@ -131,14 +132,15 @@ Plan file updated: ops/plans/<topic-slug>-integration-plan.md
 
 ## Boundaries
 
-- Only reads `.typ` files, the registry, and the compatibility audit; only writes to the plan file
+- Only reads the compatibility audit file (from `tmp/compat-audit-*`) and the plan file; only writes to the plan file
 - Does NOT apply certainty adjustments to the registry directly (main session does that via `hypothesis-registry-updater`)
-- Does NOT perform literature search (that is `hypothesis-compatibility-auditor`)
+- Does NOT perform literature search (use `hypothesis-compatibility-auditor`)
 - Does NOT edit chapter content
+- Does NOT read `.typ` files (the compatibility audit already extracted mechanism text)
 
 ## Guards
 
 - **No certainty inflation from speculation alone:** Reinforcement between two speculative hypotheses (certainty < 0.30 each) does not qualify for the +0.05 bump. Their mutual reinforcement is itself speculative.
-- **One bump per hypothesis per cycle:** A hypothesis appearing in multiple chains cannot receive multiple +0.05 bumps in one Phase 4c pass.
+- **One bump per hypothesis per cycle:** A hypothesis appearing in multiple chains cannot receive multiple +0.05 bumps in one Phase 7 pass.
 - **Cumulative certainty cap:** No hypothesis exceeds 0.95.
 - **Document the mechanism pathway for every bump:** "0.XX→0.YY: reinforced by [other hypothesis slug] — [mechanism link]"

@@ -11,13 +11,12 @@ Literature integration specialist: complete pipeline from paper discovery to bib
 
 | Rule | Value |
 |------|-------|
-| Scope | TARGETED only |
-| Context budget | 20–30KB max |
-| Lazy loading | MANDATORY |
+| Read discipline | Grep first; read only matching sections. Never load entire documents for point queries. |
+| Large-file handling | For files >500 lines, use Grep + Read(offset) to extract targeted windows. |
 
 ### Query-First
 ```bash
-grep -rn "authorYEARkeyword" src/main/typst/mecfs/bib/   # check key not already used (lowercase)
+grep -rn "AuthorYEARkeyword" src/main/typst/mecfs/bib/   # check key not already used
 grep -n "<label-name>" src/main/typst/mecfs/**/*.typ
 ```
 ✗ Never load entire files for lookups.
@@ -139,11 +138,11 @@ curl "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=[PM
 
 **Bib file location (Typst project — IMPORTANT):** There is NO root `references.bib`. The bibliography is split into topic sub-files under `src/main/typst/mecfs/bib/` (e.g. `immune.bib`, `treatments.bib`, `epidemiology.bib`, `neuroinflammation.bib`, …). Add each new entry to the sub-file matching its subject. Append only — never disturb existing entries (other integration streams write the same files concurrently).
 
-**Bib key convention (MANDATORY — lowercase ASCII):** Keys are **lowercase ASCII only**, format `authorYEARkeyword` — e.g. `dey2026foodinsecurity`, `oh2024incident`, `reparramirez2001igelevels`. NO PascalCase, NO CamelCase, NO Unicode, NO punctuation. Do NOT write `Author2024`-style keys; the build and all `@CiteKey` references depend on lowercase.
+**Bib key convention (MANDATORY — AuthorYEARkeyword):** Keys use format `AuthorYEARkeyword` — surname capitalized, year, lowercase keyword — e.g. `Dey2026foodinsecurity`, `Oh2024incident`, `ReparRamirez2001igelevels`. NO Unicode, NO punctuation, NO underscores. Do NOT lowercase the surname (the corpus is ~91% mixed-case; `@CiteKey` must match exactly).
 
 ### bib entry (append to the matching `bib/<topic>.bib`)
 ```bibtex
-@article{authorYEARkeyword,
+@article{AuthorYEARkeyword,
   author = {Author, First and Other, Second and others},
   title = {Paper Title},
   journal = {Journal Name},
@@ -223,14 +222,14 @@ ls Literature/[category]/[Author]_[Year]_[ShortTitle]/
 # 2. Files not empty
 wc -l Literature/[category]/[Author]_[Year]_[ShortTitle]/{abstract.txt,notes.md,key-findings.md,integration-guide.md}
 
-# 3. bib entry exists in the matching sub-file (lowercase key)
-grep "@article{authorYEARkeyword" src/main/typst/mecfs/bib/<topic>.bib
+# 3. bib entry exists in the matching sub-file (mixed-case key)
+grep "@article{AuthorYEARkeyword" src/main/typst/mecfs/bib/<topic>.bib
 
 # 4. Appendix updated (Typst === heading, NOT \cite)
 grep "=== AuthorYear" src/main/typst/mecfs/appendices/appendix-h*.typ
 
-# 5. Key-convention audit: NO uppercase letters in any new key
-awk '/^@/{k=$0} /research_stream = \{<topic-slug>\}/{print k}' src/main/typst/mecfs/bib/<topic>.bib | grep -E "\{[a-z0-9]*[A-Z]" && echo "FAIL: uppercase key found — normalize" || echo "OK: all lowercase"
+# 5. Key-convention audit: surname MUST be capitalized in every new key
+awk '/^@/{k=$0} /research_stream = \{<topic-slug>\}/{print k}' src/main/typst/mecfs/bib/<topic>.bib | grep -E "\{[a-z]" && echo "FAIL: lowercase surname found — capitalize surname" || echo "OK: AuthorYEARkeyword format"
 ```
 
 ## Output Format
@@ -257,7 +256,7 @@ KEY FINDINGS:
 
 **BIB KEYS PRODUCED (MANDATORY — generate FROM the bib, not from memory):** End every multi-paper run with the exact key list extracted from the written bib file, so the main session never has to trust a hand-typed list:
 ```bash
-awk '/^@/{k=$0} /research_stream = \{<topic-slug>\}/{gsub(/@[a-z]+\{|,/,"",k); print k}' src/main/typst/mecfs/bib/<topic>.bib
+awk '/^@/{k=$0} /research_stream = \{<topic-slug>\}/{gsub(/@[a-z]+\{|,/,"",k); gsub(/^[[:space:]]+|[[:space:]]+$/,"",k); print k}' src/main/typst/mecfs/bib/<topic>.bib
 ```
 Paste that command's output verbatim as the "Bib keys produced" list. If you cannot run the command, state so — do NOT transcribe keys from memory (transcription has produced wrong keys, e.g. `oh2024incidental` for `oh2024incident`, and omitted keys entirely).
 
@@ -280,7 +279,7 @@ Next: main session reads integration-guide.md and writes to chapter files using 
 - Never add papers without bib entries
 - Always note if PDF unavailable
 - Never edit main chapter files — use integration guides
-- **Bib keys lowercase ASCII only** (`authorYEARkeyword`) — never PascalCase/CamelCase; build depends on it
+- **Bib keys: `AuthorYEARkeyword` (surname capitalized)** — never lowercase surnames; build depends on exact case match with existing corpus (~91% mixed-case)
 - **Bib lives in `bib/<topic>.bib` sub-files** — there is NO root `references.bib`; append only (concurrent streams share these files)
 - **Appendix-h is Typst** (`=== Author Year — Title` term lists) — never LaTeX (`\bibentry`/`\cite`/`\begin`)
 - **"Bib keys produced" list must be generated from the bib file** (awk extraction), never transcribed from memory
