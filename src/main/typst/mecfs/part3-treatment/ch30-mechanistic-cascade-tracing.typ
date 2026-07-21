@@ -17,6 +17,8 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 *Disclaimer:* This chapter is a constructed mechanistic framework prompted by the Gerlier skeletal asymmetry hypothesis (2026-07-21, personal communication) and extended to all major hypotheses in the paper. Drug-response logic throughout is mechanistic inference — not clinical evidence. No medication listed here should be prescribed based on this chapter alone. Certainty values are the chapter author's assessment based on the supporting evidence for each cascade link. Where not explicitly stated, default certainties apply: 0.25--0.40 for mechanistic-inference content, 0.10 for the Gerlier model (per the paper). Each section closes with a *Consequence* line summarizing practical significance and an *Origin* line identifying provenance.
 ]
 
+*Abbreviations used throughout:* AAb (autoantibody), AIMM (acquired ischemic mitochondrial myopathy), ATP (adenosine triphosphate), CAP (cholinergic anti-inflammatory pathway), CCI (craniocervical instability), COX-2 (cyclooxygenase-2), CSF (cerebrospinal fluid), DBH (dopamine-beta-hydroxylase), DMF (dimethyl fumarate), DMV (dorsal motor nucleus of vagus), DORA (dual orexin receptor antagonist), ECM (extracellular matrix), ETC (electron transport chain), GPCR (G protein-coupled receptor), hEDS (hypermobile Ehlers-Danlos syndrome), HIF-1α (hypoxia-inducible factor 1 alpha), HRV (heart rate variability), IA (immunoadsorption), IDO (indoleamine 2,3-dioxygenase), IFN-γ (interferon gamma), LDN (low-dose naltrexone), LC-NE (locus coeruleus-norepinephrine), MCAS (mast cell activation syndrome), MMP (matrix metalloproteinase), mTORC1 (mechanistic target of rapamycin complex 1), NAD⁺ (nicotinamide adenine dinucleotide), NCX1 (Na⁺/Ca²⁺ exchanger 1), NE (norepinephrine), NHE1 (Na⁺/H⁺ exchanger 1), NK cell (natural killer cell), NMDA (N-methyl-D-aspartate), NRI (norepinephrine reuptake inhibitor), NTS (nucleus tractus solitarius), OXPHOS (oxidative phosphorylation), PDH (pyruvate dehydrogenase), PDK (pyruvate dehydrogenase kinase), PEM (post-exertional malaise), PFC (prefrontal cortex), PGE2 (prostaglandin E2), PIP2 (phosphatidylinositol 4,5-bisphosphate), PLC-β (phospholipase C beta), POTS (postural orthostatic tachycardia syndrome), ROS (reactive oxygen species), SA node (sinoatrial node), SC (supercomplex), TCA (tricarboxylic acid cycle), TDO (tryptophan 2,3-dioxygenase), TLR4 (Toll-like receptor 4), taVNS (transcutaneous auricular vagus nerve stimulation), VEGF (vascular endothelial growth factor), VLM (ventrolateral medulla), VMAT2 (vesicular monoamine transporter 2).
+
 == Ion Channel Hypotheses
 
 === TRPM3 Channelopathy
@@ -111,7 +113,7 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 
 *Certainty: 0.35.* PIP2 convergence derived from TRPM3/PIP2 co-localization (Eaton-Fitch 2021) and GPCR autoantibody-driven PLC hyperactivity. Multi-channel simultaneous measurement not yet performed in ME/CFS.
 
-==== Cascade: GPCR autoantibody (β2-AR, M3/M4) → persistent PLC-β activation → PIP2 hydrolysis → simultaneous loss of PIP2-dependent channel function (TRPM3, TRPM7, TRPV1, TRPC) → multi-channel convergence on calcium dysregulation → multi-system dysfunction
+==== Cascade: GPCR autoantibody (β2-AR, M2/M4) → persistent PLC-β activation → PIP2 hydrolysis → simultaneous loss of PIP2-dependent channel function (TRPM3, TRPM7, TRPV1, TRPC) → multi-channel convergence on calcium dysregulation → multi-system dysfunction
 
 This convergence hypothesis makes a specific differential prediction: if GPCR autoantibodies drive PIP2 depletion, then immunoadsorption should restore TRPM3 function, reduce TRPV1 sensitization, and improve Piezo2-driven symptoms simultaneously — because all three channels depend on PIP2.
 
@@ -143,9 +145,9 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 - *If CoQ10 produces only modest benefit:* SC disruption is severe — substrate flooding cannot overcome the assembly defect. Mitochondria need turnover, not cofactor supplementation.
 
 *Step D3:* Reduced OXPHOS ATP yield (bioenergetic consequence)
-- *Intercept:* Creatine monohydrate (5 g/day) — phosphocreatine buffer; D-ribose (5--15 g/day); NMN/NR (NAD+ precursors)
+- *Intercept:* Creatine monohydrate (5 g/day) — phosphocreatine buffer; D-ribose (5--15 g/day); NMN/NR (NAD⁺ precursors)
 - *If creatine works:* ATP buffering is insufficient — consistent with reduced steady-state ATP production.
-- *If NMN/NR works:* NAD+ deficiency is compounding the ETC defect (dual mitochondrial lesion).
+- *If NMN/NR works:* NAD⁺ deficiency is compounding the ETC defect (dual mitochondrial lesion).
 
 *Consequence:* CoQ10 response pattern (dramatic vs. modest) distinguishes functional ETC inefficiency (cofactor-compensable) from structural supercomplex failure (requiring turnover). Combined with DMF response, identifies whether HIF-1α→WASF3 is the transcriptional driver.
 *Origin:* mechanistic-pathway-tracing.
@@ -222,7 +224,7 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.45.* IDO-driven kynurenine pathway dysregulation documented in ME/CFS; tryptophan→serotonin depletion and quinolinic acid→NMDA excitotoxicity mechanistically established.
 
-==== Cascade: Immune activation (IFN-γ, TNF-α) → IDO upregulation → tryptophan → kynurenine → (a) 95%→99%: tryptophan diversion → serotonin depletion → mood, sleep, pain amplification + (b) quinolinic acid → NMDA agonism → excitotoxicity, neuroinflammation, cognitive dysfunction + (c) kynurenic acid vs quinolinic acid imbalance → glutamatergic disruption
+==== Cascade: Immune activation (IFN-γ, TNF-α) → IDO upregulation → tryptophan → kynurenine → (a) 95--99%: tryptophan diversion → serotonin depletion → mood, sleep, pain amplification + (b) quinolinic acid → NMDA agonism → excitotoxicity, neuroinflammation, cognitive dysfunction + (c) kynurenic acid vs quinolinic acid imbalance → glutamatergic disruption
 
 *Step H1:* IDO upregulation
 - *Intercept:* LDN — microglial anti-inflammatory; 1-MT (investigational) — IDO inhibitor
@@ -283,7 +285,7 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 ==== Cascade: Autoantibodies against ECM proteins (collagen, periostin, elastin) → impaired collagen crosslinking, elastin degradation, abnormal ECM remodeling → connective tissue weakness → hypermobility, craniocervical instability, vascular fragility, impaired tissue repair
 
 *Step J2:* Impaired collagen crosslinking (ECM-level)
-- *Intercept:* Vitamin C (500--2000 mg/day) — prolyl hydroxylase cofactor; Copper — LOX cofactor; Glycine + proline — collagen substrate; Circadian-timed @hyp:ct-circadian-collagen
+- *Intercept:* Vitamin C (500--2000 mg/day) — prolyl hydroxylase cofactor; Copper — LOX cofactor; Glycine + proline — collagen substrate; Circadian-timed (prolyl hydroxylase circadian optimization model, ch14a)
 - *If timed vitamin C + glycine works:* Collagen crosslinking is impaired but biosynthetically rescuable.
 
 *Step J3:* ECM degradation (MMP-driven)
@@ -398,9 +400,9 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 - *Intercept:* Surgical decompression + fusion (definitive); Steroids (caution — corticosteroids contraindicated @hyp:steroid-hpa-trust-breaking)
 
 *Step O2d:* Sympathetic chain compression → dysautonomia
-- *Differential:* If collar resolves dizziness/headaches but NOT POTS → autonomic symptoms are from non-Mechanical or non-cervical mechanism (GPCR AAb, brainstem neuroinflammation, thoracolumbar sympathetic chain @spec:ch08-thoracolumbar-sympathetic-irritation).
+- *Differential:* If collar resolves dizziness/headaches but NOT POTS → autonomic symptoms are from non-mechanical or non-cervical mechanism (GPCR AAb, brainstem neuroinflammation, thoracolumbar sympathetic chain @spec:ch08-thoracolumbar-sympathetic-irritation).
 
-*Consequence:* Cervical collar response is the highest-yield diagnostic probe for CCI. Differential between collar response for dizziness vs. orthostatic symptoms distinguishes brainstem compression from non-Mechanical autonomic dysfunction, guiding treatment toward surgery vs. immunomodulation.
+*Consequence:* Cervical collar response is the highest-yield diagnostic probe for CCI. Differential between collar response for dizziness vs. orthostatic symptoms distinguishes brainstem compression from non-mechanical autonomic dysfunction, guiding treatment toward surgery vs. immunomodulation.
 *Origin:* mechanistic-pathway-tracing.
 
 === hEDS/Connective Tissue Quality Cascade
