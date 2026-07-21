@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360">
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #000000; }
+      .title { font-size: 7pt; font-weight: bold; }
+      .label { font-size: 5.5pt; }
+      .small { font-size: 5pt; }
+      .panel { font-size: 7pt; font-weight: bold; }
+      .bold { font-weight: bold; }
+      .white { fill: #FFFFFF; }
+    </style>
+  </defs>
+
+  <rect width="360" height="360" fill="#ffffff"/>
+
+  <text x="180" y="16" text-anchor="middle" class="title">Anatomical basis for herpesvirus reactivation after SARS-CoV-2</text>
+
+  <!-- ============================================================ -->
+  <!-- Sagittal head/brain profile                                  -->
+  <!-- ============================================================ -->
+
+  <!-- Skull/cranium outline -->
+  <path d="M100 50 Q100 30 140 28 Q180 26 220 28 Q260 30 260 50
+           Q260 70 255 100 Q250 130 248 150 Q246 160 244 170
+           Q240 190 235 210 Q230 240 225 260
+           Q218 280 210 290 Q200 300 190 295
+           Q170 280 160 260 Q150 240 148 210
+           Q145 180 142 160 Q140 140 138 110
+           Q136 80 132 60 Q128 44 120 38 Q110 32 100 50"
+        fill="#E8E8E8" stroke="#000000" stroke-width="0.6"/>
+
+  <!-- Brain outline -->
+  <path d="M115 48 Q120 38 140 33 Q180 28 220 33 Q240 38 245 48
+           Q248 60 245 80 Q240 100 238 120 Q235 140 233 155
+           Q230 170 228 180 Q225 185 220 180
+           Q210 170 200 165 Q190 160 175 165
+           Q160 170 150 175 Q145 180 142 170
+           Q138 155 135 130 Q132 100 130 80
+           Q126 60 122 50 Z"
+        fill="#FFE8D6" stroke="#000000" stroke-width="0.5"/>
+
+  <!-- Brainstem (inflamed) -->
+  <path d="M190 155 Q200 150 215 155 Q225 160 228 175
+           Q230 190 228 210 Q225 225 218 235
+           Q210 242 200 240 Q192 238 185 225
+           Q180 210 178 190 Q178 170 182 160 Z"
+        fill="#D55E00" stroke="#000000" stroke-width="0.5" opacity="0.7"/>
+  <text x="205" y="195" text-anchor="middle" class="small bold white">Brainstem</text>
+  <text x="205" y="203" text-anchor="middle" class="small white">inflamed</text>
+  <text x="205" y="212" text-anchor="middle" class="small white">(SARS-CoV-2)</text>
+
+  <!-- Trigeminal ganglion -->
+  <ellipse cx="165" cy="170" rx="14" ry="10" fill="#009E73" stroke="#000000" stroke-width="0.5"/>
+  <text x="165" y="167" text-anchor="middle" class="small bold">Trigeminal</text>
+  <text x="165" y="174" text-anchor="middle" class="small bold">ganglion</text>
+
+  <!-- Arrow from trigeminal ganglion to brainstem (proximity) -->
+  <line x1="175" y1="178" x2="193" y2="188" stroke="#000000" stroke-width="0.6" stroke-dasharray="2,2"/>
+  <text x="188" y="182" text-anchor="middle" class="small">proximity</text>
+
+  <!-- HSV-1 label at trigeminal ganglion -->
+  <line x1="150" y1="165" x2="120" y2="155" stroke="#009E73" stroke-width="0.5"/>
+  <rect x="62" y="140" width="56" height="24" rx="4" fill="#009E73" stroke="#000000" stroke-width="0.4"/>
+  <text x="90" y="151" text-anchor="middle" class="small bold white">HSV-1</text>
+  <text x="90" y="159" text-anchor="middle" class="small white">latency site</text>
+
+  <!-- ============================================================ -->
+  <!-- Other herpesvirus latency sites (callouts below head)        -->
+  <!-- ============================================================ -->
+
+  <!-- EBV → B cells -->
+  <line x1="130" y1="260" x2="130" y2="280" stroke="#0072B2" stroke-width="0.5"/>
+  <rect x="100" y="280" width="72" height="20" rx="4" fill="#0072B2" stroke="#000000" stroke-width="0.4"/>
+  <text x="136" y="290" text-anchor="middle" class="label bold white">EBV</text>
+  <text x="136" y="297" text-anchor="middle" class="small white">B cells</text>
+
+  <!-- HHV-6 → CNS -->
+  <line x1="175" y1="250" x2="175" y2="310" stroke="#F0E442" stroke-width="0.5"/>
+  <rect x="132" y="310" width="86" height="20" rx="4" fill="#E69F00" stroke="#000000" stroke-width="0.4"/>
+  <text x="175" y="320" text-anchor="middle" class="label bold">HHV-6</text>
+  <text x="175" y="327" text-anchor="middle" class="small">CNS + immune</text>
+
+  <!-- HCMV → myeloid/endothelial -->
+  <polygon points="320,60 350,80 340,110 320,100" fill="#D9D9D9" stroke="#000000" stroke-width="0.4"/>
+  <rect x="270" y="65" width="90" height="32" rx="4" fill="#56B4E9" stroke="#000000" stroke-width="0.4"/>
+  <text x="315" y="77" text-anchor="middle" class="label bold">HCMV</text>
+  <text x="315" y="85" text-anchor="middle" class="small">myeloid lineage</text>
+  <text x="315" y="93" text-anchor="middle" class="small">+ endothelial</text>
+
+  <!-- ============================================================ -->
+  <!-- Mechanism annotation (bottom right)                           -->
+  <!-- ============================================================ -->
+  <rect x="240" y="260" width="112" height="52" rx="6" fill="#F5F5F5" stroke="#CCCCCC" stroke-width="0.4"/>
+  <text x="296" y="274" text-anchor="middle" class="small bold">Mechanism:</text>
+  <text x="296" y="282" text-anchor="middle" class="small">Brainstem inflammation</text>
+  <text x="296" y="290" text-anchor="middle" class="small">+ immune perturbation</text>
+  <text x="296" y="298" text-anchor="middle" class="small">→ HSV-1 reactivation</text>
+  <text x="296" y="306" text-anchor="middle" class="small">from trigeminal ganglion</text>
+
+  <!-- ============================================================ -->
+  <!-- Bottom summary                                              -->
+  <!-- ============================================================ -->
+  <line x1="20" y1="340" x2="340" y2="340" stroke="#CCCCCC" stroke-width="0.5"/>
+  <text x="180" y="354" text-anchor="middle" class="small">Herpesvirus replication disrupts centromeric organisation, inducing pericentromeric HSAT2 RNA synthesis</text>
+</svg>

@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 480" width="360" height="480">
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #000000; }
+      .title { font-size: 7pt; font-weight: bold; }
+      .label { font-size: 5.5pt; }
+      .small { font-size: 5pt; }
+      .panel-num { font-size: 8pt; font-weight: bold; fill: #0072B2; }
+      .bold { font-weight: bold; }
+    </style>
+  </defs>
+
+  <rect width="360" height="480" fill="#ffffff"/>
+
+  <text x="180" y="16" text-anchor="middle" class="title">Testable predictions of the HSAT2 hypothesis</text>
+
+  <!-- ============================================================ -->
+  <!-- PANEL 1 (y = 28 to 130)                                      -->
+  <!-- ============================================================ -->
+  <rect x="12" y="28" width="336" height="102" rx="6" fill="#EFF6FF" stroke="#0072B2" stroke-width="0.5"/>
+  <text x="24" y="42" class="panel-num">(1)</text>
+  <text x="44" y="42" class="label bold">Elevated HSAT2 RNA/DNA in patient extracellular vesicles</text>
+
+  <!-- Blood draw → EV isolation → HSAT2 measurement -->
+  <line x1="24" y1="56" x2="24" y2="80" stroke="#000000" stroke-width="0.4"/>
+
+  <!-- Blood tube -->
+  <rect x="28" y="56" width="12" height="28" rx="3" fill="#D55E00" stroke="#000000" stroke-width="0.4"/>
+  <text x="34" y="74" text-anchor="middle" class="small white">blood</text>
+
+  <!-- Arrow -->
+  <line x1="42" y1="68" x2="58" y2="68" stroke="#000000" stroke-width="0.5" marker-end="url(#arrBlue)"/>
+
+  <!-- EV isolation tube -->
+  <rect x="62" y="56" width="16" height="28" rx="3" fill="#E69F00" stroke="#000000" stroke-width="0.4"/>
+  <text x="70" y="68" text-anchor="middle" class="small">EV</text>
+  <text x="70" y="78" text-anchor="middle" class="small">isol</text>
+
+  <!-- Arrow -->
+  <line x1="80" y1="68" x2="96" y2="68" stroke="#000000" stroke-width="0.5" marker-end="url(#arrBlue)"/>
+
+  <!-- Measurement -->
+  <rect x="100" y="56" width="30" height="28" rx="3" fill="#009E73" stroke="#000000" stroke-width="0.4"/>
+  <text x="115" y="66" text-anchor="middle" class="small bold white">qPCR</text>
+  <text x="115" y="76" text-anchor="middle" class="small white">HSAT2</text>
+
+  <!-- Result -->
+  <text x="165" y="66" text-anchor="middle" class="label bold">→ HSAT2 measurable</text>
+  <text x="165" y="76" text-anchor="middle" class="small">in patient-derived EVs</text>
+
+  <!-- Technical notes -->
+  <text x="180" y="100" text-anchor="middle" class="small">cfDNA/RNA from plasma/serum; published assays available</text>
+  <text x="180" y="110" text-anchor="middle" class="small">@Seimiya2023, @Yoruker2026, @Seifert2026, @Kishikawa2016</text>
+
+  <!-- ============================================================ -->
+  <!-- PANEL 2 (y = 140 to 242)                                     -->
+  <!-- ============================================================ -->
+  <rect x="12" y="140" width="336" height="102" rx="6" fill="#FFF5E6" stroke="#D55E00" stroke-width="0.5"/>
+  <text x="24" y="154" class="panel-num">(2)</text>
+  <text x="44" y="154" class="label bold">HSAT2-positive patients show distinct clinical profile</text>
+
+  <!-- Two patient groups -->
+  <rect x="40" y="166" width="90" height="36" rx="4" fill="#009E73" stroke="#000000" stroke-width="0.4"/>
+  <text x="85" y="180" text-anchor="middle" class="label bold white">HSAT2⁺</text>
+  <text x="85" y="190" text-anchor="middle" class="small white">EV HSAT2 detected</text>
+  <text x="85" y="198" text-anchor="middle" class="small white">~ predicted 30–50%</text>
+
+  <rect x="155" y="166" width="90" height="36" rx="4" fill="#B0B0B0" stroke="#000000" stroke-width="0.4"/>
+  <text x="200" y="180" text-anchor="middle" class="label bold">HSAT2⁻</text>
+  <text x="200" y="190" text-anchor="middle" class="small">EV HSAT2</text>
+  <text x="200" y="198" text-anchor="middle" class="small">not detected</text>
+
+  <!-- Clinical differences -->
+  <text x="145" y="220" text-anchor="middle" class="small bold">Expected: HSAT2⁺ patients show —</text>
+  <text x="145" y="230" text-anchor="middle" class="small">↑ MDSC counts · ↓ NK cytotoxicity · ↑ PD-1 on CD8⁺ · more severe symptoms</text>
+
+  <!-- ============================================================ -->
+  <!-- PANEL 3 (y = 252 to 354)                                     -->
+  <!-- ============================================================ -->
+  <rect x="12" y="252" width="336" height="102" rx="6" fill="#E6F5E6" stroke="#009E73" stroke-width="0.5"/>
+  <text x="24" y="266" class="panel-num">(3)</text>
+  <text x="44" y="266" class="label bold">Combined biomarker panel achieves high specificity</text>
+
+  <!-- Three biomarker boxes -->
+  <rect x="30" y="278" width="80" height="30" rx="4" fill="#CC79A7" stroke="#000000" stroke-width="0.4"/>
+  <text x="70" y="292" text-anchor="middle" class="label bold white">EV HSAT2</text>
+  <text x="70" y="302" text-anchor="middle" class="small white" fill="#FFCCCC">RNA/DNA</text>
+
+  <text x="118" y="296" text-anchor="middle" class="label bold">+</text>
+
+  <rect x="130" y="278" width="60" height="30" rx="4" fill="#E69F00" stroke="#000000" stroke-width="0.4"/>
+  <text x="160" y="292" text-anchor="middle" class="label bold">MDSC</text>
+  <text x="160" y="302" text-anchor="middle" class="small">counts</text>
+
+  <text x="198" y="296" text-anchor="middle" class="label bold">+</text>
+
+  <rect x="210" y="278" width="90" height="30" rx="4" fill="#0072B2" stroke="#000000" stroke-width="0.4"/>
+  <text x="255" y="292" text-anchor="middle" class="label bold white">Cytokines</text>
+  <text x="255" y="302" text-anchor="middle" class="small white" fill="#CCFFFF">IL-10, IL-35</text>
+
+  <!-- Arrow to result -->
+  <line x1="165" y1="312" x2="165" y2="322" stroke="#009E73" stroke-width="0.8" marker-end="url(#arrGreen)"/>
+
+  <rect x="95" y="324" width="140" height="18" rx="4" fill="#009E73" stroke="#000000" stroke-width="0.4"/>
+  <text x="165" y="336" text-anchor="middle" class="label bold white">High specificity PAIS diagnosis</text>
+
+  <!-- ============================================================ -->
+  <!-- PANEL 4 (y = 364 to 466)                                     -->
+  <!-- ============================================================ -->
+  <rect x="12" y="364" width="336" height="102" rx="6" fill="#FDE8E8" stroke="#CC79A7" stroke-width="0.5"/>
+  <text x="24" y="378" class="panel-num">(4)</text>
+  <text x="44" y="378" class="label bold">Methyl donors may reduce EV HSAT2 levels</text>
+
+  <!-- Warning icon -->
+  <polygon points="30,392 46,392 38,380" fill="#D55E00" stroke="#000000" stroke-width="0.4"/>
+  <text x="38" y="390" text-anchor="middle" class="small bold white">!</text>
+
+  <!-- S-adenosylmethionine -->
+  <rect x="54" y="388" width="50" height="20" rx="4" fill="#56B4E9" stroke="#000000" stroke-width="0.4"/>
+  <text x="79" y="396" text-anchor="middle" class="label bold">SAM</text>
+  <text x="79" y="404" text-anchor="middle" class="small">methyl donor</text>
+
+  <line x1="106" y1="400" x2="120" y2="400" stroke="#000000" stroke-width="0.5" marker-end="url(#arrBlue)"/>
+
+  <!-- DNA methylation -->
+  <rect x="124" y="385" width="50" height="26" rx="4" fill="#B0B0B0" stroke="#000000" stroke-width="0.4"/>
+  <text x="149" y="396" text-anchor="middle" class="label">↑ DNA</text>
+  <text x="149" y="406" text-anchor="middle" class="label">methylation</text>
+
+  <line x1="176" y1="400" x2="190" y2="400" stroke="#000000" stroke-width="0.5" marker-end="url(#arrBlue)"/>
+
+  <!-- Outcome -->
+  <rect x="194" y="388" width="60" height="20" rx="4" fill="#009E73" stroke="#000000" stroke-width="0.4"/>
+  <text x="224" y="396" text-anchor="middle" class="label bold white">↓ EV HSAT2</text>
+  <text x="224" y="404" text-anchor="middle" class="small white">re-silencing</text>
+
+  <!-- Caution text -->
+  <text x="180" y="432" text-anchor="middle" class="small bold">Treatment implications require rigorous testing:</text>
+  <text x="180" y="442" text-anchor="middle" class="small">Controlled clinical trials · Monitor for cancer risk · Individual variation</text>
+  <text x="180" y="452" text-anchor="middle" class="small">Therapeutic window may be narrow — timing of intervention critical</text>
+
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrBlue" markerWidth="5" markerHeight="3.5" refX="5" refY="1.75" orient="auto">
+      <polygon points="0,0 5,1.75 0,3.5" fill="#0072B2"/>
+    </marker>
+    <marker id="arrGreen" markerWidth="5" markerHeight="3.5" refX="5" refY="1.75" orient="auto">
+      <polygon points="0,0 5,1.75 0,3.5" fill="#009E73"/>
+    </marker>
+  </defs>
+</svg>

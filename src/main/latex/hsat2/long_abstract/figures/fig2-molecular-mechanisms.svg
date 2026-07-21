@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 400" width="360" height="400">
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #000000; }
+      .title { font-size: 7pt; font-weight: bold; }
+      .label { font-size: 5.5pt; }
+      .small { font-size: 5pt; }
+      .panel { font-size: 7pt; font-weight: bold; }
+      .bold { font-weight: bold; }
+    </style>
+    <marker id="arrBlue" markerWidth="5" markerHeight="3.5" refX="5" refY="1.75" orient="auto">
+      <polygon points="0,0 5,1.75 0,3.5" fill="#0072B2"/>
+    </marker>
+    <marker id="arrOrange" markerWidth="5" markerHeight="3.5" refX="5" refY="1.75" orient="auto">
+      <polygon points="0,0 5,1.75 0,3.5" fill="#D55E00"/>
+    </marker>
+    <marker id="arrGreen" markerWidth="5" markerHeight="3.5" refX="5" refY="1.75" orient="auto">
+      <polygon points="0,0 5,1.75 0,3.5" fill="#009E73"/>
+    </marker>
+  </defs>
+
+  <rect width="360" height="400" fill="#ffffff"/>
+
+  <text x="180" y="16" text-anchor="middle" class="title">Molecular mechanisms of HSAT2 RNA action</text>
+
+  <!-- ============================================================ -->
+  <!-- PANEL A: Molecular sponge (y = 28 to 198)                    -->
+  <!-- ============================================================ -->
+  <text x="180" y="34" text-anchor="middle" class="panel">A — Molecular sponge: HSAT2 RNA sequesters ETS TFs and miRNAs</text>
+
+  <!-- HSAT2 RNA as wavy backbone -->
+  <!-- GGAA repeats along the RNA strand -->
+  <!-- Box 1: GGAA -->
+  <rect x="30" y="50" width="40" height="18" rx="4" fill="#CC79A7" stroke="#000000" stroke-width="0.4"/>
+  <text x="50" y="62" text-anchor="middle" class="label bold">GGAA</text>
+  <!-- Box 2: GGAA -->
+  <rect x="85" y="60" width="40" height="18" rx="4" fill="#CC79A7" stroke="#000000" stroke-width="0.4"/>
+  <text x="105" y="72" text-anchor="middle" class="label bold">GGAA</text>
+  <!-- Box 3: GGAA -->
+  <rect x="140" y="55" width="40" height="18" rx="4" fill="#CC79A7" stroke="#000000" stroke-width="0.4"/>
+  <text x="160" y="67" text-anchor="middle" class="label bold">GGAA</text>
+  <!-- Box 4: GGAA -->
+  <rect x="195" y="48" width="40" height="18" rx="4" fill="#CC79A7" stroke="#000000" stroke-width="0.4"/>
+  <text x="215" y="60" text-anchor="middle" class="label bold">GGAA</text>
+  <!-- Box 5: GGAA -->
+  <rect x="250" y="58" width="40" height="18" rx="4" fill="#CC79A7" stroke="#000000" stroke-width="0.4"/>
+  <text x="270" y="70" text-anchor="middle" class="label bold">GGAA</text>
+  <!-- Box 6: GGAA -->
+  <rect x="305" y="50" width="40" height="18" rx="4" fill="#CC79A7" stroke="#000000" stroke-width="0.4"/>
+  <text x="325" y="62" text-anchor="middle" class="label bold">GGAA</text>
+
+  <!-- RNA backbone connecting the GGAA motifs (wavy) -->
+  <path d="M70 59 Q77 84 85 69 Q93 84 100 69 Q107 84 115 69
+           Q122 84 130 69 Q137 84 145 64 Q152 84 160 64
+           Q167 84 175 64 Q182 84 190 57 Q197 84 205 57
+           Q212 84 220 57 Q227 84 235 57 Q242 84 250 67
+           Q257 84 265 67 Q272 84 280 67 Q287 84 295 59
+           Q302 84 310 59" fill="none" stroke="#CC79A7" stroke-width="1.5"/>
+
+  <!-- ETS TF: PU.1 captured -->
+  <text x="50" y="85" text-anchor="middle" class="small">⬇</text>
+  <ellipse cx="50" cy="98" rx="22" ry="12" fill="#E69F00" stroke="#000000" stroke-width="0.4"/>
+  <text x="50" y="95" text-anchor="middle" class="small bold">PU.1</text>
+  <text x="50" y="103" text-anchor="middle" class="small">(SPI1)</text>
+  <line x1="50" y1="80" x2="50" y2="86" stroke="#D55E00" stroke-width="0.5" marker-end="url(#arrOrange)"/>
+
+  <!-- ETS TF: other ETS -->
+  <text x="160" y="80" text-anchor="middle" class="small">⬇</text>
+  <ellipse cx="160" cy="96" rx="22" ry="12" fill="#E69F00" stroke="#000000" stroke-width="0.4"/>
+  <text x="160" y="93" text-anchor="middle" class="small bold">ETS1</text>
+  <text x="160" y="101" text-anchor="middle" class="small">FLI1, ERG</text>
+  <line x1="160" y1="75" x2="160" y2="84" stroke="#D55E00" stroke-width="0.5" marker-end="url(#arrOrange)"/>
+
+  <!-- miRNA captured -->
+  <text x="270" y="80" text-anchor="middle" class="small">⬇</text>
+  <ellipse cx="270" cy="98" rx="22" ry="12" fill="#56B4E9" stroke="#000000" stroke-width="0.4"/>
+  <text x="270" y="95" text-anchor="middle" class="small bold">miRNAs</text>
+  <text x="270" y="103" text-anchor="middle" class="small">(ceRNA)</text>
+  <line x1="270" y1="76" x2="270" y2="86" stroke="#0072B2" stroke-width="0.5" marker-end="url(#arrBlue)"/>
+
+  <!-- Consequence annotations -->
+  <text x="50" y="120" text-anchor="middle" class="small">→ ETS target genes</text>
+  <text x="50" y="128" text-anchor="middle" class="small">dysregulated</text>
+
+  <text x="160" y="120" text-anchor="middle" class="small">→ ETS transcriptional</text>
+  <text x="160" y="128" text-anchor="middle" class="small">reprogramming</text>
+
+  <text x="270" y="120" text-anchor="middle" class="small">→ miRNA target</text>
+  <text x="270" y="128" text-anchor="middle" class="small">derepression</text>
+
+  <!-- Summary below panel A -->
+  <text x="180" y="155" text-anchor="middle" class="small bold">HSAT2 GGAA repeats &amp; unstructured regions titrate</text>
+  <text x="180" y="163" text-anchor="middle" class="small bold">transcription factors and microRNAs away from their targets</text>
+
+  <!-- Separator -->
+  <line x1="20" y1="175" x2="340" y2="175" stroke="#CCCCCC" stroke-width="0.5"/>
+
+  <!-- ============================================================ -->
+  <!-- PANEL B: CTCF sequestration (y = 185 to 390)                  -->
+  <!-- ============================================================ -->
+  <text x="180" y="193" text-anchor="middle" class="panel">B — CTCF sequestration alters 3D chromatin looping</text>
+
+  <!-- Left: Normal -->
+  <text x="110" y="214" text-anchor="middle" class="label bold">Normal</text>
+
+  <!-- CTCF protein on DNA -->
+  <ellipse cx="70" cy="240" rx="14" ry="10" fill="#009E73" stroke="#000000" stroke-width="0.4"/>
+  <text x="70" y="238" text-anchor="middle" class="small bold">CTCF</text>
+  <text x="70" y="246" text-anchor="middle" class="small">on DNA</text>
+
+  <ellipse cx="150" cy="240" rx="14" ry="10" fill="#009E73" stroke="#000000" stroke-width="0.4"/>
+  <text x="150" y="238" text-anchor="middle" class="small bold">CTCF</text>
+  <text x="150" y="246" text-anchor="middle" class="small">on DNA</text>
+
+  <!-- Chromatin loop between CTCF sites -->
+  <path d="M70 250 Q110 290 150 250" fill="none" stroke="#000000" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="110" y="278" text-anchor="middle" class="small bold">loop</text>
+
+  <!-- DNA line -->
+  <line x1="30" y1="240" x2="190" y2="240" stroke="#000000" stroke-width="0.5"/>
+
+  <!-- Gene annotation -->
+  <text x="35" y="268" text-anchor="middle" class="small">Gene A</text>
+  <text x="95" y="268" text-anchor="middle" class="small">Enhancer</text>
+
+  <!-- Right: Disrupted -->
+  <text x="250" y="214" text-anchor="middle" class="label bold">HSAT2-expressing cell</text>
+
+  <!-- HSAT2 RNA binding CTCF -->
+  <ellipse cx="220" cy="240" rx="14" ry="10" fill="#B0B0B0" stroke="#000000" stroke-width="0.4"/>
+  <text x="220" y="238" text-anchor="middle" class="small bold">CTCF</text>
+  <text x="220" y="246" text-anchor="middle" class="small">off DNA</text>
+
+  <ellipse cx="290" cy="240" rx="14" ry="10" fill="#B0B0B0" stroke="#000000" stroke-width="0.4"/>
+  <text x="290" y="238" text-anchor="middle" class="small bold">CTCF</text>
+  <text x="290" y="246" text-anchor="middle" class="small">off DNA</text>
+
+  <!-- Broken loop (X through path) -->
+  <line x1="220" y1="250" x2="290" y2="250" stroke="#D55E00" stroke-width="0.8" stroke-dasharray="3,2"/>
+  <text x="255" y="264" text-anchor="middle" class="small bold">loop lost</text>
+  <line x1="245" y1="254" x2="265" y2="244" stroke="#D55E00" stroke-width="0.6"/>
+  <line x1="265" y1="254" x2="245" y2="244" stroke="#D55E00" stroke-width="0.6"/>
+
+  <!-- DNA line -->
+  <line x1="200" y1="240" x2="340" y2="240" stroke="#000000" stroke-width="0.5"/>
+
+  <!-- Gene annotation -->
+  <text x="220" y="275" text-anchor="middle" class="small">Gene A</text>
+  <text x="290" y="275" text-anchor="middle" class="small">Enhancer</text>
+
+  <!-- HSAT2 RNA binding CTCF away from DNA -->
+  <text x="255" y="295" text-anchor="middle" class="small">HSAT2 RNA binds CTCF,</text>
+  <text x="255" y="303" text-anchor="middle" class="small">removing it from chromatin</text>
+
+  <!-- Consequence -->
+  <text x="180" y="330" text-anchor="middle" class="small bold">Genome-wide reorganization of chromatin loops</text>
+  <text x="180" y="340" text-anchor="middle" class="small">→ ectopic enhancer–gene contacts</text>
+  <text x="180" y="350" text-anchor="middle" class="small">→ widespread transcriptional dysregulation</text>
+
+  <!-- Separator -->
+  <line x1="20" y1="365" x2="340" y2="365" stroke="#CCCCCC" stroke-width="0.5"/>
+
+  <text x="180" y="385" text-anchor="middle" class="small">Both mechanisms converge on global gene expression reprogramming</text>
+</svg>

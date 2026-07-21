@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 280" width="360" height="280">
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #000000; }
+      .title { font-size: 7pt; font-weight: bold; }
+      .label { font-size: 5.5pt; }
+      .small { font-size: 5pt; }
+      .panel { font-size: 8pt; font-weight: bold; }
+      .bold { font-weight: bold; }
+    </style>
+  </defs>
+
+  <rect width="360" height="280" fill="#ffffff"/>
+
+  <text x="168" y="16" text-anchor="middle" class="title">Organisation of the human genome</text>
+
+  <!-- ============================================================ -->
+  <!-- LEFT: Vertical stacked bar (genome composition)              -->
+  <!-- ============================================================ -->
+
+  <!-- Bracket capturing all repetitive sequences (y=36 to y=116) -->
+  <path d="M160 36 L164 36 L164 116 L160 116" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <text x="168" y="78" class="small bold">Repetitive</text>
+  <text x="168" y="84" class="small bold">sequences</text>
+
+  <!-- Bar segments -->
+  <rect x="28" y="28"  width="20" height="8"  fill="#0072B2"/>   <!-- Coding       ~2% -->
+  <rect x="28" y="36"  width="20" height="8"  fill="#D55E00"/>   <!-- Centromeric  ~3% -->
+  <rect x="28" y="44"  width="20" height="8"  fill="#CC79A7"/>   <!-- HSAT2        ~1.5% -->
+  <rect x="28" y="52"  width="20" height="8"  fill="#F0E442"/>   <!-- Telo/sub     ~4% -->
+  <rect x="28" y="60"  width="20" height="56" fill="#009E73"/>   <!-- TE           ~47% -->
+  <rect x="28" y="116" width="20" height="32" fill="#56B4E9"/>   <!-- Other        ~34.5% -->
+
+  <rect x="28" y="28" width="20" height="120" fill="none" stroke="#000000" stroke-width="0.5"/>
+
+  <!-- Labels: y = segment center + 3 for baseline -->
+  <line x1="48" y1="32" x2="56" y2="32" stroke="#000000" stroke-width="0.3"/>
+  <text x="60" y="35" class="small">Coding (~2%)</text>
+
+  <line x1="48" y1="40" x2="56" y2="40" stroke="#000000" stroke-width="0.3"/>
+  <text x="60" y="43" class="small">Centromeric (~3%)</text>
+
+  <path d="M24 44 L20 44 L20 52 L24 52" fill="none" stroke="#000000" stroke-width="0.4"/>
+  <line x1="48" y1="48" x2="56" y2="48" stroke="#000000" stroke-width="0.3"/>
+  <text x="60" y="51" class="small bold">Pericentromeric HSAT2 (~1.5%)</text>
+
+  <line x1="48" y1="56" x2="56" y2="56" stroke="#000000" stroke-width="0.3"/>
+  <text x="60" y="59" class="small">Telo-/subtelomeric (~4%)</text>
+
+  <line x1="48" y1="88" x2="56" y2="88" stroke="#000000" stroke-width="0.3"/>
+  <text x="60" y="91" class="small">Transposable elements (~47%)</text>
+
+  <line x1="48" y1="132" x2="56" y2="132" stroke="#000000" stroke-width="0.3"/>
+  <text x="60" y="135" class="small">Other non-coding (~34.5%)</text>
+
+  <text x="20" y="268" class="small">Human genome: ~3.2 Gb</text>
+  <text x="275" y="268" class="small">~2% protein-coding</text>
+
+  <!-- ============================================================ -->
+  <!-- RIGHT: Silencing mechanism — DNA methylation + H3K9me3       -->
+  <!-- Top: open chromatin · Bottom: compact heterochromatin         -->
+  <!-- ============================================================ -->
+
+  <defs>
+    <marker id="arr" markerWidth="5" markerHeight="3.5" refX="5" refY="1.75" orient="auto">
+      <polygon points="0,0 5,1.75 0,3.5" fill="#009E73"/>
+    </marker>
+    <marker id="arrred" markerWidth="5" markerHeight="3.5" refX="5" refY="1.75" orient="auto">
+      <polygon points="0,0 5,1.75 0,3.5" fill="#D55E00"/>
+    </marker>
+  </defs>
+
+  <!-- === Row 1: Open chromatin === -->
+  <text x="260" y="38" text-anchor="middle" class="small bold">Open chromatin — accessible</text>
+
+  <!-- DNA segments between nucleosomes -->
+  <!-- Nucleosome1 cx=214 rx=6 [208-220], Nuc2 cx=250 [244-256], Nuc3 cx=286 [280-292] -->
+  <line x1="195" y1="56" x2="208" y2="56" stroke="#000000" stroke-width="0.5"/>
+  <line x1="220" y1="56" x2="244" y2="56" stroke="#000000" stroke-width="0.5"/>
+  <line x1="256" y1="56" x2="280" y2="56" stroke="#000000" stroke-width="0.5"/>
+  <line x1="292" y1="56" x2="340" y2="56" stroke="#000000" stroke-width="0.5"/>
+
+  <ellipse cx="214" cy="56" rx="6" ry="5" fill="#D9D9D9" stroke="#000000" stroke-width="0.4"/>
+  <ellipse cx="250" cy="56" rx="6" ry="5" fill="#D9D9D9" stroke="#000000" stroke-width="0.4"/>
+  <ellipse cx="286" cy="56" rx="6" ry="5" fill="#D9D9D9" stroke="#000000" stroke-width="0.4"/>
+
+  <line x1="195" y1="46" x2="340" y2="46" stroke="#009E73" stroke-width="0.8" marker-end="url(#arr)"/>
+  <text x="268" y="42" text-anchor="middle" class="small">transcription possible</text>
+
+  <!-- === Row 2: Compact heterochromatin === -->
+  <text x="260" y="80" text-anchor="middle" class="small bold">Heterochromatin — silenced</text>
+  <text x="260" y="88" text-anchor="middle" class="small">DNA methylation + H3K9me3</text>
+
+  <!-- DNA linker segments between nucleosomes -->
+  <!-- Nuc cy=100 rx=6: #1 200-212, #2 222-234, #3 244-256, #4 266-278, #5 288-300, #6 310-322 -->
+  <line x1="195" y1="100" x2="200" y2="100" stroke="#000000" stroke-width="0.5"/>
+  <line x1="212" y1="100" x2="222" y2="100" stroke="#000000" stroke-width="0.5"/>
+  <line x1="234" y1="100" x2="244" y2="100" stroke="#000000" stroke-width="0.5"/>
+  <line x1="256" y1="100" x2="266" y2="100" stroke="#000000" stroke-width="0.5"/>
+  <line x1="278" y1="100" x2="288" y2="100" stroke="#000000" stroke-width="0.5"/>
+  <line x1="300" y1="100" x2="310" y2="100" stroke="#000000" stroke-width="0.5"/>
+  <line x1="322" y1="100" x2="340" y2="100" stroke="#000000" stroke-width="0.5"/>
+
+  <ellipse cx="206" cy="100" rx="6" ry="5" fill="#B0B0B0" stroke="#000000" stroke-width="0.4"/>
+  <ellipse cx="228" cy="100" rx="6" ry="5" fill="#B0B0B0" stroke="#000000" stroke-width="0.4"/>
+  <ellipse cx="250" cy="100" rx="6" ry="5" fill="#B0B0B0" stroke="#000000" stroke-width="0.4"/>
+  <ellipse cx="272" cy="100" rx="6" ry="5" fill="#B0B0B0" stroke="#000000" stroke-width="0.4"/>
+  <ellipse cx="294" cy="100" rx="6" ry="5" fill="#B0B0B0" stroke="#000000" stroke-width="0.4"/>
+  <ellipse cx="316" cy="100" rx="6" ry="5" fill="#B0B0B0" stroke="#000000" stroke-width="0.4"/>
+
+  <!-- CH₃ marks on linker DNA -->
+  <text x="218" y="96" text-anchor="middle" class="small">CH₃</text>
+  <text x="240" y="96" text-anchor="middle" class="small">CH₃</text>
+  <text x="262" y="96" text-anchor="middle" class="small">CH₃</text>
+  <text x="284" y="96" text-anchor="middle" class="small">CH₃</text>
+  <text x="306" y="96" text-anchor="middle" class="small">CH₃</text>
+
+  <!-- me3 tags on histone tails -->
+  <line x1="210" y1="96" x2="213" y2="112" stroke="#000000" stroke-width="0.4"/>
+  <text x="213" y="117" text-anchor="middle" class="small">me3</text>
+  <line x1="232" y1="96" x2="235" y2="112" stroke="#000000" stroke-width="0.4"/>
+  <text x="235" y="117" text-anchor="middle" class="small">me3</text>
+  <line x1="254" y1="96" x2="257" y2="112" stroke="#000000" stroke-width="0.4"/>
+  <text x="257" y="117" text-anchor="middle" class="small">me3</text>
+  <line x1="276" y1="96" x2="279" y2="112" stroke="#000000" stroke-width="0.4"/>
+  <text x="279" y="117" text-anchor="middle" class="small">me3</text>
+  <line x1="298" y1="96" x2="301" y2="112" stroke="#000000" stroke-width="0.4"/>
+  <text x="301" y="117" text-anchor="middle" class="small">me3</text>
+
+  <text x="268" y="136" text-anchor="middle" class="small bold">transcription blocked</text>
+
+  <!-- === Key === -->
+  <text x="268" y="160" text-anchor="middle" class="small bold">Healthy cells: repeats stably silenced</text>
+  <text x="268" y="170" text-anchor="middle" class="small">CH₃ on DNA + me3 on histone H3 tails</text>
+  <text x="268" y="178" text-anchor="middle" class="small">→ chromatin compacts, blocks polymerase</text>
+
+  <!-- Connector: arrow from bracket to right side -->
+  <line x1="175" y1="76" x2="193" y2="76" stroke="#D55E00" stroke-width="0.6" marker-end="url(#arrred)"/>
+</svg>
