@@ -687,6 +687,13 @@ If MCAS onset demonstrably preceded ME/CFS onset AND PEM triggers overlap MCAS t
 
 #include "open-questions/oq-does-mcas-treatment-response-decline-with-disease-duration.typ"
 
+=== Mechanical/Postural Subgroup
+<sec:mechanical-postural-subgroup>
+
+*Hypothesis origin:* Colette Marie Gerlier (2026-07-21, personal communication) — independent researcher (BTS Biochimie, former neurology EEG technician).
+
+#include "speculations/spec-skeletal-asymmetry-as-subgroup-defining-feature.typ"
+
 === Emerging Treatment-Response Phenotypes
 <sec:treatment-phenotypes>
 

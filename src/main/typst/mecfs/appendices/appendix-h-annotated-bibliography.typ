@@ -22104,6 +22104,198 @@ This section reviews biomechanical literature on rowing ergometer physics, speci
 
 // =============================================================================
 
+== Cell and Tissue Enrichment Methods and Resources
+<sec:bib-cell-tissue-enrichment>
+// =============================================================================
+
+=== Bulik-Sullivan et al.\ 2015 — LD Score Regression (LDSC)
+
+    @BulikSullivan2015LDSC
+
+    *Key Findings:*:
+        - Developed LD Score regression to distinguish true polygenic signal from confounding bias (cryptic relatedness, population stratification)
+        - LDSC intercept quantifies inflation from each source
+        - More powerful and accurate than genomic control for GWAS correction
+        - Foundation for subsequent stratified LDSC (Finucane 2018) used in tissue/cell-type enrichment
+        - Validated on 22 GWAS datasets including schizophrenia, height, BMI, diabetes
+        - Highly cited (6,174 citations); adopted as standard GWAS QC pipeline
+    *Conclusion:*: LDSC is a foundational method enabling downstream tissue/cell-type enrichment by reliably separating polygenicity from confounding.
+    *Relevance:*: LDSC is the mathematical core upon which stratified LDSC (S-LDSC) for cell-type enrichment is built. Used by DecodeME, Maccallini 2026, mecfsscience.org for ME/CFS enrichment analyses. Without LDSC, tissue enrichment from GWAS summary statistics would be unreliable.
+    *Quality:*: Very High (Nature Genetics, 6,174 citations, peer-reviewed, standard tool)
+    *Certainty:*: 0.92
+    *Limitations:*: Assumes infinitesimal polygenic architecture; sensitive to LD reference panel choice; does not itself perform enrichment — only partitioning.
+
+=== de Leeuw et al.\ 2015 — MAGMA Gene-Set Analysis
+
+    @deLeeuw2015MAGMA
+
+    *Key Findings:*:
+        - Developed MAGMA (Multi-marker Analysis of GenoMic Annotation) for gene and gene-set analysis of GWAS data
+        - Gene analysis via multiple regression model — significantly better power than single-SNP methods
+        - Gene-set analysis built as separate layer with regression structure enabling continuous gene properties
+        - Outperforms PLINK, ALIGATOR, INRICH, MAGENTA in simulation and Crohn's disease benchmarks
+        - Competitive gene-set analysis: is a gene set more associated than the rest of the genome?
+        - Corrects for LD, gene size, gene density; dramatically faster than permutation-based methods
+        - >2,000 citations; adopted as default gene-set method in FUMA platform
+    *Conclusion:*: MAGMA is the standard tool for gene-set and cell-type enrichment from GWAS — the engine behind most ME/CFS enrichment results.
+    *Relevance:*: MAGMA is used in DecodeME tissue analysis, Maccallini 2026 cell-type enrichment, the Duncan 2025 pipeline, and the mecfsscience.org analyses. Understanding its methodology is essential to evaluating the ME/CFS enrichment findings.
+    *Quality:*: Very High (PLoS Comp Biol, >2,000 citations, peer-reviewed, platform standard)
+    *Certainty:*: 0.90
+    *Limitations:*: Gene boundary definition (window size) affects results; reference LD panel can bias results; no native trans-ethnic support; competitive gene-set analysis sensitive to background gene set selection.
+
+=== Finucane et al.\ 2018 — Stratified LDSC for Disease-Relevant Tissue/Cell-Type Enrichment
+
+    @Finucane2018stratifiedLDSC
+
+    *Key Findings:*:
+        - Introduced stratified LD score regression (S-LDSC) to partition SNP heritability by functional annotation
+        - Created 10 cell-type-specific gene sets from GTEx v6, ImmGen, Franke lab RNA data
+        - Validated on 48 diseases/traits — correctly identified known disease biology:
+          - Immune cells for rheumatoid arthritis, Crohn's disease, asthma
+          - CNS/neuronal for schizophrenia, epilepsy
+          - Pancreatic cells for diabetes
+        - Published annotation files as Google Cloud public resource
+        - Pipeline used directly by mecfsscience.org for their ME/CFS analysis (analysis 1)
+    *Conclusion:*: S-LDSC is a validated method that correctly identifies disease-relevant cell types from GWAS data. Applying it to ME/CFS yields a strong CNS/neuronal signal.
+    *Relevance:*: The mecfsscience.org blog applied the exact Finucane 2018 pipeline to DecodeME results and found strong CNS enrichment for ME/CFS. Validates approach: method correctly found immune cells for RA/Crohn's and neural cells for schizophrenia — same pipeline applied to ME/CFS identifies neurons.
+    *Quality:*: Very High (Nature Genetics, peer-reviewed, foundation of the entire GWAS cell-type enrichment field)
+    *Certainty:*: 0.90
+    *Limitations:*: Only 10 broad categories — cannot resolve closely related cell subtypes within tissue; method performance degrades for fine annotations; assumes SNPs near specifically expressed genes tag relevant regulatory variants; finer-grained analysis requires cell-type-specific RNA datasets (HBA, Dropviz) and MAGMA-based methods.
+
+=== Skene et al.\ 2018 — Brain Cell Type Enrichment for Schizophrenia (Linnarsson Mouse Atlas)
+
+    @Skene2018brainCellTypes
+
+    *Key Findings:*:
+        - Applied MAGMA cell-type enrichment to schizophrenia GWAS (PGC2: 40,675 cases, 64,643 controls) using Linnarsson mouse brain snRNA-seq atlas (9,970 cells)
+        - Schizophrenia genetic signal significantly enriched in: CA1 pyramidal neurons, subiculum neurons, medium spiny neurons (D1 and D2 subtypes), somatostatin-positive interneurons
+        - Validation across 7 independent cell-type datasets showed consistent neuronal enrichment
+        - Published analysis pipeline via R package `MAGMA_celltyping` (still widely used)
+        - Level 1 taxonomy (~70 broad cell types) used by mecfsscience.org analysis 7
+    *Conclusion:*: Demonstrates that MAGMA + single-cell atlases can identify specific brain cell types underlying psychiatric disease risk. MSN-related findings for schizophrenia prefigure the MSN enrichment now observed in ME/CFS.
+    *Relevance:*: Pipeline and methodology directly transferred to ME/CFS by mecfsscience.org. The MSN finding for schizophrenia establishes precedent: MSN enrichment is a biologically meaningful signal, not an artifact of the method. However, MSN enrichment is shared across multiple brain traits — not specific to any single condition.
+    *Quality:*: Very High (Nature Genetics, peer-reviewed, highly cited, published package)
+    *Certainty:*: 0.88
+    *Limitations:*: Mouse-to-human gene mapping introduces noise; limited to ~70 broad cell-type categories; cross-species cell-type homology assumptions; Level 2/3 fine cell types require higher-resolution atlases.
+
+=== Saunders et al.\ 2018 — Dropviz Mouse Brain Atlas (Reference Resource)
+
+    @Saunders2018Dropviz
+
+    *Key Findings:*:
+        - Drop-seq snRNA-seq atlas: 690,000 single-nucleus transcriptomes from 9 regions of adult mouse brain
+        - Identified 565 transcriptionally distinct cell populations
+        - Striatum contains functionally diverse MSN subtypes including eMSN-like cells
+        - Gene expression profiles accessible via FUMA download page for cross-species GWAS enrichment
+        - Naming caveat: GP (globus pallidus) neuron clusters actually represent striatal cell types (documented in paper)
+        - Atlas validated by ISH cross-reference with Allen Brain Atlas
+    *Conclusion:*: Dropviz is a foundational reference for cross-species cell-type enrichment — the primary mouse dataset used by Maccallini 2026 to identify striatal neuron enrichment in ME/CFS.
+    *Relevance:*: In Maccallini 2026's analysis, 7 of 13 Brain-cell-types significant for ME/CFS were striatal (MSN) cell types from Dropviz. Provides the strongest mouse-based replication of the MSN/ME/CFS enrichment signal.
+    *Quality:*: Very High (Cell, landmark reference atlas, highly cited, peer-reviewed)
+    *Certainty:*: 0.92
+    *Limitations:*: Mouse model — cross-species gene mapping introduces noise and false positives; limited to 9 brain regions; cell-type naming ambiguities (GP = striatal); mouse brain cell types do not perfectly map to human.
+
+=== Siletti et al.\ 2023 — Human Brain Cell Atlas (Reference Resource)
+
+    @Siletti2023
+
+    *Key Findings:*:
+        - Comprehensive single-nucleus RNA-seq atlas of entire human brain: 3.3 million cells, 105 dissections
+        - 31 superclusters, 461 clusters, 3,313 subclusters of transcriptionally defined cell types
+        - High neuronal diversity outside cortex — hypothalamus, midbrain, hindbrain represented
+        - eMSN (eccentric medium spiny neuron) cluster identified: GAD1/GAD2 (CXCL14+ DRD1+ ADARB2+)
+        - Publicly available resource used by Duncan 2025 pipeline
+    *Conclusion:*: Landmark reference atlas confirms eMSN as a distinct human brain cell type. The resolution needed (461 clusters) to test cell-type-specific enrichment for ME/CFS.
+    *Relevance:*: The Duncan 2025 pipeline — applied to ME/CFS by mecfsscience.org — uses the Siletti 2023 atlas as input. eMSN is the top cell-type hit for ME/CFS from this atlas. Without this atlas, eMSN-level resolution would not be achievable from GWAS data.
+    *Quality:*: Very High (Science, 3.3M cells, landmark study, peer-reviewed)
+    *Certainty:*: 0.95
+    *Limitations:*: Postmortem tissue quality; only 3 donors (limited genetic diversity); cell-type clustering is algorithmic — boundaries approximate; does not address ME/CFS or any disease associations.
+
+=== Duncan et al.\ 2025 — Human Brain Atlas Cell-Type Enrichment Pipeline
+
+    @Duncan2025cellTypeBrain
+
+    *Key Findings:*:
+        - Applied MAGMA cell-type enrichment to 18 brain-related traits using Siletti 2023 Human Brain Atlas (461 cell types)
+        - Schizophrenia enriched in cortical layer 2/3 excitatory neurons, inhibitory interneurons, MSNs
+        - Depression enriched in cortical layer 5/6 excitatory neurons
+        - Alcohol consumption and sleep duration enriched in medium spiny neurons
+        - Published code: github.com/Integrative-Mental-Health-Lab/linking_cell_types_to_brain_phenotypes
+        - Established h2-MAGMA method for partitioning heritability by cell type
+        - Pipeline used by mecfsscience.org for their ME/CFS eMSN enrichment result (analysis 5)
+    *Conclusion:*: The Duncan 2025 pipeline provides the most systematically validated framework for mapping GWAS signals to brain cell types. Its application to ME/CFS identified eMSN as the top cell-type hit.
+    *Relevance:*: mecfsscience.org analysis 5 directly uses this pipeline with DecodeME+MVP summary statistics. The eMSN finding for ME/CFS comes from this specific methodology. Duncan et al. also show that MSN enrichment is NOT unique to ME/CFS (found for sleep, alcohol, schizophrenia) — interpretation must account for this.
+    *Quality:*: Very High (Nature Neuroscience, peer-reviewed, publicly available code, validated on 18 traits)
+    *Certainty:*: 0.88
+    *Limitations:*: Pipeline engineered for psychiatric/brain phenotypes — validation in non-psychiatric conditions is indirect; HBA has only 3 donors; MAGMA window (30/10kb) may miss distal regulatory elements; fine cell-type specificity remains method-dependent (Brouwer 2026 review).
+
+=== GTEx Consortium 2020 — Tissue Gene Expression and eQTL Atlas
+
+    @GTExConsortium2020
+
+    *Key Findings:*:
+        - Multi-tissue gene expression and eQTL atlas from 838 postmortem donors across 49 tissues
+        - 15,201 RNA-seq samples total; all 13 brain regions profiled
+        - GTEx v8 (2019 release) used by DecodeME preprint for MAGMA tissue enrichment analysis
+        - All brain regions show significant enrichment for ME/CFS-associated genes
+        - Pre-processed tissue expression data available via FUMA platform for MAGMA input
+    *Conclusion:*: GTEx is the primary tissue-level expression reference for GWAS enrichment. The uniform ME/CFS enrichment across all brain regions suggests broad neural involvement rather than region specificity.
+    *Relevance:*: DecodeME's MAGMA tissue enrichment, which first identified CNS enrichment for ME/CFS, used GTEx v8 as the expression reference. The finding that ALL brain regions are significant (not just striatum) constrains interpretation: tissue-level analysis cannot resolve brain-region specificity.
+    *Quality:*: Very High (Science, 838 donors, landmark resource, peer-reviewed)
+    *Certainty:*: 0.90
+    *Limitations:*: Postmortem tissue; steady-state mRNA proxy (not protein/function); limited donors per tissue type; tissue-level resolution only — cannot distinguish brain regions or cell types; expression may differ between living and postmortem tissue.
+
+=== Lee et al.\ 2026 — Genetic Overlap ME/CFS-IBS-Psychiatric Traits (DESCARTES Enrichment)
+
+    @Lee2026geneticOverlap
+
+    *Key Findings:*:
+        - Cross-trait genetic correlation analysis (LDSC): ME/CFS shares modest genetic correlation with IBS and psychiatric traits
+        - Applied DESCARTES Human Fetal Atlas for cell-type enrichment of ME/CFS GWAS
+        - Inhibitory interneurons showed significant enrichment in fetal brain samples
+        - Third independent cell atlas replicating CNS enrichment for ME/CFS (after Dropviz and HBA)
+        - Consistent neuronal rather than immune cell-type involvement across all three atlases
+    *Conclusion:*: Independent replication of CNS enrichment using a third atlas (DESCARTES). The specific cell-type hit (inhibitory interneurons vs eMSN) differs, highlighting that fine cell-type specificity is atlas/method-dependent while the broad neuronal signal is robust.
+    *Relevance:*: Important for triangulation: 3 different atlases (Dropviz, HBA, DESCARTES) all point to CNS/neuronal enrichment for ME/CFS. The specific cell type varies by atlas — this should be communicated as uncertainty, not contradiction.
+    *Quality:*: Medium (preprint, not peer-reviewed, but methods are standard)
+    *Certainty:*: 0.45
+    *Limitations:*: Preprint (not peer-reviewed); DESCARTES uses fetal samples — may not represent adult brain cell types; cross-trait analysis exploratory; specific interneuron finding may be atlas-dependent.
+
+=== Snyder et al.\ 2025 — Rare Variants Implicating Neuronal Genes in ME/CFS
+
+    @Snyder2025rareBrain
+
+    *Key Findings:*:
+        - Whole exome sequencing of ME/CFS patients (Stanford Medicine)
+        - Enrichment of rare damaging variants in neuronal genes
+        - Synaptic communication and neural development gene ontologies significantly enriched
+        - No immune gene enrichment from rare variant analysis
+        - Converges with DecodeME common variant findings: both rare AND common variation point to synaptic/neuronal biology
+    *Conclusion:*: Rare and common variants converge on neuronal/synaptic biology in ME/CFS. Both ends of the allele frequency spectrum point to the same biological domain — a strong triangulation signal.
+    *Relevance:*: Provides orthogonal evidence (rare variant burden, not GWAS enrichment) that neuronal dysfunction — not immune dysfunction — is the genetically encoded risk in ME/CFS. Strengthens the DecodeME enrichment findings with a completely different methodology.
+    *Quality:*: Medium (preprint, not peer-reviewed, Stanford group reputable)
+    *Certainty:*: 0.45
+    *Limitations:*: Preprint (not peer-reviewed); exact sample size not confirmed; rare variant analysis has inherently lower statistical power than common variant GWAS; exact sample overlap with DecodeME participants unknown.
+
+=== Chaudhuri & Behan 2000 — Fatigue and Basal Ganglia (Striatal-Thalamic Hypothesis)
+
+    @Chaudhuri2000basalganglia
+
+    *Key Findings:*:
+        - Introduced concept of central fatigue (distinct from peripheral neuromuscular fatigue) in neurological diseases
+        - Proposed that central fatigue results from failure in integration of limbic input and motor functions within basal ganglia
+        - Specific mechanism: dysfunction in the striatal-thalamic-frontal cortical system
+        - Supported by neuropathological data in Parkinson's disease and multiple sclerosis
+        - Central fatigue in ME/CFS, MS, and Parkinson's posited to share common basal ganglia circuit pathology
+        - Distinguished physical fatigue from mental fatigue — both proposed as central in origin
+    *Conclusion:*: The striatal-thalamic-frontal cortical system hypothesis predicts that ME/CFS pathology should map to striatal cell types. The 2026 cell-type enrichment results (eMSN in striatum) provide genetic evidence consistent with this 25-year-old hypothesis.
+    *Relevance:*: This is the theoretical framework that the mecfsscience.org enrichment results appear to support. Proposed in 2000, predating GWAS, single-cell sequencing, and enrichment methods — notable as a hypothesis confirmed by modern tools rather than contradicted.
+    *Quality:*: Medium (review article, hypothesis-level, no experimental validation at the time, peer-reviewed in J Neurol Sci)
+    *Certainty:*: 0.55
+    *Limitations:*: Hypothesis paper with no original data; mechanistic pathways speculative; predates modern genetic methods; prediction about basal ganglia involvement is now supported by enrichment data but the specific circuit mechanism remains unproven; the full striatal-thalamic-frontal cortical pathway has not been directly tested in ME/CFS.
+
+// =============================================================================
+
 == mTOR and Autophagy
 <sec:bib-mtor-autophagy>
 // =============================================================================
@@ -27543,3 +27735,113 @@ sec-bib-rf-elevated-mecfs-duplicate
     - Financial difficulties and high social impact strongly associated with stopping work (p $<$ 0.001)
 
 *Relevance:* Provides full methodological transparency (search strategies, expert list), detailed subgroup analyses enabling equity-focused interpretation, and qualitative depth on recognition/stigma themes central to ME/CFS patient experience.
+
+=== Campbell et al.\ 2019 — Shoe Lifts for Leg Length Discrepancy: Systematic Review
+    / *Full Citation:*: Campbell TM, Ghaedi BB, Tanjong Ghogomu E, Welch V. Shoe lifts for leg length discrepancy in adults with common painful musculoskeletal conditions: a systematic review of the literature. _Archives of Physical Medicine and Rehabilitation_. 2019;100(2):346--357.
+    / *DOI:*: https://doi.org/10.1016/j.apmr.2017.10.027
+    / *Key Findings:*:
+        - Systematic review of 10 studies (1 RCT, 9 observational) on shoe lifts for LLD-associated morbidities
+        - Shoe lifts reduce low back pain and functional disability in adults with LLD
+        - Only 1 RCT exists (n=30, crossover design); overall evidence quality is low
+        - No study measured fatigue, energy expenditure, or systemic symptom outcomes
+    / *Conclusion:*: Shoe lifts are a low-cost intervention that reduces pain in LLD, but the literature has never examined whether correcting LLD improves fatigue, PEM, or autonomic symptoms.
+    / *Limitations:*: Only 1 RCT; heterogeneous LLD definitions (5--30 mm used as inclusion); no fatigue/energy outcomes; English-only search.
+
+=== Schulte et al.\ 2010 — Sympathetic Chain Lesions from Anterior Scoliosis Surgery
+    / *Full Citation:*: Schulte TL, Mester B, Oberdiek D, Osada N, Liljenqvist U, Filler TJ, Marziniak M, Bullmann V. Approach-related lesions of the sympathetic chain in anterior correction and instrumentation of idiopathic scoliosis. _European Spine Journal_. 2010;19(9):1558--1567.
+    / *DOI:*: https://doi.org/10.1007/s00586-010-1455-1
+    / *Key Findings:*:
+        - 12 of 31 patients (39%) showed sympathetic chain dysfunction after anterior scoliosis surgery, confirmed by sudomotor testing (Ninhydrin sweat test)
+        - The sympathetic chain lies directly on the anterolateral surface of thoracic vertebral bodies -- it is anatomically exposed to any mechanical disturbance of the thoracic spine
+        - Lesions were approach-related (surgical dissection), not disease-related, but demonstrate the chain's vulnerability at this location
+        - Sensory symptoms (warmth, dry skin) persisted in some patients at follow-up
+    / *Conclusion:*: The sympathetic chain is anatomically vulnerable to mechanical perturbation at the thoracic spine level. This establishes a necessary mechanistic precondition: if rotoscoliosis or vertebral rotation could mechanically irritate the chain, autonomic dysfunction would be expected.
+    / *Limitations:*: Surgical not disease-related damage; n=31; no autonomic testing beyond sudomotor function; no fatigue/HRV outcomes.
+
+=== Killian et al.\ 2017 — Scoliosis in Rett Syndrome: Progression, Comorbidities, Predictors
+    / *Full Citation:*: Killian JT, Lane JB, Lee HS, Skinner SA, Kaufmann WE, Glaze DG, Neul JL, Percy AK. Scoliosis in Rett syndrome: progression, comorbidities, and predictors. _Pediatric Neurology_. 2017;70:20--25.
+    / *DOI:*: https://doi.org/10.1016/j.pediatrneurol.2017.01.032
+    / *Key Findings:*:
+        - Multicenter natural history study of 913 females with classic Rett syndrome
+        - Severe scoliosis (>=40 deg Cobb angle) in 251 (27%); 168 (18%) required surgical correction
+        - Severe MECP2 mutations (R106W, R168X, R255X, R270X, large deletions) predicted worse scoliosis
+        - Loss of sitting, ambulation, and hand function associated with severe scoliosis
+        - Puberty onset associated with progression
+    / *Conclusion:*: Rett syndrome is a genetic disease with both severe autonomic dysfunction and severe scoliosis, making it a natural model system for studying ANS-spine interactions. The association between MECP2 severity, scoliosis, and motor function loss suggests shared neurological pathways.
+    / *Limitations:*: Rett-specific; no direct ANS-spine interaction data; no fatigue measurement. Cannot distinguish whether scoliosis causes ANS dysfunction or both arise from common MECP2-mediated mechanisms.
+
+=== He et al.\ 2014 — Autonomic Control of Bone Formation
+    / *Full Citation:*: He JY, Zheng XF, Jiang LS. Autonomic control of bone formation: its clinical relevance. In: _Handbook of Clinical Neurology_. Vol.\ 117. Elsevier; 2014:161--171.
+    / *DOI:*: https://doi.org/10.1016/B978-0-444-53491-0.00014-6
+    / *Key Findings:*:
+        - The sympathetic nervous system regulates bone remodeling via beta-2 adrenergic receptors (beta2-AR) on osteoblasts
+        - Sympathetic activation increases RANKL expression → increased osteoclastogenesis → bone resorption
+        - Leptin-mediated sympathetic tone links energy metabolism to bone turnover
+        - Parasympathetic system opposes sympathetic effects on bone
+    / *Conclusion:*: Establishes a bidirectional relationship between the ANS and skeletal structure. Skeletal asymmetry is not a one-way mechanical problem -- the ANS actively remodels bone and spine, creating feedback loops.
+    / *Limitations:*: Review chapter; largely preclinical (mouse models); does not address scoliosis or postural asymmetry directly.
+
+=== Grivas et al.\ 2026 — Three-Plane Rib Cage Remodeling in Early Scoliosis
+    / *Full Citation:*: Grivas TB, Scoliosis Aetiology Study Group, Hellenic School Scoliosis Screening Group. Three-plane morphological remodeling of the rib cage and spine in early-stage scoliogenesis in idiopathic scoliosis. _Studies in Health Technology and Informatics_. 2026;337:25--30.
+    / *DOI:*: https://doi.org/10.3233/SHTI260737
+    / *Key Findings:*:
+        - Thoracic rib cage deformity (rib asymmetry, reduced rib-vertebra angles) PRECEDES spinal curvature in idiopathic scoliosis
+        - Asymmetric muscular forces may play a causal role in initiating scoliosis
+        - Sagittal plane: subtle thoracic kyphosis reduction is permissive but not initiating
+        - "Autonomic nervous system" listed as a keyword suggesting recognition of ANS involvement in scoliogenesis
+    / *Conclusion:*: Scoliosis is primarily a rib cage and trunk asymmetry problem, not just a spinal curvature. The asymmetric muscular forces driving this asymmetry raise the possibility of chronic unilateral muscle overuse with metabolic consequences.
+    / *Limitations:*: Review-level, no new primary data; ANS keyword present but no ANS data; pediatric focus.
+
+=== Gerwin 2005 — Myofascial Pain and Fibromyalgia Perpetuating Factors
+    / *Full Citation:*: Gerwin RD. A review of myofascial pain and fibromyalgia -- factors that promote their persistence. _Acupuncture in Medicine_. 2005;23(3):121--134.
+    / *DOI:*: https://doi.org/10.1136/aim.23.3.121
+    / *Key Findings:*:
+        - Identifies mechanical perpetuating factors for chronic regional pain: postural asymmetry, leg length inequality, pelvic obliquity, scoliosis
+        - Mechanical asymmetries create sustained abnormal loading of muscles → trigger point formation → chronic pain
+        - Perpetuating factors include both mechanical and systemic (nutritional, metabolic, endocrine) contributors
+        - Treatment must address mechanical factors alongside systemic ones
+    / *Conclusion:*: Postural asymmetry is a recognized perpetuating factor in chronic pain syndromes. The hypothesis that it could also drive *fatigue* syndromes through the same chronic-compensatory-muscle-overload mechanism is a logical extension -- but remains untested.
+    / *Limitations:*: Narrative review; no primary data; published 2005; does not address ME/CFS specifically; the extension from pain→fatigue is inferential.
+
+=== Chu and Al Zoubi 2023 — Post-Polio Syndrome with Neck Extensor Myopathy
+    / *Full Citation:*: Chu ECP, Al Zoubi F. Post-polio syndrome presenting as isolated neck extensor myopathy: a case report. _AME Case Reports_. 2023;7:17.
+    / *DOI:*: https://doi.org/10.21037/acr-22-76
+    / *Key Findings:*:
+        - Single case: 72-year-old male with prior polio, progressive neck weakness over 2 years
+        - Neck MRI showed atrophy of cervical paraspinal muscles, kyphotic deformity
+        - Diagnosis: post-polio syndrome with scoliosis and isolated neck extensor myopathy
+        - Managed conservatively with physiotherapy
+    / *Conclusion:*: Demonstrates that skeletal deformity (scoliosis, kyphosis) can co-occur with progressive muscle fatigue in neurological disease. Limited generalizability as n=1.
+    / *Limitations:*: Single case report; no mechanistic investigation; PPS is a distinct disease; cannot separate PPS-specific mechanisms from mechanical effects of deformity.
+
+=== Jubelt 2004 — Post-Polio Syndrome Review
+    / *Full Citation:*: Jubelt B. Post-polio syndrome. _Current Treatment Options in Neurology_. 2004;6(2):105--113.
+    / *DOI:*: https://doi.org/10.1007/s11940-004-0018-3
+    / *Key Findings:*:
+        - PPS fatigue mechanism: metabolic exhaustion of surviving motor neurons that overworked for decades compensating for lost motor units
+        - This "compensatory overuse → metabolic failure" model is the dominant PPS fatigue hypothesis
+        - PPS patients also have scoliosis, joint deformities, and mechanical asymmetry from childhood polio
+        - Treatment: energy conservation, pacing, lifestyle modification -- same principles as ME/CFS management
+    / *Conclusion:*: PPS provides precedent for fatigue arising from *chronic compensatory muscular work* -- if a mechanical asymmetry creates sustained unilateral muscle overwork over years/decades, the resulting metabolic exhaustion could produce a fatigue syndrome with similar features to PPS. This is the strongest indirect precedent for the compensatory-overuse limb of the skeletal asymmetry hypothesis.
+    / *Limitations:*: Review article; PPS-specific (surviving motor units); no direct evidence linking postural asymmetry to PPS fatigue vs neural mechanisms; published 2004.
+
+=== Proessl et al.\ 2018 — Leg Strength Asymmetry NOT Associated with Fatigue in MS
+    / *Full Citation:*: Proessl F, Ketelhut NB, Rudroff T. No association of leg strength asymmetry with walking ability, fatigability, and fatigue in multiple sclerosis. _International Journal of Rehabilitation Research_. 2018;41(1):81--86.
+    / *DOI:*: https://doi.org/10.1097/MRR.0000000000000278
+    / *Key Findings:*:
+        - n=15 MS patients: leg strength asymmetry did NOT correlate with walking ability, perceived fatigability, or fatigue severity
+        - Suggests asymmetry alone is insufficient to produce fatigue -- additional factors are required
+        - MS fatigue likely driven by central (CNS) mechanisms rather than peripheral muscular asymmetry
+    / *Conclusion:*: Null result that bounds the skeletal-asymmetry hypothesis: even in a neurological disease with established fatigue, muscular asymmetry does not predict fatigue severity. This suggests that if skeletal asymmetry contributes to ME/CFS fatigue, it must do so through mechanisms beyond simple muscular workload asymmetry (e.g., ANS irritation, systemic inflammatory response, or chronic metabolic perturbation).
+    / *Limitations:*: Small sample (n=15); MS-specific (CNS demyelination dominates pathophysiology); leg strength asymmetry measured by dynamometer, not structural skeletal asymmetry (LLD, scoliosis); no metabolic or ANS outcomes.
+
+=== Fava et al.\ 2026 — Sciatic Scoliosis Secondary to Lumbar Disc Herniation: Systematic Review
+    / *Full Citation:*: Fava M, Mendola E, Perna F, Raimondini L, Giavaresi G, Toscano A. Clinical characteristics, surgical management and outcomes of sciatic scoliosis secondary to lumbar disc herniation: a systematic review. _Life_. 2026;16(4):589.
+    / *DOI:*: https://doi.org/10.3390/life16040589
+    / *Key Findings:*:
+        - Systematic review: 19 studies, 488 patients with sciatic scoliosis (acute antalgic spinal listing from disc herniation)
+        - Sciatic scoliosis is a functional (not structural) deformity driven by pain-avoidance posture
+        - Resolves with disc surgery in the majority of cases
+        - Distinct from idiopathic/structural scoliosis -- important for differential diagnosis
+    / *Conclusion:*: Acute spinal deformity can be functional (pain-driven), not structural. Any hypothesis linking scoliosis to ME/CFS must distinguish between structural deformities (rotoscoliosis, DAMI) and functional listings (pain-avoidance, disc pathology). Most adult spinal asymmetries are mixed -- functional listing can become structural over time.
+    / *Limitations:*: Sciatic scoliosis is acute and reversible -- minimal relevance to chronic structural asymmetry; no fatigue/ANS outcomes.

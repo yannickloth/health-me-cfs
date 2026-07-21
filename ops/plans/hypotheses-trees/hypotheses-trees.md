@@ -297,6 +297,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | weight-management-mecfs | [subtrees/weight-management-mecfs.md](subtrees/weight-management-mecfs.md) | 2026-06-18 | 40 | 40 | ✅ done |
 | narcolepsy-type2-mecfs | [subtrees/narcolepsy-type2-mecfs.md](subtrees/narcolepsy-type2-mecfs.md) | 2026-06-18 | 42 | 42 | ✅ done |
 | post-exercise-recovery-optimization | [subtrees/post-exercise-recovery-optimization.md](subtrees/post-exercise-recovery-optimization.md) | 2026-06-18 | 90 | 0 | 🔵 in progress |
+| skeletal-asymmetry-mechanics | [subtrees/skeletal-asymmetry-mechanics.md](subtrees/skeletal-asymmetry-mechanics.md) | 2026-07-21 | 26 | 5 | 🔵 in progress |
 | emotional-interoceptive-processing | [subtrees/emotional-interoceptive-processing.md](subtrees/emotional-interoceptive-processing.md) | 2026-06-19 | 52 | 0 | 🔵 in progress |
 | food-insecurity-disease-burden | [subtrees/food-insecurity-disease-burden.md](subtrees/food-insecurity-disease-burden.md) | 2026-06-23 | 16 | 8 | ✅ integrated |
 | psychologization-critique-schomerus-2026 | [subtrees/psychologization-critique-schomerus-2026.md](subtrees/psychologization-critique-schomerus-2026.md) | 2026-06-19 | 36 | 0 | ⬜ pending |

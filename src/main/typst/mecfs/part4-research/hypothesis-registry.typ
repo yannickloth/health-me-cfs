@@ -4035,8 +4035,27 @@ This registry collects all hypotheses, speculations, open questions, and predict
   chapter-ref: [ch14d:@lim:autoinflammatory-category-absent],
   prediction: [Not applicable — this is a categorical evidence gap, not a testable hypothesis. Adding ME/CFS screening instruments to autoinflammatory disease registries would directly address the gap.],
   treatment: [No treatment implication. Research implication: add DSQ-PEM and CCC/IOM criteria to autoinflammatory registries (Eurofever, HS ALLIANCE) at minimal cost — a one-year timeline to establish or refute autoinflammatory-ME/CFS comorbidity.],
-  limitation: [Litigation search limitation: zero results may reflect PubMed indexing gaps (autoinflammatory disease is a relatively recent category, unified ~1999; many constituent diseases were historically indexed under "rheumatology" or "dermatology"). Google Scholar and EMBASE search may yield additional results. The gap is documented, not guaranteed — a positive finding could emerge from databases or registries not yet searched.],
+   limitation: [Litigation search limitation: zero results may reflect PubMed indexing gaps (autoinflammatory disease is a relatively recent category, unified ~1999; many constituent diseases were historically indexed under "rheumatology" or "dermatology"). Google Scholar and EMBASE search may yield additional results. The gap is documented, not guaranteed — a positive finding could emerge from databases or registries not yet searched.],
 )
+
+= Entries added 2026-07-21: Skeletal Asymmetry Mechanics (Gerlier Hypothesis)
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [@spec:skeletal-asymmetry-cascade],[Skeletal asymmetry (rotoscoliosis, DAMI, ILMI) as primary mechanical driver of ME/CFS via four pathways: compensatory muscle overuse, sympathetic chain irritation, mechanical nerve compression, cervical aging spiral. Origin: Gerlier 2026-07-21, personal communication.],[Phase 1 / 0.10],
+
+  [@spec:ch08-thoracolumbar-sympathetic-irritation],[Thoracolumbar sympathetic chain irritation from rotoscoliosis producing multi-organ dysautonomia without requiring CCI. Anatomical precedent: Schulte2010 (sympathetic chain vulnerable to thoracic spine surgery).],[Phase 1 / 0.10],
+
+  [@spec:mechanical-postural-subgroup],[Skeletal asymmetry defines a distinct ME/CFS subgroup: non-hypermobile, positionally modulated, gradual-onset, age-worsening. Distinct from hypermobility/hEDS subgroup.],[Phase 1 / 0.10],
+
+  [@lim:skeletal-asymmetry-evidence-gap],[The Gerlier hypothesis has near-zero direct ME/CFS evidence at any link. 10 indirect papers; all supporting evidence comes from surgical complication reports, genetic disease models, and clinical reasoning. DAMI/ILMI yield zero PubMed results.],[Phase 2 / n/a],
+
+  [@spec:skeletal-asymmetry-cascade, ch15: Fascial and Connective Tissue Innervation],[Skeletal asymmetry produces chronic low-grade mechanical nerve compression (lateral femoral cutaneous, sciatic, pudendal) distinct from SFN — a compression neuropathy amplified by central sensitization. Improvement predicted with postural correction.],[Phase 2 / 0.10],
+)
+
+
 
 
 
