@@ -27455,3 +27455,91 @@ sec-bib-rf-elevated-mecfs-duplicate
         - *Sample:* Small pilot
         - *Replication:* Subsequent studies confirm fatigue prevalence
         - *Score:* 0.40
+
+// =============================================================================
+
+== Health Technology Assessments and Government Reports
+<sec:bib-hta-government>
+// =============================================================================
+
+=== Cornelis et al.\ 2026 — KCE Belgian ME/CFS Needs Analysis (KCE Report 420)
+
+@Cornelis2026KCE420
+
+*Full Citation:* Cornelis J, De Meulemeester K, Christiaens W, Jonckheer P, Savoye I, Dauvrin M, Kohn L, Castanares-Zapatero D. Management of myalgic encephalomyelitis/chronic fatigue syndrome in Belgium: an analysis based on patient needs. Health Services Research (HSR) Brussels: Belgian Health Care Knowledge Centre (KCE). 2026. KCE Reports 420.
+*DOI:* #link("https://doi.org/10.57598/R420C")[10.57598/R420C]
+*Published:* 30 June 2026
+*Study Design:* Mixed-methods health services research (NEED framework)
+*Sample Size:* n=749 adult ME/CFS patients (online survey) + 19 semi-structured qualitative interviews
+
+*Key Findings:*
+
+    - *Quality of Life:* EQ-5D-5L utility score declined from 0.84 (pre-illness) to 0.36 (current, p $<$ 0.001) — substantially below Belgian general population mean of 0.79
+    - *Symptoms:* Abnormal fatigue (98.7%), PEM (97.7%), sleep disorders (97.2%) reported by nearly all respondents; >75% rated these very/extremely burdensome
+    - *Comorbidities:* Fibromyalgia (63.3%), IBS (56.9%), orthostatic hypotension (20.6%), POTS (17.0%), long COVID (16.4%), SFN (12.8%), MCAS (10.5%)
+    - *Diagnostic delay:* 50% waited >2 years from first consultation to diagnosis; 39% waited >5 years; delay associated with significantly worse HRQoL (p=0.010)
+    - *Treatment experiences:* GET predominantly perceived as harmful (majority reported PEM exacerbation); CBT mixed (~50% improved, ~20% deteriorated); physiotherapy and psychological counselling generally positive; pacing widely used but evidence base limited
+    - *Care organisation:* Only one NIHDI-funded reference centre in Belgium (Dutch-speaking Flanders); other centres entail out-of-pocket costs; 50% reported care rarely/never well organised
+    - *Work impact:* 1,189 individuals in Belgian invalidity database (31 Dec 2024); mean invalidity duration 8.6 years — among the longest of any condition studied under NEED
+    - *Social impact:* 75% reported negative impact on personal relationships; majority stopped working or reduced hours; majority reported financial difficulties
+    - *Recognition and stigma:* Recognition identified as central unmet need; psychologisation experienced as inequitable care; widespread lack of professional expertise
+    - *International comparison:* Only UK has nationally structured ME/CFS referral pathway; Netherlands launched €28.5M ZonMw 10-year biomedical research programme; Italy has draft legislation under consideration
+
+*Recommendations:*
+
+    - Strengthen recognition and visibility of ME/CFS among healthcare professionals and the public
+    - Improve early diagnosis through enhanced clinical education and training
+    - Advance translational research combining clinicians, researchers, and patients
+    - Develop structured care pathways with reference centres and multidisciplinary coordination
+    - Support workplace adaptations accommodating energy limitations
+
+*Conclusion:* ME/CFS imposes a multidimensional burden with severe QoL impairment, substantial diagnostic delays, fragmented care structures, and profound socioeconomic consequences. Limited recognition at clinical, institutional, and societal levels remains the major contributor to persistent unmet needs. The UK's structured national referral pathway and the Netherlands' research programme offer models for reform.
+
+*Limitations:* Self-reported diagnoses; sampling via patient associations (selection bias); 88.7% Dutch-speaking vs 11.3% French-speaking; not available in German; under-representation of severe/very severe patients; recall bias for retrospective questions; introduction chapter not a formal systematic review.
+
+*Relevance to Paper:*
+
+    - Provides first comprehensive Belgian ME/CFS needs assessment with large patient sample
+    - EQ-5D-5L utility scores directly comparable to other chronic conditions
+    - Treatment experience data supports NICE 2021 reversal on GET and nuanced CBT role
+    - International comparison contextualises Belgian service gaps
+    - Patient-reported outcome data on pacing, symptom burden, and care access
+    - Recognition/stigma qualitative findings align with existing literature on contested illness
+
+*Certainty Assessment:*
+
+    - *Quality:* High (validated NEED methodology; mixed methods; patient involvement throughout; international peer review)
+    - *Sample:* Large for needs assessment (n=749); qualitative arm provides depth (n=19)
+    - *Currency:* Very current (June 2026)
+    - *Limitations:* Not a clinical guideline; no intervention-level evidence; Belgium-specific healthcare context
+    - *Score:* 0.75
+
+=== Supplement to KCE Report 420 (KCE Report 420S)
+
+@Cornelis2026KCE420S
+
+*Full Citation:* Cornelis J, De Meulemeester K, Christiaens W, Jonckheer P, Savoye I, Dauvrin M, Kohn L, Castanares-Zapatero D. Management of encephalomyelitis/chronic fatigue syndrome in Belgium: an analysis based on patient needs — Supplement. Health Services Research (HSR) Brussels: Belgian Health Care Knowledge Centre (KCE). 2026. KCE Reports 420S.
+*DOI:* #link("https://doi.org/10.57598/R420S")[10.57598/R420S]
+*Published:* 30 June 2026
+
+*Contents:*
+
+    - Full subgroup analysis tables for EQ-5D-5L utility scores by demographic, disease, healthcare, and social variables
+    - Dutch vs French-speaking subgroup comparison tables
+    - Employment status change subgroup analysis
+    - Qualitative analysis of open survey question (n=237 free-text responses) on additional unmet needs
+    - Complete literature search strategies for Ovid MEDLINE, Cochrane, CINAHL, Embase, PsycINFO, PEDro
+    - List of excluded articles
+    - Description of healthcare service studies for severely ill individuals
+    - List of consulted international experts
+    - Questionnaire on healthcare services for individuals with ME/CFS
+
+*Key Supplement Findings:*
+
+    - Open question analysis identified recognition as the central unmet need across healthcare, policy, and society
+    - Psychologisation of ME/CFS identified as a key contributing factor to misrecognition and stigma
+    - Consequences: impacts on diagnosis, available therapies, care accessibility, daily living, work, and psychosocial wellbeing
+    - French-speaking participants reported higher unmet needs, lower care satisfaction, and greater accessibility problems vs Dutch-speaking participants
+    - Financial difficulties and high social impact strongly associated with stopping work (p $<$ 0.001)
+
+*Relevance:* Provides full methodological transparency (search strategies, expert list), detailed subgroup analyses enabling equity-focused interpretation, and qualitative depth on recognition/stigma themes central to ME/CFS patient experience.

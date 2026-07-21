@@ -22,12 +22,14 @@ Approximately 25% of all ME/CFS patients—an estimated 250,000 people in the Un
 A landmark 2015 study published in _PLOS ONE_ compared the health-related quality of life (HRQoL) of ME/CFS patients against 20 other chronic conditions, including multiple sclerosis, stroke, lung cancer, diabetes, and heart disease @hvidberg2015quality. The findings were unequivocal:
 
 <obs:qol-comparison>
-*ME/CFS had the lowest quality of life of all 20 chronic conditions studied*—worse than multiple sclerosis, worse than stroke, worse than cancer @hvidberg2015quality.
+*ME/CFS had the lowest quality of life of all 20 chronic conditions studied*—worse than multiple sclerosis, worse than stroke, worse than cancer @hvidberg2015quality.
 
     - ME/CFS EQ-5D score: 0.47 (vs.\ 0.85 population mean)
     - ME/CFS quality of life is 55% of the general population average
     - Only 7.6% of patients remained employed
     - 52.2% were on disability pension
+
+The 2026 KCE Belgian needs assessment (n=749, EQ-5D-5L) independently replicated and extended these findings: pre-illness mean utility 0.84 dropping to 0.36 post-illness (p<$thin$0.001), substantially below the Belgian population mean of 0.79 — a 57% decline @Cornelis2026KCE420. This newer data uses the more sensitive five-level EQ-5D-5L instrument and an independent national cohort.
 
 These figures represent the _average_ ME/CFS patient. For severe and very severe patients, quality of life approaches or reaches zero.
 The implications are staggering. A patient with lung cancer—facing chemotherapy, radiation, the terror of mortality—reports better quality of life than the average ME/CFS patient. And the ME/CFS patient faces this not for months or a few years of treatment, but potentially for decades, with no approved treatments and often no acknowledgment that their suffering is real.
