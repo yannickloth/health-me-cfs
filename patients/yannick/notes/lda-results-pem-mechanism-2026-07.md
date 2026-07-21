@@ -97,3 +97,56 @@ La synergie mastocytes/microglie est probablement importante. Le protocole masto
 - **Discuter la cible acouphènes** comme problème distinct nécessitant une approche séparée (GABAergique ou vasculaire)
 
 LDA a résolu la cascade neuro-inflammatoire post-effort et le brouillard cognitif. Il ne résout pas le problème de filtrage thalamique sous-jacent aux acouphènes. Ce sont deux pathologies distinctes dans le même tableau clinique — et elles nécessitent probablement deux approches pharmacologiques distinctes.
+
+---
+
+## Note additionnelle — 2026-07-21
+
+### Hypothèse HSAT2 et profil de réponse observé
+
+Le contraste LDN (inefficace) vs LDA (efficace sur PEM et cognition) est mécanistiquement informatif. Il suggère une architecture pathologique spécifique.
+
+#### Le senseur microglial impliqué n'est pas TLR4
+
+La microglie exprime de nombreux récepteurs de détection de danger (pattern recognition receptors) dont TLR4 n'est qu'un parmi d'autres : TLR2, TLR3, TLR7/8, RAGE, P2X7, TREM2, récepteurs de complément. LDN bloque TLR4 uniquement — l'absence de réponse à LDN indique que TLR4 n'est pas la voie d'activation dominante chez ce patient.
+
+#### D2 est le frein microglial efficace
+
+L'aripiprazole active les récepteurs D2 sur la microglie, ce qui supprime la production de cytokines pro-inflammatoires (TNF-α, IL-1β, IL-6) et de ROS. Le fait que LDA soit efficace à dose microgliale (1 mg, pas antipsychotique) suggère que :
+
+1. Les récepteurs D2 microgliaux sont présents et fonctionnels
+2. Le seuil d'activation microgliale est anormalement bas (microglie « primed »)
+3. La levée de ce frein (par la perte de tonus dopaminergique) est le mécanisme pathologique principal chez ce patient
+
+#### HSAT2 comme agent sensibilisant possible
+
+L'hypothèse HSAT2 (cf. Croce, Loth, Lomonte et al. 2026, ISLC-PAIS) propose que l'ARN HSAT2, produit après érosion épigénétique des régions péricentromériques, soit :
+
+- Empaqueté dans des vésicules extracellulaires (EVs)
+- Libéré dans la circulation
+- Absorbé par les cellules myéloïdes — dont la microglie
+
+L'ARN HSAT2 contient des motifs répétés GGAA qui séquestrent les facteurs de transcription ETS (PU.1/SPI1). PU.1 est un régulateur majeur de la microglie : il contrôle son état de quiescence vs. activation. La séquestration de PU.1 par l'ARN HSAT2 pourrait reprogrammer la microglie vers un état chroniquement sensibilisé — abaissant le seuil d'activation et rendant la microglie hyper-réactive à des signaux d'effort normalement infracliniques.
+
+Cela expliquerait :
+- Le pattern LDN- LDA+ : l'activation microgliale passe par la voie ETS/PU.1 (sensibilisée par HSAT2), pas par TLR4
+- La protection PEM complète : LDA relève le seuil d'activation en aval, contrant l'effet sensibilisant de HSAT2 sans éliminer la cause
+- L'absence de neuroinflammation systémique évidente : la microglie n'est pas « activée » en continu — elle est *sensibilisée*, prête à s'activer au moindre signal. Le LDA l'empêche de franchir le seuil
+
+#### Test prédictif
+
+Si HSAT2 sensibilise la microglie chez ce patient, on s'attendrait à :
+- ARN HSAT2 détectable dans les EVs plasmatiques (Seimiya 2023, Yoruker 2026)
+- Réponse inflammatoire exagérée à l'effort en l'absence de LDA (mesurable par cytokines sériques post-effort : IL-6, TNF-α)
+- Normalisation de cette réponse sous LDA (les cytokines ne montent plus après effort)
+
+#### Implications pour la stratégie thérapeutique
+
+| Intervention | Cible | Effet attendu |
+|-------------|-------|---------------|
+| LDA 1 mg/jour | D2 microglial → relève le seuil d'activation | PEM et brouillard protégés ✓ |
+| Protocole mastocytaire | Pression de base sur la microglie (mastocytes → histamine, PAF, leucotriènes) | Réduction de la pression d'entrée |
+| LDN 4 mg | TLR4 microglial | Inefficace → confirme TLR4 non impliqué |
+| Anti-HSAT2 (futur) | ARN HSAT2 dans les EVs | Traiterait la cause — supprimerait l'agent sensibilisant |
+
+LDA ne guérit pas — il compense le défaut. Un traitement curatif nécessiterait l'élimination de l'ARN HSAT2 circulant (ASOs anti-HSAT2, dégradation enzymatique des EVs, ou restauration de la méthylation au locus HSAT2).
