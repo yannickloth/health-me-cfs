@@ -305,7 +305,7 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Step K1:* Microglial TLR4/P2X7/DAMP activation
 - *Intercept:* LDN — TLR4 antagonist; Minocycline — microglial inhibitor; PEA — PPAR-α agonist; Luteolin/quercetin
-- *If LDN works:* TLR4-mediated microglial activation is rate-limiting (per ch24 LDN differential @sec:ldn-differential).
+- *If LDN works:* TLR4-mediated microglial activation is rate-limiting (per ch24 LDN differential).
 - *If minocycline works but LDN does NOT:* Microglial activation through non-TLR4 pathways (P2X7, C5aR, IFN-γR).
 
 *Step K2a:* Hypothalamic inflammation → orexin neuron suppression
