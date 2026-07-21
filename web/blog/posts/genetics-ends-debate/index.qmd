@@ -2,7 +2,7 @@
 title: "The Genetics Settled It: ME/CFS Is Neurological"
 description: "For decades, the debate ran: is ME/CFS autoimmune or neurological? The largest GWAS to date answered it. The risk variants operate in neurons, not immune cells. Here's what that changes."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-18"
 categories: [Genetics, Neurology, Pathophysiology]
 ---
 
@@ -94,4 +94,4 @@ The ME/CFS field needs a fifty-thousand-person GWAS. That number is what it has 
 | The genetics changes clinical practice | Low — no diagnostic test or treatment target yet from this finding |
 | Scaling to 50K+ cases would identify specific disrupted pathways | Moderate-high — based on analogous progress in psychiatric genetics |
 
-*Post 1 of 4 in the DecodeME GWAS series. Next: [The Striatum Is the Bottleneck](/blog/striatum-bottleneck) · [Parkinson's Drugs for ME/CFS?](/blog/dopamine-rational-mechanism) · [The Striatum Isn't Ours](/blog/msn-specificity-caveat)*
+*Post 1 of 4 in the DecodeME GWAS series. Next: [The Striatum Is the Bottleneck](../striatum-bottleneck/) · [Parkinson's Drugs for ME/CFS?](../dopamine-rational-mechanism/) · [The Striatum Isn't Ours](../msn-specificity-caveat/)*

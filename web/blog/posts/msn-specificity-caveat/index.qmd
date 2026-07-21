@@ -2,7 +2,7 @@
 title: "The Striatum Isn't Ours: What Shared MSN Enrichment Means for ME/CFS"
 description: "The DecodeME GWAS points to medium spiny neurons. So do the GWAS for schizophrenia, depression, and alcohol use disorder. Same cell type, different diseases. Here's why that doesn't weaken the finding — it sharpens the next question."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-22"
 categories: [Genetics, Neurology, Cross-Disease]
 ---
 
@@ -91,4 +91,4 @@ Until that question is answered, every dopamine drug for ME/CFS is targeting the
 | D1/D2 imbalance is the most likely mechanism | Low — one of several candidates; no direct evidence in ME/CFS specifically |
 | Identifying a disease-specific MSN signature would yield a drug target | Moderate — logical inference from GWAS → mechanism → target; depends on the nature of the signature |
 
-*Post 4 of 4 in the DecodeME GWAS series. Prev: [The Genetics Settled It](/blog/genetics-ends-debate) · [The Striatum Is the Bottleneck](/blog/striatum-bottleneck) · [Parkinson's Drugs for ME/CFS?](/blog/dopamine-rational-mechanism)*
+*Post 4 of 4 in the DecodeME GWAS series. Prev: [The Genetics Settled It](../genetics-ends-debate/) · [The Striatum Is the Bottleneck](../striatum-bottleneck/) · [Parkinson's Drugs for ME/CFS?](../dopamine-rational-mechanism/)*

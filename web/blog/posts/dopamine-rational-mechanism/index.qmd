@@ -2,7 +2,7 @@
 title: "Parkinson's Drugs for ME/CFS? The Genetics Say Yes"
 description: "Dopamine-modulating drugs aren't symptom management anymore — the GWAS shows they're targeting the genetically implicated circuit. From Ritalin to rotigotine, here's what the rationale looks like now."
 author: "Yannick Loth"
-date: "2026-07-21"
+date: "2026-07-20"
 categories: [Treatment, Neurology, Pharmacology]
 ---
 
@@ -94,4 +94,4 @@ That shift — from guessing to aiming — is the real progress.
 | VMAT2 imaging is a candidate diagnostic biomarker | Low — requires replication in ME/CFS cohorts, not just long COVID |
 | Existing methylphenidate trials are positive enough to justify larger trials | Moderate — consistent signal, small studies, variable outcomes |
 
-*Post 3 of 4 in the DecodeME GWAS series. Prev: [The Genetics Settled It](/blog/genetics-ends-debate) · [The Striatum Is the Bottleneck](/blog/striatum-bottleneck) · Next: [The Striatum Isn't Ours](/blog/msn-specificity-caveat)*
+*Post 3 of 4 in the DecodeME GWAS series. Prev: [The Genetics Settled It](../genetics-ends-debate/) · [The Striatum Is the Bottleneck](../striatum-bottleneck/) · Next: [The Striatum Isn't Ours](../msn-specificity-caveat/)*
