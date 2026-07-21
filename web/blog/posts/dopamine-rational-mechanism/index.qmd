@@ -1,8 +1,8 @@
 ---
-title: "Parkinson's Drugs for ME/CFS? The Genetics Say Yes"
+title: "Part 3: Parkinson's Drugs for ME/CFS? The Genetics Say Yes"
 description: "Dopamine-modulating drugs aren't symptom management anymore — the GWAS shows they're targeting the genetically implicated circuit. From Ritalin to rotigotine, here's what the rationale looks like now."
 author: "Yannick Loth"
-date: "2026-07-20"
+date: "2026-07-21"
 categories: [Treatment, Neurology, Pharmacology]
 ---
 

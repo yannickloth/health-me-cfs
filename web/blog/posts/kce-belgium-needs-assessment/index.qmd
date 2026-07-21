@@ -107,6 +107,7 @@ The French-Dutch disparity functions as a natural quasi-experiment: two populati
 The KCE supplement's qualitative analysis of 237 free-text responses identified recognition as the single most important unmet need — across healthcare, policy, and society simultaneously [@Cornelis2026KCE420S].
 
 Patients described three distinct layers of non-recognition:
+
 1. **Clinical non-recognition:** doctors who don't know what ME/CFS is, don't know the diagnostic criteria, or refuse to use them.
 2. **Institutional non-recognition:** disability assessors who don't accept ME/CFS as a valid cause of work impairment, resulting in denied benefits and years of appeal.
 3. **Social non-recognition:** family, friends, employers, and the public who interpret invisible illness as laziness, malingering, or psychological instability.
@@ -120,6 +121,7 @@ The KCE provides the most recent and methodologically rigorous patient-voice con
 ## What the KCE report doesn't do — and what it can't tell us
 
 The KCE authors are careful about boundaries. Their report:
+
 - **Is not a clinical guideline.** It suggests policy directions but does not make treatment recommendations.
 - **Does not evaluate specific treatments against each other.** The patient-reported treatment data is descriptive — "this is what patients told us about their experience" — not comparative efficacy.
 - **Does not resolve the GET/CBT controversy.** The 26% GET responder signal is noted but unexplained. The 20% CBT deterioration rate is noted but unanalysed.

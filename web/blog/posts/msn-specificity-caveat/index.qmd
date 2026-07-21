@@ -1,8 +1,8 @@
 ---
-title: "The Striatum Isn't Ours: What Shared MSN Enrichment Means for ME/CFS"
+title: "Part 4: The Striatum Isn't Ours — What Shared MSN Enrichment Means for ME/CFS"
 description: "The DecodeME GWAS points to medium spiny neurons. So do the GWAS for schizophrenia, depression, and alcohol use disorder. Same cell type, different diseases. Here's why that doesn't weaken the finding — it sharpens the next question."
 author: "Yannick Loth"
-date: "2026-07-22"
+date: "2026-07-21"
 categories: [Genetics, Neurology, Cross-Disease]
 ---
 

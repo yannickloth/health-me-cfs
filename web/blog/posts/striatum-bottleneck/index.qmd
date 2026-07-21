@@ -1,8 +1,8 @@
 ---
-title: "The Striatum Is the Bottleneck"
+title: "Part 2: The Striatum Is the Bottleneck"
 description: "If viruses, trauma, and immune activation all trigger the same disease, where do they converge? The DecodeME GWAS points to a single circuit. Target the bottleneck, not the trigger."
 author: "Yannick Loth"
-date: "2026-07-19"
+date: "2026-07-21"
 categories: [Genetics, Neurology, Systems Biology]
 ---
 
@@ -52,7 +52,7 @@ These pathways co-occur. A post-viral patient with immune activation, mitochondr
 
 ## What this means for treatment
 
-If the striatum is the bottleneck, treatment strategy shifts. Rather than asking "what triggered this patient?", ask "what is currently disrupting striatal circuit function?" This reframes treatment in a neurologically rational way:
+If the striatum is the bottleneck, treatment strategy shifts. Rather than asking "what triggered this patient?", ask "what is currently disrupting striatal circuit function?" This reframes treatment in a neurologically rational way.
 
 - **Dopamine signalling** — dopamine agonists, bupropion, amantadine warrant systematic investigation as striatal circuit modulators, not psychiatric interventions.
 - **Neuroinflammation** — low-dose naltrexone, minocycline, or targeted anti-inflammatory approaches that reduce microglial activation in the striatum.

@@ -1,8 +1,8 @@
 ---
-title: "The Genetics Settled It: ME/CFS Is Neurological"
+title: "Part 1: The Genetics Settled It — ME/CFS Is Neurological"
 description: "For decades, the debate ran: is ME/CFS autoimmune or neurological? The largest GWAS to date answered it. The risk variants operate in neurons, not immune cells. Here's what that changes."
 author: "Yannick Loth"
-date: "2026-07-18"
+date: "2026-07-21"
 categories: [Genetics, Neurology, Pathophysiology]
 ---
 
