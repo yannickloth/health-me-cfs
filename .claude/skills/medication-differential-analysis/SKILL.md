@@ -84,6 +84,7 @@ Each invocation receives:
 - [ ] At least one "if fails → mechanism less likely" inference with caveats
 - [ ] Non-response caveat present ("does not rule out because...")
 - [ ] At least one response-pattern combination with another medication
+- [ ] **Side-effect diagnostic analysis (MANDATORY):** at least one "if side effect X appears → mechanism/system Y is intact/hypersensitive/deficient" inference, AND at least one "if expected side effect Z is ABSENT → mechanism/system W is non-functional/desensitized" inference. Map: (a) exaggerated expected effects → target system at critical margin, (b) paradoxical reactions → regulatory inversion, (c) unexpected off-target effects → latent vulnerability, (d) tolerability ceiling → identifies which system has least reserve, (e) absence of expected effect → system too damaged to respond. Reference ch30 @sec:side-effects-diagnostic for the five-pattern framework.
 - [ ] Root cause candidates listed
 - [ ] Overall inference certainty stated with justification
 - [ ] All Part II mechanism claims have `@sec:` cross-reference
@@ -119,6 +120,7 @@ Content:
 - **Worked example 1**: A patient profile with 4-5 medication responses, showing how the pattern narrows root causes from ~10 candidates to 2-3
 - **Worked example 2**: A different patient profile, showing how a different pattern points to different candidates
 - **Diagnostic inference chains**: for each major ME/CFS root cause hypothesis, the expected medication response pattern (which medications should work, which should not)
+- **Side-effect pattern integration (MANDATORY):** for each diagnostic inference chain, include expected side-effect profiles — which reactions confirm the mechanism, which paradoxical or absent reactions challenge it. The therapeutic response tells you what's broken; the side-effect profile tells you what's intact. Reference ch30 @sec:side-effects-diagnostic for the five adverse-reaction diagnostic patterns: (1) exaggerated expected effect → system at critical margin, (2) paradoxical reaction → regulatory inversion, (3) unexpected off-target effect → latent vulnerability, (4) tolerability ceiling → identifies least-reserve system, (5) absence of expected effect → system too damaged to respond.
 - **How to use this in practice**: guidance for patients and doctors on systematic medication trialing as diagnostic process — try medications one at a time, track responses, feed into the pattern framework
 
 ### From Patterns to Root Causes (for "all" / "retroactive")
