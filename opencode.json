@@ -592,6 +592,12 @@
     "diagram-consistency-auditor": {
       "model": "kimi-for-coding/k2p7"
     },
+    "svg-illustrator": {
+      "model": "kimi-for-coding/k2p7"
+    },
+    "svg-validator": {
+      "model": "kimi-for-coding/k2p7"
+    },
     "commit-writer": {
       "model": "deepseek/deepseek-v4-pro",
       "options": {

@@ -6,8 +6,14 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, flake-utils }:
-    flake-utils.lib.eachDefaultSystem (system:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      flake-utils,
+    }:
+    flake-utils.lib.eachDefaultSystem (
+      system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
 
@@ -15,23 +21,39 @@
         typst-package-cache = pkgs.stdenvNoCC.mkDerivation {
           name = "typst-package-cache";
           buildInputs = [ pkgs.coreutils ];
-          phases = [ "buildPhase" "installPhase" ];
+          phases = [
+            "buildPhase"
+            "installPhase"
+          ];
           buildPhase = ''
             mkdir -p out/preview
-          '' + pkgs.lib.concatMapStrings
-            (entry:
-              let pkg = builtins.elemAt entry 0;
+          ''
+          +
+            pkgs.lib.concatMapStrings
+              (
+                entry:
+                let
+                  pkg = builtins.elemAt entry 0;
                   name = builtins.elemAt entry 1;
-                  ver  = builtins.elemAt entry 2;
-              in ''
-                mkdir -p "out/preview/${name}/${ver}"
-                cp -r --no-preserve=mode "${pkg}/lib/typst-packages/${name}/${ver}/." "out/preview/${name}/${ver}/"
-              ''
-            )
-            [
-              [ pkgs.typst.packages.cetz_0_3_4   "cetz"   "0.3.4" ]
-              [ pkgs.typst.packages.oxifmt_0_2_1 "oxifmt" "0.2.1" ]
-            ];
+                  ver = builtins.elemAt entry 2;
+                in
+                ''
+                  mkdir -p "out/preview/${name}/${ver}"
+                  cp -r --no-preserve=mode "${pkg}/lib/typst-packages/${name}/${ver}/." "out/preview/${name}/${ver}/"
+                ''
+              )
+              [
+                [
+                  pkgs.typst.packages.cetz_0_3_4
+                  "cetz"
+                  "0.3.4"
+                ]
+                [
+                  pkgs.typst.packages.oxifmt_0_2_1
+                  "oxifmt"
+                  "0.2.1"
+                ]
+              ];
           installPhase = ''
             mv out $out
           '';
@@ -40,16 +62,27 @@
         # Clean source filter: exclude .git and result
         cleanSrc = pkgs.lib.cleanSourceWith {
           src = self;
-          filter = path: type:
-            let baseName = baseNameOf (toString path);
-            in !(baseName == ".git" || baseName == "result");
+          filter =
+            path: type:
+            let
+              baseName = baseNameOf (toString path);
+            in
+            !(baseName == ".git" || baseName == "result");
         };
 
         buildTypstPdf = pkgs.stdenvNoCC.mkDerivation {
           name = "mecfs-pdf";
           src = cleanSrc;
-          buildInputs = [ pkgs.coreutils pkgs.typst pkgs.jdk25 ];
-          phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+          buildInputs = [
+            pkgs.coreutils
+            pkgs.typst
+            pkgs.jdk25
+          ];
+          phases = [
+            "unpackPhase"
+            "buildPhase"
+            "installPhase"
+          ];
           buildPhase = ''
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
@@ -76,7 +109,11 @@
             pkgs.quarto
             pkgs.jdk25
           ];
-          phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+          phases = [
+            "unpackPhase"
+            "buildPhase"
+            "installPhase"
+          ];
           buildPhase = ''
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
@@ -109,7 +146,11 @@
             pkgs.quarto
             pkgs.jdk25
           ];
-          phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+          phases = [
+            "unpackPhase"
+            "buildPhase"
+            "installPhase"
+          ];
           buildPhase = ''
             export HOME="$NIX_BUILD_TOP/home"
             mkdir -p "$HOME"
@@ -142,7 +183,8 @@
           '';
         };
 
-      in {
+      in
+      {
         packages = {
           default = buildTypstPdf;
           web = buildWeb;
@@ -154,7 +196,11 @@
             name = "mecfs-section-audit";
             src = cleanSrc;
             buildInputs = [ pkgs.jdk25 ];
-            phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+            phases = [
+              "unpackPhase"
+              "buildPhase"
+              "installPhase"
+            ];
             buildPhase = ''
               java --source 25 src/test/java/web/SectionAuditTest.java
             '';
@@ -166,8 +212,15 @@
           qmd-label-audit = pkgs.stdenvNoCC.mkDerivation {
             name = "mecfs-qmd-label-audit";
             src = cleanSrc;
-            buildInputs = [ pkgs.jdk25 pkgs.typst ];
-            phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+            buildInputs = [
+              pkgs.jdk25
+              pkgs.typst
+            ];
+            phases = [
+              "unpackPhase"
+              "buildPhase"
+              "installPhase"
+            ];
             buildPhase = ''
               export HOME="$NIX_BUILD_TOP/home"
               mkdir -p "$HOME"
@@ -186,7 +239,11 @@
             name = "mecfs-typst-source-audit";
             src = cleanSrc;
             buildInputs = [ pkgs.jdk25 ];
-            phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+            phases = [
+              "unpackPhase"
+              "buildPhase"
+              "installPhase"
+            ];
             buildPhase = ''
               java --source 25 src/test/java/web/TypstSourceAuditTest.java
             '';
@@ -199,7 +256,11 @@
             name = "mecfs-blog-audit";
             src = cleanSrc;
             buildInputs = [ pkgs.jdk25 ];
-            phases = [ "unpackPhase" "buildPhase" "installPhase" ];
+            phases = [
+              "unpackPhase"
+              "buildPhase"
+              "installPhase"
+            ];
             buildPhase = ''
               java --source 25 src/test/java/web/BlogAuditTest.java
             '';
@@ -211,7 +272,15 @@
         };
 
         devShells.default = pkgs.mkShell {
-          buildInputs = [ pkgs.coreutils pkgs.typst pkgs.quarto pkgs.jdk25 pkgs.texliveFull ];
+          buildInputs = [
+            pkgs.coreutils
+            pkgs.typst
+            pkgs.quarto
+            pkgs.jdk25
+            pkgs.texliveFull
+            pkgs.nil
+            pkgs.nixfmt
+          ];
           shellHook = ''
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
             export TYPST_FONT_PATHS="src/main/typst/mecfs/fonts"
@@ -220,12 +289,14 @@
 
         apps.clean = {
           type = "app";
-          program = toString (pkgs.writeShellScript "clean" ''
-            echo "Cleaning build artifacts..."
-            rm -rf .cache .build result
-            find src/main/typst -name '*.pdf' -delete 2>/dev/null || true
-            echo "Done."
-          '');
+          program = toString (
+            pkgs.writeShellScript "clean" ''
+              echo "Cleaning build artifacts..."
+              rm -rf .cache .build result
+              find src/main/typst -name '*.pdf' -delete 2>/dev/null || true
+              echo "Done."
+            ''
+          );
         };
       }
     );

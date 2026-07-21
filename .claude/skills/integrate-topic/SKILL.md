@@ -1,12 +1,12 @@
 ---
 name: integrate-topic
-description: Full pipeline for evaluating and integrating a new subject into the primary ME/CFS paper — research, evidence synthesis, integration decision, development, creative brainstorming, tiered integration, review-to-convergence, quality assessment, changelog, and commit. Supports explicit rejection when evidence doesn't warrant integration.
+description: Full pipeline for evaluating and integrating a new subject into the primary ME/CFS paper — research, evidence synthesis, integration decision, development, creative brainstorming, tiered integration, differential analysis (medication→mechanism OR mechanism→drug), falsifiability sweep, retroactive adaptation, cross-hypothesis compatibility, review-to-convergence, quality assessment, changelog, and commit. Supports explicit rejection when evidence doesn't warrant integration.
 argument-hint: <topic description>
 ---
 
 # Evaluate and Integrate New Topic into the ME/CFS Paper
 
-End-to-end: research → synthesize → **integration decision** → develop → brainstorm → triage → integrate (tiered) → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → review convergence → changelog → commit.
+End-to-end: research → synthesize → **integration decision** → develop → brainstorm → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → review convergence → changelog → commit.
 
 **Null hypothesis:** The default outcome is *non-integration*. The burden of proof is on demonstrating that the topic has sufficient evidence and relevance to warrant inclusion. Integration must be earned by passing evidence gates — not assumed.
 
@@ -132,6 +132,7 @@ Before starting any other phase:
    - Phase 4 → brainstorm file path, idea count
    - Phase 4a → subtree file path, N nodes written, root index updated
    - Phase 5 → ideas integrated (by tier); queued topics from Gates A/B with one-line rationale
+   - Phase 5d → N cascade branches traced, M drug→node pairs, K decision-forcing probes; trace at `ops/integration-guides/pathway-drug-trace-<slug>.md`
    - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
     - Phase 6 → M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred); bump log updated with K bumps
     - Phase 7 → R reinforcement pairs, F feed-in pairs, C conflict pairs, I independents; J certainty bumps, K reductions, L tensions flagged; bump log updated with J+K adjustments
@@ -602,9 +603,96 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 **Report:** "Phase 5c complete: differential entry generated for <medication-name> (inference certainty: High/Medium/Low)."
 
+### Phase 5d — Pathway-to-Drug Forward Tracing for Mechanistic Hypotheses
+
+**Agent:** main session | **Model:** opus (required — lower-tier models are insufficient for mechanistic biochemistry × pharmacology × differential diagnosis reasoning)
+
+**Trigger:** The integrated topic introduces a **mechanistic hypothesis** (not a drug) that describes a causal cascade from an upstream trigger to downstream clinical symptoms. Phase 5d traces that cascade forward through every biochemical and physiological step, and at each node identifies which existing medications — documented elsewhere in ch24, ch25, or ch27 — would be expected to intercept at that node.
+
+**Skip if:** The topic is a drug/intervention (handled by Phase 5c) OR the hypothesis has no specifiable cascade (pure correlational claim, no mechanistic model) OR the hypothesis certainty is below 0.10 after Phase 5 reassessment.
+
+**Three-tier output based on certainty:**
+
+| Certainty band | Cascade trace (ops/) | Chapter content (src/) |
+|----------------|---------------------|----------------------|
+| ≥ 0.30 | Write full trace to `ops/integration-guides/pathway-drug-trace-<slug>.md` | Write differential predictions into chapter (per placement matrix below) |
+| 0.10–0.29 | Write full trace to `ops/integration-guides/pathway-drug-trace-<slug>.md` | Do NOT write to chapter — ops-only. Tag trace: "speculative — below chapter integration threshold (cert < 0.30)." |
+| < 0.10 | Skip entirely | Skip entirely |
+
+**Non-deletion guard:** Phase 5d never deletes or modifies content created by prior cycles. The skip condition controls whether NEW content is written. Existing chapter sections, ops traces, and hypothesis tree entries from prior integration cycles are preserved regardless of the current cycle's certainty reassessment.
+
+**Execution order:** 5d runs BEFORE 5c when both fire for the same topic (see joint-trigger rule below).
+
+**Purpose:** Phase 5c answers "given drug X, what does response tell us about mechanisms?" Phase 5d answers the inverse: "given hypothesis Y, what drug responses would help narrow which cascade step is rate-limiting?" Both produce differential content for ch24, but from opposite directions — drug→mechanism (5c) vs mechanism→drug (5d).
+
+**Joint trigger rule:** If the integrated topic includes BOTH a medication AND a mechanistic hypothesis (rare but possible — e.g., a topic that integrates pyridostigmine treatment alongside cholinergic dysfunction mechanisms): run 5d first → then 5c → then cross-reference: do 5c's differential predictions for the medication conflict with 5d's cascade-level predictions for the same medication? Add a consistency note to both outputs.
+
+**Procedure:**
+
+1. **Trace the cascade.** Expand the hypothesis's causal chain into step-by-step biochemical/physiological states. Minimum 4 steps per branch. Include ALL parallel branches as separate traces. Each step must be a falsifiable state, not a description. Example: `pelvic obliquity → asymmetric muscle loading → sustained stretch → TRPV4/Piezo1 Ca²⁺ influx → chronic mitochondrial Ca²⁺ overload → ATP depletion → [parallel branches: anaerobic metabolism → proton accumulation → ASIC3/TRPV1 activation → nociception; sympathetic chain compression → aberrant sympathetic firing → vasoconstriction → tissue hypoxia] → convergence → central sensitization → PEM/pain/fatigue`.
+
+2. **Inventory existing medications.** Grep ch24, ch25, ch27 for all medication sections and their `@sec:` labels. Verify every label exists: `grep '<sec:<label>>' src/main/typst/mecfs/part3-treatment/*.typ`. Never guess labels.
+
+3. **Identify drug interception points.** At each cascade step, map which existing medications target that node. Be precise about molecular targets. Cross-check: pyridostigmine (AChE inhibitor → cholinergic synapse) does NOT intercept a mitochondrial Ca²⁺ overload step. Apply pruning rule: **only trace branches where the intercepting drug has certainty ≥ 0.40 for the targeted mechanism in ME/CFS specifically.** Drugs with lower certainty targeting a mechanism may be listed in the ops/ trace but omitted from chapter content.
+
+4. **Generate differential predictions.** For each drug→node pair:
+   - **If drug X works:** bottleneck is at or above node N. Certainty of this inference (justified by drug specificity to that node vs off-target effects — list ALL known targets and assess whether the inference survives under off-target explanations).
+   - **If drug X fails:** bottleneck is below node N, OR in a parallel branch, OR drug target intact but blocked downstream. List what a null response rules out vs what it leaves open.
+   - **Pruning rule:** Stop tracing a branch when the cumulative inference certainty (cascade cert × drug cert × specificity factor) falls below 0.05. A 0.10 hypothesis × 0.40 drug × 0.30 specificity = 0.012 → do NOT write to chapter; note in ops/ trace only. **Threshold rationale:** 0.05 ≈ the product of three "barely acceptable" certainties (0.37 × 0.37 × 0.37). Below this level, the inference chain is too speculative for chapter content — each additional uncertain link multiplies the uncertainty, and three uncertain links compound to near-zero. Validate against existing ch30 content on first use: if existing differential predictions in ch30 would fail this threshold, flag the discrepancy rather than deleting them.
+
+5. **Identify discriminating probes.** Among drugs at different cascade nodes, identify which drug's response most narrows the hypothesis space between two competing bottleneck locations. This is a "discriminating probe" — NOT a "decision-forcing" or "tiebreaker" probe (pleiotropic drugs cannot decide cleanly between hypotheses). **Quality gate:** either (a) at least one discriminating probe identified, OR (b) explicit statement: "No clean discriminator exists — all intercepting drugs at this cascade have ≥3 targets; no single drug response can distinguish between nodes with acceptable specificity." The gate must accept (b) as valid — do NOT force a discriminating probe where none exists.
+
+6. **Write output.** Two artifacts:
+
+   **a) Cascade trace:** `ops/integration-guides/pathway-drug-trace-<topic-slug>.md` — full cascade with per-node drug mappings, differential predictions, cumulative certainty scores, and pruning notes. This is the research record.
+
+   **b) Chapter content** (only if cert ≥ 0.30). Placement by hypothesis × medication matrix:
+
+   | Hypothesis location | Medication has ch24 section? | Placement |
+   |---------------------|------------------------------|-----------|
+   | ch14 (speculative) | Yes | Add `==== What This Medication Reveals About <hypothesis-label>` in ch24 medication section + `#speculation` cross-ref in hypothesis chapter |
+   | ch14 (speculative) | No | Add `#open-question` at end of hypothesis section in ch14 |
+   | ch07/ch08/ch10 (core) | Yes | Add `==== Implications for <hypothesis-label>` in ch24 + `#speculation` cross-ref in hypothesis chapter |
+   | ch14 | No medication involved | Add `#speculation` or `#open-question` at end of hypothesis section in ch14 (only if cert ≥ 0.30 per threshold above; otherwise ops-only) |
+   | Medication has NO ch24/ch25/ch27 section | N/A | Do NOT write chapter content — ops trace only |
+
+7. **Update plan and hypothesis tree.** Record: cascade branches traced, drug→node pairs identified, discriminating probes found (or explicit "none" statement), chapter placement.
+
+**Mandatory chapter guard** (included in every chapter content block produced by Phase 5d — define once as a shared Typst include file, never repeat inline):
+
+1. Create the shared include if it does not already exist (check first to avoid overwriting an existing file from a prior Phase 5d cycle):
+   ```bash
+   mkdir -p src/main/typst/lib
+   test -f src/main/typst/lib/clinical-caution.typ || cat > src/main/typst/lib/clinical-caution.typ << 'TYPSTEOF'
+   #let clinical-caution() = {
+     [*CLINICAL CAUTION --- RESEARCH HYPOTHESIS, NOT DIAGNOSTIC ALGORITHM.* The differential predictions below are mechanistic hypotheses for research investigation. They are not validated diagnostic algorithms. Do not use them to rule in or rule out specific mechanisms in individual patients. Drug-response inferences are confounded by placebo effects (30--40% in ME/CFS trials), disease fluctuation, pharmacokinetic variability, and concurrent treatments. A single medication response --- whether positive or negative --- cannot diagnose a mechanism. These cascades describe what should be tested in controlled settings, not what should be concluded in clinical practice. Patients: do not self-experiment with drug combinations based on cascade reasoning --- all medications discussed carry risks including metabolic, cardiovascular, and pharmacogenomic interactions that require physician oversight.
+
+      *Methodological caveat.* This cascade model is a linear simplification. Real biological systems contain feedback loops, parallel compensation mechanisms, and time-varying bottlenecks. Drug response at node N may reflect network-level effects rather than single-step intervention. The cascade describes what WOULD happen if the system were linear --- it is a reasoning scaffold, not a physiological simulation.]
+   }
+   TYPSTEOF
+   ```
+   The `test -f ... ||` guard prevents duplicate creation — a second concurrent Phase 5d cycle will find the file already exists and skip creation (identical content, no conflict).
+
+2. In each chapter file receiving Phase 5d content, add at the file top (among existing imports): `#import "/src/main/typst/lib/clinical-caution.typ": clinical-caution`. Use the **absolute path from the Typst root** (`/src/main/typst/lib/...`) — not a relative path. Chapter files under `part*`/ directories would resolve `"lib/..." ` to a non-existent subdirectory. Call `#clinical-caution()` as the first element in the new content block. This guarantees consistent rendering, eliminates context pressure from repetition, and makes omission a compilation error rather than a text-generation failure.
+
+**Quality gates:**
+- [ ] Cascade trace has ≥4 biochemical steps per branch
+- [ ] At least one drug identified per branch node (or explicit statement: "no drug known to target this node")
+- [ ] At least one "if works vs if fails" pair with explicit certainty AND off-target analysis
+- [ ] Discriminating probe identified, OR explicit "no clean discriminator exists" statement
+- [ ] All drug `@sec:` labels verified by grep — never guessed
+- [ ] All mechanism claims have `@sec:` cross-references to Part II chapters
+- [ ] `#import "/src/main/typst/lib/clinical-caution.typ": clinical-caution` at file top + `#clinical-caution()` call present on all chapter content
+- [ ] Pruning rules applied (drug cert ≥ 0.40, cumulative inference ≥ 0.05)
+- [ ] Build passes
+
+**Model note:** Phase 5d requires reasoning across mechanistic biochemistry, pharmacology, and differential diagnosis. Use opus. If opus is unavailable → **skip Phase 5d entirely** (no ops trace, no chapter content). Continue with remaining phases. Report: "Phase 5d skipped — opus unavailable. Hypothesis cascade-to-drug trace deferred."
+
+**Report:** "Phase 5d complete: N cascade branches traced, M drug→node pairs, K integrated into chapter (L below 0.30 threshold — ops-only). Discriminating probes: J found, P 'no clean discriminator' statements. Cascade trace at `ops/integration-guides/pathway-drug-trace-<topic-slug>.md`."
+
 ## Phase 5b — Intermediate Build Check
 
-**Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit) and after Phase 5c (differential analysis, `c` = clinical). The lettering reflects content type, not execution order. Execution sequence: 5 → 5c → 5b → 5a.
+**Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit) and after Phase 5c (differential analysis, `c` = clinical) and Phase 5d (pathway-to-drug tracing, `d` = drug). The lettering reflects content type, not execution order. Execution sequence: 5 → 5d → 5c → 5b → 5a. Phase 5d runs before 5c so that cascade-to-drug mappings are complete when 5c writes per-medication differential entries; if a topic triggers both, 5d's cascade nodes are available for 5c to cross-reference.
 
 **Agent:** main session | **Model:** current
 

@@ -93,6 +93,8 @@ System prompt / instructions for the agent...
 | `protocol-linker` | Linking protocols to underlying mechanisms |
 | `file-splitter` | Analyzing and splitting large files for context optimization |
 | `tikz-illustrator` | Creating TikZ diagrams with spatial positioning |
+| `svg-illustrator` | Creating publication-quality SVG scientific diagrams (genome maps, pathway schematics, cell diagrams) |
+| `svg-validator` | Validating SVG diagrams: layout overlaps, journal compliance, colorblind accessibility, typography |
 | `formalization-advisor` | Deciding whether to formalize, choosing EPC/BPMN |
 | `causal-model-builder` | Building causal models with proper notation |
 | `epc-model-builder` | Creating EPC process diagrams |
@@ -125,6 +127,14 @@ System prompt / instructions for the agent...
 | `patient-safety-auditor` | PEM harm, severity representation, psychological framing, supplement safety |
 
 **Orchestrator skill:** `/review-biomedical <scope>` runs all 20 review categories sequentially.
+
+### Illustration Pipelines
+
+| Skill | Use when... |
+| --- | --- |
+| `svg-illustration-pipeline` | Generating publication-quality SVG scientific figures with iterative vision-based review |
+| `tikz-illustration-pipeline` | Generating TikZ diagrams with compilation + spacing validation |
+| `review-illustrations` | Auditing existing figure files for layout, accuracy, rhetoric, and consistency |
 
 ### Opus (deep analysis)
 

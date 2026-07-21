@@ -25,5 +25,12 @@
         "statusBar.debuggingBackground": "#61dafb",
         "statusBar.debuggingForeground": "#15202b"
     },
-    "peacock.color": "#61dafb"
+    "peacock.color": "#61dafb",
+    "[nix]": {
+        "editor.defaultFormatter": "jnoortheen.nix-ide",
+        "editor.formatOnSave": false
+    },
+    "nix.formatterPath": "nixfmt",
+    "nix.enableLanguageServer": true,
+    "nix.serverPath": "nil"
 }
