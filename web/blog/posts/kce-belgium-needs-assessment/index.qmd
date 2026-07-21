@@ -1,0 +1,191 @@
+---
+title: "749 Belgians With ME/CFS Told Their Government What's Broken — The Data Is Brutal"
+description: "Belgium's first comprehensive ME/CFS needs assessment. 749 patients surveyed, 19 interviews. Quality of life comparable to the most disabling conditions known, diagnostic delays past 5 years, GET harming most patients, and 8.6 years lost to workplace disability. What the report found, what it means for patients and doctors everywhere."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Policy, Quality of Life, Diagnosis, Treatment, Comorbidities, Epidemiology]
+---
+
+A team of health services researchers at the Belgian Health Care Knowledge Centre (KCE) just published the most granular needs assessment of ME/CFS patients ever conducted in Europe. They surveyed 749 adults with a diagnosed ME/CFS condition, interviewed 19 patients in depth, and cross-checked everything against government databases [@Cornelis2026KCE420].
+
+The report dropped on June 30, 2026. It is not a clinical guideline — the authors are explicit about that. It is a needs assessment: what do ME/CFS patients actually need, and how badly is the healthcare system failing to provide it? Four patient associations collaborated on the project. Three international experts validated it. The Belgian government funded it.
+
+The answer, in short: the system is failing at every level, and the data quantifying that failure should change how doctors, policymakers, and researchers think about this disease.
+
+---
+
+## The quality of life numbers are worse than you think
+
+A landmark 2015 Danish study found that ME/CFS has the lowest health-related quality of life (HRQoL) of any chronic condition studied — worse than multiple sclerosis, worse than stroke, worse than cancer. Using a standard questionnaire called the EQ-5D, ME/CFS patients scored 0.47, against 0.85 for the general population [@Hvidberg2015qol].
+
+The KCE updated this picture with a more sensitive instrument — the EQ-5D-5L, which has five levels per dimension instead of three — and found the situation is even grimmer than Hvidberg reported.
+
+To understand this scale: the EQ-5D-5L utility scale ranges from 0 (a state as bad as being dead) to 1 (perfect health). Values below 0 are possible — states considered "worse than death."
+
+Belgian ME/CFS patients scored a mean utility of **0.36** on current health, down from an estimated **0.84** before illness onset — a statistically robust finding. The Belgian general population mean is 0.79. That is a 57% decline — a collapse, not a drop [@Cornelis2026KCE420].
+
+The average ME/CFS patient is not below zero on the scale, but the severe and very severe patients — those who are bedbound and could not complete an online survey — were largely excluded. The true average utility score for the full ME/CFS population could be substantially worse than 0.36, perhaps even below zero, because the sickest patients could not be surveyed.
+
+The factors that drove the worst QoL declines: being aged 30 to 50 (the prime working and childbearing years), waiting more than 2 years for a diagnosis, having long COVID as a comorbidity, facing financial difficulties, and lacking access to specialised care. Except for age, every factor on this list is modifiable through policy.
+
+---
+
+## The diagnostic delay is not an accident — it's a design feature of the system
+
+Half of the 749 patients surveyed waited more than 2 years from their first medical consultation to receive a diagnosis. Thirty-nine percent waited more than 5 years. Only 4% had been diagnosed in the previous 6 months — meaning the sample was dominated by long-duration patients who had already survived the diagnostic gauntlet [@Cornelis2026KCE420].
+
+And diagnostic delay had a measurable price: each additional year of waiting was significantly associated with worse HRQoL (a robust statistical finding, p = 0.010). This is not just a frustration — it is an independent contributor to disease burden.
+
+For doctors reading this: the diagnostic criteria the report evaluates include IOM (2015), NICE (2021), Fukuda (1994), and the Canadian Consensus Criteria (2003). The KCE accepts the IOM criteria as the benchmark but notes that inconsistent application across Belgian clinicians is the bottleneck, not the criteria themselves. The report's suggestion is straightforward: put ME/CFS in medical training and lifelong learning programmes.
+
+---
+
+## Seven out of ten patients have at least one coexisting condition
+
+This might be the most under-discussed finding in the report. The KCE systematically asked about comorbidities and found:
+
+| Condition | Prevalence |
+|-----------|-----------|
+| Fibromyalgia | 63.3% |
+| Irritable bowel syndrome | 56.9% |
+| Orthostatic hypotension | 20.6% |
+| POTS | 17.0% |
+| Long COVID | 16.4% |
+| Small fibre neuropathy | 12.8% |
+| Mast cell activation syndrome | 10.5% |
+
+**73.2% of patients reported at least one ME/CFS-related comorbidity.** [@Cornelis2026KCE420]
+
+This is not a "comorbidity" in the casual sense — most patients have multiple interacting conditions that each require separate diagnostic workups and treatment approaches. A patient who presents with fatigue, widespread pain, postural tachycardia, and gastrointestinal symptoms is not a "complex patient" with a primary psychiatric disorder plus somatisation. She is a patient who needs fibromyalgia assessment, a tilt-table test, a gastroenterology referral, and potentially MCAS evaluation. Some of these conditions may be downstream consequences of the underlying ME/CFS pathophysiology. Others may share upstream causes. For most of them, the causal direction is unresolved.
+
+This data strengthens a clinical observation increasingly supported by the literature: ME/CFS, fibromyalgia, IBS, POTS, MCAS, craniocervical instability, and hypermobile Ehlers-Danlos syndrome form a tightly interwoven cluster of conditions sharing connective tissue, autonomic, and immune substrates. The KCE does not use this framework, but its prevalence numbers independently confirm the core insight: ME/CFS rarely travels alone, and treating it in isolation misses most of the picture.
+
+---
+
+## Graded exercise therapy harms the majority — but 26% improve
+
+The KCE asked patients directly about their treatment experiences. The results on graded exercise therapy (GET) and cognitive behavioural therapy (CBT) are more granular than any patient survey published to date:
+
+- **GET:** A majority of patients reported symptom exacerbation and substantial treatment burden. The report describes GET as "predominantly perceived as harmful." But — and this is the finding that complicates the narrative — **26% of patients reported moderate or substantial improvement with GET** [@Cornelis2026KCE420].
+
+- **Manual physiotherapy** (the hands-on kind, not exercise-based) had "generally positive experiences" — a distinction the report carefully maintains.
+
+- **CBT:** Roughly 50% improved, 20% deteriorated, 30% no change — an even chance of improvement, but a one-in-five risk of getting worse [@Cornelis2026KCE420].
+
+- **Psychological counselling** (non-CBT): 50% improved, 30% no change.
+
+The GET result is the one that demands a response. The paper's position is that GET is contraindicated in ME/CFS patients who have post-exertional malaise (PEM) — the defining symptom of the disease, where physical or mental exertion triggers a disproportionate worsening of symptoms that can last days or weeks. Large patient surveys show 51% harm rates [@Kindlon2011GET]. The KCE independently confirms that picture. But the 26% responder signal is not noise — it is a minority subgroup who apparently tolerate or benefit from a treatment that harms everyone else. The KCE authors note, pointedly, that the characteristics of this subgroup have not been studied.
+
+This is one of 30 research ideas the integration process generated. It was filed as a hypothesis for future work — recorded as a testable prediction: if a prospective trial identifies GET responders by preserved exercise capacity and absence of PEM following mild activity, the subgroup effect should replicate. If it doesn't, the 26% is placebo, regression to the mean, or misattribution.
+
+In the meantime, no doctor should prescribe GET to an unselected ME/CFS patient on the basis of a 26% minority-responder signal. But research that could identify who those 26% are — and protect the other 74% — deserves funding.
+
+---
+
+## Eight and a half years out of work — and that's the people who made it into the database
+
+The KCE cross-referenced its survey with Belgian government administrative data. They found **1,189 individuals** in the invalidity database with ME/CFS as the primary diagnosis as of December 2024 — 82% female, 72% aged 45 or older. The mean duration of invalidity: **8.6 years.**
+
+That figure is among the longest of any condition studied under KCE's NEED framework — a methodology the centre has applied to dozens of chronic diseases. ME/CFS is, by this metric, one of the most disabling conditions in the Belgian healthcare system. And the 1,189 figure is almost certainly an undercount: it captures only people who navigated the disability assessment pipeline and had an ME/CFS code assigned — meaning the 84% of estimated undiagnosed cases and anyone whose paperwork was coded as fibromyalgia, burnout, or "chronic fatigue, unspecified" are invisible.
+
+Castro-Marrero's 2019 Spanish employment data found 58.6% unemployment and 66% on sick leave in ME/CFS [@CastroMarrero2019employment]. The KCE's administrative data adds something different: duration. Eight and a half years is not a temporary disability. It is a career-ending event.
+
+---
+
+## The French-speaking disadvantage — same disease, worse outcomes
+
+One finding specific to Belgium but relevant to any multilingual healthcare system: French-speaking patients had a significantly larger drop in quality of life than Dutch-speaking patients (−0.57 vs −0.47, a robust statistical difference) [@Cornelis2026KCE420].
+
+The most plausible explanation is structural: Belgium's single government-funded ME/CFS reference centre is in Dutch-speaking Flanders. French-speaking patients in Wallonia face higher out-of-pocket costs, longer travel distances, and fewer specialised providers. The supplement's qualitative open-question analysis (n=237 free-text responses) confirmed that French-speaking patients reported higher unmet needs, lower care satisfaction, and greater accessibility problems [@Cornelis2026KCE420S].
+
+The French-Dutch disparity functions as a natural quasi-experiment: two populations with the same disease, same country, different healthcare access. The most plausible explanation for the gap is structural — longer time-to-diagnosis, fewer treatment options, and greater financial strain all independently predict worse HRQoL, and French-speaking patients experienced all three more severely. However, confounding factors (cultural differences in illness perception, socioeconomic variables, and the survey's own sampling imbalance of 88.7% Dutch-speaking vs 11.3% French-speaking) mean the causal question remains open [@Cornelis2026KCE420S].
+
+---
+
+## Recognition: the central unmet need that no clinical trial addresses
+
+The KCE supplement's qualitative analysis of 237 free-text responses identified recognition as the single most important unmet need — across healthcare, policy, and society simultaneously [@Cornelis2026KCE420S].
+
+Patients described three distinct layers of non-recognition:
+1. **Clinical non-recognition:** doctors who don't know what ME/CFS is, don't know the diagnostic criteria, or refuse to use them.
+2. **Institutional non-recognition:** disability assessors who don't accept ME/CFS as a valid cause of work impairment, resulting in denied benefits and years of appeal.
+3. **Social non-recognition:** family, friends, employers, and the public who interpret invisible illness as laziness, malingering, or psychological instability.
+
+The supplement's qualitative analysis links psychologisation — the systematic attribution of ME/CFS symptoms to psychological causes — directly to each of these layers. When a government disability assessor believes the condition is not "real," that is not a failure of individual empathy. It is a structural consequence of a medical system that has taught an entire generation of clinicians that medically unexplained symptoms are psychiatric until proven otherwise.
+
+The KCE provides the most recent and methodologically rigorous patient-voice confirmation that psychologisation is not a theoretical harm — it produces measurable consequences in diagnostic delay, treatment access, financial insecurity, and social isolation.
+
+---
+
+## What the KCE report doesn't do — and what it can't tell us
+
+The KCE authors are careful about boundaries. Their report:
+- **Is not a clinical guideline.** It suggests policy directions but does not make treatment recommendations.
+- **Does not evaluate specific treatments against each other.** The patient-reported treatment data is descriptive — "this is what patients told us about their experience" — not comparative efficacy.
+- **Does not resolve the GET/CBT controversy.** The 26% GET responder signal is noted but unexplained. The 20% CBT deterioration rate is noted but unanalysed.
+- **Cannot generalise to severe/very severe patients.** The bedbound population could not participate in an online survey. Their needs may differ qualitatively, not just quantitatively.
+- **Does not include children or adolescents.**
+- **Does not include a cost-effectiveness analysis.**
+- **Was published in French and Dutch only.** German (Belgium's third official language) and English were not provided.
+
+These limitations are not failures — they are honest constraints of a needs assessment methodology. They also leave a research agenda that other countries can pick up.
+
+---
+
+## What the KCE changed in our ME/CFS paper
+
+The KCE report was integrated into the paper in July 2026, three weeks after publication:
+
+- The **EQ-5D-5L score of 0.36** was added alongside the existing Hvidberg 2015 value of 0.47 — two independent national cohorts, ten years apart, using different instruments, converging on the same picture. The KCE's data is newer, collected with a more sensitive measure, and comes from a government-funded study rather than an academic paper.
+
+- The **comorbidity prevalence table** — fibromyalgia 63.3%, IBS 56.9%, POTS 17.0%, MCAS 10.5%, and the 73.2% multi-comorbidity rate — was added as a standalone data point. No prior single study had comorbidity data this comprehensive in a European ME/CFS cohort.
+
+- **Diagnostic delay** (50% >2 years, 39% >5 years, associated with worse HRQoL) was placed alongside the IOM 2015 delay statistics the paper already cited — Belgian replication of an American finding.
+
+- **Work disability** (1,189 invalidity cases, 8.6-year mean duration) was added alongside Castro-Marrero's Spanish employment data. The KCE contributes something the prior literature lacked: duration from government administrative records, not patient self-report.
+
+All four additions are descriptive reinforcements — they strengthen claims the paper was already making with independently collected, government-validated data.
+
+The integration also generated 30 research ideas (GET responder subgroup analysis, severe under-representation bias quantification, recognition deficit taxonomy, pacing trial design, and others). All are documented and falsifiable, filed for future integration cycles, but not yet added to the paper's chapter text — they belong in the research pipeline, not the pathophysiology narrative.
+
+---
+
+## What patients can do with this report
+
+The KCE report was written for the Belgian government — it is a policy document. But patients anywhere can use it:
+
+1. **Show your doctor the EQ-5D-5L data.** The quality-of-life number (0.36) is more recent (2026), more granular (five-level instrument), and lower than the 2015 Danish data (0.47) that many doctors have seen. This is not a new finding — it is a replication with a sharper instrument.
+
+2. **Show your doctor the comorbidity table.** If you have ME/CFS plus gastrointestinal symptoms, orthostatic symptoms, or symptoms consistent with MCAS, the KCE provides population-level prevalence that supports systematic screening. You are not unusual — you are typical.
+
+3. **Use the diagnostic delay data when you are being dismissed.** If your doctor claims ME/CFS doesn't exist or that you just need to exercise more, the report documents that 50% of patients wait more than 2 years for a diagnosis — and that this waiting *actively worsens outcomes.* A physician who prolongs diagnostic delay is contributing to disease burden.
+
+4. **If you are in Belgium:** the KCE report was commissioned by the Belgian government and carries institutional weight. Citing it to your mutuality (health insurance fund), your employer's occupational health physician, your disability assessor, or your GP carries more force than citing a published journal article would — because the report is addressed to the institutions that control your access to care and benefits.
+
+5. **If you are French-speaking in Belgium:** the supplement's finding that French-speaking patients have worse outcomes is documented in the government's own report. Use it to argue for equitable access to Flemish-located services or for the establishment of a Walloon reference centre.
+
+---
+
+## A research agenda that writes itself
+
+The KCE leaves behind more questions than answers, which is exactly what a well-conducted needs assessment should do. The 26% GET responder subgroup is the most obvious unanswered question, but there are others — from the severe under-representation bias (the sickest patients are excluded from the very studies meant to represent them) to the question of whether a structured national care pathway measurably shortens the 8.6-year invalidity duration.
+
+Some of these questions will be answered when the Netherlands publishes its national guideline, expected later in 2026. Others will need dedicated prospective studies. What the KCE has done is frame the asking: here are the gaps, measured with government-funded rigour, validated by patients and international experts, and backed by administrative data that cannot be dismissed as self-report.
+
+ME/CFS research is underfunded by any measure — the KCE itself documents that the UK's Cross-Sector Delivery Plan and the Netherlands' €28.5 million ZonMw programme are exceptions, not norms. The Belgian report does not add research funding. But it adds something almost as valuable: a fixed point. When the next Belgian health minister asks what ME/CFS patients need, the answer is 285 pages long and it was delivered on 30 June 2026.
+
+---
+
+*Note: This article draws on the full integration of the KCE report into the ME/CFS paper (completed 2026-07-21). The KCE report and supplement are: Cornelis J, De Meulemeester K, Christiaens W, Jonckheer P, Savoye I, Dauvrin M, Kohn L, Castanares-Zapatero D (2026). Management of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome in Belgium: An Analysis Based on Patient Needs. Belgian Health Care Knowledge Centre. KCE Reports 420 and 420S. DOI: 10.57598/R420C and 10.57598/R420S.*
+
+---
+
+## Clinical bottom line
+
+The KCE is a needs assessment, not a clinical guideline. It does not make treatment recommendations. Its patient-reported treatment experience data (GET harm, CBT mixed response, pacing preference) confirm what the literature already shows but do not resolve therapeutic controversies.
+
+Specific clinical takeaways:
+- **Quality of life in ME/CFS is devastating (EQ-5D-5L 0.36)** — comparable to the most disabling conditions in medicine. In the 2015 Hvidberg study that made head-to-head comparisons, ME/CFS ranked below cancer, MS, and stroke. The KCE's newer data confirms the severity. Acknowledge this directly with patients.
+- **Comorbidity screening is non-optional.** Seven out of ten patients have at least one additional condition that requires separate workup and treatment. Fibromyalgia, POTS, MCAS, IBS, and small fibre neuropathy are not "functional overlay" — they are diagnosable conditions with specific treatment pathways.
+- **Diagnostic delay is iatrogenic harm.** Each year of delay independently worsens outcomes (a robust statistical association). If a patient presents with 6 months of post-exertional malaise (PEM — disproportionate symptom worsening after exertion), an initial diagnostic impression of ME/CFS (with appropriate exclusion workup) is safer than a multi-year diagnostic drift toward psychiatry, burnout, or "watchful waiting."
+- **Do not prescribe GET to unselected patients.** The 26% minority-responder signal is unexplained and the subgroup has not been characterised. A 74% harm rate takes priority.
