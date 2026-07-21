@@ -93,4 +93,4 @@ Each row above links to a full protocol (@ch:proposed-studies), a biomarker spec
 
 *Consequence:* This index transforms 50 proposals scattered across 8 chapters into a single sortable decision tool. A funder can read the top 7 rows and identify the highest-leverage experiments achievable at lowest cost with existing data. The bottom rows identify programs that require infrastructure investment first. Every row is falsifiable: the proposed experiment could return a null result that redirects the field.
 
-#include "./ch37-proposed-studies/limitations/limitation-proposed-studies-untested-hypotheses-fr.typ"
+#include "./ch38-proposed-studies/limitations/limitation-proposed-studies-untested-hypotheses-fr.typ"

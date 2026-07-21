@@ -1,6 +1,6 @@
 #import "../../shared/environments.typ": *
 
-// Negative Trials and Null Results — Section for ch31-clinical-trials.tex
+// Negative Trials and Null Results — Section for ch32-clinical-trials.tex
 // Generated from reviewer feedback action plan A3
 
 == Negative Trials and Null Results
