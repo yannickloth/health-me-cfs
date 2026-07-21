@@ -1,0 +1,94 @@
+---
+title: "The Striatum Is the Bottleneck"
+description: "If viruses, trauma, and immune activation all trigger the same disease, where do they converge? The DecodeME GWAS points to a single circuit. Target the bottleneck, not the trigger."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Genetics, Neurology, Systems Biology]
+---
+
+You wake up and your body weighs more than it did yesterday. Not sore — heavy. Every movement requires a negotiation. The coffee is three metres away but the striatal-thalamic-frontal circuit that translates *want coffee* into *walk to kitchen* has a broken signal-to-noise ratio. The command is there. The execution is not. This is not lack of motivation. This is the output of a brain region that sits at the convergence of every known ME/CFS trigger.
+
+The previous post established that the GWAS pins ME/CFS risk to neurons, not immune cells — the genetic architecture says the brain. Epidemiology tells us the rest: diverse pathogens (EBV, SARS-CoV-2, HHV-6), physical trauma, surgery, and severe stress can all trigger the same disease. Clinical convergence requires anatomical convergence — same symptoms, same circuit. The DecodeME GWAS now provides the physical address for where that happens [@Li2025decodeME].
+
+---
+
+## The convergence hypothesis gains an address
+
+The DecodeME consortium analysed over 15,000 participants (including ~5,000 ME/CFS cases) and 8 million genetic variants. The genome-wide significant loci point to neuronal genes — *CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C* — and the most significant cell-type enrichment from post-GWAS analysis points to medium spiny neurons (MSNs) in the striatum.
+
+This signal survives multiple testing corrections across three independent cell-type atlases. Immune cell enrichment is null — the genetic signal does not come from microglia, astrocytes, or peripheral immune cells. It comes from the neurons at the centre of the brain's motor, motivational, and reward circuitry.
+
+The striatum as a fatigue locus is not new. Chaudhuri and Behan proposed over two decades ago that central fatigue results from failure in the basal ganglia's integration of limbic input and motor function — specifically the striatal-thalamic-frontal cortical system — in which disrupted dopaminergic signalling impairs the brain's ability to translate effort into action [@Chaudhuri2000basal]. A clinical hypothesis based on symptom overlap with Parkinson's and multiple sclerosis now has genetic evidence from the largest ME/CFS dataset ever assembled.
+
+---
+
+## Why the striatum?
+
+The striatum is not some obscure brain region. It is the central hub for:
+
+**Motor control.** MSNs are the gatekeepers of the basal ganglia — they receive input from the entire cortex and determine whether a motor command gets through. When MSNs fail, movement becomes effortful not because muscles are weak but because initiating movement is neurologically expensive.
+
+**Effort/reward decision-making.** The ventral striatum integrates dopamine signals encoding the expected value of an action. Every movement, every cognitive task passes through this cost-benefit calculation. In ME/CFS the cost estimate is pathologically elevated — not because of depression but because the circuit computing these values receives corrupted input.
+
+**Dopamine signalling.** MSNs are the principal targets of midbrain dopamine neurons. D1-receptor MSNs form the "go" pathway; D2-receptor MSNs form the "no-go" pathway. The balance determines whether action is initiated or inhibited. Disrupted dopamine signalling tilts this balance toward inhibition.
+
+---
+
+## Four roads to the same circuit
+
+If the striatum is the bottleneck, how do diverse triggers reach it? The evidence supports at least four pathways, none mutually exclusive:
+
+**Neuroinflammation.** Peripheral immune activation primes microglia throughout the brain, but the striatum is especially vulnerable due to its high density of dopamine terminals. Activated microglia release cytokines that suppress MSN firing and disrupt D1/D2 pathway balance, converting a peripheral immune event into a circuit-level motor deficit.
+
+**Metabolic failure.** The striatum has among the highest metabolic demand of any brain region. MSNs are GABAergic neurons that fire tonically at high rates, consuming ATP at a pace that makes them vulnerable to any reduction in energy availability. Mitochondrial impairment hits the striatum first and hardest.
+
+**Autoantibody disruption.** GPCR autoantibodies against adrenergic, muscarinic, and dopaminergic receptors have been documented in a subset of ME/CFS patients [@Loebel2016antibodies]. Even low-level access at circumventricular organs or through a compromised barrier can shift the baseline of striatal dopamine signalling.
+
+**Hypoperfusion.** The striatum sits at the distal end of vascular territories that make it sensitive to perfusion deficits. When cardiac output drops or autoregulation fails, the striatum loses oxygen delivery early — and oxygen is the rate-limiting substrate for the ATP that MSNs burn continuously.
+
+These pathways co-occur. A post-viral patient with immune activation, mitochondrial impairment, and hypoperfusion has three independent insults converging on the same neurons. The bottleneck is hit from multiple angles simultaneously — that is why the disease is severe and persistent.
+
+---
+
+## What this means for treatment
+
+If the striatum is the bottleneck, treatment strategy shifts. Rather than asking "what triggered this patient?", ask "what is currently disrupting striatal circuit function?" This reframes treatment in a neurologically rational way:
+
+- **Dopamine signalling** — dopamine agonists, bupropion, amantadine warrant systematic investigation as striatal circuit modulators, not psychiatric interventions.
+- **Neuroinflammation** — low-dose naltrexone, minocycline, or targeted anti-inflammatory approaches that reduce microglial activation in the striatum.
+- **Perfusion** — volume expansion, autonomic stabilisation, compression — striatal oxygenation directly determines circuit output.
+- **Metabolic support** — interventions that improve mitochondrial function or reduce energy demand, recognising the striatum as the canary in the coal mine for systemic energy deficits.
+
+These treatment targets are not trigger-specific. They apply to post-viral, post-traumatic, and gradual-onset ME/CFS alike. If the bottleneck is shared, the treatment should be too.
+
+---
+
+## The caveat: specificity within a shared substrate
+
+The MSN enrichment finding is not unique to ME/CFS. Schizophrenia, depression, and alcohol use disorder also show striatal enrichment. The striatum is a generic vulnerability node — a brain region susceptible to dysfunction from many upstream causes.
+
+But the dysfunction must differ. ME/CFS is not schizophrenia. The question: what specifically goes wrong with MSN function in ME/CFS? The D1/D2 balance? Firing rate? Dopamine response? Cortical input integration? The answer determines whether we can target the ME/CFS-specific dysfunction rather than broadly modulating striatal circuits.
+
+---
+
+## A falsifiable prediction
+
+The bottleneck model makes a clear prediction: if striatal dysfunction is the common endpoint, interventions that improve striatal dopamine signalling should improve symptoms regardless of trigger type. If a treatment works only in post-infectious cases and not in gradual-onset cases, the convergence hypothesis is weakened. If it works across all trigger types, the bottleneck model is strengthened. This is testable.
+
+Nothing in science is proved by a single prediction. But a model that generates no falsifiable predictions is not a model — it is a story. The bottleneck model is testable. It should be tested before it is believed.
+
+---
+
+## Certainty estimate
+
+| Claim | Certainty |
+|---|---|
+| ME/CFS genetic risk variants are enriched in striatal MSNs | Very high — primary GWAS finding, survives multiple testing corrections [@Li2025decodeME] |
+| The striatum is the convergence point for multiple ME/CFS trigger types | Moderate — anatomically and mechanistically plausible; not directly demonstrated |
+| The four convergence pathways (neuroinflammation, metabolic, autoantibody, perfusion) co-occur in patients | Low-moderate — each pathway individually supported; no study has measured all four simultaneously |
+| Striatal dopamine interventions should work regardless of trigger type | Low — prediction from the model; untested |
+| Fine-grained MSN subtype specificity (D1 vs D2 MSNs) is resolved by current data | Low — requires replication with finer cell-type atlases and independent cohorts |
+
+The bottleneck hypothesis is a framework for organising what we know, not a proven mechanism. It directs attention toward the striatal circuit as the critical locus for investigation. Whether that investment pays off depends on the next round of experiments.
+
+*Post 2 of 4 in the DecodeME GWAS series. Prev: [The Genetics Settled It](/blog/genetics-ends-debate) · Next: [Parkinson's Drugs for ME/CFS?](/blog/dopamine-rational-mechanism) · [The Striatum Isn't Ours](/blog/msn-specificity-caveat)*

@@ -1,0 +1,94 @@
+---
+title: "The Striatum Isn't Ours: What Shared MSN Enrichment Means for ME/CFS"
+description: "The DecodeME GWAS points to medium spiny neurons. So do the GWAS for schizophrenia, depression, and alcohol use disorder. Same cell type, different diseases. Here's why that doesn't weaken the finding — it sharpens the next question."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Genetics, Neurology, Cross-Disease]
+---
+
+You've read the first three posts in this series. The DecodeME GWAS implicates medium spiny neurons. The striatum is the bottleneck. Dopamine drugs are suddenly rational. It is a clean, satisfying story — and like all clean, satisfying stories in biology, it has a problem.
+
+The cell type the genetics points to is not an ME/CFS fingerprint. It is a fingerprint that shows up at multiple crime scenes.
+
+---
+
+## The same neurons, four diseases
+
+Medium spiny neuron enrichment from GWAS is found in:
+
+| Condition | MSN Enrichment | Key References |
+|---|---|---|
+| ME/CFS | Yes | DecodeME consortium, Li et al. 2025 [@Li2025decodeME] |
+| Schizophrenia | Yes | PGC3, Trubetskoy et al. 2022 [@Trubetskoy2022schizophrenia] |
+| Major depression | Yes | PGC MDD, Wray et al. 2018 [@Wray2018depression] |
+| Alcohol use disorder | Yes | PGC AUD, Zhou et al. 2020 [@Zhou2020AUD] |
+
+The striatum is a generic brain vulnerability node. When its circuitry is compromised — by genetic variation, by inflammation, by metabolic stress, by substance exposure — the output includes motivational, motor, and reward-processing deficits regardless of the upstream cause. The shared enrichment is not an accident. It is a constraint imposed by the fact that MSNs sit at the intersection of high metabolic demand, dense dopamine innervation, and multiple vulnerability pathways (inflammation, perfusion, energy failure).
+
+But the diseases are not the same. A schizophrenia patient experiences hallucinations and thought disorder. A depressed patient experiences anhedonia and worthlessness. An ME/CFS patient experiences post-exertional malaise and orthostatic intolerance. Same cell type. Radically different phenotypes. This is not a contradiction — it is a signal about what we are measuring and what we are missing.
+
+---
+
+## Why shared enrichment doesn't mean shared mechanism
+
+GWAS cell-type enrichment tells you *where risk variants are expressed*, not *what those variants do.* An SNP enriched in MSNs could affect any of the hundreds of genes expressed in those neurons. The specific genes, the direction of effect, the developmental timing, and the interaction with other cell types all differ between diseases.
+
+The schizophrenia GWAS SNPs in MSNs affect synaptic pruning genes (C4, complement pathway), consistent with excessive synapse elimination during adolescence. The depression GWAS SNPs affect genes involved in stress hormone signalling and neurotrophic factor regulation, consistent with an HPA-mediated vulnerability. The alcohol use disorder SNPs affect opioid and dopamine receptor genes, consistent with altered reward sensitivity [@Trubetskoy2022schizophrenia; @Wray2018depression].
+
+For ME/CFS, we do not yet know which specific genes within MSNs are affected. The GWAS tells us the cell type. It does not yet tell us whether the mechanism is:
+
+- **D1/D2 pathway imbalance** — a shift in the "go"/"no-go" signal ratio that makes action initiation neurologically expensive
+- **Metabolic insufficiency** — MSNs are GABAergic neurons that fire tonically at high rates; if mitochondrial function is globally impaired, MSNs fail first
+- **Dopamine receptor desensitisation** — chronic low-grade inflammation downregulating dopamine signalling independent of genetic variation
+- **Cortico-striatal synapse dysfunction** — impaired input integration from the frontal cortex to the striatum
+
+These are not equivalent. A D1/D2 imbalance calls for dopamine agonists. Metabolic insufficiency calls for mitochondrial support. Receptor desensitisation calls for anti-inflammatories. Synapse dysfunction calls for something else entirely. Same cell type. Four different mechanisms. Four different treatments. The shared enrichment does not weaken the finding — it sharpens the question: *which mechanism within MSNs is specific to ME/CFS?*
+
+---
+
+## The information in the differences
+
+Shared enrichment is not a bug. It is a feature that provides a control group for the next experiment. If we can identify the molecular signature of MSN dysfunction in ME/CFS and compare it to the signatures in schizophrenia, depression, and alcohol use disorder, the *differences between them* will tell us what is unique to each disease. Two strategies:
+
+**Post-mortem transcriptomics.** Comparing gene expression in striatal MSNs from ME/CFS brains versus depression brains would reveal which pathways are differentially activated. This is how psychiatry distinguished schizophrenia from bipolar disorder at the molecular level — not by finding genes specific to one disease, but by finding gene expression signatures that differed.
+
+**PET ligand profiling.** Different PET ligands probe different aspects of striatal function. D1 receptor density, D2 receptor density, dopamine transporter availability, VMAT2 binding, microglial activation — each provides a different view of the same circuit. Comparing ME/CFS PET profiles to schizophrenia and depression profiles would identify the specific receptor and transporter abnormalities that distinguish the conditions.
+
+Neither of these has been done at scale. Both are now logically necessary given the shared enrichment finding.
+
+---
+
+## What the shared finding cannot do
+
+The shared MSN enrichment does not support several claims that a naïve reading might suggest:
+
+**It does not make ME/CFS a psychiatric disease.** Schizophrenia and depression are also brain diseases with genetic architecture expressed in neurons — and they are also not "just in your head" in the dismissive sense. The shared cell type shows they share a biological substrate, not that they share a cause or a treatment. The brain is an organ. Diseases of that organ are neurological.
+
+**It does not justify prescribing antipsychotics or antidepressants for ME/CFS.** The shared cell type says nothing about whether the drugs developed for one condition work for another. Most antipsychotics block D2 receptors — the opposite of what the dopamine-deficit model of ME/CFS would predict. The cell-type convergence must not be confused with pharmacological convergence.
+
+**It does not weaken the genetics argument for neurological primacy.** The finding that MSN enrichment is shared does not weaken the finding that *immune cell enrichment is absent.* The genetics still say: the disease originates in neurons, not immune cells. Shared with other brain diseases, yes. Immune, no. The distinction between "it's in the brain" and "it's in the immune system" remains the critical one.
+
+---
+
+## The fifth question the field must answer
+
+If this series has argued for three conclusions — (1) genetics settles the neurological locus, (2) the striatum is the bottleneck, (3) dopamine drugs are rational — then the fourth post adds the necessary qualifier: (4) the striatum is a shared vulnerability node, and the *specific* dysfunction within MSNs that produces ME/CFS rather than schizophrenia or depression remains unknown.
+
+This is not a weakness. It is the next research question, and it is a precise one: *what is the molecular signature of MSN dysfunction in ME/CFS that distinguishes it from MSN dysfunction in other conditions?* Answer that, and you have a drug target — not a shared circuit, but a disease-specific lesion within it.
+
+Until that question is answered, every dopamine drug for ME/CFS is targeting the right circuit for a mechanism we cannot yet specify. Rational pharmacology, but at lower resolution than we need.
+
+---
+
+## Certainty estimate
+
+| Claim | Certainty |
+|---|---|
+| MSN enrichment is shared between ME/CFS, schizophrenia, depression, and AUD | Very high — independently replicated GWAS findings across all four conditions |
+| Shared cell-type enrichment does not imply shared mechanism | High — different diseases involve different genes, different pathways, and different molecular pathologies within the same cell type |
+| The specific molecular lesion within MSNs in ME/CFS is unknown | Very high — this is a statement of what has not been done, not what the evidence shows |
+| Transcriptomic or PET profiling could distinguish ME/CFS striatal pathology from other conditions | Moderate — the strategy has worked in psychiatry; has not been applied to ME/CFS |
+| D1/D2 imbalance is the most likely mechanism | Low — one of several candidates; no direct evidence in ME/CFS specifically |
+| Identifying a disease-specific MSN signature would yield a drug target | Moderate — logical inference from GWAS → mechanism → target; depends on the nature of the signature |
+
+*Post 4 of 4 in the DecodeME GWAS series. Prev: [The Genetics Settled It](/blog/genetics-ends-debate) · [The Striatum Is the Bottleneck](/blog/striatum-bottleneck) · [Parkinson's Drugs for ME/CFS?](/blog/dopamine-rational-mechanism)*

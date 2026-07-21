@@ -1,0 +1,97 @@
+---
+title: "Parkinson's Drugs for ME/CFS? The Genetics Say Yes"
+description: "Dopamine-modulating drugs aren't symptom management anymore — the GWAS shows they're targeting the genetically implicated circuit. From Ritalin to rotigotine, here's what the rationale looks like now."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Treatment, Neurology, Pharmacology]
+---
+
+Your doctor hands you a prescription for methylphenidate. *"Some patients find it helps with the fog,"* she says. *"Worth a try."* She is honest enough not to pretend she knows why it works. Neither did anyone, until this year. The trial-and-error era for dopamine drugs in ME/CFS just got a mechanistic foundation.
+
+---
+
+## The striatum is the target
+
+The DecodeME GWAS found that ME/CFS risk variants are enriched in medium spiny neurons (MSNs) of the striatum [@Li2025decodeME]. These are the cells that compute effort-reward decisions — whether moving, thinking, or acting is worth the energy cost.
+
+This is not a subtle signal. It's the strongest cell-type enrichment in the study, replicated across independent analyses. If the genetics point to the striatum, then drugs that modulate striatal dopamine are no longer empirical guesses — they are rational pharmacology targeting the genetically implicated circuit.
+
+---
+
+## Three tiers of dopamine drugs
+
+### Tier 1: Precursors and reuptake inhibitors
+
+**Methylphenidate (Ritalin).** A DAT inhibitor that increases synaptic dopamine. Already the most-studied dopamine drug in ME/CFS. The Blockmans RCT (n = 60, double-blind crossover) found significant improvements in fatigue scores and concentration, but no change in physical functioning or quality of life [@Blockmans2006methylphenidate]. Side effect profile is well-characterized from decades of ADHD use — but carries the specific risk of masking PEM (see caveats below).
+
+**Bupropion (Wellbutrin).** A DAT/NET inhibitor with less abuse potential than methylphenidate. Used for depression and smoking cessation. Has an additional weakly anti-inflammatory effect via TNF-alpha reduction, which may be relevant in a disease with documented neuroinflammation.
+
+**Levodopa/carbidopa.** The direct dopamine precursor, used in Parkinson's. Crosses the blood-brain barrier and increases striatal dopamine synthesis directly. No ME/CFS trials exist — but the rationale is now stronger than ever.
+
+### Tier 2: Dopamine agonists
+
+These bypass the presynaptic neuron entirely, stimulating postsynaptic D1/D2/D3 receptors directly. Critical distinction from Tier 1: they do not require endogenous dopamine release or storage to work.
+
+**Rotigotine (Neupro patch).** D1/D2/D3 agonist delivered transdermally — useful for the many ME/CFS patients with GI dysfunction. Already approved for Parkinson's and RLS. No trials in ME/CFS, but the route of administration and receptor profile make it attractive.
+
+**Pramipexole and ropinirole.** D2/D3 agonists, also used in RLS. Real caveat: impulse control disorders (pathological gambling, hypersexuality, compulsive shopping) occur in 5–15% of patients on these drugs, particularly pramipexole. Any trial must include active monitoring for these effects.
+
+### Tier 3: VMAT2 inhibitors (the indirect route)
+
+This is where the story gets interesting.
+
+The vesicular monoamine transporter 2 (VMAT2) packages cytosolic dopamine into synaptic vesicles for storage and release. PET imaging in long COVID patients shows **reduced VMAT2 binding in the striatum** — the dopamine storage mechanism itself appears damaged. If this VMAT2 lesion extends to ME/CFS (and the shared MSN vulnerability suggests it might), then the dopamine deficit in ME/CFS may not be "low production" but "impaired storage and release." Neither the long COVID VMAT2 PET finding nor its extension to ME/CFS has yet been published in a peer-reviewed journal; the evidence remains preliminary.
+
+The logic chain is falsifiable: if VMAT2 is the bottleneck, then direct agonists (rotigotine, pramipexole) should outperform reuptake inhibitors (methylphenidate) in clinical trials, because agonists bypass the broken storage machinery. If reuptake inhibitors work equally well, the VMAT2 mechanism is less central.
+
+Tetrabenazine and its newer analogues (valbenazine, deutetrabenazine) are VMAT2 inhibitors — they worsen symptoms by further reducing dopamine storage. They are mentioned here not as treatments but as pharmacological probes: if a VMAT2 inhibitor worsens ME/CFS symptoms, that is evidence that VMAT2 dysfunction is a live mechanism, not a dead finding.
+
+---
+
+## The existing evidence
+
+The clinical data is thin but directionally consistent:
+
+- **Methylphenidate** improves cognitive symptoms in some ME/CFS patients — the Blockmans RCT and case series both find real but variable benefit [@Blockmans2006methylphenidate]
+- **CSF dopamine metabolites** are altered in ME/CFS, consistent with reduced central dopamine tone [@Miller2014dopamine]
+- **Striatal dopamine correlates with fatigue** in Parkinson's more strongly than nigrostriatal motor deficits — the striatal fatigue circuit is not ME/CFS-specific but disease-general. Chaudhuri and Behan used this Parkinson's parallel in 2000 to argue that basal ganglia dysfunction underlies the central fatigue of ME/CFS [@Chaudhuri2000basal]
+
+None of this was enough for a confident treatment rationale before the GWAS. Now it looks like converging evidence.
+
+---
+
+## Caveats: four reasons to be careful
+
+**1. Stimulants can mask PEM.** Methylphenidate and bupropion improve subjective energy and cognition. The patient feels more capable — and may exceed their true energy envelope. The result is not a better outcome but a delayed crash.
+
+**2. Dopamine agonists have significant side effects.** Impulse control disorders are not rare on pramipexole and ropinirole. Augmentation (worsening of symptoms with dose escalation) occurs in RLS patients on these drugs. Nausea and orthostatic hypotension are common at initiation.
+
+**3. All use is off-label.** None of these drugs are approved for ME/CFS. No regulatory body has reviewed safety or efficacy for this population.
+
+**4. The specificity question is unresolved.** MSN enrichment is shared with schizophrenia, depression, and alcohol use disorder. The same circuit is implicated in other conditions. Whether ME/CFS represents a distinct lesion within that circuit, or a general striatal vulnerability expressed differently depending on other genetic and environmental factors, is unknown.
+
+---
+
+## What this is — and isn't
+
+This post is not a recommendation to take these drugs. It is a statement about what the genetic finding does to the pharmacological logic.
+
+Before the GWAS: dopamine drugs for ME/CFS were empirical. Try a stimulant, see what happens, hope for the best.
+
+After the GWAS: there is a rational basis for investigating these drugs systematically. The genetics points to the striatum. Drugs that modulate striatal dopamine are targeting the place where the disease is written. The question is no longer *should we try this* but *which of these works, for which patients, and in which combination.*
+
+That shift — from guessing to aiming — is the real progress.
+
+---
+
+## Certainty estimate
+
+| Claim | Certainty |
+|-------|-----------|
+| ME/CFS genetic risk variants are enriched in striatal MSNs | Very high — primary GWAS finding [@Li2025decodeME] |
+| Dopamine-modulating drugs target the genetically implicated circuit | High — MSNs are dopamine-responsive neurons; the inference is direct |
+| Direct agonists will outperform reuptake inhibitors in ME/CFS | Low-moderate — depends on the VMAT2 lesion generalizing from long COVID to ME/CFS; untested |
+| VMAT2 imaging is a candidate diagnostic biomarker | Low — requires replication in ME/CFS cohorts, not just long COVID |
+| Existing methylphenidate trials are positive enough to justify larger trials | Moderate — consistent signal, small studies, variable outcomes |
+
+*Post 3 of 4 in the DecodeME GWAS series. Prev: [The Genetics Settled It](/blog/genetics-ends-debate) · [The Striatum Is the Bottleneck](/blog/striatum-bottleneck) · Next: [The Striatum Isn't Ours](/blog/msn-specificity-caveat)*

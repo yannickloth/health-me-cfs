@@ -1,0 +1,97 @@
+---
+title: "The Genetics Settled It: ME/CFS Is Neurological"
+description: "For decades, the debate ran: is ME/CFS autoimmune or neurological? The largest GWAS to date answered it. The risk variants operate in neurons, not immune cells. Here's what that changes."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Genetics, Neurology, Pathophysiology]
+---
+
+You are sitting in a neurologist's office. You have brought a binder — three years of symptom logs, two tilt-table reports, an autonomic breathing test, a sleep study showing alpha-delta intrusion. The neurologist glances at the papers, sets them down, and says: "Your tests are normal. Have you considered seeing a psychiatrist?"
+
+This scene has played out tens of thousands of times. It is not malice — it is uncertainty dressed as certainty. Without a genetic anchor, doctors could always retreat to the null hypothesis: *if we can't find it in the blood, it must be in the mind.* The largest genetic study of ME/CFS ever conducted just pulled that anchor out of the water.
+
+---
+
+## What the GWAS found
+
+The DecodeME consortium, led by Li et al. 2025, analysed ~5,000 ME/CFS cases against population controls in what is by far the most statistically powered genome-wide association study of the disease ever conducted [@Li2025decodeME]. The headline finding is not a single "ME/CFS gene" — there isn't one. The finding is about *where the genetic variants that increase risk are expressed.*
+
+The risk variants cluster overwhelmingly in **brain tissue**, specifically in **neurons.** Not microglia, not astrocytes, not immune cells. Neurons.
+
+The most significant cell-type enrichment was in **medium spiny neurons (MSNs)** of the striatum — a specific population of neurons in the basal ganglia involved in motor control, reward processing, and effort/reward decision-making. When your brain computes whether an action is worth the energy cost, MSNs are doing that calculation.
+
+---
+
+## What the finding means
+
+This ends the "autoimmune vs neurological" framing that has paralysed the field for two decades.
+
+**Immune involvement is real but secondary.** ME/CFS patients have elevated cytokines, autoantibodies, dysfunctional NK cells — the immune pathology is measurable and clinically important [@IOM2015]. But this is *acquired* immune dysregulation, not genetically driven immune dysregulation. The genetic architecture points to the brain. The immune system is responding to something upstream — likely neuroinflammation, damage signals, or autonomic disruption originating in the CNS.
+
+**The primary locus of the disease is the brain.** This changes where research resources should go. Before the GWAS, a researcher could reasonably argue that cytokine panels and autoantibody assays were the most promising route. That argument now has a genetic counterargument: the floor plan of the disease is written in neurons. Blood biomarkers may still be useful — they capture downstream pathology — but they are not capturing the root.
+
+**It does not rule out immune treatment.** The distinction matters. Just because immune pathology is secondary does not mean targeting it is useless. Immunoadsorption, rituximab, low-dose naltrexone — these may still work, and they may work precisely because interrupting the immune downstream can break the feedback loops that maintain the disease. The genetics says: the immune system is a *maintaining mechanism*, not the *primary lesion.* Treat it by all means, but do not confuse treating a maintaining mechanism for treating the root cause.
+
+---
+
+## The striatum and the basal ganglia hypothesis
+
+The MSN enrichment is the most specific finding in the GWAS, and it connects directly to a twenty-five-year-old hypothesis.
+
+Chaudhuri and Behan proposed in 2000 that ME/CFS involves basal ganglia dysfunction, specifically a disruption of dopaminergic signalling in the striatum that impairs the brain's ability to translate effort into action [@Chaudhuri2000basal]. At the time, the hypothesis rested on functional imaging showing reduced striatal dopamine transporter binding and clinical observation of motor slowing, reduced motivation, and effort intolerance that did not fit a peripheral muscle pathology.
+
+The GWAS provides the genetic foundation for a hypothesis that until now rested entirely on functional imaging and clinical observation. The MSN is the cell type the hypothesis predicted. The genetics is the footnote: *the mechanism is written into the tissue.*
+
+But here is the caveat — and it is a substantial one.
+
+MSN enrichment is not specific to ME/CFS. It is shared with schizophrenia, depression, and alcohol use disorder. The striatum appears to be a generic "brain vulnerability" node — when its circuitry is compromised, the output is some form of motivational, motor, or reward-processing deficit, regardless of the upstream trigger. The GWAS tells us *where to look* — the striatum — but not yet *what is broken* inside it. The cell type is localised. The mechanism within that cell type is not.
+
+---
+
+## What changes for patients
+
+The practical impact of a genetic finding in neurons is not a blood test or a drug. It is something more immediate: **ammunition.**
+
+The "it's psychological" argument loses its foundation. A genetic finding expressed in neurons is not a psychiatric finding. If the genetic architecture of ME/CFS says neurons — medium spiny neurons, striatal circuits, dopamine signalling — then the disease has more in common with Parkinson's than with depression. No one tells a Parkinson's patient to "think positive" or "try graded exercise." The genetics makes the same dismissal harder for ME/CFS.
+
+The "it's deconditioning" argument also loses ground. Deconditioning does not produce a cell-type-specific genetic signal in the striatum. Deconditioning produces detrained muscle — measurable, real, but secondary to the neurological lesion that makes exercise impossible in the first place.
+
+And the "it's health anxiety" argument — the one that has followed ME/CFS since the Royal Free Hospital outbreak in 1955 [@McEvedy1970] — becomes transparently untenable. Health anxiety does not have a GWAS signal. The striatum does.
+
+---
+
+## What changes for research
+
+The resource allocation implications are straightforward:
+
+**Neuroimaging** — functional and structural imaging of the striatum, basal ganglia circuitry, and dopamine pathways — becomes the highest-priority non-genetic research avenue. If the genetics says neurons, we need to see what those neurons are doing, in real time, in patients.
+
+**CSF metabolomics** — particularly neurotransmitter metabolites, dopamine turnover products, and striatal signalling intermediates — becomes more informative than blood cytokine panels. The downstream is in the blood; the upstream is in the CSF.
+
+**Striatal circuit interrogation** — using techniques from movement-disorder neurology (transcranial magnetic stimulation, EEG source imaging, functional connectivity analysis applied to the basal ganglia) — should be deployed directly.
+
+The immune system becomes a secondary research target: still important, still treatable, but no longer the primary locus of investigation.
+
+---
+
+## The fifty-thousand-person elephant in the room
+
+The DecodeME GWAS represents real progress. It also represents a limitation. Five thousand cases is enough for the enrichment analysis to be robust — but it is not enough for the fine-mapping, gene-level association, and pathway analysis that would tell us *which specific mechanisms within MSNs* are disrupted.
+
+The ME/CFS field needs a fifty-thousand-person GWAS. That number is what it has taken for schizophrenia, depression, and bipolar disorder to move from "we know it's genetic" to "we know which biological pathways are broken" [@SchizophreniaWGPConsortium2014]. The DecodeME consortium provides the direction. Funding the next scale-up would provide the destination.
+
+---
+
+## Certainty estimate
+
+| Claim | Certainty |
+|-------|-----------|
+| ME/CFS genetic risk variants are enriched in brain tissue (neurons) over immune cells | Very high — primary GWAS finding, statistically robust |
+| Medium spiny neurons are the most enriched cell type | High — supported by cell-type enrichment analysis, though dependent on reference dataset |
+| This rules out genetically primary immune dysfunction | High — immune enrichment is absent despite adequate power |
+| This establishes the brain as the primary locus of disease | Moderate — genetics points to brain; requires converging evidence from functional studies |
+| Striatal MSN enrichment is ME/CFS-specific | Low — shared with schizophrenia, depression, alcohol use disorder |
+| The genetics changes clinical practice | Low — no diagnostic test or treatment target yet from this finding |
+| Scaling to 50K+ cases would identify specific disrupted pathways | Moderate-high — based on analogous progress in psychiatric genetics |
+
+*Post 1 of 4 in the DecodeME GWAS series. Next: [The Striatum Is the Bottleneck](/blog/striatum-bottleneck) · [Parkinson's Drugs for ME/CFS?](/blog/dopamine-rational-mechanism) · [The Striatum Isn't Ours](/blog/msn-specificity-caveat)*
