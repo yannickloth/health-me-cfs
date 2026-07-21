@@ -1660,3 +1660,130 @@
   research_stream = {gwas-meta-maccallini-2026},
   certainty  = {0.45}
 }
+
+% =============================================================================
+% Cell and Tissue Enrichment Methods & Resources (2026-07-21 literature cycle)
+% =============================================================================
+
+@article{BulikSullivan2015LDSC,
+  author  = {Bulik-Sullivan, Brendan K and Loh, Po-Ru and Finucane, Hilary K and Ripke, Stephan and Yang, Jian and Patterson, Nick and Daly, Mark J and Price, Alkes L and Neale, Benjamin M},
+  title   = {{LD} Score regression distinguishes confounding from polygenicity in genome-wide association studies},
+  journal = {Nature Genetics},
+  year    = {2015},
+  volume  = {47},
+  number  = {3},
+  pages   = {291--295},
+  doi     = {10.1038/ng.3211},
+  note    = {Foundational methods paper for LD Score regression (LDSC). Distinguishes polygenic signal from confounding biases (cryptic relatedness, population stratification). LDSC intercept estimates inflation from bias vs true polygenicity. Foundation for subsequent stratified LDSC (Finucane 2018) used in tissue/cell-type enrichment. Highly cited (6,174 citations). Assumes infinitesimal polygenic architecture},
+  research_stream = {genetics-methods},
+  certainty = {0.92}
+}
+
+@article{deLeeuw2015MAGMA,
+  author  = {de Leeuw, Christiaan A and Mooij, Joris M and Heskes, Tom and Posthuma, Danielle},
+  title   = {{MAGMA}: generalized gene-set analysis of {GWAS} data},
+  journal = {PLoS Computational Biology},
+  year    = {2015},
+  volume  = {11},
+  number  = {4},
+  pages   = {e1004219},
+  doi     = {10.1371/journal.pcbi.1004219},
+  pmid    = {25885710},
+  pmcid   = {PMC4401657},
+  note    = {Multi-marker Analysis of GenoMic Annotation (MAGMA). Gene analysis via multiple regression — better power than single-SNP methods. Gene-set analysis built as separate layer with regression structure allowing continuous gene properties. Significantly outperforms PLINK, ALIGATOR, INRICH, MAGENTA in simulation and Crohn's disease benchmark. Enables competitive gene-set analysis. Corrects for LD, gene size, gene density. >2,000 citations; adopted as default gene-set method in FUMA platform},
+  research_stream = {genetics-methods},
+  certainty = {0.90}
+}
+
+@article{Finucane2018stratifiedLDSC,
+  author  = {Finucane, Hilary K and Reshef, Yakir A and Anttila, Verneri and Slowikowski, Kamil and Gusev, Alexander and Byrnes, Andrea and Gazal, Steven and Loh, Po-Ru and Lareau, Caleb and Shoresh, Noam and Genovese, Giulio and Saunders, Arpiar and Macosko, Evan and Pollack, Samuela and Perry, John R B and Buenrostro, Jason D and Bernstein, Bradley E and Raychaudhuri, Soumya and McCarroll, Steven and Neale, Benjamin M and Price, Alkes L},
+  title   = {Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types},
+  journal = {Nature Genetics},
+  year    = {2018},
+  volume  = {50},
+  number  = {4},
+  pages   = {621--629},
+  doi     = {10.1038/s41588-018-0081-4},
+  note    = {Introduced stratified LD score regression (S-LDSC) to partition SNP heritability by functional annotation. Created 10 cell-type-specific gene sets from GTEx v6, ImmGen, Franke lab data. Tested 48 diseases/traits — correctly identified immune cell enrichment for RA/Crohn's, CNS for schizophrenia/epilepsy, pancreatic for diabetes. Published annotation files on Google Cloud. Pipeline used directly by mecfsscience.org ME/CFS analyses. Robust for broad cell-type families; limited for closely related subtypes},
+  research_stream = {genetics-methods},
+  certainty = {0.90}
+}
+
+@article{Skene2018brainCellTypes,
+  author  = {Skene, Nathan G and Bryois, Julien and Bakken, Trygve E and Breen, Gerome and Crowley, James J and Gaspar, Héléna A and Giusti-Rodriguez, Paola and Hodge, Rebecca D and Miller, Jeremy A and Muñoz-Manchado, Ana B and O'Donovan, Michael C and Owen, Michael J and Pardiñas, Antonio F and Ryge, Jesper and Walters, James T R and Linnarsson, Sten and Lein, Ed S and Sullivan, Patrick F and Hjerling-Leffler, Jens},
+  title   = {Genetic identification of brain cell types underlying schizophrenia},
+  journal = {Nature Genetics},
+  year    = {2018},
+  volume  = {50},
+  number  = {6},
+  pages   = {825--833},
+  doi     = {10.1038/s41588-018-0129-5},
+  note    = {Applied MAGMA cell-type enrichment to schizophrenia GWAS (PGC2: 40,675 cases) using Linnarsson mouse brain snRNA-seq atlas (9,970 cells). Schizophrenia signal enriched in pyramidal neurons (CA1, subiculum), medium spiny neurons (striatum), somatostatin-positive interneurons. Published analysis pipeline via R package MAGMA_celltyping. Level 1 taxonomy (~70 cell types) used by mecfsscience.org analysis. Consistent across 7 independent cell-type datasets},
+  research_stream = {genetics-methods},
+  certainty = {0.88}
+}
+
+@article{Duncan2025cellTypeBrain,
+  author  = {Duncan, Laramie E and Li, Tony and Salem, Madeleine and Li, Will and Mortazavi, Leili and Senturk, Hazal and Shahverdizadeh, Narges and Vesuna, Sam and Shen, Han and Yoon, Jong and Wang, Gordon and Ballon, Jacob and Tan, Laren and Pruett, Brandon S and Knutson, Brian and Deisseroth, Karl and Giardino, William J},
+  title   = {Mapping the cellular etiology of schizophrenia and complex brain phenotypes},
+  journal = {Nature Neuroscience},
+  year    = {2025},
+  volume  = {28},
+  number  = {2},
+  pages   = {248--258},
+  doi     = {10.1038/s41593-024-01834-w},
+  note    = {Applied MAGMA cell-type enrichment to 18 brain-related traits using Siletti et al. 2023 Human Brain Atlas (461 cell types, 3.3M cells). Schizophrenia enriched in cortical layer 2/3 excitatory neurons; depression in layer 5/6; alcohol consumption and sleep duration in medium spiny neurons. Published code at github.com/Integrative-Mental-Health-Lab. Pipeline used by mecfsscience.org for their ME/CFS eMSN enrichment result. Established h2-MAGMA method for partitioning heritability by cell type. 3 donors in HBA limits generalizability},
+  research_stream = {genetics-methods},
+  certainty = {0.88}
+}
+
+@article{Saunders2018Dropviz,
+  author  = {Saunders, Arpiar and Macosko, Evan Z and Wysoker, Alec and Goldman, Melissa and Krienen, Fenna M and de Rivera, Heather and Bien, Elizabeth and Baum, Matthew and Bortolin, Laura and Wang, Shuyu and Goeva, Aleksandrina and Nemesh, James and Kamitaki, Nolan and Brumbaugh, Sara and Kulp, David and McCarroll, Steven A},
+  title   = {Molecular Diversity and Specializations among the Cells of the Adult Mouse Brain},
+  journal = {Cell},
+  year    = {2018},
+  volume  = {174},
+  number  = {4},
+  pages   = {1015--1030.e16},
+  doi     = {10.1016/j.cell.2018.07.028},
+  pmid    = {30096299},
+  note    = {Drop-seq snRNA-seq atlas: 690,000 single-nucleus transcriptomes from 9 regions of adult mouse brain. Identified 565 transcriptionally distinct cell types. Striatum contains functionally diverse MSN subtypes including eMSN-like cells. Gene expression profiles used by Maccallini 2026, FUMA, and mecfsscience.org for cross-species enrichment analysis of ME/CFS GWAS. Naming note: GP neurons classified here are actually striatal cells. Atlas validated by ISH cross-reference with Allen Brain Atlas},
+  research_stream = {genetics-resource},
+  certainty = {0.92}
+}
+
+@article{Lee2026geneticOverlap,
+  author  = {Lee, Jun Hyun and others},
+  title   = {Global and local genetic overlap among {ME/CFS}, irritable bowel syndrome, and psychiatric traits: a hypothesis-generating analysis},
+  journal = {medRxiv},
+  year    = {2026},
+  doi     = {10.64898/2026.06.08.26355171v1},
+  note    = {PREPRINT — not yet peer reviewed. Cross-trait genetic correlation analysis (LDSC) of ME/CFS, IBS, and psychiatric traits. Applied DESCARTES Human Fetal Atlas for cell-type enrichment of ME/CFS GWAS. Inhibitory interneurons showed significant enrichment in fetal brain samples. Independent replication of CNS enrichment using a third cell atlas (DESCARTES vs Dropviz vs HBA). Consistent neuronal rather than immune cell-type involvement},
+  research_stream = {genetics-mecfs},
+  certainty = {0.45}
+}
+
+@article{Snyder2025rareBrain,
+  author  = {Snyder, Mark P and Zhao, Hongjuan and others},
+  title   = {Rare coding variants in {ME/CFS} implicate neuronal genes and synaptic function},
+  journal = {medRxiv},
+  year    = {2025},
+  doi     = {10.1101/2025.04.15.25325899v2},
+  note    = {PREPRINT — not yet peer reviewed. Whole exome sequencing of ME/CFS patients (Stanford). Enrichment of rare damaging variants in neuronal genes. Synaptic communication and neural development gene ontologies enriched. No immune gene enrichment. Converges with DecodeME common variant findings on synaptic/neuronal domain. Complements DecodeME: both rare and common variation point to neuronal biology},
+  research_stream = {genetics-mecfs},
+  certainty = {0.45}
+}
+
+@article{GTExConsortium2020,
+  author  = {{GTEx Consortium}},
+  title   = {The {GTEx} Consortium atlas of genetic regulatory effects across human tissues},
+  journal = {Science},
+  year    = {2020},
+  volume  = {369},
+  number  = {6509},
+  pages   = {1318--1330},
+  doi     = {10.1126/science.aaz1776},
+  note    = {Multi-tissue gene expression and eQTL atlas: 838 postmortem donors, 49 tissues, 15,201 RNA-seq samples. GTEx v8 (2019 release) used by DecodeME preprint for MAGMA tissue enrichment analysis. All brain regions show significant ME/CFS-associated gene enrichment. Pre-processed expression data available via FUMA platform. Tissue-level resolution only; postmortem tissue; steady-state mRNA proxy},
+  research_stream = {genetics-resource},
+  certainty = {0.90}
+}

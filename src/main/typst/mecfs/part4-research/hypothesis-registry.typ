@@ -4053,6 +4053,25 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [@lim:skeletal-asymmetry-evidence-gap],[The Gerlier hypothesis has near-zero direct ME/CFS evidence at any link. 10 indirect papers; all supporting evidence comes from surgical complication reports, genetic disease models, and clinical reasoning. DAMI/ILMI yield zero PubMed results.],[Phase 2 / n/a],
 
   [@spec:skeletal-asymmetry-cascade, ch15: Fascial and Connective Tissue Innervation],[Skeletal asymmetry produces chronic low-grade mechanical nerve compression (lateral femoral cutaneous, sciatic, pudendal) distinct from SFN — a compression neuropathy amplified by central sensitization. Improvement predicted with postural correction.],[Phase 2 / 0.10],
+
+  [@spec:skeletal-asymmetry-cascade, "How does the asymmetry originate?"],[Competing hypotheses for skeletal asymmetry origin: developmental/traumatic (Gerlier: neonatal cervical subluxation → spiralization), congenital/genetic, acquired postural/deconditioning, or idiopathic. Cascade downstream is agnostic to origin.],[Phase 2 / n/a — competing origins],
+)
+
+
+
+= Entries added 2026-07-21: Cell-Type Enrichment and Striatal Neuronal Convergence
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [@ach:cell-type-enrichment-convergence], [Multiple independent post-GWAS enrichment analyses (MAGMA, stratified LDSC) applied to DecodeME+MVP meta-GWAS converge: ME/CFS genetic risk maps to neuronal cell types in CNS, not immune cells. Human Brain Atlas (Siletti 2023 via Duncan 2025 pipeline): eMSN is top cell-type hit. Dropviz mouse atlas: 7/13 significant cell types are striatal neurons. DESCARTES fetal atlas: inhibitory interneurons. ImmGen immune cell enrichment: null. Rare variant analysis (Snyder 2025): independently implicates neuronal genes. Broad neuronal signal robust (cert 0.80); fine MSN/eMSN resolution method-dependent (cert 0.40--0.50). MSN enrichment shared across brain traits (schizophrenia, depression, sleep duration, alcohol consumption). Key limitation: zero functional validation of MSN involvement in fatigue phenotype. Origin: literature integration.],[Phase 3 / 0.70],
+
+  [@hyp:striatal-symptom-signalling], [Chaudhuri & Behan (2000) proposed that central fatigue results from dysfunction of the striatal-thalamic-frontal cortical system — heterogeneous upstream pathology (immune, metabolic, infectious) converging on striatal circuits to generate the experience of fatigue. The DecodeME cell-type enrichment findings (eMSN/MSN as top hit) provide the first genetic evidence consistent with this 25-year-old hypothesis. Testable prediction: striatal connectivity patterns in resting-state fMRI will predict fatigue severity in ME/CFS independently of peripheral inflammation markers. Falsified if fatigue severity is predicted by peripheral markers but not striatal connectivity. Limitations: theoretical framework only; no direct measurement of striatal-thalamic-frontal circuit function in ME/CFS. Origin: literature synthesis.],[Phase 3 / 0.40],
+
+  [@lim:cell-type-enrichment-caveats], [Broad neuronal enrichment signal is robust; fine cell-type specificity (MSN/eMSN) is method-dependent. Varies with pipeline parameters, LD reference panel, gene window size. Other cell types reach significance depending on atlas (glutamatergic neurons in Seeker 2023, inhibitory interneurons in DESCARTES). MSN enrichment not ME/CFS-specific — shared with schizophrenia, depression, alcohol consumption, sleep duration. Does not undermine core finding: genetic risk maps to neurons, not immune cells, across all methods and atlases. Origin: synthesis blog + Brouwer 2026 methodology review.],[Phase 3 / n/a],
+
+  [@syn:genetic-neuronal-convergence], [Three independent evidence lines converge on neuronal biology in ME/CFS: (1) common variant GWAS enrichment in brain tissues and neuronal gene-sets (DecodeME, Maccallini 2026), (2) rare variant burden in neuronal/synaptic genes (Snyder 2025 WES), (3) absence of immune cell-type enrichment despite documented peripheral immune abnormalities (ImmGen null). The immune null suggests that immune dysfunction in ME/CFS may be acquired/environmental or below GWAS detection threshold — not that immune involvement does not exist, but that it is not genetically encoded in common variants. This three-pronged genetic architecture (brain-enriched common variants + rare neuronal variants + immune null) provides a genetic framework for the brain-first model. Origin: literature synthesis.],[Phase 3 / 0.65],
 )
 
 

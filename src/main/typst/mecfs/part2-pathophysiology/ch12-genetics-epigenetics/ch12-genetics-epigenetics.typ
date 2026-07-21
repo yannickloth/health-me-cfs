@@ -278,6 +278,9 @@ GWAS also enables Mendelian randomisation analyses testing causal relationships 
 {{/* Phase 10a retroactive synthesis: brain-first glutamatergic genetic architecture (condenses ~20 environments across ch12/ch14d/ch14h/ch16) */}}
 #include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/syntheses/syn-brain-first-glutamatergic-genetic-architecture.typ"
 
+{{/* Phase 3 synthesis: three-line genetic convergence on neuronal biology (cell-type enrichment findings, 2026-07-21) */}}
+#include "sec-01-misc/subsec-18-maccallini-2026-meta-gwas-brain-first-ge/syntheses/syn-genetic-neuronal-convergence.typ"
+
 #include "sec-01-misc/subsec-21-glp1-genetics/sec-glp1-genetics.typ"
 
 ==== Computable Analyses Using Existing DecodeME Data

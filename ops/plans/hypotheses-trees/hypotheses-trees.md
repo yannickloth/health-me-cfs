@@ -309,5 +309,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | glycolytic-reprogramming-tickborne | [subtrees/glycolytic-reprogramming-tickborne.md](subtrees/glycolytic-reprogramming-tickborne.md) | 2026-07-17 | 46 | 7 | 🔵 in progress |
 | maladie-de-verneuil | [subtrees/maladie-de-verneuil.md](subtrees/maladie-de-verneuil.md) | 2026-07-20 | 15 | 9 | 🔵 in progress |
 | kce-belgium-guideline | [subtrees/kce-belgium-guideline.md](subtrees/kce-belgium-guideline.md) | 2026-07-21 | 30 | 30 | ✅ triaged |
+| cell-tissue-enrichment | [subtrees/cell-tissue-enrichment.md](subtrees/cell-tissue-enrichment.md) | 2026-07-21 | 25 | 0 | ⬜ pending |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
