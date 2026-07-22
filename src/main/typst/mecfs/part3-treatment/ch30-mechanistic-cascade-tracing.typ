@@ -26,7 +26,18 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 
 *Certainty: 0.55.* The TRPM3 calcium channel defect is the most replicated ion channel finding in ME/CFS (six independent cohorts, @Cabanas2021). TRPM3 is a non-selective cation channel gated by PIP2, pregnenolone sulfate, and heat. Its primary physiological role: calcium influx in NK cells (cytotoxicity), pancreatic β-cells (insulin secretion), vascular smooth muscle (tone), and sensory neurons (heat/pain detection). Multi-system dysfunction is the expected consequence of impaired calcium influx across these cell types. The cascade traces PIP2-dependent gating failure through to terminal consequences, with each node offering a pharmacologically distinguishable probe.
 
-==== Cascade: PIP2 depletion (GPCR AAb → PLC-β hydrolysis) → TRPM3 calcium influx failure → (a) NK cell cytotoxicity loss → impaired viral clearance, immune surveillance; (b) pancreatic β-cell insulin secretion impairment → postprandial energy dysregulation; (c) neurotransmitter release impairment at autonomic ganglia → orthostatic intolerance, GI dysmotility; (d) vascular smooth muscle calcium dysregulation → impaired vasoconstriction and vasodilation; (e) sensory neuron TRPM3 dysfunction → altered pain and temperature perception. Each arm has a distinct probe.
+==== Cascade: PIP2 → TRPM3 → five-arm end-organ dysfunction
+
+*Cascade:*
+- PIP2 depletion (GPCR AAb → PLC-β hydrolysis)
+- TRPM3 calcium influx failure
+- (a) NK cell cytotoxicity loss → impaired viral clearance, immune surveillance
+- (b) pancreatic β-cell insulin secretion impairment → postprandial energy dysregulation
+- (c) neurotransmitter release impairment at autonomic ganglia → orthostatic intolerance, GI dysmotility
+- (d) vascular smooth muscle calcium dysregulation → impaired vasoconstriction and vasodilation
+- (e) sensory neuron TRPM3 dysfunction → altered pain and temperature perception
+- Each arm has a distinct probe.
+
 
 *Step A1:* PIP2 depletion (membrane-level trigger — upstream of all TRPM3 dysfunction)
 - *Mechanism:* GPCR autoantibodies (β2-AR, M2/M4) activate Gαq → PLC-β → PIP2 hydrolysis to IP3 + DAG. PIP2 is the essential cofactor for TRPM3 gating — without PIP2 in the inner membrane leaflet, TRPM3 cannot open regardless of agonist (pregnenolone sulfate, heat). PIP2 depletion is the most parsimonious single mechanism for simultaneous TRPM3, TRPV1, TRPM7, and TRPC channel dysfunction — all are PIP2-dependent.
@@ -76,7 +87,17 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 
 *Certainty: 0.50.* TRPV1 is functionally expressed on skeletal muscle arteriolar smooth muscle (Cavanaugh 2011) and on sensory C-fibers innervating muscle. Its canonical activators — protons (H⁺ from lactic acid), heat (from muscle activity), ROS (from mitochondrial electron leak), and lipid peroxides (from membrane damage) — are all produced during exertion. In healthy muscle, TRPV1 activation on sensory fibers signals "muscle is working" to the CNS. In ME/CFS, the hypothesis is: TRPV1 on arteriolar smooth muscle causes vasoconstriction (paradoxical in working muscle, which should vasodilate), producing ischemia. The ischemia produces more metabolites → more TRPV1 activation → further vasoconstriction → a positive feedback loop of ischemia and pain that constitutes the PEM sensation. COX-2/PGE2 amplification loop is well-established in pain biology — PGE2 sensitizes TRPV1, lowering its activation threshold. Direct ME/CFS measurement of arteriolar TRPV1 pending.
 
-==== Cascade: Exercise → (1) lactate/H⁺ production, (2) heat generation, (3) mitochondrial ROS, (4) lipid peroxidation from membrane damage → TRPV1 activation on skeletal muscle arteriolar smooth muscle → paradoxical vasoconstriction (TRPV1-mediated Ca²⁺ influx in smooth muscle → contraction) → tissue ischemia → more metabolite accumulation → further TRPV1 sensitization via COX-2/PGE2 (PGE2 lowers TRPV1 activation threshold → TRPV1 now opens at lower temperatures and lower proton concentrations) → positive feedback loop → severe localized muscle pain, prolonged recovery (the PEM sensation), and impaired oxygen delivery during subsequent exertion.
+==== Cascade: Exercise → TRPV1 vasoconstriction → ischemic PEM loop
+
+*Cascade:*
+- Exercise → (1) lactate/H⁺ production, (2) heat generation, (3) mitochondrial ROS, (4) lipid peroxidation from membrane damage
+- TRPV1 activation on skeletal muscle arteriolar smooth muscle
+- Paradoxical vasoconstriction (TRPV1-mediated Ca²⁺ influx → contraction)
+- Tissue ischemia → more metabolite accumulation
+- Further TRPV1 sensitization via COX-2/PGE2 (PGE2 lowers activation threshold)
+- Positive feedback loop: ischemia → metabolites → TRPV1 → vasoconstriction → more ischemia
+- Severe localized muscle pain, prolonged recovery (the PEM sensation), impaired oxygen delivery during subsequent exertion
+
 
 ==== Step B1: TRPV1 activation on arteriolar smooth muscle
 
@@ -116,7 +137,14 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 
 *Certainty: 0.30.* Piezo1/Piezo2 are established mechanosensitive channels; their role in ME/CFS hEDS overlap is mechanistically inferred. Not directly measured in ME/CFS.
 
-==== Cascade: Connective tissue laxity (hEDS) → abnormal mechanical forces on sensory neurons, mast cells, and vascular endothelium → Piezo2/Piezo1 overactivation → pathologically elevated mechanosensitive calcium influx → proprioceptive degradation, chronic mast cell degranulation, impaired endothelial mechanotransduction → fatigue, positional pain, orthostatic intolerance, brain fog
+==== Cascade: hEDS laxity → Piezo2/1 overactivation → multi-system dysfunction
+
+*Cascade:*
+- Connective tissue laxity (hEDS) → abnormal mechanical forces on sensory neurons, mast cells, and vascular endothelium
+- Piezo2/Piezo1 overactivation → pathologically elevated mechanosensitive calcium influx
+- Proprioceptive degradation, chronic mast cell degranulation, impaired endothelial mechanotransduction
+- fatigue, positional pain, orthostatic intolerance, brain fog
+
 
 *Step C1:* Piezo2 overactivation on sensory neurons (proprioceptive degradation)
 - *Intercept:* Physical therapy (cervical stabilization, joint bracing) — reduces mechanical forces; Low-dose amitriptyline (5--10 mg) — NMDA antagonism downstream
@@ -141,7 +169,13 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 
 *Certainty: 0.35.* PIP2 convergence derived from TRPM3/PIP2 co-localization (Eaton-Fitch 2021) and GPCR autoantibody-driven PLC hyperactivity. Multi-channel simultaneous measurement not yet performed in ME/CFS.
 
-==== Cascade: GPCR autoantibody (β2-AR, M2/M4) → persistent PLC-β activation → PIP2 hydrolysis → simultaneous loss of PIP2-dependent channel function (TRPM3, TRPM7, TRPV1, TRPC) → multi-channel convergence on calcium dysregulation → multi-system dysfunction
+==== Cascade: GPCR AAb → PIP2 depletion → multi-channel calcium collapse
+
+*Cascade:*
+- GPCR autoantibody (β2-AR, M2/M4) → persistent PLC-β activation
+- PIP2 hydrolysis → simultaneous loss of PIP2-dependent channel function (TRPM3, TRPM7, TRPV1, TRPC)
+- Multi-channel convergence on calcium dysregulation → multi-system dysfunction
+
 
 This convergence hypothesis makes a specific differential prediction: if GPCR autoantibodies drive PIP2 depletion, then immunoadsorption should restore TRPM3 function, reduce TRPV1 sensitization, and improve Piezo2-driven symptoms simultaneously — because all three channels depend on PIP2.
 
@@ -160,7 +194,16 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.35.* WASF3 supercomplex disruption documented in cell models — Wang 2023 (@wang2023wasf3) showed that WASF3 overexpression in skeletal muscle cells disassembles mitochondrial respiratory supercomplexes (SC I/III/IV), reducing ETC efficiency by ~40%. WASF3 appears to act as a supercomplex assembly inhibitor — its upregulation prevents individual ETC complexes from organizing into functional supercomplexes, which are essential for efficient electron channelling (direct transfer of electrons from Complex I to Complex III within the supercomplex, minimizing electron leak and ROS production). HIF-1α-driven WASF3 upregulation is mechanistic inference — HIF-1α binds to hypoxia response elements in the WASF3 promoter under conditions of cellular hypoxia or pseudohypoxia (ROS-mediated prolyl hydroxylase inhibition). The HIF-1α→WASF3→SC disruption pathway provides a mechanistic link between oxidative stress (HIF-1α stabilization) and mitochondrial dysfunction (SC disassembly). No interventions have been tested in ME/CFS for WASF3 specifically.
 
-==== Cascade: HIF-1α stabilization (chronic ROS → prolyl hydroxylase inhibition, or genetic HIF1A variants → constitutive HIF-1α activity) → WASF3 transcriptional upregulation → WASF3 protein accumulation at mitochondrial outer membrane → respiratory supercomplex (SC I/III/IV) assembly failure → reduced electron channelling efficiency → increased electron leak at Complex I-III interface → increased ROS production (ROS from electron leak further stabilizes HIF-1α — positive feedback) → reduced OXPHOS ATP yield → compensatory glycolysis upregulation (HIF-1α also upregulates glycolytic enzymes — PDK1, LDH-A, GLUT1) → lactate production at rest, reduced maximal ATP output → fatigue, PEM, and the metabolic signature of ME/CFS (elevated lactate, reduced VO₂peak, preserved glycolytic capacity).
+==== Cascade: HIF-1α → WASF3 → supercomplex disruption → ATP deficit
+
+*Cascade:*
+- HIF-1α stabilization (chronic ROS → PHD inhibition, or genetic HIF1A variants → constitutive activity)
+- WASF3 transcriptional upregulation → WASF3 protein at mitochondrial outer membrane
+- Respiratory supercomplex (SC I/III/IV) assembly failure → reduced electron channelling efficiency
+- Increased electron leak at Complex I-III interface → ROS (further stabilizes HIF-1α — positive feedback)
+- Reduced OXPHOS ATP yield + compensatory glycolysis (PDK1, LDH-A, GLUT1 upregulation)
+- Lactate at rest, reduced maximal ATP output → fatigue, PEM, the metabolic signature of ME/CFS
+
 
 ==== Step D1: HIF-1α stabilization → WASF3 upregulation (transcriptional trigger)
 
@@ -197,7 +240,16 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.40.* PDK-driven PDH inhibition is mechanistically well-grounded in cytokine biology — PDK1 and PDK4 are transcriptionally upregulated by PPARα and HIF-1α in response to inflammatory cytokines, fasting, and hypoxia. PDH is the gatekeeper enzyme: it converts pyruvate (from glycolysis) to acetyl-CoA (which enters the TCA cycle). When PDH is phosphorylated by PDK, pyruvate cannot enter the TCA cycle → pyruvate accumulates → converted to lactate by lactate dehydrogenase → lactate exits the cell → systemic lactate elevation at low workloads. The consequence: the muscle is forced into anaerobic metabolism at exertion levels far below the anaerobic threshold of a healthy person. ~83% of glucose-derived ATP depends on PDH-mediated pyruvate entry to TCA — with PDH blocked, glucose becomes an inefficient fuel. This is the biochemical explanation for the PEM phenomenon: exertion produces lactate at workloads that should be aerobic, and ATP yield per glucose molecule drops from ~36 to ~2 (glycolysis only). The 2-day CPET finding (reduced VO₂peak and increased lactate on Day 2) is consistent with PDH inhibition that worsens with repeated exertion.
 
-==== Cascade: Inflammatory cytokines (TNF-α, IL-1β, IFN-γ) → PDK1/PDK4 transcriptional upregulation via HIF-1α and PPARα → PDK phosphorylates PDH E1α subunit at Ser293 → PDH inactivation → pyruvate blocked from TCA → glycolytic-ETC uncoupling → (a) lactate accumulation (pyruvate → lactate) → muscle fatigue, burning, PEM at low workloads; (b) reduced acetyl-CoA → reduced TCA cycle flux → reduced NADH and FADH₂ for ETC → reduced ATP yield → cellular energy deficit; (c) compensatory fatty acid oxidation upregulation → increased reliance on β-oxidation → lipid dependence for ATP → if β-oxidation is also impaired (carnitine deficiency), dual metabolic blockade → severe energy failure.
+==== Cascade: Cytokines → PDK → PDH block → lactate + energy deficit
+
+*Cascade:*
+- Inflammatory cytokines (TNF-α, IL-1β, IFN-γ) → PDK1/PDK4 upregulation (HIF-1α, PPARα)
+- PDK phosphorylates PDH E1α at Ser293 → PDH inactivation → pyruvate blocked from TCA
+- Glycolytic-ETC uncoupling → three arms:
+- (a) lactate accumulation → muscle fatigue, burning, PEM at low workloads
+- (b) reduced acetyl-CoA → reduced TCA flux → reduced ATP yield → energy deficit
+- (c) compensatory fatty acid oxidation → lipid dependence → if β-oxidation impaired → dual metabolic blockade
+
 
 ==== Step E1: PDK upregulation (inflammatory trigger)
 
@@ -238,7 +290,16 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.40.* NHE1→NCX1→mitochondrial Ca²⁺ overload cascade documented in ischemia-reperfusion injury (cardiac and skeletal muscle). AIMM = acquired ischemic mitochondrial myopathy — the concept proposed by Scheibenbogen and Wirth that repeated microvascular ischemia-reperfusion episodes in skeletal muscle cause cumulative mitochondrial structural damage, producing the PEM phenotype. MDC002/Mitodicure is a dual NHE1 + NCLX modulator in preclinical development for ME/CFS.
 
-==== Cascade: Capillary hypoperfusion (endothelial dysfunction → impaired vasodilation during exertion, microclots → capillary obstruction, RBC deformability loss → impaired capillary passage) → ischemia during exertion → anaerobic metabolism → intracellular acidosis → Na⁺/H⁺ exchanger (NHE1) activation → intracellular Na⁺ overload → Na⁺/Ca²⁺ exchanger (NCX1) reverse mode (normally extrudes Ca²⁺, but in Na⁺ overload, it imports Ca²⁺) → mitochondrial Ca²⁺ overload → mitochondrial permeability transition pore (mPTP) opening → loss of mitochondrial membrane potential → impaired ATP production, cytochrome c release → apoptosis or necrosis → structural mitochondrial damage → progressive loss of oxidative capacity → PEM, exercise intolerance, and the Day 2 CPET decline (reduced VO₂peak on second consecutive maximal exercise test — pathognomonic for ME/CFS).
+==== Cascade: Hypoperfusion → Na⁺ overload → mitochondrial Ca²⁺ → mPTP → PEM
+
+*Cascade:*
+- Capillary hypoperfusion (endothelial dysfunction, microclots, RBC deformability loss)
+- Ischemia during exertion → anaerobic metabolism → intracellular acidosis
+- NHE1 activation → intracellular Na⁺ overload → NCX1 reverse mode (imports Ca²⁺)
+- Mitochondrial Ca²⁺ overload → mPTP opening → loss of ΔΨm
+- Impaired ATP production, cytochrome c release → apoptosis/necrosis
+- Structural mitochondrial damage → progressive loss of oxidative capacity → PEM, Day 2 CPET decline
+
 
 ==== Step F1: Capillary hypoperfusion (vascular trigger — upstream of ionic cascade)
 
@@ -287,7 +348,18 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.40.* Tryptophan→NAD⁺ pathway is established biochemistry — tryptophan is converted through the kynurenine pathway to quinolinic acid, then to nicotinic acid mononucleotide (NaMN) → NAD⁺. IDO-driven tryptophan diversion (documented in ME/CFS) simultaneously depletes serotonin (tryptophan→5-HT pathway) AND NAD⁺ (tryptophan→kynurenine→NAD⁺ pathway — the kynurenine diversion prevents both). Additionally, NAD⁺ is consumed by: (a) PARP (DNA repair enzyme) — activated by oxidative DNA damage → depletes NAD⁺; (b) CD38 (NAD⁺ glycohydrolase on immune cells) — upregulated by inflammatory cytokines → degrades NAD⁺; (c) sirtuins (NAD⁺-dependent deacetylases) — consume NAD⁺ for epigenetic regulation. The combination of reduced synthesis (tryptophan diversion) and increased consumption (PARP, CD38, sirtuins) → severe NAD⁺ depletion → NAD⁺/NADH ratio collapse → impaired mitochondrial Complex I (NADH→NAD⁺), impaired sirtuin activity (SIRT1, SIRT3), impaired PARP-mediated DNA repair, and impaired glycolysis (GAPDH requires NAD⁺). NMN/NR supplementation has not been studied in ME/CFS controlled trials.
 
-==== Cascade: IDO/TDO activation (IFN-γ, TNF-α, IL-1β) → tryptophan → kynurenine diversion → reduced quinolinic acid → reduced NAD⁺ synthesis from tryptophan (de novo pathway) + PARP activation (oxidative DNA damage) → increased NAD⁺ consumption + CD38 upregulation on immune cells → increased NAD⁺ degradation + chronic sirtuin activation → continuous NAD⁺ consumption → NAD⁺/NADH ratio decline → sirtuin inhibition (paradoxical — sirtuins are NAD⁺-dependent and chronic consumption exhausts NAD⁺, so sirtuins become inactive despite being activated initially), PARP overactivation (depletes remaining NAD⁺ → PARP-mediated cell death pathways — parthanatos), impaired mitochondrial Complex I function (NADH cannot donate electrons without NAD⁺ to accept them), impaired glycolysis (GAPDH requires NAD⁺) → multi-level metabolic failure → fatigue, neuroinflammation, impaired DNA repair → accelerated cellular aging, epigenetic dysregulation.
+==== Cascade: IDO → kynurenine diversion → NAD⁺ synthesis defeat + consumption surge
+
+*Cascade:*
+- IDO/TDO activation (IFN-γ, TNF-α, IL-1β) → tryptophan → kynurenine diversion
+- Reduced quinolinic acid → reduced NAD⁺ synthesis (de novo pathway)
+- PARP activation (oxidative DNA damage) → increased NAD⁺ consumption
+- CD38 upregulation → increased NAD⁺ degradation
+- Chronic sirtuin activation → continuous NAD⁺ consumption → NAD⁺/NADH ratio decline
+- Sirtuin inhibition (paradoxical), PARP overactivation (parthanatos)
+- Impaired Complex I, impaired glycolysis (GAPDH requires NAD⁺) → multi-level metabolic failure
+- fatigue, neuroinflammation, impaired DNA repair → accelerated aging, epigenetic dysregulation
+
 
 ==== Step G1: IDO/TDO activation (synthesis failure)
 
@@ -325,7 +397,16 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.45.* IDO-driven kynurenine pathway dysregulation documented in ME/CFS (elevated kynurenine/tryptophan ratio, elevated quinolinic acid in CSF, reduced serotonin in CSF). The cascade has three pharmacologically distinct arms: serotonin depletion, quinolinic acid-mediated NMDA excitotoxicity, and kynurenic acid-mediated NMDA antagonism. Each arm produces different symptoms and responds to different drugs. The diagnostic task is to determine which arm(s) are dominant in a given patient.
 
-==== Cascade: Immune activation (IFN-γ from T cells, TNF-α from macrophages/microglia) → indoleamine 2,3-dioxygenase (IDO) upregulation in microglia, macrophages, and dendritic cells → tryptophan converted to kynurenine (bypassing the serotonin and NAD⁺ synthesis pathways) → (a) serotonin depletion: ~95% of dietary tryptophan is diverted to kynurenine pathway, leaving under 5% for serotonin synthesis → reduced CNS serotonin → depression, anxiety, insomnia, heightened pain perception, impaired descending pain inhibition; (b) quinolinic acid: kynurenine is metabolized by kynurenine 3-monooxygenase (KMO) in microglia → 3-hydroxykynurenine → 3-hydroxyanthranilic acid → quinolinic acid (QUIN) — a potent NMDA receptor agonist → excitotoxicity in hippocampus, striatum, and PFC → cognitive dysfunction, brain fog, and neuronal dysfunction; (c) kynurenic acid: kynurenine metabolized by kynurenine aminotransferase (KAT) in astrocytes → kynurenic acid (KYNA) — an NMDA receptor antagonist at the glycine site → reduced glutamatergic transmission → cognitive slowing, reduced synaptic plasticity. The balance between QUIN (excitotoxic) and KYNA (neuroprotective but cognition-suppressing) determines whether the dominant symptom is excitotoxicity (anxiety, hyperarousal, pain) or suppression (brain fog, cognitive slowing, sedation).
+==== Cascade: IDO → kynurenine → serotonin depletion + QUIN/KYNA imbalance
+
+*Cascade:*
+- Immune activation (IFN-γ, TNF-α) → IDO upregulation in microglia, macrophages, dendritic cells
+- Tryptophan → kynurenine (bypassing serotonin and NAD⁺ synthesis)
+- (a) Serotonin depletion: ~95% tryptophan diverted → reduced 5-HT → depression, anxiety, insomnia, pain
+- (b) Quinolinic acid: KMO in microglia → 3-HK → 3-HAA → QUIN → NMDA excitotoxicity → cognitive dysfunction
+- (c) Kynurenic acid: KAT in astrocytes → KYNA → NMDA antagonism → cognitive slowing, reduced plasticity
+- QUIN/KYNA balance determines excitotoxicity vs. suppression phenotype
+
 
 ==== Step H1: IDO upregulation (the shared upstream trigger)
 
@@ -382,7 +463,13 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 ==== Primary Cascade: B-cell production → receptor-level effects
 
-*Cascade:* Triggering infection → B cell activation (molecular mimicry or bystander) → cross-reactive GPCR autoantibody production → (a) β2-AR desensitization/internalization → vasodilation failure, impaired lipolysis, mast cell brake removal → orthostatic intolerance, fatigue, PEM; (b) M2/M4 mAChR blockade → impaired vagal signaling → reduced HRV, GI dysmotility, chronotropic incompetence; (c) α1-AR agonism (some AAb are agonistic, not antagonistic) → vasoconstriction with counter-regulatory fatigue → POTS, hypertension; (d) Area postrema access → brainstem microglial activation → NTS baroreflex reset → compensatory sympathetic overactivation.
+*Cascade:*
+- Triggering infection → B cell activation (molecular mimicry or bystander) → cross-reactive GPCR AAb
+- (a) β2-AR desensitization → vasodilation failure, impaired lipolysis, mast cell brake removal → OI, fatigue, PEM
+- (b) M2/M4 mAChR blockade → impaired vagal signaling → reduced HRV, GI dysmotility, chronotropic incompetence
+- (c) α1-AR agonism → vasoconstriction + counter-regulatory fatigue → POTS, hypertension
+- (d) Area postrema access → brainstem microglial activation → NTS baroreflex reset → sympathetic overactivation
+
 
 *Step I1:* B-cell / plasma cell autoantibody production (source-level)
 - *Intercept:* Rituximab (anti-CD20) — depletes B cells but spares long-lived CD20− plasma cells; Daratumumab (anti-CD38) — depletes plasma cells (including long-lived); Immunoadsorption (IA) — physically removes circulating IgG (protein A columns); BC007 — aptamer neutralizes specific GPCR AAbs (β1-AR, β2-AR, M2, α1-AR, AT1R, ETA).
@@ -435,7 +522,13 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.25.* Anti-ECM1 autoantibodies documented in ME/CFS (limited evidence). No clinical trial of ECM-targeting interventions in ME/CFS.
 
-==== Cascade: Autoantibodies against ECM proteins (collagen, periostin, elastin) → impaired collagen crosslinking, elastin degradation, abnormal ECM remodeling → connective tissue weakness → hypermobility, craniocervical instability, vascular fragility, impaired tissue repair
+==== Cascade: Anti-ECM AAb → collagen/elastin degradation → connective tissue weakness
+
+*Cascade:*
+- Autoantibodies against ECM proteins (collagen, periostin, elastin)
+- Impaired collagen crosslinking, elastin degradation, abnormal ECM remodeling
+- Connective tissue weakness → hypermobility, CCI, vascular fragility, impaired tissue repair
+
 
 *Step J2:* Impaired collagen crosslinking (ECM-level)
 - *Intercept:* Vitamin C (500--2000 mg/day) — prolyl hydroxylase cofactor; Copper — LOX cofactor; Glycine + proline — collagen substrate; Circadian-timed (prolyl hydroxylase circadian optimization model, ch14a)
@@ -454,7 +547,16 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.50.* Microglial activation in ME/CFS supported by TSPO-PET evidence (Nakatomi 2014, widespread neuroinflammation in thalamus, midbrain, pons, and cortex) and LDN response patterns. Four downstream arms are mechanistically distinct and pharmacologically distinguishable. This is the hypothesis most patients will probe first — LDN is the most commonly trialed medication in ME/CFS.
 
-==== Cascade: Triggering infection → microglial priming (TLR4, DAMPs — damage-associated molecular patterns released from damaged cells — epigenetic marks at pro-inflammatory gene promoters) → primed microglia → chronic low-grade IL-1β, TNF-α, PGE2 → (a) hypothalamic inflammation → orexin neuron suppression → fatigue, unrefreshing sleep, loss of wakefulness drive; (b) basal ganglia inflammation → dopamine synthesis (BH4-dependent tyrosine hydroxylase) and transport (VMAT2) impairment → anhedonia, effort-allocation deficit, bradykinesia; (c) brainstem inflammation → NTS/VLM/DMV dysfunction → autonomic instability, baroreflex impairment, reduced HRV, orthostatic intolerance; (d) prefrontal cortex inflammation → impaired working memory, executive dysfunction, brain fog, and impaired top-down pain modulation.
+==== Cascade: Microglial priming → four-region neuroinflammatory consequences
+
+*Cascade:*
+- Triggering infection → microglial priming (TLR4, DAMPs, epigenetic marks) → primed microglia
+- Chronic low-grade IL-1β, TNF-α, PGE2 → four downstream regions:
+- (a) Hypothalamic → orexin neuron suppression → fatigue, unrefreshing sleep
+- (b) Basal ganglia → DA synthesis (BH4-dependent TH) and VMAT2 impairment → anhedonia, bradykinesia
+- (c) Brainstem → NTS/VLM/DMV dysfunction → autonomic instability, reduced HRV
+- (d) Prefrontal cortex → impaired working memory, executive dysfunction, brain fog
+
 
 *Step K1:* Microglial TLR4/P2X7/DAMP activation (the priming step)
 - *Mechanism:* Resting microglia become "primed" when TLR4 (recognizing LPS, DAMPs like HMGB1, heat shock proteins, fibronectin fragments), P2X7 (ATP released from damaged cells), and C5aR (complement activation) are chronically stimulated. Primed microglia do not produce full-blown inflammation — they produce a low-grade, sustained cytokine release (IL-1β, TNF-α) that alters neuronal function without causing overt tissue damage. This is "neuroinflammation without neurodegeneration" — the pattern seen on TSPO-PET in ME/CFS.
@@ -502,7 +604,20 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.40.* Brainstem neuroinflammation hypothesized from TSPO-PET data (Nakatomi 2014, widespread microglial activation including medulla oblongata), GPCR AAb area postrema access models (area postrema lacks BBB — circulating AAbs directly access brainstem), and autonomic symptom convergence (orthostatic intolerance, reduced HRV, impaired baroreflex, respiratory symptoms). No direct medullary histopathology in ME/CFS. The brainstem is the most clinically consequential site of neuroinflammation — it controls blood pressure, heart rate, breathing, and the vagal anti-inflammatory reflex — yet it has the tightest BBB of any brain region, making it the most pharmacologically inaccessible. This paradox (most clinically important, least drug-accessible) defines the diagnostic challenge.
 
-==== Cascade: GPCR autoantibodies (β2-AR, M2/M4, α1-AR, AT1R) and viral components access the area postrema (no BBB) → bind to receptors on NTS and area postrema neurons → (a) direct receptor dysregulation (β2-AR desensitization, M2 blockade) → altered neuronal firing; (b) local microglial activation → cytokine release (IL-1β, TNF-α) → further suppression of adjacent autonomic nuclei; the combined effect → (1) NTS dysfunction → baroreflex impairment → reduced baroreflex gain → exaggerated BP and HR fluctuations, failure to buffer orthostatic BP drops, compensatory sympathetic overactivation → hyperadrenergic state; (2) VLM dysfunction → altered sympathetic output → inappropriate vasoconstriction or vasodilation → orthostatic intolerance, labile BP; (3) DMV dysfunction → reduced vagal efferent output → reduced HRV, chronotropic incompetence, impaired GI motility, reduced CAP activity (chronic systemic inflammation); (4) Nucleus ambiguus dysfunction → impaired laryngeal and pharyngeal muscle control → dysphagia, voice changes (reported in some ME/CFS patients); (5) Respiratory chemoreflex dysfunction (retrotrapezoid nucleus, pre-Bötzinger complex) → impaired CO₂ sensitivity → dyspnea, air hunger, reduced respiratory drive during sleep → sleep-disordered breathing; (6) Ascending LC-NE dysfunction → reduced NE release from locus coeruleus projections to cortex, thalamus, and hypothalamus → impaired arousal, attention, and cognitive function.
+==== Cascade: GPCR AAb at area postrema → six brainstem autonomic consequences
+
+*Cascade:*
+- GPCR AAb (β2-AR, M2/M4, α1-AR, AT1R) + viral components access area postrema (no BBB)
+- (a) Direct receptor dysregulation (β2-AR desensitization, M2 blockade) → altered firing
+- (b) Local microglial activation → cytokine release → suppression of adjacent autonomic nuclei
+- Combined effect → six consequences:
+- (1) NTS → baroreflex impairment → hyperadrenergic state
+- (2) VLM → altered sympathetic output → orthostatic intolerance, labile BP
+- (3) DMV → reduced vagal efferent → reduced HRV, GI dysmotility, reduced CAP
+- (4) Nucleus ambiguus → dysphagia, voice changes
+- (5) Respiratory chemoreflex → impaired CO₂ sensitivity → dyspnea, sleep-disordered breathing
+- (6) Ascending LC-NE → reduced arousal, attention, cognitive function
+
 
 ==== Step L1: Brainstem microglial activation — drug accessibility problem
 
@@ -554,7 +669,14 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.45.* Glymphatic dysfunction supported by ME/CFS alpha-delta sleep data (alpha wave intrusion into delta sleep → reduced slow-wave sleep, the sleep stage when glymphatic clearance peaks), LC-NE vasomotion coupling models (NE drives arteriolar vasomotion → CSF-ISF exchange — impaired LC-NE coupling → impaired glymphatic flow), and the "toxic" morning headache pattern reported by many patients (waking with headache that improves as the day progresses — consistent with overnight neurotoxin accumulation that clears during upright posture). No direct CSF flow measurement in ME/CFS using contrast-enhanced MRI has been performed.
 
-==== Cascade: Alpha-delta sleep (alpha wave intrusion during delta sleep) → reduced slow-wave sleep (SWS) → impaired LC-NE vasomotion coupling (NE drives norepinephrine-mediated vasomotion — rhythmic arteriolar constriction/dilation that pumps CSF through the brain parenchyma; SWS is when NE release is minimal, allowing maximal vasodilation and glymphatic flow; alpha intrusion = partial arousal = NE release during supposed SWS → vasoconstriction → reduced glymphatic flow) → glymphatic CSF clearance failure → interstitial waste accumulation (amyloid-β, tau, quinolinic acid, kynurenic acid, ECM fragments from MMP degradation, S100B from astrocyte damage, and cytokines) → sustained neuroinflammation (waste products are pro-inflammatory) + cognitive dysfunction (synaptic waste impairs plasticity) + "toxic" morning headache (waste accumulates overnight, causes meningeal irritation and vascular headache on waking) + progressive neurodegenerative risk (amyloid/tau accumulation — long-term consequence).
+==== Cascade: Alpha-delta sleep → LC-NE vasomotion failure → glymphatic collapse
+
+*Cascade:*
+- Alpha-delta sleep (alpha intrusion during delta) → reduced SWS
+- Impaired LC-NE vasomotion coupling: alpha intrusion → NE release → vasoconstriction → reduced glymphatic flow
+- Glymphatic CSF clearance failure → interstitial waste accumulation
+- Waste (amyloid-β, tau, QUIN, KYNA, ECM fragments, S100B, cytokines) → neuroinflammation + cognitive dysfunction + toxic morning headache + progressive neurodegenerative risk
+
 
 ==== Step M1: LC-NE vasomotion coupling failure (the glymphatic pump)
 
@@ -594,7 +716,14 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.45.* HIF-1α stabilization supported by indirect evidence (ROS elevation). MMP-3/MMP-9 upregulation and collagen IV capillary deposition documented. DMF not studied for this indication in ME/CFS.
 
-==== Cascade: Chronic oxidative stress (ROS) → prolyl hydroxylase inhibition → HIF-1α stabilization → (a) MMP-3/MMP-9 upregulation → collagen/elastin degradation → ligament laxity; (b) VEGF upregulation → capillary basement membrane thickening (collagen IV) → impaired diffusion; (c) Altered ECM composition → mast cell activation
+==== Cascade: ROS → PHD inhibition → HIF-1α → MMP/VEGF/ECM
+
+*Cascade:*
+- Chronic ROS → prolyl hydroxylase inhibition → HIF-1α stabilization
+- (a) MMP-3/MMP-9 upregulation → collagen/elastin degradation → ligament laxity
+- (b) VEGF upregulation → capillary basement membrane thickening (collagen IV) → impaired diffusion
+- (c) Altered ECM composition → mast cell activation
+
 
 *Step N1:* Prolyl hydroxylase inhibition (ROS → HIF-1α gate)
 - *Intercept:* Vitamin C (500--2000 mg) — PHD cofactor; Alpha-ketoglutarate; Circadian timing — align with peak PHD activity (prolyl hydroxylase circadian optimization, ch14a); NAC — reduces ROS
@@ -614,7 +743,16 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.45.* CCI documented in ME/CFS-hEDS overlap populations (30--57% hypermobility prevalence). Cervical collar diagnostic trial has no controlled data but strong mechanistic rationale.
 
-==== Cascade: Ligament laxity (hEDS, acquired from HIF-1α MMP degradation) → craniocervical junction instability → (a) brainstem/upper cervical cord compression; (b) vertebral artery compression; (c) CSF flow obstruction; (d) Sympathetic chain compression at C1-C2; (e) Vagus nerve stretch
+==== Cascade: Ligament laxity → CCI → five compression consequences
+
+*Cascade:*
+- Ligament laxity (hEDS, or acquired from HIF-1α MMP degradation) → craniocervical junction instability
+- (a) Brainstem/upper cervical cord compression
+- (b) Vertebral artery compression
+- (c) CSF flow obstruction
+- (d) Sympathetic chain compression at C1-C2
+- (e) Vagus nerve stretch
+
 
 *Step O1:* Ligament laxity → CJ instability
 - *Intercept:* Cervical collar trial (Aspen/Miami J) — external stabilization; Physical therapy; Prolotherapy/PRP (investigational)
@@ -634,7 +772,15 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Certainty: 0.45.* hEDS/HSD prevalence in ME/CFS is 30--57% vs. 10--15% general population. Four downstream cascades share connective tissue quality as common substrate.
 
-==== Cascade: Genetic collagen/ECM protein variants (or acquired ECM degradation) → tissue laxity → (a) venous compliance → venous pooling → orthostatic intolerance; (b) joint hypermobility → proprioceptive dysfunction → chronic pain, functional CCI; (c) dural laxity → CSF leak; (d) vascular fragility
+==== Cascade: ECM variants/degradation → tissue laxity → four consequences
+
+*Cascade:*
+- Genetic collagen/ECM variants (or acquired ECM degradation) → tissue laxity
+- (a) Venous compliance → venous pooling → orthostatic intolerance
+- (b) Joint hypermobility → proprioceptive dysfunction → chronic pain, functional CCI
+- (c) Dural laxity → CSF leak
+- (d) Vascular fragility
+
 
 *Step P1:* Venous compliance → venous pooling
 - *Intercept:* Compression garments (abdominal + leg); Midodrine — venoconstriction; Fludrocortisone — volume expansion
@@ -708,7 +854,17 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 The clinical relevance: reduced HRV is one of the most replicated biomarkers in ME/CFS. The vagal dysfunction hypothesis explains it mechanistically and offers three pharmacologically distinguishable lesion levels: enteric (gut→vagus), central (brainstem vagal nuclei), and ganglionic/peripheral (AChR autoantibodies at autonomic ganglia or efferent nerve damage).
 
-==== Cascade: Gut dysbiosis (reduced butyrate-producing bacteria — Faecalibacterium prausnitzii, Roseburia, Eubacterium) → low butyrate → reduced enterochromaffin cell serotonin synthesis (butyrate is a histone deacetylase inhibitor that upregulates TPH1, the serotonin synthesis enzyme in EC cells) → reduced 5-HT release from EC cells → reduced 5-HT3 receptor activation on vagal afferent terminals in the gut mucosa → reduced vagal afferent firing → reduced vagal efferent tone (the vagal afferent→efferent reflex arc is under-stimulated at the sensory end) → (a) SA node: reduced M2 mAChR activation → reduced HRV, chronotropic incompetence, resting tachycardia; (b) gut: reduced M2/M3 mAChR activation → gastroparesis, slow transit, SIBO; (c) immune: reduced splenic α7nAChR activation → reduced CAP → systemic inflammation.
+==== Cascade: Gut dysbiosis → low butyrate → impaired vagal afferent → three consequences
+
+*Cascade:*
+- Gut dysbiosis (reduced butyrate-producing bacteria) → low butyrate
+- Reduced EC cell serotonin synthesis (butyrate HDAC inhibition → TPH1 downregulation)
+- Reduced 5-HT release → reduced 5-HT3 activation on vagal afferent terminals
+- Reduced vagal afferent firing → reduced vagal efferent tone (reflex arc under-stimulated)
+- (a) SA node: reduced M2 mAChR → reduced HRV, chronotropic incompetence, tachycardia
+- (b) Gut: reduced M2/M3 mAChR → gastroparesis, slow transit, SIBO
+- (c) Immune: reduced splenic α7nAChR → reduced CAP → systemic inflammation
+
 
 ==== Step R1: Gut dysbiosis → low butyrate → reduced EC serotonin (enteric level)
 
@@ -749,7 +905,15 @@ The clinical relevance: reduced HRV is one of the most replicated biomarkers in 
 === Pathway 1: Compensatory Muscle Overuse → Anaerobic Metabolism
 <sec:gerlier-pathway1>
 
-==== Cascade: Fixed skeletal asymmetry (rotoscoliosis, pelvic obliquity >10 mm, DAMI/ILMI) → chronic compensatory postural muscle overuse → elevated basal energy consumption (~5--10% above normal in standing/walking) → continuous low-grade ATP drain → breached critical ATP threshold (@sec:sodium-calcium-cascade) → anaerobic shift, intracellular Na⁺ overload, NCX1 reverse, mitochondrial Ca²⁺ overload → PEM from trivial activity
+==== Cascade: Skeletal asymmetry → muscle overuse → ATP drain → PEM
+
+*Cascade:*
+- Fixed skeletal asymmetry (rotoscoliosis, pelvic obliquity >10 mm, DAMI/ILMI)
+- Chronic compensatory postural muscle overuse → elevated basal energy consumption (~5--10%)
+- Continuous low-grade ATP drain → breached critical ATP threshold (@sec:sodium-calcium-cascade)
+- Anaerobic shift, intracellular Na⁺ overload, NCX1 reverse, mitochondrial Ca²⁺ overload
+- PEM from trivial activity
+
 
 *Step G1a:* Fixed skeletal asymmetry (mechanical trigger)
 - *Intercept:* Shoe lift (if LLD); Custom orthotics; Postural physiotherapy
@@ -767,7 +931,14 @@ The clinical relevance: reduced HRV is one of the most replicated biomarkers in 
 === Pathway 2: Sympathetic Chain Irritation → Multi-Organ Dysautonomia
 <sec:gerlier-pathway2>
 
-==== Cascade: Rotoscoliosis/vertebral rotation → mechanical compression/irritation of paravertebral sympathetic chain (T1--L2) → (a) acute compression → irritative firing → hyperadrenergic state; (b) chronic compression → conduction block → denervation hypersensitivity; (c) organ-specific dysfunction: T5--T9 → gastroparesis; T10-L1 → RAAS dysregulation; T1--T4 → cardiac
+==== Cascade: Rotoscoliosis → sympathetic chain compression → organ dysfunction
+
+*Cascade:*
+- Rotoscoliosis/vertebral rotation → mechanical compression of sympathetic chain (T1--L2)
+- (a) Acute compression → irritative firing → hyperadrenergic state
+- (b) Chronic compression → conduction block → denervation hypersensitivity
+- (c) Organ-specific dysfunction: T5--T9 → gastroparesis, T10--L1 → RAAS dysregulation, T1--T4 → cardiac
+
 
 *Step G2a:* Sympathetic chain compression
 - *Intercept:* Shoe lift / postural correction; Osteopathic manipulation (CAUTION — unstable CCI)
@@ -780,7 +951,13 @@ The clinical relevance: reduced HRV is one of the most replicated biomarkers in 
 === Pathway 3: Mechanical Nerve Compression → Pain, Paresthesia
 <sec:gerlier-pathway3>
 
-==== Cascade: Asymmetric fascial tension → altered nerve glide planes → compression of peripheral nerves at mechanical pinch points (lateral femoral cutaneous, sciatic, pudendal) → chronic low-grade compression neuropathy → fluctuating paresthesia, positional allodynia
+==== Cascade: Fascial tension → nerve compression → positional neuropathic pain
+
+*Cascade:*
+- Asymmetric fascial tension → altered nerve glide planes
+- Compression at mechanical pinch points (lateral femoral cutaneous, sciatic, pudendal)
+- Chronic low-grade compression neuropathy → fluctuating paresthesia, positional allodynia
+
 
 *Step G3a:* Mechanical nerve compression at pinch points
 - *Intercept:* Shoe lift / postural correction; Nerve glide exercises; Targeted nerve blocks (diagnostic)
@@ -794,7 +971,14 @@ The clinical relevance: reduced HRV is one of the most replicated biomarkers in 
 === Pathway 4: Cervical Aging Spiral → Functional CCI + Proprioceptive Degradation
 <sec:gerlier-pathway4>
 
-==== Cascade: Pelvic obliquity → lumbar/thoracic countercurves → cervical tilt → chronic subclinical neck muscle overwork → premature fatigue of cervical stabilizers → proprioceptive degradation at craniocervical junction → functional CCI → dizziness, headache, brain fog, visual disturbances
+==== Cascade: Pelvic obliquity → cervical spiral → functional CCI
+
+*Cascade:*
+- Pelvic obliquity → lumbar/thoracic countercurves → cervical tilt
+- Chronic subclinical neck muscle overwork → premature fatigue of cervical stabilizers
+- Proprioceptive degradation at craniocervical junction → functional CCI
+- Dizziness, headache, brain fog, visual disturbances
+
 
 *Step G4a:* Cervical tilt → chronic neck muscle overwork
 - *Intercept:* Shoe lift; Cervical bracing/taping; Ergonomic optimization
@@ -844,7 +1028,13 @@ A patient with skeletal asymmetry showing dramatic improvement on low-dose aripi
 
 *Certainty: 0.40.* Progressive loss of work capacity across PEM episodes is clinically observed. Epigenetic scarring and recovery capital depletion are mechanistic inferences. No direct longitudinal measurement in ME/CFS.
 
-==== Cascade: Repeated PEM episodes → progressive lowering of "crash threshold" → residual damage (epigenetic marks, mitochondrial damage, microglial priming, HSC exhaustion) → recovery incomplete → work capacity ratchets downward → treatment resistance increases with illness duration
+==== Cascade: PEM → residual damage → capacity ratchet → treatment resistance
+
+*Cascade:*
+- Repeated PEM episodes → progressive lowering of crash threshold
+- Residual damage (epigenetic marks, mitochondrial damage, microglial priming, HSC exhaustion)
+- Recovery incomplete → work capacity ratchets downward → treatment resistance increases with illness duration
+
 
 *Step S1:* PEM episode → residual damage accumulation
 - *Intercept:* PEM prevention (pacing, HR monitoring); Antioxidants (CoQ10, NAC) during exertion; Rapamycin — enhances mitophagy between episodes
@@ -862,7 +1052,14 @@ A patient with skeletal asymmetry showing dramatic improvement on low-dose aripi
 
 *Certainty: 0.45.* Pattern of preserved baseline function with catastrophic demand failure documented in ME/CFS (2-day CPET: normal VO₂peak on Day 1, significantly reduced on Day 2). CNS energy crisis model @spec:cns-primary — the brain is an obligate glucose consumer with minimal glycogen reserves, consuming ~20% of total body ATP. Under energy shortage, ATP allocation is triaged: essential functions preserved (basal metabolism, vital organ function, hair/nail growth — note that hair and nails are often reported as growing normally in ME/CFS despite severe functional impairment), non-essential functions deprioritized (exercise capacity, immune adaptation, orthostatic tolerance, cognitive effort, emotional regulation). The diagnostic task is to identify WHICH demand-response systems are being ATP-deprioritized — the pattern of which pharmacological bypass agents work reveals the triage pattern in that patient.
 
-==== Cascade: Cellular energy shortage (mitochondrial ATP production deficit from ETC dysfunction, PDH block, NAD⁺ depletion, or delivery failure) → AMPK activation → selective ATP allocation → deprioritization of "non-essential" functions (exercise capacity, then immune adaptation, then orthostatic tolerance, then cognitive effort, then emotional regulation, in approximate order of ATP cost and survival priority) → preservation of "essential" functions (basal metabolism, cardiac output at rest, respiratory drive, renal function, hepatic gluconeogenesis, hair/nail growth) → clinical pattern: patient appears well at rest (normal vital signs, normal basic labs, normal hair/nails) but catastrophically fails under demand (exercise, cognitive task, emotional stress, orthostatic challenge).
+==== Cascade: Energy shortage → AMPK → ATP triage → demand failure
+
+*Cascade:*
+- Cellular energy shortage (ETC dysfunction, PDH block, NAD⁺ depletion, or delivery failure) → AMPK activation
+- Selective ATP allocation → deprioritization order: exercise capacity → immune adaptation → orthostatic tolerance → cognitive effort → emotional regulation
+- Preservation of essential functions: basal metabolism, cardiac output, respiratory drive, renal function
+- Clinical pattern: appears well at rest, catastrophically fails under demand
+
 
 ==== Step T1: Total ATP pool — is the pool expandable or fixed?
 
