@@ -1,0 +1,12 @@
+#import "../../../../shared/environments.typ": *
+
+==== Sequential Ordering as Causal Probe
+
+The order in which drugs are introduced can reveal the causal chain:
+
+- *If LDN must be started before pyridostigmine for either to work:* LDN reduces neuroinflammation at the brainstem → restores vagal efferent function → pyridostigmine can then enhance the restored vagal tone. If pyridostigmine is started first, the vagal pathway is too inflamed to transmit → no benefit. The ordering requirement confirms that neuroinflammation is upstream of vagal dysfunction.
+- *If ketotifen must be started before LDN:* Mast cell degranulation is driving the neuroinflammation that LDN targets. Without mast cell stabilization, LDN's TLR4 blockade is overwhelmed by mast-cell-derived inflammatory mediators. The ordering requirement confirms mast cells are upstream of microglia.
+- *If CoQ10 must precede NAC for NAC to work:* CoQ10 improves ETC throughput, which generates ROS as a byproduct of restored electron flow. NAC is needed to scavenge those ROS — but if NAC is given first (without the ETC running), there is no excess ROS to scavenge and no benefit. The ordering confirms that ROS generation requires prior ETC restoration — the primary defect is ETC inefficiency, and ROS is secondary.
+- *If famotidine must precede ketotifen for ketotifen to work:* H2-mediated gastric histamine is contributing to systemic mast cell degranulation (via gut→systemic histamine spillover). Blocking gastric H2 first reduces the histamine load → ketotifen can then stabilize mast cells against the remaining IgE/PGD2-mediated triggers. If ketotifen is started first without H2 blockade, the continuous gastric histamine release overwhelms ketotifen's stabilization capacity. The ordering confirms gut H2-mediated histamine is upstream of systemic MCAS — target the source (gut) before the effector (mast cells).
+- *If pyridostigmine must precede midodrine for orthostatic benefit:* Pyridostigmine enhances preload via cholinergic venoconstriction → more blood returns to the heart → midodrine's α1-mediated vasoconstriction can then pressurize an adequately filled system. If midodrine is started first in a preload-deficient patient → vasoconstriction of a half-empty system → BP rises but perfusion does not improve. The ordering confirms preload failure (cholinergic) is upstream of vasoconstriction (adrenergic) — fix the filling before adding the pump.
+

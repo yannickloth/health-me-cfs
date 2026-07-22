@@ -1,6 +1,6 @@
 #import "../../../../../shared/environments.typ": *
 
-==== What the Response Tells Us About LDA
+==== What the Response Tells Us About LDA <sec:lda-differential>
 
 Low-dose aripiprazole (1–2 mg/day) is a partial dopamine agonist — it provides modest D2/D3 receptor stimulation where dopamine is low and acts as a functional antagonist where dopamine is adequate (only 25–30% of dopamine's intrinsic activity). It also targets serotonin 5-HT1A receptors. If LDA improves cognitive symptoms, dopamine signaling was likely insufficient. However, LDA carries significant metabolic risks — the diagnostic signal is purchased with real exposure.
 

@@ -1,0 +1,11 @@
+#import "../../../../shared/environments.typ": *
+
+==== Step G3: Sirtuin, PARP, and CD38 — therapeutic targets or diagnostic probes?
+
+- *Resveratrol (150--500 mg, sirtuin activator):* SIRT1 and SIRT3 require NAD⁺. If resveratrol improves mitochondrial function → sirtuin activation promotes mitochondrial biogenesis (SIRT1→PGC-1α) and ETC efficiency (SIRT3 deacetylates Complex I and II). If resveratrol worsens fatigue → sirtuins are already consuming NAD⁺ at maximal rate, and further activation depletes NAD⁺ below critical threshold.
+- *Apigenin (50--100 mg, CD38 inhibitor, dietary flavonoid):* Reduces CD38-mediated NAD⁺ degradation. If apigenin + NMN/NR increases NAD⁺ levels more than NMN/NR alone → CD38 was degrading the supplemented precursor before it could raise NAD⁺.
+- *NAD⁺/NADH ratio measurement:* This is measurable in clinical labs (LC-MS/MS from whole blood). The ratio should guide supplementation: if the ratio is low → supplementation is indicated; if the ratio is normal despite symptoms → NAD⁺ is not the bottleneck, and supplementation is addressing the wrong node. Measure pre- and post-NMN/NR supplementation — if NAD⁺ rises but symptoms do not improve → NAD⁺ is not rate-limiting; the metabolic defect is downstream of NAD⁺ availability.
+
+*Consequence:* The NAD⁺ cascade is the most biochemically measurable energy cascade in the chapter — NAD⁺/NADH ratio, kynurenine/tryptophan ratio, CD38 levels, and 8-OHdG (oxidative DNA damage) are all clinical-lab measurable. The diagnostic sequence: (1) measure baseline NAD⁺ and kynurenine/tryptophan ratio; (2) NMN/NR trial → NAD⁺ rise = synthesis pathway functional; NAD⁺ rise without symptomatic improvement = consumption rate equals supplementation rate or NAD⁺ is not rate-limiting; (3) If NMN/NR null → check CD38 and PARP markers → treat the dominant consumer (CD38 inhibitor, antioxidant for PARP); (4) If NMN/NR + CD38 inhibitor produces NAD⁺ rise but no symptomatic benefit → NAD⁺ is not the metabolic bottleneck — the block is in ETC Complex I or downstream ATP synthesis. This cascade benefits most from serum biomarker correlation — the biochemical measurements validate the pharmocodiagnostic logic.
+*Origin:* mechanistic-pathway-tracing.
+

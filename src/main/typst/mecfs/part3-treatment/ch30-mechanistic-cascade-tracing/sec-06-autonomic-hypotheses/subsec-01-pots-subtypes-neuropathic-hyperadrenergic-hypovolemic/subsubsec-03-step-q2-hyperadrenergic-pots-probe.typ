@@ -1,0 +1,14 @@
+#import "../../../../shared/environments.typ": *
+
+==== Step Q2: Hyperadrenergic POTS Probe
+
+*Probe:* Beta-blockers (propranolol 10--20 mg, bisoprolol 2.5--5 mg) — block β1-AR on SA node (reduce HR) and β2-AR on vasculature (prevent vasodilation). Clonidine (α2 agonist, 0.05--0.1 mg) — suppresses central sympathetic outflow at brainstem level, the most specific probe for central hyperadrenergic drive. Guanfacine (α2A agonist, 0.5--1 mg) — PFC-selective α2A agonism, less hypotensive than clonidine.
+
+*If beta-blocker reduces HR without worsening fatigue AND supine NE is elevated:* Hyperadrenergic POTS. The tachycardia is from excessive NE on the SA node — blocking β1-AR normalizes HR. The absence of fatigue worsening means β2-AR metabolic function (lipolysis) is not rate-limiting — the patient's energy metabolism does not depend on β2-AR. If supine NE is elevated (>400 pg/mL) → confirms central sympathetic overactivation.
+
+*Critical differential — beta-blocker vs. ivabradine:* If beta-blocker reduces HR but worsens fatigue → β2-AR blockade impairs lipolysis, and the patient's metabolism depends on β2-AR-mediated fatty acid mobilization (Pattern 1, @sec:side-effects-diagnostic). Ivabradine (If current blocker, 2.5--7.5 mg BID) slows HR at the SA node without any β-AR activity — it bypasses the β1/β2 selectivity problem entirely. If ivabradine reduces HR without fatigue worsening → the tachycardia is the problem, and β2-AR must be preserved for metabolic function. Ivabradine is the specific probe: it isolates HR from metabolism. If neither beta-blocker nor ivabradine works → the tachycardia is compensatory for something else (low stroke volume from hypovolemia, venous pooling, or impaired cardiac contractility) — blocking HR without fixing the underlying cause reduces cardiac output and worsens symptoms.
+
+*If clonidine works:* Central sympathetic overactivation is confirmed. Clonidine suppresses brainstem sympathetic output — if this normalizes BP and HR, the driver is central (brainstem NTS baroreflex reset, GPCR AAb at area postrema), not peripheral (vascular hypersensitivity). If clonidine crashes BP at minimal dose → the patient is sympathetically dependent for hemodynamics (Pattern 4, @sec:side-effects-diagnostic) — midodrine must precede clonidine. If clonidine sedates without hemodynamic benefit → the sympathetic overactivation is compensatory (for hypovolemia, venous pooling, or low cardiac output), not causal — suppressing it worsens the underlying deficit.
+
+*If guanfacine works where clonidine causes hypotension:* The PFC-selective α2A agonism of guanfacine provides cognitive benefit without the widespread central sympathetic suppression of clonidine. The patient has hyperadrenergic POTS with PFC cognitive dysfunction — guanfacine addresses both (PFC α2A agonism improves cognition; mild brainstem α2A agonism reduces sympathetic output at a dose below the hypotension threshold).
+

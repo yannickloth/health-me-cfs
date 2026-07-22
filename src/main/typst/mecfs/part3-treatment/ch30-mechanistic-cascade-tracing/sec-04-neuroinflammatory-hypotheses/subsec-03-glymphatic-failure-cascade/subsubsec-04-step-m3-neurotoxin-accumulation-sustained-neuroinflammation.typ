@@ -1,0 +1,14 @@
+#import "../../../../shared/environments.typ": *
+
+==== Step M3: Neurotoxin accumulation → sustained neuroinflammation
+
+*Mechanism:* Accumulated waste products are pro-inflammatory: quinolinic acid → NMDA excitotoxicity; S100B → RAGE receptor activation on microglia → sustained microglial activation; amyloid-β → TLR4 activation; ECM fragments → integrin and DDR receptor activation on astrocytes → reactive astrogliosis. The result: glymphatic failure produces neuroinflammation, which itself impairs glymphatic flow (inflammatory cytokines suppress AQP4 expression and disrupt astrocyte endfeet) → a self-sustaining loop: inflammation → impaired glymphatic → waste accumulation → more inflammation.
+
+*Probe:* LDN (anti-neuroinflammatory, at bedtime). If LDN improves both morning symptoms AND reduces daytime neuroinflammatory symptoms (brain fog, sensory sensitivity) → breaking the loop: LDN reduces neuroinflammation → restores astrocyte AQP4 localization → improves glymphatic flow → reduces waste accumulation → further reduces neuroinflammation. The dual benefit (morning + sustained) suggests LDN is intervening at multiple points in the loop.
+
+*If LDN + supine positioning + melatonin produce dramatic morning improvement:* The glymphatic loop is the dominant pathology — multiple nodes must be addressed simultaneously (anti-inflammatory + mechanical + sleep architecture). The combination effect magnitude (above 50% morning improvement) quantifies the glymphatic contribution to overall symptom burden.
+
+*Consequence:* The glymphatic cascade is uniquely probeable through temporal patterns — morning vs. evening symptom severity, continuous vs. episodic drug benefit, sleep position effects. The key diagnostic sequence: (1) optimize sleep position (zero cost, zero risk) → if morning symptoms improve, mechanical drainage was the bottleneck; (2) add bedtime melatonin or LDN → if further improvement, LC-NE overactivity or neuroinflammation was impairing glymphatic flow; (3) if DORA worsens morning symptoms despite more sleep → glymphatic-per-hour is reduced; discontinue DORA. The temporal pattern of LDN benefit (morning-only vs. all-day) distinguishes glymphatic from anti-inflammatory mechanisms. A patient who wakes with severe headache that improves by noon and responds to supine position + LDN has glymphatic failure confirmed by three independent probes (temporal pattern + mechanical intervention + pharmacological intervention).
+*Origin:* mechanistic-pathway-tracing.
+
+

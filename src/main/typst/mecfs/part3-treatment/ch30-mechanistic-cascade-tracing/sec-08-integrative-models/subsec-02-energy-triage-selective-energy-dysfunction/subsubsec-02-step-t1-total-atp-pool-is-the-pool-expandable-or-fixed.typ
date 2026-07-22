@@ -1,0 +1,10 @@
+#import "../../../../shared/environments.typ": *
+
+==== Step T1: Total ATP pool — is the pool expandable or fixed?
+
+*Probes for ATP pool expansion:*
+- *CoQ10 (100--300 mg) + B-vitamins (B1, B2, B3, B5) + L-carnitine (500--1000 mg):* Cofactor package for mitochondrial ATP production. CoQ10 shuttles electrons from Complex I/II to Complex III. B-vitamins are ETC cofactors (B2 = FAD, B3 = NAD⁺). L-carnitine shuttles fatty acids into mitochondria for β-oxidation.
+- *If mitochondrial cofactors INCREASE functional capacity (upright hours, step count, cognitive task completion):* The total ATP pool is expandable — mitochondrial capacity was limited by cofactor availability, not by structural damage. This is the most favorable finding: the energy deficit is nutritional/mild-functional, and supplementation increases the pool. Record magnitude: 10% improvement → cofactors are marginal; 50% improvement → cofactor deficiency was the dominant bottleneck.
+- *If mitochondrial cofactors do NOT increase functional capacity:* The ATP pool is fixed — cofactor supplementation cannot increase production. Either: (a) mitochondrial structural damage (ETC complexes are broken, not cofactor-starved) → mitophagy + biogenesis needed (rapamycin, urolithin A); (b) the bottleneck is upstream of ETC (substrate delivery — pyruvate, fatty acids, oxygen) → delivery probes needed (midodrine, pyridostigmine); or (c) the bottleneck is at ATP utilization (ANT export, creatine phosphate shuttle) → ATP is produced but cannot reach the cellular machinery → creatine should work.
+- *Creatine monohydrate (5 g/day):* Bypasses the ATP synthesis machinery entirely — creatine phosphate acts as a spatial ATP buffer, shuttling high-energy phosphate from mitochondria to cytosol. If creatine improves functional capacity where cofactors did not → ATP is being produced (mitochondria work) but cannot reach the cellular machinery that needs it (ANT export or creatine phosphate shuttle failure). The bottleneck is ATP distribution, not ATP production.
+

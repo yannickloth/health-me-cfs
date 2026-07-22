@@ -1,0 +1,16 @@
+#import "../../../../shared/environments.typ": *
+
+==== Step G2: NAD⁺ synthesis vs. consumption — which is the dominant mechanism?
+
+*Probes for synthesis:*
+- *NMN (nicotinamide mononucleotide, 250--1000 mg/day) or NR (nicotinamide riboside, 300--1000 mg/day):* NAD⁺ precursors that enter the salvage pathway (NR → NMN → NAD⁺), bypassing the tryptophan de novo pathway entirely. If NMN/NR improves fatigue, cognition, and exercise tolerance → NAD⁺ deficiency from tryptophan diversion is rate-limiting. The salvage pathway is functional (NR → NMN → NAD⁺ via NMNAT enzymes) — the bottleneck is substrate availability, not enzyme function.
+- *Niacin (nicotinic acid, 500--2000 mg/day, flush form):* NAD⁺ precursor through the Preiss-Handler pathway (different from salvage). Causes prostaglandin-mediated flushing (avoid in MCAS unless pre-treated with aspirin). If niacin works where NMN/NR does NOT → the salvage pathway enzyme (NMNAT) is deficient, but the Preiss-Handler pathway is intact. Niacin flushing: if severe → mast cell hyper-reactivity (Pattern 3, @sec:side-effects-diagnostic). If absent → prostaglandin system is hyporesponsive (consistent with MCAS desensitization).
+- *Nicotinamide (non-flush niacinamide, 500--1500 mg):* NAD⁺ precursor without flushing — inhibits sirtuins and PARP at high doses. If nicotinamide improves symptoms → NAD⁺ deficiency AND sirtuin/PARP overactivation are both rate-limiting (nicotinamide provides NAD⁺ precursor AND inhibits NAD⁺ consumers). If NMN works but nicotinamide does NOT → the NAD⁺ deficiency is the bottleneck, and sirtuin/PARP inhibition is unnecessary or harmful.
+
+*Probes for consumption:*
+- *If NMN/NR does NOT work:* NAD⁺ is NOT rate-limiting, OR consumption is so high that precursor supplementation cannot keep up. Distinguish:
+  1. *PARP overactivation:* If NMN/NR produces no benefit but the patient has evidence of oxidative DNA damage (elevated 8-OHdG in urine) → PARP is consuming NAD⁺ faster than supplementation can provide. PARP inhibitors are not clinically available for ME/CFS (olaparib, niraparib are oncology drugs with significant toxicity).
+  2. *CD38 overactivation:* If NMN/NR produces no benefit but serum CD38 is elevated (measurable) → CD38 is degrading NAD⁺. CD38 inhibitors (apigenin, quercetin, luteolin — flavonoids) reduce CD38 activity. If apigenin + NMN/NR works where NMN/NR alone does NOT → CD38-mediated degradation is the dominant NAD⁺ sink.
+  3. *Sirtuin overactivation:* If NMN/NR provides initial benefit (first 2 weeks) but then stops (tachyphylaxis) → sirtuins are consuming the supplemented NAD⁺ as quickly as it is provided. The NAD⁺ deficiency is sirtuin-consumption-driven. Resveratrol (sirtuin activator) would worsen symptoms; nicotinamide (sirtuin inhibitor) may help by reducing consumption.
+  4. *Downstream ETC failure:* If NMN/NR produces no benefit AND CD38 is normal AND PARP markers are low → NAD⁺ is not the bottleneck. The metabolic block is downstream of NAD⁺ — ETC Complex I is dysfunctional despite adequate NAD⁺ substrate.
+

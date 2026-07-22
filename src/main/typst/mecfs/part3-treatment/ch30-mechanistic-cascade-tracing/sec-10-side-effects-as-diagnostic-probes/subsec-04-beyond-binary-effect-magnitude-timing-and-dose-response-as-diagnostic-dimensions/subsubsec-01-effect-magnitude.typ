@@ -1,0 +1,13 @@
+#import "../../../../shared/environments.typ": *
+
+==== Effect Magnitude
+
+*Partial response:* A drug that produces 20% improvement, not 80%, is hitting the right node — but the node accounts for only 20% of the disease burden. The magnitude of improvement estimates the *fraction of total pathology flowing through that node.* If midodrine reduces standing HR by 10% (not the expected 50--60%), α1 receptors are partially functional — partial sympathetic denervation, not complete. If lidocaine infusion reduces pain by 30% but not 80%, central sensitization is present but only accounts for 30% of the pain burden; the remaining 70% is from peripheral nociceptive drive or non-sodium-channel mechanisms.
+
+*Ceiling effect at sub-therapeutic dose:* If aripiprazole produces 40% cognitive improvement at 0.25 mg, and 0.5 mg produces no further improvement, the ceiling is set by the underlying pathology — not by drug occupancy. Receptors are present and responsive, but the downstream pathway (cAMP/PKA, CREB, gene expression) cannot translate additional receptor activation into additional function. Diagnostic: the lesion is *post-receptor.* More drug won't help — the rate-limiting step is inside the cell.
+
+*Response magnitude as single-vs-multi-mechanism probe:* A drug with 80% improvement suggests that most of the disease burden converges through a single node. A drug with 20% improvement suggests the drug hits one of several parallel mechanisms. Low-magnitude responses across multiple drugs from different classes → multi-mechanism disease. High-magnitude response to one drug → single dominant mechanism.
+- *If doxepin 3 mg eliminates all nocturnal awakenings → histaminergic arousal is the sole cause of sleep maintenance failure.* If only partially reduces awakenings → nocturnal awakenings have multiple mechanisms (histaminergic + orexin + adrenergic). The percentage reduction estimates the fraction of awakenings attributable to histamine.
+- *If DORA improves sleep maintenance by 80% → orexin-mediated awakenings dominate.* If 20% → orexin accounts for only a fraction; other arousal systems (histaminergic, adrenergic, pain) account for the rest. The magnitude quantifies orexin's fractional contribution to sleep fragmentation.
+- *If gabapentin reduces neuropathic pain by 90% → α2δ-CaV channels mediate nearly all of the pathological pain signaling.* If 30% → α2δ channels account for a minority; other pain mechanisms (NMDA, P2X7, cytokine/glial) dominate. Gabapentinoid partial response identifies α2δ-CaV as one of several pain mechanisms — not the sole driver.
+

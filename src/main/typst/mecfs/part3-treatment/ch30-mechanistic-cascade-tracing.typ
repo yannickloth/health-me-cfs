@@ -19,185 +19,185 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 
 *Abbreviations used throughout:*
 
-/ *3β-HSD / 17β-HSD*: 3β-/17β-hydroxysteroid dehydrogenase; androgenic steroid conversion enzymes
-/ *5-HTP*: 5-hydroxytryptophan; serotonin precursor
-/ *AAb*: autoantibody
-/ *AADC*: aromatic L-amino acid decarboxylase; converts L-DOPA to dopamine
-/ *ACh*: acetylcholine
-/ *AChE*: acetylcholinesterase
-/ *AChR*: acetylcholine receptor
-/ *AIMM*: acquired ischemic mitochondrial myopathy
-/ *ALA*: alpha-lipoic acid; antioxidant and PDH cofactor
-/ *AMPK*: AMP-activated protein kinase; cellular energy sensor
-/ *ANC*: absolute neutrophil count
-/ *ANT*: adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
-/ *AQP2*: aquaporin-2; renal collecting duct water channel
-/ *ATP*: adenosine triphosphate
-/ *BBB*: blood-brain barrier
-/ *BH4*: tetrahydrobiopterin; tyrosine hydroxylase cofactor
-/ *BP*: blood pressure
-/ *cAMP*: cyclic adenosine monophosphate
-/ *CAP*: cholinergic anti-inflammatory pathway
-/ *Ca²⁺*: calcium ion
-/ *CCI*: craniocervical instability
-/ *cGMP*: cyclic guanosine monophosphate
-/ *CK*: creatine kinase; phosphocreatine buffer enzyme
-/ *CNS*: central nervous system
-/ *COMPASS-31*: Composite Autonomic Symptom Score
-/ *COMT*: catechol-O-methyltransferase; catecholamine degrading enzyme
-/ *CoQ10*: coenzyme Q10; ubiquinol/ubiquinone
-/ *COX-2*: cyclooxygenase-2
-/ *CPET*: cardiopulmonary exercise testing
-/ *CREB*: cAMP response element-binding protein
-/ *CRP*: C-reactive protein
-/ *CSF*: cerebrospinal fluid
-/ *CYP*: cytochrome P450
-/ *CysLT1*: cysteinyl leukotriene receptor type 1; montelukast target
-/ *DA*: dopamine
-/ *DAMI*: dopaminergic asymmetry measurement index (composite: striatal FDG-PET, COMPASS-31, aripiprazole slope)
-/ *DAMPs*: damage-associated molecular patterns
-/ *DAT*: dopamine transporter
-/ *DBH*: dopamine-beta-hydroxylase
-/ *DCA*: dichloroacetate; PDK inhibitor
-/ *DDR*: discoidin domain receptor
-/ *DHEA*: dehydroepiandrosterone; neurosteroid and androgen precursor
-/ *DMF*: dimethyl fumarate
-/ *DMV*: dorsal motor nucleus of vagus
-/ *DNRI*: dopamine-norepinephrine reuptake inhibitor
-/ *DORA*: dual orexin receptor antagonist
-/ *DPP-4*: dipeptidyl peptidase-4; incretin-degrading enzyme
-/ *DRG*: dorsal root ganglion
-/ *DTBZ*: dihydrotetrabenazine; VMAT2 PET ligand
-/ *EBV*: Epstein-Barr virus
-/ *EC cells*: enterochromaffin cells; gut serotonin-producing cells
-/ *ECM*: extracellular matrix
-/ *ESR*: erythrocyte sedimentation rate
-/ *ET-1*: endothelin-1; potent vasoconstrictor
-/ *ETA*: endothelin receptor type A; mediates vasoconstriction
-/ *ETC*: electron transport chain
-/ *FAO*: fatty acid oxidation
-/ *FDG*: fluorodeoxyglucose; glucose analogue for PET imaging
-/ *G-CSF*: granulocyte colony-stimulating factor
-/ *GABA*: gamma-aminobutyric acid
-/ *GAD*: glutamate decarboxylase; GABA synthesis enzyme
-/ *GI*: gastrointestinal
-/ *GLP-1*: glucagon-like peptide-1; incretin hormone
-/ *GLP-1R*: glucagon-like peptide-1 receptor
-/ *GPCR*: G protein-coupled receptor
-/ *GSH*: glutathione; primary intracellular antioxidant
-/ *Gαq*: G protein alpha-q subunit; activates PLC-β
-/ *HCA2/GPR109A*: hydroxycarboxylic acid receptor 2; niacin receptor on mast cells
-/ *HCN*: hyperpolarization-activated cyclic nucleotide-gated channel
-/ *hEDS*: hypermobile Ehlers-Danlos syndrome
-/ *HHV-6*: human herpesvirus 6
-/ *HIF-1α*: hypoxia-inducible factor 1 alpha
-/ *HIT*: histamine intolerance
-/ *HPA*: hypothalamic-pituitary-adrenal axis
-/ *HR*: heart rate
-/ *HRV*: heart rate variability
-/ *HSC*: haematopoietic stem cell
-/ *HSP70*: heat shock protein 70
-/ *HTN*: hypertension
-/ *H₂S*: hydrogen sulfide; gaseous vasodilator and mitochondrial electron donor
-/ *IA*: immunoadsorption
-/ *IDO*: indoleamine 2,3-dioxygenase
-/ *IENFD*: intraepidermal nerve fibre density
-/ *IFN-γ*: interferon gamma
-/ *IgE*: immunoglobulin E
-/ *IgG*: immunoglobulin G
-/ *IL*: interleukin
-/ *ILMI*: ipsilateral limb metabolic index (FDG-PET comparison of left vs right limb glucose uptake)
-/ *IMPase*: inositol monophosphatase; lithium target in PIP2 resynthesis
-/ *iNOS*: inducible nitric oxide synthase
-/ *IP receptor*: prostacyclin I2 receptor; mediates vasodilation
-/ *IVIG*: intravenous immunoglobulin
-/ *KAT*: kynurenine aminotransferase
-/ *KMO*: kynurenine 3-monooxygenase
-/ *KYNA*: kynurenic acid; NMDA antagonist
-/ *LC-NE*: locus coeruleus-norepinephrine
-/ *LDN*: low-dose naltrexone
-/ *LTD4*: leukotriene D4; bronchoconstrictor and MCAS mediator
-/ *LTP*: long-term potentiation
-/ *MAO-B*: monoamine oxidase B; degrades dopamine
-/ *MCAS*: mast cell activation syndrome
-/ *MMP*: matrix metalloproteinase
-/ *mPTP*: mitochondrial permeability transition pore
-/ *MRGPRX2*: Mas-related G protein-coupled receptor X2; mast cell receptor
-/ *MRS*: magnetic resonance spectroscopy
-/ *mTORC1*: mechanistic target of rapamycin complex 1
-/ *mTORC2*: mechanistic target of rapamycin complex 2; regulates cell survival and cytoskeleton
-/ *NAC*: N-acetylcysteine
-/ *NAD⁺*: nicotinamide adenine dinucleotide
-/ *NCLX*: mitochondrial sodium/calcium/lithium exchanger
-/ *NCX1*: Na⁺/Ca²⁺ exchanger 1
-/ *NE*: norepinephrine
-/ *NET*: norepinephrine transporter
-/ *NF-κB*: nuclear factor kappa-B
-/ *NHE1*: Na⁺/H⁺ exchanger 1
-/ *NK cell*: natural killer cell
-/ *NMDA*: N-methyl-D-aspartate
-/ *Nrf2*: nuclear factor erythroid 2-related factor 2; antioxidant master regulator
-/ *NRI*: norepinephrine reuptake inhibitor
-/ *NSAID*: non-steroidal anti-inflammatory drug
-/ *NTS*: nucleus tractus solitarius
-/ *OH*: orthostatic hypotension
-/ *OI*: orthostatic intolerance
-/ *OXPHOS*: oxidative phosphorylation
-/ *PARP*: poly-ADP ribose polymerase
-/ *PDE4*: phosphodiesterase 4
-/ *PDH*: pyruvate dehydrogenase
-/ *PDK*: pyruvate dehydrogenase kinase
-/ *PEA*: palmitoylethanolamide; PPAR-alpha agonist
-/ *PEM*: post-exertional malaise
-/ *PFC*: prefrontal cortex
-/ *PGD2*: prostaglandin D2; mast-cell-derived prostaglandin
-/ *PGDS*: prostaglandin D2 synthase
-/ *PGE2*: prostaglandin E2
-/ *PGH2*: prostaglandin H2; COX product and PGDS/PGES substrate
-/ *PIP2*: phosphatidylinositol 4,5-bisphosphate
-/ *PKA*: protein kinase A; cAMP-dependent kinase
-/ *PKC*: protein kinase C
-/ *PLA2*: phospholipase A2
-/ *PLC-β*: phospholipase C beta
-/ *POTS*: postural orthostatic tachycardia syndrome
-/ *PPAR-alpha*: peroxisome proliferator-activated receptor alpha
-/ *QUIN*: quinolinic acid; NMDA agonist from kynurenine pathway
-/ *RAAS*: renin-angiotensin-aldosterone system
-/ *RAGE*: receptor for advanced glycation end-products
-/ *REE*: resting energy expenditure
-/ *RLS*: restless legs syndrome
-/ *ROS*: reactive oxygen species
-/ *RVLM*: rostral ventrolateral medulla; primary sympathetic output nucleus
-/ *S100B*: S100 calcium-binding protein B; astrocyte damage marker
-/ *SA node*: sinoatrial node
-/ *SC*: supercomplex
-/ *SERT*: serotonin transporter
-/ *SFN*: small-fiber neuropathy
-/ *SIBO*: small intestinal bacterial overgrowth
-/ *sigma1R*: sigma-1 receptor; endoplasmic reticulum chaperone regulating autophagy and ER stress
-/ *SkQ1*: plastoquinonyl-decyl-triphenylphosphonium; mitochondrial-targeted antioxidant
-/ *SNRI*: serotonin-norepinephrine reuptake inhibitor
-/ *SSRI*: selective serotonin reuptake inhibitor
-/ *SV2A*: synaptic vesicle glycoprotein 2A; levetiracetam binding site
-/ *taVNS*: transcutaneous auricular vagus nerve stimulation
-/ *TCA*: tricarboxylic acid cycle
-/ *TDO*: tryptophan 2,3-dioxygenase
-/ *TLR4*: Toll-like receptor 4
-/ *TNF-α*: tumour necrosis factor alpha
-/ *TPH1*: tryptophan hydroxylase 1; peripheral serotonin synthesis enzyme (gut EC cells)
-/ *TPH2*: tryptophan hydroxylase 2; CNS serotonin synthesis enzyme (raphe nuclei)
-/ *Treg*: regulatory T cell; CD4+CD25+FoxP3+
-/ *TRPC*: transient receptor potential canonical
-/ *TRPM3*: transient receptor potential melastatin 3; non-selective cation channel
-/ *TRPM7*: transient receptor potential melastatin 7
-/ *TRPV1*: transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
-/ *TSPO*: translocator protein; microglial activation PET marker
-/ *TXA2*: thromboxane A2; platelet-derived vasoconstrictor
-/ *VEGF*: vascular endothelial growth factor
-/ *VLM*: ventrolateral medulla
-/ *VMAT2*: vesicular monoamine transporter 2
-/ *WASF3*: WAS protein family member 3; respiratory supercomplex assembly inhibitor
-/ *ΔΨm*: mitochondrial membrane potential (proton gradient across inner mitochondrial membrane)
+/ *3β-HSD / 17β-HSD*:  3β-/17β-hydroxysteroid dehydrogenase; androgenic steroid conversion enzymes
+/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
+/ *AAb*:  autoantibody
+/ *AADC*:  aromatic L-amino acid decarboxylase; converts L-DOPA to dopamine
+/ *ACh*:  acetylcholine
+/ *AChE*:  acetylcholinesterase
+/ *AChR*:  acetylcholine receptor
+/ *AIMM*:  acquired ischemic mitochondrial myopathy
+/ *ALA*:  alpha-lipoic acid; antioxidant and PDH cofactor
+/ *AMPK*:  AMP-activated protein kinase; cellular energy sensor
+/ *ANC*:  absolute neutrophil count
+/ *ANT*:  adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
+/ *AQP2*:  aquaporin-2; renal collecting duct water channel
+/ *ATP*:  adenosine triphosphate
+/ *BBB*:  blood-brain barrier
+/ *BH4*:  tetrahydrobiopterin; tyrosine hydroxylase cofactor
+/ *BP*:  blood pressure
+/ *cAMP*:  cyclic adenosine monophosphate
+/ *CAP*:  cholinergic anti-inflammatory pathway
+/ *Ca²⁺*:  calcium ion
+/ *CCI*:  craniocervical instability
+/ *cGMP*:  cyclic guanosine monophosphate
+/ *CK*:  creatine kinase; phosphocreatine buffer enzyme
+/ *CNS*:  central nervous system
+/ *COMPASS-31*:  Composite Autonomic Symptom Score
+/ *COMT*:  catechol-O-methyltransferase; catecholamine degrading enzyme
+/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
+/ *COX-2*:  cyclooxygenase-2
+/ *CPET*:  cardiopulmonary exercise testing
+/ *CREB*:  cAMP response element-binding protein
+/ *CRP*:  C-reactive protein
+/ *CSF*:  cerebrospinal fluid
+/ *CYP*:  cytochrome P450
+/ *CysLT1*:  cysteinyl leukotriene receptor type 1; montelukast target
+/ *DA*:  dopamine
+/ *DAMI*:  dopaminergic asymmetry measurement index (composite: striatal FDG-PET, COMPASS-31, aripiprazole slope)
+/ *DAMPs*:  damage-associated molecular patterns
+/ *DAT*:  dopamine transporter
+/ *DBH*:  dopamine-beta-hydroxylase
+/ *DCA*:  dichloroacetate; PDK inhibitor
+/ *DDR*:  discoidin domain receptor
+/ *DHEA*:  dehydroepiandrosterone; neurosteroid and androgen precursor
+/ *DMF*:  dimethyl fumarate
+/ *DMV*:  dorsal motor nucleus of vagus
+/ *DNRI*:  dopamine-norepinephrine reuptake inhibitor
+/ *DORA*:  dual orexin receptor antagonist
+/ *DPP-4*:  dipeptidyl peptidase-4; incretin-degrading enzyme
+/ *DRG*:  dorsal root ganglion
+/ *DTBZ*:  dihydrotetrabenazine; VMAT2 PET ligand
+/ *EBV*:  Epstein-Barr virus
+/ *EC cells*:  enterochromaffin cells; gut serotonin-producing cells
+/ *ECM*:  extracellular matrix
+/ *ESR*:  erythrocyte sedimentation rate
+/ *ET-1*:  endothelin-1; potent vasoconstrictor
+/ *ETA*:  endothelin receptor type A; mediates vasoconstriction
+/ *ETC*:  electron transport chain
+/ *FAO*:  fatty acid oxidation
+/ *FDG*:  fluorodeoxyglucose; glucose analogue for PET imaging
+/ *G-CSF*:  granulocyte colony-stimulating factor
+/ *GABA*:  gamma-aminobutyric acid
+/ *GAD*:  glutamate decarboxylase; GABA synthesis enzyme
+/ *GI*:  gastrointestinal
+/ *GLP-1*:  glucagon-like peptide-1; incretin hormone
+/ *GLP-1R*:  glucagon-like peptide-1 receptor
+/ *GPCR*:  G protein-coupled receptor
+/ *GSH*:  glutathione; primary intracellular antioxidant
+/ *Gαq*:  G protein alpha-q subunit; activates PLC-β
+/ *HCA2/GPR109A*:  hydroxycarboxylic acid receptor 2; niacin receptor on mast cells
+/ *HCN*:  hyperpolarization-activated cyclic nucleotide-gated channel
+/ *hEDS*:  hypermobile Ehlers-Danlos syndrome
+/ *HHV-6*:  human herpesvirus 6
+/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
+/ *HIT*:  histamine intolerance
+/ *HPA*:  hypothalamic-pituitary-adrenal axis
+/ *HR*:  heart rate
+/ *HRV*:  heart rate variability
+/ *HSC*:  haematopoietic stem cell
+/ *HSP70*:  heat shock protein 70
+/ *HTN*:  hypertension
+/ *H₂S*:  hydrogen sulfide; gaseous vasodilator and mitochondrial electron donor
+/ *IA*:  immunoadsorption
+/ *IDO*:  indoleamine 2,3-dioxygenase
+/ *IENFD*:  intraepidermal nerve fibre density
+/ *IFN-γ*:  interferon gamma
+/ *IgE*:  immunoglobulin E
+/ *IgG*:  immunoglobulin G
+/ *IL*:  interleukin
+/ *ILMI*:  ipsilateral limb metabolic index (FDG-PET comparison of left vs right limb glucose uptake)
+/ *IMPase*:  inositol monophosphatase; lithium target in PIP2 resynthesis
+/ *iNOS*:  inducible nitric oxide synthase
+/ *IP receptor*:  prostacyclin I2 receptor; mediates vasodilation
+/ *IVIG*:  intravenous immunoglobulin
+/ *KAT*:  kynurenine aminotransferase
+/ *KMO*:  kynurenine 3-monooxygenase
+/ *KYNA*:  kynurenic acid; NMDA antagonist
+/ *LC-NE*:  locus coeruleus-norepinephrine
+/ *LDN*:  low-dose naltrexone
+/ *LTD4*:  leukotriene D4; bronchoconstrictor and MCAS mediator
+/ *LTP*:  long-term potentiation
+/ *MAO-B*:  monoamine oxidase B; degrades dopamine
+/ *MCAS*:  mast cell activation syndrome
+/ *MMP*:  matrix metalloproteinase
+/ *mPTP*:  mitochondrial permeability transition pore
+/ *MRGPRX2*:  Mas-related G protein-coupled receptor X2; mast cell receptor
+/ *MRS*:  magnetic resonance spectroscopy
+/ *mTORC1*:  mechanistic target of rapamycin complex 1
+/ *mTORC2*:  mechanistic target of rapamycin complex 2; regulates cell survival and cytoskeleton
+/ *NAC*:  N-acetylcysteine
+/ *NAD⁺*:  nicotinamide adenine dinucleotide
+/ *NCLX*:  mitochondrial sodium/calcium/lithium exchanger
+/ *NCX1*:  Na⁺/Ca²⁺ exchanger 1
+/ *NE*:  norepinephrine
+/ *NET*:  norepinephrine transporter
+/ *NF-κB*:  nuclear factor kappa-B
+/ *NHE1*:  Na⁺/H⁺ exchanger 1
+/ *NK cell*:  natural killer cell
+/ *NMDA*:  N-methyl-D-aspartate
+/ *Nrf2*:  nuclear factor erythroid 2-related factor 2; antioxidant master regulator
+/ *NRI*:  norepinephrine reuptake inhibitor
+/ *NSAID*:  non-steroidal anti-inflammatory drug
+/ *NTS*:  nucleus tractus solitarius
+/ *OH*:  orthostatic hypotension
+/ *OI*:  orthostatic intolerance
+/ *OXPHOS*:  oxidative phosphorylation
+/ *PARP*:  poly-ADP ribose polymerase
+/ *PDE4*:  phosphodiesterase 4
+/ *PDH*:  pyruvate dehydrogenase
+/ *PDK*:  pyruvate dehydrogenase kinase
+/ *PEA*:  palmitoylethanolamide; PPAR-alpha agonist
+/ *PEM*:  post-exertional malaise
+/ *PFC*:  prefrontal cortex
+/ *PGD2*:  prostaglandin D2; mast-cell-derived prostaglandin
+/ *PGDS*:  prostaglandin D2 synthase
+/ *PGE2*:  prostaglandin E2
+/ *PGH2*:  prostaglandin H2; COX product and PGDS/PGES substrate
+/ *PIP2*:  phosphatidylinositol 4,5-bisphosphate
+/ *PKA*:  protein kinase A; cAMP-dependent kinase
+/ *PKC*:  protein kinase C
+/ *PLA2*:  phospholipase A2
+/ *PLC-β*:  phospholipase C beta
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *PPAR-alpha*:  peroxisome proliferator-activated receptor alpha
+/ *QUIN*:  quinolinic acid; NMDA agonist from kynurenine pathway
+/ *RAAS*:  renin-angiotensin-aldosterone system
+/ *RAGE*:  receptor for advanced glycation end-products
+/ *REE*:  resting energy expenditure
+/ *RLS*:  restless legs syndrome
+/ *ROS*:  reactive oxygen species
+/ *RVLM*:  rostral ventrolateral medulla; primary sympathetic output nucleus
+/ *S100B*:  S100 calcium-binding protein B; astrocyte damage marker
+/ *SA node*:  sinoatrial node
+/ *SC*:  supercomplex
+/ *SERT*:  serotonin transporter
+/ *SFN*:  small-fiber neuropathy
+/ *SIBO*:  small intestinal bacterial overgrowth
+/ *sigma1R*:  sigma-1 receptor; endoplasmic reticulum chaperone regulating autophagy and ER stress
+/ *SkQ1*:  plastoquinonyl-decyl-triphenylphosphonium; mitochondrial-targeted antioxidant
+/ *SNRI*:  serotonin-norepinephrine reuptake inhibitor
+/ *SSRI*:  selective serotonin reuptake inhibitor
+/ *SV2A*:  synaptic vesicle glycoprotein 2A; levetiracetam binding site
+/ *taVNS*:  transcutaneous auricular vagus nerve stimulation
+/ *TCA*:  tricarboxylic acid cycle
+/ *TDO*:  tryptophan 2,3-dioxygenase
+/ *TLR4*:  Toll-like receptor 4
+/ *TNF-α*:  tumour necrosis factor alpha
+/ *TPH1*:  tryptophan hydroxylase 1; peripheral serotonin synthesis enzyme (gut EC cells)
+/ *TPH2*:  tryptophan hydroxylase 2; CNS serotonin synthesis enzyme (raphe nuclei)
+/ *Treg*:  regulatory T cell; CD4+CD25+FoxP3+
+/ *TRPC*:  transient receptor potential canonical
+/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
+/ *TRPM7*:  transient receptor potential melastatin 7
+/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
+/ *TSPO*:  translocator protein; microglial activation PET marker
+/ *TXA2*:  thromboxane A2; platelet-derived vasoconstrictor
+/ *VEGF*:  vascular endothelial growth factor
+/ *VLM*:  ventrolateral medulla
+/ *VMAT2*:  vesicular monoamine transporter 2
+/ *WASF3*:  WAS protein family member 3; respiratory supercomplex assembly inhibitor
+/ *ΔΨm*:  mitochondrial membrane potential (proton gradient across inner mitochondrial membrane)
 
 == Ion Channel Hypotheses
 
@@ -1370,6 +1370,20 @@ The chapter above uses *therapeutic response* — whether a drug works — to lo
 
 - *Pyridostigmine causing severe GI cramping/diarrhea at 30 mg:* Acetylcholine accumulation at muscarinic receptors in the gut. Expected at higher doses, but severe at minimal dose implies: (a) acetylcholinesterase activity is already reduced (from inflammation, oxidative stress, or genetic AChE variants) → less enzyme available to degrade ACh, so AChE inhibition has outsized effect; or (b) the gut has upregulated muscarinic receptor density or sensitivity in compensation for reduced vagal tone → the tissue is primed to overreact to ACh. Diagnostic: start at 10--15 mg. If GI sensitivity persists, the gut cholinergic system is hypersensitive — consistent with enteric denervation and compensatory receptor upregulation.
 - *Aripiprazole causing akathisia at 0.5 mg:* D2/D3 partial agonism at minimal dose producing motor restlessness. Expected at antipsychotic doses (5--30 mg) but not at microdoses. Implies: (a) D2 receptors are supersensitive (upregulated from chronic dopamine deficiency) — the same receptor state that makes aripiprazole effective at microdoses also makes it produce akathisia at microdoses; (b) the patient's dopaminergic deficit is severe enough that the partial agonist's intrinsic activity at 0.5 mg exceeds what the system can buffer. Diagnostic: this patient has severe dopamine deficiency — the akathisia confirms the receptor pathology. Consider even lower starting dose (0.1 mg liquid titration) or switching to a different dopamine strategy (amantadine, which increases release rather than agonizing receptors directly).
+
+  *If akathisia persists for weeks AFTER discontinuation:* Aripiprazole's half-life is ~75 h — drug should be cleared in 6--7 days. Akathisia lasting weeks beyond clearance cannot be explained by residual drug occupying the receptor. Three mechanisms can produce this:
+
+  (a) *Receptor-state consolidation.* Prolonged D2/D3 partial agonism at supersensitive receptors triggers a persistent change in receptor trafficking or signaling — the receptor population does not revert to baseline sensitivity on drug removal. The system has "learned" a new set-point. This is pharmacologically plausible: GPCRs undergo agonist-induced conformational changes that persist after ligand dissociation through β-arrestin scaffolding and receptor oligomerization — the activated receptor complex remains in a signaling-competent state even after the drug is gone. If this is the mechanism, the akathisia will eventually resolve as receptor turnover (t½ ~3--7 days for D2) replaces the conformationally locked population — expected resolution within 3--6 weeks. Time to resolution maps the receptor half-life in vivo.
+
+  (b) *Microglial triggering — the dopamine/microglia bidirectional loop.* D2/D3 receptors are expressed on microglia (@sec:lda-differential). Aripiprazole's D2 partial agonism on microglia may have triggered a microglial activation burst — cytokine release → neuroinflammation → striatal circuit dysfunction → akathisia. The drug is the trigger, but the akathisia is maintained by the inflammatory cascade it initiated, not by continued receptor occupancy. This is the same mechanism posited for neuroleptic malignant syndrome (NMS), where a single dose of a D2-blocking antipsychotic can trigger a weeks-long hyperthermic/dysautonomic crisis that continues after drug clearance — the drug is the match, the inflammatory cytokine storm is the fire. In ME/CFS patients with pre-existing microglial priming, this match-to-fire transition may occur at much lower doses. Diagnostic: if LDN or minocycline shortens the akathisia duration → microglial mechanism confirmed; the anti-inflammatory intervention extinguishes the fire the D2 signal started.
+
+  (c) *Unmasked pre-existing akathisia from another source.* The patient attributed the akathisia to aripiprazole but it was actually a withdrawal syndrome from a recently discontinued medication — SSRIs, SNRIs, and antipsychotics all produce withdrawal akathisia that can last weeks to months. Aripiprazole's D2/D3 agonism may have temporarily suppressed the withdrawal akathisia (D2 stimulation in the ventral striatum inhibits motor restlessness), and akathisia "emerged" only when aripiprazole was stopped — not because aripiprazole *caused* it, but because aripiprazole was masking it. The temporal correlation (akathisia persisted after stopping aripiprazole) is equally consistent with this interpretation: the akathisia was always present, was transiently suppressed by aripiprazole treatment, and emerged fully when aripiprazole was withdrawn. This is a diagnostic confound: akathisia that continues after the drug is gone can mean the drug caused a persistent state OR the drug was suppressing a pre-existing state. Distinguish: if akathisia appeared within hours of the *first* aripiprazole dose → aripiprazole caused it (rxns (a) or (b)). If akathisia only appeared after aripiprazole was stopped, or worsened on stopping → consider withdrawal/re-emergent akathisia from another agent.
+
+  *Contrast — akathisia that resolves as drug clears (2--7 days after discontinuation):* This is the diagnostically cleaner pattern. The akathisia tracks plasma concentration — present when drug occupies receptors, absent when drug is gone. This means: (a) D2/D3 receptors are supersensitive (the microdose produced the effect of a therapeutic dose); (b) receptor signalling is intact — the receptors can be activated AND deactivated normally; (c) receptor trafficking is intact — the receptor population returns to baseline sensitivity when the agonist is removed; (d) therefore the chronic dopamine deficiency is *presynaptic* — production, release, or storage is impaired — while postsynaptic machinery is functional. This specifically rules out postsynaptic D2/D3 pathology (receptor desensitization, G-protein uncoupling, arrestin defects). The lesion is upstream: TH expression, AADC activity, VMAT2 packaging, or dopaminergic terminal integrity. Probe sequence: methylphenidate (blocks reuptake — tests if DA is being released but cleared too fast); L-DOPA (provides substrate — tests if synthesis is the bottleneck); rasagiline (blocks degradation — tests if accelerated turnover is the bottleneck). If all three fail despite confirmed functional postsynaptic receptors → VMAT2 terminal loss (DA cannot be stored, so it cannot be released, reuptake-inhibited, or synthesis-bypassed).
+
+  If akathisia persists weeks after discontinuation — see above. Distinguishing criterion: does akathisia track plasma concentration? Yes → presynaptic lesion, intact postsynaptic. No → receptor-state consolidation, microglial triggering, or unmasking confound.
+
+  *Consequence:* The patient with akathisia persisting weeks after aripiprazole discontinuation has generated diagnostic data: (i) supersensitive D2 receptors (confirmed by akathisia at microdose); (ii) either receptor-state consolidation OR microglial triggering OR unmasking confound — distinguished by timeline: onset on first dose = aripiprazole-caused; onset only after stopping = consider withdrawal from another agent; (iii) if anti-inflammatory treatment resolves persistent akathisia → microglial loop confirmed; (iv) if akathisia resolves spontaneously in 3--6 weeks → receptor-turnover mechanism (D2 receptors replaced); (v) this patient should never be re-challenged with any D2/D3 agonist — the receptor population has demonstrated it can be driven into a persistent activated state.
 - *Amantadine (100--200 mg/day, dopamine release enhancer + weak NMDA antagonist) causing livedo reticularis or confusion at subtherapeutic dose:* Amantadine increases dopamine release from surviving presynaptic terminals by blocking dopamine reuptake and enhancing vesicular release — a presynaptic strategy that bypasses D2/D3 receptor issues. Livedo reticularis (net-like violaceous skin mottling) is a well-known amantadine side effect from catecholamine-mediated peripheral vasoconstriction in dermal arterioles with compensatory venular dilation. At the low dose of 100 mg (half the Parkinson's starting dose), livedo implies: (a) catecholamine-mediated vasomotor instability in skin microvasculature is already at threshold — consistent with peripheral sympathetic dysregulation (neuropathic POTS with regional denervation → patchy vasomotor control); (b) the skin microvasculature mirrors the systemic autonomic state — livedo at 100 mg suggests the peripheral sympathetic system has zero reserve for additional catecholamine tone. Confusion at 100 mg implies NMDA antagonism sensitivity — amantadine's weak NMDA block (Ki ~10 µM) is normally imperceptible, but in a system with NMDA hypofunction (KYNA dominance, kynurenine pathway), even weak block tips cognition over the edge. Diagnostic: (a) livedo reticularis at 100 mg → peripheral sympathetic vasomotor fragility confirmed — consistent with neuropathic POTS with dermal microvascular involvement (pattern may predict response to midodrine: the same sympathetic deficit that causes patchy vasoconstriction in skin may cause venous pooling in legs); (b) confusion at 100 mg → NMDA hypofunction confirmed (same pattern as ketamine psychotomimetic sensitivity — two structurally different NMDA antagonists produce the same cognitive ceiling at subtherapeutic doses, confirming global NMDA deficiency); (c) improvement + no livedo/confusion → dopamine release is the bottleneck AND peripheral sympathetic/NMDA systems have adequate reserve — amantadine is usable long-term. If amantadine produces no cognitive benefit at 200 mg despite no side effects → dopamine release is not the bottleneck (consistent with VMAT2 terminal loss — vesicles are empty, amantadine has nothing to release). Try L-DOPA (substrate load) or pramipexole (direct postsynaptic).
 - *Duloxetine or amitriptyline causing severe anticholinergic toxicity (confusion, dry mouth, constipation, urinary retention) at low antidepressant doses:* Duloxetine (SNRI) has minimal direct anticholinergic effect; amitriptyline (TCA) blocks M1 muscarinic receptors. If anticholinergic symptoms appear with duloxetine (which should not produce them), an unexpected off-target system is vulnerable — either: (a) the patient has subclinical acetylcholinesterase deficiency (AChE genetic variant) → baseline synaptic ACh is already high, so even the weak indirect anticholinergic effect of NE-mediated inhibition of cholinergic neurons is sufficient to push the system over threshold; or (b) duloxetine is unmasking undiagnosed Sjögren's syndrome (sicca + anticholinergic effect = severe dry mouth, blurred vision, dysphagia). If amitriptyline produces severe sedation at 5--10 mg (not 25--50 mg) → H1 receptor supersensitivity; this patient's histaminergic wakefulness drive is easily suppressed, consistent with orexin/histamine dysfunction. Diagnostic: both agents probe NE/5-HT reuptake function but amitriptyline additionally probes H1 and M1 receptor tone. The specific side-effect ceiling identifies which receptor system has the least functional reserve.
 - *Gabapentin or pregabalin causing severe sedation, cognitive impairment, or ataxia at minimal doses (100--300 mg gabapentin, 25--50 mg pregabalin):* Gabapentinoids bind the α2δ subunit of voltage-gated calcium channels (CaV), reducing neurotransmitter release. At these doses, therapeutic effect on neuropathic pain should not yet be achieved — the side effects appear before any analgesic ceiling is reached, implying the α2δ-containing CaV channels are hypersensitive or already upregulated. In ME/CFS, this pattern could mean: (a) the patient has central sensitization so severe that even minimal CaV channel blockade produces disproportionate CNS depression — consistent with TRPM3-dependent calcium dysregulation driving compensatory CaV upregulation; or (b) gabapentinoids are hitting a system that is already calcium-starved — reducing Ca²⁺ influx further tips neurons below their minimum activation threshold. If the patient experiences paradoxical agitation on gabapentin → GABA synthesis is altered (gabapentin increases GABA via GAD activation; if GAD is dysfunctional, glutamate accumulation → paradoxical excitation). Diagnostic: this patient has severe central sensitization. Gabapentinoids cannot be titrated to effective doses — consider PEA (PPAR-α, no calcium channel effect), LDN, or ketamine (NMDA block) for neuropathic pain instead.

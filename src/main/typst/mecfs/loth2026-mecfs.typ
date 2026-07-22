@@ -166,7 +166,7 @@
 #include "part3-treatment/ch27-emerging-therapies.typ"
 #include "part3-treatment/ch28-integrative-approaches/ch28-integrative-approaches.typ"
 #include "part3-treatment/ch29-medication-response-reference.typ"
-#include "part3-treatment/ch30-mechanistic-cascade-tracing.typ"
+#include "part3-treatment/ch30-mechanistic-cascade-tracing/ch30-mechanistic-cascade-tracing.typ"
 
 // ── Part IV: Research and Evidence Synthesis ──────────────────────────────────
 #include "part4-research/part4-intro.typ"

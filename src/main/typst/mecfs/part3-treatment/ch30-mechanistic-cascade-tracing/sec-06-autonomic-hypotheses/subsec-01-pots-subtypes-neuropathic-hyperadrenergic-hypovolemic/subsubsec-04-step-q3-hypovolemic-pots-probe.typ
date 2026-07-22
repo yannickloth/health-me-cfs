@@ -1,0 +1,17 @@
+#import "../../../../shared/environments.typ": *
+
+==== Step Q3: Hypovolemic POTS Probe
+
+*Probe:* Fludrocortisone (0.1--0.2 mg/day) — synthetic mineralocorticoid, expands plasma volume by increasing renal sodium and water retention. Increased salt (6--10 g/day) + water (3 L/day). IV saline (1--2 L, acute diagnostic probe — if symptoms resolve within hours of saline infusion, hypovolemia is confirmed and the response magnitude estimates the volume deficit).
+
+*If fludrocortisone works:* RAAS paradox is present — consistent with @hyp:bradykinin-raas. The patient has low blood volume but inappropriately normal/low renin and aldosterone. Fludrocortisone bypasses the RAAS paradox by providing exogenous mineralocorticoid activity → volume expansion → improved preload → reduced orthostatic tachycardia. If hypokalemia occurs at standard dose → renal aldosterone sensitivity is intact despite central RAAS paradox (the RAAS defect is localized to renin, not to the aldosterone-sensitive distal nephron).
+
+*If fludrocortisone worsens orthostatic symptoms:* Paradoxical reaction (Pattern 2, @sec:side-effects-diagnostic). The volume expansion causes excessive venous pooling rather than increased cardiac preload — consistent with connective-tissue-driven venous compliance. The added volume goes to the legs, not the heart → worsens orthostatic pooling. Diagnostic: this patient has CT laxity-driven orthostatic intolerance, not hypovolemic POTS. Compression garments should work; fludrocortisone should not.
+
+*If IV saline provides dramatic but temporary improvement (hours, not days):* Hypovolemia is confirmed but the volume deficit is rapidly recurring — consistent with RAAS paradox (the kidneys cannot retain the administered volume because aldosterone is inappropriately low). Fludrocortisone should work to sustain the volume. If IV saline provides NO improvement → hypovolemia is not the dominant mechanism — the orthostatic intolerance is from venous pooling, autonomic dysfunction, or vascular unresponsiveness.
+
+*If midodrine AND fludrocortisone both work:* Mixed neuropathic + hypovolemic POTS. The combination addresses both the vascular tone deficit (midodrine) and the volume deficit (fludrocortisone). This is the most common pattern in ME/CFS-POTS because small-fiber neuropathy and RAAS paradox often coexist.
+
+*Consequence:* Supine/standing NE levels + midodrine response + fludrocortisone response + ivabradine vs. beta-blocker differential completely distinguish the three POTS subtypes. The subtype dictates treatment: neuropathic → midodrine, pyridostigmine, compression; hyperadrenergic → ivabradine (preferred over beta-blockers to preserve β2-AR metabolic function), clonidine/guanfacine for central suppression; hypovolemic → fludrocortisone, salt, water, IV saline. Mixed subtype → combined treatment. Wrong subtype treatment → clinical worsening (beta-blockers in neuropathic POTS remove the compensatory tachycardia without fixing venous pooling → worsened orthostatic tolerance; midodrine in hyperadrenergic POTS adds vasoconstriction to an already-vasoconstricted system → worsened hypertension and headache). Subtype-specific pharmacology is the highest-yield application of the cascade-tracing methodology in this chapter — directly guides treatment with immediate clinical consequences.
+*Origin:* mechanistic-pathway-tracing.
+

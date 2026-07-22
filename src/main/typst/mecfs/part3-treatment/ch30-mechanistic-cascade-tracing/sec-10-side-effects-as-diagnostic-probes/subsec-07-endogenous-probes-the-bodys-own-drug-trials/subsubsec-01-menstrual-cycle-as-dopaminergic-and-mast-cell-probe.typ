@@ -1,0 +1,12 @@
+#import "../../../../shared/environments.typ": *
+
+==== Menstrual Cycle as Dopaminergic and Mast Cell Probe
+
+Estrogen is dopaminergic (enhances DA synthesis via tyrosine hydroxylase upregulation, reduces DA reuptake via DAT downregulation) and mast-cell-stabilizing (reduces IgE-mediated degranulation). Progesterone is GABAergic (allopregnanolone metabolite — positive allosteric modulator of GABA-A) and can trigger mast cell degranulation in sensitive individuals (estrogen withdrawal at luteal phase onset).
+
+- *Symptom improvement during follicular phase (high estrogen, days 5--14):* The DA system is functional and rate-limiting — estrogen's dopaminergic enhancement produces clinical benefit. MCAS is hormone-suppressible — estrogen's mast-cell-stabilizing effect reduces mast-cell-driven symptoms. Diagnostic: dopamine deficiency and/or MCAS are present and estrogen-responsive. Supports dopaminergic intervention (aripiprazole, L-DOPA) or hormonal modulation.
+- *Symptom worsening during luteal phase (high progesterone, days 21--28):* Progesterone intolerance — either direct (GABA-A hypersensitivity → excessive sedation, brain fog) or via allopregnanolone (negative mood, fatigue). Or progesterone-triggered mast cell degranulation. Diagnostic: if antihistamines prevent luteal worsening → mast-cell-mediated progesterone sensitivity. If antihistamines do not prevent it → GABAergic progesterone effect. Distinguishes MCAS from GABAergic pathology.
+- *Perimenstrual worsening (days 1--3):* Estrogen and progesterone both drop. If this is the worst period → both systems were compensating — estrogen for DA/MCAS, progesterone for GABA. The simultaneous withdrawal unmasks deficits in both. If perimenstrual worsening is dramatic → hormone sensitivity is high; consider continuous oral contraception (eliminate cycling) as a diagnostic probe.
+- *No menstrual variation:* The dopamine and mast cell systems are either non-hormonally responsive, or the pathology is severe enough that hormonal modulation is insufficient to move symptoms. The null does not rule out DA or MCAS pathology — it rules out hormonal sensitivity of those systems.
+- *Cycle phase at onset predicts mechanism:* If ME/CFS onset occurred during luteal phase → progesterone-triggered immune shift (Th2 dominance) or mast cell event may have been the precipitant. If onset during perimenstrual phase → estrogen withdrawal unmasked a latent DA deficiency that the preceding follicular estrogen had been compensating for.
+
