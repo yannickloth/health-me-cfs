@@ -407,6 +407,7 @@ void main(String[] args) throws IOException {
         String pendingLabel = null;
         String lastCalloutTitle = slugTitle;
         boolean prevOpenedCallout = false;
+        boolean prevLineWasDashItem = false;
 
         for (var line : sec.body) {
             var raw = line;
@@ -566,6 +567,13 @@ void main(String[] args) throws IOException {
             raw = raw.replaceAll("<open:", "{#open-");
             raw = raw.replaceAll("(\\{[#][a-zA-Z][\\w:\\.-]*?)>", "$1}");
             raw = raw.replaceAll("(\\{[#][a-zA-Z][\\w:\\.-]*)>", "$1}");
+
+            // Insert blank line before dash-list items when the last non-blank
+            // output line was not a dash item — prevents Pandoc from collapsing
+            // list items into the preceding paragraph line.
+            boolean isDashItem = stripped.startsWith("- ");
+            if (isDashItem && !prevLineWasDashItem) sb.append('\n');
+            if (!stripped.isEmpty()) prevLineWasDashItem = isDashItem;
 
             sb.append(raw).append('\n');
         }
