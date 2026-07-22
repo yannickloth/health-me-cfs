@@ -5,7 +5,7 @@
 
 This glossary defines medical, biochemical, immunological, and statistical terms used throughout this document. Terms are organized alphabetically. Where a term is used in a specialized sense specific to ME/CFS research, the ME/CFS-specific usage is indicated.
 
-== A — Terms beginning with the letter A
+== Glossary A
 
 / *Acetyl-CoA*: Acetyl coenzyme A; the two-carbon unit that enters the Krebs cycle, produced from pyruvate (via pyruvate dehydrogenase), fatty acids (via $beta$-oxidation), or amino acids.
 / *ACTH*: Adrenocorticotropic hormone; pituitary hormone that stimulates cortisol production by the adrenal cortex. Part of the HPA axis.
