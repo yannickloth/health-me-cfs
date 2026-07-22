@@ -14,4 +14,31 @@ All medications discussed are mechanistic inference — not clinical recommendat
 
 Full chapter open-access (CC-BY 4.0): Loth (2026), doi:10.5281/zenodo.19184064
 
+### Acronyms
+
+AAb (autoantibody), ATP (adenosine triphosphate), BBB (blood-brain barrier), BP (blood pressure), CNS (central nervous system), CSF (cerebrospinal fluid), D2/D3 (dopamine receptor subtypes), DA (dopamine), DAT (dopamine transporter), GPCR (G protein-coupled receptor), H2 (histamine receptor type 2), HRV (heart rate variability), LDN (low-dose naltrexone), MCAS (mast cell activation syndrome), NE (norepinephrine), NMDA (N-methyl-D-aspartate), NRI (norepinephrine reuptake inhibitor), PEM (post-exertional malaise), POTS (postural orthostatic tachycardia syndrome), SSRI (selective serotonin reuptake inhibitor), TLR4 (Toll-like receptor 4), TRPM3 (transient receptor potential melastatin 3, calcium channel), TRPV1 (transient receptor potential vanilloid 1, capsaicin receptor)
+
+### Medication Classes
+
+| Drug | Class |
+|------|-------|
+| LDN (low-dose naltrexone) | Opioid receptor antagonist at low dose; TLR4 antagonist, TRPM3 restorer |
+| Pyridostigmine (Mestinon) | Acetylcholinesterase inhibitor (peripheral cholinergic) |
+| Midodrine | α1-adrenergic receptor agonist (vasoconstrictor) |
+| Fludrocortisone | Mineralocorticoid (volume expansion, sodium retention) |
+| Aripiprazole (low-dose) | D2/D3 partial agonist (atypical antipsychotic at microdose) |
+| Guanfacine | α2A-adrenergic receptor agonist (central sympatholytic) |
+| Antihistamines (H1+H2) | Histamine receptor antagonists |
+| Cimetidine | H2 receptor antagonist; T-cell enhancer, CYP450 inhibitor |
+| Beta-blockers | β-adrenergic receptor antagonists |
+| Fluvoxamine (low-dose) | SSRI with sigma-1 receptor agonism at low dose |
+| Montelukast | Cysteinyl leukotriene receptor 1 antagonist |
+| Pregnenolone | Neurosteroid (TRPM3 positive allosteric modulator) |
+| Ketotifen | Mast cell stabilizer with H1 activity |
+| Memantine | NMDA receptor antagonist |
+| Methylphenidate | Norepinephrine-dopamine reuptake inhibitor (NDRI) |
+| Amantadine | Dopamine releaser; NMDA antagonist |
+| Pramipexole | D2/D3 dopamine receptor agonist |
+| Ivabradine | I_f channel blocker (heart rate reduction) |
+
 #MECFS #MyalgicEncephalomyelitis #Pharmacology #DrugRepurposing #DiagnosticMedicine #PrecisionMedicine #PatientAdvocacy #ChronicIllness #InvisibleIllness #OpenAccess
