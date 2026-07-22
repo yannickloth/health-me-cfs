@@ -19,6 +19,8 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 
 *Abbreviations used throughout:*
 
+/ *3β-HSD / 17β-HSD*: 3β-/17β-hydroxysteroid dehydrogenase; androgenic steroid conversion enzymes
+/ *5-HTP*: 5-hydroxytryptophan; serotonin precursor
 / *AAb*: autoantibody
 / *AADC*: aromatic L-amino acid decarboxylase; converts L-DOPA to dopamine
 / *ACh*: acetylcholine
@@ -29,49 +31,74 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *AMPK*: AMP-activated protein kinase; cellular energy sensor
 / *ANC*: absolute neutrophil count
 / *ANT*: adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
+/ *AQP2*: aquaporin-2; renal collecting duct water channel
 / *ATP*: adenosine triphosphate
 / *BBB*: blood-brain barrier
 / *BH4*: tetrahydrobiopterin; tyrosine hydroxylase cofactor
 / *BP*: blood pressure
 / *cAMP*: cyclic adenosine monophosphate
 / *CAP*: cholinergic anti-inflammatory pathway
+/ *Ca²⁺*: calcium ion
 / *CCI*: craniocervical instability
+/ *cGMP*: cyclic guanosine monophosphate
+/ *CK*: creatine kinase; phosphocreatine buffer enzyme
 / *CNS*: central nervous system
+/ *COMPASS-31*: Composite Autonomic Symptom Score
+/ *COMT*: catechol-O-methyltransferase; catecholamine degrading enzyme
 / *CoQ10*: coenzyme Q10; ubiquinol/ubiquinone
 / *COX-2*: cyclooxygenase-2
 / *CPET*: cardiopulmonary exercise testing
+/ *CREB*: cAMP response element-binding protein
 / *CRP*: C-reactive protein
 / *CSF*: cerebrospinal fluid
 / *CYP*: cytochrome P450
 / *CysLT1*: cysteinyl leukotriene receptor type 1; montelukast target
 / *DA*: dopamine
+/ *DAMI*: dopaminergic asymmetry measurement index (composite: striatal FDG-PET, COMPASS-31, aripiprazole slope)
+/ *DAMPs*: damage-associated molecular patterns
 / *DAT*: dopamine transporter
 / *DBH*: dopamine-beta-hydroxylase
 / *DCA*: dichloroacetate; PDK inhibitor
+/ *DDR*: discoidin domain receptor
 / *DHEA*: dehydroepiandrosterone; neurosteroid and androgen precursor
 / *DMF*: dimethyl fumarate
 / *DMV*: dorsal motor nucleus of vagus
+/ *DNRI*: dopamine-norepinephrine reuptake inhibitor
 / *DORA*: dual orexin receptor antagonist
 / *DPP-4*: dipeptidyl peptidase-4; incretin-degrading enzyme
 / *DRG*: dorsal root ganglion
+/ *DTBZ*: dihydrotetrabenazine; VMAT2 PET ligand
 / *EBV*: Epstein-Barr virus
+/ *EC cells*: enterochromaffin cells; gut serotonin-producing cells
 / *ECM*: extracellular matrix
 / *ESR*: erythrocyte sedimentation rate
+/ *ET-1*: endothelin-1; potent vasoconstrictor
 / *ETA*: endothelin receptor type A; mediates vasoconstriction
 / *ETC*: electron transport chain
+/ *FAO*: fatty acid oxidation
+/ *FDG*: fluorodeoxyglucose; glucose analogue for PET imaging
 / *G-CSF*: granulocyte colony-stimulating factor
+/ *GABA*: gamma-aminobutyric acid
+/ *GAD*: glutamate decarboxylase; GABA synthesis enzyme
 / *GI*: gastrointestinal
 / *GLP-1*: glucagon-like peptide-1; incretin hormone
 / *GLP-1R*: glucagon-like peptide-1 receptor
 / *GPCR*: G protein-coupled receptor
+/ *GSH*: glutathione; primary intracellular antioxidant
+/ *Gαq*: G protein alpha-q subunit; activates PLC-β
+/ *HCA2/GPR109A*: hydroxycarboxylic acid receptor 2; niacin receptor on mast cells
+/ *HCN*: hyperpolarization-activated cyclic nucleotide-gated channel
 / *hEDS*: hypermobile Ehlers-Danlos syndrome
 / *HHV-6*: human herpesvirus 6
 / *HIF-1α*: hypoxia-inducible factor 1 alpha
+/ *HIT*: histamine intolerance
 / *HPA*: hypothalamic-pituitary-adrenal axis
 / *HR*: heart rate
 / *HRV*: heart rate variability
 / *HSC*: haematopoietic stem cell
+/ *HSP70*: heat shock protein 70
 / *HTN*: hypertension
+/ *H₂S*: hydrogen sulfide; gaseous vasodilator and mitochondrial electron donor
 / *IA*: immunoadsorption
 / *IDO*: indoleamine 2,3-dioxygenase
 / *IENFD*: intraepidermal nerve fibre density
@@ -79,17 +106,29 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *IgE*: immunoglobulin E
 / *IgG*: immunoglobulin G
 / *IL*: interleukin
+/ *ILMI*: ipsilateral limb metabolic index (FDG-PET comparison of left vs right limb glucose uptake)
+/ *IMPase*: inositol monophosphatase; lithium target in PIP2 resynthesis
+/ *iNOS*: inducible nitric oxide synthase
 / *IP receptor*: prostacyclin I2 receptor; mediates vasodilation
 / *IVIG*: intravenous immunoglobulin
+/ *KAT*: kynurenine aminotransferase
+/ *KMO*: kynurenine 3-monooxygenase
+/ *KYNA*: kynurenic acid; NMDA antagonist
 / *LC-NE*: locus coeruleus-norepinephrine
 / *LDN*: low-dose naltrexone
+/ *LTD4*: leukotriene D4; bronchoconstrictor and MCAS mediator
+/ *LTP*: long-term potentiation
 / *MAO-B*: monoamine oxidase B; degrades dopamine
 / *MCAS*: mast cell activation syndrome
 / *MMP*: matrix metalloproteinase
+/ *mPTP*: mitochondrial permeability transition pore
+/ *MRGPRX2*: Mas-related G protein-coupled receptor X2; mast cell receptor
+/ *MRS*: magnetic resonance spectroscopy
 / *mTORC1*: mechanistic target of rapamycin complex 1
 / *mTORC2*: mechanistic target of rapamycin complex 2; regulates cell survival and cytoskeleton
 / *NAC*: N-acetylcysteine
 / *NAD⁺*: nicotinamide adenine dinucleotide
+/ *NCLX*: mitochondrial sodium/calcium/lithium exchanger
 / *NCX1*: Na⁺/Ca²⁺ exchanger 1
 / *NE*: norepinephrine
 / *NET*: norepinephrine transporter
@@ -97,6 +136,7 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *NHE1*: Na⁺/H⁺ exchanger 1
 / *NK cell*: natural killer cell
 / *NMDA*: N-methyl-D-aspartate
+/ *Nrf2*: nuclear factor erythroid 2-related factor 2; antioxidant master regulator
 / *NRI*: norepinephrine reuptake inhibitor
 / *NSAID*: non-steroidal anti-inflammatory drug
 / *NTS*: nucleus tractus solitarius
@@ -104,25 +144,38 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *OI*: orthostatic intolerance
 / *OXPHOS*: oxidative phosphorylation
 / *PARP*: poly-ADP ribose polymerase
+/ *PDE4*: phosphodiesterase 4
 / *PDH*: pyruvate dehydrogenase
 / *PDK*: pyruvate dehydrogenase kinase
 / *PEA*: palmitoylethanolamide; PPAR-alpha agonist
 / *PEM*: post-exertional malaise
 / *PFC*: prefrontal cortex
 / *PGD2*: prostaglandin D2; mast-cell-derived prostaglandin
+/ *PGDS*: prostaglandin D2 synthase
 / *PGE2*: prostaglandin E2
+/ *PGH2*: prostaglandin H2; COX product and PGDS/PGES substrate
 / *PIP2*: phosphatidylinositol 4,5-bisphosphate
+/ *PKA*: protein kinase A; cAMP-dependent kinase
+/ *PKC*: protein kinase C
+/ *PLA2*: phospholipase A2
 / *PLC-β*: phospholipase C beta
 / *POTS*: postural orthostatic tachycardia syndrome
 / *PPAR-alpha*: peroxisome proliferator-activated receptor alpha
+/ *QUIN*: quinolinic acid; NMDA agonist from kynurenine pathway
 / *RAAS*: renin-angiotensin-aldosterone system
+/ *RAGE*: receptor for advanced glycation end-products
 / *REE*: resting energy expenditure
 / *RLS*: restless legs syndrome
 / *ROS*: reactive oxygen species
+/ *RVLM*: rostral ventrolateral medulla; primary sympathetic output nucleus
+/ *S100B*: S100 calcium-binding protein B; astrocyte damage marker
 / *SA node*: sinoatrial node
 / *SC*: supercomplex
+/ *SERT*: serotonin transporter
+/ *SFN*: small-fiber neuropathy
 / *SIBO*: small intestinal bacterial overgrowth
 / *sigma1R*: sigma-1 receptor; endoplasmic reticulum chaperone regulating autophagy and ER stress
+/ *SkQ1*: plastoquinonyl-decyl-triphenylphosphonium; mitochondrial-targeted antioxidant
 / *SNRI*: serotonin-norepinephrine reuptake inhibitor
 / *SSRI*: selective serotonin reuptake inhibitor
 / *SV2A*: synaptic vesicle glycoprotein 2A; levetiracetam binding site
@@ -131,20 +184,27 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *TDO*: tryptophan 2,3-dioxygenase
 / *TLR4*: Toll-like receptor 4
 / *TNF-α*: tumour necrosis factor alpha
+/ *TPH1*: tryptophan hydroxylase 1; peripheral serotonin synthesis enzyme (gut EC cells)
+/ *TPH2*: tryptophan hydroxylase 2; CNS serotonin synthesis enzyme (raphe nuclei)
 / *Treg*: regulatory T cell; CD4+CD25+FoxP3+
+/ *TRPC*: transient receptor potential canonical
+/ *TRPM3*: transient receptor potential melastatin 3; non-selective cation channel
+/ *TRPM7*: transient receptor potential melastatin 7
 / *TRPV1*: transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
+/ *TSPO*: translocator protein; microglial activation PET marker
 / *TXA2*: thromboxane A2; platelet-derived vasoconstrictor
 / *VEGF*: vascular endothelial growth factor
 / *VLM*: ventrolateral medulla
 / *VMAT2*: vesicular monoamine transporter 2
-
+/ *WASF3*: WAS protein family member 3; respiratory supercomplex assembly inhibitor
+/ *ΔΨm*: mitochondrial membrane potential (proton gradient across inner mitochondrial membrane)
 
 == Ion Channel Hypotheses
 
 === TRPM3 Channelopathy
 <sec:trpm3-cascade>
 
-*Certainty: 0.55.* The TRPM3 calcium channel defect is the most replicated ion channel finding in ME/CFS (six independent cohorts, @Cabanas2021). TRPM3 is a non-selective cation channel gated by PIP2, pregnenolone sulfate, and heat. Its primary physiological role: calcium influx in NK cells (cytotoxicity), pancreatic β-cells (insulin secretion), vascular smooth muscle (tone), and sensory neurons (heat/pain detection). Multi-system dysfunction is the expected consequence of impaired calcium influx across these cell types. The cascade traces PIP2-dependent gating failure through to terminal consequences, with each node offering a pharmacologically distinguishable probe.
+*Certainty: 0.55.* The TRPM3 channel defect is the most replicated ion channel finding in ME/CFS (six independent cohorts, @Cabanas2021). TRPM3 is a non-selective cation channel gated by PIP2, pregnenolone sulfate, and heat. Its primary physiological role: calcium influx in NK cells (cytotoxicity), pancreatic β-cells (insulin secretion), vascular smooth muscle (tone), and sensory neurons (heat/pain detection). Multi-system dysfunction is the expected consequence of impaired calcium influx across these cell types. The cascade traces PIP2-dependent gating failure through to terminal consequences, with each node offering a pharmacologically distinguishable probe.
 
 ==== Cascade: PIP2 → TRPM3 → five-arm end-organ dysfunction
 
@@ -169,8 +229,8 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 *Step A2:* TRPM3 calcium influx failure (channel-level defect)
 - *Mechanism:* Even with adequate PIP2, TRPM3 may fail to gate due to: (a) direct channel-blocking autoantibodies (anti-TRPM3 IgG, not yet documented but mechanistically possible), (b) altered channel expression (TRPM3 gene silencing via promoter methylation), (c) competitive inhibition at the pregnenolone sulfate binding site by endogenous antagonists, or (d) channel desensitization from chronic low-grade activation (heat, inflammation → sustained TRPM3 opening → calcium-dependent inactivation).
 - *Intercept:* Pregnenolone sulfate (positive allosteric TRPM3 modulator; neurosteroid) — shifts the channel's activation curve leftward so lower PIP2/heat can open it) @spec:pregnenolone-ldn-synergy; Naltrexone (LDN, 1--4.5 mg; low-dose opioid receptor antagonist, TLR4 antagonist) — in vitro TRPM3 restoration via TLR4 antagonism reducing channel-destabilizing inflammatory signaling @Cabanas2021.
-- *If LDN or pregnenolone works:* TRPM3 dysfunction is present AND rate-limiting. The lesion is at the channel level (primary channelopathy) or just above (PIP2-dependent gating failure). Distinguishing: if lithium also works → the lesion is at PIP2; TRPM3 can gate when given PIP2. If lithium does NOT work but LDN/pregnenolone works → the channel itself is the bottleneck — adequate PIP2 is present but TRPM3 cannot use it.
-- *If LDN works within 48 hours:* TRPM3 mechanism (immediate channel gating effect). Onset latency confirms TRPM3 as the primary LDN target in this patient.
+- *If LDN or pregnenolone works:* TRPM3 dysfunction is present AND rate-limiting. The lesion is at the channel level (primary channelopathy) or just above (PIP2-dependent gating failure). Distinguishing: if lithium also works → the lesion is at PIP2; TRPM3 can gate when given PIP2. If lithium does NOT work but LDN/pregnenolone works → the channel itself is the bottleneck — PIP2 depletion is not the rate-limiting node.
+- *If LDN works within 48 hours:* Consistent with TRPM3 mechanism (immediate channel gating effect). Onset latency suggests TRPM3 as the primary LDN target in this patient — however, placebo and expectation effects also onset within this window limiting specificity.
 - *If LDN works but it takes 3--6 weeks:* The mechanism is endorphin upregulation or TLR4-mediated anti-neuroinflammatory effect — NOT TRPM3. The patient benefits from LDN but the ion channel hypothesis is not confirmed. This dissociation is clinically relevant: a patient with LDN benefit at 6 weeks may have neuroinflammation, not ion channel dysfunction, and different follow-up probes are indicated.
 - *If LDN/pregnenolone does NOT work:* TRPM3 ion channel dysfunction is either (a) absent in this patient, (b) present but not LDN-responsive (direct channel-blocking autoantibodies that LDN cannot displace, requiring immunoadsorption), (c) not rate-limiting — other channel defects dominate (TRPV1, TRPM7, or calcium channel autoantibodies), or (d) the downstream cellular machinery (calcium-dependent exocytosis, Ca²⁺/calmodulin signaling) is so damaged that restoring Ca²⁺ influx does not restore function. A null TRPM3 response combined with a null lithium response effectively eliminates the PIP2→TRPM3 ion channel axis.
 
@@ -199,7 +259,7 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 - *If midodrine does NOT work:* The vasculature is unresponsive even to direct α1 stimulation. This is a severe finding — it means either (a) α1 receptors are absent or blocked (GPCR AAb against α1-AR), (b) the contractile machinery is damaged (smooth muscle atrophy from chronic disuse, nitric oxide overproduction from endothelial dysfunction), or (c) severe hypovolemic orthostatic intolerance where vasoconstriction is inadequate because there is insufficient blood volume to distribute. If fludrocortisone works where midodrine fails → hypovolemia is dominant; the vasculature is functional but empty. If neither works → the vasculature is structurally unable to contract; endothelial dysfunction or receptor-level blockade is likely.
 - *If ivabradine works for HR but midodrine does NOT work for BP:* Inappropriate sinus tachycardia is the dominant hemodynamic symptom, not vascular failure. The SA node is responding to a baroreflex signal that says "pressure is low," but the vasculature cannot increase pressure. Slowing the HR reduces myocardial oxygen demand without worsening perfusion (because perfusion was already inadequate). This pattern is consistent with baroreflex reset (GPCR AAb at NTS) combined with vascular unresponsiveness.
 
-*Consequence:* TRPM3 is the most pharmacologically probe-able ion channel in ME/CFS. Five drugs at four distinct steps (lithium at PIP2, LDN/pregnenolone at channel, cimetidine/IVIG at NK cells, pyridostigmine/atomoxetine/5-HTP at neurotransmitter release, midodrine/ivabradine at vasculature) map the lesion along the PIP2→TRPM3→cell-type axis. The pattern of which drugs work and which do not localizes whether the defect is upstream (PIP2, treat AAb source), at the channel (TRPM3 gating, treat with LDN/pregnenolone), or cell-type-specific (NK cells → immunomodulation; synapses → neurotransmitter support; vasculature → vasoconstrictors). The onset latency of LDN response (48h = TRPM3, 3--6 weeks = endorphin/TLR4) further distinguishes channel from inflammatory mechanisms. TRPM3 cascade tracing is the highest-yield single-hypothesis probe sequence in the chapter.
+*Consequence:* TRPM3 is the most pharmacologically probe-able ion channel in ME/CFS. Ten drugs at five distinct steps (lithium at PIP2, LDN/pregnenolone at channel, cimetidine/IVIG at NK cells, pyridostigmine/atomoxetine/5-HTP at neurotransmitter release, midodrine/ivabradine at vasculature) map the lesion along the PIP2→TRPM3→cell-type axis. The pattern of which drugs work and which do not localizes whether the defect is upstream (PIP2, treat AAb source), at the channel (TRPM3 gating, treat with LDN/pregnenolone), or cell-type-specific (NK cells → immunomodulation; synapses → neurotransmitter support; vasculature → vasoconstrictors). The onset latency of LDN response (under 48h suggests TRPM3, 3--6 weeks suggests endorphin/TLR4 — with limited specificity; placebo and expectation effects also onset within 48h) further distinguishes channel from inflammatory mechanisms.
 *Origin:* mechanistic-pathway-tracing, Gerlier 2026-07-21 prompt.
 
 === TRPV1-Mediated Arteriolar Vasoconstriction (PEM-Driven Pain/Ischemia)
@@ -307,30 +367,6 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 *Consequence:* The strongest test of PIP2 convergence: if immunoadsorption simultaneously improves TRPM3, TRPV1, and Piezo2-dependent symptoms, GPCR AAb→PIP2 depletion is the shared upstream mechanism. Otherwise, independent channel dysfunction requires channel-specific treatment.
 *Origin:* mechanistic-pathway-tracing.
 
-*Acronyms used in this section:*
-/ *AAb*: autoantibody
-/ *ACh*: acetylcholine
-/ *AChE*: acetylcholinesterase
-/ *Ca²⁺*: calcium ion, intracellular second messenger
-/ *CGRP*: calcitonin gene-related peptide
-/ *CNS*: central nervous system
-/ *COX-2*: cyclooxygenase-2
-/ *CPET*: cardiopulmonary exercise testing
-/ *GI*: gastrointestinal
-/ *GPCR*: G protein-coupled receptor
-/ *hEDS*: hypermobile Ehlers-Danlos syndrome
-/ *HR*: heart rate
-/ *IA*: immunoadsorption
-/ *IgE*: immunoglobulin E
-/ *IgG*: immunoglobulin G
-/ *LDN*: low-dose naltrexone
-/ *NK cell*: natural killer cell
-/ *NRI*: norepinephrine reuptake inhibitor
-/ *PEM*: post-exertional malaise
-/ *PGE2*: prostaglandin E2
-/ *PIP2*: phosphatidylinositol 4,5-bisphosphate
-/ *PLC-β*: phospholipase C beta
-/ *POTS*: postural orthostatic tachycardia syndrome
 
 == Mitochondrial Hypotheses
 
@@ -356,7 +392,7 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Probes for HIF-1α→WASF3 pathway:*
 - *Dimethyl fumarate (DMF, 120--240 mg BID):* Activates Nrf2 → Nrf2 binds antioxidant response elements (AREs) → upregulates antioxidant enzymes (SOD, catalase, glutathione peroxidase) → reduces ROS → reduces ROS-mediated prolyl hydroxylase inhibition → restores HIF-1α degradation → reduces WASF3 expression. Additionally, DMF directly inhibits HIF-1α nuclear translocation (Nrf2 competes with HIF-1α for CBP/p300 coactivators). If DMF improves exercise tolerance and reduces lactate → HIF-1α-driven WASF3 upregulation is present and rate-limiting. If DMF causes severe flushing → mast cell hyper-reactivity (Pattern 3, @sec:side-effects-diagnostic) — pre-treat with aspirin (blocks PGD2-mediated flushing without affecting Nrf2 activation). If flushing is aspirin-preventable → confirms PGD2-mediated MCAS subtype.
-- *Vitamin C (500--2000 mg, timed with peak prolyl hydroxylase activity — circadian-optimized per ch14a):* Prolyl hydroxylase requires vitamin C as a cofactor. If timed vitamin C improves symptoms → prolyl hydroxylase was cofactor-limited, and HIF-1α stabilization was vitamin-C-reversible. Distinguishes cofactor deficiency (simple, nutritional) from ROS-mediated PHD inhibition (requires antioxidant intervention). If vitamin C + NAC works where vitamin C alone does not → ROS is the dominant PHD inhibitor; the vitamin C provides cofactor, NAC scavenges the ROS that was inhibiting PHD.
+- *Vitamin C (500--2000 mg, timed with peak prolyl hydroxylase activity — circadian-optimized, @sec:safe-mode):* Prolyl hydroxylase requires vitamin C as a cofactor. If timed vitamin C improves symptoms → prolyl hydroxylase was cofactor-limited, and HIF-1α stabilization was vitamin-C-reversible. Distinguishes cofactor deficiency (simple, nutritional) from ROS-mediated PHD inhibition (requires antioxidant intervention). If vitamin C + NAC works where vitamin C alone does not → ROS is the dominant PHD inhibitor; the vitamin C provides cofactor, NAC scavenges the ROS that was inhibiting PHD.
 - *If DMF AND vitamin C/NAC produce no improvement:* HIF-1α stabilization is not the dominant mechanism of WASF3 upregulation. WASF3 may be regulated by: (a) genetic variants in the WASF3 promoter or 3'UTR (GWAS signal near WASF3 locus in ME/CFS — the DecodeME GWAS may implicate WASF3); (b) epigenetic regulation (WASF3 promoter methylation); or (c) non-HIF-1α transcriptional regulators (NF-κB, STAT3 — both activated by inflammatory cytokines, both have binding sites in the WASF3 promoter).
 
 ==== Step D2: Respiratory supercomplex assembly failure (structural mitochondrial defect)
@@ -593,39 +629,12 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 - *No direct KYNA modulator exists clinically.* KYNA is a tryptophan metabolite — reducing kynurenine production (IDO inhibition, LDN) reduces both QUIN and KYNA proportionally. KMO inhibitors (which block QUIN synthesis and shunt kynurenine to KYNA) exist in preclinical development but are not available.
 - *Memantine vs. LDN head-to-head:* If memantine works better than LDN → QUIN excitotoxicity dominates over microglial neuroinflammation. NMDA blockade is more specific than anti-inflammatory suppression. If LDN works better than memantine → microglial neuroinflammation dominates (LDN reduces both IDO induction AND cytokine-mediated symptoms). Memantine may still provide benefit but it is downstream of the primary pathology.
 - *Memantine + LDN combination:* If the combination is synergistic → QUIN excitotoxicity AND neuroinflammation are independent co-drivers (LDN reduces QUIN production by reducing IDO, memantine blocks existing QUIN at the receptor). If the combination is additive only → LDN reduces QUIN production, which reduces NMDA activation → memantine has less to block → the drugs are operating in series on the same pathway.
-- *Pregnenolone (50--200 mg, neurosteroid):* Pregnenolone is a negative allosteric modulator of NMDA receptors (different site from QUIN/KYNA) and a positive allosteric modulator of GABA-A receptors. If pregnenolone improves cognition and reduces anxiety → the NMDA system is hyperactive (consistent with QUIN dominance) and GABA-A potentiation provides anxiolysis. If pregnenolone causes sedation → GABA-A potentiation is excessive in a system already in KYNA-dominant suppression.
+- *Pregnenolone (50--200 mg, neurosteroid):* Pregnenolone is a negative allosteric modulator of NMDA receptors (different site from QUIN/KYNA) and a negative allosteric modulator of GABA-A receptors. If pregnenolone improves cognition and reduces anxiety → the NMDA system is hyperactive (consistent with QUIN dominance). If pregnenolone causes sedation → the NMDA negative modulatory effect dominates, consistent with QUIN-driven excitotoxicity being suppressed. If pregnenolone causes agitation → GABA-A negative modulation is tipping excitation-inhibition balance in a system with low GABAergic reserve.
 - *If memantine causes sedation (Pattern 4) AND LDN improves symptoms:* The patient has KYNA-dominant kynurenine pathway — basal glutamate tone is already low (from KYNA antagonism), and further NMDA blockade (memantine) reduces glutamate below the threshold for normal cognition. LDN's benefit is from reducing neuroinflammation, not from restoring glutamatergic balance. This patient should avoid all NMDA antagonists.
 
 *Consequence:* The kynurenine cascade is uniquely diagnostic because it has three arms producing diametrically opposite effects: serotonin depletion (treat with 5-HTP), NMDA excitotoxicity (treat with memantine), and NMDA suppression (avoid NMDA antagonists, treat upstream with LDN). The differential diagnosis: 5-HTP response localizes the lesion to the serotonin arm. Memantine response at standard doses without sedation localizes the lesion to the QUIN arm. Memantine sedation at low dose localizes the lesion to the KYNA arm (basal glutamate tone low). The combination of 5-HTP + memantine responses maps whether both arms are active simultaneously. LDN response tells you IDO is driving the pathway. The tryptophan challenge test (improvement vs. worsening after tryptophan supplementation) tells you whether IDO is saturated — a rapid, low-cost probe that no one performs but that directly informs the entire kynurenine diagnostic logic. This is the most biochemically accessible cascade in the chapter: serum kynurenine/tryptophan ratio and QUIN/KYNA ratio are measurable in clinical labs, unlike ion channel function or autoantibody bioassays. The cascade tracing should be correlated with serum metabolite measurements whenever possible — the pharmocodiagnostic logic and the biochemical measurements validate each other.
 *Origin:* mechanistic-pathway-tracing.
 
-
-*Acronyms used in this section:*
-/ *AAb*: autoantibody
-/ *AIMM*: acquired ischemic mitochondrial myopathy
-/ *ALA*: alpha-lipoic acid
-/ *ATP*: adenosine triphosphate
-/ *BP*: blood pressure
-/ *Ca²⁺*: calcium ion, intracellular second messenger
-/ *CoQ10*: coenzyme Q10
-/ *COX-2*: cyclooxygenase-2
-/ *CPET*: cardiopulmonary exercise testing
-/ *CSF*: cerebrospinal fluid
-/ *DCA*: dichloroacetate
-/ *DMF*: dimethyl fumarate
-/ *ETC*: electron transport chain
-/ *GPCR*: G protein-coupled receptor
-/ *HIF-1α*: hypoxia-inducible factor 1 alpha
-/ *HR*: heart rate
-/ *IDO*: indoleamine 2,3-dioxygenase
-/ *IFN-γ*: interferon gamma
-/ *LDN*: low-dose naltrexone
-/ *MCAS*: mast cell activation syndrome
-/ *mTORC1*: mechanistic target of rapamycin complex 1
-/ *NAC*: N-acetylcysteine
-/ *NAD⁺*: nicotinamide adenine dinucleotide
-/ *NCX1*: Na⁺/Ca²⁺ exchanger 1
-/ *NE*: norepinephrine
 
 == Autoimmune Hypotheses
 
@@ -704,7 +713,7 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 
 *Step J2:* Impaired collagen crosslinking (ECM-level)
-- *Intercept:* Vitamin C (500--2000 mg/day; ascorbic acid, prolyl hydroxylase cofactor, antioxidant) — prolyl hydroxylase cofactor; Copper (trace mineral; lysyl oxidase cofactor for collagen crosslinking) — LOX cofactor; Glycine + proline (amino acid substrates; collagen synthesis) — collagen substrate; Circadian-timed (prolyl hydroxylase circadian optimization model, ch14a)
+- *Intercept:* Vitamin C (500--2000 mg/day; ascorbic acid, prolyl hydroxylase cofactor, antioxidant) — prolyl hydroxylase cofactor; Copper (trace mineral; lysyl oxidase cofactor for collagen crosslinking) — LOX cofactor; Glycine + proline (amino acid substrates; collagen synthesis) — collagen substrate; Circadian-timed (prolyl hydroxylase circadian optimization model, @sec:safe-mode)
 - *If timed vitamin C + glycine works:* Collagen crosslinking is impaired but biosynthetically rescuable.
 
 *Step J3:* ECM degradation (MMP-driven)
@@ -713,33 +722,6 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 *Consequence:* Doxycycline (MMP-9 inhibitor) combined with DMF (HIF-1α inhibitor) distinguishes mast-cell-driven from hypoxic-transcriptional ECM degradation.
 *Origin:* mechanistic-pathway-tracing.
 
-
-*Acronyms used in this section:*
-/ *AAb*: autoantibody
-/ *ACh*: acetylcholine
-/ *AChE*: acetylcholinesterase
-/ *AChR*: acetylcholine receptor
-/ *ATP*: adenosine triphosphate
-/ *BP*: blood pressure
-/ *CAP*: cholinergic anti-inflammatory pathway
-/ *CCI*: craniocervical instability
-/ *CNS*: central nervous system
-/ *DA*: dopamine
-/ *DMF*: dimethyl fumarate
-/ *ECM*: extracellular matrix
-/ *ETA*: endothelin receptor type A
-/ *GI*: gastrointestinal
-/ *GPCR*: G protein-coupled receptor
-/ *HIF-1α*: hypoxia-inducible factor 1 alpha
-/ *HR*: heart rate
-/ *HRV*: heart rate variability
-/ *IA*: immunoadsorption
-/ *IgG*: immunoglobulin G
-/ *LDN*: low-dose naltrexone
-/ *MCAS*: mast cell activation syndrome
-/ *MMP*: matrix metalloproteinase
-/ *NTS*: nucleus tractus solitarius
-/ *OI*: orthostatic intolerance
 
 == Neuroinflammatory Hypotheses
 
@@ -911,33 +893,6 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 *Origin:* mechanistic-pathway-tracing.
 
 
-*Acronyms used in this section:*
-/ *AAb*: autoantibody
-/ *ACh*: acetylcholine
-/ *AChE*: acetylcholinesterase
-/ *AChR*: acetylcholine receptor
-/ *ATP*: adenosine triphosphate
-/ *BBB*: blood-brain barrier
-/ *BH4*: tetrahydrobiopterin
-/ *BP*: blood pressure
-/ *cAMP*: cyclic adenosine monophosphate
-/ *CAP*: cholinergic anti-inflammatory pathway
-/ *CCI*: craniocervical instability
-/ *CNS*: central nervous system
-/ *CSF*: cerebrospinal fluid
-/ *DA*: dopamine
-/ *DAT*: dopamine transporter
-/ *DBH*: dopamine-beta-hydroxylase
-/ *DMV*: dorsal motor nucleus of vagus
-/ *DORA*: dual orexin receptor antagonist
-/ *ECM*: extracellular matrix
-/ *GI*: gastrointestinal
-/ *GPCR*: G protein-coupled receptor
-/ *HR*: heart rate
-/ *HRV*: heart rate variability
-/ *IFN-γ*: interferon gamma
-/ *IgG*: immunoglobulin G
-
 == Connective Tissue Hypotheses
 
 === HIF-1α-Mediated Connective Tissue Remodeling
@@ -955,7 +910,7 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 
 *Step N1:* Prolyl hydroxylase inhibition (ROS → HIF-1α gate)
-- *Intercept:* Vitamin C (500--2000 mg; ascorbic acid, prolyl hydroxylase cofactor) — PHD cofactor; Alpha-ketoglutarate (Krebs cycle intermediate; PHD co-substrate); Circadian timing — align with peak PHD activity (prolyl hydroxylase circadian optimization, ch14a); NAC (N-acetylcysteine; glutathione precursor, antioxidant) — reduces ROS
+- *Intercept:* Vitamin C (500--2000 mg; ascorbic acid, prolyl hydroxylase cofactor) — PHD cofactor; Alpha-ketoglutarate (Krebs cycle intermediate; PHD co-substrate); Circadian timing — align with peak PHD activity (prolyl hydroxylase circadian optimization, @sec:safe-mode); NAC (N-acetylcysteine; glutathione precursor, antioxidant) — reduces ROS
 - *If timed vitamin C + NAC works:* ROS-mediated PHD inhibition is the CT lesion. The weakness is metabolic/ROS-driven, not genetic.
 
 *Step N2:* MMP upregulation → collagen/elastin degradation
@@ -1025,22 +980,6 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 *Origin:* mechanistic-pathway-tracing.
 
 
-*Acronyms used in this section:*
-/ *AAb*: autoantibody
-/ *CCI*: craniocervical instability
-/ *CSF*: cerebrospinal fluid
-/ *DMF*: dimethyl fumarate
-/ *ECM*: extracellular matrix
-/ *GPCR*: G protein-coupled receptor
-/ *hEDS*: hypermobile Ehlers-Danlos syndrome
-/ *HIF-1α*: hypoxia-inducible factor 1 alpha
-/ *MMP*: matrix metalloproteinase
-/ *NAC*: N-acetylcysteine
-/ *POTS*: postural orthostatic tachycardia syndrome
-/ *RAAS*: renin-angiotensin-aldosterone system
-/ *ROS*: reactive oxygen species
-/ *VEGF*: vascular endothelial growth factor
-
 == Autonomic Hypotheses
 
 === POTS Subtypes: Neuropathic, Hyperadrenergic, Hypovolemic
@@ -1060,7 +999,7 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Probe:* Midodrine (α1 agonist, 2.5--10 mg). Midodrine directly stimulates α1 receptors on vascular smooth muscle, producing vasoconstriction independent of sympathetic nerve terminal function. In neuropathic POTS, the vasculature is intact but lacks sympathetic innervation — midodrine bypasses the missing nerves and directly constricts the vessels that the nerves should have.
 
-*If midodrine works AND supine NE is normal or low:* Decisive for neuropathic POTS. The combination of direct α1 response (intact vasculature) and low endogenous NE (denervated terminals) is pathognomonic. Additional confirmatory probes: no piloerection from midodrine → length-dependent small-fiber neuropathy (Pattern 5, @sec:side-effects-diagnostic) — the longest sympathetic fibers (to skin, piloerector muscles) are affected first. Severe hypertension at 2.5 mg → denervation hypersensitivity (Pattern 1, @sec:side-effects-diagnostic) — the few remaining receptors are upregulated to compensate. Skin biopsy for intraepidermal nerve fiber density (IENFD) should show reduction in lower extremities.
+*If midodrine works AND supine NE is normal or low:* Highly suggestive of neuropathic POTS within this framework — the combination of direct α1 response (intact vasculature) and low endogenous NE (denervated terminals) is specific for this pattern. Additional confirmatory probes: no piloerection from midodrine → length-dependent small-fiber neuropathy (Pattern 5, @sec:side-effects-diagnostic) — the longest sympathetic fibers (to skin, piloerector muscles) are affected first. Severe hypertension at 2.5 mg → denervation hypersensitivity (Pattern 1, @sec:side-effects-diagnostic) — the few remaining receptors are upregulated to compensate. Skin biopsy for intraepidermal nerve fiber density (IENFD) should show reduction in lower extremities.
 
 *If midodrine produces supine hypertension but standing benefit:* The α1 receptors are intact in the supine position but the standing deficit is from something else — either hypovolemia (volume deficit, not denervation) or venous pooling from connective tissue laxity (blood pools despite vasoconstriction because the veins are too compliant). Fludrocortisone should work for hypovolemia; compression garments should work for CT laxity.
 
@@ -1141,33 +1080,6 @@ The clinical relevance: reduced HRV is one of the most replicated biomarkers in 
 *Consequence:* Butyrate + 5-HTP at the enteric level, taVNS at the afferent level, and pyridostigmine + CDP-choline at the efferent level distinguish three vagal lesion levels: enteric (butyrate/5-HTP-responsive), central afferent (taVNS-responsive after NTS anti-inflammatory), and ganglionic (pyridostigmine-responsive if synapses intact; neither pyridostigmine nor taVNS responsive if AChR AAb blocks). Nicotine patch probes the CAP endpoint (macrophage α7nAChR). This four-level mapping is one of the cleanest diagnostic sequences in the chapter — each probe tests a specific anatomical segment of the vagal pathway, and the pattern of responses localizes the lesion along the gut→vagus→brainstem→spleen→macrophage axis.
 *Origin:* mechanistic-pathway-tracing.
 
-
-*Acronyms used in this section:*
-/ *AAb*: autoantibody
-/ *ACh*: acetylcholine
-/ *AChE*: acetylcholinesterase
-/ *AChR*: acetylcholine receptor
-/ *BP*: blood pressure
-/ *CAP*: cholinergic anti-inflammatory pathway
-/ *CNS*: central nervous system
-/ *DMV*: dorsal motor nucleus of vagus
-/ *GI*: gastrointestinal
-/ *GPCR*: G protein-coupled receptor
-/ *HR*: heart rate
-/ *HRV*: heart rate variability
-/ *IA*: immunoadsorption
-/ *IENFD*: intraepidermal nerve fibre density
-/ *IVIG*: intravenous immunoglobulin
-/ *LDN*: low-dose naltrexone
-/ *NE*: norepinephrine
-/ *NTS*: nucleus tractus solitarius
-/ *PFC*: prefrontal cortex
-/ *POTS*: postural orthostatic tachycardia syndrome
-/ *RAAS*: renin-angiotensin-aldosterone system
-/ *SA node*: sinoatrial node
-/ *SIBO*: small intestinal bacterial overgrowth
-/ *taVNS*: transcutaneous auricular vagus nerve stimulation
-/ *VLM*: ventrolateral medulla
 
 == Gerlier Skeletal Asymmetry 4-Pathway Model
 
@@ -1296,28 +1208,6 @@ A patient with skeletal asymmetry showing dramatic improvement on low-dose aripi
 *Origin: Gerlier 2026-07-21; dopaminergic convergence tracing by mechanistic inference.*
 
 
-*Acronyms used in this section:*
-/ *ATP*: adenosine triphosphate
-/ *cAMP*: cyclic adenosine monophosphate
-/ *Ca²⁺*: calcium ion, intracellular second messenger
-/ *CCI*: craniocervical instability
-/ *CNS*: central nervous system
-/ *CoQ10*: coenzyme Q10
-/ *DAT*: dopamine transporter
-/ *DBH*: dopamine-beta-hydroxylase
-/ *GI*: gastrointestinal
-/ *LDN*: low-dose naltrexone
-/ *NAD⁺*: nicotinamide adenine dinucleotide
-/ *NCX1*: Na⁺/Ca²⁺ exchanger 1
-/ *NE*: norepinephrine
-/ *NET*: norepinephrine transporter
-/ *NHE1*: Na⁺/H⁺ exchanger 1
-/ *NMDA*: N-methyl-D-aspartate
-/ *PEM*: post-exertional malaise
-/ *PFC*: prefrontal cortex
-/ *RAAS*: renin-angiotensin-aldosterone system
-/ *TLR4*: Toll-like receptor 4
-
 == Integrative Models
 
 === Energy Ratchet / Hysteresis Model
@@ -1387,33 +1277,6 @@ The core probe: pharmacological bypass of each demand-response signaling pathway
 *Origin:* mechanistic-pathway-tracing.
 
 
-*Acronyms used in this section:*
-/ *AAb*: autoantibody
-/ *ACh*: acetylcholine
-/ *AChE*: acetylcholinesterase
-/ *AMPK*: AMP-activated protein kinase
-/ *ANT*: adenine nucleotide translocator
-/ *ATP*: adenosine triphosphate
-/ *BH4*: tetrahydrobiopterin
-/ *cAMP*: cyclic adenosine monophosphate
-/ *CNS*: central nervous system
-/ *CoQ10*: coenzyme Q10
-/ *CPET*: cardiopulmonary exercise testing
-/ *DA*: dopamine
-/ *DBH*: dopamine-beta-hydroxylase
-/ *ETC*: electron transport chain
-/ *GPCR*: G protein-coupled receptor
-/ *HR*: heart rate
-/ *HSC*: haematopoietic stem cell
-/ *LC-NE*: locus coeruleus-norepinephrine
-/ *mTORC1*: mechanistic target of rapamycin complex 1
-/ *NAC*: N-acetylcysteine
-/ *NAD⁺*: nicotinamide adenine dinucleotide
-/ *NE*: norepinephrine
-/ *PDH*: pyruvate dehydrogenase
-/ *PEM*: post-exertional malaise
-/ *PFC*: prefrontal cortex
-
 == Cross-Hypothesis Convergence Patterns
 
 === The Dopamine Convergence Node
@@ -1472,26 +1335,6 @@ The diagnostic probes that distinguish mechanical from biochemical drivers:
 - *Aripiprazole (the convergence probe):* Works for BOTH Gerlier and biochemical dopamine dysfunction — does not distinguish. Must be combined with above probes.
 
 
-*Acronyms used in this section:*
-/ *AAb*: autoantibody
-/ *ANT*: adenine nucleotide translocator
-/ *ATP*: adenosine triphosphate
-/ *BH4*: tetrahydrobiopterin
-/ *CCI*: craniocervical instability
-/ *CoQ10*: coenzyme Q10
-/ *CSF*: cerebrospinal fluid
-/ *DA*: dopamine
-/ *DBH*: dopamine-beta-hydroxylase
-/ *GPCR*: G protein-coupled receptor
-/ *IA*: immunoadsorption
-/ *LDN*: low-dose naltrexone
-/ *NE*: norepinephrine
-/ *NMDA*: N-methyl-D-aspartate
-/ *NRI*: norepinephrine reuptake inhibitor
-/ *PEM*: post-exertional malaise
-/ *PFC*: prefrontal cortex
-/ *VMAT2*: vesicular monoamine transporter 2
-
 == Side Effects as Diagnostic Probes
 <sec:side-effects-diagnostic>
 
@@ -1509,8 +1352,8 @@ The chapter above uses *therapeutic response* — whether a drug works — to lo
 - *Pramipexole (sifrol) causing nausea and dizziness at RLS starting dose (0.125–0.25 mg):* Nausea is D2/D3 agonism in the area postrema (chemoreceptor trigger zone, outside the blood-brain barrier). Dizziness is orthostatic hypotension from combined peripheral D2-mediated vasodilation and central D2-mediated sympathetic suppression. At the minimal dose used for RLS, these side effects indicate: (a) D2/D3 receptors are supersensitive in both the area postrema (nausea) and cardiovascular regulatory centres (dizziness) — the same supersensitivity that makes low-dose D2 agonism effective also makes it produce side effects at doses that are subclinical in Parkinson's patients; (b) the orthostatic intolerance system is already operating at critical margin — even weak peripheral vasodilation + mild central sympathetic suppression is enough to decompensate it. Diagnostic: this patient's dopaminergic system is hypersensitive (consistent with chronic dopamine deficiency → postsynaptic D2/D3 upregulation in multiple brain regions). The orthostatic intolerance is dopaminergically vulnerable — if pramipexole causes dizziness at 0.125 mg, the patient's haemodynamic stability depends on intact central sympathetic outflow, and any D2-mediated suppression tips the balance. Implies the patient has neuropathic POTS (already-compensated sympathetic tone) or dopamine-dependent cardiovascular regulation. If nausea is present but dizziness is absent → D2 receptors are supersensitive in the area postrema but cardiovascular D2/D3 signalling is either desensitized or non-functional — an unexpected dissociation. If neither nausea nor dizziness occurs at therapeutic doses → D2/D3 receptors in area postrema and cardiovascular centres are too damaged or desensitized to respond (Pattern 5 — absent expected side effect), which would make D2 agonism ineffective for any indication in this patient.
 - *Ketotifen causing severe sedation or hypersomnia at 0.5--1 mg:* Ketotifen is a mast cell stabilizer with H1 antagonist activity. At standard MCAS doses (1--2 mg BID), sedation is expected as the H1 component suppresses histaminergic wakefulness. Sedation at 0.5 mg (pediatric dose) implies: (a) the histaminergic arousal system is already barely functional — minimal H1 blockade collapses remaining wakefulness, consistent with the orexin suppression model (@sec:microglial-cascade Step K2a); or (b) ketotifen's mast-cell stabilizing effect is additionally suppressing a compensatory mast-cell-driven arousal mechanism (histamine released from CNS mast cells was the only thing keeping the patient awake). Diagnostic: this patient's wakefulness depends on histaminergic tone from mast cell degranulation — they are being "held awake" by their own MCAS. If ketotifen reduces MCAS symptoms (flushing, GI, pruritus) without sedation → the mast-cell stabilizing benefit is achieved at a dose below the H1 sedation threshold; H1 receptors are intact but not hypersensitive. If ketotifen produces NO effect (no MCAS improvement, no sedation) → either mast cells are not rate-limiting for symptoms, or ketotifen cannot access CNS mast cells at this dose. The dissociation of MCAS benefit vs sedation identifies whether mast cells are driving symptoms or just co-occurring.
 - *Pregnenolone sulfate causing agitation, insomnia, or anxiety at 25--50 mg:* Pregnenolone is a TRPM3 positive allosteric modulator and a negative allosteric modulator of GABA-A receptors, with additional NMDA receptor modulatory activity. At the low doses used for TRPM3 gating support, these side effects imply: (a) TRPM3 channels are functional and hypersensitive — the positive allosteric modulation of TRPM3 produces excessive calcium influx in sensory and autonomic neurons, driving CNS excitation; (b) GABA-A negative modulation at a system already in a low-GABAergic tone state (consistent with neuroinflammation-driven interneuron dysfunction, @sec:kynurenine-cascade H2b) tips the excitation-inhibition balance toward excitation; and (c) the dual mechanism — TRPM3 activation + GABA-A disinhibition — means the patient has both an intact, hypersensitive ion channel AND a fragile inhibitory system. Diagnostic: if agitation occurs at 25 mg but not 10 mg → the TRPM3 system has a narrow tolerable modulation window; the patient's CNS excitation-inhibition balance is on a knife edge. If no agitation even at 100 mg → TRPM3 is either desensitized, absent, or already maximally activated (Pattern 5 — absence of expected CNS excitation implies the channel cannot be further activated). If pregnenolone produces sedation (unexpected, since it is a GABA-A NAM) → the NMDA negative modulatory effect dominates, and the patient's glutamatergic system is hyperactive (quinolinic-acid-driven NMDA excitotoxicity, consistent with the kynurenine pathway); the GABA-A NAM effect is outweighed by NMDA suppression. This dissociation — sedation vs. agitation from the same drug — distinguishes glutamatergic excitotoxicity from GABAergic insufficiency as the dominant CNS pathology.
-- *Clonidine (0.05--0.1 mg at bedtime, central α2 agonist) causing hypotensive crash at minimal dose:* Clonidine suppresses central sympathetic outflow via α2 autoreceptors on LC neurons and brainstem presympathetic nuclei (RVLM). At this dose — 1/10th of the antihypertensive starting dose — a BP crash implies the total systemic BP is sympathetically maintained: removing even a fraction of central sympathetic outflow unmasks an absolute dependence on α2-gated sympathetic tone for every mmHg of perfusion pressure. Diagnostic: (a) the baroreflex arc is impaired — the NTS cannot mount a compensatory sympathetic response when clonidine suppresses the RVLM because the NTS itself is dysfunctional (consistent with brainstem neuroinflammation, @sec:brainstem-cascade); (b) the remaining sympathetic output is load-bearing — there is zero adrenergic reserve; (c) midodrine MUST precede any clonidine or guanfacine trial — the patient needs exogenous α1 agonism before central α2 agonism can be explored safely. If clonidine at 0.05 mg produces controlled HR/BP reduction without crash → the sympathetic system has modest reserve; central α2 agonism is accessible. If clonidine at 0.1 mg produces NO change in BP/HR → α2 autoreceptors are desensitized (chronic NE overstimulation from hyperadrenergic POTS) — the central sympathetic system cannot be suppressed pharmacologically because the receptors are already non-responsive. The dose at which BP drops IS the sympathetic reserve measurement: BP crash at 0.025 mg → zero reserve; BP drop at 0.1 mg → 10% reserve; no BP change at 0.2 mg → α2 desensitization, hyperadrenergic POTS. Clonidine is the most direct probe of central sympathetic dependence in the chapter — more specific than guanfacine (which also has prefrontal cognitive effects) because clonidine's dominant effect at low doses is pure central sympathetic suppression.
-- *Prazosin (0.5--1 mg at bedtime, peripheral α1 antagonist, glymphatic probe) causing severe orthostatic hypotension at minimal dose:* Prazosin blocks α1 receptors on vascular smooth muscle, preventing NE-mediated vasoconstriction — the intended effect for glymphatic support (vasodilation during sleep → improved CSF-ISF exchange, @sec:glymphatic-cascade). But at 0.5 mg — 1/4 of the PTSD nightmare dose — severe OH implies the patient's standing BP depends on α1-mediated vasoconstriction for every mmHg of orthostatic tolerance. Diagnostic: (a) this is textbook neuropathic POTS — the sympathetic nerves to the legs are denervated, and the remaining vasoconstriction is from circulating NE acting on supersensitive α1 receptors; blocking even a fraction causes OH because there is zero redundancy; (b) the glymphatic benefit is inaccessible behind the OH ceiling — the same α1 blockade that would improve glymphatic flow during sleep makes the patient unable to stand safely. If prazosin worsens OH at 0.5 mg but improves morning symptoms at 0.25 mg taken strictly supine (patient remains supine for 8+ hours after dose) → the glymphatic window exists but requires strict supine dosing — the patient cannot stand for at least 8 hours post-dose. This is a practical constraint: prazosin becomes a bedtime-only, supine-only glymphatic probe. If prazosin produces no OH at 1 mg → the standing BP does NOT depend on α1-mediated vasoconstriction; either (a) the patient has hyperadrenergic POTS (standing BP is maintained by β1 cardiac output, not α1 vasoconstriction — consistent with OH from clonidine, not prazosin), or (b) the patient has adequate sympathetic reserve. The prazosin OH threshold at microdose distinguishes neuropathic POTS (OH from α1 block) from hyperadrenergic POTS (OH from central α2 suppression with clonidine) — two subtypes that require opposite pharmacological strategies.
+- *Clonidine (0.05--0.1 mg at bedtime, central α2 agonist) causing hypotensive crash at minimal dose:* Clonidine suppresses central sympathetic outflow via α2 autoreceptors on LC neurons and brainstem presympathetic nuclei (RVLM). At this dose — 1/4 to 1/2 of the antihypertensive starting dose (0.1 mg BID) — a BP crash implies the total systemic BP is sympathetically maintained: removing even a fraction of central sympathetic outflow unmasks an absolute dependence on α2-gated sympathetic tone for every mmHg of perfusion pressure. Diagnostic: (a) the baroreflex arc is impaired — the NTS cannot mount a compensatory sympathetic response when clonidine suppresses the RVLM because the NTS itself is dysfunctional (consistent with brainstem neuroinflammation, @sec:brainstem-cascade); (b) the remaining sympathetic output is load-bearing — there is minimal adrenergic reserve; (c) midodrine MUST precede any clonidine or guanfacine trial — the patient needs exogenous α1 agonism before central α2 agonism can be explored safely. If clonidine at 0.05 mg produces controlled HR/BP reduction without crash → the sympathetic system has some reserve; central α2 agonism may be accessible. If clonidine at 0.1 mg produces NO change in BP/HR → α2 autoreceptors are desensitized (chronic NE overstimulation from hyperadrenergic POTS) — the central sympathetic system cannot be suppressed pharmacologically because the receptors are already non-responsive. The dose at which BP drops is an ordinal readout of sympathetic reserve: the lower the dose, the thinner the reserve.
+- *Prazosin (0.5--1 mg at bedtime, peripheral α1 antagonist, glymphatic probe) causing severe orthostatic hypotension at minimal dose:* Prazosin blocks α1 receptors on vascular smooth muscle, preventing NE-mediated vasoconstriction — the intended effect for glymphatic support (vasodilation during sleep → improved CSF-ISF exchange, @sec:glymphatic-cascade). But at 0.5 mg — 1/2 of the PTSD nightmare starting dose (1 mg) — severe OH implies the patient's standing BP depends on α1-mediated vasoconstriction for every mmHg of orthostatic tolerance. Diagnostic: (a) this is textbook neuropathic POTS — the sympathetic nerves to the legs are denervated, and the remaining vasoconstriction is from circulating NE acting on supersensitive α1 receptors; blocking even a fraction causes OH because there is zero redundancy; (b) the glymphatic benefit is inaccessible behind the OH ceiling — the same α1 blockade that would improve glymphatic flow during sleep makes the patient unable to stand safely. If prazosin worsens OH at 0.5 mg but improves morning symptoms at 0.25 mg taken strictly supine (patient remains supine for 8+ hours after dose) → the glymphatic window exists but requires strict supine dosing — the patient cannot stand for at least 8 hours post-dose. This is a practical constraint: prazosin becomes a bedtime-only, supine-only glymphatic probe. If prazosin produces no OH at 1 mg → the standing BP does NOT depend on α1-mediated vasoconstriction; either (a) the patient has hyperadrenergic POTS (standing BP is maintained by β1 cardiac output, not α1 vasoconstriction — consistent with OH from clonidine, not prazosin), or (b) the patient has adequate sympathetic reserve. The prazosin OH threshold at microdose distinguishes neuropathic POTS (OH from α1 block) from hyperadrenergic POTS (OH from central α2 suppression with clonidine) — two subtypes that require opposite pharmacological strategies.
 
 *Pattern 2 — Paradoxical reaction.* The target system has a regulatory inversion — the expected response is reversed.
 
@@ -1527,12 +1370,14 @@ The chapter above uses *therapeutic response* — whether a drug works — to lo
 
 - *Pyridostigmine causing severe GI cramping/diarrhea at 30 mg:* Acetylcholine accumulation at muscarinic receptors in the gut. Expected at higher doses, but severe at minimal dose implies: (a) acetylcholinesterase activity is already reduced (from inflammation, oxidative stress, or genetic AChE variants) → less enzyme available to degrade ACh, so AChE inhibition has outsized effect; or (b) the gut has upregulated muscarinic receptor density or sensitivity in compensation for reduced vagal tone → the tissue is primed to overreact to ACh. Diagnostic: start at 10--15 mg. If GI sensitivity persists, the gut cholinergic system is hypersensitive — consistent with enteric denervation and compensatory receptor upregulation.
 - *Aripiprazole causing akathisia at 0.5 mg:* D2/D3 partial agonism at minimal dose producing motor restlessness. Expected at antipsychotic doses (5--30 mg) but not at microdoses. Implies: (a) D2 receptors are supersensitive (upregulated from chronic dopamine deficiency) — the same receptor state that makes aripiprazole effective at microdoses also makes it produce akathisia at microdoses; (b) the patient's dopaminergic deficit is severe enough that the partial agonist's intrinsic activity at 0.5 mg exceeds what the system can buffer. Diagnostic: this patient has severe dopamine deficiency — the akathisia confirms the receptor pathology. Consider even lower starting dose (0.1 mg liquid titration) or switching to a different dopamine strategy (amantadine, which increases release rather than agonizing receptors directly).
+- *Amantadine (100--200 mg/day, dopamine release enhancer + weak NMDA antagonist) causing livedo reticularis or confusion at subtherapeutic dose:* Amantadine increases dopamine release from surviving presynaptic terminals by blocking dopamine reuptake and enhancing vesicular release — a presynaptic strategy that bypasses D2/D3 receptor issues. Livedo reticularis (net-like violaceous skin mottling) is a well-known amantadine side effect from catecholamine-mediated peripheral vasoconstriction in dermal arterioles with compensatory venular dilation. At the low dose of 100 mg (half the Parkinson's starting dose), livedo implies: (a) catecholamine-mediated vasomotor instability in skin microvasculature is already at threshold — consistent with peripheral sympathetic dysregulation (neuropathic POTS with regional denervation → patchy vasomotor control); (b) the skin microvasculature mirrors the systemic autonomic state — livedo at 100 mg suggests the peripheral sympathetic system has zero reserve for additional catecholamine tone. Confusion at 100 mg implies NMDA antagonism sensitivity — amantadine's weak NMDA block (Ki ~10 µM) is normally imperceptible, but in a system with NMDA hypofunction (KYNA dominance, kynurenine pathway), even weak block tips cognition over the edge. Diagnostic: (a) livedo reticularis at 100 mg → peripheral sympathetic vasomotor fragility confirmed — consistent with neuropathic POTS with dermal microvascular involvement (pattern may predict response to midodrine: the same sympathetic deficit that causes patchy vasoconstriction in skin may cause venous pooling in legs); (b) confusion at 100 mg → NMDA hypofunction confirmed (same pattern as ketamine psychotomimetic sensitivity — two structurally different NMDA antagonists produce the same cognitive ceiling at subtherapeutic doses, confirming global NMDA deficiency); (c) improvement + no livedo/confusion → dopamine release is the bottleneck AND peripheral sympathetic/NMDA systems have adequate reserve — amantadine is usable long-term. If amantadine produces no cognitive benefit at 200 mg despite no side effects → dopamine release is not the bottleneck (consistent with VMAT2 terminal loss — vesicles are empty, amantadine has nothing to release). Try L-DOPA (substrate load) or pramipexole (direct postsynaptic).
 - *Duloxetine or amitriptyline causing severe anticholinergic toxicity (confusion, dry mouth, constipation, urinary retention) at low antidepressant doses:* Duloxetine (SNRI) has minimal direct anticholinergic effect; amitriptyline (TCA) blocks M1 muscarinic receptors. If anticholinergic symptoms appear with duloxetine (which should not produce them), an unexpected off-target system is vulnerable — either: (a) the patient has subclinical acetylcholinesterase deficiency (AChE genetic variant) → baseline synaptic ACh is already high, so even the weak indirect anticholinergic effect of NE-mediated inhibition of cholinergic neurons is sufficient to push the system over threshold; or (b) duloxetine is unmasking undiagnosed Sjögren's syndrome (sicca + anticholinergic effect = severe dry mouth, blurred vision, dysphagia). If amitriptyline produces severe sedation at 5--10 mg (not 25--50 mg) → H1 receptor supersensitivity; this patient's histaminergic wakefulness drive is easily suppressed, consistent with orexin/histamine dysfunction. Diagnostic: both agents probe NE/5-HT reuptake function but amitriptyline additionally probes H1 and M1 receptor tone. The specific side-effect ceiling identifies which receptor system has the least functional reserve.
 - *Gabapentin or pregabalin causing severe sedation, cognitive impairment, or ataxia at minimal doses (100--300 mg gabapentin, 25--50 mg pregabalin):* Gabapentinoids bind the α2δ subunit of voltage-gated calcium channels (CaV), reducing neurotransmitter release. At these doses, therapeutic effect on neuropathic pain should not yet be achieved — the side effects appear before any analgesic ceiling is reached, implying the α2δ-containing CaV channels are hypersensitive or already upregulated. In ME/CFS, this pattern could mean: (a) the patient has central sensitization so severe that even minimal CaV channel blockade produces disproportionate CNS depression — consistent with TRPM3-dependent calcium dysregulation driving compensatory CaV upregulation; or (b) gabapentinoids are hitting a system that is already calcium-starved — reducing Ca²⁺ influx further tips neurons below their minimum activation threshold. If the patient experiences paradoxical agitation on gabapentin → GABA synthesis is altered (gabapentin increases GABA via GAD activation; if GAD is dysfunctional, glutamate accumulation → paradoxical excitation). Diagnostic: this patient has severe central sensitization. Gabapentinoids cannot be titrated to effective doses — consider PEA (PPAR-α, no calcium channel effect), LDN, or ketamine (NMDA block) for neuropathic pain instead.
 - *Fluvoxamine producing GI distress at low-dose (25--50 mg) before sigma-1 receptor (sigma1R) benefit:* Fluvoxamine is unique among SSRIs — at 25--50 mg, it is a potent sigma1R agonist (Kd ~36 nM) with minimal SERT occupancy; sigma1R activation restores ER stress responses and promotes autophagy. At 100+ mg, SERT occupancy dominates and sigma1R selectivity is lost. GI distress (nausea, diarrhoea, cramping) at 25--50 mg is a 5-HT3-mediated off-target effect — serotonin release in the gut before SERT blockade at the synapse. If GI distress appears at sigma1R doses (25--50 mg) and prevents titration → the sigma1R therapeutic window is inaccessible behind the GI serotonergic ceiling; the gut 5-HT3 system is hypersensitive (consistent with serotonergic gut hypersensitivity from 5-HT depletion peripherally + 5-HT3 receptor upregulation). If sigma1R benefit (reduced fatigue, improved cognition) appears at 25--50 mg without GI distress → sigma1R agonism is the mechanism AND the gut serotonergic system has adequate reserve. If benefit appears at 25--50 mg but is lost at 100+ mg → sigma1R is the therapeutic mechanism and SERT-mediated 5-HT reuptake inhibition is counterproductive (consistent with the kynurenine pathway's serotonin depletion — increasing synaptic 5-HT reuptake inhibition when serotonin pool is already depleted produces no additional benefit, and the sigma1R component is diluted). If NO benefit at any dose → neither sigma1R nor SERT is rate-limiting. Diagnostic: fluvoxamine is the only SSRI that distinguishes sigma1R from 5-HT mechanisms by dose — low-dose (25--50 mg) response = sigma1R (ER stress, autophagy); high-dose (100+ mg) response = serotonergic; response at low dose lost at high dose = sigma1R is therapeutic, 5-HT is counterproductive. This is the highest-specificity probe for the sigma1R hypothesis in the entire chapter.
-- *Lithium (150--300 mg/day, microdose as PIP2 probe) causing polydipsia, polyuria, or fine tremor at microdose:* Lithium inhibits inositol monophosphatase (IMPase) and glycogen synthase kinase-3β (GSK-3β) — its primary PIP2 cycle and signalling targets. At the microdoses used for TRPM3/PIP2 probing (150--300 mg, well below bipolar doses of 600--1,200 mg), these effects should be imperceptible. Polydipsia and polyuria at microdose imply aquaporin-2 hypersensitivity in renal collecting ducts — lithium's inhibition of IMPase reduces cGMP-mediated AQP2 translocation, and in a system where AQP2 is already suppressed (consistent with chronic low-grade kidney stress from dehydration, POTS hypovolemia, or pain-medication NSAID nephrotoxicity), the additional IMPase inhibition unmasks a pre-existing renal concentrating defect. Fine tremor at microdose implies cerebellar/neuromuscular sensitivity — consistent with hyperadrenergic POTS (β2-mediated physiological tremor is unmasked by lithium's augmentation of NE release at the presynaptic terminal, since lithium acutely increases neurotransmitter release through PIP2 → DAG → PKC pathways before its chronic mood-stabilizing effects occur). Diagnostic: (a) polydipsia at 150 mg → occult nephrogenic diabetes insipidus vulnerability — the collecting duct cannot concentrate urine even at lithium micro-exposure; (b) tremor at 150 mg → cerebellar NE sensitivity; consistent with hyperadrenergic POTS with fine tremor at baseline; (c) nausea at 150 mg → gastric lithium accumulation; the GI mucosa is concentrating lithium when it shouldn't be (consistent with slow gastric emptying from POTS/vagal dysfunction). If NO polydipsia, tremor, or nausea at 150--300 mg → renal concentrating mechanism, cerebellar sensitivity, and GI transit are all functional — lithium's PIP2 inhibition is selective for the therapeutic target without off-target kidney or CNS effects. Lithium is the most upstream pharmacological probe in the chapter — a response implies the lesion is at or above PIP2; a side effect maps vulnerability in the kidney, cerebellum, and GI systems that PIP2 also gate.
+- *Lithium (2--20 mg elemental/day, as PIP2 probe) causing polydipsia, polyuria, or fine tremor at microdose:* Lithium inhibits IMPase and GSK-3β. At the elemental microdoses used for PIP2 probing (2--20 mg elemental — equivalent to 10--70 mg lithium orotate or 75--750 mg lithium carbonate; well below bipolar doses of 150--300 mg elemental), these side effects should be imperceptible. Polydipsia and polyuria at elemental microdose imply aquaporin-2 hypersensitivity in renal collecting ducts — lithium inhibits adenylyl cyclase and GSK-3β in collecting-duct principal cells, reducing vasopressin V2-receptor-driven cAMP/PKA-mediated AQP2 translocation, and in a system where AQP2 is already suppressed (consistent with chronic low-grade kidney stress from dehydration, POTS hypovolemia, or NSAID nephrotoxicity), the additional IMPase inhibition unmasks a pre-existing renal concentrating defect. Fine tremor at microdose implies cerebellar/neuromuscular sensitivity — consistent with hyperadrenergic POTS (β2-mediated physiological tremor is unmasked by lithium's augmentation of NE release at the presynaptic terminal, since lithium acutely increases neurotransmitter release through PIP2 → DAG → PKC pathways before its chronic mood-stabilizing effects occur). Nausea at microdose → lithium is a direct gastric irritant; nausea appearing at elemental microdose (where irritation should be minimal) suggests either gastric hypersensitivity or slow gastric emptying (consistent with POTS/vagal dysfunction). However, lithium-induced nausea even at low doses is common and non-specific — the diagnostic value is lower than tremor or polydipsia, which are more specific to lithium's PIP2/CNS/kidney pharmacology. Diagnostic: polydipsia at 2 mg elemental → severe occult nephrogenic DI vulnerability; tremor at 2 mg elemental → cerebellar NE hypersensitivity; nausea at 2 mg elemental → severe gastric dysmotility. If NO polydipsia, tremor, or nausea at 20 mg elemental → renal concentrating mechanism, cerebellar sensitivity, and GI transit are all functional — lithium's PIP2 inhibition is selective for the therapeutic target. Lithium is the most upstream pharmacological probe in the chapter — a response implies the lesion is at or above PIP2; a side effect maps vulnerability in the kidney, cerebellum, and GI systems that PIP2 also gate. Note: dose equivalence varies by salt — lithium orotate (2--10 mg elemental per capsule) provides microdose ranges; lithium carbonate (28 mg elemental per 150 mg pill) requires quarter-tablet splitting for elemental microdosing.
 - *5-HTP (50--100 mg, as serotonin precursor probe) causing GI distress or serotonin syndrome at low dose:* 5-HTP bypasses tryptophan hydroxylase — the rate-limiting IDO-kynurenine drain on tryptophan — and directly supplies serotonin synthesis via AADC. GI distress at 50 mg (nausea, cramping, diarrhoea) implies gut serotonin hypersensitivity: 5-HT3 and 5-HT4 receptors in the enteric nervous system are upregulated from chronic serotonin depletion peripherally (tryptophan diverted to kynurenine via IDO → peripheral serotonin deficiency → compensatory receptor upregulation). The gut's reaction to even a modest serotonin precursor reveals the depth of the peripheral serotonin drain. If serotonin syndrome (confusion, hyperthermia, autonomic instability) appears at 50--100 mg → either AADC activity is very high (rapid conversion) or MAO-A is impaired (serotonin degradation failure) — consistent with oxidative-stress-mediated MAO dysfunction. If NO GI distress at 100 mg → the peripheral serotonin system has adequate reserve (IDO drain is not severe, gut serotonin receptors are normally sensitive). Diagnostic: 5-HTP is the only probe that directly tests the kynurenine pathway's serotonin depletion arm — tryptophan → serotonin, not tryptophan → kynurenine. A positive cognitive or mood response confirms serotonin synthesis is rate-limiting; GI distress at low dose reveals the gut's compensatory receptor state, tracing the severity and tissue distribution of the serotonin deficit.
 - *Niacin (50--100 mg, as MCAS probe) producing severe flush at sub-physiologic dose:* Niacin activates hydroxycarboxylic acid receptor 2 (HCA2/GPR109A) on dermal Langerhans cells and mast cells, triggering PGD2 release → vasodilation and flushing. At vitamin doses (15--20 mg/day), flushing is not expected; at the pharmacologic threshold of 50 mg, mild flushing is normal. Severe flush (intense erythema, pruritus, warmth extending from face to torso and lasting >30 minutes) at 50--100 mg implies mast cell PGD2 hyper-reactivity — the dermal mast cell pool releases disproportionate PGD2 per unit HCA2 activation. Diagnostic: the niacin flush threshold maps cutaneous MCAS severity. If flush appears at 25 mg → severe dermal mast cell hyper-reactivity; if flush only at 250+ mg → mild or absent MCAS in skin; if no flush even at 500 mg → HCA2 receptor desensitization or PGD2 synthase deficiency (rare: PGD2 pathway non-functional, would also explain absence of aspirin sensitivity). If aspirin prevents niacin flush → confirms PGD2 is the flush mediator (COX-1 → PGH2 → PGDS → PGD2); mast cell COX-1 is functional and the PGD2 pathway is the dominant skin MCAS mediator. If antihistamines prevent niacin flush → histamine, not PGD2, is driving the flush — a different MCAS subtype. The niacin probe is the lowest-cost MCAS diagnostic: a 50 mg OTC niacin tablet and 20 minutes of observation provide a functional readout of dermal mast cell PGD2 release capacity.
+- *NAC (N-acetylcysteine, 600--1,200 mg/day, glutathione precursor) causing paradoxical fatigue worsening or anhedonia at standard dose:* NAC supplies cysteine for glutathione (GSH) synthesis — the rate-limiting substrate for the body's primary antioxidant. Paradoxical worsening implies: (a) cysteine is being diverted from the transsulfuration pathway (cysteine → cystathionine → H₂S) toward GSH synthesis, reducing hydrogen sulfide (H₂S) production — H₂S is a gaseous vasodilator and mitochondrial complex IV electron donor; losing H₂S-mediated vasodilation in an already vasoconstricted system worsens tissue perfusion → fatigue; (b) NAC's thiol group reacts with existing ROS to form intermediate thiol radicals before GSH is fully synthesized — in a system with high baseline oxidative stress, the intermediate thiol-radical burst exceeds the GSH synthetic capacity and produces net oxidative damage; (c) NAC is a weak metal chelator, and at sustained high doses may reduce copper availability for dopamine-β-hydroxylase (DBH; copper-dependent NE synthesis enzyme) — anhedonia and cognitive worsening in a patient already NE-deficient could reflect borderline DBH function tipped below threshold (consistent with @ach:catecholamine-deficit, though this mechanism is speculative at standard oral doses). Diagnostic: (a) worsening at 600 mg that resolves at 1,200 mg → the initial thiol-radical burst exhausted GSH capacity at low dose; higher dose saturates the radical-scavenging pathway and shunts toward net GSH synthesis — confirms high baseline oxidative stress AND functional GSH synthesis machinery; (b) worsening at all doses with no improvement → either chronic thiol stress (GSH system cannot handle any additional cysteine load, consistent with severe oxidative damage overwhelming the system) or H₂S pathway dependence (the patient's tissue perfusion depends on H₂S vasodilation and NAC's diversion of cysteine away from transsulfuration removes this vasodilatory support); (c) cognitive/anhedonia worsening specifically → DBH copper chelation is the dominant mechanism — consistent with catecholamine synthesis deficit (the patient was borderline NE-deficient and NAC pushed DBH below functional threshold). If NAC + selenium (GSH peroxidase cofactor) prevents worsening → selenium deficiency was the bottleneck in GSH recycling — confirms oxidative stress is glutathione-cycle-limited. If NAC improves symptoms → oxidative stress and glutathione depletion are present and rate-limiting — NAC is therapeutic. If NAC produces no effect → either oxidative stress is not rate-limiting, or glutathione is not the bottleneck (consider mitochondrial antioxidants: CoQ10, MitoQ, SkQ1).
 
 *Pattern 4 — Tolerability ceiling imposed by a specific system.* The drug works but cannot be titrated because side effect Y from system Z appears first. The ceiling identifies which system has the least reserve.
 
@@ -1557,6 +1402,8 @@ The chapter above uses *therapeutic response* — whether a drug works — to lo
 - *Levetiracetam dose-limited by psychiatric adverse effects or sedation before anti-kindling benefit:* Levetiracetam binds SV2A, reducing neurotransmitter release probability in circuits undergoing kindling (repeated subthreshold stimulation → progressively increasing response). In ME/CFS, if PEM represents a kindling-like process, SV2A binding should reduce PEM frequency and severity. Psychiatric adverse effects (agitation, depression, suicidal ideation) at 250--500 mg/day (below anti-kindling threshold of 1,000--3,000 mg/day) imply the limbic neurotransmitter system has minimal reserve — consistent with DA deficiency and serotonergic depletion from the kynurenine pathway. Sedation at low dose implies global cortical/thalamic suppression in a system near its activation threshold (consistent with FDG-PET regional hypometabolism). Diagnostic: levetiracetam is the highest-specificity probe for the neuronal kindling hypothesis of PEM. Positive response confirms PEM is neuroplastic; null response shifts differential to metabolic or microvascular mechanisms.
 - *GLP-1 agonists (semaglutide, tirzepatide) dose-limited by unacceptable lean mass loss or severe GI intolerance before anti-inflammatory benefit:* GLP-1 agonists suppress appetite, slow gastric emptying, and reduce systemic inflammation (CRP reduction of 20--40% independent of weight loss). If anti-inflammatory benefit (reduced CRP, improved symptoms) is achieved but accompanied by unacceptable lean mass loss (sarcopenia, weakness, functional decline) → the patient's basal metabolic rate depends on GLP-1-sensitive energy allocation — reducing caloric intake further depletes an already energy-compromised system, and the lean mass loss confirms that muscle protein synthesis cannot keep pace with the catabolic state imposed by caloric restriction. Diagnostic: this patient's energy deficit is so severe that any reduction in caloric intake — even with the anti-inflammatory benefit of GLP-1 agonism — costs more in functional lean mass than it returns in inflammatory suppression. GLP-1 agonists are contraindicated in sarcopenic ME/CFS. If GI intolerance (severe nausea, vomiting, gastroparesis) appears before anti-inflammatory benefit → the patient's gastric motility is already compromised (consistent with vagal dysfunction, enteric neuropathy, or gastroparesis from GPCR AAb). GLP-1 agonists worsen gastroparesis by slowing gastric emptying further. If anti-inflammatory benefit without significant lean mass loss → the patient has adequate metabolic reserve; GLP-1 agonism is usable. If NO anti-inflammatory benefit despite adequate dosing and tolerance → GLP-1R signaling pathway is not rate-limiting for inflammation in this patient; the inflammation is GLP-1R-independent (complement-driven, mast-cell-driven, TLR4-driven, or inflammasome-driven).
 - *DCA (dichloroacetate) dose-limited by peripheral neuropathy before PDH activation benefit:* DCA inhibits PDK, restoring PDH activity and reducing lactate accumulation. Peripheral neuropathy (stocking-glove distribution, axonal sensorimotor) is the dose-limiting toxicity — cumulative doses above ~30 g produce reversible neuropathy in most patients, with some developing irreversible damage. If neuropathy appears at low cumulative doses (under 10 g) → the patient's peripheral nerves are already vulnerable (consistent with pre-existing small-fiber neuropathy, IENFD reduction, or neuropathic POTS). Diagnostic: DCA neuropathy onset at low cumulative dose confirms pre-existing peripheral nerve fragility — the neuropathy is unmasked, not caused de novo. If PDH benefit (reduced lactate, improved exercise tolerance) appears at doses below the neuropathy threshold → PDH phosphorylation is confirmed as rate-limiting AND the therapeutic window is accessible in this patient. If DCA produces no lactate reduction despite adequate dosing → PDH is not rate-limiting; the metabolic block is downstream of PDH (TCA cycle, ETC, or ATP synthase). DCA is the highest-specificity probe for PDH in the entire chapter — a null response eliminates PDH as the bottleneck. If DCA is unavailable → the thiamine response pattern (@sec:pdh-cascade E2) provides a lower-specificity but accessible alternative.
+- *Metformin/berberine dose-limited by GI intolerance before AMPK-mediated metabolic benefit:* Both agents activate AMPK (metformin through complex I inhibition → AMP/ATP ratio increase, berberine through direct AMPK phosphorylation and mitochondrial complex I inhibition). GI intolerance (cramping, diarrhoea, nausea) at 500 mg metformin or 500 mg berberine — well below the standard Type 2 diabetes starting doses — implies: (a) enterocyte mitochondrial vulnerability — the gut epithelium has the highest turnover rate of any tissue and is exquisitely ATP-dependent; even mild complex I inhibition tips ATP below the threshold for tight junction maintenance → osmotic diarrhoea; (b) the gut microbiome is AMPK-sensitive — berberine's additional bile-acid-modulating and antimicrobial effects compound the GI disruption; (c) metformin's serotonin release from enterochromaffin cells (5-HT3-mediated) triggers nausea at doses where AMPK activation is minimal. Diagnostic: GI ceiling at micro-dose identifies which metabolic probe (metformin vs. berberine) is better tolerated — if berberine causes GI but metformin does not, bile-acid/gut-microbiome disruption is the mechanism (berberine-specific); if metformin causes GI but berberine does not, 5-HT3 serotonergic gut hypersensitivity is the mechanism (metformin-specific). If both cause GI at microdoses → gut epithelial ATP deficit is severe — any mitochondrial complex I inhibition collapses enterocyte function. If berberine causes hypoglycemia at 500 mg → gluconeogenesis is already impaired (AMPK activation suppresses hepatic gluconeogenesis, and in a patient with borderline glucose production, even mild suppression tips glucose below threshold). If NO GI at 1,000+ mg of either → enterocyte mitochondria and gut microbiome are resilient; AMPK pathway is accessible. If neither produces metabolic benefit despite adequate dosing → AMPK pathway is not the rate-limiting bottleneck for systemic metabolism; the lesion is downstream of AMPK (mitochondrial, not signaling).
+- *NADH (5--20 mg/day, Complex I electron donor) causing paradoxical fatigue worsening:* NADH feeds electrons directly into Complex I of the ETC. Worsening fatigue at 5 mg implies Complex I is functional and accepting electrons, but the downstream ETC is blocked — electrons leak at the block site (usually Complex III or IV) → superoxide production → oxidative stress worsens. Diagnostic: the divergence between NADH and CoQ10 worsening maps the ETC block site. NADH worsen + CoQ10 neutral → the block is between Complex I and the CoQ10 pool — Complex I dysfunction with intact Complex III/IV. CoQ10 worsen + NADH neutral → the block is at Complex III (CoQ10 feeds electrons into a blocked Complex III). Both worsen → global ETC dysfunction (severe damage). Neither worsens but no benefit → bottleneck is upstream (TCA cycle substrate supply) or downstream (ATP synthase, ANT, or ATP utilization), not electron transfer. If NADH improves fatigue at 5 mg → Complex I electron deficiency confirmed; the downstream ETC is functionally intact — this is a highly specific probe for Complex I as the rate-limiting node.
 
 *Pattern 5 — Absence of an expected side effect.* The system that should produce the side effect is too damaged to respond.
 
@@ -1580,7 +1427,7 @@ The therapeutic response tells you which node in the cascade is *broken* — the
 | Drug | Positive response tells you | Side effect tells you |
 |---|---|---|
 | LDN | Neuroinflammation/TRPM3 present | Sedation → orexin critically low. Dysphoria → opioid-dependent homeostasis. No response to either → TLR4/opioid systems non-functional or non-contributory |
-| Lithium (microdose, 150--300 mg) | PIP2 cycle is the bottleneck; lesion at or above PIP2 | Polydipsia/polyuria at 150 mg → occult nephrogenic DI vulnerability (AQP2 hypersensitivity); Tremor at 150 mg → cerebellar NE sensitivity (hyperadrenergic POTS); Nausea at 150 mg → slow gastric emptying (vagal dysfunction). No polydipsia/tremor/nausea at 300 mg → renal, cerebellar, GI PIP2-gated systems all functional; lithium's IMPase effect is target-selective |
+| Lithium (microdose, 2--20 mg elemental) | PIP2 cycle is the bottleneck; lesion at or above PIP2 | Polydipsia/polyuria at 2 mg elemental → occult nephrogenic DI vulnerability (AQP2 hypersensitivity); Tremor at 2 mg → cerebellar NE sensitivity (hyperadrenergic POTS); Nausea at 2 mg → slow gastric emptying (vagal dysfunction). No polydipsia/tremor/nausea at 20 mg elemental → renal, cerebellar, GI PIP2-gated systems all functional; lithium's IMPase effect is target-selective |
 | Midodrine | Vasculature α1-responsive | Hypertension at minimal dose → denervation hypersensitivity (neuropathic POTS). No piloerection → length-dependent sympathetic neuropathy. No BP response at all → α1 receptors absent/blocked (GPCR AAb) |
 | Pyridostigmine | Cholinergic signaling intact at ganglia | Severe GI cramping → gut muscarinic hypersensitivity (enteric denervation). No HRV improvement → vagal efferent pathway non-functional |
 | Aripiprazole | Dopamine D2/D3 signaling rate-limiting | Akathisia at microdose → severe dopamine deficiency with supersensitive receptors. No response AND no side effects → D2/D3 system is neither deficient nor responsive (off-target lesion) |
@@ -1603,6 +1450,8 @@ The therapeutic response tells you which node in the cascade is *broken* — the
 | Melatonin | Circadian phase advancement → sleep latency | Paradoxical alertness → severely delayed circadian phase or CYP1A2 ultra-rapid metabolism. Vivid nightmares → REM sleep disinhibition (α-delta sleep). No effect at 3 mg → sleep-onset insomnia is hyperarousal-driven (not circadian), pineal output already maximal, or MT1/MT2 downregulated |
 | 5-HTP (50--100 mg) | Serotonin synthesis is rate-limiting (IDO tryptophan drain → serotonin depletion) | GI distress at 50 mg → gut serotonin hypersensitivity (5-HT3/5-HT4 upregulation from chronic peripheral serotonin depletion; confirms severity of IDO drain). Serotonin syndrome at 50--100 mg → high AADC activity or impaired MAO-A (oxidative-stress-mediated degradation failure). No GI distress at 100 mg → peripheral serotonin reserve adequate (mild or absent IDO drain) |
 | Methylphenidate | Cognitive benefit → NE deficiency rate-limiting (DBH/LC-NE pathway) | Tachycardia ceiling → hyperadrenergic POTS; atomoxetine preferred (pure NRI). Crash ceiling → DA depletion + mitochondrial ATP deficit; add CoQ10/NADH. Insomnia ceiling → DAT occupancy too high for orexin drive; switch to modafinil |
+| Amantadine | Presynaptic DA release → DA stores are intact but release is impaired (functional presynaptic lesion, not terminal loss) | Livedo reticularis at 100 mg → peripheral sympathetic vasomotor fragility (neuropathic POTS with dermal involvement). Confusion at 100 mg → NMDA hypofunction confirmed (same pattern as ketamine sensitivity — two structurally different NMDA antagonists produce the same cognitive ceiling at subtherapeutic doses). No benefit despite no side effects → presynaptic DA stores are empty (VMAT2 terminal loss); try L-DOPA or pramipexole. Improvement + no livedo/confusion → presynaptic DA release is the bottleneck; peripheral sympathetic and NMDA systems have adequate reserve |
+| NAC (N-acetylcysteine) | Glutathione synthesis → oxidative stress is rate-limiting and GSH system is functional | Worsening fatigue at 600 mg → thiol-radical burst depletes GSH before synthesis completes, or cysteine diverted from transsulfuration (H₂S vasodilation lost → tissue perfusion drops), or copper chelation impairing DBH (anhedonia → NE synthesis failure, speculative at standard doses). Worse at 600 mg, better at 1,200 mg → initial radical burst cleared by higher GSH synthesis — confirms high oxidative stress AND functional GSH machinery. Worse at all doses → chronic thiol stress or H₂S pathway dependence. NAC + selenium prevents worsening → selenium deficiency bottleneck in GSH recycling |
 | Amphetamines | Immediate cognitive/energy response → VMAT2-dependent DA release intact | Severe post-dose crash (PEM-like, weeks-long) → VMAT2 terminal compromise; confirms Liu 2026 DTBZ PET pattern. Never re-challenge. No response + no crash → DAT absent/saturated or DA system not rate-limiting |
 | Modafinil/Armodafinil | DAT-mediated DA increase | Insomnia ceiling → orexin/histamine axis intact + DA-sensitive; try pitolisant. Next-day fatigue ceiling → energy reserve is bottleneck. No response → DAT dysfunctional (absent/blocked/AAb) |
 | Solriamfetol | DA component of DNRI → cognitive benefit | BP/HR ceiling with no cognitive benefit → prefrontal α2A desensitization (NE available but PFC cannot use it); try guanfacine. Cognitive benefit with no BP/HR → DA system is the bottleneck, not NE |
@@ -1615,11 +1464,13 @@ The therapeutic response tells you which node in the cascade is *broken* — the
 | Duloxetine | NE/5-HT reuptake beneficial → noradrenergic or serotonergic deficiency is rate-limiting for pain/cognition/mood | Anticholinergic symptoms (not expected from duloxetine) → subclinical AChE deficiency or undiagnosed Sjögren's. Severe nausea at 30 mg → 5-HT3 receptor hypersensitivity in gut (serotonergic gut hypersensitivity; consistent with 5-HT depletion peripherally + receptor upregulation gut). No response + no side effects → NE/5-HT systems are neither deficient nor responsive; lesion is non-monoaminergic |
 | Amitriptyline | NE/5-HT reuptake + H1 + M1 antagonism → pain, sleep, glymphatic benefit | Severe sedation at 5--10 mg → H1 receptor supersensitivity; histaminergic wakefulness drive is fragile (consistent with orexin/histamine dysfunction). Anticholinergic at low dose → M1 receptor supersensitivity (compensatory upregulation from low basal ACh). No sedation at 25 mg → H1 receptors desensitized (chronic histamine exposure from MCAS) |
 | Atomoxetine | Pure NE reuptake inhibition → cognitive benefit | Tachycardia/BP increase with cognitive benefit → NE deficiency confirmed; prefrontal α2A intact. No cognitive benefit despite BP/HR → prefrontal NE system is postsynaptically desensitized (α2A downregulated); lesion is at receptor, not at NE synthesis. Guanfacine should work |
-| Clonidine (0.05--0.1 mg, central α2 agonist) | Central sympathetic output is suppressible → sympathetic drive is load-bearing; central hyperadrenergic component present | Hypotensive crash at 0.05 mg → zero sympathetic reserve; midodrine MUST precede clonidine. BP drop at 0.1 mg → 10% reserve. No BP change at 0.2 mg → α2 autoreceptors desensitized (hyperadrenergic POTS). Dose at which BP drops IS the sympathetic reserve measurement. Crash distinguished from prazosin OH: clonidine crash = central α2 suppression, neuropathic POTS; prazosin OH = peripheral α1 block, neuropathic POTS — same POTS subtype, different pharmacological mechanism |
+| Clonidine (0.05--0.1 mg, central α2 agonist) | Central sympathetic output is suppressible → sympathetic drive is load-bearing; central hyperadrenergic component present | Hypotensive crash at 0.05 mg → zero sympathetic reserve; midodrine MUST precede clonidine. Controlled reduction at 0.1 mg → some reserve; central α2 agonism accessible. No BP change at 0.1 mg → α2 autoreceptors desensitized (hyperadrenergic POTS). Dose at which BP drops IS the sympathetic reserve measurement. Crash distinguished from prazosin OH: clonidine crash = central α2 suppression, hyperadrenergic POTS pattern; prazosin OH = peripheral α1 block, neuropathic POTS pattern — different POTS subtypes |
 | Droxidopa | NE synthesis from precursor → orthostatic improvement | No orthostatic benefit + midodrine works → presynaptic NE synthesis/storage deficit (AADC or VMAT2). Confirms catecholamine synthesis deficit model. Supine HTN without orthostatic benefit → postsynaptic α1 desensitization (hyperadrenergic POTS). Midodrine + droxidopa together: presynaptic vs postsynaptic noradrenergic lesion resolved |
 | L-DOPA/Carbidopa | DA synthesis from L-DOPA → cognitive/motor benefit | Severe nausea/OH at 1/4 tablet → D2 supersensitivity (same pattern as pramipexole and aripiprazole); DA deficiency confirmed across multiple drug classes. No cognitive benefit → lesion not at DA synthesis; D2/D3 absent/desensitized or cognitive dysfunction is non-dopaminergic |
 | Corticosteroids | Broad anti-inflammatory response → inflammation is rate-limiting | Rapid improvement → inflammation drives symptoms (does not distinguish viral/autoimmune/mast cell). Crash on taper → HPA axis fragile; iatrogenic adrenal insufficiency. No improvement → steroid-resistant inflammation (inflammasome, complement, mast cell) or inflammation is downstream, not causal |
 | CoQ10 / L-carnitine / D-ribose (mitochondrial supplements) | Mitochondrial substrate supplementation → ATP improvement | Worsening, not improvement → downstream ETC bottleneck; substrate flux increases ROS, not ATP. CoQ10 worsen → Complex III block. Carnitine worsen → lipid peroxide overload (low glutathione). D-ribose worsen → hypoglycemia (insufficient gluconeogenesis). Absence of benefit → bottleneck not at supplemented node |
+| NADH (5--20 mg/day, Complex I electron donor) | Complex I electron deficiency is rate-limiting → NADH directly feeds electrons into the ETC, bypassing substrate-level dehydrogenases | Worsening fatigue at 5 mg → Complex I electron flux increases but the bottleneck is downstream (Complex III or IV blocked) → electrons leak before reaching Complex IV → superoxide production → oxidative stress worsens. Same mechanism as CoQ10 worsening but at a different node — NADH worsen = Complex I functional, Complex III+ blocked; CoQ10 worsen = Complex I/II functional, Complex III blocked. The divergence (NADH worsen + CoQ10 neutral = Complex I lesions; CoQ10 worsen + NADH neutral = Complex II lesions) maps the ETC block site. Improvement on NADH → Complex I electron deficiency confirmed; the ETC is functionally intact downstream of Complex I. No effect → Complex I is not the rate-limiting electron donor; or the ETC is globally defective (NADH cannot fix a broken chain) |
+| Creatine (3--5 g/day, phosphocreatine ATP buffer) | ATP buffering capacity is the bottleneck — ATP is produced but consumed faster than the mitochondria can regenerate it; creatine provides an immediate phosphate donor pool | Creatinine elevation causing anxiety about renal function → creatinine is the normal breakdown product of creatine AND also the serum marker used to estimate GFR. In a patient taking 3--5 g/day of creatine monohydrate, a serum creatinine of 1.3 mg/dL is expected even with perfectly normal renal function — but triggers unnecessary nephrology consults and anxiety. Diagnostic: the creatinine elevation is a pharmacokinetic artifact, not renal toxicity — it confirms the creatine is being absorbed and converted to creatinine (functional creatine kinase pathway). However, exceeding 1.5 mg/dL at 3 g/day → either (a) pre-existing renal impairment (creatinine clearance is genuinely reduced, and the exogenous creatine load reveals it), or (b) very low muscle mass (less muscle to take up creatine → more spills into serum). GI cramping at standard dose → gastric or enterocyte ATP dependence — the GI mucosa requires ATP for active transport and tight junction maintenance; if creatine osmotically draws water into the gut lumen faster than the enterocytes can pump it out (ATP-dependent), cramps result → gut epithelial ATP deficit confirmed. Improvement in muscle fatigue within 5--7 days → ATP buffering is the bottleneck; the mitochondria produce ATP but cannot buffer demand spikes. No improvement despite elevated muscle creatine (verified by MRS) → the bottleneck is ATP production (not buffering), or the creatine kinase reaction is impaired (PCr + ADP → Cr + ATP is slow due to low CK activity). No improvement + no creatinine elevation → creatine was not absorbed (poor GI uptake), or endogenous creatine synthesis is already maximal and supplementation adds nothing |
 | BC007 / Immunoadsorption (IA) | GPCR AAb removal → autoimmune component rate-limiting | Complete non-response → GPCR AAbs absent or not rate-limiting. BC007 works where IA fails → AAb subtype not removed by protein A (IgG3, IgA) or synthesis outpaces IA clearance. IA works where BC007 fails → AAb target not among BC007 aptamers |
 | DMF (dimethyl fumarate) | Nrf2 activation → antioxidant/anti-inflammatory | Severe flushing at 120 mg → mast cell hyper-reactivity. Flushing prevented by aspirin → confirms PGD2-mediated MCAS (distinct from histamine-mediated MCAS). GI persists >2 weeks → gut mucosa cannot adapt to Nrf2 shift |
 | Aspirin / NSAIDs | COX-1/COX-2 inhibition → pain/inflammation reduction | Worsening of MCAS symptoms → COX inhibition triggers mast cell histamine release (HIT/MCAS patients). Flushing prevented by aspirin before DMF → confirms mast cell PGD2 pathway. No pain benefit → pain is non-inflammatory (neuropathic, central sensitization) |
@@ -1636,11 +1487,24 @@ The therapeutic response tells you which node in the cascade is *broken* — the
 | Ginkgo biloba | Platelet inhibition → microvascular platelet aggregation is rate-limiting | Bleeding at high dose → platelet function probe: if no bleeding at 240+ mg/day → platelet count and function are intact (Pattern 5). Bleeding at standard dose → pre-existing platelet dysfunction or thrombocytopenia |
 | Montelukast | Leukotriene receptor antagonism → leukotrienes are the dominant MCAS mediator (improvement where antihistamines fail) | Psychiatric adverse effects (depression, agitation, suicidal ideation) → paradoxical reactor in CNS leukotriene pathways; LTD4 receptors in limbic system are involved in mood regulation. If improves MCAS symptoms where antihistamines failed → leukotrienes, not histamine, are dominant mast cell mediators |
 | Metformin | AMPK activation → AMPK pathway rate-limiting for metabolic dysfunction | GI side effects ceiling before metabolic benefit → gut AMPK activation or mitochondrial complex I inhibition in enterocytes; GI intolerance identifies gut mitochondrial vulnerability. Lactic acidosis risk (rare) → pre-existing mitochondrial dysfunction increases metformin-associated lactic acidosis risk |
+| Berberine (500--1,500 mg/day) | AMPK activation + mitochondrial complex I inhibition → same probe as metformin with additional lipid-lowering | Severe GI (cramping, diarrhoea) at 500 mg → gut AMPK hypersensitivity or enterocyte mitochondrial vulnerability (same as metformin GI ceiling but with the additional mechanism of berberine disrupting gut microbiota via bile acid modulation — and berberine's poor oral bioavailability means most stays in gut lumen, concentrating the GI effect). Hypoglycemia at 500 mg → gluconeogenesis is already impaired; AMPK activation suppresses hepatic gluconeogenesis, and in a patient with impaired glucose production (consistent with PDH dysfunction and low glycogen stores), even mild suppression tips glucose below threshold. No GI at 1,000+ mg → enterocyte AMPK system has adequate reserve; gut mitochondria resilient. No effect on fatigue despite AMPK activation → AMPK pathway is not rate-limiting for systemic energy metabolism; the bottleneck is downstream of AMPK (mitochondrial, not signaling) |
 | GLP-1 agonists (semaglutide) | Anti-inflammatory (CRP reduction) + metabolic benefit | Unacceptable lean mass loss → metabolic cost exceeds anti-inflammatory benefit; contraindicated in sarcopenic ME/CFS. Severe GI/gastroparesis → pre-existing gastric dysmotility (vagal/enteric neuropathy). No anti-inflammatory benefit → GLP-1R pathway not rate-limiting for inflammation |
 | DCA (dichloroacetate) | PDK inhibition → PDH activity restored; PDH phosphorylation rate-limiting (@sec:pdh-cascade E2) | Peripheral neuropathy at low cumulative dose → pre-existing peripheral nerve vulnerability (SFN). No lactate reduction → PDH not rate-limiting; block downstream of PDH. Neuropathy-free PDH benefit → therapeutic window accessible |
 | Bromocriptine / Rotigotine | D2 agonism → same probe as pramipexole for DA deficiency | Same patterns as pramipexole (Pattern 1: nausea/OH from D2 supersensitivity; Pattern 5: absent expected side effects). Rotigotine patch offers continuous delivery → distinguishes pharmacokinetic from pharmacodynamic ceiling |
 | Rasagiline / Selegiline (MAO-B inhibitor) | MAO-B inhibition → DA degradation reduced; DA half-life is rate-limiting for synaptic DA | DA degradation is the dominant DA clearance mechanism — synaptic DA is short-lived. If works where L-DOPA or aripiprazole fail → DA synthesis is intact (L-DOPA convertable) and D2/D3 receptors are intact (aripiprazole-responsive), but DA is catabolized too rapidly for either to sustain effect. Confirms accelerated DA turnover as the bottleneck (@sec:dopamine-convergence) | Serotonin syndrome at ≤10 mg/day + prior SSRI → CYP2D6 poor metabolizer (MAO-B selectivity lost at low dose due to accumulation). Serotonin syndrome despite 14-day SSRI washout → fluoxetine/norfluoxetine ultra-long half-life. No effect on cognition → DA degradation is not rate-limiting; DA synthesis, release, or postsynaptic signaling is the bottleneck. MAO-B inhibition near-ceiling without DA benefit → the MAO-B enzyme is not the dominant DA clearance pathway in this patient (COMT, DAT, or diffusion dominates) |
 | Ambroxol | TRPV1 antagonism + mucolytic (Guaifenesin-like) | TRPV1-mediated pain or PEM reduction → confirms TRPV1 involvement in arteriolar vasoconstriction or sensory fibre pain (@sec:trpv1-cascade B1). Mucolytic effect improves airway clearance → if improves PEM, airway mucus/ventilation may be a PEM contributor (rare). If works where capsaicin fails → TRPV1 antagonism (ambroxol blocks) is more effective than desensitization (capsaicin depletes); the TRPV1 channels are constitutively active, not just sensitized | GI upset at low dose → TRPV1-expressing enteric afferents are hypersensitive; consistent with visceral hypersensitivity (IBS overlap). No PEM reduction → TRPV1 is not rate-limiting for PEM; or ambroxol does not reach arteriolar smooth muscle TRPV1 at oral doses. No mucolytic effect despite bronchial symptoms → mucus is not the dominant airway issue; consider MCAS-driven bronchoconstriction instead |
+| PEA (palmitoylethanolamide) | PPAR-α agonism → microglial M1→M2 phenotype shift; anti-inflammatory through endocannabinoid-like mechanism | Mild GI (rare, usually well-tolerated even at 1,200 mg/day). No effect → PPAR-α pathway not rate-limiting for microglial phenotype; or microglial phenotype is not the bottleneck (consistent with LDN+/minocycline+ but PEA null — microglial activation is present, but phenotype shift alone is insufficient; ongoing TLR4/P2X7/C5aR activation overrides PPAR-α-mediated M2 polarization). Works where gabapentinoids fail → pain is glial-driven (PPAR-α), not α2δ-CaV-channel-driven. Null result is low-information because PEA has no distinctive side-effect pattern — only therapeutic response is diagnostic |
+| Devil's claw (harpagoside) | COX-2 inhibition + iNOS suppression → herbal anti-inflammatory with broader mechanism than NSAIDs | GI irritation (COX-1 cross-inhibition at high doses, >2,400 mg/day) — same issue as NSAIDs but milder. No GI irritation → COX-1 reserve adequate; herbal COX inhibition is COX-2 selective at standard doses. No anti-inflammatory effect → COX-2/iNOS inflammatory pathway not rate-limiting. Low pharmacodiagnostic specificity — positive response cannot distinguish COX-2 from iNOS from placebo |
+| Quercetin (500--1,000 mg/day) | Mast cell stabilization + COMT inhibition → dual MCAS + catecholamine probe | Quercetin inhibits COMT (catechol-O-methyltransferase), the enzyme that degrades dopamine and NE. If quercetin improves cognition + MCAS symptoms → dual mechanism: mast cell stabilization AND catecholamine prolongation. If quercetin improves cognition but ketotifen/cromolyn do not → the cognitive benefit is COMT-mediated (DA/NE half-life extension), not mast-cell-mediated. Anxiety/insomnia at 500 mg → COMT inhibition has pushed catecholamine tone above the inverted-U optimum (consistent with Met/Met COMT genotype — already low COMT activity, further inhibition = excessive catecholamines). Null result non-informative — no distinctive side-effect pattern to distinguish mast cell from COMT from absorption failure |
+| ALA (alpha-lipoic acid, 300--600 mg/day) | Mitochondrial antioxidant + glucose uptake enhancer | Rare hypoglycemia in susceptible individuals (ALA activates GLUT4 translocation) — if hypoglycemia at 300 mg → impaired gluconeogenesis confirmed (same pattern as D-ribose hypoglycemia). No effect common — ALA's therapeutic window in ME/CFS has never been established. Low pharmacodiagnostic specificity |
+| NR/NMN (nicotinamide riboside/mononucleotide, 250--1,000 mg/day) | NAD⁺ precursor through salvage pathway → if works, NAD⁺ depletion is rate-limiting and NAMPT/NMNAT salvage pathway is functional | No effect → either NAD⁺ not rate-limiting, or salvage pathway enzymes (NAMPT/NMNAT) are deficient (consistent with oxidative-stress-mediated NAMPT inactivation). Distinguish from niacin: NR/NMN null + niacin benefit → salvage pathway defective but Preiss-Handler pathway (niacin → NAD⁺) intact. NR/NMN benefit + niacin null → salvage pathway intact but Preiss-Handler blocked. Both null → NAD⁺ not rate-limiting, or both pathways require functional enzyme below what either precursor can overcome. Low side-effect profile — null result more informative than positive result |
+| D-ribose (5--15 g/day) | Purine salvage pathway rate-limiting for ATP regeneration → bypasses de novo purine synthesis | Hypoglycemia at 5 g → impaired gluconeogenesis (D-ribose stimulates insulin release; without adequate hepatic glucose output, blood glucose drops). GI distress at 5 g → rapid small-intestine absorption with osmotic diarrhea — gut carbohydrate tolerance is narrow (consistent with SIBO or rapid transit). No effect → purine salvage is not rate-limiting (ATP regeneration is limited by mitochondrial function, not ribose availability). No hypoglycemia despite 10+ g → hepatic gluconeogenesis intact; insulin sensitivity normal. Low specificity — null result is non-informative because adequate purine salvage may still not fix a downstream mitochondrial bottleneck |
+| Vitamin C + NAC (timed, HIF-1α CT remodeling probe) | ROS-mediated PHD inhibition is rate-limiting for acquired CT weakness → antioxidant combination restores PHD activity → HIF-1α degradation → reduced WASF3 → restored mitochondrial supercomplex assembly (@sec:hif1a-ct-cascade, @sec:wasf3-cascade) | GI distress from high-dose vitamin C (osmotic diarrhea at >2,000 mg) → gut carbohydrate/acid tolerance low; use liposomal vitamin C. If vitamin C + NAC improve exercise tolerance → HIF-1α-driven WASF3 upregulation is present and rate-limiting; the CT weakness is acquired (ROS-driven), not genetic (EDS). If null + EDS diagnosis confirmed → CT weakness is genetic, not redox-reversible. Low side-effect diagnostic yield beyond GI tolerance of vitamin C |
+| Oxaloacetate (100--500 mg/day) | Anaplerotic TCA cycle substrate → if mitochondrial TCA flux is substrate-limited, oxaloacetate provides additional catalytic capacity | No side-effect diagnostic pattern — oxaloacetate has no known dose-limiting toxicity in humans at these doses. Null result is non-informative (may be absorption-limited, may be that TCA cycle is not the bottleneck, or may be that the TCA cycle bottleneck is at a different substrate). Low pharmacodiagnostic yield |
+| DHEA (25--50 mg/day) | Neurosteroid precursor → if works, neurosteroid deficiency is rate-limiting for neuroprotection/mood/cognition | Androgenic side effects (acne, hirsutism in females; aggression/irritability) at 25 mg → androgenic conversion is active (functional 3β-HSD and 17β-HSD) → confirms intact peripheral steroidogenesis; DHEA is being converted to testosterone. If cognitive benefit + no androgenic SE → CNS neurosteroid conversion dominates over peripheral androgenic conversion — DHEA is selectively metabolized to neurosteroids (consistent with brain-selective sulfatase or aromatase expression). Null → neurosteroid deficiency not rate-limiting, or DHEA-S levels are already normal (and supplementation adds nothing). Low specificity — androgenic side effects trace peripheral steroidogenesis but not CNS pathology |
+| DPP-4 inhibitors (sitagliptin, 25--100 mg/day) | DPP-4 inhibition → GLP-1 half-life extension → mild metabolic + anti-inflammatory benefit without the GI/lean-mass cost of GLP-1 agonists | No distinctive side-effect diagnostic — DPP-4 inhibitors are exceptionally well-tolerated. Null → GLP-1R pathway not rate-limiting. Works where GLP-1 agonists cause GI → DPP-4 inhibitors preserve endogenous GLP-1 without supraphysiologic levels. Low yield as a standalone probe but useful as a comparator to GLP-1 agonists |
+| Ambrisentan (endothelin receptor antagonist) | Endothelin-1-driven vasoconstriction rate-limiting → if ambrisentan improves perfusion/PEM, ET-1-mediated microvascular dysfunction confirmed | Fluid retention at standard dose → pre-existing endothelial dysfunction (ET-1 is vasoconstrictive but also natriuretic — blocking it unmasks sodium retention). Hypotension at 5 mg → vascular tone is ET-1-dependent. Liver enzyme elevation → pre-existing hepatic vulnerability. Null → ET-1 not rate-limiting for perfusion. Low-use drug limited to specialist pulmonary hypertension management — high pharmacodiagnostic specificity but narrow clinical accessibility |
+| Epoprostenol (IV prostacyclin) | Prostacyclin synthase deficiency → if epoprostenol reverses vasoconstriction, PGI₂ deficiency is rate-limiting for perfusion | Severe hypotension at low infusion rate → prostacyclin receptor supersensitivity (upregulated from chronic PGI₂ deficiency). Flushing + headache → PGI₂-mediated vasodilation intact; confirms receptor functionality. Jaw pain (classic prostacyclin side effect) → confirms drug delivery and receptor activation. Null → PGI₂ pathway not rate-limiting. Hospital-only probe, impractical for outpatient pharmacodiagnostics but highest-specificity microvascular probe available |
 
 *Consequence:* Every medication trial in ME/CFS should track not just "did it work?" but also "what side effects appeared and at what dose?" and "what expected side effects were ABSENT?" The pattern of which systems react and which don't is as informative as the therapeutic response. A patient who gets severe akathisia at 0.5 mg aripiprazole has just had their dopamine receptor sensitivity measured without a PET scan. A patient who gets no piloerection from midodrine has just had their peripheral sympathetic nerve fiber integrity tested without a skin biopsy. This is pharmacology as functional neurophysiology — the drug IS the diagnostic test.
 
@@ -1709,7 +1573,7 @@ The dose at which therapeutic response appears IS the receptor sensitivity measu
 
 How quickly a drug works reveals whether the mechanism is functional/electrophysiological (seconds to hours), synaptic/neurotransmitter (days), or structural/neuroplastic (weeks to months):
 
-- *LDN working within 48 hours → TRPM3 mechanism.* TRPM3 channel gating is immediate (drug occupancy → restored calcium flux). Excludes endorphin upregulation (requires 2+ weeks) and TLR4-mediated anti-neuroinflammatory effect (requires microglial phenotype shift, 1--4 weeks).
+- *LDN working within 48 hours is consistent with TRPM3 mechanism.* TRPM3 channel gating may be rapid (drug occupancy → restored calcium flux), but LDN's TRPM3 restoration is proposed to occur via TLR4 antagonism reducing inflammatory signaling — a pathway whose kinetics are unclear. A fast response may involve the opioid/endorphin axis (unlikely within 48h), or it may reflect a currently uncharacterized direct-channel effect. Distinguish: LDN response under 48h suggests TRPM3 or a faster-than-expected TLR4 effect; LDN response at 3--6 weeks suggests endorphin upregulation or microglial phenotype shift. The onset latency is suggestive but not definitive — placebo and expectation effects also onset within 48h, and the TLR4→TRPM3 mechanism's kinetics have not been measured in humans.
 - *LDN working at 3--6 weeks → endorphin/TLR4 mechanism.* Consistent with neuroplasticity: opioid receptor upregulation and microglial phenotype shift require gene expression changes.
 - *Aripiprazole working within hours → presynaptic D2 autoreceptor effect.* Reducing dopamine autoreceptor inhibition at D2 presynaptic terminals → immediate increase in dopamine release. Aripiprazole working at 1--2 weeks → postsynaptic D2/D3 partial agonism (requires receptor occupancy equilibrium and downstream signaling adaptation).
 - *IVIG improvement at 48--72 hours → autoantibody neutralization (immune complex formation, not immunomodulation).* IVIG improvement at 2--4 weeks → immunomodulatory effect (Fc receptor modulation, anti-idiotype antibody production). The latency distinguishes two different IVIG mechanisms.
@@ -2005,7 +1869,7 @@ The PEM budget is finite. Each patient has a limited number of drug trials they 
 | Assumption | If false |
 |---|---|
 | The cascade models accurately represent biological pathways in ME/CFS patients | Drugs are intercepting nodes that do not exist, and null responses eliminate phantom mechanisms |
-| Drug mechanisms are sufficiently specific to isolate single nodes | Atomoxetine affects NE, 5-HT, and H1 at different concentrations — a "null" may mean the wrong node was tested at the wrong dose, not that NE is irrelevant |
+| Drug mechanisms are sufficiently specific to isolate single nodes | Amitriptyline affects NE, 5-HT, and H1 at different concentrations — a "null" may mean the wrong node was tested at the wrong dose, not that NE is irrelevant |
 | Rate-limiting step theory applies to multi-system chronic disease | The disease may have no single rate-limiting step — it is a distributed network failure where multiple nodes must fail simultaneously for symptoms to emerge. Intercepting one node produces no clinical effect because the network compensates. The null response is a false negative — the node is part of the pathology but not sufficient alone. |
 | Null responses are interpretable in the presence of polypharmacy | Patients on 5+ medications have so many pharmacological confounds that any single drug's null/positive response is uninterpretable — it occurred in a pharmacologically altered system, not the disease state |
 | The drug reached its target at the hypothesized dose | Bioavailability, BBB penetration, and target engagement are assumed, not measured. A null response may mean the drug never reached its node at adequate concentration — not that the node is non-rate-limiting. |
@@ -2054,7 +1918,7 @@ The framework does not address:
   ),
   // Ion Channel
   [LDN], [TRPM3], [Channelopathy rate-limiting (@sec:trpm3-cascade A2)], [TRPM3 absent, non-responsive, or not rate-limiting], [Sedation → orexin low; Dysphoria → opioid-dependent (Pattern 1/2)],
-  [Lithium], [PIP2 depletion], [PIP2 depletion rate-limiting; GPCR AAb upstream (@sec:trpm3-cascade A1)], [PIP2 not bottleneck; lesion downstream or channel defect is PIP2-independent], [Ø],
+  [Lithium], [PIP2 depletion], [PIP2 depletion rate-limiting; GPCR AAb upstream (@sec:trpm3-cascade A1)], [PIP2 not bottleneck; lesion downstream or channel defect is PIP2-independent], [Polydipsia/polyuria at 2 mg → occult nephrogenic DI; Tremor at 2 mg → cerebellar NE sensitivity (Pattern 3)],
   [Pregnenolone], [TRPM3 gating], [TRPM3 dysfunction rate-limiting (@sec:trpm3-cascade A2)], [TRPM3 not rate-limiting or not LDN/pregnenolone-responsive], [Ø],
   // Mitochondrial
   [CoQ10], [ETC efficiency], [ETC inefficiency functional (cofactor-compensable) (@sec:wasf3-cascade D2)], [SC disruption severe — cofactor flooding inadequate], [Worsening → Complex III block (ROS from electron leak); combined with carnitine worsening → lipid peroxide (Pattern 5)],
@@ -2081,6 +1945,8 @@ The framework does not address:
   [Amphetamines (last resort)], [VMAT2 + DAT reversal], [VMAT2-dependent DA release intact], [VMAT2 terminals absent or depleted; or DA not rate-limiting], [Severe post-dose crash (PEM-like, weeks) → VMAT2 terminal compromise; never re-challenge; No response + no crash → DAT absent/DA not bottleneck],
   // Autonomic
   [Midodrine], [α1 adrenergic], [Vasculature α1-responsive; neuropathic POTS if supine NE low (@sec:pots-cascade Q1)], [α1 receptors absent, blocked (GPCR AAb), or vasculature structurally unresponsive], [HTN at 2.5 mg → denervation hypersensitivity (Pattern 1); No piloerection → length-dependent SFN (Pattern 5)],
+  [Clonidine], [Central α2 agonist], [Central sympathetic overactivation is rate-limiting; brainstem baroreflex reset or GPCR AAb at area postrema (@sec:brainstem-cascade)], [Central sympathetic drive is NOT load-bearing; α2 autoreceptors desensitized (hyperadrenergic POTS)], [BP crash at 0.05 mg → zero sympathetic reserve (Pattern 1); No BP change at 0.1 mg → α2 desensitization (Pattern 5)],
+  [Prazosin], [Peripheral α1 antagonist / glymphatic], [NE-mediated vasoconstriction was suppressing glymphatic flow; improved morning symptoms (@sec:glymphatic-cascade M2)], [Glymphatic flow not NE-mediated; or LC-NE vasomotion not the bottleneck], [OH at 0.5 mg → α1-dependent standing BP, neuropathic POTS (Pattern 1); No OH at 1 mg → BP not α1-dependent (hyperadrenergic POTS)],
   [Pyridostigmine], [Cholinergic/vagal], [Cholinergic signaling intact; improves preload, HRV, GI (@sec:aimm-cascade F1)], [Vagal efferent non-functional; DMV damage, ganglionic AChR AAb, or structural], [GI cramping at 30 mg → gut muscarinic hypersensitivity (Pattern 3)],
   [Fludrocortisone], [Volume/hypovolemic POTS], [Hypovolemia present (RAAS paradox) (@sec:pots-cascade Q3)], [Not hypovolemic; CT laxity or hyperadrenergic], [Worsening orthostasis → venous pooling (Pattern 2); Hypokalemia → RAAS defect localized to renin],
   [Ivabradine], [SA node / HR], [HR control without β2 blockade → rules out metabolic cost of beta-blockers], [SA node intrinsic dysfunction — chronotropic incompetence not autonomic], [Bradycardia ceiling → SA node lower limit reached (Pattern 4)],
@@ -2101,9 +1967,6 @@ The framework does not address:
   [Valacyclovir], [EBV/HHV-6 systemic], [Herpesvirus reactivation rate-limiting], [EBV not rate-limiting; or virus in sanctuary site (CNS/DRG)], [CNS effects at standard dose → subclinical renal impairment (Pattern 4)],
   [Valganciclovir], [HHV-6/CMV/EBV broad], [Broad-spectrum herpesvirus replication rate-limiting; active where valacyclovir failed], [Herpesvirus not rate-limiting (regardless of serology/PCR)], [Bone marrow suppression at subtherapeutic dose → marrow reserve exhausted (Pattern 4)],
   // Miscellaneous
-  [Gabapentin/Pregabalin], [α2δ-CaV channel], [α2δ-CaV functional + rate-limiting for neuropathic pain], [Central sensitization not α2δ-mediated; consider PEA, LDN, or ketamine], [Sedation at min dose → severe central sensitization; paradoxical agitation → GAD dysfunction (Pattern 4)],
-  [Duloxetine], [NE/5-HT reuptake], [NE or 5-HT deficiency rate-limiting for pain/cognition/mood], [NE/5-HT not rate-limiting; or lesion postsynaptic], [Anticholinergic at low dose → subclinical AChE deficiency (Pattern 3); nausea → 5-HT3 gut hypersensitivity],
-  [Amitriptyline], [NE/5-HT + H1 + M1 blockade], [H1/M1/NE/5-HT blockade provides pain/sleep/glymphatic benefit], [Pain/sleep not H1/M1/NE/5-HT mediated], [Sedation at 5--10 mg → H1 supersensitivity (Pattern 1); anticholinergic at low dose → M1 supersensitivity],
   [DORA (daridorexant)], [OX1R/OX2R orexin], [Nocturnal orexin surges rate-limiting for sleep maintenance], [Orexin tone not rate-limiting; or already at floor], [Sleep paralysis at low dose → orexin critically low; DORA contraindicated. No effect → orexin already at floor (Pattern 5)],
   [Trazodone], [5-HT2A/H1/α1], [5-HT2A blockade → SWS → glymphatic benefit], [Sleep pathology not 5-HT2A/H1-mediated], [Next-day sedation → H1 supersensitivity; OH → α1 dependence (Pattern 4)],
   [Doxepin (low-dose)], [H1 antagonist (pure at 3--6 mg)], [Histaminergic arousal dominant cause of nocturnal awakenings], [Awakenings non-histaminergic (orexin, adrenergic, pain)], [Next-day sedation at 3 mg → H1 supersensitivity; no sedation → H1 desensitized (MCAS)],
@@ -2142,8 +2005,7 @@ The framework does not address:
   [Quercetin], [CD38/flavonoid], [CD38-mediated NAD⁺ degradation rate-limiting (@sec:nad-cascade G2)], [CD38 not the dominant NAD⁺ sink], [Ø — flavonoid supplement; combined with NMN/NR for CD38 probe],
   [ALA (alpha-lipoic acid)], [PDH cofactor + antioxidant], [PDH cofactor deficiency + oxidative stress rate-limiting (@sec:pdh-cascade E2)], [PDH cofactor/oxidative stress not rate-limiting], [Ø],
   [NADH], [ETC electron donor], [ETC Complex I electron donor deficiency rate-limiting], [NADH not rate-limiting; or ETC downstream block], [Worsening → Complex I electron flux increases ROS downstream of block (Pattern 5)],
-  [NMN/NR], [NAD⁺ salvage pathway], [NAD⁺ deficiency from salvage pathway rate-limiting (@sec:nad-cascade G2)], [NAD⁺ not rate-limiting; consumption excess (PARP/CD38) or ETC downstream], [Ø — already in matrix; included for completeness of Group C],
-  [Creatine], [ATP phosphocreatine buffer], [ATP pool insufficient; consistent with reduced steady-state production], [ATP buffering capacity adequate or infrastructure insufficient], [Ø],
+  // NMN/NR and Creatine already in matrix (lines 1925, 1927); not duplicated here
   [Oxaloacetate], [TCA cycle intermediate], [TCA cycle flux limitation at oxaloacetate entry], [TCA cycle not rate-limiting], [Ø — nutraceutical; null non-informative],
   [DHEA], [Neurosteroid/androgen precursor], [Neurosteroid or androgen deficiency rate-limiting], [Androgen/neurosteroid axis not rate-limiting], [Ø — hormonal supplement; androgenic side effects possible but non-diagnostic],
   [DPP-4 inhibitors (sitagliptin)], [GLP-1/GIP preservation], [Endogenous incretin preservation rate-limiting], [Incretin axis not rate-limiting], [Ø — null non-informative at supplement-level dosing],
@@ -2152,38 +2014,15 @@ The framework does not address:
   [Berberine], [AMPK/mTOR (natural)], [AMPK/mTOR pathway rate-limiting (natural metformin analog)], [AMPK pathway not rate-limiting; or GI prevents titration], [GI ceiling → gut AMPK activation (Pattern 4)],
   [Rasagiline/Selegiline], [MAO-B / DA degradation], [DA degradation rate-limiting for synaptic DA; accelerated DA turnover confirmed (@sec:dopamine-convergence)], [DA degradation not rate-limiting; synthesis, release, or postsynaptic is bottleneck], [Serotonin syndrome → CYP2D6 poor metabolizer (selegiline) or idiosyncratic 5-HT sensitivity (rasagiline); Rasagiline-safe but selegiline-toxic → MAO-A crossover; No DA benefit → COMT/DAT dominates DA clearance],
   [Ambroxol], [TRPV1 antagonist + mucolytic], [TRPV1-mediated pain/PEM rate-limiting (@sec:trpv1-cascade B1); mucolytic benefit → airway clearance limits PEM], [TRPV1 not rate-limiting; or ambroxol does not reach arteriolar TRPV1], [GI upset → enteric TRPV1 hypersensitivity (visceral/IBS); No PEM reduction → TRPV1 not PEM bottleneck],
+  [5-HTP], [Serotonin precursor (bypasses IDO)], [Serotonin synthesis is rate-limiting; IDO tryptophan drain confirmed], [Serotonin synthesis not rate-limiting; or IDO drain is absent], [GI distress at 50 mg → gut serotonin hypersensitivity (Pattern 3); Serotonin syndrome at 50-100 mg → MAO-A dysfunction],
+  [Niacin], [Mast cell PGD2 (HCA2 activation)], [— (pure side-effect probe)], [— (not a therapeutic probe)], [Flush threshold at 25-500 mg → cutaneous MCAS PGD2 hyper-reactivity (Pattern 3); Flush prevented by aspirin → PGD2-mediated; prevented by antihistamines → histamine-mediated],
+  [Ketamine (sub-anesthetic)], [NMDA antagonist], [NMDA-mediated excitotoxicity (QUIN-driven) rate-limiting for pain/cognition], [NMDA system not rate-limiting], [Psychotomimetic at 0.1 mg/kg → NMDA hypofunction (KYNA dominance, Pattern 4); Pain relief without SE → QUIN-driven excitotoxicity],
+  [Celecoxib/Etoricoxib], [COX-2 selective], [COX-2-driven inflammation rate-limiting (@sec:trpv1-cascade B2)], [COX-2 not rate-limiting; inflammation COX-1/complement/mast-cell/non-inflammatory], [Fatigue worsening at 100 mg BID → COX-2-derived PGE2 maintaining perfusion/mitochondria/HPA axis (Pattern 4)],
 )
 
 *Consequence:* This matrix is the chapter's diagnostic logic condensed into lookup form. For each drug-hypothesis pair, it provides the positive inference, the null inference, and the side-effect inference. The matrix operationalizes the chapter's core claim: every drug trial — positive, null, or side-effect-producing — generates a diagnostic output. The output is this table's three columns of inference.
 *Origin:* cross-reference synthesis across all preceding sections.
 
-
-*Acronyms used in this section:*
-/ *AAb*: autoantibody
-/ *AADC*: aromatic L-amino acid decarboxylase
-/ *ACh*: acetylcholine
-/ *AChE*: acetylcholinesterase
-/ *AChR*: acetylcholine receptor
-/ *ALA*: alpha-lipoic acid
-/ *AMPK*: AMP-activated protein kinase
-/ *ANC*: absolute neutrophil count
-/ *ANT*: adenine nucleotide translocator
-/ *ATP*: adenosine triphosphate
-/ *BBB*: blood-brain barrier
-/ *BP*: blood pressure
-/ *cAMP*: cyclic adenosine monophosphate
-/ *CAP*: cholinergic anti-inflammatory pathway
-/ *Ca²⁺*: calcium ion, intracellular second messenger
-/ *CCI*: craniocervical instability
-/ *CNS*: central nervous system
-/ *CoQ10*: coenzyme Q10
-/ *COX-2*: cyclooxygenase-2
-/ *CRP*: C-reactive protein
-/ *CSF*: cerebrospinal fluid
-/ *CYP*: cytochrome P450
-/ *CysLT1*: cysteinyl leukotriene receptor type 1
-/ *DA*: dopamine
-/ *DAT*: dopamine transporter
 
 == Synthesis: Differential Diagnostic Algorithm (Extended)
 <sec:synthesis-algorithm-extended>
@@ -2375,29 +2214,3 @@ The Gerlier model predicts that Pathways 1--4 converge on the dopaminergic syste
 *Origin:* mechanistic-pathway-tracing, extended 2026-07-22.
 
 
-*Acronyms used in this section:*
-/ *AAb*: autoantibody
-/ *ANT*: adenine nucleotide translocator
-/ *ATP*: adenosine triphosphate
-/ *BP*: blood pressure
-/ *CAP*: cholinergic anti-inflammatory pathway
-/ *CCI*: craniocervical instability
-/ *CNS*: central nervous system
-/ *CoQ10*: coenzyme Q10
-/ *CRP*: C-reactive protein
-/ *DA*: dopamine
-/ *DBH*: dopamine-beta-hydroxylase
-/ *EBV*: Epstein-Barr virus
-/ *ESR*: erythrocyte sedimentation rate
-/ *ETC*: electron transport chain
-/ *GI*: gastrointestinal
-/ *GPCR*: G protein-coupled receptor
-/ *HHV-6*: human herpesvirus 6
-/ *HPA*: hypothalamic-pituitary-adrenal axis
-/ *HR*: heart rate
-/ *HSC*: haematopoietic stem cell
-/ *IA*: immunoadsorption
-/ *IVIG*: intravenous immunoglobulin
-/ *LDN*: low-dose naltrexone
-/ *MCAS*: mast cell activation syndrome
-/ *NAC*: N-acetylcysteine
