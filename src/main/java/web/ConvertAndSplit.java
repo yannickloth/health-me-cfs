@@ -236,7 +236,13 @@ void main(String[] args) throws IOException {
     src = src.replace("$leftarrow.double$",  "⇐");
 
     // Typst definition list: / term: desc → - **term:** desc
+    // Ensure a blank line separates the list from preceding non-list content,
+    // otherwise Pandoc/Quarto renders the dash items as inline text.
     src = src.replaceAll("(?m)^\\s*/\\s+\\*([^*]+)\\*:(.*)$", "- **$1:**$2");
+    // Insert blank line before the first dash-list item in a contiguous block
+    // when the preceding non-blank line is NOT itself a dash item.
+    // Pattern: [non-dash-item line]\n[- **...] → [non-dash-item line]\n\n[- **...]
+    src = src.replaceAll("\n(?!\n)([^- \n][^\n]*)\n(- \\*\\*)", "\n$1\n\n$2");
 
     // Typst literal dollar signs (\$) → placeholder before math processing
     src = src.replace("\\$", "\uFFFD");
