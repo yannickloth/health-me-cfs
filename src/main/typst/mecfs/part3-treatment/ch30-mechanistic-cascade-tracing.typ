@@ -27,7 +27,7 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *AChE*:  acetylcholinesterase
 / *AChR*:  acetylcholine receptor
 / *AIMM*:  acquired ischemic mitochondrial myopathy
-/ *ALA*:  alpha-lipoic acid; antioxidant and PDH cofactor
+/ *ALA*:  alpha-lipoic acid; antioxidant and pyruvate dehydrogenase cofactor
 / *AMPK*:  AMP-activated protein kinase; cellular energy sensor
 / *ANC*:  absolute neutrophil count
 / *ANT*:  adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
@@ -54,11 +54,11 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *CYP*:  cytochrome P450
 / *CysLT1*:  cysteinyl leukotriene receptor type 1; montelukast target
 / *DA*:  dopamine
-/ *DAMI*:  dopaminergic asymmetry measurement index (composite: striatal FDG-PET, COMPASS-31, aripiprazole slope)
+/ *DAMI*:  dopaminergic asymmetry measurement index (composite: striatal fluorodeoxyglucose PET, Composite Autonomic Symptom Score, aripiprazole slope)
 / *DAMPs*:  damage-associated molecular patterns
 / *DAT*:  dopamine transporter
 / *DBH*:  dopamine-beta-hydroxylase
-/ *DCA*:  dichloroacetate; PDK inhibitor
+/ *DCA*:  dichloroacetate; pyruvate dehydrogenase kinase inhibitor
 / *DDR*:  discoidin domain receptor
 / *DHEA*:  dehydroepiandrosterone; neurosteroid and androgen precursor
 / *DMF*:  dimethyl fumarate
@@ -67,7 +67,7 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *DORA*:  dual orexin receptor antagonist
 / *DPP-4*:  dipeptidyl peptidase-4; incretin-degrading enzyme
 / *DRG*:  dorsal root ganglion
-/ *DTBZ*:  dihydrotetrabenazine; VMAT2 PET ligand
+/ *DTBZ*:  dihydrotetrabenazine; vesicular monoamine transporter 2 PET ligand
 / *EBV*:  Epstein-Barr virus
 / *EC cells*:  enterochromaffin cells; gut serotonin-producing cells
 / *ECM*:  extracellular matrix
@@ -79,7 +79,7 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *FDG*:  fluorodeoxyglucose; glucose analogue for PET imaging
 / *G-CSF*:  granulocyte colony-stimulating factor
 / *GABA*:  gamma-aminobutyric acid
-/ *GAD*:  glutamate decarboxylase; GABA synthesis enzyme
+/ *GAD*:  glutamate decarboxylase; gamma-aminobutyric acid synthesis enzyme
 / *GI*:  gastrointestinal
 / *GLP-1*:  glucagon-like peptide-1; incretin hormone
 / *GLP-1R*:  glucagon-like peptide-1 receptor
@@ -107,16 +107,16 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *IgG*:  immunoglobulin G
 / *IL*:  interleukin
 / *ILMI*:  ipsilateral limb metabolic index (FDG-PET comparison of left vs right limb glucose uptake)
-/ *IMPase*:  inositol monophosphatase; lithium target in PIP2 resynthesis
+/ *IMPase*:  inositol monophosphatase; lithium target in phosphatidylinositol 4,5-bisphosphate resynthesis
 / *iNOS*:  inducible nitric oxide synthase
 / *IP receptor*:  prostacyclin I2 receptor; mediates vasodilation
 / *IVIG*:  intravenous immunoglobulin
 / *KAT*:  kynurenine aminotransferase
 / *KMO*:  kynurenine 3-monooxygenase
-/ *KYNA*:  kynurenic acid; NMDA antagonist
+/ *KYNA*:  kynurenic acid; N-methyl-D-aspartate receptor antagonist
 / *LC-NE*:  locus coeruleus-norepinephrine
 / *LDN*:  low-dose naltrexone
-/ *LTD4*:  leukotriene D4; bronchoconstrictor and MCAS mediator
+/ *LTD4*:  leukotriene D4; bronchoconstrictor and mast cell activation syndrome mediator
 / *LTP*:  long-term potentiation
 / *MAO-B*:  monoamine oxidase B; degrades dopamine
 / *MCAS*:  mast cell activation syndrome
@@ -161,7 +161,7 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *PLC-β*:  phospholipase C beta
 / *POTS*:  postural orthostatic tachycardia syndrome
 / *PPAR-alpha*:  peroxisome proliferator-activated receptor alpha
-/ *QUIN*:  quinolinic acid; NMDA agonist from kynurenine pathway
+/ *QUIN*:  quinolinic acid; N-methyl-D-aspartate receptor agonist from kynurenine pathway
 / *RAAS*:  renin-angiotensin-aldosterone system
 / *RAGE*:  receptor for advanced glycation end-products
 / *REE*:  resting energy expenditure
@@ -185,7 +185,7 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *TLR4*:  Toll-like receptor 4
 / *TNF-α*:  tumour necrosis factor alpha
 / *TPH1*:  tryptophan hydroxylase 1; peripheral serotonin synthesis enzyme (gut EC cells)
-/ *TPH2*:  tryptophan hydroxylase 2; CNS serotonin synthesis enzyme (raphe nuclei)
+/ *TPH2*:  tryptophan hydroxylase 2; central nervous system serotonin synthesis enzyme (raphe nuclei)
 / *Treg*:  regulatory T cell; CD4+CD25+FoxP3+
 / *TRPC*:  transient receptor potential canonical
 / *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
@@ -196,7 +196,7 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 / *VEGF*:  vascular endothelial growth factor
 / *VLM*:  ventrolateral medulla
 / *VMAT2*:  vesicular monoamine transporter 2
-/ *WASF3*:  WAS protein family member 3; respiratory supercomplex assembly inhibitor
+/ *WASF3*:  Wiskott-Aldrich syndrome protein family member 3; respiratory supercomplex assembly inhibitor
 / *ΔΨm*:  mitochondrial membrane potential (proton gradient across inner mitochondrial membrane)
 
 == Ion Channel Hypotheses
