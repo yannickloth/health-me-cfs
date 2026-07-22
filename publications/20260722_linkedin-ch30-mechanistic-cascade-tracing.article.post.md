@@ -16,7 +16,7 @@ Full chapter open-access (CC-BY 4.0): Loth (2026), doi:10.5281/zenodo.19184064
 
 ### Acronyms
 
-β2-AR (beta-2 adrenergic receptor), BP (blood pressure), CNS (central nervous system), D2/D3 (dopamine receptor subtypes), GABA-A (gamma-aminobutyric acid type A receptor), HRV (heart rate variability), I_f (funny current), LDN (low-dose naltrexone), P-gp (P-glycoprotein efflux transporter), POTS (postural orthostatic tachycardia syndrome), TLR4 (Toll-like receptor 4), TRPM3 (transient receptor potential melastatin 3, non-selective cation channel), TRPV1 (transient receptor potential vanilloid 1, capsaicin receptor)
+β2-AR (beta-2 adrenergic receptor), BP (blood pressure), CNS (central nervous system), D2/D3 (dopamine receptor subtypes), HRV (heart rate variability), I_f (funny current), LDN (low-dose naltrexone), P-gp (P-glycoprotein efflux transporter), POTS (postural orthostatic tachycardia syndrome), TLR4 (Toll-like receptor 4), TRPM3 (transient receptor potential melastatin 3, non-selective cation channel)
 
 ### Medication Classes
 
