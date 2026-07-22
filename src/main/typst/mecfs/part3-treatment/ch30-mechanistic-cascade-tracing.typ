@@ -307,6 +307,31 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 *Consequence:* The strongest test of PIP2 convergence: if immunoadsorption simultaneously improves TRPM3, TRPV1, and Piezo2-dependent symptoms, GPCR AAb→PIP2 depletion is the shared upstream mechanism. Otherwise, independent channel dysfunction requires channel-specific treatment.
 *Origin:* mechanistic-pathway-tracing.
 
+*Acronyms used in this section:*
+/ *AAb*: autoantibody
+/ *ACh*: acetylcholine
+/ *AChE*: acetylcholinesterase
+/ *Ca²⁺*: calcium ion, intracellular second messenger
+/ *CGRP*: calcitonin gene-related peptide
+/ *CNS*: central nervous system
+/ *COX-2*: cyclooxygenase-2
+/ *CPET*: cardiopulmonary exercise testing
+/ *GI*: gastrointestinal
+/ *GPCR*: G protein-coupled receptor
+/ *hEDS*: hypermobile Ehlers-Danlos syndrome
+/ *HR*: heart rate
+/ *IA*: immunoadsorption
+/ *IgE*: immunoglobulin E
+/ *IgG*: immunoglobulin G
+/ *LDN*: low-dose naltrexone
+/ *NK cell*: natural killer cell
+/ *NRI*: norepinephrine reuptake inhibitor
+/ *PEM*: post-exertional malaise
+/ *PGE2*: prostaglandin E2
+/ *PIP2*: phosphatidylinositol 4,5-bisphosphate
+/ *PLC-β*: phospholipase C beta
+/ *POTS*: postural orthostatic tachycardia syndrome
+
 == Mitochondrial Hypotheses
 
 === WASF3-Mediated Supercomplex Disruption
@@ -574,6 +599,34 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 *Consequence:* The kynurenine cascade is uniquely diagnostic because it has three arms producing diametrically opposite effects: serotonin depletion (treat with 5-HTP), NMDA excitotoxicity (treat with memantine), and NMDA suppression (avoid NMDA antagonists, treat upstream with LDN). The differential diagnosis: 5-HTP response localizes the lesion to the serotonin arm. Memantine response at standard doses without sedation localizes the lesion to the QUIN arm. Memantine sedation at low dose localizes the lesion to the KYNA arm (basal glutamate tone low). The combination of 5-HTP + memantine responses maps whether both arms are active simultaneously. LDN response tells you IDO is driving the pathway. The tryptophan challenge test (improvement vs. worsening after tryptophan supplementation) tells you whether IDO is saturated — a rapid, low-cost probe that no one performs but that directly informs the entire kynurenine diagnostic logic. This is the most biochemically accessible cascade in the chapter: serum kynurenine/tryptophan ratio and QUIN/KYNA ratio are measurable in clinical labs, unlike ion channel function or autoantibody bioassays. The cascade tracing should be correlated with serum metabolite measurements whenever possible — the pharmocodiagnostic logic and the biochemical measurements validate each other.
 *Origin:* mechanistic-pathway-tracing.
 
+
+*Acronyms used in this section:*
+/ *AAb*: autoantibody
+/ *AIMM*: acquired ischemic mitochondrial myopathy
+/ *ALA*: alpha-lipoic acid
+/ *ATP*: adenosine triphosphate
+/ *BP*: blood pressure
+/ *Ca²⁺*: calcium ion, intracellular second messenger
+/ *CoQ10*: coenzyme Q10
+/ *COX-2*: cyclooxygenase-2
+/ *CPET*: cardiopulmonary exercise testing
+/ *CSF*: cerebrospinal fluid
+/ *DCA*: dichloroacetate
+/ *DMF*: dimethyl fumarate
+/ *ETC*: electron transport chain
+/ *GPCR*: G protein-coupled receptor
+/ *HIF-1α*: hypoxia-inducible factor 1 alpha
+/ *HR*: heart rate
+/ *IDO*: indoleamine 2,3-dioxygenase
+/ *IFN-γ*: interferon gamma
+/ *LDN*: low-dose naltrexone
+/ *MCAS*: mast cell activation syndrome
+/ *mTORC1*: mechanistic target of rapamycin complex 1
+/ *NAC*: N-acetylcysteine
+/ *NAD⁺*: nicotinamide adenine dinucleotide
+/ *NCX1*: Na⁺/Ca²⁺ exchanger 1
+/ *NE*: norepinephrine
+
 == Autoimmune Hypotheses
 
 === GPCR Autoantibody Cascade (β2-AR, M2/M4 mAChR)
@@ -659,6 +712,34 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Consequence:* Doxycycline (MMP-9 inhibitor) combined with DMF (HIF-1α inhibitor) distinguishes mast-cell-driven from hypoxic-transcriptional ECM degradation.
 *Origin:* mechanistic-pathway-tracing.
+
+
+*Acronyms used in this section:*
+/ *AAb*: autoantibody
+/ *ACh*: acetylcholine
+/ *AChE*: acetylcholinesterase
+/ *AChR*: acetylcholine receptor
+/ *ATP*: adenosine triphosphate
+/ *BP*: blood pressure
+/ *CAP*: cholinergic anti-inflammatory pathway
+/ *CCI*: craniocervical instability
+/ *CNS*: central nervous system
+/ *DA*: dopamine
+/ *DMF*: dimethyl fumarate
+/ *ECM*: extracellular matrix
+/ *ETA*: endothelin receptor type A
+/ *GI*: gastrointestinal
+/ *GPCR*: G protein-coupled receptor
+/ *HIF-1α*: hypoxia-inducible factor 1 alpha
+/ *HR*: heart rate
+/ *HRV*: heart rate variability
+/ *IA*: immunoadsorption
+/ *IgG*: immunoglobulin G
+/ *LDN*: low-dose naltrexone
+/ *MCAS*: mast cell activation syndrome
+/ *MMP*: matrix metalloproteinase
+/ *NTS*: nucleus tractus solitarius
+/ *OI*: orthostatic intolerance
 
 == Neuroinflammatory Hypotheses
 
@@ -829,6 +910,34 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 *Consequence:* The glymphatic cascade is uniquely probeable through temporal patterns — morning vs. evening symptom severity, continuous vs. episodic drug benefit, sleep position effects. The key diagnostic sequence: (1) optimize sleep position (zero cost, zero risk) → if morning symptoms improve, mechanical drainage was the bottleneck; (2) add bedtime melatonin or LDN → if further improvement, LC-NE overactivity or neuroinflammation was impairing glymphatic flow; (3) if DORA worsens morning symptoms despite more sleep → glymphatic-per-hour is reduced; discontinue DORA. The temporal pattern of LDN benefit (morning-only vs. all-day) distinguishes glymphatic from anti-inflammatory mechanisms. A patient who wakes with severe headache that improves by noon and responds to supine position + LDN has glymphatic failure confirmed by three independent probes (temporal pattern + mechanical intervention + pharmacological intervention).
 *Origin:* mechanistic-pathway-tracing.
 
+
+*Acronyms used in this section:*
+/ *AAb*: autoantibody
+/ *ACh*: acetylcholine
+/ *AChE*: acetylcholinesterase
+/ *AChR*: acetylcholine receptor
+/ *ATP*: adenosine triphosphate
+/ *BBB*: blood-brain barrier
+/ *BH4*: tetrahydrobiopterin
+/ *BP*: blood pressure
+/ *cAMP*: cyclic adenosine monophosphate
+/ *CAP*: cholinergic anti-inflammatory pathway
+/ *CCI*: craniocervical instability
+/ *CNS*: central nervous system
+/ *CSF*: cerebrospinal fluid
+/ *DA*: dopamine
+/ *DAT*: dopamine transporter
+/ *DBH*: dopamine-beta-hydroxylase
+/ *DMV*: dorsal motor nucleus of vagus
+/ *DORA*: dual orexin receptor antagonist
+/ *ECM*: extracellular matrix
+/ *GI*: gastrointestinal
+/ *GPCR*: G protein-coupled receptor
+/ *HR*: heart rate
+/ *HRV*: heart rate variability
+/ *IFN-γ*: interferon gamma
+/ *IgG*: immunoglobulin G
+
 == Connective Tissue Hypotheses
 
 === HIF-1α-Mediated Connective Tissue Remodeling
@@ -914,6 +1023,23 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Consequence:* Compression garments vs. fludrocortisone response in high-Beighton patients distinguishes venous compliance (CT quality, compression-responsive) from hypovolemia (RAAS paradox, fludrocortisone-responsive).
 *Origin:* mechanistic-pathway-tracing.
+
+
+*Acronyms used in this section:*
+/ *AAb*: autoantibody
+/ *CCI*: craniocervical instability
+/ *CSF*: cerebrospinal fluid
+/ *DMF*: dimethyl fumarate
+/ *ECM*: extracellular matrix
+/ *GPCR*: G protein-coupled receptor
+/ *hEDS*: hypermobile Ehlers-Danlos syndrome
+/ *HIF-1α*: hypoxia-inducible factor 1 alpha
+/ *MMP*: matrix metalloproteinase
+/ *NAC*: N-acetylcysteine
+/ *POTS*: postural orthostatic tachycardia syndrome
+/ *RAAS*: renin-angiotensin-aldosterone system
+/ *ROS*: reactive oxygen species
+/ *VEGF*: vascular endothelial growth factor
 
 == Autonomic Hypotheses
 
@@ -1014,6 +1140,34 @@ The clinical relevance: reduced HRV is one of the most replicated biomarkers in 
 
 *Consequence:* Butyrate + 5-HTP at the enteric level, taVNS at the afferent level, and pyridostigmine + CDP-choline at the efferent level distinguish three vagal lesion levels: enteric (butyrate/5-HTP-responsive), central afferent (taVNS-responsive after NTS anti-inflammatory), and ganglionic (pyridostigmine-responsive if synapses intact; neither pyridostigmine nor taVNS responsive if AChR AAb blocks). Nicotine patch probes the CAP endpoint (macrophage α7nAChR). This four-level mapping is one of the cleanest diagnostic sequences in the chapter — each probe tests a specific anatomical segment of the vagal pathway, and the pattern of responses localizes the lesion along the gut→vagus→brainstem→spleen→macrophage axis.
 *Origin:* mechanistic-pathway-tracing.
+
+
+*Acronyms used in this section:*
+/ *AAb*: autoantibody
+/ *ACh*: acetylcholine
+/ *AChE*: acetylcholinesterase
+/ *AChR*: acetylcholine receptor
+/ *BP*: blood pressure
+/ *CAP*: cholinergic anti-inflammatory pathway
+/ *CNS*: central nervous system
+/ *DMV*: dorsal motor nucleus of vagus
+/ *GI*: gastrointestinal
+/ *GPCR*: G protein-coupled receptor
+/ *HR*: heart rate
+/ *HRV*: heart rate variability
+/ *IA*: immunoadsorption
+/ *IENFD*: intraepidermal nerve fibre density
+/ *IVIG*: intravenous immunoglobulin
+/ *LDN*: low-dose naltrexone
+/ *NE*: norepinephrine
+/ *NTS*: nucleus tractus solitarius
+/ *PFC*: prefrontal cortex
+/ *POTS*: postural orthostatic tachycardia syndrome
+/ *RAAS*: renin-angiotensin-aldosterone system
+/ *SA node*: sinoatrial node
+/ *SIBO*: small intestinal bacterial overgrowth
+/ *taVNS*: transcutaneous auricular vagus nerve stimulation
+/ *VLM*: ventrolateral medulla
 
 == Gerlier Skeletal Asymmetry 4-Pathway Model
 
@@ -1141,6 +1295,29 @@ A patient with skeletal asymmetry showing dramatic improvement on low-dose aripi
 *Consequence:* Aripiprazole response in a patient with documented skeletal asymmetry AND positive shoe lift trial represents multi-level evidence for the Gerlier model. However, aripiprazole-positive/shoe-lift-negative patterns are also predicted by better-supported models. Diagnostic specificity comes from the COMBINATION of mechanical AND dopaminergic probes.
 *Origin: Gerlier 2026-07-21; dopaminergic convergence tracing by mechanistic inference.*
 
+
+*Acronyms used in this section:*
+/ *ATP*: adenosine triphosphate
+/ *cAMP*: cyclic adenosine monophosphate
+/ *Ca²⁺*: calcium ion, intracellular second messenger
+/ *CCI*: craniocervical instability
+/ *CNS*: central nervous system
+/ *CoQ10*: coenzyme Q10
+/ *DAT*: dopamine transporter
+/ *DBH*: dopamine-beta-hydroxylase
+/ *GI*: gastrointestinal
+/ *LDN*: low-dose naltrexone
+/ *NAD⁺*: nicotinamide adenine dinucleotide
+/ *NCX1*: Na⁺/Ca²⁺ exchanger 1
+/ *NE*: norepinephrine
+/ *NET*: norepinephrine transporter
+/ *NHE1*: Na⁺/H⁺ exchanger 1
+/ *NMDA*: N-methyl-D-aspartate
+/ *PEM*: post-exertional malaise
+/ *PFC*: prefrontal cortex
+/ *RAAS*: renin-angiotensin-aldosterone system
+/ *TLR4*: Toll-like receptor 4
+
 == Integrative Models
 
 === Energy Ratchet / Hysteresis Model
@@ -1209,6 +1386,34 @@ The core probe: pharmacological bypass of each demand-response signaling pathway
 *Consequence:* The energy triage model is the only cascade in this chapter that is NOT hypothesis-specific — it applies across all energy-deficit hypotheses (mitochondrial, delivery, substrate). The triage fingerprint (which bypass drugs work) identifies which signaling systems are ATP-depleted in that patient, and pacing's effect on the fingerprint quantifies the degree to which the deficit is demand-driven vs. production-fixed. The most clinically actionable inference: if the patient requires 3 bypass drugs to function, their energy deficit is severe and their PEM budget for additional drug trials is minimal — prioritize low-energy-cost interventions. If pacing eliminates the need for bypass drugs, the treatment is pacing — not pharmacology.
 *Origin:* mechanistic-pathway-tracing.
 
+
+*Acronyms used in this section:*
+/ *AAb*: autoantibody
+/ *ACh*: acetylcholine
+/ *AChE*: acetylcholinesterase
+/ *AMPK*: AMP-activated protein kinase
+/ *ANT*: adenine nucleotide translocator
+/ *ATP*: adenosine triphosphate
+/ *BH4*: tetrahydrobiopterin
+/ *cAMP*: cyclic adenosine monophosphate
+/ *CNS*: central nervous system
+/ *CoQ10*: coenzyme Q10
+/ *CPET*: cardiopulmonary exercise testing
+/ *DA*: dopamine
+/ *DBH*: dopamine-beta-hydroxylase
+/ *ETC*: electron transport chain
+/ *GPCR*: G protein-coupled receptor
+/ *HR*: heart rate
+/ *HSC*: haematopoietic stem cell
+/ *LC-NE*: locus coeruleus-norepinephrine
+/ *mTORC1*: mechanistic target of rapamycin complex 1
+/ *NAC*: N-acetylcysteine
+/ *NAD⁺*: nicotinamide adenine dinucleotide
+/ *NE*: norepinephrine
+/ *PDH*: pyruvate dehydrogenase
+/ *PEM*: post-exertional malaise
+/ *PFC*: prefrontal cortex
+
 == Cross-Hypothesis Convergence Patterns
 
 === The Dopamine Convergence Node
@@ -1265,6 +1470,27 @@ The diagnostic probes that distinguish mechanical from biochemical drivers:
 - *Immunoadsorption / BC007:* If it works → autoimmune driver.
 - *LDN:* If it works → neuroinflammation or TRPM3. Not specific alone.
 - *Aripiprazole (the convergence probe):* Works for BOTH Gerlier and biochemical dopamine dysfunction — does not distinguish. Must be combined with above probes.
+
+
+*Acronyms used in this section:*
+/ *AAb*: autoantibody
+/ *ANT*: adenine nucleotide translocator
+/ *ATP*: adenosine triphosphate
+/ *BH4*: tetrahydrobiopterin
+/ *CCI*: craniocervical instability
+/ *CoQ10*: coenzyme Q10
+/ *CSF*: cerebrospinal fluid
+/ *DA*: dopamine
+/ *DBH*: dopamine-beta-hydroxylase
+/ *GPCR*: G protein-coupled receptor
+/ *IA*: immunoadsorption
+/ *LDN*: low-dose naltrexone
+/ *NE*: norepinephrine
+/ *NMDA*: N-methyl-D-aspartate
+/ *NRI*: norepinephrine reuptake inhibitor
+/ *PEM*: post-exertional malaise
+/ *PFC*: prefrontal cortex
+/ *VMAT2*: vesicular monoamine transporter 2
 
 == Side Effects as Diagnostic Probes
 <sec:side-effects-diagnostic>
@@ -1931,6 +2157,34 @@ The framework does not address:
 *Consequence:* This matrix is the chapter's diagnostic logic condensed into lookup form. For each drug-hypothesis pair, it provides the positive inference, the null inference, and the side-effect inference. The matrix operationalizes the chapter's core claim: every drug trial — positive, null, or side-effect-producing — generates a diagnostic output. The output is this table's three columns of inference.
 *Origin:* cross-reference synthesis across all preceding sections.
 
+
+*Acronyms used in this section:*
+/ *AAb*: autoantibody
+/ *AADC*: aromatic L-amino acid decarboxylase
+/ *ACh*: acetylcholine
+/ *AChE*: acetylcholinesterase
+/ *AChR*: acetylcholine receptor
+/ *ALA*: alpha-lipoic acid
+/ *AMPK*: AMP-activated protein kinase
+/ *ANC*: absolute neutrophil count
+/ *ANT*: adenine nucleotide translocator
+/ *ATP*: adenosine triphosphate
+/ *BBB*: blood-brain barrier
+/ *BP*: blood pressure
+/ *cAMP*: cyclic adenosine monophosphate
+/ *CAP*: cholinergic anti-inflammatory pathway
+/ *Ca²⁺*: calcium ion, intracellular second messenger
+/ *CCI*: craniocervical instability
+/ *CNS*: central nervous system
+/ *CoQ10*: coenzyme Q10
+/ *COX-2*: cyclooxygenase-2
+/ *CRP*: C-reactive protein
+/ *CSF*: cerebrospinal fluid
+/ *CYP*: cytochrome P450
+/ *CysLT1*: cysteinyl leukotriene receptor type 1
+/ *DA*: dopamine
+/ *DAT*: dopamine transporter
+
 == Synthesis: Differential Diagnostic Algorithm (Extended)
 <sec:synthesis-algorithm-extended>
 
@@ -2119,3 +2373,31 @@ The Gerlier model predicts that Pathways 1--4 converge on the dopaminergic syste
 
 *Consequence:* This extended algorithm replaces the original 6-step version. It incorporates all dimensions developed in this chapter — binary response, effect magnitude, onset latency, response duration, dose-response slope, side-effect patterns, drug-drug interactions (synergy, antagonism, sequential ordering, prerequisites, contraindications), endogenous probes, the null matrix formalism, and the PEM budget constraint. Step 0 audits data the patient has already generated — no new trials required. Step 2 unfolds neuroinflammation source through a nested decision tree (taVNS → ketotifen → steroid → antiviral vs. autoimmune). Step 5 maps the mechanical axis from pelvis to cranium and tests the Gerlier model's dopaminergic convergence prediction through the shoe-lift/aripiprazole combination — the chapter's only hypothesis-specific validation probe. The goal is unchanged: localize the lesion through diagnostic pharmacology. But the method is now multi-dimensional — every drug trial generates a vector of diagnostic information, not a binary output. Treatment as measurement.
 *Origin:* mechanistic-pathway-tracing, extended 2026-07-22.
+
+
+*Acronyms used in this section:*
+/ *AAb*: autoantibody
+/ *ANT*: adenine nucleotide translocator
+/ *ATP*: adenosine triphosphate
+/ *BP*: blood pressure
+/ *CAP*: cholinergic anti-inflammatory pathway
+/ *CCI*: craniocervical instability
+/ *CNS*: central nervous system
+/ *CoQ10*: coenzyme Q10
+/ *CRP*: C-reactive protein
+/ *DA*: dopamine
+/ *DBH*: dopamine-beta-hydroxylase
+/ *EBV*: Epstein-Barr virus
+/ *ESR*: erythrocyte sedimentation rate
+/ *ETC*: electron transport chain
+/ *GI*: gastrointestinal
+/ *GPCR*: G protein-coupled receptor
+/ *HHV-6*: human herpesvirus 6
+/ *HPA*: hypothalamic-pituitary-adrenal axis
+/ *HR*: heart rate
+/ *HSC*: haematopoietic stem cell
+/ *IA*: immunoadsorption
+/ *IVIG*: intravenous immunoglobulin
+/ *LDN*: low-dose naltrexone
+/ *MCAS*: mast cell activation syndrome
+/ *NAC*: N-acetylcysteine
