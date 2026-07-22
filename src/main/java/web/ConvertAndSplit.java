@@ -353,7 +353,7 @@ void main(String[] args) throws IOException {
     var xref = new ArrayList<String[]>();
     int secNum = 1;
     for (var sec : sections) {
-        var slugTitle = normalizeUnicode(sec.title());
+        var slugTitle = secNum == 1 && !chapTitle.isEmpty() ? chapTitle : normalizeUnicode(sec.title());
         var slug = slugTitle.toLowerCase().replaceAll("[^a-z0-9']+", "-").replaceAll("^-|-$", "").replace("'", "");
         var fname = "%02d-%s.qmd".formatted(secNum, slug);
         var path = get(outDir, fname);
