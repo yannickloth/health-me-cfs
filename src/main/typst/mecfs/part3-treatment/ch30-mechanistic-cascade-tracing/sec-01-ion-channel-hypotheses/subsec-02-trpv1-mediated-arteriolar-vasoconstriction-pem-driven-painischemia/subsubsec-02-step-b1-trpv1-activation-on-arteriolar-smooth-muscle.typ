@@ -1,5 +1,14 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *Ca²⁺*:  calcium ion
+/ *NE*:  norepinephrine
+/ *PEM*:  post-exertional malaise
+/ *RAAS*:  renin-angiotensin-aldosterone system
+/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
+
+
 ==== Step B1: TRPV1 activation on arteriolar smooth muscle
 
 *Mechanism:* TRPV1 on vascular smooth muscle is different from TRPV1 on sensory neurons. On sensory neurons, TRPV1 activation produces pain (the burning sensation of capsaicin). On vascular smooth muscle, TRPV1 activation produces contraction (Ca²⁺ influx → myosin light chain kinase → vasoconstriction). The drug probes must distinguish these two TRPV1 populations — a drug that blocks TRPV1 on sensory neurons (reducing pain) may also block TRPV1 on vascular smooth muscle (preventing vasoconstriction — beneficial), or it may only block one population depending on tissue distribution and drug access.
@@ -9,4 +18,3 @@
 - *NEO6860 (selective TRPV1 antagonist, Phase II for osteoarthritis):* Blocks TRPV1 without the initial activation that capsaicin causes. Systemic administration would block both sensory and vascular TRPV1. If NEO6860 reduces PEM severity and duration → TRPV1 on BOTH sensory and vascular smooth muscle is rate-limiting. If NEO6860 reduces pain but not PEM duration → TRPV1 is involved in pain perception but not in the ischemic feedback loop — vascular TRPV1 is not the dominant mechanism.
 - *If capsaicin works and NEO6860 is unavailable:* This is the clinical reality for most patients. Capsaicin response confirms TRPV1-mediated pain but cannot assess vascular TRPV1. The distinction matters for treatment: if pain is purely sensory TRPV1 → topical capsaicin is sufficient. If vascular TRPV1 is involved → systemic TRPV1 antagonism (NEO6860 or future drugs) would be needed for the ischemic component.
 - *If capsaicin/NEO6860 does NOT reduce PEM:* TRPV1-mediated vasoconstriction is not rate-limiting. Other vasoconstrictive mediators may dominate: angiotensin II (RAAS dysregulation), endothelin-1 (endothelial dysfunction), or ischemia is from pre-capillary obstruction (microclots, RBC stiffness) rather than arteriolar constriction. Distinguish: if pyridostigmine improves PEM but capsaicin does not → the ischemia is flow/delivery-limited (microvascular), not TRPV1-mediated. If midodrine improves PEM but capsaicin does not → the ischemia is perfusion pressure-limited.
-

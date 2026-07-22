@@ -1,5 +1,10 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *DA*:  dopamine
+
+
 ==== Dose-Response Slope
 
 The dose at which response appears and the shape of the dose-response curve are receptor-level diagnostics:
@@ -14,4 +19,3 @@ The dose at which response appears and the shape of the dose-response curve are 
 | Flat dose-response (same effect at all doses) | The system's maximum response is already achieved at minimal occupancy — the ceiling is intrinsic, not drug-limited. |
 
 The dose at which therapeutic response appears IS the receptor sensitivity measurement. A patient who responds to 0.1 mg aripiprazole has had their D2/D3 affinity measured without a PET ligand.
-

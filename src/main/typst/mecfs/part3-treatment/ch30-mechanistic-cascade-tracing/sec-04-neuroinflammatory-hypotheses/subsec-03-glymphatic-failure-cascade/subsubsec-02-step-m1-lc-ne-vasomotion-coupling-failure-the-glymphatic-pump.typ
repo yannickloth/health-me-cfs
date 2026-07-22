@@ -1,5 +1,18 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *BP*:  blood pressure
+/ *CSF*:  cerebrospinal fluid
+/ *IL*:  interleukin
+/ *LC-NE*:  locus coeruleus-norepinephrine
+/ *LDN*:  low-dose naltrexone
+/ *NE*:  norepinephrine
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *TLR4*:  Toll-like receptor 4
+/ *TNF-α*:  tumour necrosis factor alpha
+
+
 ==== Step M1: LC-NE vasomotion coupling failure (the glymphatic pump)
 
 *Mechanism:* The locus coeruleus (LC) is the brain's sole source of norepinephrine. LC-NE release drives arteriolar vasoconstriction. During SWS, LC firing rate drops to near zero → minimal NE → maximal vasodilation → CSF influx into brain parenchyma increases ~60% compared to wakefulness. Alpha wave intrusion during delta sleep means partial arousal → LC firing rate increases → NE release → vasoconstriction → glymphatic flow drops. The result: 8 hours of sleep with impaired glymphatic clearance → functional equivalent of 4 hours of restorative sleep + 4 hours of waste accumulation.
@@ -10,4 +23,3 @@
 - *Prazosin (α1 antagonist, 1--5 mg at bedtime):* Blocks α1 receptors on vascular smooth muscle → prevents NE-mediated vasoconstriction → promotes vasodilation during sleep regardless of LC activity. If prazosin improves morning symptoms → the glymphatic pump IS impaired by excessive NE-mediated vasoconstriction, and α1 blockade restores vasodilation. CAUTION: prazosin causes orthostatic hypotension — high risk in POTS patients. Start at 0.5 mg; monitor supine and standing BP.
 - *Clonidine (α2 agonist, 0.05--0.1 mg at bedtime):* Suppresses LC firing (α2 autoreceptors on LC neurons → reduced NE release). If clonidine improves morning symptoms → LC overactivity during sleep is the source of excessive NE. More specific than prazosin (which blocks NE at the vessel) — clonidine prevents NE release at the source.
 - *If none of the above improves morning symptoms:* LC-NE vasomotion coupling is not the glymphatic bottleneck. The problem is downstream: aquaporin-4 (AQP4) channel dysfunction on astrocytes (AQP4 is the water channel that mediates CSF-ISF exchange — if AQP4 is mislocalized from astrocyte endfeet, glymphatic flow is impaired regardless of vasomotion), impaired CSF production by choroid plexus, or obstruction of perivascular spaces (Virchow-Robin spaces) by protein aggregates or fibrosis.
-

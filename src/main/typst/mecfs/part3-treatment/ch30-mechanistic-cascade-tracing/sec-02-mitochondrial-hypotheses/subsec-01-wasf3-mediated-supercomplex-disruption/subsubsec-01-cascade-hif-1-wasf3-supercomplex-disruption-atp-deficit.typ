@@ -1,5 +1,17 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *ATP*:  adenosine triphosphate
+/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
+/ *OXPHOS*:  oxidative phosphorylation
+/ *PDK*:  pyruvate dehydrogenase kinase
+/ *PEM*:  post-exertional malaise
+/ *ROS*:  reactive oxygen species
+/ *SC*:  supercomplex
+/ *WASF3*:  Wiskott-Aldrich syndrome protein family member 3; respiratory supercomplex assembly inhibitor
+
+
 ==== Cascade: HIF-1α → WASF3 → supercomplex disruption → ATP deficit
 
 *Cascade:*
@@ -9,5 +21,3 @@
 - Increased electron leak at Complex I-III interface → ROS (further stabilizes HIF-1α — positive feedback)
 - Reduced OXPHOS ATP yield + compensatory glycolysis (PDK1, LDH-A, GLUT1 upregulation)
 - Lactate at rest, reduced maximal ATP output → fatigue, PEM, the metabolic signature of ME/CFS
-
-

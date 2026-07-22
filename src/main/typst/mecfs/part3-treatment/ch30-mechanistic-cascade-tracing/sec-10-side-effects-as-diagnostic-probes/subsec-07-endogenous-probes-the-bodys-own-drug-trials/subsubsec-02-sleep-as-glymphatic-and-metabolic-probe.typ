@@ -1,5 +1,12 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *CSF*:  cerebrospinal fluid
+/ *DA*:  dopamine
+/ *NE*:  norepinephrine
+
+
 ==== Sleep as Glymphatic and Metabolic Probe
 
 - *Patient feels better after 10 hours of sleep but crashes by noon:* Time-to-crash after sleep estimates the rate of metabolite/toxin accumulation during wakefulness. The glymphatic system cleared waste during extended sleep, but the underlying production rate (energy metabolism with impaired clearance) re-accumulates toxins within hours. Diagnostic: clearance is functional when given enough time (glymphatic system works during sleep); the bottleneck is production rate during wake > clearance rate during wake. The slope of post-sleep decline estimates the net accumulation rate.
@@ -7,4 +14,3 @@
 - *Sleep quality vs. sleep duration dissociation:* Patient sleeps 8 hours (normal duration) but feels unrestored (poor quality). The defect is in sleep architecture (alpha-delta sleep, reduced slow-wave sleep), not sleep quantity. Diagnostic: the restorative function of sleep — glymphatic clearance, synaptic downscaling, memory consolidation — is impaired despite adequate sleep opportunity. Supports glymphatic or orexin/histaminergic pathology.
 - *Nap response as probe:* If a 20-minute nap is restorative → sleep pressure was the dominant fatigue driver (adenosine accumulation). If a nap is NOT restorative or causes grogginess → fatigue is not adenosine-mediated; it is inflammatory, metabolic, or dopaminergic. The nap response distinguishes sleep-deprivation fatigue from pathological fatigue.
 - *Sleep deprivation as accidental probe:* After a night of poor sleep, does the patient feel worse (normal response) or paradoxically better? Paradoxical improvement after sleep deprivation has been documented in depression (resets circadian DA/NE tone). In ME/CFS, if sleep deprivation paradoxically improves symptoms → the glymphatic system is clearing something during sleep that is actively causing symptoms when mobilized — consistent with the "toxic" morning headache model. Or sleep deprivation triggers a compensatory catecholamine surge that temporarily overrides the deficit.
-

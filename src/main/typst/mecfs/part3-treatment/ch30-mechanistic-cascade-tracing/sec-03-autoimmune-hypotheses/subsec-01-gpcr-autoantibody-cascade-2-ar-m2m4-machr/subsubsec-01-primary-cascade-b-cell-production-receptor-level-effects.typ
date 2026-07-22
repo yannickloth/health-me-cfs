@@ -1,5 +1,37 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *AAb*:  autoantibody
+/ *ACh*:  acetylcholine
+/ *AChE*:  acetylcholinesterase
+/ *AChR*:  acetylcholine receptor
+/ *ATP*:  adenosine triphosphate
+/ *BP*:  blood pressure
+/ *CAP*:  cholinergic anti-inflammatory pathway
+/ *CNS*:  central nervous system
+/ *DA*:  dopamine
+/ *ETA*:  endothelin receptor type A; mediates vasoconstriction
+/ *GI*:  gastrointestinal
+/ *GPCR*:  G protein-coupled receptor
+/ *HR*:  heart rate
+/ *HRV*:  heart rate variability
+/ *IA*:  immunoadsorption
+/ *IgG*:  immunoglobulin G
+/ *IL*:  interleukin
+/ *LDN*:  low-dose naltrexone
+/ *MCAS*:  mast cell activation syndrome
+/ *NTS*:  nucleus tractus solitarius
+/ *OI*:  orthostatic intolerance
+/ *PEM*:  post-exertional malaise
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *SA node*:  sinoatrial node
+/ *SIBO*:  small intestinal bacterial overgrowth
+/ *taVNS*:  transcutaneous auricular vagus nerve stimulation
+/ *TLR4*:  Toll-like receptor 4
+/ *TNF-α*:  tumour necrosis factor alpha
+
+
 ==== Primary Cascade: B-cell production → receptor-level effects
 
 *Cascade:*
@@ -55,4 +87,3 @@
 
 *Consequence:* The GPCR AAb cascade has five pharmacologically distinguishable levels: source (rituximab vs. daratumumab vs. IA/BC007), receptor subtype (β2-AR vascular vs. metabolic vs. mast cell), receptor class (β2-AR vs. M2/M4 vs. α1-AR), anatomical access (peripheral vs. CNS/brainstem via area postrema), and functional pathway (CAP blockade at afferent vs. efferent arm). The pattern of responses across these five levels localizes which GPCR AAb subtype is dominant, whether the AAb is peripherally or centrally active, and whether source depletion or neutralization is the treatment strategy. No single drug test isolates GPCR AAb pathology — the diagnostic pattern across 5+ probes converging on AAb-mediated mechanisms is the diagnostic.
 *Origin:* mechanistic-pathway-tracing.
-

@@ -1,5 +1,13 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *CCI*:  craniocervical instability
+/ *COMPASS-31*:  Composite Autonomic Symptom Score
+/ *GI*:  gastrointestinal
+/ *RAAS*:  renin-angiotensin-aldosterone system
+
+
 ==== Cascade: Rotoscoliosis → sympathetic chain compression → organ dysfunction
 
 *Cascade:*
@@ -16,4 +24,3 @@
 *Step G2b:* Organ-specific dysautonomia
 - *Intercept:* Pyridostigmine (acetylcholinesterase inhibitor; peripheral cholinergic) — enhances remaining cholinergic tone in GI; Domperidone (peripheral D2 receptor antagonist; prokinetic); Midodrine (α1-adrenergic receptor agonist; vasoconstrictor) for cardiac
 - *Differential:* Cardiac-predominant vs. GI-predominant vs. renal maps to specific vertebral levels of compression.
-

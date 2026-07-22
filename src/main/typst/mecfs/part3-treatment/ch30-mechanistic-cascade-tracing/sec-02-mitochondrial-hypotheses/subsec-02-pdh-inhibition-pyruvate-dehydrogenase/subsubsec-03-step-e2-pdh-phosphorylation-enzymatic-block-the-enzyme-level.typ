@@ -1,5 +1,18 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *ALA*:  alpha-lipoic acid; antioxidant and pyruvate dehydrogenase cofactor
+/ *DCA*:  dichloroacetate; pyruvate dehydrogenase kinase inhibitor
+/ *ETC*:  electron transport chain
+/ *LDN*:  low-dose naltrexone
+/ *NAD⁺*:  nicotinamide adenine dinucleotide
+/ *PDH*:  pyruvate dehydrogenase
+/ *PDK*:  pyruvate dehydrogenase kinase
+/ *SIBO*:  small intestinal bacterial overgrowth
+/ *TCA*:  tricarboxylic acid cycle
+
+
 ==== Step E2: PDH phosphorylation — enzymatic block (the enzyme level)
 
 *Probes for restoring PDH activity:*
@@ -10,4 +23,3 @@
 - *Niacin/NR (NAD⁺ precursors):* NAD⁺ is a substrate for PDH (converts NAD⁺ → NADH). If PDH activity is restored (by thiamine, DCA, or Mg²⁺) but symptoms do NOT improve → NAD⁺ may be rate-limiting for PDH throughput. Add nicotinamide riboside (NR) to provide NAD⁺ substrate. If NR + thiamine works where thiamine alone does not → dual cofactor deficiency (thiamine + NAD⁺).
 
 *Distinguishing DCA vs. thiamine response:* DCA = PDK inhibition (restores PDH regardless of cofactor status). Thiamine = cofactor repletion (restores PDH only if cofactor was deficient). DCA+ but thiamine null → PDK is the dominant inhibitor, cofactor status is adequate. Thiamine+ but DCA null (impossible — DCA should always work if PDH phosphorylation is the block; a null DCA response suggests the PDH complex is structurally damaged or absent, not just phosphorylated). Both null → PDH is not the metabolic bottleneck — the ETC downstream of acetyl-CoA, the TCA cycle itself, or substrate delivery is rate-limiting.
-

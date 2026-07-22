@@ -1,5 +1,26 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *ATP*:  adenosine triphosphate
+/ *BP*:  blood pressure
+/ *Ca²⁺*:  calcium ion
+/ *CREB*:  cAMP response element-binding protein
+/ *DA*:  dopamine
+/ *GABA*:  gamma-aminobutyric acid
+/ *HR*:  heart rate
+/ *KMO*:  kynurenine 3-monooxygenase
+/ *LTP*:  long-term potentiation
+/ *mTORC1*:  mechanistic target of rapamycin complex 1
+/ *NAC*:  N-acetylcysteine
+/ *NE*:  norepinephrine
+/ *NMDA*:  N-methyl-D-aspartate
+/ *PFC*:  prefrontal cortex
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *QUIN*:  quinolinic acid; N-methyl-D-aspartate receptor agonist from kynurenine pathway
+/ *ROS*:  reactive oxygen species
+
+
 ==== Step H2b: Quinolinic acid → NMDA excitotoxicity (the glutamate arm)
 
 *Mechanism:* QUIN is produced in microglia (KMO is predominantly microglial) and acts as an NMDA receptor agonist at the glycine co-agonist site. Unlike glutamate (which is rapidly cleared by astrocytes), QUIN has a long half-life in the extracellular space. Chronic QUIN elevation → sustained low-grade NMDA receptor activation → (a) excitotoxicity — excessive Ca²⁺ influx through NMDA receptors → mitochondrial Ca²⁺ overload, oxidative stress, and synaptic dysfunction; (b) reduced long-term potentiation (LTP) — the NMDA receptor is desensitized from chronic low-level activation, and the dynamic range for LTP (learning, memory) is reduced → cognitive dysfunction; (c) selective vulnerability of GABAergic interneurons (which express high levels of GluN2B-containing NMDA receptors that QUIN preferentially activates) → reduced inhibitory tone → network hyperexcitability → anxiety, hyperarousal, sensory sensitivity, tinnitus.
@@ -10,4 +31,3 @@
 - *Ketamine (0.1--0.5 mg/kg IV, investigational):* NMDA antagonist (channel blocker, different site from memantine) + rapid antidepressant effect (mTORC1-dependent synaptogenesis). If ketamine produces rapid improvement (within hours) → NMDA antagonism is the mechanism (fast), and the synapse is capable of rapid plasticity. If improvement lasts days to weeks after a single infusion → ketamine has triggered synaptogenesis (new spine formation in PFC), not just blocked NMDA. If ketamine produces transient worsening (dissociation, anxiety) but no subsequent improvement → the NMDA system is too fragile for direct blockade. CAUTION: ketamine increases HR and BP — may worsen hyperadrenergic POTS.
 - *Riluzole (50 mg BID, glutamate release inhibitor):* Reduces presynaptic glutamate release by blocking voltage-gated Na⁺ channels. If riluzole works → the glutamatergic excess is from excessive release, not just from QUIN agonism. If riluzole does NOT work but memantine works → the glutamatergic problem is specifically NMDA receptor-level (QUIN agonism), not excessive glutamate release.
 - *NAC (600--1200 mg BID):* Cysteine donor for glutathione synthesis → reduces oxidative stress from NMDA-mediated Ca²⁺ influx. If NAC + memantine is synergistic (greater than additive, @sec:drug-drug-interactions) → NMDA excitotoxicity drives ROS production, and blocking NMDA (memantine) + scavenging ROS (NAC) closes the excitotoxicity→ROS→mitochondrial damage→ATP deficit→impaired Ca²⁺ clearance→more NMDA activation loop.
-

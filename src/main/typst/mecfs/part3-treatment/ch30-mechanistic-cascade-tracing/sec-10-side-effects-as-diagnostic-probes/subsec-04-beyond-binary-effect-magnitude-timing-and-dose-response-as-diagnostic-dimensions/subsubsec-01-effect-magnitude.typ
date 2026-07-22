@@ -1,5 +1,16 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *cAMP*:  cyclic adenosine monophosphate
+/ *CREB*:  cAMP response element-binding protein
+/ *DA*:  dopamine
+/ *DORA*:  dual orexin receptor antagonist
+/ *HR*:  heart rate
+/ *NMDA*:  N-methyl-D-aspartate
+/ *PKA*:  protein kinase A; cAMP-dependent kinase
+
+
 ==== Effect Magnitude
 
 *Partial response:* A drug that produces 20% improvement, not 80%, is hitting the right node — but the node accounts for only 20% of the disease burden. The magnitude of improvement estimates the *fraction of total pathology flowing through that node.* If midodrine reduces standing HR by 10% (not the expected 50--60%), α1 receptors are partially functional — partial sympathetic denervation, not complete. If lidocaine infusion reduces pain by 30% but not 80%, central sensitization is present but only accounts for 30% of the pain burden; the remaining 70% is from peripheral nociceptive drive or non-sodium-channel mechanisms.
@@ -10,4 +21,3 @@
 - *If doxepin 3 mg eliminates all nocturnal awakenings → histaminergic arousal is the sole cause of sleep maintenance failure.* If only partially reduces awakenings → nocturnal awakenings have multiple mechanisms (histaminergic + orexin + adrenergic). The percentage reduction estimates the fraction of awakenings attributable to histamine.
 - *If DORA improves sleep maintenance by 80% → orexin-mediated awakenings dominate.* If 20% → orexin accounts for only a fraction; other arousal systems (histaminergic, adrenergic, pain) account for the rest. The magnitude quantifies orexin's fractional contribution to sleep fragmentation.
 - *If gabapentin reduces neuropathic pain by 90% → α2δ-CaV channels mediate nearly all of the pathological pain signaling.* If 30% → α2δ channels account for a minority; other pain mechanisms (NMDA, P2X7, cytokine/glial) dominate. Gabapentinoid partial response identifies α2δ-CaV as one of several pain mechanisms — not the sole driver.
-

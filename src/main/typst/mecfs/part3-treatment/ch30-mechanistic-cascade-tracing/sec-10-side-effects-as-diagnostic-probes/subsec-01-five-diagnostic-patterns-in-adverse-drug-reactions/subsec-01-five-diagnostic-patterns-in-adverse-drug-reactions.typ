@@ -1,5 +1,118 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
+/ *AAb*:  autoantibody
+/ *AADC*:  aromatic L-amino acid decarboxylase; converts L-DOPA to dopamine
+/ *ACh*:  acetylcholine
+/ *AChE*:  acetylcholinesterase
+/ *AMPK*:  AMP-activated protein kinase; cellular energy sensor
+/ *ANC*:  absolute neutrophil count
+/ *ANT*:  adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
+/ *AQP2*:  aquaporin-2; renal collecting duct water channel
+/ *ATP*:  adenosine triphosphate
+/ *BBB*:  blood-brain barrier
+/ *BP*:  blood pressure
+/ *cAMP*:  cyclic adenosine monophosphate
+/ *Ca²⁺*:  calcium ion
+/ *CNS*:  central nervous system
+/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
+/ *COX-2*:  cyclooxygenase-2
+/ *CRP*:  C-reactive protein
+/ *CSF*:  cerebrospinal fluid
+/ *CYP*:  cytochrome P450
+/ *DA*:  dopamine
+/ *DAT*:  dopamine transporter
+/ *DBH*:  dopamine-beta-hydroxylase
+/ *DCA*:  dichloroacetate; pyruvate dehydrogenase kinase inhibitor
+/ *DMF*:  dimethyl fumarate
+/ *DNRI*:  dopamine-norepinephrine reuptake inhibitor
+/ *DORA*:  dual orexin receptor antagonist
+/ *EBV*:  Epstein-Barr virus
+/ *ESR*:  erythrocyte sedimentation rate
+/ *ETC*:  electron transport chain
+/ *FDG*:  fluorodeoxyglucose; glucose analogue for PET imaging
+/ *G-CSF*:  granulocyte colony-stimulating factor
+/ *GABA*:  gamma-aminobutyric acid
+/ *GAD*:  glutamate decarboxylase; gamma-aminobutyric acid synthesis enzyme
+/ *GI*:  gastrointestinal
+/ *GLP-1*:  glucagon-like peptide-1; incretin hormone
+/ *GLP-1R*:  glucagon-like peptide-1 receptor
+/ *GPCR*:  G protein-coupled receptor
+/ *GSH*:  glutathione; primary intracellular antioxidant
+/ *HCA2/GPR109A*:  hydroxycarboxylic acid receptor 2; niacin receptor on mast cells
+/ *HCN*:  hyperpolarization-activated cyclic nucleotide-gated channel
+/ *HHV-6*:  human herpesvirus 6
+/ *HPA*:  hypothalamic-pituitary-adrenal axis
+/ *HR*:  heart rate
+/ *HSC*:  haematopoietic stem cell
+/ *H₂S*:  hydrogen sulfide; gaseous vasodilator and mitochondrial electron donor
+/ *IA*:  immunoadsorption
+/ *IDO*:  indoleamine 2,3-dioxygenase
+/ *IENFD*:  intraepidermal nerve fibre density
+/ *IgE*:  immunoglobulin E
+/ *IgG*:  immunoglobulin G
+/ *IL*:  interleukin
+/ *IMPase*:  inositol monophosphatase; lithium target in phosphatidylinositol 4,5-bisphosphate resynthesis
+/ *IVIG*:  intravenous immunoglobulin
+/ *KYNA*:  kynurenic acid; N-methyl-D-aspartate receptor antagonist
+/ *LDN*:  low-dose naltrexone
+/ *MAO-B*:  monoamine oxidase B; degrades dopamine
+/ *MCAS*:  mast cell activation syndrome
+/ *MRGPRX2*:  Mas-related G protein-coupled receptor X2; mast cell receptor
+/ *mTORC1*:  mechanistic target of rapamycin complex 1
+/ *mTORC2*:  mechanistic target of rapamycin complex 2; regulates cell survival and cytoskeleton
+/ *NAC*:  N-acetylcysteine
+/ *NCX1*:  Na⁺/Ca²⁺ exchanger 1
+/ *NE*:  norepinephrine
+/ *NET*:  norepinephrine transporter
+/ *NF-κB*:  nuclear factor kappa-B
+/ *NK cell*:  natural killer cell
+/ *NMDA*:  N-methyl-D-aspartate
+/ *Nrf2*:  nuclear factor erythroid 2-related factor 2; antioxidant master regulator
+/ *NRI*:  norepinephrine reuptake inhibitor
+/ *NSAID*:  non-steroidal anti-inflammatory drug
+/ *NTS*:  nucleus tractus solitarius
+/ *OH*:  orthostatic hypotension
+/ *OI*:  orthostatic intolerance
+/ *PDH*:  pyruvate dehydrogenase
+/ *PDK*:  pyruvate dehydrogenase kinase
+/ *PEA*:  palmitoylethanolamide; PPAR-alpha agonist
+/ *PEM*:  post-exertional malaise
+/ *PFC*:  prefrontal cortex
+/ *PGD2*:  prostaglandin D2; mast-cell-derived prostaglandin
+/ *PGDS*:  prostaglandin D2 synthase
+/ *PGE2*:  prostaglandin E2
+/ *PGH2*:  prostaglandin H2; COX product and PGDS/PGES substrate
+/ *PIP2*:  phosphatidylinositol 4,5-bisphosphate
+/ *PKA*:  protein kinase A; cAMP-dependent kinase
+/ *PKC*:  protein kinase C
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *QUIN*:  quinolinic acid; N-methyl-D-aspartate receptor agonist from kynurenine pathway
+/ *REE*:  resting energy expenditure
+/ *RLS*:  restless legs syndrome
+/ *ROS*:  reactive oxygen species
+/ *RVLM*:  rostral ventrolateral medulla; primary sympathetic output nucleus
+/ *SA node*:  sinoatrial node
+/ *SC*:  supercomplex
+/ *SERT*:  serotonin transporter
+/ *sigma1R*:  sigma-1 receptor; endoplasmic reticulum chaperone regulating autophagy and ER stress
+/ *SkQ1*:  plastoquinonyl-decyl-triphenylphosphonium; mitochondrial-targeted antioxidant
+/ *SNRI*:  serotonin-norepinephrine reuptake inhibitor
+/ *SSRI*:  selective serotonin reuptake inhibitor
+/ *SV2A*:  synaptic vesicle glycoprotein 2A; levetiracetam binding site
+/ *TCA*:  tricarboxylic acid cycle
+/ *TLR4*:  Toll-like receptor 4
+/ *Treg*:  regulatory T cell; CD4+CD25+FoxP3+
+/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
+/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
+/ *TXA2*:  thromboxane A2; platelet-derived vasoconstrictor
+/ *VLM*:  ventrolateral medulla
+/ *VMAT2*:  vesicular monoamine transporter 2
+/ *WASF3*:  Wiskott-Aldrich syndrome protein family member 3; respiratory supercomplex assembly inhibitor
+
+
 === Five Diagnostic Patterns in Adverse Drug Reactions
 
 *Pattern 1 — Exaggerated therapeutic effect.* The target system was already operating at critical margin, and the drug pushes it over the edge.
@@ -91,4 +204,3 @@
 - *Corticosteroid non-response despite high inflammatory markers:* If CRP/ESR are elevated and corticosteroids produce no symptom improvement → the inflammation is steroid-resistant. Distinguish: (a) inflammasome-driven inflammation (NLRP3 → IL-1β, IL-18 — corticosteroids do not suppress the inflammasome; colchicine or anakinra would work); (b) complement-driven inflammation (C3a/C5a anaphylatoxins — corticosteroids do not suppress complement activation; C1 inhibitor or eculizumab would work); (c) mast-cell-driven inflammation (histamine, tryptase, prostaglandins — corticosteroids partially suppress but mast cell stabilizers are more specific); or (d) the inflammation is a downstream consequence, not the driver — treating it doesn't change the disease trajectory. Diagnostic: steroid non-response despite systemic inflammation shifts focus to inflammasome/complement/mast-cell pathways.
 - *Dimethyl fumarate (DMF) producing severe flushing or GI intolerance before Nrf2 benefit:* DMF activates Nrf2 (antioxidant master regulator). Flushing is prostaglandin D2-mediated from mast cell degranulation (DMF non-specifically activates hydroxycarboxylic acid receptor 2 on mast cells). If flushing is severe at 120 mg → mast cells are hyper-reactive. Pre-treat with aspirin (COX inhibitor, blocks PGD2 production) — if aspirin prevents DMF flushing, the mechanism is mast-cell PGD2 release, confirming MCAS. GI intolerance → gut Nrf2 activation causes initial oxidative shift in enterocytes; if GI symptoms persist beyond 2 weeks, gut mucosa cannot adapt. Diagnostic: DMF flushing is a mast cell probe. Mild flushing is expected and non-informative. Severe flushing → active MCAS. Flushing prevented by aspirin → confirms prostaglandin-mediated MCAS (PGD2 subtype), distinct from histamine-mediated MCAS.
 - *BC007 or immunoadsorption producing complete non-response:* Both remove GPCR autoantibodies (BC007 via aptamer neutralization, IA via physical removal). Complete non-response after adequate cycles implies: (a) GPCR AAbs are not present in this patient (should be confirmed by pre-treatment AAb panel), (b) GPCR AAbs are present but not rate-limiting — downstream damage is irreversible, or (c) the relevant AAbs are IgM (not removed by IA protein A columns) or rapidly regenerated from a protected plasma cell pool. If BC007 works where IA did not → the relevant AAbs are not removed by protein A columns (IgG3 subclass or IgA), or IA removed them but synthesis outpaced clearance — BC007 neutralizes faster than the body can produce new AAbs. If IA works where BC007 did not → the AAb target is not one of BC007's known aptamers (BC007 targets specific GPCR AAbs). Diagnostic: BC007 response vs IA response narrows the AAb subtype and identifies whether the dominant mechanism is circulating antibody or tissue-bound antibody.
-

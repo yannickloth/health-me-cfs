@@ -1,5 +1,14 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *ATP*:  adenosine triphosphate
+/ *ETC*:  electron transport chain
+/ *NAD⁺*:  nicotinamide adenine dinucleotide
+/ *OH*:  orthostatic hypotension
+/ *PARP*:  poly-ADP ribose polymerase
+
+
 ==== Step G3: Sirtuin, PARP, and CD38 — therapeutic targets or diagnostic probes?
 
 - *Resveratrol (150--500 mg, sirtuin activator):* SIRT1 and SIRT3 require NAD⁺. If resveratrol improves mitochondrial function → sirtuin activation promotes mitochondrial biogenesis (SIRT1→PGC-1α) and ETC efficiency (SIRT3 deacetylates Complex I and II). If resveratrol worsens fatigue → sirtuins are already consuming NAD⁺ at maximal rate, and further activation depletes NAD⁺ below critical threshold.
@@ -8,4 +17,3 @@
 
 *Consequence:* The NAD⁺ cascade is the most biochemically measurable energy cascade in the chapter — NAD⁺/NADH ratio, kynurenine/tryptophan ratio, CD38 levels, and 8-OHdG (oxidative DNA damage) are all clinical-lab measurable. The diagnostic sequence: (1) measure baseline NAD⁺ and kynurenine/tryptophan ratio; (2) NMN/NR trial → NAD⁺ rise = synthesis pathway functional; NAD⁺ rise without symptomatic improvement = consumption rate equals supplementation rate or NAD⁺ is not rate-limiting; (3) If NMN/NR null → check CD38 and PARP markers → treat the dominant consumer (CD38 inhibitor, antioxidant for PARP); (4) If NMN/NR + CD38 inhibitor produces NAD⁺ rise but no symptomatic benefit → NAD⁺ is not the metabolic bottleneck — the block is in ETC Complex I or downstream ATP synthesis. This cascade benefits most from serum biomarker correlation — the biochemical measurements validate the pharmocodiagnostic logic.
 *Origin:* mechanistic-pathway-tracing.
-

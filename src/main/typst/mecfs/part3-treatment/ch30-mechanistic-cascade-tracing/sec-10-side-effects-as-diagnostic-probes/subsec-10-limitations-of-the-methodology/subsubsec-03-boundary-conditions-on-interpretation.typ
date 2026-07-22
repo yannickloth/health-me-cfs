@@ -1,5 +1,11 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *LDN*:  low-dose naltrexone
+/ *TLR4*:  Toll-like receptor 4
+
+
 ==== Boundary Conditions on Interpretation
 
 - *The same drug may have different mechanisms at different doses in different patients:* LDN is TLR4 antagonist at 0.5--4.5 mg in most patients, but in a patient with OPRM1 polymorphism, it may be primarily an opioid antagonist. The diagnostic inference from LDN response depends on which mechanism is dominant in that patient — which is unknown without genotyping or mechanistic dissection.
@@ -9,4 +15,3 @@
 
 *Consequence:* The framework is a structured approach to diagnostic pharmacology, but it rests on assumptions that have not been validated. A null response does not guarantee the mechanism is absent — it may be present but hidden by network redundancy, drug access failure, or measurement error. Every diagnostic inference from this chapter should carry the chapter's certainty range (0.25--0.40 for mechanistic inference, 0.10 for Gerlier, and lower for the extensions in sections @sec:beyond-binary through @sec:metabolic-cost). The framework is a hypothesis generator, not a validated diagnostic system.
 *Origin:* methodological audit of the chapter's logic.
-

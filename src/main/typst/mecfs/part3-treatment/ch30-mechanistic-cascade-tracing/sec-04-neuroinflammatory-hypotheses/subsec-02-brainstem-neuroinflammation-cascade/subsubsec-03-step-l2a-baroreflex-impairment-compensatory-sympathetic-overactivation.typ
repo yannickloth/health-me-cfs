@@ -1,5 +1,16 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *BP*:  blood pressure
+/ *HR*:  heart rate
+/ *NE*:  norepinephrine
+/ *NTS*:  nucleus tractus solitarius
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *SA node*:  sinoatrial node
+/ *VLM*:  ventrolateral medulla
+
+
 ==== Step L2a: Baroreflex impairment → compensatory sympathetic overactivation
 
 *Probe:* Clonidine (α2 agonist, 0.05--0.1 mg). Clonidine activates α2 receptors in the NTS and VLM → suppresses central sympathetic outflow. This is the most specific probe for brainstem-level sympathetic dysfunction.
@@ -11,4 +22,3 @@
 *If clonidine produces no hemodynamic effect at all:* The brainstem α2 receptors are desensitized from chronic NE overstimulation (consistent with hyperadrenergic state) OR the sympathetic overactivation is not brainstem-mediated (it is peripheral — neuropathic POTS with compensatory sympathetic activation baroreflex-mediated, not brainstem pathology-driven). The null clonidine response in the presence of sympathetic overactivation suggests peripheral (baroreflex compensation), not central (brainstem dysregulation), drive.
 
 *Ivabradine vs. clonidine differential:* If ivabradine (HR reduction at SA node) normalizes HR → the tachycardia is from excessive sympathetic drive on the SA node, but the baroreflex is intact enough to maintain BP when HR is normalized. If ivabradine normalizes HR but clonidine crashes BP → the brainstem sympathetic output is compensatory for another deficit (hypovolemia, venous pooling), and suppressing it centrally (clonidine) removes necessary compensation while HR reduction peripherally (ivabradine) does not.
-

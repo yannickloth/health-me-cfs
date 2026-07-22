@@ -1,5 +1,53 @@
 #import "../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *AAb*:  autoantibody
+/ *ANT*:  adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
+/ *ATP*:  adenosine triphosphate
+/ *BP*:  blood pressure
+/ *CAP*:  cholinergic anti-inflammatory pathway
+/ *CCI*:  craniocervical instability
+/ *CNS*:  central nervous system
+/ *COMPASS-31*:  Composite Autonomic Symptom Score
+/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
+/ *CRP*:  C-reactive protein
+/ *DA*:  dopamine
+/ *DBH*:  dopamine-beta-hydroxylase
+/ *DNRI*:  dopamine-norepinephrine reuptake inhibitor
+/ *EBV*:  Epstein-Barr virus
+/ *ESR*:  erythrocyte sedimentation rate
+/ *ETC*:  electron transport chain
+/ *FAO*:  fatty acid oxidation
+/ *GI*:  gastrointestinal
+/ *GPCR*:  G protein-coupled receptor
+/ *HHV-6*:  human herpesvirus 6
+/ *HPA*:  hypothalamic-pituitary-adrenal axis
+/ *HR*:  heart rate
+/ *HSC*:  haematopoietic stem cell
+/ *IA*:  immunoadsorption
+/ *IFN-γ*:  interferon gamma
+/ *IVIG*:  intravenous immunoglobulin
+/ *LDN*:  low-dose naltrexone
+/ *MCAS*:  mast cell activation syndrome
+/ *NAC*:  N-acetylcysteine
+/ *NE*:  norepinephrine
+/ *NRI*:  norepinephrine reuptake inhibitor
+/ *NSAID*:  non-steroidal anti-inflammatory drug
+/ *NTS*:  nucleus tractus solitarius
+/ *PDH*:  pyruvate dehydrogenase
+/ *PEM*:  post-exertional malaise
+/ *PFC*:  prefrontal cortex
+/ *PIP2*:  phosphatidylinositol 4,5-bisphosphate
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *ROS*:  reactive oxygen species
+/ *SC*:  supercomplex
+/ *taVNS*:  transcutaneous auricular vagus nerve stimulation
+/ *TLR4*:  Toll-like receptor 4
+/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
+/ *VMAT2*:  vesicular monoamine transporter 2
+
+
 == Synthesis: Differential Diagnostic Algorithm (Extended)
 <sec:synthesis-algorithm-extended>
 
@@ -188,5 +236,3 @@ The Gerlier model predicts that Pathways 1--4 converge on the dopaminergic syste
 
 *Consequence:* This extended algorithm incorporates all dimensions developed in this chapter — binary response, effect magnitude, onset latency, response duration, dose-response slope, side-effect patterns, drug-drug interactions (synergy, antagonism, sequential ordering, prerequisites, contraindications), endogenous probes, the null matrix formalism, and the PEM budget constraint. Step 0 audits data the patient has already generated — no new trials required. Step 2 unfolds neuroinflammation source through a nested decision tree (taVNS → ketotifen → steroid → antiviral vs. autoimmune). Step 5 maps the mechanical axis from pelvis to cranium and tests the Gerlier model's dopaminergic convergence prediction through the shoe-lift/aripiprazole combination — the chapter's only hypothesis-specific validation probe. The goal is unchanged: localize the lesion through diagnostic pharmacology. But the method is now multi-dimensional — every drug trial generates a vector of diagnostic information, not a binary output. Treatment as measurement.
 *Origin:* mechanistic-pathway-tracing, extended 2026-07-22.
-
-

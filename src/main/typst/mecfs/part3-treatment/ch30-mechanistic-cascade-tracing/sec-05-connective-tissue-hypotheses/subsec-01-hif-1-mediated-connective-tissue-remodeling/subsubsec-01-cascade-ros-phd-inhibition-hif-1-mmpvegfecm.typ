@@ -1,5 +1,17 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *DMF*:  dimethyl fumarate
+/ *ECM*:  extracellular matrix
+/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
+/ *MMP*:  matrix metalloproteinase
+/ *NAC*:  N-acetylcysteine
+/ *Nrf2*:  nuclear factor erythroid 2-related factor 2; antioxidant master regulator
+/ *ROS*:  reactive oxygen species
+/ *VEGF*:  vascular endothelial growth factor
+
+
 ==== Cascade: ROS → PHD inhibition → HIF-1α → MMP/VEGF/ECM
 
 *Cascade:*
@@ -21,4 +33,3 @@
 
 *Consequence:* Vitamin C + NAC response distinguishes metabolic/ROS-driven connective tissue weakness from genetic (EDS). If timed cofactors restore collagen, the weakness is acquired and potentially reversible.
 *Origin:* mechanistic-pathway-tracing.
-

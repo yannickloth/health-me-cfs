@@ -1,5 +1,30 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *AADC*:  aromatic L-amino acid decarboxylase; converts L-DOPA to dopamine
+/ *ATP*:  adenosine triphosphate
+/ *CNS*:  central nervous system
+/ *DA*:  dopamine
+/ *DAT*:  dopamine transporter
+/ *DBH*:  dopamine-beta-hydroxylase
+/ *DORA*:  dual orexin receptor antagonist
+/ *HR*:  heart rate
+/ *LC-NE*:  locus coeruleus-norepinephrine
+/ *LDN*:  low-dose naltrexone
+/ *MCAS*:  mast cell activation syndrome
+/ *NE*:  norepinephrine
+/ *NMDA*:  N-methyl-D-aspartate
+/ *NRI*:  norepinephrine reuptake inhibitor
+/ *OH*:  orthostatic hypotension
+/ *OI*:  orthostatic intolerance
+/ *PEA*:  palmitoylethanolamide; PPAR-alpha agonist
+/ *PEM*:  post-exertional malaise
+/ *PFC*:  prefrontal cortex
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *SNRI*:  serotonin-norepinephrine reuptake inhibitor
+
+
 === Pattern 6 — Symptom-Specific Dissociation
 <sec:pattern-dissociation>
 
@@ -25,4 +50,3 @@ A drug may improve one symptom while leaving another untouched, or worsen one wh
 
 *Consequence:* When a drug improves symptom X but not Y, the two symptoms are mechanistically distinct in that patient. This is one of the highest-information outputs of a single drug trial — it traces the causal architecture of the symptom complex without any additional testing. Track which symptom improved, which didn't, and which worsened: the pattern maps the causal topology.
 *Origin:* mechanistic-pathway-tracing.
-

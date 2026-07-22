@@ -1,5 +1,20 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *DA*:  dopamine
+/ *DDR*:  discoidin domain receptor
+/ *DORA*:  dual orexin receptor antagonist
+/ *ECM*:  extracellular matrix
+/ *LC-NE*:  locus coeruleus-norepinephrine
+/ *LDN*:  low-dose naltrexone
+/ *NE*:  norepinephrine
+/ *NMDA*:  N-methyl-D-aspartate
+/ *RAGE*:  receptor for advanced glycation end-products
+/ *S100B*:  S100 calcium-binding protein B; astrocyte damage marker
+/ *TLR4*:  Toll-like receptor 4
+
+
 ==== Step M3: Neurotoxin accumulation → sustained neuroinflammation
 
 *Mechanism:* Accumulated waste products are pro-inflammatory: quinolinic acid → NMDA excitotoxicity; S100B → RAGE receptor activation on microglia → sustained microglial activation; amyloid-β → TLR4 activation; ECM fragments → integrin and DDR receptor activation on astrocytes → reactive astrogliosis. The result: glymphatic failure produces neuroinflammation, which itself impairs glymphatic flow (inflammatory cytokines suppress AQP4 expression and disrupt astrocyte endfeet) → a self-sustaining loop: inflammation → impaired glymphatic → waste accumulation → more inflammation.
@@ -10,5 +25,3 @@
 
 *Consequence:* The glymphatic cascade is uniquely probeable through temporal patterns — morning vs. evening symptom severity, continuous vs. episodic drug benefit, sleep position effects. The key diagnostic sequence: (1) optimize sleep position (zero cost, zero risk) → if morning symptoms improve, mechanical drainage was the bottleneck; (2) add bedtime melatonin or LDN → if further improvement, LC-NE overactivity or neuroinflammation was impairing glymphatic flow; (3) if DORA worsens morning symptoms despite more sleep → glymphatic-per-hour is reduced; discontinue DORA. The temporal pattern of LDN benefit (morning-only vs. all-day) distinguishes glymphatic from anti-inflammatory mechanisms. A patient who wakes with severe headache that improves by noon and responds to supine position + LDN has glymphatic failure confirmed by three independent probes (temporal pattern + mechanical intervention + pharmacological intervention).
 *Origin:* mechanistic-pathway-tracing.
-
-

@@ -1,5 +1,22 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *ATP*:  adenosine triphosphate
+/ *cAMP*:  cyclic adenosine monophosphate
+/ *CCI*:  craniocervical instability
+/ *CNS*:  central nervous system
+/ *DA*:  dopamine
+/ *DAT*:  dopamine transporter
+/ *DBH*:  dopamine-beta-hydroxylase
+/ *LDN*:  low-dose naltrexone
+/ *NE*:  norepinephrine
+/ *NET*:  norepinephrine transporter
+/ *NMDA*:  N-methyl-D-aspartate
+/ *PFC*:  prefrontal cortex
+/ *PKA*:  protein kinase A; cAMP-dependent kinase
+
+
 ==== Cascade: Gerlier 4-pathway convergence at the CNS dopaminergic system:
 Pathway 1 (muscle overuse) → ATP drain → microglial activation → basal ganglia dopamine synthesis impairment
 Pathway 2 (sympathetic chain) → NE overdrive → DBH overactivity → dopamine pool depletion → inability to synthesize dopamine for basal ganglia and PFC
@@ -26,5 +43,3 @@ A patient with skeletal asymmetry showing dramatic improvement on low-dose aripi
 
 *Consequence:* Aripiprazole response in a patient with documented skeletal asymmetry AND positive shoe lift trial represents multi-level evidence for the Gerlier model. However, aripiprazole-positive/shoe-lift-negative patterns are also predicted by better-supported models. Diagnostic specificity comes from the COMBINATION of mechanical AND dopaminergic probes.
 *Origin: Gerlier 2026-07-21; dopaminergic convergence tracing by mechanistic inference.*
-
-

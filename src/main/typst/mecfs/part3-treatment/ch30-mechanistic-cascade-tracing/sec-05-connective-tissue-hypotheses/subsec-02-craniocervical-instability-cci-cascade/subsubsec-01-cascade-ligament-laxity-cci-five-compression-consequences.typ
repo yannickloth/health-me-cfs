@@ -1,5 +1,17 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *AAb*:  autoantibody
+/ *CCI*:  craniocervical instability
+/ *CSF*:  cerebrospinal fluid
+/ *GPCR*:  G protein-coupled receptor
+/ *hEDS*:  hypermobile Ehlers-Danlos syndrome
+/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
+/ *MMP*:  matrix metalloproteinase
+/ *POTS*:  postural orthostatic tachycardia syndrome
+
+
 ==== Cascade: Ligament laxity → CCI → five compression consequences
 
 *Cascade:*
@@ -23,4 +35,3 @@
 
 *Consequence:* Cervical collar response is the highest-yield diagnostic probe for CCI. Differential between collar response for dizziness vs. orthostatic symptoms distinguishes brainstem compression from non-mechanical autonomic dysfunction, guiding treatment toward surgery vs. immunomodulation.
 *Origin:* mechanistic-pathway-tracing.
-

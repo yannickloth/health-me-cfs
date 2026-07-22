@@ -1,5 +1,15 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *DCA*:  dichloroacetate; pyruvate dehydrogenase kinase inhibitor
+/ *ETC*:  electron transport chain
+/ *LDN*:  low-dose naltrexone
+/ *NAD⁺*:  nicotinamide adenine dinucleotide
+/ *PDH*:  pyruvate dehydrogenase
+/ *PDK*:  pyruvate dehydrogenase kinase
+
+
 ==== Step E3: Lactate accumulation and anaerobic shift (metabolic consequence)
 
 *Mechanism:* PDH block → pyruvate → lactate. Lactate is measurable in real time with a handheld meter (fingerstick). Serial lactate measurements at standardized submaximal workloads (e.g., walking at 1 mph for 5 minutes) before and after interventions provide objective pharmacodynamic data — does the drug reduce lactate at a fixed workload?
@@ -12,4 +22,3 @@
 
 *Consequence:* The PDH cascade is the most objectively measurable in the chapter — lactate is quantifiable with a \$50 handheld meter. The diagnostic sequence: (1) measure resting and exertional lactate; (2) LDN trial → lactate reduction = inflammatory PDK; (3) thiamine trial → lactate reduction = cofactor deficiency; (4) pyridostigmine trial → lactate reduction = perfusion deficit; (5) DCA trial → definitive test of PDH phosphorylation as rate-limiting. The combination of lactate measurement + drug probes converts PDH tracing from subjective symptom report to pharmacometabolic assay. A patient who produces lactate above 4 mmol/L at 50 watts on a stationary bike and drops to 2 mmol/L on thiamine has had their PDH cofactor status measured without a muscle biopsy.
 *Origin:* mechanistic-pathway-tracing.
-

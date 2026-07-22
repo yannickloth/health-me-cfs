@@ -1,5 +1,16 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
+/ *CSF*:  cerebrospinal fluid
+/ *HR*:  heart rate
+/ *IDO*:  indoleamine 2,3-dioxygenase
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *SSRI*:  selective serotonin reuptake inhibitor
+/ *TPH2*:  tryptophan hydroxylase 2; central nervous system serotonin synthesis enzyme (raphe nuclei)
+
+
 ==== Step H2a: Serotonin depletion (the 5-HT arm)
 
 *Mechanism:* With ~95% of tryptophan diverted to kynurenine, serotonin synthesis in raphe neurons is starved of precursor. Tryptophan hydroxylase 2 (TPH2, the brain-specific isoform) converts tryptophan to 5-HTP. If tryptophan levels in CSF are low (documented in ME/CFS), serotonin synthesis drops proportionally. Consequences: reduced serotonin → (a) impaired descending pain inhibition in the periaqueductal gray and rostroventral medulla → widespread pain amplification; (b) reduced 5-HT1A and 5-HT2A signaling in prefrontal cortex and limbic system → depression, anxiety; (c) reduced 5-HT-mediated regulation of sleep-wake cycle (raphe projections to suprachiasmatic nucleus and thalamus → insomnia, fragmented sleep).
@@ -10,4 +21,3 @@
 - *Tryptophan vs. 5-HTP differential:* If 5-HTP works but tryptophan does NOT work (or worsens) → TPH2 is functional (converts 5-HTP → serotonin) but tryptophan is preferentially shunted to kynurenine (IDO is saturated). This pattern specifically confirms IDO saturation.
 - *SSRIs (fluoxetine, sertraline, escitalopram):* Block serotonin reuptake → increase synaptic 5-HT. If SSRIs improve mood and pain → serotonin reuptake was excessive relative to the reduced serotonin pool, and blocking reuptake increases synaptic 5-HT sufficiently. If SSRIs produce no improvement → the serotonin pool is so depleted that blocking reuptake adds nothing (there is nothing being released to reuptake). If SSRIs worsen symptoms → serotonin syndrome (rare) or the serotonin increase triggers compensatory downregulation of postsynaptic 5-HT receptors. WARNING: SSRIs may worsen POTS hemodynamically @mar2014ssripots — the serotonergic system modulates sympathetic outflow, and increasing 5-HT can exacerbate tachycardia in POTS patients. Start at minimal dose; monitor HR and orthostatic tolerance.
 - *Buspirone (5-HT1A partial agonist, 5--15 mg TID):* Directly stimulates 5-HT1A receptors (anxiolytic, antidepressant) and 5-HT1A autoreceptors on raphe neurons (reducing serotonin release — paradoxically anxiolytic). If buspirone works → 5-HT1A receptor signaling is intact but insufficiently activated by endogenous serotonin. More specific than SSRIs — targets the receptor, not the reuptake transporter.
-

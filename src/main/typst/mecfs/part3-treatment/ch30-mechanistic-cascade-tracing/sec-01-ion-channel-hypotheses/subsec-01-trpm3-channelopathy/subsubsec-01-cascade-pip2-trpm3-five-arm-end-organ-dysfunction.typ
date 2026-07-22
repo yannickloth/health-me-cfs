@@ -1,5 +1,40 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
+/ *AAb*:  autoantibody
+/ *ACh*:  acetylcholine
+/ *AChE*:  acetylcholinesterase
+/ *BP*:  blood pressure
+/ *Ca²⁺*:  calcium ion
+/ *CNS*:  central nervous system
+/ *CYP*:  cytochrome P450
+/ *DA*:  dopamine
+/ *GI*:  gastrointestinal
+/ *GPCR*:  G protein-coupled receptor
+/ *Gαq*:  G protein alpha-q subunit; activates PLC-β
+/ *HR*:  heart rate
+/ *IA*:  immunoadsorption
+/ *IgG*:  immunoglobulin G
+/ *IMPase*:  inositol monophosphatase; lithium target in phosphatidylinositol 4,5-bisphosphate resynthesis
+/ *IVIG*:  intravenous immunoglobulin
+/ *LDN*:  low-dose naltrexone
+/ *NE*:  norepinephrine
+/ *NK cell*:  natural killer cell
+/ *NRI*:  norepinephrine reuptake inhibitor
+/ *NTS*:  nucleus tractus solitarius
+/ *PEM*:  post-exertional malaise
+/ *PIP2*:  phosphatidylinositol 4,5-bisphosphate
+/ *PLC-β*:  phospholipase C beta
+/ *SA node*:  sinoatrial node
+/ *TLR4*:  Toll-like receptor 4
+/ *TRPC*:  transient receptor potential canonical
+/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
+/ *TRPM7*:  transient receptor potential melastatin 7
+/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
+
+
 ==== Cascade: PIP2 → TRPM3 → five-arm end-organ dysfunction
 
 *Cascade:*
@@ -55,4 +90,3 @@
 
 *Consequence:* TRPM3 is the most pharmacologically probe-able ion channel in ME/CFS. Ten drugs at five distinct steps (lithium at PIP2, LDN/pregnenolone at channel, cimetidine/IVIG at NK cells, pyridostigmine/atomoxetine/5-HTP at neurotransmitter release, midodrine/ivabradine at vasculature) map the lesion along the PIP2→TRPM3→cell-type axis. The pattern of which drugs work and which do not localizes whether the defect is upstream (PIP2, treat AAb source), at the channel (TRPM3 gating, treat with LDN/pregnenolone), or cell-type-specific (NK cells → immunomodulation; synapses → neurotransmitter support; vasculature → vasoconstrictors). The onset latency of LDN response (under 48h suggests TRPM3, 3--6 weeks suggests endorphin/TLR4 — with limited specificity; placebo and expectation effects also onset within 48h) further distinguishes channel from inflammatory mechanisms.
 *Origin:* mechanistic-pathway-tracing, Gerlier 2026-07-21 prompt.
-

@@ -1,5 +1,23 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *ATP*:  adenosine triphosphate
+/ *Ca²⁺*:  calcium ion
+/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
+/ *DA*:  dopamine
+/ *DAMI*:  dopaminergic asymmetry measurement index (composite: striatal fluorodeoxyglucose PET, Composite Autonomic Symptom Score, aripiprazole slope)
+/ *IL*:  interleukin
+/ *ILMI*:  ipsilateral limb metabolic index (FDG-PET comparison of left vs right limb glucose uptake)
+/ *LDN*:  low-dose naltrexone
+/ *NAD⁺*:  nicotinamide adenine dinucleotide
+/ *NCLX*:  mitochondrial sodium/calcium/lithium exchanger
+/ *NCX1*:  Na⁺/Ca²⁺ exchanger 1
+/ *NHE1*:  Na⁺/H⁺ exchanger 1
+/ *PEM*:  post-exertional malaise
+/ *TLR4*:  Toll-like receptor 4
+
+
 ==== Cascade: Skeletal asymmetry → muscle overuse → ATP drain → PEM
 
 *Cascade:*
@@ -22,4 +40,3 @@
 
 *Step G1c:* Anaerobic shift / Na⁺-Ca²⁺ cascade
 - *Intercept:* MDC002/Mitodicure (NHE1 + NCLX modulator; investigational mitochondrial therapy) — targets NHE1 + NCLX @sec:mdc002
-

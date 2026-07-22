@@ -1,5 +1,14 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *DA*:  dopamine
+/ *DAT*:  dopamine transporter
+/ *GABA*:  gamma-aminobutyric acid
+/ *IgE*:  immunoglobulin E
+/ *MCAS*:  mast cell activation syndrome
+
+
 ==== Menstrual Cycle as Dopaminergic and Mast Cell Probe
 
 Estrogen is dopaminergic (enhances DA synthesis via tyrosine hydroxylase upregulation, reduces DA reuptake via DAT downregulation) and mast-cell-stabilizing (reduces IgE-mediated degranulation). Progesterone is GABAergic (allopregnanolone metabolite — positive allosteric modulator of GABA-A) and can trigger mast cell degranulation in sensitive individuals (estrogen withdrawal at luteal phase onset).
@@ -9,4 +18,3 @@ Estrogen is dopaminergic (enhances DA synthesis via tyrosine hydroxylase upregul
 - *Perimenstrual worsening (days 1--3):* Estrogen and progesterone both drop. If this is the worst period → both systems were compensating — estrogen for DA/MCAS, progesterone for GABA. The simultaneous withdrawal unmasks deficits in both. If perimenstrual worsening is dramatic → hormone sensitivity is high; consider continuous oral contraception (eliminate cycling) as a diagnostic probe.
 - *No menstrual variation:* The dopamine and mast cell systems are either non-hormonally responsive, or the pathology is severe enough that hormonal modulation is insufficient to move symptoms. The null does not rule out DA or MCAS pathology — it rules out hormonal sensitivity of those systems.
 - *Cycle phase at onset predicts mechanism:* If ME/CFS onset occurred during luteal phase → progesterone-triggered immune shift (Th2 dominance) or mast cell event may have been the precipitant. If onset during perimenstrual phase → estrogen withdrawal unmasked a latent DA deficiency that the preceding follicular estrogen had been compensating for.
-

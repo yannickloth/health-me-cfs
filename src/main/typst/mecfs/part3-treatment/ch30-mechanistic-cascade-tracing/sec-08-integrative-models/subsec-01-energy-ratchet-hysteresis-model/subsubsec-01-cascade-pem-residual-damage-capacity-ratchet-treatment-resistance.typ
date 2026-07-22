@@ -1,5 +1,17 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
+/ *HR*:  heart rate
+/ *HSC*:  haematopoietic stem cell
+/ *mTORC1*:  mechanistic target of rapamycin complex 1
+/ *NAC*:  N-acetylcysteine
+/ *PEM*:  post-exertional malaise
+/ *SC*:  supercomplex
+/ *Treg*:  regulatory T cell; CD4+CD25+FoxP3+
+
+
 ==== Cascade: PEM → residual damage → capacity ratchet → treatment resistance
 
 *Cascade:*
@@ -18,4 +30,3 @@
 
 *Consequence:* Temporal probe: same intervention succeeding in recently-ill but failing in long-duration patient suggests the ratchet has hardened the disease state. Argues for early aggressive intervention.
 *Origin:* mechanistic-pathway-tracing.
-

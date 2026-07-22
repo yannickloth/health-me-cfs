@@ -1,5 +1,14 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *ETC*:  electron transport chain
+/ *MCAS*:  mast cell activation syndrome
+/ *NAD⁺*:  nicotinamide adenine dinucleotide
+/ *OH*:  orthostatic hypotension
+/ *PARP*:  poly-ADP ribose polymerase
+
+
 ==== Step G2: NAD⁺ synthesis vs. consumption — which is the dominant mechanism?
 
 *Probes for synthesis:*
@@ -13,4 +22,3 @@
   2. *CD38 overactivation:* If NMN/NR produces no benefit but serum CD38 is elevated (measurable) → CD38 is degrading NAD⁺. CD38 inhibitors (apigenin, quercetin, luteolin — flavonoids) reduce CD38 activity. If apigenin + NMN/NR works where NMN/NR alone does NOT → CD38-mediated degradation is the dominant NAD⁺ sink.
   3. *Sirtuin overactivation:* If NMN/NR provides initial benefit (first 2 weeks) but then stops (tachyphylaxis) → sirtuins are consuming the supplemented NAD⁺ as quickly as it is provided. The NAD⁺ deficiency is sirtuin-consumption-driven. Resveratrol (sirtuin activator) would worsen symptoms; nicotinamide (sirtuin inhibitor) may help by reducing consumption.
   4. *Downstream ETC failure:* If NMN/NR produces no benefit AND CD38 is normal AND PARP markers are low → NAD⁺ is not the bottleneck. The metabolic block is downstream of NAD⁺ — ETC Complex I is dysfunctional despite adequate NAD⁺ substrate.
-

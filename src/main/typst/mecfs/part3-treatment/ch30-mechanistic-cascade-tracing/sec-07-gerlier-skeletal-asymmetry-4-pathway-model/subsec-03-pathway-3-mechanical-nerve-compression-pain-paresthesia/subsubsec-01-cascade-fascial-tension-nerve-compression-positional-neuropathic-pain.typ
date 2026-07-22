@@ -1,5 +1,11 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *LDN*:  low-dose naltrexone
+/ *TLR4*:  Toll-like receptor 4
+
+
 ==== Cascade: Fascial tension → nerve compression → positional neuropathic pain
 
 *Cascade:*
@@ -16,4 +22,3 @@
 - *Intercept:* LDN (low-dose naltrexone; TLR4 antagonist); Low-dose amitriptyline (5--10 mg; tricyclic antidepressant at microdose); Gabapentin/pregabalin (α2δ calcium channel ligands; gabapentinoids)
 - *If LDN works for pain but shoe lift does NOT:* Central sensitization is the bottleneck — peripheral trigger correction is insufficient.
 - *If shoe lift + LDN works better than either alone:* Dual pathology — peripheral mechanical trigger AND central sensitization amplifier.
-

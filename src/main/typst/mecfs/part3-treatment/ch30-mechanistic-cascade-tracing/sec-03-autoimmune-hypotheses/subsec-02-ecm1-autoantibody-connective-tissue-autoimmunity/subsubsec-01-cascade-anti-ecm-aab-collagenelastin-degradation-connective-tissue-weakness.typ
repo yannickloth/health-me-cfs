@@ -1,5 +1,16 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *AAb*:  autoantibody
+/ *CCI*:  craniocervical instability
+/ *DMF*:  dimethyl fumarate
+/ *ECM*:  extracellular matrix
+/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
+/ *MMP*:  matrix metalloproteinase
+/ *Nrf2*:  nuclear factor erythroid 2-related factor 2; antioxidant master regulator
+
+
 ==== Cascade: Anti-ECM AAb → collagen/elastin degradation → connective tissue weakness
 
 *Cascade:*
@@ -17,5 +28,3 @@
 
 *Consequence:* Doxycycline (MMP-9 inhibitor) combined with DMF (HIF-1α inhibitor) distinguishes mast-cell-driven from hypoxic-transcriptional ECM degradation.
 *Origin:* mechanistic-pathway-tracing.
-
-

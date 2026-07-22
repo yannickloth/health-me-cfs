@@ -1,5 +1,12 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *NE*:  norepinephrine
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *RAAS*:  renin-angiotensin-aldosterone system
+
+
 ==== Step Q3: Hypovolemic POTS Probe
 
 *Probe:* Fludrocortisone (0.1--0.2 mg/day) — synthetic mineralocorticoid, expands plasma volume by increasing renal sodium and water retention. Increased salt (6--10 g/day) + water (3 L/day). IV saline (1--2 L, acute diagnostic probe — if symptoms resolve within hours of saline infusion, hypovolemia is confirmed and the response magnitude estimates the volume deficit).
@@ -14,4 +21,3 @@
 
 *Consequence:* Supine/standing NE levels + midodrine response + fludrocortisone response + ivabradine vs. beta-blocker differential completely distinguish the three POTS subtypes. The subtype dictates treatment: neuropathic → midodrine, pyridostigmine, compression; hyperadrenergic → ivabradine (preferred over beta-blockers to preserve β2-AR metabolic function), clonidine/guanfacine for central suppression; hypovolemic → fludrocortisone, salt, water, IV saline. Mixed subtype → combined treatment. Wrong subtype treatment → clinical worsening (beta-blockers in neuropathic POTS remove the compensatory tachycardia without fixing venous pooling → worsened orthostatic tolerance; midodrine in hyperadrenergic POTS adds vasoconstriction to an already-vasoconstricted system → worsened hypertension and headache). Subtype-specific pharmacology is the highest-yield application of the cascade-tracing methodology in this chapter — directly guides treatment with immediate clinical consequences.
 *Origin:* mechanistic-pathway-tracing.
-

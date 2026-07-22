@@ -1,5 +1,17 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *ANT*:  adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
+/ *ATP*:  adenosine triphosphate
+/ *ETC*:  electron transport chain
+/ *FAO*:  fatty acid oxidation
+/ *PDH*:  pyruvate dehydrogenase
+/ *PEM*:  post-exertional malaise
+/ *TCA*:  tricarboxylic acid cycle
+/ *WASF3*:  Wiskott-Aldrich syndrome protein family member 3; respiratory supercomplex assembly inhibitor
+
+
 ==== Meals as Metabolic Substrate Probes
 
 Every meal is a metabolic stress test. The composition determines which energy pathway is challenged:
@@ -10,4 +22,3 @@ Every meal is a metabolic stress test. The composition determines which energy p
 - *Protein-only meal → crash:* Amino acids enter TCA at multiple points and also require gluconeogenesis for glucose maintenance. If protein worsens symptoms → gluconeogenesis is impaired (liver mitochondrial dysfunction) or amino acid catabolism produces ammonia that a compromised liver cannot clear. Diagnostic: hepatic mitochondrial dysfunction or urea cycle impairment.
 - *Fasting improves symptoms:* The metabolic defect is substrate-driven — providing any substrate (glucose, fat, protein) overloads a compromised metabolic pathway. Fasting removes the substrate load → the pathway is no longer stressed → symptoms improve. Diagnostic: the metabolic lesion is substrate flux-dependent, not intrinsic. Consistent with a bottleneck at a shared downstream node (ETC, ATP synthase, ANT) that all substrates must pass through. Fasting tolerance identifies the bottleneck as post-substrate-convergence.
 - *Fasting worsens symptoms:* The metabolic defect is substrate-deficit — the patient cannot store or mobilize energy between meals. Hypoglycemia, impaired gluconeogenesis, or impaired fatty acid mobilization. Diagnostic: the lesion is in energy storage/mobilization (liver glycogen, adipose lipolysis), not in mitochondrial utilization. Small, frequent meals with mixed macronutrients should be trialed.
-

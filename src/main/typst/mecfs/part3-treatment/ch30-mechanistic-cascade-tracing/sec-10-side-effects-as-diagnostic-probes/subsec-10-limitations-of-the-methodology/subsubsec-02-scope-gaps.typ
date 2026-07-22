@@ -1,5 +1,14 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *CNS*:  central nervous system
+/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
+/ *DRG*:  dorsal root ganglion
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *SIBO*:  small intestinal bacterial overgrowth
+
+
 ==== Scope Gaps
 
 The framework does not address:
@@ -11,4 +20,3 @@ The framework does not address:
 - *Deconditioning as confound:* A patient who has been bedbound for years has cardiovascular deconditioning that produces orthostatic intolerance independent of autonomic pathology. Midodrine may partially work (increasing vascular tone in deconditioned vessels), but the response does not confirm neuropathic POTS — it may be compensating for deconditioning. The framework cannot distinguish deconditioning from primary autonomic failure.
 - *Age and sex effects:* Drug metabolism, receptor density, and hormonal milieu differ by age and sex. The framework's dose assumptions are based on adult physiology. Pediatric, perimenopausal, and geriatric patients may have altered pharmacokinetics that produce false nulls or false positives at standard doses.
 - *Non-pharmacological interventions:* Physical therapy, cognitive behavioral approaches, pacing, and graded exercise are not pharmacological probes — but their effects also carry diagnostic information that the framework does not capture. A patient who improves with pacing but not with any drug has a lesion that is behavioural/energetic, not pharmacological.
-

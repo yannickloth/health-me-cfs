@@ -1,5 +1,105 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
+/ *AAb*:  autoantibody
+/ *AADC*:  aromatic L-amino acid decarboxylase; converts L-DOPA to dopamine
+/ *ACh*:  acetylcholine
+/ *AChE*:  acetylcholinesterase
+/ *AChR*:  acetylcholine receptor
+/ *ALA*:  alpha-lipoic acid; antioxidant and pyruvate dehydrogenase cofactor
+/ *AMPK*:  AMP-activated protein kinase; cellular energy sensor
+/ *ATP*:  adenosine triphosphate
+/ *BP*:  blood pressure
+/ *CCI*:  craniocervical instability
+/ *CNS*:  central nervous system
+/ *COMT*:  catechol-O-methyltransferase; catecholamine degrading enzyme
+/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
+/ *COX-2*:  cyclooxygenase-2
+/ *CYP*:  cytochrome P450
+/ *CysLT1*:  cysteinyl leukotriene receptor type 1; montelukast target
+/ *DA*:  dopamine
+/ *DAT*:  dopamine transporter
+/ *DCA*:  dichloroacetate; pyruvate dehydrogenase kinase inhibitor
+/ *DHEA*:  dehydroepiandrosterone; neurosteroid and androgen precursor
+/ *DMF*:  dimethyl fumarate
+/ *DMV*:  dorsal motor nucleus of vagus
+/ *DNRI*:  dopamine-norepinephrine reuptake inhibitor
+/ *DORA*:  dual orexin receptor antagonist
+/ *DPP-4*:  dipeptidyl peptidase-4; incretin-degrading enzyme
+/ *DRG*:  dorsal root ganglion
+/ *EBV*:  Epstein-Barr virus
+/ *ECM*:  extracellular matrix
+/ *ETA*:  endothelin receptor type A; mediates vasoconstriction
+/ *ETC*:  electron transport chain
+/ *FAO*:  fatty acid oxidation
+/ *GABA*:  gamma-aminobutyric acid
+/ *GAD*:  glutamate decarboxylase; gamma-aminobutyric acid synthesis enzyme
+/ *GI*:  gastrointestinal
+/ *GLP-1*:  glucagon-like peptide-1; incretin hormone
+/ *GLP-1R*:  glucagon-like peptide-1 receptor
+/ *GPCR*:  G protein-coupled receptor
+/ *HHV-6*:  human herpesvirus 6
+/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
+/ *HPA*:  hypothalamic-pituitary-adrenal axis
+/ *HR*:  heart rate
+/ *HRV*:  heart rate variability
+/ *HTN*:  hypertension
+/ *IA*:  immunoadsorption
+/ *IDO*:  indoleamine 2,3-dioxygenase
+/ *IFN-γ*:  interferon gamma
+/ *IgE*:  immunoglobulin E
+/ *IgG*:  immunoglobulin G
+/ *IL*:  interleukin
+/ *IP receptor*:  prostacyclin I2 receptor; mediates vasodilation
+/ *IVIG*:  intravenous immunoglobulin
+/ *KYNA*:  kynurenic acid; N-methyl-D-aspartate receptor antagonist
+/ *LC-NE*:  locus coeruleus-norepinephrine
+/ *LDN*:  low-dose naltrexone
+/ *MAO-B*:  monoamine oxidase B; degrades dopamine
+/ *MCAS*:  mast cell activation syndrome
+/ *MMP*:  matrix metalloproteinase
+/ *mTORC1*:  mechanistic target of rapamycin complex 1
+/ *mTORC2*:  mechanistic target of rapamycin complex 2; regulates cell survival and cytoskeleton
+/ *NAC*:  N-acetylcysteine
+/ *NAD⁺*:  nicotinamide adenine dinucleotide
+/ *NE*:  norepinephrine
+/ *NET*:  norepinephrine transporter
+/ *NMDA*:  N-methyl-D-aspartate
+/ *Nrf2*:  nuclear factor erythroid 2-related factor 2; antioxidant master regulator
+/ *NRI*:  norepinephrine reuptake inhibitor
+/ *NSAID*:  non-steroidal anti-inflammatory drug
+/ *OH*:  orthostatic hypotension
+/ *PARP*:  poly-ADP ribose polymerase
+/ *PDH*:  pyruvate dehydrogenase
+/ *PDK*:  pyruvate dehydrogenase kinase
+/ *PEA*:  palmitoylethanolamide; PPAR-alpha agonist
+/ *PEM*:  post-exertional malaise
+/ *PFC*:  prefrontal cortex
+/ *PGD2*:  prostaglandin D2; mast-cell-derived prostaglandin
+/ *PGE2*:  prostaglandin E2
+/ *PIP2*:  phosphatidylinositol 4,5-bisphosphate
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *QUIN*:  quinolinic acid; N-methyl-D-aspartate receptor agonist from kynurenine pathway
+/ *RAAS*:  renin-angiotensin-aldosterone system
+/ *RLS*:  restless legs syndrome
+/ *ROS*:  reactive oxygen species
+/ *SA node*:  sinoatrial node
+/ *SC*:  supercomplex
+/ *SFN*:  small-fiber neuropathy
+/ *sigma1R*:  sigma-1 receptor; endoplasmic reticulum chaperone regulating autophagy and ER stress
+/ *SNRI*:  serotonin-norepinephrine reuptake inhibitor
+/ *SV2A*:  synaptic vesicle glycoprotein 2A; levetiracetam binding site
+/ *TCA*:  tricarboxylic acid cycle
+/ *TLR4*:  Toll-like receptor 4
+/ *TNF-α*:  tumour necrosis factor alpha
+/ *Treg*:  regulatory T cell; CD4+CD25+FoxP3+
+/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
+/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
+/ *VMAT2*:  vesicular monoamine transporter 2
+
+
 === Cross-Reference Matrix: Drug × Hypothesis × Diagnostic Inference
 <sec:cross-reference-matrix>
 
@@ -121,5 +221,3 @@
 
 *Consequence:* This matrix is the chapter's diagnostic logic condensed into lookup form. For each drug-hypothesis pair, it provides the positive inference, the null inference, and the side-effect inference. The matrix operationalizes the chapter's core claim: every drug trial — positive, null, or side-effect-producing — generates a diagnostic output. The output is this table's three columns of inference.
 *Origin:* cross-reference synthesis across all preceding sections.
-
-

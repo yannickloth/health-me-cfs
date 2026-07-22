@@ -1,5 +1,15 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *ATP*:  adenosine triphosphate
+/ *DA*:  dopamine
+/ *NE*:  norepinephrine
+/ *PEM*:  post-exertional malaise
+/ *PFC*:  prefrontal cortex
+/ *REE*:  resting energy expenditure
+
+
 ==== Caffeine Self-Experimentation as Catecholamine Probe
 
 Most ME/CFS patients have already self-titrated caffeine for years. Their relationship with it contains diagnostic information:
@@ -12,4 +22,3 @@ Most ME/CFS patients have already self-titrated caffeine for years. Their relati
 
 *Consequence:* The menstrual cycle, sleep-wake transitions, meals, and caffeine use are not confounders to control for — they are probes that have already generated data. A pre-menstrual worsening in a patient who responded to aripiprazole doesn't mean aripiprazole failed — it means the dopamine system is hormone-sensitive, and the dose may need to be cyclically adjusted. A patient who hasn't developed caffeine tolerance after 10 years of use has already demonstrated that their postsynaptic receptor system is incapable of adaptive plasticity — that information predates any formal drug trial. These are diagnostic data the patient is already generating. The chapter provides the decoder.
 *Origin:* mechanistic-pathway-tracing.
-

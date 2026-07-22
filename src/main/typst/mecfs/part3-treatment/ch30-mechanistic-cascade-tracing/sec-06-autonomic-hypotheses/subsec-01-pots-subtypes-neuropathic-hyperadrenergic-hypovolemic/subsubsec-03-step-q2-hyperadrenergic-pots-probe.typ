@@ -1,5 +1,18 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *AAb*:  autoantibody
+/ *BP*:  blood pressure
+/ *GPCR*:  G protein-coupled receptor
+/ *HR*:  heart rate
+/ *NE*:  norepinephrine
+/ *NTS*:  nucleus tractus solitarius
+/ *PFC*:  prefrontal cortex
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *SA node*:  sinoatrial node
+
+
 ==== Step Q2: Hyperadrenergic POTS Probe
 
 *Probe:* Beta-blockers (propranolol 10--20 mg, bisoprolol 2.5--5 mg) — block β1-AR on SA node (reduce HR) and β2-AR on vasculature (prevent vasodilation). Clonidine (α2 agonist, 0.05--0.1 mg) — suppresses central sympathetic outflow at brainstem level, the most specific probe for central hyperadrenergic drive. Guanfacine (α2A agonist, 0.5--1 mg) — PFC-selective α2A agonism, less hypotensive than clonidine.
@@ -11,4 +24,3 @@
 *If clonidine works:* Central sympathetic overactivation is confirmed. Clonidine suppresses brainstem sympathetic output — if this normalizes BP and HR, the driver is central (brainstem NTS baroreflex reset, GPCR AAb at area postrema), not peripheral (vascular hypersensitivity). If clonidine crashes BP at minimal dose → the patient is sympathetically dependent for hemodynamics (Pattern 4, @sec:side-effects-diagnostic) — midodrine must precede clonidine. If clonidine sedates without hemodynamic benefit → the sympathetic overactivation is compensatory (for hypovolemia, venous pooling, or low cardiac output), not causal — suppressing it worsens the underlying deficit.
 
 *If guanfacine works where clonidine causes hypotension:* The PFC-selective α2A agonism of guanfacine provides cognitive benefit without the widespread central sympathetic suppression of clonidine. The patient has hyperadrenergic POTS with PFC cognitive dysfunction — guanfacine addresses both (PFC α2A agonism improves cognition; mild brainstem α2A agonism reduces sympathetic output at a dose below the hypotension threshold).
-

@@ -1,5 +1,17 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *IDO*:  indoleamine 2,3-dioxygenase
+/ *IFN-γ*:  interferon gamma
+/ *IL*:  interleukin
+/ *NAD⁺*:  nicotinamide adenine dinucleotide
+/ *PARP*:  poly-ADP ribose polymerase
+/ *PDH*:  pyruvate dehydrogenase
+/ *TDO*:  tryptophan 2,3-dioxygenase
+/ *TNF-α*:  tumour necrosis factor alpha
+
+
 ==== Cascade: IDO → kynurenine diversion → NAD⁺ synthesis defeat + consumption surge
 
 *Cascade:*
@@ -11,5 +23,3 @@
 - Sirtuin inhibition (paradoxical), PARP overactivation (parthanatos)
 - Impaired Complex I, impaired glycolysis (GAPDH requires NAD⁺) → multi-level metabolic failure
 - fatigue, neuroinflammation, impaired DNA repair → accelerated aging, epigenetic dysregulation
-
-

@@ -1,5 +1,10 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *CCI*:  craniocervical instability
+
+
 ==== Cascade: Pelvic obliquity → cervical spiral → functional CCI
 
 *Cascade:*
@@ -17,4 +22,3 @@
 - *Intercept:* Proprioceptive retraining; Visual-vestibular integration therapy; Low-dose aripiprazole (D2/D3 partial agonist; atypical antipsychotic at microdose)
 - *If proprioceptive retraining, NOT collar, works:* The CCI is functional (proprioceptive), not structural (ligamentous).
 - *If cervical collar works:* The CCI has a structural component.
-

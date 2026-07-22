@@ -1,5 +1,17 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *DORA*:  dual orexin receptor antagonist
+/ *IVIG*:  intravenous immunoglobulin
+/ *LDN*:  low-dose naltrexone
+/ *NE*:  norepinephrine
+/ *NRI*:  norepinephrine reuptake inhibitor
+/ *SNRI*:  serotonin-norepinephrine reuptake inhibitor
+/ *TLR4*:  Toll-like receptor 4
+/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
+
+
 ==== Response Onset Latency
 
 How quickly a drug works reveals whether the mechanism is functional/electrophysiological (seconds to hours), synaptic/neurotransmitter (days), or structural/neuroplastic (weeks to months):
@@ -12,4 +24,3 @@ How quickly a drug works reveals whether the mechanism is functional/electrophys
 - *Gabapentin working within 1--2 hours → α2δ-CaV channel block on presynaptic terminals — functional, occupancy-dependent.* Gabapentin working at 2--3 weeks → central sensitization reversal requires sustained reduction in neurotransmitter release to allow postsynaptic normalization; the mechanism is downstream receptor adaptation, not channel block per se. The latency distinguishes pre-vs-postsynaptic α2δ contribution.
 - *DORA producing sleep maintenance improvement on night 1 → orexin tone at baseline is sufficient that even partial blockade produces immediate benefit.* DORA requiring 3--5 days → the sleep-wake cycle requires resetting the orexin rhythm over multiple nights; the mechanism is circadian, not just pharmacological blockade. One-night response confirms orexin pathology; delayed response suggests circadian entrainment, not orexin excess per se.
 - *No response after adequate trial duration:*
-

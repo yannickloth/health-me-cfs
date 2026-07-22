@@ -1,5 +1,17 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *DA*:  dopamine
+/ *GI*:  gastrointestinal
+/ *hEDS*:  hypermobile Ehlers-Danlos syndrome
+/ *IgE*:  immunoglobulin E
+/ *LDN*:  low-dose naltrexone
+/ *NE*:  norepinephrine
+/ *NMDA*:  N-methyl-D-aspartate
+/ *TLR4*:  Toll-like receptor 4
+
+
 ==== Cascade: hEDS laxity → Piezo2/1 overactivation → multi-system dysfunction
 
 *Cascade:*
@@ -26,4 +38,3 @@
 
 *Consequence:* Bracing response combined with ketotifen distinguishes mechanosensitive from IgE-mediated mast cell activation. If bracing works alone, Piezo2-driven proprioceptive degradation is rate-limiting — treat with mechanical stabilization.
 *Origin:* mechanistic-pathway-tracing.
-

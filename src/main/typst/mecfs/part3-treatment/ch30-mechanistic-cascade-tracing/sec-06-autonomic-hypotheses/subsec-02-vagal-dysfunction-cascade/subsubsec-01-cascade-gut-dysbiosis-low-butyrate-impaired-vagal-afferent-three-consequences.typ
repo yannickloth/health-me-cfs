@@ -1,5 +1,18 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *ACh*:  acetylcholine
+/ *AChR*:  acetylcholine receptor
+/ *CAP*:  cholinergic anti-inflammatory pathway
+/ *DA*:  dopamine
+/ *HR*:  heart rate
+/ *HRV*:  heart rate variability
+/ *SA node*:  sinoatrial node
+/ *SIBO*:  small intestinal bacterial overgrowth
+/ *TPH1*:  tryptophan hydroxylase 1; peripheral serotonin synthesis enzyme (gut EC cells)
+
+
 ==== Cascade: Gut dysbiosis → low butyrate → impaired vagal afferent → three consequences
 
 *Cascade:*
@@ -10,5 +23,3 @@
 - (a) SA node: reduced M2 mAChR → reduced HRV, chronotropic incompetence, tachycardia
 - (b) Gut: reduced M2/M3 mAChR → gastroparesis, slow transit, SIBO
 - (c) Immune: reduced splenic α7nAChR → reduced CAP → systemic inflammation
-
-

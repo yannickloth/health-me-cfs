@@ -1,5 +1,19 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
+/ *DA*:  dopamine
+/ *GABA*:  gamma-aminobutyric acid
+/ *IDO*:  indoleamine 2,3-dioxygenase
+/ *KAT*:  kynurenine aminotransferase
+/ *KMO*:  kynurenine 3-monooxygenase
+/ *KYNA*:  kynurenic acid; N-methyl-D-aspartate receptor antagonist
+/ *LDN*:  low-dose naltrexone
+/ *NMDA*:  N-methyl-D-aspartate
+/ *QUIN*:  quinolinic acid; N-methyl-D-aspartate receptor agonist from kynurenine pathway
+
+
 ==== Step H2c: Kynurenic acid vs. quinolinic acid imbalance (the astrocyte arm)
 
 *Mechanism:* KYNA is produced in astrocytes (KAT is predominantly astrocytic) and acts as an endogenous NMDA antagonist at the glycine site — competing with QUIN at the same binding site. KYNA is broadly neuroprotective (reduces excitotoxicity) but also suppresses glutamatergic transmission → cognitive slowing. The QUIN/KYNA ratio determines the net glutamatergic effect: high QUIN/low KYNA → excitotoxicity; low QUIN/high KYNA → cognitive suppression; both high → competing effects (excitotoxicity from QUIN at NMDA receptors that are partially blocked by KYNA → unpredictable net effect). In ME/CFS, the QUIN/KYNA ratio may be shifted in either direction in different patients.
@@ -13,5 +27,3 @@
 
 *Consequence:* The kynurenine cascade is uniquely diagnostic because it has three arms producing diametrically opposite effects: serotonin depletion (treat with 5-HTP), NMDA excitotoxicity (treat with memantine), and NMDA suppression (avoid NMDA antagonists, treat upstream with LDN). The differential diagnosis: 5-HTP response localizes the lesion to the serotonin arm. Memantine response at standard doses without sedation localizes the lesion to the QUIN arm. Memantine sedation at low dose localizes the lesion to the KYNA arm (basal glutamate tone low). The combination of 5-HTP + memantine responses maps whether both arms are active simultaneously. LDN response tells you IDO is driving the pathway. The tryptophan challenge test (improvement vs. worsening after tryptophan supplementation) tells you whether IDO is saturated — a rapid, low-cost probe that no one performs but that directly informs the entire kynurenine diagnostic logic. This is the most biochemically accessible cascade in the chapter: serum kynurenine/tryptophan ratio and QUIN/KYNA ratio are measurable in clinical labs, unlike ion channel function or autoantibody bioassays. The cascade tracing should be correlated with serum metabolite measurements whenever possible — the pharmocodiagnostic logic and the biochemical measurements validate each other.
 *Origin:* mechanistic-pathway-tracing.
-
-

@@ -1,5 +1,19 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *AAb*:  autoantibody
+/ *GPCR*:  G protein-coupled receptor
+/ *IgG*:  immunoglobulin G
+/ *NE*:  norepinephrine
+/ *PIP2*:  phosphatidylinositol 4,5-bisphosphate
+/ *PLC-β*:  phospholipase C beta
+/ *TRPC*:  transient receptor potential canonical
+/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
+/ *TRPM7*:  transient receptor potential melastatin 7
+/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
+
+
 ==== Cascade: GPCR AAb → PIP2 depletion → multi-channel calcium collapse
 
 *Cascade:*
@@ -17,5 +31,3 @@ This convergence hypothesis makes a specific differential prediction: if GPCR au
 
 *Consequence:* The strongest test of PIP2 convergence: if immunoadsorption simultaneously improves TRPM3, TRPV1, and Piezo2-dependent symptoms, GPCR AAb→PIP2 depletion is the shared upstream mechanism. Otherwise, independent channel dysfunction requires channel-specific treatment.
 *Origin:* mechanistic-pathway-tracing.
-
-

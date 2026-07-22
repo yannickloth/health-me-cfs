@@ -1,5 +1,27 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *AAb*:  autoantibody
+/ *ACh*:  acetylcholine
+/ *AChE*:  acetylcholinesterase
+/ *ATP*:  adenosine triphosphate
+/ *BH4*:  tetrahydrobiopterin; tyrosine hydroxylase cofactor
+/ *cAMP*:  cyclic adenosine monophosphate
+/ *Ca²⁺*:  calcium ion
+/ *CNS*:  central nervous system
+/ *DA*:  dopamine
+/ *DBH*:  dopamine-beta-hydroxylase
+/ *GPCR*:  G protein-coupled receptor
+/ *HCN*:  hyperpolarization-activated cyclic nucleotide-gated channel
+/ *LC-NE*:  locus coeruleus-norepinephrine
+/ *NE*:  norepinephrine
+/ *PEM*:  post-exertional malaise
+/ *PFC*:  prefrontal cortex
+/ *POTS*:  postural orthostatic tachycardia syndrome
+/ *VMAT2*:  vesicular monoamine transporter 2
+
+
 ==== Step T2: Pattern diagnosis of ATP triage — which systems are deprioritized?
 
 The core probe: pharmacological bypass of each demand-response signaling pathway. Each drug provides the neurotransmitter or receptor activation that ATP shortage should have funded. The pattern of which bypass works identifies which signaling system is being ATP-triage-deprioritized:
@@ -19,5 +41,3 @@ The core probe: pharmacological bypass of each demand-response signaling pathway
 
 *Consequence:* The energy triage model is the only cascade in this chapter that is NOT hypothesis-specific — it applies across all energy-deficit hypotheses (mitochondrial, delivery, substrate). The triage fingerprint (which bypass drugs work) identifies which signaling systems are ATP-depleted in that patient, and pacing's effect on the fingerprint quantifies the degree to which the deficit is demand-driven vs. production-fixed. The most clinically actionable inference: if the patient requires 3 bypass drugs to function, their energy deficit is severe and their PEM budget for additional drug trials is minimal — prioritize low-energy-cost interventions. If pacing eliminates the need for bypass drugs, the treatment is pacing — not pharmacology.
 *Origin:* mechanistic-pathway-tracing.
-
-

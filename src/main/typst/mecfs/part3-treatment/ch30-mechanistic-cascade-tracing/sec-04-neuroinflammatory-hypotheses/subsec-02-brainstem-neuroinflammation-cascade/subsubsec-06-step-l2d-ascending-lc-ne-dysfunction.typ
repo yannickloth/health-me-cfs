@@ -1,9 +1,27 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *AAb*:  autoantibody
+/ *ACh*:  acetylcholine
+/ *AChR*:  acetylcholine receptor
+/ *BBB*:  blood-brain barrier
+/ *CCI*:  craniocervical instability
+/ *DMV*:  dorsal motor nucleus of vagus
+/ *GPCR*:  G protein-coupled receptor
+/ *LC-NE*:  locus coeruleus-norepinephrine
+/ *LDN*:  low-dose naltrexone
+/ *NE*:  norepinephrine
+/ *NET*:  norepinephrine transporter
+/ *NRI*:  norepinephrine reuptake inhibitor
+/ *NTS*:  nucleus tractus solitarius
+/ *taVNS*:  transcutaneous auricular vagus nerve stimulation
+/ *VLM*:  ventrolateral medulla
+
+
 ==== Step L2d: Ascending LC-NE dysfunction
 
 *Probe:* Atomoxetine (NRI, 10--40 mg). If atomoxetine improves arousal and attention → the LC is releasing NE but reuptake is excessive (consistent with NET upregulation from chronic low NE). If atomoxetine produces no effect → the LC is not releasing NE at all (LC neuron damage or suppression from brainstem inflammation). The null atomoxetine response combined with guanfacine response (guanfacine works, atomoxetine doesn't) → confirms postsynaptic α2A receptors are intact but presynaptic LC-NE release has failed.
 
 *Consequence:* The brainstem cascade is the most drug-accessibility-constrained in the chapter. The key diagnostic probe is the LDN vs. minocycline dissociation: LDN (cortical benefit) + minocycline (brainstem benefit) = regional neuroinflammation with differential BBB penetrance. Clonidine response distinguishes brainstem-level sympathetic overactivation (central) from baroreflex compensation (peripheral). Pyridostigmine + taVNS + ganglionic AChR antibody testing distinguish DMV-level from ganglionic from vagal-nerve-level lesions. The brainstem is the final common pathway for autonomic dysfunction in ME/CFS — most autonomic hypotheses (GPCR AAb, microglial neuroinflammation, CCI) converge here. Brainstem cascade tracing is therefore the convergence point for autonomic diagnostic logic: does the autonomic dysfunction originate above the brainstem (cortex, hypothalamus), at the brainstem (NTS, VLM, DMV), or below the brainstem (ganglia, nerve, receptor)?
 *Origin:* mechanistic-pathway-tracing.
-

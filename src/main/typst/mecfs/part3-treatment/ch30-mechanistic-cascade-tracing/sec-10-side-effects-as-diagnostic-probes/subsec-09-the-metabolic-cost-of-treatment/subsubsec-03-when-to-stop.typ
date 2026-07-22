@@ -1,5 +1,10 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *PEM*:  post-exertional malaise
+
+
 ==== When to Stop
 
 The PEM budget is finite. Each patient has a limited number of drug trials they can tolerate before the cumulative PEM cost worsens their baseline. The algorithm should include stopping rules:
@@ -9,4 +14,3 @@ The PEM budget is finite. Each patient has a limited number of drug trials they 
 
 *Consequence:* A drug that works therapeutically but costs more functionally than it returns is a net negative — it improves a symptom score while worsening the disease trajectory. The chapter's algorithm must account for the energy budget: sequence probes by diagnostic-yield-to-PEM-cost ratio, track net functional capacity, and stop when further probing costs more than any treatment candidate can return.
 *Origin:* mechanistic-pathway-tracing.
-

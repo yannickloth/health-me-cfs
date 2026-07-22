@@ -1,5 +1,13 @@
 #import "../../../../shared/environments.typ": *
 
+*Abbreviations used in this section:*
+
+/ *CCI*:  craniocervical instability
+/ *CSF*:  cerebrospinal fluid
+/ *ECM*:  extracellular matrix
+/ *RAAS*:  renin-angiotensin-aldosterone system
+
+
 ==== Cascade: ECM variants/degradation → tissue laxity → four consequences
 
 *Cascade:*
@@ -22,5 +30,3 @@
 
 *Consequence:* Compression garments vs. fludrocortisone response in high-Beighton patients distinguishes venous compliance (CT quality, compression-responsive) from hypovolemia (RAAS paradox, fludrocortisone-responsive).
 *Origin:* mechanistic-pathway-tracing.
-
-
