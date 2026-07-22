@@ -73,8 +73,21 @@ void auditRecursive(String[] lines, int start, int end, int minLevel, String fna
         String h = headingText(ln);
         totalSections++;
 
+        // Cascade headings are self-contained summaries; sub-steps carry the content
+        if (h.startsWith("Cascade:")) {
+            // advance past this heading, skip empty check, recurse for sub-headings, then jump to next sibling
+            int cascadeBodyEnd = end;
+            for (int j = i + 1; j < end; j++) {
+                var next = lines[j].strip();
+                if (isHeading(next, 1) && headingLevel(next) <= lev) { cascadeBodyEnd = j; break; }
+            }
+            auditRecursive(lines, i + 1, cascadeBodyEnd, lev + 1, fname, findings);
+            i = cascadeBodyEnd;
+            continue;
+        }
+
         int bodyStart = i + 1; // line number for error reporting
-        i++;
+        i++; 
 
         // Find body span: until next heading at same or higher level
         int bodyEnd = end;
