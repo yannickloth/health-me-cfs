@@ -17,7 +17,127 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 *Disclaimer:* This chapter is a constructed mechanistic framework prompted by the Gerlier skeletal asymmetry hypothesis (2026-07-21, personal communication) and extended to all major hypotheses in the paper. Drug-response logic throughout is mechanistic inference — not clinical evidence. No medication listed here should be prescribed based on this chapter alone. Certainty values are the chapter author's assessment based on the supporting evidence for each cascade link. Where not explicitly stated, default certainties apply: 0.25--0.40 for mechanistic-inference content, 0.10 for the Gerlier model (per the paper). Each section closes with a *Consequence* line summarizing practical significance and an *Origin* line identifying provenance.
 ]
 
-*Abbreviations used throughout:* AAb (autoantibody), AADC (aromatic L-amino acid decarboxylase; converts L-DOPA to dopamine), ACh (acetylcholine), AChE (acetylcholinesterase), AChR (acetylcholine receptor), AIMM (acquired ischemic mitochondrial myopathy), ANC (absolute neutrophil count), ANT (adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger), ATP (adenosine triphosphate), BBB (blood-brain barrier), BH4 (tetrahydrobiopterin; tyrosine hydroxylase cofactor), BP (blood pressure), cAMP (cyclic adenosine monophosphate), CAP (cholinergic anti-inflammatory pathway), CCI (craniocervical instability), CNS (central nervous system), CoQ10 (coenzyme Q10; ubiquinol/ubiquinone), COX-2 (cyclooxygenase-2), CPET (cardiopulmonary exercise testing), CRP (C-reactive protein), CSF (cerebrospinal fluid), CYP (cytochrome P450), DA (dopamine), DAT (dopamine transporter), DBH (dopamine-beta-hydroxylase), DMF (dimethyl fumarate), DMV (dorsal motor nucleus of vagus), DORA (dual orexin receptor antagonist), DRG (dorsal root ganglion), EBV (Epstein-Barr virus), ECM (extracellular matrix), ESR (erythrocyte sedimentation rate), ETC (electron transport chain), G-CSF (granulocyte colony-stimulating factor), GI (gastrointestinal), GPCR (G protein-coupled receptor), hEDS (hypermobile Ehlers-Danlos syndrome), HHV-6 (human herpesvirus 6), HIF-1α (hypoxia-inducible factor 1 alpha), HPA (hypothalamic-pituitary-adrenal axis), HR (heart rate), HRV (heart rate variability), HSC (haematopoietic stem cell), HTN (hypertension), IA (immunoadsorption), IDO (indoleamine 2,3-dioxygenase), IENFD (intraepidermal nerve fibre density), IFN-γ (interferon gamma), IgE (immunoglobulin E), IgG (immunoglobulin G), IL (interleukin), IVIG (intravenous immunoglobulin), LDN (low-dose naltrexone), LC-NE (locus coeruleus-norepinephrine), MAO-B (monoamine oxidase B), MCAS (mast cell activation syndrome), MMP (matrix metalloproteinase), mTORC1 (mechanistic target of rapamycin complex 1), NAC (N-acetylcysteine), NAD⁺ (nicotinamide adenine dinucleotide), NCX1 (Na⁺/Ca²⁺ exchanger 1), NE (norepinephrine), NET (norepinephrine transporter), NF-κB (nuclear factor kappa-B), NHE1 (Na⁺/H⁺ exchanger 1), NK cell (natural killer cell), NMDA (N-methyl-D-aspartate), NRI (norepinephrine reuptake inhibitor), NSAID (non-steroidal anti-inflammatory drug), NTS (nucleus tractus solitarius), OH (orthostatic hypotension), OI (orthostatic intolerance), OXPHOS (oxidative phosphorylation), PARP (poly-ADP ribose polymerase), PDH (pyruvate dehydrogenase), PDK (pyruvate dehydrogenase kinase), PEM (post-exertional malaise), PFC (prefrontal cortex), PGE2 (prostaglandin E2), PIP2 (phosphatidylinositol 4,5-bisphosphate), PLC-β (phospholipase C beta), POTS (postural orthostatic tachycardia syndrome), RAAS (renin-angiotensin-aldosterone system), REE (resting energy expenditure), RLS (restless legs syndrome), ROS (reactive oxygen species), SA node (sinoatrial node), SC (supercomplex), SIBO (small intestinal bacterial overgrowth), SNRI (serotonin-norepinephrine reuptake inhibitor), SSRI (selective serotonin reuptake inhibitor), TCA (tricarboxylic acid cycle), TDO (tryptophan 2,3-dioxygenase), TLR4 (Toll-like receptor 4), TNF-α (tumour necrosis factor alpha), taVNS (transcutaneous auricular vagus nerve stimulation), VEGF (vascular endothelial growth factor), VLM (ventrolateral medulla), VMAT2 (vesicular monoamine transporter 2), sigma1R (sigma-1 receptor; endoplasmic reticulum chaperone regulating autophagy and ER stress), SV2A (synaptic vesicle glycoprotein 2A; levetiracetam binding site), Treg (regulatory T cell; CD4+CD25+FoxP3+), PDK (pyruvate dehydrogenase kinase), PEA (palmitoylethanolamide; PPAR-alpha agonist), PPAR-alpha (peroxisome proliferator-activated receptor alpha), ALA (alpha-lipoic acid; antioxidant and PDH cofactor), DHEA (dehydroepiandrosterone; neurosteroid and androgen precursor), DPP-4 (dipeptidyl peptidase-4; incretin-degrading enzyme), ETA (endothelin receptor type A; mediates vasoconstriction), AMPK (AMP-activated protein kinase; cellular energy sensor), mTORC2 (mechanistic target of rapamycin complex 2; regulates cell survival and cytoskeleton), GLP-1 (glucagon-like peptide-1; incretin hormone), GLP-1R (glucagon-like peptide-1 receptor), CysLT1 (cysteinyl leukotriene receptor type 1; montelukast target), DCA (dichloroacetate; PDK inhibitor), IP receptor (prostacyclin I2 receptor; mediates vasodilation), PGD2 (prostaglandin D2; mast-cell-derived prostaglandin), TXA2 (thromboxane A2; platelet-derived vasoconstrictor), TRPV1 (transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction), MAO-B (monoamine oxidase B; degrades dopamine).
+*Abbreviations used throughout:*
+
+/ *AAb*: autoantibody
+/ *AADC*: aromatic L-amino acid decarboxylase; converts L-DOPA to dopamine
+/ *ACh*: acetylcholine
+/ *AChE*: acetylcholinesterase
+/ *AChR*: acetylcholine receptor
+/ *AIMM*: acquired ischemic mitochondrial myopathy
+/ *ALA*: alpha-lipoic acid; antioxidant and PDH cofactor
+/ *AMPK*: AMP-activated protein kinase; cellular energy sensor
+/ *ANC*: absolute neutrophil count
+/ *ANT*: adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
+/ *ATP*: adenosine triphosphate
+/ *BBB*: blood-brain barrier
+/ *BH4*: tetrahydrobiopterin; tyrosine hydroxylase cofactor
+/ *BP*: blood pressure
+/ *cAMP*: cyclic adenosine monophosphate
+/ *CAP*: cholinergic anti-inflammatory pathway
+/ *CCI*: craniocervical instability
+/ *CNS*: central nervous system
+/ *CoQ10*: coenzyme Q10; ubiquinol/ubiquinone
+/ *COX-2*: cyclooxygenase-2
+/ *CPET*: cardiopulmonary exercise testing
+/ *CRP*: C-reactive protein
+/ *CSF*: cerebrospinal fluid
+/ *CYP*: cytochrome P450
+/ *CysLT1*: cysteinyl leukotriene receptor type 1; montelukast target
+/ *DA*: dopamine
+/ *DAT*: dopamine transporter
+/ *DBH*: dopamine-beta-hydroxylase
+/ *DCA*: dichloroacetate; PDK inhibitor
+/ *DHEA*: dehydroepiandrosterone; neurosteroid and androgen precursor
+/ *DMF*: dimethyl fumarate
+/ *DMV*: dorsal motor nucleus of vagus
+/ *DORA*: dual orexin receptor antagonist
+/ *DPP-4*: dipeptidyl peptidase-4; incretin-degrading enzyme
+/ *DRG*: dorsal root ganglion
+/ *EBV*: Epstein-Barr virus
+/ *ECM*: extracellular matrix
+/ *ESR*: erythrocyte sedimentation rate
+/ *ETA*: endothelin receptor type A; mediates vasoconstriction
+/ *ETC*: electron transport chain
+/ *G-CSF*: granulocyte colony-stimulating factor
+/ *GI*: gastrointestinal
+/ *GLP-1*: glucagon-like peptide-1; incretin hormone
+/ *GLP-1R*: glucagon-like peptide-1 receptor
+/ *GPCR*: G protein-coupled receptor
+/ *hEDS*: hypermobile Ehlers-Danlos syndrome
+/ *HHV-6*: human herpesvirus 6
+/ *HIF-1α*: hypoxia-inducible factor 1 alpha
+/ *HPA*: hypothalamic-pituitary-adrenal axis
+/ *HR*: heart rate
+/ *HRV*: heart rate variability
+/ *HSC*: haematopoietic stem cell
+/ *HTN*: hypertension
+/ *IA*: immunoadsorption
+/ *IDO*: indoleamine 2,3-dioxygenase
+/ *IENFD*: intraepidermal nerve fibre density
+/ *IFN-γ*: interferon gamma
+/ *IgE*: immunoglobulin E
+/ *IgG*: immunoglobulin G
+/ *IL*: interleukin
+/ *IP receptor*: prostacyclin I2 receptor; mediates vasodilation
+/ *IVIG*: intravenous immunoglobulin
+/ *LC-NE*: locus coeruleus-norepinephrine
+/ *LDN*: low-dose naltrexone
+/ *MAO-B*: monoamine oxidase B; degrades dopamine
+/ *MCAS*: mast cell activation syndrome
+/ *MMP*: matrix metalloproteinase
+/ *mTORC1*: mechanistic target of rapamycin complex 1
+/ *mTORC2*: mechanistic target of rapamycin complex 2; regulates cell survival and cytoskeleton
+/ *NAC*: N-acetylcysteine
+/ *NAD⁺*: nicotinamide adenine dinucleotide
+/ *NCX1*: Na⁺/Ca²⁺ exchanger 1
+/ *NE*: norepinephrine
+/ *NET*: norepinephrine transporter
+/ *NF-κB*: nuclear factor kappa-B
+/ *NHE1*: Na⁺/H⁺ exchanger 1
+/ *NK cell*: natural killer cell
+/ *NMDA*: N-methyl-D-aspartate
+/ *NRI*: norepinephrine reuptake inhibitor
+/ *NSAID*: non-steroidal anti-inflammatory drug
+/ *NTS*: nucleus tractus solitarius
+/ *OH*: orthostatic hypotension
+/ *OI*: orthostatic intolerance
+/ *OXPHOS*: oxidative phosphorylation
+/ *PARP*: poly-ADP ribose polymerase
+/ *PDH*: pyruvate dehydrogenase
+/ *PDK*: pyruvate dehydrogenase kinase
+/ *PEA*: palmitoylethanolamide; PPAR-alpha agonist
+/ *PEM*: post-exertional malaise
+/ *PFC*: prefrontal cortex
+/ *PGD2*: prostaglandin D2; mast-cell-derived prostaglandin
+/ *PGE2*: prostaglandin E2
+/ *PIP2*: phosphatidylinositol 4,5-bisphosphate
+/ *PLC-β*: phospholipase C beta
+/ *POTS*: postural orthostatic tachycardia syndrome
+/ *PPAR-alpha*: peroxisome proliferator-activated receptor alpha
+/ *RAAS*: renin-angiotensin-aldosterone system
+/ *REE*: resting energy expenditure
+/ *RLS*: restless legs syndrome
+/ *ROS*: reactive oxygen species
+/ *SA node*: sinoatrial node
+/ *SC*: supercomplex
+/ *SIBO*: small intestinal bacterial overgrowth
+/ *sigma1R*: sigma-1 receptor; endoplasmic reticulum chaperone regulating autophagy and ER stress
+/ *SNRI*: serotonin-norepinephrine reuptake inhibitor
+/ *SSRI*: selective serotonin reuptake inhibitor
+/ *SV2A*: synaptic vesicle glycoprotein 2A; levetiracetam binding site
+/ *taVNS*: transcutaneous auricular vagus nerve stimulation
+/ *TCA*: tricarboxylic acid cycle
+/ *TDO*: tryptophan 2,3-dioxygenase
+/ *TLR4*: Toll-like receptor 4
+/ *TNF-α*: tumour necrosis factor alpha
+/ *Treg*: regulatory T cell; CD4+CD25+FoxP3+
+/ *TRPV1*: transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
+/ *TXA2*: thromboxane A2; platelet-derived vasoconstrictor
+/ *VEGF*: vascular endothelial growth factor
+/ *VLM*: ventrolateral medulla
+/ *VMAT2*: vesicular monoamine transporter 2
+
 
 == Ion Channel Hypotheses
 
