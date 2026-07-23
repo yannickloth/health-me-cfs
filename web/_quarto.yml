@@ -81,9 +81,10 @@ format:
     number-sections: true
     html-math-method: mathjax
     cite-method: citeproc
-    include-after-body: glossary-tooltip.js
+    include-after-body: glossary-tooltip.html
     resources:
       - glossary.json
+      - glossary-tooltip.js
     crossref:
       sec-prefix: Section
       fig-prefix: Figure
