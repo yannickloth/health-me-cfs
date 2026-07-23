@@ -441,7 +441,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Cilostazol
 
-*Appears in:* Cross-reference matrix Group B, @sec:microvascular-cascade.
+*Appears in:* Cross-reference matrix Group B, @sec:aimm-cascade.
 
 #strong[+] PDE3-mediated microvascular pathology rate-limiting. Cilostazol increases cAMP in platelets and vascular smooth muscle → vasodilation + antiplatelet effects → improved microvascular perfusion. Confirms the combined platelet-endothelial lesion.
 
