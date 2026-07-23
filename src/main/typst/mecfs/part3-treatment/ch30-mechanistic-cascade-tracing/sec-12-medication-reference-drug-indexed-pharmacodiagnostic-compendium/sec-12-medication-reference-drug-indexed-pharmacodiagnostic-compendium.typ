@@ -243,7 +243,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 #strong[−] Lymphocyte expansion not rate-limiting — non-proliferative autoimmune mechanisms (autoantibody production by long-lived plasma cells, complement activation). If azathioprine fails but rituximab works → B-cell-driven, but the lesion is mature antibody-secreting cells, not proliferating precursors.
 
-#strong[SE] Myelotoxicity at subtherapeutic dose (ANC <1,500 at 50 mg/day) → TPMT deficiency / intermediate metabolizer — 6-MP accumulation from impaired methylation → the patient cannot safely metabolize azathioprine (Pattern K). The myelotoxicity at subtherapeutic dose is the diagnostic signal: TPMT genotype/phenotype is the bottleneck.
+#strong[SE] Myelotoxicity at subtherapeutic dose (ANC < 1,500 at 50 mg/day) → TPMT deficiency / intermediate metabolizer — 6-MP accumulation from impaired methylation → the patient cannot safely metabolize azathioprine (Pattern K). The myelotoxicity at subtherapeutic dose is the diagnostic signal: TPMT genotype/phenotype is the bottleneck.
 
 #strong[W] *Mechanism:* A (direct hematopoietic toxicity — cumulative myelosuppression), D (prolonged immunosuppression → infection susceptibility, lymphoma risk — cumulative). *Protracted risk:* Moderate. *Permanent risk:* Low--Moderate (secondary malignancy risk with prolonged use). *Rechallenge:* Only if TPMT normal and response confirmed. Weekly CBC monitoring mandatory. If myelotoxicity at subtherapeutic dose: TPMT deficiency confirmed — azathioprine permanently contraindicated. Use mycophenolate (different metabolic pathway) as alternative.
 
@@ -1974,9 +1974,9 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 #strong[−] Selenium not rate-limiting. GPX activity normal despite supplementation → glutathione recycling is intact. If selenium fails but NAC works → the glutathione synthesis is the bottleneck, not GPX-dependent recycling.
 
-#strong[SE] Minimal at recommended doses (<200 μg/day). Toxicity at supratherapeutic doses (>400 μg/day) → selenosis (garlic breath, hair loss, nail changes, neuropathy). No diagnostic value for ME/CFS per se — toxicity implies supraphysiologic dosing.
+#strong[SE] Minimal at recommended doses (< 200 μg/day). Toxicity at supratherapeutic doses (> 400 μg/day) → selenosis (garlic breath, hair loss, nail changes, neuropathy). No diagnostic value for ME/CFS per se — toxicity implies supraphysiologic dosing.
 
-#strong[W] *Mechanism:* A (selenosis at supratherapeutic doses — peripheral neuropathy). *Protracted risk:* Very Low at standard doses. *Permanent risk:* Very Low. *Rechallenge:* Always acceptable at <200 μg/day. Selenium is often combined with NAC and CoQ10 for a full antioxidant-recycling probe. The GPX/TXNRD axis is one component of the broader antioxidant system.
+#strong[W] *Mechanism:* A (selenosis at supratherapeutic doses — peripheral neuropathy). *Protracted risk:* Very Low at standard doses. *Permanent risk:* Very Low. *Rechallenge:* Always acceptable at < 200 μg/day. Selenium is often combined with NAC and CoQ10 for a full antioxidant-recycling probe. The GPX/TXNRD axis is one component of the broader antioxidant system.
 
 === Shoe Lift
 
