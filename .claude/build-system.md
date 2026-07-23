@@ -29,16 +29,15 @@ Run from project root. `result/` is a symlink into the Nix store; `cp result/<fi
 
 Steps 3–5 are CI audits — they don't gate local rendering but must pass for `nix flake check`.
 
-Steps 1 (qmd gen) and 2 (copy bib) must run before step 6 (render). Re-run 1–2 whenever Typst or bib sources change.
+BuildWeb.java now also copies .bib files — no separate step needed.
 
 | Step | Tool | Detail |
 |------|------|--------|
-| 1. qmd gen | `java --source 25 src/main/java/web/BuildWeb.java` | Typst → `.qmd` via `ConvertAndSplit.java` |
-| 2. Copy bib | `cp -r src/main/typst/mecfs/bib/ web/bib/` | 26 topic .bib files |
-| 3. Label audit | `java --source 25 src/test/java/web/QmdLabelAuditTest.java` | Orphaned labels |
-| 4. Env count | `java --source 25 src/test/java/web/QmdEnvironmentCountTest.java` | Typst envs survive conversion |
-| 5. Quality audit | `java --source 25 src/test/java/web/QmdQualityAuditTest.java` | Structural quality checks |
-| 6. Render | `quarto render web --to html` | → `web/_site/` |
+| 1. qmd gen + bib | `java --source 25 src/main/java/web/BuildWeb.java` | Typst → `.qmd` + copies 28 .bib files → `web/bib/` |
+| 2. Label audit | `java --source 25 src/test/java/web/QmdLabelAuditTest.java` | Orphaned labels |
+| 3. Env count | `java --source 25 src/test/java/web/QmdEnvironmentCountTest.java` | Typst envs survive conversion |
+| 4. Quality audit | `java --source 25 src/test/java/web/QmdQualityAuditTest.java` | Structural quality checks |
+| 5. Render | `quarto render web --to html` | → `web/_site/` |
 
 ### BuildWeb.java flow
 

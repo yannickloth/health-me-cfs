@@ -276,6 +276,22 @@ void main(String[] args) throws IOException, InterruptedException {
     }
     System.out.println("  " + figCount + " figures compiled");
 
+    // --- Bib files: copy from Typst source to web/ ---
+    System.out.println();
+    System.out.println("=== bib ===");
+    var bibSrc = srcRoot.resolve("bib");
+    var bibDst = webRoot.resolve("bib");
+    deleteRecursive(bibDst);
+    createDirectories(bibDst);
+    int bibCount = 0;
+    try (var stream = list(bibSrc)) {
+        for (var bib : stream.filter(f -> f.getFileName().toString().endsWith(".bib")).toList()) {
+            copy(bib, bibDst.resolve(bib.getFileName()));
+            bibCount++;
+        }
+    }
+    System.out.println("  " + bibCount + " files copied → web/bib/");
+
     System.out.println();
     System.out.println("Next: quarto render");
 }

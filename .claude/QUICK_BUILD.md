@@ -19,9 +19,8 @@ nix develop
 
 typst compile src/main/typst/mecfs/loth2026-mecfs.typ  # PDF
 
-# Web: generate .qmd files, copy bib, then render
+# Web: generate .qmd files (includes bib copy), then render
 java --source 25 src/main/java/web/BuildWeb.java
-cp -r src/main/typst/mecfs/bib/ web/bib/
 quarto render web --to html
 ```
 
@@ -30,7 +29,7 @@ quarto render web --to html
 | Issue | Action |
 |-------|--------|
 | Build fails | `nix build -L --show-trace` |
-| Web content missing/stale | Run java BuildWeb → copy bib → quarto render (inside `nix develop`) |
+| Web content missing/stale | Run `java BuildWeb.java` → `quarto render` (inside `nix develop`) |
 | Figure missing on web | Run `BuildWeb.java`; verify `src/main/typst/mecfs/packages/preview/cetz/` exists |
 | Blog issue | Fix `web/blog/posts/<slug>/index.qmd` directly |
 | Typst compile outside nix | Must run `nix develop` first |
