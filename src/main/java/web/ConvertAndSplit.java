@@ -83,6 +83,10 @@ void main(String[] args) throws IOException {
     // Typst _italic_ → *italic* (only outside code/math)
     src = src.replaceAll("(?<!`|\"|\\w)_([^_\\s](?:[^_]*[^_\\s])?)_(?!\\w|\"|`)", "*$1*");
 
+    // ch30 quasi-title labels (*Intercept:*, *Mechanism:*, *If ...:* etc.)
+    // in list items — convert to bold so they render as section-like headings
+    src = src.replaceAll("(?m)^- \\*([^*]+?):\\*", "- **$1:**");
+
     // Restore inline math placeholders
     for (int iIdx = 0; iIdx < inlineMathPlaceholders.size(); iIdx++) {
         src = src.replace("\u0002INLINEMATH" + iIdx + "\u0003", inlineMathPlaceholders.get(iIdx));
