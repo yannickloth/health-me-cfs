@@ -1,0 +1,34 @@
+Could HSAT2 Repeat RNAs Drive Long COVID and ME/CFS? A New Hypothesis
+
+Olivier Croce1, Yannick Loth2, Patrick Lomonte3, Geneviève Fourel4
+
+1 Institut de Recherche sur le CANcer et le vieillissement (IRCAN), CNRS UMR7284, INSERM U1081, Université Côte d'Azur (UCA), Nice, France
+2 Independent researcher, Luxemburg
+3 Institut NeuroMyoGène, Laboratoire Physiopathologie et Génétique du Neurone et du Muscle, CNRS UMR 5261 -INSERM U1315, Université de Lyon - Université Claude Bernard Lyon 1
+4 Laboratoire de Biologie et Modélisation de la Cellule, Ecole Normale Supérieure de Lyon, CNRS, UMR5239, Inserm U1293, Université Claude Bernard Lyon 1, Lyon, France
+
+Human satellite 2 (HSAT2) is an abundant class of repetitive DNA sequences that normally remain silent under physiological conditions. In cancer, however, HSAT2 may become aberrantly expressed and reprogram cells, ultimately promoting immune suppression. Here we propose that an analogous mechanism may contribute to the development of post-acute infection syndromes (PAIS), including Long COVID and ME/CFS.
+
+Human satellite 2 (HSAT2) is a pericentromeric repeat representing approximately 1.5% of the human genome (Fig. 1) 1. Under physiological conditions, it is transcriptionally silenced through DNA methylation and packaging into a compact chromatin state known as heterochromatin 2-5.
+
+In cancer, however, HSAT2 may become aberrantly expressed 6-8. The resulting HSAT2 RNAs can reprogram gene expression through molecular mechanisms that are increasingly well understood 5,8 (Fig. 2). This reprogramming is not restricted to the cells producing HSAT2 RNAs, as these RNAs are released into body fluids within extracellular vesicles (EVs), allowing their dissemination to distant tissues 9 7,8.
+
+In cancer, it was recognized early on that tumors expressing HSAT2 exhibit a "cold tumor" phenotype, characterized by a profoundly immunosuppressive microenvironment. Subsequent studies have provided mechanistic support for this observation by showing that HSAT2 RNAs impair several layers of the body's defense mechanisms 7,8,10 (Fig. 3). These include innate immunity, which allows virtually every cell to defend itself against viral infection, and the immune system, whose specialized cells not only protect the body against pathogens but also coordinate communication between organs and promote tissue repair.
+
+Here we propose that an analogous mechanism, involving HSAT2 RNAs as a central player and possibly other related satellite RNAs, such as HSAT3 1,8, may contribute to the development of post-acute infection syndromes (PAIS), including Long COVID and ME/CFS. 
+
+Our attention was drawn to this possibility by the observation that HSAT2 RNAs may be induced upon herpesvirus infection or reactivation, as shown for HCMV 11. Replication of viruses belonging to the herpesvirus family disrupts centromere organization 12-15, and this is likely the mechanism by which they can induce transcription of adjacent pericentromeric satellite repeats, including HSAT2 (Fig. 4). This may therefore provide an explanation for the frequent observation that Long COVID and ME/CFS emerge following reactivation of latent herpesviruses.
+
+Because each member of the herpesvirus family preferentially infects only one or a limited number of cell types, the initial production of RNAs from these repeats may occur in different cellular compartments depending on the virus involved. For example, among herpesviruses reported to reactivate in Long COVID, HSV-1 establishes latency primarily in sensory neurons, EBV in memory B cells, HHV-6 in cells of the central nervous system and the immune system, and HCMV in cells of the myeloid lineage, endothelial cells lining blood vessels, and other tissue-resident cells. Interestingly, the sensory ganglia in which HSV-1 establishes latency are located in close anatomical proximity to the brainstem, a region that has repeatedly been reported to exhibit inflammation in Long COVID. Reactivation of latent HSV-1 could therefore be promoted by this inflammatory environment. In addition, both HCMV and SARS-CoV-2 can infect endothelial cells, raising the possibility of synergistic effects within this cellular compartment.
+
+Following repeated or closely spaced viral infections, cumulative changes in chromatin composition and DNA methylation of HSAT2 repeats may become sufficiently extensive to trigger significant epigenetic erosion, ultimately establishing a permissive chromatin state for HSAT2 repeat transcription. Once initiated, this state could become self-sustaining through continued HSAT2 RNA production, possibly in cooperation with additional mechanisms involving multiple viruses and multiple cell types. 
+Depending on the magnitude of the initial epigenetic disruption, this transition from transient HSAT2 activation to sustained expression could also occur following a single episode of viral reactivation.
+
+By analogy with cancer, we hypothesize that vesicles released by cells in which latent herpesviruses have reactivated, carrying HSAT2 RNAs together with other RNAs capable of reprogramming recipient cells, such as microRNAs, could spread from cell to cell, and potentially throughout the body, in a manner similar to that of an infectious agent, propagating this pathogenic signal and thereby driving persistent immune dysregulation, particularly immune exhaustion.
+
+Rather than presenting definitive proof, this short Perspective assembles the available evidence into a coherent mechanistic framework supporting the "HSAT2 hypothesis" for Long COVID and ME/CFS, while generating specific, experimentally testable predictions that can now be investigated using patient-derived samples (Fig. 5).
+It also brings together several key observations reported in Long COVID and ME/CFS that have so far remained difficult to reconcile, including herpesvirus reactivation, immune exhaustion, and persistent systemic dysfunction.
+
+Patients living with Long COVID and ME/CFS share the same goal: recovery. 
+The fact that some patients recover without apparent long-term sequelae strongly suggests that these disorders are, at least in part, functional rather than irreversible, and are maintained by self-reinforcing pathological feedback loops, possibly involving multiple interacting mechanisms, rather than permanent tissue destruction. We propose that HSAT2 RNAs, both at their initial sites of production and after dissemination throughout the body via EVs, may represent one such mechanism, contributing to both disease initiation and long-term maintenance. 
+At present, this remains a hypothesis. However, if correct, it would open an entirely new therapeutic perspective: neutralizing extracellular HSAT2 RNAs 7 could interrupt one or more pathological feedback loops, allowing physiological regulatory networks to re-establish themselves and thereby promoting recovery.
