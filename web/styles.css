@@ -267,3 +267,101 @@
 /* ch29 response-mark decoration — ✓/✗ as coloured icons, not prose */
 .response-mark.positive { color: #2e7d32; }
 .response-mark.negative { color: #c62828; }
+
+/* ── Glossary tooltips ── */
+@layer components {
+  .gt {
+    border-bottom: 1px dashed #6b7280;
+    cursor: help;
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+  }
+  .gt:hover,
+  .gt-active {
+    border-bottom-color: #2563eb;
+    color: #2563eb;
+  }
+
+  .gt-icon {
+    display: inline-block;
+    inline-size: 12px;
+    block-size: 12px;
+    border-radius: 50%;
+    background: #94a3b8;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 12px;
+    text-align: center;
+    vertical-align: super;
+    margin-inline-start: 1px;
+    cursor: help;
+    user-select: none;
+    position: relative;
+    top: -0.15em;
+  }
+  .gt:hover .gt-icon,
+  .gt-active .gt-icon {
+    background: #2563eb;
+  }
+
+  .gt-pop {
+    position: fixed;
+    z-index: 99999;
+    max-inline-size: min(90vw, 360px);
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0,0,0,.12);
+    padding: 12px 14px;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4px);
+    transition: opacity .15s ease, visibility .15s ease, transform .15s ease;
+    pointer-events: none;
+  }
+
+  .gt-show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    /* Allow taps on mobile inside the popup */
+    pointer-events: auto;
+  }
+
+  .gt-cat {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: #64748b;
+  }
+
+  .gt-term {
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #0f172a;
+  }
+
+  .gt-def {
+    color: #334155;
+  }
+
+  .gt-also {
+    font-size: 0.8rem;
+    color: #64748b;
+    border-top: 1px solid #e2e8f0;
+    padding-top: 4px;
+    margin-top: 2px;
+  }
+
+  .gt-pop b {
+    color: #1e293b;
+  }
+}

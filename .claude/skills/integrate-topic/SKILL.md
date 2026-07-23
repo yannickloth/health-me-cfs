@@ -132,8 +132,11 @@ Before starting any other phase:
    - Phase 4 → brainstorm file path, idea count
    - Phase 4a → subtree file path, N nodes written, root index updated
    - Phase 5 → ideas integrated (by tier); queued topics from Gates A/B with one-line rationale
-   - Phase 5d → N cascade branches traced, M drug→node pairs, K decision-forcing probes; trace at `ops/integration-guides/pathway-drug-trace-<slug>.md`
-   - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
+    - Phase 5d → N cascade branches traced, M drug→node pairs, K decision-forcing probes; trace at `ops/integration-guides/pathway-drug-trace-<slug>.md`
+    - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
+    - Phase 5z → N new glossary entries added, M terms filtered
+    - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
+    - Phase 5z → N glossary entries added, M terms filtered
     - Phase 6 → M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred); bump log updated with K bumps
     - Phase 7 → R reinforcement pairs, F feed-in pairs, C conflict pairs, I independents; J certainty bumps, K reductions, L tensions flagged; bump log updated with J+K adjustments
    - Phase 8 → build status
@@ -692,7 +695,7 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 ## Phase 5b — Intermediate Build Check
 
-**Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit) and after Phase 5c (differential analysis, `c` = clinical) and Phase 5d (pathway-to-drug tracing, `d` = drug). The lettering reflects content type, not execution order. Execution sequence: 5 → 5d → 5c → 5b → 5a. Phase 5d runs before 5c so that cascade-to-drug mappings are complete when 5c writes per-medication differential entries; if a topic triggers both, 5d's cascade nodes are available for 5c to cross-reference.
+**Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit) and after Phase 5c (differential analysis, `c` = clinical) and Phase 5d (pathway-to-drug tracing, `d` = drug). The lettering reflects content type, not execution order. Execution sequence: 5 → 5d → 5c → 5a → 5z → 5b. Phase 5d runs before 5c so that cascade-to-drug mappings are complete when 5c writes per-medication differential entries; if a topic triggers both, 5d's cascade nodes are available for 5c to cross-reference. Phase 5z (glossary review) runs after 5a when all chapter content is finalized.
 
 **Agent:** main session | **Model:** current
 
@@ -729,6 +732,69 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 - If Phase 5 reassessment adjusted any usefulness scores → update `mech/tx/expl/math/dx` columns in the subtree file to match reassessed values
 - If Phase 5 reassessment adjusted certainty → update `Cert` column in the subtree file to match reassessed value
 Update integrated count in root `hypotheses-trees.md` subtree index row.
+
+---
+
+## Phase 5z — Glossary Review
+
+**Agent:** main session | **Model:** haiku (mechanical check — cheap)
+
+**Purpose:** Scan newly added prose for undefined acronyms, medication names, and key terms that lack a tooltip entry in `web/glossary.json`. Prevent new content from introducing orphaned terminology that readers can't hover-to-explain.
+
+**Trigger:** Always run after Phase 5a (content final). Skips if no `.qmd` or `.typ` files were modified in Phases 3–5.
+
+**Procedure:**
+
+1. Extract all newly added acronyms/terms from the modified content:
+   ```bash
+   # From .qmd files (web)
+   git diff --name-only HEAD | grep '\.qmd$' | xargs grep -rohP '\b[A-Z]{2,}(?:/[A-Z]{2,})?(?:\d)?\b' | sort -u > tmp/new-terms.txt
+   # From .typ files (paper)
+   git diff --name-only HEAD | grep '\.typ$' | xargs grep -rohP '\b[A-Z]{2,}(?:/[A-Z]{2,})?(?:\d)?\b' | sort -u >> tmp/new-terms.txt
+   ```
+   Also grep for medication/generic names and long technical terms (lowercase, multi-word) that appear in the new prose.
+
+2. Cross-check against `web/glossary.json` keys:
+   ```bash
+   python3 -c "
+   import json
+   g = json.load(open('web/glossary.json'))
+   with open('tmp/new-terms.txt') as f:
+       terms = set(line.strip() for line in f if len(line.strip()) >= 3 and not line.isspace())
+   missing = sorted(t for t in terms if t not in g)
+   for m in missing:
+       print(m)
+   " > tmp/glossary-missing.txt
+   ```
+
+3. **Filter false positives:**
+   - Skip: Roman numerals (I, II, III, IV, V, VI, VII, VIII, IX, X, XI, XII, XIII, XIV, XV)
+   - Skip: common English words caught by the regex (THE, AND, FOR, WITH, THIS, THAT, FROM, HAVE, WILL, WHEN, THEN, THAN, ONLY, ALSO, VERY, MUCH, SUCH, EACH, MANY, SOME, MOST, LESS, MORE, OVER, UNDER, INTO, ONTO, UPON, WITHIN, THERE, THEIR, ABOUT, AFTER, OTHER, WHICH, WOULD, COULD, SHOULD, BEEN, BEING, DOING)
+   - Skip: single-character symbols, HTML entities, LaTeX commands
+   - Skip: file-extensions-as-words (.PDF, .CSV)
+   - Keep only: biomedical acronyms, medication names, methodological/statistical abbreviations, disease names, anatomical abbreviations, gene/protein symbols, pathway names
+
+4. **For each remaining term, add to `web/glossary.json`:**
+   - `label`: the term itself
+   - `category`: classify (medication, supplement, enzyme, pathway, condition, measurement, method, etc.)
+   - `definition`: one-sentence explanation accessible to an educated non-specialist
+   - If medication: add `generic`, `brand`, `class`, `rx` fields following existing schema
+   - Use bracket notation for `class` in JSON (JS reserved word)
+
+5. **For medications found in prose but in `glossary.json` only as bare molecules** (e.g., "Naltrexone" defined as a molecule but "LDN" is the clinical usage entry), ensure both forms are covered.
+
+6. Set `category` to `treatment` for non-drug interventions (CBT, GET, HBOT, pacing, etc.) that don't fit medication/supplement.
+
+| Category | Examples |
+|----------|----------|
+| `medication` | LDN, Gabapentin, Amitriptyline, Propranolol |
+| `supplement` | CoQ10, NAC, Magnesium, Vitamin D |
+| `medication_class` | SSRI, SNRI, TCA, NSAID |
+| `treatment` | CBT, GET, HBOT, pacing, FODMAP |
+
+**Guard:** If >20 missing terms found → pause and ask user: "Found N potential new glossary terms (<list first 10...>). Add all, or curate?" Wait for answer. This prevents spamming the glossary with noise from a large integration.
+
+**Report:** "Phase 5z complete: N new glossary entries added, M terms identified but filtered (false positives / already covered by existing entries). Terms added: [list]."
 
 ---
 

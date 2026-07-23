@@ -1,0 +1,3258 @@
+{
+  "ME/CFS": {
+    "label": "ME/CFS",
+    "category": "disease",
+    "definition": "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome: a complex, chronic, multi-system neuroimmune disease characterized by severe fatigue, post-exertional malaise, unrefreshing sleep, cognitive dysfunction, and autonomic dysregulation.",
+    "also": "ICD-11 code 8E49; also called ME, CFS, ME/CFS, SEID"
+  },
+  "PEM": {
+    "label": "PEM",
+    "category": "symptom",
+    "definition": "Post-Exertional Malaise: the cardinal symptom of ME/CFS — a disproportionate and delayed worsening of all symptoms following physical, cognitive, or emotional exertion, often appearing 24–72 hours after the trigger and lasting days to weeks.",
+    "also": "PENE (Post-Exertional Neuroimmune Exhaustion); PESE (Post-Exertional Symptom Exacerbation)"
+  },
+  "HRV": {
+    "label": "HRV",
+    "category": "measurement",
+    "definition": "Heart Rate Variability: the variation in time between successive heartbeats, reflecting autonomic nervous system balance. Reduced HRV (low parasympathetic tone) is consistently reported in ME/CFS."
+  },
+  "AQP4": {
+    "label": "AQP4",
+    "category": "protein",
+    "definition": "Aquaporin-4: a water-channel protein highly expressed on astrocyte end-feet, essential for glymphatic clearance of brain waste products. Inhibited by sustained norepinephrine, linking sympathetic overactivation to impaired brain waste removal in ME/CFS."
+  },
+  "TNF-α": {
+    "label": "TNF-α",
+    "category": "cytokine",
+    "definition": "Tumor Necrosis Factor Alpha: a pro-inflammatory cytokine elevated in many ME/CFS patients. Promotes inflammation, sickness behavior, and sleep fragmentation via hypothalamic action."
+  },
+  "IL-1β": {
+    "label": "IL-1β",
+    "category": "cytokine",
+    "definition": "Interleukin-1 Beta: a master pro-inflammatory cytokine that mediates fever, fatigue, and sickness behavior. Elevated in subsets of ME/CFS patients and known to activate the HPA axis."
+  },
+  "IL-6": {
+    "label": "IL-6",
+    "category": "cytokine",
+    "definition": "Interleukin-6: a pleiotropic cytokine with both pro- and anti-inflammatory roles. Elevated in many ME/CFS patients, associated with fatigue severity and neuroinflammation."
+  },
+  "IFN-γ": {
+    "label": "IFN-γ",
+    "category": "cytokine",
+    "definition": "Interferon Gamma: a key Th1 cytokine involved in antiviral and immune responses. Abnormal IFN-γ signaling is found in ME/CFS immune dysfunction."
+  },
+  "CRP": {
+    "label": "CRP",
+    "category": "biomarker",
+    "definition": "C-Reactive Protein: an acute-phase protein produced by the liver in response to inflammation. Often within normal range in ME/CFS despite chronic inflammation, limiting its diagnostic utility."
+  },
+  "ESR": {
+    "label": "ESR",
+    "category": "biomarker",
+    "definition": "Erythrocyte Sedimentation Rate: a non-specific marker of inflammation measuring how quickly red blood cells settle. Typically normal in ME/CFS."
+  },
+  "NK": {
+    "label": "NK",
+    "category": "immune",
+    "definition": "Natural Killer cells: cytotoxic lymphocytes of the innate immune system. Reduced NK cell function (but not number) is one of the most consistently replicated immune abnormalities in ME/CFS."
+  },
+  "HPA": {
+    "label": "HPA",
+    "category": "axis",
+    "definition": "Hypothalamic-Pituitary-Adrenal axis: the central stress-response system. Blunted HPA axis responsiveness (low cortisol output) is a replicated finding in ME/CFS."
+  },
+  "ANS": {
+    "label": "ANS",
+    "category": "system",
+    "definition": "Autonomic Nervous System: the branch of the nervous system controlling involuntary functions (heart rate, blood pressure, digestion, temperature). Dysfunction of the ANS is central to ME/CFS pathophysiology."
+  },
+  "CNS": {
+    "label": "CNS",
+    "category": "system",
+    "definition": "Central Nervous System: the brain and spinal cord. ME/CFS involves CNS dysfunction including neuroinflammation, reduced cerebral blood flow, and cognitive impairment."
+  },
+  "PNS": {
+    "label": "PNS",
+    "category": "system",
+    "definition": "Parasympathetic Nervous System: the 'rest and digest' branch of the autonomic nervous system. Parasympathetic tone is reduced in ME/CFS, contributing to the 'tired but wired' state."
+  },
+  "SNS": {
+    "label": "SNS",
+    "category": "system",
+    "definition": "Sympathetic Nervous System: the 'fight or flight' branch of the autonomic nervous system. Sympathetic overactivation at rest and during sleep is a hallmark of ME/CFS."
+  },
+  "BBB": {
+    "label": "BBB",
+    "category": "barrier",
+    "definition": "Blood-Brain Barrier: the highly selective semipermeable border separating circulating blood from the brain. BBB dysfunction/permeability is implicated in ME/CFS neuroinflammation."
+  },
+  "OI": {
+    "label": "OI",
+    "category": "symptom",
+    "definition": "Orthostatic Intolerance: the inability to maintain blood pressure and cerebral perfusion when upright. Common in ME/CFS, manifesting as dizziness, lightheadedness, palpitations, and presyncope upon standing."
+  },
+  "POTS": {
+    "label": "POTS",
+    "category": "condition",
+    "definition": "Postural Orthostatic Tachycardia Syndrome: a form of orthostatic intolerance defined by a heart rate increase of ≥30 BPM (≥40 in adolescents) within 10 minutes of standing, without orthostatic hypotension. Frequent comorbidity of ME/CFS.",
+    "also": "Common subtypes: neuropathic, hyperadrenergic, hypovolemic"
+  },
+  "NMH": {
+    "label": "NMH",
+    "category": "condition",
+    "definition": "Neurally Mediated Hypotension: a form of orthostatic intolerance where blood pressure drops after prolonged standing due to a neurally mediated reflex. Also called vasovagal syncope or neurocardiogenic syncope."
+  },
+  "MCAS": {
+    "label": "MCAS",
+    "category": "condition",
+    "definition": "Mast Cell Activation Syndrome: a condition of inappropriate mast cell degranulation causing multi-system symptoms (flushing, itching, GI distress, tachycardia, wheezing). Frequently comorbid with ME/CFS and POTS.",
+    "also": "MCAS/HIT (with histamine intolerance); MCAS/POTS"
+  },
+  "MCS": {
+    "label": "MCS",
+    "category": "condition",
+    "definition": "Multiple Chemical Sensitivity: a condition of heightened reactivity to low levels of chemicals (fragrances, solvents, cleaning products). Reported comorbidity in a subset of ME/CFS patients."
+  },
+  "FM": {
+    "label": "FM",
+    "category": "condition",
+    "definition": "Fibromyalgia: a chronic condition of widespread pain, fatigue, cognitive dysfunction, and sleep disturbance. Shares substantial clinical overlap with ME/CFS; ~35–70% of ME/CFS patients also meet FM criteria.",
+    "also": "FMS (Fibromyalgia Syndrome)"
+  },
+  "IBS": {
+    "label": "IBS",
+    "category": "condition",
+    "definition": "Irritable Bowel Syndrome: a functional gastrointestinal disorder characterized by abdominal pain, bloating, and altered bowel habits. Highly prevalent in ME/CFS (30–60%)."
+  },
+  "IBD": {
+    "label": "IBD",
+    "category": "condition",
+    "definition": "Inflammatory Bowel Disease: a group of chronic inflammatory conditions of the GI tract (Crohn's disease, ulcerative colitis). Overlaps with ME/CFS in symptom burden but is a distinct inflammatory pathology."
+  },
+  "GERD": {
+    "label": "GERD",
+    "category": "condition",
+    "definition": "Gastroesophageal Reflux Disease: chronic acid reflux from the stomach into the esophagus. Common comorbidity in ME/CFS."
+  },
+  "EDS": {
+    "label": "EDS",
+    "category": "condition",
+    "definition": "Ehlers-Danlos Syndrome: a group of inherited connective tissue disorders characterized by joint hypermobility, skin hyperextensibility, and tissue fragility. Hypermobile EDS (hEDS) is the most common subtype co-occurring with ME/CFS.",
+    "also": "hEDS (hypermobile type); HSD (Hypermobility Spectrum Disorder)"
+  },
+  "HSD": {
+    "label": "HSD",
+    "category": "condition",
+    "definition": "Hypermobility Spectrum Disorder: a connective tissue disorder characterized by joint hypermobility with associated symptoms (pain, fatigue, GI dysfunction, dysautonomia). Closely related to and often co-occurring with ME/CFS."
+  },
+  "SFN": {
+    "label": "SFN",
+    "category": "condition",
+    "definition": "Small Fiber Neuropathy: damage to small unmyelinated nerve fibers (Aδ and C fibers), causing neuropathic pain, burning, tingling, and autonomic symptoms. Identified in a significant subset of ME/CFS patients via skin biopsy."
+  },
+  "CCI": {
+    "label": "CCI",
+    "category": "condition",
+    "definition": "Craniocervical Instability: abnormal movement at the junction of the skull and upper cervical spine, potentially compressing the brainstem and causing neurological symptoms. A controversial but recognized finding in a subset of severe ME/CFS patients."
+  },
+  "AAI": {
+    "label": "AAI",
+    "category": "condition",
+    "definition": "Atlantoaxial Instability: excessive movement between the first and second cervical vertebrae (C1–C2). Often coexists with CCI in ME/CFS patients with connective tissue disorders."
+  },
+  "ICP": {
+    "label": "ICP",
+    "category": "measurement",
+    "definition": "Intracranial Pressure: the pressure inside the skull and on brain tissue. Abnormal ICP dynamics have been hypothesized in ME/CFS, particularly in the context of CCI."
+  },
+  "IIH": {
+    "label": "IIH",
+    "category": "condition",
+    "definition": "Idiopathic Intracranial Hypertension: elevated intracranial pressure of unknown cause, producing headache, visual disturbances, and pulsatile tinnitus. May overlap with ME/CFS symptomatology."
+  },
+  "CSF": {
+    "label": "CSF",
+    "category": "fluid",
+    "definition": "Cerebrospinal Fluid: the clear fluid surrounding the brain and spinal cord. ME/CFS CSF studies show elevated cytokines, lactate, and other metabolic abnormalities."
+  },
+  "VEGF": {
+    "label": "VEGF",
+    "category": "protein",
+    "definition": "Vascular Endothelial Growth Factor: a signaling protein that stimulates blood vessel formation. Elevated VEGF has been reported in ME/CFS, potentially reflecting endothelial dysfunction."
+  },
+  "TGF-β": {
+    "label": "TGF-β",
+    "category": "cytokine",
+    "definition": "Transforming Growth Factor Beta: a cytokine with immunosuppressive and pro-fibrotic functions. Elevated in some ME/CFS studies, associated with Th2/Th17 skewing."
+  },
+  "BDNF": {
+    "label": "BDNF",
+    "category": "neurotrophin",
+    "definition": "Brain-Derived Neurotrophic Factor: a protein supporting neuronal survival, growth, and synaptic plasticity. Altered BDNF levels have been reported in ME/CFS."
+  },
+  "NGF": {
+    "label": "NGF",
+    "category": "neurotrophin",
+    "definition": "Nerve Growth Factor: a neurotrophin important for sensory and sympathetic neuron survival. Elevated NGF may contribute to pain and hyperalgesia in ME/CFS."
+  },
+  "ATP": {
+    "label": "ATP",
+    "category": "molecule",
+    "definition": "Adenosine Triphosphate: the primary energy currency of cells. Impaired ATP production via mitochondrial dysfunction is a central hypothesis in ME/CFS energy failure."
+  },
+  "ADP": {
+    "label": "ADP",
+    "category": "molecule",
+    "definition": "Adenosine Diphosphate: the product of ATP hydrolysis. Elevated ADP/ATP ratios in ME/CFS indicate impaired energy metabolism."
+  },
+  "AMP": {
+    "label": "AMP",
+    "category": "molecule",
+    "definition": "Adenosine Monophosphate: a nucleotide and energy-sensing molecule. Elevated AMP activates AMPK, the cellular energy sensor frequently implicated in ME/CFS metabolic dysfunction."
+  },
+  "NAD+": {
+    "label": "NAD+",
+    "category": "molecule",
+    "definition": "Nicotinamide Adenine Dinucleotide (oxidized): a critical coenzyme in energy metabolism (glycolysis, TCA cycle, OXPHOS). NAD+ depletion is hypothesized as a key metabolic bottleneck in ME/CFS.",
+    "also": "NADH (reduced form); NAD+/NADH ratio"
+  },
+  "NADPH": {
+    "label": "NADPH",
+    "category": "molecule",
+    "definition": "Nicotinamide Adenine Dinucleotide Phosphate (reduced): essential for antioxidant defense (glutathione recycling) and biosynthetic reactions. NADPH depletion may impair redox balance in ME/CFS."
+  },
+  "FAD": {
+    "label": "FAD",
+    "category": "molecule",
+    "definition": "Flavin Adenine Dinucleotide: a redox cofactor in the electron transport chain (Complex II) and fatty acid oxidation. FAD-dependent enzymes are critical to mitochondrial energy production."
+  },
+  "ROS": {
+    "label": "ROS",
+    "category": "molecule",
+    "definition": "Reactive Oxygen Species: chemically reactive oxygen-containing molecules (superoxide, hydrogen peroxide, hydroxyl radical). Excessive ROS production (oxidative stress) is a consistent finding in ME/CFS."
+  },
+  "RNS": {
+    "label": "RNS",
+    "category": "molecule",
+    "definition": "Reactive Nitrogen Species: nitrogen-containing free radicals (peroxynitrite, nitric oxide). Combined ROS/RNS stress contributes to nitric oxide–peroxynitrite cycle dysfunction in ME/CFS."
+  },
+  "NOS": {
+    "label": "NOS",
+    "category": "enzyme",
+    "definition": "Nitric Oxide Synthase: the enzyme family producing nitric oxide. Dysregulation of NOS isoforms (iNOS, eNOS, nNOS) is implicated in ME/CFS vascular and inflammatory pathology.",
+    "also": "iNOS (inducible), eNOS (endothelial), nNOS (neuronal)"
+  },
+  "ONOO": {
+    "label": "ONOO",
+    "category": "molecule",
+    "definition": "Peroxynitrite: a potent oxidant formed by the reaction of nitric oxide with superoxide. Central to the NO/ONOO cycle hypothesis of ME/CFS pathophysiology."
+  },
+  "COX": {
+    "label": "COX",
+    "category": "enzyme",
+    "definition": "Cyclooxygenase: enzyme producing prostaglandins from arachidonic acid. COX-2 is induced by inflammation; implicated in ME/CFS neuroinflammation and pain."
+  },
+  "LOX": {
+    "label": "LOX",
+    "category": "enzyme",
+    "definition": "Lipoxygenase: enzyme producing leukotrienes and other inflammatory mediators from arachidonic acid. LOX pathway activation contributes to oxidative stress in ME/CFS."
+  },
+  "MAPK": {
+    "label": "MAPK",
+    "category": "pathway",
+    "definition": "Mitogen-Activated Protein Kinase: a signaling pathway regulating cell proliferation, differentiation, and stress responses. MAPK/ERK and p38 MAPK activation have been reported in ME/CFS immune cells."
+  },
+  "ERK": {
+    "label": "ERK",
+    "category": "pathway",
+    "definition": "Extracellular signal-Regulated Kinase: a MAPK subfamily involved in growth factor signaling. Abnormal ERK activation may contribute to immune dysfunction in ME/CFS."
+  },
+  "JNK": {
+    "label": "JNK",
+    "category": "pathway",
+    "definition": "c-Jun N-terminal Kinase: a stress-activated MAPK responding to cytokines, oxidative stress, and ER stress. JNK activation may drive inflammation and apoptosis in ME/CFS."
+  },
+  "NF-κB": {
+    "label": "NF-κB",
+    "category": "transcription factor",
+    "definition": "Nuclear Factor Kappa B: a master transcription factor driving pro-inflammatory gene expression. Chronic NF-κB activation is a candidate mechanism for sustained neuroinflammation in ME/CFS."
+  },
+  "mTOR": {
+    "label": "mTOR",
+    "category": "pathway",
+    "definition": "Mechanistic Target of Rapamycin: a central nutrient/energy sensor regulating cell growth and metabolism. mTOR dysregulation is linked to ME/CFS metabolic inflexibility."
+  },
+  "AMPK": {
+    "label": "AMPK",
+    "category": "enzyme",
+    "definition": "AMP-Activated Protein Kinase: the cellular energy sensor activated by rising AMP/ATP ratios. Impaired AMPK activation may prevent appropriate energy-conservation responses in ME/CFS."
+  },
+  "PGC-1α": {
+    "label": "PGC-1α",
+    "category": "transcription factor",
+    "definition": "Peroxisome proliferator-activated receptor Gamma Coactivator 1-Alpha: the master regulator of mitochondrial biogenesis. Reduced PGC-1α expression may underlie mitochondrial impairment in ME/CFS."
+  },
+  "SIRT": {
+    "label": "SIRT",
+    "category": "enzyme",
+    "definition": "Sirtuins: a family of NAD+-dependent deacetylase enzymes regulating metabolism, stress resistance, and aging. SIRT1 and SIRT3 dysfunction may contribute to ME/CFS metabolic dysregulation."
+  },
+  "NRF2": {
+    "label": "NRF2",
+    "category": "transcription factor",
+    "definition": "Nuclear factor Erythroid 2-Related Factor 2: the master regulator of antioxidant gene expression. Impaired NRF2 activation leads to reduced antioxidant defenses in ME/CFS."
+  },
+  "SOD": {
+    "label": "SOD",
+    "category": "enzyme",
+    "definition": "Superoxide Dismutase: the primary antioxidant enzyme converting superoxide to hydrogen peroxide. Reduced SOD activity is reported in ME/CFS."
+  },
+  "GPX": {
+    "label": "GPX",
+    "category": "enzyme",
+    "definition": "Glutathione Peroxidase: a selenium-dependent enzyme reducing hydrogen peroxide and lipid hydroperoxides, using glutathione. GPX dysfunction impairs antioxidant defense in ME/CFS."
+  },
+  "GSH": {
+    "label": "GSH",
+    "category": "molecule",
+    "definition": "Glutathione (reduced): the body's master intracellular antioxidant. Reduced GSH and low GSH/GSSG ratios are frequently reported in ME/CFS, indicating oxidative stress."
+  },
+  "GSSG": {
+    "label": "GSSG",
+    "category": "molecule",
+    "definition": "Glutathione Disulfide (oxidized): the oxidized form of glutathione. Elevated GSSG/GSH ratios indicate oxidative stress, a consistent finding in ME/CFS."
+  },
+  "MDA": {
+    "label": "MDA",
+    "category": "biomarker",
+    "definition": "Malondialdehyde: a marker of lipid peroxidation produced by oxidative damage to cell membranes. Elevated MDA is a consistent finding in ME/CFS oxidative stress research."
+  },
+  "GABA": {
+    "label": "GABA",
+    "category": "neurotransmitter",
+    "definition": "Gamma-Aminobutyric Acid: the brain's primary inhibitory neurotransmitter. GABAergic dysfunction may contribute to sleep disturbance, anxiety, and sensory hypersensitivity in ME/CFS.",
+    "also": "GABA-A and GABA-B receptor subtypes"
+  },
+  "NMDA": {
+    "label": "NMDA",
+    "category": "receptor",
+    "definition": "N-Methyl-D-Aspartate receptor: a glutamate receptor subtype involved in synaptic plasticity, learning, and excitotoxicity. NMDA receptor overactivation is implicated in ME/CFS central sensitization and neurotoxicity."
+  },
+  "DA": {
+    "label": "DA",
+    "category": "neurotransmitter",
+    "definition": "Dopamine: a catecholamine neurotransmitter involved in motivation, reward, motor control, and cognitive function. Dopaminergic dysfunction is implicated in ME/CFS fatigue and cognitive symptoms."
+  },
+  "NE": {
+    "label": "NE",
+    "category": "neurotransmitter",
+    "definition": "Norepinephrine (Noradrenaline): a catecholamine neurotransmitter and hormone driving sympathetic nervous system activation. Sustained elevated NE at night is a hallmark of autonomic dysfunction in ME/CFS."
+  },
+  "5-HT": {
+    "label": "5-HT",
+    "category": "neurotransmitter",
+    "definition": "5-Hydroxytryptamine (Serotonin): a monoamine neurotransmitter involved in mood, sleep, appetite, pain perception, and GI function. Serotonergic dysfunction is implicated in multiple ME/CFS symptom domains."
+  },
+  "ACh": {
+    "label": "ACh",
+    "category": "neurotransmitter",
+    "definition": "Acetylcholine: the primary parasympathetic neurotransmitter. Reduced cholinergic (vagal) tone contributes to autonomic imbalance in ME/CFS."
+  },
+  "CRH": {
+    "label": "CRH",
+    "category": "hormone",
+    "definition": "Corticotropin-Releasing Hormone: hypothalamic hormone triggering ACTH release from the pituitary. CRH dysregulation is part of the blunted HPA axis in ME/CFS."
+  },
+  "ACTH": {
+    "label": "ACTH",
+    "category": "hormone",
+    "definition": "Adrenocorticotropic Hormone: pituitary hormone stimulating cortisol release from the adrenal glands. Blunted ACTH responses contribute to low cortisol output in ME/CFS."
+  },
+  "GH": {
+    "label": "GH",
+    "category": "hormone",
+    "definition": "Growth Hormone: pituitary hormone supporting tissue repair, metabolism, and immune function. Altered GH secretion, especially nocturnal GH, has been reported in ME/CFS."
+  },
+  "IGF-1": {
+    "label": "IGF-1",
+    "category": "hormone",
+    "definition": "Insulin-like Growth Factor 1: hormone mediating many GH effects. Reduced IGF-1 has been reported in subsets of ME/CFS patients."
+  },
+  "TSH": {
+    "label": "TSH",
+    "category": "hormone",
+    "definition": "Thyroid-Stimulating Hormone: pituitary hormone controlling thyroid hormone production. TSH is commonly tested but often normal in ME/CFS despite symptoms resembling hypothyroidism."
+  },
+  "DHEA": {
+    "label": "DHEA",
+    "category": "hormone",
+    "definition": "Dehydroepiandrosterone: an adrenal steroid hormone precursor. Low DHEA-S levels have been reported in ME/CFS, reflecting adrenal dysfunction.",
+    "also": "DHEA-S (sulfated form, commonly measured)"
+  },
+  "RAAS": {
+    "label": "RAAS",
+    "category": "axis",
+    "definition": "Renin-Angiotensin-Aldosterone System: the hormonal system regulating blood pressure, fluid balance, and vascular tone. RAAS dysfunction contributes to orthostatic intolerance and low blood volume in ME/CFS."
+  },
+  "ACE": {
+    "label": "ACE",
+    "category": "enzyme",
+    "definition": "Angiotensin-Converting Enzyme: converts angiotensin I to angiotensin II in the RAAS. ACE dysregulation may contribute to vascular and autonomic dysfunction in ME/CFS."
+  },
+  "ANP": {
+    "label": "ANP",
+    "category": "hormone",
+    "definition": "Atrial Natriuretic Peptide: heart-derived hormone promoting sodium excretion and vasodilation. ANP levels may be altered in ME/CFS-related dysautonomia."
+  },
+  "BNP": {
+    "label": "BNP",
+    "category": "hormone",
+    "definition": "B-Type Natriuretic Peptide: ventricular hormone responding to cardiac stretch. Used clinically to assess heart failure; generally normal in ME/CFS."
+  },
+  "RBC": {
+    "label": "RBC",
+    "category": "cell",
+    "definition": "Red Blood Cells (Erythrocytes): oxygen-carrying blood cells. RBC deformability and morphology abnormalities have been reported in ME/CFS."
+  },
+  "WBC": {
+    "label": "WBC",
+    "category": "cell",
+    "definition": "White Blood Cells (Leukocytes): immune cells including neutrophils, lymphocytes, monocytes, eosinophils, basophils. WBC counts are generally normal in ME/CFS."
+  },
+  "Hb": {
+    "label": "Hb",
+    "category": "measurement",
+    "definition": "Hemoglobin: the iron-containing oxygen-carrying protein in red blood cells. Normal in ME/CFS but occasionally low due to comorbid iron deficiency."
+  },
+  "GWAS": {
+    "label": "GWAS",
+    "category": "method",
+    "definition": "Genome-Wide Association Study: a method scanning the entire genome for genetic variants associated with a disease. GWAS in ME/CFS have identified suggestive loci but no definitive genetic marker."
+  },
+  "SNP": {
+    "label": "SNP",
+    "category": "method",
+    "definition": "Single Nucleotide Polymorphism: a single base-pair variation in DNA. Certain SNPs (e.g., MTHFR, COMT) have been investigated for association with ME/CFS."
+  },
+  "MTHFR": {
+    "label": "MTHFR",
+    "category": "enzyme",
+    "definition": "Methylenetetrahydrofolate Reductase: enzyme critical to folate metabolism and methylation. MTHFR polymorphisms (e.g., C677T) have been investigated in ME/CFS for methylation cycle dysfunction."
+  },
+  "COMT": {
+    "label": "COMT",
+    "category": "enzyme",
+    "definition": "Catechol-O-Methyltransferase: enzyme degrading catecholamine neurotransmitters (dopamine, norepinephrine, epinephrine). COMT polymorphisms (e.g., Val158Met) may influence pain sensitivity and cognitive function in ME/CFS."
+  },
+  "MAO": {
+    "label": "MAO",
+    "category": "enzyme",
+    "definition": "Monoamine Oxidase: enzyme breaking down monoamine neurotransmitters (serotonin, dopamine, norepinephrine). MAO inhibitors (MAOIs) are a class of antidepressants rarely used in ME/CFS.",
+    "also": "MAO-A (preferentially degrades serotonin, NE); MAO-B (preferentially degrades dopamine)"
+  },
+  "NET": {
+    "label": "NET",
+    "category": "transporter",
+    "definition": "Norepinephrine Transporter: protein reuptaking norepinephrine from synapses. NET dysfunction may contribute to sympathetic overactivity in ME/CFS."
+  },
+  "SERT": {
+    "label": "SERT",
+    "category": "transporter",
+    "definition": "Serotonin Transporter: protein reuptaking serotonin from synapses. Targeted by SSRIs; SERT polymorphisms (5-HTTLPR) have been studied in ME/CFS."
+  },
+  "DAT": {
+    "label": "DAT",
+    "category": "transporter",
+    "definition": "Dopamine Transporter: protein reuptaking dopamine from synapses. Reduced DAT availability in the striatum has been reported in ME/CFS neuroimaging."
+  },
+  "TH": {
+    "label": "TH",
+    "category": "enzyme",
+    "definition": "Tyrosine Hydroxylase: the rate-limiting enzyme in catecholamine synthesis (converts tyrosine to L-DOPA). TH dysregulation may contribute to norepinephrine excess in ME/CFS."
+  },
+  "TPH": {
+    "label": "TPH",
+    "category": "enzyme",
+    "definition": "Tryptophan Hydroxylase: the rate-limiting enzyme in serotonin synthesis (converts tryptophan to 5-HTP). TPH dysregulation may alter serotonin levels in ME/CFS.",
+    "also": "TPH1 (peripheral); TPH2 (neuronal)"
+  },
+  "IDO": {
+    "label": "IDO",
+    "category": "enzyme",
+    "definition": "Indoleamine 2,3-Dioxygenase: enzyme diverting tryptophan metabolism from serotonin to the kynurenine pathway. IDO is induced by IFN-γ and inflammation; IDO activation is linked to ME/CFS tryptophan depletion and neurotoxicity."
+  },
+  "TDO": {
+    "label": "TDO",
+    "category": "enzyme",
+    "definition": "Tryptophan 2,3-Dioxygenase: liver enzyme initiating the kynurenine pathway. Together with IDO, TDO activation shifts tryptophan away from serotonin/melatonin toward neurotoxic metabolites in ME/CFS."
+  },
+  "KYN": {
+    "label": "KYN",
+    "category": "metabolite",
+    "definition": "Kynurenine: the first intermediate of the kynurenine pathway from tryptophan. The KYN/tryptophan ratio is a marker of IDO activation and immune dysfunction in ME/CFS."
+  },
+  "KYNA": {
+    "label": "KYNA",
+    "category": "metabolite",
+    "definition": "Kynurenic Acid: a neuroprotective metabolite of the kynurenine pathway acting as an NMDA receptor antagonist. The KYNA/QUIN ratio determines neuroprotection vs neurotoxicity balance in ME/CFS."
+  },
+  "QUIN": {
+    "label": "QUIN",
+    "category": "metabolite",
+    "definition": "Quinolinic Acid: a neurotoxic kynurenine metabolite and NMDA receptor agonist. Elevated QUIN promotes excitotoxicity and neuroinflammation; QUIN/KYNA imbalance is hypothesized in ME/CFS."
+  },
+  "LDH": {
+    "label": "LDH",
+    "category": "enzyme",
+    "definition": "Lactate Dehydrogenase: enzyme interconverting pyruvate and lactate. Elevated LDH may reflect metabolic shift toward anaerobic glycolysis in ME/CFS."
+  },
+  "CK": {
+    "label": "CK",
+    "category": "enzyme",
+    "definition": "Creatine Kinase: enzyme involved in ATP regeneration in muscle. Generally normal in ME/CFS despite severe fatigue, distinguishing it from primary muscle diseases."
+  },
+  "AST": {
+    "label": "AST",
+    "category": "enzyme",
+    "definition": "Aspartate Aminotransferase: liver enzyme commonly measured in blood panels. Generally normal in ME/CFS; elevated AST suggests other pathology."
+  },
+  "ALT": {
+    "label": "ALT",
+    "category": "enzyme",
+    "definition": "Alanine Aminotransferase: liver enzyme measured in standard blood panels. Normal in ME/CFS despite fatigue and malaise."
+  },
+  "GFR": {
+    "label": "GFR",
+    "category": "measurement",
+    "definition": "Glomerular Filtration Rate: measure of kidney function. eGFR (estimated GFR) is typically normal in ME/CFS.",
+    "also": "eGFR"
+  },
+  "RA": {
+    "label": "RA",
+    "category": "condition",
+    "definition": "Rheumatoid Arthritis: an autoimmune inflammatory arthritis. Joint pain and fatigue symptoms may overlap with ME/CFS; RA is a differential diagnosis."
+  },
+  "SLE": {
+    "label": "SLE",
+    "category": "condition",
+    "definition": "Systemic Lupus Erythematosus: a systemic autoimmune disease affecting multiple organs. Fatigue is a dominant symptom; SLE must be ruled out before diagnosing ME/CFS."
+  },
+  "MS": {
+    "label": "MS",
+    "category": "condition",
+    "definition": "Multiple Sclerosis: a demyelinating autoimmune disease of the CNS. Fatigue is the most common symptom of MS; MS is a key differential diagnosis for ME/CFS."
+  },
+  "PD": {
+    "label": "PD",
+    "category": "condition",
+    "definition": "Parkinson's Disease: a neurodegenerative disorder of the dopaminergic system. Fatigue and autonomic dysfunction overlap with ME/CFS symptoms."
+  },
+  "ALS": {
+    "label": "ALS",
+    "category": "condition",
+    "definition": "Amyotrophic Lateral Sclerosis: a progressive neurodegenerative disease of motor neurons. Severe fatigue can be a prodromal feature."
+  },
+  "AD": {
+    "label": "AD",
+    "category": "condition",
+    "definition": "Alzheimer's Disease: the most common neurodegenerative dementia. Not a comorbidity of ME/CFS, but relevant to glymphatic clearance research."
+  },
+  "PTSD": {
+    "label": "PTSD",
+    "category": "condition",
+    "definition": "Post-Traumatic Stress Disorder: a psychiatric condition following trauma with hyperarousal and avoidance. Higher prevalence in ME/CFS; trauma history may influence disease expression."
+  },
+  "GAD": {
+    "label": "GAD",
+    "category": "condition",
+    "definition": "Generalized Anxiety Disorder: chronic excessive worry and anxiety. Higher prevalence in ME/CFS; may be secondary to autonomic hyperarousal.",
+    "also": "Not to be confused with the enzyme GAD (glutamic acid decarboxylase)"
+  },
+  "MDD": {
+    "label": "MDD",
+    "category": "condition",
+    "definition": "Major Depressive Disorder: mood disorder characterized by persistent low mood and anhedonia. Depression is a common comorbidity but ME/CFS is a distinct disease entity with distinct pathophysiology."
+  },
+  "OCD": {
+    "label": "OCD",
+    "category": "condition",
+    "definition": "Obsessive-Compulsive Disorder: a condition of intrusive thoughts and compulsive behaviors. Reported at elevated rates in ME/CFS cohorts."
+  },
+  "ADHD": {
+    "label": "ADHD",
+    "category": "condition",
+    "definition": "Attention-Deficit/Hyperactivity Disorder: a neurodevelopmental condition of inattention, hyperactivity, and impulsivity. Associated with ME/CFS via shared dopaminergic dysfunction and increased prevalence."
+  },
+  "ASD": {
+    "label": "ASD",
+    "category": "condition",
+    "definition": "Autism Spectrum Disorder: a neurodevelopmental condition of social communication differences and restricted/repetitive behaviors. Higher prevalence in ME/CFS cohorts; both conditions share sensory sensitivities and autonomic dysregulation."
+  },
+  "EBV": {
+    "label": "EBV",
+    "category": "pathogen",
+    "definition": "Epstein-Barr Virus: a herpesvirus causing infectious mononucleosis. EBV reactivation is one of the most studied infectious triggers of ME/CFS onset."
+  },
+  "HHV-6": {
+    "label": "HHV-6",
+    "category": "pathogen",
+    "definition": "Human Herpesvirus 6: a herpesvirus commonly infecting children (roseola). HHV-6 reactivation has been linked to ME/CFS onset and severity."
+  },
+  "CMV": {
+    "label": "CMV",
+    "category": "pathogen",
+    "definition": "Cytomegalovirus: a common herpesvirus. CMV seropositivity and reactivation have been investigated in ME/CFS cohorts."
+  },
+  "HSV": {
+    "label": "HSV",
+    "category": "pathogen",
+    "definition": "Herpes Simplex Virus: HSV-1 (oral) and HSV-2 (genital). Reactivation may contribute to ME/CFS symptom flares.",
+    "also": "HSV-1, HSV-2"
+  },
+  "VZV": {
+    "label": "VZV",
+    "category": "pathogen",
+    "definition": "Varicella Zoster Virus: causes chickenpox and shingles. VZV reactivation is a possible trigger or contributor to ME/CFS."
+  },
+  "SARS-CoV-2": {
+    "label": "SARS-CoV-2",
+    "category": "pathogen",
+    "definition": "Severe Acute Respiratory Syndrome Coronavirus 2: the virus causing COVID-19. A major trigger for post-infectious ME/CFS-like illness (Long COVID / PASC), with ~50% of Long COVID patients meeting ME/CFS diagnostic criteria."
+  },
+  "HIV": {
+    "label": "HIV",
+    "category": "pathogen",
+    "definition": "Human Immunodeficiency Virus: the virus causing AIDS. HIV-associated fatigue and ME/CFS share overlapping features; HIV must be excluded before ME/CFS diagnosis."
+  },
+  "PASC": {
+    "label": "PASC",
+    "category": "condition",
+    "definition": "Post-Acute Sequelae of SARS-CoV-2 infection (Long COVID): persistent symptoms following COVID-19, with substantial clinical and biological overlap with ME/CFS."
+  },
+  "LC": {
+    "label": "LC",
+    "category": "condition",
+    "definition": "Long COVID: shorthand for PASC. Approximately 43–58% of Long COVID patients meet ME/CFS criteria; the two conditions share PEM, orthostatic intolerance, cognitive dysfunction, and metabolic abnormalities."
+  },
+  "SIBO": {
+    "label": "SIBO",
+    "category": "condition",
+    "definition": "Small Intestinal Bacterial Overgrowth: excessive bacterial colonization of the small intestine causing bloating, malabsorption, and systemic symptoms. Highly prevalent in ME/CFS (reported in 40–70% of patients)."
+  },
+  "FMT": {
+    "label": "FMT",
+    "category": "treatment",
+    "definition": "Fecal Microbiota Transplantation: transfer of gut microbiota from a healthy donor to a patient. Investigated experimentally for ME/CFS gut microbiome dysfunction."
+  },
+  "CBT": {
+    "label": "CBT",
+    "category": "treatment",
+    "definition": "Cognitive-Behavioral Therapy: a psychological intervention. No longer recommended by NICE as a curative treatment for ME/CFS; may have supportive role for coping with chronic illness but does not address underlying pathophysiology."
+  },
+  "GET": {
+    "label": "GET",
+    "category": "treatment",
+    "definition": "Graded Exercise Therapy: a progressive exercise program. Contraindicated in ME/CFS — NICE (2021) explicitly recommends against GET due to risk of harm (PEM exacerbation). Distinct from pacing/energy management."
+  },
+  "LDN": {
+    "label": "LDN",
+    "category": "medication",
+    "definition": "Low-Dose Naltrexone (1.5–4.5 mg/day): an opioid antagonist with paradoxical anti-inflammatory and immunomodulatory effects at low doses, via transient opioid receptor blockade and toll-like receptor 4 (TLR4) antagonism on microglia. Used off-label for ME/CFS, fibromyalgia, and autoimmune conditions.",
+    "generic": "Naltrexone",
+    "brand": "Revia, Vivitrol (standard dose); compounded for LDN",
+    "class": "Opioid antagonist / immunomodulator",
+    "rx": "Prescription (US, EU); must be compounded for LDN dosing"
+  },
+  "IVIG": {
+    "label": "IVIG",
+    "category": "medication",
+    "definition": "Intravenous Immunoglobulin: pooled antibodies from thousands of donors, administered intravenously. Immunomodulatory; investigated in ME/CFS for immune dysfunction and autoantibody-mediated subsets. Expensive and supply-limited.",
+    "generic": "Immune globulin (human)",
+    "brand": "Gammagard, Privigen, Octagam, Gamunex",
+    "class": "Immunoglobulin replacement / immunomodulator",
+    "rx": "Prescription only; restricted to hospital/infusion center administration"
+  },
+  "SCIG": {
+    "label": "SCIG",
+    "category": "medication",
+    "definition": "Subcutaneous Immunoglobulin: same as IVIG but administered under the skin, allowing home self-administration. Used in ME/CFS where IVIG shows benefit but infusion center access is a barrier.",
+    "generic": "Immune globulin (human) subcutaneous",
+    "brand": "Hizentra, Cuvitru, Xembify",
+    "class": "Immunoglobulin replacement / immunomodulator",
+    "rx": "Prescription only"
+  },
+  "NAC": {
+    "label": "NAC",
+    "category": "supplement",
+    "definition": "N-Acetyl Cysteine: a precursor to glutathione, the body's master antioxidant. Used in ME/CFS for oxidative stress; also shows mucolytic, anti-inflammatory, and glutamate-modulating effects.",
+    "generic": "Acetylcysteine",
+    "brand": "Mucomyst, various supplement brands",
+    "class": "Antioxidant / mucolytic / glutathione precursor",
+    "rx": "OTC (as supplement); prescription for inhalation form"
+  },
+  "CoQ10": {
+    "label": "CoQ10",
+    "category": "supplement",
+    "definition": "Coenzyme Q10 (Ubiquinone/Ubiquinol): a critical component of the mitochondrial electron transport chain (Complex I–II shuttle) and a lipid-soluble antioxidant. CoQ10 levels are reduced in ME/CFS; supplementation is a common mitochondrial support strategy.",
+    "generic": "Coenzyme Q10",
+    "brand": "Ubiquinone, Ubiquinol (reduced/bioactive form)",
+    "class": "Mitochondrial cofactor / antioxidant",
+    "rx": "OTC"
+  },
+  "HBOT": {
+    "label": "HBOT",
+    "category": "treatment",
+    "definition": "Hyperbaric Oxygen Therapy: breathing 100% oxygen at elevated atmospheric pressure. Investigated in ME/CFS for mitochondrial support, tissue oxygenation, and anti-inflammatory effects. Evidence is limited.",
+    "generic": "Hyperbaric oxygen",
+    "class": "Medical device / therapy",
+    "rx": "Prescription only (medical grade); also available at private clinics"
+  },
+  "TMS": {
+    "label": "TMS",
+    "category": "treatment",
+    "definition": "Transcranial Magnetic Stimulation: non-invasive brain stimulation using magnetic fields. Repetitive TMS (rTMS) has been explored for ME/CFS cognitive dysfunction and depression, with preliminary positive signals.",
+    "generic": "Transcranial magnetic stimulation",
+    "class": "Medical device / neuromodulation",
+    "rx": "Prescription; administered in clinic"
+  },
+  "VNS": {
+    "label": "VNS",
+    "category": "treatment",
+    "definition": "Vagus Nerve Stimulation: electrical stimulation of the vagus nerve to increase parasympathetic tone. Non-invasive transcutaneous VNS (tVNS) devices are being investigated for ME/CFS autonomic dysfunction.",
+    "class": "Medical device / neuromodulation",
+    "rx": "Implantable: prescription only. Non-invasive tVNS: some OTC devices available"
+  },
+  "CPET": {
+    "label": "CPET",
+    "category": "test",
+    "definition": "Cardiopulmonary Exercise Testing: a maximal exercise test measuring gas exchange (VO₂, VCO₂), heart rate, and ventilatory parameters. Two-day CPET (2-day CPET) uniquely demonstrates reduced VO₂ peak and anaerobic threshold on day 2 in ME/CFS — a physiological signature of PEM."
+  },
+  "VO2max": {
+    "label": "VO2max",
+    "category": "measurement",
+    "definition": "Maximal Oxygen Uptake: the maximum rate of oxygen consumption during exercise, reflecting cardiorespiratory fitness. Reduced in ME/CFS, particularly on repeat testing (2-day CPET)."
+  },
+  "MRI": {
+    "label": "MRI",
+    "category": "imaging",
+    "definition": "Magnetic Resonance Imaging: neuroimaging showing structural and functional brain abnormalities in ME/CFS, including white matter changes, reduced gray matter volume, and altered connectivity."
+  },
+  "fMRI": {
+    "label": "fMRI",
+    "category": "imaging",
+    "definition": "Functional MRI: brain imaging measuring activity via blood-oxygen-level-dependent (BOLD) signal. ME/CFS fMRI studies show altered connectivity and reduced cerebral blood flow during cognitive tasks."
+  },
+  "SPECT": {
+    "label": "SPECT",
+    "category": "imaging",
+    "definition": "Single Photon Emission Computed Tomography: nuclear imaging of cerebral blood flow. SPECT studies consistently show reduced cerebral perfusion in ME/CFS, particularly in the brainstem and frontal lobes."
+  },
+  "PET": {
+    "label": "PET",
+    "category": "imaging",
+    "definition": "Positron Emission Tomography: nuclear imaging of metabolic activity. PET studies in ME/CFS show neuroinflammation (microglial activation) and metabolic abnormalities."
+  },
+  "CT": {
+    "label": "CT",
+    "category": "imaging",
+    "definition": "Computed Tomography: X-ray based cross-sectional imaging. Generally normal in ME/CFS; used to exclude structural CNS pathology."
+  },
+  "MEG": {
+    "label": "MEG",
+    "category": "imaging",
+    "definition": "Magnetoencephalography: technique mapping brain activity by recording magnetic fields from neuronal currents. MEG has been used to study altered cortical excitability in ME/CFS."
+  },
+  "NIRS": {
+    "label": "NIRS",
+    "category": "imaging",
+    "definition": "Near-Infrared Spectroscopy: non-invasive optical technique measuring tissue oxygenation. Used in ME/CFS to assess cerebral and muscle oxygenation during orthostatic challenge and exercise."
+  },
+  "ECG": {
+    "label": "ECG",
+    "category": "test",
+    "definition": "Electrocardiogram: recording of the heart's electrical activity. ECG may show tachycardia (resting sinus tachycardia), but structurally normal in ME/CFS. Used in POTS diagnosis via standing test or tilt table."
+  },
+  "EEG": {
+    "label": "EEG",
+    "category": "test",
+    "definition": "Electroencephalogram: recording of brain electrical activity. EEG in ME/CFS may show alpha intrusion into delta sleep (the 'alpha-delta anomaly'), correlating with unrefreshing sleep."
+  },
+  "EMG": {
+    "label": "EMG",
+    "category": "test",
+    "definition": "Electromyography: test of muscle electrical activity. Generally normal in ME/CFS despite severe fatigue, distinguishing it from primary neuromuscular disorders."
+  },
+  "BMI": {
+    "label": "BMI",
+    "category": "measurement",
+    "definition": "Body Mass Index: weight-to-height ratio. Not a diagnostic tool for ME/CFS; however, weight changes (gain or loss) can occur due to reduced activity, metabolic shifts, or comorbid conditions."
+  },
+  "BP": {
+    "label": "BP",
+    "category": "measurement",
+    "definition": "Blood Pressure: the pressure of circulating blood on vessel walls. Orthostatic BP changes are central to ME/CFS autonomic assessment; many patients show either orthostatic hypotension or a blunted/nocturnal BP dip."
+  },
+  "ICC": {
+    "label": "ICC",
+    "category": "diagnostic",
+    "definition": "International Consensus Criteria (2011): ME diagnostic criteria requiring post-exertional neuroimmune exhaustion (PENE) plus neurological, immune, and energy metabolism impairments. More specific than Fukuda/CDC but excludes patients with primary psychiatric disorders."
+  },
+  "CCC": {
+    "label": "CCC",
+    "category": "diagnostic",
+    "definition": "Canadian Consensus Criteria (2003): ME/CFS diagnostic criteria requiring PEM plus multiple symptom domains (fatigue, sleep, pain, neurological/cognitive, autonomic, neuroendocrine, immune). Widely used in research."
+  },
+  "SEID": {
+    "label": "SEID",
+    "category": "diagnostic",
+    "definition": "Systemic Exertion Intolerance Disease: the IOM (2015) proposed name for ME/CFS, emphasizing PEM and systemic dysfunction. Adopted by some researchers but not widely accepted by patients or clinicians.",
+    "also": "IOM 2015 diagnostic criteria"
+  },
+  "ICD-10": {
+    "label": "ICD-10",
+    "category": "diagnostic",
+    "definition": "International Classification of Diseases, 10th Revision. ME/CFS classified under G93.3 (postviral fatigue syndrome / benign myalgic encephalomyelitis)."
+  },
+  "ICD-11": {
+    "label": "ICD-11",
+    "category": "diagnostic",
+    "definition": "International Classification of Diseases, 11th Revision. ME/CFS classified under 8E49 (postviral fatigue syndrome) in the diseases of the nervous system chapter, reinforcing its neurological classification."
+  },
+  "NICE": {
+    "label": "NICE",
+    "category": "organization",
+    "definition": "National Institute for Health and Care Excellence (UK): published landmark ME/CFS guidelines (NG206, 2021) recommending against GET, emphasizing pacing/energy management, and recognizing ME/CFS as a complex multi-system disease."
+  },
+  "IOM": {
+    "label": "IOM",
+    "category": "organization",
+    "definition": "Institute of Medicine (US, now National Academy of Medicine): published the 2015 report 'Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome', proposing SEID criteria and affirming ME/CFS as a serious biomedical disease."
+  },
+  "CDC": {
+    "label": "CDC",
+    "category": "organization",
+    "definition": "Centers for Disease Control and Prevention (US): the US public health agency responsible for ME/CFS surveillance, research funding, and clinical guidance (Fukuda 1994 criteria)."
+  },
+  "WHO": {
+    "label": "WHO",
+    "category": "organization",
+    "definition": "World Health Organization: the UN agency classifying ME/CFS in ICD-10 (G93.3) and ICD-11 (8E49) under neurological disorders."
+  },
+  "NIH": {
+    "label": "NIH",
+    "category": "organization",
+    "definition": "National Institutes of Health (US): the primary US biomedical research agency. The NIH intramural ME/CFS study (2016–2024) provided key immunological, metabolic, and neurological findings."
+  },
+  "OMF": {
+    "label": "OMF",
+    "category": "organization",
+    "definition": "Open Medicine Foundation: a non-profit funding and coordinating ME/CFS biomedical research, including the Severely Ill Patient Study and the Harvard ME/CFS Collaboration."
+  },
+  "RCT": {
+    "label": "RCT",
+    "category": "method",
+    "definition": "Randomized Controlled Trial: the gold standard study design for evaluating treatment efficacy. Few large RCTs exist in ME/CFS; sample sizes are typically small."
+  },
+  "SSRI": {
+    "label": "SSRI",
+    "category": "medication_class",
+    "definition": "Selective Serotonin Reuptake Inhibitor: antidepressant class blocking serotonin reuptake (fluoxetine, sertraline, citalopram, escitalopram, paroxetine). Used in ME/CFS for comorbid depression/anxiety and pain; does not treat core ME/CFS pathology.",
+    "class": "Antidepressant",
+    "rx": "Prescription (US, EU)"
+  },
+  "SNRI": {
+    "label": "SNRI",
+    "category": "medication_class",
+    "definition": "Serotonin-Norepinephrine Reuptake Inhibitor: antidepressant class blocking both serotonin and norepinephrine reuptake (duloxetine, venlafaxine, milnacipran). More relevant to ME/CFS pain and fatigue than SSRIs due to norepinephrine component.",
+    "class": "Antidepressant",
+    "rx": "Prescription (US, EU)"
+  },
+  "TCA": {
+    "label": "TCA",
+    "category": "medication_class",
+    "definition": "Tricyclic Antidepressant: older antidepressant class (amitriptyline, nortriptyline). Used at low doses in ME/CFS for sleep, pain, and headache prophylaxis. Low-dose amitriptyline is one of the most commonly prescribed ME/CFS medications.",
+    "class": "Antidepressant",
+    "rx": "Prescription (US, EU)"
+  },
+  "NSAID": {
+    "label": "NSAID",
+    "category": "medication_class",
+    "definition": "Non-Steroidal Anti-Inflammatory Drug: class of analgesics reducing inflammation via COX inhibition (ibuprofen, naproxen, celecoxib, diclofenac). Used symptomatically in ME/CFS for pain and inflammation; limited by GI and renal side effects.",
+    "class": "Analgesic / anti-inflammatory",
+    "rx": "Some OTC (ibuprofen, naproxen), some prescription (celecoxib, diclofenac)"
+  },
+  "T3": {
+    "label": "T3",
+    "category": "hormone",
+    "definition": "Triiodothyronine: the active thyroid hormone. T3 levels may be low-normal in ME/CFS; some clinicians trial low-dose T3 for persistent hypothyroid-like symptoms despite normal TSH.",
+    "generic": "Liothyronine",
+    "brand": "Cytomel, Tertroxin",
+    "class": "Thyroid hormone",
+    "rx": "Prescription (US, EU)"
+  },
+  "T4": {
+    "label": "T4",
+    "category": "hormone",
+    "definition": "Thyroxine: the primary thyroid hormone (prohormone), converted to active T3 in tissues. Standard thyroid replacement for hypothyroidism; typically normal in ME/CFS.",
+    "generic": "Levothyroxine",
+    "brand": "Synthroid, Levoxyl, Euthyrox",
+    "class": "Thyroid hormone",
+    "rx": "Prescription (US, EU)"
+  },
+  "BCAA": {
+    "label": "BCAA",
+    "category": "supplement",
+    "definition": "Branched-Chain Amino Acids: leucine, isoleucine, and valine. BCAAs may be depleted in ME/CFS due to catabolic metabolism and impaired energy production; supplementation is experimental.",
+    "class": "Amino acid supplement",
+    "rx": "OTC"
+  },
+  "GTPCH": {
+    "label": "GTPCH",
+    "category": "enzyme",
+    "definition": "GTP Cyclohydrolase I: the rate-limiting enzyme in tetrahydrobiopterin (BH4) synthesis. GTPCH dysfunction depletes BH4, linking to reduced nitric oxide, dopamine, and serotonin synthesis — a key node in ME/CFS metabolic dysfunction.",
+    "also": "GCH1 gene"
+  },
+  "BH4": {
+    "label": "BH4",
+    "category": "cofactor",
+    "definition": "Tetrahydrobiopterin: an essential cofactor for nitric oxide synthase, tyrosine hydroxylase, tryptophan hydroxylase, and phenylalanine hydroxylase. BH4 depletion is a convergent mechanism linking vascular, neurotransmitter, and inflammatory dysfunction in ME/CFS."
+  },
+  "MBSR": {
+    "label": "MBSR",
+    "category": "treatment",
+    "definition": "Mindfulness-Based Stress Reduction: an 8-week structured program teaching mindfulness meditation. Used supportively in ME/CFS for coping and symptom management, though effects on core pathophysiology are unclear."
+  },
+  "IV": {
+    "label": "IV",
+    "category": "administration",
+    "definition": "Intravenous: medication administration directly into a vein. IV therapies in ME/CFS include IVIG, saline infusions (for POTS/hypovolemia), and vitamin infusions."
+  },
+  "OTC": {
+    "label": "OTC",
+    "category": "regulation",
+    "definition": "Over-The-Counter: medications and supplements available without a prescription. Many ME/CFS supplements (CoQ10, NAC, BCAAs, vitamins) are OTC."
+  },
+  "FDA": {
+    "label": "FDA",
+    "category": "organization",
+    "definition": "US Food and Drug Administration: the agency regulating medications and medical devices. No FDA-approved treatments exist specifically for ME/CFS; all pharmacological treatments are off-label."
+  },
+  "EMA": {
+    "label": "EMA",
+    "category": "organization",
+    "definition": "European Medicines Agency: the EU regulatory agency for medicines. Like the FDA, the EMA has no approved ME/CFS-specific treatments."
+  },
+  "NO": {
+    "label": "NO",
+    "category": "molecule",
+    "definition": "Nitric Oxide: a gaseous signaling molecule involved in vasodilation, neurotransmission, and immune defense. Dysregulated NO metabolism (excess peroxynitrite formation) is central to the NO/ONOO cycle hypothesis of ME/CFS."
+  },
+  "Amitriptyline": {
+    "label": "Amitriptyline",
+    "category": "medication",
+    "definition": "A tricyclic antidepressant (TCA) used at low doses (5–25 mg) in ME/CFS for sleep initiation, pain, and headache/migraine prophylaxis. One of the most commonly prescribed ME/CFS medications.",
+    "generic": "Amitriptyline",
+    "brand": "Elavil, Endep, Vanatrip",
+    "class": "Tricyclic antidepressant (TCA)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Duloxetine": {
+    "label": "Duloxetine",
+    "category": "medication",
+    "definition": "An SNRI antidepressant also approved for chronic pain conditions (fibromyalgia, neuropathic pain). Used in ME/CFS for pain, mood, and fatigue; dual serotonin/norepinephrine action may address more symptom domains than SSRIs.",
+    "generic": "Duloxetine",
+    "brand": "Cymbalta, Drizalma, Irenka",
+    "class": "Serotonin-norepinephrine reuptake inhibitor (SNRI)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Venlafaxine": {
+    "label": "Venlafaxine",
+    "category": "medication",
+    "definition": "An SNRI antidepressant with dose-dependent norepinephrine reuptake inhibition (predominantly serotonergic at low doses, dual at higher doses). Used off-label in ME/CFS for pain, fatigue, and mood.",
+    "generic": "Venlafaxine",
+    "brand": "Effexor XR, Effexor",
+    "class": "Serotonin-norepinephrine reuptake inhibitor (SNRI)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Gabapentin": {
+    "label": "Gabapentin",
+    "category": "medication",
+    "definition": "A gabapentinoid anticonvulsant acting on voltage-gated calcium channels (α2δ subunit). Used in ME/CFS for neuropathic pain, sleep, and restless legs; may worsen fatigue and brain fog in some patients.",
+    "generic": "Gabapentin",
+    "brand": "Neurontin, Gralise, Horizant",
+    "class": "Gabapentinoid / anticonvulsant",
+    "rx": "Prescription (US, EU)"
+  },
+  "Pregabalin": {
+    "label": "Pregabalin",
+    "category": "medication",
+    "definition": "A gabapentinoid with higher potency than gabapentin, approved for neuropathic pain, fibromyalgia, and generalized anxiety. Used off-label in ME/CFS for pain; carries risk of dependence.",
+    "generic": "Pregabalin",
+    "brand": "Lyrica, Lyrica CR",
+    "class": "Gabapentinoid / anticonvulsant",
+    "rx": "Prescription (US, EU); controlled substance in some jurisdictions"
+  },
+  "Propranolol": {
+    "label": "Propranolol",
+    "category": "medication",
+    "definition": "A non-selective beta-blocker used in ME/CFS/POTS for tachycardia, palpitations, and hyperadrenergic symptoms. Crosses the blood-brain barrier; may reduce sympathetic overactivation and migraine frequency.",
+    "generic": "Propranolol",
+    "brand": "Inderal, Inderal LA, Hemangeol",
+    "class": "Beta-blocker (non-selective)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Ivabradine": {
+    "label": "Ivabradine",
+    "category": "medication",
+    "definition": "A heart rate-lowering agent acting on the sinoatrial node If (funny) current. Used in POTS and ME/CFS tachycardia without affecting blood pressure — an advantage over beta-blockers in patients with low or labile BP.",
+    "generic": "Ivabradine",
+    "brand": "Corlanor, Procoralan",
+    "class": "If channel blocker / bradycardic agent",
+    "rx": "Prescription (US, EU)"
+  },
+  "Midodrine": {
+    "label": "Midodrine",
+    "category": "medication",
+    "definition": "An alpha-1 adrenergic agonist vasoconstrictor used in ME/CFS/POTS for orthostatic hypotension and cerebral hypoperfusion. Raises blood pressure in upright posture; should not be taken lying down.",
+    "generic": "Midodrine",
+    "brand": "ProAmatine, Gutron",
+    "class": "Alpha-1 adrenergic agonist / vasopressor",
+    "rx": "Prescription (US, EU)"
+  },
+  "Fludrocortisone": {
+    "label": "Fludrocortisone",
+    "category": "medication",
+    "definition": "A mineralocorticoid steroid that increases sodium retention and plasma volume. Used off-label in ME/CFS/POTS for hypovolemia and orthostatic intolerance; requires monitoring of potassium and blood pressure.",
+    "generic": "Fludrocortisone",
+    "brand": "Florinef",
+    "class": "Mineralocorticoid / corticosteroid",
+    "rx": "Prescription (US, EU)"
+  },
+  "Pyridostigmine": {
+    "label": "Pyridostigmine",
+    "category": "medication",
+    "definition": "An acetylcholinesterase inhibitor that increases synaptic acetylcholine, enhancing parasympathetic (vagal) tone. Used experimentally in ME/CFS/POTS to improve orthostatic tolerance and reduce tachycardia via increased vagal output.",
+    "generic": "Pyridostigmine",
+    "brand": "Mestinon, Regonol",
+    "class": "Acetylcholinesterase inhibitor / parasympathomimetic",
+    "rx": "Prescription (US, EU)"
+  },
+  "Rituximab": {
+    "label": "Rituximab",
+    "category": "medication",
+    "definition": "A monoclonal anti-CD20 antibody depleting B cells. The phase III RituxME trial (2019) was negative for its primary endpoint, dashing hopes that B-cell depletion treats ME/CFS; however, responders in earlier open-label studies suggest a B-cell-mediated subset may exist.",
+    "generic": "Rituximab",
+    "brand": "Rituxan, MabThera, Truxima",
+    "class": "Monoclonal antibody / anti-CD20 / B-cell depleting agent",
+    "rx": "Prescription only; hospital/infusion center administration"
+  },
+  "Methotrexate": {
+    "label": "Methotrexate",
+    "category": "medication",
+    "definition": "A folate antimetabolite immunosuppressant used in autoimmune diseases. Investigated experimentally in ME/CFS for suspected autoimmune subsets; limited evidence, significant side-effect profile.",
+    "generic": "Methotrexate",
+    "brand": "Trexall, Rheumatrex, Otrexup",
+    "class": "Antimetabolite / disease-modifying antirheumatic (DMARD)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Hydroxychloroquine": {
+    "label": "Hydroxychloroquine",
+    "category": "medication",
+    "definition": "An antimalarial with immunomodulatory effects (TLR inhibition, reduced antigen presentation). Investigated in ME/CFS for immune dysfunction; known efficacy in SLE/RA suggests utility if the patient has an autoimmune endotype.",
+    "generic": "Hydroxychloroquine",
+    "brand": "Plaquenil, Quineprox",
+    "class": "Antimalarial / immunomodulator / DMARD",
+    "rx": "Prescription (US, EU)"
+  },
+  "Modafinil": {
+    "label": "Modafinil",
+    "category": "medication",
+    "definition": "A wakefulness-promoting agent (eugeroic) acting via dopamine reuptake inhibition. Used off-label in ME/CFS for daytime sleepiness and cognitive dysfunction. Does not treat PEM; may mask exertion limits, increasing crash risk.",
+    "generic": "Modafinil",
+    "brand": "Provigil, Alertec",
+    "class": "Eugeroic / wakefulness-promoting agent",
+    "rx": "Prescription (US, EU); controlled substance"
+  },
+  "Methylphenidate": {
+    "label": "Methylphenidate",
+    "category": "medication",
+    "definition": "A CNS stimulant (dopamine/norepinephrine reuptake inhibitor) used for ADHD. Used off-label in ME/CFS for cognitive dysfunction and fatigue; risk of 'borrowing energy' — masking PEM without fixing the underlying energy deficit.",
+    "generic": "Methylphenidate",
+    "brand": "Ritalin, Concerta, Daytrana",
+    "class": "CNS stimulant / dopamine-norepinephrine reuptake inhibitor (NDRI)",
+    "rx": "Prescription (US, EU); controlled substance"
+  },
+  "Melatonin": {
+    "label": "Melatonin",
+    "category": "supplement",
+    "definition": "The endogenous sleep hormone produced by the pineal gland in response to darkness. Used as a supplement in ME/CFS for sleep onset; may also have antioxidant and mitochondrial-protective effects. Low-dose (0.3–1 mg) may be more physiological than high-dose.",
+    "generic": "Melatonin",
+    "brand": "Various supplement brands; Circadin (prescription in EU)",
+    "class": "Hormone / chronobiotic / sleep aid",
+    "rx": "OTC (US); prescription in some EU countries"
+  },
+  "Acetaminophen": {
+    "label": "Acetaminophen",
+    "category": "medication",
+    "definition": "An analgesic and antipyretic with minimal anti-inflammatory activity. Used in ME/CFS for pain and headache; generally well-tolerated but hepatotoxic at supratherapeutic doses.",
+    "generic": "Acetaminophen (US) / Paracetamol (EU)",
+    "brand": "Tylenol, Panadol, Calpol",
+    "class": "Analgesic / antipyretic",
+    "rx": "OTC"
+  },
+  "Ibuprofen": {
+    "label": "Ibuprofen",
+    "category": "medication",
+    "definition": "A non-selective NSAID inhibiting COX-1 and COX-2. Used in ME/CFS for pain and inflammation; limited by GI, renal, and cardiovascular side effects with chronic use.",
+    "generic": "Ibuprofen",
+    "brand": "Advil, Motrin, Nurofen",
+    "class": "Non-steroidal anti-inflammatory drug (NSAID)",
+    "rx": "OTC"
+  },
+  "Naproxen": {
+    "label": "Naproxen",
+    "category": "medication",
+    "definition": "A non-selective NSAID with longer half-life than ibuprofen. Used in ME/CFS for pain; carries similar GI/renal risks.",
+    "generic": "Naproxen",
+    "brand": "Aleve, Naprosyn, Anaprox",
+    "class": "Non-steroidal anti-inflammatory drug (NSAID)",
+    "rx": "OTC (low dose); prescription (higher dose)"
+  },
+  "Valacyclovir": {
+    "label": "Valacyclovir",
+    "category": "medication",
+    "definition": "A prodrug of acyclovir, an antiviral active against herpesviruses (HSV, VZV, EBV). Used off-label in ME/CFS for suspected chronic herpesvirus reactivation; mixed evidence, with some responders in EBV/HHV-6-driven subsets.",
+    "generic": "Valacyclovir",
+    "brand": "Valtrex",
+    "class": "Antiviral / nucleoside analogue DNA polymerase inhibitor",
+    "rx": "Prescription (US, EU)"
+  },
+  "Acyclovir": {
+    "label": "Acyclovir",
+    "category": "medication",
+    "definition": "A nucleoside analogue antiviral active against herpesviruses. Lower oral bioavailability than valacyclovir; used in ME/CFS for suspected viral reactivation with limited evidence.",
+    "generic": "Acyclovir",
+    "brand": "Zovirax, Sitavig",
+    "class": "Antiviral / nucleoside analogue DNA polymerase inhibitor",
+    "rx": "Prescription (US, EU)"
+  },
+  "Loratadine": {
+    "label": "Loratadine",
+    "category": "medication",
+    "definition": "A second-generation non-sedating H1 antihistamine. Used in ME/CFS with MCAS or histamine intolerance for allergy-type symptoms (rhinitis, urticaria, pruritus).",
+    "generic": "Loratadine",
+    "brand": "Claritin, Alavert",
+    "class": "H1 antihistamine (second-generation)",
+    "rx": "OTC"
+  },
+  "Cetirizine": {
+    "label": "Cetirizine",
+    "category": "medication",
+    "definition": "A second-generation H1 antihistamine with slightly higher sedation potential than loratadine. Used in ME/CFS with MCAS or histamine intolerance symptoms.",
+    "generic": "Cetirizine",
+    "brand": "Zyrtec, Reactine",
+    "class": "H1 antihistamine (second-generation)",
+    "rx": "OTC"
+  },
+  "Fexofenadine": {
+    "label": "Fexofenadine",
+    "category": "medication",
+    "definition": "A second-generation H1 antihistamine with the lowest sedation and anticholinergic profile. Used in ME/CFS for MCAS/histamine intolerance with minimal cognitive side effects.",
+    "generic": "Fexofenadine",
+    "brand": "Allegra, Telfast",
+    "class": "H1 antihistamine (second-generation)",
+    "rx": "OTC"
+  },
+  "Famotidine": {
+    "label": "Famotidine",
+    "category": "medication",
+    "definition": "An H2 receptor antagonist reducing stomach acid. Used in ME/CFS with MCAS because gastric H2 receptors are also on mast cells; combined H1+H2 blockade is a standard MCAS treatment approach.",
+    "generic": "Famotidine",
+    "brand": "Pepcid, Pepcid AC",
+    "class": "H2 receptor antagonist / antihistamine",
+    "rx": "OTC (low dose); prescription (higher dose)"
+  },
+  "Ketotifen": {
+    "label": "Ketotifen",
+    "category": "medication",
+    "definition": "A mast cell stabilizer and H1 antihistamine with anti-eosinophil activity. Used in ME/CFS with MCAS for mast cell stabilization; causes significant sedation initially.",
+    "generic": "Ketotifen",
+    "brand": "Zaditen, Zaditor (ophthalmic)",
+    "class": "Mast cell stabilizer / H1 antihistamine",
+    "rx": "OTC (ophthalmic in US); prescription (EU, oral)"
+  },
+  "Cromolyn": {
+    "label": "Cromolyn",
+    "category": "medication",
+    "definition": "A mast cell stabilizer preventing degranulation. Oral cromolyn sodium (Gastrocrom) is used in ME/CFS/MCAS for GI mast cell symptoms; poorly absorbed systemically, acting locally in the GI tract.",
+    "generic": "Cromolyn sodium",
+    "brand": "Gastrocrom, Nasalcrom",
+    "class": "Mast cell stabilizer",
+    "rx": "OTC (nasal in US); prescription (oral in US)"
+  },
+  "Ondansetron": {
+    "label": "Ondansetron",
+    "category": "medication",
+    "definition": "A 5-HT3 receptor antagonist antiemetic. Used in ME/CFS for nausea (common in POTS, MCAS, gastroparesis); favorable side-effect profile with minimal CNS penetration.",
+    "generic": "Ondansetron",
+    "brand": "Zofran, Zuplenz",
+    "class": "5-HT3 receptor antagonist / antiemetic",
+    "rx": "Prescription (US, EU)"
+  },
+  "Clonidine": {
+    "label": "Clonidine",
+    "category": "medication",
+    "definition": "A central alpha-2 adrenergic agonist reducing sympathetic outflow. Used in hyperadrenergic POTS and ME/CFS for tachycardia, hypertension, and hyperarousal. May worsen fatigue and brain fog.",
+    "generic": "Clonidine",
+    "brand": "Catapres, Kapvay, Nexiclon XR",
+    "class": "Central alpha-2 adrenergic agonist / sympatholytic",
+    "rx": "Prescription (US, EU)"
+  },
+  "Guanfacine": {
+    "label": "Guanfacine",
+    "category": "medication",
+    "definition": "A central alpha-2A adrenergic agonist with preferential prefrontal action. Used off-label in ME/CFS for cognitive dysfunction ('brain fog') and hyperadrenergic symptoms; may improve working memory via prefrontal noradrenergic signaling.",
+    "generic": "Guanfacine",
+    "brand": "Intuniv, Tenex",
+    "class": "Central alpha-2A adrenergic agonist / sympatholytic",
+    "rx": "Prescription (US, EU)"
+  },
+  "Fluoxetine": {
+    "label": "Fluoxetine",
+    "category": "medication",
+    "definition": "A prototypical SSRI with the longest half-life. Used in ME/CFS for comorbid depression, anxiety, and pain; may worsen sleep architecture in some patients via serotonin-mediated sleep disruption.",
+    "generic": "Fluoxetine",
+    "brand": "Prozac, Sarafem",
+    "class": "Selective serotonin reuptake inhibitor (SSRI)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Bupropion": {
+    "label": "Bupropion",
+    "category": "medication",
+    "definition": "An atypical antidepressant (NDRI) with dopamine and norepinephrine reuptake inhibition. Used off-label in ME/CFS for fatigue, cognitive dysfunction, and ADHD comorbidity; activating profile may help daytime energy but worsen insomnia.",
+    "generic": "Bupropion",
+    "brand": "Wellbutrin, Zyban",
+    "class": "Norepinephrine-dopamine reuptake inhibitor (NDRI)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Tramadol": {
+    "label": "Tramadol",
+    "category": "medication",
+    "definition": "A weak opioid analgesic with additional SNRI activity. Used for moderate-to-severe pain in ME/CFS; serotonergic component carries risk of serotonin syndrome when combined with SSRIs/SNRIs.",
+    "generic": "Tramadol",
+    "brand": "Ultram, ConZip, Ryzolt",
+    "class": "Opioid analgesic / SNRI",
+    "rx": "Prescription (US, EU); controlled substance"
+  },
+  "Prednisone": {
+    "label": "Prednisone",
+    "category": "medication",
+    "definition": "A synthetic glucocorticoid immunosuppressant. Used in ME/CFS anecdotally for inflammatory flares; no RCT evidence. Short-term benefit may occur in immune-mediated subsets, but chronic use is not recommended due to side-effect burden.",
+    "generic": "Prednisone",
+    "brand": "Deltasone, Rayos, Prednisone Intensol",
+    "class": "Glucocorticoid / corticosteroid",
+    "rx": "Prescription (US, EU)"
+  },
+  "Hydrocortisone": {
+    "label": "Hydrocortisone",
+    "category": "medication",
+    "definition": "A physiological glucocorticoid identical to endogenous cortisol. Low-dose hydrocortisone (5–10 mg/day) has been trialed in ME/CFS for HPA axis dysfunction; modest fatigue improvement in some studies but concern about adrenal suppression.",
+    "generic": "Hydrocortisone",
+    "brand": "Cortef, Cortisol",
+    "class": "Glucocorticoid / corticosteroid",
+    "rx": "Prescription (US, EU)"
+  },
+  "Baclofen": {
+    "label": "Baclofen",
+    "category": "medication",
+    "definition": "A GABA-B receptor agonist muscle relaxant. Used in ME/CFS for muscle spasticity, stiffness, and pain; may improve sleep quality in patients with nocturnal muscle tension.",
+    "generic": "Baclofen",
+    "brand": "Lioresal, Gablofen, Ozobax",
+    "class": "GABA-B receptor agonist / muscle relaxant",
+    "rx": "Prescription (US, EU)"
+  },
+  "Cyclobenzaprine": {
+    "label": "Cyclobenzaprine",
+    "category": "medication",
+    "definition": "A tricyclic-adjacent muscle relaxant with 5-HT2 receptor antagonism. Used in ME/CFS/fibromyalgia for muscle pain and sleep; sedating effect can be leveraged for sleep initiation.",
+    "generic": "Cyclobenzaprine",
+    "brand": "Flexeril, Amrix, Fexmid",
+    "class": "Muscle relaxant / 5-HT2 antagonist (tricyclic-structure)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Celecoxib": {
+    "label": "Celecoxib",
+    "category": "medication",
+    "definition": "A selective COX-2 inhibitor NSAID with reduced GI toxicity. Used in ME/CFS for inflammation-predominant pain; may carry cardiovascular risk with chronic use.",
+    "generic": "Celecoxib",
+    "brand": "Celebrex",
+    "class": "COX-2 selective inhibitor (NSAID)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Losartan": {
+    "label": "Losartan",
+    "category": "medication",
+    "definition": "An angiotensin II receptor blocker (ARB) used as an antihypertensive. Investigational in ME/CFS for RAAS modulation and TGF-β reduction (TGF-β overproduction is implicated in ME/CFS).",
+    "generic": "Losartan",
+    "brand": "Cozaar",
+    "class": "Angiotensin II receptor blocker (ARB)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Suvorexant": {
+    "label": "Suvorexant",
+    "category": "medication",
+    "definition": "A dual orexin receptor antagonist (DORA) that promotes sleep by blocking wake-promoting orexin signaling. Used in ME/CFS for the 'tired but wired' sleep-onset failure and dysregulated orexin tone.",
+    "generic": "Suvorexant",
+    "brand": "Belsomra",
+    "class": "Dual orexin receptor antagonist (DORA)",
+    "rx": "Prescription (US, EU); controlled substance US"
+  },
+  "Mirtazapine": {
+    "label": "Mirtazapine",
+    "category": "medication",
+    "definition": "A tetracyclic antidepressant (NaSSA) blocking α2-adrenergic autoreceptors, H1 receptors, and 5-HT2/5-HT3 receptors. Used in ME/CFS for sleep, appetite stimulation, and nausea; strong sedation at lower doses (7.5–15 mg).",
+    "generic": "Mirtazapine",
+    "brand": "Remeron",
+    "class": "Noradrenergic and specific serotonergic antidepressant (NaSSA)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Trazodone": {
+    "label": "Trazodone",
+    "category": "medication",
+    "definition": "A serotonin antagonist and reuptake inhibitor (SARI) with strong H1 and α1 blockade at low doses. Used in ME/CFS primarily as a sleep aid (25–100 mg); antidepressant doses (150–400 mg) rarely used due to sedation.",
+    "generic": "Trazodone",
+    "brand": "Desyrel, Oleptro",
+    "class": "Serotonin antagonist and reuptake inhibitor (SARI)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Quetiapine": {
+    "label": "Quetiapine",
+    "category": "medication",
+    "definition": "An atypical antipsychotic with strong H1 and α1 antagonism at low doses. Used in ME/CFS off-label for severe sleep initiation failure; significant metabolic side-effect profile (weight gain, glucose dysregulation).",
+    "generic": "Quetiapine",
+    "brand": "Seroquel, Seroquel XR",
+    "class": "Atypical antipsychotic",
+    "rx": "Prescription (US, EU)"
+  },
+  "Montelukast": {
+    "label": "Montelukast",
+    "category": "medication",
+    "definition": "A leukotriene receptor antagonist (LTRA) blocking cysteinyl leukotrienes (LTC4, LTD4, LTE4). Used in ME/CFS with MCAS for mast-cell-driven respiratory symptoms and systemic inflammation.",
+    "generic": "Montelukast",
+    "brand": "Singulair",
+    "class": "Leukotriene receptor antagonist (LTRA)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Sumatriptan": {
+    "label": "Sumatriptan",
+    "category": "medication",
+    "definition": "A 5-HT1B/1D receptor agonist (triptan) for acute migraine. Used in ME/CFS patients with comorbid migraine; cerebral vasoconstriction may address the vascular component of ME/CFS headache.",
+    "generic": "Sumatriptan",
+    "brand": "Imitrex, Imigran, Onzetra Xsail",
+    "class": "Triptan / 5-HT1B/1D receptor agonist",
+    "rx": "Prescription (US, EU)"
+  },
+  "Omeprazole": {
+    "label": "Omeprazole",
+    "category": "medication",
+    "definition": "A proton pump inhibitor (PPI) reducing gastric acid secretion. Used in ME/CFS for GERD and GI symptoms; long-term use may reduce nutrient absorption (B12, magnesium).",
+    "generic": "Omeprazole",
+    "brand": "Prilosec, Losec",
+    "class": "Proton pump inhibitor (PPI)",
+    "rx": "OTC (US); prescription or OTC (EU by country)"
+  },
+  "TRPM3": {
+    "label": "TRPM3",
+    "category": "receptor",
+    "definition": "Transient Receptor Potential Melastatin 3: a cation channel activated by heat, pregnenolone sulfate, and osmotic stimuli. Implicated in pain sensation and thermoregulation; TRPM3 dysfunction may contribute to ME/CFS sensory hypersensitivity and temperature dysregulation."
+  },
+  "TRPM8": {
+    "label": "TRPM8",
+    "category": "receptor",
+    "definition": "Transient Receptor Potential Melastatin 8: the primary cold-sensing ion channel, activated by temperatures below ~25°C and by menthol. Dysregulation may contribute to cold intolerance and temperature perception abnormalities in ME/CFS."
+  },
+  "TRPV1": {
+    "label": "TRPV1",
+    "category": "receptor",
+    "definition": "Transient Receptor Potential Vanilloid 1: the capsaicin receptor and heat sensor (&gt;43°C). Mediates inflammatory pain and thermal hyperalgesia; TRPV1 sensitization may contribute to widespread pain in ME/CFS/fibromyalgia."
+  },
+  "TRPV4": {
+    "label": "TRPV4",
+    "category": "receptor",
+    "definition": "Transient Receptor Potential Vanilloid 4: a mechano- and osmo-sensitive cation channel. Involved in vascular regulation, cell volume sensing, and nociception. Implicated in ME/CFS vascular and pain dysfunction."
+  },
+  "TRPA1": {
+    "label": "TRPA1",
+    "category": "receptor",
+    "definition": "Transient Receptor Potential Ankyrin 1: a chemosensor activated by irritants (mustard oil, acrolein), oxidative stress products (4-HNE, H₂O₂), and cold. TRPA1-mediated detection of endogenous reactive species links oxidative stress to pain in ME/CFS."
+  },
+  "PIEZO": {
+    "label": "PIEZO",
+    "category": "receptor",
+    "definition": "Mechanosensitive cation channels (PIEZO1, PIEZO2) that convert mechanical force into electrical signals. PIEZO1 mediates vascular shear sensing; PIEZO2 in proprioception and touch. PIEZO dysfunction may contribute to orthostatic intolerance and altered body perception in ME/CFS."
+  },
+  "TLR4": {
+    "label": "TLR4",
+    "category": "receptor",
+    "definition": "Toll-Like Receptor 4: a pattern recognition receptor recognizing bacterial lipopolysaccharide (LPS) and endogenous danger signals (HMGB1, HSPs). TLR4 on microglia drives neuroinflammation; LDN acts in part as a TLR4 antagonist, a key mechanism for its off-label use in ME/CFS."
+  },
+  "TLR2": {
+    "label": "TLR2",
+    "category": "receptor",
+    "definition": "Toll-Like Receptor 2: a pattern recognition receptor recognizing bacterial lipopeptides. TLR2 activation on immune cells contributes to inflammatory cytokine production in ME/CFS."
+  },
+  "RAGE": {
+    "label": "RAGE",
+    "category": "receptor",
+    "definition": "Receptor for Advanced Glycation End-products: a multi-ligand receptor binding AGEs, HMGB1, S100 proteins, and amyloid-β. RAGE activation drives sustained NF-κB signaling and oxidative stress; implicated in ME/CFS neuroinflammation."
+  },
+  "HMGB1": {
+    "label": "HMGB1",
+    "category": "protein",
+    "definition": "High Mobility Group Box 1: a nuclear protein that, when released extracellularly, acts as a damage-associated molecular pattern (DAMP), activating TLR4 and RAGE. HMGB1 is elevated in ME/CFS and links cellular stress to neuroinflammation."
+  },
+  "ISR": {
+    "label": "ISR",
+    "category": "pathway",
+    "definition": "Integrated Stress Response: a conserved eukaryotic signaling network activated by diverse stresses (ER stress, amino acid deprivation, heme deficiency, viral infection). Converges on eIF2α phosphorylation, attenuating global translation while selectively translating stress-response genes. Chronic ISR activation is hypothesized in ME/CFS and may explain the impaired cellular energy metabolism."
+  },
+  "UPR": {
+    "label": "UPR",
+    "category": "pathway",
+    "definition": "Unfolded Protein Response: the ER stress response triggered by accumulation of misfolded proteins. Three branches (PERK, IRE1, ATF6) coordinate translational attenuation, chaperone induction, and ERAD. UPR activation is documented in ME/CFS and may link to metabolic dysfunction."
+  },
+  "PERK": {
+    "label": "PERK",
+    "category": "enzyme",
+    "definition": "Protein kinase R-like ER Kinase: a UPR sensor that phosphorylates eIF2α to suppress global translation. Prolonged PERK activation drives the ISR; may be chronically activated in ME/CFS, reducing cellular protein synthesis capacity."
+  },
+  "IRE1": {
+    "label": "IRE1",
+    "category": "enzyme",
+    "definition": "Inositol-Requiring Enzyme 1: a UPR sensor with endoribonuclease activity that splices XBP1 mRNA. IRE1 activation links ER stress to inflammatory signaling via JNK and NF-κB."
+  },
+  "XBP1": {
+    "label": "XBP1",
+    "category": "transcription factor",
+    "definition": "X-Box Binding Protein 1: a transcription factor activated by IRE1-mediated splicing that induces ER chaperones and ERAD components. The spliced form (XBP1s) is a master regulator of ER homeostasis."
+  },
+  "ATF4": {
+    "label": "ATF4",
+    "category": "transcription factor",
+    "definition": "Activating Transcription Factor 4: a stress-responsive transcription factor whose translation is selectively upregulated when eIF2α is phosphorylated. ATF4 controls amino acid metabolism, antioxidant genes, and autophagy; chronic ATF4 activation in ME/CFS may drive metabolic reprogramming."
+  },
+  "ATF6": {
+    "label": "ATF6",
+    "category": "transcription factor",
+    "definition": "Activating Transcription Factor 6: the third UPR sensor, a transmembrane protein that traffics to the Golgi upon ER stress, where it is cleaved to release an active transcription factor that induces ER chaperones."
+  },
+  "CHOP": {
+    "label": "CHOP",
+    "category": "transcription factor",
+    "definition": "C/EBP Homologous Protein (also GADD153): a pro-apoptotic transcription factor induced by severe/prolonged ER stress via ATF4. CHOP promotes cell death when UPR adaptation fails; elevated CHOP in ME/CFS may indicate unresolved ER stress."
+  },
+  "eIF2": {
+    "label": "eIF2",
+    "category": "protein",
+    "definition": "Eukaryotic Initiation Factor 2: a translation initiation factor whose α-subunit phosphorylation by PERK, PKR, GCN2, or HRI halts general protein synthesis. Central to the ISR; eIF2α phosphorylation is a convergence point for multiple stress signals in ME/CFS."
+  },
+  "PKR": {
+    "label": "PKR",
+    "category": "enzyme",
+    "definition": "Double-stranded RNA-dependent Protein Kinase: an eIF2α kinase activated by viral dsRNA. PKR links antiviral responses to the ISR; chronic low-level PKR activation from persistent viral material could drive ME/CFS metabolic shutdown."
+  },
+  "GCN2": {
+    "label": "GCN2",
+    "category": "enzyme",
+    "definition": "General Control Nonderepressible 2: an eIF2α kinase activated by uncharged tRNAs during amino acid deprivation. GCN2 activation may link branched-chain amino acid depletion in ME/CFS to the ISR."
+  },
+  "HRI": {
+    "label": "HRI",
+    "category": "enzyme",
+    "definition": "Heme-Regulated Inhibitor: an eIF2α kinase activated by heme deficiency, oxidative stress, and mitochondrial dysfunction. HRI may link mitochondrial distress to ISR activation in ME/CFS."
+  },
+  "NLRP3": {
+    "label": "NLRP3",
+    "category": "protein",
+    "definition": "NACHT, LRR and PYD domains-containing protein 3: the sensor component of the NLRP3 inflammasome, a multi-protein complex that activates caspase-1 and cleaves pro-IL-1β and pro-IL-18 to their active forms, and cleaves gasdermin D to trigger pyroptosis. NLRP3 inflammasome activation is implicated in ME/CFS neuroinflammation."
+  },
+  "STING": {
+    "label": "STING",
+    "category": "protein",
+    "definition": "Stimulator of Interferon Genes: an ER-resident adaptor protein activated by cyclic dinucleotides from cGAS-detected cytosolic DNA. STING drives type I IFN responses; aberrant STING activation from mitochondrial DNA leakage may contribute to ME/CFS interferon signatures."
+  },
+  "cGAS": {
+    "label": "cGAS",
+    "category": "enzyme",
+    "definition": "Cyclic GMP-AMP Synthase: a cytosolic DNA sensor producing cGAMP upon detecting double-stranded DNA. cGAS activation by leaked mitochondrial DNA is a candidate mechanism linking mitochondrial damage to innate immune activation in ME/CFS."
+  },
+  "RIG-I": {
+    "label": "RIG-I",
+    "category": "receptor",
+    "definition": "Retinoic acid-Inducible Gene I: a cytosolic pattern recognition receptor detecting viral RNA. RIG-I/MDA5/MAVS signaling drives type I interferon production; may be chronically activated by persistent viral material in ME/CFS."
+  },
+  "MDA5": {
+    "label": "MDA5",
+    "category": "receptor",
+    "definition": "Melanoma Differentiation-Associated protein 5: a cytosolic RNA sensor recognizing long dsRNA. Together with RIG-I, MDA5 detects viral RNA and signals through MAVS to drive interferon responses."
+  },
+  "MAVS": {
+    "label": "MAVS",
+    "category": "protein",
+    "definition": "Mitochondrial Antiviral Signaling protein: the mitochondrial adaptor for RIG-I and MDA5. MAVS activation on the mitochondrial outer membrane links antiviral innate immunity to mitochondrial stress signaling."
+  },
+  "IRF3": {
+    "label": "IRF3",
+    "category": "transcription factor",
+    "definition": "Interferon Regulatory Factor 3: a transcription factor driving type I interferon and chemokine gene expression downstream of cGAS-STING and RIG-I/MAVS pathways. Phosphorylated by TBK1."
+  },
+  "IRF7": {
+    "label": "IRF7",
+    "category": "transcription factor",
+    "definition": "Interferon Regulatory Factor 7: the master transcription factor for type I interferons. IRF7 amplifies IFN responses in a positive feedback loop; dysregulated IRF7 may sustain the interferon signature in ME/CFS."
+  },
+  "TBK1": {
+    "label": "TBK1",
+    "category": "enzyme",
+    "definition": "TANK-Binding Kinase 1: a kinase that phosphorylates IRF3/IRF7 downstream of cGAS-STING and RIG-I/MAVS. TBK1 also regulates autophagy and mitophagy; TBK1 dysfunction may impair mitochondrial quality control in ME/CFS."
+  },
+  "BAX": {
+    "label": "BAX",
+    "category": "protein",
+    "definition": "BCL-2-Associated X protein: a pro-apoptotic BCL-2 family protein that forms pores in the mitochondrial outer membrane during apoptosis, releasing cytochrome c. BAX activation may be increased in ME/CFS metabolic stress."
+  },
+  "BCL-2": {
+    "label": "BCL-2",
+    "category": "protein",
+    "definition": "B-Cell Lymphoma 2: the prototypical anti-apoptotic protein that inhibits BAX/BAK pore formation. Reduced BCL-2/BAX ratios indicate a pro-apoptotic shift; may be altered in ME/CFS lymphocytes."
+  },
+  "GPCR": {
+    "label": "GPCR",
+    "category": "receptor",
+    "definition": "G Protein-Coupled Receptor: the largest receptor superfamily, mediating signals from hormones, neurotransmitters, and sensory stimuli through heterotrimeric G proteins. GPCR signaling dysregulation (e.g., adrenergic, histaminergic, serotonergic) is widespread in ME/CFS."
+  },
+  "cAMP": {
+    "label": "cAMP",
+    "category": "molecule",
+    "definition": "Cyclic Adenosine Monophosphate: a ubiquitous second messenger produced by adenylyl cyclase (AC) from ATP, degraded by phosphodiesterases (PDEs). cAMP/PKA signaling regulates energy metabolism, immune function, and synaptic plasticity; cAMP dysregulation is reported in ME/CFS."
+  },
+  "PKA": {
+    "label": "PKA",
+    "category": "enzyme",
+    "definition": "cAMP-dependent Protein Kinase A: a serine/threonine kinase activated by cAMP. PKA phosphorylates numerous targets including metabolic enzymes, ion channels, and transcription factors (CREB). PKA signaling may be blunted in ME/CFS."
+  },
+  "PKC": {
+    "label": "PKC",
+    "category": "enzyme",
+    "definition": "Protein Kinase C: a family of serine/threonine kinases activated by diacylglycerol (DAG) and calcium. PKC regulates immune cell activation, vascular tone, and neuronal excitability; PKC dysregulation may contribute to immune dysfunction in ME/CFS."
+  },
+  "PI3K": {
+    "label": "PI3K",
+    "category": "enzyme",
+    "definition": "Phosphatidylinositol 3-Kinase: a lipid kinase producing PIP3 from PIP2, activating AKT/mTOR signaling. PI3K/AKT integrates growth factor, insulin, and energy signals; PI3K pathway dysfunction may impair metabolic switching in ME/CFS."
+  },
+  "AKT": {
+    "label": "AKT",
+    "category": "enzyme",
+    "definition": "AKT (Protein Kinase B): a serine/threonine kinase downstream of PI3K that regulates metabolism, cell survival, and protein synthesis via mTOR and FOXO. Reduced AKT signaling may contribute to ME/CFS metabolic inflexibility and immune dysfunction."
+  },
+  "PLC": {
+    "label": "PLC",
+    "category": "enzyme",
+    "definition": "Phospholipase C: an enzyme cleaving PIP2 into DAG and IP3 upon GPCR or RTK activation. IP3 triggers calcium release from ER stores; DAG activates PKC. PLC-γ is critical for T cell and mast cell activation in ME/CFS."
+  },
+  "DAG": {
+    "label": "DAG",
+    "category": "molecule",
+    "definition": "Diacylglycerol: a lipid second messenger produced by PLC, activating PKC. DAG is also a metabolic intermediate linking lipid metabolism to signaling."
+  },
+  "IP3": {
+    "label": "IP3",
+    "category": "molecule",
+    "definition": "Inositol 1,4,5-Trisphosphate: a second messenger produced by PLC that opens IP3 receptors on the ER, releasing calcium into the cytoplasm. IP3-mediated calcium signaling is essential for immune cell activation and neurotransmitter release."
+  },
+  "STAT1": {
+    "label": "STAT1",
+    "category": "transcription factor",
+    "definition": "Signal Transducer and Activator of Transcription 1: a transcription factor activated by IFN-γ and type I interferons via JAK phosphorylation. STAT1 drives antiviral and pro-inflammatory gene programs; STAT1 activation may be elevated in ME/CFS."
+  },
+  "STAT3": {
+    "label": "STAT3",
+    "category": "transcription factor",
+    "definition": "Signal Transducer and Activator of Transcription 3: a transcription factor activated by IL-6 family cytokines and growth factors. STAT3 regulates inflammation, metabolism, and Th17 differentiation; STAT3/Th17 skewing is reported in ME/CFS."
+  },
+  "JAK": {
+    "label": "JAK",
+    "category": "enzyme",
+    "definition": "Janus Kinase: a family of tyrosine kinases (JAK1, JAK2, JAK3, TYK2) that phosphorylate STAT proteins downstream of cytokine receptors. JAK-STAT signaling is central to immune activation in ME/CFS.",
+    "also": "JAK1, JAK2, JAK3, TYK2"
+  },
+  "AP-1": {
+    "label": "AP-1",
+    "category": "transcription factor",
+    "definition": "Activator Protein 1: a dimeric transcription factor (c-Fos/c-Jun) activated by MAPK signaling (JNK, ERK). AP-1 drives pro-inflammatory and stress-response genes; AP-1 activation links MAPK dysregulation to inflammation in ME/CFS."
+  },
+  "CREB": {
+    "label": "CREB",
+    "category": "transcription factor",
+    "definition": "cAMP Response Element-Binding protein: a transcription factor phosphorylated by PKA, CaMK, and MAPK pathways. CREB regulates synaptic plasticity, metabolism, and cell survival; altered CREB signaling may contribute to ME/CFS cognitive dysfunction."
+  },
+  "NFAT": {
+    "label": "NFAT",
+    "category": "transcription factor",
+    "definition": "Nuclear Factor of Activated T-cells: a calcium/calcineurin-activated transcription factor driving T-cell activation genes (IL-2, IFN-γ, TNF-α). NFAT also regulates cardiac hypertrophy and neuronal function; NFAT dysregulation is reported in ME/CFS immune studies."
+  },
+  "CaMK": {
+    "label": "CaMK",
+    "category": "enzyme",
+    "definition": "Calcium/Calmodulin-dependent Kinase: a family of serine/threonine kinases activated by calcium-bound calmodulin. CaMKII is critical for learning, memory, and cardiac function; calcium signaling dysfunction in ME/CFS may impair CaMK-dependent processes."
+  },
+  "SERCA": {
+    "label": "SERCA",
+    "category": "transporter",
+    "definition": "Sarco/Endoplasmic Reticulum Calcium ATPase: the pump that transports calcium from the cytoplasm back into the ER/SR. SERCA dysfunction leads to ER calcium depletion, ER stress, and impaired calcium signaling — all documented in ME/CFS."
+  },
+  "IP3R": {
+    "label": "IP3R",
+    "category": "receptor",
+    "definition": "IP3 Receptor: an ER calcium release channel gated by IP3. IP3R-mediated calcium release couples surface receptor activation to intracellular calcium signals driving immune function and metabolism."
+  },
+  "VDAC": {
+    "label": "VDAC",
+    "category": "transporter",
+    "definition": "Voltage-Dependent Anion Channel: the primary channel in the mitochondrial outer membrane, controlling metabolite flux (ATP, ADP, NADH) between mitochondria and cytoplasm. VDAC dysfunction impairs mitochondrial-cytosolic energy exchange in ME/CFS."
+  },
+  "MCU": {
+    "label": "MCU",
+    "category": "transporter",
+    "definition": "Mitochondrial Calcium Uniporter: the primary channel for calcium uptake into the mitochondrial matrix. MCU-mediated mitochondrial calcium regulates ATP production and apoptosis; MCU dysfunction may impair mitochondrial energetics in ME/CFS."
+  },
+  "OXPHOS": {
+    "label": "OXPHOS",
+    "category": "pathway",
+    "definition": "Oxidative Phosphorylation: the mitochondrial process coupling electron transport chain activity to ATP synthesis via Complex V (ATP synthase). Impaired OXPHOS is one of the most consistently replicated metabolic abnormalities in ME/CFS."
+  },
+  "ETC": {
+    "label": "ETC",
+    "category": "pathway",
+    "definition": "Electron Transport Chain: the series of mitochondrial complexes (I–IV) that transfer electrons from NADH/FADH₂ to oxygen, pumping protons to drive ATP synthesis. Complex I and IV dysfunction are reported in ME/CFS."
+  },
+  "PDH": {
+    "label": "PDH",
+    "category": "enzyme",
+    "definition": "Pyruvate Dehydrogenase: the enzyme complex converting pyruvate to acetyl-CoA, linking glycolysis to the TCA cycle. PDH is inhibited by PDK phosphorylation; PDK/PDH ratio dysregulation is a candidate mechanism for metabolic inflexibility in ME/CFS.",
+    "also": "PDC (Pyruvate Dehydrogenase Complex); regulated by PDK1–4 and PDP1–2"
+  },
+  "PDK": {
+    "label": "PDK",
+    "category": "enzyme",
+    "definition": "Pyruvate Dehydrogenase Kinase: kinases (PDK1–4) that phosphorylate and inactivate PDH, reducing glucose oxidation. PDK upregulation may lock ME/CFS cells into a glycolytic metabolic state even when oxygen is available.",
+    "also": "PDK1, PDK2, PDK3, PDK4"
+  },
+  "GLUT1": {
+    "label": "GLUT1",
+    "category": "transporter",
+    "definition": "Glucose Transporter 1: the primary glucose transporter at the blood-brain barrier and in erythrocytes. Reduced GLUT1 expression or function could limit cerebral glucose availability in ME/CFS, contributing to brain fog."
+  },
+  "GLUT3": {
+    "label": "GLUT3",
+    "category": "transporter",
+    "definition": "Glucose Transporter 3: the primary neuronal glucose transporter with high affinity (low Km). Essential for maintaining neuronal energy; GLUT3 dysfunction could contribute to ME/CFS neurocognitive symptoms."
+  },
+  "GLUT4": {
+    "label": "GLUT4",
+    "category": "transporter",
+    "definition": "Glucose Transporter 4: the insulin-responsive glucose transporter in muscle and adipose tissue. Insulin resistance or impaired GLUT4 translocation may reduce muscle glucose uptake in ME/CFS."
+  },
+  "CPT1": {
+    "label": "CPT1",
+    "category": "enzyme",
+    "definition": "Carnitine Palmitoyltransferase 1: the rate-limiting enzyme for mitochondrial fatty acid oxidation, transporting long-chain fatty acyl-CoA into mitochondria. CPT1 dysfunction may impair fatty acid utilization in ME/CFS, forcing reliance on glycolysis."
+  },
+  "CPT2": {
+    "label": "CPT2",
+    "category": "enzyme",
+    "definition": "Carnitine Palmitoyltransferase 2: the inner mitochondrial membrane enzyme reconstituting fatty acyl-CoA from acylcarnitine. CPT2 deficiency/impaired activity may contribute to lipid metabolism abnormalities in ME/CFS."
+  },
+  "GAPDH": {
+    "label": "GAPDH",
+    "category": "enzyme",
+    "definition": "Glyceraldehyde-3-Phosphate Dehydrogenase: a glycolytic enzyme also functioning as an RNA-binding protein and redox sensor. GAPDH is oxidatively modified in ME/CFS, potentially impairing both glycolysis and its signaling functions."
+  },
+  "MCT1": {
+    "label": "MCT1",
+    "category": "transporter",
+    "definition": "Monocarboxylate Transporter 1: transports lactate, pyruvate, and ketone bodies across cell membranes. MCT1 at the blood-brain barrier imports ketones and lactate as alternative brain fuels; MCT1 dysfunction could worsen cerebral energy deficits in ME/CFS."
+  },
+  "UCP": {
+    "label": "UCP",
+    "category": "transporter",
+    "definition": "Uncoupling Protein: mitochondrial inner membrane proteins (UCP1–5) that dissipate the proton gradient as heat, reducing ATP synthesis. UCP2/3 upregulation in ME/CFS may reduce mitochondrial efficiency as an adaptive antioxidant response.",
+    "also": "UCP1 (brown fat thermogenesis); UCP2 (ubiquitous); UCP3 (muscle)"
+  },
+  "HO-1": {
+    "label": "HO-1",
+    "category": "enzyme",
+    "definition": "Heme Oxygenase-1: the inducible enzyme degrading heme to biliverdin, carbon monoxide, and free iron. HO-1 is a key NRF2-target antioxidant and anti-inflammatory gene; HO-1 induction may be impaired in ME/CFS despite oxidative stress."
+  },
+  "NQO1": {
+    "label": "NQO1",
+    "category": "enzyme",
+    "definition": "NAD(P)H Quinone Dehydrogenase 1: an NRF2-target enzyme reducing quinones to hydroquinones, preventing redox cycling and oxidative damage. Reduced NQO1 activity is reported in ME/CFS."
+  },
+  "TXNRD": {
+    "label": "TXNRD",
+    "category": "enzyme",
+    "definition": "Thioredoxin Reductase: a selenoprotein enzyme reducing oxidized thioredoxin using NADPH. Essential for ribonucleotide reductase activity (DNA synthesis) and antioxidant defense; TXNRD dysfunction may impair redox balance in ME/CFS."
+  },
+  "PPAR": {
+    "label": "PPAR",
+    "category": "transcription factor",
+    "definition": "Peroxisome Proliferator-Activated Receptor: a nuclear receptor family (PPARα, β/δ, γ) regulating lipid metabolism, inflammation, and mitochondrial biogenesis. PPAR agonists have been proposed as experimental ME/CFS therapies targeting metabolic dysfunction.",
+    "also": "PPARα, PPARβ/δ, PPARγ"
+  },
+  "FOXO1": {
+    "label": "FOXO1",
+    "category": "transcription factor",
+    "definition": "Forkhead Box O1: a transcription factor regulating metabolism, antioxidant defense, and autophagy. AKT phosphorylation excludes FOXO from the nucleus; impaired FOXO signaling may reduce stress-resistance programs in ME/CFS."
+  },
+  "FOXO3": {
+    "label": "FOXO3",
+    "category": "transcription factor",
+    "definition": "Forkhead Box O3: a longevity-associated transcription factor activating antioxidant, DNA repair, and autophagy genes. FOXO3 activity is regulated by AMPK and SIRT1; FOXO3 dysfunction may impair cellular resilience in ME/CFS."
+  },
+  "NRF1": {
+    "label": "NRF1",
+    "category": "transcription factor",
+    "definition": "Nuclear Respiratory Factor 1: a transcription factor coordinating nuclear-encoded mitochondrial gene expression with mitochondrial biogenesis. NRF1 works with PGC-1α and TFAM; NRF1 impairment may contribute to the mitochondrial phenotype in ME/CFS."
+  },
+  "TFAM": {
+    "label": "TFAM",
+    "category": "transcription factor",
+    "definition": "Mitochondrial Transcription Factor A: the key regulator of mitochondrial DNA transcription, replication, and packaging. TFAM is downstream of PGC-1α/NRF1; reduced TFAM may impair mitochondrial gene expression and biogenesis in ME/CFS."
+  },
+  "PARP": {
+    "label": "PARP",
+    "category": "enzyme",
+    "definition": "Poly(ADP-Ribose) Polymerase: a DNA damage-sensing enzyme that consumes NAD+. Excessive PARP activation depletes cellular NAD+, impairing glycolysis and mitochondrial function — a candidate mechanism for ME/CFS energy failure."
+  },
+  "D1R": {
+    "label": "D1R",
+    "category": "receptor",
+    "definition": "Dopamine D1 Receptor: a Gs-coupled receptor activating cAMP/PKA signaling. D1R in the prefrontal cortex supports working memory; D1R dysfunction may contribute to ME/CFS cognitive symptoms."
+  },
+  "5-HT3": {
+    "label": "5-HT3",
+    "category": "receptor",
+    "definition": "5-HT3 receptor: the only ligand-gated ion channel among serotonin receptors. Mediates nausea and vomiting; 5-HT3 antagonists (ondansetron) are used for ME/CFS-related nausea."
+  },
+  "AT1R": {
+    "label": "AT1R",
+    "category": "receptor",
+    "definition": "Angiotensin II Type 1 Receptor: the primary receptor mediating angiotensin II effects (vasoconstriction, aldosterone release, inflammation). AT1R overactivation contributes to oxidative stress and vascular dysfunction in ME/CFS."
+  },
+  "nAChR": {
+    "label": "nAChR",
+    "category": "receptor",
+    "definition": "Nicotinic Acetylcholine Receptor: a ligand-gated ion channel activated by acetylcholine and nicotine. Neuronal nAChRs (α7, α4β2) regulate cognition, attention, and autonomic tone; nAChR dysfunction may contribute to cognitive and autonomic symptoms in ME/CFS."
+  },
+  "OSA": {
+    "label": "OSA",
+    "category": "condition",
+    "definition": "Obstructive Sleep Apnea: recurrent upper airway collapse during sleep causing intermittent hypoxia and sleep fragmentation. OSA is a common comorbidity and must be excluded in ME/CFS patients with unrefreshing sleep."
+  },
+  "RLS": {
+    "label": "RLS",
+    "category": "condition",
+    "definition": "Restless Legs Syndrome (Willis-Ekbom disease): an irresistible urge to move the legs, often with uncomfortable sensations, worsening at rest and at night. Highly prevalent in ME/CFS and contributes to sleep-onset difficulties."
+  },
+  "NREM": {
+    "label": "NREM",
+    "category": "measurement",
+    "definition": "Non-Rapid Eye Movement sleep: sleep stages N1–N3 (light to deep/slow-wave sleep). Reduced N3 (slow-wave sleep) and alpha intrusion into NREM are characteristic EEG findings in ME/CFS."
+  },
+  "REM": {
+    "label": "REM",
+    "category": "measurement",
+    "definition": "Rapid Eye Movement sleep: the sleep stage associated with vivid dreaming, muscle atonia, and memory consolidation. REM sleep abnormalities (timing, density, fragmentation) are reported in ME/CFS."
+  },
+  "SWS": {
+    "label": "SWS",
+    "category": "measurement",
+    "definition": "Slow-Wave Sleep (N3): the deepest non-REM sleep stage, characterized by high-amplitude delta waves. SWS is critical for glymphatic clearance, growth hormone secretion, and tissue repair. Reduced SWS and alpha-delta intrusion are hallmarks of ME/CFS sleep pathology."
+  },
+  "PSG": {
+    "label": "PSG",
+    "category": "test",
+    "definition": "Polysomnography: comprehensive overnight sleep study recording EEG, EOG, EMG, ECG, respiratory effort, airflow, and oxygen saturation. PSG in ME/CFS reveals reduced sleep efficiency, alpha intrusion, frequent arousals, and reduced slow-wave sleep."
+  },
+  "WASO": {
+    "label": "WASO",
+    "category": "measurement",
+    "definition": "Wake After Sleep Onset: total time spent awake after initially falling asleep. Elevated WASO is typical in ME/CFS, reflecting sleep maintenance insomnia and frequent nocturnal arousals."
+  },
+  "TST": {
+    "label": "TST",
+    "category": "measurement",
+    "definition": "Total Sleep Time: the actual time spent asleep during a sleep period. TST may be normal in quantity but severely deficient in quality in ME/CFS."
+  },
+  "PCA": {
+    "label": "PCA",
+    "category": "method",
+    "definition": "Principal Component Analysis: a dimensionality reduction technique identifying orthogonal components explaining maximal variance in multivariate data. Used in ME/CFS metabolomics and cytokine studies to identify latent biological dimensions."
+  },
+  "t-SNE": {
+    "label": "t-SNE",
+    "category": "method",
+    "definition": "t-distributed Stochastic Neighbor Embedding: a non-linear dimensionality reduction method preserving local structure in high-dimensional data. Used in ME/CFS for visualizing immune cell populations and metabolic profiles."
+  },
+  "UMAP": {
+    "label": "UMAP",
+    "category": "method",
+    "definition": "Uniform Manifold Approximation and Projection: a dimensionality reduction technique preserving both local and global data structure, often preferred over t-SNE. Used in ME/CFS single-cell and metabolomics analyses."
+  },
+  "LASSO": {
+    "label": "LASSO",
+    "category": "method",
+    "definition": "Least Absolute Shrinkage and Selection Operator: a regression method performing variable selection and regularization. Used in ME/CFS biomarker discovery to identify minimal sets of predictive analytes."
+  },
+  "AUC": {
+    "label": "AUC",
+    "category": "method",
+    "definition": "Area Under the receiver operating characteristic Curve: a measure of diagnostic test performance (0.5 = random; 1.0 = perfect). ME/CFS biomarker panels aim for AUC &gt; 0.80 for clinical utility."
+  },
+  "ROC": {
+    "label": "ROC",
+    "category": "method",
+    "definition": "Receiver Operating Characteristic curve: plots sensitivity vs 1-specificity across test thresholds. Used to evaluate ME/CFS diagnostic biomarkers and classifiers."
+  },
+  "OR": {
+    "label": "OR",
+    "category": "method",
+    "definition": "Odds Ratio: a measure of association between exposure and outcome in case-control studies. Used in ME/CFS epidemiology to quantify risk factors."
+  },
+  "RR": {
+    "label": "RR",
+    "category": "method",
+    "definition": "Relative Risk (Risk Ratio): the ratio of outcome probability in exposed vs unexposed groups. Used in ME/CFS cohort studies."
+  },
+  "HR": {
+    "label": "HR",
+    "category": "method",
+    "definition": "Hazard Ratio: the ratio of instantaneous event rates between groups in survival analysis. In ME/CFS, HR can describe recovery or deterioration rates over time."
+  },
+  "CI": {
+    "label": "CI",
+    "category": "method",
+    "definition": "Confidence Interval: a range of values likely to contain the true population parameter. 95% CI is the standard; wide CIs in ME/CFS studies often reflect small sample sizes."
+  },
+  "ANOVA": {
+    "label": "ANOVA",
+    "category": "method",
+    "definition": "Analysis of Variance: a statistical test comparing means across multiple groups. Widely used in ME/CFS biomarker studies to compare patient subgroups vs controls."
+  },
+  "ANCOVA": {
+    "label": "ANCOVA",
+    "category": "method",
+    "definition": "Analysis of Covariance: ANOVA adjusted for covariates (e.g., age, sex, BMI). Important in ME/CFS studies to control for confounding variables."
+  },
+  "CONSORT": {
+    "label": "CONSORT",
+    "category": "method",
+    "definition": "Consolidated Standards of Reporting Trials: a guideline for reporting RCTs. ME/CFS trials are assessed against CONSORT criteria for methodological quality."
+  },
+  "PRISMA": {
+    "label": "PRISMA",
+    "category": "method",
+    "definition": "Preferred Reporting Items for Systematic Reviews and Meta-Analyses: a guideline and checklist for systematic reviews. Used extensively in ME/CFS evidence synthesis."
+  },
+  "GRADE": {
+    "label": "GRADE",
+    "category": "method",
+    "definition": "Grading of Recommendations Assessment, Development and Evaluation: a framework for rating certainty of evidence and strength of recommendations. NICE ME/CFS guidelines used GRADE methodology."
+  },
+  "CRISPR": {
+    "label": "CRISPR",
+    "category": "method",
+    "definition": "Clustered Regularly Interspaced Short Palindromic Repeats: a gene-editing technology using Cas9 nuclease guided by a single guide RNA. Used experimentally to study ME/CFS-associated gene variants in cell models."
+  },
+  "WT": {
+    "label": "WT",
+    "category": "method",
+    "definition": "Wild-Type: the normal, unmodified genetic background in experimental models. Used as the control in ME/CFS-related molecular studies."
+  },
+  "siRNA": {
+    "label": "siRNA",
+    "category": "method",
+    "definition": "Small Interfering RNA: double-stranded RNA molecules that silence gene expression via RNA interference. Used to study gene function in ME/CFS cellular models."
+  },
+  "NAFLD": {
+    "label": "NAFLD",
+    "category": "condition",
+    "definition": "Non-Alcoholic Fatty Liver Disease: hepatic fat accumulation without significant alcohol consumption. Associated with metabolic syndrome and may co-occur in ME/CFS patients with metabolic comorbidities.",
+    "also": "Now also referred to as MASLD (Metabolic Dysfunction-Associated Steatotic Liver Disease)"
+  },
+  "CAD": {
+    "label": "CAD",
+    "category": "condition",
+    "definition": "Coronary Artery Disease: atherosclerotic narrowing of coronary arteries. ME/CFS is not a risk factor, but overlapping chest pain/fatigue symptoms require differential diagnosis."
+  },
+  "CVD": {
+    "label": "CVD",
+    "category": "condition",
+    "definition": "Cardiovascular Disease: the umbrella term for diseases of the heart and blood vessels. ME/CFS autonomic dysfunction may mimic or exacerbate CVD symptoms."
+  },
+  "DVT": {
+    "label": "DVT",
+    "category": "condition",
+    "definition": "Deep Vein Thrombosis: a blood clot in a deep vein, typically in the leg. Immobility in severe ME/CFS increases DVT risk."
+  },
+  "PE": {
+    "label": "PE",
+    "category": "condition",
+    "definition": "Pulmonary Embolism: a blood clot lodged in the pulmonary arteries, often from a DVT. A differential diagnosis for acute dyspnea and chest pain in ME/CFS patients."
+  },
+  "TBI": {
+    "label": "TBI",
+    "category": "condition",
+    "definition": "Traumatic Brain Injury: brain damage from external force. TBI can trigger ME/CFS-like symptoms; post-concussion syndrome shares features with ME/CFS."
+  },
+  "SCI": {
+    "label": "SCI",
+    "category": "condition",
+    "definition": "Spinal Cord Injury: damage to the spinal cord from trauma or disease. SCI-associated fatigue and autonomic dysfunction overlap with ME/CFS symptoms."
+  },
+  "TMJ": {
+    "label": "TMJ",
+    "category": "condition",
+    "definition": "Temporomandibular Joint dysfunction: pain and dysfunction of the jaw joint and muscles. Reported comorbidity in ME/CFS/fibromyalgia, possibly linked to hypermobility and central sensitization."
+  },
+  "NETosis": {
+    "label": "NETosis",
+    "category": "pathway",
+    "definition": "NETosis: a form of programmed neutrophil death releasing neutrophil extracellular traps (NETs) — webs of DNA, histones, and antimicrobial proteins. NETosis is a key innate immune defense; excessive NETosis has been implicated in autoimmune and inflammatory conditions that overlap with ME/CFS."
+  },
+  "DAMP": {
+    "label": "DAMP",
+    "category": "molecule",
+    "definition": "Damage-Associated Molecular Pattern: endogenous molecules (HMGB1, ATP, HSPs, mtDNA, S100 proteins) released from stressed or dying cells that activate innate immune receptors. Chronic DAMP release from cellular stress may sustain sterile inflammation in ME/CFS."
+  },
+  "PAMP": {
+    "label": "PAMP",
+    "category": "molecule",
+    "definition": "Pathogen-Associated Molecular Pattern: conserved microbial molecules (LPS, flagellin, viral dsRNA) detected by pattern recognition receptors (TLRs, RIG-I, NLRs). Persistent PAMP exposure from chronic infections or leaky gut may drive immune activation in ME/CFS."
+  },
+  "TIBC": {
+    "label": "TIBC",
+    "category": "measurement",
+    "definition": "Total Iron-Binding Capacity: a measure of the blood's capacity to bind iron with transferrin. Elevated TIBC indicates iron deficiency; relevant to ME/CFS fatigue differential diagnosis."
+  },
+  "TSAT": {
+    "label": "TSAT",
+    "category": "measurement",
+    "definition": "Transferrin Saturation: the ratio of serum iron to TIBC, expressed as a percentage. Low TSAT (&lt;20%) indicates iron deficiency, a common and treatable cause of fatigue that must be excluded in ME/CFS."
+  },
+  "Ferritin": {
+    "label": "Ferritin",
+    "category": "biomarker",
+    "definition": "Ferritin: the primary intracellular iron storage protein; serum ferritin reflects body iron stores. Low ferritin indicates iron deficiency anemia. Ferritin can be falsely elevated in inflammation (acute phase reactant)."
+  },
+  "HDL": {
+    "label": "HDL",
+    "category": "measurement",
+    "definition": "High-Density Lipoprotein: the 'good' cholesterol particle mediating reverse cholesterol transport. HDL particle function (not just concentration) may be impaired in ME/CFS due to oxidative modification."
+  },
+  "LDL": {
+    "label": "LDL",
+    "category": "measurement",
+    "definition": "Low-Density Lipoprotein: the 'bad' cholesterol particle carrying cholesterol to tissues. Oxidized LDL (oxLDL) is a marker of oxidative stress that may be elevated in ME/CFS."
+  },
+  "Lp(a)": {
+    "label": "Lp(a)",
+    "category": "measurement",
+    "definition": "Lipoprotein(a): an LDL-like particle with apolipoprotein(a) covalently bound to apoB. Genetically determined; elevated Lp(a) is an independent cardiovascular risk factor."
+  },
+  "Homocysteine": {
+    "label": "Homocysteine",
+    "category": "biomarker",
+    "definition": "Homocysteine: a sulfur-containing amino acid intermediate in methionine metabolism. Elevated homocysteine indicates impaired methylation (B12/folate deficiency, MTHFR variants) and is an independent cardiovascular risk factor; reported elevated in some ME/CFS cohorts."
+  },
+  "HbA1c": {
+    "label": "HbA1c",
+    "category": "measurement",
+    "definition": "Glycated Hemoglobin A1c: reflects average blood glucose over the preceding 2–3 months. Used to screen for diabetes, which can cause fatigue resembling ME/CFS and must be excluded."
+  },
+  "HOMA-IR": {
+    "label": "HOMA-IR",
+    "category": "measurement",
+    "definition": "Homeostatic Model Assessment of Insulin Resistance: calculated from fasting glucose and insulin. Assesses insulin resistance; metabolic studies suggest insulin resistance may be present in a subset of ME/CFS patients."
+  },
+  "OGTT": {
+    "label": "OGTT",
+    "category": "test",
+    "definition": "Oral Glucose Tolerance Test: measures the body's ability to handle a glucose load over 2 hours. Used to detect impaired glucose tolerance and diabetes; both can cause fatigue and must be excluded in ME/CFS assessment."
+  },
+  "PT": {
+    "label": "PT",
+    "category": "test",
+    "definition": "Prothrombin Time: a coagulation test measuring the extrinsic and common pathways. INR is derived from PT. Generally normal in ME/CFS unless anticoagulated or liver disease present."
+  },
+  "INR": {
+    "label": "INR",
+    "category": "measurement",
+    "definition": "International Normalized Ratio: a standardized PT ratio used to monitor warfarin therapy and assess liver synthetic function. Normal in ME/CFS."
+  },
+  "aPTT": {
+    "label": "aPTT",
+    "category": "test",
+    "definition": "Activated Partial Thromboplastin Time: a coagulation test measuring the intrinsic and common pathways. Used to screen for bleeding disorders and monitor heparin therapy."
+  },
+  "D-dimer": {
+    "label": "D-dimer",
+    "category": "biomarker",
+    "definition": "D-dimer: a fibrin degradation product indicating coagulation and fibrinolysis. Elevated in thrombosis, inflammation, and infection. Elevated D-dimer in Long COVID/ME/CFS may indicate persistent microvascular coagulation."
+  },
+  "GGT": {
+    "label": "GGT",
+    "category": "enzyme",
+    "definition": "Gamma-Glutamyl Transferase: a liver enzyme elevated in biliary disease, alcohol use, and oxidative stress. GGT may also serve as a marker of glutathione depletion; elevated GGT in ME/CFS could reflect oxidative stress."
+  },
+  "ALP": {
+    "label": "ALP",
+    "category": "enzyme",
+    "definition": "Alkaline Phosphatase: an enzyme from liver, bone, and placenta. Elevated ALP requires differential diagnosis (liver disease, bone disease). Generally normal in ME/CFS."
+  },
+  "BUN": {
+    "label": "BUN",
+    "category": "measurement",
+    "definition": "Blood Urea Nitrogen: a marker of kidney function and protein metabolism. BUN may be elevated in dehydration (common in ME/CFS with POTS due to low fluid intake) or kidney disease."
+  },
+  "Cr": {
+    "label": "Cr",
+    "category": "measurement",
+    "definition": "Creatinine: a waste product of muscle metabolism, excreted by the kidneys. Serum creatinine is the most common kidney function marker; used with cystatin C for eGFR calculation. Low creatinine may indicate low muscle mass in severe ME/CFS."
+  },
+  "PTH": {
+    "label": "PTH",
+    "category": "hormone",
+    "definition": "Parathyroid Hormone: regulates calcium and phosphate homeostasis. Elevated PTH may reflect vitamin D deficiency, common in housebound ME/CFS patients with limited sun exposure."
+  },
+  "B12": {
+    "label": "B12",
+    "category": "vitamin",
+    "definition": "Vitamin B12 (Cobalamin): essential for methylation, DNA synthesis, and neurological function. B12 deficiency causes fatigue, neuropathy, and cognitive dysfunction indistinguishable from ME/CFS and must be excluded.",
+    "generic": "Cyanocobalamin, Methylcobalamin, Hydroxocobalamin",
+    "class": "Vitamin (water-soluble B-complex)",
+    "rx": "OTC (oral); prescription (injection)"
+  },
+  "Folate": {
+    "label": "Folate",
+    "category": "vitamin",
+    "definition": "Vitamin B9: essential for DNA synthesis, methylation, and red blood cell production. Folate deficiency causes fatigue and macrocytic anemia; must be excluded in ME/CFS workup. MTHFR polymorphisms may impair folate utilization.",
+    "generic": "Folic acid, Methylfolate (5-MTHF), Folinic acid",
+    "class": "Vitamin (water-soluble B-complex)",
+    "rx": "OTC"
+  },
+  "FODMAP": {
+    "label": "FODMAP",
+    "category": "treatment",
+    "definition": "Fermentable Oligosaccharides, Disaccharides, Monosaccharides, and Polyols: short-chain carbohydrates poorly absorbed in the small intestine, fermented by gut bacteria causing bloating and gas. Low-FODMAP diet is used in ME/CFS with IBS/SIBO comorbidity to reduce GI symptoms."
+  },
+  "AIP": {
+    "label": "AIP",
+    "category": "treatment",
+    "definition": "Autoimmune Protocol diet: an elimination diet removing potentially immunogenic foods (grains, legumes, nightshades, dairy, eggs, nuts, seeds) followed by structured reintroduction. Used experimentally in ME/CFS patients with suspected autoimmune or food-sensitivity components."
+  },
+  "AHR": {
+    "label": "AHR",
+    "category": "transcription factor",
+    "definition": "Aryl Hydrocarbon Receptor: a ligand-activated transcription factor sensing environmental toxins and tryptophan metabolites (kynurenine). AHR activation by kynurenine shifts T-cell differentiation toward Treg vs Th17; the IDO-KYN-AHR axis links tryptophan metabolism to immune regulation in ME/CFS."
+  },
+  "FXR": {
+    "label": "FXR",
+    "category": "receptor",
+    "definition": "Farnesoid X Receptor: a nuclear bile acid receptor regulating bile acid synthesis, lipid metabolism, and gut-liver signaling. FXR dysfunction may link gut microbiome alterations to metabolic abnormalities in ME/CFS."
+  },
+  "VDR": {
+    "label": "VDR",
+    "category": "receptor",
+    "definition": "Vitamin D Receptor: a nuclear receptor activated by 1,25-dihydroxyvitamin D3. VDR regulates calcium homeostasis, immune function, and antimicrobial peptide production; vitamin D deficiency and VDR polymorphisms have been studied in ME/CFS."
+  },
+  "COVID": {
+    "label": "COVID",
+    "category": "disease",
+    "definition": "Coronavirus Disease 2019: the illness caused by SARS-CoV-2. COVID-19 is a major infectious trigger for post-infectious ME/CFS (Long COVID/PASC), creating the largest-ever cohort of post-viral ME/CFS patients."
+  },
+  "RECOVER": {
+    "label": "RECOVER",
+    "category": "organization",
+    "definition": "Researching COVID to Enhance Recovery: the NIH's $1.15 billion Long COVID research initiative. RECOVER findings have strong implications for ME/CFS given the substantial overlap between Long COVID and ME/CFS."
+  },
+  "oxidative stress": {
+    "label": "oxidative stress",
+    "category": "pathway",
+    "definition": "An imbalance between reactive oxygen species (ROS) production and antioxidant defenses, leading to oxidative damage of lipids, proteins, and DNA. One of the most consistently replicated biological abnormalities in ME/CFS, driving the NO/ONOO cycle hypothesis."
+  },
+  "neuroinflammation": {
+    "label": "neuroinflammation",
+    "category": "pathway",
+    "definition": "Inflammatory activation of microglia and astrocytes within the CNS, producing cytokines, chemokines, and reactive species. PET imaging and CSF studies confirm neuroinflammation in ME/CFS, particularly in the brainstem, thalamus, and cortex."
+  },
+  "central sensitization": {
+    "label": "central sensitization",
+    "category": "pathway",
+    "definition": "Increased responsiveness of nociceptive neurons in the CNS to normal or subthreshold afferent input. Explains widespread pain, allodynia, and hyperalgesia in ME/CFS and fibromyalgia beyond what peripheral pathology would predict."
+  },
+  "excitotoxicity": {
+    "label": "excitotoxicity",
+    "category": "pathway",
+    "definition": "Neuronal damage caused by excessive activation of glutamate receptors (NMDA, AMPA), leading to calcium overload, mitochondrial failure, and cell death. Driven by elevated quinolinic acid (QUIN) in the kynurenine pathway; implicated in ME/CFS cognitive dysfunction."
+  },
+  "metabolic inflexibility": {
+    "label": "metabolic inflexibility",
+    "category": "pathway",
+    "definition": "Impaired ability to switch between glucose and fatty acid oxidation in response to demand. A core metabolic phenotype in ME/CFS: cells remain locked in glycolysis even when fatty acid oxidation would be more efficient, contributing to early fatigue and lactate accumulation."
+  },
+  "mitochondrial dysfunction": {
+    "label": "mitochondrial dysfunction",
+    "category": "pathway",
+    "definition": "Impaired mitochondrial ATP production due to electron transport chain defects, reduced mitochondrial biogenesis, oxidative damage, or substrate limitation. A leading hypothesis for the profound fatigability and PEM in ME/CFS."
+  },
+  "endothelial dysfunction": {
+    "label": "endothelial dysfunction",
+    "category": "pathway",
+    "definition": "Impaired endothelium-dependent vasodilation due to reduced nitric oxide bioavailability, increased oxidative stress, and inflammation. Contributes to microvascular hypoperfusion and orthostatic intolerance in ME/CFS."
+  },
+  "dysbiosis": {
+    "label": "dysbiosis",
+    "category": "pathway",
+    "definition": "An imbalance in the composition, diversity, or function of the gut microbiome. Gut dysbiosis is consistently reported in ME/CFS, with reduced microbial diversity and shifts in short-chain fatty acid (SCFA) producers, linking to immune and metabolic dysfunction."
+  },
+  "leaky gut": {
+    "label": "leaky gut",
+    "category": "pathway",
+    "definition": "Increased intestinal permeability allowing bacterial products (LPS, flagellin) to translocate from the gut lumen into systemic circulation. Intestinal permeability may drive chronic low-grade immune activation ('metabolic endotoxemia') in ME/CFS.",
+    "also": "Intestinal permeability"
+  },
+  "allostatic load": {
+    "label": "allostatic load",
+    "category": "pathway",
+    "definition": "The cumulative physiological wear and tear from chronic stress or repeated adaptive responses. ME/CFS can be framed as a state of decompensated allostatic overload where the body's regulatory systems (HPA axis, ANS, immune) lose their adaptive capacity."
+  },
+  "sickness behavior": {
+    "label": "sickness behavior",
+    "category": "pathway",
+    "definition": "A coordinated behavioral and physiological response to infection/inflammation: fatigue, anhedonia, social withdrawal, hyperalgesia, and cognitive slowing. Mediated by pro-inflammatory cytokines (IL-1β, TNF-α) acting on the brain; ME/CFS resembles a chronic sickness behavior state."
+  },
+  "microglial priming": {
+    "label": "microglial priming",
+    "category": "pathway",
+    "definition": "A state where microglia become hypersensitive to subsequent stimuli after an initial insult, producing exaggerated inflammatory responses. May explain why ME/CFS patients experience symptom flares from minor triggers that would not affect healthy individuals."
+  },
+  "glycolysis": {
+    "label": "glycolysis",
+    "category": "pathway",
+    "definition": "The cytoplasmic breakdown of glucose to pyruvate, producing 2 ATP and NADH. In ME/CFS, impaired pyruvate dehydrogenase activity may shunt metabolism toward anaerobic glycolysis, producing lactate even at rest."
+  },
+  "gluconeogenesis": {
+    "label": "gluconeogenesis",
+    "category": "pathway",
+    "definition": "The synthesis of glucose from non-carbohydrate precursors (lactate, amino acids, glycerol) in the liver and kidneys. Critical for maintaining blood glucose during fasting; may be dysregulated in ME/CFS contributing to hypoglycemia-like symptoms."
+  },
+  "β-oxidation": {
+    "label": "β-oxidation",
+    "category": "pathway",
+    "definition": "The mitochondrial breakdown of fatty acids to acetyl-CoA, producing NADH and FADH₂ for the electron transport chain. Impaired β-oxidation in ME/CFS forces reliance on glycolysis, reducing total ATP yield and accelerating fatigue."
+  },
+  "autophagy": {
+    "label": "autophagy",
+    "category": "pathway",
+    "definition": "The cellular self-digestion process that degrades damaged organelles, protein aggregates, and pathogens, recycling components for reuse. Impaired autophagy in ME/CFS may accumulate mitochondrial damage and protein aggregates, perpetuating cellular dysfunction."
+  },
+  "mitophagy": {
+    "label": "mitophagy",
+    "category": "pathway",
+    "definition": "The selective autophagic degradation of damaged or dysfunctional mitochondria. Mitophagy failure in ME/CFS leads to accumulation of defective mitochondria, impaired energy production, and increased ROS generation."
+  },
+  "apoptosis": {
+    "label": "apoptosis",
+    "category": "pathway",
+    "definition": "Programmed cell death — a controlled, non-inflammatory form of cellular suicide. Increased lymphocyte apoptosis has been reported in ME/CFS; failure to clear apoptotic debris may contribute to autoimmunity."
+  },
+  "ferroptosis": {
+    "label": "ferroptosis",
+    "category": "pathway",
+    "definition": "An iron-dependent form of regulated cell death driven by lipid peroxidation. Ferroptosis is linked to neurodegenerative diseases and may contribute to neuronal loss in ME/CFS given the oxidative stress and iron dysregulation observed."
+  },
+  "pyroptosis": {
+    "label": "pyroptosis",
+    "category": "pathway",
+    "definition": "A highly inflammatory programmed cell death mediated by gasdermin D pores, releasing IL-1β, IL-18, and DAMPs. Driven by inflammasome activation (NLRP3, AIM2); pyroptosis may contribute to sustained inflammation in ME/CFS."
+  },
+  "necroptosis": {
+    "label": "necroptosis",
+    "category": "pathway",
+    "definition": "A regulated form of necrosis mediated by RIPK1/RIPK3/MLKL, releasing cellular contents that trigger inflammation. Necroptosis is distinct from apoptosis and pyroptosis; may be activated in ME/CFS under conditions where apoptosis is inhibited."
+  },
+  "senescence": {
+    "label": "senescence",
+    "category": "pathway",
+    "definition": "A state of irreversible cell cycle arrest with a pro-inflammatory secretory phenotype (SASP). Accelerated cellular senescence has been proposed in ME/CFS based on epigenetic clock studies and may explain premature biological aging."
+  },
+  "SASP": {
+    "label": "SASP",
+    "category": "pathway",
+    "definition": "Senescence-Associated Secretory Phenotype: the cocktail of pro-inflammatory cytokines, chemokines, growth factors, and proteases secreted by senescent cells. SASP may contribute to systemic inflammation and tissue dysfunction in ME/CFS."
+  },
+  "angiogenesis": {
+    "label": "angiogenesis",
+    "category": "pathway",
+    "definition": "The formation of new blood vessels from existing vasculature. Dysregulated angiogenesis via VEGF may contribute to microvascular abnormalities observed in ME/CFS."
+  },
+  "vasodilation": {
+    "label": "vasodilation",
+    "category": "pathway",
+    "definition": "The widening of blood vessels via relaxation of smooth muscle. Impaired NO-mediated vasodilation in ME/CFS contributes to microvascular dysfunction and orthostatic intolerance."
+  },
+  "PPV": {
+    "label": "PPV",
+    "category": "method",
+    "definition": "Positive Predictive Value: the probability that a person with a positive test result actually has the disease. PPV depends on disease prevalence; low PPV in rare diseases means many positive results are false positives, a key limitation in ME/CFS biomarker studies."
+  },
+  "NPV": {
+    "label": "NPV",
+    "category": "method",
+    "definition": "Negative Predictive Value: the probability that a person with a negative test result truly does not have the disease. Important for ruling out ME/CFS mimics via diagnostic testing."
+  },
+  "NNT": {
+    "label": "NNT",
+    "category": "method",
+    "definition": "Number Needed to Treat: the number of patients who must be treated for one to benefit. High NNTs in ME/CFS treatment trials reflect the heterogeneous response to any single intervention."
+  },
+  "off-label": {
+    "label": "off-label",
+    "category": "regulation",
+    "definition": "Use of a medication for an indication, dose, route, or population not approved by regulatory agencies. Essentially all pharmacological treatments for ME/CFS are off-label, as no drug has FDA/EMA approval specifically for ME/CFS."
+  },
+  "contraindication": {
+    "label": "contraindication",
+    "category": "regulation",
+    "definition": "A condition or factor that makes a particular treatment inadvisable. Graded exercise therapy (GET) is contraindicated in ME/CFS per NICE 2021 guidelines due to risk of harm via PEM exacerbation."
+  },
+  "half-life": {
+    "label": "half-life",
+    "category": "measurement",
+    "definition": "The time required for the plasma concentration of a drug to decrease by 50%. Longer half-life drugs (e.g., fluoxetine, ~4–16 days for active metabolite) require cautious dosing in ME/CFS patients who may have altered drug metabolism."
+  },
+  "bioavailability": {
+    "label": "bioavailability",
+    "category": "measurement",
+    "definition": "The fraction of an administered drug dose that reaches systemic circulation unchanged. Oral bioavailability may be altered in ME/CFS due to GI dysmotility, SIBO, or altered first-pass metabolism."
+  },
+  "prodrug": {
+    "label": "prodrug",
+    "category": "mechanism",
+    "definition": "An inactive compound that requires metabolic conversion in the body to become pharmacologically active. Valacyclovir (prodrug of acyclovir), codeine (prodrug of morphine), and lisdexamfetamine (prodrug of dextroamphetamine) require functional hepatic metabolism, which may be altered in ME/CFS."
+  },
+  "CYP450": {
+    "label": "CYP450",
+    "category": "enzyme",
+    "definition": "Cytochrome P450: a superfamily of liver enzymes (CYP3A4, CYP2D6, CYP2C19, etc.) metabolizing most drugs. CYP polymorphisms and altered CYP activity in ME/CFS may explain variable drug responses and adverse reactions.",
+    "also": "CYP3A4, CYP2D6, CYP2C19, CYP2C9, CYP1A2"
+  },
+  "therapeutic index": {
+    "label": "therapeutic index",
+    "category": "measurement",
+    "definition": "The ratio between toxic and therapeutic doses of a drug. Drugs with a narrow therapeutic index (lithium, digoxin, warfarin) require careful monitoring in ME/CFS patients who may have altered drug sensitivity."
+  },
+  "locus coeruleus": {
+    "label": "locus coeruleus",
+    "category": "anatomy",
+    "definition": "A small nucleus in the brainstem that is the primary source of norepinephrine in the brain. The LC regulates arousal, attention, stress responses, and autonomic tone; LC dysfunction is central to the 'tired but wired' state and hyperadrenergic symptoms in ME/CFS."
+  },
+  "ventral tegmental area": {
+    "label": "Ventral Tegmental Area",
+    "category": "anatomy",
+    "definition": "The VTA is a midbrain nucleus containing dopamine neurons projecting to the nucleus accumbens, prefrontal cortex, and amygdala via the mesolimbic and mesocortical pathways. VTA dopamine dysfunction links to fatigue, anhedonia, and motivational deficits in ME/CFS."
+  },
+  "nucleus accumbens": {
+    "label": "nucleus accumbens",
+    "category": "anatomy",
+    "definition": "A key structure in the ventral striatum mediating reward, motivation, and effort-based decision making. Reduced nucleus accumbens activation in ME/CFS may explain the perceived effort cost of cognitive and physical tasks."
+  },
+  "prefrontal cortex": {
+    "label": "prefrontal cortex",
+    "category": "anatomy",
+    "definition": "The anterior part of the frontal lobes mediating executive function, working memory, decision making, and attention. PFC hypoperfusion and altered connectivity are consistently reported in ME/CFS neuroimaging."
+  },
+  "anterior cingulate cortex": {
+    "label": "anterior cingulate cortex",
+    "category": "anatomy",
+    "definition": "The ACC is a cortical region involved in error detection, conflict monitoring, pain processing, and autonomic regulation. ACC dysfunction in ME/CFS links to cognitive effort intolerance and altered pain perception."
+  },
+  "insula": {
+    "label": "insula",
+    "category": "anatomy",
+    "definition": "A cortical region folded deep within the lateral sulcus, integrating interoceptive signals (body state awareness) with emotional and cognitive processing. Insular dysfunction in ME/CFS may explain altered interoception — the 'body feeling wrong' — and autonomic dysregulation."
+  },
+  "amygdala": {
+    "label": "amygdala",
+    "category": "anatomy",
+    "definition": "An almond-shaped structure in the temporal lobe mediating fear, anxiety, and emotional salience. Amygdala hyperactivity in ME/CFS may drive hypervigilance, anxiety, and exaggerated stress responses."
+  },
+  "hippocampus": {
+    "label": "hippocampus",
+    "category": "anatomy",
+    "definition": "A seahorse-shaped structure in the medial temporal lobe critical for memory formation, spatial navigation, and HPA axis negative feedback. Reduced hippocampal volume has been reported in ME/CFS, possibly due to chronic cortisol/neuroinflammatory effects."
+  },
+  "brainstem": {
+    "label": "brainstem",
+    "category": "anatomy",
+    "definition": "The stalk connecting the brain to the spinal cord, containing vital autonomic, cardiovascular, and respiratory control centers. Brainstem hypoperfusion and neuroinflammation are consistently reported in ME/CFS and may underpin orthostatic intolerance and autonomic failure."
+  },
+  "vagus nerve": {
+    "label": "vagus nerve",
+    "category": "anatomy",
+    "definition": "Cranial nerve X: the primary parasympathetic nerve, innervating the heart, lungs, and GI tract. Vagal tone is reduced in ME/CFS, contributing to tachycardia, GI dysmotility, and impaired anti-inflammatory cholinergic reflex.",
+    "also": "vagal tone, cholinergic anti-inflammatory pathway"
+  },
+  "circumventricular organs": {
+    "label": "circumventricular organs",
+    "category": "anatomy",
+    "definition": "Brain regions lacking a blood-brain barrier, allowing direct sensing of circulating signals (cytokines, hormones, osmolality). CVOs are key entry points for peripheral inflammatory signals to reach the brain in ME/CFS sickness behavior.",
+    "also": "organum vasculosum of the lamina terminalis (OVLT), area postrema, subfornical organ (SFO)"
+  },
+  "hypothalamus": {
+    "label": "hypothalamus",
+    "category": "anatomy",
+    "definition": "A small but critical brain region below the thalamus controlling homeostasis: HPA axis, autonomic balance, sleep-wake cycles, temperature, hunger, and thirst. Hypothalamic dysfunction is a unifying node in ME/CFS pathology — linking sleep, endocrine, autonomic, and metabolic dysregulation."
+  },
+  "meta-analysis": {
+    "label": "meta-analysis",
+    "category": "method",
+    "definition": "A statistical synthesis of results from multiple independent studies addressing the same question, providing a pooled effect estimate with greater precision than individual studies. Meta-analyses in ME/CFS are limited by heterogeneous diagnostic criteria and small sample sizes."
+  },
+  "systematic review": {
+    "label": "systematic review",
+    "category": "method",
+    "definition": "A comprehensive review using explicit, reproducible methods to identify, appraise, and synthesize all relevant studies on a specific question. The gold standard for evidence synthesis in ME/CFS; NICE 2021 guidelines were informed by systematic reviews."
+  },
+  "Mendelian randomization": {
+    "label": "Mendelian randomization",
+    "category": "method",
+    "definition": "A method using genetic variants as instrumental variables to assess causal relationships between modifiable exposures and outcomes. MR studies in ME/CFS are emerging, using GWAS data to probe causal directions (e.g., does cytokine elevation cause fatigue, or vice versa?)."
+  },
+  "case-control": {
+    "label": "case-control",
+    "category": "method",
+    "definition": "A study design comparing individuals with a disease (cases) to those without (controls), looking retrospectively at exposures or biomarkers. The most common ME/CFS study design; limited by selection bias and reverse causation."
+  },
+  "prospective": {
+    "label": "prospective",
+    "category": "method",
+    "definition": "A study design that follows participants forward in time from exposure to outcome. Dubbo and other post-infectious fatigue cohort studies are prospective ME/CFS designs capturing disease evolution from onset — uniquely valuable."
+  },
+  "pacing": {
+    "label": "pacing",
+    "category": "treatment",
+    "definition": "An energy management strategy where the patient stays within their energy envelope, balancing activity and rest to avoid triggering PEM. Pacing is the cornerstone of ME/CFS self-management, endorsed by NICE (2021), and is fundamentally different from graded exercise therapy (GET)."
+  },
+  "brain fog": {
+    "label": "brain fog",
+    "category": "symptom",
+    "definition": "A colloquial term for the cognitive dysfunction of ME/CFS: impaired working memory, attention, word-finding, processing speed, and executive function. Not a formal medical term, but universally recognized by patients and now used in research literature."
+  },
+  "allodynia": {
+    "label": "allodynia",
+    "category": "symptom",
+    "definition": "Pain caused by a stimulus that does not normally provoke pain (e.g., light touch, clothing, breeze). Allodynia in ME/CFS reflects central sensitization of pain pathways and is a hallmark of comorbid fibromyalgia."
+  },
+  "hyperalgesia": {
+    "label": "hyperalgesia",
+    "category": "symptom",
+    "definition": "Increased pain sensitivity — an exaggerated pain response to a normally painful stimulus. Hyperalgesia in ME/CFS is driven by central sensitization and neuroinflammation-mediated lowering of pain thresholds."
+  },
+  "photophobia": {
+    "label": "photophobia",
+    "category": "symptom",
+    "definition": "Abnormal sensitivity or intolerance to light, a common sensory hypersensitivity symptom in ME/CFS. May reflect thalamocortical sensory gating dysfunction."
+  },
+  "phonophobia": {
+    "label": "phonophobia",
+    "category": "symptom",
+    "definition": "Abnormal sensitivity or intolerance to sound. Sound sensitivity in ME/CFS is part of the broader sensory overload pattern and may involve impaired auditory gating (reduced P50 suppression)."
+  },
+  "hyperacusis": {
+    "label": "hyperacusis",
+    "category": "symptom",
+    "definition": "Reduced tolerance to ordinary environmental sounds, perceived as uncomfortably loud or painful. Common in ME/CFS and linked to central auditory processing dysfunction."
+  },
+  "energy envelope": {
+    "label": "energy envelope",
+    "category": "concept",
+    "definition": "The range of daily activity a person can sustain without triggering PEM. Staying within the energy envelope — pacing — is the primary management strategy; exceeding it triggers the boom-bust cycle."
+  },
+  "boom-bust cycle": {
+    "label": "boom-bust cycle",
+    "category": "concept",
+    "definition": "A self-reinforcing pattern where a patient overexerts on good days ('boom'), triggering PEM, forcing prolonged rest ('bust'), then overexerts again when feeling marginally better. Pacing aims to break this cycle."
+  },
+  "sensory overload": {
+    "label": "sensory overload",
+    "category": "symptom",
+    "definition": "A state where multiple simultaneous sensory inputs (light, sound, touch, movement) overwhelm processing capacity, causing distress, cognitive shutdown, and PEM. Sensory gating dysfunction in ME/CFS prevents normal filtering of irrelevant stimuli."
+  },
+  "cortisol": {
+    "label": "cortisol",
+    "category": "hormone",
+    "definition": "The primary glucocorticoid stress hormone produced by the adrenal cortex. Morning cortisol is typically low or low-normal in ME/CFS (blunted HPA axis), while evening cortisol may be inappropriately elevated, flattening the diurnal rhythm."
+  },
+  "aldosterone": {
+    "label": "aldosterone",
+    "category": "hormone",
+    "definition": "A mineralocorticoid hormone regulating sodium retention, potassium excretion, and blood volume. Low aldosterone or aldosterone resistance may contribute to hypovolemia and orthostatic intolerance in ME/CFS/POTS."
+  },
+  "renin": {
+    "label": "renin",
+    "category": "enzyme",
+    "definition": "A kidney-derived enzyme initiating the RAAS cascade, cleaving angiotensinogen to angiotensin I. Inappropriately low renin in the setting of hypovolemia (the 'renin-aldosterone paradox') is reported in a subset of POTS/ME/CFS patients."
+  },
+  "orexin": {
+    "label": "orexin",
+    "category": "neurotransmitter",
+    "definition": "Orexin (hypocretin): a hypothalamic neuropeptide promoting wakefulness, appetite, and reward-seeking. Dysregulated orexin signaling (reduced overall tone but abnormal temporal patterns) produces daytime sleepiness with nighttime wakefulness — the core of ME/CFS sleep-wake pathology.",
+    "also": "hypocretin; OX1R, OX2R receptors"
+  },
+  "vasopressin": {
+    "label": "vasopressin",
+    "category": "hormone",
+    "definition": "Antidiuretic hormone (ADH): a hypothalamic hormone promoting water reabsorption in the kidneys and vasoconstriction. Vasopressin dysregulation may contribute to fluid balance abnormalities in ME/CFS/POTS."
+  },
+  "oxytocin": {
+    "label": "oxytocin",
+    "category": "hormone",
+    "definition": "A hypothalamic neuropeptide mediating social bonding, trust, and parasympathetic tone. Oxytocin has anti-inflammatory and analgesic properties; low oxytocin has been hypothesized in ME/CFS."
+  },
+  "Th1": {
+    "label": "Th1",
+    "category": "immune",
+    "definition": "Type 1 T helper cells: CD4+ T cells producing IFN-γ and IL-2, driving cellular immunity against intracellular pathogens. Th1/Th2 imbalance is a long-standing hypothesis in ME/CFS; some studies find Th2 skewing with reduced Th1 function."
+  },
+  "Th2": {
+    "label": "Th2",
+    "category": "immune",
+    "definition": "Type 2 T helper cells: CD4+ T cells producing IL-4, IL-5, IL-13, driving humoral immunity and allergic responses. Th2 skewing has been reported in some ME/CFS cohorts, potentially linking to MCAS and atopic comorbidity."
+  },
+  "Th17": {
+    "label": "Th17",
+    "category": "immune",
+    "definition": "Type 17 T helper cells: CD4+ T cells producing IL-17, driving neutrophil recruitment and mucosal defense. Th17 expansion is reported in ME/CFS and may drive autoimmune pathology and gut barrier dysfunction."
+  },
+  "Treg": {
+    "label": "Treg",
+    "category": "immune",
+    "definition": "Regulatory T cells: CD4+ FOXP3+ T cells that suppress excessive immune responses and maintain self-tolerance. Reduced Treg numbers or function may permit autoimmune processes to develop in ME/CFS; reduced Treg/Th17 ratio is a reported finding."
+  },
+  "B cell": {
+    "label": "B cell",
+    "category": "immune",
+    "definition": "B lymphocytes: antibody-producing immune cells. B cell dysregulation in ME/CFS includes expanded autoreactive clones, altered subset distribution, and abnormal response to EBV-infected cells. The negative RituxME trial does not preclude B cell involvement in a subset."
+  },
+  "microglia": {
+    "label": "microglia",
+    "category": "immune",
+    "definition": "The resident immune cells of the CNS, continuously surveying the brain environment. Activated microglia in ME/CFS shift from a surveillant to a pro-inflammatory state, producing cytokines, ROS, and quinolinic acid that drive neuroinflammation."
+  },
+  "astrocyte": {
+    "label": "astrocyte",
+    "category": "cell",
+    "definition": "Star-shaped glial cells that support neurons metabolically, regulate extracellular ion and neurotransmitter levels, form the blood-brain barrier, and mediate glymphatic clearance via AQP4 channels. Astrocyte dysfunction in ME/CFS impairs brain energy metabolism and waste clearance."
+  },
+  "mast cell": {
+    "label": "mast cell",
+    "category": "immune",
+    "definition": "Tissue-resident immune cells containing granules of histamine, tryptase, prostaglandins, leukotrienes, and cytokines. Inappropriate mast cell degranulation (MCAS) is a major ME/CFS comorbidity, driving flushing, itching, GI symptoms, tachycardia, and neuroinflammation."
+  },
+  "cytokine": {
+    "label": "cytokine",
+    "category": "immune",
+    "definition": "Small signaling proteins secreted by immune cells that mediate inflammation, immune cell recruitment, and systemic responses. ME/CFS is characterized by a complex cytokine signature, not simple elevation: some are elevated (TNF-α, IL-6, IFN-γ in subsets), some are reduced (IL-10, TGF-β in subsets), and patterns vary by disease duration and severity."
+  },
+  "CPAP": {
+    "label": "CPAP",
+    "category": "treatment",
+    "definition": "Continuous Positive Airway Pressure: a device delivering constant air pressure to keep the airway open during sleep. Used in ME/CFS patients with comorbid sleep apnea; treating OSA can improve sleep quality but does not resolve ME/CFS-specific unrefreshing sleep."
+  },
+  "LLLT": {
+    "label": "LLLT",
+    "category": "treatment",
+    "definition": "Low-Level Laser Therapy (photobiomodulation): non-thermal light application (red/NIR) to tissues, proposed to enhance mitochondrial function via cytochrome c oxidase photostimulation. Experimental in ME/CFS; limited evidence."
+  },
+  "PEMF": {
+    "label": "PEMF",
+    "category": "treatment",
+    "definition": "Pulsed Electromagnetic Field therapy: application of electromagnetic fields to tissues, proposed to reduce inflammation and enhance tissue repair. Anecdotal use in ME/CFS but lacks rigorous evidence."
+  },
+  "EMDR": {
+    "label": "EMDR",
+    "category": "treatment",
+    "definition": "Eye Movement Desensitization and Reprocessing: a psychotherapy for trauma/PTSD using bilateral stimulation. May benefit ME/CFS patients with comorbid PTSD, but does not treat core ME/CFS pathophysiology."
+  },
+  "IACFS/ME": {
+    "label": "IACFS/ME",
+    "category": "organization",
+    "definition": "International Association for CFS/ME: the primary professional organization for ME/CFS clinicians and researchers. Hosts biennial conferences and publishes the ME/CFS Primer for clinicians."
+  },
+  "Solve ME": {
+    "label": "Solve ME",
+    "category": "organization",
+    "definition": "Solve ME/CFS Initiative: a US-based non-profit funding research, maintaining the You + ME Patient Registry and Biobank. Originally founded as the CFIDS Association of America."
+  },
+  "ME Association": {
+    "label": "ME Association",
+    "category": "organization",
+    "definition": "A UK-based charity providing patient support, information, and funding biomedical research into ME/CFS. Publishes the ME Medical magazine and clinical guidance for GPs."
+  },
+  "MRC": {
+    "label": "MRC",
+    "category": "organization",
+    "definition": "UK Medical Research Council: a major funder of ME/CFS biomedical research. The MRC PACE trial (2011) and its aftermath fundamentally shaped the debate about GET/CBT in ME/CFS."
+  },
+  "NIHR": {
+    "label": "NIHR",
+    "category": "organization",
+    "definition": "UK National Institute for Health and Care Research: funds and delivers health research. The NIHR has invested in ME/CFS research including the DecodeME DNA study (largest ME/CFS GWAS) and trials of medications."
+  },
+  "DecodeME": {
+    "label": "DecodeME",
+    "category": "organization",
+    "definition": "The largest ME/CFS GWAS study to date (UK, &gt;25,000 participants), searching for genetic risk variants. A collaboration between the ME Association, MRC, and NIHR; results expected to identify biological pathways underlying ME/CFS susceptibility."
+  },
+  "lactate": {
+    "label": "lactate",
+    "category": "molecule",
+    "definition": "The conjugate base of lactic acid, produced during anaerobic glycolysis when pyruvate cannot enter the TCA cycle. Elevated resting and post-exertional lactate in ME/CFS indicates impaired oxidative metabolism and premature glycolytic shift."
+  },
+  "pyruvate": {
+    "label": "pyruvate",
+    "category": "molecule",
+    "definition": "The end product of glycolysis. At the mitochondrial gateway, pyruvate dehydrogenase (PDH) converts pyruvate to acetyl-CoA for the TCA cycle. When PDH is inhibited (by PDK or dysfunction), pyruvate is instead reduced to lactate."
+  },
+  "acetyl-CoA": {
+    "label": "acetyl-CoA",
+    "category": "molecule",
+    "definition": "Acetyl Coenzyme A: the central metabolic intermediate, feeding the TCA cycle from carbohydrate (via PDH), fat (via β-oxidation), and protein (via amino acid degradation) metabolism. Acetyl-CoA availability limits TCA cycle flux; may be reduced in ME/CFS."
+  },
+  "ketone": {
+    "label": "ketone",
+    "category": "molecule",
+    "definition": "Ketone bodies (β-hydroxybutyrate, acetoacetate, acetone): water-soluble fuels produced by the liver from fatty acids during carbohydrate restriction or fasting. Ketones can bypass the PDH gate, directly feeding the TCA cycle. Ketogenic metabolism has been proposed as a therapeutic strategy in ME/CFS to circumvent impaired glucose oxidation."
+  },
+  "prostaglandin": {
+    "label": "prostaglandin",
+    "category": "molecule",
+    "definition": "Lipid signaling molecules derived from arachidonic acid via COX enzymes. PGE2 promotes inflammation, pain, fever, and vasodilation; prostaglandin dysregulation is implicated in ME/CFS pain and vascular symptoms."
+  },
+  "leukotriene": {
+    "label": "leukotriene",
+    "category": "molecule",
+    "definition": "Inflammatory lipid mediators derived from arachidonic acid via the LOX pathway. Cysteinyl leukotrienes (LTC4, LTD4, LTE4) are potent bronchoconstrictors and pro-inflammatory agents released by mast cells; leukotriene overproduction contributes to MCAS symptoms in ME/CFS."
+  },
+  "histamine": {
+    "label": "histamine",
+    "category": "molecule",
+    "definition": "A biogenic amine stored in mast cell and basophil granules, released upon degranulation. Histamine mediates vasodilation, bronchoconstriction, gastric acid secretion, and wakefulness. Histamine intolerance and excess (from MCAS or reduced DAO enzyme activity) drives flushing, headache, tachycardia, and GI symptoms in ME/CFS."
+  },
+  "SCFA": {
+    "label": "SCFA",
+    "category": "molecule",
+    "definition": "Short-Chain Fatty Acids: primarily acetate, propionate, and butyrate, produced by gut bacteria fermenting dietary fiber. Butyrate is the primary energy source for colonocytes and an HDAC inhibitor with anti-inflammatory properties. Reduced SCFA-producing bacteria in ME/CFS gut dysbiosis may impair gut barrier integrity and systemic immune regulation."
+  },
+  "epigenetics": {
+    "label": "epigenetics",
+    "category": "method",
+    "definition": "Heritable changes in gene expression without changes to the DNA sequence, including DNA methylation, histone modification, and non-coding RNA regulation. ME/CFS epigenetic studies reveal differential DNA methylation patterns that may explain how infections trigger persistent disease without ongoing infection."
+  },
+  "DNA methylation": {
+    "label": "DNA methylation",
+    "category": "method",
+    "definition": "The addition of methyl groups to cytosine bases in DNA (typically at CpG sites), generally silencing gene expression. Altered DNA methylation patterns in ME/CFS have been identified in immune, metabolic, and neurological pathways, including genes regulating the HPA axis and cellular energy metabolism."
+  },
+  "hypovolemia": {
+    "label": "hypovolemia",
+    "category": "condition",
+    "definition": "Reduced blood volume: absolute (decreased total blood volume) or relative (normal volume but increased vascular capacity). Hypovolemia is common in ME/CFS/POTS, contributing to orthostatic intolerance, tachycardia, and reduced cerebral perfusion."
+  },
+  "cerebral hypoperfusion": {
+    "label": "cerebral hypoperfusion",
+    "category": "pathway",
+    "definition": "Reduced blood flow to the brain. SPECT and MRI studies consistently demonstrate cerebral hypoperfusion in ME/CFS, particularly in the brainstem, frontal lobes, and temporal lobes, correlating with cognitive symptom severity."
+  },
+  "microvascular": {
+    "label": "microvascular",
+    "category": "anatomy",
+    "definition": "Pertaining to the smallest blood vessels: arterioles, capillaries, and venules. Microvascular dysfunction in ME/CFS — impaired oxygen delivery and waste removal at the capillary level — likely contributes to muscle and brain symptoms independent of macrovascular function."
+  },
+  "blood volume": {
+    "label": "blood volume",
+    "category": "measurement",
+    "definition": "The total volume of blood in the circulatory system. ME/CFS patients often have reduced blood volume (by 10–30%), driven by low renin-aldosterone, autonomic dysfunction, and possible venous pooling, contributing substantially to orthostatic intolerance."
+  },
+  "neuropathic pain": {
+    "label": "neuropathic pain",
+    "category": "symptom",
+    "definition": "Pain caused by damage or dysfunction of the somatosensory nervous system, characterized by burning, shooting, tingling, or electric shock sensations. SFN and central sensitization contribute to neuropathic pain in ME/CFS."
+  },
+  "endotype": {
+    "label": "endotype",
+    "category": "concept",
+    "definition": "A disease subtype defined by a distinct biological mechanism (rather than symptoms alone). ME/CFS is increasingly conceptualized as a collection of endotypes: autoimmune, metabolic, neuroinflammatory, hyperadrenergic, hypovolemic, connective tissue — each requiring different treatment approaches."
+  },
+  "biomarker": {
+    "label": "biomarker",
+    "category": "concept",
+    "definition": "A measurable biological indicator of a disease state, severity, or treatment response. No validated diagnostic biomarker exists for ME/CFS, though candidates include 2-day CPET, cytokine panels, metabolomic signatures, EEG alpha-delta sleep, and microRNA profiles."
+  },
+  "heterogeneity": {
+    "label": "heterogeneity",
+    "category": "concept",
+    "definition": "Variability between patients — a defining feature of ME/CFS. Clinical heterogeneity (symptom presentation, severity, triggers) reflects underlying biological heterogeneity (endotypes), explaining why no single treatment works for all patients."
+  },
+  "falsifiability": {
+    "label": "falsifiability",
+    "category": "concept",
+    "definition": "The capacity for a hypothesis to be proven wrong — a criterion of scientific rigor. ME/CFS research has often suffered from unfalsifiable psychological models; current biomedical research emphasizes testable mechanistic hypotheses."
+  },
+  "autoantibody": {
+    "label": "autoantibody",
+    "category": "immune",
+    "definition": "An antibody directed against the body's own proteins or receptors. Functional autoantibodies against GPCRs (adrenergic, muscarinic, angiotensin receptors) have been identified in subsets of ME/CFS and POTS, potentially explaining autonomic and vascular symptoms."
+  },
+  "GPCR autoantibody": {
+    "label": "GPCR autoantibody",
+    "category": "immune",
+    "definition": "Autoantibodies targeting G protein-coupled receptors (β-adrenergic, muscarinic acetylcholine, angiotensin II AT1R, endothelin ETA receptors), found in subsets of ME/CFS and POTS. These can be agonistic (activating) or antagonistic (blocking), directly dysregulating autonomic, cardiovascular, and immune function."
+  },
+  "Naltrexone": {
+    "label": "Naltrexone",
+    "category": "medication",
+    "definition": "An opioid receptor antagonist. At standard doses (50 mg), used for opioid and alcohol dependence. At low doses (LDN, 1.5–4.5 mg), produces paradoxical anti-inflammatory and immunomodulatory effects via transient opioid receptor blockade and TLR4 antagonism on microglia.",
+    "generic": "Naltrexone",
+    "brand": "Revia, Vivitrol (standard dose); compounded for LDN",
+    "class": "Opioid antagonist / immunomodulator (low-dose)",
+    "rx": "Prescription (US, EU); must be compounded for LDN dosing"
+  },
+  "Aripiprazole": {
+    "label": "Aripiprazole",
+    "category": "medication",
+    "definition": "An atypical antipsychotic with partial D2/5-HT1A agonist and 5-HT2A antagonist activity. Used off-label at very low doses (&lt; 2 mg) in severe ME/CFS for sensory hypersensitivity and neuroinflammation; the partial dopamine agonism may avoid the fatigue of full antagonists.",
+    "generic": "Aripiprazole",
+    "brand": "Abilify, Aristada",
+    "class": "Atypical antipsychotic / dopamine-serotonin partial agonist",
+    "rx": "Prescription (US, EU)"
+  },
+  "Armodafinil": {
+    "label": "Armodafinil",
+    "category": "medication",
+    "definition": "The R-enantiomer of modafinil, a longer-acting eugeroic (wakefulness-promoting agent) acting via dopamine reuptake inhibition. Used off-label in ME/CFS for daytime sleepiness and brain fog. Same PEM-masking risk as modafinil.",
+    "generic": "Armodafinil",
+    "brand": "Nuvigil",
+    "class": "Eugeroic / wakefulness-promoting agent",
+    "rx": "Prescription (US, EU); controlled substance"
+  },
+  "Aspirin": {
+    "label": "Aspirin",
+    "category": "medication",
+    "definition": "Acetylsalicylic acid: an irreversible COX-1/COX-2 inhibitor NSAID with antiplatelet effects at low doses. Used in ME/CFS for pain and headache; antiplatelet effects may be relevant to microvascular dysfunction but increase bleeding risk.",
+    "generic": "Acetylsalicylic acid (Aspirin)",
+    "brand": "Bayer Aspirin, Ecotrin, Bufferin",
+    "class": "Non-steroidal anti-inflammatory drug (NSAID) / antiplatelet",
+    "rx": "OTC"
+  },
+  "Azathioprine": {
+    "label": "Azathioprine",
+    "category": "medication",
+    "definition": "A purine antimetabolite immunosuppressant (prodrug of 6-mercaptopurine) used in autoimmune diseases. Investigated experimentally in ME/CFS for autoimmune endotypes; requires TPMT testing before use due to myelotoxicity risk.",
+    "generic": "Azathioprine",
+    "brand": "Imuran, Azasan",
+    "class": "Antimetabolite / purine synthesis inhibitor / DMARD",
+    "rx": "Prescription (US, EU)"
+  },
+  "Diazepam": {
+    "label": "Diazepam",
+    "category": "medication",
+    "definition": "A long-acting benzodiazepine enhancing GABA-A receptor activity. Used in ME/CFS for severe muscle spasms, anxiety, and sleep; high dependence liability and exacerbation of fatigue/brain fog limit utility.",
+    "generic": "Diazepam",
+    "brand": "Valium, Diastat",
+    "class": "Benzodiazepine / GABA-A positive allosteric modulator",
+    "rx": "Prescription (US, EU); controlled substance"
+  },
+  "Lorazepam": {
+    "label": "Lorazepam",
+    "category": "medication",
+    "definition": "An intermediate-acting benzodiazepine with no active metabolites (preferred in hepatic impairment). Used in ME/CFS for acute anxiety and sleep; carries benzodiazepine dependence risk.",
+    "generic": "Lorazepam",
+    "brand": "Ativan, Loreev XR",
+    "class": "Benzodiazepine / GABA-A positive allosteric modulator",
+    "rx": "Prescription (US, EU); controlled substance"
+  },
+  "Clonazepam": {
+    "label": "Clonazepam",
+    "category": "medication",
+    "definition": "A long-acting benzodiazepine with additional serotonergic effects. Used in ME/CFS for sleep, myoclonus, sensory hypersensitivity, and anxiety. High potency increases dependence risk; withdrawal may worsen ME/CFS symptoms.",
+    "generic": "Clonazepam",
+    "brand": "Klonopin, Rivotril",
+    "class": "Benzodiazepine / GABA-A positive allosteric modulator",
+    "rx": "Prescription (US, EU); controlled substance"
+  },
+  "Cyclophosphamide": {
+    "label": "Cyclophosphamide",
+    "category": "medication",
+    "definition": "A nitrogen mustard alkylating agent immunosuppressant used in severe autoimmune disease. Investigated in a small Norwegian trial for severe ME/CFS with reported benefit; significant toxicity (hemorrhagic cystitis, malignancy, infertility) limits use to the most severe cases.",
+    "generic": "Cyclophosphamide",
+    "brand": "Cytoxan, Neosar",
+    "class": "Alkylating agent / immunosuppressant",
+    "rx": "Prescription only; hospital/infusion center administration"
+  },
+  "Diclofenac": {
+    "label": "Diclofenac",
+    "category": "medication",
+    "definition": "A non-selective NSAID with higher COX-2 selectivity than ibuprofen. Used in ME/CFS for inflammatory and joint pain; carries significant cardiovascular risk with chronic use.",
+    "generic": "Diclofenac",
+    "brand": "Voltaren, Cataflam, Zipsor",
+    "class": "Non-steroidal anti-inflammatory drug (NSAID)",
+    "rx": "OTC (topical in US); prescription (oral)"
+  },
+  "Domperidone": {
+    "label": "Domperidone",
+    "category": "medication",
+    "definition": "A peripheral D2 receptor antagonist antiemetic increasing GI motility. Used in ME/CFS for gastroparesis, nausea, and bloating. Not approved in the US (available in EU/Canada); carries risk of QT prolongation.",
+    "generic": "Domperidone",
+    "brand": "Motilium",
+    "class": "Dopamine D2 antagonist / prokinetic / antiemetic",
+    "rx": "Prescription (EU, Canada); not FDA-approved in US"
+  },
+  "Famciclovir": {
+    "label": "Famciclovir",
+    "category": "medication",
+    "definition": "A prodrug of penciclovir, an antiviral active against herpesviruses (HSV, VZV). Used off-label in ME/CFS for suspected herpesvirus reactivation; similar rationale to valacyclovir but different spectrum and pharmacokinetics.",
+    "generic": "Famciclovir",
+    "brand": "Famvir",
+    "class": "Antiviral / nucleoside analogue DNA polymerase inhibitor",
+    "rx": "Prescription (US, EU)"
+  },
+  "Hydroxyzine": {
+    "label": "Hydroxyzine",
+    "category": "medication",
+    "definition": "A first-generation H1 antihistamine with strong sedative, anxiolytic, and antiemetic effects. Used in ME/CFS with MCAS for nighttime histamine symptoms and sleep initiation; anticholinergic effects may worsen brain fog.",
+    "generic": "Hydroxyzine",
+    "brand": "Atarax, Vistaril",
+    "class": "H1 antihistamine (first-generation) / anxiolytic",
+    "rx": "Prescription (US, EU)"
+  },
+  "Lamotrigine": {
+    "label": "Lamotrigine",
+    "category": "medication",
+    "definition": "An anticonvulsant and mood stabilizer blocking voltage-gated sodium channels, reducing glutamate release. Used off-label in ME/CFS for neuropathic pain, sensory hypersensitivity, and mood instability.",
+    "generic": "Lamotrigine",
+    "brand": "Lamictal, Lamictal XR",
+    "class": "Anticonvulsant / voltage-gated sodium channel blocker / mood stabilizer",
+    "rx": "Prescription (US, EU)"
+  },
+  "Levetiracetam": {
+    "label": "Levetiracetam",
+    "category": "medication",
+    "definition": "An anticonvulsant binding synaptic vesicle protein SV2A, modulating neurotransmitter release. Used off-label in ME/CFS for brain fog, sensory hypersensitivity, and cognitive dysfunction; generally well-tolerated.",
+    "generic": "Levetiracetam",
+    "brand": "Keppra, Elepsia XR",
+    "class": "Anticonvulsant / SV2A modulator",
+    "rx": "Prescription (US, EU)"
+  },
+  "Metoclopramide": {
+    "label": "Metoclopramide",
+    "category": "medication",
+    "definition": "A D2 antagonist and 5-HT4 agonist prokinetic and antiemetic. Used in ME/CFS for gastroparesis and severe nausea; crosses blood-brain barrier with significant risk of extrapyramidal side effects and tardive dyskinesia.",
+    "generic": "Metoclopramide",
+    "brand": "Reglan, Metozolv ODT",
+    "class": "Dopamine D2 antagonist / prokinetic / antiemetic",
+    "rx": "Prescription (US, EU)"
+  },
+  "Milnacipran": {
+    "label": "Milnacipran",
+    "category": "medication",
+    "definition": "An SNRI with relatively balanced serotonin/norepinephrine reuptake inhibition, FDA-approved for fibromyalgia. Used off-label in ME/CFS for pain and fatigue; more noradrenergic than most SNRIs.",
+    "generic": "Milnacipran",
+    "brand": "Savella (US), Ixel (EU)",
+    "class": "Serotonin-norepinephrine reuptake inhibitor (SNRI)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Mycophenolate": {
+    "label": "Mycophenolate",
+    "category": "medication",
+    "definition": "An immunosuppressant inhibiting inosine monophosphate dehydrogenase (IMPDH), blocking purine synthesis in lymphocytes. Used in autoimmune diseases; experimental in ME/CFS for autoimmune endotypes.",
+    "generic": "Mycophenolate mofetil / Mycophenolic acid",
+    "brand": "CellCept, Myfortic",
+    "class": "IMPDH inhibitor / immunosuppressant / DMARD",
+    "rx": "Prescription (US, EU)"
+  },
+  "Nortriptyline": {
+    "label": "Nortriptyline",
+    "category": "medication",
+    "definition": "The secondary amine active metabolite of amitriptyline, a tricyclic antidepressant (TCA) with less sedation and fewer anticholinergic effects. Used in ME/CFS for sleep, pain, and headache at low doses (10–50 mg).",
+    "generic": "Nortriptyline",
+    "brand": "Pamelor, Aventyl",
+    "class": "Tricyclic antidepressant (TCA)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Pantoprazole": {
+    "label": "Pantoprazole",
+    "category": "medication",
+    "definition": "A proton pump inhibitor (PPI) reducing gastric acid secretion. Used in ME/CFS for GERD and GI symptoms; fewer CYP450 drug interactions than omeprazole, making it preferred in patients on multiple medications.",
+    "generic": "Pantoprazole",
+    "brand": "Protonix, Pantoloc",
+    "class": "Proton pump inhibitor (PPI)",
+    "rx": "Prescription (US, EU); some OTC availability"
+  },
+  "Paracetamol": {
+    "label": "Paracetamol",
+    "category": "medication",
+    "definition": "Same as Acetaminophen (US). An analgesic and antipyretic with minimal anti-inflammatory activity. Used in ME/CFS for pain and headache; generally well-tolerated but hepatotoxic at supratherapeutic doses.",
+    "generic": "Paracetamol (EU) / Acetaminophen (US)",
+    "brand": "Panadol, Calpol, Tylenol",
+    "class": "Analgesic / antipyretic",
+    "rx": "OTC"
+  },
+  "Rizatriptan": {
+    "label": "Rizatriptan",
+    "category": "medication",
+    "definition": "A 5-HT1B/1D receptor agonist (triptan) for acute migraine with rapid onset. Used in ME/CFS patients with comorbid migraine; faster onset than sumatriptan.",
+    "generic": "Rizatriptan",
+    "brand": "Maxalt, Maxalt-MLT",
+    "class": "Triptan / 5-HT1B/1D receptor agonist",
+    "rx": "Prescription (US, EU)"
+  },
+  "Topiramate": {
+    "label": "Topiramate",
+    "category": "medication",
+    "definition": "An anticonvulsant with multiple mechanisms (Na+ channel block, GABA-A potentiation, AMPA/kainate antagonism, carbonic anhydrase inhibition). Used in ME/CFS for migraine prevention and weight management; cognitive side effects ('Dopamax') may worsen brain fog.",
+    "generic": "Topiramate",
+    "brand": "Topamax, Trokendi XR, Qudexy XR",
+    "class": "Anticonvulsant / carbonic anhydrase inhibitor / migraine prophylactic",
+    "rx": "Prescription (US, EU)"
+  },
+  "Valproate": {
+    "label": "Valproate",
+    "category": "medication",
+    "definition": "A broad-spectrum anticonvulsant and mood stabilizer enhancing GABA and inhibiting HDAC. Used in ME/CFS for mood instability and migraine; significant metabolic side effects (weight gain, insulin resistance, PCOS) and teratogenicity limit use.",
+    "generic": "Valproic acid / Divalproex sodium",
+    "brand": "Depakote, Depakene",
+    "class": "Anticonvulsant / mood stabilizer / HDAC inhibitor",
+    "rx": "Prescription (US, EU)"
+  },
+  "Zolpidem": {
+    "label": "Zolpidem",
+    "category": "medication",
+    "definition": "A non-benzodiazepine hypnotic (Z-drug) selective for α1-containing GABA-A receptors. Used in ME/CFS for sleep initiation; short half-life (~2.5 h) reduces next-day sedation but may not maintain sleep.",
+    "generic": "Zolpidem",
+    "brand": "Ambien, Ambien CR, Edluar",
+    "class": "Z-drug / GABA-A α1-selective positive allosteric modulator",
+    "rx": "Prescription (US, EU); controlled substance"
+  },
+  "Zopiclone": {
+    "label": "Zopiclone",
+    "category": "medication",
+    "definition": "A non-benzodiazepine hypnotic (Z-drug) used for sleep initiation. Longer half-life (~5 h) than zolpidem but metallic taste is a common complaint. Used in ME/CFS when sleep onset is the primary problem.",
+    "generic": "Zopiclone",
+    "brand": "Imovane, Zimovane",
+    "class": "Z-drug / GABA-A positive allosteric modulator",
+    "rx": "Prescription (EU, Canada); not FDA-approved in US; controlled substance"
+  },
+  "Eszopiclone": {
+    "label": "Eszopiclone",
+    "category": "medication",
+    "definition": "The S-enantiomer of zopiclone (Z-drug), FDA-approved for sleep maintenance as well as initiation. Longer duration than zolpidem; used in ME/CFS for combined sleep-onset and sleep-maintenance insomnia.",
+    "generic": "Eszopiclone",
+    "brand": "Lunesta",
+    "class": "Z-drug / GABA-A positive allosteric modulator",
+    "rx": "Prescription (US, EU); controlled substance"
+  },
+  "Magnesium": {
+    "label": "Magnesium",
+    "category": "supplement",
+    "definition": "An essential mineral cofactor for &gt;300 enzymes including ATP-dependent reactions. Magnesium deficiency is common and causes fatigue, muscle cramps, and sleep disturbance overlapping with ME/CFS. Supplementation (glycinate, citrate, threonate) is widely used.",
+    "generic": "Magnesium (various salts)",
+    "brand": "Various: Mg glycinate, Mg citrate, Mg threonate, Mg malate",
+    "class": "Mineral supplement / enzyme cofactor",
+    "rx": "OTC"
+  },
+  "Zinc": {
+    "label": "Zinc",
+    "category": "supplement",
+    "definition": "An essential trace element cofactor for immune function, antioxidant defense (SOD, Cu/Zn-SOD), and neurotransmitter synthesis. Zinc deficiency impairs T cell function and may exacerbate ME/CFS immune dysfunction.",
+    "generic": "Zinc (various salts)",
+    "brand": "Zinc gluconate, Zinc picolinate, Zinc citrate",
+    "class": "Mineral supplement / trace element",
+    "rx": "OTC"
+  },
+  "Selenium": {
+    "label": "Selenium",
+    "category": "supplement",
+    "definition": "An essential trace element incorporated as selenocysteine in selenoproteins: GPX (antioxidant), TXNRD (thioredoxin reduction), iodothyronine deiodinases (thyroid hormone activation). Selenium depletion may impair antioxidant defense and thyroid function in ME/CFS.",
+    "generic": "Selenium (selenomethionine, sodium selenite)",
+    "class": "Mineral supplement / trace element",
+    "rx": "OTC"
+  },
+  "Iron": {
+    "label": "Iron",
+    "category": "supplement",
+    "definition": "An essential mineral for hemoglobin (oxygen transport), mitochondrial electron transport chain complexes, and neurotransmitter synthesis. Iron deficiency anemia is one of the most common conditions mistaken for ME/CFS and must be excluded. Supplementation is indicated only with documented deficiency.",
+    "generic": "Iron (ferrous sulfate, ferrous gluconate, ferrous fumarate)",
+    "brand": "Ferrous sulfate, Feramax, Ferro-Gradumet",
+    "class": "Mineral supplement",
+    "rx": "OTC"
+  },
+  "Vitamin D": {
+    "label": "Vitamin D",
+    "category": "supplement",
+    "definition": "A fat-soluble secosteroid hormone regulating calcium homeostasis, immune function, and gene expression via VDR. Vitamin D deficiency is common in housebound ME/CFS patients and may worsen immune dysfunction and fatigue.",
+    "generic": "Vitamin D3 (cholecalciferol), Vitamin D2 (ergocalciferol)",
+    "brand": "Various supplement brands",
+    "class": "Vitamin (fat-soluble) / secosteroid hormone",
+    "rx": "OTC"
+  },
+  "Vitamin C": {
+    "label": "Vitamin C",
+    "category": "supplement",
+    "definition": "Ascorbic acid: a water-soluble antioxidant regenerating vitamin E and glutathione, and a cofactor for collagen synthesis, carnitine synthesis, and norepinephrine synthesis. High-dose IV vitamin C has been proposed experimentally in ME/CFS for oxidative stress and immune support.",
+    "generic": "Ascorbic acid",
+    "brand": "Various supplement brands",
+    "class": "Vitamin (water-soluble) / antioxidant",
+    "rx": "OTC"
+  },
+  "Vitamin B": {
+    "label": "Vitamin B",
+    "category": "supplement",
+    "definition": "The B-complex vitamins (B1, B2, B3, B5, B6, B7, B9, B12): water-soluble cofactors essential for energy metabolism, methylation, neurotransmitter synthesis, and red blood cell production. B vitamin deficiencies mimic ME/CFS and must be excluded.",
+    "also": "B1 (thiamine), B2 (riboflavin), B3 (niacin), B5 (pantothenic acid), B6 (pyridoxine), B7 (biotin), B9 (folate), B12 (cobalamin)"
+  },
+  "Thiamine": {
+    "label": "Thiamine",
+    "category": "supplement",
+    "definition": "Vitamin B1: cofactor for pyruvate dehydrogenase (PDH), α-ketoglutarate dehydrogenase, and transketolase — critical enzymes in glucose metabolism. Thiamine deficiency produces fatigue and lactic acidosis remarkably similar to ME/CFS; high-dose thiamine has been proposed to bypass impaired PDH function.",
+    "generic": "Thiamine (B1), Benfotiamine, TTFD (allithiamine)",
+    "class": "Vitamin (water-soluble B1) / enzyme cofactor",
+    "rx": "OTC"
+  },
+  "Riboflavin": {
+    "label": "Riboflavin",
+    "category": "supplement",
+    "definition": "Vitamin B2: precursor to FAD and FMN, the critical redox cofactors in mitochondrial Complex I and II. Riboflavin is used in migraine prophylaxis and may support mitochondrial function in ME/CFS.",
+    "generic": "Riboflavin (Vitamin B2)",
+    "class": "Vitamin (water-soluble B2) / mitochondrial cofactor",
+    "rx": "OTC"
+  },
+  "Niacin": {
+    "label": "Niacin",
+    "category": "supplement",
+    "definition": "Vitamin B3: precursor to NAD+ and NADP+, the central redox and signaling coenzymes. Niacin (nicotinic acid) and nicotinamide riboside (NR) are NAD+ precursors being investigated for ME/CFS metabolic dysfunction.",
+    "generic": "Nicotinic acid, Nicotinamide, Nicotinamide riboside (NR)",
+    "class": "Vitamin (water-soluble B3) / NAD+ precursor",
+    "rx": "OTC"
+  },
+  "Pyridoxine": {
+    "label": "Pyridoxine",
+    "category": "supplement",
+    "definition": "Vitamin B6: cofactor for neurotransmitter synthesis (serotonin, dopamine, GABA, norepinephrine), homocysteine metabolism, and hemoglobin synthesis. B6 is required by AADC and GAD enzymes; deficiency may impair neurotransmitter balance in ME/CFS.",
+    "generic": "Pyridoxine (B6), Pyridoxal-5'-phosphate (P5P, active form)",
+    "class": "Vitamin (water-soluble B6) / enzyme cofactor",
+    "rx": "OTC"
+  },
+  "Cobalamin": {
+    "label": "Cobalamin",
+    "category": "supplement",
+    "definition": "Vitamin B12: essential for methylation, DNA synthesis, and myelin maintenance. See B12 entry for full details.",
+    "generic": "Cyanocobalamin, Methylcobalamin, Hydroxocobalamin",
+    "class": "Vitamin (water-soluble B12)",
+    "rx": "OTC (oral); prescription (injection)"
+  },
+  "Omega-3": {
+    "label": "Omega-3",
+    "category": "supplement",
+    "definition": "Polyunsaturated fatty acids (EPA and DHA) with anti-inflammatory effects: EPA competes with arachidonic acid for COX/LOX, reducing pro-inflammatory eicosanoids; DHA is a structural component of neuronal membranes and a precursor to specialized pro-resolving mediators (SPMs). Omega-3 supplementation is used in ME/CFS for neuroinflammation.",
+    "generic": "EPA (eicosapentaenoic acid), DHA (docosahexaenoic acid)",
+    "brand": "Fish oil, Krill oil, Algal oil (vegan)",
+    "class": "Essential fatty acid / anti-inflammatory",
+    "rx": "OTC"
+  },
+  "EPA": {
+    "label": "EPA",
+    "category": "supplement",
+    "definition": "Eicosapentaenoic Acid: an omega-3 fatty acid with anti-inflammatory effects via competition with arachidonic acid in the COX/LOX pathways, reducing pro-inflammatory prostaglandin and leukotriene production. EPA-rich fish oil is used in ME/CFS for neuroinflammation.",
+    "generic": "Eicosapentaenoic acid",
+    "class": "Omega-3 fatty acid / anti-inflammatory",
+    "rx": "OTC"
+  },
+  "DHA": {
+    "label": "DHA",
+    "category": "supplement",
+    "definition": "Docosahexaenoic Acid: an omega-3 fatty acid and major structural component of neuronal and retinal membranes. DHA is critical for synaptic function and is a precursor to neuroprotectin D1, a specialized pro-resolving mediator. DHA is used in ME/CFS for neuroprotection.",
+    "generic": "Docosahexaenoic acid",
+    "class": "Omega-3 fatty acid / neuroprotective",
+    "rx": "OTC"
+  },
+  "Curcumin": {
+    "label": "Curcumin",
+    "category": "supplement",
+    "definition": "The active polyphenol in turmeric, with pleiotropic anti-inflammatory effects: NF-κB inhibition, COX/LOX inhibition, NRF2 activation, and epigenetic modulation. Poor bioavailability requires formulations with piperine or liposomal delivery. Used in ME/CFS for oxidative stress and neuroinflammation.",
+    "generic": "Curcumin (turmeric extract)",
+    "brand": "Longvida, Meriva, Theracurmin, BCM-95",
+    "class": "Polyphenol / anti-inflammatory / NRF2 activator",
+    "rx": "OTC"
+  },
+  "Resveratrol": {
+    "label": "Resveratrol",
+    "category": "supplement",
+    "definition": "A stilbenoid polyphenol found in grapes and red wine, activating SIRT1 (NAD+-dependent deacetylase) and AMPK. Resveratrol promotes mitochondrial biogenesis via PGC-1α and may improve mitochondrial function in ME/CFS.",
+    "generic": "Resveratrol (trans-resveratrol)",
+    "class": "Polyphenol / SIRT1 activator / AMPK activator",
+    "rx": "OTC"
+  },
+  "Quercetin": {
+    "label": "Quercetin",
+    "category": "supplement",
+    "definition": "A flavonoid polyphenol with mast cell-stabilizing, antihistamine, antioxidant (NRF2 activation), and senolytic properties. Quercetin stabilizes mast cell membranes and inhibits histamine release; used in ME/CFS with MCAS/histamine intolerance.",
+    "generic": "Quercetin (often combined with bromelain or vitamin C for absorption)",
+    "class": "Flavonoid / mast cell stabilizer / antioxidant",
+    "rx": "OTC"
+  },
+  "Luteolin": {
+    "label": "Luteolin",
+    "category": "supplement",
+    "definition": "A flavonoid found in celery, parsley, and chamomile, with mast cell-stabilizing, anti-inflammatory, and neuroprotective effects. Luteolin inhibits mast cell degranulation and microglial activation; used in ME/CFS/MCAS for neuroinflammation and brain fog.",
+    "generic": "Luteolin (often as luteolin-7-O-glucoside or liposomal luteolin)",
+    "class": "Flavonoid / mast cell stabilizer / neuroprotective",
+    "rx": "OTC"
+  },
+  "EGCG": {
+    "label": "EGCG",
+    "category": "supplement",
+    "definition": "Epigallocatechin Gallate: the major catechin in green tea, with antioxidant, anti-inflammatory, and neuroprotective effects. EGCG inhibits NF-κB, activates NRF2, and may reduce microglial activation; used in ME/CFS for neuroinflammation.",
+    "generic": "Epigallocatechin gallate (green tea extract)",
+    "class": "Catechin / antioxidant / anti-inflammatory",
+    "rx": "OTC"
+  },
+  "PQQ": {
+    "label": "PQQ",
+    "category": "supplement",
+    "definition": "Pyrroloquinoline Quinone: a redox cofactor and potent antioxidant that stimulates mitochondrial biogenesis via PGC-1α and NRF1/2 pathways. PQQ acts as a growth factor for mitochondria; used in ME/CFS for mitochondrial support.",
+    "generic": "Pyrroloquinoline quinone",
+    "class": "Redox cofactor / mitochondrial biogenesis stimulator",
+    "rx": "OTC"
+  },
+  "Creatine": {
+    "label": "Creatine",
+    "category": "supplement",
+    "definition": "A nitrogenous compound stored as phosphocreatine in muscle and brain, serving as a rapid ATP buffer via the creatine kinase reaction. Creatine supplementation may improve muscle and cognitive energy in ME/CFS by enhancing the phosphocreatine energy shuttle.",
+    "generic": "Creatine monohydrate",
+    "brand": "Various supplement brands",
+    "class": "Energy substrate / phosphocreatine precursor",
+    "rx": "OTC"
+  },
+  "Carnitine": {
+    "label": "Carnitine",
+    "category": "supplement",
+    "definition": "A quaternary ammonium compound essential for mitochondrial fatty acid transport via CPT1/CPT2. Acetyl-L-carnitine (ALCAR) also donates acetyl groups for acetylcholine synthesis and crosses the blood-brain barrier. Carnitine deficiency has been reported in ME/CFS.",
+    "generic": "L-Carnitine, Acetyl-L-Carnitine (ALCAR), Propionyl-L-Carnitine",
+    "class": "Carnitine / mitochondrial fatty acid transport cofactor",
+    "rx": "OTC"
+  },
+  "D-Ribose": {
+    "label": "D-Ribose",
+    "category": "supplement",
+    "definition": "A pentose sugar that is the structural backbone of ATP. D-ribose supplementation bypasses the rate-limiting pentose phosphate pathway, potentially accelerating ATP regeneration. Used in ME/CFS for energy support; mixed evidence from clinical trials.",
+    "generic": "D-Ribose",
+    "class": "Sugar / ATP precursor",
+    "rx": "OTC"
+  },
+  "Glutathione": {
+    "label": "Glutathione",
+    "category": "supplement",
+    "definition": "The body's master intracellular antioxidant: a tripeptide (glutamate-cysteine-glycine) that directly neutralizes ROS, recycles other antioxidants (vitamins C &amp; E), and detoxifies xenobiotics via GST enzymes. Glutathione depletion is a core finding in ME/CFS. Oral bioavailability is poor; liposomal and IV forms are used clinically.",
+    "generic": "Glutathione (reduced), Liposomal glutathione, IV glutathione",
+    "class": "Antioxidant tripeptide",
+    "rx": "OTC (oral, liposomal); prescription (IV)"
+  },
+  "ALA": {
+    "label": "ALA",
+    "category": "supplement",
+    "definition": "Alpha-Lipoic Acid (thioctic acid): a mitochondrial cofactor for pyruvate dehydrogenase and α-ketoglutarate dehydrogenase, and a potent amphipathic antioxidant (active in both aqueous and lipid compartments). ALA regenerates glutathione, vitamin C, and vitamin E; used in ME/CFS for oxidative stress and mitochondrial support. Not to be confused with alpha-linolenic acid (also ALA).",
+    "generic": "Alpha-Lipoic Acid (R-lipoic acid preferred)",
+    "class": "Mitochondrial cofactor / antioxidant",
+    "rx": "OTC"
+  },
+  "SAMe": {
+    "label": "SAMe",
+    "category": "supplement",
+    "definition": "S-Adenosyl Methionine: the universal methyl donor for DNA methylation, neurotransmitter synthesis, and creatine synthesis. SAMe is used in ME/CFS for methylation support and mood; elevated homocysteine + low SAMe suggest impaired methylation cycle.",
+    "generic": "S-Adenosyl-L-Methionine",
+    "brand": "Sam-e, SAMe Complete",
+    "class": "Methyl donor / endogenous metabolite",
+    "rx": "OTC"
+  },
+  "Taurine": {
+    "label": "Taurine",
+    "category": "supplement",
+    "definition": "A sulfur-containing amino acid that is not incorporated into proteins. Taurine stabilizes cell membranes, regulates calcium handling, acts as an osmolyte, and enhances GABAergic tone. Used in ME/CFS for sleep, muscle cramps, and cardiac function.",
+    "generic": "Taurine (L-Taurine)",
+    "class": "Amino acid / osmolyte / GABA-A agonist",
+    "rx": "OTC"
+  },
+  "Lysine": {
+    "label": "Lysine",
+    "category": "supplement",
+    "definition": "An essential amino acid that competes with arginine for cellular uptake, inhibiting herpesvirus replication (which requires arginine-rich proteins). Used in ME/CFS with suspected HSV/EBV reactivation for viral suppression.",
+    "generic": "L-Lysine",
+    "class": "Essential amino acid / antiviral (competitive arginine antagonism)",
+    "rx": "OTC"
+  },
+  "Glycine": {
+    "label": "Glycine",
+    "category": "supplement",
+    "definition": "The simplest amino acid, acting as an inhibitory neurotransmitter (glycine receptor) and NMDA receptor co-agonist. Glycine is a precursor to glutathione (with glutamate + cysteine) and collagen. Used in ME/CFS for sleep quality and connective tissue support.",
+    "generic": "Glycine, Magnesium glycinate (for Mg delivery)",
+    "class": "Amino acid / neurotransmitter / glutathione precursor",
+    "rx": "OTC"
+  },
+  "Arginine": {
+    "label": "Arginine",
+    "category": "supplement",
+    "definition": "A conditionally essential amino acid and the substrate for nitric oxide synthase (NOS). Arginine supplementation may enhance NO-mediated vasodilation, potentially improving microvascular perfusion in ME/CFS. Note: arginine can feed herpesvirus replication.",
+    "generic": "L-Arginine, Arginine alpha-ketoglutarate (AAKG)",
+    "class": "Amino acid / NO precursor",
+    "rx": "OTC"
+  },
+  "Citrulline": {
+    "label": "Citrulline",
+    "category": "supplement",
+    "definition": "A non-proteinogenic amino acid that is converted to arginine in the kidneys, providing a more sustained and better-tolerated arginine source than arginine itself. Used in ME/CFS for NO-mediated vasodilation without the GI side effects of arginine.",
+    "generic": "L-Citrulline, Citrulline malate",
+    "class": "Amino acid / NO precursor (indirect, via arginine)",
+    "rx": "OTC"
+  },
+  "Tryptophan": {
+    "label": "Tryptophan",
+    "category": "supplement",
+    "definition": "An essential amino acid and precursor to serotonin (via TPH) and melatonin (via AANAT). In ME/CFS, tryptophan is diverted away from serotonin and toward the kynurenine pathway by IDO/TDO activation, depleting serotonin. Tryptophan supplementation may be counterproductive when IDO is activated.",
+    "generic": "L-Tryptophan",
+    "class": "Essential amino acid / serotonin and melatonin precursor",
+    "rx": "OTC"
+  },
+  "5-HTP": {
+    "label": "5-HTP",
+    "category": "supplement",
+    "definition": "5-Hydroxytryptophan: the direct precursor to serotonin (5-HT), bypassing the rate-limiting TPH step. Used in ME/CFS for mood, sleep, and pain; converted peripherally to serotonin in the gut, with only a fraction reaching the CNS. Caution with SSRIs/SNRIs due to serotonin syndrome risk.",
+    "generic": "5-Hydroxytryptophan (from Griffonia simplicifolia seed extract)",
+    "class": "Amino acid derivative / serotonin precursor",
+    "rx": "OTC"
+  },
+  "Tyrosine": {
+    "label": "Tyrosine",
+    "category": "supplement",
+    "definition": "A conditionally essential amino acid and precursor to catecholamines (dopamine → norepinephrine → epinephrine) via TH and AADC. Used in ME/CFS for cognitive function and fatigue when catecholamine depletion is suspected; caution in hyperadrenergic states.",
+    "generic": "L-Tyrosine, N-Acetyl-L-Tyrosine",
+    "class": "Amino acid / catecholamine precursor",
+    "rx": "OTC"
+  },
+  "Theanine": {
+    "label": "Theanine",
+    "category": "supplement",
+    "definition": "L-Theanine: a non-proteinogenic amino acid from green tea that crosses the BBB and increases GABA, serotonin, and dopamine levels while promoting alpha brainwave activity (relaxed alertness). Used in ME/CFS for anxiety reduction without sedation and for improving sleep quality.",
+    "generic": "L-Theanine",
+    "class": "Amino acid / neurotransmitter modulator",
+    "rx": "OTC"
+  },
+  "Ashwagandha": {
+    "label": "Ashwagandha",
+    "category": "supplement",
+    "definition": "Withania somnifera: an adaptogenic herb used in Ayurveda with cortisol-modulating, GABAergic, and antioxidant effects. Reduces stress-induced cortisol elevation but may lower already-low cortisol in ME/CFS; used for sleep and anxiety.",
+    "generic": "Ashwagandha root extract (Withania somnifera, standardized to withanolides)",
+    "brand": "Sensoril, KSM-66, Shoden",
+    "class": "Adaptogenic herb / cortisol modulator / GABA-mimetic",
+    "rx": "OTC"
+  },
+  "Rhodiola": {
+    "label": "Rhodiola",
+    "category": "supplement",
+    "definition": "Rhodiola rosea: an adaptogenic herb used for fatigue, cognitive performance, and stress resilience. Rhodiola may enhance mitochondrial function and modulate serotonin/dopamine. Used in ME/CFS for fatigue and brain fog; activating effect may be poorly tolerated in severe ME/CFS.",
+    "generic": "Rhodiola rosea root extract (standardized to rosavins and salidroside)",
+    "class": "Adaptogenic herb / monoamine modulator",
+    "rx": "OTC"
+  },
+  "Cordyceps": {
+    "label": "Cordyceps",
+    "category": "supplement",
+    "definition": "A medicinal mushroom (Cordyceps militaris or C. sinensis) used in traditional Chinese medicine for fatigue and respiratory conditions. Cordyceps contains cordycepin and polysaccharides with immunomodulatory, antioxidant, and mitochondrial-supportive effects. Used in ME/CFS for energy and immune modulation.",
+    "generic": "Cordyceps militaris or C. sinensis extract (standardized to cordycepin/polysaccharides)",
+    "class": "Medicinal mushroom / adaptogen / immunomodulator",
+    "rx": "OTC"
+  },
+  "Lion's Mane": {
+    "label": "Lion's Mane",
+    "category": "supplement",
+    "definition": "Hericium erinaceus: a medicinal mushroom that stimulates nerve growth factor (NGF) synthesis and promotes neurogenesis. Used in ME/CFS for cognitive dysfunction and peripheral neuropathy; proposed to improve brain fog via NGF-mediated neuronal repair.",
+    "generic": "Hericium erinaceus extract (standardized to erinacines/hericenones)",
+    "class": "Medicinal mushroom / NGF stimulator / nootropic",
+    "rx": "OTC"
+  },
+  "Reishi": {
+    "label": "Reishi",
+    "category": "supplement",
+    "definition": "Ganoderma lucidum: a medicinal mushroom with immunomodulatory polysaccharides (β-glucans) and triterpenes. Reishi has anti-inflammatory, antioxidant, and mast cell-stabilizing effects. Used in ME/CFS for immune balance and MCAS symptoms.",
+    "generic": "Ganoderma lucidum extract (standardized to polysaccharides/triterpenes)",
+    "class": "Medicinal mushroom / immunomodulator / mast cell stabilizer",
+    "rx": "OTC"
+  },
+  "CBD": {
+    "label": "CBD",
+    "category": "supplement",
+    "definition": "Cannabidiol: a non-psychoactive cannabinoid from cannabis/hemp with anti-inflammatory, analgesic, anxiolytic, and anticonvulsant effects. CBD acts on serotonin (5-HT1A agonist), TRPV1, PPARγ, and adenosine receptors. Used in ME/CFS for pain, sleep, anxiety, and neuroinflammation.",
+    "generic": "Cannabidiol",
+    "brand": "Epidiolex (FDA-approved for epilepsy); various supplement brands",
+    "class": "Phytocannabinoid / anti-inflammatory / analgesic",
+    "rx": "OTC (hemp-derived &lt;0.3% THC); prescription (Epidiolex)"
+  },
+  "THC": {
+    "label": "THC",
+    "category": "medication",
+    "definition": "Delta-9-Tetrahydrocannabinol: the primary psychoactive cannabinoid in cannabis, acting on CB1 and CB2 receptors. Used medically for pain, nausea, appetite stimulation, and sleep. Caution in ME/CFS: may worsen orthostatic intolerance (vasodilation), brain fog, and tachyphylaxis.",
+    "generic": "Delta-9-tetrahydrocannabinol",
+    "brand": "Marinol, Syndros (synthetic THC); various medical cannabis products",
+    "class": "Phytocannabinoid / CB1/CB2 partial agonist",
+    "rx": "Prescription (synthetic); regulated/medical access (cannabis, by jurisdiction)"
+  },
+  "Cannabidiol": {
+    "label": "Cannabidiol",
+    "category": "supplement",
+    "definition": "See CBD — Cannabidiol.",
+    "generic": "Cannabidiol",
+    "class": "Phytocannabinoid",
+    "rx": "See CBD entry"
+  },
+  "Ketamine": {
+    "label": "Ketamine",
+    "category": "medication",
+    "definition": "An NMDA receptor antagonist dissociative anesthetic with rapid-acting antidepressant effects. Low-dose ketamine infusions are used experimentally in ME/CFS and fibromyalgia for central sensitization, neuropathic pain, and treatment-resistant depression. The mechanism involves mTOR-mediated synaptogenesis via AMPA activation.",
+    "generic": "Ketamine (racemic), Esketamine (Spravato, S-enantiomer)",
+    "brand": "Ketalar, Spravato (esketamine, nasal spray, FDA-approved for depression)",
+    "class": "NMDA receptor antagonist / dissociative anesthetic / rapid-acting antidepressant",
+    "rx": "Prescription only; administered in clinic (IV infusion) or supervised (nasal Spravato)"
+  },
+  "Psilocybin": {
+    "label": "Psilocybin",
+    "category": "medication",
+    "definition": "A serotonergic psychedelic (prodrug of psilocin, a 5-HT2A agonist) under investigation for depression, anxiety, and cluster headaches. Hypothesized to promote neuroplasticity and disrupt maladaptive neural networks. Not yet studied in ME/CFS; potential relevance to central sensitization and treatment-resistant depression.",
+    "generic": "Psilocybin",
+    "class": "Serotonergic psychedelic / 5-HT2A agonist",
+    "rx": "Investigational; Schedule I in US; clinical trial use only. Decriminalized/medical use in limited jurisdictions."
+  }
+}
