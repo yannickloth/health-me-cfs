@@ -221,3 +221,5 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 
 #include "sec-11-synthesis-differential-diagnostic-algorithm-extended/sec-11-synthesis-differential-diagnostic-algorithm-extended.typ"
 
+#include "sec-12-medication-reference-drug-indexed-pharmacodiagnostic-compendium/sec-12-medication-reference-drug-indexed-pharmacodiagnostic-compendium.typ"
+
