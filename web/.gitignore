@@ -11,6 +11,7 @@
 /part5-modeling/ch*/
 /z-appendices/appendix*/
 /_shared/*.qmd
+/bib/*.bib
 
 # Generated from src/main/typst/mecfs/figures/*.typ
 /figures/
