@@ -132,7 +132,7 @@ Before starting any other phase:
    - Phase 4 → brainstorm file path, idea count
    - Phase 4a → subtree file path, N nodes written, root index updated
     - Phase 5 → ideas integrated (by tier); queued topics from Gates A/B with one-line rationale
-    - Phase 5d → N cascade branches traced, M drug→node pairs, K decision-forcing probes; trace at `ops/integration-guides/pathway-drug-trace-<slug>.md`
+    - Phase 5d → N cascade branches traced, M drug→node pairs, K discriminating probes; trace at `ops/integration-guides/pathway-drug-trace-<slug>.md`; ch30 cascades modified, sec-12 entries added/modified
     - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
     - Phase 5z → N glossary entries added, M terms filtered
     - Phase 6 → M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred); bump log updated with K bumps
@@ -312,12 +312,13 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
 Read Phase 2 synthesis. Use the evidence summary and contradiction framing to guide integration — do not impose a predetermined narrative; let the evidence structure determine emphasis. Per finding, determine integration target:
 
 **Chapter mapping:**
-- Pathophysiology mechanisms → Part 2 (ch06–ch16)
-- Treatment/interventions → Part 3 (ch14a–ch19)
+- Pathophysiology mechanisms → Part 2 (ch06–ch16) | ch30 cascade sections (hypothesis tracing)
+- Treatment/interventions → Part 3 (ch14a–ch19) | ch30 sec-12 (medication reference)
 - Biomarkers/diagnostics → Part 2 (ch20) | Part 4 (ch22–ch25)
 - Clinical features/symptoms → Part 1 (ch02–ch05)
 - Research questions/hypotheses → Part 4 | hypothesis registry
 - Cross-disease comparisons → ch14d | ch13
+- Medication → ch30 sec-12 (pharmacodiagnostic compendium entry, alphabetical)
 
 **Environment selection:**
 
@@ -582,7 +583,7 @@ Same requirement as Phase 3: every environment written in Phase 5 must contain a
 
 **Gate B — Sub-research surfaces new topic or contradiction:** If a Tier 1 `literature-integrator` sub-run surfaces papers pointing to a distinct ME/CFS-relevant topic not covered by the parent topic or any Phase 4 idea → pause and ask the user: "Sub-research found a potentially distinct topic (`<new-topic>`). Integrate inline, queue as `/integrate-topic <new-topic>`, or ignore?" If sub-research finds strong contradictory evidence that substantially undermines the idea's premise → pause and ask: "Sub-research found contradictory evidence for idea (`<idea>`). Downgrade to Tier 2/3, add as `#limitation`, or abandon?" Wait for answer before continuing. Add any queued topic to `ops/queued-topics.md`.
 
-**Integration threshold (Tiers 1–2):** ANY mechanistic connection to ME/CFS is sufficient. Cross-disease parallels → appropriate chapter (ch13, ch14d). Non-pharmacological interventions → ch17. Research tools → ch20 or ch25b. Long-shot drug ideas → ch18 or ch06 as open questions.
+**Integration threshold (Tiers 1–2):** ANY mechanistic connection to ME/CFS is sufficient. Cross-disease parallels → appropriate chapter (ch13, ch14d). Non-pharmacological interventions → ch17. Research tools → ch20 or ch25b. Long-shot drug ideas → ch18 or ch06 as open questions. Cascading mechanistic hypotheses with drug interception points → ch30 cascade sections (sec-01–sec-11) + ch30 sec-12 medication reference entries.
 
 **Report:** "Phase 5 complete: N ideas triaged (T1: X integrated, T2: Y integrated, T3: Z tree-only), P queued as child topics. Files modified/created: <space-separated relative paths>."
 
@@ -608,7 +609,7 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 **Agent:** main session | **Model:** opus (required — lower-tier models are insufficient for mechanistic biochemistry × pharmacology × differential diagnosis reasoning)
 
-**Trigger:** The integrated topic introduces a **mechanistic hypothesis** (not a drug) that describes a causal cascade from an upstream trigger to downstream clinical symptoms. Phase 5d traces that cascade forward through every biochemical and physiological step, and at each node identifies which existing medications — documented elsewhere in ch24, ch25, or ch27 — would be expected to intercept at that node.
+**Trigger:** The integrated topic introduces a **mechanistic hypothesis** (not a drug) that describes a causal cascade from an upstream trigger to downstream clinical symptoms. Phase 5d traces that cascade forward through every biochemical and physiological step, and at each node identifies which existing medications — documented in ch30 sec-12 (pharmacodiagnostic compendium), ch24, ch25, or ch27 — would be expected to intercept at that node.
 
 **Skip if:** The topic is a drug/intervention (handled by Phase 5c) OR the hypothesis has no specifiable cascade (pure correlational claim, no mechanistic model) OR the hypothesis certainty is below 0.10 after Phase 5 reassessment.
 
@@ -624,7 +625,7 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 **Execution order:** 5d runs BEFORE 5c when both fire for the same topic (see joint-trigger rule below).
 
-**Purpose:** Phase 5c answers "given drug X, what does response tell us about mechanisms?" Phase 5d answers the inverse: "given hypothesis Y, what drug responses would help narrow which cascade step is rate-limiting?" Both produce differential content for ch24, but from opposite directions — drug→mechanism (5c) vs mechanism→drug (5d).
+**Purpose:** Phase 5c answers "given drug X, what does response tell us about mechanisms?" Phase 5d answers the inverse: "given hypothesis Y, what drug responses would help narrow which cascade step is rate-limiting?" Both produce differential content for ch24 + ch30 (sec-12 + cascade sections), but from opposite directions — drug→mechanism (5c) vs mechanism→drug (5d).
 
 **Joint trigger rule:** If the integrated topic includes BOTH a medication AND a mechanistic hypothesis (rare but possible — e.g., a topic that integrates pyridostigmine treatment alongside cholinergic dysfunction mechanisms): run 5d first → then 5c → then cross-reference: do 5c's differential predictions for the medication conflict with 5d's cascade-level predictions for the same medication? Add a consistency note to both outputs.
 
@@ -632,7 +633,10 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 1. **Trace the cascade.** Expand the hypothesis's causal chain into step-by-step biochemical/physiological states. Minimum 4 steps per branch. Include ALL parallel branches as separate traces. Each step must be a falsifiable state, not a description. Example: `pelvic obliquity → asymmetric muscle loading → sustained stretch → TRPV4/Piezo1 Ca²⁺ influx → chronic mitochondrial Ca²⁺ overload → ATP depletion → [parallel branches: anaerobic metabolism → proton accumulation → ASIC3/TRPV1 activation → nociception; sympathetic chain compression → aberrant sympathetic firing → vasoconstriction → tissue hypoxia] → convergence → central sensitization → PEM/pain/fatigue`.
 
-2. **Inventory existing medications.** Grep ch24, ch25, ch27 for all medication sections and their `@sec:` labels. Verify every label exists: `grep '<sec:<label>>' src/main/typst/mecfs/part3-treatment/*.typ`. Never guess labels.
+2. **Inventory existing medications.** Grep ch30 sec-12 + ch24 + ch25 + ch27 for all medication entries and their `@sec:` labels:
+   - ch30 sec-12: `grep '^=== ' src/main/typst/mecfs/part3-treatment/ch30-mechanistic-cascade-tracing/sec-12-*/*.typ` — every `=== Name` is a medication entry
+   - ch24, ch25, ch27: `grep '<sec:<label>>' src/main/typst/mecfs/part3-treatment/*.typ`
+   - Verify every label exists with a grep. Never guess labels.
 
 3. **Identify drug interception points.** At each cascade step, map which existing medications target that node. Be precise about molecular targets. Cross-check: pyridostigmine (AChE inhibitor → cholinergic synapse) does NOT intercept a mitochondrial Ca²⁺ overload step. Apply pruning rule: **only trace branches where the intercepting drug has certainty ≥ 0.40 for the targeted mechanism in ME/CFS specifically.** Drugs with lower certainty targeting a mechanism may be listed in the ops/ trace but omitted from chapter content.
 
@@ -649,13 +653,31 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
    **b) Chapter content** (only if cert ≥ 0.30). Placement by hypothesis × medication matrix:
 
-   | Hypothesis location | Medication has ch24 section? | Placement |
-   |---------------------|------------------------------|-----------|
-   | ch14 (speculative) | Yes | Add `==== What This Medication Reveals About <hypothesis-label>` in ch24 medication section + `#speculation` cross-ref in hypothesis chapter |
-   | ch14 (speculative) | No | Add `#open-question` at end of hypothesis section in ch14 |
-   | ch07/ch08/ch10 (core) | Yes | Add `==== Implications for <hypothesis-label>` in ch24 + `#speculation` cross-ref in hypothesis chapter |
-   | ch14 | No medication involved | Add `#speculation` or `#open-question` at end of hypothesis section in ch14 (only if cert ≥ 0.30 per threshold above; otherwise ops-only) |
-   | Medication has NO ch24/ch25/ch27 section | N/A | Do NOT write chapter content — ops trace only |
+    | Hypothesis location | Medication has ch30 sec-12 or ch24 section? | Placement |
+    |---------------------|----------------------------------------------|-----------|
+    | ch14 (speculative) | ch24 section | Add `==== What This Medication Reveals About <hypothesis-label>` in ch24 medication section + `#speculation` cross-ref in hypothesis chapter |
+    | ch14 (speculative) | ch30 sec-12 only | Add `#speculation` cross-ref from hypothesis chapter to `@sec:medication-reference` entry + update sec-12 entry's `*Appears in:*` line with new cascade ref |
+    | ch14 (speculative) | No (in either) | Add `#open-question` at end of hypothesis section in ch14 |
+    | ch07/ch08/ch10 (core) | ch24 section | Add `==== Implications for <hypothesis-label>` in ch24 + `#speculation` cross-ref in hypothesis chapter |
+    | ch30 cascade section (new hypothesis branch) | ch30 sec-12 entry exists | Add cascade steps + drug interception nodes to the relevant ch30 sec-01–sec-11 section; update sec-12 entry's `*Appears in:*` line |
+    | ch14 | No medication involved | Add `#speculation` or `#open-question` at end of hypothesis section in ch14 (only if cert ≥ 0.30 per threshold above; otherwise ops-only) |
+    | Medication has NO ch30 sec-12 NOR ch24/ch25/ch27 entry | N/A | Add new `=== DrugName` entry to ch30 sec-12 (alphabetical order) + opine differential predictions; do NOT write chapter content — ops trace only |
+
+    **sec-12 entry format (when adding new medication reference):** Each entry follows this exact structure:
+    ```
+    === DrugName
+
+    *Appears in:* @sec:<cascade-sections>, cross-reference matrix.
+
+    #strong[+] Positive diagnostic inference — what it means if the drug works.
+
+    #strong[−] Null diagnostic inference — what it means if the drug doesn't work.
+
+    #strong[SE] Side-effect diagnostic patterns.
+
+    #strong[W] *Mechanism:* <letter(s)> ... *Protracted risk:* ... *Permanent risk:* ... *Rechallenge:* ...
+    ```
+    Match existing entries' style, length (15--40 lines), and worsening risk taxonomy (Mechanisms A--K referencing `@sec:protracted-permanent-worsening`, side-effect Patterns 1--5 referencing `@sec:side-effects-diagnostic`). Sort alphabetically.
 
 7. **Update plan and hypothesis tree.** Record: cascade branches traced, drug→node pairs identified, discriminating probes found (or explicit "none" statement), chapter placement.
 
@@ -689,11 +711,11 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 **Model note:** Phase 5d requires reasoning across mechanistic biochemistry, pharmacology, and differential diagnosis. Use opus. If opus is unavailable → **skip Phase 5d entirely** (no ops trace, no chapter content). Continue with remaining phases. Report: "Phase 5d skipped — opus unavailable. Hypothesis cascade-to-drug trace deferred."
 
-**Report:** "Phase 5d complete: N cascade branches traced, M drug→node pairs, K integrated into chapter (L below 0.30 threshold — ops-only). Discriminating probes: J found, P 'no clean discriminator' statements. Cascade trace at `ops/integration-guides/pathway-drug-trace-<topic-slug>.md`."
+**Report:** "Phase 5d complete: N cascade branches traced, M drug→node pairs, K integrated into chapter (L below 0.30 threshold — ops-only). Discriminating probes: J found, P 'no clean discriminator' statements. Cascade trace at `ops/integration-guides/pathway-drug-trace-<topic-slug>.md`. ch30 cascade sections modified: <list-or-none>. ch30 sec-12 entries added/modified: <list-or-none>."
 
 ## Phase 5b — Intermediate Build Check
 
-**Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit) and after Phase 5c (differential analysis, `c` = clinical) and Phase 5d (pathway-to-drug tracing, `d` = drug). The lettering reflects content type, not execution order. Execution sequence: 5 → 5d → 5c → 5a → 5z → 5b. Phase 5d runs before 5c so that cascade-to-drug mappings are complete when 5c writes per-medication differential entries; if a topic triggers both, 5d's cascade nodes are available for 5c to cross-reference. Phase 5z (glossary review) runs after 5a when all chapter content is finalized.
+**Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit) and after Phase 5c (differential analysis, `c` = clinical) and Phase 5d (pathway-to-drug tracing, `d` = drug). The lettering reflects content type, not execution order. Execution sequence: 5 → 5d → 5c → 5a → 5z → 5b. Phase 5d runs before 5c so that cascade-to-drug mappings are complete when 5c writes per-medication differential entries; if a topic triggers both, 5d's cascade nodes are available for 5c to cross-reference. Phase 5z (glossary review) runs after 5a when all chapter content is finalized. When new ch30 sec-12 entries are created by 5d, Phase 5z MUST also verify the glossary has corresponding entries (or add them).
 
 **Agent:** main session | **Model:** current
 
