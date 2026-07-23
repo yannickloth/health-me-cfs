@@ -147,9 +147,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 #strong[SE] Severe post-dose crash indistinguishable from PEM → VMAT2 terminal compromise. See @sec:side-effects-diagnostic.
 
-#strong[W] *Mechanism:* A (VMAT2 depletion → direct terminal damage) + B (metabolic PEM from sustained increased energy expenditure + tachycardia) + C (paradoxical excitation if D2 supersensitivity) + E (withdrawal dopamine crash → PEM) + H (PMC — cognitive benefit masks PEM warning, enables sustained overexertion). *Protracted risk:* Very High. *Permanent risk:* High. VMAT2 terminal dropout, mitochondrial DNA damage, and epigenetic consolidation converge — the single most dangerous medication class in this chapter. *Rechallenge:* NEVER. Document as severe intolerance. Counsel patient that all catecholamine-releasing agents (pseudoephedrine, ephedrine, high-dose caffeine) carry the same risk.
-
-<warn:amphetamine-permanent-risk>
+#strong[W] *Mechanism:* A (VMAT2 depletion → direct terminal damage) + B (metabolic PEM from sustained increased energy expenditure + tachycardia) + C (paradoxical excitation if D2 supersensitivity) + E (withdrawal dopamine crash → PEM) + H (PMC — cognitive benefit masks PEM warning, enables sustained overexertion). *Protracted risk:* Very High. *Permanent risk:* High. VMAT2 terminal dropout, mitochondrial DNA damage, and epigenetic consolidation converge — the single most dangerous medication class in this chapter. *Rechallenge:* NEVER. Document as severe intolerance. Counsel patient that all catecholamine-releasing agents (pseudoephedrine, ephedrine, high-dose caffeine) carry the same risk. #label("warn:amphetamine-permanent-risk")
 
 === Anakinra
 
