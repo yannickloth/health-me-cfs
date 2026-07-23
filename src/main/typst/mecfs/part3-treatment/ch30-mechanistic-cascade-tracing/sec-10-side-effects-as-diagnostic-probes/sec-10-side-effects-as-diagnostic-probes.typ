@@ -28,3 +28,5 @@ The chapter above uses *therapeutic response* — whether a drug works — to lo
 
 #include "subsec-11-cross-reference-matrix-drug-hypothesis-diagnostic-inference/subsec-11-cross-reference-matrix-drug-hypothesis-diagnostic-inference.typ"
 
+#include "subsec-12-protracted-and-permanent-worsening-after-medications/subsec-12-protracted-and-permanent-worsening-after-medications.typ"
+
