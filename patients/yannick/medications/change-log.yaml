@@ -1,6 +1,32 @@
 # Medication Change Log
 
 changes:
+  - date: 2026-07-23
+    medication: "Aripiprazole (low-dose, LDA)"
+    action: observation
+    observation_type: "fault tolerance / sleep resilience"
+    notes: >
+      Pre-LDA pattern: insufficient sleep → migraine + brain fog
+      (expected PEM/symptom cascade). On LDA 1mg: insufficient sleep
+      → still functional, no migraine, no brain fog. This is NOT
+      reduced need for sleep — patient experiences normal sleep need
+      and body sensations (fatigue, perspiration) from sleep debt.
+      Rather, the coupling between sleep deprivation and symptom
+      crash has been attenuated. Possible LDA-mediated normalization
+      of catecholamine dysfunction and/or microglial modulation
+      raising the threshold for sleep-deprivation-triggered
+      neuroimmune activation. Functional significance: improved
+      resilience / fault tolerance, not mania. Contrast: prior
+      high-dose stimulants (Concerta, Ritalin, Concerta+Provigil)
+      in untreated ME/CFS produced genuine excitation/mania-like
+      state; this LDA effect is negligible in comparison and
+      qualitatively different — preserved function without
+      pathological activation.
+      Differential note (2026-07-23): Geneviève Fourel raised concern
+      of "virage maniaque" — patient self-assesses as fine, sleep
+      architecture not manic, and profile is consistent with
+      therapeutic LDA effect rather than mood switching.
+
   - date: 2026-07-18
     medication: "Aripiprazole (low-dose, LDA)"
     action: observation
