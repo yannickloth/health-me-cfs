@@ -414,7 +414,7 @@
     "category": "cell",
     "definition": "Red Blood Cells (Erythrocytes): oxygen-carrying blood cells. RBC deformability and morphology abnormalities have been reported in ME/CFS."
   },
-    "PMC": {
+  "PMC": {
     "label": "PMC",
     "category": "symptom",
     "definition": "Post-Masking Crash: a now-withdrawn concept proposed by Chang et al. (2025) suggesting that unmasked PEM — the natural crash after overexertion — somehow differs from 'true' PEM, based on a methodologically flawed survey using non-validated recall items and no objective PEM provocation. No clinical or physiological basis exists for this distinction; PEM is the same phenomenon regardless of the triggering context. The terminology risked implying that patients who must push through activities (work, caregiving, medical appointments) are not experiencing authentic PEM — an implication at odds with the biomedical consensus that PEM is a single, objectively demonstrable pathophysiological response to exertion exceeding individual capacity.",
@@ -3298,5 +3298,492 @@
     "class": "Serotonergic psychedelic / 5-HT2A agonist",
     "rx": "Investigational; Schedule I in US; clinical trial use only. Decriminalized/medical use in limited jurisdictions.",
     "brand": "Investigational — no commercial brand for depression"
+  },
+  "HIF-1α": {
+    "label": "HIF-1α",
+    "category": "transcription_factor",
+    "definition": "Hypoxia-Inducible Factor 1 Alpha: a transcription factor that coordinates cellular adaptation to low oxygen, upregulating glycolysis, angiogenesis (VEGF), and erythropoiesis. Stabilized by mitochondrial ROS and succinate accumulation; HIF-1α activation may drive the glycolytic shift in ME/CFS."
+  },
+  "SC": {
+    "label": "SC",
+    "category": "protein",
+    "definition": "Supercomplex (respirasome): a stable assembly of mitochondrial electron transport chain complexes (I+III₂+IV) that enhances electron transfer efficiency and reduces ROS production. WASF3 overexpression disrupts supercomplex assembly; SC instability may be a direct mechanism for impaired OXPHOS in ME/CFS."
+  },
+  "WASF3": {
+    "label": "WASF3",
+    "category": "protein",
+    "definition": "Wiskott-Aldrich Syndrome Protein Family Member 3: a protein that, when overexpressed, disrupts mitochondrial respiratory supercomplex assembly, impairing OXPHOS efficiency. WASF3 is a candidate driver of mitochondrial dysfunction in ME/CFS — elevated WASF3 → supercomplex destabilization → reduced ATP synthesis → exercise intolerance and PEM.",
+    "also": "Also known as WAVE3; implicated in ME/CFS mitochondrial pathology"
+  },
+  "3β-HSD": {
+    "label": "3β-HSD",
+    "category": "enzyme",
+    "definition": "3β-Hydroxysteroid Dehydrogenase: an enzyme converting pregnenolone to progesterone and DHEA to androstenedione in steroidogenesis. Impaired 3β-HSD activity may alter neurosteroid balance in ME/CFS.",
+    "also": "17β-HSD: converts androstenedione to testosterone and estrone to estradiol"
+  },
+  "AADC": {
+    "label": "AADC",
+    "category": "enzyme",
+    "definition": "Aromatic L-Amino Acid Decarboxylase: the enzyme that converts L-DOPA to dopamine and 5-HTP to serotonin. AADC requires pyridoxal phosphate (vitamin B6) as a cofactor; AADC dysfunction would impair both dopaminergic and serotonergic neurotransmission."
+  },
+  "AChE": {
+    "label": "AChE",
+    "category": "enzyme",
+    "definition": "Acetylcholinesterase: the enzyme that rapidly hydrolyzes acetylcholine in the synaptic cleft, terminating cholinergic signaling. Inhibited by pyridostigmine (Mestinon) to enhance parasympathetic vagal tone in ME/CFS/POTS."
+  },
+  "AIMM": {
+    "label": "AIMM",
+    "category": "condition",
+    "definition": "Acquired Ischemic Mitochondrial Myopathy: mitochondrial damage in muscle tissue caused by impaired microvascular oxygen delivery rather than a primary mitochondrial defect. AIMM links endothelial dysfunction → tissue hypoxia → mitochondrial dysfunction in ME/CFS, suggesting the primary lesion may be vascular, not mitochondrial."
+  },
+  "ANC": {
+    "label": "ANC",
+    "category": "measurement",
+    "definition": "Absolute Neutrophil Count: the number of neutrophils per microliter of blood. Neutropenia (low ANC) can occur with certain ME/CFS treatments (valacyclovir, rituximab) or as a drug side effect requiring monitoring."
+  },
+  "ANT": {
+    "label": "ANT",
+    "category": "transporter",
+    "definition": "Adenine Nucleotide Translocator: the mitochondrial inner membrane transporter exchanging matrix ATP for cytosolic ADP. ANT is a core component of the mPTP and its function is impaired by oxidative stress; ANT dysfunction locks ATP inside failing mitochondria in ME/CFS."
+  },
+  "AQP2": {
+    "label": "AQP2",
+    "category": "protein",
+    "definition": "Aquaporin-2: the vasopressin-regulated water channel in renal collecting ducts controlling water reabsorption. AQP2 dysfunction or impaired vasopressin signaling may contribute to the nocturia and fluid dysregulation frequently reported in ME/CFS/POTS."
+  },
+  "CAP": {
+    "label": "CAP",
+    "category": "pathway",
+    "definition": "Cholinergic Anti-inflammatory Pathway: a vagus nerve-mediated reflex where efferent vagal signals release acetylcholine, which binds α7 nicotinic receptors on splenic macrophages, suppressing TNF-α and other pro-inflammatory cytokines. Impaired CAP (low vagal tone) may permit unchecked peripheral inflammation in ME/CFS."
+  },
+  "cGMP": {
+    "label": "cGMP",
+    "category": "molecule",
+    "definition": "Cyclic Guanosine Monophosphate: a second messenger produced by guanylyl cyclase (soluble sGC activated by NO, or particulate pGC activated by natriuretic peptides). cGMP mediates vasodilation via PKG; NO-sGC-cGMP signaling dysfunction may contribute to impaired endothelial vasodilation in ME/CFS."
+  },
+  "COMPASS-31": {
+    "label": "COMPASS-31",
+    "category": "method",
+    "definition": "Composite Autonomic Symptom Score (31-item): a validated patient-reported questionnaire quantifying autonomic symptom burden across six domains (orthostatic, vasomotor, secretomotor, gastrointestinal, bladder, pupillomotor). Used in ME/CFS research to quantify dysautonomia severity."
+  },
+  "COX-2": {
+    "label": "COX-2",
+    "category": "enzyme",
+    "definition": "Cyclooxygenase-2: the inducible isoform of COX, upregulated by inflammatory stimuli (cytokines, NF-κB), producing prostaglandins (PGE2, PGI2) that mediate pain, fever, and inflammation. COX-2 is induced in ME/CFS neuroinflammation and is a therapeutic target of NSAIDs and celecoxib."
+  },
+  "CYP": {
+    "label": "CYP",
+    "category": "enzyme",
+    "definition": "Cytochrome P450: a superfamily of heme-containing enzymes responsible for Phase I metabolism of most drugs, steroid hormones, and xenobiotics. CYP polymorphisms (CYP2D6, CYP2C19, CYP3A4) explain variability in drug response and side-effect susceptibility in ME/CFS patients.",
+    "also": "CYP3A4 (metabolizes ~50% of drugs), CYP2D6 (antidepressants, beta-blockers), CYP2C19 (proton pump inhibitors)"
+  },
+  "CysLT1": {
+    "label": "CysLT1",
+    "category": "receptor",
+    "definition": "Cysteinyl Leukotriene Receptor Type 1: the receptor mediating the bronchoconstrictor and pro-inflammatory effects of cysteinyl leukotrienes (LTC4, LTD4, LTE4) released by mast cells. CysLT1 is the target of montelukast (Singulair), used in ME/CFS/MCAS to block mast-cell-driven respiratory and systemic symptoms."
+  },
+  "DAMI": {
+    "label": "DAMI",
+    "category": "measurement",
+    "definition": "Dopaminergic Asymmetry Measurement Index: a composite biomarker integrating striatal FDG-PET asymmetry, COMPASS-31 autonomic symptom score, and aripiprazole response slope. DAMI aims to quantify the degree of lateralized dopaminergic dysfunction in ME/CFS — high asymmetry correlates with specific autonomic and motor symptom patterns."
+  },
+  "DBH": {
+    "label": "DBH",
+    "category": "enzyme",
+    "definition": "Dopamine-Beta-Hydroxylase: the enzyme that converts dopamine to norepinephrine inside synaptic vesicles. DBH is released with norepinephrine during sympathetic activation; serum DBH activity reflects sympathetic tone and may be elevated in hyperadrenergic ME/CFS/POTS subtypes."
+  },
+  "DCA": {
+    "label": "DCA",
+    "category": "medication",
+    "definition": "Dichloroacetate: a PDK inhibitor that reactivates pyruvate dehydrogenase (PDH), shifting metabolism from glycolysis back toward glucose oxidation. DCA has been proposed experimentally for ME/CFS to reverse the PDK-mediated glycolytic lock. Narrow therapeutic window — causes reversible peripheral neuropathy.",
+    "generic": "Dichloroacetate",
+    "class": "Pyruvate dehydrogenase kinase inhibitor",
+    "rx": "Investigational; not commercially available as a pharmaceutical",
+    "brand": "Investigational — no commercial brand"
+  },
+  "DDR": {
+    "label": "DDR",
+    "category": "receptor",
+    "definition": "Discoidin Domain Receptor: a family of collagen-activated receptor tyrosine kinases (DDR1, DDR2) regulating cell adhesion, migration, and ECM remodeling. DDR signaling is implicated in tissue fibrosis and may be relevant to connective tissue pathology in ME/CFS/EDS."
+  },
+  "DMF": {
+    "label": "DMF",
+    "category": "medication",
+    "definition": "Dimethyl Fumarate: an immunomodulator activating NRF2 (the antioxidant master regulator) and shifting immune responses from Th1/Th17 toward Th2. FDA-approved for multiple sclerosis; of interest in ME/CFS for its dual NRF2-activating and immunomodulatory effects.",
+    "generic": "Dimethyl fumarate",
+    "brand": "Tecfidera, Skilarence",
+    "class": "NRF2 activator / immunomodulator",
+    "rx": "Prescription (US, EU)"
+  },
+  "DMV": {
+    "label": "DMV",
+    "category": "anatomy",
+    "definition": "Dorsal Motor Nucleus of Vagus: a brainstem nucleus containing parasympathetic preganglionic neurons that project via the vagus nerve to the heart, lungs, and GI tract. DMV dysfunction may impair vagal parasympathetic output in ME/CFS, contributing to tachycardia, gastroparesis, and reduced anti-inflammatory cholinergic tone."
+  },
+  "DPP-4": {
+    "label": "DPP-4",
+    "category": "enzyme",
+    "definition": "Dipeptidyl Peptidase-4 (CD26): a serine protease that rapidly degrades incretin hormones (GLP-1, GIP), limiting their insulinotropic effects. DPP-4 also exists as soluble CD26, a T-cell activation marker elevated in some autoimmune conditions, and cleaves multiple chemokines. DPP-4 inhibitors (sitagliptin) are used in diabetes; DPP-4/CD26 dysregulation may link metabolic and immune dysfunction in ME/CFS."
+  },
+  "DRG": {
+    "label": "DRG",
+    "category": "anatomy",
+    "definition": "Dorsal Root Ganglion: a cluster of sensory neuron cell bodies along the spinal cord that transmit pain, temperature, and touch signals. DRG neurons express TRPV1, TRPA1, and PIEZO2; DRG sensitization is a key site of peripheral pain amplification in ME/CFS and fibromyalgia."
+  },
+  "DTBZ": {
+    "label": "DTBZ",
+    "category": "measurement",
+    "definition": "Dihydrotetrabenazine: a PET radioligand that binds to VMAT2 on presynaptic monoamine terminals, used to quantify dopaminergic neuron density. Reduced striatal DTBZ binding in ME/CFS would indicate dopaminergic terminal loss — a finding linking ME/CFS fatigue to Parkinsonian pathophysiology."
+  },
+  "EC cells": {
+    "label": "EC cells",
+    "category": "cell",
+    "definition": "Enterochromaffin Cells: specialized gut epithelial cells that produce ~95% of the body's serotonin via TPH1. EC cell serotonin regulates gut motility, secretion, and vagal afferent signaling. EC cell dysfunction may link gut dysbiosis to altered serotonergic signaling in ME/CFS."
+  },
+  "ECM": {
+    "label": "ECM",
+    "category": "anatomy",
+    "definition": "Extracellular Matrix: the network of collagen, elastin, proteoglycans, and glycoproteins that provides structural support to tissues. ECM abnormalities (collagen defects, MMP dysregulation) are central to hypermobility spectrum disorders (EDS/HSD) commonly comorbid with ME/CFS."
+  },
+  "ET-1": {
+    "label": "ET-1",
+    "category": "molecule",
+    "definition": "Endothelin-1: a potent vasoconstrictor peptide produced by endothelial cells, acting on ETA (vasoconstriction) and ETB (vasodilation via NO) receptors. ET-1 is elevated in ME/CFS and may drive microvascular constriction, contributing to tissue hypoperfusion and exercise intolerance."
+  },
+  "ETA": {
+    "label": "ETA",
+    "category": "receptor",
+    "definition": "Endothelin Receptor Type A: mediates the vasoconstrictor effects of endothelin-1 on vascular smooth muscle. ETA overactivation may contribute to microvascular dysfunction and tissue ischemia in ME/CFS. ETA receptor autoantibodies have been identified in subsets of ME/CFS patients."
+  },
+  "FAO": {
+    "label": "FAO",
+    "category": "pathway",
+    "definition": "Fatty Acid Oxidation (β-oxidation): the mitochondrial breakdown of fatty acids to acetyl-CoA for the TCA cycle. Impaired FAO in ME/CFS forces reliance on glycolysis, reducing ATP yield per substrate molecule and accelerating fatigue during prolonged activity."
+  },
+  "FDG": {
+    "label": "FDG",
+    "category": "measurement",
+    "definition": "Fluorodeoxyglucose (¹⁸F-FDG): a radioactive glucose analogue used in PET imaging to measure tissue metabolic activity. FDG-PET in ME/CFS reveals regional hypometabolism in the brainstem, frontal cortex, and striatum, correlating with cognitive and fatigue severity."
+  },
+  "G-CSF": {
+    "label": "G-CSF",
+    "category": "cytokine",
+    "definition": "Granulocyte Colony-Stimulating Factor: a cytokine stimulating neutrophil production and mobilization from bone marrow. G-CSF is elevated in some ME/CFS cohorts and may contribute to the low-grade inflammatory state."
+  },
+  "GI": {
+    "label": "GI",
+    "category": "system",
+    "definition": "Gastrointestinal: pertaining to the digestive tract. GI symptoms (bloating, pain, nausea, altered motility, SIBO, GERD) are among the most common and disabling non-core symptoms in ME/CFS."
+  },
+  "GLP-1": {
+    "label": "GLP-1",
+    "category": "hormone",
+    "definition": "Glucagon-Like Peptide-1: an incretin hormone released from intestinal L-cells after meals, enhancing insulin secretion, slowing gastric emptying, and promoting satiety. GLP-1 receptor agonists (semaglutide) are diabetes/obesity drugs; GLP-1 has neuroprotective and anti-inflammatory properties that may be relevant to ME/CFS metabolic dysfunction.",
+    "also": "GLP-1R: GLP-1 receptor"
+  },
+  "Gαq": {
+    "label": "Gαq",
+    "category": "protein",
+    "definition": "G Protein Alpha-q Subunit: the α subunit of the Gq heterotrimeric G protein, which activates phospholipase C-β (PLC-β) upon GPCR stimulation, producing IP3 (calcium release) and DAG (PKC activation). Gαq-coupled receptors include H1 (histamine), M1/M3 (muscarinic), AT1 (angiotensin), and α1-adrenergic receptors — all implicated in ME/CFS autonomic and immune dysfunction."
+  },
+  "HCA2": {
+    "label": "HCA2",
+    "category": "receptor",
+    "definition": "Hydroxycarboxylic Acid Receptor 2 (GPR109A): a Gαi-coupled receptor activated by niacin (vitamin B3) and β-hydroxybutyrate (ketone body). Expressed on mast cells, adipocytes, and immune cells; HCA2 activation on mast cells mediates the niacin flush (PGD2 release). Also mediates the anti-inflammatory effects of ketone bodies — relevant to ketogenic diet strategies in ME/CFS.",
+    "also": "GPR109A"
+  },
+  "HCN": {
+    "label": "HCN",
+    "category": "transporter",
+    "definition": "Hyperpolarization-activated Cyclic Nucleotide-gated channel: the channel carrying the If ('funny') current in cardiac pacemaker cells (SA node) and neurons. cAMP directly activates HCN channels, accelerating heart rate. HCN blockade by ivabradine is used therapeutically in ME/CFS/POTS to reduce sinus tachycardia without lowering blood pressure."
+  },
+  "hEDS": {
+    "label": "hEDS",
+    "category": "condition",
+    "definition": "Hypermobile Ehlers-Danlos Syndrome: the most common subtype of EDS, characterized by generalized joint hypermobility, musculoskeletal pain, skin fragility, and dysautonomia. hEDS is strongly comorbid with ME/CFS and POTS; distinguishing features include the Beighton score, atrophic scarring, and positive family history.",
+    "also": "See EDS (Ehlers-Danlos Syndrome); HSD (Hypermobility Spectrum Disorder)"
+  },
+  "HIT": {
+    "label": "HIT",
+    "category": "condition",
+    "definition": "Histamine Intolerance: a condition where histamine ingestion or release exceeds degradation capacity (impaired DAO/HNMT enzymes), causing flushing, headache, tachycardia, GI symptoms, and nasal congestion. Frequently comorbid with ME/CFS and MCAS; managed with low-histamine diet and DAO supplementation.",
+    "also": "Not to be confused with Heparin-Induced Thrombocytopenia"
+  },
+  "HSC": {
+    "label": "HSC",
+    "category": "cell",
+    "definition": "Haematopoietic Stem Cell: multipotent stem cells in bone marrow that give rise to all blood cell lineages. HSC dysfunction or exhaustion has been hypothesized in ME/CFS as a mechanism for persistent immune abnormalities, though direct evidence is lacking."
+  },
+  "HSP70": {
+    "label": "HSP70",
+    "category": "protein",
+    "definition": "Heat Shock Protein 70: a molecular chaperone that refolds misfolded proteins and prevents aggregation under cellular stress. HSP70 is released extracellularly as a DAMP, activating TLR2/TLR4. Elevated extracellular HSP70 in ME/CFS may reflect chronic cellular stress and contribute to sterile inflammation."
+  },
+  "HTN": {
+    "label": "HTN",
+    "category": "condition",
+    "definition": "Hypertension: chronically elevated blood pressure. Paradoxically present in some hyperadrenergic ME/CFS/POTS patients despite orthostatic intolerance; supine hypertension with orthostatic hypotension/tachycardia complicates pharmacological management."
+  },
+  "H₂S": {
+    "label": "H₂S",
+    "category": "molecule",
+    "definition": "Hydrogen Sulfide: a gaseous signaling molecule (gasotransmitter) with dual roles — at physiological levels, H₂S is a vasodilator, mitochondrial electron donor (at Complex II), and antioxidant; at excess levels from gut dysbiosis (sulfate-reducing bacteria), H₂S is a mitochondrial toxin inhibiting Complex IV. H₂S dysregulation links gut dysbiosis to mitochondrial dysfunction in ME/CFS."
+  },
+  "IA": {
+    "label": "IA",
+    "category": "treatment",
+    "definition": "Immunoadsorption: a therapeutic apheresis procedure that selectively removes pathogenic antibodies (IgG) from plasma while returning other plasma components. Used experimentally in ME/CFS to test whether removal of GPCR autoantibodies improves autonomic and fatigue symptoms; temporary benefit suggests autoantibody-mediated pathophysiology in responsive patients."
+  },
+  "IENFD": {
+    "label": "IENFD",
+    "category": "measurement",
+    "definition": "Intraepidermal Nerve Fiber Density: the number of small unmyelinated nerve fibers per millimeter of epidermis, measured by skin punch biopsy with PGP9.5 immunostaining. Reduced IENFD is the gold-standard diagnostic marker for small-fiber neuropathy, found in a significant subset of ME/CFS patients, linking to neuropathic pain and autonomic dysfunction."
+  },
+  "IgE": {
+    "label": "IgE",
+    "category": "immune",
+    "definition": "Immunoglobulin E: the antibody isotype mediating allergic responses by binding to high-affinity FcεRI receptors on mast cells and basophils. Elevated IgE in ME/CFS may indicate an atopic/MCAS endotype; however, most MCAS presents with normal IgE."
+  },
+  "IgG": {
+    "label": "IgG",
+    "category": "immune",
+    "definition": "Immunoglobulin G: the most abundant antibody isotype in blood, mediating opsonization, complement activation, and neonatal immunity. IgG autoantibodies against GPCRs (adrenergic, muscarinic, angiotensin receptors) have been identified in ME/CFS subsets. IVIG provides pooled donor IgG."
+  },
+  "IL": {
+    "label": "IL",
+    "category": "cytokine",
+    "definition": "Interleukin: a broad family of cytokines primarily mediating communication between leukocytes. Key interleukins in ME/CFS include IL-1β (pro-inflammatory, sickness behavior), IL-6 (fatigue, neuroinflammation), IL-10 (anti-inflammatory, often reduced), and IL-17 (Th17, gut barrier)."
+  },
+  "ILMI": {
+    "label": "ILMI",
+    "category": "measurement",
+    "definition": "Ipsilateral Limb Metabolic Index: a measure comparing FDG-PET glucose uptake between left and right limb muscles, quantifying metabolic asymmetry. Abnormal ILMI suggests lateralized mitochondrial or vascular dysfunction — a novel biomarker approach in ME/CFS."
+  },
+  "IMPase": {
+    "label": "IMPase",
+    "category": "enzyme",
+    "definition": "Inositol Monophosphatase: the enzyme that regenerates free inositol from inositol monophosphate, a critical step in the phosphatidylinositol (PI) cycle. IMPase is inhibited by lithium; this inhibition depletes PIP2, reducing IP3/DAG second messenger production and attenuating Gαq-coupled receptor signaling — a mechanism by which lithium may modulate hyperactive GPCR signaling in ME/CFS."
+  },
+  "IP receptor": {
+    "label": "IP receptor",
+    "category": "receptor",
+    "definition": "Prostacyclin I2 Receptor: a Gαs-coupled receptor activated by prostacyclin (PGI2), mediating vasodilation and inhibition of platelet aggregation. IP receptor dysfunction or impaired PGI2 synthesis by endothelial COX-2 may contribute to microvascular constriction in ME/CFS."
+  },
+  "KAT": {
+    "label": "KAT",
+    "category": "enzyme",
+    "definition": "Kynurenine Aminotransferase: the enzyme that converts kynurenine to kynurenic acid (KYNA), the neuroprotective NMDA receptor antagonist branch of the kynurenine pathway. KAT activity determines the KYNA/QUIN balance; impaired KAT shifts toward QUIN-mediated excitotoxicity in ME/CFS neuroinflammation."
+  },
+  "KMO": {
+    "label": "KMO",
+    "category": "enzyme",
+    "definition": "Kynurenine 3-Monooxygenase: the enzyme that diverts kynurenine toward the neurotoxic QUIN branch (via 3-hydroxykynurenine). KMO is the key branch-point enzyme in the kynurenine pathway; KMO upregulation by IFN-γ shifts metabolism toward QUIN (excitotoxic NMDA agonist) and away from KYNA (neuroprotective NMDA antagonist), contributing to excitotoxicity and cognitive dysfunction in ME/CFS."
+  },
+  "LC-NE": {
+    "label": "LC-NE",
+    "category": "system",
+    "definition": "Locus Coeruleus-Norepinephrine system: the brainstem nucleus (LC) that is the primary source of norepinephrine in the CNS, projecting widely to cortex, thalamus, and spinal cord. The LC-NE system regulates arousal, attention, stress responses, and sympathetic tone; LC hyperactivity at night drives the 'tired but wired' state in ME/CFS."
+  },
+  "LTD4": {
+    "label": "LTD4",
+    "category": "molecule",
+    "definition": "Leukotriene D4: a potent cysteinyl leukotriene released by mast cells that causes sustained bronchoconstriction (1000× more potent than histamine), increased vascular permeability, and mucous secretion. LTD4 is a major mediator of MCAS respiratory symptoms; CysLT1 blockade by montelukast targets LTD4 signaling."
+  },
+  "LTP": {
+    "label": "LTP",
+    "category": "pathway",
+    "definition": "Long-Term Potentiation: a persistent strengthening of synaptic connections based on recent patterns of activity, considered the cellular basis of learning and memory. Impaired LTP in ME/CFS (via NMDA receptor dysfunction, neuroinflammation, or reduced BDNF) may underlie the cognitive dysfunction and 'brain fog' that patients report as difficulty learning new information."
+  },
+  "MAO-B": {
+    "label": "MAO-B",
+    "category": "enzyme",
+    "definition": "Monoamine Oxidase B: the MAO isoform that preferentially degrades dopamine (and phenylethylamine). MAO-B activity increases with age and in neuroinflammation; elevated MAO-B may contribute to dopamine depletion in ME/CFS. MAO-B inhibitors (selegiline, rasagiline) are used in Parkinson's disease."
+  },
+  "MMP": {
+    "label": "MMP",
+    "category": "enzyme",
+    "definition": "Matrix Metalloproteinase: a family of zinc-dependent endopeptidases that degrade extracellular matrix proteins (collagen, elastin, proteoglycans). MMP-2 and MMP-9 are elevated in ME/CFS and may contribute to blood-brain barrier disruption, tissue remodeling in hypermobility, and cleavage of cytokines/receptors."
+  },
+  "mPTP": {
+    "label": "mPTP",
+    "category": "transporter",
+    "definition": "Mitochondrial Permeability Transition Pore: a high-conductance channel in the mitochondrial inner membrane that opens under conditions of calcium overload, oxidative stress, and ATP depletion. mPTP opening dissipates the proton gradient, halts ATP synthesis, and releases pro-apoptotic factors. mPTP opening is a candidate terminal mechanism for the acute energy failure in PEM."
+  },
+  "MRGPRX2": {
+    "label": "MRGPRX2",
+    "category": "receptor",
+    "definition": "Mas-related G Protein-Coupled Receptor X2: a mast-cell-specific receptor activated by basic secretagogues (compound 48/80, substance P, certain drugs including quinolones, vancomycin, and neuromuscular blockers). MRGPRX2 mediates IgE-independent mast cell degranulation — a mechanism by which certain medications, stress (substance P), and endogenous peptides could trigger MCAS flares in ME/CFS without requiring allergen sensitization."
+  },
+  "MRS": {
+    "label": "MRS",
+    "category": "imaging",
+    "definition": "Magnetic Resonance Spectroscopy: an MRI technique measuring brain metabolite concentrations (lactate, NAA, choline, creatine, glutamate, GABA). MRS in ME/CFS has revealed elevated brain lactate, reduced NAA (indicating neuronal dysfunction), and altered glutamate/GABA ratios."
+  },
+  "mTORC1": {
+    "label": "mTORC1",
+    "category": "pathway",
+    "definition": "Mechanistic Target of Rapamycin Complex 1: an anabolic signaling complex that promotes protein synthesis, lipid synthesis, and mitochondrial biogenesis while inhibiting autophagy. mTORC1 is activated by nutrients, growth factors, and energy status. mTORC1 overactivation in ME/CFS could inhibit autophagy/mitophagy, leading to accumulation of damaged mitochondria.",
+    "also": "mTORC2: regulates cell survival, cytoskeleton, and Akt activation"
+  },
+  "NCLX": {
+    "label": "NCLX",
+    "category": "transporter",
+    "definition": "Mitochondrial Sodium/Calcium/Lithium Exchanger: the primary calcium efflux mechanism from the mitochondrial matrix, exchanging intramitochondrial Ca²⁺ or Li⁺ for cytosolic Na⁺. NCLX inhibition by lithium prolongs mitochondrial calcium retention, potentially enhancing ATP production but also increasing mPTP opening risk. NCLX is the molecular entry point for lithium's effects on mitochondrial calcium handling in ME/CFS research."
+  },
+  "NCX1": {
+    "label": "NCX1",
+    "category": "transporter",
+    "definition": "Sodium/Calcium Exchanger 1: the primary plasma membrane transporter extruding one Ca²⁺ ion in exchange for three Na⁺ ions. NCX1 is critical for calcium homeostasis in cardiomyocytes and neurons; NCX1 dysfunction may contribute to calcium overload and impaired contractility in ME/CFS muscle and vascular smooth muscle."
+  },
+  "NHE1": {
+    "label": "NHE1",
+    "category": "transporter",
+    "definition": "Sodium/Hydrogen Exchanger 1: the ubiquitous plasma membrane transporter exchanging intracellular H⁺ for extracellular Na⁺, regulating intracellular pH and cell volume. NHE1 is activated by oxidative stress and inflammation; sustained NHE1 activation in ME/CFS may contribute to intracellular sodium overload and altered cellular energetics."
+  },
+  "NK cell": {
+    "label": "NK cell",
+    "category": "immune",
+    "definition": "Natural Killer Cell: a cytotoxic lymphocyte of the innate immune system that kills virus-infected and tumor cells without prior sensitization. Reduced NK cell cytotoxic function (but not number) is one of the most consistently replicated immune abnormalities in ME/CFS, suggesting impaired innate antiviral surveillance."
+  },
+  "Nrf2": {
+    "label": "Nrf2",
+    "category": "transcription_factor",
+    "definition": "Nuclear Factor Erythroid 2-Related Factor 2: the master transcriptional regulator of the antioxidant response, controlling expression of glutathione synthesis enzymes, thioredoxin, HO-1, NQO1, and phase II detoxification enzymes. Impaired Nrf2 activation in ME/CFS leads to reduced antioxidant capacity, exacerbating oxidative stress — a pathway therapeutically targeted by DMF, sulforaphane, and curcumin.",
+    "also": "See NRF2 entry for canonical form"
+  },
+  "NTS": {
+    "label": "NTS",
+    "category": "anatomy",
+    "definition": "Nucleus Tractus Solitarius: the primary visceral sensory nucleus in the brainstem, receiving afferent input from the vagus nerve (baroreceptors, chemoreceptors, gut stretch, immune signals). The NTS integrates visceral information and projects to the DMV (parasympathetic output) and RVLM (sympathetic output). NTS dysfunction may impair baroreflex sensitivity and autonomic integration in ME/CFS."
+  },
+  "OH": {
+    "label": "OH",
+    "category": "condition",
+    "definition": "Orthostatic Hypotension: a sustained drop in systolic BP ≥20 mmHg or diastolic BP ≥10 mmHg within 3 minutes of standing. OH is a form of orthostatic intolerance distinct from POTS; some ME/CFS patients have OH, others have POTS, and some have both or neither."
+  },
+  "PDE4": {
+    "label": "PDE4",
+    "category": "enzyme",
+    "definition": "Phosphodiesterase 4: the predominant cAMP-degrading enzyme in immune and inflammatory cells. PDE4 inhibitors (roflumilast, apremilast) increase cAMP, suppressing TNF-α and other pro-inflammatory cytokines. PDE4 is of interest in ME/CFS for its role in regulating cAMP/PKA signaling and inflammatory tone."
+  },
+  "PEA": {
+    "label": "PEA",
+    "category": "supplement",
+    "definition": "Palmitoylethanolamide: an endogenous fatty acid amide that activates PPAR-α, producing analgesic and anti-inflammatory effects via mast cell stabilization and reduced microglial activation. PEA is used in ME/CFS and fibromyalgia for neuropathic pain and neuroinflammation.",
+    "generic": "Palmitoylethanolamide",
+    "class": "Endogenous fatty acid amide / PPAR-α agonist",
+    "rx": "OTC",
+    "brand": "Various supplement brands (as palmitoylethanolamide)"
+  },
+  "PFC": {
+    "label": "PFC",
+    "category": "anatomy",
+    "definition": "Prefrontal Cortex: the anterior frontal lobes mediating executive function, working memory, decision-making, and attention. PFC hypoperfusion and altered functional connectivity are consistently reported in ME/CFS neuroimaging, correlating with cognitive symptom severity."
+  },
+  "PGD2": {
+    "label": "PGD2",
+    "category": "molecule",
+    "definition": "Prostaglandin D2: the primary prostaglandin produced by mast cells upon activation, via hematopoietic PGD2 synthase. PGD2 mediates vasodilation, bronchoconstriction, and sleep regulation; elevated urinary PGD2 metabolites are a biomarker of MCAS and may be useful in identifying ME/CFS patients with a mast-cell-driven endotype."
+  },
+  "PGDS": {
+    "label": "PGDS",
+    "category": "enzyme",
+    "definition": "Prostaglandin D2 Synthase: the enzyme converting PGH2 to PGD2. The hematopoietic isoform (H-PGDS) is expressed in mast cells; the lipocalin-type (L-PGDS) is in the CNS. Mast-cell PGDS activity determines PGD2 production — elevated in MCAS and potentially in ME/CFS endotypes with mast cell involvement."
+  },
+  "PGE2": {
+    "label": "PGE2",
+    "category": "molecule",
+    "definition": "Prostaglandin E2: the most abundant prostaglandin, produced by COX-2 and PGE2 synthases. PGE2 mediates inflammation, pain (sensitizes TRPV1), fever (hypothalamus), and vasodilation. Elevated PGE2 in ME/CFS may drive pain sensitization and neuroinflammatory symptoms."
+  },
+  "PGH2": {
+    "label": "PGH2",
+    "category": "molecule",
+    "definition": "Prostaglandin H2: the unstable intermediate produced by COX-1/COX-2 from arachidonic acid. PGH2 is the common precursor for all prostaglandins (PGD2, PGE2, PGF2α, PGI2) and thromboxane (TXA2) — the branch point where COX activity diverges into different lipid mediator profiles that determine the inflammatory phenotype."
+  },
+  "PLA2": {
+    "label": "PLA2",
+    "category": "enzyme",
+    "definition": "Phospholipase A2: the enzyme that liberates arachidonic acid from membrane phospholipids, the rate-limiting step in prostaglandin and leukotriene synthesis. PLA2 is activated by calcium, oxidative stress, and inflammatory signals; PLA2 overactivation in ME/CFS may drive excessive pro-inflammatory eicosanoid production."
+  },
+  "PLC-β": {
+    "label": "PLC-β",
+    "category": "enzyme",
+    "definition": "Phospholipase C Beta: the enzyme activated by Gαq-coupled GPCRs, cleaving PIP2 into IP3 (triggers ER Ca²⁺ release) and DAG (activates PKC). PLC-β is the signaling hub for histamine (H1), angiotensin (AT1), and norepinephrine (α1) receptors — all hyperactive in subsets of ME/CFS."
+  },
+  "PPAR-alpha": {
+    "label": "PPAR-alpha",
+    "category": "receptor",
+    "definition": "Peroxisome Proliferator-Activated Receptor Alpha: a nuclear receptor regulating fatty acid oxidation, ketogenesis, and anti-inflammatory responses. PPAR-α is activated by PEA (palmitoylethanolamide) and fibrates. PPAR-α activation reduces NF-κB-driven inflammation — of interest in ME/CFS metabolic and neuroinflammatory dysfunction.",
+    "also": "See PPAR for the receptor family"
+  },
+  "REE": {
+    "label": "REE",
+    "category": "measurement",
+    "definition": "Resting Energy Expenditure: the calories the body burns at complete rest, measured by indirect calorimetry. Some studies report paradoxically elevated REE in ME/CFS despite profound fatigue and reduced activity, suggesting a hypermetabolic state driven by immune activation or mitochondrial inefficiency."
+  },
+  "RVLM": {
+    "label": "RVLM",
+    "category": "anatomy",
+    "definition": "Rostral Ventrolateral Medulla: the primary sympathetic output nucleus in the brainstem, containing presympathetic neurons that drive tonic and reflex sympathetic vasomotor tone. RVLM overactivity may drive sustained sympathetic activation in ME/CFS, contributing to tachycardia and vasoconstriction at rest."
+  },
+  "S100B": {
+    "label": "S100B",
+    "category": "biomarker",
+    "definition": "S100 Calcium-Binding Protein B: an astrocyte-derived protein released during brain injury or neuroinflammation. Elevated serum S100B in ME/CFS suggests astrocyte damage or blood-brain barrier disruption, and may correlate with cognitive dysfunction severity."
+  },
+  "SA node": {
+    "label": "SA node",
+    "category": "anatomy",
+    "definition": "Sinoatrial Node: the heart's natural pacemaker in the right atrium, generating spontaneous action potentials via HCN channels (If current). SA node automaticity is modulated by sympathetic (NE → β1 → faster rate) and parasympathetic (ACh → M2 → slower rate) input; SA node dysfunction or excessive sympathetic drive produces inappropriate sinus tachycardia in ME/CFS/POTS."
+  },
+  "sigma1R": {
+    "label": "sigma1R",
+    "category": "receptor",
+    "definition": "Sigma-1 Receptor: an endoplasmic reticulum chaperone protein activated by cellular stress, regulating calcium signaling, autophagy, ER stress responses, and mitochondrial-ER contact sites. sigma1R activation is neuroprotective; sigma1R dysfunction may impair the integrated stress response in ME/CFS. Fluvoxamine is a potent sigma1R agonist."
+  },
+  "SkQ1": {
+    "label": "SkQ1",
+    "category": "medication",
+    "definition": "Plastoquinonyl-decyl-triphenylphosphonium: a mitochondrial-targeted antioxidant that accumulates in the mitochondrial matrix (driven by membrane potential) and neutralizes ROS at their source. SkQ1 has been proposed experimentally for ME/CFS to directly reduce mitochondrial oxidative stress.",
+    "generic": "Plastoquinonyl-decyl-triphenylphosphonium (SkQ1)",
+    "class": "Mitochondrial-targeted antioxidant",
+    "rx": "Investigational — not commercially available",
+    "brand": "Investigational — not commercially available"
+  },
+  "SV2A": {
+    "label": "SV2A",
+    "category": "protein",
+    "definition": "Synaptic Vesicle Glycoprotein 2A: a transmembrane protein on synaptic vesicles regulating neurotransmitter release. SV2A is the binding site of levetiracetam (Keppra), which modulates SV2A to reduce excessive glutamate release. Levetiracetam's off-label use for ME/CFS brain fog targets SV2A-mediated neurotransmitter modulation."
+  },
+  "taVNS": {
+    "label": "taVNS",
+    "category": "treatment",
+    "definition": "Transcutaneous Auricular Vagus Nerve Stimulation: a non-invasive method of vagus nerve stimulation via electrodes placed on the auricular branch of the vagus nerve in the ear. taVNS increases parasympathetic tone, activates the cholinergic anti-inflammatory pathway, and may reduce sympathetic overactivation; investigational for ME/CFS/POTS autonomic dysfunction."
+  },
+  "TPH1": {
+    "label": "TPH1",
+    "category": "enzyme",
+    "definition": "Tryptophan Hydroxylase 1: the peripheral isoform of TPH, expressed in gut enterochromaffin cells, producing ~95% of the body's serotonin. TPH1-derived serotonin regulates gut motility and is taken up by platelets. TPH1 dysfunction may link gut dysbiosis to altered peripheral serotonin in ME/CFS.",
+    "also": "TPH2: neuronal isoform expressed in raphe nuclei, producing CNS serotonin"
+  },
+  "TXA2": {
+    "label": "TXA2",
+    "category": "molecule",
+    "definition": "Thromboxane A2: a platelet-derived eicosanoid produced by COX-1 from arachidonic acid (via thromboxane synthase). TXA2 is a potent vasoconstrictor and platelet aggregator. Altered TXA2/prostacyclin (PGI2) balance may contribute to microvascular dysfunction and platelet hyperactivity in ME/CFS."
+  },
+  "VLM": {
+    "label": "VLM",
+    "category": "anatomy",
+    "definition": "Ventrolateral Medulla: the brainstem region containing both the rostral VLM (RVLM, sympathetic output) and caudal VLM (CVLM, sympathoinhibitory). VLM dysfunction impairs the baroreflex and autonomic regulation of blood pressure, directly contributing to orthostatic intolerance in ME/CFS."
+  },
+  "VMAT2": {
+    "label": "VMAT2",
+    "category": "transporter",
+    "definition": "Vesicular Monoamine Transporter 2: the transporter that packages dopamine, norepinephrine, serotonin, and histamine into synaptic vesicles for release. DTBZ-PET measures VMAT2 density as a proxy for monoaminergic neuron integrity. VMAT2 dysfunction could impair neurotransmitter storage and release in ME/CFS."
+  },
+  "ΔΨm": {
+    "label": "ΔΨm",
+    "category": "measurement",
+    "definition": "Mitochondrial Membrane Potential: the electrical potential difference across the inner mitochondrial membrane (~−180 mV), generated by the electron transport chain pumping protons. ΔΨm is the driving force for ATP synthesis; mitochondrial depolarization (reduced ΔΨm) has been reported in ME/CFS and may be a direct consequence of oxidative damage, mPTP opening, or respiratory chain dysfunction."
   }
 }
