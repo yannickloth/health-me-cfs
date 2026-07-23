@@ -4364,5 +4364,726 @@
   },
   "Tertroxin": {
     "alias": "T3"
+  },
+  "Allopregnanolone": {
+    "label": "Allopregnanolone",
+    "category": "medication",
+    "definition": "An endogenous neurosteroid and potent GABA-A receptor positive allosteric modulator, produced from progesterone. Allopregnanolone has anxiolytic, sedative, and neuroprotective effects. FDA-approved as brexanolone for postpartum depression; of interest in ME/CFS for sleep disturbance and GABAergic dysfunction.",
+    "generic": "Allopregnanolone (brexanolone)",
+    "brand": "Zulresso (brexanolone, IV); zuranolone (oral, Zurzuvae)",
+    "class": "Neurosteroid / GABA-A positive allosteric modulator",
+    "rx": "Prescription (US); administered in supervised healthcare setting"
+  },
+  "Ambroxol": {
+    "label": "Ambroxol",
+    "category": "medication",
+    "definition": "A mucolytic agent that also modulates TRPV1 and TRPM8 cation channels and enhances glucocerebrosidase activity. Proposed experimentally in ME/CFS for TRP channelopathy — TRPV1/TRPM8 dysregulation contributes to temperature dysregulation and pain.",
+    "generic": "Ambroxol",
+    "brand": "Mucosolvan, Mucoangin, various brands (EU)",
+    "class": "Mucolytic / TRP channel modulator",
+    "rx": "OTC (EU); not FDA-approved in US"
+  },
+  "Amlodipine": {
+    "label": "Amlodipine",
+    "category": "medication",
+    "definition": "An L-type calcium channel blocker (dihydropyridine) used as an antihypertensive. Relevant to ME/CFS downstream of arteriolar TRPV1-mediated vasoconstriction — blocking L-type channels may counteract the vascular component of PEM.",
+    "generic": "Amlodipine",
+    "brand": "Norvasc, Katerzia",
+    "class": "Calcium channel blocker (dihydropyridine / L-type)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Anakinra": {
+    "label": "Anakinra",
+    "category": "medication",
+    "definition": "A recombinant IL-1 receptor antagonist (IL-1Ra) blocking both IL-1α and IL-1β signaling. Tested in ME/CFS clinical trials for inflammatory subsets; targets the cytokine sickness-behavior pathway believed to drive fatigue, pain, and cognitive dysfunction.",
+    "generic": "Anakinra",
+    "brand": "Kineret",
+    "class": "IL-1 receptor antagonist / biologic DMARD",
+    "rx": "Prescription (US, EU); subcutaneous injection"
+  },
+  "Apixaban": {
+    "label": "Apixaban",
+    "category": "medication",
+    "definition": "A direct oral anticoagulant (DOAC) inhibiting factor Xa. Proposed experimentally in ME/CFS for microclot-mediated tissue hypoperfusion — the amyloid fibrin microclot hypothesis suggests anticoagulation may improve oxygen delivery.",
+    "generic": "Apixaban",
+    "brand": "Eliquis",
+    "class": "Direct factor Xa inhibitor / anticoagulant (DOAC)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Atomoxetine": {
+    "label": "Atomoxetine",
+    "category": "medication",
+    "definition": "A selective norepinephrine reuptake inhibitor (NRI) used for ADHD. Used off-label in ME/CFS for cognitive dysfunction and fatigue; increases prefrontal norepinephrine and dopamine without the abuse potential of stimulants.",
+    "generic": "Atomoxetine",
+    "brand": "Strattera",
+    "class": "Selective norepinephrine reuptake inhibitor (NRI)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Belzutifan": {
+    "label": "Belzutifan",
+    "category": "medication",
+    "definition": "A HIF-2α inhibitor that reduces transcription of hypoxia-response genes. Proposed experimentally for endothelial HIF-2α dysregulation in post-viral ME/CFS — HIF-2α is upregulated by viral-induced mitochondrial ROS and drives the glycolytic shift and angiogenic imbalance.",
+    "generic": "Belzutifan",
+    "brand": "Welireg",
+    "class": "HIF-2α inhibitor",
+    "rx": "Prescription (US, EU)"
+  },
+  "Canakinumab": {
+    "label": "Canakinumab",
+    "category": "medication",
+    "definition": "A monoclonal anti-IL-1β antibody that neutralizes IL-1β without affecting IL-1α. Proposed for ME/CFS inflammatory subsets; the CANTOS trial (cardiovascular disease) demonstrated that IL-1β blockade reduces systemic inflammation.",
+    "generic": "Canakinumab",
+    "brand": "Ilaris",
+    "class": "Monoclonal antibody / IL-1β inhibitor",
+    "rx": "Prescription (US, EU); subcutaneous injection"
+  },
+  "Cilostazol": {
+    "label": "Cilostazol",
+    "category": "medication",
+    "definition": "A PDE3 inhibitor with vasodilator and antiplatelet effects, used for intermittent claudication. Proposed in ME/CFS for microvascular perfusion deficits — PDE3 inhibition increases cAMP in platelets and vascular smooth muscle, improving blood flow.",
+    "generic": "Cilostazol",
+    "brand": "Pletal",
+    "class": "PDE3 inhibitor / vasodilator / antiplatelet",
+    "rx": "Prescription (US, EU)"
+  },
+  "Cimetidine": {
+    "label": "Cimetidine",
+    "category": "medication",
+    "definition": "An H2 receptor antagonist with additional immunomodulatory effects — inhibits suppressor T cells and enhances Th1 responses. Used off-label in ME/CFS for its dual H2 blockade (MCAS) and immunomodulation; also inhibits CYP450 enzymes, increasing levels of many co-prescribed drugs.",
+    "generic": "Cimetidine",
+    "brand": "Tagamet",
+    "class": "H2 receptor antagonist / immunomodulator",
+    "rx": "OTC (US); prescription (EU in some countries)"
+  },
+  "Clopidogrel": {
+    "label": "Clopidogrel",
+    "category": "medication",
+    "definition": "A P2Y12 receptor antagonist antiplatelet agent. Proposed in ME/CFS for microclot-mediated hypoperfusion — P2Y12 blockade reduces platelet activation and aggregation triggered by endothelial dysfunction and inflammatory mediators.",
+    "generic": "Clopidogrel",
+    "brand": "Plavix",
+    "class": "P2Y12 receptor antagonist / antiplatelet",
+    "rx": "Prescription (US, EU)"
+  },
+  "Colchicine": {
+    "label": "Colchicine",
+    "category": "medication",
+    "definition": "An anti-inflammatory alkaloid that inhibits microtubule polymerization, blocking NLRP3 inflammasome assembly and neutrophil chemotaxis. Used in gout, pericarditis, and familial Mediterranean fever. Proposed in ME/CFS for NLRP3-driven inflammation; narrow therapeutic window with significant GI toxicity.",
+    "generic": "Colchicine",
+    "brand": "Colcrys, Mitigare, Gloperba",
+    "class": "Anti-inflammatory / microtubule inhibitor / NLRP3 inflammasome inhibitor",
+    "rx": "Prescription (US, EU)"
+  },
+  "Cyclosporine": {
+    "label": "Cyclosporine",
+    "category": "medication",
+    "definition": "A calcineurin inhibitor immunosuppressant that blocks NFAT activation and IL-2 production in T cells. Used experimentally as an NFAT pathway probe in ME/CFS — response would implicate T-cell-driven autoimmunity in that patient's endotype.",
+    "generic": "Cyclosporine",
+    "brand": "Neoral, Sandimmune, Gengraf",
+    "class": "Calcineurin inhibitor / immunosuppressant",
+    "rx": "Prescription (US, EU)"
+  },
+  "Daratumumab": {
+    "label": "Daratumumab",
+    "category": "medication",
+    "definition": "A monoclonal anti-CD38 antibody that depletes plasma cells (including long-lived antibody-secreting plasma cells). A pilot study in ME/CFS reported ~60% response rate, suggesting autoantibody-producing plasma cells may drive pathophysiology in a subset — potentially a disease-modifying treatment for autoimmune ME/CFS.",
+    "generic": "Daratumumab",
+    "brand": "Darzalex",
+    "class": "Monoclonal antibody / anti-CD38 / plasma cell depleting agent",
+    "rx": "Prescription only; hospital/infusion center administration"
+  },
+  "Donepezil": {
+    "label": "Donepezil",
+    "category": "medication",
+    "definition": "A centrally-acting acetylcholinesterase inhibitor used for Alzheimer's disease. Proposed experimentally in ME/CFS to enhance CNS cholinergic tone for cognitive dysfunction — the cholinergic anti-inflammatory pathway and cognitive enhancement provide dual rationale.",
+    "generic": "Donepezil",
+    "brand": "Aricept",
+    "class": "Acetylcholinesterase inhibitor (central) / cognitive enhancer",
+    "rx": "Prescription (US, EU)"
+  },
+  "Dornase alfa": {
+    "label": "Dornase alfa",
+    "category": "medication",
+    "definition": "Recombinant human DNase I that cleaves extracellular DNA, including neutrophil extracellular traps (NETs). Proposed experimentally in ME/CFS for NET degradation in microclot pathology — NET-derived DNA contributes to amyloid fibrin microclot formation.",
+    "generic": "Dornase alfa",
+    "brand": "Pulmozyme",
+    "class": "Recombinant DNase / mucolytic",
+    "rx": "Prescription (US, EU); inhaled"
+  },
+  "Doxycycline": {
+    "label": "Doxycycline",
+    "category": "medication",
+    "definition": "A tetracycline antibiotic. At subantimicrobial doses, doxycycline inhibits matrix metalloproteinases (MMP-2, MMP-9), reducing connective tissue degradation. Of interest in ME/CFS/hEDS for MMP-mediated tissue remodeling and blood-brain barrier stabilization.",
+    "generic": "Doxycycline",
+    "brand": "Vibramycin, Doryx, Oracea (subantimicrobial dose)",
+    "class": "Tetracycline antibiotic / MMP inhibitor (subantimicrobial dose)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Erythromycin": {
+    "label": "Erythromycin",
+    "category": "medication",
+    "definition": "A macrolide antibiotic that is also a motilin receptor agonist, stimulating GI motility. Used at low doses in ME/CFS for gastroparesis and GI dysmotility via its prokinetic effects, independent of its antibiotic action.",
+    "generic": "Erythromycin",
+    "brand": "Ery-Tab, Eryc, E.E.S.",
+    "class": "Macrolide antibiotic / motilin receptor agonist / prokinetic",
+    "rx": "Prescription (US, EU)"
+  },
+  "Folinic acid": {
+    "label": "Folinic acid",
+    "category": "supplement",
+    "definition": "5-Formyltetrahydrofolate (leucovorin): a reduced folate that bypasses the MTHFR step and directly enters the folate cycle. Used in ME/CFS methylation support — particularly in patients with MTHFR polymorphisms who cannot efficiently convert folic acid to active folate. Also supports BH4 recycling.",
+    "generic": "Folinic acid (leucovorin calcium)",
+    "brand": "Leucovorin, various supplement brands (as calcium folinate)",
+    "class": "Reduced folate / methylation support",
+    "rx": "Prescription (high-dose); OTC (low-dose supplement)"
+  },
+  "Glycyrrhizin": {
+    "label": "Glycyrrhizin",
+    "category": "supplement",
+    "definition": "A triterpenoid saponin from licorice root (Glycyrrhiza glabra) that directly binds and inhibits HMGB1, a key DAMP driving TLR4/RAGE-mediated inflammation. Proposed in ME/CFS for HMGB1-driven neuroinflammation. Caution: glycyrrhizin causes pseudohyperaldosteronism (hypertension, hypokalemia) with sustained use.",
+    "generic": "Glycyrrhizic acid (glycyrrhizin), Diammonium glycyrrhizinate",
+    "class": "Triterpenoid saponin / HMGB1 inhibitor / anti-inflammatory",
+    "rx": "OTC (as licorice root extract); prescription (IV glycyrrhizin in Asia)",
+    "brand": "Various supplement brands; licorice root extract"
+  },
+  "Heparin": {
+    "label": "Heparin",
+    "category": "medication",
+    "definition": "A glycosaminoglycan anticoagulant that activates antithrombin III, inhibiting thrombin and factor Xa. Mast cells contain heparin in their granules; endogenous heparin release during MCAS degranulation may contribute to the coagulation abnormalities and bleeding tendencies observed in some ME/CFS patients.",
+    "generic": "Heparin (unfractionated), Low-molecular-weight heparin (enoxaparin, dalteparin)",
+    "class": "Anticoagulant / glycosaminoglycan",
+    "rx": "Prescription (US, EU); IV or subcutaneous",
+    "brand": "Various manufacturers (generic); Lovenox (enoxaparin, LMWH)"
+  },
+  "Larazotide": {
+    "label": "Larazotide",
+    "category": "medication",
+    "definition": "A zonulin antagonist that prevents tight junction opening in the intestinal epithelium, reducing intestinal permeability ('leaky gut'). Trialled in celiac disease and Long COVID; of interest in ME/CFS for gut barrier dysfunction and metabolic endotoxemia.",
+    "generic": "Larazotide acetate",
+    "class": "Zonulin antagonist / tight junction regulator",
+    "rx": "Investigational — not commercially available",
+    "brand": "Investigational — not commercially available"
+  },
+  "Maraviroc": {
+    "label": "Maraviroc",
+    "category": "medication",
+    "definition": "A CCR5 receptor antagonist preventing monocyte chemotaxis into inflamed tissue. Tested with pravastatin in Long COVID for monocyte-mediated vascular inflammation; of interest in ME/CFS for the monocyte/macrophage-driven neuroinflammatory component.",
+    "generic": "Maraviroc",
+    "brand": "Selzentry, Celsentri",
+    "class": "CCR5 receptor antagonist",
+    "rx": "Prescription (US, EU)"
+  },
+  "Methylcobalamin": {
+    "label": "Methylcobalamin",
+    "category": "supplement",
+    "definition": "The methylated active form of vitamin B12, directly usable in the methylation cycle (methionine synthase). Used in ME/CFS methylation protocols; preferred over cyanocobalamin in patients with impaired hepatic methylation capacity.",
+    "generic": "Methylcobalamin",
+    "brand": "Various supplement brands",
+    "class": "Active vitamin B12 / methyl donor cofactor",
+    "rx": "OTC"
+  },
+  "Methylfolate": {
+    "label": "Methylfolate",
+    "category": "supplement",
+    "definition": "L-5-Methyltetrahydrofolate (5-MTHF): the active form of folate that bypasses MTHFR-mediated activation. Used in ME/CFS methylation support protocols; particularly relevant for patients with MTHFR C677T polymorphisms who have reduced capacity to convert folic acid to active methylfolate.",
+    "generic": "L-5-Methyltetrahydrofolate (5-MTHF, L-methylfolate)",
+    "brand": "Deplin, Metafolin, various supplement brands",
+    "class": "Active folate / methyl donor cofactor",
+    "rx": "OTC (supplement); prescription (medical food, Deplin)"
+  },
+  "Minocycline": {
+    "label": "Minocycline",
+    "category": "medication",
+    "definition": "A tetracycline antibiotic with unique anti-inflammatory and neuroprotective properties: inhibits microglial activation, MMPs, and PARP, while reducing IL-1β and TNF-α. Of interest in ME/CFS for neuroinflammation and microglial-mediated sickness behavior; more CNS-penetrant than doxycycline.",
+    "generic": "Minocycline",
+    "brand": "Minocin, Solodyn, Arestin",
+    "class": "Tetracycline antibiotic / microglial inhibitor / anti-inflammatory",
+    "rx": "Prescription (US, EU)"
+  },
+  "Nifedipine": {
+    "label": "Nifedipine",
+    "category": "medication",
+    "definition": "An L-type calcium channel blocker (dihydropyridine) primarily used for hypertension and vasospastic angina. Investigated in ME/CFS for TRPV1-mediated arteriolar vasoconstriction — TRPV1 activation on vascular smooth muscle triggers L-type Ca²⁺ channel opening and vasoconstriction; nifedipine blocks this downstream effect.",
+    "generic": "Nifedipine",
+    "brand": "Procardia, Adalat, Nifedical",
+    "class": "Calcium channel blocker (dihydropyridine / L-type)",
+    "rx": "Prescription (US, EU)"
+  },
+  "Omalizumab": {
+    "label": "Omalizumab",
+    "category": "medication",
+    "definition": "A monoclonal anti-IgE antibody that binds free IgE, preventing its binding to FcεRI on mast cells and basophils. Proposed for IgE-mediated MCAS in ME/CFS — only effective in the minority of MCAS patients with documented IgE-mediated allergy.",
+    "generic": "Omalizumab",
+    "brand": "Xolair",
+    "class": "Monoclonal antibody / anti-IgE",
+    "rx": "Prescription (US, EU); subcutaneous injection"
+  },
+  "Pentoxifylline": {
+    "label": "Pentoxifylline",
+    "category": "medication",
+    "definition": "A xanthine derivative that improves erythrocyte deformability, reduces blood viscosity, and inhibits TNF-α production. Proposed in ME/CFS for microvascular perfusion deficits — improved red blood cell flexibility may enhance oxygen delivery in patients with RBC deformability abnormalities.",
+    "generic": "Pentoxifylline",
+    "brand": "Trental, Pentoxil",
+    "class": "Hemorrhologic agent / PDE inhibitor / TNF-α inhibitor",
+    "rx": "Prescription (US, EU)"
+  },
+  "Pravastatin": {
+    "label": "Pravastatin",
+    "category": "medication",
+    "definition": "A hydrophilic HMG-CoA reductase inhibitor (statin) with pleiotropic anti-inflammatory effects independent of cholesterol lowering: reduces monocyte activation, endothelial dysfunction, and CRP. Tested with maraviroc in a Long COVID trial targeting monocyte-mediated vascular inflammation.",
+    "generic": "Pravastatin",
+    "brand": "Pravachol",
+    "class": "Statin (HMG-CoA reductase inhibitor) / anti-inflammatory",
+    "rx": "Prescription (US, EU)"
+  },
+  "Pregnenolone": {
+    "label": "Pregnenolone",
+    "category": "hormone",
+    "definition": "The precursor neurosteroid from which all other steroid hormones are synthesized. Pregnenolone itself is a TRPM3 agonist and positive allosteric modulator of GABA-A and NMDA receptors. Used in ME/CFS for HPA axis support and neurosteroid-mediated cognitive and mood effects.",
+    "generic": "Pregnenolone",
+    "class": "Neurosteroid / hormone precursor / TRPM3 agonist",
+    "rx": "OTC (US, as supplement)"
+  },
+  "Rapamycin": {
+    "label": "Rapamycin",
+    "category": "medication",
+    "definition": "An mTORC1 inhibitor that enhances autophagy and mitophagy by releasing the mTOR-mediated brake on cellular quality control. Investigated in ME/CFS for clearing damaged mitochondria — impaired mitophagy may be a key driver of mitochondrial dysfunction; rapamycin forces mitochondrial turnover.",
+    "generic": "Sirolimus (rapamycin)",
+    "brand": "Rapamune",
+    "class": "mTORC1 inhibitor / immunosuppressant / autophagy inducer",
+    "rx": "Prescription (US, EU)"
+  },
+  "Rintatolimod": {
+    "label": "Rintatolimod",
+    "category": "medication",
+    "definition": "A synthetic double-stranded RNA (dsRNA) that activates TLR3, inducing type I interferon and innate antiviral responses. The only drug to show efficacy in a subset of ME/CFS patients in randomized trials (Ampligen). Hypothesis: chronic low-level viral persistence or defective antiviral response that TLR3 activation corrects.",
+    "generic": "Rintatolimod (poly I:poly C12U)",
+    "brand": "Ampligen",
+    "class": "TLR3 agonist / immunomodulator / antiviral",
+    "rx": "Investigational / limited access (US); not approved in EU"
+  },
+  "Roflumilast": {
+    "label": "Roflumilast",
+    "category": "medication",
+    "definition": "A selective PDE4 inhibitor that increases intracellular cAMP in immune and inflammatory cells, suppressing TNF-α, IL-17, and other pro-inflammatory cytokines. PDE4 inhibition also enhances autophagy. Of interest in ME/CFS for chronic neuroinflammation and impaired autophagic clearance.",
+    "generic": "Roflumilast",
+    "brand": "Daliresp, Daxas",
+    "class": "PDE4 inhibitor / anti-inflammatory",
+    "rx": "Prescription (US, EU)"
+  },
+  "Sirolimus": {
+    "label": "Sirolimus",
+    "category": "medication",
+    "definition": "Same as rapamycin — see Rapamycin entry.",
+    "generic": "Sirolimus (rapamycin)",
+    "brand": "Rapamune",
+    "class": "mTORC1 inhibitor / immunosuppressant / autophagy inducer",
+    "rx": "Prescription (US, EU)"
+  },
+  "TUDCA": {
+    "label": "TUDCA",
+    "category": "supplement",
+    "definition": "Tauroursodeoxycholic Acid: a conjugated bile acid that acts as a chemical chaperone, reducing endoplasmic reticulum (ER) stress by stabilizing protein folding and inhibiting the UPR. TUDCA also protects mitochondria from ER stress-induced damage. Of interest in ME/CFS for the documented ER stress/UPR activation in patient cells.",
+    "generic": "Tauroursodeoxycholic acid",
+    "class": "Bile acid / chemical chaperone / ER stress reducer",
+    "rx": "OTC",
+    "brand": "Various supplement brands"
+  },
+  "Tacrolimus": {
+    "label": "Tacrolimus",
+    "category": "medication",
+    "definition": "A calcineurin inhibitor immunosuppressant (structurally distinct from cyclosporine) that blocks NFAT activation. More potent than cyclosporine; used experimentally as an NFAT pathway probe in ME/CFS — response would support T-cell-mediated autoimmunity.",
+    "generic": "Tacrolimus",
+    "brand": "Prograf, Advagraf, Envarsus XR",
+    "class": "Calcineurin inhibitor / immunosuppressant",
+    "rx": "Prescription (US, EU)"
+  },
+  "Warfarin": {
+    "label": "Warfarin",
+    "category": "medication",
+    "definition": "A vitamin K antagonist anticoagulant inhibiting synthesis of clotting factors II, VII, IX, and X. Referenced in ME/CFS microclot context. Narrow therapeutic index requiring regular INR monitoring; significant drug and dietary interactions.",
+    "generic": "Warfarin",
+    "brand": "Coumadin, Jantoven",
+    "class": "Vitamin K antagonist / anticoagulant",
+    "rx": "Prescription (US, EU)"
+  },
+  "Beta-hydroxybutyrate": {
+    "label": "Beta-hydroxybutyrate",
+    "category": "molecule",
+    "definition": "β-Hydroxybutyrate (BHB): the primary ketone body, serving as an alternative brain fuel during carbohydrate restriction or fasting. BHB also functions as a signaling molecule — it inhibits HDACs (epigenetic regulation) and activates HCA2/GPR109A (anti-inflammatory). Ketone metabolism may bypass the PDH gate that is impaired in ME/CFS.",
+    "also": "Ketone body; BHB; β-hydroxybutyrate"
+  },
+  "Lumbrokinase": {
+    "label": "Lumbrokinase",
+    "category": "supplement",
+    "definition": "A fibrinolytic enzyme complex extracted from earthworms (Lumbricus rubellus) that directly degrades fibrin and fibrinogen. Proposed experimentally in ME/CFS for amyloid fibrin microclot degradation to improve microvascular perfusion.",
+    "generic": "Lumbrokinase (earthworm fibrinolytic enzymes)",
+    "class": "Fibrinolytic enzyme",
+    "rx": "OTC (as supplement)",
+    "brand": "Boluoke, various supplement brands"
+  },
+  "Nattokinase": {
+    "label": "Nattokinase",
+    "category": "supplement",
+    "definition": "A fibrinolytic enzyme from natto (fermented soybeans, Bacillus subtilis) that directly degrades fibrin and also enhances endogenous plasmin production. Proposed in ME/CFS for microclot degradation; structurally similar to lumbrokinase with overlapping mechanism.",
+    "generic": "Nattokinase",
+    "class": "Fibrinolytic enzyme",
+    "rx": "OTC (as supplement)",
+    "brand": "Various supplement brands (NSK-SD)"
+  },
+  "MitoQ": {
+    "label": "MitoQ",
+    "category": "supplement",
+    "definition": "Mitochondria-targeted ubiquinone: a CoQ10 molecule conjugated to a triphenylphosphonium cation that accumulates in the mitochondrial matrix driven by membrane potential, delivering antioxidant protection at the primary site of ROS production. Proposed in ME/CFS to directly reduce mitochondrial oxidative stress.",
+    "generic": "Mitoquinone mesylate",
+    "class": "Mitochondrial-targeted antioxidant",
+    "rx": "OTC (as supplement)",
+    "brand": "MitoQ (brand name)"
+  },
+  "NADH": {
+    "label": "NADH",
+    "category": "supplement",
+    "definition": "Reduced Nicotinamide Adenine Dinucleotide: the electron-carrying form of NAD+ produced by glycolysis and the TCA cycle, feeding electrons into Complex I of the electron transport chain. NADH is available as an oral supplement; used in ME/CFS to support mitochondrial ATP production, though oral bioavailability is debated.",
+    "generic": "NADH (reduced β-nicotinamide adenine dinucleotide)",
+    "class": "Coenzyme supplement / electron donor",
+    "rx": "OTC",
+    "brand": "Various supplement brands (ENADA, Co-E1)"
+  },
+  "NMN": {
+    "label": "NMN",
+    "category": "supplement",
+    "definition": "Nicotinamide Mononucleotide: a direct NAD+ precursor that enters cells (via Slc12a8 transporter in the gut) and is converted to NAD+ by NMNAT enzymes. NMN supplementation is proposed in ME/CFS to restore NAD+ levels depleted by PARP activation, CD38, and oxidative stress.",
+    "generic": "Nicotinamide mononucleotide (β-NMN)",
+    "class": "NAD+ precursor",
+    "rx": "OTC (as supplement; regulatory status varies by country)",
+    "brand": "Various supplement brands"
+  },
+  "NR": {
+    "label": "NR",
+    "category": "supplement",
+    "definition": "Nicotinamide Riboside: a NAD+ precursor that enters cells and is converted to NAD+ via NRK enzymes. Along with NMN, NR is one of the two main NAD+ precursor supplements proposed for ME/CFS energy metabolism support.",
+    "generic": "Nicotinamide riboside",
+    "brand": "Tru Niagen, various supplement brands",
+    "class": "NAD+ precursor",
+    "rx": "OTC"
+  },
+  "Palmitoylethanolamide": {
+    "label": "Palmitoylethanolamide",
+    "category": "supplement",
+    "definition": "An endogenous fatty acid amide that activates PPAR-α and also desensitizes TRPV1 via an indirect mechanism, producing analgesic, anti-inflammatory, and mast-cell-stabilizing effects. Used in ME/CFS and fibromyalgia for neuropathic pain and neuroinflammation.",
+    "generic": "Palmitoylethanolamide (PEA)",
+    "class": "Endogenous fatty acid amide / PPAR-α agonist / TRPV1 modulator",
+    "rx": "OTC",
+    "brand": "Various supplement brands (as PEA)"
+  },
+  "Spermidine": {
+    "label": "Spermidine",
+    "category": "supplement",
+    "definition": "A natural polyamine that induces autophagy (cellular self-cleaning) via inhibition of the acetyltransferase EP300. Found in wheat germ, soy, and aged cheese. Proposed in ME/CFS to enhance autophagic clearance of damaged mitochondria and protein aggregates.",
+    "generic": "Spermidine (as spermidine trihydrochloride)",
+    "class": "Polyamine / autophagy inducer",
+    "rx": "OTC",
+    "brand": "Various supplement brands (as spermidine trihydrochloride)"
+  },
+  "Sulforaphane": {
+    "label": "Sulforaphane",
+    "category": "supplement",
+    "definition": "An isothiocyanate from cruciferous vegetables (broccoli sprouts) that is the most potent known dietary activator of NRF2 (the master antioxidant transcription factor). Sulforaphane also inhibits NF-κB and HDACs. Proposed in ME/CFS to restore NRF2-mediated antioxidant defenses that are impaired in the disease.",
+    "generic": "Sulforaphane (as glucoraphanin precursor or sulforaphane extract)",
+    "brand": "Avmacol, Prostaphane, various supplement brands",
+    "class": "Isothiocyanate / NRF2 activator / HDAC inhibitor",
+    "rx": "OTC"
+  },
+  "Urolithin A": {
+    "label": "Urolithin A",
+    "category": "supplement",
+    "definition": "A gut microbiome-derived metabolite of ellagitannins (from pomegranate, walnuts) that induces mitophagy (selective mitochondrial autophagy) via the PINK1/Parkin pathway. Urolithin A improves mitochondrial function in aged muscle; proposed in ME/CFS to clear damaged mitochondria accumulated from impaired mitophagy.",
+    "generic": "Urolithin A",
+    "brand": "Mitopure",
+    "class": "Mitophagy inducer",
+    "rx": "OTC"
+  },
+  "Adrenal": {
+    "label": "Adrenal",
+    "category": "anatomy",
+    "definition": "The adrenal glands sit atop the kidneys and produce cortisol (zona fasciculata), aldosterone (zona glomerulosa), DHEA (zona reticularis), and catecholamines (adrenal medulla). Adrenal dysfunction in ME/CFS includes blunted cortisol output, low DHEA-S, and altered catecholamine secretion — reflecting HPA axis dysregulation."
+  },
+  "Calcitonin": {
+    "label": "Calcitonin",
+    "category": "hormone",
+    "definition": "A peptide hormone from thyroid C-cells that lowers blood calcium by inhibiting osteoclast activity. Calcitonin belongs to the calcitonin gene-related peptide (CGRP) family, which includes potent vasodilators implicated in migraine — relevant to ME/CFS headache and vascular symptoms."
+  },
+  "Cortisone": {
+    "label": "Cortisone",
+    "category": "hormone",
+    "definition": "The inactive 11-keto form of cortisol, converted to active cortisol by 11β-HSD1 in tissues. Cortisone acetate is used therapeutically as a glucocorticoid. The cortisol/cortisone ratio reflects 11β-HSD activity, which may be altered in ME/CFS HPA axis dysfunction."
+  },
+  "Insulin": {
+    "label": "Insulin",
+    "category": "hormone",
+    "definition": "A pancreatic β-cell hormone promoting glucose uptake, glycogenesis, and lipogenesis while inhibiting gluconeogenesis. Insulin resistance has been reported in subsets of ME/CFS, potentially contributing to metabolic inflexibility. Insulin also has CNS effects on cognition and appetite."
+  },
+  "Parathyroid": {
+    "label": "Parathyroid",
+    "category": "anatomy",
+    "definition": "Four small glands on the thyroid that secrete parathyroid hormone (PTH), regulating calcium and phosphate homeostasis. Hyperparathyroidism can cause fatigue mimicking ME/CFS and must be excluded; hypoparathyroidism can cause neuromuscular irritability resembling ME/CFS muscle symptoms."
+  },
+  "Thyroid": {
+    "label": "Thyroid",
+    "category": "anatomy",
+    "definition": "An endocrine gland in the neck producing thyroxine (T4) and triiodothyronine (T3), regulating basal metabolic rate. Hypothyroidism produces fatigue that mimics ME/CFS and must be excluded; however, many ME/CFS patients with normal TSH exhibit 'Low T3 Syndrome' — a non-thyroidal illness pattern where peripheral T4→T3 conversion is impaired."
+  },
+  "bradykinin": {
+    "label": "bradykinin",
+    "category": "molecule",
+    "definition": "A potent vasodilatory and pro-inflammatory peptide of the kallikrein-kinin system that increases vascular permeability and stimulates pain nerve endings. Bradykinin-mediated angioedema overlaps with MCAS histamine-mediated swelling, and bradykinin may contribute to vascular leak and pain in ME/CFS."
+  },
+  "substance P": {
+    "label": "substance P",
+    "category": "molecule",
+    "definition": "A neuropeptide neurotransmitter in pain (C-fiber) afferents that transmits nociceptive signals in the dorsal horn. Substance P also directly triggers mast cell degranulation via MRGPRX2, linking neurogenic inflammation to MCAS in ME/CFS — sensory nerve activation releases substance P, which degranulates mast cells, which release more inflammatory mediators, which further sensitize nerves."
+  },
+  "Norepinephrine": {
+    "label": "Norepinephrine",
+    "category": "neurotransmitter",
+    "definition": "The primary sympathetic nervous system neurotransmitter and adrenal hormone. Norepinephrine (noradrenaline) drives arousal, vasoconstriction, and cardiac stimulation. Sustained elevated norepinephrine — especially at night — is a hallmark of autonomic dysfunction in ME/CFS, producing the 'tired but wired' state.",
+    "also": "See NE (norepinephrine) entry"
+  },
+  "Epinephrine": {
+    "label": "Epinephrine",
+    "category": "hormone",
+    "definition": "Adrenaline: the catecholamine hormone released from the adrenal medulla during stress, producing the classic fight-or-flight response. Epinephrine increases heart rate, dilates airways, and mobilizes glucose. Epinephrine surges from MCAS degranulation or POTS sympathetic overactivity may explain the panic-like episodes ME/CFS patients describe."
+  },
+  "Babesia": {
+    "label": "Babesia",
+    "category": "pathogen",
+    "definition": "A tick-borne protozoan parasite (Babesia microti, B. divergens) infecting red blood cells, causing babesiosis (fever, hemolytic anemia, fatigue). A known co-infection with Lyme disease; chronic babesiosis can produce ME/CFS-like fatigue and must be considered in the differential diagnosis."
+  },
+  "Bartonella": {
+    "label": "Bartonella",
+    "category": "pathogen",
+    "definition": "A genus of intracellular bacteria causing cat-scratch disease (B. henselae) and trench fever (B. quintana). Tick-borne Bartonella co-infections are common in Lyme disease; chronic Bartonella may cause neuropsychiatric symptoms, fatigue, and vasculitis that overlap with ME/CFS."
+  },
+  "Campylobacter": {
+    "label": "Campylobacter",
+    "category": "pathogen",
+    "definition": "A bacterial genus (primarily C. jejuni) causing gastroenteritis and a major trigger of Guillain-Barré syndrome via molecular mimicry between bacterial ganglioside-like structures and peripheral nerve antigens. Campylobacter is a model organism for infection-triggered autoimmunity — directly relevant to the post-infectious ME/CFS paradigm."
+  },
+  "Clostridium": {
+    "label": "Clostridium",
+    "category": "pathogen",
+    "definition": "A genus of anaerobic bacteria including C. difficile (antibiotic-associated colitis), a major gut dysbiosis pathogen. Clostridium species produce short-chain fatty acids and secondary bile acids that regulate gut barrier function and immune tolerance — Clostridium depletion in ME/CFS gut dysbiosis may impair these protective functions."
+  },
+  "Escherichia coli": {
+    "label": "Escherichia coli",
+    "category": "pathogen",
+    "definition": "A gram-negative enteric bacterium and the most common cause of urinary tract infections (via uropathogenic strains). E. coli LPS is a potent TLR4 agonist; LPS translocation from the gut ('metabolic endotoxemia') is proposed as a driver of low-grade immune activation in ME/CFS with leaky gut."
+  },
+  "Klebsiella": {
+    "label": "Klebsiella",
+    "category": "pathogen",
+    "definition": "A genus of gram-negative enteric bacteria implicated in gut dysbiosis and molecular mimicry. Klebsiella pneumoniae carries carbohydrate antigens that cross-react with HLA-B27, driving ankylosing spondylitis — a classic example of infection-triggered autoimmunity relevant to ME/CFS autoimmune hypotheses."
+  },
+  "Lyme": {
+    "label": "Lyme",
+    "category": "condition",
+    "definition": "Lyme disease (Lyme borreliosis): a tick-borne infection caused by Borrelia burgdorferi spirochetes, producing erythema migrans rash, arthritis, neurological symptoms, and carditis. Chronic Lyme disease (PTLDS, post-treatment Lyme disease syndrome) shares substantial clinical overlap with ME/CFS including fatigue, cognitive dysfunction, and PEM. The two conditions may coexist — diagnosing ME/CFS in a Lyme patient requires excluding active Borrelia infection.",
+    "also": "PTLDS (Post-Treatment Lyme Disease Syndrome)"
+  },
+  "RSV": {
+    "label": "RSV",
+    "category": "pathogen",
+    "definition": "Respiratory Syncytial Virus: a common respiratory virus causing bronchiolitis in infants and cold-like illness in adults. RSV is a documented trigger of post-infectious fatigue and ME/CFS, via the same pathways as other respiratory viruses (immune activation, neuroinvasion, mitochondrial damage)."
+  },
+  "dengue": {
+    "label": "dengue",
+    "category": "pathogen",
+    "definition": "A mosquito-borne flavivirus causing dengue fever (breakbone fever) characterized by severe myalgia, arthralgia, and fatigue. Post-dengue fatigue syndrome is well-documented and clinically overlaps with ME/CFS, providing another post-viral model for ME/CFS pathophysiology."
+  },
+  "enterovirus": {
+    "label": "enterovirus",
+    "category": "pathogen",
+    "definition": "A genus of single-stranded RNA viruses including coxsackievirus and echovirus. Enteroviruses are a leading candidate for persistent viral infection in ME/CFS — enteroviral RNA and VP1 protein have been detected in ME/CFS muscle and gut biopsies, suggesting chronic low-level infection or defective viral clearance."
+  },
+  "influenza": {
+    "label": "influenza",
+    "category": "pathogen",
+    "definition": "An orthomyxovirus causing seasonal epidemics of respiratory illness. Influenza is a well-documented trigger of post-infectious ME/CFS; the 1918 influenza pandemic produced a wave of 'encephalitis lethargica' with striking ME/CFS-like features including profound fatigue and post-exertional collapse."
+  },
+  "pylori": {
+    "label": "H. pylori",
+    "category": "pathogen",
+    "definition": "Helicobacter pylori: a gastric bacterium infecting ~50% of the global population, causing chronic gastritis, peptic ulcers, and gastric cancer. H. pylori has been linked to autoimmune conditions (ITP, autoimmune gastritis) via molecular mimicry and chronic immune activation — relevant to ME/CFS autoimmune hypotheses and GI comorbidity."
+  },
+  "Chronic Lyme disease": {
+    "label": "Chronic Lyme disease",
+    "category": "condition",
+    "definition": "A controversial term for persistent symptoms after Lyme disease treatment. The IDSA defines post-treatment Lyme disease syndrome (PTLDS) as persistent fatigue, pain, and cognitive dysfunction after appropriate antibiotic treatment in confirmed Lyme. Chronic Lyme and ME/CFS share substantial symptom overlap; distinguishing them requires thorough infectious disease evaluation.",
+    "also": "PTLDS (Post-Treatment Lyme Disease Syndrome)"
+  },
+  "Encephalitis": {
+    "label": "Encephalitis",
+    "category": "condition",
+    "definition": "Inflammation of the brain parenchyma, typically caused by viral infection (HSV, enterovirus, arbovirus) or autoimmunity (anti-NMDAR encephalitis, limbic encephalitis). Post-encephalitic fatigue is a well-documented sequela that overlaps with ME/CFS; autoimmune encephalitis can mimic ME/CFS and must be excluded in atypical presentations."
+  },
+  "GLUT1 deficiency syndrome": {
+    "label": "GLUT1 deficiency syndrome",
+    "category": "condition",
+    "definition": "A monogenic disorder caused by SLC2A1 mutations impairing glucose transport across the blood-brain barrier (via GLUT1), causing seizures, developmental delay, and movement disorders. GLUT1 deficiency serves as a model for brain energy failure: if glucose can't enter the brain, symptoms mimic severe ME/CFS including exercise-induced worsening. Relevant to ME/CFS cerebral hypometabolism."
+  },
+  "Herpes simplex encephalitis": {
+    "label": "Herpes simplex encephalitis",
+    "category": "condition",
+    "definition": "HSV-1 infection of the brain causing necrotizing encephalitis, primarily in the temporal lobes. A landmark model for infection-triggered autoimmunity: ~25% of patients develop anti-NMDAR antibodies (via molecular mimicry between HSV and NMDA receptor), causing autoimmune encephalitis months after the infection clears — directly relevant to post-infectious ME/CFS autoimmune mechanisms."
+  },
+  "Hidradenitis suppurativa": {
+    "label": "Hidradenitis suppurativa",
+    "category": "condition",
+    "definition": "A chronic inflammatory skin disease of hair follicles in intertriginous areas (axillae, groin), causing painful nodules, abscesses, and sinus tracts. Proposed as an ME/CFS comorbidity via shared inflammatory pathways (TNF-α, IL-1β, IL-17) and potential mast cell involvement."
+  },
+  "Idiopathic chronic fatigue": {
+    "label": "Idiopathic chronic fatigue",
+    "category": "condition",
+    "definition": "Persistent fatigue not meeting ME/CFS diagnostic criteria and not attributable to another condition. ICF lacks PEM — the cardinal ME/CFS symptom. The 2-day CPET distinguishes ICF from ME/CFS: only ME/CFS patients show a significant drop in VO₂ peak and workload at anaerobic threshold on day 2."
+  },
+  "Low T3 syndrome": {
+    "label": "Low T3 syndrome",
+    "category": "condition",
+    "definition": "Non-thyroidal illness syndrome (sick euthyroid syndrome): a pattern of low serum T3 with normal TSH and T4, reflecting impaired peripheral T4→T3 conversion during systemic illness. Well-documented in ME/CFS; may represent an adaptive energy-conservation response rather than true hypothyroidism. TSH is normal — this is NOT primary thyroid disease."
+  },
+  "Overtraining syndrome": {
+    "label": "Overtraining syndrome",
+    "category": "condition",
+    "definition": "A condition in athletes caused by excessive training with inadequate recovery, characterized by performance decline, persistent fatigue, mood disturbance, and autonomic dysfunction. OTS shares features with early ME/CFS (pre-hysteresis stage) — the transition from functional overreaching → OTS → ME/CFS may represent a single disease trajectory once the hysteresis threshold is crossed."
+  },
+  "Periodontitis": {
+    "label": "Periodontitis",
+    "category": "condition",
+    "definition": "Chronic inflammatory destruction of tooth-supporting tissues driven by bacterial biofilm and host immune responses. Proposed as a model for IgE-mediated connective tissue degradation relevant to the MCAS-hEDS hypothesis in ME/CFS: mast cell degranulation in gingival tissue releases tryptase and MMPs that degrade collagen."
+  },
+  "Sickle cell disease": {
+    "label": "Sickle cell disease",
+    "category": "condition",
+    "definition": "A hemoglobinopathy where mutated hemoglobin S polymerizes under low oxygen, causing erythrocyte sickling, vaso-occlusive crises, and chronic hemolytic anemia. TRPV1-mediated vasoconstriction and lysophosphatidic acid (LPA) signaling contribute to vaso-occlusion — a parallel to the TRPV1-driven microvascular constriction model in ME/CFS PEM."
+  },
+  "Sjogren syndrome": {
+    "label": "Sjögren syndrome",
+    "category": "condition",
+    "definition": "An autoimmune disease targeting exocrine glands (salivary, lacrimal), causing dry mouth (xerostomia) and dry eyes (xerophthalmia), with severe fatigue, joint pain, and systemic manifestations. Sjögren's is an important differential diagnosis for ME/CFS — fatigue is the most disabling symptom, and both conditions can coexist. Anti-SSA/Ro and anti-SSB/La antibodies are diagnostic."
+  },
+  "Long COVID": {
+    "label": "Long COVID",
+    "category": "condition",
+    "definition": "Post-COVID-19 condition (PASC): persistent symptoms ≥3 months after SARS-CoV-2 infection, including fatigue, PEM, brain fog, orthostatic intolerance, and sleep disturbance. ~43-58% of Long COVID patients meet ME/CFS diagnostic criteria; Long COVID has created the largest-ever cohort of post-viral ME/CFS and provides an unprecedented opportunity to study ME/CFS pathophysiology from a known infectious trigger.",
+    "also": "PASC (Post-Acute Sequelae of SARS-CoV-2)"
+  },
+  "Baroreceptor": {
+    "label": "Baroreceptor",
+    "category": "anatomy",
+    "definition": "Stretch-sensitive nerve endings in the carotid sinus and aortic arch that detect blood pressure changes, forming the afferent limb of the baroreflex. Baroreflex dysfunction in ME/CFS impairs the ability to maintain blood pressure when upright, directly contributing to orthostatic intolerance."
+  },
+  "Carotid body": {
+    "label": "Carotid body",
+    "category": "anatomy",
+    "definition": "A small cluster of chemoreceptor cells at the carotid artery bifurcation that senses blood oxygen, CO₂, and pH, driving ventilatory responses to hypoxia. Carotid body dysfunction has been proposed in ME/CFS dysautonomia — inappropriate chemoreflex activation could drive hyperventilation and sympathetic overactivation."
+  },
+  "Chemoreceptor": {
+    "label": "Chemoreceptor",
+    "category": "anatomy",
+    "definition": "Sensory receptors detecting chemical changes in blood or interstitial fluid. Peripheral chemoreceptors in the carotid and aortic bodies sense O₂/CO₂/pH; central chemoreceptors in the brainstem sense CO₂/pH. Chemoreflex hypersensitivity may contribute to hyperventilation and dyspnea in ME/CFS."
+  },
+  "Endotheliopathy": {
+    "label": "Endotheliopathy",
+    "category": "pathway",
+    "definition": "A disease state of endothelial cell dysfunction encompassing impaired NO-mediated vasodilation, increased adhesion molecule expression, loss of glycocalyx, and a shift toward a pro-coagulant/pro-inflammatory phenotype. Endotheliopathy is proposed as a central mechanism in ME/CFS explaining microvascular hypoperfusion, exercise intolerance, and multisystem involvement."
+  },
+  "Glymphatic system": {
+    "label": "Glymphatic system",
+    "category": "anatomy",
+    "definition": "The brain's perivascular waste clearance system: CSF flows along periarterial spaces into the brain interstitium, driven by arterial pulsatility and AQP4 channels on astrocyte end-feet, then exits via perivenous routes carrying metabolic waste (amyloid-β, tau, lactate). Glymphatic function peaks during slow-wave sleep and is suppressed by norepinephrine — directly linking ME/CFS sleep pathology, sympathetic overactivation, and impaired brain clearance."
+  },
+  "Inflammasome": {
+    "label": "Inflammasome",
+    "category": "protein",
+    "definition": "A multi-protein cytosolic complex (NLRP3, NLRC4, AIM2, pyrin) that assembles in response to pathogens or cellular stress, activating caspase-1 which cleaves pro-IL-1β and pro-IL-18 to their active forms and cleaves gasdermin D to trigger pyroptosis. NLRP3 inflammasome activation from mitochondrial ROS, DAMPs, and microclots is a candidate driver of the chronic inflammatory state in ME/CFS."
+  },
+  "Mast cell degranulation": {
+    "label": "Mast cell degranulation",
+    "category": "pathway",
+    "definition": "The rapid release of preformed mediators (histamine, tryptase, heparin, TNF-α) and newly synthesized mediators (PGD2, LTC4, PAF) from mast cell granules upon activation. Can be triggered by IgE/FcεRI crosslinking, MRGPRX2 (substance P, drugs), or complement (C3a, C5a). Inappropriate degranulation defines MCAS, a major ME/CFS comorbidity."
+  },
+  "Molecular mimicry": {
+    "label": "Molecular mimicry",
+    "category": "pathway",
+    "definition": "Immune cross-reactivity where pathogen-derived peptides (or proteins) structurally resemble host proteins, causing the immune response to the pathogen to also attack self-tissue. Molecular mimicry is the dominant hypothesis for infection-triggered autoimmunity in ME/CFS: EBV, HSV, Campylobacter, and SARS-CoV-2 all have documented cross-reactive epitopes with human GPCRs and neuronal proteins."
+  },
+  "Purkinje cell": {
+    "label": "Purkinje cell",
+    "category": "cell",
+    "definition": "The sole output neuron of the cerebellar cortex, with the highest metabolic demand of any neuron — each Purkinje cell receives ~200,000 synaptic inputs and fires continuously. Purkinje cells are exquisitely vulnerable to energy failure, mitochondrial dysfunction, and hypoxia; Purkinje cell loss or dysfunction could explain the balance, coordination, and cognitive processing deficits in ME/CFS."
+  },
+  "Raphe nucleus": {
+    "label": "Raphe nucleus",
+    "category": "anatomy",
+    "definition": "A cluster of serotonin-producing neurons along the brainstem midline that project widely to the cortex, thalamus, hypothalamus, and spinal cord. The raphe nuclei regulate sleep-wake cycles, pain perception, mood, and autonomic function. Raphe dysfunction is implicated in ME/CFS sleep disturbance, pain, and altered serotonergic tone."
+  },
+  "Tight junction": {
+    "label": "Tight junction",
+    "category": "anatomy",
+    "definition": "Intercellular protein complexes (claudins, occludins, ZO proteins) that seal the space between adjacent endothelial or epithelial cells, controlling paracellular permeability. Tight junction disruption in the gut epithelium ('leaky gut') allows bacterial product translocation; tight junction disruption at the blood-brain barrier contributes to neuroinflammation in ME/CFS."
+  },
+  "DTI-ALPS": {
+    "label": "DTI-ALPS",
+    "category": "method",
+    "definition": "Diffusion Tensor Imaging Analysis along the Perivascular Space: a non-invasive MRI technique that measures water diffusivity along perivascular spaces as a proxy for glymphatic function. DTI-ALPS has been used to demonstrate impaired glymphatic clearance in ME/CFS — lower ALPS index correlates with greater fatigue severity."
+  },
+  "ELISA": {
+    "label": "ELISA",
+    "category": "method",
+    "definition": "Enzyme-Linked Immunosorbent Assay: a plate-based immunoassay for detecting and quantifying soluble substances (antibodies, antigens, cytokines, hormones). Widely used in ME/CFS research to measure cytokine profiles, autoantibodies, and viral serologies."
+  },
+  "Ventilatory threshold": {
+    "label": "Ventilatory threshold",
+    "category": "measurement",
+    "definition": "The exercise intensity at which ventilation increases disproportionately to oxygen consumption, reflecting the onset of metabolic acidosis from lactate buffering. Ventilatory threshold is reduced in ME/CFS (occurs at lower workloads), and on 2-day CPET the day-2 threshold is even lower — a physiological signature of PEM."
+  },
+  "Heart rate recovery": {
+    "label": "Heart rate recovery",
+    "category": "measurement",
+    "definition": "The rate at which heart rate decreases after exercise cessation, reflecting parasympathetic reactivation. Delayed heart rate recovery (HR remains elevated for longer) is documented in ME/CFS and indicates impaired vagal tone — the parasympathetic system fails to re-engage after exertion."
+  },
+  "Borg RPE": {
+    "label": "Borg RPE",
+    "category": "method",
+    "definition": "Borg Rating of Perceived Exertion: a validated scale (6–20 or 0–10) for quantifying subjective exercise intensity. ME/CFS patients consistently rate perceived exertion higher than healthy controls at the same absolute workload, reflecting the amplified effort cost of physical activity."
+  },
+  "Perceived exertion": {
+    "label": "Perceived exertion",
+    "category": "measurement",
+    "definition": "The subjective sensation of how hard the body is working during physical activity, integrating cardiorespiratory, metabolic, and central motor command signals. Perceived exertion is consistently elevated in ME/CFS relative to objective workload, indicating altered interoception and amplified central motor command."
+  },
+  "IU": {
+    "label": "IU",
+    "category": "measurement",
+    "definition": "International Unit: a unit of measurement for biological substances (vitamins, hormones, enzymes) standardized by their biological activity rather than mass. Used for vitamin D, IgE, and other laboratory values relevant to ME/CFS assessment."
+  },
+  "IU/mL": {
+    "label": "IU/mL",
+    "category": "measurement",
+    "definition": "International Units per milliliter: a concentration unit for biological substances. Commonly used for IgE levels in MCAS/atopy evaluation and for antibody titers in autoimmune and infectious disease testing."
+  },
+  "CO₂": {
+    "label": "CO₂",
+    "category": "molecule",
+    "definition": "Carbon Dioxide: the metabolic waste product of oxidative metabolism, exhaled via the lungs. End-tidal CO₂ and ventilatory equivalent for CO₂ (VE/VCO₂) are key CPET parameters; abnormal CO₂ handling in ME/CFS reflects ventilatory inefficiency and altered chemoreflex sensitivity."
+  },
+  "H₂O₂": {
+    "label": "H₂O₂",
+    "category": "molecule",
+    "definition": "Hydrogen Peroxide: a reactive oxygen species produced by superoxide dismutase (SOD) from superoxide, and by NADPH oxidases (NOX). H₂O₂ is a signaling molecule at low levels but causes oxidative damage at high levels; elevated H₂O₂ production in ME/CFS reflects mitochondrial electron leak and NOX activation."
+  },
+  "O₂": {
+    "label": "O₂",
+    "category": "molecule",
+    "definition": "Molecular Oxygen: the terminal electron acceptor in the mitochondrial electron transport chain. Oxygen delivery to tissues depends on cardiac output, hemoglobin, and microvascular perfusion — all potentially impaired in ME/CFS. VO₂ (oxygen uptake) measured by CPET is the gold-standard assessment of integrated cardiorespiratory-metabolic function."
   }
 }
