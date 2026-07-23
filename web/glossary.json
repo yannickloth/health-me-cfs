@@ -274,7 +274,7 @@
   },
   "NF-κB": {
     "label": "NF-κB",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Nuclear Factor Kappa B: a master transcription factor driving pro-inflammatory gene expression. Chronic NF-κB activation is a candidate mechanism for sustained neuroinflammation in ME/CFS."
   },
   "mTOR": {
@@ -289,7 +289,7 @@
   },
   "PGC-1α": {
     "label": "PGC-1α",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Peroxisome proliferator-activated receptor Gamma Coactivator 1-Alpha: the master regulator of mitochondrial biogenesis. Reduced PGC-1α expression may underlie mitochondrial impairment in ME/CFS."
   },
   "SIRT": {
@@ -299,7 +299,7 @@
   },
   "NRF2": {
     "label": "NRF2",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Nuclear factor Erythroid 2-Related Factor 2: the master regulator of antioxidant gene expression. Impaired NRF2 activation leads to reduced antioxidant defenses in ME/CFS."
   },
   "SOD": {
@@ -904,7 +904,9 @@
     "category": "supplement",
     "definition": "Branched-Chain Amino Acids: leucine, isoleucine, and valine. BCAAs may be depleted in ME/CFS due to catabolic metabolism and impaired energy production; supplementation is experimental.",
     "class": "Amino acid supplement",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands",
+    "generic": "Leucine, Isoleucine, Valine"
   },
   "GTPCH": {
     "label": "GTPCH",
@@ -1433,22 +1435,22 @@
   },
   "XBP1": {
     "label": "XBP1",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "X-Box Binding Protein 1: a transcription factor activated by IRE1-mediated splicing that induces ER chaperones and ERAD components. The spliced form (XBP1s) is a master regulator of ER homeostasis."
   },
   "ATF4": {
     "label": "ATF4",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Activating Transcription Factor 4: a stress-responsive transcription factor whose translation is selectively upregulated when eIF2α is phosphorylated. ATF4 controls amino acid metabolism, antioxidant genes, and autophagy; chronic ATF4 activation in ME/CFS may drive metabolic reprogramming."
   },
   "ATF6": {
     "label": "ATF6",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Activating Transcription Factor 6: the third UPR sensor, a transmembrane protein that traffics to the Golgi upon ER stress, where it is cleaved to release an active transcription factor that induces ER chaperones."
   },
   "CHOP": {
     "label": "CHOP",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "C/EBP Homologous Protein (also GADD153): a pro-apoptotic transcription factor induced by severe/prolonged ER stress via ATF4. CHOP promotes cell death when UPR adaptation fails; elevated CHOP in ME/CFS may indicate unresolved ER stress."
   },
   "eIF2": {
@@ -1503,12 +1505,12 @@
   },
   "IRF3": {
     "label": "IRF3",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Interferon Regulatory Factor 3: a transcription factor driving type I interferon and chemokine gene expression downstream of cGAS-STING and RIG-I/MAVS pathways. Phosphorylated by TBK1."
   },
   "IRF7": {
     "label": "IRF7",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Interferon Regulatory Factor 7: the master transcription factor for type I interferons. IRF7 amplifies IFN responses in a positive feedback loop; dysregulated IRF7 may sustain the interferon signature in ME/CFS."
   },
   "TBK1": {
@@ -1573,12 +1575,12 @@
   },
   "STAT1": {
     "label": "STAT1",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Signal Transducer and Activator of Transcription 1: a transcription factor activated by IFN-γ and type I interferons via JAK phosphorylation. STAT1 drives antiviral and pro-inflammatory gene programs; STAT1 activation may be elevated in ME/CFS."
   },
   "STAT3": {
     "label": "STAT3",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Signal Transducer and Activator of Transcription 3: a transcription factor activated by IL-6 family cytokines and growth factors. STAT3 regulates inflammation, metabolism, and Th17 differentiation; STAT3/Th17 skewing is reported in ME/CFS."
   },
   "JAK": {
@@ -1589,17 +1591,17 @@
   },
   "AP-1": {
     "label": "AP-1",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Activator Protein 1: a dimeric transcription factor (c-Fos/c-Jun) activated by MAPK signaling (JNK, ERK). AP-1 drives pro-inflammatory and stress-response genes; AP-1 activation links MAPK dysregulation to inflammation in ME/CFS."
   },
   "CREB": {
     "label": "CREB",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "cAMP Response Element-Binding protein: a transcription factor phosphorylated by PKA, CaMK, and MAPK pathways. CREB regulates synaptic plasticity, metabolism, and cell survival; altered CREB signaling may contribute to ME/CFS cognitive dysfunction."
   },
   "NFAT": {
     "label": "NFAT",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Nuclear Factor of Activated T-cells: a calcium/calcineurin-activated transcription factor driving T-cell activation genes (IL-2, IFN-γ, TNF-α). NFAT also regulates cardiac hypertrophy and neuronal function; NFAT dysregulation is reported in ME/CFS immune studies."
   },
   "CaMK": {
@@ -1707,28 +1709,28 @@
   },
   "PPAR": {
     "label": "PPAR",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Peroxisome Proliferator-Activated Receptor: a nuclear receptor family (PPARα, β/δ, γ) regulating lipid metabolism, inflammation, and mitochondrial biogenesis. PPAR agonists have been proposed as experimental ME/CFS therapies targeting metabolic dysfunction.",
     "also": "PPARα, PPARβ/δ, PPARγ"
   },
   "FOXO1": {
     "label": "FOXO1",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Forkhead Box O1: a transcription factor regulating metabolism, antioxidant defense, and autophagy. AKT phosphorylation excludes FOXO from the nucleus; impaired FOXO signaling may reduce stress-resistance programs in ME/CFS."
   },
   "FOXO3": {
     "label": "FOXO3",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Forkhead Box O3: a longevity-associated transcription factor activating antioxidant, DNA repair, and autophagy genes. FOXO3 activity is regulated by AMPK and SIRT1; FOXO3 dysfunction may impair cellular resilience in ME/CFS."
   },
   "NRF1": {
     "label": "NRF1",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Nuclear Respiratory Factor 1: a transcription factor coordinating nuclear-encoded mitochondrial gene expression with mitochondrial biogenesis. NRF1 works with PGC-1α and TFAM; NRF1 impairment may contribute to the mitochondrial phenotype in ME/CFS."
   },
   "TFAM": {
     "label": "TFAM",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Mitochondrial Transcription Factor A: the key regulator of mitochondrial DNA transcription, replication, and packaging. TFAM is downstream of PGC-1α/NRF1; reduced TFAM may impair mitochondrial gene expression and biogenesis in ME/CFS."
   },
   "PARP": {
@@ -2065,7 +2067,7 @@
   },
   "AHR": {
     "label": "AHR",
-    "category": "transcription factor",
+    "category": "transcription_factor",
     "definition": "Aryl Hydrocarbon Receptor: a ligand-activated transcription factor sensing environmental toxins and tryptophan metabolites (kynurenine). AHR activation by kynurenine shifts T-cell differentiation toward Treg vs Th17; the IDO-KYN-AHR axis links tryptophan metabolism to immune regulation in ME/CFS."
   },
   "FXR": {
@@ -2900,7 +2902,8 @@
     "definition": "An essential trace element incorporated as selenocysteine in selenoproteins: GPX (antioxidant), TXNRD (thioredoxin reduction), iodothyronine deiodinases (thyroid hormone activation). Selenium depletion may impair antioxidant defense and thyroid function in ME/CFS.",
     "generic": "Selenium (selenomethionine, sodium selenite)",
     "class": "Mineral supplement / trace element",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Iron": {
     "label": "Iron",
@@ -2933,7 +2936,11 @@
     "label": "Vitamin B",
     "category": "supplement",
     "definition": "The B-complex vitamins (B1, B2, B3, B5, B6, B7, B9, B12): water-soluble cofactors essential for energy metabolism, methylation, neurotransmitter synthesis, and red blood cell production. B vitamin deficiencies mimic ME/CFS and must be excluded.",
-    "also": "B1 (thiamine), B2 (riboflavin), B3 (niacin), B5 (pantothenic acid), B6 (pyridoxine), B7 (biotin), B9 (folate), B12 (cobalamin)"
+    "also": "B1 (thiamine), B2 (riboflavin), B3 (niacin), B5 (pantothenic acid), B6 (pyridoxine), B7 (biotin), B9 (folate), B12 (cobalamin)",
+    "generic": "B-complex vitamins (B1, B2, B3, B5, B6, B7, B9, B12)",
+    "brand": "Various supplement brands",
+    "class": "Vitamin (water-soluble B-complex)",
+    "rx": "OTC"
   },
   "Thiamine": {
     "label": "Thiamine",
@@ -2941,7 +2948,8 @@
     "definition": "Vitamin B1: cofactor for pyruvate dehydrogenase (PDH), α-ketoglutarate dehydrogenase, and transketolase — critical enzymes in glucose metabolism. Thiamine deficiency produces fatigue and lactic acidosis remarkably similar to ME/CFS; high-dose thiamine has been proposed to bypass impaired PDH function.",
     "generic": "Thiamine (B1), Benfotiamine, TTFD (allithiamine)",
     "class": "Vitamin (water-soluble B1) / enzyme cofactor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Riboflavin": {
     "label": "Riboflavin",
@@ -2949,7 +2957,8 @@
     "definition": "Vitamin B2: precursor to FAD and FMN, the critical redox cofactors in mitochondrial Complex I and II. Riboflavin is used in migraine prophylaxis and may support mitochondrial function in ME/CFS.",
     "generic": "Riboflavin (Vitamin B2)",
     "class": "Vitamin (water-soluble B2) / mitochondrial cofactor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Niacin": {
     "label": "Niacin",
@@ -2957,7 +2966,8 @@
     "definition": "Vitamin B3: precursor to NAD+ and NADP+, the central redox and signaling coenzymes. Niacin (nicotinic acid) and nicotinamide riboside (NR) are NAD+ precursors being investigated for ME/CFS metabolic dysfunction.",
     "generic": "Nicotinic acid, Nicotinamide, Nicotinamide riboside (NR)",
     "class": "Vitamin (water-soluble B3) / NAD+ precursor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Pyridoxine": {
     "label": "Pyridoxine",
@@ -2965,7 +2975,8 @@
     "definition": "Vitamin B6: cofactor for neurotransmitter synthesis (serotonin, dopamine, GABA, norepinephrine), homocysteine metabolism, and hemoglobin synthesis. B6 is required by AADC and GAD enzymes; deficiency may impair neurotransmitter balance in ME/CFS.",
     "generic": "Pyridoxine (B6), Pyridoxal-5'-phosphate (P5P, active form)",
     "class": "Vitamin (water-soluble B6) / enzyme cofactor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Cobalamin": {
     "label": "Cobalamin",
@@ -2973,7 +2984,8 @@
     "definition": "Vitamin B12: essential for methylation, DNA synthesis, and myelin maintenance. See B12 entry for full details.",
     "generic": "Cyanocobalamin, Methylcobalamin, Hydroxocobalamin",
     "class": "Vitamin (water-soluble B12)",
-    "rx": "OTC (oral); prescription (injection)"
+    "rx": "OTC (oral); prescription (injection)",
+    "brand": "Various supplement brands"
   },
   "Omega-3": {
     "label": "Omega-3",
@@ -2990,7 +3002,8 @@
     "definition": "Eicosapentaenoic Acid: an omega-3 fatty acid with anti-inflammatory effects via competition with arachidonic acid in the COX/LOX pathways, reducing pro-inflammatory prostaglandin and leukotriene production. EPA-rich fish oil is used in ME/CFS for neuroinflammation.",
     "generic": "Eicosapentaenoic acid",
     "class": "Omega-3 fatty acid / anti-inflammatory",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "DHA": {
     "label": "DHA",
@@ -2998,7 +3011,8 @@
     "definition": "Docosahexaenoic Acid: an omega-3 fatty acid and major structural component of neuronal and retinal membranes. DHA is critical for synaptic function and is a precursor to neuroprotectin D1, a specialized pro-resolving mediator. DHA is used in ME/CFS for neuroprotection.",
     "generic": "Docosahexaenoic acid",
     "class": "Omega-3 fatty acid / neuroprotective",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Curcumin": {
     "label": "Curcumin",
@@ -3015,7 +3029,8 @@
     "definition": "A stilbenoid polyphenol found in grapes and red wine, activating SIRT1 (NAD+-dependent deacetylase) and AMPK. Resveratrol promotes mitochondrial biogenesis via PGC-1α and may improve mitochondrial function in ME/CFS.",
     "generic": "Resveratrol (trans-resveratrol)",
     "class": "Polyphenol / SIRT1 activator / AMPK activator",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Quercetin": {
     "label": "Quercetin",
@@ -3023,7 +3038,8 @@
     "definition": "A flavonoid polyphenol with mast cell-stabilizing, antihistamine, antioxidant (NRF2 activation), and senolytic properties. Quercetin stabilizes mast cell membranes and inhibits histamine release; used in ME/CFS with MCAS/histamine intolerance.",
     "generic": "Quercetin (often combined with bromelain or vitamin C for absorption)",
     "class": "Flavonoid / mast cell stabilizer / antioxidant",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Luteolin": {
     "label": "Luteolin",
@@ -3031,7 +3047,8 @@
     "definition": "A flavonoid found in celery, parsley, and chamomile, with mast cell-stabilizing, anti-inflammatory, and neuroprotective effects. Luteolin inhibits mast cell degranulation and microglial activation; used in ME/CFS/MCAS for neuroinflammation and brain fog.",
     "generic": "Luteolin (often as luteolin-7-O-glucoside or liposomal luteolin)",
     "class": "Flavonoid / mast cell stabilizer / neuroprotective",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "EGCG": {
     "label": "EGCG",
@@ -3039,7 +3056,8 @@
     "definition": "Epigallocatechin Gallate: the major catechin in green tea, with antioxidant, anti-inflammatory, and neuroprotective effects. EGCG inhibits NF-κB, activates NRF2, and may reduce microglial activation; used in ME/CFS for neuroinflammation.",
     "generic": "Epigallocatechin gallate (green tea extract)",
     "class": "Catechin / antioxidant / anti-inflammatory",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "PQQ": {
     "label": "PQQ",
@@ -3047,7 +3065,8 @@
     "definition": "Pyrroloquinoline Quinone: a redox cofactor and potent antioxidant that stimulates mitochondrial biogenesis via PGC-1α and NRF1/2 pathways. PQQ acts as a growth factor for mitochondria; used in ME/CFS for mitochondrial support.",
     "generic": "Pyrroloquinoline quinone",
     "class": "Redox cofactor / mitochondrial biogenesis stimulator",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Creatine": {
     "label": "Creatine",
@@ -3064,7 +3083,8 @@
     "definition": "A quaternary ammonium compound essential for mitochondrial fatty acid transport via CPT1/CPT2. Acetyl-L-carnitine (ALCAR) also donates acetyl groups for acetylcholine synthesis and crosses the blood-brain barrier. Carnitine deficiency has been reported in ME/CFS.",
     "generic": "L-Carnitine, Acetyl-L-Carnitine (ALCAR), Propionyl-L-Carnitine",
     "class": "Carnitine / mitochondrial fatty acid transport cofactor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "D-Ribose": {
     "label": "D-Ribose",
@@ -3072,7 +3092,8 @@
     "definition": "A pentose sugar that is the structural backbone of ATP. D-ribose supplementation bypasses the rate-limiting pentose phosphate pathway, potentially accelerating ATP regeneration. Used in ME/CFS for energy support; mixed evidence from clinical trials.",
     "generic": "D-Ribose",
     "class": "Sugar / ATP precursor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Glutathione": {
     "label": "Glutathione",
@@ -3080,7 +3101,8 @@
     "definition": "The body's master intracellular antioxidant: a tripeptide (glutamate-cysteine-glycine) that directly neutralizes ROS, recycles other antioxidants (vitamins C &amp; E), and detoxifies xenobiotics via GST enzymes. Glutathione depletion is a core finding in ME/CFS. Oral bioavailability is poor; liposomal and IV forms are used clinically.",
     "generic": "Glutathione (reduced), Liposomal glutathione, IV glutathione",
     "class": "Antioxidant tripeptide",
-    "rx": "OTC (oral, liposomal); prescription (IV)"
+    "rx": "OTC (oral, liposomal); prescription (IV)",
+    "brand": "Various supplement brands"
   },
   "ALA": {
     "label": "ALA",
@@ -3088,7 +3110,8 @@
     "definition": "Alpha-Lipoic Acid (thioctic acid): a mitochondrial cofactor for pyruvate dehydrogenase and α-ketoglutarate dehydrogenase, and a potent amphipathic antioxidant (active in both aqueous and lipid compartments). ALA regenerates glutathione, vitamin C, and vitamin E; used in ME/CFS for oxidative stress and mitochondrial support. Not to be confused with alpha-linolenic acid (also ALA).",
     "generic": "Alpha-Lipoic Acid (R-lipoic acid preferred)",
     "class": "Mitochondrial cofactor / antioxidant",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "SAMe": {
     "label": "SAMe",
@@ -3105,7 +3128,8 @@
     "definition": "A sulfur-containing amino acid that is not incorporated into proteins. Taurine stabilizes cell membranes, regulates calcium handling, acts as an osmolyte, and enhances GABAergic tone. Used in ME/CFS for sleep, muscle cramps, and cardiac function.",
     "generic": "Taurine (L-Taurine)",
     "class": "Amino acid / osmolyte / GABA-A agonist",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Lysine": {
     "label": "Lysine",
@@ -3113,7 +3137,8 @@
     "definition": "An essential amino acid that competes with arginine for cellular uptake, inhibiting herpesvirus replication (which requires arginine-rich proteins). Used in ME/CFS with suspected HSV/EBV reactivation for viral suppression.",
     "generic": "L-Lysine",
     "class": "Essential amino acid / antiviral (competitive arginine antagonism)",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Glycine": {
     "label": "Glycine",
@@ -3121,7 +3146,8 @@
     "definition": "The simplest amino acid, acting as an inhibitory neurotransmitter (glycine receptor) and NMDA receptor co-agonist. Glycine is a precursor to glutathione (with glutamate + cysteine) and collagen. Used in ME/CFS for sleep quality and connective tissue support.",
     "generic": "Glycine, Magnesium glycinate (for Mg delivery)",
     "class": "Amino acid / neurotransmitter / glutathione precursor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Arginine": {
     "label": "Arginine",
@@ -3129,7 +3155,8 @@
     "definition": "A conditionally essential amino acid and the substrate for nitric oxide synthase (NOS). Arginine supplementation may enhance NO-mediated vasodilation, potentially improving microvascular perfusion in ME/CFS. Note: arginine can feed herpesvirus replication.",
     "generic": "L-Arginine, Arginine alpha-ketoglutarate (AAKG)",
     "class": "Amino acid / NO precursor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Citrulline": {
     "label": "Citrulline",
@@ -3137,7 +3164,8 @@
     "definition": "A non-proteinogenic amino acid that is converted to arginine in the kidneys, providing a more sustained and better-tolerated arginine source than arginine itself. Used in ME/CFS for NO-mediated vasodilation without the GI side effects of arginine.",
     "generic": "L-Citrulline, Citrulline malate",
     "class": "Amino acid / NO precursor (indirect, via arginine)",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Tryptophan": {
     "label": "Tryptophan",
@@ -3145,7 +3173,8 @@
     "definition": "An essential amino acid and precursor to serotonin (via TPH) and melatonin (via AANAT). In ME/CFS, tryptophan is diverted away from serotonin and toward the kynurenine pathway by IDO/TDO activation, depleting serotonin. Tryptophan supplementation may be counterproductive when IDO is activated.",
     "generic": "L-Tryptophan",
     "class": "Essential amino acid / serotonin and melatonin precursor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "5-HTP": {
     "label": "5-HTP",
@@ -3153,7 +3182,8 @@
     "definition": "5-Hydroxytryptophan: the direct precursor to serotonin (5-HT), bypassing the rate-limiting TPH step. Used in ME/CFS for mood, sleep, and pain; converted peripherally to serotonin in the gut, with only a fraction reaching the CNS. Caution with SSRIs/SNRIs due to serotonin syndrome risk.",
     "generic": "5-Hydroxytryptophan (from Griffonia simplicifolia seed extract)",
     "class": "Amino acid derivative / serotonin precursor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Tyrosine": {
     "label": "Tyrosine",
@@ -3161,7 +3191,8 @@
     "definition": "A conditionally essential amino acid and precursor to catecholamines (dopamine → norepinephrine → epinephrine) via TH and AADC. Used in ME/CFS for cognitive function and fatigue when catecholamine depletion is suspected; caution in hyperadrenergic states.",
     "generic": "L-Tyrosine, N-Acetyl-L-Tyrosine",
     "class": "Amino acid / catecholamine precursor",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Theanine": {
     "label": "Theanine",
@@ -3169,7 +3200,8 @@
     "definition": "L-Theanine: a non-proteinogenic amino acid from green tea that crosses the BBB and increases GABA, serotonin, and dopamine levels while promoting alpha brainwave activity (relaxed alertness). Used in ME/CFS for anxiety reduction without sedation and for improving sleep quality.",
     "generic": "L-Theanine",
     "class": "Amino acid / neurotransmitter modulator",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands"
   },
   "Ashwagandha": {
     "label": "Ashwagandha",
@@ -3186,7 +3218,8 @@
     "definition": "Rhodiola rosea: an adaptogenic herb used for fatigue, cognitive performance, and stress resilience. Rhodiola may enhance mitochondrial function and modulate serotonin/dopamine. Used in ME/CFS for fatigue and brain fog; activating effect may be poorly tolerated in severe ME/CFS.",
     "generic": "Rhodiola rosea root extract (standardized to rosavins and salidroside)",
     "class": "Adaptogenic herb / monoamine modulator",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands (standardized to rosavins/salidroside)"
   },
   "Cordyceps": {
     "label": "Cordyceps",
@@ -3194,7 +3227,8 @@
     "definition": "A medicinal mushroom (Cordyceps militaris or C. sinensis) used in traditional Chinese medicine for fatigue and respiratory conditions. Cordyceps contains cordycepin and polysaccharides with immunomodulatory, antioxidant, and mitochondrial-supportive effects. Used in ME/CFS for energy and immune modulation.",
     "generic": "Cordyceps militaris or C. sinensis extract (standardized to cordycepin/polysaccharides)",
     "class": "Medicinal mushroom / adaptogen / immunomodulator",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands (standardized to cordycepin/polysaccharides)"
   },
   "Lion's Mane": {
     "label": "Lion's Mane",
@@ -3202,7 +3236,8 @@
     "definition": "Hericium erinaceus: a medicinal mushroom that stimulates nerve growth factor (NGF) synthesis and promotes neurogenesis. Used in ME/CFS for cognitive dysfunction and peripheral neuropathy; proposed to improve brain fog via NGF-mediated neuronal repair.",
     "generic": "Hericium erinaceus extract (standardized to erinacines/hericenones)",
     "class": "Medicinal mushroom / NGF stimulator / nootropic",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands (standardized to erinacines/hericenones)"
   },
   "Reishi": {
     "label": "Reishi",
@@ -3210,7 +3245,8 @@
     "definition": "Ganoderma lucidum: a medicinal mushroom with immunomodulatory polysaccharides (β-glucans) and triterpenes. Reishi has anti-inflammatory, antioxidant, and mast cell-stabilizing effects. Used in ME/CFS for immune balance and MCAS symptoms.",
     "generic": "Ganoderma lucidum extract (standardized to polysaccharides/triterpenes)",
     "class": "Medicinal mushroom / immunomodulator / mast cell stabilizer",
-    "rx": "OTC"
+    "rx": "OTC",
+    "brand": "Various supplement brands (standardized to polysaccharides/triterpenes)"
   },
   "CBD": {
     "label": "CBD",
@@ -3236,7 +3272,8 @@
     "definition": "See CBD — Cannabidiol.",
     "generic": "Cannabidiol",
     "class": "Phytocannabinoid",
-    "rx": "See CBD entry"
+    "rx": "See CBD entry",
+    "brand": "Epidiolex (FDA-approved); various supplement brands"
   },
   "Ketamine": {
     "label": "Ketamine",
@@ -3253,6 +3290,7 @@
     "definition": "A serotonergic psychedelic (prodrug of psilocin, a 5-HT2A agonist) under investigation for depression, anxiety, and cluster headaches. Hypothesized to promote neuroplasticity and disrupt maladaptive neural networks. Not yet studied in ME/CFS; potential relevance to central sensitization and treatment-resistant depression.",
     "generic": "Psilocybin",
     "class": "Serotonergic psychedelic / 5-HT2A agonist",
-    "rx": "Investigational; Schedule I in US; clinical trial use only. Decriminalized/medical use in limited jurisdictions."
+    "rx": "Investigational; Schedule I in US; clinical trial use only. Decriminalized/medical use in limited jurisdictions.",
+    "brand": "Investigational — no commercial brand for depression"
   }
 }

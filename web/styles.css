@@ -325,6 +325,8 @@
     transform: translateY(4px);
     transition: opacity .15s ease, visibility .15s ease, transform .15s ease;
     pointer-events: none;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 
   .gt-show {

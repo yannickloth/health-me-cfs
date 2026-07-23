@@ -1,6 +1,6 @@
 ---
 name: integrate-topic
-description: Full pipeline for evaluating and integrating a new subject into the primary ME/CFS paper — research, evidence synthesis, integration decision, development, creative brainstorming, tiered integration, differential analysis (medication→mechanism OR mechanism→drug), falsifiability sweep, retroactive adaptation, cross-hypothesis compatibility, review-to-convergence, quality assessment, changelog, and commit. Supports explicit rejection when evidence doesn't warrant integration.
+description: Full pipeline for evaluating and integrating a new subject into the primary ME/CFS paper — research, evidence synthesis, integration decision, development, creative brainstorming, tiered integration, differential analysis (medication→mechanism OR mechanism→drug), falsifiability sweep, retroactive adaptation, glossary review, cross-hypothesis compatibility, review-to-convergence, quality assessment, changelog, and commit. Supports explicit rejection when evidence doesn't warrant integration.
 argument-hint: <topic description>
 ---
 
@@ -131,10 +131,8 @@ Before starting any other phase:
    - Phase 3.5 → N environments verified, M missing consequence fields added
    - Phase 4 → brainstorm file path, idea count
    - Phase 4a → subtree file path, N nodes written, root index updated
-   - Phase 5 → ideas integrated (by tier); queued topics from Gates A/B with one-line rationale
+    - Phase 5 → ideas integrated (by tier); queued topics from Gates A/B with one-line rationale
     - Phase 5d → N cascade branches traced, M drug→node pairs, K decision-forcing probes; trace at `ops/integration-guides/pathway-drug-trace-<slug>.md`
-    - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
-    - Phase 5z → N new glossary entries added, M terms filtered
     - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
     - Phase 5z → N glossary entries added, M terms filtered
     - Phase 6 → M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred); bump log updated with K bumps

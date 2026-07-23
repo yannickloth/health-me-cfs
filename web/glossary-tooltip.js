@@ -2,8 +2,8 @@
 // Loads glossary.json, wraps matching terms in <span class="gt"> with data-gt="key"
 
 (function () {
-  var base = document.querySelector('base') ? document.querySelector('base').href : window.location.origin + '/';
-  var GLOSSARY_URL = new URL('glossary.json', base).href;
+  var script = document.querySelector('script[src$="glossary-tooltip.js"]');
+  var GLOSSARY_URL = script ? new URL('glossary.json', script.src).href : 'glossary.json';
 
   function loadGlossary() {
     return fetch(GLOSSARY_URL)
@@ -18,7 +18,7 @@
     var div = document.createElement('div');
     div.className = 'gt-pop';
 
-    var cats = { medication: 'Medication', supplement: 'Supplement', medication_class: 'Class', disease: 'Disease', symptom: 'Symptom', condition: 'Condition', hormone: 'Hormone', neurotransmitter: 'Neurotransmitter', cytokine: 'Cytokine', protein: 'Protein', enzyme: 'Enzyme', molecule: 'Molecule', pathway: 'Pathway', receptor: 'Receptor', transporter: 'Transporter', transcription_factor: 'Transcription Factor', cell: 'Cell', biomarker: 'Biomarker', measurement: 'Measurement', axis: 'Axis', system: 'System', barrier: 'Barrier', fluid: 'Fluid', test: 'Test', imaging: 'Imaging', pathogen: 'Pathogen', diagnostic: 'Diagnostic', method: 'Method', treatment: 'Treatment', organization: 'Organization', regulation: 'Regulation', administration: 'Administration', neurotrophin: 'Neurotrophin', cofactor: 'Cofactor' };
+    var cats = { medication: 'Medication', supplement: 'Supplement', medication_class: 'Class', disease: 'Disease', symptom: 'Symptom', condition: 'Condition', hormone: 'Hormone', neurotransmitter: 'Neurotransmitter', cytokine: 'Cytokine', protein: 'Protein', enzyme: 'Enzyme', molecule: 'Molecule', metabolite: 'Metabolite', pathway: 'Pathway', receptor: 'Receptor', transporter: 'Transporter', transcription_factor: 'Transcription Factor', cell: 'Cell', immune: 'Immune', biomarker: 'Biomarker', measurement: 'Measurement', axis: 'Axis', system: 'System', barrier: 'Barrier', fluid: 'Fluid', test: 'Test', imaging: 'Imaging', pathogen: 'Pathogen', diagnostic: 'Diagnostic', method: 'Method', treatment: 'Treatment', organization: 'Organization', regulation: 'Regulation', administration: 'Administration', neurotrophin: 'Neurotrophin', cofactor: 'Cofactor', concept: 'Concept', mechanism: 'Mechanism', anatomy: 'Anatomy', vitamin: 'Vitamin' };
     var cat = cats[entry.category] || entry.category;
 
     var lines = [];
@@ -59,6 +59,9 @@
 
     if (top + tipH > vh - margin) {
       top = rect.top - tipH - margin;
+    }
+    if (top < margin) {
+      top = margin;
     }
     if (left + tipW / 2 > vw - margin) {
       left = vw - tipW - margin;
