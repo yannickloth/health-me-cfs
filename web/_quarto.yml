@@ -84,6 +84,7 @@ format:
     include-after-body: glossary-tooltip.html
     resources:
       - glossary.json
+      - glossary-tooltip.js
     crossref:
       sec-prefix: Section
       fig-prefix: Figure
