@@ -15,7 +15,7 @@
 / *GSH*:  glutathione; primary intracellular antioxidant
 / *HPA*:  hypothalamic-pituitary-adrenal axis
 / *HR*:  heart rate
-/ *IENFD*:  intraepidermal nerve fibre density
+/ *IENFD*:  intraepidermal nerve fiber density
 / *IVIG*:  intravenous immunoglobulin
 / *LDN*:  low-dose naltrexone
 / *MCAS*:  mast cell activation syndrome
@@ -26,11 +26,13 @@
 / *PDH*:  pyruvate dehydrogenase
 / *PEM*:  post-exertional malaise
 / *POTS*:  postural orthostatic tachycardia syndrome
+/ *PTSD*:  post-traumatic stress disorder
 / *REE*:  resting energy expenditure
 / *ROS*:  reactive oxygen species
 / *SC*:  supercomplex
 / *TLR4*:  Toll-like receptor 4
 / *VMAT2*:  vesicular monoamine transporter 2
+/ *hEDS*:  hypermobile Ehlers-Danlos syndrome
 
 
 === Protracted and Permanent Worsening After Medications
@@ -42,7 +44,7 @@
 
 The distinction between protracted and permanent worsening is clinical, not absolute — a patient who has not recovered by year 5 may still recover by year 10, and post-mortem histological data do not exist. The definitions below establish working boundaries for clinical decision-making, not fixed biological thresholds.
 
-#definition(title: [Protracted Worsening])[
+#definition(title: [Protracted Worsening])[ <def:protracted-worsening>
 *Definition:* A medication-induced decline in functional baseline that persists for weeks to months after drug discontinuation — beyond the drug's pharmacokinetic clearance window (5 × half-life) — but eventually returns to or near the pre-treatment baseline.
 
 *Temporal boundary:* Duration exceeds drug clearance + expected PEM recovery window (typically 2--6 weeks for a moderate crash) but less than 6--12 months. If function has not returned to within 80% of pre-treatment baseline by 12 months, the worsening is reclassified as permanent.
@@ -52,7 +54,7 @@ The distinction between protracted and permanent worsening is clinical, not abso
 *Clinical implication:* Do NOT rechallenge. The drug demonstrated the capacity to trigger a cascade beyond its pharmacology. The fact that the patient eventually recovered does not mean the next exposure will follow the same trajectory — each episode of protracted worsening may consume recovery capital that is finite.
 ]
 
-#definition(title: [Permanent Worsening])[
+#definition(title: [Permanent Worsening])[ <def:permanent-worsening>
 *Definition:* A medication-induced decline in functional baseline that persists beyond 12 months after drug discontinuation, with no meaningful recovery toward the pre-treatment baseline. This includes both step-function deterioration (a single dose/cycle causes an immediate, irreversible drop) and ratchet deterioration (each exposure causes incremental decline, with ≤80% recovery between cycles, producing cumulative net loss).
 
 *Temporal boundary:* No return to ≥80% of pre-treatment functional baseline by 12 months after cessation. At that point, recovery is no longer the working assumption — the worsening is the patient's new baseline, and treatment strategy must adapt accordingly.
@@ -71,7 +73,7 @@ The ratchet operates through four converging pathways:
 1. *Metabolic substrate depletion:* The drug imposes a chronic energy demand (increased REE, sympathetic activation, immune activation, hepatic CYP processing) that depletes ATP, NAD⁺, and glutathione below the recovery threshold. The system cannot replenish substrates while they are being consumed — a net-negative metabolic balance sustained over weeks.
 2. *Mitochondrial damage accumulation:* Sustained metabolic stress → sustained ROS production → mitochondrial DNA damage → ETC dysfunction → less ATP production per unit substrate → still greater deficit. The mitochondria that were already damaged by the disease process are now further damaged by the drug — and mitophagy, already impaired in ME/CFS, cannot clear the damaged organelles. The loss is cumulative and, above a threshold, irreversible.
 3. *Epigenetic consolidation:* Sustained stress signaling (NF-κB, p38 MAPK, HIF-1α) drives histone modifications and DNA methylation patterns that transcriptionally lock the cell into a low-energy state. The drug-induced stress episode — if severe enough and long enough — can consolidate a temporary metabolic shutdown into a permanent transcriptional program.
-4. *Immunologic sensitization:* A drug-induced inflammatory cascade can prime the immune system such that the same cascade is triggered more easily next time — permanently lowering the activation threshold. This is the pharmacologic analogue of the kindling model: each exposure lowers the threshold for the next, and a single severe exposure can reset the threshold to a new, permanently lower level.
+4. *Immunologic sensitization:* A drug-induced inflammatory cascade can prime the immune system such that the same cascade is triggered more easily next time — permanently lowering the activation threshold. This is the pharmacologic analog of the kindling model: each exposure lowers the threshold for the next, and a single severe exposure can reset the threshold to a new, permanently lower level.
 
 *Diagnostic implication:* When a patient reports that they "never recovered" from a medication trial, the ratchet model provides the mechanistic explanation. The drug-induced metabolic stress exceeded the repair capacity, damage accumulated, and the system settled at a new, lower baseline. The question is not whether the patient's report is accurate — it is which of the four ratchet pathways was the dominant mechanism, because the answer determines which future medications carry the same risk.
 
@@ -83,9 +85,9 @@ Every medication-induced protracted or permanent worsening falls into one or mor
 
 The drug's primary pharmacodynamic effect directly damages a vulnerable system. This is the simplest mechanism: the drug does what it was designed to do, but the target system is too fragile to tolerate the perturbation.
 
-*Classic example:* Amphetamines → VMAT2 depletion. The drug reverses the dopamine transporter and depletes vesicular stores — its intended mechanism. In a patient with borderline VMAT2 terminal density (as documented in long COVID by Liu 2026), a single dose can collapse the dopaminergic system. The crash lasts weeks because vesicular repopulation requires de novo synthesis of VMAT2 protein and reuptake of dopamine into newly empty vesicles — both energy-intensive processes that an energy-compromised neuron cannot perform quickly. If terminal dropout occurs (the depletion is so severe that the terminal cannot recover and dies back), the loss is permanent.
+*Classic example:* Amphetamines → VMAT2 depletion. The drug reverses the dopamine transporter and depletes vesicular stores — its intended mechanism. In a patient with borderline VMAT2 terminal density (as documented in long COVID @Liu2026VMAT2longcovid), a single dose can collapse the dopaminergic system. The crash lasts weeks because vesicular repopulation requires de novo synthesis of VMAT2 protein and reuptake of dopamine into newly empty vesicles — both energy-intensive processes that an energy-compromised neuron cannot perform quickly. If terminal dropout occurs (the depletion is so severe that the terminal cannot recover and dies back), the loss is permanent.
 
-*Other examples:* Corticosteroid-induced HPA axis suppression → adrenal atrophy from prolonged ACTH suppression → months to years for axis recovery, potentially permanent if the atrophy is severe. Valganciclovir bone marrow suppression → haematopoietic stem cell depletion if concurrent with chronic inflammation-driven myelosuppression. DCA peripheral neuropathy → cumulative axonal damage with irreversible loss if cumulative dose exceeds the individual patient's threshold for nerve repair.
+*Other examples:* Corticosteroid-induced HPA axis suppression → adrenal atrophy from prolonged ACTH suppression → months to years for axis recovery, potentially permanent if the atrophy is severe. Valganciclovir bone marrow suppression → hematopoietic stem cell depletion if concurrent with chronic inflammation-driven myelosuppression. DCA peripheral neuropathy → cumulative axonal damage with irreversible loss if cumulative dose exceeds the individual patient's threshold for nerve repair.
 
 *Diagnostic:* The drug's primary mechanism is the cause. The temporal relationship is clear: onset during exposure, resolution timeline maps the target system's repair rate (VMAT2 protein half-life: ~2--4 days; terminal regrowth: weeks to months; nerve regeneration: months to years; HPA axis recovery: months to years).
 
@@ -141,8 +143,21 @@ The most severe and most common cause of permanent worsening is convergence — 
 
 The result is a patient who: (a) experienced weeks of functional improvement on the drug (cognitive benefit from increased DA), (b) experienced a severe crash on cessation (withdrawal + PEM convergence), (c) never recovered to pre-treatment baseline (VMAT2 terminal loss + mitochondrial damage + epigenetic consolidation), and (d) has lost the option of using any catecholamine-modulating medication because their system has demonstrated catastrophic vulnerability.
 
-This convergence pattern is the mechanism behind the clinical observation that amphetamines cause the most severe and most commonly irreversible worsening in ME/CFS patients — because they hit all five mechanisms simultaneously in a patient population with a pre-existing catecholamine deficit.
+This convergence pattern is the mechanism behind the clinical observation that amphetamines cause the most severe and most commonly irreversible worsening in ME/CFS patients — because they hit four of the five mechanisms simultaneously in a patient population with a pre-existing catecholamine deficit.
 
+===== Framework Limitations: Overlap, Taxonomy, and Causal Attribution
+
+#limitation(title: [Framework Limitations])[
+*Mechanism overlap.* Mechanisms B (metabolic PEM) and E (withdrawal-PEM) share the same effector pathway — both converge on PEM → energy-ratchet advancement — and differ only in the trigger (metabolic demand vs. withdrawal). They may represent the same process viewed from different angles, not genuinely distinct mechanisms.
+
+*No independent validation.* The five-mechanism taxonomy is a clinical heuristic derived from pharmacological first principles. It has not been empirically validated as a classification system. Patients may experience worsening that does not fit cleanly into any single mechanism, or that fits multiple simultaneously. Some apparent medication-induced worsening may instead reflect non-specific drug intolerance — impaired CYP450 metabolism, blood-brain barrier dysfunction, or polypharmacy interactions producing a unified global intolerance rather than specific receptor-system pathology.
+
+*Causality is presumed, not established.* ME/CFS severity fluctuates spontaneously, and the disease can progress independently of medication trials. A temporal association between a medication trial and worsening does not establish causation, particularly in a disease with an unpredictable trajectory. If a patient tries 5--10 medications over years of fluctuating illness, some trials will coincide with worsening by chance alone. The attribution of worsening to a specific medication is a working hypothesis, not a confirmed causal relationship. Controlled prospective pharmacovigilance registries are needed to distinguish drug-induced decline from natural disease history.
+
+*Falsifiability of the energy-ratchet model.* The ratchet model (@sec:ratchet-cascade) explains all outcomes (recovery = below threshold; permanent worsening = threshold crossed). For it to function as more than an interpretive framework, it must specify conditions under which it would be abandoned. The single clearest falsification condition: a patient with documented sustained medication-induced metabolic stress (sustained tachycardia + elevated REE for >4 weeks, confirmed by objective measurement) who recovers fully to pre-treatment baseline without lasting functional loss. Such a case would demonstrate that even severe, sustained metabolic stress can be fully reversed — the ratchet is escapable. To date, no such case has been documented in the literature, but the absence of negative evidence is not positive evidence.
+
+*VMAT2 evidence chain.* The amphetamine risk architecture depends on the inference that ME/CFS patients have reduced VMAT2 terminal density. Direct VMAT2 PET measurement exists in long COVID (@Liu2026VMAT2longcovid) but has not been replicated in ME/CFS. The cross-disease inference from long COVID to ME/CFS assumes shared pathophysiology that has not been established. Furthermore, VMAT2 PET is a research-only imaging modality not clinically available — the recommendation to exclude VMAT2 deficiency before considering amphetamines (below) refers to a test that no clinician can currently order. The clinical impression that amphetamines cause permanent worsening in ME/CFS is itself based on patient and clinician reports without systematic pharmacovigilance data, and may be confounded by exposure duration — amphetamines' functional benefit during treatment encourages longer use, producing greater cumulative metabolic stress than medications that are discontinued sooner due to intolerance.
+]
 
 
 === Medication-Specific Protracted and Permanent Worsening Analysis
@@ -163,8 +178,8 @@ The following analysis covers medications discussed in this chapter and in Chapt
 
 *Management:* Do NOT rechallenge. Ever. The patient should be counseled that any drug that releases catecholamines — including OTC agents like pseudoephedrine, ephedrine, and high-dose caffeine — carries the same risk. List as a severe intolerance/allergy. If the patient has not recovered at 6 months: (a) consider CoQ10 (200--400 mg) + NADH (10--20 mg) + NAC (600--1,200 mg) to support mitochondrial recovery; (b) consider LDN (1--4.5 mg) to suppress microglial activation that may be sustaining the post-crash neuroinflammatory state; (c) avoid all catecholamine-modulating medications for a minimum of 12 months — the dopaminergic system needs uninterrupted metabolic peace to regenerate surviving terminals.
 
-#warning-env(title: [Amphetamines — Permanent Worsening Risk])[
-Amphetamines carry the highest risk of permanent worsening of any medication class discussed in this chapter. The convergence of VMAT2 depletion, metabolic PEM, and withdrawal makes amphetamines the pharmacological equivalent of inflicting a self-sustaining PEM episode that lasts weeks. In patients with pre-existing VMAT2 terminal loss — documented in long COVID via VMAT2 PET (Liu 2026) and inferred in ME/CFS from the same pathophysiology — the risk of irreversible dopaminergic collapse is substantial. Amphetamines should be considered only when VMAT2 deficiency has been excluded (VMAT2 PET or equivalent), all other catecholamine-modulating strategies have failed, and the patient has been fully informed that an irreversible decline is a possible outcome. The diagnostic information obtained from a positive amphetamine response does not justify the risk of permanent worsening from a negative outcome — the PEM budget constraint (@sec:metabolic-cost) places amphetamines last, or never, in any therapeutic sequence.
+#warning-env(title: [Amphetamines — Permanent Worsening Risk])[ <warn:amphetamine-permanent-risk>
+Amphetamines carry the highest risk of permanent worsening of any medication class discussed in this chapter. The convergence of VMAT2 depletion, metabolic PEM, and withdrawal makes amphetamines the pharmacological equivalent of inflicting a self-sustaining PEM episode that lasts weeks. In patients with pre-existing VMAT2 terminal loss — documented in long COVID via VMAT2 PET @Liu2026VMAT2longcovid and inferred in ME/CFS from the same pathophysiology — the risk of irreversible dopaminergic collapse is substantial. Amphetamines should be considered only when VMAT2 deficiency has been excluded (VMAT2 PET or equivalent), all other catecholamine-modulating strategies have failed, and the patient has been fully informed that an irreversible decline is a possible outcome. The diagnostic information obtained from a positive amphetamine response does not justify the risk of permanent worsening from a negative outcome — the PEM budget constraint (@sec:metabolic-cost) places amphetamines last, or never, in any therapeutic sequence.
 ]
 
 ==== Methylphenidate — High Risk
@@ -175,9 +190,9 @@ Amphetamines carry the highest risk of permanent worsening of any medication cla
 
 *Permanent worsening mechanism:* If the metabolic PEM from sustained methylphenidate use is severe enough, the energy-ratchet threshold is crossed — mitochondrial damage from sustained ROS production accumulates beyond the repair capacity, and the patient settles at a lower baseline. This is the same ratchet mechanism as any severe PEM episode, but methylphenidate can sustain the metabolic demand for weeks — far longer than any voluntary exertion — making the energy debt far larger.
 
-*Diagnostic information from the worsening:* A severe methylphenidate crash confirms: (a) the dopaminergic/noradrenergic system is functional (the drug provided cognitive benefit — the receptors and transporters work), but (b) the metabolic cost of catecholamine signalling exceeds the patient's energy budget. This distinguishes from amphetamine crash: methylphenidate crash confirms NE/DA reuptake is intact (presynaptic terminals are present and functional — rules out severe terminal loss) and localizes the bottleneck to metabolic capacity (mitochondrial ATP production cannot sustain increased catecholaminergic tone). If the patient crashes on methylphenidate but not on atomoxetine → the bottleneck is the dopamine component (DAT-mediated DA increase is more metabolically costly than NET-mediated NE increase alone), or atomoxetine's lower HR effect keeps the sympathetic metabolic cost below threshold.
+*Diagnostic information from the worsening:* A severe methylphenidate crash confirms: (a) the dopaminergic/noradrenergic system is functional (the drug provided cognitive benefit — the receptors and transporters work), but (b) the metabolic cost of catecholamine signaling exceeds the patient's energy budget. This distinguishes from amphetamine crash: methylphenidate crash confirms NE/DA reuptake is intact (presynaptic terminals are present and functional — rules out severe terminal loss) and localizes the bottleneck to metabolic capacity (mitochondrial ATP production cannot sustain increased catecholaminergic tone). If the patient crashes on methylphenidate but not on atomoxetine → the bottleneck is the dopamine component (DAT-mediated DA increase is more metabolically costly than NET-mediated NE increase alone), or atomoxetine's lower HR effect keeps the sympathetic metabolic cost below threshold.
 
-*Management:* If worsening occurred at standard doses (10--20 mg BID), consider: (a) a lower dose (2.5--5 mg once daily) with concurrent mitochondrial support (CoQ10 + NADH); (b) switching to atomoxetine — pure NRI, less HR increase, lower metabolic cost; (c) switching to modafinil — DAT-only, no NET-mediated sympathetic activation. If the patient has already experienced protracted worsening (not recovered at 6 weeks), do not rechallenge with any DNRI until full recovery is documented. If worsening is permanent (>12 months without recovery to 80% baseline), all catecholamine reuptake inhibitors are relatively contraindicated — the metabolic-cost PEM mechanism will reactivate.
+*Management:* If worsening occurred at standard doses (10--20 mg BID), consider: (a) a lower dose (2.5--5 mg once daily) with concurrent mitochondrial support (CoQ10 + NADH); (b) switching to atomoxetine — pure NRI, less HR increase, lower metabolic cost; (c) switching to modafinil — primarily DAT-mediated, no NET-mediated sympathetic activation. If the patient has already experienced protracted worsening (not recovered at 6 weeks), do not rechallenge with any DNRI until full recovery is documented. If worsening is permanent (>12 months without recovery to 80% baseline), all catecholamine reuptake inhibitors are relatively contraindicated — the metabolic-cost PEM mechanism will reactivate.
 
 ==== IVIG — Moderate-High Risk
 
@@ -211,7 +226,7 @@ Amphetamines carry the highest risk of permanent worsening of any medication cla
 
 *Permanent worsening mechanism:* Procedure-induced catastrophic PEM — the hemodynamic and metabolic stress of the plasmapheresis session exceeds the patient's recovery capacity, and the resulting PEM episode advances the ratchet. This is uncommon but plausible in the most severe patients (bedbound, unable to sit upright, severely energy-depleted).
 
-*Management:* Ensure adequate pre-procedure hydration (normal saline bolus before and during), monitor BP continuously, maintain supine position throughout. If the patient has POTS, consider midodrine pre-treatment to support BP during the procedure. If the patient experienced protracted worsening from IA (>4 weeks): the patient's cardiovascular system cannot tolerate extracorporeal volume shifts — IA is no longer accessible. Consider BC007 as an alternative — it is an intravenous infusion without extracorporeal circuit, eliminating the hemodynamic stress.
+*Management:* Ensure adequate pre-procedure hydration (normal saline bolus before and during), monitor BP continuously, maintain supine position throughout. If the patient has POTS, consider midodrine pre-treatment to support BP during the procedure. If the patient experienced protracted worsening from IA (>4 weeks): the patient's cardiovascular system cannot tolerate extracorporeal volume shifts — IA is no longer accessible. Consider BC007 (research-stage, not clinically available) as an alternative — it is an intravenous infusion without extracorporeal circuit, eliminating the hemodynamic stress.
 
 ==== Aripiprazole (Low-Dose) — Low-Moderate Risk
 
@@ -247,7 +262,7 @@ Amphetamines carry the highest risk of permanent worsening of any medication cla
 
 ==== Pyridostigmine — Very Low Risk
 
-*Onset and duration:* GI cramping and diarrhoea at standard starting dose (30--60 mg) — reflects cholinergic hypersensitivity. Resolves within hours of dose reduction or drug clearance (half-life ~3--4h). Protracted worsening from pyridostigmine is not documented — the drug's effects are entirely peripheral (quaternary amine, does not cross BBB) and resolve with drug clearance.
+*Onset and duration:* GI cramping and diarrhea at standard starting dose (30--60 mg) — reflects cholinergic hypersensitivity. Resolves within hours of dose reduction or drug clearance (half-life ~3--4h). Protracted worsening from pyridostigmine is not documented — the drug's effects are entirely peripheral (quaternary amine, does not cross BBB) and resolve with drug clearance.
 
 *Mechanism:* Pattern 3 — off-target effect (GI cholinergic hypersensitivity). The drug does not trigger PEM, does not deplete neurotransmitters, does not suppress the HPA axis, and does not induce immune sensitization. It is one of the safest drugs in the ME/CFS pharmacopeia from a worsening-risk perspective.
 
@@ -299,7 +314,7 @@ Amphetamines carry the highest risk of permanent worsening of any medication cla
 
 ==== Gabapentinoids (Gabapentin, Pregabalin) — Low-Moderate Risk
 
-*Mechanism:* Parallel to benzodiazepines — Mechanism E (withdrawal-PEM convergence). Gabapentinoid withdrawal (anxiety, insomnia, tachycardia, sweating) is increasingly recognized as a clinically significant withdrawal syndrome that can persist for weeks to months. In ME/CFS, the withdrawal triggers the standard PEM cascade. Additionally, gabapentinoids at therapeutic doses produce cognitive impairment and sedation that may mask the patient's PEM warning signals — the patient feels "better" on gabapentin (pain reduced, anxiety reduced) but overexerts because the drug suppresses the PEM early-warning somatic cues that normally signal "stop."
+*Mechanism:* Parallel to benzodiazepines — Mechanism E (withdrawal-PEM convergence). Gabapentinoid withdrawal (anxiety, insomnia, tachycardia, sweating) is now documented as a clinically significant withdrawal syndrome that can persist for weeks to months. In ME/CFS, the withdrawal triggers the standard PEM cascade. Additionally, gabapentinoids at therapeutic doses produce cognitive impairment and sedation that may mask the patient's PEM warning signals — the patient feels "better" on gabapentin (pain reduced, anxiety reduced) but overexerts because the drug suppresses the PEM early-warning somatic cues that normally signal "stop."
 
 *Management:* If gabapentinoids are used for neuropathic pain or sleep, use the lowest effective dose, and plan a very slow taper (months, not weeks) before discontinuation. Do NOT prescribe gabapentinoids for ME/CFS-related "anxiety" — the anxiety is more likely a symptom of sympathetic overactivation from autonomic dysfunction, and treating it with a CNS depressant suppresses the warning signal without treating the underlying autonomic pathology. Midodrine, ivabradine, or pyridostigmine for the autonomic component + LDN for neuroinflammation are safer, lower-worsening-risk alternatives.
 
@@ -317,7 +332,7 @@ Amphetamines carry the highest risk of permanent worsening of any medication cla
 
 ==== DORAs (Daridorexant, Suvorexant, Lemborexant) — Low Risk
 
-*Mechanism:* Sleep paralysis and complex sleep behaviours occur in patients with critically low baseline orexin tone (consistent with the orexin-suppression model). These resolve with drug clearance (half-life ~8h) and do not cause protracted worsening. The sleep paralysis IS the diagnostic signal — it confirms the patient has near-narcolepsy-level orexin deficiency and should receive orexin agonism, not antagonism.
+*Mechanism:* Sleep paralysis and complex sleep behaviors occur in patients with critically low baseline orexin tone (consistent with the orexin-suppression model). These resolve with drug clearance (half-life ~8h) and do not cause protracted worsening. The sleep paralysis IS the diagnostic signal — it confirms the patient has near-narcolepsy-level orexin deficiency and should receive orexin agonism, not antagonism.
 
 *Management:* Discontinue if sleep paralysis occurs. The event localizes the sleep pathology to the orexin system with high specificity and no permanent consequence. Rechallenge is contraindicated because the patient's orexin tone is too low — but no permanent damage has been done.
 
@@ -337,35 +352,35 @@ Amphetamines carry the highest risk of permanent worsening of any medication cla
 
 ==== Summary Risk Table
 
+*Note: All risk classifications are ordinal categories derived from pharmacological first principles and the energy-ratchet model. They are NOT empirical incidence rates — no controlled pharmacovigilance data exist in ME/CFS. Use as a comparative risk framework, not as quantitative probability estimates.*
+
 | Medication | Protracted Risk | Permanent Risk | Dominant Mechanism | Rechallenge? |
 |---|---|---|---|---|
-| Amphetamines | Very High (50--70%) | High (30--50%) | A + B + E convergence | Never |
-| Methylphenidate | High (40--60%) | Moderate (10--20%) | B + E | Only after full recovery, at lower dose, with metabolic support |
-| IVIG | Moderate (15--30%) | Low (5--10%) | B + D | Only with MCAS pre-treatment |
-| Corticosteroids | Moderate-High (20--40%) | Low-Moderate (5--15%) | A + E | Short courses only; taper over weeks, not days |
-| Immunoadsorption | Low-Moderate (5--15%) | Low (\<5%) | B | Acceptable with hemodynamic support |
-| SSRIs/SNRIs | Low-Moderate (10--25%) | Low (\<10%) | E | Yes, with very slow taper planned in advance |
-| Benzodiazepines | Low-Moderate (10--25%) | Low (\<10%) | E | Yes, with very slow taper planned in advance |
-| Gabapentinoids | Low-Moderate (5--15%) | Low (\<5%) | E | Yes, with very slow taper |
-| DCA | Moderate (15--30%) | Moderate (10--20%) | A | Only if no neuropathy and PDH is the last remaining hypothesis |
-| Aripiprazole | Low-Moderate (5--15%) | Low (\<5%) | A + C + D | At lower dose; never if persistent post-clearance akathisia |
-| Valganciclovir | Moderate (15--25%) | Low (5--10%) | A | Only with ANC monitoring; G-CSF support if needed |
-| H2 Antagonists | Low (3--8%) | Very Low (\<2%) | C | Never if psychiatric reaction |
-| LDN | Low (3--8%) | Very Low (\<2%) | C | Never if psychiatric reaction |
-| Fludrocortisone | Low (2--5%) | Very Low (\<1%) | C | Yes, at lower dose with compression |
-| Valacyclovir | Low (2--5%) | Very Low (\<1%) | A (unmasking) | Yes, with dose adjustment for renal function |
-| DMF | Very Low (1--3%) | Very Low (\<1%) | N/A | Yes, with aspirin pre-treatment for flush |
-| DORAs | Very Low (\<2%) | Very Low (\<1%) | N/A | Never if sleep paralysis; diagnostic done |
-| H1 Antihistamines | Very Low (\<1%) | Very Low (\<1%) | N/A | Yes, at lower dose |
-| Pyridostigmine | Very Low (\<1%) | Very Low (\<1%) | N/A | Always, at lower dose |
-| Pitolisant | Very Low (\<1%) | Very Low (\<1%) | N/A | Yes, at lower dose |
-| Mitochondrial Supplements | Very Low (\<1%) | Very Low (\<1%) | N/A | Always — worsening is diagnostic, not harmful |
-
-*Risk estimates are provisional — no controlled pharmacovigilance data exist in ME/CFS. Ranges reflect mechanistic inference anchored in the energy-ratchet model and known pharmacology, with wide confidence intervals to reflect the absence of direct evidence.*
+| Amphetamines | Very High | High | A + B + E convergence | Never |
+| Methylphenidate | High | Moderate | B + E | Only after full recovery, at lower dose, with metabolic support |
+| IVIG | Moderate | Low--Moderate | B + D | Only with MCAS pre-treatment |
+| Corticosteroids | Moderate--High | Low--Moderate | A + E | Short courses only; taper over weeks, not days |
+| Immunoadsorption | Low--Moderate | Low | B | Acceptable with hemodynamic support |
+| SSRIs/SNRIs | Low--Moderate | Low | E | Yes, with very slow taper planned in advance |
+| Benzodiazepines | Low--Moderate | Low | E | Yes, with very slow taper planned in advance |
+| Gabapentinoids | Low--Moderate | Low | E | Yes, with very slow taper |
+| DCA | Moderate | Moderate | A | Only if no neuropathy and PDH is the last remaining hypothesis |
+| Aripiprazole | Low--Moderate | Low | A + C + D | At lower dose; never if persistent post-clearance akathisia |
+| Valganciclovir | Moderate | Low | A | Only with ANC monitoring; G-CSF support if needed |
+| H2 Antagonists | Low | Very Low | C | Never if psychiatric reaction |
+| LDN | Low | Very Low | C | Never if psychiatric reaction |
+| Fludrocortisone | Low | Very Low | C | Yes, at lower dose with compression |
+| Valacyclovir | Low | Very Low | A (unmasking) | Yes, with dose adjustment for renal function |
+| DMF | Very Low | Very Low | N/A | Yes, with aspirin pre-treatment for flush |
+| DORAs | Very Low | Very Low | N/A | Never if sleep paralysis; diagnostic done |
+| H1 Antihistamines | Very Low | Very Low | N/A | Yes, at lower dose |
+| Pyridostigmine | Very Low | Very Low | N/A | Always, at lower dose |
+| Pitolisant | Very Low | Very Low | N/A | Yes, at lower dose |
+| Mitochondrial Supplements | Very Low | Very Low | N/A | Always — worsening is diagnostic, not harmful |
 
 ==== Clinical Protocol: When a Patient Reports Never Recovering From a Medication
 
-#warning-env(title: [Protocol for Medication-Associated Permanent Decline])[
+#warning-env(title: [Protocol for Medication-Associated Permanent Decline])[ <warn:medication-permanent-decline-protocol>
 When a patient reports they "never recovered" after a medication trial, the following protocol should be applied before any new medication is prescribed:
 
 1. *Confirm the temporal relationship.* Did the decline begin during treatment, on dose increase, on discontinuation, or weeks after cessation? The timing maps the mechanism: during treatment → direct pharmacodynamic damage (Mechanism A) or metabolic PEM (Mechanism B); on discontinuation → withdrawal-PEM convergence (Mechanism E); weeks after → paradoxical receptor cascade (Mechanism C) or immune sensitization (Mechanism D).
