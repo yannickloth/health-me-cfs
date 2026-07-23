@@ -285,24 +285,44 @@
 
   .gt-icon {
     display: inline-block;
-    inline-size: 12px;
-    block-size: 12px;
+    inline-size: 11px;
+    block-size: 11px;
     border-radius: 50%;
     background: #94a3b8;
     color: #fff;
-    font-size: 8px;
+    font-size: 7px;
     font-weight: 700;
-    line-height: 12px;
+    line-height: 11px;
     text-align: center;
-    vertical-align: super;
     margin-inline-start: 1px;
     cursor: help;
     user-select: none;
     position: relative;
-    top: -0.15em;
+    top: -0.3em;
+    font-style: normal;
+    content: '?';
+  }
+
+  .gt:not(:has(.gt-icon))::after {
+    display: inline-block;
+    inline-size: 11px;
+    block-size: 11px;
+    border-radius: 50%;
+    background: #94a3b8;
+    color: #fff;
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 11px;
+    text-align: center;
+    cursor: help;
+    content: '?';
+    position: relative;
+    top: -0.3em;
   }
   .gt:hover .gt-icon,
-  .gt-active .gt-icon {
+  .gt-active .gt-icon,
+  .gt:hover::after,
+  .gt-active::after {
     background: #2563eb;
   }
 

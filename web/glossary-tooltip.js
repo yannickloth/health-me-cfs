@@ -14,32 +14,40 @@
       });
   }
 
-  function buildTooltip(key, entry) {
+  function buildTooltip(key, entry, glossary) {
+    // Resolve alias entries: if entry has an 'alias' field, follow it to the canonical entry
+    var e = entry;
+    var resolvedKey = key;
+    while (e && e.alias && glossary[e.alias]) {
+      resolvedKey = e.alias;
+      e = glossary[resolvedKey];
+    }
+
     var div = document.createElement('div');
     div.className = 'gt-pop';
 
     var cats = { medication: 'Medication', supplement: 'Supplement', medication_class: 'Class', disease: 'Disease', symptom: 'Symptom', condition: 'Condition', hormone: 'Hormone', neurotransmitter: 'Neurotransmitter', cytokine: 'Cytokine', protein: 'Protein', enzyme: 'Enzyme', molecule: 'Molecule', metabolite: 'Metabolite', pathway: 'Pathway', receptor: 'Receptor', transporter: 'Transporter', transcription_factor: 'Transcription Factor', cell: 'Cell', immune: 'Immune', biomarker: 'Biomarker', measurement: 'Measurement', axis: 'Axis', system: 'System', barrier: 'Barrier', fluid: 'Fluid', test: 'Test', imaging: 'Imaging', pathogen: 'Pathogen', diagnostic: 'Diagnostic', method: 'Method', treatment: 'Treatment', organization: 'Organization', regulation: 'Regulation', administration: 'Administration', neurotrophin: 'Neurotrophin', cofactor: 'Cofactor', concept: 'Concept', mechanism: 'Mechanism', anatomy: 'Anatomy', vitamin: 'Vitamin' };
-    var cat = cats[entry.category] || entry.category;
+    var cat = cats[e.category] || e.category;
 
     var lines = [];
     lines.push('<span class="gt-cat">' + cat + '</span>');
-    lines.push('<span class="gt-term">' + (entry.label || key) + '</span>');
-    lines.push('<span class="gt-def">' + entry.definition + '</span>');
+    lines.push('<span class="gt-term">' + (e.label || resolvedKey) + '</span>');
+    lines.push('<span class="gt-def">' + e.definition + '</span>');
 
-    if (entry.generic) {
-      lines.push('<span><b>Generic:</b> ' + entry.generic + '</span>');
+    if (e.generic) {
+      lines.push('<span><b>Generic:</b> ' + e.generic + '</span>');
     }
-    if (entry.brand) {
-      lines.push('<span><b>Brand:</b> ' + entry.brand + '</span>');
+    if (e.brand) {
+      lines.push('<span><b>Brand:</b> ' + e.brand + '</span>');
     }
-    if (entry['class']) {
-      lines.push('<span><b>Class:</b> ' + entry['class'] + '</span>');
+    if (e['class']) {
+      lines.push('<span><b>Class:</b> ' + e['class'] + '</span>');
     }
-    if (entry.rx) {
-      lines.push('<span><b>Availability:</b> ' + entry.rx + '</span>');
+    if (e.rx) {
+      lines.push('<span><b>Availability:</b> ' + e.rx + '</span>');
     }
-    if (entry.also) {
-      lines.push('<span class="gt-also">' + entry.also + '</span>');
+    if (e.also) {
+      lines.push('<span class="gt-also">' + e.also + '</span>');
     }
 
     div.innerHTML = lines.join('');
@@ -102,12 +110,14 @@
     }
   }
 
+  var currentGlossary = {};
+
   function attachEvents(el, key, entry) {
     var open = false;
 
     el.addEventListener('mouseenter', function () {
       if ('ontouchstart' in window) return;
-      var pop = buildTooltip(key, entry);
+      var pop = buildTooltip(key, entry, currentGlossary);
       show(el, pop);
       open = true;
     });
@@ -126,7 +136,7 @@
         hideAll();
         open = false;
       } else {
-        var pop = buildTooltip(key, entry);
+        var pop = buildTooltip(key, entry, currentGlossary);
         show(el, pop);
         open = true;
       }
@@ -162,7 +172,7 @@
         if (re.test(html)) {
           modified = true;
           re.lastIndex = 0;
-          html = html.replace(re, '<span class="gt" data-gt="' + key.replace(/"/g, '&quot;') + '">$1<sup class="gt-icon">?</sup></span>');
+          html = html.replace(re, '<span class="gt" data-gt="' + key.replace(/"/g, '&quot;') + '">$1</span>');
         }
       }
 
@@ -186,6 +196,7 @@
 
   function init() {
     loadGlossary().then(function (glossary) {
+      currentGlossary = glossary;
       var keys = Object.keys(glossary);
       if (keys.length === 0) return;
 
