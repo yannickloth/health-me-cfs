@@ -414,6 +414,12 @@
     "category": "cell",
     "definition": "Red Blood Cells (Erythrocytes): oxygen-carrying blood cells. RBC deformability and morphology abnormalities have been reported in ME/CFS."
   },
+    "PMC": {
+    "label": "PMC",
+    "category": "symptom",
+    "definition": "Post-Masking Crash: a now-withdrawn concept proposed by Chang et al. (2025) suggesting that unmasked PEM — the natural crash after overexertion — somehow differs from 'true' PEM, based on a methodologically flawed survey using non-validated recall items and no objective PEM provocation. No clinical or physiological basis exists for this distinction; PEM is the same phenomenon regardless of the triggering context. The terminology risked implying that patients who must push through activities (work, caregiving, medical appointments) are not experiencing authentic PEM — an implication at odds with the biomedical consensus that PEM is a single, objectively demonstrable pathophysiological response to exertion exceeding individual capacity.",
+    "also": "Withdrawn concept (Chang et al. 2025); see PEM for the validated, consensus definition"
+  },
   "WBC": {
     "label": "WBC",
     "category": "cell",
