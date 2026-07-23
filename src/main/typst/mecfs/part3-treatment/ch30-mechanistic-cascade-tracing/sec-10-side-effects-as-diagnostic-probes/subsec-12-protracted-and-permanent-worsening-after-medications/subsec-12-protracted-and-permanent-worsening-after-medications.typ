@@ -1,41 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ATP*:  adenosine triphosphate
-/ *BBB*:  blood-brain barrier
-/ *BP*:  blood pressure
-/ *CNS*:  central nervous system
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *CYP*:  cytochrome P450
-/ *DA*:  dopamine
-/ *DNRI*:  dopamine-norepinephrine reuptake inhibitor
-/ *ETC*:  electron transport chain
-/ *GPCR*:  G protein-coupled receptor
-/ *GSH*:  glutathione; primary intracellular antioxidant
-/ *HPA*:  hypothalamic-pituitary-adrenal axis
-/ *HR*:  heart rate
-/ *IENFD*:  intraepidermal nerve fiber density
-/ *IVIG*:  intravenous immunoglobulin
-/ *LDN*:  low-dose naltrexone
-/ *MCAS*:  mast cell activation syndrome
-/ *NAC*:  N-acetylcysteine
-/ *NE*:  norepinephrine
-/ *NMDA*:  N-methyl-D-aspartate
-/ *NRI*:  norepinephrine reuptake inhibitor
-/ *PDH*:  pyruvate dehydrogenase
-/ *PEM*:  post-exertional malaise
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *PMC*:  post-masking crash (see Mechanism H)
-/ *PTSD*:  post-traumatic stress disorder
-/ *REE*:  resting energy expenditure
-/ *ROS*:  reactive oxygen species
-/ *SC*:  supercomplex
-/ *TLR4*:  Toll-like receptor 4
-/ *VMAT2*:  vesicular monoamine transporter 2
-/ *hEDS*:  hypermobile Ehlers-Danlos syndrome
-
-
 === Protracted and Permanent Worsening After Medications
   <sec:protracted-permanent-worsening>
 
@@ -222,7 +186,6 @@ This convergence pattern is the mechanism behind the clinical observation that a
 
 *Consequence:* The eleven-mechanism framework is a clinical reasoning tool, not a validated taxonomy. Clinicians should treat mechanism assignments as working hypotheses and inform patients that the attribution of worsening to a specific medication is probabilistic, not definitive. Future pharmacovigilance registries could validate or refute individual mechanism categories.
 ]
-
 
 === Drug-Indexed Pharmacodiagnostic Reference
 

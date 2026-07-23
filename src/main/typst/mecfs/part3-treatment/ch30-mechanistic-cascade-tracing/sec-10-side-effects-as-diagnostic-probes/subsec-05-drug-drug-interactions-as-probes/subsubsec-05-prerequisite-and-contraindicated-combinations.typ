@@ -1,37 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *ACh*:  acetylcholine
-/ *AChE*:  acetylcholinesterase
-/ *AChR*:  acetylcholine receptor
-/ *ATP*:  adenosine triphosphate
-/ *BP*:  blood pressure
-/ *CAP*:  cholinergic anti-inflammatory pathway
-/ *CNS*:  central nervous system
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *COX-2*:  cyclooxygenase-2
-/ *DORA*:  dual orexin receptor antagonist
-/ *ETC*:  electron transport chain
-/ *GABA*:  gamma-aminobutyric acid
-/ *GPCR*:  G protein-coupled receptor
-/ *HR*:  heart rate
-/ *HRV*:  heart rate variability
-/ *IA*:  immunoadsorption
-/ *IVIG*:  intravenous immunoglobulin
-/ *LDN*:  low-dose naltrexone
-/ *MCAS*:  mast cell activation syndrome
-/ *MRGPRX2*:  Mas-related G protein-coupled receptor X2; mast cell receptor
-/ *NAC*:  N-acetylcysteine
-/ *NSAID*:  non-steroidal anti-inflammatory drug
-/ *PEM*:  post-exertional malaise
-/ *PGD2*:  prostaglandin D2; mast-cell-derived prostaglandin
-/ *ROS*:  reactive oxygen species
-/ *taVNS*:  transcutaneous auricular vagus nerve stimulation
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== Prerequisite and Contraindicated Combinations
 
 Some combinations are not merely additive probes — they are prerequisites for either drug to work at all, or they are contraindicated because one drug removes the system the other depends on:

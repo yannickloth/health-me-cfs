@@ -1,30 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AADC*:  aromatic L-amino acid decarboxylase; converts L-DOPA to dopamine
-/ *ATP*:  adenosine triphosphate
-/ *CNS*:  central nervous system
-/ *DA*:  dopamine
-/ *DAT*:  dopamine transporter
-/ *DBH*:  dopamine-beta-hydroxylase
-/ *DORA*:  dual orexin receptor antagonist
-/ *HR*:  heart rate
-/ *LC-NE*:  locus coeruleus-norepinephrine
-/ *LDN*:  low-dose naltrexone
-/ *MCAS*:  mast cell activation syndrome
-/ *NE*:  norepinephrine
-/ *NMDA*:  N-methyl-D-aspartate
-/ *NRI*:  norepinephrine reuptake inhibitor
-/ *OH*:  orthostatic hypotension
-/ *OI*:  orthostatic intolerance
-/ *PEA*:  palmitoylethanolamide; PPAR-alpha agonist
-/ *PEM*:  post-exertional malaise
-/ *PFC*:  prefrontal cortex
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *SNRI*:  serotonin-norepinephrine reuptake inhibitor
-
-
 === Pattern 6 — Symptom-Specific Dissociation
 <sec:pattern-dissociation>
 

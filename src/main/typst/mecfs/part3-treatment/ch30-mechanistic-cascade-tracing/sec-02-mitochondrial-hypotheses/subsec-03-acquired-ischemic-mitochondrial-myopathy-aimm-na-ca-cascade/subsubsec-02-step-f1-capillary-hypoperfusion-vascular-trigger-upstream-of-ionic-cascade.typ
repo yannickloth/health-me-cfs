@@ -1,13 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *CPET*:  cardiopulmonary exercise testing
-/ *GPCR*:  G protein-coupled receptor
-
-
 ==== Step F1: Capillary hypoperfusion (vascular trigger — upstream of ionic cascade)
 
 *Mechanism:* The initial event is impaired oxygen delivery to working muscle. This can be from: (a) endothelial dysfunction — GPCR AAb (β2-AR, M2/M4) impair endothelium-dependent vasodilation → exercise hyperemia fails → muscle receives less blood during exertion; (b) microclots — amyloid fibrin(ogen) microclots (Pretorius 2021) obstruct capillaries → reduced functional capillary density; (c) RBC deformability loss — stiff erythrocytes cannot pass through capillaries smaller than their diameter → impaired microvascular flow; (d) autonomic failure — impaired sympathetic vasoconstriction in non-exercising muscle beds + impaired vasodilation in exercising muscle → blood flow misdistribution.

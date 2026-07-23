@@ -1,14 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *ATP*:  adenosine triphosphate
-/ *HR*:  heart rate
-/ *IVIG*:  intravenous immunoglobulin
-/ *PEM*:  post-exertional malaise
-
-
 ==== The Net Energy Budget
 
 - *Track total functional capacity, not symptom scores:* A drug that reduces brain fog by 30% but reduces upright hours by 40% is a net negative — the energy cost of the drug + the energy cost of the side effect exceeds the energy freed by the therapeutic mechanism. The therapeutic endpoint is NOT symptom improvement — it is total daily functional capacity (step count, upright hours, cognitive task completion, PEM threshold). The net energy budget is: (functional capacity gain from therapeutic effect) − (functional capacity loss from side effects) − (metabolic cost of drug metabolism). If negative, the drug's node is insufficiently rate-limiting to justify its cost.

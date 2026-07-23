@@ -1,15 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ATP*:  adenosine triphosphate
-/ *DA*:  dopamine
-/ *NE*:  norepinephrine
-/ *PEM*:  post-exertional malaise
-/ *PFC*:  prefrontal cortex
-/ *REE*:  resting energy expenditure
-
-
 ==== Caffeine Self-Experimentation as Catecholamine Probe
 
 Most ME/CFS patients have already self-titrated caffeine for years. Their relationship with it contains diagnostic information:

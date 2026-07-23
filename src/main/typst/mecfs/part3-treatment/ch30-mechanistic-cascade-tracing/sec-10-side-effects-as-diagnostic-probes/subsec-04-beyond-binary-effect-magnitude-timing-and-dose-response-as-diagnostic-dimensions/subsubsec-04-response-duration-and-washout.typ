@@ -1,10 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *LDN*:  low-dose naltrexone
-
-
 ==== Response Duration and Washout
 
 How long benefit persists after stopping reveals the mechanism's kinetics:

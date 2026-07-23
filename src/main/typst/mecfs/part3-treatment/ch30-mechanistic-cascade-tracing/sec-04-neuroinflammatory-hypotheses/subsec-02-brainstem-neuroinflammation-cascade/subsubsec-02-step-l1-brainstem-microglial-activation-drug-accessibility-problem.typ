@@ -1,19 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *ACh*:  acetylcholine
-/ *AChR*:  acetylcholine receptor
-/ *BBB*:  blood-brain barrier
-/ *DMV*:  dorsal motor nucleus of vagus
-/ *GPCR*:  G protein-coupled receptor
-/ *IgG*:  immunoglobulin G
-/ *IVIG*:  intravenous immunoglobulin
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-
-
 ==== Step L1: Brainstem microglial activation — drug accessibility problem
 
 *Mechanism:* The BBB in the medulla is tighter than in cortex or hypothalamus — tight junctions between brainstem capillary endothelial cells have higher expression of occludin and claudin-5. Peripheral anti-inflammatory drugs may have limited brainstem penetration. LDN (small molecule, MW 341) crosses the BBB but brainstem concentration may be lower than cortical concentration. Minocycline (MW 458, lipophilic) has good BBB penetration and may achieve better brainstem concentrations than LDN.

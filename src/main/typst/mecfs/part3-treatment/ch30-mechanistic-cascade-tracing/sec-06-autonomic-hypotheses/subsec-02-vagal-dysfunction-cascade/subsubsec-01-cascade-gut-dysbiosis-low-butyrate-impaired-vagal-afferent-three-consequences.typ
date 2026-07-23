@@ -1,18 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ACh*:  acetylcholine
-/ *AChR*:  acetylcholine receptor
-/ *CAP*:  cholinergic anti-inflammatory pathway
-/ *DA*:  dopamine
-/ *HR*:  heart rate
-/ *HRV*:  heart rate variability
-/ *SA node*:  sinoatrial node
-/ *SIBO*:  small intestinal bacterial overgrowth
-/ *TPH1*:  tryptophan hydroxylase 1; peripheral serotonin synthesis enzyme (gut EC cells)
-
-
 ==== Cascade: Gut dysbiosis → low butyrate → impaired vagal afferent → three consequences
 
 *Cascade:*

@@ -1,17 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *DORA*:  dual orexin receptor antagonist
-/ *IVIG*:  intravenous immunoglobulin
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-/ *NRI*:  norepinephrine reuptake inhibitor
-/ *SNRI*:  serotonin-norepinephrine reuptake inhibitor
-/ *TLR4*:  Toll-like receptor 4
-/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
-
-
 ==== Response Onset Latency
 
 How quickly a drug works reveals whether the mechanism is functional/electrophysiological (seconds to hours), synaptic/neurotransmitter (days), or structural/neuroplastic (weeks to months):

@@ -1,18 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ALA*:  alpha-lipoic acid; antioxidant and pyruvate dehydrogenase cofactor
-/ *DCA*:  dichloroacetate; pyruvate dehydrogenase kinase inhibitor
-/ *ETC*:  electron transport chain
-/ *LDN*:  low-dose naltrexone
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *PDH*:  pyruvate dehydrogenase
-/ *PDK*:  pyruvate dehydrogenase kinase
-/ *SIBO*:  small intestinal bacterial overgrowth
-/ *TCA*:  tricarboxylic acid cycle
-
-
 ==== Step E2: PDH phosphorylation — enzymatic block (the enzyme level)
 
 *Probes for restoring PDH activity:*

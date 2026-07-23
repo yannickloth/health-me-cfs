@@ -1,19 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *CCI*:  craniocervical instability
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *ETC*:  electron transport chain
-/ *GPCR*:  G protein-coupled receptor
-/ *IVIG*:  intravenous immunoglobulin
-/ *LDN*:  low-dose naltrexone
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *TLR4*:  Toll-like receptor 4
-/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
-
-
 ==== The Null Ladder Algorithm
 
 The order of probes should minimize the number of trials needed to localize the lesion by maximizing the information content of each null. This is formally a decision tree optimization problem:

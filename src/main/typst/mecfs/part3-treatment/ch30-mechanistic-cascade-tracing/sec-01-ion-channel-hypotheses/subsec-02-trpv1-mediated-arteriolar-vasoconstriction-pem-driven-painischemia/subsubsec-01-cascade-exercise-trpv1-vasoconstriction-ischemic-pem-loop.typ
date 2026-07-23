@@ -1,15 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *Ca²⁺*:  calcium ion
-/ *COX-2*:  cyclooxygenase-2
-/ *PEM*:  post-exertional malaise
-/ *PGE2*:  prostaglandin E2
-/ *ROS*:  reactive oxygen species
-/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
-
-
 ==== Cascade: Exercise → TRPV1 vasoconstriction → ischemic PEM loop
 
 *Cascade:*

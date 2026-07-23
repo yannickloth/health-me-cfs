@@ -1,16 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *Ca²⁺*:  calcium ion
-/ *DA*:  dopamine
-/ *mPTP*:  mitochondrial permeability transition pore
-/ *NCX1*:  Na⁺/Ca²⁺ exchanger 1
-/ *NHE1*:  Na⁺/H⁺ exchanger 1
-/ *NMDA*:  N-methyl-D-aspartate
-/ *PEM*:  post-exertional malaise
-
-
 ==== Step F3: NCX1 reverse mode → mitochondrial Ca²⁺ overload (the tipping point)
 
 *Mechanism:* NCX1 normally operates in forward mode (3 Na⁺ in, 1 Ca²⁺ out — uses the Na⁺ gradient to extrude Ca²⁺). When intracellular Na⁺ is very high (from NHE1 activity), the Na⁺ gradient collapses. NCX1 reverses: it imports Ca²⁺ into the cell while extruding Na⁺. The result is cytosolic Ca²⁺ overload. Mitochondria buffer cytosolic Ca²⁺ by taking it up through the mitochondrial calcium uniporter (MCU) — but chronic Ca²⁺ uptake → mitochondrial Ca²⁺ overload → mPTP opening → mitochondrial depolarization and structural damage.

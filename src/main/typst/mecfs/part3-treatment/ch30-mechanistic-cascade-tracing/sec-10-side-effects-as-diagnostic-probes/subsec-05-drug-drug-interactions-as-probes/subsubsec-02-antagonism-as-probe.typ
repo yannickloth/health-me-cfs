@@ -1,18 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *BP*:  blood pressure
-/ *COX-2*:  cyclooxygenase-2
-/ *DA*:  dopamine
-/ *HR*:  heart rate
-/ *MCAS*:  mast cell activation syndrome
-/ *NE*:  norepinephrine
-/ *NSAID*:  non-steroidal anti-inflammatory drug
-/ *PGD2*:  prostaglandin D2; mast-cell-derived prostaglandin
-/ *PGE2*:  prostaglandin E2
-
-
 ==== Antagonism as Probe
 
 When drug A blocks the benefit of drug B, A's mechanism is upstream of B's, or A's side-effect profile counteracts B's therapeutic effect:

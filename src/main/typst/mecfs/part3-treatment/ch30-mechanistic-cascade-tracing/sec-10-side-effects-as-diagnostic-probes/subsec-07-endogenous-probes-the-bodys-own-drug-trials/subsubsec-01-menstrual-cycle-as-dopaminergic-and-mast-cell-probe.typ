@@ -1,14 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *DA*:  dopamine
-/ *DAT*:  dopamine transporter
-/ *GABA*:  gamma-aminobutyric acid
-/ *IgE*:  immunoglobulin E
-/ *MCAS*:  mast cell activation syndrome
-
-
 ==== Menstrual Cycle as Dopaminergic and Mast Cell Probe
 
 Estrogen is dopaminergic (enhances DA synthesis via tyrosine hydroxylase upregulation, reduces DA reuptake via DAT downregulation) and mast-cell-stabilizing (reduces IgE-mediated degranulation). Progesterone is GABAergic (allopregnanolone metabolite — positive allosteric modulator of GABA-A) and can trigger mast cell degranulation in sensitive individuals (estrogen withdrawal at luteal phase onset).

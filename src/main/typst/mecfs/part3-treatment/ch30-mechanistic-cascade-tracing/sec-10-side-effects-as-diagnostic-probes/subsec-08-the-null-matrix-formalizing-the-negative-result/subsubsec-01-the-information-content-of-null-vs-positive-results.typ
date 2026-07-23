@@ -1,13 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *GPCR*:  G protein-coupled receptor
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-
-
 ==== The Information Content of Null vs. Positive Results
 
 Consider three patients:

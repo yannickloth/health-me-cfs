@@ -1,14 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ETC*:  electron transport chain
-/ *MCAS*:  mast cell activation syndrome
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *OH*:  orthostatic hypotension
-/ *PARP*:  poly-ADP ribose polymerase
-
-
 ==== Step G2: NAD⁺ synthesis vs. consumption — which is the dominant mechanism?
 
 *Probes for synthesis:*

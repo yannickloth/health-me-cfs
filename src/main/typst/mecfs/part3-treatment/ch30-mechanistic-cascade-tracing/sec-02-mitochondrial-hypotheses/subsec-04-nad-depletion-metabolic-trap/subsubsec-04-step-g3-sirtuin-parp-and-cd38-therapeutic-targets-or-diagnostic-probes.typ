@@ -1,14 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ATP*:  adenosine triphosphate
-/ *ETC*:  electron transport chain
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *OH*:  orthostatic hypotension
-/ *PARP*:  poly-ADP ribose polymerase
-
-
 ==== Step G3: Sirtuin, PARP, and CD38 — therapeutic targets or diagnostic probes?
 
 - *Resveratrol (150--500 mg, sirtuin activator):* SIRT1 and SIRT3 require NAD⁺. If resveratrol improves mitochondrial function → sirtuin activation promotes mitochondrial biogenesis (SIRT1→PGC-1α) and ETC efficiency (SIRT3 deacetylates Complex I and II). If resveratrol worsens fatigue → sirtuins are already consuming NAD⁺ at maximal rate, and further activation depletes NAD⁺ below critical threshold.

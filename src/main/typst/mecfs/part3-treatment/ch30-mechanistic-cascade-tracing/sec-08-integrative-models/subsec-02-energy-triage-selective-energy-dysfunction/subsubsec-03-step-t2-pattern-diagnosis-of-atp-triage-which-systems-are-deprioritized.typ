@@ -1,27 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *ACh*:  acetylcholine
-/ *AChE*:  acetylcholinesterase
-/ *ATP*:  adenosine triphosphate
-/ *BH4*:  tetrahydrobiopterin; tyrosine hydroxylase cofactor
-/ *cAMP*:  cyclic adenosine monophosphate
-/ *Ca²⁺*:  calcium ion
-/ *CNS*:  central nervous system
-/ *DA*:  dopamine
-/ *DBH*:  dopamine-beta-hydroxylase
-/ *GPCR*:  G protein-coupled receptor
-/ *HCN*:  hyperpolarization-activated cyclic nucleotide-gated channel
-/ *LC-NE*:  locus coeruleus-norepinephrine
-/ *NE*:  norepinephrine
-/ *PEM*:  post-exertional malaise
-/ *PFC*:  prefrontal cortex
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *VMAT2*:  vesicular monoamine transporter 2
-
-
 ==== Step T2: Pattern diagnosis of ATP triage — which systems are deprioritized?
 
 The core probe: pharmacological bypass of each demand-response signaling pathway. Each drug provides the neurotransmitter or receptor activation that ATP shortage should have funded. The pattern of which bypass works identifies which signaling system is being ATP-triage-deprioritized:

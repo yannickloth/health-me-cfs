@@ -1,17 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *IDO*:  indoleamine 2,3-dioxygenase
-/ *IFN-γ*:  interferon gamma
-/ *IL*:  interleukin
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *PARP*:  poly-ADP ribose polymerase
-/ *PDH*:  pyruvate dehydrogenase
-/ *TDO*:  tryptophan 2,3-dioxygenase
-/ *TNF-α*:  tumour necrosis factor alpha
-
-
 ==== Cascade: IDO → kynurenine diversion → NAD⁺ synthesis defeat + consumption surge
 
 *Cascade:*

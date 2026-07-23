@@ -1,26 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ATP*:  adenosine triphosphate
-/ *BP*:  blood pressure
-/ *Ca²⁺*:  calcium ion
-/ *CREB*:  cAMP response element-binding protein
-/ *DA*:  dopamine
-/ *GABA*:  gamma-aminobutyric acid
-/ *HR*:  heart rate
-/ *KMO*:  kynurenine 3-monooxygenase
-/ *LTP*:  long-term potentiation
-/ *mTORC1*:  mechanistic target of rapamycin complex 1
-/ *NAC*:  N-acetylcysteine
-/ *NE*:  norepinephrine
-/ *NMDA*:  N-methyl-D-aspartate
-/ *PFC*:  prefrontal cortex
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *QUIN*:  quinolinic acid; N-methyl-D-aspartate receptor agonist from kynurenine pathway
-/ *ROS*:  reactive oxygen species
-
-
 ==== Step H2b: Quinolinic acid → NMDA excitotoxicity (the glutamate arm)
 
 *Mechanism:* QUIN is produced in microglia (KMO is predominantly microglial) and acts as an NMDA receptor agonist at the glycine co-agonist site. Unlike glutamate (which is rapidly cleared by astrocytes), QUIN has a long half-life in the extracellular space. Chronic QUIN elevation → sustained low-grade NMDA receptor activation → (a) excitotoxicity — excessive Ca²⁺ influx through NMDA receptors → mitochondrial Ca²⁺ overload, oxidative stress, and synaptic dysfunction; (b) reduced long-term potentiation (LTP) — the NMDA receptor is desensitized from chronic low-level activation, and the dynamic range for LTP (learning, memory) is reduced → cognitive dysfunction; (c) selective vulnerability of GABAergic interneurons (which express high levels of GluN2B-containing NMDA receptors that QUIN preferentially activates) → reduced inhibitory tone → network hyperexcitability → anxiety, hyperarousal, sensory sensitivity, tinnitus.

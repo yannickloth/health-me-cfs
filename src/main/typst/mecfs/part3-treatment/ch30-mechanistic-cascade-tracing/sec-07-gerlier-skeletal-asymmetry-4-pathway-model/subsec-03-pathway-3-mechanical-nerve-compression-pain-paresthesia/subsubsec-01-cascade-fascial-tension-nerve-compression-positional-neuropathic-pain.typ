@@ -1,18 +1,11 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *LDN*:  low-dose naltrexone
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== Cascade: Fascial tension → nerve compression → positional neuropathic pain
 
 *Cascade:*
 - Asymmetric fascial tension → altered nerve glide planes
 - Compression at mechanical pinch points (lateral femoral cutaneous, sciatic, pudendal)
 - Chronic low-grade compression neuropathy → fluctuating paresthesia, positional allodynia
-
 
 *Step G3a:* Mechanical nerve compression at pinch points
 - *Intercept:* Shoe lift / postural correction; Nerve glide exercises; Targeted nerve blocks (diagnostic)

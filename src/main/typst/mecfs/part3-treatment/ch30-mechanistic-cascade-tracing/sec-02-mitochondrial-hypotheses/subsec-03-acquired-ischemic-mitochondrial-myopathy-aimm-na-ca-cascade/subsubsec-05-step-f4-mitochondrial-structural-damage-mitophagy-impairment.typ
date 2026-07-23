@@ -1,21 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AIMM*:  acquired ischemic mitochondrial myopathy
-/ *Ca²⁺*:  calcium ion
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *ETC*:  electron transport chain
-/ *FAO*:  fatty acid oxidation
-/ *mPTP*:  mitochondrial permeability transition pore
-/ *mTORC1*:  mechanistic target of rapamycin complex 1
-/ *NAC*:  N-acetylcysteine
-/ *NCX1*:  Na⁺/Ca²⁺ exchanger 1
-/ *NHE1*:  Na⁺/H⁺ exchanger 1
-/ *PEM*:  post-exertional malaise
-/ *ROS*:  reactive oxygen species
-
-
 ==== Step F4: Mitochondrial structural damage → mitophagy impairment
 
 *Mechanism:* Chronically damaged mitochondria with open mPTP are targets for mitophagy (selective autophagy of mitochondria). PINK1 accumulates on depolarized mitochondria → recruits Parkin → ubiquitination → autophagosome engulfment → lysosomal degradation. In ME/CFS, mTORC1 is hypothesized to be overactive (driven by chronic low-grade inflammation and insulin signaling) → mTORC1 inhibits autophagy initiation (ULK1 phosphorylation) → damaged mitochondria accumulate because they cannot be cleared.

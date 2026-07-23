@@ -1,23 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *ATP*:  adenosine triphosphate
-/ *BH4*:  tetrahydrobiopterin; tyrosine hydroxylase cofactor
-/ *DA*:  dopamine
-/ *DBH*:  dopamine-beta-hydroxylase
-/ *GPCR*:  G protein-coupled receptor
-/ *IA*:  immunoadsorption
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-/ *NMDA*:  N-methyl-D-aspartate
-/ *NRI*:  norepinephrine reuptake inhibitor
-/ *PFC*:  prefrontal cortex
-/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
-/ *VMAT2*:  vesicular monoamine transporter 2
-
-
 === The Dopamine Convergence Node
 <sec:dopamine-convergence>
 

@@ -1,13 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CCI*:  craniocervical instability
-/ *CSF*:  cerebrospinal fluid
-/ *ECM*:  extracellular matrix
-/ *RAAS*:  renin-angiotensin-aldosterone system
-
-
 ==== Cascade: ECM variants/degradation → tissue laxity → four consequences
 
 *Cascade:*
@@ -16,7 +8,6 @@
 - (b) Joint hypermobility → proprioceptive dysfunction → chronic pain, functional CCI
 - (c) Dural laxity → CSF leak
 - (d) Vascular fragility
-
 
 *Step P1:* Venous compliance → venous pooling
 - *Intercept:* Compression garments (abdominal + leg); Midodrine (α1-adrenergic receptor agonist; vasoconstrictor) — venoconstriction; Fludrocortisone (mineralocorticoid; volume expansion) — volume expansion

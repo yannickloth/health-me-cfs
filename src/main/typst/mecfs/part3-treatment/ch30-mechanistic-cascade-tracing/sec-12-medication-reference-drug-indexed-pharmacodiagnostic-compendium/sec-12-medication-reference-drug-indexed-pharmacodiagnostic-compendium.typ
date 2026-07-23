@@ -11,31 +11,10 @@
 
 This section is the second entry door into this chapter — drug-indexed rather than mechanism-indexed. For the mechanism-indexed view, see Sections @sec:trpm3-cascade through @sec:triage-cascade.
 
-*Abbreviations used in this section:*
-
-/ *BBB*:  blood-brain barrier
-/ *CYP*:  cytochrome P450
-/ *DA*:  dopamine
-/ *ETC*:  electron transport chain
-/ *GPCR*:  G protein-coupled receptor
-/ *HPA*:  hypothalamic-pituitary-adrenal axis
-/ *IENFD*:  intraepidermal nerve fibre density
-/ *IVIG*:  intravenous immunoglobulin
-/ *LDN*:  low-dose naltrexone
-/ *MCAS*:  mast cell activation syndrome
-/ *NE*:  norepinephrine
-/ *NMDA*:  N-methyl-D-aspartate
-/ *PEM*:  post-exertional malaise
-/ *PMC*:  post-masking crash (Mechanism H — suppressive masking → delayed catastrophic crash)
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *REE*:  resting energy expenditure
-/ *VMAT2*:  vesicular monoamine transporter 2
 
 #limitation(title: [Risk Classification Disclaimer])[
 *Risk classification.* The worsening risk categories (Very Low through Very High) are ordinal rankings derived from pharmacological first principles and the energy-ratchet model. They are NOT empirical incidence rates — no controlled pharmacovigilance data exist in ME/CFS. Use as a comparative risk framework, not as quantitative probability estimates. Every medication listed here, unless noted otherwise, is used off-label for ME/CFS — none carries a regulatory-agency-approved indication for this disease.
 ]
-
-
 
 #pagebreak
 

@@ -1,12 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CCI*:  craniocervical instability
-/ *LDN*:  low-dose naltrexone
-/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
-
-
 === The Mechanical-vs-Biochemical Dichotomy (Gerlier vs. Autoimmune/Metabolic)
 <sec:mechanical-vs-biochemical>
 

@@ -1,20 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *DA*:  dopamine
-/ *DDR*:  discoidin domain receptor
-/ *DORA*:  dual orexin receptor antagonist
-/ *ECM*:  extracellular matrix
-/ *LC-NE*:  locus coeruleus-norepinephrine
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-/ *NMDA*:  N-methyl-D-aspartate
-/ *RAGE*:  receptor for advanced glycation end-products
-/ *S100B*:  S100 calcium-binding protein B; astrocyte damage marker
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== Step M3: Neurotoxin accumulation → sustained neuroinflammation
 
 *Mechanism:* Accumulated waste products are pro-inflammatory: quinolinic acid → NMDA excitotoxicity; S100B → RAGE receptor activation on microglia → sustained microglial activation; amyloid-β → TLR4 activation; ECM fragments → integrin and DDR receptor activation on astrocytes → reactive astrogliosis. The result: glymphatic failure produces neuroinflammation, which itself impairs glymphatic flow (inflammatory cytokines suppress AQP4 expression and disrupt astrocyte endfeet) → a self-sustaining loop: inflammation → impaired glymphatic → waste accumulation → more inflammation.

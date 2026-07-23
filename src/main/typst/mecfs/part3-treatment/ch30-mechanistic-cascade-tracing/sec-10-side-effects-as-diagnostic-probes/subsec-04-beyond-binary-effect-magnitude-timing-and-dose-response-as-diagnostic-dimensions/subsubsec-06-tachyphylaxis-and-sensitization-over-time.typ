@@ -1,11 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *LDN*:  low-dose naltrexone
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== Tachyphylaxis and Sensitization Over Time
 
 - *Tachyphylaxis (effect fades over weeks to months):* The system adapted to the drug. Receptor downregulation from chronic agonism (β-AR downregulation on beta-blockers; D2/D3 downregulation on aripiprazole). The rate of tachyphylaxis reveals receptor turnover kinetics. If tolerance develops in 2 weeks → rapid receptor internalization (intact cellular machinery). If tolerance never develops after years → the system cannot adapt — the receptor population is fixed (consistent with denervation: there are no receptors left to internalize).

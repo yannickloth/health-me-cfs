@@ -1,21 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
-/ *AAb*:  autoantibody
-/ *ACh*:  acetylcholine
-/ *AChE*:  acetylcholinesterase
-/ *AChR*:  acetylcholine receptor
-/ *CAP*:  cholinergic anti-inflammatory pathway
-/ *DMV*:  dorsal motor nucleus of vagus
-/ *GPCR*:  G protein-coupled receptor
-/ *IVIG*:  intravenous immunoglobulin
-/ *LDN*:  low-dose naltrexone
-/ *NTS*:  nucleus tractus solitarius
-/ *taVNS*:  transcutaneous auricular vagus nerve stimulation
-
-
 ==== Step R2: Impaired vagal afferent signaling → reduced vagal efferent tone (afferent/efferent transmission)
 
 *Probe:* Pyridostigmine (AChE inhibitor, 30--60 mg) — enhances vagal efferent transmission by increasing synaptic ACh at M2/M3 receptors on target organs; taVNS (transcutaneous auricular vagus nerve stimulation) — electrically stimulates vagal afferents → reflex vagal efferent activation; Nicotine patch (transdermal, α7nAChR agonist) — directly stimulates the CAP efferent receptor on splenic macrophages, bypassing the entire vagal arc.

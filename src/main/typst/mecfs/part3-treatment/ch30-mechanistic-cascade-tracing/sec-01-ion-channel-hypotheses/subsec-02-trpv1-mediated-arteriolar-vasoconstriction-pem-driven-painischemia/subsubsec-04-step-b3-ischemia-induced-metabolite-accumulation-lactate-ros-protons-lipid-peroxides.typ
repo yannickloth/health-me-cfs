@@ -1,15 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *COX-2*:  cyclooxygenase-2
-/ *NAC*:  N-acetylcysteine
-/ *PEM*:  post-exertional malaise
-/ *ROS*:  reactive oxygen species
-/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
-
-
 ==== Step B3: Ischemia-induced metabolite accumulation (lactate, ROS, protons, lipid peroxides)
 
 *Mechanism:* Ischemic muscle produces the same metabolites that activate TRPV1. Even if TRPV1 is the initial trigger for vasoconstriction, the ischemia it produces generates metabolites that further activate TRPV1 at the same or adjacent arterioles → spatial spread of vasoconstriction → larger muscle regions become ischemic → the PEM sensation spreads beyond the initially exerted muscle group.

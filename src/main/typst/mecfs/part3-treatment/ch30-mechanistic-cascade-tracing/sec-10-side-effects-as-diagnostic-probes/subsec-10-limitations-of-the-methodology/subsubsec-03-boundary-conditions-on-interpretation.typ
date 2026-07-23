@@ -1,11 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *LDN*:  low-dose naltrexone
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== Boundary Conditions on Interpretation
 
 - *The same drug may have different mechanisms at different doses in different patients:* LDN is TLR4 antagonist at 0.5--4.5 mg in most patients, but in a patient with OPRM1 polymorphism, it may be primarily an opioid antagonist. The diagnostic inference from LDN response depends on which mechanism is dominant in that patient — which is unknown without genotyping or mechanistic dissection.

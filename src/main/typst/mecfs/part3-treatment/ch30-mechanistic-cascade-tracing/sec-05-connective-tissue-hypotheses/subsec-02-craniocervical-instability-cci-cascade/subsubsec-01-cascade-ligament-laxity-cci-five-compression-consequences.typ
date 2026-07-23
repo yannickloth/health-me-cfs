@@ -1,17 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *CCI*:  craniocervical instability
-/ *CSF*:  cerebrospinal fluid
-/ *GPCR*:  G protein-coupled receptor
-/ *hEDS*:  hypermobile Ehlers-Danlos syndrome
-/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
-/ *MMP*:  matrix metalloproteinase
-/ *POTS*:  postural orthostatic tachycardia syndrome
-
-
 ==== Cascade: Ligament laxity → CCI → five compression consequences
 
 *Cascade:*
@@ -21,7 +9,6 @@
 - (c) CSF flow obstruction
 - (d) Sympathetic chain compression at C1-C2
 - (e) Vagus nerve stretch
-
 
 *Step O1:* Ligament laxity → CJ instability
 - *Intercept:* Cervical collar trial (Aspen/Miami J) — external stabilization; Physical therapy; Prolotherapy/PRP (investigational)

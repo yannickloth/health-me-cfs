@@ -1,22 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *BBB*:  blood-brain barrier
-/ *BP*:  blood pressure
-/ *CAP*:  cholinergic anti-inflammatory pathway
-/ *DMV*:  dorsal motor nucleus of vagus
-/ *GI*:  gastrointestinal
-/ *GPCR*:  G protein-coupled receptor
-/ *HR*:  heart rate
-/ *HRV*:  heart rate variability
-/ *LC-NE*:  locus coeruleus-norepinephrine
-/ *NE*:  norepinephrine
-/ *NTS*:  nucleus tractus solitarius
-/ *VLM*:  ventrolateral medulla
-
-
 ==== Cascade: GPCR AAb at area postrema → six brainstem autonomic consequences
 
 *Cascade:*

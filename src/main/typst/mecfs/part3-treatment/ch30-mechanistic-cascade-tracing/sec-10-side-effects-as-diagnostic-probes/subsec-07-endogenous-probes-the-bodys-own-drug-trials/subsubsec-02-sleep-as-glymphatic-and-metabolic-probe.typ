@@ -1,12 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CSF*:  cerebrospinal fluid
-/ *DA*:  dopamine
-/ *NE*:  norepinephrine
-
-
 ==== Sleep as Glymphatic and Metabolic Probe
 
 - *Patient feels better after 10 hours of sleep but crashes by noon:* Time-to-crash after sleep estimates the rate of metabolite/toxin accumulation during wakefulness. The glymphatic system cleared waste during extended sleep, but the underlying production rate (energy metabolism with impaired clearance) re-accumulates toxins within hours. Diagnostic: clearance is functional when given enough time (glymphatic system works during sleep); the bottleneck is production rate during wake > clearance rate during wake. The slope of post-sleep decline estimates the net accumulation rate.

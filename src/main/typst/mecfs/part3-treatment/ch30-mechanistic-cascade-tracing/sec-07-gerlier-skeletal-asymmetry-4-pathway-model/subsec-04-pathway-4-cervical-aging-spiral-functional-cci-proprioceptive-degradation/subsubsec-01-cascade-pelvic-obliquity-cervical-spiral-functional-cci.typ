@@ -1,10 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CCI*:  craniocervical instability
-
-
 ==== Cascade: Pelvic obliquity → cervical spiral → functional CCI
 
 *Cascade:*
@@ -12,7 +7,6 @@
 - Chronic subclinical neck muscle overwork → premature fatigue of cervical stabilizers
 - Proprioceptive degradation at craniocervical junction → functional CCI
 - Dizziness, headache, brain fog, visual disturbances
-
 
 *Step G4a:* Cervical tilt → chronic neck muscle overwork
 - *Intercept:* Shoe lift; Cervical bracing/taping; Ergonomic optimization

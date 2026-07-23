@@ -1,17 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ANT*:  adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
-/ *ATP*:  adenosine triphosphate
-/ *ETC*:  electron transport chain
-/ *FAO*:  fatty acid oxidation
-/ *PDH*:  pyruvate dehydrogenase
-/ *PEM*:  post-exertional malaise
-/ *TCA*:  tricarboxylic acid cycle
-/ *WASF3*:  Wiskott-Aldrich syndrome protein family member 3; respiratory supercomplex assembly inhibitor
-
-
 ==== Meals as Metabolic Substrate Probes
 
 Every meal is a metabolic stress test. The composition determines which energy pathway is challenged:

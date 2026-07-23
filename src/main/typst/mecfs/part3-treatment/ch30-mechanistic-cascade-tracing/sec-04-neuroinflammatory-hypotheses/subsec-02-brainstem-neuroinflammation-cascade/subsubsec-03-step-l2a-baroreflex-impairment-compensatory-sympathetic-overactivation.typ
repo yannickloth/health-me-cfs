@@ -1,16 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *BP*:  blood pressure
-/ *HR*:  heart rate
-/ *NE*:  norepinephrine
-/ *NTS*:  nucleus tractus solitarius
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *SA node*:  sinoatrial node
-/ *VLM*:  ventrolateral medulla
-
-
 ==== Step L2a: Baroreflex impairment → compensatory sympathetic overactivation
 
 *Probe:* Clonidine (α2 agonist, 0.05--0.1 mg). Clonidine activates α2 receptors in the NTS and VLM → suppresses central sympathetic outflow. This is the most specific probe for brainstem-level sympathetic dysfunction.

@@ -2,7 +2,6 @@
 
 == Mitochondrial Hypotheses
 
-
 #include "subsec-01-wasf3-mediated-supercomplex-disruption/subsec-01-wasf3-mediated-supercomplex-disruption.typ"
 
 #include "subsec-02-pdh-inhibition-pyruvate-dehydrogenase/subsec-02-pdh-inhibition-pyruvate-dehydrogenase.typ"

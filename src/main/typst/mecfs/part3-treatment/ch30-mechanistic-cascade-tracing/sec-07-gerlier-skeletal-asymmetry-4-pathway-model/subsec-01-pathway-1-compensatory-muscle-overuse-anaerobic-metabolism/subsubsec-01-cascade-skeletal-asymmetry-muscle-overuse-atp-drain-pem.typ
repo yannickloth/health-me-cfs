@@ -1,23 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ATP*:  adenosine triphosphate
-/ *Ca²⁺*:  calcium ion
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *DA*:  dopamine
-/ *DAMI*:  dopaminergic asymmetry measurement index (composite: striatal fluorodeoxyglucose PET, Composite Autonomic Symptom Score, aripiprazole slope)
-/ *IL*:  interleukin
-/ *ILMI*:  ipsilateral limb metabolic index (FDG-PET comparison of left vs right limb glucose uptake)
-/ *LDN*:  low-dose naltrexone
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *NCLX*:  mitochondrial sodium/calcium/lithium exchanger
-/ *NCX1*:  Na⁺/Ca²⁺ exchanger 1
-/ *NHE1*:  Na⁺/H⁺ exchanger 1
-/ *PEM*:  post-exertional malaise
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== Cascade: Skeletal asymmetry → muscle overuse → ATP drain → PEM
 
 *Cascade:*
@@ -26,7 +8,6 @@
 - Continuous low-grade ATP drain → breached critical ATP threshold (@sec:sodium-calcium-cascade)
 - Anaerobic shift, intracellular Na⁺ overload, NCX1 reverse, mitochondrial Ca²⁺ overload
 - PEM from trivial activity
-
 
 *Step G1a:* Fixed skeletal asymmetry (mechanical trigger)
 - *Intercept:* Shoe lift (if LLD); Custom orthotics; Postural physiotherapy

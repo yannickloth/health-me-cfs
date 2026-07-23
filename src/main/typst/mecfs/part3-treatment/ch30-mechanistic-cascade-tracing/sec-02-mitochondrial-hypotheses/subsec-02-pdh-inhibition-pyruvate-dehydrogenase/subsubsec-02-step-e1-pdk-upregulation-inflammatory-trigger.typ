@@ -1,17 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
-/ *LDN*:  low-dose naltrexone
-/ *PDH*:  pyruvate dehydrogenase
-/ *PDK*:  pyruvate dehydrogenase kinase
-/ *ROS*:  reactive oxygen species
-/ *TLR4*:  Toll-like receptor 4
-/ *TNF-α*:  tumour necrosis factor alpha
-/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
-
-
 ==== Step E1: PDK upregulation (inflammatory trigger)
 
 *Probe:* LDN (0.5--4.5 mg, anti-inflammatory). LDN reduces TLR4-mediated cytokine production → reduces PDK transcriptional drive.

@@ -1,12 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *HPA*:  hypothalamic-pituitary-adrenal axis
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-
-
 ==== Diurnal and Circadian Patterns
 
 - *Drug works in morning but not evening:* The targeted system has circadian variation in tone. NE levels peak in morning — if atomoxetine works only in AM, the NE system has sufficient endogenous activity to potentiate reuptake inhibition, but evening NE levels are too low. Diagnostic: NE deficiency is absolute in the evening, partial in the morning.

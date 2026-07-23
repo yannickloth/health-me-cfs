@@ -1,18 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AADC*:  aromatic L-amino acid decarboxylase; converts L-DOPA to dopamine
-/ *BBB*:  blood-brain barrier
-/ *CNS*:  central nervous system
-/ *DA*:  dopamine
-/ *DBH*:  dopamine-beta-hydroxylase
-/ *HR*:  heart rate
-/ *NE*:  norepinephrine
-/ *NET*:  norepinephrine transporter
-/ *PFC*:  prefrontal cortex
-
-
 ==== Drug as Biochemical Flashlight
 
 A drug can illuminate a pathway's integrity without producing clinical benefit:

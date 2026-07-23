@@ -1,12 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *BBB*:  blood-brain barrier
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-
-
 ==== Foundational Assumptions (If False, the Framework Collapses)
 
 | Assumption | If false |

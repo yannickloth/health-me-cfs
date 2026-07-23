@@ -1,22 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ATP*:  adenosine triphosphate
-/ *cAMP*:  cyclic adenosine monophosphate
-/ *CCI*:  craniocervical instability
-/ *CNS*:  central nervous system
-/ *DA*:  dopamine
-/ *DAT*:  dopamine transporter
-/ *DBH*:  dopamine-beta-hydroxylase
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-/ *NET*:  norepinephrine transporter
-/ *NMDA*:  N-methyl-D-aspartate
-/ *PFC*:  prefrontal cortex
-/ *PKA*:  protein kinase A; cAMP-dependent kinase
-
-
 ==== Cascade: Gerlier 4-pathway convergence at the CNS dopaminergic system:
 Pathway 1 (muscle overuse) → ATP drain → microglial activation → basal ganglia dopamine synthesis impairment
 Pathway 2 (sympathetic chain) → NE overdrive → DBH overactivity → dopamine pool depletion → inability to synthesize dopamine for basal ganglia and PFC

@@ -1,10 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *PEM*:  post-exertional malaise
-
-
 ==== When to Stop
 
 The PEM budget is finite. Each patient has a limited number of drug trials they can tolerate before the cumulative PEM cost worsens their baseline. The algorithm should include stopping rules:

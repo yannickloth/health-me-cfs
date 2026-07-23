@@ -1,14 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *Ca²⁺*:  calcium ion
-/ *NE*:  norepinephrine
-/ *PEM*:  post-exertional malaise
-/ *RAAS*:  renin-angiotensin-aldosterone system
-/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
-
-
 ==== Step B1: TRPV1 activation on arteriolar smooth muscle
 
 *Mechanism:* TRPV1 on vascular smooth muscle is different from TRPV1 on sensory neurons. On sensory neurons, TRPV1 activation produces pain (the burning sensation of capsaicin). On vascular smooth muscle, TRPV1 activation produces contraction (Ca²⁺ influx → myosin light chain kinase → vasoconstriction). The drug probes must distinguish these two TRPV1 populations — a drug that blocks TRPV1 on sensory neurons (reducing pain) may also block TRPV1 on vascular smooth muscle (preventing vasoconstriction — beneficial), or it may only block one population depending on tissue distribution and drug access.

@@ -1,16 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *GPCR*:  G protein-coupled receptor
-/ *HR*:  heart rate
-/ *IENFD*:  intraepidermal nerve fibre density
-/ *NE*:  norepinephrine
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *SA node*:  sinoatrial node
-
-
 ==== Step Q1: Neuropathic POTS Probe
 
 *Probe:* Midodrine (α1 agonist, 2.5--10 mg). Midodrine directly stimulates α1 receptors on vascular smooth muscle, producing vasoconstriction independent of sympathetic nerve terminal function. In neuropathic POTS, the vasculature is intact but lacks sympathetic innervation — midodrine bypasses the missing nerves and directly constricts the vessels that the nerves should have.

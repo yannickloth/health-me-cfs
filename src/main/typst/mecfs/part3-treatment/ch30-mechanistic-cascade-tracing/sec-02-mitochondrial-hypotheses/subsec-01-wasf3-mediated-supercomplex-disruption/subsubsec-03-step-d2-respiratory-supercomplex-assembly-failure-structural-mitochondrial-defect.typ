@@ -1,15 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ATP*:  adenosine triphosphate
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *FAO*:  fatty acid oxidation
-/ *ROS*:  reactive oxygen species
-/ *SC*:  supercomplex
-/ *WASF3*:  Wiskott-Aldrich syndrome protein family member 3; respiratory supercomplex assembly inhibitor
-
-
 ==== Step D2: Respiratory supercomplex assembly failure (structural mitochondrial defect)
 
 *Mechanism:* SC I/III/IV forms in a specific stoichiometry (I:III₂:IV) that channels electrons directly from Complex I to Complex III within the lipid bilayer — no need for ubiquinone to diffuse electrons between complexes. This channelling increases electron transfer efficiency and reduces electron leak (ROS production). WASF3 disrupts this assembly → Complex I and III must rely on ubiquinone-mediated electron transfer (slower, leakier) → electrons escape at the I-III interface → superoxide production → oxidative stress. The result: reduced ATP yield per NADH (~2.5 ATP → ~1.5 ATP) and increased ROS per unit of oxygen consumed.

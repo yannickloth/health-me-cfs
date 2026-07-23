@@ -1,10 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *DA*:  dopamine
-
-
 ==== Dose-Response Slope
 
 The dose at which response appears and the shape of the dose-response curve are receptor-level diagnostics:

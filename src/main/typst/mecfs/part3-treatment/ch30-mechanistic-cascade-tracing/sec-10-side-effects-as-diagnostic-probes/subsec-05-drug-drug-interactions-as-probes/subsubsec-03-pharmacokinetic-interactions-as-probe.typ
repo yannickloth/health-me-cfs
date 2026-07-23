@@ -1,10 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CYP*:  cytochrome P450
-
-
 ==== Pharmacokinetic Interactions as Probe
 
 Drug metabolism interactions reveal enzyme pathway vulnerabilities:

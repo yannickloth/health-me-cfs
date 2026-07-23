@@ -1,14 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *IDO*:  indoleamine 2,3-dioxygenase
-/ *LDN*:  low-dose naltrexone
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *TDO*:  tryptophan 2,3-dioxygenase
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== Step G1: IDO/TDO activation (synthesis failure)
 
 *Probes:* Same as kynurenine cascade Step H1. LDN reduces IDO induction; 1-MT inhibits IDO directly; anti-inflammatory combination suppresses multiple IDO-inducing pathways. The distinction in THIS cascade: NAD⁺ synthesis failure vs. serotonin depletion. Both result from the same IDO activation but have different drug targets.

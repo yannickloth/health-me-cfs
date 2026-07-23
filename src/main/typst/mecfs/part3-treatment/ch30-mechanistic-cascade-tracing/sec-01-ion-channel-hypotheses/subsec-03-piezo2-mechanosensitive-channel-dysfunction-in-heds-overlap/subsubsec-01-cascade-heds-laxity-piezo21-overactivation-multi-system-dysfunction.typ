@@ -1,17 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *DA*:  dopamine
-/ *GI*:  gastrointestinal
-/ *hEDS*:  hypermobile Ehlers-Danlos syndrome
-/ *IgE*:  immunoglobulin E
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-/ *NMDA*:  N-methyl-D-aspartate
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== Cascade: hEDS laxity → Piezo2/1 overactivation → multi-system dysfunction
 
 *Cascade:*
@@ -19,7 +7,6 @@
 - Piezo2/Piezo1 overactivation → pathologically elevated mechanosensitive calcium influx
 - Proprioceptive degradation, chronic mast cell degranulation, impaired endothelial mechanotransduction
 - fatigue, positional pain, orthostatic intolerance, brain fog
-
 
 *Step C1:* Piezo2 overactivation on sensory neurons (proprioceptive degradation)
 - *Intercept:* Physical therapy (cervical stabilization, joint bracing) — reduces mechanical forces; Low-dose amitriptyline (5--10 mg; tricyclic antidepressant at microdose, NMDA/NE/5-HT effects) — NMDA antagonism downstream

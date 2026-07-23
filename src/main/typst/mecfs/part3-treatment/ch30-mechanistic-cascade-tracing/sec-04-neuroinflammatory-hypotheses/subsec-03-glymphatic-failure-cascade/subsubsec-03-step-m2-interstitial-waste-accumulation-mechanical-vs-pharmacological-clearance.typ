@@ -1,14 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CSF*:  cerebrospinal fluid
-/ *DORA*:  dual orexin receptor antagonist
-/ *LC-NE*:  locus coeruleus-norepinephrine
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-
-
 ==== Step M2: Interstitial waste accumulation — mechanical vs. pharmacological clearance
 
 *Mechanism:* If glymphatic flow is reduced, waste products accumulate in the brain interstitium. The rate of accumulation depends on: (a) production rate (how much waste is being generated — higher in neuroinflammation, metabolic dysfunction, and oxidative stress), (b) clearance rate (glymphatic flow), and (c) drainage pathway patency (CSF drainage through cribriform plate to nasal lymphatics and through meningeal lymphatics to deep cervical lymph nodes).

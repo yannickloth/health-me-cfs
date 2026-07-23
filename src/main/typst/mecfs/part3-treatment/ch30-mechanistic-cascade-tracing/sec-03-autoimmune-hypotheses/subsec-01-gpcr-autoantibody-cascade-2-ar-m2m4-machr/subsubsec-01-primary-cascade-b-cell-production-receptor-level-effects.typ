@@ -1,37 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *ACh*:  acetylcholine
-/ *AChE*:  acetylcholinesterase
-/ *AChR*:  acetylcholine receptor
-/ *ATP*:  adenosine triphosphate
-/ *BP*:  blood pressure
-/ *CAP*:  cholinergic anti-inflammatory pathway
-/ *CNS*:  central nervous system
-/ *DA*:  dopamine
-/ *ETA*:  endothelin receptor type A; mediates vasoconstriction
-/ *GI*:  gastrointestinal
-/ *GPCR*:  G protein-coupled receptor
-/ *HR*:  heart rate
-/ *HRV*:  heart rate variability
-/ *IA*:  immunoadsorption
-/ *IgG*:  immunoglobulin G
-/ *IL*:  interleukin
-/ *LDN*:  low-dose naltrexone
-/ *MCAS*:  mast cell activation syndrome
-/ *NTS*:  nucleus tractus solitarius
-/ *OI*:  orthostatic intolerance
-/ *PEM*:  post-exertional malaise
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *SA node*:  sinoatrial node
-/ *SIBO*:  small intestinal bacterial overgrowth
-/ *taVNS*:  transcutaneous auricular vagus nerve stimulation
-/ *TLR4*:  Toll-like receptor 4
-/ *TNF-α*:  tumour necrosis factor alpha
-
-
 ==== Primary Cascade: B-cell production → receptor-level effects
 
 *Cascade:*
@@ -40,7 +8,6 @@
 - (b) M2/M4 mAChR blockade → impaired vagal signaling → reduced HRV, GI dysmotility, chronotropic incompetence
 - (c) α1-AR agonism → vasoconstriction + counter-regulatory fatigue → POTS, hypertension
 - (d) Area postrema access → brainstem microglial activation → NTS baroreflex reset → sympathetic overactivation
-
 
 *Step I1:* B-cell / plasma cell autoantibody production (source-level)
 - *Intercept:* Rituximab (anti-CD20 monoclonal antibody; B-cell depletion, spares long-lived plasma cells) — depletes B cells but spares long-lived CD20− plasma cells; Daratumumab (anti-CD38 monoclonal antibody; plasma cell depletion including long-lived) — depletes plasma cells (including long-lived); Immunoadsorption (IA; extracorporeal IgG removal via protein A columns) — physically removes circulating IgG (protein A columns); BC007 (DNA aptamer; GPCR autoantibody neutralization) — aptamer neutralizes specific GPCR AAbs (β1-AR, β2-AR, M2, α1-AR, AT1R, ETA).

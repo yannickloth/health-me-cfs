@@ -1,15 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *DCA*:  dichloroacetate; pyruvate dehydrogenase kinase inhibitor
-/ *ETC*:  electron transport chain
-/ *LDN*:  low-dose naltrexone
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *PDH*:  pyruvate dehydrogenase
-/ *PDK*:  pyruvate dehydrogenase kinase
-
-
 ==== Step E3: Lactate accumulation and anaerobic shift (metabolic consequence)
 
 *Mechanism:* PDH block → pyruvate → lactate. Lactate is measurable in real time with a handheld meter (fingerstick). Serial lactate measurements at standardized submaximal workloads (e.g., walking at 1 mph for 5 minutes) before and after interventions provide objective pharmacodynamic data — does the drug reduce lactate at a fixed workload?

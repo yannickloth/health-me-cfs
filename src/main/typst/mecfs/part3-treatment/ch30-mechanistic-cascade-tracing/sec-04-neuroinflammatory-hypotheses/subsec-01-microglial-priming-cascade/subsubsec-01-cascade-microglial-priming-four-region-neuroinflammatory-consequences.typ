@@ -1,51 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *ACh*:  acetylcholine
-/ *AChE*:  acetylcholinesterase
-/ *ATP*:  adenosine triphosphate
-/ *BBB*:  blood-brain barrier
-/ *BH4*:  tetrahydrobiopterin; tyrosine hydroxylase cofactor
-/ *cAMP*:  cyclic adenosine monophosphate
-/ *CNS*:  central nervous system
-/ *CSF*:  cerebrospinal fluid
-/ *DA*:  dopamine
-/ *DAMPs*:  damage-associated molecular patterns
-/ *DAT*:  dopamine transporter
-/ *DBH*:  dopamine-beta-hydroxylase
-/ *DMV*:  dorsal motor nucleus of vagus
-/ *DNRI*:  dopamine-norepinephrine reuptake inhibitor
-/ *GABA*:  gamma-aminobutyric acid
-/ *GI*:  gastrointestinal
-/ *HCN*:  hyperpolarization-activated cyclic nucleotide-gated channel
-/ *HR*:  heart rate
-/ *HRV*:  heart rate variability
-/ *IFN-γ*:  interferon gamma
-/ *IL*:  interleukin
-/ *LDN*:  low-dose naltrexone
-/ *MAO-B*:  monoamine oxidase B; degrades dopamine
-/ *MMP*:  matrix metalloproteinase
-/ *NE*:  norepinephrine
-/ *NET*:  norepinephrine transporter
-/ *NF-κB*:  nuclear factor kappa-B
-/ *NMDA*:  N-methyl-D-aspartate
-/ *NRI*:  norepinephrine reuptake inhibitor
-/ *NTS*:  nucleus tractus solitarius
-/ *PDE4*:  phosphodiesterase 4
-/ *PEA*:  palmitoylethanolamide; PPAR-alpha agonist
-/ *PFC*:  prefrontal cortex
-/ *PGE2*:  prostaglandin E2
-/ *ROS*:  reactive oxygen species
-/ *TLR4*:  Toll-like receptor 4
-/ *TNF-α*:  tumour necrosis factor alpha
-/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
-/ *TSPO*:  translocator protein; microglial activation PET marker
-/ *VLM*:  ventrolateral medulla
-/ *VMAT2*:  vesicular monoamine transporter 2
-
-
 ==== Cascade: Microglial priming → four-region neuroinflammatory consequences
 
 *Cascade:*
@@ -55,7 +9,6 @@
 - (b) Basal ganglia → DA synthesis (BH4-dependent TH) and VMAT2 impairment → anhedonia, bradykinesia
 - (c) Brainstem → NTS/VLM/DMV dysfunction → autonomic instability, reduced HRV
 - (d) Prefrontal cortex → impaired working memory, executive dysfunction, brain fog
-
 
 *Step K1:* Microglial TLR4/P2X7/DAMP activation (the priming step)
 - *Mechanism:* Resting microglia become "primed" when TLR4 (recognizing LPS, DAMPs like HMGB1, heat shock proteins, fibronectin fragments), P2X7 (ATP released from damaged cells), and C5aR (complement activation) are chronically stimulated. Primed microglia do not produce full-blown inflammation — they produce a low-grade, sustained cytokine release (IL-1β, TNF-α) that alters neuronal function without causing overt tissue damage. This is "neuroinflammation without neurodegeneration" — the pattern seen on TSPO-PET in ME/CFS.

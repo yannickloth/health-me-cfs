@@ -1,15 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *BP*:  blood pressure
-/ *HR*:  heart rate
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-/ *PFC*:  prefrontal cortex
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== Challenge Testing with Drug as Stressor
 
 Give a drug, then apply a controlled physiological stressor. The differential response (drug-on vs. drug-off) isolates the drug's mechanism:

@@ -1,16 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
-/ *CSF*:  cerebrospinal fluid
-/ *HR*:  heart rate
-/ *IDO*:  indoleamine 2,3-dioxygenase
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *SSRI*:  selective serotonin reuptake inhibitor
-/ *TPH2*:  tryptophan hydroxylase 2; central nervous system serotonin synthesis enzyme (raphe nuclei)
-
-
 ==== Step H2a: Serotonin depletion (the 5-HT arm)
 
 *Mechanism:* With ~95% of tryptophan diverted to kynurenine, serotonin synthesis in raphe neurons is starved of precursor. Tryptophan hydroxylase 2 (TPH2, the brain-specific isoform) converts tryptophan to 5-HTP. If tryptophan levels in CSF are low (documented in ME/CFS), serotonin synthesis drops proportionally. Consequences: reduced serotonin → (a) impaired descending pain inhibition in the periaqueductal gray and rostroventral medulla → widespread pain amplification; (b) reduced 5-HT1A and 5-HT2A signaling in prefrontal cortex and limbic system → depression, anxiety; (c) reduced 5-HT-mediated regulation of sleep-wake cycle (raphe projections to suprachiasmatic nucleus and thalamus → insomnia, fragmented sleep).

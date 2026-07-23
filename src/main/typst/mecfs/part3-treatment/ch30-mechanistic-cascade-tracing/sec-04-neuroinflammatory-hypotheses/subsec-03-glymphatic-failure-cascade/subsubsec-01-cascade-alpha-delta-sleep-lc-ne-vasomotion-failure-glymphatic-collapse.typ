@@ -1,16 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CSF*:  cerebrospinal fluid
-/ *ECM*:  extracellular matrix
-/ *KYNA*:  kynurenic acid; N-methyl-D-aspartate receptor antagonist
-/ *LC-NE*:  locus coeruleus-norepinephrine
-/ *NE*:  norepinephrine
-/ *QUIN*:  quinolinic acid; N-methyl-D-aspartate receptor agonist from kynurenine pathway
-/ *S100B*:  S100 calcium-binding protein B; astrocyte damage marker
-
-
 ==== Cascade: Alpha-delta sleep → LC-NE vasomotion failure → glymphatic collapse
 
 *Cascade:*

@@ -2,7 +2,6 @@
 
 == Ion Channel Hypotheses
 
-
 #include "subsec-01-trpm3-channelopathy/subsec-01-trpm3-channelopathy.typ"
 
 #include "subsec-02-trpv1-mediated-arteriolar-vasoconstriction-pem-driven-painischemia/subsec-02-trpv1-mediated-arteriolar-vasoconstriction-pem-driven-painischemia.typ"

@@ -1,24 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *BBB*:  blood-brain barrier
-/ *CNS*:  central nervous system
-/ *DA*:  dopamine
-/ *DAT*:  dopamine transporter
-/ *DORA*:  dual orexin receptor antagonist
-/ *HPA*:  hypothalamic-pituitary-adrenal axis
-/ *HR*:  heart rate
-/ *LDN*:  low-dose naltrexone
-/ *MCAS*:  mast cell activation syndrome
-/ *NE*:  norepinephrine
-/ *NRI*:  norepinephrine reuptake inhibitor
-/ *PFC*:  prefrontal cortex
-/ *SNRI*:  serotonin-norepinephrine reuptake inhibitor
-/ *SSRI*:  selective serotonin reuptake inhibitor
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== The Inverted U-Curve as a Diagnostic Pattern
 <sec:inverted-u-curve>
 

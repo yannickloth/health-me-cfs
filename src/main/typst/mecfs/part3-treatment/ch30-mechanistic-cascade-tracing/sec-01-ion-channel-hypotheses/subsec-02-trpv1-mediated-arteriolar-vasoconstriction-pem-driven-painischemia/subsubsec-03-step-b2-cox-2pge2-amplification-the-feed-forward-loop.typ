@@ -1,23 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *Ca²⁺*:  calcium ion
-/ *COX-2*:  cyclooxygenase-2
-/ *CPET*:  cardiopulmonary exercise testing
-/ *IL*:  interleukin
-/ *LDN*:  low-dose naltrexone
-/ *NF-κB*:  nuclear factor kappa-B
-/ *PEM*:  post-exertional malaise
-/ *PGE2*:  prostaglandin E2
-/ *PKA*:  protein kinase A; cAMP-dependent kinase
-/ *PKC*:  protein kinase C
-/ *PLA2*:  phospholipase A2
-/ *TLR4*:  Toll-like receptor 4
-/ *TNF-α*:  tumour necrosis factor alpha
-/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
-
-
 ==== Step B2: COX-2/PGE2 amplification (the feed-forward loop)
 
 *Mechanism:* COX-2 is induced by inflammatory cytokines (IL-1β, TNF-α) and by TRPV1 activation itself (Ca²⁺ influx → PLA2 activation → arachidonic acid release → COX-2 substrate). COX-2 produces PGE2 → PGE2 binds EP1 and EP4 receptors on TRPV1-expressing neurons and smooth muscle → PKA and PKC phosphorylation of TRPV1 → lowers TRPV1 thermal and proton activation threshold. The result: after one episode of exertion-induced TRPV1 activation, subsequent TRPV1 activation occurs at lower stimulus intensities → the PEM threshold drops with repeated exertion (the Day 2 CPET phenomenon).

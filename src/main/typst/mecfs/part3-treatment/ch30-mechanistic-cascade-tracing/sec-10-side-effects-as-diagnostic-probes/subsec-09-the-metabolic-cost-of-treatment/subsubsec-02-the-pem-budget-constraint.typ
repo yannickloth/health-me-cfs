@@ -1,19 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *BP*:  blood pressure
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *GI*:  gastrointestinal
-/ *HR*:  heart rate
-/ *IVIG*:  intravenous immunoglobulin
-/ *LDN*:  low-dose naltrexone
-/ *NAC*:  N-acetylcysteine
-/ *PEM*:  post-exertional malaise
-/ *REE*:  resting energy expenditure
-/ *VMAT2*:  vesicular monoamine transporter 2
-
-
 ==== The PEM Budget Constraint
 
 Each drug trial consumes PEM cycles — the trial itself costs functional capacity. The chapter's algorithm must include an energy budget:

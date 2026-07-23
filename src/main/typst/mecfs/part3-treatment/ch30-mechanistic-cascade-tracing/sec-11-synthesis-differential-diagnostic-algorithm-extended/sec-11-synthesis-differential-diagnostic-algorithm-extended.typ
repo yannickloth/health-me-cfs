@@ -1,53 +1,5 @@
 #import "../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *ANT*:  adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
-/ *ATP*:  adenosine triphosphate
-/ *BP*:  blood pressure
-/ *CAP*:  cholinergic anti-inflammatory pathway
-/ *CCI*:  craniocervical instability
-/ *CNS*:  central nervous system
-/ *COMPASS-31*:  Composite Autonomic Symptom Score
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *CRP*:  C-reactive protein
-/ *DA*:  dopamine
-/ *DBH*:  dopamine-beta-hydroxylase
-/ *DNRI*:  dopamine-norepinephrine reuptake inhibitor
-/ *EBV*:  Epstein-Barr virus
-/ *ESR*:  erythrocyte sedimentation rate
-/ *ETC*:  electron transport chain
-/ *FAO*:  fatty acid oxidation
-/ *GI*:  gastrointestinal
-/ *GPCR*:  G protein-coupled receptor
-/ *HHV-6*:  human herpesvirus 6
-/ *HPA*:  hypothalamic-pituitary-adrenal axis
-/ *HR*:  heart rate
-/ *HSC*:  haematopoietic stem cell
-/ *IA*:  immunoadsorption
-/ *IFN-γ*:  interferon gamma
-/ *IVIG*:  intravenous immunoglobulin
-/ *LDN*:  low-dose naltrexone
-/ *MCAS*:  mast cell activation syndrome
-/ *NAC*:  N-acetylcysteine
-/ *NE*:  norepinephrine
-/ *NRI*:  norepinephrine reuptake inhibitor
-/ *NSAID*:  non-steroidal anti-inflammatory drug
-/ *NTS*:  nucleus tractus solitarius
-/ *PDH*:  pyruvate dehydrogenase
-/ *PEM*:  post-exertional malaise
-/ *PFC*:  prefrontal cortex
-/ *PIP2*:  phosphatidylinositol 4,5-bisphosphate
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *ROS*:  reactive oxygen species
-/ *SC*:  supercomplex
-/ *taVNS*:  transcutaneous auricular vagus nerve stimulation
-/ *TLR4*:  Toll-like receptor 4
-/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
-/ *VMAT2*:  vesicular monoamine transporter 2
-
-
 == Synthesis: Differential Diagnostic Algorithm (Extended)
 <sec:synthesis-algorithm-extended>
 

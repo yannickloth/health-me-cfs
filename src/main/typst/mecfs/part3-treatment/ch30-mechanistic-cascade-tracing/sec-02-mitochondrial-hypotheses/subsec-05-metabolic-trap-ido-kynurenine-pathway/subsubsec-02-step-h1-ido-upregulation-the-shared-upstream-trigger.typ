@@ -1,20 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *COX-2*:  cyclooxygenase-2
-/ *CSF*:  cerebrospinal fluid
-/ *DA*:  dopamine
-/ *DAMPs*:  damage-associated molecular patterns
-/ *IDO*:  indoleamine 2,3-dioxygenase
-/ *IFN-γ*:  interferon gamma
-/ *LDN*:  low-dose naltrexone
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *PGE2*:  prostaglandin E2
-/ *TLR4*:  Toll-like receptor 4
-/ *TNF-α*:  tumour necrosis factor alpha
-
-
 ==== Step H1: IDO upregulation (the shared upstream trigger)
 
 *Mechanism:* IDO is the rate-limiting enzyme that converts tryptophan to kynurenine. It is induced by IFN-γ (the most potent inducer), TNF-α, and TLR4 activation on microglia and macrophages. In ME/CFS, IDO upregulation can be from: (a) microglial IFN-γ production (neuroinflammatory), (b) systemic IFN-γ from T-cell responses to persistent infections, or (c) TLR4 activation by DAMPs or LPS from gut permeability. The result is the same: tryptophan is diverted away from serotonin and NAD⁺ synthesis into the kynurenine pathway.

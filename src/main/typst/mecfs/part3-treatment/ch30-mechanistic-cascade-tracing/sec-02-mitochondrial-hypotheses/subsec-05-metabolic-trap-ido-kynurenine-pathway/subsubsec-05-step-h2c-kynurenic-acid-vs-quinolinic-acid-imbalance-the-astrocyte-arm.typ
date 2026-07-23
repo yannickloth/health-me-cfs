@@ -1,19 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
-/ *DA*:  dopamine
-/ *GABA*:  gamma-aminobutyric acid
-/ *IDO*:  indoleamine 2,3-dioxygenase
-/ *KAT*:  kynurenine aminotransferase
-/ *KMO*:  kynurenine 3-monooxygenase
-/ *KYNA*:  kynurenic acid; N-methyl-D-aspartate receptor antagonist
-/ *LDN*:  low-dose naltrexone
-/ *NMDA*:  N-methyl-D-aspartate
-/ *QUIN*:  quinolinic acid; N-methyl-D-aspartate receptor agonist from kynurenine pathway
-
-
 ==== Step H2c: Kynurenic acid vs. quinolinic acid imbalance (the astrocyte arm)
 
 *Mechanism:* KYNA is produced in astrocytes (KAT is predominantly astrocytic) and acts as an endogenous NMDA antagonist at the glycine site — competing with QUIN at the same binding site. KYNA is broadly neuroprotective (reduces excitotoxicity) but also suppresses glutamatergic transmission → cognitive slowing. The QUIN/KYNA ratio determines the net glutamatergic effect: high QUIN/low KYNA → excitotoxicity; low QUIN/high KYNA → cognitive suppression; both high → competing effects (excitotoxicity from QUIN at NMDA receptors that are partially blocked by KYNA → unpredictable net effect). In ME/CFS, the QUIN/KYNA ratio may be shifted in either direction in different patients.

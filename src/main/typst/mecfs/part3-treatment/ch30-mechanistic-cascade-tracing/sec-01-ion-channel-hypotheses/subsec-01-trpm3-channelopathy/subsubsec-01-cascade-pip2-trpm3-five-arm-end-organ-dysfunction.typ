@@ -1,40 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
-/ *AAb*:  autoantibody
-/ *ACh*:  acetylcholine
-/ *AChE*:  acetylcholinesterase
-/ *BP*:  blood pressure
-/ *Ca²⁺*:  calcium ion
-/ *CNS*:  central nervous system
-/ *CYP*:  cytochrome P450
-/ *DA*:  dopamine
-/ *GI*:  gastrointestinal
-/ *GPCR*:  G protein-coupled receptor
-/ *Gαq*:  G protein alpha-q subunit; activates PLC-β
-/ *HR*:  heart rate
-/ *IA*:  immunoadsorption
-/ *IgG*:  immunoglobulin G
-/ *IMPase*:  inositol monophosphatase; lithium target in phosphatidylinositol 4,5-bisphosphate resynthesis
-/ *IVIG*:  intravenous immunoglobulin
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-/ *NK cell*:  natural killer cell
-/ *NRI*:  norepinephrine reuptake inhibitor
-/ *NTS*:  nucleus tractus solitarius
-/ *PEM*:  post-exertional malaise
-/ *PIP2*:  phosphatidylinositol 4,5-bisphosphate
-/ *PLC-β*:  phospholipase C beta
-/ *SA node*:  sinoatrial node
-/ *TLR4*:  Toll-like receptor 4
-/ *TRPC*:  transient receptor potential canonical
-/ *TRPM3*:  transient receptor potential melastatin 3; non-selective cation channel
-/ *TRPM7*:  transient receptor potential melastatin 7
-/ *TRPV1*:  transient receptor potential vanilloid 1; capsaicin receptor; mediates heat/pain and arteriolar vasoconstriction
-
-
 ==== Cascade: PIP2 → TRPM3 → five-arm end-organ dysfunction
 
 *Cascade:*
@@ -46,7 +11,6 @@
 - (d) vascular smooth muscle calcium dysregulation → impaired vasoconstriction and vasodilation
 - (e) sensory neuron TRPM3 dysfunction → altered pain and temperature perception
 - Each arm has a distinct probe.
-
 
 *Step A1:* PIP2 depletion (membrane-level trigger — upstream of all TRPM3 dysfunction)
 - *Mechanism:* GPCR autoantibodies (β2-AR, M2/M4) activate Gαq → PLC-β → PIP2 hydrolysis to IP3 + DAG. PIP2 is the essential cofactor for TRPM3 gating — without PIP2 in the inner membrane leaflet, TRPM3 cannot open regardless of agonist (pregnenolone sulfate, heat). PIP2 depletion is the most parsimonious single mechanism for simultaneous TRPM3, TRPV1, TRPM7, and TRPC channel dysfunction — all are PIP2-dependent.

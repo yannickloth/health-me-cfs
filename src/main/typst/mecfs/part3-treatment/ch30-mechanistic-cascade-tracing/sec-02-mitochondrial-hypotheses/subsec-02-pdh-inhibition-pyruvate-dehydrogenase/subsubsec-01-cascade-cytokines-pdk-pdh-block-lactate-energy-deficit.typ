@@ -1,19 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ATP*:  adenosine triphosphate
-/ *ETC*:  electron transport chain
-/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
-/ *IFN-γ*:  interferon gamma
-/ *IL*:  interleukin
-/ *PDH*:  pyruvate dehydrogenase
-/ *PDK*:  pyruvate dehydrogenase kinase
-/ *PEM*:  post-exertional malaise
-/ *TCA*:  tricarboxylic acid cycle
-/ *TNF-α*:  tumour necrosis factor alpha
-
-
 ==== Cascade: Cytokines → PDK → PDH block → lactate + energy deficit
 
 *Cascade:*

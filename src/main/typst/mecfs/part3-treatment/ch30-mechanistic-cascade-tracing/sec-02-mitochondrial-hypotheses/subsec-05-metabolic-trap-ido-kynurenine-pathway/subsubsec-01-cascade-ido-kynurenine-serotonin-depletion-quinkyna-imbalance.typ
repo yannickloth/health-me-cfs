@@ -1,19 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *DA*:  dopamine
-/ *IDO*:  indoleamine 2,3-dioxygenase
-/ *IFN-γ*:  interferon gamma
-/ *KAT*:  kynurenine aminotransferase
-/ *KMO*:  kynurenine 3-monooxygenase
-/ *KYNA*:  kynurenic acid; N-methyl-D-aspartate receptor antagonist
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *NMDA*:  N-methyl-D-aspartate
-/ *QUIN*:  quinolinic acid; N-methyl-D-aspartate receptor agonist from kynurenine pathway
-/ *TNF-α*:  tumour necrosis factor alpha
-
-
 ==== Cascade: IDO → kynurenine → serotonin depletion + QUIN/KYNA imbalance
 
 *Cascade:*

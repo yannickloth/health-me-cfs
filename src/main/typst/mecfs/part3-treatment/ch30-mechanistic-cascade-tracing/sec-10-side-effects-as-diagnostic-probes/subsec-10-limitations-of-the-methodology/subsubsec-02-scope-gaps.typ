@@ -1,14 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CNS*:  central nervous system
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *DRG*:  dorsal root ganglion
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *SIBO*:  small intestinal bacterial overgrowth
-
-
 ==== Scope Gaps
 
 The framework does not address:

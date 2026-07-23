@@ -1,17 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *DA*:  dopamine
-/ *ETC*:  electron transport chain
-/ *LDN*:  low-dose naltrexone
-/ *NAC*:  N-acetylcysteine
-/ *ROS*:  reactive oxygen species
-/ *TLR4*:  Toll-like receptor 4
-/ *TNF-α*:  tumour necrosis factor alpha
-
-
 ==== Synergy as Mechanistic Confirmation
 
 When two drugs produce a combined effect greater than either alone, and greater than additive, the mechanisms are complementary — they converge on the same functional output through different nodes. The synergy pattern identifies *which* nodes are independent enough to be combined:

@@ -1,14 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AMPK*:  AMP-activated protein kinase; cellular energy sensor
-/ *ATP*:  adenosine triphosphate
-/ *ETC*:  electron transport chain
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *PDH*:  pyruvate dehydrogenase
-
-
 ==== Cascade: Energy shortage → AMPK → ATP triage → demand failure
 
 *Cascade:*

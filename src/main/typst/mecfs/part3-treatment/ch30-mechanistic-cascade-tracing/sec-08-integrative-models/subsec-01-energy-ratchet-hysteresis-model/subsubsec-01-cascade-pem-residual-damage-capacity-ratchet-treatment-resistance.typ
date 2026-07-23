@@ -1,24 +1,11 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *HR*:  heart rate
-/ *HSC*:  haematopoietic stem cell
-/ *mTORC1*:  mechanistic target of rapamycin complex 1
-/ *NAC*:  N-acetylcysteine
-/ *PEM*:  post-exertional malaise
-/ *SC*:  supercomplex
-/ *Treg*:  regulatory T cell; CD4+CD25+FoxP3+
-
-
 ==== Cascade: PEM → residual damage → capacity ratchet → treatment resistance
 
 *Cascade:*
 - Repeated PEM episodes → progressive lowering of crash threshold
 - Residual damage (epigenetic marks, mitochondrial damage, microglial priming, HSC exhaustion)
 - Recovery incomplete → work capacity ratchets downward → treatment resistance increases with illness duration
-
 
 *Step S1:* PEM episode → residual damage accumulation
 - *Intercept:* PEM prevention (pacing, HR monitoring); Antioxidants (CoQ10, NAC; mitochondrial support) during exertion; Rapamycin (mTORC1 inhibitor; autophagy enhancer, Treg stabilization) — enhances mitophagy between episodes

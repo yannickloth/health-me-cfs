@@ -1,15 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *CSF*:  cerebrospinal fluid
-/ *DA*:  dopamine
-/ *DBH*:  dopamine-beta-hydroxylase
-/ *NE*:  norepinephrine
-/ *NRI*:  norepinephrine reuptake inhibitor
-/ *PEM*:  post-exertional malaise
-
-
 === The Noradrenergic Selectivity Node
 <sec:noradrenergic-node>
 

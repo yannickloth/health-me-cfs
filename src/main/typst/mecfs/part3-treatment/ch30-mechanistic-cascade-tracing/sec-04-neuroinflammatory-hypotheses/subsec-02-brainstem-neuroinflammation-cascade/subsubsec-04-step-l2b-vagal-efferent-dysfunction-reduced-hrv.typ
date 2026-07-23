@@ -1,20 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *ACh*:  acetylcholine
-/ *AChE*:  acetylcholinesterase
-/ *AChR*:  acetylcholine receptor
-/ *CCI*:  craniocervical instability
-/ *DMV*:  dorsal motor nucleus of vagus
-/ *HR*:  heart rate
-/ *HRV*:  heart rate variability
-/ *NTS*:  nucleus tractus solitarius
-/ *SA node*:  sinoatrial node
-/ *taVNS*:  transcutaneous auricular vagus nerve stimulation
-
-
 ==== Step L2b: Vagal efferent dysfunction → reduced HRV
 
 *Probe:* Pyridostigmine (AChE inhibitor, 30--60 mg). Pyridostigmine enhances vagal efferent transmission at the SA node — if vagal motor neurons in DMV are intact but underactive (from inflammation), pyridostigmine increases the postsynaptic effect of whatever ACh they do release.

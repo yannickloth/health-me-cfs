@@ -2,7 +2,6 @@
 
 == Cross-Hypothesis Convergence Patterns
 
-
 #include "subsec-01-the-dopamine-convergence-node/subsec-01-the-dopamine-convergence-node.typ"
 
 #include "subsec-02-the-noradrenergic-selectivity-node/subsec-02-the-noradrenergic-selectivity-node.typ"

@@ -1,17 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ATP*:  adenosine triphosphate
-/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
-/ *OXPHOS*:  oxidative phosphorylation
-/ *PDK*:  pyruvate dehydrogenase kinase
-/ *PEM*:  post-exertional malaise
-/ *ROS*:  reactive oxygen species
-/ *SC*:  supercomplex
-/ *WASF3*:  Wiskott-Aldrich syndrome protein family member 3; respiratory supercomplex assembly inhibitor
-
-
 ==== Cascade: HIF-1α → WASF3 → supercomplex disruption → ATP deficit
 
 *Cascade:*

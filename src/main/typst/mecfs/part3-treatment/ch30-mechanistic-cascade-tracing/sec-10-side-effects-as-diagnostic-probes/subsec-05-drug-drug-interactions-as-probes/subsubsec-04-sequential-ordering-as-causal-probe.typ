@@ -1,19 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *BP*:  blood pressure
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *ETC*:  electron transport chain
-/ *IgE*:  immunoglobulin E
-/ *LDN*:  low-dose naltrexone
-/ *MCAS*:  mast cell activation syndrome
-/ *NAC*:  N-acetylcysteine
-/ *PGD2*:  prostaglandin D2; mast-cell-derived prostaglandin
-/ *ROS*:  reactive oxygen species
-/ *TLR4*:  Toll-like receptor 4
-
-
 ==== Sequential Ordering as Causal Probe
 
 The order in which drugs are introduced can reveal the causal chain:

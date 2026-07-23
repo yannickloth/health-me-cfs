@@ -1,18 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *AAb*:  autoantibody
-/ *BP*:  blood pressure
-/ *GPCR*:  G protein-coupled receptor
-/ *HR*:  heart rate
-/ *NE*:  norepinephrine
-/ *NTS*:  nucleus tractus solitarius
-/ *POTS*:  postural orthostatic tachycardia syndrome
-/ *RAAS*:  renin-angiotensin-aldosterone system
-/ *VLM*:  ventrolateral medulla
-
-
 ==== Cascade by subtype:
 
 *Neuropathic POTS:* Peripheral sympathetic denervation (length-dependent small-fiber neuropathy) → reduced norepinephrine release at vascular α1 receptors in legs → impaired vasoconstriction during standing → venous pooling in lower extremities → reduced cardiac preload → compensatory tachycardia (baroreflex detects low effective circulating volume → increases HR to maintain cardiac output). Supine NE: normal or low (denervated terminals cannot release NE in any position). Standing NE: inadequate rise (denervated terminals cannot increase NE release in response to orthostatic stress).

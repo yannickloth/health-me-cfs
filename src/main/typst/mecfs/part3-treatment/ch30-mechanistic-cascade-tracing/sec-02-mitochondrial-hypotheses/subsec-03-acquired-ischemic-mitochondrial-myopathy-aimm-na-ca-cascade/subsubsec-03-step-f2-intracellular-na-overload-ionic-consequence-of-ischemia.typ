@@ -1,14 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *Ca²⁺*:  calcium ion
-/ *CPET*:  cardiopulmonary exercise testing
-/ *NCLX*:  mitochondrial sodium/calcium/lithium exchanger
-/ *NHE1*:  Na⁺/H⁺ exchanger 1
-/ *PEM*:  post-exertional malaise
-
-
 ==== Step F2: Intracellular Na⁺ overload (ionic consequence of ischemia)
 
 *Mechanism:* Ischemic muscle shifts to anaerobic glycolysis → lactic acid production → intracellular pH drops. The Na⁺/H⁺ exchanger (NHE1) is activated by low pH — it extrudes one H⁺ in exchange for one Na⁺ → normalizes pH at the cost of Na⁺ accumulation inside the cell. This is protective in acute ischemia (prevents acid-induced protein denaturation) but pathological in repeated ischemia-reperfusion (chronic Na⁺ overload).

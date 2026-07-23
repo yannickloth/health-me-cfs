@@ -1,25 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *5-HTP*:  5-hydroxytryptophan; serotonin precursor
-/ *AAb*:  autoantibody
-/ *ACh*:  acetylcholine
-/ *AChR*:  acetylcholine receptor
-/ *CNS*:  central nervous system
-/ *DMV*:  dorsal motor nucleus of vagus
-/ *EC cells*:  enterochromaffin cells; gut serotonin-producing cells
-/ *GPCR*:  G protein-coupled receptor
-/ *HR*:  heart rate
-/ *HRV*:  heart rate variability
-/ *IA*:  immunoadsorption
-/ *LDN*:  low-dose naltrexone
-/ *NE*:  norepinephrine
-/ *NTS*:  nucleus tractus solitarius
-/ *SA node*:  sinoatrial node
-/ *TPH1*:  tryptophan hydroxylase 1; peripheral serotonin synthesis enzyme (gut EC cells)
-
-
 ==== Step R1: Gut dysbiosis → low butyrate → reduced EC serotonin (enteric level)
 
 *Probe:* Sodium butyrate (600--1800 mg/day) or tributyrin (more stable, better colonic delivery); Probiotics targeting butyrate-producing species (Faecalibacterium prausnitzii, Roseburia intestinalis); Prebiotics (resistant starch, inulin, GOS — substrates for butyrate-producing bacteria); 5-HTP (50--200 mg) — bypasses the TPH1 step entirely, providing serotonin precursor directly to EC cells and CNS neurons.

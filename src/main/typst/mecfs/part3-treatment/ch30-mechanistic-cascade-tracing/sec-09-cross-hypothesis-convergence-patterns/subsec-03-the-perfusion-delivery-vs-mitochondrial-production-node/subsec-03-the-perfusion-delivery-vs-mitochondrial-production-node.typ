@@ -1,12 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ANT*:  adenine nucleotide translocator; mitochondrial inner membrane ATP/ADP exchanger
-/ *ATP*:  adenosine triphosphate
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-
-
 === The Perfusion-Delivery vs. Mitochondrial-Production Node
 <sec:perfusion-vs-mito-node>
 

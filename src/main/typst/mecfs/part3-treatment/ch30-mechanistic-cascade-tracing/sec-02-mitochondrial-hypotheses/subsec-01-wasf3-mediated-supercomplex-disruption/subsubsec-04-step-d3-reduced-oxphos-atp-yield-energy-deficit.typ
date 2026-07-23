@@ -1,20 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *ATP*:  adenosine triphosphate
-/ *CoQ10*:  coenzyme Q10; ubiquinol/ubiquinone
-/ *DMF*:  dimethyl fumarate
-/ *ETC*:  electron transport chain
-/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
-/ *NAC*:  N-acetylcysteine
-/ *NAD⁺*:  nicotinamide adenine dinucleotide
-/ *OXPHOS*:  oxidative phosphorylation
-/ *ROS*:  reactive oxygen species
-/ *SC*:  supercomplex
-/ *WASF3*:  Wiskott-Aldrich syndrome protein family member 3; respiratory supercomplex assembly inhibitor
-
-
 ==== Step D3: Reduced OXPHOS ATP yield → energy deficit
 
 *Mechanism:* Even with adequate substrate delivery and ETC function, if SC disruption reduces electron channelling efficiency, the ATP yield per NADH is reduced. The result: more oxygen consumed per ATP produced (reduced P/O ratio), more substrate consumed per ATP, and more ROS produced. This is the biochemical signature of mitochondrial inefficiency — not failure, but reduced efficiency.

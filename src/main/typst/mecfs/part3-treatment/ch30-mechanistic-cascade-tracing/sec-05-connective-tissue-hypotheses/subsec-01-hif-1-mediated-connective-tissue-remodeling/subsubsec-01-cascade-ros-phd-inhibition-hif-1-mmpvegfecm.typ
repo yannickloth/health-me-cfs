@@ -1,17 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *DMF*:  dimethyl fumarate
-/ *ECM*:  extracellular matrix
-/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
-/ *MMP*:  matrix metalloproteinase
-/ *NAC*:  N-acetylcysteine
-/ *Nrf2*:  nuclear factor erythroid 2-related factor 2; antioxidant master regulator
-/ *ROS*:  reactive oxygen species
-/ *VEGF*:  vascular endothelial growth factor
-
-
 ==== Cascade: ROS → PHD inhibition → HIF-1α → MMP/VEGF/ECM
 
 *Cascade:*
@@ -19,7 +7,6 @@
 - (a) MMP-3/MMP-9 upregulation → collagen/elastin degradation → ligament laxity
 - (b) VEGF upregulation → capillary basement membrane thickening (collagen IV) → impaired diffusion
 - (c) Altered ECM composition → mast cell activation
-
 
 *Step N1:* Prolyl hydroxylase inhibition (ROS → HIF-1α gate)
 - *Intercept:* Vitamin C (500--2000 mg; ascorbic acid, prolyl hydroxylase cofactor) — PHD cofactor; Alpha-ketoglutarate (Krebs cycle intermediate; PHD co-substrate); Circadian timing — align with peak PHD activity (prolyl hydroxylase circadian optimization, @sec:safe-mode); NAC (N-acetylcysteine; glutathione precursor, antioxidant) — reduces ROS

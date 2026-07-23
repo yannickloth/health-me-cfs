@@ -1,16 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *cAMP*:  cyclic adenosine monophosphate
-/ *CREB*:  cAMP response element-binding protein
-/ *DA*:  dopamine
-/ *DORA*:  dual orexin receptor antagonist
-/ *HR*:  heart rate
-/ *NMDA*:  N-methyl-D-aspartate
-/ *PKA*:  protein kinase A; cAMP-dependent kinase
-
-
 ==== Effect Magnitude
 
 *Partial response:* A drug that produces 20% improvement, not 80%, is hitting the right node — but the node accounts for only 20% of the disease burden. The magnitude of improvement estimates the *fraction of total pathology flowing through that node.* If midodrine reduces standing HR by 10% (not the expected 50--60%), α1 receptors are partially functional — partial sympathetic denervation, not complete. If lidocaine infusion reduces pain by 30% but not 80%, central sensitization is present but only accounts for 30% of the pain burden; the remaining 70% is from peripheral nociceptive drive or non-sodium-channel mechanisms.

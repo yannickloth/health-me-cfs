@@ -1,22 +1,5 @@
 #import "../../../../shared/environments.typ": *
 
-*Abbreviations used in this section:*
-
-/ *BP*:  blood pressure
-/ *DMF*:  dimethyl fumarate
-/ *HIF-1α*:  hypoxia-inducible factor 1 alpha
-/ *HR*:  heart rate
-/ *MCAS*:  mast cell activation syndrome
-/ *NAC*:  N-acetylcysteine
-/ *NF-κB*:  nuclear factor kappa-B
-/ *Nrf2*:  nuclear factor erythroid 2-related factor 2; antioxidant master regulator
-/ *PDK*:  pyruvate dehydrogenase kinase
-/ *PGD2*:  prostaglandin D2; mast-cell-derived prostaglandin
-/ *ROS*:  reactive oxygen species
-/ *VEGF*:  vascular endothelial growth factor
-/ *WASF3*:  Wiskott-Aldrich syndrome protein family member 3; respiratory supercomplex assembly inhibitor
-
-
 ==== Step D1: HIF-1α stabilization → WASF3 upregulation (transcriptional trigger)
 
 *Mechanism:* HIF-1α is the master transcriptional regulator of the hypoxic response. Under normoxia, HIF-1α is constitutively produced but immediately degraded (prolyl hydroxylase hydroxylates HIF-1α → pVHL ubiquitin ligase recognition → proteasomal degradation). Under hypoxia or pseudohypoxia (ROS accumulation, succinate accumulation, fumarate accumulation — all inhibit prolyl hydroxylase), HIF-1α escapes degradation → translocates to nucleus → dimerizes with HIF-1β → binds hypoxia response elements (HREs) → transcriptionally activates target genes including WASF3, PDK1, LDH-A, GLUT1, and VEGF.
