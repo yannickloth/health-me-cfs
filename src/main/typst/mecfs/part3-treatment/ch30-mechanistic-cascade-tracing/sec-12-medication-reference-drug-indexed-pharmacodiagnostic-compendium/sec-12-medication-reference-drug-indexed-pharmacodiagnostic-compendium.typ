@@ -137,7 +137,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 #strong[W] *Mechanism:* C (paradoxical — excessive vasodilation in POTS patients with borderline cerebral perfusion → worsening orthostasis). Reversible with drug clearance (half-life 30--50h). *Protracted risk:* Very Low. *Permanent risk:* Very Low. *Rechallenge:* Yes, at 1.25--2.5 mg with orthostatic monitoring. If BP drop without symptom improvement: L-type Ca²⁺-mediated vasoconstriction is load-bearing for orthostatic tolerance — diagnostic done; use alternative vasodilators (PDE5i, pentoxifylline).
 
-=== Amphetamines (Dextroamphetamine, Lisdexamfetamine)
+=== Amphetamines (Dextroamphetamine, Lisdexamfetamine) <warn:amphetamine-permanent-risk>
 
 *Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, cross-reference matrix.
 
@@ -147,7 +147,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 #strong[SE] Severe post-dose crash indistinguishable from PEM → VMAT2 terminal compromise. See @sec:side-effects-diagnostic.
 
-#strong[W] *Mechanism:* A (VMAT2 depletion → direct terminal damage) + B (metabolic PEM from sustained increased energy expenditure + tachycardia) + C (paradoxical excitation if D2 supersensitivity) + E (withdrawal dopamine crash → PEM) + H (PMC — cognitive benefit masks PEM warning, enables sustained overexertion). *Protracted risk:* Very High. *Permanent risk:* High. VMAT2 terminal dropout, mitochondrial DNA damage, and epigenetic consolidation converge — the single most dangerous medication class in this chapter. *Rechallenge:* NEVER. Document as severe intolerance. Counsel patient that all catecholamine-releasing agents (pseudoephedrine, ephedrine, high-dose caffeine) carry the same risk. <warn:amphetamine-permanent-risk>
+#strong[W] *Mechanism:* A (VMAT2 depletion → direct terminal damage) + B (metabolic PEM from sustained increased energy expenditure + tachycardia) + C (paradoxical excitation if D2 supersensitivity) + E (withdrawal dopamine crash → PEM) + H (PMC — cognitive benefit masks PEM warning, enables sustained overexertion). *Protracted risk:* Very High. *Permanent risk:* High. VMAT2 terminal dropout, mitochondrial DNA damage, and epigenetic consolidation converge — the single most dangerous medication class in this chapter. *Rechallenge:* NEVER. Document as severe intolerance. Counsel patient that all catecholamine-releasing agents (pseudoephedrine, ephedrine, high-dose caffeine) carry the same risk.
 
 === Anakinra
 
