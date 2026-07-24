@@ -396,3 +396,4 @@ src/main/latex/hsat2/20260720T*.pdf
 test-l3.pdf
 src/main/latex/**/main.pdf
 src/main/latex/**/*.pdf
+src/main/typst/**/main.pdf

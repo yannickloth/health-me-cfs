@@ -104,6 +104,7 @@ Verify these exist before delegating any phase. Run: `ls .claude/agents/<name>.m
 | `reductionist-auditor.md` | Phase 11b | ✓ exists |
 | `clinician-auditor.md` | Phase 11b | ✓ exists |
 | `devil-advocate-auditor.md` | Phase 11b | ✓ exists |
+| `medication-differential-analyst.md` | Phase 5c | ✓ exists |
 | `cross-section-coherence-auditor` | None (Phase 10 inline) | ✗ not created — Phase 10 runs inline indefinitely. No agent because: (1) coherence audit requires integrative judgment across multiple chapters simultaneously, (2) span of files is large (~20+ .typ files), (3) each audit pass is context-heavy and single-session focused. If context budgets improve or a two-pass architecture (grep-index-then-reason) becomes feasible, reconsider.
 
 ## Phase 0 — Plan Maintenance
@@ -126,15 +127,16 @@ Before starting any other phase:
    Then validate the plan file mechanically: all required fields present, no empty statuses. Tracking table must have at least one row — for recursive invocations, populate with the parent cycle's queued idea(s) as initial rows (status `⬜ pending`); for standalone invocations, the table may be empty at creation and populated after Phase 1. Do NOT run `/review-convergence` on a tracking document — it is a coordination artifact, not publishable content. Only proceed to Phase 1 when validation passes.
 4. **After every subsequent phase**, update the tracking table row(s) and any notes in the plan:
    - Phase 1 → papers found, bib entries added, search log path
-   - Phase 2 → synthesis verdict, evidence quality summary, integration decision (PROCEED / PARTIAL / REJECT / DEFER)
-   - Phase 3 → environments added, chapters touched
+   - Phase 2 → synthesis verdict, evidence quality summary, integration decision (PROCEED / PARTIAL / REJECT / DEFER), standing epistemic checklist (#1–#6 status)
+   - Phase 3 → environments added, chapters touched, standing epistemic checklist per-claim (#1–#6)
    - Phase 3.5 → N environments verified, M missing consequence fields added
    - Phase 4 → brainstorm file path, idea count
    - Phase 4a → subtree file path, N nodes written, root index updated
     - Phase 5 → ideas integrated (by tier); queued topics from Gates A/B with one-line rationale
-    - Phase 5d → N cascade branches traced, M drug→node pairs, K discriminating probes; trace at `ops/integration-guides/pathway-drug-trace-<slug>.md`; ch30 cascades modified, sec-12 entries added/modified
-    - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
-    - Phase 5z → N glossary entries added, M terms filtered
+     - Phase 5d → N cascade branches traced, M drug→node pairs, K discriminating probes; trace at `ops/integration-guides/pathway-drug-trace-<slug>.md`; ch30 cascades modified, sec-12 entries added/modified
+     - Phase 5c → differential entry generated for <medication> (inference certainty: H/M/L), ch24 sections modified
+     - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
+     - Phase 5z → N glossary entries added, M terms filtered; [skipped — no file modifications / ran clean]
     - Phase 6 → M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred); bump log updated with K bumps
     - Phase 7 → R reinforcement pairs, F feed-in pairs, C conflict pairs, I independents; J certainty bumps, K reductions, L tensions flagged; bump log updated with J+K adjustments
    - Phase 8 → build status
@@ -271,11 +273,12 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
    - Which chapters will be the primary integration targets?
 
 4. **Clinical relevance assessment:**
-   - Does this topic have direct implications for patient care?
-   - If treatment-related: is there human dosing data? Effect size data? Safety data?
-   - Is the evidence preclinical only, general-population only, or ME/CFS-specific?
-   - **Patient subset applicability:** Which severity levels does this apply to (mild / moderate / severe / very severe)? If not specified in the evidence → state explicitly: "severity applicability unknown."
-   - Summary: "Clinical relevance: [HIGH — actionable for clinicians / MEDIUM — mechanistic context for treatment decisions / LOW — research-only / NONE — purely theoretical]. Subset: [mild/moderate/severe/very severe/all/unknown]."
+    - Does this topic have direct implications for patient care?
+    - If treatment-related: is there human dosing data? Effect size data? Safety data?
+    - Is the evidence preclinical only, general-population only, or ME/CFS-specific?
+    - **Patient subset applicability:** Which severity levels does this apply to (mild / moderate / severe / very severe)? If not specified in the evidence → state explicitly: "severity applicability unknown."
+    - **Off-label clinical experience:** If applicable, note: "Off-label clinical experience: [present — see checklist #6 / none]." Clinical relevance assessment accounts for both published evidence AND off-label experience when the latter meets checklist #6 criteria (preclinical rationale + case series, clinician consensus, patient-reported outcomes).
+    - Summary: "Clinical relevance: [HIGH — actionable for clinicians / MEDIUM — mechanistic context for treatment decisions / LOW — research-only / NONE — purely theoretical]. Subset: [mild/moderate/severe/very severe/all/unknown]."
 
 5. **Integration decision** (MANDATORY — explicit outcome). **Evaluate in order; first matching row wins:**
 
@@ -301,7 +304,7 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
    For PROCEED, write the block with "all"/"allowed"/"none" so downstream phases still have an explicit reference. For REJECT/DEFER, no caps block needed (cycle ends at Phase 2).
 
 **Output:** `tmp/synthesis-<topic-slug>-<date>.md`
-**Report:** "Phase 2 complete: N papers strong, M weak, K null, J missing. Decision: [PROCEED / PARTIAL / REJECT / DEFER]. Clinical relevance: [HIGH/MEDIUM/LOW/NONE]. Contradictions: [none / N pairs]."
+**Report:** "Phase 2 complete: N papers strong, M weak, K null, J missing. Decision: [PROCEED / PARTIAL / REJECT / DEFER]. Clinical relevance: [HIGH/MEDIUM/LOW/NONE]. Contradictions: [none / N pairs]. Standing epistemic checklist: [#1 ✓/⚠/N/A] / [#2 ✓/⚠/N/A] / [#3 ✓/⚠/N/A] / [#4 ✓/⚠/N/A] / [#5 ✓/⚠/N/A] / [#6 ✓/⚠/N/A]."
 
 ---
 
@@ -309,7 +312,7 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
 
 **Agent:** main session | **Model:** current
 
-Read Phase 2 synthesis. Use the evidence summary and contradiction framing to guide integration — do not impose a predetermined narrative; let the evidence structure determine emphasis. Per finding, determine integration target:
+Read Phase 2 synthesis. Use the evidence summary and contradiction framing to guide integration — do not impose a predetermined narrative; let the evidence structure determine emphasis. Before writing any content, verify each item on the Standing Epistemic Checklist (#1–#5) against the available evidence. Per finding, determine integration target:
 
 **Chapter mapping:**
 - Pathophysiology mechanisms → Part 2 (ch06–ch16) | ch30 cascade sections (hypothesis tracing)
@@ -326,10 +329,12 @@ Read Phase 2 synthesis. Use the evidence summary and contradiction framing to gu
 |-------------|-------------|
 | Novel discovery, well-supported | `#achievement[Title][ ... ]` |
 | Hypothesis (certainty ≥ 0.45) | `#hypothesis-box[Title][ ... ]` |
+| Hypothesis (certainty ≥ 0.45, equally-evidenced competing mechanism) | `#open-question[Title][ ... ]` — override per `@rule:competing-mechanism-elevation` (Standing Epistemic Checklist #4: when a competing mechanism is equally well-evidenced — certainty diff ≤ 0.10, comparable methodology — the claim is elevated to `#open-question` rather than `#hypothesis-box`) |
 | Hypothesis with explicit falsifiability fields | `#fhypothesis(title: [...], falsifiability: "...", justification: "...")[ ... ]` |
 | Speculation (certainty < 0.45) | `#speculation[Title][ ... ]` |
 | Testable prediction | `#prediction[Title][ ... ]` |
 | Clinical finding | `#clinical-finding[Title][ ... ]` |
+| Clinical finding (off-label clinical experience) | `#clinical-finding[Title][ ... ]` — checklist #6: preclinical rationale + accumulated off-label clinical experience (case series, clinician consensus, patient-reported outcomes) qualifies as `#clinical-finding` with certainty ≤ cap, not `#speculation` |
 | Safety/risk | `#practical-warning[Title][ ... ]` or `#warning-box[Title][ ... ]` |
 | Open research question | `#open-question[Title][ ... ]` |
 | Limitation | `#limitation[Title][ ... ]` |
@@ -363,7 +368,7 @@ Read Phase 2 synthesis. Use the evidence summary and contradiction framing to gu
 - Pregnancy/lactation safety: state available data or "no pregnancy/lactation safety data available"
 - State severity applicability (mild / moderate / severe / very severe); if not specified in the evidence → state: "severity applicability unknown"
 
-**Report:** "Phase 3 complete: N environments added across M chapters, hypothesis registry updated. Files modified/created: <space-separated relative paths>."
+**Report:** "Phase 3 complete: N environments added across M chapters, hypothesis registry updated. Files modified/created: <space-separated relative paths>. Standing epistemic checklist verified per-claim: [#1 ✓/⚠] / [#2 ✓/⚠] / [#3 ✓/⚠] / [#4 ✓/⚠] / [#5 ✓/⚠] / [#6 ✓/⚠]. Any ⚠ items detailed below: [list]."
 
 ## Phase 3a — Intermediate Build Check
 
@@ -585,7 +590,7 @@ Same requirement as Phase 3: every environment written in Phase 5 must contain a
 
 **Integration threshold (Tiers 1–2):** ANY mechanistic connection to ME/CFS is sufficient. Cross-disease parallels → appropriate chapter (ch13, ch14d). Non-pharmacological interventions → ch17. Research tools → ch20 or ch25b. Long-shot drug ideas → ch18 or ch06 as open questions. Cascading mechanistic hypotheses with drug interception points → ch30 cascade sections (sec-01–sec-11) + ch30 sec-12 medication reference entries.
 
-**Report:** "Phase 5 complete: N ideas triaged (T1: X integrated, T2: Y integrated, T3: Z tree-only), P queued as child topics. Files modified/created: <space-separated relative paths>."
+**Report:** "Phase 5 complete: N ideas triaged (T1: X integrated, T2: Y integrated, T3: Z tree-only), P queued as child topics. Files modified/created: <space-separated relative paths>. Standing epistemic checklist — [#1–#2 cross-check delegated to Phase 5a; #3–#6: no violations / ⚠ <description>]."
 
 Subtree status updates are deferred to after Phase 5a (which follows the Phase 5b build check).
 
@@ -715,14 +720,14 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 ## Phase 5b — Intermediate Build Check
 
-**Note:** Phase 5b (build check, `b` = build) runs before Phase 5a (falsifiability, `a` = audit) and after Phase 5c (differential analysis, `c` = clinical) and Phase 5d (pathway-to-drug tracing, `d` = drug). The lettering reflects content type, not execution order. Execution sequence: 5 → 5d → 5c → 5a → 5z → 5b. Phase 5d runs before 5c so that cascade-to-drug mappings are complete when 5c writes per-medication differential entries; if a topic triggers both, 5d's cascade nodes are available for 5c to cross-reference. Phase 5z (glossary review) runs after 5a when all chapter content is finalized. When new ch30 sec-12 entries are created by 5d, Phase 5z MUST also verify the glossary has corresponding entries (or add them).
+**Note:** Phase 5b (build check, `b` = build) runs after Phase 5c (differential analysis, `c` = clinical) and Phase 5d (pathway-to-drug tracing, `d` = drug), before Phase 5a (falsifiability, `a` = audit) and Phase 5z (glossary review, `z` = glossary). The lettering reflects content type, not execution order. Execution sequence: 5 → 5d → 5c → 5b → 5a → 5z. Phase 5d runs before 5c so that cascade-to-drug mappings are complete when 5c writes per-medication differential entries; if a topic triggers both, 5d's cascade nodes are available for 5c to cross-reference. Phase 5z (glossary review) runs after 5a when all chapter content is finalized. When new ch30 sec-12 entries are created by 5d, Phase 5z MUST also verify the glossary has corresponding entries (or add them).
 
 **Agent:** main session | **Model:** current
 
 1. `git add <files-modified-or-created-in-Phase-5>` — stage ONLY Phase 5 files
 2. `nix build` — common Phase 5 errors: new `@CitationKey` references not matching bib, `<` in prose, new `#include` directives to files not yet staged
-3. Fix ALL errors before proceeding to Phase 5a (falsifiability)
-4. Report: "Phase 5b build: PASS / FAIL (N errors fixed)"
+3. Fix ALL errors before proceeding to Phase 5z (glossary review)
+4. Report: "Phase 5b build: PASS / FAIL (N errors fixed). Intermediate build checks at Phase 3a: [PASS/FAIL], Phase 5b: [PASS/FAIL]."
 
 ---
 
@@ -736,12 +741,14 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 2. **Gate:** Every `#hypothesis-box()`, `#fhypothesis()`, `#speculation()`, and `#prediction()` that was newly integrated must have at least one falsifiable prediction.
 3. Fix any that slipped through inline checking:
    - Criterion: "weakly" or missing falsifiability → add a specific, testable prediction (what observation would refute the hypothesis)
-   - If a hypothesis is structurally unfalsifiable (accommodates any outcome) → add explicit note: "Critique: structurally unfalsifiable." Retain current environment type and certainty — unfalsifiability is a *methodological* property, not an *evidential* one. A well-evidenced but vague claim stays at its evidence-based certainty with the unfalsifiability flag. Only reclassify to `#open-question` if the claim is also poorly evidenced.
+    - If a hypothesis is structurally unfalsifiable (accommodates any outcome) → add explicit note: "Critique: structurally unfalsifiable." Retain current environment type and certainty — unfalsifiability is a *methodological* property, not an *evidential* one. A well-evidenced but vague claim stays at its evidence-based certainty with the unfalsifiability flag. Only reclassify to `#open-question` if the claim is also poorly evidenced (certainty < 0.30, same as the Phase 3 rule at line 353).
    - If unsure how to falsify → pause and ask user before proceeding.
 
 **Gate:** ALL new hypotheses/speculations must be falsifiable or explicitly flagged as structurally unfalsifiable before Phase 6 begins. No hypothesis ships to review without a falsifiability check.
 
-**Report:** "Phase 5a complete: N hypotheses audited across Phases 3 and 5 (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged). Inline coverage: X% already handled during integration."
+**Checklist cross-check (delegated):** The `falsifiability-auditor` also verifies Standing Epistemic Checklist items #1–#2 on ALL new environments from Phases 3 and 5: (a) grep every `@CitationKey` in new environments, confirm bib existence; (b) sample 3 keys at random for claim-fidelity spot-check — read the cited paper's abstract/key findings, verify the claim in the environment is supported. Report discrepancies in the Phase 5a report.
+
+**Report:** "Phase 5a complete: N hypotheses audited across Phases 3 and 5 (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged). Standing epistemic checklist cross-check: [#1: P keys verified, Q discrepancies] / [#2: R claims checked, S evidence-type corrections]. Inline coverage: X% already handled during integration."
 
 **Subtree status update (after Phase 5a):** Now update node statuses in `ops/plans/hypotheses-trees/subtrees/<topic-slug>.md`:
 - Integrated (Tier 1–2) → `✅`
@@ -950,6 +957,7 @@ Phase 6 complete: M matches examined, N adapted
 
 Coverage: N adapted + S deferred / M examined (if M < total grep hits, note remaining)
 Zero-overlap case: if M=0 after deduplication, report "Phase 6: no overlapping pre-existing content found for search terms [list]."
+Standing epistemic checklist: [no violations / #N ⚠ <description>].
 ```
 
 Add to Phase 0 tracking: `6 | M matches examined, N adapted (R reinforced, T contradicted, A ambiguous, S deferred)`
@@ -1024,6 +1032,7 @@ Phase 7 complete: N pairs audited
   Independent:    I pairs (V reclassified from initial independent assessment)
   Certainty adjusted: J bumps, K reductions, L tensions flagged (no change)
   Plan file updated: ops/plans/<topic-slug>-integration-plan.md
+  Standing epistemic checklist: [no violations / #N ⚠ <description>].
 ```
 
 Add to Phase 0 tracking: `7 | R reinforcement pairs, F feed-in pairs, C conflict pairs, I independents; J certainty bumps, K reductions, L tensions flagged`
@@ -1046,11 +1055,7 @@ The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.ty
 
 **MIXED-mode staging:** In MIXED mode (unrelated WIP in tree), `git add -A` is FORBIDDEN — it would stage another stream's work. Always use the explicit per-phase file list from the plan. The build derivation needs your new files tracked, but staging is per-topic; this is also what makes the Phase 13 commit scope clean.
 
-**Build check at intermediate phases:** To catch errors early, run a quick build after:
-- Phase 3 (first content writes — catches import path errors, missing `#include` directives)
-- Phase 5 (more content writes — catches new citation key issues, `<` escaping problems)
-
-These are lightweight checks (the build may fail; that's the point). If either fails, fix all errors before continuing to the next phase. This prevents error accumulation that forces multiple fix-verify rounds in Phase 8.
+**Build check at intermediate phases:** Phase 3a and Phase 5b are formal intermediate build checks with dedicated sections above — they catch import path errors, missing `#include` directives, citation key issues, and `<` escaping problems before downstream phases build on broken content. Phase 8 is the final build verification after all content changes (Phases 3–7).
 
 **Phase 8 proper:** Full build verification after all content changes (Phases 3–7).
 
@@ -1085,7 +1090,8 @@ These are lightweight checks (the build may fail; that's the point). If either f
 |------|-----------|--------|
 | `BLOAT` | Gross words added (via `git diff --word-diff --stat`) > 2000 AND <3 new hypotheses/speculations | Review for verbose integration; consider condensing before Phase 10–11 reviews |
 | `WEAK-EVIDENCE` | Phase 2 decision was PARTIAL, OR >50% of papers have certainty < 0.40 | Aligned with Phase 2 sufficiency gate by design |
-| `CLINICAL-RISK` | Treatment environment integrated without harm literature search, OR `#clinical-finding` without evidence type stated, OR treatment claim with only preclinical evidence, OR treatment/clinical content without severity applicability statement, OR drug idea integrated without checking interactions with common ME/CFS co-prescriptions (Phase 5 Augment H) | Verify adverse effect search was done; add missing safety caveats; add severity applicability; run drug interaction check |
+| `CLINICAL-RISK` | Treatment environment integrated without harm literature search, OR `#clinical-finding` without evidence type stated, OR treatment claim with only preclinical evidence, OR treatment/clinical content without severity applicability statement, OR drug idea integrated without checking interactions with common ME/CFS co-prescriptions (Phase 5, Instruction H: Drug-Interaction Pre-Check) | Verify adverse effect search was done; add missing safety caveats; add severity applicability; run drug interaction check |
+| `G-UNSUSTAINED-CERTAINTY` | ≥2 certainty bumps for the same hypothesis in a single cycle (detected via bump log) | Flag for human review — hypothesis certainty may be artificially inflated. Require explicit justification or revert to pre-cycle certainty. |
 | `SLOW-CONVERGENCE` | (computed after Phase 11 — added to report retroactively; informational, not actionable) | Integration introduced structural issues |
 
 **Note on net certainty direction:** Negative net certainty change is a *successful correction*, not a failure. Report direction without valence judgment: "Net certainty change: −0.15 (corrections predominated)." Positive direction is not inherently better than negative.
@@ -1118,7 +1124,7 @@ These are lightweight checks (the build may fail; that's the point). If either f
 
 **Fix protocol:** Main session reads the coherence audit and resolves all findings before Phase 11. Fixes may include alignment text (bridging sentences, terminology harmonization, cross-reference updates) — these are structural edits, not new substantive claims. Do not add new mechanistic claims or new evidence.
 
-**Report:** "Phase 10 complete: N chapters audited, M inconsistencies found, K fixed, J require user decision."
+**Report:** "Phase 10 complete: N chapters audited, M inconsistencies found, K fixed, J require user decision. Standing epistemic checklist: [no violations / #N ⚠ <description>]."
 
 ---
 
@@ -1169,7 +1175,7 @@ These are lightweight checks (the build may fail; that's the point). If either f
 **Environment definition:** `#synthesis(title: [...])[body] <label>` renders as a solid cyan box with `⇌` icon. Defined in `src/main/typst/mecfs/shared/environments.typ`. The Java Qmd converter (`src/main/java/web/ConvertAndSplit.java`) maps it to a Quarto `note` callout.
 
 **Output:** The modified `.typ` file with the new `#synthesis` environment.
-**Report:** "Phase 10a complete: synthesis environment @syn:<topic-slug>-model added to chapter N, condensing K environments into convergent model."
+**Report:** "Phase 10a complete: synthesis environment @syn:<topic-slug>-model added to chapter N, condensing K environments into convergent model. Standing epistemic checklist: [no violations / #N ⚠ <description>]."
 
 ### Retroactive Synthesis for Completed Integrations
 
@@ -1329,7 +1335,10 @@ If `nix build` fails on a key that a parallel stream's rebase/reset may have dro
 | 5 | `literature-integrator` (agent, sub) | sonnet | Per-idea research (Tier 1 only) |
 | 5 | main session | current | Development + integration |
 | 5a | `falsifiability-auditor` (agent) | sonnet | Verification sweep (most work done inline in Phase 5) |
+| 5b | main session | current | Intermediate build check |
 | 5c | `medication-differential-analysis` (skill → `medication-differential-analyst` agent) | opus | Differential diagnostic reasoning for medication topics |
+| 5d | main session | opus | Pathway-to-drug cascade tracing (skip if opus unavailable) |
+| 5z | main session | haiku | Mechanical glossary term extraction |
 | 6 | main session | current | Evidence→claim retrospective adaptation |
 | 7 | main session (inline) | current | Compatibility audit + reinforcement chains + adjustments — all three steps |
 | 8 | main session | current | Build verification + pre-build staging. Intermediate checks at Phases 3 and 5 |
@@ -1384,6 +1393,35 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 - **Bib is ground truth, not the agent's report** — bib entries live in the split `bib/*.bib` files (there is NO `references.bib`); cite only keys verified present in the `.bib` file, preserving their exact `AuthorYEARkeyword` case; never lowercase/normalize keys and never trust a transcribed key list
 - **No duplicate integration** — Phase 5 must dedup brainstorm ideas against Phase 3 environments before integrating
 - **Commit scope is per-topic** — Phase 13 stages only this topic's files by explicit list; never commit transient review-skill artifacts (`.claude/review-checkpoint-*.md`) or unrelated WIP
+
+---
+
+## Standing Epistemic Checklist
+
+**Scope:** Phases 2, 3, 5, 6, 7, 10, 10a (all claim-writing / integration-decision phases). Every claim, environment, and certainty adjustment is implicitly subject to these boundaries.
+
+**Role:** AI retrieves connections and generates hypotheses quickly but tends to smooth over uncertainty and confuse plausibility with proof. These boundaries are the human-researcher verification layer — continuously checking that evidence actually supports claims, association isn't mistaken for causation, model-system findings aren't translated directly to patients, competing explanations remain visible, and inferences are clinically testable.
+
+**Enforcement:**
+- Phases 2, 3: must explicitly confirm every item in their report template (see below). Cross-check: Phase 5a falsifiability auditor verifies checklist items #1–#2 against the agent's own cited evidence (grep each `@CitationKey` in new environments, confirm existence in bib, sample 3 keys at random for claim-fidelity spot-check).
+- Phases 5, 6, 7, 10, 10a: must include a one-line confirmation in their phase report, even when clean: `"Standing epistemic checklist: no violations."` A boundary crossing uses the format: `"Standing epistemic checklist — [#N <boundary>: <description>]"` and must be resolved before Phase 11 review convergence. No phase may omit the confirmation line — silence is non-compliance, not evidence of cleanliness.
+
+| # | Boundary | Check | Failure mode | Phase 2 check | Phase 3 check |
+|---|----------|-------|--------------|---------------|---------------|
+| 1 | **Evidence-to-claim calibration** | Does the cited evidence *actually support* the claim being made? Does the claim's scope match the evidence's scope (population, outcome, effect size)? | Cargo-cult citation: a paper is cited as support for a claim it doesn't make, or a claim is stated more broadly than the evidence permits. | Confirm: every Phase 1 paper's key findings are faithfully summarized before assigning certainty. | Confirm: every `@CitationKey` in new environments is verified against the paper's actual findings (not just the bib's `certainty` field). |
+| 2 | **Association vs. causation** | Has correlation/association been presented as mechanistic causality? Is the direction of causality established or inferred? | "X is elevated in ME/CFS" → "X causes symptom Y" without establishing whether X drives Y, Y drives X, or both are downstream of Z. | For each mechanistic pathway proposed: classify evidence as correlational, causal (intervention, RCT with adequate power, knockdown experiments), or unknown. Mendelian randomization is treated as quasi-causal (MR rests on untestable assumptions; state: "MR evidence — causal inference contingent on instrument validity.") | Every mechanistic claim must state the evidence type for causation (intervention / longitudinal / cross-sectional / in vitro only). If purely correlational → must say so. Also enumerate potential reverse-causation and common-cause candidates (e.g., deconditioning, medication effects, activity level). |
+| 3 | **Translation gap: model system → patient** | Has animal, in vitro, or computational evidence been translated directly to patients without acknowledging the gap? Is a preclinical finding presented as though it were clinical? | "TRPM3 knockout mice show PEM-like behavior → TRPM3 dysfunction causes PEM in ME/CFS" without noting species/complexity gap. | For each evidence source: classify as human ME/CFS, human general-population, animal model, in vitro, in silico, or anecdotal. | Every claim whose primary evidence is non-human must carry a `(Translation gap: [model system → human]. Not yet validated in ME/CFS patients.)` annotation. Preclinical-only therapeutic claims → `#speculation`, not `#clinical-finding`. (Complements Instruction C: compartment gap is intra-human; translation gap is cross-species/system.) |
+| 4 | **Competing explanations** | Has the paper acknowledged that the same observations could be explained by a different mechanism? Are alternative hypotheses visible alongside the favored one? | Monocausal framing: the pipeline picks the most narratively satisfying mechanism and ignores others that explain the same data equally well. | For each major mechanistic claim: enumerate at least one alternative explanation from Phase 1 competing-mechanism search. If none found → state "no competing mechanism identified in literature search." (Phase 4 categories 10–11 generate additional alternatives after Phase 2 — not retroactively gated but noted as enrichment in Phase 5.) | Every `#hypothesis-box` must enumerate competing mechanisms in the Phase 2 report (not inline in every box — avoids boilerplate). Competing mechanisms that are *equally* well-evidenced (certainty diff ≤ 0.10 with comparable methodology) → `#open-question`, not `#hypothesis-box`. (See Phase 3 environment table for this override — cross-ref `@rule:competing-mechanism-elevation`.) |
+| 5 | **Clinical testability** | Can the proposed inference be tested in a clinical setting? | A mechanism is presented as clinically relevant when no measurement method exists, or a treatment is discussed as though trials are imminent when basic science is decades from application. | For each proposed clinical implication: state whether testable now or not testable with current methods (binary). | `*Consequence:*` fields inherit testability statements per Phase 3.5 quality criteria. No additional horizon clause needed — Phase 3.5's "concrete, specific, honest" rules already require temporal honesty. If consequence = none (per Instruction F), testability is N/A. |
+| 6 | **Clinical utility** | Does this content inform a patient or clinician decision? Would checklist-driven demotion to `#speculation` or `#open-question` remove content that has clinical value despite falling short of epistemic standards? | A paper so epistemically pure it is clinically useless — the checklist is a one-way ratchet toward demotion without a balancing term for utility. A symmetric "clinical hazard" override: content that fails epistemic standards AND carries clinical risk (incorrectly elevated environment type could mislead patients/clinicians) should face *stricter* demotion — flag ⚠ with "clinical-hazard tension." | For clinical claims: if a checklist item (esp. #3 or #5) would demote or caveat content that an educated clinician would find actionable → flag ⚠ with "clinical-utility tension" and let human decide. For clinical claims that carry risk if overstated (treatment efficacy implied from preclinical evidence, unvalidated diagnostic claims): if checklist items would normally permit the current environment type, override to demote OR flag with "clinical-hazard tension." | Same. Off-label clinical experience (case series, clinician consensus, patient-reported outcomes) is a legitimate evidence class for ME/CFS — claims with preclinical rationale + off-label experience → `#clinical-finding` with certainty ≤ cap, not `#speculation`. |
+
+**Phase 2 report must include:** `"Standing epistemic checklist: [#1 ✓/⚠/N/A] / [#2 ✓/⚠/N/A] / [#3 ✓/⚠/N/A] / [#4 ✓/⚠/N/A] / [#5 ✓/⚠/N/A] / [#6 ✓/⚠/N/A]."` Each item: ✓ (verified clean) / ⚠ (issues flagged, with one-line explanation) / N/A (not applicable — #1 always applicable; #2: no mechanistic pathways; #3: all evidence human ME/CFS; #4: zero mechanistic claims; #5: no clinical implications; #6: no clinical/patient-facing content).
+
+**Phase 3 report must include:** `"Standing epistemic checklist verified per-claim: [#1 ✓/⚠] / [#2 ✓/⚠] / [#3 ✓/⚠] / [#4 ✓/⚠] / [#5 ✓/⚠] / [#6 ✓/⚠]."` N/A allowed when genuinely inapplicable per the Phase 2 N/A rules above. Phase 3 applies the same N/A criteria — the "no N/A" rule from the prior version is removed (forced ✓ invites rubber-stamping). Any ⚠ items detailed per-claim.
+
+**Cross-check (delegated):** Phase 5a falsifiability auditor also verifies checklist items #1–#2 on ALL new environments from Phases 3 and 5: grep every `@CitationKey`, confirm bib existence, sample 3 keys at random for claim-fidelity spot-check against the cited paper's abstract/findings. Report discrepancies.
+
+**Publication-time honesty (meta-invariant):** The willingness to revise publicly when wording outruns evidence is what makes the process trustworthy — especially in ME/CFS where premature mechanistic certainty can misdirect both research and desperate patients. If any claim in published text is later discovered to overstate the evidence → it must be corrected, not defended. The Phase 6 retroactive adaptation is the formal mechanism for this. The checklist is the prevention mechanism. Both mechanisms depend on discovery: Phase 6 discovers overstatements via new-evidence overlap; adversarial review (Phase 11) discovers them during convergence passes. No separate retroactive audit phase exists — discovery is passive, not scheduled.
 
 ---
 
