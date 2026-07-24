@@ -55,7 +55,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === ALA (Alpha-Lipoic Acid)
 
-*Appears in:* @sec:wasf3-cascade Step D2, @sec:pdh-cascade, @sec:aimm-cascade, cross-reference matrix Phase 4 Group C.
+*Appears in:* @sec:pdh-cascade E2, cross-reference matrix Phase 4 Group C.
 
 #strong[+] PDH cofactor + antioxidant → PDH activation rate-limiting (lactate reduction, improved exercise tolerance) and/or antioxidant capacity is the bottleneck.
 
@@ -67,7 +67,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Allopregnanolone
 
-*Appears in:* @sec:trpm3-cascade A2, cross-reference matrix.
+*Appears in:* Cross-reference matrix Phase 4 Group C.
 
 #strong[+] GABA-A neurosteroid site functional and rate-limiting. Allopregnanolone is a potent endogenous positive allosteric modulator of GABA-A at neurosteroid binding sites — improvement confirms GABAergic neurosteroid deficiency is the lesion.
 
@@ -79,7 +79,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Amantadine
 
-*Appears in:* @sec:dopamine-convergence, cross-reference matrix.
+*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, cross-reference matrix.
 
 #strong[+] Presynaptic DA release is the bottleneck — DA stores exist but release is impaired. Amantadine enhances DA release without blocking reuptake, distinguishing from methylphenidate.
 
@@ -103,7 +103,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Ambroxol
 
-*Appears in:* Cross-reference matrix Phase 4 Group C, @sec:trpv1-cascade Step B1.
+*Appears in:* Cross-reference matrix Phase 4 Group C.
 
 #strong[+] TRPV1 antagonism → muscle pain reduction, PEM reduction. Mucolytic effect (if airway symptoms present).
 
@@ -127,7 +127,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Amlodipine
 
-*Appears in:* @sec:trpv1-cascade B2, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] L-type Ca²⁺ channel-mediated vasoconstriction rate-limiting for microvascular perfusion deficits. TRPV1 activation on vascular smooth muscle opens L-type Ca²⁺ channels → vasoconstriction. Amlodipine blocks this downstream effect and restores perfusion.
 
@@ -139,7 +139,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Amphetamines (Dextroamphetamine, Lisdexamfetamine) <warn:amphetamine-permanent-risk>
 
-*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, cross-reference matrix.
+*Appears in:* @sec:microglial-cascade Step K2b, cross-reference matrix.
 
 #strong[+] VMAT2 + DAT reversal → DA release confirms presynaptic DA terminals are present and functional. Cognitive improvement confirms DA is rate-limiting.
 
@@ -187,7 +187,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Aripiprazole (Low-Dose)
 
-*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, @sec:dopamine-convergence, @sec:trpm3-cascade (M4 CNS), cross-reference matrix.
+*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, @sec:dopamine-convergence, cross-reference matrix.
 
 #strong[+] D2/D3 partial agonism → DA dysfunction rate-limiting. Lesion at or above D2/D3 receptor level.
 
@@ -211,7 +211,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Aspirin / NSAIDs
 
-*Appears in:* @sec:trpv1-cascade Step B2, cross-reference matrix.
+*Appears in:* @sec:side-effects-diagnostic, cross-reference matrix.
 
 #strong[+] COX-1/COX-2 inhibition → prostaglandin-driven inflammation is rate-limiting (TRPV1 pain, PGE2-mediated vasodilation in POTS).
 
@@ -223,7 +223,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Atomoxetine
 
-*Appears in:* @sec:trpm3-cascade Step A4, @sec:microglial-cascade Step K2b (LC-NE dysfunction), @sec:noradrenergic-node, cross-reference matrix.
+*Appears in:* @sec:microglial-cascade Step K2d, @sec:noradrenergic-node, cross-reference matrix.
 
 #strong[+] NE reuptake inhibition → NE deficiency rate-limiting. Cognitive benefit (PFC-dependent tasks) confirms prefrontal NE deficit.
 
@@ -235,7 +235,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Azathioprine
 
-*Appears in:* Cross-reference matrix Group B, @sec:gpcr-cascade I1.
+*Appears in:* Cross-reference matrix Group B.
 
 #strong[+] Purine-dependent lymphocyte proliferation rate-limiting — T-cell- and B-cell-driven autoimmunity confirmed. Azathioprine blocks purine synthesis → reduced lymphocyte expansion → improvement confirms lymphocyte-driven pathology is dominant.
 
@@ -283,7 +283,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === BCAA (Branched-Chain Amino Acids)
 
-*Appears in:* @sec:wasf3-cascade D2, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] Catabolic amino acid depletion rate-limiting for energy and muscle function. BCAA supplementation restores branched-chain amino acid pools — confirms catabolic metabolism is actively degrading muscle for gluconeogenic substrate.
 
@@ -343,7 +343,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Bromocriptine / Rotigotine
 
-*Appears in:* Cross-reference matrix Group B, @sec:dopamine-convergence.
+*Appears in:* Cross-reference matrix Group B.
 
 #strong[+] D2/D3 postsynaptic receptors intact and responsive — same pharmacodiagnostic as pramipexole. Rotigotine patch provides continuous delivery to distinguish PK vs PD ceiling.
 
@@ -439,7 +439,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Cilostazol
 
-*Appears in:* Cross-reference matrix Group B, @sec:aimm-cascade.
+*Appears in:* Cross-reference matrix Group B.
 
 #strong[+] PDE3-mediated microvascular pathology rate-limiting. Cilostazol increases cAMP in platelets and vascular smooth muscle → vasodilation + antiplatelet effects → improved microvascular perfusion. Confirms the combined platelet-endothelial lesion.
 
@@ -571,7 +571,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Cromolyn Sodium
 
-*Appears in:* @sec:piezo2-cascade C2, @sec:gpcr-cascade I2, cross-reference matrix.
+*Appears in:* @sec:piezo2-cascade C2, cross-reference matrix.
 
 #strong[+] Gut mast cell degranulation rate-limiting for GI symptoms. Stabilization confirms MCAS with enteric-dominant phenotype.
 
@@ -583,7 +583,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Curcumin
 
-*Appears in:* Cross-reference matrix Group C, @sec:aimm-cascade.
+*Appears in:* Cross-reference matrix Group C.
 
 #strong[+] NF-κB-driven inflammation rate-limiting. Curcumin's pleiotropic anti-inflammatory effects (NF-κB inhibition, COX/LOX inhibition, Nrf2 activation) confirm the NF-κB-inflammatory axis is dominant and curcumin-responsive.
 
@@ -607,7 +607,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Cyclophosphamide
 
-*Appears in:* Cross-reference matrix Group A, @sec:gpcr-cascade I1.
+*Appears in:* Cross-reference matrix Group A.
 
 #strong[+] B-cell- and T-cell-driven autoimmunity rate-limiting — severe, proliferative autoimmune disease confirmed. Cyclophosphamide's alkylating action depletes proliferating lymphocytes — improvement confirms autoimmune pathology is severe enough to justify the toxicity.
 
@@ -726,7 +726,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Donepezil
 
-*Appears in:* Cross-reference matrix, @sec:aimm-cascade F1.
+*Appears in:* @sec:microglial-cascade Step K2d, cross-reference matrix.
 
 #strong[+] Central cholinergic deficiency rate-limiting for cognition. Donepezil's CNS AChE inhibition enhances cholinergic tone → cognitive improvement confirms the cholinergic anti-inflammatory pathway and prefrontal cholinergic networks are functional and ACh-deficient.
 
@@ -798,7 +798,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Droxidopa
 
-*Appears in:* @sec:noradrenergic-node, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] NE synthesis capacity intact. Presynaptic NE stores loadable via AADC conversion of droxidopa to NE. Improvement confirms NE deficiency is synthesis-limited, not storage or release.
 
@@ -810,7 +810,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Duloxetine
 
-*Appears in:* @sec:trpm3-cascade Step A4, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] NE or 5-HT deficiency rate-limiting for pain, cognition, or mood. SNRI dual action confirms monoamine deficit is multimodal.
 
@@ -930,7 +930,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === FMT (Fecal Microbiota Transplantation)
 
-*Appears in:* @sec:vagal-cascade R1, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] Gut microbiome dysbiosis rate-limiting for systemic symptoms. FMT restores donor microbiota → multi-system improvement confirms gut-brain axis pathology originates in the microbiome.
 
@@ -1026,7 +1026,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Glycyrrhizin
 
-*Appears in:* Cross-reference matrix Group B, @sec:aimm-cascade.
+*Appears in:* Cross-reference matrix Group B.
 
 #strong[+] HMGB1-driven TLR4/RAGE pathology rate-limiting. Glycyrrhizin directly binds and inhibits HMGB1, the key DAMP linking cellular stress to neuroinflammation. Improvement confirms HMGB1-mediated sterile inflammation is the dominant driver.
 
@@ -1050,7 +1050,7 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === H1 Antihistamines (Diphenhydramine, Hydroxyzine, Ketotifen)
 
-*Appears in:* @sec:piezo2-cascade C2, @sec:gpcr-cascade I2, cross-reference matrix.
+*Appears in:* @sec:piezo2-cascade C2, cross-reference matrix.
 
 #strong[+] Mast cell histamine is rate-limiting for symptoms. H1 blockade confirms histamine-driven pathology. Ketotifen additionally stabilizes mast cells (dual mechanism).
 
@@ -1114,7 +1114,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === IVIG (Intravenous Immunoglobulin)
 
-*Appears in:* @sec:gpcr-cascade I1, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] GPCR AAb present and rate-limiting. IgG-mediated neutralization + immunomodulation → functional improvement confirms autoimmune mechanism. Transient response → B-cell repopulation restores AAb production.
 
@@ -1162,7 +1162,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === L-DOPA / Carbidopa
 
-*Appears in:* @sec:dopamine-convergence, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] DA synthesis is the bottleneck — AADC functional, substrate-limited. If L-DOPA works → the lesion is upstream of AADC (tyrosine hydroxylase, GTP cyclohydrolase, or substrate). If pramipexole worked but L-DOPA didn't → the DA system works postsynaptically but synthesis is not the bottleneck.
 
@@ -1294,7 +1294,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Losartan
 
-*Appears in:* Cross-reference matrix Group B, @sec:pots-cascade.
+*Appears in:* Cross-reference matrix Group B.
 
 #strong[+] Angiotensin II AT1R-mediated pathology rate-limiting — RAAS dysregulation with TGF-β overproduction. Losartan blocks AT1R → reduced TGF-β signaling + vasodilation → improvement confirms AT1R-driven TGF-β overproduction is the dominant fibrotic/inflammatory pathway.
 
@@ -1330,7 +1330,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Luteolin
 
-*Appears in:* @sec:piezo2-cascade C2, cross-reference matrix.
+*Appears in:* @sec:microglial-cascade K1, cross-reference matrix.
 
 #strong[+] Mast cell degranulation and microglial activation rate-limiting — dual mast-cell and microglial stabilization. Luteolin inhibits mast cell degranulation and microglial activation → improvement in brain fog + MCAS symptoms confirms the mast-cell-microglial axis is dominant.
 
@@ -1474,7 +1474,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Mitochondrial Supplements (CoQ10, NADH, NAC, L-Carnitine, Creatine) — GROUP ENTRY
 
-*Appears in:* @sec:wasf3-cascade D2--D3, @sec:pdh-cascade E2, @sec:nad-cascade G2, cross-reference matrix.
+*Appears in:* @sec:wasf3-cascade D2, @sec:pdh-cascade E2, @sec:nad-cascade G2, cross-reference matrix.
 
 #strong[+] As a group, improvement with mitochondrial cofactors confirms functional (cofactor-compensable) mitochondrial impairment. The specific supplement that produces improvement localizes the bottleneck: CoQ10 → Complex III; NADH → Complex I; L-carnitine → FAO shuttle; creatine → ATP buffering; NAC → glutathione/ROS. Multi-supplement response → widespread cofactor deficiency from chronic metabolic stress.
 
@@ -1498,7 +1498,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Modafinil / Armodafinil
 
-*Appears in:* @sec:gerlier-dopamine-node, cross-reference matrix.
+*Appears in:* @sec:microglial-cascade Step K2a, cross-reference matrix.
 
 #strong[+] DAT-mediated DA increase rate-limiting for cognition and wakefulness. Modafinil's weak DAT block + histamine/orexin activation confirms DA reuptake is the dominant bottleneck for wakefulness.
 
@@ -1522,7 +1522,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Mycophenolate
 
-*Appears in:* Cross-reference matrix Group B, @sec:gpcr-cascade I1.
+*Appears in:* Cross-reference matrix Group B.
 
 #strong[+] IMPDH-dependent lymphocyte proliferation rate-limiting — confirms lymphocyte-driven autoimmunity. Mycophenolate blocks de novo purine synthesis in lymphocytes → inhibits proliferation more selectively than azathioprine (which blocks all purine synthesis).
 
@@ -1582,7 +1582,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Nifedipine
 
-*Appears in:* @sec:trpv1-cascade B2, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] TRPV1-mediated L-type Ca²⁺ channel vasoconstriction rate-limiting for microvascular perfusion. Same diagnostic principle as amlodipine but with shorter half-life and more rapid vasodilation — the rapid onset provides a faster pharmacodiagnostic readout.
 
@@ -1606,7 +1606,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Nortriptyline
 
-*Appears in:* @sec:piezo2-cascade C1, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] NE reuptake inhibition + 5-HT2/H1 antagonism rate-limiting for pain and sleep. Nortriptyline is the active metabolite of amitriptyline with less sedation and fewer anticholinergic effects — improvement with fewer side effects confirms the lesion is NE/5-HT-mediated, not H1/M1-mediated.
 
@@ -1618,7 +1618,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Omalizumab
 
-*Appears in:* Cross-reference matrix Group B, @sec:piezo2-cascade C2.
+*Appears in:* Cross-reference matrix Group B.
 
 #strong[+] IgE-mediated mast cell degranulation rate-limiting. Omalizumab binds free IgE → prevents IgE binding to FcεRI on mast cells → reduced mast cell degranulation confirms IgE-mediated MCAS is the dominant subtype.
 
@@ -1738,7 +1738,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === PQQ (Pyrroloquinoline Quinone)
 
-*Appears in:* @sec:wasf3-cascade D2, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] Mitochondrial biogenesis deficit rate-limiting. PQQ stimulates PGC-1α/NRF1/2 → mitochondrial biogenesis → increased mitochondrial density confirms the lesion is quantitative (too few mitochondria), not qualitative (dysfunctional mitochondria).
 
@@ -1750,7 +1750,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Pramipexole
 
-*Appears in:* @sec:dopamine-convergence, cross-reference matrix.
+*Appears in:* @sec:microglial-cascade Step K2b, cross-reference matrix.
 
 #strong[+] D2/D3 receptors intact and responsive. Pramipexole's D2/D3 agonism confirms the postsynaptic dopamine receptor population is functional.
 
@@ -1858,7 +1858,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Rasagiline / Selegiline
 
-*Appears in:* Cross-reference matrix Group B, @sec:dopamine-convergence.
+*Appears in:* Cross-reference matrix Group B.
 
 #strong[+] DA degradation rate-limiting for synaptic DA — accelerated DA turnover confirmed. MAO-B inhibition preserves synaptic DA, confirming that degradation (not synthesis or release) is the dominant DA clearance mechanism.
 
@@ -1990,7 +1990,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === SkQ1
 
-*Appears in:* @sec:wasf3-cascade D2, cross-reference matrix.
+*Appears in:* Cross-reference matrix.
 
 #strong[+] Mitochondrial matrix ROS production rate-limiting — similar to MitoQ but with a different antioxidant payload (plastoquinone vs ubiquinone). SkQ1 targets the mitochondrial matrix with a different redox chemistry. Improvement confirms matrix-level oxidative stress and that the specific antioxidant chemistry matters.
 
@@ -2026,7 +2026,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === SSRIs / SNRIs (as a Group)
 
-*Appears in:* @sec:trpm3-cascade Step A4, cross-reference matrix entries for individual drugs (duloxetine, fluvoxamine, amitriptyline).
+*Appears in:* @sec:kynurenine-cascade H2a, cross-reference matrix.
 
 #strong[+] Serotonergic or noradrenergic deficiency rate-limiting for mood, pain, or sleep. SSRI response confirms 5-HT deficiency; SNRI response confirms NE/5-HT dual deficiency. Fluoxetine (long half-life) is the safest entry point.
 
