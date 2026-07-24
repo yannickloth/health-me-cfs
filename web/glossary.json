@@ -1,4 +1,18 @@
 {
+  "_meta": {
+    "description": "Glossary entries for tooltip injection. Each key is matched case-sensitively in body text and wrapped with a hover/tap tooltip.",
+    "fields": {
+      "label": "Display name in tooltip header (default: key)",
+      "category": "Classification for tooltip badge (e.g. medication, condition, enzyme)",
+      "definition": "Tooltip body text",
+      "generic": "Generic name (medication entries)",
+      "brand": "Brand names (medication entries)",
+      "class": "Drug class (medication entries)",
+      "rx": "Prescription/availability info (medication entries)",
+      "also": "Also-known-as / related terms",
+      "noTooltip": ["Array of exact phrases that should NOT trigger tooltips for this key, e.g. \"Part IV\" prevents Roman-numeral confusion with IV (intravenous). Whitespace in phrases is matched flexibly (collapsed). Use <span class=\"no-gt\"> in HTML for page-level escape of arbitrary text."]
+    }
+  },
   "ME/CFS": {
     "label": "ME/CFS",
     "category": "disease",
@@ -933,7 +947,8 @@
   "IV": {
     "label": "IV",
     "category": "administration",
-    "definition": "Intravenous: medication administration directly into a vein. IV therapies in ME/CFS include IVIG, saline infusions (for POTS/hypovolemia), and vitamin infusions."
+    "definition": "Intravenous: medication administration directly into a vein. IV therapies in ME/CFS include IVIG, saline infusions (for POTS/hypovolemia), and vitamin infusions.",
+    "noTooltip": ["Part IV", "Section IV", "Chapter IV", "Appendix IV", "Volume IV"]
   },
   "OTC": {
     "label": "OTC",

@@ -151,16 +151,43 @@
     var node;
     while ((node = walker.nextNode())) {
       var p = node.parentNode;
-      if (p.tagName === 'SCRIPT' || p.tagName === 'STYLE' || p.tagName === 'A' || p.tagName === 'CODE' || p.tagName === 'PRE' || p.closest('.gt-pop') || p.closest('.gt')) {
+      if (p.tagName === 'SCRIPT' || p.tagName === 'STYLE' || p.tagName === 'A' || p.tagName === 'CODE' || p.tagName === 'PRE' || p.closest('.gt-pop') || p.closest('.gt') || p.closest('.no-gt')) {
         continue;
       }
       textNodes.push(node);
+    }
+
+    var hasNoTooltip = false;
+    for (var pk = 0; pk < keys.length; pk++) {
+      if (glossary[keys[pk]] && glossary[keys[pk]].noTooltip) { hasNoTooltip = true; break; }
     }
 
     for (var i = 0; i < textNodes.length; i++) {
       var tn = textNodes[i];
       var html = tn.textContent;
       var modified = false;
+
+      var placeholders = {};
+      var placeholderOriginals = {};
+      var phIdx = 0;
+      if (hasNoTooltip) {
+        for (var pk = 0; pk < keys.length; pk++) {
+          var pentry = glossary[keys[pk]];
+          if (pentry && pentry.noTooltip) {
+            for (var pi = 0; pi < pentry.noTooltip.length; pi++) {
+              var phrase = pentry.noTooltip[pi];
+              var placeholder = '\u0000gttph' + (phIdx++) + '\u0000';
+              var rePhrase = new RegExp(phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[\s\u00A0]+/g, '[\\s\\u00A0]+'), 'g');
+              placeholderOriginals[placeholder] = phrase;
+              var match = html.match(rePhrase);
+              if (match) {
+                placeholderOriginals[placeholder] = match[0];
+              }
+              html = html.replace(rePhrase, placeholder);
+            }
+          }
+        }
+      }
 
       for (var k = 0; k < keys.length; k++) {
         var key = keys[k];
@@ -173,6 +200,12 @@
           modified = true;
           re.lastIndex = 0;
           html = html.replace(re, '<span class="gt" data-gt="' + key.replace(/"/g, '&quot;') + '">$1</span>');
+        }
+      }
+
+      if (hasNoTooltip) {
+        for (var ph in placeholders) {
+          html = html.split(ph).join(placeholderOriginals[ph]);
         }
       }
 
