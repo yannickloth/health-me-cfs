@@ -163,17 +163,22 @@
 
   function markTerms(body, glossary, meta) {
     const { termRe, noTooltipRe } = meta;
+
+    // Collect text nodes first — mutating DOM during TreeWalker corrupts iteration
+    const textNodes = [];
     const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT);
     let node;
-    const excludeTags = new Set(['SCRIPT', 'STYLE', 'A', 'CODE', 'PRE', 'GLOSSARY-TERM', 'GLOSSARY-TOOLTIPS']);
-
+    const excludeTags = new Set(['SCRIPT', 'STYLE', 'CODE', 'PRE', 'GLOSSARY-TERM', 'GLOSSARY-TOOLTIPS']);
     while ((node = walker.nextNode())) {
       const p = node.parentNode;
       const gn = p.nodeName;
       if (excludeTags.has(gn) || gn === 'TEXTAREA' || gn === 'INPUT') continue;
       if (p.closest('.gt-pop') || p.closest('.no-gt')) continue;
+      textNodes.push(node);
+    }
 
-      let html = node.nodeValue;
+    for (const tn of textNodes) {
+      let html = tn.textContent;
 
       const phMap = new Map();
       if (noTooltipRe) {
@@ -185,38 +190,26 @@
         });
       }
 
-      // Collect matched elements during single regex pass
       termRe.lastIndex = 0;
-      const matchEls = [];
+      if (!termRe.test(html)) continue;
+      termRe.lastIndex = 0;
+
       html = html.replace(termRe, (match) => {
-        matchEls.push(match);
         return `<glossary-term data-gt="${match}">${match}</glossary-term>`;
       });
 
-      if (!matchEls.length) continue;
-
       if (phMap.size) html = html.replace(NOPLACE_RE, m => phMap.get(m) ?? m);
 
-      // Replace text node with parsed HTML — use a marker to find inserted siblings
-      const marker = document.createElement('i');
-      marker.style.display = 'none';
-      node.parentNode.insertBefore(marker, node);
-      marker.insertAdjacentHTML('afterend', html);
-      node.parentNode.removeChild(node);
+      const wrapper = document.createElement('span');
+      wrapper.innerHTML = html;
 
-      // Walk forward from marker to find all glossary-term elements inserted
-      let cursor = marker.nextSibling;
-      let elIdx = 0;
-      while (cursor && elIdx < matchEls.length) {
-        if (cursor.nodeType === Node.ELEMENT_NODE && cursor.matches('glossary-term')) {
-          cursor.dataset.gtKey = matchEls[elIdx];
-          const de = glossary[matchEls[elIdx]];
-          if (!de) cursor.remove();
-          elIdx++;
-        }
-        cursor = cursor.nextSibling;
+      for (const el of wrapper.querySelectorAll('glossary-term')) {
+        const dk = el.getAttribute('data-gt');
+        if (!glossary[dk]) { el.remove(); continue; }
+        el.dataset.gtKey = dk;
       }
-      marker.parentNode.removeChild(marker);
+
+      tn.parentNode.replaceChild(wrapper, tn);
     }
   }
 
@@ -239,9 +232,9 @@
           markTerms(document.body, glossary, meta);
 
           const handler = (e) => handleInteraction(e, this.#glossary);
-          this.addEventListener('mouseenter', handler, true);
-          this.addEventListener('mouseleave', handler, true);
-          this.addEventListener('click', handler);
+          document.addEventListener('mouseenter', handler, true);
+          document.addEventListener('mouseleave', handler, true);
+          document.addEventListener('click', handler);
           this.#handler = handler;
 
           this.#docClick = (e) => {
@@ -256,9 +249,9 @@
 
     disconnectedCallback() {
       if (this.#handler) {
-        this.removeEventListener('mouseenter', this.#handler, true);
-        this.removeEventListener('mouseleave', this.#handler, true);
-        this.removeEventListener('click', this.#handler);
+        document.removeEventListener('mouseenter', this.#handler, true);
+        document.removeEventListener('mouseleave', this.#handler, true);
+        document.removeEventListener('click', this.#handler);
         this.#handler = null;
       }
       if (this.#docClick) {

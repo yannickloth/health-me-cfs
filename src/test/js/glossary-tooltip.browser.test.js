@@ -61,14 +61,14 @@ async function run() {
 
   try {
     await page.goto('http://localhost:9876/');
-    await page.waitForSelector('.gt', { timeout: 10000 });
+    await page.waitForSelector('glossary-term', { timeout: 10000 });
 
     // Test 1: Gabapentin gets wrapped
-    const terms = await page.$$eval('.gt', els => els.map(el => el.textContent));
+    const terms = await page.$$eval('glossary-term', els => els.map(el => el.textContent));
     assert.ok(terms.includes('Gabapentin'), 'Gabapentin in tooltip spans');
 
     // Test 2: Hover triggers tooltip
-    const gabEl = await page.$('span.gt[data-gt="Gabapentin"]');
+    const gabEl = await page.$('glossary-term[data-gt="Gabapentin"]');
     assert.ok(gabEl, 'Gabapentin has data-gt');
     await gabEl.hover();
     await page.waitForSelector('.gt-pop', { timeout: 5000 });
@@ -92,27 +92,26 @@ async function run() {
 
     // Test 5: no-gt blocker works
     const ldnInside = await page.$eval('.no-gt', el => el.innerHTML);
-    assert.ok(!ldnInside.includes('class="gt"'), 'LDN inside no-gt not wrapped');
+    assert.ok(!ldnInside.includes('glossary-term'), 'LDN inside no-gt not wrapped');
 
     // Test 6: LDN outside no-gt IS wrapped
-    const ldnCount = await page.$$eval('.gt', els =>
+    const ldnCount = await page.$$eval('glossary-term', els =>
       els.filter(el => el.textContent === 'LDN').length
     );
     assert.ok(ldnCount >= 1, 'LDN outside no-gt wrapped');
 
     // Test 7: Unknown drug not wrapped
     const fakeWrapped = await page.$eval('body', body => {
-      const w = document.createTreeWalker(body, NodeFilter.SHOW_TEXT);
-      let n;
-      while ((n = w.nextNode())) {
-        if (n.textContent.includes('FakeDrug') && n.parentElement?.classList?.contains('gt')) return true;
+      let found = false;
+      for (const el of body.querySelectorAll('glossary-term')) {
+        if (el.textContent === 'FakeDrug') { found = true; break; }
       }
-      return false;
+      return found;
     });
     assert.ok(!fakeWrapped, 'FakeDrug not wrapped');
 
     // Test 8: Click triggers tooltip (mobile)
-    const mobileTerms = await page.$$eval('.gt', els => els.length);
+    const mobileTerms = await page.$$eval('glossary-term', els => els.length);
     assert.ok(mobileTerms >= 4, `At least 4 terms wrapped: ${mobileTerms}`);
 
     console.log('All 8 browser integration tests passed.');
