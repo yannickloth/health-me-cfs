@@ -3,7 +3,10 @@
 // Usage: <glossary-tooltips></glossary-tooltips> anywhere in <body>
 
 (() => {
-  const GLOSSARY_URL = '/glossary.json';
+  const SCRIPT_EL = document.querySelector('script[src$="glossary-tooltip.js"]');
+  const GLOSSARY_URL = SCRIPT_EL
+    ? new URL('glossary.json', SCRIPT_EL.src).href
+    : '/glossary.json';
   const CATEGORY_LABELS = {
     medication: 'Medication', supplement: 'Supplement', medication_class: 'Class',
     disease: 'Disease', symptom: 'Symptom', condition: 'Condition', hormone: 'Hormone',

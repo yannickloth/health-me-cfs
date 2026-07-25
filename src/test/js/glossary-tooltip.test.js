@@ -20,6 +20,9 @@ globalThis.customElements = {
   define: (name, klass) => { definedElements[name] = klass; }
 };
 globalThis.HTMLElement = class HTMLElement {};
+globalThis.document = {
+  querySelector: () => null
+};
 
 eval(jsSource);
 
