@@ -7,6 +7,7 @@ import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import static java.nio.file.Paths.*;
 import java.io.*;
+import java.time.*;
 import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
@@ -155,38 +156,49 @@ void main(String[] args) throws IOException, InterruptedException {
 
     // --- Execute chapter conversion in parallel ---
     System.out.println("=== converting " + tasks.size() + " chapters in parallel ===");
+    var phaseStart = System.currentTimeMillis();
     var executor = Executors.newFixedThreadPool(workers);
     var globalXrefs = new ConcurrentHashMap<String, String[]>();
     int[] totalSections = {0};
     int[] completed = {0};
 
     var futures = new ArrayList<Future<TypstToQmd.ConversionResult>>();
+    var errors = new ConcurrentLinkedQueue<String>();
     for (var task : tasks) {
         futures.add(executor.submit(() -> {
-            var src = readString(task.resolvedFile());
-            var result = backend.convert(src, task.outDir());
-            for (var entry : result.xrefs()) {
-                globalXrefs.putIfAbsent(entry[0], entry);
+            try {
+                var src = readString(task.resolvedFile());
+                var result = backend.convert(src, task.outDir());
+                for (var entry : result.xrefs()) {
+                    globalXrefs.putIfAbsent(entry[0], entry);
+                }
+                synchronized (totalSections) { totalSections[0] += result.sectionCount(); }
+                synchronized (completed) {
+                    int done = ++completed[0];
+                    System.out.print("\r  " + done + "/" + tasks.size() + " chapters");
+                }
+                return result;
+            } catch (Exception e) {
+                errors.add(task.chName() + ": " + e.getMessage());
+                return null;
             }
-            synchronized (totalSections) { totalSections[0] += result.sectionCount(); }
-            synchronized (completed) {
-                int done = ++completed[0];
-                System.out.print("\r  " + done + "/" + tasks.size() + " chapters");
-            }
-            return result;
         }));
     }
 
     for (var f : futures) {
         try { f.get(); } catch (ExecutionException e) {
-            System.err.println("ERROR: " + e.getCause().getMessage());
-            executor.shutdown();
-            System.exit(1);
+            errors.add(e.getCause().getMessage());
         }
     }
     executor.shutdown();
     executor.awaitTermination(5, TimeUnit.MINUTES);
     System.out.println();
+
+    if (!errors.isEmpty()) {
+        System.err.println("ERRORS during conversion (" + errors.size() + "):");
+        for (var e : errors) System.err.println("  " + e);
+        System.exit(1);
+    }
 
     int totalFiles = 0;
     try (var walk = java.nio.file.Files.walk(webRoot)) {
@@ -194,12 +206,14 @@ void main(String[] args) throws IOException, InterruptedException {
     }
 
     System.out.println();
-    System.out.println("Done: " + tasks.size() + " chapters processed, " + totalFiles + " .qmd files generated");
+    System.out.println("Done: " + tasks.size() + " chapters processed, " + totalFiles + " .qmd files generated (" + phaseMs(phaseStart) + ")");
 
     // --- Cross-reference resolution ---
     System.out.println();
     System.out.println("=== cross-references ===");
+    phaseStart = System.currentTimeMillis();
     resolveCrossRefs(webRoot, globalXrefs);
+    System.out.println("  (" + phaseMs(phaseStart) + ")");
 
     // --- Figures: compile each .typ -> .svg in parallel ---
     var figSrcDir = srcRoot.resolve("figures");
@@ -207,6 +221,7 @@ void main(String[] args) throws IOException, InterruptedException {
     createDirectories(figOutDir);
     System.out.println();
     System.out.println("=== figures ===");
+    phaseStart = System.currentTimeMillis();
 
     var figExecutor = Executors.newFixedThreadPool(workers);
     var figFutures = new ArrayList<Future<Boolean>>();
@@ -239,7 +254,7 @@ void main(String[] args) throws IOException, InterruptedException {
     }
     figExecutor.shutdown();
     figExecutor.awaitTermination(5, TimeUnit.MINUTES);
-    System.out.println("  " + figCount + " figures compiled");
+    System.out.println("  " + figCount + " figures compiled (" + phaseMs(phaseStart) + ")");
 
     // --- Bib files: keep for Quarto config compatibility, but citations already resolved ---
     System.out.println();
@@ -276,6 +291,8 @@ void main(String[] args) throws IOException, InterruptedException {
     System.out.println("Next: quarto render");
 }
 
+String phaseMs(long start) { return (System.currentTimeMillis() - start) + "ms"; }
+
 void deleteRecursive(Path dir) throws IOException {
     if (isDirectory(dir)) {
         try (var stream = list(dir)) {
@@ -288,7 +305,11 @@ void deleteRecursive(Path dir) throws IOException {
     }
     try {
         deleteIfExists(dir);
-    } catch (IOException ignored) {}
+    } catch (NoSuchFileException ignored) {
+        // already gone — normal race condition
+    } catch (java.nio.file.DirectoryNotEmptyException ignored) {
+        // may have been re-created between list and delete — non-critical
+    }
 }
 
 static final String XREF_PREFIXES =
@@ -396,7 +417,12 @@ String humanize(String prefix, String id) {
     return body.isEmpty() ? id : body;
 }
 
+HashMap<Path, String> resolvedCache = new HashMap<>();
+
 String resolveIncludes(Path file, Path srcRoot) throws IOException {
+    // Memoize: shared files (environments.typ etc.) are included in many chapters
+    var cached = resolvedCache.get(file);
+    if (cached != null) return cached;
     var content = readString(file);
     var parent = file.getParent();
     var p = Pattern.compile("#include\\s+\"([^\"]+)\"");
@@ -421,6 +447,8 @@ String resolveIncludes(Path file, Path srcRoot) throws IOException {
         }
     }
     m.appendTail(sb);
-    return sb.toString();
+    var result = sb.toString();
+    resolvedCache.put(file, result);
+    return result;
 }
 

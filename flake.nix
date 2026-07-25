@@ -299,7 +299,6 @@
             pkgs.quarto
             pkgs.jdk25
             pkgs.nodejs_22
-            pkgs.texliveFull
             pkgs.nil
             pkgs.nixfmt
           ];

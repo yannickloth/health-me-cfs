@@ -17,7 +17,7 @@ import java.nio.file.*;
 import java.io.*;
 import java.util.*;
 import java.util.regex.*;
-import java.util.stream.*;
+import java.util.stream.Collectors;
 
 record Finding(int check, String file, int line, String detail, int severity) {
     @Override public String toString() {
@@ -44,7 +44,7 @@ void main(String[] args) throws Exception {
     check5HeadingDepth(qmdFiles, findings);
     check6CalloutCss(qmdFiles, webDir, findings);
     check7QmdNaming(qmdFiles, findings);
-    // check8: skipped — quarto standalone compile slow in sandbox, citations pre-resolved
+    // check8: skipped — quarto standalone compile unnecessary (tested at full render time)
     check9MathLeakage(qmdFiles, findings);
     check10DuplicateSlugs(qmdFiles, findings);
 
