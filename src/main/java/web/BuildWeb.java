@@ -1,9 +1,6 @@
 // BuildWeb — regenerate Quarto .qmd files from Typst sources
-// One command: java BuildWeb.java && quarto render
-//
+// Uses TypstToQmd backend (regex or AST) in-process for max performance.
 // Run from project root (not web/).
-// Source struct: partX/chXX-name/chXX-name.typ (aggregator) + includes
-// Output: web/part*/ch*/, web/z-appendices/, web/_shared/
 import static java.nio.file.Files.*;
 import static java.nio.file.StandardCopyOption.*;
 import java.nio.file.NoSuchFileException;
@@ -11,19 +8,26 @@ import java.nio.file.Path;
 import static java.nio.file.Paths.*;
 import java.io.*;
 import java.util.*;
+import java.util.concurrent.*;
 import java.util.regex.*;
 
 void main(String[] args) throws IOException, InterruptedException {
     var srcRoot = Path.of("src/main/typst/mecfs").toAbsolutePath().normalize();
-    var javaDir = Path.of("src/main/java/web").toAbsolutePath().normalize();
     var webRoot = Path.of("web").toAbsolutePath().normalize();
-    var casPath = javaDir.resolve("ConvertAndSplit.java");
+    var fontPath = srcRoot.resolve("fonts");
 
     System.out.println("srcRoot: " + srcRoot);
     System.out.println("webRoot: " + webRoot);
     System.out.println();
 
-    // --- Mapping: typst-source-dir → web-output-dir ---
+    String backendEnv = System.getenv("BUILDWEB_BACKEND");
+    TypstToQmd backend = ("ast".equals(backendEnv))
+        ? new AstConversion(srcRoot, fontPath)
+        : new RegexConversion();
+    System.out.println("Backend: " + backend.getClass().getSimpleName());
+    System.out.println();
+
+    // --- Mapping: typst-source-dir -> web-output-dir ---
     record PartMapping(String srcDir, String webDir) {}
     var mappings = List.of(
         new PartMapping("part1-clinical", "part1-clinical"),
@@ -33,34 +37,32 @@ void main(String[] args) throws IOException, InterruptedException {
         new PartMapping("part5-modeling", "part5-modeling")
     );
 
-    int totalFiles = 0;
-    int totalChapters = 0;
-
-    // Chapter discovery follows the canonical include list in loth2026-mecfs.typ,
-    // NOT a directory glob. This keeps the web build in lock-step with the PDF build:
-    // standalone chapter files (e.g. ch25-supplements-nutraceuticals.typ) are picked up,
-    // and directories that are sub-content of a chapter (e.g. ch27-brain-clearance-drugs/)
-    // are NOT built as top-level chapters. Chapter labels therefore resolve correctly.
+    // Chapter discovery from canonical include list
     var canonical = readString(srcRoot.resolve("loth2026-mecfs.typ"));
     var includePat = Pattern.compile("#include\\s+\"((part[1-5][^\"/]*)/(ch[^\"]+\\.typ))\"");
-    // part-dir → ordered list of chapter include paths (relative to srcRoot)
     var chaptersByPart = new LinkedHashMap<String, List<String>>();
     var im = includePat.matcher(canonical);
     while (im.find()) {
         chaptersByPart.computeIfAbsent(im.group(2), k -> new ArrayList<>()).add(im.group(1));
     }
 
+    // --- Thread pool for parallel chapter conversion ---
+    int workers = Runtime.getRuntime().availableProcessors();
+    System.out.println("Workers: " + workers);
+    System.out.println();
+
+    record ChapterTask(String chName, Path outDir, Path resolvedFile) {}
+    var tasks = new ArrayList<ChapterTask>();
+
+    // --- Part chapters ---
     for (var m : mappings) {
         var webDir = webRoot.resolve(m.webDir());
-
         System.out.println("=== " + m.srcDir() + " ===");
         createDirectories(webDir);
-        // Clear existing chapter subdirectories
         try (var stream = list(webDir)) {
             for (var entry : stream.toList()) {
                 if (isDirectory(entry) && !entry.getFileName().toString().startsWith(".")) {
                     deleteRecursive(entry);
-                    System.out.println("  removed: " + entry.getFileName());
                 }
             }
         }
@@ -72,48 +74,17 @@ void main(String[] args) throws IOException, InterruptedException {
                 System.out.println("  SKIP " + relInclude + " (not found)");
                 continue;
             }
-            // chName = aggregator filename stem — same for nested (ch18/ch18.typ) and
-            // standalone (ch25-supplements-nutraceuticals.typ) forms.
             var chName = aggFile.getFileName().toString().replaceFirst("\\.typ$", "");
             var outDir = webDir.resolve(chName);
 
-            // Resolve #include directives: inline included files into a temp aggregator.
             var resolved = resolveIncludes(aggFile, srcRoot);
             var resolvedFile = createTempFile("buildweb-", ".typ");
             writeString(resolvedFile, resolved);
             resolvedFile.toFile().deleteOnExit();
 
-            System.out.println("  " + chName + " → " + m.webDir() + "/" + chName);
-            totalChapters++;
-
+            System.out.println("  " + chName + " -> " + m.webDir() + "/" + chName);
             createDirectories(outDir);
-
-            var cmd = new String[]{
-                "java", "--source", "25",
-                casPath.toString(),
-                resolvedFile.toAbsolutePath().toString(),
-                outDir.toAbsolutePath().toString()
-            };
-            var proc = new ProcessBuilder(cmd)
-                .directory(webRoot.toFile())
-                .redirectErrorStream(true)
-                .start();
-
-            var output = new String(proc.getInputStream().readAllBytes());
-            int exitCode = proc.waitFor();
-
-            // Count output files
-            try (var outStream = list(outDir)) {
-                var files = outStream.filter(f -> f.toString().endsWith(".qmd")).toList();
-                totalFiles += files.size();
-                if (!output.contains("Done")) {
-                    System.out.println("    " + files.size() + " sections");
-                }
-            }
-            if (exitCode != 0) {
-                System.out.println("    ERROR (exit " + exitCode + "):");
-                output.lines().forEach(l -> System.out.println("    " + l));
-            }
+            tasks.add(new ChapterTask(chName, outDir, resolvedFile));
         }
         System.out.println();
     }
@@ -121,13 +92,11 @@ void main(String[] args) throws IOException, InterruptedException {
     // --- Appendices ---
     System.out.println("=== appendices ===");
     var webAppDir = webRoot.resolve("z-appendices");
-    createDirectories(webAppDir); // ensure exists (not tracked in git)
-    // Clear existing subdirectories
+    createDirectories(webAppDir);
     try (var stream = list(webAppDir)) {
         for (var entry : stream.toList()) {
             if (isDirectory(entry) && !entry.getFileName().toString().startsWith(".")) {
                 deleteRecursive(entry);
-                System.out.println("  removed: " + entry.getFileName());
             }
         }
     }
@@ -139,145 +108,140 @@ void main(String[] args) throws IOException, InterruptedException {
             .filter(f -> !isDirectory(f))
             .sorted()
             .toList();
-
         for (var app : appFiles) {
             var appName = app.getFileName().toString().replace(".typ", "");
             var outDir = webAppDir.resolve(appName);
-
-            System.out.println("  " + appName + " → z-appendices/" + appName);
-            totalChapters++;
-
+            System.out.println("  " + appName + " -> z-appendices/" + appName);
             createDirectories(outDir);
-
-            // Resolve includes
-            var resolvedAppContent = resolveIncludes(app, srcRoot);
-            var resolvedAppFile = createTempFile("buildweb-", ".typ");
-            writeString(resolvedAppFile, resolvedAppContent);
-            resolvedAppFile.toFile().deleteOnExit();
-
-            var cmd = new String[]{
-                "java", "--source", "25",
-                casPath.toString(),
-                resolvedAppFile.toAbsolutePath().toString(),
-                outDir.toAbsolutePath().toString()
-            };
-            var proc = new ProcessBuilder(cmd)
-                .directory(webRoot.toFile())
-                .redirectErrorStream(true)
-                .start();
-
-            var output = new String(proc.getInputStream().readAllBytes());
-            int exitCode = proc.waitFor();
-
-            try (var outStream = list(outDir)) {
-                var files = outStream.filter(f -> f.toString().endsWith(".qmd")).toList();
-                totalFiles += files.size();
-            }
-            if (exitCode != 0) {
-                System.out.println("    ERROR (exit " + exitCode + "): " + output);
-            }
+            var resolved = resolveIncludes(app, srcRoot);
+            var resolvedFile = createTempFile("buildweb-", ".typ");
+            writeString(resolvedFile, resolved);
+            resolvedFile.toFile().deleteOnExit();
+            tasks.add(new ChapterTask(appName, outDir, resolvedFile));
         }
     }
+    System.out.println();
 
     // --- Shared ---
-    System.out.println();
-    System.out.println("=== shared → _shared/ ===");
+    System.out.println("=== shared -> _shared/ ===");
     var webSharedDir = webRoot.resolve("_shared");
-    createDirectories(webSharedDir); // ensure exists (not tracked in git)
-    // Clear existing .qmd files (but keep _metadata.yml)
+    createDirectories(webSharedDir);
     try (var stream = list(webSharedDir)) {
         for (var entry : stream.toList()) {
-            if (entry.toString().endsWith(".qmd")) {
-                deleteIfExists(entry);
-            }
+            if (entry.toString().endsWith(".qmd")) deleteIfExists(entry);
         }
     }
     var sharedSrcDir = srcRoot.resolve("shared");
     try (var stream = list(sharedSrcDir)) {
-        var _sharedFiles = stream
+        var sharedFiles = stream
             .filter(f -> f.getFileName().toString().endsWith(".typ"))
             .filter(f -> !isDirectory(f))
             .filter(f -> !f.getFileName().toString().equals("environments.typ"))
             .filter(f -> !f.getFileName().toString().equals("tables.typ"))
             .sorted()
             .toList();
-
-        for (var sf : _sharedFiles) {
+        for (var sf : sharedFiles) {
             var sName = sf.getFileName().toString().replace(".typ", "");
-
-            System.out.println("  " + sName + " → _shared/");
-            totalChapters++;
-
+            System.out.println("  " + sName + " -> _shared/");
             createDirectories(webSharedDir);
-
-            // Resolve includes
-            var resolvedSharedContent = resolveIncludes(sf, srcRoot);
-            var resolvedSharedFile = createTempFile("buildweb-", ".typ");
-            writeString(resolvedSharedFile, resolvedSharedContent);
-            resolvedSharedFile.toFile().deleteOnExit();
-
-            var cmd = new String[]{
-                "java", "--source", "25",
-                casPath.toString(),
-                resolvedSharedFile.toAbsolutePath().toString(),
-                webSharedDir.toAbsolutePath().toString()
-            };
-            var proc = new ProcessBuilder(cmd)
-                .directory(webRoot.toFile())
-                .redirectErrorStream(true)
-                .start();
-
-            var output = new String(proc.getInputStream().readAllBytes());
-            int exitCode = proc.waitFor();
-
-            try (var outStream = list(webSharedDir)) {
-                totalFiles += (int) outStream.filter(f -> f.toString().endsWith(".qmd")).count();
-            }
-            if (exitCode != 0) {
-                System.out.println("    ERROR (exit " + exitCode + "): " + output);
-            }
+            var resolved = resolveIncludes(sf, srcRoot);
+            var resolvedFile = createTempFile("buildweb-", ".typ");
+            writeString(resolvedFile, resolved);
+            resolvedFile.toFile().deleteOnExit();
+            tasks.add(new ChapterTask(sName, webSharedDir, resolvedFile));
         }
+    }
+    System.out.println();
+
+    // --- Execute chapter conversion in parallel ---
+    System.out.println("=== converting " + tasks.size() + " chapters in parallel ===");
+    var executor = Executors.newFixedThreadPool(workers);
+    var globalXrefs = new ConcurrentHashMap<String, String[]>();
+    int[] totalSections = {0};
+    int[] completed = {0};
+
+    var futures = new ArrayList<Future<TypstToQmd.ConversionResult>>();
+    for (var task : tasks) {
+        futures.add(executor.submit(() -> {
+            var src = readString(task.resolvedFile());
+            var result = backend.convert(src, task.outDir());
+            for (var entry : result.xrefs()) {
+                globalXrefs.putIfAbsent(entry[0], entry);
+            }
+            synchronized (totalSections) { totalSections[0] += result.sectionCount(); }
+            synchronized (completed) {
+                int done = ++completed[0];
+                System.out.print("\r  " + done + "/" + tasks.size() + " chapters");
+            }
+            return result;
+        }));
+    }
+
+    for (var f : futures) {
+        try { f.get(); } catch (ExecutionException e) {
+            System.err.println("ERROR: " + e.getCause().getMessage());
+            executor.shutdown();
+            System.exit(1);
+        }
+    }
+    executor.shutdown();
+    executor.awaitTermination(5, TimeUnit.MINUTES);
+    System.out.println();
+
+    int totalFiles = 0;
+    try (var walk = java.nio.file.Files.walk(webRoot)) {
+        totalFiles = (int) walk.filter(p -> p.toString().endsWith(".qmd")).count();
     }
 
     System.out.println();
-    System.out.println("Done: " + totalChapters + " chapters processed, " + totalFiles + " .qmd files generated");
+    System.out.println("Done: " + tasks.size() + " chapters processed, " + totalFiles + " .qmd files generated");
 
-    // --- Cross-reference resolution: rewrite @sec-x / @ch-x tokens into Markdown links ---
+    // --- Cross-reference resolution ---
     System.out.println();
     System.out.println("=== cross-references ===");
-    resolveCrossRefs(webRoot);
+    resolveCrossRefs(webRoot, globalXrefs);
 
-    // --- Figures: compile each .typ → .svg ---
+    // --- Figures: compile each .typ -> .svg in parallel ---
     var figSrcDir = srcRoot.resolve("figures");
     var figOutDir = webRoot.resolve("figures");
     createDirectories(figOutDir);
     System.out.println();
     System.out.println("=== figures ===");
-    int figCount = 0;
+
+    var figExecutor = Executors.newFixedThreadPool(workers);
+    var figFutures = new ArrayList<Future<Boolean>>();
     try (var stream = list(figSrcDir)) {
         var figFiles = stream
             .filter(f -> f.getFileName().toString().endsWith(".typ"))
             .sorted()
             .toList();
         for (var fig : figFiles) {
-            var svgName = fig.getFileName().toString().replace(".typ", ".svg");
-            var svgPath = figOutDir.resolve(svgName);
-            var fontPath = srcRoot.resolve("fonts").toAbsolutePath().toString();
-            var cmd = new String[]{"typst", "compile", "--font-path", fontPath, fig.toAbsolutePath().toString(), svgPath.toAbsolutePath().toString()};
-            var proc = new ProcessBuilder(cmd)
-                .redirectErrorStream(true)
-                .start();
-            var exitCode = proc.waitFor();
-            if (exitCode == 0) {
-                figCount++;
-            } else {
-                System.out.println("  ERROR: " + fig.getFileName());
-            }
+            figFutures.add(figExecutor.submit(() -> {
+                var svgName = fig.getFileName().toString().replace(".typ", ".svg");
+                var svgPath = figOutDir.resolve(svgName);
+                var fontPathStr = fontPath.toAbsolutePath().toString();
+                var cmd = new String[]{"typst", "compile", "--font-path", fontPathStr,
+                    fig.toAbsolutePath().toString(), svgPath.toAbsolutePath().toString()};
+                var proc = new ProcessBuilder(cmd)
+                    .redirectErrorStream(true)
+                    .start();
+                int exitCode = proc.waitFor();
+                return exitCode == 0;
+            }));
         }
     }
+
+    int figCount = 0;
+    for (var f : figFutures) {
+        try { if (f.get()) figCount++; } catch (ExecutionException e) {
+            System.err.println("  ERROR: figure compile failed: " + e.getCause().getMessage());
+        }
+    }
+    figExecutor.shutdown();
+    figExecutor.awaitTermination(5, TimeUnit.MINUTES);
     System.out.println("  " + figCount + " figures compiled");
 
-    // --- Bib files: copy from Typst source to web/ ---
+    // --- Bib files ---
     System.out.println();
     System.out.println("=== bib ===");
     var bibSrc = srcRoot.resolve("bib");
@@ -291,12 +255,9 @@ void main(String[] args) throws IOException, InterruptedException {
             bibCount++;
         }
     }
-    System.out.println("  " + bibCount + " files copied → web/bib/");
+    System.out.println("  " + bibCount + " files copied -> web/bib/");
 
-    System.out.println();
-    System.out.println("Next: quarto render");
-
-    // --- Copy web JS assets from src/main/js/ to web/ ---
+    // --- JS assets ---
     System.out.println();
     System.out.println("=== js assets ===");
     var jsSrcDir = Path.of("src/main/js");
@@ -306,7 +267,7 @@ void main(String[] args) throws IOException, InterruptedException {
         for (var jsFile : stream.filter(f -> f.getFileName().toString().endsWith(".js")).toList()) {
             copy(jsFile, jsDstDir.resolve(jsFile.getFileName()), REPLACE_EXISTING);
             jsCount++;
-            System.out.println("  " + jsFile.getFileName() + " → web/");
+            System.out.println("  " + jsFile.getFileName() + " -> web/");
         }
     }
     System.out.println("  " + jsCount + " file(s) copied");
@@ -322,7 +283,7 @@ void deleteRecursive(Path dir) throws IOException {
                 deleteRecursive(entry);
             }
         } catch (NoSuchFileException e) {
-            return; // already gone
+            return;
         }
     }
     try {
@@ -330,34 +291,14 @@ void deleteRecursive(Path dir) throws IOException {
     } catch (IOException ignored) {}
 }
 
-// Internal cross-ref prefixes that ConvertAndSplit emits as bare @prefix-id tokens.
-// (Bibliography citations are wrapped as [@Key] and are NOT matched here.)
 static final String XREF_PREFIXES =
     "sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open|clin|syn|pr";
 
-// Aggregate all <chapter>/_xref.tsv registries, then rewrite bare @prefix-id
-// cross-reference tokens across every generated .qmd into Markdown links.
-// Unresolved tokens degrade to plain humanised text (and are logged), so nothing
-// renders as a broken Pandoc citation.
-void resolveCrossRefs(Path webRoot) throws IOException {
-    // id → [absolute-qmd-path, link-text]; first occurrence wins for duplicates.
-    var registry = new HashMap<String, String[]>();
-    var tsvFiles = new ArrayList<Path>();
-    try (var walk = walk(webRoot)) {
-        for (var p : walk.filter(f -> f.getFileName().toString().equals("_xref.tsv")).toList()) {
-            tsvFiles.add(p);
-            for (var line : readString(p).split("\n")) {
-                if (line.isBlank()) continue;
-                var parts = line.split("\t", -1);
-                if (parts.length < 2) continue;
-                var id = parts[0].strip();
-                var qmdPath = parts[1].strip();
-                var text = parts.length >= 3 ? parts[2].strip() : "";
-                registry.putIfAbsent(id, new String[]{ qmdPath, text });
-            }
-        }
-    }
-    System.out.println("  registry: " + registry.size() + " anchors from " + tsvFiles.size() + " chapters");
+// resolveCrossRefs now takes the in-memory registry directly (no _xref.tsv re-read pass).
+// Still writes .qmd files to disk because they were written by the backends,
+// but reads them for the rewrite pass. Future: backends could return pre-resolved content.
+void resolveCrossRefs(Path webRoot, Map<String, String[]> registry) throws IOException {
+    System.out.println("  registry: " + registry.size() + " anchors");
 
     var tokenPat = Pattern.compile("(?<![\\[\\w@])@(" + XREF_PREFIXES + ")-([A-Za-z0-9][A-Za-z0-9_-]*)");
     var missing = new TreeSet<String>();
@@ -399,12 +340,8 @@ void resolveCrossRefs(Path webRoot) throws IOException {
         System.out.println("  " + missing.size() + " unresolved anchor(s) degraded to plain text:");
         for (var m : missing) System.out.println("    ? " + m);
     }
-
-    // Clean up registry files so they are not served by Quarto.
-    for (var p : tsvFiles) deleteIfExists(p);
 }
 
-// Rewrite all @prefix-id tokens in one line, skipping inline code (`...`) and math ($...$).
 String rewriteLine(String line, Pattern tokenPat, Map<String, String[]> registry,
                    Path qmd, Set<String> missing) {
     var seg = Pattern.compile("`[^`]*`|\\$[^$\\n]+\\$");
@@ -443,8 +380,6 @@ String rewriteSegment(String text, Pattern tokenPat, Map<String, String[]> regis
     return sb.toString();
 }
 
-// Build a site-relative link from the referencing .qmd to the target anchor.
-// Same file → "#id"; otherwise relative path with .qmd→.html and "#id".
 String relLink(Path fromQmd, Path toQmd, String id) {
     if (fromQmd.toAbsolutePath().normalize().equals(toQmd.toAbsolutePath().normalize())) {
         return "#" + id;
@@ -456,38 +391,31 @@ String relLink(Path fromQmd, Path toQmd, String id) {
     return rel + "#" + id;
 }
 
-// Fallback link text for an unresolved reference: strip the prefix, de-slug the rest.
 String humanize(String prefix, String id) {
     var body = id.substring(prefix.length() + 1).replace('-', ' ').replace('_', ' ').strip();
     return body.isEmpty() ? id : body;
 }
 
-// Resolve #include "relative/path.typ" directives recursively.
-// Paths are relative to the included file's parent directory.
-// Skips figure includes — ConvertAndSplit handles those separately.
 String resolveIncludes(Path file, Path srcRoot) throws IOException {
     var content = readString(file);
     var parent = file.getParent();
-    // Match #include "path/to/file.typ" — may be relative with ../ or direct
-    var p = java.util.regex.Pattern.compile("#include\\s+\"([^\"]+)\"");
+    var p = Pattern.compile("#include\\s+\"([^\"]+)\"");
     var m = p.matcher(content);
     var sb = new StringBuilder();
     while (m.find()) {
         var relPath = m.group(1);
-        // Leave figure includes for ConvertAndSplit to convert → ![alt](figures/...svg)
         if (relPath.contains("figures/")) {
-            m.appendReplacement(sb, java.util.regex.Matcher.quoteReplacement(m.group()));
+            m.appendReplacement(sb, Matcher.quoteReplacement(m.group()));
             continue;
         }
         var target = parent.resolve(relPath).normalize();
-        // Guard against escaping srcRoot
         if (!target.startsWith(srcRoot)) {
             m.appendReplacement(sb, "");
             continue;
         }
         try {
             var included = resolveIncludes(target, srcRoot);
-            m.appendReplacement(sb, java.util.regex.Matcher.quoteReplacement(included));
+            m.appendReplacement(sb, Matcher.quoteReplacement(included));
         } catch (NoSuchFileException e) {
             m.appendReplacement(sb, "");
         }
