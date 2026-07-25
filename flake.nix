@@ -109,7 +109,6 @@
             pkgs.quarto
             pkgs.jdk25
             pkgs.nodejs_22
-            pkgs.pandoc
           ];
           phases = [
             "unpackPhase"
@@ -148,7 +147,6 @@
             pkgs.quarto
             pkgs.jdk25
             pkgs.nodejs_22
-            pkgs.pandoc
           ];
           phases = [
             "unpackPhase"
@@ -301,7 +299,6 @@
             pkgs.quarto
             pkgs.jdk25
             pkgs.nodejs_22
-            pkgs.pandoc
             pkgs.texliveFull
             pkgs.nil
             pkgs.nixfmt
