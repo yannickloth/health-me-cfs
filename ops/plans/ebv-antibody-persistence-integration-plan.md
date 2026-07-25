@@ -175,7 +175,8 @@
 - **Changelog:** Continuation note appended to existing Herpesvirus Antibody Persistence entry (V11)
 
 ## Phase 13
-- **Status:** 🔵 pending
+- **Status:** ✅ done
+- **Commit:** `c4e7fd79` — feat(ch07,ch30,ch38): add LSR cascade-to-drug trace and biomarker validation study proposal
 
 - **Topic slug:** `herpesvirus-antibody-persistence`
 - **MIXED mode** — unrelated file `ops/plans/tick-borne-symptom-domains-integration-plan.md` in tree
