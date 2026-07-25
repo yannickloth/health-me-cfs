@@ -49,6 +49,15 @@
     if (e.also) {
       lines.push('<span class="gt-also">' + e.also + '</span>');
     }
+    if (e.sources && e.sources.length > 0) {
+      var srcLinks = [];
+      for (var si = 0; si < e.sources.length; si++) {
+        var s = e.sources[si];
+        var safeLabel = s.label.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        srcLinks.push('<a href="' + s.url.replace(/"/g, '&quot;') + '" target="_blank" rel="noopener noreferrer">' + safeLabel + '</a>');
+      }
+      lines.push('<span class="gt-sources">Info: ' + srcLinks.join(' \u00b7 ') + '</span>');
+    }
 
     div.innerHTML = lines.join('');
     return div;
