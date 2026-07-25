@@ -3,7 +3,10 @@
 // Usage: <glossary-tooltips></glossary-tooltips> anywhere in <body>
 
 (() => {
-  const GLOSSARY_URL = '/glossary.json';
+  const SCRIPT_EL = document.querySelector('script[src$="glossary-tooltip.js"]');
+  const GLOSSARY_URL = SCRIPT_EL
+    ? new URL('glossary.json', SCRIPT_EL.src).href
+    : '/glossary.json';
   const CATEGORY_LABELS = {
     medication: 'Medication', supplement: 'Supplement', medication_class: 'Class',
     disease: 'Disease', symptom: 'Symptom', condition: 'Condition', hormone: 'Hormone',
@@ -20,6 +23,7 @@
   const ESCAPE_RE = /[&<>"]/g;
   const ESCAPE_MAP = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
   const esc = (s) => (s && typeof s === 'string') ? s.replace(ESCAPE_RE, c => ESCAPE_MAP[c]) : '';
+  const NOPLACE_RE = /\u0000gt\d+\u0000/g;
 
   function buildTooltip(key, entry, glossary) {
     let e = entry;
@@ -75,13 +79,23 @@
     if (left === margin || left === vw - tipW - margin) tooltip.style.transform = 'none';
   }
 
+  let _activePop = null;
+  let _activeAnchor = null;
+  let _hideTimer = null;
+
   function hideAll() {
-    const pops = document.querySelectorAll('.gt-pop');
-    pops.forEach(p => {
-      p.classList.remove('gt-show');
-      setTimeout(() => p.parentNode?.removeChild(p), 200);
-    });
-    document.querySelectorAll('.gt-active').forEach(el => el.classList.remove('gt-active'));
+    if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
+    if (_activePop) {
+      _activePop.classList.remove('gt-show');
+      _hideTimer = setTimeout(() => {
+        _activePop?.parentNode?.removeChild(_activePop);
+        _activePop = null;
+      }, 200);
+    }
+    if (_activeAnchor) {
+      _activeAnchor.classList.remove('gt-active');
+      _activeAnchor = null;
+    }
   }
 
   function showTooltip(anchor, pop) {
@@ -90,115 +104,128 @@
     positionTooltip(pop, anchor);
     pop.classList.add('gt-show');
     anchor.classList.add('gt-active');
+    _activePop = pop;
+    _activeAnchor = anchor;
   }
 
-  function attachEvents(el, key, entry, glossary) {
-    let open = false;
+  function handleInteraction(ev, glossary) {
+    const el = ev.target.closest('glossary-term');
+    if (!el) return;
+    const key = el.dataset.gtKey;
+    if (!key) return;
+    const entry = glossary[key];
+    if (!entry) return;
 
-    el.addEventListener('mouseenter', () => {
+    if (ev.type === 'mouseenter') {
       if ('ontouchstart' in window) return;
       const pop = buildTooltip(key, entry, glossary);
       showTooltip(el, pop);
-      open = true;
-    });
-
-    el.addEventListener('mouseleave', () => {
+    } else if (ev.type === 'mouseleave') {
       if ('ontouchstart' in window) return;
       hideAll();
-      open = false;
-    });
-
-    el.addEventListener('click', ev => {
+    } else if (ev.type === 'click') {
       if (!('ontouchstart' in window)) return;
       ev.preventDefault();
       ev.stopPropagation();
-      if (open) {
+      if (_activePop) {
         hideAll();
-        open = false;
       } else {
         const pop = buildTooltip(key, entry, glossary);
         showTooltip(el, pop);
-        open = true;
       }
-    });
+    }
   }
 
-  function markTerms(body, glossary) {
-    const keys = Object.keys(glossary)
-      .filter(k => k[0] !== '_')
-      .sort((a, b) => b.length - a.length);
+  function buildGlossaryMeta(glossary) {
+    // Strip _meta/_config keys
+    const keys = Object.keys(glossary).filter(k => k[0] !== '_');
+    keys.sort((a, b) => b.length - a.length); // longest first so alternation matches greedier branches first
 
-    const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT);
-    const textNodes = [];
-    let node;
-    while ((node = walker.nextNode())) {
-      const p = node.parentNode;
-      if (p.tagName === 'SCRIPT' || p.tagName === 'STYLE' || p.tagName === 'A' ||
-          p.tagName === 'CODE' || p.tagName === 'PRE' ||
-          p.closest('.gt-pop') || p.closest('.gt') || p.closest('.no-gt') ||
-          p.closest('GLOSSARY-TOOLTIPS')) {
-        continue;
-      }
-      textNodes.push(node);
+    const keyPattern = keys.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+    const termRe = new RegExp(`(?<![a-zA-Z0-9/])(${keyPattern})(?![a-zA-Z0-9/])`, 'g');
+
+    // Map each key to its glossary entry (fast O(1) lookup, same as glossary lookup)
+    const noTooltipPhrases = [];
+    for (const k of keys) {
+      const nt = glossary[k]?.noTooltip;
+      if (nt) noTooltipPhrases.push(...nt);
+    }
+    let noTooltipRe = null;
+    if (noTooltipPhrases.length) {
+      const ntPattern = noTooltipPhrases
+        .map(p => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[\s\u00A0]+/g, '[\\s\\u00A0]+'))
+        .join('|');
+      noTooltipRe = new RegExp(ntPattern, 'g');
     }
 
-    const hasNoTooltip = keys.some(k => glossary[k]?.noTooltip);
+    return { keys, termRe, noTooltipRe, noTooltipPhrases };
+  }
 
-    for (const tn of textNodes) {
-      let html = tn.textContent;
-      let modified = false;
+  function markTerms(body, glossary, meta) {
+    const { termRe, noTooltipRe } = meta;
+    const walker = document.createTreeWalker(body, NodeFilter.SHOW_TEXT);
+    let node;
+    const excludeTags = new Set(['SCRIPT', 'STYLE', 'A', 'CODE', 'PRE', 'GLOSSARY-TERM', 'GLOSSARY-TOOLTIPS']);
 
-      // Placeholder-protect noTooltip phrases
-      const placeholderVals = {};
-      let phIdx = 0;
-      if (hasNoTooltip) {
-        for (const k of keys) {
-          const pentry = glossary[k];
-          if (!pentry?.noTooltip) continue;
-          for (const phrase of pentry.noTooltip) {
-            const ph = `\u0000gtph${phIdx++}\u0000`;
-            const reP = new RegExp(
-              phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[\s\u00A0]+/g, '[\\s\\u00A0]+'),
-              'g');
-            const match = html.match(reP);
-            placeholderVals[ph] = match ? match[0] : phrase;
-            html = html.replace(reP, ph);
-          }
+    while ((node = walker.nextNode())) {
+      const p = node.parentNode;
+      const gn = p.nodeName;
+      if (excludeTags.has(gn) || gn === 'TEXTAREA' || gn === 'INPUT') continue;
+      if (p.closest('.gt-pop') || p.closest('.no-gt')) continue;
+
+      let html = node.nodeValue;
+
+      const phMap = new Map();
+      if (noTooltipRe) {
+        noTooltipRe.lastIndex = 0;
+        html = html.replace(noTooltipRe, m => {
+          const ph = `\u0000gt${phMap.size}\u0000`;
+          phMap.set(ph, m);
+          return ph;
+        });
+      }
+
+      // Collect matched elements during single regex pass
+      termRe.lastIndex = 0;
+      const matchEls = [];
+      html = html.replace(termRe, (match) => {
+        matchEls.push(match);
+        return `<glossary-term data-gt="${match}">${match}</glossary-term>`;
+      });
+
+      if (!matchEls.length) continue;
+
+      if (phMap.size) html = html.replace(NOPLACE_RE, m => phMap.get(m) ?? m);
+
+      // Replace text node with parsed HTML — use a marker to find inserted siblings
+      const marker = document.createElement('i');
+      marker.style.display = 'none';
+      node.parentNode.insertBefore(marker, node);
+      marker.insertAdjacentHTML('afterend', html);
+      node.parentNode.removeChild(node);
+
+      // Walk forward from marker to find all glossary-term elements inserted
+      let cursor = marker.nextSibling;
+      let elIdx = 0;
+      while (cursor && elIdx < matchEls.length) {
+        if (cursor.nodeType === Node.ELEMENT_NODE && cursor.matches('glossary-term')) {
+          cursor.dataset.gtKey = matchEls[elIdx];
+          const de = glossary[matchEls[elIdx]];
+          if (!de) cursor.remove();
+          elIdx++;
         }
+        cursor = cursor.nextSibling;
       }
-
-      for (const key of keys) {
-        const entry = glossary[key];
-        if (!entry) continue;
-        const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        const re = new RegExp(`(?<![a-zA-Z0-9/])(${escaped})(?![a-zA-Z0-9/])`, 'g');
-        if (re.test(html)) {
-          modified = true;
-          re.lastIndex = 0;
-          html = html.replace(re, `<span class="gt" data-gt="${esc(key)}">$1</span>`);
-        }
-      }
-
-      if (hasNoTooltip) {
-        for (const [ph, val] of Object.entries(placeholderVals)) html = html.split(ph).join(val);
-      }
-
-      if (modified) {
-        const frag = document.createElement('span');
-        frag.innerHTML = html;
-        tn.parentNode.replaceChild(frag, tn);
-
-        for (const span of frag.querySelectorAll('.gt')) {
-          const dk = span.getAttribute('data-gt');
-          const de = glossary[dk];
-          if (de) attachEvents(span, dk, de, glossary);
-        }
-      }
+      marker.parentNode.removeChild(marker);
     }
   }
 
   class GlossaryTooltips extends HTMLElement {
     #loaded = false;
+    #glossary = null;
+    #handler = null;
+    #docClick = null;
+    #scrollHandler = null;
 
     connectedCallback() {
       if (this.#loaded) return;
@@ -207,14 +234,41 @@
       fetch(GLOSSARY_URL)
         .then(r => r.json())
         .then(glossary => {
-          markTerms(document.body, glossary);
+          this.#glossary = glossary;
+          const meta = buildGlossaryMeta(glossary);
+          markTerms(document.body, glossary, meta);
 
-          document.addEventListener('click', e => {
-            if (!e.target.closest('.gt') && !e.target.closest('.gt-pop')) hideAll();
-          });
-          window.addEventListener('scroll', hideAll);
+          const handler = (e) => handleInteraction(e, this.#glossary);
+          this.addEventListener('mouseenter', handler, true);
+          this.addEventListener('mouseleave', handler, true);
+          this.addEventListener('click', handler);
+          this.#handler = handler;
+
+          this.#docClick = (e) => {
+            if (!e.target.closest('glossary-term') && !e.target.closest('.gt-pop')) hideAll();
+          };
+          document.addEventListener('click', this.#docClick);
+          this.#scrollHandler = () => hideAll();
+          window.addEventListener('scroll', this.#scrollHandler);
         })
         .catch(() => console.warn('Glossary tooltips: could not fetch glossary.json'));
+    }
+
+    disconnectedCallback() {
+      if (this.#handler) {
+        this.removeEventListener('mouseenter', this.#handler, true);
+        this.removeEventListener('mouseleave', this.#handler, true);
+        this.removeEventListener('click', this.#handler);
+        this.#handler = null;
+      }
+      if (this.#docClick) {
+        document.removeEventListener('click', this.#docClick);
+        this.#docClick = null;
+      }
+      if (this.#scrollHandler) {
+        window.removeEventListener('scroll', this.#scrollHandler);
+        this.#scrollHandler = null;
+      }
     }
   }
 

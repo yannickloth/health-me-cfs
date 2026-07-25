@@ -270,15 +270,19 @@
 
 /* ── Glossary tooltips ── */
 @layer components {
-  .gt {
+  .gt,
+  glossary-term {
     border-bottom: 1px dashed #6b7280;
     cursor: help;
     position: relative;
     text-decoration: none;
     color: inherit;
+    display: inline;
   }
   .gt:hover,
-  .gt-active {
+  .gt-active,
+  glossary-term:hover,
+  glossary-term.gt-active {
     border-bottom-color: #2563eb;
     color: #2563eb;
   }
@@ -303,7 +307,8 @@
     content: '?';
   }
 
-  .gt:not(:has(.gt-icon))::after {
+  .gt:not(:has(.gt-icon))::after,
+  glossary-term:not(:has(.gt-icon))::after {
     display: inline-block;
     inline-size: 11px;
     block-size: 11px;
@@ -321,8 +326,12 @@
   }
   .gt:hover .gt-icon,
   .gt-active .gt-icon,
+  glossary-term:hover .gt-icon,
+  glossary-term.gt-active .gt-icon,
   .gt:hover::after,
-  .gt-active::after {
+  .gt-active::after,
+  glossary-term:hover::after,
+  glossary-term.gt-active::after {
     background: #2563eb;
   }
 
