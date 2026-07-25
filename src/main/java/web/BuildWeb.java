@@ -5,6 +5,7 @@
 // Source struct: partX/chXX-name/chXX-name.typ (aggregator) + includes
 // Output: web/part*/ch*/, web/z-appendices/, web/_shared/
 import static java.nio.file.Files.*;
+import static java.nio.file.StandardCopyOption.*;
 import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import static java.nio.file.Paths.*;
@@ -291,6 +292,24 @@ void main(String[] args) throws IOException, InterruptedException {
         }
     }
     System.out.println("  " + bibCount + " files copied → web/bib/");
+
+    System.out.println();
+    System.out.println("Next: quarto render");
+
+    // --- Copy web JS assets from src/main/js/ to web/ ---
+    System.out.println();
+    System.out.println("=== js assets ===");
+    var jsSrcDir = Path.of("src/main/js");
+    var jsDstDir = webRoot;
+    int jsCount = 0;
+    try (var stream = list(jsSrcDir)) {
+        for (var jsFile : stream.filter(f -> f.getFileName().toString().endsWith(".js")).toList()) {
+            copy(jsFile, jsDstDir.resolve(jsFile.getFileName()), REPLACE_EXISTING);
+            jsCount++;
+            System.out.println("  " + jsFile.getFileName() + " → web/");
+        }
+    }
+    System.out.println("  " + jsCount + " file(s) copied");
 
     System.out.println();
     System.out.println("Next: quarto render");

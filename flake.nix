@@ -108,6 +108,7 @@
             pkgs.typst
             pkgs.quarto
             pkgs.jdk25
+            pkgs.nodejs_22
           ];
           phases = [
             "unpackPhase"
@@ -119,8 +120,7 @@
             mkdir -p "$HOME"
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
 
-            # Generate .qmd files and figures
-            # .qmd gen + bib copy + figures → BuildWeb.java handles all
+            # Generate .qmd files, figures, and copy JS assets
             java --source 25 src/main/java/web/BuildWeb.java
 
             # Verify no orphaned labels in generated .qmd files
@@ -143,6 +143,7 @@
             pkgs.typst
             pkgs.quarto
             pkgs.jdk25
+            pkgs.nodejs_22
           ];
           phases = [
             "unpackPhase"
@@ -264,6 +265,23 @@
               echo "PASS" > $out/result
             '';
           };
+          glossary-test = pkgs.stdenvNoCC.mkDerivation {
+            name = "mecfs-glossary-test";
+            src = cleanSrc;
+            buildInputs = [ pkgs.nodejs_22 ];
+            phases = [
+              "unpackPhase"
+              "buildPhase"
+              "installPhase"
+            ];
+            buildPhase = ''
+              node --test src/test/js/glossary-tooltip.test.js
+            '';
+            installPhase = ''
+              mkdir -p $out
+              echo "PASS" > $out/result
+            '';
+          };
         };
 
         devShells.default = pkgs.mkShell {
@@ -272,6 +290,7 @@
             pkgs.typst
             pkgs.quarto
             pkgs.jdk25
+            pkgs.nodejs_22
             pkgs.texliveFull
             pkgs.nil
             pkgs.nixfmt
