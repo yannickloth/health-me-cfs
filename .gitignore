@@ -397,3 +397,5 @@ test-l3.pdf
 src/main/latex/**/main.pdf
 src/main/latex/**/*.pdf
 src/main/typst/**/main.pdf
+src/main/typst/**/*.pdf
+**/node_modules
