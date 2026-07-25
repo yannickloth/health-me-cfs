@@ -764,6 +764,45 @@ Solve M.E.'s patient registry. Collects patient-reported data and biospecimens. 
 
 // =============================================================================
 
+== Medication Information Sources
+<sec:medication-resources>
+// =============================================================================
+
+These sites provide authoritative, freely accessible drug information. Many medications used in ME/CFS are off-label or experimental; these resources help patients and clinicians evaluate mechanisms, evidence, risks, and regulatory status for each drug.
+
+=== Primary Sources
+
+[style=nextline]
+/ *PubMed*:  #link("https://pubmed.ncbi.nlm.nih.gov/")
+
+The U.S. National Library of Medicine's database of biomedical literature. Search for clinical trials, systematic reviews, and mechanistic studies on any medication. Use the MeSH term \`DrugName"[MeSH]" to search by official subject heading.
+
+/ *DailyMed*:  #link("https://dailymed.nlm.nih.gov/")
+
+Official FDA-approved prescribing information (package inserts) for all U.S.-marketed drugs. Contains indications, dosing, contraindications, warnings, adverse reactions, and pharmacology. Updated continuously.
+
+/ *PubChem*:  #link("https://pubchem.ncbi.nlm.nih.gov/")
+
+The National Institutes of Health's open chemistry database. Provides chemical structures, molecular targets, bioactivity data, and links to toxicology and patent information for drug compounds.
+
+=== Other Recommended Sources
+
+Not linked per-drug in tooltips, but valuable for independent research:
+
+- *DrugBank*:  #link("https://go.drugbank.com/") — Free online database with drug-target interactions, metabolism pathways, and pharmacokinetics. Requires login for full data access.
+- *Cochrane Library*:  #link("https://www.cochranelibrary.com/") — Independent systematic reviews and meta-analyses of healthcare interventions. Summaries freely accessible in many countries.
+
+=== Searching for a Specific Medication
+
+Each drug mentioned in this document links to its dedicated page or search results on PubMed, DailyMed, and PubChem. Hover or tap the medication name in the web version to reveal the links. The links use each site's native drug name or MeSH heading; special cases:
+
+- *LDN*:  Searched as "Naltrexone" (low-dose naltrexone is an off-label regimen of the standard drug)
+- *IVIG / SCIG*:  PubMed searched as "Immunoglobulins, Intravenous" (MeSH); no PubChem compound entry (mixture)
+- *THC*:  PubChem as "Tetrahydrocannabinol," PubMed MeSH as "Dronabinol"
+- *SkQ1, DCA, DMF*:  Experimental compounds; PubChem uses chemical names: "Dichloroacetic acid," "Dimethyl fumarate"; SkQ1 has no PubChem entry
+
+// =============================================================================
+
 == Disability and Legal Resources
 <sec:disability-resources>
 // =============================================================================
