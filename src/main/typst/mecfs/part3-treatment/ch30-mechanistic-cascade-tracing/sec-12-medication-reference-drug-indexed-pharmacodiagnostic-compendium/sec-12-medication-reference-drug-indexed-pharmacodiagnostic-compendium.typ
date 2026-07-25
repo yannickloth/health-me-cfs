@@ -2194,7 +2194,7 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Valacyclovir
 
-*Appears in:* Cross-reference matrix, antiviral cascade sections.
+*Appears in:* Cross-reference matrix, antiviral cascade sections, @sec:lsr-cascade-interpretation (LSR).
 
 #strong[+] Herpesvirus reactivation rate-limiting. EBV/HHV-6 suppression restores function — confirms viral reactivation is the dominant driver.
 
@@ -2204,9 +2204,11 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 #strong[W] *Mechanism:* K (acyclovir accumulation from impaired renal clearance → CNS toxicity) + F (unmasks occult renal impairment). The CNS toxicity resolves with dose adjustment; the renal impairment is permanent. *Protracted risk:* Low. *Permanent risk:* Very Low (CNS toxicity does not cause permanent CNS damage — resolves with drug clearance or dose adjustment. The unmasked renal impairment is permanent but valacyclovir did not cause it.) *Rechallenge:* Yes, with dose adjustment for renal function (measure cystatin C, CrCl). If CNS toxicity at standard dose: the occult renal impairment is identified — adjust all renally-cleared medications accordingly.
 
+#strong[LSR] Lytic-to-Structural IgG Ratio: See @sec:lsr-cascade-interpretation. If LSR is elevated (anti-BZLF1 IgG ÷ anti-VCA-p18 IgG elevated) and valacyclovir produces clinical improvement with LSR decline → abortive lytic reactivation is the likely driver. If valacyclovir produces zero response and LSR remains elevated → LLPC autoimmune drift is the more likely mechanism — the elevated lytic antibodies reflect B cell dysregulation, not viral activity. However, early-gene-only ALR (where the lytic cascade stalls before DNA replication) cannot be distinguished from LLPC drift by valacyclovir response alone — valacyclovir has no target if DNA replication never occurs.
+
 === Valganciclovir
 
-*Appears in:* Cross-reference matrix, antiviral cascade sections.
+*Appears in:* Cross-reference matrix, antiviral cascade sections, @sec:lsr-cascade-interpretation (LSR).
 
 #strong[+] Broad-spectrum herpesvirus replication rate-limiting — active where valacyclovir failed. CMV/HHV-6/EBV broader coverage confirms viral reactivation is the driver and the specific virus is valganciclovir-sensitive.
 
@@ -2215,6 +2217,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 #strong[SE] Bone marrow suppression at subtherapeutic dose → marrow reserve exhausted — hematopoietic stem cell pool critically low from chronic inflammation-driven myelosuppression (Pattern 4). The marrow suppression AT SUBTHERAPEUTIC dose is the key diagnostic: a standard therapeutic dose producing marrow suppression is expected; subtherapeutic dose producing marrow suppression means the reserve is near zero.
 
 #strong[W] *Mechanism:* A (direct hematopoietic toxicity — cumulative bone marrow suppression → each course depletes HSC pool) + G (cumulative dose-dependent — in a patient with chronic inflammation-driven myelosuppression, cumulative HSC loss may reach irreversible threshold). *Protracted risk:* Moderate. *Permanent risk:* Low. Marrow suppression usually reverses with dose reduction or discontinuation, but severe cumulative HSC depletion can be permanent. *Rechallenge:* Only with weekly ANC monitoring. Hold at ANC \<1,500; consider G-CSF support. If marrow suppression persists after discontinuation → HSC exhaustion confirmed — the patient has lost hematopoietic reserve; valganciclovir is permanently inaccessible.
+
+#strong[LSR] If valganciclovir works where valacyclovir failed → HHV-6 or CMV is the dominant reactivating virus, OR the virus is in a tissue sanctuary site (CNS, DRG) that ganciclovir accessed but acyclovir did not. If both valacyclovir and valganciclovir fail and LSR is confirmed elevated → the strongest available negative evidence that elevated LSR is NOT driven by ongoing viral replication — LLPC autoimmune drift is the leading explanation.
 
 === Valproate (Valproic Acid / Divalproex)
 

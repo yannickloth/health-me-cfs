@@ -29,6 +29,7 @@ This chapter collects every research proposal scattered across the paper — ful
     // ─── Tier 2: High impact / medium cost (Med cost + Immed-Med time) ───
 
     [Viral Clearance Longitudinal Study], [Prospective 2yr n=500 acute infection follow-up with serial immune/metabolic phenotyping; if predictors of ME/CFS conversion identified, enables prevention], [Observ], [High], [Med], [High], [@sec:viral-clearance-longitudinal],
+    [LSR Diagnostic Biomarker Validation], [Lytic-to-Structural IgG Ratio as first serological biomarker stratifying by mechanism (ALR vs LLPC); if validated, low-cost diagnostic using existing clinical serology platforms, deployable within 2–3 years], [Bmk-dev], [Med], [Med], [High], [@sec:lsr-biomarker-validation-study],
     [PEM Recovery Duration Study], [CPET at 24h/48h/72h+ to quantify true PEM duration; if >24h, invalidates current 2-day CPET protocol assumptions], [Observ], [Med], [Med], [High], [@sec:pem-recovery-duration-study],
     [LC vs ME/CFS 2-Day CPET Head-to-Head], [Identical protocols in LC and ME/CFS; if PEM differs, resolves whether post-infectious PEM is a unitary phenomenon], [Observ], [Med], [Immed], [High], [@hyp:distinct-pem-pathophysiology-long-covid],
     [Sleep-Based Endotype Stratification], [Apply SleepFM to ME/CFS PSG data; if endotypes separable by decoupling pattern, enables treatment-matching], [Bmk-dev], [Low], [Immed], [Med], [@sec:sleepfm-biomarker],

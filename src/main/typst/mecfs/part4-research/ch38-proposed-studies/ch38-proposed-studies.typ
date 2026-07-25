@@ -39,6 +39,7 @@ design specifications, and expected outcomes.
 #include "./formal-isr-state-variables-in/formal-isr-state-variables-in.typ"
 #include "./multi-timepoint-pem-recovery-d/multi-timepoint-pem-recovery-d.typ"
 #include "./longitudinal-study-of-viral-cl/longitudinal-study-of-viral-cl.typ"
+#include "./lsr-diagnostic-biomarker-validation/lsr-diagnostic-biomarker-validation.typ"
 #include "./sleepfm-cross-modal-decoupling/sleepfm-cross-modal-decoupling.typ"
 #include "./connective-tissue-research-pro/connective-tissue-research-pro.typ"
 #include "./engineered-exosome-mediated-cn/engineered-exosome-mediated-cn.typ"

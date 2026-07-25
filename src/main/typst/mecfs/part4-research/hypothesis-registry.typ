@@ -3807,6 +3807,47 @@ This registry collects all hypotheses, speculations, open questions, and predict
   limitation: [No study has simultaneously measured lytic-cycle and structural-antigen IgG in the same ME/CFS cohort and computed the LSR. The LSR hypothesis is inferred from comparing results across studies with different populations, methods, and antigens (positive studies used ELISA with specific antigens; Cliff measured seroprevalence, which cannot detect titre differences in universally seropositive populations). The dUTPase findings the hypothesis depends on derive from a single research group without independent replication. There is no mechanistic reason grounded in herpesvirus biology why abortive lytic replication would selectively boost lytic-cycle antibodies without also boosting structural-antigen antibodies — the lytic cascade is sequential, not selective. The MS cross-reactivity precedent (one epitope in one disease) is structurally different from the LSR (a quantitative ratio of broad antigen-class IgG). Origin: brainstorm.],
 )
 
+=== Entries added 2026-07-25: LSR Cascade Interpretation and Valacyclovir Response Trace
+
+#registry-entry(
+  [LSR Cascade Interpretation — What Valacyclovir Response Reveals About the Mechanism Driving Elevated LSR],
+  type: "S",
+  certainty: "0.15",
+  evidence: [Derived from mechanistic cascade tracing. Valacyclovir inhibits EBV DNA polymerase (BALF5) at the DNA replication step — it does not block immediate-early or early gene expression (BZLF1, dUTPase). The following interpretive schema is inferred: (a) if valacyclovir works AND LSR declines → abortive lytic reactivation (ALR) is likely the driver, though poly-herpesvirus antiviral activity limits specificity; (b) if valacyclovir fails AND LSR unchanged → LLPC autoimmune drift is the more likely mechanism, though early-gene-only ALR cannot be excluded (if the lytic cascade stalls before DNA replication, valacyclovir has no target). If both valacyclovir and valganciclovir fail with LSR confirmed elevated, this is the strongest available negative evidence that LSR is NOT driven by ongoing viral replication. No clean discriminating probe exists — all intercepting drugs have ≥3 targets. Origin: brainstorm — cascade trace.],
+  citations: [],
+  mechanism: [Two candidate mechanisms for elevated LSR: (1) ALR → EBV immediate-early/early gene expression → BZLF1/dUTPase produced → SLPB response adds lytic IgG on top of LLPC baseline → LSR rises. Valacyclovir blocks DNA replication (step 3 of 5 in the cascade) — effective if ALR proceeds through DNA replication, irrelevant if ALR stalls at early gene expression. (2) B cell dysregulation → selective LLPC clonal expansion producing cross-reactive lytic-epitope antibodies → LSR rises. Valacyclovir has no target in this cascade — LLPCs do not require viral replication to maintain antibody output.],
+  chapter-ref: [ch07:@spec:lsr-valacyclovir-response; ch30:@sec:lsr-cascade-interpretation],
+  prediction: [In a cohort of ME/CFS patients with elevated LSR, pre- and post-valacyclovir (6 months, therapeutic dose) LSR measurements will show: (a) LSR decline only in clinical responders; (b) no decline in non-responders. Falsified if LSR declines in non-responders (ALR continues despite absent clinical benefit), OR if LSR unchanged in responders (valacyclovir benefit independent of ALR suppression).],
+  treatment: [Research-stage only — no clinical recommendation. Elevated LSR that does not budge after valacyclovir would indicate LLPC-driven antibody abnormality, directing treatment toward B cell-targeted research rather than antiviral escalation. This could spare patients from years of empirically escalated antiviral therapy.],
+  limitation: [Cascade model is a linear simplification. Valacyclovir specificity is low (active against VZV, HSV in addition to EBV — clinical improvement could reflect non-EBV suppression). Cannot distinguish LLPC drift from early-gene-only ALR. The valacyclovir substudy is proposed as a nested cohort within a larger LSR validation study that has not yet been performed — the prediction's validity depends on the LSR demonstrating AUC ≥0.75 first. Origin: brainstorm — cascade trace.],
+)
+
+#registry-entry(
+  [LSR–Valacyclovir Discordant Pattern — What if LSR is Elevated but Valacyclovir Succeeds Clinically?],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [A third possible pattern beyond the positive-response and null-response scenarios: valacyclovir produces clinical improvement but LSR stays elevated. This would suggest viral reactivation is rate-limiting for symptoms, while the LSR is maintained by a mechanism valacyclovir does not touch — either (a) LLPCs produce the lytic IgG baseline while SLPB-derived lytic IgG from ALR events is too small a fraction to move the ratio, or (b) clinical benefit comes from suppressing a different herpesvirus (VZV, HSV) contributing to symptoms without affecting EBV LSR. Neither possibility can be resolved without a prospective study. Origin: brainstorm — cascade trace.],
+  citations: [],
+  mechanism: [Two non-exclusive explanations: (1) the LLPC lytic IgG pool is the dominant component of the LSR signal, and valacyclovir-suppressible SLPB-derived lytic IgG is a negligible fraction — valacyclovir reduces symptoms by blocking ALR without moving the antibody ratio. (2) The clinical benefit comes from suppressing a co-infecting herpesvirus whose antibodies are not captured by the EBV-specific LSR — if VZV or HSV reactivation is contributing to symptoms, valacyclovir resolves that without affecting EBV LSR.],
+  chapter-ref: [ch07:@oq:lsr-valacyclovir-discordant],
+  prediction: [A prospective study measuring LSR, viral DNA (qPCR for each herpesvirus), and clinical symptoms simultaneously before/during/after valacyclovir will resolve this question by showing whether LSR change correlates with (a) EBV DNA suppression, (b) clinical improvement, (c) both, or (d) neither.],
+  treatment: [N/A — methodological research question. Resolution requires data that does not yet exist.],
+  limitation: [Pure methodological observation — no empirical data, no predictive claim. The discordant pattern may not occur if LSR and clinical response are tightly coupled, making this a hypothetical edge case. Origin: brainstorm — cascade trace.],
+)
+
+#registry-entry(
+  [LSR Diagnostic Biomarker Validation — Prospective Cross-Sectional and Antiviral-Response Study],
+  type: "H",
+  certainty: "n/a",
+  evidence: [Proposed study (@sec:lsr-biomarker-validation-study). The LSR concept has never been measured in any disease — this is a first-ever study of the lytic-to-structural herpesvirus IgG ratio. Existing evidence: Palomo 2026 (dUTPase elevated, single-group), Cliff 2019 (structural seroprevalence null), Blomberg 2019 (multiplex null), Apostolou 2022 (salivary), Loebel 2017 (EBNA-6 repeat enhanced), Maes 2025 (partial independent dUTPase replication in RRMS). None computed LSR. Origin: brainstorm — proposal derived from @hyp:lytic-structural-igg-ratio.],
+  citations: [@Palomo2026dUTPase @Cliff2019Cellular @Blomberg2019HerpesvirusNull @Apostolou2022Saliva @Loebel2017EBVsero @Maes2025RRMSdUTPase],
+  mechanism: [Two-phase design. Phase 1: cross-sectional LSR (anti-BZLF1 ÷ anti-VCA-p18) measurement in n=200 (100 ME/CFS + 100 controls) to establish the normal range and test discriminant validity. Phase 2: nested valacyclovir substudy (n=40, 6 months) measuring pre- and post-LSR to distinguish ALR-driven (LSR declines) from LLPC-driven (LSR stable) elevation. Avidity index measurement (urea-wash ELISA) to exclude recent primary infection confound. Poly-herpesvirus LSR (HHV-6 anti-U45 ÷ anti-gB) to test EBV-specificity.],
+  chapter-ref: [ch38:@hyp:lsr-diagnostic-biomarker; ch39:@sec:lsr-biomarker-validation-study],
+  prediction: [Primary: LSR AUC $≥$0.75 for ME/CFS vs healthy controls, while VCA-p18 IgG alone achieves AUC $<$0.55. IgG avidity uniformly $>$0.6 in ME/CFS (excludes recent primary infection). Valacyclovir-responsive patients show declining LSR; non-responders show stable LSR. Falsified if LSR AUC $<$0.60, OR structural-antigen IgG shows equivalent discrimination, OR low-avidity IgG ($<$0.4) detected in $>$10\% of ME/CFS (would refute LLPC model).],
+  treatment: [If validated: first serological biomarker to stratify ME/CFS patients by mechanism (ALR vs LLPC), directing antiviral therapy to the ALR group. Deployable on existing clinical ELISA platforms within 2–3 years. Null result would close the LSR hypothesis definitively and redirect herpesvirus research toward whole-proteome serology.],
+  limitation: [Custom anti-dUTPase ELISA required — not commercially available. Anti-BZLF1/anti-VCA-p18 ELISA kits validated for qualitative (seropositive/seronegative) detection, not quantitative ratio computation — reference range unknown. Valacyclovir substudy is observational (confounding by indication). Poly-herpesvirus LSR profiling requires custom antigens for each virus's dUTPase — multiplies assay development bottleneck. IgG avidity assays not commercially standardized. Phase 2 (n=40) underpowered if valacyclovir response rate $<$50\%. Origin: brainstorm — proposal.],
+)
+
 === Entries added 2026-07-17: "Seronegative Chronic Lyme" as a Claimed Cause of ME/CFS (REJECTED)
 
 #registry-entry(

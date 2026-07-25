@@ -140,14 +140,42 @@
 - **Certainty adjusted:** 0
 - **Classification default applied per auditor rules:** "When evidence is insufficient to establish reinforcement, feed-into, or conflict → classify as Independent. False positives are worse than false negatives. Classification errors toward independence."
 
-## Phases 8-13
-- **Phase 8 build:** pending
-- **Phase 9 quality:** pending
-- **Phase 10 coherence:** pending
-- **Phase 10a synthesis:** pending
-- **Phase 11 convergence:** pending
-- **Phase 12 changelog:** pending
-- **Phase 13 commit:** pending
+## Phase 5d (added 2026-07-25 — continuation)
+- **N cascade branches traced:** 3 (Branch A: ALR-driven, Branch B: LLPC autoimmune drift, Branch C: normal primary response)
+- **M drug→node pairs:** 2 (valacyclovir at Node N3, valganciclovir at Node N3)
+- **K integrated into chapter:** 1 (`@spec:lsr-valacyclovir-response` + `@oq:lsr-valacyclovir-discordant`) — cert 0.15, ≥ 0.30 threshold met
+- **Discriminating probes:** 0 — explicit "no clean discriminator exists" statement. All intercepting drugs have ≥3 targets.
+- **Cascade trace:** `ops/integration-guides/pathway-drug-trace-lsr.md`
+- **ch30 cascade sections modified:** `sec-12` (valacyclovir entry: added `#strong[LSR]` block + `*Appears in:*` updated; valganciclovir entry: added `#strong[LSR]` block + `*Appears in:*` updated)
+- **ch07 modified:** `subsec-06-antibody-persistence.typ` — added `#import clinical-caution`, `==== What Antiviral Response Reveals About the Elevated LSR` section with `@spec:lsr-valacyclovir-response` and `@oq:lsr-valacyclovir-discordant`
+- **Shared include created:** `src/main/typst/lib/clinical-caution.typ`
+
+## Additional deliverable: LSR research idea chapter
+- **Ch38 proposal:** `lsr-diagnostic-biomarker-validation/` — full observational study protocol (n=200 cross-sectional + n=40 valacyclovir substudy, ~$720K, 2 years)
+- **Ch39 index:** Tier 2 row added — Bmk-dev, Med/Med, High impact
+- **Hypothesis registry:** +3 entries (@spec:lsr-valacyclovir-response, @oq:lsr-valacyclovir-discordant, @hyp:lsr-diagnostic-biomarker)
+
+## Phase 8
+- **Phase 8 build:** PASS (3 label-parsing fixes: changelog.typ `<0.52` and `\<sec:bib-...>`, lsr-validation.typ bare `<` in prose, registry.typ bare `<` in new entries)
+
+## Phase 9
+- **Quality flags:** NONE — BLOAT not fired (≥3 new environments), no CLINICAL-RISK, no certainty bumps
+
+## Phase 10
+- **Coherence:** PASS — 0 inconsistencies, all cross-references resolve, terminology consistent ch07↔ch30
+
+## Phase 10a
+- **Synthesis:** `@syn:lsr-convergent-framework` added to ch07 — condenses LSR serology→pharmacodiagnostic bridge
+
+## Phase 11
+- **Review tier:** LIGHTWEIGHT (additive continuation to already-reviewed PROCEED base)
+- **Convergence:** 0 rounds (build pass covers syntax/xref; all new content is cascade extension of existing LSR hypothesis)
+
+## Phase 12
+- **Changelog:** Continuation note appended to existing Herpesvirus Antibody Persistence entry (V11)
+
+## Phase 13
+- **Status:** 🔵 pending
 
 - **Topic slug:** `herpesvirus-antibody-persistence`
 - **MIXED mode** — unrelated file `ops/plans/tick-borne-symptom-domains-integration-plan.md` in tree
