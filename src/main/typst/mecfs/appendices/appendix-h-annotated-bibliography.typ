@@ -27845,3 +27845,215 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Distinct from idiopathic/structural scoliosis -- important for differential diagnosis
     / *Conclusion:*: Acute spinal deformity can be functional (pain-driven), not structural. Any hypothesis linking scoliosis to ME/CFS must distinguish between structural deformities (rotoscoliosis, DAMI) and functional listings (pain-avoidance, disc pathology). Most adult spinal asymmetries are mixed -- functional listing can become structural over time.
     / *Limitations:*: Sciatic scoliosis is acute and reversible -- minimal relevance to chronic structural asymmetry; no fatigue/ANS outcomes.
+
+// =============================================================================
+
+== Pharmacodiagnostic Matrix — Diagnostic Methodology
+<sec:bib-pharmacodiagnostic-matrix>
+// =============================================================================
+
+=== Laragh et al.\ 1988 — Diagnosis Ex Juvantibus: Individual Response Patterns to Drugs Reveal Hypertension Mechanisms
+
+    / *Full Citation:*: Laragh JH, Lamport B, Sealey J, Alderman MH. Diagnosis ex juvantibus. Individual response patterns to drugs reveal hypertension mechanisms and simplify treatment. _Hypertension_. 1988;12(3):223--226. @Laragh1988DiagnosisExJuvantibus
+    / *DOI:*: https://doi.org/10.1161/01.hyp.12.3.223
+    / *PMID:*: 3049337
+    / *Key Findings:*:
+        - Heterogeneity of response to antihypertensive therapy is well-recognized: an agent antihypertensive in one patient may increase BP in another or have no effect in a third
+        - Sequential trials of drugs with different mechanisms (diuretics, calcium channel blockers, α-blockers, β-blockers, ACE inhibitors) classify patients into biologically relevant groups
+        - Drug response patterns provide a framework for investigating pathophysiology and stratifying clinical trial participants
+        - Conceptually establishes "diagnosis ex juvantibus" — drug response as diagnostic evidence
+    / *Conclusion:*: Foundational paper establishing that multi-drug response heterogeneity is not noise but signal — it reveals the underlying mechanism. This is the direct conceptual ancestor of the pharmacodiagnostic matrix proposal.
+    / *Limitations:*: Conceptual/review paper, not empirical trial; hypertension-specific; no formal constraint-satisfaction or algorithmic framework.
+
+=== Samuel et al.\ 2023 — N-of-1 Trials vs. Usual Care in Children with Hypertension: A Pilot Randomized Clinical Trial
+
+    / *Full Citation:*: Samuel JP, Bell CS, Samuels JA, Rajan C, Walton AK, Green C, Tyson JE. N-of-1 trials vs. usual care in children with hypertension: a pilot randomized clinical trial. _American Journal of Hypertension_. 2023;36(2):126--132. @Samuel2023Nof1RCT
+    / *DOI:*: https://doi.org/10.1093/ajh/hpac117
+    / *PMID:*: 36227203
+    / *Key Findings:*:
+        - RCT: n-of-1 trial arm (n=23) vs usual care (n=26) in pediatric hypertension
+        - 69% probability n-of-1 trials increased BP control at 6 months (Bayesian OR 1.24, 95% CrI 0.51–2.97)
+        - 93% probability of greater systolic BP reduction in n-of-1 group (mean difference −3.6 mmHg)
+        - Bayesian framework used for single-patient trial inference
+    / *Conclusion:*: Direct RCT evidence that n-of-1 methodology improves treatment outcomes. The Bayesian framework used is directly applicable to multi-drug pharmacodiagnostic inference in ME/CFS.
+    / *Limitations:*: Small pilot trial (n=49); pediatric hypertension only; 6-month follow-up; single center.
+
+=== Samuel et al.\ 2019 — Treating Hypertension in Children with N-of-1 Trials
+
+    / *Full Citation:*: Samuel JP, Tyson JE, Green C, Bell CS, Pedroza C, Molony D, Samuels J. Treating hypertension in children with n-of-1 trials. _Pediatrics_. 2019;143(4):e20181818. @Samuel2019Nof1Hypertension
+    / *DOI:*: https://doi.org/10.1542/peds.2018-1818
+    / *PMID:*: 30842257
+    / *Key Findings:*:
+        - n=32 children with hypertension: compared lisinopril, amlodipine, hydrochlorothiazide via repeated ABPM
+        - No single medication preferred for >50% of patients; 49% lisinopril, 24% amlodipine, 12% HCTZ, 4/32 uncontrolled on any monotherapy
+        - Conservative Bayesian analyses with credible intervals for each treatment preference proportion
+        - Unacceptable side effects in 24% HCTZ, 16% lisinopril, 13% amlodipine
+    / *Conclusion:*: Demonstrates that treatment response is genuinely heterogeneous — no "first-line for everyone." Individualized n-of-1 testing reveals the optimal drug per patient. Directly supports the premise that multi-drug response patterns carry diagnostic information.
+    / *Limitations:*: Single center; pediatric only; three drug comparison; no mechanistic hypotheses tested.
+
+=== Friston 2023 — Computational Psychiatry: From Synapses to Sentience
+
+    / *Full Citation:*: Friston K. Computational psychiatry: from synapses to sentience. _Molecular Psychiatry_. 2023;28(1):256--268. @Friston2023ComputationalPsychiatry
+    / *DOI:*: https://doi.org/10.1038/s41380-022-01743-z
+    / *PMID:*: 36056173
+    / *Key Findings:*:
+        - Brain as generative model that underwrites sentient processing and scientific diagnosis
+        - Neuronal message passing, belief propagation, and precision encoding as formal Bayesian inference
+        - Dysconnection → aberrant belief updating → false inference — bridges pathophysiology to phenomenology
+        - Computational phenotyping and computational nosology as emerging frameworks
+    / *Conclusion:*: Provides the formal mathematical infrastructure for pharmacodiagnostic reasoning: drug response = new evidence that updates a Bayesian diagnostic belief distribution over competing mechanistic hypotheses.
+    / *Limitations:*: Review article; primarily psychiatric; theoretical framework rather than empirical validation; computational phenotyping reliability concerns not addressed.
+
+=== Strauss et al.\ 2021 — Data-Driven Identification of Complex Disease Phenotypes
+
+    / *Full Citation:*: Strauss MJ, Niederkrotenthaler T, Thurner S, Kautzky-Willer A, Klimek P. Data-driven identification of complex disease phenotypes. _Journal of the Royal Society Interface_. 2021;18(180):20201040. @Strauss2021DiseasePhenotypes
+    / *DOI:*: https://doi.org/10.1098/rsif.2020.1040
+    / *PMID:*: 34314651
+    / *Key Findings:*:
+        - Population-wide (n=9M) medical claims dataset used to construct disease interaction network
+        - Higher-order diagnosis features capturing interactions between ≥2 diseases better characterize patient health states
+        - Data-driven detection of metabolically healthy vs unhealthy obesity phenotypes — previously controversial distinction
+        - Metabolically healthy obesity shows progression toward unhealthy over time
+    / *Conclusion:*: Multi-feature interaction patterns reveal phenotypic subtypes invisible to single-feature analysis. The pharmacodiagnostic matrix extends this logic: multi-drug response interaction patterns reveal bottleneck subtypes invisible to single-drug analysis.
+    / *Limitations:*: Claims data (limited clinical detail); cross-sectional network; obesity-specific phenotypes; no medication response data.
+
+=== Scheibenbogen et al.\ 2018 — Immunoadsorption to Remove β2 Adrenergic Receptor Antibodies in CFS/ME
+
+    / *Full Citation:*: Scheibenbogen C, Loebel M, Freitag H, Krueger A, Bauer S, Antelmann M, Doehner W, Scherbakov N, Heidecke H, Reinke P, Volk HD, Grabowski P. Immunoadsorption to remove β2 adrenergic receptor antibodies in Chronic Fatigue Syndrome. _PLoS One_. 2018;13(3):e0193672. @Scheibenbogen2018Immunoadsorption
+    / *DOI:*: https://doi.org/10.1371/journal.pone.0193672
+    / *PMID:*: 29543914
+    / *Key Findings:*:
+        - n=10 post-infectious ME/CFS with elevated β2AdR autoantibodies; 5-day immunoadsorption
+        - 7/10 rapid improvement during IA; 3/10 long-lasting improvement (6–12+ months); 2/10 short; 2/10 improvement after initial worsening
+        - β2 IgG antibodies rapidly decreased during IA; memory B cells decreased, plasma cells increased
+        - Heterogeneous response trajectories suggest mechanistic subgroups among β2AdR-positive patients
+    / *Conclusion:*: Exemplifies pharmacodiagnostic principle in ME/CFS: same intervention produces qualitatively different response patterns (sustained, transient, delayed), implying different underlying mechanisms even within an autoantibody-defined subgroup. This heterogeneity is the signal the pharmacodiagnostic matrix aims to systematize.
+    / *Limitations:*: Small n (10); open-label; single-arm; uncontrolled confounding from concomitant medication; IA procedure itself non-specific.
+
+=== Zhang et al.\ 2022 — Ruxolitinib Response-Based Stratified Treatment for Pediatric HLH
+
+    / *Full Citation:*: Zhang Q, Zhao YZ, Ma HH, Wang D, Cui L, Li WJ, Wei A, Wang CJ, Wang TY, Li ZG, Zhang R. A study of ruxolitinib response-based stratified treatment for pediatric hemophagocytic lymphohistiocytosis. _Blood_. 2022;139(24):3493--3504. @Zhang2022RuxolitinibHLH
+    / *DOI:*: https://doi.org/10.1182/blood.2021014860
+    / *PMID:*: 35344583
+    / *Key Findings:*:
+        - n=52 newly diagnosed pediatric HLH: ruxolitinib monotherapy as first-line agent
+        - ORR 69.2% at day 28; 42.3% sustained complete remission; all responders achieved first response within 3 days
+        - Response significantly associated with underlying etiology (EBV-HLH most sensitive, ORR 87.5%)
+        - 57.7% stratified to additional chemotherapy based on early response; median interval to additional treatment: 6 days
+        - 12-month overall survival 86.4%
+    / *Conclusion:*: Direct demonstration of response-based stratified treatment: early drug response reveals etiology and guides next therapeutic step. This is the clinical paradigm for a pharmacodiagnostic decision tree — drug A response patterns determine whether to escalate or switch.
+    / *Limitations:*: Single country (China); pediatric only; HLH-specific (rare disease); ruxolitinib-specific; no formal Bayesian/diagnostic framework applied to response data.
+
+=== Schaaf et al.\ 2024 — Test-Retest Reliability of Reinforcement Learning Parameters
+
+    / *Full Citation:*: Schaaf JV, Weidinger L, Molleman L, van den Bos W. Test-retest reliability of reinforcement learning parameters. _Behavior Research Methods_. 2024;56(5):4582--4599. @Schaaf2024ReinforcementLearning
+    / *DOI:*: https://doi.org/10.3758/s13428-023-02203-4
+    / *PMID:*: 37684495
+    / *Key Findings:*:
+        - n=69 (bandit task) + n=47 (reversal learning task); 5-week test-retest interval
+        - RL model parameters showed poor test-retest reliability: ICC 0.02–0.52 for bandit, 0.01–0.71 for reversal learning
+        - Mood (stress, happiness) partially explained within-participant variability
+        - Simulations confirmed procedures could detect high reliability if present — unreliability is genuine
+    / *Conclusion:*: Critical caution for computational phenotyping: if RL parameters are this unstable, drug-response-derived diagnostic parameters may also show substantial within-patient variability. Pharmacodiagnostic matrix must incorporate repeat-measurement designs and account for state-dependent confounds (mood, sleep, recent exertion, infection status).
+    / *Limitations:*: Healthy volunteers; online testing; RL-specific tasks; 5-week interval may not generalize to drug response timecourses.
+
+=== Falaguera-Vera et al.\ 2020 — Pressure Point Thresholds and ME/CFS Comorbidity as Indicators of Treatment Response in Fibromyalgia
+
+    / *Full Citation:*: Falaguera-Vera FJ, Garcia-Escudero M, Bonastre-Férez J, Zacarés M, Oltra E. Pressure point thresholds and ME/CFS comorbidity as indicators of patient's response to manual physiotherapy in fibromyalgia. _International Journal of Environmental Research and Public Health_. 2020;17(21):8044. @FalagueraVera2020PressurePoint
+    / *DOI:*: https://doi.org/10.3390/ijerph17218044
+    / *PMID:*: 33142896
+    / *Key Findings:*:
+        - Baseline pressure point thresholds (PPT) inversely correlate with treatment response to manual physiotherapy in fibromyalgia
+        - Post-stratification revealed ME/CFS comorbidity as significant effect modifier — FM+ME/CFS patients respond differently than FM-only
+        - Gene expression profiling collected for differential response analysis
+    / *Conclusion:*: Direct ME/CFS-relevant evidence: baseline biomarkers + comorbidity status predict differential treatment response. This is a two-axis constraint on a pharmacodiagnostic matrix: PPT × ME/CFS-status narrows which patients benefit from manual therapy.
+    / *Limitations:*: Modest sample size; single physiotherapy intervention; exploratory post-hoc subgroup analysis; gene expression results not yet reported.
+
+=== Hu et al.\ 2024 — Approaches to Early Parkinson's Disease Subtyping
+
+    / *Full Citation:*: Hu M, Skjærbæk C, Borghammer P. Approaches to early Parkinson's disease subtyping. _Journal of Parkinson's Disease_. 2024;14(s2):S297--S306. @Hu2024ParkinsonSubtyping
+    / *DOI:*: https://doi.org/10.3233/JPD-230419
+    / *PMID:*: 39331104
+    / *Key Findings:*:
+        - PD subtyping at clinical, genetic, imaging, and molecular levels improves prediction of medication response, clinical endpoints, and progression trajectory
+        - Subtyping reduces confounding effects of heterogeneity in drug trials
+        - Multi-dimensional classification needed: integrates genetic, pathological, imaging, multi-omics markers
+        - Theoretical a priori disease models prerequisite to understanding biological subtypes
+    / *Conclusion:*: PD subtyping is the most mature parallel to proposed ME/CFS pharmacodiagnostic subtyping. Medication response itself is used as a subtyping dimension — the same dimensions used for classification can be predicted by the classification.
+    / *Limitations:*: Review article; PD-specific (α-synuclein pathology); most subtyping methods not yet validated for clinical decision-making; no cross-disease comparison.
+
+=== Newberry et al.\ 2016 — Diagnosis of Gout (AHRQ Comparative Effectiveness Review)
+
+    / *Full Citation:*: Newberry SJ, FitzGerald J, Maglione MA, O'Hanlon CE, Han D, Booth M, Motala A, Tariq A, Dudley W, Shanman R, Shekelle PG. Diagnosis of Gout. _AHRQ Comparative Effectiveness Reviews_. 2016;Report No.: 15(16)-EHC026-EF. @Newberry2016DiagnosisGout
+    / *PMID:*: 26985540
+    / *Key Findings:*:
+        - Clinical algorithms (Diagnostic Rule: sensitivity 88%, specificity 75%; CGD: sensitivity 97%, specificity 96%) form diagnostic decision tree
+        - DECT imaging: sensitivity 85–100%, specificity 83–92%; ultrasound: sensitivity 37–100%, specificity 68–97%
+        - Recommendation: clinical algorithm → rule in/out → escalate to imaging/synovial fluid analysis for ambiguous cases
+        - Missed diagnosis resulted in unnecessary surgery, longer hospital stays, delayed treatment
+    / *Conclusion:*: Explicit diagnostic decision tree methodology: tiered escalation based on test performance characteristics. Paradigm for pharmacodiagnostic decision tree: drug A response → narrows hypothesis space → drug B to distinguish remaining hypotheses → escalate to laboratory testing only for residual ambiguity.
+    / *Limitations:*: Strength of evidence rated low due to limited validation; gout-specific; most studies in academic rheumatology settings, not primary care.
+
+=== Ravichandran et al.\ 2024 — Active Learning with Human Heuristics: An Algorithm Robust to Labeling Bias
+
+    / *Full Citation:*: Ravichandran S, Sudarsanam N, Ravindran B, Katsikopoulos KV. Active learning with human heuristics: an algorithm robust to labeling bias. _Frontiers in Artificial Intelligence_. 2024;7:1491932. @Ravichandran2024ActiveLearning
+    / *DOI:*: https://doi.org/10.3389/frai.2024.1491932
+    / *PMID:*: 39628837
+    / *Key Findings:*:
+        - 4 active learning algorithms × 2 human heuristics (fast-and-frugal tree, tallying) × 3 classifiers × 15 datasets
+        - Human labeling heuristics significantly degrade active learning performance — sometimes below random
+        - Proposed inverse information density algorithm robust to labeling bias, achieving 87% improvement
+    / *Conclusion:*: Critical caution for pharmacodiagnostic implementation: clinician heuristics and biases in labeling "responder" vs "non-responder" degrade diagnostic inference. Any pharmacodiagnostic algorithm must be robust to labeling noise — patients may misattribute improvement to the wrong drug, or clinicians may use heuristics rather than systematic criteria.
+    / *Limitations:*: Simulation study, not clinical; labeling heuristics are stylized (fast-and-frugal tree, tallying) — real clinical labeling biases may differ; no medical domain datasets specifically tested.
+
+=== Monini et al.\ 2006 — Silent Reflux: Ex Juvantibus Criteria for Diagnosis and Treatment of Laryngeal Disorders
+
+    / *Full Citation:*: Monini S, Di Stadio A, Vestri A, Barbara M. Silent reflux: ex juvantibus criteria for diagnosis and treatment of laryngeal disorders. _Acta Otorhinolaryngologica_. 2006;126(8):866--871. @Monini2006SilentReflux
+    / *DOI:*: https://doi.org/10.1080/00016480500504242
+    / *PMID:*: 16846931
+    / *Key Findings:*:
+        - n=60 patients with suspected laryngopharyngeal reflux; randomized to omeprazole or immunostimulant for 3 months
+        - Omeprazole-treated patients showed significant improvement of laryngeal features and symptoms
+        - PPI response used as "ex adjuvantibus" diagnostic criterion for confirming reflux-associated laryngitis
+    / *Conclusion:*: Clinical implementation of diagnosis ex juvantibus: therapeutic response to PPI confirms the reflux diagnosis. Demonstrates that drug-probe methodology is already used in clinical practice for conditions where objective biomarkers are lacking — directly analogous to ME/CFS.
+    / *Limitations:*: Small RCT (n=60); single center; short follow-up (3 months); laryngopharyngeal reflux only.
+
+=== Kim et al.\ 2023 — Characterizing Sjögren-Associated Fatigue: A Distinct Phenotype from ME/CFS
+
+    / *Full Citation:*: Kim L, Kedor C, Buttgereit F, Heidecke H, Schaumburg D, Scheibenbogen C. Characterizing Sjögren-associated fatigue: a distinct phenotype from ME/CFS. _Journal of Clinical Medicine_. 2023;12(15):4994. @Kim2023SjogrenFatigue
+    / *DOI:*: https://doi.org/10.3390/jcm12154994
+    / *PMID:*: 37568396
+    / *Key Findings:*:
+        - n=19 primary Sjögren's syndrome patients assessed by Canadian Consensus Criteria for ME/CFS
+        - 4/18 fulfilled CCC; PEM atypical — triggered by mental/emotional but not physical exertion
+        - Handgrip strength fully recovered 1 hour post-exertion (contrast to ME/CFS where recovery is absent/delayed)
+        - β1-, β2-, M4-receptor autoantibodies elevated and correlated with disease activity (ESSDAI) but not fatigue severity
+    / *Conclusion:*: Exercise challenge test differentiates pSS fatigue from ME/CFS PEM. Demonstrates that physiological challenge responses carry diagnostic information for distinguishing fatiguing illnesses — a core principle of the pharmacodiagnostic matrix.
+    / *Limitations:*: Small sample (n=19); single-center; cross-sectional; autoantibody measurement by CellTrend ELISA (limited independent validation).
+
+=== Wirth & Scheibenbogen 2021 — Pathophysiology of Skeletal Muscle Disturbances in ME/CFS
+
+    / *Full Citation:*: Wirth KJ, Scheibenbogen C. Pathophysiology of skeletal muscle disturbances in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Journal of Translational Medicine_. 2021;19(1):162. @Wirth2021SkeletalMuscle
+    / *DOI:*: https://doi.org/10.1186/s12967-021-02833-2
+    / *PMID:*: 33882940
+    / *Key Findings:*:
+        - β2AdR dysfunction → impaired Na+/K+-ATPase stimulation → intracellular sodium overload
+        - Sodium overload → NCX reversal (Na+/Ca2+ exchanger imports calcium instead of exporting it)
+        - Calcium overload → mitochondrial dysfunction, metabolic disturbance, endothelial dysfunction → PEM vicious circle
+        - NHE1 upregulation lowers re-induction threshold — repeated PEM at progressively lower exertion levels
+        - Merges β2AdR autoantibody hypothesis with skeletal muscle bioenergetic disturbance
+    / *Conclusion:*: Detailed testable mechanistic model: if β2AdR dysfunction is the driver, patients with this mechanism should respond to β2AdR-targeted interventions. This hypothesis generates a specific pharmacodiagnostic prediction: β2-agonist response → β2AdR pathway involvement → narrower differential → tailored treatment.
+    / *Limitations:*: Hypothesis paper — no direct trial data; animal/ischemia-reperfusion literature extrapolated to ME/CFS; single mechanism (β2AdR); NHE1 role in human ME/CFS muscle unvalidated.
+
+=== Schwartenbeck & Friston 2016 — Computational Phenotyping in Psychiatry: A Worked Example
+
+    / *Full Citation:*: Schwartenbeck P, Friston K. Computational phenotyping in psychiatry: a worked example. _eNeuro_. 2016;3(4):ENEURO.0049-16.2016. @Schwartenbeck2016ComputationalPhenotyping
+    / *DOI:*: https://doi.org/10.1523/ENEURO.0049-16.2016
+    / *PMID:*: 27517087
+    / *Key Findings:*:
+        - Step-by-step demonstration: build computational model → simulate data → invert model → estimate group effects
+        - Uses two-step maze task and active inference Markov decision process model
+        - Cross-validation to assess whether between-subject variables (e.g., diagnosis) can be recovered from model parameters
+        - Procedures applicable across computational psychiatry domains
+    / *Conclusion:*: Concrete methodological template for pharmacodiagnostic computational phenotyping: model drug response as a decision process, infer subject-level parameters, test whether parameters discriminate mechanistic subgroups.
+    / *Limitations:*: Single worked example; simulated data validation; two-step maze task (simple); no patient data; active inference framework not universally adopted.

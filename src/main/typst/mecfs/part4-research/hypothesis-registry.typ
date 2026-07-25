@@ -4074,6 +4074,21 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [@syn:genetic-neuronal-convergence], [Three independent evidence lines converge on neuronal biology in ME/CFS: (1) common variant GWAS enrichment in brain tissues and neuronal gene-sets (DecodeME, Maccallini 2026), (2) rare variant burden in neuronal/synaptic genes (Snyder 2025 WES), (3) absence of immune cell-type enrichment despite documented peripheral immune abnormalities (ImmGen null). The immune null suggests that immune dysfunction in ME/CFS may be acquired/environmental or below GWAS detection threshold — not that immune involvement does not exist, but that it is not genetically encoded in common variants. This three-pronged genetic architecture (brain-enriched common variants + rare neuronal variants + immune null) provides a genetic framework for the brain-first model. Origin: literature synthesis.],[Phase 3 / 0.65],
 )
 
+= Entries added 2026-07-25: Pharmacodiagnostic Matrix
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [@sec:pharmacodiagnostic-matrix], [Pharmacodiagnostic matrix: formal multi-drug diagnostic inference — every medication cross-indexed against every mechanistic hypothesis, using constraint-satisfaction scoring to localize bottlenecks from multi-drug response patterns. Extends the extended diagnostic algorithm (@sec:synthesis-algorithm-extended) from sequential probing to formal matrix-based inference. Methodological precedents: diagnosis ex juvantibus (Laragh 1988), N-of-1 Bayesian inference (Samuel 2019/2023), response-based stratified treatment (Zhang 2022), computational phenotyping (Strauss 2021), active learning diagnostic decision trees (Ravichandran 2024). Origin: methodology proposal.],[Phase 1 / 0.30],
+
+  [@sec:pharmacodiagnostic-matrix, parameter stability], [Test-retest reliability of drug-response-derived pharmacodiagnostic scores is unknown. Computational phenotyping literature (Schaaf 2024) demonstrates ICC 0.01–0.71 for RL model parameters. Within-patient variability (placebo, fluctuation, regression to mean) may similarly degrade pharmacodiagnostic parameter stability. Research needed before clinical deployment. Origin: methodology integration.],[Phase 2 / n/a],
+
+  [@sec:pharmacodiagnostic-matrix, labeling bias], [Matrix cell assignment (expected response direction) requires clinician judgment. Ravichandran 2024 demonstrated that clinician heuristics degrade diagnostic inference below random. Independent double-labeling + inter-rater reliability measurement needed before clinical deployment. Origin: methodology integration.],[Phase 2 / n/a],
+
+  [@sec:pharmacodiagnostic-matrix, validation cohort], [Validation: apply matrix retrospectively to patients with known mechanism (GPCR AAb confirmed, TRPM3 validated). Verify matrix places highest probability on correct mechanism. Validate against Scheibenbogen's IA cohort, Stanford/System's iCPET cohort, NIH ME/CFS study medication histories. Feasible within 6 months — no new trials required. Origin: methodology proposal.],[Phase 2 / n/a],
+)
+
 
 
 

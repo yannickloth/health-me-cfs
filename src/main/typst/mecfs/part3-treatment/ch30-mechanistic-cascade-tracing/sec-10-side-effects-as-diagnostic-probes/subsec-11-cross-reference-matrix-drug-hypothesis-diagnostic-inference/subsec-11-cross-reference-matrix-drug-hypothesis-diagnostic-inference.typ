@@ -3,7 +3,7 @@
 === Cross-Reference Matrix: Drug × Hypothesis × Diagnostic Inference
 <sec:cross-reference-matrix>
 
-*Certainty: 0.20--0.40, variable by drug-hypothesis pair.* This table consolidates the diagnostic logic scattered across all preceding cascade sections and the side-effect framework. Each cell is a shorthand diagnostic inference. For full logic, refer to the named section. Abbreviations: + = positive response, − = null response, SE = side effect pattern, Ø = no diagnostic inference.
+*Certainty: 0.20--0.40, variable by drug-hypothesis pair.* This table consolidates the diagnostic logic scattered across all preceding cascade sections and the side-effect framework. Each cell is a shorthand diagnostic inference. For full logic, refer to the named section. For the formal constraint-satisfaction matrix extending this table with algorithmic scoring and information-gain analysis, see @sec:pharmacodiagnostic-matrix. Abbreviations: + = positive response, − = null response, SE = side effect pattern, Ø = no diagnostic inference.
 
 #table(
   columns: 5,

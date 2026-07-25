@@ -41,3 +41,5 @@ For every major mechanistic hypothesis in the ME/CFS paper, this chapter traces 
 
 #include "sec-12-medication-reference-drug-indexed-pharmacodiagnostic-compendium/sec-12-medication-reference-drug-indexed-pharmacodiagnostic-compendium.typ"
 
+#include "sec-13-pharmacodiagnostic-matrix/sec-13-pharmacodiagnostic-matrix.typ"
+
