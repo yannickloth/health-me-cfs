@@ -81,13 +81,15 @@
 
   let _activePop = null;
   let _activeAnchor = null;
+  let _fadeTimer = null;
   let _hideTimer = null;
 
   function hideAll() {
+    if (_fadeTimer) { clearTimeout(_fadeTimer); _fadeTimer = null; }
     if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
     if (_activePop) {
       _activePop.classList.remove('gt-show');
-      _hideTimer = setTimeout(() => {
+      _fadeTimer = setTimeout(() => {
         _activePop?.parentNode?.removeChild(_activePop);
         _activePop = null;
       }, 200);
@@ -118,11 +120,12 @@
 
     if (ev.type === 'mouseenter') {
       if ('ontouchstart' in window) return;
+      if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
       const pop = buildTooltip(key, entry, glossary);
       showTooltip(el, pop);
     } else if (ev.type === 'mouseleave') {
       if ('ontouchstart' in window) return;
-      hideAll();
+      _hideTimer = setTimeout(hideAll, 300);
     } else if (ev.type === 'click') {
       if (!('ontouchstart' in window)) return;
       ev.preventDefault();
@@ -133,6 +136,18 @@
         const pop = buildTooltip(key, entry, glossary);
         showTooltip(el, pop);
       }
+    }
+  }
+
+  function handlePopInteraction(ev) {
+    if ('ontouchstart' in window) return;
+    const el = ev.target.closest('.gt-pop');
+    if (!el) return;
+
+    if (ev.type === 'mouseenter') {
+      if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
+    } else if (ev.type === 'mouseleave') {
+      _hideTimer = setTimeout(hideAll, 100);
     }
   }
 
@@ -217,6 +232,7 @@
     #loaded = false;
     #glossary = null;
     #handler = null;
+    #popHandler = null;
     #docClick = null;
     #scrollHandler = null;
 
@@ -237,6 +253,10 @@
           document.addEventListener('click', handler);
           this.#handler = handler;
 
+          this.#popHandler = handlePopInteraction;
+          document.addEventListener('mouseenter', this.#popHandler, true);
+          document.addEventListener('mouseleave', this.#popHandler, true);
+
           this.#docClick = (e) => {
             if (!e.target.closest('glossary-term') && !e.target.closest('.gt-pop')) hideAll();
           };
@@ -253,6 +273,11 @@
         document.removeEventListener('mouseleave', this.#handler, true);
         document.removeEventListener('click', this.#handler);
         this.#handler = null;
+      }
+      if (this.#popHandler) {
+        document.removeEventListener('mouseenter', this.#popHandler, true);
+        document.removeEventListener('mouseleave', this.#popHandler, true);
+        this.#popHandler = null;
       }
       if (this.#docClick) {
         document.removeEventListener('click', this.#docClick);
