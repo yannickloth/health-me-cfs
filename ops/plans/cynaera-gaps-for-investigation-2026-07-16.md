@@ -114,7 +114,7 @@
 | # | Idea | Priority | Status | Rationale |
 |---|------|----------|--------|-----------|
 | 1 | T-cell mito exhaustion | ★★★★★ 1st | 🔵 investigate | Specific, testable, connects two established paper mechanisms |
-| 2 | Iron redox polarity | ★★★★ 2nd | 🔵 investigate | Falsifiable, clinically actionable cross-condition differentiation |
+| 2 | Iron redox polarity | ★★★★ 2nd | 🔵 in progress | `/integrate-topic` cycle active. Plan: `ops/plans/iron-redox-polarity-integration-plan.md` |
 | 3 | Sequenced protocol staging | ★★★ 3rd | 🔵 investigate | Derivable from our own ch16 hierarchy; clinical staging gap |
 | 4 | Diagnostic Multiplier | ★★ 4th | 🔵 investigate | Depends on SSRN preprint quality; peripheral |
 | 5 | PCT framework | ★ 5th | 🔵 investigate | SSRN-dependent; useful if math is sound |

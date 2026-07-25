@@ -46,10 +46,12 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
 | coq10-infection-depletion | [subtrees/coq10-infection-depletion.md](subtrees/coq10-infection-depletion.md) | 2026-07-17 | 44 | 4 | ✅ done |
+| iron-redox-polarity | [subtrees/iron-redox-polarity.md](subtrees/iron-redox-polarity.md) | 2026-07-26 | 19 | 0 | 🔵 in progress |
 | tick-borne-symptom-domains | [subtrees/tick-borne-symptom-domains.md](subtrees/tick-borne-symptom-domains.md) | 2026-07-16 | 44 | 6 | ✅ done |
 | microglial-mitochondrial-borrelia | [subtrees/microglial-mitochondrial-borrelia.md](subtrees/microglial-mitochondrial-borrelia.md) | 2026-07-17 | 46 | 23 | ✅ done |
 | babesia-50pct-mecfs | [subtrees/babesia-50pct-mecfs.md](subtrees/babesia-50pct-mecfs.md) | 2026-07-16 | 14 | 9 | ✅ done |
 | hypothalamic-crh-neuron-depletion | [subtrees/hypothalamic-crh-neuron-depletion.md](subtrees/hypothalamic-crh-neuron-depletion.md) | 2026-07-12 | 14 | 13 | ✅ done |
+| slaghekke2026-muscle-microvascular | [subtrees/slaghekke2026-muscle-microvascular.md](subtrees/slaghekke2026-muscle-microvascular.md) | 2026-07-26 | 42 | 0 | ⬜ pending |
 | postcovid-ocular-syndrome | [subtrees/postcovid-ocular-syndrome.md](subtrees/postcovid-ocular-syndrome.md) | 2026-07-09 | 35 | 2 | ✅ done |
 | vagal-gastric-denervation-longcovid | [subtrees/vagal-gastric-denervation-longcovid.md](subtrees/vagal-gastric-denervation-longcovid.md) | 2026-07-10 | 64 | 12 | ✅ done |
 | corneal-confocal-cross-disease-sfn | [subtrees/corneal-confocal-cross-disease-sfn.md](subtrees/corneal-confocal-cross-disease-sfn.md) | 2026-07-09 | 38 | 0 | 🔵 in progress |

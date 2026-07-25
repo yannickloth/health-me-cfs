@@ -20433,7 +20433,229 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Limitations:*: Review; no primary data; overlaps associative not causal.
     *Certainty:*: 0.70/1.0
 
-=== P2X7 Receptor / ATP Signaling
+==== Hanson et al.\ 2024 --- Iron Dysregulation and Inflammatory Stress Erythropoiesis Predicts Long-Term COVID-19 Outcome @Hanson2024iron
+
+    *Full Citation:*: Hanson AL, Mulè MP, Ruffieux H, et al.\ Iron dysregulation and inflammatory stress erythropoiesis associates with long-term outcome of COVID-19. _Nature Immunology_. 2024;25(3):471--482.
+    *DOI:*: #link("https://doi.org/10.1038/s41590-024-01754-8")[10.1038/s41590-024-01754-8]
+    *PMID:*: 38429458
+    *Study Design:*: Prospective observational cohort, n=214, 12-month follow-up
+    *Key Findings:*:
+        - Multivariate signature (unresolving inflammation, anemia, low serum iron, altered iron-homeostasis gene expression, emerging stress erythropoiesis) detected beyond 2 weeks post-onset differentiated PASC vs non-PASC irrespective of acute severity
+        - Whole-blood heme-metabolism signature at months 1--3 coincided with iron-deficient reticulocytosis
+        - Single-cell analysis: monocyte iron loading + increased iron demand in proliferating lymphocytes = iron maldistribution
+        - Lymphopenia and low dendritic cell numbers persisted in PASC group
+    *Conclusion:*: Defects in iron homeostasis, dysregulated erythropoiesis and immune dysfunction contribute to inefficient oxygen transport, inflammatory disequilibrium and persisting symptomatology. May be therapeutically tractable.
+    *Limitations:*: Single country; no pre-pandemic baseline; no direct ME/CFS comparator.
+    *ME/CFS Relevance:*: Primary evidence that post-viral iron dysregulation is not just an acute-phase epiphenomenon but a persistent driver of chronic symptoms. The monocyte-vs-lymphocyte iron maldistribution model is novel and may apply to other post-infectious fatigue syndromes.
+    *Certainty:*: 0.82/1.0 (Nature Immunology; prospective; n=214; single-cell + bulk transcriptomics; Drakesmith/Hal Smith labs)
+
+==== Kavyani et al.\ 2023 --- Hepcidin Decreased in ME/CFS: First Report @Kavyani2023Hepcidin
+
+    *Full Citation:*: Kavyani B, Ahn SB, Missailidis D, et al.\ Dysregulation of the Kynurenine Pathway, Cytokine Expression Pattern, and Proteomics Profile Link to Symptomology in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Molecular Neurobiology_. 2024;61(7):3771--3787.
+    *DOI:*: #link("https://doi.org/10.1007/s12035-023-03784-z")[10.1007/s12035-023-03784-z]
+    *PMID:*: 38015302
+    *Key Findings:*:
+        - First assessment of hepcidin in ME/CFS: plasma hepcidin decreased nearly by half vs healthy controls
+        - Enhanced production of kynurenine correlated with symptom severity
+        - Lower levels of downstream KP metabolites 3-HK, 3-HAA, QUIN, PIC -- could negatively impact cellular energetics
+        - 5 of 7 most significantly modulated plasma proteins had roles in maintaining gut health
+    *Conclusion:*: Low hepcidin may reflect systemic low iron levels or ongoing hypoxia. Novel link: iron regulation (hepcidin) co-occurs with KP dysregulation and gut-derived protein changes in ME/CFS.
+    *Limitations:*: Single-center; small sample; first report of hepcidin -- needs replication; cross-sectional.
+    *ME/CFS Relevance:*: The low hepcidin finding is paradoxical relative to classic inflammatory anemia (where IL-6 drives hepcidin up). Suggests ME/CFS iron dysregulation differs from simple ACD/AI. Could represent chronic hypoxia-driven hepcidin suppression or compensatory iron mobilization attempt.
+    *Certainty:*: 0.65/1.0
+
+==== Sonnweber et al.\ 2022 --- Persistent Iron Dyshomeostasis After COVID-19 (CovILD) @Sonnweber2022CovILD
+
+    *Full Citation:*: Sonnweber T, Grubwieser P, Sahanic S, et al.\ The Impact of Iron Dyshomeostasis and Anaemia on Long-Term Pulmonary Recovery and Persisting Symptom Burden after COVID-19. _Metabolites_. 2022;12(6):546.
+    *DOI:*: #link("https://doi.org/10.3390/metabo12060546")[10.3390/metabo12060546]
+    *PMID:*: 35736479
+    *Study Design:*: Prospective multicentre observational cohort, n=108, 60/100/180/360 day follow-up
+    *Key Findings:*:
+        - At 60 days post-COVID: hyperferritinaemia 35%, iron deficiency 24%, anaemia 9%
+        - Anaemia of inflammation (AI) predominant at early follow-up; shifted to IDA + mixed IDA/AI by 360 days
+        - Prevalence of anaemia decreased significantly over time but iron dyshomeostasis remained frequent
+        - Neither iron dyshomeostasis nor anaemia related to persisting structural lung impairment
+        - Both iron dyshomeostasis and anaemia associated with impaired stress resilience at long-term follow-up
+    *Conclusion:*: Iron dyshomeostasis and anaemia are frequent after COVID-19 and contribute to long-term symptomatic outcome independent of pulmonary damage.
+    *Limitations:*: 75% had severe acute disease (may overrepresent); single country (Austria); stress resilience is subjective.
+    *ME/CFS Relevance:*: Demonstrates iron dyshomeostasis persists up to 1 year post-COVID. The shift from AI to IDA suggests dynamic iron compartment changes over time. Weiss lab (Christian Doppler Lab for Iron Metabolism) -- high iron biology expertise.
+    *Certainty:*: 0.72/1.0
+
+==== Kronstein-Wiedemann et al.\ 2024 --- Long COVID Impaired RBC Function @KronsteinWiedemann2024RBC
+
+    *Full Citation:*: Kronstein-Wiedemann R, Tausche K, Kolditz M, et al.\ Long-COVID is Associated with Impaired Red Blood Cell Function. _Hormone and Metabolic Research_. 2024;56(4):318--323.
+    *DOI:*: #link("https://doi.org/10.1055/a-2186-8108")[10.1055/a-2186-8108]
+    *PMID:*: 37890507
+    *Key Findings:*:
+        - Long-COVID patients showed impaired oxygen binding to hemoglobin with concomitant increase in carbon monoxide binding
+        - Decreased plasma iron concentration and transferrin saturation
+        - Mean corpuscular hemoglobin (MCH) elevated, suggesting compensatory mechanism
+        - Base excess and bicarbonate values significantly lower (despite normal pH)
+        - Reduced lymphocyte levels
+    *Conclusion:*: Impaired erythrocyte functionality in Long-COVID leads to diminished oxygen supply -- potential explanation for CFS, dyspnea and anemia.
+    *Limitations:*: Small sample (>20 LC); cross-sectional; no pre-COVID baseline; mechanism unclear.
+    *ME/CFS Relevance:*: Direct evidence for RBC-level oxygen transport defect in post-viral fatigue. Not described in ME/CFS literature -- potentially LC-specific or underexamined in ME/CFS.
+    *Certainty:*: 0.65/1.0
+
+==== Kedor et al.\ 2022 --- Post-COVID CFS vs Classic ME/CFS: Ferritin Distinguishes @Kedor2022PostCOVIDfatigue
+
+    *Full Citation:*: Kedor C, Freitag H, Meyer-Arndt L, et al.\ A prospective observational study of post-COVID-19 chronic fatigue syndrome following the first pandemic wave in Germany and biomarkers associated with symptom severity. _Nature Communications_. 2022;13(1):5104.
+    *DOI:*: #link("https://doi.org/10.1038/s41467-022-32507-6")[10.1038/s41467-022-32507-6]
+    *PMID:*: 36042189
+    *Study Design:*: Prospective observational, n=42 post-COVID fatigue + n=19 pre-pandemic ME/CFS comparator
+    *Key Findings:*:
+        - 19/42 post-COVID patients met CCC for ME/CFS
+        - Disease severity and symptom burden similar between post-COVID ME/CFS and classic ME/CFS
+        - Hand grip strength diminished in most patients
+        - Hand grip strength associated with ferritin in post-COVID ME/CFS subgroup (but not hemoglobin alone)
+        - Ferritin distinguished post-COVID ME/CFS vs post-COVID-without-ME/CFS
+    *Conclusion:*: Post-COVID ME/CFS is clinically similar to classic ME/CFS. Ferritin may serve as a biomarker distinguishing ME/CFS from non-ME/CFS fatigue post-COVID.
+    *Limitations:*: Modest sample; single wave (ancestral strain); no pre-pandemic ferritin baselines.
+    *ME/CFS Relevance:*: First direct comparative study from Scheibenbogen group. Ferritin as biomarker of post-infectious ME/CFS phenotype.
+    *Certainty:*: 0.75/1.0
+
+==== Gietl et al.\ 2024 --- Hepcidin and Iron Recovery After COVID-19 @Gietl2024PostCOVIDlab
+
+    *Full Citation:*: Gietl M, Burkert F, Hofer S, et al.\ Laboratory parameters related to disease severity and physical performance after reconvalescence of acute COVID-19 infection. _Scientific Reports_. 2024;14(1):10388.
+    *DOI:*: #link("https://doi.org/10.1038/s41598-024-57448-6")[10.1038/s41598-024-57448-6]
+    *PMID:*: 38710760
+    *Study Design:*: Prospective observational, n=34, 12-month follow-up
+    *Key Findings:*:
+        - Fully recovered patients (ECOG 0) had higher iron parameters (ferritin, hepcidin, transferrin) at 12 months vs those with restricted work ability
+        - Kynurenine/tryptophan ratio and Phe/Tyr ratio still exceeding 95th percentile of healthy controls in ~2/3 of cohort at 12 months
+        - Lower tryptophan associated with B vitamin availability
+        - Women more frequently affected by long-term symptoms
+    *Conclusion:*: Persistent inflammation-mediated biochemical changes (KP activation, iron dysregulation) are related to long COVID symptoms. Adequate hepcidin recovery may be protective.
+    *Limitations:*: Small n (34); single center; early 2020 cohort (ancestral strain).
+    *ME/CFS Relevance:*: Higher hepcidin in recovered patients suggests hepcidin adequacy may be protective against chronic symptoms. Contrast with Kavyani2023 where ME/CFS patients had low hepcidin.
+    *Certainty:*: 0.68/1.0
+
+==== Yamamoto et al.\ 2023 --- Serum Ferritin Predicts ME/CFS in Long COVID @Yamamoto2023Ferritin
+
+    *Full Citation:*: Yamamoto Y, Otsuka Y, Tokumasu K, et al.\ Utility of Serum Ferritin for Predicting Myalgic Encephalomyelitis/Chronic Fatigue Syndrome in Patients with Long COVID. _Journal of Clinical Medicine_. 2023;12(14):4737.
+    *DOI:*: #link("https://doi.org/10.3390/jcm12144737")[10.3390/jcm12144737]
+    *PMID:*: 37510852
+    *Study Design:*: Retrospective observational, n=234 long COVID outpatients (Okayama, Japan)
+    *Key Findings:*:
+        - 21.4% met ME/CFS criteria; ME/CFS group had highest FAS, EuroQol, and SDS scores
+        - ME/CFS group: ferritin 193.0 µg/L (IQR 58.8--353.8) vs non-ME/CFS 98.2 µg/L (40.4--251.5), p $<$ 0.05
+        - Ferritin correlated with FAS (r=0.328) and SDS scores
+        - Ferritin elevation prominent in female patients
+        - ME/CFS group had higher TSH but lower growth hormone; IGF-I inversely correlated with ferritin (r=-0.328)
+    *Conclusion:*: Serum ferritin is a possible predictor of post-COVID ME/CFS, especially in female patients. May reflect ongoing inflammation rather than iron overload per se.
+    *Limitations:*: Retrospective; single center; Japanese cohort; no pre-COVID baseline iron panels.
+    *ME/CFS Relevance:*: First study proposing ferritin as clinical predictor for post-COVID ME/CFS development. Supports ferritin as cross-condition marker for post-infectious ME/CFS phenotype.
+    *Certainty:*: 0.60/1.0
+
+==== Morita et al.\ 2024 --- ME/CFS Prevalence Varies by SARS-CoV-2 Variant @Morita2024ME-CFSphase
+
+    *Full Citation:*: Morita S, Tokumasu K, Otsuka Y, et al.\ Phase-dependent trends in the prevalence of myalgic encephalomyelitis / chronic fatigue syndrome (ME/CFS) related to long COVID. _PLoS One_. 2024;19(12):e0315385.
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0315385")[10.1371/journal.pone.0315385]
+    *PMID:*: 39652555
+    *Study Design:*: Retrospective, n=739 long COVID patients, Feb 2021--Jul 2023
+    *Key Findings:*:
+        - ME/CFS prevalence 8.4% overall (62/739); decreased from 23.9% (Preceding) → 13.7% (Delta) → 3.3% (Omicron)
+        - Serum ferritin significantly higher in female ME/CFS patients infected in Preceding period
+        - Brain fog increased across phases: 22.2% → 47.9% → 81.3%
+        - Factors related to ME/CFS: severe acute illness, smoking, alcohol, fewer vaccinations
+    *Conclusion:*: ME/CFS triggered by long COVID shows variant-dependent trends -- decreasing prevalence but increasing brain fog proportion.
+    *Limitations:*: Retrospective; single Japanese center; dominated by ancestral and Delta waves (before Omicron); ferritin only measured in subset.
+    *ME/CFS Relevance:*: Ferritin elevation phase-dependent. Suggests ferritin may be a better marker for post-infectious ME/CFS from ancestral strains than later variants. Brain fog divergence from fatigue deserves attention.
+    *Certainty:*: 0.55/1.0
+
+==== Ruscitti et al.\ 2023 --- Hyperferritinemic Syndrome Hypothesis for Post-COVID ME/CFS @Ruscitti2023Ferritin
+
+    *Full Citation:*: Ruscitti P, Ursini F, Shoenfeld Y. Ferritin and myalgic encephalomyelitis/chronic fatigue syndrome in post COVID-19, an unexpected facet of the hyperferritinemic syndrome? _Journal of Psychosomatic Research_. 2023;169:111231.
+    *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2023.111231")[10.1016/j.jpsychores.2023.111231]
+    *PMID:*: 36959046
+    *Key Findings:*:
+        - Hypothesis: post-COVID ME/CFS may represent facet of hyperferritinemic syndrome
+        - Ferritin as both inflammatory marker and potential pathogenic mediator
+        - Macrophage iron sequestration as mechanism linking inflammation to chronic fatigue
+    *Conclusion:*: Letter/commentary format; hypothesis-generating. Ferritin elevation may not be innocent bystander but active contributor.
+    *Limitations:*: No primary data; letter format; hypothesis untested.
+    *ME/CFS Relevance:*: The concept that ferritin is not just a biomarker but part of the pathogenic mechanism (through macrophage iron sequestration and ferroptosis) is important for therapeutic decision-making.
+    *Certainty:*: 0.35/1.0
+
+==== Sousa et al.\ 2023 --- Ferroptosis as Mechanism for Neuropsychiatric Post-COVID Syndrome @Sousa2023Ferroptosis
+
+    *Full Citation:*: Sousa RAL, Yehia A, Abulseoud OA. Attenuation of ferroptosis as a potential therapeutic target for neuropsychiatric manifestations of post-COVID syndrome. _Frontiers in Neuroscience_. 2023;17:1237153.
+    *DOI:*: #link("https://doi.org/10.3389/fnins.2023.1237153")[10.3389/fnins.2023.1237153]
+    *PMID:*: 37554293
+    *Key Findings:*:
+        - COVID-19 cytokine storm enhances pro-inflammatory cytokines and immune-cell hyper-activation → iron dysregulation
+        - Severe COVID-19: iron overload as main feature of pathogenesis
+        - High ferritin = well-known inflammatory and iron overload biomarker
+        - Lipid peroxidation biomarkers elevated + GPX4 inactivation in COVID-19 patients
+        - Ferroptosis (iron-dependent lipid peroxidation + GPX4 inactivation) proposed as mechanism behind post-COVID neuropsychiatric deficits
+    *Conclusion:*: Ferroptosis is a testable mechanism for post-COVID cognitive and psychiatric symptoms.
+    *Limitations:*: Review article; no primary data; mechanistic extrapolation from acute to post-acute.
+    *ME/CFS Relevance:*: Ferroptosis as shared mechanism between LC and ME/CFS (Mantle2025FerroptosisOverlap). Iron dysregulation creates permissive environment for ferroptotic cell death in both conditions.
+    *Certainty:*: 0.55/1.0
+
+==== Dufrusine et al.\ 2022 --- Iron Dyshomeostasis Links to 5-Lipoxygenase in COVID-19 @Dufrusine2022Iron5LOX
+
+    *Full Citation:*: Dufrusine B, Valentinuzzi S, Bibbò S, et al.\ Iron Dyshomeostasis in COVID-19: Biomarkers Reveal a Functional Link to 5-Lipoxygenase Activation. _International Journal of Molecular Sciences_. 2022;24(1):15.
+    *DOI:*: #link("https://doi.org/10.3390/ijms24010015")[10.3390/ijms24010015]
+    *PMID:*: 36613462
+    *Key Findings:*:
+        - Proteomic analysis of lymphocytes from COVID-19 and long-COVID patients
+        - Significant changes in iron metabolism proteins: ceruloplasmin (Cp), transferrin (Tf), hemopexin (HPX), lipocalin 2 (LCN2), superoxide dismutase 1 (SOD1)
+        - 5-lipoxygenase (5-LOX) activated in COVID-19 and long-COVID via iron-dependent post-translational mechanism
+        - LTB4 and LCN2 proposed as markers of COVID-19 and long-COVID
+    *Conclusion:*: Iron-dependent 5-LOX activation persists in long-COVID and may drive ongoing inflammation. Novel therapeutic targets: iron chelation + 5-LOX inhibition.
+    *Limitations:*: Proteomics discovery study; small sample; no pre-COVID baseline; mechanism inferred.
+    *ME/CFS Relevance:*: First evidence of iron-dependent leukotriene pathway activation in post-viral fatigue. 5-LOX is druggable (zileuton). Potential crossover target for ME/CFS with inflammatory iron phenotype.
+    *Certainty:*: 0.60/1.0
+
+==== Mulet et al.\ 2026 --- Mitochondrial Dysfunction and Telomere Shortening: ACO1 Links Iron @Mulet2026mitochondrial
+
+    *Full Citation:*: Mulet A, Signes-Costa J, Fernández-Fabrellas E, et al.\ Mitochondrial Dysfunction and Telomeric Shortening as Long-term Complications After COVID-19. _Archivos de Bronconeumología_. 2026.
+    *DOI:*: #link("https://doi.org/10.1016/j.arbres.2026.03.018")[10.1016/j.arbres.2026.03.018]
+    *PMID:*: 42342534
+    *Study Design:*: Prospective, n=132, COVID-FIBROTIC cohort, 12-month follow-up
+    *Key Findings:*:
+        - Leukocyte telomere length significantly shorter in patients vs controls (AUC 0.84, p $<$ 0.0001), independent of age or acute severity
+        - At 12 months: 29% showed fibrotic lung changes on HRCT
+        - ACO1 (cytosolic aconitase / iron regulatory protein 1) inversely correlated with telomere shortening in patients with fibrosis
+        - Mitochondrial proteins ETFβ and PKM2 differentiated patients with fibrotic sequelae
+    *Conclusion:*: SARS-CoV-2 induces sustained telomere shortening and mitochondrial dysfunction associated with fibrotic sequelae. ACO1 links iron metabolism, oxidative stress, and tissue damage.
+    *Limitations:*: Single country; hospitalized cohort only; ACO1 measured at protein level not enzyme activity.
+    *ME/CFS Relevance:*: ACO1/IRP1 is a critical node: it senses iron levels AND regulates mitochondrial function. Its association with post-COVID tissue damage suggests iron-redox signalling is part of long-term post-viral pathology.
+    *Certainty:*: 0.65/1.0
+
+==== Hadidchi et al.\ 2025 --- CFS/ME Risk After COVID-19: Acute Ferritin Not Predictive @Hadidchi2025CFSrisk
+
+    *Full Citation:*: Hadidchi R, Patel B, Madan J, et al.\ Elevated risk of new-onset chronic fatigue syndrome/myalgic encephalomyelitis up to four years after SARS-CoV-2 infection. _Journal of Translational Medicine_. 2025;23(1):815.
+    *DOI:*: #link("https://doi.org/10.1186/s12967-025-06625-w")[10.1186/s12967-025-06625-w]
+    *PMID:*: 40702518
+    *Study Design:*: Retrospective cohort, n=147,377, Montefiore Health System, 4-year follow-up
+    *Key Findings:*:
+        - HR 1.46 (hospitalized) and 1.56 (non-hospitalized) for new-onset CFS/ME vs COVID- controls
+        - Females, liver disease, autoimmune disorders, anxiety disorders at higher risk
+        - Re-infection NOT associated with increased CFS/ME risk
+        - **None of the acute blood biomarkers (ferritin, D-dimer, LDH, CRP, etc.) associated with future CFS/ME risk**
+        - COVID-19 vaccination in initial rollout associated with increased CFS/ME risk
+    *Conclusion:*: SARS-CoV-2 infection increases CFS/ME risk independent of hospitalization. Acute-phase biomarkers including ferritin do NOT predict who will develop CFS/ME.
+    *Limitations:*: Retrospective; EHR-based diagnosis (underascertainment); single US health system; vaccination finding confounded by era.
+    *ME/CFS Relevance:*: Critical null result: acute ferritin is NOT predictive. This distinguishes acute-phase ferritin (nonspecific) from post-acute ferritin (potentially predictive per Yamamoto2023/Kedor2022). Timing of ferritin measurement matters critically.
+    *Certainty:*: 0.70/1.0
+
+==== Baklund et al.\ 2021 --- Ferritin Elevated in ME/CFS vs Healthy Donors @Baklund2021RoutineBlood
+
+    *Full Citation:*: Baklund IH, Dammen T, Moum TÅ, et al.\ Evaluating Routine Blood Tests According to Clinical Symptoms and Diagnostic Criteria in Individuals with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Journal of Clinical Medicine_. 2021;10(14):3105.
+    *DOI:*: #link("https://doi.org/10.3390/jcm10143105")[10.3390/jcm10143105]
+    *PMID:*: 34300271
+    *Study Design:*: Cross-sectional, n=149 ME/CFS vs 264 healthy blood-donor controls
+    *Key Findings:*:
+        - ME/CFS patients: higher ferritin (mean diff +28.13 µg/L, 95% CI -1.41 to 57.67)
+        - Higher sedimentation rate, leukocytes, lymphocytes, neutrophils, monocytes
+        - Lower creatine kinase and creatinine
+        - Vitamin B12 higher in patients (mean diff +83.43)
+    *Conclusion:*: Routine labs show subtle but statistically significant differences between ME/CFS and healthy controls, including elevated ferritin and leukocyte counts. Low CK may suggest muscle damage/metabolic abnormalities.
+    *Limitations:*: Blood-donor controls (healthier than general population -- may inflate effect sizes); Canadian criteria; cross-sectional; Norway only.
+    *ME/CFS Relevance:*: Population-level evidence for ferritin elevation as consistent feature of ME/CFS. Note: elevated ferritin + low CK is a distinctive pattern not seen in classic inflammatory states where CK is usually normal.
+    *Certainty:*: 0.55/1.0
 
 ==== Li et al.\ 2021 — P2RX7 Regulates Acute Sickness Response
 
@@ -28057,3 +28279,149 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Procedures applicable across computational psychiatry domains
     / *Conclusion:*: Concrete methodological template for pharmacodiagnostic computational phenotyping: model drug response as a decision process, infer subject-level parameters, test whether parameters discriminate mechanistic subgroups.
     / *Limitations:*: Single worked example; simulated data validation; two-step maze task (simple); no patient data; active inference framework not universally adopted.
+
+=== Charlton et al.\ 2025 — Skeletal Muscle Properties in Long COVID and ME/CFS Differ from Those Induced by Bed Rest
+
+    / *Full Citation:*: Charlton BT, Slaghekke A, Appelman B, Eggelbusch M, Huijts JY, Noort W, Hendrickse PW, Bloemers FW, van Amstel P, Posthuma JJ, Goulding RP, van Vugt M, Wüst RCI. Skeletal muscle properties in long COVID and ME/CFS differ from those induced by bed rest. _medRxiv_. 2025. @Charlton2025muscleMicrovasc
+    / *DOI:*: https://doi.org/10.1101/2025.06.23.25330153
+    / *Study Design:*: Cross-sectional with comparator cohort; maximal cycling test + VO₂max + NIRS + vastus lateralis biopsy (IHC + EM)
+    / *Sample Size:*: Long COVID n=24, ME/CFS n=26 (pre-2020 dx), healthy controls n=30, strict 60-day bed-rest cohort n=10
+    / *Key Findings:*:
+        - Lower VO₂max (p $<$ 0.0001) and peak power output (p $<$ 0.0001) in both Long COVID and ME/CFS vs healthy controls
+        - Lower tissue O₂ uptake (p = 0.001) and vasodilatory capacity (p = 0.011) in both patient groups
+        - Lower capillarization only in ME/CFS (p $<$ 0.0005)
+        - Both groups: decreased capillary contact lengths (p $<$ 0.0001), decreased capillary tortuosity (p $<$ 0.0001)
+        - Substantial capillary basement membrane thickening (p $<$ 0.0001) — max thickness in patients far exceeds controls
+        - EM confirmed: basement membrane thickening, microvacuolization, endothelial hypertrophy, degeneration signs
+        - Bed rest: muscle atrophy + reduced OXPHOS. Patients: no atrophy, but less capillaries, more glycolytic fibers — neither explained VO₂max
+    / *Conclusion:*: Physical inactivity/deconditioning alone does not explain lower exercise capacity in Long COVID and ME/CFS; microvascular pathology — especially capillary basement membrane thickening and reduced tortuosity — is a primary contributor to impaired O₂ extraction. Full paper corresponding to Slaghekke et al.\ 2026 AMS abstract.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (preprint only, not yet peer-reviewed; rigorous methodology with gold-standard IHC+EM and bed-rest comparator)
+        - *Sample:* Medium (n=80 total across all groups)
+        - *Replication:* Partially replicated by Aschman 2023 (capillary BM thickening in PCS), Agergaard 2023 (capillary injury in Long COVID), Joseph 2022 (O₂ extraction impairment in ME/CFS). Core finding (capillary BM thickening) by independent Berlin group.
+        - *Cohort:* Amsterdam UMC (VU/VUmc); recruitment years not fully specified (ME/CFS dx pre-2020); PIs: van Vugt, Wüst, Goulding, Charlton
+        - *Score:* 0.55
+    / *Limitations:*: Preprint (not peer-reviewed); modest sample sizes per group; ME/CFS group recruited pre-2020 (no pandemic confound); bed rest comparator is healthy young people (potentially not matched for aging-related muscle changes); no assessment of cumulative PEM versus acute study effects.
+
+=== Aschman et al.\ 2023 — Post-COVID Exercise Intolerance is Associated with Capillary Alterations and Immune Dysregulations in Skeletal Muscles
+
+    / *Full Citation:*: Aschman T, Wyler E, Baum O, Hentschel A, Rust R, Legler F, Preusse C, et al.\ Post-COVID exercise intolerance is associated with capillary alterations and immune dysregulations in skeletal muscles. _Acta Neuropathologica Communications_. 2023;11(1):193. @Aschman2023postcovidCapillary
+    / *DOI:*: https://doi.org/10.1186/s40478-023-01662-2
+    / *PMID:*: 38066589
+    / *PMCID:*: PMC10704838
+    / *Study Design:*: Cross-sectional; vastus lateralis muscle biopsy + serum proteomics + clinical phenotyping
+    / *Sample Size:*: n=11 post-COVID syndrome (PCS) patients vs 2 independent historical control cohorts
+    / *Key Findings:*:
+        - Fewer capillaries and thicker capillary basement membranes in PCS patients vs controls
+        - Increased CD169+ macrophages in muscle tissue
+        - SARS-CoV-2 RNA not detected in muscle tissue — argues against viral persistence in muscle
+        - Complement system related proteins elevated in serum, matching transcriptomic signature in muscle
+        - Patients had handgrip weakness, prolonged post-exertional malaise, elevated fatigue scores
+    / *Conclusion:*: Immune-mediated structural changes of the skeletal muscle microvasculature explain exercise-dependent fatigue and muscle pain in post-COVID syndrome. Capillary basement membrane thickening is a key finding — not attributable to viral persistence in muscle. Findings reminiscent of ME/CFS, suggesting shared final common pathway.
+    / *Certainty Assessment:*:
+        - *Quality:* High (peer-reviewed in Acta Neuropathologica Communications; IHC + EM + proteomics + transcriptomics)
+        - *Sample:* Low (n=11 PCS, small for mechanistic study)
+        - *Replication:* Partially replicated by Charlton 2025 (capillary BM thickening, more comprehensive n=50 patient biopsies); Agergaard 2023 (capillary injury in Long COVID n=18)
+        - *Cohort:* Charité — Universitätsmedizin Berlin, Germany; recruitment ~2021--2022; PIs: Stenzel, Dengler, Heppner, Scheibenbogen
+        - *Score:* 0.65
+    / *Limitations:*: Small n (11 PCS); no ME/CFS biopsy arm — comparison to ME/CFS is by literature; historical controls (not contemporaneous); no longitudinal follow-up; CD169+ macrophage finding not replicated yet.
+
+=== Joseph et al.\ 2022 — Neurovascular Dysregulation and Acute Exercise Intolerance in ME/CFS: A Randomized Trial of Pyridostigmine
+
+    / *Full Citation:*: Joseph P, Pari R, Miller S, Warren A, Stovall MC, Squires J, Chang C-J, Xiao W, Waxman AB, Systrom DM. Neurovascular dysregulation and acute exercise intolerance in myalgic encephalomyelitis/chronic fatigue syndrome: a randomized, placebo-controlled trial of pyridostigmine. _Chest_. 2022;162(5):1109--1119. @Joseph2022neurovascularDysreg
+    / *DOI:*: https://doi.org/10.1016/j.chest.2022.04.146
+    / *Study Design:*: Randomized, placebo-controlled, double-blind crossover trial with invasive CPET
+    / *Sample Size:*: n=45 ME/CFS (Fukuda criteria) + n=18 healthy controls
+    / *Key Findings:*:
+        - ME/CFS patients had significantly reduced peak systemic O₂ extraction (0.69 vs 0.77, p $<$ 0.001)
+        - Cardiac output and pulmonary gas exchange were normal — problem is peripheral extraction, not delivery
+        - Reduced O₂ delivery as proportion of O₂ demand
+        - Pyridostigmine (acetylcholinesterase inhibitor, 60mg) increased peak VO₂ by +0.9 mL/kg/min (p = 0.002)
+    / *Conclusion:*: Impaired peripheral oxygen extraction, not cardiac deconditioning, is the primary limiter of exercise capacity in ME/CFS. Pyridostigmine response suggests neurovascular dysregulation at the capillary level.
+    / *Certainty Assessment:*:
+        - *Quality:* High (randomized crossover; Chest journal; invasive CPET gold-standard hemodynamics)
+        - *Sample:* Medium (n=45 ME/CFS, well-powered for primary endpoint)
+        - *Replication:* Partial — consistent with Franklin 2022 meta-analysis of 2-day CPET; consistent with Squires 2026 invasive CPET + biopsy
+        - *Cohort:* Brigham and Women's Hospital, Boston, MA; recruitment ~2018--2021; PI: Systrom
+        - *Score:* 0.65
+    / *Limitations:*: Fukuda criteria (not CCC/IOM — may include patients without PEM); single center; pyridostigmine effect size modest (+0.9 mL/kg/min); study assesses acute exercise response, not PEM.
+
+=== Agergaard et al.\ 2023 — Myopathy as a Cause of Long COVID Fatigue
+
+    / *Full Citation:*: Agergaard J, Khan BYA, Engell-Sørensen T, Schiøttz-Christensen B, Østergaard L, Hejbøl EK, Schrøder HD, Tankisi H. Myopathy as a cause of Long COVID fatigue: Evidence from quantitative and single fiber EMG and muscle histopathology. _Clinical Neurophysiology_. 2023;153:149--158. @Agergaard2023LongCOVIDmyopathy
+    / *DOI:*: https://doi.org/10.1016/j.clinph.2023.06.009
+    / *PMID:*: 37482344
+    / *Study Design:*: Cross-sectional muscle biopsy + qEMG/sfEMG; biceps brachii and anterior tibialis biopsies
+    / *Sample Size:*: n=18 Long COVID patients with persistent fatigue
+    / *Key Findings:*:
+        - Reduced capillary-to-fiber ratio (p=0.009) on muscle biopsy
+        - Increased capillary basement membrane thickness
+        - Mitochondrial changes with myopathic EMG findings in 73\%\ of patients
+        - Terminal nerve and motor endplate damage with acetylcholine receptor loss
+        - Capillary injury documented as separate from mitochondrial pathology
+    / *Conclusion:*: Long COVID fatigue has a myopathic basis with evidence of capillary-level injury. Lower capillarization found in Long COVID muscle — partially contradicted by Charlton 2025 who found lower capillarization only in ME/CFS (not Long COVID), though both studies agree on capillary BM thickening.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium-High (peer-reviewed; comprehensive EMG + histopathology)
+        - *Sample:* Low-Medium (n=18 Long COVID)
+        - *Replication:* Partially replicated — capillary BM thickening confirmed by Aschman 2023 and Charlton 2025; capillarization finding partially contradictory to Charlton 2025
+        - *Cohort:* Aarhus University Hospital, Denmark; recruitment ~2021--2022; PIs: Agergaard, Tankisi
+        - *Score:* 0.60
+    / *Limitations:*: Small n (18); no healthy control biopsies — comparisons to literature standards; biceps and anterior tibialis rather than vastus lateralis (different fiber types); qEMG/sfEMG normative data from different labs.
+
+=== Franklin & Graham 2022 — Repeated Maximal Exercise Tests of Peak Oxygen Consumption in ME/CFS: Systematic Review and Meta-Analysis
+
+    / *Full Citation:*: Franklin JD, Graham M. Repeated maximal exercise tests of peak oxygen consumption in people with myalgic encephalomyelitis/chronic fatigue syndrome: a systematic review and meta-analysis. _Fatigue: Biomedicine, Health \& Behavior_. 2022;10(4):142--160. @Franklin2022VO2meta
+    / *DOI:*: https://doi.org/10.1080/21641846.2022.2138339
+    / *Study Design:*: Systematic review and meta-analysis; 7 databases; 5 included studies
+    / *Sample Size:*: Pooled n across 5 2-day CPET studies (exact total varies by analysis)
+    / *Key Findings:*:
+        - Pooled mean decrease in peak work rate at test-retest: −8.55 W greater in ME/CFS vs controls (95% CI −15.38 to −1.72)
+        - Work rate at anaerobic threshold decreased by −21 W (95% CI −38 to −4)
+        - 78% probability a future study would show clinically significant AT work rate decline in ME/CFS
+        - VO₂peak at retest did not show statistically significant between-group difference (moderate heterogeneity)
+    / *Conclusion:*: ME/CFS patients demonstrate a clinically significant and reproducible test-retest reduction in work rate at anaerobic threshold when compared to healthy controls. Consistent with capillary-level O₂ delivery impairment as an objective and reproducible finding.
+    / *Certainty Assessment:*:
+        - *Quality:* High (systematic review; random-effects meta-analysis; pre-registered; independent of any single research group)
+        - *Sample:* Medium-High (pooled across multiple independent studies)
+        - *Replication:* This is the replication — it synthesizes 5 independent CPET studies showing consistent findings
+        - *Score:* 0.70
+    / *Limitations:*: Only 5 studies met inclusion criteria (limited CPET literature); moderate heterogeneity in VO₂peak findings; studies used primarily Fukuda criteria (not CCC/IOM); CPET may trigger PEM in severe patients, creating selection bias toward milder cases.
+
+=== Squires et al.\ 2026 — Impaired Systemic Oxygen Extraction and Skeletal Muscle Mitochondrial Dysfunction in ME/CFS and Long COVID
+
+    / *Full Citation:*: Squires J, Gustafson S, Li P, Pappano S, LeWine K, Xiao W, Waxman AB, Naviaux RK. Impaired Systemic Oxygen Extraction and Skeletal Muscle Mitochondrial Dysfunction in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Long COVID. _American Journal of Respiratory and Critical Care Medicine_. 2026. (A64-09 ATS 2026 Abstract). @Squires2026OxygenExtraction
+    / *Study Design:*: Cross-sectional; invasive CPET + frozen vastus lateralis biopsy for mitochondrial analysis
+    / *Sample Size:*: n=35 ME/CFS + n=10 LC with poor systemic O₂ extraction (SOE) on iCPET
+    / *Key Findings:*:
+        - Median CS activity = 66\%\ of reference, mtDNA = 55.5\%\ of reference in patient groups
+        - Lower Complex II+III activity correlated with worse SOE (ρ = −0.33, p = 0.028)
+        - CS activity and mtDNA did NOT correlate with SOE (ρ = −0.10 and 0.35, both p>0.1)
+        - Compared with genetically confirmed OXPHOS disease, ME/CFS + LC had significantly lower CS activity (Cliff's δ ≈ 0.95, p < 0.001)
+        - Peak VO₂ = 72.1±10.7\% predicted despite cardiac output at 95.2±13.3\% predicted
+    / *Conclusion:*: Impaired systemic O₂ extraction in ME/CFS and Long COVID is associated with functional (Complex II+III activity), not quantitative (CS/mtDNA), mitochondrial defects. Functional rather than biomass mitochondrial deficits underlie impaired oxygen extraction phenotype.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (conference abstract only; peer-reviewed abstract forum but not full publication yet)
+        - *Sample:* Medium (n=45 total patient biopsies)
+        - *Replication:* Not yet replicated; consistent with Joseph 2022 (O₂ extraction impairment) and Charlton 2025 (capillary-level O₂ delivery problem)
+        - *Cohort:* Brigham and Women's Hospital / Harvard; Baylor Genetics Laboratory; PI: Naviaux (OMF-funded). Same cohort as Joseph 2022 likely — cohort overlap flagged.
+        - *Score:* 0.40
+    / *Limitations:*: Abstract only — limited methodological detail; likely same patient cohort as Joseph 2022 (Systrom group); frozen biopsies only (no EM for ultrastructure); Complex I correlation did not reach significance (ρ = −0.28, p = 0.060), limiting the mechanistic conclusion to Complex II+III.
+
+=== Wirth 2026 — Laxity Comes with Consequences: Connective Tissue Disorders and ME/CFS
+
+    / *Full Citation:*: Wirth KJ. Laxity Comes with Consequences: Connective Tissue Disorders and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Preprints_. 2026. @Wirth2026LaxityConsequences
+    / *DOI:*: https://doi.org/10.20944/preprints202606.1858.v1
+    / *Study Design:*: Hypothesis/review paper
+    / *Sample Size:*: n/a (theoretical)
+    / *Key Findings:*:
+        - Examines mechanisms driving capillary basement membrane thickening in ME/CFS via connective tissue biology
+        - Proposes hyaluronan overproduction in connective tissue disorders contributes to capillary BM thickening via CD44/TSG-6 pathway
+        - Links impaired pericyte recruitment to microvascular pathology
+        - Integrates Aschman 2023 and Charlton 2025 findings into a connective-tissue framework
+    / *Conclusion:*: Capillary basement membrane thickening in ME/CFS may be mechanistically linked to connective tissue laxity/hypermobility via excess hyaluronan production and impaired pericyte function. Provides a testable biochemical pathway for the microvascular findings observed by Aschman and Charlton.
+    / *Certainty Assessment:*:
+        - *Quality:* Low (preprint; hypothesis paper; single author)
+        - *Sample:* n/a
+        - *Replication:* None — novel hypothesis
+        - *Score:* 0.35
+    / *Limitations:*: Preprint (not peer-reviewed); single author; all mechanisms extrapolated from general physiology literature; no direct ME/CFS biopsy evidence for TSG-6 or HA pathway involvement.

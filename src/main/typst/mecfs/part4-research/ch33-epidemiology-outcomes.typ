@@ -609,7 +609,7 @@ The elevated rates of menorrhagia (74% vs.\ 43% controls) and hysterectomy (55% 
 - ME/CFS women will show elevated hepcidin/ferritin ratios compared to healthy menstruating controls
 - IV iron infusion will improve fatigue scores in ME/CFS women with elevated hepcidin more than in those with normal hepcidin (effect size difference > 0.4 SD)
 
-*Limitations.* No studies have measured hepcidin specifically in ME/CFS. The mechanism is inferential from separate literatures.
+*Limitations.* Kavyani et al. @Kavyani2023Hepcidin subsequently published the first hepcidin measurement in ME/CFS — hepcidin was decreased by nearly 50%, not elevated as the classic inflammatory anemia model and our original prediction (prediction 1 above) assumed. This partially falsifies the IL-6→hepcidin→ferroportin→functional iron deficiency mechanism as originally stated (if hepcidin is low, ferroportin should be active, and serum iron should be available — yet serum iron remains low @Swiatczak2022). The paradox (low hepcidin + low serum iron) requires an alternative mechanism, which is discussed in the Iron Redox Polarity cross-disease model (@hyp:iron-redox-polarity-diagnostic-bifurcation). The reproductive-iron connection remains valid — iron biology is dysregulated in ME/CFS regardless of mechanism — but the specific hepcidin pathway prediction was not supported.
 ] <spec:iron-hepcidin-mecfs>
 
 #speculation(title: [Early Menopause as a Marker of Accelerated Ovarian Aging in ME/CFS])[

@@ -4130,6 +4130,57 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [@sec:pharmacodiagnostic-matrix, validation cohort], [Validation: apply matrix retrospectively to patients with known mechanism (GPCR AAb confirmed, TRPM3 validated). Verify matrix places highest probability on correct mechanism. Validate against Scheibenbogen's IA cohort, Stanford/System's iCPET cohort, NIH ME/CFS study medication histories. Feasible within 6 months — no new trials required. Origin: methodology proposal.],[Phase 2 / n/a],
 )
 
+= Entries added 2026-07-26: Iron Redox Polarity — ME/CFS vs Long COVID Divergence
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [@hyp:iron-redox-polarity-diagnostic-bifurcation], [ME/CFS and Long COVID show divergent iron handling: ME/CFS = functional iron deficiency (high ferritin, low TSAT, low hepcidin) vs LC = multi-compartment iron dysregulation (monocyte loading, lymphocyte starvation, stress erythropoiesis). The hepcidin paradox: Kavyani2023 found hepcidin decreased ~50% in ME/CFS — opposite to the IL-6→hepcidin→ferroportin model prediction. Therapeutic bifurcation: iron supplementation may harm ME/CFS functional iron deficiency patients; LC patients need phenotyping (24% have genuine iron deficiency). Evidence: Hanson2024 Nat Immunol (n=214, PASC prediction 72%), Kavor2022 Nat Commun (42 LC+19 ME/CFS comparator), Kavyani2023 Mol Neurobiol, Swiatczak2022 Diagnostics, Baklund2021 J Clin Med, Sonnweber2022, Gietl2024. Falsifiable: head-to-head iron panel comparison must show ferritin/TSAT/hepcidin polarity. Origin: cynaera-gaps investigation + literature synthesis.],[Phase 3 / 0.55],
+
+  [@hyp:erythrocyte-dysfunction-lc-specific], [Long COVID shows a distinct erythrocyte-level O2 transport defect (impaired O2-Hb binding, increased CO-Hb, decreased TSAT, elevated MCH) @KronsteinWiedemann2024RBC — not yet described in ME/CFS. If LC-specific, this provides a second axis of divergence: ME/CFS fatigue is mitochondrial (ATP production failure), LC fatigue additionally involves impaired O2 delivery at RBC level. Falsified if ME/CFS patients also show RBC dysfunction. Testable: co-oximetry + O2 dissociation curves in matched cohorts. Origin: literature integration.],[Phase 3 / 0.45],
+
+  [@spec:iron-ferroptosis-divergent-triggers], [Ferroptosis (iron-dependent lipid peroxidation) is a candidate shared mechanism in both conditions with divergent triggers: inflammatory iron overload + GPX4 depletion in LC @Sousa2023Ferroptosis vs chronic oxidative stress + impaired antioxidant capacity in ME/CFS in context of functional iron deficiency. The functional-iron-deficiency→ferroptosis link is mechanistically paradoxical (trapped iron should reduce ferroptosis risk) and requires NTBI redistribution hypothesis for coherence. Falsified if lipid peroxidation markers are not elevated in ME/CFS. Indirect evidence only; no tissue-level ferroptosis measurement in either condition. Origin: literature synthesis + brainstorm.],[Phase 3 / 0.35],
+
+  [@oq:iron-chelation-vs-supplementation], [When to iron-chelate vs iron-supplement in post-viral fatigue — entirely mechanistic model with zero interventional data. Questions: Does oral iron help/harm ME/CFS stratified by ferritin/TSAT? Does iron chelation improve ME/CFS functional iron deficiency? Does the ~24% of LC with genuine iron deficiency benefit from repletion? Does hepcidin predict response? Until trials exist: measure full iron panel before prescribing; treat genuine ID regardless of diagnosis; do NOT supplement iron in functional ID pattern. Origin: cynaera-gaps investigation.],[Phase 3 / n/a],
+)
+
+= Entries added 2026-07-26: Iron Redox Polarity — Brainstorm-Derived Speculations
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [@spec:hepcidin-independent-ferroportin-blockade], [Four hepcidin-independent mechanisms may explain the paradox of low hepcidin @Kavyani2023Hepcidin yet persistent functional iron deficiency: (a) ferroportin trafficking defect via IRP/IRE dysregulation, (b) ceruloplasmin ferroxidase deficiency preventing iron loading onto transferrin, (c) NCOA4 ferritinophagy blockade trapping iron in ferritin, (d) LCN2/NGAL futile iron cycling. Under this model, low hepcidin is not a paradox — it is a compensatory response to downstream iron export machinery failure. All four mechanisms untested in ME/CFS. Falsified if all four candidates normal. Origin: brainstorm.],[Phase 5 / 0.40],
+
+  [@spec:temporal-phase-shift-iron], [The ME/CFS vs LC iron polarity may be temporal, not diagnostic: LC studies sample Phases 0–I (1–6 months: stress erythropoiesis, variable hepcidin) while ME/CFS studies sample Phases II–III (>2 years: low hepcidin, functional iron deficiency). Both may traverse same trajectory at different timepoints. Predicts hepcidin declines progressively over 2+ years in prolonged LC. Falsified if hepcidin remains elevated in long-duration LC >2 years. Origin: brainstorm.],[Phase 5 / 0.35],
+
+  [@spec:monocyte-ferroptosis-amplifier], [Iron-loaded monocytes (Hanson2024) may deliver concentrated iron to tissues on macrophage differentiation, sensitizing resident cells to ferroptosis. Creates a monocyte-mediated ferroptosis amplification loop: iron loading → tissue deposition → ferroptosis → DAMP release → monocyte recruitment → more iron delivery. Falsified if ME/CFS monocytes have normal labile iron pool or tissue biopsies show no iron/ferroptosis co-localization. Origin: brainstorm.],[Phase 5 / 0.30],
+
+  [@pred:ferritin-tsat-ratio-diagnostic], [Ferritin:TSAT ratio (FTR) as computationally tractable diagnostic tool: FTR >10 = functional iron deficiency (ferritin ≥150 µg/L, TSAT ≤15%), FTR <5 = genuine iron deficiency, FTR 5–10 = indeterminate. Predicted AUC ≥0.75 for ME/CFS vs post-COVID-without-ME/CFS discrimination. Requires iron panel only ($20–50), deployable in any primary care setting. Not validated — no study has computed FTR in any post-viral fatigue population. Origin: brainstorm.],[Phase 5 / 0.40],
+
+  [@spec:deferiprone-functional-iron-deficiency], [Deferiprone (oral iron chelator, black box: agranulocytosis/neutropenia) as rational intervention if hepcidin-independent ferroportin blockade is the mechanism: membrane-permeable, enters cells without ferroportin, chelates trapped labile iron directly. Danazol (hepcidin antagonist, @spec:danazol-hepcidin) may be misdirected if hepcidin already low. Hypothetical safety pilot: n=10–15, ferritin >150 µg/L + TSAT \<20%, 4 weeks, weekly ANC. NOT a clinical recommendation — black-box warning, fatal infection risk, zero ME/CFS data. Origin: brainstorm.],[Phase 5 / 0.30],
+
+  [@lim:iron-redox-null-hypotheses], [Six null hypotheses constraining the iron redox polarity model: N1 measurement artifact (hepcidin single-measurement, cert 0.55 — most testable), N2 patient-selection bias (severe ME/CFS unstudied, cert 0.25), N3 confounding-by-comorbidity (undiagnosed autoimmune/infection driving ferritin, cert 0.30), N4 transient-state (iron normalizes on recovery, cert 0.20), N5 therapeutic-indifference (iron-modifying interventions don't change outcomes, cert 0.40), N6 common-pathway (iron phenotype is downstream biomarker of upstream pathology, cert 0.50). N1 is highest-priority: independent hepcidin replication would cost <$50,000 and take <6 months. Origin: brainstorm — critical categories 11 and 12.],[Phase 5 / n/a],
+)
+
+= Entries added 2026-07-26: Skeletal Muscle Capillary Microvascular Dysfunction
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [@spec:endothelial-hypertrophy-heterogeneous-perfusion], [EM evidence of endothelial hypertrophy in ME/CFS skeletal muscle capillaries @Charlton2025muscleMicrovasc may narrow capillary lumens, creating heterogeneous perfusion — perfused and excluded capillaries interleaved — that NIRS averages cannot detect. Combined with RBC stiffness, narrowed capillaries become impassable. Functional capillary dropout without anatomical rarefaction. Origin: brainstorm.],[Phase 5 / 0.40],
+
+  [@spec:capillary-bm-diagnostic-biomarker], [Near-complete separation of HC and patients by %BM coverage (max HC 62.7% vs min ME/CFS 63.2%) @Charlton2025muscleMicrovasc exceeds discriminative power of any existing blood biomarker. If validated by ROC in pooled multi-country dataset (n > 70), EM-measured %BM coverage could serve as a histological gold-standard diagnostic biomarker — analogous to duodenal biopsy for coeliac disease. Invasive → confirmatory role in equivocal cases; needs non-invasive surrogate (serum HA/TSG-6 or NIRS) for routine use. Origin: brainstorm.],[Phase 5 / 0.45],
+
+  [@spec:systemic-bm-microvascular], [Capillary BM thickening documented in 3 limb muscles may be systemic — affecting cardiac, brain, GI, and skin capillaries — explaining multi-system ME/CFS symptoms via a single structural lesion. No multi-organ BM data exist. Testable by skin punch biopsy dermal capillary BM vs vastus lateralis BM correlation. Origin: brainstorm.],[Phase 5 / 0.30],
+
+  [@oq:capillary-bm-alternatives], [Five alternative explanations for capillary BM thickening: (1) epiphenomenon of mitochondrial dysfunction, (2) immune-mediated endothelial injury as primary scar, (3) neurovascular dysregulation → hypoxic BM remodeling, (4) long-term deconditioning incompletely excluded by 60d bed rest model, (5) all-of-the-above convergent final common pathway. Not mutually exclusive; treatment strategy depends on which mechanism is dominant in individual patients. Origin: brainstorm critical categories.],[Phase 5 / n/a],
+
+  [@lim:muscle-specific-microvascular], [Capillary BM thickening data limited to limb skeletal muscle. No data for diaphragm, cardiac, smooth muscle, or skin capillaries. If muscle-specific → explains exertional symptoms only. If systemic → explains multi-system ME/CFS. Distinction requires same-patient multi-site biopsy. Origin: brainstorm critical categories.],[Phase 5 / n/a],
+)
+
 
 
 
