@@ -19,7 +19,7 @@ The pharmacodiagnostic matrix provides the complementary drug-indexed, cross-hyp
 6. Which single additional drug trial would most discriminate among surviving hypotheses
 7. Which drug combinations produce response patterns explicable only under a specific hypothesis
 
-The diagnostic power is multiplicative when responses from multiple drugs are cross-referenced. A single drug trial produces one constraint. Two drug trials produce ~N-squared constraints (one per hypothesis pair where responses differ). Ten drug trials produce a constraint satisfaction problem whose solution identifies the most probable bottleneck with far greater precision than any single drug trial. This is the same principle exploited by the extended algorithm in @sec:synthesis-algorithm-extended — but formalized as a matrix rather than a sequential tree.
+The constraint space grows combinatorially when responses from multiple drugs are cross-referenced. A single drug trial produces one constraint. Two drug trials enable ~N-squared hypothesis-pair comparisons (one per pair where responses differ). Ten drug trials produce a constraint satisfaction problem whose solution may identify the most probable bottleneck with greater precision than any single drug trial — but this assumes that the responses carry diagnostic signal and that the inference chain certainties justify the aggregation. This formalizes the same principle exploited by the extended algorithm in @sec:synthesis-algorithm-extended — but as a matrix-based constraint solver rather than a sequential decision tree.
 
 === Core Mechanism — Response Matrix
 
@@ -27,21 +27,21 @@ For each medication M_i and each hypothesis H_j, define the expected response:
 
 $ "Resp"(M_i, H_j) in { "positive", "null", "paradoxical", "unknown" } $
 
-A *positive* response to M_i for H_j means: if H_j is the dominant pathophysiology, M_i should produce clinical improvement (with a certainty rating derived from the cascade evidence). A *null* response means: if H_j is dominant, M_i should not produce improvement — M_i targets a node downstream of H_j's bottleneck, or M_i targets a pathway unrelated to H_j. A *paradoxical* response is one where the observed effect is opposite to the expected effect given H_j — strong evidence against H_j.
+A *positive* response to M_i for H_j means: if H_j is the dominant pathophysiology, M_i should produce clinical improvement (with a certainty rating derived from the cascade evidence). A *null* response means: if H_j is dominant, M_i should not produce improvement — either because M_i targets a node downstream of H_j's bottleneck that the bottleneck prevents from being reached, or because M_i targets a pathway unrelated to H_j. A downstream-targeting drug that *bypasses* the bottleneck (e.g., an agonist activating a receptor whose endogenous ligand is depleted by the lesion) would produce a positive, not null, response — null requires that the bottleneck either blocks the drug's target access or that the target is mechanistically irrelevant. A *paradoxical* response is one where the observed effect is opposite to the expected effect given H_j — strong evidence against H_j.
 
 === Constraint-Satisfaction Scoring
 
 A patient completes drug trials for medications {M_1, ..., M_k}, obtaining observed responses {R_1, ..., R_k}. For each hypothesis H_j:
 
-$ "Score"(H_j) = 1/k sum_(i=1)^k "Agreement"(R_i, "Resp"(M_i, H_j)) $
+$ "Score"(H_j) = ((sum_(i=1)^k w_i dot "Agreement"(R_i, "Resp"(M_i, H_j))) \/ (sum_(i=1)^k w_i)) $
 
-where _Agreement_ weights by certainty and incorporates the diagnostic value of null responses (a null response where positive was expected is penalized, and vice versa). The surviving hypotheses are those above a threshold score.
+where $w_i$ is the certainty of the mechanistic inference linking drug $M_i$ to the cascade node(s) at which it intercepts hypothesis $H_j$, _Agreement_ incorporates the diagnostic value of null responses (a null response where positive was expected is penalized, and vice versa), and the surviving hypotheses are those above a threshold score. In the simplified case where all cell certainties are equal, this reduces to the unweighted mean.
 
 The algorithm additionally outputs:
 
 + *Which single additional drug trial would most discriminate among surviving hypotheses* — maximizes expected information gain, directly analogous to active learning in diagnostic decision trees @Ravichandran2024ActiveLearning. This is the computational equivalent of asking "what is the most powerful next question?"
-+ *Which drug combinations produce response patterns that are only explicable under a specific hypothesis* — pathognomonic response patterns. If a patient responds to drug A but not drug B, and to drug C only at doses above X, and that exact pattern is compatible with one hypothesis but incompatible with all others, the inference is pathognomonic.
-+ *The confidence interval on bottleneck localization* — given the evidence weights and certainties, how precisely is the bottleneck localized? Multi-drug response patterns narrow the confidence interval quadratically compared to single-drug inference.
++ *Which drug combinations produce response patterns that are only explicable under a specific hypothesis* — constraining patterns. If a patient responds to drug A but not drug B, and to drug C only at doses above X, and that exact pattern is compatible with one hypothesis but incompatible with all others, the constraint identifies a specific mechanism with higher confidence than any single drug trial. Note: this is not pathognomonic in the clinical sense (definitively diagnostic) — it is constraining within the current hypothesis space, with the acknowledged uncertainty of the framework.
++ *The confidence interval on bottleneck localization* — given the evidence weights and certainties, how precisely is the bottleneck localized? Multi-drug response patterns may narrow the uncertainty beyond what any single drug trial can achieve, but the multiplicative uncertainty from combining individual inferences (see "Inference Depth Multiplicative Uncertainty" below) limits how much precision additional trials can add.
 
 === Methodological Precedents
 
@@ -70,9 +70,9 @@ Each cell of the matrix (medication × hypothesis) contains:
 
 *Immediate use — no new data required.* For a patient who has already tried 8–15 medications (typical for long-duration ME/CFS), retrospective application of the matrix may identify the most probable bottleneck without any new trial. This is the matrix's most powerful feature: it extracts diagnostic signal from trials already conducted. Every medication the patient has taken, at every dose, for every duration — each trial is a data point that constrains the hypothesis space. The matrix aggregates these into a single constraint-satisfaction problem.
 
-*Prospective use — active learning approach.* A physician selects 3–5 medications with maximal cross-hypothesis discriminating power (identified by the information-gain algorithm), trials them sequentially, and after each trial the constraint set narrows. After 3–5 trials, the surviving hypotheses are typically reduced to 1–2. This is the pharmacodiagnostic equivalent of a decision tree — but for disease mechanism, not symptom.
+*Prospective use — active learning approach.* A physician selects 3–5 medications with maximal cross-hypothesis discriminating power (identified by the information-gain algorithm), trials them sequentially, and after each trial the constraint set narrows. Whether the surviving hypotheses can be reduced to a small subset depends on the spectral resolution of the drug-hypothesis space — most drugs are predicted positive under multiple hypotheses because those hypotheses converge on shared downstream nodes, so the narrowing may be modest. The goal is not unique identification but broad categorization: narrowing from 8 hypotheses to 2–3 broad mechanistic groups (e.g., autoimmune-neuroinflammatory vs mitochondrial-metabolic vs mechanical-autonomic) is a clinically meaningful advance over unguided trial-and-error. The achievable precision depends on which specific drugs are trialed and in what order — the information-gain algorithm selects the sequence, but the intrinsic discriminating power of the hypothesis space sets the ceiling.
 
-*Research use — population-level constraint satisfaction.* Aggregate responses across hundreds of patients into a population-level constraint satisfaction problem. The distribution of bottleneck locations across subgroups tests whether ME/CFS is one disease with variable bottleneck position or multiple diseases with different dominant mechanisms. This is the same question that Strauss2021DiseasePhenotypes answered for multi-disease phenotypes — now applied to multi-drug response patterns.
+*Research use — population-level constraint satisfaction.* Aggregate responses across hundreds of patients into a population-level constraint satisfaction problem. The distribution of bottleneck locations across subgroups tests whether ME/CFS is one disease with variable bottleneck position or multiple diseases with different dominant mechanisms. This is the same question that @Strauss2021DiseasePhenotypes answered for multi-disease phenotypes — now applied to multi-drug response patterns.
 
 === Implementation
 
@@ -83,7 +83,7 @@ The matrix includes every medication discussed in @ch:medications-mechanisms, @s
 
 *Certainty: 0.30.* The concept is methodologically sound — precedent exists in hypertension, pediatric oncology, and computational phenotyping — but the matrix for ME/CFS has not been constructed or validated. Individual cell certainties rarely exceed 0.40 (cascade evidence certainty ceiling). The product of multiple uncertain inferences compounds error. The matrix should be treated as hypothesis generation, not diagnosis. A low-certainty correct inference is better than no inference, but the user must understand the ceiling.
 
-*Consequence:* This transforms medication trial data — which every ME/CFS patient generates over years of illness — from unstructured clinical notes into a formal diagnostic signal. No new laboratory assay or imaging modality is required. For a disease where objective diagnostics remain elusive, retrospective pharmacodiagnostic inference is the most immediately deployable mechanistic diagnostic tool. If validated, it replaces trial-and-error prescribing with information-maximizing sequential drug selection.
+*Consequence:* This transforms medication trial data — which every ME/CFS patient generates over years of illness — from unstructured clinical notes into a formal diagnostic signal. No new laboratory assay or imaging modality is required. The matrix is immediately testable (retrospective validation against known-mechanism patients) but not yet clinically deployable — validation precedes clinical deployment. If validated, it would replace trial-and-error prescribing with information-maximizing sequential drug selection.
 
 *Origin:* methodology proposal extending the cascade tracing framework (sec-01–sec-12).
 ]
