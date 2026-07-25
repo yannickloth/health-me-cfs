@@ -10,6 +10,7 @@ import java.io.*;
 import java.time.*;
 import java.util.*;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.*;
 import java.util.regex.*;
 
 void main(String[] args) throws IOException, InterruptedException {
@@ -159,8 +160,8 @@ void main(String[] args) throws IOException, InterruptedException {
     var phaseStart = System.currentTimeMillis();
     var executor = Executors.newFixedThreadPool(workers);
     var globalXrefs = new ConcurrentHashMap<String, String[]>();
-    int[] totalSections = {0};
-    int[] completed = {0};
+    var totalSections = new AtomicInteger(0);
+    var completed = new AtomicInteger(0);
 
     var futures = new ArrayList<Future<TypstToQmd.ConversionResult>>();
     var errors = new ConcurrentLinkedQueue<String>();
@@ -172,11 +173,9 @@ void main(String[] args) throws IOException, InterruptedException {
                 for (var entry : result.xrefs()) {
                     globalXrefs.putIfAbsent(entry[0], entry);
                 }
-                synchronized (totalSections) { totalSections[0] += result.sectionCount(); }
-                synchronized (completed) {
-                    int done = ++completed[0];
-                    System.out.print("\r  " + done + "/" + tasks.size() + " chapters");
-                }
+                totalSections.addAndGet(result.sectionCount());
+                int done = completed.incrementAndGet();
+                System.out.print("\r  " + done + "/" + tasks.size() + " chapters");
                 return result;
             } catch (Exception e) {
                 errors.add(task.chName() + ": " + e.getMessage());
@@ -200,13 +199,8 @@ void main(String[] args) throws IOException, InterruptedException {
         System.exit(1);
     }
 
-    int totalFiles = 0;
-    try (var walk = java.nio.file.Files.walk(webRoot)) {
-        totalFiles = (int) walk.filter(p -> p.toString().endsWith(".qmd")).count();
-    }
-
     System.out.println();
-    System.out.println("Done: " + tasks.size() + " chapters processed, " + totalFiles + " .qmd files generated (" + phaseMs(phaseStart) + ")");
+    System.out.println("Done: " + tasks.size() + " chapters processed, " + totalSections.get() + " sections (" + phaseMs(phaseStart) + ")");
 
     // --- Cross-reference resolution ---
     System.out.println();
