@@ -425,3 +425,63 @@ _Certainty: 0.50._ PEM may not be merely tissue damage from ischaemia-reperfusio
 
 *Limitations.* Post-exercise HIF target gene time-course has not been measured in ME/CFS. The hibernation-mimetic model is derived from ischaemia-reperfusion and cardiac preconditioning literature, not primary ME/CFS studies. PBMC findings may not reflect muscle or brain tissue.
 ] <spec:pem-hif-maladaptation>
+
+#speculation(title: [Capillary Basement Membrane Coverage as a Histological Diagnostic Biomarker])[
+The near-complete separation between healthy controls and patients by percentage basement membrane coverage in the Charlton/Slaghekke cohort @Charlton2025muscleMicrovasc (max 62.7% in HC vs min 63.2% in patients) is extraordinary — it exceeds the discriminative power of any existing ME/CFS blood-based biomarker. If validated in a larger independent cohort with formal receiver operating characteristic (ROC) analysis, EM-measured %BM coverage could serve as a histological gold-standard diagnostic biomarker for ME/CFS — analogous to duodenal biopsy for coeliac disease or renal biopsy for glomerulonephritis.
+
+*Certainty: 0.45.* The core finding is replicated in 3 countries. However: (a) the diagnostic cutoff has not been formally derived by ROC analysis, (b) the Charlton/Slaghekke paper is a preprint, (c) muscle biopsy is invasive and cannot serve as a routine screening test — its diagnostic role would be as a confirmatory gold standard in equivocal cases, not as a first-line test, (d) a non-invasive surrogate (serum HA/TSG-6 panel, NIRS, or contrast-enhanced ultrasound) would be needed for routine clinical deployment.
+
+(Origin: brainstorm.)
+
+*Falsifiable predictions:*
+    + Formal ROC analysis in a combined dataset (Amsterdam + Berlin + Aarhus biopsies, pooled n > 70 patients) yields AUC > 0.90 for %BM coverage discriminating ME/CFS from healthy controls
+    + The optimal cutoff (Youden index) correctly classifies > 85% of patients and > 90% of controls
+    + Serum HA and TSG-6 levels correlate with EM-measured %BM coverage (r > 0.6), enabling development of a non-invasive screening surrogate
+    + Falsified if: %BM coverage does not discriminate ME/CFS from other fatiguing conditions (multiple sclerosis fatigue, post-cancer fatigue, depression with fatigue) — i.e., the finding is specific to fatigue states generally, not ME/CFS specifically. Falsified if: the near-complete separation in Charlton/Slaghekke is a winner's-curse artifact of a small single-study sample and AUC < 0.75 in a pooled independent dataset
+
+*Consequence:* If validated, this would give clinicians their first histological test for ME/CFS — a muscle biopsy that can objectively confirm the disease, analogous to how a duodenal biopsy confirms coeliac disease. This would end the "it's all in your head" era by providing tissue-level proof visible under a microscope. However, the test is invasive and would be reserved for diagnostically ambiguous cases, not routine screening.
+] <spec:capillary-bm-diagnostic-biomarker>
+
+#speculation(title: [Multi-System Microvascular BM Pathology — Skeletal Muscle as the Most Accessible Window])[
+Whether capillary BM thickening is restricted to skeletal muscle or represents a systemic microvascular disease is unknown — no multi-organ biopsy data exist. If BM thickening is systemic, skeletal muscle biopsy findings provide a window into capillary pathology in every organ: cardiac muscle (explaining reduced cardiac output and chronotropic incompetence via impaired myocardial O₂ delivery), brain microvasculature (contributing to neuroinflammation and cognitive dysfunction via impaired cerebral O₂ extraction), GI smooth muscle (contributing to dysmotility and SIBO via impaired peristaltic energetics), and skin (explaining slow wound healing). The same capillary-level diffusion barrier that limits O₂ extraction in quadriceps during exercise would limit O₂ delivery to every tissue in the body — a single structural lesion producing multi-system symptoms.
+
+*Certainty: 0.30.* No multi-organ capillary BM data exist for ME/CFS. The inference is from the consistency of limb muscle findings (vastus lateralis, biceps brachii, anterior tibialis all show BM thickening) plus the clinical observation that ME/CFS symptoms are multi-system. Systemic involvement is plausible but unproven. (Evidence source: limb skeletal muscle EM — Inference target: cardiac, brain, GI, skin capillaries. Link is indirect — no non-muscle capillary BM measurement in ME/CFS.)
+
+(Origin: brainstorm.)
+
+*Falsifiable predictions:*
+    + Skin punch biopsy dermal capillary BM thickness correlates with vastus lateralis BM thickness in the same patient (r > 0.7) — confirming systemic involvement via the most accessible capillary bed
+    + Cardiac MRI with T1 mapping (extracellular volume fraction as a fibrosis/BM proxy) correlates with skeletal muscle BM thickness
+    + Patients with higher skeletal muscle BM thickness have slower wound healing rates, measured by standardized punch biopsy closure time
+    + Falsified if: skin capillary BM thickness is normal in patients with confirmed skeletal muscle BM thickening — then the pathology is muscle-specific and multi-system symptoms must be explained by other mechanisms. Multi-system inference is rejected.
+
+*Consequence:* If capillary wall thickening affects every organ, not just leg muscles, the disease makes sense as a unified entity — the same structural problem limiting oxygen in your muscles during exercise also limits oxygen in your brain (causing brain fog), in your gut (causing digestive problems), and in your skin (slowing wound healing). A single tissue-level defect could explain the bewildering range of symptoms patients report.
+] <spec:systemic-bm-microvascular>
+
+#open-question(title: [Alternative Explanations for Capillary-Level O₂ Extraction Impairment])[
+The capillary BM thickening documented in ME/CFS and Long COVID skeletal muscle @Charlton2025muscleMicrovasc @Aschman2023postcovidCapillary is a striking structural finding, but should it be considered *primary* or *secondary*? Several alternative models are compatible with the same evidence:
+
+1. *Epiphenomenon of mitochondrial dysfunction.* Chronic mitochondrial impairment → reduced ATP for ECM maintenance → failure to clear accumulated BM collagen → BM thickening as a consequence, not a cause. In this model, BM thickening is a marker of disease duration and severity but the rate-limiting step is mitochondrial, not microvascular.
+
+2. *Immune-mediated endothelial injury as primary.* IgG immune complexes @Liu2026IgGcomplexes injure endothelial cells → endothelial hypertrophy, degeneration → BM thickening as a scar-like reparative response. In this model, the immune assault on endothelium is the root cause; BM thickening is the histological scar of chronic immune-mediated injury.
+
+3. *Neurovascular dysregulation as primary.* Impaired cholinergic vasodilation (pyridostigmine-responsive @Joseph2022neurovascularDysreg) → chronic capillary-level flow heterogeneity → hypoxic BM remodeling (HIF-1α-driven collagen IV deposition). In this model, the autonomic dysfunction documented throughout the paper is upstream of the structural pathology.
+
+4. *Deconditioning — incompletely excluded.* The 60-day bed rest comparator @Charlton2025muscleMicrovasc showed a different phenotype (atrophy + reduced OXPHOS vs BM thickening + glycolytic shift), but bed rest in healthy young volunteers may not capture the multi-year deconditioning pattern of severe ME/CFS. A 60-day deconditioning model cannot refute a 5-year deconditioning model.
+
+5. *All of the above — convergent pathology.* Each mechanism may contribute differently in different patients. BM thickening may be mitochondrial-driven in some, immune-driven in others, autonomic-driven in still others — but the shared endpoint (thickened capillary BM → impaired O₂ diffusion → exercise intolerance) is the same. This "final common pathway" model predicts that treatments targeting different upstream mechanisms should all partially improve O₂ extraction, but none completely normalizes it.
+
+These alternatives are not mutually exclusive. The field's task is to determine the temporal sequence and relative contribution of each mechanism in individual patients. *Consequence:* The finding that capillaries are structurally abnormal is robust, but *why* they're abnormal matters for treatment. If it's a scar from immune attack, you treat the immune system. If it's a result of years of inactivity, you treat deconditioning. If it's autonomic dysregulation, you treat the nerves. The right treatment depends on which explanation is correct — and we don't yet know.
+] <oq:capillary-bm-alternatives>
+
+#synthesis(title: [Capillary Microvascular Remodelling — A Convergent Structural Lesion Across Post-Viral Fatigue Syndromes])[
+The skeletal muscle capillary basement membrane thickening documented by Charlton, Slaghekke et al.\ @Charlton2025muscleMicrovasc and independently replicated in Berlin @Aschman2023postcovidCapillary and Aarhus @Agergaard2023LongCOVIDmyopathy represents the most consistently replicated tissue-level structural abnormality in ME/CFS to date — three independent cohorts, two muscle groups, consistent core finding. The near-complete separation between patients and controls by percentage BM coverage (max HC 62.7% vs min patient 63.2%) exceeds the discriminative power of any existing blood-based biomarker and is definitively distinguished from deconditioning by a 60-day bed rest comparator showing a structurally different phenotype.
+
+The functional consequences are independently demonstrated: impaired peripheral O₂ extraction on gold-standard invasive CPET (0.69 vs 0.77, @Joseph2022neurovascularDysreg) and reduced tissue O₂ uptake on NIRS @Charlton2025muscleMicrovasc, with a pharmacological probe (pyridostigmine) confirming neurovascular dysregulation as a contributing mechanism. The endothelial hypertrophy, microvacuolization, and degenerative changes seen on EM @Charlton2025muscleMicrovasc suggest that capillary pathology extends beyond passive BM accumulation to active endothelial injury — potentially creating heterogeneous perfusion patterns (@spec:endothelial-hypertrophy-heterogeneous-perfusion) that NIRS averages cannot detect.
+
+Three critical open questions remain. First, the temporal sequence: does BM thickening precede mitochondrial dysfunction (the microvascular-primacy model @ScheibenbogenWirth2024sarcopenia), follow it (the epiphenomenon model), or arise in parallel from a shared upstream driver (immune complexes @Liu2026IgGcomplexes, autonomic dysregulation @Joseph2022neurovascularDysreg)? Second, the anatomical scope: is this a systemic capillary disease affecting every organ — potentially explaining multi-system ME/CFS symptoms from a single structural lesion (@spec:systemic-bm-microvascular) — or a muscle-specific finding limited to exertional pathophysiology (@lim:muscle-specific-microvascular)? Third, the diagnostic potential: can EM-measured %BM coverage serve as a histological gold standard for ME/CFS diagnosis — analogous to duodenal biopsy for coeliac disease — and can a non-invasive surrogate (serum HA/TSG-6, NIRS, or CEUS) be developed for routine clinical use (@spec:capillary-bm-diagnostic-biomarker)? The alternative explanations enumerated in @oq:capillary-bm-alternatives are plausibly compatible with the same evidence — the field's task is to differentiate them.
+
+*Consequence:* Tissue-level proof of structural capillary damage in ME/CFS muscle — independently confirmed in three countries — provides compelling evidence against psychosomatic/deconditioning explanations. Whatever causes ME/CFS, the capillaries are demonstrably abnormal under a microscope, and this abnormality directly impairs the muscles' ability to extract oxygen during exercise. The question is no longer *whether* capillaries are structurally remodelled, but *why* — and whether the same remodelling affects every organ or just skeletal muscle.
+] <syn:capillary-microvascular-model>
+
+]]

@@ -212,7 +212,7 @@ Full discussion: shared across @ch:cardiovascular and @ch:immune-dysfunction.
 
 - *RAAS paradox and hypovolemia.* ME/CFS patients have markedly low blood volume (up to 1,000 mL below normal) alongside paradoxically *suppressed* renin and aldosterone — the inverse of normal physiology in response to hypovolemia. The mechanism for this paradox remains unresolved @streeten2001raas.
 
-- *Microvascular remodelling.* Reduced capillary density and thickened capillary basement membranes in skeletal muscle; CD169⁺ macrophage infiltration after exercise; reduces oxygen delivery capacity at the tissue level.
+- *Microvascular remodelling.* Reduced capillary density and thickened capillary basement membranes in skeletal muscle (capillary BM thickening independently replicated in 3 countries: Amsterdam @Charlton2025muscleMicrovasc, Berlin @Aschman2023postcovidCapillary, Aarhus @Agergaard2023LongCOVIDmyopathy); CD169⁺ macrophage infiltration after exercise; endothelial microvacuolization, hypertrophy, and degeneration on EM @Charlton2025muscleMicrovasc; reduced capillary tortuosity and contact length reduce total O₂ exchange surface area; direct 60-day bed rest comparator excluded deconditioning as the sole explanation. Tissue O₂ uptake and vasodilatory capacity both impaired (NIRS) @Charlton2025muscleMicrovasc @Joseph2022neurovascularDysreg.
 
 Full discussion: @ch:cardiovascular.
 
@@ -442,11 +442,11 @@ Full discussion: @ch:immune-dysfunction and @ch:genetics-epigenetics.
 
 - *Glycolytic fiber shift.* Increased proportion of glycolytic (Type II) fibres in ME/CFS muscle biopsies, representing adaptive remodelling toward anaerobic metabolism consistent with chronic OXPHOS insufficiency.
 
-- *Capillary rarefaction and basement membrane thickening.* Fewer capillaries and thicker capillary basement membranes in ME/CFS/Long COVID skeletal muscle; CD169⁺ macrophage infiltration after exercise; reduced oxygen delivery capacity at the tissue level.
+- *Capillary rarefaction and basement membrane thickening.* Fewer capillaries and thicker capillary basement membranes in ME/CFS/Long COVID skeletal muscle (independently replicated across 3 countries); CD169⁺ macrophage infiltration after exercise; endothelial microvacuolization, hypertrophy, and degeneration on EM; 60-day bed rest comparator confirmed the patient phenotype is structurally distinct from simple deconditioning; reduced oxygen delivery capacity at the tissue level @Charlton2025muscleMicrovasc @Aschman2023postcovidCapillary @Agergaard2023LongCOVIDmyopathy.
 
 - *Small fiber neuropathy — structural fiber loss.* IENFD reduction on skin punch biopsy confirms structural nerve fiber degeneration beyond functional dysfunction; approximately one-third of ME/CFS patients affected @giannoccaro2021sfn.
 
-- *hEDS/connective tissue hypermobility overlap.* Substantial clinical overlap between ME/CFS, hEDS, POTS, and MCAS; mast cell-derived histamine and tryptase degrade extracellular matrix and collagen, creating a bidirectional relationship between mast cell activation and structural connective tissue weakening.
+- *hEDS/connective tissue hypermobility overlap.* Substantial clinical overlap between ME/CFS, hEDS, POTS, and MCAS; mast cell-derived histamine and tryptase degrade extracellular matrix and collagen, creating a bidirectional relationship between mast cell activation and structural connective tissue weakening. The capillary BM thickening documented above (Family 7) adds a further mechanism: reduced O₂ diffusion through thickened capillary walls impairs fibroblast ATP availability, slowing collagen synthesis and wound healing — an acquired tissue-level impairment layered on top of any genetic connective tissue predisposition @Charlton2025muscleMicrovasc @Wirth2026LaxityConsequences.
 
 *Evidence status:* Emerging (muscle and capillary findings replicated in Long COVID/ME/CFS shared cohorts; structural SFN documented; hEDS overlap clinically well-established).
 

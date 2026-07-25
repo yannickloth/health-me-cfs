@@ -6782,5 +6782,35 @@
     "label": "O₂",
     "category": "molecule",
     "definition": "Molecular Oxygen: the terminal electron acceptor in the mitochondrial electron transport chain. Oxygen delivery to tissues depends on cardiac output, hemoglobin, and microvascular perfusion — all potentially impaired in ME/CFS. VO₂ (oxygen uptake) measured by CPET is the gold-standard assessment of integrated cardiorespiratory-metabolic function."
+  },
+  "TSG-6": {
+    "label": "TSG-6",
+    "category": "enzyme",
+    "definition": "TNF-stimulated gene 6 protein (also TNFAIP6) — an enzyme that cross-links hyaluronan with inter-α-inhibitor heavy chains, forming stable complexes in the extracellular matrix that contribute to capillary basement membrane thickening during inflammation."
+  },
+  "HA": {
+    "label": "Hyaluronan (HA)",
+    "category": "pathway",
+    "definition": "A large glycosaminoglycan that forms part of the extracellular matrix. In ME/CFS, overproduction and TSG-6-mediated crosslinking of HA may contribute to capillary basement membrane thickening, impairing oxygen diffusion."
+  },
+  "CEUS": {
+    "label": "Contrast-Enhanced Ultrasound (CEUS)",
+    "category": "method",
+    "definition": "An ultrasound imaging technique using microbubble contrast agents to visualize tissue microvascular perfusion in real time. Has been proposed as a non-invasive method to assess skeletal muscle microvascular dysfunction in ME/CFS."
+  },
+  "HFpEF": {
+    "label": "Heart Failure with Preserved Ejection Fraction (HFpEF)",
+    "category": "condition",
+    "definition": "A form of heart failure where the heart pumps normally but is too stiff to fill properly. Shares with ME/CFS the feature of impaired peripheral oxygen extraction and exercise intolerance despite normal cardiac output."
+  },
+  "EM": {
+    "label": "Electron Microscopy (EM)",
+    "category": "method",
+    "definition": "A microscopy technique that uses electrons instead of light to visualize structures at nanometer resolution. Used in ME/CFS research to examine capillary basement membrane thickness, endothelial ultrastructure, and mitochondrial morphology in muscle biopsies."
+  },
+  "IHC": {
+    "label": "Immunohistochemistry (IHC)",
+    "category": "method",
+    "definition": "A laboratory technique that uses antibodies to detect specific proteins in tissue sections. Used in ME/CFS muscle biopsy studies to quantify capillary density and identify immune cell infiltration."
   }
 }
