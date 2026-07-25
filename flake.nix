@@ -126,6 +126,9 @@
             # Verify no orphaned labels in generated .qmd files
             java --source 25 src/test/java/web/QmdLabelAuditTest.java
 
+            # Comprehensive post-build audit (10 checks, all warnings)
+            java --source 25 src/test/java/web/BuildAuditTest.java
+
             # Render HTML
             quarto render web --to html
           '';
@@ -162,6 +165,9 @@
 
             # Verify all Typst environments survive conversion
             java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
+
+            # Comprehensive post-build audit
+            java --source 25 src/test/java/web/BuildAuditTest.java
 
             quarto render web --to html
 
@@ -211,6 +217,7 @@
             buildInputs = [
               pkgs.jdk25
               pkgs.typst
+              pkgs.quarto
             ];
             phases = [
               "unpackPhase"
@@ -225,6 +232,7 @@
               java --source 25 src/test/java/web/QmdLabelAuditTest.java
               java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
               java --source 25 src/test/java/web/QmdQualityAuditTest.java
+              java --source 25 src/test/java/web/BuildAuditTest.java
             '';
             installPhase = ''
               mkdir -p $out
