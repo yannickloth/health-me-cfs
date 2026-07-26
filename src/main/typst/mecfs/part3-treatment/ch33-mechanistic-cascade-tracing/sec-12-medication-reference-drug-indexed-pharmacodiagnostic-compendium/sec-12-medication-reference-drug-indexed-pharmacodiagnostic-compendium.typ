@@ -1200,7 +1200,18 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 *Appears in:* @sec:trpm3-cascade A2, @sec:microglial-cascade K2d, @sec:dopamine-convergence, cross-reference matrix.
 
+*Dose-response structure:* LDN targets four mechanisms with non-overlapping dose optima — TLR4 hormetic window (Nrf2-mediated microglial M1→M2 priming peaking at 0.5--1.5 mg), opioid compensatory upregulation (endorphin ceiling at 1.5--3.0 mg), TRPM3 calcium flux restoration (possibly requiring 3.0--4.5 mg), and orexin disinhibition (tracking TLR4 microglial effects in hypothalamus). Dose-finding is therefore diagnostic: a patient whose optimal dose is 0.5--1.5 mg has TLR4/Nrf2 as the dominant therapeutic mechanism; a patient needing 3.0--4.5 mg has TRPM3 as dominant. @Calabrese2021Nrf2 @Kucic2021LDNmicroglia @Dara2023 @Toljan2018
+
+*Dose-response diagnostic logic:*
+- Benefit peaks at 0.5--1.5 mg and declines at 3.0--4.5 mg → TLR4 hormetic window is the dominant mechanism. Microglial Nrf2 reserve is narrow — this patient will likely show narrow hormetic windows for other Nrf2-activating drugs (sulforaphane, lithium). Neuroinflammation is confirmed but the anti-inflammatory benefit requires the priming-toxicity balance, not maximal TLR4 blockade.
+- Benefit monotonic up to 4.5 mg with no decline → TRPM3 or endorphin mechanism is dominant (opioid compensatory ceiling not yet reached). This patient may tolerate well above 4.5 mg but risks catastrophic inversion at the μ-blockade threshold (~50 mg).
+- Benefit plateau from 1.5 mg upward → endorphin ceiling reached early; further dose escalation adds nothing. Try dropping to 1.5 mg — if benefit is preserved, the therapeutic mechanism is opioid compensatory, not TRPM3.
+- No dose matters (equivalent benefit at all doses or no benefit at any dose) → either LDN effective via a saturating mechanism (receptor reserve high) or LDN ineffective for this patient.
+- Worsening at 0.5 mg (paradoxical reactor) → opioid systems critically load-bearing for mood/pain homeostasis; avoid all opioid-modulating drugs.
+
 #strong[+] Channelopathy rate-limiting — TRPM3 dysfunction confirmed. TLR4 antagonism on microglia → reduced neuroinflammation. Combined with clinical improvement across multiple domains (pain, cognition, PEM) suggests TRPM3/TLR4 pathway is dominant.
+
+#strong[+]SE Dose-dependent mechanism identification: the dose at which benefit peaks reveals which target is rate-limiting. 0.5--1.5 mg peak → TLR4/Nrf2 hormetic window dominant. 3.0--4.5 mg peak → TRPM3 restoration dominant. Benefit lost on dose increase within LDN range → hormetic window crossed; the inversion point measures Nrf2 transcriptional reserve.
 
 #strong[−] TRPM3 absent, non-responsive, or not rate-limiting. If LDN fails but aripiprazole works → DA-specific lesion, not TRPM3. If LDN fails but IVIG works → AAb-driven, not TLR4-driven.
 

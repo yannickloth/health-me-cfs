@@ -6,3 +6,5 @@
 
 #include "subsec-02-energy-triage-selective-energy-dysfunction/subsec-02-energy-triage-selective-energy-dysfunction.typ"
 
+#include "subsec-03-hormetic-dose-response-multi-target-optimization/subsec-03-hormetic-dose-response-multi-target-optimization.typ"
+

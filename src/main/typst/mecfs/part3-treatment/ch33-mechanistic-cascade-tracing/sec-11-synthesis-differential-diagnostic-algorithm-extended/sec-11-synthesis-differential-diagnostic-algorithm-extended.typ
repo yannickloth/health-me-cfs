@@ -25,8 +25,8 @@ Before a single new drug is trialed, audit data already generated:
 
 *Interpretation:*
 - *Positive response:* Record magnitude (what % improvement?), onset latency (48h → TRPM3; 2--6 weeks → endorphin/TLR4), which symptoms improved (all symptoms → single upstream mechanism; some symptoms → multi-mechanism disease), did it unmask or worsen any symptom (dissociation pattern, @sec:pattern-dissociation)? Side effects: sedation (orexin low), dysphoria (opioid-dependent), absent expected effect?
-- *Null response:* TLR4/TRPM3/endorphin/orexin eliminated as rate-limiting. Push bottleneck downstream. Null is high-information: four mechanisms eliminated in one trial.
-- *Inverted U:* If works at 1.5 mg but stops at 4.5 mg → inverted U. Reduce to effective dose; confirms partial antagonism-with-upregulation mechanism.
+- *Null response:* TLR4/TRPM3/endorphin/orexin eliminated as rate-limiting. Push bottleneck downstream. Null is high-information: four mechanisms eliminated in one trial. *Critical caveat:* null-response cannot be concluded unless the low-dose (TLR4/Nrf2 hormetic) window (0.5--1.5 mg) has been tested — if trialed only at 3.0--4.5 mg, a patient with TLR4-dominant mechanism sits above the therapeutic window and would be misclassified as a non-responder (@sec:hormetic-dose-response).
+- *Inverted U:* If works at 1.5 mg but stops at 4.5 mg → inverted U. Reduce to effective dose; confirms partial antagonism-with-upregulation mechanism. This is the signature of TLR4/Nrf2 hormetic dominance — the hormetic benefit collapses when basal TLR4 tone is removed by excessive blockade. Cross-reference @sec:hormetic-dose-response for the multi-target dose-response cascade.
 
 ==== Step 2 — Distinguishing Neuroinflammation Source (If LDN+)
 <sec:step-2-extended>

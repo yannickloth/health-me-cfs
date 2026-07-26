@@ -62,9 +62,23 @@ At standard doses (50 mg), naltrexone blocks opioid receptors. At low doses (1�
 
 *Level of action:* Symptom management. Endorphin elevation relieves pain and improves mood but does not address any disease mechanism. The underlying pathology continues unchecked.
 
+====== Finding 5 — The dose-response curve shape identifies which mechanism is rate-limiting
+
+LDN's four mechanisms engage at different doses (@sec:hormetic-dose-response): TLR4/Nrf2 anti-inflammatory priming peaks at 0.5–1.5 mg, compensatory endorphin upregulation plateaus at 1.5–3.0 mg, TRPM3 restoration may require 3.0–4.5 mg, and orexin disinhibition tracks the TLR4 dose-response. The dose at which a patient responds is therefore itself a diagnostic readout.
+
+*Why dose-response implicates mechanism:* Benefit at 0.5–1.5 mg that disappears at 3.0–4.5 mg → TLR4/Nrf2 hormetic mechanism dominant — higher doses remove the basal TLR4 tone sustaining the anti-inflammatory priming, so benefit collapses @Calabrese2021Nrf2 @Kucic2021LDNmicroglia. Benefit that plateaus at 1.5–3.0 mg and persists at 4.5 mg → endorphin compensation dominant (a hormetic mechanism would have worsened at the high dose). Benefit only at 3.0–4.5 mg → TRPM3 or orexin dominant. A biphasic pattern (benefit at 0.5 mg, loss at 1.5 mg, return at 3.0 mg) → two non-overlapping optima engaged: TLR4 hormetic at low dose plus a second mechanism at higher dose.
+
+*Certainty of this inference:* Low. The multi-target dose-optimum model is mechanistically grounded but no within-range dose-response trial has been conducted in any condition.
+
+*What this finding does NOT tell us:* The TRPM3 dose-response is unknown — all in vitro data are single-concentration @Cabanas2018trpm3 — so high-dose-only response cannot be confidently attributed to TRPM3 over orexin. Symptom profile helps: wakefulness/cognition-dominant benefit suggests orexin; multi-system benefit suggests TRPM3.
+
+*Action:* Titrate slowly across the full range (0.5 → 4.5 mg) and record response at each dose — the titration is a diagnostic procedure, not just dose-finding. If escalation extinguishes benefit, return to the effective low dose: this is not a failed titration but identification of the hormetic window.
+
+*Level of action:* Varies by identified mechanism — TRPM3 is a trigger-capable root cause (@sec:root-trpm3); TLR4 calming is a partial root cause; endorphin and orexin effects are symptom management.
+
 ====== What a positive response does NOT reveal
 
-- *Which of the four mechanisms is responsible.* LDN targets all four simultaneously; response cannot be attributed to any single one.
+- *Which of the four mechanisms is responsible — at a single fixed dose.* LDN targets all four simultaneously, so response at one dose cannot be attributed to any single mechanism. However, the dose-response curve shape discriminates (Finding 5): benefit lost on escalation implicates the TLR4/Nrf2 window; plateau without loss implicates endorphin compensation; high-dose-only benefit implicates TRPM3 or orexin.
 - *Whether response is pharmacological or placebo.* LDN has never been demonstrated superior to placebo in an ME/CFS RCT. Some or all responses may be placebo effects or natural fluctuation.
 - *The upstream cause.* LDN calms microglia and may restore TRPM3, but does not identify what triggered these dysfunctions — infection, autoantibodies, metabolic collapse, or genetic vulnerability.
 
@@ -78,9 +92,9 @@ If ME/CFS does not involve significant microglial TLR4-driven neuroinflammation,
 
 TRPM3 channelopathy may not be universal in ME/CFS. Some patients may have normal TRPM3 function, or dysfunction from mechanisms LDN cannot correct (direct channel-blocking autoantibodies rather than regulatory impairment). LDN may also restore NK cell TRPM3 without affecting neuronal or vascular TRPM3.
 
-====== Interpretation 3 — Dose or duration insufficient
+====== Interpretation 3 — Dose wrong — possibly too high, not too low
 
-No dose-response studies exist. Some patients may need higher doses (up to 6 mg) or longer treatment.
+No dose-response studies exist. Some patients may need higher doses (up to 6 mg) or longer treatment. But the hormetic model (@sec:hormetic-dose-response) implies the opposite failure mode is equally likely: if the patient's therapeutic mechanism is the TLR4/Nrf2 window (0.5–1.5 mg), a trial conducted only at 3.0–4.5 mg sits above the therapeutic window and produces apparent non-response even in a true responder. Non-response cannot be concluded unless the low-dose window has also been tested.
 
 ====== Interpretation 4 — Objective benefit without subjective improvement
 
