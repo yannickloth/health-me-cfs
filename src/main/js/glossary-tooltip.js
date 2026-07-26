@@ -18,7 +18,10 @@
     imaging: 'Imaging', pathogen: 'Pathogen', diagnostic: 'Diagnostic', method: 'Method',
     treatment: 'Treatment', organization: 'Organization', regulation: 'Regulation',
     administration: 'Administration', neurotrophin: 'Neurotrophin', cofactor: 'Cofactor',
-    concept: 'Concept', mechanism: 'Mechanism', anatomy: 'Anatomy', vitamin: 'Vitamin'
+    concept: 'Concept', mechanism: 'Mechanism', anatomy: 'Anatomy', vitamin: 'Vitamin',
+    hypothesis: 'Hypothesis', physiology: 'Physiology', study: 'Study',
+    neuropeptide: 'Neuropeptide',
+    'cell-biology': 'Cell Biology', 'immunology': 'Immunology'
   };
   const ESCAPE_RE = /[&<>"]/g;
   const ESCAPE_MAP = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };

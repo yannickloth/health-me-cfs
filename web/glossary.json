@@ -321,8 +321,7 @@
   },
   "NRF2": {
     "label": "NRF2",
-    "category": "transcription_factor",
-    "definition": "Nuclear factor Erythroid 2-Related Factor 2: the master regulator of antioxidant gene expression. Impaired NRF2 activation leads to reduced antioxidant defenses in ME/CFS."
+    "alias": "Nrf2"
   },
   "SOD": {
     "label": "SOD",
@@ -3206,8 +3205,8 @@
   },
   "Treg": {
     "label": "Treg",
-    "category": "immune",
-    "definition": "Regulatory T cells: CD4+ FOXP3+ T cells that suppress excessive immune responses and maintain self-tolerance. Reduced Treg numbers or function may permit autoimmune processes to develop in ME/CFS; reduced Treg/Th17 ratio is a reported finding."
+    "category": "measurement",
+    "definition": "Regulatory T cell — a subset of CD4+ T cells that suppress immune responses and maintain self-tolerance, preventing autoimmunity."
   },
   "B cell": {
     "label": "B cell",
@@ -3282,7 +3281,7 @@
   "DecodeME": {
     "label": "DecodeME",
     "category": "study",
-    "definition": "The largest genome-wide association study (GWAS) of ME/CFS to date (>15,000 participants, 8 million SNPs). Identified 8 genome-wide significant loci with brain tissue enrichment via MAGMA analysis (CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C). Estimated SNP-based heritability at 9.5%. Published as a preprint in 2025 — the first molecular demonstration that ME/CFS has a polygenic genetic architecture with neurological tissue distribution."
+    "definition": "The largest genome-wide association study (GWAS) of ME/CFS to date (&gt;15,000 participants, 8 million SNPs). Identified 8 genome-wide significant loci with brain tissue enrichment via MAGMA analysis (CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C). Estimated SNP-based heritability at 9.5%. Published as a preprint in 2025 — the first molecular demonstration that ME/CFS has a polygenic genetic architecture with neurological tissue distribution."
   },
   "lactate": {
     "label": "lactate",
@@ -4742,8 +4741,8 @@
   },
   "IgG": {
     "label": "IgG",
-    "category": "immune",
-    "definition": "Immunoglobulin G: the most abundant antibody isotype in blood, mediating opsonization, complement activation, and neonatal immunity. IgG autoantibodies against GPCRs (adrenergic, muscarinic, angiotensin receptors) have been identified in ME/CFS subsets. IVIG provides pooled donor IgG."
+    "category": "measurement",
+    "definition": "Immunoglobulin G — the most abundant antibody class in blood, providing long-term immunity and able to cross the placenta."
   },
   "IL": {
     "label": "IL",
@@ -6938,7 +6937,7 @@
   "FTR": {
     "label": "Ferritin:TSAT Ratio (FTR)",
     "category": "measurement",
-    "definition": "The ratio of serum ferritin (µg/L) divided by transferrin saturation (%). FTR > 10 suggests functional iron deficiency (iron present but trapped); FTR < 5 suggests genuine iron deficiency. A proposed — but not yet validated — diagnostic tool for distinguishing iron phenotypes in post-viral fatigue."
+    "definition": "The ratio of serum ferritin (µg/L) divided by transferrin saturation (%). FTR &gt; 10 suggests functional iron deficiency (iron present but trapped); FTR &lt; 5 suggests genuine iron deficiency. A proposed — but not yet validated — diagnostic tool for distinguishing iron phenotypes in post-viral fatigue."
   },
   "NTBI": {
     "label": "Non-Transferrin-Bound Iron (NTBI)",
@@ -7078,9 +7077,8 @@
     "definition": "The broadest ME/CFS case definition ever proposed, requiring only fatigue as the principal symptom with definite onset plus functional impairment. Explicitly allowed inclusion of patients with concurrent psychiatric diagnoses and did not require PEM, pain, or neurological symptoms. Used in the PACE trial; widely criticized for over-inclusion of depression and deconditioning. Superseded by NICE 2021 criteria."
   },
   "glymphatic system": {
-    "label": "Glymphatic System",
-    "category": "system",
-    "definition": "A perivascular network that uses cerebrospinal fluid (CSF) to flush interstitial waste from the brain parenchyma, first characterized by Iliff and Nedergaard (2012). CSF enters along periarterial spaces driven by arterial pulsatility, mixes with interstitial fluid containing metabolic waste, and exits along perivenous spaces. Functionally dependent on astrocyte aquaporin-4 (AQP4) water channels. Primarily active during slow-wave sleep; driven by noradrenaline-regulated vasomotion."
+    "label": "glymphatic system",
+    "alias": "Glymphatic system"
   },
   "meningeal lymphatics": {
     "label": "Meningeal Lymphatic Vessels",
@@ -7669,5 +7667,387 @@
     "label": "Separatrix",
     "category": "concept",
     "definition": "In dynamical systems theory, the boundary that separates two or more basins of attraction. Crossing the separatrix moves the system from one stable state to another. In the ME/CFS disease-state model, the separatrix represents the threshold of perturbation required to transition between healthy and disease equilibria."
+  },
+  "AhR": {
+    "label": "AhR (Aryl Hydrocarbon Receptor)",
+    "alias": "AHR"
+  },
+  "CRPS": {
+    "label": "CRPS",
+    "category": "condition",
+    "definition": "Complex Regional Pain Syndrome — a chronic pain condition typically affecting a limb after injury, involving autonomic dysfunction and functional GPCR autoantibodies."
+  },
+  "PTLDS": {
+    "label": "PTLDS",
+    "category": "condition",
+    "definition": "Post-Treatment Lyme Disease Syndrome — persistent fatigue, pain, and cognitive symptoms after standard antibiotic treatment for Lyme disease."
+  },
+  "GWI": {
+    "label": "GWI",
+    "category": "condition",
+    "definition": "Gulf War Illness — a multi-symptom chronic illness affecting veterans of the 1991 Gulf War, involving fatigue, pain, cognitive problems, and autonomic dysfunction."
+  },
+  "NT2": {
+    "label": "NT2",
+    "category": "condition",
+    "definition": "Narcolepsy Type 2 — excessive daytime sleepiness without cataplexy, distinguished from Type 1 by normal orexin/hypocretin levels."
+  },
+  "IgM": {
+    "label": "IgM",
+    "category": "measurement",
+    "definition": "Immunoglobulin M — the first antibody produced during an immune response, forming pentamers that efficiently activate complement."
+  },
+  "TLR": {
+    "label": "TLR",
+    "category": "pathway",
+    "definition": "Toll-Like Receptor — a family of innate immune receptors that detect pathogen-associated molecular patterns and initiate inflammatory responses."
+  },
+  "ANA": {
+    "label": "ANA",
+    "category": "measurement",
+    "definition": "Anti-Nuclear Antibody — an autoantibody targeting components of the cell nucleus, used as a screening test for autoimmune diseases."
+  },
+  "FDR": {
+    "label": "FDR",
+    "category": "method",
+    "definition": "False Discovery Rate — a statistical correction for multiple comparisons that controls the expected proportion of false positives among significant results."
+  },
+  "DSM": {
+    "label": "DSM",
+    "category": "method",
+    "definition": "Diagnostic and Statistical Manual of Mental Disorders — the American Psychiatric Association's classification system for psychiatric diagnoses."
+  },
+  "ICD": {
+    "label": "ICD",
+    "category": "method",
+    "definition": "International Classification of Diseases — the WHO's global standard for coding health conditions and causes of death."
+  },
+  "CCR4": {
+    "label": "CCR4",
+    "category": "measurement",
+    "definition": "C-C chemokine receptor type 4 — a cell-surface protein on T cells that directs migration toward CCL17/CCL22 chemokines."
+  },
+  "CCR6": {
+    "label": "CCR6",
+    "category": "measurement",
+    "definition": "C-C chemokine receptor type 6 — a cell-surface protein on T cells and dendritic cells that binds CCL20 and directs immune cell homing to mucosal tissues."
+  },
+  "CXCR3": {
+    "label": "CXCR3",
+    "category": "measurement",
+    "definition": "C-X-C chemokine receptor type 3 — a receptor on T cells and NK cells that binds CXCL9/10/11 chemokines and directs migration to sites of inflammation."
+  },
+  "CXCR5": {
+    "label": "CXCR5",
+    "category": "measurement",
+    "definition": "C-X-C chemokine receptor type 5 — a receptor on B cells and T follicular helper cells that directs migration to lymphoid follicles."
+  },
+  "BRANDO": {
+    "label": "BRANDO",
+    "category": "method",
+    "definition": "Blinding-Relevant Assessment of Non-specific effects and Demand characteristics in Outcome — a framework for evaluating whether unblinding bias explains positive trial results."
+  },
+  "lithium": {
+    "label": "Lithium (Li)",
+    "category": "molecule",
+    "definition": "An alkali metal element and psychotropic medication. At low doses (&lt;10 mg/day, as lithium orotate or aspartate), lithium has neuroprotective effects through GSK-3β inhibition, BDNF upregulation, and inositol depletion. Hypothesized in ME/CFS for neuroprotection, circadian rhythm stabilization, and antiviral effects against HHV-6."
+  },
+  "sodium": {
+    "label": "Sodium (Na⁺)",
+    "category": "molecule",
+    "definition": "The primary extracellular cation and main determinant of plasma osmolarity. Sodium influx through voltage-gated sodium channels (Nav) drives action potential generation in neurons and muscle. Sodium handling is relevant to ME/CFS through blood volume regulation, POTS management (salt supplementation), and TRPV4 channel function."
+  },
+  "potassium": {
+    "label": "Potassium (K⁺)",
+    "category": "molecule",
+    "definition": "The primary intracellular cation. The K⁺ gradient across cell membranes, maintained by Na⁺/K⁺-ATPase, sets the resting membrane potential. Potassium channel dysfunction contributes to neuronal excitability abnormalities, cardiac arrhythmia risk, and fatigue in metabolic disorders."
+  },
+  "phosphate": {
+    "label": "Phosphate (PO₄³⁻)",
+    "category": "molecule",
+    "definition": "An essential mineral and component of ATP, DNA, RNA, phospholipids, and bone mineral (hydroxyapatite). Phosphate is central to cellular energy metabolism as the high-energy bond in ATP and phosphocreatine. Mitochondrial phosphate transport is mediated by the phosphate carrier (PiC)."
+  },
+  "chloride": {
+    "label": "Chloride (Cl⁻)",
+    "category": "molecule",
+    "definition": "The primary extracellular anion, essential for maintaining osmotic balance and electrical neutrality. Chloride channels (GABA-A, CFTR, CLC family) regulate neuronal excitability, fluid secretion, and pH homeostasis. GABA-A receptor-mediated Cl⁻ influx underlies inhibitory neurotransmission."
+  },
+  "copper": {
+    "label": "Copper (Cu)",
+    "category": "molecule",
+    "definition": "An essential trace element serving as a cofactor for cytochrome c oxidase (Complex IV), superoxide dismutase (SOD1), dopamine β-hydroxylase, and ceruloplasmin. Copper dyshomeostasis contributes to mitochondrial dysfunction and oxidative stress; copper deficiency can mimic ME/CFS symptoms."
+  },
+  "estrogen": {
+    "label": "Estrogen",
+    "category": "hormone",
+    "definition": "The primary female sex hormone (17β-estradiol, E2), produced mainly by the ovaries. Estrogen modulates immune function, mitochondrial biogenesis, and neurotransmitter systems. The high female-to-male ratio in ME/CFS (3–6:1) and perimenopausal onset suggest estrogen involvement in disease susceptibility and severity."
+  },
+  "progesterone": {
+    "label": "Progesterone",
+    "category": "hormone",
+    "definition": "A steroid hormone produced by the corpus luteum, placenta, and adrenal cortex. Progesterone and its metabolite allopregnanolone are positive allosteric modulators of GABA-A receptors with neurosteroid, anti-inflammatory, and neuroprotective effects. Pregnenolone is the direct precursor of progesterone."
+  },
+  "testosterone": {
+    "label": "Testosterone",
+    "category": "hormone",
+    "definition": "The primary male sex hormone androgen, also present in women at lower levels. Testosterone has immunomodulatory, anabolic, and erythropoietic effects. Low testosterone is associated with fatigue and reduced muscle function; supplementation has been explored in ME/CFS primarily in male patients."
+  },
+  "glucagon": {
+    "label": "Glucagon",
+    "category": "hormone",
+    "definition": "A pancreatic α-cell hormone that raises blood glucose by stimulating hepatic glycogenolysis and gluconeogenesis. Counterregulatory to insulin. Glucagon signaling intersects with the cAMP/PKA pathway and may be dysregulated in ME/CFS metabolic dysfunction."
+  },
+  "leptin": {
+    "label": "Leptin",
+    "category": "hormone",
+    "definition": "An adipokine hormone produced by adipose tissue that signals energy sufficiency to the hypothalamus, suppressing appetite and increasing energy expenditure. Leptin also modulates immune function (promoting Th1 responses). Leptin dysregulation may contribute to ME/CFS metabolic and immune dysfunction."
+  },
+  "cholesterol": {
+    "label": "Cholesterol",
+    "category": "molecule",
+    "definition": "A sterol lipid essential for cell membrane fluidity, lipid raft formation, and the precursor for all steroid hormones, vitamin D, and bile acids. Dysregulated cholesterol metabolism, including altered LDL/HDL ratios, has been reported in ME/CFS."
+  },
+  "triglyceride": {
+    "label": "Triglyceride (TG)",
+    "category": "molecule",
+    "definition": "An ester of glycerol with three fatty acid chains, the main form of energy storage in adipose tissue. Elevated triglycerides are a feature of metabolic syndrome; in ME/CFS, altered lipid profiles may reflect impaired fatty acid oxidation and metabolic inflexibility."
+  },
+  "phospholipid": {
+    "label": "Phospholipid",
+    "category": "molecule",
+    "definition": "A lipid consisting of a glycerol backbone, two fatty acid chains, and a phosphate-containing head group. The fundamental building block of all cell membranes. Phospholipids (phosphatidylcholine, phosphatidylethanolamine, phosphatidylinositol, phosphatidylserine) are precursors for signaling molecules including PIP₂ and arachidonic acid."
+  },
+  "cardiolipin": {
+    "label": "Cardiolipin (CL)",
+    "category": "molecule",
+    "definition": "A unique dimeric phospholipid found almost exclusively in the inner mitochondrial membrane. Essential for maintaining mitochondrial cristae structure, stabilizing electron transport chain supercomplexes, and facilitating ATP synthesis. Cardiolipin peroxidation triggers ferroptosis. Autoantibodies against cardiolipin are found in antiphospholipid syndrome and some ME/CFS patients."
+  },
+  "citrate": {
+    "label": "Citrate",
+    "category": "metabolite",
+    "definition": "A tricarboxylic acid and the first intermediate of the Krebs (TCA) cycle, formed by condensation of acetyl-CoA with oxaloacetate via citrate synthase. Beyond the TCA cycle, citrate is exported to the cytoplasm for fatty acid synthesis and regulates glycolysis through inhibition of phosphofructokinase (PFK)."
+  },
+  "succinate": {
+    "label": "Succinate",
+    "category": "metabolite",
+    "definition": "A Krebs cycle intermediate produced from succinyl-CoA by succinyl-CoA synthetase. Oxidized to fumarate by succinate dehydrogenase (Complex II of the electron transport chain). Succinate accumulates during ischemia and inflammation, acting as a signaling molecule through SUCNR1 (GPR91). Elevated succinate indicates mitochondrial dysfunction."
+  },
+  "fumarate": {
+    "label": "Fumarate",
+    "category": "metabolite",
+    "definition": "A Krebs cycle intermediate produced by succinate dehydrogenase (Complex II). Converted to malate by fumarase. Fumarate also functions as a signaling metabolite, inhibiting HIF-1α prolyl hydroxylases and thereby stabilizing HIF-1α under normoxic conditions."
+  },
+  "malate": {
+    "label": "Malate",
+    "category": "metabolite",
+    "definition": "A Krebs cycle intermediate produced from fumarate by fumarase. Oxidized to oxaloacetate by malate dehydrogenase (generating NADH). The malate-aspartate shuttle transfers reducing equivalents from the cytosol into the mitochondrial matrix."
+  },
+  "oxaloacetate": {
+    "label": "Oxaloacetate (OAA)",
+    "category": "metabolite",
+    "definition": "A Krebs cycle intermediate formed from malate by malate dehydrogenase, and the substrate for citrate synthase (condensation with acetyl-CoA). Oxaloacetate is also a key substrate for gluconeogenesis. Low oxaloacetate may limit TCA cycle flux in ME/CFS, contributing to energy deficit."
+  },
+  "alpha-ketoglutarate": {
+    "label": "α-Ketoglutarate (α-KG)",
+    "category": "metabolite",
+    "definition": "A key Krebs cycle intermediate produced by isocitrate dehydrogenase. α-KG is a substrate for α-ketoglutarate dehydrogenase complex and a cofactor for α-ketoglutarate-dependent dioxygenases including TET enzymes (DNA demethylation) and HIF prolyl hydroxylases. Links mitochondrial metabolism to epigenetic regulation."
+  },
+  "isocitrate": {
+    "label": "Isocitrate",
+    "category": "metabolite",
+    "definition": "A Krebs cycle intermediate produced from cis-aconitate by aconitase. Oxidized to α-ketoglutarate by isocitrate dehydrogenase (IDH), generating NADPH. IDH1/IDH2 mutations produce the oncometabolite 2-hydroxyglutarate and alter cellular redox and epigenetic states."
+  },
+  "cysteine": {
+    "label": "Cysteine (Cys)",
+    "category": "molecule",
+    "definition": "A sulfur-containing amino acid and the rate-limiting precursor for glutathione synthesis. Cysteine's thiol group is essential for protein structure (disulfide bonds) and redox signaling. Cysteine availability limits glutathione production, linking oxidative stress to glutathione depletion in ME/CFS."
+  },
+  "glutamine": {
+    "label": "Glutamine (Gln)",
+    "category": "molecule",
+    "definition": "The most abundant free amino acid in the body. A key fuel for immune cells (particularly lymphocytes and macrophages), a precursor for glutamate and GABA, and essential for nitrogen transport and acid-base balance. Glutamine supplementation may benefit ME/CFS by supporting immune function and gut barrier integrity."
+  },
+  "aspartate": {
+    "label": "Aspartate (Asp)",
+    "category": "molecule",
+    "definition": "An amino acid involved in the malate-aspartate shuttle, urea cycle, and purine nucleotide synthesis. Aspartate is also an excitatory neurotransmitter acting on NMDA receptors. The malate-aspartate shuttle is critical for transferring reducing equivalents into mitochondria."
+  },
+  "glucose": {
+    "label": "Glucose",
+    "category": "molecule",
+    "definition": "The primary monosaccharide used for cellular energy production via glycolysis. Glucose is metabolized to pyruvate, then enters the TCA cycle under aerobic conditions or is converted to lactate anaerobically. Impaired glucose metabolism is documented in ME/CFS, with reduced glycolytic flux and a shift toward ketone body utilization."
+  },
+  "adenosine": {
+    "label": "Adenosine",
+    "category": "molecule",
+    "definition": "A purine nucleoside structural component of ATP, ADP, AMP, and RNA. Acts as a signaling molecule through four GPCR subtypes (A₁, A₂A, A₂B, A₃), regulating sleep, inflammation, vasodilation, and immune function. Extracellular adenosine increases during cellular stress. Adenosine signaling dysregulation is relevant to ME/CFS through purinergic signaling, sleep dysfunction, and immune modulation."
+  },
+  "creatinine": {
+    "label": "Creatinine",
+    "category": "metabolite",
+    "definition": "A metabolic waste product of creatine phosphate breakdown in muscle. Produced at a relatively constant rate proportional to muscle mass. Serum creatinine is the most common clinical measure of renal function. Low creatinine in ME/CFS may reflect reduced muscle mass and metabolic rate."
+  },
+  "phosphocreatine": {
+    "label": "Phosphocreatine (PCr)",
+    "category": "metabolite",
+    "definition": "A high-energy phosphate reservoir in muscle and brain, synthesized from creatine by creatine kinase. PCr rapidly regenerates ATP from ADP during increased energy demand via the creatine kinase reaction. Reduced PCr recovery after exercise in ME/CFS indicates impaired mitochondrial ATP synthesis."
+  },
+  "vitamin E": {
+    "label": "Vitamin E (Tocopherol)",
+    "category": "vitamin",
+    "definition": "A fat-soluble antioxidant vitamin (α-tocopherol) that protects cell membranes from lipid peroxidation. Vitamin E cycles with vitamin C and glutathione to neutralize free radicals. Supplementation is explored in ME/CFS for oxidative stress reduction."
+  },
+  "biotin": {
+    "label": "Biotin (Vitamin B₇)",
+    "category": "vitamin",
+    "definition": "A water-soluble B vitamin serving as a cofactor for carboxylase enzymes: pyruvate carboxylase (gluconeogenesis), acetyl-CoA carboxylase (fatty acid synthesis), propionyl-CoA carboxylase, and β-methylcrotonyl-CoA carboxylase. Biotin is also involved in histone biotinylation and gene regulation."
+  },
+  "hexokinase": {
+    "label": "Hexokinase (HK)",
+    "category": "enzyme",
+    "definition": "The first enzyme of glycolysis, phosphorylating glucose to glucose-6-phosphate. Hexokinase is inhibited by its product glucose-6-phosphate (feedback regulation). Hexokinase II (HK2) binds to mitochondrial VDAC, coupling glycolysis to mitochondrial metabolism and inhibiting apoptosis."
+  },
+  "caspase": {
+    "label": "Caspase",
+    "category": "enzyme",
+    "definition": "A family of cysteine-aspartic proteases that execute programmed cell death (apoptosis) and mediate inflammation. Initiator caspases (caspase-8, -9) activate executioner caspases (caspase-3, -6, -7). Caspase-1 (part of the NLRP3 inflammasome) cleaves pro-IL-1β and pro-IL-18."
+  },
+  "lysozyme": {
+    "label": "Lysozyme",
+    "category": "enzyme",
+    "definition": "An antimicrobial enzyme found in secretions (tears, saliva, mucus) that cleaves peptidoglycan in bacterial cell walls. Also present in neutrophil and macrophage granules. A key component of innate mucosal immunity."
+  },
+  "perforin": {
+    "label": "Perforin",
+    "category": "protein",
+    "definition": "A pore-forming protein released by cytotoxic T cells and NK cells. Perforin polymerizes on the target cell membrane, creating pores that allow granzyme entry, triggering apoptosis. Reduced perforin expression and NK cell cytotoxicity are among the most replicated findings in ME/CFS."
+  },
+  "granzyme": {
+    "label": "Granzyme",
+    "category": "protein",
+    "definition": "A family of serine proteases (granzyme A, B, K, M) released by cytotoxic T cells and NK cells. Granzymes enter target cells through perforin-formed pores and induce apoptosis by activating caspases or directly cleaving mitochondrial proteins. Reduced granzyme B expression contributes to impaired NK cytotoxicity in ME/CFS."
+  },
+  "calprotectin": {
+    "label": "Calprotectin (S100A8/S100A9)",
+    "category": "protein",
+    "definition": "A heterodimeric calcium- and zinc-binding protein complex released by neutrophils and monocytes during inflammation. Fecal calprotectin is a clinical biomarker for intestinal inflammation (IBD). Elevated fecal calprotectin in ME/CFS may indicate low-grade gut inflammation and barrier dysfunction."
+  },
+  "endorphin": {
+    "label": "Endorphin",
+    "category": "neuropeptide",
+    "definition": "An endogenous opioid peptide produced in the pituitary and hypothalamus. Endorphins bind μ-opioid receptors, producing analgesia and euphoria. Released during exercise (runner's high), stress, and immune activation. Endorphin dysregulation may contribute to the pain amplification and reward-processing abnormalities in ME/CFS."
+  },
+  "ubiquitin": {
+    "label": "Ubiquitin",
+    "category": "protein",
+    "definition": "A small (8.5 kDa) regulatory protein that is covalently attached to target proteins, marking them for proteasomal degradation, altering their activity, or directing their localization. The ubiquitin-proteasome system regulates protein turnover and is central to cellular stress responses, including mitophagy and NF-κB signaling."
+  },
+  "retinal": {
+    "label": "Retinal (Retinaldehyde)",
+    "category": "molecule",
+    "definition": "An aldehyde form of vitamin A (retinol). Retinal is the chromophore that binds opsin proteins to form visual pigments (rhodopsin) in the retina. Also converted to retinoic acid, which regulates gene expression through retinoic acid receptors. Retinoic acid modulates immune function and neuronal differentiation."
+  },
+  "probiotic": {
+    "label": "Probiotic",
+    "category": "supplement",
+    "definition": "Live microorganisms (typically Lactobacillus, Bifidobacterium, Saccharomyces strains) that confer health benefits when administered in adequate amounts. Probiotics are used in ME/CFS to modulate the gut microbiome, strengthen intestinal barrier function, reduce LPS translocation, and exert anti-inflammatory effects.",
+    "class": "Live microorganisms / gut microbiome modulator",
+    "rx": "OTC (US, EU)"
+  },
+  "prebiotic": {
+    "label": "Prebiotic",
+    "category": "supplement",
+    "definition": "Non-digestible fiber compounds (inulin, fructooligosaccharides, galactooligosaccharides) that selectively stimulate the growth of beneficial gut bacteria. Prebiotics increase butyrate-producing bacteria and short-chain fatty acid production, supporting intestinal barrier integrity and reducing systemic inflammation.",
+    "class": "Dietary fiber / gut microbiome modulator",
+    "rx": "OTC (US, EU)"
+  },
+  "memantine": {
+    "label": "Memantine",
+    "category": "medication",
+    "definition": "An NMDA receptor antagonist (non-competitive, low-affinity) used for moderate-to-severe Alzheimer's disease. Blocks pathological glutamate overactivation while preserving physiological glutamatergic signaling. Hypothesized in ME/CFS for neuroprotection and reducing central sensitization and excitotoxicity.",
+    "generic": "Memantine hydrochloride",
+    "brand": "Namenda, Axura, Ebixa",
+    "class": "NMDA receptor antagonist",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Memantine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Memantine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Memantine"
+      }
+    ]
+  },
+  "daridorexant": {
+    "label": "Daridorexant",
+    "category": "medication",
+    "definition": "A dual orexin receptor antagonist (DORA) used for insomnia. Blocks both OX₁R and OX₂R, reducing hyperarousal without the GABAergic side effects of benzodiazepines. Relevant to ME/CFS for addressing sleep initiation/maintenance dysfunction and orexin dysregulation.",
+    "generic": "Daridorexant",
+    "brand": "Quviviq",
+    "class": "Dual orexin receptor antagonist (DORA)",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Daridorexant%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Daridorexant"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Daridorexant"
+      }
+    ]
+  },
+  "belimumab": {
+    "label": "Belimumab",
+    "category": "medication",
+    "definition": "A monoclonal antibody that inhibits BAFF (B-cell activating factor), reducing B cell survival and autoantibody production. Used for systemic lupus erythematosus. Relevant to ME/CFS for the B cell/autoantibody hypothesis, though not yet formally studied.",
+    "generic": "Belimumab",
+    "brand": "Benlysta",
+    "class": "BAFF inhibitor / monoclonal antibody",
+    "rx": "Prescription (US, EU; IV or SC)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Belimumab%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Belimumab"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Belimumab"
+      }
+    ]
+  },
+  "prostacyclin": {
+    "label": "Prostacyclin (PGI₂)",
+    "category": "molecule",
+    "definition": "A potent vasodilator and inhibitor of platelet aggregation, produced by vascular endothelial cells from arachidonic acid via cyclooxygenase and prostacyclin synthase. Prostacyclin analogs (iloprost, treprostinil) are used for pulmonary hypertension. Impaired prostacyclin production may contribute to ME/CFS vascular and microcirculatory dysfunction."
+  },
+  "thromboxane": {
+    "label": "Thromboxane (TXA₂)",
+    "category": "molecule",
+    "definition": "A potent vasoconstrictor and platelet aggregator produced by platelets from arachidonic acid via thromboxane synthase. The balance between prostacyclin (vasodilatory) and thromboxane (vasoconstrictive) regulates vascular tone and hemostasis. Thromboxane predominance may contribute to microvascular dysfunction in ME/CFS."
+  },
+  "anandamide": {
+    "label": "Anandamide (AEA)",
+    "category": "molecule",
+    "definition": "An endocannabinoid neurotransmitter (N-arachidonoylethanolamine) that activates CB₁ and CB₂ receptors, modulating pain, mood, appetite, and memory. Anandamide is degraded by fatty acid amide hydrolase (FAAH). Dysregulated endocannabinoid signaling may contribute to ME/CFS pain amplification and sleep disturbance."
+  },
+  "2-arachidonoylglycerol": {
+    "label": "2-Arachidonoylglycerol (2-AG)",
+    "category": "molecule",
+    "definition": "The most abundant endocannabinoid, acting as a full agonist at CB₁ and CB₂ receptors. Produced from PIP₂-derived DAG by DAG lipase. 2-AG is the primary retrograde signaling messenger at synapses, suppressing neurotransmitter release. Dysregulated 2-AG signaling impacts pain, inflammation, and neuroplasticity."
   }
 }

@@ -137,7 +137,7 @@ test('CATEGORY_LABELS map covers all used categories', () => {
   const m = jsSource.match(/const CATEGORY_LABELS = \{([^}]+)\}/);
   assert.ok(m, 'CATEGORY_LABELS found in source');
   const labelText = m[1];
-  const missing = [...usedCats].filter(c => !labelText.includes(`${c}:`));
+  const missing = [...usedCats].filter(c => !(labelText.includes(`${c}:`) || labelText.includes(`'${c}':`)));
   assert.strictEqual(missing.length, 0, `CATEGORY_LABELS missing: ${missing.join(', ')}`);
 });
 
