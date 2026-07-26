@@ -132,6 +132,7 @@
 // ── Part I: Clinical Overview ─────────────────────────────────────────────────
 #include "part1-clinical/part1-intro.typ"
 #include "part1-clinical/ch01-introduction/ch01-introduction.typ"
+#include "part1-clinical/ch01b-history-of-mecfs/ch01b-history-of-mecfs.typ"
 #include "part1-clinical/ch02-core-symptoms/ch02-core-symptoms.typ"
 #include "part1-clinical/ch03-additional-symptoms/ch03-additional-symptoms.typ"
 #include "part1-clinical/ch04-diagnostic-criteria/ch04-diagnostic-criteria.typ"
@@ -147,6 +148,8 @@
 #include "part2-pathophysiology/ch11-gut-microbiome/ch11-gut-microbiome.typ"
 #include "part2-pathophysiology/ch12-genetics-epigenetics/ch12-genetics-epigenetics.typ"
 #include "part2-pathophysiology/ch13-integrative-models/ch13-integrative-models.typ"
+#include "part2-pathophysiology/ch13a-comparative-nosology/ch13a-comparative-nosology.typ"
+#include "part2-pathophysiology/ch11a-brain-clearance-architecture/ch11a-brain-clearance-architecture.typ"
 #include "part2-pathophysiology/ch14-speculative-hypotheses/ch14-speculative-hypotheses.typ"
 #include "part2-pathophysiology/ch15-symptom-producing-mechanisms/ch15-symptom-producing-mechanisms.typ"
 #include "part2-pathophysiology/ch16-causal-hierarchy/ch16-causal-hierarchy.typ"
@@ -170,13 +173,18 @@
 
 // ── Part IV: Research and Evidence Synthesis ──────────────────────────────────
 #include "part4-research/part4-intro.typ"
+#include "part4-research/ch30a-research-methods/ch30a-research-methods.typ"
 #include "part4-research/ch31-biomarker-research/ch31-biomarker-research.typ"
 #include "part4-research/ch32-clinical-trials/ch32-clinical-trials.typ"
 #include "part4-research/ch33-mechanistic-studies/ch33-mechanistic-studies.typ"
 #include "part4-research/ch34-epidemiology-outcomes/ch34-epidemiology-outcomes.typ"
+#include "part4-research/ch34a-healthcare-systems-policy/ch34a-healthcare-systems-policy.typ"
+#include "part4-research/ch34b-economic-impact/ch34b-economic-impact.typ"
 #include "part4-research/ch35-controversies/ch35-controversies.typ"
 #include "part4-research/ch36-translational-findings/ch36-translational-findings.typ"
+#include "part4-research/ch36a-global-perspectives/ch36a-global-perspectives.typ"
 #include "part4-research/ch37-research-infrastructure/ch37-research-infrastructure.typ"
+#include "part4-research/ch37a-patient-generated-knowledge/ch37a-patient-generated-knowledge.typ"
 #include "part4-research/ch38-proposed-studies/ch38-proposed-studies.typ"
 #include "part4-research/ch39-research-proposals-index.typ"
 

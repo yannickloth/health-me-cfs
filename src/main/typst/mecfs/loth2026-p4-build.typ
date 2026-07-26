@@ -170,13 +170,18 @@
 
 // ── Part IV: Research and Evidence Synthesis ──────────────────────────────────
 #include "part4-research/part4-intro.typ"
+#include "part4-research/ch30a-research-methods/ch30a-research-methods.typ"
 #include "part4-research/ch31-biomarker-research/ch31-biomarker-research.typ"
 #include "part4-research/ch32-clinical-trials/ch32-clinical-trials.typ"
 #include "part4-research/ch33-mechanistic-studies/ch33-mechanistic-studies.typ"
 #include "part4-research/ch34-epidemiology-outcomes/ch34-epidemiology-outcomes.typ"
+#include "part4-research/ch34a-healthcare-systems-policy/ch34a-healthcare-systems-policy.typ"
+#include "part4-research/ch34b-economic-impact/ch34b-economic-impact.typ"
 #include "part4-research/ch35-controversies/ch35-controversies.typ"
 #include "part4-research/ch36-translational-findings/ch36-translational-findings.typ"
+#include "part4-research/ch36a-global-perspectives/ch36a-global-perspectives.typ"
 #include "part4-research/ch37-research-infrastructure/ch37-research-infrastructure.typ"
+#include "part4-research/ch37a-patient-generated-knowledge/ch37a-patient-generated-knowledge.typ"
 #include "part4-research/ch38-proposed-studies/ch38-proposed-studies.typ"
 #include "part4-research/ch39-research-proposals-index.typ"
 
