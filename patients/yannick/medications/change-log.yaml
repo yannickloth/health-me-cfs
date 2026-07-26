@@ -1,6 +1,39 @@
 # Medication Change Log
 
 changes:
+  - date: 2026-07-26
+    medication: "Aripiprazole (low-dose, LDA)"
+    action: dose restoration (continued)
+    previous_dose: 0.5mg
+    new_dose: 1mg
+    change_date: 2026-07-25
+    context: "PEM episode after Libramont fair at 0.5mg dose"
+    notes: >
+      PEM ongoing day 3 (Jul 26). Unable to stand to iron clothes —
+      significant orthostatic intolerance. Fatigue, headache persist.
+      At 1mg LDA since Jul 25 (day 2-3 of restored dose). Whether 1mg
+      LDA protection is delayed in re-establishing, or this PEM was
+      too deeply triggered to be reversed after onset, is unclear.
+      Virage obsessionnel concern by Geneviève Fourel prompted the dose
+      reduction Jul 24; patient self-assesses mood as stable.
+      Dose-response question remains: is 0.5mg below therapeutic
+      threshold for microglial D2 modulation?
+
+  - date: 2026-07-24
+    medication: "Aripiprazole (low-dose, LDA)"
+    action: dose reduction (temporary, 1 day)
+    previous_dose: 1mg
+    new_dose: 0.5mg
+    rationale: >
+      Concern raised by Geneviève Fourel that LDA may be inducing a
+      "virage obsessionnel" (bipolar mood switch). Patient reduced dose
+      to 0.5mg for one day as a precaution.
+    result: >
+      PEM developed after full-day Foire agricole de Libramont at 0.5mg.
+      Whether PEM due to reduced LDA dose, exertion magnitude, or
+      weather/POTS is indeterminate. Patient returned to 1mg Jul 25.
+    reference_event: "2026-07-24_foire-libramont-pem-trigger.md"
+
   - date: 2026-07-23
     medication: "Aripiprazole (low-dose, LDA)"
     action: observation

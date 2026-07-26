@@ -440,7 +440,9 @@ Full discussion: @ch:immune-dysfunction and @ch:genetics-epigenetics.
 
 - *Intracellular sodium accumulation in muscle.* Sodium MRI shows elevated intracellular Na⁺ in ME/CFS skeletal muscle, correlating inversely with grip strength; likely reflects Na⁺/K⁺-ATPase dysfunction and ion pump energy failure.
 
-- *Glycolytic fiber shift.* Increased proportion of glycolytic (Type II) fibres in ME/CFS muscle biopsies, representing adaptive remodelling toward anaerobic metabolism consistent with chronic OXPHOS insufficiency.
+- *Glycolytic fiber shift.* Increased proportion of glycolytic (Type II) fibres in ME/CFS muscle biopsies, representing adaptive remodelling toward anaerobic metabolism consistent with chronic OXPHOS insufficiency. This shift aligns with the metabolic reprogramming toward glycolysis identified in satellite cell-depleted muscle (@spec:sc-depletion-glycolytic-shift below).
+
+- *Satellite cell depletion.* A 2026 conference abstract reports significantly reduced Pax7⁺ satellite cells in vastus lateralis biopsies of 26 ME/CFS and 25 Long COVID patients vs 30 controls (P$<$0.001); trending reduced PDGFRα⁺ fibroadipogenic progenitor (FAP) cells (P=0.061); and a positive correlation between satellite cell count and OXPHOS capacity (r=0.43, P=0.0035) @Charlton2026SCdepletion. Satellite cell count was reduced both at baseline and 24 hours post-exhaustive exercise. If replicated, reduced regeneration capacity provides a mechanism for the repeated damage-repair cycling noted above: muscle cannot adequately repair micro-damage from each exertion episode, causing cumulative structural deterioration. *Evidence status: Preliminary — single cohort, single biobank (Wüst lab, VU Amsterdam); not independently replicated; conference abstract only.*
 
 - *Capillary rarefaction and basement membrane thickening.* Fewer capillaries and thicker capillary basement membranes in ME/CFS/Long COVID skeletal muscle (independently replicated across 3 countries); CD169⁺ macrophage infiltration after exercise; endothelial microvacuolization, hypertrophy, and degeneration on EM; 60-day bed rest comparator confirmed the patient phenotype is structurally distinct from simple deconditioning; reduced oxygen delivery capacity at the tissue level @Charlton2025muscleMicrovasc @Aschman2023postcovidCapillary @Agergaard2023LongCOVIDmyopathy.
 
@@ -448,7 +450,51 @@ Full discussion: @ch:immune-dysfunction and @ch:genetics-epigenetics.
 
 - *hEDS/connective tissue hypermobility overlap.* Substantial clinical overlap between ME/CFS, hEDS, POTS, and MCAS; mast cell-derived histamine and tryptase degrade extracellular matrix and collagen, creating a bidirectional relationship between mast cell activation and structural connective tissue weakening. The capillary BM thickening documented above (Family 7) adds a further mechanism: reduced O₂ diffusion through thickened capillary walls impairs fibroblast ATP availability, slowing collagen synthesis and wound healing — an acquired tissue-level impairment layered on top of any genetic connective tissue predisposition @Charlton2025muscleMicrovasc @Wirth2026LaxityConsequences.
 
-*Evidence status:* Emerging (muscle and capillary findings replicated in Long COVID/ME/CFS shared cohorts; structural SFN documented; hEDS overlap clinically well-established).
+*Evidence status:* Emerging (muscle and capillary findings replicated in Long COVID/ME/CFS shared cohorts; structural SFN documented; hEDS overlap clinically well-established; satellite cell depletion — preliminary, single cohort).
+
+#speculation(title: [Satellite Cell Depletion as a Mechanism of Progressive Muscle Damage in ME/CFS])[
+A 2026 conference abstract from the Wüst lab reports significantly reduced Pax7⁺ satellite cells in vastus lateralis biopsies of 26 ME/CFS and 25 Long COVID patients vs 30 healthy controls (P$<$0.001) — the first direct measurement of satellite cells in ME/CFS muscle @Charlton2026SCdepletion. Fibroadipogenic progenitor (FAP) cells, which provide essential niche support for satellite cells, showed a trending reduction (PDGFRα⁺, P=0.061). Both reductions were present at baseline and 24 hours post-exhaustive exercise.
+
+If replicated, satellite cell depletion would mean that muscle micro-damage from each exertion episode cannot be adequately repaired. The consequence is a structural ratchet: each PEM episode causes muscle damage that is repaired incompletely or replaced with fibrotic tissue rather than functional myofibres. This directly explains the simultaneous necrotic and regenerating fibres observed on electron microscopy — the muscle is caught in a cycle of damage and incomplete repair, with satellite cell exhaustion as the underlying cause.
+
+The finding is biologically coherent: satellite cell activation and differentiation requires a metabolic switch from glycolysis to OXPHOS @Bhattacharya2024SCmetabolic, and the observed SC-OXPHOS correlation (r=0.43, P=0.0035) is consistent with this pathway — impaired mitochondrial function directly limits the regenerative capacity of muscle stem cells. Chronic inflammation (TNFα, IL-6), oxidative stress, and metabolic dysfunction — all documented in ME/CFS — are established drivers of satellite cell depletion and impaired self-renewal in chronic disease @Dumont2015SCbiology.
+
+The trending FAP cell reduction adds a niche-level dimension: even if some satellite cells survive, the FAP-depleted microenvironment may fail to provide the necessary support signals for myogenic differentiation @Yin2013SCniche.
+
+*Certainty: 0.37* — conference abstract only (no full paper); single biobank, unreplicated; no adjustment for age, sex, menopause, or physical activity (all of which affect satellite cell count); no functional satellite cell assays (ex vivo differentiation); all Wüst-lab publications on this cohort are re-analyses of the same patient biobank, not independent replications.
+
+*Evidence source:* Vastus lateralis biopsy, 26 ME/CFS + 25 Long COVID + 30 healthy controls (mixed cohort, ~50% non-ME/CFS). Inference target: ME/CFS specific. Link is direct — measurement made in target tissue.
+
+*Severity applicability:* Unknown — study population not stratified by severity. Severe/bedbound patients who exert minimally may have different satellite cell profiles (disuse atrophy vs disease-specific depletion). Physical activity was not reported in the abstract — satellite cells are mechanosensitive and decline with disuse in healthy individuals (20–40% loss after 2 weeks of immobilisation in young healthy adults @Dumont2015SCbiology). It is unknown what fraction of the observed SC depletion is disease-specific vs a consequence of reduced activity. The Wüst lab's microvascular study includes a 60-day bed-rest comparator showing disease-specific capillary changes @Charlton2025muscleMicrovasc, but this comparator was for microvasculature only — the bed-rest biopsies have not been reported for satellite cell content.
+
+*Falsifiable prediction:* An independent lab replicating Pax7⁺ satellite cell quantification on vastus lateralis biopsies in a new ME/CFS cohort (n≥20, ICC or IOM criteria, matched for age, physical activity measured by 7-day accelerometry) should find satellite cell counts significantly below controls with effect size comparable to Charlton 2026 after adjusting for activity level.
+
+*Consequence:* If replicated, impaired muscle regeneration provides a direct mechanism for why ME/CFS patients do not recover from exertion normally — their muscle lacks the stem cells needed to repair exercise-induced micro-damage. This would open a new therapeutic axis: interventions that protect or expand the satellite cell pool (e.g., mitochondrial support, anti-inflammatory strategies) could reduce PEM severity and slow progressive decline. The caveat is that satellite cells are in skeletal muscle only — this mechanism cannot explain cognitive dysfunction, orthostatic intolerance, or unrefreshing sleep, which are CNS/autonomic symptoms unrelated to muscle stem cell biology.
+] <spec:sc-depletion-structural-ratchet>
+
+#speculation(title: [Glycolytic Fibre Shift as Both Consequence and Cause of Regeneration Failure])[
+The shift toward glycolytic (Type II) fibres in ME/CFS muscle biopsies is typically interpreted as adaptive remodelling toward anaerobic metabolism — a downstream consequence of mitochondrial dysfunction. The satellite cell depletion finding suggests a bidirectional relationship: satellite cells require OXPHOS for differentiation @Bhattacharya2024SCmetabolic, so the glycolytic shift may degrade the satellite cell niche, impairing regeneration capacity. Impaired regeneration then drives further loss of oxidative fibres (which are preferentially damaged by exertion and require satellite cell-mediated repair), accelerating the shift. The outcome is a self-reinforcing loop: OXPHOS failure → glycolytic remodelling → impaired satellite cell function → failed repair of oxidative fibres → further glycolytic dominance.
+
+The Charlton 2026 abstract supports the metabolic link directly: reduced antioxidative metabolites and a shift away from oxidative metabolism were documented in the same biopsies that showed satellite cell depletion @Charlton2026SCdepletion.
+
+*Certainty: 0.30* — inferential extension of a single conference-abstract finding. The SC-OXPHOS dependency is well-established in general biology @Bhattacharya2024SCmetabolic, but the bidirectional loop hypothesis is untested.
+
+*Falsifiable prediction:* In longitudinal muscle biopsies, the proportion of glycolytic fibres should inversely correlate with satellite cell count, and both should worsen with disease duration — a pattern not explained by deconditioning alone (which spares Type I fibres).
+
+*Consequence:* If true, interventions that support mitochondrial function (e.g., CoQ10, NAD⁺ precursors) could have a double benefit — improving energy production AND preserving the muscle's ability to repair itself. Conversely, the loop implies that by the time the glycolytic shift is established, mitochondrial support alone may be insufficient without also addressing the satellite cell deficit.
+] <spec:sc-depletion-glycolytic-shift>
+
+#open-question(title: [Is Satellite Cell Depletion in ME/CFS Primary or Secondary?])[
+The single-cohort finding does not distinguish cause from consequence. Satellite cell depletion could be:
+1. *Primary disease mechanism* — a viral or autoimmune attack on the satellite cell niche (consistent with post-infectious onset in both ME/CFS and Long COVID)
+2. *Secondary to mitochondrial dysfunction* — SCs require OXPHOS for self-renewal; mitochondrial failure → SC exhaustion (supported by the r=0.43 SC-OXPHOS correlation)
+3. *Secondary to chronic inflammation* — TNFα-driven satellite cell senescence is established in chronic disease
+4. *Secondary to disuse/deconditioning* — muscle unloading reduces satellite cell content (countered by the bed-rest comparator showing distinct structural changes, but satellite cell-specific bed-rest data in the Slaghekke/Charlton cohort has not been published)
+
+These mechanisms are not mutually exclusive. The shared finding across ME/CFS and Long COVID — two conditions with different triggers but shared symptoms and PEM — argues against a single disease-specific mechanism and toward a convergent downstream failure mode. Resolution requires: (a) independent replication in a non-Wüst cohort, (b) functional satellite cell assays (ex vivo differentiation capacity), (c) longitudinal data showing progression with disease duration, and (d) confounder adjustment for age, sex, physical activity, and menopause.
+
+*Consequence:* The practical implication diverges sharply by mechanism — if primary (autoimmune/viral niche attack), immunosuppression or antiviral therapy could restore regeneration; if secondary to mitochondrial failure, metabolic support is the logical target; if secondary to inflammation, anti-inflammatory strategies take priority. The wrong bet wastes precious patient energy on futile trials.
+] <oq:sc-depletion-primary-vs-secondary>
 
 == Family 18: Transcriptional and Nuclear Signalling
 <sec:um-transcriptional>
