@@ -6,7 +6,7 @@ argument-hint: <topic description>
 
 # Evaluate and Integrate New Topic into the ME/CFS Paper
 
-End-to-end: research → synthesize → **integration decision** → develop → brainstorm → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → review convergence → changelog → commit.
+End-to-end: research → synthesize → **integration decision** → develop → brainstorm → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → strategic-framing propagation → review convergence → changelog → commit.
 
 **Null hypothesis:** The default outcome is *non-integration*. The burden of proof is on demonstrating that the topic has sufficient evidence and relevance to warrant inclusion. Integration must be earned by passing evidence gates — not assumed.
 
@@ -143,6 +143,7 @@ Before starting any other phase:
    - Phase 9 → quality metrics summary, quality flags
     - Phase 10 → cross-chapter coherence status
     - Phase 10a → synthesis environment added (label, chapter), environments condensed
+    - Phase 10b → framing layers updated (abstract, ch16 intro, root cause sections, reading guide, ch13)
     - Phase 11 → review convergence status per pass
    - Phase 12 → changelog entry summary
    - Phase 13 → row status `✅ done`; Notes: integration guide path, chapters updated, commit hash
@@ -1435,7 +1436,72 @@ Many integrations completed before Phase 10a existed. They may contain scattered
 
 4. **For each selected integration:** re-read the Phase 3 and Phase 5 environments (same procedure as Phase 10a Step 1), identify emergent themes, write the synthesis, add the label, and update the changelog to reference `@syn:<slug>`.
 
-5. **Cross-topic synthesis (advanced):** If ≥3 completed integrations share a common mechanism (e.g., mast cell activation, connective tissue degradation, mitochondrial dysfunction), flag this as a potential *cross-topic synthesis* — a `#synthesis` paragraph that transcends any single integration cycle and synthesizes across multiple completed topics. This is rare; it requires ≥3 completed integrations with overlapping mechanism terms. *Rationale for always flagging (even under an explicit "run Phase 10a"):* a cross-topic synthesis asserts a *new* unifying scientific claim (that mechanism X ties N topics together) rather than merely condensing one topic's existing environments — that is generative, not summarizing, and its scope/framing has multiple defensible forms. Likewise, deciding to **merge two eligible single-topic syntheses into one** (e.g. combining a HIF-1α and a HIF-2α synthesis) is a structuring judgment the user should own. Flag it; do not write it unilaterally. Ask: "These 3 completed integrations all focus on <mechanism X>. Add a cross-topic synthesis paragraph?" or "Topics A and B overlap — one combined synthesis or two separate ones?"
+ 5. **Cross-topic synthesis (advanced):** If ≥3 completed integrations share a common mechanism (e.g., mast cell activation, connective tissue degradation, mitochondrial dysfunction), flag this as a potential *cross-topic synthesis* — a `#synthesis` paragraph that transcends any single integration cycle and synthesizes across multiple completed topics. This is rare; it requires ≥3 completed integrations with overlapping mechanism terms. *Rationale for always flagging (even under an explicit "run Phase 10a"):* a cross-topic synthesis asserts a *new* unifying scientific claim (that mechanism X ties N topics together) rather than merely condensing one topic's existing environments — that is generative, not summarizing, and its scope/framing has multiple defensible forms. Likewise, deciding to **merge two eligible single-topic syntheses into one** (e.g. combining a HIF-1α and a HIF-2α synthesis) is a structuring judgment the user should own. Flag it; do not write it unilaterally. Ask: "These 3 completed integrations all focus on <mechanism X>. Add a cross-topic synthesis paragraph?" or "Topics A and B overlap — one combined synthesis or two separate ones?"
+
+---
+
+## Phase 10b — Strategic-Framing Propagation
+
+**Agent:** main session | **Model:** current
+
+**Trigger:** Runs after every Phase 10a synthesis (both forward and retroactive). Also runs on-demand via "check strategic framing" / "update framing" / "propagate to abstract."
+
+**Purpose:** Phase 10a creates `#synthesis` environments within pathophysiology chapters — but synthesis environments are invisible to most readers. The paper's strategic framing layers (abstract, ch16 intro, reading guide) are where readers form their understanding of the paper's central argument. If a high-level synthesis carries implications for the paper's causal hierarchy, trigger-vs-amplifier classification, genetic architecture, or clinical-strategy claims, those implications must propagate to the framing layers. Phase 10b checks and applies this propagation.
+
+**Strategic framing layers (checked in order):**
+
+| Layer | File | Check |
+|-------|------|-------|
+| Abstract | `shared/abstract.typ` | Does the synthesis change what a reader should know about ME/CFS pathophysiology, cause, or treatment strategy? If so → the abstract must reflect it. |
+| ch16 intro | `ch16-causal-hierarchy/ch16-causal-hierarchy.typ` (lines 14–20, the framing paragraphs before `== Framework`) | Does the synthesis constrain or strengthen the trigger-vs-amplifier classification? Does it add a new amplifier or modify the two-hit model? Does it reveal a tension between genetic architecture and a trigger-capable mechanism? If so → the intro must acknowledge it. |
+| ch16 root cause sections | `ch16-causal-hierarchy/ch16-causal-hierarchy.typ` (the `=== CNS Energy Crisis`, `=== GPCR Autoantibody Cascade`, `=== Metabolic Safe Mode Lock`, `=== TRPM3 Channelopathy` sections) | Does the synthesis provide anchoring evidence, a structural tension, or a cross-reference that strengthens or constrains a root cause candidate? If so → the root cause section's assessment or evidence paragraph must cite it. |
+| Reading guide | `shared/reading-guide.typ` | Does the synthesis represent a finding significant enough to signal to readers navigating the document? If so → mentionable in the guide. |
+| ch13 unified model | `ch13-integrative-models/` | Does the synthesis add a new systemic interaction or causal arrow? If so → reference in the unified model. |
+
+**Decision matrix:**
+
+| Synthesis content type | Framing layers to check | Action if missing |
+|------------------------|------------------------|-------------------|
+| **Genetic architecture claim** (brain-enriched, immune-null, cell-type enrichment) | Abstract, ch16 intro, ch16 CNS energy crisis section, ch16 GPCR autoantibody section | All four must reflect the finding. Abstract: one sentence. ch16 intro: explicit as foundational constraint. CNS section: anchor as genetic support. GPCR section: acknowledge tension. |
+| **New trigger-capable mechanism candidate** | ch16 intro, ch16 root cause sections | Intro: mention as candidate. Add assessment paragraph in root cause section, applying the four criteria. |
+| **New amplifier layer** | ch16 intro (amplifier list), relevant ch16 amplifier sections | Add to amplifier inventory. If load-bearing → flag in intro. |
+| **Diagnostic bifurcation** (condition A vs condition B, e.g. ME/CFS vs LC iron) | ch16 intro, ch13 unified model | Intro: note as constraint on trigger mechanisms. ch13: add cross-reference. |
+| **Downstream consequence (non-actionable finding)** | — | No framing update needed. |
+| **Methodological / epistemic constraint** (null R CT, replication gap) | ch16 intro (if constrains trigger classification), relevant root cause section | Add as constraint caveat. |
+| **Treatment strategy implication** (drug response discriminates mechanisms) | Abstract (if clinically actionable), ch30 sec-12 | Abstract: one sentence. ch30: cascade subsection. |
+
+**Propagation rules:**
+- New content in framing layers must be **concise**: one sentence in abstract, one paragraph in ch16 intro, 2–4 sentences in a root cause section.
+- Must cross-reference the `@syn:` label of the synthesis that supports the claim.
+- Must not introduce new claims, citations, or certainties beyond what the synthesis already establishes.
+- Must not overstate — the synthesis's own caveats and limitations travel with the propagation.
+- If the synthesis is weak (PARTIAL decision, caps apply) → framing propagation is **lighter** (abstract may skip; ch16 intro gets a caveated mention only).
+
+**Procedure:**
+
+1. **Re-read the Phase 10a synthesis** — its claims, certainties, and constraints.
+2. **Identify the synthesis content type** from the decision matrix above.
+3. **Check each listed framing layer** for whether the synthesis's implications are reflected.
+4. **For each missing propagation:** write the minimal framing content, insert it at the appropriate position, and add the `@syn:` cross-reference.
+5. **If the synthesis changes nothing at the framing level** (pure downstream consequence, no trigger-vs-amplifier implication, no clinical strategy change): report "Phase 10b: no framing propagation needed — synthesis is downstream/non-actionable." This is a valid outcome, not a failure.
+6. **Build:** `nix build` must pass before proceeding.
+
+**Output:** Modified framing layer `.typ` files.
+**Report:** "Phase 10b complete: N framing layers updated (abstract: [yes/no], ch16 intro: [yes/no], ch16 root cause sections: [list], reading guide: [yes/no], ch13: [yes/no]). Build: PASS/FAIL."
+
+### Retroactive Phase 10b
+
+Same scope-boundary rule as retroactive Phase 10a: edits another cycle's committed narrative → flag, don't silently write, unless user explicitly requested "check strategic framing" / "propagate to abstract" / "update framing."
+
+**Detection procedure:**
+
+1. **After Phase 10a retroactive synthesis completes**, for each new synthesis written:
+   - Classify the synthesis content type (decision matrix above).
+   - Check the listed framing layers for reflection.
+   - If missing and the synthesis merits framing propagation → flag: "Synthesis @syn:X carries implications for [abstract/ch16 intro/etc]. Add framing content?"
+   - Do NOT write unilaterally — the framing layer choice is an editorial emphasis decision. Ask user.
+
+**Report:** "Retroactive Phase 10b scan: N syntheses scanned, M eligible for framing propagation, K flagged for user decision."
 
 ---
 
