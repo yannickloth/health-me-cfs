@@ -6,7 +6,7 @@ argument-hint: <topic description>
 
 # Evaluate and Integrate New Topic into the ME/CFS Paper
 
-End-to-end: research → synthesize → **integration decision** → develop → brainstorm → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → strategic-framing propagation → review convergence → changelog → commit.
+End-to-end: research → synthesize → **integration decision** → develop → **safety gate** → brainstorm → **drug-interaction check** → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → strategic-framing propagation → review convergence → changelog → commit.
 
 **Null hypothesis:** The default outcome is *non-integration*. The burden of proof is on demonstrating that the topic has sufficient evidence and relevance to warrant inclusion. Integration must be earned by passing evidence gates — not assumed.
 
@@ -113,6 +113,8 @@ Verify these exist before delegating any phase. Run: `ls .claude/agents/<name>.m
 
 Before starting any other phase:
 
+0. **Check deferred topics (`ops/deferred-topics.md`):** If the file exists, scan for topics whose trigger conditions may now be met. A deferred topic recorded as "would need ≥2 papers with certainty ≥0.40" may have accumulated qualifying papers since deferral. If any deferred topic's trigger condition is now satisfied → flag: "Topic `<slug>` was deferred on [date] for [reason]. Trigger condition now met. Reactivate?" Ask user before proceeding.
+
 1. **Locate existing plan:** check `ops/plans/` for a plan file that covers this topic (by topic slug, disease name, or thematic group). A topic may be a row in an existing plan's tracking table rather than needing its own file.
 2. **If found:** read the relevant plan file. Mark the topic row status as `🔵 in progress` in the tracking table. Proceed to step 4.
 3. **If not found:** 
@@ -128,8 +130,9 @@ Before starting any other phase:
 4. **After every subsequent phase**, update the tracking table row(s) and any notes in the plan:
    - Phase 1 → papers found, bib entries added, search log path
    - Phase 2 → synthesis verdict, evidence quality summary, integration decision (PROCEED / PARTIAL / REJECT / DEFER), standing epistemic checklist (#1–#6 status)
-   - Phase 3 → environments added, chapters touched, standing epistemic checklist per-claim (#1–#6)
-   - Phase 3.5 → N environments verified, M missing consequence fields added
+    - Phase 3 → environments added, chapters touched, standing epistemic checklist per-claim (#1–#6), population-relevance discount applied per paper
+    - Phase 3b → N environments gated, M passed, K warnings, J blocked/reclassified
+    - Phase 3.5 → N environments verified, M missing consequence fields added
    - Phase 4 → brainstorm file path, idea count
     - Phase 4a → subtree file path, N nodes written, root index updated
      - Phase 5 → ideas integrated (by tier); ch30 tiers (full cascade / drug-indexed / citation only / none); queued topics from Gates A/B with one-line rationale
@@ -233,6 +236,26 @@ Write `ops/research/search-log-<topic-slug>-<date>.md`:
 
 **Limitation:** This scale measures *research quality*, not clinical significance, effect size, or patient relevance. High-certainty animal studies ≠ clinical evidence. The certainty value gates procedural decisions in this pipeline; it does not represent clinical confidence.
 
+**Population-relevance discount (MANDATORY — applied at Phase 2 before integration decision):**
+
+The raw certainty from the scale above measures study quality. It does not measure relevance to the ME/CFS population. Before Phase 2's integration decision, apply a population-relevance weight:
+
+| Population | Weight | Rationale |
+|------------|--------|-----------|
+| ME/CFS cohort | 1.00 | Directly study the target population |
+| Long COVID / post-viral fatigue | 0.85 | Strong mechanistic overlap; post-infectious precedent |
+| Fibromyalgia / POTS / comorbid condition | 0.80 | Shared features but distinct diagnosis; may not generalize |
+| General population / healthy volunteers | 0.75 | General biology; may not hold in chronic illness |
+| Other disease model (animal) | 0.50 | Cross-species inference; translation gap |
+| In vitro / cell culture | 0.40 | No organism-level validation |
+| In silico / computational only | 0.30 | No empirical validation |
+
+**Application:** `discounted_certainty = raw_certainty × population_weight` (round to 2 decimal places, minimum 0.05). The discounted certainty is used in Phase 2 integration decision (PROCEED thresholds) and Phase 3 environment-type selection (`#hypothesis-box` vs `#speculation`). The raw certainty and population weight are retained in the environment body: "`(Raw certainty: 0.70, from general population → discounted to 0.52.)`"
+
+**Example:** A well-replicated general-population study (n=500, top journal, replicated → raw cert 0.80) → discounted 0.80 × 0.75 = 0.60. This falls from "high-certainty hypothesis" to "medium-certainty speculation" territory, accurately reflecting the translation gap.
+
+**Report:** Phase 1 report must list raw cert + population weight + discounted cert per paper. Phase 2 synthesis uses the highest discounted cert across papers for the PROCEED threshold (not the average — a single strong ME/CFS-specific paper can outweigh many general-population ones).
+
 **Guard — Zero papers:** Zero papers found → stop; report: "Phase 1: No papers found. Reasons: too niche / search terms need refinement / literature sparse." Ask user: expand search terms, or abandon topic.
 
 **Guard — Uniformly null evidence:** If all included papers report null results, failed replications, or conclude "no relationship to ME/CFS" → report: "Phase 1: N papers found, all null/negative. Evidence does not support this mechanism." Options: (a) integrate as `#limitation` or `#open-question` documenting the null evidence, (b) abandon topic. Do NOT proceed to brainstorming about a mechanism the evidence rejects.
@@ -285,8 +308,8 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
 
    | Decision | Criteria | Action |
    |----------|----------|--------|
-   | **REJECT** | All evidence is null, OR (0 papers with certainty ≥ 0.40 AND no paper with certainty ≥ 0.60), OR evidence actively contradicts the topic's premise | Stop. Write a `#limitation` or `#open-question` in the appropriate chapter documenting why the evidence does not support this mechanism. Update plan: status `🚫 rejected`. If a subtree file exists for this topic, update its status. If this is a recursive invocation, update the parent topic's subtree node status from `⏭️` to `🚫`. Then skip to Phase 8 (build verification) → Phase 12 (changelog — document the rejection) → Phase 13 (commit). Phases 3–7, 9–11 are skipped. Report to user. |
-    | **DEFER** | Insufficient evidence to decide — literature sparse but not null. **Before applying: verify zero meaningful indirect pathway evidence exists.** If the topic's known biochemistry intersects with mechanisms documented in ME/CFS (Phase 1 indirect-link search returned ≥2 papers with certainty ≥0.40), and those intersections support a testable mechanistic model → do NOT defer; override to PARTIAL (for speculative indirect evidence) or PROCEED (if indirect evidence is strong) and document the override rationale. If indirect links were searched and returned null/absent → DEFER applies. | Stop. Update plan: status `↩️ deferred`. If a subtree file exists for this topic, update its status. If this is a recursive invocation, update the parent topic's subtree node status from `⏭️` to `↩️`. No chapter modifications — skip to Phase 13 (commit metadata changes only). Report to user. |
+   | **REJECT** | All evidence is null, OR (0 papers with certainty ≥ 0.40 AND no paper with certainty ≥ 0.60), OR evidence actively contradicts the topic's premise | Stop. Write a `#limitation` or `#open-question` in the appropriate chapter documenting why the evidence does not support this mechanism. **Run a mini-build check** (`git add <file>` then `nix build`) on the limitation text only — catches Typst-breaking syntax before commit. Update plan: status `🚫 rejected`. If a subtree file exists for this topic, update its status. If this is a recursive invocation, update the parent topic's subtree node status from `⏭️` to `🚫`. Then skip to Phase 8 (build verification) → Phase 12 (changelog — document the rejection with reason and evidence summary) → Phase 13 (commit). Phases 3–7, 9–11 are skipped. Report to user. |
+    | **DEFER** | Insufficient evidence to decide — literature sparse but not null. **Before applying: verify zero meaningful indirect pathway evidence exists.** If the topic's known biochemistry intersects with mechanisms documented in ME/CFS (Phase 1 indirect-link search returned ≥2 papers with certainty ≥0.40), and those intersections support a testable mechanistic model → do NOT defer; override to PARTIAL (for speculative indirect evidence) or PROCEED (if indirect evidence is strong) and document the override rationale. If indirect links were searched and returned null/absent → DEFER applies. | Stop. Update plan: status `↩️ deferred`. If a subtree file exists for this topic, update its status. If this is a recursive invocation, update the parent topic's subtree node status from `⏭️` to `↩️`. **Write to `ops/deferred-topics.md`:** topic slug, date deferred, evidence summary, and the threshold evidence that would move it to PROCEED (e.g., "≥2 papers with discounted certainty ≥0.40"). **Write a minimal changelog entry** (Phase 12 light): "Deferred: [topic] — insufficient evidence." Then Phase 13 (commit plan file + changelog + deferred-topics). Report to user. |
    | **PARTIAL** | Some evidence supports integration but >50% of papers have certainty <0.40 (even if one paper has certainty ≥ 0.60), OR evidence is mixed (some supporting, some null) | Proceed with `#speculation`/`#open-question` environments only — this cap applies across ALL downstream phases (3, 5, 7): no `#hypothesis-box` or `#fhypothesis` environments even if individual idea certainty ≥ 0.45 or if a Phase 7 bump crosses 0.45. Brainstorm limited to categories 1–2 (hypotheses, research directions) and 10–12 (critical categories). Categories 3–9 (drug/supplement/intervention ideas) are deferred because weak evidence for the mechanism makes therapeutic brainstorming premature — ideas without a validated target risk misleading readers. Flag as `WEAK-EVIDENCE` preemptively. |
    | **PROCEED** | ≥2 papers with certainty ≥ 0.40, OR ≥1 paper with certainty ≥ 0.60; evidence is not uniformly null; AND ≤50% of papers have certainty <0.40 | Continue to Phase 3 |
 
@@ -381,6 +404,7 @@ GATE DECISION: if the mechanism has a specifiable causal chain with ≥3 biochem
 - **Contradiction framing:** If Phase 2 identified contradictions, integrate both sides using the framing decided in Phase 2 (open-question, weighted, or user-decided)
 - **Falsifiability:** Every `#hypothesis-box`, `#fhypothesis`, and `#speculation` written in Phase 3 must include a falsifiable prediction, same as Phase 5's inline requirement. If unfalsifiable: retain the environment type and certainty; add explicit note "Critique: structurally unfalsifiable." Only reclassify to `#open-question` if the claim is also poorly evidenced (certainty < 0.30). This rule is consistent with Phase 5a's reclassification constraint.
 - **Clinical labelling:** Every treatment-related environment must state whether the evidence is preclinical, general-population, or ME/CFS-specific. If `#clinical-finding` is used, state the evidence type: case report, observational study, RCT, meta-analysis, or expert opinion.
+- **Severity applicability (UNIVERSAL — not just Part 3):** ALL clinical findings, biomarkers, treatment claims, and symptom-related environments must state severity applicability (mild / moderate / severe / very severe). If evidence doesn't specify: `(Severity applicability: unknown — study population not stratified by severity.)` This applies across ALL chapters, not just treatment chapters. A biomarker finding in ch20 that doesn't specify whether it applies to severe patients is incomplete.
 - **Non-specialist consequence (MANDATORY):** Every `#hypothesis-box`, `#fhypothesis`, `#speculation`, `#synthesis`, `#achievement`, `#clinical-finding`, `#prediction`, `#open-question`, and `#limitation` must end with a plain-language consequence sentence explaining why the finding matters. Format: `*Consequence:* [one sentence — what does this change for understanding, treatment, diagnosis, or research direction? Answer in terms an educated non-specialist can grasp. Never overstate. Never fabricate. If the finding has zero current practical consequence, state that honestly.]` Scientific precision is preserved — this is translation, not simplification. The mechanism description and certainty remain untouched. The consequence field translates significance, not the mechanism itself.
 
 **Additional rules for Part 3 (ch14a–ch19):**
@@ -388,11 +412,10 @@ GATE DECISION: if the mechanism has a specifiable causal chain with ≥3 biochem
 - State starting dose for severe/very-severe patients (often far below standard)
 - State monitoring parameters (what to track, how often); if no validated monitoring protocol exists → state explicitly: "no validated monitoring protocol; general clinical monitoring recommended"
 - State stopping criteria
-- Check interactions with common ME/CFS co-prescriptions: fludrocortisone, midodrine, LDN, mestinon, beta-blockers, antihistamines
+- Check interactions with common ME/CFS co-prescriptions: fludrocortisone, midodrine, LDN, mestinon, beta-blockers, antihistamines, gabapentin, pregabalin, trazodone, amitriptyline, NSAIDs, IVIG, rituximab
 - No human dosing data → state explicitly; flag as research-stage only
 - Contraindications for bedbound patients → cross-reference ch14a
 - Pregnancy/lactation safety: state available data or "no pregnancy/lactation safety data available"
-- State severity applicability (mild / moderate / severe / very severe); if not specified in the evidence → state: "severity applicability unknown"
 
 **Report:** "Phase 3 complete: N environments added across M chapters, hypothesis registry updated. Files modified/created: <space-separated relative paths>. Standing epistemic checklist verified per-claim: [#1 ✓/⚠] / [#2 ✓/⚠] / [#3 ✓/⚠] / [#4 ✓/⚠] / [#5 ✓/⚠] / [#6 ✓/⚠]. Any ⚠ items detailed below: [list]."
 
@@ -408,6 +431,33 @@ GATE DECISION: if the mechanism has a specifiable causal chain with ≥3 biochem
 4. Report: "Phase 3a build: PASS / FAIL (N errors fixed)"
 
 This check is also run after Phase 5 (see Phase 5b below — the intermediate build check after Phase 5).
+
+## Phase 3b — Pre-Integration Safety Gate
+
+**Agent:** main session | **Model:** current
+
+**Purpose:** Consolidate all patient-safety checks into a single gate that runs before ANY treatment/clinical content is committed to chapter text. Catches gaps that would otherwise be detected post-hoc at Phase 9 (CLINICAL-RISK flag) — after the content is already in the paper.
+
+**Scope:** All Phase 3 environments AND all Phase 5 Tier 1/2 brainstorm-origin environments that propose a treatment, supplement, intervention, or clinical recommendation.
+
+**Gate checklist — ALL items must pass before Phase 3.5 begins:**
+
+| # | Check | Source of requirement | Pass condition |
+|---|-------|----------------------|----------------|
+| 1 | **Harm/adverse effects searched** | Phase 1 harm-search mandate (line 166) | For every drug/supplement/intervention: PubMed/Google "adverse effects", "contraindications", "safety" queried. If treatment-origin is Phase 5 brainstorm and sub-research was NOT done (Tier 2, no literature-integrator launched) → run a direct WebSearch for "[drug] adverse effects" + "[drug] ME/CFS safety". State result. |
+| 2 | **Severity applicability stated** | Phase 3 (line 388) | Every clinical/treatment claim states: mild, moderate, severe, very severe applicability. If evidence doesn't specify → "Severity applicability unknown — study population not stratified." This covers ALL clinical claims (biomarkers, findings, treatments), not just Part 3. |
+| 3 | **Pregnancy/lactation stated** | Phase 3 (line 394) | Every drug/supplement/intervention environment states pregnancy/lactation safety. If unknown → "No pregnancy/lactation safety data available." |
+| 4 | **Drug interactions checked** | Doc-Instruction H (line 1765) | For every proposed drug: WebSearch "[drug] interaction [fludrocortisone/midodrine/LDN/mestinon/beta-blockers/antihistamines/gabapentin/trazodone/amitriptyline/NSAIDs/pregabalin/IVIG/rituximab/abilify]". If WebSearch unavailable → state: "Interaction data not checked — drug-interaction search unavailable during integration." |
+| 5 | **Contraindications for bedbound** | Phase 3 (line 393) | Every treatment applicable to severe/very severe states contraindications for bedbound patients. Cross-reference ch14a. |
+| 6 | **Monitoring parameters stated** | Phase 3 (line 389-390) | For every proposed treatment: what to track, how often. If no validated protocol → "No validated monitoring protocol; general clinical monitoring recommended." |
+| 7 | **Stopping criteria stated** | Phase 3 (line 391) | For every proposed treatment: when to stop. If research-stage → "Research-stage only; no clinical stopping criteria established." |
+
+**Veto rule:** Any FAIL on items 1–4 → environment is **blocked** from integration. The claim must be either (a) downgraded to a non-treatment environment type (`#open-question` or `#limitation`), (b) deferred pending the missing check, or (c) the missing data added. Items 5–7 produce ⚠ warnings that must be explicitly noted in the environment body but do not block integration.
+
+**Safety gate bypass for non-treatment content:** Pure mechanistic hypotheses, biomarkers without treatment implications, epidemiological findings, and methodological claims do NOT need the full gate. For these, only item 2 (severity applicability) applies.
+
+**Output:** `tmp/safety-gate-<slug>.md` — populated checklist with pass/fail per environment.
+**Report:** "Phase 3b complete: N environments gated, M passed all checks, K warnings (items 5–7), J blocked (items 1–4). Any blocked environments reclassified/deferred."
 
 ## Phase 3.5 — Non-Specialist Consequences Verification
 
@@ -550,6 +600,21 @@ Phase 4 certainties are the brainstorm generator's self-assessment. Before triag
 - Adjust certainty down if Phase 4 value exceeds what the evidence supports.
 - Verify usefulness scores: does the idea genuinely merit the Phase 4a score, or was the generator over-enthusiastic? Adjust if needed.
 - Record: "Phase 4 cert: 0.XX → reassessed cert: 0.YY (reason). Usefulness: [unchanged / adjusted from X to Y (reason)]"
+
+### Phase 5 Safety Gate — Drug-Interaction Pre-Check (MANDATORY before triage)
+
+**When:** After Phase 5 triage assigns Tier 1 or Tier 2 to any drug/supplement/intervention idea.
+**Agent:** main session or delegated search agent.
+
+For every drug idea triaged as Tier 1 or Tier 2:
+1. Run WebSearch: `"[drug name] drug interactions" "[drug name] contraindications"`
+2. Cross-check against **common ME/CFS co-prescriptions**: fludrocortisone, midodrine, LDN, mestinon, beta-blockers, antihistamines (H1/H2), gabapentin, pregabalin, trazodone, amitriptyline, NSAIDs, IVIG, rituximab, abilify, modafinil.
+3. WebSearch: `"[drug] interaction [co-prescription]"` for each co-prescription with plausible interaction risk.
+4. Record findings per drug: "Drug X: Y known interactions found (Z with common ME/CFS co-prescriptions)."
+5. **If WebSearch unavailable:** state: "Interaction data not checked — web search unavailable during integration. Manual review required before clinical use."
+6. This check produces output for Phase 3b's safety gate (item 4). Phase 3b confirms all checks were run.
+
+**Maintenance:** The common co-prescriptions list lives here and in `ops/medication-list.md`. Update when new medications are added to the paper.
 
 ### Triage Protocol
 
@@ -1073,6 +1138,15 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 **Only** the core paper(s) with certainty ≥ 0.60 drive certainty adjustments. Supporting papers (certainty < 0.60) may be cited but do not change certainties.
 
 ### Search Protocol
+
+**Step 0 — Semantic claim matching (MANDATORY before grep):**
+
+Grep-based keyword matching may miss contradictions where the new evidence and an existing claim describe the same mechanism using different terminology. Before the grep step, run a semantic pass:
+
+1. Load all entries from `src/main/typst/mecfs/part4-research/hypothesis-registry.typ`.
+2. For each registry entry, ask: "Does any Phase 1 paper's key finding relate to this claim's mechanism, even if the terminology differs?" This is a semantic comparison — e.g., a paper finding "no TRPM3 involvement in pain" should match a registry entry about "ion channel dysregulation in sensory neurons" even if neither mentions TRPM3 by name.
+3. For each semantic match: record the registry label, the claim summary, and the Phase 1 paper(s) that relate. These bypass the grep step and enter the adaptation pipeline directly.
+4. This pass is budgeted at 30 registry entries (the registry is large — scan by relevance, not exhaustively). Prioritize entries in the same pathophysiological domain as the new evidence (immune entries for immune papers, neurological for neurological, etc.).
 
 1. **Mandatory synonym expansion:** Before searching, generate 3–5 semantic variants per mechanism from Phase 1–2 (medical synonyms, abbreviations, pathway names, gene/protein names). Store the synonym map in `tmp/synonym-map-<topic-slug>.md` for reproducibility.
 2. **Glossary/index check:** Read the paper's glossary or index (if one exists) to find project-specific terminology for each concept.
