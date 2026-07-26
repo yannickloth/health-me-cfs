@@ -1,9 +1,13 @@
 #import "../../../../shared/environments.typ": *
 
+#import "/src/main/typst/lib/clinical-caution.typ": clinical-caution
+
 === Acquired Ischemic Mitochondrial Myopathy (AIMM) / Na⁺-Ca²⁺ Cascade
   <sec:aimm-cascade>
 
 *Certainty: 0.40.* NHE1→NCX1→mitochondrial Ca²⁺ overload cascade documented in ischemia-reperfusion injury (cardiac and skeletal muscle). AIMM = acquired ischemic mitochondrial myopathy — the concept proposed by Scheibenbogen and Wirth that repeated microvascular ischemia-reperfusion episodes in skeletal muscle cause cumulative mitochondrial structural damage, producing the PEM phenotype. MDC002/Mitodicure is a dual NHE1 + NCLX modulator in preclinical development for ME/CFS.
+
+#clinical-caution()
 
 #include "subsubsec-00-step-f0-capillary-bm-thickening-structural-diffusion-barrier.typ"
 #include "subsubsec-01-cascade-hypoperfusion-na-overload-mitochondrial-ca-mptp-pem.typ"
