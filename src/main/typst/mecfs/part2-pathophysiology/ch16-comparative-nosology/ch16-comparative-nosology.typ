@@ -20,7 +20,7 @@ The mechanistic form argues that these distinguishing features reflect different
 
 The sociological dimension matters for patients navigating the healthcare system: how a condition is classified determines which specialist sees the patient, what treatments are offered, whether insurance covers care, and how seriously symptoms are taken (Barker et al., 2024).
 Historical precedent is instructive: conditions that start as "contested" (multiple sclerosis before MRI, rheumatoid arthritis before RF testing, epilepsy before EEG) eventually acquire a biological definition and exit the contested category entirely.
-ME/CFS remains in the contested zone, and this chapter examines how its closest neighbours shape — and are shaped by — the same classification conflicts.
+ME/CFS remains in the contested zone, and this chapter examines how its closest neighbors shape — and are shaped by — the same classification conflicts.
 
 *Consequence:* The splitting-vs-lumping debate is not an academic taxonomy exercise — it determines whether a patient receives a rheumatology referral or a psychiatry referral, whether exercise is prescribed or contraindicated, whether disability claims are approved, and whether research funding targets distinct diseases or a shared post-infectious syndrome cluster.
 
@@ -37,7 +37,7 @@ It provides prospective cohort data — patients followed from a known index inf
 
 #achievement(title: [Shared Clinical Profile with Specific Divergences])[
 Long COVID and ME/CFS share a nearly identical symptom profile: fatigue, cognitive impairment, unrefreshing sleep, orthostatic intolerance, and post-exertional symptom exacerbation.
-In a direct head-to-head comparison ($n = 42$ ME/CFS, $n = 73$ post-COVID), Azcue et al.\ found both conditions share a core pattern of impaired attention and slowed processing, but ME/CFS patients showed significantly worse sustained attention (83.3% vs.\ 56.2% impaired).
+In a direct head-to-head comparison ($n = 42$ ME/CFS, $n = 73$ post-COVID), Azcue et al.\ @Azcue2022cognitiveProfileCFSLongCOVID found both conditions share a core pattern of impaired attention and slowed processing, but ME/CFS patients showed significantly worse sustained attention (83.3% vs.\ 56.2% impaired).
 Large-scale post-COVID data ($n = 112{,}964$) documented cognitive deficits equivalent to $~6$ IQ points ($-0.4$ SD) with reaction times $~3$ SD slower than controls @Hampshire2024cognition.
 
 *Consequence:* The clinical overlap is so extensive that many Long COVID patients meet ME/CFS diagnostic criteria, supporting a shared post-infectious pathophysiology.
@@ -47,12 +47,12 @@ However, two specific divergences challenge a full lumping.
 ]
 
 #hypothesis(title: [Distinct PEM Pathophysiology in Long COVID vs ME/CFS])[
-*(Certainty: 0.50.)* The absence of 2-day CPET impairment in Long COVID patients reporting PEM symptoms suggests that PEM in Long COVID may have a different pathophysiological basis than PEM in ME/CFS.
+*(Certainty: 0.55.)* (0.50→0.55: reinforced by Phase 7 convergence with GPCR autoantibody profiling evidence — two independent methodological axes support distinct PEM pathophysiology.) The absence of 2-day CPET impairment in Long COVID patients reporting PEM symptoms suggests that PEM in Long COVID may have a different pathophysiological basis than PEM in ME/CFS.
 
-A 2-day CPET study of 15 Long COVID patients (80% reporting PEM symptoms) found no differences between Day 1 and Day 2 CPET performance.
+A 2-day CPET study of 15 Long COVID patients (80% reporting PEM symptoms) found no differences between Day 1 and Day 2 CPET performance @Gattoni2025LongCOVIDCPET.
 This null result stands in sharp contrast to the consistent CPET-2 deterioration observed across multiple ME/CFS cohorts @vanCampen2020SeverityCPET @Lim2020CPETMeta.
 
-*Alternative interpretations:* insufficient sample size (n=15), different disease duration (Long COVID patients earlier in disease course), selection bias (milder subset), or genuine pathophysiological difference.
+*Alternative interpretations:* insufficient sample size ($n = 15$), different disease duration (Long COVID patients earlier in disease course), selection bias (milder subset), or genuine pathophysiological difference.
 If genuine, the divergence implies that PEM is not one phenomenon but at least two — a CPET-measurable metabolic PEM and a subjectively experienced PEM that may have different underlying mechanisms.
 
 *Falsifiable prediction:* Long COVID patients meeting full ME/CFS diagnostic criteria will show CPET-2 deterioration, while Long COVID patients not meeting ME/CFS criteria will not.
@@ -64,9 +64,9 @@ If all Long COVID patients with self-reported PEM lack CPET-2 deterioration at $
 #speculation(title: [Iron Redox Polarity as Diagnostic Bifurcation])[
 *(Certainty: 0.55.)* ME/CFS and Long COVID may differ fundamentally in iron handling: ME/CFS shows evidence of functional iron deficiency with paradoxically elevated serum ferritin (consistent with hepcidin-driven iron sequestration), while Long COVID shows reduced circulating cell-free mitochondrial DNA (ccf-mtDNA) suggesting impaired mitophagy rather than iron dysregulation.
 
-In the EPILOC population-based cohort ($n = 228$), Matits et al.\ found *reduced* relative ccf-mtDNA in Long COVID patients ($n = 128$) compared to recovered controls, with lower ccf-mtDNA correlating with worse cognition.
+In the EPILOC population-based cohort ($n = 228$), Matits et al.\ @Matits2026cfmtDNA found *reduced* relative ccf-mtDNA in Long COVID patients ($n = 128$) compared to recovered controls, with lower ccf-mtDNA correlating with worse cognition.
 In ME/CFS, elevated exosome-associated mtDNA post-exercise has been reported — opposite direction — though measurement methods differ and no head-to-head comparison exists.
-Long COVID erythrocyte dysfunction (membrane damage, altered deformability, microclot tendency) documented by Kubankova et al.\ may represent a parallel but distinct vascular pathology from ME/CFS microvascular findings.
+Long COVID erythrocyte dysfunction (persistent morphological abnormalities) documented by Grau et al.\ @GrauRBC2024longcovid, and the shared microclot tendency across both conditions @NunesPlatelets2022mecfs, may represent a parallel but distinct vascular pathology from ME/CFS microvascular findings.
 
 *Falsifiable prediction:* A head-to-head study measuring ccf-mtDNA by qPCR at rest and post-exercise in matched ME/CFS, Long COVID, and healthy control groups would show divergent trajectories.
 Falsified if resting ccf-mtDNA is equivalently low in both conditions, or if post-exercise trajectories are indistinguishable.
@@ -89,7 +89,7 @@ PTLDS offers a different window: a condition defined by a specific pathogen (Bor
 #achievement(title: [Domain-Specific Overlap: Fatigue Persists])[
 The symptom overlap between PTLDS and ME/CFS is striking: 26 of 29 core ME/CFS symptoms (DePaul Symptom Questionnaire) are present in PTLDS.
 However, a critical methodological caveat applies: part of this overlap is *definitional* — both syndromes are constructed from the same core features (fatigue, cognitive dysfunction, unrefreshing sleep, pain), so shared checklists partly guarantee concordance.
-CDC claims data (n=24,503 Lyme vs 122,095 controls) provide the key discrimination: pain and cognitive diagnostic codes normalize by 6--12 months post-treatment, but *fatigue codes persist beyond one year* — the single domain that does not normalize.
+CDC claims data ($n = 24{,}503$ Lyme vs $122{,}095$ controls) provide the key discrimination: pain and cognitive diagnostic codes normalize by 6--12 months post-treatment, but *fatigue codes persist beyond one year* — the single domain that does not normalize @Nawrocki2025LymeSymptomsCDC.
 The population-level excess risk is modest (~5% above controls) but the lingering domain is the defining ME/CFS feature.
 
 *Consequence:* The fatigue-persistence finding reframes PTLDS/ME/CFS as a domain-specific overlap rather than a global identity — the two conditions share a fatigue mechanism downstream of different triggers, but diverge on pain and cognitive trajectories.
@@ -98,19 +98,17 @@ This suggests trigger-based stratification: "which ME/CFS patients have a tick-b
 *Severity applicability:* Unknown — claims data studies capture diagnostic coding patterns, not severity distributions.
 ]
 
-// Citation: CDC claims data on post-Lyme symptom persistence — see Nawrocki2025LymeSymptomsCDC in bib/immune.bib
-
 #speculation(title: [Shared Post-Infectious Mechanisms — Microglia, T-Cells, and Autonomic Dysfunction])[
 *(Certainty: 0.50.)* Three mechanistic bridges connect PTLDS and ME/CFS:
 
 1. *Microglial activation:* B. burgdorferi activates human microglia via TLR1/TLR2/MyD88 pathways, and non-viable bacterial debris sustains activation post-antibiotics — explaining ongoing neuroinflammation after pathogen clearance.
-In vivo PET confirms glial activation years post-treatment in PTLDS (Coughlin 2018, n=12).
+In vivo PET confirms glial activation years post-treatment in PTLDS (Coughlin 2018, $n = 12$) @Coughlin2018PTLDSglialPET.
 ME/CFS neuroinflammation data (TSPO-PET, see @sec:neuroinflammation) show a convergent endpoint via different triggers.
 
-2. *T-cell immunophenotyping:* Girgis 2025 found PTLD patients show reduced CXCR5+ CD4+ naive T cells and expanded CXCR3+CCR4-CCR6- CD8 T cells, with an elastic-net classifier AUC of 0.83 distinguishing PTLDS from recovered controls.
+2. *T-cell immunophenotyping:* Girgis 2025 found PTLDS patients show reduced CXCR5+ CD4+ naive T cells and expanded CXCR3+CCR4-CCR6- CD8 T cells, with an elastic-net classifier AUC of 0.83 distinguishing PTLDS from recovered controls @Girgis2025PTLDTcell.
 The ME/CFS immunophenotype (see @ch:immune-dysfunction) shows partially overlapping but distinct T-cell alterations.
 
-3. *Autonomic dysfunction:* Milovanovic 2025 controlled tilt-table comparison finds late-stage Lyme and CFS groups share hemodynamic patterns.
+3. *Autonomic dysfunction:* Milovanovic 2025 controlled tilt-table comparison finds late-stage Lyme and CFS groups share hemodynamic patterns @Milovanovic2025LymeHUT.
 The Shoenfeld autoimmune-autonomic framework (see @sec:autoimmune-mechanisms) proposes GPCR autoantibodies as the unifying mechanism — β2-adrenergic and muscarinic receptor autoantibodies may occur in both conditions, with different target profiles determining whether presentation is predominantly orthostatic (POTS), cognitive (brain fog), or metabolic (PEM).
 
 *Falsifiable prediction:* Head-to-head GPCR autoantibody profiling (CellTrend ELISA + functional bioassay) of PTLDS, ME/CFS, and recovered Lyme controls will show shared autoantibody targets with condition-specific titers.
@@ -121,7 +119,7 @@ The lymphatic-architecture hypothesis (see @spec:heds-lymphnode-architecture) pr
 
 #limitation(title: [The "Chronic Lyme" Problem])[
 The proposition that a large fraction of ME/CFS represents undiagnosed seronegative chronic Lyme has been evaluated and rejected by this paper's evidence adjudication.
-Three independent RCTs (Berende 2016 PLEASE n=281, Klempner 2001, Fallon 2008) uniformly contradict prolonged antibiotic benefit for PTLDS symptoms.
+Three independent RCTs (Berende 2016 PLEASE $n = 281$, Klempner 2001, Fallon 2008) uniformly contradict prolonged antibiotic benefit for PTLDS symptoms.
 The Shor 2011 chart review (99% "seronegative Lyme" in CFS, 62--88% antibiotic response) is a single-author, retrospective, uncontrolled, unblinded study by a past ILADS president.
 Seronegative Lyme is recognized as a narrow entity confined to documented prior acute Lyme treated early (Dattwyler 1988) and does not license extrapolation to undifferentiated chronic fatigue.
 
@@ -133,7 +131,7 @@ This boundary has direct clinical consequences: patients diagnosed with "chronic
 === Other Post-Infectious Syndromes
 
 *Q Fever Fatigue Syndrome (QFS):* post-Coxiella burnetii chronic fatigue, documented in the Dutch Q fever epidemic (2007--2010), provides the strongest evidence that a single well-characterized bacterial infection can produce an ME/CFS-identical picture in a subset of patients.
-The Dutch Q-support program's longitudinal data (n=431, 10-year follow-up) show that post-infectious fatigue follows a slow natural history with partial recovery in ~40% at 10 years — directly relevant to ME/CFS prognosis data.
+The Dutch Q-support program's longitudinal data ($n = 431$, 10-year follow-up) show that post-infectious fatigue follows a slow natural history with partial recovery in ~40% at 10 years — directly relevant to ME/CFS prognosis data.
 
 *Post-meningitis fatigue:* persistent fatigue after bacterial or viral meningitis, documented in follow-up studies, suggests that CNS infection (as opposed to systemic infection) may be a particularly potent trigger.
 
@@ -146,7 +144,7 @@ This does not mean every case of ME/CFS is post-infectious — trauma, surgery, 
 === Narcolepsy Type 2: The Orexin Axis
 
 #speculation(title: [Narcolepsy Type 2 as a Model for Compartmentalized Energy Failure])[
-*(Certainty: 0.40.)* Narcolepsy Type 2 (NT2) — characterized by excessive daytime sleepiness without cataplexy — shares features with ME/CFS (unrefreshing sleep, cognitive fog, fatigue) but lacks the defining orexin neuron loss of Narcolepsy Type 1.
+*(Certainty: 0.45.)* (0.40→0.45: reinforced by Phase 7 convergence with 40+ existing registry orexin entries — multiple independent lines support the orexin-ME/CFS connection.) Narcolepsy Type 2 (NT2) — characterized by excessive daytime sleepiness without cataplexy — shares features with ME/CFS (unrefreshing sleep, cognitive fog, fatigue) but lacks the defining orexin neuron loss of Narcolepsy Type 1.
 The orexin system integrates metabolic state, circadian signals, and arousal: it promotes wakefulness when energy is available.
 If ME/CFS involves energy-sensing failure — where the brain perceives an energy deficit even when substrate is present — then orexin signalling may be pathologically suppressed, producing NT2-like symptoms without orexin neuron loss.
 
@@ -185,7 +183,7 @@ Local genetic correlation analysis can distinguish these — if the glutamatergi
 
 *Consequence:* "Same genes, different regulation" is a sophisticated middle ground between lumping and splitting — it acknowledges shared biology while explaining why different conditions manifest differently.
 It also predicts that drugs targeting shared pathways (glutamatergic modulators) may benefit multiple conditions, while drugs targeting condition-specific regulatory nodes (autonomic modulators) will show condition-specific efficacy.
-] <spec:shared-polygenic-different-regulatory>
+] <spec:ch16-shared-polygenic-different-regulatory>
 
 #hypothesis(title: [PEM Status, Not Disease Label, Should Determine Exercise Recommendations])[
 *(Certainty: 0.50.)* PEM status, not the diagnostic label (ME/CFS vs fibromyalgia), is the critical variable determining exercise response.
@@ -201,7 +199,7 @@ Reclassifying patients by PEM status rather than by diagnosed condition would pr
 If the diagnosis-stratified trial shows equal or larger interaction, the PEM-status hypothesis is weakened.
 
 *Consequence:* If PEM status is the clinically important variable, treatment trials for ME/CFS, fibromyalgia, Long COVID, and GWI should all stratify by PEM rather than by diagnosis — a cross-condition reorganization of research methodology that would shift funding from disease-specific to mechanism-specific clinical trials.
-] <hyp:pem-exercise-determinant>
+] <hyp:ch16-pem-exercise-determinant>
 
 == The Connective Tissue Axis: Ehlers-Danlos, Hypermobility, and Craniocervical Instability
 
@@ -223,7 +221,7 @@ Five mechanistic pathways link connective tissue abnormalities to ME/CFS symptom
 ]
 
 #speculation(title: [Acquired Progressive Hypermobility via Mast Cell Connective Tissue Degradation])[
-*(Certainty: 0.35.)* Hypermobility in ME/CFS may be acquired rather than congenital in a subset of patients.
+*(Certainty: 0.40.)* (0.35→0.40: reinforced by Phase 7 bidirectional feedback loop with mast-cell-mechanical entries — the acquired-progressive and mast-cell-mechanical hypotheses complete each other's mechanism.) Hypermobility in ME/CFS may be acquired rather than congenital in a subset of patients.
 Mast cell mediators — tryptase activates MMPs, histaminylation crosslinks collagen — can degrade connective tissue over time, and patients describe joints becoming progressively looser as their illness worsens.
 The full IgE → mast cell → MMP → connective tissue chain has never been demonstrated end-to-end in a single study, so this remains a hypothesis assembled from separate literatures.
 
@@ -307,7 +305,7 @@ Both conditions respond to immunoadsorption — but this is equally consistent w
 The CRPS comparison demonstrates feasibility (autoantibodies against these receptors *can* cause chronic illness) but does not establish identity (ME/CFS autoantibodies may have different functional profiles, different target spectra, or different pathogenic significance).
 
 *Consequence:* CRPS is the strongest "splitting" model in the cluster — it shows that even when two conditions target the same receptors, different functional antibody profiles produce different clinical pictures, and a treatment that works for one (immunoadsorption) may or may not work for the other for the same biological reason.
-] <spec:crps-gpcr-proof-of-concept>
+] <ach:crps-gpcr-proof-of-concept>
 
 == Gulf War Illness: The Multi-Hit Model
 
@@ -316,7 +314,7 @@ The CRPS comparison demonstrates feasibility (autoantibodies against these recep
 
 The multi-hit model predicts: (a) GWI should have more evenly distributed threat signal components than ME/CFS (which is cytokine-dominant), (b) more simultaneous exposure types should predict higher GWI incidence controlling for total exposure intensity, and (c) GWI should involve more load-bearing locks (broader autoantibody panels, more metabolic parameters outside normal range) making it more treatment-resistant than post-infectious ME/CFS.
 
-A critical discriminating finding: Baraniuk 2022 (n=36 ME/CFS, n=78 GWI) found opposite fMRI exercise responses — exercise increases activation in ME/CFS ascending arousal network nuclei but *decreases* activation in GWI.
+A critical discriminating finding: Baraniuk 2022 ($n = 36$ ME/CFS, $n = 78$ GWI) found opposite fMRI exercise responses — exercise increases activation in ME/CFS ascending arousal network nuclei but *decreases* activation in GWI @Baraniuk2022fMRIExercise.
 This is the strongest evidence for different pathophysiology despite overlapping symptoms.
 If replicated, this would establish GWI and ME/CFS as distinct diseases sharing only phenotype, not mechanism.
 
@@ -324,7 +322,7 @@ If replicated, this would establish GWI and ME/CFS as distinct diseases sharing 
 If the replication shows same-direction activation in both groups, the GWI/ME/CFS distinction collapses to shared pathophysiology.
 
 *Consequence:* The multi-hit model has direct nosological implications: if verified, GWI would be split from ME/CFS on etiological grounds (simultaneous multi-hit vs single/sequential trigger) even though symptoms overlap extensively — supporting a splitting framework where trigger pattern, not just trigger identity, determines disease classification.
-] <hyp:gwi-multi-hit>
+] <hyp:ch16-gwi-multi-hit>
 
 == The Gut-Brain Axis: IBS as Comorbidity and Comparator
 
@@ -360,7 +358,7 @@ Falsified if anti-5-HT autoantibodies are specific to either ME/CFS or IBS but n
 Every condition in this chapter shares a history of psychosomatic framing — being dismissed as "not real" or "all in the mind" before biological evidence accumulated.
 The psychosomatic-lag pattern (how long a contested condition took from first clinical description to biological acceptance) is instructive: multiple sclerosis ~100 years, epilepsy ~2,500 years, rheumatoid arthritis was distinguished from "rheumatism" only with the discovery of RF in 1940.
 
-ME/CFS and its neighbours currently occupy the "contested" phase of this trajectory.
+ME/CFS and its neighbors currently occupy the "contested" phase of this trajectory.
 The hierarchical relationship between psychiatric and physical diagnosis is a structural feature of the nosological landscape: when a condition lacks a biomarker, it defaults to psychiatric classification (somatic symptom disorder in DSM-5, bodily distress disorder in ICD-11).
 This has two consequences: (a) it creates a structural incentive for patients to emphasize physical over psychological symptoms (to avoid a psychiatric label that invalidates their illness experience), and (b) it means the same patient could receive a psychiatric diagnosis from one clinician and a physical diagnosis from another, purely as a function of the clinician's nosological philosophy.
 
@@ -404,6 +402,8 @@ The lesson for ME/CFS: finding a biomarker is the highest-leverage nosological i
 3. *Boundary disputes are not symmetric.* The psychiatric framing of contested diagnoses is not merely one legitimate viewpoint among many — it has material consequences for patients (denial of disability benefits, withholding of biological investigations, inappropriate psychiatric treatment).
 The nosological debate has real stakes.
 Framing it as "two equally valid perspectives" (biomedical vs biopsychosocial) is an equipoise fallacy — the two perspectives are not equal in their consequences for patients.
+
+*Consequence:* These three lessons converge on a single actionable principle: the highest-leverage nosological intervention for every condition in this chapter is the discovery of a validated biomarker — it resolves boundary disputes, collapses the psychosomatic lag, and removes the material harms of wrongful psychiatric classification.
 ] <ach:historical-lessons>
 
 == Research Directions
