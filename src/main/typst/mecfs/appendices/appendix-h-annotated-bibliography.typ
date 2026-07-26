@@ -30657,7 +30657,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     / *Study Design:*: Cross-sectional case-control; vastus lateralis biopsy; IHC for Pax7 (satellite cells) and PDGFRα (FAP cells); high-resolution respirometry; metabolomics
     / *Sample Size:*: n=26 ME/CFS, n=25 Long COVID, n=30 healthy controls
     / *Key Findings:*:
-        - Reduced Pax7+ satellite cells (P<0.001) — first direct measurement in ME/CFS/LC
+        - Reduced Pax7+ satellite cells (P$<$0.001) — first direct measurement in ME/CFS/LC
         - Trending reduced PDGFRα+ FAP cells (P=0.061) — niche support cells
         - SC count correlated with OXPHOS capacity (r=0.43, P=0.0035)
         - Metabolic shift away from oxidative metabolism
@@ -30787,7 +30787,179 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Mitochondrial polymorphism and monstrosity on EM
         - Reduced mitochondrial enzyme activities (cytochrome oxidase/succinate dehydrogenase)
         - mtDNA common deletion 4977bp elevated 150-3000× normal values
-        - Selective muscle hyperalgesia (P<0.001) with normal skin/subcutis thresholds
+        - Selective muscle hyperalgesia (P$<$0.001) with normal skin/subcutis thresholds
     / *Conclusion:*: Earliest evidence of disrupted muscle regeneration and mitochondrial pathology in CFS, published 30 years before Charlton 2026 but consistent with satellite cell dysfunction.
     / *Limitations:*: Small sample (n=9 biopsied); 1990s methodology; no SC-specific markers; pre-consensus diagnostic criteria.
     / *Certainty:*: 0.25
+
+// =============================================================================
+
+== HSV Dormancy-Undormancy Probe
+<sec:bib-hsv-dormancy-undormancy-probe>
+// =============================================================================
+
+=== Chida et al.\ 2009 --- Meta-Analysis of Psychosocial Stress and HSV Recurrence
+
+    / *Full Citation:*: Chida Y, Mao X. Does psychosocial stress predict symptomatic herpes simplex virus recurrence? A meta-analytic investigation on prospective studies. _Brain, Behavior, and Immunity_. 2009;23(7):917–925. @Chida2009StressHSVMetaAnalysis
+    / *DOI:*: #link("https://doi.org/10.1016/j.bbi.2009.04.009")[10.1016/j.bbi.2009.04.009]
+    / *PMID:*: 19409481
+    / *Study Design:*: Meta-analysis of prospective studies
+    / *Sample Size:*: 11 articles, 17 psychosocial-disease relationships
+    / *Key Findings:*:
+        - Robust positive association between psychosocial stress and symptomatic HSV recurrence (r=0.083, 95% CI 0.025–0.141, p=0.005)
+        - Psychological distress more strongly associated with recurrence than stress stimuli per se
+        - Oral herpes recurrence more strongly stress-associated than genital herpes recurrence
+    / *Conclusion:*: Psychosocial stress is a reliable predictor of HSV recurrence, establishing the stress–reactivation mechanistic link needed for the dormancy-undormancy probe hypothesis.
+    / *Limitations:*: Some indication of publication bias; heterogeneity in stress measurement across studies.
+    / *Certainty:*: 0.53
+
+=== Buchwald et al.\ 1996 --- Viral Serologies in CFS (Null for HSV)
+
+    / *Full Citation:*: Buchwald D, Ashley RL, Pearlman T, Kith P, Komaroff AL. Viral serologies in patients with chronic fatigue and chronic fatigue syndrome. _Journal of Medical Virology_. 1996;50(1):25–30. @Buchwald1996ViralSerologies
+    / *DOI:*: #link("https://doi.org/10.1002/(SICI)1096-9071(199609)50:1<25::AID-JMV6>3.0.CO;2-V")[10.1002/(SICI)1096-9071(199609)50:1<25::AID-JMV6>3.0.CO;2-V]
+    / *PMID:*: 8890037
+    / *Study Design:*: Cross-sectional serological survey
+    / *Sample Size:*: n=548 chronically fatigued patients vs controls
+    / *Key Findings:*:
+        - NULL RESULT. No consistent differences in seroprevalence or GMT of antibodies to 13 viruses including HSV-1 and HSV-2
+        - No differences across subsets: CFS, fibromyalgia, psychiatric disorders, acute viral onset, documented fever
+    / *Conclusion:*: Standard viral serologies (HSV-1, HSV-2 included) do not distinguish CFS patients from controls. This is the largest negative study for HSV in CFS.
+    / *Limitations:*: 1990s serological methods; cross-sectional design; binary seropositivity thresholds may miss subtle differences.
+    / *Certainty:*: 0.65
+
+=== Koelle et al.\ 2002 --- Discordant Twin Study (Null for HSV)
+
+    / *Full Citation:*: Koelle DM, Barcy S, Huang ML, Ashley RL, Corey L, Zeh J, Ashton S, Buchwald D. Markers of viral infection in monozygotic twins discordant for chronic fatigue syndrome. _Clinical Infectious Diseases_. 2002;35(5):518–525. @Koelle2002TwinsHSV
+    / *DOI:*: #link("https://doi.org/10.1086/341774")[10.1086/341774]
+    / *PMID:*: 12173124
+    / *Study Design:*: Co-twin control study
+    / *Sample Size:*: 22 monozygotic twin pairs (44 individuals) discordant for CFS
+    / *Key Findings:*:
+        - NULL RESULT. HSV-1/2 antibodies and PBMC PCR did not differ between CFS and healthy co-twins
+        - Comprehensive viral panel (10 viruses; HHV-6/7/8, CMV, EBV, HSV, VZV, JC, BK, Parvovirus B19) all negative
+        - Co-twin design controls both genetics and environment
+    / *Conclusion:*: Genetically and environmentally matched design finds no HSV or other herpesvirus marker distinguishing CFS from health. Strongest negative evidence.
+    / *Limitations:*: Small sample (22 pairs); monozygotic twin design may limit generalizability despite strengthening causal inference.
+    / *Certainty:*: 0.55
+
+=== Yu et al.\ 2018 --- Treg Cells Required for HSV-1 Latency and Stress Reactivation
+
+    / *Full Citation:*: Yu W, Geng S, Suo Y, Wei X, Cai Q, Wu B, Zhou X, Shi Y, Wang B. Critical role of regulatory T cells in the latency and stress-induced reactivation of HSV-1. _Cell Reports_. 2018;25(9):2379–2389.e3. @Yu2018TregHSVLlatency
+    / *DOI:*: #link("https://doi.org/10.1016/j.celrep.2018.10.105")[10.1016/j.celrep.2018.10.105]
+    / *PMID:*: 30485807
+    / *Study Design:*: Murine experimental model (HSV-1 ocular infection)
+    / *Sample Size:*: Mouse model; ocular route
+    / *Key Findings:*:
+        - Treg cells required for HSV-1 latency establishment
+        - Host stress induces HSV-1 reactivation via increased Treg cell control of CD8+ T cells
+        - Diminished immune surveillance during stress permits viral replication
+        - Proposes Treg regulation as key therapeutic target for HSV control
+    / *Conclusion:*: Establishes the mechanistic pathway: stress → Treg ↑ → CD8+ T cell ↓ → HSV-1 reactivation. This is the key mechanism for the dormancy-undormancy probe framework.
+    / *Limitations:*: Mouse model; ocular route differs from natural oral/genital infection; translational gap to human HSV recurrence.
+    / *Certainty:*: 0.30
+
+=== Sepúlveda et al.\ 2019 --- Treg-Herpesvirus ME/CFS Hypothesis
+
+    / *Full Citation:*: Sepúlveda N, Carneiro J, Lacerda E, Nacul L. Myalgic encephalomyelitis/chronic fatigue syndrome as a hyper-regulated immune system driven by an interplay between regulatory T cells and chronic human herpesvirus infections. _Frontiers in Immunology_. 2019;10:2684. @Sepulveda2019TregMEHypothesis
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2019.02684")[10.3389/fimmu.2019.02684]
+    / *PMID:*: 31824487
+    / *PMCID:*: PMC6883905
+    / *Study Design:*: Hypothesis paper + computational model simulation
+    / *Sample Size:*: N/A (simulation study)
+    / *Key Findings:*:
+        - Treg-mediated chronic immune activation to HSV-1, HHV-6, and EBV could explain ME/CFS pathogenesis
+        - Mild infections with high autoimmune potential → persistent inflammation under Treg control → fatigue
+        - Computational model reproduces increased Treg density/percentages observed in ME/CFS
+    / *Conclusion:*: Connects Treg dysregulation, chronic herpesvirus activation, and ME/CFS fatigue in a unified mechanistic model that aligns with the HSV dormancy-undormancy probe concept.
+    / *Limitations:*: Theoretical; no empirical validation; simplified CD4+ T-cell repertoire model.
+    / *Certainty:*: 0.50
+
+=== Schreiner et al.\ 2020 --- HHV-6 Reactivation, Mitochondrial Fragmentation, and Antiviral State in ME/CFS
+
+    / *Full Citation:*: Schreiner P, Harrer T, Scheibenbogen C, Lamer S, Schlosser A, Naviaux RK, Prusty BK. Human herpesvirus-6 reactivation, mitochondrial fragmentation, and the coordination of antiviral and metabolic phenotypes in myalgic encephalomyelitis/chronic fatigue syndrome. _ImmunoHorizons_. 2020;4(4):201–215. @Schreiner2020HHV6MitochondriaME
+    / *DOI:*: #link("https://doi.org/10.4049/immunohorizons.2000006")[10.4049/immunohorizons.2000006]
+    / *PMID:*: 32327453
+    / *Study Design:*: In vitro + patient serum adoptive transfer
+    / *Sample Size:*: 10 ME/CFS patients (serum) + cell line experiments
+    / *Key Findings:*:
+        - HHV-6 reactivation causes mitochondrial fragmentation, dUTPase/thymidylate synthase induction, pyruvate dehydrogenase inhibition
+        - Serum from 10 ME/CFS patients transfers an antiviral state in A549 cells that blocks HSV-1 and influenza-A superinfection
+        - Links herpesvirus reactivation → mitochondrial dysfunction → metabolic collapse
+    / *Conclusion:*: Herpesvirus reactivation in ME/CFS activates cell danger response with antiviral protection at cost of energy metabolism. Directly relevant to HSV probe: ME/CFS serum creates anti-HSV state that may suppress HSV outbreaks, paradoxically.
+    / *Limitations:*: Very small patient sample (n=10); in vitro model; mechanism needs larger cohort validation.
+    / *Certainty:*: 0.44
+
+=== Henderson 2014 --- Valacyclovir for Chronic Fatigue in Adolescents
+
+    / *Full Citation:*: Henderson TA. Valacyclovir treatment of chronic fatigue in adolescents. _Advances in Mind-Body Medicine_. 2014;28(1):4–14. @Henderson2014ValacyclovirAdolescents
+    / *PMID:*: 24445302
+    / *Study Design:*: Clinical case report/series
+    / *Sample Size:*: Small (adolescent chronic fatigue)
+    / *Key Findings:*:
+        - Valacyclovir treatment associated with improvement in adolescent chronic fatigue
+        - Extends herpesvirus-contribution framework to younger patient population
+    / *Conclusion:*: Suggests herpesvirus reactivation may be clinically relevant even in adolescent chronic fatigue, consistent with antiviral-responsive subpopulations.
+    / *Limitations:*: Small sample; no control group; single author; low-tier journal.
+    / *Certainty:*: 0.35
+
+=== Gopinath et al.\ 2023 --- Herpes Labialis Epidemiology Review
+
+    / *Full Citation:*: Gopinath D, Koe KH, Maharajan MK, Panda S. A comprehensive overview of epidemiology, pathogenesis and the management of herpes labialis. _Viruses_. 2023;15(1):225. @Gopinath2023HerpesLabialis
+    / *DOI:*: #link("https://doi.org/10.3390/v15010225")[10.3390/v15010225]
+    / *PMID:*: 36680265
+    / *PMCID:*: PMC9867007
+    / *Study Design:*: Comprehensive review
+    / *Sample Size:*: N/A (literature review)
+    / *Key Findings:*:
+        - HSV-1 global prevalence ~67% in individuals aged \<50
+        - Recurrence rate: 20–40% of seropositive individuals
+        - Known recurrence triggers: UV radiation, psychological stress, fever, menstruation, trauma
+    / *Conclusion:*: Provides essential baseline epidemiology for interpreting HSV outbreak frequency in ME/CFS. Expected recurrence rate 20–40% must be exceeded for outlier PEM-triggered signal.
+    / *Limitations:*: Review; no new empirical data; some regional data bias toward SE Asia.
+    / *Certainty:*: 0.41
+
+=== Schalkwijk et al.\ 2022 --- Acyclovir Resistance Review
+
+    / *Full Citation:*: Schalkwijk HH, Snoeck R, Andrei G. Acyclovir resistance in herpes simplex viruses: Prevalence and therapeutic alternatives. _Biochemical Pharmacology_. 2022;206:115322. @Schalkwijk2022AcyclovirResistance
+    / *DOI:*: #link("https://doi.org/10.1016/j.bcp.2022.115322")[10.1016/j.bcp.2022.115322]
+    / *PMID:*: 36309081
+    / *Study Design:*: Review
+    / *Sample Size:*: N/A (literature review)
+    / *Key Findings:*:
+        - Acyclovir resistance in immunocompetent patients: ~0.3%
+        - Higher resistance rate in immunocompromised (5–14%)
+        - Alternative therapies: foscarnet, cidofovir, helicase-primase inhibitors
+    / *Conclusion:*: Supports long-term safety and low resistance risk of valacyclovir suppressive therapy, relevant for any HSV-suppression protocols in ME/CFS trials.
+    / *Limitations:*: Review; no novel data.
+    / *Certainty:*: 0.41
+
+=== Ariza 2020 --- Commentary on Blomberg 2019 Herpesvirus Null Study
+
+    / *Full Citation:*: Ariza ME. Commentary: Antibodies to human herpesviruses in myalgic encephalomyelitis/chronic fatigue syndrome patients. _Frontiers in Immunology_. 2020;11:1400. @Ariza2020CommentaryHerpesvirus
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2020.01400")[10.3389/fimmu.2020.01400]
+    / *PMID:*: 32793195
+    / *PMCID:*: PMC7390837
+    / *Study Design:*: Commentary
+    / *Sample Size:*: N/A
+    / *Key Findings:*:
+        - Argues Blomberg 2019 multiplex immunoassay may miss conformational epitopes
+        - dUTPase antibodies proposed as more specific markers of herpesvirus reactivation in ME/CFS than standard structural/latent antigen serology
+    / *Conclusion:*: Null results in standard herpesvirus serology may reflect antigen choice rather than absence of reactivation. dUTPase-based assays may be more sensitive.
+    / *Limitations:*: Commentary; opinion piece; potential conflict of interest (same research group as dUTPase antibody studies).
+    / *Certainty:*: 0.35
+
+=== Domingues et al.\ 2021 --- Herpesvirus Serology Distinguishes ME/CFS Subgroups
+
+    / *Full Citation:*: Domingues TD, Grabowska AD, Lee JS, Ameijeiras-Alonso J, Westermeier F, Scheibenbogen C, Cliff JM, Nacul L, Lacerda EM, Mouriño H, Sepúlveda N. Herpesviruses serology distinguishes different subgroups of patients from the United Kingdom myalgic encephalomyelitis/chronic fatigue syndrome biobank. _Frontiers in Medicine_. 2021;8:686736. @Domingues2021HerpesvirusesSubgroups
+    / *DOI:*: #link("https://doi.org/10.3389/fmed.2021.686736")[10.3389/fmed.2021.686736]
+    / *PMID:*: 34291062
+    / *PMCID:*: PMC8287507
+    / *Study Design:*: Re-analysis of serological data with sensitivity analysis
+    / *Sample Size:*: 226 ME/CFS (4 trigger-based subgroups) + 99 healthy controls
+    / *Key Findings:*:
+        - S3 subgroup (lab-confirmed infection trigger) had lower CMV seroprevalence vs controls
+        - Herpesvirus serology distinguished ME/CFS subgroups by disease trigger
+        - Associations did not survive Benjamini-Yekutieli multiple-testing correction
+    / *Conclusion:*: Trigger-based ME/CFS subgroups may have different herpesvirus profiles, suggesting heterogeneity that could mask HSV-specific signals in pooled analyses.
+    / *Limitations:*: Re-analysis; arbitrary seropositivity cutoff sensitivity; multiple testing burden limits confidence.
+    / *Certainty:*: 0.55

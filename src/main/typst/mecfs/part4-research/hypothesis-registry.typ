@@ -3845,10 +3845,62 @@ This registry collects all hypotheses, speculations, open questions, and predict
   chapter-ref: [ch38:@hyp:lsr-diagnostic-biomarker; ch39:@sec:lsr-biomarker-validation-study],
   prediction: [Primary: LSR AUC $≥$0.75 for ME/CFS vs healthy controls, while VCA-p18 IgG alone achieves AUC $<$0.55. IgG avidity uniformly $>$0.6 in ME/CFS (excludes recent primary infection). Valacyclovir-responsive patients show declining LSR; non-responders show stable LSR. Falsified if LSR AUC $<$0.60, OR structural-antigen IgG shows equivalent discrimination, OR low-avidity IgG ($<$0.4) detected in $>$10\% of ME/CFS (would refute LLPC model).],
   treatment: [If validated: first serological biomarker to stratify ME/CFS patients by mechanism (ALR vs LLPC), directing antiviral therapy to the ALR group. Deployable on existing clinical ELISA platforms within 2–3 years. Null result would close the LSR hypothesis definitively and redirect herpesvirus research toward whole-proteome serology.],
-  limitation: [Custom anti-dUTPase ELISA required — not commercially available. Anti-BZLF1/anti-VCA-p18 ELISA kits validated for qualitative (seropositive/seronegative) detection, not quantitative ratio computation — reference range unknown. Valacyclovir substudy is observational (confounding by indication). Poly-herpesvirus LSR profiling requires custom antigens for each virus's dUTPase — multiplies assay development bottleneck. IgG avidity assays not commercially standardized. Phase 2 (n=40) underpowered if valacyclovir response rate $<$50\%. Origin: brainstorm — proposal.],
+   limitation: [Custom anti-dUTPase ELISA required — not commercially available. Anti-BZLF1/anti-VCA-p18 ELISA kits validated for qualitative (seropositive/seronegative) detection, not quantitative ratio computation — reference range unknown. Valacyclovir substudy is observational (confounding by indication). Poly-herpesvirus LSR profiling requires custom antigens for each virus's dUTPase — multiplies assay development bottleneck. IgG avidity assays not commercially standardized. Phase 2 (n=40) underpowered if valacyclovir response rate $<$50\%. Origin: brainstorm — proposal.],
 )
 
-=== Entries added 2026-07-17: "Seronegative Chronic Lyme" as a Claimed Cause of ME/CFS (REJECTED)
+=== Entries added 2026-07-26: HSV Dormancy-Undormancy Probe
+
+#registry-entry(
+  [HSV Outbreak Frequency × PEM Timing as Endogenous Viral Reactivation Probe],
+  type: "S",
+  certainty: "0.20",
+  evidence: [The mechanistic rationale is coherent but every ME/CFS-specific link is untested. Stress→HSV reactivation link is established in general population (Chida 2009 meta-analysis, 11 prospective studies, r=0.083, p=0.005 @Chida2009StressHSVMetaAnalysis). PEM→catecholamine pathway is established in ME/CFS CPET literature. However: no prospective study has tracked HSV outbreak timing relative to PEM episodes; the Treg→CD8+ T cell→HSV latency mechanism demonstrated in mice @Yu2018TregHSVLlatency has not been tested in human ME/CFS; the null serology literature (Buchwald 1996 n=548 @Buchwald1996ViralSerologies; Koelle 2002 22 twin pairs @Koelle2002TwinsHSV) found no HSV-1/2 serological differences between ME/CFS and controls. HSV recurrence epidemiology from general-population review: 67% global prevalence, 20–40% of seropositive individuals experience recurrent outbreaks @Gopinath2023HerpesLabialis. Origin: brainstorm.],
+  citations: [@Chida2009StressHSVMetaAnalysis @Yu2018TregHSVLlatency @Buchwald1996ViralSerologies @Koelle2002TwinsHSV @Gopinath2023HerpesLabialis],
+  mechanism: [PEM → sympathetic activation → catecholamine surge → Treg-mediated CD8+ T cell suppression at trigeminal ganglion → HSV exit from latency → visible cold sore. This is a patient-reportable, timestamped viral reactivation event. The probe is falsifiable, inexpensive, and patient-owned — no laboratory testing required.],
+  chapter-ref: [ch08:@spec:hsv-pem-probe],
+  prediction: [Prospective diary study (n $≥$ 50 HSV-1 seropositive ME/CFS, 3--6 months): HSV outbreak onset within 48h of PEM in $≥$60% of PEM-associated outbreaks (vs $<$20% of non-PEM periods); increased outbreak frequency during PEM-heavy weeks; stress scores (PSS) do not independently predict outbreak timing after controlling for PEM. Falsified if outbreaks are equally distributed between PEM and non-PEM periods, OR if stress predicts better than PEM.],
+  treatment: [N/A — research tool, not a clinical recommendation. If validated, HSV outbreak diaries become a secondary endpoint for antiviral trials and a patient-owned biomarker. If HSV outbreaks cluster with PEM but valacyclovir suppression does not reduce PEM severity, HSV reactivation is a downstream consequence, not a driver — still useful as probe, not as therapeutic target.],
+  limitation: [Every ME/CFS-specific link is untested. HSV recurrence is multifactorial (UV, fever, menstruation, sleep disruption, stress independent of PEM) — these confounds must be controlled in any prospective design. Patient-reported diaries have recall bias and variable sensitivity for detecting prodromal/minor outbreaks. Photographic documentation recommended for validation. The 20–40% recurrence rate means only a minority of HSV-seropositive patients would contribute data. Origin: brainstorm.],
+)
+
+#registry-entry(
+  [Treg-Mediated CD8+ T Cell Suppression at HSV Latency Sites Explains PEM-Associated HSV Outbreaks],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Synthesis of two independent lines never connected in the same study: (1) Treg→CD8+ T cell→HSV latency maintenance axis in mice (Yu 2018, cert 0.30 discounted @Yu2018TregHSVLlatency); (2) Treg-herpesvirus-immune hyperactivation model of ME/CFS (Sepúlveda 2019, cert 0.50, computational only @Sepulveda2019TregMEHypothesis). Neither has been tested in human ME/CFS nor in the context of PEM-provoked HSV reactivation. Origin: brainstorm.],
+  citations: [@Yu2018TregHSVLlatency @Sepulveda2019TregMEHypothesis],
+  mechanism: [PEM-associated catecholamine surges lower the Treg-dependent threshold for HSV reactivation at trigeminal ganglia. ME/CFS patients with elevated Treg percentages experience more frequent/more PEM-coupled HSV outbreaks because Treg-mediated CD8+ T cell suppression at latency sites is more easily triggered by stress signals.],
+  chapter-ref: [ch08:@oq:hsv-treg-latency],
+  prediction: [In HSV-1 seropositive ME/CFS with prospective diary: Treg% correlates with monthly HSV outbreak frequency (r ≥ 0.3); PEM-associated outbreaks show higher pre-outbreak Treg% than PEM-independent outbreaks; CD8+ T cell frequency and HSV-specific CD8+ T cell functionality lower in patients with more frequent outbreaks. Falsified if no Treg–outbreak correlation, OR if CD8+ T cell function does not differ by outbreak frequency.],
+  treatment: [N/A — mechanistic hypothesis with zero clinical implication.],
+  limitation: [Mouse-to-human translation gap for Treg–CD8–HSV mechanism. Sepúlveda 2019 is a computational model, not an observational finding — no empirical evidence that Treg-mediated immune hyperactivation occurs in ME/CFS. The Treg phenotype in ME/CFS is itself contested (some studies find elevation, others find normal percentages). Origin: brainstorm.],
+)
+
+#registry-entry(
+  [HSV-Specific Analog of the LSR — Anti-ICP0 ÷ Anti-gB Ratio as Cross-Viral Validation],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [The EBV LSR (anti-BZLF1 ÷ anti-VCA-p18) has never been measured in any disease. The proposed HSV analog (anti-ICP0 ÷ anti-gB) would be a replication construct — same logic (lytic-cycle ÷ structural), different virus, different latency compartment (neuronal instead of B cell). But ICP0 is not a clinical antigen: anti-ICP0 serology has never been developed for human diagnostic use, its immunogenicity profile in natural infection is unknown, and there is zero literature on ICP0-specific antibody responses in any disease context. Origin: brainstorm.],
+  citations: [],
+  mechanism: [Compare immediate-early (ICP0, expressed at reactivation initiation) to late structural (gB, LLPC-maintained) HSV-1/2 IgG. If HSV reactivation follows abortive lytic replication pattern: ICP0-to-structural IgG ratio elevated in patients with frequent PEM-associated outbreaks because ICP0 expression occurs even when reactivation is abortive. If HSV-LSR elevated but EBV-LSR normal → reactivation is compartmentalized (trigeminal ganglion-specific), not systemic B cell-driven.],
+  chapter-ref: [ch08:@oq:hsv-lsr-analog; ch08:@lim:hsv-lsr-assay-gap],
+  prediction: [Not currently testable — requires anti-ICP0 IgG ELISA development and validation. If developed: HSV-LSR should correlate with patient-reported HSV outbreak frequency and decline during valacyclovir suppression. Falsified if HSV-LSR is normal in patients with frequent PEM-associated outbreaks.],
+  treatment: [N/A — assay does not exist. Years from implementation.],
+  limitation: [Anti-ICP0 serology does not exist. No commercial or research-grade ICP0 ELISA exists. The entire construct is model-dependent — it assumes HSV follows the same ALR immunogenicity pattern as EBV, which has not been demonstrated. The pragmatic near-term alternative is the patient-reported outbreak diary — no assay development required. Origin: brainstorm.],
+)
+
+#registry-entry(
+  [LSR–HSV Outbreak Pattern Intersection — Do Elevated EBV-LSR Patients Show Different HSV Recurrence Profiles?],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Requires two prior validations that do not yet exist: (1) LSR discriminates ME/CFS from controls (foundational LSR validation study, never performed), and (2) HSV outbreaks cluster with PEM (HSV probe framework, never tested). Only if both are affirmative does the cross-viral intersection become testable. Origin: brainstorm.],
+  citations: [],
+  mechanism: [If elevated EBV-LSR reflects systemic immune dysregulation affecting multiple herpesvirus reservoirs (not just EBV B cell latency), patients with elevated LSR should show: (a) higher HSV outbreak frequency; (b) stronger temporal coupling between HSV outbreaks and PEM; (c) elevated HSV-specific LSR analog (if assay developed). If LSR elevated but HSV outbreak patterns unremarkable: LSR reflects EBV-specific B cell compartment process, not systemic. If HSV outbreaks PEM-correlated but LSR normal: viral reactivation is compartmentalized (trigeminal), not captured by EBV-serological ratios.],
+  chapter-ref: [ch08:@oq:lsr-hsv-patterns],
+  prediction: [In a nested analysis within the LSR validation study (@sec:lsr-biomarker-validation-study): HSV-1 seropositive patients with elevated EBV-LSR will report higher HSV outbreak frequency than those with normal LSR. Falsified if LSR and HSV outbreak frequency are independent.],
+  treatment: [N/A — entirely speculative. Requires both LSR and HSV probe to be validated first.],
+  limitation: [The LSR has never been measured. The HSV outbreak probe has never been tested. This is a conjecture about the relationship between two unvalidated constructs — it is a hypothesis about hypotheses. Origin: brainstorm.],
+)
 
 #registry-entry(
   ["Seronegative Chronic Lyme Disease" as a Driver of ME/CFS — Claim Not Supported by High-Quality Evidence],
@@ -4279,7 +4331,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [oq:ldn-dose-response-research-gap], [No within-range LDN dose-response trial exists for ME-CFS. The upcoming LIFT trial uses a single fixed dose and cannot address this gap.],[Phase 3 / n/a],
 
-  [hyp:hormetic-mechanistic-clustering], [The 17 hormetic drugs partition into four mechanistic clusters (Nrf2, catecholamine, mTOR/autophagy, GABAergic/neurosteroid). Inversion-point positions should correlate within clusters (r ≥ 0.4) but not necessarily across clusters (r < 0.2). If cross-cluster correlation is r ≥ 0.4, hormetic reserve is a single systems-level trait; if r < 0.2 across clusters but r ≥ 0.4 within, hormetic reserve is multi-component. Falsifiable prediction: within each patient, the vector of inversion-point doses (standardised per drug) must show intra-class r ≥ 0.4 within at least 3 of 4 clusters; cross-cluster max pairwise r must be below 0.2. Falsified if all pairwise r < 0.2 including within-cluster — hormetic reserve is not measurable at any level. Indeterminate outcome: 0.2 ≤ r < 0.4 across all pairs (no clustering discernible but non-zero signal) → requires expanded N or additional drugs to resolve. @Calabrese2010hormesisCentral @Arnsten2011catecholaminePFC @Cools2011invertedU @Sarbassov2006rapamycin @Andreen2009allopregnanoloneBiphasic],[Phase 4 / 0.25],
+  [hyp:hormetic-mechanistic-clustering], [Non-monotonic dose-response drugs group into five mechanistic categories (Nrf2, catecholamine, D2 partial-agonist, mTOR/autophagy, GABAergic/neurosteroid). Inversion-point positions should correlate within categories (r ≥ 0.4) but not across (r < 0.2). Cluster 3 (D2 partial-agonist: aripiprazole/LDA, single-member) is an occupancy-dependent inverted-U, pharmacologically distinct from both Nrf2 hormesis and PFC catecholamine inverted-U — the curve is identical in any population with dopamine deficit, not ME/CFS-specific. Lithium and corticosteroids are bridge drugs spanning multiple categories. Falsifiable prediction: within-patient intra-class r ≥ 0.4 in ≥4 of 5 categories; cross-category max pairwise r < 0.2. Falsified if all pairwise r < 0.2 including within-category. Indeterminate: 0.2 ≤ r < 0.4 across all (requires expanded N). @Calabrese2010hormesisCentral @Arnsten2011catecholaminePFC @Cools2011invertedU @Sarbassov2006rapamycin @Andreen2009allopregnanoloneBiphasic @Crosby2021LDA @Sun2020yinYangHormesis],[Phase 4 / 0.25],
 
   [spec:hormetic-inversion-point-battery-hip-b], [A 6-drug within-patient crossover pilot trial (LDN, sulforaphane, duloxetine, modafinil, rapamycin, allopregnanolone — each at 4 dose levels) to estimate cross-drug inversion-point correlation effect size. With n=20, the 95% CI on pairwise r spans approximately -0.05 to 0.71 — the 0.2-to-0.4 transition zone is within the CI, preventing decisive classification for most outcomes. The pilot therefore estimates effect size for a definitive trial requiring n ≥ 80 to distinguish confirmed (r ≥ 0.4) from falsified (r < 0.2). If 30--50% show inversions, effect size is too small to reject confounding at n=20; requires n ≥ 80 replication. Due to high PEM burden, a staged design is proposed: Phase 1 = 2-drug crossover (LDN + duloxetine, ~14--18 weeks); Phase 2 = expand to 6 drugs only conditional on Phase 1 r ≥ 0.3. Estimated cost: $1.2M--$1.7M (Phase 1 + Phase 2 combined). No pharmaceutical company will fund (all 6 drugs generic). @Samuel2019Nof1Hypertension @Samuel2023Nof1RCT],[Phase 4 / n/a],
 
@@ -4359,6 +4411,23 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [oq:missing-evidence], [Five identified gaps: (1) no US claims-data cost study; (2) no longitudinal lifetime-cost study; (3) no cost-effectiveness of diagnostic pathway; (4) no caregiver monetary valuation; (5) no developing-country data. All feasibly addressable with existing methods; gaps confirmed by systematic review (Cochrane 2021, Wan 2024).],[Phase 3 / 0.60],
 
   [syn:economic-impact-model], [Cross-country synthesis: USD 18,000--29,000/patient/year; employment ~20% vs ~80% general; caregiver 50% income reduction; 1,000:1 burden:funding ratio; 30--40x worse than MS/RA. Strongest supported conclusion: current funding level unjustifiable on any cost-effectiveness principle. Policy change requires demonstrating current funding is indefensible, not computing optimal level.],[Phase 3 / 0.65],
+)
+
+= Entries added 2026-07-26i: Satellite Cell Depletion & Impaired Muscle Regeneration
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [spec:sc-depletion-structural-ratchet], [Charlton 2026 AMS abstract: first direct measurement of satellite cells in ME/CFS/LC muscle — reduced Pax7⁺ SCs (P$<$0.001), trending reduced PDGFRα⁺ FAPs (P=0.061), SC-OXPHOS correlation ($r = 0.43$). If replicated, SC depletion provides mechanism for progressive muscle damage: each exertion causes micro-damage that cannot be repaired due to stem cell exhaustion. Single biobank, conference abstract only, unreplicated. @Charlton2026SCdepletion @Bhattacharya2024SCmetabolic @Dumont2015SCbiology],[Phase 3 / 0.37],
+
+  [spec:sc-depletion-glycolytic-shift], [Bidirectional loop: OXPHOS failure → glycolytic fibre remodelling → SC niche degradation → impaired repair → further loss of oxidative fibres. SCs require OXPHOS for differentiation; the glycolytic shift documented in ME/CFS muscle may be both cause and consequence of regeneration failure. Untested mechanistic inference.],[Phase 3 / 0.30],
+
+  [oq:sc-depletion-primary-vs-secondary], [Four non-mutually-exclusive mechanisms: (1) primary autoimmune/viral niche attack, (2) secondary to mitochondrial failure, (3) secondary to chronic inflammation, (4) secondary to disuse. Different mechanisms → different interventions. Resolution requires independent replication, functional SC assays, longitudinal data, confounder adjustment.],[Phase 3 / n/a],
+
+  [spec:sc-depletion-convergent-repair], [SC depletion converges with autonomic macrophage polarization and NK repair dysfunction into a multi-layered tissue repair crisis. No single intervention likely sufficient — combination strategies targeting multiple layers simultaneously may be necessary. Hypothesis-level convergence only.],[Phase 3 / 0.37],
+
+  [oq:sc-depletion-postinfectious-convergence], [Near-identical SC depletion in ME/CFS and LC suggests convergent post-infectious mechanism. Key question: is SC depletion reversible? In aging, SC decline is permanent. If irreversible in ME/CFS, priority shifts from restoration to protection of remaining SCs — fundamentally different strategy.],[Phase 3 / n/a],
 )
 
 
