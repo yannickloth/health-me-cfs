@@ -6,13 +6,17 @@ Pentoxifylline (Trental, oxpentifylline) is a methylxanthine-derivative hemorrhe
 
 ==== Mechanism of Action
 
-Pentoxifylline inhibits phosphodiesterase (PDE3/4), increasing intracellular cAMP in erythrocytes. This improves RBC membrane deformability — stiff RBCs regain their ability to elongate and squeeze through capillaries narrower than their diameter. Secondary effects include: (a) reduced blood viscosity via improved fibrinogen levels and erythrocyte flexibility; (b) TNF-α suppression via PDE inhibition in monocytes/macrophages, providing mild anti-inflammatory activity; (c) improved leukocyte deformability, reducing leukocyte plugging in microvasculature. The hemorrheologic effect onset is hours (single dose reduces blood viscosity); TNF-α suppression requires days to weeks @Frampton1995pentox.
+Pentoxifylline inhibits phosphodiesterase (PDE3/4), increasing intracellular cAMP in erythrocytes. This improves RBC membrane deformability — stiff RBCs regain their ability to elongate and squeeze through capillaries narrower than their diameter. Secondary effects include: (a) reduced blood viscosity via improved fibrinogen levels and erythrocyte flexibility; (b) TNF-α suppression via PDE inhibition in monocytes/macrophages, providing mild anti-inflammatory activity; (c) improved leukocyte deformability, reducing leukocyte plugging in microvasculature. The hemorrheologic effect onset is hours (single dose reduces blood viscosity); TNF-α suppression requires days to weeks (standard pharmacology; zero ME/CFS-specific pharmacokinetic data exist).
 
 In ME/CFS specifically, the diagnostic signal comes from what pentoxifylline does NOT address: it does not thin capillary basement membranes, it does not restore lost capillary tortuosity, and it does not repair endothelial hypertrophy. If pentoxifylline improves NIRS-measured tissue O₂ extraction → the rate-limiting lesion is luminal narrowing that flexible RBCs can navigate (endothelial hypertrophy, Step F0c @sec:aimm-cascade). If pentoxifylline does NOT improve O₂ extraction → the bottleneck is BM diffusion distance — a structural barrier that no degree of RBC flexibility can bypass (Step F0a @sec:aimm-cascade).
 
 ==== Evidence in ME/CFS
 
 No clinical trials of pentoxifylline in ME/CFS exist. All inferences below are mechanistic — derived from pentoxifylline's established pharmacology applied to documented ME/CFS microvascular pathology @Charlton2025muscleMicrovasc.
+
+#warning-box(title: [Research-Stage Only — Zero ME/CFS Clinical Data])[
+Pentoxifylline has zero published ME/CFS clinical data. All diagnostic inferences and proposed differentials are mechanistic extrapolation from its known pharmacology applied to documented ME/CFS microvascular pathology. It is not a validated ME/CFS treatment, and the diagnostic probe framework has not been tested in any ME/CFS cohort. Clinicians should not use pentoxifylline as a diagnostic algorithm — it is a research hypothesis requiring formal validation.
+]
 
 #speculation(title: [Pentoxifylline as a Diagnostic Probe — RBC Deformability vs Endothelial Hypertrophy vs BM Thickening])[
 Pentoxifylline's diagnostic value in ME/CFS lies in its specificity as a pure hemorrheologic probe: it improves RBC deformability without affecting vascular tone, coagulation, inflammation significantly (at standard doses), or capillary BM structure. Combined with pyridostigmine (preload/autonomic probe) and midodrine (perfusion pressure probe), pentoxifylline completes a three-probe dissection of the microvascular delivery deficit:
@@ -52,10 +56,6 @@ Pregnancy/lactation: Category C — no adequate human studies. Not recommended.
 Severity applicability: safe for mild–moderate patients (ambulatory). Not tested in severe/bedbound — use with caution; the theoretical risk is minimal (no hemodynamic instability, no immunosuppression) but zero severe-ME/CFS data exist.
 
 *Consequence:* Pentoxifylline is one of the lowest-risk repurposing candidates for ME/CFS — generic, affordable, well-tolerated at standard doses, no bleeding risk, no immunosuppression. Its clinical value may be primarily diagnostic (identifying which microvascular bottleneck is dominant) rather than therapeutic.
-
-#warning-box(title: [Research-Stage Only — No ME/CFS Clinical Data])[
-Pentoxifylline has zero published ME/CFS clinical data. All diagnostic inferences and proposed differentials are mechanistic extrapolation from its known pharmacology applied to documented ME/CFS microvascular pathology. It is not a validated ME/CFS treatment, and the diagnostic probe framework has not been tested in any ME/CFS cohort. Clinicians should not use pentoxifylline as a diagnostic algorithm — it is a research hypothesis requiring formal validation.
-]
 
 #open-question(title: [Does Pentoxifylline's TNF-α Suppression Confound the RBC-Only Diagnostic Signal?])[
 Pentoxifylline's secondary TNF-α suppression complicates the clean "RBC probe" interpretation. If pentoxifylline improves symptoms or O₂ extraction, the improvement could be: (a) purely rheological — more flexible RBCs transiting narrowed capillaries (the intended probe function); (b) anti-inflammatory — reduced TNF-α attenuating endothelial activation and indirectly improving vasodilation (a pleiotropic, non-rheological effect); or (c) both simultaneously, with the relative contribution indeterminable without a cleaner probe.
