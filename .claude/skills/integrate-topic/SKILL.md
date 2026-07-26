@@ -131,9 +131,9 @@ Before starting any other phase:
    - Phase 3 → environments added, chapters touched, standing epistemic checklist per-claim (#1–#6)
    - Phase 3.5 → N environments verified, M missing consequence fields added
    - Phase 4 → brainstorm file path, idea count
-   - Phase 4a → subtree file path, N nodes written, root index updated
-    - Phase 5 → ideas integrated (by tier); queued topics from Gates A/B with one-line rationale
-     - Phase 5d → N cascade branches traced, M drug→node pairs, K discriminating probes; trace at `ops/integration-guides/pathway-drug-trace-<slug>.md`; ch30 cascades modified, sec-12 entries added/modified
+    - Phase 4a → subtree file path, N nodes written, root index updated
+     - Phase 5 → ideas integrated (by tier); ch30 tiers (full cascade / drug-indexed / citation only / none); queued topics from Gates A/B with one-line rationale
+      - Phase 5d → N cascade branches traced, M drug→node pairs, K discriminating probes; trace at `ops/integration-guides/pathway-drug-trace-<slug>.md`; ch30 cascades modified (sec-01–sec-08 files and subsec-* directories); sec-12 entries updated/created; sec-09 convergence patterns added/updated; sec-13 matrix rows/columns added; pruned branches count
      - Phase 5c → differential entry generated for <medication> (inference certainty: H/M/L), ch24 sections modified
      - Phase 5a → N hypotheses audited (K fully falsifiable, L weakly, M unfalsifiable fixed/flagged)
      - Phase 5z → N glossary entries added, M terms filtered; [skipped — no file modifications / ran clean]
@@ -315,13 +315,38 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
 Read Phase 2 synthesis. Use the evidence summary and contradiction framing to guide integration — do not impose a predetermined narrative; let the evidence structure determine emphasis. Before writing any content, verify each item on the Standing Epistemic Checklist (#1–#5) against the available evidence. Per finding, determine integration target:
 
 **Chapter mapping:**
-- Pathophysiology mechanisms → Part 2 (ch06–ch16) | ch30 cascade sections (hypothesis tracing)
-- Treatment/interventions → Part 3 (ch14a–ch19) | ch30 sec-12 (medication reference)
+- Pathophysiology mechanisms → Part 2 (ch06–ch16) | ch30 cascade sections (hypothesis tracing — see ch30 category router below)
+- Treatment/interventions → Part 3 (ch14a–ch19) | ch30 sec-12 (medication reference) | ch30 sec-13 (pharmacodiagnostic matrix update)
 - Biomarkers/diagnostics → Part 2 (ch20) | Part 4 (ch22–ch25)
 - Clinical features/symptoms → Part 1 (ch02–ch05)
 - Research questions/hypotheses → Part 4 | hypothesis registry
 - Cross-disease comparisons → ch14d | ch13
-- Medication → ch30 sec-12 (pharmacodiagnostic compendium entry, alphabetical)
+- Medication → ch30 sec-12 (pharmacodiagnostic compendium entry, alphabetical) | ch30 sec-13 (update response matrix row if drug has differential diagnostic value)
+- Any mechanistic claim with a specifiable causal chain (≥3 biochemical steps + at least one drug interception point) → ch30 cascade section (route via ch30 Category Router below) AND ch30 sec-12 (per-drug entries)
+
+**ch30 Category Router (MANDATORY — run for every mechanistic claim integrated in Phase 3):**
+
+Determine which ch30 sec-* category the mechanism falls into. This gates whether a new subsection file is created or whether the mechanism is placed inline in an existing cascade section. **This mapping is approximate — mechanisms may genuinely span categories or fit none. Document placement rationale whenever defaulting or edge-casing (required in Phase 5d Step 1 rationale field).**
+
+GATE DECISION: if the mechanism has a specifiable causal chain with ≥3 biochemical steps and at least one existing ch30 sec-12 drug that plausibly intercepts → write a stand-alone `==== Cascade: <Title>` entry in a file under the correct sec-*/subsec-*/ directory (Phase 5d handles the writing). If the mechanism is purely correlational or has no drug interception point → the mechanism is cited inline in existing ch30 content but does not get a standalone cascade entry.
+
+| Mechanism domain | ch30 section | Subsection suffix pattern |
+|-----------------|-------------|--------------------------|
+| Ion channel (TRP, Piezo, Na/K, Ca, ASIC, K2P, P2X, nAChR) | sec-01 | `subsec-*` or `sec-01-<new-subnum>/` |
+| Mitochondrial (ETC, PDH, NAD, WASF3, metabolic trap, iron-redox) | sec-02 | `subsec-*` or `sec-02-<new-subnum>/` |
+| Autoimmune (GPCR-AAB, ANA, cytokine-autoAb, complement, FcR) | sec-03 | `subsec-*` or `sec-03-<new-subnum>/` |
+| Neuroinflammatory (microglia, brainstem, glymphatic, BBB, vagus) | sec-04 | `subsec-*` or `sec-04-<new-subnum>/` |
+| Connective tissue (collagen, HIF-1, CCI, EDS, elastin, matrix) | sec-05 | `subsec-*` or `sec-05-<new-subnum>/` |
+| Autonomic (POTS, vagal, sympathetic, orthostatic, NE signaling) | sec-06 | `subsec-*` or `sec-06-<new-subnum>/` |
+| Integrative / multi-system / energy-triage | sec-08 | `subsec-*` or `sec-08-<new-subnum>/` |
+| Cross-disease parallel / comparative pathophysiology | sec-09 | `subsec-*` under `sec-09-cross-hypothesis-convergence-patterns/` |
+| None of the above | sec-08 | Default: file under integrative models; add a note in the cascade trace explaining placement rationale |
+
+**Edge case — mechanism spans multiple categories:** If the mechanism genuinely bridges two categories (e.g., ion channel → mitochondrial downstream), place in the category of the *most proximal rate-limiting step*. Cross-reference the other category in the cascade text: "See @sec:<other-section> for the receptor-level steps upstream of this node."
+
+**When to create a new directory vs inline (heuristic):** If the mechanism constitutes a distinct hypothesis with its own literature base (≥2 PMIDs) → create a new `subsec-<NN>-<snake-case-title>/` directory under the correct sec-*. If the mechanism is an extension of an existing cascade's branch → add inline as a `====` subsection within that cascade's file. This is a heuristic, not a deduction — a novel mechanism with 1 PMID may still warrant its own directory if structurally distinct; a 3-PMID extension of an existing cascade may belong inline. Operator judgment overrides the PMID count. Phase 5d decision framework (see below) formalizes this.
+
+**sec-12 medication routing (for medication/integration topics):** Every drug, supplement, or intervention discussed MUST be checked for an existing sec-12 entry. If no entry exists AND the drug has differential diagnostic value (response/non-response/side-effects are mechanistically informative) → add an alphabetical entry per Phase 5d's sec-12 format. If the drug has zero differential diagnostic value (purely symptomatic, no known mechanism) → citation goes into treatment chapter only; sec-12 entry is optional.
 
 **Environment selection:**
 
@@ -590,7 +615,21 @@ Same requirement as Phase 3: every environment written in Phase 5 must contain a
 
 **Integration threshold (Tiers 1–2):** ANY mechanistic connection to ME/CFS is sufficient. Cross-disease parallels → appropriate chapter (ch13, ch14d). Non-pharmacological interventions → ch17. Research tools → ch20 or ch25b. Long-shot drug ideas → ch18 or ch06 as open questions. Cascading mechanistic hypotheses with drug interception points → ch30 cascade sections (sec-01–sec-11) + ch30 sec-12 medication reference entries.
 
-**Report:** "Phase 5 complete: N ideas triaged (T1: X integrated, T2: Y integrated, T3: Z tree-only), P queued as child topics. Files modified/created: <space-separated relative paths>. Standing epistemic checklist — [#1–#2 cross-check delegated to Phase 5a; #3–#6: no violations / ⚠ <description>]."
+**Ch30 relevance triage (MANDATORY — run for EVERY integrated idea, not just cascade-traced ones):**
+
+Before finalizing integration, classify each integrated idea's ch30 footprint:
+
+| Ch30 tier | Trigger | Action |
+|-----------|---------|--------|
+| **Full cascade** | Cert ≥ 0.30 AND ≥3 specifiable biochemical steps AND ≥1 existing sec-12 drug intercepts plausibly | Phase 5d: full cascade trace + chapter content (sec-12 entry update, sec-09 check, sec-13 update) |
+| **Cascade trace only** | Cert 0.10–0.29 AND ≥3 specifiable biochemical steps AND ≥1 existing sec-12 drug intercepts plausibly | Phase 5d: cascade trace in `ops/integration-guides/` only; NO chapter content (no sec-12 update, no sec-09/13); tag trace "speculative — below chapter integration threshold" |
+| **Drug-indexed only** | Idea is a drug/intervention with differential diagnostic value | Phase 5c: differential analysis; sec-12 alphabetical entry added/updated; sec-13 matrix row check |
+| **Citation cross-ref only** | Mechanism has no specifiable cascade OR cert < 0.10 OR no drug intercepts | Add `@sec:<ch30-section>` cross-ref to the existing environment's text; no new ch30 file |
+| **None** | Non-mechanistic content (clinical feature, epidemiology, methodology) | No ch30 footprint |
+
+The ch30 tier decision gates downstream ch30 phases (5c, 5d). Record the decision in the Phase 5 report and in the plan tracking table.
+
+**Report:** "Phase 5 complete: N ideas triaged (T1: X integrated, T2: Y integrated, T3: Z tree-only; ch30 tiers — full cascade: C, cascade trace: R, drug-indexed: D, citation: F, none: G), P queued as child topics. Files modified/created: <space-separated relative paths>. Standing epistemic checklist — [#1–#2 cross-check delegated to Phase 5a; #3–#6: no violations / ⚠ <description>]."
 
 Subtree status updates are deferred to after Phase 5a (which follows the Phase 5b build check).
 
@@ -610,7 +649,7 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 **Report:** "Phase 5c complete: differential entry generated for <medication-name> (inference certainty: High/Medium/Low)."
 
-### Phase 5d — Pathway-to-Drug Forward Tracing for Mechanistic Hypotheses
+### Phase 5d — Pathway-to-Drug Forward Tracing and ch30 Cascade Integration
 
 **Agent:** main session | **Model:** opus (required — lower-tier models are insufficient for mechanistic biochemistry × pharmacology × differential diagnosis reasoning)
 
@@ -622,7 +661,7 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 | Certainty band | Cascade trace (ops/) | Chapter content (src/) |
 |----------------|---------------------|----------------------|
-| ≥ 0.30 | Write full trace to `ops/integration-guides/pathway-drug-trace-<slug>.md` | Write differential predictions into chapter (per placement matrix below) |
+| ≥ 0.30 | Write full trace to `ops/integration-guides/pathway-drug-trace-<slug>.md` | Write differential predictions into ch30 cascade section + sec-12 entries + sec-09/13 updates (per placement matrix below) |
 | 0.10–0.29 | Write full trace to `ops/integration-guides/pathway-drug-trace-<slug>.md` | Do NOT write to chapter — ops-only. Tag trace: "speculative — below chapter integration threshold (cert < 0.30)." |
 | < 0.10 | Skip entirely | Skip entirely |
 
@@ -634,98 +673,282 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 
 **Joint trigger rule:** If the integrated topic includes BOTH a medication AND a mechanistic hypothesis (rare but possible — e.g., a topic that integrates pyridostigmine treatment alongside cholinergic dysfunction mechanisms): run 5d first → then 5c → then cross-reference: do 5c's differential predictions for the medication conflict with 5d's cascade-level predictions for the same medication? Add a consistency note to both outputs.
 
+---
+
+### Procedure — ch30 Cascade Integration (Steps 1–9)
+
+#### Step 1 — Confirm ch30 Category
+
+Verify the **ch30 Category Router** assignment from Phase 3. Phase 3 is the authority — it classifies every mechanistic claim during initial integration. Phase 5d reads that assignment and executes file creation. If Phase 3 assigned no category (edge case: claim was not pre-identified as ch30-relevant but Phase 5 determined it has a cascade), assign now using the Phase 3 Category Router table and document the rationale for why this wasn't caught in Phase 3. Record the category and rationale in the ops/ trace.
+
+#### Step 2 — Overlap Check (MANDATORY — before creating any new file)
+
+Read the selected sec-* parent file (e.g., `sec-01-ion-channel-hypotheses.typ`) and all its `subsec-*` subdirectory files. For each subsection, grep for terms from the new hypothesis (mechanism name, drug names, pathway nodes, gene/protein symbols). Determine:
+
+| Overlap finding | Action |
+|----------------|--------|
+| Identical cascade already exists | Do NOT create a new file. Add cross-ref from existing cascade to new Phase 3 environment. Note in plan: "ch30 overlap: cascade already in <existing-file> — cross-ref added, no new file." |
+| Partial overlap (same upstream trigger, different downstream branch) | Extend the EXISTING subsec-* directory — add a new `==== Cascade: <branch-title>` subsection in the existing file or create a `<subsubsec-NN-*>.typ` file under the existing subsec-* directory. Do NOT create a new top-level subsec-* directory. |
+| Same mechanism class, different specific entity (e.g., new GPCR-AAB in sec-03) | Create a new `subsec-<NN>-<snake-case>/` directory under the parent sec-*. |
+| Completely new mechanism class under this category | Create a new `subsec-<NN>-<snake-case>/` directory. |
+| Zero overlap (first entry in this category for this mechanism class) | Create the subsec- directory + ensure the parent sec-*.typ file's `#include` list includes it. |
+
+#### Step 3 — Create Subsection File and Cascade Entry
+
+**Directory/file naming:**
+```
+src/main/typst/mecfs/part3-treatment/ch30-mechanistic-cascade-tracing/
+  sec-<XX>-<snake-case-category-name>/
+    subsec-<NN>-<snake-case-hypothesis-name>/
+      subsec-<NN>-<snake-case-hypothesis-name>.typ          # header/overview
+      subsubsec-<NN>-<snake-case-cascade-title>.typ          # per-branch cascade trace
+```
+
+**Subsection header file format** (`subsec-<NN>-<snake-case-hypothesis-name>.typ`):
+```
+#import "../../../../shared/environments.typ": *
+
+=== <Hypothesis Title>
+
+<Prose paragraph describing the hypothesis, its evidence base, and why it belongs in this cascade category. Include @CitationKey references.>
+
+Certainty: <0.XX>.
+
+*Consequence:* <one sentence — what this cascade adds to differential diagnostic reasoning.>
+
+#include "./subsubsec-<NN>-<snake-case-cascade-title>.typ"
+```
+
+**Cascade entry file format** (`subsubsec-<NN>-<snake-case-cascade-title>.typ` — one file per branch):
+```
+==== Cascade: <Short Descriptive Title>
+
+#clinical-caution()
+
+*Cascade:*
+- Step <Label>: <biochemical state> → <next state>
+- Step <Label>: <next state> → <next state>
+...
+
+*Step <Label>*: <Step description — mechanism, molecular targets, evidence.>
+
+- *Intercept:* <DrugName> (`@sec:<drug-sec12-label>`) — <mechanism of interception>.
+- *If <DrugName> works:* <diagnostic inference — what a positive response implies about bottleneck location. Certainty: 0.XX — <justification for inference certainty>. Off-target confound: <list all other targets of this drug and whether they could produce the same response independently>.>
+- *If <DrugName> does NOT work:* <null diagnostic inference — what failure rules out (and what it leaves open). Certainty: 0.XX.>
+- *If <DrugName> works when <other-drug> does not:* <discriminating probe — differential inference narrowing between node N and node M.> —OR— *Discriminating probe:* None — <explicit rationale>.
+
+*Step <Next Label>*: ...
+
+*Consequence:* <one sentence — what does this cascade branch imply for differential diagnosis, treatment stratification, or research design?>
+
+*Origin:* <Phase 5d cascade trace — /integrate-topic <topic-slug>.>
+```
+
+**Writing rules for cascade entries:**
+- Each cascade step (`Step <Label>`) MUST have the three bullet fields: `Intercept`, `If works`, `If does NOT work` — exactly this format. Match existing ch30 entries exactly (`src/main/typst/mecfs/part3-treatment/ch30-mechanistic-cascade-tracing/sec-07-gerlier-skeletal-asymmetry-4-pathway-model/subsec-01-pathway-1-compensatory-muscle-overuse-anaerobic-metabolism/subsubsec-01-cascade-skeletal-asymmetry-muscle-overuse-atp-drain-pem.typ` is the canonical reference).
+- Every `If works` and `If does NOT work` MUST include its own inference certainty with explicit justification. Do NOT inherit the parent hypothesis's certainty — drug-response inferences have their own certainty.
+- Off-target analysis is MANDATORY for every intercepting drug. List ALL known targets (even non-cascade ones). State whether the diagnostic inference survives under off-target explanations.
+- Discriminating probes: identify at least one pair of drugs at different nodes whose differential response narrows the bottleneck location. If no clean discriminator exists → state explicitly: "No clean discriminator exists — all intercepting drugs have ≥3 targets."
+- Pruning rule: stop tracing a branch when cumulative inference certainty (cascade cert × drug cert × specificity factor) < 0.05. State the pruning explicitly: "Branch pruned: cumulative inference 0.XX — below 0.05 threshold." **Threshold is approximate — treat 0.04–0.06 as a gray zone; operator judgment determines inclusion. Document the decision either way.**
+- Label every `#speculation` or `#open-question` environment embedded in the cascade with certainty.
+- Cross-reference the Phase 3 environment's `@sec:` label at least once.
+
+**Include-into-parent mechanics:** After creating the subsec-* directory and files, update the parent sec-*.typ file's `#include` list:
+
+1. Open the parent sec-* file (e.g., `sec-01-ion-channel-hypotheses.typ`).
+2. Locate the ordered list of `#include` directives (each section has them in logical/chronological order).
+3. Insert the new include in the correct position — alphabetically among subsec-* entries OR at the end if it's a new mechanism class without precedent.
+4. Format: `#include "./sec-<XX>-<name>/subsec-<NN>-<hypothesis>/subsec-<NN>-<hypothesis>.typ"`
+
+**Minimum includes for new sec-* parent files:** If creating a COMPLETELY new sec-* category (rare — only when no existing category fits per the Category Router), create the sec-* parent `sec-<XX>-<name>.typ` with this content:
+```
+#import "../../../shared/environments.typ": *
+
+== <Category Title>
+
+<One-line description of what hypotheses this section groups.>
+
+Certainty: — (category-level certainty is per-subsection).
+
+*Consequence:* <one sentence.>
+
+#set heading(numbering: none, outlined: false)
+=== Subsection Index
+
+#include "./subsec-<NN>-<hypothesis>/subsec-<NN>-<hypothesis>.typ"
+```
+Then add `#include "./ch30-mechanistic-cascade-tracing/sec-<XX>-<name>/sec-<XX>-<name>.typ"` to `ch30-mechanistic-cascade-tracing.typ`.
+
+#### Step 4 — Cascade Trace (ops/ record)
+
+Write `ops/integration-guides/pathway-drug-trace-<topic-slug>.md` — the full research record. This is MORE detailed than the chapter files. Include:
+
+```
+# Pathway-to-Drug Trace: <Topic>
+# Hypothesis: <description>
+# Cascades certainty: 0.XX
+# ch30 Category: sec-<XX>
+# Date: <YYYY-MM-DD>
+
+## Cascade Branches
+
+### Branch <N>: <Branch Title>
+
+*Cascade:* (full step-by-step with molecular details — may be 8+ steps; the chapter file uses the condensed 4-step version)
+
+Per-node drug mappings with cumulative certainty scores:
+
+| Step | Node | Drug(s) | Drug cert | Specificity factor | Cumulative cert | Chapter file? |
+|------|------|--------|-----------|-------------------|----------------|---------------|
+| ...  | ... | ...    | ...       | ...               | ...            | yes/pruned    |
+
+### Differential Predictions
+
+| Drug→node pair | If works | If fails | Inference cert | Off-target confounds | Discriminating? |
+|---------------|----------|---------|----------------|---------------------|-----------------|
+| ...           | ...      | ...     | ...            | ...                 | yes/no          |
+
+## Discriminating Probes
+
+- <Probe 1>: drug A at node N vs drug B at node M → discriminates between ...
+- OR: No clean discriminator — <rationale>.
+
+## Pruned Branches
+
+- Branch <N> step <Label>: cumulative cert 0.XX, pruned (below 0.05).
+```
+
+#### Step 5 — Inventory and Trace Existing Medications
+
+Grep ch30 sec-12 + ch24 + ch25 + ch27 for ALL medication entries:
+
+```bash
+grep '^=== ' src/main/typst/mecfs/part3-treatment/ch30-mechanistic-cascade-tracing/sec-12-medication-reference-drug-indexed-pharmacodiagnostic-compendium/sec-12-medication-reference-drug-indexed-pharmacodiagnostic-compendium.typ
+grep '<sec:<label>>' src/main/typst/mecfs/part3-treatment/*.typ
+```
+
+Verify every label exists with grep. Never guess labels.
+
+#### Step 6 — Identify Drug Interception Points
+
+At each cascade step, map which existing medications target that node. Be precise about molecular targets. Apply pruning rule: **only trace branches where the intercepting drug has certainty ≥ 0.40 for the targeted mechanism in ME/CFS specifically.**
+
+#### Step 7 — Update sec-12 Medication Entries
+
+For each drug that intercepts the new cascade:
+
+1. **If sec-12 entry already exists:** Update only the `*Appears in:*` line — add the new `@sec:` label for the cascade subsection. Do NOT rewrite `+/−` diagnostic inferences unless the new hypothesis specifically changes the inference (rare). If adding a new diagnostic dimension, append a new line: `  + @sec:<new-cascade>: <new inference>.`
+2. **If no sec-12 entry exists** AND the drug has differential diagnostic value (response/non-response/side-effects are mechanistically informative): Create a new alphabetical entry. Format:
+   ```
+   === DrugName
+
+   *Appears in:* @sec:<cascade-section>, @sec:<cross-ref>, cross-reference matrix — @sec:pharmacodiagnostic-matrix.
+
+   #strong[+] Positive diagnostic inference — what it means if the drug works.
+
+   #strong[−] Null diagnostic inference — what it means if the drug doesn't work.
+
+   #strong[SE] Side-effect diagnostic patterns.
+
+   #strong[W] *Mechanism:* <letter(s)> (see @sec:protracted-permanent-worsening). *Protracted risk:* <Very Low/Low/Moderate/High>. *Permanent risk:* <Very Low/Low/Moderate/High>. *Rechallenge:* <guidance>.
+
+   *Severity:* <mild / moderate / severe / very severe / all / unknown> — which severity levels does the evidence for this drug's differential diagnostic inference cover?
+   ```
+   Length: 15–40 lines. Use the worsening risk taxonomy (Mechanisms A–K referencing `@sec:protracted-permanent-worsening`, side-effect Patterns 1–5 referencing `@sec:side-effects-diagnostic`). If worsening data is unavailable → state: "Worsening data unavailable — no controlled reports in ME/CFS." If severity applicability is unknown → state: "Severity: unknown — evidence does not stratify by severity."
+
+3. **If the drug has zero differential diagnostic value** (purely symptomatic, no known mechanism → response traceable to a specific node): sec-12 entry is **optional**. Do NOT create entries for drugs whose response can't be differentially interpreted.
+
+---
+
+### Step 8 — Cross-Hypothesis Convergence (sec-09) Update
+
+**Trigger:** The new cascade introduces a mechanism that converges with an EXISTING hypothesis at a shared downstream node. Both the new hypothesis and the existing hypothesis(s) must have ≥ 0.20 certainty.
+
 **Procedure:**
 
-1. **Trace the cascade.** Expand the hypothesis's causal chain into step-by-step biochemical/physiological states. Minimum 4 steps per branch. Include ALL parallel branches as separate traces. Each step must be a falsifiable state, not a description. Example: `pelvic obliquity → asymmetric muscle loading → sustained stretch → TRPV4/Piezo1 Ca²⁺ influx → chronic mitochondrial Ca²⁺ overload → ATP depletion → [parallel branches: anaerobic metabolism → proton accumulation → ASIC3/TRPV1 activation → nociception; sympathetic chain compression → aberrant sympathetic firing → vasoconstriction → tissue hypoxia] → convergence → central sensitization → PEM/pain/fatigue`.
+1. Grep ALL ch30 sec-01–sec-08 cascade files for the shared downstream node's biochemical terms (gene, enzyme, signaling molecule, physiological endpoint).
+2. Read the existing cascade entries for ≥20 lines of context each.
+3. Determine the convergence pattern:
 
-2. **Inventory existing medications.** Grep ch30 sec-12 + ch24 + ch25 + ch27 for all medication entries and their `@sec:` labels:
-   - ch30 sec-12: `grep '^=== ' src/main/typst/mecfs/part3-treatment/ch30-mechanistic-cascade-tracing/sec-12-*/*.typ` — every `=== Name` is a medication entry
-   - ch24, ch25, ch27: `grep '<sec:<label>>' src/main/typst/mecfs/part3-treatment/*.typ`
-   - Verify every label exists with a grep. Never guess labels.
+   | Pattern | Example | sec-09 subsec to update |
+   |---------|---------|------------------------|
+   | Two mechanisms converge on same receptor/enzyme | TRPM3 + ASIC3 → Ca²⁺ overload → PEM | `subsec-01-the-dopamine-convergence-node/` (or appropriate existing subsec) |
+    | Two mechanisms converge on same clinical endpoint via different paths | immune → fatigue AND metabolic → fatigue | `subsec-03-the-perfusion-delivery-vs-mitochondrial-production-node/` or create new subsec |
+   | Mechanical vs biochemical → same physiological endpoint | skeletal asymmetry → PEM AND autoimmune → PEM | `subsec-04-the-mechanical-vs-biochemical-dichotomy/` |
+    | New convergence pattern, no existing subsec fits | — | Create new `subsec-<NN>-<snake-case-pattern>/` under `sec-09-cross-hypothesis-convergence-patterns/` |
 
-3. **Identify drug interception points.** At each cascade step, map which existing medications target that node. Be precise about molecular targets. Cross-check: pyridostigmine (AChE inhibitor → cholinergic synapse) does NOT intercept a mitochondrial Ca²⁺ overload step. Apply pruning rule: **only trace branches where the intercepting drug has certainty ≥ 0.40 for the targeted mechanism in ME/CFS specifically.** Drugs with lower certainty targeting a mechanism may be listed in the ops/ trace but omitted from chapter content.
+**Anti-force rule:** If grep produces zero meaningful overlaps (lexical hits on common gene names with no mechanistic convergence), do NOT force a convergence. The sec-09 section accepts null results. The procedure assumes convergence MAY exist, not that it MUST. A candide "no convergence nodes found — skip" is a valid and valuable finding.
 
-4. **Generate differential predictions.** For each drug→node pair:
-   - **If drug X works:** bottleneck is at or above node N. Certainty of this inference (justified by drug specificity to that node vs off-target effects — list ALL known targets and assess whether the inference survives under off-target explanations).
-   - **If drug X fails:** bottleneck is below node N, OR in a parallel branch, OR drug target intact but blocked downstream. List what a null response rules out vs what it leaves open.
-   - **Pruning rule:** Stop tracing a branch when the cumulative inference certainty (cascade cert × drug cert × specificity factor) falls below 0.05. A 0.10 hypothesis × 0.40 drug × 0.30 specificity = 0.012 → do NOT write to chapter; note in ops/ trace only. **Threshold rationale:** 0.05 ≈ the product of three "barely acceptable" certainties (0.37 × 0.37 × 0.37). Below this level, the inference chain is too speculative for chapter content — each additional uncertain link multiplies the uncertainty, and three uncertain links compound to near-zero. Validate against existing ch30 content on first use: if existing differential predictions in ch30 would fail this threshold, flag the discrepancy rather than deleting them.
+4. **If an existing sec-09 subsec covers this pattern:** append to that file:
+   - A new `=== <New Hypothesis> → <Endpoint>` heading
+   - 1–2 paragraphs describing how the new hypothesis converges
+   - Cross-references: `@sec:<new-cascade>` (new) + `@sec:<existing-cascade>` (old)
+   - Convergence node certainty: min(new_cert, existing_cert)
+   - `*Consequence:*` field
 
-5. **Identify discriminating probes.** Among drugs at different cascade nodes, identify which drug's response most narrows the hypothesis space between two competing bottleneck locations. This is a "discriminating probe" — NOT a "decision-forcing" or "tiebreaker" probe (pleiotropic drugs cannot decide cleanly between hypotheses). **Quality gate:** either (a) at least one discriminating probe identified, OR (b) explicit statement: "No clean discriminator exists — all intercepting drugs at this cascade have ≥3 targets; no single drug response can distinguish between nodes with acceptable specificity." The gate must accept (b) as valid — do NOT force a discriminating probe where none exists.
+5. **If a NEW convergence pattern is discovered** (no existing sec-09 subsec fits): create a new `subsec-<NN>-<snake-case>/subsec-<NN>-<snake-case>.typ` and add its `#include` to `sec-09-cross-hypothesis-convergence-patterns.typ`.
 
-6. **Write output.** Two artifacts:
+6. **Skip if:** Zero convergence — the new cascade's nodes don't overlap with any existing cascade. Note in report: "sec-09: no convergence nodes found — skip."
 
-   **a) Cascade trace:** `ops/integration-guides/pathway-drug-trace-<topic-slug>.md` — full cascade with per-node drug mappings, differential predictions, cumulative certainty scores, and pruning notes. This is the research record.
+---
 
-   **b) Chapter content** (only if cert ≥ 0.30). Placement by hypothesis × medication matrix:
+### Step 9 — Pharmacodiagnostic Matrix (sec-13) Update
 
-    | Hypothesis location | Medication has ch30 sec-12 or ch24 section? | Placement |
-    |---------------------|----------------------------------------------|-----------|
-    | ch14 (speculative) | ch24 section | Add `==== What This Medication Reveals About <hypothesis-label>` in ch24 medication section + `#speculation` cross-ref in hypothesis chapter |
-    | ch14 (speculative) | ch30 sec-12 only | Add `#speculation` cross-ref from hypothesis chapter to `@sec:medication-reference` entry + update sec-12 entry's `*Appears in:*` line with new cascade ref |
-    | ch14 (speculative) | No (in either) | Add `#open-question` at end of hypothesis section in ch14 |
-    | ch07/ch08/ch10 (core) | ch24 section | Add `==== Implications for <hypothesis-label>` in ch24 + `#speculation` cross-ref in hypothesis chapter |
-    | ch30 cascade section (new hypothesis branch) | ch30 sec-12 entry exists | Add cascade steps + drug interception nodes to the relevant ch30 sec-01–sec-11 section; update sec-12 entry's `*Appears in:*` line |
-    | ch14 | No medication involved | Add `#speculation` or `#open-question` at end of hypothesis section in ch14 (only if cert ≥ 0.30 per threshold above; otherwise ops-only) |
-    | Medication has NO ch30 sec-12 NOR ch24/ch25/ch27 entry | N/A | Add new `=== DrugName` entry to ch30 sec-12 (alphabetical order) + opine differential predictions; do NOT write chapter content — ops trace only |
+**Trigger:** A new drug (not previously in sec-12) was added with differential diagnostic value, OR an existing drug gains a new cascade interception point that changes its diagnostic inference.
 
-    **sec-12 entry format (when adding new medication reference):** Each entry follows this exact structure:
-    ```
-    === DrugName
+**Procedure:**
 
-    *Appears in:* @sec:<cascade-sections>, cross-reference matrix.
-
-    #strong[+] Positive diagnostic inference — what it means if the drug works.
-
-    #strong[−] Null diagnostic inference — what it means if the drug doesn't work.
-
-    #strong[SE] Side-effect diagnostic patterns.
-
-    #strong[W] *Mechanism:* <letter(s)> ... *Protracted risk:* ... *Permanent risk:* ... *Rechallenge:* ...
-    ```
-    Match existing entries' style, length (15--40 lines), and worsening risk taxonomy (Mechanisms A--K referencing `@sec:protracted-permanent-worsening`, side-effect Patterns 1--5 referencing `@sec:side-effects-diagnostic`). Sort alphabetically.
-
-7. **Update plan and hypothesis tree.** Record: cascade branches traced, drug→node pairs identified, discriminating probes found (or explicit "none" statement), chapter placement.
-
-**Mandatory chapter guard** (included in every chapter content block produced by Phase 5d — define once as a shared Typst include file, never repeat inline):
-
-1. Create the shared include if it does not already exist (check first to avoid overwriting an existing file from a prior Phase 5d cycle):
-   ```bash
-   mkdir -p src/main/typst/lib
-   test -f src/main/typst/lib/clinical-caution.typ || cat > src/main/typst/lib/clinical-caution.typ << 'TYPSTEOF'
-   #let clinical-caution() = {
-     [*CLINICAL CAUTION --- RESEARCH HYPOTHESIS, NOT DIAGNOSTIC ALGORITHM.* The differential predictions below are mechanistic hypotheses for research investigation. They are not validated diagnostic algorithms. Do not use them to rule in or rule out specific mechanisms in individual patients. Drug-response inferences are confounded by placebo effects (30--40% in ME/CFS trials), disease fluctuation, pharmacokinetic variability, and concurrent treatments. A single medication response --- whether positive or negative --- cannot diagnose a mechanism. These cascades describe what should be tested in controlled settings, not what should be concluded in clinical practice. Patients: do not self-experiment with drug combinations based on cascade reasoning --- all medications discussed carry risks including metabolic, cardiovascular, and pharmacogenomic interactions that require physician oversight.
-
-      *Methodological caveat.* This cascade model is a linear simplification. Real biological systems contain feedback loops, parallel compensation mechanisms, and time-varying bottlenecks. Drug response at node N may reflect network-level effects rather than single-step intervention. The cascade describes what WOULD happen if the system were linear --- it is a reasoning scaffold, not a physiological simulation.]
-   }
-   TYPSTEOF
+1. Read `sec-13-pharmacodiagnostic-matrix.typ`.
+2. The matrix maps (drug × mechanism) → diagnostic inference. If the new cascade introduces a column (new mechanism) not yet in the matrix AND the drug's diagnostic inference is differential → add a column to the matrix.
+3. If a new drug was added to sec-12 AND it has at least one diagnostic inference (`#strong[+]` or `#strong[−]`) → add a row to the matrix.
+4. **Format:** The matrix uses `#table(columns: N, ...)`. Count existing columns before adding. Match the Typst table syntax exactly. Example of adding a row (new drug) and column (new mechanism):
    ```
-   The `test -f ... ||` guard prevents duplicate creation — a second concurrent Phase 5d cycle will find the file already exists and skip creation (identical content, no conflict).
+   // Existing header row + --- separator; append new column header:
+   // [Header1], [Header2], [...], [New Mechanism (0.XX)]
 
-2. In each chapter file receiving Phase 5d content, add at the file top (among existing imports): `#import "/src/main/typst/lib/clinical-caution.typ": clinical-caution`. Use the **absolute path from the Typst root** (`/src/main/typst/lib/...`) — not a relative path. Chapter files under `part*`/ directories would resolve `"lib/..." ` to a non-existent subdirectory. Call `#clinical-caution()` as the first element in the new content block. This guarantees consistent rendering, eliminates context pressure from repetition, and makes omission a compilation error rather than a text-generation failure.
+   // Existing data rows; append new drug row:
+   // #show regex("..."): set text(fill: green) ... [New Drug] , [-] , [0.XX] , [+] , ..., [X]
+   ```
+   Read `sec-13-pharmacodiagnostic-matrix.typ` before editing. Never re-indent or reformat existing rows — minimal diff: add one column to the header separator row, add one data row for the new drug, extend existing rows with a new final cell.
+5. **Skip if:** Zero new drugs AND zero new mechanisms with diagnostic value. Note in report: "sec-13: no new matrix rows/columns — skip."
 
-**Quality gates:**
+---
+
+### Quality Gates
+
+- [ ] ch30 category assigned (sec-01–08) with rationale
+- [ ] Overlap check completed — no duplicate cascade files created
 - [ ] Cascade trace has ≥4 biochemical steps per branch
-- [ ] At least one drug identified per branch node (or explicit statement: "no drug known to target this node")
+- [ ] At least one drug identified per branch node (or explicit: "no drug known to target this node")
+- [ ] Cascade has discriminating value — if every identified intercepting drug has specificity ≤ 0.30, the cascade provides zero differential diagnostic value. Gate: document in ops/ only as "cascade attempted — no discriminating value." Do NOT create ch30 files.
 - [ ] At least one "if works vs if fails" pair with explicit certainty AND off-target analysis
 - [ ] Discriminating probe identified, OR explicit "no clean discriminator exists" statement
 - [ ] All drug `@sec:` labels verified by grep — never guessed
 - [ ] All mechanism claims have `@sec:` cross-references to Part II chapters
-- [ ] `#import "/src/main/typst/lib/clinical-caution.typ": clinical-caution` at file top + `#clinical-caution()` call present on all chapter content
+- [ ] `#import "/src/main/typst/lib/clinical-caution.typ": clinical-caution` at file top + `#clinical-caution()` call present in each cascade `.typ` file (ensure `src/main/typst/lib/clinical-caution.typ` exists — idempotent create, see guard creation code above)
+- [ ] Parent sec-* `#include` updated
+- [ ] sec-12 entries updated (`*Appears in:*` lines) or created (alphabetical, correct format)
+- [ ] sec-09 convergence update completed OR skip noted
+- [ ] sec-13 matrix updated OR skip noted
 - [ ] Pruning rules applied (drug cert ≥ 0.40, cumulative inference ≥ 0.05)
-- [ ] Build passes
+- [ ] Ch30-specific build check — all new `#include` directives resolve (verify via `nix build` in Phase 5b)
 
-**Model note:** Phase 5d requires reasoning across mechanistic biochemistry, pharmacology, and differential diagnosis. Use opus. If opus is unavailable → **skip Phase 5d entirely** (no ops trace, no chapter content). Continue with remaining phases. Report: "Phase 5d skipped — opus unavailable. Hypothesis cascade-to-drug trace deferred."
+---
 
-**Report:** "Phase 5d complete: N cascade branches traced, M drug→node pairs, K integrated into chapter (L below 0.30 threshold — ops-only). Discriminating probes: J found, P 'no clean discriminator' statements. Cascade trace at `ops/integration-guides/pathway-drug-trace-<topic-slug>.md`. ch30 cascade sections modified: <list-or-none>. ch30 sec-12 entries added/modified: <list-or-none>."
+### Model note
+
+Phase 5d requires reasoning across mechanistic biochemistry, pharmacology, and differential diagnosis. Use opus. If opus is unavailable → **skip Phase 5d entirely** (no ops trace, no chapter content). Continue with remaining phases.
+
+**Report:** "Phase 5d complete: N cascade branches traced, M drug→node pairs, K discriminated probes, L sec-12 entries updated/created, P sec-09 convergence patterns added/updated, Q sec-13 matrix rows/columns added. Cascades cert ≥ 0.30: R integrated into chapter; cert 0.10–0.29: S ops-only; cert < 0.10: T skipped. Ch30 files created/modified: <list>. Pruned branches: U. Cascade trace at `ops/integration-guides/pathway-drug-trace-<topic-slug>.md`."
 
 ## Phase 5b — Intermediate Build Check
 
-**Note:** Phase 5b (build check, `b` = build) runs after Phase 5c (differential analysis, `c` = clinical) and Phase 5d (pathway-to-drug tracing, `d` = drug), before Phase 5a (falsifiability, `a` = audit) and Phase 5z (glossary review, `z` = glossary). The lettering reflects content type, not execution order. Execution sequence: 5 → 5d → 5c → 5b → 5a → 5z. Phase 5d runs before 5c so that cascade-to-drug mappings are complete when 5c writes per-medication differential entries; if a topic triggers both, 5d's cascade nodes are available for 5c to cross-reference. Phase 5z (glossary review) runs after 5a when all chapter content is finalized. When new ch30 sec-12 entries are created by 5d, Phase 5z MUST also verify the glossary has corresponding entries (or add them).
+**Note:** Phase 5b (build check, `b` = build) runs after Phase 5d (pathway-to-drug + ch30 cascade integration, `d` = drug/ch30) and Phase 5c (differential analysis, `c` = clinical), before Phase 5a (falsifiability, `a` = audit) and Phase 5z (glossary review, `z` = glossary). The lettering reflects content type, not execution order. Execution sequence: 5 → 5d → 5c → 5b → 5a → 5z. Phase 5d is the ch30 integration phase — it includes cascade section creation, sec-12 entry updates, sec-09 convergence checks, and sec-13 matrix updates. Phase 5d runs before 5c so that cascade-to-drug mappings are complete when 5c writes per-medication differential entries; if a topic triggers both, 5d's cascade nodes are available for 5c to cross-reference. Phase 5z (glossary review) runs after 5a when all chapter content is finalized. When new ch30 sec-12 entries are created by 5d, Phase 5z MUST also verify the glossary has corresponding entries (or add them).
 
 **Agent:** main session | **Model:** current
 
-1. `git add <files-modified-or-created-in-Phase-5>` — stage ONLY Phase 5 files
-2. `nix build` — common Phase 5 errors: new `@CitationKey` references not matching bib, `<` in prose, new `#include` directives to files not yet staged
+1. `git add <files-modified-or-created-in-Phases-5/5d/5c>` — stage ONLY Phase 5 files, including new ch30 subsec-* directories, sec-12 entries, sec-09 updates, and sec-13 modifications. Use explicit file list from Phase 5/5d/5c reports.
+2. `nix build` — common Phase 5 errors: new `@CitationKey` references not matching bib, `<` in prose, new `#include` directives to files not yet staged, new ch30 `#include` directives in parent sec-*.typ files referencing unstaged subsec-* files, incorrect Typst syntax in cascade entry files (missing `#import`, broken `@sec:` labels)
 3. Fix ALL errors before proceeding to Phase 5z (glossary review)
 4. Report: "Phase 5b build: PASS / FAIL (N errors fixed). Intermediate build checks at Phase 3a: [PASS/FAIL], Phase 5b: [PASS/FAIL]."
 
@@ -741,7 +964,7 @@ Subtree status updates are deferred to after Phase 5a (which follows the Phase 5
 2. **Gate:** Every `#hypothesis-box()`, `#fhypothesis()`, `#speculation()`, and `#prediction()` that was newly integrated must have at least one falsifiable prediction.
 3. Fix any that slipped through inline checking:
    - Criterion: "weakly" or missing falsifiability → add a specific, testable prediction (what observation would refute the hypothesis)
-    - If a hypothesis is structurally unfalsifiable (accommodates any outcome) → add explicit note: "Critique: structurally unfalsifiable." Retain current environment type and certainty — unfalsifiability is a *methodological* property, not an *evidential* one. A well-evidenced but vague claim stays at its evidence-based certainty with the unfalsifiability flag. Only reclassify to `#open-question` if the claim is also poorly evidenced (certainty < 0.30, same as the Phase 3 rule at line 353).
+    - If a hypothesis is structurally unfalsifiable (accommodates any outcome) → add explicit note: "Critique: structurally unfalsifiable." Retain current environment type and certainty — unfalsifiability is a *methodological* property, not an *evidential* one. A well-evidenced but vague claim stays at its evidence-based certainty with the unfalsifiability flag. Only reclassify to `#open-question` if the claim is also poorly evidenced (certainty < 0.30, same as the Phase 3 falsifiability rule above).
    - If unsure how to falsify → pause and ask user before proceeding.
 
 **Gate:** ALL new hypotheses/speculations must be falsifiable or explicitly flagged as structurally unfalsifiable before Phase 6 begins. No hypothesis ships to review without a falsifiability check.
@@ -1337,7 +1560,7 @@ If `nix build` fails on a key that a parallel stream's rebase/reset may have dro
 | 5a | `falsifiability-auditor` (agent) | sonnet | Verification sweep (most work done inline in Phase 5) |
 | 5b | main session | current | Intermediate build check |
 | 5c | `medication-differential-analysis` (skill → `medication-differential-analyst` agent) | opus | Differential diagnostic reasoning for medication topics |
-| 5d | main session | opus | Pathway-to-drug cascade tracing (skip if opus unavailable) |
+| 5d | main session | opus | Pathway-to-drug cascade tracing + ch30 integration (sec-* category assignment, cascade file creation, sec-12 entry updates, sec-09 convergence, sec-13 matrix). Skip if opus unavailable. |
 | 5z | main session | haiku | Mechanical glossary term extraction |
 | 6 | main session | current | Evidence→claim retrospective adaptation |
 | 7 | main session (inline) | current | Compatibility audit + reinforcement chains + adjustments — all three steps |
@@ -1392,6 +1615,8 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 - **Shared-file ownership** — track your entries in shared files (bib, appendix-h, changelog, registry, trees, queue) by key/label in plan reports; re-verify at Phase 13 that none were lost to a parallel commit
 - **Bib is ground truth, not the agent's report** — bib entries live in the split `bib/*.bib` files (there is NO `references.bib`); cite only keys verified present in the `.bib` file, preserving their exact `AuthorYEARkeyword` case; never lowercase/normalize keys and never trust a transcribed key list
 - **No duplicate integration** — Phase 5 must dedup brainstorm ideas against Phase 3 environments before integrating
+- **Ch30 cascade overlap prevention** — Phase 5d must check for identical or partially-overlapping cascades in existing ch30 sections before creating new files; duplicate cascade entries waste context and confuse the differential diagnostic model
+- **Ch30 category routing required** — every mechanistic claim must be classified into a ch30 sec-* category (Phase 3 Category Router); category assignment determines file placement, #include structure, and sec-09 convergence eligibility
 - **Commit scope is per-topic** — Phase 13 stages only this topic's files by explicit list; never commit transient review-skill artifacts (`.claude/review-checkpoint-*.md`) or unrelated WIP
 
 ---
