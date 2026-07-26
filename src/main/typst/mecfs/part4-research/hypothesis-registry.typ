@@ -4277,7 +4277,7 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [spec:hormesis-multi-drug-principle], [Non-monotonic dose-response is a recurring pattern across ME/CFS pharmacotherapy. The hormesis framework unifies these observations. Falsifiable prediction: individual inversion-point position should correlate across drugs if there is a hormetic reserve trait. Falsified if inversion-point correlation across drugs is weak.],[Phase 3 / 0.30],
 
-  [oq:ldn-dose-response-research-gap], [The absence of a within-range LDN dose-response trial (0.5/1.5/3.0/4.5 mg, crossover, ME/CFS, n at least 30) is the single largest evidence gap in the most widely prescribed off-label medication in ME/CFS. The upcoming LIFT trial (@LIFT2025protocol, pyridostigmine + LDN factorial) uses a single fixed LDN dose and cannot address this. A four-arm N-of-1 Bayesian crossover trial would cost an estimated $150,000--$250,000 and answer a question affecting every LDN prescription written in any chronic illness. Research priority: TRPM3 dose-response data do not exist -- the mechanism cited as LDN's primary therapeutic target has never been dose-curve characterized. No dosing recommendation below is validated -- all LDN dosing guidance is based on clinical experience, not dose-response evidence.],[Phase 3 / n/a],
+  [oq:ldn-dose-response-research-gap], [No within-range LDN dose-response trial exists for ME-CFS. The upcoming LIFT trial uses a single fixed dose and cannot address this gap.],[Phase 3 / n/a],
 
 )
 
