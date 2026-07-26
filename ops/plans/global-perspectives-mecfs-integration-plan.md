@@ -22,20 +22,20 @@
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|-------------------|------|-----------|--------|-------|
-| 1 | Epidemiological Transition Decoupling Gap (H1) | | 0.40 | ⬜ pending | Novel hypothesis, Cat 1 |
-| 2 | ICD-11 Empty-Vessel Hypothesis (H2) | | 0.55 | ⬜ pending | Novel hypothesis, Cat 1 |
-| 3 | Sentinel PEM Surveillance (R1) | | 0.60 | ⬜ pending | Research direction, Cat 2 |
-| 4 | Culturally Adapted PEM Screening Tool (R2) | | 0.50 | ⬜ pending | Research direction, Cat 2 |
-| 5 | WHO EML ME/CFS Repurposing Cascade (D1) | | 0.35 | ⬜ pending | Drug idea, Cat 3 |
-| 6 | Nutritional Deficiency-Corrected Fatigue (S1) | | 0.40 | ⬜ pending | Supplement idea, Cat 4 |
-| 7 | CHW-Delivered PEM-Aware Pacing (N1) | | 0.35 | ⬜ pending | Non-pharm intervention, Cat 5 |
-| 8 | WHO PEN Integration for ME/CFS (C1) | | 0.40 | ⬜ pending | Combinations+access, Cat 6 |
-| 9 | Diagnostic-Censored Global Prevalence Model (M1) | | 0.35 | ⬜ pending | Math model, Cat 7 |
-| 10 | ME/CFS as NTD Structural Analogue (B1) | | 0.30 | ⬜ pending | Cross-disease bridge, Cat 8 |
-| 11 | Smartphone PPG Stand Test (D2) | | 0.45 | ⬜ pending | Diagnostic idea, Cat 9 |
-| 12 | Differential Pathogen Profiles (X1) | | 0.25 | ⬜ pending | Cat 10 — counterargument |
-| 13 | Protective Factors Null Hypothesis (N2) | | 0.15 | ⬜ pending | Cat 11 — null assessment |
-| 14 | The Unfalsifiability Trap (E1) | | 0.70 | ⬜ pending | Cat 12 — evidence quality |
+| 1 | Epidemiological Transition Decoupling Gap (H1) | Tier 3 | 0.40 | ↩️ tree-only | Novel hypothesis, Cat 1 — deferred to future cycle |
+| 2 | ICD-11 Empty-Vessel Hypothesis (H2) | Tier 2 | 0.40 | ✅ done | Integrated as @spec:icd11-empty-vessel (cert 0.40) |
+| 3 | Sentinel PEM Surveillance (R1) | Tier 2 | 0.40 | ✅ done | Integrated as @spec:sentinel-pem-surveillance (cert 0.40) |
+| 4 | Culturally Adapted PEM Screening Tool (R2) | Tier 2 | 0.35 | ✅ done | Integrated as @oq:culturally-adapted-pem-tool |
+| 5 | WHO EML ME/CFS Repurposing Cascade (D1) | Tier 3 | 0.35 | ↩️ tree-only | Drug idea, Cat 3 — deferred to future cycle |
+| 6 | Nutritional Deficiency-Corrected Fatigue (S1) | Tier 3 | 0.40 | ↩️ tree-only | Supplement idea, Cat 4 — deferred to future cycle |
+| 7 | CHW-Delivered PEM-Aware Pacing (N1) | Tier 3 | 0.35 | ↩️ tree-only | Non-pharm intervention, Cat 5 — deferred to future cycle |
+| 8 | WHO PEN Integration for ME/CFS (C1) | Tier 3 | 0.40 | ↩️ tree-only | Combinations+access, Cat 6 — deferred to future cycle |
+| 9 | Diagnostic-Censored Global Prevalence Model (M1) | Tier 3 | 0.35 | ↩️ tree-only | Math model, Cat 7 — deferred to future cycle |
+| 10 | ME/CFS as NTD Structural Analogue (B1) | Tier 3 | 0.30 | ↩️ tree-only | Cross-disease bridge, Cat 8 — deferred to future cycle |
+| 11 | Smartphone PPG Stand Test (D2) | Tier 3 | 0.45 | ↩️ tree-only | Diagnostic idea, Cat 9 — deferred to future cycle |
+| 12 | Differential Pathogen Profiles (X1) | critical | 0.25 | ✅ done | Cat 10 — integrated as @oq:falsifying-hidden-burden-thesis |
+| 13 | Protective Factors Null Hypothesis (N2) | critical | 0.15 | ✅ done | Cat 11 — integrated as @oq:falsifying-hidden-burden-thesis |
+| 14 | The Unfalsifiability Trap (E1) | critical | 0.70 | ✅ done | Cat 12 — integrated as @lim:unfalsifiability-trap |
 
 ## Certainty Bump Log
 
@@ -56,17 +56,17 @@
 | 4 | ✅ | Brainstorm at `ops/brainstorms/brainstorm-global-perspectives-mecfs-2026-07-26.md`. 14 ideas, all 12 categories covered. |
 | 4a | ✅ | Subtree `ops/plans/hypotheses-trees/subtrees/global-perspectives-mecfs.md` written with 14 nodes. Root index updated. |
 | 5 | ✅ | 6 brainstorm ideas integrated: 1 limitation (@lim:unfalsifiability-trap), 4 open-questions/speculations (@oq:falsifying-hidden-burden-thesis, @spec:icd11-empty-vessel, @spec:sentinel-pem-surveillance, @oq:culturally-adapted-pem-tool), 1 synthesis update. 8 ideas tree-only (Tier 3 — research/policy proposals for future cycles). |
-| 5a | ⏭️ | Falsifiability sweep skipped — non-biomedical topic; all Phase 3 environments pre-reviewed inline; Phase 5 environments are research proposals with explicit falsification conditions. |
-| 5b | ✅ | Build PASS on committed HEAD (85MB PDF). `$` signs escaped to `USD`. |
-| 5z | ⏭️ | Glossary review skipped — no new biomedical acronyms/medications added. |
-| 6 | ⏭️ | Retrospective adaptation skipped — no overlapping pre-existing content with terminology match for global-health topic. |
-| 7 | ⏭️ | Cross-hypothesis compatibility skipped — no mechanistic hypotheses to audit; all content is knowledge synthesis/epidemiological. |
+| 5a | ✅ | Falsifiability sweep: 11 falsifiable predictions added inline to all 5 achievements + 6 speculations via falsifiability-auditor agent + main-session edits. |
+| 5b | ✅ | Build PASS — 85MB PDF. `$` signs escaped to `USD`. |
+| 5z | ✅ | Glossary review: 10 entries added to `web/glossary.json` (LMIC, HIC, TCM, NTD, DSQ, AYUSH, IACI, MCID, CBC, TB). |
+| 6 | ✅ | Retrospective adaptation: zero substantive overlaps with pre-existing content. Chapter fills gap identified by ch39 ("no Global South data at all"). Lexical hits only. No adaptation warranted. |
+| 7 | ✅ | Cross-hypothesis compatibility: zero mechanism pairs. All 19 registry entries are epidemiological/health-systems/research-proposal statements with no biochemical mechanism terms. Skip per Phase 7 guard. |
 | 8 | ✅ | Build PASS — 85MB PDF. |
-| 9 | ⏯️ | Quality assessment deferred to next cycle. Pre-computed: net certainty change = 0 (no adjustments), 13 new environments, BLOAT unlikely (focused chapter ~200 lines), WEAK-EVIDENCE = none, CLINICAL-RISK = none. |
-| 10 | ⏯️ | Cross-chapter coherence deferred. No overlapping mechanistic claims — chapter is standalone knowledge synthesis. |
-| 10a | ✅ | @syn:global-perspectives-model synthesis environment condenses all 13 environments into convergent model. Trigger threshold met (13 environments, 1 chapter). |
-| 10b | ⏭️ | Strategic-framing propagation skipped — synthesis is downstream knowledge synthesis, not a trigger-vs-amplifier or treatment-strategy claim. |
-| 11 | ⏯️ | Review convergence deferred to next cycle. Lightweight tier (single chapter, non-treatment content). |
+| 9 | ✅ | Quality assessment: **A-** (no flags fired, BLOAT not triggered, WEAK-EVIDENCE not triggered, CLINICAL-RISK not triggered, G-UNSUSTAINED-CERTAINTY not triggered). Net certainty change = 0. 11 falsifiable predictions. 18 environments across 218 lines. |
+| 10 | ✅ | Cross-chapter coherence: zero inconsistencies. Ch43 fills gap identified by ch39. Consistent with ch01 diagnostic-disparity and geographic findings (Lim2020). |
+| 10a | ✅ | @syn:global-perspectives-model synthesis environment condenses all 18 environments into convergent model. |
+| 10b | ✅ | Strategic-framing propagation: downstream knowledge-synthesis finding — no trigger-capable mechanism, root cause candidate, or treatment-strategy implication. Per decision matrix, "Downstream consequence (non-actionable)" → no framing update needed. Valid outcome, not a failure. |
+| 11 | ✅ | Review convergence: **CONVERGED.** Phase 11a (review-convergence): R3 (1 fix: duplicate ferritin in falsifiable prediction). Phase 11c (review-typst): R3 (17 fixes: 16 UK→US spelling + 1 \~ escape). 4 minor flags deferred (author needs additional bib entries for 4 background statements). SLOW-CONVERGENCE not triggered (≤3 rounds both passes). |
 | 12 | ✅ | Changelog entry added under Version 12 — July 2026. |
 | 13 | ✅ | Content shipped in parallel session commits + our commits 4a4e475d (changelog+plan) + db598906 (falsifiability+glossary+review fixes). Tree status: ✅ done.
 
