@@ -1453,7 +1453,7 @@ Many integrations completed before Phase 10a existed. They may contain scattered
 | Layer | File | Check |
 |-------|------|-------|
 | Abstract | `shared/abstract.typ` | Does the synthesis change what a reader should know about ME/CFS pathophysiology, cause, or treatment strategy? If so → the abstract must reflect it. |
-| ch16 intro | `ch16-causal-hierarchy/ch16-causal-hierarchy.typ` (lines 14–20, the framing paragraphs before `== Framework`) | Does the synthesis constrain or strengthen the trigger-vs-amplifier classification? Does it add a new amplifier or modify the two-hit model? Does it reveal a tension between genetic architecture and a trigger-capable mechanism? If so → the intro must acknowledge it. |
+| ch16 intro | `ch16-causal-hierarchy/ch16-causal-hierarchy.typ` (the prose paragraphs between the Voltaire epigraph and `== Framework`) | Does the synthesis constrain or strengthen the trigger-vs-amplifier classification? Does it add a new amplifier or modify the two-hit model? Does it reveal a tension between genetic architecture and a trigger-capable mechanism? If so → the intro must acknowledge it. |
 | ch16 root cause sections | `ch16-causal-hierarchy/ch16-causal-hierarchy.typ` (the `=== CNS Energy Crisis`, `=== GPCR Autoantibody Cascade`, `=== Metabolic Safe Mode Lock`, `=== TRPM3 Channelopathy` sections) | Does the synthesis provide anchoring evidence, a structural tension, or a cross-reference that strengthens or constrains a root cause candidate? If so → the root cause section's assessment or evidence paragraph must cite it. |
 | Reading guide | `shared/reading-guide.typ` | Does the synthesis represent a finding significant enough to signal to readers navigating the document? If so → mentionable in the guide. |
 | ch13 unified model | `ch13-integrative-models/` | Does the synthesis add a new systemic interaction or causal arrow? If so → reference in the unified model. |
@@ -1484,10 +1484,10 @@ Many integrations completed before Phase 10a existed. They may contain scattered
 3. **Check each listed framing layer** for whether the synthesis's implications are reflected.
 4. **For each missing propagation:** write the minimal framing content, insert it at the appropriate position, and add the `@syn:` cross-reference.
 5. **If the synthesis changes nothing at the framing level** (pure downstream consequence, no trigger-vs-amplifier implication, no clinical strategy change): report "Phase 10b: no framing propagation needed — synthesis is downstream/non-actionable." This is a valid outcome, not a failure.
-6. **Build:** `nix build` must pass before proceeding.
+6. **Build:** stage the modified framing files (`git add <modified-framing-files>`) then `nix build` must pass before proceeding.
 
 **Output:** Modified framing layer `.typ` files.
-**Report:** "Phase 10b complete: N framing layers updated (abstract: [yes/no], ch16 intro: [yes/no], ch16 root cause sections: [list], reading guide: [yes/no], ch13: [yes/no]). Build: PASS/FAIL."
+**Report:** "Phase 10b complete: N framing layers updated (abstract: [yes/no], ch16 intro: [yes/no], ch16 root cause sections: [CNS energy crisis, GPCR autoantibody cascade / TRPM3 channelopathy / none], reading guide: [yes/no], ch13: [yes/no]). Build: PASS/FAIL."
 
 ### Retroactive Phase 10b
 
