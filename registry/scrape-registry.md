@@ -752,3 +752,12 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (24 queries, batch) | pubmed/eutils | 2026-07-17 | — | ops/research/literature-microglial-mitochondrial-borrelia-2026-07-17.md, ops/research/search-log-microglial-mitochondrial-borrelia-2026-07-17.md, bib/immune.bib (16 new entries), appendix-h (16 annotated entries) — Microglial mitochondrial dysregulation from Borrelia/Bartonella literature collection |
+
+## T-Cell Mitochondrial Exhaustion Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-07-26 | 37 queries across 3 phases: T-cell mito/metabolism ME/CFS, CD8 exhaustion, immunometabolism, oxidative stress, HHV-6/fission, immunophenotyping + author-specific searches (Hanson, Marshall-Gradisnik, Nacul/Cliff, Elahi, Davis, Fisher) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (37 queries, batch) | pubmed/eutils | 2026-07-26 | — | ops/research/literature-tcell-mitochondrial-exhaustion-2026-07-26.md, ops/research/search-log-tcell-mitochondrial-exhaustion-2026-07-26.md, bib/immune.bib (4 new + 6 updated + 1 added to energy-metabolism.bib reference), appendix-h (12 annotated entries) — T-cell mitochondrial exhaustion literature collection |
