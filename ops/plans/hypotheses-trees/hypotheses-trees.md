@@ -41,6 +41,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | tissue-level-findings | subtrees/tissue-level-findings.md | 2026-06-21 | 27 | 9 | ⬜ pending |
 | history-of-mecfs | [subtrees/history-of-mecfs.md](subtrees/history-of-mecfs.md) | 2026-07-26 | 22 | 0 | 🔵 in progress |
+| brain-clearance-architecture | [subtrees/brain-clearance-architecture.md](subtrees/brain-clearance-architecture.md) | 2026-07-26 | 29 | 0 | 🔵 in progress |
 
 ## Subtree index
 

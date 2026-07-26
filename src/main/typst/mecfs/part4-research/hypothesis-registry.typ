@@ -4239,6 +4239,32 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
 )
 
+= Entries added 2026-07-26e: Brain Clearance Architecture — Phase 5
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [spec:pem-ratchet-glymphatic], [PEM ratchet hypothesis: exertion → metabolic waste (lactate, ROS, inflammatory mediators) → glymphatic system clearance failure (sleep dysfunction + autonomic impairment + neuroinflammation) → waste accumulation → delayed 12-48h PEM. Ratchet: repeated overexertion → progressive waste accumulation → gradual worsening. Coherent across sleep, autonomic, neuroinflammatory lines. No direct glymphatic measurement in ME/CFS; no exertional glymphatic study. Origin: synthetic inference from existing literature.],[Phase 5 / 0.35],
+
+  [spec:csf-blood-ratio-biomarker], [CSF:blood concentration ratio of brain-derived proteins (NfL, tau, S100B, GFAP) as glymphatic function biomarker. Normal: CSF proteins drain via meningeal lymphatics → dilute in plasma. Impaired clearance: CSF concentration rises, plasma concentration falls. Ratio reflects clearance efficiency independent of absolute production. Validated in AD/MS; never measured systematically in ME/CFS despite available LP (NIH 2024, Hornig 2017) and peripheral blood data. Origin: Chayama 2026 model prediction.],[Phase 5 / 0.40],
+
+  [oq:causal-compensatory-epiphenomenal], [Three interpretations of brain clearance impairment in ME/CFS: (1) causal — primary driver, restoring clearance improves symptoms; (2) compensatory — protective energy-conserving response; (3) epiphenomenal — downstream of sleep/autonomic/neuroinflammatory dysfunction, no independent contribution. Discrimination requires interventional studies.],[Phase 5 / n/a],
+
+  [lim:no-direct-glymphatic-imaging-mecfs], [Zero studies have measured glymphatic function in ME/CFS patients using DTI-ALPS, contrast-enhanced MRI, or CSF tracer studies. Entire brain clearance hypothesis in ME/CFS rests on indirect inference. This is the single most important missing experiment.],[Phase 5 / n/a],
+
+  [lim:chayama-unreplicated], [Chayama 2026 nearest-exit model: paradigm-shifting synthesis of independent components (glymphatic, meningeal lymphatics, sleep-coupled clearance) into unified architecture. Model-dependent components (nearest-exit routing, dual-speed glymphatics, mid-cervical transit node, bioelectric entry, skull-border B-cell tolerance) not independently replicated.],[Phase 5 / n/a],
+
+  [lim:pem-ratchet-speculative], [PEM ratchet logically coherent but completely untested. No exertional glymphatic measurement. Appealing connections ≠ evidence. Prediction (glymphatic impairment during post-exertional period with waste metabolite accumulation correlating with symptoms) not tested.],[Phase 5 / n/a],
+
+  [lim:convergent-narrative-confirmation-bias], [Multiple weak lines of evidence converging on same conclusion feel stronger than they are — known cognitive bias. Each component individually plausible but underdetermined; convergence does not increase collective certainty beyond weakest link. Brain clearance framework = research program, not finding (certainty 0.30).],[Phase 5 / n/a],
+
+  [lim:missing-negative-controls], [Brain clearance hypothesis lacks explicit falsification conditions: no specification of what SHOULD NOT happen if true. Currently accommodates any post-hoc result. Sleep apnea/narcolepsy negative control (severe sleep dysfunction without ME/CFS phenotype) problematic for hypothesis. Lactate infusion PEM trigger untested.],[Phase 5 / n/a],
+
+  [oq:brain-clearance-null-hypothesis], [If brain clearance has no causal role: (1) DTI-ALPS comparable between ME/CFS and inactivity-matched controls; (2) CSF:blood ratios not different; (3) pharmacological enhancement no benefit beyond placebo; (4) PEM severity uncorrelated with glymphatic proxies; (5) CPAP benefit no greater than in non-ME/CFS. All testable; none tested. Pre-experimental mechanism.],[Phase 5 / n/a],
+
+)
+
 
 
 

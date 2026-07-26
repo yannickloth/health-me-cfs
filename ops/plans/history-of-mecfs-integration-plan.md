@@ -66,6 +66,14 @@
 | 4 | 2026-07-26 | 30 brainstorm ideas (7 constructive, 3 critical categories); 22 tracked in plan; subtree file created |
 | 4a | 2026-07-26 | subtree at subtrees/history-of-mecfs.md with 22 nodes; root index updated |
 | 5 | 2026-07-26 | Brainstorm triaged: 1 fhypothesis (Psychosomatic-Lag), 5 limitations, 1 open-question integrated; 22 ideas tracked (1 Tier 1, 6 Tier 2, 13 bypass — critical cats, 2 covered-by-existing). Hypothesis registry updated with 7 entries. |
+| 6 | 2026-07-26 | Retroactive check: 0 contradictions with ch01 history section (facts align) |
+| 7 | 2026-07-26 | Cross-hypothesis compatibility: 1 reinforcement pair (stigma hypothesis reinforces psychosomatic-lag), 0 conflicts |
+| 8 | 2026-07-26 | Final build PASS |
+| 9 | 2026-07-26 | Quality: 10 environments, 26 citations, 5 limitations (strong self-critique), no flags fired |
+| 10 | 2026-07-26 | Cross-reference added from ch01 to ch02; coherence verified |
+| 11 | 2026-07-26 | Manual review: all bib keys resolve, clean Typst syntax |
+| 12 | 2026-07-26 | Changelog entry added for Version 12 |
+| 13 | 2026-07-26 | Committed: `b234cf02 content(ch02): populate history of ME/CFS` — status ✅ done |
 
 ## Notes
 - Referenced in `ops/plans/20260726-document-gap-analysis.md` as B1 (highest impact structural gap)

@@ -19759,6 +19759,72 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *Limitations:*: Abstract only; full details unavailable. Causality unclear.
     *Certainty:* 0.35
 
+=== Louveau et al.\ 2015 — CNS Meningeal Lymphatic Vessels
+
+    *Full Citation:*: Louveau A, Smirnov I, Keyes TJ, Eccles JD, Rouhani SJ, Peske JD, Derecki NC, Castle D, Mandell JW, Lee KS, Harris TH, Kipnis J.\ Structural and functional features of central nervous system lymphatic vessels. _Nature_. 2015 Jul 16;523(7560):337--341. @Louveau2015meningealLymphatics
+    *DOI:*: #link("https://doi.org/10.1038/nature14432")[10.1038/nature14432]
+    *PMID:*: 26030524
+    *Study Design:*: In vivo mouse; immunohistochemistry, light-sheet microscopy, CSF tracer injection, transgenic models
+    *Key Findings:*
+        - Functional lymphatic vessels exist lining the dural sinuses in the CNS — previously thought absent
+        - CNS lymphatics capable of carrying fluid, immune cells (T cells), and macromolecules from CSF to deep cervical lymph nodes
+        - Vessels express PROX1, LYVE1, PODOPLANIN, VEGFR3, CCL21 — canonical lymphatic markers
+        - Vessels are continuous with meningeal arterial tree and exit along cranial nerves at skull base
+    *Conclusion:*: The CNS is NOT immune-privileged in the way previously believed. It contains functional lymphatic vasculature that connects the brain to the peripheral immune system. This fundamentally revises neuroimmune doctrine.
+    *Limitations:*: Mouse model only; initial discovery paper (now well-replicated); human meningeal lymphatics confirmed via Mestre 2022 (Nat Commun).
+    *ME/CFS Relevance:*: Foundational anatomy. Without these vessels, neither glymphatic clearance to peripheral circulation nor skull-border B cell tolerance surveillance @Chayama2026BrainClearance could function. Establishes the anatomic possibility of compartmentalized brain waste clearance and immune surveillance defects.
+    *Certainty:* 0.85
+
+=== Aspelund et al.\ 2015 — Dural Lymphatic Vascular System
+
+    *Full Citation:*: Aspelund A, Antila S, Proulx ST, Karlsen TV, Karaman S, Detmar M, Wiig H, Alitalo K.\ A dural lymphatic vascular system that drains brain interstitial fluid and macromolecules. _J Exp Med_. 2015 Jun 29;212(7):991--999. @Aspelund2015duralLymphatics
+    *DOI:*: #link("https://doi.org/10.1084/jem.20142290")[10.1084/jem.20142290]
+    *PMID:*: 26077718
+    *Study Design:*: In vivo mouse; transgenic VEGF-C/D trap (K14-VEGFR3-Ig), whole-mount immunofluorescence, ISF tracer injection
+    *Key Findings:*
+        - Dural lymphatic vessels absorb CSF from subarachnoid space and brain ISF via glymphatic system
+        - Fluid transport into deep cervical LNs via foramina at base of skull
+        - Transgenic mice with complete aplasia of dural lymphatic vessels showed attenuated macromolecule clearance and abrogated cervical LN transport
+        - Brain ISF pressure and water content were surprisingly unaffected — suggests compensatory mechanisms
+    *Conclusion:*: Dural lymphatic network provides the anatomic conduit for CSF→cervical LN drainage, essential for brain macromolecule clearance. Complementary and independent discovery to Louveau 2015.
+    *Limitations:*: Mouse model only; ISF pressure compensation suggests parallel clearance routes; human functional confirmation pending.
+    *ME/CFS Relevance:*: Demonstrates that disruption of dural lymphatics directly impairs brain waste clearance. If chronic neuroinflammation in ME/CFS damages or constricts these vessels (perivascular fibrosis, basement membrane thickening), it would create the anatomical substrate for glymphatic failure.
+    *Certainty:* 0.80
+
+=== Da Mesquita et al.\ 2018 — Meningeal Lymphatics in Ageing and Alzheimer's
+
+    *Full Citation:*: Da Mesquita S, Louveau A, Vaccari A, Smirnov I, Cornelison RC, Kingsmore KM, Contarino C, Onengut-Gumuscu S, Farber E, Raper D, Viar KE, Powell RD, Baker W, Dabhi N, Bai R, Cao R, Hu S, Rich SS, Munson JM, Lopes MB, Overall CC, Acton ST, Kipnis J.\ Functional aspects of meningeal lymphatics in ageing and Alzheimer's disease. _Nature_. 2018 Aug;560(7717):185--191. @DaMesquita2018meningealLymphaticsAging
+    *DOI:*: #link("https://doi.org/10.1038/s41586-018-0368-8")[10.1038/s41586-018-0368-8]
+    *PMID:*: 30046111
+    *Study Design:*: In vivo mouse; meningeal lymphatic ablation via photodynamic or surgical disruption, VEGF-C rescue, Morris water maze, brain perfusion imaging
+    *Key Findings:*
+        - Meningeal lymphatic dysfunction impairs paravascular CSF/ISF exchange and molecular clearance
+        - Lymphatic impairment induces cognitive dysfunction in wild-type mice
+        - Aged mice: meningeal lymphatic vessels narrower, less branched, reduced drainage capacity
+        - VEGF-C treatment in aged mice: restored meningeal lymphatic diameter and drainage, improved brain perfusion, rescued learning and memory
+        - AD transgenic mice (5xFAD, APP/PS1): lymphatic disruption aggravated meningeal and parenchymal amyloid-beta deposition
+        - Human AD tissue: meningeal amyloid-beta pathology resembling ablation phenotype in mice
+    *Conclusion:*: Meningeal lymphatic dysfunction is a modifiable risk factor for age-related cognitive decline and Alzheimer's pathology. VEGF-C-mediated lymphatic rescue is a therapeutic avenue. The ageing-meningeal-lymphatic axis may be relevant to other conditions with neuroinflammatory and cognitive components.
+    *Limitations:*: Mouse models with aggressive lymphatic ablation; mild human VEGF-C toxicity (lymphangiogenesis risk); human meningeal lymphatic function not directly measured; AD not ME/CFS.
+    *ME/CFS Relevance:*: HIGH relevance via cross-disease extrapolation. Three parallels: (1) ME/CFS involves chronic neuroinflammation that may functionally mimic aged lymphatic dysfunction; (2) cognitive impairment (brain fog) is a core symptom; (3) if VEGF-C treatment can reverse cognitive impairment from meningeal lymphatic failure in mice, lymphatic-supporting interventions may merit investigation in ME/CFS. Human confirmation pending.
+    *Certainty:* 0.80
+
+=== Jiang-Xie et al.\ 2024 — Neuronal Dynamics Direct CSF Perfusion
+
+    *Full Citation:*: Jiang-Xie L-F, Drieu A, Bhasiin K, Quintero D, Smirnov I, Kipnis J.\ Neuronal dynamics direct cerebrospinal fluid perfusion and brain clearance. _Nature_. 2024 Mar;627(8002):157--164. @JiangXie2024neuronalCSFDynamics
+    *DOI:*: #link("https://doi.org/10.1038/s41586-024-07108-6")[10.1038/s41586-024-07108-6]
+    *PMID:*: 38418877
+    *Study Design:*: In vivo mouse; multielectrode ISF recording, chemogenetic silencing (PSAM-hM4Di + uPSEM792), optogenetic wave synthesis (ChR2), DCE-MRI CSF infusion, tracer clearance assays
+    *Key Findings:*
+        - Neuronal networks synchronize individual action potentials to create large-amplitude (100--500 μV), rhythmic (0.5--1.5 Hz) ionic waves in brain ISF
+        - Chemogenetic flattening of these waves largely impeded CSF infiltration into and molecular clearance from brain parenchyma
+        - Synthesized waves via transcranial optogenetic stimulation substantially potentiated CSF-to-ISF perfusion
+        - Neuronal activity — not vascular pulsatility or respiration — is the master driver of glymphatic perfusion
+    *Conclusion:*: Neurons are the master organizers of brain clearance. The fundamental principle: rhythmic neural synchrony → ionic waves → CSF perfusion → waste clearance. Introduces a new theoretical framework for macroscopic brain waves.
+    *Limitations:*: Mouse model only (open-skull craniotomy for optogenetic stimulation limits human translation); anesthesia may alter neuronal dynamics; ion-sensitive electrodes measure ISF potassium — not direct CSF flow measurement; no disease model data.
+    *ME/CFS Relevance:*: DIRECT relevance: ME/CFS involves documented sleep fragmentation, alpha-delta sleep (wake-like EEG intrusion into NREM), and dysautonomia — all conditions that would disrupt the rhythmic neural synchrony this paper identifies as the clearance pump. If neuronal synchrony is the master pump, sleep architecture failure in ME/CFS is not merely symptomatic but mechanistically causative of impaired waste clearance. This creates a plausible biological pathway: sleep fragmentation → disrupted neural oscillations → impaired ionic wave generation → reduced CSF perfusion → metabolic waste accumulation → cognitive symptoms + PEM amplification.
+    *Certainty:* 0.78
+
 === Azcue et al.\ 2026 — GPCR Autoantibodies, Autonomic Dysfunction, and Cognition (0.55)
     *Full Citation:*: Azcue N, Prada A, Del Pino R, et al. Involvement of autoantibodies against G protein-coupled receptors in post-COVID condition and Chronic Fatigue Syndrome. _Sci Rep_. 2026;16. DOI: 10.1038/s41598-026-49131-9.
     *DOI:*: #link("https://doi.org/10.1038/s41598-026-49131-9")[10.1038/s41598-026-49131-9]
