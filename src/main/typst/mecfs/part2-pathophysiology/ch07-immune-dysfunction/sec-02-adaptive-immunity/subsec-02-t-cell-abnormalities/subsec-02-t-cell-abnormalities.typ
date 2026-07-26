@@ -229,7 +229,7 @@ Gut-immune axis dysfunction is well-documented in ME/CFS: intestinal dysbiosis, 
 ] <hyp:cd4-depletion-gut>
 
 #hypothesis(title: [CD8+ T-Cell Mitochondrial Fragmentation Underlies Acquired Immune Exhaustion])[
-*(Origin: brainstorm — literature synthesis.)* *(Certainty: 0.50 — T-cell exhaustion and mitochondrial dysfunction both established in ME/CFS; the fission-based causal mechanism is inferred from lymphoblast and PBMC data but not directly measured in primary CD8+ T cells.)*
+*(Origin: brainstorm — literature synthesis.)* *(Certainty: 0.60 — T-cell exhaustion (Iu 2024, cert 0.75) and mitochondrial dysfunction (Mandarano 2020, cert 0.70; Shankar 2025, cert 0.75) both established in ME/CFS; DRP1 activation in PBMCs documented (Schreiner 2020); 3 independent reinforcement domains (ch06 selective-energy, ch07 immune-energy-starvation niche, ch14d HIV/cancer parallels) support the fission-to-exhaustion pathway. Causal link (DRP1→fission→exhaustion) still inferred from separate cell types and separate patients.)*
 
 The CD8+ T-cell exhaustion documented in ME/CFS by Iu et al.\ (2024) @iu2024tcell_exhaustion and the metabolic dysfunction characterized by Mandarano et al.\ (2020) @Mandarano2020 may share a common upstream mechanism: mitochondrial fragmentation (fission) mediated by the DRP1 pathway.
 

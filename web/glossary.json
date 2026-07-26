@@ -2577,6 +2577,61 @@
     "category": "method",
     "definition": "Clustered Regularly Interspaced Short Palindromic Repeats: a gene-editing technology using Cas9 nuclease guided by a single guide RNA. Used experimentally to study ME/CFS-associated gene variants in cell models."
   },
+  "cristae": {
+    "label": "cristae",
+    "category": "cell-biology",
+    "definition": "Folded inner mitochondrial membrane structures where the electron transport chain and ATP synthase are concentrated. Cristae architecture regulates OXPHOS efficiency; disorganized cristae are a hallmark of mitochondrial dysfunction."
+  },
+  "DRP1": {
+    "label": "DRP1",
+    "category": "cell-biology",
+    "definition": "Dynamin-Related Protein 1: a GTPase that mediates mitochondrial fission by constricting the outer mitochondrial membrane. Activated by phosphorylation at Ser616 (via ERK1/2); inhibited by phosphorylation at Ser637. Excessive DRP1 activity produces mitochondrial fragmentation, documented in ME/CFS PBMCs (Schreiner 2020)."
+  },
+  "EOMES": {
+    "label": "EOMES",
+    "category": "immunology",
+    "definition": "Eomesodermin: a T-box transcription factor that drives CD8+ T-cell effector differentiation and, together with TOX, the terminal exhaustion program. Elevated on CD8+ effector memory T cells in ME/CFS (Iu et al. 2024)."
+  },
+  "MFN1": {
+    "label": "MFN1",
+    "category": "cell-biology",
+    "definition": "Mitofusin 1: a GTPase on the mitochondrial outer membrane that mediates mitochondrial fusion. Together with MFN2, counterbalances DRP1-mediated fission to maintain mitochondrial network integrity."
+  },
+  "MFN2": {
+    "label": "MFN2",
+    "category": "cell-biology",
+    "definition": "Mitofusin 2: a GTPase on the mitochondrial outer membrane that mediates mitochondrial fusion and ER-mitochondrial contact sites. Mutations cause Charcot-Marie-Tooth type 2A."
+  },
+  "mitochondrial membrane potential": {
+    "label": "mitochondrial membrane potential (ΔΨm)",
+    "category": "cell-biology",
+    "definition": "The electrochemical proton gradient across the inner mitochondrial membrane, the driving force for ATP synthesis. Measured by TMRE or TMRM flow cytometry. Reduced ΔΨm in CD8+ T cells is documented in ME/CFS (Mandarano et al. 2020)."
+  },
+  "OPA1": {
+    "label": "OPA1",
+    "category": "cell-biology",
+    "definition": "Optic Atrophy 1: a dynamin-related GTPase on the inner mitochondrial membrane that mediates inner membrane fusion and cristae maintenance. OPA1 long form promotes fusion; short form promotes fission. Disrupted cristae architecture from OPA1 dysfunction impairs OXPHOS efficiency."
+  },
+  "spare respiratory capacity": {
+    "label": "spare respiratory capacity (SRC)",
+    "category": "cell-biology",
+    "definition": "The difference between maximal and basal mitochondrial oxygen consumption, measured by Seahorse extracellular flux analysis. SRC represents the cell's ability to respond to acute energy demands; low SRC predicts T-cell exhaustion and impaired recall responses."
+  },
+  "TCF7": {
+    "label": "TCF7 (TCF-1)",
+    "category": "immunology",
+    "definition": "T-Cell Factor 7: a transcription factor identifying stem-like progenitor exhausted CD8+ T cells. In cancer immunotherapy, TCF7-high cells respond to PD-1 blockade while TCF7-low cells are terminally exhausted. Chromatin closure at TCF7 locus is documented in ME/CFS CD8+ TEM cells (Iu et al. 2024)."
+  },
+  "TOX": {
+    "label": "TOX",
+    "category": "immunology",
+    "definition": "Thymocyte Selection-Associated High-Mobility Group Box: the lineage-defining transcription factor for CD8+ T-cell exhaustion. TOX drives chromatin remodeling at exhaustion-effector loci and is elevated on CD8+ effector memory T cells in ME/CFS (Iu et al. 2024)."
+  },
+  "CD8+ TEM": {
+    "label": "CD8+ TEM",
+    "category": "immunology",
+    "definition": "CD8+ Effector Memory T Cells: a T-cell subset (CD3+CD8+CD45RA-CCR7-) capable of rapid effector function upon antigen re-encounter. The most severely dysregulated T-cell population in ME/CFS, showing metabolic dysfunction, mitochondrial membrane potential loss, and exhaustion transcription factor upregulation."
+  },
   "WT": {
     "label": "WT",
     "category": "method",
