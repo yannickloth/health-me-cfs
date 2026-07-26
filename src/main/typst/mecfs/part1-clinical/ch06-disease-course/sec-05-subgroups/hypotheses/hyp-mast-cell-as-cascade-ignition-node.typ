@@ -1,0 +1,7 @@
+#import "../../../../shared/environments.typ": *
+
+#hypothesis(title: [Mast Cell as Cascade Ignition Node])[
+The bidirectional MCA--ME/CFS amplification loop @WirthLohn2023MECFSvascular and the multi-system reach of mast cell mediators across endothelium, gut wall, connective tissue, and CNS are consistent with MCAS occupying an upstream ignition position in the Septad cascade. Mast cell mediators can act upstream of: (a) endothelial NO/permeability changes driving orthostatic intolerance; (b) interstitial cell of Cajal dysfunction driving GI dysmotility; (c) MMP-mediated collagen degradation worsening connective tissue laxity; (d) microglial priming sustaining central fatigue. This positions MCAS as a potentially high-leverage intervention point. The 75--91% MCAS therapy response rate @Yao2025MCASPOTStriad is consistent with this position but does not establish it: nonspecific antihistamine effects on symptoms shared with other conditions could produce comparable response rates without any cascade structure. (Certainty: 0.45)
+
+_Falsifiable prediction:_ In a sequential treatment trial (MCAS-first vs. POTS-first vs. pain-first), only the MCAS-first arm achieves $gt.eq$2-component Septad improvement in $gt.eq$60% of cascade-eligible patients at 8 weeks; alternative arms reach $lt.eq$30%.
+] <hyp:mcas-ignition-node>

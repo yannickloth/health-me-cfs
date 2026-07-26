@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Exosome-Mediated Neuroimmune Feedback Loop — ODE Model Extension])[
+*Certainty: 0.25.* The Kang et al.@Kang2026ExosomeHSP70Sleep data provide quantitative cytokine reduction time-courses and cognitive recovery rates suitable for ODE parameterisation. An exosome variable `E_exo(t)` crosses the BBB with rate constant `k_BBB`, reduces neuroinflammation `I_n(t)` with efficacy `eta_hsp`, and enhances glymphatic clearance `G(t)`. The resulting 3-variable ODE system (`E_exo`, `I_n`, `G`) would predict: (a) the dose-frequency regimen achieving sustained neuroinflammation reduction with minimised fluctuation amplitude, (b) the therapeutic window before chronic inflammation alters BBB EV trafficking kinetics, and (c) the optimal cargo mRNA species for each patient subgroup based on their dominant neuroinflammatory cytokine profile. The model is parameterisable from Kang et al. cytokine time-course data but has not been implemented.
+] <spec:exosome-ode-feedback-loop>

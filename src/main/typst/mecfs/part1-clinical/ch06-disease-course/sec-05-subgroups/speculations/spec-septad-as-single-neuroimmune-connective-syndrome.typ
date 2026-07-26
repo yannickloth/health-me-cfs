@@ -1,0 +1,7 @@
+#import "../../../../shared/environments.typ": *
+
+#speculation(title: [Septad as Single Neuroimmune Connective Syndrome])[
+The Septad may represent one underlying syndrome -- tentatively termed "neuroimmune connective syndrome" (NICS) -- with five symptomatic projections (mast, autonomic, GI, joint, fatigue/PEM). Current diagnostic fragmentation occurs because each specialty encounters only its own projection. Developmental co-vulnerability plausibility: neural crest cells give rise to autonomic ganglia, peripheral glia, and components of connective tissue; enteric nervous system neurons (governing GI motility) similarly arise from neural crest progenitors; mast cells are hematopoietic (bone marrow derived) but their tissue distribution and activation thresholds are shaped by the same local connective-tissue and autonomic environments -- providing a shared vulnerability to disruption even without shared embryological origin. (Certainty: 0.40)
+
+_Falsifiable prediction:_ Latent class analysis on a deeply phenotyped Septad cohort (n $gt.eq$ 500) yields a single dominant latent class explaining $gt.eq$ 40% of variance across all seven condition scores -- more than any 2-class or 3-class model.
+] <spec:nics>

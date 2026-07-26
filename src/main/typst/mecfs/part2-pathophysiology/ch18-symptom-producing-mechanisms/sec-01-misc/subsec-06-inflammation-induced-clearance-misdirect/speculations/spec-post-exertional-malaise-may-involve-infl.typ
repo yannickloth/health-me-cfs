@@ -1,0 +1,9 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Post-Exertional Malaise May Involve Inflammation-Induced Routing Disruption of Brain Clearance])[
+Chayama et al.\ (2026) demonstrated that acute LPS-induced inflammation causes neuronal proteins to bypass homeostatic border drainage routes and leak directly into the bloodstream @Chayama2026BrainClearance. LPS is a maximal TLR4 agonist producing saturating inflammatory activation; PEM involves more modest cytokine elevations in subsets of ME/CFS patients (Section @sec:ch15-cytokine-fatigue), and systematic review finds cytokine findings are heterogeneous and inconclusive. The step from LPS-induced BBB disruption to PEM-level cytokine effects is a large inferential gap --- the two stimuli differ in magnitude, receptor engagement, and tissue distribution --- and has not been empirically calibrated.
+
+If future work demonstrates that PEM-level cytokine elevations are sufficient to produce similar routing disruption, the mechanism would predict: (a) plasma levels of CNS-specific proteins (neurofilament light chain, GFAP, tau) may rise during severe PEM episodes; (b) the magnitude of rise should correlate with PEM severity; (c) anti-inflammatory pretreatment should reduce both protein leakage and PEM severity. The routing disruption, if it occurs, would be transient since PEM cytokine spikes resolve within 24--72 hours.
+
+*Certainty: 0.25.* Directly extrapolated from mouse LPS model (Chayama 2026); no human PEM data on neuronal protein leakage. The existing PEM literature focuses on metabolic danger signals and cytokine amplification; this bloodstream-leakage mechanism is entirely speculative and untested in ME/CFS. CNS protein elevation during exercise has been studied in concussion and stroke populations but not in PEM.
+] <spec:ch15-pem-clearance-misdirection>

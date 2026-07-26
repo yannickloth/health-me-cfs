@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#limitation(title: [ME/CFS--FM Distinction May Be Quantitative, Not Qualitative])[
+A parsimonious alternative to a distinct ME/CFS pain mechanism is that ME/CFS pain reflects fibromyalgia-spectrum nociplastic pain _plus_ PEM, without requiring a novel pain pathway. If this alternative is correct, the clinical implications are limited: treatment would still target FM-type pain (central sensitisation, SFN) and PEM separately, rather than a unified ME/CFS-specific pain mechanism. The Barhorst 2022 meta-analysis pooled ME/CFS and FM cohorts, preventing extraction of ME/CFS-specific pain effect sizes. No study has directly compared exercise-pain responses in ME/CFS versus FM-only patients matched for baseline pain. The Substance P null finding (elevated in FM but not ME/CFS @Baraniuk2025NociplasticMECFS) provides one point of divergence, but a single biomarker difference does not establish distinct mechanisms. Resolving this question requires a head-to-head exercise-pain study with ME/CFS, FM-only, and ME/CFS+FM groups.
+]

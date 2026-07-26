@@ -1,0 +1,11 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Post-Exertional Symptom Heterogeneity Reflects Compartment-Specific Clearance Overload])[
+*Certainty: 0.20.* Chayama et al.\ (2026) demonstrated that different brain regions drain to distinct border compartments following the nearest exit principle @Chayama2026BrainClearance. Physical exertion activates widespread brain regions, but the metabolic waste produced by each region drains to different compartments with different clearance kinetics (skull: slow, $k = -0.008$; dura/nasal/cribriform: rapid, $k = 0.127--0.261$). If a patient has pre-existing impairment in a specific compartment, exertion may overwhelm that compartment's already-reduced clearance capacity, producing compartment-specific symptom exacerbation.
+
+This predicts that ME/CFS patients with predominantly cognitive PEM (brain fog after exertion, preserved motor function) have primarily impaired dorsal skull/dura clearance (serving prefrontal/executive regions), while patients with predominantly sensorimotor PEM (headaches, dizziness, coordination worsening after exertion) have impaired basal skull/nasal clearance. The classic mixed PEM presentation --- affecting cognition, sensory processing, and motor function simultaneously --- would reflect multi-compartment impairment, which is likely the most common pattern given the multi-system nature of ME/CFS.
+
+*Falsifiable prediction:* ME/CFS patients with cognitive-predominant PEM should show greater DTI-ALPS or clearance deficits in dorsal (skull/dura) compartments vs.\ basal compartments on compartment-resolved imaging. Cognitive exertion tasks should increase CSF neuronal protein levels preferentially in dorsal-cortex-draining compartments, while physical exertion tasks should increase levels in basal/sensorimotor-draining compartments. A null result --- no compartment-specific PEM-symptom correlation --- would refute the specificity claim.
+
+*Limitations:* No regional clearance measurements exist in ME/CFS. The nearest exit principle is demonstrated in mice; compartmental boundaries in human brain may be more complex or overlapping. PEM is inherently multi-system and mixed patterns are the norm, making compartment-specific effects difficult to isolate. This is a cross-species mechanistic extrapolation.
+] <spec:ch15-pem-compartment-overload>

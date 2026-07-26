@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#open-question(title: [Next-Generation Exercise Trial Design for ME/CFS])[
+If exercise trials in ME/CFS are to produce credible evidence, three design innovations are needed. (1) _Two-day CPET as primary endpoint_: the Day 1--to--Day 2 VO#sub[2]peak decline is objective, ME/CFS-specific, and unaffected by blinding status @Lim2020. (2) _Sham-exercise control_: matched therapist contact, scheduling, and clinic visits, but passive stretching or social interaction instead of exercise---directly testing whether the therapeutic element is exercise physiology or therapist attention. (3) _Wearable-derived objective endpoint battery_: continuous heart rate, HRV, step count, and sleep architecture via consumer devices, providing blinding-proof longitudinal data that captures the PEM signature. These three innovations would produce the first exercise trial immune to the blinding bias documented in the 2025--2026 meta-analysis cluster (Section @sec:exercise-meta-cluster).
+] <oq:next-gen-exercise-trial>

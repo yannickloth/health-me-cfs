@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#hypothesis(title: [Tissue-Specific Pain Generators Amplified by Central Sensitization])[
+Diffuse periarticular and muscular pain in ME/CFS arises from genuine tissue-specific nociceptive generators—mast cell-mediated periarticular inflammation, metabolic nociceptor activation in ischemic muscle, and fascial microtrauma—whose signals are then amplified and spatially expanded by central sensitization. This dual-mechanism model predicts that: (1) peripheral nerve blocks should temporarily reduce pain in the targeted region even in centrally sensitized patients (confirming peripheral generators); (2) central sensitization reduction (via LDN, NMDA antagonists) should reduce pain _spread_ but not eliminate pain at the primary generator site; and (3) patients with higher mast cell activation markers should have more pronounced periarticular pain, while patients with worse metabolic profiles should have more pronounced muscle pain. (Certainty: Medium; individual mechanisms are well-supported; the integrated model generates testable predictions but has not been directly tested.)
+] <hyp:ch15-tissue-specific-pain>

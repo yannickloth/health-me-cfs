@@ -1,0 +1,23 @@
+#import "../../../shared/environments.typ": *
+
+== CNS Stimulants and Wakefulness-Promoting Agents <sec:stimulants>
+#include "../warnings/warning-env-4.typ"
+#include "remarks/rem-intro.typ"
+#include "subsec-modafinil-and-armodafinil/subsec-modafinil-and-armodafinil.typ"
+#include "subsec-methylphenidate/subsec-methylphenidate.typ"
+#include "subsec-amphetamines/subsec-amphetamines.typ"
+#include "subsec-solriamfetol/subsec-solriamfetol.typ"
+#include "subsec-pitolisant/subsec-pitolisant.typ"
+#include "subsec-caffeine/subsec-caffeine.typ"
+#include "subsec-the-energy-credit-model-and-pem-dynamics/subsec-the-energy-credit-model-and-pem-dynamics.typ"
+#include "subsec-additional-risks-beyond-pem/subsec-additional-risks-beyond-pem.typ"
+#include "subsec-harm-reduction-if-stimulants-must-be-used/subsec-harm-reduction-if-stimulants-must-be-used.typ"
+#include "subsec-comparative-risk-assessment/subsec-comparative-risk-assessment.typ"
+#include "subsec-alternatives-to-stimulants/subsec-alternatives-to-stimulants.typ"
+#include "../limitations/limitation-2.typ"
+#include "../limitations/limitation-3.typ"
+#include "../speculations/speculation-3.typ"
+#include "../open-questions/open-question-1.typ"
+#include "../speculations/speculation-4.typ"
+#include "../protocols/protocol-1.typ"
+#include "../remarks/key-point-2.typ"

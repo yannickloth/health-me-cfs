@@ -1,0 +1,16 @@
+#import "../../../../shared/environments.typ": *
+
+=== Mitochondrial Quality Control (@eq:mito-dynamics and @eq:biogenesis)
+
+*Measurements required.* (1) Mitochondrial DNA copy number in PBMCs: qPCR (why: proxy for total mitochondrial mass $M_h + M_d$). (2) Mitophagy flux: measurable via mitophagy reporter assays in lymphocytes or by PINK1/Parkin protein levels (why: constrains $J_(upright("mitophagy"))$). (3) PGC-1$alpha$ activity: gene expression or protein level in PBMCs (why: constrains $J_(upright("biogenesis"))$). (4) Urinary 8-OHdG or mtDNA damage assay (why: proxy for $M_d/M_(upright("total"))$ ratio).
+
+*Worked example.* A patient with $gamma = 0.65$ (35% $"NAD"^"+"$ depletion) and $[upright("ATP")] = 3.5$ mM (vs. 5.0 healthy). Biogenesis rate: $J_(upright("biogenesis")) prop f_(upright("AMPK"))(0.3/3.5) dot.op f_(upright("SIRT1"))(0.65) approx 0.75 dot.op 0.55 = 0.41$ of healthy rate. Mitophagy rate: $J_(upright("mitophagy")) prop f_(upright("PINK1"))(M_d) dot.op f_(upright("ATP"))(3.5) approx 0.8 dot.op 0.60 = 0.48$ of healthy rate. If damage production requires mitophagy capacity $> 0.5$ of healthy to maintain equilibrium, this patient is below the quality control threshold: damaged mitochondria accumulate, progressively reducing $M_h/M_(upright("total"))$ and worsening energy deficit.
+
+*Inter-model dependencies.* _Inputs_: $[upright("ATP")]$ from energy balance (determines mitophagy capacity), $[upright("NAD")^+]$ (determines biogenesis via SIRT1), $[upright("ROS")]$ (determines damage rate). _Outputs_: effective $V_(max)$ for all ETC complexes (proportional to $M_h/M_(upright("total"))$), bridging acute metabolic dynamics (hours) to disease progression (months).
+
+*Scope and rationale.* The model tracks aggregate healthy and damaged mitochondrial mass, not individual organelles. This captures the quality control logic (biogenesis vs. mitophagy balance) while omitting spatial organization (perinuclear vs. peripheral mitochondria), which would require spatially explicit models beyond current ME/CFS data resolution.
+
+*Falsification criteria.* The model predicts a threshold $[upright("ATP")]_(upright("crit,autophagy"))$ below which mitophagy collapses and damaged mitochondria accumulate. *Falsified if*: patients with severe ATP depletion show _normal_ mitophagy flux (e.g., normal PINK1/Parkin processing in lymphocytes), indicating that mitophagy is not ATP-limited in practice. Also falsified if $"NAD"^"+"$ supplementation improves biogenesis markers (mtDNA copy number, PGC-1$alpha$) _without_ requiring prior ATP restoration (would indicate SIRT1, not ATP, is the sole bottleneck).
+
+*Clinical implications.* The model predicts two patient subtypes within the metabolic-dominant phenotype: (1) patients with preserved quality control ($M_h/M_(upright("total")) > 0.7$, adequate mitophagy) who respond to substrate support (CoQ10, $"NAD"^"+"$); and (2) patients with quality control failure ($M_h/M_(upright("total")) < 0.5$, impaired mitophagy) who require interventions targeting mitophagy directly (urolithin A, spermidine) _before_ substrate support can be effective. Measuring mitophagy markers distinguishes these groups and guides treatment sequencing.
+

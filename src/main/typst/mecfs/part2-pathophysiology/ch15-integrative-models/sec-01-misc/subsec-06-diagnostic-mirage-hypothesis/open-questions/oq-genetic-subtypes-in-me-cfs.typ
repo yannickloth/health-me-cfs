@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#open-question(title: [Genetic Subtypes in ME/CFS])[
+Do ME/CFS patients cluster into genetically coherent subgroups with distinct pathophysiological mechanisms? The DecodeME genome-wide association study has identified several genetic risk pathways including brain-expressed genes (glutamatergic synapse), autophagy/mitophagy genes, and immune-ambiguous loci. If patients with high neuronal-gene polygenic risk scores differ clinically from those with high autophagy-gene or immune-gene scores, this would enable biologically coherent subtyping that could transform clinical trial design from "one size fits all" to pharmacogenomic stratification. Key questions include: Do genetic subtypes predict differential treatment responses? Do they represent distinct disease mechanisms or stages? Can genetic subtyping enable personalized treatment selection? The clinical utility depends on effect size distribution and the risk gradient between high and low genetic risk groups.
+] <oq:genetic-subtypes>

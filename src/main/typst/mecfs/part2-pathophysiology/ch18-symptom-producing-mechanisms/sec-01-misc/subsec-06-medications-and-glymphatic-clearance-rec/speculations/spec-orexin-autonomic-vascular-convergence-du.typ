@@ -1,0 +1,10 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Orexin--Autonomic--Vascular Convergence: Dual-Route Glymphatic Impairment])[
+*Certainty: 0.30.* (0.25→0.30: SleepFM @Thapa2026sleepfm demonstrates cross-modal decoupling during sleep predicts disease onset across 130+ conditions, supporting the dual-route coupling disruption mechanism at the general-principle level; no specific ME/CFS mechanism validated) Orexin neurons project to sympathetic preganglionic neurons and regulate cardiovascular sympathetic tone @Sakurai1998orexin @Ruhrländer2025orexinPASC. Reduced orexin-A thus impairs glymphatic clearance via _two independent routes_ (orexin receptor subtype projections --- OX1R to LC, OX2R to tuberomammillary nucleus --- are well-established pharmacology): (1) the LC NE oscillation route described in @spec:ch15-orexin-vasomotion-triad, and (2) peripheral vascular sympathetic regulation of arterial vasomotion. Perivascular sympathetic nerves controlling cerebral arterial vasomotion receive descending brainstem control that is modulated by orexinergic input. Orexin deficiency therefore reduces both the central (LC-mediated NE oscillation) and peripheral (sympathetic vasomotor) components of the glymphatic pump simultaneously.
+
+*Testable predictions:*
+
+    - (a) ME/CFS patients with documented OI (POTS/NMH) should show worse DTI-ALPS glymphatic index than ME/CFS patients without OI, independent of sleep quality measures
+    - (b) The subgroup with both low CSF orexin-A (less than 200 pg/mL) and severe autonomic dysfunction (COMPASS-31 greater than 40) should show DTI-ALPS index less than 0.25 — lower than any subgroup with only one of these features (DTI-ALPS 0.25--0.35) and lower than ME/CFS patients with neither feature (DTI-ALPS greater than 0.30). A null result — no significant DTI-ALPS difference between the orexin-low+OI subgroup and the orexin-normal+no-OI subgroup — refutes the combined predictor claim.
+] <spec:ch15-orexin-autonomic-vascular>

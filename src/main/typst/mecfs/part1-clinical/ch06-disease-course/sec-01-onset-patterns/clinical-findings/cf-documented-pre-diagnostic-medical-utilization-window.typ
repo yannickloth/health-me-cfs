@@ -1,0 +1,6 @@
+#import "../../../../shared/environments.typ": *
+
+#clinical-finding(title: [Documented Pre-Diagnostic Medical Utilization Window])[
+German insurance claims data (N=36,332) demonstrate that children later diagnosed with ME/CFS had significantly elevated rates of fatigue (OR 2.19), pain disorders (OR 1.55), somatoform disorders (OR 1.32), and mild cognitive impairment (OR 2.93) up to five years before ME/CFS diagnosis @Wirth2026prodromalICD. Prospective birth cohort data (N=13,978) confirm that sleep disruption---shorter nighttime duration, difficulty falling asleep (OR 1.74), and more nighttime awakenings---precedes ME/CFS by 4--7 years @Collin2018sleepCFS. Each additional hour of sleep at age 9 reduced later chronic disabling fatigue odds by 39%. Premorbid stress is a true causal factor independent of genetics, with a 5.81-fold increase in chronic fatigue risk after controlling for shared genetic vulnerability in twin studies @Kato2006premorbid.
+_Certainty: 0.60 (large N, prospective data available for sleep; ICD data is retrospective and cannot distinguish true prodrome from misdiagnosis). Not yet independently replicated as a unified prodromal syndrome._
+] <cf:prodromal-window>

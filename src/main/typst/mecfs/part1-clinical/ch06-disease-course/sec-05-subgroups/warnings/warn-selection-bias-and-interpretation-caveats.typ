@@ -1,0 +1,5 @@
+#import "../../../../shared/environments.typ": *
+
+#warning-env(title: [Selection Bias and Interpretation Caveats])[
+The high prevalence of structural abnormalities reported by Bragée et al. @Bragee2020 comes from a specialized clinic that focuses on craniocervical pathology and may represent a selected population; authors are affiliated with the clinic providing structural interventions, representing a potential conflict of interest. Additionally, the study lacked matched healthy controls with upright MRI, using historical controls from supine imaging instead. Independent replication in community-based, unselected ME/CFS cohorts is needed to determine generalizability. A systematic review of CCI in EDS @Lohkamp2022 (16 studies, n=695) found significant heterogeneity in diagnostic criteria, with no consensus on single measurement thresholds—necessitating comprehensive evaluation using multiple imaging parameters and clinical correlation.
+] <warn:bragee-selection>

@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#limitation(title: [ccf-mtDNA: Composite Signal from Multiple Sources])[
+Blood-based ccf-mtDNA measurements inevitably capture mtDNA released from circulating immune cells, not only from distant tissues. In ME/CFS, T cells show severe mitochondrial dysfunction (failed metabolic reprogramming upon activation) and NK cells show impaired metabolic capacity. These dysfunctional immune cells may contribute less mtDNA to the circulating pool---either through reduced mitophagy or through reduced mitochondrial mass overall. Consequently, ccf-mtDNA may partially reflect immune cell mitochondrial health rather than (or in addition to) tissue-level mitophagy status. Treatments that restore immune cell mitochondrial function (e.g., NADH+CoQ10 supplementation) could raise ccf-mtDNA by restoring normal immune cell turnover, independently of any tissue-level mitophagy effect. This composite nature must be considered when interpreting ccf-mtDNA as a biomarker.
+]

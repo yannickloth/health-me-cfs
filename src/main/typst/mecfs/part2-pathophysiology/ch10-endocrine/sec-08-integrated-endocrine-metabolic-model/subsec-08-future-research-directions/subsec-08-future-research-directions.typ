@@ -1,0 +1,8 @@
+#import "../../../../shared/environments.typ": *
+
+=== Future Research Directions
+
+
+Critical gaps in understanding endocrine dysfunction in ME/CFS include longitudinal studies tracking hormonal changes from disease onset through chronic phases, mechanistic studies elucidating causal relationships between immune activation and endocrine dysfunction, biomarker validation studies assessing whether hormonal measurements can predict disease severity or treatment response, intervention trials testing multi-targeted approaches addressing both endocrine and immune dysfunction, and sex-stratified research examining whether male and female ME/CFS represent partially distinct diseases requiring different treatments. A particularly important and understudied priority is prospective evaluation of pituitary structure and function in post-viral ME/CFS cohorts: pituitary MRI combined with dynamic ACTH stimulation testing in patients within the first 12 months of post-COVID ME/CFS onset would directly test whether structural pituitary injury (Hypothesis @hyp:postviral-pituitary) occurs at detectable rates and whether early hydrocortisone replacement alters clinical trajectory.
+
+The endocrine system provides an attractive therapeutic target because hormones are measurable, hormone replacement therapies already exist for many deficiency states, and endocrine interventions have established safety profiles when properly monitored. However, the limited success of single-hormone interventions to date indicates that simplistic approaches will not suffice. Future therapeutic development must embrace the complexity of multi-system dysregulation, targeting coordinated restoration of neuroendocrine-immune-metabolic integration rather than isolated hormone replacement.

@@ -1,0 +1,7 @@
+#import "../../../../../shared/environments.typ": *
+
+==== Other AI Approaches to Sleep-Based ME/CFS Classification
+
+The broader AI-in-sleep-medicine literature provides a methodological framework that predates and contextualises SleepFM. SleepBERT (Zeng et al., 2024), a transformer-based foundation model pre-trained on large-scale sleep EEG, demonstrated that pre-training on sleep data corpora substantially improves downstream task performance compared to task-specific models @Zeng2024SleepBERT. Tsinalis et al. (2023) showed that multi-modal deep learning approaches (EEG + EOG + EMG) systematically outperform single-modality approaches for sleep staging --- a finding that generalises to the diagnostic domain: combining physiological signals should outperform any single channel for disease classification @Tsinalis2023deeplearningsleep.
+In ME/CFS specifically, machine learning has been applied to administrative (Jason et al., 2023 @Jason2023MLMECFSprevalence --- ML case identification from medical claims) and molecular data (Fonseca et al., 2024 --- EBV IgG peptide array classification, Section @sec:ebv-ml-diagnosis), demonstrating feasibility but limited by the input data type. Claims-based ML suffers from diagnostic coding inconsistency; molecular ML requires blood draws and specialised assays. Physiological ML from sleep data offers a complementary third route: objective, multi-system, standardised, and collected during a naturally occurring physiological state rather than an artificial challenge.
+

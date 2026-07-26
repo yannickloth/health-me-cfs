@@ -1,0 +1,5 @@
+#import "../../../../shared/environments.typ": *
+
+#prediction(title: [Prodromal Recognition Education Reduces Diagnostic Delay])[
+If the prodromal patterns described above are disseminated to coaches, school nurses, paediatricians, and parents via structured education (recognition of the overtrained-but-unfit pattern, the late-game fader as energy not ADHD, the always-tired high performer as metabolic not depression, the holiday crash pattern), then time-to-referral for ME/CFS should decrease by >12 months in intervention settings vs. control @Geraghty2019diagnosticAccuracy. Given current diagnostic delay of 4--8 years and 40% pediatric diagnostic error rate, even modest improvement in recognition could prevent years of inappropriate management and delayed intervention. This is the lowest-risk, highest-certainty intervention available --- pure information, no pharmacological risk.
+] <pred:prodromal-education>

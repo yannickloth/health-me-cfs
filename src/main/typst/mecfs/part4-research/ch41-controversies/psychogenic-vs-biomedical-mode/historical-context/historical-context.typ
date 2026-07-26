@@ -1,0 +1,12 @@
+#import "../../../../shared/environments.typ": *
+
+=== Historical Context
+
+The psychogenic model of ME/CFS emerged in the 1970s–1980s, influenced by the observation that no single pathogen could be consistently identified as a cause, that routine laboratory tests were often normal, and that fatigue was associated with depression. The “biopsychosocial” model proposed by Wessely, White, and colleagues framed ME/CFS as a condition perpetuated by deconditioning, illness beliefs, and fear avoidance—treatable through exercise and cognitive restructuring.
+This model achieved institutional dominance in the UK (through the PACE trial and NICE's pre-2021 guidelines), influencing insurance decisions, disability assessments, and clinical training. Patients who resisted exercise therapy or psychological treatment were characterized as having “unhelpful illness beliefs.”
+
+The psychogenic framing carries measurable stigma consequences beyond its direct clinical effects. Attribution of ME/CFS to controllable or psychological causes is the strongest predictor of perceived stigma (n=499; Froehlich et al.\ 2022), and this perceived stigma mediates the relationship between negative causal attributions and worse functional status, social role satisfaction, and health-related quality of life @Froehlich2022CausalStigma. From the patient perspective, stigma operating through healthcare interactions is often reported as more distressing than the physical symptoms themselves @Terman2019PsychiatricReferrals @Deale2001PerceptionsCare.
+
+The persistence of this framing is documented even in the post-COVID era. Ranque and Cogan (2025) published a narrative review in _Frontiers in Medicine_ arguing that long COVID should be managed primarily as a “functional somatic disorder” (FSD), treatable through CBT and graded exercise @Ranque2025fsd. They reported an online survey of 240 French senior internists in which 89% endorsed FSD as a possible cause of long COVID, 63% selected it as the _primary_ cause, and only 9% identified a biological mechanism. Notably, 46% reported unwillingness to continue managing long COVID patients after negative standard workups, and 29% preferred not to see long COVID patients at all. The survey does not demonstrate a biological or clinical mechanism—it documents the depth to which the functional paradigm has been internalized by a substantial segment of the medical profession, shaping clinical encounters before the evidence has been fully evaluated.
+
+

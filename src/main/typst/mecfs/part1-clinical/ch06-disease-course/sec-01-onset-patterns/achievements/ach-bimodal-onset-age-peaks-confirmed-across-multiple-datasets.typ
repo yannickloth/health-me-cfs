@@ -1,0 +1,6 @@
+#import "../../../../shared/environments.typ": *
+
+#achievement(title: [Bimodal Onset Age Peaks Confirmed Across Multiple Datasets])[
+Two onset age peaks are robustly established in ME/CFS. Using Hartigan's Dip Test, the bimodal pattern was highly significant for Norway and all other countries combined ($p lt 2 times 10^(-16)$) and for six of nine individual countries @McGrath2026bimodalOnset. Gaussian mixture modelling yielded consistent peak locations across countries: early peak at mean 16.0 years (SD 4.3) and late peak at mean 36.6 years (SD 10.5). The DecodeME replication produced slightly older estimates (early 18.8, late 40.1), likely reflecting the minimum participation age of 16 and approximated onset from duration bins. The original Norwegian registry study reported the same two-decade pattern at diagnosis level (peaks in age groups 10--19 and 30--39) @Bakken2014bimodalOnset.
+_Certainty: 0.65 (large n, independent replication, but self-report data and cross-sectional design)._
+] <ach:bimodal-onset-peaks>

@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#speculation(title: [Emerging Patient-Reported Interventions])[
+Patient communities have reported several interventions not yet validated in randomized controlled trials but with plausible mechanistic rationale. These include: (1) Nicotine at low doses (2–4mg/day) for post-viral brain fog, with multiple independent reports of rapid improvement, possibly via nicotinic acetylcholine receptor modulation or anti-inflammatory effects; (2) Methylene blue at "minuscule doses" for smell restoration and brain fog reduction within one week, supported by published research on mitochondrial function improvement; (3) Ketogenic diet producing dramatic symptom resolution in some cases, with one report describing transition from "26 pills per day" to medication-free status. These interventions carry risks (nicotine addiction potential, individual dietary tolerance) and require medical supervision. They represent hypothesis-generating observations requiring formal clinical validation.
+] <spec:patient-interventions>

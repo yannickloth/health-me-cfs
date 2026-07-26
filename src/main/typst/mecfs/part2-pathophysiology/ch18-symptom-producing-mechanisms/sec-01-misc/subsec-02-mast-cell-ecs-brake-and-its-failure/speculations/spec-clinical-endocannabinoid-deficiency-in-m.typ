@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Clinical Endocannabinoid Deficiency in ME/CFS])[
+Ethan Russo proposed that fibromyalgia, migraine and irritable bowel syndrome share an underlying Clinical Endocannabinoid Deficiency (CECD): reduced anandamide/2-AG tone, impaired CB receptor signaling, and consequent loss of ECS-mediated homeostatic regulation of pain, sleep and immune function @Russo2004CECD. Updated evidence supports this hypothesis: CSF anandamide is statistically reduced in migraineurs, and PTSD — another post-traumatic condition with ME/CFS overlap — shows ECS hypofunction on advanced neuroimaging @Russo2016CECDReconsidered. By analogy, ME/CFS may represent a CECD state in which mast cell CB2 signaling is insufficient, removing the primary brake on mast cell degranulation and neuroinflammatory amplification. Direct measurement of CSF anandamide and 2-AG, and CB receptor expression in immune cells, in ME/CFS patients is required to test this hypothesis. (Certainty: Low; extrapolated from fibromyalgia and PTSD evidence; no direct ME/CFS CSF endocannabinoid measurements published.)
+] <spec:ch15-cecd>

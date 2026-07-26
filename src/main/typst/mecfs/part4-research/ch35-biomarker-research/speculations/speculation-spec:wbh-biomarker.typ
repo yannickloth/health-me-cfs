@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#speculation(title: [WBH-Induced Mitochondrial Reserve Change as Thermoregulatory Treatment-Response Biomarker])[
+*Certainty: 0.35.* Hochecker et al. demonstrated that WBH induces substantial, measurable changes in ME/CFS PBMC mitochondrial respiration — spare respiratory capacity increased 112.35% @Hochecker2025HyperthermiaMECFS. If mitochondrial reserve is the bottleneck for thermoregulatory capacity (ch06:@spec:mitochondrial-reserve-thermoreg), then the magnitude of WBH-induced mitochondrial improvement could serve as a treatment-response biomarker: patients whose reserve increases most after WBH would be predicted to gain the most thermoregulatory benefit (improved heat/cold tolerance). This biomarker is directly testable: serial PBMC respirometry before/after a standardized thermal challenge. Falsifiable: the delta-spare capacity after WBH will correlate positively (r > 0.5) with improvement in thermoneutral comfort window width and controlled environmental heat challenge time; a null correlation would refute the biomarker's predictive value.
+] <spec:wbh-biomarker>

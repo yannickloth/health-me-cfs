@@ -1,0 +1,5 @@
+#import "../../../shared/environments.typ": *
+
+#speculation(title: [Low-Resource Thermal Protocol: Tepid Bath + Slow Breathing + Glycine])[
+*Certainty: 0.30.* Sauna (Waon) therapy is inaccessible for many patients due to cost, geography, or severity. A low-resource alternative combining tepid bath (32--34°C, 15 min, 2x/week), slow diaphragmatic breathing (6 breaths/min, 10 min, 2x/day), and oral glycine (3 g/day) provides vasodilation, vagal activation, and ET-1 reduction at minimal cost (below \$50 per month). This combination targets three thermoregulatory mechanisms — vascular tone, autonomic balance, and endothelial signaling — simultaneously. Falsifiable: low-resource protocol over 8 weeks produces 70--80% of the symptom improvement of Waon therapy; adherence above 80%. No ME/CFS combination data; individual components have weak mechanistic support. Falsified if low-resource protocol produces less than 50% of Waon therapy benefit or fails to achieve 80% adherence, indicating either insufficient efficacy or impracticality for the target population.
+] <spec:low-resource-thermal>

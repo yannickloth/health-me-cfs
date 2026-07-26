@@ -1,0 +1,5 @@
+#import "../../../../../shared/environments.typ": *
+
+#speculation(title: [Central Fatigue: From Serotonin Trigger to Kynurenine Maintenance])[
+The classical serotonin hypothesis of central fatigue posits that elevated brain serotonin impairs motor output and promotes fatigue @StClairGibson2004fatigue. Yamashita's fatigue circuit model @Yamashita2020fatigue refines this: serotonin release is transient during exercise, while kynurenic acid accumulation in the hypothalamus-hippocampal circuit persists and correlates better with fatigue duration. A two-phase model may apply in ME/CFS: serotonergic hyperactivity in the dorsal raphe (Section @hyp:ch15-ssri-paradox) may serve as an initial trigger, while tryptophan partitioning toward the kynurenine pathway (Section @obs:ch15-trp-partitioning) sustains fatigue through kynurenic acid-mediated glutamate suppression and dopamine depletion @Kavyani2022kynurenine. (Certainty: Low; integrative speculation, not empirically tested as a unified model.)
+] <spec:ch15-central-fatigue-model>
