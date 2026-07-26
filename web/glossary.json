@@ -8074,5 +8074,50 @@
     "label": "Severity-Weighted Re-Analysis",
     "category": "method",
     "definition": "A proposed statistical correction for PEM-induced selection bias in ME/CFS research, adapting the Heckman selection correction (Nobel Prize 2000). Models the probability that a patient of a given severity participates in research and re-weights published effect sizes to estimate the full-population effect."
+  },
+  "G-BA": {
+    "label": "G-BA",
+    "category": "organisation",
+    "definition": "Gemeinsamer Bundesausschuss — German Federal Joint Committee, the highest decision-making body of the joint self-government of physicians, hospitals, and health insurers in Germany. Issues binding directives for statutory health insurance."
+  },
+  "ICB": {
+    "label": "ICB",
+    "category": "organisation",
+    "definition": "Integrated Care Board — UK NHS body responsible for planning and commissioning healthcare services for a geographic population."
+  },
+  "PROM": {
+    "label": "PROM",
+    "category": "measurement",
+    "definition": "Patient-Reported Outcome Measure — a questionnaire completed by patients to assess their health status, symptoms, or functional capacity without clinician interpretation."
+  },
+  "SSDI": {
+    "label": "SSDI",
+    "category": "method",
+    "definition": "Social Security Disability Insurance — US federal program providing income to people unable to work due to disability."
+  },
+  "SSI": {
+    "label": "SSI",
+    "category": "method",
+    "definition": "Supplemental Security Income — US federal program providing financial assistance to elderly, blind, or disabled people with limited income."
+  },
+  "CME": {
+    "label": "CME",
+    "category": "method",
+    "definition": "Continuing Medical Education — educational activities that maintain and develop the knowledge and skills of medical professionals after formal training."
+  },
+  "AHRQ": {
+    "label": "AHRQ",
+    "category": "organisation",
+    "definition": "Agency for Healthcare Research and Quality — US federal agency that produces evidence to improve healthcare safety and quality through systematic reviews."
+  },
+  "DEGAM": {
+    "label": "DEGAM",
+    "category": "organisation",
+    "definition": "Deutsche Gesellschaft für Allgemeinmedizin und Familienmedizin — German College of General Practitioners and Family Physicians."
+  },
+  "EUROMENE": {
+    "label": "EUROMENE",
+    "category": "organisation",
+    "definition": "European Network on ME/CFS — a COST Action-funded European research network coordinating diagnosis, service provision, and care guidance for ME/CFS."
   }
 }

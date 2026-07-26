@@ -4,6 +4,24 @@
 
 LDN blocks TLR4 receptors on microglia (reducing neuroinflammation), restores TRPM3 calcium channel function in vitro, and triggers compensatory endorphin upregulation. Does not increase metabolic rate — can be tried even in severe patients.
 
+==== Why Higher Dose Is Not Necessarily Better — The Hormetic Dose-Response Window
+
+If LDN were a simple receptor-level drug (more TLR4 blockade = more benefit), the therapeutic logic would push toward 4.5 mg for everyone — maximal target engagement within the LDN window. This is not what is observed clinically. Some patients do better at 0.5--1.5 mg than at 3.0--4.5 mg, and dose escalation can extinguish a response that was present at a lower dose. @Dara2023 @BruunPlesner2020LDN @Calabrese2021Nrf2 @Toljan2018
+
+LDN's dose-response is better understood through three superimposed mechanisms with different concentration optima:
+
+- *TLR4 hormetic window (low-dose priming):* Partial TLR4 blockade at 0.5--1.5 mg may trigger compensatory anti-inflammatory priming via Nrf2-mediated transcriptional upregulation — a hormetic response in which the mild stress of receptor blockade activates the cell's own anti-inflammatory programmes (M1→M2 phenotype shift, metabolic switch from glycolysis to OXPHOS in microglia). At higher doses (3.0--4.5 mg), TLR4 blockade removes the basal TLR4 tone needed to sustain this compensatory response — the hormetic benefit collapses, not because too little receptor is blocked, but because too much is. @Kucic2021LDNmicroglia @Calabrese2021Nrf2 @Kwilasz2021NTXmicroglia
+
+- *Opioid receptor compensatory upregulation (mid-dose plateau):* Brief overnight opioid blockade triggers compensatory endorphin production — this mechanism has an individual ceiling set by endogenous opioid precursor expression. Beyond that ceiling, increasing LDN dose adds nothing to endorphin tone. @Boyadjieva2004 @Kreek1992
+
+- *Dose-window overlap and individual variation:* Each of LDN's four targets (TLR4, TRPM3, opioid receptors, orexin disinhibition) has a distinct concentration-response curve. Some patients' optimal dose is determined by the TRPM3 window (closer to 3.0--4.5 mg), others by the TLR4 hormetic window (closer to 0.5--1.5 mg), and still others by endorphin upregulation kinetics. The clinical observation that "the right dose varies" is not noise — it is the predictable consequence of a multi-target drug with non-overlapping dose optima. @Toljan2018 @Dara2023
+
+*Falsifiable prediction:* A prospective within-range dose-response trial (0.5, 1.5, 3.0, 4.5 mg, n≥30 per arm, crossover, 8 weeks per dose) in ME/CFS should reveal non-monotonic individual response curves — most patients will not show monotonic improvement across the full dose range. Falsified if the group-average dose-response is strictly monotonic AND individual curves do not show inversions. Currently contradicted by zero data: no within-range dose-response trial has been conducted. @BruunPlesner2020LDN (ED50=3.88 mg in fibromyalgia with wide interindividual variation)
+
+*Certainty: 0.30 — no within-range dose-response trial exists in any condition; the hormetic model is mechanistically grounded (@Calabrese2021Nrf2 cert 0.72, @Calabrese2021UltraLow cert 0.65) but untested for LDN specifically. Evidence is from: single-dose fibromyalgia trial (@BruunPlesner2020LDN, ED50 estimation), microglial M1→M2 dose-dependence in vitro (@Kucic2021LDNmicroglia), opioid receptor feedback models (@Boyadjieva2004, @Kreek1992), and review-level biphasic characterization (@Dara2023, @Toljan2018). The absence of direct evidence is itself informative — no one has asked the question in a design that could answer it. The LIFT trial (@LIFT2025protocol) uses a single LDN dose; it cannot address this.*
+
+*Consequence:* For clinicians and patients, the hormetic model provides a mechanistic rationale for dose-finding patience: start at 0.5 mg, titrate slowly, and recognise that "more" is not always "better." If a lower dose works better than a higher dose, this is not a failed titration — it identifies that the patient's therapeutic mechanism is the TLR4 hormetic window or endorphin ceiling, not TRPM3 restoration. For researchers, the absence of a within-range dose-response study is the single largest evidence gap in the LDN literature — a four-arm crossover dose-response trial in ME/CFS would cost an estimated $200,000--$400,000 and answer a question affecting every LDN prescription written in any chronic illness.
+
 ==== If LDN works
 
 
