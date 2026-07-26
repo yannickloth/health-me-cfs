@@ -42,6 +42,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | tissue-level-findings | subtrees/tissue-level-findings.md | 2026-06-21 | 27 | 9 | ⬜ pending |
 | history-of-mecfs | [subtrees/history-of-mecfs.md](subtrees/history-of-mecfs.md) | 2026-07-26 | 22 | 0 | 🔵 in progress |
 | brain-clearance-architecture | [subtrees/brain-clearance-architecture.md](subtrees/brain-clearance-architecture.md) | 2026-07-26 | 29 | 0 | 🔵 in progress |
+| economic-impact | [subtrees/economic-impact.md](subtrees/economic-impact.md) | 2026-07-26 | 12 | 12 | ✅ done |
 
 ## Subtree index
 
@@ -222,6 +223,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | ambroxol-trpv1 | [subtrees/ambroxol-trpv1.md](subtrees/ambroxol-trpv1.md) | 2026-05-03 | 0 | 0 | ⬜ stub |
 | mcas-primary-driver | [subtrees/mcas-primary-driver.md](subtrees/mcas-primary-driver.md) | 2026-05-01 | 0 | 0 | ⬜ stub |
 | parasites-mecfs | [subtrees/parasites-mecfs.md](subtrees/parasites-mecfs.md) | 2026-04-06 | 0 | 0 | ⬜ stub |
+| patient-generated-knowledge | [subtrees/patient-generated-knowledge.md](subtrees/patient-generated-knowledge.md) | 2026-07-26 | 21 | 0 | ⬜ pending |
 | covid-immune-reset | [subtrees/covid-immune-reset.md](subtrees/covid-immune-reset.md) | 2026-03-18 | 0 | 0 | ⬜ stub |
 | neuroimmune-blitshteyn-2026 | [subtrees/neuroimmune-blitshteyn-2026.md](subtrees/neuroimmune-blitshteyn-2026.md) | 2026-06-08 | 40 | 0 | 🔵 in progress |
 | neuropsychiatric-secondary | [subtrees/neuropsychiatric-secondary.md](subtrees/neuropsychiatric-secondary.md) | 2026-03-27 | 0 | 0 | ⬜ stub |
@@ -318,5 +320,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | cell-tissue-enrichment | [subtrees/cell-tissue-enrichment.md](subtrees/cell-tissue-enrichment.md) | 2026-07-21 | 25 | 0 | ⬜ pending |
 | pharmacodiagnostic-matrix | [subtrees/pharmacodiagnostic-matrix.md](subtrees/pharmacodiagnostic-matrix.md) | 2026-07-25 | 16 | 0 | ⬜ pending |
 | tcell-mitochondrial-exhaustion | [subtrees/tcell-mitochondrial-exhaustion.md](subtrees/tcell-mitochondrial-exhaustion.md) | 2026-07-26 | 24 | 0 | ⬜ pending |
+| global-perspectives-mecfs | [subtrees/global-perspectives-mecfs.md](subtrees/global-perspectives-mecfs.md) | 2026-07-26 | 14 | 0 | 🔵 in progress |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.

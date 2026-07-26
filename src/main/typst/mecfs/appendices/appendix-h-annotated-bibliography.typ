@@ -4291,6 +4291,270 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
     - Relationship between blood volume deficit and PEM severity
     - Role of capillary permeability in plasma volume loss
 
+== Patient-Generated Knowledge and Citizen Science
+<sec:bib-patient-generated-knowledge>
+// =============================================================================
+
+=== Wiggins & Wilbanks 2019 — The Rise of Citizen Science in Health and Biomedical Research
+
+    *Full Citation:*: Wiggins A, Wilbanks J. The Rise of Citizen Science in Health and Biomedical Research. _American Journal of Bioethics_. 2019;19(8):3--14. @Wiggins2019CitizenScience
+    *DOI:*: #link("https://doi.org/10.1080/15265161.2019.1619859")[10.1080/15265161.2019.1619859]
+    *PMID:*: 31339831
+    *Study Design:*: Conceptual framework + examples review
+    *Key Findings:*:
+        - Citizen science models represent growing opportunity for health and biomedical research.
+        - New collaborative forms of engagement in large-scale research.
+        - Emerging ethical issues fall outside standard human subjects protections.
+    *Relevance:*: Foundational framing for patient-generated knowledge in biomedical research. Establishes citizen science as a legitimate research paradigm with ethical considerations distinct from traditional bioethics.
+    *Limitations:*: Conceptual only; US-centric examples; pre-pandemic (2019).
+    *Certainty:*: 0.85
+
+=== Ziegler et al.\ 2022 — Long COVID Citizen Scientists Research Agenda
+
+    *Full Citation:*: Ziegler S, Raineri A, Nittas V, et al.\ Long COVID Citizen Scientists: Developing a Needs-Based Research Agenda by Persons Affected by Long COVID. _The Patient_. 2022;15(5):565--576. @Ziegler2022LongCOVIDcitizenscience
+    *DOI:*: #link("https://doi.org/10.1007/s40271-022-00579-7")[10.1007/s40271-022-00579-7]
+    *PMID:*: 35478078 · *PMCID:*: PMC9046008
+    *Study Design:*: Citizen science — iterative needs identification, evaluation, and prioritisation
+    *Sample Size:*: Citizen Science Board: 21 Long COVID + 7 ME/CFS patients. Online survey: n=241 (85.5% Long COVID, 14.5% ME/CFS, 7.1% relatives).
+    *Key Findings:*:
+        - 68 research questions generated in 4 domains (medicine, healthcare services, socioeconomics, burden of disease).
+        - Top 5 priorities: treatment/rehabilitation, healthcare interfaces, healthcare structures, awareness/knowledge among professionals, prevalence in children/adolescents.
+        - Methodology establishes framework for citizen-driven research agendas, suitable for transfer to other diseases.
+    *Relevance:*: Directly demonstrates ME/CFS patient participation in citizen science agenda-setting. Includes ME/CFS patients on board alongside Long COVID.
+    *Limitations:*: Self-selected participants; predominantly German-speaking; Long COVID focus (not exclusively ME/CFS).
+    *Certainty:*: 0.70
+
+=== Cousins et al.\ 2026 — Patient-Led Research Infrastructure (Visible)
+
+    *Full Citation:*: Cousins O, Leeming H, Putrino D, Gordon J. A new patient-led approach to building research infrastructure and evidence generation. _Oxford Open Immunology_. 2026;7(1):iqag009. @Cousins2026patientledinfrastructure
+    *DOI:*: #link("https://doi.org/10.1093/oxfimm/iqag009")[10.1093/oxfimm/iqag009]
+    *PMID:*: 42261335 · *PMCID:*: PMC13242947
+    *Study Design:*: Commentary
+    *Key Findings:*:
+        - Visible Health platform: dual-purpose model combining daily energy-management tools with research infrastructure.
+        - Conventional PPI frameworks criticized for tokenism and underrepresenting marginalized groups.
+        - Embedding research functions within patient-useful tools makes evidence generation and patient support mutually reinforcing.
+        - Enables in-house data analyses, external collaborations, app-based studies, and clinical trial integration.
+    *Relevance:*: Example of patient-founded health technology going beyond participation in existing systems to creating independent knowledge-generation infrastructure. Complex chronic illness (CCI) focus includes ME/CFS.
+    *Limitations:*: Commentary (not empirical); company-employed authors; 2026 publication (early); no independent validation.
+    *Certainty:*: 0.55
+
+=== Devereux-Cooke et al.\ 2022 — DecodeME Community Co-Produced GWAS
+
+    *Full Citation:*: Devereux-Cooke A, Leary S, McGrath SJ, et al.\ DecodeME: community recruitment for a large genetics study of myalgic encephalomyelitis / chronic fatigue syndrome. _BMC Neurology_. 2022;22(1):269. @DevereuxCooke2022DecodeME
+    *DOI:*: #link("https://doi.org/10.1186/s12883-022-02763-6")[10.1186/s12883-022-02763-6]
+    *PMID:*: 35854226 · *PMCID:*: PMC9294749
+    *Study Design:*: Co-produced study design protocol
+    *Sample Size:*: Target n=25,000 UK participants (5,000 post-SARS-CoV-2 ME/CFS). 29,000 pre-registered.
+    *Key Findings:*:
+        - Study co-produced by people with lived experience of ME/CFS and scientists — together designed the study, obtained funding, and conduct recruitment.
+        - Saliva DNA by post improves participation by severely affected individuals.
+        - Digital marketing and social media recruitment generated 29,000 pre-registrations.
+        - First author is a committee member of the Science for ME online support forum.
+    *Relevance:*: Demonstrates co-production at scale. Forum-embedded patient-scientist as first author. Severely affected included through postal DNA collection.
+    *Limitations:*: Protocol only (no genetic results yet); UK-only; self-selected recruitment.
+    *Certainty:*: 0.80
+
+=== Blease, Carel & Geraghty 2017 — Epistemic Injustice in CFS/ME Healthcare
+
+    *Full Citation:*: Blease C, Carel H, Geraghty K. Epistemic injustice in healthcare encounters: evidence from chronic fatigue syndrome. _Journal of Medical Ethics_. 2017;43(8):549--557. @Blease2017EpistemicInjustice
+    *DOI:*: #link("https://doi.org/10.1136/medethics-2016-103691")[10.1136/medethics-2016-103691]
+    *PMID:*: 27920164
+    *Study Design:*: Conceptual analysis + evidence synthesis
+    *Key Findings:*:
+        - First formal application of Fricker's epistemic injustice framework to CFS/ME.
+        - Doctors display uncertainty about whether CFS/ME is real, resulting in diagnostic/treatment delays.
+        - Patients experience suspicion from healthcare professionals about their testimony.
+        - Patients vocally oppose the effectiveness and conceptualization of their illness as psychologically treatable.
+        - Marginalisation of patient testimony is a professional failure with ethical and practical consequences for research and care.
+    *Relevance:*: Establishes the foundational epistemic injustice argument specific to ME/CFS. Widely cited. Essential theoretical framework for ch45.
+    *Limitations:*: Conceptual rather than empirical; UK-centric healthcare context.
+    *Certainty:*: 0.85
+
+=== Blease & Geraghty 2018 — Are ME/CFS Patient Organizations "Militant"?
+
+    *Full Citation:*: Blease C, Geraghty KJ. Are ME/CFS Patient Organizations "Militant"? Patient Protest in a Medical Controversy. _Journal of Bioethical Inquiry_. 2018;15(3):393--401. @Blease2018MilitantPOs
+    *DOI:*: #link("https://doi.org/10.1007/s11673-018-9866-5")[10.1007/s11673-018-9866-5]
+    *PMID:*: 29971693
+    *Study Design:*: Historical-comparative analysis
+    *Key Findings:*:
+        - No compelling evidence that ME/CFS patients or POs exhibit militant political policies or behaviours.
+        - Strategic similarities between UK ME/CFS POs and 1980s US AIDS activist organizations: public activism + scientific publications.
+        - Widespread negative stereotyping of patients and marginalization of patient voices by medical authorities better explains expressions of frustration.
+        - Draws on concept of epistemic injustice to explain the discourse.
+    *Relevance:*: Directly addresses the contested legitimacy of patient advocacy. Counter-narrative to "difficult patient" trope. AIDS activism parallel demonstrates historical precedent for patient-led scientific engagement.
+    *Limitations:*: UK focus; historical comparison may not capture all dimensions of ME/CFS activism.
+    *Certainty:*: 0.75
+
+=== de Boer 2021 — Epistemic In/Justice in Dutch ME/CFS Health Council Process
+
+    *Full Citation:*: de Boer ML. Epistemic in/justice in patient participation. A discourse analysis of the Dutch ME/CFS Health Council advisory process. _Sociology of Health & Illness_. 2021;43(6):1335--1354. @deBoer2021EpistemicParticipation
+    *DOI:*: #link("https://doi.org/10.1111/1467-9566.13301")[10.1111/1467-9566.13301]
+    *PMID:*: 34137042 · *PMCID:*: PMC8453904
+    *Study Design:*: Discourse analysis
+    *Key Findings:*:
+        - Patient representatives in the 2013--2018 Dutch ME/CFS Health Council advisory process predominantly offered biomedical knowledge.
+        - They framed ME/CFS as primarily somatic and perceived appropriate evidence as quantifiable, objectifiable, and explicitly non-psychogenic.
+        - Biomedicalized patient participation enhances credibility but may also undermine non-biomedical patient knowledge.
+        - Risk of sustaining biased and reductive ideas about who ill people are and what kind of knowledge they hold.
+    *Relevance:*: Offers important complexity to the participatory narrative: patient participation can itself be co-opted into reductive biomedical framing. Nuanced, critical.
+    *Limitations:*: Single-country single-process analysis; discourse analysis has inherent interpretive subjectivity.
+    *Certainty:*: 0.80
+
+=== Habermann-Horstmeier & Horstmeier 2024 — Patient Knowledge Ignored in ME/CFS
+
+    *Full Citation:*: Habermann-Horstmeier L, Horstmeier LM. Systems thinking, subjective findings and diagnostic "pigeonholing" in ME/CFS: A mainly qualitative public health study from a patient perspective. _Deutsche Medizinische Wochenschrift_. 2024;149(4):e19--e36. @HabermannHorstmeier2024PatientKnowledge
+    *DOI:*: #link("https://doi.org/10.1055/a-2197-6479")[10.1055/a-2197-6479]
+    *PMID:*: 38096913 · *PMCID:*: PMC10824585
+    *Study Design:*: Explorative qualitative survey (content analysis per Mayring)
+    *Sample Size:*: n=544 ME/CFS patients (>20 years; 455 female, 89 male) with medical diagnosis; self-activation + snowball sampling.
+    *Key Findings:*:
+        - Doctors deny the existence of ME/CFS or classify it as psychosomatic.
+        - Doctors ignore patient knowledge and disregard scientific information provided by patients.
+        - Doctors follow "standard program," think in "pigeonholes" (Schubladendenken), and are incapable of systems thinking.
+        - Diagnostic process is a central factor in problematic doctor-patient relationship.
+    *Relevance:*: Large qualitative dataset (n=544) providing direct evidence of patient knowledge being systematically disregarded. German-language, large n for qualitative study. Directly relevant to epistemic authority question.
+    *Limitations:*: Self-activation sampling (selection bias toward more engaged/motivated patients); single-country (German); article in German.
+    *Certainty:*: 0.65
+
+=== Roth & Gadebusch-Bondio 2022 — Contested Meaning of Long COVID
+
+    *Full Citation:*: Roth PH, Gadebusch-Bondio M. The contested meaning of "long COVID" --- Patients, doctors, and the politics of subjective evidence. _Social Science & Medicine_. 2022;292:114619. @Roth2021ContestedLongCOVID
+    *DOI:*: #link("https://doi.org/10.1016/j.socscimed.2021.114619")[10.1016/j.socscimed.2021.114619]
+    *PMID:*: 34906823 · *PMCID:*: PMC8629766
+    *Study Design:*: Exploratory qualitative analysis of online/digital discourses
+    *Key Findings:*:
+        - Reconstructs how patient-made term "long COVID" became widely accepted through mobilization of subjective evidence online.
+        - Compares clinical and social identity of long COVID to ME/CFS.
+        - Medical professionals who were also patients challenged the normative role of clinical evidence.
+        - Online mobilization transformed long COVID from invisible to a recognized pandemic feature.
+        - Alignment of medical-professional-patients with the movement challenged traditional hierarchies of knowledge.
+    *Relevance:*: Compares long COVID knowledge production to ME/CFS directly. Demonstrates how organized patient communities can fill knowledge gaps that medical establishment leaves open. Term-creation itself as epistemic act.
+    *Limitations:*: Early pandemic analysis (data through early 2021); rapidly evolving literature.
+    *Certainty:*: 0.80
+
+=== Slavin et al.\ 2023 — ME/CFS Common Data Element Content Analysis
+
+    *Full Citation:*: Slavin MD, Bailey HM, Hickey EJ, et al.\ Myalgic Encephalomyelitis-Chronic Fatigue Syndrome Common Data Element item content analysis. _PLOS ONE_. 2023;18(9):e0291364. @Slavin2023CDEcontentMEcfs
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0291364")[10.1371/journal.pone.0291364]
+    *PMID:*: 37698999 · *PMCID:*: PMC10497138
+    *Study Design:*: Content analysis of CDE items
+    *Sample Size:*: 119 ME/CFS CDEs reviewed; 38 met PROM criteria yielding 944 items linked to 1503 ICF concepts.
+    *Key Findings:*:
+        - Most concepts linked to ICF Body Functions (73.7%): Fatiguability, Energy Level, Sleep, Emotional, Pain.
+        - Activities and Participation concepts accounted for only 25.6%, mostly Mobility.
+        - Very few items linked to Environmental Factors (0.73%).
+        - Relatively few items assess the impact of symptoms on Activities and Participation.
+        - Findings support development of ME/CFS-specific PROMs including items assessing activity limitations and participation restrictions.
+    *Relevance:*: Identifies gaps in existing ME/CFS outcome measures for CDEs. Provides empirical evidence that current tools under-assess functional impact. OMF-affiliated authorship.
+    *Limitations:*: Analysis only of recommended CDEs (not all existing PROMs); adult-only focus.
+    *Certainty:*: 0.70
+
+=== Schmitz et al.\ 2018 — mHealth Apps for Citizen Science
+
+    *Full Citation:*: Schmitz H, Howe CL, Armstrong DG, Subbian V. Leveraging mobile health applications for biomedical research and citizen science: a scoping review. _Journal of the American Medical Informatics Association_. 2018;25(12):1685--1695. @Schmitz2018mHealthcitizenscience
+    *DOI:*: #link("https://doi.org/10.1093/jamia/ocy130")[10.1093/jamia/ocy130]
+    *PMID:*: 30445467 · *PMCID:*: PMC7647150
+    *Study Design:*: Systematic scoping review (PRISMA)
+    *Sample Size:*: 36 unique ResearchKit apps reviewed.
+    *Key Findings:*:
+        - Majority used for observational studies on general citizens; nearly half focused on chronic conditions in adults.
+        - Promising: ability to generate large biomedical datasets on diverse populations for broad sharing and re-use.
+        - Common challenges: low participation retention, uncertain data quality from use patterns, need for data validation, privacy concerns.
+        - Positioned to enhance development of novel digital biomarkers and retrospective studies.
+    *Relevance:*: Documents technical capabilities and limitations of mHealth-based citizen science. Direct relevance to patient-generated health data and remote data collection for ME/CFS research.
+    *Limitations:*: Pre-COVID (2018); ResearchKit-specific; rapidly evolving technology landscape.
+    *Certainty:*: 0.75
+
+=== Brigden et al.\ 2018 — Adolescents with CFS/ME Using the Internet to Cope
+
+    *Full Citation:*: Brigden A, Barnett J, Parslow RM, Beasant L, Crawley E. Using the internet to cope with chronic fatigue syndrome/myalgic encephalomyelitis in adolescence: a qualitative study. _BMJ Paediatrics Open_. 2018;2(1):e000299. @Brigden2018InternetCopingMEcfs
+    *DOI:*: #link("https://doi.org/10.1136/bmjpo-2018-000299")[10.1136/bmjpo-2018-000299]
+    *PMID:*: 30167477 · *PMCID:*: PMC6109806
+    *Study Design:*: Qualitative — in-depth semi-structured interviews
+    *Sample Size:*: n=9 adolescents (age 12--17) from specialist paediatric CFS/ME service.
+    *Key Findings:*:
+        - At diagnosis: participants used official resources (NHS sites) considered reliable.
+        - Over time: transitioned to patient-led and peer-led spaces — health forums, Facebook, YouTube.
+        - Patient/peer-led sites supported coping: encouraged active behavioural management, provided social support, addressed stigmatised aspects.
+        - Online resources allowed adolescents to adapt and maintain a sense of normal identity development.
+    *Relevance:*: Documents the natural trajectory from official to peer-led knowledge-seeking among young people with ME/CFS. Evidence that online patient communities fill a genuine gap in information and support.
+    *Limitations:*: Very small sample (n=9); recruited from single specialist service (selection bias toward engaged patients).
+    *Certainty:*: 0.60
+
+=== Davis et al.\ 2023 — Patient-Led Research Collaborative Long COVID Review
+
+    *Full Citation:*: Davis HE, McCorkell L, Vogel JM, Topol EJ. Long COVID: major findings, mechanisms and recommendations. _Nature Reviews Microbiology_. 2023;21(3):133--146. @Davis2023LongCOVIDmajorfindings
+    *DOI:*: #link("https://doi.org/10.1038/s41579-022-00846-2")[10.1038/s41579-022-00846-2]
+    *PMID:*: 36639608 · *PMCID:*: PMC9839201
+    *Study Design:*: Comprehensive review
+    *Key Findings:*:
+        - Authored by Patient-Led Research Collaborative (PLRC) — patient-researchers in lead author positions.
+        - Documents >200 symptoms across multiple organ systems; at least 65 million cases globally.
+        - Highlights overlap with ME/CFS, POTS, and other post-infectious conditions.
+        - Recommends meaningful patient engagement throughout research process, inclusion of marginalized populations, and building on viral-onset research.
+    *Relevance:*: Landmark example of patient-led research achieving top-tier publication. Demonstrates that patient-researchers can produce high-impact scientific output. PLRC model as template for ME/CFS patient-led research.
+    *Limitations:*: Narrative review (not systematic); lack of RCT data for treatments; rapidly evolving field.
+    *Certainty:*: 0.85
+
+=== Vogel et al.\ 2024 — Designing Clinical Trials for Long COVID (PLRC)
+
+    *Full Citation:*: Vogel JM, Pollack B, Spier E, et al.\ Designing and optimizing clinical trials for long COVID. _Life Sciences_. 2024;355:122970. @Vogel2024DesigningTrialsLC
+    *DOI:*: #link("https://doi.org/10.1016/j.lfs.2024.122970")[10.1016/j.lfs.2024.122970]
+    *PMID:*: 39142505
+    *Study Design:*: Analysis of ClinicalTrials.gov + recommendations
+    *Key Findings:*:
+        - PLRC analysis of registered clinical trials: most test non-pharmacological interventions with insufficient evidence.
+        - Recommends: pharmaceutical trials should be prioritized, triple-blinded remote RCTs, multiple illness comparator cohorts (ME/CFS, dysautonomia), equity in inclusion/exclusion, patient-researchers in all study aspects.
+        - Encourages development of efficient trial designs studying several therapies in parallel.
+    *Relevance:*: Patient-led group setting the agenda for how clinical research should be conducted. Explicitly includes ME/CFS as comparator. Demonstrates patient-researcher technical competence in trial methodology.
+    *Limitations:*: Perspective/recommendation piece; no empirical validation of recommended trial designs.
+    *Certainty:*: 0.70
+
+=== Wicks 2018 — Patient, Study Thyself
+
+    *Full Citation:*: Wicks P. Patient, study thyself. _BMC Medicine_. 2018;16(1):217. @Wicks2018PatientStudyThyself
+    *DOI:*: #link("https://doi.org/10.1186/s12916-018-1216-2")[10.1186/s12916-018-1216-2]
+    *PMID:*: 30470218 · *PMCID:*: PMC6260851
+    *Study Design:*: Conceptual review
+    *Key Findings:*:
+        - Emergence of patient-led N-of-1 trials and self-experimentation using digital tools over 15 years.
+        - Examples: ALS lithium study (PatientsLikeMe), Sara Riggare (Parkinson's), \#WeAreNotWaiting (open artificial pancreas for diabetes).
+        - Transparency, data sharing, open source code, and peer-reviewed publication conform to expected scientific conventions.
+        - Challenges: ethical oversight, regulation, professionalization, generalizability of biased data.
+        - Potential to enroll millions for complex medical disorders where traditional research has failed.
+    *Relevance:*: Foundational conceptualization of patient-led N-of-1 research paradigm. PatientsLikeMe platform as model. Directly addresses self-experimentation tradition and its relationship to scientific conventions in complex disorders.
+    *Limitations:*: Author is employee of PatientsLikeMe (conflict of interest); conceptual rather than systematic.
+    *Certainty:*: 0.80
+
+=== McDonald et al.\ 2022 — N-of-1 Protocol for ME/CFS Symptom Fluctuations
+
+    *Full Citation:*: McDonald S, Tan SX, Banu S, et al.\ Exploring Symptom Fluctuations and Triggers in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Using Novel Patient-Centred N-of-1 Observational Designs: A Protocol for a Feasibility and Acceptability Study. _The Patient_. 2022;15(2):197--206. @McDonald2022Nof1MEcfs
+    *DOI:*: #link("https://doi.org/10.1007/s40271-021-00540-0")[10.1007/s40271-021-00540-0]
+    *PMID:*: 34368926
+    *Study Design:*: Protocol for N-of-1 observational feasibility study
+    *Key Findings:*:
+        - Wrist-worn electronic diary for ecological momentary assessments (fatigue, stress, mood, cognitive demand) 3x/day for 6--12 weeks.
+        - Personally relevant symptoms and triggers incorporated into questionnaire design (patient-centred).
+        - Physical activity objectively measured via integrated accelerometer.
+        - Feasibility outcomes: diary completion rate, recruitment/retention, data analysis capability, participant views via post-study interviews.
+    *Relevance:*: First published protocol for patient-centred N-of-1 observational designs in ME/CFS. Designed to accommodate heterogeneous symptom presentation. Directly addresses the need for individual-level evidence in diseases with complex fluctuating presentations.
+    *Limitations:*: Protocol only (no results); wrist-worn device may miss bedbound participants; self-selected population through ME/CFS patient organizations.
+    *Certainty:*: 0.55
+
+=== Fricker 2007 — Epistemic Injustice (Foundational Work)
+
+    *Full Citation:*: Fricker M. _Epistemic Injustice: Power and the Ethics of Knowing_. Oxford: Oxford University Press; 2007. @Fricker2007EpistemicInjustice
+    *DOI:*: #link("https://doi.org/10.1093/acprof:oso/9780198237907.001.0001")[10.1093/acprof:oso/9780198237907.001.0001]
+    *Study Design:*: Monograph (theoretical philosophy)
+    *Key Findings:*:
+        - Defines two forms of epistemic injustice: testimonial injustice (speaker's credibility deflated due to identity prejudice) and hermeneutical injustice (gap in collective interpretive resources disadvantaging someone in making sense of their social experience).
+        - Applies framework to law, politics, and everyday life.
+        - Provides vocabulary and analytic structure for identifying credibility deficits and interpretive gaps.
+    *Relevance:*: Foundational theoretical resource for all epistemic injustice literature applied to ME/CFS (Blease 2017, Byrne 2020, Ireson 2022, etc.). The concepts of testimonial and hermeneutical injustice are central to understanding why patient knowledge is systematically discounted.
+    *Limitations:*: Theoretical (not empirically tested); focuses on individual interactions rather than structural/institutional forms; predates widespread application to healthcare contexts.
+    *Certainty:*: 0.95
+
 == Additional Key Resources
 <sec:bib-resources>
 // =============================================================================
@@ -8945,6 +9209,189 @@ _Added 2026-04-10. This section covers the 2022--2026 vascular literature integr
     *Certainty:*: 0.50 (editorial; framework rather than evidence; provides therapeutic roadmap only)
     *Integrated into:*: G28 integration guide (therapeutic implications section)
 
+// =============================================================================
+// Hormesis Framework — General Theory (added 2026-07-26)
+// =============================================================================
+
+=== Calabrese 2002 — Hormesis: Changing View of the Dose-Response
+
+    @Calabrese2002hormesisHistory
+
+    *Full Citation:*: Calabrese EJ. Hormesis: Changing View of the Dose-Response, a Personal Account of the History and Current Status. _Mutation Research_. 2002;511(3):181--189.
+    *DOI:*: #link("https://doi.org/10.1016/S1383-5742(02)00013-3")[10.1016/S1383-5742(02)00013-3]
+    *PMID:*: 12088716
+    *Study Design:*: Historical review
+    *Key Findings:*:
+        - Documents hormesis' journey from marginalization to re-emergence in pharmacology/toxicology
+        - Low doses of chemicals and drugs stimulate biological systems while higher doses inhibit — biphasic dose-response
+        - Challenges default assumption of linear or threshold dose-response models
+        - Establishes that hormesis has quantitative features conserved across biological systems
+    *Conclusion:*: Foundational text establishing that biphasic dose-response is a default biological pattern, not an anomaly. Directly relevant to LDN (low-dose stimulation of compensatory mechanisms), LDA, and ultra-low-dose pharmacology.
+    *Limitations:*: Review format; no primary data; toxicology focus rather than clinical pharmacology.
+    *Certainty:*: 0.80
+
+=== Calabrese & Baldwin 2003 — Toxicology Rethinks Its Central Belief
+
+    @CalabreseBaldwin2003toxicologyRethinks
+
+    *Full Citation:*: Calabrese EJ, Baldwin LA. Toxicology Rethinks Its Central Belief. _Nature_. 2003;421(6924):691--692.
+    *DOI:*: #link("https://doi.org/10.1038/421691a")[10.1038/421691a]
+    *PMID:*: 12610596
+    *Study Design:*: Opinion/review in Nature
+    *Key Findings:*:
+        - Hormesis documented across broad range of species, endpoints, and chemical classes
+        - The default assumption of linear or threshold dose-response is not empirically supported for many agents
+        - Recommends regulatory agencies re-evaluate default dose-response assumptions
+    *Conclusion:*: High-impact venue (Nature) establishing hormesis as a serious scientific challenge to linear dose-response orthodoxy. Key citation for arguing that biphasic dosing effects should be the default expectation in clinical pharmacology.
+    *Limitations:*: Short format (opinion piece); does not address clinical trial implications.
+    *Certainty:*: 0.80
+
+=== Calabrese 2008 — The Yerkes-Dodson Law as a Special Case of Hormesis
+
+    @Calabrese2008yerkesDodson
+
+    *Full Citation:*: Calabrese EJ. Stress Biology and Hormesis: The Yerkes-Dodson Law in Psychology — a Special Case of the Hormesis Dose Response. _Critical Reviews in Toxicology_. 2008;38(5):453--462.
+    *DOI:*: #link("https://doi.org/10.1080/10408440802004007")[10.1080/10408440802004007]
+    *PMID:*: 18568865
+    *Study Design:*: Historical review and conceptual integration
+    *Key Findings:*:
+        - The Yerkes-Dodson Law (inverted-U arousal-performance function) is a special case of hormesis where two independent variables interact
+        - Quantitative features (amplitude, stimulation width, dose range) match hormetic dose-response model
+        - Integrates psychology's foundational non-monotonic law into the hormesis framework
+        - Provides evolutionary rationale for why biological systems respond biphasically to stressors
+    *Conclusion:*: Bridges psychology and toxicology, demonstrating that inverted-U dose-response is a universal biological pattern. Directly relevant to stimulant dosing (modafinil, methylphenidate) where optimal cognitive benefit exists at a narrow mid-range dose with impairment at higher doses. Also applies to HPA axis and beta-blocker dose-response in POTS.
+    *Limitations:*: Review format; no new primary data; theoretical integration only.
+    *Certainty:*: 0.80
+
+=== Calabrese 2010 — Hormesis Is Central to Toxicology and Pharmacology
+
+    @Calabrese2010hormesisCentral
+
+    *Full Citation:*: Calabrese EJ. Hormesis Is Central to Toxicology, Pharmacology and Risk Assessment. _Human & Experimental Toxicology_. 2010;29(4):249--261.
+    *DOI:*: #link("https://doi.org/10.1177/0960327109363973")[10.1177/0960327109363973]
+    *PMID:*: 20332169
+    *Study Design:*: Systematic review
+    *Key Findings:*:
+        - Quantitative features of hormetic dose-response: 30--60\% stimulation above control at low doses
+        - Maximum stimulation width of 10--20 fold dose range
+        - Hormesis generalizable across species, endpoints, and chemical classes
+        - Argues that drug development and regulatory science should incorporate biphasic dose-response
+    *Conclusion:*: Key review documenting the quantitative constraints of hormetic responses. These quantitative features inform dosing windows for LDN (0.5--5mg range), LDA (0.25--2mg), lithium (≈1mg), and melatonin (≈1mg). The narrow dose window explains why clinical trials using standard dosing paradigms may produce null results for hormetic agents.
+    *Limitations:*: Review format; quantitative features based on toxicological data rather than clinical pharmacology.
+    *Certainty:*: 0.80
+
+=== Sun et al. 2020 — Yin/Yang Doctrine and Hormesis
+
+    @Sun2020yinYangHormesis
+
+    *Full Citation:*: Sun H, Calabrese EJ, Lin Z, Lian B, Zhang X. Similarities between the Yin/Yang Doctrine and Hormesis in Toxicology and Pharmacology. _Trends in Pharmacological Sciences_. 2020;41(8):544--556.
+    *DOI:*: #link("https://doi.org/10.1016/j.tips.2020.05.004")[10.1016/j.tips.2020.05.004]
+    *PMID:*: 32564900
+    *Study Design:*: Integrative review
+    *Key Findings:*:
+        - Integrates classical Chinese Yin/Yang philosophy into Western hormesis framework
+        - Hormesis is generalizable across biological systems, drug classes, and temporal scales
+        - Time-dependent hormetic features are critical for drug-dosing schedules (e.g., pulsed vs continuous dosing)
+        - Published in Trends in Pharmacological Sciences (top pharmacology journal)
+    *Conclusion:*: Broadens hormesis from a toxicological concept to a fundamental principle of drug action. Time-dependent hormesis is especially relevant for drugs with fluctuating receptor occupancy like LDN (4--6 hour blockade window) and intermittent rapamycin. Suggests optimal drug dosing may be non-continuous.
+    *Limitations:*: Review format; primarily theoretical; limited clinical trial examples.
+    *Certainty:*: 0.80
+
+// =============================================================================
+// Catecholamine Inverted-U Dose-Response (added 2026-07-26)
+// =============================================================================
+
+=== Arnsten 2011 — Catecholamine Inverted-U in Prefrontal Cortex
+
+    @Arnsten2011catecholaminePFC
+
+    *Full Citation:*: Arnsten AFT. Catecholamine Influences on Dorsolateral Prefrontal Cortical Networks. _Biological Psychiatry_. 2011;69(12):e89--e99.
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2011.01.027")[10.1016/j.biopsych.2011.01.027]
+    *PMID:*: 21489408
+    *Study Design:*: Comprehensive review with mechanistic model
+    *Key Findings:*:
+        - Dopamine D1 receptor signaling in prefrontal cortex follows an inverted-U dose-response
+        - Moderate D1 stimulation enhances working memory and cognitive function via cAMP signaling
+        - Excessive D1 stimulation impairs PFC function by opening HCN channels (cAMP excess)
+        - Norepinephrine α2A receptors (high affinity, low occupancy) enhance PFC; α1 and β receptors impair at high NE levels
+        - PFC networks are exquisitely sensitive to catecholamine levels — both deficiency and excess impair
+    *Conclusion:*: Provides the neurobiological mechanism for why modafinil 200mg may improve cognition but 400mg can worsen it (Randall 2005 ME/CFS trial). Also explains why SNRIs (duloxetine) can produce worsening at doses that raise catecholamines beyond the PFC optimal window. The D1 inverted-U is fundamental to understanding any drug that modulates prefrontal dopamine.
+    *Limitations:*: Primarily animal electrophysiology; human translation is inferential; does not specifically address ME/CFS neuroinflammation context.
+    *Certainty:*: 0.85
+
+=== Cools & D'Esposito 2011 — Inverted-U Dopamine and Human Cognition
+
+    @Cools2011invertedU
+
+    *Full Citation:*: Cools R, D'Esposito M. Inverted-U-Shaped Dopamine Actions on Human Working Memory and Cognitive Control. _Biological Psychiatry_. 2011;69(12):e113--e125.
+    *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2011.03.028")[10.1016/j.biopsych.2011.03.028]
+    *PMID:*: 21531388
+    *Study Design:*: Comprehensive review integrating pharmacology, genetics, and neuroimaging
+    *Key Findings:*:
+        - Both excessive and insufficient dopamine impair prefrontal function in humans
+        - COMT Val158Met genotype interacts with drug dose: Val carriers (higher COMT, lower dopamine) benefit from dopamine agonists; Met carriers (lower COMT, higher dopamine) are impaired
+        - Striatal dopamine supports cognitive flexibility; prefrontal dopamine supports stability
+        - The optimal dopamine level is task- and individual-dependent
+    *Conclusion:*: Confirms inverted-U dopamine-cognition relationship in humans via three convergent lines of evidence. Directly relevant to stimulant and SNRI dosing in ME/CFS: patients with different baseline dopamine levels (e.g., via COMT genotype) will have different optimal doses. Explains why uniform dosing produces heterogeneous outcomes.
+    *Limitations:*: Healthy young adults studied; ME/CFS-specific data absent; genetic interaction data limited to COMT.
+    *Certainty:*: 0.85
+
+=== Cools & Arnsten 2022 — Neuromodulation of Primate Prefrontal Cortex
+
+    @Cools2022neuromodulationPFC
+
+    *Full Citation:*: Cools R, Arnsten AFT. Neuromodulation of Prefrontal Cortex Cognitive Function in Primates: The Powerful Roles of Monoamines and Acetylcholine. _Neuropsychopharmacology_. 2022;47(1):309--328.
+    *DOI:*: #link("https://doi.org/10.1038/s41386-021-01100-8")[10.1038/s41386-021-01100-8]
+    *PMID:*: 34312496
+    *Study Design:*: Comprehensive review (Neuropsychopharmacology Reviews series)
+    *Key Findings:*:
+        - All major neuromodulators (dopamine, norepinephrine, serotonin, acetylcholine) show inverted-U dose-response in primate PFC
+        - Receptors with different affinities mediate opposing effects: high-affinity receptors (D1, α2A) enhance PFC at low concentrations; low-affinity receptors (D2, α1, β) impair at high concentrations
+        - Cholinergic (M1) and serotonergic (5-HT1A, 5-HT2A) modulation also follows biphasic patterns
+        - Individual differences in baseline neuromodulator tone determine optimal dose
+    *Conclusion:*: Most comprehensive review of non-monotonic neuromodulator dose-response in prefrontal circuits. Covers the mechanistic basis for all drugs targeting catecholamines and acetylcholine relevant to ME/CFS cognitive dysfunction (modafinil, methylphenidate, duloxetine, pitolisant, donepezil, atomoxetine). Establishes that biphasic dose-response is the rule for cognitive enhancement, not an exception.
+    *Limitations:*: Primate electrophysiology; human clinical translation pending; ME/CFS-specific neuroinflammation may alter receptor dynamics.
+    *Certainty:*: 0.85
+
+// =============================================================================
+// Rapamycin Dose Selectivity (added 2026-07-26)
+// =============================================================================
+
+=== Sarbassov et al. 2006 — Prolonged Rapamycin Inhibits mTORC2 Assembly
+
+    @Sarbassov2006rapamycin
+
+    *Full Citation:*: Sarbassov DD, Ali SM, Sengupta S, Sheen JH, Hsu PP, Bagley AF, Markhard AL, Sabatini DM. Prolonged Rapamycin Treatment Inhibits mTORC2 Assembly and Akt/PKB. _Molecular Cell_. 2006;22(2):159--168.
+    *DOI:*: #link("https://doi.org/10.1016/j.molcel.2006.03.029")[10.1016/j.molcel.2006.03.029]
+    *PMID:*: 16603397
+    *Study Design:*: In vitro and in vivo mechanistic study
+    *Key Findings:*:
+        - Initially mTORC2 was thought to be rapamycin-insensitive; this paper demonstrated chronic rapamycin inhibits mTORC2 assembly
+        - mTORC2 inhibition reduces Akt/PKB phosphorylation, impairing cell survival signaling
+        - Rapamycin dose and treatment duration determine mTORC1 vs mTORC2 selectivity
+        - Acute/low-dose rapamycin: primarily mTORC1 inhibition (beneficial anti-aging, anti-inflammatory)
+        - Chronic/high-dose rapamycin: mTORC2 also inhibited (insulin resistance, immunosuppression)
+    *Conclusion:*: Foundational paper establishing that rapamycin's effect is biphasic and dose/duration-dependent. For ME/CFS rapamycin protocols, this implies that intermittent low-dose scheduling may preserve mTORC2 function while achieving therapeutic mTORC1 inhibition. Higher daily dosing risks mTORC2-mediated toxicity.
+    *Limitations:*: In vitro and mouse models; human dose-selectivity thresholds not precisely established; cancer cell line data may not translate to non-malignant dosing.
+    *Certainty:*: 0.85
+
+=== Lamming et al. 2012 — Rapamycin-Induced Insulin Resistance via mTORC2 Loss
+
+    @Lamming2012rapamycin
+
+    *Full Citation:*: Lamming DW, Ye L, Katajisto P, Goncalves MD, Saitoh M, Stevens DM, Davis JG, Salmon AB, Richardson A, Ahima RS, Guertin DA, Sabatini DM, Baur JA. Rapamycin-Induced Insulin Resistance Is Mediated by mTORC2 Loss and Uncoupled from Longevity. _Science_. 2012;335(6076):1638--1643.
+    *DOI:*: #link("https://doi.org/10.1126/science.1215135")[10.1126/science.1215135]
+    *PMID:*: 22461615
+    *Study Design:*: Mouse model mechanistic study
+    *Key Findings:*:
+        - Chronic rapamycin treatment causes insulin resistance via mTORC2 inhibition in liver
+        - mTORC1 inhibition mediates longevity benefits; mTORC2 inhibition mediates metabolic toxicity
+        - These two effects are pharmacologically separable: mTORC2 inhibition is dose and duration-dependent
+        - Genetic ablation of mTORC1 (raptor) alone does not cause insulin resistance
+    *Conclusion:*: Paradigmatic example of biphasic dose-response for a single drug with opposing therapeutic (mTORC1) and adverse (mTORC2) effects. Directly informs clinical rapamycin dosing in ME/CFS: lower intermittent doses (e.g., 1--3mg once weekly) may preserve mTORC2 while achieving therapeutic mTORC1 inhibition. Higher daily dosing (e.g., 5--10mg daily) risks mTORC2-mediated metabolic toxicity.
+    *Limitations:*: Mouse model; human dose thresholds for mTORC2 inhibition are not directly measured; insulin resistance findings may be species-specific.
+    *Certainty:*: 0.90
+
 === Ristow & Zarse 2010 — Mitohormesis: Oxidative Stress as Adaptive Signal
 
     *Full Citation:*: Ristow M, Zarse K. How increased oxidative stress promotes longevity and metabolic health: the concept of mitochondrial hormesis (mitohormesis). _Experimental Gerontology_. 2010;45(6):410--418.
@@ -13229,7 +13676,7 @@ deficiency, supporting a pharmacological rather than replacement rationale.
 
 === Andreen et al.\ 2009 --- Biphasic GABA-A Effects of Allopregnanolone
 
-    @AndreenBackstrom2009negMood
+    @Andreen2009allopregnanoloneBiphasic
 
     *Full Citation:*: Andreen L, Nyberg S, Turkmen S, van Wingen G, Fernandez G, Backström T. "Sex steroid induced negative mood may be explained by the paradoxical effect mediated by GABA-A modulators." _Psychoneuroendocrinology_. 2009;34(8):1121--1132.
     *DOI:*: #link("https://doi.org/10.1016/j.psyneuen.2009.02.003")[10.1016/j.psyneuen.2009.02.003]
@@ -28956,7 +29403,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - irAEs: colitis, hepatitis, pneumonitis, myocarditis, endocrinopathies affecting multiple organs
         - Autoimmune-prone populations at elevated risk; pre-existing autoantibodies increase risk of organ-specific irAEs
         - Onset can be delayed by weeks-months; toxicities can be fatal
-    / *Relevance to ME/CFS T-cell model:*: Checkpoint inhibitors are contraindicated in ME/CFS pending ex vivo safety data — the population has documented GPCR autoantibodies (Sotzny 2021) and autoimmune features placing them in the elevated-risk category. The cancer immunotherapy **biomarker** framework (TCF7, TOX, EOMES, PD-1/TIM-3) is useful for prognostic stratification; the **therapeutic** framework (PD-1/PD-L1 blockade) must not be borrowed without rigorous safety testing. This paper provides the safety rationale for this boundary.
+    / *Relevance to ME/CFS T-cell model:*: Checkpoint inhibitors are contraindicated in ME/CFS pending ex vivo safety data — the population has documented GPCR autoantibodies (Sotzny 2021) and autoimmune features placing them in the elevated-risk category. The cancer immunotherapy *biomarker* framework (TCF7, TOX, EOMES, PD-1/TIM-3) is useful for prognostic stratification; the *therapeutic* framework (PD-1/PD-L1 blockade) must not be borrowed without rigorous safety testing. This paper provides the safety rationale for this boundary.
     / *Certainty:*: 0.90 (NEJM; authoritative clinical review; large evidence base)
 
 === Younes2016 — HIV+ CD4+ T-Cell Mitochondrial Dysfunction Persists on ART
@@ -29805,4 +30252,396 @@ sec-bib-rf-elevated-mecfs-duplicate
          - ~20% of all ASD had elevated anti-neuronal antibodies — immune subgroup exists regardless of onset type
      / *Relevance:*: Weakens the argument that regression specifically indicates immune etiology, but strengthens the argument that an immune subgroup exists across ASD. Anti-neuronal antibody prevalence (~20%) roughly matches maternal autoantibody prevalence — suggesting immune mechanisms may characterize a consistent fraction.
      / *Limitations:*: Very small sample (n=50); single center; antibody assays of uncertain sensitivity.
-     / *Certainty:*: 0.45
+      / *Certainty:*: 0.45
+
+// =============================================================================
+
+== Global and Low-Resource Perspectives on ME/CFS
+<sec:bib-global-perspectives>
+// =============================================================================
+
+=== Arron et al.\ 2024 — ME/CFS as a Neglected Disease
+
+@Arron2024neglectedDisease
+
+*Full Citation:*: Arron HE, Marsh BD, Kell DB, Khan MA, Jaeger BR, Pretorius E. Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: the biology of a neglected disease. _Frontiers in Immunology_. 2024;15:1386607.
+*DOI:*: #link("https://doi.org/10.3389/fimmu.2024.1386607")[10.3389/fimmu.2024.1386607]
+*PMID:*: 38887284
+*PMCID:*: PMC11180809
+*Study Design:*: Narrative review
+*Key Findings:*:
+    - Characterises ME/CFS as a "neglected disease" with biological basis centred on microclots and amyloid fibrin
+    - Co-author Pretorius is based in South Africa — one of few ME/CFS research contributions from the African continent
+    - Argues that ME/CFS research is concentrated in high-income countries, creating a global evidence gap
+*Conclusion:*: ME/CFS meets criteria for a neglected disease in global health; biological mechanisms (microclots) provide testable targets.
+*Limitations:*: Narrative review; Pretorius group's microclot hypothesis is controversial; no primary data.
+*Certainty Assessment:*:
+    - *Quality:* Medium (Frontiers in Immunology, narrative review)
+    - *Sample:* N/A (review)
+    - *Replication:* N/A
+    - *Score:* 0.65
+*Study Date Era:*: Post-IOM 2015--present
+
+=== Condé et al.\ 2026 — Post-Dengue Fatigue Systematic Review and Meta-Analysis
+
+@Conde2026dengueFatigue
+
+*Full Citation:*: Condé A, Maillard O, Rodrigo C, Bertolotti A, Sandler CX, Lloyd AR, Gérardin P. Post-Infectious Fatigue and Depression Following Dengue: A Systematic Review and Meta-Analysis of Associated Factors. _Reviews in Medical Virology_. 2026;36(3):e70164.
+*DOI:*: #link("https://doi.org/10.1002/rmv.70164")[10.1002/rmv.70164]
+*Study Design:*: Systematic review and meta-analysis
+*Key Findings:*:
+    - First systematic review quantifying post-dengue fatigue
+    - Dengue endemic in 100+ countries, predominantly LMICs
+    - Post-infectious fatigue prevalence and associated factors systematically assessed
+    - Establishes that arboviral infections in LMICs produce chronic fatigue syndromes comparable to post-EBV CFS
+*Conclusion:*: Post-dengue fatigue is a significant public health burden in dengue-endemic LMICs, largely unrecognized as a post-infectious fatigue syndrome.
+*Limitations:*: Heterogeneity in fatigue definitions across studies; limited number of eligible studies; no ME/CFS diagnostic criteria applied.
+*Certainty Assessment:*:
+    - *Quality:* Medium-High (Reviews in Medical Virology, systematic review with meta-analysis)
+    - *Sample:* Systematic review of published studies
+    - *Replication:* First systematic review of this question
+    - *Score:* 0.75
+*Study Date Era:*: Post-IOM 2015--present
+
+=== Duvignaud et al.\ 2018 — Post-Chikungunya Chronic Fatigue (TELECHIK Cohort)
+
+@Duvignaud2018chikungunyaFatigue
+
+*Full Citation:*: Duvignaud A, Fianu A, Bertolotti A, et al.\ Rheumatism and chronic fatigue, the two facets of post-chikungunya disease: the TELECHIK cohort study on Reunion island. _Epidemiology and Infection_. 2018;146(5):633--641.
+*DOI:*: #link("https://doi.org/10.1017/S0950268818000031")[10.1017/S0950268818000031]
+*PMID:*: 29486812
+*PMCID:*: PMC5892425
+*Study Design:*: Prospective cohort study
+*Sample Size:*: Reunion Island chikungunya outbreak survivors followed over 30 months
+*Key Findings:*:
+    - Two major post-chikungunya sequelae: chronic rheumatism and chronic fatigue
+    - Chronic fatigue affected substantial proportion at long-term follow-up
+    - Demonstrates post-arboviral fatigue as major public health burden in tropical settings
+*Conclusion:*: Post-chikungunya chronic fatigue mirrors post-infectious CFS — supports arboviral infections as ME/CFS triggers in tropical LMIC settings.
+*Limitations:*: Single outbreak setting; no ME/CFS diagnostic criteria applied; tropical island (Reunion is French overseas department, not typical LMIC).
+*Certainty Assessment:*:
+    - *Quality:* Medium (Epidemiology and Infection, prospective cohort)
+    - *Sample:* Moderate cohort size
+    - *Replication:* Single cohort at Reunion Island
+    - *Score:* 0.70
+*Study Date Era:*: CCC/ICC 2003--2015
+
+=== Vester et al.\ 2026 — Burden of Disease Scoping Review
+
+@Vester2026burdenOfDisease
+
+*Full Citation:*: Vester P, Boudouroglou-Walter S, Schreyögg J, Wieting C, Blome C. Burden of Disease in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): A Scoping Review. _Applied Health Economics and Health Policy_. 2026;24(1):147--161.
+*DOI:*: #link("https://doi.org/10.1007/s40258-025-01006-2")[10.1007/s40258-025-01006-2]
+*PMID:*: 40986167
+*PMCID:*: PMC12790524
+*Study Design:*: Scoping review
+*Key Findings:*:
+    - Consistent severe QoL impairment in ME/CFS (EQ-5D scores ~0.40--0.55, lower than MS/stroke)
+    - Economic burden estimated at \$18--51B in the US
+    - No non-high-income-country burden estimates identified in the review
+    - Gap: burden of disease data entirely absent from LMICs
+*Conclusion:*: ME/CFS imposes severe disease burden comparable to major chronic diseases; global data gap on LMIC burden is a critical evidence void.
+*Limitations:*: Scoping review, not systematic; heterogeneity in burden measures; high-income country data only.
+*Certainty Assessment:*:
+    - *Quality:* Medium (Applied Health Economics and Health Policy, systematic search)
+    - *Sample:* Scoping review of published studies
+    - *Replication:* First scoping review of ME/CFS disease burden
+    - *Score:* 0.60
+*Study Date Era:*: Post-IOM 2015--present
+
+=== Sarker et al.\ 2024 — Bangladesh ME/CFS RCT Protocol
+
+@Sarker2024bangladeshRCTprotocol
+
+*Full Citation:*: Sarker AH, Hossain KMA, Kabir MF, et al.\ Comparing effectiveness of physiotherapy versus drug management on fatigue, physical functioning, and episodic disability for myalgic encephalomyelitis in post-COVID-19 condition: a study protocol of randomized control trial. _Trials_. 2024;25(1):321.
+*DOI:*: #link("https://doi.org/10.1186/s13063-024-08077-x")[10.1186/s13063-024-08077-x]
+*PMID:*: 38750586
+*PMCID:*: PMC11094988
+*Study Design:*: Published RCT protocol
+*Sample Size:*: Planned RCT from Bangladesh
+*Key Findings:*:
+    - First registered ME/CFS clinical trial from Bangladesh
+    - Testing physiotherapy vs drug management in post-COVID ME
+    - Uses episodic disability framework relevant to LMIC settings where continuous disability assessments are impractical
+    - Represents emerging ME/CFS research capacity in South Asia
+*Conclusion:*: LMIC ME/CFS research is emerging, led by post-COVID clinical needs in Bangladesh.
+*Limitations:*: Protocol only --- no efficacy data; Fukuda criteria applied; physiotherapy approach may be contraindicated in PEM+ patients.
+*Certainty Assessment:*:
+    - *Quality:* Medium (Trials journal, pre-registered RCT)
+    - *Sample:* Planned, not yet reported
+    - *Replication:* N/A (protocol)
+    - *Score:* 0.50
+*Study Date Era:*: Post-IOM 2015--present
+
+=== Starcevic 1999 — Neurasthenia and Chronic Fatigue Syndrome
+
+@Starcevic1999neurasthenia
+
+*Full Citation:*: Starcevic V. Neurasthenia: cross-cultural and conceptual issues in relation to chronic fatigue syndrome. _General Hospital Psychiatry_. 1999;21(4):249--255.
+*DOI:*: #link("https://doi.org/10.1016/S0163-8343(99)00012-2")[10.1016/S0163-8343(99)00012-2]
+*PMID:*: 10514948
+*Study Design:*: Comparative review
+*Key Findings:*:
+    - Maps conceptual relationship between neurasthenia (ICD-10) and CFS
+    - Notes that neurasthenia remains prevalent diagnosis in China, East Asia, and parts of Eastern Europe
+    - Global diagnostic expansion eliminates neurasthenia as label in some settings while CFS/ME emerge as functional replacement
+    - Cultural framing determines whether fatigue is reported as psychological or somatic
+*Conclusion:*: CFS and neurasthenia are overlapping but culturally-moderated constructs; diagnostic labelling is shaped by local medical culture, not biology alone.
+*Limitations:*: 1999-era conceptual review; limited empirical data; pre-IOM diagnostic era.
+*Certainty Assessment:*:
+    - *Quality:* Medium (General Hospital Psychiatry, narrative review)
+    - *Sample:* N/A
+    - *Replication:* Cross-cultural comparisons consistent with Lee, Ware/Kleinman
+    - *Score:* 0.50
+*Study Date Era:*: Fukuda 1994--2003
+
+=== Ware and Kleinman 1992 — Culture and Somatic Experience
+
+@Ware1992cultureSomatic
+
+*Full Citation:*: Ware NC, Kleinman A. Culture and somatic experience: the social course of illness in neurasthenia and chronic fatigue syndrome. _Psychosomatic Medicine_. 1992;54(5):546--560.
+*DOI:*: #link("https://doi.org/10.1097/00006842-199209000-00003")[10.1097/00006842-199209000-00003]
+*PMID:*: 1438658
+*Study Design:*: Comparative anthropological analysis (China vs US)
+*Key Findings:*:
+    - Landmark cross-cultural comparison of neurasthenia in China and CFS in the United States
+    - Different cultural idioms for similar fatigue syndromes --- somatic idioms dominant in China, psychological in US
+    - Social course of illness shaped by cultural norms about illness behaviour and legitimacy
+    - Demonstrates that "the same" illness can present differently depending on cultural context
+*Conclusion:*: ME/CFS symptom expression is culturally moderated --- global prevalence estimates using Western diagnostic criteria may misclassify cases in non-Western settings.
+*Limitations:*: Pre-Fukuda era; small qualitative samples; China vs US only (does not cover Africa, South Asia, Latin America).
+*Certainty Assessment:*:
+    - *Quality:* High (Psychosomatic Medicine, Arthur Kleinman — leading medical anthropologist)
+    - *Sample:* Qualitative, small
+    - *Replication:* Consistent with Lee 1995, 1998, 2000
+    - *Score:* 0.55
+*Study Date Era:*: Pre-1994
+
+=== Lee 1998 — Neurasthenia in Contemporary Chinese Society
+
+@Lee1998neurastheniaChina
+
+*Full Citation:*: Lee S. Estranged bodies, simulated harmony, and misplaced cultures: neurasthenia in contemporary Chinese society. _Psychosomatic Medicine_. 1998;60(4):448--457.
+*DOI:*: #link("https://doi.org/10.1097/00006842-199807000-00010")[10.1097/00006842-199807000-00010]
+*PMID:*: 9710290
+*Study Design:*: Ethnographic and clinical review
+*Key Findings:*:
+    - Shenjing shuairuo (neurasthenia) remains culturally acceptable idiom for fatigue/distress in Chinese society
+    - ME/CFS would be filtered through this culturally shaped lens if assessed with Western instruments
+    - Body-centred distress expression reflects social norms about legitimate illness, not lack of psychological insight
+    - Western diagnostic expansion (CFS, depression, anxiety) has partially displaced neurasthenia in urban/professional Chinese populations
+*Conclusion:*: CFS-like conditions in China are labelled neurasthenia; direct application of Fukuda/CCC criteria would produce artefactually low prevalence.
+*Limitations:*: Single-culture focus (Chinese); 1998 data may not reflect contemporary urbanisation effects.
+*Certainty Assessment:*:
+    - *Quality:* Medium (Psychosomatic Medicine, clinical-anthropological review)
+    - *Sample:* N/A
+    - *Replication:* Consistent with Ware/Kleinman 1992, Lee 2000
+    - *Score:* 0.50
+*Study Date Era:*: Pre-Fukuda / early Fukuda 1994--2003
+
+=== National Academies 2024 — Common Research Agenda for Infection-Associated Chronic Illnesses
+
+@NationalAcademies2024researchAgenda
+
+*Full Citation:*: National Academies of Sciences, Engineering, and Medicine. Toward a Common Research Agenda in Infection-Associated Chronic Illnesses: Proceedings of a Workshop. Washington, DC: National Academies Press; 2024.
+*DOI:*: #link("https://doi.org/10.17226/27462")[10.17226/27462]
+*PMID:*: 38648305
+*Study Design:*: Workshop proceedings
+*Key Findings:*:
+    - Convened experts across ME/CFS, Long COVID, post-Lyme, and other infection-associated chronic illnesses (IACI)
+    - Called for common research frameworks, shared biomarkers, and international standardization
+    - Global health dimension present but underdeveloped --- LMIC perspectives largely absent from workshop
+    - Identified cross-disease mechanisms: immune dysregulation, autonomic dysfunction, neuroinflammation
+*Conclusion:*: First major institutional effort to unify post-infectious fatigue research; LMIC engagement a recognised gap.
+*Limitations:*: US-centric workshop; LMIC representation minimal; proceedings, not peer-reviewed research.
+*Certainty Assessment:*:
+    - *Quality:* High (National Academies institutional authority)
+    - *Sample:* Workshop with expert panels
+    - *Replication:* N/A
+    - *Score:* 0.70
+*Study Date Era:*: Post-IOM 2015--present
+
+=== Podell et al.\ 2020 — Documenting Disability in ME/CFS
+
+@Podell2020documentingDisability
+
+*Full Citation:*: Podell R, Dimmock ME, Comerford BB. Documenting disability in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Work_. 2020;66(2):339--352.
+*DOI:*: #link("https://doi.org/10.3233/WOR-203178")[10.3233/WOR-203178]
+*PMID:*: 32568153
+*Study Design:*: Practical guidance / review
+*Key Findings:*:
+    - Practical framework for documenting ME/CFS functional impairment for disability claims
+    - ME/CFS coded as G93.3 in ICD-10, 8E49 in ICD-11
+    - Highlights disconnect between ICD coding existence and practical disability recognition
+    - Relevant to LMIC settings where disability insurance systems are weak or absent --- functional documentation can support claims in any system
+*Conclusion:*: Existence of ICD codes for ME/CFS does not guarantee disability recognition; documentation standards matter.
+*Limitations:*: US-centric legal/insurance framework; not specific to LMIC contexts.
+*Certainty Assessment:*:
+    - *Quality:* Medium (Work journal, expert guidance)
+    - *Sample:* N/A
+    - *Replication:* N/A
+    - *Score:* 0.65
+*Study Date Era:*: CCC/ICC 2003--2015
+
+=== Simani et al.\ 2021 — Post-COVID CFS Prevalence in Iran
+
+@Simani2021iranCFS
+
+*Full Citation:*: Simani L, Ramezani M, Darazam IA, Sagharichi M, Aalipour MA, Ghorbani F, Pakdaman H. Prevalence and correlates of chronic fatigue syndrome and post-traumatic stress disorder after the outbreak of the COVID-19. _Journal of Neurovirology_. 2021;27(1):154--159.
+*DOI:*: #link("https://doi.org/10.1007/s13365-021-00949-1")[10.1007/s13365-021-00949-1]
+*PMID:*: 33528827
+*PMCID:*: PMC7852482
+*Study Design:*: Cross-sectional prevalence study
+*Sample Size:*: Hospitalised COVID-19 patients in Tehran, Iran
+*Key Findings:*:
+    - 17.5% of hospitalised COVID-19 patients met Fukuda CFS criteria at 6-month follow-up
+    - 75% of CFS cases were female
+    - First ME/CFS prevalence estimate from a middle-income Middle Eastern country
+    - Post-infectious CFS in an LMIC mirrors patterns seen in high-income countries
+*Conclusion:*: Post-infectious ME/CFS prevalence in Iran is comparable to estimates from HICs; ME/CFS burden in middle-income settings is real but under-measured.
+*Limitations:*: Hospital-based sample (severe COVID); Fukuda criteria only; no baseline fatigue assessment; single centre; PTSD confounding.
+*Certainty Assessment:*:
+    - *Quality:* Medium (Journal of Neurovirology)
+    - *Sample:* Moderate
+    - *Replication:* Single centre in Iran
+    - *Score:* 0.55
+*Study Date Era:*: Post-IOM 2015--present
+
+=== Miller et al.\ 2026 — Post-Acute Sequelae Across Epidemic History
+
+@Miller2026epidemicsShadow
+
+*Full Citation:*: Miller CM, Moen JK, Iwasaki A. The lingering shadow of epidemics: post-acute sequelae across history. _Trends in Immunology_. 2026;47(1):9--18.
+*DOI:*: #link("https://doi.org/10.1016/j.it.2025.10.010")[10.1016/j.it.2025.10.010]
+*PMID:*: 41350176
+*Study Design:*: Historical review
+*Key Findings:*:
+    - Post-acute sequelae documented after influenza 1918, polio, Ebola, SARS, and COVID-19
+    - Chronic fatigue is a common thread across post-epidemic syndromes
+    - Pandemics produce long-term disability disproportionately in settings with poor acute care infrastructure
+    - Global health relevance: post-infectious fatigue burden follows infectious disease burden geographically
+*Conclusion:*: Post-infectious fatigue syndromes are historically recurrent; LMICs with high infectious disease burden likely carry disproportionate post-infectious fatigue burden.
+*Limitations:*: Historical review, not empirical; does not quantify LMIC burden.
+*Certainty Assessment:*:
+    - *Quality:* Medium (Trends in Immunology, Iwasaki lab)
+    - *Sample:* N/A (historical review)
+    - *Replication:* N/A
+    - *Score:* 0.55
+*Study Date Era:*: Post-IOM 2015--present
+
+=== Wang et al.\ 2014 — Traditional Chinese Medicine for CFS (Systematic Review)
+
+@Wang2014tcmCFS
+
+*Full Citation:*: Wang YY, Li XX, Liu JP, Luo H, Ma LX, Alraek T. Traditional Chinese medicine for chronic fatigue syndrome: a systematic review of randomized clinical trials. _Complementary Therapies in Medicine_. 2014;22(4):826--833.
+*DOI:*: #link("https://doi.org/10.1016/j.ctim.2014.06.004")[10.1016/j.ctim.2014.06.004]
+*PMID:*: 25146086
+*Study Design:*: Systematic review of RCTs
+*Sample Size:*: 23 RCTs included (n=1,776 total)
+*Key Findings:*:
+    - TCM herbal formulations show signal for fatigue reduction compared to placebo or conventional treatment
+    - Methodological quality of included trials generally low (high risk of bias, small samples)
+    - Limited evidence precludes firm conclusions about specific TCM formulations
+    - TCM widely available in East Asian healthcare systems --- even modest efficacy has population-level relevance
+*Conclusion:*: TCM may benefit CFS patients but evidence quality is insufficient for guideline recommendations.
+*Limitations:*: High risk of bias in primary studies; heterogeneous interventions; small samples; 2014 search date (dated).
+*Certainty Assessment:*:
+    - *Quality:* Medium (Complementary Therapies in Medicine, Cochrane-style SR)
+    - *Sample:* 23 RCTs, n=1,776
+    - *Replication:* Consistent with subsequent TCM SRs
+    - *Score:* 0.60
+*Study Date Era:*: CCC/ICC 2003--2015
+
+=== Kong et al.\ 2023 — TCM Mind-Body Exercises for CFS (Meta-Analysis)
+
+@Kong2023tcmMindBody
+
+*Full Citation:*: Kong L, Ren J, Fang S, et al.\ Effects of traditional Chinese mind-body exercises for patients with chronic fatigue syndrome: A systematic review and meta-analysis. _Journal of Global Health_. 2023;13:04157.
+*DOI:*: #link("https://doi.org/10.7189/jogh.13.04157")[10.7189/jogh.13.04157]
+*PMID:*: 37994837
+*PMCID:*: PMC10666566
+*Study Design:*: Systematic review and meta-analysis
+*Key Findings:*:
+    - Tai Chi, Qigong, Baduanjin evaluated across multiple RCTs
+    - Moderate effect size on fatigue reduction
+    - Mind-body exercises accessible in LMIC settings where pharmacological options are limited
+    - No serious adverse events reported
+*Conclusion:*: TCM mind-body exercises are safe and moderately effective for CFS fatigue; relevant to LMICs where these practices are culturally embedded and low-cost.
+*Limitations:*: Moderate heterogeneity; most studies from China (generalizability to non-Chinese populations uncertain); unblinded (inherent to exercise interventions).
+*Certainty Assessment:*:
+    - *Quality:* Medium (Journal of Global Health)
+    - *Sample:* Multiple RCTs pooled
+    - *Replication:* Consistent with prior TCM exercise reviews
+    - *Score:* 0.65
+*Study Date Era:*: Post-IOM 2015--present
+
+=== Wang et al.\ 2017 — Acupuncture and Moxibustion for CFS (Network Meta-Analysis)
+
+@Wang2017acupunctureCFS
+
+*Full Citation:*: Wang T, Xu C, Pan K, Xiong H. Acupuncture and moxibustion for chronic fatigue syndrome in traditional Chinese medicine: a systematic review and meta-analysis. _BMC Complementary and Alternative Medicine_. 2017;17(1):163.
+*DOI:*: #link("https://doi.org/10.1186/s12906-017-1647-x")[10.1186/s12906-017-1647-x]
+*PMID:*: 28335756
+*PMCID:*: PMC5363012
+*Study Design:*: Systematic review and network meta-analysis
+*Sample Size:*: 31 RCTs
+*Key Findings:*:
+    - Acupuncture and moxibustion show small-to-moderate effect on CFS fatigue
+    - Acupuncture widely available in East Asian settings and increasingly in Indian traditional medicine contexts
+    - Moxibustion (heat application at acupoints) also showed benefit
+    - Network meta-analysis allowed indirect comparisons between modalities
+*Conclusion:*: Acupuncture is a moderately effective, low-risk option for CFS in settings where it is available and culturally accepted.
+*Limitations:*: Sham acupuncture controls difficult to blind; most studies from China; heterogeneity in acupuncture protocols.
+*Certainty Assessment:*:
+    - *Quality:* Medium (BMC CAM, now BMC Complementary Medicine and Therapies)
+    - *Sample:* 31 RCTs
+    - *Replication:* Consistent across TCM modality reviews
+    - *Score:* 0.60
+*Study Date Era:*: CCC/ICC 2003--2015
+
+// =============================================================================
+
+== Economic Impact of ME/CFS: Health Economics and Cost-of-Illness Research
+<sec:bib-economic-impact>
+// =============================================================================
+
+=== IOM 2015 --- \$17-24 Billion Economic Cost Estimate
+<sec:bib-IOM2015-economic>
+
+    / *Full Citation:*: Institute of Medicine (US). Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness. Washington, DC: National Academies Press; 2015. @IOM2015
+    / *ISBN:*: 978-0-309-31689-7
+    / *DOI:*: #link("https://doi.org/10.17226/19012")[10.17226/19012]
+    / *Key Findings:*:
+        - Estimates 836,000--2.5 million Americans affected by ME/CFS
+        - Direct and indirect economic costs: \$17--24 billion annually in the US
+        - 84--91% undiagnosed rate amplifies economic burden through delayed care and misdiagnosis
+        - Lost productivity accounts for the majority of costs
+        - Proposed SEID diagnostic criteria to improve case identification
+    / *Certainty Score:*: 0.85 -- government report, landmark, formally adopted by CDC
+
+=== Jason and Mirin 2020 --- Updated IOM Economic Impact Figures
+
+    / *Full Citation:*: Jason LA, Mirin AA. Updating the National Academy of Medicine ME/CFS Prevalence and Economic Impact Figures to Account for Population Growth and Inflation. _Fatigue: Biomedicine, Health & Behavior_. 2020;8(2):60-72. @Jason2020economic
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2020.1779051")[10.1080/21641846.2020.1779051]
+    / *Key Findings:*:
+        - Updated IOM 2015 \$17--24B estimate to \$36--51B annually (2020 dollars)
+        - Prevalence estimate revised upward to 1.5--3.3 million US cases
+        - Confirmed indirect costs (lost productivity) dominate total economic burden
+    / *Limitations:*: Extrapolation rather than primary data; relies on IOM 2015 per-patient cost assumptions
+    / *Certainty:*: 0.60
+
+=== Vester et al. 2026 --- Burden of Disease: Scoping Review
+
+    / *Full Citation:*: Vester P, Boudouroglou-Walter S, Schreyoegg J, Wieting C, Blome C. Burden of Disease in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): A Scoping Review. _Applied Health Economics and Health Policy_. 2026;24(1):147-161. @vester2026burdenreview
+    / *DOI:*: #link("https://doi.org/10.1007/s40258-025-01006-2")[10.1007/s40258-025-01006-2]
+    / *PMID:*: 40986167
+    / *Study Design:*: Systematic scoping review
+    / *Sample:*: 20 studies (global scope)
+    / *Key Findings:*:
+        - Annual per-patient costs range from \$2,916 to \$119,611
+        - DALYs 0.714M--5.77M in the US
+        - Indirect costs dominate in all studies
+        - Only 20 cost-of-illness studies globally
+        - Standardised methodology urgently needed
+    / *Conclusion:*: Most comprehensive economic burden review to date. Confirms substantial economic burden with major methodology gaps.
+    / *Certainty:*: 0.70

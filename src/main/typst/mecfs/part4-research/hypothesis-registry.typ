@@ -4275,14 +4275,82 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [hyp:multi-target-dose-optimum-divergence], [LDN's four mechanisms have distinct concentration-response curves with potentially non-overlapping optima. A patient's optimal dose reveals which mechanism is dominant. Prediction: patients with TRPM3 dysfunction should respond to higher LDN doses while patients with inflammation-driven symptoms should respond to lower doses. Falsified if there is no correlation between baseline TRPM3 function, inflammatory markers, and individual optimal LDN dose.],[Phase 3 / 0.25],
 
-  [spec:hormesis-multi-drug-principle], [Non-monotonic dose-response is a recurring pattern across ME/CFS pharmacotherapy. The hormesis framework unifies these observations. Falsifiable prediction: individual inversion-point position should correlate across drugs if there is a hormetic reserve trait. Falsified if inversion-point correlation across drugs is weak.],[Phase 3 / 0.30],
+  [spec:hormesis-multi-drug-principle], [Non-monotonic dose-response is a recurring pattern across ME/CFS pharmacotherapy spanning 17+ medications (LDN, LDA, lithium, melatonin, sulforaphane, corticosteroids, DORAs, duloxetine, beta-blockers, modafinil, H1 antihistamines, rapamycin, allopregnanolone, NAC, ketotifen, quercetin, taVNS). The hormesis framework unifies these observations via Nrf2-mediated compensatory upregulation (Calabrese corpus), catecholamine inverted-U at prefrontal D1/α2A receptors (Arnsten, Cools), mTORC1/mTORC2 dose selectivity (Sarbassov, Lamming), and biphasic concentration-response at GABA-A (Andreen). Falsifiable prediction: individual inversion-point position should correlate across drugs if there is a hormetic reserve trait; r ≥ 0.4 expected. Falsified if inversion-point correlation across drugs is r < 0.2. @Calabrese2002hormesisHistory @CalabreseBaldwin2003toxicologyRethinks @Calabrese2010hormesisCentral @Sun2020yinYangHormesis @Arnsten2011catecholaminePFC @Cools2011invertedU @Sarbassov2006rapamycin @Lamming2012rapamycin @Andreen2009allopregnanoloneBiphasic],[Phase 3 / 0.35],
 
   [oq:ldn-dose-response-research-gap], [No within-range LDN dose-response trial exists for ME-CFS. The upcoming LIFT trial uses a single fixed dose and cannot address this gap.],[Phase 3 / n/a],
 
 )
 
+= Entries added 2026-07-26g: Global Perspectives on ME/CFS
 
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
 
+  [ach:postinfectious-burden-geographic], [Post-infectious fatigue follows infectious disease burden geographically. Dengue (endemic in 100+ countries, predominantly LMICs) produces chronic fatigue comparable to post-EBV CFS (Condé 2026, first SR). Chikungunya: 38% chronic fatigue at 30mo (Duvignaud 2018). Post-epidemic sequelae documented across history (Miller 2026). The countries with the most triggering infections have the least ME/CFS diagnostic infrastructure. Global ME/CFS research studies only the fraction of post-infectious fatigue cases occurring in places where ME/CFS is diagnosed — a geographic selection bias of unknown magnitude.],[Phase 3 / 0.55],
 
+  [spec:lmic-fatigue-blind-spot], [Hypothesis: If post-infectious ME/CFS occurs at comparable rates across all triggering infections, LMICs with highest infectious-disease burden should have highest ME/CFS prevalence — but they report the lowest because they have least diagnostic infrastructure. Single data point: Iran post-COVID CFS 17.5% (Simani 2021). No replication from other LMICs.],[Phase 3 / 0.35],
+
+  [ach:neurasthenia-cultural-idiom], [Cross-cultural evidence (Ware & Kleinman 1992, Lee 1998, Starcevic 1999): neurasthenia in China and CFS in the US are different cultural idioms for overlapping fatigue syndromes. Shenjing shuairuo persists as culturally acceptable idiom in Chinese society. ME/CFS prevalence estimates using Western diagnostic criteria may produce artefactually low prevalence in non-Western settings — core finding conceptually replicated; inference untested.],[Phase 3 / 0.40],
+
+  [oq:cultural-idioms-beyond-east-asia], [Neurasthenia/CFS literature covers China and East Asia. No empirical cross-cultural ME/CFS studies from South Asia (kamzori, vata imbalance), Sub-Saharan Africa (post-malaria fatigue, "thinking too much"), or Latin America. Culturally validated ME/CFS screening tools do not exist for non-Western settings.],[Phase 3 / n/a],
+
+  [ach:clinical-diagnosis-without-testing], [IOM/CCC criteria require exclusion of alternative diagnoses via laboratory testing. In LMICs without reliable TSH, CBC, ferritin, CRP, or ANA testing, the diagnostic algorithm cannot be executed as written. Bangladesh RCT protocol (Sarker 2024) applies Fukuda criteria pragmatically. ICD codes exist globally; the diagnostic pathway that justifies assigning them does not.],[Phase 3 / 0.50],
+
+  [ach:icd-coding-disability-gap], [ME/CFS coded as G93.3 (ICD-10), 8E49 (ICD-11). ICD coding exists globally, but disability recognition requires national systems that operationalise the code. In LMICs where disability insurance is weak or absent, ICD coding confers no practical benefit. Policy wins at the global level do not translate to protection at the local level without national adoption.],[Phase 3 / 0.50],
+
+  [spec:tcm-herbal], [TCM herbal formulations show signal for fatigue reduction in 23 RCTs (n=1,776), but all low quality — small samples, high risk of bias, heterogeneous interventions (Wang 2014). Evidence insufficient for specific formulation recommendation.],[Phase 3 / 0.50],
+
+  [spec:tcm-mind-body], [Tai Chi, Qigong, Baduanjin show moderate effect on fatigue with no SAEs (Kong 2023 SR/MA). Accessible in LMIC settings where these practices are culturally embedded and low-cost. Generalisability to non-Chinese populations uncertain. PEM risk unstudied in these protocols — severe/very severe patients unlikely to tolerate.],[Phase 3 / 0.50],
+
+  [spec:acupuncture-moxibustion], [Acupuncture/moxibustion show small-to-moderate effect in 31 RCTs (Wang 2017 NMA). Widely available across East Asia and Indian AYUSH integration. Low-risk symptom-management option; not disease-modifying. Blinding limitations inherent to acupuncture RCTs.],[Phase 3 / 0.50],
+
+  [lim:tcm-evidence-fractional], [Traditional medicine evidence base for ME/CFS is almost entirely TCM. Systematic reviews of Ayurveda, Siddha, Unani, and African traditional medicine for chronic fatigue are absent from PubMed. Cannot generalise from TCM to other traditional medicine systems.],[Phase 3 / n/a],
+
+  [ach:neglected-disease-framing], [ME/CFS satisfies criteria for a neglected disease (Arron 2024): severe morbidity (EQ-5D ~0.40–0.55, worse than MS/stroke), mechanisms understudied, research concentrated in high-income countries. No WHO global ME/CFS initiative exists. No ME/CFS disability weight in GBD. National Academies IACI workshop (2024) identified cross-disease mechanisms but lacked LMIC representation.],[Phase 3 / 0.55],
+
+  [oq:global-surveillance], [No international surveillance system tracks post-infectious fatigue following dengue/chikungunya/COVID-19 outbreaks in LMICs. Bangladesh RCT protocol (Sarker 2024) provides small-scale model. Until a surveillance system exists, every assertion about global ME/CFS prevalence is an extrapolation.],[Phase 3 / n/a],
+
+  [lim:unfalsifiability-trap], [The hidden-burden thesis has unrestricted auxiliary hypotheses to absorb falsification — any null finding can be attributed to cultural inappropriateness of criteria, unavailable exclusionary workup, or wrong triggering infection. A non-falsifiable claim should carry lower certainty than structural plausibility alone warrants. The chapter must specify what evidence would change its mind. Origin: brainstorm Phase 4, categories 10 and 12.],[Phase 5 / n/a],
+
+  [oq:falsifying-hidden-burden-thesis], [Three categories of evidence would weaken/refute the hidden-burden thesis: (1) differential pathogen profiles — if post-infectious ME/CFS conversion rates vary by order of magnitude across triggering infections; (2) protective factors — helminth immune modulation, early-life immune training, younger population structure; (3) competing mortality — susceptible patients die of acute infection in LMICs. All counterarguments and the thesis they challenge rest on inference from the same absence of data. Origin: brainstorm Phase 4, categories 10 and 11.],[Phase 5 / 0.20],
+
+  [spec:icd11-empty-vessel], [ICD-11 8E49 is globally available — but the implementation pathway (national HIT adoption, physician training, diagnostic algorithms, disability systems, clinical guidelines) requires conditions absent from most LMICs. The code may produce zero measurable change in diagnosis rates where none of the 5 implementation conditions hold. Origin: brainstorm Phase 4, category 1.],[Phase 5 / 0.40],
+
+  [spec:sentinel-pem-surveillance], [Lowest-cost highest-value research action: add PEM-screening module (DSQ-PEM, 1-min sit-to-stand) to existing post-dengue/chikungunya/Zika cohort follow-ups in Brazil, India, Vietnam, Thailand. USD 150--300K, 5 sentinel sites, no lab infrastructure needed. Would generate first post-arboviral ME/CFS prevalence estimates. Origin: brainstorm Phase 4, category 2.],[Phase 5 / 0.40],
+
+  [oq:culturally-adapted-pem-tool], [PEM screening translated into Hindi, Bengali, Swahili cannot just translate "do you feel worse after exertion?" — must culturally calibrate exertion concepts, rest/work boundaries, and fatigue idioms. Cognitive interview methodology standard; gold-standard circularity problem: need culturally adapted criteria to identify patients to validate the tool. Origin: brainstorm Phase 4, category 2.],[Phase 5 / 0.35],
+)
+
+= Entries added 2026-07-26h: Economic Impact — Phase 3 (ch40)
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [ach:iom-benchmark], [IOM 2015 established baseline: 836,000--2.5M Americans affected; USD 17--24B annual economic cost; USD 18,000--29,000 per patient per year; indirect costs ~2/3 of total. Modeled extrapolation from prevalence surveys, not direct cost measurement. IOM + Clayton 2015 share same evidence base — treated as one source.],[Phase 3 / 0.77],
+
+  [ach:australian-costs], [Two independent Australian cost-of-illness studies converge on AU\$14.5B annual (Zhao 2023 n=128, AU\$28,800/patient) and AU\$14,523/patient mean annual cost (Close 2020 n=485, 73% indirect costs, 16.6% employed). Cross-national replication of IOM magnitude.],[Phase 3 / 0.70],
+
+  [ach:kce-belgium], [KCE Belgian HTA needs assessment (Cornelis 2026, n=749): mean 8.6yr work invalidity; 73.2% ≥1 comorbidity; 50% >2yr diagnostic delay. Government HTA body formally evaluating ME/CFS signals institutional recognition.],[Phase 3 / 0.68],
+
+  [ach:employment-gap], [Employment rates 16.6--27% across studies vs 60--84% general population. >75% unable to work (Podell 2020). NZ administrative data (Bowden 2026, n=1,902): 18.3% employed vs 83.8% general population. Spanish cohort (Castro-Marrero 2019): 52.3% unemployed, 45.3% on sick leave. Multiple countries, consistent direction.],[Phase 3 / 0.75],
+
+  [oq:employment-retention], [No study has tested workplace accommodations, flexible scheduling, remote work, or phased return-to-work programs for ME/CFS. Intervention question well-defined and testable; no funding body has prioritized it.],[Phase 3 / 0.55],
+
+  [ach:caregiver-burden], [Brittain 2021 (n=68 patients + 118 family members, FROM-16 tool): 87% family moderate/severe quality-of-life impact; 50.2% family-income reduction. No standalone monetary caregiver valuation exists. Informal care included in Australian cost-of-illness indirect-cost estimates.],[Phase 3 / 0.55],
+
+  [ach:burden-funding-ratio], [Mirin 2020: ME/CFS burden:funding ratio ~1,000:1 (USD 17--24B cost vs USD 15M NIH funding). MS comparator ~30:1 (USD 39,000--68,000/patient vs USD 115M); RA comparator ~32:1 (USD 12,000--21,000/patient vs USD 86M). Three-order-of-magnitude gap. Funding figures public NIH data and verifiable.],[Phase 3 / 0.65],
+
+  [lim:no-roi], [No formal return-on-investment analysis for ME/CFS research funding. Burden:funding ratio is descriptive, not causal. Cochrane 2021 systematic review confirmed zero cost-effectiveness studies for any ME/CFS intervention. This limitation is itself a consequence of the underfunding it critiques.],[Phase 3 / n/a],
+
+  [lim:no-cea], [Cochrane 2021: six pre-2021 economic evaluations, all CBT/GET-based, none based on modern non-GET care models. After NICE 2021 GET reversal, pre-2021 CEA evidence is not just thin — its clinical basis is obsolete. Wan 2024 bibliometric analysis confirms tiny, fragmented field.],[Phase 3 / n/a],
+
+  [spec:structural-neglect], [ME/CFS comparable to MS/RA on severity, prevalence, and economic burden but receives 7--13% of their per-DALY research funding. Gap too large to be explained by any single factor — likely self-reinforcing cycle: low funding → few researchers → slow progress → perceived intractable → continued low funding. Testable: dedicated research program with evaluation component.],[Phase 3 / 0.35],
+
+  [oq:missing-evidence], [Five identified gaps: (1) no US claims-data cost study; (2) no longitudinal lifetime-cost study; (3) no cost-effectiveness of diagnostic pathway; (4) no caregiver monetary valuation; (5) no developing-country data. All feasibly addressable with existing methods; gaps confirmed by systematic review (Cochrane 2021, Wan 2024).],[Phase 3 / 0.60],
+
+  [syn:economic-impact-model], [Cross-country synthesis: USD 18,000--29,000/patient/year; employment ~20% vs ~80% general; caregiver 50% income reduction; 1,000:1 burden:funding ratio; 30--40x worse than MS/RA. Strongest supported conclusion: current funding level unjustifiable on any cost-effectiveness principle. Policy change requires demonstrating current funding is indefensible, not computing optimal level.],[Phase 3 / 0.65],
+)
 
 
