@@ -6,13 +6,7 @@
 
 ---
 
-## Part A: Content Gaps (20 missing biomedical topics)
-
-Ranked, triaged, with falsifiable predictions. See [20260726-document-gap-analysis.md](./20260726-document-gap-analysis.md) for the full inventory.
-
-Top 5 immediately actionable: copper dysregulation (G4), myokines (G2), chronopharmacology (G5), bile acid signaling (G3), post-exertional hypoglycemia (G9).
-
----
+## Part A: Paper Structural Gaps (14 missing or scattered chapters/sections)
 
 ## Part B: Structural Chapter Gaps (14 missing chapters/sections)
 
@@ -101,4 +95,4 @@ These live in the SKILL.md appendix (lines ~1700-1775) as policy notes. They sho
 
 | Date | Change |
 |------|--------|
-| 2026-07-26 | Initial analysis: Part A (20 content gaps), Part B (14 structural chapter gaps), Part C (16 pipeline gaps), Part D (6 doc-instruction upgrades) |
+| 2026-07-26 | Initial analysis: Part A (14 structural chapter gaps), Part B (16 pipeline gaps), Part C (6 doc-instruction upgrades) |
