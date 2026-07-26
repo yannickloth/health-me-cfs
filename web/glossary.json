@@ -8349,5 +8349,25 @@
     "label": "TB",
     "category": "condition",
     "definition": "Tuberculosis — a bacterial infection caused by Mycobacterium tuberculosis, primarily affecting the lungs. Endemic in many LMICs. Post-TB chronic fatigue is documented but has not been evaluated for ME/CFS diagnostic criteria."
+  },
+  "hormesis": {
+    "label": "Hormesis",
+    "category": "mechanism",
+    "definition": "A biphasic dose-response phenomenon in which low-dose exposure to a stressor (drug, toxin, radiation) triggers compensatory adaptive upregulation — producing benefit — while higher doses suppress the same pathway, eliminating benefit or causing harm. Also called the inverted-U dose-response. The Calabrese corpus (Nature 2003, et seq.) establishes hormesis as the default dose-response model in pharmacology, not the exception. In ME/CFS, 17 medications (LDN, LDA, lithium, melatonin, sulforaphane, corticosteroids, DORAs, duloxetine, beta-blockers, modafinil, H1 antihistamines, NAC, rapamycin, allopregnanolone, ketotifen, quercetin, taVNS) exhibit non-monotonic dose-response through four mechanistic clusters: Nrf2-mediated compensatory upregulation, catecholamine inverted-U at prefrontal D1/α2A receptors, mTORC1/mTORC2 dose selectivity, and biphasic GABA-A/neurosteroid concentration-response."
+  },
+  "hormetic reserve": {
+    "label": "Hormetic Reserve",
+    "category": "mechanism",
+    "definition": "A hypothesized quantitative trait reflecting the width of an individual's hormetic dose-response windows across multiple drugs. If the dose at which a drug's benefit inverts (inversion-point) correlates across mechanically distinct drugs (r ≥ 0.4), hormetic reserve is a general systems property — narrow reserve indicates fragile adaptive stress-response networks. If inversion-points do not correlate (r < 0.2), dose-response curves are drug-specific, not a unified trait. Untested in any condition; the HIP-B (Hormetic Inversion-Point Battery) trial — 6 drugs, 20 patients, within-patient crossover — would be the first direct test."
+  },
+  "HIP-B": {
+    "label": "HIP-B",
+    "category": "research",
+    "definition": "Hormetic Inversion-Point Battery — a proposed 6-drug within-patient crossover trial (LDN, sulforaphane, duloxetine, modafinil, rapamycin, allopregnanolone) testing whether hormetic inversion-points correlate across mechanistically distinct drugs, testing whether hormetic reserve is a systems-level trait. Estimated cost: $600,000–$800,000."
+  },
+  "inverted-U": {
+    "label": "Inverted-U",
+    "category": "mechanism",
+    "definition": "Shorthand for the inverted-U dose-response curve — a non-monotonic relationship where benefit increases with dose to a maximum, then declines or inverts to harm at higher doses. The dose at which inversion occurs reveals the receptor reserve, endogenous tone, and fragility of the target system. See also: hormesis, hormetic reserve."
   }
 }
