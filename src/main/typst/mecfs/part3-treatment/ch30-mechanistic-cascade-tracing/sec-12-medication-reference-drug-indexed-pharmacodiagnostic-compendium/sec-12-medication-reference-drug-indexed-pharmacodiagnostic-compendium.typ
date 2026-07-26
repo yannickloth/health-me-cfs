@@ -1714,11 +1714,11 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Pentoxifylline
 
-*Appears in:* Cross-reference matrix Group B.
+*Appears in:* Cross-reference matrix Group B, @sec:aimm-cascade F0.
 
-#strong[+] RBC deformability deficit rate-limiting for microvascular perfusion. Pentoxifylline improves erythrocyte flexibility → improved capillary blood flow → confirms RBC rigidity is the dominant microvascular lesion. Additional TNF-α inhibition may provide anti-inflammatory benefit.
+#strong[+] RBC deformability deficit rate-limiting for microvascular perfusion. Pentoxifylline improves erythrocyte flexibility → improved capillary blood flow → confirms RBC rigidity is the dominant microvascular lesion. Additional TNF-α inhibition may provide anti-inflammatory benefit. If pentoxifylline improves NIRS-measured O₂ extraction → endothelial hypertrophy-induced luminal narrowing (Step F0c) is the rate-limiting barrier — flexible RBCs can now pass narrowed capillaries.
 
-#strong[−] RBC deformability not rate-limiting. If pentoxifylline fails but cilostazol works → the perfusion deficit is platelet/cAMP-mediated, not RBC-mediated. If pentoxifylline fails but L-arginine works → NO-mediated vasodilation is dominant; RBC flexibility is adequate.
+#strong[−] RBC deformability not rate-limiting. If pentoxifylline fails but cilostazol works → the perfusion deficit is platelet/cAMP-mediated, not RBC-mediated. If pentoxifylline fails but L-arginine works → NO-mediated vasodilation is dominant; RBC flexibility is adequate. If pentoxifylline fails AND endothelial hypertrophy is documented on EM → the bottleneck is NOT luminal narrowing but BM diffusion distance — making RBCs more flexible doesn't help if the BM itself is the barrier. Pentoxifylline response thus discriminates endothelial hypertrophy (F0c — treatable with RBC deformability enhancers) from BM thickening (F0a — not treatable with any currently approved drug).
 
 #strong[SE] GI upset → standard xanthine-derivative GI intolerance. Flushing → PDE inhibition-mediated vasodilation — confirms drug engagement. Minimal other side effects.
 
@@ -1822,11 +1822,11 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 
 === Pyridostigmine
 
-*Appears in:* @sec:aimm-cascade F1, cross-reference matrix.
+*Appears in:* @sec:aimm-cascade F0, @sec:aimm-cascade F1, cross-reference matrix.
 
-#strong[+] Cholinergic signaling intact — improves preload, HRV, and GI motility. AChE inhibition confirms the vagal efferent pathway is functional and rate-limiting.
+#strong[+] Cholinergic signaling intact — improves preload, HRV, and GI motility. AChE inhibition confirms the vagal efferent pathway is functional and rate-limiting. Modest VO₂ improvement (+0.9~mL/kg/min, $p = 0.002$ @Joseph2022neurovascularDysreg) suggests ~10% of the O₂ extraction deficit is perfusion-mediated; the remaining ~90% may be structural (capillary BM thickening — Step F0 @sec:aimm-cascade).
 
-#strong[−] Vagal efferent non-functional — DMV damage, ganglionic AChR AAb, or structural vagal lesion. If pyridostigmine fails but ivabradine works → HR is the bottleneck, not vagal tone.
+#strong[−] Vagal efferent non-functional — DMV damage, ganglionic AChR AAb, or structural vagal lesion. If pyridostigmine fails but ivabradine works → HR is the bottleneck, not vagal tone. If pyridostigmine fails AND all other perfusion-enhancing interventions (midodrine, compression, pentoxifylline) also fail → the deficit is structural capillary BM thickening (Step F0) — no amount of improved blood flow can accelerate O₂ diffusion through a pathologically thickened capillary wall. This is the most important null inference: pyridostigmine failure in the context of multi-modal perfusion intervention failure shifts the diagnostic focus from functional perfusion deficits to structural capillary pathology.
 
 #strong[SE] GI cramping at 30 mg → gut muscarinic hypersensitivity — enteric cholinergic denervation with compensatory receptor upregulation (Pattern 3). The cramping IS diagnostic: it confirms the gut cholinergic system is intact but hypersensitive.
 
