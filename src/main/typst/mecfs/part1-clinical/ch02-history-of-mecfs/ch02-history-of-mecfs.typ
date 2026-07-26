@@ -100,7 +100,7 @@ The 2015 Institute of Medicine (now National Academy of Medicine) report, commis
 - Post-exertional malaise is the cardinal feature
 - The name "chronic fatigue syndrome" trivializes the illness and should be replaced
 - Estimated prevalence: 836,000–2.5 million Americans
-- Estimated economic cost: \$17–24 billion annually
+- Estimated economic cost: \$17–24 billion annually (see @ch:economic-impact for full analysis)
 
 The IOM proposed "Systemic Exertion Intolerance Disease" (SEID) as a replacement name and defined the disorder by three required features: substantial reduction or impairment in functioning for at least six months, PEM, and unrefreshing sleep, plus either cognitive impairment or orthostatic intolerance. The SEID name was not universally adopted — patients and clinicians largely preferred ME/CFS — but the report marked the definitive institutional repudiation of the psychosomatic model.
 
