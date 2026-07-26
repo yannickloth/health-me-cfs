@@ -34,7 +34,42 @@
 
 | Hypothesis | Phase | Old cert | New cert | Δ | Reason |
 |-----------|-------|----------|----------|---|--------|
-| (empty — populated by Phases 6–7) |
+| `spec:neuroimmune-encephalopathy-spectrum` | 6 | 0.25 | 0.30 | +0.05 | PANS provides molecularly characterised anchor member for NES framework; reduces purely speculative nature of disease-class claim. Under PARTIAL cap (max 0.45). |
+| `oq:subclinical-autoimmunity` | 6 | N/A | N/A | N/A | Cross-reference to PANS precedent added (assay-limitation parallel); open-question has no cert value to bump. |
+
+## Phase 7 — Cross-Hypothesis Compatibility
+
+*Audit date:* 2026-07-26
+*Compatibility audit:* `tmp/compat-audit-pans-pandas-autism-2026-07-26.md`
+
+### Reinforcement Clusters
+
+| Cluster | Hypotheses | Shared Theme | Cluster Cert. |
+|---------|-----------|--------------|---------------|
+| R1 | `spec:pans-pandas-architecture-b`, `hyp:dopamine-adhd-secondary` | Acquired neuropsychiatric phenotype existence proof + ME/CFS mechanism | 0.40 |
+| R2 | `spec:neuroimmune-encephalopathy-spectrum`, ch16 PANS prose, `spec:ptlds-mecfs-mechanisms` | Post-infectious disease class framework | 0.45 |
+| R3 | `spec:haplogroup-u-adhd-mecfs`, `spec:mtdna-haplogroup-symptoms` | mtDNA haplogroup phenotypic modulation in ME/CFS | 0.33 |
+
+### Feed-Into Chains
+
+| Chain | Nodes | Cumul. Cert. | Mechanism Trace |
+|-------|-------|-------------|-----------------|
+| C1 | `spec:pans-pandas-architecture-b`→`spec:neuroimmune-encephalopathy-spectrum` | 0.30 | PANS as molecularly characterised anchor member → NES disease class plausibility |
+| C2 | `spec:neuroimmune-encephalopathy-spectrum`→`hyp:dopamine-adhd-secondary` | 0.30 | NES disease class framework → dopamine hypothesis as ME/CFS-specific circuit instantiation |
+| C3 | `spec:ptlds-mecfs-mechanisms`→`spec:neuroimmune-encephalopathy-spectrum` | 0.30 | PTLDS as bacterial-trigger parallel to PANS within NES framework |
+| C4 | `spec:haplogroup-u-adhd-mecfs`→`hyp:dopamine-adhd-secondary` | 0.20 | Mitochondrial reserve modulated by haplogroup → dopamine system energy budget → effort-invigoration |
+
+### Certainty Adjustments Proposed
+
+| Hypothesis | Current | Proposed | Δ | Reason |
+|------------|---------|----------|---|--------|
+| — | — | — | — | No bumps applied. 3 candidates evaluated and rejected: (1) `spec:pans-pandas-architecture-b`↔`hyp:dopamine-adhd-secondary`: meta-level reinforcement, not convergent mechanism; speculative pair guard (both <0.40). (2) `spec:haplogroup-u-adhd-mecfs`↔`spec:mtdna-haplogroup-symptoms`: same underlying evidence, not independent lines. (3) `spec:neuroimmune-encephalopathy-spectrum`: already received Phase 6 bump; one-per-cycle limit. |
+
+### Conflicts
+
+| Group | Hypotheses | Type | Resolution |
+|-------|-----------|------|------------|
+| — | — | — | No conflicts identified across 12 pairwise comparisons. All new hypotheses compatible with existing — operate at complementary levels of analysis (disease-class vs. circuit/vs. mechanism). |
 
 ## Phase 2 — Integration Decision: PARTIAL
 
