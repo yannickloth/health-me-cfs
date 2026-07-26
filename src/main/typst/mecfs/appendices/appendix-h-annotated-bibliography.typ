@@ -30645,3 +30645,149 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Standardised methodology urgently needed
     / *Conclusion:*: Most comprehensive economic burden review to date. Confirms substantial economic burden with major methodology gaps.
     / *Certainty:*: 0.70
+
+// =============================================================================
+
+<sec:bib-satellite-cell-regeneration>
+// =============================================================================
+
+=== Charlton et al.\ 2026 --- Satellite Cell Depletion in ME/CFS and Long COVID (AMS Conference Abstract C14)
+
+    / *Full Citation:*: Charlton BT, Slaghekke A, Huijts JY, Appelman B, Chen PL, Goulding RP, Bloemers F, Posthuma JJ, van Amstel P, Noort W, Jaspers RT, van Vugt M, Wüst RCI. An Inability to Recover: Reduced Regenerative Markers and Altered Metabolism in Patients with ME/CFS and Long COVID. AMS 2026 Conference, Abstract C14. @Charlton2026SCdepletion
+    / *Study Design:*: Cross-sectional case-control; vastus lateralis biopsy; IHC for Pax7 (satellite cells) and PDGFRα (FAP cells); high-resolution respirometry; metabolomics
+    / *Sample Size:*: n=26 ME/CFS, n=25 Long COVID, n=30 healthy controls
+    / *Key Findings:*:
+        - Reduced Pax7+ satellite cells (P<0.001) — first direct measurement in ME/CFS/LC
+        - Trending reduced PDGFRα+ FAP cells (P=0.061) — niche support cells
+        - SC count correlated with OXPHOS capacity (r=0.43, P=0.0035)
+        - Metabolic shift away from oxidative metabolism
+        - Reduced antioxidative metabolites
+    / *Conclusion:*: Satellite cell depletion, linked to impaired oxidative phosphorylation, may explain the inability to repair exercise-induced muscle damage in ME/CFS and LC.
+    / *Limitations:*: Conference abstract — no full methods, subgroup analyses, or confounder-adjusted models available; single biobank (same cohort as Appelman 2024, Charlton 2025, Slaghekke 2026 F5); no independent replication; no functional SC assays; no adjustment for age/menopause/physical activity.
+    / *Certainty:*: 0.40
+
+=== Hejbøl et al.\ 2022 --- Myopathy in Post-COVID Fatigue (Muscle Biopsy Histopathology)
+
+    / *Full Citation:*: Hejbøl EK, Harbo T, Agergaard J, Madsen LB, Pedersen TH, Østergaard LJ, Tankisi H, Schrøder HD. Myopathy as a Cause of Fatigue in Long-Term Post-COVID-19 Symptoms: Evidence of Skeletal Muscle Histopathology. _European Journal of Neurology_. 2022;29(9):2832-2841. @Hejbol2022myopathy
+    / *DOI:*: #link("https://doi.org/10.1111/ene.15435")[10.1111/ene.15435]
+    / *PMID:*: 35661354
+    / *Study Design:*: Cross-sectional case-control; vastus lateralis biopsy with histopathology
+    / *Sample:*: n=14 Long COVID with fatigue, n=6 healthy controls
+    / *Key Findings:*:
+        - Fiber atrophy in 71% of patients
+        - Fiber type grouping in 57% (indicates denervation-reinnervation cycles)
+        - Signs of muscle regeneration in 43% (split fibers, central nuclei)
+        - Type II fiber predominance in 36%
+        - Consistent with repeated cycles of damage and incomplete repair
+    / *Conclusion:*: Long COVID fatigue is associated with myopathic changes including evidence of incomplete muscle regeneration — indirect evidence for impaired satellite cell function.
+    / *Limitations:*: Small sample; no direct SC quantification (pre-Charlton 2026); cross-sectional; no ME/CFS comparator group.
+    / *Certainty:*: 0.60
+
+=== Gerwyn and Maes 2017 --- Muscle Fatigue and Pain Mechanisms in ME/CFS
+
+    / *Full Citation:*: Gerwyn M, Maes M. Mechanisms Explaining Muscle Fatigue and Muscle Pain in Patients with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS): A Review of Recent Findings. _Current Rheumatology Reports_. 2017;19(1):1. @Gerwyn2017muscleFatigue
+    / *DOI:*: #link("https://doi.org/10.1007/s11926-017-0628-x")[10.1007/s11926-017-0628-x]
+    / *PMID:*: 28116577
+    / *Study Design:*: Narrative review
+    / *Key Findings:*:
+        - Chronic oxidative and nitrosative stress (O\&NS) in ME/CFS muscle
+        - O\&NS impairs muscle repair and adaptive responses to physical activity
+        - Reduced heat shock protein production compromises muscle stress tolerance
+        - Links systemic inflammation to impaired muscle regeneration
+    / *Conclusion:*: Chronic O\&NS and impaired heat shock protein production may explain impaired muscle repair in ME/CFS — providing mechanistic support for satellite cell dysfunction observed 9 years later.
+    / *Limitations:*: Narrative review from researchers associated with the O\&NS hypothesis; no direct SC data; pre-COVID.
+    / *Certainty:*: 0.40
+
+=== Colosio et al.\ 2023 --- Structural and Functional Skeletal Muscle Impairments in PASC
+
+    / *Full Citation:*: Colosio M, Brocca L, Gatti MF, Neri M, Crea E, Cadile F, Canepari M, Pellegrino MA, Polla B, Bottinelli R. Structural and Functional Impairments of Skeletal Muscle in Patients with Postacute Sequelae of SARS-CoV-2 Infection. _Journal of Applied Physiology_. 2023;135(4):902-917. @Colosio2023musclePASC
+    / *DOI:*: #link("https://doi.org/10.1152/japplphysiol.00119.2023")[10.1152/japplphysiol.00119.2023]
+    / *PMID:*: 37675472
+    / *Study Design:*: Cross-sectional case-control; vastus lateralis biopsy + single fiber contractile measurements
+    / *Sample:*: n=22 PASC patients, n=11 controls
+    / *Key Findings:*:
+        - Reduced cross-sectional area of type IIx fibers (P=0.02)
+        - Lower specific force in skinned fibers
+        - Preserved mitochondrial respiration (unlike Charlton 2026)
+        - No frank atrophy — early-stage functional impairment
+    / *Conclusion:*: Functional impairment may precede structural degeneration in PASC — suggestive of inadequate or incomplete regenerative response.
+    / *Limitations:*: Inconsistent with Charlton/Wüst finding of reduced OXPHOS; no regenerative markers quantified (pre-Charlton 2026 SC data); moderate sample.
+    / *Certainty:*: 0.55
+
+=== Bhattacharya and Scimè 2024 --- Metabolic Reprogramming in Satellite Cells
+
+    / *Full Citation:*: Bhattacharya D, Scimè A. Metabolic Reprogramming in Skeletal Muscle Stem Cells During Activation and Differentiation. _Skeletal Muscle_. 2024;14:18. @Bhattacharya2024SCmetabolic
+    / *DOI:*: #link("https://doi.org/10.1186/s13395-024-00352-2")[10.1186/s13395-024-00352-2]
+    / *PMID:*: 40917051
+    / *Study Design:*: Expert review
+    / *Key Findings:*:
+        - Quiescent SCs rely on fatty acid oxidation
+        - SC activation triggers a metabolic switch to glycolysis
+        - Differentiation requires mitochondrial biogenesis and OXPHOS
+        - Impaired OXPHOS directly blocks myogenic differentiation
+    / *Conclusion:*: The SC-OXPHOS dependency provides mechanistic basis for the Charlton 2026 r=0.43 correlation: mitochondrial dysfunction in ME/CFS would be expected to impair SC differentiation and self-renewal.
+    / *Limitations:*: Review paper; no disease-specific data; general biology.
+    / *Certainty:*: 0.75
+
+=== Dumont et al.\ 2015 --- Satellite Cell Biology (Comprehensive Review)
+
+    / *Full Citation:*: Dumont NA, Bentzinger CF, Sincennes MC, Rudnicki MA. Satellite Cells and Skeletal Muscle Regeneration. _Comprehensive Physiology_. 2015;5(3):1027-1059. @Dumont2015SCbiology
+    / *DOI:*: #link("https://doi.org/10.1002/cphy.c140068")[10.1002/cphy.c140068]
+    / *PMID:*: 26140708
+    / *Study Design:*: Authoritative comprehensive review (Rudnicki lab — world-leading SC research group)
+    / *Key Findings:*:
+        - Pax7 as the canonical SC marker and master regulator
+        - SC quiescence, activation, proliferation, self-renewal, and differentiation cascade
+        - Myf5-MyoD-Myogenin regulatory cascade
+        - SC niche composition and regulation
+        - Mechanisms of SC depletion with aging and disease
+    / *Conclusion:*: Foundational reference for interpreting Pax7+ SC depletion data in any disease context.
+    / *Limitations:*: No ME/CFS data; general biology review.
+    / *Certainty:*: 0.85
+
+=== Yin et al.\ 2013 --- Satellite Cell Niche Biology
+
+    / *Full Citation:*: Yin H, Price F, Rudnicki MA. Satellite Cells and the Muscle Stem Cell Niche. _Physiological Reviews_. 2013;93(1):23-67. @Yin2013SCniche
+    / *DOI:*: #link("https://doi.org/10.1152/physrev.00043.2011")[10.1152/physrev.00043.2011]
+    / *PMID:*: 23303905
+    / *Study Design:*: Authoritative comprehensive review (Rudnicki lab)
+    / *Key Findings:*:
+        - FAP cells (PDGFRα+) are essential niche support cells for SCs
+        - Inflammatory signals (TNFα, IL-6) activate SCs — but chronic exposure drives exhaustion
+        - Oxidative stress impairs SC self-renewal
+        - SC depletion is a recognized consequence of chronic inflammatory disease
+    / *Conclusion:*: The Charlton 2026 finding of both SC depletion and trending FAP depletion suggests the SC niche itself may be compromised. Chronic inflammation (well-documented in ME/CFS) is an established driver of SC exhaustion.
+    / *Limitations:*: No ME/CFS data; general biology review.
+    / *Certainty:*: 0.90
+
+=== Soares et al.\ 2022 --- Skeletal Muscle in Acute and Post-Acute COVID-19
+
+    / *Full Citation:*: Soares MN, Eggelbusch M, Naddaf E, Gerrits KHL, van der Schaaf M, van den Borst B, Wiersinga WJ, van Vugt M, Weijs PJM, van Gassel RJJ, Jörneskog G, Denissen KFM, Wüst RCI. Skeletal Muscle Alterations in Patients with Acute COVID-19 and Post-Acute Sequelae of COVID-19. _Journal of Cachexia, Sarcopenia and Muscle_. 2022;13(1):11-22. @Soares2022muscleCOVID
+    / *DOI:*: #link("https://doi.org/10.1002/jcsm.12872")[10.1002/jcsm.12872]
+    / *PMID:*: 34997689
+    / *Study Design:*: Narrative review (same Wüst lab)
+    / *Key Findings:*:
+        - Skeletal muscle atrophy in acute COVID-19 via multiple pathways (immobilization, inflammation, hypoxia, corticosteroids)
+        - Impaired regenerative capacity recognized as post-acute sequela
+        - Mitochondrial dysfunction and capillary rarefaction in post-COVID muscle
+        - Precedent for muscle structural pathology in post-viral syndromes
+    / *Conclusion:*: Establishes the research context for the Wüst lab's subsequent muscle biopsy program in post-viral fatigue.
+    / *Limitations:*: Narrative review; same lab as primary SC finding; no original SC data.
+    / *Certainty:*: 0.60
+
+=== Vecchiet et al.\ 1996 --- Early CFS Muscle Biopsy with Regeneration and Mitochondrial Pathology
+
+    / *Full Citation:*: Vecchiet L, Montanari G, Pizzigallo E, Iezzi S, de Bigontina P, Dragani L, Vecchiet J, Giamberardino MA. Sensory Characterization of Somatic Parietal Tissues in Humans with Chronic Fatigue Syndrome. _Neuroscience Letters_. 1996;208(2):117-120. @Vecchiet1996muscleCFS
+    / *DOI:*: #link("https://doi.org/10.1016/0304-3940(96)12559-3")[10.1016/0304-3940(96)12559-3]
+    / *PMID:*: 8859904
+    / *Study Design:*: Cross-sectional; quadriceps biopsy + pain thresholds + electron microscopy
+    / *Sample:*: n=21 CFS patients, n=4 controls (biopsy subset n=9)
+    / *Key Findings:*:
+        - Morphostructural sarcoplasmic alterations: fatty degeneration, fibrous regeneration
+        - Mitochondrial polymorphism and monstrosity on EM
+        - Reduced mitochondrial enzyme activities (cytochrome oxidase/succinate dehydrogenase)
+        - mtDNA common deletion 4977bp elevated 150-3000× normal values
+        - Selective muscle hyperalgesia (P<0.001) with normal skin/subcutis thresholds
+    / *Conclusion:*: Earliest evidence of disrupted muscle regeneration and mitochondrial pathology in CFS, published 30 years before Charlton 2026 but consistent with satellite cell dysfunction.
+    / *Limitations:*: Small sample (n=9 biopsied); 1990s methodology; no SC-specific markers; pre-consensus diagnostic criteria.
+    / *Certainty:*: 0.25
