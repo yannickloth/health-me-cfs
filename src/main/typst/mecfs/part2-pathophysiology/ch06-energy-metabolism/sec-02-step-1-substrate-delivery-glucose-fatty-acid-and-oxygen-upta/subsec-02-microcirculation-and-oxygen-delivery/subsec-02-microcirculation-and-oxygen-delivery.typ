@@ -48,7 +48,7 @@ The electron microscopy finding of endothelial hypertrophy, microvacuolization, 
 (Origin: brainstorm.)
 
 *Falsifiable predictions:*
-    + EM-measured capillary luminal diameter distribution should have wider variance in ME/CFS vs controls — indicating heterogeneous narrowing — and the fraction of capillaries with luminal diameter $<$ 4 µm should correlate with NIRS spatial heterogeneity (variance in tissue O₂ saturation across muscle regions)
+    + EM-measured capillary luminal diameter distribution should have wider variance in ME/CFS vs controls — indicating heterogeneous narrowing — and the fraction of capillaries with luminal diameter $< 4$ µm should correlate with NIRS spatial heterogeneity (variance in tissue O₂ saturation across muscle regions)
     + Pentoxifylline (RBC deformability enhancer) should improve NIRS-measured O₂ extraction more in patients with higher RBC stiffness — but only if luminal narrowing is not so severe that even flexible RBCs cannot transit
     + Falsified if: luminal diameter distribution is identical between ME/CFS and controls — endothelial hypertrophy is EM artifact or functionally inconsequential, in which case perfusion heterogeneity is not the rate-limiting mechanism
 
@@ -58,7 +58,6 @@ The electron microscopy finding of endothelial hypertrophy, microvacuolization, 
 #limitation(title: [Skeletal Muscle Specificity — A Local or Systemic Microvascular Disease?])[
 The capillary BM thickening and endothelial pathology documented to date are limited to limb skeletal muscle (vastus lateralis, biceps brachii, anterior tibialis). No data exist for diaphragm, cardiac muscle, smooth muscle (GI tract, bladder), or skin capillaries. If BM thickening is restricted to limb skeletal muscle, the mechanism is limited to exertional symptoms and cannot explain CNS, GI, cardiac, or cutaneous symptoms. If BM thickening is present in all capillary beds, muscle biopsy findings reveal a systemic microvascular disease of which skeletal muscle is merely the most accessible manifestation. The distinction determines whether BM thickening is a consequence of muscle-specific factors (disuse, repetitive micro-injury, metabolite accumulation) or a systemic endothelial/BM disorder: same-patient multi-site biopsy or skin capillary BM measurement is needed to resolve this. *Consequence:* We don't yet know whether this is a muscle problem or a whole-body capillary disease — the answer determines whether treatments targeting capillary structure need to be systemic or can be muscle-localized. Patients with primarily muscle symptoms and no systemic involvement may need a different treatment strategy than patients whose every organ's capillaries are affected.
 ] <lim:muscle-specific-microvascular>
-]]
 
 ==== Brain Microvascular Insufficiency
 
