@@ -12,3 +12,5 @@
 
 #include "subsec-05-metabolic-trap-ido-kynurenine-pathway/subsec-05-metabolic-trap-ido-kynurenine-pathway.typ"
 
+#include "subsec-06-iron-redox-functional-deficiency/subsec-06-iron-redox-functional-deficiency.typ"
+

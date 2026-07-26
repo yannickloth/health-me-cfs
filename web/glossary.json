@@ -6812,5 +6812,93 @@
     "label": "Immunohistochemistry (IHC)",
     "category": "method",
     "definition": "A laboratory technique that uses antibodies to detect specific proteins in tissue sections. Used in ME/CFS muscle biopsy studies to quantify capillary density and identify immune cell infiltration."
+  },
+  "Deferiprone": {
+    "label": "Deferiprone (Ferriprox)",
+    "category": "medication",
+    "definition": "An oral iron-chelating medication that binds and removes excess iron from the body. FDA-approved for transfusional iron overload in thalassemia. Carries a black-box warning for agranulocytosis (dangerously low white blood cells). Not approved for ME/CFS or post-viral fatigue. Weekly blood monitoring mandatory during treatment.",
+    "generic": "deferiprone",
+    "brand": "Ferriprox, Ferriprox Twice-A-Day",
+    "class": "antidotes, chelating agents",
+    "rx": "Prescription only — FDA-approved for thalassemia, off-label for other iron overload conditions",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=deferiprone%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=deferiprone"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/deferiprone"
+      }
+    ]
+  },
+  "ferritinophagy": {
+    "label": "Ferritinophagy",
+    "category": "pathway",
+    "definition": "The selective degradation of ferritin (the iron storage protein) by autophagy, mediated by the cargo receptor NCOA4. Ferritinophagy releases stored iron from ferritin for cellular use. If blocked, iron remains trapped in ferritin and unavailable for export."
+  },
+  "NCOA4": {
+    "label": "NCOA4",
+    "category": "enzyme",
+    "definition": "Nuclear receptor coactivator 4 — a selective cargo receptor that targets ferritin to the autophagosome for degradation (ferritinophagy). NCOA4 suppression traps iron inside ferritin, contributing to functional iron deficiency."
+  },
+  "LCN2": {
+    "label": "Lipocalin-2 (LCN2 / NGAL)",
+    "category": "enzyme",
+    "definition": "Lipocalin-2, also known as NGAL (neutrophil gelatinase-associated lipocalin), is a protein that binds siderophore-iron complexes and delivers them to cells, bypassing the normal transferrin-based iron delivery system. Elevated LCN2 can create a futile iron cycle that traps iron in macrophages."
+  },
+  "ceruloplasmin": {
+    "label": "Ceruloplasmin",
+    "category": "enzyme",
+    "definition": "A copper-containing ferroxidase enzyme that converts Fe²⁺ to Fe³⁺, enabling iron to bind to transferrin after export from cells via ferroportin. Without functional ceruloplasmin, exported iron cannot be loaded onto transferrin and is lost to non-specific reuptake."
+  },
+  "ferroxidase": {
+    "label": "Ferroxidase",
+    "category": "enzyme",
+    "definition": "Enzymes that oxidise Fe²⁺ (ferrous iron) to Fe³⁺ (ferric iron), a necessary step for iron to bind transferrin. Ceruloplasmin and hephaestin are the two main ferroxidases. Impaired ferroxidase activity produces functional iron deficiency even when iron is exported from cells."
+  },
+  "IRP": {
+    "label": "Iron Regulatory Proteins (IRP1/IRP2)",
+    "category": "enzyme",
+    "definition": "Iron Regulatory Proteins 1 and 2 — master regulators of cellular iron homeostasis. They bind to iron-responsive elements (IREs) on mRNAs encoding ferritin, ferroportin, transferrin receptor, and other iron proteins, controlling their translation in response to cellular iron levels. IRP dysfunction can trap iron independently of hepcidin."
+  },
+  "FTR": {
+    "label": "Ferritin:TSAT Ratio (FTR)",
+    "category": "measurement",
+    "definition": "The ratio of serum ferritin (µg/L) divided by transferrin saturation (%). FTR > 10 suggests functional iron deficiency (iron present but trapped); FTR < 5 suggests genuine iron deficiency. A proposed — but not yet validated — diagnostic tool for distinguishing iron phenotypes in post-viral fatigue."
+  },
+  "NTBI": {
+    "label": "Non-Transferrin-Bound Iron (NTBI)",
+    "category": "measurement",
+    "definition": "A labile, redox-active form of iron circulating in plasma that is not bound to transferrin. NTBI can enter cells through unregulated pathways and catalyse lipid peroxidation (ferroptosis). Elevated NTBI is a risk factor for tissue iron loading and oxidative damage."
+  },
+  "4HNE": {
+    "label": "4-Hydroxynonenal (4-HNE)",
+    "category": "biomarker",
+    "definition": "A major product of lipid peroxidation and a biomarker of ferroptosis (iron-dependent cell death). Elevated 4-HNE indicates oxidative damage to cell membranes. Measured in research settings to assess ferroptosis activity."
+  },
+  "MDA": {
+    "label": "Malondialdehyde (MDA)",
+    "category": "biomarker",
+    "definition": "A product of lipid peroxidation and a biomarker of oxidative stress and ferroptosis. Elevated MDA indicates free-radical damage to polyunsaturated fatty acids in cell membranes. Often measured alongside 4-HNE in ferroptosis research."
+  },
+  "lipid peroxidation": {
+    "label": "Lipid Peroxidation",
+    "category": "pathway",
+    "definition": "The oxidative degradation of lipids by reactive oxygen species, where free radicals steal electrons from cell membrane fatty acids, producing chain reactions that damage membranes. The hallmark of ferroptosis (iron-dependent cell death). Measured via 4-HNE and MDA."
+  },
+  "labile iron pool": {
+    "label": "Labile Iron Pool (LIP)",
+    "category": "measurement",
+    "definition": "The small, metabolically active fraction of cellular iron that is loosely bound and available for redox reactions. The LIP is both the substrate for essential iron-dependent enzymes and the catalytic iron that drives ferroptosis. Measured in research using fluorescent calcein-AM quenching."
+  },
+  "aconitase": {
+    "label": "Aconitase",
+    "category": "enzyme",
+    "definition": "A Krebs cycle enzyme that converts citrate to isocitrate. Its Fe-S cluster makes it sensitive to oxidative stress and iron availability. Aconitase exists in two cellular forms: mitochondrial (ACO2, Krebs cycle) and cytosolic (ACO1/IRP1, which doubles as an iron regulatory protein)."
   }
 }
