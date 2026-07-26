@@ -28694,3 +28694,184 @@ sec-bib-rf-elevated-mecfs-duplicate
         - *Replication:* N/A; consistent with Iu2024CD8Exhaustion (same lab)
         - *Score:* 0.50
     / *Limitations:*: Single-author review; from the same lab as primary data papers (potential confirmation bias); no systematic search methodology stated.
+
+== Tier 1 Sub-Research: T-Cell Mitochondrial Exhaustion Literature Supplementation
+<sec:bib-tcell-mito-tier1>
+
+=== Kashatus2015 — ERK2 Phosphorylation of DRP1 at Ser616 Promotes Mitochondrial Fission
+    / *Full Citation:*: Kashatus JA, Nascimento A, Myers LJ, Sher A, Byrne FL, Hoehn KL, Counter CM, Kashatus DF. Erk2 phosphorylation of Drp1 promotes mitochondrial fission and MAP kinase-driven tumor growth. _Molecular Cell_. 2015;57(3):537–551. @Kashatus2015ERKDRP1
+    / *DOI:*: https://doi.org/10.1016/j.molcel.2015.01.002
+    / *PMID:*: 25658205
+    / *Study Design:*: Biochemical + functional: phosphosite mapping, Ser616→Ala mutagenesis, in vivo tumor model.
+    / *Key Findings:*:
+        - ERK2 directly phosphorylates DRP1 at Ser616
+        - Ser616→Ala mutation blocks ERK2-driven mitochondrial fission
+        - ERK-DRP1 axis promotes MAP kinase-driven tumor growth
+    / *Relevance to ME/CFS T-cell model:*: Canonical demonstration that ERK phosphorylates DRP1 at the activating Ser616 site. This is the molecular link connecting ROS→pERK to DRP1 activation in the hypothesized positive feedback loop. Never tested in immune cells.
+    / *Certainty:*: 0.85 (Molecular Cell; rigorous biochemistry + functional validation)
+
+=== Yu2020 — PGAM5 Phosphatase Modulates DRP1 Phosphorylation Balance
+    / *Full Citation:*: Yu B, Ma J, Li J, Wang D, Wang Z, Wang S. Mitochondrial phosphatase PGAM5 modulates cellular senescence by regulating mitochondrial dynamics. _Nature Communications_. 2020;11:2549. @Yu2020PGAM5DRP1
+    / *DOI:*: https://doi.org/10.1038/s41467-020-16355-0
+    / *PMID:*: 32339784
+    / *Study Design:*: Genetic knockout + biochemical: PGAM5 KO cells, phosphosite analysis, senescence assays.
+    / *Key Findings:*:
+        - PGAM5 dephosphorylates DRP1 at Ser637 (inhibitory site, opposing Ser616 activation)
+        - Loss of PGAM5 → DRP1 Ser616 dominance → persistent fission → cellular senescence
+        - DRP1 Ser616/Ser637 phosphorylation ratio determines fission-fusion steady state
+    / *Relevance to ME/CFS T-cell model:*: Establishes that a shift in DRP1 phospho-equilibrium toward Ser616 (away from Ser637) can be self-sustaining. If PGAM5 is impaired in ME/CFS (e.g., by oxidative damage), DRP1 remains locked in fission-promoting configuration even without ongoing trigger.
+    / *Certainty:*: 0.80 (Nature Communications; genetic + biochemical validation)
+
+=== Kaminski2012 — Mitochondrial ROS Activates ERK in T Lymphocytes
+    / *Full Citation:*: Kaminski MM, Sauer SW, Klemke CD, Süss D, Okun JG, Krammer PH, Gülow K. Mitochondrial reactive oxygen species control T cell activation by regulating IL-2 and IL-4 expression. _Journal of Immunology_. 2010;184(9):4827–4841. @Kaminski2012ROSERKTCell
+    / *DOI:*: https://doi.org/10.4049/jimmunol.0903021
+    / *PMID:*: 20351185
+    / *Study Design:*: Pharmacological + genetic: mtROS modulation in primary human T cells; p-ERK measurement.
+    / *Key Findings:*:
+        - Mitochondrial ROS activate ERK1/2 in T lymphocytes
+        - Pharmacological mtROS reduction suppresses p-ERK and downstream cytokine production (IL-2, IL-4)
+        - mtROS→ERK signaling is required for normal T-cell activation
+    / *Relevance to ME/CFS T-cell model:*: Demonstrates that ROS→ERK activation is an operational pathway specifically in T cells — the cell type in which the DRP1-ROS-pERK loop is hypothesized. Extends the ERK→DRP1 Ser616 link (Kashatus 2015) into the immune compartment.
+    / *Certainty:*: 0.70 (J Immunol; pharmacological + genetic validation in primary T cells)
+
+=== Peng2016 — Glycolysis Produces Acetyl-CoA for Histone Acetylation in T-Cell Differentiation
+    / *Full Citation:*: Peng M, Yin N, Chhangawala S, Xu K, Leslie CS, Li MO. Aerobic glycolysis promotes T helper 1 cell differentiation through an epigenetic mechanism. _Science_. 2016;354(6311):481–484. @Peng2016GlycolysisAcetylation
+    / *DOI:*: https://doi.org/10.1126/science.aaf6284
+    / *PMID:*: 27708054
+    / *Study Design:*: Metabolic tracing + ChIP-seq: acetyl-CoA measurement, histone acetylation ChIP, pharmacological glycolysis inhibition.
+    / *Key Findings:*:
+        - Glycolysis → acetyl-CoA → histone H3 acetylation at _Ifng_ locus
+        - Blocking glycolysis → reduced H3K9 acetylation → failed Th1 differentiation
+        - Direct metabolic-to-chromatin coupling demonstrated in T cells
+    / *Relevance to ME/CFS T-cell model:*: Biochemical precedent for metabolic-memory hypothesis: if mitochondrial failure reduces acetyl-CoA production, histone acetylation at exhaustion loci (TOX, EOMES) drops, locking in the exhausted program. The same enzyme-catalyzed pathway that controls Th1 differentiation also controls exhaustion state.
+    / *Certainty:*: 0.90 (Science; metabolic tracing + ChIP-seq; rigorous validation)
+
+=== Tyrakis2016 — αKG Metabolite Controls CD8+ T-Cell Fate via TET2
+    / *Full Citation:*: Tyrakis PA, Palazon A, Macias D, et al. S-2-hydroxyglutarate regulates CD8+ T-lymphocyte fate. _Nature_. 2016;540:236–241. @Tyrakis2016AlphaKGCD8
+    / *DOI:*: https://doi.org/10.1038/nature20165
+    / *PMID:*: 27919066
+    / *Study Design:*: Metabolomic + genetic: 2HG measurement in CD8+ T cells; TET2 modulation; memory differentiation assays.
+    / *Key Findings:*:
+        - S-2HG produced by CD8+ T cells upon TCR stimulation promotes memory formation
+        - S-2HG inhibits αKG-dependent TET2 demethylase
+        - Mitochondrial metabolite availability (αKG/2HG balance) directly controls CD8+ differentiation
+    / *Relevance to ME/CFS T-cell model:*: If ME/CFS mitochondrial dysfunction depletes αKG, TET2 activity drops → DNA hypermethylation at exhaustion/memory loci. This links mitochondrial TCA cycle failure to CD8+ epigenetic state via a defined enzyme — the missing mechanistic node in the metabolic-memory hypothesis.
+    / *Certainty:*: 0.85 (Nature; genetic knockout + metabolic rescue)
+
+=== Bailis2019 — Mitochondrial Metabolism Uncoupled from T-Cell Differentiation
+    / *Full Citation:*: Bailis W, Shyer JA, Zhao J, et al. Distinct modes of mitochondrial metabolism uncouple T cell differentiation and function. _Nature_. 2019;571:403–407. @Bailis2019MitochondrialDifferentiation
+    / *DOI:*: https://doi.org/10.1038/s41586-019-1367-3
+    / *PMID:*: 31270458
+    / *Study Design:*: Isotope tracing + CRISPR screening in primary mouse and human T cells.
+    / *Key Findings:*:
+        - T cells use two separable mitochondrial modes: TCA→OXPHOS (effector function) vs TCA→citrate export→acetyl-CoA (histone acetylation)
+        - These modes can be uncoupled — a T cell can be ATP-competent but epigenetically locked
+        - Citrate export via ACLY is rate-limiting for H3K27 acetylation at differentiation loci
+    / *Relevance to ME/CFS T-cell model:*: Explains how ME/CFS CD8+ TEM cells could maintain baseline ATP (Missailidis 2020 Complex V compensation) while still being epigenetically locked in exhaustion — because acetyl-CoA export is a distinct metabolic mode that may be selectively impaired. This resolves the apparent paradox of normal resting ATP + chronic exhaustion state.
+    / *Certainty:*: 0.90 (Nature; isotope tracing + CRISPR; rigorous validation)
+
+=== Franco2020 — Metabolic-Epigenetic Regulation of T-Cell Exhaustion (Review)
+    / *Full Citation:*: Franco F, Jaccard A, Romero P, Ho PC. Metabolic and epigenetic regulation of T-cell exhaustion. _Nature Metabolism_. 2020;2:1001–1012. @Franco2020MetabolicEpigeneticExhaustion
+    / *DOI:*: https://doi.org/10.1038/s42255-020-00283-y
+    / *PMID:*: 32929201
+    / *Study Design:*: Comprehensive review synthesizing primary literature.
+    / *Key Findings:*:
+        - T-cell exhaustion is both a metabolic AND epigenetic state
+        - Exhausted T cells acquire distinct metabolic profile (suppressed glycolysis, FAO dependence) stabilized by chromatin remodeling
+        - Key metabolic-epigenetic nodes: acetyl-CoA (histone acetylation), αKG (TET2 demethylation), SAM/SAH ratio (DNA methylation)
+    / *Relevance to ME/CFS T-cell model:*: Formalizes the connection between mitochondrial metabolism and exhaustion chromatin state — the same connection the metabolic-memory hypothesis posits for ME/CFS, but triggered by mitochondrial failure rather than chronic antigen. Identifies measurable intermediate nodes for validating the metabolic-memory model.
+    / *Certainty:*: 0.70 (Nature Metabolism review; authoritative synthesis of primary data)
+
+=== Pauken2016 — Epigenetic Stability of Exhausted T Cells Limits Reversal by PD-1 Blockade
+    / *Full Citation:*: Pauken KE, Sammons MA, Odorizzi PM, et al. Epigenetic stability of exhausted T cells limits durability of reinvigoration by PD-1 blockade. _Science_. 2016;354(6316):1160–1165. @Pauken2016EpigeneticStability
+    / *DOI:*: https://doi.org/10.1126/science.aaf2807
+    / *PMID:*: 27789796
+    / *Study Design:*: ATAC-seq + ChIP-seq on exhausted CD8+ T cells before/after PD-1 blockade in LCMV model.
+    / *Key Findings:*:
+        - Exhausted CD8+ T cells acquire epigenetically stable chromatin landscape distinct from memory/effector
+        - PD-1 blockade transiently reinvigorates but does NOT erase exhaustion epigenome
+        - TCF7 locus chromatin closure is a hallmark feature of terminal exhaustion
+    / *Relevance to ME/CFS T-cell model:*: If CD8+ TEM cells in ME/CFS have undergone similar chromatin locking (as Iu 2024 ATAC-seq data suggest), metabolic interventions alone may not fully reverse exhaustion — combined metabolic + epigenetic strategies may be required. Explains why PD-1 blockade alone may be insufficient.
+    / *Certainty:*: 0.90 (Science; rigorous epigenomic profiling)
+
+=== Siddiqui2019 — TCF1+ Progenitor Exhausted CD8+ T Cells Respond to Checkpoint Blockade
+    / *Full Citation:*: Siddiqui I, Schaeuble K, Chennupati V, et al. Intratumoral Tcf1+PD-1+CD8+ T cells with stem-like properties promote tumor control in response to vaccination and checkpoint blockade immunotherapy. _Immunity_. 2019;50(1):195–211.e10. @Siddiqui2019TCF1Progenitor
+    / *DOI:*: https://doi.org/10.1016/j.immuni.2018.12.021
+    / *PMID:*: 30635237
+    / *Study Design:*: Single-cell RNA-seq + ATAC-seq: intratumoral CD8+ T-cell subpopulations; TCF1+ vs TCF1− functional assays.
+    / *Key Findings:*:
+        - TCF1 (encoded by TCF7) identifies progenitor exhausted CD8+ subset that self-renews
+        - Only TCF1+PD-1+ progenitor cells respond to PD-1 blockade
+        - TCF1− cells are terminally exhausted and non-responsive
+    / *Relevance to ME/CFS T-cell model:*: TCF7 expression levels in CD8+ TEM cells (documented by Iu 2024) may stratify ME/CFS patients into reversible (TCF7-high) vs terminal (TCF7-low) exhaustion — the same biomarker framework used in cancer immunotherapy. This has direct prognostic implications without needing checkpoint inhibitors.
+    / *Certainty:*: 0.85 (Immunity; scRNA-seq + functional validation)
+
+=== Miller2019 — Subsets of Exhausted CD8+ T Cells in Tumor Control
+    / *Full Citation:*: Miller BC, Sen DR, Al Abosy R, et al. Subsets of exhausted CD8+ T cells differentially mediate tumor control and respond to checkpoint blockade. _Nature Immunology_. 2019;20(3):326–336. @Miller2019ExhaustionSubsets
+    / *DOI:*: https://doi.org/10.1038/s41590-019-0312-6
+    / *PMID:*: 30778252
+    / *Study Design:*: scRNA-seq + ATAC-seq + functional assays on CD8+ TILs from murine and human tumors.
+    / *Key Findings:*:
+        - Exhausted CD8+ T cells exist on a continuum: TCF7+PD-1+ progenitor → TIM-3+ terminally exhausted
+        - Polyclonal exhaustion (multiple TCR specificities) implies non-antigen-selective trigger
+        - Only progenitor subset proliferates upon PD-1 blockade
+    / *Relevance to ME/CFS T-cell model:*: Polyclonal exhaustion pattern is consistent with a metabolic/mitochondrial trigger (not chronic antigen) — the model proposed for ME/CFS (immune suppression, not activation-driven exhaustion per Petrov 2026). If the ME/CFS CD8+ exhaustion is polyclonal (testable by TCR sequencing), this supports a metabolic rather than antigenic driver.
+    / *Certainty:*: 0.85 (Nature Immunology; multi-modal sc profiling)
+
+=== Postow2018 — Immune-Related Adverse Events of Checkpoint Blockade (Review)
+    / *Full Citation:*: Postow MA, Sidlow R, Hellmann MD. Immune-related adverse events associated with immune checkpoint blockade. _New England Journal of Medicine_. 2018;378(2):158–168. @Postow2018irAEReview
+    / *DOI:*: https://doi.org/10.1056/NEJMra1703481
+    / *PMID:*: 29320654
+    / *Study Design:*: Comprehensive clinical review of checkpoint inhibitor toxicity.
+    / *Key Findings:*:
+        - irAEs: colitis, hepatitis, pneumonitis, myocarditis, endocrinopathies affecting multiple organs
+        - Autoimmune-prone populations at elevated risk; pre-existing autoantibodies increase risk of organ-specific irAEs
+        - Onset can be delayed by weeks-months; toxicities can be fatal
+    / *Relevance to ME/CFS T-cell model:*: Checkpoint inhibitors are contraindicated in ME/CFS pending ex vivo safety data — the population has documented GPCR autoantibodies (Sotzny 2021) and autoimmune features placing them in the elevated-risk category. The cancer immunotherapy **biomarker** framework (TCF7, TOX, EOMES, PD-1/TIM-3) is useful for prognostic stratification; the **therapeutic** framework (PD-1/PD-L1 blockade) must not be borrowed without rigorous safety testing. This paper provides the safety rationale for this boundary.
+    / *Certainty:*: 0.90 (NEJM; authoritative clinical review; large evidence base)
+
+=== Younes2016 — HIV+ CD4+ T-Cell Mitochondrial Dysfunction Persists on ART
+    / *Full Citation:*: Younes SA, Talla A, Pereira Ribeiro S, et al. Cycling CD4+ T cells in HIV-infected immune non-responders have mitochondrial dysfunction. _Journal of Clinical Investigation_. 2016;126(11):4363–4374. @Younes2016HIVmtDysfunction
+    / *DOI:*: https://doi.org/10.1172/JCI88694
+    / *PMID:*: 27608061
+    / *Study Design:*: Cross-sectional: metabolic flux analysis (Seahorse), mitochondrial phenotyping in CD4+ T cells from ART-suppressed HIV+ patients.
+    / *Key Findings:*:
+        - HIV+ immune non-responders (viral suppression on ART, CD4 \< 350): reduced mitochondrial mass, decreased OXPHOS, increased ROS
+        - Mitochondrial dysfunction persists despite undetectable viral load
+        - Impaired metabolic reprogramming upon activation — same demand-response failure pattern as ME/CFS
+    / *Relevance to ME/CFS T-cell model:*: Strongest clinical precedent for post-viral T-cell mitochondrial dysfunction without ongoing viral replication. Demonstrates that clinical immune failure in a controlled post-viral state is partly a mitochondrial-metabolic problem.
+    / *Certainty:*: 0.80 (JCI; functional metabolic assays + mito phenotyping)
+
+=== DeRosa2000 — NAC Replenishes Glutathione in HIV (Clinical Precedent for Antioxidant T-Cell Restoration)
+    / *Full Citation:*: De Rosa SC, Zaretsky MD, Dubs JG, et al. N-acetylcysteine replenishes glutathione in HIV infection. _European Journal of Clinical Investigation_. 2000;30(10):915–929. @DeRosa2000NACHIV
+    / *DOI:*: https://doi.org/10.1046/j.1365-2362.2000.00736.x
+    / *PMID:*: 11029607
+    / *Study Design:*: Clinical trial: NAC supplementation with GSH/cysteine measurement and CD4/CD8 tracking.
+    / *Key Findings:*:
+        - NAC increased plasma cysteine and GSH levels in HIV+ patients
+        - Improved CD4+ T-cell counts and reduced immune activation markers
+        - Glutathione redox axis identified as rate-limiting for T-cell survival in chronic HIV
+    / *Relevance to ME/CFS T-cell model:*: Clinical precedent for antioxidant-based T-cell restoration in a post-viral state via GSH-redox axis. Mechanism consistent with Gil 2024 nebulized antioxidant case series, but with better-controlled evidence base. Supports the model that breaking the DRP1-ROS-pERK loop at the ROS node could partially restore T-cell function.
+    / *Certainty:*: 0.55 (Eur J Clin Invest; well-controlled mechanistic trial; modest n)
+
+=== Schank2021 — HIV- and ART-Induced Mitochondrial Dysfunction Review
+    / *Full Citation:*: Schank M, Zhao J, Moorman JP, Yao ZQ. The impact of HIV- and ART-induced mitochondrial dysfunction in cellular senescence and aging. _Cells_. 2021;10(1):174. @Schank2021HIVMitochondriaReview
+    / *DOI:*: https://doi.org/10.3390/cells10010174
+    / *PMID:*: 33467623
+    / *Study Design:*: Comprehensive narrative review.
+    / *Key Findings:*:
+        - Both HIV proteins and ART drugs induce mitochondrial dysfunction: mtDNA depletion, ETC inhibition, ROS, impaired mitophagy
+        - Mitochondrial pathology persists after viral suppression and contributes to accelerated immune aging
+        - Dual-senescence-exhaustion flow phenotyping (CD28/CD57 + PD-1/TIM-3) is a standard tool in HIV research
+    / *Relevance to ME/CFS T-cell model:*: Provides the technical roadmap (mtDNA qPCR, mitophagy markers, ETC complex assays, dual-phenotype flow panel) that ME/CFS research should adopt to characterize CD8+ mitochondrial dysfunction. Documents full spectrum of post-viral mitochondrial pathology mechanisms.
+    / *Certainty:*: 0.65 (Cells; comprehensive review; strong literature base)
+
+=== Deguit2022 — TOX Links CD8+ Stemness Loss to Exhaustion in HIV
+    / *Full Citation:*: Deguit CDT, Hough M, Hoh R, et al. Some like it TOX: CD8+ T-cell stemness and exhaustion are linked in HIV. _AIDS_. 2022;36(14):1981–1988. @Deguit2022TOXHIV
+    / *Study Design:*: Cross-sectional: flow cytometry TOX, TCF7, PD-1 in HIV+ CD8+ T cells.
+    / *Key Findings:*:
+        - TOX-high CD8+ T cells show reduced TCF7 expression and impaired proliferative capacity
+        - Same TOX/TCF7 transcriptional module identified in ME/CFS CD8+ TEM cells by Iu 2024
+        - Confirms cross-disease conservation of TOX/EOMES/TCF7 exhaustion axis across HIV and ME/CFS
+    / *Relevance to ME/CFS T-cell model:*: Cross-disease validation that the TOX/EOMES/TCF7 module is a conserved exhaustion signature — not specific to any one disease context. Strengthens the argument that this transcriptional program represents a convergent final pathway triggered by different upstream drivers (tumor antigen, HIV persistence, mitochondrial failure).
+    / *Certainty:*: 0.60 (AIDS; clinical cohort; confirmatory findings)

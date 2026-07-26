@@ -2951,7 +2951,7 @@ Iron handling in ME/CFS and Long COVID is not a shared mechanism — it is a dia
 *Limitations:* The D1R-NRF2 link is established in cellular models but not in human patients. No study has measured NRF2 activity in ADHD. No prospective ADHD-to-ME/CFS longitudinal data exist. Comorbidity prevalence estimates are confounded by diagnostic overlap in symptom reporting.
 
 *Cross-reference:* NRF2-NF-kB brake failure hypothesis (Chapter @ch:universal-mechanisms). NLRP3/purinergic signaling (Family 19). Kynurenine pathway dysregulation (Family 11).
-] <spec:adhd-dopamine-nrf2-nlrp3>
+] <spec:adhd-dopamine-nrf2-nlrp3-xdisease>
 
 === Autism Microglial S100B-Calcineurin-NFAT Loop
 <sec:x2-autism-s100b-nfat>
@@ -3985,7 +3985,7 @@ The cost of a first study is modest (a n=100 cross-sectional study with a handhe
 === T-Cell Mitochondrial Exhaustion: Parallels with HIV and Cancer Immunobiology
 
 #speculation(title: [HIV-Associated CD8+ T-Cell Mitochondrial Dysfunction as a 30-Year Natural Experiment for ME/CFS])[
-*(Origin: brainstorm.)* *(Certainty: 0.30 — HIV literature provides robust precedent for post-viral CD8+ mitochondrial exhaustion; no direct comparison with ME/CFS exists.)*
+*(Origin: brainstorm.)* *(Certainty: 0.40 — HIV literature provides robust precedent for post-viral CD8+ mitochondrial exhaustion; NAC trials in HIV provide clinical precedent; no direct comparison with ME/CFS exists.)*
 
 HIV infection — even in virally suppressed patients on antiretroviral therapy — produces a CD8+ T-cell phenotype strikingly similar to ME/CFS: elevated exhaustion markers (PD-1, TIM-3), reduced mitochondrial respiration and glycolytic capacity, shift to fatty acid oxidation, increased mitochondrial ROS, CD28− immunosenescent phenotype, and impaired recall responses to common antigens. This phenotype persists despite undetectable viral load, providing the strongest clinical precedent that CD8+ mitochondrial dysfunction can be sustained without ongoing viral replication.
 
@@ -3999,13 +3999,13 @@ Key parallels with direct implications for ME/CFS: (a) In HIV, NAC (N-acetylcyst
 ] <spec:hiv-cd8-chtml-exhaustion-parallel>
 
 #speculation(title: [ME/CFS CD8+ Exhaustion vs Cancer Immunotherapy Exhaustion: Shared Transcriptional Machinery, Different Triggers])[
-*(Origin: brainstorm.)* *(Certainty: 0.20 — CD8+ exhaustion TFs are identical between conditions; whether the exhaustion is reversible by the same interventions is entirely untested.)*
+*(Origin: brainstorm.)* *(Certainty: 0.35 — CD8+ exhaustion TFs are identical between conditions; TCF7 as prognostic biomarker validated in cancer (Siddiqui 2019); checkpoint inhibitor safety data (Postow 2018) establishes risk profile for autoimmune-prone populations. No ME/CFS-specific CD8+ exhaustion reversibility data.)*
 
 Iu et al.\ 2024 demonstrated that ME/CFS CD8+ TEM cells upregulate TOX, EOMES, and TCF7 — the same terminal exhaustion transcription factors that drive CD8+ dysfunction in the tumor microenvironment @Iu2024CD8Exhaustion. In cancer, chronic antigen stimulation (tumor neoepitopes) drives this exhaustion; in ME/CFS, the trigger may be mitochondrial metabolic failure rather than antigen persistence. Petrov et al.\ 2026 found that ME/CFS shows immune suppression (not activation-driven exhaustion), and Cliff et al.\ 2019 found no HHV seroprevalence differences in n=251 @Cliff2019Cellular @Petrov2026Immunophenotyping — both arguing against chronic antigen as the primary driver.
 
 The critical distinction: in cancer, PD-1/PD-L1 blockade partially reverses exhaustion in ~20–40% of patients, but this approach cannot be advocated in ME/CFS without ex vivo safety data because checkpoint inhibitors carry a risk of triggering severe autoimmunity in a population with documented autoimmune features (GPCR autoantibodies, @Sotzny2021). Cancer immunotherapy teaches that TCF7 (TCF-1) expression identifies a progenitor exhausted subset responsive to PD-1 blockade — in ME/CFS, TCF7-high CD8+ TEM cells may identify patients with "early" (potentially reversible) exhaustion who could benefit from metabolic interventions, while TCF7-low cells may indicate "terminal" (irreversible) exhaustion.
 
-*Falsifiable prediction:* Overlap analysis of Iu 2024 ATAC-seq data with published PD-1 blockade-responsive chromatin regions will reveal whether ME/CFS exhaustion chromatin is in a reversible or fixed state. If the chromatin is comparable to pre-treatment tumor-infiltrating lymphocytes, mitochondrial/metabolic interventions (not checkpoint blockade) may reverse exhaustion. If the chromatin resembles post-senescence T cells with permanently closed effector loci, therapeutic efforts should focus on replacing the memory pool (vaccination) rather than restoring the existing one.
+*Falsifiable prediction:* (a) Overlap analysis of Iu 2024 ATAC-seq data with published PD-1 blockade-responsive chromatin regions will reveal whether ME/CFS exhaustion chromatin is in a reversible or fixed state. If the chromatin is comparable to pre-treatment tumor-infiltrating lymphocytes, mitochondrial/metabolic interventions (not checkpoint blockade) may reverse exhaustion. If the chromatin resembles post-senescence T cells with permanently closed effector loci, therapeutic efforts should focus on replacing the memory pool (vaccination) rather than restoring the existing one. (b) CD8+ TEM exhaustion will be polyclonal (normal TCR diversity, no clonal expansion) if the mechanism is mitochondrial — if instead exhaustion is oligoclonal (limited to a few expanded TCR clones), chronic antigen drive (viral persistence or autoantigen) is the dominant mechanism, and mitochondrial dysfunction is secondary. TCR sequencing of sorted CD8+ TEM cells from ME/CFS versus healthy controls resolves this ambiguity.
 
 *Consequence:* Cancer immunology has mapped the CD8+ exhaustion program at single-cell resolution. ME/CFS researchers can piggyback on this mature field — the same transcriptional machinery (TOX, EOMES, TCF7) is activated in both conditions, but the trigger differs (metabolic failure vs tumor antigen), meaning the therapeutic strategy needs to target the trigger, not just the exhaustion markers. Checkpoint inhibitors are contraindicated pending ex vivo safety data.
 

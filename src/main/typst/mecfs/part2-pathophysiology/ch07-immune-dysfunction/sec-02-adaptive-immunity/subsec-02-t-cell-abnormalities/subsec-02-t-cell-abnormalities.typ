@@ -286,7 +286,7 @@ These nulls are nested: N1 is the most likely, N5 the least. The cumulative prob
 ] <sec:tcell-mito-null-hypotheses>
 
 #speculation(title: [DRP1-ROS-pERK Positive Feedback Loop May Make CD8+ Mitochondrial Fragmentation Self-Sustaining])[
-*(Origin: brainstorm.)* *(Certainty: 0.35 — DRP1 and ROS are both documented in ME/CFS immune cells; the connecting pERK node is untested.)*
+*(Origin: brainstorm.)* *(Certainty: 0.40 — DRP1-ERK(Ser616) phosphorylation established in cancer biology (Kashatus 2015 @Kashatus2015ERKDRP1); ROS-ERK activation documented in T cells (Kaminski 2012 @Kaminski2012ROSERKTCell); SOD2 depletion + lymphocyte ROS documented in ME/CFS (Shankar 2025 @Shankar2025oxidativestress). The three nodes (DRP1, ROS, pERK) have not been measured simultaneously in ME/CFS T cells, but each pairwise connection has independent literature support.)*
 
 Schreiner et al.\ 2020 showed HHV-6 reactivation activates DRP1-mediated mitochondrial fission in PBMCs @SchreinerEtAl2020. Shankar et al.\ 2025 showed elevated mitochondrial ROS and SOD2 depletion in memory lymphocytes @Shankar2025oxidativestress. These two findings, from separate labs and separate cohorts, are connected by a documented positive feedback loop: DRP1 activation → mitochondrial fragmentation → electron transport chain disruption → ROS production → ERK1/2 phosphorylation (pERK) → DRP1 phosphorylation at Ser616 (the activating site) → further DRP1 translocation to mitochondria → sustained fission. This loop is documented in cancer biology (Kashatus 2015) and neurodegeneration (Kim 2016) but never examined in ME/CFS T cells.
 
