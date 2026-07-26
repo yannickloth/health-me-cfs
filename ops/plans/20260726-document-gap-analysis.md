@@ -6,7 +6,38 @@
 
 ---
 
-## Part A: Paper Structural Gaps (14 missing or scattered chapters/sections)
+## Part A: Content Gaps (20 missing biomedical topics)
+
+Ranked, triaged, with falsifiable predictions. See below for the full inventory, or `ops/brainstorms/brainstorm-gap-analysis-20260726.md` (if persisted separately).
+
+Top 5 immediately actionable: copper dysregulation (G4), myokines (G2), chronopharmacology (G5), bile acid signaling (G3), post-exertional hypoglycemia (G9).
+
+### Content Gap Inventory
+
+| ID | Topic | Cert | ME/CFS lit? | Actionable? | One-line |
+|----|-------|------|-------------|-------------|----------|
+| G1 | H₂S gasotransmitter dysregulation | 0.45 | No | Yes (donors exist) | Third gasotransmitter — unifying mitochondrial, vascular, NLRP3, TRPV1 nodes |
+| G2 | Myokines: muscle as silent endocrine organ | 0.50 | No | Yes (serum panel) | Loss of irisin/cathepsin B/decorin from immobility starves brain of BDNF factors |
+| G3 | Bile acid signaling (FXR/TGR5) | 0.40 | No | Yes (agonists exist) | Gut dysbiosis → altered bile acid pool → impaired FXR/TGR5 → barrier+immune+microglial |
+| G4 | Copper dysregulation as single upstream lesion | 0.35 | No | Yes (standard lab) | Single node connecting connective tissue, iron, NE, Complex IV, and SOD failures |
+| G5 | Chronopharmacology: circadian drug timing | 0.40 | No | Yes (zero-cost) | Drug targets have circadian receptor variation; optimizing timing may improve efficacy |
+| G6 | Lactate as signaling molecule (GPR81) | 0.45 | No | Yes (MCT oil exists) | Lactate shuttle + GPR81 receptor — currently discussed only as waste, never as hormone |
+| G7 | Blood-nerve barrier / DRG AAb access | 0.55 | Strong indirect | Research only | DRG fenestrated capillaries = primary AAb access point while CNS protected by BBB |
+| G8 | Sudomotor dysfunction as autonomic subtype | 0.50 | No | Yes (QSART exists) | Cholinergic sympathetic fibers — M3 AAbs directly impair sweating |
+| G9 | Post-exertional hypoglycemia as PEM component | 0.45 | CGM emerging | Yes (CGM) | Impaired hepatic gluconeogenesis → glucose nadir 2-4h post-exertion |
+| G10 | Remission reverse-engineering framework | 0.55 (method) | No | Yes (registry) | Catalog every remission case; work backward to mechanism — NCI "exceptional responders" model |
+| G11 | Selenium/selenoprotein biology | 0.40 | No | Yes (standard lab) | Functional Se deficiency — same logic as functional iron deficiency |
+| G12 | Thymic involution / TCR repertoire collapse | 0.40 | Limited | Research | Progressive immune narrowing explaining worsening over time |
+| G13 | Mitochondria-associated membranes (MAMs) | 0.30 | No | Research | ER-mitochondria contact sites unifying UPR, calcium, NLRP3, and fission |
+| G14 | Perineurial inflammation — nerve sheath compartment | 0.35 | No | Research | Mast cell edema within non-expandable perineurium → ischemic conduction block |
+| G15 | IJV stenosis / cerebral venous outflow | 0.25 | No | Yes (Doppler) | Positional jugular compression → impaired glymphatic — explain afternoon worsening |
+| G16 | Craniofacial development as developmental risk | 0.30 | No | Yes (orthodontic) | Narrow airway → decades of nocturnal hypoxia → lowered metabolic reserve |
+| G17 | Lymphatic system as unified clearance organ | 0.35 | No | Research | Meningeal lymphatics connect glymphatic to cervical nodes — not separate systems |
+| G18 | Bone marrow niche / HSC exhaustion | 0.35 | No | Research | Chronic IFN-γ/TNF-α → stem cell pool exhaustion → pan-lineage immune failure |
+| G19 | Polyvagal autonomic spectrum | 0.25 | No | Research | Ventral vs dorsal vagal — explains "shut-down" phenotype vs "wired-tired" |
+| G20 | Diaphragm-splanchnic-vascular pump failure | 0.30 | No | Yes (breathing exercises) | Diaphragm as primary pump for venous return + lymphatic flow + CSF oscillations |
+
+---
 
 ## Part B: Structural Chapter Gaps (14 missing chapters/sections)
 
@@ -95,4 +126,4 @@ These live in the SKILL.md appendix (lines ~1700-1775) as policy notes. They sho
 
 | Date | Change |
 |------|--------|
-| 2026-07-26 | Initial analysis: Part A (14 structural chapter gaps), Part B (16 pipeline gaps), Part C (6 doc-instruction upgrades) |
+| 2026-07-26 | Initial analysis: Part A (20 content gaps), Part B (14 structural chapter gaps), Part C (16 pipeline gaps), Part D (6 doc-instruction upgrades) |
