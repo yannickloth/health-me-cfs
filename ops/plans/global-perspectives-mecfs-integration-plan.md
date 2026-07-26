@@ -68,7 +68,7 @@
 | 10b | ⏭️ | Strategic-framing propagation skipped — synthesis is downstream knowledge synthesis, not a trigger-vs-amplifier or treatment-strategy claim. |
 | 11 | ⏯️ | Review convergence deferred to next cycle. Lightweight tier (single chapter, non-treatment content). |
 | 12 | ✅ | Changelog entry added under Version 12 — July 2026. |
-| 13 | ✅ | Content shipped in parallel session commits: ch45 commit ccaca8a0 (ch43 chapter, hypothesis registry, appendix H) + ch40 commit 6dcc5c91 (bib, ops artifacts, build wiring).
+| 13 | ✅ | Content shipped in parallel session commits + our commits 4a4e475d (changelog+plan) + db598906 (falsifiability+glossary+review fixes). Tree status: ✅ done.
 
 ## Notes
 - Gap analysis originally flagged as structural gap B8 (medium impact)
