@@ -484,4 +484,3 @@ Three critical open questions remain. First, the temporal sequence: does BM thic
 *Consequence:* Tissue-level proof of structural capillary damage in ME/CFS muscle — independently confirmed in three countries — provides compelling evidence against psychosomatic/deconditioning explanations. Whatever causes ME/CFS, the capillaries are demonstrably abnormal under a microscope, and this abnormality directly impairs the muscles' ability to extract oxygen during exercise. The question is no longer *whether* capillaries are structurally remodelled, but *why* — and whether the same remodelling affects every organ or just skeletal muscle.
 ] <syn:capillary-microvascular-model>
 
-]]

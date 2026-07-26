@@ -14,7 +14,7 @@ In ME/CFS specifically, the diagnostic signal comes from what pentoxifylline doe
 
 No clinical trials of pentoxifylline in ME/CFS exist. All inferences below are mechanistic — derived from pentoxifylline's established pharmacology applied to documented ME/CFS microvascular pathology @Charlton2025muscleMicrovasc.
 
-#warning-box(title: [Research-Stage Only — Zero ME/CFS Clinical Data])[
+#practical-warning(title: [Research-Stage Only — Zero ME/CFS Clinical Data])[
 Pentoxifylline has zero published ME/CFS clinical data. All diagnostic inferences and proposed differentials are mechanistic extrapolation from its known pharmacology applied to documented ME/CFS microvascular pathology. It is not a validated ME/CFS treatment, and the diagnostic probe framework has not been tested in any ME/CFS cohort. Clinicians should not use pentoxifylline as a diagnostic algorithm — it is a research hypothesis requiring formal validation.
 ]
 
@@ -38,7 +38,7 @@ Pentoxifylline's diagnostic value in ME/CFS lies in its specificity as a pure he
     + Patients with BM coverage > 65% show < 10% improvement in O₂ extraction on any single drug, and < 20% on all three combined — confirming the structural ceiling
     + Pentoxifylline responders show larger pre-treatment RBC elongation index deficit than non-responders
 
-*Consequence:* Pentoxifylline is a cheap, safe ($20/month generic), oral probe that can distinguish three distinct microvascular bottlenecks — RBC stiffness, endothelial hypertrophy, or BM thickening — and help patients and clinicians figure out which drug (if any) might help, avoiding months of trial-and-error with the wrong medications.
+*Consequence:* Pentoxifylline is a cheap, safe (\$20/month generic), oral probe that can distinguish three distinct microvascular bottlenecks — RBC stiffness, endothelial hypertrophy, or BM thickening — and help patients and clinicians figure out which drug (if any) might help, avoiding months of trial-and-error with the wrong medications.
 ] <spec:pentoxifylline-diagnostic-probe>
 
 ==== Dosing
