@@ -69,7 +69,7 @@
 | 6 | 2026-07-26 | Retroactive check: 0 contradictions with ch01 history section (facts align) |
 | 7 | 2026-07-26 | Cross-hypothesis compatibility: 1 reinforcement pair (stigma hypothesis reinforces psychosomatic-lag), 0 conflicts |
 | 8 | 2026-07-26 | Final build PASS |
-| 9 | 2026-07-26 | Quality: 10 environments, 26 citations, 5 limitations (strong self-critique), no flags fired |
+| 9 | 2026-07-26 | Quality: 10 environments (1 fhypothesis, 1 achievement, 3 open-questions, 5 limitations), 26 citations over 250 lines; 5 explicit limitation environments (strong self-critique); consequence fields 10/10 environments; falsifiability on fhypothesis + 2 open-questions; certainty spread 0.25 (McEvedy) to 0.85 (IOM2015); quality flags C-NARRATIVE-BIAS (self-acknowledged in limitation), C-SOURCE-QUALITY (outbreak reports non-peer-reviewed); Score: A |
 | 10 | 2026-07-26 | Cross-reference added from ch01 to ch02; coherence verified |
 | 11 | 2026-07-26 | Manual review: all bib keys resolve, clean Typst syntax |
 | 12 | 2026-07-26 | Changelog entry added for Version 12 |

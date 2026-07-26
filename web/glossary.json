@@ -345,9 +345,9 @@
     "definition": "Glutathione Disulfide (oxidized): the oxidized form of glutathione. Elevated GSSG/GSH ratios indicate oxidative stress, a consistent finding in ME/CFS."
   },
   "MDA": {
-    "label": "MDA",
+    "label": "Malondialdehyde (MDA)",
     "category": "biomarker",
-    "definition": "Malondialdehyde: a marker of lipid peroxidation produced by oxidative damage to cell membranes. Elevated MDA is a consistent finding in ME/CFS oxidative stress research."
+    "definition": "A product of lipid peroxidation and a biomarker of oxidative stress and ferroptosis. Elevated MDA indicates free-radical damage to polyunsaturated fatty acids in cell membranes. Often measured alongside 4-HNE in ferroptosis research."
   },
   "GABA": {
     "label": "GABA",
@@ -3281,8 +3281,8 @@
   },
   "DecodeME": {
     "label": "DecodeME",
-    "category": "organization",
-    "definition": "The largest ME/CFS GWAS study to date (UK, &gt;25,000 participants), searching for genetic risk variants. A collaboration between the ME Association, MRC, and NIHR; results expected to identify biological pathways underlying ME/CFS susceptibility."
+    "category": "study",
+    "definition": "The largest genome-wide association study (GWAS) of ME/CFS to date (>15,000 participants, 8 million SNPs). Identified 8 genome-wide significant loci with brain tissue enrichment via MAGMA analysis (CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C). Estimated SNP-based heritability at 9.5%. Published as a preprint in 2025 — the first molecular demonstration that ME/CFS has a polygenic genetic architecture with neurological tissue distribution."
   },
   "lactate": {
     "label": "lactate",
@@ -6309,7 +6309,21 @@
     "definition": "The precursor neurosteroid from which all other steroid hormones are synthesized. Pregnenolone itself is a TRPM3 agonist and positive allosteric modulator of GABA-A and NMDA receptors. Used in ME/CFS for HPA axis support and neurosteroid-mediated cognitive and mood effects.",
     "generic": "Pregnenolone",
     "class": "Neurosteroid / hormone precursor / TRPM3 agonist",
-    "rx": "OTC (US, as supplement)"
+    "rx": "OTC (US, as supplement)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pregnenolone%5BMeSH%5D"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Pregnenolone"
+      },
+      {
+        "label": "Human Metabolome Database",
+        "url": "https://hmdb.ca/metabolites/HMDB0000253"
+      }
+    ]
   },
   "Rapamycin": {
     "label": "Rapamycin",
@@ -6936,11 +6950,6 @@
     "category": "biomarker",
     "definition": "A major product of lipid peroxidation and a biomarker of ferroptosis (iron-dependent cell death). Elevated 4-HNE indicates oxidative damage to cell membranes. Measured in research settings to assess ferroptosis activity."
   },
-  "MDA": {
-    "label": "Malondialdehyde (MDA)",
-    "category": "biomarker",
-    "definition": "A product of lipid peroxidation and a biomarker of oxidative stress and ferroptosis. Elevated MDA indicates free-radical damage to polyunsaturated fatty acids in cell membranes. Often measured alongside 4-HNE in ferroptosis research."
-  },
   "lipid peroxidation": {
     "label": "Lipid Peroxidation",
     "category": "pathway",
@@ -6955,5 +6964,710 @@
     "label": "Aconitase",
     "category": "enzyme",
     "definition": "A Krebs cycle enzyme that converts citrate to isocitrate. Its Fe-S cluster makes it sensitive to oxidative stress and iron availability. Aconitase exists in two cellular forms: mitochondrial (ACO2, Krebs cycle) and cytosolic (ACO1/IRP1, which doubles as an iron regulatory protein)."
+  },
+  "calmodulin": {
+    "label": "Calmodulin (CaM)",
+    "category": "protein",
+    "definition": "A ubiquitous calcium-binding messenger protein that mediates intracellular calcium signaling. Upon binding Ca²⁺, calmodulin undergoes a conformational change enabling it to activate target proteins including CaMKII, calcineurin, and MLCK. Links calcium influx to gene expression, neurotransmitter release, and cytoskeletal dynamics."
+  },
+  "TRPM7": {
+    "label": "TRPM7",
+    "category": "receptor",
+    "definition": "Transient Receptor Potential Melastatin 7: a bifunctional ion channel/protein kinase (chanzyme) permeable to Ca²⁺, Mg²⁺, and trace metals. TRPM7 is gated by PIP₂ depletion and plays essential roles in cellular magnesium homeostasis, cell migration, and immune function. Dysregulation is implicated in neuronal injury, immune dysfunction, and fibrotic conditions."
+  },
+  "calcium channel": {
+    "label": "Calcium Channel",
+    "category": "protein",
+    "definition": "A transmembrane ion channel selectively permeable to calcium ions (Ca²⁺). Includes voltage-gated calcium channels (Cav1–Cav3 subtypes) that open in response to membrane depolarization, and ligand-gated channels (e.g., NMDA receptors, TRP channels). Calcium influx through these channels triggers neurotransmitter release, muscle contraction, gene expression, and metabolic regulation."
+  },
+  "calcium": {
+    "label": "Calcium (Ca²⁺)",
+    "category": "molecule",
+    "definition": "The most abundant mineral in the human body and a universal intracellular second messenger. Cytosolic calcium concentration is tightly regulated by channels, pumps (SERCA, PMCA), and exchangers (NCX). Dysregulated calcium signaling contributes to mitochondrial dysfunction, excitotoxicity, and immune dysregulation — each relevant to ME/CFS pathophysiology."
+  },
+  "ion channel": {
+    "label": "Ion Channel",
+    "category": "protein",
+    "definition": "A pore-forming transmembrane protein that allows the passive flow of specific ions (Na⁺, K⁺, Ca²⁺, Cl⁻) down their electrochemical gradient. Ion channels are classified by gating mechanism (voltage-gated, ligand-gated, mechanosensitive, temperature-sensitive) and ion selectivity. Channel dysfunction (channelopathy) underlies numerous neurological, cardiac, and metabolic disorders."
+  },
+  "Immunoadsorption": {
+    "label": "Immunoadsorption (IA)",
+    "category": "treatment",
+    "definition": "A therapeutic apheresis technique that removes specific antibodies, immune complexes, or inflammatory mediators from blood by passing plasma through columns containing immobilized ligands (e.g., protein A, tryptophan, anti-IgG antibodies). Used experimentally in ME/CFS to deplete autoantibodies targeting GPCRs (β₂-adrenergic, M₃ muscarinic), with some patients reporting sustained symptom improvement."
+  },
+  "immunomodulation": {
+    "label": "Immunomodulation",
+    "category": "treatment",
+    "definition": "The therapeutic adjustment of immune system activity — either suppression of excessive inflammation or enhancement of deficient immune responses. In ME/CFS, immunomodulatory approaches include low-dose naltrexone (LDN), IVIG, rituximab (B-cell depletion), immunoadsorption, and various cytokine-targeting biologics."
+  },
+  "Fc receptor": {
+    "label": "Fc Receptor (FcR)",
+    "category": "receptor",
+    "definition": "A cell-surface receptor that binds the Fc (fragment crystallizable) region of antibodies. Fcγ receptors (FcγRI/CD64, FcγRII/CD32, FcγRIII/CD16) bind IgG and mediate antibody-dependent cellular phagocytosis, ADCC, and immune complex clearance. FcRn (neonatal Fc receptor) regulates IgG half-life and transcytosis. Fc receptor engagement is central to autoantibody pathology in autoimmune conditions."
+  },
+  "H1": {
+    "label": "H₁ Receptor",
+    "category": "receptor",
+    "definition": "Histamine H₁ receptor: a Gₐq-coupled GPCR that mediates classical allergic and inflammatory responses — vasodilation, bronchoconstriction, pruritus, and pain. Blocked by first-generation (diphenhydramine, hydroxyzine) and second-generation (loratadine, fexofenadine, cetirizine) antihistamines. H₁ antagonism is used in ME/CFS for MCAS-related symptoms and sleep disturbance."
+  },
+  "H2": {
+    "label": "H₂ Receptor",
+    "category": "receptor",
+    "definition": "Histamine H₂ receptor: a Gₐs-coupled GPCR that stimulates gastric acid secretion, increases vascular permeability, and modulates immune cell function. Blocked by H₂ antagonists (famotidine, cimetidine, ranitidine). Famotidine is used alongside H₁ blockade in ME/CFS for dual histamine receptor antagonism in MCAS management."
+  },
+  "T cell": {
+    "label": "T Cell (T Lymphocyte)",
+    "category": "immune",
+    "definition": "A lymphocyte that matures in the thymus and mediates adaptive cellular immunity. T cells express T-cell receptors (TCRs) that recognize antigen-bound MHC molecules. Subtypes include CD8⁺ cytotoxic T cells (kill infected cells), CD4⁺ helper T cells (orchestrate immune responses), and regulatory T cells (suppress autoimmunity). ME/CFS is associated with T-cell exhaustion, reduced cytotoxic function, and altered subset distributions."
+  },
+  "PIP2": {
+    "label": "PIP₂ (Phosphatidylinositol 4,5-Bisphosphate)",
+    "category": "molecule",
+    "definition": "A membrane phospholipid that serves as both a signaling precursor and a direct regulator of ion channels and transporters. Hydrolyzed by phospholipase C (PLC) to IP₃ and DAG, which mobilize intracellular calcium and activate PKC. PIP₂ is the essential gating cofactor for TRPM3, TRPM7, and other TRP channels — depletion of PIP₂ (via PLC overactivity) disinhibits or silences these channels, with implications for ME/CFS channelopathy hypotheses."
+  },
+  "Cav2.x": {
+    "label": "Cav2.x",
+    "category": "receptor",
+    "definition": "Voltage-gated calcium channel family type 2 (P/Q-type Cav2.1, N-type Cav2.2, R-type Cav2.3). These channels are primarily expressed in neurons where they control neurotransmitter release at presynaptic terminals. Cav2.x dysfunction can impair synaptic transmission, contributing to cognitive dysfunction and autonomic dysregulation. Autoantibodies against Cav2.1 are implicated in Lambert-Eaton syndrome and some cerebellar ataxias."
+  },
+  "acetylcholinesterase": {
+    "label": "Acetylcholinesterase (AChE)",
+    "category": "enzyme",
+    "definition": "The enzyme that rapidly hydrolyzes acetylcholine in the synaptic cleft, terminating cholinergic signaling. Found at neuromuscular junctions and central cholinergic synapses. Acetylcholinesterase inhibitors (pyridostigmine, donepezil) prolong acetylcholine action and are used therapeutically in myasthenia gravis, Alzheimer's disease, and experimentally in ME/CFS to enhance vagal tone and cognitive function."
+  },
+  "cholinergic": {
+    "label": "Cholinergic",
+    "category": "neurotransmitter",
+    "definition": "Pertaining to the neurotransmitter acetylcholine or its signaling pathways. Cholinergic neurons include preganglionic autonomic fibers, postganglionic parasympathetic fibers, and basal forebrain projections regulating attention and memory. The cholinergic anti-inflammatory pathway (vagus nerve → α7 nAChR → splenic macrophage TNF suppression) is impaired in ME/CFS due to reduced vagal tone."
+  },
+  "acetylcholine": {
+    "label": "Acetylcholine (ACh)",
+    "category": "neurotransmitter",
+    "definition": "The primary neurotransmitter of the parasympathetic nervous system, also used at the neuromuscular junction and in central circuits governing attention, learning, and memory. Synthesized from choline and acetyl-CoA by choline acetyltransferase (ChAT). Reduced cholinergic tone is a hallmark of autonomic dysfunction in ME/CFS, contributing to tachycardia, GI dysmotility, and cognitive impairment.",
+    "also": "See ACh entry"
+  },
+  "NRI": {
+    "label": "NRI (Norepinephrine Reuptake Inhibitor)",
+    "category": "medication_class",
+    "definition": "A class of medications that selectively block the norepinephrine transporter (NET), increasing synaptic norepinephrine and dopamine (in prefrontal cortex). Used for ADHD, depression, and off-label in ME/CFS for cognitive dysfunction and fatigue. Atomoxetine (Strattera) is the primary NRI; NRI effects can also be achieved with certain SNRIs such as venlafaxine at higher doses.",
+    "rx": "Prescription (US, EU)"
+  },
+  "graded exercise therapy": {
+    "label": "Graded Exercise Therapy (GET)",
+    "category": "treatment",
+    "definition": "A progressive exercise program formerly recommended for ME/CFS. Contraindicated in ME/CFS — NICE (2021) and CDC (2021) explicitly recommend against GET due to risk of harm (PEM exacerbation). Distinct from pacing/energy management. See GET entry."
+  },
+  "mass hysteria": {
+    "label": "Mass Hysteria (Mass Psychogenic Illness)",
+    "category": "diagnostic",
+    "definition": "A contested diagnostic concept attributing clusters of unexplained physical symptoms to psychological contagion. Applied to ME/CFS outbreaks by McEvedy and Beard (1970), who reinterpreted the 1955 Royal Free epidemic as mass hysteria. This interpretation was later contradicted by long-term follow-up (Ramsay 1986) and mathematical modeling (Underhill 2021). The episode remains a cautionary case in diagnostic overreach when standard laboratory tests are negative."
+  },
+  "Holmes criteria": {
+    "label": "Holmes Criteria (1988)",
+    "category": "diagnostic",
+    "definition": "The first formal CDC case definition of chronic fatigue syndrome (CFS), published in 1988. Required new-onset persistent fatigue plus 8 of 11 symptom criteria. Did not require post-exertional malaise (PEM) as a defining feature. Superseded by Fukuda criteria (1994)."
+  },
+  "Fukuda criteria": {
+    "label": "Fukuda Criteria (1994)",
+    "category": "diagnostic",
+    "definition": "The CDC's revised ME/CFS case definition requiring unexplained persistent fatigue for ≥6 months plus ≥4 of 8 concurrent symptoms including PEM, unrefreshing sleep, cognitive impairment, and pain. The most widely used research definition for two decades. PEM remained optional (1 of 8 items, only 4 required), capturing a population ~2.5× larger than the more specific Canadian Consensus Criteria."
+  },
+  "Oxford criteria": {
+    "label": "Oxford Criteria (1991)",
+    "category": "diagnostic",
+    "definition": "The broadest ME/CFS case definition ever proposed, requiring only fatigue as the principal symptom with definite onset plus functional impairment. Explicitly allowed inclusion of patients with concurrent psychiatric diagnoses and did not require PEM, pain, or neurological symptoms. Used in the PACE trial; widely criticized for over-inclusion of depression and deconditioning. Superseded by NICE 2021 criteria."
+  },
+  "glymphatic system": {
+    "label": "Glymphatic System",
+    "category": "system",
+    "definition": "A perivascular network that uses cerebrospinal fluid (CSF) to flush interstitial waste from the brain parenchyma, first characterized by Iliff and Nedergaard (2012). CSF enters along periarterial spaces driven by arterial pulsatility, mixes with interstitial fluid containing metabolic waste, and exits along perivenous spaces. Functionally dependent on astrocyte aquaporin-4 (AQP4) water channels. Primarily active during slow-wave sleep; driven by noradrenaline-regulated vasomotion."
+  },
+  "meningeal lymphatics": {
+    "label": "Meningeal Lymphatic Vessels",
+    "category": "system",
+    "definition": "Functional lymphatic vessels lining the dural sinuses of the brain, discovered in 2015 by Louveau et al. and Aspelund et al. These vessels drain CSF, immune cells, and macromolecules from the CNS to the deep cervical lymph nodes, providing the exit route for glymphatic waste clearance and an interface between CNS immune privilege and peripheral immune surveillance."
+  },
+  "vasomotion": {
+    "label": "Vasomotion",
+    "category": "physiology",
+    "definition": "Rhythmic oscillations in arteriolar diameter that drive cerebrospinal fluid influx along periarterial spaces. Noradrenaline-regulated vasomotion is the pump for glymphatic CSF flow; noradrenergic tone drops during sleep, enabling the vasomotion necessary for brain waste clearance (Hauglund et al., 2025). Autonomic dysfunction in ME/CFS — elevated sympathetic tone and blunted parasympathetic activation — would predictably impair this vasomotion."
+  },
+  "PACE trial": {
+    "label": "PACE Trial",
+    "category": "study",
+    "definition": "The largest ME/CFS treatment trial ever conducted (n=641, published in The Lancet, 2011). Compared CBT, GET, adaptive pacing, and specialist medical care. Reported CBT and GET as 'moderately effective' but was later shown to have weakened recovery thresholds mid-trial (SF-36 ≥85→≥60). Under original protocol thresholds, recovery rates were ~6% across all groups with no CBT/GET advantage. Led to institutional reversals by Cochrane (2019), NICE (2021), and CDC (2021)."
+  },
+  "CSF:blood ratio": {
+    "label": "CSF:Blood Ratio",
+    "category": "measurement",
+    "definition": "The concentration ratio of brain-derived proteins (neurofilament light chain, tau, S100B, GFAP) between cerebrospinal fluid and peripheral blood. Under normal clearance, these proteins drain via glymphatic-lymphatic pathways and are diluted in plasma. Under impaired clearance, CSF concentrations rise while plasma levels fall, producing a ratio that reflects glymphatic efficiency independently of absolute protein production rates. Not yet systematically measured in ME/CFS cohorts."
+  },
+  "PEM ratchet": {
+    "label": "PEM Ratchet",
+    "category": "hypothesis",
+    "definition": "A speculative model proposing that post-exertional malaise in ME/CFS has a glymphatic component: exertion generates metabolic waste that a compromised clearance system cannot fully eliminate, producing progressive accumulation of neuroactive metabolites. Each overexertion episode increases the baseline waste load — a 'ratchet' effect explaining why repeated crash-boom cycles produce progressive worsening. Entirely inferential; not directly tested with glymphatic imaging."
+  },
+  "valganciclovir": {
+    "label": "Valganciclovir",
+    "category": "medication",
+    "definition": "An antiviral prodrug of ganciclovir, active against cytomegalovirus (CMV) and Epstein-Barr virus (EBV). Used experimentally in ME/CFS subsets with elevated EBV/CMV antibody titers. Inhibits viral DNA polymerase by competing with deoxyguanosine triphosphate.",
+    "generic": "Valganciclovir",
+    "brand": "Valcyte",
+    "class": "Antiviral / nucleoside analogue (DNA polymerase inhibitor)",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Valganciclovir%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Valganciclovir"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Valganciclovir"
+      }
+    ]
+  },
+  "dasatinib": {
+    "label": "Dasatinib",
+    "category": "medication",
+    "definition": "A second-generation tyrosine kinase inhibitor targeting BCR-ABL and SRC family kinases. Used for chronic myeloid leukemia. Investigated in ME/CFS for its ability to inhibit mast cell activation and reduce neuroinflammation via CSF1R inhibition.",
+    "generic": "Dasatinib",
+    "brand": "Sprycel",
+    "class": "Tyrosine kinase inhibitor / BCR-ABL inhibitor",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Dasatinib%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Dasatinib"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Dasatinib"
+      }
+    ]
+  },
+  "nirmatrelvir": {
+    "label": "Nirmatrelvir",
+    "category": "medication",
+    "definition": "An oral SARS-CoV-2 main protease (Mpro / 3CLpro) inhibitor. Used in combination with ritonavir (Paxlovid) for COVID-19. Investigated for potential benefit in post-COVID ME/CFS by reducing viral persistence and dysregulated immune activation.",
+    "generic": "Nirmatrelvir / Ritonavir",
+    "brand": "Paxlovid",
+    "class": "SARS-CoV-2 main protease inhibitor / antiviral",
+    "rx": "Prescription (US, EU, emergency use authorization)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Nirmatrelvir%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Nirmatrelvir"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Nirmatrelvir"
+      }
+    ]
+  },
+  "metoprolol": {
+    "label": "Metoprolol",
+    "category": "medication",
+    "definition": "A β₁-selective beta-blocker used for hypertension, angina, and rate control in POTS. Used in ME/CFS/POTS to reduce inappropriate tachycardia and improve orthostatic tolerance. Also reduces cardiac norepinephrine release.",
+    "generic": "Metoprolol tartrate / Metoprolol succinate",
+    "brand": "Lopressor, Toprol-XL",
+    "class": "Beta-blocker (β₁-selective) / antiarrhythmic",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Metoprolol%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Metoprolol"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Metoprolol"
+      }
+    ]
+  },
+  "atorvastatin": {
+    "label": "Atorvastatin",
+    "category": "medication",
+    "definition": "A statin (HMG-CoA reductase inhibitor) used for hypercholesterolemia and cardiovascular disease prevention. Beyond lipid lowering, has anti-inflammatory, immunomodulatory, and antioxidant pleiotropic effects. Investigated in ME/CFS for potential anti-inflammatory benefits.",
+    "generic": "Atorvastatin",
+    "brand": "Lipitor",
+    "class": "Statin / HMG-CoA reductase inhibitor",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Atorvastatin%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Atorvastatin"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Atorvastatin"
+      }
+    ]
+  },
+  "nebivolol": {
+    "label": "Nebivolol",
+    "category": "medication",
+    "definition": "A β₁-selective beta-blocker with additional nitric oxide-mediated vasodilatory effects. Used for hypertension and heart failure. The NO-potentiating effect may provide advantages over other beta-blockers in ME/CFS POTS, reducing tachycardia while improving cerebral perfusion.",
+    "generic": "Nebivolol",
+    "brand": "Bystolic",
+    "class": "Beta-blocker (β₁-selective) / NO-potentiating vasodilator",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Nebivolol%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Nebivolol"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Nebivolol"
+      }
+    ]
+  },
+  "etanercept": {
+    "label": "Etanercept",
+    "category": "medication",
+    "definition": "A TNF-α inhibitor (fusion protein of TNFR2 and IgG1 Fc) used for autoimmune diseases. Investigated in ME/CFS based on elevated TNF-α evidence; results have been mixed. Blocks soluble and membrane-bound TNF-α, reducing systemic inflammation.",
+    "generic": "Etanercept",
+    "brand": "Enbrel",
+    "class": "TNF-α inhibitor / fusion protein",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Etanercept%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Etanercept"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Etanercept"
+      }
+    ]
+  },
+  "pembrolizumab": {
+    "label": "Pembrolizumab",
+    "category": "medication",
+    "definition": "A monoclonal antibody targeting PD-1 (immune checkpoint inhibitor), used in cancer immunotherapy. Blocks PD-1/PD-L1 interaction, reinvigorating exhausted T cells. Has been considered experimentally in ME/CFS for reversing T-cell exhaustion, though with substantial safety concerns.",
+    "generic": "Pembrolizumab",
+    "brand": "Keytruda",
+    "class": "PD-1 checkpoint inhibitor / monoclonal antibody",
+    "rx": "Prescription (US, EU; restricted to oncology)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pembrolizumab%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pembrolizumab"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Pembrolizumab"
+      }
+    ]
+  },
+  "bisoprolol": {
+    "label": "Bisoprolol",
+    "category": "medication",
+    "definition": "A β₁-selective beta-blocker used for hypertension, heart failure, and POTS. Reduces heart rate and myocardial oxygen demand with lower bronchospasm risk than non-selective β-blockers. Used off-label in ME/CFS POTS for rate control.",
+    "generic": "Bisoprolol fumarate",
+    "brand": "Zebeta, Monocor",
+    "class": "Beta-blocker (β₁-selective)",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Bisoprolol%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Bisoprolol"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Bisoprolol"
+      }
+    ]
+  },
+  "valsartan": {
+    "label": "Valsartan",
+    "category": "medication",
+    "definition": "An angiotensin II receptor blocker (ARB) used for hypertension and heart failure. Blocks AT₁R, opposing the vasoconstrictive, pro-inflammatory, and pro-fibrotic effects of angiotensin II. Relevant to ME/CFS for potential modulation of RAS imbalance and AT₁R autoantibody effects.",
+    "generic": "Valsartan",
+    "brand": "Diovan",
+    "class": "Angiotensin II receptor blocker (ARB)",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Valsartan%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Valsartan"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Valsartan"
+      }
+    ]
+  },
+  "lisinopril": {
+    "label": "Lisinopril",
+    "category": "medication",
+    "definition": "An ACE inhibitor used for hypertension, heart failure, and post-MI. Reduces angiotensin II production and increases bradykinin levels. Hypothesized in ME/CFS to counteract RAS overactivation and improve cerebral blood flow via reduced angiotensin II-mediated vasoconstriction.",
+    "generic": "Lisinopril",
+    "brand": "Prinivil, Zestril",
+    "class": "ACE inhibitor",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Lisinopril%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Lisinopril"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Lisinopril"
+      }
+    ]
+  },
+  "paroxetine": {
+    "label": "Paroxetine",
+    "category": "medication",
+    "definition": "An SSRI antidepressant with the strongest norepinephrine reuptake inhibition among SSRIs. Used off-label in ME/CFS for comorbid anxiety, depression, and some pain symptoms. Also weakly anticholinergic, which may exacerbate cognitive dysfunction in sensitive patients.",
+    "generic": "Paroxetine",
+    "brand": "Paxil, Seroxat",
+    "class": "SSRI antidepressant (strongest NET inhibition among SSRIs)",
+    "rx": "Prescription (US, EU)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Paroxetine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Paroxetine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Paroxetine"
+      }
+    ]
+  },
+  "eculizumab": {
+    "label": "Eculizumab",
+    "category": "medication",
+    "definition": "A monoclonal antibody that inhibits complement C5, blocking formation of the membrane attack complex (MAC). Used for paroxysmal nocturnal hemoglobinuria, atypical hemolytic uremic syndrome, and generalized myasthenia gravis. Has been considered in ME/CFS for complement hyperactivation subsets.",
+    "generic": "Eculizumab",
+    "brand": "Soliris",
+    "class": "Complement C5 inhibitor / monoclonal antibody",
+    "rx": "Prescription (US, EU; restricted, high-cost)",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Eculizumab%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Eculizumab"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Eculizumab"
+      }
+    ]
+  },
+  "isrib": {
+    "label": "ISRIB (Integrated Stress Response Inhibitor)",
+    "category": "medication",
+    "definition": "A small molecule that reverses eIF2α phosphorylation-mediated translational attenuation by promoting eIF2B guanine nucleotide exchange factor activity. Counteracts the integrated stress response (ISR). Investigated preclinically for cognitive enhancement and potential relevance to ME/CFS metabolic trap hypotheses.",
+    "generic": "ISRIB",
+    "class": "ISR inhibitor / eIF2B activator (research compound)",
+    "rx": "Research compound only",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=ISRIB%5BMeSH%5D"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/ISRIB"
+      }
+    ]
+  },
+  "macrophage": {
+    "label": "Macrophage",
+    "category": "immune",
+    "definition": "A large phagocytic immune cell of the innate system that engulfs pathogens, clears cellular debris, and orchestrates inflammation and tissue repair. Macrophages polarize along an M1 (pro-inflammatory) to M2 (anti-inflammatory/repair) spectrum. Macrophage dysfunction contributes to chronic inflammation in ME/CFS."
+  },
+  "dendritic cell": {
+    "label": "Dendritic Cell (DC)",
+    "category": "immune",
+    "definition": "A professional antigen-presenting cell that captures, processes, and presents antigens to T cells via MHC molecules, initiating adaptive immune responses. Dendritic cell dysfunction may impair immune responses in ME/CFS and contribute to chronic viral reactivation."
+  },
+  "phagocytosis": {
+    "label": "Phagocytosis",
+    "category": "immune",
+    "definition": "The process by which immune cells (macrophages, neutrophils, dendritic cells) engulf and digest large particles including pathogens, apoptotic cells, and cellular debris. Impaired phagocytosis can contribute to chronic inflammation through failure of debris clearance."
+  },
+  "opsonization": {
+    "label": "Opsonization",
+    "category": "immunology",
+    "definition": "The coating of a pathogen or particle with opsonins (antibodies, complement C3b, lectins) to enhance recognition and phagocytosis by immune cells expressing Fc receptors or complement receptors. Opsonization bridges innate and adaptive immunity."
+  },
+  "ADCC": {
+    "label": "ADCC (Antibody-Dependent Cellular Cytotoxicity)",
+    "category": "immunology",
+    "definition": "An immune mechanism where Fc receptor-bearing effector cells (NK cells, macrophages) recognize and kill antibody-coated target cells. Mediated by CD16 (FcγRIII) engagement. Reduced NK cell ADCC has been reported in ME/CFS."
+  },
+  "immune checkpoint": {
+    "label": "Immune Checkpoint",
+    "category": "immunology",
+    "definition": "A regulatory receptor or ligand that dampens T cell activation to maintain self-tolerance and prevent autoimmunity. Key checkpoints include PD-1, CTLA-4, TIM-3, and LAG-3. Upregulation of checkpoint receptors contributes to T-cell exhaustion in chronic infection and ME/CFS."
+  },
+  "HLA": {
+    "label": "HLA (Human Leukocyte Antigen)",
+    "category": "immunology",
+    "definition": "The human major histocompatibility complex (MHC), encoded by genes on chromosome 6. HLA class I (A, B, C) present endogenous antigens to CD8⁺ T cells; HLA class II (DR, DQ, DP) present exogenous antigens to CD4⁺ T cells. Specific HLA alleles are associated with autoimmune disease risk and may influence ME/CFS susceptibility."
+  },
+  "MHC": {
+    "label": "MHC (Major Histocompatibility Complex)",
+    "category": "immunology",
+    "definition": "A set of cell surface proteins essential for antigen presentation to T cells. MHC class I (expressed on all nucleated cells) presents intracellular peptides to CD8⁺ T cells. MHC class II (on antigen-presenting cells) presents extracellular peptides to CD4⁺ T cells."
+  },
+  "TCR": {
+    "label": "TCR (T-Cell Receptor)",
+    "category": "immunology",
+    "definition": "The antigen-specific receptor expressed on T cells. Composed of α and β chains (95% of T cells) or γ and δ chains (5%). Recognizes peptide antigens presented by MHC molecules. The TCR signaling complex includes CD3 co-receptor subunits. TCR repertoire alterations have been documented in ME/CFS."
+  },
+  "serotonin": {
+    "label": "Serotonin (5-HT)",
+    "category": "neurotransmitter",
+    "definition": "A monoamine neurotransmitter derived from tryptophan via tryptophan hydroxylase. Regulates mood, sleep, appetite, pain perception, and GI motility. The kynurenine pathway shunt (IDO activation) diverts tryptophan away from serotonin synthesis in ME/CFS, contributing to low serotonin states. Most of the body's serotonin is produced in the gut."
+  },
+  "dopamine": {
+    "label": "Dopamine",
+    "category": "neurotransmitter",
+    "definition": "A catecholamine neurotransmitter involved in motivation, reward, motor control, and cognitive function. Produced from tyrosine via tyrosine hydroxylase and DOPA decarboxylase. Dopamine dysregulation in ME/CFS may contribute to anhedonia, cognitive slowing, and reduced motivation."
+  },
+  "glutamate": {
+    "label": "Glutamate",
+    "category": "neurotransmitter",
+    "definition": "The primary excitatory neurotransmitter in the central nervous system. Acts via ionotropic (NMDA, AMPA, kainate) and metabotropic (mGluR) receptors. Excessive glutamate signaling causes excitotoxicity, implicated in neurodegeneration and potentially in ME/CFS central sensitization and cognitive dysfunction."
+  },
+  "histidine": {
+    "label": "Histidine",
+    "category": "molecule",
+    "definition": "An essential amino acid and precursor for histamine synthesis via histidine decarboxylase. Also a precursor for carnosine. Histidine availability can become rate-limiting for histamine production in mast cell activation states."
+  },
+  "kynurenine": {
+    "label": "Kynurenine",
+    "category": "metabolite",
+    "definition": "The primary metabolite of tryptophan via IDO/TDO-catalyzed indole ring cleavage. Kynurenine is further metabolized to kynurenic acid (neuroprotective) via KAT or to quinolinic acid (neurotoxic) via the kynurenine-3-monooxygenase pathway. Kynurenine pathway activation is implicated in ME/CFS immune-metabolic dysregulation."
+  },
+  "quinolinic acid": {
+    "label": "Quinolinic Acid (QUIN)",
+    "category": "metabolite",
+    "definition": "A neurotoxic metabolite in the kynurenine pathway, produced from 3-hydroxyanthranilic acid. Acts as an NMDA receptor agonist and induces oxidative stress. Elevated quinolinic acid is associated with neuroinflammation and may contribute to cognitive dysfunction in ME/CFS and depression."
+  },
+  "kynurenic acid": {
+    "label": "Kynurenic Acid (KYNA)",
+    "category": "metabolite",
+    "definition": "A neuroprotective metabolite in the kynurenine pathway, produced from kynurenine by kynurenine aminotransferases (KATs). Acts as an NMDA receptor antagonist and α7 nAChR negative allosteric modulator. Imbalance between kynurenic acid (protective) and quinolinic acid (toxic) is relevant to ME/CFS neuroinflammation hypotheses."
+  },
+  "picolinic acid": {
+    "label": "Picolinic Acid",
+    "category": "metabolite",
+    "definition": "A minor branch metabolite of the kynurenine pathway, produced from 2-amino-3-carboxymuconate-6-semialdehyde via ACMSD. Chelates zinc and iron, possesses antiviral and immunomodulatory properties. May play a role in regulating neuroinflammation and immune function."
+  },
+  "tryptase": {
+    "label": "Tryptase",
+    "category": "enzyme",
+    "definition": "A serine protease released primarily by mast cells during degranulation. Elevated serum tryptase indicates systemic mast cell activation. Mature tryptase is stored in secretory granules; the commercially measured total tryptase includes both mature and inactive protryptase. Tryptase is the most specific clinical marker for MCAS."
+  },
+  "chymase": {
+    "label": "Chymase",
+    "category": "enzyme",
+    "definition": "A serine protease stored in mast cell secretory granules, released during degranulation. Converts angiotensin I to angiotensin II, activates IL-1β and MMP-9, and degrades extracellular matrix. Chymase contributes to tissue inflammation and fibrosis in MCAS and related conditions."
+  },
+  "MPO": {
+    "label": "MPO (Myeloperoxidase)",
+    "category": "enzyme",
+    "definition": "A heme enzyme released by neutrophils and monocytes that produces hypochlorous acid (HOCl) from hydrogen peroxide and chloride. A key component of the antimicrobial oxidative burst. Elevated MPO indicates neutrophil activation and oxidative stress in inflammatory conditions."
+  },
+  "phosphatase": {
+    "label": "Phosphatase",
+    "category": "enzyme",
+    "definition": "An enzyme that removes phosphate groups from substrates by hydrolysis. Counterbalances kinase activity in cellular signaling. Key examples: calcineurin (protein phosphatase 3), PP2A, PTEN (lipid phosphatase). Phosphatase dysregulation can alter immune signaling and metabolic pathways."
+  },
+  "phospholipase": {
+    "label": "Phospholipase",
+    "category": "enzyme",
+    "definition": "An enzyme that hydrolyzes phospholipids into fatty acids and other lipophilic molecules. Phospholipase A₂ (PLA₂) releases arachidonic acid for eicosanoid synthesis. Phospholipase C (PLC) cleaves PIP₂ into IP₃ and DAG, mobilizing intracellular calcium and activating PKC."
+  },
+  "ATPsynthase": {
+    "label": "ATP Synthase (Complex V)",
+    "category": "enzyme",
+    "definition": "The mitochondrial enzyme complex that synthesizes ATP from ADP and inorganic phosphate using the proton gradient generated by the electron transport chain. Consists of F₁ (catalytic) and F₀ (proton channel) domains. ATP synthase dysfunction reduces cellular energy production in ME/CFS."
+  },
+  "deiodinase": {
+    "label": "Deiodinase",
+    "category": "enzyme",
+    "definition": "An enzyme that removes iodine atoms from thyroid hormones. Three types: D1 (liver/kidney, produces circulating T₃ from T₄), D2 (brain, pituitary, brown fat, local T₃ production), D3 (inactivates T₃ and T₄ to reverse T₃ and T₂). Deiodinase dysfunction may contribute to the 'low T₃ syndrome' in ME/CFS."
+  },
+  "MMP-9": {
+    "label": "MMP-9 (Matrix Metalloproteinase 9)",
+    "category": "enzyme",
+    "definition": "A zinc-dependent endopeptidase that degrades extracellular matrix components including collagen IV, fibronectin, and elastin. MMP-9 is elevated in inflammatory conditions and can disrupt the blood-brain barrier. Elevated MMP-9 has been reported in ME/CFS, contributing to neuroinflammation."
+  },
+  "NMDAR": {
+    "label": "NMDA Receptor (NMDAR)",
+    "category": "receptor",
+    "definition": "An ionotropic glutamate receptor gated by NMDA (N-methyl-D-aspartate). Passes Ca²⁺ and Na⁺ upon binding glutamate and the co-agonist glycine/D-serine, with channel opening blocked by Mg²⁺ at resting potential. NMDAR overactivation contributes to excitotoxicity and central sensitization in ME/CFS."
+  },
+  "CGRP": {
+    "label": "CGRP (Calcitonin Gene-Related Peptide)",
+    "category": "neuropeptide",
+    "definition": "A 37-amino-acid neuropeptide released from sensory nerve endings that mediates vasodilation and pain signaling. CGRP is implicated in migraine and may contribute to headache, allodynia, and neurogenic inflammation in ME/CFS. CGRP receptor antagonists (gepants) and monoclonal antibodies are used for migraine prevention."
+  },
+  "sigma-1 receptor": {
+    "label": "Sigma-1 Receptor (σ1R)",
+    "category": "receptor",
+    "definition": "An endoplasmic reticulum-resident chaperone protein that translocates upon ligand binding to modulate ion channels (NMDA, IP₃R, Cav), G protein-coupled receptors, and cellular stress responses. A pluripotent modulator of neuroprotection, neuroplasticity, and pain. Agonists (fluvoxamine, donepezil) are relevant to ME/CFS pharmacological hypotheses."
+  },
+  "GABA-A receptor": {
+    "label": "GABA-A Receptor",
+    "category": "receptor",
+    "definition": "An ionotropic GABA receptor and ligand-gated chloride channel. The primary inhibitory receptor in the CNS. A pentameric complex assembled from 19 subunit subtypes (α1-6, β1-3, γ1-3, δ, ε, θ, π, ρ1-3). Target of benzodiazepines, barbiturates, neurosteroids (allopregnanolone, pregnenolone), and ethanol."
+  },
+  "mAChR": {
+    "label": "Muscarinic Acetylcholine Receptor (mAChR)",
+    "category": "receptor",
+    "definition": "A G protein-coupled receptor responsive to acetylcholine and muscarine. Five subtypes (M₁-M₅): M₁, M₃, M₅ couple to Gαq (PLC activation, Ca²⁺ mobilization); M₂, M₄ couple to Gαi (cAMP inhibition, channel modulation). Autoantibodies against M₃ and M₄ mAChRs have been identified in ME/CFS, potentially impairing autonomic and cognitive cholinergic signaling."
+  },
+  "IL-1": {
+    "label": "Interleukin-1 (IL-1)",
+    "category": "cytokine",
+    "definition": "A family of pro-inflammatory cytokines (IL-1α, IL-1β) produced primarily by macrophages and monocytes. IL-1β is processed by the NLRP3 inflammasome and caspase-1. Drives fever, sickness behavior, and systemic inflammation. Elevated IL-1 in ME/CFS contributes to fatigue, pain, and neuroinflammation.",
+    "also": "See IL-1β entry"
+  },
+  "IL-10": {
+    "label": "Interleukin-10 (IL-10)",
+    "category": "cytokine",
+    "definition": "A key anti-inflammatory cytokine produced by Tregs, macrophages, and B cells. Suppresses pro-inflammatory cytokine production (TNF-α, IL-1, IL-6) and inhibits antigen presentation. IL-10 dysregulation in ME/CFS may contribute to inadequate resolution of inflammation."
+  },
+  "IL-2": {
+    "label": "Interleukin-2 (IL-2)",
+    "category": "cytokine",
+    "definition": "A T cell growth factor essential for lymphocyte proliferation, differentiation, and survival. Produced primarily by activated CD4⁺ T cells. Low-dose IL-2 therapy selectively expands Tregs and is investigated in autoimmune diseases. IL-2 signaling abnormalities contribute to T-cell dysfunction in ME/CFS."
+  },
+  "IL-15": {
+    "label": "Interleukin-15 (IL-15)",
+    "category": "cytokine",
+    "definition": "A cytokine that promotes NK cell and CD8⁺ memory T cell survival and proliferation. Shares the γ-chain receptor subunit with IL-2. Elevated IL-15 in ME/CFS may drive NK and CD8⁺ T cell dysfunction through chronic activation leading to exhaustion."
+  },
+  "IL-17": {
+    "label": "Interleukin-17 (IL-17)",
+    "category": "cytokine",
+    "definition": "A pro-inflammatory cytokine produced primarily by Th17 cells. Recruits neutrophils, induces antimicrobial peptides and MMPs, and is central to autoimmune inflammation. IL-17 elevation may contribute to the autoimmune and neuroinflammatory features observed in ME/CFS subsets."
+  },
+  "BAFF": {
+    "label": "BAFF (B-cell Activating Factor)",
+    "category": "cytokine",
+    "definition": "A TNF family cytokine (BLyS) essential for B cell survival, maturation, and antibody production. Overexpression of BAFF promotes autoreactive B cell survival and autoantibody production. Elevated BAFF may contribute to the B cell abnormalities and autoantibody generation in ME/CFS."
+  },
+  "PD-1": {
+    "label": "PD-1 (Programmed Cell Death Protein 1)",
+    "category": "immunology",
+    "definition": "An immune checkpoint receptor expressed on activated T cells. Upon binding its ligands PD-L1/PD-L2, PD-1 inhibits T cell proliferation, cytokine production, and cytotoxicity. Upregulated PD-1 on CD8⁺ T cells in ME/CFS is a marker of T-cell exhaustion."
+  },
+  "CTLA-4": {
+    "label": "CTLA-4 (Cytotoxic T-Lymphocyte-Associated Protein 4)",
+    "category": "immunology",
+    "definition": "An immune checkpoint receptor expressed on T cells that outcompetes CD28 for B7 ligand binding (CD80/CD86), dampening T cell activation. CTLA-4 is critical for Treg function and maintaining self-tolerance. Polymorphisms in CTLA-4 are associated with autoimmune disease susceptibility."
+  },
+  "TIM-3": {
+    "label": "TIM-3 (T-cell Immunoglobulin and Mucin Domain 3)",
+    "category": "immunology",
+    "definition": "An immune checkpoint receptor expressed on IFN-γ-producing T cells, Tregs, and innate immune cells. Binding to its ligand galectin-9 induces T cell death and exhaustion. Upregulated in ME/CFS CD8⁺ T cells as part of the exhaustion program."
+  },
+  "LAG-3": {
+    "label": "LAG-3 (Lymphocyte Activation Gene 3)",
+    "category": "immunology",
+    "definition": "An immune checkpoint receptor on T cells that binds MHC class II with higher affinity than CD4. Inhibits T cell proliferation and effector function. Co-expressed with PD-1 on exhausted T cells in chronic infection and cancer. Upregulated in ME/CFS T cells."
+  },
+  "HERV": {
+    "label": "HERV (Human Endogenous Retrovirus)",
+    "category": "pathogen",
+    "definition": "Remnants of ancient retroviral integrations in the human genome, comprising ~8% of human DNA. Normally silenced by epigenetic mechanisms, HERVs can be reactivated by viral infections (EBV, SARS-CoV-2) and inflammatory stimuli. HERV-K and HERV-W envelope proteins have been implicated in ME/CFS and multiple sclerosis as triggers of immune activation."
+  },
+  "CBF": {
+    "label": "CBF (Cerebral Blood Flow)",
+    "category": "measurement",
+    "definition": "The rate of blood delivery to brain tissue, typically 50–60 mL/100g/min in healthy adults. Reduced CBF is documented in ME/CFS, particularly in the temporal and frontal lobes and brainstem. CBF reduction correlates with cognitive dysfunction and orthostatic intolerance. Measured by arterial spin labeling (ASL) MRI or SPECT."
+  },
+  "TSPO": {
+    "label": "TSPO (Translocator Protein)",
+    "category": "protein",
+    "definition": "An 18 kDa protein located on the outer mitochondrial membrane, highly expressed in activated microglia and astrocytes. TSPO PET imaging (using [¹¹C]PK11195 or newer ligands) is used to quantify neuroinflammation in vivo. Elevated TSPO binding in ME/CFS indicates ongoing neuroinflammation in multiple brain regions."
+  },
+  "PGAM5": {
+    "label": "PGAM5 (Phosphoglycerate Mutase Family Member 5)",
+    "category": "enzyme",
+    "definition": "A mitochondrial serine/threonine phosphatase that regulates mitochondrial dynamics, mitophagy, and the PINK1/Parkin pathway. PGAM5 also activates the KEAP1/NRF2 antioxidant pathway and the NLRP3 inflammasome. Acts as a convergence point between mitochondrial stress and immune activation."
+  },
+  "EBNA": {
+    "label": "EBNA (Epstein-Barr Nuclear Antigen)",
+    "category": "protein",
+    "definition": "A family of EBV-encoded nuclear proteins (EBNA-1, -2, -3A, -3B, -3C, -LP) expressed in latently infected B cells. EBNA-1 maintains the viral episome; EBNA-2 transactivates viral and cellular genes. Antibodies against EBNAs serve as serological markers of EBV infection stage and reactivation."
+  },
+  "VCA": {
+    "label": "VCA (Viral Capsid Antigen)",
+    "category": "protein",
+    "definition": "An EBV structural protein, part of the viral capsid. IgM anti-VCA indicates acute/primary EBV infection; IgG anti-VCA indicates past infection or reactivation. Elevated IgG anti-VCA titers are one of the most replicated serological findings in ME/CFS, suggesting chronic EBV reactivation."
+  },
+  "PAF": {
+    "label": "PAF (Platelet-Activating Factor)",
+    "category": "molecule",
+    "definition": "A potent phospholipid mediator of inflammation, produced by various cell types including platelets, mast cells, and endothelial cells. Induces platelet aggregation, neutrophil activation, increased vascular permeability, and anaphylaxis. PAF degradation by PAF acetylhydrolase (PAF-AH) is impaired in some inflammatory conditions."
+  },
+  "bistability": {
+    "label": "Bistability",
+    "category": "concept",
+    "definition": "A dynamical system property in which two stable steady states coexist for the same parameter values, separated by an unstable equilibrium (separatrix). Transition between states requires a perturbation exceeding a threshold. In ME/CFS, bistability models propose that metabolic or immune networks can switch between healthy and disease states and become 'trapped' in the disease state."
+  },
+  "separatrix": {
+    "label": "Separatrix",
+    "category": "concept",
+    "definition": "In dynamical systems theory, the boundary that separates two or more basins of attraction. Crossing the separatrix moves the system from one stable state to another. In the ME/CFS disease-state model, the separatrix represents the threshold of perturbation required to transition between healthy and disease equilibria."
   }
 }

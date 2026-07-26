@@ -23,6 +23,16 @@
 |------------|-------|----------|----------|---|--------|
 
 ## Notes
+
+---
+
+## Phase Reports
+
+| Phase | Date | Summary |
+|-------|------|---------|
+| 9 | 2026-07-26 | Quality: 9 environments (2 speculations, 2 open-questions, 5 limitations) over 145 lines; 8 citations; consequence fields on all environments; Phase 2 decision PARTIAL — WEAK-EVIDENCE flag pre-fired (no direct ME/CFS glymphatic data); quality flags WEAK-EVIDENCE, C-CHAYAMA-SINGLE-SOURCE, C-CONVERGENT-NARRATIVE (self-acknowledged in limitation); Score: B+ (PARTIAL caps respected, limitations honest; foundational measurement gap prevents higher score) |
+
+## Notes
 - Referenced in `ops/plans/20260726-document-gap-analysis.md` as B6 (medium impact structural gap)
 - Unique: content already exists scattered across ch25/26/27/43 — the task is consolidation + new synthesis, not discovery
 - Cover: glymphatic system, meningeal lymphatics, Chayama 2026 nearest-exit architecture, dual-speed glymphatics, inflammatory rerouting vs. obstructive trapping, PEM ratchet, skull-border B-cell tolerance, CSF:blood ratio biomarkers

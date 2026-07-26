@@ -4,7 +4,7 @@
 <ch:brain-clearance-architecture>
 
 #chapter-abstract[
-The glymphatic system, meningeal lymphatics, and brain clearance in ME/CFS — consolidating content currently scattered across ch25 (brain clearance supplements), ch26 (brain clearance lifestyle), ch27 (brain clearance drugs), and ch43 (brain clearance ODE models). Covers Chayama 2026 nearest-exit architecture, dual-speed glymphatics, inflammatory rerouting vs. obstructive trapping, the PEM ratchet, skull-border B-cell tolerance, and CSF:blood ratio biomarkers.
+The glymphatic system, meningeal lymphatics, and brain clearance in ME/CFS — consolidating content currently scattered across ch25 (brain clearance supplements), ch26 (brain clearance lifestyle), ch27 (brain clearance drugs), and ch43 (brain clearance ODE models). Covers Chayama 2026 nearest-exit architecture, dual-speed glymphatics, inflammatory rerouting vs. obstructive trapping, the PEM ratchet, skull-border B-cell tolerance, and CSF:blood ratio biomarkers. *Framing alignment:* This chapter exemplifies the document's convergent multi-system driver thesis — sleep, autonomic, neuroinflammatory, cervical, and immune mechanisms converging on a single clearance pathway — and directly extends the PEM-as-cardinal-feature framing by proposing a glymphatic mechanism for post-exertional malaise. It does not address the brain-first genetic architecture axis or patient-advocacy axis; those are covered in ch12 and ch02 respectively.
 ]
 
 == The Brain's Waste Clearance System
@@ -21,7 +21,7 @@ In 2015, Louveau and colleagues discovered functional lymphatic vessels lining t
 
 === The Sleep Connection
 
-Glymphatic clearance is primarily active during sleep. Fultz and colleagues demonstrated that CSF oscillations are coupled to slow-wave sleep, with large-amplitude CSF inflow waves occurring during non-REM sleep @Fultz2019csfOscillations. Hauglund and colleagues showed that noradrenaline-driven vasomotion — rhythmic oscillations in blood vessel diameter — is the pump that drives CSF influx, and that noradrenergic tone drops during sleep, enabling the vasomotion necessary for glymphatic flow @Hauglund2025neVasomotion. Jiang-Xie and colleagues independently identified neuronal oscillatory synchrony as a master pump for CSF perfusion @JiangXie2024neuronalCSFDynamics. Sleep deprivation impairs glymphatic clearance — a finding with immediate relevance to ME/CFS, where unrefreshing sleep is a cardinal symptom and where objective sleep architecture abnormalities (reduced slow-wave sleep, increased arousals) are documented.
+Glymphatic clearance is primarily active during sleep. Fultz and colleagues demonstrated that CSF oscillations are coupled to slow-wave sleep, with large-amplitude CSF inflow waves occurring during non-REM sleep @Fultz2019csfOscillations. Hauglund and colleagues showed that noradrenaline-driven vasomotion — rhythmic oscillations in blood vessel diameter — is the pump that drives CSF influx, and that noradrenergic tone drops during sleep, enabling the vasomotion necessary for glymphatic flow @Hauglund2025neVasomotion. Jiang-Xie and colleagues independently identified neuronal oscillatory synchrony as a master pump for CSF perfusion @JiangXie2024neuronalCSFDynamics. Sleep deprivation impairs glymphatic clearance — a finding with immediate relevance to ME/CFS, where unrefreshing sleep is a cardinal symptom and where polysomnography studies document sleep architecture abnormalities including reduced slow-wave sleep and increased arousals.
 
 == Chayama 2026: The Nearest-Exit Architecture Model
 
@@ -51,7 +51,7 @@ No direct glymphatic or meningeal lymphatic imaging study has been performed in 
 
 === Sleep Dysfunction → Reduced Glymphatic Clearance
 
-Unrefreshing sleep is a cardinal symptom of ME/CFS and is required in all modern case definitions (CCC, ICC, IOM, NICE). Polysomnography studies in ME/CFS show reduced slow-wave sleep, increased sleep fragmentation, and reduced sleep efficiency @Fultz2019csfOscillations. Since glymphatic clearance is coupled to slow-wave sleep and powered by noradrenaline-driven vasomotion that peaks during deep sleep, sleep dysfunction in ME/CFS would predictably reduce glymphatic waste clearance. The chronicity of sleep disruption — years to decades in most patients — would produce cumulative protein and metabolite accumulation consistent with the progressive cognitive decline reported by patients.
+Unrefreshing sleep is a cardinal symptom of ME/CFS and is required in all modern case definitions (CCC, ICC, IOM, NICE). Polysomnography studies in ME/CFS consistently report sleep architecture abnormalities including reduced slow-wave sleep, increased sleep fragmentation, and reduced sleep efficiency. Since glymphatic clearance is coupled to slow-wave sleep @Fultz2019csfOscillations and powered by noradrenaline-driven vasomotion that peaks during deep sleep, sleep dysfunction in ME/CFS would predictably reduce glymphatic waste clearance. The chronicity of sleep disruption — years to decades in most patients — would produce cumulative protein and metabolite accumulation consistent with the progressive cognitive decline reported by patients.
 
 === Autonomic Dysfunction → Impaired Vasomotion
 
@@ -59,7 +59,7 @@ Orthostatic intolerance, reduced heart rate variability, and sympathetic-parasym
 
 === Neuroinflammation → Meningeal Lymphatic Impairment
 
-Meningeal lymphatic vessels are sensitive to inflammatory cytokines. Da Mesquita and colleagues showed that meningeal lymphatic dysfunction in aging is driven by IFN-γ and TNF-α, and that VEGF-C administration can rescue lymphatic function by promoting lymphangiogenesis @DaMesquita2018meningealLymphaticsAging. ME/CFS is characterized by chronic low-grade neuroinflammation — elevated CSF cytokines (@Hornig2017), microglial activation, and T-cell infiltration — that would predictably impair meningeal lymphatic drainage through the same inflammatory mechanism. This creates a positive feedback loop: impaired clearance → metabolite accumulation → neuroinflammation → further lymphatic impairment.
+Meningeal lymphatic vessels are sensitive to inflammatory cytokines. Da Mesquita and colleagues showed that meningeal lymphatic dysfunction in aging is driven by IFN-γ and TNF-α, and that VEGF-C administration can rescue lymphatic function by promoting lymphangiogenesis @DaMesquita2018meningealLymphaticsAging. ME/CFS is characterized by evidence of chronic low-grade neuroinflammation — including elevated CSF cytokines reported in some studies and PET findings consistent with glial activation in a subset of patients — that would predictably impair meningeal lymphatic drainage through the same inflammatory mechanism. This creates a positive feedback loop: impaired clearance → metabolite accumulation → neuroinflammation → further lymphatic impairment.
 
 === Cervical Pathology → Mid-Cervical Transit Node Obstruction
 
@@ -67,7 +67,7 @@ The mid-cervical transit node identified by Chayama 2026 is an anatomical bottle
 
 === Immune Activation → Skull-Border B-Cell Tolerance Breakdown
 
-The documented presence of GPCR autoantibodies in a subset of ME/CFS patients (adrenergic, muscarinic, angiotensin receptors) requires an anatomical source — where are these autoantibodies produced? The skull-border B-cell niche identified by Chayama 2026 provides a candidate location: disruption of skull-border B-cell tolerance by chronic neuroinflammation or infection could allow CNS-reactive B-cells to mature and secrete autoantibodies directly into CSF and meningeal lymphatics, providing a local source for the autoantibodies detected in peripheral blood.
+The documented presence of GPCR autoantibodies in a subset of ME/CFS patients (adrenergic, muscarinic, angiotensin receptors) could be produced peripherally (as most autoantibodies are), but the skull-border B-cell niche identified by Chayama 2026 provides a candidate for a CNS-proximal source: disruption of skull-border B-cell tolerance by chronic neuroinflammation or infection could allow CNS-reactive B-cells to mature and secrete autoantibodies directly into CSF and meningeal lymphatics.
 
 == The PEM Ratchet
 
@@ -77,16 +77,20 @@ This "PEM ratchet" model — each exertion episode generates waste that a compro
 
 == Treatment Correlates
 
-The brain clearance model provides mechanistic rationale for interventions already discussed in treatment chapters:
+The brain clearance model provides mechanistic rationale for interventions already discussed in treatment chapters. These correlates derive from the model, not from evidence of efficacy for brain clearance endpoints in ME/CFS — none of these interventions have been tested with glymphatic outcome measures in ME/CFS cohorts:
 
 - *Sleep optimization (ch26):* Maximizing slow-wave sleep duration directly enhances glymphatic clearance
 - *Head positioning (ch26):* Lateral and supine sleep positions optimize glymphatic flow; head elevation may facilitate cervical lymphatic drainage
 - *Anti-inflammatory supplements (ch25):* Omega-3, curcumin, and flavonoids may protect meningeal lymphatic function by reducing IFN-γ/TNF-α-driven impairment
 - *Osmotic agents (ch25):* Mannitol and hypertonic saline may enhance CSF production and glymphatic flow
-- *Pharmacological vasomotion enhancement (ch27):* Noradrenergic modulators (clonidine, guanfacine) and carbonic anhydrase inhibitors (acetazolamide) may enhance vasomotion-driven CSF perfusion
+- *Pharmacological vasomotion enhancement (ch27):* Noradrenergic modulators (clonidine, guanfacine) may enhance vasomotion-driven CSF perfusion — though the direction of effect is ambiguous, as these agents reduce noradrenergic tone while Hauglund 2025 demonstrated that noradrenaline-regulated vasomotion drives glymphatic influx
 - *Cervical interventions (ch27):* Addressing craniocervical pathology and optimizing cervical posture may relieve mid-cervical transit node obstruction
 
-== Environments
+  == Environments
+
+#synthesis(title: [Brain Clearance Architecture in ME/CFS: A Research Program, Not an Established Finding])[
+The brain clearance hypothesis in ME/CFS unifies multiple documented pathophysiological features — sleep dysfunction (reduced slow-wave sleep, increased fragmentation), autonomic impairment (elevated sympathetic tone, blunted parasympathetic activation, reduced vasomotion), neuroinflammation (meningeal lymphatic impairment via IFN-γ/TNF-α), cervical pathology (mid-cervical transit node obstruction), and immune dysregulation (skull-border B-cell tolerance breakdown, GPCR autoantibody production) — through a single convergent pathway: impaired glymphatic-lymphatic clearance. The PEM ratchet model extends this framework to the defining clinical feature of ME/CFS, proposing that exertion-generated metabolic waste accumulates in a clearance-compromised brain, producing the delayed symptom exacerbation of post-exertional malaise. This convergence across multiple independent lines of evidence creates an intellectually satisfying unified model. However, the entire framework rests on indirect inference: no study has directly measured glymphatic function in an ME/CFS cohort using DTI-ALPS, contrast-enhanced MRI, or CSF tracer methods. The Chayama 2026 nearest-exit architecture model — which provides the most comprehensive organizing framework — is a single synthetic proposal without independent replication. The CSF:blood ratio biomarker, while logically sound and validated in other diseases, has not been measured in ME/CFS. The framework's current state is pre-experimental: it generates testable predictions (DTI-ALPS should show reduced glymphatic function; CSF:blood ratios of brain-derived proteins should be elevated; pharmacological enhancement of clearance should improve symptoms), but none of those predictions have been tested. The single most important experiment — direct glymphatic imaging with paired CSF:blood neuronal-protein measurement in ME/CFS — remains undone. Until it is performed, the brain clearance architecture framework is a research program organizing existing observations into testable predictions, not an established contributor to ME/CFS pathophysiology.
+]
 
 #speculation(title: [The PEM Ratchet: Exertion-Generated Waste Accumulates in an Impaired Clearance System])[
 Physical and cognitive exertion generates metabolic waste (lactate, ROS, inflammatory mediators) in both the brain and periphery. Under normal glymphatic function, this waste is cleared during sleep. In ME/CFS, multiple documented dysfunctions — reduced slow-wave sleep, autonomic impairment (reduced vasomotion), neuroinflammation (impaired meningeal lymphatics) — converge to reduce glymphatic clearance capacity. The result: exertion-generated waste that a healthy brain would clear overnight instead accumulates, producing the delayed (12–48 hour) symptom exacerbation of PEM. Each exertion episode increases the brain's baseline waste load, creating a ratchet effect where repeated overexertion produces progressive worsening.
