@@ -82,6 +82,13 @@
 | 2.11 | Fe-S Cluster Failure as Ferroptosis Substrate | 2 | 0.25 | ↩️ tree-only | Tier 2 |
 | 2.12 | Sex-Stratified Iron Phenotyping | 2 | 0.20 | ↩️ tree-only | Tier 2 |
 
+### Phase 13 — Commit
+- 2 commits: `6aecd365` feat(ch14d,ch09,ch33): integrate iron redox polarity
+- `ae4c6d53` feat(ch30,ch14d): add iron-redox cascade + synthesis + glossary
+- 22 files committed across both commits
+- Excluded: unrelated parallel-session files (slaghekke2026, AIMM, .agentmem/, Literature/)
+- Status: ✅ done
+
 ## Active Caps (set by Phase 2 — decision: PROCEED)
 - Environments allowed: all
 - #hypothesis-box / #fhypothesis: allowed
