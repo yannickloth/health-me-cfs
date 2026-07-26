@@ -23,7 +23,7 @@ What doesn't replicate — or replicates more weakly — across criteria:
 
 === The DecodeME GWAS: Genetic-Level Validation
 
-The DecodeME GWAS (n>15,000, using IOM/SEID criteria) provides the strongest evidence to date that diagnostic criteria matter at the molecular level @DecodeME2025Criteria. Preliminary analyses indicate that the genetic architecture of ME/CFS differs when analyzed under different diagnostic criteria — a finding that would be impossible if criteria-defined groups were biologically equivalent. The GWAS data effectively confirm what Jason's registry analyses and Nacul's biobank data suggested from clinical and metabolic perspectives: criteria determine biology.
+The DecodeME GWAS (n $>$ 15,000, using IOM/SEID criteria) provides the strongest evidence to date that diagnostic criteria matter at the molecular level @DecodeME2025Criteria. Preliminary analyses indicate that the genetic architecture of ME/CFS differs when analyzed under different diagnostic criteria — a finding that would be impossible if criteria-defined groups were biologically equivalent. The GWAS data effectively confirm what Jason's registry analyses and Nacul's biobank data suggested from clinical and metabolic perspectives: criteria determine biology.
 
 === Implications for the Literature
 

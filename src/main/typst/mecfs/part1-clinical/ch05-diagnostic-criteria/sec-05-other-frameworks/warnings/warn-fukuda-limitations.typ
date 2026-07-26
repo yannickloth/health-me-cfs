@@ -28,5 +28,5 @@ Systematic comparison studies found that Fukuda criteria capture patients who do
     - Higher rates of primary psychiatric diagnoses
 
 *Research Impact:*
-Many failed clinical trials used Fukuda criteria, likely enrolling heterogeneous populations including patients without true ME/CFS. This contributed to therapeutic nihilism.
+Many failed clinical trials used Fukuda criteria, likely enrolling heterogeneous populations including patients without true ME/CFS. This contributed to therapeutic nihilism. (See @sec:case-definition-heterogeneity for a full methodological analysis.)
 ] <warn:fukuda-limitations>

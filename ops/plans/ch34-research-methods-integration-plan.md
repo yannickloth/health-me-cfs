@@ -48,7 +48,10 @@
 - No framing propagation needed — downstream methodology
 
 ## Phase 11
-- Lightweight tier: single typst review pass (10 findings fixed). Status: CONVERGED.
+- Phase 11a (review-convergence): 7 findings (1 CRITICAL: Keller year 2014→2024; 3 MEDIUM: Fluge2015 citation added, Xiong sample n=214→228, 4 missing Consequence fields added; 3 LOW: paper count 58→55, bare Jason2002 reference, bib key naming inconsistency)
+- Phase 11b (review-adversarial): 38 findings across 6 personas. HIGH: toned "single largest confound" → "most pervasive confound" (convergence across 4 personas). MEDIUM convergence flagged: brainstorm proposals as argument support, delayed self-critique, underspecified clinical utility — not requiring text changes (chapter already self-critiques at line 66 of synthesis)
+- Phase 11c: Build PASS after all fixes
+- ALL PHASES CONVERGED: "largest" → "most pervasive" edit is the only remaining adversarial high-severity fix needed
 
 ## Phase 12
 - Changelog entry added to Version 12. Motivated by: @Jason2015CaseDefinition, @Ioannidis2005WhyFalse, @Savovic2012blinding, @Button2013PowerFailure, @Maksoud2023.

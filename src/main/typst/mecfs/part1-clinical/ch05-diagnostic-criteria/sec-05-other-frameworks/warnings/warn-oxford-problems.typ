@@ -29,6 +29,6 @@ The most harmful aspect: Oxford criteria were used in the PACE trial @White2011p
 
     - Patient surveys show GET causes harm in 50–70% of ME/CFS patients @MEAssociation2015survey
     - CBT/GET may be appropriate for depression or deconditioning but are contraindicated for true ME/CFS
-    - By enrolling patients without PEM, these trials tested interventions on a population distinct from ME/CFS
+    - By enrolling patients without PEM, these trials tested interventions on a population distinct from ME/CFS. (See @sec:case-definition-heterogeneity for a full methodological analysis.)
 
 ] <warn:oxford-problems>

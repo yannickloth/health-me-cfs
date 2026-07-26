@@ -5,7 +5,7 @@
 
 #v(0.5em)
 
-The single largest confound in ME/CFS research is not measurement error or sample size — it is that researchers have been studying different diseases under the same name. The choice of diagnostic criteria determines who enters a study, and each set of criteria selects a population with different biological characteristics, symptom profiles, and illness severity. Findings that replicate in CCC/ICC cohorts frequently fail to replicate in Fukuda cohorts — and vice versa — because the study populations are biologically different.
+The single most pervasive confound in ME/CFS research is not measurement error or sample size — it is that researchers have been studying different diseases under the same name. The choice of diagnostic criteria determines who enters a study, and each set of criteria selects a population with different biological characteristics, symptom profiles, and illness severity. Findings that replicate in CCC/ICC cohorts frequently fail to replicate in Fukuda cohorts — and vice versa — because the study populations are biologically different.
 
 === Diagnostic Criteria Comparison
 
@@ -32,7 +32,7 @@ The UK ME/CFS Biobank provided the first systematic evidence that criteria-selec
 Most strikingly, 25% of patients meeting Fukuda criteria do not meet CCC criteria @Strand2019CFSICFcomparison. These "Fukuda-only" patients have idiopathic chronic fatigue under CCC — not ME/CFS. Their biology is more similar to healthy controls than to CCC-positive patients @Nacul2017BiobankCriteria. This means roughly one quarter of findings from Fukuda-based studies may reflect non-ME/CFS biology.
 
 #open-question(title: [Can the field standardize on a single case definition?])[
-The DecodeME GWAS (n $>$ 15,000) @DecodeME2025Criteria @DecodeME2025Criteria is the first large-scale study to systematically compare genetic architecture across diagnostic criteria. Preliminary results indicate that genetic signals differ when analyzed under different criteria — providing molecular-level validation that criteria choice determines which disease you are studying.
+The DecodeME GWAS (n $>$ 15,000) @DecodeME2025Criteria is the first large-scale study to systematically compare genetic architecture across diagnostic criteria. Preliminary results indicate that genetic signals differ when analyzed under different criteria — providing molecular-level validation that criteria choice determines which disease you are studying.
 
 *Argument for standardization:* The IOM/SEID criteria (2015) represent the closest the field has come to institutional consensus, were developed through a rigorous systematic review process, and require PEM — the cardinal feature of ME/CFS. Adopting SEID as the universal standard would eliminate criteria heterogeneity as a confound and make cross-study comparisons possible.
 

@@ -16,7 +16,7 @@ Multiple independent research groups, using different methodologies, converge on
 - Thapaliya et al. (2022) identified 3 immune-based subgroups (n=295) using NK cell function and cytokine profiles @Thapaliya2022SubgroupsImmune.
 - Lacourt et al. (2022) showed that prognostic factors differ by subgroup — analyzing combined samples produces null results for real subgroup effects @Lacourt2022prognosis.
 
-The rituximab story (Fluge & Mella) is the paradigmatic example: an initial open-label study (n=30) showed a strong responder subgroup, but the larger Phase III trial (n=152) produced a null overall result @Fluge2011rituximab. The responder subgroup signal was real — but the heterogeneity of the larger sample diluted it to non-significance.
+The rituximab story (Fluge & Mella) is the paradigmatic example: an initial open-label study (n=30) showed a strong responder subgroup @Fluge2011rituximab, but the larger Phase III trial (n=152) produced a null overall result @Fluge2015rituximab_rct. The responder subgroup signal was real — but the heterogeneity of the larger sample diluted it to non-significance.
 
 === The Statistical Problem
 
@@ -57,4 +57,4 @@ Huber et al. (2018) established general minimum sample size requirements for lat
 *Origin:* brainstorm.
 ] <prop:minimum-n-monte-carlo>
 
-] <rec:designing-for-heterogeneity>
+]

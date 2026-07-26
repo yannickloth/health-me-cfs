@@ -17,7 +17,7 @@ For cognitive studies, fatigue-matched controls are needed because cognitive per
 
 === The Counter-Narrative
 
-Some robust studies have shown that CPET differences persist even when compared to deconditioned controls. Keller et al. (2014) used age/sex/BMI-matched sedentary controls (not athletes) and still found significant Day-2 VO2peak decline in ME/CFS @Keller2024CPET. Similarly, lactate findings persist when compared to deconditioned controls @Ghali2019. The control group selection debate should not be used to dismiss all positive findings as "just deconditioning" — but it should be used to qualify the magnitude of effects.
+Some robust studies have shown that CPET differences persist even when compared to deconditioned controls. Keller et al. (2024) used age/sex/BMI-matched sedentary controls (not athletes) and still found significant Day-2 VO2peak decline in ME/CFS @Keller2024CPET. Similarly, lactate findings persist when compared to deconditioned controls @Ghali2019. The control group selection debate should not be used to dismiss all positive findings as "just deconditioning" — but it should be used to qualify the magnitude of effects.
 
 #recommendation(title: [Control Group Selection by Research Question])[
 Different research questions require different control groups, and the ideal design often requires multiple comparators:

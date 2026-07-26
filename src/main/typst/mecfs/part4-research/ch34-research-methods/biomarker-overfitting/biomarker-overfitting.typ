@@ -43,7 +43,7 @@ The minimum standard for a credible biomarker claim in ME/CFS:
 4. *Comparison to relevant disease controls* (MS, RA, depression, POTS) to establish ME/CFS specificity
 5. *Pre-registration* of the analysis plan before seeing the validation data
 
-The 2025–2026 studies by Xiong et al. (n=214, external validation) @Xiong2023multiomics and Aitken et al. (n=4,244, within-person models) @Aitken2026digitalHRV represent a methodological upgrade — larger samples, proper validation, digital approaches that scale — but remain exceptions to the field norm.
+The 2025–2026 studies by Xiong et al. (n=228, external validation) @Xiong2023multiomics and Aitken et al. (n=4,244, within-person models) @Aitken2026digitalHRV represent a methodological upgrade — larger samples, proper validation, digital approaches that scale — but remain exceptions to the field norm.
 
 #recommendation(title: [Reducing Biomarker Overfitting])[
 - Funders should require external validation (independent cohort, different site) as a condition of continued biomarker funding. Discovery without validation is hypothesis generation, not evidence.
@@ -54,5 +54,4 @@ The 2025–2026 studies by Xiong et al. (n=214, external validation) @Xiong2023m
 *Consequence:* The 149 published candidate biomarkers represent 149 hypotheses about ME/CFS biology, not 149 diagnostic tests. Until the field standardizes on external validation as a minimum publication requirement, the literature will continue to generate biomarker claims that fail to replicate.
 
 An external validation consortium — where candidate biomarkers from multiple laboratories are tested on a shared, independent, well-phenotyped cohort — would resolve this field-wide problem in one coordinated effort. The model exists: psychiatric genetics consortia (PGC) and Alzheimer's disease biomarker consortia solved structurally identical problems through pre-competitive data sharing. ME/CFS lacks the funding and institutional coordination to do this, but the methodological solution is known. *Origin:* brainstorm.
-
 ] <rec:reducing-overfitting>

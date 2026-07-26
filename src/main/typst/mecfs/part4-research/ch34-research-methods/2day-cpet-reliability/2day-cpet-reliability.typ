@@ -12,7 +12,7 @@ The 2-day cardiopulmonary exercise test (CPET) is the most objective biomarker o
 The 2-day CPET signal has been replicated across multiple studies from different research groups:
 
 - Snell et al. (2013): Day-2 VO2peak decline of 13.8% in ME/CFS vs 4.7% in controls @Snell2013FirstCPET
-- Keller et al. (2014): Day-2 VO2peak decline of 6.3% in ME/CFS; workload\@VT decline of 19% @Keller2024CPET
+- Keller et al. (2024): Day-2 VO2peak decline of 6.3% in ME/CFS; workload\@VT decline of 19% @Keller2024CPET
 - van Campen et al. (2020): Severe ME/CFS showed 21.7% VO2peak decline vs 10.4% for mild — CPET discriminates severity @vanCampen2020SeverityCPET
 - Lim et al. (2020): Meta-analysis of 5 studies — large effect sizes for VO2peak (g=1.11) and workload\@VT (g=1.13) @Lim2020CPETMeta
 

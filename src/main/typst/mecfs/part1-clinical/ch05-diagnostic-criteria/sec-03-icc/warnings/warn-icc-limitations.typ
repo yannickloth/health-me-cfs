@@ -9,4 +9,6 @@ The restrictiveness of ICC creates challenges:
     - *Formal set-theoretic relationship*: $"ICC" subset "Canadian Consensus" subset "Fukuda"$ — ICC is the most restrictive subset
     - *Delayed diagnosis risk*: Waiting for full symptom constellation may delay intervention during the critical 6-month window
 
+    (See @sec:case-definition-heterogeneity for a full methodological analysis of how case definition choice shapes research outcomes.)
+
 ] <warn:icc-limitations>

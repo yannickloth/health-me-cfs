@@ -36,11 +36,15 @@ This single finding constrains the chapter's narrative in an important way: not 
 
 *More general point:* If the chapter's methodological critiques applied uniformly, the entire ME/CFS literature would be false. That is not the case. The strongest signals (NK function, lactate elevation, Day-2 CPET decline) survive every methodological filter. The signals that fail are the noisy ones — and those are exactly the ones the chapter's critiques predict should fail.
 
+*Consequence:* The chapter's framework is probabilistic — it identifies biases that affect most findings, not deterministic laws that invalidate all. NK cell function demonstrates that a sufficiently strong biological signal can punch through multiple layers of methodological noise. This is consistent with the chapter's tiered reading system, which explicitly values cross-criteria replication (Tier 1) over single-criteria findings (Tier 3–4).
+
 *Origin:* brainstorm.
 ] <lim:nk-cell-counterexample>
 
 #limitation(title: [Findings that survive all criteria: where the heterogeneity problem doesn't matter])[
 Relatedly, some findings are robust enough to survive criteria heterogeneity: NK cell dysfunction (across all criteria), lactate elevation in a subset (across criteria), and Day-2 CPET decline (across CCC/ICC). These findings suggest that the biological signal is strong enough to be visible regardless of criteria choice — the population contamination problem doesn't eliminate the signal, it just dilutes it. The chapter's "tiered reading" framework (Tier 1: cross-criteria replication) explicitly accounts for this, but the narrative emphasis on heterogeneity should acknowledge that some signals appear to punch through.
+
+*Consequence:* The chapter's emphasis on heterogeneity as the central problem should be qualified: heterogeneity matters statistically, but some signals are strong enough to survive it. The right question is not "does heterogeneity affect this finding" (it almost always does), but "how large is the signal relative to the heterogeneity" — which is exactly what a meta-analytic approach measures.
 
 *Origin:* brainstorm.
 ] <lim:criteria-survivors>
@@ -64,13 +68,15 @@ This null hypothesis is testable: if ME/CFS were one disease with common pathoph
 === The Chapter's Own Methodological Limitations
 
 #limitation(title: [This chapter's evidence base shares the methodological weaknesses it criticizes])[
-This chapter cites studies demonstrating that small-sample biomarker studies overfit, that case definition heterogeneity produces false findings, and that unblinded trials overestimate effects. But the chapter's own evidence base — the 58 papers cited — contains the same methodological weaknesses:
+This chapter cites studies demonstrating that small-sample biomarker studies overfit, that case definition heterogeneity produces false findings, and that unblinded trials overestimate effects. But the chapter's own evidence base — the 55 papers cited — contains the same methodological weaknesses:
 
 - The PEM selection bias literature (Jason2015, Pendergrast2024, Johnston2021) is based on surveys with self-reported participation that may overestimate bias magnitude (patients who didn't participate may not be the same as patients who report they couldn't participate).
 - The case definition heterogeneity literature is dominated by the Jason research group, introducing the same network-dependency concern the chapter raises about 2-day CPET.
 - The "PEM-required criteria" standard the chapter recommends will exclude mild cases, racial/SES minority patients who present differently @Haney2024RacialSEScriteria, and patients whose PEM is atypical — creating its own selection bias while claiming to solve it.
 
 This is not a reason to discard the chapter's arguments. It is an acknowledgment that methodological critique, like all research, operates within its own constraints. The chapter's recommendations — PEM-required criteria, objective outcomes, external validation, heterogeneity-aware design — are directionally correct but should not be treated as immune to the very biases the chapter describes.
+
+*Consequence:* The chapter's recommendations — PEM-required criteria, objective outcomes, external validation, heterogeneity-aware design — are directionally correct but should not be treated as immune to the very biases the chapter describes. Readers should apply the same methodological skepticism to this chapter's evidence base that the chapter urges them to apply to the ME/CFS literature.
 
 *Origin:* brainstorm.
 ] <lim:chapter-methodological-limits>
@@ -79,6 +85,8 @@ This is not a reason to discard the chapter's arguments. It is an acknowledgment
 The chapter's recommendations — PEM-required criteria, sedentary + disease-matched controls, objective primary outcomes, adequate power for subgroup detection, external biomarker validation — collectively describe a study design that few ME/CFS research groups could afford and no single grant mechanism could fund. There is a genuine risk that methodological perfectionism becomes paralysis: if the only acceptable study is a \$10 million multi-site design, the field produces no studies at all.
 
 The pragmatic counterargument: imperfect research is better than no research, provided that the imperfections are acknowledged. A small-sample biomarker study with an honest discussion of overfitting risk contributes more than a perfectly designed study that was never funded. The chapter's recommendations should be read as aspirational standards to move toward, not as minimum requirements that must be met before any research can be published.
+
+*Consequence:* The chapter's recommendations should be read as aspirational standards to move toward, not as minimum requirements that must be met before any research can be published. The distinction between "ideal" and "adequate" is essential for a field as underfunded as ME/CFS.
 
 *Origin:* brainstorm.
 ] <lim:perfectionism-trap>
