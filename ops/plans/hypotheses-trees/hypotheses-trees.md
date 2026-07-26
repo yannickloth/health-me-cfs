@@ -55,6 +55,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | hypothalamic-crh-neuron-depletion | [subtrees/hypothalamic-crh-neuron-depletion.md](subtrees/hypothalamic-crh-neuron-depletion.md) | 2026-07-12 | 14 | 13 | ✅ done |
 | slaghekke2026-muscle-microvascular | [subtrees/slaghekke2026-muscle-microvascular.md](subtrees/slaghekke2026-muscle-microvascular.md) | 2026-07-26 | 42 | 0 | ⬜ pending |
 | postcovid-ocular-syndrome | [subtrees/postcovid-ocular-syndrome.md](subtrees/postcovid-ocular-syndrome.md) | 2026-07-09 | 35 | 2 | ✅ done |
+| ch39-healthcare-systems-policy | [subtrees/ch39-healthcare-systems-policy.md](subtrees/ch39-healthcare-systems-policy.md) | 2026-07-26 | 17 | 0 | ⬜ pending |
 | vagal-gastric-denervation-longcovid | [subtrees/vagal-gastric-denervation-longcovid.md](subtrees/vagal-gastric-denervation-longcovid.md) | 2026-07-10 | 64 | 12 | ✅ done |
 | corneal-confocal-cross-disease-sfn | [subtrees/corneal-confocal-cross-disease-sfn.md](subtrees/corneal-confocal-cross-disease-sfn.md) | 2026-07-09 | 38 | 0 | 🔵 in progress |
 | ocular-sjogren-mecfs-overlap | [subtrees/ocular-sjogren-mecfs-overlap.md](subtrees/ocular-sjogren-mecfs-overlap.md) | 2026-07-09 | 51 | 18 | ✅ done |
@@ -63,6 +64,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | rf-elevated-mecfs     | [subtrees/rf-elevated-mecfs.md](subtrees/rf-elevated-mecfs.md)        | 2026-06-19      | 36         | 8          | ⬜ pending     |
 | ans-aging             | [subtrees/ans-aging.md](subtrees/ans-aging.md)                        | 2026-04-20      | 25         | 0          | ⬜ stub        |
 | butyrate-intestinal-permeability | [subtrees/butyrate-intestinal-permeability.md](subtrees/butyrate-intestinal-permeability.md) | 2026-05-20      | 7          | 0          | ⬜ pending     |
+| ch34-research-methods | [subtrees/ch34-research-methods.md](subtrees/ch34-research-methods.md) | 2026-07-26 | 19 | 14 | ✅ done |
 | ebv-heterogeneity     | [subtrees/ebv-heterogeneity.md](subtrees/ebv-heterogeneity.md)        | 2026-04-20      | 0          | 0          | ⬜ stub        |
 | autoimmune-diseases   | [subtrees/autoimmune-diseases.md](subtrees/autoimmune-diseases.md)    | 2026-05-02      | 0          | 0          | ⬜ group-root  |
 | autoimmune-sle        | [subtrees/autoimmune-sle.md](subtrees/autoimmune-sle.md)              | 2026-06-07      | 33         | 1          | 🔵 in progress |

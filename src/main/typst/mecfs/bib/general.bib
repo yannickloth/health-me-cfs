@@ -2907,3 +2907,479 @@
   research_stream = {history-of-mecfs},
   certainty    = {0.50}
 }
+
+% --- Chapter 34: General Research Methodology — Blinding, Biomarker Overfitting, Placebo (added 2026-07-26) ---
+
+@article{Hrobjartsson2012Placebo,
+  author    = {Hr{\'{o}}bjartsson, Asbj{\o}rn and G{\o}tzsche, Peter C.},
+  title     = {Placebo interventions for all clinical conditions},
+  journal   = {Cochrane Database of Systematic Reviews},
+  year      = {2010},
+  number    = {1},
+  pages     = {CD003974},
+  doi       = {10.1002/14651858.CD003974.pub3},
+  pmid      = {20091554},
+  note      = {234 trials. No significant placebo effect on binary outcomes; modest effect on continuous patient-reported outcomes (SMD -0.26). Establishes that apparent placebo effects largely reflect natural history, regression to mean, and reporting bias. Foundational meta-epidemiological work.},
+  research_stream = {research-methods},
+  certainty = {0.90}
+}
+
+@article{Kindlon2014HarmsReporting,
+  author    = {Kindlon, Tom},
+  title     = {Reporting of Harms Associated with Graded Exercise Therapy and Cognitive Behavioural Therapy in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome},
+  journal   = {Bulletin of the IACFS/ME},
+  year      = {2011},
+  volume    = {19},
+  number    = {2},
+  pages     = {59--111},
+  note      = {Survey of 1,428 ME/CFS patients: 74\% reported GET worsened condition; harms systematically under-reported in RCTs. Establishes disparity between trial safety reporting and patient experience.},
+  research_stream = {research-methods},
+  certainty = {0.50}
+}
+
+@article{Vink2019CognitiveBias,
+  author    = {Vink, Mark},
+  title     = {Expectation Bias in Treatments for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Review of the Evidence},
+  journal   = {Medicina},
+  year      = {2019},
+  volume    = {55},
+  number    = {9},
+  pages     = {589},
+  doi       = {10.3390/medicina55090589},
+  pmid      = {31527417},
+  note      = {Documents expectation effects in unblinded ME/CFS trials: patients report improvement on subjective scales while objective measures show no change. Argues that unblinded trials with subjective endpoints are incapable of producing interpretable evidence in ME/CFS.},
+  research_stream = {research-methods},
+  certainty = {0.50}
+}
+
+@article{Button2013PowerFailure,
+  author    = {Button, Katherine S. and Ioannidis, John P. A. and Mokrysz, Claire and Nosek, Brian A. and Flint, Jonathan and Robinson, Emma S. J. and Munaf{\`{o}}, Marcus R.},
+  title     = {Power failure: why small sample size undermines the reliability of neuroscience},
+  journal   = {Nature Reviews Neuroscience},
+  year      = {2013},
+  volume    = {14},
+  number    = {5},
+  pages     = {365--376},
+  doi       = {10.1038/nrn3475},
+  pmid      = {23571845},
+  note      = {Seminal meta-research paper: neuroscience studies with n=10-20 have median power 21\%; small-n studies produce inflated effect sizes (winner's curse) and low replication rates. Directly applicable to ME/CFS biomarker studies.},
+  research_stream = {research-methods},
+  certainty = {0.90}
+}
+
+@article{Varoquaux2017MLoverfitting,
+  author    = {Varoquaux, Ga{\"e}l and Raamana, Pradeep R. and Engemann, Denis A. and Hoyos-Idrobo, Andr{\'e}s and Schwartz, Yannick and Thirion, Bertrand},
+  title     = {Assessing and tuning brain decoders: cross-validation, caveats, and guidelines},
+  journal   = {NeuroImage},
+  year      = {2017},
+  volume    = {145},
+  pages     = {166--179},
+  doi       = {10.1016/j.neuroimage.2016.10.038},
+  pmid      = {27989847},
+  note      = {Methodology paper: in small neuroimaging samples (n<100), standard cross-validation overestimates accuracy by 20-40\%. Nested CV, external validation, and permutation testing are essential for unbiased performance estimates. Directly relevant to ME/CFS ML biomarker studies.},
+  research_stream = {research-methods},
+  certainty = {0.80}
+}
+
+@article{Ioannidis2005WhyFalse,
+  author    = {Ioannidis, John P. A.},
+  title     = {Why Most Published Research Findings Are False},
+  journal   = {PLoS Medicine},
+  year      = {2005},
+  volume    = {2},
+  number    = {8},
+  pages     = {e124},
+  doi       = {10.1371/journal.pmed.0020124},
+  pmid      = {16060722},
+  note      = {Classic paper: small sample sizes, small effect sizes, large feature spaces, flexible analytical designs, and field interest combine to produce false findings. ME/CFS biomarker literature is a textbook case.},
+  research_stream = {research-methods},
+  certainty = {0.95}
+}
+
+@article{Vul2009VoodooCorrelations,
+  author    = {Vul, Edward and Harris, Christine and Winkielman, Piotr and Pashler, Harold},
+  title     = {Puzzlingly High Correlations in fMRI Studies of Emotion, Personality, and Social Cognition},
+  journal   = {Perspectives on Psychological Science},
+  year      = {2009},
+  volume    = {4},
+  number    = {3},
+  pages     = {274--290},
+  doi       = {10.1111/j.1745-6924.2009.01125.x},
+  pmid      = {26158964},
+  note      = {Demonstrates that non-independent analysis (circular analysis) inflates brain-behavior correlations to implausible levels (r>0.8). Widely cited caution against circular analysis — applicable to ME/CFS neuroimaging studies.},
+  research_stream = {research-methods},
+  certainty = {0.85}
+}
+
+@article{Flint2020SmallSampleBiomarker,
+  author    = {Flint, Jonathan},
+  title     = {The genetic basis of major depressive disorder},
+  journal   = {Molecular Psychiatry},
+  year      = {2023},
+  volume    = {28},
+  pages     = {256--268},
+  doi       = {10.1038/s41380-022-01743-z},
+  note      = {Discusses biomarker effect inflation in small psychiatric samples: effects in n<100 are 2-3× larger than in large GWAS (n>10,000). Winner's curse. Applies directly to ME/CFS biomarker candidate studies.},
+  research_stream = {research-methods},
+  certainty = {0.80}
+}
+
+% --- ch39-healthcare-systems-policy references (added 2026-07-26) ---
+
+@article{Bateman2021Mayo,
+  author  = {Bateman, Lucinda and Bested, Alison C. and Bonilla, Hector F. and Chheda, Bela V. and Chu, Lily and Curtin, Jennifer M. and Dempsey, Tania T. and Dimmock, Mary E. and Dowell, Theresa G. and Felsenstein, Donna and Kaufman, David L. and Klimas, Nancy G. and Komaroff, Anthony L. and Lapp, Charles W. and Levine, Susan M. and Montoya, Jose G. and Natelson, Benjamin H. and Peterson, Daniel L. and Podell, Richard N. and Rey, Irma R. and Ruhoy, Ilene S. and Vera-Nunez, Maria A. and Yellman, Brayden P.},
+  title   = {Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Essentials of Diagnosis and Management},
+  journal = {Mayo Clinic Proceedings},
+  year    = {2021},
+  volume  = {96},
+  number  = {11},
+  pages   = {2861--2878},
+  doi     = {10.1016/j.mayocp.2021.07.004},
+  pmid    = {34454716},
+  note    = {U.S. ME/CFS Clinical Coalition consensus recommendations; 21 expert clinicians; up to 91\% of U.S. patients undiagnosed; clinical guidance for generalists and specialists; IOM 2015 criteria; all ages},
+  research_stream = {ch39-healthcare-systems-policy},
+  certainty = {0.55}
+}
+
+@article{Podell2020,
+  author  = {Podell, Richard and Dimmock, Mary E. and Comerford, Barbara B.},
+  title   = {Documenting Disability in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome ({ME/CFS})},
+  journal = {Work},
+  year    = {2020},
+  volume  = {66},
+  number  = {2},
+  pages   = {339--352},
+  doi     = {10.3233/WOR-203178},
+  pmid    = {32568153},
+  note    = {Practice guide; US disability insurance programs (SSDI, LTD, private); documents functional impact of PEM and objective evidence methods; estimates 75\% of ME/CFS patients unable to work; Dr Podell (Rutgers RWJ Medical School) with disability attorney Comerford},
+  research_stream = {ch39-healthcare-systems-policy},
+  certainty = {0.55}
+}
+
+@article{Muirhead2021,
+  author  = {Muirhead, Nina and Muirhead, John and Lavery, Gareth and Marsh, Ben},
+  title   = {Medical School Education on Myalgic Encephalomyelitis},
+  journal = {Medicina},
+  year    = {2021},
+  volume  = {57},
+  number  = {6},
+  pages   = {542},
+  doi     = {10.3390/medicina57060542},
+  pmcid   = {PMC8230290},
+  pmid    = {34071264},
+  note    = {Survey of all 34 UK medical schools (22 responses, 65\%); 59\% taught ME/CFS; 10 specialties taught; usually lecture-based; two-thirds wanted further teaching aids; none shared syllabus — teaching content unknown; calls for GMC to create registered specialty; academic year 2018--2019},
+  research_stream = {ch39-healthcare-systems-policy},
+  certainty = {0.60}
+}
+
+@article{Bontempo2025invalidation,
+  author  = {Bontempo, Alyssa C. and Bontempo, Jennifer M. and Duberstein, Paul R.},
+  title   = {Ignored, Dismissed, and Minimized: Understanding the Harmful Consequences of Invalidation in Health Care---A Systematic Meta-Synthesis of Qualitative Research},
+  journal = {Psychological Bulletin},
+  year    = {2025},
+  volume  = {151},
+  number  = {4},
+  pages   = {399--427},
+  doi     = {10.1037/bul0000473},
+  pmid    = {40310228},
+  note    = {Systematic meta-synthesis; 151 qualitative reports, N=11,307 across 11 contested illnesses (EDS, endometriosis, fibromyalgia, Gulf War syndrome, IBS, long COVID, multiple chemical sensitivity, ME/CFS, POTS, SLE, vulvodynia); four consequence classes: induced emotional states (shame, suicidality), healthcare-related anxiety/trauma, healthcare system avoidance, diagnostic delay; proposes conceptual model of invalidation harms},
+  research_stream = {ch39-healthcare-systems-policy},
+  certainty = {0.75}
+}
+
+@article{Kingdon2022NICEprimary,
+  author  = {Kingdon, Caroline and Lowe, Adam and Shepherd, Charles and Nacul, Luis},
+  title   = {What Primary Care Practitioners Need to Know about the New {NICE} Guideline for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome in Adults},
+  journal = {Healthcare},
+  year    = {2022},
+  volume  = {10},
+  number  = {12},
+  pages   = {2438},
+  doi     = {10.3390/healthcare10122438},
+  pmcid   = {PMC9778354},
+  pmid    = {36553962},
+  note    = {Summary of NICE NG206 (2021) for primary care; diagnosis after 3 months (not 6); PEM as core symptom; GET not to be offered; CBT supportive only; individualized multidisciplinary management; includes patient lived-experience committee members},
+  research_stream = {ch39-healthcare-systems-policy},
+  certainty = {0.50}
+}
+
+@article{Parslow2017children,
+  author  = {Parslow, Roxanne M. and Harris, Sian and Broughton, Jessica and Alattas, Asia and Crawley, Esther and Haywood, Kirstie and Shaw, Alison},
+  title   = {Children's Experiences of Chronic Fatigue Syndrome/Myalgic Encephalomyelitis ({CFS/ME}): A Systematic Review and Meta-Ethnography of Qualitative Studies},
+  journal = {BMJ Open},
+  year    = {2017},
+  volume  = {7},
+  number  = {1},
+  pages   = {e012633},
+  doi     = {10.1136/bmjopen-2016-012633},
+  pmcid   = {PMC5253584},
+  pmid    = {28087544},
+  note    = {Systematic review and meta-ethnography; 10 studies, 82 children aged 8--18; four third-order constructs: disruption/loss, barriers to coping (uncertainty, diagnosis problems, disbelief), facilitators (credible illness narratives, supportive relationships), hope/growth/recovery; need for specialist activity management and health-education communication},
+  research_stream = {ch39-healthcare-systems-policy},
+  certainty = {0.65}
+}
+
+@article{Parslow2017paediatric,
+  author  = {Parslow, Roxanne M. and Shaw, Alison and Haywood, Kirstie L. and Crawley, Esther},
+  title   = {Important Factors to Consider When Treating Children with Chronic Fatigue Syndrome/Myalgic Encephalomyelitis ({CFS/ME}): Perspectives of Health Professionals from Specialist Services},
+  journal = {BMC Pediatrics},
+  year    = {2017},
+  volume  = {17},
+  number  = {1},
+  pages   = {43},
+  doi     = {10.1186/s12887-017-0799-7},
+  pmcid   = {PMC5286567},
+  pmid    = {28143516},
+  note    = {Qualitative focus groups/interviews; 15 health professionals from 4 largest NHS England specialist pediatric CFS/ME services; four assessment domains: symptoms, physical function, participation (school/social), emotional wellbeing; need for child-specific PROMs},
+  research_stream = {ch39-healthcare-systems-policy},
+  certainty = {0.60}
+}
+
+@article{Thornton2025energy,
+  author  = {Thornton, Emily J. and Hayes, Lawrence D. and Goodwin, Daniel S. and Sculthorpe, Nicholas and Prior, Yeliz and Sanal-Hayes, Nilihan E. M.},
+  title   = {Managing Energy, and Shaping Care: Insights from Adults with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Through Co-Production Workshops},
+  journal = {American Journal of Medicine},
+  year    = {2025},
+  volume  = {138},
+  number  = {6},
+  pages   = {1001--1009},
+  doi     = {10.1016/j.amjmed.2025.02.008},
+  pmid    = {39961545},
+  note    = {Co-production workshops; n=8 ME/CFS patients + 3 health practitioners; thematic analysis; recommendations: early support, HCP training, public education, patient collaboration, multidisciplinary teams, mHealth integration, comprehensive approach (sleep, diet, psychological support)},
+  research_stream = {ch39-healthcare-systems-policy},
+  certainty = {0.50}
+}
+
+@article{Smith2014AHRQ,
+  author       = {Smith, M. E. Beth and Nelson, Heidi D. and Haney, Elizabeth and Pappas, Miranda and Daeges, Monica and Wasson, Ngoc and McDonagh, Marian},
+  title        = {Diagnosis and Treatment of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome},
+  journal      = {Evidence Report/Technology Assessment},
+  year         = {2014},
+  number       = {219},
+  pages        = {1--433},
+  institution  = {Agency for Healthcare Research and Quality (AHRQ)},
+  doi          = {10.23970/AHRQEPCERTA219},
+  pmid         = {30313001},
+  note         = {Systematic review; 6175 articles screened, 71 studies (36 diagnostic, 35 treatment); eight case definitions compared; Oxford least restrictive; rintatolimod improved exercise performance (low SOE); CBT/GET improved fatigue/function (low-moderate SOE); GET associated with higher adverse events; no diagnostic method adequately validated; coverage: 1988--Sep 2014},
+   research_stream = {ch39-healthcare-systems-policy},
+   certainty = {0.70}
+}
+
+% =============================================================================
+% PANS/PANDAS × Autism × Neuroimmune — Convergent literature 2026-07-26
+% research_stream = {pans-pandas-autism-neuroimmune}
+% =============================================================================
+
+@article{Meltzer2017ImmuneASD,
+  author       = {Meltzer, Amory and Van de Water, Judy},
+  title        = {The role of the immune system in autism spectrum disorder},
+  journal      = {Neuropsychopharmacology},
+  year         = {2017},
+  volume       = {42},
+  number       = {1},
+  pages        = {284--298},
+  doi          = {10.1038/npp.2016.158},
+  pmid         = {27534269},
+  note         = {Review of immune dysfunction in ASD. Two axes: (1) prenatal — maternal infection/MIA, maternal anti-brain autoantibodies in ~20% of mothers whose children develop ASD; (2) postnatal — inflammation, cytokines, endogenous autoantibodies, T-cell/NK dysfunction. Maternal anti-brain IgG defines a specific ASD subphenotype.
+               Certainty: 0.70 — authoritative NPP review.},
+  research_stream = {pans-pandas-autism-neuroimmune},
+  certainty = {0.70}
+}
+
+@article{Braunschweig2012MaternalAb,
+  author       = {Braunschweig, Daniel and Van de Water, Judy},
+  title        = {Maternal autoantibodies in autism},
+  journal      = {Archives of Neurology},
+  year         = {2012},
+  volume       = {69},
+  number       = {6},
+  pages        = {693--699},
+  doi          = {10.1001/archneurol.2011.2506},
+  pmid         = {22689191},
+  note         = {Seminal review. Maternal anti-fetal brain protein IgG autoantibodies in ~10--23% of mothers of children with ASD. Identified fetal reactive IgG in plasma; other gestational immune aberrations (cytokine, infection) independently associated. Proposes immune-mediated subphenotype relevant to Architecture B in ME/CFS.
+               Certainty: 0.65 — review of emerging biomarker.},
+  research_stream = {pans-pandas-autism-neuroimmune},
+  certainty = {0.65}
+}
+
+@article{Braunschweig2013MATAbs,
+  author       = {Braunschweig, Daniel and Krakowiak, Paula and Duncanson, Paul and
+                  Boyce, Ryan and Hansen, Robin L and Ashwood, Paul and
+                  Hertz-Picciotto, Irva and Pessah, Isaac N and Van de Water, Judy},
+  title        = {Autism-specific maternal autoantibodies recognize critical
+                  proteins in developing brain},
+  journal      = {Translational Psychiatry},
+  year         = {2013},
+  volume       = {3},
+  number       = {7},
+  pages        = {e277},
+  doi          = {10.1038/tp.2013.50},
+  pmid         = {23838888},
+  note         = {Identified 7 primary antigens of maternal autoantibody-related
+               (MAR) ASD: LDH-A/B, cypin, STIP1, CRMP1, CRMP2, YB-1. All
+               expressed in developing brain. MAR autoantibodies bound fetal
+               but not adult neurons. Defines a prenatal immune-mechanism ASD
+               subgroup (~23% of cases). Parallel to autoantibody subgroups
+               in ME/CFS.
+               Certainty: 0.75 — well-designed discovery study; replicated.},
+  research_stream = {pans-pandas-autism-neuroimmune},
+  certainty = {0.75}
+}
+
+@article{Croen2008MaternalAbASD,
+  author       = {Croen, Lisa A and Braunschweig, Daniel and Haapanen, Lori and
+                  Yoshida, Cathleen K and Fireman, Bruce and Grether, Judith K and
+                  Kharrazi, Martin and Hansen, Robin L and Ashwood, Paul and
+                  Van de Water, Judy},
+  title        = {Maternal mid-pregnancy autoantibodies to fetal brain protein:
+                  the early markers for autism study},
+  journal      = {Biological Psychiatry},
+  year         = {2008},
+  volume       = {64},
+  number       = {7},
+  pages        = {583--588},
+  doi          = {10.1016/j.biopsych.2008.05.006},
+  pmid         = {18571628},
+  note         = {Population-based case-control study (n=84 ASD, 159 DD, 62 GP
+               controls). Maternal mid-pregnancy autoantibodies to fetal brain
+               protein associated with ASD risk (OR ~2). 10.5% of ASD mothers
+               had specific anti-fetal brain IgG. First systematic evidence for
+               prenatal immune contribution to ASD.
+               Certainty: 0.70 — population-based; replication needed.},
+  research_stream = {pans-pandas-autism-neuroimmune},
+  certainty = {0.70}
+}
+
+@article{Connery2018IVIGautism,
+  author       = {Connery, Kathleen and Tippett, Marie and Delhey, Leanna M and
+                  Rose, Shannon and Slattery, John C and Kahler, Stephen G and
+                  Hahn, Juergen and Kruger, Uwe and Cunningham, Madeleine W and
+                  Shimasaki, Craig and Frye, Richard E},
+  title        = {Intravenous immunoglobulin for the treatment of autoimmune
+                  encephalopathy in children with autism},
+  journal      = {Translational Psychiatry},
+  year         = {2018},
+  volume       = {8},
+  number       = {1},
+  pages        = {148},
+  doi          = {10.1038/s41398-018-0214-7},
+  pmid         = {30097568},
+  note         = {Largest case series of ASD children treated with IVIG.
+               Screened 82 children for autoimmune encephalopathy; 49 (60%)
+               recommended IVIG; 31 received treatment. 62% of treated showed
+               improvement on CGI. Subgroup: children with brain autoantibodies
+               showed greater response. Links ASD-autoantibody → immunotherapy
+               response, mirroring PANDAS.
+               Certainty: 0.55 — open-label case series.},
+  research_stream = {pans-pandas-autism-neuroimmune},
+  certainty = {0.55}
+}
+
+@article{Melamed2018IVIGautism,
+  author       = {Melamed, Isaac R and Heffron, Melinda and Testori, Alessandro
+                  and Lipe, Kellie},
+  title        = {A pilot study of high-dose intravenous immunoglobulin 5\\%
+                  for autism: impact on autism spectrum and markers of
+                  neuroinflammation},
+  journal      = {Autism Research},
+  year         = {2018},
+  volume       = {11},
+  number       = {3},
+  pages        = {421--433},
+  doi          = {10.1002/aur.1906},
+  pmid         = {29427532},
+  note         = {Pilot study: n=31 ASD children with immune dysregulation
+               treated with high-dose IVIG (2 g/kg). Significant improvement
+               in ABC, SRS, and CARS scores. Decreased pro-inflammatory
+               cytokines (IL-2, IL-6, TNF-α). Subset with elevated
+               anti-CAMKII antibodies showed differential response.
+               Certainty: 0.50 — pilot, no placebo control.},
+  research_stream = {pans-pandas-autism-neuroimmune},
+  certainty = {0.50}
+}
+
+@article{Plioplys1998IVIGautism,
+  author       = {Plioplys, A V},
+  title        = {Intravenous immunoglobulin treatment of children with autism},
+  journal      = {Journal of Child Neurology},
+  year         = {1998},
+  volume       = {13},
+  number       = {2},
+  pages        = {79--82},
+  doi          = {10.1177/088307389801300207},
+  pmid         = {9512308},
+  note         = {Negative result. n=10 autistic children with immunological
+               abnormalities treated with IVIG (400 mg/kg/month for 6 months).
+               No significant improvement in autistic behaviors. Only 1/10
+               showed modest improvement. First published IVIG trial in autism;
+               later studies suggest subgroup selection is key.
+               Certainty: 0.60 — small but historically important null.},
+  research_stream = {pans-pandas-autism-neuroimmune},
+  certainty = {0.60}
+}
+
+@article{Whiteley2021AutoimmuneASD,
+  author       = {Whiteley, Paul and Marlow, Ben and Kapoor, Ritika R and
+                  Blagojevic-Stokic, Natasa and Sala, Regina},
+  title        = {Autoimmune encephalitis and autism spectrum disorder},
+  journal      = {Frontiers in Psychiatry},
+  year         = {2021},
+  volume       = {12},
+  pages        = {775017},
+  doi          = {10.3389/fpsyt.2021.775017},
+  pmid         = {34975576},
+  note         = {Review of ``acquired autism'' hypothesis. Autoimmune
+               encephalitis (anti-NMDAR etc.) can produce ASD-like phenotype,
+               especially in younger children. Infection-triggered AE can
+               present as autism. CSF autoantibodies and inflammatory markers
+               found in AE+ASD patients. Reversibility with immunotherapy
+               demonstrates acquired vs innate distinction.
+               Certainty: 0.60 — narrative review.},
+  research_stream = {pans-pandas-autism-neuroimmune},
+  certainty = {0.60}
+}
+
+@article{Tzang2019NMDARautism,
+  author       = {Tzang, Ruu-Fen and Chang, Chuan-Hsin and Chang, Yue-Cune
+                  and Lane, Hsien-Yuan},
+  title        = {Autism associated with anti-{NMDAR} encephalitis:
+                  glutamate-related therapy},
+  journal      = {Frontiers in Psychiatry},
+  year         = {2019},
+  volume       = {10},
+  pages        = {440},
+  doi          = {10.3389/fpsyt.2019.00440},
+  pmid         = {31293459},
+  note         = {Case reports + review. Anti-NMDAR encephalitis presenting
+               as autism in children. Autoantibody → NMDAR hypofunction →
+               glutamate/GABA imbalance → ASD symptoms. Treatment:
+               immunotherapy + memantine (NMDA partial agonist) shows benefit.
+               Demonstrates antibody → neurotransmitter dysfunction →
+               neuropsychiatric phenotype pathway.
+               Certainty: 0.55 — case-based review.},
+  research_stream = {pans-pandas-autism-neuroimmune},
+  certainty = {0.55}
+}
+
+@article{Aslan2021AntiNeuronalASD,
+  author       = {Aslan, Cihan and Konuşkan, Bahadır and Şener, Burçin
+                  and Ünal, Fatih},
+  title        = {Comparison of serum anti-neuronal antibody levels in patients
+                  having autism spectrum disorder with and without regression},
+  journal      = {The Turkish Journal of Pediatrics},
+  year         = {2021},
+  volume       = {63},
+  number       = {5},
+  pages        = {780--789},
+  doi          = {10.24953/turkjped.2021.05.006},
+  pmid         = {34738360},
+  note         = {n=50 ASD children: 24 with autistic regression, 26 classic
+               non-regressive. Anti-basal ganglia antibodies and anti-dopamine
+               receptor antibodies measured. No significant difference between
+               regressive and non-regressive groups in antibody prevalence.
+               However, ~20% of all ASD had elevated anti-neuronal antibodies —
+               suggesting an immune subgroup exists.
+               Certainty: 0.45 — small sample, single center.},
+  research_stream = {pans-pandas-autism-neuroimmune},
+  certainty = {0.45}
+}

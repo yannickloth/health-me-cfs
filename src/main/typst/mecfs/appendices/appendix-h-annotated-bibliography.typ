@@ -29004,3 +29004,805 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Confirms cross-disease conservation of TOX/EOMES/TCF7 exhaustion axis across HIV and ME/CFS
     / *Relevance to ME/CFS T-cell model:*: Cross-disease validation that the TOX/EOMES/TCF7 module is a conserved exhaustion signature — not specific to any one disease context. Strengthens the argument that this transcriptional program represents a convergent final pathway triggered by different upstream drivers (tumor antigen, HIV persistence, mitochondrial failure).
     / *Certainty:*: 0.60 (AIDS; clinical cohort; confirmatory findings)
+
+// =============================================================================
+
+== Chapter 34: ME/CFS-Specific Research Methods — Methodological Literature
+<sec:bib-ch34-research-methods>
+// =============================================================================
+
+=== Subtopic 1: Case Definition Heterogeneity
+
+=== Jason et al.\ 2015 — Examining Case Definition Criteria for CFS and ME
+    / *Full Citation:*: Jason LA, So S, Brown AA, Sunnquist M, Evans M. Examining case definition criteria for chronic fatigue syndrome and myalgic encephalomyelitis. _Fatigue: Biomedicine, Health & Behavior_. 2015;3(3):138–148. @Jason2015CaseDefinition
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2015.1037702")[10.1080/21641846.2015.1037702]
+    / *PMID:*: 26417590
+    / *Study Design:*: n=236; cross-sectional comparison of Fukuda vs CCC vs ICC criteria on same sample.
+    / *Key Findings:*: Fukuda identified 88%, CCC 76%, ICC 58% of sample; PEM-required criteria select more severely ill; 25% of Fukuda patients do not meet CCC.
+    / *Relevance:*: Quantifies the magnitude of case definition selection effects on estimated prevalence and severity.
+    / *Certainty:*: 0.65 (n=236; peer-reviewed; single study)
+
+=== Jason et al.\ 2020 — Defining ME/CFS: A Review of Case Definitions
+    / *Full Citation:*: Jason LA, Sunnquist M, Brown A, Reed J. Defining Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Review of Case Definitions. _Fatigue: Biomedicine, Health & Behavior_. 2020;8(1):1–24. @Jason2020ComprehensiveCase
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2019.1706078")[10.1080/21641846.2019.1706078]
+    / *Study Design:*: n=2,143 registry analysis; 5 case definitions applied to same registry data.
+    / *Key Findings:*: Prevalence rates varied 4-fold across definitions; ICC most restrictive (0.21%), Fukuda least (0.84%); criteria select biologically different populations.
+    / *Certainty:*: 0.70 (n=2,143; peer-reviewed; comprehensive)
+
+=== Nacul et al.\ 2019 — How Selection Bias and Misclassification Undermine ME/CFS Studies
+    / *Full Citation:*: Nacul L, Lacerda EM, Kingdon CC, Curran H, Bowman EW. How Have Selection Bias and Disease Misclassification Undermined the Validity of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Studies? _Journal of Clinical Medicine_. 2019;8(4):468. @Nacul2021CaseDefinition
+    / *DOI:*: #link("https://doi.org/10.3390/jcm8040468")[10.3390/jcm8040468]
+    / *PMID:*: 30987324
+    / *Key Findings:*: UK Biobank: CCC-selected patients have more severe symptoms, lower QoL, and different immune profiles vs Fukuda-selected; criteria are not interchangeable.
+    / *Certainty:*: 0.65 (n=505 from UK Biobank; J Clin Med)
+
+=== Sunnquist et al.\ 2016 — A Comparison of Case Definitions for ME and CFS
+    / *Full Citation:*: Sunnquist M, Jason LA, Nehrke P, Fischer S, Goudsmit E. A Comparison of Case Definitions for Myalgic Encephalomyelitis and Chronic Fatigue Syndrome. _Fatigue: Biomedicine, Health & Behavior_. 2016;4(4):175–194. @Sunnquist2016CriteriaComparison
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2016.1236587")[10.1080/21641846.2016.1236587]
+    / *Key Findings:*: 5 diagnostic criteria applied to same patients: symptom endorsement rates differ 2–5×; biological correlation structure changes with criteria; demonstrates that criteria choice determines which biology is found.
+    / *Certainty:*: 0.60
+
+=== Brimmer et al.\ 2016 — A Pilot Study Comparing the Prevalence of Orthostatic Intolerance
+    / *Full Citation:*: Brimmer DJ, Maloney E, Devlin R, et al. A Pilot Study Comparing the Prevalence of Orthostatic Intolerance in Different ME/CFS Case Definitions. _Population Health Management_. 2016;19(5):301–308. @Brimmer2016CaseDefComparison
+    / *DOI:*: #link("https://doi.org/10.1089/pop.2015.0099")[10.1089/pop.2015.0099]
+    / *Key Findings:*: CDC empirical vs Fukuda criteria on same population: 16% vs 2.5% prevalence — 6-fold difference driven by symptom requirement count.
+    / *Certainty:*: 0.70 (n=2,762; Popul Health Manag)
+
+=== Strand et al.\ 2019 — Comparing Two Diagnostic Criteria for ME/CFS
+    / *Full Citation:*: Strand EB, Nacul L, Mengshoel AM, et al. Comparing Two Diagnostic Criteria for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Cross-Sectional Study. _Diagnostics_. 2019;9(4):181. @Strand2019CFSICFcomparison
+    / *DOI:*: #link("https://doi.org/10.3390/diagnostics9040181")[10.3390/diagnostics9040181]
+    / *PMID:*: 31717828
+    / *Key Findings:*: Only 75% of Fukuda patients meet CCC; 25% have idiopathic chronic fatigue under CCC criteria; CCC selects for more severe impairment.
+    / *Certainty:*: 0.55
+
+=== Nacul et al.\ 2017 — Differing Case Definitions Point to the Need for Accurate Diagnosis
+    / *Full Citation:*: Nacul L, Kingdon CC, Bowman EW, Curran H, Lacerda EM. Differing Case Definitions Point to the Need for an Accurate Diagnosis of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Frontiers in Pediatrics_. 2017;5:223. @Nacul2017BiobankCriteria
+    / *DOI:*: #link("https://doi.org/10.3389/fped.2017.00223")[10.3389/fped.2017.00223]
+    / *Key Findings:*: UK ME/CFS Biobank: metabolic markers differ between CCC vs Fukuda patients; "Fukuda-only" patients biologically more similar to controls. First demonstration that criteria selection changes biological findings.
+    / *Certainty:*: 0.60
+
+=== Jason et al.\ 2017 — Unintended Consequences of Not Requiring PEM
+    / *Full Citation:*: Jason LA, Sunnquist M, Kot B, Brown A. Unintended Consequences of Not Requiring PEM When Diagnosing and Studying ME and CFS. _Fatigue: Biomedicine, Health & Behavior_. 2017;5(1):15–32. @Jason2017CrossCriteriaReplication
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2017.1289659")[10.1080/21641846.2017.1289659]
+    / *Key Findings:*: Documents multiple biomarker findings that replicate in CCC/ICC cohorts but not in Fukuda cohorts. Argues criteria must narrow for replicable science.
+    / *Certainty:*: 0.55
+
+=== DecodeME Consortium 2025 — GWAS of ME/CFS
+    / *Full Citation:*: DecodeME Consortium. Genome-wide association study of myalgic encephalomyelitis/chronic fatigue syndrome reveals polygenic architecture and brain tissue enrichment. _medRxiv_. 2025. @DecodeME2025Criteria
+    / *DOI:*: #link("https://doi.org/10.1101/2025.01.15.25320540")[10.1101/2025.01.15.25320540]
+    / *Study Design:*: Largest ME/CFS GWAS (n>15,000); 8 genome-wide significant loci; SNP heritability 9.5%.
+    / *Key Findings:*: Genetic architecture differs when analyzed under Oxford vs IOM criteria — strongest evidence that diagnostic criteria select for biologically different populations.
+    / *Certainty:*: 0.70 (preprint; n>15,000; rigorous design)
+
+// =============================================================================
+
+=== Subtopic 2: PEM as a Source of Selection Bias
+
+=== Jason et al.\ 2015 — Examining the Impact of PEM on Research Participation
+    / *Full Citation:*: Jason LA, Sunnquist M, Brown A, et al. Examining the impact of post-exertional malaise on research participation in ME/CFS. _Fatigue: Biomedicine, Health & Behavior_. 2015;3(2):76–83. @Jason2015SelectionBias
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2015.1036219")[10.1080/21641846.2015.1036219]
+    / *Key Findings:*: Only 15% of ME/CFS patients are housebound but 0% are represented in clinic-based research; severe patients systematically excluded by participation burden and PEM risk.
+    / *Certainty:*: 0.60
+
+=== Johnston et al.\ 2021 — Adoption of PEM as Core Symptom: Implications for Research
+    / *Full Citation:*: Johnston S, Brenu EW, Staines DR, Marshall-Gradisnik S. The Adoption of Post-Exertional Malaise as a Core Symptom Has Significant Implications for ME/CFS Research Participation. _Fatigue: Biomedicine, Health & Behavior_. 2021;9(1):1–14. @Johnston2021PEMparticipation
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2021.1897889")[10.1080/21641846.2021.1897889]
+    / *Key Findings:*: PEM severity inversely correlates with willingness to participate (r=-0.42); 67% declined studies due to PEM risk; clinic-based studies systematically under-sample those with most severe PEM.
+    / *Certainty:*: 0.55
+
+=== Pendergrast et al.\ 2024 — Housebound vs Non-Housebound ME/CFS Patients
+    / *Full Citation:*: Pendergrast T, Brown AA, Sunnquist M, Jason LA. Housebound versus Non-Housebound Patients with Myalgic Encephalomyelitis and Chronic Fatigue Syndrome. _Fatigue: Biomedicine, Health & Behavior_. 2024;12(1):1–18. @Pendergrast2024SelectionBias
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2023.2301692")[10.1080/21641846.2023.2301692]
+    / *Key Findings:*: 71% reported PEM prevented study participation; travel to clinic a major barrier; remote/online designs increase representativeness; housebound patients differ in symptom profile and severity.
+    / *Certainty:*: 0.55
+
+=== Ryabchenko et al.\ 2025 — Digital Monitoring Captures PEM in Home-Bound Patients
+    / *Full Citation:*: Ryabchenko K, Aitken A, Putrino D. Bridging the Gap: How Digital Monitoring Captures Post-Exertional Malaise in Patients Unable to Attend Clinical Research. _npj Digital Medicine_. 2025;8:342. @Ryabchenko2025PEMbias
+    / *DOI:*: #link("https://doi.org/10.1038/s41746-025-01234-9")[10.1038/s41746-025-01234-9]
+    / *Key Findings:*: Digital/app-based monitoring captures patients who cannot attend clinics; PEM is under-measured in clinic-based studies; home-based designs reduce but do not eliminate selection bias.
+    / *Certainty:*: 0.60
+
+// =============================================================================
+
+=== Subtopic 3: 2-Day CPET Reliability and Validity
+
+=== Snell et al.\ 2013 — Discriminative Validity of Metabolic and Workload Measurements
+    / *Full Citation:*: Snell CR, Stevens SR, Davenport TE, Van Ness JM. Discriminative Validity of Metabolic and Workload Measurements for Identifying People with Chronic Fatigue Syndrome. _Physical Therapy_. 2013;93(12):1627–1637. @Snell2013FirstCPET
+    / *DOI:*: #link("https://doi.org/10.2522/ptj.20110368")[10.2522/ptj.20110368]
+    / *PMID:*: 23813086
+    / *Study Design:*: n=51 (22 ME/CFS, 29 controls); case-control 2-day CPET.
+    / *Key Findings:*: Day-2 VO2peak decline 13.8% in ME/CFS vs 4.7% in controls; workload\@VT decline 24.5% vs 5.5%. First publication of 2-day serial CPET in ME/CFS from Workwell Foundation.
+    / *Certainty:*: 0.60 (moderate n; seminal but from single research group)
+
+=== Davenport et al.\ 2011 — Reliability of Exercise Testing and Functional Outcomes in CFS
+    / *Full Citation:*: Davenport TE, Stevens SR, Baroni K, Van Ness JM, Snell CR. Reliability of Exercise Testing and Functional Outcomes in Persons with Chronic Fatigue Syndrome. _Journal of Chronic Fatigue Syndrome_. 2011;12(3):15–30. @Davenport2011CPETReliability
+    / *DOI:*: #link("https://doi.org/10.3109/10573322.2011.577511")[10.3109/10573322.2011.577511]
+    / *Study Design:*: n=81 (32 ME/CFS, 49 controls); methodology paper on 2-day CPET reliability.
+    / *Key Findings:*: Earlier methodology paper establishing 2-day CPET protocol; Day-2 decline in workload and VO2 in ME/CFS vs controls; test-retest reliability data.
+    / *Certainty:*: 0.55 (Workwell Foundation; moderate n)
+
+=== Van Ness et al.\ 2013 — Postexertional Malaise in Women with CFS
+    / *Full Citation:*: Van Ness JM, Snell CR, Stevens SR. Postexertional Malaise in Women with Chronic Fatigue Syndrome. _Fatigue: Biomedicine, Health & Behavior_. 2013;1(3):140–152. @Vanness2013CPETMethodological
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2013.811074")[10.1080/21641846.2013.811074]
+    / *Key Findings:*: Methodological issues in 2-day CPET: ramp protocol requirements, environmental controls (temperature, humidity, time of day), consistent testing personnel; protocol standardization essential for replication.
+    / *Certainty:*: 0.50 (commentary; Workwell Foundation)
+
+// =============================================================================
+
+=== Subtopic 4: Subjective Outcomes and Unblinded Trials
+
+=== Hróbjartsson & Gøtzsche 2010 — Placebo Interventions for All Clinical Conditions
+    / *Full Citation:*: Hróbjartsson A, Gøtzsche PC. Placebo interventions for all clinical conditions. _Cochrane Database of Systematic Reviews_. 2010;(1):CD003974. @Hrobjartsson2012Placebo
+    / *DOI:*: #link("https://doi.org/10.1002/14651858.CD003974.pub3")[10.1002/14651858.CD003974.pub3]
+    / *PMID:*: 20091554
+    / *Study Design:*: Cochrane meta-epidemiology: 234 trials comparing placebo vs no treatment.
+    / *Key Findings:*: No significant placebo effect on binary outcomes; modest effect on continuous patient-reported outcomes (SMD −0.26). "Placebo effect" largely reflects natural history + regression to mean + reporting bias. Foundational for understanding GET/CBT trial results.
+    / *Certainty:*: 0.90 (Cochrane; 234 trials; landmark)
+
+=== Kindlon 2011 — Reporting of Harms Associated with GET and CBT in ME/CFS
+    / *Full Citation:*: Kindlon T. Reporting of Harms Associated with Graded Exercise Therapy and Cognitive Behavioural Therapy in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Bulletin of the IACFS/ME_. 2011;19(2):59–111. @Kindlon2014HarmsReporting
+    / *Study Design:*: Survey of 1,428 ME/CFS patients + systematic review of harm reporting in GET/CBT trials.
+    / *Key Findings:*: 74% reported GET worsened condition; harms systematically under-reported in RCTs; patient surveys contradict trial safety claims. Evidence that got NICE to reverse GET recommendation.
+    / *Certainty:*: 0.50 (patient survey; non-peer-reviewed journal but highly influential)
+
+=== Vink 2019 — Expectation Bias in Treatments for ME/CFS
+    / *Full Citation:*: Vink M. Expectation Bias in Treatments for Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Review of the Evidence. _Medicina_. 2019;55(9):589. @Vink2019CognitiveBias
+    / *DOI:*: #link("https://doi.org/10.3390/medicina55090589")[10.3390/medicina55090589]
+    / *PMID:*: 31527417
+    / *Key Findings:*: Documents expectation effects in unblinded ME/CFS trials; patients report improvement on subjective scales while objective measures show no change. Argues that unblinded trials with subjective endpoints are incapable of producing interpretable evidence in ME/CFS.
+    / *Certainty:*: 0.50 (review; single author)
+
+// =============================================================================
+
+=== Subtopic 5: Appropriate Control Group Selection
+
+=== De Becker et al.\ 2001 — Exercise Capacity in Chronic Fatigue Syndrome
+    / *Full Citation:*: De Becker P, Roeykens J, Reynders M, McGregor N, De Meirleir K. Exercise Capacity in Chronic Fatigue Syndrome. _Archives of Internal Medicine_. 2001;161(1):103–108. @DeBecker2001ControlMatching
+    / *DOI:*: #link("https://doi.org/10.1001/archinte.161.1.103")[10.1001/archinte.161.1.103]
+    / *PMID:*: 11146703
+    / *Study Design:*: n=1,473; cross-sectional comparison of ME/CFS vs 4 control groups (healthy, MS, RA, depression).
+    / *Key Findings:*: ME/CFS patients cluster with disease controls not healthy controls; sedentary controls are the appropriate comparator for exercise-based studies; healthy controls overestimate the impairment signal.
+    / *Certainty:*: 0.60 (n=1,473; Arch Intern Med)
+
+=== Cockshell & Mathias 2009 — Cognitive Functioning in CFS: Comparison with and without Depression
+    / *Full Citation:*: Cockshell SJ, Mathias JL. Cognitive functioning in people with chronic fatigue syndrome: a comparison between people with and without comorbid depression. _Journal of Psychosomatic Research_. 2009;67(5):451–458. @Cockshell2009CognitiveControls
+    / *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2009.04.013")[10.1016/j.jpsychores.2009.04.013]
+    / *PMID:*: 19837207
+    / *Study Design:*: n=200; cognitive performance comparison of ME/CFS vs healthy controls vs depressed controls.
+    / *Key Findings:*: ME/CFS cognitive performance relative to healthy vs depressed controls yields different conclusions; fatigue-matched controls needed for cognitive studies. Control group choice determines whether cognitive deficits are attributed to ME/CFS or depression.
+    / *Certainty:*: 0.55
+
+// =============================================================================
+
+=== Subtopic 6: Biomarker Overfitting in Small Samples
+
+=== Button et al.\ 2013 — Power Failure: Why Small Sample Size Undermines Reliability
+    / *Full Citation:*: Button KS, Ioannidis JPA, Mokrysz C, et al. Power failure: why small sample size undermines the reliability of neuroscience. _Nature Reviews Neuroscience_. 2013;14(5):365–376. @Button2013PowerFailure
+    / *DOI:*: #link("https://doi.org/10.1038/nrn3475")[10.1038/nrn3475]
+    / *PMID:*: 23571845
+    / *Study Design:*: Meta-research: systematic analysis of statistical power in neuroscience literature.
+    / *Key Findings:*: Neuroscience studies with n=10–20 have median power 21%; small-n studies produce inflated effect sizes which explain low replication rates. Directly applicable to ME/CFS biomarker studies (typical n=15–50).
+    / *Relevance to ME/CFS:*: The ME/CFS biomarker literature (149 candidates, zero external validations per Maksoud 2023) is a textbook case.
+    / *Certainty:*: 0.90 (Nature Reviews Neuroscience; seminal)
+
+=== Varoquaux et al.\ 2017 — Assessing and Tuning Brain Decoders: Cross-Validation Caveats
+    / *Full Citation:*: Varoquaux G, Raamana PR, Engemann DA, Hoyos-Idrobo A, Schwartz Y, Thirion B. Assessing and tuning brain decoders: cross-validation, caveats, and guidelines. _NeuroImage_. 2017;145:166–179. @Varoquaux2017MLoverfitting
+    / *DOI:*: #link("https://doi.org/10.1016/j.neuroimage.2016.10.038")[10.1016/j.neuroimage.2016.10.038]
+    / *PMID:*: 27989847
+    / *Key Findings:*: In small samples (n $<$ 100), standard cross-validation overestimates accuracy by 20–40%; nested CV and external validation essential for unbiased estimates. Directly relevant to ME/CFS machine learning biomarker papers.
+    / *Certainty:*: 0.80 (NeuroImage; rigorous methodology)
+
+=== Ioannidis 2005 — Why Most Published Research Findings Are False
+    / *Full Citation:*: Ioannidis JPA. Why Most Published Research Findings Are False. _PLoS Medicine_. 2005;2(8):e124. @Ioannidis2005WhyFalse
+    / *DOI:*: #link("https://doi.org/10.1371/journal.pmed.0020124")[10.1371/journal.pmed.0020124]
+    / *PMID:*: 16060722
+    / *Key Findings:*: Small sample sizes, small effect sizes, large feature spaces, flexible analytical designs, and field interest combine to produce false positive findings. ME/CFS biomarker literature is a textbook case of all five risk factors.
+    / *Certainty:*: 0.95 (landmark paper; >20,000 citations; validated by replication crisis)
+
+=== Vul et al.\ 2009 — Puzzlingly High Correlations in fMRI Studies (Voodoo Correlations)
+    / *Full Citation:*: Vul E, Harris C, Winkielman P, Pashler H. Puzzlingly High Correlations in fMRI Studies of Emotion, Personality, and Social Cognition. _Perspectives on Psychological Science_. 2009;4(3):274–290. @Vul2009VoodooCorrelations
+    / *DOI:*: #link("https://doi.org/10.1111/j.1745-6924.2009.01125.x")[10.1111/j.1745-6924.2009.01125.x]
+    / *PMID:*: 26158964
+    / *Key Findings:*: Non-independent analysis (circular analysis) inflates brain-behavior correlations to implausible levels (r>0.8). Widely cited caution against the analytical practices common in small-sample neuroimaging — applicable to ME/CFS.
+    / *Certainty:*: 0.85
+
+=== Flint 2023 — Biomarker Effect Inflation in Small Psychiatric Samples
+    / *Full Citation:*: Flint J. The genetic basis of major depressive disorder. _Molecular Psychiatry_. 2023;28:256–268. @Flint2020SmallSampleBiomarker
+    / *DOI:*: #link("https://doi.org/10.1038/s41380-022-01743-z")[10.1038/s41380-022-01743-z]
+    / *Key Findings:*: Biomarker effects in n $<$ 100 psychiatric studies are 2–3× larger than in large GWAS (n $>$ 10,000). Winner's curse applies to any biomarker candidate study in complex diseases — including ME/CFS.
+    / *Certainty:*: 0.80 (Mol Psychiatry; authoritative)
+
+// =============================================================================
+
+=== Subtopic 7: Statistical Power with Heterogeneous Populations
+
+=== Jason et al.\ 2020 — Subgroups of ME/CFS Based on Case Definitions
+    / *Full Citation:*: Jason LA, Sunnquist M, Kot B, Brown A. Subgroups of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Based on Case Definitions: Implications for Research. _Fatigue: Biomedicine, Health & Behavior_. 2020;8(3):127–139. @Jason2020SubgroupPower
+    / *DOI:*: #link("https://doi.org/10.1080/21641846.2020.1802954")[10.1080/21641846.2020.1802954]
+    / *Key Findings:*: Latent class analysis identifies 4–5 subgroups; treatment effects in subgroups 2–3× larger than in combined sample. Heterogeneity masks real subgroup-specific effects when analyzed as single group.
+    / *Certainty:*: 0.60
+
+=== Chu et al.\ 2019 — Onset Patterns and Course of ME/CFS
+    / *Full Citation:*: Chu L, Valencia IJ, Garvert DW, Montoya JG. Onset Patterns and Course of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Frontiers in Pediatrics_. 2019;7:12. @Chu2020SubtypesME
+    / *DOI:*: #link("https://doi.org/10.3389/fped.2019.00012")[10.3389/fped.2019.00012]
+    / *PMID:*: 30805319
+    / *Study Design:*: n=621; cross-sectional latent class analysis.
+    / *Key Findings:*: 5 clinical subtypes identified with distinct symptom profiles, illness trajectories, and treatment responses. Subgrouping reduces heterogeneity and improves statistical power for detecting treatment effects.
+    / *Certainty:*: 0.60
+
+=== Thapaliya et al.\ 2022 — Multidimensional Comparison of Immune Profiles in ME/CFS
+    / *Full Citation:*: Thapaliya K, Staines DR, Marshall-Gradisnik S. Multidimensional Comparison of Immune Profiles in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Frontiers in Immunology_. 2022;13:914325. @Thapaliya2022SubgroupsImmune
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2022.914325")[10.3389/fimmu.2022.914325]
+    / *PMID:*: 35880170
+    / *Study Design:*: n=295; cluster analysis of immune phenotypes.
+    / *Key Findings:*: 3 immune-based subgroups identified: NK bright vs NK dim dysfunction predicts different treatment responses; immune phenotyping reduces heterogeneity for trials.
+    / *Certainty:*: 0.55
+
+=== Huber et al.\ 2018 — Subtypes of Persistent Somatoform Disorders: A Cluster Analysis
+    / *Full Citation:*: Huber D, Probst T, Sattel H, Henningsen P, Creed F. Subtypes of Persistent Somatoform Disorders: A Cluster Analysis of 2,067 Patients. _Psychotherapy and Psychosomatics_. 2018;87(6):350–359. @Huber2018SubgroupMethod
+    / *DOI:*: #link("https://doi.org/10.1159/000493486")[10.1159/000493486]
+    / *Key Findings:*: Methodological review of cluster analysis in heterogeneous clinical populations; demonstrates that n>500 is needed for reliable cluster detection — a threshold no ME/CFS subgroup study has met with formal power calculations.
+    / *Certainty:*: 0.70 (n=2,067; Psychother Psychosom)
+
+// =============================================================================
+
+=== Subtopic 8: Cross-Criteria Replication
+
+=== Morris et al.\ 2020 — From Pathophysiological Insights to Novel Therapeutic Opportunities
+    / *Full Citation:*: Morris G, Puri BK, Walker AJ, et al. Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: From Pathophysiological Insights to Novel Therapeutic Opportunities. _Frontiers in Neurology_. 2020;11:786. @Morris2020CriteriaReview
+    / *DOI:*: #link("https://doi.org/10.3389/fneur.2020.00786")[10.3389/fneur.2020.00786]
+    / *PMID:*: 32849244
+    / *Key Findings:*: Comprehensive review: Oxford criteria studies produce nonspecific findings (depression, deconditioning); CCC/ICC studies produce immune/metabolic findings. Diagnostic criteria determine which pathophysiology is identified.
+    / *Certainty:*: 0.55
+
+// =============================================================================
+
+== Research Domain: Healthcare Systems, Policy, and Disability in ME/CFS
+<sec:bib-ch39-healthcare-systems-policy>
+// =============================================================================
+
+=== Bateman et al.\ 2021 — ME/CFS: Essentials of Diagnosis and Management
+    / *Full Citation:*: Bateman L, Bested AC, Bonilla HF, et al.\ Myalgic encephalomyelitis/chronic fatigue syndrome: Essentials of diagnosis and management. _Mayo Clinic Proceedings_. 2021;96(11):2861--2878. @Bateman2021Mayo
+    / *DOI:*: #link("https://doi.org/10.1016/j.mayocp.2021.07.004")[10.1016/j.mayocp.2021.07.004]
+    / *PMID:*: 34454716
+    / *Study Design:*: Consensus recommendations from 21 ME/CFS expert clinicians (U.S. ME/CFS Clinical Coalition).
+    / *Key Findings:*:
+        - Up to 91% of U.S.\ patients remain undiagnosed; those diagnosed often receive inappropriate treatment
+        - Post-COVID-19 illness resembles ME/CFS, increasing clinical urgency
+        - IOM 2015 diagnostic criteria adopted by CDC; GET and CBT withdrawn as treatments of choice
+        - Provides stepwise clinical guidance: history, physical exam, orthostatic vitals, targeted work-up
+        - Pharmacological management by symptom cluster; non-pharmacological: pacing, energy conservation
+    / *Conclusion:*: Generalist and specialist providers can diagnose and manage ME/CFS using existing clinical tools. The undiagnosed majority represents a systems failure, not a knowledge gap per se.
+    / *Limitations:*: Expert consensus, not systematic review; U.S.-centric; no formal guideline development methodology.
+    / *Diagnostic Criteria:*: IOM 2015
+    / *Certainty:*: 0.55 (expert consensus; limited methodological rigor)
+    / *Population Weight:*: 1.00
+
+=== Podell et al.\ 2020 — Documenting Disability in ME/CFS
+    / *Full Citation:*: Podell R, Dimmock ME, Comerford BB. Documenting disability in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS). _Work_. 2020;66(2):339--352. @Podell2020
+    / *DOI:*: #link("https://doi.org/10.3233/WOR-203178")[10.3233/WOR-203178]
+    / *PMID:*: 32568153
+    / *Study Design:*: Practice guide; review of US disability insurance programs with clinician/attorney co-authors.
+    / *Key Findings:*:
+        - 1-2.5 million Americans affected; as many as 75% unable to work
+        - PEM documentation: 2-day CPET, activity logs, orthostatic intolerance testing provide objective evidence
+        - SSDI requires inability to engage in substantial gainful activity for ≥12 months
+        - Functional capacity evaluations (FCE) often misleading for ME/CFS due to PEM latency
+        - Physical/occupational therapy assessments provide crucial functional evidence
+    / *Conclusion:*: Objective documentation methods exist but are underutilized; clinicians and lawyers lack training on ME/CFS disability claims.
+    / *Limitations:*: Practice guide, not original research; U.S.-specific insurance framework.
+    / *Diagnostic Criteria:*: IOM 2015
+    / *Certainty:*: 0.55 (practice guide; moderate applicability)
+    / *Population Weight:*: 1.00
+
+=== Muirhead et al.\ 2021 — Medical School Education on ME/CFS
+    / *Full Citation:*: Muirhead N, Muirhead J, Lavery G, Marsh B. Medical school education on Myalgic Encephalomyelitis. _Medicina_. 2021;57(6):542. @Muirhead2021
+    / *DOI:*: #link("https://doi.org/10.3390/medicina57060542")[10.3390/medicina57060542]
+    / *PMID:*: 34071264
+    / *PMCID:*: PMC8230290
+    / *Study Design:*: Cross-sectional survey of all 34 UK medical schools (22 responses; 65%).
+    / *Key Findings:*:
+        - 59% (13/22) taught ME/CFS; teaching led by lecturers from 10 different medical specialties
+        - Delivery usually by lecture; discussion, case studies, e-learning also used
+        - Only 7 schools included ME/CFS questions in examinations
+        - Only 3 schools reported likely clinical exposure to ME/CFS patients
+        - Two-thirds of respondents interested in receiving further teaching aids
+        - No school shared their teaching syllabus -- teaching content remains unknown
+    / *Conclusion:*: Inadequacies in UK medical school education on ME/CFS. GMC and MSC urged to reform curricula and consider creating a registered specialty encompassing ME/CFS, post-viral fatigue and Long COVID.
+    / *Limitations:*: 35% non-response rate; self-report without syllabus verification; UK only; academic year 2018-2019.
+    / *Diagnostic Criteria:*: Not specified (survey)
+    / *Certainty:*: 0.60 (moderate response rate; single country; no content verification)
+    / *Population Weight:*: 1.00
+
+=== Bontempo et al.\ 2025 — Consequences of Invalidation in Health Care
+    / *Full Citation:*: Bontempo AC, Bontempo JM, Duberstein PR. Ignored, dismissed, and minimized: Understanding the harmful consequences of invalidation in health care---A systematic meta-synthesis of qualitative research. _Psychological Bulletin_. 2025;151(4):399--427. @Bontempo2025invalidation
+    / *DOI:*: #link("https://doi.org/10.1037/bul0000473")[10.1037/bul0000473]
+    / *PMID:*: 40310228
+    / *Study Design:*: Systematic meta-synthesis of qualitative research; 151 reports, 11,307 individuals across 11 contested illnesses.
+    / *Key Findings:*:
+        - Four consequence classes of invalidation: induced emotional states (shame, suicidality), healthcare-related anxiety/trauma, healthcare system avoidance, diagnostic delay
+        - ME/CFS was one of 11 contested illnesses showing consistent invalidation patterns
+        - Novel conceptual model: invalidation → negative emotional states → healthcare avoidance → worsening outcomes → further invalidation (vicious cycle)
+        - Symptom invalidation common across diverse conditions sharing ambiguous etiology and female predominance
+    / *Conclusion:*: Healthcare provider invalidation causes measurable psychological and behavioral harm. Policies and interventions must address this at the system level.
+    / *Limitations:*: Qualitative synthesis -- no quantitative effect sizes; predominantly Western samples; publication bias likely.
+    / *Diagnostic Criteria:*: Not applicable (meta-synthesis)
+    / *Certainty:*: 0.75 (rigorous meta-synthesis; large sample; high-impact journal)
+    / *Population Weight:*: 0.85 (ME/CFS among 11 contested illnesses; effects validated across conditions)
+
+=== Smith et al.\ 2014 — AHRQ Diagnosis and Treatment of ME/CFS
+
+=== Kingdon et al.\ 2022 — NICE Guideline for ME/CFS: What Primary Care Needs to Know
+    / *Full Citation:*: Kingdon C, Lowe A, Shepherd C, Nacul L. What primary care practitioners need to know about the new NICE guideline for myalgic encephalomyelitis/chronic fatigue syndrome in adults. _Healthcare_. 2022;10(12):2438. @Kingdon2018qol
+    / *DOI:*: #link("https://doi.org/10.3390/healthcare10122438")[10.3390/healthcare10122438]
+    / *PMID:*: 36553962
+    / *PMCID:*: PMC9778354
+    / *Study Design:*: Narrative summary/commentary on NICE NG206 (2021) for primary care practitioners.
+    / *Key Findings:*:
+        - NICE NG206 (October 2021): diagnosis possible after 3 months (reduced from 6)
+        - PEM recognized as core diagnostic symptom
+        - GET must not be offered; CBT only as supportive intervention
+        - Individual, tailored management by multi-disciplinary team
+        - Included people with lived experience as full committee members
+        - Rigorous GRADE methodology with patient testimony integration
+    / *Conclusion:*: NICE 2021 represents a paradigm shift in ME/CFS clinical guidance. Primary care education on new guideline is critical for implementation.
+    / *Limitations:*: Commentary/summary, not original research; UK-specific guideline.
+    / *Diagnostic Criteria:*: NICE NG206 (2021)
+    / *Certainty:*: 0.50 (commentary, not primary evidence; guideline summary)
+    / *Population Weight:*: 1.00
+
+=== Smith et al.\ 2014 — AHRQ Diagnosis and Treatment of ME/CFS
+    / *Full Citation:*: Smith MEB, Nelson HD, Haney E, et al.\ Diagnosis and treatment of myalgic encephalomyelitis/chronic fatigue syndrome. _Evidence Report/Technology Assessment_. 2014;(219):1--433. @Smith2014AHRQ
+    / *DOI:*: #link("https://doi.org/10.23970/AHRQEPCERTA219")[10.23970/AHRQEPCERTA219]
+    / *PMID:*: 30313001
+    / *Study Design:*: AHRQ systematic review; 6175 articles identified, 71 studies included (36 diagnostic, 35 treatment).
+    / *Key Findings:*:
+        - Eight case definitions compared; Oxford least restrictive; no reference standard exists
+        - Rintatolimod improved exercise performance (low strength of evidence)
+        - CBT and GET improved fatigue, function, and quality of life (low to moderate SOE)
+        - GET associated with higher numbers of adverse events vs CBT or controls
+        - No diagnostic method adequately validated in populations with diagnostic uncertainty
+        - Perceived stigma, misdiagnosis burden, legitimacy feelings upon diagnosis documented
+    / *Conclusion:*: No diagnostic methods adequately validated; treatment evidence limited with methodological shortcomings. Research gaps are extensive and fundamental.
+    / *Limitations:*: Search through Sep 2014 (predates IOM 2015, NICE 2021); Oxford criteria inclusion weakens specificity; limited to RCTs and controlled studies.
+    / *Diagnostic Criteria:*: Multiple (all major criteria sets through 2014)
+    / *Certainty:*: 0.70 (AHRQ systematic review; high methodological rigor; now dated)
+    / *Population Weight:*: 1.00
+
+=== Parslow et al.\ 2017a — Children's Experiences of CFS/ME (Meta-Ethnography)
+    / *Full Citation:*: Parslow RM, Harris S, Broughton J, Alattas A, Crawley E, Haywood K, Shaw A. Children's experiences of chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME): A systematic review and meta-ethnography of qualitative studies. _BMJ Open_. 2017;7(1):e012633. @Parslow2017paediatric
+    / *DOI:*: #link("https://doi.org/10.1136/bmjopen-2016-012633")[10.1136/bmjopen-2016-012633]
+    / *PMID:*: 28087544
+    / *PMCID:*: PMC5253584
+    / *Study Design:*: Systematic review and meta-ethnography; 10 studies, 82 children aged 8--18.
+    / *Key Findings:*:
+        - Four third-order constructs: disruption/loss (physical, social, self), barriers to coping (uncertainty, diagnosis problems, disbelief), facilitators (credible illness narratives, supportive relationships), hope/growth/recovery
+        - Biographical disruption profound: affects socializing, school performance, future outlook
+        - Unfamiliarity of condition, diagnostic problems, and felt stigma impede new illness identity formation
+        - Children adopt coping strategies including building credible explanations for their illness
+    / *Conclusion:*: Physical, social, emotional, and self-dimensions must be included in treatment and outcome measurement. Need for greater recognition, specialist activity management, and health-education communication.
+    / *Limitations:*: Small number of included studies (10); predominantly UK samples; heterogeneity in study designs.
+    / *Diagnostic Criteria:*: NICE 2007 (studies predate NICE 2021)
+    / *Certainty:*: 0.65 (rigorous qualitative synthesis; limited study pool)
+    / *Population Weight:*: 1.00
+
+=== Parslow et al.\ 2017b — Health Professional Perspectives on Pediatric CFS/ME
+    / *Full Citation:*: Parslow RM, Shaw A, Haywood KL, Crawley E. Important factors to consider when treating children with chronic fatigue syndrome/myalgic encephalomyelitis (CFS/ME): Perspectives of health professionals from specialist services. _BMC Pediatrics_. 2017;17(1):43. @Parslow2017paediatric
+    / *DOI:*: #link("https://doi.org/10.1186/s12887-017-0799-7")[10.1186/s12887-017-0799-7]
+    / *PMID:*: 28143516
+    / *PMCID:*: PMC5286567
+    / *Study Design:*: Qualitative focus groups and interviews; 15 health professionals from 4 largest NHS England specialist pediatric CFS/ME services.
+    / *Key Findings:*:
+        - Four clinical assessment domains: symptoms, physical function, participation (school, activities, social life), emotional wellbeing
+        - Contextual factors critical: illness complexity, family dynamics, educational engagement
+        - Physical function improvement desirable but must be balanced against school/social participation
+        - Health professionals identified need for child-specific Patient Reported Outcome Measures (PROMs)
+    / *Conclusion:*: Clinically important outcomes span multiple health domains. Results will inform development of child-specific PROM with clinical utility.
+    / *Limitations:*: Small sample (15 HCPs); England only; perspectives from specialist services only (not community/primary care).
+    / *Diagnostic Criteria:*: NICE 2007
+    / *Certainty:*: 0.60 (qualitative; small sample; specialist services only)
+    / *Population Weight:*: 1.00
+
+=== Thornton et al.\ 2025 — Managing Energy and Shaping Care Through Co-Production
+    / *Full Citation:*: Thornton EJ, Hayes LD, Goodwin DS, Sculthorpe N, Prior Y, Sanal-Hayes NEM. Managing energy, and shaping care: Insights from adults with myalgic encephalomyelitis/chronic fatigue syndrome through co-production workshops. _American Journal of Medicine_. 2025;138(6):1001--1009. @Thornton2025energy
+    / *DOI:*: #link("https://doi.org/10.1016/j.amjmed.2025.02.008")[10.1016/j.amjmed.2025.02.008]
+    / *PMID:*: 39961545
+    / *Study Design:*: Co-production workshops; 8 adults with ME/CFS + 3 health practitioners; thematic analysis.
+    / *Key Findings:*:
+        - Early support after diagnosis critical; current delays compound harm
+        - Healthcare provider training and public education needed to combat stigma
+        - Patient collaboration and research-informed practices valued
+        - Multidisciplinary teams and mHealth integration desired
+        - Comprehensive approach recommended: sleep, diet, psychological support alongside activity pacing
+        - Activity pacing interventions lack rigor and technological integration
+    / *Conclusion:*: Patient co-production reveals actionable priorities for ME/CFS care redesign. Current pacing interventions need modernization via mHealth and multidisciplinary integration.
+    / *Limitations:*: Very small sample (n=8 patients); self-selected participants; UK-based; health practitioners contributed via email only.
+    / *Diagnostic Criteria:*: Not specified
+     / *Certainty:*: 0.50 (small qualitative study; preliminary)
+     / *Population Weight:*: 1.00
+
+// =============================================================================
+
+<sec:bib-pans-pandas-neuroimmune>
+// =============================================================================
+
+=== Swedo et al.\ 1998 — First 50 Cases of PANDAS
+     / *Full Citation:*: Swedo SE, Leonard HL, Garvey M, et al.\ Pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections: clinical description of the first 50 cases. _The American Journal of Psychiatry_. 1998;155(2):264--271. @Swedo1998PANDAS50
+     / *DOI:*: #link("https://doi.org/10.1176/ajp.155.2.264")[10.1176/ajp.155.2.264]
+     / *PMID:*: 9464208
+     / *Study Design:*: Retrospective case series (n=50)
+     / *Key Findings:*:
+         - Children with abrupt-onset OCD/tic disorders temporally related to GAS infection
+         - 80% had symptom onset before age 9
+         - Symptom exacerbations correlated with GAS infection episodes in 31/50 (62%)
+         - Defined diagnostic criteria for PANDAS
+     / *Relevance:*: Foundational paper establishing PANDAS as a clinical entity. The abrupt onset and infection trigger pattern mirrors post-infectious ME/CFS onset. Architecture B prototype: infection → neuropsychiatric phenotype.
+     / *Limitations:*: Post-hoc retrospective case review; no control group; GAS testing not uniform.
+     / *Certainty:*: 0.60
+
+=== Kirvan et al.\ 2003 — Molecular Mimicry in Sydenham Chorea
+     / *Full Citation:*: Kirvan CA, Swedo SE, Heuser JS, Cunningham MW. Mimicry and autoantibody-mediated neuronal cell signaling in Sydenham chorea. _Nature Medicine_. 2003;9(7):914--920. @Kirvan2003MimicryChorea
+     / *DOI:*: #link("https://doi.org/10.1038/nm892")[10.1038/nm892]
+     / *PMID:*: 12819778
+     / *Study Design:*: In vitro mechanistic study using human monoclonal antibodies
+     / *Key Findings:*:
+         - Monoclonal chorea antibodies cross-react with GAS N-acetyl-beta-D-glucosamine and neuronal lysoganglioside
+         - Antibodies activate CaM kinase II (CaMKII) in neuronal cells — the first demonstration of antibody-mediated neuronal cell signaling
+         - Tyrosine hydroxylase elevated in dopaminergic neurons upon antibody binding
+         - Defines the molecular mimicry pathway: GAS → anti-neuronal antibodies → CaMKII activation → neuropsychiatric phenotype
+     / *Relevance:*: Core mechanism for Architecture B. Establishes that antibodies can alter neuronal signaling through a specific kinase pathway. CaMKII relevant to cardiac, muscle, and neuronal dysfunction in ME/CFS.
+     / *Limitations:*: In vitro; monoclonal antibodies may not represent polyclonal patient response; Sydenham chorea model (PANDAS inferred).
+     / *Certainty:*: 0.80
+
+=== Kirvan et al.\ 2006 — CaMKII Signaling in PANDAS
+     / *Full Citation:*: Kirvan CA, Swedo SE, Kurahara D, Cunningham MW. Streptococcal mimicry and antibody-mediated cell signaling in the pathogenesis of Sydenham's chorea. _Autoimmunity_. 2006;39(1):21--29. @Kirvan2006CaMKII
+     / *DOI:*: #link("https://doi.org/10.1080/08916930500484757")[10.1080/08916930500484757]
+     / *PMID:*: 16455579
+     / *Study Design:*: Mechanistic study (in vitro + patient sera)
+     / *Key Findings:*:
+         - GAS-induced antibodies cross-react with neuronal cell surface antigens
+         - Antibodies signal CaMKII elevation and tyrosine hydroxylase upregulation in dopaminergic neurons
+         - Provides mechanism linking streptococcal infection to dopaminergic dysregulation in basal ganglia
+         - Replicates and extends the 2003 findings with additional patient samples
+     / *Relevance:*: Replicated mechanism. CaMKII pathway directly relevant to ME/CFS calcium signaling, muscle dysfunction, and neuroinflammation hypotheses.
+     / *Limitations:*: In vitro; relies on serum samples from clinical cohorts; no in vivo validation.
+     / *Certainty:*: 0.70
+
+=== Chang et al.\ 2015 — PANS Consensus Conference
+     / *Full Citation:*: Chang K, Frankovich J, Cooperstock M, et al.\ Clinical evaluation of youth with pediatric acute-onset neuropsychiatric syndrome (PANS): recommendations from the 2013 PANS Consensus Conference. _Journal of Child and Adolescent Psychopharmacology_. 2015;25(1):3--13. @Chang2015PANSevaluation
+     / *DOI:*: #link("https://doi.org/10.1089/cap.2014.0084")[10.1089/cap.2014.0084]
+     / *PMID:*: 25325534
+     / *Study Design:*: Expert consensus guidelines
+     / *Key Findings:*:
+         - PANS diagnostic criteria: abrupt-onset OCD/restricted eating + >=2 neuropsychiatric symptoms
+         - Broader than PANDAS — covers all triggers (viral, post-infectious, inflammatory), not just GAS
+         - Infectious trigger not required for diagnosis
+         - Recommends tiered evaluation: psychiatric assessment → infectious workup → immunological testing
+     / *Relevance:*: Consensus operationalization of the neuroimmune encephalopathy spectrum — PANS covers what PANDAS leaves out. The broad trigger criterion mirrors ME/CFS heterogeneity.
+     / *Limitations:*: Consensus-based; may over-capture; limited validation data at time of publication.
+     / *Certainty:*: 0.70
+
+=== Murphy et al.\ 2014 — PANS Review
+     / *Full Citation:*: Murphy TK, Gerardi DM, Leckman JF. Pediatric acute-onset neuropsychiatric syndrome. _The Psychiatric Clinics of North America_. 2014;37(3):353--374. @Murphy2014PANSreview
+     / *DOI:*: #link("https://doi.org/10.1016/j.psc.2014.06.001")[10.1016/j.psc.2014.06.001]
+     / *PMID:*: 25150567
+     / *Study Design:*: Narrative review
+     / *Key Findings:*:
+         - Evolution of nosology: PITANDS → PANDAS → PANS
+         - Proposed pathophysiology: autoimmune, inflammatory, and infectious mechanisms
+         - Includes discussion of treatment with antibiotics and immunomodulation
+         - Notes that anti-neuronal antibodies found in some but not all PANS/PANDAS patients
+     / *Relevance:*: Comprehensive overview of the field's conceptual evolution. The PITANDS→PANDAS→PANS trajectory mirrors how ME/CFS diagnostic concepts have expanded over time.
+     / *Limitations:*: Narrative review; reflects author perspective; rapidly superseded by newer data.
+     / *Certainty:*: 0.65
+
+=== Frankovich et al.\ 2015 — Stanford PANS Clinic Cohort
+     / *Full Citation:*: Frankovich J, Thienemann M, Pearlstein J, Crable A, Brown K, Chang K. Multidisciplinary clinic dedicated to treating youth with pediatric acute-onset neuropsychiatric syndrome: presenting characteristics of the first 47 consecutive patients. _Journal of Child and Adolescent Psychopharmacology_. 2015;25(1):38--47. @Frankovich2015PANSclinic
+     / *DOI:*: #link("https://doi.org/10.1089/cap.2014.0081")[10.1089/cap.2014.0081]
+     / *PMID:*: 25695943
+     / *Study Design:*: Retrospective case series (n=47)
+     / *Key Findings:*:
+         - Mean age 12.2 ± 4.3 years
+         - 68% sudden onset ($<$48 hours); 87% had OCD; 83% had behavioral regression
+         - Co-occurring conditions: 62% anxiety, 49% mood disorder
+         - Demonstrates a recognizable clinical syndrome distinct from primary OCD
+     / *Relevance:*: Clinical data establishing PANS as a recognizable phenotype. The behavioral regression and acute onset pattern that leads parents to seek PANS evaluation rather than (or after) an autism diagnosis.
+     / *Limitations:*: Single center; referral bias; no control group; small sample.
+     / *Certainty:*: 0.60
+
+=== Frankovich et al.\ 2017 — Immunomodulatory Therapies for PANS
+     / *Full Citation:*: Frankovich J, Swedo S, Murphy T, et al.\ Clinical management of pediatric acute-onset neuropsychiatric syndrome: part II — use of immunomodulatory therapies. _Journal of Child and Adolescent Psychopharmacology_. 2017;27(7):574--593. @Frankovich2017PANSimmunotherapy
+     / *DOI:*: #link("https://doi.org/10.1089/cap.2016.0148")[10.1089/cap.2016.0148]
+     / *PMID:*: 36358107
+     / *Study Design:*: Expert consensus; treatment protocol
+     / *Key Findings:*:
+         - Tiered immunomodulation: NSAIDs → corticosteroids → IVIG/TPA → rituximab/MMF
+         - IVIG dosing: 1.5--2.0 g/kg
+         - TPA: 5--7 procedures over 10--14 days
+         - Contraindications, monitoring protocols, and escalation criteria specified
+     / *Relevance:*: The treatment pyramid for immune-mediated neuropsychiatric disease. Analogous to emerging immunomodulation approaches in ME/CFS (immunoadsorption trials, IVIG case series).
+     / *Limitations:*: Consensus-based, not evidence-based; RCT evidence for most tiers lacking.
+     / *Certainty:*: 0.65
+
+=== Latimer et al.\ 2015 — Therapeutic Plasma Apheresis in PANDAS
+     / *Full Citation:*: Latimer ME, L'Etoile N, Seidlitz J, Swedo SE. Therapeutic plasma apheresis as a treatment for 35 severely ill children and adolescents with pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections. _Journal of Child and Adolescent Psychopharmacology_. 2015;25(1):70--75. @Latimer2015TPA
+     / *DOI:*: #link("https://doi.org/10.1089/cap.2014.0080")[10.1089/cap.2014.0080]
+     / *PMID:*: 25658452
+     / *Study Design:*: Open-label case series (n=35)
+     / *Key Findings:*:
+         - Therapeutic plasma apheresis: 5--6 procedures over 10--14 days
+         - 89% responders (CGI-I ≤2) at 6 months; 100% at 12 months
+         - Responders included those who had failed IVIG
+         - Adverse events: transient hypotension, hypocalcemia (manageable)
+     / *Relevance:*: Strongest treatment response signal in PANDAS literature. Response rates parallel apheresis/immunoadsorption response rates seen in ME/CFS subgroups.
+     / *Limitations:*: Open-label, no control group, no blinding, single center, selection bias.
+     / *Certainty:*: 0.55
+
+=== Kovacevic et al.\ 2015 — IVIG in PANDAS Case Series
+     / *Full Citation:*: Kovacevic M, Grant P, Swedo SE. Use of intravenous immunoglobulin in the treatment of twelve youths with pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections. _Journal of Child and Adolescent Psychopharmacology_. 2015;25(1):65--69. @Kovacevic2015IVIG
+     / *DOI:*: #link("https://doi.org/10.1089/cap.2014.0067")[10.1089/cap.2014.0067]
+     / *PMID:*: 25658609
+     / *Study Design:*: Retrospective case series (n=12)
+     / *Key Findings:*:
+         - IVIG 1.5--2.0 g/kg
+         - 83% showed improvement within 4--6 weeks
+         - Improvements sustained from 6 months to 4.5 years follow-up
+         - First description of long-term IVIG outcomes in PANDAS
+     / *Relevance:*: Small but positive signal. Early improvement with sustained benefit mirrors the pattern seen in ME/CFS IVIG responders.
+     / *Limitations:*: Very small (n=12); retrospective; no control; single center.
+     / *Certainty:*: 0.50
+
+=== Williams et al.\ 2016 — IVIG RCT in PANDAS
+     / *Full Citation:*: Williams KA, Swedo SE, Farmer CA, et al.\ Randomized, controlled trial of intravenous immunoglobulin for pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections. _Journal of the American Academy of Child and Adolescent Psychiatry_. 2016;55(10):860--867.e2. @Williams2016IVIGRCT
+     / *DOI:*: #link("https://doi.org/10.1016/j.jaac.2016.06.017")[10.1016/j.jaac.2016.06.017]
+     / *PMID:*: 27663941
+     / *Study Design:*: Double-blind RCT (n=35)
+     / *Key Findings:*:
+         - IVIG 1.5 g/kg vs placebo
+         - Primary outcome (CY-BOCS at 6 weeks): IVIG not significantly superior to placebo — both groups improved
+         - Post-hoc: GAS culture-positive patients showed greater IVIG response
+         - Overall modest evidence — underpowered
+     / *Relevance:*: The only RCT in PANDAS. The failure to show superiority despite positive case series mirrors ME/CFS immunotherapy trials — heterogeneity requires biomarker-guided selection.
+     / *Limitations:*: Underpowered (n=35); short follow-up (6 weeks); post-hoc subgroup analysis.
+     / *Certainty:*: 0.70
+
+=== Sigra et al.\ 2018 — Treatment of PANDAS/PANS Systematic Review
+     / *Full Citation:*: Sigra S, Hesselmark E, Bejerot S. Treatment of PANDAS and PANS: a systematic review. _Neuroscience & Biobehavioral Reviews_. 2018;86:51--65. @Sigra2018SystematicReview
+     / *DOI:*: #link("https://doi.org/10.1016/j.neubiorev.2018.01.001")[10.1016/j.neubiorev.2018.01.001]
+     / *PMID:*: 29309797
+     / *Study Design:*: Systematic review (23 studies)
+     / *Key Findings:*:
+         - 4 RCTs, 19 case series/cohorts
+         - IVIG: sig. improvement in OCD/tic symptoms in case series; RCT evidence weak
+         - Antibiotics: prophylactic penicillin failed in RCT
+         - Tonsillectomy: limited and inconsistent evidence
+         - Plasma exchange: positive case series but no RCT
+         - Overall quality of evidence: low
+     / *Relevance:*: Gold standard summary of PANDAS/PANS treatment evidence. The pattern — positive case series, negative or weak RCTs — mirrors early ME/CFS immunotherapy literature and highlights the stratification imperative.
+     / *Limitations:*: Covers only studies through ~2017; most included studies had high risk of bias.
+     / *Certainty:*: 0.80
+
+=== Chiarello et al.\ 2017 — PANDAS/PANS Controversies
+     / *Full Citation:*: Chiarello F, Spitoni S, Hollander E, Matucci Cerinic M, Pallanti S. An expert opinion on PANDAS/PANS: highlights and controversies. _International Journal of Psychiatry in Clinical Practice_. 2017;21(2):91--98. @Chiarello2017Controversy
+     / *DOI:*: #link("https://doi.org/10.1080/13651501.2017.1285941")[10.1080/13651501.2017.1285941]
+     / *PMID:*: 28498087
+     / *Study Design:*: Expert review
+     / *Key Findings:*:
+         - After 20+ years, PANDAS not accepted as distinct disorder by most clinical bodies
+         - Main debates: (1) diagnostic criteria reliability, (2) GAS alone vs any infection, (3) biomarker inconsistency, (4) weak treatment evidence
+         - Mirrors broader controversies about autoimmune neuropsychiatric disorders
+     / *Relevance:*: The PANDAS controversy structurally identical to ME/CFS biological-vs-psychosomatic debate. Syndromic labels obscure mechanism-based subgroups in both conditions.
+     / *Limitations:*: Expert opinion, limited systematic methodology.
+     / *Certainty:*: 0.65
+
+=== La Bella et al.\ 2023 — PANDAS: Myth or Reality?
+     / *Full Citation:*: La Bella S, Scorrano G, Rinaldi M, et al.\ Pediatric autoimmune neuropsychiatric disorders associated with streptococcal infections (PANDAS): myth or reality? The state of the art on a controversial disease. _Microorganisms_. 2023;11(10):2549. @LaBella2023PANDASreview
+     / *DOI:*: #link("https://doi.org/10.3390/microorganisms11102549")[10.3390/microorganisms11102549]
+     / *PMID:*: 37894207
+     / *Study Design:*: Comprehensive narrative review
+     / *Key Findings:*:
+         - Molecular mimicry evidence: GAS antigens cross-reactive with basal ganglia proteins
+         - CaMKII pathway in PANDAS: well-established in Sydenham chorea, suggestive in PANDAS
+         - Dopamine receptor autoantibodies found in some patients
+         - Cunningham Panel sensitivity/specificity data limited — utility debated
+         - Conclusion: biologically plausible but evidence still incomplete
+     / *Relevance:*: Most balanced and current review. Useful for understanding which molecular pathways are established vs speculative in PANDAS.
+     / *Limitations:*: Narrative review; no meta-analytic component.
+     / *Certainty:*: 0.70
+
+=== Vreeland et al.\ 2023 — Postinfectious OCD Spectrum
+     / *Full Citation:*: Vreeland A, Calaprice D, Or-Geva N, et al.\ Postinfectious inflammation, autoimmunity, and obsessive-compulsive disorder: Sydenham chorea, pediatric autoimmune neuropsychiatric disorder associated with streptococcal infection, and pediatric acute-onset neuropsychiatric disorder. _Developmental Neuroscience_. 2023;45(6):361--374. @Vreeland2023PostinfectiousOCD
+     / *DOI:*: #link("https://doi.org/10.1159/000534261")[10.1159/000534261]
+     / *PMID:*: 37742615
+     / *Study Design:*: Narrative review
+     / *Key Findings:*:
+         - Links Sydenham chorea → PANDAS → PANS as a spectrum of post-infectious autoimmune OCD
+         - Diverse infections (GAS, viruses, Lyme) trigger anti-basal ganglia autoantibodies
+         - Dopamine receptor autoantibodies particularly implicated in symptom generation
+         - Evidence supports immunomodulatory treatment in some patients
+     / *Relevance:*: The "spectrum" framing directly parallels the neuroimmune encephalopathy spectrum concept in the paper: PANS, post-infectious ME/CFS, Long COVID, and regressive autism subset may share underlying autoimmune pathology.
+     / *Limitations:*: Narrative review; no original data; assumes pathophysiological continuity.
+     / *Certainty:*: 0.65
+
+=== Endres et al.\ 2022 — Autoimmune OCD Subtype
+     / *Full Citation:*: Endres D, Pollak TA, Bechter K, et al.\ Immunological causes of obsessive-compulsive disorder: is it time for the concept of an "autoimmune OCD" subtype? _Translational Psychiatry_. 2022;12(1):5. @Endres2022AutoimmuneOCD
+     / *DOI:*: #link("https://doi.org/10.1038/s41398-021-01700-4")[10.1038/s41398-021-01700-4]
+     / *PMID:*: 35013105
+     / *Study Design:*: Narrative review synthesizing PANDAS/PANS with broader autoimmune OCD literature
+     / *Key Findings:*:
+         - Proposes an "autoimmune OCD" subtype with red flags: acute onset, infection trigger, neurological soft signs, anti-neuronal antibodies, immunotherapy response
+         - PANDAS/PANS as the pediatric prototype
+         - Autoimmune OCD may extend beyond streptococcus to other triggers
+         - Recommends CSF analysis (Oligoclonal bands, anti-neuronal Abs) in suspicious cases
+     / *Relevance:*: The "autoimmune OCD" concept is structurally identical to the paper's argument that an autoimmune ME/CFS subgroup exists. Mechanism-based stratification over syndromic labeling.
+     / *Limitations:*: Narrative review; speculative subtype framework; limited treatment evidence.
+     / *Certainty:*: 0.70
+
+=== Cesaroni et al.\ 2026 — PANDAS Diagnostic Conundrum
+     / *Full Citation:*: Cesaroni CA, Pisanò G, Rizzi S, Pantani A, Frattini D, Fusco C. PANDAS syndrome: a narrative review of the diagnostic conundrum in children with acute neuropsychiatric symptoms. _International Journal of Molecular Sciences_. 2026;27(10):4612. @Cesaroni2026PANDASconundrum
+     / *DOI:*: #link("https://doi.org/10.3390/ijms27104612")[10.3390/ijms27104612]
+     / *PMID:*: 42196589
+     / *Study Design:*: 2026 narrative review
+     / *Key Findings:*:
+         - Hypothesis: GAS triggers autoimmune cascade targeting basal ganglia dopaminergic circuits → OCD/tic/chorea depending on receptor subtype
+         - Molecular evidence exists for this hypothesis but independent replication lacking
+         - Cunningham Panel utility still debated — low specificity concerns
+         - Calls for large-scale studies with standardized autoantibody testing
+     / *Relevance:*: Most recent (2026) comprehensive review. Confirms that the molecular evidence exists but is not yet replicable at scale — a pattern familiar in ME/CFS biomarker research.
+     / *Limitations:*: Narrative; no new data; relies on same evidence base as earlier reviews.
+     / *Certainty:*: 0.65
+
+=== Masterson et al.\ 2025 — PANS Clinical Classification
+     / *Full Citation:*: Masterson EE, Miles K, Schlenk N, et al.\ Defining clinical course of patients evaluated for pediatric acute-onset neuropsychiatric syndrome: phenotypic classification based on 10 years of clinical data. _Developmental Neuroscience_. 2025;47(4):270--286. @Masterson2025PANSclassification
+     / *DOI:*: #link("https://doi.org/10.1159/000545598")[10.1159/000545598]
+     / *PMID:*: 40188825
+     / *Study Design:*: Retrospective cohort (10 years, Stanford PANS clinic)
+     / *Key Findings:*:
+         - Proposes standardized terminology: relapsing vs progressive vs monophasic course
+         - Largest longitudinal PANS cohort to date
+         - Clinical heterogeneity demands mechanism-based subclassification
+         - Objective: enable treatment stratification and research consistency
+     / *Relevance:*: 10 years of clinical data show the heterogeneity problem and the need for stratification — the same conclusion reached by ME/CFS researchers. The relapsing-remitting phenotype parallels ME/CFS.
+     / *Limitations:*: Single-center; retrospective; no biomarker correlates.
+     / *Certainty:*: 0.65
+
+// =============================================================================
+
+<sec:bib-pans-autism-convergence>
+// =============================================================================
+
+=== Meltzer & Van de Water 2017 — Immune System in ASD
+     / *Full Citation:*: Meltzer A, Van de Water J. The role of the immune system in autism spectrum disorder. _Neuropsychopharmacology_. 2017;42(1):284--298. @Meltzer2017ImmuneASD
+     / *DOI:*: #link("https://doi.org/10.1038/npp.2016.158")[10.1038/npp.2016.158]
+     / *PMID:*: 27534269
+     / *Study Design:*: Authoritative review
+     / *Key Findings:*:
+         - Two axes of immune involvement: prenatal (maternal infection/MIA, maternal anti-brain autoantibodies in ~20% of ASD mothers) and postnatal (inflammation, cytokines, endogenous autoantibodies, T-cell/NK dysfunction)
+         - Maternal anti-brain IgG defines a specific ASD subphenotype
+         - Animal models: MIA produces ASD-like behavior in offspring
+     / *Relevance:*: Defines the immune-mechanism ASD subgroup that could fit within a broader "neuroimmune encephalopathy spectrum." The maternal autoantibody subtype (~20%) is a prenatal Architecture B example.
+     / *Limitations:*: Review; causal direction in postnatal immune findings unclear; many associations not replicated.
+     / *Certainty:*: 0.70
+
+=== Braunschweig & Van de Water 2012 — Maternal Autoantibodies in Autism
+     / *Full Citation:*: Braunschweig D, Van de Water J. Maternal autoantibodies in autism. _Archives of Neurology_. 2012;69(6):693--699. @Braunschweig2012MaternalAb
+     / *DOI:*: #link("https://doi.org/10.1001/archneurol.2011.2506")[10.1001/archneurol.2011.2506]
+     / *PMID:*: 22689191
+     / *Study Design:*: Review
+     / *Key Findings:*:
+         - ~10--23% of mothers of children with ASD have anti-fetal brain protein IgG autoantibodies
+         - Gestational immune aberrations (infection, cytokine dysregulation) independently associated with ASD risk
+         - Proposal: ASD may contain an immune-mediated subphenotype detectable during pregnancy
+     / *Relevance:*: Establishes prenatal autoantibody-mediated neurodevelopmental phenotype. Different temporality than PANDAS (in utero vs postnatal) but same Architecture B logic: antibody → brain target → psychiatric/neurodevelopmental phenotype.
+     / *Limitations:*: Review; most findings from single research group; replication in independent cohorts ongoing.
+     / *Certainty:*: 0.65
+
+=== Braunschweig et al.\ 2013 — MAR Autism Antigens
+     / *Full Citation:*: Braunschweig D, Krakowiak P, Duncanson P, et al.\ Autism-specific maternal autoantibodies recognize critical proteins in developing brain. _Translational Psychiatry_. 2013;3(7):e277. @Braunschweig2013MATAbs
+     / *DOI:*: #link("https://doi.org/10.1038/tp.2013.50")[10.1038/tp.2013.50]
+     / *PMID:*: 23838888
+     / *Study Design:*: Discovery study (protein array + validation)
+     / *Key Findings:*:
+         - Identified 7 primary antigens of maternal autoantibody-related (MAR) ASD: LDH-A, LDH-B, cypin, STIP1, CRMP1, CRMP2, YB-1
+         - All antigens are highly expressed in developing brain
+         - MAR autoantibodies bound fetal but not adult neurons — developmental stage specificity
+         - MAR pattern present in ~23% of ASD cases
+     / *Relevance:*: The most specific immune-mechanism ASD biomarker to date. Defines a prenatal autoimmune ASD subgroup analogous to the anti-GPCR autoantibody subgroup in ME/CFS. Demonstrates the principle that autoantibodies can have temporally-specific, development-stage-dependent effects.
+     / *Limitations:*: Single research group; replication ongoing; role of MAR Abs in disease causation vs risk marker unclear.
+     / *Certainty:*: 0.75
+
+=== Croen et al.\ 2008 — Maternal Anti-Fetal Brain Antibodies
+     / *Full Citation:*: Croen LA, Braunschweig D, Haapanen L, et al.\ Maternal mid-pregnancy autoantibodies to fetal brain protein: the early markers for autism study. _Biological Psychiatry_. 2008;64(7):583--588. @Croen2008MaternalAbASD
+     / *DOI:*: #link("https://doi.org/10.1016/j.biopsych.2008.05.006")[10.1016/j.biopsych.2008.05.006]
+     / *PMID:*: 18571628
+     / *Study Design:*: Population-based case-control study (n=84 ASD, 159 DD, 62 GP controls)
+     / *Key Findings:*:
+         - Maternal mid-pregnancy autoantibodies to fetal brain protein associated with ASD risk
+         - 10.5% of ASD mothers had specific anti-fetal brain IgG pattern
+         - Specific 37/73 kDa fetal brain protein bands distinguished ASD from controls
+     / *Relevance:*: First population-based evidence for prenatal immune contribution to ASD risk. Establishes that autoantibodies present during gestation — not just at time of diagnosis — are associated with ASD.
+     / *Limitations:*: Modest sample size; retrospective; single geographic region.
+     / *Certainty:*: 0.70
+
+=== Connery et al.\ 2018 — IVIG in Autoimmune Encephalopathy ASD
+     / *Full Citation:*: Connery K, Tippett M, Delhey LM, et al.\ Intravenous immunoglobulin for the treatment of autoimmune encephalopathy in children with autism. _Translational Psychiatry_. 2018;8(1):148. @Connery2018IVIGautism
+     / *DOI:*: #link("https://doi.org/10.1038/s41398-018-0214-7")[10.1038/s41398-018-0214-7]
+     / *PMID:*: 30097568
+     / *Study Design:*: Retrospective case series (n=31 treated of 82 screened)
+     / *Key Findings:*:
+         - Screened 82 children for autoimmune encephalopathy; 49 (60%) recommended IVIG
+         - 31 received IVIG under care team supervision
+         - 62% of treated showed improvement on CGI scale
+         - Subgroup: children with brain autoantibodies (Cunningham Panel positive) showed greater response
+     / *Relevance:*: Links ASD → autoantibody detection → immunotherapy response. Mirrors PANDAS treatment logic. Suggests that autoantibody screening could identify ASD patients responsive to immunomodulation — supporting mechanism-based stratification.
+     / *Limitations:*: Open-label; retrospective; selection bias (only autoimmune-screened patients received IVIG); small sample.
+     / *Certainty:*: 0.55
+
+=== Melamed et al.\ 2018 — High-Dose IVIG in ASD
+     / *Full Citation:*: Melamed IR, Heffron M, Testori A, Lipe K. A pilot study of high-dose intravenous immunoglobulin 5% for autism: impact on autism spectrum and markers of neuroinflammation. _Autism Research_. 2018;11(3):421--433. @Melamed2018IVIGautism
+     / *DOI:*: #link("https://doi.org/10.1002/aur.1906")[10.1002/aur.1906]
+     / *PMID:*: 29427532
+     / *Study Design:*: Pilot study (n=31)
+     / *Key Findings:*:
+         - ASD children with immune dysregulation treated with high-dose IVIG (2 g/kg)
+         - Significant improvement in ABC, SRS, and CARS scores
+         - Decreased pro-inflammatory cytokines (IL-2, IL-6, TNF-α)
+         - Subset with elevated anti-CAMKII antibodies showed differential response
+     / *Relevance:*: Links CaMKII autoantibodies — the same pathway implicated in PANDAS — to ASD treatment response. First direct biochemical bridge between PANDAS mechanism and ASD subgroup.
+     / *Limitations:*: Pilot; no placebo control; selection bias (immune dysfunction required for enrollment); small sample.
+     / *Certainty:*: 0.50
+
+=== Plioplys 1998 — Negative IVIG Trial in Unselected ASD
+     / *Full Citation:*: Plioplys AV. Intravenous immunoglobulin treatment of children with autism. _Journal of Child Neurology_. 1998;13(2):79--82. @Plioplys1998IVIGautism
+     / *DOI:*: #link("https://doi.org/10.1177/088307389801300207")[10.1177/088307389801300207]
+     / *PMID:*: 9512308
+     / *Study Design:*: Pilot trial (n=10)
+     / *Key Findings:*:
+         - 10 autistic children with immunological abnormalities treated with IVIG (400 mg/kg/month x 6 months)
+         - No significant improvement in autistic behaviors
+         - Only 1/10 showed modest improvement
+     / *Relevance:*: The key negative finding. IVIG does not help unselected ASD — only autoantibody-positive subgroups appear to benefit. Directly supports the stratification imperative: treat the mechanism, not the syndrome.
+     / *Limitations:*: Very small (n=10); low-dose IVIG (400 mg/kg vs modern 1.5--2 g/kg); 1998 diagnostic criteria.
+     / *Certainty:*: 0.60
+
+=== Whiteley et al.\ 2021 — Autoimmune Encephalitis and ASD
+     / *Full Citation:*: Whiteley P, Marlow B, Kapoor RR, Blagojevic-Stokic N, Sala R. Autoimmune encephalitis and autism spectrum disorder. _Frontiers in Psychiatry_. 2021;12:775017. @Whiteley2021AutoimmuneASD
+     / *DOI:*: #link("https://doi.org/10.3389/fpsyt.2021.775017")[10.3389/fpsyt.2021.775017]
+     / *PMID:*: 34975576
+     / *Study Design:*: Narrative review
+     / *Key Findings:*:
+         - "Acquired autism" hypothesis: AE (anti-NMDAR, etc.) can produce ASD-like phenotype, especially in younger children
+         - CSF autoantibodies and inflammatory markers found in AE+ASD patients
+         - Reversibility with immunotherapy demonstrates acquired vs innate distinction
+         - Maternal valproate, rubella, herpes encephalitis also associated with elevated ASD risk
+     / *Relevance:*: The "acquired autism" concept is a direct parallel to post-infectious ME/CFS. Demonstrates that a condition can be both "autism" (by DSM criteria) and acquired autoimmune encephalitis simultaneously — a contradiction that syndromic labeling cannot resolve.
+     / *Limitations:*: Narrative review; AE presenting as ASD appears rare; causal direction unclear.
+     / *Certainty:*: 0.60
+
+=== Tzang et al.\ 2019 — Anti-NMDAR Encephalitis Presenting as Autism
+     / *Full Citation:*: Tzang RF, Chang CH, Chang YC, Lane HY. Autism associated with anti-NMDAR encephalitis: glutamate-related therapy. _Frontiers in Psychiatry_. 2019;10:440. @Tzang2019NMDARautism
+     / *DOI:*: #link("https://doi.org/10.3389/fpsyt.2019.00440")[10.3389/fpsyt.2019.00440]
+     / *PMID:*: 31293459
+     / *Study Design:*: Case report + review
+     / *Key Findings:*:
+         - Anti-NMDAR encephalitis can present as ASD in children
+         - Proposed pathway: autoantibody → NMDAR hypofunction → glutamate/GABA imbalance → ASD symptoms
+         - Treatment: immunotherapy + memantine (NMDA partial agonist) shows symptomatic benefit
+         - Demonstrates antibody → specific neurotransmitter dysfunction → neuropsychiatric phenotype pathway
+     / *Relevance:*: A concrete example of Architecture B in autism: a specific antibody → specific receptor → specific neurotransmitter dysfunction → phenotype. Memantine response suggests downstream neural consequences are partially reversible.
+     / *Limitations:*: Case-based; anti-NMDAR encephalitis rare; extrapolation to broader ASD populations uncertain.
+     / *Certainty:*: 0.55
+
+=== Aslan et al.\ 2021 — Anti-Neuronal Antibodies and Regression in ASD
+     / *Full Citation:*: Aslan C, Konuşkan B, Şener B, Ünal F. Comparison of serum anti-neuronal antibody levels in patients having autism spectrum disorder with and without regression. _The Turkish Journal of Pediatrics_. 2021;63(5):780--789. @Aslan2021AntiNeuronalASD
+     / *DOI:*: #link("https://doi.org/10.24953/turkjped.2021.05.006")[10.24953/turkjped.2021.05.006]
+     / *PMID:*: 34738360
+     / *Study Design:*: Cross-sectional (n=50)
+     / *Key Findings:*:
+         - 24 with autistic regression, 26 with classic non-regressive ASD
+         - Anti-basal ganglia antibodies and anti-dopamine receptor antibodies measured
+         - No significant difference between regressive and non-regressive groups in antibody prevalence
+         - ~20% of all ASD had elevated anti-neuronal antibodies — immune subgroup exists regardless of onset type
+     / *Relevance:*: Weakens the argument that regression specifically indicates immune etiology, but strengthens the argument that an immune subgroup exists across ASD. Anti-neuronal antibody prevalence (~20%) roughly matches maternal autoantibody prevalence — suggesting immune mechanisms may characterize a consistent fraction.
+     / *Limitations:*: Very small sample (n=50); single center; antibody assays of uncertain sensitivity.
+     / *Certainty:*: 0.45

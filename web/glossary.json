@@ -8049,5 +8049,30 @@
     "label": "2-Arachidonoylglycerol (2-AG)",
     "category": "molecule",
     "definition": "The most abundant endocannabinoid, acting as a full agonist at CB₁ and CB₂ receptors. Produced from PIP₂-derived DAG by DAG lipase. 2-AG is the primary retrograde signaling messenger at synapses, suppressing neurotransmitter release. Dysregulated 2-AG signaling impacts pain, inflammation, and neuroplasticity."
+  },
+  "CFS": {
+    "label": "Chronic Fatigue Syndrome",
+    "category": "condition",
+    "definition": "An older diagnostic term for ME/CFS, now largely superseded by more specific case definitions (CCC, ICC, IOM/SEID). Defined by unexplained fatigue plus 4 of 8 accessory symptoms. Does not require PEM, making it less specific than modern criteria."
+  },
+  "PACE": {
+    "label": "PACE Trial",
+    "category": "method",
+    "definition": "The largest (n=641) and most influential ME/CFS treatment trial (2011). Originally reported CBT and GET as moderately effective, but independent reanalysis found effects consistent with expectation bias from unblinded design with subjective outcomes. Mid-trial changes to recovery thresholds inflated efficacy 3-4×. NICE 2021 reversed GET/CBT recommendations partly in response to the reanalysis."
+  },
+  "SF-36": {
+    "label": "SF-36 Health Survey",
+    "category": "measurement",
+    "definition": "A 36-item patient-reported health survey measuring eight health domains including physical functioning, bodily pain, and vitality. ME/CFS patients score worse than MS, rheumatoid arthritis, and cancer patients on physical function and vitality domains."
+  },
+  "ML": {
+    "label": "Machine Learning",
+    "category": "method",
+    "definition": "A field of computer science where algorithms learn patterns from data without explicit programming. In ME/CFS research, ML is used for biomarker discovery but is susceptible to overfitting when applied to small samples (n<100) without external validation."
+  },
+  "SWRA": {
+    "label": "Severity-Weighted Re-Analysis",
+    "category": "method",
+    "definition": "A proposed statistical correction for PEM-induced selection bias in ME/CFS research, adapting the Heckman selection correction (Nobel Prize 2000). Models the probability that a patient of a given severity participates in research and re-weights published effect sizes to estimate the full-population effect."
   }
 }
