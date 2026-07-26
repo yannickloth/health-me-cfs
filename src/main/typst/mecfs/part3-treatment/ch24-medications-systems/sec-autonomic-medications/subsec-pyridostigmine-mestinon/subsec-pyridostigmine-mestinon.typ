@@ -12,4 +12,5 @@
 #include "subsubsec-predictors-of-response/subsubsec-predictors-of-response.typ"
 #include "subsubsec-cholinergic-anti-inflammatory-pathway/subsubsec-cholinergic-anti-inflammatory-pathway.typ"
 #include "subsubsec-ongoing-trials/subsubsec-ongoing-trials.typ"
+#include "subsubsec-capillary-bm-differential/subsubsec-capillary-bm-differential.typ"
 #include "subsubsec-compounding-pharmacy-approach-for-mcas-overlap-patients/subsubsec-compounding-pharmacy-approach-for-mcas-overlap-patients.typ"
