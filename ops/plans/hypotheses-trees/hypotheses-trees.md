@@ -313,5 +313,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | kce-belgium-guideline | [subtrees/kce-belgium-guideline.md](subtrees/kce-belgium-guideline.md) | 2026-07-21 | 30 | 30 | ✅ triaged |
 | cell-tissue-enrichment | [subtrees/cell-tissue-enrichment.md](subtrees/cell-tissue-enrichment.md) | 2026-07-21 | 25 | 0 | ⬜ pending |
 | pharmacodiagnostic-matrix | [subtrees/pharmacodiagnostic-matrix.md](subtrees/pharmacodiagnostic-matrix.md) | 2026-07-25 | 16 | 0 | ⬜ pending |
+| tcell-mitochondrial-exhaustion | [subtrees/tcell-mitochondrial-exhaustion.md](subtrees/tcell-mitochondrial-exhaustion.md) | 2026-07-26 | 24 | 0 | ⬜ pending |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.

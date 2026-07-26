@@ -182,7 +182,21 @@ As discussed in Chapter @ch:energy-metabolism, mitochondrial dysfunction in ME/
 CD8+ cytotoxic T cells showed the most severe impairment: reduced mitochondrial membrane potential (indicating mitochondrial dysfunction), impaired glycolysis at rest, and crucially, failed metabolic reprogramming following activation. Healthy T cells switch from oxidative phosphorylation to glycolysis when activated (the Warburg effect), but ME/CFS CD8+ T cells cannot make this transition effectively . In a tick-borne-triggered subset, this intrinsic glycolytic deficit may be compounded by pathogen-imposed glycolytic reprogramming of innate immune cells (@sec:tick-borne, @hyp:tickborne-glycolytic-reprogramming) — a hypothetical additive interaction not yet tested in any human cohort.
 
 *CD4+ T Cell Abnormalities*
-CD4+ helper T cells also demonstrated reduced glycolysis at rest, though their activation response was less severely impaired than CD8+ cells. This suggests a hierarchy of metabolic dysfunction, with cytotoxic cells more vulnerable than helper cells .
+CD4+ helper T cells also demonstrated reduced glycolysis at rest, though their activation response was less severely impaired than CD8+ cells. This suggests a hierarchy of metabolic dysfunction, with cytotoxic cells more vulnerable than helper cells .
+
+*T-Cell Fatty Acid Oxidation Shift*
+Maya et al.\ (2023) extended the metabolic characterization by measuring fatty acid oxidation in isolated T-cell subsets from the same cohort @Maya2023FAOxidation. CD4+ and CD8+ T cells, as well as NK cells, showed increased lipid utilization and elevated fatty acid oxidation proteins, especially during activation. CD4+ memory, CD4+ effector, and CD8+ memory subsets were all affected. This shift from glucose to lipid metabolism represents a suboptimal fuel choice for effector function — glycolysis supports rapid proliferation and cytokine production, while fatty acid oxidation sustains memory and resting states. The proposed interpretation: chronic immune activation forces T cells into a fuel economy mode that preserves survival at the cost of effector competence.
+
+*CD8+ Functional Impairment*
+Gil et al.\ (2024) independently demonstrated that CD8+ T cells from ME/CFS and Long COVID patients have severely diminished capacity to produce IFNγ and TNFα following stimulation @Gil2024CD8dysfunction. A retrospective case series (n=8) using a nebulized antioxidant formulation (glutathione, NAC, and three additional antioxidants) reported partial restoration of CD8+ cytokine production and a 54% reduction in symptom severity over 3–15 months — but this was unblinded, uncontrolled, and not placebo-controlled. The finding is consistent with Shankar et al.\ (2025) who demonstrated that oxidative stress specifically targets memory lymphocytes in both ME/CFS and Long COVID (Section @sec:immune-metabolic-crosstalk).
+
+*Severity-Stratified T-Cell Activation*
+Lee et al.\ (2025), using the UK ME/CFS Biobank (n=96, mild/moderate vs severe), found that severe ME/CFS is characterized by increased cytotoxic effector molecule expression and enhanced proportions of early immunosenescence (CD28−) cells, suggesting that T-cell activation profiles discriminate symptom severity @Lee2025TcellActivation. This is consistent with the larger UK Biobank finding by Cliff et al.\ (2019, n=251) that conventional T-cell subset proportions (CD4/CD8 ratios, naïve/memory distribution) were within normal range — dysfunction is at the functional and metabolic level, not the numerical level @Cliff2019Cellular.
+
+*ME/CFS and Long COVID: Divergent Immune States*
+Petrov et al.\ (2026) performed the largest direct immunophenotyping comparison of ME/CFS (n=103) and Long COVID (n=63) and found a critical divergence: Long COVID showed M2-like monocyte polarization, dendritic cell expansion, and persistent immune activation with features of exhaustion; ME/CFS showed reduced costimulatory molecule expression, impaired CCR7 trafficking, and less coordinated activation — a pattern of immune *suppression*, not the activation/exhaustion pattern of Long COVID @Petrov2026Immunophenotyping. This is consistent with the distinct immune exhaustion gene expression patterns reported by Eaton-Fitch et al.\ (2024), where ME/CFS was characterized by downregulated interferon signaling and immunoglobulin genes (suppression), while Long COVID showed dysregulated antigen presentation and cytokine signaling (activation) @EatonFitch2024ImmuneExhaustion. These findings caution against simple cross-disease generalizations: the immune dysfunction in ME/CFS is not a milder version of Long COVID but a mechanistically distinct state.
+
+
 
 #hypothesis(title: [CD161+ CD56+ CD4 T Cell Depletion in ME/CFS Gut])[
 *(Certainty: 0.55 — Parallel to IBD findings (78% depletion) and gut-immune axis dysfunction in ME/CFS; no direct ME/CFS studies yet.)*
@@ -213,6 +227,93 @@ Gut-immune axis dysfunction is well-documented in ME/CFS: intestinal dysbiosis, 
 
 *Limitations.* No direct studies of CD161+ CD56+ CD4 T cells in ME/CFS patients exist. Limited data on intestinal immune cell phenotyping in ME/CFS gut. The IBD parallel is mechanistically plausible but not yet demonstrated in ME/CFS.
 ] <hyp:cd4-depletion-gut>
+
+#hypothesis(title: [CD8+ T-Cell Mitochondrial Fragmentation Underlies Acquired Immune Exhaustion])[
+*(Origin: brainstorm — literature synthesis.)* *(Certainty: 0.50 — T-cell exhaustion and mitochondrial dysfunction both established in ME/CFS; the fission-based causal mechanism is inferred from lymphoblast and PBMC data but not directly measured in primary CD8+ T cells.)*
+
+The CD8+ T-cell exhaustion documented in ME/CFS by Iu et al.\ (2024) @iu2024tcell_exhaustion and the metabolic dysfunction characterized by Mandarano et al.\ (2020) @Mandarano2020 may share a common upstream mechanism: mitochondrial fragmentation (fission) mediated by the DRP1 pathway.
+
+*The Cascade.* Post-infectious triggers — viral reactivation, ER stress, or chronic immune activation — activate DRP1-mediated mitochondrial fission. In T cells, this produces: (1) fragmented mitochondria with reduced membrane potential and impaired oxidative phosphorylation, (2) failed metabolic reprogramming upon activation (the Warburg effect deficit documented by Mandarano 2020), and (3) epigenetic locking via TOX/EOMES/TCF7 chromatin remodeling into a terminally exhausted state (Iu 2024). Schreiner et al.\ (2020) demonstrated that HHV-6 reactivation triggers DRP1-mediated mitochondrial fragmentation in ME/CFS PBMCs @SchreinerEtAl2020, providing mechanistic precedent for the fission pathway operating in immune cells. Missailidis et al.\ (2020) showed that even immortalized ME/CFS lymphocytes carry a Complex V (ATP synthase) defect with compensatory respiratory upregulation — when activated, these cells exhaust their reserve capacity and cannot meet acute energy demands @Missailidis2020ComplexV.
+
+*Why Acquired, Not Inherited.* The largest ME/CFS GWAS to date (DecodeME) found genetic risk enrichment in neuronal cell types rather than immune cells. This genetic architecture implies that the mitochondrial failure observed in CD8+ T cells is an *acquired* consequence of the post-infectious disease state, driven by the same DRP1/oxidative-stress/fission pathways that damage neuronal mitochondria. The immune system's mitochondrial pathology is a downstream casualty of the energy crisis, not a genetic predisposition. This explains why T-cell subset counts remain normal (Cliff 2019 @Cliff2019Cellular) while T-cell function collapses: the cells are present but metabolically crippled.
+
+*Falsifiable prediction:* Direct TEM imaging of CD8+ TEM cells from ME/CFS patients versus matched controls will show increased mitochondrial fragmentation (reduced mean mitochondrial length, increased circularity index). DRP1 protein levels (western blot) will be elevated in isolated CD8+ T cells from ME/CFS patients compared to controls. If CD8+ mitochondrial morphology is normal despite documented exhaustion (Iu 2024), mitochondrial fission is not the cause — exhaustion is driven by a different mechanism (antigen, EV cargo, or signaling from exhausted myeloid cells). In vitro DRP1 inhibition (e.g., Mdivi-1) of ME/CFS CD8+ T cells should partially restore membrane potential and metabolic reprogramming capacity if the fission hypothesis is correct.
+
+*Consequence:* If mitochondrial fission is the mechanism linking acquired energy failure to immune exhaustion, then DRP1 inhibition — a pharmacological strategy already under investigation in neurodegeneration — becomes a plausible path to restoring T-cell function in ME/CFS. This is a specific, testable therapeutic hypothesis rather than a general "mitochondrial support" approach.
+
+*Limitations:* DRP1/fission not directly measured in primary ME/CFS T cells — inferred from PBMC (Schreiner 2020) and lymphoblast (Missailidis 2020) data. The Hanson lab cohort (Mandarano 2020, Iu 2024, Maya 2023) uses overlapping patient samples — these are extensions, not independent replications. Gil 2024 antioxidant case series is unblinded, n=8. Severity coverage: unknown — all cohorts were ambulatory; severe/very-severe patients may show different or exaggerated patterns.
+
+] <hyp:cd8-mito-fragmentation-exhaustion>
+
+#limitation(title: [Systematic Evidence Gaps in the CD8+ T-Cell Mitochondrial Exhaustion Literature])[
+*(Origin: brainstorm — evidence quality assessment.)* *(Certainty: 0.75 that the core findings survive correction for most concerns but require qualification.)*
+
+The CD8+ mitochondrial exhaustion literature has structural weaknesses that constrain inference:
+
+*Cohort non-independence.* Mandarano et al.\ 2020 (@Mandarano2020), Iu et al.\ 2024 (@Iu2024CD8Exhaustion), and Maya et al.\ 2023 (@Maya2023FAOxidation) all draw from the same Hanson/Cornell clinical cohort. These papers build depth (multi-omics on the same patients) but are not independent replications. The three strongest CD8+ mitochondrial findings in the literature come from a single patient group.
+
+*Activity confounding.* No study has measured or controlled for physical activity level between ME/CFS and healthy controls. Bed rest alone reduces PBMC mitochondrial respiration in healthy volunteers (Alibegovic 2010; Dirks 2016). The degree to which CD8+ mitochondrial differences reflect ME/CFS-specific pathophysiology versus deconditioning is unknown.
+
+*Missing mechanistic intermediate.* DRP1 and fission/fusion proteins (p-DRP1(Ser616), MFN1/2, OPA1) have never been measured in primary CD8+ T cells — the cell type where exhaustion is documented. The central causal claim (DRP1-mediated fission → exhaustion) rests on PBMC DRP1 data (Schreiner 2020, n=10 @SchreinerEtAl2020) plus CD8+ exhaustion data (Iu et al.\ 2024 @Iu2024CD8Exhaustion) — measured in different cell types from different patients.
+
+*Functional validation absent.* "Exhaustion" is inferred from transcriptional and surface-marker similarity to cancer exhaustion, not from functional impairment. No study has tested whether ME/CFS CD8+ T cells fail to respond to cognate antigen (e.g., CMV or EBV tetramer+ recall assay) — the defining functional feature of exhaustion. The Gil et al.\ 2024 @Gil2024CD8dysfunction finding (diminished IFNγ/TNFα) used PMA/ionomycin, a non-physiological stimulus that bypasses TCR and metabolic checkpoints.
+
+*Small samples, winner's curse.* The largest study with CD8+ functional metabolic data is Mandarano et al.\ 2020 (n=53). The scRNA-seq from Iu et al.\ 2024 uses a subset of that cohort. Effect sizes may be substantially overestimated. No multi-center replication with >200 patients exists.
+
+*Consequence:* Until the activity confound is controlled, DRP1 is measured in primary CD8+ TEM cells, and antigen-specific recall is tested with concurrent metabolic readout, the CD8+ mitochondrial exhaustion hypothesis should be treated as mechanistically promising but unvalidated — consistent with a ~17% probability that it represents a primary causal mechanism (see Section @sec:tcell-mito-null-hypotheses). The three highest-priority experiments are TEM imaging of CD8+ cell mitochondria (Idea 2.1), DRP1 protein quantification in sorted CD8+ TEM cells (Idea 2.2), and antigen-specific recall response with concurrent metabolic readout (Idea 2.3) — all feasible within 12–24 months at modest cost.
+
+*Alternative null hypotheses ranked by likelihood in Section @sec:tcell-mito-null-hypotheses.*
+] <lim:cd8-mito-evidence-quality>
+
+#open-question(title: [Null Hypotheses for T-Cell Mitochondrial Exhaustion])[
+*(Origin: brainstorm — null hypothesis assessment.)* *(Certainty: cumulative ~83% that at least one null hypothesis partially holds.)*
+
+Five distinct null hypotheses, each testable with well-defined experiments:
+
+*N1 — Activity confound (P ~0.45).* CD8+ mitochondrial dysfunction is mainly or entirely explained by physical inactivity. When step count is controlled by accelerometry, the ME/CFS vs HC difference in CD8+ ΔΨm is reduced by ≥50%. Test: activity-controlled comparison (feasible, 6 months).
+
+*N2 — No clinical consequence (P ~0.35).* CD8+ mitochondrial exhaustion is real and not explainable by inactivity, but it has no clinical consequence — it does not predict infection susceptibility, vaccine response, or symptom severity. Test: prospective infection/vaccine study with concurrent CD8+ metabolic readout (feasible, 12 months).
+
+*N3 — CNS-primary (P ~0.30).* CD8+ mitochondrial exhaustion is downstream of neuroendocrine/autonomic dysfunction: sympathetic overactivity, sleep disruption, and HPA axis dysregulation directly suppress T-cell mitochondrial metabolism. Test: CNS-targeted intervention (sleep improvement, vagal nerve stimulation) with CD8+ mitochondrial readout (feasible, 18 months).
+
+*N4 — Protective exhaustion (P ~0.20).* CD8+ exhaustion is an adaptive response that limits immunopathology — reversing it could unleash cytotoxic activity on tissues with compromised mitochondrial function, worsening the disease. Test: monitor tissue damage markers (CPK, troponin) during any exhaustion-reversing intervention trial.
+
+*N5 — Measurement artifact (P ~0.15).* The Iu 2024 scRNA-seq exhaustion signature is driven by a small subset of terminally differentiated cells overrepresented due to batch effects, processing delays, or viability differences between ME/CFS and HC samples. Test: independent replication of scRNA-seq with proper batch correction and viability controls.
+
+These nulls are nested: N1 is the most likely, N5 the least. The cumulative probability that CD8+ mitochondrial exhaustion is a primary, pathological, and clinically consequential immune defect (all five nulls rejected) is approximately (1−0.45) × (1−0.35) × (1−0.30) × (1−0.20) × (1−0.15) ≈ 0.17. This is high enough to justify continued research but demands epistemic humility in therapeutic claims.
+
+*Consequence:* Readers should interpret the CD8+ mitochondrial exhaustion hypothesis as a promising mechanistic framework — not an established pathogenic mechanism. The hypothesis survives or dies on three experiments: TEM imaging (see @hyp:cd8-mito-fragmentation-exhaustion, falsifiable prediction), DRP1 quantification in primary CD8+ TEM cells, and antigen-specific recall assay. These are prioritized over therapeutic development because distinguishing the null hypotheses determines whether treatments targeting CD8+ mitochondria are worth pursuing or fundamentally misdirected.
+] <sec:tcell-mito-null-hypotheses>
+
+#speculation(title: [DRP1-ROS-pERK Positive Feedback Loop May Make CD8+ Mitochondrial Fragmentation Self-Sustaining])[
+*(Origin: brainstorm.)* *(Certainty: 0.35 — DRP1 and ROS are both documented in ME/CFS immune cells; the connecting pERK node is untested.)*
+
+Schreiner et al.\ 2020 showed HHV-6 reactivation activates DRP1-mediated mitochondrial fission in PBMCs @SchreinerEtAl2020. Shankar et al.\ 2025 showed elevated mitochondrial ROS and SOD2 depletion in memory lymphocytes @Shankar2025oxidativestress. These two findings, from separate labs and separate cohorts, are connected by a documented positive feedback loop: DRP1 activation → mitochondrial fragmentation → electron transport chain disruption → ROS production → ERK1/2 phosphorylation (pERK) → DRP1 phosphorylation at Ser616 (the activating site) → further DRP1 translocation to mitochondria → sustained fission. This loop is documented in cancer biology (Kashatus 2015) and neurodegeneration (Kim 2016) but never examined in ME/CFS T cells.
+
+In healthy CD8+ T cells, TCR stimulation triggers a transient fission burst (~30–60 minutes) followed by OPA1/MFN-mediated re-fusion. If SOD2 is depleted (Shankar 2025) and ROS cannot be quenched, pERK remains active, DRP1 stays at Ser616-phosphorylated and mitochondrially localized, and the fission burst becomes chronic. The initial viral trigger is no longer required — the loop sustains itself. This makes a prediction that distinguishes it from competing models: pharmacologically breaking the loop at any node (antioxidant → reduce ROS, MEK inhibitor → block ERK, mdivi-1 → inhibit DRP1) should restore mitochondrial fusion and partially reverse the exhaustion program. The positive-feedback model predicts reversibility; a "mitochondrial damage" model predicts irreversibility. Distinguishing these has direct therapeutic implications.
+
+*Falsifiable prediction:* Isolated CD8+ TEM cells from ME/CFS patients will show elevated p-DRP1(Ser616)/total DRP1 ratio and elevated p-ERK1/2 (T202/Y204) by western blot compared to healthy controls. In vitro mdivi-1 (DRP1 inhibitor, 10 µM, 24h) treatment will reduce p-ERK and restore mitochondrial network morphology — if it does not, ERK is not upstream of DRP1 in this context, and the loop is not the dominant mechanism.
+
+*Consequence:* If the DRP1-ROS-pERK loop is operational, it implies that a limited-duration pharmacological intervention (DRP1 inhibitor or potent antioxidant) could reset the fission-fusion balance — potentially restoring CD8+ function without lifelong treatment. The key measurement (p-DRP1(Ser616) and p-ERK in sorted CD8+ TEM cells by western blot) uses standard antibodies and could be completed in weeks.
+
+*Limitations:* p-DRP1(Ser616) and p-ERK have never been measured in ME/CFS T cells. The DRP1-ROS-pERK loop is inferred from Schreiner 2020 (PBMC DRP1) + Shankar 2025 (lymphocyte ROS) + published non-ME/CFS models (Kashatus 2015). The three nodes have not been measured in the same patients.
+] <spec:drp1-ros-perk-loop>
+
+#open-question(title: [Research Priorities for Validating the CD8+ T-Cell Mitochondrial Exhaustion Hypothesis])[
+*(Origin: brainstorm — research gap synthesis.)*
+
+The highest-impact experiments — none yet performed in ME/CFS — that could confirm or refute the CD8+ mitochondrial exhaustion hypothesis:
+
+1. *TEM imaging of sorted CD8+ TEM cell mitochondria (highest priority).* All existing mitochondrial data are indirect (membrane potential, oxygen consumption, transcriptomics). Direct visualization would quantify mitochondrial length, cristae density, and fission/fusion intermediates — confirming or refuting the central prediction of mitochondrial fragmentation. Feasibility: standard TEM, commercially available antibodies for immunogold labeling, ~12 months.
+
+2. *DRP1 and fission/fusion protein quantification in primary CD8+ TEM cells.* Western blot for p-DRP1(Ser616), total DRP1, MFN1, MFN2, OPA1 (long and short forms) in sorted CD8+ TEM cells from ME/CFS vs HC. The single most critical missing data point — measured in PBMCs (Schreiner 2020) but never in the cell type where exhaustion is documented. Feasibility: standard western blot, commercially available antibodies, ~4 weeks.
+
+3. *Antigen-specific recall response with concurrent metabolic readout.* CMV/EBV/Flu tetramer+ CD8+ cells tested for proliferation, cytokine production, and Seahorse metabolic flux upon cognate peptide stimulation. The functional significance question: do metabolically exhausted CD8+ T cells actually fail to respond to their cognate antigen? Feasibility: requires HLA-A2 screening + tetramer staining + metabolic flux analyzer + peptide-pulsed APCs, ~18 months.
+
+Until these three experiments are completed, the CD8+ mitochondrial exhaustion hypothesis rests on inferential evidence — strong inference, multiple converging data streams, but no direct causal chain measurement. Priority ranking: direct observation (TEM) before mechanism (DRP1) before function (recall response).
+
+*Consequence:* For researchers: these three experiments have well-defined protocols, commercial reagents, and accessible techniques — they are constrained only by access to patient samples, not by technological barriers. For funders: prioritizing the evidence gap (do the mitochondria actually look fragmented?) over therapeutic development (should we trial DRP1 inhibitors?) is the rational allocation of scarce research resources.
+] <spec:cd8-mito-research-priorities>
 
 *Clinical Implications*
 T cell metabolic dysfunction may provide a mechanistic explanation for several observations: reduced CD8+ cytotoxic function (Brenu et al.\ 2011 @Brenu2011) could result from insufficient ATP to sustain degranulation and target killing, though direct causation has not been experimentally demonstrated; impaired proliferation following stimulation may reflect inability to meet the energetic demands of cell division; and post-exertional malaise may be exacerbated by immune activation, as metabolically compromised immune cells compete with other tissues for limited ATP. This finding bridges the energy metabolism (Chapter @ch:energy-metabolism) and immune dysfunction chapters, demonstrating that ME/CFS is characterized by systemic bioenergetic failure affecting all cellular systems.

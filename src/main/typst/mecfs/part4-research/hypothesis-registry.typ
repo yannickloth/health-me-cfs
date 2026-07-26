@@ -4157,11 +4157,11 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [@spec:monocyte-ferroptosis-amplifier], [Iron-loaded monocytes (Hanson2024) may deliver concentrated iron to tissues on macrophage differentiation, sensitizing resident cells to ferroptosis. Creates a monocyte-mediated ferroptosis amplification loop: iron loading → tissue deposition → ferroptosis → DAMP release → monocyte recruitment → more iron delivery. Falsified if ME/CFS monocytes have normal labile iron pool or tissue biopsies show no iron/ferroptosis co-localization. Origin: brainstorm.],[Phase 5 / 0.30],
 
-  [@pred:ferritin-tsat-ratio-diagnostic], [Ferritin:TSAT ratio (FTR) as computationally tractable diagnostic tool: FTR >10 = functional iron deficiency (ferritin ≥150 µg/L, TSAT ≤15%), FTR <5 = genuine iron deficiency, FTR 5–10 = indeterminate. Predicted AUC ≥0.75 for ME/CFS vs post-COVID-without-ME/CFS discrimination. Requires iron panel only ($20–50), deployable in any primary care setting. Not validated — no study has computed FTR in any post-viral fatigue population. Origin: brainstorm.],[Phase 5 / 0.40],
+  [@pred:ferritin-tsat-ratio-diagnostic], [Ferritin:TSAT ratio (FTR) as computationally tractable diagnostic tool: FTR over 10 = functional iron deficiency (ferritin ≥150 µg/L, TSAT ≤15%), FTR under 5 = genuine iron deficiency, FTR 5–10 = indeterminate. Predicted AUC ≥0.75 for ME/CFS vs post-COVID-without-ME/CFS discrimination. Requires iron panel only (\$20–50), deployable in any primary care setting. Not validated — no study has computed FTR in any post-viral fatigue population. Origin: brainstorm.],[Phase 5 / 0.40],
 
-  [@spec:deferiprone-functional-iron-deficiency], [Deferiprone (oral iron chelator, black box: agranulocytosis/neutropenia) as rational intervention if hepcidin-independent ferroportin blockade is the mechanism: membrane-permeable, enters cells without ferroportin, chelates trapped labile iron directly. Danazol (hepcidin antagonist, @spec:danazol-hepcidin) may be misdirected if hepcidin already low. Hypothetical safety pilot: n=10–15, ferritin >150 µg/L + TSAT \<20%, 4 weeks, weekly ANC. NOT a clinical recommendation — black-box warning, fatal infection risk, zero ME/CFS data. Origin: brainstorm.],[Phase 5 / 0.30],
+  [@spec:deferiprone-functional-iron-deficiency], [Deferiprone (oral iron chelator, black box: agranulocytosis/neutropenia) as rational intervention if hepcidin-independent ferroportin blockade is the mechanism: membrane-permeable, enters cells without ferroportin, chelates trapped labile iron directly. Danazol (hepcidin antagonist, @spec:danazol-hepcidin) may be misdirected if hepcidin already low. Hypothetical safety pilot: n=10–15, ferritin >150 µg/L + TSAT < 20%, 4 weeks, weekly ANC. NOT a clinical recommendation — black-box warning, fatal infection risk, zero ME/CFS data. Origin: brainstorm.],[Phase 5 / 0.30],
 
-  [@lim:iron-redox-null-hypotheses], [Six null hypotheses constraining the iron redox polarity model: N1 measurement artifact (hepcidin single-measurement, cert 0.55 — most testable), N2 patient-selection bias (severe ME/CFS unstudied, cert 0.25), N3 confounding-by-comorbidity (undiagnosed autoimmune/infection driving ferritin, cert 0.30), N4 transient-state (iron normalizes on recovery, cert 0.20), N5 therapeutic-indifference (iron-modifying interventions don't change outcomes, cert 0.40), N6 common-pathway (iron phenotype is downstream biomarker of upstream pathology, cert 0.50). N1 is highest-priority: independent hepcidin replication would cost <$50,000 and take <6 months. Origin: brainstorm — critical categories 11 and 12.],[Phase 5 / n/a],
+  [@lim:iron-redox-null-hypotheses], [Six null hypotheses constraining the iron redox polarity model: N1 measurement artifact (hepcidin single-measurement, cert 0.55 — most testable), N2 patient-selection bias (severe ME/CFS unstudied, cert 0.25), N3 confounding-by-comorbidity (undiagnosed autoimmune/infection driving ferritin, cert 0.30), N4 transient-state (iron normalizes on recovery, cert 0.20), N5 therapeutic-indifference (iron-modifying interventions don't change outcomes, cert 0.40), N6 common-pathway (iron phenotype is downstream biomarker of upstream pathology, cert 0.50). N1 is highest-priority: independent hepcidin replication would cost \$50,000 and take \<6 months. Origin: brainstorm — critical categories 11 and 12.],[Phase 5 / n/a],
 )
 
 = Entries added 2026-07-26: Skeletal Muscle Capillary Microvascular Dysfunction
@@ -4180,6 +4180,43 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
   [@lim:muscle-specific-microvascular], [Capillary BM thickening data limited to limb skeletal muscle. No data for diaphragm, cardiac, smooth muscle, or skin capillaries. If muscle-specific → explains exertional symptoms only. If systemic → explains multi-system ME/CFS. Distinction requires same-patient multi-site biopsy. Origin: brainstorm critical categories.],[Phase 5 / n/a],
 )
+
+= Entries added 2026-07-26b: T-Cell Mitochondrial Exhaustion
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [hyp:cd8-mito-fragmentation-exhaustion], [CD8+ T-cell mitochondrial fragmentation (DRP1-mediated fission) as the mechanism underlying acquired immune exhaustion: post-infectious triggers $arrow.r$ DRP1 activation $arrow.r$ mitochondrial fission $arrow.r$ failed metabolic reprogramming $arrow.r$ epigenetic exhaustion in CD8+ TEM cells. Acquired (not inherited — DecodeME GWAS neuronal enrichment, no immune-cell signal). Consistent with Schreiner 2020 (HHV-6/DRP1 in PBMCs), Missailidis 2020 (Complex V defect in lymphocytes), Mandarano 2020 (metabolic dysfunction), Iu 2024 (exhaustion reprogramming). Falsified if CD8+ TEM mitochondrial morphology is normal on TEM. Origin: brainstorm — literature synthesis.],[Phase 3 / 0.50],
+
+  [spec:cd8-fatty-acid-oxidation-shift], [Maya 2023: CD4+ and CD8+ T cells + NK cells shift to fatty acid oxidation (away from glycolysis) in ME/CFS @Maya2023FAOxidation. This may represent a fuel-economy mode preserving survival at the cost of effector function. Origin: literature synthesis.],[Phase 3 / 0.50],
+
+  [spec:me-cfs-immune-suppression], [Petrov 2026 (n=207): ME/CFS shows immune suppression (reduced costimulatory molecules, impaired CCR7 trafficking), not the activation/exhaustion pattern of Long COVID @Petrov2026Immunophenotyping. Eaton-Fitch 2024 confirms at gene expression level: ME/CFS = downregulated IFN/Ig genes (suppression), LC = dysregulated antigen presentation (activation). Origin: literature synthesis.],[Phase 3 / 0.65],
+
+  [spec:severity-stratified-tcell-senescence], [Lee 2025 (n=96, UK Biobank): severe ME/CFS distinguished from mild/moderate by increased cytotoxic effector molecules + early immunosenescence (CD28−) markers @Lee2025TcellActivation. Immune dysfunction progresses with severity. Origin: literature synthesis.],[Phase 3 / 0.65],
+
+)
+
+= Entries added 2026-07-26c: T-Cell Mitochondrial Exhaustion — Phase 5
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [lim:cd8-mito-evidence-quality], [Systematic evidence gaps in CD8+ mitochondrial exhaustion literature: cohort non-independence (Hanson trio = single patient group), activity confounding (no study controls for step count), missing mechanistic intermediate (DRP1 not measured in primary CD8+ TEM cells), functional validation absent (no antigen-specific recall assay), small sample winner's curse (largest study n=53). Cumulative probability CD8+ mito exhaustion is primary causal mechanism: ~17%. Three highest-priority experiments: TEM imaging, DRP1 quantification in CD8+ TEM, antigen-specific recall assay. Origin: brainstorm — evidence quality assessment.],[Phase 5 / 0.75],
+
+  [sec:tcell-mito-null-hypotheses], [Five nested null hypotheses for CD8+ mitochondrial exhaustion: N1 activity confound (P~0.45), N2 no clinical consequence (P~0.35), N3 CNS-primary — downstream of neuroendocrine/autonomic dysfunction (P~0.30), N4 protective exhaustion — adaptive brake limiting immunopathology (P~0.20), N5 measurement artifact (P~0.15). Cumulative probability all five are false: ~17%. Nulls are testable with experiments of feasible scope (6–18 months). Origin: brainstorm — null hypothesis assessment.],[Phase 5 / n/a],
+
+  [spec:drp1-ros-perk-loop], [DRP1-ROS-pERK positive feedback loop: DRP1 activation → mito fragmentation → ETC disruption → ROS → ERK1/2 phosphorylation → DRP1 Ser616 phosphorylation → sustained fission. Documented in cancer/neurodegeneration but untested in ME/CFS T cells. Schreiner 2020 (DRP1 in PBMCs) + Shankar 2025 (lymphocyte ROS + SOD2 depletion) provide two nodes; pERK is the missing third. Predicts reversibility: breaking loop at any node should restore mito fusion. Distinguished from irreversible damage model. Falsified if p-DRP1(Ser616) and p-ERK are normal in CD8+ TEM cells. Origin: brainstorm.],[Phase 5 / 0.35],
+
+  [spec:cd8-mito-research-priorities], [Three highest-impact experiments for CD8+ mitochondrial exhaustion: (1) TEM imaging of sorted CD8+ TEM cells — confirm/refute fragmentation prediction, (2) DRP1/fission-fusion protein quantification in primary CD8+ TEM cells — the missing mechanistic link, (3) antigen-specific recall response with concurrent metabolic readout — test whether metabolically exhausted cells actually fail to respond. Origin: brainstorm — research gap synthesis.],[Phase 5 / n/a],
+
+  [spec:hiv-cd8-chtml-exhaustion-parallel], [HIV (virally suppressed on ART) produces CD8+ phenotype strikingly similar to ME/CFS: elevated PD-1/TIM-3, reduced mito respiration, FAO shift, CD28− senescence, impaired recall. Persists without detectable virus — strongest clinical precedent for post-viral CD8+ exhaustion without chronic replication. HIV field has developed dual-phenotyping panel (PD-1/TIM-3 for exhaustion + CD28/CD57 for senescence) distinguishing reversible from irreversible dysfunction. NAC trials in HIV partially restored CD4+/CD8+ counts — clinical precedent for antioxidant CD8+ restoration. mtDNA depletion documented in HIV+ CD8+ cells (Morse 2019) — technical roadmap. No direct HIV-ME/CFS comparison exists. Origin: brainstorm — cross-disease.],[Phase 5 / 0.30],
+
+  [spec:cancer-immunotherapy-cd8-parallel], [ME/CFS CD8+ TEM cells express same exhaustion TFs (TOX, EOMES, TCF7) as tumor-infiltrating lymphocytes @Iu2024CD8Exhaustion. Key difference: trigger is likely mitochondrial metabolic failure, not chronic antigen (Cliff 2019 found no HHV seroprevalence differences n=251 @Cliff2019Cellular; Petrov 2026 found immune suppression not activation @Petrov2026Immunophenotyping). Checkpoint inhibitors (PD-1 blockade) contraindicated pending ex vivo safety data — risk of triggering autoimmunity in autoimmune-prone population (GPCR autoantibodies). TCF7 expression may identify "early" (reversible) exhaustion subset responsive to metabolic interventions. Origin: brainstorm — cross-disease.],[Phase 5 / 0.20],
+
+)
+
 
 
 

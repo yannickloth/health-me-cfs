@@ -28425,3 +28425,272 @@ sec-bib-rf-elevated-mecfs-duplicate
         - *Replication:* None — novel hypothesis
         - *Score:* 0.35
     / *Limitations:*: Preprint (not peer-reviewed); single author; all mechanisms extrapolated from general physiology literature; no direct ME/CFS biopsy evidence for TSG-6 or HA pathway involvement.
+
+== T-Cell Mitochondrial Exhaustion Literature
+<sec:bib-tcell-mitochondrial-exhaustion>
+
+=== Mandarano2020 — Altered T Cell Metabolism in ME/CFS
+    / *Full Citation:*: Mandarano AH, Maya J, Giloteaux L, Peterson DL, Maynard M, Gottschalk CG, Hanson MR. Myalgic encephalomyelitis/chronic fatigue syndrome patients exhibit altered T cell metabolism and cytokine associations. _Journal of Clinical Investigation_. 2020;130(3):1491–1505. @Mandarano2020
+    / *DOI:*: https://doi.org/10.1172/JCI132185
+    / *PMID:*: 31830003
+    / *Study Design:*: Cross-sectional; Seahorse metabolic flux analysis on isolated CD4+ and CD8+ T cells at rest and after anti-CD3/CD28 activation.
+    / *Sample Size:*: 53 ME/CFS + 45 healthy controls
+    / *Key Findings:*:
+        - CD8+ T cells: reduced mitochondrial membrane potential (ΔΨm)
+        - Both CD4+ and CD8+ T cells: reduced glycolysis at rest
+        - CD8+ T cells: reduced glycolysis after activation (impaired metabolic reprogramming)
+        - Altered cytokine-metabolism correlation networks in ME/CFS vs HC
+    / *Conclusion:*: First demonstration that ME/CFS T-cell dysfunction has a metabolic basis — CD8+ T cells show impaired mitochondrial function and glycolytic capacity.
+    / *Certainty Assessment:*:
+        - *Quality:* High (JCI; rigorous metabolic phenotyping)
+        - *Sample:* Medium (n=53 ME/CFS)
+        - *Replication:* Extended by Iu2024CD8Exhaustion (same cohort, multi-omics) but not independently replicated
+        - *Score:* 0.70
+    / *Limitations:*: Single site (Sierra Internal Medicine, Incline Village); cross-sectional; pooled sexes; clinical diagnosis criteria unspecified; same cohort as Iu2024CD8Exhaustion and Maya2023FAOxidation.
+
+=== Iu2024CD8Exhaustion — Transcriptional Reprogramming Primes CD8+ T Cells Toward Exhaustion
+    / *Full Citation:*: Iu DS, Maya J, Vu LT, Fogarty EA, McNairn AJ, Ahmed F, Franconi CJ, Munn PR, Grenier JK, Hanson MR, Grimson A. Transcriptional reprogramming primes CD8+ T cells toward exhaustion in Myalgic encephalomyelitis/chronic fatigue syndrome. _Proceedings of the National Academy of Sciences_. 2024;121(50):e2415119121. @Iu2024CD8Exhaustion
+    / *DOI:*: https://doi.org/10.1073/pnas.2415119121
+    / *PMID:*: 39621903
+    / *Study Design:*: Multi-omics: scRNA-seq + bulk RNA-seq + ATAC-seq across T cell subsets; flow cytometry validation; post-provocation CD8+ subpopulation analysis.
+    / *Sample Size:*: 39 ME/CFS + 41 healthy controls (subset for scRNA-seq)
+    / *Key Findings:*:
+        - CD8+ effector memory T cells (TEM) most dysregulated — upregulation of exhaustion TFs (TOX, EOMES, TCF7)
+        - Altered chromatin landscape consistent with exhausted state
+        - Metabolic reprogramming gene expression consistent with exhaustion
+        - Flow cytometry: higher frequency of PD-1, TIM-3 exhaustion factors
+        - Innate T cells (γδT, MAIT) also dysregulated
+    / *Conclusion:*: CD8+ T cell exhaustion is a defined transcriptional state in ME/CFS. Exhaustion-associated transcription factors, chromatin remodeling, and metabolic reprogramming constitute a multi-layered dysregulation pattern.
+    / *Certainty Assessment:*:
+        - *Quality:* High (PNAS; multi-omics integration; flow cytometry validation)
+        - *Sample:* Medium (n=39 ME/CFS)
+        - *Replication:* Not independently replicated; extends Mandarano2020 same cohort
+        - *Score:* 0.75
+    / *Limitations:*: Same Hanson/Cornell cohort as Mandarano 2020 (no independent replication); scRNA-seq subset smaller than full cohort; no functional T-cell recall assay.
+
+=== Shankar2025 — Oxidative Stress Shared ME/CFS + Long COVID
+    / *Full Citation:*: Shankar V, Wilhelmy J, Curtis EJ, Michael B, Cervantes L, Mallajosyula V, Davis RW, Snyder M, Younis S, Robinson WH, Shankar S, Mischel PS, Bonilla H, Davis MM. Oxidative stress is a shared characteristic of ME/CFS and Long COVID. _Proceedings of the National Academy of Sciences_. 2025;122(28):e2426564122. @Shankar2025oxidativestress
+    / *DOI:*: https://doi.org/10.1073/pnas.2426564122
+    / *PMID:*: 40627396
+    / *Study Design:*: Cross-sectional; flow cytometry (mito ROS, ΔΨm, mito mass, GPX4), RNA-seq, mass spectrometry lipidomics in peripheral blood lymphocytes.
+    / *Sample Size:*: 27 ME/CFS + 20 Long COVID + 25 healthy controls
+    / *Key Findings:*:
+        - Elevated oxidative stress in memory lymphocytes specifically (both ME/CFS and LC)
+        - MnSOD (SOD2) protein decreased; glutathione increased (compensatory); GPX4 lipid oxidative damage
+        - Sex-specific: females → ↑total ROS + ↑mitochondrial Ca²⁺ → T-cell hyperproliferation; males → normal ROS but pronounced lipid peroxidation
+        - Metformin attenuates T-cell hyperproliferation in vitro
+    / *Conclusion:*: Oxidative stress is a shared mechanistic basis across ME/CFS and Long COVID. Sex-specific redox patterns have therapeutic implications: metformin may benefit females via T-cell hyperproliferation attenuation.
+    / *Certainty Assessment:*:
+        - *Quality:* High (PNAS; multi-modal validation — flow, RNA-seq, lipidomics)
+        - *Sample:* Moderate (n=72 total across 3 groups)
+        - *Replication:* Not yet independently replicated; sex-specific findings novel
+        - *Score:* 0.75
+    / *Limitations:*: Moderate sample sizes per group; no functional T-cell recall assay; sex-specific findings need independent replication; Stanford single site.
+
+=== Cliff2019 — Cellular Immune Function in ME/CFS (UK Biobank Null Study)
+    / *Full Citation:*: Cliff JM, King EC, Lee JS, Sepúlveda N, Wolf AS, Kingdon C, Bowman E, Dockrell HM, Nacul L, Lacerda E, Riley EM. Cellular immune function in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). _Frontiers in Immunology_. 2019;10:796. @Cliff2019Cellular
+    / *DOI:*: https://doi.org/10.3389/fimmu.2019.00796
+    / *PMID:*: 31057538
+    / *Study Design:*: Large-scale cross-sectional immunophenotyping: FACS (T/B/NK/monocyte) + EBV/CMV/HHV serology + NK function.
+    / *Sample Size:*: 251 ME/CFS + 107 healthy controls + 46 Multiple Sclerosis
+    / *Key Findings:*:
+        - *No differences* in HHV seroprevalence (EBV, CMV, HHV-6, HSV-1/2, VZV) between ME/CFS and HC
+        - *No differences* in NK cell numbers, subtype proportions, or in vitro cytotoxicity
+        - T-cell subset proportions within normal range overall
+        - EBV seroprevalence higher in MS controls (positive control validation)
+    / *Conclusion:*: The largest null result in ME/CFS immunology — no major PBMC subset differences or HHV seroprevalence elevations. Dysfunction must be at the level of *function* (metabolism, signaling, exhaustion), not cell counts.
+    / *Certainty Assessment:*:
+        - *Quality:* High (largest sample to date; rigorous methodology; MS positive control)
+        - *Sample:* High (n=404 total; n=251 ME/CFS)
+        - *Replication:* Consistent with multiple smaller studies showing normal lymphocyte counts
+        - *Score:* 0.70
+    / *Limitations:*: Only surface phenotyping + NK function (no T-cell functional/metabolic assays); cross-sectional; UK-specific cohort.
+
+=== Lee2025 — T-Cell Activation Discriminates Symptom Severity
+    / *Full Citation:*: Lee JS, Lacerda E, Kingdon C, Abken E, Susannini G, Dockrell HM, Nacul L, Cliff JM. Abnormal T-cell activation and cytotoxic T-cell frequency discriminate symptom severity in myalgic encephalomyelitis/chronic fatigue syndrome. _Journal of Translational Medicine_. 2025;23:669. @Lee2025TcellActivation
+    / *DOI:*: https://doi.org/10.1186/s12967-025-07507-x
+    / *PMID:*: 41373029
+    / *Study Design:*: Cross-sectional flow cytometry immunophenotyping comparing mild/moderate vs severe ME/CFS.
+    / *Sample Size:*: 96 ME/CFS (43 mild/moderate + 53 severe)
+    / *Key Findings:*:
+        - Severe ME/CFS: increased cytotoxic effector molecule expression
+        - Severe ME/CFS: enhanced proportions of early immunosenescence (CD28⁻) cells
+        - T-cell activation and cytotoxic profiles discriminate symptom severity
+        - Suggests different pathogenesis mechanisms in mild/moderate vs severe disease
+    / *Conclusion:*: T-cell activation and cytotoxic profiles stratify ME/CFS by severity, supporting immunological subtyping for prognosis and treatment.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (J Transl Med; UK Biobank cohort; flow cytometry only)
+        - *Sample:* Medium (n=96 from well-characterized biobank)
+        - *Replication:* Not yet independently replicated
+        - *Score:* 0.65
+    / *Limitations:*: Cross-sectional; flow cytometry only (no metabolic assays); severity classification by questionnaire; same UK Biobank as Cliff2019 (different subset).
+
+=== EatonFitch2024 — Immune Exhaustion Gene Expression in ME/CFS + LC
+    / *Full Citation:*: Eaton-Fitch N, Rudd P, Er T, Hool L, Herrero L, Marshall-Gradisnik S. Immune exhaustion in ME/CFS and long COVID. _JCI Insight_. 2024;9(22):e183810. @EatonFitch2024ImmuneExhaustion
+    / *DOI:*: https://doi.org/10.1172/jci.insight.183810
+    / *PMID:*: 39435656
+    / *Study Design:*: Cross-sectional; NanoString nCounter Immune Exhaustion gene expression panel (780 genes) in PBMCs.
+    / *Sample Size:*: 14 ME/CFS (CCC) + 15 Long COVID (WHO) + 18 healthy controls
+    / *Key Findings:*:
+        - ME/CFS: downregulated IFN signaling and immunoglobulin genes → immune suppression pattern
+        - Long COVID: dysregulated antigen presentation, cytokine signaling, immune activation → contrasting pattern
+        - Both conditions show immune exhaustion but via different pathway dysregulation
+    / *Conclusion:*: Immune exhaustion is present in both ME/CFS and Long COVID but manifests via distinct molecular pathways — suppression in ME/CFS vs activation in LC.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (JCI Insight; targeted NanoString panel; small n)
+        - *Sample:* Low (n=14/15 patient samples)
+        - *Replication:* Consistent with Iu2024CD8Exhaustion (T-cell exhaustion) and Petrov2026Immunophenotyping (divergent ME/CFS vs LC)
+        - *Score:* 0.55
+    / *Limitations:*: Small sample sizes; NanoString panel is targeted (biased toward exhaustion genes); no metabolic/functional assays.
+
+=== Shahbaz2026 — Single-Cell Immune Remodeling in LC-ME/CFS
+    / *Full Citation:*: Shahbaz S, Bozorgmehr N, Rahmati A, Abouda A, Syed H, Osman M, Elahi S. Single-cell analysis reveals immune remodeling of monocytes, NK cells, T cell exhaustion, and Galectin-9-associated depletion of gamma delta and mucosal-associated invariant T cells in Long COVID with ME/CFS. _Frontiers in Immunology_. 2026;17:1745933. @Shahbaz2026single-cell-immune
+    / *DOI:*: https://doi.org/10.3389/fimmu.2026.1745933
+    / *PMID:*: 41822518
+    / *Study Design:*: scRNA-seq on PBMCs from LC-ME/CFS (female) 12 months post-acute COVID-19; comparison with public idiopathic ME/CFS scRNA-seq data.
+    / *Sample Size:*: Not explicitly stated in abstract
+    / *Key Findings:*:
+        - Marked reduction in naïve CD4+ T cells, Tregs, MAIT, γδ T cells; expanded effector T cells
+        - Galectin-9-TIM-3 axis drives γδT/MAIT depletion
+        - NK cells reduced with altered activation
+        - Monocytes: reduced phagocytosis genes, increased pro-inflammatory cytokine genes
+        - LC-ME/CFS immune remodeling distinct from idiopathic ME/CFS
+    / *Conclusion:*: Peripheral immune remodeling in LC-ME/CFS is distinct from idiopathic ME/CFS, supporting a model of chronic immune activation and dysregulation. Galectin-9-TIM-3 identified as a potential therapeutic target.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Front Immunol; scRNA-seq; novel comparison)
+        - *Sample:* Not fully specified
+        - *Replication:* Not replicated
+        - *Score:* 0.60
+    / *Limitations:*: Female-only; sample size unclear; preprint comparison dataset; cross-sectional.
+
+=== Schreiner2020 — HHV-6 Reactivation → Mitochondrial Fragmentation
+    / *Full Citation:*: Schreiner P, Harrer T, Scheibenbogen C, Lamer S, Schlosser A, Naviaux RK, Prusty BK. Human Herpesvirus-6 Reactivation, Mitochondrial Fragmentation, and the Coordination of Antiviral and Metabolic Phenotypes in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _ImmunoHorizons_. 2020;4(4):201–215. @SchreinerEtAl2020
+    / *DOI:*: https://doi.org/10.4049/immunohorizons.2000006
+    / *PMID:*: 32327453
+    / *Study Design:*: Mechanistic: in vitro serum transfer model with cell culture assays.
+    / *Sample Size:*: 10 ME/CFS patient serum samples + 5 controls
+    / *Key Findings:*:
+        - HHV-6 reactivation associated with mitochondrial fragmentation via miR-aU14/miR-30/p53/DRP1 axis
+        - Adoptive transfer of ME/CFS serum reproduced mitochondrial fragmentation in recipient cells
+        - Mitochondrial fragmentation → severe metabolic dysfunction: pyruvate dehydrogenase + fatty acid oxidation enzymes inhibited
+        - 1-carbon metabolism and thymidylate synthase induced (compensatory)
+    / *Conclusion:*: HHV-6 can trigger mitochondrial fragmentation through DRP1-mediated fission, producing metabolic dysfunction compatible with ME/CFS cellular phenotype. First direct evidence of mitochondrial fission machinery activation in ME/CFS.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (ImmunoHorizons; low-impact journal; in vitro model)
+        - *Sample:* Very small (n=10)
+        - *Replication:* Consistent with Hennig 2022 (HHV-6 miRNA → DRP1 in neurons); but T-cell-specific DRP1 not confirmed
+        - *Score:* 0.45
+    / *Limitations:*: n=10 only; in vitro serum transfer model; HHV-6 mechanism not confirmed in all patients; no T-cell-specific isolation; DRP1 measured in PBMCs not purified T cells; not replicated independently.
+
+=== Petrov2026 — Immunophenotyping: ME/CFS vs Long COVID
+    / *Full Citation:*: Petrov S, Bozhkova M, Ivanovska M, Kalfova T, Dudova D, Todorova Y, Dimitrova R, Murdjeva M. Comprehensive Immunophenotyping of Monocytes and Dendritic Cells Suggests Distinct Pathophysiology in Chronic Fatigue Syndrome and Long COVID. _International Journal of Molecular Sciences_. 2026;27(10):4488. @Petrov2026Immunophenotyping
+    / *DOI:*: https://doi.org/10.3390/ijms27104488
+    / *PMID:*: 42196466
+    / *Study Design:*: Large cross-sectional: multiparameter flow cytometry on PBMCs with ANCOVA, correlation network analysis, and PCA.
+    / *Sample Size:*: 207 total (103 ME/CFS + 63 Long COVID + 41 healthy controls)
+    / *Key Findings:*:
+        - Long COVID: M2-like monocyte polarization, dendritic cell expansion, persistent immune activation → exhaustion features
+        - ME/CFS: reduced costimulatory molecule expression, impaired CCR7 trafficking, less coordinated activation → immune suppression
+        - PCA discriminates between conditions
+        - Network analysis: more extensive immune interactions in LC than ME/CFS
+    / *Conclusion:*: ME/CFS and Long COVID are characterized by distinct immunopathological mechanisms — immune activation/exhaustion in LC vs immune suppression in ME/CFS.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (IJMS; rigorous multivariate analysis; cross-condition comparison)
+        - *Sample:* High (n=207 total)
+        - *Replication:* Not yet independently replicated; novel comparison
+        - *Score:* 0.65
+    / *Limitations:*: Single Eastern European site; flow cytometry only (no functional/metabolic); cross-sectional; Fukuda criteria.
+
+=== Missailidis2020 — Complex V Inefficiency in Lymphoblasts
+    / *Full Citation:*: Missailidis D, Annesley SJ, Allan CY, Sanislav O, Lidbury BA, Lewis DP, Fisher PR. An Isolated Complex V Inefficiency and Dysregulated Mitochondrial Function in Immortalized Lymphocytes from ME/CFS Patients. _International Journal of Molecular Sciences_. 2020;21(3):1074. @Missailidis2020ComplexV (Note: separate from Missailidis2020 review in general.bib)
+    / *DOI:*: https://doi.org/10.3390/ijms21031074
+    / *PMID:*: 32041178
+    / *Study Design:*: Cross-sectional; Seahorse + proteomics + biochemical assays on immortalized lymphoblastoid cell lines.
+    / *Sample Size:*: 51 ME/CFS (CCC) + age/gender-matched controls
+    / *Key Findings:*:
+        - Isolated Complex V (ATP synthase) defect in ME/CFS lymphoblasts
+        - Compensatory upregulation: ↑Complex I OCR, ↑max OCR, ↑spare respiratory capacity, ↑proton leak
+        - Mitochondrial membrane potential ↓; TOR Complex I chronically hyperactivated
+        - ↑β-oxidation enzymes + fatty acid transporters + TCA cycle enzymes
+        - Mitochondrial mass, genome copy number, glycolysis, steady-state ATP: unchanged
+    / *Conclusion:*: Homeostatic compensation returns resting ATP to normal but exhausts reserve capacity, leaving cells unable to respond to acute energy demands. This reserve-capacity exhaustion model matches the PEM phenotype.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (IJMS; comprehensive biochemical phenotyping)
+        - *Sample:* Medium (n=51, CCC diagnosed)
+        - *Replication:* Consistent with Maya2023FAOxidation (FA oxidation shift) and Shankar2025 (oxidative stress) but immortalized cells used
+        - *Score:* 0.60
+    / *Limitations:*: Lymphoblastoid cell lines (EBV-immortalization may alter mitochondrial phenotype); not primary T cells; no severity stratification.
+
+=== Maya2023 — Altered Fatty Acid Oxidation in Lymphocytes
+    / *Full Citation:*: Maya J, Leddy SM, Gottschalk CG, Peterson DL, Hanson MR. Altered Fatty Acid Oxidation in Lymphocyte Populations of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _International Journal of Molecular Sciences_. 2023;24(3):2010. @Maya2023FAOxidation
+    / *DOI:*: https://doi.org/10.3390/ijms24032010
+    / *PMID:*: 36768336
+    / *Study Design:*: Functional metabolic assays on isolated NK, CD4+ T, and CD8+ T cells with fatty acid oxidation perturbations.
+    / *Sample Size:*: 8–20 per experiment
+    / *Key Findings:*:
+        - All three cell types (NK, CD4+, CD8+): ↑lipid utilization + ↑FA oxidation proteins, especially during activation
+        - T-cell subpopulations affected: CD4+ memory, CD4+ effector, CD8+ naïve, CD8+ memory
+        - ME/CFS vs HC: significant correlations between CD4+ T-cell FA metabolism and demographics
+    / *Conclusion:*: ME/CFS lymphocytes shift fuel preference toward fatty acids over glucose, which may impair effector function — metabolic reprogramming consistent with early exhaustion.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (IJMS; small n per experiment; same Hanson cohort)
+        - *Sample:* Small (8–20 per experiment)
+        - *Replication:* Consistent with Mandarano2020 and Missailidis2020 but same cohort
+        - *Score:* 0.50
+    / *Limitations:*: Small n per experiment; exploratory; same clinical cohort as Mandarano2020/Iu2024CD8Exhaustion; no direct functional exhaustion assay.
+
+=== Gil2024 — CD8 T-Cell Dysfunction + Antioxidant Treatment
+    / *Full Citation:*: Gil A, Hoag GE, Salerno JP, Hornig M, Klimas N, Selin LK. Identification of CD8 T-cell dysfunction associated with symptoms in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and Long COVID and treatment with a nebulized antioxidant/anti-pathogen agent in a retrospective case series. _Brain, Behavior, and Immunity - Health_. 2024;36:100720. @Gil2024CD8dysfunction
+    / *DOI:*: https://doi.org/10.1016/j.bbih.2023.100720
+    / *PMID:*: 38327880
+    / *Study Design:*: CD8+ T-cell functional assay (ICS for IFNγ/TNFα post-PMA) + retrospective case series.
+    / *Sample Size:*: 12 ME/CFS + 8 Long COVID + 10 healthy controls (functional assay); 8 patients in retrospective case series
+    / *Key Findings:*:
+        - CD8+ T cells from both ME/CFS and LC: severely diminished IFNγ and TNFα production vs HC
+        - Symptom profiles nearly identical between disorders
+        - Retrospective case series (3–15 months): nebulized antioxidant partially restored CD8 cytokine production + 54% symptom severity reduction
+    / *Conclusion:*: CD8 T-cell dysfunction characterized by loss of effector cytokine production is common to ME/CFS and Long COVID. Oxidative stress reduction may partially restore function.
+    / *Certainty Assessment:*:
+        - *Quality:* Low (BBI-Health; very small n; retrospective unblinded case series)
+        - *Sample:* Very small (n=12/8/10)
+        - *Replication:* Consistent with Shankar2025 (oxidative stress driving T-cell dysfunction)
+        - *Score:* 0.40
+    / *Limitations:*: Very small n; retrospective case series (no randomization, no blinding); treatment not placebo-controlled; low-impact journal; antioxidant composition proprietary-like (5-ingredient).
+
+=== VanCampenhout2025 — Energy Metabolism and Immune Senescence/Exhaustion Review
+    / *Full Citation:*: Van Campenhout J, Buntinx Y, Xiong HY, Wyns A, Polli A, Nijs J, Aerts JL, Laeremans T. Unravelling the Connection Between Energy Metabolism and Immune Senescence/Exhaustion in Patients with Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Biomolecules_. 2025;15(3):357. @VanCampenhout2025EnergyImmune
+    / *DOI:*: https://doi.org/10.3390/biom15030357
+    / *PMID:*: 40149893
+    / *Study Design:*: State-of-the-art narrative review.
+    / *Sample Size:*: n/a (review)
+    / *Key Findings:*:
+        - Proposes energy metabolism deficits directly impair immune function in ME/CFS
+        - Examines mitochondrial dysfunction as driver of T-cell senescence and exhaustion
+        - Identifies therapeutic targets at the metabolic-immune interface
+        - Connects immune senescence and exhaustion to mitochondrial energy failure
+    / *Conclusion:*: Mitochondrial dysfunction and immune senescence/exhaustion are interconnected in ME/CFS — energy deficits may directly drive the immune phenotype. Therapeutic strategies targeting both axes may be required.
+    / *Certainty Assessment:*:
+        - *Quality:* Medium (Biomolecules; comprehensive review with Belgian VIB/KU Leuven authorship)
+        - *Sample:* n/a
+        - *Replication:* N/A (review)
+        - *Score:* 0.55
+    / *Limitations:*: Review only (no primary data); narrative format rather than systematic review; therapeutic speculation without clinical trial evidence.
+
+=== Maya2023 — Surveying Metabolic Dysfunctional T/NK Cells (Review)
+    / *Full Citation:*: Maya J. Surveying the Metabolic and Dysfunctional Profiles of T Cells and NK Cells in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _International Journal of Molecular Sciences_. 2023;24(15):11937. @Maya2023SurveyMetabolicTNK
+    / *DOI:*: https://doi.org/10.3390/ijms241511937
+    / *PMID:*: 37569313
+    / *Study Design:*: Narrative review.
+    / *Sample Size:*: n/a (review)
+    / *Key Findings:*:
+        - Explores evidence for immune cell exhaustion via metabolic dysfunction in ME/CFS
+        - Proposes ME/CFS shares metabolic features with chronic viral infections that produce T-cell exhaustion
+        - Roles of PD-1, TIM-3, TOX, and mitochondrial dysfunction in exhaustion phenotype
+        - Distinguishes exhaustion, senescence, and anergy as distinct immune states
+    / *Conclusion:*: ME/CFS T cells and NK cells may exist in an intermediate state between exhaustion and senescence, driven by underlying mitochondrial metabolic impairment.
+    / *Certainty Assessment:*:
+        - *Quality:* Low-Medium (IJMS; single-author review from Hanson lab)
+        - *Sample:* n/a
+        - *Replication:* N/A; consistent with Iu2024CD8Exhaustion (same lab)
+        - *Score:* 0.50
+    / *Limitations:*: Single-author review; from the same lab as primary data papers (potential confirmation bias); no systematic search methodology stated.
