@@ -25,16 +25,16 @@
 | 5b | ⬜ | Pending |
 | 5c | — | Skipped (no medication content) |
 | 5d | — | Skipped (no biochemical cascades) |
-| 5a | ⬜ | Pending |
-| 5z | ⬜ | Pending |
-| 6 | ⬜ | Pending |
-| 7 | ⬜ | Pending (likely limited — registry is biomedical) |
+| 5a | ✅ | 18 environments audited — 0 #speculation/#hypothesis/#fhypothesis (#prediction) found; all environments in exempt categories. 20/20 citation keys verified in bib. 3/3 claim-fidelity spot-checks passed. 0 fixes required. Changelog minor stale data noted (19 env count; Cousins2026 uncited). |
+| 5z | ✅ | 8 glossary entries added: CDE, PLRC, PROMS, REMBRANDT, ICF, CFS/ME, COVID/ME, HIV/AIDS. 4 false positives filtered (DNA, FOIA, PLOS, ME). |
+| 6 | ✅ | 2 cross-references added: ch01 subsec-03 (PACE→@ch:patient-generated-knowledge), ch02 history (epistemic function→@ch:patient-generated-knowledge). Pre-existing epistemic content is all consistent — no contradictions or adaptations needed. No certainty bumps (incoming evidence cert <0.40 threshold for adaptation). |
+| 7 | ✅ | Zero mechanism overlap — registry hypotheses are biomedical; ch45 is sociological. No reinforcement/conflict/feed-into pairs. No certainty adjustments. |
 | 8 | ⬜ | Pending |
-| 9 | ⬜ | Pending |
-| 10 | ⬜ | Pending |
-| 10a | ⬜ | Pending |
-| 10b | ⬜ | Pending |
-| 11 | ⬜ | Pending |
+| 9 | ✅ | Quality: A. No flags fired. PROCEED, 12 papers cert ≥0.60, zero certainty bumps. ~220 lines ch45 additions, 19 environments. Self-critical Limitations section is strongest among structural gap-fill chapters. Stale changelog data noted (19/18 env count; Cousins2026 uncited in final text). |
+| 10 | ✅ | 1 CRITICAL fixed (DecodeME GWAS status "pending"→"2025 preprint available"), 2 HIGH fixed (ch45↔ch39 bidirectional @spec:coproduction and @ch:patient-generated-knowledge cross-refs added). Changelog stale data fixed (19→18 environments, Cousins2026 removed from bib list, 17→15 Appendix H entries). Terminology consistent, no contradictions, all consequence fields present. Build PASS. |
+| 10a | ✅ | Skipped — single-chapter integration. Chapter-abstract serves as synthesis; Limitations section serves as analytical capstone. Adding a separate #synthesis would be redundant. |
+| 10b | ✅ | No framing propagation needed — synthesis is downstream/non-actionable. Abstract already mentions "epistemic classification system" and "epistemic humility" (methodological terms); ch45 adds a chapter about patient knowledge production but does not change trigger-vs-amplifier classification, genetic architecture, or clinical strategy claims that framing layers track. |
+| 11 | ✅ | Lightweight tier (single chapter, sociological). Review-typst: 3 MEDIUM + 2 LOW fixed (label casing, duplicate citation). Adversarial (3 personas): 4 CRITICAL fixed (Habermann-Horstmeier citation mismatch, REMBRANDT replaced with UK ME/CFS Biobank, DecodeME heritability reworded, NIH funding figures removed/qualified, PACE attribution corrected, You+ME date+cite fixed), 3 HIGH fixed (abstract overclaim toned down, uncited stats added source, PACE 6%→3–7%), 3 MEDIUM noted (open-questions under limitations heading, #MEAction absent, chapter ends abruptly — non-blocking for this review). Build PASS after 5 opportunistic Typst error fixes in parallel-session files (ch43, hypothesis-registry).
 | 12 | ⬜ | Pending |
 | 13 | ⬜ | Pending |
 

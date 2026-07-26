@@ -126,7 +126,7 @@ The PACE controversy produced a series of institutional reversals unprecedented 
 - *2019:* Cochrane withdrew its systematic review of exercise therapy for CFS, citing the need to apply current methodological standards; the revised review (Larun 2019) found low-certainty evidence of reduced fatigue from exercise but noted that findings may not apply to cohorts defined by PEM-requiring criteria
 - *2021:* NICE published guideline NG206, which explicitly recommends against graded exercise therapy and states that CBT should be offered as supportive therapy only — not as a curative treatment @NICE2021mecfs
 
-This pattern — a high-profile trial published in a top-tier journal, followed by independent re-analysis exposing methodological vulnerabilities, followed by institutional reversal — has made the PACE trial the single most-cited cautionary tale in ME/CFS research methodology. The episode also demonstrated the epistemic function of patient advocacy: it was patient-led FOIA requests and independent statisticians that forced data release and re-analysis, not institutional quality control.
+This pattern — a high-profile trial published in a top-tier journal, followed by independent re-analysis exposing methodological vulnerabilities, followed by institutional reversal — has made the PACE trial the single most-cited cautionary tale in ME/CFS research methodology. The episode also demonstrated the epistemic function of patient advocacy: it was patient-led FOIA requests and independent statisticians that forced data release and re-analysis, not institutional quality control. @ch:patient-generated-knowledge provides a systematic treatment of patient communities as epistemic correction mechanisms.
 
 === NICE 2021 Guideline
 

@@ -17,6 +17,8 @@ Infectious diseases capable of triggering post-infectious ME/CFS — dengue, chi
 (Certainty: 0.55 — post-dengue fatigue data are first systematic review; post-chikungunya data are single cohort; post-epidemic historical data are narrative. No study applied ME/CFS diagnostic criteria to post-arboviral cohorts.)
 
 *Consequence:* Every dengue-endemic country has an unrecognized post-dengue fatigue population. Every chikungunya outbreak zone has post-chikungunya chronic fatigue patients who will never receive an ME/CFS diagnosis. The global ME/CFS research community studies only the fraction of post-infectious fatigue cases that occur in places where ME/CFS is diagnosed — a geographic selection bias of unknown but likely enormous magnitude. Severity applicability: unknown — post-arboviral cohorts not stratified by fatigue severity.
+
+*Falsifiable prediction:* If sentinel PEM screening in one dengue-endemic country (e.g., Vietnam, n≥500 per site) finds post-dengue ME/CFS prevalence (IOM 2015 criteria) below 0.5%, the geographic co-location thesis is quantitatively wrong — post-arboviral ME/CFS is rare despite post-arboviral fatigue being common, and the hidden-burden thesis does not apply to arboviral regions. Conversely, prevalence ≥3% across ≥3 sites would support the thesis.
 ] <ach:postinfectious-burden-geographic>
 
 #speculation(title: [The LMIC Fatigue Blind Spot])[
@@ -25,6 +27,8 @@ If post-infectious ME/CFS occurs at comparable rates across all triggering infec
 (Certainty: 0.35 — single country (Iran), single centre, hospital-based sample, Fukuda criteria only. No replication from other LMIC settings. This is inference from a single data point, not systematic evidence.)
 
 *Consequence:* If the Iran data generalise, then Vietnam, India, Brazil, and Nigeria — countries with large COVID-19 and dengue burdens — each contain tens to hundreds of thousands of post-infectious ME/CFS patients who have never been counted. Severity applicability: unknown — hospital-based sample limits inference to moderate-severe COVID survivors.
+
+*Falsifiable prediction:* If sentinel PEM screening in one of the named countries (India, Nigeria, or Brazil) finds post-infectious ME/CFS prevalence (IOM 2015 criteria) below 1%, the LMIC fatigue blind spot is smaller than claimed and the Iran datapoint may represent an outlier rather than the expected pattern. Prevalence ≥5% at ≥2 sites would confirm the blind-spot thesis.
 ] <spec:lmic-fatigue-blind-spot>
 
 == Cultural Variation in Symptom Expression and Illness Labelling
@@ -37,6 +41,8 @@ Ware and Kleinman's landmark 1992 cross-cultural comparison documented that neur
 (Certainty: 0.40 — the cultural-idiom literature is conceptually rich but empirically limited: small qualitative samples, China/US focus, predating modern ME/CFS criteria. The core finding — that illness labelling is culturally moderated — is well-replicated across medical anthropology. The inference — that applying Western criteria in non-Western settings produces artefactually low prevalence — is logically sound but untested.)
 
 *Consequence:* When researchers apply Fukuda or IOM criteria in a community where fatigue is expressed as "weakness" or "brain fog" has no direct translation, they count fewer cases than exist. The global prevalence map of ME/CFS is as much a map of diagnostic-criteria portability as it is a map of disease distribution. Severity applicability: all — cultural framing affects symptom reporting across all severity levels.
+
+*Falsifiable prediction:* If a culturally adapted IOM screening instrument (cognitive-interview-validated in the target language) and a directly translated standard IOM instrument produce statistically equivalent PEM prevalence (p > 0.05, non-inferiority margin 5%) in the same community sample, cultural-idiom confounding is negligible for case ascertainment — direct translation is sufficient.
 ] <ach:neurasthenia-cultural-idiom>
 
 #open-question(title: [Cultural Idioms Beyond East Asia])[
@@ -59,6 +65,8 @@ The Bangladesh ME/CFS RCT protocol represents the first registered clinical tria
 (Certainty: 0.50 — the diagnostic-access constraint is structural and not dependent on empirical data. The Bangladesh trial protocol is published but results are pending.)
 
 *Consequence:* The global diagnostic gap is not about the absence of diagnostic criteria — it is about the absence of the diagnostic infrastructure those criteria assume. For a patient in a setting without reliable laboratory testing, an ME/CFS diagnosis cannot be made with the same certainty as in a high-income country. This does not mean the patient does not have ME/CFS. It means the criteria were not designed for their setting. Severity applicability: all — the diagnostic gap affects all severity levels, though mild cases are most likely to be missed entirely.
+
+*Falsifiable prediction:* If a simplified diagnostic protocol (history + physical exam + point-of-care hemoglobin only, omitting TSH/ferritin/CRP/ANA) achieves sensitivity ≥0.90 vs. a full-exclusion diagnostic workup in the same primary care population, the diagnostic-access constraint is surmountable by protocol adaptation. If sensitivity falls below 0.70, the diagnostic gap is structural and cannot be bridged without laboratory infrastructure.
 ] <ach:clinical-diagnosis-without-testing>
 
 == ICD Classification and Disability Recognition
@@ -71,6 +79,8 @@ In LMICs where disability insurance is weak or absent, ICD coding confers no pra
 (Certainty: 0.50 — the ICD coding structure is static; the disability-recognition gap is structural, not dataset-dependent.)
 
 *Consequence:* The WHO's ICD-11 expansion to include ME/CFS as a distinct entity was a global-level policy win. But policy wins at the global level do not translate to protection at the local level unless national disability systems adopt and operationalise the code. For most LMIC patients, ICD-11 8E49 is a label on paper that no local doctor will assign and no local disability office will recognise. Severity applicability: all — the recognition gap affects all severity levels, but the functional impact is most severe for the severely disabled, who have the greatest need for disability support.
+
+*Falsifiable prediction:* If a systematic audit of ≥10 LMIC national health information systems finds ≥3 where ICD-11 8E49 has been adopted AND appears in ≥1% of primary care encounter records AND is linked to a disability benefit pathway, the ICD-code-as-empty-vessel claim is overstated — the code has practical effect in some settings. If zero countries meet all three conditions, the empty-vessel hypothesis is supported.
 ] <ach:icd-coding-disability-gap>
 
 == Traditional Medicine Approaches: Evidence from Systematically Reviewed Interventions
@@ -83,6 +93,8 @@ A 2014 systematic review of 23 RCTs (n=1,776 total) found that TCM herbal formul
 (Certainty: 0.50 — 23 RCTs, but all low quality. The evidence supports a signal, not a conclusion. No replication by a non-Chinese research group.)
 
 *Consequence:* For a patient in a setting where TCM is the primary healthcare system — rural China, parts of Southeast Asia — the evidence is insufficient to recommend or discourage TCM herbal treatment. The patient and practitioner navigate in an evidence vacuum. Severity applicability: unknown — RCT populations not stratified by severity.
+
+*Falsifiable prediction:* If a well-powered (n≥200 per arm), multi-centre, placebo-controlled RCT of any single TCM herbal formulation finds null effect on the Chalder Fatigue Scale at 12 weeks (between-group difference under 1 point, 95% CI excluding MCID), the TCM herbal signal is likely artefactual (bias, small-study effects). If the effect persists, the signal is real but specific to the tested formulation.
 ] <spec:tcm-herbal>
 
 #speculation(title: [TCM Mind-Body Exercises: Moderate Effect, Low Risk])[
@@ -91,6 +103,8 @@ A 2023 systematic review and meta-analysis of Tai Chi, Qigong, and Baduanjin fou
 (Certainty: 0.50 — multiple RCTs pooled, moderate effect, no SAEs. But generalisability to non-Chinese populations uncertain; unblinded; moderate heterogeneity.)
 
 *Consequence:* TCM mind-body exercises are the only traditional medicine intervention with a systematic evidence base showing moderate benefit and zero harm risk. In LMIC settings where these practices are culturally accepted and accessible at low cost, they represent a rational option — not because the evidence is strong, but because the alternative (no treatment at all) is worse. Severity applicability: mild to moderate — severe and very severe patients are unlikely to tolerate exercise-based interventions; PEM risk is real and unstudied in these protocols.
+
+*Falsifiable prediction:* If a multi-centre RCT with objective outcome (actigraphy-measured daily step count, CPET VO₂ peak) finds no between-group difference at 12 weeks for Tai Chi/Qigong vs. attention control (matched for social contact and time), the mind-body exercise effect is non-specific and attributable to attention, expectation, or regression to the mean.
 ] <spec:tcm-mind-body>
 
 #speculation(title: [Acupuncture and Moxibustion: Widely Available, Moderately Supported])[
@@ -99,6 +113,8 @@ A 2017 network meta-analysis of 31 RCTs found small-to-moderate effect of acupun
 (Certainty: 0.50 — 31 RCTs, but high risk of bias from inadequate blinding; network meta-analysis supports ranking but not effect-size precision.)
 
 *Consequence:* Acupuncture is the most geographically widespread traditional medicine intervention with an evidence base. For a patient in a setting with no access to ME/CFS-aware medical care, acupuncture may represent the only clinical contact that acknowledges their symptoms as real and treatable. The evidence does not support acupuncture as a disease-modifying therapy — but it does support it as a symptom-management option with low risk. Severity applicability: mild to moderate — needling may be poorly tolerated in very severe patients with allodynia/hyperalgesia.
+
+*Falsifiable prediction:* If a sham-controlled RCT with adequate blinding verification (participant guess ≈50% accuracy for group assignment) and non-penetrating sham needles finds no difference between verum and sham acupuncture on fatigue VAS at 8 weeks (between-group difference under 5mm, 95% CI excluding MCID), the acupuncture effect is non-specific — attributable to needle insertion, practitioner interaction, or expectation rather than acupoint-specific mechanisms.
 ] <spec:acupuncture-moxibustion>
 
 #limitation(title: [Traditional Medicine Evidence is Fractional and Culturally Bounded])[
@@ -115,6 +131,8 @@ Arron et al. (2024) argue that ME/CFS satisfies criteria for a neglected disease
 (Certainty: 0.55 — the neglected-disease argument is structural. The disease-burden data are from scoping review (Vester 2026). The LMIC evidence gap is documented by its absence — zero non-high-income-country burden estimates in the largest available scoping review.)
 
 *Consequence:* If ME/CFS is a neglected disease, the research agenda should follow the neglected-disease model: fund surveillance studies in LMIC settings, develop culturally adapted diagnostic tools, and build research capacity in the countries with the highest infectious-disease burden. Current global ME/CFS research funding flows almost exclusively to high-income countries. Severity applicability: all — neglect affects all severity levels.
+
+*Falsifiable prediction:* If formal application of the WHO neglected disease criteria framework finds ME/CFS fails ≥2 of 5 core criteria (no disease-modifying treatment exists; no unique epidemiological feature distinguishing it from other chronic conditions; no mass-drug-administration delivery model possible; concentrated in populations with identifiable shared environmental risk; already adequately funded relative to burden), the neglected-disease framing is invalid as a policy instrument — ME/CFS is neglected in the colloquial sense but does not meet the formal NTD criteria that unlock specific funding and advocacy mechanisms.
 ] <ach:neglected-disease-framing>
 
 #open-question(title: [What Would a Global ME/CFS Surveillance System Look Like?])[
@@ -163,6 +181,8 @@ ME/CFS is coded as G93.3 in ICD-10 and 8E49 in ICD-11 — the WHO's classificati
 (Origin: brainstorm. Certainty: 0.40 — implementation-gap argument is structural, drawing on well-documented patterns in global-health policy. No study has audited ICD-11 8E49 adoption rates by country. The "empty vessel" framing is a hypothesis, not an established finding.)
 
 *Consequence:* Getting ME/CFS into ICD-11 was a victory. But if no one in the countries with the most patients can use the code, the victory is a monument, not a functioning door. Severity applicability: all — the implementation gap affects all severity levels, though the severely disabled have the most to lose from a non-functional diagnostic label.
+
+*Falsifiable prediction:* If a systematic audit of ≥10 LMIC national health systems finds ≥3 where ICD-11 8E49 has been adopted into the national health information system AND appears in ≥1% of primary care encounter records, the empty-vessel hypothesis is refuted. If zero countries meet these conditions 5 years post-ICD-11 adoption, the hypothesis is supported.
 ] <spec:icd11-empty-vessel>
 
 == Research Directions: Closing the Global Evidence Gap
@@ -173,6 +193,8 @@ The single highest-value, lowest-cost research action to test the hidden-burden 
 (Origin: brainstorm. Certainty: 0.40 — epidemiological feasibility. Cohorts exist; module is minimal and low-cost; PEM screening in translated instruments is methodologically challenging — cultural equivalence of "exertion" and "worsening" not established for all settings.)
 
 *Consequence:* For USD 300K, we could answer whether millions of dengue survivors in Asia and Latin America have unrecognised ME/CFS. The fact this study has not been done is the research-equivalent of the diagnostic gap this chapter describes. Severity applicability: all — screening across severity levels depends on follow-up visit accessibility.
+
+*Falsifiable prediction:* If 5-site sentinel PEM screening in post-dengue cohorts (n≥500 per site) finds PEM prevalence below 1% across all sites (upper bound of 95% CI under 3%), the hidden-burden thesis is refuted for dengue-triggered ME/CFS. If prevalence is ≥5% at ≥3 sites, the thesis is strongly supported and the chapter's central claim shifts from hypothesis to finding.
 ] <spec:sentinel-pem-surveillance>
 
 #open-question(title: [Culturally Adapted PEM Screening Tools])[
