@@ -4217,6 +4217,28 @@ This registry collects all hypotheses, speculations, open questions, and predict
 
 )
 
+= Entries added 2026-07-26d: History of ME/CFS — Phase 5
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [fhyp:psychosomatic-lag], [When an illness cluster appears with consistent clinical phenotype, negative standard laboratory tests, female predominance, and absence of mortality, the default medical response is psychosomatic attribution. Documented across >5 diseases: ME/CFS (45 years McEvedy→IOM), MS (>100 years Charcot→MRI), fibromyalgia (~20 years), Gulf War Illness (19 years), Long COVID (~18 months). Compression trend observable. Mechanism: medicine's evidentiary hierarchy privileges positive lab findings over clinical phenomenology. Predicts next unexplained cluster will follow same trajectory within 10 years. Origin: brainstorm.],[Phase 5 / 0.65],
+
+  [oq:institutional-incentives-over-evidence], [McEvedy 1970 mass hysteria hypothesis was empirically weak but dominated clinical teaching for 40 years — was this driven by evidence quality or institutional incentives (reduced disability claims, psychiatric department jurisdictional expansion, confirmation bias under McEvedy's logic)? Falsifiable via analysis of disability claim denial rates, psychiatric department funding, and guideline change timing across diseases. If evidence quality is primary driver, the hypothesis is disproven. Origin: brainstorm — null hypothesis assessment.],[Phase 5 / 0.70],
+
+  [lim:retrospective-outbreak-diagnosis], [Pre-1988 outbreak reports (Gilliam 1938, Royal Free 1957, Acheson 1959) cannot be validated against modern diagnostic criteria — no archival samples exist. Retrospective diagnostic assignment is inductive. Alternative: multiple distinct post-infectious syndromes with similar clinical description. Origin: brainstorm — evidence quality.],[Phase 5 / 0.55],
+
+  [lim:evidence-quality-outbreak-sources], [Foundational ME/CFS documents are non-peer-reviewed field investigation reports and case series, not modern peer-reviewed studies. DecodeME 2025 is a preprint. Core institutional events (IOM 2015, NICE 2021) are higher-certainty. Origin: brainstorm — evidence quality.],[Phase 5 / n/a],
+
+  [lim:narrative-arc-confirmation-bias], [Chapter's psychosomatic-to-biological arc is one defensible reading, not the only reading. A skeptic could organize the same events differently: provisional psychiatric explanation → continued negative biological investigation → patient advocacy pressured institutions → guidelines reversed → tentative biological signals. Transparency about interpretive choice. Origin: brainstorm — evidence quality.],[Phase 5 / n/a],
+
+  [lim:asymmetrical-methodological-scrutiny], [Chapter applies detailed criticism to PACE trial (n=641, Lancet) but less scrutiny to biological evidence: Walitt 2024 (n=17, small), DecodeME 2025 (preprint). Asymmetry defensible because PACE shaped clinical guidelines affecting hundreds of thousands, but should be acknowledged. Origin: brainstorm — evidence quality.],[Phase 5 / n/a],
+
+  [lim:history-not-therapeutic], [Historical knowledge does not reduce PEM, improve sleep, or restore function. Chapter value is epistemic (understanding how medicine arrived here) and strategic (recognizing patterns), not therapeutic. Inclusion justified by document scope, not immediate patient benefit. Origin: brainstorm — self-critique.],[Phase 5 / n/a],
+
+)
+
 
 
 

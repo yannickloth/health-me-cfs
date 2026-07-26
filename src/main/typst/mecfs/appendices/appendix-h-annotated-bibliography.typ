@@ -3704,6 +3704,69 @@ tVNS represents a potential non-pharmacological, home-based intervention for aut
 <sec:bib-history>
 // =============================================================================
 
+=== Gilliam 1938 — Los Angeles County Hospital Outbreak (First ME/CFS Epidemic)
+
+    *Full Citation:*: Gilliam AG. Epidemiological Study of an Epidemic, Diagnosed as Poliomyelitis, Occurring among the Personnel of the Los Angeles County General Hospital during the Summer of 1934. _USPHS Public Health Bulletin_. 1938;(240).
+    *Significance:*: First documented ME/CFS outbreak. 198 staff affected with poliomyelitis-like symptoms but negative polio testing. Female predominance, prolonged convalescence (weeks to months), neurological involvement. Described as "atypical poliomyelitis." Landmark primary source establishing the outbreak pattern.
+    *Certainty Score:* 0.40 (primary source; historical value high; small by modern standards; USPHS bulletin)
+
+=== Acheson 1959 — Synthesis of 14 ME Epidemics
+
+    *Full Citation:*: Acheson ED. The Clinical Syndrome Variously Called Benign Myalgic Encephalomyelitis, Iceland Disease and Epidemic Neuromyasthenia. _American Journal of Medicine_. 1959;26(4):569–595.
+    *DOI:*: #link("https://doi.org/10.1016/0002-9343(59)90280-3")[10.1016/0002-9343(59)90280-3]
+    *PMID:*: 13637100
+    *Key Findings:*:
+        - Synthesised 14 epidemics worldwide (1934--1958): Los Angeles 1934, Akureyri 1948-49, Adelaide 1949, New York State 1950, Middlesex 1952, Coventry 1953, Rockville 1953, Royal Free 1955, Durban 1955, Segbwema 1956, Punta Gorda 1956, Gilfac 1956, Northwest London 1957, Athens 1958
+        - Coined "benign myalgic encephalomyelitis"
+        - All outbreaks showed female predominance, prolonged recovery, neurological involvement, negative polio testing
+    *Certainty Score:* 0.55
+
+=== Sigurdsson et al.\ 1950 — Akureyri Disease
+
+    *Full Citation:*: Sigurdsson B, Sigurjónsson J, Sigurdsson JH, Thorkelsson J, Gudmundsson KR. A Disease Epidemic in Iceland Simulating Poliomyelitis. _American Journal of Hygiene_. 1950;52(2):222–238.
+    *DOI:*: #link("https://doi.org/10.1093/oxfordjournals.aje.a119549")[10.1093/oxfordjournals.aje.a119549]
+    *Significance:*: Original description of the 1948-49 Akureyri outbreak affecting 1,106 people. Coined "Iceland disease." Detailed epidemiological description of post-epidemic cluster with neurologic symptoms + profound fatigue.
+
+=== Royal Free Hospital Medical Staff 1957 — London Epidemic
+
+    *Full Citation:*: Medical Staff of the Royal Free Hospital. An Outbreak of Encephalomyelitis in the Royal Free Hospital Group, London, in 1955. _British Medical Journal_. 1957;2(5050):895–904.
+    *DOI:*: #link("https://doi.org/10.1136/bmj.2.5050.895")[10.1136/bmj.2.5050.895]
+    *PMCID:*: PMC1962472
+    *Key Findings:*: Primary source hospital report. 292 staff affected over 4 months. Severe muscle pain, paresis, sensory disturbances, emotional lability, prolonged convalescence. Origin of the term "myalgic encephalomyelitis."
+
+=== McEvedy & Beard 1970 — Royal Free Mass Hysteria Hypothesis
+
+    *Full Citation:*: McEvedy CP, Beard AW. Royal Free Epidemic of 1955: A Reconsideration. _British Medical Journal_. 1970;1(5687):7–11.
+    *DOI:*: #link("https://doi.org/10.1136/bmj.1.5687.7")[10.1136/bmj.1.5687.7]
+    *PMID:*: 5411596
+    *Key Findings:*: Proposed that Royal Free outbreak was "epidemic hysteria." Argument based on female predominance, absence of mortality, negative lab findings. Subsequently refuted but established psychosomatic framing for decades.
+    *Certainty Score:* 0.25
+
+=== Ramsay 1986 — Royal Free Disease Rebuttal
+
+    *Full Citation:*: Ramsay AM. _Myalgic Encephalomyelitis and Postviral Fatigue States: The Saga of Royal Free Disease_. 2nd ed. London: Gower Medical Publishing; 1986.
+    *ISBN:*: 0906923999
+    *Key Findings:*: Definitive rebuttal of McEvedy's hysteria hypothesis. Author was physician at Royal Free during 1955 outbreak. Long-term follow-up showed organic sequelae.
+
+=== Clayton 2015 — IOM Report Summary
+
+    *Full Citation:*: Clayton EW. Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: An IOM Report on Redefining an Illness. _JAMA_. 2015;313(11):1101–1102.
+    *DOI:*: #link("https://doi.org/10.1001/jama.2015.1346")[10.1001/jama.2015.1346]
+    *PMID:*: 25668027
+    *Key Findings:*:
+        - Summary of IOM 2015 report by committee chair
+        - Reaffirms ME/CFS as biological, not psychological
+        - Proposes SEID diagnostic criteria
+        - Estimates 836,000--2.5 million Americans affected; economic cost \$17--24 billion annually
+    *Certainty Score:* 0.80
+
+=== Komaroff 2015 — Biological Illness Recognition
+
+    *Full Citation:*: Komaroff AL. Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: A Real Illness. _Annals of Internal Medicine_. 2015;162(12):871–872.
+    *DOI:*: #link("https://doi.org/10.7326/M15-0647")[10.7326/M15-0647]
+    *PMID:*: 26075755
+    *Key Findings:*: Editorial declaring ME/CFS is "clearly a biological illness, not a psychosomatic disorder." Reviews immune dysfunction, impaired NK function, neuroendocrine abnormalities, brain imaging findings, metabolic changes. Marks institutional shift.
+
     *Full Citation:*: Underhill RA. Myalgic encephalomyelitis, chronic fatigue syndrome: An infectious disease. _Medical Hypotheses_. 2015;85(6):765–773.
     *DOI:*: #link("https://doi.org/10.1016/j.mehy.2015.10.011")[10.1016/j.mehy.2015.10.011]
     *Topics:*: Historical outbreaks from 1934 onwards.
