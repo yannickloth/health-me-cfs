@@ -6,7 +6,10 @@
 Diagnostic criteria for ME/CFS have evolved substantially, with increasing recognition of post-exertional malaise as the cardinal feature.
 
 *Holmes/CDC Criteria (1988).*
-The first formalized definition required new-onset debilitating fatigue lasting at least six months that was not resolved by bed rest and reduced activity by at least 50%, plus 6 of 11 symptom criteria and 2 of 3 physical criteria, or 8 of 11 symptom criteria @Holmes1988. This established the six-month duration threshold still used today.
+The first formalized definition required new-onset debilitating fatigue lasting at least six months that was not resolved by bed rest and reduced activity by at least 50%, plus 6 of 11 symptom criteria and 2 of 3 physical criteria, or 8 of 11 symptom criteria @Holmes1988. This established the six-month duration threshold still used today and formally introduced the name "chronic fatigue syndrome" in CDC nomenclature. The criteria did not require post-exertional malaise as a defining feature, and the 11-symptom checklist captured heterogeneous populations.
+
+*Oxford Criteria (1991).*
+The UK responded with the Oxford criteria, the broadest case definition ever proposed for CFS/ME @Sharpe1991oxford. Requiring only fatigue as the principal symptom with definite onset plus functional impairment, the Oxford criteria explicitly allowed inclusion of patients with concurrent psychiatric diagnoses and did not require PEM, pain, or neurological symptoms. These criteria later became central to the PACE trial controversy: by casting the widest possible net, they permitted inclusion of patients whose primary problem may have been depression or deconditioning rather than ME/CFS.
 
 *Fukuda Criteria (1994).*
 Developed by the International Chronic Fatigue Syndrome Study Group, these criteria required six or more months of chronic fatigue of new or definite onset, not substantially alleviated by rest, causing substantial reduction in activities, plus four of eight specific symptoms: unrefreshing sleep, post-exertional malaise, myalgia, arthralgia, new headaches, sore throat, tender lymphadenopathy, and impaired memory or concentration @Fukuda1994. The Fukuda criteria became the most widely used research standard for two decades, though they were limited by not requiring PEM.

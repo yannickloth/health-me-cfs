@@ -33,7 +33,7 @@ The Royal Free epidemic gave the disease its enduring name: "myalgic encephalomy
 
 E.D. Acheson published a landmark 1959 review that synthesized all 14 known epidemics worldwide into a single clinical entity @Acheson1959BME. Acheson coined "benign myalgic encephalomyelitis" — "benign" intended to distinguish it from poliomyelitis (which killed or paralyzed), though the word would later be recognized as deeply misleading given the life-altering disability ME produces. Ramsay, who had personally examined Royal Free patients during the 1955 outbreak, later published long-term follow-up documentation that validated Acheson's synthesis. The 1959 synthesis established ME as a recognizable, recurring clinical syndrome with a consistent phenotype across continents and decades.
 
-== The Psychosomatic Era (1970–1983)
+== The Psychosomatic Era (circa 1969–1983)
 
 === The McEvedy Hypothesis
 
@@ -77,7 +77,7 @@ Responding to criticism that the Holmes criteria were too broad, the CDC revised
 
 The Fukuda criteria became the most widely used research definition for the next two decades and were a genuine improvement — they introduced a six-month minimum duration and a structured symptom checklist. But PEM remained optional (one of eight items, only four required), and the criteria still captured a population roughly 2.5 times larger than the more specific Canadian Consensus Criteria, as Brurberg and colleagues demonstrated in their systematic review of 20 case definitions @Brurberg2014. This heterogeneity — different studies selecting different populations under the same diagnostic label — became the single biggest confound in ME/CFS research.
 
-== The Biological Turn (2003–2014)
+== The Biological Turn (2003–2015)
 
 === The Canadian Consensus Criteria (2003)
 
@@ -132,7 +132,11 @@ This pattern — a high-profile trial published in a top-tier journal, followed 
 
 The NICE 2021 guideline (NG206) represented a methodological and clinical departure from previous UK guidance @NICE2021mecfs. Using GRADE methodology, NICE reviewed the entire evidence base and concluded that graded exercise therapy should not be offered, that CBT should only be offered as supportive therapy, and that energy management (pacing) is the appropriate self-management strategy. The guideline established four core symptoms required for diagnosis: debilitating fatigue, PEM, unrefreshing sleep, and cognitive difficulties. The three-month minimum duration was shorter than the Fukuda six-month requirement, reflecting concern that delayed diagnosis causes harm.
 
-== The Molecular Era (2024–2025)
+== The Molecular Era (2020–2025)
+
+=== The COVID-19 Catalyst (2020–2025)
+
+The COVID-19 pandemic paradoxically accelerated ME/CFS research. Long COVID — the persistent illness affecting 10–30% of SARS-CoV-2 survivors — produced symptoms overlapping substantially with ME/CFS: post-exertional malaise, cognitive dysfunction, unrefreshing sleep, orthostatic intolerance, and immune dysregulation. Recent studies estimate that up to 51% of long COVID patients meet ME/CFS diagnostic criteria @RECOVER2025. This convergence brought unprecedented attention and funding to post-infectious illness research, creating shared research infrastructure (RECOVER, PHOSP-COVID included ME/CFS comparison groups) and accelerating biomarker discovery applicable to both conditions — including markers of immune exhaustion, microclotting, and mitochondrial dysfunction. The visibility of long COVID reduced stigma around ME/CFS and validated decades of patient advocacy. The connection between long COVID and ME/CFS positioned ME/CFS as the prototypical post-acute infection syndrome.
 
 === The NIH Deep Phenotyping Study (2024)
 
@@ -164,7 +168,7 @@ The history of ME/CFS is recorded in its changing names, each reflecting the dom
     [*Period*], [*Name*], [*Framing*],
     [1934], [atypical poliomyelitis], [neurological — modeled on known virus],
     [1948], [Iceland disease / Akureyri disease], [geographical — local phenomenon],
-    [1955], [benign myalgic encephalomyelitis], [neurological — inflammatory descriptor],
+    [1955], [myalgic encephalomyelitis], [neurological — introduced in Royal Free BMJ report],
     [1959], [benign myalgic encephalomyelitis], [neurological — synthesized by Acheson],
     [1970], [mass hysteria (McEvedy)], [psychiatric — outbreak reinterpreted],
     [1988], [chronic fatigue syndrome], [somatization — "fatigue" replaces neurological framing],

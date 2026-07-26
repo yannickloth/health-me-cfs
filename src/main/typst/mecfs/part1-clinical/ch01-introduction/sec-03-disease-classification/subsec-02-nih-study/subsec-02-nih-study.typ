@@ -3,7 +3,7 @@
 === The 2024 NIH Deep Phenotyping Study
 <subsec:nih-study>
 
-The landmark study led by Dr.\ Avindra Nath (Walitt et al., 2024) used "deep phenotyping"—the most rigorous biological testing ever performed on ME/CFS patients—to demonstrate that the condition is a *systemic biological disease*, not a psychological syndrome or vague collection of complaints.
+The landmark NIH intramural study (Walitt et al., 2024), led by Dr.\ Avindra Nath, used "deep phenotyping"—the most rigorous biological testing ever performed on ME/CFS patients—to demonstrate that the condition is a *systemic biological disease*, not a psychological syndrome or vague collection of complaints @walitt2024deep. Standard clinical laboratory panels remained normal — validating what every outbreak from 1934 to 1985 had reported @ch:history-of-mecfs. The study's interpretive framing around "effort preference" proved controversial (see @subsec:effort-preference).
 
 *Key Findings.*
 
