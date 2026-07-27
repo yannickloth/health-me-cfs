@@ -48,6 +48,9 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| pharmacodiagnostic-matrix | [subtrees/pharmacodiagnostic-matrix.md](subtrees/pharmacodiagnostic-matrix.md) | 2026-07-25 | 16 | 4 | ✅ done |
+| negative-control-class | [subtrees/negative-control-class.md](subtrees/negative-control-class.md) | 2026-07-27 | 20 | 0 | ⬜ pending |
+| trpv1-temperature-autonomic-stress-test | [subtrees/trpv1-temperature-autonomic-stress-test.md](subtrees/trpv1-temperature-autonomic-stress-test.md) | 2026-07-27         | 16         | 4          | 🔵 in progress |
 | coq10-infection-depletion | [subtrees/coq10-infection-depletion.md](subtrees/coq10-infection-depletion.md) | 2026-07-17 | 44 | 4 | ✅ done |
 | iron-redox-polarity | [subtrees/iron-redox-polarity.md](subtrees/iron-redox-polarity.md) | 2026-07-26 | 19 | 0 | 🔵 in progress |
 | tick-borne-symptom-domains | [subtrees/tick-borne-symptom-domains.md](subtrees/tick-borne-symptom-domains.md) | 2026-07-16 | 44 | 6 | ✅ done |

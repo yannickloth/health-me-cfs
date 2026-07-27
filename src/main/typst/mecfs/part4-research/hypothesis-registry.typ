@@ -2375,6 +2375,34 @@ This registry collects all hypotheses, speculations, open questions, and predict
   limitation: [Small uncontrolled pilots only. Heat intolerance may make most patients ineligible. HSAT2 risk in susceptible patients uncharacterized. Core temperature of 39°C may be too high for severe ME/CFS. Optimal parameters unknown.],
 )
 
+#registry-entry(
+  [Pharmacodiagnostic Negative-Control Class — Hypothesis Falsification by Drug Failure],
+  type: "S",
+  certainty: "0.25",
+  evidence: [Fluge 2019 Phase III RCT (n=151, @Fluge2019RituxMENegativePhase3) found rituximab no better than placebo — a null result that constrains the B-cell-dependent GPCR-AAb hypothesis. Immunoadsorption response heterogeneity (@Tölle2020RepeatImmunoadsorption, @Stein2025IAPostCOVID) reveals negative-control boundary: IA removes only circulating IgG1/IgG2/IgG4, not tissue-bound IgG, IgG3, or IgA/IgM. The formal negative-control class concept does not exist in any published biomedical literature — this is a novel contribution.],
+  citations: [@Fluge2019RituxMENegativePhase3 @Tölle2020RepeatImmunoadsorption @Stein2025IAPostCOVID @Scheibenbogen2018Immunoadsorption @Fluge2011RituximabPhase2],
+  mechanism: [A medication is a negative-control for a hypothesis when the hypothesis predicts the drug must work (specific, directional, cascade-intercepted node), the drug's mechanism is narrow, and the null result is obtained under adequate parameters. Under these conditions, a null result falsifies the hypothesis at the mechanism level, not just eliminates it for one patient. Class I (source-level, e.g., rituximab → CD20+ B cells) carries higher evidentiary weight than Class II (pathway-level, e.g., IA → circulating IgG only). The negative-control ladder optimizes trial sequencing for population-level mechanism falsification, complementing the null ladder's patient-level hypothesis elimination.],
+  chapter-ref: [ch33:@sec:negative-control-class; ch33:@spec:negative-control-principle; ch33:@spec:negative-control-taxonomy; ch33:@spec:negative-control-ladder; ch33:@spec:negative-control-decision-heuristic; ch33:@lim:negative-control-asymmetric-evidence],
+  prediction: [Retrospective audit of existing ME/CFS drug trial results: classify each negative result by the decision heuristic (5-condition checklist) → estimate the proportion of published nulls that qualify as genuine negative-control results vs. underdetermined failures. Falsified if negative-control classification produces zero convergent constraint patterns across independently studied drug—mechanism pairs.],
+  treatment: [The framework reframes treatment failures as diagnostic data — not therapeutic recommendations. Negative-control classification informs which drug trials are most informative for mechanism-level inference, and which nulls should be treated as evidence against a mechanism vs. evidence of inadequate trial parameters.],
+  limitation: [Novel conceptual framework. No validation against a known-false mechanism (impossible to obtain — no ethics committee would approve a trial targeting a known-false mechanism, and no patient would volunteer). Inference chain from null response to hypothesis falsification adds uncertainty scaled by drug specificity, compartment coverage, and alternative-explanation count. Classification is human-judgment-driven, not algorithmic — the 5-condition heuristic requires pharmacological and clinical knowledge to apply correctly.],
+)
+
+= Entries added 2026-07-27: TRPV1-Thermal-Autonomic Stress Test
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [oq:trpv1-thermal-autonomic-stress-test], [Post-thermal autonomic recovery time (T90 — time to 90% baseline HR after standardized sauna or cold-water challenge) may serve as at-home autonomic stress test for ME/CFS. TRPV1 sensory neurons → sympathetic outflow → HR/BP response; parasympathetic reactivation during recovery reflects autonomic integrity. Nelson 2021 (n=16 ME/CFS): HRR impaired post-exercise (HRR ≤34.5 bpm discriminatory, ROC AUC 74.8%). Ruijgt 2026 (n=121 LC): wearable HRV suppressed 24h post-exercise, predicts PEM threshold. De Becker 1998: cold pressor reveals sympathetic overactivity in CFS. Thermal challenge avoids exercise confounds (muscle damage, metabolites). Testable at home with pulse oximeter + thermometer. Chapter @sec:trpv1-thermal-autonomic-stress-test. Origin: brainstorm — cross-domain synthesis.],[Phase 3 / 0.25],
+
+  [spec:cold-pressor-recovery-convergence], [De Becker 1998 cold pressor study (n=21 CFS, foot immersion 4°C × 90s) measured acute HR/BP response but NOT recovery kinetics. Hypothesis: recovery slope (time from challenge end to 90% baseline HR) is the discriminating parameter, not acute response magnitude. Existing datasets (De Becker 1998, Wyller 2007 — thermoregulatory hand cooling, n=15 adolescent CFS) could be re-analyzed for recovery kinetics. If recovery time is prolonged irrespective of acute response → autonomic recovery deficit is independent of provocation magnitude. Chapter @spec:cold-pressor-recovery-convergence. Origin: brainstorm.],[Phase 3 / 0.20],
+
+  [spec:thermal-recovery-pem-threshold], [Post-thermal autonomic recovery time (T90) may correlate with PEM threshold measured by next-day actigraphy (r ≥ 0.4, n ≥ 40). Ruijgt 2026 (LC) established HRV→PEM correlation. Thermal challenge as calibrated, repeatable, non-exercise stressor — no muscle damage, controllable dose, home-achievable. Mancini 2026 null on 2-day CPET (n=58 — no Day 1→Day 2 VO2 decline) motivates alternative PEM threshold tests. Competing mechanism: Williams 1996 circadian thermoregulatory decoupling — if circadian phase explains >50% of T90 variance, autonomic specificity is low. Chapter @spec:thermal-recovery-pem-threshold. Origin: brainstorm — cross-domain synthesis.],[Phase 3 / 0.25],
+
+  [spec:hrr-thermal-extension], [Post-exercise HRR impairment documented in ME/CFS (Nelson 2021, n=16). If the recovery deficit reflects parasympathetic infrastructure damage rather than exercise-specific mechanisms, post-thermal HRR should mirror post-exercise HRR (within-subject r ≥ 0.5). Distinguishes general autonomic deficit from muscle-damage-driven recovery delay. Chapter @spec:hrr-thermal-extension. Origin: brainstorm.],[Phase 3 / 0.25],
+)
+
 
 === Exercise Modality and Physical Activity
 

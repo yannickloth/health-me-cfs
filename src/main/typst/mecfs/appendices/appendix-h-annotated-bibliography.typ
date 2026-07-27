@@ -30963,3 +30963,208 @@ sec-bib-rf-elevated-mecfs-duplicate
     / *Conclusion:*: Trigger-based ME/CFS subgroups may have different herpesvirus profiles, suggesting heterogeneity that could mask HSV-specific signals in pooled analyses.
     / *Limitations:*: Re-analysis; arbitrary seropositivity cutoff sensitivity; multiple testing burden limits confidence.
     / *Certainty:*: 0.55
+
+== Pulsed Therapy and Tachyphylaxis Mechanisms in Chronic Illness Pharmacology
+<sec:bib-pulsed-therapy>
+
+// =============================================================================
+
+=== Sun et al.\ 2018 — Swinging Seesaw Model of Time-Dependent Hormesis
+
+    / *Full Citation:*: Sun H, Calabrese EJ, Zheng M, Wang D, Pan Y, Lin Z, Liu Y. A swinging seesaw as a novel model mechanism for time-dependent hormesis under dose-dependent stimulatory and inhibitory effects: A case study on the toxicity of antibacterial chemicals to Aliivibrio fischeri. _Chemosphere_. 2018;205:15--23. @Sun2018SeesawHormesis
+    / *DOI:*: #link("https://doi.org/10.1016/j.chemosphere.2018.04.043")[10.1016/j.chemosphere.2018.04.043]
+    / *PMID:*: 29679784
+    / *Study Design:*: Dose-time-response in vitro study with mechanistic modeling
+    / *Key Findings:*:
+        - Proposes a "swinging seesaw" model for time-dependent hormesis
+        - Stimulatory and inhibitory effects integrate across dose AND time simultaneously
+        - Low-dose stimulation appearing at one timepoint may be absent or reversed at another
+        - Model validated across 5 antibacterial chemicals on bioluminescence
+    / *Conclusion:*: The hormetic dose-response is a 3D volume (dose × time × response), not a 2D curve. Failing to account for time collapses the therapeutic window into a potentially misleading static curve. Central theoretical pillar for time-dependent dosing schedules.
+    / *Limitations:*: In vitro bacterial model; single organism system; no human or mammalian data.
+    / *Certainty:*: 0.75
+
+=== Mushak 2016 — Temporal Stability of Chemical Hormesis
+
+    / *Full Citation:*: Mushak P. Temporal stability of chemical hormesis (CH): Is CH just a temporary stop on the road to thresholds and toxic responses? _Science of the Total Environment_. 2016;569–570:1446--1456. @Mushak2016TemporalHormesis
+    / *DOI:*: #link("https://doi.org/10.1016/j.scitotenv.2016.06.233")[10.1016/j.scitotenv.2016.06.233]
+    / *PMID:*: 27396315
+    / *Study Design:*: Critical review
+    / *Key Findings:*:
+        - Many hormetic responses are transitory — appearing at one exposure duration, disappearing with continued exposure
+        - Temporal stability of hormesis is under-studied and often assumed rather than demonstrated
+        - Persistent hormesis documented in some specialized cases; transitory in most
+        - Raises fundamental question: is hormesis a stable phenomenon or a temporary adaptive response that fades?
+    / *Conclusion:*: If hormesis is transient, continuous drug delivery is inherently self-limiting — the benefit fades. Implies pulsed dosing may be necessary to maintain hormetic benefit over chronic treatment duration. Key theoretical justification for intermittent over continuous dosing.
+    / *Limitations:*: Focused on environmental toxicology; limited clinical pharmacology data.
+    / *Certainty:*: 0.65
+
+=== Calabrese 2016 — Preconditioning as Hormesis: Temporal and Mechanistic Frameworks
+
+    / *Full Citation:*: Calabrese EJ. Preconditioning is hormesis part II: How the conditioning dose mediates protection: Dose optimization within temporal and mechanistic frameworks. _Pharmacological Research_. 2016;110:265--275. @Calabrese2016PreconditioningHormesis
+    / *DOI:*: #link("https://doi.org/10.1016/j.phrs.2015.12.020")[10.1016/j.phrs.2015.12.020]
+    / *PMID:*: 26748033
+    / *Study Design:*: Systematic review with mechanistic verification
+    / *Key Findings:*:
+        - The conditioning dose producing maximal mechanism activation was the same dose providing optimal protection against the challenge dose
+        - Receptor antagonists/inhibitors blocking the conditioning response abolished subsequent protection
+        - Conditioning responses displayed hormetic dose-response curves
+        - Temporal optimization is essential: the conditioning dose must precede the challenge dose with correct timing
+    / *Conclusion:*: Preconditioning-induced protection is directly mediated by hormetic mechanisms with defined temporal profiles. This directly translates to clinical dosing: drug doses must be timed so the hormetic preconditioning window is active when pathology is active. Temporal optimization is as important as dose optimization.
+    / *Limitations:*: Review of experimental literature; no clinical trials.
+    / *Certainty:*: 0.75
+
+=== Costa-Neto & Parreiras-E-Silva 2025 — GPCR Tachyphylaxis: Role of Ligand Residence Time
+
+    / *Full Citation:*: Costa-Neto CM, Parreiras-E-Silva LT. Deciphering complexity of GPCR signaling and modulation: Implications and perspectives for drug discovery. _Clinical Science_. 2025;139(10):463--477. @CostaNeto2025GPCRTachyphylaxis
+    / *DOI:*: #link("https://doi.org/10.1042/CS20245182")[10.1042/CS20245182]
+    / *PMID:*: 40400289
+    / *PMCID:*: PMC12204005
+    / *Study Design:*: Comprehensive review of GPCR signaling complexity
+    / *Key Findings:*:
+        - GPCR tachyphylaxis is governed primarily by ligand dissociation rate (k_off) — high residence time — rather than β-arrestin desensitization alone
+        - Internalized receptors remain active when bound to high-residence-time ligands, favoring sustained endosomal signaling
+        - Shorter receptor residence times (intermittent/pulsed delivery) may avoid tachyphylaxis
+        - Reviews biased agonism, dual agonism, and non-canonical G protein signaling as strategies to modulate tachyphylaxis
+    / *Conclusion:*: For drugs with high receptor residence time (beta-blockers, H1 antihistamines, LDN), tachyphylaxis may develop via sustained endosomal signaling. Pulsed/intermittent dosing could prevent this by allowing receptor recycling to the surface in a resensitized state. Ligand residence time is a druggable parameter for tachyphylaxis prevention.
+    / *Limitations:*: Review; no new empirical data.
+    / *Certainty:*: 0.70
+
+=== Gupta et al.\ 2018 — GPCR Resensitization Paradigms
+
+    / *Full Citation:*: Gupta MK, Mohan ML, Naga Prasad SV. G protein-coupled receptor resensitization paradigms. _International Review of Cell and Molecular Biology_. 2018;339:63--91. @Gupta2018GPCRResensitization
+    / *DOI:*: #link("https://doi.org/10.1016/bs.ircmb.2018.03.002")[10.1016/bs.ircmb.2018.03.002]
+    / *PMID:*: 29776605
+    / *Study Design:*: Comprehensive review
+    / *Key Findings:*:
+        - GPCR function requires coordinated activation → desensitization → resensitization cycling
+        - Desensitized GPCRs internalize into endosomes where protein phosphatases dephosphorylate them
+        - Resensitized (dephosphorylated) receptors recycle to the membrane as naive receptors
+        - The resensitization cycle is exquisitely regulated and has been under-studied vs activation/desensitization
+    / *Conclusion:*: Receptor resensitization requires a drug-free interval — the time needed for the internalize → dephosphorylate → recycle → return cycle. Continuous dosing fills this interval, preventing the resensitization that would otherwise occur. Provides molecular rationale for drug holidays.
+    / *Limitations:*: Review; no clinical data.
+    / *Certainty:*: 0.70
+
+=== Kliewer et al.\ 2017 — GPCR Dephosphorylation and Resensitization Kinetics
+
+    / *Full Citation:*: Kliewer A, Reinscheid RK, Schulz S. Emerging paradigms of G protein-coupled receptor dephosphorylation. _Trends in Pharmacological Sciences_. 2017;38(7):621--636. @Kliewer2017GPCRDephosph
+    / *DOI:*: #link("https://doi.org/10.1016/j.tips.2017.04.002")[10.1016/j.tips.2017.04.002]
+    / *PMID:*: 28478994
+    / *Study Design:*: Review — GPCR dephosphorylation kinetics and spatial regulation
+    / *Key Findings:*:
+        - GPCR dephosphorylation starts immediately after activation at the plasma membrane and continues along the endocytic pathway
+        - Dephosphorylation disrupts receptor-arrestin complexes, terminating arrestin-dependent signaling
+        - Partially dephosphorylated GPCRs may remain membrane-bound for renewed agonist activation
+        - Dephosphorylation kinetics set the temporal window for receptor re-availability
+    / *Conclusion:*: If the dephosphorylation half-life of a receptor target is, e.g., 4–6 hours, then dosing every 4 hours prevents resensitization while dosing every 12 hours allows it. This directly informs optimal pulsing intervals for specific receptor targets — a calculation that has never been systematically applied to ME/CFS pharmacology.
+    / *Limitations:*: Review; no clinical application data.
+    / *Certainty:*: 0.70
+
+=== Koch & Höllt 2008 — Opioid Tolerance: Protective Role of Receptor Internalization
+
+    / *Full Citation:*: Koch T, Höllt V. Role of receptor internalization in opioid tolerance and dependence. _Pharmacology & Therapeutics_. 2008;117(2):199--206. @Koch2008OpioidTolerance
+    / *DOI:*: #link("https://doi.org/10.1016/j.pharmthera.2007.10.003")[10.1016/j.pharmthera.2007.10.003]
+    / *PMID:*: 18076994
+    / *Study Design:*: Comprehensive review — opioid receptor trafficking
+    / *Key Findings:*:
+        - Paradoxical finding: agonist-induced μ-opioid receptor internalization can REDUCE tolerance in vivo
+        - Desensitized and internalized receptors are rapidly recycled to the cell surface in a reactivated state
+        - Opioids with high internalization efficacy produce LESS tolerance than those with low internalization efficacy
+        - Internalization → dephosphorylation → recycling → resensitization forms a protective cycle
+    / *Conclusion:*: Receptor internalization — traditionally viewed as the mechanism of tolerance — is actually protective against tolerance by enabling resensitization. This is direct precedent for the model that intermittent drug presence (allowing the full internalize → resensitize cycle) preserves therapeutic responsiveness better than continuous receptor occupancy. Relevant to LDN's 4–6h opioid blockade window.
+    / *Limitations:*: Review; opioid-specific.
+    / *Certainty:*: 0.75
+
+=== Teyani et al.\ 2024 — ROS-Mediated β2AR Tachyphylaxis
+
+    / *Full Citation:*: Teyani RL, Moghaddam F, Moniri NH. ROS-mediated regulation of β2AR function: Does oxidation play a meaningful role towards β2-agonist tachyphylaxis in airway obstructive diseases? _Biochemical Pharmacology_. 2024;226:116403. @Teyani2024Beta2Tachyphylaxis
+    / *DOI:*: #link("https://doi.org/10.1016/j.bcp.2024.116403")[10.1016/j.bcp.2024.116403]
+    / *PMID:*: 38945277
+    / *PMCID:*: PMC11301793
+    / *Study Design:*: Review — β2AR tachyphylaxis, ROS-mediated receptor oxidation
+    / *Key Findings:*:
+        - β2-agonists exhibit clinical tachyphylaxis over repeated/chronic use
+        - ROS generated by β2AR activation can oxidize β2AR cysteine residues, producing distinct functional outcomes
+        - ROS-mediated receptor oxidation is a tachyphylaxis mechanism distinct from canonical arrestin-mediated desensitization
+        - Oxidative airway microenvironment (disease state) amplifies tachyphylaxis
+    / *Conclusion:*: Patients with high oxidative burden (ME/CFS) are at elevated risk of drug tachyphylaxis via ROS-mediated receptor oxidation. Pulsed dosing reduces cumulative ROS exposure at the receptor. Provides a pathophysiological rationale for why ME/CFS patients may be especially susceptible to drug tolerance, and why pulsing may be especially beneficial in this population.
+    / *Limitations:*: Review; focused on airway disease; no ME/CFS or systemic illness data.
+    / *Certainty:*: 0.65
+
+=== Konopka et al.\ 2023 — Rapamycin Therapeutic Window: Intermittent Dosing Rationale
+
+    / *Full Citation:*: Konopka AR, Lamming DW; RAP PAC Investigators; EVERLAST Investigators. Blazing a trail for the clinical use of rapamycin as a geroprotecTOR. _GeroScience_. 2023;45(5):2769--2783. @Konopka2023RapamycinTherapeutic
+    / *DOI:*: #link("https://doi.org/10.1007/s11357-023-00935-x")[10.1007/s11357-023-00935-x]
+    / *PMID:*: 37801202
+    / *PMCID:*: PMC10643772
+    / *Study Design:*: Review and clinical trial preview
+    / *Key Findings:*:
+        - mTORC1 inhibition promotes healthy aging; mTORC2 inhibition causes metabolic side effects (insulin resistance, immunosuppression)
+        - Differences in kinetics by which rapamycin inhibits mTORC1 vs mTORC2 suggest a therapeutic window exploitable through intermittent dosing
+        - RAP PAC and EVERLAST clinical trials actively investigating optimal intermittent schedules in humans
+        - Alternative rapalogs with more selective mTORC1 inhibition under investigation
+    / *Conclusion:*: The paradigmatic case of differential target off-rates enabling intermittent over continuous dosing. The principle — differential temporal sensitivities of therapeutic vs adverse targets — generalizes to other drugs: when a drug has one target mediating benefit and another mediating harm, intermittent dosing can exploit their different kinetics.
+    / *Limitations:*: Review; optimal human intermittent schedules unknown.
+    / *Certainty:*: 0.75
+
+=== Arriola Apelo et al.\ 2016 — Intermittent Rapamycin Mitigates Side Effects
+
+    / *Full Citation:*: Arriola Apelo SI, Neuman JC, Baar EL, Syed FA, Cummings NE, Brar HK, Pumper CP, Kimple ME, Lamming DW. Alternative rapamycin treatment regimens mitigate the impact of rapamycin on glucose homeostasis and the immune system. _Aging Cell_. 2016;15(1):28--38. @ArriolaApelo2016RapamycinIntermittent
+    / *DOI:*: #link("https://doi.org/10.1111/acel.12405")[10.1111/acel.12405]
+    / *PMID:*: 26463117
+    / *PMCID:*: PMC4717280
+    / *Study Design:*: In vivo — C57BL/6J mice, daily vs intermittent rapamycin
+    / *Key Findings:*:
+        - Intermittent rapamycin (2 mg/kg every 5 days) preserved mTORC1 inhibition benefits
+        - Daily rapamycin caused glucose intolerance, elevated fasting glucose/insulin, and immunosuppression
+        - Intermittent dosing had minimal effects on glucose tolerance and reduced impact on the immune system
+        - Everolimus and temsirolimus (rapalogs) also showed better therapeutic windows than daily rapamycin
+    / *Conclusion:*: Empirical proof that intermittent dosing separates therapeutic from adverse effects when they are mediated by different targets (mTORC1 vs mTORC2) with different temporal dynamics. This is a paradigmatic demonstration that the principle works in vivo. Directly translatable to the 17-drug hormesis framework in ME/CFS.
+    / *Limitations:*: Mouse study; single drug; mTOR-specific.
+    / *Certainty:*: 0.80
+
+=== Hodding et al.\ 1980 — Drug Withdrawal Syndromes: Foundational Review
+
+    / *Full Citation:*: Hodding GC, Jann M, Ackerman IP. Drug withdrawal syndromes — a literature review. _Western Journal of Medicine_. 1980;133(5):383--391. @Hodding1980DrugWithdrawal
+    / *PMID:*: 7008358
+    / *PMCID:*: PMC1272349
+    / *Study Design:*: Literature review — drug withdrawal syndromes
+    / *Key Findings:*:
+        - Sedative-hypnotics, opiates, corticosteroids, clonidine, tricyclic antidepressants, and beta-adrenergic blocking agents meet criteria for withdrawal syndromes
+        - Defines criteria for identifying true withdrawal syndromes: (1) consistently observed, (2) dose- and duration-dependent, (3) preventable by gradual tapering, (4) not attributable to underlying disease
+        - Gradual tapering recommended for all drugs meeting criteria
+    / *Conclusion:*: The risk counterpart to pulsed therapy: some drugs with tachyphylaxis also have dangerous withdrawal/rebound syndromes if stopped abruptly. Any pulsed-therapy framework must account for withdrawal risk — gradual tapering vs rapid pulsing are opposite strategies, and the framework must determine which applies. Corticosteroids and beta-blockers are on this list — both in the ME/CFS 17-drug framework.
+    / *Limitations:*: Dated 1980; review-level only; Western J Med (moderate-impact journal); no quantitative meta-analysis.
+    / *Certainty:*: 0.50
+
+=== Papp et al.\ 2021 — Proactive Pulse Therapy in Psoriasis
+
+    / *Full Citation:*: Papp KA, Dhadwal G, Gooderham M, Guenther L, Turchin I, Wiseman M, Yeung J. Emerging paradigm shift toward proactive topical treatment of psoriasis: A narrative review. _Dermatologic Therapy_. 2021;34(6):e15104. @Papp2021ProactivePsoriasis
+    / *DOI:*: #link("https://doi.org/10.1111/dth.15104")[10.1111/dth.15104]
+    / *PMID:*: 34418251
+    / *PMCID:*: PMC9286633
+    / *Study Design:*: Narrative review — proactive/pulse maintenance therapy
+    / *Key Findings:*:
+        - Emerging evidence supports a paradigm shift toward proactive treatment once skin is completely clear
+        - Chronic continuous topical corticosteroids carry safety concerns that proactive pulse therapy mitigates
+        - Pulse/proactive maintenance preserves therapeutic benefit while reducing cumulative drug exposure
+        - Discusses transition strategies from acute to maintenance pulse therapy
+    / *Conclusion:*: Direct clinical precedent for "pulse therapy" paradigm in a chronic inflammatory disease. Psoriasis is an autoimmune/inflammatory chronic condition — conceptually analogous to the inflammatory maintenance problem in ME/CFS. The success of proactive/pulse therapy in dermatology provides a translational template.
+    / *Limitations:*: Narrative review (not systematic); dermatology-specific; industry-funded authors.
+    / *Certainty:*: 0.55
+
+=== Son et al.\ 2008 — Hormetic Dietary Phytochemicals via Nrf2/ARE
+
+    / *Full Citation:*: Son TG, Camandola S, Mattson MP. Hormetic dietary phytochemicals. _NeuroMolecular Medicine_. 2008;10(4):236--246. @Son2008HormeticPhytochemicals
+    / *DOI:*: #link("https://doi.org/10.1007/s12017-008-8037-y")[10.1007/s12017-008-8037-y]
+    / *PMID:*: 18543123
+    / *PMCID:*: PMC2635914
+    / *Study Design:*: Review — hormesis mechanisms of dietary phytochemicals
+    / *Key Findings:*:
+        - Phytochemicals (sulforaphane, curcumin, resveratrol) activate adaptive stress responses at subtoxic doses
+        - Nrf2/ARE pathway identified as prototypical hormetic neuroprotective mechanism
+        - Adaptive cellular stress response pathways (sirtuin-FOXO, NF-κB, Nrf2/ARE) mediate hormetic benefits
+        - "Noxious" properties of phytochemicals at low doses trigger beneficial adaptive responses = pharmacological hormesis
+    / *Conclusion:*: Nrf2 activators (sulforaphane, NAC, quercetin in the ME/CFS framework) operate via hormetic mechanisms. Continuous high-dose administration may exhaust the adaptive Nrf2 response (Keap1 degradation, negative feedback via GSK3β). Implies pulsed low-dose may sustain Nrf2-mediated benefit better than continuous high-dose — a hypothesis directly testable in the ME/CFS framework.
+    / *Limitations:*: Review; 2008 (dated); no clinical dosing studies.
+    / *Certainty:*: 0.55
