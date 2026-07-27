@@ -321,5 +321,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | pharmacodiagnostic-matrix | [subtrees/pharmacodiagnostic-matrix.md](subtrees/pharmacodiagnostic-matrix.md) | 2026-07-25 | 16 | 0 | ⬜ pending |
 | tcell-mitochondrial-exhaustion | [subtrees/tcell-mitochondrial-exhaustion.md](subtrees/tcell-mitochondrial-exhaustion.md) | 2026-07-26 | 24 | 0 | ⬜ pending |
 | global-perspectives-mecfs | [subtrees/global-perspectives-mecfs.md](subtrees/global-perspectives-mecfs.md) | 2026-07-26 | 14 | 6 | 🔵 in progress |
+| hsv-dormancy-undormancy-probe | [subtrees/hsv-dormancy-undormancy-probe.md](subtrees/hsv-dormancy-undormancy-probe.md) | 2026-07-26 | 17 | 0 | 🔵 in progress |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
