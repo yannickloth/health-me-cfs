@@ -704,7 +704,7 @@
       }
     ],
     "therapeuticCategory": "Mixed",
-    "therapeuticDepth": "Restorative (TRPM3 Ca2+ influx restoration at 3.0-4.5mg) + Corrective (TLR4/Nrf2 hormetic priming at 0.5-1.5mg + endorphin upregulation at 1.5-3.0mg). Dose-dependent depth."
+    "therapeuticDepth": "Mixed — Restorative (TRPM3 Ca²⁺ influx restoration at 3.0–4.5mg) + Corrective (TLR4/Nrf2 hormetic anti-inflammatory priming at 0.5–1.5mg) + endorphin upregulation at 1.5–3.0mg. Dose-dependent depth: higher doses are more restorative; lower doses are threshold-modulatory/corrective. At 50mg (standard naltrexone), the effect flips to full mu-opioid antagonism — purely symptomatic at that dose."
   },
   "IVIG": {
     "label": "IVIG",
@@ -1060,7 +1060,7 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "H1 + M1 + NE/5-HT reuptake inhibition; multimodal sensory modulation"
+    "therapeuticDepth": "Dose-dependent: at low-dose (5–10mg) = Threshold-modulatory (primarily H1 + M1 antagonism for sleep/pain); at antidepressant dose (75+mg) = Threshold-modulatory (full TCA: 5-HT/NE reuptake inhibition added). Therapeutic depth is threshold-modulatory at all doses but the mechanism mix shifts."
   },
   "Duloxetine": {
     "label": "Duloxetine",
@@ -1385,7 +1385,7 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "DAT/NET inhibitor with speculative Corrective component (brain ATP + M1 to M2 microglial shift); negative ME/CFS RCT (n=14)"
+    "therapeuticDepth": "Dose-dependent: at standard dose = Threshold-modulatory (DAT/NET inhibition with speculative corrective component via brain ATP enhancement + M1→M2 microglial shift); at excessive dose (>200mg) = Symptomatic (overstimulation without additional therapeutic depth). Negative ME/CFS RCT (n=14)."
   },
   "Methylphenidate": {
     "label": "Methylphenidate",
@@ -1421,7 +1421,7 @@
     "class": "Hormone / chronobiotic / sleep aid",
     "rx": "OTC (US); prescription in some EU countries",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "At physiological dose (0.3-0.5 mg): circadian resynchronization; high-dose: symptomatic (MT1/MT2 desensitization)"
+    "therapeuticDepth": "Dose-dependent: at physiological dose (0.3–0.5mg) = Substrate-repletion (circadian resynchronization + antioxidant); at supraphysiological dose (3+mg) = Symptomatic (MT1/MT2 receptor desensitization, loses circadian benefit)."
   },
   "Acetaminophen": {
     "label": "Acetaminophen",
@@ -1871,7 +1871,7 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Suppresses inflammation broadly via glucocorticoid receptor; does not address driver"
+    "therapeuticDepth": "Dose-dependent: at physiological replacement = Substrate-repletion (restores deficient cortisol); at immunosuppressive dose = Threshold-modulatory (broad inflammation suppression, HPA suppression risk)."
   },
   "Hydrocortisone": {
     "label": "Hydrocortisone",
@@ -1896,7 +1896,7 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Suppresses inflammation broadly via glucocorticoid receptor; does not address driver"
+    "therapeuticDepth": "Dose-dependent: at physiological replacement (5–10mg/day) = Substrate-repletion (restores deficient cortisol if HPA hypofunctional); at stress-dose = Threshold-modulatory (broad anti-inflammatory, HPA suppression risk)."
   },
   "Baclofen": {
     "label": "Baclofen",
@@ -2071,7 +2071,7 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "SERT + 5-HT2A + H1 antagonism; at low-dose primarily sedation"
+    "therapeuticDepth": "Dose-dependent: at low-dose (25–50mg) = Symptomatic (primarily H1-mediated sedation, does not restore restorative sleep); at antidepressant dose (150+mg) = Threshold-modulatory (SERT inhibition + 5-HT2A antagonism contributing antidepressant effect)."
   },
   "Quetiapine": {
     "label": "Quetiapine",
@@ -3523,7 +3523,7 @@
       }
     ],
     "therapeuticCategory": "Mixed",
-    "therapeuticDepth": "At low-dose (LDN): Restorative/TRPM3 + Corrective/TLR4-endorphin. At standard dose (50mg): full mu-opioid antagonist — different drug profile entirely."
+    "therapeuticDepth": "Dose-dependent: at LDN doses (0.5–4.5mg) = Mixed (Restorative via TRPM3 + Corrective via TLR4/Nrf2/endorphin); at standard dose (50mg) = Symptomatic (full mu-opioid antagonist). These are fundamentally different drugs at different doses — LDN is not dilute naltrexone."
   },
   "Aripiprazole": {
     "label": "Aripiprazole",
@@ -3548,7 +3548,7 @@
       }
     ],
     "therapeuticCategory": "Mixed",
-    "therapeuticDepth": "Threshold-modulatory (microglial D2 raising activation threshold) + Symptomatic (dopaminergic cognitive support). LDA: 0.2-2mg."
+    "therapeuticDepth": "Dose-dependent: at LDA dose (0.2–2mg) = Threshold-modulatory (microglial D2 partial agonism raising activation threshold) + Symptomatic (dopaminergic cognitive support); at antipsychotic dose (5+mg) = Symptomatic (D2 antagonism dominates, reversing microglial benefit via inverted-U)."
   },
   "Armodafinil": {
     "label": "Armodafinil",
@@ -4697,7 +4697,7 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "NMDA receptor antagonist with rapid neuroplastic effects — research-stage"
+    "therapeuticDepth": "Dose-dependent: at sub-anesthetic dose (0.5mg/kg IV) = Threshold-modulatory (NMDA antagonist with rapid neuroplastic effects); at anesthetic dose = Symptomatic (dissociation/anesthesia without disease-relevant mechanism). Research-stage."
   },
   "Psilocybin": {
     "label": "Psilocybin",
@@ -5698,7 +5698,7 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Suppresses inflammation broadly via glucocorticoid receptor; does not address driver"
+    "therapeuticDepth": "Dose-dependent: at physiological replacement = Substrate-repletion; at immunosuppressive dose = Threshold-modulatory (broad inflammation suppression)."
   },
   "Oxycodone": {
     "label": "Oxycodone",
@@ -6687,7 +6687,7 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "mTORC1 inhibition restoring autophagy and reducing senescence; mTORC1/C2 selectivity critical"
+    "therapeuticDepth": "Dose-dependent: at low-intermittent dose = Corrective (mTORC1-selective autophagy restoration); at higher/continuous dose = Threshold-modulatory (mTORC2 inhibition adds metabolic side effects, blunting net benefit). Intermittent dosing preserves mTORC1 selectivity."
   },
   "Rintatolimod": {
     "label": "Rintatolimod",
