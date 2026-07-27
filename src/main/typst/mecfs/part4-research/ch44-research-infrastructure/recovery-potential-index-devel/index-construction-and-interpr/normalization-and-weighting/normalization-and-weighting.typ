@@ -5,7 +5,7 @@
 Each component biomarker would be normalized to age- and sex-matched reference ranges, yielding z-scores or percentile ranks. This normalization is essential because most biomarkers change with age; what matters is not the absolute value but the value relative to healthy peers.
 The composite RPI would be calculated as a weighted sum:
 $
-"RPI" = sum_{i=1}^(6) w_i dot z_i
+"RPI" = sum_{i=1}^(6) w_i dot.op z_i
 $
 where $z_i$ is the normalized score for component $i$ and $w_i$ is its weight.
 *Initial Weighting Approach*

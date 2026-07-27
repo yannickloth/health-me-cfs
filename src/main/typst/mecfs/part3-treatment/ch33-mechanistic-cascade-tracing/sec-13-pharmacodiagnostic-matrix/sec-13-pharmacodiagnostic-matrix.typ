@@ -33,7 +33,7 @@ A *positive* response to M_i for H_j means: if H_j is the dominant pathophysiolo
 
 A patient completes drug trials for medications {M_1, ..., M_k}, obtaining observed responses {R_1, ..., R_k}. For each hypothesis H_j:
 
-$ "Score"(H_j) = ((sum_(i=1)^k w_i dot "Agreement"(R_i, "Resp"(M_i, H_j))) \/ (sum_(i=1)^k w_i)) $
+$ "Score"(H_j) = ((sum_(i=1)^k w_i dot.op "Agreement"(R_i, "Resp"(M_i, H_j))) \/ (sum_(i=1)^k w_i)) $
 
 where $w_i$ is the certainty of the mechanistic inference linking drug $M_i$ to the cascade node(s) at which it intercepts hypothesis $H_j$, _Agreement_ incorporates the diagnostic value of null responses (a null response where positive was expected is penalized, and vice versa), and the surviving hypotheses are those above a threshold score. In the simplified case where all cell certainties are equal, this reduces to the unweighted mean.
 

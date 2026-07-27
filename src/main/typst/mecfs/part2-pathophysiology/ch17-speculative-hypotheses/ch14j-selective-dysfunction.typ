@@ -280,14 +280,14 @@ ME/CFS represents a sickness behavior program that fails to disengage, chronical
 *Activation function:*
 
 $
-"SB"(t) = op("sigm")(sum_(i) w_i dot ["cytokine"_i](t) - theta)
+ "SB"(t) = op("sigm")(sum_(i) w_i dot.op ["cytokine"_i](t) - theta)
 $
 
 where $op("sigm")(x) = 1/(1+e^(-x))$ is the logistic sigmoid function (distinct from standard deviation $sigma$ used elsewhere in this chapter), $w_i$ are cytokine weights, and $theta$ is the activation threshold.
 
 *Normal state:* Acute infection elevates cytokines $=>$ SB activates $=>$ infection resolves $=>$ cytokines normalize $=>$ SB deactivates.
 
-*ME/CFS state:* Chronic low-grade immune activation maintains $sum w_i dot ["cytokine"_i] > theta$ indefinitely $=>$ SB persists.
+*ME/CFS state:* Chronic low-grade immune activation maintains $sum w_i dot.op ["cytokine"_i] > theta$ indefinitely $=>$ SB persists.
 
 *Evolutionary logic:* Sickness behavior evolved to suppress _behavioral_ energy expenditure during infection. Hair growth has no behavioral component and was never targeted by this program.
 
