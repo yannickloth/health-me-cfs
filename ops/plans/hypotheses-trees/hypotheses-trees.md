@@ -48,6 +48,8 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| interoceptive-dose-finding | [subtrees/interoceptive-dose-finding.md](subtrees/interoceptive-dose-finding.md) | 2026-07-27 | 1 | 1 | 🔵 in progress |
+| pulsed-therapy | [subtrees/pulsed-therapy.md](subtrees/pulsed-therapy.md) | 2026-07-27 | 16 | 7 | ✅ done |
 | pharmacodiagnostic-matrix | [subtrees/pharmacodiagnostic-matrix.md](subtrees/pharmacodiagnostic-matrix.md) | 2026-07-25 | 16 | 4 | ✅ done |
 | negative-control-class | [subtrees/negative-control-class.md](subtrees/negative-control-class.md) | 2026-07-27 | 20 | 0 | ⬜ pending |
 | trpv1-temperature-autonomic-stress-test | [subtrees/trpv1-temperature-autonomic-stress-test.md](subtrees/trpv1-temperature-autonomic-stress-test.md) | 2026-07-27         | 16         | 4          | 🔵 in progress |

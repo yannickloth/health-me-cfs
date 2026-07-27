@@ -4293,6 +4293,17 @@ This registry collects all hypotheses, speculations, open questions, and predict
 )
 
 
+=== Interoceptive Dose-Finding
+
+#table(
+  columns: (1fr, 2fr, 1fr),
+  [*ID / Label*], [*Details*], [*Phase / Cert*],
+
+  [spec:interoceptive-dose-finding], [Deliberate intermittent dosing in ME/CFS — patients skipping doses, taking drug holidays, pulsing medications — may represent rational interoceptive N-of-1 experimentation rather than non-adherence. The allostatic-interoceptive network computes allostatic significance from interoceptive afferent signals and updates predictive models of bodily state. Repeated perturbation-and-sensing cycles (dose → symptom change → dose adjustment) allow the network to approximate the dose-response curve without biomarkers. The hormetic dose-response framework establishes the therapeutic window as a 3D volume (dose × time × response) with time-dependent features; the interoceptive framework proposes that patients are probing this volume through deliberate pulse-and-assess cycles. Falsifiable: qualitative interview data from ME/CFS patients who pulse medications should reveal deliberate interoceptive experimentation in ≥10% of patients. Falsified if <10% report interoceptive dose-finding as a reason for pulsing. Individual mechanistic components range from cert 0.30 (time-dependent hormesis) to cert 0.70 (allostatic-interoceptive network mapping); the conceptual link between them is untested, cert 0.20 for the integrated claim. @ZhangWager2025Allostatic @Sun2018SeesawHormesis @Mushak2016TemporalHormesis],[Phase 1 / 0.20],
+
+)
+
+
 === Skeletal Asymmetry and Postural Mechanics
 
 #table(
