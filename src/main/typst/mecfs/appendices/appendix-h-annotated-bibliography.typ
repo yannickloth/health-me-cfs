@@ -30657,7 +30657,7 @@ sec-bib-rf-elevated-mecfs-duplicate
     / *Study Design:*: Cross-sectional case-control; vastus lateralis biopsy; IHC for Pax7 (satellite cells) and PDGFRα (FAP cells); high-resolution respirometry; metabolomics
     / *Sample Size:*: n=26 ME/CFS, n=25 Long COVID, n=30 healthy controls
     / *Key Findings:*:
-        - Reduced Pax7+ satellite cells (P$<$0.001) — first direct measurement in ME/CFS/LC
+        - Reduced Pax7+ satellite cells (P\<0.001) — first direct measurement in ME/CFS/LC
         - Trending reduced PDGFRα+ FAP cells (P=0.061) — niche support cells
         - SC count correlated with OXPHOS capacity (r=0.43, P=0.0035)
         - Metabolic shift away from oxidative metabolism
@@ -30787,7 +30787,7 @@ sec-bib-rf-elevated-mecfs-duplicate
         - Mitochondrial polymorphism and monstrosity on EM
         - Reduced mitochondrial enzyme activities (cytochrome oxidase/succinate dehydrogenase)
         - mtDNA common deletion 4977bp elevated 150-3000× normal values
-        - Selective muscle hyperalgesia (P$<$0.001) with normal skin/subcutis thresholds
+        - Selective muscle hyperalgesia (P\<0.001) with normal skin/subcutis thresholds
     / *Conclusion:*: Earliest evidence of disrupted muscle regeneration and mitochondrial pathology in CFS, published 30 years before Charlton 2026 but consistent with satellite cell dysfunction.
     / *Limitations:*: Small sample (n=9 biopsied); 1990s methodology; no SC-specific markers; pre-consensus diagnostic criteria.
     / *Certainty:*: 0.25
@@ -30891,7 +30891,7 @@ sec-bib-rf-elevated-mecfs-duplicate
 
 === Henderson 2014 --- Valacyclovir for Chronic Fatigue in Adolescents
 
-    / *Full Citation:*: Henderson TA. Valacyclovir treatment of chronic fatigue in adolescents. _Advances in Mind-Body Medicine_. 2014;28(1):4–14. @Henderson2014ValacyclovirAdolescents
+    / *Full Citation:*: Henderson TA. Valacyclovir treatment of chronic fatigue in adolescents. _Advances in Mind-Body Medicine_. 2014;28(1):4–14.
     / *PMID:*: 24445302
     / *Study Design:*: Clinical case report/series
     / *Sample Size:*: Small (adolescent chronic fatigue)
@@ -30920,7 +30920,7 @@ sec-bib-rf-elevated-mecfs-duplicate
 
 === Schalkwijk et al.\ 2022 --- Acyclovir Resistance Review
 
-    / *Full Citation:*: Schalkwijk HH, Snoeck R, Andrei G. Acyclovir resistance in herpes simplex viruses: Prevalence and therapeutic alternatives. _Biochemical Pharmacology_. 2022;206:115322. @Schalkwijk2022AcyclovirResistance
+    / *Full Citation:*: Schalkwijk HH, Snoeck R, Andrei G. Acyclovir resistance in herpes simplex viruses: Prevalence and therapeutic alternatives. _Biochemical Pharmacology_. 2022;206:115322.
     / *DOI:*: #link("https://doi.org/10.1016/j.bcp.2022.115322")[10.1016/j.bcp.2022.115322]
     / *PMID:*: 36309081
     / *Study Design:*: Review
@@ -30935,7 +30935,7 @@ sec-bib-rf-elevated-mecfs-duplicate
 
 === Ariza 2020 --- Commentary on Blomberg 2019 Herpesvirus Null Study
 
-    / *Full Citation:*: Ariza ME. Commentary: Antibodies to human herpesviruses in myalgic encephalomyelitis/chronic fatigue syndrome patients. _Frontiers in Immunology_. 2020;11:1400. @Ariza2020CommentaryHerpesvirus
+    / *Full Citation:*: Ariza ME. Commentary: Antibodies to human herpesviruses in myalgic encephalomyelitis/chronic fatigue syndrome patients. _Frontiers in Immunology_. 2020;11:1400.
     / *DOI:*: #link("https://doi.org/10.3389/fimmu.2020.01400")[10.3389/fimmu.2020.01400]
     / *PMID:*: 32793195
     / *PMCID:*: PMC7390837
@@ -30950,7 +30950,7 @@ sec-bib-rf-elevated-mecfs-duplicate
 
 === Domingues et al.\ 2021 --- Herpesvirus Serology Distinguishes ME/CFS Subgroups
 
-    / *Full Citation:*: Domingues TD, Grabowska AD, Lee JS, Ameijeiras-Alonso J, Westermeier F, Scheibenbogen C, Cliff JM, Nacul L, Lacerda EM, Mouriño H, Sepúlveda N. Herpesviruses serology distinguishes different subgroups of patients from the United Kingdom myalgic encephalomyelitis/chronic fatigue syndrome biobank. _Frontiers in Medicine_. 2021;8:686736. @Domingues2021HerpesvirusesSubgroups
+    / *Full Citation:*: Domingues TD, Grabowska AD, Lee JS, Ameijeiras-Alonso J, Westermeier F, Scheibenbogen C, Cliff JM, Nacul L, Lacerda EM, Mouriño H, Sepúlveda N. Herpesviruses serology distinguishes different subgroups of patients from the United Kingdom myalgic encephalomyelitis/chronic fatigue syndrome biobank. _Frontiers in Medicine_. 2021;8:686736.
     / *DOI:*: #link("https://doi.org/10.3389/fmed.2021.686736")[10.3389/fmed.2021.686736]
     / *PMID:*: 34291062
     / *PMCID:*: PMC8287507

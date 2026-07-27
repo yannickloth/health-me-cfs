@@ -4,7 +4,7 @@
 
 LDN blocks TLR4 receptors on microglia (reducing neuroinflammation), restores TRPM3 calcium channel function in vitro, and triggers compensatory endorphin upregulation. Does not increase metabolic rate — can be tried even in severe patients.
 
-#block[==== Why Higher Dose Is Not Necessarily Better — The Hormetic Dose-Response Window] <spec:ldn-hormetic-window> <hyp:multi-target-dose-optimum-divergence> <spec:hormesis-multi-drug-principle> <oq:ldn-dose-response-research-gap>
+#block[==== Why Higher Dose Is Not Necessarily Better — The Hormetic Dose-Response Window] <ldn-hormetic-window>
 
 *Origin: Kevin Lee (personal communication, July 2026) — the clinical observation that even if LDN works via TLR4/TRPM3, this does not explain why higher dose is not always better and why some patients do better at lower doses.*
 

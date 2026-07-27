@@ -7,15 +7,15 @@ Human herpesviruses establish lifelong latent infections with potential for reac
 
 ==== Epstein-Barr Virus (EBV)
 
-EBV infects B cells and establishes latency @ScanJImmunol2025EBV:
+EBV infects B cells and establishes latency @ScanJImmunol2025EBV:
 
-    - *Acute infection*: Infectious mononucleosis is a common ME/CFS trigger @FrontImmunol2024EBV
+    - *Acute infection*: Infectious mononucleosis is a common ME/CFS trigger @FrontImmunol2024EBV
     - *Reactivation markers*: Elevated early antigen (EA) antibodies, viral load
-    - *Prevalence*: 10–20% of ME/CFS patients show evidence of reactivation 
-    - *Mechanism*: May drive chronic B cell activation and autoantibody production @walitt2024deep
+    - *Prevalence*: 10--20% of ME/CFS patients show evidence of reactivation 
+    - *Mechanism*: May drive chronic B cell activation and autoantibody production @walitt2024deep
 
 *EBV-Infected B Cells and CNS Demyelination*
-Recent research has demonstrated a direct mechanism by which EBV-infected B cells can cause neurological damage . Autoreactive B cells identified in healthy human blood can cross the blood–brain barrier following viral infection of the cerebrum. When these B cells express EBV Latent Membrane Protein 1 (LMP1), they can infiltrate the brain and induce demyelinating lesions through direct myelin antigen capture followed by complement activation and microglial activation. While this research focused on multiple sclerosis pathogenesis, the mechanism has potential relevance for ME/CFS given the documented role of EBV as a disease trigger, the neuroinflammation observed in ME/CFS patients, and the overlap between ME/CFS and MS symptomatology. This finding provides a concrete pathway by which post-infectious immune dysregulation could lead to CNS involvement.
+Recent research has demonstrated a direct mechanism by which EBV-infected B cells can cause neurological damage . Autoreactive B cells identified in healthy human blood can cross the blood--brain barrier following viral infection of the cerebrum. When these B cells express EBV Latent Membrane Protein 1 (LMP1), they can infiltrate the brain and induce demyelinating lesions through direct myelin antigen capture followed by complement activation and microglial activation. While this research focused on multiple sclerosis pathogenesis, the mechanism has potential relevance for ME/CFS given the documented role of EBV as a disease trigger, the neuroinflammation observed in ME/CFS patients, and the overlap between ME/CFS and MS symptomatology. This finding provides a concrete pathway by which post-infectious immune dysregulation could lead to CNS involvement.
 
 *EBV Infection During Adolescent Immune Development*
 
@@ -26,25 +26,25 @@ Recent research has demonstrated a direct mechanism by which EBV-infected B cell
 We hypothesize that EBV infection during adolescence creates a unique risk for persistent autoantibody-mediated ME/CFS, because viral B cell infection coincides with pubertal immune maturation when tolerance mechanisms are being reorganized.
 
 *Epidemiological context:*
-Infectious mononucleosis (primary EBV infection) is a common ME/CFS trigger, particularly in adolescents. While young children typically experience asymptomatic primary EBV infection, delayed first exposure in adolescence produces symptomatic mononucleosis in 35–50% of cases @ScanJImmunol2025EBV. This age-dependent presentation reflects developmental differences in immune response. When infection occurs during adolescence or young adulthood, symptoms can be more severe than in younger children, and the infection is associated with increased risk for subsequent autoimmune disease development @FrontImmunol2024EBV.
+Infectious mononucleosis (primary EBV infection) is a common ME/CFS trigger, particularly in adolescents. While young children typically experience asymptomatic primary EBV infection, delayed first exposure in adolescence produces symptomatic mononucleosis in 35--50% of cases @ScanJImmunol2025EBV. This age-dependent presentation reflects developmental differences in immune response. When infection occurs during adolescence or young adulthood, symptoms can be more severe than in younger children, and the infection is associated with increased risk for subsequent autoimmune disease development @FrontImmunol2024EBV.
 
 *Immunological timing hypothesis:*
 EBV preferentially infects B cells, establishing lifelong latency. During adolescence, the immune system undergoes substantial reorganization: thymic output is declining, peripheral tolerance mechanisms are maturing, and the B cell repertoire is being shaped. EBV infection during this critical window may:
 
     - Infect B cells during active repertoire selection, potentially immortalizing autoreactive clones that would otherwise be deleted
     - Disrupt tolerance checkpoint establishment, allowing autoreactive B cells to persist
-    - Drive aberrant germinal center reactions producing GPCR autoantibodies (Section @sec:autoantibodies)
+    - Drive aberrant germinal center reactions producing GPCR autoantibodies (Section @sec:autoantibodies)
     - Create long-lived plasma cells secreting autoantibodies that persist for decades
 
 *Age-dependent outcome predictions:*
 
-    - _Young children_ ($<$10 years): Immune system still highly plastic; ongoing development may clear aberrant B cell clones through mechanisms described in Hypothesis @hyp:immune-pruning. Higher recovery probability.
-    - _Adolescents_ (10–18 years): Infection at the edge of immune maturation; some patients clear aberrant clones, others do not. Variable outcomes, overall high recovery rates.
-    - _Young adults_ (18–25 years): Tolerance mechanisms largely established; aberrant B cell populations persist indefinitely. Lower recovery probability.
+    - _Young children_ ($<$10 years): Immune system still highly plastic; ongoing development may clear aberrant B cell clones through mechanisms described in Hypothesis @hyp:immune-pruning. Higher recovery probability.
+    - _Adolescents_ (10--18 years): Infection at the edge of immune maturation; some patients clear aberrant clones, others do not. Variable outcomes, overall high recovery rates.
+    - _Young adults_ (18--25 years): Tolerance mechanisms largely established; aberrant B cell populations persist indefinitely. Lower recovery probability.
     - _Adults_ ($>$25 years): No developmental clearance mechanism; autoantibody-producing cells become permanent. Recovery rare without intervention.
 
 *Treatment implications:*
-If this hypothesis is correct, B cell depletion therapy (rituximab) might be particularly effective in adolescents and young adults with recent EBV-triggered ME/CFS, before long-lived plasma cells establish permanent autoantibody production. The timing of intervention relative to disease onset may be critical—early B cell depletion could prevent establishment of pathogenic plasma cell populations.
+If this hypothesis is correct, B cell depletion therapy (rituximab) might be particularly effective in adolescents and young adults with recent EBV-triggered ME/CFS, before long-lived plasma cells establish permanent autoantibody production. The timing of intervention relative to disease onset may be critical---early B cell depletion could prevent establishment of pathogenic plasma cell populations.
 
 *Research directions:*
 
@@ -54,24 +54,24 @@ If this hypothesis is correct, B cell depletion therapy (rituximab) might be par
     - Trial of early rituximab in adolescents with recent EBV-triggered ME/CFS
 
 *Limitations:*
-This hypothesis is speculative. EBV is ubiquitous (95% adult seropositivity), so most ME/CFS patients will have been infected regardless of trigger. The specific role of infection timing versus other factors (genetic susceptibility, viral strain, co-infections) is unknown. Additionally, many adolescents with EBV-triggered ME/CFS do recover, suggesting protective factors beyond simple timing. See Section @sec:pediatric-adult-study for a proposed study design that could inform this hypothesis.
+This hypothesis is speculative. EBV is ubiquitous (95% adult seropositivity), so most ME/CFS patients will have been infected regardless of trigger. The specific role of infection timing versus other factors (genetic susceptibility, viral strain, co-infections) is unknown. Additionally, many adolescents with EBV-triggered ME/CFS do recover, suggesting protective factors beyond simple timing. See Section @sec:pediatric-adult-study for a proposed study design that could inform this hypothesis.
 ] <hyp:ebv-adolescence>
 
 Longitudinal data from the first German study of adolescent and young adult ME/CFS following EBV-triggered infectious mononucleosis provide partial support for the age-dependent hypothesis. Pricoco et al. (2024) followed 25 patients (12 adolescents, 13 young adults) for 12 months after EBV-confirmed onset . The results revealed a stark age-dependent recovery pattern: 45% of adolescents no longer met ME/CFS diagnostic criteria at 12 months and showed improvement in fatigue and health-related quality of life, whereas 100% of young adults retained their diagnosis with minimal symptom or quality-of-life improvement. Patients averaged 27 distinct symptoms each, with exhaustion, daily-life limitations, rest requirements, and PEM being the most persistent. While the sample size is small and the study lacked a non-EBV control group, the differential recovery trajectory is consistent with the hypothesis that post-pubertal immune maturation reduces the capacity for spontaneous resolution of virus-triggered autoimmune processes.
 
 #hypothesis(title: [Infectious Mononucleosis as a Three-Compartment Distinct Subtype of ME/CFS])[
-Infectious mononucleosis (IM), caused by primary EBV infection, may trigger a form of ME/CFS with greater immunological burden than non-IM post-infectious ME/CFS, involving three measurable dimensions of immune dysregulation. First, massive polyclonal B cell activation during acute IM likely establishes a larger latent EBV reservoir in CD27+ memory B cells than subclinical EBV seroconversion, though direct reservoir-size comparison between IM and subclinical seroconversion has not been performed in ME/CFS. Second, NK cells, which expand dramatically during acute IM, may show impaired long-term EBV surveillance after the acute response resolves (note: NK "exhaustion" is a less established paradigm than T cell exhaustion; post-activation recovery kinetics differ, and the analogy to T cell exhaustion borrows credibility that the NK literature does not yet support). Third, CD8+ T cells targeting EBV epitopes develop exhausted phenotypes (PD-1+, TIM-3+, LAG-3+) from chronic antigen exposure, mirroring the T cell exhaustion already documented in ME/CFS. These three dimensions may all be downstream of a single core mechanism — overwhelming EBV antigen load during acute IM → global immune dysregulation — rather than three independent compartment failures. The consequence may be a subtype with larger viral reservoir, impaired antiviral surveillance, and enrichment of autoantibodies cross-reactive with EBV antigens. Whether IM-triggered patients differ from non-IM post-infectious ME/CFS in treatment response remains an open question. The IM association is disproportionately concentrated in early-onset ME/CFS (OR 2.32) @McGrath2026bimodalOnset, consistent with the thymic-EBV synchrony model (Section @sec:bimodal-cross-disease). However, the 87% non-conversion rate after IM @Katz2009IMadolescentCFS equally supports a host-susceptibility model where trigger identity matters less than individual vulnerability factors, and the rituximab Phase III trial (Fluge 2019, n=151) showed no overall benefit in unselected ME/CFS — if IM-triggered ME/CFS is a distinct B-cell/autoantibody-driven subtype, the absence of even a subgroup response signal is relevant counterevidence, though rituximab spares CD20- plasma cells which may mediate autoantibody production independently.
+Infectious mononucleosis (IM), caused by primary EBV infection, may trigger a form of ME/CFS with greater immunological burden than non-IM post-infectious ME/CFS, involving three measurable dimensions of immune dysregulation. First, massive polyclonal B cell activation during acute IM likely establishes a larger latent EBV reservoir in CD27+ memory B cells than subclinical EBV seroconversion, though direct reservoir-size comparison between IM and subclinical seroconversion has not been performed in ME/CFS. Second, NK cells, which expand dramatically during acute IM, may show impaired long-term EBV surveillance after the acute response resolves (note: NK "exhaustion" is a less established paradigm than T cell exhaustion; post-activation recovery kinetics differ, and the analogy to T cell exhaustion borrows credibility that the NK literature does not yet support). Third, CD8+ T cells targeting EBV epitopes develop exhausted phenotypes (PD-1+, TIM-3+, LAG-3+) from chronic antigen exposure, mirroring the T cell exhaustion already documented in ME/CFS. These three dimensions may all be downstream of a single core mechanism --- overwhelming EBV antigen load during acute IM → global immune dysregulation --- rather than three independent compartment failures. The consequence may be a subtype with larger viral reservoir, impaired antiviral surveillance, and enrichment of autoantibodies cross-reactive with EBV antigens. Whether IM-triggered patients differ from non-IM post-infectious ME/CFS in treatment response remains an open question. The IM association is disproportionately concentrated in early-onset ME/CFS (OR 2.32) @McGrath2026bimodalOnset, consistent with the thymic-EBV synchrony model (Section @sec:bimodal-cross-disease). However, the 87% non-conversion rate after IM @Katz2009IMadolescentCFS equally supports a host-susceptibility model where trigger identity matters less than individual vulnerability factors, and the rituximab Phase III trial (Fluge 2019, n=151) showed no overall benefit across the ME/CFS population despite the EBV-mediated B cell reservoir hypothesis --- demonstrating the gap between B cell dysregulation models and clinical response.
 *Certainty: 0.40* (IM→ME/CFS conversion rate ~13% in prospective adolescent studies @Katz2009IMadolescentCFS; differential adolescent recovery documented @Pricoco2024EBVyouth; three-compartment model based on known IM immunology but no head-to-head immunophenotyping of IM-ME/CFS vs non-IM ME/CFS). *Not yet replicated: no study has directly compared IM-triggered to non-IM post-infectious ME/CFS with deep immune profiling.*
-*Falsifiable prediction:* Head-to-head immunophenotyping of IM-triggered vs non-IM ME/CFS will show: (a) larger EBV reservoir in CD27+ memory B cells; (b) lower NK cytotoxicity (K562 assay); (c) higher exhausted CD8+ T cell frequency (PD-1+TIM-3+LAG-3+). All three dimensions are directional predictions with effect sizes drawn from general IM biology — not from ME/CFS-specific data. If any show no meaningful difference between groups, the three-dimension excess-burden model is not supported. Note: this is a compound hypothesis (three conjoint predictions); the certainty of 0.40 reflects the compound probability discount.
+*Falsifiable prediction:* Head-to-head immunophenotyping of IM-triggered vs non-IM ME/CFS will show: (a) larger EBV reservoir in CD27+ memory B cells; (b) lower NK cytotoxicity (K562 assay); (c) higher exhausted CD8+ T cell frequency (PD-1+TIM-3+LAG-3+). All three dimensions are directional predictions with effect sizes drawn from general IM biology --- not from ME/CFS-specific data. If any show no meaningful difference between groups, the three-dimension excess-burden model is not supported. Note: this is a compound hypothesis (three conjoint predictions); the certainty of 0.40 reflects the compound probability discount.
 ] <hyp:im-three-compartment-failure>
 
 ==== Human Herpesvirus 6 (HHV-6)
 <sec:hhv6-mecfs>
 
-HHV-6 infects T cells and can integrate into chromosomes :
+HHV-6 infects T cells and can integrate into chromosomes :
 
     - Two species: HHV-6A and HHV-6B
-    - Evidence for active infection in some ME/CFS patients 
+    - Evidence for active infection in some ME/CFS patients 
     - Can affect mitochondrial function
     - Neurotropic (infects brain tissue)
 
@@ -85,20 +85,20 @@ Kasimir, Prusty et al.\ examined post-mortem brain tissue from ME/CFS patients (
 
 ==== Cytomegalovirus (CMV)
 
-CMV establishes latency in monocytes and other cells :
+CMV establishes latency in monocytes and other cells :
 
-    - Reactivation documented in some ME/CFS patients 
+    - Reactivation documented in some ME/CFS patients 
     - Can cause significant inflammation upon reactivation
-    - Associated with T cell exhaustion @iu2024tcell_exhaustion
+    - Associated with T cell exhaustion @iu2024tcell_exhaustion
 
 ==== Varicella-Zoster Virus (VZV)
 
-VZV establishes latency in sensory ganglia following primary infection (chickenpox) and reactivates as herpes zoster (shingles) @Ariza2025polyherpesvirus:
+VZV establishes latency in sensory ganglia following primary infection (chickenpox) and reactivates as herpes zoster (shingles) @Ariza2025polyherpesvirus:
 
-    - Elevated anti-VZV dUTPase antibodies detected in ME/CFS patients as part of the poly-herpesvirus co-reactivation pattern @Palomo2026herpesvirus
-    - Encodes a dUTPase homolog (ORF8) with immunomodulatory properties @Ariza2025polyherpesvirus
+    - Elevated anti-VZV dUTPase antibodies detected in ME/CFS patients as part of the poly-herpesvirus co-reactivation pattern @Palomo2026herpesvirus
+    - Encodes a dUTPase homolog (ORF8) with immunomodulatory properties @Ariza2025polyherpesvirus
     - Neurotropism in sensory ganglia may contribute to sensory and autonomic symptoms, though this has not been directly studied in ME/CFS
-    - Included in the poly-herpesvirus co-reactivation pattern described below (Section @sec:poly-herpesvirus)
+    - Included in the poly-herpesvirus co-reactivation pattern described below (Section @sec:poly-herpesvirus)
 
 ==== Herpes Simplex Virus 1 (HSV-1) and Encephalitis
 <sec:hsv1-hse>
@@ -110,10 +110,10 @@ HSV-1 infects 57% of American adults and establishes latency in trigeminal gangl
 The Uppsala University ME/CFS Collaborative Research Center (directed by Jonas Bergquist, OMF-funded) has studied HSE as a uniquely informative model for post-viral fatigue and ME/CFS onset, since HSE patients can be followed prospectively from the acute infection  . A series of studies in approximately 50 HSE patients with serial CSF and blood sampling has revealed:
 
     - *NMDA receptor autoimmunity:* Anti-NMDAR IgG antibodies developed in 24.5% of HSE patients, never present at disease onset but appearing after 3 months . 56% had anti-NMDAR antibodies of any isotype class (IgG 25%, IgM 29%, IgA 27%), though only IgG correlated with cognitive outcome @Westman2018nmdar_igg_igm.
-    - *Impaired neurocognitive recovery:* NMDAR-seropositive patients had dramatically worse neurocognitive recovery — median MDRS score increase of 1.5 points versus 10 points at 24 months (p=0.018) .
+    - *Impaired neurocognitive recovery:* NMDAR-seropositive patients had dramatically worse neurocognitive recovery --- median MDRS score increase of 1.5 points versus 10 points at 24 months (p=0.018) .
     - *Proposed causative chain:* Neurofilament light chain (NFL, a marker of neuronal damage) correlated with both impaired cognition (rho=-0.36, p=0.020) and subsequent NMDAR autoimmunization (p=0.006), suggesting: brain tissue damage $arrow.r$ NMDAR antigen release $arrow.r$ autoimmunization $arrow.r$ prolonged CSF inflammation $arrow.r$ persistent neurocognitive dysfunction .
-    - *CSF proteomics:* Temporal analysis of 890 CSF proteins (LC-MS) revealed an acute multi-pathway response at days 0--9 (acute phase, antimicrobial pattern recognition, glycolysis/gluconeogenesis), which resolved by 2 weeks. Six proteins were significantly reduced in NMDAR-seropositive patients, including apolipoprotein A1 — previously linked to NMDAR encephalitis — and complement factor I .
-    - *Predictive viral antibody signature:* PhIP-Seq analysis identified HSV-1 UL42 and UL48 antibody signatures that predict which HSE patients develop secondary NMDAR encephalitis (75% sensitivity, >99% specificity, PPV 90%, OR 209) @Westman2025phipseq_nmdar.
+    - *CSF proteomics:* Temporal analysis of 890 CSF proteins (LC-MS) revealed an acute multi-pathway response at days 0--9 (acute phase, antimicrobial pattern recognition, glycolysis/gluconeogenesis), which resolved by 2 weeks. Six proteins were significantly reduced in NMDAR-seropositive patients, including apolipoprotein A1 --- previously linked to NMDAR encephalitis --- and complement factor I .
+    - *Predictive viral antibody signature:* PhIP-Seq analysis identified HSV-1 UL42 and UL48 antibody signatures that predict which HSE patients develop secondary NMDAR encephalitis (75% sensitivity, $>$99% specificity, PPV 90%, OR 209) @Westman2025phipseq_nmdar.
 
 #hypothesis(title: [Viral Encephalitis as Mechanistic Template for Post-Infectious ME/CFS])[
 
@@ -126,24 +126,95 @@ If viral-induced brain tissue damage is a necessary precursor to autoantibody-me
 *Limitations:* HSE causes catastrophic, often fatal brain injury; the degree of neuronal damage in typical ME/CFS-triggering infections is orders of magnitude lower. The relevance of this severe model to mild post-viral fatigue requires demonstration that the same mechanism operates at subclinical tissue damage levels. Additionally, only a subset of ME/CFS patients report post-infectious onset, limiting the generalizability of any virus-triggered model.
 ] <hyp:hse-mecfs-template>
 
+==== HSV-1/2 as a Visible, Patient-Reportable Viral Reactivation Probe
+
+<sec:hsv-dormancy-undormancy-probe>
+
+Unlike EBV and HHV-6 --- whose reactivation is invisible, requires serological or molecular testing to detect, and cannot be timestamped by the patient --- HSV-1/2 reactivation produces visible mucocutaneous lesions (cold sores, genital herpes) that the patient can self-document. This creates a unique opportunity: HSV outbreaks constitute a *visible, timestampable, patient-reportable readout of endogenous viral reactivation dynamics* that no other herpesvirus in the ME/CFS panel provides.
+
+*Mechanistic Rationale for HSV as a PEM Probe*
+
+The pathway linking PEM to HSV reactivation is mechanistically coherent at every step, even though it has never been prospectively tested in ME/CFS:
+
+  - PEM involves sympathetic nervous system activation --- documented by CPET studies showing elevated norepinephrine during and after exercise challenge in ME/CFS patients.
+  - Sympathetic activation drives catecholamine release (norepinephrine, epinephrine), which acts on beta-adrenergic and alpha-adrenergic receptors on immune cells --- including Tregs --- altering immune surveillance of latent viral reservoirs.
+  - Catecholamine-mediated stress is an established trigger of HSV-1 reactivation in the general population. A meta-analysis of 11 prospective studies found a robust positive association between psychosocial stress and symptomatic HSV recurrence ($r$ = 0.083, 95% CI 0.025--0.141, $p$ = 0.005) @Chida2009StressHSVMetaAnalysis.
+  - The molecular mechanism has been partially characterized in animal models: host stress leads to increased Treg-mediated suppression of CD8+ T cell immune surveillance at the trigeminal ganglion, permitting HSV-1 to exit latency @Yu2018TregHSVLlatency.
+  - HSV-1/2 latency--reactivation kinetics are among the best-characterized in virology. Reactivation follows a predictable cascade: immediate-early gene expression $arrow.r$ early gene expression $arrow.r$ viral DNA replication $arrow.r$ virion assembly and anterograde transport $arrow.r$ visible lesion.
+  - The complete pathway: PEM $arrow.r$ sympathetic activation $arrow.r$ catecholamine surge $arrow.r$ Treg-mediated CD8+ T cell suppression at ganglia $arrow.r$ HSV exit from latency $arrow.r$ visible cold sore.
+
+*Known Triggers and Base Rates*
+
+HSV-1 global prevalence is approximately 67% in adults under 50 years, with 20--40% of seropositive individuals experiencing recurrent outbreaks @Gopinath2023HerpesLabialis. Known triggers --- UV radiation, psychological stress, fever, menstruation, physical trauma --- are all established in the general population but have never been prospectively tracked against PEM episodes in ME/CFS. A patient seropositive for HSV-1 who experiences 2--3 outbreaks per year is in the normal range, but a patient whose outbreaks cluster temporally with PEM episodes provides a different signal.
+
+*The Probe Framework*
+
+#speculation(title: [HSV Outbreak Frequency × PEM Timing as Endogenous Viral Reactivation Probe])[
+
+*Certainty: 0.20.* The mechanistic rationale is coherent but every ME/CFS-specific link is untested. The stress$arrow.r$HSV reactivation link is established in general-population studies (Chida 2009 meta-analysis, 11 studies, 0.53 discounted certainty) @Chida2009StressHSVMetaAnalysis. The PEM$arrow.r$catecholamine pathway is established in ME/CFS CPET literature (documented elevated norepinephrine during and after exercise challenge). However: (1) no prospective study has tracked HSV outbreak timing relative to PEM episodes in ME/CFS; (2) the Treg$arrow.r$CD8+ T cell$arrow.r$HSV latency mechanism has been demonstrated in mice @Yu2018TregHSVLlatency (discounted certainty 0.30 due to cross-species translation gap) but not in humans with ME/CFS; (3) the null serology literature (Buchwald 1996, n=548; Koelle 2002, 22 twin pairs) found no differences in HSV-1/2 positivity or titre between ME/CFS patients and controls @Buchwald1996ViralSerologies @Koelle2002TwinsHSV, suggesting that HSV infection per se is not the driver --- the temporal pattern of reactivation (frequency relative to PEM) may be informative where static serology is not; (4) HSV recurrence is multifactorial (UV exposure, fever, menstruation, sleep disruption, psychological stress) and PEM-independent triggers must be distinguished from PEM-associated triggers; (5) baseline HSV recurrence in the general population is 20--40%, meaning many reported outbreaks may be normal population-variation. *Origin: brainstorm.*
+
+If HSV outbreaks systematically cluster with PEM episodes (within 24--72 hours of exertion exceeding the individual anaerobic threshold), this would provide: (a) direct evidence of endogenous viral reactivation triggered by PEM --- closing the gap between immune dysfunction models and the failure to detect reactivation in cross-sectional blood sampling; (b) an individualized, patient-reportable biomarker of viral reactivation requiring no laboratory testing; (c) a secondary endpoint for antiviral trials. If HSV outbreaks show no temporal clustering with PEM but are randomly distributed, the probe framework is falsified. If HSV outbreaks cluster with PEM but antiviral suppression of HSV does not reduce PEM severity, HSV reactivation is a downstream consequence of PEM rather than a driver --- still useful as a real-time viral reactivation probe, but not as a therapeutic target.
+
+*Falsifiable prediction:* A prospective diary study ($n$ ≥ 50 HSV-1 seropositive ME/CFS patients, 3--6 months) tracking daily PEM status, HSV prodromal symptoms, and visible cold sore onset with photographic documentation will show: (1) HSV outbreak onset within 48 hours of PEM onset in ≥60% of PEM-associated outbreaks (vs \<20% of non-PEM periods); (2) increased outbreak frequency during weeks with ≥2 PEM episodes; (3) self-reported stress scores (PSS) do not independently predict outbreak timing after controlling for PEM. Falsified if outbreaks are equally temporally distributed between PEM and non-PEM periods, OR if stress scores predict outbreak timing better than PEM.
+
+*Consequence:* If validated, a patient's cold sore diary could function as a real-time, patient-owned viral reactivation biomarker --- inexpensive and accessible, requiring no laboratory infrastructure. This would give patients and clinicians a tool to document what is currently invisible: the connection between exertion and viral recrudescence. However, this is entirely untested and may be a dead end --- HSV recurrence in the general population is common and multifactorial.
+
+*Severity applicability: unknown --- study populations not stratified by ME/CFS severity.* *Evidence source: general-population stress--HSV link (Chida 2009) + murine Treg--CD8--HSV mechanism (Yu 2018).* *Translation gap: animal model $arrow.r$ human; general-population $arrow.r$ ME/CFS.* *Competing explanations: UV exposure, fever, menstruation, sleep disruption, psychological stress independent of PEM, random variation.* *Diagnostic criteria for cited studies: Buchwald 1996 and Koelle 2002 used CDC 1994 (Fukuda) criteria --- broader, less severe CFS population than contemporary IOM/ICC definitions.*
+
+] <spec:hsv-pem-probe>
+
+*The Treg-HSV Latency Connection*
+
+#open-question(title: [Does Treg-Mediated CD8+ T Cell Suppression at HSV Latency Sites Explain PEM-Associated HSV Outbreaks?])[
+
+*Certainty: N/A --- mechanistic hypothesis with zero direct empirical support in ME/CFS.* Synthesis of two independent lines: (1) the Treg$arrow.r$CD8+ T cell$arrow.r$HSV latency axis established in mice @Yu2018TregHSVLlatency (discounted certainty 0.30), and (2) the Treg-herpesvirus-immune hyperactivation model proposed for ME/CFS @Sepulveda2019TregMEHypothesis (certainty 0.50, computational model only). If both lines are correct, ME/CFS patients --- particularly those with elevated Treg percentages --- have HSV outbreaks that are more frequent and more tightly coupled to PEM episodes. However, the Treg model in ME/CFS is unvalidated (computational), the Treg-to-HSV reactivation mechanism has not been tested in humans, and the Treg phenotype in ME/CFS is itself contested. *Origin: brainstorm.*
+
+*Falsifiable prediction:* In HSV-1 seropositive ME/CFS patients with prospective diary: Treg percentage (CD4+CD25+CD127#super[low]) correlates with monthly HSV outbreak frequency ($r$ ≥ 0.3); PEM-associated outbreaks show higher pre-outbreak Treg percentages; CD8+ T cell functionality (IFN-$gamma$ ELISpot to HSV-1 peptides) is lower in patients with more frequent outbreaks. Falsified if no correlation between Treg percentage and outbreak frequency.
+
+*Consequence:* If confirmed, this would link previously disconnected ME/CFS research areas --- Treg biology and herpesvirus reactivation --- through a specific molecular mechanism. However, this is entirely speculative and decades from clinical application.
+
+] <oq:hsv-treg-latency>
+
+*Analogizing the LSR to HSV*
+
+The LSR framework was developed for EBV and is EBV-specific: the ratio of anti-BZLF1 IgG to anti-VCA-p18 IgG distinguishes abortive lytic reactivation from LLPC antibody maintenance (@hyp:lytic-structural-igg-ratio). HSV-1/2 have different latency biology (neuronal, not B cell), different reactivation triggers, and different antibody targets.
+
+#open-question(title: [Can an HSV-Specific Analog of the LSR Validate the Reactivation Probe?])[
+
+*Certainty: N/A --- research question.* An HSV analog would compare anti-ICP0 (immediate-early, expressed at reactivation initiation) to anti-gB/gD (late structural). If HSV reactivation in ME/CFS follows the abortive lytic replication pattern (Section @sec:abortive-lytic), the ICP0-to-structural IgG ratio should be elevated in patients with frequent PEM-associated outbreaks. If the HSV-LSR is elevated but EBV-LSR is normal, the signal is compartmentalized (trigeminal ganglion-specific, not systemic B cell-driven). However, anti-ICP0 IgG has never been measured in any disease context. *Origin: brainstorm.*
+
+*Consequence:* If validated, an HSV-LSR would provide an objective serological correlate of visible reactivation. But this requires anti-ICP0 serology development that does not currently exist, placing it years from implementation.
+
+] <oq:hsv-lsr-analog>
+
+*Structural Limitations of the HSV Probe*
+
+#limitation(title: [HSV Dormancy-Undormancy Probe --- Structural Limitations])[
+
+*Certainty: N/A --- methodological assessment.* The HSV probe faces several structural barriers. Baseline HSV recurrence is common (20--40% of seropositive adults) --- the probe's discriminant value depends on demonstrating PEM-specific temporal clustering above background rates. Approximately 43% of adults are HSV-1 seronegative and are excluded; Buchwald 1996 (n=548) found no clinical differences suggesting the seronegative subset differs meaningfully. Patient self-report of cold sores is unreliable without PCR confirmation --- aphthous stomatitis (canker sores) is immune-mediated, not viral, and clinically indistinguishable from herpes labialis. HSV-1 (trigeminal/oral) and HSV-2 (sacral/genital) have different latency sites and triggers; conflation dilutes the signal. The most parsimonious null hypothesis --- that HSV outbreaks and PEM share a catecholamine trigger but are mechanistically independent, making the HSV probe redundant with existing autonomic monitoring (HRV, norepinephrine) --- has not been falsified. *Origin: brainstorm --- categories 10--12 consolidation.*
+
+*Consequence:* none --- this is a methodological quality assessment enumerating structural barriers the probe must overcome. The prospective diary study (@spec:hsv-pem-probe) is the critical first step.
+
+] <lim:hsv-probe-limitations>
+
 #include "subsec-06-antibody-persistence/subsec-06-antibody-persistence.typ"
 
 ==== Abortive Lytic Replication and dUTPase
 <sec:abortive-lytic>
 
-A key challenge in ME/CFS virology is that standard viral load measurements frequently show no difference between patients and controls, despite serological evidence of immune activation against herpesviruses. Ariza et al.\ propose that *abortive lytic replication* (ALR) resolves this paradox @Ariza2025polyherpesvirus.
+A key challenge in ME/CFS virology is that standard viral load measurements frequently show no difference between patients and controls, despite serological evidence of immune activation against herpesviruses. Ariza et al.\ propose that *abortive lytic replication* (ALR) resolves this paradox @Ariza2025polyherpesvirus.
 
-In ALR, herpesviruses initiate the lytic cycle but do not complete it: immediate-early and early lytic genes are expressed, producing viral proteins, but no infectious virions are assembled @Ariza2025polyherpesvirus. Because no new virions are produced, conventional viral load assays (qRT-PCR for viral DNA in plasma) remain negative, while the host immune system responds to the expressed viral proteins.
+In ALR, herpesviruses initiate the lytic cycle but do not complete it: immediate-early and early lytic genes are expressed, producing viral proteins, but no infectious virions are assembled @Ariza2025polyherpesvirus. Because no new virions are produced, conventional viral load assays (qRT-PCR for viral DNA in plasma) remain negative, while the host immune system responds to the expressed viral proteins.
 
 *dUTPase as Immunomodulatory Driver*
-Among the early gene products expressed during ALR, herpesvirus-encoded deoxyuridine triphosphate nucleotidohydrolases (d UTPases) have emerged as particularly significant @Ariza2025polyherpesvirus @Palomo2026herpesvirus:
+Among the early gene products expressed during ALR, herpesvirus-encoded deoxyuridine triphosphate nucleotidohydrolases (d UTPases) have emerged as particularly significant @Ariza2025polyherpesvirus @Palomo2026herpesvirus:
 
     - dUTPases are conserved across EBV (BLLF3), HHV-6 (U45), and VZV (ORF8)
     - These enzymes possess novel immunomodulatory and neuromodulatory functions beyond their catalytic role
     - They can directly activate innate immune signaling, potentially driving chronic immune activation without productive infection
-    - Anti-dUTPase IgG antibodies are elevated in ME/CFS: across cohorts, 30.91% (single-sample analysis) to 52.7% (longitudinal sampling) of patients show simultaneous antibodies against multiple herpesvirus dUTPases versus 17.21% of controls @Ariza2025polyherpesvirus
-    - Anti-dUTPase antibody levels correlate directly with fatigue and pain severity @Palomo2026herpesvirus
-    - EBV dUTPase protein has been detected in postmortem ME/CFS brain tissue but not in non-ME/CFS controls, suggesting ALR occurs in the central nervous system @Ariza2025polyherpesvirus
+    - Anti-dUTPase IgG antibodies are elevated in ME/CFS: across cohorts, 30.91% (single-sample analysis) to 52.7% (longitudinal sampling) of patients show simultaneous antibodies against multiple herpesvirus dUTPases versus 17.21% of controls @Ariza2025polyherpesvirus
+    - Anti-dUTPase antibody levels correlate directly with fatigue and pain severity @Palomo2026herpesvirus
+    - EBV dUTPase protein has been detected in postmortem ME/CFS brain tissue but not in non-ME/CFS controls, suggesting ALR occurs in the central nervous system @Ariza2025polyherpesvirus
 
 #limitation(title: [dUTPase Evidence Base])[
 The dUTPase findings derive primarily from one research group (Ariza, Williams, and collaborators). While results are internally consistent across multiple cohorts and include longitudinal data, independent replication by other groups is needed. The postmortem brain tissue finding is from a small sample. Additionally, elevated anti-dUTPase antibodies establish an association with ME/CFS but do not prove that ALR-derived dUTPase is causally driving symptoms rather than serving as a marker of broader immune dysregulation.
@@ -152,16 +223,16 @@ The dUTPase findings derive primarily from one research group (Ariza, Williams, 
 ==== Poly-Herpesvirus Co-Reactivation
 <sec:poly-herpesvirus>
 
-Rather than a single herpesvirus driving ME/CFS, accumulating evidence points to simultaneous reactivation of multiple herpesviruses as a hallmark of post-infectious ME/CFS @Ariza2025polyherpesvirus @Palomo2026herpesvirus:
+Rather than a single herpesvirus driving ME/CFS, accumulating evidence points to simultaneous reactivation of multiple herpesviruses as a hallmark of post-infectious ME/CFS @Ariza2025polyherpesvirus @Palomo2026herpesvirus:
 
-    - 72.5% of ME/CFS patients co-express antibodies to EBV, HHV-6, and VZV simultaneously, versus 31% of controls @Palomo2026herpesvirus
+    - 72.5% of ME/CFS patients co-express antibodies to EBV, HHV-6, and VZV simultaneously, versus 31% of controls @Palomo2026herpesvirus
     - This pattern suggests systemic immune surveillance failure rather than reactivation of a single pathogen
     - The proposed cascade: initial herpesvirus undergoes ALR $arrow.r$ chronic dUTPase production drives T cell exhaustion $arrow.r$ CD8#super[+] T cell dysfunction permits sequential reactivation of additional herpesviruses
     - Disease severity may correlate with the number of co-reactivated viruses and the duration of T cell exhaustion
 
 #speculation(title: [Poly-Herpesvirus ALR Cascade])[
 
-*Certainty: 0.35.* The poly-herpesvirus ALR model is mechanistically coherent and consistent with the dUTPase antibody data (multiple cohorts showing 30–72% co-reactivation in ME/CFS versus 17–31% in controls). However, the hypothesis has not been directly tested: no study has prospectively tracked the temporal sequence of herpesvirus reactivation events, and the proposed T cell exhaustion cascade remains inferred from cross-sectional serological data. Independent replication of the dUTPase findings is pending.
+*Certainty: 0.35.* The poly-herpesvirus ALR model is mechanistically coherent and consistent with the dUTPase antibody data (multiple cohorts showing 30--72% co-reactivation in ME/CFS versus 17--31% in controls). However, the hypothesis has not been directly tested: no study has prospectively tracked the temporal sequence of herpesvirus reactivation events, and the proposed T cell exhaustion cascade remains inferred from cross-sectional serological data. Independent replication of the dUTPase findings is pending.
 
 If poly-herpesvirus ALR is a primary driver of post-infectious ME/CFS, then: (1) patients with antibodies against more herpesvirus dUTPases should have more severe symptoms; (2) single-agent antiviral therapy should produce only partial benefit, while broad-spectrum or combination antiviral approaches should be more effective; (3) prospective longitudinal sampling should reveal sequential herpesvirus reactivation events following the index infection; (4) dUTPase-targeted interventions should reduce immune activation markers independently of viral load.
 
@@ -200,4 +271,3 @@ Current evidence does not definitively distinguish these mechanisms, though the 
 #limitation(title: [Viral Reactivation: Causal Direction Unresolved])[
 While herpesvirus reactivation is documented in a subset of ME/CFS patients, no study has established the causal direction. Elevated viral titers and reactivation markers could be: (a) a cause of immune dysfunction driving symptoms, (b) a consequence of pre-existing NK cell/T cell dysfunction permitting reactivation, or (c) an epiphenomenon of general immune dysregulation with no independent causal role. The partial and inconsistent response to antiviral monotherapy does not resolve this ambiguity. Longitudinal intervention studies with simultaneous tracking of viral load, immune function, and symptoms are required.
 ]
-
