@@ -8384,5 +8384,15 @@
     "label": "ELISpot",
     "category": "method",
     "definition": "Enzyme-Linked Immunospot \u2014 a laboratory assay measuring the frequency of cytokine-secreting cells (e.g., IFN-\u03b3-producing T cells) at the single-cell level. Used to quantify antigen-specific T cell responses."
+  },
+  "Keap1": {
+    "label": "Keap1",
+    "category": "enzyme",
+    "definition": "Kelch-like ECH-associated protein 1 \u2014 a sensor protein that binds Nrf2 and targets it for degradation under basal conditions. Under oxidative stress, Keap1 releases Nrf2, allowing it to activate protective genes."
+  },
+  "resensitization": {
+    "label": "Resensitization",
+    "category": "mechanism",
+    "definition": "The process by which desensitized receptors are recycled back to the cell surface in a drug-responsive state after a drug-free interval. Requires receptor dephosphorylation in endosomes."
   }
 }

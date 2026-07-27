@@ -20,4 +20,5 @@
 #include "../open-questions/open-question-1.typ"
 #include "../speculations/speculation-4.typ"
 #include "../protocols/protocol-1.typ"
+#include "../protocols/protocol-5.typ"
 #include "../remarks/key-point-2.typ"
