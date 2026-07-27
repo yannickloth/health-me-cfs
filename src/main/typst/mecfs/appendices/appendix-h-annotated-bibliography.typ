@@ -5126,7 +5126,7 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
     *Key Findings:*:
 
         - N=118 CFS patients (Fukuda criteria), 14-day sleep diary with standardized neuropsychological testing
-        - Afternoon napping predicted worse objective cognitive dysfunction, explaining 25.6% of variance (p<.001)
+        - Afternoon napping predicted worse objective cognitive dysfunction, explaining 25.6% of variance (p\<.001)
         - Morning napping predicted worse subjective cognitive dysfunction, explaining 32.2% of variance
         - Longer nap duration and afternoon nap timing both associated with greater daytime sleepiness
         - No experimental manipulation — purely observational association
@@ -9975,9 +9975,9 @@ This section covers the foundational mechanosensation and nociception literature
     *Intervention:*: Maximally tolerated acetazolamide (up to 4 g/day) vs placebo + low-sodium diet
     *Key Findings:*:
         - Acetazolamide improved visual field function (+0.71 dB, p=.050)
-        - Reduced papilledema (p<.001)
+        - Reduced papilledema (p\<.001)
         - Improved vision-related QoL (p=.003)
-        - Weight loss -4.05 kg (p<.001)
+        - Weight loss -4.05 kg (p\<.001)
     *Relevance:*: Landmark Class I evidence establishing acetazolamide as first-line IIH therapy. Demonstrates that CA inhibition reduces CSF production, directly supporting the "reduce input" side of the combined hypothesis. Establishes mechanistic basis for acetazolamide use in CSF dynamics disorders.
     *Limitations:*: Modest effect size on visual field; 50\% experienced treatment-limiting adverse effects (paresthesias, dysgeusia); benefit may partially reflect weight loss; nearly all participants were women (limiting generalizability).
     *Certainty Assessment:*:
@@ -21210,7 +21210,7 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
         - HR 1.46 (hospitalized) and 1.56 (non-hospitalized) for new-onset CFS/ME vs COVID- controls
         - Females, liver disease, autoimmune disorders, anxiety disorders at higher risk
         - Re-infection NOT associated with increased CFS/ME risk
-        - **None of the acute blood biomarkers (ferritin, D-dimer, LDH, CRP, etc.) associated with future CFS/ME risk**
+        - *None of the acute blood biomarkers (ferritin, D-dimer, LDH, CRP, etc.) associated with future CFS/ME risk*
         - COVID-19 vaccination in initial rollout associated with increased CFS/ME risk
     *Conclusion:*: SARS-CoV-2 infection increases CFS/ME risk independent of hospitalization. Acute-phase biomarkers including ferritin do NOT predict who will develop CFS/ME.
     *Limitations:*: Retrospective; EHR-based diagnosis (underascertainment); single US health system; vaccination finding confounded by era.
@@ -28646,6 +28646,13 @@ sec-bib-rf-elevated-mecfs-duplicate
 
 // =============================================================================
 
+== Pharmacodiagnostic Negative-Control Class
+<sec:bib-negative-control-class>
+
+// Placeholder section for negative-control class annotated bibliography entries.
+
+// =============================================================================
+
 == Pharmacodiagnostic Matrix — Diagnostic Methodology
 <sec:bib-pharmacodiagnostic-matrix>
 // =============================================================================
@@ -31168,3 +31175,207 @@ sec-bib-rf-elevated-mecfs-duplicate
     / *Conclusion:*: Nrf2 activators (sulforaphane, NAC, quercetin in the ME/CFS framework) operate via hormetic mechanisms. Continuous high-dose administration may exhaust the adaptive Nrf2 response (Keap1 degradation, negative feedback via GSK3β). Implies pulsed low-dose may sustain Nrf2-mediated benefit better than continuous high-dose — a hypothesis directly testable in the ME/CFS framework.
     / *Limitations:*: Review; 2008 (dated); no clinical dosing studies.
     / *Certainty:*: 0.55
+
+// =============================================================================
+
+== Subjective-Measurable Discrepancy in ME/CFS <sec:bib-subjective-measurable-discrepancy>
+// =============================================================================
+
+This section collects papers documenting the fundamental pattern where ME/CFS patients report severe, disabling symptoms that standard objective measurements do not capture, contradict, or detect only under provocation. The discrepancy spans sleep, autonomic function, physical activity, cognition, and systemic biomarkers. It is diagnosis-independent and domain-independent — a replicated phenomenon requiring mechanistic explanation, not psychiatric dismissal.
+
+=== Novak et al.\ 2024 — Mismatch Between Subjective and Objective Dysautonomia
+
+    / *Full Citation:*: Novak P, Systrom DM, Marciano SP, et al.\ Mismatch between subjective and objective dysautonomia. _Scientific Reports_. 2024;14(1):2513. @Novak2024DysautonomiaMismatch
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-024-52368-x")[10.1038/s41598-024-52368-x]
+    / *PMID:*: 38291116
+    / *PMCID:*: PMC10828385
+    / *Published:*: January 30, 2024
+    / *Study Design:*: Retrospective cross-sectional study
+    / *Sample Size:*: n=2627 patients undergoing autonomic testing (including n=95 ME/CFS)
+    / *Key Findings:*:
+        - Zero correlation between validated subjective autonomic questionnaires (SAS, COMPASS-31) and objective autonomic testing (QASAT, CASS): SAS vs QASAT r≈0
+        - Strong internal correlations: SAS vs COMPASS-31 r=0.74; QASAT vs CASS r=0.81
+        - Null cross-correlation was diagnosis-independent — present in ME/CFS, POTS, PASC, hEDS, MCAS, neurogenic OH, diabetes, preload failure, PTLS, HαT
+        - Some patients overestimate, some underestimate true autonomic deficit
+    / *Conclusion:*: Autonomic questionnaires cannot replace autonomic testing as a screening or diagnostic tool. The diagnosis-independent subjective-objective mismatch highlights the unmet need for reliable screening surveys and suggests autonomic-like symptomatology may differ mechanistically from measurable autonomic deficit.
+    / *Limitations:*: Retrospective; single-center (Brigham and Women's Faulkner Hospital); referral bias.
+    / *Certainty:*: 0.80
+
+=== Watson et al.\ 2003 — Subjective vs Objective Insomnia in CFS-Discordant Twins
+
+    / *Full Citation:*: Watson NF, Kapur V, Arguelles LM, et al.\ Comparison of subjective and objective measures of insomnia in monozygotic twins discordant for chronic fatigue syndrome. _Sleep_. 2003;26(3):324--328. @Watson2003InsomniaDiscordance
+    / *DOI:*: #link("https://doi.org/10.1093/sleep/26.3.324")[10.1093/sleep/26.3.324]
+    / *PMID:*: 12749553
+    / *Study Design:*: Monozygotic co-twin control study
+    / *Sample Size:*: 22 twin pairs discordant for CFS
+    / *Key Findings:*:
+        - CFS twins endorsed 8/8 subjective insomnia measures significantly more than healthy co-twins (all p≤0.05)
+        - Objective PSG: NO differences in sleep latency, total sleep time, sleep efficiency, arousal number, arousal index, or NREM architecture
+        - Only REM% was elevated in CFS twins (27.7\% vs 24.4\%, p≤0.05)
+        - Post-PSG survey: CFS twins reported fewer hours slept and felt less well-rested despite identical recorded sleep
+    / *Conclusion:*: ME/CFS patients suffer from an element of sleep-state misperception. The higher percentage of REM sleep implies REM may play a role in this illness.
+    / *Limitations:*: Small sample; Fukuda criteria; single-night PSG (first-night effect possible).
+    / *Certainty:*: 0.75
+
+=== Watson et al.\ 2004 — Subjective vs Objective Sleepiness in CFS-Discordant Twins
+
+    / *Full Citation:*: Watson NF, Jacobsen C, Goldberg J, Kapur V, Buchwald D. Subjective and objective sleepiness in monozygotic twins discordant for chronic fatigue syndrome. _Sleep_. 2004;27(5):973--977. @Watson2004SleepinessDiscordance
+    / *DOI:*: #link("https://doi.org/10.1093/sleep/27.5.973")[10.1093/sleep/27.5.973]
+    / *PMID:*: 15453557
+    / *Study Design:*: Monozygotic co-twin control study
+    / *Sample Size:*: 20 twin pairs discordant for CFS
+    / *Key Findings:*:
+        - CFS twins significantly more subjective sleepiness: ESS 10.9 vs 8.2 (p = 0.03); SSS 3.4 vs 2.1 (p $<$ 0.001)
+        - Mean sleep latency on MSLT NOT significantly different: 8.9 vs 10.0 min (p=0.33) — both non-pathologic
+        - Mean SSS scores increased among CFS twins and decreased among healthy twins over the 4-nap MSLT
+        - ESS scores and MSLT latency negatively correlated for all twins (r=−0.40), slightly stronger in healthy twins
+    / *Conclusion:*: CFS patients report significantly more subjective sleepiness despite similar non-pathologic MSLT latencies. Patients may mistake their chronic disabling fatigue for sleepiness.
+    / *Limitations:*: Small sample; Fukuda criteria.
+    / *Certainty:*: 0.75
+
+=== Armitage et al.\ 2009 — Quantitative Sleep EEG in CFS-Discordant Twins
+
+    / *Full Citation:*: Armitage R, Landis C, Hoffmann R, et al.\ Power spectral analysis of sleep EEG in twins discordant for chronic fatigue syndrome. _Journal of Psychosomatic Research_. 2009;66(1):51--57. @Armitage2009SleepEEG
+    / *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2008.08.004")[10.1016/j.jpsychores.2008.08.004]
+    / *PMID:*: 19073294
+    / *PMCID:*: PMC2634600
+    / *Study Design:*: Monozygotic co-twin control study
+    / *Sample Size:*: 13 female twin pairs discordant for CFS
+    / *Key Findings:*:
+        - No significant differences in quantitative sleep EEG spectral power in ANY frequency band (delta through beta) between CFS and healthy co-twins
+        - Phasic alpha-delta activity present in 5 CFS subjects but also 4/5 healthy co-twins — suggests genetic influence, not disease-specific
+        - Despite prominent subjective sleep complaints, quantitative sleep microarchitecture is identical
+    / *Conclusion:*: Genetic influences on sleep microarchitecture appear stronger than the disease influence of CFS, despite greater subjective sleep complaint among CFS twins. EEG techniques focusing on short-duration events or paradigms probing sleep regulation may better describe sleep abnormalities.
+    / *Limitations:*: Small sample; female only; two-night protocol.
+    / *Certainty:*: 0.65
+
+=== Byrnes et al.\ 2009 — Gene Expression in CFS-Discordant Twins: No Evidence of a Biomarker
+
+    / *Full Citation:*: Byrnes A, Jacks A, Dahlman-Wright K, et al.\ Gene expression in peripheral blood leukocytes in monozygotic twins discordant for chronic fatigue: no evidence of a biomarker. _PLoS ONE_. 2009;4(6):e5805. @Byrnes2009NoBiomarker
+    / *DOI:*: #link("https://doi.org/10.1371/journal.pone.0005805")[10.1371/journal.pone.0005805]
+    / *PMID:*: 19503787
+    / *PMCID:*: PMC2688030
+    / *Study Design:*: Monozygotic co-twin control study
+    / *Sample Size:*: 44 twin pairs (88 individuals) discordant for CFS/ICF
+    / *Key Findings:*:
+        - No significant differences in gene expression for ANY transcript in peripheral blood leukocytes
+        - Used Affymetrix Human Genome U133 Plus 2.0 arrays with rigorous ancestry and experimental error controls
+        - RNA-stabilizing media used to prevent degradation
+    / *Conclusion:*: Severe disabling chronic fatiguing illness produces zero detectable peripheral blood transcriptomic signature. Positive findings in prior gene expression studies may have resulted from experimental bias (ancestry mismatch, sample handling).
+    / *Limitations:*: Microarray technology (sensitivity lower than RNA-seq); peripheral blood only (may miss tissue-level or CNS-confined expression changes); Fukuda criteria.
+    / *Certainty:*: 0.65
+
+=== Teodoro et al.\ 2018 — Unifying Theory for Cognitive Abnormalities in FND, FM, and CFS
+
+    / *Full Citation:*: Teodoro T, Edwards MJ, Isaacs JD. A unifying theory for cognitive abnormalities in functional neurological disorders, fibromyalgia and chronic fatigue syndrome: systematic review. _Journal of Neurology, Neurosurgery & Psychiatry_. 2018;89(12):1308--1319. @Teodoro2018UnifyingTheory
+    / *DOI:*: #link("https://doi.org/10.1136/jnnp-2017-317823")[10.1136/jnnp-2017-317823]
+    / *PMID:*: 29735513
+    / *PMCID:*: PMC6288708
+    / *Study Design:*: Systematic review
+    / *Sample Size:*: 52 FM, 95 CFS, 39 FND studies
+    / *Key Findings:*:
+        - General discordance between high rates of subjective cognitive symptoms (forgetfulness, distractibility, word-finding difficulties) and inconsistent objective neuropsychological deficits
+        - Objective deficits when present: poor selective/divided attention, slow information processing, vulnerability to distraction
+        - CFS patients showed heightened perception of effort on cognitive tasks
+        - Performance validity testing demonstrated poor effort in only a minority
+        - Cognitive performance inversely correlated with pain, exertion, and fatigue in some studies
+    / *Conclusion:*: Proposes mechanistic model: pain, fatigue, and excessive interoceptive monitoring → decreased externally directed attention → increased distractibility → slower information processing → routine cognitive processes experienced as unduly effortful. May reflect switch from automatic to controlled cognitive mode.
+    / *Limitations:*: Systematic review; heterogeneity in cognitive tests across studies; correlation-based model, not causal.
+    / *Certainty:*: 0.70
+
+=== Vergauwen et al.\ 2021 — Discrepancies Between Objective and Subjective Physical Activity in Female CFS
+
+    / *Full Citation:*: Vergauwen K, Huijnen IPJ, Smeets RJEM, et al.\ An exploratory study of discrepancies between objective and subjective measurement of the physical activity level in female patients with chronic fatigue syndrome. _Journal of Psychosomatic Research_. 2021;144:110417. @Vergauwen2021ActivityDiscrepancy
+    / *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2021.110417")[10.1016/j.jpsychores.2021.110417]
+    / *PMID:*: 33773330
+    / *Study Design:*: Cross-sectional study with matched controls
+    / *Sample Size:*: n=66 female CFS + 20 matched healthy controls
+    / *Key Findings:*:
+        - Weak association between activity diary and Actical accelerometer in CFS (rs=0.35--0.38) vs moderately strong in HC (rs=0.60--0.64)
+        - Linear mixed model: negative association between age and discrepancy — older CFS patients more accurately estimated activity
+        - Discrepancy NOT explained by illness-related complaints, HRQOL domains, or demographic factors
+    / *Conclusion:*: The activity diary shows limited ability to register physical activity level in female CFS patients. Activity diary cannot replace objective activity monitoring with an accelerometer but may provide additional information about perceived activity.
+    / *Limitations:*: Female only; Fukuda criteria; small HC group; 6-day monitoring.
+    / *Certainty:*: 0.70
+
+=== van Campen et al.\ 2021 — Deconditioning Does Not Explain Orthostatic Intolerance in ME/CFS
+
+    / *Full Citation:*: van Campen CLMC, Rowe PC, Visser FC. Deconditioning does not explain orthostatic intolerance in ME/CFS (myalgic encephalomyelitis/chronic fatigue syndrome). _Journal of Translational Medicine_. 2021;19(1):193. @vanCampen2021Deconditioning
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-021-02819-0")[10.1186/s12967-021-02819-0]
+    / *PMID:*: 33947430
+    / *PMCID:*: PMC8097965
+    / *Study Design:*: Cross-sectional controlled study
+    / *Sample Size:*: n=199 ME/CFS + 22 healthy controls
+    / *Key Findings:*:
+        - CBF reduction during tilt: 26\% in ME/CFS vs 7\% in controls (p $<$ 0.0001)
+        - No difference in CBF reduction among ME/CFS patients with no, mild, or severe deconditioning (per CPET \%peak VO#sub[2])
+        - Normal HR/BP, POTS, and OH subgroups showed identical CBF reductions
+        - HCs had higher oxygen consumption at ventilatory threshold and peak exercise vs ME/CFS
+    / *Conclusion:*: Orthostatic intolerance in ME/CFS is not caused by deconditioning as defined by CPET. Abnormal high decline in cerebral blood flow during orthostatic stress is present in ALL ME/CFS patients regardless of fitness or resting hemodynamic classification.
+    / *Limitations:*: Cross-sectional; single-center; CPET-based deconditioning classification may not capture all dimensions.
+    / *Certainty:*: 0.70
+
+=== Friedberg et al.\ 2022 — Nonimprovement in CFS: Autonomic Dysfunction and Activity Patterns
+
+    / *Full Citation:*: Friedberg F, Adamowicz JL, Bruckenthal P, Milazzo M, Ramjan S, Quintana D. Nonimprovement in Chronic Fatigue Syndrome: Relation to Activity Patterns, Uplifts and Hassles, and Autonomic Dysfunction. _Psychosomatic Medicine_. 2022;84(6):669--678. @Friedberg2022Nonimprovement
+    / *DOI:*: #link("https://doi.org/10.1097/PSY.0000000000001082")[10.1097/PSY.0000000000001082]
+    / *PMID:*: 35420586
+    / *PMCID:*: PMC9271593
+    / *Study Design:*: Prospective observational study (6-month follow-up)
+    / *Sample Size:*: n=148 CFS (87.2\% female)
+    / *Key Findings:*:
+        - Nonimprovement (n=92) vs improvement (n=38): lower HRV (group difference 5.93 ms, p=0.032) and lower behavioral uplifts intensity (p=0.043)
+        - No significant differences in self-reported activity patterns (push-crash, limiting activity, healthy pacing) between groups
+        - 6 months of weekly web diaries + heart monitoring + 3 months actigraphy
+    / *Conclusion:*: Patient-reported nonimprovement links to objective autonomic dysfunction (lower HRV) but NOT to self-reported activity patterns. HRV may be a biological marker of illness trajectory. Self-report of activity patterns does not track objective autonomic status.
+    / *Limitations:*: Fukuda criteria; predominantly female; self-selected sample; observational (cannot determine causation).
+    / *Certainty:*: 0.60
+
+=== Paffrath et al.\ 2024 — Impaired Hand Grip Strength Correlates with Disability and Symptom Severity in Post-COVID ME/CFS
+
+    / *Full Citation:*: Paffrath A, Kim L, Kedor C, et al.\ Impaired Hand Grip Strength Correlates with Greater Disability and Symptom Severity in Post-COVID Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Journal of Clinical Medicine_. 2024;13(7):2153. @Paffrath2024HandGrip
+    / *DOI:*: #link("https://doi.org/10.3390/jcm13072153")[10.3390/jcm13072153]
+    / *PMID:*: 38610918
+    / *PMCID:*: PMC11012649
+    / *Study Design:*: Cross-sectional study
+    / *Sample Size:*: n=144 female PCS (78 meeting CCC for ME/CFS)
+    / *Key Findings:*:
+        - ME/CFS subgroup had greater disability (p $<$ 0.001), fatigue (p $<$ 0.001), PEM (p $<$ 0.001), and autonomic dysfunction (p = 0.004) vs non-ME/CFS PCS
+        - HGS correlated significantly with physical function across all PCS patients
+        - ONLY in ME/CFS subgroup did HGS also associate with hallmark symptom severity (fatigue, PEM, autonomic dysfunction)
+    / *Conclusion:*: HGS serves as an objective marker of physical function. Only in patients meeting ME/CFS criteria is impaired HGS also associated with hallmark symptom severity — suggesting a common mechanism for muscle fatigue and other symptoms unique to the ME/CFS subtype.
+    / *Limitations:*: Female only; post-COVID ME/CFS only (not infection-independent ME/CFS); cross-sectional.
+    / *Certainty:*: 0.75
+
+=== Bansal et al.\ 2020 — Overlapping QoL Symptoms in Primary Antibody Deficiency and CFS
+
+    / *Full Citation:*: Bansal RA, Tadros S, Bansal AS. The presence of overlapping quality of life symptoms in primary antibody deficiency (PAD) and chronic fatigue syndrome (CFS). _Allergy, Asthma & Clinical Immunology_. 2020;16:21. @Bansal2020PADFatigue
+    / *DOI:*: #link("https://doi.org/10.1186/s13223-020-0417-3")[10.1186/s13223-020-0417-3]
+    / *PMID:*: 32256619
+    / *PMCID:*: PMC7106611
+    / *Study Design:*: Cross-sectional postal survey
+    / *Sample Size:*: n=188 PAD patients on immunoglobulin replacement therapy
+    / *Key Findings:*:
+        - 16.25\% of respondents met CFS diagnostic criteria (vs 0.5\% community prevalence)
+        - Minimum estimated frequency: 4\% of all PAD patients (adjusted for response bias)
+        - Fatigue correlated with anxiety and depression but NOT with self-reported lung damage
+        - Sleep disturbance affected 60\% of respondents
+    / *Conclusion:*: High frequency of CFS-compatible symptoms in PAD patients on adequate immunoglobulin replacement. Subjective symptom burden is discordant with objective pulmonary parameters — fatigue is not explained by measurable organ damage.
+    / *Limitations:*: Postal survey (low response rate, selection bias); self-reported diagnoses; no objective PFT data.
+    / *Certainty:*: 0.45
+
+=== Niederman 2026 — Observation as Intervention in Chronic Diagnostic Complexity
+
+    / *Full Citation:*: Niederman CN. A Perspective on Observation as Intervention in Chronic Diagnostic Complexity. _Journal of Patient Experience_. 2026;13:23743735261449971. @Niederman2026Observation
+    / *DOI:*: #link("https://doi.org/10.1177/23743735261449971")[10.1177/23743735261449971]
+    / *PMID:*: 42137851
+    / *PMCID:*: PMC13168711
+    / *Study Design:*: Patient perspective / narrative medicine
+    / *Key Findings:*:
+        - Nine-year diagnostic course with ME/CFS: normal examinations and laboratory findings throughout
+        - Subtle but consistent indicators of impaired energy regulation and exertional intolerance were present across repeated clinical encounters but remained clinically unintegrated when viewed cross-sectionally
+        - Structured longitudinal observation — rather than reactive single-time-point measurement — revealed a coherent physiological pattern
+        - Argues observation is an active, rigorous clinical strategy, not passive absence of intervention
+    / *Conclusion:*: Modern medicine's emphasis on action and single-time-point measurements fails conditions where abnormalities are only apparent under provocation or across time. Structured observation preserves diagnostic curiosity and allows physiology to express itself without confounding interventions.
+    / *Limitations:*: Single patient perspective; narrative, not empirical; no quantitative data.
+    / *Certainty:*: 0.30
