@@ -1,0 +1,178 @@
+---
+title: "Part 4: The Pharmacopoeia — Every Dose Range for Every Medication, and What It Means"
+description: "You've tried a drug at one dose and it didn't work. Or it worked, then stopped. Or it caused a side effect your doctor dismissed. Here's how to read dose-response across eighteen medications — not just whether a drug 'works,' but what each dose range reveals about your underlying biology."
+author: "Yannick Loth"
+date: "2026-07-27"
+categories: [Treatment, Pharmacology, ME/CFS]
+---
+
+Anyone who has been through the trial-and-error cycle enough times knows the pattern by heart: start a drug, notice something, titrate up, lose the something, titrate down, get the something back. The doctor records "responder" or "non-responder" and moves on — a binary that throws away most of the information. *Where* on the dose axis a response appeared, and where it disappeared, is the diagnostic signal. The rest is lossy compression.
+
+The three previous posts established why: the eighteen drugs with inverted-U dose-response curves fall into four mechanistically distinct categories, and the dose at which benefit appears, peaks, and inverts can reveal which mechanism is rate-limiting. This post is the patient-facing companion to the consolidated reference table now in the primary paper (ch32, sec-14). What follows is a walk through every drug, every clinically relevant dose band, and what each band *may* mean — benefit, loss of benefit, side effects, and silence all carry information.
+
+Two caveats before we begin. First, every cross-drug inference here is untested. The cluster-correlation claim — that Nrf2 drugs' windows should track each other but not catecholamine drugs' windows — is the core falsifiable hypothesis, and it awaits the HIP-B trial. These are empirical bets, not established fact. Second, the framework may be wrong. The dose at which a drug works, and the dose at which it stops working, remains information about biology regardless of whether the interpretive layer on top of it holds up. The dose-response curve is yours. The theory around it is provisional.
+
+---
+
+## Category 1: Nrf2-mediated hormesis
+
+These drugs trigger anti-inflammatory and antioxidant gene expression through the Keap1-Nrf2-ARE pathway. The benefit is the cell's own adaptive response, not the drug's direct action. Too little drug fails to fire the stress signal; too much extinguishes it or overwhelms the cell's compensatory machinery. The therapeutic window is therefore narrow by design.
+
+### LDN (Low-Dose Naltrexone)
+
+LDN hits four targets, each at a different plasma concentration: TLR4/Nrf2 hormetic priming (peaks at 0.5–1.5 mg), opioid compensatory upregulation (plateaus by 1.5–3.0 mg), TRPM3 ion channel restoration (likely 3.0–4.5 mg), and orexin disinhibition (tracking the TLR4 curve). The right dose depends entirely on which mechanism is dominant — see Part 1 for the full four-mechanism cascade.
+
+| Dose | Mechanism engaged | If it works | If it doesn't, or stops working | Side effects |
+|------|-------------------|-------------|---------------------------------|--------------|
+| 0.25–0.5 mg | Micro-dose probe | High sensitivity; a narrow window across all Nrf2-cluster drugs is likely | The triggering threshold may not be reached — try 1.0–1.5 mg. Or baseline oxidative tone is low and a larger perturbation is needed to fire the sensor | Flare at micro-dose points to homeostatic overshoot (see Part 3): the system's buffering capacity is too low to contain the adaptive response. Try 0.1 mg sublingual drops; if the flare persists, dose-finding is premature |
+| 0.5–1.5 mg | TLR4/Nrf2 hormetic priming | TLR4-driven neuroinflammation is rate-limiting and the microglia are Nrf2-responsive. The width of this window (benefit lost at 1.0 mg vs. persisting to 1.5 mg) estimates Nrf2 reserve | Benefit lost below 1.5 mg means narrow Nrf2 reserve. No benefit at all suggests TLR4 is not the rate-limiting input on the microglia | Vivid dreams, initial sleep disruption — opioid receptor engagement detectable even at micro-doses. Usually transient (1–2 weeks). Persistent beyond 3 weeks: try 0.25 mg morning + 0.25 mg evening |
+| 1.5–3.0 mg | Transition zone: TLR4/Nrf2 fading, opioid compensation rising | Maintained benefit suggests opioid upregulation is contributing or Nrf2 reserve is broad enough to sustain priming. Loss of benefit means TLR4 blockade is too complete while opioid compensation hasn't yet plateaued | Loss at 1.5–2.0 mg is the most common pattern — a pure TLR4/Nrf2-dominant response | "Wired" feeling suggests orexin disinhibition engaging. If tolerable, continue |
+| 3.0–4.5 mg | TRPM3 restoration, opioid plateau, orexin disinhibition. TLR4/Nrf2 extinguished | Benefit appearing here for the first time points to TRPM3 channelopathy or orexin deficiency. Benefit maintained from lower doses means opioid compensation is the dominant driver | No benefit here (and 0.5–1.5 mg also failed) means none of LDN's four mechanisms is rate-limiting — the differential narrows to D2-pathway (LDA), autoantibodies, B-cell pathology, MCAS, or structural causes | Excessive wakefulness; when coupled with loss of anti-inflammatory benefit, the net effect is neutral-to-negative |
+| 4.5–9.0 mg | All mechanisms past optima; approaching mu-opioid antagonism | No mechanism has an optimum above 4.5 mg — any benefit was already achieved at 4.5 | Expected — all four mechanisms are past their dose optima. The drug hasn't failed; the dose is too high | Irritability, dysphoria — mu antagonism engaging. Do not escalate further |
+| ≥50 mg | Full mu-opioid antagonist | No therapeutic rationale in ME/CFS | All LDN-specific mechanisms extinguished | Anhedonia, worsened pain — stop, return to the effective low dose |
+
+**What it implies for other drugs:** Benefit in the 0.5–1.5 mg range is consistent with response to other Nrf2 activators (sulforaphane, low-dose melatonin, low-dose lithium, quercetin). Benefit only at 3.0–4.5 mg suggests Nrf2 activators are unlikely to help and TRPM3-directed interventions (microdose lithium for PIP₂ stabilization) or orexin-directed agents deserve consideration.
+
+### Low-Dose Lithium (0.3–5 mg element lithium)
+
+Lithium works through GSK-3β inhibition, which derepresses Nrf2. At higher concentrations, IMPase inhibition enters the picture, creating a biphasic two-target dynamic — the same logic as rapamycin's mTORC1/C2 but with a different enzyme pair.
+
+| Dose | Mechanism engaged | If it works | If it doesn't, or stops working | Side effects |
+|------|-------------------|-------------|---------------------------------|--------------|
+| 0.3–1.0 mg | GSK-3β partial inhibition, mild Nrf2/ARE activation | Broad Nrf2 reserve — even minimal GSK-3β inhibition suffices. Consistent with broad windows for the rest of the cluster | Threshold not reached. Does not mean GSK-3β is irrelevant | Essentially none; below the side-effect threshold for any known lithium mechanism |
+| 1.0–5.0 mg | Dose-dependent GSK-3β inhibition, Nrf2 activation; IMPase inhibition begins | GSK-3β is rate-limiting for Nrf2 activation. Benefit lost above this range suggests IMPase sensitivity limits the therapeutic ceiling | No benefit at any dose suggests GSK-3β is not the rate-limiting Nrf2 repressor, or IMPase inhibition is offsetting the benefit through PIP₂ depletion — impossible to separate without PI measurement | Mild cognitive dulling (rare) — lithium should be stopped, as GSK-3β is not then a viable target. Thirst or polyuria at these doses: discontinue |
+| 5–15 mg | IMPase inhibition dominates | Benefit only here means the mechanism is not GSK-3β/Nrf2 — possibly IP₃ modulation or PIP₂ dynamics | Loss from a lower effective dose means IMPase inhibition is counteracting the Nrf2 benefit | Cognitive dulling, emotional blunting, possible thyroid effects with prolonged use |
+| ≥150 mg | Psychiatric doses | Not applicable to ME/CFS hormesis | Expected | Full lithium toxicity profile (tremor, nephrotoxicity, hypothyroidism). Do not use |
+
+**What it implies for other drugs:** A lithium window narrower than the LDN window implicates IMPase sensitivity rather than Nrf2 reserve as the limiting factor. A lithium window broader than the LDN window suggests TLR4 tone limits LDN specifically, not Nrf2 reserve globally.
+
+### Melatonin (0.3–5 mg)
+
+Melatonin has two separable effects: a chronobiotic (circadian) signal that is dose-independent, and Nrf2 activation via MT1/MT2 receptors that is hormetic. Interpreting the dose-response curve requires distinguishing which of these is producing the benefit.
+
+Physiological doses (0.3–1.0 mg) provide circadian phase-advance and mild Nrf2 activation. If the benefit is purely better sleep onset, the mechanism is circadian — no Nrf2-cluster inference applies. If there is also an anti-inflammatory effect (reduced malaise, clearer cognition the next day), the Nrf2 pathway is contributing, which is consistent with response to other cluster drugs. Morning grogginess at ≤1 mg suggests slow CYP1A2 metabolism; splitting the dose or dropping to 0.1–0.3 mg often resolves it.
+
+At supraphysiological doses (1.0–3.0 mg), benefit exceeding what 0.3–1.0 mg achieved suggests direct antioxidant effects are contributing rather than MT1/MT2 alone — or the person is a rapid metabolizer needing more to reach physiological plasma levels. Benefit declining from 1 mg is consistent with MT1/MT2 desensitization; the supraphysiological signal lacks circadian specificity. High doses (3.0–5.0 mg) likely lose the Nrf2-mediated anti-inflammatory component entirely, though the chronobiotic effect on sleep onset may persist. Doses above 5 mg offer only sedation or placebo through the hormetic framework.
+
+### Sulforaphane (broccoli sprout extract, glucoraphanin-standardized)
+
+Sulforaphane directly modifies Keap1 cysteine residues to release Nrf2 — it is the purest Nrf2 probe in the cluster. A response at 10–30 mg glucoraphanin implies an exceptionally sensitive sensor and ample Nrf2 reserve. Benefit only at 60–100 mg suggests high Nrf2 degradation rates (Keap1 overexpression or GSK-3β hyperactivity) that require near-complete Keap1 suppression. GI discomfort at any dose reflects glucosinolate metabolism; persistence suggests a gut microbiome lacking myrosinase-producing bacteria. Loss of benefit at higher doses is a saturation plateau (Keap1 fully modified) rather than a true hormetic inversion.
+
+If sulforaphane shows a narrow window — benefit at 10–30 mg, lost by 60 mg — the Nrf2 cluster is likely the bottleneck, and all cluster drugs should show narrow correlated windows. No dose-response relationship at all suggests Nrf2 reserve is flat (already maximally activated or inactivated beyond rescue), making cluster drugs unlikely to help.
+
+### NAC (N-Acetylcysteine)
+
+NAC's dose-response is dominated by a biochemical quirk: at 600 mg, a thiol-radical burst can exhaust glutathione before net synthesis kicks in, producing transient paradoxical worsening. This is expected in roughly 20–30% of patients and is a pharmacokinetic event, not a drug failure. Benefit at 1,200 mg indicates the glutathione synthesis pathway is intact and Nrf2 activation through redox-sensitive Keap1 is functional. No benefit at any dose suggests glutathione synthesis or Nrf2 activation is rate-limited downstream — though Keap1 modifiers (sulforaphane) or GSK-3β inhibitors (lithium) bypassing glutathione may still work.
+
+### Quercetin
+
+Quercetin straddles two categories. At low doses (250–500 mg), it inhibits COMT, optimizing prefrontal catecholamine tone — cognitive benefit here is a catecholamine-cluster signal. Concurrently, it activates Nrf2 via PI3K/Akt — anti-inflammatory benefit here is an Nrf2-cluster signal. At higher doses (1,000–2,000 mg), both mechanisms overshoot simultaneously: COMT inhibition produces noradrenergic excess (hypertension, tachycardia), and quercetin's catechol moiety auto-oxidizes, adding pro-oxidant stress. Headache from quercetin should be interpreted through COMT genotype: Val/Val carriers may need more; Met/Met carriers may overshoot at any dose.
+
+---
+
+## Category 2: Partial-agonist inverted-U
+
+This is not hormesis — no compensatory upregulation, no stress signal, no adaptive response. Aripiprazole has roughly 25% intrinsic activity at the D2 receptor compared to dopamine's 100%. At low occupancy, it supplements a deficient endogenous signal (net agonism). At higher occupancy, it displaces the more effective natural ligand (net antagonism). The curve is identical in any population with dopamine deficit, not ME/CFS-specific, but the *occupancy at which the inversion occurs* reveals D2 receptor reserve.
+
+### LDA (Low-Dose Aripiprazole, 0.2–2 mg)
+
+LDA acts at three levels, all below 2 mg: microglial D2/D3 (≤1 mg, raises activation threshold, suppresses cytokine release), mesocorticolimbic D2/D3 (≤2 mg, restores cognitive and motivational dopamine tone), and 5-HT1A autoreceptors (≤2 mg, stabilizes serotonergic output). All three are extinguished above 2 mg as receptor engagements shift to a standard antipsychotic profile (5-HT2A, H1, α1).
+
+Benefit at 0.2–0.5 mg means highly sensitive microglial D2 receptors. No benefit at this dose is a dosing problem, not a D2 problem — escalate, don't conclude D2 non-involvement. Benefit lost by 1.0 mg means narrow D2 reserve; benefit sustained to 2 mg means broad reserve, and the dopamine system is unlikely to be rate-limiting. Akathisia or restlessness at micro-dose is paradoxical — presynaptic autoreceptor engagement producing a transient dopamine dip before postsynaptic agonism takes over.
+
+Load-bearing clinical logic: LDA non-response followed by LDN response means microglial involvement via TLR4, not D2. LDN non-response followed by LDA response means the reverse. Both patterns confirm microglial involvement through different receptors — the two drugs are mechanistically complementary.
+
+---
+
+## Category 3: Catecholamine inverted-U at prefrontal cortex
+
+The inverted-U is the native operating curve of D1 and α2A circuits in the prefrontal cortex — established neuroscience, across species and methods. These drugs push the system along its existing curve. The inversion point reveals where baseline catecholamine tone sits. Drugs that increase tone (modafinil, duloxetine) push from the left arm toward the peak; drugs that decrease tone (beta-blockers, guanfacine) push from the right arm toward the peak. Someone who benefits from both a low-dose elevator and a low-dose reducer has a paradoxically broad peak — a wide range of tone is tolerated.
+
+### Modafinil
+
+Modafinil blocks DAT and NET, raising synaptic dopamine and norepinephrine. A low inversion point — benefit at 25–50 mg, lost by 100 mg — means low-normal baseline dopamine and is consistent with narrow catecholamine-cluster windows. A high inversion point — benefit sustained to 300 mg or beyond — means high baseline dopamine and broad windows. No benefit at any dose implies dopamine deficiency is not the rate-limiting cause of cognitive dysfunction; guanfacine's α2A mechanism is distinct from DAT and may work where modafinil doesn't.
+
+The sharpest test of cross-system hormetic reserve is LDN × modafinil: completely distinct receptors (TLR4 vs. DAT/NET), cell types (microglia vs. presynaptic terminals), and brain regions. If their inversion points correlate, hormetic reserve is a genuine systems trait. If they don't, Nrf2 and catecholamine reserve are independent.
+
+### Duloxetine
+
+Duloxetine has two dose-response profiles folded into one drug. SERT inhibition (serotonergic) follows a monotonic saturation curve — no inverted-U. NET inhibition (noradrenergic) follows the catecholamine inverted-U. Benefit at 10–20 mg is serotonergic only (pain modulation, sleep). Energy and motivation appearing at 20–40 mg and disappearing at 60+ mg implicates NET. If anti-pain benefit persists to high doses while energy benefit inverts, the two mechanisms have been successfully dissociated — the NET component is on the right arm of the inverted-U while SERT remains on its plateau. SNRI discontinuation syndrome (brain zaps, dizziness, emotional lability) requires tapering over at least three weeks.
+
+### Beta-Blockers
+
+Unlike modafinil and duloxetine, which increase catecholamine tone, beta-blockers reduce it — pushing from the right arm toward the peak. Orthostatic tachycardia controlled without cognitive dulling (propranolol 5–10 mg, or atenolol 12.5–25 mg) means peripheral sympathetic excess with intact central tone. Cognitive improvement with orthostatic control at 10–20 mg means central β-AR modulation is moving tone toward the peak — baseline tone was excessive. Cognitive dulling at any dose means baseline tone is low, not high; beta-blockade pushes it further left. In that case, combining with guanfacine or clonidine is counterproductive — the system needs more catecholamine tone, not less.
+
+### Guanfacine
+
+Guanfacine's inverted-U is built into the ratio of postsynaptic (therapeutic) to presynaptic (sedating) α2A agonism. At 0.5–1.0 mg, postsynaptic effects dominate — improved working memory, focus, emotional regulation. Sedation without cognitive improvement at these doses means presynaptic α2A agonism is dominant even at low levels, and guanfacine is probably the wrong drug. The circuit overlaps with modafinil's D1-mediated effect, so correlated windows across these two drugs support catecholamine-cluster coherence.
+
+### Gabapentinoids
+
+Gabapentinoids are not a clean catecholamine-cluster probe — they reduce glutamate release broadly, not just noradrenergic tone. Benefit at low doses (gabapentin 100–300 mg, pregabalin 25–75 mg) may reflect sensory gating improvement (α2δ-mediated) rather than optimal PFC catecholamine tone, limiting cross-drug inferential value. Cognitive dulling at any dose is expected and dose-dependent; higher doses (gabapentin >900 mg, pregabalin >150 mg) produce sedation that overwrites any diagnostic signal.
+
+---
+
+## Category 4: Concentration-dependent target selection and biphasic biochemistry
+
+These drugs share the inverted-U curve shape with the previous categories but arise from mechanisms specific to each compound: differential binding affinity across targets (4a), pharmacokinetic thresholds involving CNS penetration (4b), or biphasic metabolism (4c). They carry no cross-drug predictive value within this category, though some offer pathway-specific inferences.
+
+### Rapamycin (sirolimus) — Category 4a
+
+Rapamycin inhibits mTORC1 with roughly 10-fold higher affinity than mTORC2. At intermittent low doses (0.5–2 mg/week), mTORC1 is partially blocked — autophagy is restored, mitophagy improves, and senescent-cell SASP (the inflammatory secretion profile of damaged cells) is suppressed. At higher weekly doses (3–6 mg) or daily dosing, mTORC2 inhibition kicks in, producing insulin resistance and immunosuppression. The therapeutic window reflects the FKBP12-mTOR binding affinity ratio, not a host-tissue hormetic response, which is why weekly intermittent dosing preserves selectivity — mTORC2 has a longer off-rate and recovers during the drug-free interval.
+
+Benefit at 0.5–2 mg/week confirms mTORC1-driven autophagy failure as rate-limiting. No benefit (and mTORC1 is the suspected mechanism) could mean the autophagy machinery downstream of mTORC1 is broken — the gate opens, but the pathway behind it is inoperable. Mouth ulcers and lipid/glucose elevations signal that mTORC2 inhibition has breached the therapeutic window.
+
+Rapamycin's window width says nothing about LDN or modafinil windows. It may, however, predict response to other mTORC1-selective interventions: intermittent fasting, metformin, or spermidine that induce autophagy through mTORC1 without engaging mTORC2 at all.
+
+### Corticosteroids — Category 4a
+
+Corticosteroids are not a single drug with one dose-response curve — they are two drugs separated by a concentration threshold. Physiological replacement (hydrocortisone 5–10 mg/day or prednisone 2.5–5 mg/day) provides the anti-inflammatory glucocorticoid signal a hypofunctional HPA axis fails to produce endogenously. Supraphysiological dosing (prednisone 5–15 mg/day and above) suppresses the HPA axis itself, and the taper produces rebound inflammation often worse than baseline.
+
+A dramatic response to physiological doses should trigger an ACTH/cortisol workup for adrenal insufficiency. Benefit only at supraphysiological doses suggests glucocorticoid resistance or non-GR-mediated inflammation — mechanistically informative but clinically dangerous, because the therapeutic margin narrows as the HPA suppression deepens. The taper is predictable: if physiological replacement worked, tapering will be difficult because the underlying HPA hypofunction is still present. If only supraphysiological doses worked, tapering will be difficult because the axis has been suppressed and needs time to recover.
+
+### DORAs (Dual Orexin Receptor Antagonists) — Category 4b
+
+DORAs sit on a pharmacokinetic cliff. Partial orexin blockade (daridorexant 25 mg, suvorexant 10 mg) improves sleep by quieting the wakefulness drive. Near-complete blockade (daridorexant 50 mg) can overshoot into sleep paralysis and sleep-onset hallucinations — a narcolepsy-mimic that degrades subjective sleep quality even as total sleep time increases. Next-day somnolence means blockade has persisted into the wake period. The shorter half-life of daridorexant (t½ = 8h) compared to suvorexant (t½ = 12h) matters clinically.
+
+### H1 Antihistamines — Category 4b
+
+The clinical question is whether the antihistamine is benefiting because of peripheral H1 blockade (MCAS symptom control) or because of central H1 blockade (sedation, anxiolysis). Fexofenadine answers this: it is a P-glycoprotein substrate actively effluxed from the CNS, with near-zero brain penetration at any dose. If fexofenadine controls symptoms, the target is peripheral. If only cetirizine works, central effects are contributing — the perceived benefit may not be through peripheral H1 at all.
+
+### Allopregnanolone — Category 4c
+
+Allopregnanolone is biphasic at the GABA-A receptor because it likely binds two sites with opposing concentration-response curves. At low concentrations (luteal-phase equivalent, ~1–5 nM), it can be paradoxically anxiogenic — a known phenomenon in PMDD. At higher concentrations (>10 nM, pregnancy-level), it becomes anxiolytic and sedating. The dose-response is highly individual, depending on GABA-A subunit composition, hormonal state, and stress history.
+
+### Ketotifen — Category 4b
+
+Ketotifen carries two independent therapeutic actions: mast-cell stabilization (non-H1) and H1 blockade. At 0.25–1.0 mg, mast-cell stabilization dominates and CNS penetration is minimal — MCAS benefit without sedation confirms the mechanism. At 1.0–2.0 mg, CNS H1 blockade produces clinically significant sedation in most people. At 2.0–4.0 mg, the sedation cost exceeds the mast-cell stabilization gain and net benefit inverts. A response at low dose that is dose-dependent and sedation-limited confirms mast-cell involvement. Sedation even at 0.25 mg is itself informative — it points to high CNS penetration sensitivity and argues for peripheral-only interventions.
+
+---
+
+## Reading the pattern across drugs
+
+The diagnostic yield is not in any single drug's dose-response curve. It emerges from comparing across all the drugs a person has tried.
+
+Nrf2-cluster drugs all showing narrow windows — benefit lost at low doses across LDN, sulforaphane, lithium, melatonin — points to depleted Nrf2 transcriptional reserve. There is a significant Nrf2-dependent inflammatory component, but the adaptive machinery is exhausted. The strategy shifts toward Nrf2-sparing interventions: reduce allostatic load, avoid drugs depending on Nrf2 for benefit, consider sulforaphane as preconditioning before other cluster drugs. The mirror — broad windows throughout — means Nrf2 reserve is ample, and Nrf2 is probably not the bottleneck.
+
+The same logic applies to the catecholamine cluster. Narrow windows everywhere imply prefrontal catecholamine dynamic range is compressed, with baseline tone sitting close to the inverted-U peak; small perturbations in either direction cause trouble. Dosing must be precise for all catecholamine-active drugs, and the patient is simultaneously sensitive to drugs that raise tone and drugs that lower it. The opposite constellation — high doses needed across the cluster, no inversions at clinical doses — points to very low baseline tone, monotonic-increasing benefit, and doses that would invert for others being well-tolerated.
+
+A narrow rapamycin window alongside broad Nrf2 and catecholamine windows is a drug-specific signal: mTORC1/C2 selectivity is tight, but hormetic reserve in other systems is intact. mTORC1-driven autophagy may still be a valid target through precisely dosed rapamycin or mTORC1-selective alternatives (intermittent fasting, metformin). No dose-response relationship in any cluster — all drugs producing flat or monotonic curves — is an informative null: the framework has identified no accessible target, and investigation should turn to non-pharmacological or structural causes.
+
+Mixed patterns localize the lesion. Narrow Nrf2 with broad catecholamine windows implicates the immune-inflammatory system as the bottleneck while cognitive reserve is preserved — the expected pattern for TLR4-dominant neuroinflammation. Anti-inflammatory drugs get the careful titration; cognitive drugs are dosed more freely. The reverse — broad Nrf2 with narrow catecholamine — points to catecholamine-dominant pathophysiology (prominent orthostatic intolerance, low supine norepinephrine, COMT Val/Val), reversing the dosing priorities. Every cluster narrow, all drugs inverting at very low doses, suggests global adaptive compromise: cells at the edge of decompensation, any pharmacological perturbation risking overshoot. The strategy is ultra-low, ultra-slow — stabilize, don't aim for improvement. The narrowness is the severity indicator.
+
+---
+
+## Certainty
+
+| Claim | Certainty |
+|-------|-----------|
+| The four-category mechanistic decomposition | Moderate (Category 1: Nrf2 hormesis in toxicology, not clinical dosing); High (Category 2: receptor-occupancy property); High (Category 3: canonical neuroscience); Variable (Category 4: subtype-dependent) |
+| Dose-range interpretations are mechanistically accurate | Low-to-moderate — grounded in each drug's target engagement, but clinical relevance in ME/CFS is unestablished |
+| Cross-drug cluster correlation predictions | Low — the core falsifiable hypothesis, never tested |
+| "No benefit at any dose" rules out a drug's mechanisms as rate-limiting | Moderate — valid only when "no benefit" comes from systematic dose-finding, not a single dose |
+| Cluster assignment predicts subtype and treatment priority | Low — coherent, untested; awaiting HIP-B |
+| Global narrowness indicates severe adaptive compromise | Low-to-moderate — consistent with the framework but indistinguishable from coincident drug-specific sensitivities without correlation data |
+
+*This post draws on the hormesis framework developed in Loth 2026 (https://loth.cc/). The four-category mechanistic decomposition (Part 2) and five LDN dose-response patterns (Part 3) provide the conceptual architecture. Specific dose ranges and interpretations are synthesized from the 17-drug hormetic-inversion framework, the HIP-B trial specification, the mechanistic clustering analysis, and clinical observation — see the primary paper for full mechanistic cascades.*
+
+*Series: [Part 1: Why More Isn't Better](../more-isnt-better-ldn-lda/) · [Part 2: The Inverted-U Is Not One Thing](../inverted-u-not-one-thing/) · [Part 3: Your LDN Dose Is a Diagnostic](../dose-is-diagnostic-ldn/)*
