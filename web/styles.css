@@ -400,6 +400,37 @@
     letter-spacing: 0.04em;
   }
 
+  .gt-dz-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 4px 0;
+    font-size: 0.75rem;
+  }
+  .gt-dz-table th {
+    text-align: left;
+    font-weight: 600;
+    color: #475569;
+    padding: 2px 4px;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .gt-dz-table td {
+    padding: 3px 4px;
+    vertical-align: top;
+    border-bottom: 1px solid #f1f5f9;
+    line-height: 1.35;
+  }
+  .gt-dz-dose { white-space: nowrap; color: #64748b; width: 1%; }
+  .gt-dz-cat { white-space: nowrap; width: 1%; }
+  .gt-dz-cat b { text-transform: uppercase; font-size: 0.6rem; letter-spacing: 0.04em; }
+  .gt-dz-mech { color: #475569; }
+
+  /* Single-zone: hide dose column, show compact */
+  .gt-dz-single + .gt-dz-cat + .gt-dz-mech { }
+  tr:only-child .gt-dz-dose.gt-dz-single { display: none; }
+
   .gt-also {
     font-size: 0.8rem;
     color: #64748b;

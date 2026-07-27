@@ -43,12 +43,16 @@
     lines.push(`<span class="gt-term">${esc(e.label ?? key)}</span>`);
     lines.push(`<span class="gt-def">${esc(e.definition)}</span>`);
 
-    if (e.therapeuticCategory) {
-      const cat = e.therapeuticCategory;
+    if (e.doseZones?.length) {
       const colors = { 'Restorative': '#059669', 'Corrective': '#2563eb', 'Threshold-modulatory': '#d97706',
         'Substrate-repletion': '#7c3aed', 'Symptomatic': '#dc2626', 'Mixed': '#0891b2' };
-      const c = colors[cat] || '#6b7280';
-      lines.push(`<span class="gt-td"><b style="color:${c}">${esc(cat)}</b><br>${esc(e.therapeuticDepth)}</span>`);
+      const rows = e.doseZones.map(z => {
+        const c = colors[z.category] || '#6b7280';
+        const doseClass = z.dose === 'Therapeutic range' ? 'gt-dz-single' : 'gt-dz-detail';
+        return `<tr><td class="gt-dz-dose">${esc(z.dose)}</td><td class="gt-dz-cat"><b style="color:${c}">${esc(z.category)}</b></td><td class="gt-dz-mech">${esc(z.mechanism)}</td></tr>`;
+      });
+      const header = e.doseZones.length > 1 ? `<tr><th>Dose</th><th>Effect</th><th>Mechanism</th></tr>` : '';
+      lines.push(`<table class="gt-dz-table">${header}${rows.join('')}</table>`);
     }
     if (e.generic) lines.push(`<span><b>Generic:</b> ${esc(e.generic)}</span>`);
     if (e.brand) lines.push(`<span><b>Brand:</b> ${esc(e.brand)}</span>`);

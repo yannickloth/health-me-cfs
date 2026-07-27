@@ -703,8 +703,30 @@
         "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Naltrexone"
       }
     ],
-    "therapeuticCategory": "Mixed",
-    "therapeuticDepth": "Four dose zones with different therapeutic depth: (1) 0.5–1.5mg = Corrective — TLR4/Nrf2 hormetic anti-inflammatory priming (Nrf2-mediated M1→M2 microglial shift); benefit lost if dose escalated beyond this window; (2) 1.5–3.0mg = Corrective — compensatory endorphin upregulation from overnight opioid blockade; plateaus at individual endorphin ceiling; (3) 3.0–4.5mg = Restorative — TRPM3 Ca²⁺ channel function restoration (in vitro; clinical link unproven); (4) 3.0–4.5mg = Threshold-modulatory — orexin disinhibition via hypothalamic TLR4 blockade. A patient whose benefit peaks at 0.5mg has TLR4/Nrf2 as dominant mechanism; a patient needing 4.5mg has TRPM3 as dominant. The dose-response curve IS diagnostic."
+    "therapeuticCategory": "Corrective",
+    "therapeuticDepth": "Corrective / Restorative / Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "0.5–1.5 mg",
+        "category": "Corrective",
+        "mechanism": "TLR4/Nrf2 hormetic anti-inflammatory priming — Nrf2-mediated M1→M2 microglial shift. Benefit lost if dose escalated beyond this window."
+      },
+      {
+        "dose": "1.5–3.0 mg",
+        "category": "Corrective",
+        "mechanism": "Compensatory endorphin upregulation from overnight opioid blockade — plateaus at individual endorphin ceiling."
+      },
+      {
+        "dose": "3.0–4.5 mg",
+        "category": "Restorative",
+        "mechanism": "TRPM3 Ca²⁺ channel function restoration — in vitro; clinical link unproven."
+      },
+      {
+        "dose": "3.0–4.5 mg",
+        "category": "Threshold-modulatory",
+        "mechanism": "Orexin disinhibition via hypothalamic TLR4 blockade."
+      }
+    ]
   },
   "IVIG": {
     "label": "IVIG",
@@ -725,7 +747,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Neutralizes autoantibodies + immunomodulation; does not eliminate the plasma cell source — transient effect"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "2 g/kg monthly",
+        "category": "Corrective",
+        "mechanism": "Neutralizes autoantibodies + broad immunomodulation. Does not eliminate plasma cell source — transient effect."
+      }
+    ]
   },
   "SCIG": {
     "label": "SCIG",
@@ -746,7 +775,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Subcutaneous immunoglobulin — same as IVIG but home-administered; neutralizes autoantibodies"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Weekly divided dose",
+        "category": "Corrective",
+        "mechanism": "Same as IVIG but subcutaneous home administration. Neutralizes autoantibodies; plasma cell source persists."
+      }
+    ]
   },
   "NAC": {
     "label": "NAC",
@@ -757,7 +793,14 @@
     "class": "Antioxidant / mucolytic / glutathione precursor",
     "rx": "OTC (as supplement); prescription for inhalation form",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Repletes glutathione (consumed by ROS) + Nrf2 activation via Keap1 modification; dual substrate/corrective"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Repletes glutathione (consumed by ROS) + Nrf2 activation via Keap1 modification. Dual substrate-repletion/corrective mechanism."
+      }
+    ]
   },
   "CoQ10": {
     "label": "CoQ10",
@@ -768,7 +811,14 @@
     "class": "Mitochondrial cofactor / antioxidant",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Repletes CoQ10 consumed by oxidative stress; supports Complex III"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Repletes CoQ10 consumed by oxidative stress. Supports Complex III. Does not correct the ROS source."
+      }
+    ]
   },
   "HBOT": {
     "label": "HBOT",
@@ -931,7 +981,14 @@
     "class": "Antidepressant",
     "rx": "Prescription (US, EU)",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Increases synaptic serotonin; compensates for deficient monoamine tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Increases synaptic serotonin. Compensates for deficient serotonin tone without correcting the cause."
+      }
+    ]
   },
   "SNRI": {
     "label": "SNRI",
@@ -940,7 +997,14 @@
     "class": "Antidepressant",
     "rx": "Prescription (US, EU)",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Increases synaptic serotonin/norepinephrine; compensates for deficient monoamine tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Increases synaptic serotonin/norepinephrine. Compensates for deficient monoamine tone without correcting cause."
+      }
+    ]
   },
   "TCA": {
     "label": "TCA",
@@ -949,7 +1013,14 @@
     "class": "Antidepressant",
     "rx": "Prescription (US, EU)",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Tricyclic antidepressant; multimodal (5-HT/NE reuptake + H1/M1 antagonism)"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Tricyclic antidepressant. Multimodal: 5-HT/NE reuptake inhibition + H1/M1 antagonism."
+      }
+    ]
   },
   "NSAID": {
     "label": "NSAID",
@@ -958,7 +1029,14 @@
     "class": "Analgesic / anti-inflammatory",
     "rx": "Some OTC (ibuprofen, naproxen), some prescription (celecoxib, diclofenac)",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "COX inhibition reducing prostaglandin-mediated inflammation/pain"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "COX inhibition reducing prostaglandin-mediated inflammation/pain. Does not address inflammation trigger."
+      }
+    ]
   },
   "T3": {
     "label": "T3",
@@ -987,7 +1065,14 @@
     "brand": "Various supplement brands",
     "generic": "Leucine, Isoleucine, Valine",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Supplies branched-chain amino acids; compensates for muscle catabolism"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Supplies branched-chain amino acids for muscle metabolism. Compensates for catabolic muscle breakdown."
+      }
+    ]
   },
   "GTPCH": {
     "label": "GTPCH",
@@ -1060,7 +1145,19 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Dose-dependent: at low-dose (5–10mg) = Threshold-modulatory (primarily H1 + M1 antagonism for sleep/pain); at antidepressant dose (75+mg) = Threshold-modulatory (full TCA: 5-HT/NE reuptake inhibition added). Therapeutic depth is threshold-modulatory at all doses but the mechanism mix shifts."
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "5–10 mg (low-dose)",
+        "category": "Threshold-modulatory",
+        "mechanism": "Primarily H1 + M1 antagonism for sleep onset and neuropathic pain. Below antidepressant threshold."
+      },
+      {
+        "dose": "75+ mg",
+        "category": "Threshold-modulatory",
+        "mechanism": "Full TCA profile — adds 5-HT/NE reuptake inhibition. Same therapeutic category but broader mechanism mix."
+      }
+    ]
   },
   "Duloxetine": {
     "label": "Duloxetine",
@@ -1085,7 +1182,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "SNRI increasing synaptic 5-HT and NE; compensates for deficient monoamine tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "SNRI increasing synaptic 5-HT and NE. Compensates for deficient monoamine tone."
+      }
+    ]
   },
   "Venlafaxine": {
     "label": "Venlafaxine",
@@ -1110,7 +1214,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "SNRI increasing synaptic 5-HT and NE; compensates for deficient monoamine tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "SNRI increasing synaptic 5-HT and NE. Compensates for deficient monoamine tone."
+      }
+    ]
   },
   "Gabapentin": {
     "label": "Gabapentin",
@@ -1135,7 +1246,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Alpha2delta Ca2+ channel binding reducing neurotransmitter release; reduces central sensitization"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "α2δ Ca²⁺ channel subunit binding reducing neurotransmitter release. Reduces central sensitization without correcting the driver."
+      }
+    ]
   },
   "Pregabalin": {
     "label": "Pregabalin",
@@ -1160,7 +1278,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Alpha2delta Ca2+ channel binding reducing neurotransmitter release; reduces central sensitization"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "α2δ Ca²⁺ channel subunit binding reducing neurotransmitter release. Reduces central sensitization."
+      }
+    ]
   },
   "Propranolol": {
     "label": "Propranolol",
@@ -1185,7 +1310,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Non-selective beta-blocker; reduces sympathetic tone; also blocks beta2-AAb access"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "5–40 mg",
+        "category": "Threshold-modulatory",
+        "mechanism": "Non-selective β-blocker reducing sympathetic tone. Also blocks β2-adrenergic autoantibody access if β2-AAb positive."
+      }
+    ]
   },
   "Ivabradine": {
     "label": "Ivabradine",
@@ -1210,7 +1342,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Reduces heart rate via If channel inhibition; does not address tachycardia cause"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Reduces heart rate via If channel inhibition. Does not address why compensatory tachycardia is needed."
+      }
+    ]
   },
   "Midodrine": {
     "label": "Midodrine",
@@ -1235,7 +1374,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Alpha1 agonist providing vasoconstriction; compensates for inadequate vascular tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "α1 agonist providing vasoconstriction. Compensates for inadequate vascular tone without correcting the cause."
+      }
+    ]
   },
   "Fludrocortisone": {
     "label": "Fludrocortisone",
@@ -1260,7 +1406,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Mineralocorticoid expanding plasma volume; compensates for hypovolemia"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Mineralocorticoid expanding plasma volume. Compensates for hypovolemia without addressing volume regulation defect."
+      }
+    ]
   },
   "Pyridostigmine": {
     "label": "Pyridostigmine",
@@ -1285,7 +1438,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "AChE inhibitor enhancing ganglionic transmission + parasympathetic tone"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "AChE inhibitor enhancing ganglionic transmission + parasympathetic tone. Compensates for impaired autonomic neurotransmission."
+      }
+    ]
   },
   "Rituximab": {
     "label": "Rituximab",
@@ -1310,7 +1470,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Depletes CD20+ B cells (short-lived plasmablast source); spares long-lived plasma cells — response often transient"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Depletes CD20+ B cells (short-lived plasmablast source). Spares CD20− long-lived plasma cells — response often transient."
+      }
+    ]
   },
   "Methotrexate": {
     "label": "Methotrexate",
@@ -1335,7 +1502,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Broad immunosuppression via folate antagonism; reduces inflammation — hepatotoxicity risk"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Broad immunosuppression via folate antagonism. Reduces inflammation. Hepatotoxicity risk."
+      }
+    ]
   },
   "Hydroxychloroquine": {
     "label": "Hydroxychloroquine",
@@ -1360,7 +1534,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "TLR7/9 inhibitor with immunomodulatory effects; limited evidence in ME/CFS"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "TLR7/9 inhibitor with immunomodulatory effects. Limited evidence in ME/CFS."
+      }
+    ]
   },
   "Modafinil": {
     "label": "Modafinil",
@@ -1385,7 +1566,19 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Dose-dependent: at standard dose = Threshold-modulatory (DAT/NET inhibition with speculative corrective component via brain ATP enhancement + M1→M2 microglial shift); at excessive dose (>200mg) = Symptomatic (overstimulation without additional therapeutic depth). Negative ME/CFS RCT (n=14)."
+    "therapeuticDepth": "Threshold-modulatory / Symptomatic",
+    "doseZones": [
+      {
+        "dose": "50–200 mg",
+        "category": "Threshold-modulatory",
+        "mechanism": "DAT/NET inhibition with speculative Corrective component — brain ATP enhancement + M1→M2 microglial shift @Minzenberg2008modafinil."
+      },
+      {
+        "dose": ">200 mg",
+        "category": "Symptomatic",
+        "mechanism": "Overstimulation without additional therapeutic depth. Negative ME/CFS RCT (n=14 @Randall2005modafinil)."
+      }
+    ]
   },
   "Methylphenidate": {
     "label": "Methylphenidate",
@@ -1410,7 +1603,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "DAT/NET blocker increasing synaptic DA/NE; +7% REE; diagnostic probe"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "DAT/NET blocker increasing synaptic DA/NE. +7% REE; chronic use decreases hippocampal ATP. Diagnostic probe for DAT functional status."
+      }
+    ]
   },
   "Melatonin": {
     "label": "Melatonin",
@@ -1421,7 +1621,19 @@
     "class": "Hormone / chronobiotic / sleep aid",
     "rx": "OTC (US); prescription in some EU countries",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Dose-dependent: at physiological dose (0.3–0.5mg) = Substrate-repletion (circadian resynchronization + antioxidant); at supraphysiological dose (3+mg) = Symptomatic (MT1/MT2 receptor desensitization, loses circadian benefit)."
+    "therapeuticDepth": "Substrate-repletion / Symptomatic",
+    "doseZones": [
+      {
+        "dose": "0.3–0.5 mg",
+        "category": "Substrate-repletion",
+        "mechanism": "Circadian resynchronization + antioxidant at physiological dose. Restores endogenous rhythm without receptor desensitization."
+      },
+      {
+        "dose": "3+ mg",
+        "category": "Symptomatic",
+        "mechanism": "Supraphysiological — MT1/MT2 receptor desensitization; loses circadian benefit. Pharmacological sedation, not physiological replacement."
+      }
+    ]
   },
   "Acetaminophen": {
     "label": "Acetaminophen",
@@ -1446,7 +1658,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "Analgesic and antipyretic; unknown mechanism — does not address pain or fever source"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "Analgesic and antipyretic. Unknown mechanism — does not address pain or fever source."
+      }
+    ]
   },
   "Ibuprofen": {
     "label": "Ibuprofen",
@@ -1471,7 +1690,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Non-selective COX inhibitor reducing prostaglandin-mediated pain/inflammation"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Non-selective COX inhibitor reducing prostaglandin-mediated pain/inflammation."
+      }
+    ]
   },
   "Naproxen": {
     "label": "Naproxen",
@@ -1496,7 +1722,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Non-selective COX inhibitor reducing prostaglandin-mediated pain/inflammation"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Non-selective COX inhibitor reducing prostaglandin-mediated pain/inflammation."
+      }
+    ]
   },
   "Valacyclovir": {
     "label": "Valacyclovir",
@@ -1521,7 +1754,14 @@
       }
     ],
     "therapeuticCategory": "Restorative",
-    "therapeuticDepth": "Suppresses active herpesvirus replication; suppression, not eradication — relapse on discontinuation"
+    "therapeuticDepth": "Restorative",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Restorative",
+        "mechanism": "Prodrug of acyclovir with higher oral bioavailability. Suppresses EBV/VZV/HSV replication — effect is suppression, not eradication."
+      }
+    ]
   },
   "Acyclovir": {
     "label": "Acyclovir",
@@ -1546,7 +1786,14 @@
       }
     ],
     "therapeuticCategory": "Restorative",
-    "therapeuticDepth": "Suppresses active herpesvirus replication; suppression, not eradication — relapse on discontinuation"
+    "therapeuticDepth": "Restorative",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Restorative",
+        "mechanism": "Suppresses active herpesvirus replication. Effect is suppression, not eradication — relapse on discontinuation."
+      }
+    ]
   },
   "Loratadine": {
     "label": "Loratadine",
@@ -1571,7 +1818,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Non-sedating H1 antagonist blocking histamine-mediated symptoms"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Non-sedating H1 antagonist blocking histamine-mediated symptoms."
+      }
+    ]
   },
   "Cetirizine": {
     "label": "Cetirizine",
@@ -1596,7 +1850,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "H1 antagonist blocking histamine-mediated symptoms; slight CNS penetration"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "H1 antagonist blocking histamine-mediated symptoms. Slight CNS penetration."
+      }
+    ]
   },
   "Fexofenadine": {
     "label": "Fexofenadine",
@@ -1621,7 +1882,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Non-sedating H1 antagonist; minimal CNS penetration"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Non-sedating H1 antagonist. Minimal CNS penetration."
+      }
+    ]
   },
   "Famotidine": {
     "label": "Famotidine",
@@ -1646,7 +1914,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "H2 receptor antagonist; gastric acid reduction + limited immune modulation"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "H2 receptor antagonist. Gastric acid reduction + limited immune modulation."
+      }
+    ]
   },
   "Ketotifen": {
     "label": "Ketotifen",
@@ -1671,7 +1946,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Mast cell stabilizer + H1 antagonist; prevents degranulation without addressing trigger"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Mast cell stabilizer + H1 antagonist. Prevents degranulation without addressing what activates mast cells."
+      }
+    ]
   },
   "Cromolyn": {
     "label": "Cromolyn",
@@ -1696,7 +1978,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Stabilizes mast cells preventing degranulation; does not address what activates mast cells"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Mast cell stabilizer preventing degranulation. Does not address what activates mast cells."
+      }
+    ]
   },
   "Ondansetron": {
     "label": "Ondansetron",
@@ -1721,7 +2010,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "5-HT3 antagonist suppressing nausea; does not address nausea cause"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "5-HT3 antagonist suppressing nausea. Does not address nausea cause."
+      }
+    ]
   },
   "Clonidine": {
     "label": "Clonidine",
@@ -1746,7 +2042,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Central alpha2 agonism reducing sympathetic outflow"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Central α2 agonism reducing sympathetic outflow. Suppresses compensatory drive without addressing why it is elevated."
+      }
+    ]
   },
   "Guanfacine": {
     "label": "Guanfacine",
@@ -1771,7 +2074,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Alpha2A-adrenergic agonist with prefrontal specificity"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "0.5–4 mg",
+        "category": "Threshold-modulatory",
+        "mechanism": "α2A-adrenergic agonist with prefrontal specificity. Modulates catecholamine inverted-U in prefrontal circuits."
+      }
+    ]
   },
   "Fluoxetine": {
     "label": "Fluoxetine",
@@ -1796,7 +2106,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "SSRI increasing synaptic serotonin; compensates for deficient serotonin tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "SSRI increasing synaptic serotonin. Compensates for deficient serotonin tone."
+      }
+    ]
   },
   "Bupropion": {
     "label": "Bupropion",
@@ -1821,7 +2138,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "NDRI with minimal serotonergic effect; unique among antidepressants"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "NDRI with minimal serotonergic effect. Unique among antidepressants."
+      }
+    ]
   },
   "Tramadol": {
     "label": "Tramadol",
@@ -1846,7 +2170,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "Weak mu-opioid agonist + SNRI; suppresses pain — dependence risk; interacts with LDN"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "Weak mu-opioid agonist + SNRI. Suppresses pain. Dependence risk; interacts with LDN."
+      }
+    ]
   },
   "Prednisone": {
     "label": "Prednisone",
@@ -1870,8 +2201,20 @@
         "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Prednisone"
       }
     ],
-    "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Dose-dependent: at physiological replacement = Substrate-repletion (restores deficient cortisol); at immunosuppressive dose = Threshold-modulatory (broad inflammation suppression, HPA suppression risk)."
+    "therapeuticCategory": "Substrate-repletion",
+    "therapeuticDepth": "Substrate-repletion / Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "2.5–5 mg/day",
+        "category": "Substrate-repletion",
+        "mechanism": "Physiological replacement — restores deficient cortisol if HPA axis hypofunctional."
+      },
+      {
+        "dose": "20+ mg/day",
+        "category": "Threshold-modulatory",
+        "mechanism": "Immunosuppressive — broad inflammation suppression; HPA suppression risk. Net-harm in post-viral fatigue if not HPA-deficient."
+      }
+    ]
   },
   "Hydrocortisone": {
     "label": "Hydrocortisone",
@@ -1895,8 +2238,20 @@
         "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Hydrocortisone"
       }
     ],
-    "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Dose-dependent: at physiological replacement (5–10mg/day) = Substrate-repletion (restores deficient cortisol if HPA hypofunctional); at stress-dose = Threshold-modulatory (broad anti-inflammatory, HPA suppression risk)."
+    "therapeuticCategory": "Substrate-repletion",
+    "therapeuticDepth": "Substrate-repletion / Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "5–10 mg/day",
+        "category": "Substrate-repletion",
+        "mechanism": "Physiological replacement — restores deficient cortisol if HPA hypofunctional."
+      },
+      {
+        "dose": "Stress-dose / high",
+        "category": "Threshold-modulatory",
+        "mechanism": "Broad anti-inflammatory via glucocorticoid receptor; HPA suppression risk."
+      }
+    ]
   },
   "Baclofen": {
     "label": "Baclofen",
@@ -1921,7 +2276,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "GABA-B agonist reducing muscle spasticity"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "GABA-B agonist reducing muscle spasticity. Does not address what causes the spasticity."
+      }
+    ]
   },
   "Cyclobenzaprine": {
     "label": "Cyclobenzaprine",
@@ -1946,7 +2308,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "5-HT2 receptor antagonist + central muscle relaxant"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "5-HT2 receptor antagonist + central muscle relaxant. Modulates 5-HT2-mediated muscle tension."
+      }
+    ]
   },
   "Celecoxib": {
     "label": "Celecoxib",
@@ -1971,7 +2340,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Selective COX-2 inhibition; cardiovascular risk"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Selective COX-2 inhibition. Anti-inflammatory with cardiovascular risk."
+      }
+    ]
   },
   "Losartan": {
     "label": "Losartan",
@@ -1996,7 +2372,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "ARB reducing angiotensin II-mediated vasoconstriction and inflammation"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "ARB reducing angiotensin II-mediated vasoconstriction and inflammation. Modulates one arm of the RAAS."
+      }
+    ]
   },
   "Suvorexant": {
     "label": "Suvorexant",
@@ -2021,7 +2404,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Dual orexin receptor antagonist; reduces orexin wakefulness drive"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Dual orexin receptor antagonist. Reduces orexin wakefulness drive."
+      }
+    ]
   },
   "Mirtazapine": {
     "label": "Mirtazapine",
@@ -2046,7 +2436,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "H1 + 5-HT2A/2C + alpha2 antagonism; at low dose primarily H1 sedation for sleep"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "At low dose: primarily H1 sedation for sleep. At higher dose: 5-HT2A/2C and α2 antagonism added."
+      }
+    ]
   },
   "Trazodone": {
     "label": "Trazodone",
@@ -2071,7 +2468,19 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "Dose-dependent: at low-dose (25–50mg) = Symptomatic (primarily H1-mediated sedation, does not restore restorative sleep); at antidepressant dose (150+mg) = Threshold-modulatory (SERT inhibition + 5-HT2A antagonism contributing antidepressant effect)."
+    "therapeuticDepth": "Symptomatic / Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "25–50 mg (low-dose)",
+        "category": "Symptomatic",
+        "mechanism": "Primarily H1-mediated sedation. Does not restore restorative sleep architecture."
+      },
+      {
+        "dose": "150+ mg (antidepressant)",
+        "category": "Threshold-modulatory",
+        "mechanism": "SERT inhibition + 5-HT2A antagonism contributing antidepressant effect. Shifts toward threshold-modulatory."
+      }
+    ]
   },
   "Quetiapine": {
     "label": "Quetiapine",
@@ -2096,7 +2505,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "At low dose: potent H1 sedation; at higher dose: D2/5-HT2A antagonism — metabolic risk"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "At low dose: potent H1 sedation. At higher dose: D2/5-HT2A antagonism. Metabolic risk."
+      }
+    ]
   },
   "Montelukast": {
     "label": "Montelukast",
@@ -2121,7 +2537,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Leukotriene receptor antagonist; blocks one arm of mast-cell inflammation"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Leukotriene receptor antagonist. Blocks one arm of mast-cell-derived inflammation."
+      }
+    ]
   },
   "Sumatriptan": {
     "label": "Sumatriptan",
@@ -2146,7 +2569,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "5-HT1B/1D agonist aborting migraine pain; does not address trigger"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "5-HT1B/1D agonist aborting migraine pain. Does not address trigger."
+      }
+    ]
   },
   "Omeprazole": {
     "label": "Omeprazole",
@@ -2171,7 +2601,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "Proton pump inhibitor reducing gastric acid; may worsen SIBO/dysbiosis"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "Proton pump inhibitor reducing gastric acid. May worsen SIBO/dysbiosis."
+      }
+    ]
   },
   "TRPM3": {
     "label": "TRPM3",
@@ -3523,7 +3960,24 @@
       }
     ],
     "therapeuticCategory": "Mixed",
-    "therapeuticDepth": "Three dose bands with fundamentally different pharmacology: (1) Low-dose naltrexone (LDN, 0.5–4.5mg) = Mixed — see LDN entry for the four dose zones within this band (Corrective TLR4/Nrf2 at 0.5–1.5mg, Corrective endorphin at 1.5–3.0mg, Restorative TRPM3 at 3.0–4.5mg, Threshold-modulatory orexin); (2) Very low-dose naltrexone (ULDN, <0.001mg) = Threshold-modulatory — ultra-low-dose opioid agonism paradoxically potentiating analgesia via filamentous-actin-dependent excitatory opioid receptor signaling (not clinically used in ME/CFS); (3) Standard dose (50mg) = Symptomatic — full mu/delta/kappa opioid antagonist; blocks all endogenous opioid signaling; used for alcohol/opioid dependence; has zero of LDN's therapeutic mechanisms. LDN is not dilute naltrexone — it is a different drug at a different dose engaging different targets."
+    "therapeuticDepth": "Mixed / Threshold-modulatory / Symptomatic",
+    "doseZones": [
+      {
+        "dose": "0.5–4.5 mg (LDN)",
+        "category": "Mixed",
+        "mechanism": "See LDN — four dose zones across Corrective, Restorative, and Threshold-modulatory."
+      },
+      {
+        "dose": "<0.001 mg (ULDN)",
+        "category": "Threshold-modulatory",
+        "mechanism": "Ultra-low-dose opioid agonism paradoxically potentiating analgesia. Not clinically used in ME/CFS."
+      },
+      {
+        "dose": "50 mg (standard)",
+        "category": "Symptomatic",
+        "mechanism": "Full mu/delta/kappa opioid antagonist. Zero of LDN’s therapeutic mechanisms — different drug at different dose."
+      }
+    ]
   },
   "Aripiprazole": {
     "label": "Aripiprazole",
@@ -3547,8 +4001,20 @@
         "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Aripiprazole"
       }
     ],
-    "therapeuticCategory": "Mixed",
-    "therapeuticDepth": "Dose-dependent: at LDA dose (0.2–2mg) = Threshold-modulatory (microglial D2 partial agonism raising activation threshold) + Symptomatic (dopaminergic cognitive support); at antipsychotic dose (5+mg) = Symptomatic (D2 antagonism dominates, reversing microglial benefit via inverted-U)."
+    "therapeuticCategory": "Threshold-modulatory",
+    "therapeuticDepth": "Threshold-modulatory / Symptomatic",
+    "doseZones": [
+      {
+        "dose": "0.2–2 mg (LDA)",
+        "category": "Threshold-modulatory",
+        "mechanism": "Microglial D2 partial agonism raising activation threshold + dopaminergic cognitive support via presynaptic D2/D3. Does not remove what primed the microglia."
+      },
+      {
+        "dose": "5+ mg (antipsychotic)",
+        "category": "Symptomatic",
+        "mechanism": "D2 antagonism dominates via inverted-U receptor occupancy — reverses microglial benefit."
+      }
+    ]
   },
   "Armodafinil": {
     "label": "Armodafinil",
@@ -3573,7 +4039,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "DAT/NET inhibitor; similar to modafinil with speculative restorative component"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "DAT/NET inhibitor. Similar to modafinil with speculative Corrective component."
+      }
+    ]
   },
   "Aspirin": {
     "label": "Aspirin",
@@ -3598,7 +4071,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "COX inhibitor reducing prostaglandin-mediated inflammation/pain"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "COX inhibitor reducing prostaglandin-mediated inflammation/pain. COX-1/COX-2 selectivity matters for MCAS."
+      }
+    ]
   },
   "Azathioprine": {
     "label": "Azathioprine",
@@ -3623,7 +4103,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Purine synthesis inhibitor; broad immunosuppression — requires TPMT testing"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Purine synthesis inhibitor. Broad immunosuppression — requires TPMT testing."
+      }
+    ]
   },
   "Diazepam": {
     "label": "Diazepam",
@@ -3648,7 +4135,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "GABA-A potentiation (very long half-life); suppresses symptoms — high dependence risk"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "GABA-A potentiation with very long half-life. Suppresses symptoms. High dependence risk."
+      }
+    ]
   },
   "Lorazepam": {
     "label": "Lorazepam",
@@ -3673,7 +4167,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "GABA-A potentiation (intermediate half-life); suppresses symptoms"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "GABA-A potentiation with intermediate half-life. Suppresses symptoms. Dependence risk."
+      }
+    ]
   },
   "Clonazepam": {
     "label": "Clonazepam",
@@ -3698,7 +4199,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "GABA-A potentiation (long half-life); suppresses symptoms — high withdrawal/PMC risk"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "GABA-A potentiation with long half-life. Suppresses symptoms without addressing cause. High PMC/withdrawal risk."
+      }
+    ]
   },
   "Cyclophosphamide": {
     "label": "Cyclophosphamide",
@@ -3723,7 +4231,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Broad immunosuppression depleting B and T cells; high toxicity limits use to severe refractory cases"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Broad immunosuppression depleting B and T cells. High toxicity limits use to severe refractory cases."
+      }
+    ]
   },
   "Diclofenac": {
     "label": "Diclofenac",
@@ -3748,7 +4263,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Non-selective COX inhibitor; strong anti-inflammatory — cardiovascular/GI risk"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Non-selective COX inhibitor. Strong anti-inflammatory. Cardiovascular/GI risk."
+      }
+    ]
   },
   "Domperidone": {
     "label": "Domperidone",
@@ -3773,7 +4295,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Peripheral D2 antagonist; prokinetic — QT prolongation risk"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Peripheral D2 antagonist. Prokinetic — QT prolongation risk."
+      }
+    ]
   },
   "Famciclovir": {
     "label": "Famciclovir",
@@ -3798,7 +4327,14 @@
       }
     ],
     "therapeuticCategory": "Restorative",
-    "therapeuticDepth": "Suppresses active herpesvirus replication; suppression, not eradication — relapse on discontinuation"
+    "therapeuticDepth": "Restorative",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Restorative",
+        "mechanism": "Suppresses herpesvirus replication. Suppression only."
+      }
+    ]
   },
   "Hydroxyzine": {
     "label": "Hydroxyzine",
@@ -3823,7 +4359,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "H1 receptor blockade with anxiolytic properties"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "H1 receptor blockade with anxiolytic properties."
+      }
+    ]
   },
   "Lamotrigine": {
     "label": "Lamotrigine",
@@ -3848,7 +4391,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Voltage-gated Na+ channel inhibitor reducing neuronal hyperexcitability"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Voltage-gated Na⁺ channel inhibitor reducing neuronal hyperexcitability. Does not address what creates it."
+      }
+    ]
   },
   "Levetiracetam": {
     "label": "Levetiracetam",
@@ -3873,7 +4423,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "SV2A binding modulating neurotransmitter release"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "SV2A binding modulating neurotransmitter release. Empirical in CNS hyperexcitability."
+      }
+    ]
   },
   "Metoclopramide": {
     "label": "Metoclopramide",
@@ -3898,7 +4455,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "D2 antagonist + 5-HT4 agonist; prokinetic — extrapyramidal risk"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "D2 antagonist + 5-HT4 agonist. Prokinetic — extrapyramidal risk."
+      }
+    ]
   },
   "Milnacipran": {
     "label": "Milnacipran",
@@ -3923,7 +4487,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "SNRI with balanced 5-HT/NE reuptake inhibition; fibromyalgia approved"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "SNRI with balanced 5-HT/NE reuptake inhibition. Fibromyalgia approved."
+      }
+    ]
   },
   "Mycophenolate": {
     "label": "Mycophenolate",
@@ -3948,7 +4519,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Inhibits lymphocyte proliferation; broad immunosuppression"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Inhibits lymphocyte proliferation. Broad immunosuppression — high side-effect burden."
+      }
+    ]
   },
   "Nortriptyline": {
     "label": "Nortriptyline",
@@ -3973,7 +4551,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "NE/5-HT reuptake inhibition with less H1 antagonism than amitriptyline"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "NE/5-HT reuptake inhibition with less H1 antagonism than amitriptyline. Better tolerability."
+      }
+    ]
   },
   "Pantoprazole": {
     "label": "Pantoprazole",
@@ -3998,7 +4583,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "Proton pump inhibitor reducing gastric acid; may worsen SIBO/dysbiosis"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "Proton pump inhibitor reducing gastric acid. May worsen SIBO/dysbiosis with chronic use."
+      }
+    ]
   },
   "Paracetamol": {
     "label": "Paracetamol",
@@ -4023,7 +4615,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "Analgesic and antipyretic; unknown mechanism — does not address pain or fever source"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "Analgesic and antipyretic. Does not address pain or fever source."
+      }
+    ]
   },
   "Rizatriptan": {
     "label": "Rizatriptan",
@@ -4048,7 +4647,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "5-HT1B/1D agonist aborting migraine pain; does not address trigger"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "5-HT1B/1D agonist aborting migraine pain. Does not address migraine trigger."
+      }
+    ]
   },
   "Topiramate": {
     "label": "Topiramate",
@@ -4073,7 +4679,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Multi-mechanism neurostabilizer; cognitive side effects limit use"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Multi-mechanism neurostabilizer (Na⁺ channels, GABA-A, AMPA/kainate). Cognitive side effects limit use."
+      }
+    ]
   },
   "Valproate": {
     "label": "Valproate",
@@ -4098,7 +4711,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "HDAC inhibitor + GABAergic; modulates gene expression — long-term safety concerns"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "HDAC inhibitor + GABAergic — modulates gene expression and neurotransmitter balance. Long-term safety concerns."
+      }
+    ]
   },
   "Zolpidem": {
     "label": "Zolpidem",
@@ -4123,7 +4743,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "Selective GABA-A alpha1 agonism inducing sleep without addressing why sleep is unrefreshing"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "Selective GABA-A α1 agonism inducing sleep without addressing why sleep is unrefreshing. PMC risk."
+      }
+    ]
   },
   "Zopiclone": {
     "label": "Zopiclone",
@@ -4148,7 +4775,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "GABA-A modulation for sleep; does not restore sleep architecture"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "GABA-A modulation for sleep. Does not restore sleep architecture. Tolerance development."
+      }
+    ]
   },
   "Eszopiclone": {
     "label": "Eszopiclone",
@@ -4173,7 +4807,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "Selective GABA-A alpha1 agonism for sleep; does not restore restorative sleep"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "Selective GABA-A α1 agonism for sleep onset. Does not restore restorative sleep architecture."
+      }
+    ]
   },
   "Magnesium": {
     "label": "Magnesium",
@@ -4184,7 +4825,14 @@
     "class": "Mineral supplement / enzyme cofactor",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Repletes magnesium if deficient; supports enzyme function"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Repletes magnesium if deficient. Supports enzyme function and neuronal signaling."
+      }
+    ]
   },
   "Zinc": {
     "label": "Zinc",
@@ -4195,7 +4843,14 @@
     "class": "Mineral supplement / trace element",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Repletes zinc if deficient; supports immune function and antioxidant defence"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Repletes zinc if deficient. Supports immune function and antioxidant defence."
+      }
+    ]
   },
   "Selenium": {
     "label": "Selenium",
@@ -4206,7 +4861,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Repletes selenium if deficient; supports glutathione peroxidase"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Repletes selenium if deficient. Supports glutathione peroxidase and thyroid function."
+      }
+    ]
   },
   "Iron": {
     "label": "Iron",
@@ -4217,7 +4879,14 @@
     "class": "Mineral supplement",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Repletes iron if deficient; supports hemoglobin — contraindicated if overload"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Repletes iron if deficient. Supports hemoglobin and ETC. Contraindicated if iron overload present."
+      }
+    ]
   },
   "Vitamin D": {
     "label": "Vitamin D",
@@ -4228,7 +4897,14 @@
     "class": "Vitamin (fat-soluble) / secosteroid hormone",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Repletes vitamin D if deficient; supports immune regulation"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Repletes vitamin D if deficient. Supports immune regulation and calcium homeostasis."
+      }
+    ]
   },
   "Vitamin C": {
     "label": "Vitamin C",
@@ -4239,7 +4915,14 @@
     "class": "Vitamin (water-soluble) / antioxidant",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Antioxidant + collagen synthesis cofactor; repletes if deficient"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Antioxidant + collagen synthesis cofactor. Repletes if deficient."
+      }
+    ]
   },
   "Vitamin B": {
     "label": "Vitamin B",
@@ -4251,7 +4934,14 @@
     "class": "Vitamin (water-soluble B-complex)",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "B-complex vitamins; repletes if deficient — supports energy metabolism and methylation"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "B-complex vitamins. Repletes if deficient. Supports energy metabolism and methylation."
+      }
+    ]
   },
   "Thiamine": {
     "label": "Thiamine",
@@ -4262,7 +4952,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "PDH cofactor; repletes thiamine if deficient"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "PDH cofactor. Repletes thiamine if deficient. Supports PDH/TCA entry."
+      }
+    ]
   },
   "Riboflavin": {
     "label": "Riboflavin",
@@ -4273,7 +4970,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Vitamin B2; Complex II cofactor — repletes if deficient"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Vitamin B2. Complex II cofactor. Repletes if deficient."
+      }
+    ]
   },
   "Niacin": {
     "label": "Niacin",
@@ -4284,7 +4988,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "NAD+ precursor (vitamin B3); supports NAD+ pool"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "NAD⁺ precursor (vitamin B3). Supports NAD⁺ pool. Flushing at therapeutic doses."
+      }
+    ]
   },
   "Pyridoxine": {
     "label": "Pyridoxine",
@@ -4295,7 +5006,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Vitamin B6; neurotransmitter synthesis cofactor — repletes if deficient"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Vitamin B6. Neurotransmitter synthesis cofactor. Repletes if deficient."
+      }
+    ]
   },
   "Cobalamin": {
     "label": "Cobalamin",
@@ -4306,7 +5024,14 @@
     "rx": "OTC (oral); prescription (injection)",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Repletes B12 if deficient; supports methylation and mitochondrial function"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Repletes B12 if deficient. Supports methylation and mitochondrial function."
+      }
+    ]
   },
   "Omega-3": {
     "label": "Omega-3",
@@ -4317,7 +5042,14 @@
     "class": "Essential fatty acid / anti-inflammatory",
     "rx": "OTC",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "SPM precursor supporting inflammation resolution; shifts eicosanoid balance"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "SPM precursor supporting inflammation resolution. Shifts eicosanoid balance toward pro-resolving mediators."
+      }
+    ]
   },
   "EPA": {
     "label": "EPA",
@@ -4328,7 +5060,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "SPM precursor supporting inflammation resolution; shifts eicosanoid balance"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "SPM precursor supporting inflammation resolution. Shifts eicosanoid balance toward pro-resolving mediators."
+      }
+    ]
   },
   "DHA": {
     "label": "DHA",
@@ -4339,7 +5078,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "SPM precursor supporting inflammation resolution; membrane fluidity"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "SPM precursor supporting inflammation resolution. Membrane fluidity."
+      }
+    ]
   },
   "Curcumin": {
     "label": "Curcumin",
@@ -4350,7 +5096,14 @@
     "class": "Polyphenol / anti-inflammatory / NRF2 activator",
     "rx": "OTC",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "NF-kappaB inhibitor + antioxidant; reduces inflammatory signaling"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "NF-κB inhibitor + antioxidant. Reduces inflammatory signaling — limited bioavailability."
+      }
+    ]
   },
   "Resveratrol": {
     "label": "Resveratrol",
@@ -4361,7 +5114,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "SIRT1 activator + antioxidant; limited bioavailability"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "SIRT1 activator + antioxidant supporting mitochondrial biogenesis. Limited bioavailability."
+      }
+    ]
   },
   "Quercetin": {
     "label": "Quercetin",
@@ -4372,7 +5132,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Mast cell stabilizer + PI3K inhibitor + COMT inhibitor + antioxidant"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Mast cell stabilizer + PI3K inhibitor + COMT inhibitor + antioxidant. Multi-target flavonoid."
+      }
+    ]
   },
   "Luteolin": {
     "label": "Luteolin",
@@ -4383,7 +5150,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Mast cell stabilizer with BBB penetration; CNS mast cell probe"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Mast cell stabilizer with BBB penetration. Implicates CNS mast cells if benefit beyond quercetin."
+      }
+    ]
   },
   "EGCG": {
     "label": "EGCG",
@@ -4394,7 +5168,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Antioxidant + Nrf2 activator + COMT inhibitor — hepatotoxicity at supratherapeutic doses"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Antioxidant + Nrf2 activator + COMT inhibitor. Multi-target. Hepatotoxicity at supratherapeutic doses."
+      }
+    ]
   },
   "PQQ": {
     "label": "PQQ",
@@ -4405,7 +5186,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Mitochondrial biogenesis promoter + antioxidant"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Mitochondrial biogenesis promoter + antioxidant. Supports mitochondrial content expansion."
+      }
+    ]
   },
   "Creatine": {
     "label": "Creatine",
@@ -4416,7 +5204,14 @@
     "class": "Energy substrate / phosphocreatine precursor",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Supplies creatine for ATP buffering via phosphocreatine system"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Supplies creatine for ATP buffering via phosphocreatine system. Compensates for impaired ATP regeneration."
+      }
+    ]
   },
   "Carnitine": {
     "label": "Carnitine",
@@ -4427,7 +5222,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Supplies carnitine for fatty acid transport into mitochondria"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Supplies carnitine for fatty acid transport into mitochondria."
+      }
+    ]
   },
   "D-Ribose": {
     "label": "D-Ribose",
@@ -4438,7 +5240,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Supplies ribose for de novo purine synthesis; bypasses impaired ATP regeneration"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Supplies ribose for de novo purine synthesis. Bypasses impaired ATP regeneration. Does not correct the regeneration defect."
+      }
+    ]
   },
   "Glutathione": {
     "label": "Glutathione",
@@ -4449,7 +5258,14 @@
     "rx": "OTC (oral, liposomal); prescription (IV)",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Exogenous glutathione; limited oral bioavailability"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Exogenous glutathione. Limited oral bioavailability — IV/liposomal forms have better absorption."
+      }
+    ]
   },
   "ALA": {
     "label": "ALA",
@@ -4460,7 +5276,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "PDH cofactor + antioxidant; supports PDH function"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "PDH cofactor + antioxidant. Supports PDH function. Does not correct the PDH inhibition source."
+      }
+    ]
   },
   "SAMe": {
     "label": "SAMe",
@@ -4471,7 +5294,14 @@
     "class": "Methyl donor / endogenous metabolite",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Methyl donor supporting methylation cycle"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Methyl donor supporting methylation cycle if SAMe is rate-limiting."
+      }
+    ]
   },
   "Taurine": {
     "label": "Taurine",
@@ -4482,7 +5312,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Amino acid with osmoregulation + antioxidant functions"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Amino acid with osmoregulation + antioxidant + bile acid functions. Repletes if deficient."
+      }
+    ]
   },
   "Lysine": {
     "label": "Lysine",
@@ -4493,7 +5330,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Amino acid supporting collagen synthesis — research-stage"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Amino acid supporting collagen synthesis. Repletes if deficient. Research-stage for connective tissue support."
+      }
+    ]
   },
   "Glycine": {
     "label": "Glycine",
@@ -4504,7 +5348,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Amino acid supporting glutathione synthesis and collagen"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Amino acid supporting glutathione synthesis, collagen, and inhibitory neurotransmission. Repletes if deficient."
+      }
+    ]
   },
   "Arginine": {
     "label": "Arginine",
@@ -4515,7 +5366,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "NO precursor; supports endothelial function if rate-limiting"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "NO precursor. Supports endothelial function if arginine is rate-limiting for NO synthesis."
+      }
+    ]
   },
   "Citrulline": {
     "label": "Citrulline",
@@ -4526,7 +5384,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Arginine precursor with better bioavailability"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Arginine precursor with better bioavailability. Supports NO synthesis if arginine recycling is impaired."
+      }
+    ]
   },
   "Tryptophan": {
     "label": "Tryptophan",
@@ -4537,7 +5402,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Serotonin precursor; supplies if IDO-mediated depletion active"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Serotonin precursor. Supplies tryptophan if IDO-mediated depletion is active and synthesis-limited."
+      }
+    ]
   },
   "5-HTP": {
     "label": "5-HTP",
@@ -4548,7 +5420,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Serotonin precursor bypassing tryptophan hydroxylase; serotonin syndrome risk"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Serotonin precursor bypassing tryptophan hydroxylase. More direct than tryptophan — serotonin syndrome risk."
+      }
+    ]
   },
   "Tyrosine": {
     "label": "Tyrosine",
@@ -4559,7 +5438,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Catecholamine precursor; supplies if rate-limiting for DA/NE production"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Catecholamine precursor. Supplies tyrosine if rate-limiting for DA/NE production."
+      }
+    ]
   },
   "Theanine": {
     "label": "Theanine",
@@ -4570,7 +5456,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Glutamate antagonist + GABA modulator; calm without sedation"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Glutamate antagonist + GABA modulator. Promotes calm without sedation."
+      }
+    ]
   },
   "Ashwagandha": {
     "label": "Ashwagandha",
@@ -4581,7 +5474,14 @@
     "class": "Adaptogenic herb / cortisol modulator / GABA-mimetic",
     "rx": "OTC",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Adaptogen with GABA-A modulation + cortisol reduction"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Adaptogen with GABA-A modulation + cortisol reduction. Modulates stress response axis."
+      }
+    ]
   },
   "Rhodiola": {
     "label": "Rhodiola",
@@ -4592,7 +5492,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands (standardized to rosavins/salidroside)",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Adaptogen with monoamine modulation"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Adaptogen with monoamine modulation reducing fatigue perception. Variable evidence."
+      }
+    ]
   },
   "Cordyceps": {
     "label": "Cordyceps",
@@ -4603,7 +5510,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands (standardized to cordycepin/polysaccharides)",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Fungal supplement with adenosine-like compounds"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Fungal supplement with adenosine-like compounds. Variable evidence; safety concerns with contaminated products."
+      }
+    ]
   },
   "Lion's Mane": {
     "label": "Lion's Mane",
@@ -4614,7 +5528,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands (standardized to erinacines/hericenones)",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "NGF/BDNF induction supporting neuronal health — research-stage"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "NGF/BDNF induction supporting neuronal health. Research-stage; limited ME/CFS evidence."
+      }
+    ]
   },
   "Reishi": {
     "label": "Reishi",
@@ -4625,7 +5546,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands (standardized to polysaccharides/triterpenes)",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Immunomodulatory polysaccharides"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Immunomodulatory polysaccharides. Variable evidence."
+      }
+    ]
   },
   "CBD": {
     "label": "CBD",
@@ -4636,7 +5564,14 @@
     "class": "Phytocannabinoid / anti-inflammatory / analgesic",
     "rx": "OTC (hemp-derived &lt;0.3% THC); prescription (Epidiolex)",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Multi-target cannabinoid system modulator"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Multi-target cannabinoid system modulator reducing inflammation/anxiety. Variable response."
+      }
+    ]
   },
   "THC": {
     "label": "THC",
@@ -4661,7 +5596,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "CB1/CB2 agonist; psychoactive component of cannabis — variable response; dependence risk"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "CB1/CB2 agonist. Psychoactive. Variable response; dependence risk."
+      }
+    ]
   },
   "Cannabidiol": {
     "label": "Cannabidiol",
@@ -4672,7 +5614,14 @@
     "rx": "See CBD entry",
     "brand": "Epidiolex (FDA-approved); various supplement brands",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Multi-target cannabinoid system modulator reducing inflammation/anxiety"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Multi-target cannabinoid system modulator reducing inflammation/anxiety."
+      }
+    ]
   },
   "Ketamine": {
     "label": "Ketamine",
@@ -4697,7 +5646,19 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Dose-dependent: at sub-anesthetic dose (0.5mg/kg IV) = Threshold-modulatory (NMDA antagonist with rapid neuroplastic effects); at anesthetic dose = Symptomatic (dissociation/anesthesia without disease-relevant mechanism). Research-stage."
+    "therapeuticDepth": "Threshold-modulatory / Symptomatic",
+    "doseZones": [
+      {
+        "dose": "0.5 mg/kg IV (sub-anesthetic)",
+        "category": "Threshold-modulatory",
+        "mechanism": "NMDA antagonist with rapid neuroplastic effects at sub-anesthetic dose. Research-stage for depression; not established in ME/CFS."
+      },
+      {
+        "dose": "Anesthetic dose",
+        "category": "Symptomatic",
+        "mechanism": "Dissociation/anesthesia without disease-relevant mechanism. Different drug profile, different clinical purpose."
+      }
+    ]
   },
   "Psilocybin": {
     "label": "Psilocybin",
@@ -4722,7 +5683,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "5-HT2A agonist inducing neuroplastic states — research-stage"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "5-HT2A agonist inducing neuroplastic states. Research-stage; not established for ME/CFS."
+      }
+    ]
   },
   "HIF-1α": {
     "label": "HIF-1α",
@@ -4840,7 +5808,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "PDK inhibitor restoring PDH activity — neurotoxicity risk at cumulative dose"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "PDK inhibitor restoring PDH activity and pyruvate entry into TCA cycle. Neurotoxicity risk at cumulative dose."
+      }
+    ]
   },
   "DDR": {
     "label": "DDR",
@@ -4870,7 +5845,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Nrf2 activator + immunomodulator; activates endogenous anti-inflammatory programs"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Nrf2 activator + immunomodulator. Activates endogenous anti-inflammatory programs via Keap1 modification."
+      }
+    ]
   },
   "DMV": {
     "label": "DMV",
@@ -5132,7 +6114,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands (as palmitoylethanolamide)",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Endogenous PPAR-alpha agonist + mast cell stabilizer; modulates neuroinflammation"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Endogenous PPAR-α agonist + mast cell stabilizer. Modulates neuroinflammation through endogenous lipid signaling."
+      }
+    ]
   },
   "PFC": {
     "label": "PFC",
@@ -5219,7 +6208,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Mitochondria-targeted antioxidant reducing mitochondrial ROS at source — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Mitochondria-targeted antioxidant reducing mitochondrial ROS at source. Research-stage."
+      }
+    ]
   },
   "SV2A": {
     "label": "SV2A",
@@ -5598,7 +6594,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "SSRI increasing synaptic serotonin; compensates for deficient serotonin tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "SSRI increasing synaptic serotonin. Compensates for deficient serotonin tone."
+      }
+    ]
   },
   "Fluvoxamine": {
     "label": "Fluvoxamine",
@@ -5623,7 +6626,19 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "S1R agonism reducing ER stress and ISR activity at low dose"
+    "therapeuticDepth": "Corrective / Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "25–50 mg",
+        "category": "Corrective",
+        "mechanism": "S1R agonism reducing ER stress and ISR activity. Anti-inflammatory via S1R, not serotonin reuptake at low dose."
+      },
+      {
+        "dose": "100+ mg",
+        "category": "Threshold-modulatory",
+        "mechanism": "SSRI dose — serotonin reuptake inhibition dominates. Different mechanism profile at antidepressant dosing."
+      }
+    ]
   },
   "Escitalopram": {
     "label": "Escitalopram",
@@ -5648,7 +6663,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "SSRI increasing synaptic serotonin; compensates for deficient serotonin tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "SSRI increasing synaptic serotonin. Compensates for deficient serotonin tone."
+      }
+    ]
   },
   "Desvenlafaxine": {
     "label": "Desvenlafaxine",
@@ -5673,7 +6695,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "SNRI increasing synaptic 5-HT and NE; compensates for deficient monoamine tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "SNRI increasing synaptic 5-HT and NE. Compensates for deficient monoamine tone."
+      }
+    ]
   },
   "Prednisolone": {
     "label": "Prednisolone",
@@ -5697,8 +6726,20 @@
         "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Prednisolone"
       }
     ],
-    "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Dose-dependent: at physiological replacement = Substrate-repletion; at immunosuppressive dose = Threshold-modulatory (broad inflammation suppression)."
+    "therapeuticCategory": "Substrate-repletion",
+    "therapeuticDepth": "Substrate-repletion / Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "2.5–5 mg/day",
+        "category": "Substrate-repletion",
+        "mechanism": "Physiological replacement — restores deficient cortisol if HPA axis hypofunctional."
+      },
+      {
+        "dose": "10+ mg/day",
+        "category": "Threshold-modulatory",
+        "mechanism": "Immunosuppressive — broad inflammation suppression; HPA suppression risk."
+      }
+    ]
   },
   "Oxycodone": {
     "label": "Oxycodone",
@@ -5723,7 +6764,14 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "Mu-opioid agonist; suppresses pain perception without reducing driver — dependence risk"
+    "therapeuticDepth": "Symptomatic",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Symptomatic",
+        "mechanism": "Mu-opioid agonist. Suppresses pain perception without reducing nociceptive driver. Dependence, tolerance, OIH risk."
+      }
+    ]
   },
   "Meloxicam": {
     "label": "Meloxicam",
@@ -5748,7 +6796,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Preferential COX-2 inhibitor; anti-inflammatory — cardiovascular/GI risk"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Preferential COX-2 inhibitor. Anti-inflammatory. Cardiovascular/GI risk."
+      }
+    ]
   },
   "Vitamin B12": {
     "alias": "B12"
@@ -5971,7 +7026,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "GABA-A neurosteroid site PAM; if deficient, replacement is substrate-repletion"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "GABA-A neurosteroid site PAM. If deficiency confirmed, replacement is substrate-repletion; otherwise threshold-modulatory."
+      }
+    ]
   },
   "Ambroxol": {
     "label": "Ambroxol",
@@ -5996,7 +7058,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "TRPV1 antagonist reducing muscle pain and PEM; mucolytic"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "TRPV1 antagonist reducing muscle pain and PEM. Mucolytic if airway symptoms."
+      }
+    ]
   },
   "Amlodipine": {
     "label": "Amlodipine",
@@ -6021,7 +7090,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "L-type Ca2+ channel blocker reducing TRPV1-mediated vasoconstriction"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "L-type Ca²⁺ channel blocker reducing TRPV1-mediated vasoconstriction downstream. Does not correct TRPV1 dysfunction."
+      }
+    ]
   },
   "Anakinra": {
     "label": "Anakinra",
@@ -6046,7 +7122,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Blocks IL-1 receptor, interrupting autoinflammatory amplification — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Blocks IL-1 receptor, interrupting IL-1β-driven autoinflammatory amplification. Does not address IL-1β source."
+      }
+    ]
   },
   "Apixaban": {
     "label": "Apixaban",
@@ -6071,7 +7154,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Factor Xa inhibitor reducing microthrombi formation — research-stage; bleeding risk"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Factor Xa inhibitor reducing microthrombi formation. Bleeding risk; research-stage."
+      }
+    ]
   },
   "Atomoxetine": {
     "label": "Atomoxetine",
@@ -6096,7 +7186,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Selective NET inhibitor increasing NE tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Selective NET inhibitor increasing NE tone. Does not correct why NE is deficient."
+      }
+    ]
   },
   "Belzutifan": {
     "label": "Belzutifan",
@@ -6121,7 +7218,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "HIF-2alpha inhibitor targeting hypoxic signaling cascade — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "HIF-2α inhibitor. If HIF-2α drives vascular pathology, targets hypoxic signaling cascade. Research-stage."
+      }
+    ]
   },
   "Canakinumab": {
     "label": "Canakinumab",
@@ -6146,7 +7250,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Blocks IL-1beta specifically, interrupting autoinflammatory amplification"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Blocks IL-1β specifically, interrupting autoinflammatory amplification."
+      }
+    ]
   },
   "Cilostazol": {
     "label": "Cilostazol",
@@ -6171,7 +7282,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "PDE3 inhibitor improving microvascular perfusion"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "PDE3 inhibitor improving microvascular perfusion. Addresses perfusion deficit without correcting the cause."
+      }
+    ]
   },
   "Cimetidine": {
     "label": "Cimetidine",
@@ -6196,7 +7314,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "H2 receptor antagonist with T-cell enhancement via H2 on suppressor T cells"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "H2 receptor antagonist with T-cell enhancement via H2 on suppressor T cells."
+      }
+    ]
   },
   "Clopidogrel": {
     "label": "Clopidogrel",
@@ -6221,7 +7346,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "P2Y12 inhibitor reducing platelet aggregation — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "P2Y12 inhibitor reducing platelet aggregation. Research-stage for microthrombi."
+      }
+    ]
   },
   "Colchicine": {
     "label": "Colchicine",
@@ -6246,7 +7378,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Microtubule inhibitor with NLRP3 inflammasome suppression; narrow therapeutic window"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Microtubule inhibitor with NLRP3 inflammasome suppression. Narrow therapeutic window."
+      }
+    ]
   },
   "Cyclosporine": {
     "label": "Cyclosporine",
@@ -6271,7 +7410,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Calcineurin inhibitor suppressing T-cell activation — nephrotoxicity risk"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Calcineurin inhibitor suppressing T-cell activation. Broad immunosuppression — nephrotoxicity risk."
+      }
+    ]
   },
   "Daratumumab": {
     "label": "Daratumumab",
@@ -6296,7 +7442,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Depletes CD38+ long-lived plasma cells; targets the source rituximab spares — research-stage in ME/CFS"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Depletes CD38+ long-lived plasma cells — targets the source rituximab spares. Research-stage in ME/CFS."
+      }
+    ]
   },
   "Donepezil": {
     "label": "Donepezil",
@@ -6321,7 +7474,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "AChE inhibitor enhancing cholinergic transmission"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "AChE inhibitor enhancing cholinergic transmission. Cognitive benefit if cholinergic deficiency — GI side effects."
+      }
+    ]
   },
   "Dornase alfa": {
     "label": "Dornase alfa",
@@ -6346,7 +7506,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "DNase enzyme degrading NET DNA — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "DNase enzyme degrading NET DNA. If NETosis confirmed, clears NET-derived DAMPs. Research-stage."
+      }
+    ]
   },
   "Doxycycline": {
     "label": "Doxycycline",
@@ -6371,7 +7538,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "MMP inhibition at sub-antimicrobial doses reduces ECM degradation"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Sub-antimicrobial",
+        "category": "Corrective",
+        "mechanism": "MMP inhibition at sub-antimicrobial doses reduces ECM degradation. Does not address what drives MMP-9."
+      }
+    ]
   },
   "Erythromycin": {
     "label": "Erythromycin",
@@ -6396,7 +7570,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Motilin agonist; prokinetic — tachyphylaxis within 2-4 weeks"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Low-dose, prokinetic",
+        "category": "Threshold-modulatory",
+        "mechanism": "Motilin agonist. Prokinetic — tachyphylaxis within 2–4 weeks; QT prolongation risk."
+      }
+    ]
   },
   "Folinic acid": {
     "label": "Folinic acid",
@@ -6407,7 +7588,14 @@
     "class": "Reduced folate / methylation support",
     "rx": "Prescription (high-dose); OTC (low-dose supplement)",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Folate derivative; supports methylation and DNA synthesis"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Folate derivative. Supports methylation and DNA synthesis."
+      }
+    ]
   },
   "Glycyrrhizin": {
     "label": "Glycyrrhizin",
@@ -6418,7 +7606,14 @@
     "rx": "OTC (as licorice root extract); prescription (IV glycyrrhizin in Asia)",
     "brand": "Various supplement brands; licorice root extract",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "HMGB1 inhibitor targeting a causal DAMP mediator in PEM — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "HMGB1 inhibitor targeting a causal DAMP mediator in PEM. Research-stage."
+      }
+    ]
   },
   "Heparin": {
     "label": "Heparin",
@@ -6443,7 +7638,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Anticoagulant reducing microthrombi — research-stage; bleeding risk"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Anticoagulant reducing microthrombi. If microclots are pathological, targets coagulation cascade. Bleeding risk; research-stage."
+      }
+    ]
   },
   "Larazotide": {
     "label": "Larazotide",
@@ -6468,7 +7670,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Zonulin antagonist reducing intestinal permeability — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Zonulin antagonist reducing intestinal permeability. If leaky gut drives inflammation, targets structural barrier defect. Research-stage."
+      }
+    ]
   },
   "Maraviroc": {
     "label": "Maraviroc",
@@ -6493,7 +7702,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "CCR5 antagonist; targets chemokine-mediated neuroinflammation — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "CCR5 antagonist. If CCR5-mediated inflammatory cell trafficking drives neuroinflammation, targets specific chemokine pathway. Research-stage."
+      }
+    ]
   },
   "Methylcobalamin": {
     "label": "Methylcobalamin",
@@ -6504,7 +7720,14 @@
     "class": "Active vitamin B12 / methyl donor cofactor",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Active B12 form; supports methylation and mitochondrial function without hepatic conversion"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Active B12 form. Supports methylation and mitochondrial function without hepatic conversion."
+      }
+    ]
   },
   "Methylfolate": {
     "label": "Methylfolate",
@@ -6515,7 +7738,14 @@
     "class": "Active folate / methyl donor cofactor",
     "rx": "OTC (supplement); prescription (medical food, Deplin)",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Active folate form; bypasses MTHFR-dependent conversion — supports methylation"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Active folate form. Bypasses MTHFR-dependent conversion. Supports methylation."
+      }
+    ]
   },
   "Minocycline": {
     "label": "Minocycline",
@@ -6540,7 +7770,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Microglial anti-inflammatory + MMP-9 inhibition + neuroprotective; multi-mechanism tetracycline"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Microglial anti-inflammatory + MMP-9 inhibition + neuroprotective. Multi-mechanism tetracycline."
+      }
+    ]
   },
   "Nifedipine": {
     "label": "Nifedipine",
@@ -6565,7 +7802,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "L-type Ca2+ channel blocker reducing vasoconstriction"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "L-type Ca²⁺ channel blocker reducing vasoconstriction. Short half-life limits sustained benefit."
+      }
+    ]
   },
   "Omalizumab": {
     "label": "Omalizumab",
@@ -6590,7 +7834,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Anti-IgE monoclonal antibody blocking IgE-mediated mast cell activation"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Anti-IgE monoclonal antibody blocking IgE-mediated mast cell activation. Targets a specific activation pathway."
+      }
+    ]
   },
   "Pentoxifylline": {
     "label": "Pentoxifylline",
@@ -6615,7 +7866,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "PDE inhibitor reducing blood viscosity and TNF-alpha"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "PDE inhibitor reducing blood viscosity and TNF-α. Modulates perfusion/cytokine balance."
+      }
+    ]
   },
   "Pravastatin": {
     "label": "Pravastatin",
@@ -6640,7 +7898,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Statin with pleiotropic anti-inflammatory effects — muscle symptoms concern in ME/CFS"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Statin with pleiotropic anti-inflammatory effects. May reduce endothelial inflammation. Muscle symptoms concern in ME/CFS."
+      }
+    ]
   },
   "Pregnenolone": {
     "label": "Pregnenolone",
@@ -6687,7 +7952,19 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Dose-dependent: at low-intermittent dose = Corrective (mTORC1-selective autophagy restoration); at higher/continuous dose = Threshold-modulatory (mTORC2 inhibition adds metabolic side effects, blunting net benefit). Intermittent dosing preserves mTORC1 selectivity."
+    "therapeuticDepth": "Corrective / Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Low, intermittent",
+        "category": "Corrective",
+        "mechanism": "mTORC1-selective autophagy restoration — preserves mTORC2-mediated metabolic functions. Intermittent dosing is key to selectivity."
+      },
+      {
+        "dose": "Higher, continuous",
+        "category": "Threshold-modulatory",
+        "mechanism": "mTORC2 inhibition adds metabolic side effects, blunting net benefit. Receptor-occupancy threshold crossed."
+      }
+    ]
   },
   "Rintatolimod": {
     "label": "Rintatolimod",
@@ -6712,7 +7989,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "TLR3 agonist restoring RNase L pathway and innate antiviral immunity — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "TLR3 agonist restoring RNase L pathway and innate antiviral immunity. Research-stage."
+      }
+    ]
   },
   "Roflumilast": {
     "label": "Roflumilast",
@@ -6737,7 +8021,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "PDE4 inhibitor; broad anti-inflammatory — GI side effects limit use"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "PDE4 inhibitor reducing cAMP degradation. Broad anti-inflammatory — GI side effects limit use."
+      }
+    ]
   },
   "Sirolimus": {
     "label": "Sirolimus",
@@ -6762,7 +8053,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "mTORC1 inhibition restoring autophagy and reducing senescence"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Same as Rapamycin — mTORC1 inhibition restoring autophagy and reducing senescence."
+      }
+    ]
   },
   "TUDCA": {
     "label": "TUDCA",
@@ -6773,7 +8071,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "ER stress reducer stabilizing protein folding and calming UPR — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "ER stress reducer stabilizing protein folding and calming UPR. Research-stage in ME/CFS."
+      }
+    ]
   },
   "Tacrolimus": {
     "label": "Tacrolimus",
@@ -6798,7 +8103,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Calcineurin inhibitor suppressing T-cell activation — nephrotoxicity risk"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Calcineurin inhibitor suppressing T-cell activation. Nephrotoxicity risk."
+      }
+    ]
   },
   "Warfarin": {
     "label": "Warfarin",
@@ -6823,7 +8135,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Vitamin K antagonist reducing coagulation — narrow window; bleeding risk"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Vitamin K antagonist reducing coagulation. Narrow therapeutic window; bleeding risk; requires monitoring."
+      }
+    ]
   },
   "Beta-hydroxybutyrate": {
     "label": "Beta-hydroxybutyrate",
@@ -6840,7 +8159,14 @@
     "rx": "OTC (as supplement)",
     "brand": "Boluoke, various supplement brands",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Fibrinolytic enzyme degrading fibrin microthrombi — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Fibrinolytic enzyme degrading fibrin microthrombi. Research-stage; limited quality control."
+      }
+    ]
   },
   "Nattokinase": {
     "label": "Nattokinase",
@@ -6851,7 +8177,14 @@
     "rx": "OTC (as supplement)",
     "brand": "Various supplement brands (NSK-SD)",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Fibrinolytic enzyme degrading fibrin microthrombi — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Fibrinolytic enzyme degrading fibrin microthrombi. Research-stage; limited quality control."
+      }
+    ]
   },
   "MitoQ": {
     "label": "MitoQ",
@@ -6862,7 +8195,14 @@
     "rx": "OTC (as supplement)",
     "brand": "MitoQ (brand name)",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Mitochondria-targeted CoQ10 analog; more efficient delivery"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Mitochondria-targeted CoQ10 analog. More efficient mitochondrial delivery than standard CoQ10."
+      }
+    ]
   },
   "NADH": {
     "label": "NADH",
@@ -6873,7 +8213,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands (ENADA, Co-E1)",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Supplies NADH as Complex I substrate; bypasses reduced production"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Supplies NADH as Complex I substrate. Bypasses reduced endogenous production. Does not correct the production defect."
+      }
+    ]
   },
   "NMN": {
     "label": "NMN",
@@ -6884,7 +8231,14 @@
     "rx": "OTC (as supplement; regulatory status varies by country)",
     "brand": "Various supplement brands",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "NAD+ precursor; compensates for NAD+ depletion"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "NAD⁺ precursor. Compensates for NAD⁺ depletion. Does not correct the consumption source."
+      }
+    ]
   },
   "NR": {
     "label": "NR",
@@ -6895,7 +8249,14 @@
     "class": "NAD+ precursor",
     "rx": "OTC",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "NAD+ precursor; compensates for NAD+ depletion"
+    "therapeuticDepth": "Substrate-repletion",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "NAD⁺ precursor. Compensates for NAD⁺ depletion."
+      }
+    ]
   },
   "Palmitoylethanolamide": {
     "label": "Palmitoylethanolamide",
@@ -6906,7 +8267,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands (as PEA)",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Endogenous PPAR-alpha agonist + mast cell stabilizer; modulates neuroinflammation"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Endogenous PPAR-α agonist + mast cell stabilizer. Modulates neuroinflammation through endogenous lipid signaling."
+      }
+    ]
   },
   "Spermidine": {
     "label": "Spermidine",
@@ -6917,7 +8285,14 @@
     "rx": "OTC",
     "brand": "Various supplement brands (as spermidine trihydrochloride)",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Autophagy inducer supporting cellular renewal — research-stage; no ME/CFS data"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Autophagy inducer supporting cellular renewal. Research-stage; no ME/CFS data."
+      }
+    ]
   },
   "Sulforaphane": {
     "label": "Sulforaphane",
@@ -6928,7 +8303,14 @@
     "class": "Isothiocyanate / NRF2 activator / HDAC inhibitor",
     "rx": "OTC",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Nrf2 activator via Keap1 modification; activates endogenous anti-inflammatory programs"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Nrf2 activator via Keap1 modification. Activates endogenous anti-inflammatory programs."
+      }
+    ]
   },
   "Urolithin A": {
     "label": "Urolithin A",
@@ -6939,7 +8321,14 @@
     "class": "Mitophagy inducer",
     "rx": "OTC",
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Mitophagy activator clearing damaged mitochondria — research-stage"
+    "therapeuticDepth": "Corrective",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Mitophagy activator clearing damaged mitochondria. Restores mitochondrial quality control. Research-stage."
+      }
+    ]
   },
   "Adrenal": {
     "label": "Adrenal",
@@ -7278,7 +8667,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Iron chelator; if iron overload is pathological, removes excess — research-stage"
+    "therapeuticDepth": "Iron chelator; if iron overload is pathological, removes excess — research-stage",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Iron chelator; if iron overload is pathological, removes excess — research-stage"
+      }
+    ]
   },
   "ferritinophagy": {
     "label": "Ferritinophagy",
@@ -7427,7 +8823,14 @@
     "definition": "A class of medications that selectively block the norepinephrine transporter (NET), increasing synaptic norepinephrine and dopamine (in prefrontal cortex). Used for ADHD, depression, and off-label in ME/CFS for cognitive dysfunction and fatigue. Atomoxetine (Strattera) is the primary NRI; NRI effects can also be achieved with certain SNRIs such as venlafaxine at higher doses.",
     "rx": "Prescription (US, EU)",
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Selective NE reuptake inhibitor; compensates for deficient NE tone"
+    "therapeuticDepth": "Threshold-modulatory",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Selective norepinephrine reuptake inhibitor. Compensates for deficient NE tone."
+      }
+    ]
   },
   "graded exercise therapy": {
     "label": "Graded Exercise Therapy (GET)",
@@ -7506,7 +8909,14 @@
       }
     ],
     "therapeuticCategory": "Restorative",
-    "therapeuticDepth": "Suppresses active herpesvirus replication; suppression, not eradication — relapse on discontinuation"
+    "therapeuticDepth": "Suppresses active herpesvirus replication; suppression, not eradication — relapse on discontinuation",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Restorative",
+        "mechanism": "Suppresses active herpesvirus replication; suppression, not eradication — relapse on discontinuation"
+      }
+    ]
   },
   "dasatinib": {
     "label": "Dasatinib",
@@ -7531,7 +8941,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Tyrosine kinase inhibitor with senolytic properties — research-stage; no ME/CFS data"
+    "therapeuticDepth": "Tyrosine kinase inhibitor with senolytic properties — research-stage; no ME/CFS data",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Tyrosine kinase inhibitor with senolytic properties — research-stage; no ME/CFS data"
+      }
+    ]
   },
   "nirmatrelvir": {
     "label": "Nirmatrelvir",
@@ -7556,7 +8973,14 @@
       }
     ],
     "therapeuticCategory": "Restorative",
-    "therapeuticDepth": "SARS-CoV-2 protease inhibitor; antiviral — acute COVID only; not for ME/CFS"
+    "therapeuticDepth": "SARS-CoV-2 protease inhibitor; antiviral — acute COVID only; not for ME/CFS",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Restorative",
+        "mechanism": "SARS-CoV-2 protease inhibitor; antiviral — acute COVID only; not for ME/CFS"
+      }
+    ]
   },
   "metoprolol": {
     "label": "Metoprolol",
@@ -7581,7 +9005,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Beta1-selective blocker; reduces cardiac adrenergic drive; spares lipolysis"
+    "therapeuticDepth": "Beta1-selective blocker; reduces cardiac adrenergic drive; spares lipolysis",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Beta1-selective blocker; reduces cardiac adrenergic drive; spares lipolysis"
+      }
+    ]
   },
   "atorvastatin": {
     "label": "Atorvastatin",
@@ -7606,7 +9037,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Statin with pleiotropic anti-inflammatory effects — muscle symptoms concern in ME/CFS"
+    "therapeuticDepth": "Statin with pleiotropic anti-inflammatory effects — muscle symptoms concern in ME/CFS",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Statin with pleiotropic anti-inflammatory effects — muscle symptoms concern in ME/CFS"
+      }
+    ]
   },
   "nebivolol": {
     "label": "Nebivolol",
@@ -7631,7 +9069,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Beta1-selective blocker with NO-mediated vasodilation"
+    "therapeuticDepth": "Beta1-selective blocker with NO-mediated vasodilation",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Beta1-selective blocker with NO-mediated vasodilation"
+      }
+    ]
   },
   "etanercept": {
     "label": "Etanercept",
@@ -7656,7 +9101,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "TNF-alpha blocker; interrupts inflammatory cascade — research-stage for neuroinflammation"
+    "therapeuticDepth": "TNF-alpha blocker; interrupts inflammatory cascade — research-stage for neuroinflammation",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "TNF-alpha blocker; interrupts inflammatory cascade — research-stage for neuroinflammation"
+      }
+    ]
   },
   "pembrolizumab": {
     "label": "Pembrolizumab",
@@ -7681,7 +9133,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "PD-1 checkpoint inhibitor; immune-activating — NOT applicable to ME/CFS (autoimmune risk)"
+    "therapeuticDepth": "PD-1 checkpoint inhibitor; immune-activating — NOT applicable to ME/CFS (autoimmune risk)",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "PD-1 checkpoint inhibitor; immune-activating — NOT applicable to ME/CFS (autoimmune risk)"
+      }
+    ]
   },
   "bisoprolol": {
     "label": "Bisoprolol",
@@ -7706,7 +9165,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Beta1-selective blocker; reduces cardiac adrenergic drive"
+    "therapeuticDepth": "Beta1-selective blocker; reduces cardiac adrenergic drive",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "Beta1-selective blocker; reduces cardiac adrenergic drive"
+      }
+    ]
   },
   "valsartan": {
     "label": "Valsartan",
@@ -7731,7 +9197,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "ARB reducing angiotensin II-mediated vasoconstriction and inflammation"
+    "therapeuticDepth": "ARB reducing angiotensin II-mediated vasoconstriction and inflammation",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "ARB reducing angiotensin II-mediated vasoconstriction and inflammation"
+      }
+    ]
   },
   "lisinopril": {
     "label": "Lisinopril",
@@ -7756,7 +9229,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "ACE inhibitor reducing angiotensin II synthesis — cough side effect may mimic MCAS"
+    "therapeuticDepth": "ACE inhibitor reducing angiotensin II synthesis — cough side effect may mimic MCAS",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "ACE inhibitor reducing angiotensin II synthesis — cough side effect may mimic MCAS"
+      }
+    ]
   },
   "paroxetine": {
     "label": "Paroxetine",
@@ -7781,7 +9261,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "SSRI increasing synaptic serotonin; compensates for deficient serotonin tone"
+    "therapeuticDepth": "SSRI increasing synaptic serotonin; compensates for deficient serotonin tone",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "SSRI increasing synaptic serotonin; compensates for deficient serotonin tone"
+      }
+    ]
   },
   "eculizumab": {
     "label": "Eculizumab",
@@ -7806,7 +9293,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "C5 complement inhibitor; if complement activation drives pathology, blocks terminal cascade — research-stage"
+    "therapeuticDepth": "C5 complement inhibitor; if complement activation drives pathology, blocks terminal cascade — research-stage",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "C5 complement inhibitor; if complement activation drives pathology, blocks terminal cascade — research-stage"
+      }
+    ]
   },
   "isrib": {
     "label": "ISRIB (Integrated Stress Response Inhibitor)",
@@ -7826,7 +9320,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Integrated stress response inhibitor; reduces ISR activity — research-stage; no ME/CFS data"
+    "therapeuticDepth": "Integrated stress response inhibitor; reduces ISR activity — research-stage; no ME/CFS data",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Integrated stress response inhibitor; reduces ISR activity — research-stage; no ME/CFS data"
+      }
+    ]
   },
   "macrophage": {
     "label": "Macrophage",
@@ -8360,7 +9861,14 @@
     "class": "Live microorganisms / gut microbiome modulator",
     "rx": "OTC (US, EU)",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Live microorganisms; may modulate gut microbiome — variable evidence; limited quality control"
+    "therapeuticDepth": "Live microorganisms; may modulate gut microbiome — variable evidence; limited quality control",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Live microorganisms; may modulate gut microbiome — variable evidence; limited quality control"
+      }
+    ]
   },
   "prebiotic": {
     "label": "Prebiotic",
@@ -8369,7 +9877,14 @@
     "class": "Dietary fiber / gut microbiome modulator",
     "rx": "OTC (US, EU)",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Substrate for beneficial gut bacteria; may modulate microbiome composition"
+    "therapeuticDepth": "Substrate for beneficial gut bacteria; may modulate microbiome composition",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Substrate-repletion",
+        "mechanism": "Substrate for beneficial gut bacteria; may modulate microbiome composition"
+      }
+    ]
   },
   "memantine": {
     "label": "Memantine",
@@ -8394,7 +9909,14 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "NMDA receptor antagonist reducing glutamatergic excitotoxicity"
+    "therapeuticDepth": "NMDA receptor antagonist reducing glutamatergic excitotoxicity",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Threshold-modulatory",
+        "mechanism": "NMDA receptor antagonist reducing glutamatergic excitotoxicity"
+      }
+    ]
   },
   "daridorexant": {
     "label": "Daridorexant",
@@ -8419,7 +9941,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Dual orexin receptor antagonist; reduces orexin wakefulness drive"
+    "therapeuticDepth": "Dual orexin receptor antagonist; reduces orexin wakefulness drive",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "Dual orexin receptor antagonist; reduces orexin wakefulness drive"
+      }
+    ]
   },
   "belimumab": {
     "label": "Belimumab",
@@ -8444,7 +9973,14 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "BLyS/BAFF inhibitor reducing B-cell survival; targets autoantibody-producing B cells — research-stage"
+    "therapeuticDepth": "BLyS/BAFF inhibitor reducing B-cell survival; targets autoantibody-producing B cells — research-stage",
+    "doseZones": [
+      {
+        "dose": "Therapeutic range",
+        "category": "Corrective",
+        "mechanism": "BLyS/BAFF inhibitor reducing B-cell survival; targets autoantibody-producing B cells — research-stage"
+      }
+    ]
   },
   "prostacyclin": {
     "label": "Prostacyclin (PGI₂)",
