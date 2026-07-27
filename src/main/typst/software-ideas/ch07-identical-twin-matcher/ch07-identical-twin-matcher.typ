@@ -59,6 +59,7 @@ Patients must explicitly consent to their de-identified data being included in t
 - the Mechanism Fingerprint Platform spec (Mechanism Fingerprint Platform): the fingerprint that provides the matching features
 - the Wearable Dashboard spec (Wearable Dashboard): the longitudinal data that enables trajectory overlay
 - Ch38 (Proposed Studies, parent paper): the research infrastructure that could generate the matching database
+- @sec:mz-twin-discordant-striatal-microbiome-lsr (Ch46): a formal research proposal extending the twin concept with DecodeME-informed striatal imaging, microbiome, and LSR measurements
 
 == Limitations
 

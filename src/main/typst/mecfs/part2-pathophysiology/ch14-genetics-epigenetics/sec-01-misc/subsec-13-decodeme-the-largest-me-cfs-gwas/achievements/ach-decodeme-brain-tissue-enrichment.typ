@@ -6,4 +6,6 @@
 This finding has been replicated and extended by the Maccallini 2026 meta-GWAS (n=19,470 cases), which found exclusive brain and pituitary enrichment across 30 tissues and additionally performed cell-type enrichment identifying medium spiny neurons (MSNs) in the striatum as the most specific cell-type hit @Maccallini2026metaGWAS. Stratified LDSC analysis using the Finucane et al.\ 2018 pipeline replicated the CNS signal across multiple reference datasets (GTEx v6, Dropviz mouse atlas, Human Brain Atlas) and found zero significant immune cell-type associations @Finucane2018stratifiedLDSC. A third independent analysis using the DESCARTES fetal human atlas confirmed neuronal rather than immune cell-type involvement @Lee2026geneticOverlap. See Achievement @ach:cell-type-enrichment-convergence in Chapter @ch:neurological for the cell-type specificity discussion.
 
 Study: (n=15,579 cases, n=259,909 controls, MAGMA analysis, 13 brain tissues, replicated in meta-GWAS n=19,470, convergent with 3 cell atlases; key caveat: fine cell-type resolution is method-dependent).
+
+The MZ twin discordant study proposal in Chapter 46 (@sec:mz-twin-discordant-striatal-microbiome-lsr) provides a genetically controlled design to test whether this neuronal genetic signal translates to functional striatal pathology.
 ] <ach:decodeme-brain-enrichment>
