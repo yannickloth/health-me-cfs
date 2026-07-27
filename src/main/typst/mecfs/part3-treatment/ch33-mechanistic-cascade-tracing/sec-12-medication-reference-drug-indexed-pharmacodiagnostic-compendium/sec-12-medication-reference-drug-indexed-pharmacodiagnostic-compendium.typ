@@ -1,4 +1,6 @@
-=== 5-HTP (5-Hydroxytryptophan)
+=== Medication Reference — Drug-Indexed Pharmacodiagnostic Compendium <sec:medication-reference>
+
+== 5-HTP (5-Hydroxytryptophan)
 
 *Appears in:* @sec:trpm3-cascade Step A4 (serotonin precursor probe), @sec:vagal-cascade, cross-reference matrix Phase 4 Group C.
 
