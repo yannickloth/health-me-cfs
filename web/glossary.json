@@ -8394,5 +8394,40 @@
     "label": "Resensitization",
     "category": "mechanism",
     "definition": "The process by which desensitized receptors are recycled back to the cell surface in a drug-responsive state after a drug-free interval. Requires receptor dephosphorylation in endosomes."
+  },
+  "T90": {
+    "label": "T90",
+    "category": "measurement",
+    "definition": "Time to 90% baseline recovery \u2014 the duration required for heart rate to return to within 10% of its pre-stressor baseline after a physiological challenge such as thermal exposure or exercise. Used as an autonomic recovery endpoint."
+  },
+  "HRR": {
+    "label": "HRR",
+    "category": "measurement",
+    "definition": "Heart rate recovery \u2014 the decrease in heart rate from peak exercise or stress to 1 or 2 minutes post-stimulus. Reflects parasympathetic (vagal) reactivation capacity. Attenuated HRR (\u226434.5 bpm at 1 min) is documented in ME/CFS and predicts mortality in cardiovascular populations."
+  },
+  "VT": {
+    "label": "VT",
+    "category": "measurement",
+    "definition": "Ventilatory threshold \u2014 the exercise intensity at which ventilation increases disproportionately to oxygen consumption, reflecting the onset of anaerobic metabolism. Also called the gas exchange threshold (GET). In ME/CFS, exercise above VT is associated with increased PEM risk and prolonged autonomic recovery as measured by HRV."
+  },
+  "BALT": {
+    "label": "BALT",
+    "category": "anatomical",
+    "definition": "Bronchus-Associated Lymphoid Tissue: organized immune structures in the respiratory tract containing B cells, T cells, and plasma cells capable of local antibody production."
+  },
+  "GALT": {
+    "label": "GALT",
+    "category": "anatomical",
+    "definition": "Gut-Associated Lymphoid Tissue: organized immune structures in the gastrointestinal tract (Peyer's patches, isolated lymphoid follicles) that produce antibodies and maintain gut immune homeostasis."
+  },
+  "ITT": {
+    "label": "ITT",
+    "category": "method",
+    "definition": "Intention-To-Treat: a clinical trial analysis method that includes all randomized participants regardless of whether they completed the trial. ITT analysis preserves randomization and prevents selection bias."
+  },
+  "PK": {
+    "label": "PK",
+    "category": "method",
+    "definition": "Pharmacokinetics: the study of how a drug is absorbed, distributed, metabolized, and eliminated by the body. PK parameters determine whether a drug reaches its target at therapeutic concentrations."
   }
 }
