@@ -168,6 +168,8 @@ The LSR framework was developed for EBV, but its logic --- compare lytic-cycle a
 
 *Consequence:* The combination of a blood test (LSR) and a patient diary (HSV outbreak frequency) could triangulate viral reactivation across two distinct latency compartments without invasive tissue sampling. But this requires two prior validations that have not been done.
 
+*Falsifiable prediction (conditional):* In a nested analysis within the LSR validation study: HSV-1 seropositive patients with elevated EBV-LSR will report higher HSV outbreak frequency than those with normal LSR. Falsified if LSR and HSV outbreak frequency are independent. *Critique: structurally unfalsifiable pending two prior validations --- (1) LSR discrimination of ME/CFS from controls, and (2) HSV outbreak--PEM temporal clustering. This is a hypothesis about hypotheses.*
+
 ] <oq:lsr-hsv-patterns>
 
 #limitation(title: [HSV-LSR Analog Requires De Novo Assay Development])[

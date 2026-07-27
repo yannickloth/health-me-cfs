@@ -77,3 +77,33 @@ This creates a potential unifying mechanism: autonomic dysfunction → macrophag
 *Certainty: 0.45* — multiple independent lines support the ANS-macrophage link; direct ME/CFS tissue macrophage polarization data is lacking. Not yet replicated.
 ] <spec:autonomic-macrophage-repair>
 
+#speculation(title: [Satellite Cell Depletion as a Convergent Tissue Repair Mechanism])[
+Beyond autonomic macrophage polarization, a 2026 conference abstract provides the first direct evidence that the satellite cell pool itself is depleted in ME/CFS and Long COVID skeletal muscle @Charlton2026SCdepletion. Satellite cells (Pax7⁺ muscle stem cells) are the cellular substrate for muscle repair — their depletion means that even if macrophage polarization and NK-mediated repair signalling were normal, the muscle would lack the cellular machinery to regenerate damaged fibres. Fibroadipogenic progenitor (FAP) cells, which provide essential niche support for satellite cell proliferation and differentiation @Yin2013SCniche, showed a trending reduction (PDGFRα⁺, P=0.061) suggesting the regenerative niche itself is compromised.
+
+The positive correlation between satellite cell count and OXPHOS capacity (r=0.43, P=0.0035) @Charlton2026SCdepletion links this finding to the energy metabolism chapter's central thesis: mitochondrial dysfunction is not only an ATP production problem — it directly gates tissue regeneration capacity. Satellite cell activation, proliferation, and differentiation all require OXPHOS @Bhattacharya2024SCmetabolic. The metabolic shift away from oxidative metabolism and reduced antioxidative metabolites found in the same biopsies suggest that the satellite cell niche is metabolically hostile to regeneration.
+
+This creates a convergent model: autonomic dysfunction biases macrophage polarization toward anti-repair (as above); NK cell dysfunction impairs repair cytokine secretion (NK-mediated tissue repair deficit, @spec:systemic-repair-deficit); mitochondrial failure blocks satellite cell differentiation; and satellite cell depletion removes the cellular substrate for repair entirely. Each mechanism is individually speculative, but together they describe a multi-layered tissue repair crisis that could drive cumulative, poorly-repaired muscle damage with repeated exertion.
+
+Caution: satellite cell depletion was observed at baseline (not only post-exertion) in the Charlton 2026 abstract @Charlton2026SCdepletion — the finding is equally consistent with an exertion-independent depletion mechanism. The exertion→damage→failed-repair causal chain is plausible but unproven.
+
+*Certainty: 0.37* — built on a conference abstract (unreplicated, single biobank); the convergence of the autonomic, NK, mitochondrial, and satellite cell lines is hypothesis-level only.
+
+*Falsifiable prediction:* In ME/CFS patients, the correlation between satellite cell count and PEM severity (measured by DSQ-PEM score or CPET Day 1→Day 2 work reduction) should be significantly stronger than the correlation between satellite cell count and fatigue severity — i.e., SC depletion predicts PEM specifically, not just global illness severity.
+
+*Consequence:* If the multi-layered repair failure model is correct, no single intervention (autonomic modulation, NK enhancement, mitochondrial support, or satellite cell protection) will be sufficient alone — the repair deficit is overdetermined. Combination strategies targeting multiple layers simultaneously may be necessary.
+] <spec:sc-depletion-convergent-repair>
+
+#open-question(title: [Is the Shared Pathology Between ME/CFS and Long COVID Evidence of a Post-Infectious Satellite Cell Niche Vulnerability?])[
+The comparable satellite cell depletion in both ME/CFS (pre-pandemic onset) and Long COVID (post-SARS-CoV-2) @Charlton2026SCdepletion suggests a convergent post-infectious mechanism rather than a virus-specific effect. This convergence is also seen in the microvascular findings from the same cohort @Charlton2025muscleMicrovasc. Potential shared mechanisms include:
+1. *Persistent interferon signalling* — type I IFN directly suppresses satellite cell proliferation and promotes quiescence
+2. *Autoantibody formation* — anti-GPCR autoantibodies (β-adrenergic, muscarinic receptors) documented in both conditions could disrupt satellite cell niche function, though this has not been tested in satellite cells or FAPs specifically
+3. *Metabolic reprogramming* — shared OXPHOS impairment → satellite cell metabolic insufficiency → exhaustion
+4. *Chronic oxidative stress* — reduced antioxidative metabolites in both groups → satellite cell niche degradation
+
+The critical open question is whether satellite cell depletion is *irreversible*. In aging, satellite cell function declines and recovery capacity becomes limited — but aging-driven senescence is mechanistically distinct from inflammation- or metabolism-driven SC suppression, which may be reversible. If ME/CFS SC depletion shares aging-like irreversibility mechanisms, then interventions must focus on preventing further loss (protecting remaining satellite cells) rather than restoring the pool — a fundamentally different therapeutic strategy.
+
+*Consequence:* The practical implication diverges sharply by mechanism — if SC depletion is reversible (suppression-driven, secondary to inflammation/OXPHOS failure), treating the underlying drivers could restore regeneration capacity over time. If it is irreversible (senescence-driven or SC pool permanently exhausted), the priority shifts from restoration to protection of remaining SCs. The wrong assumption wastes precious patient energy on interventions targeting the wrong mechanism.
+
+*Falsifiable predictions:* (1) If persistent type I interferon signalling drives SC suppression, muscle tissue IFN signatures should be elevated in both ME/CFS and LC patients compared to recovered post-infectious controls, and should correlate inversely with SC count. Absence of such correlation would falsify the IFN-mediated SC suppression pathway. (2) If SC depletion is irreversible, patients whose systemic inflammation or OXPHOS dysfunction normalises after an effective intervention should NOT show SC count recovery on repeat biopsy; SC count recovery would falsify the irreversibility claim.
+] <oq:sc-depletion-postinfectious-convergence>
+

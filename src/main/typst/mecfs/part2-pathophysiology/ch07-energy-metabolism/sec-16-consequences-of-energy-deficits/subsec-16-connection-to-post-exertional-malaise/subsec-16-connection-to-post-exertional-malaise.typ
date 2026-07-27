@@ -11,7 +11,7 @@ Mitochondrial dysfunction provides a compelling explanation for PEM:
     - *Exercise stress*: Activity depletes already-limited ATP stores
     - *Oxidative burst*: Exercise generates additional ROS, damaging mitochondria further
     - *Delayed recovery*: Impaired mitophagy and biogenesis slow restoration
-    - *Cumulative damage*: Each exertion may worsen mitochondrial function
+    - *Cumulative damage*: Each exertion may worsen mitochondrial function. Emerging evidence of satellite cell depletion in ME/CFS muscle suggests an additional structural dimension — inability to repair exertion-induced micro-damage to muscle fibres (see @spec:sc-depletion-structural-ratchet)
     - *Symptom cascade*: Energy deficit affects multiple organ systems
 
 

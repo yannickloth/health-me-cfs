@@ -185,6 +185,8 @@ The LSR framework was developed for EBV and is EBV-specific: the ratio of anti-B
 
 *Consequence:* If validated, an HSV-LSR would provide an objective serological correlate of visible reactivation. But this requires anti-ICP0 serology development that does not currently exist, placing it years from implementation.
 
+*Critique: structurally unfalsifiable --- the prediction depends on an anti-ICP0 IgG ELISA that does not exist. No commercial or research-grade ICP0 serology assay has been developed, and ICP0 immunogenicity in natural human infection has never been characterized. Until such an assay is created and validated, this question cannot be empirically tested.*
+
 ] <oq:hsv-lsr-analog>
 
 *Structural Limitations of the HSV Probe*
