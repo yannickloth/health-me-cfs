@@ -4531,7 +4531,7 @@
   "COMPASS-31": {
     "label": "COMPASS-31",
     "category": "method",
-    "definition": "Composite Autonomic Symptom Score (31-item): a validated patient-reported questionnaire quantifying autonomic symptom burden across six domains (orthostatic, vasomotor, secretomotor, gastrointestinal, bladder, pupillomotor). Used in ME/CFS research to quantify dysautonomia severity."
+    "definition": "Composite Autonomic Symptom Score 31. A validated 31-item patient questionnaire assessing autonomic symptom severity across 6 domains \u2014 orthostatic intolerance, vasomotor, secretomotor (sweating), gastrointestinal, bladder, and pupillomotor function \u2014 with a 1-month recall period."
   },
   "COX-2": {
     "label": "COX-2",
@@ -7629,9 +7629,9 @@
     "definition": "Remnants of ancient retroviral integrations in the human genome, comprising ~8% of human DNA. Normally silenced by epigenetic mechanisms, HERVs can be reactivated by viral infections (EBV, SARS-CoV-2) and inflammatory stimuli. HERV-K and HERV-W envelope proteins have been implicated in ME/CFS and multiple sclerosis as triggers of immune activation."
   },
   "CBF": {
-    "label": "CBF (Cerebral Blood Flow)",
+    "label": "CBF",
     "category": "measurement",
-    "definition": "The rate of blood delivery to brain tissue, typically 50\u201360 mL/100g/min in healthy adults. Reduced CBF is documented in ME/CFS, particularly in the temporal and frontal lobes and brainstem. CBF reduction correlates with cognitive dysfunction and orthostatic intolerance. Measured by arterial spin labeling (ASL) MRI or SPECT."
+    "definition": "Cerebral Blood Flow. The volume of blood perfusing brain tissue per unit time, typically measured by Doppler ultrasound (transcranial), MRI (arterial spin labeling), or SPECT. Reduced CBF during orthostatic challenge is a hallmark of ME/CFS dysautonomia."
   },
   "TSPO": {
     "label": "TSPO (Translocator Protein)",
@@ -8429,5 +8429,65 @@
     "label": "PK",
     "category": "method",
     "definition": "Pharmacokinetics: the study of how a drug is absorbed, distributed, metabolized, and eliminated by the body. PK parameters determine whether a drug reaches its target at therapeutic concentrations."
+  },
+  "QASAT": {
+    "label": "QASAT",
+    "category": "method",
+    "definition": "Quantitative Autonomic Systems Assessment Test. A battery of objective autonomic function tests including tilt table, sudomotor testing (sweat response), Valsalva maneuver, and heart rate variability analysis used to quantify autonomic dysfunction severity."
+  },
+  "CASS": {
+    "label": "CASS",
+    "category": "method",
+    "definition": "Composite Autonomic Severity Score. A standardized scoring system that quantifies the severity of autonomic failure based on sudomotor, cardiovagal, and adrenergic function test results."
+  },
+  "PSQI": {
+    "label": "PSQI",
+    "category": "method",
+    "definition": "Pittsburgh Sleep Quality Index. A widely-used 19-item self-report questionnaire assessing sleep quality and disturbances over a 1-month period, producing a global score (0\u201321) where scores above 5 indicate poor sleep quality."
+  },
+  "MSLT": {
+    "label": "MSLT",
+    "category": "method",
+    "definition": "Multiple Sleep Latency Test. An objective daytime sleepiness test that measures how quickly a person falls asleep in a quiet environment during the day, repeated at 2-hour intervals. Mean sleep latency below 8 minutes indicates pathological sleepiness."
+  },
+  "QEEG": {
+    "label": "QEEG",
+    "category": "method",
+    "definition": "Quantitative Electroencephalography. Computer-based analysis of EEG recordings that decomposes brain electrical activity into frequency bands (delta, theta, alpha, beta) and calculates spectral power for each, used to detect subtle abnormalities invisible to visual inspection."
+  },
+  "HGS": {
+    "label": "HGS",
+    "category": "measurement",
+    "definition": "Hand Grip Strength. Objective measure of muscle force produced by squeezing a handheld dynamometer, used as a functional measure of upper-body muscle strength and a general health indicator."
+  },
+  "PCr": {
+    "label": "PCr",
+    "category": "molecule",
+    "definition": "Phosphocreatine. A high-energy phosphate compound stored in muscle and brain tissue that rapidly regenerates ATP (adenosine triphosphate) from ADP during short bursts of high energy demand. Phosphocreatine recovery rate measured by 31P-MRS reflects mitochondrial oxidative capacity."
+  },
+  "VAS": {
+    "label": "VAS",
+    "category": "method",
+    "definition": "Visual Analogue Scale. A continuous measurement instrument where patients mark their symptom intensity on a line (typically 0\u2013100 mm), providing finer granularity than categorical Likert-type scales."
+  },
+  "HADS": {
+    "label": "HADS",
+    "category": "method",
+    "definition": "Hospital Anxiety and Depression Scale. A 14-item self-report screen (7 anxiety, 7 depression items) designed for medically ill populations that excludes somatic symptoms (fatigue, sleep disturbance) to avoid confounding with physical illness."
+  },
+  "FND": {
+    "label": "FND",
+    "category": "condition",
+    "definition": "Functional Neurological Disorder. A condition involving neurological symptoms (weakness, seizures, movement disorders) without structural damage visible on standard brain imaging, now understood as a disorder of nervous system functioning rather than structural pathology."
+  },
+  "CRF": {
+    "label": "CRF",
+    "category": "condition",
+    "definition": "Cancer-Related Fatigue. A distressing, persistent subjective sense of physical, emotional, and cognitive tiredness related to cancer or cancer treatment that is not proportional to recent activity and interferes with usual functioning."
+  },
+  "SAS": {
+    "label": "SAS",
+    "category": "method",
+    "definition": "Survey of Autonomic Symptoms. A validated 12-item (women) or 11-item (men) questionnaire screening for autonomic dysfunction symptoms, including orthostatic, gastrointestinal, and secretomotor domains."
   }
 }
