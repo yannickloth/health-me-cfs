@@ -1,0 +1,144 @@
+---
+title: "Part 3: Your LDN Dose Is a Diagnostic — What the Dose-Response Curve Says About Which Mechanism Is Broken"
+description: "You don't need a biomarker to know which LDN mechanism is dominant in your ME/CFS. The dose-response curve itself is the readout. Here's how to read it."
+author: "Yannick Loth"
+date: "2026-07-27"
+categories: [Treatment, Pharmacology, ME/CFS]
+---
+
+You are titrating LDN. You started at 0.5 mg. Something shifted — less fog, less malaise. You went to 1.5 mg. The benefit held. You went to 3.0 mg. Everything came back.
+
+The standard clinical interpretation of this trajectory is that 3.0 mg was "too high" and you should go back to 1.5 mg. That interpretation is correct — but it is also too thin. Because *where* on the dose scale you lost benefit is informative about *which mechanism* was producing benefit in the first place. The dose-response curve is not just a dosing guide. It is a diagnostic instrument.
+
+---
+
+## LDN hits four targets, each at a different dose
+
+LDN's therapeutic effects in ME/CFS come from four mechanisms:
+
+1. **TLR4 → Nrf2 hormetic priming** — partial TLR4 blockade triggers compensatory anti-inflammatory gene expression via Nrf2. Requires residual TLR4 tone. Peaks at 0.5–1.5 mg. Collapses when TLR4 is over-blocked.
+
+2. **Opioid compensatory upregulation** — blocking opioid receptors causes the body to produce more endogenous opioids (beta-endorphin, met-enkephalin). Ceiling set by precursor expression, not by LDN dose. Active from 1.5–3.0 mg, preserved at 4.5 mg.
+
+3. **TRPM3 ion channel restoration** — LDN restores calcium flux through TRPM3 channels on NK cells and sensory neurons. Mechanism involves removal of an opioid-receptor-mediated inhibitory signal. Concentration required appears higher than for TLR4 hormesis (likely 3.0–4.5 mg in vivo).
+
+4. **Orexin disinhibition** — LDN removes tonic inhibition on orexin neurons in the hypothalamus. Tracks the TLR4 dose-response. Contributes to wakefulness but may produce the "wired" feeling at higher doses.
+
+Each mechanism has its own dose-response curve. The curves do not share the same optimum. The "right dose" for a given patient is the dose at which their dominant mechanism is maximally engaged.
+
+---
+
+## Reading the dose-response curve
+
+### Pattern 1: Benefit at 0.5–1.5 mg, lost at 3.0–4.5 mg
+
+**What it means.** Your dominant mechanism is TLR4/Nrf2 hormetic priming. At low doses, partial TLR4 blockade triggers Nrf2-mediated M1→M2 microglial shift — the cell's own anti-inflammatory program activates, reducing cytokine output and resolving neuroinflammation. At 3.0 mg and above, TLR4 is blocked too completely. The cell no longer detects the inflammatory stress signal. Nrf2 stays bound to Keap1, the anti-inflammatory genes shut off, and the benefit collapses.
+
+**What it tells you about your disease.** Your neuroinflammation is TLR4-driven, not TRPM3-driven or opioid-modulated. Your microglia are Nrf2-responsive — the compensatory machinery works, it just needs the right signal to activate. The width of your window (lost at 1.0 mg vs lost at 2.5 mg) estimates your Nrf2 transcriptional reserve: narrow window means low reserve.
+
+**What it predicts.** You should respond to other Nrf2-activating drugs — sulforaphane, low-dose melatonin, low-dose lithium — because they converge on the same Keap1-Nrf2 pathway. Your window width for LDN predicts your window width for these drugs within the Nrf2 cluster.
+
+**What to do.** Maintain the effective low dose. Do not escalate — escalation is counterproductive, not just unnecessary. The mechanism that makes LDN work for you is the hormetic window. You cannot "push through" the loss of benefit by raising the dose further — the window doesn't reappear at higher doses because Nrf2 priming requires residual TLR4 tone, and that tone is gone.
+
+---
+
+### Pattern 2: No benefit at 0.5–1.5 mg, benefit at 3.0–4.5 mg
+
+**What it means.** Your dominant mechanism is either TRPM3 ion channel restoration or orexin disinhibition. TLR4/Nrf2 priming didn't engage at low dose — either because your TLR4 tone is too high for partial blockade to trigger Nrf2, or because your Nrf2 reserve is too depleted to mount a compensatory response. But at 3.0–4.5 mg, either TRPM3 channels are restored (improving NK cell function and sensory neuron calcium signalling) or orexin disinhibition kicks in (improving wakefulness and cognition), and you get benefit.
+
+**What it tells you about your disease.** Your pathology is channel-level, not inflammation-driven — or at least not inflammation-driven through TLR4. If TRPM3 is the dominant mechanism, you have the documented ME/CFS TRPM3 channelopathy. Drugs that reduce inflammation without touching TRPM3 may not help you. If orexin disinhibition is dominant, your benefit is from improved wakefulness and cognition — primarily affecting brain fog and alertness, not the underlying immune dysfunction.
+
+**What it predicts.** TRPM3-dominant: you should respond to other interventions that restore ion channel function or bypass TRPM3-dependent processes. Lithium microdose (stabilising PIP₂, which TRPM3 requires for gating), and possibly rapamycin (reducing mTORC1-driven PIP₂ depletion), are mechanistically plausible but untested. Orexin-dominant: benefit may be limited to wakefulness and cognition; drugs that restore orexin tone by other means (pitolisant, solriamfetol) may produce similar benefit through a different mechanism.
+
+**What to do.** Titrate to 3.0–4.5 mg and maintain. Do not assume that 0.5–1.5 mg failure means LDN failure — you simply need the higher mechanism. If benefit is primarily cognitive/wakefulness → orexin disinhibition is the likely mechanism. If benefit is multi-system (immune, vascular, neurotransmitter) → TRPM3 restoration is more likely. Do not escalate beyond 4.5 mg — all four mechanisms are saturated at this dose, and further escalation pushes toward mu-opioid antagonism at 50 mg, which will invert benefit regardless of which mechanism was working.
+
+---
+
+### Pattern 3: Benefit across the full range, preserved at 4.5 mg
+
+**What it means.** Your dominant mechanism is opioid compensatory upregulation. TLR4/Nrf2 hormesis would have inverted at 3.0–4.5 mg if it were the dominant mechanism — the fact that benefit is preserved at 4.5 mg rules out TLR4/Nrf2 as the primary driver. Opioid compensation plateaus but does not invert: the body produces as much endogenous opioid as it can, and the ceiling is set by precursor expression, not by LDN dose. TRPM3 restoration may also contribute — its dose-response in vivo is unknown beyond the concentration range achieved at clinical LDN doses.
+
+**What it tells you about your disease.** Benefit without inversion means your therapeutic mechanism is not dependent on a stress signal that can be extinguished. Opioid compensation is driven by receptor blockade itself — the more blockade, the more compensation, up to the synthesis ceiling. This is pharmacologically safer than the Nrf2 mechanism because it cannot be lost through dose escalation.
+
+**What it predicts.** Unlike the Nrf2-hormetic patient, your LDN benefit does not predict response to other Nrf2 activators — sulforaphane or melatonin may do nothing. Your window pattern suggests that the inflammatory component of your disease is not the rate-limiting factor, or is not TLR4-mediated.
+
+**What to do.** Titrate to the plateau and stop. Escalating beyond the plateau point adds no further opioid compensation — the ceiling is biological, not pharmacological — and only increases TRPM3/orexin effects that may be neutral or adverse.
+
+---
+
+### Pattern 4: M-shaped — benefit at 0.5 mg, loss at 1.5 mg, return at 4.5 mg
+
+**What it means.** You have two rate-limiting mechanisms addressable by the same drug at different doses. The first peak is the TLR4/Nrf2 hormetic window. The drop at 1.5 mg is TLR4 over-blockade extinguishing Nrf2 priming. The return at 4.5 mg is a different mechanism — TRPM3 restoration or opioid compensation — engaging at a higher concentration.
+
+**What it tells you about your disease.** Your pathology is multi-mechanism in a way that is unusually informative. Both TLR4-driven neuroinflammation and TRPM3 channelopathy (or opioid deficiency) are contributing. The two mechanisms are dissociable by dose — a clean experimental separation that most patients' single-mechanism patterns cannot provide.
+
+**What it predicts.** The two peaks predict different things independently. The low-dose peak predicts Nrf2-cluster drug responses. The high-dose peak predicts TRPM3-related interventions or opioid-sensitive symptom domains. This patient is the ideal candidate for mechanism-specific adjuncts rather than a compromise dose — you can potentially capture both optima simultaneously by combining a low-dose Nrf2 activator (sulforaphane, melatonin) with LDN at the TRPM3 dose, rather than asking LDN alone to do both.
+
+**What to do.** Choose the dose that targets your dominant symptom domain. If neuroinflammation (flu-like malaise, cognitive fog) is the primary burden, maintain at the low-dose peak and add a TRPM3-directed agent separately. If sensory hypersensitivity or NK cell dysfunction is the primary burden, maintain at the high-dose peak and add a separate Nrf2 activator. Do not split the difference — a compromise dose between the two peaks hits neither optimum and captures zero benefit.
+
+---
+
+### Pattern 5: No benefit at any dose
+
+**What it means.** None of LDN's four mechanisms is rate-limiting in your disease. This is a genuine negative result — but it does not mean any of the following:
+
+- That neuroinflammation is absent. TLR4 is one of many receptors on microglia. LDN non-response followed by LDA response is evidence *for* microglial involvement, through the D2 pathway, not the TLR4 pathway.
+
+- That immune dysfunction is absent. LDN does not target B cells, T cells, mast cells, or autoantibody-producing plasma cells. It modulates a specific subset of innate immune signalling.
+
+- That the dose was wrong. Non-response at 0.5 mg may mean the mechanism requires a higher dose (Pattern 2). Non-response at 4.5 mg after escalation through the full range is stronger evidence — all four optima have been tested.
+
+**What it tells you about your disease.** Your rate-limiting mechanism is not TLR4, not opioid, not TRPM3, and not orexin. It is something else — autoantibodies, B-cell pathology, mast-cell activation, mitochondrial dysfunction, structural CNS damage, or a mechanism not yet characterised. The negative result narrows the differential.
+
+**What it predicts.** You are unlikely to respond to other Nrf2-activating drugs — they converge on the same pathway LDN failed to engage. You may respond to drugs targeting the remaining candidates: LDA for microglial D2, immunoadsorption for autoantibodies, mast-cell stabilisers for MCAS, rapamycin for mTORC1-driven autophagy failure.
+
+**What to do.** Do not escalate beyond 4.5 mg. Non-response at 4.5 mg after testing the full range means all four therapeutic mechanisms have been tried. Standard-dose naltrexone (50 mg) blocks opioid receptors outright — it cannot help a patient who did not benefit from opioid compensatory upregulation at 4.5 mg, and it actively blocks the mechanism that might have worked at a lower dose.
+
+---
+
+## Why micro-doses can flare: the homeostatic overshoot
+
+Before a patient can enter one of the five diagnostic patterns, they must survive the initial perturbation. For some patients, even the lowest clinical dose (0.25–0.5 mg) produces not benefit but a systemic flare — neurological agitation, sleep disruption, immune activation. If LDN at 0.5 mg were purely a receptor-occupancy phenomenon, this should not happen. The receptor maths predicts negligible effects at micro-doses. Yet, flares occur frequently in sensitised ME/CFS populations.
+
+The explanation is not in receptor occupancy but in the organism's *reaction* to receptor occupancy. Hormesis describes a biphasic cellular stress response: the initial perturbation — even a tiny one — activates compensatory signalling cascades that can overshoot. In a healthy system with adequate buffering capacity, this overshoot is dampened, and the net effect is a therapeutic adaptive upregulation. In a system with compromised cellular resilience, the same initial perturbation triggers a destabilising overcorrection.
+
+For LDN specifically, transient opioid receptor blockade at micro-doses triggers rebound upregulation of endogenous endorphins and increased receptor density. The body detects the blockade and *over-responds* — producing more endorphins than the system can handle, disrupting sleep architecture, altering autonomic tone, and triggering immune shifts. This is not a failure of hormesis. It is hormesis in a system that lacks the buffering capacity to contain the adaptive response within a therapeutic range.
+
+The same logic applies to the Nrf2 pathway. Partial TLR4 blockade triggers oxidative signalling that should activate Nrf2-mediated anti-inflammatory gene expression. But if the cell's redox balance is already precarious — if baseline reactive oxygen species are elevated and glutathione reserves are depleted — the initial oxidative perturbation, even when mild, can push the cell past its stress tolerance threshold before Nrf2 has time to execute its protective program. The hormetic window collapses before it opens.
+
+This framework reframes micro-dose flares not as drug intolerance in the conventional sense but as a mismatch between the perturbation magnitude and the system's adaptive capacity at that moment. It predicts that the same patient who flares at 0.5 mg today may tolerate 0.25 mg and gradually widen their hormetic window over weeks as their cellular infrastructure adapts. It also predicts that patients with the highest allostatic load — the most severe cases — are the most likely to flare at micro-doses, not because the drug is wrong but because their buffering capacity is narrowest.
+
+This is the prior condition for the five diagnostic patterns described above. If a patient cannot enter the hormetic window at any dose, the diagnostic readout is not a pattern number but a fundamental observation: the system's adaptive capacity is currently below the threshold needed to mount a compensatory response. The clinical task shifts from dose-finding to infrastructure-building — reducing allostatic load through pacing, sleep restoration, and metabolic support — before reintroducing the pharmacological signal.
+
+---
+
+## The caveats
+
+Every pattern above is a mechanistic prediction from a model that has never been prospectively tested. No within-range LDN dose-response trial exists in any condition — not ME/CFS, not fibromyalgia, not anything. The model is constructed from:
+
+- Microglial M1→M2 dose-dependence documented in vitro but not in human tissue.
+- Nrf2 hormesis established in toxicology (the Calabrese corpus) but never studied in the context of LDN dosing.
+- Opioid receptor feedback documented in animal models but not quantified in humans on chronic LDN.
+- TRPM3 restoration by naltrexone documented in NK cell culture but not correlated with clinical dose-response.
+- Orexin disinhibition inferred from naltrexone pharmacology but never directly measured at LDN doses.
+
+The model is falsifiable. A four-arm crossover dose-response trial (0.5, 1.5, 3.0, 4.5 mg, n ≥ 30 per arm, 8 weeks per dose) would confirm or refute every pattern described here. The upcoming LIFT trial uses a single fixed LDN dose and cannot address this question. The single largest evidence gap in the LDN literature is a prospective within-range dose-response study — estimated cost $200,000–$400,000, affecting every LDN prescription written in any chronic illness.
+
+---
+
+## Certainty estimate
+
+| Claim | Certainty |
+|-------|-----------|
+| LDN benefit lost at 3.0–4.5 mg indicates TLR4/Nrf2 hormetic dominance | Low — mechanistically grounded but never tested prospectively |
+| LDN benefit only at 3.0–4.5 mg indicates TRPM3 or orexin dominance | Low — inference from in vitro TRPM3 data and orexin pharmacology; never tested |
+| M-shaped response indicates two non-overlapping optima | Low — predicted by the multi-target model; never observed prospectively |
+| Dose-response curve shape predicts response to other Nrf2 activators | Low — the within-cluster correlation prediction is theoretically coherent but entirely untested |
+| Non-response at all four doses rules out TLR4, opioid, TRPM3, and orexin mechanisms | Moderate — the four targets are the known LDN targets; absence of response at all tested concentrations is weak evidence of absence but stronger than non-response at a single dose |
+| LDN non-response with LDA response confirms microglial involvement | Low — mechanistically coherent but never tested prospectively |
+
+---
+
+*This post draws on the LDN hormetic dose-response framework developed in [Loth 2026](https://loth.cc/), triggered by Kevin Lee's clinical observation that higher-dose LDN may produce less benefit than lower-dose LDN. The micro-dose flare mechanism — homeostatic overshoot in systems with compromised buffering capacity — draws on Lee's articulation of why hormetic dose-response curves are modulated by redox state, allostatic load, and baseline cellular reserve. For the full mechanistic cascade — including the four-mechanism dose-response cascade, the inverted-U diagnostic pattern, and the 17-drug hormesis framework — see the primary paper.*
+
+*Prev: [The Inverted-U Is Not One Thing: Four Ways a Drug Can Stop Working When You Raise the Dose](../inverted-u-not-one-thing/) · Start of series: [Why More Isn't Better: The Dose-Response Paradox in LDN and LDA](../more-isnt-better-ldn-lda/)*

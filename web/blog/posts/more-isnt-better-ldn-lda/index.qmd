@@ -1,0 +1,127 @@
+---
+title: "Part 1: Why More Isn't Better — The Dose-Response Paradox in LDN and LDA"
+description: "You finally found a dose that works. Your doctor suggests doubling it — after all, if a little helps, more should help more. But for LDN and LDA, that logic is backwards. Here's the mechanism that explains why raising the dose can make you worse."
+author: "Yannick Loth"
+date: "2026-07-27"
+categories: [Treatment, Pharmacology, ME/CFS]
+---
+
+You have been on 0.5 mg of low-dose naltrexone for three months. The brain fog lifted. The body-wide inflammation — that poisoned, flu-like sensation — receded to background noise. For the first time in years, you can read a book chapter. You bring this report to your doctor.
+
+"That's great," she says. "Let's try 4.5 mg and see if you can get even more benefit."
+
+You comply. Within a week, the fog returns. The malaise returns. The thing that was working stopped working — and you didn't change the drug, you just raised the dose.
+
+This experience is common enough in ME/CFS communities to have earned a folk explanation: *start low and go slow.* The folk explanation is right. What it doesn't tell you is *why* — and why understanding the why changes everything about how you think about your own treatment.
+
+---
+
+## LDN: four drugs in one, each with its own dose
+
+The standard explanation for LDN is that it blocks TLR4 receptors on microglia, reducing neuroinflammation. This is true. It is also insufficient. LDN actually hits four targets, and each target has a different optimal concentration.
+
+**TLR4 → Nrf2 hormetic priming (0.5–1.5 mg).** At very low doses, LDN *partially* blocks TLR4 — and partial blockade is the key. The cell detects reduced TLR4 signalling and compensates by upregulating Nrf2, a master transcription factor that activates dozens of anti-inflammatory and antioxidant genes. Microglia shift from M1 (pro-inflammatory, cytokine-spewing) to M2 (anti-inflammatory, debris-clearing). This is hormesis: the mild stress of partial receptor blockade triggers an adaptive response that is larger than the blockade itself.
+
+But this mechanism requires some residual TLR4 tone. If TLR4 is too completely blocked, the cell no longer detects the stress, and the compensatory Nrf2 upregulation shuts off. The hormetic benefit doesn't fade — it collapses. Raising LDN from 1.5 mg to 3.0 mg can be the difference between an active anti-inflammatory program and a silent one.
+
+**Opioid compensatory upregulation (1.5–3.0 mg).** LDN also blocks opioid receptors, and the body responds by increasing production of endogenous opioids — beta-endorphin and met-enkephalin. This compensation is transcriptional: the cell reads reduced opioid signalling and writes instructions for more opioid precursors. The ceiling is set by how fast the cell can produce those precursors, not by how much LDN you take.
+
+**TRPM3 ion channel restoration (dose uncertain, likely 3.0–4.5 mg in vivo).** TRPM3 is a calcium channel expressed on natural killer cells and sensory neurons. Its function is impaired in ME/CFS — independently replicated across multiple labs. LDN restores TRPM3 calcium flux in vitro, probably by removing an opioid-receptor-mediated inhibitory signal. The concentration required for TRPM3 restoration appears to be higher than for TLR4 hormesis.
+
+**Orexin disinhibition (tracks TLR4 dose-response in the hypothalamus).** LDN removes a tonic inhibitory signal on orexin neurons, which regulate wakefulness and energy balance. This may contribute to the "wired" feeling some patients report at higher LDN doses — the orexin signal is disinhibited while the anti-inflammatory program is simultaneously losing its footing.
+
+### The clinical consequence
+
+These four mechanisms have non-overlapping dose optima. The "right dose" varies between patients because each patient's dominant mechanism is different.
+
+A patient whose symptoms are driven by TLR4-mediated neuroinflammation gets benefit at 0.5–1.5 mg and loses it at 3.0 mg and above. The doctor who escalates a working 1.5 mg dose to 4.5 mg hasn't found a "higher effective dose" — she has extinguished the mechanism that was working and replaced it with a different drug profile that the patient may or may not need.
+
+A patient whose symptoms are driven by TRPM3 channelopathy may get nothing at 0.5 mg because TRPM3 restoration hasn't kicked in. They need 3.0–4.5 mg. The doctor who starts them at 0.5 mg and concludes "LDN doesn't work" may be wrong — the dose was simply below the mechanism.
+
+A patient with an M-shaped response — benefit at 0.5 mg, loss at 1.5 mg, return at 4.5 mg — has two rate-limiting mechanisms addressable by the same drug at different doses. Neither dose alone would capture the full picture. This pattern is predicted by the multi-target model but has never been prospectively tested.
+
+---
+
+## There is zero reason to go beyond 4.5 mg
+
+This is the part that requires stating explicitly, because the intuitive logic is powerful and wrong.
+
+Standard-dose naltrexone is 50 mg. At that dose, naltrexone is a full mu-opioid antagonist — it blocks the compensatory endorphin upregulation that was maintaining mood and pain regulation. The benefit inverts not because a dose-response curve turned back down but because a completely different receptor engaged. Dose-dependent target selection: at 0.5–4.5 mg you are modulating TLR4, TRPM3, and opioid tone; at 50 mg you are blocking opioid receptors outright. No patient whose therapeutic mechanism is TLR4/Nrf2 hormesis, opioid upregulation, or TRPM3 restoration benefits from full opioid blockade.
+
+What about doubling — say, going from 4.5 to 9 mg? This is the worst of both worlds. TLR4/Nrf2 hormesis is already fully extinguished by 3.0 mg. TRPM3 restoration is saturated at the concentrations achieved by 4.5 mg. Opioid compensatory upregulation has plateaued at its endogenous precursor ceiling. Orexin disinhibition tracks the TLR4 dose-response and likewise shuts off. There is no fifth mechanism with a dose optimum above 4.5 mg. Doubling to 9 mg pushes all four mechanisms past their optima simultaneously, approaching the 50 mg range where mu-opioid antagonism dominates, without engaging any new therapeutic target. Every mechanism that could help is gone, and the mechanism that will hurt is approaching.
+
+---
+
+## LDA: the same curve shape, a completely different mechanism
+
+Low-dose aripiprazole (0.2–2 mg) is not hormesis. It is a partial agonist inverted-U — a receptor-occupancy property that applies in any population with dopamine deficit, not ME/CFS specifically.
+
+Aripiprazole has approximately 25% intrinsic activity at the dopamine D2 receptor. At low doses and low receptor occupancy, it provides *net agonism* — it activates D2 receptors, boosting dopamine tone where it is deficient. As the dose rises and occupancy exceeds approximately 50%, the partial agonist competes with endogenous dopamine for receptor binding. Since aripiprazole's intrinsic activity is lower than dopamine's, the net effect inverts: the partial agonist blocks a more effective natural signal, producing net antagonism.
+
+Benefit at 0.2–2 mg. Harm at 5–30 mg — the standard psychiatric dose range. At those doses, D2 occupancy exceeds 80%, the patient gets akathisia, anhedonia, and metabolic syndrome — the opposite of what you want in a disease already characterised by dopamine deficiency.
+
+### The three levels of LDA action, all below 2 mg
+
+LDA acts on three distinct populations at microdose levels:
+
+**Microglial D2/D3 (≤1 mg).** D2-like agonism suppresses pro-inflammatory cytokine release, nitric oxide production, and reactive oxygen species from primed microglia. The drug acts as a threshold modulator: it raises the activation threshold so that exertion signals which normally trigger a post-exertional neuroinflammatory cascade no longer cross into symptomatic territory.
+
+**Mesocorticolimbic D2/D3 (≤2 mg).** Partial agonism restores tonic dopamine signalling in prefrontal and hippocampal circuits, improving cognition, motivation, and effort tolerance.
+
+**5-HT1A autoreceptors (≤2 mg).** Partial agonism at serotonin 5-HT1A autoreceptors in the raphe nuclei reduces serotonergic tone, with downstream autonomic nervous system stabilisation.
+
+All three mechanisms have dose optima below 2 mg. Above 2 mg, new receptors engage — 5-HT2A antagonism, H1 blockade, α1 antagonism — that are not therapeutic targets in ME/CFS and add only side effects.
+
+### Why doubling doesn't find a new window
+
+At 2 mg, D2 occupancy is already approaching the inversion point — net agonism is tapering. At 4 mg, occupancy is clearly in the antagonist-dominant range. Microglial D2-mediated cytokine suppression is lost. Mesocorticolimbic tone restoration is lost. Net dopamine signalling drops below baseline. The three levels of action that made the drug therapeutic at 0.2–2 mg are extinguished, and the new receptor engagements (5-HT2A, H1, α1) produce sedation, weight gain, and orthostatic worsening — all actively harmful in ME/CFS.
+
+There is no fourth level. There is no therapeutic mechanism that engages at 3 mg but not at 2 mg. Doubling LDA doesn't find a new mechanism — it extinguishes the three that were working and activates receptors that make the disease worse.
+
+---
+
+## LDN + LDA together: complementary, not redundant
+
+This is where the diagnostic logic becomes clinical strategy.
+
+LDN blocks TLR4 on microglia. LDA stimulates D2 on microglia. These are different receptors on the same cell population, converging on the same cytokine-output machinery through different signalling pathways.
+
+A patient who is a full LDN non-responder may still respond dramatically to LDA — not because LDN was the wrong guess, but because TLR4 isn't the rate-limiting input on their microglia. D2 agonism suppresses cytokine output through a different pathway. LDN non-response followed by LDA response is not evidence against neuroinflammation. It is evidence *for* microglial involvement, through a receptor LDN doesn't touch.
+
+A patient who responds to both has multi-receptor microglial involvement — TLR4 *and* D2 pathways are both contributing. Combined treatment may be synergistic: LDN reduces one pro-inflammatory input while LDA raises the activation threshold on all inputs simultaneously.
+
+---
+
+## What this means for patients
+
+The folk wisdom — "start low and go slow" — turns out to be mechanistically precise. But the mechanism adds something the folk wisdom doesn't: **dose-finding is diagnostic.**
+
+If you benefit at 0.5–1.5 mg LDN and lose benefit at 3.0+ mg, your dominant mechanism is TLR4/Nrf2 hormesis. Your neuroinflammation is TLR4-driven and your microglia are Nrf2-responsive. This predicts response to other Nrf2-activating drugs (sulforaphane, melatonin, low-dose lithium).
+
+If you benefit only at 3.0–4.5 mg and get nothing below that, your dominant mechanism is TRPM3 or opioid. Your pathology is ion-channel-level, not inflammation-driven. Drugs that reduce inflammation without touching TRPM3 may not help.
+
+If you benefit across the full LDN range without losing benefit at 4.5 mg, your dominant mechanism is opioid compensatory upregulation. Benefit doesn't invert at 4.5 mg because opioid upregulation, unlike TLR4/Nrf2, does not require residual tone — it is driven by receptor blockade itself.
+
+If you lose LDA benefit when you go from 1 mg to 2 mg, your D2 receptor reserve is narrow — few receptors, each one's agonism matters. If your benefit persists to 2 mg, your receptor reserve is broad.
+
+None of this requires a biomarker. The dose-response curve *is* the readout.
+
+---
+
+## Certainty estimate
+
+| Claim | Certainty |
+|-------|-----------|
+| LDN has non-overlapping dose optima across four targets | Moderate — mechanistically grounded (TLR4/Nrf2 hormesis, opioid compensation, TRPM3 restoration, orexin disinhibition all independently documented) but no within-range dose-response trial exists in any condition |
+| TLR4/Nrf2 hormetic benefit is lost when TLR4 is over-blocked | Moderate — supported by Nrf2 hormesis literature (Calabrese corpus) and microglial M1→M2 dose-dependence in vitro; never tested prospectively in LDN |
+| LDA follows a partial-agonist inverted-U | High — receptor-occupancy property, not ME/CFS-specific; applies in any dopamine-deficient population |
+| LDA loses therapeutic action above 2 mg | Moderate — D2 occupancy models predict inversion above ~50%; Crosby 2021 pilot found benefit only at ≤2 mg |
+| Dose-response curve shape is diagnostic of dominant mechanism | Low — predicted by the multi-target model; never tested; first prospective confirmation requires a four-arm LDN dose-response crossover trial |
+| There is no therapeutic mechanism above 4.5 mg LDN or above 2 mg LDA | Moderate — target engagement profiles are known; all additional receptor engagements above these ceilings are either neutral or harmful for the known ME/CFS therapeutic targets |
+| LDN non-response with subsequent LDA response confirms microglial involvement | Low — mechanistically coherent (TLR4 and D2 are different receptors on the same cell) but never tested prospectively |
+
+---
+
+*This post draws on the hormesis framework developed in [Loth 2026](https://loth.cc/). The LDN dose-response analysis was triggered by a clinical observation from Kevin Lee (personal communication, July 2026); the expansion to 17 medications was triggered by Yannick L.'s observation that the same logic applies to LDA and other low-dose drugs. For the full mechanistic cascade analysis — including the LDN multi-target dose-response cascade, the inverted-U diagnostic pattern across 17 medications, and the HIP-B trial specification — see the primary paper.*
+
+*Related: [The Inverted-U Is Not One Thing: Four Ways a Drug Can Stop Working When You Raise the Dose](../inverted-u-not-one-thing/) · [Your LDN Dose Is a Diagnostic](../dose-is-diagnostic-ldn/)*
