@@ -704,7 +704,7 @@
       }
     ],
     "therapeuticCategory": "Mixed",
-    "therapeuticDepth": "Mixed — Restorative (TRPM3 Ca²⁺ influx restoration at 3.0–4.5mg) + Corrective (TLR4/Nrf2 hormetic anti-inflammatory priming at 0.5–1.5mg) + endorphin upregulation at 1.5–3.0mg. Dose-dependent depth: higher doses are more restorative; lower doses are threshold-modulatory/corrective. At 50mg (standard naltrexone), the effect flips to full mu-opioid antagonism — purely symptomatic at that dose."
+    "therapeuticDepth": "Four dose zones with different therapeutic depth: (1) 0.5–1.5mg = Corrective — TLR4/Nrf2 hormetic anti-inflammatory priming (Nrf2-mediated M1→M2 microglial shift); benefit lost if dose escalated beyond this window; (2) 1.5–3.0mg = Corrective — compensatory endorphin upregulation from overnight opioid blockade; plateaus at individual endorphin ceiling; (3) 3.0–4.5mg = Restorative — TRPM3 Ca²⁺ channel function restoration (in vitro; clinical link unproven); (4) 3.0–4.5mg = Threshold-modulatory — orexin disinhibition via hypothalamic TLR4 blockade. A patient whose benefit peaks at 0.5mg has TLR4/Nrf2 as dominant mechanism; a patient needing 4.5mg has TRPM3 as dominant. The dose-response curve IS diagnostic."
   },
   "IVIG": {
     "label": "IVIG",
@@ -3523,7 +3523,7 @@
       }
     ],
     "therapeuticCategory": "Mixed",
-    "therapeuticDepth": "Dose-dependent: at LDN doses (0.5–4.5mg) = Mixed (Restorative via TRPM3 + Corrective via TLR4/Nrf2/endorphin); at standard dose (50mg) = Symptomatic (full mu-opioid antagonist). These are fundamentally different drugs at different doses — LDN is not dilute naltrexone."
+    "therapeuticDepth": "Three dose bands with fundamentally different pharmacology: (1) Low-dose naltrexone (LDN, 0.5–4.5mg) = Mixed — see LDN entry for the four dose zones within this band (Corrective TLR4/Nrf2 at 0.5–1.5mg, Corrective endorphin at 1.5–3.0mg, Restorative TRPM3 at 3.0–4.5mg, Threshold-modulatory orexin); (2) Very low-dose naltrexone (ULDN, <0.001mg) = Threshold-modulatory — ultra-low-dose opioid agonism paradoxically potentiating analgesia via filamentous-actin-dependent excitatory opioid receptor signaling (not clinically used in ME/CFS); (3) Standard dose (50mg) = Symptomatic — full mu/delta/kappa opioid antagonist; blocks all endogenous opioid signaling; used for alcohol/opioid dependence; has zero of LDN's therapeutic mechanisms. LDN is not dilute naltrexone — it is a different drug at a different dose engaging different targets."
   },
   "Aripiprazole": {
     "label": "Aripiprazole",
