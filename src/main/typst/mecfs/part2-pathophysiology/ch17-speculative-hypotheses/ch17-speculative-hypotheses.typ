@@ -10,6 +10,17 @@
 This chapter presents speculative hypotheses about ME/CFS pathogenesis that emerge from creative extrapolation of known biochemistry, systems biology, and pattern recognition across medical domains. While not yet empirically validated in the ME/CFS context, each hypothesis attempts to explain the characteristic features of the illness—post-exertional malaise, chronicity, multi-system involvement, and treatment resistance—through mechanisms that are individually plausible and potentially testable.
 
 These hypotheses are offered in the spirit of scientific brainstorming: to stimulate new research directions, generate testable predictions, and potentially identify overlooked connections. They should be evaluated by their ability to generate novel experiments and explain otherwise puzzling observations, not treated as established fact.
+
+Each hypothesis in this chapter, along with hypotheses from other chapters throughout the paper, is catalogued in structured form in the Hypothesis and Speculation Registry (@sec:hypothesis-speculation-registry), where each entry is assigned an explicit certainty score, testable prediction, treatment implication, and known limitation. The registry serves as the bridge between speculative mechanism and testable study — the research protocols in Chapter @ch:proposed-studies are designed to test hypotheses drawn from both this chapter and the registry.
+
+The hypotheses developed here feed into several chapters downstream:
+
+- Chapter @ch:causal-hierarchy evaluates which of these mechanisms could be causal triggers and which are amplifiers or downstream consequences.
+- Chapter @ch:universal-mechanisms situates the speculative mechanisms within broader cross-disease biology.
+- Chapter @ch:emerging-therapies assesses therapeutic implications of several hypotheses from this chapter, including aspirin-triggered SPM strategies, ATX-LPA inhibition, and the emergency PEM prevention protocol.
+- Chapter @ch:biomarker-research develops diagnostic and stratification biomarkers based on hypotheses developed here.
+- The registry entry above (@sec:hypothesis-speculation-registry) catalogues all hypotheses in structured form, which feeds into the research protocols of Chapter @ch:proposed-studies.
+- The causal hierarchy claims are subjected to formal dynamical modelling in Chapter @ch:causal-hierarchy-formal.
 #include "ch14-main.typ"
 #include "ch14a-core-mechanistic.typ"
 #include "ch14b-autoimmune-immune.typ"

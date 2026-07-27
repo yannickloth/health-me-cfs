@@ -3,7 +3,7 @@
 == Hypothesis and Speculation Registry
 <sec:hypothesis-speculation-registry>
 
-This registry collects all hypotheses, speculations, open questions, and predictions from across the paper, organised by topic. Each entry records the type (H=Hypothesis, S=Speculation, OQ=Open Question), certainty level, supporting evidence, source citations, underlying mechanism, chapter reference, testable prediction, treatment implications, and known limitations.
+This registry collects all hypotheses, speculations, open questions, and predictions from across the paper, organised by topic — including the speculative mechanistic hypotheses developed in depth in Chapter @ch:speculative-hypotheses, alongside hypotheses from the pathophysiology, neurology, immunology, genetics, and other chapters. Each entry records the type (H=Hypothesis, S=Speculation, OQ=Open Question), certainty level, supporting evidence, source citations, underlying mechanism, chapter reference, testable prediction, treatment implications, and known limitations. The registry distills each hypothesis to a structured, fielded record so that researchers can search, compare, and prioritise hypotheses for testing — it feeds directly into the research protocols in Chapter @ch:proposed-studies.
 
 
 === GWAS/WGS Genetic Architecture
