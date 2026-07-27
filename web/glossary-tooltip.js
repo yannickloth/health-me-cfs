@@ -43,9 +43,16 @@
     lines.push(`<span class="gt-term">${esc(e.label ?? key)}</span>`);
     lines.push(`<span class="gt-def">${esc(e.definition)}</span>`);
 
+    if (e.therapeuticCategory) {
+      const cat = e.therapeuticCategory;
+      const colors = { 'Restorative': '#059669', 'Corrective': '#2563eb', 'Threshold-modulatory': '#d97706',
+        'Substrate-repletion': '#7c3aed', 'Symptomatic': '#dc2626', 'Mixed': '#0891b2' };
+      const c = colors[cat] || '#6b7280';
+      lines.push(`<span class="gt-td"><b style="color:${c}">${esc(cat)}</b><br>${esc(e.therapeuticDepth)}</span>`);
+    }
     if (e.generic) lines.push(`<span><b>Generic:</b> ${esc(e.generic)}</span>`);
     if (e.brand) lines.push(`<span><b>Brand:</b> ${esc(e.brand)}</span>`);
-    if (e.class) lines.push(`<span><b>Class:</b> ${esc(e.class)}</span>`);
+    if (e.class) lines.push(`<span class="gt-class"><b>Class:</b> ${esc(e.class)}</span>`);
     if (e.rx) lines.push(`<span><b>Availability:</b> ${esc(e.rx)}</span>`);
     if (e.also) lines.push(`<span class="gt-also">${esc(e.also)}</span>`);
 

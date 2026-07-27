@@ -384,6 +384,22 @@
     color: #334155;
   }
 
+  .gt-td {
+    font-size: 0.8rem;
+    line-height: 1.45;
+    color: #475569;
+    margin: 2px 0;
+    padding: 3px 6px;
+    background: #f8fafc;
+    border-left: 3px solid #cbd5e1;
+    border-radius: 0 3px 3px 0;
+  }
+  .gt-td b {
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    letter-spacing: 0.04em;
+  }
+
   .gt-also {
     font-size: 0.8rem;
     color: #64748b;
