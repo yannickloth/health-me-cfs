@@ -159,14 +159,8 @@
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
 
             java --source 25 src/main/java/web/BuildWeb.java
-
-            # Verify no orphaned labels in generated .qmd files
             java --source 25 src/test/java/web/QmdLabelAuditTest.java
-
-            # Verify all Typst environments survive conversion
             java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
-
-            # Comprehensive post-build audit
             java --source 25 src/test/java/web/BuildAuditTest.java
 
             quarto render web --to html
