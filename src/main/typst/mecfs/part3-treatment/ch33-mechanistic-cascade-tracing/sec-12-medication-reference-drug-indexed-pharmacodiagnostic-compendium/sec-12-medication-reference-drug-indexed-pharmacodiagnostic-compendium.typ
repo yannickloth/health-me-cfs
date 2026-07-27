@@ -1,22 +1,3 @@
-#import "../../../shared/environments.typ": *
-
-== Medication Reference: Drug-Indexed Pharmacodiagnostic Compendium
-  <sec:medication-reference>
-
-*Certainty: 0.20--0.40.* Same certainty range as the cascade tracing sections. Every entry below is mechanistic inference from known pharmacology applied to documented ME/CFS pathophysiology. No entry has been validated as a diagnostic tool in ME/CFS cohorts.
-
-*How to use this section:* Look up a medication alphabetically. Each entry aggregates everything Chapter @ch:mechanistic-cascade-tracing says about that drug: which cascade nodes it appears at, the positive-diagnostic inference (what it means if it works), the null-diagnostic inference (what it means if it doesn't), the side-effect patterns it can generate, and — critically — the risk of protracted or permanent worsening with the specific mechanism(s) involved. The worsening risk mirrors the full taxonomy from @sec:protracted-permanent-worsening (Mechanisms A through K).
-
-*Legend:* #strong[+]: positive diagnostic inference · #strong[−]: null diagnostic inference · #strong[SE]: side-effect diagnostic patterns · #strong[W]: worsening risk (mechanism(s), protracted risk, permanent risk, rechallenge guidance)
-
-This section is the second entry door into this chapter — drug-indexed rather than mechanism-indexed. For the mechanism-indexed view, see Sections @sec:trpm3-cascade through @sec:triage-cascade.
-
-#limitation(title: [Risk Classification Disclaimer])[
-*Risk classification.* The worsening risk categories (Very Low through Very High) are ordinal rankings derived from pharmacological first principles and the energy-ratchet model. They are NOT empirical incidence rates — no controlled pharmacovigilance data exist in ME/CFS. Use as a comparative risk framework, not as quantitative probability estimates. Every medication listed here, unless noted otherwise, is used off-label for ME/CFS — none carries a regulatory-agency-approved indication for this disease.
-]
-
-#pagebreak
-
 === 5-HTP (5-Hydroxytryptophan)
 
 *Appears in:* @sec:trpm3-cascade Step A4 (serotonin precursor probe), @sec:vagal-cascade, cross-reference matrix Phase 4 Group C.
@@ -32,6 +13,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Acyclovir
 
 *Appears in:* Cross-reference matrix, antiviral cascade sections.
+Restorative — suppresses active herpesvirus replication; suppression only, not eradication — relapse on discontinuation
+
 
 #strong[+] Herpesvirus reactivation rate-limiting — similar diagnostic to valacyclovir but with lower oral bioavailability. If acyclovir works where valacyclovir did → the patient preferentially converts the prodrug; acyclovir is the active drug. If both work → viral reactivation confirmed.
 
@@ -44,6 +27,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === AIP (Autoimmune Protocol Diet)
 
 *Appears in:* Cross-reference matrix Group C.
+Corrective — eliminates food antigens driving immune activation; if food antigens drive pathology, addresses antigen source — diagnostic probe via reintroduction
+
 
 #strong[+] Food-antigen-driven immune activation rate-limiting. Structured elimination removes immunogenic triggers → multi-system improvement confirms food antigens are driving immune/inflammatory pathology.
 
@@ -56,6 +41,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === ALA (Alpha-Lipoic Acid)
 
 *Appears in:* @sec:pdh-cascade E2, cross-reference matrix Phase 4 Group C.
+#strong[HD] Substrate-repletion — PDH cofactor + antioxidant; supports PDH function.
+
 
 #strong[+] PDH cofactor + antioxidant → PDH activation rate-limiting (lactate reduction, improved exercise tolerance) and/or antioxidant capacity is the bottleneck.
 
@@ -68,6 +55,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Allopregnanolone
 
 *Appears in:* Cross-reference matrix Phase 4 Group C.
+#strong[HD] Threshold-modulatory — GABA-A neurosteroid site PAM; if deficiency confirmed, replacement is substrate-repletion.
+
 
 #strong[+] GABA-A neurosteroid site functional and rate-limiting. Allopregnanolone is a potent endogenous positive allosteric modulator of GABA-A at neurosteroid binding sites — improvement confirms GABAergic neurosteroid deficiency is the lesion.
 
@@ -80,6 +69,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Amantadine
 
 *Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, cross-reference matrix.
+#strong[HD] Threshold-modulatory — enhances presynaptic DA release; distinguishes from DAT blockers diagnostically.
+
 
 #strong[+] Presynaptic DA release is the bottleneck — DA stores exist but release is impaired. Amantadine enhances DA release without blocking reuptake, distinguishing from methylphenidate.
 
@@ -92,6 +83,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Ambrisentan
 
 *Appears in:* Cross-reference matrix Phase 4 Group C.
+#strong[HD] Threshold-modulatory — endothelin receptor antagonist reducing pulmonary vasoconstriction; limited to documented PAH context.
+
 
 #strong[+] Endothelin-1 antagonism → pulmonary vasodilation → improved PAH-related symptoms (limited relevance outside documented PAH with ME/CFS).
 
@@ -104,6 +97,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Ambroxol
 
 *Appears in:* Cross-reference matrix Phase 4 Group C.
+#strong[HD] Threshold-modulatory — TRPV1 antagonist reducing muscle pain and PEM; mucolytic if airway symptoms.
+
 
 #strong[+] TRPV1 antagonism → muscle pain reduction, PEM reduction. Mucolytic effect (if airway symptoms present).
 
@@ -116,6 +111,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Amitriptyline (Low-Dose)
 
 *Appears in:* @sec:piezo2-cascade Step C1, @sec:microglial-cascade Step K2d, @sec:heds-cascade, @sec:gerlier-pathway3, cross-reference matrix.
+#strong[HD] Threshold-modulatory — H1 + M1 + NE/5-HT reuptake inhibition at low dose; multimodal sensory modulation.
+
 
 #strong[+] H1 + M1 + NE/5-HT reuptake inhibition → multimodal benefit for neuropathic pain, sleep, and mood if these systems are deficient.
 
@@ -128,6 +125,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Amlodipine
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — L-type Ca²⁺ channel blocker reducing TRPV1-mediated vasoconstriction downstream; does not correct TRPV1 dysfunction.
+
 
 #strong[+] L-type Ca²⁺ channel-mediated vasoconstriction rate-limiting for microvascular perfusion deficits. TRPV1 activation on vascular smooth muscle opens L-type Ca²⁺ channels → vasoconstriction. Amlodipine blocks this downstream effect and restores perfusion.
 
@@ -140,6 +139,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Amphetamines (Dextroamphetamine, Lisdexamfetamine) <warn:amphetamine-permanent-risk>
 
 *Appears in:* @sec:microglial-cascade Step K2b, cross-reference matrix.
+#strong[HD] Symptomatic — reverses DAT + VMAT2 releasing DA/NE; most dangerous stimulant class: VMAT2 depletion, permanent terminal damage, PMC, metabolic PEM. Diagnostic value: confirms presynaptic DA terminals functional.
+
 
 #strong[+] VMAT2 + DAT reversal → DA release confirms presynaptic DA terminals are present and functional. Cognitive improvement confirms DA is rate-limiting.
 
@@ -152,6 +153,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Anakinra
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — blocks IL-1 receptor, interrupting IL-1β-driven autoinflammatory amplification; does not address IL-1β source
+
 
 #strong[+] IL-1α and IL-1β are rate-limiting for the sickness-behavior / inflammatory phenotype. IL-1 receptor antagonism blocks both IL-1α and IL-1β — broader than canakinumab (IL-1β only). Improvement confirms IL-1-driven pathology dominates.
 
@@ -164,6 +167,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Apixaban
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding risk; research-stage
+
 
 #strong[+] Factor Xa-mediated microclot pathology rate-limiting for tissue hypoperfusion and PEM. Direct factor Xa inhibition prevents fibrin microclot formation — improvement confirms coagulation-driven microvascular occlusion is the dominant lesion.
 
@@ -176,6 +181,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Arginine
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Substrate-repletion — NO precursor; supports endothelial function if arginine is rate-limiting.
+
 
 #strong[+] NO-mediated vasodilation is rate-limiting for microvascular perfusion. Arginine is the NOS substrate — if supplementation improves perfusion, NOS is functional but substrate-limited.
 
@@ -188,6 +195,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Aripiprazole (Low-Dose)
 
 *Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, @sec:dopamine-convergence, cross-reference matrix.
+#strong[HD] Threshold-modulatory — microglial D2 partial agonism raising activation threshold; symptomatic dopaminergic cognitive support. Does not remove what primed the microglia.
+
 
 #strong[+] D2/D3 partial agonism → DA dysfunction rate-limiting. Lesion at or above D2/D3 receptor level.
 
@@ -200,6 +209,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Ashwagandha (Withania somnifera)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — adaptogen with GABA-A modulation + cortisol reduction.
+
 
 #strong[+] Cortisol-mediated stress-axis pathology is rate-limiting. Ashwagandha reduces stress-induced cortisol elevation — improvement confirms cortisol excess (not deficiency) is the dominant HPA lesion.
 
@@ -212,6 +223,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Aspirin / NSAIDs
 
 *Appears in:* @sec:side-effects-diagnostic, cross-reference matrix.
+#strong[HD] Threshold-modulatory — COX inhibition reducing prostaglandin-mediated inflammation/pain; does not address trigger.
+
 
 #strong[+] COX-1/COX-2 inhibition → prostaglandin-driven inflammation is rate-limiting (TRPV1 pain, PGE2-mediated vasodilation in POTS).
 
@@ -224,6 +237,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Atomoxetine
 
 *Appears in:* @sec:microglial-cascade Step K2d, @sec:noradrenergic-node, cross-reference matrix.
+#strong[HD] Threshold-modulatory — selective NET inhibitor increasing NE tone; does not correct why NE is deficient.
+
 
 #strong[+] NE reuptake inhibition → NE deficiency rate-limiting. Cognitive benefit (PFC-dependent tasks) confirms prefrontal NE deficit.
 
@@ -236,6 +251,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Azathioprine
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — purine synthesis inhibitor; broad immunosuppression — high side-effect burden; requires TPMT testing
+
 
 #strong[+] Purine-dependent lymphocyte proliferation rate-limiting — T-cell- and B-cell-driven autoimmunity confirmed. Azathioprine blocks purine synthesis → reduced lymphocyte expansion → improvement confirms lymphocyte-driven pathology is dominant.
 
@@ -248,6 +265,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === B12 (Vitamin B12 / Cobalamin)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion — repletes B12 if deficient; supports methylation and mitochondrial function.
+
 
 #strong[+] B12 deficiency rate-limiting for methylation, DNA synthesis, or neurological function. Improvement confirms B12 was the bottleneck — one of the few fully reversible lesions in the ME/CFS differential.
 
@@ -260,6 +279,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Baclofen
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — GABA-B agonist reducing muscle spasticity; does not address what causes the spasticity.
+
 
 #strong[+] GABA-B-mediated muscle spasticity rate-limiting. GABA-B agonism reduces muscle hypertonia — confirms spinal GABA-B circuits are intact and spasticity is the dominant muscle symptom driver.
 
@@ -272,6 +293,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === BC007 / Immunoadsorption
 
 *Appears in:* @sec:gpcr-cascade I1, @sec:ion-channel-convergence, cross-reference matrix Phase 4 Group A.
+Restorative — removes pathogenic GPCR autoantibodies from circulation; plasma cells continue producing AAb — effect transient
+
 
 #strong[+] GPCR AAb rate-limiting — AAb removal restores receptor function. If multi-channel improvement → PIP2 convergence. If BC007 works but IA doesn't → BC007-targeted AAb subtype (specific β2/M2/AT1 etc.) confirmed.
 
@@ -284,6 +307,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === BCAA (Branched-Chain Amino Acids)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion — supplies branched-chain amino acids; compensates for catabolic muscle breakdown.
+
 
 #strong[+] Catabolic amino acid depletion rate-limiting for energy and muscle function. BCAA supplementation restores branched-chain amino acid pools — confirms catabolic metabolism is actively degrading muscle for gluconeogenic substrate.
 
@@ -296,6 +321,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Belzutifan
 
 *Appears in:* @sec:hif1a-ct-cascade N1, cross-reference matrix Group B.
+Corrective — HIF-2α inhibitor; if HIF-2α drives vascular pathology, targets the hypoxic signaling cascade — research-stage
+
 
 #strong[+] HIF-2α-driven pathology rate-limiting — the endothelial glycolytic shift and angiogenic imbalance are HIF-2α-dependent. Belzutifan blocks HIF-2α transcription → improvement confirms viral-induced mitochondrial ROS → HIF-2α stabilization is the dominant pathway.
 
@@ -308,6 +335,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Benzodiazepines / Z-Drugs
 
 *Appears in:* Cross-reference matrix Group A (Z-drugs as zolpidem), sleep cascade sections.
+#strong[HD] Symptomatic — GABA-A potentiation suppressing anxiety/spasm/insomnia without addressing cause — PMC (masking PEM), withdrawal risk.
+
 
 #strong[+] GABA-A α1 system intact and responsive — sleep initiation is GABA-A-dependent. Confirms sleep onset is GABA-A modulated.
 
@@ -320,6 +349,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Berberine
 
 *Appears in:* Cross-reference matrix Group C.
+Corrective — natural metformin analog; AMPK activation restoring metabolic efficiency — bioavailability-limited
+
 
 #strong[+] AMPK/mTOR pathway rate-limiting for metabolic dysfunction. Berberine is a natural metformin analog — AMPK activation restores metabolic efficiency.
 
@@ -332,6 +363,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Beta-Blockers (Propranolol, Metoprolol, Bisoprolol, Nebivolol)
 
 *Appears in:* @sec:pots-cascade Q1, cross-reference matrix.
+#strong[HD] Threshold-modulatory — reduces sympathetic tone at cardiac/vascular β-receptors; compensates for excessive adrenergic signaling without correcting the source.
+
 
 #strong[+] Sympathetic overactivation rate-limiting for HR. β1 blockade controls tachycardia without the metabolic cost of full sympathetic suppression (if cardioselective). Nebivolol → additional NO-mediated vasodilation may benefit endothelial dysfunction.
 
@@ -344,6 +377,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Bromocriptine / Rotigotine
 
 *Appears in:* Cross-reference matrix Group B.
+#strong[HD] Threshold-modulatory — dopamine agonist compensating for deficient dopamine tone.
+
 
 #strong[+] D2/D3 postsynaptic receptors intact and responsive — same pharmacodiagnostic as pramipexole. Rotigotine patch provides continuous delivery to distinguish PK vs PD ceiling.
 
@@ -356,6 +391,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Butyrate / Tributyrin
 
 *Appears in:* @sec:vagal-cascade R1, cross-reference matrix Group B.
+#strong[HD] Substrate-repletion — SCFA supporting gut barrier integrity; repletes if microbiome production inadequate.
+
 
 #strong[+] Enteric-chromaffin-vagal pathway functional — gut dysbiosis → low butyrate was the vagal lesion. Improvement confirms gut-brain axis is intact and butyrate is the missing signal.
 
@@ -368,6 +405,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Caffeine
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Symptomatic — adenosine antagonist; transient alertness — does not restore ATP production or address fatigue cause.
+
 
 #strong[+] Catecholamine release intact — presynaptic pool not exhausted. Adenosine A2A antagonism confirms adenosine-mediated fatigue is rate-limiting for alertness.
 
@@ -380,6 +419,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Canakinumab
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — blocks IL-1β specifically, interrupting autoinflammatory amplification; does not address IL-1β source
+
 
 #strong[+] IL-1β specifically rate-limiting for the inflammatory sickness-behavior phenotype. Canakinumab neutralizes IL-1β without affecting IL-1α — improvement confirms IL-1β (not IL-1α) is the dominant cytokine. More specific probe than anakinra (which blocks both).
 
@@ -392,6 +433,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === CBD (Cannabidiol)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — multi-target cannabinoid system modulator reducing inflammation/anxiety.
+
 
 #strong[+] Endocannabinoid deficiency or TRPV1-driven pathology rate-limiting. CBD is multi-target: 5-HT1A agonist (anxiolytic), TRPV1 desensitizer (pain), PPARγ activator (anti-inflammatory), adenosine reuptake inhibitor (neuroprotective). Multi-domain improvement confirms multi-target convergence.
 
@@ -404,6 +447,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === CBT (Cognitive-Behavioral Therapy)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Symptomatic — modulates illness perception and coping; does not correct pathophysiology (NICE 2021) — harmful if GET-based.
+
 
 #strong[+] Coping deficit rate-limiting for quality of life — CBT improves illness management. Does NOT address core pathophysiology. Positive response identifies the patient has reserve to engage in therapy without triggering PEM.
 
@@ -416,6 +461,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Celecoxib / Etoricoxib
 
 *Appears in:* @sec:trpv1-cascade B2, cross-reference matrix.
+#strong[HD] Threshold-modulatory — selective COX-2 inhibition; anti-inflammatory with cardiovascular risk.
+
 
 #strong[+] COX-2-driven inflammation rate-limiting for pain. Selective COX-2 inhibition avoids COX-1-mediated mast cell destabilization (safer than aspirin in MCAS).
 
@@ -428,6 +475,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Cervical Collar
 
 *Appears in:* @sec:cci-cascade O1, cross-reference matrix.
+Corrective — mechanical stabilization of craniocervical junction; if CCI is the lesion, directly addresses structural instability — diagnostic probe
+
 
 #strong[+] CCI present and rate-limiting. If collar resolves dizziness but not POTS → non-cervical POTS mechanism. Complete resolution of brain fog and orthostatic symptoms → CCI is the dominant lesion.
 
@@ -440,6 +489,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Cilostazol
 
 *Appears in:* Cross-reference matrix Group B.
+#strong[HD] Threshold-modulatory — PDE3 inhibitor improving microvascular perfusion; addresses perfusion deficit without correcting the cause.
+
 
 #strong[+] PDE3-mediated microvascular pathology rate-limiting. Cilostazol increases cAMP in platelets and vascular smooth muscle → vasodilation + antiplatelet effects → improved microvascular perfusion. Confirms the combined platelet-endothelial lesion.
 
@@ -452,6 +503,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Citrulline
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Substrate-repletion — arginine precursor with better bioavailability; supports NO synthesis.
+
 
 #strong[+] Arginine-depletion-driven NO deficiency rate-limiting. Citrulline bypasses hepatic arginase → sustained arginine elevation → sustained NO production. If citrulline works but arginine doesn't → first-pass arginase was degrading arginine in the liver; citrulline bypass confirms the NO pathway is intact downstream.
 
@@ -464,6 +517,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Clonazepam
 
 *Appears in:* Cross-reference matrix, sleep cascade sections (GABA-A modulation, myoclonus/sensory hypersensitivity).
+#strong[HD] Symptomatic — GABA-A potentiation (long half-life); suppresses symptoms without addressing cause — high PMC/withdrawal risk.
+
 
 #strong[+] GABA-A-mediated sensory hypersensitivity or myoclonus rate-limiting. Clonazepam's additional serotonergic effects may benefit where other benzodiazepines do not. High potency + long half-life provides sustained GABA-A potentiation.
 
@@ -476,6 +531,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Clonidine
 
 *Appears in:* @sec:brainstem-cascade, cross-reference matrix.
+#strong[HD] Threshold-modulatory — central α2 agonism reduces sympathetic outflow; suppresses compensatory drive without addressing why it is elevated.
+
 
 #strong[+] Central sympathetic overactivation is rate-limiting. Brainstem baroreflex reset or GPCR AAb at area postrema → central α2 agonism reduces sympathetic outflow.
 
@@ -488,6 +545,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Clopidogrel
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — P2Y12 inhibitor reducing platelet aggregation — research-stage for microthrombi
+
 
 #strong[+] P2Y12-mediated platelet activation rate-limiting for microclot pathology. P2Y12 blockade reduces ADP-induced platelet aggregation — improvement confirms platelet-driven microthrombus formation is the dominant microvascular lesion.
 
@@ -500,6 +559,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Coenzyme Q10 (CoQ10)
 
 *Appears in:* @sec:wasf3-cascade D2, cross-reference matrix.
+#strong[HD] Substrate-repletion — repletes CoQ10 consumed by oxidative stress; supports Complex III — does not correct the ROS source.
+
 
 #strong[+] ETC inefficiency is functional (cofactor-compensable). CoQ10 flooding restores electron flux through Complex III — confirms the SC disruption is reversible, not structural.
 
@@ -512,6 +573,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Colchicine
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — microtubule inhibitor with NLRP3 inflammasome suppression; anti-inflammatory with narrow therapeutic window
+
 
 #strong[+] NLRP3 inflammasome-driven pathology rate-limiting. Colchicine blocks microtubule polymerization → prevents NLRP3 inflammasome assembly + inhibits neutrophil chemotaxis. Improvement confirms the inflammasome is the dominant inflammatory driver.
 
@@ -524,6 +587,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Cordyceps
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — fungal supplement with adenosine-like compounds — variable evidence.
+
 
 #strong[+] Mitochondrial or immune dysfunction rate-limiting. Cordyceps (cordycepin + polysaccharides) enhances mitochondrial function and modulates immunity — improvement confirms the mitochondrial-immune axis is accessible to adaptogenic support.
 
@@ -536,6 +601,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Corticosteroids (Prednisone, Methylprednisolone, Hydrocortisone)
 
 *Appears in:* Cross-reference matrix, @sec:hpa-axis.
+#strong[HD] Threshold-modulatory — suppresses inflammation broadly via glucocorticoid receptor; does not address inflammatory driver — HPA suppression risk.
+
 
 #strong[+] Inflammation is rate-limiting (does NOT identify source). Broad anti-inflammatory effect confirms inflammatory component is present and steroid-responsive.
 
@@ -548,6 +615,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === CPAP
 
 *Appears in:* Cross-reference matrix.
+Corrective — restores airway patency in OSA; if OSA confounds sleep quality, directly addresses mechanical obstruction
+
 
 #strong[+] Obstructive sleep apnea rate-limiting for sleep quality — CPAP restores airway patency. If CPAP resolves unrefreshing sleep → OSA was the dominant sleep pathology, not ME/CFS-specific sleep dysfunction.
 
@@ -560,6 +629,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Creatine
 
 *Appears in:* @sec:wasf3-cascade D3, cross-reference matrix.
+#strong[HD] Substrate-repletion — supplies creatine for ATP buffering via phosphocreatine system.
+
 
 #strong[+] ATP pool insufficient — consistent with reduced steady-state ATP production. Creatine phosphate buffering capacity is rate-limiting for high-demand activities.
 
@@ -572,6 +643,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Cromolyn Sodium
 
 *Appears in:* @sec:piezo2-cascade C2, cross-reference matrix.
+#strong[HD] Threshold-modulatory — stabilizes mast cells preventing degranulation; does not address what activates mast cells.
+
 
 #strong[+] Gut mast cell degranulation rate-limiting for GI symptoms. Stabilization confirms MCAS with enteric-dominant phenotype.
 
@@ -584,6 +657,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Curcumin
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — NF-κB inhibitor + antioxidant; reduces inflammatory signaling — limited bioavailability.
+
 
 #strong[+] NF-κB-driven inflammation rate-limiting. Curcumin's pleiotropic anti-inflammatory effects (NF-κB inhibition, COX/LOX inhibition, Nrf2 activation) confirm the NF-κB-inflammatory axis is dominant and curcumin-responsive.
 
@@ -596,6 +671,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Cyclobenzaprine
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — 5-HT2 receptor antagonist + central muscle relaxant; modulates 5-HT2-mediated muscle tension.
+
 
 #strong[+] 5-HT2-mediated muscle hypertonia or central sensitization rate-limiting for pain and sleep. 5-HT2 antagonism + tricyclic-adjacent structure provides dual muscle relaxant and serotonergic effects.
 
@@ -608,6 +685,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Cyclophosphamide
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — broad immunosuppression depleting B and T cells; high toxicity limits use to severe refractory cases
+
 
 #strong[+] B-cell- and T-cell-driven autoimmunity rate-limiting — severe, proliferative autoimmune disease confirmed. Cyclophosphamide's alkylating action depletes proliferating lymphocytes — improvement confirms autoimmune pathology is severe enough to justify the toxicity.
 
@@ -620,6 +699,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Cyclosporine
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — calcineurin inhibitor suppressing T-cell activation; broad immunosuppression — nephrotoxicity risk
+
 
 #strong[+] NFAT-mediated T-cell activation rate-limiting — confirms T-cell-driven autoimmunity. Cyclosporine blocks calcineurin → prevents NFAT dephosphorylation → blocks IL-2 transcription → T-cell suppression.
 
@@ -632,6 +713,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === D-Ribose
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion — supplies ribose for de novo purine synthesis; bypasses impaired ATP regeneration.
+
 
 #strong[+] Purine salvage pathway is rate-limiting for ATP regeneration. D-ribose bypasses the de novo purine synthesis bottleneck.
 
@@ -644,6 +727,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Daratumumab (Anti-CD38)
 
 *Appears in:* @sec:gpcr-cascade I1, cross-reference matrix Group B.
+Corrective — depletes CD38+ long-lived plasma cells; targets the source rituximab spares — research-stage in ME/CFS
+
 
 #strong[+] AAb from CD38+ long-lived plasma cells — works where rituximab (CD20) fails. Confirms plasma-cell-driven autoimmunity is rate-limiting. If rituximab transient response → daratumumab sustained response → plasma cells, not B cells, drive chronicity.
 
@@ -656,6 +741,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === DCA (Dichloroacetate)
 
 *Appears in:* @sec:pdh-cascade E2, cross-reference matrix Group B.
+Corrective — PDK inhibitor restoring PDH activity and pyruvate entry into TCA cycle — neurotoxicity risk at cumulative dose
+
 
 #strong[+] PDH phosphorylation rate-limiting for metabolic block. PDK inhibition → PDH activation → lactate reduction confirms PDH is the bottleneck.
 
@@ -668,6 +755,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Devil's Claw (Harpagophytum procumbens)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — anti-inflammatory via COX-2 and iNOS inhibition — variable evidence.
+
 
 #strong[+] COX/TNF-α-mediated inflammation rate-limiting. Herbal anti-inflammatory effect confirms inflammatory component is present and COX/TNF-α-dependent.
 
@@ -680,6 +769,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === DHEA (Dehydroepiandrosterone)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Substrate-repletion — neurosteroid/androgen precursor; repletes DHEA if adrenal synthesis deficient.
+
 
 #strong[+] Neurosteroid or androgen deficiency rate-limiting. DHEA supplementation restores GABAergic neurosteroid tone and/or androgen-dependent mitochondrial function.
 
@@ -692,6 +783,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Diazepam
 
 *Appears in:* Cross-reference matrix, muscle spasm / sleep cascade sections.
+#strong[HD] Symptomatic — GABA-A potentiation (very long half-life); suppresses symptoms — high dependence risk.
+
 
 #strong[+] GABA-A-mediated muscle spasm or anxiety rate-limiting. Diazepam's long half-life (20--100h including active metabolites) provides sustained GABA-A potentiation — useful for continuous symptom coverage.
 
@@ -703,6 +796,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === DMF (Dimethyl Fumarate)
 
 *Appears in:* @sec:hif1a-ct-cascade, @sec:wasf3-cascade, cross-reference matrix Group B.
+Corrective — Nrf2 activator + immunomodulator; activates endogenous anti-inflammatory programs via Keap1 modification
+
 
 #strong[+] HIF-1α-driven pathology rate-limiting. Nrf2 activation reduces oxidative stress; improvement confirms HIF-1α → ROS → tissue damage as the dominant pathway.
 
@@ -715,6 +810,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Domperidone
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — peripheral D2 antagonist; prokinetic — QT prolongation risk.
+
 
 #strong[+] Peripheral D2-mediated gastroparesis rate-limiting. Domperidone blocks D2 receptors in the GI tract (does not cross BBB) → improved gastric emptying confirms the gastroparesis is D2-mediated and the enteric D2 receptor population is intact.
 
@@ -727,6 +824,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Donepezil
 
 *Appears in:* @sec:microglial-cascade Step K2d, cross-reference matrix.
+#strong[HD] Threshold-modulatory — acetylcholinesterase inhibitor enhancing cholinergic transmission.
+
 
 #strong[+] Central cholinergic deficiency rate-limiting for cognition. Donepezil's CNS AChE inhibition enhances cholinergic tone → cognitive improvement confirms the cholinergic anti-inflammatory pathway and prefrontal cholinergic networks are functional and ACh-deficient.
 
@@ -739,6 +838,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === DORAs (Daridorexant, Suvorexant, Lemborexant)
 
 *Appears in:* Cross-reference matrix Group A.
+#strong[HD] Corrective — dual orexin receptor antagonists reducing orexin-mediated wakefulness drive; may have neuroprotective effects but in ME/CFS addresses only the sleep symptom.
+
 
 #strong[+] Nocturnal orexin surges rate-limiting for sleep maintenance. OX1R/OX2R antagonism improves sleep continuity — confirms orexin-mediated hyperarousal as sleep pathology.
 
@@ -751,6 +852,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Dornase alfa
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — DNase enzyme degrading NET DNA; if NETosis confirmed, clears NET-derived DAMPs — research-stage
+
 
 #strong[+] NET-derived extracellular DNA rate-limiting for microclot pathology. Dornase alfa cleaves NET-derived DNA → degradation of the DNA scaffold in microclots → improved microvascular perfusion confirms NETs are the structural component of microclot pathology.
 
@@ -763,6 +866,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Doxepin (Low-Dose)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Symptomatic — potent H1 antagonist at 3–6 mg for sleep initiation; does not restore restorative sleep.
+
 
 #strong[+] Histaminergic arousal is dominant cause of nocturnal awakenings. Pure H1 antagonism at 3--6 mg improves sleep maintenance — confirms histaminergic sleep disruption.
 
@@ -775,6 +880,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Doxycycline (Low-Dose)
 
 *Appears in:* @sec:ecm-autoantibody-cascade J3, cross-reference matrix Group B.
+Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation; does not address what drives MMP-9
+
 
 #strong[+] MMP-9-driven ECM degradation rate-limiting. MMP inhibition by doxycycline (independent of antimicrobial effect) stabilizes connective tissue.
 
@@ -787,6 +894,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === DPP-4 Inhibitors (Sitagliptin)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — preserves endogenous incretins via DPP-4 inhibition; research-stage.
+
 
 #strong[+] Endogenous incretin preservation rate-limiting — GLP-1/GIP degradation reduction restores incretin signaling. Suggests metabolic-immune link through incretin axis.
 
@@ -799,6 +908,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Droxidopa
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — norepinephrine prodrug restoring central NE; compensates for deficient synthesis — does not correct the pathway.
+
 
 #strong[+] NE synthesis capacity intact. Presynaptic NE stores loadable via AADC conversion of droxidopa to NE. Improvement confirms NE deficiency is synthesis-limited, not storage or release.
 
@@ -811,6 +922,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Duloxetine
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — SNRI increasing synaptic 5-HT and NE; compensates for deficient monoamine tone.
+
 
 #strong[+] NE or 5-HT deficiency rate-limiting for pain, cognition, or mood. SNRI dual action confirms monoamine deficit is multimodal.
 
@@ -823,6 +936,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === EGCG (Epigallocatechin Gallate)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Substrate-repletion + Corrective — antioxidant + Nrf2 activator + COMT inhibitor; hepatotoxicity at supratherapeutic doses.
+
 
 #strong[+] NF-κB-driven or Nrf2-deficient pathology rate-limiting. EGCG inhibits NF-κB and activates Nrf2 → dual anti-inflammatory + antioxidant effect. Improvement confirms the NF-κB/Nrf2 axis is the dominant lesion.
 
@@ -835,6 +950,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === EMDR (Eye Movement Desensitization and Reprocessing)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — trauma processing therapy; addresses psychological amplifier only.
+
 
 #strong[+] PTSD/trauma-related hyperarousal rate-limiting for the sympathetic component of ME/CFS. EMDR reduces trauma-driven sympathetic activation → improved HRV and sleep confirms trauma-induced autonomic overload was rate-limiting.
 
@@ -847,6 +964,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Epoprostenol
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — prostacyclin analog for pulmonary vasodilation; limited to documented PAH context.
+
 
 #strong[+] Prostacyclin deficiency rate-limiting for pulmonary vasodilation. IP receptor agonism restores pulmonary vascular tone — limited relevance outside documented PAH with ME/CFS.
 
@@ -859,6 +978,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Erythromycin (Low-Dose, Prokinetic)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — motilin agonist; prokinetic — tachyphylaxis within 2–4 weeks.
+
 
 #strong[+] Motilin receptor-mediated gastroparesis rate-limiting. Erythromycin is a motilin receptor agonist at low doses (50--100 mg) — the prokinetic effect is independent of antibiotic action. Improved gastric emptying confirms the motilin pathway is functional.
 
@@ -871,6 +992,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Eszopiclone
 
 *Appears in:* Cross-reference matrix, sleep cascade sections.
+#strong[HD] Symptomatic — selective GABA-A α1 agonism for sleep onset; does not restore restorative sleep.
+
 
 #strong[+] GABA-A α1-mediated sleep initiation AND maintenance rate-limiting. Eszopiclone's longer half-life (~6h) vs zolpidem (~2.5h) targets sleep maintenance — confirmed by improved WASO if sleep maintenance is the dominant insomnia component.
 
@@ -883,6 +1006,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Famciclovir
 
 *Appears in:* Cross-reference matrix, antiviral cascade sections.
+Restorative — suppresses active herpesvirus replication; suppression only, not eradication — relapse on discontinuation
+
 
 #strong[+] Herpesvirus reactivation rate-limiting — similar diagnostic to valacyclovir but with penciclovir as the active drug. If famciclovir works where valacyclovir failed → the patient's viral strain is penciclovir-sensitive, acyclovir-resistant; or famciclovir's different pharmacokinetics achieve better tissue penetration.
 
@@ -895,6 +1020,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Famotidine / Cimetidine (H2 Antagonists)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — H2 receptor antagonism; famotidine: gastric acid; cimetidine: T-cell enhancement via H2 on suppressor T cells.
+
 
 #strong[+] H2-mediated gastric histamine or T-cell modulation rate-limiting. Cimetidine's additional immunomodulatory effect (T-cell suppression) may provide benefit where famotidine doesn't.
 
@@ -907,6 +1034,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Fludrocortisone
 
 *Appears in:* @sec:pots-cascade Q3, cross-reference matrix.
+#strong[HD] Threshold-modulatory — mineralocorticoid expanding plasma volume; compensates for hypovolemia without addressing volume regulation defect.
+
 
 #strong[+] Hypovolemia present (RAAS paradox). Mineralocorticoid-mediated volume expansion increases cardiac preload and improves orthostatic tolerance — confirms hypovolemic POTS subtype.
 
@@ -919,6 +1048,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Fluvoxamine (Low-Dose)
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — S1R agonism reduces ER stress and ISR activity; anti-inflammatory via S1R, not serotonin reuptake at low dose
+
 
 #strong[+] Sigma1R agonism rate-limiting — ER stress and autophagy deficit. Low-dose fluvoxamine (25--50 mg) preferentially activates sigma1R over 5-HT reuptake. Improvement confirms ER stress pathway is dominant, distinct from SSRI mechanism.
 
@@ -931,6 +1062,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === FMT (Fecal Microbiota Transplantation)
 
 *Appears in:* Cross-reference matrix.
+Corrective — restores donor microbiome; if gut dysbiosis drives systemic inflammation, targets the microbial source — research-stage
+
 
 #strong[+] Gut microbiome dysbiosis rate-limiting for systemic symptoms. FMT restores donor microbiota → multi-system improvement confirms gut-brain axis pathology originates in the microbiome.
 
@@ -943,6 +1076,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === FODMAP (Low-FODMAP Diet)
 
 *Appears in:* Cross-reference matrix.
+Corrective — reduces fermentable substrates driving SIBO/fermentation; addresses bacterial substrate source
+
 
 #strong[+] Fermentable carbohydrate-driven GI symptoms rate-limiting for IBS/SIBO component. Low-FODMAP diet reduces bacterial fermentation → reduced bloating, distension, pain confirms bacterial overgrowth/fermentation is the dominant GI driver.
 
@@ -955,6 +1090,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Gabapentin / Pregabalin
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — α2δ Ca²⁺ channel subunit binding reducing neurotransmitter release; reduces central sensitization without correcting the driver.
+
 
 #strong[+] α2δ-CaV channels functional and rate-limiting for neuropathic pain. Gabapentinoid binding reduces calcium channel trafficking → reduced neurotransmitter release → central sensitization suppression.
 
@@ -967,6 +1104,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === GET (Graded Exercise Therapy)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Symptomatic — HARMFUL in ME/CFS; ignores PEM and energy-ratchet model; contraindicated (NICE 2021).
+
 
 #strong[+] None. GET is contraindicated in ME/CFS (NICE 2021). Any perceived improvement from GET represents PMC — the patient is borrowing energy against future PEM. The "improvement" IS the diagnostic signal of PMC.
 
@@ -979,6 +1118,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Ginkgo Biloba
 
 *Appears in:* Cross-reference matrix Group B.
+#strong[HD] Threshold-modulatory — multi-target neurovascular modulator improving microcirculation and cognition.
+
 
 #strong[+] Microvascular platelet aggregation is rate-limiting. Ginkgo improves microvascular perfusion through platelet inhibition and vasodilation.
 
@@ -991,6 +1132,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === GLP-1 Agonists (Semaglutide, Tirzepatide)
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — incretin axis modulation restoring metabolic-immune interface signaling — research-stage in ME/CFS
+
 
 #strong[+] GLP-1R-mediated inflammation reduction is rate-limiting. GLP-1 agonism suppresses systemic inflammation (reduced TNF-α, IL-6) and may improve metabolic efficiency.
 
@@ -1003,6 +1146,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Glutathione
 
 *Appears in:* @sec:wasf3-cascade D2, @sec:hif1a-ct-cascade N1, cross-reference matrix.
+#strong[HD] Substrate-repletion — exogenous glutathione; limited oral bioavailability — IV/liposomal better.
+
 
 #strong[+] Glutathione depletion rate-limiting for oxidative stress. Direct glutathione supplementation (IV or liposomal) bypasses the synthesis bottleneck — improvement confirms GSH deficiency is the dominant antioxidant lesion.
 
@@ -1015,6 +1160,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Glycine
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Substrate-repletion — amino acid supporting glutathione synthesis and collagen.
+
 
 #strong[+] Glycine-mediated inhibitory neurotransmission or glutathione precursor deficiency rate-limiting. Glycine is dual-action: inhibitory neurotransmitter (glycine receptor) and glutathione precursor (with glutamate + cysteine). Sleep improvement confirms glycinergic tone is rate-limiting for sleep maintenance.
 
@@ -1027,6 +1174,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Glycyrrhizin
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — HMGB1 inhibitor targeting a causal DAMP mediator in PEM — research-stage
+
 
 #strong[+] HMGB1-driven TLR4/RAGE pathology rate-limiting. Glycyrrhizin directly binds and inhibits HMGB1, the key DAMP linking cellular stress to neuroinflammation. Improvement confirms HMGB1-mediated sterile inflammation is the dominant driver.
 
@@ -1039,6 +1188,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Guanfacine
 
 *Appears in:* @sec:microglial-cascade K2d, cross-reference matrix.
+#strong[HD] Threshold-modulatory — α2A-adrenergic agonist with prefrontal specificity; modulates catecholamine inverted-U in prefrontal circuits.
+
 
 #strong[+] PFC NE deficiency rate-limiting for cognition. α2A agonism enhances PFC network connectivity by reducing cAMP and strengthening working-memory-related firing. Cognitive benefit confirms prefrontal noradrenergic lesion.
 
@@ -1051,6 +1202,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === H1 Antihistamines (Diphenhydramine, Hydroxyzine, Ketotifen)
 
 *Appears in:* @sec:piezo2-cascade C2, cross-reference matrix.
+#strong[HD] Threshold-modulatory — H1 receptor blockade preventing histamine-mediated symptoms without reducing mast cell degranulation.
+
 
 #strong[+] Mast cell histamine is rate-limiting for symptoms. H1 blockade confirms histamine-driven pathology. Ketotifen additionally stabilizes mast cells (dual mechanism).
 
@@ -1063,6 +1216,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === HBOT (Hyperbaric Oxygen Therapy)
 
 *Appears in:* Cross-reference matrix Group C.
+Corrective — increases tissue oxygen delivery; may overcome microvascular oxygen extraction deficit — research-stage
+
 
 #strong[+] Tissue hypoxia rate-limiting for PEM and mitochondrial dysfunction. HBOT increases plasma-dissolved oxygen → bypasses RBC-dependent oxygen delivery → improvement confirms tissue hypoxia is the dominant perfusion lesion.
 
@@ -1075,6 +1230,8 @@ This section is the second entry door into this chapter — drug-indexed rather 
 === Heparin
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — anticoagulant reducing microthrombi; if microclots are pathological, targets the coagulation cascade — bleeding risk; research-stage
+
 
 #strong[+] Antithrombin III-mediated coagulation rate-limiting for microclot pathology. Heparin potentiates antithrombin III → inhibits thrombin and factor Xa → fibrin formation blocked. Improvement confirms thrombin-driven microclot formation is the dominant lesion.
 
@@ -1086,11 +1243,15 @@ This section is the second entry door into this chapter — drug-indexed rather 
 
 === Immunoadsorption / Plasmapheresis
 
+Restorative — removes pathogenic autoantibodies and immune complexes from circulation; plasma cells continue producing — effect transient
+
 See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). The worsening risk is identical — mechanism B, protracted risk Low--Moderate, permanent risk Low. IA does not introduce exogenous IgG (unlike IVIG), so immune-complex formation risk is absent. Rechallenge acceptable with hemodynamic support.
 
 === Iron
 
 *Appears in:* Cross-reference matrix. @sec:iron-redox-cascade, @hyp:iron-redox-polarity-diagnostic-bifurcation, @pred:ferritin-tsat-ratio-diagnostic.
+#strong[HD] Substrate-repletion — repletes iron if deficient; supports hemoglobin and ETC — contraindicated if iron overload.
+
 
 #strong[+] Iron deficiency rate-limiting for oxygen transport, ETC function, and neurotransmitter synthesis. Iron repletion restores haemoglobin, mitochondrial complexes, and catecholamine synthesis — confirms iron deficiency was the dominant correctable lesion. *Phenotype before prescribing:* if ferritin $<$ 30 µg/L or TSAT $<$ 16% (+ normal CRP) → genuine iron deficiency → iron supplementation indicated regardless of ME/CFS or LC diagnosis.
 
@@ -1103,6 +1264,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Ivabradine
 
 *Appears in:* @sec:pots-cascade Q1, cross-reference matrix.
+#strong[HD] Threshold-modulatory — reduces heart rate via If channel inhibition; does not address why compensatory tachycardia is needed.
+
 
 #strong[+] HR control without β2 blockade → rules out metabolic cost of beta-blockers. Pure If-channel blockade confirms SA node overactivation is rate-limiting, and the patient can tolerate HR reduction without β2-mediated fatigue.
 
@@ -1115,6 +1278,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === IVIG (Intravenous Immunoglobulin)
 
 *Appears in:* Cross-reference matrix.
+Corrective — neutralizes autoantibodies + immunomodulation; does not eliminate the plasma cell source — transient effect
+
 
 #strong[+] GPCR AAb present and rate-limiting. IgG-mediated neutralization + immunomodulation → functional improvement confirms autoimmune mechanism. Transient response → B-cell repopulation restores AAb production.
 
@@ -1127,6 +1292,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Ketamine (Sub-Anesthetic)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — NMDA receptor antagonist with rapid neuroplastic effects — research-stage; not established in ME/CFS.
+
 
 #strong[+] NMDA-mediated excitotoxicity (QUIN-driven) rate-limiting for pain and cognition. Low-dose ketamine blocks NMDA receptor overactivation from quinolinic acid in the kynurenine pathway.
 
@@ -1139,6 +1306,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Ketotifen (Mast Cell Stabilizer)
 
 *Appears in:* @sec:piezo2-cascade C2, @sec:gpcr-cascade I2, cross-reference matrix.
+#strong[HD] Threshold-modulatory — mast cell stabilizer + H1 antagonist; prevents degranulation without addressing trigger.
+
 
 #strong[+] Mast cell degranulation rate-limiting. Dual mechanism — H1 antagonism + mast cell membrane stabilization — confirms MCAS is treatable with mast-cell-directed therapy.
 
@@ -1151,6 +1320,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === L-Carnitine
 
 *Appears in:* @sec:wasf3-cascade D2, cross-reference matrix.
+#strong[HD] Substrate-repletion — supplies carnitine for fatty acid transport into mitochondria.
+
 
 #strong[+] FAO is functional and rate-limiting for ATP. L-carnitine shuttles fatty acids into mitochondria — improvement confirms FAO is the bottleneck and the shuttle mechanism is intact.
 
@@ -1163,6 +1334,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === L-DOPA / Carbidopa
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — dopamine precursor compensating for deficient DA synthesis; peripheral decarboxylase inhibitor limits systemic effects.
+
 
 #strong[+] DA synthesis is the bottleneck — AADC functional, substrate-limited. If L-DOPA works → the lesion is upstream of AADC (tyrosine hydroxylase, GTP cyclohydrolase, or substrate). If pramipexole worked but L-DOPA didn't → the DA system works postsynaptically but synthesis is not the bottleneck.
 
@@ -1175,6 +1348,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Lamotrigine
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — voltage-gated Na⁺ channel inhibitor reducing neuronal hyperexcitability; does not address what creates it.
+
 
 #strong[+] Voltage-gated sodium channel-mediated glutamate release rate-limiting for neuropathic pain and sensory hypersensitivity. Lamotrigine stabilizes presynaptic Na⁺ channels → reduced glutamate release → improvement confirms glutamatergic hyperexcitability is the dominant pain pathway.
 
@@ -1187,6 +1362,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Larazotide
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut drives inflammation, targets a structural barrier defect — research-stage
+
 
 #strong[+] Zonulin-mediated intestinal permeability rate-limiting for metabolic endotoxemia and systemic inflammation. Larazotide blocks zonulin → tight junction closure → reduced LPS translocation → improvement confirms gut barrier dysfunction is the source of systemic inflammation.
 
@@ -1199,6 +1376,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === LDN (Low-Dose Naltrexone)
 
 *Appears in:* @sec:trpm3-cascade A2, @sec:microglial-cascade K2d, @sec:dopamine-convergence, cross-reference matrix.
+#strong[HD] Mixed — Restorative (TRPM3 Ca²⁺ influx restoration at 3.0–4.5 mg) + Corrective (TLR4/Nrf2 hormetic anti-inflammatory priming at 0.5–1.5 mg + compensatory endorphin upregulation at 1.5–3.0 mg). Dose-dependent: higher doses are more restorative; lower doses are threshold-modulatory/corrective.
+
 
 *Dose-response structure:* LDN targets four mechanisms with non-overlapping dose optima — TLR4 hormetic window (Nrf2-mediated microglial M1→M2 priming peaking at 0.5--1.5 mg), opioid compensatory upregulation (endorphin ceiling at 1.5--3.0 mg), TRPM3 calcium flux restoration (possibly requiring 3.0--4.5 mg), and orexin disinhibition (tracking TLR4 microglial effects in hypothalamus). Dose-finding is therefore diagnostic: a patient whose optimal dose is 0.5--1.5 mg has TLR4/Nrf2 as the dominant therapeutic mechanism; a patient needing 3.0--4.5 mg has TRPM3 as dominant. @Calabrese2021Nrf2 @Kucic2021LDNmicroglia @Dara2023 @Toljan2018
 
@@ -1222,6 +1401,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === LDN + Aripiprazole (Combo)
 
 *Appears in:* Cross-reference matrix Group A.
+#strong[HD] Mixed — LDN: Restorative/TRPM3 + Corrective/TLR4-endorphin. Aripiprazole: Threshold-modulatory/microglial. Complementary targets on same cell population.
+
 
 #strong[+] Neuroinflammation + DA deficiency are independent co-rate-limiting mechanisms. If the combination produces greater improvement than either alone → dual-pathway convergence confirmed — TLR4-microglial + D2/D3 are separate bottlenecks that reinforce each other.
 
@@ -1234,6 +1415,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === LDN + Midodrine (Combo)
 
 *Appears in:* Cross-reference matrix Group A.
+#strong[HD] Mixed — LDN: Restorative/TRPM3 + Corrective/TLR4. Midodrine: Threshold-modulatory/vasoconstriction. Parallel targeting of neuroinflammation + orthostatic intolerance.
+
 
 #strong[+] Both TLR4/TRPM3 + α1 adrenergic are rate-limiting simultaneously. Parallel system dysfunction confirmed — autoimmune/inflammatory + autonomic.
 
@@ -1246,6 +1429,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Levetiracetam
 
 *Appears in:* Cross-reference matrix Group A.
+#strong[HD] Threshold-modulatory — SV2A binding modulating neurotransmitter release; empirical in CNS hyperexcitability.
+
 
 #strong[+] PEM is a kindling/neuroplastic process — SV2A binding reduces PEM frequency. Levetiracetam's anti-kindling mechanism confirms PEM has a neuroplastic sensitization component.
 
@@ -1258,6 +1443,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Lion's Mane (Hericium erinaceus)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — NGF/BDNF induction supporting neuronal health — research-stage; limited ME/CFS evidence.
+
 
 #strong[+] NGF-mediated neurogenesis/nerve repair rate-limiting for cognitive dysfunction and peripheral neuropathy. Lion's Mane stimulates NGF synthesis → improved cognition and reduced neuropathic symptoms confirms the lesion is neurotrophin-deficient and NGF-responsive.
 
@@ -1270,6 +1457,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Lithium (Low-Dose)
 
 *Appears in:* @sec:trpm3-cascade A1, cross-reference matrix.
+Corrective — GSK-3β inhibition → Nrf2 nuclear localization + IMPase/inositol depletion + mTORC1 modulation; triple mechanism
+
 
 #strong[+] PIP2 depletion rate-limiting. Lithium inhibits IMPase → increases PIP2 availability → improves GPCR signaling. Confirms GPCR AAb are upstream and PIP2 is the bottleneck — the Gq/11 → PLC → PIP2 → TRPM3 pathway is intact but PIP2-depleted.
 
@@ -1282,6 +1471,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === LLLT (Low-Level Laser Therapy / Photobiomodulation)
 
 *Appears in:* Cross-reference matrix Group C.
+Corrective — cytochrome c oxidase photostimulation enhancing ATP production — research-stage
+
 
 #strong[+] Cytochrome c oxidase photostimulation rate-limiting for mitochondrial function. LLLT delivers red/NIR light → photon absorption by Complex IV → increased electron transport → improved ATP production confirms the ETC bottleneck is photostimulable.
 
@@ -1294,6 +1485,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Lorazepam
 
 *Appears in:* Cross-reference matrix, sleep cascade sections.
+#strong[HD] Symptomatic — GABA-A potentiation (intermediate half-life); suppresses symptoms — dependence risk.
+
 
 #strong[+] GABA-A-mediated acute anxiety or sleep initiation rate-limiting. Lorazepam's intermediate half-life (10--20h) and absence of active metabolites makes it pharmacokinetically cleaner than diazepam or clonazepam — preferred for diagnostic GABA-A probes.
 
@@ -1306,6 +1499,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Losartan
 
 *Appears in:* Cross-reference matrix Group B.
+#strong[HD] Threshold-modulatory — ARB reducing angiotensin II-mediated vasoconstriction and inflammation; modulates one arm of the RAAS.
+
 
 #strong[+] Angiotensin II AT1R-mediated pathology rate-limiting — RAAS dysregulation with TGF-β overproduction. Losartan blocks AT1R → reduced TGF-β signaling + vasodilation → improvement confirms AT1R-driven TGF-β overproduction is the dominant fibrotic/inflammatory pathway.
 
@@ -1318,6 +1513,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Low-Dose IL-2
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — expands regulatory T cells; if autoantibodies fall, Treg deficiency was permissive — research-stage
+
 
 #strong[+] Treg deficiency drives autoimmunity — Treg-suppressible pathology confirmed. Low-dose IL-2 preferentially expands Tregs (CD4+CD25+FoxP3+), suppressing autoimmune effector T cells. Improvement confirms Treg-population-driven autoimmunity.
 
@@ -1330,6 +1527,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Lumbrokinase
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-stage; limited quality control
+
 
 #strong[+] Fibrinolytic-accessible microclot pathology rate-limiting. Lumbrokinase directly degrades fibrin and fibrinogen — improvement confirms fibrin is the dominant structural component of microclots and is lumbrokinase-sensitive.
 
@@ -1342,6 +1541,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Luteolin
 
 *Appears in:* @sec:microglial-cascade K1, cross-reference matrix.
+#strong[HD] Threshold-modulatory — mast cell stabilizer with BBB penetration; implicates CNS mast cells if benefit beyond quercetin.
+
 
 #strong[+] Mast cell degranulation and microglial activation rate-limiting — dual mast-cell and microglial stabilization. Luteolin inhibits mast cell degranulation and microglial activation → improvement in brain fog + MCAS symptoms confirms the mast-cell-microglial axis is dominant.
 
@@ -1354,6 +1555,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Lysine
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion — amino acid supporting collagen synthesis — research-stage.
+
 
 #strong[+] Arginine-competitive herpesvirus replication rate-limiting. Lysine competes with arginine for cellular uptake → reduced intracellular arginine → reduced viral replication. Improvement during lysine loading confirms herpesvirus replication is active and arginine-dependent.
 
@@ -1366,6 +1569,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Magnesium
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion — repletes magnesium if deficient; supports enzyme function and neuronal signaling.
+
 
 #strong[+] Magnesium deficiency rate-limiting for ATP-dependent enzymes, muscle function, and sleep. Magnesium repletion restores enzyme cofactor function — improvement confirms magnesium deficiency was a correctable lesion.
 
@@ -1378,6 +1583,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Maraviroc
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — CCR5 antagonist; if CCR5-mediated inflammatory cell trafficking drives neuroinflammation, targets a specific chemokine pathway — research-stage
+
 
 #strong[+] CCR5-mediated monocyte chemotaxis rate-limiting for neuroinflammation. Maraviroc blocks CCR5 → prevents monocyte migration into inflamed CNS tissue → improvement confirms monocyte-driven neuroinflammation is the dominant CNS pathology.
 
@@ -1390,6 +1597,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === MBSR (Mindfulness-Based Stress Reduction)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — modulates stress response and pain perception; adjunctive, not disease-modifying.
+
 
 #strong[+] Stress-driven sympathetic overactivation rate-limiting. MBSR reduces sympathetic tone through mindfulness practice → improved HRV and anxiety confirms the sympathetic component has a stress-modifiable component.
 
@@ -1402,6 +1611,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Melatonin
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion at low-dose (0.3–0.5 mg) — circadian resynchronization + antioxidant; symptomatic at high-dose (MT1/MT2 desensitization).
+
 
 #strong[+] Circadian phase disorder rate-limiting for sleep onset. MT1/MT2 agonism phase-advances the sleep-wake cycle — confirms circadian rhythm is the dominant sleep pathology.
 
@@ -1414,6 +1625,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Memantine
 
 *Appears in:* @sec:kynurenine-cascade H2b, cross-reference matrix.
+#strong[HD] Threshold-modulatory — NMDA receptor antagonist reducing glutamatergic excitotoxicity; does not address why glutamate is elevated.
+
 
 #strong[+] Quinolinic acid-driven NMDA excitotoxicity rate-limiting. Memantine's uncompetitive NMDA antagonism blocks tonic overactivation while preserving phasic signaling — improvement confirms QUIN-driven excitotoxicity dominant.
 
@@ -1426,6 +1639,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Metformin
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — AMPK activation restoring metabolic efficiency + reducing mTORC1 activity; multi-mechanism metabolic intervention
+
 
 #strong[+] AMPK pathway rate-limiting for metabolic dysfunction. Metformin activates AMPK → improved mitochondrial efficiency, reduced hepatic gluconeogenesis, and anti-inflammatory effects.
 
@@ -1440,6 +1655,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Methylphenidate
 
 *Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade K2d, cross-reference matrix.
+#strong[HD] Threshold-modulatory — DAT/NET blocker increasing synaptic DA/NE; +7% REE; diagnostic probe for DAT functional status.
+
 
 #strong[+] NE/DA deficiency rate-limiting for cognition and fatigue. DAT/NET blockade confirms presynaptic terminals are present and functional — reuptake is the dominant clearance mechanism, and blocking it restores synaptic tone.
 
@@ -1452,6 +1669,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Metoclopramide
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — D2 antagonist + 5-HT4 agonist; prokinetic — extrapyramidal risk.
+
 
 #strong[+] D2-mediated gastroparesis and 5-HT4-mediated prokinesis rate-limiting. Metoclopramide is dual-action: D2 antagonism (like domperidone) + 5-HT4 agonism (prokinetic). Improvement confirms the gastric emptying lesion is D2 and/or 5-HT4-mediated.
 
@@ -1464,6 +1683,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Midodrine
 
 *Appears in:* @sec:pots-cascade Q1, cross-reference matrix.
+#strong[HD] Threshold-modulatory — α1 agonist providing vasoconstriction; compensates for inadequate vascular tone without correcting the cause.
+
 
 #strong[+] Vasculature α1-responsive — neuropathic POTS if supine NE is low. α1 agonism restores vascular tone → improved orthostatic tolerance confirms the vascular α1 receptor population is intact.
 
@@ -1476,6 +1697,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Minocycline
 
 *Appears in:* @sec:microglial-cascade K1, cross-reference matrix.
+Corrective — microglial anti-inflammatory + MMP-9 inhibition + neuroprotective; multi-mechanism tetracycline
+
 
 #strong[+] Microglial activation through non-TLR4 pathways (P2X7, C5aR, IFN-γR) rate-limiting. Minocycline's broad microglial suppression confirms neuroinflammation is the dominant pathology.
 
@@ -1488,6 +1711,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Mitochondrial Supplements (CoQ10, NADH, NAC, L-Carnitine, Creatine) — GROUP ENTRY
 
 *Appears in:* @sec:wasf3-cascade D2, @sec:pdh-cascade E2, @sec:nad-cascade G2, cross-reference matrix.
+#strong[HD] Substrate-repletion — pooled mitochondrial cofactor/substrate repletion; augments impaired complexes without repairing them.
+
 
 #strong[+] As a group, improvement with mitochondrial cofactors confirms functional (cofactor-compensable) mitochondrial impairment. The specific supplement that produces improvement localizes the bottleneck: CoQ10 → Complex III; NADH → Complex I; L-carnitine → FAO shuttle; creatine → ATP buffering; NAC → glutathione/ROS. Multi-supplement response → widespread cofactor deficiency from chronic metabolic stress.
 
@@ -1500,6 +1725,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === MitoQ
 
 *Appears in:* @sec:wasf3-cascade D2, cross-reference matrix.
+#strong[HD] Substrate-repletion — mitochondria-targeted CoQ10 analog; more efficient mitochondrial delivery.
+
 
 #strong[+] Mitochondrial matrix ROS production rate-limiting for ETC dysfunction. MitoQ is mitochondria-targeted CoQ10 — concentrates 100--1000× in the mitochondrial matrix where ROS is produced. Improvement confirms matrix-level oxidative stress is the dominant lesion and is CoQ10-accessible.
 
@@ -1512,6 +1739,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Modafinil / Armodafinil
 
 *Appears in:* @sec:microglial-cascade Step K2a, cross-reference matrix.
+#strong[HD] Threshold-modulatory — DAT/NET inhibition with speculative Corrective component (brain ATP enhancement + M1→M2 microglial shift @Minzenberg2008modafinil); negative ME/CFS RCT (n=14).
+
 
 #strong[+] DAT-mediated DA increase rate-limiting for cognition and wakefulness. Modafinil's weak DAT block + histamine/orexin activation confirms DA reuptake is the dominant bottleneck for wakefulness.
 
@@ -1524,6 +1753,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Montelukast
 
 *Appears in:* Cross-reference matrix Group B.
+#strong[HD] Threshold-modulatory — leukotriene receptor antagonist blocking one arm of mast-cell-derived inflammation.
+
 
 #strong[+] Leukotrienes are the dominant MCAS mediator — improvement where antihistamines fail. CysLT1 antagonism confirms leukotriene-driven MCAS subtype.
 
@@ -1536,6 +1767,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Mycophenolate
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — inhibits lymphocyte proliferation; broad immunosuppression — high side-effect burden
+
 
 #strong[+] IMPDH-dependent lymphocyte proliferation rate-limiting — confirms lymphocyte-driven autoimmunity. Mycophenolate blocks de novo purine synthesis in lymphocytes → inhibits proliferation more selectively than azathioprine (which blocks all purine synthesis).
 
@@ -1548,6 +1781,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === NAC (N-Acetylcysteine)
 
 *Appears in:* @sec:wasf3-cascade D2, @sec:hif1a-ct-cascade N1, cross-reference matrix.
+#strong[HD] Substrate-repletion + Corrective — repletes glutathione (consumed by ROS) + Nrf2 activation via Keap1 modification; dual mechanism.
+
 
 #strong[+] Oxidative stress rate-limiting — glutathione deficiency confirmed. NAC provides cysteine substrate for GSH synthesis; improvement confirms ROS/oxidative stress is the dominant pathology.
 
@@ -1560,6 +1795,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === NADH
 
 *Appears in:* @sec:wasf3-cascade D2, cross-reference matrix.
+#strong[HD] Substrate-repletion — supplies NADH as Complex I substrate; bypasses reduced endogenous production.
+
 
 #strong[+] ETC Complex I electron donor deficiency rate-limiting. NADH supplementation restores electron flux — confirms Complex I function is present and NADH is the bottleneck.
 
@@ -1572,6 +1809,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Nattokinase
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-stage; limited quality control
+
 
 #strong[+] Microclot pathology rate-limiting for PEM and perfusion. Fibrinolytic activity degrades microclots → improved microvascular perfusion confirms fibrinolytic-accessible microclot pathology.
 
@@ -1584,6 +1823,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Niacin
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion — NAD⁺ precursor (vitamin B3); supports NAD⁺ pool.
+
 
 #strong[+] Pure side-effect probe — niacin is NOT a therapeutic probe; it is used diagnostically. HCA2 (GPR109A) activation on mast cells → PGD2 release → flush. The flush threshold (dose at which flush occurs) is the diagnostic output.
 
@@ -1596,6 +1837,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Nifedipine
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — L-type Ca²⁺ channel blocker reducing vasoconstriction; short half-life limits sustained benefit.
+
 
 #strong[+] TRPV1-mediated L-type Ca²⁺ channel vasoconstriction rate-limiting for microvascular perfusion. Same diagnostic principle as amlodipine but with shorter half-life and more rapid vasodilation — the rapid onset provides a faster pharmacodiagnostic readout.
 
@@ -1608,6 +1851,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === NMN / NR (NAD⁺ Precursors)
 
 *Appears in:* @sec:nad-cascade G2, cross-reference matrix.
+#strong[HD] Substrate-repletion — supplies NAD⁺ precursors; compensates for NAD⁺ depletion.
+
 
 #strong[+] NAD⁺ deficiency rate-limiting. NMN/NR supplementation restores NAD⁺ pools — confirms NAD⁺ depletion is the bottleneck, and the salvage pathway (NMNAT, NAMPT) is intact.
 
@@ -1620,6 +1865,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Nortriptyline
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — NE/5-HT reuptake inhibition with less H1 antagonism than amitriptyline.
+
 
 #strong[+] NE reuptake inhibition + 5-HT2/H1 antagonism rate-limiting for pain and sleep. Nortriptyline is the active metabolite of amitriptyline with less sedation and fewer anticholinergic effects — improvement with fewer side effects confirms the lesion is NE/5-HT-mediated, not H1/M1-mediated.
 
@@ -1632,6 +1879,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Omalizumab
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — anti-IgE monoclonal antibody blocking IgE-mediated mast cell activation; targets a specific activation pathway
+
 
 #strong[+] IgE-mediated mast cell degranulation rate-limiting. Omalizumab binds free IgE → prevents IgE binding to FcεRI on mast cells → reduced mast cell degranulation confirms IgE-mediated MCAS is the dominant subtype.
 
@@ -1644,6 +1893,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Omega-3 (EPA/DHA)
 
 *Appears in:* Cross-reference matrix Group C.
+Corrective — SPM precursor supporting inflammation resolution; shifts eicosanoid balance toward pro-resolving mediators
+
 
 #strong[+] Pro-inflammatory eicosanoid pathway rate-limiting for neuroinflammation. EPA/DHA compete with arachidonic acid for COX/LOX → shift eicosanoid production toward anti-inflammatory resolvins and protectins. Improvement confirms the eicosanoid balance is the dominant inflammatory lesion.
 
@@ -1656,6 +1907,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Oxaloacetate
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Substrate-repletion — TCA cycle intermediate bypassing metabolic bottleneck — research-stage.
+
 
 #strong[+] TCA cycle flux limitation at oxaloacetate entry step. Oxaloacetate supplementation restores TCA cycle throughput — confirms the TCA bottleneck is at or near oxaloacetate-dependent steps.
 
@@ -1668,6 +1921,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Oxycodone
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Symptomatic — mu-opioid agonist; suppresses pain perception without reducing nociceptive driver — dependence risk.
+
 
 #strong[+] Opioid-sensitive pain rate-limiting for QoL. Oxycodone's μ-opioid agonism confirms the opioidergic pain-modulation system is functional — pain relief confirms opioid receptors are present and responsive.
 
@@ -1680,6 +1935,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Pacing
 
 *Appears in:* Cross-reference matrix.
+Corrective — respects energy envelope preventing PEM; adapts activity to capacity rather than correcting the capacity deficit
+
 
 #strong[+] The patient's energy envelope is narrow but manageable. Successful pacing prevents PEM — confirms the patient can stay within their energy envelope with discipline. Pacing is the treatment, not a probe — its diagnostic value is in demonstrating that the energy-ratchet model is reversible when exertion is capped.
 
@@ -1692,6 +1949,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Pantoprazole
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Symptomatic — proton pump inhibitor reducing gastric acid; may worsen SIBO/dysbiosis.
+
 
 #strong[+] Gastric acid hypersecretion rate-limiting for GERD symptoms. PPI-induced acid suppression confirms the GERD component is acid-mediated. Pantoprazole has fewer CYP450 interactions than omeprazole — preferred in polypharmacy.
 
@@ -1704,6 +1963,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === PEA (Palmitoylethanolamide)
 
 *Appears in:* Cross-reference matrix Group C.
+Corrective — endogenous PPAR-α agonist + mast cell stabilizer; modulates neuroinflammation through endogenous lipid signaling
+
 
 #strong[+] PPAR-α-mediated microglial modulation rate-limiting. PEA's anti-inflammatory and analgesic effects via PPAR-α confirm microglial/glial inflammation is PPAR-α-responsive.
 
@@ -1716,6 +1977,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === PEMF (Pulsed Electromagnetic Field Therapy)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — electromagnetic field modulating cellular activity — research-stage.
+
 
 #strong[+] Electromagnetic field-responsive tissue inflammation rate-limiting. PEMF is proposed to reduce inflammation and enhance repair via electromagnetic effects on cell membranes. Improvement confirms the tissue is PEMF-responsive — mechanism unclear.
 
@@ -1728,6 +1991,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Pentoxifylline
 
 *Appears in:* Cross-reference matrix Group B, @sec:aimm-cascade F0.
+#strong[HD] Threshold-modulatory — PDE inhibitor reducing blood viscosity and TNF-α; modulates perfusion/cytokine balance.
+
 
 #strong[+] RBC deformability deficit rate-limiting for microvascular perfusion. Pentoxifylline improves erythrocyte flexibility → improved capillary blood flow → confirms RBC rigidity is the dominant microvascular lesion. Additional TNF-α inhibition may provide anti-inflammatory benefit. If pentoxifylline improves NIRS-measured O₂ extraction → endothelial hypertrophy-induced luminal narrowing (Step F0c) is the rate-limiting barrier — flexible RBCs can now pass narrowed capillaries.
 
@@ -1740,6 +2005,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Pitolisant
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — H3 antagonist/inverse agonist increasing histaminergic release; pro-cognitive — speculatively M1→M2 microglial shift.
+
 
 #strong[+] Histaminergic anti-inflammatory (microglial M1→M2 shift) or wakefulness benefit. H3 inverse agonism releases endogenous histamine — improvement confirms histaminergic system is rate-limiting.
 
@@ -1752,6 +2019,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === PQQ (Pyrroloquinoline Quinone)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion + Corrective — mitochondrial biogenesis promoter + antioxidant.
+
 
 #strong[+] Mitochondrial biogenesis deficit rate-limiting. PQQ stimulates PGC-1α/NRF1/2 → mitochondrial biogenesis → increased mitochondrial density confirms the lesion is quantitative (too few mitochondria), not qualitative (dysfunctional mitochondria).
 
@@ -1764,6 +2033,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Pramipexole
 
 *Appears in:* @sec:microglial-cascade Step K2b, cross-reference matrix.
+#strong[HD] Threshold-modulatory — D2/D3 agonist with preference for D3; dopaminergic augmentation — impulse control disorder risk.
+
 
 #strong[+] D2/D3 receptors intact and responsive. Pramipexole's D2/D3 agonism confirms the postsynaptic dopamine receptor population is functional.
 
@@ -1776,6 +2047,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Pravastatin
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — statin with pleiotropic anti-inflammatory effects; may reduce endothelial inflammation — muscle symptoms concern in ME/CFS
+
 
 #strong[+] Monocyte-endothelial inflammation rate-limiting. Pravastatin's pleiotropic anti-inflammatory effects (independent of cholesterol lowering) reduce monocyte activation and endothelial dysfunction. Improvement confirms the endothelial-monocyte axis is the dominant vascular-inflammatory lesion.
 
@@ -1788,6 +2061,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Prazosin
 
 *Appears in:* @sec:glymphatic-cascade M2, cross-reference matrix.
+#strong[HD] Threshold-modulatory — α1 antagonist reducing noradrenergic hyperactivity; limited ME/CFS data.
+
 
 #strong[+] NE-mediated vasoconstriction was suppressing glymphatic flow — improved morning symptoms (headache, brain fog, sleep quality) confirms glymphatic impairment is NE-driven. Peripheral α1 antagonism reduces vasoconstriction → glymphatic drainage restored.
 
@@ -1800,6 +2075,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Prednisolone
 
 *Appears in:* Cross-reference matrix (same diagnostic as Corticosteroids group entry).
+#strong[HD] Threshold-modulatory — suppresses inflammation broadly via glucocorticoid receptor; does not address inflammatory driver — HPA suppression risk.
+
 
 #strong[+] Inflammation steroid-responsive — same diagnostic as the Corticosteroids group entry (Prednisone, Methylprednisolone, Hydrocortisone). Prednisolone is the active metabolite of prednisone — bypasses hepatic conversion; preferred in hepatic impairment.
 
@@ -1812,6 +2089,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Pregnenolone
 
 *Appears in:* @sec:trpm3-cascade A2, cross-reference matrix.
+#strong[HD] Substrate-repletion — neurosteroid precursor upstream of all steroid hormones.
+
 
 #strong[+] TRPM3 dysfunction rate-limiting. Pregnenolone sulfate is a positive allosteric modulator of TRPM3 — improvement confirms the TRPM3 channel is present and pregnenolone-responsive.
 
@@ -1824,6 +2103,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Psilocybin
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — 5-HT2A agonist inducing neuroplastic states — research-stage.
+
 
 #strong[+] 5-HT2A-mediated central sensitization or maladaptive neural network entrenchment rate-limiting. Psilocybin promotes neuroplasticity via 5-HT2A agonism → disruption of entrenched maladaptive pain/fatigue networks → improvement confirms the CNS lesion is network-level (plasticity-entrenched), not synaptic or metabolic.
 
@@ -1836,6 +2117,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Pyridostigmine
 
 *Appears in:* @sec:aimm-cascade F0, @sec:aimm-cascade F1, cross-reference matrix.
+Corrective — acetylcholinesterase inhibitor enhancing ganglionic transmission + parasympathetic tone; compensates for impaired autonomic neurotransmission
+
 
 #strong[+] Cholinergic signaling intact — improves preload, HRV, and GI motility. AChE inhibition confirms the vagal efferent pathway is functional and rate-limiting. Modest VO₂ improvement (+0.9~mL/kg/min, $p = 0.002$ @Joseph2022neurovascularDysreg) suggests ~10% of the O₂ extraction deficit is perfusion-mediated; the remaining ~90% may be structural (capillary BM thickening — Step F0 @sec:aimm-cascade).
 
@@ -1848,6 +2131,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Quercetin
 
 *Appears in:* Cross-reference matrix Group C, @sec:nad-cascade G2.
+#strong[HD] Threshold-modulatory — mast cell stabilizer + PI3K inhibitor + COMT inhibitor + antioxidant; multi-target flavonoid.
+
 
 #strong[+] CD38-mediated NAD⁺ degradation rate-limiting. Quercetin's CD38 inhibition preserves NAD⁺ pools — confirms CD38 is the dominant NAD⁺ sink.
 
@@ -1860,6 +2145,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Rapamycin (Sirolimus)
 
 *Appears in:* @sec:aimm-cascade F4, cross-reference matrix Group A.
+Corrective — mTORC1 inhibition restoring autophagy and reducing senescence; mTORC1/C2 dose selectivity critical
+
 
 #strong[+] mTORC1-driven metabolic pathology rate-limiting. mTORC1 inhibition restores mitophagy — confirms hyperactive mTORC1 is suppressing mitochondrial quality control.
 
@@ -1872,6 +2159,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Rasagiline / Selegiline
 
 *Appears in:* Cross-reference matrix Group B.
+#strong[HD] Threshold-modulatory — MAO-B inhibitor increasing dopamine availability; compensates for deficient dopamine tone.
+
 
 #strong[+] DA degradation rate-limiting for synaptic DA — accelerated DA turnover confirmed. MAO-B inhibition preserves synaptic DA, confirming that degradation (not synthesis or release) is the dominant DA clearance mechanism.
 
@@ -1884,6 +2173,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Reishi (Ganoderma lucidum)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — immunomodulatory polysaccharides.
+
 
 #strong[+] Immunomodulatory and mast-cell-stabilizing effects rate-limiting. Reishi's β-glucans (immunomodulatory) + triterpenes (mast cell-stabilizing, anti-inflammatory) provide dual action — improvement confirms the immune-mast cell axis is reishi-responsive.
 
@@ -1896,6 +2187,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Resveratrol
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Substrate-repletion + Corrective — SIRT1 activator + antioxidant; limited bioavailability.
+
 
 #strong[+] SIRT1/AMPK-mediated mitochondrial biogenesis and metabolic reprogramming rate-limiting. Resveratrol activates SIRT1 (NAD⁺-dependent) and AMPK → improved mitochondrial function confirms the SIRT1/AMPK metabolic axis is resveratrol-responsive.
 
@@ -1908,6 +2201,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Rhodiola (Rhodiola rosea)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — adaptogen with monoamine modulation reducing fatigue perception.
+
 
 #strong[+] Catecholamine and mitochondrial function rate-limiting for fatigue. Rhodiola enhances mitochondrial function and modulates serotonin/dopamine — improvement confirms the fatigue is catecholamine/mitochondrial-responsive.
 
@@ -1920,6 +2215,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Rintatolimod (Ampligen)
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — TLR3 agonist restoring RNase L pathway and innate antiviral immunity — research-stage
+
 
 #strong[+] TLR3-mediated antiviral response deficiency rate-limiting. Rintatolimod (poly I:poly C12U) activates TLR3 → induces type I interferon → restores antiviral defenses. Improvement confirms the lesion is a defective innate antiviral response (not persistent virus per se) — the immune system fails to clear latent virus.
 
@@ -1932,6 +2229,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Rituximab
 
 *Appears in:* @sec:gpcr-cascade I1, cross-reference matrix.
+Corrective — depletes CD20+ B cells (short-lived plasmablast source); spares long-lived plasma cells (CD20−) — response often transient
+
 
 #strong[+] B-cell-driven AAb pathogenic — B-cell depletion removes AAb source and restores function. If transient → plasma cells drive chronicity — initial response then loss as B cells repopulate and AAb return.
 
@@ -1944,6 +2243,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Rizatriptan
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Symptomatic — 5-HT1B/1D agonist aborting migraine pain; does not address trigger.
+
 
 #strong[+] 5-HT1B/1D-mediated migraine pathology rate-limiting in ME/CFS patients with comorbid migraine. Rizatriptan's rapid onset (faster than sumatriptan) confirms the migraine is triptan-responsive.
 
@@ -1956,6 +2257,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Roflumilast
 
 *Appears in:* Cross-reference matrix Group B.
+#strong[HD] Threshold-modulatory — PDE4 inhibitor reducing cAMP degradation; broad anti-inflammatory — GI side effects limit use.
+
 
 #strong[+] PDE4-mediated inflammation rate-limiting — cAMP degradation in immune cells is the bottleneck. Roflumilast inhibits PDE4 → increased cAMP → suppressed TNF-α, IL-17, and other pro-inflammatory cytokines. Improvement confirms PDE4-driven inflammatory cytokine production is the dominant pathology.
 
@@ -1968,6 +2271,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === SAMe (S-Adenosyl Methionine)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Substrate-repletion — methyl donor supporting methylation cycle.
+
 
 #strong[+] Methylation cycle deficiency rate-limiting for neurotransmitter synthesis and DNA methylation. SAMe is the universal methyl donor — improvement confirms methylation is the bottleneck for serotonin, dopamine, and creatine synthesis.
 
@@ -1980,6 +2285,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Selenium
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion — repletes selenium if deficient; supports glutathione peroxidase and thyroid function.
+
 
 #strong[+] Selenoprotein deficiency rate-limiting for antioxidant defense (GPX, TXNRD) and thyroid function. Selenium repletion restores GPX and TXNRD activity — improvement confirms selenoprotein deficiency is the dominant antioxidant lesion.
 
@@ -1992,6 +2299,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Shoe Lift
 
 *Appears in:* @sec:gerlier-pathway1 G1a, cross-reference matrix.
+Corrective — mechanical correction of leg-length inequality; if skeletal asymmetry drives PEM via compensatory patterns, addresses the structural mismatch
+
 
 #strong[+] Mechanical driver confirmed — PEM from asymmetry-driven ATP drain. A shoe lift corrects leg-length discrepancy → reduced asymmetric muscle work → reduced metabolic cost of standing and walking.
 
@@ -2004,6 +2313,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === SkQ1
 
 *Appears in:* Cross-reference matrix.
+Corrective — mitochondria-targeted antioxidant reducing mitochondrial ROS at source — research-stage
+
 
 #strong[+] Mitochondrial matrix ROS production rate-limiting — similar to MitoQ but with a different antioxidant payload (plastoquinone vs ubiquinone). SkQ1 targets the mitochondrial matrix with a different redox chemistry. Improvement confirms matrix-level oxidative stress and that the specific antioxidant chemistry matters.
 
@@ -2016,6 +2327,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Solriamfetol
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — DAT/NET inhibitor with mild TAAR1 agonism; pro-cognitive without amphetamine-level permanent risk.
+
 
 #strong[+] DA/NE reuptake rate-limiting — pure DNRI confirms presynaptic monoamine terminals are intact. Similar to methylphenidate but with different PK profile (longer half-life ~7h vs ~3--4h for methylphenidate).
 
@@ -2028,6 +2341,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Spermidine
 
 *Appears in:* Cross-reference matrix Group C.
+Corrective — autophagy inducer supporting cellular renewal — research-stage; no ME/CFS data
+
 
 #strong[+] Autophagic clearance deficit rate-limiting for mitochondrial quality control and protein-aggregate clearance. Spermidine induces autophagy via EP300 inhibition → clearance of damaged mitochondria and protein aggregates confirms the autophagic pathway is spermidine-responsive.
 
@@ -2040,6 +2355,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === SSRIs / SNRIs (as a Group)
 
 *Appears in:* @sec:kynurenine-cascade H2a, cross-reference matrix.
+#strong[HD] Threshold-modulatory — increase synaptic serotonin/norepinephrine; compensate for deficient monoamine tone without correcting the cause.
+
 
 #strong[+] Serotonergic or noradrenergic deficiency rate-limiting for mood, pain, or sleep. SSRI response confirms 5-HT deficiency; SNRI response confirms NE/5-HT dual deficiency. Fluoxetine (long half-life) is the safest entry point.
 
@@ -2052,6 +2369,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Sulforaphane
 
 *Appears in:* Cross-reference matrix Group C.
+Corrective — Nrf2 activator via Keap1 modification; activates endogenous anti-inflammatory programs; does not address Nrf2 activation trigger
+
 
 #strong[+] Nrf2-dependent antioxidant defense deficiency rate-limiting. Sulforaphane is the most potent dietary Nrf2 activator → induces ~200+ cytoprotective genes including HO-1, NQO1, and glutathione synthesis enzymes. Improvement confirms the Nrf2 pathway is intact but under-activated.
 
@@ -2064,6 +2383,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Tacrolimus
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — calcineurin inhibitor suppressing T-cell activation; broad immunosuppression — nephrotoxicity risk
+
 
 #strong[+] Calcineurin/NFAT-mediated T-cell activation rate-limiting — similar diagnostic to cyclosporine but with different immunophilin binding (FKBP12 vs cyclophilin). Tacrolimus is more potent; if tacrolimus works where cyclosporine failed → FKBP12-mediated calcineurin inhibition is required.
 
@@ -2076,6 +2397,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Taurine
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Substrate-repletion — amino acid with osmoregulation + antioxidant functions; repletes if deficient.
+
 
 #strong[+] Taurine-mediated membrane stabilization, calcium regulation, or GABAergic tone rate-limiting. Taurine stabilizes cell membranes, regulates intracellular Ca²⁺, and positively modulates GABA-A and glycine receptors. Multi-system improvement confirms taurine deficiency is the dominant lesion.
 
@@ -2088,6 +2411,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === taVNS (Transcutaneous Auricular Vagus Nerve Stimulation)
 
 *Appears in:* @sec:vagal-cascade, cross-reference matrix.
+Corrective — enhances vagal tone activating cholinergic anti-inflammatory pathway; non-pharmacologic — research-stage
+
 
 #strong[+] Auricular vagal afferent pathway intact and stimulable — parasympathetic tone is electrically augmentable via the auricular branch. taVNS increases HRV and reduces sympathetic tone non-invasively — improvement confirms the autonomic lesion is vagal-afferent-dependent.
 
@@ -2100,6 +2425,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Theanine (L-Theanine)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — glutamate antagonist + GABA modulator; calm without sedation.
+
 
 #strong[+] Glutamate-GABA balance rate-limiting for cognitive arousal and anxiety. Theanine increases GABA, serotonin, and dopamine while promoting alpha brainwave activity (relaxed alertness). Improvement confirms the excitation-inhibition balance is theanine-restorable.
 
@@ -2112,6 +2439,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Thiamine (Vitamin B1)
 
 *Appears in:* @sec:pdh-cascade E2, cross-reference matrix.
+#strong[HD] Substrate-repletion — PDH cofactor; repletes thiamine if deficient.
+
 
 #strong[+] PDH cofactor deficiency — simple, reversible, nutritional. Thiamine (as TPP) is the rate-limiting cofactor for PDH; supplementation confirms the PDH block is cofactor-dependent, not PDK-driven phosphorylation.
 
@@ -2124,6 +2453,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === TMS (Transcranial Magnetic Stimulation)
 
 *Appears in:* Cross-reference matrix Group C.
+#strong[HD] Threshold-modulatory — modulates cortical excitability; research-stage for ME/CFS.
+
 
 #strong[+] Prefrontal cortical hypoactivity rate-limiting for cognitive dysfunction and depression. rTMS enhances prefrontal activity via electromagnetic induction → improvement confirms the cognitive lesion is prefrontal-cortex-level and excitable.
 
@@ -2136,6 +2467,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Topiramate
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Threshold-modulatory — multi-mechanism neurostabilizer (Na⁺ channels, GABA-A, AMPA/kainate); cognitive side effects limit use.
+
 
 #strong[+] Multi-mechanism migraine prophylaxis rate-limiting. Topiramate's broad mechanisms (Na⁺ channel block, GABA-A potentiation, AMPA/kainate antagonism, carbonic anhydrase inhibition) address multi-factorial migraine in ME/CFS.
 
@@ -2148,6 +2481,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Trazodone
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Symptomatic — SERT + 5-HT2A + H1 antagonism; at low-dose primarily H1 sedation — does not restore restorative sleep.
+
 
 #strong[+] 5-HT2A blockade → increased SWS → improved glymphatic clearance. Trazodone's 5-HT2A antagonism at low dose (25--50 mg) enhances slow-wave sleep without the anticholinergic burden of tricyclics.
 
@@ -2160,6 +2495,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Tryptophan
 
 *Appears in:* @sec:trpm3-cascade A4, cross-reference matrix.
+#strong[HD] Substrate-repletion — serotonin precursor; supplies tryptophan if IDO-mediated depletion active.
+
 
 #strong[+] Serotonin synthesis is rate-limiting — tryptophan successfully enters the brain and is converted to serotonin, confirming the blood-brain barrier transporter and TPH pathway are intact.
 
@@ -2172,6 +2509,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === TUDCA (Tauroursodeoxycholic Acid)
 
 *Appears in:* Cross-reference matrix Group B.
+Corrective — ER stress reducer stabilizing protein folding and calming UPR — research-stage in ME/CFS
+
 
 #strong[+] ER stress / unfolded protein response rate-limiting for cellular dysfunction. TUDCA is a chemical chaperone → stabilizes protein folding, reduces PERK/IRE1/ATF6 activation → improvement confirms ER stress/UPR is the dominant cellular stress pathway.
 
@@ -2184,6 +2523,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Tyrosine
 
 *Appears in:* @sec:dopamine-convergence, cross-reference matrix.
+#strong[HD] Substrate-repletion — catecholamine precursor; supplies tyrosine if rate-limiting for DA/NE production.
+
 
 #strong[+] Catecholamine synthesis is substrate-limited — tyrosine hydroxylase (TH) and AADC are functional. Tyrosine supplementation increases catecholamine production → cognitive/physical improvement confirms tyrosine is the rate-limiting precursor.
 
@@ -2196,6 +2537,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Urolithin A
 
 *Appears in:* Cross-reference matrix Group C.
+Corrective — mitophagy activator clearing damaged mitochondria; restores mitochondrial quality control — research-stage
+
 
 #strong[+] Mitophagy (PINK1/Parkin pathway) deficit rate-limiting for mitochondrial quality control. Urolithin A induces selective mitochondrial autophagy → clearance of damaged mitochondria → improvement confirms mitochondrial quality control failure is the dominant lesion and the PINK1/Parkin pathway is urolithin-A-responsive.
 
@@ -2208,6 +2551,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Valacyclovir
 
 *Appears in:* Cross-reference matrix, antiviral cascade sections, @sec:lsr-cascade-interpretation (LSR).
+Restorative — suppresses active herpesvirus replication; suppression only, not eradication — relapse on discontinuation
+
 
 #strong[+] Herpesvirus reactivation rate-limiting. EBV/HHV-6 suppression restores function — confirms viral reactivation is the dominant driver.
 
@@ -2222,6 +2567,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Valganciclovir
 
 *Appears in:* Cross-reference matrix, antiviral cascade sections, @sec:lsr-cascade-interpretation (LSR).
+Restorative — suppresses active herpesvirus replication; suppression only, not eradication — relapse on discontinuation
+
 
 #strong[+] Broad-spectrum herpesvirus replication rate-limiting — active where valacyclovir failed. CMV/HHV-6/EBV broader coverage confirms viral reactivation is the driver and the specific virus is valganciclovir-sensitive.
 
@@ -2236,6 +2583,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Valproate (Valproic Acid / Divalproex)
 
 *Appears in:* Cross-reference matrix.
+Corrective — HDAC inhibitor + GABAergic modulation of gene expression; long-term safety concerns
+
 
 #strong[+] GABA-enhancing + HDAC-inhibiting dual mechanism rate-limiting for mood instability and migraine. Valproate increases GABA and inhibits histone deacetylases (HDACs) → improvement confirms GABA deficiency and epigenetic HDAC pathology are the dominant drivers.
 
@@ -2248,6 +2597,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Vitamin C (Ascorbic Acid)
 
 *Appears in:* @sec:hif1a-ct-cascade N1, cross-reference matrix.
+#strong[HD] Substrate-repletion — antioxidant + collagen synthesis cofactor; repletes if deficient.
+
 
 #strong[+] Vitamin C as prolyl hydroxylase cofactor rate-limiting for collagen synthesis (acquired CT weakness) AND antioxidant function. High-dose IV vitamin C separately probes oxidative stress. Improvement in joint/CT symptoms confirms the collagen synthesis lesion is vitamin-C-dependent.
 
@@ -2260,6 +2611,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Vitamin C + NAC (Timed)
 
 *Appears in:* @sec:hif1a-ct-cascade N1, cross-reference matrix.
+#strong[HD] Substrate-repletion — combined antioxidant repletion with timed dosing for glutathione recycling optimization.
+
 
 #strong[+] ROS-mediated PHD inhibition rate-limiting — acquired CT weakness, potentially reversible. Vitamin C (prolyl hydroxylase cofactor) + NAC (glutathione support) timing targets HIF-1α stabilization in CT — improvement confirms CT weakness is acquired (HIF-1α-driven), not genetic (EDS).
 
@@ -2272,6 +2625,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Vitamin D (Cholecalciferol / Ergocalciferol)
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion — repletes vitamin D if deficient; supports immune regulation.
+
 
 #strong[+] Vitamin D deficiency rate-limiting for immune function and gene regulation via VDR. Vitamin D repletion restores VDR-mediated gene programs — improvement confirms vitamin D deficiency is the dominant immune lesion.
 
@@ -2284,6 +2639,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === VNS (Vagus Nerve Stimulation)
 
 *Appears in:* @sec:vagal-cascade, cross-reference matrix.
+Corrective — enhances vagal tone activating cholinergic anti-inflammatory pathway; invasive implant — research-stage
+
 
 #strong[+] Vagal efferent pathway rate-limiting for autonomic dysfunction — parasympathetic tone is stimulable. VNS increases parasympathetic output → improved HRV, reduced sympathetic tone confirms vagal efferent lesion is electrical-stimulation-compensable.
 
@@ -2296,6 +2653,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Warfarin
 
 *Appears in:* Cross-reference matrix Group A.
+Corrective — Vitamin K antagonist reducing coagulation cascade — narrow therapeutic window; bleeding risk; requires monitoring
+
 
 #strong[+] Vitamin K-dependent coagulation factor synthesis rate-limiting for microclot pathology. Warfarin inhibits synthesis of factors II, VII, IX, and X → reduced fibrin formation confirms vitamin-K-dependent coagulation is the dominant microclot driver.
 
@@ -2308,6 +2667,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Zinc
 
 *Appears in:* Cross-reference matrix.
+#strong[HD] Substrate-repletion — repletes zinc if deficient; supports immune function and antioxidant defence.
+
 
 #strong[+] Zinc deficiency rate-limiting for immune function (T-cell maturation), antioxidant defense (Cu/Zn-SOD), and neurotransmitter synthesis. Zinc repletion restores these functions — improvement confirms zinc deficiency was a correctable lesion.
 
@@ -2320,6 +2681,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Zolpidem
 
 *Appears in:* Cross-reference matrix, sleep cascade sections.
+#strong[HD] Symptomatic — selective GABA-A α1 agonism inducing sleep without addressing why sleep is unrefreshing.
+
 
 #strong[+] GABA-A α1-mediated sleep initiation rate-limiting. Zolpidem's α1 selectivity and rapid onset (15--30 min) targets sleep-onset insomnia specifically — confirms the sleep-onset pathology is α1-GABA-A-dependent.
 
@@ -2332,6 +2695,8 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 === Zopiclone
 
 *Appears in:* Cross-reference matrix, sleep cascade sections.
+#strong[HD] Symptomatic — GABA-A modulation for sleep; does not restore sleep architecture.
+
 
 #strong[+] GABA-A-mediated sleep initiation rate-limiting — similar diagnostic to eszopiclone. Zopiclone is the racemic mixture; eszopiclone is the purified S-enantiomer. The racemic/es-enantiomer comparison tests whether the R-enantiomer contributes benefit or side effects.
 

@@ -3,11 +3,21 @@
 
 For each medication, the entry answers four questions: (1) what system does this medication probe? (2) if it works, what does that tell us about which mechanisms are broken? (3) if it does NOT work, what does that make less likely? (4) how does this medication's response combine with others to narrow root cause candidates?
 
-Each finding includes a *Level of action* indicator:
+=== Therapeutic Depth — Healing vs. Symptomatic Classification <sec:therapeutic-depth-taxonomy>
 
-- *Root cause* — the drug targets a disease-initiating mechanism
-- *Partial root cause* — the drug reduces a disease-maintaining mechanism without removing its trigger
-- *Symptom management* — the drug compensates for a downstream consequence while the underlying pathology progresses
+Not all treatment responses are interchangeable. A medication that restores a broken mechanism (healing) provides fundamentally different information — and a fundamentally different clinical outlook — than one that suppresses a symptom while the disease progresses unimpeded (symptomatic). The *Therapeutic Depth* classification below applies across every drug in this chapter and in @ch:mechanistic-cascade-tracing (sec-12).
+
+Each finding includes a *Level of action* indicator. The five levels form a hierarchy of how deeply the drug engages with disease biology — from structural repair to pure palliation:
+
+#block[
+- *Restorative* — the drug reverses a structural or functional defect that is part of the disease mechanism. It restores normal physiology rather than compensating for or suppressing the abnormality. If effective, it implies that the underlying lesion is pharmacologically reversible (at least while the drug is present). Example: LDN restores TRPM3 Ca#super[2+] influx in vitro @EatonFitch2022trpm3ntx; valacyclovir suppresses active EBV replication. The response is only as durable as the treatment — discontinuing the drug allows the pathology to return.
+- *Corrective* — the drug addresses a disease-maintaining amplifier loop or pathological positive feedback. It does not reverse the initial lesion but can slow or interrupt the self-sustaining cycle that amplifies and perpetuates illness. Example: IVIG neutralizes pathogenic autoantibodies (the plasma cell source persists); low-dose lithium inhibits GSK-3β → removes Nrf2 nuclear exclusion → restores anti-inflammatory gene expression. If effective, the amplifier loop was active and rate-limiting; the initiating trigger may still be present.
+- *Threshold-modulatory* — the drug changes the set-point at which a pathological response is triggered, without repairing or removing the underlying abnormality. It widens the operational window in which the system can function before pathology engages. Example: LDA raises the microglial activation threshold; beta-blockers shift the baroreflex set-point; H1 antihistamines block the histamine receptor without reducing mast cell degranulation. Benefit is contingent on continued drug presence and disappears upon discontinuation.
+- *Substrate-repletion* — the drug supplies a molecule that the disease state depletes or consumes faster than the body can replace. It corrects a secondary deficiency created by the primary pathology. Example: CoQ10 (consumed by oxidative stress); NAC → glutathione (depleted by ROS); sodium/volume expansion (hypovolemia in POTS). Dose-dependent and limited by the consumption rate — if the underlying consumption continues, the repletion is maintenance, not cure.
+- *Symptomatic* — the drug suppresses a symptom without engaging the disease mechanism at all. The pathology continues unchanged; only its conscious experience is altered. Example: zolpidem for sleep (GABA-A agonism does not address the reason sleep is unrefreshing); oxycodone for pain (mu-opioid agonism does not reduce the nociceptive driver); caffeine for fatigue (adenosine antagonism does not restore ATP production). These drugs can be valuable for quality of life but their diagnostic information is largely limited to: "this receptor/system is intact and responsive." A null on a symptomatic drug constrains almost nothing — it could mean the receptor is desensitized, the symptom has a different mediator, or the dose was insufficient.
+]
+
+*Consequence:* The therapeutic-depth framework provides patients and clinicians with an explicit map of what a drug can potentially do: cure (restore a mechanism) vs. control (modulate a threshold or replenish a substrate) vs. palliate (suppress a symptom while pathology continues). It also constrains research design — drugs with higher therapeutic depth should be prioritized for disease-modifying trials; symptomatic drugs should not be mischaracterized as disease-modifying interventions. For patients, this framework makes explicit what the medical literature often leaves implicit: whether a treatment that "works" means the disease process is being interrupted or only the experience of it is being dampened.
 
 Medications are grouped by the physiological system they probe, so responses to medications in the same group can be compared directly.
 
