@@ -16,7 +16,6 @@ When all four conditions hold, a null result from M transforms from "this drug d
 
 *Consequence:* A formal definition lets clinicians and researchers distinguish between "drug X failed because the hypothesis was wrong" and "drug X failed for one of a dozen pharmacokinetic or sampling reasons." Most drug failures fall into the latter category — only negative-controls with high specificity provide hypothesis-level evidence.
 (Origin: brainstorm.)
-
 ] <spec:negative-control-principle>
 
 #speculation(title: [Taxonomy — Two Subclasses])[
@@ -30,5 +29,4 @@ Not all negative-control inferences have equal specificity. The classification d
 
 *Consequence:* The distinction between Class I and Class II negative-controls helps clinicians calibrate how much weight to give to a null result. A Class I null (rituximab, n=151, properly powered RCT) essentially eliminates the mechanism from consideration as a primary driver. A Class II null (IA non-response in 5 patients) constrains the mechanism's compartment but leaves it viable.
 (Origin: brainstorm.)
-
 ] <spec:negative-control-taxonomy>

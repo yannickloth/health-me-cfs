@@ -26,7 +26,6 @@ This heuristic is a checklist, not an algorithm. Judgment is required to weigh e
 
 *Consequence:* This heuristic protects against the most common error in negative-control reasoning: treating every drug failure as hypothesis falsification. Most drug failures are underdetermined — too many alternative explanations survive. Only a small fraction of null results meet the negative-control criteria. Being wrong about which failures are evidence against a mechanism is worse than being agnostic — it eliminates viable mechanisms based on the wrong inference. When in doubt, default to "null is ambiguous" and design a more specific probe.
 (Origin: brainstorm.)
-
 ] <spec:negative-control-decision-heuristic>
 
 #limitation(title: [The Asymmetric Evidence Problem])[
@@ -40,5 +39,4 @@ There is an inherent asymmetry in the evidence base for negative-controls:
 
 *Consequence:* negative-control certainty values should be systematically discounted relative to positive-control certainty values for the same drug—mechanism pair. A 0.90-certainty RCT null does not produce a 0.90-certainty hypothesis falsification — the inference chain from "no clinical improvement" to "mechanism is not rate-limiting" adds its own uncertainty, scaled by the drug's specificity, the compartment coverage, and the alternative-explanation count. An honest negative-control inference for rituximab → GPCR-AAb hypothesis is closer to 0.70 than 0.90, despite the RCT being definitive.
 (Origin: brainstorm.)
-
 ] <lim:negative-control-asymmetric-evidence>

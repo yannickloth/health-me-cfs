@@ -1,6 +1,7 @@
 #import "../../../../shared/environments.typ": *
 
 ===== Cascade: Time-dependent hormetic windows — why pulsing preserves therapeutic optima
+<subsec-time-dependent-hormetic-windows>
 
 *Trigger:* The existing LDN cascade traces dose-response curves (Steps M1–M4) but does not address the temporal dimension of those curves. The time-dependent hormesis literature (Calabrese corpus: @Sun2018SeesawHormesis @Mushak2016TemporalHormesis @Calabrese2016PreconditioningHormesis) and GPCR resensitization kinetics (@CostaNeto2025GPCRTachyphylaxis @Gupta2018GPCRResensitization @Kliewer2017GPCRDephosph) jointly establish that the therapeutic window is a 3D volume (dose × time × response) — and that continuous daily dosing may extinguish it by filling the resensitization interval that the pathway requires.
 

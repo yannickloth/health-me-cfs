@@ -26,6 +26,7 @@ design specifications, and expected outcomes.
 #include "./longitudinal-microglial-imagin/longitudinal-microglial-imagin.typ"
 #include "./treatment-sequence-rct-brain-f/treatment-sequence-rct-brain-f.typ"
 #include "./infection-decline-correlation/infection-decline-correlation.typ"
+#include "./mz-twin-discordant-me-cfs/mz-twin-discordant-me-cfs.typ"
 #include "./sleep-glymphatic-neuroinflamma/sleep-glymphatic-neuroinflamma.typ"
 #include "./metabolic-immune-crosstalk-stu/metabolic-immune-crosstalk-stu.typ"
 #include "./gut-vagal-pathway-research-pri/gut-vagal-pathway-research-pri.typ"

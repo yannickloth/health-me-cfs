@@ -1,6 +1,7 @@
 #import "../../../../shared/environments.typ": *
 
 ==== Challenge Testing with Drug as Stressor
+<sec:challenge-testing-with-drug>
 
 Give a drug, then apply a controlled physiological stressor. The differential response (drug-on vs. drug-off) isolates the drug's mechanism:
 

@@ -30,3 +30,5 @@ The chapter above uses *therapeutic response* — whether a drug works — to lo
 
 #include "subsec-12-protracted-and-permanent-worsening-after-medications/subsec-12-protracted-and-permanent-worsening-after-medications.typ"
 
+#include "subsec-13-pharmacodiagnostic-negative-control-class/subsec-13-pharmacodiagnostic-negative-control-class.typ"
+

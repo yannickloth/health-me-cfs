@@ -27,11 +27,11 @@ The logical structure is:
 #speculation(title: [What the Rituximab Null Does NOT Rule Out])[
 The rituximab null specifically constrains the *source* hypothesis — CD20+ B cells as the AAb factory. It does not constrain:
 
-1. **Plasma cell source:** Long-lived CD20− plasma cells (daratumumab-sensitive) could produce pathogenic AAbs independently of the B-cell compartment. The rituximab null is consistent with this model — daratumumab is the Class I negative-control for the plasma-cell hypothesis.
-2. **Non-IgG AAb:** IgA or IgM autoantibodies — if they are the pathogenic species — would not be depleted by rituximab alone (IgA is primarily produced by mucosal plasma cells that may be CD20− and B-cell-depletion-resistant). The rituximab null does not address non-IgG AAb classes.
-3. **Tissue sanctuary:** AAbs produced in tissue sanctuaries (bone marrow niche, lymph node germinal centres) may survive B-cell depletion. The null does not rule out sanctuary-compartment AAbs.
-4. **Intracellular vs circulating AAb:** GPCR autoantibodies may act intracellularly (receptor internalization, signaling pathway dysregulation) rather than circulating — and intracellular AAbs would not be cleared by B-cell depletion alone (existing intracellular pools independent of ongoing production). The null does not constrain intracellular AAb effects.
-5. **Non-AAb autoimmune mechanisms:** T-cell-mediated autoimmunity, complement-mediated, or immune-complex-driven pathology are independent of B-cell-derived AAbs.
+1. *Plasma cell source:* Long-lived CD20− plasma cells (daratumumab-sensitive) could produce pathogenic AAbs independently of the B-cell compartment. The rituximab null is consistent with this model — daratumumab is the Class I negative-control for the plasma-cell hypothesis.
+2. *Non-IgG AAb:* IgA or IgM autoantibodies — if they are the pathogenic species — would not be depleted by rituximab alone (IgA is primarily produced by mucosal plasma cells that may be CD20− and B-cell-depletion-resistant). The rituximab null does not address non-IgG AAb classes.
+3. *Tissue sanctuary:* AAbs produced in tissue sanctuaries (bone marrow niche, lymph node germinal centres) may survive B-cell depletion. The null does not rule out sanctuary-compartment AAbs.
+4. *Intracellular vs circulating AAb:* GPCR autoantibodies may act intracellularly (receptor internalization, signaling pathway dysregulation) rather than circulating — and intracellular AAbs would not be cleared by B-cell depletion alone (existing intracellular pools independent of ongoing production). The null does not constrain intracellular AAb effects.
+5. *Non-AAb autoimmune mechanisms:* T-cell-mediated autoimmunity, complement-mediated, or immune-complex-driven pathology are independent of B-cell-derived AAbs.
 
 Each alternative represents its own testable hypothesis — and its own negative-control drug. The rituximab null does not destroy the autoantibody model — it refines it by excluding one class of AAb-producer. This is how negative-controls work: they don't disprove everything; they falsify specific, directional predictions and leave the remaining hypothesis space intact for further testing.
 

@@ -17,7 +17,6 @@ The two ladders produce different drug sequencing:
 
 *Consequence:* A negative-control ladder gives researchers a framework for designing trial sequences that progressively narrow the model space rather than testing treatments in isolation. After rituximab null, the next logical trial is a plasma-cell probe (daratumumab), not another B-cell agent or a broad immunomodulator. Each trial builds on the negative-control information from the previous one — this is cumulative inference across trials, not independent hypothesis-testing.
 (Origin: brainstorm.)
-
 ] <spec:negative-control-ladder>
 
 #speculation(title: [Why Negative-Controls Are More Informative Than Positive Responses])[
@@ -32,4 +31,4 @@ Positive responses can accumulate without narrowing the model. Negative-control 
 *Consequence:* For patients, this reframes the entire narrative of "treatment trial failure." Every failed trial that targets a mechanistically specific node adds permanent knowledge about what isn't rate-limiting — not just for that patient, but for every patient with the same hypothesized mechanism. Failed trials are the most efficient knowledge-acquisition method in pharmacodiagnostics. The goal should shift from "find a drug that works" to "maximize the number of mechanisms eliminated per unit time and toxicity."
 (Origin: brainstorm.)
 
-] <spec:negative-control-information-theory>
+]
