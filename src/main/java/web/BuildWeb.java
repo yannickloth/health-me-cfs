@@ -382,8 +382,8 @@ String rewriteSegment(String text, Pattern tokenPat, Map<String, String[]> regis
         String replacement;
         var target = registry.get(id);
         if (target != null) {
-            var link = relLink(qmd, Path.of(target[0]), id);
-            var label = target[1] == null || target[1].isBlank() ? humanize(prefix, id) : target[1];
+            var link = relLink(qmd, Path.of(target[1]), id);
+            var label = target[2] == null || target[2].isBlank() ? humanize(prefix, id) : target[2];
             replacement = "[" + label + "](" + link + ")";
         } else {
             missing.add(id);
