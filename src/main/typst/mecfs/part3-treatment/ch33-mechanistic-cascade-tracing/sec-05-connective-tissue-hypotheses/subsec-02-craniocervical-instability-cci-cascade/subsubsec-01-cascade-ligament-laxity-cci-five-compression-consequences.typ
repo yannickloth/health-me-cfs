@@ -12,7 +12,7 @@
 
 *Step O1:* Ligament laxity → CJ instability
 - *Intercept:* Cervical collar trial (Aspen/Miami J) — external stabilization; Physical therapy; Prolotherapy/PRP (investigational)
-- *If cervical collar produces dramatic improvement:* CCI is present and rate-limiting. Response to collar strongly suggests surgical fusion evaluation.
+#finding(claim: [Dramatic cervical collar improvement confirms CCI as rate-limiting], explanation: [Response to external stabilization strongly suggests surgical fusion evaluation, as mechanical stabilization resolves symptoms attributable to craniocervical instability.], certainty: [Medium], level: [Structural root cause — CCI])
 
 *Step O2a:* Brainstem compression → myelopathic symptoms
 - *Intercept:* Surgical decompression + fusion (definitive); Steroids (corticosteroids; glucocorticoid receptor agonists, caution — contraindicated @hyp:steroid-hpa-trust-breaking)

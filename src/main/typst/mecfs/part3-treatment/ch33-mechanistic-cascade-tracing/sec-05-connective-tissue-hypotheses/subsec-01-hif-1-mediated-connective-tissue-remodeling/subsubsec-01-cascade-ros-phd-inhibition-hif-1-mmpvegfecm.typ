@@ -10,7 +10,7 @@
 
 *Step N1:* Prolyl hydroxylase inhibition (ROS → HIF-1α gate)
 - *Intercept:* Vitamin C (500--2000 mg; ascorbic acid, prolyl hydroxylase cofactor) — PHD cofactor; Alpha-ketoglutarate (Krebs cycle intermediate; PHD co-substrate); Circadian timing — align with peak PHD activity (prolyl hydroxylase circadian optimization, @sec:safe-mode); NAC (N-acetylcysteine; glutathione precursor, antioxidant) — reduces ROS
-- *If timed vitamin C + NAC works:* ROS-mediated PHD inhibition is the CT lesion. The weakness is metabolic/ROS-driven, not genetic.
+#finding(claim: [Timed vitamin C + NAC response identifies ROS-mediated PHD inhibition], explanation: [Response confirms the connective tissue lesion is metabolic/ROS-driven rather than genetic, making it potentially reversible with cofactor restoration.], certainty: [Low to Medium], level: [Partial root cause — acquired connective tissue weakness])
 
 *Step N2:* MMP upregulation → collagen/elastin degradation
 - *Intercept:* Doxycycline (20 mg BID; tetracycline antibiotic, MMP-9 inhibitor at subantimicrobial dose) — MMP-9 inhibitor; DMF (dimethyl fumarate; Nrf2 activator) — HIF-1α inhibitor

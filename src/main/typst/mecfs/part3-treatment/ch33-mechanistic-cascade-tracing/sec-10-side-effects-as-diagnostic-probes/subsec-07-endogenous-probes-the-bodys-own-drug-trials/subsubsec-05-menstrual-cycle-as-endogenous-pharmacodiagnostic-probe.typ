@@ -146,13 +146,13 @@ Beyond the spontaneous symptom patterns described in @sec:menstrual-cycle-dopami
   *Consequence:* Before concluding a drug's mechanism is oestrogen-coupled because it stops working during your period, check your iron and your sleep. The simplest explanations may fully explain the pattern.
 ] <lim:perimenstrual-confounds>
 
-#open-question(title: [Null Interpretability — A Flat Cycle-Phase Drug Response Has Three Equal Explanations])[ <oq:null-interpretability-menstrual-probe>
+#open-question(title: [Null Interpretability — A Flat Cycle-Phase Drug Response Has Three Equal Explanations])[
   The pharmacodiagnostic framework treats a flat cycle-phase response (less than 15% variation after ovulation confirmation) as evidence for a hormone-independent mechanism. But the null has three distinct explanations of comparable probability: (a) the drug's mechanism truly is hormone-independent (the probe's intended inference); (b) the drug's mechanism IS hormone-dependent, but the patient's receptor system is so impaired that hormonal modulation cannot move the needle — the receptor is functionally absent, not uncoupled (e.g., D2 autoreceptors are desensitised); (c) the drug's mechanism IS hormone-dependent, but the patient's cycle lacks sufficient hormone amplitude — anovulatory cycles (progesterone less than 3 ng/mL on day 21), luteal phase deficiency, or perimenopausal erratic hormone levels. Anovulatory cycles occur in 10–30% of cycles even in regularly menstruating women and may be more common in ME/CFS through HPA-mediated GnRH suppression. Three qualitatively different inferences from one null result → the null is not interpretable without additional data: serum drug levels, serum oestradiol and progesterone confirming ovulation, and a receptor function assay. (Certainty: 0.40. Origin: brainstorm — null hypothesis assessment, category 11.)
 
   *Consequence:* "No change across your cycle" can mean three different things. Without a blood test confirming ovulation, you cannot distinguish "hormones don't matter for this drug" from "your target receptor is so broken that hormones can't help" from "your cycle isn't actually cycling enough to matter."
 
   *Severity applicability:* All menstruating patients.
-]
+] <oq:null-interpretability-menstrual-probe>
 
 #limitation(title: [Confirmation Bias in Patient Self-Reported Cycle-Phase Drug Response])[
   The probe requires patients to track drug efficacy daily across multiple cycles. But patients informed of a cycle-phase drug-response hypothesis (e.g., "this drug works better during your follicular phase") may unconsciously bias their symptom reporting toward the predicted pattern. Expectancy effects in symptom reporting are well-documented; cycle-phase symptom studies show women primed to expect negative premenstrual symptoms report more of them. The probe's data generation process is inherently subjective and susceptible to the very hypothesis it tests — patients are both the measurement instrument and the hypothesis audience. (Certainty: 0.35. Origin: brainstorm — evidence quality concerns, category 12.)
