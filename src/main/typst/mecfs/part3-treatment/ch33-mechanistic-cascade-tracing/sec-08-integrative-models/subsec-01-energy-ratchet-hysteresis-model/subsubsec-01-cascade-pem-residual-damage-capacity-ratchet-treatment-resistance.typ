@@ -9,7 +9,7 @@
 
 *Step S1:* PEM episode → residual damage accumulation
 - *Intercept:* PEM prevention (pacing, HR monitoring); Antioxidants (CoQ10, NAC; mitochondrial support) during exertion; Rapamycin (mTORC1 inhibitor; autophagy enhancer, Treg stabilization) — enhances mitophagy between episodes
-- *If pacing prevents progressive decline:* The ratchet is PEM-event-driven.
+#finding(claim: [Pacing prevents progressive decline], explanation: [The ratchet is PEM-event-driven.], certainty: [Low to Medium], level: [Partial root cause])
 
 *Step S2:* Epigenetic scarring → treatment resistance
 - *Intercept:* Early intervention (before scarring accumulates) per @spec:recovery-capital
