@@ -6,9 +6,19 @@ The drug-indexed entries in this section provide the most granular pharmacodiagn
 
 *Appears in:* @sec:trpm3-cascade Step A4 (serotonin precursor probe), @sec:vagal-cascade, cross-reference matrix Phase 4 Group C.
 
-#strong[+] Serotonin synthesis is rate-limiting; IDO tryptophan drain confirmed. Cognitive or mood improvement confirms serotonin depletion.
+#finding(
+  claim: [Serotonin synthesis is rate-limiting; IDO tryptophan drain confirmed. Cognitive or mood improvement confirms serotonin depletion],
+  explanation: [Serotonin synthesis is rate-limiting; IDO tryptophan drain confirmed. Cognitive or mood improvement confirms serotonin depletion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Serotonin synthesis not rate-limiting, or IDO drain is absent.
+#finding(
+  claim: [Serotonin synthesis not rate-limiting, or IDO drain is absent],
+  explanation: [Serotonin synthesis not rate-limiting, or IDO drain is absent.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI distress at 50 mg → gut serotonin hypersensitivity (Pattern 3, @sec:side-effects-diagnostic). Serotonin syndrome at 50--100 mg → MAO-A dysfunction or AADC overactivity.
 
@@ -20,9 +30,19 @@ The drug-indexed entries in this section provide the most granular pharmacodiagn
 Restorative — suppresses active herpesvirus replication; suppression only, not eradication — relapse on discontinuation
 
 
-#strong[+] Herpesvirus reactivation rate-limiting — similar diagnostic to valacyclovir but with lower oral bioavailability. If acyclovir works where valacyclovir did → the patient preferentially converts the prodrug; acyclovir is the active drug. If both work → viral reactivation confirmed.
+#finding(
+  claim: [Herpesvirus reactivation rate-limiting — similar diagnostic to valacyclovir but with lower oral bioavailability. If acyclovir works where valacyclovir did → the patient preferentially converts the prodrug; acyclovir is the active drug. If both work → viral reactivation confirmed],
+  explanation: [Herpesvirus reactivation rate-limiting — similar diagnostic to valacyclovir but with lower oral bioavailability. If acyclovir works where valacyclovir did → the patient preferentially converts the prodrug; acyclovir is the active drug. If both work → viral reactivation confirmed.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Viral reactivation not rate-limiting; or bioavailability too low. If acyclovir fails but valacyclovir works → acyclovir bioavailability (10--20%) is the bottleneck; valacyclovir prodrug conversion is required for adequate plasma levels.
+#finding(
+  claim: [Viral reactivation not rate-limiting; or bioavailability too low. If acyclovir fails but valacyclovir works → acyclovir bioavailability (10--20%) is the bottleneck; valacyclovir prodrug conversion is required for adequate plasma levels],
+  explanation: [Viral reactivation not rate-limiting; or bioavailability too low. If acyclovir fails but valacyclovir works → acyclovir bioavailability (10--20%) is the bottleneck; valacyclovir prodrug conversion is required for adequate plasma levels.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] CNS toxicity (confusion, hallucinations, myoclonus) at standard dose → occult renal impairment with acyclovir accumulation (Pattern K, pharmacokinetic catastrophe). The same principle as valacyclovir — acyclovir is the common active metabolite.
 
@@ -34,9 +54,19 @@ Restorative — suppresses active herpesvirus replication; suppression only, not
 Corrective — eliminates food antigens driving immune activation; if food antigens drive pathology, addresses antigen source — diagnostic probe via reintroduction
 
 
-#strong[+] Food-antigen-driven immune activation rate-limiting. Structured elimination removes immunogenic triggers → multi-system improvement confirms food antigens are driving immune/inflammatory pathology.
+#finding(
+  claim: [Food-antigen-driven immune activation rate-limiting. Structured elimination removes immunogenic triggers → multi-system improvement confirms food antigens are driving immune/inflammatory pathology],
+  explanation: [Food-antigen-driven immune activation rate-limiting. Structured elimination removes immunogenic triggers → multi-system improvement confirms food antigens are driving immune/inflammatory pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Food antigens not rate-limiting. If AIP fails but IVIG or rituximab works → autoimmunity is primary, not food-antigen-driven.
+#finding(
+  claim: [Food antigens not rate-limiting. If AIP fails but IVIG or rituximab works → autoimmunity is primary, not food-antigen-driven],
+  explanation: [Food antigens not rate-limiting. If AIP fails but IVIG or rituximab works → autoimmunity is primary, not food-antigen-driven.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No diagnostic information from side effects per se — the elimination/reintroduction protocol itself IS the diagnostic probe. Specific reintroduction reactions (joint pain, brain fog, GI symptoms 24--72h post-reintroduction) map individual food-antigen sensitivities.
 
@@ -48,9 +78,19 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 #strong[HD] Substrate-repletion — PDH cofactor + antioxidant; supports PDH function.
 
 
-#strong[+] PDH cofactor + antioxidant → PDH activation rate-limiting (lactate reduction, improved exercise tolerance) and/or antioxidant capacity is the bottleneck.
+#finding(
+  claim: [PDH cofactor + antioxidant → PDH activation rate-limiting (lactate reduction, improved exercise tolerance) and/or antioxidant capacity is the bottleneck],
+  explanation: [PDH cofactor + antioxidant → PDH activation rate-limiting (lactate reduction, improved exercise tolerance) and/or antioxidant capacity is the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Neither PDH cofactor nor antioxidant capacity rate-limiting. Lesion is elsewhere in mitochondrial chain.
+#finding(
+  claim: [Neither PDH cofactor nor antioxidant capacity rate-limiting. Lesion is elsewhere in mitochondrial chain],
+  explanation: [Neither PDH cofactor nor antioxidant capacity rate-limiting. Lesion is elsewhere in mitochondrial chain.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated.
 
@@ -62,9 +102,19 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 #strong[HD] Threshold-modulatory — GABA-A neurosteroid site PAM; if deficiency confirmed, replacement is substrate-repletion.
 
 
-#strong[+] GABA-A neurosteroid site functional and rate-limiting. Allopregnanolone is a potent endogenous positive allosteric modulator of GABA-A at neurosteroid binding sites — improvement confirms GABAergic neurosteroid deficiency is the lesion.
+#finding(
+  claim: [GABA-A neurosteroid site functional and rate-limiting. Allopregnanolone is a potent endogenous positive allosteric modulator of GABA-A at neurosteroid binding sites — improvement confirms GABAergic neurosteroid deficiency is the lesion],
+  explanation: [GABA-A neurosteroid site functional and rate-limiting. Allopregnanolone is a potent endogenous positive allosteric modulator of GABA-A at neurosteroid binding sites — improvement confirms GABAergic neurosteroid deficiency is the lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GABA-A neurosteroid site not rate-limiting; or receptor desensitized. If allopregnanolone fails but benzodiazepines work → the GABA-A benzodiazepine site is intact; neurosteroid site is the specific lesion.
+#finding(
+  claim: [GABA-A neurosteroid site not rate-limiting; or receptor desensitized. If allopregnanolone fails but benzodiazepines work → the GABA-A benzodiazepine site is intact; neurosteroid site is the specific lesion],
+  explanation: [GABA-A neurosteroid site not rate-limiting; or receptor desensitized. If allopregnanolone fails but benzodiazepines work → the GABA-A benzodiazepine site is intact; neurosteroid site is the specific lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Sedation at low dose → GABA-A neurosteroid supersensitivity (Pattern 1). Sedation threshold is the ordinal readout of GABAergic neurosteroid reserve — lower threshold = greater deficiency with compensatory receptor sensitization. No sedation at therapeutic dose → GABA-A neurosteroid site desensitized (Pattern 5).
 
@@ -76,9 +126,19 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 #strong[HD] Threshold-modulatory — enhances presynaptic DA release; distinguishes from DAT blockers diagnostically.
 
 
-#strong[+] Presynaptic DA release is the bottleneck — DA stores exist but release is impaired. Amantadine enhances DA release without blocking reuptake, distinguishing from methylphenidate.
+#finding(
+  claim: [Presynaptic DA release is the bottleneck — DA stores exist but release is impaired. Amantadine enhances DA release without blocking reuptake, distinguishing from methylphenidate],
+  explanation: [Presynaptic DA release is the bottleneck — DA stores exist but release is impaired. Amantadine enhances DA release without blocking reuptake, distinguishing from methylphenidate.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] DA release machinery is intact; lesion is postsynaptic or non-dopaminergic. If methylphenidate worked but amantadine didn't → reuptake is the bottleneck, not release.
+#finding(
+  claim: [DA release machinery is intact; lesion is postsynaptic or non-dopaminergic. If methylphenidate worked but amantadine didn't → reuptake is the bottleneck, not release],
+  explanation: [DA release machinery is intact; lesion is postsynaptic or non-dopaminergic. If methylphenidate worked but amantadine didn't → reuptake is the bottleneck, not release.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated at standard doses. Dizziness or confusion at 100 mg → subclinical renal impairment (renally cleared).
 
@@ -90,9 +150,19 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 #strong[HD] Threshold-modulatory — endothelin receptor antagonist reducing pulmonary vasoconstriction; limited to documented PAH context.
 
 
-#strong[+] Endothelin-1 antagonism → pulmonary vasodilation → improved PAH-related symptoms (limited relevance outside documented PAH with ME/CFS).
+#finding(
+  claim: [Endothelin-1 antagonism → pulmonary vasodilation → improved PAH-related symptoms (limited relevance outside documented PAH with ME/CFS)],
+  explanation: [Endothelin-1 antagonism → pulmonary vasodilation → improved PAH-related symptoms (limited relevance outside documented PAH with ME/CFS).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Endothelin pathway not rate-limiting.
+#finding(
+  claim: [Endothelin pathway not rate-limiting],
+  explanation: [Endothelin pathway not rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Hepatotoxicity (ET receptor antagonist class effect), fluid retention, anemia.
 
@@ -104,9 +174,19 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 #strong[HD] Threshold-modulatory — TRPV1 antagonist reducing muscle pain and PEM; mucolytic if airway symptoms.
 
 
-#strong[+] TRPV1 antagonism → muscle pain reduction, PEM reduction. Mucolytic effect (if airway symptoms present).
+#finding(
+  claim: [TRPV1 antagonism → muscle pain reduction, PEM reduction. Mucolytic effect (if airway symptoms present)],
+  explanation: [TRPV1 antagonism → muscle pain reduction, PEM reduction. Mucolytic effect (if airway symptoms present).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] TRPV1 not rate-limiting for pain/PEM.
+#finding(
+  claim: [TRPV1 not rate-limiting for pain/PEM],
+  explanation: [TRPV1 not rate-limiting for pain/PEM.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI upset → enteric TRPV1 hypersensitivity. Confirms systemic TRPV1 engagement.
 
@@ -118,9 +198,19 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 #strong[HD] Threshold-modulatory — H1 + M1 + NE/5-HT reuptake inhibition at low dose; multimodal sensory modulation.
 
 
-#strong[+] H1 + M1 + NE/5-HT reuptake inhibition → multimodal benefit for neuropathic pain, sleep, and mood if these systems are deficient.
+#finding(
+  claim: [H1 + M1 + NE/5-HT reuptake inhibition → multimodal benefit for neuropathic pain, sleep, and mood if these systems are deficient],
+  explanation: [H1 + M1 + NE/5-HT reuptake inhibition → multimodal benefit for neuropathic pain, sleep, and mood if these systems are deficient.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] None of these systems rate-limiting.
+#finding(
+  claim: [None of these systems rate-limiting],
+  explanation: [None of these systems rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Sedation at 5--10 mg (below antidepressant dose) → H1 receptor supersensitivity. Anticholinergic symptoms at low dose → subclinical AChE deficiency or undiagnosed Sjögren's.
 
@@ -132,9 +222,19 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 #strong[HD] Threshold-modulatory — L-type Ca²⁺ channel blocker reducing TRPV1-mediated vasoconstriction downstream; does not correct TRPV1 dysfunction.
 
 
-#strong[+] L-type Ca²⁺ channel-mediated vasoconstriction rate-limiting for microvascular perfusion deficits. TRPV1 activation on vascular smooth muscle opens L-type Ca²⁺ channels → vasoconstriction. Amlodipine blocks this downstream effect and restores perfusion.
+#finding(
+  claim: [L-type Ca²⁺ channel-mediated vasoconstriction rate-limiting for microvascular perfusion deficits. TRPV1 activation on vascular smooth muscle opens L-type Ca²⁺ channels → vasoconstriction. Amlodipine blocks this downstream effect and restores perfusion],
+  explanation: [L-type Ca²⁺ channel-mediated vasoconstriction rate-limiting for microvascular perfusion deficits. TRPV1 activation on vascular smooth muscle opens L-type Ca²⁺ channels → vasoconstriction. Amlodipine blocks this downstream effect and restores perfusion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] L-type Ca²⁺ channels not rate-limiting for vascular dysfunction. If amlodipine fails but cilostazol works → microvascular pathology is platelet/endothelial, not L-type channel-mediated.
+#finding(
+  claim: [L-type Ca²⁺ channels not rate-limiting for vascular dysfunction. If amlodipine fails but cilostazol works → microvascular pathology is platelet/endothelial, not L-type channel-mediated],
+  explanation: [L-type Ca²⁺ channels not rate-limiting for vascular dysfunction. If amlodipine fails but cilostazol works → microvascular pathology is platelet/endothelial, not L-type channel-mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Peripheral edema without perfusion benefit → venous capacitance vessel dilation exceeding arteriolar benefit (Pattern 4) — confirms the microvascular lesion is arteriolar; the venous side is not the bottleneck. Flushing at therapeutic dose → dihydropyridine-mediated vasodilation confirms intact endothelium (informative null: absence of flush → severe endothelial dysfunction). BP drop without symptom improvement → the patient's orthostatic tolerance depends on L-type Ca²⁺-mediated vasoconstriction (Pattern 1).
 
@@ -146,9 +246,19 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 #strong[HD] Symptomatic — reverses DAT + VMAT2 releasing DA/NE; most dangerous stimulant class: VMAT2 depletion, permanent terminal damage, PMC, metabolic PEM. Diagnostic value: confirms presynaptic DA terminals functional.
 
 
-#strong[+] VMAT2 + DAT reversal → DA release confirms presynaptic DA terminals are present and functional. Cognitive improvement confirms DA is rate-limiting.
+#finding(
+  claim: [VMAT2 + DAT reversal → DA release confirms presynaptic DA terminals are present and functional. Cognitive improvement confirms DA is rate-limiting],
+  explanation: [VMAT2 + DAT reversal → DA release confirms presynaptic DA terminals are present and functional. Cognitive improvement confirms DA is rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] DAT absent or saturated, or DA system not bottleneck.
+#finding(
+  claim: [DAT absent or saturated, or DA system not bottleneck],
+  explanation: [DAT absent or saturated, or DA system not bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Severe post-dose crash indistinguishable from PEM → VMAT2 terminal compromise. See @sec:side-effects-diagnostic.
 
@@ -160,9 +270,19 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 Corrective — blocks IL-1 receptor, interrupting IL-1β-driven autoinflammatory amplification; does not address IL-1β source
 
 
-#strong[+] IL-1α and IL-1β are rate-limiting for the sickness-behavior / inflammatory phenotype. IL-1 receptor antagonism blocks both IL-1α and IL-1β — broader than canakinumab (IL-1β only). Improvement confirms IL-1-driven pathology dominates.
+#finding(
+  claim: [IL-1α and IL-1β are rate-limiting for the sickness-behavior / inflammatory phenotype. IL-1 receptor antagonism blocks both IL-1α and IL-1β — broader than canakinumab (IL-1β only). Improvement confirms IL-1-driven pathology dominates],
+  explanation: [IL-1α and IL-1β are rate-limiting for the sickness-behavior / inflammatory phenotype. IL-1 receptor antagonism blocks both IL-1α and IL-1β — broader than canakinumab (IL-1β only). Improvement confirms IL-1-driven pathology dominates.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] IL-1 not rate-limiting. If anakinra fails but canakinumab works → IL-1β alone is the driver; IL-1α blockade adds no benefit (or is counterproductive). If anakinra fails but colchicine works → the inflammasome is the lesion, but IL-1 is not the dominant downstream effector (IL-18 or pyroptosis-driven).
+#finding(
+  claim: [IL-1 not rate-limiting. If anakinra fails but canakinumab works → IL-1β alone is the driver; IL-1α blockade adds no benefit (or is counterproductive). If anakinra fails but colchicine works → the inflammasome is the lesion, but IL-1 is not the dominant downstream effector (IL-18 or pyroptosis-driven)],
+  explanation: [IL-1 not rate-limiting. If anakinra fails but canakinumab works → IL-1β alone is the driver; IL-1α blockade adds no benefit (or is counterproductive). If anakinra fails but colchicine works → the inflammasome is the lesion, but IL-1 is not the dominant downstream effector (IL-18 or pyroptosis-driven).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Injection-site reaction → intact innate immune recognition — confirms immune competence within the context of autoimmune pathology (Pattern 2). Severe infection on anakinra → the IL-1 pathway was load-bearing for host defense — narrows the therapeutic window: IL-1 blockade is immunosuppressive in this patient (Pattern 4).
 
@@ -174,9 +294,19 @@ Corrective — blocks IL-1 receptor, interrupting IL-1β-driven autoinflammatory
 Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding risk; research-stage
 
 
-#strong[+] Factor Xa-mediated microclot pathology rate-limiting for tissue hypoperfusion and PEM. Direct factor Xa inhibition prevents fibrin microclot formation — improvement confirms coagulation-driven microvascular occlusion is the dominant lesion.
+#finding(
+  claim: [Factor Xa-mediated microclot pathology rate-limiting for tissue hypoperfusion and PEM. Direct factor Xa inhibition prevents fibrin microclot formation — improvement confirms coagulation-driven microvascular occlusion is the dominant lesion],
+  explanation: [Factor Xa-mediated microclot pathology rate-limiting for tissue hypoperfusion and PEM. Direct factor Xa inhibition prevents fibrin microclot formation — improvement confirms coagulation-driven microvascular occlusion is the dominant lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Microclot pathology not rate-limiting, or microclots are fibrinolytic-resistant (not Factor Xa-mediated). If apixaban fails but nattokinase/lumbrokinase works → the microclot pathology is fibrinolytic-sensitive, not anticoagulation-preventable.
+#finding(
+  claim: [Microclot pathology not rate-limiting, or microclots are fibrinolytic-resistant (not Factor Xa-mediated). If apixaban fails but nattokinase/lumbrokinase works → the microclot pathology is fibrinolytic-sensitive, not anticoagulation-preventable],
+  explanation: [Microclot pathology not rate-limiting, or microclots are fibrinolytic-resistant (not Factor Xa-mediated). If apixaban fails but nattokinase/lumbrokinase works → the microclot pathology is fibrinolytic-sensitive, not anticoagulation-preventable.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Bleeding at prophylactic dose → hemostatic reserve critically low — the coagulation system is already strained; microclots may be compensatory, not pathological (Pattern 4). No bleeding at therapeutic dose → coagulation system intact — safe to continue (Pattern 5).
 
@@ -188,9 +318,19 @@ Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding 
 #strong[HD] Substrate-repletion — NO precursor; supports endothelial function if arginine is rate-limiting.
 
 
-#strong[+] NO-mediated vasodilation is rate-limiting for microvascular perfusion. Arginine is the NOS substrate — if supplementation improves perfusion, NOS is functional but substrate-limited.
+#finding(
+  claim: [NO-mediated vasodilation is rate-limiting for microvascular perfusion. Arginine is the NOS substrate — if supplementation improves perfusion, NOS is functional but substrate-limited],
+  explanation: [NO-mediated vasodilation is rate-limiting for microvascular perfusion. Arginine is the NOS substrate — if supplementation improves perfusion, NOS is functional but substrate-limited.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NOS not substrate-limited; or endothelial NOS is dysfunctional (uncoupled — producing superoxide instead of NO). If citrulline works but arginine doesn't → first-pass metabolism limits arginine; the urea cycle is intact.
+#finding(
+  claim: [NOS not substrate-limited; or endothelial NOS is dysfunctional (uncoupled — producing superoxide instead of NO). If citrulline works but arginine doesn't → first-pass metabolism limits arginine; the urea cycle is intact],
+  explanation: [NOS not substrate-limited; or endothelial NOS is dysfunctional (uncoupled — producing superoxide instead of NO). If citrulline works but arginine doesn't → first-pass metabolism limits arginine; the urea cycle is intact.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Herpesvirus outbreak at standard dose → arginine feeding viral replication — confirms viral reactivation is the dominant pathology (Pattern 2). The outbreak IS diagnostic: it confirms arginine was absorbed and bioavailable, and the patient has active herpesvirus replication. GI distress → rapid bacterial arginine metabolism producing polyamines. Worsening without viral outbreak → eNOS uncoupling — arginine feeds superoxide production rather than NO (Pattern 5).
 
@@ -202,9 +342,19 @@ Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding 
 #strong[HD] Threshold-modulatory — microglial D2 partial agonism raising activation threshold; symptomatic dopaminergic cognitive support. Does not remove what primed the microglia.
 
 
-#strong[+] D2/D3 partial agonism → DA dysfunction rate-limiting. Lesion at or above D2/D3 receptor level.
+#finding(
+  claim: [D2/D3 partial agonism → DA dysfunction rate-limiting. Lesion at or above D2/D3 receptor level],
+  explanation: [D2/D3 partial agonism → DA dysfunction rate-limiting. Lesion at or above D2/D3 receptor level.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Lesion below D2/D3 (VMAT2, ATP-dependent release, or non-dopaminergic).
+#finding(
+  claim: [Lesion below D2/D3 (VMAT2, ATP-dependent release, or non-dopaminergic)],
+  explanation: [Lesion below D2/D3 (VMAT2, ATP-dependent release, or non-dopaminergic).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Akathisia at microdose (0.25--0.5 mg) → severe DA deficiency with supersensitive D2/D3 receptors (Pattern 3). Duration of akathisia after clearance: ≤1 week → simple receptor occupancy; 2--6 weeks → receptor-state consolidation; >6 weeks → microglial triggering. If neither akathisia nor therapeutic response → D2/D3 neither deficient nor responsive (Pattern 5).
 
@@ -216,9 +366,19 @@ Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding 
 #strong[HD] Threshold-modulatory — adaptogen with GABA-A modulation + cortisol reduction.
 
 
-#strong[+] Cortisol-mediated stress-axis pathology is rate-limiting. Ashwagandha reduces stress-induced cortisol elevation — improvement confirms cortisol excess (not deficiency) is the dominant HPA lesion.
+#finding(
+  claim: [Cortisol-mediated stress-axis pathology is rate-limiting. Ashwagandha reduces stress-induced cortisol elevation — improvement confirms cortisol excess (not deficiency) is the dominant HPA lesion],
+  explanation: [Cortisol-mediated stress-axis pathology is rate-limiting. Ashwagandha reduces stress-induced cortisol elevation — improvement confirms cortisol excess (not deficiency) is the dominant HPA lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] HPA axis not cortisol-excess driven; patient may have low cortisol. If worsening → ashwagandha pushed already-low cortisol lower — confirms HPA axis is deficient, not excessive (Pattern 1).
+#finding(
+  claim: [HPA axis not cortisol-excess driven; patient may have low cortisol. If worsening → ashwagandha pushed already-low cortisol lower — confirms HPA axis is deficient, not excessive (Pattern 1)],
+  explanation: [HPA axis not cortisol-excess driven; patient may have low cortisol. If worsening → ashwagandha pushed already-low cortisol lower — confirms HPA axis is deficient, not excessive (Pattern 1).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Worsening of fatigue, orthostatic intolerance → low-cortisol phenotype confirmed — the patient has adrenal insufficiency or blunted HPA axis; cortisol-lowering agents are contraindicated (Pattern 1). This worsening IS diagnostic: it localizes the HPA lesion to deficiency, not excess. Sedation at low dose → GABAergic component potent in this patient — ashwagandha's GABA-mimetic effects are dominant (Pattern 4).
 
@@ -230,9 +390,19 @@ Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding 
 #strong[HD] Threshold-modulatory — COX inhibition reducing prostaglandin-mediated inflammation/pain; does not address trigger.
 
 
-#strong[+] COX-1/COX-2 inhibition → prostaglandin-driven inflammation is rate-limiting (TRPV1 pain, PGE2-mediated vasodilation in POTS).
+#finding(
+  claim: [COX-1/COX-2 inhibition → prostaglandin-driven inflammation is rate-limiting (TRPV1 pain, PGE2-mediated vasodilation in POTS)],
+  explanation: [COX-1/COX-2 inhibition → prostaglandin-driven inflammation is rate-limiting (TRPV1 pain, PGE2-mediated vasodilation in POTS).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Prostaglandin pathway not rate-limiting. Inflammation/pain is non-prostaglandin-mediated.
+#finding(
+  claim: [Prostaglandin pathway not rate-limiting. Inflammation/pain is non-prostaglandin-mediated],
+  explanation: [Prostaglandin pathway not rate-limiting. Inflammation/pain is non-prostaglandin-mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] MCAS worsening at antiplatelet dose → COX-1 inhibition removes prostaglandin brake on mast cell degranulation (PGD2 was tonically inhibiting mast cells). Confirms prostaglandin-buffered MCAS subtype.
 
@@ -244,9 +414,19 @@ Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding 
 #strong[HD] Threshold-modulatory — selective NET inhibitor increasing NE tone; does not correct why NE is deficient.
 
 
-#strong[+] NE reuptake inhibition → NE deficiency rate-limiting. Cognitive benefit (PFC-dependent tasks) confirms prefrontal NE deficit.
+#finding(
+  claim: [NE reuptake inhibition → NE deficiency rate-limiting. Cognitive benefit (PFC-dependent tasks) confirms prefrontal NE deficit],
+  explanation: [NE reuptake inhibition → NE deficiency rate-limiting. Cognitive benefit (PFC-dependent tasks) confirms prefrontal NE deficit.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NE not rate-limiting. Did NE levels rise? If yes but no cognitive benefit → postsynaptic α2A lesion. If no → presynaptic synthesis failure.
+#finding(
+  claim: [NE not rate-limiting. Did NE levels rise? If yes but no cognitive benefit → postsynaptic α2A lesion. If no → presynaptic synthesis failure],
+  explanation: [NE not rate-limiting. Did NE levels rise? If yes but no cognitive benefit → postsynaptic α2A lesion. If no → presynaptic synthesis failure.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Tachycardia/BP elevation at subtherapeutic dose without cognitive benefit → PFC α2A desensitization (Pattern 4). Cognitive benefit without BP/HR change → DA system is the bottleneck (NET block raises NE but not DA; benefit is from NE reuptake alone).
 
@@ -258,9 +438,19 @@ Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding 
 Corrective — purine synthesis inhibitor; broad immunosuppression — high side-effect burden; requires TPMT testing
 
 
-#strong[+] Purine-dependent lymphocyte proliferation rate-limiting — T-cell- and B-cell-driven autoimmunity confirmed. Azathioprine blocks purine synthesis → reduced lymphocyte expansion → improvement confirms lymphocyte-driven pathology is dominant.
+#finding(
+  claim: [Purine-dependent lymphocyte proliferation rate-limiting — T-cell- and B-cell-driven autoimmunity confirmed. Azathioprine blocks purine synthesis → reduced lymphocyte expansion → improvement confirms lymphocyte-driven pathology is dominant],
+  explanation: [Purine-dependent lymphocyte proliferation rate-limiting — T-cell- and B-cell-driven autoimmunity confirmed. Azathioprine blocks purine synthesis → reduced lymphocyte expansion → improvement confirms lymphocyte-driven pathology is dominant.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Lymphocyte expansion not rate-limiting — non-proliferative autoimmune mechanisms (autoantibody production by long-lived plasma cells, complement activation). If azathioprine fails but rituximab works → B-cell-driven, but the lesion is mature antibody-secreting cells, not proliferating precursors.
+#finding(
+  claim: [Lymphocyte expansion not rate-limiting — non-proliferative autoimmune mechanisms (autoantibody production by long-lived plasma cells, complement activation). If azathioprine fails but rituximab works → B-cell-driven, but the lesion is mature antibody-secreting cells, not proliferating precursors],
+  explanation: [Lymphocyte expansion not rate-limiting — non-proliferative autoimmune mechanisms (autoantibody production by long-lived plasma cells, complement activation). If azathioprine fails but rituximab works → B-cell-driven, but the lesion is mature antibody-secreting cells, not proliferating precursors.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Myelotoxicity at subtherapeutic dose (ANC < 1,500 at 50 mg/day) → TPMT deficiency / intermediate metabolizer — 6-MP accumulation from impaired methylation → the patient cannot safely metabolize azathioprine (Pattern K). The myelotoxicity at subtherapeutic dose is the diagnostic signal: TPMT genotype/phenotype is the bottleneck.
 
@@ -272,9 +462,19 @@ Corrective — purine synthesis inhibitor; broad immunosuppression — high side
 #strong[HD] Substrate-repletion — repletes B12 if deficient; supports methylation and mitochondrial function.
 
 
-#strong[+] B12 deficiency rate-limiting for methylation, DNA synthesis, or neurological function. Improvement confirms B12 was the bottleneck — one of the few fully reversible lesions in the ME/CFS differential.
+#finding(
+  claim: [B12 deficiency rate-limiting for methylation, DNA synthesis, or neurological function. Improvement confirms B12 was the bottleneck — one of the few fully reversible lesions in the ME/CFS differential],
+  explanation: [B12 deficiency rate-limiting for methylation, DNA synthesis, or neurological function. Improvement confirms B12 was the bottleneck — one of the few fully reversible lesions in the ME/CFS differential.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] B12 not rate-limiting. Normal serum B12 + no improvement → methylation cycle competent; consider folate, SAMe, or non-methylation pathology.
+#finding(
+  claim: [B12 not rate-limiting. Normal serum B12 + no improvement → methylation cycle competent; consider folate, SAMe, or non-methylation pathology],
+  explanation: [B12 not rate-limiting. Normal serum B12 + no improvement → methylation cycle competent; consider folate, SAMe, or non-methylation pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No response despite documented low serum B12 → functional B12 deficiency — serum B12 is normal or elevated but cellular B12 is unavailable (transcobalamin deficiency, autoantibodies to intrinsic factor, or impaired B12 transport across the BBB). Check MMA and homocysteine — if both normal, B12 status is adequate despite low serum level.
 
@@ -286,9 +486,19 @@ Corrective — purine synthesis inhibitor; broad immunosuppression — high side
 #strong[HD] Threshold-modulatory — GABA-B agonist reducing muscle spasticity; does not address what causes the spasticity.
 
 
-#strong[+] GABA-B-mediated muscle spasticity rate-limiting. GABA-B agonism reduces muscle hypertonia — confirms spinal GABA-B circuits are intact and spasticity is the dominant muscle symptom driver.
+#finding(
+  claim: [GABA-B-mediated muscle spasticity rate-limiting. GABA-B agonism reduces muscle hypertonia — confirms spinal GABA-B circuits are intact and spasticity is the dominant muscle symptom driver],
+  explanation: [GABA-B-mediated muscle spasticity rate-limiting. GABA-B agonism reduces muscle hypertonia — confirms spinal GABA-B circuits are intact and spasticity is the dominant muscle symptom driver.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Muscle symptoms not GABA-B-mediated; or spasticity is non-neural. If baclofen fails but cyclobenzaprine works → 5-HT2-mediated muscle tension is dominant.
+#finding(
+  claim: [Muscle symptoms not GABA-B-mediated; or spasticity is non-neural. If baclofen fails but cyclobenzaprine works → 5-HT2-mediated muscle tension is dominant],
+  explanation: [Muscle symptoms not GABA-B-mediated; or spasticity is non-neural. If baclofen fails but cyclobenzaprine works → 5-HT2-mediated muscle tension is dominant.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Sedation at 5 mg → central GABA-B supersensitivity — GABA-B circuits are hypersensitive from chronic GABA deficiency (Pattern 1). Intrathecal baclofen without sedation but with spasticity relief → the problem is spinal, not supraspinal — confirms the GABA-B lesion is at the spinal level. Paradoxical muscle stiffness → GABA-B desensitization with compensatory glutamatergic upregulation (Pattern 2).
 
@@ -300,9 +510,19 @@ Corrective — purine synthesis inhibitor; broad immunosuppression — high side
 Restorative — removes pathogenic GPCR autoantibodies from circulation; plasma cells continue producing AAb — effect transient
 
 
-#strong[+] GPCR AAb rate-limiting — AAb removal restores receptor function. If multi-channel improvement → PIP2 convergence. If BC007 works but IA doesn't → BC007-targeted AAb subtype (specific β2/M2/AT1 etc.) confirmed.
+#finding(
+  claim: [GPCR AAb rate-limiting — AAb removal restores receptor function. If multi-channel improvement → PIP2 convergence. If BC007 works but IA doesn't → BC007-targeted AAb subtype (specific β2/M2/AT1 etc.) confirmed],
+  explanation: [GPCR AAb rate-limiting — AAb removal restores receptor function. If multi-channel improvement → PIP2 convergence. If BC007 works but IA doesn't → BC007-targeted AAb subtype (specific β2/M2/AT1 etc.) confirmed.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] AAb absent, non-pathogenic, not rate-limiting; or AAb not removed by IA column type (column mismatch). If IA fails but BC007 works → different AAb removed.
+#finding(
+  claim: [AAb absent, non-pathogenic, not rate-limiting; or AAb not removed by IA column type (column mismatch). If IA fails but BC007 works → different AAb removed],
+  explanation: [AAb absent, non-pathogenic, not rate-limiting; or AAb not removed by IA column type (column mismatch). If IA fails but BC007 works → different AAb removed.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] BC007 vs IA dissociation → narrows AAb subtype. No flare + no response → profound immune exhaustion or zero pathogenic AAb (Pattern 5). Hypotension during procedure → POTS with borderline cerebral perfusion.
 
@@ -314,9 +534,19 @@ Restorative — removes pathogenic GPCR autoantibodies from circulation; plasma 
 #strong[HD] Substrate-repletion — supplies branched-chain amino acids; compensates for catabolic muscle breakdown.
 
 
-#strong[+] Catabolic amino acid depletion rate-limiting for energy and muscle function. BCAA supplementation restores branched-chain amino acid pools — confirms catabolic metabolism is actively degrading muscle for gluconeogenic substrate.
+#finding(
+  claim: [Catabolic amino acid depletion rate-limiting for energy and muscle function. BCAA supplementation restores branched-chain amino acid pools — confirms catabolic metabolism is actively degrading muscle for gluconeogenic substrate],
+  explanation: [Catabolic amino acid depletion rate-limiting for energy and muscle function. BCAA supplementation restores branched-chain amino acid pools — confirms catabolic metabolism is actively degrading muscle for gluconeogenic substrate.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] BCAA depletion not rate-limiting. Amino acid pools are adequate; energy failure is mitochondrial, not substrate-limited.
+#finding(
+  claim: [BCAA depletion not rate-limiting. Amino acid pools are adequate; energy failure is mitochondrial, not substrate-limited],
+  explanation: [BCAA depletion not rate-limiting. Amino acid pools are adequate; energy failure is mitochondrial, not substrate-limited.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Worsening of brain fog → BCAA competition with tryptophan at the large neutral amino acid transporter → reduced brain tryptophan → reduced serotonin synthesis. Confirms the blood-brain barrier amino acid transporter is the bottleneck — BCAAs outcompete tryptophan for CNS entry (Pattern 4). No effect → amino acid depletion is not the bottleneck.
 
@@ -328,9 +558,19 @@ Restorative — removes pathogenic GPCR autoantibodies from circulation; plasma 
 Corrective — HIF-2α inhibitor; if HIF-2α drives vascular pathology, targets the hypoxic signaling cascade — research-stage
 
 
-#strong[+] HIF-2α-driven pathology rate-limiting — the endothelial glycolytic shift and angiogenic imbalance are HIF-2α-dependent. Belzutifan blocks HIF-2α transcription → improvement confirms viral-induced mitochondrial ROS → HIF-2α stabilization is the dominant pathway.
+#finding(
+  claim: [HIF-2α-driven pathology rate-limiting — the endothelial glycolytic shift and angiogenic imbalance are HIF-2α-dependent. Belzutifan blocks HIF-2α transcription → improvement confirms viral-induced mitochondrial ROS → HIF-2α stabilization is the dominant pathway],
+  explanation: [HIF-2α-driven pathology rate-limiting — the endothelial glycolytic shift and angiogenic imbalance are HIF-2α-dependent. Belzutifan blocks HIF-2α transcription → improvement confirms viral-induced mitochondrial ROS → HIF-2α stabilization is the dominant pathway.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] HIF-2α not rate-limiting; or the lesion is HIF-1α-driven (not HIF-2α-selective). If belzutifan fails but DMF works → the dominant HIF isoform is HIF-1α; DMF activates Nrf2 and suppresses both HIF-1α and HIF-2α downstream.
+#finding(
+  claim: [HIF-2α not rate-limiting; or the lesion is HIF-1α-driven (not HIF-2α-selective). If belzutifan fails but DMF works → the dominant HIF isoform is HIF-1α; DMF activates Nrf2 and suppresses both HIF-1α and HIF-2α downstream],
+  explanation: [HIF-2α not rate-limiting; or the lesion is HIF-1α-driven (not HIF-2α-selective). If belzutifan fails but DMF works → the dominant HIF isoform is HIF-1α; DMF activates Nrf2 and suppresses both HIF-1α and HIF-2α downstream.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Anemia at standard dose → EPO is HIF-2α-dependent — confirms systemic HIF-2α engagement (Pattern 4). The anemia IS diagnostic: HIF-2α was load-bearing for erythropoiesis. Hypoxia symptoms without anemia → HIF-2α inhibition unmasks pre-existing pulmonary or cardiovascular limitation.
 
@@ -342,9 +582,19 @@ Corrective — HIF-2α inhibitor; if HIF-2α drives vascular pathology, targets 
 #strong[HD] Symptomatic — GABA-A potentiation suppressing anxiety/spasm/insomnia without addressing cause — PMC (masking PEM), withdrawal risk.
 
 
-#strong[+] GABA-A α1 system intact and responsive — sleep initiation is GABA-A-dependent. Confirms sleep onset is GABA-A modulated.
+#finding(
+  claim: [GABA-A α1 system intact and responsive — sleep initiation is GABA-A-dependent. Confirms sleep onset is GABA-A modulated],
+  explanation: [GABA-A α1 system intact and responsive — sleep initiation is GABA-A-dependent. Confirms sleep onset is GABA-A modulated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GABA-A system not rate-limiting for sleep. Sleep pathology is orexin, histaminergic, circadian, or pain-driven.
+#finding(
+  claim: [GABA-A system not rate-limiting for sleep. Sleep pathology is orexin, histaminergic, circadian, or pain-driven],
+  explanation: [GABA-A system not rate-limiting for sleep. Sleep pathology is orexin, histaminergic, circadian, or pain-driven.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Paradoxical excitation → GABAergic inversion (NKCC1/KCC2 chloride gradient reversal, Pattern 2). Absent amnesia → hippocampal α1 desensitized from chronic GABAergic tone. Complex behaviours at therapeutic dose → striatal GABA-A dysregulation (Pattern 5).
 
@@ -356,9 +606,19 @@ Corrective — HIF-2α inhibitor; if HIF-2α drives vascular pathology, targets 
 Corrective — natural metformin analog; AMPK activation restoring metabolic efficiency — bioavailability-limited
 
 
-#strong[+] AMPK/mTOR pathway rate-limiting for metabolic dysfunction. Berberine is a natural metformin analog — AMPK activation restores metabolic efficiency.
+#finding(
+  claim: [AMPK/mTOR pathway rate-limiting for metabolic dysfunction. Berberine is a natural metformin analog — AMPK activation restores metabolic efficiency],
+  explanation: [AMPK/mTOR pathway rate-limiting for metabolic dysfunction. Berberine is a natural metformin analog — AMPK activation restores metabolic efficiency.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] AMPK pathway not rate-limiting; or GI side effects prevent titration to therapeutic dose.
+#finding(
+  claim: [AMPK pathway not rate-limiting; or GI side effects prevent titration to therapeutic dose],
+  explanation: [AMPK pathway not rate-limiting; or GI side effects prevent titration to therapeutic dose.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI ceiling before metabolic benefit → gut AMPK activation is the limiting factor, not systemic (Pattern 4). Gut mitochondrial vulnerability prevents reaching therapeutic systemic dose.
 
@@ -370,9 +630,19 @@ Corrective — natural metformin analog; AMPK activation restoring metabolic eff
 #strong[HD] Threshold-modulatory — reduces sympathetic tone at cardiac/vascular β-receptors; compensates for excessive adrenergic signaling without correcting the source.
 
 
-#strong[+] Sympathetic overactivation rate-limiting for HR. β1 blockade controls tachycardia without the metabolic cost of full sympathetic suppression (if cardioselective). Nebivolol → additional NO-mediated vasodilation may benefit endothelial dysfunction.
+#finding(
+  claim: [Sympathetic overactivation rate-limiting for HR. β1 blockade controls tachycardia without the metabolic cost of full sympathetic suppression (if cardioselective). Nebivolol → additional NO-mediated vasodilation may benefit endothelial dysfunction],
+  explanation: [Sympathetic overactivation rate-limiting for HR. β1 blockade controls tachycardia without the metabolic cost of full sympathetic suppression (if cardioselective). Nebivolol → additional NO-mediated vasodilation may benefit endothelial dysfunction.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] HR not the bottleneck; or β2 metabolic cost unacceptable. Fatigue worsening → β2-AR lipolysis was a fallback energy pathway; PDH/ETC impairment (Pattern 1).
+#finding(
+  claim: [HR not the bottleneck; or β2 metabolic cost unacceptable. Fatigue worsening → β2-AR lipolysis was a fallback energy pathway; PDH/ETC impairment (Pattern 1)],
+  explanation: [HR not the bottleneck; or β2 metabolic cost unacceptable. Fatigue worsening → β2-AR lipolysis was a fallback energy pathway; PDH/ETC impairment (Pattern 1).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Fatigue worsening at low dose → β2-AR blockade removes lipolysis backup in PDH-impaired patients (Pattern 1). Nebivolol fatigue less than propranolol → β1-selectivity + NO benefit confirms β2 metabolic cost. Cold extremities → β2-mediated vasodilation in skin was load-bearing.
 
@@ -384,9 +654,19 @@ Corrective — natural metformin analog; AMPK activation restoring metabolic eff
 #strong[HD] Threshold-modulatory — dopamine agonist compensating for deficient dopamine tone.
 
 
-#strong[+] D2/D3 postsynaptic receptors intact and responsive — same pharmacodiagnostic as pramipexole. Rotigotine patch provides continuous delivery to distinguish PK vs PD ceiling.
+#finding(
+  claim: [D2/D3 postsynaptic receptors intact and responsive — same pharmacodiagnostic as pramipexole. Rotigotine patch provides continuous delivery to distinguish PK vs PD ceiling],
+  explanation: [D2/D3 postsynaptic receptors intact and responsive — same pharmacodiagnostic as pramipexole. Rotigotine patch provides continuous delivery to distinguish PK vs PD ceiling.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Lesion not at D2/D3 — synthesis, storage, or downstream signaling is the bottleneck.
+#finding(
+  claim: [Lesion not at D2/D3 — synthesis, storage, or downstream signaling is the bottleneck],
+  explanation: [Lesion not at D2/D3 — synthesis, storage, or downstream signaling is the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Nausea/OH at RLS dose → D2 supersensitivity in area postrema and vasculature (Pattern 1). Rotigotine patch tolerated but oral bromocriptine not → delivery kinetics matter — continuous vs pulsatile D2 activation.
 
@@ -398,9 +678,19 @@ Corrective — natural metformin analog; AMPK activation restoring metabolic eff
 #strong[HD] Substrate-repletion — SCFA supporting gut barrier integrity; repletes if microbiome production inadequate.
 
 
-#strong[+] Enteric-chromaffin-vagal pathway functional — gut dysbiosis → low butyrate was the vagal lesion. Improvement confirms gut-brain axis is intact and butyrate is the missing signal.
+#finding(
+  claim: [Enteric-chromaffin-vagal pathway functional — gut dysbiosis → low butyrate was the vagal lesion. Improvement confirms gut-brain axis is intact and butyrate is the missing signal],
+  explanation: [Enteric-chromaffin-vagal pathway functional — gut dysbiosis → low butyrate was the vagal lesion. Improvement confirms gut-brain axis is intact and butyrate is the missing signal.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Enterochromaffin cells damaged (Long COVID pattern); or the lesion is efferent (DMV), not afferent. If butyrate fails but pyridostigmine works → efferent lesion.
+#finding(
+  claim: [Enterochromaffin cells damaged (Long COVID pattern); or the lesion is efferent (DMV), not afferent. If butyrate fails but pyridostigmine works → efferent lesion],
+  explanation: [Enterochromaffin cells damaged (Long COVID pattern); or the lesion is efferent (DMV), not afferent. If butyrate fails but pyridostigmine works → efferent lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — GI tolerability is the main signal. No GI benefit → CNS/systemic mast cells or efferent DMV lesion dominate (Pattern 5).
 
@@ -412,9 +702,19 @@ Corrective — natural metformin analog; AMPK activation restoring metabolic eff
 #strong[HD] Symptomatic — adenosine antagonist; transient alertness — does not restore ATP production or address fatigue cause.
 
 
-#strong[+] Catecholamine release intact — presynaptic pool not exhausted. Adenosine A2A antagonism confirms adenosine-mediated fatigue is rate-limiting for alertness.
+#finding(
+  claim: [Catecholamine release intact — presynaptic pool not exhausted. Adenosine A2A antagonism confirms adenosine-mediated fatigue is rate-limiting for alertness],
+  explanation: [Catecholamine release intact — presynaptic pool not exhausted. Adenosine A2A antagonism confirms adenosine-mediated fatigue is rate-limiting for alertness.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] CNS sympathetic activation failure (CNS NE deficiency). No tachycardia → central sympathetic failure — the presynaptic NE pool cannot be released. No alertness → A2A receptors desensitized from chronic adenosine elevation (Pattern 5).
+#finding(
+  claim: [CNS sympathetic activation failure (CNS NE deficiency). No tachycardia → central sympathetic failure — the presynaptic NE pool cannot be released. No alertness → A2A receptors desensitized from chronic adenosine elevation (Pattern 5)],
+  explanation: [CNS sympathetic activation failure (CNS NE deficiency). No tachycardia → central sympathetic failure — the presynaptic NE pool cannot be released. No alertness → A2A receptors desensitized from chronic adenosine elevation (Pattern 5).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No tachycardia at 200+ mg → central sympathetic failure (Pattern 5). No alertness despite tachycardia → postsynaptic noradrenergic lesion (α2A desensitization). Jitteriness/anxiety at low dose → supersensitive adrenergic system (Pattern 1).
 
@@ -426,9 +726,19 @@ Corrective — natural metformin analog; AMPK activation restoring metabolic eff
 Corrective — blocks IL-1β specifically, interrupting autoinflammatory amplification; does not address IL-1β source
 
 
-#strong[+] IL-1β specifically rate-limiting for the inflammatory sickness-behavior phenotype. Canakinumab neutralizes IL-1β without affecting IL-1α — improvement confirms IL-1β (not IL-1α) is the dominant cytokine. More specific probe than anakinra (which blocks both).
+#finding(
+  claim: [IL-1β specifically rate-limiting for the inflammatory sickness-behavior phenotype. Canakinumab neutralizes IL-1β without affecting IL-1α — improvement confirms IL-1β (not IL-1α) is the dominant cytokine. More specific probe than anakinra (which blocks both)],
+  explanation: [IL-1β specifically rate-limiting for the inflammatory sickness-behavior phenotype. Canakinumab neutralizes IL-1β without affecting IL-1α — improvement confirms IL-1β (not IL-1α) is the dominant cytokine. More specific probe than anakinra (which blocks both).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] IL-1β not rate-limiting. If canakinumab fails but anakinra works → IL-1α is the dominant IL-1 driver (or dual blockade is required). If canakinumab fails but colchicine works → the NLRP3 inflammasome is rate-limiting but IL-18 or pyroptosis (not IL-1β) is the dominant downstream effector.
+#finding(
+  claim: [IL-1β not rate-limiting. If canakinumab fails but anakinra works → IL-1α is the dominant IL-1 driver (or dual blockade is required). If canakinumab fails but colchicine works → the NLRP3 inflammasome is rate-limiting but IL-18 or pyroptosis (not IL-1β) is the dominant downstream effector],
+  explanation: [IL-1β not rate-limiting. If canakinumab fails but anakinra works → IL-1α is the dominant IL-1 driver (or dual blockade is required). If canakinumab fails but colchicine works → the NLRP3 inflammasome is rate-limiting but IL-18 or pyroptosis (not IL-1β) is the dominant downstream effector.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Infection on canakinumab → IL-1β host defense was load-bearing — same principle as anakinra but narrower (IL-1β-specific immunosuppression). The infection rate relative to anakinra informs whether IL-1α is load-bearing for host defense.
 
@@ -440,9 +750,19 @@ Corrective — blocks IL-1β specifically, interrupting autoinflammatory amplifi
 #strong[HD] Threshold-modulatory — multi-target cannabinoid system modulator reducing inflammation/anxiety.
 
 
-#strong[+] Endocannabinoid deficiency or TRPV1-driven pathology rate-limiting. CBD is multi-target: 5-HT1A agonist (anxiolytic), TRPV1 desensitizer (pain), PPARγ activator (anti-inflammatory), adenosine reuptake inhibitor (neuroprotective). Multi-domain improvement confirms multi-target convergence.
+#finding(
+  claim: [Endocannabinoid deficiency or TRPV1-driven pathology rate-limiting. CBD is multi-target: 5-HT1A agonist (anxiolytic), TRPV1 desensitizer (pain), PPARγ activator (anti-inflammatory), adenosine reuptake inhibitor (neuroprotective). Multi-domain improvement confirms multi-target convergence],
+  explanation: [Endocannabinoid deficiency or TRPV1-driven pathology rate-limiting. CBD is multi-target: 5-HT1A agonist (anxiolytic), TRPV1 desensitizer (pain), PPARγ activator (anti-inflammatory), adenosine reuptake inhibitor (neuroprotective). Multi-domain improvement confirms multi-target convergence.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] None of CBD's targets rate-limiting. If CBD fails but LDN works → the pathology is TLR4-dependent, not endocannabinoid/TRPV1. If CBD fails but THC-containing products work → CB1 receptor is the dominant cannabinoid target.
+#finding(
+  claim: [None of CBD's targets rate-limiting. If CBD fails but LDN works → the pathology is TLR4-dependent, not endocannabinoid/TRPV1. If CBD fails but THC-containing products work → CB1 receptor is the dominant cannabinoid target],
+  explanation: [None of CBD's targets rate-limiting. If CBD fails but LDN works → the pathology is TLR4-dependent, not endocannabinoid/TRPV1. If CBD fails but THC-containing products work → CB1 receptor is the dominant cannabinoid target.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Fatigue worsening at low dose → 5-HT1A agonism dominant — serotonergic activation overshoots, producing sedative effects indistinguishable from PEM (Pattern 4). Anxiety at low dose → paradoxical 5-HT1A activation — the serotonergic system is in a fragile state (Pattern 2). CYP450 drug interactions → CBD inhibits CYP3A4 and CYP2C19 — reduces clearance of many ME/CFS medications.
 
@@ -454,9 +774,19 @@ Corrective — blocks IL-1β specifically, interrupting autoinflammatory amplifi
 #strong[HD] Symptomatic — modulates illness perception and coping; does not correct pathophysiology (NICE 2021) — harmful if GET-based.
 
 
-#strong[+] Coping deficit rate-limiting for quality of life — CBT improves illness management. Does NOT address core pathophysiology. Positive response identifies the patient has reserve to engage in therapy without triggering PEM.
+#finding(
+  claim: [Coping deficit rate-limiting for quality of life — CBT improves illness management. Does NOT address core pathophysiology. Positive response identifies the patient has reserve to engage in therapy without triggering PEM],
+  explanation: [Coping deficit rate-limiting for quality of life — CBT improves illness management. Does NOT address core pathophysiology. Positive response identifies the patient has reserve to engage in therapy without triggering PEM.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Coping is not the bottleneck; or cognitive demand of therapy exceeds energy envelope. If CBT fails because sessions trigger PEM → the patient's cognitive exertion ceiling is below the therapy demand — confirms severe cognitive PEM threshold (Pattern 5).
+#finding(
+  claim: [Coping is not the bottleneck; or cognitive demand of therapy exceeds energy envelope. If CBT fails because sessions trigger PEM → the patient's cognitive exertion ceiling is below the therapy demand — confirms severe cognitive PEM threshold (Pattern 5)],
+  explanation: [Coping is not the bottleneck; or cognitive demand of therapy exceeds energy envelope. If CBT fails because sessions trigger PEM → the patient's cognitive exertion ceiling is below the therapy demand — confirms severe cognitive PEM threshold (Pattern 5).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] PEM triggered by therapy sessions → cognitive exertion is rate-limiting — confirms the patient's cognitive energy envelope is extremely narrow. This is a diagnostic output, not a failure of the patient.
 
@@ -468,9 +798,19 @@ Corrective — blocks IL-1β specifically, interrupting autoinflammatory amplifi
 #strong[HD] Threshold-modulatory — selective COX-2 inhibition; anti-inflammatory with cardiovascular risk.
 
 
-#strong[+] COX-2-driven inflammation rate-limiting for pain. Selective COX-2 inhibition avoids COX-1-mediated mast cell destabilization (safer than aspirin in MCAS).
+#finding(
+  claim: [COX-2-driven inflammation rate-limiting for pain. Selective COX-2 inhibition avoids COX-1-mediated mast cell destabilization (safer than aspirin in MCAS)],
+  explanation: [COX-2-driven inflammation rate-limiting for pain. Selective COX-2 inhibition avoids COX-1-mediated mast cell destabilization (safer than aspirin in MCAS).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] COX-2 not rate-limiting — inflammation is COX-1, complement, mast-cell, or non-inflammatory.
+#finding(
+  claim: [COX-2 not rate-limiting — inflammation is COX-1, complement, mast-cell, or non-inflammatory],
+  explanation: [COX-2 not rate-limiting — inflammation is COX-1, complement, mast-cell, or non-inflammatory.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Fatigue worsening at 100 mg BID → COX-2-derived PGE2 was maintaining perfusion, mitochondrial function, or HPA axis integrity (Pattern 4). Distinguish: if aspirin also causes fatigue → prostaglandin pathway is load-bearing; if aspirin tolerated but celecoxib causes fatigue → COX-2-specific PGE2 was protective.
 
@@ -482,9 +822,19 @@ Corrective — blocks IL-1β specifically, interrupting autoinflammatory amplifi
 Corrective — mechanical stabilization of craniocervical junction; if CCI is the lesion, directly addresses structural instability — diagnostic probe
 
 
-#strong[+] CCI present and rate-limiting. If collar resolves dizziness but not POTS → non-cervical POTS mechanism. Complete resolution of brain fog and orthostatic symptoms → CCI is the dominant lesion.
+#finding(
+  claim: [CCI present and rate-limiting. If collar resolves dizziness but not POTS → non-cervical POTS mechanism. Complete resolution of brain fog and orthostatic symptoms → CCI is the dominant lesion],
+  explanation: [CCI present and rate-limiting. If collar resolves dizziness but not POTS → non-cervical POTS mechanism. Complete resolution of brain fog and orthostatic symptoms → CCI is the dominant lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] CCI absent or not rate-limiting. If collar resolves nothing → non-mechanical etiology.
+#finding(
+  claim: [CCI absent or not rate-limiting. If collar resolves nothing → non-mechanical etiology],
+  explanation: [CCI absent or not rate-limiting. If collar resolves nothing → non-mechanical etiology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] None — mechanical device without pharmacologic side effects. Skin irritation at most.
 
@@ -496,9 +846,19 @@ Corrective — mechanical stabilization of craniocervical junction; if CCI is th
 #strong[HD] Threshold-modulatory — PDE3 inhibitor improving microvascular perfusion; addresses perfusion deficit without correcting the cause.
 
 
-#strong[+] PDE3-mediated microvascular pathology rate-limiting. Cilostazol increases cAMP in platelets and vascular smooth muscle → vasodilation + antiplatelet effects → improved microvascular perfusion. Confirms the combined platelet-endothelial lesion.
+#finding(
+  claim: [PDE3-mediated microvascular pathology rate-limiting. Cilostazol increases cAMP in platelets and vascular smooth muscle → vasodilation + antiplatelet effects → improved microvascular perfusion. Confirms the combined platelet-endothelial lesion],
+  explanation: [PDE3-mediated microvascular pathology rate-limiting. Cilostazol increases cAMP in platelets and vascular smooth muscle → vasodilation + antiplatelet effects → improved microvascular perfusion. Confirms the combined platelet-endothelial lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Microvascular pathology not PDE3-mediated. If cilostazol fails but pentoxifylline works → the perfusion deficit is RBC deformability-mediated, not cAMP/platelet-mediated. If cilostazol fails but L-type CCB works → the vascular lesion is Ca²⁺-channel-mediated, not cAMP-mediated.
+#finding(
+  claim: [Microvascular pathology not PDE3-mediated. If cilostazol fails but pentoxifylline works → the perfusion deficit is RBC deformability-mediated, not cAMP/platelet-mediated. If cilostazol fails but L-type CCB works → the vascular lesion is Ca²⁺-channel-mediated, not cAMP-mediated],
+  explanation: [Microvascular pathology not PDE3-mediated. If cilostazol fails but pentoxifylline works → the perfusion deficit is RBC deformability-mediated, not cAMP/platelet-mediated. If cilostazol fails but L-type CCB works → the vascular lesion is Ca²⁺-channel-mediated, not cAMP-mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Tachycardia ceiling → PDE3 inhibition in cardiac myocytes increases HR — confirms cardiac PDE3 engagement. If the HR increase triggers PEM → the perfusion benefit of vasodilation is outweighed by the metabolic cost of tachycardia (Pattern 4). Headache → PDE3-mediated cerebral vasodilation — confirms drug engagement.
 
@@ -510,9 +870,19 @@ Corrective — mechanical stabilization of craniocervical junction; if CCI is th
 #strong[HD] Substrate-repletion — arginine precursor with better bioavailability; supports NO synthesis.
 
 
-#strong[+] Arginine-depletion-driven NO deficiency rate-limiting. Citrulline bypasses hepatic arginase → sustained arginine elevation → sustained NO production. If citrulline works but arginine doesn't → first-pass arginase was degrading arginine in the liver; citrulline bypass confirms the NO pathway is intact downstream.
+#finding(
+  claim: [Arginine-depletion-driven NO deficiency rate-limiting. Citrulline bypasses hepatic arginase → sustained arginine elevation → sustained NO production. If citrulline works but arginine doesn't → first-pass arginase was degrading arginine in the liver; citrulline bypass confirms the NO pathway is intact downstream],
+  explanation: [Arginine-depletion-driven NO deficiency rate-limiting. Citrulline bypasses hepatic arginase → sustained arginine elevation → sustained NO production. If citrulline works but arginine doesn't → first-pass arginase was degrading arginine in the liver; citrulline bypass confirms the NO pathway is intact downstream.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NO pathway not substrate-limited. If citrulline fails despite confirmed arginine elevation → eNOS is dysfunctional (uncoupled) or the NO receptor (sGC) is desensitized.
+#finding(
+  claim: [NO pathway not substrate-limited. If citrulline fails despite confirmed arginine elevation → eNOS is dysfunctional (uncoupled) or the NO receptor (sGC) is desensitized],
+  explanation: [NO pathway not substrate-limited. If citrulline fails despite confirmed arginine elevation → eNOS is dysfunctional (uncoupled) or the NO receptor (sGC) is desensitized.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI tolerance better than arginine → confirms arginine GI intolerance was osmotic, not NO-mediated — the patient can tolerate NO precursor therapy if the right precursor is used. This is a therapeutic advantage, not a diagnostic signal.
 
@@ -524,9 +894,19 @@ Corrective — mechanical stabilization of craniocervical junction; if CCI is th
 #strong[HD] Symptomatic — GABA-A potentiation (long half-life); suppresses symptoms without addressing cause — high PMC/withdrawal risk.
 
 
-#strong[+] GABA-A-mediated sensory hypersensitivity or myoclonus rate-limiting. Clonazepam's additional serotonergic effects may benefit where other benzodiazepines do not. High potency + long half-life provides sustained GABA-A potentiation.
+#finding(
+  claim: [GABA-A-mediated sensory hypersensitivity or myoclonus rate-limiting. Clonazepam's additional serotonergic effects may benefit where other benzodiazepines do not. High potency + long half-life provides sustained GABA-A potentiation],
+  explanation: [GABA-A-mediated sensory hypersensitivity or myoclonus rate-limiting. Clonazepam's additional serotonergic effects may benefit where other benzodiazepines do not. High potency + long half-life provides sustained GABA-A potentiation.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GABA-A not rate-limiting; or the specific GABA-A subtype (non-α1) is the lesion. If clonazepam works but zolpidem (α1-selective) doesn't → the lesion is at α2/α3/α5 GABA-A subtypes — non-sleep GABA-A functions (anxiolysis, muscle relaxation, sensory gating) are the dominant pathology.
+#finding(
+  claim: [GABA-A not rate-limiting; or the specific GABA-A subtype (non-α1) is the lesion. If clonazepam works but zolpidem (α1-selective) doesn't → the lesion is at α2/α3/α5 GABA-A subtypes — non-sleep GABA-A functions (anxiolysis, muscle relaxation, sensory gating) are the dominant pathology],
+  explanation: [GABA-A not rate-limiting; or the specific GABA-A subtype (non-α1) is the lesion. If clonazepam works but zolpidem (α1-selective) doesn't → the lesion is at α2/α3/α5 GABA-A subtypes — non-sleep GABA-A functions (anxiolysis, muscle relaxation, sensory gating) are the dominant pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Paradoxical excitation → GABAergic inversion (NKCC1/KCC2 chloride gradient reversal, Pattern 2) — same principle as all benzodiazepines. Tolerance development within 4--8 weeks → receptor internalization from sustained GABA-A activation — the most rapid tolerance among benzodiazepines (Pattern 4). Severe withdrawal within 24h of missed dose → high potency + long half-life creates profound dependence — the GABA-A system has compensated dramatically during chronic use.
 
@@ -538,9 +918,19 @@ Corrective — mechanical stabilization of craniocervical junction; if CCI is th
 #strong[HD] Threshold-modulatory — central α2 agonism reduces sympathetic outflow; suppresses compensatory drive without addressing why it is elevated.
 
 
-#strong[+] Central sympathetic overactivation is rate-limiting. Brainstem baroreflex reset or GPCR AAb at area postrema → central α2 agonism reduces sympathetic outflow.
+#finding(
+  claim: [Central sympathetic overactivation is rate-limiting. Brainstem baroreflex reset or GPCR AAb at area postrema → central α2 agonism reduces sympathetic outflow],
+  explanation: [Central sympathetic overactivation is rate-limiting. Brainstem baroreflex reset or GPCR AAb at area postrema → central α2 agonism reduces sympathetic outflow.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Central sympathetic drive is NOT load-bearing; α2 autoreceptors desensitized (hyperadrenergic POTS). If clonidine drops BP without symptom improvement → central α2 agonism is lowering an already-deficient sympathetic drive.
+#finding(
+  claim: [Central sympathetic drive is NOT load-bearing; α2 autoreceptors desensitized (hyperadrenergic POTS). If clonidine drops BP without symptom improvement → central α2 agonism is lowering an already-deficient sympathetic drive],
+  explanation: [Central sympathetic drive is NOT load-bearing; α2 autoreceptors desensitized (hyperadrenergic POTS). If clonidine drops BP without symptom improvement → central α2 agonism is lowering an already-deficient sympathetic drive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] BP crash at 0.05 mg → zero sympathetic reserve — supine NE critically low, orthostatic BP completely sympathetically dependent (Pattern 1). No BP change at 0.1 mg → α2 receptors desensitized — hyperadrenergic POTS subtype confirmed (Pattern 5).
 
@@ -552,9 +942,19 @@ Corrective — mechanical stabilization of craniocervical junction; if CCI is th
 Corrective — P2Y12 inhibitor reducing platelet aggregation — research-stage for microthrombi
 
 
-#strong[+] P2Y12-mediated platelet activation rate-limiting for microclot pathology. P2Y12 blockade reduces ADP-induced platelet aggregation — improvement confirms platelet-driven microthrombus formation is the dominant microvascular lesion.
+#finding(
+  claim: [P2Y12-mediated platelet activation rate-limiting for microclot pathology. P2Y12 blockade reduces ADP-induced platelet aggregation — improvement confirms platelet-driven microthrombus formation is the dominant microvascular lesion],
+  explanation: [P2Y12-mediated platelet activation rate-limiting for microclot pathology. P2Y12 blockade reduces ADP-induced platelet aggregation — improvement confirms platelet-driven microthrombus formation is the dominant microvascular lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Platelet activation not P2Y12-mediated — thrombin or collagen-driven. If clopidogrel fails but apixaban works → the coagulation cascade (fibrin formation) is dominant, not platelet aggregation. If clopidogrel fails but aspirin works → COX-1/TXA2 pathway is the dominant platelet activation route.
+#finding(
+  claim: [Platelet activation not P2Y12-mediated — thrombin or collagen-driven. If clopidogrel fails but apixaban works → the coagulation cascade (fibrin formation) is dominant, not platelet aggregation. If clopidogrel fails but aspirin works → COX-1/TXA2 pathway is the dominant platelet activation route],
+  explanation: [Platelet activation not P2Y12-mediated — thrombin or collagen-driven. If clopidogrel fails but apixaban works → the coagulation cascade (fibrin formation) is dominant, not platelet aggregation. If clopidogrel fails but aspirin works → COX-1/TXA2 pathway is the dominant platelet activation route.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Bleeding at standard dose → hemostatic reserve minimal — same diagnostic principle as apixaban. CYP2C19 poor metabolizer → clopidogrel is a prodrug — zero antiplatelet effect confirms CYP2C19 genotype is the bottleneck (Pattern K). Bruising without clinical bleeding → platelet inhibition confirmed — the drug is working.
 
@@ -566,9 +966,19 @@ Corrective — P2Y12 inhibitor reducing platelet aggregation — research-stage 
 #strong[HD] Substrate-repletion — repletes CoQ10 consumed by oxidative stress; supports Complex III — does not correct the ROS source.
 
 
-#strong[+] ETC inefficiency is functional (cofactor-compensable). CoQ10 flooding restores electron flux through Complex III — confirms the SC disruption is reversible, not structural.
+#finding(
+  claim: [ETC inefficiency is functional (cofactor-compensable). CoQ10 flooding restores electron flux through Complex III — confirms the SC disruption is reversible, not structural],
+  explanation: [ETC inefficiency is functional (cofactor-compensable). CoQ10 flooding restores electron flux through Complex III — confirms the SC disruption is reversible, not structural.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] SC disruption severe — cofactor flooding inadequate. Lesion is structural (Complex III protein loss) or downstream.
+#finding(
+  claim: [SC disruption severe — cofactor flooding inadequate. Lesion is structural (Complex III protein loss) or downstream],
+  explanation: [SC disruption severe — cofactor flooding inadequate. Lesion is structural (Complex III protein loss) or downstream.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Worsening of fatigue/energy → Complex III block — added electrons from CoQ10 overload produce ROS rather than ATP (Pattern 5). Combined with carnitine worsening → lipid peroxide production from FAO overload meeting ETC block.
 
@@ -580,9 +990,19 @@ Corrective — P2Y12 inhibitor reducing platelet aggregation — research-stage 
 Corrective — microtubule inhibitor with NLRP3 inflammasome suppression; anti-inflammatory with narrow therapeutic window
 
 
-#strong[+] NLRP3 inflammasome-driven pathology rate-limiting. Colchicine blocks microtubule polymerization → prevents NLRP3 inflammasome assembly + inhibits neutrophil chemotaxis. Improvement confirms the inflammasome is the dominant inflammatory driver.
+#finding(
+  claim: [NLRP3 inflammasome-driven pathology rate-limiting. Colchicine blocks microtubule polymerization → prevents NLRP3 inflammasome assembly + inhibits neutrophil chemotaxis. Improvement confirms the inflammasome is the dominant inflammatory driver],
+  explanation: [NLRP3 inflammasome-driven pathology rate-limiting. Colchicine blocks microtubule polymerization → prevents NLRP3 inflammasome assembly + inhibits neutrophil chemotaxis. Improvement confirms the inflammasome is the dominant inflammatory driver.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NLRP3 not rate-limiting for inflammation. If colchicine fails but anakinra works → IL-1 is rate-limiting but NLRP3 is not the dominant source (other inflammasomes or non-inflammasome IL-1). If colchicine fails but prednisone works → inflammation is steroid-responsive, not inflammasome-driven.
+#finding(
+  claim: [NLRP3 not rate-limiting for inflammation. If colchicine fails but anakinra works → IL-1 is rate-limiting but NLRP3 is not the dominant source (other inflammasomes or non-inflammasome IL-1). If colchicine fails but prednisone works → inflammation is steroid-responsive, not inflammasome-driven],
+  explanation: [NLRP3 not rate-limiting for inflammation. If colchicine fails but anakinra works → IL-1 is rate-limiting but NLRP3 is not the dominant source (other inflammasomes or non-inflammasome IL-1). If colchicine fails but prednisone works → inflammation is steroid-responsive, not inflammasome-driven.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI toxicity (diarrhea) at subtherapeutic dose → microtubule-dependent enterocyte turnover is colchicine-sensitive — the drug's therapeutic window is too narrow; the GI ceiling prevents anti-inflammatory dosing (Pattern 4). Diarrhea IS diagnostic: the patient's enterocyte microtubule dynamics are highly colchicine-sensitive — the GI lesion may itself be microtubule-related. Neuromyopathy with prolonged use → cumulative microtubule toxicity — pre-existing SFN makes this patient vulnerable to microtubule toxins.
 
@@ -594,9 +1014,19 @@ Corrective — microtubule inhibitor with NLRP3 inflammasome suppression; anti-i
 #strong[HD] Threshold-modulatory — fungal supplement with adenosine-like compounds — variable evidence.
 
 
-#strong[+] Mitochondrial or immune dysfunction rate-limiting. Cordyceps (cordycepin + polysaccharides) enhances mitochondrial function and modulates immunity — improvement confirms the mitochondrial-immune axis is accessible to adaptogenic support.
+#finding(
+  claim: [Mitochondrial or immune dysfunction rate-limiting. Cordyceps (cordycepin + polysaccharides) enhances mitochondrial function and modulates immunity — improvement confirms the mitochondrial-immune axis is accessible to adaptogenic support],
+  explanation: [Mitochondrial or immune dysfunction rate-limiting. Cordyceps (cordycepin + polysaccharides) enhances mitochondrial function and modulates immunity — improvement confirms the mitochondrial-immune axis is accessible to adaptogenic support.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Mitochondrial/immune axis not cordyceps-responsive. Low-potency nutraceutical — null non-informative.
+#finding(
+  claim: [Mitochondrial/immune axis not cordyceps-responsive. Low-potency nutraceutical — null non-informative],
+  explanation: [Mitochondrial/immune axis not cordyceps-responsive. Low-potency nutraceutical — null non-informative.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated at standard doses. No specific diagnostic side effects. Null non-informative given variable potency and standardization.
 
@@ -608,9 +1038,19 @@ Corrective — microtubule inhibitor with NLRP3 inflammasome suppression; anti-i
 #strong[HD] Threshold-modulatory — suppresses inflammation broadly via glucocorticoid receptor; does not address inflammatory driver — HPA suppression risk.
 
 
-#strong[+] Inflammation is rate-limiting (does NOT identify source). Broad anti-inflammatory effect confirms inflammatory component is present and steroid-responsive.
+#finding(
+  claim: [Inflammation is rate-limiting (does NOT identify source). Broad anti-inflammatory effect confirms inflammatory component is present and steroid-responsive],
+  explanation: [Inflammation is rate-limiting (does NOT identify source). Broad anti-inflammatory effect confirms inflammatory component is present and steroid-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Steroid-resistant inflammation — inflammasome, complement, or mast-cell-driven. If inflammation improves with colchicine but not prednisone → inflammasome-driven. No improvement + no crash on taper → steroid-resistant but HPA axis intact.
+#finding(
+  claim: [Steroid-resistant inflammation — inflammasome, complement, or mast-cell-driven. If inflammation improves with colchicine but not prednisone → inflammasome-driven. No improvement + no crash on taper → steroid-resistant but HPA axis intact],
+  explanation: [Steroid-resistant inflammation — inflammasome, complement, or mast-cell-driven. If inflammation improves with colchicine but not prednisone → inflammasome-driven. No improvement + no crash on taper → steroid-resistant but HPA axis intact.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Crash on taper → HPA axis fragile — confirmed by morning cortisol/ACTH stimulation test (Pattern 5). Improvement during treatment + crash on taper → steroid-responsive inflammation but HPA axis was load-bearing and now suppressed. No improvement + crash on taper → HPA axis was already near-failure; steroids pushed it over the edge.
 
@@ -622,9 +1062,19 @@ Corrective — microtubule inhibitor with NLRP3 inflammasome suppression; anti-i
 Corrective — restores airway patency in OSA; if OSA confounds sleep quality, directly addresses mechanical obstruction
 
 
-#strong[+] Obstructive sleep apnea rate-limiting for sleep quality — CPAP restores airway patency. If CPAP resolves unrefreshing sleep → OSA was the dominant sleep pathology, not ME/CFS-specific sleep dysfunction.
+#finding(
+  claim: [Obstructive sleep apnea rate-limiting for sleep quality — CPAP restores airway patency. If CPAP resolves unrefreshing sleep → OSA was the dominant sleep pathology, not ME/CFS-specific sleep dysfunction],
+  explanation: [Obstructive sleep apnea rate-limiting for sleep quality — CPAP restores airway patency. If CPAP resolves unrefreshing sleep → OSA was the dominant sleep pathology, not ME/CFS-specific sleep dysfunction.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] OSA absent or not rate-limiting. If CPAP normalizes AHI but unrefreshing sleep persists → sleep pathology is intrinsic to ME/CFS (alpha-delta intrusion, reduced SWS, glymphatic impairment), not OSA-related.
+#finding(
+  claim: [OSA absent or not rate-limiting. If CPAP normalizes AHI but unrefreshing sleep persists → sleep pathology is intrinsic to ME/CFS (alpha-delta intrusion, reduced SWS, glymphatic impairment), not OSA-related],
+  explanation: [OSA absent or not rate-limiting. If CPAP normalizes AHI but unrefreshing sleep persists → sleep pathology is intrinsic to ME/CFS (alpha-delta intrusion, reduced SWS, glymphatic impairment), not OSA-related.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No symptomatic improvement despite normalized AHI → ME/CFS sleep pathology confirmed. This is the key diagnostic output — CPAP serves as a probe to exclude OSA as the confounder. Mask intolerance → standard CPAP compliance issue; not ME/CFS-specific.
 
@@ -636,9 +1086,19 @@ Corrective — restores airway patency in OSA; if OSA confounds sleep quality, d
 #strong[HD] Substrate-repletion — supplies creatine for ATP buffering via phosphocreatine system.
 
 
-#strong[+] ATP pool insufficient — consistent with reduced steady-state ATP production. Creatine phosphate buffering capacity is rate-limiting for high-demand activities.
+#finding(
+  claim: [ATP pool insufficient — consistent with reduced steady-state ATP production. Creatine phosphate buffering capacity is rate-limiting for high-demand activities],
+  explanation: [ATP pool insufficient — consistent with reduced steady-state ATP production. Creatine phosphate buffering capacity is rate-limiting for high-demand activities.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] ATP buffering not rate-limiting. Muscle creatine stores may already be saturated or the lesion is in ATP production (not buffering).
+#finding(
+  claim: [ATP buffering not rate-limiting. Muscle creatine stores may already be saturated or the lesion is in ATP production (not buffering)],
+  explanation: [ATP buffering not rate-limiting. Muscle creatine stores may already be saturated or the lesion is in ATP production (not buffering).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated. GI bloating at loading doses → reduce to maintenance dose (3--5 g/day).
 
@@ -650,9 +1110,19 @@ Corrective — restores airway patency in OSA; if OSA confounds sleep quality, d
 #strong[HD] Threshold-modulatory — stabilizes mast cells preventing degranulation; does not address what activates mast cells.
 
 
-#strong[+] Gut mast cell degranulation rate-limiting for GI symptoms. Stabilization confirms MCAS with enteric-dominant phenotype.
+#finding(
+  claim: [Gut mast cell degranulation rate-limiting for GI symptoms. Stabilization confirms MCAS with enteric-dominant phenotype],
+  explanation: [Gut mast cell degranulation rate-limiting for GI symptoms. Stabilization confirms MCAS with enteric-dominant phenotype.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Gut mast cells not dominant MCAS source. CNS or systemic mast cells dominate.
+#finding(
+  claim: [Gut mast cells not dominant MCAS source. CNS or systemic mast cells dominate],
+  explanation: [Gut mast cells not dominant MCAS source. CNS or systemic mast cells dominate.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No GI benefit → systemic MCAS (CNS, vascular, or cutaneous mast cells are the dominant source (Pattern 5)). The null is informative: directs treatment toward systemic mast-cell stabilizers (ketotifen, oral montelukast).
 
@@ -664,9 +1134,19 @@ Corrective — restores airway patency in OSA; if OSA confounds sleep quality, d
 #strong[HD] Threshold-modulatory — NF-κB inhibitor + antioxidant; reduces inflammatory signaling — limited bioavailability.
 
 
-#strong[+] NF-κB-driven inflammation rate-limiting. Curcumin's pleiotropic anti-inflammatory effects (NF-κB inhibition, COX/LOX inhibition, Nrf2 activation) confirm the NF-κB-inflammatory axis is dominant and curcumin-responsive.
+#finding(
+  claim: [NF-κB-driven inflammation rate-limiting. Curcumin's pleiotropic anti-inflammatory effects (NF-κB inhibition, COX/LOX inhibition, Nrf2 activation) confirm the NF-κB-inflammatory axis is dominant and curcumin-responsive],
+  explanation: [NF-κB-driven inflammation rate-limiting. Curcumin's pleiotropic anti-inflammatory effects (NF-κB inhibition, COX/LOX inhibition, Nrf2 activation) confirm the NF-κB-inflammatory axis is dominant and curcumin-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NF-κB or COX/LOX not rate-limiting. If curcumin fails but celecoxib works → COX-2 inflammation is dominant but curcumin's COX inhibition is too weak — confirms the lesion but requires pharmaceutical potency.
+#finding(
+  claim: [NF-κB or COX/LOX not rate-limiting. If curcumin fails but celecoxib works → COX-2 inflammation is dominant but curcumin's COX inhibition is too weak — confirms the lesion but requires pharmaceutical potency],
+  explanation: [NF-κB or COX/LOX not rate-limiting. If curcumin fails but celecoxib works → COX-2 inflammation is dominant but curcumin's COX inhibition is too weak — confirms the lesion but requires pharmaceutical potency.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No response despite confirmed bioavailable formulation → null non-informative or the lesion is curcumin-resistant. With bioavailable curcumin (Meriva, Longvida, Theracurmin): null response means NF-κB is not the bottleneck. GI intolerance → standard curcumin GI sensitivity — switching to a more bioavailable formulation may resolve.
 
@@ -678,9 +1158,19 @@ Corrective — restores airway patency in OSA; if OSA confounds sleep quality, d
 #strong[HD] Threshold-modulatory — 5-HT2 receptor antagonist + central muscle relaxant; modulates 5-HT2-mediated muscle tension.
 
 
-#strong[+] 5-HT2-mediated muscle hypertonia or central sensitization rate-limiting for pain and sleep. 5-HT2 antagonism + tricyclic-adjacent structure provides dual muscle relaxant and serotonergic effects.
+#finding(
+  claim: [5-HT2-mediated muscle hypertonia or central sensitization rate-limiting for pain and sleep. 5-HT2 antagonism + tricyclic-adjacent structure provides dual muscle relaxant and serotonergic effects],
+  explanation: [5-HT2-mediated muscle hypertonia or central sensitization rate-limiting for pain and sleep. 5-HT2 antagonism + tricyclic-adjacent structure provides dual muscle relaxant and serotonergic effects.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Muscle symptoms not 5-HT2-mediated. If cyclobenzaprine fails but baclofen works → the lesion is GABA-B-mediated spinal spasticity, not 5-HT2-driven. If cyclobenzaprine fails but tizanidine works → α2-mediated spinal spasticity, not 5-HT2.
+#finding(
+  claim: [Muscle symptoms not 5-HT2-mediated. If cyclobenzaprine fails but baclofen works → the lesion is GABA-B-mediated spinal spasticity, not 5-HT2-driven. If cyclobenzaprine fails but tizanidine works → α2-mediated spinal spasticity, not 5-HT2],
+  explanation: [Muscle symptoms not 5-HT2-mediated. If cyclobenzaprine fails but baclofen works → the lesion is GABA-B-mediated spinal spasticity, not 5-HT2-driven. If cyclobenzaprine fails but tizanidine works → α2-mediated spinal spasticity, not 5-HT2.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Next-day sedation at 5 mg → H1 + 5-HT2 supersensitivity — serotonin and histamine tone are load-bearing for wakefulness (Pattern 1). Anticholinergic symptoms (dry mouth, constipation) at low dose → M1 supersensitivity — confirms the tricyclic-adjacent anticholinergic component is dominant (Pattern 3). No sedation + no muscle relaxation at 10 mg → 5-HT2 desensitized — chronic central sensitization has desensitized serotonin receptors (Pattern 5).
 
@@ -692,9 +1182,19 @@ Corrective — restores airway patency in OSA; if OSA confounds sleep quality, d
 Corrective — broad immunosuppression depleting B and T cells; high toxicity limits use to severe refractory cases
 
 
-#strong[+] B-cell- and T-cell-driven autoimmunity rate-limiting — severe, proliferative autoimmune disease confirmed. Cyclophosphamide's alkylating action depletes proliferating lymphocytes — improvement confirms autoimmune pathology is severe enough to justify the toxicity.
+#finding(
+  claim: [B-cell- and T-cell-driven autoimmunity rate-limiting — severe, proliferative autoimmune disease confirmed. Cyclophosphamide's alkylating action depletes proliferating lymphocytes — improvement confirms autoimmune pathology is severe enough to justify the toxicity],
+  explanation: [B-cell- and T-cell-driven autoimmunity rate-limiting — severe, proliferative autoimmune disease confirmed. Cyclophosphamide's alkylating action depletes proliferating lymphocytes — improvement confirms autoimmune pathology is severe enough to justify the toxicity.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Autoimmunity not cyclophosphamide-responsive; or the AAb source is non-proliferating (long-lived plasma cells). If cyclophosphamide fails but daratumumab works → plasma-cell-driven — cyclophosphamide cannot deplete quiescent plasma cells.
+#finding(
+  claim: [Autoimmunity not cyclophosphamide-responsive; or the AAb source is non-proliferating (long-lived plasma cells). If cyclophosphamide fails but daratumumab works → plasma-cell-driven — cyclophosphamide cannot deplete quiescent plasma cells],
+  explanation: [Autoimmunity not cyclophosphamide-responsive; or the AAb source is non-proliferating (long-lived plasma cells). If cyclophosphamide fails but daratumumab works → plasma-cell-driven — cyclophosphamide cannot deplete quiescent plasma cells.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Hemorrhagic cystitis → acrolein metabolite toxicity — the bladder is the canary for alkylating toxicity (Pattern A). Bone marrow suppression at subtherapeutic dose → HSC pool exhausted — same principle as valganciclovir but via alkylation rather than viral targeting. Infertility → germ cell alkylation — confirms cumulative toxicity at the gonadal stem-cell level.
 
@@ -706,9 +1206,19 @@ Corrective — broad immunosuppression depleting B and T cells; high toxicity li
 Corrective — calcineurin inhibitor suppressing T-cell activation; broad immunosuppression — nephrotoxicity risk
 
 
-#strong[+] NFAT-mediated T-cell activation rate-limiting — confirms T-cell-driven autoimmunity. Cyclosporine blocks calcineurin → prevents NFAT dephosphorylation → blocks IL-2 transcription → T-cell suppression.
+#finding(
+  claim: [NFAT-mediated T-cell activation rate-limiting — confirms T-cell-driven autoimmunity. Cyclosporine blocks calcineurin → prevents NFAT dephosphorylation → blocks IL-2 transcription → T-cell suppression],
+  explanation: [NFAT-mediated T-cell activation rate-limiting — confirms T-cell-driven autoimmunity. Cyclosporine blocks calcineurin → prevents NFAT dephosphorylation → blocks IL-2 transcription → T-cell suppression.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] T-cell-driven autoimmunity absent or calcineurin-independent. If cyclosporine fails but tacrolimus works → the specific calcineurin inhibitor matters (FKBP12 vs cyclophilin complex). If both fail → T-cell autoimmunity is not rate-limiting.
+#finding(
+  claim: [T-cell-driven autoimmunity absent or calcineurin-independent. If cyclosporine fails but tacrolimus works → the specific calcineurin inhibitor matters (FKBP12 vs cyclophilin complex). If both fail → T-cell autoimmunity is not rate-limiting],
+  explanation: [T-cell-driven autoimmunity absent or calcineurin-independent. If cyclosporine fails but tacrolimus works → the specific calcineurin inhibitor matters (FKBP12 vs cyclophilin complex). If both fail → T-cell autoimmunity is not rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Hypertension at low dose → calcineurin-mediated renal vasoconstriction — confirms the renal vasculature is calcineurin-sensitive (Pattern 4). Tremor → calcineurin-mediated cerebellar effect — CNS calcineurin engagement confirmed. Nephrotoxicity → cumulative calcineurin-mediated renal vasoconstriction + tubulointerstitial fibrosis.
 
@@ -720,9 +1230,19 @@ Corrective — calcineurin inhibitor suppressing T-cell activation; broad immuno
 #strong[HD] Substrate-repletion — supplies ribose for de novo purine synthesis; bypasses impaired ATP regeneration.
 
 
-#strong[+] Purine salvage pathway is rate-limiting for ATP regeneration. D-ribose bypasses the de novo purine synthesis bottleneck.
+#finding(
+  claim: [Purine salvage pathway is rate-limiting for ATP regeneration. D-ribose bypasses the de novo purine synthesis bottleneck],
+  explanation: [Purine salvage pathway is rate-limiting for ATP regeneration. D-ribose bypasses the de novo purine synthesis bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] ATP regeneration not purine-limited. Lesion is in ETC, PDH, or substrate availability — not purine synthesis.
+#finding(
+  claim: [ATP regeneration not purine-limited. Lesion is in ETC, PDH, or substrate availability — not purine synthesis],
+  explanation: [ATP regeneration not purine-limited. Lesion is in ETC, PDH, or substrate availability — not purine synthesis.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Hypoglycemia → impaired gluconeogenesis — ribose may stimulate insulin release or compete with glucose metabolism (Pattern 4). GI symptoms at low doses → rapid absorption intolerance.
 
@@ -734,9 +1254,19 @@ Corrective — calcineurin inhibitor suppressing T-cell activation; broad immuno
 Corrective — depletes CD38+ long-lived plasma cells; targets the source rituximab spares — research-stage in ME/CFS
 
 
-#strong[+] AAb from CD38+ long-lived plasma cells — works where rituximab (CD20) fails. Confirms plasma-cell-driven autoimmunity is rate-limiting. If rituximab transient response → daratumumab sustained response → plasma cells, not B cells, drive chronicity.
+#finding(
+  claim: [AAb from CD38+ long-lived plasma cells — works where rituximab (CD20) fails. Confirms plasma-cell-driven autoimmunity is rate-limiting. If rituximab transient response → daratumumab sustained response → plasma cells, not B cells, drive chronicity],
+  explanation: [AAb from CD38+ long-lived plasma cells — works where rituximab (CD20) fails. Confirms plasma-cell-driven autoimmunity is rate-limiting. If rituximab transient response → daratumumab sustained response → plasma cells, not B cells, drive chronicity.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] AAb source not accessible to B-cell or plasma-cell depletion — AAb from short-lived plasmablasts (rituximab-sensitive but not daratumumab-specific), CD38− cells, or non-immune AAb source.
+#finding(
+  claim: [AAb source not accessible to B-cell or plasma-cell depletion — AAb from short-lived plasmablasts (rituximab-sensitive but not daratumumab-specific), CD38− cells, or non-immune AAb source],
+  explanation: [AAb source not accessible to B-cell or plasma-cell depletion — AAb from short-lived plasmablasts (rituximab-sensitive but not daratumumab-specific), CD38− cells, or non-immune AAb source.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Infusion reactions → intact immune recognition and complement activation (Pattern 2). Neutropenia → marrow CD38+ myeloid precursors affected — hematopoietic reserve narrow (Pattern 4).
 
@@ -748,9 +1278,19 @@ Corrective — depletes CD38+ long-lived plasma cells; targets the source rituxi
 Corrective — PDK inhibitor restoring PDH activity and pyruvate entry into TCA cycle — neurotoxicity risk at cumulative dose
 
 
-#strong[+] PDH phosphorylation rate-limiting for metabolic block. PDK inhibition → PDH activation → lactate reduction confirms PDH is the bottleneck.
+#finding(
+  claim: [PDH phosphorylation rate-limiting for metabolic block. PDK inhibition → PDH activation → lactate reduction confirms PDH is the bottleneck],
+  explanation: [PDH phosphorylation rate-limiting for metabolic block. PDK inhibition → PDH activation → lactate reduction confirms PDH is the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] PDH not rate-limiting. Metabolic block is downstream of PDH (ETC, TCA, substrate).
+#finding(
+  claim: [PDH not rate-limiting. Metabolic block is downstream of PDH (ETC, TCA, substrate)],
+  explanation: [PDH not rate-limiting. Metabolic block is downstream of PDH (ETC, TCA, substrate).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Neuropathy at low cumulative dose → pre-existing SFN vulnerability (Pattern 4). No lactate reduction at therapeutic dose → PDH not the bottleneck (Pattern 5).
 
@@ -762,9 +1302,19 @@ Corrective — PDK inhibitor restoring PDH activity and pyruvate entry into TCA 
 #strong[HD] Threshold-modulatory — anti-inflammatory via COX-2 and iNOS inhibition — variable evidence.
 
 
-#strong[+] COX/TNF-α-mediated inflammation rate-limiting. Herbal anti-inflammatory effect confirms inflammatory component is present and COX/TNF-α-dependent.
+#finding(
+  claim: [COX/TNF-α-mediated inflammation rate-limiting. Herbal anti-inflammatory effect confirms inflammatory component is present and COX/TNF-α-dependent],
+  explanation: [COX/TNF-α-mediated inflammation rate-limiting. Herbal anti-inflammatory effect confirms inflammatory component is present and COX/TNF-α-dependent.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] COX/TNF-α not rate-limiting for pain. Inflammation is non-COX, non-TNF-α mediated.
+#finding(
+  claim: [COX/TNF-α not rate-limiting for pain. Inflammation is non-COX, non-TNF-α mediated],
+  explanation: [COX/TNF-α not rate-limiting for pain. Inflammation is non-COX, non-TNF-α mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — mild GI upset at high doses. Null is non-informative given low potency.
 
@@ -776,9 +1326,19 @@ Corrective — PDK inhibitor restoring PDH activity and pyruvate entry into TCA 
 #strong[HD] Substrate-repletion — neurosteroid/androgen precursor; repletes DHEA if adrenal synthesis deficient.
 
 
-#strong[+] Neurosteroid or androgen deficiency rate-limiting. DHEA supplementation restores GABAergic neurosteroid tone and/or androgen-dependent mitochondrial function.
+#finding(
+  claim: [Neurosteroid or androgen deficiency rate-limiting. DHEA supplementation restores GABAergic neurosteroid tone and/or androgen-dependent mitochondrial function],
+  explanation: [Neurosteroid or androgen deficiency rate-limiting. DHEA supplementation restores GABAergic neurosteroid tone and/or androgen-dependent mitochondrial function.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Androgen/neurosteroid axis not rate-limiting.
+#finding(
+  claim: [Androgen/neurosteroid axis not rate-limiting],
+  explanation: [Androgen/neurosteroid axis not rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — androgenic side effects (acne, hirsutism) possible at supraphysiologic doses but not diagnostically informative in ME/CFS. Null is non-informative.
 
@@ -790,9 +1350,19 @@ Corrective — PDK inhibitor restoring PDH activity and pyruvate entry into TCA 
 #strong[HD] Symptomatic — GABA-A potentiation (very long half-life); suppresses symptoms — high dependence risk.
 
 
-#strong[+] GABA-A-mediated muscle spasm or anxiety rate-limiting. Diazepam's long half-life (20--100h including active metabolites) provides sustained GABA-A potentiation — useful for continuous symptom coverage.
+#finding(
+  claim: [GABA-A-mediated muscle spasm or anxiety rate-limiting. Diazepam's long half-life (20--100h including active metabolites) provides sustained GABA-A potentiation — useful for continuous symptom coverage],
+  explanation: [GABA-A-mediated muscle spasm or anxiety rate-limiting. Diazepam's long half-life (20--100h including active metabolites) provides sustained GABA-A potentiation — useful for continuous symptom coverage.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GABA-A not rate-limiting. If diazepam works but zolpidem doesn't → the lesion is at non-α1 GABA-A subtypes (muscle relaxation, anxiolysis), not sleep-specific α1 GABA-A.
+#finding(
+  claim: [GABA-A not rate-limiting. If diazepam works but zolpidem doesn't → the lesion is at non-α1 GABA-A subtypes (muscle relaxation, anxiolysis), not sleep-specific α1 GABA-A],
+  explanation: [GABA-A not rate-limiting. If diazepam works but zolpidem doesn't → the lesion is at non-α1 GABA-A subtypes (muscle relaxation, anxiolysis), not sleep-specific α1 GABA-A.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Accumulation with repeated dosing → active metabolite (nordiazepam) half-life up to 100h — next-day sedation is cumulative, not single-dose (Pattern 4). The accumulation pattern IS diagnostic: it maps the patient's hepatic metabolism rate. Paradoxical excitation → chloride gradient inversion (Pattern 2). Withdrawal sensitivity → same as all benzodiazepines but extended withdrawal duration due to long half-life.
 
@@ -803,9 +1373,19 @@ Corrective — PDK inhibitor restoring PDH activity and pyruvate entry into TCA 
 Corrective — Nrf2 activator + immunomodulator; activates endogenous anti-inflammatory programs via Keap1 modification
 
 
-#strong[+] HIF-1α-driven pathology rate-limiting. Nrf2 activation reduces oxidative stress; improvement confirms HIF-1α → ROS → tissue damage as the dominant pathway.
+#finding(
+  claim: [HIF-1α-driven pathology rate-limiting. Nrf2 activation reduces oxidative stress; improvement confirms HIF-1α → ROS → tissue damage as the dominant pathway],
+  explanation: [HIF-1α-driven pathology rate-limiting. Nrf2 activation reduces oxidative stress; improvement confirms HIF-1α → ROS → tissue damage as the dominant pathway.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] HIF-1α not rate-limiting — or Nrf2 activation insufficient to overcome HIF-1α-driven pathology.
+#finding(
+  claim: [HIF-1α not rate-limiting — or Nrf2 activation insufficient to overcome HIF-1α-driven pathology],
+  explanation: [HIF-1α not rate-limiting — or Nrf2 activation insufficient to overcome HIF-1α-driven pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Severe flushing → mast cell hyper-reactivity — DMF triggers mast cell PGD2 release. Flush prevented by aspirin → PGD2-mediated MCAS confirmed (Pattern 3). The flush is the diagnostic signal.
 
@@ -817,9 +1397,19 @@ Corrective — Nrf2 activator + immunomodulator; activates endogenous anti-infla
 #strong[HD] Threshold-modulatory — peripheral D2 antagonist; prokinetic — QT prolongation risk.
 
 
-#strong[+] Peripheral D2-mediated gastroparesis rate-limiting. Domperidone blocks D2 receptors in the GI tract (does not cross BBB) → improved gastric emptying confirms the gastroparesis is D2-mediated and the enteric D2 receptor population is intact.
+#finding(
+  claim: [Peripheral D2-mediated gastroparesis rate-limiting. Domperidone blocks D2 receptors in the GI tract (does not cross BBB) → improved gastric emptying confirms the gastroparesis is D2-mediated and the enteric D2 receptor population is intact],
+  explanation: [Peripheral D2-mediated gastroparesis rate-limiting. Domperidone blocks D2 receptors in the GI tract (does not cross BBB) → improved gastric emptying confirms the gastroparesis is D2-mediated and the enteric D2 receptor population is intact.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Gastroparesis not D2-mediated — vagal efferent lesion, interstitial cells of Cajal dysfunction, or structural. If domperidone fails but erythromycin works → motilin receptor-mediated gastric emptying is intact; D2 was not the lesion.
+#finding(
+  claim: [Gastroparesis not D2-mediated — vagal efferent lesion, interstitial cells of Cajal dysfunction, or structural. If domperidone fails but erythromycin works → motilin receptor-mediated gastric emptying is intact; D2 was not the lesion],
+  explanation: [Gastroparesis not D2-mediated — vagal efferent lesion, interstitial cells of Cajal dysfunction, or structural. If domperidone fails but erythromycin works → motilin receptor-mediated gastric emptying is intact; D2 was not the lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] QT prolongation at 30--40 mg/day → hERG channel sensitivity — confirms the cardiac potassium channel is domperidone-sensitive (Pattern 4). No prolactin elevation → D2 receptors in the pituitary are inaccessible (domperidone is peripheral) or pituitary D2 is desensitized — confirms peripherally-restricted action.
 
@@ -831,9 +1421,19 @@ Corrective — Nrf2 activator + immunomodulator; activates endogenous anti-infla
 #strong[HD] Threshold-modulatory — acetylcholinesterase inhibitor enhancing cholinergic transmission.
 
 
-#strong[+] Central cholinergic deficiency rate-limiting for cognition. Donepezil's CNS AChE inhibition enhances cholinergic tone → cognitive improvement confirms the cholinergic anti-inflammatory pathway and prefrontal cholinergic networks are functional and ACh-deficient.
+#finding(
+  claim: [Central cholinergic deficiency rate-limiting for cognition. Donepezil's CNS AChE inhibition enhances cholinergic tone → cognitive improvement confirms the cholinergic anti-inflammatory pathway and prefrontal cholinergic networks are functional and ACh-deficient],
+  explanation: [Central cholinergic deficiency rate-limiting for cognition. Donepezil's CNS AChE inhibition enhances cholinergic tone → cognitive improvement confirms the cholinergic anti-inflammatory pathway and prefrontal cholinergic networks are functional and ACh-deficient.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Central cholinergic deficiency absent; or nicotinic/muscarinic receptors desensitized. If donepezil fails but pyridostigmine works → peripheral cholinergic lesion is dominant; CNS cholinergic system is intact but not the bottleneck.
+#finding(
+  claim: [Central cholinergic deficiency absent; or nicotinic/muscarinic receptors desensitized. If donepezil fails but pyridostigmine works → peripheral cholinergic lesion is dominant; CNS cholinergic system is intact but not the bottleneck],
+  explanation: [Central cholinergic deficiency absent; or nicotinic/muscarinic receptors desensitized. If donepezil fails but pyridostigmine works → peripheral cholinergic lesion is dominant; CNS cholinergic system is intact but not the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI cramping + bradycardia → peripheral AChE inhibition at CNS doses — confirms the drug crosses into the periphery at cognitive-effective dose (Pattern 4). The GI cramping IS diagnostic: it confirms the peripheral and central cholinergic systems are both deficient — the drug is filling both. Vivid dreams at 5 mg → REM cholinergic activation — confirms CNS AChE engagement. No GI effect + no cognitive effect → AChE non-responsive — cholinergic lesion is postsynaptic (receptor desensitization) (Pattern 5).
 
@@ -845,9 +1445,19 @@ Corrective — Nrf2 activator + immunomodulator; activates endogenous anti-infla
 #strong[HD] Corrective — dual orexin receptor antagonists reducing orexin-mediated wakefulness drive; may have neuroprotective effects but in ME/CFS addresses only the sleep symptom.
 
 
-#strong[+] Nocturnal orexin surges rate-limiting for sleep maintenance. OX1R/OX2R antagonism improves sleep continuity — confirms orexin-mediated hyperarousal as sleep pathology.
+#finding(
+  claim: [Nocturnal orexin surges rate-limiting for sleep maintenance. OX1R/OX2R antagonism improves sleep continuity — confirms orexin-mediated hyperarousal as sleep pathology],
+  explanation: [Nocturnal orexin surges rate-limiting for sleep maintenance. OX1R/OX2R antagonism improves sleep continuity — confirms orexin-mediated hyperarousal as sleep pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Orexin tone not rate-limiting — or already at floor. If DORA produces no effect → orexin is already critically low, consistent with the orexin-suppression model in ME/CFS (Pattern 5).
+#finding(
+  claim: [Orexin tone not rate-limiting — or already at floor. If DORA produces no effect → orexin is already critically low, consistent with the orexin-suppression model in ME/CFS (Pattern 5)],
+  explanation: [Orexin tone not rate-limiting — or already at floor. If DORA produces no effect → orexin is already critically low, consistent with the orexin-suppression model in ME/CFS (Pattern 5).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Sleep paralysis at low dose → orexin critically low — DORA is contraindicated because orexin tone is already at narcolepsy-range levels (Pattern 4). Complex sleep behaviours → orexin-mediated sleep-wake boundary fragile. No effect → orexin already at floor (Pattern 5).
 
@@ -859,9 +1469,19 @@ Corrective — Nrf2 activator + immunomodulator; activates endogenous anti-infla
 Corrective — DNase enzyme degrading NET DNA; if NETosis confirmed, clears NET-derived DAMPs — research-stage
 
 
-#strong[+] NET-derived extracellular DNA rate-limiting for microclot pathology. Dornase alfa cleaves NET-derived DNA → degradation of the DNA scaffold in microclots → improved microvascular perfusion confirms NETs are the structural component of microclot pathology.
+#finding(
+  claim: [NET-derived extracellular DNA rate-limiting for microclot pathology. Dornase alfa cleaves NET-derived DNA → degradation of the DNA scaffold in microclots → improved microvascular perfusion confirms NETs are the structural component of microclot pathology],
+  explanation: [NET-derived extracellular DNA rate-limiting for microclot pathology. Dornase alfa cleaves NET-derived DNA → degradation of the DNA scaffold in microclots → improved microvascular perfusion confirms NETs are the structural component of microclot pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NETs not the dominant component of microclot pathology — fibrin, amyloid, or platelet-derived. If dornase alfa fails but lumbrokinase works → fibrin is the structural component. If dornase alfa fails but nattokinase works → the microclot is fibrinolytic-accessible but NET concentration is not rate-limiting.
+#finding(
+  claim: [NETs not the dominant component of microclot pathology — fibrin, amyloid, or platelet-derived. If dornase alfa fails but lumbrokinase works → fibrin is the structural component. If dornase alfa fails but nattokinase works → the microclot is fibrinolytic-accessible but NET concentration is not rate-limiting],
+  explanation: [NETs not the dominant component of microclot pathology — fibrin, amyloid, or platelet-derived. If dornase alfa fails but lumbrokinase works → fibrin is the structural component. If dornase alfa fails but nattokinase works → the microclot is fibrinolytic-accessible but NET concentration is not rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — inhaled administration limits systemic effects. No systemic bleeding risk — DNase is specific for extracellular DNA, not circulating coagulation factors. Minimal diagnostic side effects.
 
@@ -873,9 +1493,19 @@ Corrective — DNase enzyme degrading NET DNA; if NETosis confirmed, clears NET-
 #strong[HD] Symptomatic — potent H1 antagonist at 3–6 mg for sleep initiation; does not restore restorative sleep.
 
 
-#strong[+] Histaminergic arousal is dominant cause of nocturnal awakenings. Pure H1 antagonism at 3--6 mg improves sleep maintenance — confirms histaminergic sleep disruption.
+#finding(
+  claim: [Histaminergic arousal is dominant cause of nocturnal awakenings. Pure H1 antagonism at 3--6 mg improves sleep maintenance — confirms histaminergic sleep disruption],
+  explanation: [Histaminergic arousal is dominant cause of nocturnal awakenings. Pure H1 antagonism at 3--6 mg improves sleep maintenance — confirms histaminergic sleep disruption.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Awakenings are non-histaminergic — orexin, adrenergic, or pain-driven.
+#finding(
+  claim: [Awakenings are non-histaminergic — orexin, adrenergic, or pain-driven],
+  explanation: [Awakenings are non-histaminergic — orexin, adrenergic, or pain-driven.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Next-day sedation at 3 mg → H1 receptor supersensitivity (Pattern 1). No sedation at 6 mg → H1 receptors desensitized from chronic MCAS histamine exposure (Pattern 5). Anticholinergic symptoms at low dose → M1 supersensitivity.
 
@@ -887,9 +1517,19 @@ Corrective — DNase enzyme degrading NET DNA; if NETosis confirmed, clears NET-
 Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation; does not address what drives MMP-9
 
 
-#strong[+] MMP-9-driven ECM degradation rate-limiting. MMP inhibition by doxycycline (independent of antimicrobial effect) stabilizes connective tissue.
+#finding(
+  claim: [MMP-9-driven ECM degradation rate-limiting. MMP inhibition by doxycycline (independent of antimicrobial effect) stabilizes connective tissue],
+  explanation: [MMP-9-driven ECM degradation rate-limiting. MMP inhibition by doxycycline (independent of antimicrobial effect) stabilizes connective tissue.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] MMP-9 not rate-limiting for CT symptoms. ECM degradation is MMP-independent or structural (genetic EDS).
+#finding(
+  claim: [MMP-9 not rate-limiting for CT symptoms. ECM degradation is MMP-independent or structural (genetic EDS)],
+  explanation: [MMP-9 not rate-limiting for CT symptoms. ECM degradation is MMP-independent or structural (genetic EDS).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal at sub-antimicrobial dose (40 mg/day). GI upset → standard doxycycline GI intolerance.
 
@@ -901,9 +1541,19 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 #strong[HD] Threshold-modulatory — preserves endogenous incretins via DPP-4 inhibition; research-stage.
 
 
-#strong[+] Endogenous incretin preservation rate-limiting — GLP-1/GIP degradation reduction restores incretin signaling. Suggests metabolic-immune link through incretin axis.
+#finding(
+  claim: [Endogenous incretin preservation rate-limiting — GLP-1/GIP degradation reduction restores incretin signaling. Suggests metabolic-immune link through incretin axis],
+  explanation: [Endogenous incretin preservation rate-limiting — GLP-1/GIP degradation reduction restores incretin signaling. Suggests metabolic-immune link through incretin axis.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Incretin axis not rate-limiting.
+#finding(
+  claim: [Incretin axis not rate-limiting],
+  explanation: [Incretin axis not rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated at standard doses. Null is non-informative at supplement-level dosing.
 
@@ -915,9 +1565,19 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 #strong[HD] Threshold-modulatory — norepinephrine prodrug restoring central NE; compensates for deficient synthesis — does not correct the pathway.
 
 
-#strong[+] NE synthesis capacity intact. Presynaptic NE stores loadable via AADC conversion of droxidopa to NE. Improvement confirms NE deficiency is synthesis-limited, not storage or release.
+#finding(
+  claim: [NE synthesis capacity intact. Presynaptic NE stores loadable via AADC conversion of droxidopa to NE. Improvement confirms NE deficiency is synthesis-limited, not storage or release],
+  explanation: [NE synthesis capacity intact. Presynaptic NE stores loadable via AADC conversion of droxidopa to NE. Improvement confirms NE deficiency is synthesis-limited, not storage or release.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] AADC deficient or VMAT2 cannot store NE — presynaptic lesion. If droxidopa fails but midodrine works → postsynaptic α1 intact, presynaptic NE machinery is the lesion.
+#finding(
+  claim: [AADC deficient or VMAT2 cannot store NE — presynaptic lesion. If droxidopa fails but midodrine works → postsynaptic α1 intact, presynaptic NE machinery is the lesion],
+  explanation: [AADC deficient or VMAT2 cannot store NE — presynaptic lesion. If droxidopa fails but midodrine works → postsynaptic α1 intact, presynaptic NE machinery is the lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Supine HTN without orthostatic benefit → postsynaptic α1 desensitized — confirms hyperadrenergic POTS (Pattern 4). NE cannot further activate already-maximally stimulated α1 receptors.
 
@@ -929,9 +1589,19 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 #strong[HD] Threshold-modulatory — SNRI increasing synaptic 5-HT and NE; compensates for deficient monoamine tone.
 
 
-#strong[+] NE or 5-HT deficiency rate-limiting for pain, cognition, or mood. SNRI dual action confirms monoamine deficit is multimodal.
+#finding(
+  claim: [NE or 5-HT deficiency rate-limiting for pain, cognition, or mood. SNRI dual action confirms monoamine deficit is multimodal],
+  explanation: [NE or 5-HT deficiency rate-limiting for pain, cognition, or mood. SNRI dual action confirms monoamine deficit is multimodal.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NE/5-HT not rate-limiting — or lesion is postsynaptic. If atomoxetine worked but duloxetine didn't → NE is rate-limiting; the 5-HT component adds no benefit and may cause side effects. If duloxetine worked but atomoxetine didn't → the 5-HT component is dominant; NE alone insufficient.
+#finding(
+  claim: [NE/5-HT not rate-limiting — or lesion is postsynaptic. If atomoxetine worked but duloxetine didn't → NE is rate-limiting; the 5-HT component adds no benefit and may cause side effects. If duloxetine worked but atomoxetine didn't → the 5-HT component is dominant; NE alone insufficient],
+  explanation: [NE/5-HT not rate-limiting — or lesion is postsynaptic. If atomoxetine worked but duloxetine didn't → NE is rate-limiting; the 5-HT component adds no benefit and may cause side effects. If duloxetine worked but atomoxetine didn't → the 5-HT component is dominant; NE alone insufficient.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Anticholinergic symptoms at low dose → subclinical AChE deficiency (Pattern 3). Nausea at 30 mg → 5-HT3 gut hypersensitivity — confirms enteric serotonin receptor supersensitivity. Insomnia ceiling → NET-mediated NE increase is activating; the sleep architecture depends on low NE tone (Pattern 4).
 
@@ -943,9 +1613,19 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 #strong[HD] Substrate-repletion + Corrective — antioxidant + Nrf2 activator + COMT inhibitor; hepatotoxicity at supratherapeutic doses.
 
 
-#strong[+] NF-κB-driven or Nrf2-deficient pathology rate-limiting. EGCG inhibits NF-κB and activates Nrf2 → dual anti-inflammatory + antioxidant effect. Improvement confirms the NF-κB/Nrf2 axis is the dominant lesion.
+#finding(
+  claim: [NF-κB-driven or Nrf2-deficient pathology rate-limiting. EGCG inhibits NF-κB and activates Nrf2 → dual anti-inflammatory + antioxidant effect. Improvement confirms the NF-κB/Nrf2 axis is the dominant lesion],
+  explanation: [NF-κB-driven or Nrf2-deficient pathology rate-limiting. EGCG inhibits NF-κB and activates Nrf2 → dual anti-inflammatory + antioxidant effect. Improvement confirms the NF-κB/Nrf2 axis is the dominant lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NF-κB/Nrf2 axis not rate-limiting; or potency insufficient. If EGCG fails but sulforaphane works → Nrf2 is the bottleneck but EGCG's Nrf2 activation is too weak. If EGCG fails but curcumin works → NF-κB is the bottleneck but requires stronger inhibition.
+#finding(
+  claim: [NF-κB/Nrf2 axis not rate-limiting; or potency insufficient. If EGCG fails but sulforaphane works → Nrf2 is the bottleneck but EGCG's Nrf2 activation is too weak. If EGCG fails but curcumin works → NF-κB is the bottleneck but requires stronger inhibition],
+  explanation: [NF-κB/Nrf2 axis not rate-limiting; or potency insufficient. If EGCG fails but sulforaphane works → Nrf2 is the bottleneck but EGCG's Nrf2 activation is too weak. If EGCG fails but curcumin works → NF-κB is the bottleneck but requires stronger inhibition.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Hepatotoxicity at high doses (800+ mg/day green tea extract) → idiosyncratic EGCG hepatotoxicity — confirms the patient has EGCG-sensitive hepatic metabolism (Pattern A). This is a known but rare toxicity — not diagnostically useful for ME/CFS; standard hepatotoxicity monitoring is required. GI upset at standard dose → standard catechin GI intolerance.
 
@@ -957,9 +1637,19 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 #strong[HD] Threshold-modulatory — trauma processing therapy; addresses psychological amplifier only.
 
 
-#strong[+] PTSD/trauma-related hyperarousal rate-limiting for the sympathetic component of ME/CFS. EMDR reduces trauma-driven sympathetic activation → improved HRV and sleep confirms trauma-induced autonomic overload was rate-limiting.
+#finding(
+  claim: [PTSD/trauma-related hyperarousal rate-limiting for the sympathetic component of ME/CFS. EMDR reduces trauma-driven sympathetic activation → improved HRV and sleep confirms trauma-induced autonomic overload was rate-limiting],
+  explanation: [PTSD/trauma-related hyperarousal rate-limiting for the sympathetic component of ME/CFS. EMDR reduces trauma-driven sympathetic activation → improved HRV and sleep confirms trauma-induced autonomic overload was rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Trauma not rate-limiting for autonomic dysfunction. If EMDR reduces PTSD symptoms without ME/CFS improvement → PTSD was comorbid but not causal; the autonomic lesion is intrinsic to ME/CFS.
+#finding(
+  claim: [Trauma not rate-limiting for autonomic dysfunction. If EMDR reduces PTSD symptoms without ME/CFS improvement → PTSD was comorbid but not causal; the autonomic lesion is intrinsic to ME/CFS],
+  explanation: [Trauma not rate-limiting for autonomic dysfunction. If EMDR reduces PTSD symptoms without ME/CFS improvement → PTSD was comorbid but not causal; the autonomic lesion is intrinsic to ME/CFS.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] PEM from session emotional intensity → cognitive-emotional PEM confirmed (Pattern 5). The session intensity revealing PEM IS diagnostic: the patient's emotional processing ceiling is below the EMDR demand — confirms emotional exertion triggers PEM. Sessions should be paced within the patient's energy envelope.
 
@@ -971,9 +1661,19 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 #strong[HD] Threshold-modulatory — prostacyclin analog for pulmonary vasodilation; limited to documented PAH context.
 
 
-#strong[+] Prostacyclin deficiency rate-limiting for pulmonary vasodilation. IP receptor agonism restores pulmonary vascular tone — limited relevance outside documented PAH with ME/CFS.
+#finding(
+  claim: [Prostacyclin deficiency rate-limiting for pulmonary vasodilation. IP receptor agonism restores pulmonary vascular tone — limited relevance outside documented PAH with ME/CFS],
+  explanation: [Prostacyclin deficiency rate-limiting for pulmonary vasodilation. IP receptor agonism restores pulmonary vascular tone — limited relevance outside documented PAH with ME/CFS.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Prostacyclin pathway not rate-limiting.
+#finding(
+  claim: [Prostacyclin pathway not rate-limiting],
+  explanation: [Prostacyclin pathway not rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Jaw pain, flushing, headache → prostacyclin-mediated vasodilation — confirms IP receptor engagement. Minimal diagnostic value for ME/CFS without PAH.
 
@@ -985,9 +1685,19 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 #strong[HD] Threshold-modulatory — motilin agonist; prokinetic — tachyphylaxis within 2–4 weeks.
 
 
-#strong[+] Motilin receptor-mediated gastroparesis rate-limiting. Erythromycin is a motilin receptor agonist at low doses (50--100 mg) — the prokinetic effect is independent of antibiotic action. Improved gastric emptying confirms the motilin pathway is functional.
+#finding(
+  claim: [Motilin receptor-mediated gastroparesis rate-limiting. Erythromycin is a motilin receptor agonist at low doses (50--100 mg) — the prokinetic effect is independent of antibiotic action. Improved gastric emptying confirms the motilin pathway is functional],
+  explanation: [Motilin receptor-mediated gastroparesis rate-limiting. Erythromycin is a motilin receptor agonist at low doses (50--100 mg) — the prokinetic effect is independent of antibiotic action. Improved gastric emptying confirms the motilin pathway is functional.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Motilin receptor absent, desensitized, or accessory. If erythromycin fails but domperidone works → the gastroparesis is D2-mediated, not motilin-mediated. If erythromycin fails but pyridostigmine works → the lesion is parasympathetic, not motilin receptor.
+#finding(
+  claim: [Motilin receptor absent, desensitized, or accessory. If erythromycin fails but domperidone works → the gastroparesis is D2-mediated, not motilin-mediated. If erythromycin fails but pyridostigmine works → the lesion is parasympathetic, not motilin receptor],
+  explanation: [Motilin receptor absent, desensitized, or accessory. If erythromycin fails but domperidone works → the gastroparesis is D2-mediated, not motilin-mediated. If erythromycin fails but pyridostigmine works → the lesion is parasympathetic, not motilin receptor.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Tachyphylaxis within 2--4 weeks → motilin receptor desensitization — confirms the receptor is present but downregulates rapidly with sustained agonism (Pattern 4). The tachyphylaxis IS diagnostic: the motilin receptor is functional but cannot sustain prolonged activation — intermittent dosing (3--4 days/week) is the correct strategy. QT prolongation → hERG channel sensitivity — same risk as domperidone; ECG monitoring mandatory.
 
@@ -999,9 +1709,19 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 #strong[HD] Symptomatic — selective GABA-A α1 agonism for sleep onset; does not restore restorative sleep.
 
 
-#strong[+] GABA-A α1-mediated sleep initiation AND maintenance rate-limiting. Eszopiclone's longer half-life (~6h) vs zolpidem (~2.5h) targets sleep maintenance — confirmed by improved WASO if sleep maintenance is the dominant insomnia component.
+#finding(
+  claim: [GABA-A α1-mediated sleep initiation AND maintenance rate-limiting. Eszopiclone's longer half-life (~6h) vs zolpidem (~2.5h) targets sleep maintenance — confirmed by improved WASO if sleep maintenance is the dominant insomnia component],
+  explanation: [GABA-A α1-mediated sleep initiation AND maintenance rate-limiting. Eszopiclone's longer half-life (~6h) vs zolpidem (~2.5h) targets sleep maintenance — confirmed by improved WASO if sleep maintenance is the dominant insomnia component.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GABA-A not rate-limiting for sleep maintenance. If eszopiclone induces sleep onset but doesn't maintain → the sleep-maintenance pathology is non-GABAergic (orexin hyperarousal, adrenergic night-time surges, pain). If DORA works for maintenance but eszopiclone doesn't → orexin is the dominant maintenance pathology.
+#finding(
+  claim: [GABA-A not rate-limiting for sleep maintenance. If eszopiclone induces sleep onset but doesn't maintain → the sleep-maintenance pathology is non-GABAergic (orexin hyperarousal, adrenergic night-time surges, pain). If DORA works for maintenance but eszopiclone doesn't → orexin is the dominant maintenance pathology],
+  explanation: [GABA-A not rate-limiting for sleep maintenance. If eszopiclone induces sleep onset but doesn't maintain → the sleep-maintenance pathology is non-GABAergic (orexin hyperarousal, adrenergic night-time surges, pain). If DORA works for maintenance but eszopiclone doesn't → orexin is the dominant maintenance pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Metallic taste (dysgeusia) → eszopiclone-specific — confirms drug engagement but not ME/CFS-diagnostic. Complex sleep behaviors at therapeutic dose → striatal GABA-A disinhibition — same as all Z-drugs (Pattern 5). Next-day sedation → CYP3A4 slow metabolizer — eszopiclone accumulation confirms pharmacogenetic variation.
 
@@ -1013,9 +1733,19 @@ Corrective — MMP inhibition at sub-antimicrobial doses reduces ECM degradation
 Restorative — suppresses active herpesvirus replication; suppression only, not eradication — relapse on discontinuation
 
 
-#strong[+] Herpesvirus reactivation rate-limiting — similar diagnostic to valacyclovir but with penciclovir as the active drug. If famciclovir works where valacyclovir failed → the patient's viral strain is penciclovir-sensitive, acyclovir-resistant; or famciclovir's different pharmacokinetics achieve better tissue penetration.
+#finding(
+  claim: [Herpesvirus reactivation rate-limiting — similar diagnostic to valacyclovir but with penciclovir as the active drug. If famciclovir works where valacyclovir failed → the patient's viral strain is penciclovir-sensitive, acyclovir-resistant; or famciclovir's different pharmacokinetics achieve better tissue penetration],
+  explanation: [Herpesvirus reactivation rate-limiting — similar diagnostic to valacyclovir but with penciclovir as the active drug. If famciclovir works where valacyclovir failed → the patient's viral strain is penciclovir-sensitive, acyclovir-resistant; or famciclovir's different pharmacokinetics achieve better tissue penetration.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Herpesvirus not rate-limiting. If famciclovir fails but valganciclovir works → broader-spectrum antiviral needed; the virus is CMV or HHV-6, which famciclovir does not cover.
+#finding(
+  claim: [Herpesvirus not rate-limiting. If famciclovir fails but valganciclovir works → broader-spectrum antiviral needed; the virus is CMV or HHV-6, which famciclovir does not cover],
+  explanation: [Herpesvirus not rate-limiting. If famciclovir fails but valganciclovir works → broader-spectrum antiviral needed; the virus is CMV or HHV-6, which famciclovir does not cover.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated. Headache, nausea → standard nucleoside analogue GI intolerance. CNS effects less common than acyclovir/valacyclovir (no renal accumulation of penciclovir to the same degree).
 
@@ -1027,9 +1757,19 @@ Restorative — suppresses active herpesvirus replication; suppression only, not
 #strong[HD] Threshold-modulatory — H2 receptor antagonism; famotidine: gastric acid; cimetidine: T-cell enhancement via H2 on suppressor T cells.
 
 
-#strong[+] H2-mediated gastric histamine or T-cell modulation rate-limiting. Cimetidine's additional immunomodulatory effect (T-cell suppression) may provide benefit where famotidine doesn't.
+#finding(
+  claim: [H2-mediated gastric histamine or T-cell modulation rate-limiting. Cimetidine's additional immunomodulatory effect (T-cell suppression) may provide benefit where famotidine doesn't],
+  explanation: [H2-mediated gastric histamine or T-cell modulation rate-limiting. Cimetidine's additional immunomodulatory effect (T-cell suppression) may provide benefit where famotidine doesn't.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] H2 not rate-limiting for gastric or immune symptoms.
+#finding(
+  claim: [H2 not rate-limiting for gastric or immune symptoms],
+  explanation: [H2 not rate-limiting for gastric or immune symptoms.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Depression or suicidal ideation → paradoxical reactor in CNS histaminergic pathways (Pattern 2). Famotidine worse depression than cimetidine → off-target effect. Cimetidine worse depression than famotidine → CYP450 drug interaction (cimetidine inhibits multiple CYPs).
 
@@ -1041,9 +1781,19 @@ Restorative — suppresses active herpesvirus replication; suppression only, not
 #strong[HD] Threshold-modulatory — mineralocorticoid expanding plasma volume; compensates for hypovolemia without addressing volume regulation defect.
 
 
-#strong[+] Hypovolemia present (RAAS paradox). Mineralocorticoid-mediated volume expansion increases cardiac preload and improves orthostatic tolerance — confirms hypovolemic POTS subtype.
+#finding(
+  claim: [Hypovolemia present (RAAS paradox). Mineralocorticoid-mediated volume expansion increases cardiac preload and improves orthostatic tolerance — confirms hypovolemic POTS subtype],
+  explanation: [Hypovolemia present (RAAS paradox). Mineralocorticoid-mediated volume expansion increases cardiac preload and improves orthostatic tolerance — confirms hypovolemic POTS subtype.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Not hypovolemic. CT laxity or hyperadrenergic POTS. If midodrine works but fludrocortisone doesn't → neuropathic POTS (α1 agonists restore vascular tone; volume expansion alone insufficient).
+#finding(
+  claim: [Not hypovolemic. CT laxity or hyperadrenergic POTS. If midodrine works but fludrocortisone doesn't → neuropathic POTS (α1 agonists restore vascular tone; volume expansion alone insufficient)],
+  explanation: [Not hypovolemic. CT laxity or hyperadrenergic POTS. If midodrine works but fludrocortisone doesn't → neuropathic POTS (α1 agonists restore vascular tone; volume expansion alone insufficient).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Worsening orthostasis → venous pooling — volume expansion pools in legs rather than increasing cardiac preload in CT-lax patients (Pattern 2). Hypokalemia → RAAS defect localized to renin — confirms the RAAS paradox: renin is high but aldosterone is inappropriately normal or low. The hypokalemia from fludrocortisone reveals that aldosterone receptor activation is intact but endogenous aldosterone is deficient.
 
@@ -1055,9 +1805,19 @@ Restorative — suppresses active herpesvirus replication; suppression only, not
 Corrective — S1R agonism reduces ER stress and ISR activity; anti-inflammatory via S1R, not serotonin reuptake at low dose
 
 
-#strong[+] Sigma1R agonism rate-limiting — ER stress and autophagy deficit. Low-dose fluvoxamine (25--50 mg) preferentially activates sigma1R over 5-HT reuptake. Improvement confirms ER stress pathway is dominant, distinct from SSRI mechanism.
+#finding(
+  claim: [Sigma1R agonism rate-limiting — ER stress and autophagy deficit. Low-dose fluvoxamine (25--50 mg) preferentially activates sigma1R over 5-HT reuptake. Improvement confirms ER stress pathway is dominant, distinct from SSRI mechanism],
+  explanation: [Sigma1R agonism rate-limiting — ER stress and autophagy deficit. Low-dose fluvoxamine (25--50 mg) preferentially activates sigma1R over 5-HT reuptake. Improvement confirms ER stress pathway is dominant, distinct from SSRI mechanism.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Neither sigma1R nor 5-HT reuptake is rate-limiting.
+#finding(
+  claim: [Neither sigma1R nor 5-HT reuptake is rate-limiting],
+  explanation: [Neither sigma1R nor 5-HT reuptake is rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI distress at 25--50 mg → 5-HT3 hypersensitivity blocks the sigma1R window — the drug cannot reach sigma1R concentration before 5-HT side effects emerge (Pattern 3). Benefit lost at 100+ mg → sigma1R is dominant mechanism; 5-HT is counterproductive — confirms the sigma1R/5-HT selectivity window.
 
@@ -1069,9 +1829,19 @@ Corrective — S1R agonism reduces ER stress and ISR activity; anti-inflammatory
 Corrective — restores donor microbiome; if gut dysbiosis drives systemic inflammation, targets the microbial source — research-stage
 
 
-#strong[+] Gut microbiome dysbiosis rate-limiting for systemic symptoms. FMT restores donor microbiota → multi-system improvement confirms gut-brain axis pathology originates in the microbiome.
+#finding(
+  claim: [Gut microbiome dysbiosis rate-limiting for systemic symptoms. FMT restores donor microbiota → multi-system improvement confirms gut-brain axis pathology originates in the microbiome],
+  explanation: [Gut microbiome dysbiosis rate-limiting for systemic symptoms. FMT restores donor microbiota → multi-system improvement confirms gut-brain axis pathology originates in the microbiome.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Gut dysbiosis not rate-limiting; or the lesion is host-dependent (immune response to microbiota, not microbiota composition). If FMT fails but low-FODMAP diet works → microbial metabolites are rate-limiting, not microbial composition. If FMT fails but butyrate works → the missing metabolite is rate-limiting, not the ecosystem.
+#finding(
+  claim: [Gut dysbiosis not rate-limiting; or the lesion is host-dependent (immune response to microbiota, not microbiota composition). If FMT fails but low-FODMAP diet works → microbial metabolites are rate-limiting, not microbial composition. If FMT fails but butyrate works → the missing metabolite is rate-limiting, not the ecosystem],
+  explanation: [Gut dysbiosis not rate-limiting; or the lesion is host-dependent (immune response to microbiota, not microbiota composition). If FMT fails but low-FODMAP diet works → microbial metabolites are rate-limiting, not microbial composition. If FMT fails but butyrate works → the missing metabolite is rate-limiting, not the ecosystem.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Transient symptom flare 24--72h post-FMT → microbiome engraftment with immune recognition — the flare IS diagnostic: it confirms donor microbes are engrafting and host immunity is competent (Pattern 2). No flare + no improvement → engraftment failure — donor microbiota did not colonize, or host immune response rejected the transplant (Pattern 5).
 
@@ -1083,9 +1853,19 @@ Corrective — restores donor microbiome; if gut dysbiosis drives systemic infla
 Corrective — reduces fermentable substrates driving SIBO/fermentation; addresses bacterial substrate source
 
 
-#strong[+] Fermentable carbohydrate-driven GI symptoms rate-limiting for IBS/SIBO component. Low-FODMAP diet reduces bacterial fermentation → reduced bloating, distension, pain confirms bacterial overgrowth/fermentation is the dominant GI driver.
+#finding(
+  claim: [Fermentable carbohydrate-driven GI symptoms rate-limiting for IBS/SIBO component. Low-FODMAP diet reduces bacterial fermentation → reduced bloating, distension, pain confirms bacterial overgrowth/fermentation is the dominant GI driver],
+  explanation: [Fermentable carbohydrate-driven GI symptoms rate-limiting for IBS/SIBO component. Low-FODMAP diet reduces bacterial fermentation → reduced bloating, distension, pain confirms bacterial overgrowth/fermentation is the dominant GI driver.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Fermentation not the dominant GI pathology. If low-FODMAP fails but cromolyn works → mast-cell-driven GI symptoms, not fermentation. If low-FODMAP fails but pyridostigmine works → GI dysmotility is dominant, not fermentation.
+#finding(
+  claim: [Fermentation not the dominant GI pathology. If low-FODMAP fails but cromolyn works → mast-cell-driven GI symptoms, not fermentation. If low-FODMAP fails but pyridostigmine works → GI dysmotility is dominant, not fermentation],
+  explanation: [Fermentation not the dominant GI pathology. If low-FODMAP fails but cromolyn works → mast-cell-driven GI symptoms, not fermentation. If low-FODMAP fails but pyridostigmine works → GI dysmotility is dominant, not fermentation.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No response during elimination phase → SIBO absent or fermentation is not rate-limiting (Pattern 5). Response during elimination + specific food reintroduction triggers → maps the patient's individual FODMAP sensitivities. The reintroduction phase IS the diagnostic probe — each reintroduced FODMAP subgroup identifies which carbohydrate class triggers symptoms.
 
@@ -1097,9 +1877,19 @@ Corrective — reduces fermentable substrates driving SIBO/fermentation; address
 #strong[HD] Threshold-modulatory — α2δ Ca²⁺ channel subunit binding reducing neurotransmitter release; reduces central sensitization without correcting the driver.
 
 
-#strong[+] α2δ-CaV channels functional and rate-limiting for neuropathic pain. Gabapentinoid binding reduces calcium channel trafficking → reduced neurotransmitter release → central sensitization suppression.
+#finding(
+  claim: [α2δ-CaV channels functional and rate-limiting for neuropathic pain. Gabapentinoid binding reduces calcium channel trafficking → reduced neurotransmitter release → central sensitization suppression],
+  explanation: [α2δ-CaV channels functional and rate-limiting for neuropathic pain. Gabapentinoid binding reduces calcium channel trafficking → reduced neurotransmitter release → central sensitization suppression.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Central sensitization not α2δ-mediated. Consider PEA, LDN, or ketamine for non-gabapentinoid-responsive pain pathways.
+#finding(
+  claim: [Central sensitization not α2δ-mediated. Consider PEA, LDN, or ketamine for non-gabapentinoid-responsive pain pathways],
+  explanation: [Central sensitization not α2δ-mediated. Consider PEA, LDN, or ketamine for non-gabapentinoid-responsive pain pathways.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Sedation at minimal dose → severe central sensitization — calcium-channel-mediated neurotransmission is load-bearing for consciousness (Pattern 4). Paradoxical agitation → GAD dysfunction — GABA synthesis failure means α2δ block removes what little GABA tone exists (Pattern 2).
 
@@ -1111,9 +1901,19 @@ Corrective — reduces fermentable substrates driving SIBO/fermentation; address
 #strong[HD] Symptomatic — HARMFUL in ME/CFS; ignores PEM and energy-ratchet model; contraindicated (NICE 2021).
 
 
-#strong[+] None. GET is contraindicated in ME/CFS (NICE 2021). Any perceived improvement from GET represents PMC — the patient is borrowing energy against future PEM. The "improvement" IS the diagnostic signal of PMC.
+#finding(
+  claim: [None. GET is contraindicated in ME/CFS (NICE 2021). Any perceived improvement from GET represents PMC — the patient is borrowing energy against future PEM. The "improvement" IS the diagnostic signal of PMC],
+  explanation: [None. GET is contraindicated in ME/CFS (NICE 2021). Any perceived improvement from GET represents PMC — the patient is borrowing energy against future PEM. The "improvement" IS the diagnostic signal of PMC.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GET-induced PEM at low exercise increments → confirms the patient has ME/CFS with a narrow energy envelope. This is the expected and diagnostic outcome — GET functions as an iatrogenic CPET: it demonstrates the PEM threshold through harm.
+#finding(
+  claim: [GET-induced PEM at low exercise increments → confirms the patient has ME/CFS with a narrow energy envelope. This is the expected and diagnostic outcome — GET functions as an iatrogenic CPET: it demonstrates the PEM threshold through harm],
+  explanation: [GET-induced PEM at low exercise increments → confirms the patient has ME/CFS with a narrow energy envelope. This is the expected and diagnostic outcome — GET functions as an iatrogenic CPET: it demonstrates the PEM threshold through harm.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Active PEM induction — GET IS the side effect. The rate of deterioration with incremental exercise maps the patient's energy-ratchet sensitivity. GET functions diagnostically only in the perverse sense — it confirms ME/CFS by making the patient worse.
 
@@ -1125,9 +1925,19 @@ Corrective — reduces fermentable substrates driving SIBO/fermentation; address
 #strong[HD] Threshold-modulatory — multi-target neurovascular modulator improving microcirculation and cognition.
 
 
-#strong[+] Microvascular platelet aggregation is rate-limiting. Ginkgo improves microvascular perfusion through platelet inhibition and vasodilation.
+#finding(
+  claim: [Microvascular platelet aggregation is rate-limiting. Ginkgo improves microvascular perfusion through platelet inhibition and vasodilation],
+  explanation: [Microvascular platelet aggregation is rate-limiting. Ginkgo improves microvascular perfusion through platelet inhibition and vasodilation.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Platelet aggregation not rate-limiting. Microvascular pathology is non-platelet-mediated.
+#finding(
+  claim: [Platelet aggregation not rate-limiting. Microvascular pathology is non-platelet-mediated],
+  explanation: [Platelet aggregation not rate-limiting. Microvascular pathology is non-platelet-mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No bleeding at 240+ mg/day → platelet count and function intact (Pattern 5). Bleeding at standard dose → pre-existing platelet dysfunction or concurrent anticoagulant use — reveals occult hemostatic vulnerability.
 
@@ -1139,9 +1949,19 @@ Corrective — reduces fermentable substrates driving SIBO/fermentation; address
 Corrective — incretin axis modulation restoring metabolic-immune interface signaling — research-stage in ME/CFS
 
 
-#strong[+] GLP-1R-mediated inflammation reduction is rate-limiting. GLP-1 agonism suppresses systemic inflammation (reduced TNF-α, IL-6) and may improve metabolic efficiency.
+#finding(
+  claim: [GLP-1R-mediated inflammation reduction is rate-limiting. GLP-1 agonism suppresses systemic inflammation (reduced TNF-α, IL-6) and may improve metabolic efficiency],
+  explanation: [GLP-1R-mediated inflammation reduction is rate-limiting. GLP-1 agonism suppresses systemic inflammation (reduced TNF-α, IL-6) and may improve metabolic efficiency.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GLP-1R pathway not rate-limiting for inflammation. Or GI side effects prevent titration.
+#finding(
+  claim: [GLP-1R pathway not rate-limiting for inflammation. Or GI side effects prevent titration],
+  explanation: [GLP-1R pathway not rate-limiting for inflammation. Or GI side effects prevent titration.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Lean mass loss > anti-inflammatory benefit → sarcopenic ME/CFS — contraindicated because loss of muscle mass reduces mitochondrial capacity and metabolic reserve (Pattern 4). Severe GI → pre-existing gastroparesis unmasked — confirms autonomic GI involvement.
 
@@ -1153,9 +1973,19 @@ Corrective — incretin axis modulation restoring metabolic-immune interface sig
 #strong[HD] Substrate-repletion — exogenous glutathione; limited oral bioavailability — IV/liposomal better.
 
 
-#strong[+] Glutathione depletion rate-limiting for oxidative stress. Direct glutathione supplementation (IV or liposomal) bypasses the synthesis bottleneck — improvement confirms GSH deficiency is the dominant antioxidant lesion.
+#finding(
+  claim: [Glutathione depletion rate-limiting for oxidative stress. Direct glutathione supplementation (IV or liposomal) bypasses the synthesis bottleneck — improvement confirms GSH deficiency is the dominant antioxidant lesion],
+  explanation: [Glutathione depletion rate-limiting for oxidative stress. Direct glutathione supplementation (IV or liposomal) bypasses the synthesis bottleneck — improvement confirms GSH deficiency is the dominant antioxidant lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Glutathione not rate-limiting; or the lesion is in glutathione recycling (GPX, GR), not synthesis. If glutathione fails but NAC works → the synthesis precursor (cysteine) is rate-limiting, not direct GSH. If glutathione fails but sulforaphane works → Nrf2-mediated antioxidant enzyme induction is dominant, not GSH pool size.
+#finding(
+  claim: [Glutathione not rate-limiting; or the lesion is in glutathione recycling (GPX, GR), not synthesis. If glutathione fails but NAC works → the synthesis precursor (cysteine) is rate-limiting, not direct GSH. If glutathione fails but sulforaphane works → Nrf2-mediated antioxidant enzyme induction is dominant, not GSH pool size],
+  explanation: [Glutathione not rate-limiting; or the lesion is in glutathione recycling (GPX, GR), not synthesis. If glutathione fails but NAC works → the synthesis precursor (cysteine) is rate-limiting, not direct GSH. If glutathione fails but sulforaphane works → Nrf2-mediated antioxidant enzyme induction is dominant, not GSH pool size.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated. Oral glutathione has negligible bioavailability — if oral GSH produces benefit, the effect is likely placebo or prebiotic (gut microbiome metabolizes glutathione). The bioavailability confound is critical: response to oral GSH cannot be interpreted as systemic GSH repletion. IV or liposomal GSH required for systemic probe.
 
@@ -1167,9 +1997,19 @@ Corrective — incretin axis modulation restoring metabolic-immune interface sig
 #strong[HD] Substrate-repletion — amino acid supporting glutathione synthesis and collagen.
 
 
-#strong[+] Glycine-mediated inhibitory neurotransmission or glutathione precursor deficiency rate-limiting. Glycine is dual-action: inhibitory neurotransmitter (glycine receptor) and glutathione precursor (with glutamate + cysteine). Sleep improvement confirms glycinergic tone is rate-limiting for sleep maintenance.
+#finding(
+  claim: [Glycine-mediated inhibitory neurotransmission or glutathione precursor deficiency rate-limiting. Glycine is dual-action: inhibitory neurotransmitter (glycine receptor) and glutathione precursor (with glutamate + cysteine). Sleep improvement confirms glycinergic tone is rate-limiting for sleep maintenance],
+  explanation: [Glycine-mediated inhibitory neurotransmission or glutathione precursor deficiency rate-limiting. Glycine is dual-action: inhibitory neurotransmitter (glycine receptor) and glutathione precursor (with glutamate + cysteine). Sleep improvement confirms glycinergic tone is rate-limiting for sleep maintenance.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Glycine not rate-limiting for sleep or antioxidant synthesis. If glycine fails but theanine works → the inhibitory amino acid lesion is GABAergic, not glycinergic. If glycine fails but NAC + glutamine works → glutathione synthesis is rate-limiting but glycine is not the bottleneck.
+#finding(
+  claim: [Glycine not rate-limiting for sleep or antioxidant synthesis. If glycine fails but theanine works → the inhibitory amino acid lesion is GABAergic, not glycinergic. If glycine fails but NAC + glutamine works → glutathione synthesis is rate-limiting but glycine is not the bottleneck],
+  explanation: [Glycine not rate-limiting for sleep or antioxidant synthesis. If glycine fails but theanine works → the inhibitory amino acid lesion is GABAergic, not glycinergic. If glycine fails but NAC + glutamine works → glutathione synthesis is rate-limiting but glycine is not the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated amino acid. Sedation at 3 g → glycinergic tone was critically low; supplementation restores inhibitory neurotransmission (Pattern 1). No sedation at 3 g → glycinergic system is intact or desensitized (Pattern 5).
 
@@ -1181,9 +2021,19 @@ Corrective — incretin axis modulation restoring metabolic-immune interface sig
 Corrective — HMGB1 inhibitor targeting a causal DAMP mediator in PEM — research-stage
 
 
-#strong[+] HMGB1-driven TLR4/RAGE pathology rate-limiting. Glycyrrhizin directly binds and inhibits HMGB1, the key DAMP linking cellular stress to neuroinflammation. Improvement confirms HMGB1-mediated sterile inflammation is the dominant driver.
+#finding(
+  claim: [HMGB1-driven TLR4/RAGE pathology rate-limiting. Glycyrrhizin directly binds and inhibits HMGB1, the key DAMP linking cellular stress to neuroinflammation. Improvement confirms HMGB1-mediated sterile inflammation is the dominant driver],
+  explanation: [HMGB1-driven TLR4/RAGE pathology rate-limiting. Glycyrrhizin directly binds and inhibits HMGB1, the key DAMP linking cellular stress to neuroinflammation. Improvement confirms HMGB1-mediated sterile inflammation is the dominant driver.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] HMGB1 not rate-limiting for neuroinflammation. If glycyrrhizin fails but LDN works → TLR4 is rate-limiting but the ligand is not HMGB1 (LPS or other DAMPs). If glycyrrhizin fails but anakinra works → IL-1 is the dominant downstream effector regardless of HMGB1 status.
+#finding(
+  claim: [HMGB1 not rate-limiting for neuroinflammation. If glycyrrhizin fails but LDN works → TLR4 is rate-limiting but the ligand is not HMGB1 (LPS or other DAMPs). If glycyrrhizin fails but anakinra works → IL-1 is the dominant downstream effector regardless of HMGB1 status],
+  explanation: [HMGB1 not rate-limiting for neuroinflammation. If glycyrrhizin fails but LDN works → TLR4 is rate-limiting but the ligand is not HMGB1 (LPS or other DAMPs). If glycyrrhizin fails but anakinra works → IL-1 is the dominant downstream effector regardless of HMGB1 status.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Hypertension + hypokalemia (pseudohyperaldosteronism) at standard dose → 11β-HSD2 inhibition — glycyrrhizin's metabolite (glycyrrhetinic acid) blocks cortisol inactivation in the kidney, producing a mineralocorticoid-excess state (Pattern 4). The hypertension IS diagnostic: it confirms glycyrrhizin is absorbed and bioavailable; the 11β-HSD2 enzyme is sensitive. If no HTN at sustained dose → the patient is a rapid metabolizer — glycyrrhizin may be ineffective.
 
@@ -1195,9 +2045,19 @@ Corrective — HMGB1 inhibitor targeting a causal DAMP mediator in PEM — resea
 #strong[HD] Threshold-modulatory — α2A-adrenergic agonist with prefrontal specificity; modulates catecholamine inverted-U in prefrontal circuits.
 
 
-#strong[+] PFC NE deficiency rate-limiting for cognition. α2A agonism enhances PFC network connectivity by reducing cAMP and strengthening working-memory-related firing. Cognitive benefit confirms prefrontal noradrenergic lesion.
+#finding(
+  claim: [PFC NE deficiency rate-limiting for cognition. α2A agonism enhances PFC network connectivity by reducing cAMP and strengthening working-memory-related firing. Cognitive benefit confirms prefrontal noradrenergic lesion],
+  explanation: [PFC NE deficiency rate-limiting for cognition. α2A agonism enhances PFC network connectivity by reducing cAMP and strengthening working-memory-related firing. Cognitive benefit confirms prefrontal noradrenergic lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] PFC lesion is not NE-mediated — glutamatergic or circuit-level. If atomoxetine improves cognition but guanfacine doesn't → presynaptic NE release is the bottleneck, not postsynaptic α2A.
+#finding(
+  claim: [PFC lesion is not NE-mediated — glutamatergic or circuit-level. If atomoxetine improves cognition but guanfacine doesn't → presynaptic NE release is the bottleneck, not postsynaptic α2A],
+  explanation: [PFC lesion is not NE-mediated — glutamatergic or circuit-level. If atomoxetine improves cognition but guanfacine doesn't → presynaptic NE release is the bottleneck, not postsynaptic α2A.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] BP crash at 1 mg → sympathetically dependent BP — requires midodrine to access cognitive benefit. This combination (guanfacine + midodrine) isolates the PFC cognitive node: midodrine prevents peripheral hypotension; guanfacine improves central cognition (Pattern 4). No BP change + no cognitive benefit → PFC α2A desensitized or the cognitive lesion is non-noradrenergic (Pattern 5).
 
@@ -1209,9 +2069,19 @@ Corrective — HMGB1 inhibitor targeting a causal DAMP mediator in PEM — resea
 #strong[HD] Threshold-modulatory — H1 receptor blockade preventing histamine-mediated symptoms without reducing mast cell degranulation.
 
 
-#strong[+] Mast cell histamine is rate-limiting for symptoms. H1 blockade confirms histamine-driven pathology. Ketotifen additionally stabilizes mast cells (dual mechanism).
+#finding(
+  claim: [Mast cell histamine is rate-limiting for symptoms. H1 blockade confirms histamine-driven pathology. Ketotifen additionally stabilizes mast cells (dual mechanism)],
+  explanation: [Mast cell histamine is rate-limiting for symptoms. H1 blockade confirms histamine-driven pathology. Ketotifen additionally stabilizes mast cells (dual mechanism).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Histamine not the dominant mast cell mediator — PGD2, tryptase, or leukotrienes are dominant. If antihistamines fail but montelukast works → leukotrienes are dominant. If antihistamines fail but aspirin works → PGD2 is dominant.
+#finding(
+  claim: [Histamine not the dominant mast cell mediator — PGD2, tryptase, or leukotrienes are dominant. If antihistamines fail but montelukast works → leukotrienes are dominant. If antihistamines fail but aspirin works → PGD2 is dominant],
+  explanation: [Histamine not the dominant mast cell mediator — PGD2, tryptase, or leukotrienes are dominant. If antihistamines fail but montelukast works → leukotrienes are dominant. If antihistamines fail but aspirin works → PGD2 is dominant.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No sedation at standard dose → CNS H1 desensitized from chronic MCAS histamine exposure (Pattern 5). Sedation at low dose → histaminergic wakefulness depends on MCAS histamine (Pattern 1). Ketotifen sedation threshold identifies CNS mast cell involvement specifically — the dose at which sedation occurs is an ordinal readout of histaminergic arousal reserve.
 
@@ -1223,9 +2093,19 @@ Corrective — HMGB1 inhibitor targeting a causal DAMP mediator in PEM — resea
 Corrective — increases tissue oxygen delivery; may overcome microvascular oxygen extraction deficit — research-stage
 
 
-#strong[+] Tissue hypoxia rate-limiting for PEM and mitochondrial dysfunction. HBOT increases plasma-dissolved oxygen → bypasses RBC-dependent oxygen delivery → improvement confirms tissue hypoxia is the dominant perfusion lesion.
+#finding(
+  claim: [Tissue hypoxia rate-limiting for PEM and mitochondrial dysfunction. HBOT increases plasma-dissolved oxygen → bypasses RBC-dependent oxygen delivery → improvement confirms tissue hypoxia is the dominant perfusion lesion],
+  explanation: [Tissue hypoxia rate-limiting for PEM and mitochondrial dysfunction. HBOT increases plasma-dissolved oxygen → bypasses RBC-dependent oxygen delivery → improvement confirms tissue hypoxia is the dominant perfusion lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Tissue hypoxia not rate-limiting — mitochondrial dysfunction is intrinsic, not oxygen-delivery-dependent. If HBOT fails but mitochondrial supplements work → the lesion is in mitochondrial utilization of oxygen, not oxygen delivery.
+#finding(
+  claim: [Tissue hypoxia not rate-limiting — mitochondrial dysfunction is intrinsic, not oxygen-delivery-dependent. If HBOT fails but mitochondrial supplements work → the lesion is in mitochondrial utilization of oxygen, not oxygen delivery],
+  explanation: [Tissue hypoxia not rate-limiting — mitochondrial dysfunction is intrinsic, not oxygen-delivery-dependent. If HBOT fails but mitochondrial supplements work → the lesion is in mitochondrial utilization of oxygen, not oxygen delivery.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] PEM from procedure-day energy cost → the physical demand of traveling to/from and undergoing HBOT exceeds the patient's energy envelope. This IS diagnostic: the patient's exertion ceiling is below the treatment-access threshold. Barotrauma → standard HBOT complication; not ME/CFS-specific.
 
@@ -1237,9 +2117,19 @@ Corrective — increases tissue oxygen delivery; may overcome microvascular oxyg
 Corrective — anticoagulant reducing microthrombi; if microclots are pathological, targets the coagulation cascade — bleeding risk; research-stage
 
 
-#strong[+] Antithrombin III-mediated coagulation rate-limiting for microclot pathology. Heparin potentiates antithrombin III → inhibits thrombin and factor Xa → fibrin formation blocked. Improvement confirms thrombin-driven microclot formation is the dominant lesion.
+#finding(
+  claim: [Antithrombin III-mediated coagulation rate-limiting for microclot pathology. Heparin potentiates antithrombin III → inhibits thrombin and factor Xa → fibrin formation blocked. Improvement confirms thrombin-driven microclot formation is the dominant lesion],
+  explanation: [Antithrombin III-mediated coagulation rate-limiting for microclot pathology. Heparin potentiates antithrombin III → inhibits thrombin and factor Xa → fibrin formation blocked. Improvement confirms thrombin-driven microclot formation is the dominant lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Thrombin-driven coagulation not rate-limiting. If heparin fails but apixaban works → Factor Xa inhibition without thrombin inhibition is sufficient; or heparin's dependence on antithrombin III is the bottleneck (AT-III deficiency). If both fail → coagulation is not the dominant microclot driver — NETs or platelet aggregation dominant.
+#finding(
+  claim: [Thrombin-driven coagulation not rate-limiting. If heparin fails but apixaban works → Factor Xa inhibition without thrombin inhibition is sufficient; or heparin's dependence on antithrombin III is the bottleneck (AT-III deficiency). If both fail → coagulation is not the dominant microclot driver — NETs or platelet aggregation dominant],
+  explanation: [Thrombin-driven coagulation not rate-limiting. If heparin fails but apixaban works → Factor Xa inhibition without thrombin inhibition is sufficient; or heparin's dependence on antithrombin III is the bottleneck (AT-III deficiency). If both fail → coagulation is not the dominant microclot driver — NETs or platelet aggregation dominant.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Bleeding at prophylactic dose → antithrombin III sensitivity — confirms AT-III is present and heparin-responsive but the therapeutic window is narrow (Pattern 1). Heparin-induced thrombocytopenia (HIT) at 5--14 days → PF4-heparin antibody formation — the patient forms antibodies to the heparin-PF4 complex; HIT is permanently contraindicated for all heparins (Pattern D).
 
@@ -1257,9 +2147,19 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 #strong[HD] Substrate-repletion — repletes iron if deficient; supports hemoglobin and ETC — contraindicated if iron overload.
 
 
-#strong[+] Iron deficiency rate-limiting for oxygen transport, ETC function, and neurotransmitter synthesis. Iron repletion restores haemoglobin, mitochondrial complexes, and catecholamine synthesis — confirms iron deficiency was the dominant correctable lesion. *Phenotype before prescribing:* if ferritin $<$ 30 µg/L or TSAT $<$ 16% (+ normal CRP) → genuine iron deficiency → iron supplementation indicated regardless of ME/CFS or LC diagnosis.
+#finding(
+  claim: [Iron deficiency rate-limiting for oxygen transport, ETC function, and neurotransmitter synthesis. Iron repletion restores haemoglobin, mitochondrial complexes, and catecholamine synthesis — confirms iron deficiency was the dominant correctable lesion. *Phenotype before prescribing:* if ferritin $<$ 30 µg/L or TSAT $<$ 16% (+ normal CRP) → genuine iron deficiency → iron supplementation indicated regardless of ME/CFS or LC diagnosis],
+  explanation: [Iron deficiency rate-limiting for oxygen transport, ETC function, and neurotransmitter synthesis. Iron repletion restores haemoglobin, mitochondrial complexes, and catecholamine synthesis — confirms iron deficiency was the dominant correctable lesion. *Phenotype before prescribing:* if ferritin $<$ 30 µg/L or TSAT $<$ 16% (+ normal CRP) → genuine iron deficiency → iron supplementation indicated regardless of ME/CFS or LC diagnosis.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Iron not rate-limiting. Ferritin normal + no improvement → fatigue is not iron-mediated — one of the most common ME/CFS mimics excluded. If iron supplementation causes worsening → iron overload, ferroptosis risk, or functional iron deficiency (ferritin $>$150 µg/L, TSAT $<$ 20% — the body has iron but it is trapped in macrophages, @hyp:iron-redox-polarity-diagnostic-bifurcation). In functional iron deficiency, iron supplementation may be harmful: iron is sequestered via hepcidin-independent mechanisms (@spec:hepcidin-independent-ferroportin-blockade) and additional oral iron fuels oxidative stress and ferroptosis risk.
+#finding(
+  claim: [Iron not rate-limiting. Ferritin normal + no improvement → fatigue is not iron-mediated — one of the most common ME/CFS mimics excluded. If iron supplementation causes worsening → iron overload, ferroptosis risk, or functional iron deficiency (ferritin $>$150 µg/L, TSAT $<$ 20% — the body has iron but it is trapped in macrophages, @hyp:iron-redox-polarity-diagnostic-bifurcation). In functional iron deficiency, iron supplementation may be harmful: iron is sequestered via hepcidin-independent mechanisms (@spec:hepcidin-independent-ferroportin-blockade) and additional oral iron fuels oxidative stress and ferroptosis risk],
+  explanation: [Iron not rate-limiting. Ferritin normal + no improvement → fatigue is not iron-mediated — one of the most common ME/CFS mimics excluded. If iron supplementation causes worsening → iron overload, ferroptosis risk, or functional iron deficiency (ferritin $>$150 µg/L, TSAT $<$ 20% — the body has iron but it is trapped in macrophages, @hyp:iron-redox-polarity-diagnostic-bifurcation). In functional iron deficiency, iron supplementation may be harmful: iron is sequestered via hepcidin-independent mechanisms (@spec:hepcidin-independent-ferroportin-blockade) and additional oral iron fuels oxidative stress and ferroptosis risk.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI intolerance → standard iron GI side effects — switch to iron bisglycinate or heme iron polypeptide. No ferritin rise at 4 weeks → ferroportin blockade or hepcidin-independent iron trapping — the patient may have functional iron deficiency (Pattern 4, @spec:hepcidin-independent-ferroportin-blockade). NOTE: hepcidin is LOW in ME/CFS (@Kavyani2023Hepcidin), not high — "hepcidin blockade" is not the mechanism. The non-response IS diagnostic: the patient has functional iron deficiency (trapped iron), not simple iron deficiency — IV iron may bypass the enteral block, or iron chelation (deferiprone, @spec:deferiprone-functional-iron-deficiency) may be more appropriate if the problem is iron trapping rather than iron shortage.
 
@@ -1271,9 +2171,19 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 #strong[HD] Threshold-modulatory — reduces heart rate via If channel inhibition; does not address why compensatory tachycardia is needed.
 
 
-#strong[+] HR control without β2 blockade → rules out metabolic cost of beta-blockers. Pure If-channel blockade confirms SA node overactivation is rate-limiting, and the patient can tolerate HR reduction without β2-mediated fatigue.
+#finding(
+  claim: [HR control without β2 blockade → rules out metabolic cost of beta-blockers. Pure If-channel blockade confirms SA node overactivation is rate-limiting, and the patient can tolerate HR reduction without β2-mediated fatigue],
+  explanation: [HR control without β2 blockade → rules out metabolic cost of beta-blockers. Pure If-channel blockade confirms SA node overactivation is rate-limiting, and the patient can tolerate HR reduction without β2-mediated fatigue.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] SA node intrinsic dysfunction — chronotropic incompetence, not autonomic. If ivabradine produces bradycardia without symptom improvement → the tachycardia was compensatory for low stroke volume.
+#finding(
+  claim: [SA node intrinsic dysfunction — chronotropic incompetence, not autonomic. If ivabradine produces bradycardia without symptom improvement → the tachycardia was compensatory for low stroke volume],
+  explanation: [SA node intrinsic dysfunction — chronotropic incompetence, not autonomic. If ivabradine produces bradycardia without symptom improvement → the tachycardia was compensatory for low stroke volume.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Bradycardia ceiling → SA node lower limit reached before therapeutic HR is achieved — chronotropic incompetence confirmed (Pattern 4). At that point, the drug cannot lower HR further without causing symptoms. Visual phosphenes → If-current in retinal cells affected — benign, resolves with dose reduction.
 
@@ -1285,9 +2195,19 @@ See @sec:medication-reference entry for BC007 above (BC007 / Immunoadsorption). 
 Corrective — neutralizes autoantibodies + immunomodulation; does not eliminate the plasma cell source — transient effect
 
 
-#strong[+] GPCR AAb present and rate-limiting. IgG-mediated neutralization + immunomodulation → functional improvement confirms autoimmune mechanism. Transient response → B-cell repopulation restores AAb production.
+#finding(
+  claim: [GPCR AAb present and rate-limiting. IgG-mediated neutralization + immunomodulation → functional improvement confirms autoimmune mechanism. Transient response → B-cell repopulation restores AAb production],
+  explanation: [GPCR AAb present and rate-limiting. IgG-mediated neutralization + immunomodulation → functional improvement confirms autoimmune mechanism. Transient response → B-cell repopulation restores AAb production.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] No AAb, AAb not rate-limiting, or IgG/IgM mismatch.
+#finding(
+  claim: [No AAb, AAb not rate-limiting, or IgG/IgM mismatch],
+  explanation: [No AAb, AAb not rate-limiting, or IgG/IgM mismatch.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Transient flare 48--72h → confirms AAb neutralization — immune complex formation + complement activation (Pattern 2). Flare >7 days → complement-MCAS amplification loop — C3a/C5a → mast cell degranulation → histamine, tryptase, PGD2 → further complement activation → sustained inflammatory amplification. No flare + no response → immune exhaustion (Pattern 5).
 
@@ -1299,9 +2219,19 @@ Corrective — neutralizes autoantibodies + immunomodulation; does not eliminate
 #strong[HD] Threshold-modulatory — NMDA receptor antagonist with rapid neuroplastic effects — research-stage; not established in ME/CFS.
 
 
-#strong[+] NMDA-mediated excitotoxicity (QUIN-driven) rate-limiting for pain and cognition. Low-dose ketamine blocks NMDA receptor overactivation from quinolinic acid in the kynurenine pathway.
+#finding(
+  claim: [NMDA-mediated excitotoxicity (QUIN-driven) rate-limiting for pain and cognition. Low-dose ketamine blocks NMDA receptor overactivation from quinolinic acid in the kynurenine pathway],
+  explanation: [NMDA-mediated excitotoxicity (QUIN-driven) rate-limiting for pain and cognition. Low-dose ketamine blocks NMDA receptor overactivation from quinolinic acid in the kynurenine pathway.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NMDA system not rate-limiting.
+#finding(
+  claim: [NMDA system not rate-limiting],
+  explanation: [NMDA system not rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Psychotomimetic reaction at 0.1 mg/kg → NMDA hypofunction — kynurenic acid dominance blocks basal NMDA tone; ketamine further reduces NMDA signaling below the threshold for normal perception (Pattern 4). Pain relief without psychotomimetic effects → QUIN-driven excitotoxicity confirmed — NMDA blockade is therapeutic, not disruptive.
 
@@ -1313,9 +2243,19 @@ Corrective — neutralizes autoantibodies + immunomodulation; does not eliminate
 #strong[HD] Threshold-modulatory — mast cell stabilizer + H1 antagonist; prevents degranulation without addressing trigger.
 
 
-#strong[+] Mast cell degranulation rate-limiting. Dual mechanism — H1 antagonism + mast cell membrane stabilization — confirms MCAS is treatable with mast-cell-directed therapy.
+#finding(
+  claim: [Mast cell degranulation rate-limiting. Dual mechanism — H1 antagonism + mast cell membrane stabilization — confirms MCAS is treatable with mast-cell-directed therapy],
+  explanation: [Mast cell degranulation rate-limiting. Dual mechanism — H1 antagonism + mast cell membrane stabilization — confirms MCAS is treatable with mast-cell-directed therapy.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Mast cells not rate-limiting; or IgE-driven MCAS not ketotifen-responsive. If ketotifen fails but cromolyn works → gut MCAS with differential drug sensitivity. If ketotifen fails but montelukast works → leukotrienes are dominant mediator, not histamine.
+#finding(
+  claim: [Mast cells not rate-limiting; or IgE-driven MCAS not ketotifen-responsive. If ketotifen fails but cromolyn works → gut MCAS with differential drug sensitivity. If ketotifen fails but montelukast works → leukotrienes are dominant mediator, not histamine],
+  explanation: [Mast cells not rate-limiting; or IgE-driven MCAS not ketotifen-responsive. If ketotifen fails but cromolyn works → gut MCAS with differential drug sensitivity. If ketotifen fails but montelukast works → leukotrienes are dominant mediator, not histamine.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Sedation at 0.5 mg → histaminergic wakefulness depends on MCAS histamine release — confirms MCAS is load-bearing for arousal (Pattern 1). No sedation at 2 mg → CNS H1 desensitized from chronic MCAS histamine (Pattern 5). Weight gain at low dose → H1-mediated appetite regulation is histamine-dependent — confirms systemic MCAS.
 
@@ -1327,9 +2267,19 @@ Corrective — neutralizes autoantibodies + immunomodulation; does not eliminate
 #strong[HD] Substrate-repletion — supplies carnitine for fatty acid transport into mitochondria.
 
 
-#strong[+] FAO is functional and rate-limiting for ATP. L-carnitine shuttles fatty acids into mitochondria — improvement confirms FAO is the bottleneck and the shuttle mechanism is intact.
+#finding(
+  claim: [FAO is functional and rate-limiting for ATP. L-carnitine shuttles fatty acids into mitochondria — improvement confirms FAO is the bottleneck and the shuttle mechanism is intact],
+  explanation: [FAO is functional and rate-limiting for ATP. L-carnitine shuttles fatty acids into mitochondria — improvement confirms FAO is the bottleneck and the shuttle mechanism is intact.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] FAO not bottleneck — PDH/ETC defect dominates. If carnitine fails but CoQ10 works → the bottleneck is ETC, not FAO.
+#finding(
+  claim: [FAO not bottleneck — PDH/ETC defect dominates. If carnitine fails but CoQ10 works → the bottleneck is ETC, not FAO],
+  explanation: [FAO not bottleneck — PDH/ETC defect dominates. If carnitine fails but CoQ10 works → the bottleneck is ETC, not FAO.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Worsening of fatigue → lipid peroxide production — FAO is functional but ETC downstream is blocked; fatty acid oxidation produces ROS without ATP (Pattern 5). Try NAC first to boost glutathione before re-challenging carnitine — if NAC prevents the worsening, it confirms lipid peroxide was the mechanism.
 
@@ -1341,9 +2291,19 @@ Corrective — neutralizes autoantibodies + immunomodulation; does not eliminate
 #strong[HD] Threshold-modulatory — dopamine precursor compensating for deficient DA synthesis; peripheral decarboxylase inhibitor limits systemic effects.
 
 
-#strong[+] DA synthesis is the bottleneck — AADC functional, substrate-limited. If L-DOPA works → the lesion is upstream of AADC (tyrosine hydroxylase, GTP cyclohydrolase, or substrate). If pramipexole worked but L-DOPA didn't → the DA system works postsynaptically but synthesis is not the bottleneck.
+#finding(
+  claim: [DA synthesis is the bottleneck — AADC functional, substrate-limited. If L-DOPA works → the lesion is upstream of AADC (tyrosine hydroxylase, GTP cyclohydrolase, or substrate). If pramipexole worked but L-DOPA didn't → the DA system works postsynaptically but synthesis is not the bottleneck],
+  explanation: [DA synthesis is the bottleneck — AADC functional, substrate-limited. If L-DOPA works → the lesion is upstream of AADC (tyrosine hydroxylase, GTP cyclohydrolase, or substrate). If pramipexole worked but L-DOPA didn't → the DA system works postsynaptically but synthesis is not the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Lesion not at DA synthesis — postsynaptic D2/D3 absent or desensitized, or non-dopaminergic. If L-DOPA fails but methylphenidate works → presynaptic release is intact but synthesis is not the bottleneck (DAT-mediated recycling is dominant).
+#finding(
+  claim: [Lesion not at DA synthesis — postsynaptic D2/D3 absent or desensitized, or non-dopaminergic. If L-DOPA fails but methylphenidate works → presynaptic release is intact but synthesis is not the bottleneck (DAT-mediated recycling is dominant)],
+  explanation: [Lesion not at DA synthesis — postsynaptic D2/D3 absent or desensitized, or non-dopaminergic. If L-DOPA fails but methylphenidate works → presynaptic release is intact but synthesis is not the bottleneck (DAT-mediated recycling is dominant).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Nausea/OH at 1/4 standard tablet → D2 supersensitivity in area postrema and vasculature (Pattern 1) — same supersensitivity pattern as pramipexole and aripiprazole. No benefit at full dose → lesion is not at DA synthesis (Pattern 5). Dyskinesia at low dose → DA receptor supersensitivity with postsynaptic hypersensitivity.
 
@@ -1355,9 +2315,19 @@ Corrective — neutralizes autoantibodies + immunomodulation; does not eliminate
 #strong[HD] Threshold-modulatory — voltage-gated Na⁺ channel inhibitor reducing neuronal hyperexcitability; does not address what creates it.
 
 
-#strong[+] Voltage-gated sodium channel-mediated glutamate release rate-limiting for neuropathic pain and sensory hypersensitivity. Lamotrigine stabilizes presynaptic Na⁺ channels → reduced glutamate release → improvement confirms glutamatergic hyperexcitability is the dominant pain pathway.
+#finding(
+  claim: [Voltage-gated sodium channel-mediated glutamate release rate-limiting for neuropathic pain and sensory hypersensitivity. Lamotrigine stabilizes presynaptic Na⁺ channels → reduced glutamate release → improvement confirms glutamatergic hyperexcitability is the dominant pain pathway],
+  explanation: [Voltage-gated sodium channel-mediated glutamate release rate-limiting for neuropathic pain and sensory hypersensitivity. Lamotrigine stabilizes presynaptic Na⁺ channels → reduced glutamate release → improvement confirms glutamatergic hyperexcitability is the dominant pain pathway.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Glutamatergic hyperexcitability not rate-limiting. If lamotrigine fails but gabapentin works → the pain is α2δ-Ca²⁺ channel-mediated, not Na⁺ channel-mediated. If lamotrigine fails but LDN works → the pain is microglial/TLR4-mediated, not synaptic.
+#finding(
+  claim: [Glutamatergic hyperexcitability not rate-limiting. If lamotrigine fails but gabapentin works → the pain is α2δ-Ca²⁺ channel-mediated, not Na⁺ channel-mediated. If lamotrigine fails but LDN works → the pain is microglial/TLR4-mediated, not synaptic],
+  explanation: [Glutamatergic hyperexcitability not rate-limiting. If lamotrigine fails but gabapentin works → the pain is α2δ-Ca²⁺ channel-mediated, not Na⁺ channel-mediated. If lamotrigine fails but LDN works → the pain is microglial/TLR4-mediated, not synaptic.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Rash at subtherapeutic dose (25 mg) → risk of Stevens-Johnson syndrome — the slow titration is mandatory; rash at low dose is the canary (Pattern A). Worsening of brain fog → reduced glutamate release suppresses already-deficient glutamatergic cognition — confirms the cognitive lesion is glutamate-deficient, not glutamate-toxic (Pattern 4). This is the same principle as memantine — both unmask a glutamate-deficient cognitive network.
 
@@ -1369,9 +2339,19 @@ Corrective — neutralizes autoantibodies + immunomodulation; does not eliminate
 Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut drives inflammation, targets a structural barrier defect — research-stage
 
 
-#strong[+] Zonulin-mediated intestinal permeability rate-limiting for metabolic endotoxemia and systemic inflammation. Larazotide blocks zonulin → tight junction closure → reduced LPS translocation → improvement confirms gut barrier dysfunction is the source of systemic inflammation.
+#finding(
+  claim: [Zonulin-mediated intestinal permeability rate-limiting for metabolic endotoxemia and systemic inflammation. Larazotide blocks zonulin → tight junction closure → reduced LPS translocation → improvement confirms gut barrier dysfunction is the source of systemic inflammation],
+  explanation: [Zonulin-mediated intestinal permeability rate-limiting for metabolic endotoxemia and systemic inflammation. Larazotide blocks zonulin → tight junction closure → reduced LPS translocation → improvement confirms gut barrier dysfunction is the source of systemic inflammation.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Intestinal permeability not rate-limiting. If larazotide fails but low-FODMAP works → fermentation is dominant, not permeability. If larazotide fails but cromolyn works → mast cells are the gut driver, not zonulin-mediated permeability.
+#finding(
+  claim: [Intestinal permeability not rate-limiting. If larazotide fails but low-FODMAP works → fermentation is dominant, not permeability. If larazotide fails but cromolyn works → mast cells are the gut driver, not zonulin-mediated permeability],
+  explanation: [Intestinal permeability not rate-limiting. If larazotide fails but low-FODMAP works → fermentation is dominant, not permeability. If larazotide fails but cromolyn works → mast cells are the gut driver, not zonulin-mediated permeability.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — zonulin antagonist with local gut action; minimal systemic absorption. No systemic side effects. The null response is the diagnostic output — rules out zonulin-mediated permeability as the dominant mechanism.
 
@@ -1392,11 +2372,21 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 - No dose matters (equivalent benefit at all doses or no benefit at any dose) → either LDN effective via a saturating mechanism (receptor reserve high) or LDN ineffective for this patient.
 - Worsening at 0.5 mg (paradoxical reactor) → opioid systems critically load-bearing for mood/pain homeostasis; avoid all opioid-modulating drugs.
 
-#strong[+] Channelopathy rate-limiting — TRPM3 dysfunction confirmed. TLR4 antagonism on microglia → reduced neuroinflammation. Combined with clinical improvement across multiple domains (pain, cognition, PEM) suggests TRPM3/TLR4 pathway is dominant.
+#finding(
+  claim: [Channelopathy rate-limiting — TRPM3 dysfunction confirmed. TLR4 antagonism on microglia → reduced neuroinflammation. Combined with clinical improvement across multiple domains (pain, cognition, PEM) suggests TRPM3/TLR4 pathway is dominant],
+  explanation: [Channelopathy rate-limiting — TRPM3 dysfunction confirmed. TLR4 antagonism on microglia → reduced neuroinflammation. Combined with clinical improvement across multiple domains (pain, cognition, PEM) suggests TRPM3/TLR4 pathway is dominant.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[+]SE Dose-dependent mechanism identification: the dose at which benefit peaks reveals which target is rate-limiting. 0.5--1.5 mg peak → TLR4/Nrf2 hormetic window dominant. 3.0--4.5 mg peak → TRPM3 restoration dominant. Benefit lost on dose increase within LDN range → hormetic window crossed; the inversion point measures Nrf2 transcriptional reserve.
 
-#strong[−] TRPM3 absent, non-responsive, or not rate-limiting. If LDN fails but aripiprazole works → DA-specific lesion, not TRPM3. If LDN fails but IVIG works → AAb-driven, not TLR4-driven. *Critical:* non-response when only high doses (3.0--4.5 mg) were trialled is uninterpretable — the TLR4/Nrf2 hormetic window (0.5--1.5 mg) may be the patient's therapeutic range and was never tested. Non-response cannot be concluded unless both the low-dose window and the 3.0--4.5 mg range have been trialled.
+#finding(
+  claim: [TRPM3 absent, non-responsive, or not rate-limiting. If LDN fails but aripiprazole works → DA-specific lesion, not TRPM3. If LDN fails but IVIG works → AAb-driven, not TLR4-driven. *Critical:* non-response when only high doses (3.0--4.5 mg) were trialled is uninterpretable — the TLR4/Nrf2 hormetic window (0.5--1.5 mg) may be the patient's therapeutic range and was never tested. Non-response cannot be concluded unless both the low-dose window and the 3.0--4.5 mg range have been trialled],
+  explanation: [TRPM3 absent, non-responsive, or not rate-limiting. If LDN fails but aripiprazole works → DA-specific lesion, not TRPM3. If LDN fails but IVIG works → AAb-driven, not TLR4-driven. *Critical:* non-response when only high doses (3.0--4.5 mg) were trialled is uninterpretable — the TLR4/Nrf2 hormetic window (0.5--1.5 mg) may be the patient's therapeutic range and was never tested. Non-response cannot be concluded unless both the low-dose window and the 3.0--4.5 mg range have been trialled.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 *Dose-specific side effects (diagnostic):*
 #strong[SE0] Systemic sickness (malaise, flu-like, nausea) at a specific dose, absent below → within-range hormetic crossing. TLR4 blockade threshold crossed between tolerated dose and sickness dose → Nrf2-mediated M2 microglial programme collapses → M1 reversion → cytokine surge. The inversion dose identifies the patient's TLR4 hormetic ceiling. Narrow window (sickness at 4.5 mg in a patient fine at 4.0 mg) → Nrf2 reserve is narrow, consistent with the tipping-point being near-maximal TLR4 blockade. Broad window (sickness only at 4.5 mg, fine at all lower doses) → Nrf2 reserve adequate but TLR4 signal is strong. Sickness at 1.5 mg → very narrow reserve; patient may need 0.5 mg.
@@ -1419,11 +2409,26 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 #strong[HD] Mixed — LDN: Restorative/TRPM3 + Corrective/TLR4-endorphin. Aripiprazole: Threshold-modulatory/microglial. Complementary targets on same cell population.
 
 
-#strong[+] Neuroinflammation + DA deficiency are independent co-rate-limiting mechanisms. If the combination produces greater improvement than either alone → dual-pathway convergence confirmed — TLR4-microglial + D2/D3 are separate bottlenecks that reinforce each other.
+#finding(
+  claim: [Neuroinflammation + DA deficiency are independent co-rate-limiting mechanisms. If the combination produces greater improvement than either alone → dual-pathway convergence confirmed — TLR4-microglial + D2/D3 are separate bottlenecks that reinforce each other],
+  explanation: [Neuroinflammation + DA deficiency are independent co-rate-limiting mechanisms. If the combination produces greater improvement than either alone → dual-pathway convergence confirmed — TLR4-microglial + D2/D3 are separate bottlenecks that reinforce each other.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[+] If LDN produced a dose-specific ceiling signal (sickness at 4.5 mg) with no therapeutic window at any tested dose, but LDA produces sharp threshold benefit (PEM protection at 1 mg, absent at 0.5 mg) → microglial involvement confirmed by two independent probes on the same cell population, but the therapeutically accessible receptor is D2, not TLR4. LDN's ceiling proves receptor engagement: the microglial TLR4 population is present and functional. But the hormetic collapse (sickness at 4.5 mg) occurred before any therapeutic window appeared — TLR4 blockade cannot produce benefit in this patient because the ceiling precedes the window. LDA's sharp threshold independently confirms the same microglial population is D2-responsive. The asymmetry — TLR4 has a ceiling with no window, D2 has a window with no ceiling below 2 mg — IS the diagnostic signal. This pattern excludes TLR4 as a therapeutic target while confirming D2 as the dominant microglial activation pathway. It is stronger evidence than simple LDN non-response, which could reflect inadequate dose-range testing or receptor inaccessibility rather than true mechanism exclusion.
+#finding(
+  claim: [If LDN produced a dose-specific ceiling signal (sickness at 4.5 mg) with no therapeutic window at any tested dose, but LDA produces sharp threshold benefit (PEM protection at 1 mg, absent at 0.5 mg) → microglial involvement confirmed by two independent probes on the same cell population, but the therapeutically accessible receptor is D2, not TLR4. LDN's ceiling proves receptor engagement: the microglial TLR4 population is present and functional. But the hormetic collapse (sickness at 4.5 mg) occurred before any therapeutic window appeared — TLR4 blockade cannot produce benefit in this patient because the ceiling precedes the window. LDA's sharp threshold independently confirms the same microglial population is D2-responsive. The asymmetry — TLR4 has a ceiling with no window, D2 has a window with no ceiling below 2 mg — IS the diagnostic signal. This pattern excludes TLR4 as a therapeutic target while confirming D2 as the dominant microglial activation pathway. It is stronger evidence than simple LDN non-response, which could reflect inadequate dose-range testing or receptor inaccessibility rather than true mechanism exclusion],
+  explanation: [If LDN produced a dose-specific ceiling signal (sickness at 4.5 mg) with no therapeutic window at any tested dose, but LDA produces sharp threshold benefit (PEM protection at 1 mg, absent at 0.5 mg) → microglial involvement confirmed by two independent probes on the same cell population, but the therapeutically accessible receptor is D2, not TLR4. LDN's ceiling proves receptor engagement: the microglial TLR4 population is present and functional. But the hormetic collapse (sickness at 4.5 mg) occurred before any therapeutic window appeared — TLR4 blockade cannot produce benefit in this patient because the ceiling precedes the window. LDA's sharp threshold independently confirms the same microglial population is D2-responsive. The asymmetry — TLR4 has a ceiling with no window, D2 has a window with no ceiling below 2 mg — IS the diagnostic signal. This pattern excludes TLR4 as a therapeutic target while confirming D2 as the dominant microglial activation pathway. It is stronger evidence than simple LDN non-response, which could reflect inadequate dose-range testing or receptor inaccessibility rather than true mechanism exclusion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] If additive only (combo benefit = LDN + aripiprazole individually) → shared pathway — LDN reduces microglial TNF-α → partially restores DA synthesis; aripiprazole works downstream on D2/D3. No synergy means the pathways converge on the same node, not independent.
+#finding(
+  claim: [If additive only (combo benefit = LDN + aripiprazole individually) → shared pathway — LDN reduces microglial TNF-α → partially restores DA synthesis; aripiprazole works downstream on D2/D3. No synergy means the pathways converge on the same node, not independent],
+  explanation: [If additive only (combo benefit = LDN + aripiprazole individually) → shared pathway — LDN reduces microglial TNF-α → partially restores DA synthesis; aripiprazole works downstream on D2/D3. No synergy means the pathways converge on the same node, not independent.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] If LDN alone causes sedation and aripiprazole alone causes akathisia but combo neutralizes both → cross-modulation: LDN suppresses microglial D2/D3 overactivation; aripiprazole stabilizes DA tone that LDN's opioid blockade destabilized. If combo worsens both → antagonistic interaction — opioid blockade + D2/D3 partial agonism produces dysphoric dopaminergic-opioid imbalance (Pattern 5).
 
@@ -1435,9 +2440,19 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 #strong[HD] Mixed — LDN: Restorative/TRPM3 + Corrective/TLR4. Midodrine: Threshold-modulatory/vasoconstriction. Parallel targeting of neuroinflammation + orthostatic intolerance.
 
 
-#strong[+] Both TLR4/TRPM3 + α1 adrenergic are rate-limiting simultaneously. Parallel system dysfunction confirmed — autoimmune/inflammatory + autonomic.
+#finding(
+  claim: [Both TLR4/TRPM3 + α1 adrenergic are rate-limiting simultaneously. Parallel system dysfunction confirmed — autoimmune/inflammatory + autonomic],
+  explanation: [Both TLR4/TRPM3 + α1 adrenergic are rate-limiting simultaneously. Parallel system dysfunction confirmed — autoimmune/inflammatory + autonomic.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] If each alone works but combo fails → pharmacodynamic antagonism (midodrine pressor effect counteracted by pyridostigmine bradycardia if also on pyridostigmine). Not a class effect — identify the specific antagonist drug.
+#finding(
+  claim: [If each alone works but combo fails → pharmacodynamic antagonism (midodrine pressor effect counteracted by pyridostigmine bradycardia if also on pyridostigmine). Not a class effect — identify the specific antagonist drug],
+  explanation: [If each alone works but combo fails → pharmacodynamic antagonism (midodrine pressor effect counteracted by pyridostigmine bradycardia if also on pyridostigmine). Not a class effect — identify the specific antagonist drug.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] If midodrine's HTN ceiling is lowered by LDN → LDN is reducing sympathetic outflow (unexpected — possibly through orexin-mediated sympathetic suppression). If LDN's therapeutic window narrows on midodrine → BP changes alter LDN's CNS penetration (theoretical).
 
@@ -1449,9 +2464,19 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 #strong[HD] Threshold-modulatory — SV2A binding modulating neurotransmitter release; empirical in CNS hyperexcitability.
 
 
-#strong[+] PEM is a kindling/neuroplastic process — SV2A binding reduces PEM frequency. Levetiracetam's anti-kindling mechanism confirms PEM has a neuroplastic sensitization component.
+#finding(
+  claim: [PEM is a kindling/neuroplastic process — SV2A binding reduces PEM frequency. Levetiracetam's anti-kindling mechanism confirms PEM has a neuroplastic sensitization component],
+  explanation: [PEM is a kindling/neuroplastic process — SV2A binding reduces PEM frequency. Levetiracetam's anti-kindling mechanism confirms PEM has a neuroplastic sensitization component.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Kindling not SV2A-mediated; or PEM is metabolic, not neuroplastic. If levetiracetam fails but mitochondrial supplements work → PEM is metabolic (ETC, PDH), not neuroplastic kindling.
+#finding(
+  claim: [Kindling not SV2A-mediated; or PEM is metabolic, not neuroplastic. If levetiracetam fails but mitochondrial supplements work → PEM is metabolic (ETC, PDH), not neuroplastic kindling],
+  explanation: [Kindling not SV2A-mediated; or PEM is metabolic, not neuroplastic. If levetiracetam fails but mitochondrial supplements work → PEM is metabolic (ETC, PDH), not neuroplastic kindling.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Psychiatric symptoms at low dose → limbic DA/5-HT reserve minimal — SV2A modulation unmasks limbic dopamine/serotonin insufficiency (Pattern 4). Sedation at low dose → cortical hypometabolism — SV2A binding reduces already-low cortical synaptic activity. No effect → PEM is not neuroplastic (Pattern 5).
 
@@ -1463,9 +2488,19 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 #strong[HD] Threshold-modulatory — NGF/BDNF induction supporting neuronal health — research-stage; limited ME/CFS evidence.
 
 
-#strong[+] NGF-mediated neurogenesis/nerve repair rate-limiting for cognitive dysfunction and peripheral neuropathy. Lion's Mane stimulates NGF synthesis → improved cognition and reduced neuropathic symptoms confirms the lesion is neurotrophin-deficient and NGF-responsive.
+#finding(
+  claim: [NGF-mediated neurogenesis/nerve repair rate-limiting for cognitive dysfunction and peripheral neuropathy. Lion's Mane stimulates NGF synthesis → improved cognition and reduced neuropathic symptoms confirms the lesion is neurotrophin-deficient and NGF-responsive],
+  explanation: [NGF-mediated neurogenesis/nerve repair rate-limiting for cognitive dysfunction and peripheral neuropathy. Lion's Mane stimulates NGF synthesis → improved cognition and reduced neuropathic symptoms confirms the lesion is neurotrophin-deficient and NGF-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Neurotrophin deficiency absent; or NGF pathway is intact but the lesion is structural (axon loss, not trophic factor deficiency). If Lion's Mane fails but donepezil works → the cognitive lesion is cholinergic, not neurotrophin-mediated.
+#finding(
+  claim: [Neurotrophin deficiency absent; or NGF pathway is intact but the lesion is structural (axon loss, not trophic factor deficiency). If Lion's Mane fails but donepezil works → the cognitive lesion is cholinergic, not neurotrophin-mediated],
+  explanation: [Neurotrophin deficiency absent; or NGF pathway is intact but the lesion is structural (axon loss, not trophic factor deficiency). If Lion's Mane fails but donepezil works → the cognitive lesion is cholinergic, not neurotrophin-mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated. Rare allergic sensitivity in those with mushroom allergy. No specific ME/CFS diagnostic side effects. The null is non-informative given variable extract standardization.
 
@@ -1477,9 +2512,19 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 Corrective — GSK-3β inhibition → Nrf2 nuclear localization + IMPase/inositol depletion + mTORC1 modulation; triple mechanism
 
 
-#strong[+] PIP2 depletion rate-limiting. Lithium inhibits IMPase → increases PIP2 availability → improves GPCR signaling. Confirms GPCR AAb are upstream and PIP2 is the bottleneck — the Gq/11 → PLC → PIP2 → TRPM3 pathway is intact but PIP2-depleted.
+#finding(
+  claim: [PIP2 depletion rate-limiting. Lithium inhibits IMPase → increases PIP2 availability → improves GPCR signaling. Confirms GPCR AAb are upstream and PIP2 is the bottleneck — the Gq/11 → PLC → PIP2 → TRPM3 pathway is intact but PIP2-depleted],
+  explanation: [PIP2 depletion rate-limiting. Lithium inhibits IMPase → increases PIP2 availability → improves GPCR signaling. Confirms GPCR AAb are upstream and PIP2 is the bottleneck — the Gq/11 → PLC → PIP2 → TRPM3 pathway is intact but PIP2-depleted.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] PIP2 not bottleneck. Lesion is downstream of PIP2 (channel defect is PIP2-independent) or the GPCR AAb are not rate-limiting.
+#finding(
+  claim: [PIP2 not bottleneck. Lesion is downstream of PIP2 (channel defect is PIP2-independent) or the GPCR AAb are not rate-limiting],
+  explanation: [PIP2 not bottleneck. Lesion is downstream of PIP2 (channel defect is PIP2-independent) or the GPCR AAb are not rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Polydipsia/polyuria at 2 mg → occult nephrogenic diabetes insipidus — ADH receptor or aquaporin dysfunction confirmed (Pattern 3). Tremor at 2 mg → cerebellar NE sensitivity — lithium unmasks noradrenergic tremor pathway at a dose far below the standard psychiatric tremor threshold.
 
@@ -1491,9 +2536,19 @@ Corrective — GSK-3β inhibition → Nrf2 nuclear localization + IMPase/inosito
 Corrective — cytochrome c oxidase photostimulation enhancing ATP production — research-stage
 
 
-#strong[+] Cytochrome c oxidase photostimulation rate-limiting for mitochondrial function. LLLT delivers red/NIR light → photon absorption by Complex IV → increased electron transport → improved ATP production confirms the ETC bottleneck is photostimulable.
+#finding(
+  claim: [Cytochrome c oxidase photostimulation rate-limiting for mitochondrial function. LLLT delivers red/NIR light → photon absorption by Complex IV → increased electron transport → improved ATP production confirms the ETC bottleneck is photostimulable],
+  explanation: [Cytochrome c oxidase photostimulation rate-limiting for mitochondrial function. LLLT delivers red/NIR light → photon absorption by Complex IV → increased electron transport → improved ATP production confirms the ETC bottleneck is photostimulable.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] ETC not photostimulable — the lesion is structural (Complex IV protein loss), not functional. If LLLT fails but CoQ10 works → the bottleneck is upstream (Complex I--III shuttle), not Complex IV.
+#finding(
+  claim: [ETC not photostimulable — the lesion is structural (Complex IV protein loss), not functional. If LLLT fails but CoQ10 works → the bottleneck is upstream (Complex I--III shuttle), not Complex IV],
+  explanation: [ETC not photostimulable — the lesion is structural (Complex IV protein loss), not functional. If LLLT fails but CoQ10 works → the bottleneck is upstream (Complex I--III shuttle), not Complex IV.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No objective response → null non-informative given limited evidence base and variable device parameters (wavelength, fluence, treatment site). The null is often a device/dosing confound, not a mechanism exclusion.
 
@@ -1505,9 +2560,19 @@ Corrective — cytochrome c oxidase photostimulation enhancing ATP production �
 #strong[HD] Symptomatic — GABA-A potentiation (intermediate half-life); suppresses symptoms — dependence risk.
 
 
-#strong[+] GABA-A-mediated acute anxiety or sleep initiation rate-limiting. Lorazepam's intermediate half-life (10--20h) and absence of active metabolites makes it pharmacokinetically cleaner than diazepam or clonazepam — preferred for diagnostic GABA-A probes.
+#finding(
+  claim: [GABA-A-mediated acute anxiety or sleep initiation rate-limiting. Lorazepam's intermediate half-life (10--20h) and absence of active metabolites makes it pharmacokinetically cleaner than diazepam or clonazepam — preferred for diagnostic GABA-A probes],
+  explanation: [GABA-A-mediated acute anxiety or sleep initiation rate-limiting. Lorazepam's intermediate half-life (10--20h) and absence of active metabolites makes it pharmacokinetically cleaner than diazepam or clonazepam — preferred for diagnostic GABA-A probes.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GABA-A not rate-limiting. If lorazepam works for anxiety but zolpidem doesn't for sleep → non-α1 GABA-A subtypes are the dominant lesion. Lorazepam engages all GABA-A subtypes (pan-GABA-A), distinguishing from α1-selective Z-drugs.
+#finding(
+  claim: [GABA-A not rate-limiting. If lorazepam works for anxiety but zolpidem doesn't for sleep → non-α1 GABA-A subtypes are the dominant lesion. Lorazepam engages all GABA-A subtypes (pan-GABA-A), distinguishing from α1-selective Z-drugs],
+  explanation: [GABA-A not rate-limiting. If lorazepam works for anxiety but zolpidem doesn't for sleep → non-α1 GABA-A subtypes are the dominant lesion. Lorazepam engages all GABA-A subtypes (pan-GABA-A), distinguishing from α1-selective Z-drugs.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Paradoxical excitation → chloride gradient inversion (Pattern 2) — same as all benzodiazepines. Cognitive impairment at low dose (0.5 mg) → GABA-A-dependent cognition is load-bearing — the patient's cognitive network is GABA-A-dependent; further potentiation suppresses already-low glutamatergic tone (Pattern 4). Amnesia at therapeutic dose → hippocampal GABA-A supersensitivity.
 
@@ -1519,9 +2584,19 @@ Corrective — cytochrome c oxidase photostimulation enhancing ATP production �
 #strong[HD] Threshold-modulatory — ARB reducing angiotensin II-mediated vasoconstriction and inflammation; modulates one arm of the RAAS.
 
 
-#strong[+] Angiotensin II AT1R-mediated pathology rate-limiting — RAAS dysregulation with TGF-β overproduction. Losartan blocks AT1R → reduced TGF-β signaling + vasodilation → improvement confirms AT1R-driven TGF-β overproduction is the dominant fibrotic/inflammatory pathway.
+#finding(
+  claim: [Angiotensin II AT1R-mediated pathology rate-limiting — RAAS dysregulation with TGF-β overproduction. Losartan blocks AT1R → reduced TGF-β signaling + vasodilation → improvement confirms AT1R-driven TGF-β overproduction is the dominant fibrotic/inflammatory pathway],
+  explanation: [Angiotensin II AT1R-mediated pathology rate-limiting — RAAS dysregulation with TGF-β overproduction. Losartan blocks AT1R → reduced TGF-β signaling + vasodilation → improvement confirms AT1R-driven TGF-β overproduction is the dominant fibrotic/inflammatory pathway.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] AT1R-TGF-β axis not rate-limiting. If losartan fails but beta-blockers work → HR control is dominant, not AT1R-TGF-β. If losartan fails but fludrocortisone works → hypovolemia is dominant; AT1R blockade is irrelevant.
+#finding(
+  claim: [AT1R-TGF-β axis not rate-limiting. If losartan fails but beta-blockers work → HR control is dominant, not AT1R-TGF-β. If losartan fails but fludrocortisone works → hypovolemia is dominant; AT1R blockade is irrelevant],
+  explanation: [AT1R-TGF-β axis not rate-limiting. If losartan fails but beta-blockers work → HR control is dominant, not AT1R-TGF-β. If losartan fails but fludrocortisone works → hypovolemia is dominant; AT1R blockade is irrelevant.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] BP crash at 12.5 mg → RAAS-dependent BP — the patient's orthostatic tolerance is entirely AT1R-mediated; angiotensin II vasoconstriction is load-bearing (Pattern 1). The BP crash IS diagnostic: it confirms AT1R dependence; RAAS blockade is contraindicated. No BP change → RAAS not load-bearing for BP — AT1R blockade is safe (Pattern 5). AKI → renal perfusion AT1R-dependent — unmasks occult renal artery stenosis (Pattern F).
 
@@ -1533,9 +2608,19 @@ Corrective — cytochrome c oxidase photostimulation enhancing ATP production �
 Corrective — expands regulatory T cells; if autoantibodies fall, Treg deficiency was permissive — research-stage
 
 
-#strong[+] Treg deficiency drives autoimmunity — Treg-suppressible pathology confirmed. Low-dose IL-2 preferentially expands Tregs (CD4+CD25+FoxP3+), suppressing autoimmune effector T cells. Improvement confirms Treg-population-driven autoimmunity.
+#finding(
+  claim: [Treg deficiency drives autoimmunity — Treg-suppressible pathology confirmed. Low-dose IL-2 preferentially expands Tregs (CD4+CD25+FoxP3+), suppressing autoimmune effector T cells. Improvement confirms Treg-population-driven autoimmunity],
+  explanation: [Treg deficiency drives autoimmunity — Treg-suppressible pathology confirmed. Low-dose IL-2 preferentially expands Tregs (CD4+CD25+FoxP3+), suppressing autoimmune effector T cells. Improvement confirms Treg-population-driven autoimmunity.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Tregs not rate-limiting — B-cell-driven or Treg-resistant autoimmunity, or non-immune pathology. If low-dose IL-2 fails but rituximab works → B-cell-driven, not Treg-driven.
+#finding(
+  claim: [Tregs not rate-limiting — B-cell-driven or Treg-resistant autoimmunity, or non-immune pathology. If low-dose IL-2 fails but rituximab works → B-cell-driven, not Treg-driven],
+  explanation: [Tregs not rate-limiting — B-cell-driven or Treg-resistant autoimmunity, or non-immune pathology. If low-dose IL-2 fails but rituximab works → B-cell-driven, not Treg-driven.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Flare at 24--48h → effector T-cell activation precedes Treg expansion — confirms the immune system is competent and T-cell-mediated autoimmunity is present (Pattern 2). No flare + no improvement → Tregs not the bottleneck — immune exhaustion or non-T-cell pathology (Pattern 5).
 
@@ -1547,9 +2632,19 @@ Corrective — expands regulatory T cells; if autoantibodies fall, Treg deficien
 Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-stage; limited quality control
 
 
-#strong[+] Fibrinolytic-accessible microclot pathology rate-limiting. Lumbrokinase directly degrades fibrin and fibrinogen — improvement confirms fibrin is the dominant structural component of microclots and is lumbrokinase-sensitive.
+#finding(
+  claim: [Fibrinolytic-accessible microclot pathology rate-limiting. Lumbrokinase directly degrades fibrin and fibrinogen — improvement confirms fibrin is the dominant structural component of microclots and is lumbrokinase-sensitive],
+  explanation: [Fibrinolytic-accessible microclot pathology rate-limiting. Lumbrokinase directly degrades fibrin and fibrinogen — improvement confirms fibrin is the dominant structural component of microclots and is lumbrokinase-sensitive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Microclot fibrin not lumbrokinase-sensitive; or fibrinolytic resistance. If lumbrokinase fails but nattokinase works → the fibrinolytic enzyme specificity matters — different cleavage sites, different fibrinolytic profile. If lumbrokinase fails but apixaban works → the microclot formation rate (coagulation) exceeds the fibrinolytic capacity — anticoagulation is needed, not fibrinolysis.
+#finding(
+  claim: [Microclot fibrin not lumbrokinase-sensitive; or fibrinolytic resistance. If lumbrokinase fails but nattokinase works → the fibrinolytic enzyme specificity matters — different cleavage sites, different fibrinolytic profile. If lumbrokinase fails but apixaban works → the microclot formation rate (coagulation) exceeds the fibrinolytic capacity — anticoagulation is needed, not fibrinolysis],
+  explanation: [Microclot fibrin not lumbrokinase-sensitive; or fibrinolytic resistance. If lumbrokinase fails but nattokinase works → the fibrinolytic enzyme specificity matters — different cleavage sites, different fibrinolytic profile. If lumbrokinase fails but apixaban works → the microclot formation rate (coagulation) exceeds the fibrinolytic capacity — anticoagulation is needed, not fibrinolysis.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Bleeding at fibrinolytic dose → hemostatic reserve narrow — the patient's coagulation system is already near the bleeding threshold; microclots may be compensatory (Pattern 4). No bleeding at therapeutic dose → platelet count and coagulation intact (Pattern 5).
 
@@ -1561,9 +2656,19 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 #strong[HD] Threshold-modulatory — mast cell stabilizer with BBB penetration; implicates CNS mast cells if benefit beyond quercetin.
 
 
-#strong[+] Mast cell degranulation and microglial activation rate-limiting — dual mast-cell and microglial stabilization. Luteolin inhibits mast cell degranulation and microglial activation → improvement in brain fog + MCAS symptoms confirms the mast-cell-microglial axis is dominant.
+#finding(
+  claim: [Mast cell degranulation and microglial activation rate-limiting — dual mast-cell and microglial stabilization. Luteolin inhibits mast cell degranulation and microglial activation → improvement in brain fog + MCAS symptoms confirms the mast-cell-microglial axis is dominant],
+  explanation: [Mast cell degranulation and microglial activation rate-limiting — dual mast-cell and microglial stabilization. Luteolin inhibits mast cell degranulation and microglial activation → improvement in brain fog + MCAS symptoms confirms the mast-cell-microglial axis is dominant.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Mast cells and microglia not luteolin-responsive. If luteolin fails but ketotifen works → mast cells are rate-limiting but luteolin's mast-cell stabilization is insufficient. If luteolin fails but LDN works → microglial TLR4 is the dominant pathway.
+#finding(
+  claim: [Mast cells and microglia not luteolin-responsive. If luteolin fails but ketotifen works → mast cells are rate-limiting but luteolin's mast-cell stabilization is insufficient. If luteolin fails but LDN works → microglial TLR4 is the dominant pathway],
+  explanation: [Mast cells and microglia not luteolin-responsive. If luteolin fails but ketotifen works → mast cells are rate-limiting but luteolin's mast-cell stabilization is insufficient. If luteolin fails but LDN works → microglial TLR4 is the dominant pathway.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — flavonoid supplement. Liposomal luteolin preferred for CNS penetration — non-liposomal form may produce false negative for brain fog due to limited BBB penetration. The liposomal vs non-liposomal difference is diagnostic: if liposomal works but non-liposomal doesn't → the lesion is CNS (requires BBB penetration); if both fail → mast-cell-microglial axis not rate-limiting.
 
@@ -1575,9 +2680,19 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 #strong[HD] Substrate-repletion — amino acid supporting collagen synthesis — research-stage.
 
 
-#strong[+] Arginine-competitive herpesvirus replication rate-limiting. Lysine competes with arginine for cellular uptake → reduced intracellular arginine → reduced viral replication. Improvement during lysine loading confirms herpesvirus replication is active and arginine-dependent.
+#finding(
+  claim: [Arginine-competitive herpesvirus replication rate-limiting. Lysine competes with arginine for cellular uptake → reduced intracellular arginine → reduced viral replication. Improvement during lysine loading confirms herpesvirus replication is active and arginine-dependent],
+  explanation: [Arginine-competitive herpesvirus replication rate-limiting. Lysine competes with arginine for cellular uptake → reduced intracellular arginine → reduced viral replication. Improvement during lysine loading confirms herpesvirus replication is active and arginine-dependent.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Herpesvirus not active; or viral replication is arginine-independent (or the arginine pool is so large that lysine competition is insignificant). If lysine fails but acyclovir works → viral replication confirmed but direct antiviral required; competitive arginine antagonism insufficient.
+#finding(
+  claim: [Herpesvirus not active; or viral replication is arginine-independent (or the arginine pool is so large that lysine competition is insignificant). If lysine fails but acyclovir works → viral replication confirmed but direct antiviral required; competitive arginine antagonism insufficient],
+  explanation: [Herpesvirus not active; or viral replication is arginine-independent (or the arginine pool is so large that lysine competition is insignificant). If lysine fails but acyclovir works → viral replication confirmed but direct antiviral required; competitive arginine antagonism insufficient.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI upset at high dose (3+ g/day) → standard amino acid osmotic GI effect. No diagnostic-specific side effects for ME/CFS.
 
@@ -1589,9 +2704,19 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 #strong[HD] Substrate-repletion — repletes magnesium if deficient; supports enzyme function and neuronal signaling.
 
 
-#strong[+] Magnesium deficiency rate-limiting for ATP-dependent enzymes, muscle function, and sleep. Magnesium repletion restores enzyme cofactor function — improvement confirms magnesium deficiency was a correctable lesion.
+#finding(
+  claim: [Magnesium deficiency rate-limiting for ATP-dependent enzymes, muscle function, and sleep. Magnesium repletion restores enzyme cofactor function — improvement confirms magnesium deficiency was a correctable lesion],
+  explanation: [Magnesium deficiency rate-limiting for ATP-dependent enzymes, muscle function, and sleep. Magnesium repletion restores enzyme cofactor function — improvement confirms magnesium deficiency was a correctable lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Magnesium not rate-limiting. Serum Mg normal + no improvement → fatigue is not Mg-mediated. RBC Mg may be low despite normal serum Mg — functional magnesium deficiency.
+#finding(
+  claim: [Magnesium not rate-limiting. Serum Mg normal + no improvement → fatigue is not Mg-mediated. RBC Mg may be low despite normal serum Mg — functional magnesium deficiency],
+  explanation: [Magnesium not rate-limiting. Serum Mg normal + no improvement → fatigue is not Mg-mediated. RBC Mg may be low despite normal serum Mg — functional magnesium deficiency.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Diarrhea at therapeutic dose → magnesium osmotic GI effect — the GI ceiling (usually 300--400 mg/day of certain salts) prevents therapeutic dosing (Pattern 4). Switch to Mg glycinate (less GI effect, better absorption) — if tolerated, confirms the GI ceiling was salt-specific. Sedation → Mg is an NMDA antagonist and GABA-A potentiator — confirms NMDA overactivity is dominant (Pattern 1).
 
@@ -1603,9 +2728,19 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 Corrective — CCR5 antagonist; if CCR5-mediated inflammatory cell trafficking drives neuroinflammation, targets a specific chemokine pathway — research-stage
 
 
-#strong[+] CCR5-mediated monocyte chemotaxis rate-limiting for neuroinflammation. Maraviroc blocks CCR5 → prevents monocyte migration into inflamed CNS tissue → improvement confirms monocyte-driven neuroinflammation is the dominant CNS pathology.
+#finding(
+  claim: [CCR5-mediated monocyte chemotaxis rate-limiting for neuroinflammation. Maraviroc blocks CCR5 → prevents monocyte migration into inflamed CNS tissue → improvement confirms monocyte-driven neuroinflammation is the dominant CNS pathology],
+  explanation: [CCR5-mediated monocyte chemotaxis rate-limiting for neuroinflammation. Maraviroc blocks CCR5 → prevents monocyte migration into inflamed CNS tissue → improvement confirms monocyte-driven neuroinflammation is the dominant CNS pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] CCR5 not rate-limiting. If maraviroc fails but LDN works → microglial TLR4 activation (resident microglia, not infiltrating monocytes) is dominant. If maraviroc fails but minocycline works → microglial suppression is needed regardless of CCR5 status.
+#finding(
+  claim: [CCR5 not rate-limiting. If maraviroc fails but LDN works → microglial TLR4 activation (resident microglia, not infiltrating monocytes) is dominant. If maraviroc fails but minocycline works → microglial suppression is needed regardless of CCR5 status],
+  explanation: [CCR5 not rate-limiting. If maraviroc fails but LDN works → microglial TLR4 activation (resident microglia, not infiltrating monocytes) is dominant. If maraviroc fails but minocycline works → microglial suppression is needed regardless of CCR5 status.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Hepatotoxicity → standard CCR5 antagonist class effect. Minimal other side effects — CCR5 blockade is tolerated (CCR5-Δ32 homozygotes are healthy). The hepatotoxicity is not diagnostically useful for ME/CFS — standard monitoring required.
 
@@ -1617,9 +2752,19 @@ Corrective — CCR5 antagonist; if CCR5-mediated inflammatory cell trafficking d
 #strong[HD] Threshold-modulatory — modulates stress response and pain perception; adjunctive, not disease-modifying.
 
 
-#strong[+] Stress-driven sympathetic overactivation rate-limiting. MBSR reduces sympathetic tone through mindfulness practice → improved HRV and anxiety confirms the sympathetic component has a stress-modifiable component.
+#finding(
+  claim: [Stress-driven sympathetic overactivation rate-limiting. MBSR reduces sympathetic tone through mindfulness practice → improved HRV and anxiety confirms the sympathetic component has a stress-modifiable component],
+  explanation: [Stress-driven sympathetic overactivation rate-limiting. MBSR reduces sympathetic tone through mindfulness practice → improved HRV and anxiety confirms the sympathetic component has a stress-modifiable component.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Stress not rate-limiting for sympathetic overactivation — the autonomic lesion is intrinsic and mindfulness-resistant. If MBSR improves anxiety without HRV improvement → the autonomic lesion is organic, not stress-driven.
+#finding(
+  claim: [Stress not rate-limiting for sympathetic overactivation — the autonomic lesion is intrinsic and mindfulness-resistant. If MBSR improves anxiety without HRV improvement → the autonomic lesion is organic, not stress-driven],
+  explanation: [Stress not rate-limiting for sympathetic overactivation — the autonomic lesion is intrinsic and mindfulness-resistant. If MBSR improves anxiety without HRV improvement → the autonomic lesion is organic, not stress-driven.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] PEM from cognitive demand of the program → the 8-week schedule and daily practice may exceed the cognitive energy envelope (Pattern 5). Meditation-induced depersonalization in trauma patients → mindfulness is counterproductive in some PTSD phenotypes.
 
@@ -1631,9 +2776,19 @@ Corrective — CCR5 antagonist; if CCR5-mediated inflammatory cell trafficking d
 #strong[HD] Substrate-repletion at low-dose (0.3–0.5 mg) — circadian resynchronization + antioxidant; symptomatic at high-dose (MT1/MT2 desensitization).
 
 
-#strong[+] Circadian phase disorder rate-limiting for sleep onset. MT1/MT2 agonism phase-advances the sleep-wake cycle — confirms circadian rhythm is the dominant sleep pathology.
+#finding(
+  claim: [Circadian phase disorder rate-limiting for sleep onset. MT1/MT2 agonism phase-advances the sleep-wake cycle — confirms circadian rhythm is the dominant sleep pathology],
+  explanation: [Circadian phase disorder rate-limiting for sleep onset. MT1/MT2 agonism phase-advances the sleep-wake cycle — confirms circadian rhythm is the dominant sleep pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Sleep-onset insomnia is hyperarousal-driven (not circadian). If melatonin fails but DORA works → orexin hyperarousal, not circadian phase disorder.
+#finding(
+  claim: [Sleep-onset insomnia is hyperarousal-driven (not circadian). If melatonin fails but DORA works → orexin hyperarousal, not circadian phase disorder],
+  explanation: [Sleep-onset insomnia is hyperarousal-driven (not circadian). If melatonin fails but DORA works → orexin hyperarousal, not circadian phase disorder.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Paradoxical alertness → severely delayed sleep phase or CYP1A2 rapid metabolism — melatonin is being cleared before it can exert phase-advancing effect (Pattern 2). Nightmares → REM disinhibition — melatonin enhances REM propensity, unmasking REM-sleep vulnerability. No effect at 5--10 mg → MT1/MT2 desensitized or circadian amplitude too blunted.
 
@@ -1645,9 +2800,19 @@ Corrective — CCR5 antagonist; if CCR5-mediated inflammatory cell trafficking d
 #strong[HD] Threshold-modulatory — NMDA receptor antagonist reducing glutamatergic excitotoxicity; does not address why glutamate is elevated.
 
 
-#strong[+] Quinolinic acid-driven NMDA excitotoxicity rate-limiting. Memantine's uncompetitive NMDA antagonism blocks tonic overactivation while preserving phasic signaling — improvement confirms QUIN-driven excitotoxicity dominant.
+#finding(
+  claim: [Quinolinic acid-driven NMDA excitotoxicity rate-limiting. Memantine's uncompetitive NMDA antagonism blocks tonic overactivation while preserving phasic signaling — improvement confirms QUIN-driven excitotoxicity dominant],
+  explanation: [Quinolinic acid-driven NMDA excitotoxicity rate-limiting. Memantine's uncompetitive NMDA antagonism blocks tonic overactivation while preserving phasic signaling — improvement confirms QUIN-driven excitotoxicity dominant.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Excitotoxicity not rate-limiting — glutamate tone may be low (kynurenic acid dominance). If memantine causes sedation at low dose → basal glutamate tone low (see SE).
+#finding(
+  claim: [Excitotoxicity not rate-limiting — glutamate tone may be low (kynurenic acid dominance). If memantine causes sedation at low dose → basal glutamate tone low (see SE)],
+  explanation: [Excitotoxicity not rate-limiting — glutamate tone may be low (kynurenic acid dominance). If memantine causes sedation at low dose → basal glutamate tone low (see SE).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Sedation at low dose (5 mg) → basal glutamate tone critically low — even weak NMDA blockade further reduces already-deficient glutamatergic signaling (Pattern 4). Brain fog worsening → NMDA-dependent working memory networks are glutamate-deficient, not glutamate-toxic.
 
@@ -1659,11 +2824,21 @@ Corrective — CCR5 antagonist; if CCR5-mediated inflammatory cell trafficking d
 Corrective — AMPK activation restoring metabolic efficiency + reducing mTORC1 activity; multi-mechanism metabolic intervention
 
 
-#strong[+] AMPK pathway rate-limiting for metabolic dysfunction. Metformin activates AMPK → improved mitochondrial efficiency, reduced hepatic gluconeogenesis, and anti-inflammatory effects.
+#finding(
+  claim: [AMPK pathway rate-limiting for metabolic dysfunction. Metformin activates AMPK → improved mitochondrial efficiency, reduced hepatic gluconeogenesis, and anti-inflammatory effects],
+  explanation: [AMPK pathway rate-limiting for metabolic dysfunction. Metformin activates AMPK → improved mitochondrial efficiency, reduced hepatic gluconeogenesis, and anti-inflammatory effects.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[DxT-cell:] AMPK → MFF phosphorylation (Ser155/Ser172) blocks DRP1 recruitment → anti-fission effect (Toyama 2016, Science). Shankar et al.\ 2025 demonstrated metformin attenuates T-cell hyperproliferation in ME/CFS lymphocytes in vitro @Shankar2025oxidativestress. AMPK → PGC-1α → mitochondrial biogenesis may restore spare respiratory capacity in memory T cells (Pearce 2013, Science). If metformin improves fatigue + CD8+ TEM ΔΨm (TMRE flow cytometry) → CD8+ mitochondrial fusion/fission imbalance may be rate-limiting for immune-mediated symptoms. If fatigue improves but CD8+ ΔΨm unchanged → AMPK benefit is through non-T-cell mechanisms (hepatic, CNS, endothelial). If CD8+ ΔΨm improves but fatigue unchanged → T-cell mitochondria are permissive but not sufficient for symptom improvement. Ex vivo test: metformin (1 mM, 24h) on sorted CD8+ TEM cells with p-AMPK(T172) + mitochondrial network morphology readout — direct probe of AMPK-MFF-DRP1 axis. Ex vivo mdivi-1 comparator (DRP1 inhibitor, 10 µM) → if mdivi-1 restores mito fusion but metformin does not → AMPK-MFF is not the dominant pathway; DRP1 is constitutively active downstream. Certainty: LOW — T-cell-specific clinical endpoint data pending; in vitro T-cell signal from Shankar 2025; AMPK-MFF-DRP1 pathway documented in non-ME/CFS contexts.
 
-#strong[−] AMPK not rate-limiting; or GI side effects prevent titration to therapeutic dose. Or CD8+ ΔΨm normal despite fatigue → T-cell mitochondria not involved.
+#finding(
+  claim: [AMPK not rate-limiting; or GI side effects prevent titration to therapeutic dose. Or CD8+ ΔΨm normal despite fatigue → T-cell mitochondria not involved],
+  explanation: [AMPK not rate-limiting; or GI side effects prevent titration to therapeutic dose. Or CD8+ ΔΨm normal despite fatigue → T-cell mitochondria not involved.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI ceiling before metabolic benefit → gut mitochondrial vulnerability — enterocytes' AMPK activation produces GI symptoms before systemic AMPK activation occurs (Pattern 4). Lactic acidosis risk → pre-existing mitochondrial dysfunction — metformin accumulation from impaired clearance; check renal function and lactate.
 
@@ -1675,9 +2850,19 @@ Corrective — AMPK activation restoring metabolic efficiency + reducing mTORC1 
 #strong[HD] Threshold-modulatory — DAT/NET blocker increasing synaptic DA/NE; +7% REE; diagnostic probe for DAT functional status.
 
 
-#strong[+] NE/DA deficiency rate-limiting for cognition and fatigue. DAT/NET blockade confirms presynaptic terminals are present and functional — reuptake is the dominant clearance mechanism, and blocking it restores synaptic tone.
+#finding(
+  claim: [NE/DA deficiency rate-limiting for cognition and fatigue. DAT/NET blockade confirms presynaptic terminals are present and functional — reuptake is the dominant clearance mechanism, and blocking it restores synaptic tone],
+  explanation: [NE/DA deficiency rate-limiting for cognition and fatigue. DAT/NET blockade confirms presynaptic terminals are present and functional — reuptake is the dominant clearance mechanism, and blocking it restores synaptic tone.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] DA/NE not rate-limiting. Or cognitive lesion is postsynaptic, not presynaptic. If atomoxetine works but methylphenidate doesn't → the lesion is NE-specific; the DA component (DAT block) provides no additional benefit.
+#finding(
+  claim: [DA/NE not rate-limiting. Or cognitive lesion is postsynaptic, not presynaptic. If atomoxetine works but methylphenidate doesn't → the lesion is NE-specific; the DA component (DAT block) provides no additional benefit],
+  explanation: [DA/NE not rate-limiting. Or cognitive lesion is postsynaptic, not presynaptic. If atomoxetine works but methylphenidate doesn't → the lesion is NE-specific; the DA component (DAT block) provides no additional benefit.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Tachycardia ceiling → hyperadrenergic POTS — NET-mediated NE increase unmasks already-elevated sympathetic drive (Pattern 4). Crash ceiling → DA depletion + ATP deficit — DAT-mediated DA increase is metabolically costly and cannot be sustained (Pattern 4). Insomnia ceiling → DAT occupancy too high — supraphysiologic DA tone at night (Pattern 4). Three ceilings define the therapeutic window.
 
@@ -1689,9 +2874,19 @@ Corrective — AMPK activation restoring metabolic efficiency + reducing mTORC1 
 #strong[HD] Threshold-modulatory — D2 antagonist + 5-HT4 agonist; prokinetic — extrapyramidal risk.
 
 
-#strong[+] D2-mediated gastroparesis and 5-HT4-mediated prokinesis rate-limiting. Metoclopramide is dual-action: D2 antagonism (like domperidone) + 5-HT4 agonism (prokinetic). Improvement confirms the gastric emptying lesion is D2 and/or 5-HT4-mediated.
+#finding(
+  claim: [D2-mediated gastroparesis and 5-HT4-mediated prokinesis rate-limiting. Metoclopramide is dual-action: D2 antagonism (like domperidone) + 5-HT4 agonism (prokinetic). Improvement confirms the gastric emptying lesion is D2 and/or 5-HT4-mediated],
+  explanation: [D2-mediated gastroparesis and 5-HT4-mediated prokinesis rate-limiting. Metoclopramide is dual-action: D2 antagonism (like domperidone) + 5-HT4 agonism (prokinetic). Improvement confirms the gastric emptying lesion is D2 and/or 5-HT4-mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] D2 and 5-HT4 not rate-limiting. If metoclopramide fails but erythromycin works → motilin receptor is the dominant prokinetic pathway. If metoclopramide fails but domperidone works → D2-mediated but the patient needs a peripherally-restricted agent (CNS penetration causes side effects).
+#finding(
+  claim: [D2 and 5-HT4 not rate-limiting. If metoclopramide fails but erythromycin works → motilin receptor is the dominant prokinetic pathway. If metoclopramide fails but domperidone works → D2-mediated but the patient needs a peripherally-restricted agent (CNS penetration causes side effects)],
+  explanation: [D2 and 5-HT4 not rate-limiting. If metoclopramide fails but erythromycin works → motilin receptor is the dominant prokinetic pathway. If metoclopramide fails but domperidone works → D2-mediated but the patient needs a peripherally-restricted agent (CNS penetration causes side effects).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Extrapyramidal symptoms (EPS: akathisia, dystonia, parkinsonism) at standard dose → nigrostriatal D2 supersensitivity — the patient's dopamine system has compensatory D2 upregulation from chronic DA deficiency (Pattern 1). The EPS IS diagnostic: it confirms the patient has a supersensitive nigrostriatal D2 system — the same DA supersensitivity identified by aripiprazole/pramipexole. Tardive dyskinesia with prolonged use → cumulative D2 receptor-state consolidation — potentially irreversible (Pattern A). Prolactin elevation → pituitary D2 blockade — confirms drug engagement at all D2-receptor populations.
 
@@ -1703,9 +2898,19 @@ Corrective — AMPK activation restoring metabolic efficiency + reducing mTORC1 
 #strong[HD] Threshold-modulatory — α1 agonist providing vasoconstriction; compensates for inadequate vascular tone without correcting the cause.
 
 
-#strong[+] Vasculature α1-responsive — neuropathic POTS if supine NE is low. α1 agonism restores vascular tone → improved orthostatic tolerance confirms the vascular α1 receptor population is intact.
+#finding(
+  claim: [Vasculature α1-responsive — neuropathic POTS if supine NE is low. α1 agonism restores vascular tone → improved orthostatic tolerance confirms the vascular α1 receptor population is intact],
+  explanation: [Vasculature α1-responsive — neuropathic POTS if supine NE is low. α1 agonism restores vascular tone → improved orthostatic tolerance confirms the vascular α1 receptor population is intact.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] α1 receptors absent, blocked (GPCR AAb), or vasculature structurally unresponsive. If midodrine fails but droxidopa works → presynaptic NE synthesis is the bottleneck, not postsynaptic α1.
+#finding(
+  claim: [α1 receptors absent, blocked (GPCR AAb), or vasculature structurally unresponsive. If midodrine fails but droxidopa works → presynaptic NE synthesis is the bottleneck, not postsynaptic α1],
+  explanation: [α1 receptors absent, blocked (GPCR AAb), or vasculature structurally unresponsive. If midodrine fails but droxidopa works → presynaptic NE synthesis is the bottleneck, not postsynaptic α1.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] HTN at 2.5 mg → denervation hypersensitivity — α1 receptors are supersensitive from chronic NE deficiency, responding violently to even low-dose agonism (Pattern 1). No piloerection at standing dose → length-dependent SFN — the piloerection reflex requires intact small-fiber innervation (Pattern 5). Scalp tingling → normal α1-mediated piloerection — confirms drug engagement, not an adverse effect.
 
@@ -1717,9 +2922,19 @@ Corrective — AMPK activation restoring metabolic efficiency + reducing mTORC1 
 Corrective — microglial anti-inflammatory + MMP-9 inhibition + neuroprotective; multi-mechanism tetracycline
 
 
-#strong[+] Microglial activation through non-TLR4 pathways (P2X7, C5aR, IFN-γR) rate-limiting. Minocycline's broad microglial suppression confirms neuroinflammation is the dominant pathology.
+#finding(
+  claim: [Microglial activation through non-TLR4 pathways (P2X7, C5aR, IFN-γR) rate-limiting. Minocycline's broad microglial suppression confirms neuroinflammation is the dominant pathology],
+  explanation: [Microglial activation through non-TLR4 pathways (P2X7, C5aR, IFN-γR) rate-limiting. Minocycline's broad microglial suppression confirms neuroinflammation is the dominant pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Microglial activation absent or TLR4-dependent only. If minocycline fails but LDN works → TLR4 is the dominant microglial pathway (minocycline doesn't block TLR4 directly).
+#finding(
+  claim: [Microglial activation absent or TLR4-dependent only. If minocycline fails but LDN works → TLR4 is the dominant microglial pathway (minocycline doesn't block TLR4 directly)],
+  explanation: [Microglial activation absent or TLR4-dependent only. If minocycline fails but LDN works → TLR4 is the dominant microglial pathway (minocycline doesn't block TLR4 directly).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Vestibular symptoms → brainstem microglial vulnerability — suppression of vestibular nucleus microglia unmasks pre-existing brainstem compensation deficit (Pattern 4). Hyperpigmentation at low cumulative dose → idiosyncratic minocycline tissue deposition.
 
@@ -1731,9 +2946,19 @@ Corrective — microglial anti-inflammatory + MMP-9 inhibition + neuroprotective
 #strong[HD] Substrate-repletion — pooled mitochondrial cofactor/substrate repletion; augments impaired complexes without repairing them.
 
 
-#strong[+] As a group, improvement with mitochondrial cofactors confirms functional (cofactor-compensable) mitochondrial impairment. The specific supplement that produces improvement localizes the bottleneck: CoQ10 → Complex III; NADH → Complex I; L-carnitine → FAO shuttle; creatine → ATP buffering; NAC → glutathione/ROS. Multi-supplement response → widespread cofactor deficiency from chronic metabolic stress.
+#finding(
+  claim: [As a group, improvement with mitochondrial cofactors confirms functional (cofactor-compensable) mitochondrial impairment. The specific supplement that produces improvement localizes the bottleneck: CoQ10 → Complex III; NADH → Complex I; L-carnitine → FAO shuttle; creatine → ATP buffering; NAC → glutathione/ROS. Multi-supplement response → widespread cofactor deficiency from chronic metabolic stress],
+  explanation: [As a group, improvement with mitochondrial cofactors confirms functional (cofactor-compensable) mitochondrial impairment. The specific supplement that produces improvement localizes the bottleneck: CoQ10 → Complex III; NADH → Complex I; L-carnitine → FAO shuttle; creatine → ATP buffering; NAC → glutathione/ROS. Multi-supplement response → widespread cofactor deficiency from chronic metabolic stress.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Widespread mitochondrial cofactor failure → structural SC disruption — severe ETC protein loss, mtDNA deletion, or mitophagy failure. Cofactor flooding cannot compensate for structural damage.
+#finding(
+  claim: [Widespread mitochondrial cofactor failure → structural SC disruption — severe ETC protein loss, mtDNA deletion, or mitophagy failure. Cofactor flooding cannot compensate for structural damage],
+  explanation: [Widespread mitochondrial cofactor failure → structural SC disruption — severe ETC protein loss, mtDNA deletion, or mitophagy failure. Cofactor flooding cannot compensate for structural damage.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Paradoxical worsening (Pattern 5) is the key diagnostic signal — it identifies the specific bottleneck node without risk of permanent damage. CoQ10 worsening → Complex III block (electrons accumulate, ROS produced). NADH worsening → Complex I functional with downstream block. Carnitine worsening → FAO overload with lipid peroxide. NAC prevents carnitine worsening → confirms lipid peroxide mechanism. The worsening pattern localizes the lesion with high specificity: which supplement worsens = which node is the bottleneck. Pattern resolved within hours to days of discontinuation.
 
@@ -1745,9 +2970,19 @@ Corrective — microglial anti-inflammatory + MMP-9 inhibition + neuroprotective
 #strong[HD] Substrate-repletion — mitochondria-targeted CoQ10 analog; more efficient mitochondrial delivery.
 
 
-#strong[+] Mitochondrial matrix ROS production rate-limiting for ETC dysfunction. MitoQ is mitochondria-targeted CoQ10 — concentrates 100--1000× in the mitochondrial matrix where ROS is produced. Improvement confirms matrix-level oxidative stress is the dominant lesion and is CoQ10-accessible.
+#finding(
+  claim: [Mitochondrial matrix ROS production rate-limiting for ETC dysfunction. MitoQ is mitochondria-targeted CoQ10 — concentrates 100--1000× in the mitochondrial matrix where ROS is produced. Improvement confirms matrix-level oxidative stress is the dominant lesion and is CoQ10-accessible],
+  explanation: [Mitochondrial matrix ROS production rate-limiting for ETC dysfunction. MitoQ is mitochondria-targeted CoQ10 — concentrates 100--1000× in the mitochondrial matrix where ROS is produced. Improvement confirms matrix-level oxidative stress is the dominant lesion and is CoQ10-accessible.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Mitochondrial ROS not rate-limiting; or the lesion is not CoQ10-accessible. If MitoQ fails but standard CoQ10 works → the lesion is at the inner membrane (Complex I--III shuttle), not the matrix — standard CoQ10 distributes to membranes; MitoQ targets matrix. If MitoQ fails but SkQ1 works → the specific mitochondrial-targeted antioxidant matters — SkQ1 has different mitochondrial distribution.
+#finding(
+  claim: [Mitochondrial ROS not rate-limiting; or the lesion is not CoQ10-accessible. If MitoQ fails but standard CoQ10 works → the lesion is at the inner membrane (Complex I--III shuttle), not the matrix — standard CoQ10 distributes to membranes; MitoQ targets matrix. If MitoQ fails but SkQ1 works → the specific mitochondrial-targeted antioxidant matters — SkQ1 has different mitochondrial distribution],
+  explanation: [Mitochondrial ROS not rate-limiting; or the lesion is not CoQ10-accessible. If MitoQ fails but standard CoQ10 works → the lesion is at the inner membrane (Complex I--III shuttle), not the matrix — standard CoQ10 distributes to membranes; MitoQ targets matrix. If MitoQ fails but SkQ1 works → the specific mitochondrial-targeted antioxidant matters — SkQ1 has different mitochondrial distribution.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Paradoxical worsening → same principle as CoQ10 — electrons pushed through a blocked Complex III produce ROS (Pattern 5). The worsening localizes the ETC bottleneck: if MitoQ worsens but standard CoQ10 doesn't → the lesion is at the matrix side of Complex III. Minimal other side effects — TPP⁺ conjugation does not add toxicity at therapeutic doses.
 
@@ -1759,9 +2994,19 @@ Corrective — microglial anti-inflammatory + MMP-9 inhibition + neuroprotective
 #strong[HD] Threshold-modulatory — DAT/NET inhibition with speculative Corrective component (brain ATP enhancement + M1→M2 microglial shift @Minzenberg2008modafinil); negative ME/CFS RCT (n=14).
 
 
-#strong[+] DAT-mediated DA increase rate-limiting for cognition and wakefulness. Modafinil's weak DAT block + histamine/orexin activation confirms DA reuptake is the dominant bottleneck for wakefulness.
+#finding(
+  claim: [DAT-mediated DA increase rate-limiting for cognition and wakefulness. Modafinil's weak DAT block + histamine/orexin activation confirms DA reuptake is the dominant bottleneck for wakefulness],
+  explanation: [DAT-mediated DA increase rate-limiting for cognition and wakefulness. Modafinil's weak DAT block + histamine/orexin activation confirms DA reuptake is the dominant bottleneck for wakefulness.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] DAT absent, blocked (AAb), or non-functional; or DA not rate-limiting. If modafinil fails but methylphenidate works → modafinil's DAT block is too weak; methylphenidate's stronger DAT blockade is needed.
+#finding(
+  claim: [DAT absent, blocked (AAb), or non-functional; or DA not rate-limiting. If modafinil fails but methylphenidate works → modafinil's DAT block is too weak; methylphenidate's stronger DAT blockade is needed],
+  explanation: [DAT absent, blocked (AAb), or non-functional; or DA not rate-limiting. If modafinil fails but methylphenidate works → modafinil's DAT block is too weak; methylphenidate's stronger DAT blockade is needed.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Insomnia ceiling → orexin/histamine intact and DA-sensitive — the wakefulness-promoting pathways are on a hair trigger (Pattern 4). No response → DAT dysfunctional — AAb blockade, absence, or saturation (Pattern 5). Headache at standard dose → histamine-mediated vasodilation.
 
@@ -1773,9 +3018,19 @@ Corrective — microglial anti-inflammatory + MMP-9 inhibition + neuroprotective
 #strong[HD] Threshold-modulatory — leukotriene receptor antagonist blocking one arm of mast-cell-derived inflammation.
 
 
-#strong[+] Leukotrienes are the dominant MCAS mediator — improvement where antihistamines fail. CysLT1 antagonism confirms leukotriene-driven MCAS subtype.
+#finding(
+  claim: [Leukotrienes are the dominant MCAS mediator — improvement where antihistamines fail. CysLT1 antagonism confirms leukotriene-driven MCAS subtype],
+  explanation: [Leukotrienes are the dominant MCAS mediator — improvement where antihistamines fail. CysLT1 antagonism confirms leukotriene-driven MCAS subtype.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Leukotrienes not rate-limiting for MCAS symptoms. If montelukast fails but antihistamines work → histamine is dominant. If montelukast fails but aspirin works → PGD2 is dominant.
+#finding(
+  claim: [Leukotrienes not rate-limiting for MCAS symptoms. If montelukast fails but antihistamines work → histamine is dominant. If montelukast fails but aspirin works → PGD2 is dominant],
+  explanation: [Leukotrienes not rate-limiting for MCAS symptoms. If montelukast fails but antihistamines work → histamine is dominant. If montelukast fails but aspirin works → PGD2 is dominant.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Psychiatric symptoms (depression, agitation) → paradoxical reactor in CNS leukotriene pathways (Pattern 2). This identifies the CNS leukotriene system as load-bearing for mood — the same paradoxical reactor principle as LDN (opioid) and H2 antagonists (histamine).
 
@@ -1787,9 +3042,19 @@ Corrective — microglial anti-inflammatory + MMP-9 inhibition + neuroprotective
 Corrective — inhibits lymphocyte proliferation; broad immunosuppression — high side-effect burden
 
 
-#strong[+] IMPDH-dependent lymphocyte proliferation rate-limiting — confirms lymphocyte-driven autoimmunity. Mycophenolate blocks de novo purine synthesis in lymphocytes → inhibits proliferation more selectively than azathioprine (which blocks all purine synthesis).
+#finding(
+  claim: [IMPDH-dependent lymphocyte proliferation rate-limiting — confirms lymphocyte-driven autoimmunity. Mycophenolate blocks de novo purine synthesis in lymphocytes → inhibits proliferation more selectively than azathioprine (which blocks all purine synthesis)],
+  explanation: [IMPDH-dependent lymphocyte proliferation rate-limiting — confirms lymphocyte-driven autoimmunity. Mycophenolate blocks de novo purine synthesis in lymphocytes → inhibits proliferation more selectively than azathioprine (which blocks all purine synthesis).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Lymphocyte proliferation not rate-limiting. If mycophenolate fails but rituximab works → B cells are rate-limiting but the lesion is antibody production (not proliferation). If mycophenolate fails but cyclosporine works → T-cell activation (not proliferation) is the dominant lesion.
+#finding(
+  claim: [Lymphocyte proliferation not rate-limiting. If mycophenolate fails but rituximab works → B cells are rate-limiting but the lesion is antibody production (not proliferation). If mycophenolate fails but cyclosporine works → T-cell activation (not proliferation) is the dominant lesion],
+  explanation: [Lymphocyte proliferation not rate-limiting. If mycophenolate fails but rituximab works → B cells are rate-limiting but the lesion is antibody production (not proliferation). If mycophenolate fails but cyclosporine works → T-cell activation (not proliferation) is the dominant lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI toxicity (diarrhea, nausea) → enterocyte IMPDH sensitivity — enterocytes also rely on de novo purine synthesis; the GI ceiling prevents therapeutic immunosuppression (Pattern 4). The GI toxicity IS diagnostic: it confirms the patient's enterocyte proliferation depends on de novo purine synthesis; the gut and immune system share the same metabolic vulnerability. Bone marrow suppression → same principle as azathioprine but less severe (lymphocyte-selective over myeloid).
 
@@ -1801,9 +3066,19 @@ Corrective — inhibits lymphocyte proliferation; broad immunosuppression — hi
 #strong[HD] Substrate-repletion + Corrective — repletes glutathione (consumed by ROS) + Nrf2 activation via Keap1 modification; dual mechanism.
 
 
-#strong[+] Oxidative stress rate-limiting — glutathione deficiency confirmed. NAC provides cysteine substrate for GSH synthesis; improvement confirms ROS/oxidative stress is the dominant pathology.
+#finding(
+  claim: [Oxidative stress rate-limiting — glutathione deficiency confirmed. NAC provides cysteine substrate for GSH synthesis; improvement confirms ROS/oxidative stress is the dominant pathology],
+  explanation: [Oxidative stress rate-limiting — glutathione deficiency confirmed. NAC provides cysteine substrate for GSH synthesis; improvement confirms ROS/oxidative stress is the dominant pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Oxidative stress not rate-limiting; or glutathione is not the bottleneck.
+#finding(
+  claim: [Oxidative stress not rate-limiting; or glutathione is not the bottleneck],
+  explanation: [Oxidative stress not rate-limiting; or glutathione is not the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated. If NAC prevents carnitine-induced worsening → confirms lipid peroxide was the carnitine worsening mechanism. NAC's main diagnostic value is as a combinatorial probe — it prevents other supplements' paradoxical worsening, isolating the ROS mechanism.
 
@@ -1815,9 +3090,19 @@ Corrective — inhibits lymphocyte proliferation; broad immunosuppression — hi
 #strong[HD] Substrate-repletion — supplies NADH as Complex I substrate; bypasses reduced endogenous production.
 
 
-#strong[+] ETC Complex I electron donor deficiency rate-limiting. NADH supplementation restores electron flux — confirms Complex I function is present and NADH is the bottleneck.
+#finding(
+  claim: [ETC Complex I electron donor deficiency rate-limiting. NADH supplementation restores electron flux — confirms Complex I function is present and NADH is the bottleneck],
+  explanation: [ETC Complex I electron donor deficiency rate-limiting. NADH supplementation restores electron flux — confirms Complex I function is present and NADH is the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NADH not rate-limiting — or ETC downstream block prevents NADH electrons from producing ATP.
+#finding(
+  claim: [NADH not rate-limiting — or ETC downstream block prevents NADH electrons from producing ATP],
+  explanation: [NADH not rate-limiting — or ETC downstream block prevents NADH electrons from producing ATP.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Worsening → Complex I electron flux increases ROS downstream of the block (Pattern 5). If NADH worsening is prevented by CoQ10 → the block is at Complex III; NADH pushes electrons to Complex I, they accumulate at Complex III → ROS. If NADH worsening is prevented by NAC → ROS is the dominant effector.
 
@@ -1829,9 +3114,19 @@ Corrective — inhibits lymphocyte proliferation; broad immunosuppression — hi
 Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-stage; limited quality control
 
 
-#strong[+] Microclot pathology rate-limiting for PEM and perfusion. Fibrinolytic activity degrades microclots → improved microvascular perfusion confirms fibrinolytic-accessible microclot pathology.
+#finding(
+  claim: [Microclot pathology rate-limiting for PEM and perfusion. Fibrinolytic activity degrades microclots → improved microvascular perfusion confirms fibrinolytic-accessible microclot pathology],
+  explanation: [Microclot pathology rate-limiting for PEM and perfusion. Fibrinolytic activity degrades microclots → improved microvascular perfusion confirms fibrinolytic-accessible microclot pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Microclots not rate-limiting — PEM is metabolic, mitochondrial, or neuroinflammatory. If nattokinase fails but mitochondrial supplements work → PEM is metabolic, not microclot-mediated.
+#finding(
+  claim: [Microclots not rate-limiting — PEM is metabolic, mitochondrial, or neuroinflammatory. If nattokinase fails but mitochondrial supplements work → PEM is metabolic, not microclot-mediated],
+  explanation: [Microclots not rate-limiting — PEM is metabolic, mitochondrial, or neuroinflammatory. If nattokinase fails but mitochondrial supplements work → PEM is metabolic, not microclot-mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Bleeding at fibrinolytic dose → hemostatic reserve narrow — microclots may be degradation-resistant because the hemostatic system is already strained (Pattern 4). No bleeding at therapeutic dose → platelet count and function intact (Pattern 5).
 
@@ -1843,9 +3138,19 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 #strong[HD] Substrate-repletion — NAD⁺ precursor (vitamin B3); supports NAD⁺ pool.
 
 
-#strong[+] Pure side-effect probe — niacin is NOT a therapeutic probe; it is used diagnostically. HCA2 (GPR109A) activation on mast cells → PGD2 release → flush. The flush threshold (dose at which flush occurs) is the diagnostic output.
+#finding(
+  claim: [Pure side-effect probe — niacin is NOT a therapeutic probe; it is used diagnostically. HCA2 (GPR109A) activation on mast cells → PGD2 release → flush. The flush threshold (dose at which flush occurs) is the diagnostic output],
+  explanation: [Pure side-effect probe — niacin is NOT a therapeutic probe; it is used diagnostically. HCA2 (GPR109A) activation on mast cells → PGD2 release → flush. The flush threshold (dose at which flush occurs) is the diagnostic output.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Not a therapeutic probe — null not informative.
+#finding(
+  claim: [Not a therapeutic probe — null not informative],
+  explanation: [Not a therapeutic probe — null not informative.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Flush threshold at 25--500 mg → cutaneous MCAS PGD2 hyper-reactivity — the lower the flush threshold, the more reactive the mast-cell PGD2 pool (Pattern 3). Flush prevented by aspirin → PGD2-mediated — confirms COX-1-derived PGH2 → PGD2 pathway. Flush prevented by antihistamines → histamine-mediated — confirms histamine-driven flush rather than PGD2. No flush at 500 mg → mast cell PGD2 pool depleted or non-reactive.
 
@@ -1857,9 +3162,19 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 #strong[HD] Threshold-modulatory — L-type Ca²⁺ channel blocker reducing vasoconstriction; short half-life limits sustained benefit.
 
 
-#strong[+] TRPV1-mediated L-type Ca²⁺ channel vasoconstriction rate-limiting for microvascular perfusion. Same diagnostic principle as amlodipine but with shorter half-life and more rapid vasodilation — the rapid onset provides a faster pharmacodiagnostic readout.
+#finding(
+  claim: [TRPV1-mediated L-type Ca²⁺ channel vasoconstriction rate-limiting for microvascular perfusion. Same diagnostic principle as amlodipine but with shorter half-life and more rapid vasodilation — the rapid onset provides a faster pharmacodiagnostic readout],
+  explanation: [TRPV1-mediated L-type Ca²⁺ channel vasoconstriction rate-limiting for microvascular perfusion. Same diagnostic principle as amlodipine but with shorter half-life and more rapid vasodilation — the rapid onset provides a faster pharmacodiagnostic readout.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] L-type Ca²⁺ channels not rate-limiting. If nifedipine fails but amlodipine works → sustained (not pulsatile) L-type blockade is needed — the pharmacokinetics matter for vascular benefit. If nifedipine causes reflex tachycardia without perfusion benefit → baroreflex intact — the rapid vasodilation triggers compensatory sympathetic activation (Pattern 4).
+#finding(
+  claim: [L-type Ca²⁺ channels not rate-limiting. If nifedipine fails but amlodipine works → sustained (not pulsatile) L-type blockade is needed — the pharmacokinetics matter for vascular benefit. If nifedipine causes reflex tachycardia without perfusion benefit → baroreflex intact — the rapid vasodilation triggers compensatory sympathetic activation (Pattern 4)],
+  explanation: [L-type Ca²⁺ channels not rate-limiting. If nifedipine fails but amlodipine works → sustained (not pulsatile) L-type blockade is needed — the pharmacokinetics matter for vascular benefit. If nifedipine causes reflex tachycardia without perfusion benefit → baroreflex intact — the rapid vasodilation triggers compensatory sympathetic activation (Pattern 4).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Reflex tachycardia at therapeutic dose → baroreflex intact and sensitive — rapid vasodilation drops BP; baroreflex responds with HR increase (Pattern 4). The tachycardia IS diagnostic: it confirms the baroreflex arc is functional; the sympathetic response is intact. Flushing, headache → rapid vasodilation — confirms drug engagement. The reflex tachycardia distinguishes nifedipine from amlodipine: amlodipine's gradual onset avoids baroreflex triggering — the comparison maps the patient's baroreflex sensitivity.
 
@@ -1871,9 +3186,19 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 #strong[HD] Substrate-repletion — supplies NAD⁺ precursors; compensates for NAD⁺ depletion.
 
 
-#strong[+] NAD⁺ deficiency rate-limiting. NMN/NR supplementation restores NAD⁺ pools — confirms NAD⁺ depletion is the bottleneck, and the salvage pathway (NMNAT, NAMPT) is intact.
+#finding(
+  claim: [NAD⁺ deficiency rate-limiting. NMN/NR supplementation restores NAD⁺ pools — confirms NAD⁺ depletion is the bottleneck, and the salvage pathway (NMNAT, NAMPT) is intact],
+  explanation: [NAD⁺ deficiency rate-limiting. NMN/NR supplementation restores NAD⁺ pools — confirms NAD⁺ depletion is the bottleneck, and the salvage pathway (NMNAT, NAMPT) is intact.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NAD⁺ not rate-limiting — consumption excess (PARP, CD38) overwhelms even supplemented synthesis; or ETC is the downstream bottleneck. If NMN/NR fails but CoQ10 works → NAD⁺ is adequate; the bottleneck is Complex III.
+#finding(
+  claim: [NAD⁺ not rate-limiting — consumption excess (PARP, CD38) overwhelms even supplemented synthesis; or ETC is the downstream bottleneck. If NMN/NR fails but CoQ10 works → NAD⁺ is adequate; the bottleneck is Complex III],
+  explanation: [NAD⁺ not rate-limiting — consumption excess (PARP, CD38) overwhelms even supplemented synthesis; or ETC is the downstream bottleneck. If NMN/NR fails but CoQ10 works → NAD⁺ is adequate; the bottleneck is Complex III.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated. If NMN/NR worsening occurs → the NAD⁺-consuming enzyme (PARP or CD38) is upregulated; supplemented NAD⁺ is consumed faster than it's produced, creating a futile cycle. Add quercetin (CD38 inhibitor) or olaparib (PARP inhibitor) to isolate the NAD⁺ sink.
 
@@ -1885,9 +3210,19 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 #strong[HD] Threshold-modulatory — NE/5-HT reuptake inhibition with less H1 antagonism than amitriptyline.
 
 
-#strong[+] NE reuptake inhibition + 5-HT2/H1 antagonism rate-limiting for pain and sleep. Nortriptyline is the active metabolite of amitriptyline with less sedation and fewer anticholinergic effects — improvement with fewer side effects confirms the lesion is NE/5-HT-mediated, not H1/M1-mediated.
+#finding(
+  claim: [NE reuptake inhibition + 5-HT2/H1 antagonism rate-limiting for pain and sleep. Nortriptyline is the active metabolite of amitriptyline with less sedation and fewer anticholinergic effects — improvement with fewer side effects confirms the lesion is NE/5-HT-mediated, not H1/M1-mediated],
+  explanation: [NE reuptake inhibition + 5-HT2/H1 antagonism rate-limiting for pain and sleep. Nortriptyline is the active metabolite of amitriptyline with less sedation and fewer anticholinergic effects — improvement with fewer side effects confirms the lesion is NE/5-HT-mediated, not H1/M1-mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NE/5-HT not rate-limiting. If nortriptyline fails but amitriptyline works → the additional H1/M1 blockade (sedation, anticholinergic) was the therapeutic component. If nortriptyline fails but duloxetine works → the serotonergic component (5-HT reuptake) is dominant; the NE component alone insufficient.
+#finding(
+  claim: [NE/5-HT not rate-limiting. If nortriptyline fails but amitriptyline works → the additional H1/M1 blockade (sedation, anticholinergic) was the therapeutic component. If nortriptyline fails but duloxetine works → the serotonergic component (5-HT reuptake) is dominant; the NE component alone insufficient],
+  explanation: [NE/5-HT not rate-limiting. If nortriptyline fails but amitriptyline works → the additional H1/M1 blockade (sedation, anticholinergic) was the therapeutic component. If nortriptyline fails but duloxetine works → the serotonergic component (5-HT reuptake) is dominant; the NE component alone insufficient.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Tachycardia at subtherapeutic dose → NET inhibition sensitive — confirms NE transporter is functional and blocking it increases synaptic NE (Pattern 4). The tachycardia threshold identifies the dose at which NET blockade becomes hemodynamically significant. Anticholinergic symptoms milder than amitriptyline at equivalent doses → the secondary amine has ~5--10× lower M1 affinity — confirms the patient's anticholinergic sensitivity was to the tertiary amine, not the M1 receptor.
 
@@ -1899,9 +3234,19 @@ Corrective — fibrinolytic enzyme degrading fibrin microthrombi — research-st
 Corrective — anti-IgE monoclonal antibody blocking IgE-mediated mast cell activation; targets a specific activation pathway
 
 
-#strong[+] IgE-mediated mast cell degranulation rate-limiting. Omalizumab binds free IgE → prevents IgE binding to FcεRI on mast cells → reduced mast cell degranulation confirms IgE-mediated MCAS is the dominant subtype.
+#finding(
+  claim: [IgE-mediated mast cell degranulation rate-limiting. Omalizumab binds free IgE → prevents IgE binding to FcεRI on mast cells → reduced mast cell degranulation confirms IgE-mediated MCAS is the dominant subtype],
+  explanation: [IgE-mediated mast cell degranulation rate-limiting. Omalizumab binds free IgE → prevents IgE binding to FcεRI on mast cells → reduced mast cell degranulation confirms IgE-mediated MCAS is the dominant subtype.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] IgE not the dominant MCAS trigger — MCAS is non-IgE-mediated (complement, TLR, MRGPRX2, physical stimuli). Omalizumab's null is highly specific: it rules out IgE-mediated MCAS. The majority of ME/CFS MCAS is non-IgE — omalizumab null is the expected result in most patients.
+#finding(
+  claim: [IgE not the dominant MCAS trigger — MCAS is non-IgE-mediated (complement, TLR, MRGPRX2, physical stimuli). Omalizumab's null is highly specific: it rules out IgE-mediated MCAS. The majority of ME/CFS MCAS is non-IgE — omalizumab null is the expected result in most patients],
+  explanation: [IgE not the dominant MCAS trigger — MCAS is non-IgE-mediated (complement, TLR, MRGPRX2, physical stimuli). Omalizumab's null is highly specific: it rules out IgE-mediated MCAS. The majority of ME/CFS MCAS is non-IgE — omalizumab null is the expected result in most patients.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Anaphylaxis (rare) → IgE-omalizumab immune complexes — confirms the drug is present and immune recognition is intact. This is a treatment emergency, not a diagnostic signal. Injection-site reaction → standard monoclonal antibody response.
 
@@ -1913,9 +3258,19 @@ Corrective — anti-IgE monoclonal antibody blocking IgE-mediated mast cell acti
 Corrective — SPM precursor supporting inflammation resolution; shifts eicosanoid balance toward pro-resolving mediators
 
 
-#strong[+] Pro-inflammatory eicosanoid pathway rate-limiting for neuroinflammation. EPA/DHA compete with arachidonic acid for COX/LOX → shift eicosanoid production toward anti-inflammatory resolvins and protectins. Improvement confirms the eicosanoid balance is the dominant inflammatory lesion.
+#finding(
+  claim: [Pro-inflammatory eicosanoid pathway rate-limiting for neuroinflammation. EPA/DHA compete with arachidonic acid for COX/LOX → shift eicosanoid production toward anti-inflammatory resolvins and protectins. Improvement confirms the eicosanoid balance is the dominant inflammatory lesion],
+  explanation: [Pro-inflammatory eicosanoid pathway rate-limiting for neuroinflammation. EPA/DHA compete with arachidonic acid for COX/LOX → shift eicosanoid production toward anti-inflammatory resolvins and protectins. Improvement confirms the eicosanoid balance is the dominant inflammatory lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Eicosanoid pathway not rate-limiting. If omega-3 fails but celecoxib works → COX-2-driven inflammation confirmed but omega-3's eicosanoid competition is insufficient; pharmaceutical COX-2 inhibition required. If omega-3 fails but curcumin works → NF-κB-driven, not eicosanoid-driven.
+#finding(
+  claim: [Eicosanoid pathway not rate-limiting. If omega-3 fails but celecoxib works → COX-2-driven inflammation confirmed but omega-3's eicosanoid competition is insufficient; pharmaceutical COX-2 inhibition required. If omega-3 fails but curcumin works → NF-κB-driven, not eicosanoid-driven],
+  explanation: [Eicosanoid pathway not rate-limiting. If omega-3 fails but celecoxib works → COX-2-driven inflammation confirmed but omega-3's eicosanoid competition is insufficient; pharmaceutical COX-2 inhibition required. If omega-3 fails but curcumin works → NF-κB-driven, not eicosanoid-driven.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Bleeding at high doses (3+ g/day EPA+DHA) → omega-3 antiplatelet effect — confirms systemic eicosanoid shift is achieved (Pattern 4). The bleeding threshold identifies the dose at which eicosanoid balance shifts from therapeutic to hemostatic risk. No bleeding at high dose → arachidonic acid pool is large enough to compensate — omega-3 dose may be subtherapeutic.
 
@@ -1927,9 +3282,19 @@ Corrective — SPM precursor supporting inflammation resolution; shifts eicosano
 #strong[HD] Substrate-repletion — TCA cycle intermediate bypassing metabolic bottleneck — research-stage.
 
 
-#strong[+] TCA cycle flux limitation at oxaloacetate entry step. Oxaloacetate supplementation restores TCA cycle throughput — confirms the TCA bottleneck is at or near oxaloacetate-dependent steps.
+#finding(
+  claim: [TCA cycle flux limitation at oxaloacetate entry step. Oxaloacetate supplementation restores TCA cycle throughput — confirms the TCA bottleneck is at or near oxaloacetate-dependent steps],
+  explanation: [TCA cycle flux limitation at oxaloacetate entry step. Oxaloacetate supplementation restores TCA cycle throughput — confirms the TCA bottleneck is at or near oxaloacetate-dependent steps.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] TCA cycle not rate-limiting. Nutraceutical — null non-informative given limited potency.
+#finding(
+  claim: [TCA cycle not rate-limiting. Nutraceutical — null non-informative given limited potency],
+  explanation: [TCA cycle not rate-limiting. Nutraceutical — null non-informative given limited potency.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated. Null non-informative.
 
@@ -1941,9 +3306,19 @@ Corrective — SPM precursor supporting inflammation resolution; shifts eicosano
 #strong[HD] Symptomatic — mu-opioid agonist; suppresses pain perception without reducing nociceptive driver — dependence risk.
 
 
-#strong[+] Opioid-sensitive pain rate-limiting for QoL. Oxycodone's μ-opioid agonism confirms the opioidergic pain-modulation system is functional — pain relief confirms opioid receptors are present and responsive.
+#finding(
+  claim: [Opioid-sensitive pain rate-limiting for QoL. Oxycodone's μ-opioid agonism confirms the opioidergic pain-modulation system is functional — pain relief confirms opioid receptors are present and responsive],
+  explanation: [Opioid-sensitive pain rate-limiting for QoL. Oxycodone's μ-opioid agonism confirms the opioidergic pain-modulation system is functional — pain relief confirms opioid receptors are present and responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Pain is opioid-resistant — neuropathic, central sensitization, or opioid receptor desensitized. If oxycodone fails but LDN works (at low dose for pain) → opioid system is functional but the pathology requires antagonism (paradoxical), not agonism. If oxycodone fails but gabapentin works → the pain is α2δ-mediated, not opioid-mediated.
+#finding(
+  claim: [Pain is opioid-resistant — neuropathic, central sensitization, or opioid receptor desensitized. If oxycodone fails but LDN works (at low dose for pain) → opioid system is functional but the pathology requires antagonism (paradoxical), not agonism. If oxycodone fails but gabapentin works → the pain is α2δ-mediated, not opioid-mediated],
+  explanation: [Pain is opioid-resistant — neuropathic, central sensitization, or opioid receptor desensitized. If oxycodone fails but LDN works (at low dose for pain) → opioid system is functional but the pathology requires antagonism (paradoxical), not agonism. If oxycodone fails but gabapentin works → the pain is α2δ-mediated, not opioid-mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Hyperalgesia with chronic use → opioid-induced hyperalgesia (OIH) — opioid receptors downregulate; NMDA-mediated pain sensitization upregulates. The OIH IS diagnostic: it confirms the opioid system is plastic and susceptible to chronic rebound hyperalgesia. Severe constipation + worsening gastroparesis → μ-opioid-mediated inhibition of GI motility — confirms enteric opioid receptor sensitivity.
 
@@ -1955,9 +3330,19 @@ Corrective — SPM precursor supporting inflammation resolution; shifts eicosano
 Corrective — respects energy envelope preventing PEM; adapts activity to capacity rather than correcting the capacity deficit
 
 
-#strong[+] The patient's energy envelope is narrow but manageable. Successful pacing prevents PEM — confirms the patient can stay within their energy envelope with discipline. Pacing is the treatment, not a probe — its diagnostic value is in demonstrating that the energy-ratchet model is reversible when exertion is capped.
+#finding(
+  claim: [The patient's energy envelope is narrow but manageable. Successful pacing prevents PEM — confirms the patient can stay within their energy envelope with discipline. Pacing is the treatment, not a probe — its diagnostic value is in demonstrating that the energy-ratchet model is reversible when exertion is capped],
+  explanation: [The patient's energy envelope is narrow but manageable. Successful pacing prevents PEM — confirms the patient can stay within their energy envelope with discipline. Pacing is the treatment, not a probe — its diagnostic value is in demonstrating that the energy-ratchet model is reversible when exertion is capped.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Pacing fails when the energy envelope is below activities of daily living — confirms severe ME/CFS with a negative energy balance at rest. The null is not a failure of pacing but a readout of disease severity.
+#finding(
+  claim: [Pacing fails when the energy envelope is below activities of daily living — confirms severe ME/CFS with a negative energy balance at rest. The null is not a failure of pacing but a readout of disease severity],
+  explanation: [Pacing fails when the energy envelope is below activities of daily living — confirms severe ME/CFS with a negative energy balance at rest. The null is not a failure of pacing but a readout of disease severity.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No adverse effects from pacing — pacing does not cause PEM. Frustration/psychological distress from activity limitation is an iatrogenic harm of the disease, not of pacing. The psychological burden of pacing IS diagnostic: it measures the gap between the patient's desired and achievable activity levels.
 
@@ -1969,9 +3354,19 @@ Corrective — respects energy envelope preventing PEM; adapts activity to capac
 #strong[HD] Symptomatic — proton pump inhibitor reducing gastric acid; may worsen SIBO/dysbiosis.
 
 
-#strong[+] Gastric acid hypersecretion rate-limiting for GERD symptoms. PPI-induced acid suppression confirms the GERD component is acid-mediated. Pantoprazole has fewer CYP450 interactions than omeprazole — preferred in polypharmacy.
+#finding(
+  claim: [Gastric acid hypersecretion rate-limiting for GERD symptoms. PPI-induced acid suppression confirms the GERD component is acid-mediated. Pantoprazole has fewer CYP450 interactions than omeprazole — preferred in polypharmacy],
+  explanation: [Gastric acid hypersecretion rate-limiting for GERD symptoms. PPI-induced acid suppression confirms the GERD component is acid-mediated. Pantoprazole has fewer CYP450 interactions than omeprazole — preferred in polypharmacy.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GERD not rate-limiting for GI symptoms. If pantoprazole fails but famotidine works → H2-mediated acid secretion is the dominant pathway; or the H2 immunomodulatory effect is the therapeutic component. If pantoprazole fails but cromolyn works → mast cell GI symptoms; acid suppression alone insufficient.
+#finding(
+  claim: [GERD not rate-limiting for GI symptoms. If pantoprazole fails but famotidine works → H2-mediated acid secretion is the dominant pathway; or the H2 immunomodulatory effect is the therapeutic component. If pantoprazole fails but cromolyn works → mast cell GI symptoms; acid suppression alone insufficient],
+  explanation: [GERD not rate-limiting for GI symptoms. If pantoprazole fails but famotidine works → H2-mediated acid secretion is the dominant pathway; or the H2 immunomodulatory effect is the therapeutic component. If pantoprazole fails but cromolyn works → mast cell GI symptoms; acid suppression alone insufficient.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Rebound acid hypersecretion on discontinuation → parietal cell gastrin sensitivity confirmed (Pattern E). B12 deficiency with prolonged use → impaired B12 absorption from achlorhydria — compounds existing ME/CFS B12 vulnerability (Pattern G). Hypomagnesemia with prolonged use → impaired Mg absorption — compounds Mg-dependent ATP enzymes.
 
@@ -1983,9 +3378,19 @@ Corrective — respects energy envelope preventing PEM; adapts activity to capac
 Corrective — endogenous PPAR-α agonist + mast cell stabilizer; modulates neuroinflammation through endogenous lipid signaling
 
 
-#strong[+] PPAR-α-mediated microglial modulation rate-limiting. PEA's anti-inflammatory and analgesic effects via PPAR-α confirm microglial/glial inflammation is PPAR-α-responsive.
+#finding(
+  claim: [PPAR-α-mediated microglial modulation rate-limiting. PEA's anti-inflammatory and analgesic effects via PPAR-α confirm microglial/glial inflammation is PPAR-α-responsive],
+  explanation: [PPAR-α-mediated microglial modulation rate-limiting. PEA's anti-inflammatory and analgesic effects via PPAR-α confirm microglial/glial inflammation is PPAR-α-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] PPAR-α pathway not rate-limiting.
+#finding(
+  claim: [PPAR-α pathway not rate-limiting],
+  explanation: [PPAR-α pathway not rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — one of the best-tolerated supplements. Virtually no side effects. Null is non-informative given low potency.
 
@@ -1997,9 +3402,19 @@ Corrective — endogenous PPAR-α agonist + mast cell stabilizer; modulates neur
 #strong[HD] Threshold-modulatory — electromagnetic field modulating cellular activity — research-stage.
 
 
-#strong[+] Electromagnetic field-responsive tissue inflammation rate-limiting. PEMF is proposed to reduce inflammation and enhance repair via electromagnetic effects on cell membranes. Improvement confirms the tissue is PEMF-responsive — mechanism unclear.
+#finding(
+  claim: [Electromagnetic field-responsive tissue inflammation rate-limiting. PEMF is proposed to reduce inflammation and enhance repair via electromagnetic effects on cell membranes. Improvement confirms the tissue is PEMF-responsive — mechanism unclear],
+  explanation: [Electromagnetic field-responsive tissue inflammation rate-limiting. PEMF is proposed to reduce inflammation and enhance repair via electromagnetic effects on cell membranes. Improvement confirms the tissue is PEMF-responsive — mechanism unclear.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Tissue not PEMF-responsive. Null non-informative given limited evidence base and variable device parameters (frequency, intensity, waveform, treatment site). The null is almost always a device/dosing confound.
+#finding(
+  claim: [Tissue not PEMF-responsive. Null non-informative given limited evidence base and variable device parameters (frequency, intensity, waveform, treatment site). The null is almost always a device/dosing confound],
+  explanation: [Tissue not PEMF-responsive. Null non-informative given limited evidence base and variable device parameters (frequency, intensity, waveform, treatment site). The null is almost always a device/dosing confound.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] No known adverse effects at therapeutic intensities. No diagnostic side effects. The null non-informative given evidence base.
 
@@ -2011,9 +3426,19 @@ Corrective — endogenous PPAR-α agonist + mast cell stabilizer; modulates neur
 #strong[HD] Threshold-modulatory — PDE inhibitor reducing blood viscosity and TNF-α; modulates perfusion/cytokine balance.
 
 
-#strong[+] RBC deformability deficit rate-limiting for microvascular perfusion. Pentoxifylline improves erythrocyte flexibility → improved capillary blood flow → confirms RBC rigidity is the dominant microvascular lesion. Additional TNF-α inhibition may provide anti-inflammatory benefit. If pentoxifylline improves NIRS-measured O₂ extraction → endothelial hypertrophy-induced luminal narrowing (Step F0c) is the rate-limiting barrier — flexible RBCs can now pass narrowed capillaries.
+#finding(
+  claim: [RBC deformability deficit rate-limiting for microvascular perfusion. Pentoxifylline improves erythrocyte flexibility → improved capillary blood flow → confirms RBC rigidity is the dominant microvascular lesion. Additional TNF-α inhibition may provide anti-inflammatory benefit. If pentoxifylline improves NIRS-measured O₂ extraction → endothelial hypertrophy-induced luminal narrowing (Step F0c) is the rate-limiting barrier — flexible RBCs can now pass narrowed capillaries],
+  explanation: [RBC deformability deficit rate-limiting for microvascular perfusion. Pentoxifylline improves erythrocyte flexibility → improved capillary blood flow → confirms RBC rigidity is the dominant microvascular lesion. Additional TNF-α inhibition may provide anti-inflammatory benefit. If pentoxifylline improves NIRS-measured O₂ extraction → endothelial hypertrophy-induced luminal narrowing (Step F0c) is the rate-limiting barrier — flexible RBCs can now pass narrowed capillaries.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] RBC deformability not rate-limiting. If pentoxifylline fails but cilostazol works → the perfusion deficit is platelet/cAMP-mediated, not RBC-mediated. If pentoxifylline fails but L-arginine works → NO-mediated vasodilation is dominant; RBC flexibility is adequate. If pentoxifylline fails AND endothelial hypertrophy is documented on EM → the bottleneck is NOT luminal narrowing but BM diffusion distance — making RBCs more flexible doesn't help if the BM itself is the barrier. Pentoxifylline response thus discriminates endothelial hypertrophy (F0c — treatable with RBC deformability enhancers) from BM thickening (F0a — not treatable with any currently approved drug).
+#finding(
+  claim: [RBC deformability not rate-limiting. If pentoxifylline fails but cilostazol works → the perfusion deficit is platelet/cAMP-mediated, not RBC-mediated. If pentoxifylline fails but L-arginine works → NO-mediated vasodilation is dominant; RBC flexibility is adequate. If pentoxifylline fails AND endothelial hypertrophy is documented on EM → the bottleneck is NOT luminal narrowing but BM diffusion distance — making RBCs more flexible doesn't help if the BM itself is the barrier. Pentoxifylline response thus discriminates endothelial hypertrophy (F0c — treatable with RBC deformability enhancers) from BM thickening (F0a — not treatable with any currently approved drug)],
+  explanation: [RBC deformability not rate-limiting. If pentoxifylline fails but cilostazol works → the perfusion deficit is platelet/cAMP-mediated, not RBC-mediated. If pentoxifylline fails but L-arginine works → NO-mediated vasodilation is dominant; RBC flexibility is adequate. If pentoxifylline fails AND endothelial hypertrophy is documented on EM → the bottleneck is NOT luminal narrowing but BM diffusion distance — making RBCs more flexible doesn't help if the BM itself is the barrier. Pentoxifylline response thus discriminates endothelial hypertrophy (F0c — treatable with RBC deformability enhancers) from BM thickening (F0a — not treatable with any currently approved drug).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI upset → standard xanthine-derivative GI intolerance. Flushing → PDE inhibition-mediated vasodilation — confirms drug engagement. Minimal other side effects.
 
@@ -2025,9 +3450,19 @@ Corrective — endogenous PPAR-α agonist + mast cell stabilizer; modulates neur
 #strong[HD] Threshold-modulatory — H3 antagonist/inverse agonist increasing histaminergic release; pro-cognitive — speculatively M1→M2 microglial shift.
 
 
-#strong[+] Histaminergic anti-inflammatory (microglial M1→M2 shift) or wakefulness benefit. H3 inverse agonism releases endogenous histamine — improvement confirms histaminergic system is rate-limiting.
+#finding(
+  claim: [Histaminergic anti-inflammatory (microglial M1→M2 shift) or wakefulness benefit. H3 inverse agonism releases endogenous histamine — improvement confirms histaminergic system is rate-limiting],
+  explanation: [Histaminergic anti-inflammatory (microglial M1→M2 shift) or wakefulness benefit. H3 inverse agonism releases endogenous histamine — improvement confirms histaminergic system is rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Histaminergic system not bottleneck; H3 receptors downregulated; or histamine depleted.
+#finding(
+  claim: [Histaminergic system not bottleneck; H3 receptors downregulated; or histamine depleted],
+  explanation: [Histaminergic system not bottleneck; H3 receptors downregulated; or histamine depleted.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Insomnia ceiling → histaminergic arousal on hair trigger — histamine release overshoots (Pattern 4). Headache ceiling → histamine-mediated vasodilation — confirms vascular histamine sensitivity (Pattern 4).
 
@@ -2039,9 +3474,19 @@ Corrective — endogenous PPAR-α agonist + mast cell stabilizer; modulates neur
 #strong[HD] Substrate-repletion + Corrective — mitochondrial biogenesis promoter + antioxidant.
 
 
-#strong[+] Mitochondrial biogenesis deficit rate-limiting. PQQ stimulates PGC-1α/NRF1/2 → mitochondrial biogenesis → increased mitochondrial density confirms the lesion is quantitative (too few mitochondria), not qualitative (dysfunctional mitochondria).
+#finding(
+  claim: [Mitochondrial biogenesis deficit rate-limiting. PQQ stimulates PGC-1α/NRF1/2 → mitochondrial biogenesis → increased mitochondrial density confirms the lesion is quantitative (too few mitochondria), not qualitative (dysfunctional mitochondria)],
+  explanation: [Mitochondrial biogenesis deficit rate-limiting. PQQ stimulates PGC-1α/NRF1/2 → mitochondrial biogenesis → increased mitochondrial density confirms the lesion is quantitative (too few mitochondria), not qualitative (dysfunctional mitochondria).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Mitochondrial biogenesis not rate-limiting — the lesion is qualitative (dysfunctional ETC, not mitochondrial number). If PQQ fails but CoQ10 works → the existing mitochondria are dysfunctional; making more mitochondria doesn't help if each one is impaired.
+#finding(
+  claim: [Mitochondrial biogenesis not rate-limiting — the lesion is qualitative (dysfunctional ETC, not mitochondrial number). If PQQ fails but CoQ10 works → the existing mitochondria are dysfunctional; making more mitochondria doesn't help if each one is impaired],
+  explanation: [Mitochondrial biogenesis not rate-limiting — the lesion is qualitative (dysfunctional ETC, not mitochondrial number). If PQQ fails but CoQ10 works → the existing mitochondria are dysfunctional; making more mitochondria doesn't help if each one is impaired.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated redox cofactor. No specific ME/CFS diagnostic side effects.
 
@@ -2053,9 +3498,19 @@ Corrective — endogenous PPAR-α agonist + mast cell stabilizer; modulates neur
 #strong[HD] Threshold-modulatory — D2/D3 agonist with preference for D3; dopaminergic augmentation — impulse control disorder risk.
 
 
-#strong[+] D2/D3 receptors intact and responsive. Pramipexole's D2/D3 agonism confirms the postsynaptic dopamine receptor population is functional.
+#finding(
+  claim: [D2/D3 receptors intact and responsive. Pramipexole's D2/D3 agonism confirms the postsynaptic dopamine receptor population is functional],
+  explanation: [D2/D3 receptors intact and responsive. Pramipexole's D2/D3 agonism confirms the postsynaptic dopamine receptor population is functional.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Lesion is not at D2/D3 — synthesis, storage, or downstream signaling is the bottleneck. If pramipexole fails but L-DOPA works → DA synthesis is rate-limiting; D2/D3 can't be activated because there's no DA.
+#finding(
+  claim: [Lesion is not at D2/D3 — synthesis, storage, or downstream signaling is the bottleneck. If pramipexole fails but L-DOPA works → DA synthesis is rate-limiting; D2/D3 can't be activated because there's no DA],
+  explanation: [Lesion is not at D2/D3 — synthesis, storage, or downstream signaling is the bottleneck. If pramipexole fails but L-DOPA works → DA synthesis is rate-limiting; D2/D3 can't be activated because there's no DA.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Nausea at RLS dose (0.125 mg) → DA supersensitivity in area postrema (Pattern 1). No nausea + no dizziness + no benefit at full dose → D2/D3 too damaged to respond (Pattern 5). Impulse control disorders at low dose → mesolimbic D2/D3 supersensitivity.
 
@@ -2067,9 +3522,19 @@ Corrective — endogenous PPAR-α agonist + mast cell stabilizer; modulates neur
 Corrective — statin with pleiotropic anti-inflammatory effects; may reduce endothelial inflammation — muscle symptoms concern in ME/CFS
 
 
-#strong[+] Monocyte-endothelial inflammation rate-limiting. Pravastatin's pleiotropic anti-inflammatory effects (independent of cholesterol lowering) reduce monocyte activation and endothelial dysfunction. Improvement confirms the endothelial-monocyte axis is the dominant vascular-inflammatory lesion.
+#finding(
+  claim: [Monocyte-endothelial inflammation rate-limiting. Pravastatin's pleiotropic anti-inflammatory effects (independent of cholesterol lowering) reduce monocyte activation and endothelial dysfunction. Improvement confirms the endothelial-monocyte axis is the dominant vascular-inflammatory lesion],
+  explanation: [Monocyte-endothelial inflammation rate-limiting. Pravastatin's pleiotropic anti-inflammatory effects (independent of cholesterol lowering) reduce monocyte activation and endothelial dysfunction. Improvement confirms the endothelial-monocyte axis is the dominant vascular-inflammatory lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Endothelial-monocyte axis not rate-limiting. If pravastatin fails but losartan works → TGF-β-driven vascular pathology is dominant. If pravastatin fails but pentoxifylline works → the vascular lesion is hemorrheologic (RBC), not endothelial-inflammatory.
+#finding(
+  claim: [Endothelial-monocyte axis not rate-limiting. If pravastatin fails but losartan works → TGF-β-driven vascular pathology is dominant. If pravastatin fails but pentoxifylline works → the vascular lesion is hemorrheologic (RBC), not endothelial-inflammatory],
+  explanation: [Endothelial-monocyte axis not rate-limiting. If pravastatin fails but losartan works → TGF-β-driven vascular pathology is dominant. If pravastatin fails but pentoxifylline works → the vascular lesion is hemorrheologic (RBC), not endothelial-inflammatory.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Myopathy/muscle pain at low dose → statin-induced mitochondrial CoQ10 depletion — confirms the patient's mitochondrial reserve cannot tolerate even modest CoQ10 depletion (Pattern 4). The myopathy IS diagnostic: the patient is CoQ10-dependent; statin-induced HMG-CoA reductase inhibition also blocks CoQ10 synthesis. If CoQ10 co-administration prevents myopathy → confirms the mechanism was CoQ10 depletion.
 
@@ -2081,9 +3546,19 @@ Corrective — statin with pleiotropic anti-inflammatory effects; may reduce end
 #strong[HD] Threshold-modulatory — α1 antagonist reducing noradrenergic hyperactivity; limited ME/CFS data.
 
 
-#strong[+] NE-mediated vasoconstriction was suppressing glymphatic flow — improved morning symptoms (headache, brain fog, sleep quality) confirms glymphatic impairment is NE-driven. Peripheral α1 antagonism reduces vasoconstriction → glymphatic drainage restored.
+#finding(
+  claim: [NE-mediated vasoconstriction was suppressing glymphatic flow — improved morning symptoms (headache, brain fog, sleep quality) confirms glymphatic impairment is NE-driven. Peripheral α1 antagonism reduces vasoconstriction → glymphatic drainage restored],
+  explanation: [NE-mediated vasoconstriction was suppressing glymphatic flow — improved morning symptoms (headache, brain fog, sleep quality) confirms glymphatic impairment is NE-driven. Peripheral α1 antagonism reduces vasoconstriction → glymphatic drainage restored.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Glymphatic flow not NE-mediated; or LC-NE vasomotion is not the bottleneck.
+#finding(
+  claim: [Glymphatic flow not NE-mediated; or LC-NE vasomotion is not the bottleneck],
+  explanation: [Glymphatic flow not NE-mediated; or LC-NE vasomotion is not the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] OH at 0.5 mg → α1-dependent standing BP — neuropathic POTS confirmed (Pattern 1). No OH at 1 mg → BP not α1-dependent — hyperadrenergic POTS with central sympathetic overactivation (Pattern 5). Nightmares/vivid dreams → REM sleep α1 regulation — confirms α1 blockade enhances REM.
 
@@ -2095,9 +3570,19 @@ Corrective — statin with pleiotropic anti-inflammatory effects; may reduce end
 #strong[HD] Threshold-modulatory — suppresses inflammation broadly via glucocorticoid receptor; does not address inflammatory driver — HPA suppression risk.
 
 
-#strong[+] Inflammation steroid-responsive — same diagnostic as the Corticosteroids group entry (Prednisone, Methylprednisolone, Hydrocortisone). Prednisolone is the active metabolite of prednisone — bypasses hepatic conversion; preferred in hepatic impairment.
+#finding(
+  claim: [Inflammation steroid-responsive — same diagnostic as the Corticosteroids group entry (Prednisone, Methylprednisolone, Hydrocortisone). Prednisolone is the active metabolite of prednisone — bypasses hepatic conversion; preferred in hepatic impairment],
+  explanation: [Inflammation steroid-responsive — same diagnostic as the Corticosteroids group entry (Prednisone, Methylprednisolone, Hydrocortisone). Prednisolone is the active metabolite of prednisone — bypasses hepatic conversion; preferred in hepatic impairment.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Steroid-resistant inflammation — same null diagnostic as Corticosteroids group entry.
+#finding(
+  claim: [Steroid-resistant inflammation — same null diagnostic as Corticosteroids group entry],
+  explanation: [Steroid-resistant inflammation — same null diagnostic as Corticosteroids group entry.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Same as Corticosteroids group entry — crash on taper, HPA suppression, steroid-induced hyperglycemia, osteoporosis with prolonged use.
 
@@ -2109,9 +3594,19 @@ Corrective — statin with pleiotropic anti-inflammatory effects; may reduce end
 #strong[HD] Substrate-repletion — neurosteroid precursor upstream of all steroid hormones.
 
 
-#strong[+] TRPM3 dysfunction rate-limiting. Pregnenolone sulfate is a positive allosteric modulator of TRPM3 — improvement confirms the TRPM3 channel is present and pregnenolone-responsive.
+#finding(
+  claim: [TRPM3 dysfunction rate-limiting. Pregnenolone sulfate is a positive allosteric modulator of TRPM3 — improvement confirms the TRPM3 channel is present and pregnenolone-responsive],
+  explanation: [TRPM3 dysfunction rate-limiting. Pregnenolone sulfate is a positive allosteric modulator of TRPM3 — improvement confirms the TRPM3 channel is present and pregnenolone-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] TRPM3 not rate-limiting or not pregnenolone-responsive. If LDN works but pregnenolone doesn't → TRPM3 gating is not the lesion; the opioid-TLR4 pathway is dominant.
+#finding(
+  claim: [TRPM3 not rate-limiting or not pregnenolone-responsive. If LDN works but pregnenolone doesn't → TRPM3 gating is not the lesion; the opioid-TLR4 pathway is dominant],
+  explanation: [TRPM3 not rate-limiting or not pregnenolone-responsive. If LDN works but pregnenolone doesn't → TRPM3 gating is not the lesion; the opioid-TLR4 pathway is dominant.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — neurosteroid supplement. Sedation at high doses → GABAergic potentiation from pregnenolone conversion to allopregnanolone.
 
@@ -2123,9 +3618,19 @@ Corrective — statin with pleiotropic anti-inflammatory effects; may reduce end
 #strong[HD] Threshold-modulatory — 5-HT2A agonist inducing neuroplastic states — research-stage.
 
 
-#strong[+] 5-HT2A-mediated central sensitization or maladaptive neural network entrenchment rate-limiting. Psilocybin promotes neuroplasticity via 5-HT2A agonism → disruption of entrenched maladaptive pain/fatigue networks → improvement confirms the CNS lesion is network-level (plasticity-entrenched), not synaptic or metabolic.
+#finding(
+  claim: [5-HT2A-mediated central sensitization or maladaptive neural network entrenchment rate-limiting. Psilocybin promotes neuroplasticity via 5-HT2A agonism → disruption of entrenched maladaptive pain/fatigue networks → improvement confirms the CNS lesion is network-level (plasticity-entrenched), not synaptic or metabolic],
+  explanation: [5-HT2A-mediated central sensitization or maladaptive neural network entrenchment rate-limiting. Psilocybin promotes neuroplasticity via 5-HT2A agonism → disruption of entrenched maladaptive pain/fatigue networks → improvement confirms the CNS lesion is network-level (plasticity-entrenched), not synaptic or metabolic.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Central sensitization not 5-HT2A-mediated or not plasticity-entrenched. If psilocybin produces acute psychedelic effects without post-session improvement → 5-HT2A receptors are present and functional but neuroplastic reorganization did not occur — the networks are not 5-HT2A-malleable.
+#finding(
+  claim: [Central sensitization not 5-HT2A-mediated or not plasticity-entrenched. If psilocybin produces acute psychedelic effects without post-session improvement → 5-HT2A receptors are present and functional but neuroplastic reorganization did not occur — the networks are not 5-HT2A-malleable],
+  explanation: [Central sensitization not 5-HT2A-mediated or not plasticity-entrenched. If psilocybin produces acute psychedelic effects without post-session improvement → 5-HT2A receptors are present and functional but neuroplastic reorganization did not occur — the networks are not 5-HT2A-malleable.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Acute anxiety/panic during session → 5-HT2A activation unmasks limbic hyper-reactivity — confirms the serotonergic system is intact but fragile (Pattern 4). The acute reaction IS diagnostic: maps the limbic 5-HT2A sensitivity. Prolonged perceptual disturbances (HPPD) → 5-HT2A receptor-state consolidation — rare but potentially persistent. Cardiovascular stress (acute hypertension, tachycardia) → 5-HT2B-mediated valvular concern only with chronic use; acute BP/HR increase may trigger PEM (Pattern B).
 
@@ -2137,9 +3642,19 @@ Corrective — statin with pleiotropic anti-inflammatory effects; may reduce end
 Corrective — acetylcholinesterase inhibitor enhancing ganglionic transmission + parasympathetic tone; compensates for impaired autonomic neurotransmission
 
 
-#strong[+] Cholinergic signaling intact — improves preload, HRV, and GI motility. AChE inhibition confirms the vagal efferent pathway is functional and rate-limiting. Modest VO₂ improvement (+0.9~mL/kg/min, $p = 0.002$ @Joseph2022neurovascularDysreg) suggests ~10% of the O₂ extraction deficit is perfusion-mediated; the remaining ~90% may be structural (capillary BM thickening — Step F0 @sec:aimm-cascade).
+#finding(
+  claim: [Cholinergic signaling intact — improves preload, HRV, and GI motility. AChE inhibition confirms the vagal efferent pathway is functional and rate-limiting. Modest VO₂ improvement (+0.9~mL/kg/min, $p = 0.002$ @Joseph2022neurovascularDysreg) suggests ~10% of the O₂ extraction deficit is perfusion-mediated; the remaining ~90% may be structural (capillary BM thickening — Step F0 @sec:aimm-cascade)],
+  explanation: [Cholinergic signaling intact — improves preload, HRV, and GI motility. AChE inhibition confirms the vagal efferent pathway is functional and rate-limiting. Modest VO₂ improvement (+0.9~mL/kg/min, $p = 0.002$ @Joseph2022neurovascularDysreg) suggests ~10% of the O₂ extraction deficit is perfusion-mediated; the remaining ~90% may be structural (capillary BM thickening — Step F0 @sec:aimm-cascade).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Vagal efferent non-functional — DMV damage, ganglionic AChR AAb, or structural vagal lesion. If pyridostigmine fails but ivabradine works → HR is the bottleneck, not vagal tone. If pyridostigmine fails AND all other perfusion-enhancing interventions (midodrine, compression, pentoxifylline) also fail → the deficit is structural capillary BM thickening (Step F0) — no amount of improved blood flow can accelerate O₂ diffusion through a pathologically thickened capillary wall. This is the most important null inference: pyridostigmine failure in the context of multi-modal perfusion intervention failure shifts the diagnostic focus from functional perfusion deficits to structural capillary pathology.
+#finding(
+  claim: [Vagal efferent non-functional — DMV damage, ganglionic AChR AAb, or structural vagal lesion. If pyridostigmine fails but ivabradine works → HR is the bottleneck, not vagal tone. If pyridostigmine fails AND all other perfusion-enhancing interventions (midodrine, compression, pentoxifylline) also fail → the deficit is structural capillary BM thickening (Step F0) — no amount of improved blood flow can accelerate O₂ diffusion through a pathologically thickened capillary wall. This is the most important null inference: pyridostigmine failure in the context of multi-modal perfusion intervention failure shifts the diagnostic focus from functional perfusion deficits to structural capillary pathology],
+  explanation: [Vagal efferent non-functional — DMV damage, ganglionic AChR AAb, or structural vagal lesion. If pyridostigmine fails but ivabradine works → HR is the bottleneck, not vagal tone. If pyridostigmine fails AND all other perfusion-enhancing interventions (midodrine, compression, pentoxifylline) also fail → the deficit is structural capillary BM thickening (Step F0) — no amount of improved blood flow can accelerate O₂ diffusion through a pathologically thickened capillary wall. This is the most important null inference: pyridostigmine failure in the context of multi-modal perfusion intervention failure shifts the diagnostic focus from functional perfusion deficits to structural capillary pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI cramping at 30 mg → gut muscarinic hypersensitivity — enteric cholinergic denervation with compensatory receptor upregulation (Pattern 3). The cramping IS diagnostic: it confirms the gut cholinergic system is intact but hypersensitive.
 
@@ -2151,9 +3666,19 @@ Corrective — acetylcholinesterase inhibitor enhancing ganglionic transmission 
 #strong[HD] Threshold-modulatory — mast cell stabilizer + PI3K inhibitor + COMT inhibitor + antioxidant; multi-target flavonoid.
 
 
-#strong[+] CD38-mediated NAD⁺ degradation rate-limiting. Quercetin's CD38 inhibition preserves NAD⁺ pools — confirms CD38 is the dominant NAD⁺ sink.
+#finding(
+  claim: [CD38-mediated NAD⁺ degradation rate-limiting. Quercetin's CD38 inhibition preserves NAD⁺ pools — confirms CD38 is the dominant NAD⁺ sink],
+  explanation: [CD38-mediated NAD⁺ degradation rate-limiting. Quercetin's CD38 inhibition preserves NAD⁺ pools — confirms CD38 is the dominant NAD⁺ sink.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] CD38 not the dominant NAD⁺ sink. If NMN/NR alone works → CD38 not rate-limiting. If NMN/NR alone worsens (futile cycle) but quercetin + NMN/NR is beneficial → CD38 confirmed as the sink.
+#finding(
+  claim: [CD38 not the dominant NAD⁺ sink. If NMN/NR alone works → CD38 not rate-limiting. If NMN/NR alone worsens (futile cycle) but quercetin + NMN/NR is beneficial → CD38 confirmed as the sink],
+  explanation: [CD38 not the dominant NAD⁺ sink. If NMN/NR alone works → CD38 not rate-limiting. If NMN/NR alone worsens (futile cycle) but quercetin + NMN/NR is beneficial → CD38 confirmed as the sink.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — flavonoid supplement. Null non-informative alone, but diagnostic when combined with NMN/NR. The quercetin + NMN/NR combination is the probe — quercetin alone has no therapeutic or diagnostic value without NAD⁺ precursor co-administration.
 
@@ -2165,9 +3690,19 @@ Corrective — acetylcholinesterase inhibitor enhancing ganglionic transmission 
 Corrective — mTORC1 inhibition restoring autophagy and reducing senescence; mTORC1/C2 dose selectivity critical
 
 
-#strong[+] mTORC1-driven metabolic pathology rate-limiting. mTORC1 inhibition restores mitophagy — confirms hyperactive mTORC1 is suppressing mitochondrial quality control.
+#finding(
+  claim: [mTORC1-driven metabolic pathology rate-limiting. mTORC1 inhibition restores mitophagy — confirms hyperactive mTORC1 is suppressing mitochondrial quality control],
+  explanation: [mTORC1-driven metabolic pathology rate-limiting. mTORC1 inhibition restores mitophagy — confirms hyperactive mTORC1 is suppressing mitochondrial quality control.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] mTORC1 not rate-limiting; or mTORC2 side effects prevent titration to therapeutic dose. If rapamycin fails at low dose but metformin works → AMPK is the dominant metabolic pathway; mTORC1 is not the bottleneck.
+#finding(
+  claim: [mTORC1 not rate-limiting; or mTORC2 side effects prevent titration to therapeutic dose. If rapamycin fails at low dose but metformin works → AMPK is the dominant metabolic pathway; mTORC1 is not the bottleneck],
+  explanation: [mTORC1 not rate-limiting; or mTORC2 side effects prevent titration to therapeutic dose. If rapamycin fails at low dose but metformin works → AMPK is the dominant metabolic pathway; mTORC1 is not the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Immunosuppression at \<3 mg/week → mTORC1/C2 selectivity narrow — mTORC2 inhibition at low weekly dose indicates high sensitivity; therapeutic window is too narrow (Pattern 4). Hyperlipidemia → hepatic mTORC1 sensitive — confirms systemic mTORC1 engagement at low dose. Mouth ulcers → mTORC1-mediated mucosal turnover is rapamycin-sensitive.
 
@@ -2179,9 +3714,19 @@ Corrective — mTORC1 inhibition restoring autophagy and reducing senescence; mT
 #strong[HD] Threshold-modulatory — MAO-B inhibitor increasing dopamine availability; compensates for deficient dopamine tone.
 
 
-#strong[+] DA degradation rate-limiting for synaptic DA — accelerated DA turnover confirmed. MAO-B inhibition preserves synaptic DA, confirming that degradation (not synthesis or release) is the dominant DA clearance mechanism.
+#finding(
+  claim: [DA degradation rate-limiting for synaptic DA — accelerated DA turnover confirmed. MAO-B inhibition preserves synaptic DA, confirming that degradation (not synthesis or release) is the dominant DA clearance mechanism],
+  explanation: [DA degradation rate-limiting for synaptic DA — accelerated DA turnover confirmed. MAO-B inhibition preserves synaptic DA, confirming that degradation (not synthesis or release) is the dominant DA clearance mechanism.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] DA degradation not rate-limiting. Synthesis, release, or postsynaptic is the bottleneck. If rasagiline fails but methylphenidate works → reuptake is the dominant clearance mechanism, not degradation.
+#finding(
+  claim: [DA degradation not rate-limiting. Synthesis, release, or postsynaptic is the bottleneck. If rasagiline fails but methylphenidate works → reuptake is the dominant clearance mechanism, not degradation],
+  explanation: [DA degradation not rate-limiting. Synthesis, release, or postsynaptic is the bottleneck. If rasagiline fails but methylphenidate works → reuptake is the dominant clearance mechanism, not degradation.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Serotonin syndrome at standard dose → CYP2D6 poor metabolizer (selegiline) or idiosyncratic 5-HT sensitivity (rasagiline). Rasagiline-safe but selegiline-toxic → MAO-A crossover — selegiline loses MAO-B selectivity at higher doses. No DA benefit from either → COMT or DAT dominates DA clearance.
 
@@ -2193,9 +3738,19 @@ Corrective — mTORC1 inhibition restoring autophagy and reducing senescence; mT
 #strong[HD] Threshold-modulatory — immunomodulatory polysaccharides.
 
 
-#strong[+] Immunomodulatory and mast-cell-stabilizing effects rate-limiting. Reishi's β-glucans (immunomodulatory) + triterpenes (mast cell-stabilizing, anti-inflammatory) provide dual action — improvement confirms the immune-mast cell axis is reishi-responsive.
+#finding(
+  claim: [Immunomodulatory and mast-cell-stabilizing effects rate-limiting. Reishi's β-glucans (immunomodulatory) + triterpenes (mast cell-stabilizing, anti-inflammatory) provide dual action — improvement confirms the immune-mast cell axis is reishi-responsive],
+  explanation: [Immunomodulatory and mast-cell-stabilizing effects rate-limiting. Reishi's β-glucans (immunomodulatory) + triterpenes (mast cell-stabilizing, anti-inflammatory) provide dual action — improvement confirms the immune-mast cell axis is reishi-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Immune-mast cell axis not reishi-responsive. Low-potency nutraceutical — null non-informative.
+#finding(
+  claim: [Immune-mast cell axis not reishi-responsive. Low-potency nutraceutical — null non-informative],
+  explanation: [Immune-mast cell axis not reishi-responsive. Low-potency nutraceutical — null non-informative.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — well-tolerated. Rare hepatotoxicity at high doses of certain extracts — standard mushroom supplement caution. No specific ME/CFS diagnostic side effects.
 
@@ -2207,9 +3762,19 @@ Corrective — mTORC1 inhibition restoring autophagy and reducing senescence; mT
 #strong[HD] Substrate-repletion + Corrective — SIRT1 activator + antioxidant; limited bioavailability.
 
 
-#strong[+] SIRT1/AMPK-mediated mitochondrial biogenesis and metabolic reprogramming rate-limiting. Resveratrol activates SIRT1 (NAD⁺-dependent) and AMPK → improved mitochondrial function confirms the SIRT1/AMPK metabolic axis is resveratrol-responsive.
+#finding(
+  claim: [SIRT1/AMPK-mediated mitochondrial biogenesis and metabolic reprogramming rate-limiting. Resveratrol activates SIRT1 (NAD⁺-dependent) and AMPK → improved mitochondrial function confirms the SIRT1/AMPK metabolic axis is resveratrol-responsive],
+  explanation: [SIRT1/AMPK-mediated mitochondrial biogenesis and metabolic reprogramming rate-limiting. Resveratrol activates SIRT1 (NAD⁺-dependent) and AMPK → improved mitochondrial function confirms the SIRT1/AMPK metabolic axis is resveratrol-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] SIRT1/AMPK not rate-limiting. If resveratrol fails but metformin works → AMPK is rate-limiting but resveratrol's AMPK activation is too weak. If resveratrol fails but NMN works → NAD⁺ is the bottleneck; SIRT1 activation alone (without NAD⁺ substrate) is insufficient.
+#finding(
+  claim: [SIRT1/AMPK not rate-limiting. If resveratrol fails but metformin works → AMPK is rate-limiting but resveratrol's AMPK activation is too weak. If resveratrol fails but NMN works → NAD⁺ is the bottleneck; SIRT1 activation alone (without NAD⁺ substrate) is insufficient],
+  explanation: [SIRT1/AMPK not rate-limiting. If resveratrol fails but metformin works → AMPK is rate-limiting but resveratrol's AMPK activation is too weak. If resveratrol fails but NMN works → NAD⁺ is the bottleneck; SIRT1 activation alone (without NAD⁺ substrate) is insufficient.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — polyphenol supplement. Poor bioavailability is the main confound — standard resveratrol has ~0% systemic bioavailability; only specific formulations (micronized, combined with piperine) achieve detectable plasma levels. GI upset at high doses.
 
@@ -2221,9 +3786,19 @@ Corrective — mTORC1 inhibition restoring autophagy and reducing senescence; mT
 #strong[HD] Threshold-modulatory — adaptogen with monoamine modulation reducing fatigue perception.
 
 
-#strong[+] Catecholamine and mitochondrial function rate-limiting for fatigue. Rhodiola enhances mitochondrial function and modulates serotonin/dopamine — improvement confirms the fatigue is catecholamine/mitochondrial-responsive.
+#finding(
+  claim: [Catecholamine and mitochondrial function rate-limiting for fatigue. Rhodiola enhances mitochondrial function and modulates serotonin/dopamine — improvement confirms the fatigue is catecholamine/mitochondrial-responsive],
+  explanation: [Catecholamine and mitochondrial function rate-limiting for fatigue. Rhodiola enhances mitochondrial function and modulates serotonin/dopamine — improvement confirms the fatigue is catecholamine/mitochondrial-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Fatigue not rhodiola-responsive. The activating effect may be poorly tolerated in severe ME/CFS — null may reflect intolerance rather than mechanism absence.
+#finding(
+  claim: [Fatigue not rhodiola-responsive. The activating effect may be poorly tolerated in severe ME/CFS — null may reflect intolerance rather than mechanism absence],
+  explanation: [Fatigue not rhodiola-responsive. The activating effect may be poorly tolerated in severe ME/CFS — null may reflect intolerance rather than mechanism absence.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Activation → overstimulation in severe ME/CFS — the activating effect triggers anxiety, insomnia, and PEM in patients near their energy ceiling (Pattern 4). The activation IS diagnostic: the patient's sympathetic system is on a hair trigger; adaptogenic activation exceeds the system's tolerance. If activation without benefit: the catecholamine/mitochondrial system is present but already at ceiling — further activation is counterproductive.
 
@@ -2235,9 +3810,19 @@ Corrective — mTORC1 inhibition restoring autophagy and reducing senescence; mT
 Corrective — TLR3 agonist restoring RNase L pathway and innate antiviral immunity — research-stage
 
 
-#strong[+] TLR3-mediated antiviral response deficiency rate-limiting. Rintatolimod (poly I:poly C12U) activates TLR3 → induces type I interferon → restores antiviral defenses. Improvement confirms the lesion is a defective innate antiviral response (not persistent virus per se) — the immune system fails to clear latent virus.
+#finding(
+  claim: [TLR3-mediated antiviral response deficiency rate-limiting. Rintatolimod (poly I:poly C12U) activates TLR3 → induces type I interferon → restores antiviral defenses. Improvement confirms the lesion is a defective innate antiviral response (not persistent virus per se) — the immune system fails to clear latent virus],
+  explanation: [TLR3-mediated antiviral response deficiency rate-limiting. Rintatolimod (poly I:poly C12U) activates TLR3 → induces type I interferon → restores antiviral defenses. Improvement confirms the lesion is a defective innate antiviral response (not persistent virus per se) — the immune system fails to clear latent virus.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] TLR3 pathway not the lesion — persistent virus may be absent, or the antiviral defect is downstream of TLR3. If rintatolimod fails but valacyclovir/valganciclovir works → viral replication is the dominant pathology; the antiviral response is adequate; the virus load itself is the bottleneck.
+#finding(
+  claim: [TLR3 pathway not the lesion — persistent virus may be absent, or the antiviral defect is downstream of TLR3. If rintatolimod fails but valacyclovir/valganciclovir works → viral replication is the dominant pathology; the antiviral response is adequate; the virus load itself is the bottleneck],
+  explanation: [TLR3 pathway not the lesion — persistent virus may be absent, or the antiviral defect is downstream of TLR3. If rintatolimod fails but valacyclovir/valganciclovir works → viral replication is the dominant pathology; the antiviral response is adequate; the virus load itself is the bottleneck.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Infusion reactions → TLR3 activation with cytokine release — confirms the immune system is TLR3-responsive (Pattern 2). Flare at 24--48h → interferon-mediated sickness behavior — confirms IFN pathway is intact; the flare mimics ME/CFS symptoms (the same IFN pathways driving the disease are being activated therapeutically).
 
@@ -2249,9 +3834,19 @@ Corrective — TLR3 agonist restoring RNase L pathway and innate antiviral immun
 Corrective — depletes CD20+ B cells (short-lived plasmablast source); spares long-lived plasma cells (CD20−) — response often transient
 
 
-#strong[+] B-cell-driven AAb pathogenic — B-cell depletion removes AAb source and restores function. If transient → plasma cells drive chronicity — initial response then loss as B cells repopulate and AAb return.
+#finding(
+  claim: [B-cell-driven AAb pathogenic — B-cell depletion removes AAb source and restores function. If transient → plasma cells drive chronicity — initial response then loss as B cells repopulate and AAb return],
+  explanation: [B-cell-driven AAb pathogenic — B-cell depletion removes AAb source and restores function. If transient → plasma cells drive chronicity — initial response then loss as B cells repopulate and AAb return.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] AAb from CD20− plasma cells (rituximab-spared) — the AAb source is not accessible to B-cell depletion. If rituximab fails but daratumumab works → plasma-cell-driven, not B-cell-driven.
+#finding(
+  claim: [AAb from CD20− plasma cells (rituximab-spared) — the AAb source is not accessible to B-cell depletion. If rituximab fails but daratumumab works → plasma-cell-driven, not B-cell-driven],
+  explanation: [AAb from CD20− plasma cells (rituximab-spared) — the AAb source is not accessible to B-cell depletion. If rituximab fails but daratumumab works → plasma-cell-driven, not B-cell-driven.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Transient response → B-cell repopulation confirms AAb source — the timing of response loss maps the B-cell repopulation kinetics (Pattern 2). Infusion reactions → intact immune recognition. Late-onset neutropenia → bone marrow niche affected.
 
@@ -2263,9 +3858,19 @@ Corrective — depletes CD20+ B cells (short-lived plasmablast source); spares l
 #strong[HD] Symptomatic — 5-HT1B/1D agonist aborting migraine pain; does not address trigger.
 
 
-#strong[+] 5-HT1B/1D-mediated migraine pathology rate-limiting in ME/CFS patients with comorbid migraine. Rizatriptan's rapid onset (faster than sumatriptan) confirms the migraine is triptan-responsive.
+#finding(
+  claim: [5-HT1B/1D-mediated migraine pathology rate-limiting in ME/CFS patients with comorbid migraine. Rizatriptan's rapid onset (faster than sumatriptan) confirms the migraine is triptan-responsive],
+  explanation: [5-HT1B/1D-mediated migraine pathology rate-limiting in ME/CFS patients with comorbid migraine. Rizatriptan's rapid onset (faster than sumatriptan) confirms the migraine is triptan-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Migraine not 5-HT1B/1D-mediated — non-triptan-responsive migraine (CGRP-mediated, inflammatory). If rizatriptan fails but sumatriptan works → the triptan PK profile matters; rizatriptan's rapid metabolism is the bottleneck. If rizatriptan fails but CGRP antagonists work → the vasodilation is CGRP-mediated, not 5-HT-mediated.
+#finding(
+  claim: [Migraine not 5-HT1B/1D-mediated — non-triptan-responsive migraine (CGRP-mediated, inflammatory). If rizatriptan fails but sumatriptan works → the triptan PK profile matters; rizatriptan's rapid metabolism is the bottleneck. If rizatriptan fails but CGRP antagonists work → the vasodilation is CGRP-mediated, not 5-HT-mediated],
+  explanation: [Migraine not 5-HT1B/1D-mediated — non-triptan-responsive migraine (CGRP-mediated, inflammatory). If rizatriptan fails but sumatriptan works → the triptan PK profile matters; rizatriptan's rapid metabolism is the bottleneck. If rizatriptan fails but CGRP antagonists work → the vasodilation is CGRP-mediated, not 5-HT-mediated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Chest pressure/tightness → coronary 5-HT1B-mediated vasoconstriction — confirms coronary 5-HT1B receptor engagement. The chest pressure IS diagnostic: it confirms the patient has 5-HT1B-sensitive coronary arteries; triptans are relatively contraindicated. No vasoconstriction symptoms → the patient's vascular 5-HT1B receptors are tolerant.
 
@@ -2277,9 +3882,19 @@ Corrective — depletes CD20+ B cells (short-lived plasmablast source); spares l
 #strong[HD] Threshold-modulatory — PDE4 inhibitor reducing cAMP degradation; broad anti-inflammatory — GI side effects limit use.
 
 
-#strong[+] PDE4-mediated inflammation rate-limiting — cAMP degradation in immune cells is the bottleneck. Roflumilast inhibits PDE4 → increased cAMP → suppressed TNF-α, IL-17, and other pro-inflammatory cytokines. Improvement confirms PDE4-driven inflammatory cytokine production is the dominant pathology.
+#finding(
+  claim: [PDE4-mediated inflammation rate-limiting — cAMP degradation in immune cells is the bottleneck. Roflumilast inhibits PDE4 → increased cAMP → suppressed TNF-α, IL-17, and other pro-inflammatory cytokines. Improvement confirms PDE4-driven inflammatory cytokine production is the dominant pathology],
+  explanation: [PDE4-mediated inflammation rate-limiting — cAMP degradation in immune cells is the bottleneck. Roflumilast inhibits PDE4 → increased cAMP → suppressed TNF-α, IL-17, and other pro-inflammatory cytokines. Improvement confirms PDE4-driven inflammatory cytokine production is the dominant pathology.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] PDE4 not rate-limiting for inflammation. If roflumilast fails but montelukast works → leukotrienes are dominant, not cAMP-mediated cytokines. If roflumilast fails but colchicine works → inflammasome-driven; cAMP augmentation doesn't suppress NLRP3 assembly.
+#finding(
+  claim: [PDE4 not rate-limiting for inflammation. If roflumilast fails but montelukast works → leukotrienes are dominant, not cAMP-mediated cytokines. If roflumilast fails but colchicine works → inflammasome-driven; cAMP augmentation doesn't suppress NLRP3 assembly],
+  explanation: [PDE4 not rate-limiting for inflammation. If roflumilast fails but montelukast works → leukotrienes are dominant, not cAMP-mediated cytokines. If roflumilast fails but colchicine works → inflammasome-driven; cAMP augmentation doesn't suppress NLRP3 assembly.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI toxicity (diarrhea, nausea) → gut PDE4 inhibition is the limiting factor — PDE4 is load-bearing for gut cAMP homeostasis; the GI ceiling prevents therapeutic systemic dosing (Pattern 4). Weight loss → PDE4-mediated lipolysis — confirms systemic PDE4 engagement. Psychiatric effects → CNS PDE4 (PDE4D) is involved in mood regulation — confirms CNS penetration.
 
@@ -2291,9 +3906,19 @@ Corrective — depletes CD20+ B cells (short-lived plasmablast source); spares l
 #strong[HD] Substrate-repletion — methyl donor supporting methylation cycle.
 
 
-#strong[+] Methylation cycle deficiency rate-limiting for neurotransmitter synthesis and DNA methylation. SAMe is the universal methyl donor — improvement confirms methylation is the bottleneck for serotonin, dopamine, and creatine synthesis.
+#finding(
+  claim: [Methylation cycle deficiency rate-limiting for neurotransmitter synthesis and DNA methylation. SAMe is the universal methyl donor — improvement confirms methylation is the bottleneck for serotonin, dopamine, and creatine synthesis],
+  explanation: [Methylation cycle deficiency rate-limiting for neurotransmitter synthesis and DNA methylation. SAMe is the universal methyl donor — improvement confirms methylation is the bottleneck for serotonin, dopamine, and creatine synthesis.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Methylation not rate-limiting. If SAMe fails but B12 works → the methylation lesion is B12-dependent (homocysteine → methionine); SAMe bypasses this step but the lesion was B12, not SAMe synthesis. If SAMe fails but L-DOPA works → the catecholamine lesion is downstream — synthesis, not methylation.
+#finding(
+  claim: [Methylation not rate-limiting. If SAMe fails but B12 works → the methylation lesion is B12-dependent (homocysteine → methionine); SAMe bypasses this step but the lesion was B12, not SAMe synthesis. If SAMe fails but L-DOPA works → the catecholamine lesion is downstream — synthesis, not methylation],
+  explanation: [Methylation not rate-limiting. If SAMe fails but B12 works → the methylation lesion is B12-dependent (homocysteine → methionine); SAMe bypasses this step but the lesion was B12, not SAMe synthesis. If SAMe fails but L-DOPA works → the catecholamine lesion is downstream — synthesis, not methylation.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Activation/mania at standard dose (400--800 mg) → the methylation-dependent catecholamine synthesis is intact and hyper-responsive — SAMe pushed catecholamine production over the ceiling (Pattern 4). The activation IS diagnostic: it confirms methylation is functional and the catecholamine system is SAMe-sensitive. GI upset → standard SAMe GI intolerance.
 
@@ -2305,9 +3930,19 @@ Corrective — depletes CD20+ B cells (short-lived plasmablast source); spares l
 #strong[HD] Substrate-repletion — repletes selenium if deficient; supports glutathione peroxidase and thyroid function.
 
 
-#strong[+] Selenoprotein deficiency rate-limiting for antioxidant defense (GPX, TXNRD) and thyroid function. Selenium repletion restores GPX and TXNRD activity — improvement confirms selenoprotein deficiency is the dominant antioxidant lesion.
+#finding(
+  claim: [Selenoprotein deficiency rate-limiting for antioxidant defense (GPX, TXNRD) and thyroid function. Selenium repletion restores GPX and TXNRD activity — improvement confirms selenoprotein deficiency is the dominant antioxidant lesion],
+  explanation: [Selenoprotein deficiency rate-limiting for antioxidant defense (GPX, TXNRD) and thyroid function. Selenium repletion restores GPX and TXNRD activity — improvement confirms selenoprotein deficiency is the dominant antioxidant lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Selenium not rate-limiting. GPX activity normal despite supplementation → glutathione recycling is intact. If selenium fails but NAC works → the glutathione synthesis is the bottleneck, not GPX-dependent recycling.
+#finding(
+  claim: [Selenium not rate-limiting. GPX activity normal despite supplementation → glutathione recycling is intact. If selenium fails but NAC works → the glutathione synthesis is the bottleneck, not GPX-dependent recycling],
+  explanation: [Selenium not rate-limiting. GPX activity normal despite supplementation → glutathione recycling is intact. If selenium fails but NAC works → the glutathione synthesis is the bottleneck, not GPX-dependent recycling.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal at recommended doses (< 200 μg/day). Toxicity at supratherapeutic doses (> 400 μg/day) → selenosis (garlic breath, hair loss, nail changes, neuropathy). No diagnostic value for ME/CFS per se — toxicity implies supraphysiologic dosing.
 
@@ -2319,9 +3954,19 @@ Corrective — depletes CD20+ B cells (short-lived plasmablast source); spares l
 Corrective — mechanical correction of leg-length inequality; if skeletal asymmetry drives PEM via compensatory patterns, addresses the structural mismatch
 
 
-#strong[+] Mechanical driver confirmed — PEM from asymmetry-driven ATP drain. A shoe lift corrects leg-length discrepancy → reduced asymmetric muscle work → reduced metabolic cost of standing and walking.
+#finding(
+  claim: [Mechanical driver confirmed — PEM from asymmetry-driven ATP drain. A shoe lift corrects leg-length discrepancy → reduced asymmetric muscle work → reduced metabolic cost of standing and walking],
+  explanation: [Mechanical driver confirmed — PEM from asymmetry-driven ATP drain. A shoe lift corrects leg-length discrepancy → reduced asymmetric muscle work → reduced metabolic cost of standing and walking.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Asymmetry non-contributory. Direct to biochemical or autoimmune hypotheses. If shoe lift resolves symptoms partially → mechanical component present but not the sole driver.
+#finding(
+  claim: [Asymmetry non-contributory. Direct to biochemical or autoimmune hypotheses. If shoe lift resolves symptoms partially → mechanical component present but not the sole driver],
+  explanation: [Asymmetry non-contributory. Direct to biochemical or autoimmune hypotheses. If shoe lift resolves symptoms partially → mechanical component present but not the sole driver.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] None — mechanical intervention without pharmacologic side effects.
 
@@ -2333,9 +3978,19 @@ Corrective — mechanical correction of leg-length inequality; if skeletal asymm
 Corrective — mitochondria-targeted antioxidant reducing mitochondrial ROS at source — research-stage
 
 
-#strong[+] Mitochondrial matrix ROS production rate-limiting — similar to MitoQ but with a different antioxidant payload (plastoquinone vs ubiquinone). SkQ1 targets the mitochondrial matrix with a different redox chemistry. Improvement confirms matrix-level oxidative stress and that the specific antioxidant chemistry matters.
+#finding(
+  claim: [Mitochondrial matrix ROS production rate-limiting — similar to MitoQ but with a different antioxidant payload (plastoquinone vs ubiquinone). SkQ1 targets the mitochondrial matrix with a different redox chemistry. Improvement confirms matrix-level oxidative stress and that the specific antioxidant chemistry matters],
+  explanation: [Mitochondrial matrix ROS production rate-limiting — similar to MitoQ but with a different antioxidant payload (plastoquinone vs ubiquinone). SkQ1 targets the mitochondrial matrix with a different redox chemistry. Improvement confirms matrix-level oxidative stress and that the specific antioxidant chemistry matters.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Matrix ROS not rate-limiting; or the specific antioxidant payload is suboptimal. If SkQ1 fails but MitoQ works → ubiquinone-based (CoQ10-derived) antioxidant chemistry is required; plastoquinone-based is insufficient. If SkQ1 fails but NAC works → the ROS is extramitochondrial or generalized; matrix-targeted antioxidant is misdirected.
+#finding(
+  claim: [Matrix ROS not rate-limiting; or the specific antioxidant payload is suboptimal. If SkQ1 fails but MitoQ works → ubiquinone-based (CoQ10-derived) antioxidant chemistry is required; plastoquinone-based is insufficient. If SkQ1 fails but NAC works → the ROS is extramitochondrial or generalized; matrix-targeted antioxidant is misdirected],
+  explanation: [Matrix ROS not rate-limiting; or the specific antioxidant payload is suboptimal. If SkQ1 fails but MitoQ works → ubiquinone-based (CoQ10-derived) antioxidant chemistry is required; plastoquinone-based is insufficient. If SkQ1 fails but NAC works → the ROS is extramitochondrial or generalized; matrix-targeted antioxidant is misdirected.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Paradoxical worsening → same principle as CoQ10 and MitoQ (Pattern 5). The different antioxidant chemistries (plastoquinone vs ubiquinone) provide differential diagnostic resolution: which chemistry worsens maps the specific ROS species.
 
@@ -2347,9 +4002,19 @@ Corrective — mitochondria-targeted antioxidant reducing mitochondrial ROS at s
 #strong[HD] Threshold-modulatory — DAT/NET inhibitor with mild TAAR1 agonism; pro-cognitive without amphetamine-level permanent risk.
 
 
-#strong[+] DA/NE reuptake rate-limiting — pure DNRI confirms presynaptic monoamine terminals are intact. Similar to methylphenidate but with different PK profile (longer half-life ~7h vs ~3--4h for methylphenidate).
+#finding(
+  claim: [DA/NE reuptake rate-limiting — pure DNRI confirms presynaptic monoamine terminals are intact. Similar to methylphenidate but with different PK profile (longer half-life ~7h vs ~3--4h for methylphenidate)],
+  explanation: [DA/NE reuptake rate-limiting — pure DNRI confirms presynaptic monoamine terminals are intact. Similar to methylphenidate but with different PK profile (longer half-life ~7h vs ~3--4h for methylphenidate).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NE/DA reuptake not rate-limiting. Or cognitive lesion is postsynaptic. If atomoxetine worked but solriamfetol didn't → NE is rate-limiting but the DA component adds no benefit (pure NRI sufficient).
+#finding(
+  claim: [NE/DA reuptake not rate-limiting. Or cognitive lesion is postsynaptic. If atomoxetine worked but solriamfetol didn't → NE is rate-limiting but the DA component adds no benefit (pure NRI sufficient)],
+  explanation: [NE/DA reuptake not rate-limiting. Or cognitive lesion is postsynaptic. If atomoxetine worked but solriamfetol didn't → NE is rate-limiting but the DA component adds no benefit (pure NRI sufficient).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] BP/HR ceiling without cognition improvement → PFC α2A desensitized — the NE increase raises systemic BP/HR but PFC cognition doesn't respond (Pattern 4). Cognition improvement without BP/HR increase → DA bottleneck, not NE — the dopaminergic component is providing the benefit (Pattern 5).
 
@@ -2361,9 +4026,19 @@ Corrective — mitochondria-targeted antioxidant reducing mitochondrial ROS at s
 Corrective — autophagy inducer supporting cellular renewal — research-stage; no ME/CFS data
 
 
-#strong[+] Autophagic clearance deficit rate-limiting for mitochondrial quality control and protein-aggregate clearance. Spermidine induces autophagy via EP300 inhibition → clearance of damaged mitochondria and protein aggregates confirms the autophagic pathway is spermidine-responsive.
+#finding(
+  claim: [Autophagic clearance deficit rate-limiting for mitochondrial quality control and protein-aggregate clearance. Spermidine induces autophagy via EP300 inhibition → clearance of damaged mitochondria and protein aggregates confirms the autophagic pathway is spermidine-responsive],
+  explanation: [Autophagic clearance deficit rate-limiting for mitochondrial quality control and protein-aggregate clearance. Spermidine induces autophagy via EP300 inhibition → clearance of damaged mitochondria and protein aggregates confirms the autophagic pathway is spermidine-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Autophagy not rate-limiting; or the autophagic machinery is deficient (not just EP300-suppressed). If spermidine fails but rapamycin works → mTORC1-mediated autophagy suppression (not EP300) is the dominant lesion. If spermidine fails but urolithin A works → mitophagy (PINK1/Parkin) specifically is the lesion; general autophagy enhancement is insufficient.
+#finding(
+  claim: [Autophagy not rate-limiting; or the autophagic machinery is deficient (not just EP300-suppressed). If spermidine fails but rapamycin works → mTORC1-mediated autophagy suppression (not EP300) is the dominant lesion. If spermidine fails but urolithin A works → mitophagy (PINK1/Parkin) specifically is the lesion; general autophagy enhancement is insufficient],
+  explanation: [Autophagy not rate-limiting; or the autophagic machinery is deficient (not just EP300-suppressed). If spermidine fails but rapamycin works → mTORC1-mediated autophagy suppression (not EP300) is the dominant lesion. If spermidine fails but urolithin A works → mitophagy (PINK1/Parkin) specifically is the lesion; general autophagy enhancement is insufficient.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — dietary polyamine. GI effects at high doses → standard polyamine GI effect. No specific ME/CFS diagnostic side effects.
 
@@ -2375,9 +4050,19 @@ Corrective — autophagy inducer supporting cellular renewal — research-stage;
 #strong[HD] Threshold-modulatory — increase synaptic serotonin/norepinephrine; compensate for deficient monoamine tone without correcting the cause.
 
 
-#strong[+] Serotonergic or noradrenergic deficiency rate-limiting for mood, pain, or sleep. SSRI response confirms 5-HT deficiency; SNRI response confirms NE/5-HT dual deficiency. Fluoxetine (long half-life) is the safest entry point.
+#finding(
+  claim: [Serotonergic or noradrenergic deficiency rate-limiting for mood, pain, or sleep. SSRI response confirms 5-HT deficiency; SNRI response confirms NE/5-HT dual deficiency. Fluoxetine (long half-life) is the safest entry point],
+  explanation: [Serotonergic or noradrenergic deficiency rate-limiting for mood, pain, or sleep. SSRI response confirms 5-HT deficiency; SNRI response confirms NE/5-HT dual deficiency. Fluoxetine (long half-life) is the safest entry point.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Serotonergic/noradrenergic system not rate-limiting. If SSRI fails but LDN works → neuroinflammation is dominant; the serotonergic system is not the primary lesion.
+#finding(
+  claim: [Serotonergic/noradrenergic system not rate-limiting. If SSRI fails but LDN works → neuroinflammation is dominant; the serotonergic system is not the primary lesion],
+  explanation: [Serotonergic/noradrenergic system not rate-limiting. If SSRI fails but LDN works → neuroinflammation is dominant; the serotonergic system is not the primary lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Activation syndrome at initiation (anxiety, agitation, insomnia) → 5-HT1A autoreceptor desensitization lag — serotonergic system is present but slow to adapt. Severity of activation syndrome is ordinal: mild and transient → normal receptor adaptation; severe and prolonged → serotonergic system is hypersensitive and fragile (Pattern 4).
 
@@ -2389,9 +4074,19 @@ Corrective — autophagy inducer supporting cellular renewal — research-stage;
 Corrective — Nrf2 activator via Keap1 modification; activates endogenous anti-inflammatory programs; does not address Nrf2 activation trigger
 
 
-#strong[+] Nrf2-dependent antioxidant defense deficiency rate-limiting. Sulforaphane is the most potent dietary Nrf2 activator → induces ~200+ cytoprotective genes including HO-1, NQO1, and glutathione synthesis enzymes. Improvement confirms the Nrf2 pathway is intact but under-activated.
+#finding(
+  claim: [Nrf2-dependent antioxidant defense deficiency rate-limiting. Sulforaphane is the most potent dietary Nrf2 activator → induces ~200+ cytoprotective genes including HO-1, NQO1, and glutathione synthesis enzymes. Improvement confirms the Nrf2 pathway is intact but under-activated],
+  explanation: [Nrf2-dependent antioxidant defense deficiency rate-limiting. Sulforaphane is the most potent dietary Nrf2 activator → induces ~200+ cytoprotective genes including HO-1, NQO1, and glutathione synthesis enzymes. Improvement confirms the Nrf2 pathway is intact but under-activated.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Nrf2 pathway not the lesion — either Nrf2 is already maximally activated (ineffective due to downstream block) or the lesion is Nrf2-independent. If sulforaphane fails but NAC works → the ROS is thiol-mediated; direct glutathione precursor (not Nrf2 enzyme induction) is needed. If sulforaphane fails but DMF works → Nrf2 is rate-limiting but dimethyl fumarate's Nrf2 activation is more potent.
+#finding(
+  claim: [Nrf2 pathway not the lesion — either Nrf2 is already maximally activated (ineffective due to downstream block) or the lesion is Nrf2-independent. If sulforaphane fails but NAC works → the ROS is thiol-mediated; direct glutathione precursor (not Nrf2 enzyme induction) is needed. If sulforaphane fails but DMF works → Nrf2 is rate-limiting but dimethyl fumarate's Nrf2 activation is more potent],
+  explanation: [Nrf2 pathway not the lesion — either Nrf2 is already maximally activated (ineffective due to downstream block) or the lesion is Nrf2-independent. If sulforaphane fails but NAC works → the ROS is thiol-mediated; direct glutathione precursor (not Nrf2 enzyme induction) is needed. If sulforaphane fails but DMF works → Nrf2 is rate-limiting but dimethyl fumarate's Nrf2 activation is more potent.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI upset → standard isothiocyanate GI effect. No significant toxicity at standard doses (broccoli sprout extract equivalent). The Nrf2 probe has minimal risk — one of the safest pathway probes.
 
@@ -2403,9 +4098,19 @@ Corrective — Nrf2 activator via Keap1 modification; activates endogenous anti-
 Corrective — calcineurin inhibitor suppressing T-cell activation; broad immunosuppression — nephrotoxicity risk
 
 
-#strong[+] Calcineurin/NFAT-mediated T-cell activation rate-limiting — similar diagnostic to cyclosporine but with different immunophilin binding (FKBP12 vs cyclophilin). Tacrolimus is more potent; if tacrolimus works where cyclosporine failed → FKBP12-mediated calcineurin inhibition is required.
+#finding(
+  claim: [Calcineurin/NFAT-mediated T-cell activation rate-limiting — similar diagnostic to cyclosporine but with different immunophilin binding (FKBP12 vs cyclophilin). Tacrolimus is more potent; if tacrolimus works where cyclosporine failed → FKBP12-mediated calcineurin inhibition is required],
+  explanation: [Calcineurin/NFAT-mediated T-cell activation rate-limiting — similar diagnostic to cyclosporine but with different immunophilin binding (FKBP12 vs cyclophilin). Tacrolimus is more potent; if tacrolimus works where cyclosporine failed → FKBP12-mediated calcineurin inhibition is required.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] NFAT not rate-limiting. If tacrolimus fails but cyclosporine works → cyclophilin-mediated calcineurin inhibition is required — the specific immunophilin matters. If both fail → T-cell autoimmunity is not rate-limiting.
+#finding(
+  claim: [NFAT not rate-limiting. If tacrolimus fails but cyclosporine works → cyclophilin-mediated calcineurin inhibition is required — the specific immunophilin matters. If both fail → T-cell autoimmunity is not rate-limiting],
+  explanation: [NFAT not rate-limiting. If tacrolimus fails but cyclosporine works → cyclophilin-mediated calcineurin inhibition is required — the specific immunophilin matters. If both fail → T-cell autoimmunity is not rate-limiting.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Tremor → calcineurin-mediated cerebellar effect — more prominent than cyclosporine. Nephrotoxicity → same mechanism as cyclosporine (calcineurin-mediated renal vasoconstriction). Hyperglycemia → calcineurin-mediated β-cell toxicity — more prominent with tacrolimus than cyclosporine. Neurotoxicity (posterior reversible encephalopathy syndrome) → rare but serious.
 
@@ -2417,9 +4122,19 @@ Corrective — calcineurin inhibitor suppressing T-cell activation; broad immuno
 #strong[HD] Substrate-repletion — amino acid with osmoregulation + antioxidant functions; repletes if deficient.
 
 
-#strong[+] Taurine-mediated membrane stabilization, calcium regulation, or GABAergic tone rate-limiting. Taurine stabilizes cell membranes, regulates intracellular Ca²⁺, and positively modulates GABA-A and glycine receptors. Multi-system improvement confirms taurine deficiency is the dominant lesion.
+#finding(
+  claim: [Taurine-mediated membrane stabilization, calcium regulation, or GABAergic tone rate-limiting. Taurine stabilizes cell membranes, regulates intracellular Ca²⁺, and positively modulates GABA-A and glycine receptors. Multi-system improvement confirms taurine deficiency is the dominant lesion],
+  explanation: [Taurine-mediated membrane stabilization, calcium regulation, or GABAergic tone rate-limiting. Taurine stabilizes cell membranes, regulates intracellular Ca²⁺, and positively modulates GABA-A and glycine receptors. Multi-system improvement confirms taurine deficiency is the dominant lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Taurine not rate-limiting. If taurine fails but magnesium works → the membrane/calcium lesion is Mg-dependent, not taurine-dependent. If taurine fails but glycine works → the inhibitory amino acid lesion is glycine-specific.
+#finding(
+  claim: [Taurine not rate-limiting. If taurine fails but magnesium works → the membrane/calcium lesion is Mg-dependent, not taurine-dependent. If taurine fails but glycine works → the inhibitory amino acid lesion is glycine-specific],
+  explanation: [Taurine not rate-limiting. If taurine fails but magnesium works → the membrane/calcium lesion is Mg-dependent, not taurine-dependent. If taurine fails but glycine works → the inhibitory amino acid lesion is glycine-specific.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — sulfur-containing amino acid; well-tolerated. Sedation at 1--2 g → GABA-A/glycine receptor potentiation — confirms inhibitory neurotransmitter deficiency (Pattern 1). No sedation → taurine was adequate or receptors are desensitized.
 
@@ -2431,9 +4146,19 @@ Corrective — calcineurin inhibitor suppressing T-cell activation; broad immuno
 Corrective — enhances vagal tone activating cholinergic anti-inflammatory pathway; non-pharmacologic — research-stage
 
 
-#strong[+] Auricular vagal afferent pathway intact and stimulable — parasympathetic tone is electrically augmentable via the auricular branch. taVNS increases HRV and reduces sympathetic tone non-invasively — improvement confirms the autonomic lesion is vagal-afferent-dependent.
+#finding(
+  claim: [Auricular vagal afferent pathway intact and stimulable — parasympathetic tone is electrically augmentable via the auricular branch. taVNS increases HRV and reduces sympathetic tone non-invasively — improvement confirms the autonomic lesion is vagal-afferent-dependent],
+  explanation: [Auricular vagal afferent pathway intact and stimulable — parasympathetic tone is electrically augmentable via the auricular branch. taVNS increases HRV and reduces sympathetic tone non-invasively — improvement confirms the autonomic lesion is vagal-afferent-dependent.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Auricular vagal pathway non-stimulable — DMV efferent lesion, ganglionic AChR AAb, or the parasympathetic deficit is central (brainstem), not peripheral. If taVNS fails but pyridostigmine works → the vagal efferent pathway is functional but ACh degradation overwhelms release; electrical stimulation of afferents cannot overcome the efferent cholinergic deficit.
+#finding(
+  claim: [Auricular vagal pathway non-stimulable — DMV efferent lesion, ganglionic AChR AAb, or the parasympathetic deficit is central (brainstem), not peripheral. If taVNS fails but pyridostigmine works → the vagal efferent pathway is functional but ACh degradation overwhelms release; electrical stimulation of afferents cannot overcome the efferent cholinergic deficit],
+  explanation: [Auricular vagal pathway non-stimulable — DMV efferent lesion, ganglionic AChR AAb, or the parasympathetic deficit is central (brainstem), not peripheral. If taVNS fails but pyridostigmine works → the vagal efferent pathway is functional but ACh degradation overwhelms release; electrical stimulation of afferents cannot overcome the efferent cholinergic deficit.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Auricular skin irritation → standard electrode contact dermatitis. No systemic side effects — the auricular vagus nerve carries only afferent fibers; no cardiac or respiratory effects at therapeutic intensities. Minimal — one of the safest autonomic probes.
 
@@ -2445,9 +4170,19 @@ Corrective — enhances vagal tone activating cholinergic anti-inflammatory path
 #strong[HD] Threshold-modulatory — glutamate antagonist + GABA modulator; calm without sedation.
 
 
-#strong[+] Glutamate-GABA balance rate-limiting for cognitive arousal and anxiety. Theanine increases GABA, serotonin, and dopamine while promoting alpha brainwave activity (relaxed alertness). Improvement confirms the excitation-inhibition balance is theanine-restorable.
+#finding(
+  claim: [Glutamate-GABA balance rate-limiting for cognitive arousal and anxiety. Theanine increases GABA, serotonin, and dopamine while promoting alpha brainwave activity (relaxed alertness). Improvement confirms the excitation-inhibition balance is theanine-restorable],
+  explanation: [Glutamate-GABA balance rate-limiting for cognitive arousal and anxiety. Theanine increases GABA, serotonin, and dopamine while promoting alpha brainwave activity (relaxed alertness). Improvement confirms the excitation-inhibition balance is theanine-restorable.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] E/I balance not theanine-responsive. If theanine fails but ashwagandha works → the anxiety is cortisol-mediated. If theanine fails but CBD works → the anxiety is endocannabinoid/5-HT1A-mediated. If theanine fails but benzodiazepines work → GABA-A potentiation is required; indirect GABA enhancement (via theanine) is insufficient.
+#finding(
+  claim: [E/I balance not theanine-responsive. If theanine fails but ashwagandha works → the anxiety is cortisol-mediated. If theanine fails but CBD works → the anxiety is endocannabinoid/5-HT1A-mediated. If theanine fails but benzodiazepines work → GABA-A potentiation is required; indirect GABA enhancement (via theanine) is insufficient],
+  explanation: [E/I balance not theanine-responsive. If theanine fails but ashwagandha works → the anxiety is cortisol-mediated. If theanine fails but CBD works → the anxiety is endocannabinoid/5-HT1A-mediated. If theanine fails but benzodiazepines work → GABA-A potentiation is required; indirect GABA enhancement (via theanine) is insufficient.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Sedation at 200 mg → GABAergic tone was critically low — theanine pushed GABA production over the threshold (Pattern 1). Paradoxical anxiety → theanine's glutamate-reducing effect removed excitatory tone from an already-glutamate-deficient network (Pattern 2) — same principle as memantine worsening.
 
@@ -2459,9 +4194,19 @@ Corrective — enhances vagal tone activating cholinergic anti-inflammatory path
 #strong[HD] Substrate-repletion — PDH cofactor; repletes thiamine if deficient.
 
 
-#strong[+] PDH cofactor deficiency — simple, reversible, nutritional. Thiamine (as TPP) is the rate-limiting cofactor for PDH; supplementation confirms the PDH block is cofactor-dependent, not PDK-driven phosphorylation.
+#finding(
+  claim: [PDH cofactor deficiency — simple, reversible, nutritional. Thiamine (as TPP) is the rate-limiting cofactor for PDH; supplementation confirms the PDH block is cofactor-dependent, not PDK-driven phosphorylation],
+  explanation: [PDH cofactor deficiency — simple, reversible, nutritional. Thiamine (as TPP) is the rate-limiting cofactor for PDH; supplementation confirms the PDH block is cofactor-dependent, not PDK-driven phosphorylation.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] PDH block is not cofactor-dependent — PDK-driven phosphorylation. If thiamine fails but DCA works → the block is PDK-mediated phosphorylation, not cofactor deficiency.
+#finding(
+  claim: [PDH block is not cofactor-dependent — PDK-driven phosphorylation. If thiamine fails but DCA works → the block is PDK-mediated phosphorylation, not cofactor deficiency],
+  explanation: [PDH block is not cofactor-dependent — PDK-driven phosphorylation. If thiamine fails but DCA works → the block is PDK-mediated phosphorylation, not cofactor deficiency.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — water-soluble vitamin. GI upset at high doses → standard thiamine GI intolerance.
 
@@ -2473,9 +4218,19 @@ Corrective — enhances vagal tone activating cholinergic anti-inflammatory path
 #strong[HD] Threshold-modulatory — modulates cortical excitability; research-stage for ME/CFS.
 
 
-#strong[+] Prefrontal cortical hypoactivity rate-limiting for cognitive dysfunction and depression. rTMS enhances prefrontal activity via electromagnetic induction → improvement confirms the cognitive lesion is prefrontal-cortex-level and excitable.
+#finding(
+  claim: [Prefrontal cortical hypoactivity rate-limiting for cognitive dysfunction and depression. rTMS enhances prefrontal activity via electromagnetic induction → improvement confirms the cognitive lesion is prefrontal-cortex-level and excitable],
+  explanation: [Prefrontal cortical hypoactivity rate-limiting for cognitive dysfunction and depression. rTMS enhances prefrontal activity via electromagnetic induction → improvement confirms the cognitive lesion is prefrontal-cortex-level and excitable.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Prefrontal cortex not the lesion — or is hypoactive but non-excitable. If TMS fails but donepezil works → the cognitive lesion is cholinergic, not prefrontal-hypoactivity. If TMS fails but methylphenidate works → the cognitive lesion is catecholaminergic, not prefrontal-synaptic.
+#finding(
+  claim: [Prefrontal cortex not the lesion — or is hypoactive but non-excitable. If TMS fails but donepezil works → the cognitive lesion is cholinergic, not prefrontal-hypoactivity. If TMS fails but methylphenidate works → the cognitive lesion is catecholaminergic, not prefrontal-synaptic],
+  explanation: [Prefrontal cortex not the lesion — or is hypoactive but non-excitable. If TMS fails but donepezil works → the cognitive lesion is cholinergic, not prefrontal-hypoactivity. If TMS fails but methylphenidate works → the cognitive lesion is catecholaminergic, not prefrontal-synaptic.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] PEM from procedure-day exertion → travel and procedure demand exceed energy envelope (Pattern B). Headache → standard TMS side effect. Seizure → very rare — confirms lowered seizure threshold; standard TMS screening.
 
@@ -2487,9 +4242,19 @@ Corrective — enhances vagal tone activating cholinergic anti-inflammatory path
 #strong[HD] Threshold-modulatory — multi-mechanism neurostabilizer (Na⁺ channels, GABA-A, AMPA/kainate); cognitive side effects limit use.
 
 
-#strong[+] Multi-mechanism migraine prophylaxis rate-limiting. Topiramate's broad mechanisms (Na⁺ channel block, GABA-A potentiation, AMPA/kainate antagonism, carbonic anhydrase inhibition) address multi-factorial migraine in ME/CFS.
+#finding(
+  claim: [Multi-mechanism migraine prophylaxis rate-limiting. Topiramate's broad mechanisms (Na⁺ channel block, GABA-A potentiation, AMPA/kainate antagonism, carbonic anhydrase inhibition) address multi-factorial migraine in ME/CFS],
+  explanation: [Multi-mechanism migraine prophylaxis rate-limiting. Topiramate's broad mechanisms (Na⁺ channel block, GABA-A potentiation, AMPA/kainate antagonism, carbonic anhydrase inhibition) address multi-factorial migraine in ME/CFS.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Migraine not responsive to topiramate's mechanism portfolio. If topiramate fails but valproate works → GABA-enhancing + HDAC inhibition is the dominant pathway. If topiramate fails but CGRP antagonists work → the migraine is CGRP-driven.
+#finding(
+  claim: [Migraine not responsive to topiramate's mechanism portfolio. If topiramate fails but valproate works → GABA-enhancing + HDAC inhibition is the dominant pathway. If topiramate fails but CGRP antagonists work → the migraine is CGRP-driven],
+  explanation: [Migraine not responsive to topiramate's mechanism portfolio. If topiramate fails but valproate works → GABA-enhancing + HDAC inhibition is the dominant pathway. If topiramate fails but CGRP antagonists work → the migraine is CGRP-driven.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Cognitive impairment ("Dopamax") at low dose (25 mg) → carbonic anhydrase inhibition + reduced glutamatergic transmission in a glutamate-deficient cognitive network (Pattern 4). The cognitive impairment IS diagnostic: it confirms the patient's cognitive network depends on carbonic anhydrase and glutamate — both are already at critical levels. Weight loss → carbonic anhydrase-mediated metabolic effect — confirms systemic CA inhibition. Metabolic acidosis → CA inhibition confirmed systemically.
 
@@ -2501,9 +4266,19 @@ Corrective — enhances vagal tone activating cholinergic anti-inflammatory path
 #strong[HD] Symptomatic — SERT + 5-HT2A + H1 antagonism; at low-dose primarily H1 sedation — does not restore restorative sleep.
 
 
-#strong[+] 5-HT2A blockade → increased SWS → improved glymphatic clearance. Trazodone's 5-HT2A antagonism at low dose (25--50 mg) enhances slow-wave sleep without the anticholinergic burden of tricyclics.
+#finding(
+  claim: [5-HT2A blockade → increased SWS → improved glymphatic clearance. Trazodone's 5-HT2A antagonism at low dose (25--50 mg) enhances slow-wave sleep without the anticholinergic burden of tricyclics],
+  explanation: [5-HT2A blockade → increased SWS → improved glymphatic clearance. Trazodone's 5-HT2A antagonism at low dose (25--50 mg) enhances slow-wave sleep without the anticholinergic burden of tricyclics.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Sleep pathology not 5-HT2A/H1-mediated. If trazodone fails but DORA works → orexin-driven, not serotonergic/H1.
+#finding(
+  claim: [Sleep pathology not 5-HT2A/H1-mediated. If trazodone fails but DORA works → orexin-driven, not serotonergic/H1],
+  explanation: [Sleep pathology not 5-HT2A/H1-mediated. If trazodone fails but DORA works → orexin-driven, not serotonergic/H1.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Next-day sedation at 25 mg → H1 receptor supersensitivity (Pattern 4). OH at 50 mg → α1 antagonism unmasks α1-dependent BP (Pattern 4). Priapism → rare α1-mediated vasodilation in corpus cavernosum (emergency — report immediately).
 
@@ -2515,9 +4290,19 @@ Corrective — enhances vagal tone activating cholinergic anti-inflammatory path
 #strong[HD] Substrate-repletion — serotonin precursor; supplies tryptophan if IDO-mediated depletion active.
 
 
-#strong[+] Serotonin synthesis is rate-limiting — tryptophan successfully enters the brain and is converted to serotonin, confirming the blood-brain barrier transporter and TPH pathway are intact.
+#finding(
+  claim: [Serotonin synthesis is rate-limiting — tryptophan successfully enters the brain and is converted to serotonin, confirming the blood-brain barrier transporter and TPH pathway are intact],
+  explanation: [Serotonin synthesis is rate-limiting — tryptophan successfully enters the brain and is converted to serotonin, confirming the blood-brain barrier transporter and TPH pathway are intact.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Serotonin synthesis not rate-limiting; or tryptophan is diverted to the kynurenine pathway (IDO/TDO activated). If tryptophan fails but 5-HTP works → the rate-limiting step is tryptophan hydroxylase (TPH), not tryptophan availability — tryptophan is present but TPH cannot convert it. If tryptophan causes worsening → tryptophan feeding the kynurenine pathway → increased QUIN (neurotoxic) rather than serotonin — confirms IDO/TDO activation (Pattern 4).
+#finding(
+  claim: [Serotonin synthesis not rate-limiting; or tryptophan is diverted to the kynurenine pathway (IDO/TDO activated). If tryptophan fails but 5-HTP works → the rate-limiting step is tryptophan hydroxylase (TPH), not tryptophan availability — tryptophan is present but TPH cannot convert it. If tryptophan causes worsening → tryptophan feeding the kynurenine pathway → increased QUIN (neurotoxic) rather than serotonin — confirms IDO/TDO activation (Pattern 4)],
+  explanation: [Serotonin synthesis not rate-limiting; or tryptophan is diverted to the kynurenine pathway (IDO/TDO activated). If tryptophan fails but 5-HTP works → the rate-limiting step is tryptophan hydroxylase (TPH), not tryptophan availability — tryptophan is present but TPH cannot convert it. If tryptophan causes worsening → tryptophan feeding the kynurenine pathway → increased QUIN (neurotoxic) rather than serotonin — confirms IDO/TDO activation (Pattern 4).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Worsening of brain fog, fatigue, or pain → kynurenine pathway activation — tryptophan is diverted to kynurenine → QUIN (NMDA excitotoxicity) rather than serotonin. The worsening IS diagnostic: it confirms IDO/TDO is active; tryptophan supplementation is feeding the neurotoxic pathway. This is one of the most important diagnostic signals in this section. GI symptoms → standard amino acid GI intolerance.
 
@@ -2529,9 +4314,19 @@ Corrective — enhances vagal tone activating cholinergic anti-inflammatory path
 Corrective — ER stress reducer stabilizing protein folding and calming UPR — research-stage in ME/CFS
 
 
-#strong[+] ER stress / unfolded protein response rate-limiting for cellular dysfunction. TUDCA is a chemical chaperone → stabilizes protein folding, reduces PERK/IRE1/ATF6 activation → improvement confirms ER stress/UPR is the dominant cellular stress pathway.
+#finding(
+  claim: [ER stress / unfolded protein response rate-limiting for cellular dysfunction. TUDCA is a chemical chaperone → stabilizes protein folding, reduces PERK/IRE1/ATF6 activation → improvement confirms ER stress/UPR is the dominant cellular stress pathway],
+  explanation: [ER stress / unfolded protein response rate-limiting for cellular dysfunction. TUDCA is a chemical chaperone → stabilizes protein folding, reduces PERK/IRE1/ATF6 activation → improvement confirms ER stress/UPR is the dominant cellular stress pathway.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] ER stress not rate-limiting; or the UPR is structural (genetic), not TUDCA-compensable. If TUDCA fails but spermidine works → the protein-aggregate pathology requires autophagy (clearance), not chaperone stabilization (folding). If TUDCA fails but NAC works → the stress is oxidative, not ER-protein-folding.
+#finding(
+  claim: [ER stress not rate-limiting; or the UPR is structural (genetic), not TUDCA-compensable. If TUDCA fails but spermidine works → the protein-aggregate pathology requires autophagy (clearance), not chaperone stabilization (folding). If TUDCA fails but NAC works → the stress is oxidative, not ER-protein-folding],
+  explanation: [ER stress not rate-limiting; or the UPR is structural (genetic), not TUDCA-compensable. If TUDCA fails but spermidine works → the protein-aggregate pathology requires autophagy (clearance), not chaperone stabilization (folding). If TUDCA fails but NAC works → the stress is oxidative, not ER-protein-folding.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — bile acid derivative; well-tolerated. GI effects at high doses → standard bile acid GI effect. No significant toxicity. The TUDCA probe is one of the safest pathway-specific probes.
 
@@ -2543,9 +4338,19 @@ Corrective — ER stress reducer stabilizing protein folding and calming UPR —
 #strong[HD] Substrate-repletion — catecholamine precursor; supplies tyrosine if rate-limiting for DA/NE production.
 
 
-#strong[+] Catecholamine synthesis is substrate-limited — tyrosine hydroxylase (TH) and AADC are functional. Tyrosine supplementation increases catecholamine production → cognitive/physical improvement confirms tyrosine is the rate-limiting precursor.
+#finding(
+  claim: [Catecholamine synthesis is substrate-limited — tyrosine hydroxylase (TH) and AADC are functional. Tyrosine supplementation increases catecholamine production → cognitive/physical improvement confirms tyrosine is the rate-limiting precursor],
+  explanation: [Catecholamine synthesis is substrate-limited — tyrosine hydroxylase (TH) and AADC are functional. Tyrosine supplementation increases catecholamine production → cognitive/physical improvement confirms tyrosine is the rate-limiting precursor.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Catecholamine synthesis not substrate-limited — the bottleneck is TH activity (BH4-dependent) or AADC, not tyrosine availability. If tyrosine fails but L-DOPA works → tyrosine is present; TH is the bottleneck. If tyrosine fails but droxidopa works → NE synthesis is deficient at the AADC step; tyrosine cannot bypass this.
+#finding(
+  claim: [Catecholamine synthesis not substrate-limited — the bottleneck is TH activity (BH4-dependent) or AADC, not tyrosine availability. If tyrosine fails but L-DOPA works → tyrosine is present; TH is the bottleneck. If tyrosine fails but droxidopa works → NE synthesis is deficient at the AADC step; tyrosine cannot bypass this],
+  explanation: [Catecholamine synthesis not substrate-limited — the bottleneck is TH activity (BH4-dependent) or AADC, not tyrosine availability. If tyrosine fails but L-DOPA works → tyrosine is present; TH is the bottleneck. If tyrosine fails but droxidopa works → NE synthesis is deficient at the AADC step; tyrosine cannot bypass this.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] HTN/tachycardia in hyperadrenergic POTS → tyrosine feeding an already-overactive catecholamine system — confirms hyperadrenergic phenotype (Pattern 4). The HTN IS diagnostic: it confirms TH and AADC are not only functional but hyperactive — tyrosine provides additional substrate to an already-excessive pathway. Anxiety at low dose → catecholamine supersensitivity.
 
@@ -2557,9 +4362,19 @@ Corrective — ER stress reducer stabilizing protein folding and calming UPR —
 Corrective — mitophagy activator clearing damaged mitochondria; restores mitochondrial quality control — research-stage
 
 
-#strong[+] Mitophagy (PINK1/Parkin pathway) deficit rate-limiting for mitochondrial quality control. Urolithin A induces selective mitochondrial autophagy → clearance of damaged mitochondria → improvement confirms mitochondrial quality control failure is the dominant lesion and the PINK1/Parkin pathway is urolithin-A-responsive.
+#finding(
+  claim: [Mitophagy (PINK1/Parkin pathway) deficit rate-limiting for mitochondrial quality control. Urolithin A induces selective mitochondrial autophagy → clearance of damaged mitochondria → improvement confirms mitochondrial quality control failure is the dominant lesion and the PINK1/Parkin pathway is urolithin-A-responsive],
+  explanation: [Mitophagy (PINK1/Parkin pathway) deficit rate-limiting for mitochondrial quality control. Urolithin A induces selective mitochondrial autophagy → clearance of damaged mitochondria → improvement confirms mitochondrial quality control failure is the dominant lesion and the PINK1/Parkin pathway is urolithin-A-responsive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Mitophagy not rate-limiting — the lesion is in mitochondrial biogenesis (not clearance), or the PINK1/Parkin pathway is deficient. If urolithin A fails but PQQ works → the lesion is quantitative (too few mitochondria); biogenesis is the bottleneck, not clearance. If urolithin A fails but spermidine works → general autophagy (EP300-mediated) is the lesion; mitophagy-specific clearance is inadequate.
+#finding(
+  claim: [Mitophagy not rate-limiting — the lesion is in mitochondrial biogenesis (not clearance), or the PINK1/Parkin pathway is deficient. If urolithin A fails but PQQ works → the lesion is quantitative (too few mitochondria); biogenesis is the bottleneck, not clearance. If urolithin A fails but spermidine works → general autophagy (EP300-mediated) is the lesion; mitophagy-specific clearance is inadequate],
+  explanation: [Mitophagy not rate-limiting — the lesion is in mitochondrial biogenesis (not clearance), or the PINK1/Parkin pathway is deficient. If urolithin A fails but PQQ works → the lesion is quantitative (too few mitochondria); biogenesis is the bottleneck, not clearance. If urolithin A fails but spermidine works → general autophagy (EP300-mediated) is the lesion; mitophagy-specific clearance is inadequate.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — gut-microbiome-derived metabolite. Only ~40% of people can convert ellagitannins to urolithin A (depends on gut microbiome composition). The null may reflect the patient's microbiome type, not mitophagy status — a critical confound. Direct urolithin A supplementation (Mitopure) bypasses the microbiome conversion bottleneck.
 
@@ -2571,9 +4386,19 @@ Corrective — mitophagy activator clearing damaged mitochondria; restores mitoc
 Restorative — suppresses active herpesvirus replication; suppression only, not eradication — relapse on discontinuation
 
 
-#strong[+] Herpesvirus reactivation rate-limiting. EBV/HHV-6 suppression restores function — confirms viral reactivation is the dominant driver.
+#finding(
+  claim: [Herpesvirus reactivation rate-limiting. EBV/HHV-6 suppression restores function — confirms viral reactivation is the dominant driver],
+  explanation: [Herpesvirus reactivation rate-limiting. EBV/HHV-6 suppression restores function — confirms viral reactivation is the dominant driver.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] EBV not rate-limiting; or virus in sanctuary site (CNS/DRG) inaccessible to valacyclovir. If valacyclovir fails but valganciclovir works → broader-spectrum antiviral needed, or the virus is CMV/HHV-6 (valacyclovir is EBV-selective).
+#finding(
+  claim: [EBV not rate-limiting; or virus in sanctuary site (CNS/DRG) inaccessible to valacyclovir. If valacyclovir fails but valganciclovir works → broader-spectrum antiviral needed, or the virus is CMV/HHV-6 (valacyclovir is EBV-selective)],
+  explanation: [EBV not rate-limiting; or virus in sanctuary site (CNS/DRG) inaccessible to valacyclovir. If valacyclovir fails but valganciclovir works → broader-spectrum antiviral needed, or the virus is CMV/HHV-6 (valacyclovir is EBV-selective).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] CNS effects at standard dose → subclinical renal impairment — acyclovir accumulation from reduced GFR unmasks occult renal disease (Pattern 4). CNS toxicity (confusion, hallucinations, myoclonus) at standard doses → Mechanism K (pharmacokinetic catastrophe) revealing Mechanism F (occult renal impairment).
 
@@ -2587,9 +4412,19 @@ Restorative — suppresses active herpesvirus replication; suppression only, not
 Restorative — suppresses active herpesvirus replication; suppression only, not eradication — relapse on discontinuation
 
 
-#strong[+] Broad-spectrum herpesvirus replication rate-limiting — active where valacyclovir failed. CMV/HHV-6/EBV broader coverage confirms viral reactivation is the driver and the specific virus is valganciclovir-sensitive.
+#finding(
+  claim: [Broad-spectrum herpesvirus replication rate-limiting — active where valacyclovir failed. CMV/HHV-6/EBV broader coverage confirms viral reactivation is the driver and the specific virus is valganciclovir-sensitive],
+  explanation: [Broad-spectrum herpesvirus replication rate-limiting — active where valacyclovir failed. CMV/HHV-6/EBV broader coverage confirms viral reactivation is the driver and the specific virus is valganciclovir-sensitive.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Herpesvirus not rate-limiting, regardless of serology or PCR. If valganciclovir fails despite positive serology → viral reactivation is present but not the dominant driver of symptoms.
+#finding(
+  claim: [Herpesvirus not rate-limiting, regardless of serology or PCR. If valganciclovir fails despite positive serology → viral reactivation is present but not the dominant driver of symptoms],
+  explanation: [Herpesvirus not rate-limiting, regardless of serology or PCR. If valganciclovir fails despite positive serology → viral reactivation is present but not the dominant driver of symptoms.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Bone marrow suppression at subtherapeutic dose → marrow reserve exhausted — hematopoietic stem cell pool critically low from chronic inflammation-driven myelosuppression (Pattern 4). The marrow suppression AT SUBTHERAPEUTIC dose is the key diagnostic: a standard therapeutic dose producing marrow suppression is expected; subtherapeutic dose producing marrow suppression means the reserve is near zero.
 
@@ -2603,9 +4438,19 @@ Restorative — suppresses active herpesvirus replication; suppression only, not
 Corrective — HDAC inhibitor + GABAergic modulation of gene expression; long-term safety concerns
 
 
-#strong[+] GABA-enhancing + HDAC-inhibiting dual mechanism rate-limiting for mood instability and migraine. Valproate increases GABA and inhibits histone deacetylases (HDACs) → improvement confirms GABA deficiency and epigenetic HDAC pathology are the dominant drivers.
+#finding(
+  claim: [GABA-enhancing + HDAC-inhibiting dual mechanism rate-limiting for mood instability and migraine. Valproate increases GABA and inhibits histone deacetylases (HDACs) → improvement confirms GABA deficiency and epigenetic HDAC pathology are the dominant drivers],
+  explanation: [GABA-enhancing + HDAC-inhibiting dual mechanism rate-limiting for mood instability and migraine. Valproate increases GABA and inhibits histone deacetylases (HDACs) → improvement confirms GABA deficiency and epigenetic HDAC pathology are the dominant drivers.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GABA/HDAC axis not rate-limiting. If valproate fails but lamotrigine works → Na⁺ channel-mediated glutamate release is the lesion, not GABA enhancement. If valproate fails but lithium works → the mood instability is PIP2/IMPase-mediated, not GABA/HDAC.
+#finding(
+  claim: [GABA/HDAC axis not rate-limiting. If valproate fails but lamotrigine works → Na⁺ channel-mediated glutamate release is the lesion, not GABA enhancement. If valproate fails but lithium works → the mood instability is PIP2/IMPase-mediated, not GABA/HDAC],
+  explanation: [GABA/HDAC axis not rate-limiting. If valproate fails but lamotrigine works → Na⁺ channel-mediated glutamate release is the lesion, not GABA enhancement. If valproate fails but lithium works → the mood instability is PIP2/IMPase-mediated, not GABA/HDAC.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Weight gain + insulin resistance → HDAC inhibition + GABAergic appetite stimulation — confirms systemic HDAC engagement. Tremor at standard dose → GABAergic cerebellar effect — confirms CNS penetration. PCOS in women of reproductive age → HDAC-mediated ovarian effects. Hepatotoxicity → standard valproate class effect — LFT monitoring mandatory.
 
@@ -2617,9 +4462,19 @@ Corrective — HDAC inhibitor + GABAergic modulation of gene expression; long-te
 #strong[HD] Substrate-repletion — antioxidant + collagen synthesis cofactor; repletes if deficient.
 
 
-#strong[+] Vitamin C as prolyl hydroxylase cofactor rate-limiting for collagen synthesis (acquired CT weakness) AND antioxidant function. High-dose IV vitamin C separately probes oxidative stress. Improvement in joint/CT symptoms confirms the collagen synthesis lesion is vitamin-C-dependent.
+#finding(
+  claim: [Vitamin C as prolyl hydroxylase cofactor rate-limiting for collagen synthesis (acquired CT weakness) AND antioxidant function. High-dose IV vitamin C separately probes oxidative stress. Improvement in joint/CT symptoms confirms the collagen synthesis lesion is vitamin-C-dependent],
+  explanation: [Vitamin C as prolyl hydroxylase cofactor rate-limiting for collagen synthesis (acquired CT weakness) AND antioxidant function. High-dose IV vitamin C separately probes oxidative stress. Improvement in joint/CT symptoms confirms the collagen synthesis lesion is vitamin-C-dependent.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Vitamin C not rate-limiting for collagen synthesis or antioxidant defense. CT weakness is genetic (EDS) or HIF-1α-driven (not cofactor-deficient).
+#finding(
+  claim: [Vitamin C not rate-limiting for collagen synthesis or antioxidant defense. CT weakness is genetic (EDS) or HIF-1α-driven (not cofactor-deficient)],
+  explanation: [Vitamin C not rate-limiting for collagen synthesis or antioxidant defense. CT weakness is genetic (EDS) or HIF-1α-driven (not cofactor-deficient).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI at high oral doses → osmotic diarrhea — confirms the vitamin C GI ceiling (usually 2--5 g/day). The GI ceiling is the oral dose limit. IV vitamin C bypasses GI → higher plasma levels without GI effect. The oral-to-IV comparison maps whether the therapeutic effect requires supraphysiologic plasma concentrations.
 
@@ -2631,9 +4486,19 @@ Corrective — HDAC inhibitor + GABAergic modulation of gene expression; long-te
 #strong[HD] Substrate-repletion — combined antioxidant repletion with timed dosing for glutathione recycling optimization.
 
 
-#strong[+] ROS-mediated PHD inhibition rate-limiting — acquired CT weakness, potentially reversible. Vitamin C (prolyl hydroxylase cofactor) + NAC (glutathione support) timing targets HIF-1α stabilization in CT — improvement confirms CT weakness is acquired (HIF-1α-driven), not genetic (EDS).
+#finding(
+  claim: [ROS-mediated PHD inhibition rate-limiting — acquired CT weakness, potentially reversible. Vitamin C (prolyl hydroxylase cofactor) + NAC (glutathione support) timing targets HIF-1α stabilization in CT — improvement confirms CT weakness is acquired (HIF-1α-driven), not genetic (EDS)],
+  explanation: [ROS-mediated PHD inhibition rate-limiting — acquired CT weakness, potentially reversible. Vitamin C (prolyl hydroxylase cofactor) + NAC (glutathione support) timing targets HIF-1α stabilization in CT — improvement confirms CT weakness is acquired (HIF-1α-driven), not genetic (EDS).],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] CT weakness is genetic (EDS) — not acquired — or ROS is not the CT lesion driver. If vitamin C + NAC fails but doxycycline works → MMP-mediated degradation is dominant, not HIF-1α/ROS.
+#finding(
+  claim: [CT weakness is genetic (EDS) — not acquired — or ROS is not the CT lesion driver. If vitamin C + NAC fails but doxycycline works → MMP-mediated degradation is dominant, not HIF-1α/ROS],
+  explanation: [CT weakness is genetic (EDS) — not acquired — or ROS is not the CT lesion driver. If vitamin C + NAC fails but doxycycline works → MMP-mediated degradation is dominant, not HIF-1α/ROS.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Minimal — both are well-tolerated supplements. The "timed" aspect (dosing relative to collagen synthesis circadian peak) is the critical variable — null may reflect incorrect timing rather than incorrect mechanism.
 
@@ -2645,9 +4510,19 @@ Corrective — HDAC inhibitor + GABAergic modulation of gene expression; long-te
 #strong[HD] Substrate-repletion — repletes vitamin D if deficient; supports immune regulation.
 
 
-#strong[+] Vitamin D deficiency rate-limiting for immune function and gene regulation via VDR. Vitamin D repletion restores VDR-mediated gene programs — improvement confirms vitamin D deficiency is the dominant immune lesion.
+#finding(
+  claim: [Vitamin D deficiency rate-limiting for immune function and gene regulation via VDR. Vitamin D repletion restores VDR-mediated gene programs — improvement confirms vitamin D deficiency is the dominant immune lesion],
+  explanation: [Vitamin D deficiency rate-limiting for immune function and gene regulation via VDR. Vitamin D repletion restores VDR-mediated gene programs — improvement confirms vitamin D deficiency is the dominant immune lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Vitamin D not rate-limiting. Serum 25(OH)D normalized + no improvement → immune dysfunction is VDR-independent. Vitamin D's immunomodulatory effect confirmed absent — consider other immune probes.
+#finding(
+  claim: [Vitamin D not rate-limiting. Serum 25(OH)D normalized + no improvement → immune dysfunction is VDR-independent. Vitamin D's immunomodulatory effect confirmed absent — consider other immune probes],
+  explanation: [Vitamin D not rate-limiting. Serum 25(OH)D normalized + no improvement → immune dysfunction is VDR-independent. Vitamin D's immunomodulatory effect confirmed absent — consider other immune probes.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Hypercalcemia at supratherapeutic doses (>10,000 IU/day for months) → confirms vitamin D toxicity — serum 25(OH)D >150 ng/mL. Standard dosing (1000--5000 IU/day) is safe. Minimal side effects at therapeutic doses.
 
@@ -2659,9 +4534,19 @@ Corrective — HDAC inhibitor + GABAergic modulation of gene expression; long-te
 Corrective — enhances vagal tone activating cholinergic anti-inflammatory pathway; invasive implant — research-stage
 
 
-#strong[+] Vagal efferent pathway rate-limiting for autonomic dysfunction — parasympathetic tone is stimulable. VNS increases parasympathetic output → improved HRV, reduced sympathetic tone confirms vagal efferent lesion is electrical-stimulation-compensable.
+#finding(
+  claim: [Vagal efferent pathway rate-limiting for autonomic dysfunction — parasympathetic tone is stimulable. VNS increases parasympathetic output → improved HRV, reduced sympathetic tone confirms vagal efferent lesion is electrical-stimulation-compensable],
+  explanation: [Vagal efferent pathway rate-limiting for autonomic dysfunction — parasympathetic tone is stimulable. VNS increases parasympathetic output → improved HRV, reduced sympathetic tone confirms vagal efferent lesion is electrical-stimulation-compensable.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Vagal efferent pathway non-stimulable — DMV damage, ganglionic AChR AAb, or structural vagal lesion. If invasive VNS fails but pyridostigmine works → the vagal efferent is functional but AChE degradation overwhelms ACh release; electrical stimulation can't overcome the cholinergic deficit at the synapse.
+#finding(
+  claim: [Vagal efferent pathway non-stimulable — DMV damage, ganglionic AChR AAb, or structural vagal lesion. If invasive VNS fails but pyridostigmine works → the vagal efferent is functional but AChE degradation overwhelms ACh release; electrical stimulation can't overcome the cholinergic deficit at the synapse],
+  explanation: [Vagal efferent pathway non-stimulable — DMV damage, ganglionic AChR AAb, or structural vagal lesion. If invasive VNS fails but pyridostigmine works → the vagal efferent is functional but AChE degradation overwhelms ACh release; electrical stimulation can't overcome the cholinergic deficit at the synapse.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Invasive VNS: surgical risk, infection, vocal cord paralysis — standard implant risks. Non-invasive tVNS/taVNS: minimal — auricular skin irritation. PEM from procedure-day exertion for invasive VNS. Non-invasive avoids all surgical risk.
 
@@ -2673,9 +4558,19 @@ Corrective — enhances vagal tone activating cholinergic anti-inflammatory path
 Corrective — Vitamin K antagonist reducing coagulation cascade — narrow therapeutic window; bleeding risk; requires monitoring
 
 
-#strong[+] Vitamin K-dependent coagulation factor synthesis rate-limiting for microclot pathology. Warfarin inhibits synthesis of factors II, VII, IX, and X → reduced fibrin formation confirms vitamin-K-dependent coagulation is the dominant microclot driver.
+#finding(
+  claim: [Vitamin K-dependent coagulation factor synthesis rate-limiting for microclot pathology. Warfarin inhibits synthesis of factors II, VII, IX, and X → reduced fibrin formation confirms vitamin-K-dependent coagulation is the dominant microclot driver],
+  explanation: [Vitamin K-dependent coagulation factor synthesis rate-limiting for microclot pathology. Warfarin inhibits synthesis of factors II, VII, IX, and X → reduced fibrin formation confirms vitamin-K-dependent coagulation is the dominant microclot driver.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Coagulation not vitamin-K-dependent — other pathways dominant (fibrinolysis-resistant clots, platelet aggregation). Warfarin is not used as a diagnostic probe in modern practice — DOACs (apixaban, rivaroxaban) are preferred for both treatment and diagnosis.
+#finding(
+  claim: [Coagulation not vitamin-K-dependent — other pathways dominant (fibrinolysis-resistant clots, platelet aggregation). Warfarin is not used as a diagnostic probe in modern practice — DOACs (apixaban, rivaroxaban) are preferred for both treatment and diagnosis],
+  explanation: [Coagulation not vitamin-K-dependent — other pathways dominant (fibrinolysis-resistant clots, platelet aggregation). Warfarin is not used as a diagnostic probe in modern practice — DOACs (apixaban, rivaroxaban) are preferred for both treatment and diagnosis.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] INR instability → dietary vitamin K variability + multiple drug interactions — warfarin's narrow therapeutic index makes it unsuitable as a diagnostic probe in polypharmacy patients. Bleeding at therapeutic INR → hemostatic reserve narrow. Skin necrosis on initiation → protein C deficiency — catastrophic thrombotic complication confirming protein C pathway vulnerability.
 
@@ -2687,9 +4582,19 @@ Corrective — Vitamin K antagonist reducing coagulation cascade — narrow ther
 #strong[HD] Substrate-repletion — repletes zinc if deficient; supports immune function and antioxidant defence.
 
 
-#strong[+] Zinc deficiency rate-limiting for immune function (T-cell maturation), antioxidant defense (Cu/Zn-SOD), and neurotransmitter synthesis. Zinc repletion restores these functions — improvement confirms zinc deficiency was a correctable lesion.
+#finding(
+  claim: [Zinc deficiency rate-limiting for immune function (T-cell maturation), antioxidant defense (Cu/Zn-SOD), and neurotransmitter synthesis. Zinc repletion restores these functions — improvement confirms zinc deficiency was a correctable lesion],
+  explanation: [Zinc deficiency rate-limiting for immune function (T-cell maturation), antioxidant defense (Cu/Zn-SOD), and neurotransmitter synthesis. Zinc repletion restores these functions — improvement confirms zinc deficiency was a correctable lesion.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] Zinc not rate-limiting. Serum zinc normal + no improvement → immune dysfunction is zinc-independent. Zinc's null after repletion excludes zinc deficiency as a driver.
+#finding(
+  claim: [Zinc not rate-limiting. Serum zinc normal + no improvement → immune dysfunction is zinc-independent. Zinc's null after repletion excludes zinc deficiency as a driver],
+  explanation: [Zinc not rate-limiting. Serum zinc normal + no improvement → immune dysfunction is zinc-independent. Zinc's null after repletion excludes zinc deficiency as a driver.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] GI upset (nausea) on empty stomach → standard zinc GI effect — take with food. Copper deficiency with prolonged high-dose zinc supplementation (>50 mg/day for months) → zinc-induced metallothionein blocks copper absorption → anemia, neuropathy. Taste disturbance (metallic taste, hypogeusia) → confirms zinc receptor engagement but not ME/CFS-diagnostic.
 
@@ -2701,9 +4606,19 @@ Corrective — Vitamin K antagonist reducing coagulation cascade — narrow ther
 #strong[HD] Symptomatic — selective GABA-A α1 agonism inducing sleep without addressing why sleep is unrefreshing.
 
 
-#strong[+] GABA-A α1-mediated sleep initiation rate-limiting. Zolpidem's α1 selectivity and rapid onset (15--30 min) targets sleep-onset insomnia specifically — confirms the sleep-onset pathology is α1-GABA-A-dependent.
+#finding(
+  claim: [GABA-A α1-mediated sleep initiation rate-limiting. Zolpidem's α1 selectivity and rapid onset (15--30 min) targets sleep-onset insomnia specifically — confirms the sleep-onset pathology is α1-GABA-A-dependent],
+  explanation: [GABA-A α1-mediated sleep initiation rate-limiting. Zolpidem's α1 selectivity and rapid onset (15--30 min) targets sleep-onset insomnia specifically — confirms the sleep-onset pathology is α1-GABA-A-dependent.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GABA-A α1 not rate-limiting for sleep onset. If zolpidem fails but eszopiclone works → sleep-onset GABA-A α1 is present but requires longer half-life; zolpidem's 2.5h half-life is too short. If zolpidem fails but DORA works → orexin hyperarousal prevents sleep onset even with α1-GABA-A potentiation.
+#finding(
+  claim: [GABA-A α1 not rate-limiting for sleep onset. If zolpidem fails but eszopiclone works → sleep-onset GABA-A α1 is present but requires longer half-life; zolpidem's 2.5h half-life is too short. If zolpidem fails but DORA works → orexin hyperarousal prevents sleep onset even with α1-GABA-A potentiation],
+  explanation: [GABA-A α1 not rate-limiting for sleep onset. If zolpidem fails but eszopiclone works → sleep-onset GABA-A α1 is present but requires longer half-life; zolpidem's 2.5h half-life is too short. If zolpidem fails but DORA works → orexin hyperarousal prevents sleep onset even with α1-GABA-A potentiation.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Complex sleep behaviors at therapeutic dose → striatal GABA-A α1 disinhibition — the α1 selectivity concentrates the drug's effect in striatal circuits (Pattern 5). Paradoxical excitation → chloride gradient inversion (Pattern 2) — less common than pan-GABA-A benzodiazepines but still possible. No effect + no next-day sedation → GABA-A α1 desensitized — the receptor is non-responsive (Pattern 5). Next-day sedation at 5 mg → CYP3A4 slow metabolizer — prolonged half-life.
 
@@ -2715,9 +4630,19 @@ Corrective — Vitamin K antagonist reducing coagulation cascade — narrow ther
 #strong[HD] Symptomatic — GABA-A modulation for sleep; does not restore sleep architecture.
 
 
-#strong[+] GABA-A-mediated sleep initiation rate-limiting — similar diagnostic to eszopiclone. Zopiclone is the racemic mixture; eszopiclone is the purified S-enantiomer. The racemic/es-enantiomer comparison tests whether the R-enantiomer contributes benefit or side effects.
+#finding(
+  claim: [GABA-A-mediated sleep initiation rate-limiting — similar diagnostic to eszopiclone. Zopiclone is the racemic mixture; eszopiclone is the purified S-enantiomer. The racemic/es-enantiomer comparison tests whether the R-enantiomer contributes benefit or side effects],
+  explanation: [GABA-A-mediated sleep initiation rate-limiting — similar diagnostic to eszopiclone. Zopiclone is the racemic mixture; eszopiclone is the purified S-enantiomer. The racemic/es-enantiomer comparison tests whether the R-enantiomer contributes benefit or side effects.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
-#strong[−] GABA-A not rate-limiting for sleep initiation. If zopiclone fails but eszopiclone works → the R-enantiomer in the racemic mixture interferes with S-enantiomer effect — the racemate is less effective; eszopiclone (pure S) is required. If zopiclone causes metallic taste but eszopiclone doesn't → the R-enantiomer is the cause of dysgeusia — switching to eszopiclone should resolve the taste complaint.
+#finding(
+  claim: [GABA-A not rate-limiting for sleep initiation. If zopiclone fails but eszopiclone works → the R-enantiomer in the racemic mixture interferes with S-enantiomer effect — the racemate is less effective; eszopiclone (pure S) is required. If zopiclone causes metallic taste but eszopiclone doesn't → the R-enantiomer is the cause of dysgeusia — switching to eszopiclone should resolve the taste complaint],
+  explanation: [GABA-A not rate-limiting for sleep initiation. If zopiclone fails but eszopiclone works → the R-enantiomer in the racemic mixture interferes with S-enantiomer effect — the racemate is less effective; eszopiclone (pure S) is required. If zopiclone causes metallic taste but eszopiclone doesn't → the R-enantiomer is the cause of dysgeusia — switching to eszopiclone should resolve the taste complaint.],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 #strong[SE] Metallic taste (dysgeusia) → zopiclone specific — more common than eszopiclone due to R-enantiomer. Complex sleep behaviors → same as all Z-drugs (Pattern 5). Next-day sedation at standard dose → CYP metabolism variant — half-life prolonged.
 
