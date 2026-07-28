@@ -1,7 +1,6 @@
 #import "../../../../shared/environments.typ": *
 
-==== The "Do Not Disturb" Rule — When to Stop
-  <sec:do-not-disturb-rule>
+==== The "Do Not Disturb" Rule — When to Stop <sec:do-not-disturb-rule>
 
 *Certainty: 0.20.* These stopping conditions are clinical heuristics derived from the side-effect diagnostic patterns (Patterns 1--5, @sec:side-effects-diagnostic) and the PEM budget constraint (@sec:pem-budget-constraint). None has been validated prospectively in ME/CFS pharmacodiagnostic trials. They represent a safety-first clinical reasoning scaffold — the cost of a false stop (failing to find the right drug) is lower than the cost of a false continue (triggering PEM from a futile trial). (Origin: brainstorm)
 
@@ -42,7 +41,7 @@ Example: LDN (TLR4+Nrf2+TRPM3+μOR) is null → TRPM3/neuroinflammation not phar
 
 The threshold is *three*, not one or two. One null could be pharmacokinetic failure, wrong dose, or wrong receptor subtype. Two nulls could be bad luck. Three nulls across different receptors/pathways within the same system class converge — the system is the problem, not the individual receptor.
 
-*Falsifiable prediction:* In a cohort of ME/CFS patients undergoing sequential pharmacodiagnostic trials, the proportion who respond to the fourth drug in the same mechanism class (after three consecutive nulls in that class) should be <10%. If >10% respond to the fourth drug, three-null class elimination is too strict — the class elimination threshold should be four or five nulls.
+*Falsifiable prediction:* In a cohort of ME/CFS patients undergoing sequential pharmacodiagnostic trials, the proportion who respond to the fourth drug in the same mechanism class (after three consecutive nulls in that class) should be `<10%`. If >10% respond to the fourth drug, three-null class elimination is too strict — the class elimination threshold should be four or five nulls.
 ]
 
 #speculation(title: [Condition 4 — >50% Improvement from Any Drug])[
