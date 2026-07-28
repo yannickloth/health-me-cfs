@@ -75,6 +75,10 @@ website:
 
 format:
   html:
+    # To remove GoatCounter: delete the `include-in-header` block below
+    include-in-header:
+      - text: |
+          <script data-goatcounter="https://yannickloth.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
     theme: sandstone
     css: styles.css
     toc: true
