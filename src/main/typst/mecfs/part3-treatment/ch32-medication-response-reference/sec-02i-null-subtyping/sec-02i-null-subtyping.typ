@@ -56,7 +56,7 @@ The receptor is present, structurally intact, and capable of signaling — but i
 *Certainty: 0.15.* The pharmacology is sound but depends on a specific biochemical state (KYNA elevation) whose prevalence in ME/CFS is unknown — and which may be the exception (depletion appears more common). The probe may apply to a small minority of patients.
 ] <spec:null-overwhelmed>
 
-#speculation(title: [Null Subtype 4 — BIASED: Receptor Present but Signalling Mode-Locked])[
+#speculation(title: [BIASED Variation: Receptor Signalling Mode-Locked to One Pathway])[
 The existing null subtyping taxonomy (absent/blocked/overwhelmed) implicitly assumes a single activation pathway per receptor. But GPCRs signal through multiple pathways simultaneously — G-protein (Gαs, Gαi, Gαq) and β-arrestin — and these can be decoupled. A fourth null subtype is possible: the receptor is present and unblocked, but its signalling is locked into one pathway while another is desensitized.
 
 This is documented in β-AR autoantibody biology: chronic AAb exposure produces sustained β-arrestin-biased signalling while Gαs-cAMP is desensitized @DodgeKafka2026betaArrestinAAb. A drug that signals through Gαs (isoproterenol) produces null — the pathway is offline. But the receptor is structurally present, not autoantibody-blocked (AAb is driving the remaining signalling), and not absent. The null is pathway-specific, not receptor-level.
