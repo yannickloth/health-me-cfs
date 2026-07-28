@@ -13,7 +13,7 @@ Five principles rank the trial sequence. When principles conflict (e.g., broad b
 
 *Certainty: 0.15.* Mechanism-based ordering: trial drugs in descending order of therapeutic depth.
 
-- *Restorative* (treats the underlying molecular defect): LDN — restores TRPM3 function (@sec:trpm3-channelopathy) and Nrf2-mediated antioxidant defence (@sec:nrf2-keap1-antioxidant-pathway). If LDN works, the lesion is at the channel or redox level.
+- *Restorative* (treats the underlying molecular defect): LDN — restores TRPM3 function (@sec:trpm3-cascade) and Nrf2-mediated antioxidant defence. If LDN works, the lesion is at the channel or redox level.
 - *Corrective* (bypasses or compensates for the defect): midodrine — compensates for inadequate sympathetic tone. Pyridostigmine — compensates for inadequate parasympathetic tone.
 - *Threshold-modulatory* (adjusts the set-point at which a system fires): LDA — lowers the microglial activation threshold via D2 partial agonism without directly activating or suppressing.
 - *Substrate-replenishing* (provides raw materials the system needs): CoQ10, NAD+ precursors, D-ribose. Mitochondrial cofactors.

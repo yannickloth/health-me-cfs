@@ -2,7 +2,7 @@
 
 ==== The "Do Not Disturb" Rule — When to Stop <sec:do-not-disturb-rule>
 
-*Certainty: 0.20.* These stopping conditions are clinical heuristics derived from the side-effect diagnostic patterns (Patterns 1--5, @sec:side-effects-diagnostic) and the PEM budget constraint (@sec:pem-budget-constraint). None has been validated prospectively in ME/CFS pharmacodiagnostic trials. They represent a safety-first clinical reasoning scaffold — the cost of a false stop (failing to find the right drug) is lower than the cost of a false continue (triggering PEM from a futile trial). (Origin: brainstorm)
+*Certainty: 0.20.* These stopping conditions are clinical heuristics derived from the side-effect diagnostic patterns (Patterns 1--5, @sec:side-effects-diagnostic) and the PEM budget constraint. None has been validated prospectively in ME/CFS pharmacodiagnostic trials. They represent a safety-first clinical reasoning scaffold — the cost of a false stop (failing to find the right drug) is lower than the cost of a false continue (triggering PEM from a futile trial). (Origin: brainstorm)
 
 The previous sections describe how to interpret positive and negative drug responses, how to combine drugs into synergistic probes, and how to sequence trials. This section describes when to *stop*. Not every drug response needs a second drug added, and not every null result needs the next drug on the ladder. Some conditions indicate that the current trial *is* the diagnostic result — adding another drug would only add noise.
 
@@ -12,7 +12,7 @@ The previous sections describe how to interpret positive and negative drug respo
 
 *Action:* Stop immediately. Do not escalate. Do not add a second drug. The PEM episode obscures the diagnostic signal — you cannot distinguish a drug-induced crash from a spontaneous disease fluctuation, and the crash itself consumes PEM budget that future drug trials need.
 
-The severe PEM event IS diagnostic information, but it is not mechanistically specific (Pattern 6 — non-specific toxicity, @sec:pattern-6-symptom-specific-dissociation). It tells you this drug at this dose is not safe for this patient, and nothing more. Resume after full recovery (≥2 weeks of baseline-level symptoms).
+The severe PEM event IS diagnostic information, but it is not mechanistically specific (Pattern 6 — Non-specific toxicity (@sec:side-effects-diagnostic). It tells you this drug at this dose is not safe for this patient, and nothing more. Resume after full recovery (≥2 weeks of baseline-level symptoms).
 
 *Falsifiable prediction:* Patients who continue pharmacodiagnostic trialling immediately after a drug-induced severe PEM episode (within 1 week) should show a higher rate of false-positive drug responses (attributed to the next drug but actually reflecting spontaneous recovery from the PEM episode) than patients who wait ≥2 weeks. Falsified if early-resumers and late-resumers show equivalent false-positive rates.
 ]
@@ -55,7 +55,7 @@ Adding a second drug immediately would:
 2. Miss the opportunity to observe the washout effect — does symptom severity return to baseline when the drug is stopped? If yes, the mechanism is tonic-maintenance (the drug suppresses an ongoing process). If no, the drug repaired something permanently
 3. Waste a drug trial — you have already found a high-yield intervention. Document it fully before searching for incremental benefit from a second drug
 
-The response magnitude should be fully characterised (onset latency per @sec:response-onset-latency, domain specificity, dose-response slope, washout duration) before any second drug is added. If the improvement sustains at 6 weeks and the washout confirms mechanism-dependence, the diagnostic question for this mechanism is answered. Only then does a second drug for additive/synergy testing become interpretable.
+The response magnitude should be fully characterised (onset latency, domain specificity, dose-response slope, washout duration) before any second drug is added. If the improvement sustains at 6 weeks and the washout confirms mechanism-dependence, the diagnostic question for this mechanism is answered. Only then does a second drug for additive/synergy testing become interpretable.
 
 *Falsifiable prediction:* Patients whose pharmacodiagnostic trials are continued immediately after a >50% improvement (new drug added within 1 week) should show lower cumulative diagnostic resolution rate (proportion of patients whose bottleneck is correctly identified) compared to patients who complete full characterisation (≥6 weeks observation + washout test + confirmatory synergy probe) before adding a second drug. Falsified if fast-sequencers and slow-sequencers show equivalent cumulative resolution.
 ]
