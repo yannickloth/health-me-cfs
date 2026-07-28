@@ -1,7 +1,7 @@
 
 #import "../../../shared/environments.typ": limitation, open-question
 
-== Dose-Response as Diagnostic Readout: Per-Medication Dose-Range Interpretive Reference
+== Dose-Response as Diagnostic Readout: Per-Medication Dose-Range Interpretive Reference <sec:hormetic-dose-range-reference>
 
 The framework at @sec:hormetic-dose-response establishes that seventeen medications in ME/CFS share non-monotonic dose-response patterns distributed across at least four mechanistically distinct categories: Nrf2-mediated hormesis, partial-agonist inverted-U, catecholamine inverted-U, and concentration-dependent target selection or biphasic biochemistry. The central clinical implication is that *where* on the dose axis a drug produces benefit, loses benefit, or causes side effects is diagnostic — the response pattern at each dose range is an assay of whether that dose engages (or overshoots) a specific mechanism.
 
