@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Ginkgo biloba (EGb 761)
+=== Ginkgo biloba (EGb 761) <sec:ginkgo>
 
 Ginkgo enhances cerebral blood flow (vasodilation, improved microvascular perfusion), antagonizes platelet-activating factor (PAF, reducing neuroinflammation), and provides antioxidant support. It probes whether cerebral hypoperfusion is limiting cognitive function.
 

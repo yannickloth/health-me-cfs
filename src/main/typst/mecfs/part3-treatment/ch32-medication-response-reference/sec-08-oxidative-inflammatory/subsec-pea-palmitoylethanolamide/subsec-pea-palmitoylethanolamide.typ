@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== PEA (Palmitoylethanolamide)
+=== PEA (Palmitoylethanolamide) <sec:pea>
 
 PEA activates PPAR-α, suppressing inflammatory gene transcription upstream of mediator release. It also stabilizes mast cells and modulates microglia. A meta-analysis of 11 RCTs (n=774) supports its use for pain @LangIlievich2023PEA. Because it acts at the nuclear-receptor level, it probes a distinct arm of inflammation from receptor-blocking or TLR4-targeting drugs.
 

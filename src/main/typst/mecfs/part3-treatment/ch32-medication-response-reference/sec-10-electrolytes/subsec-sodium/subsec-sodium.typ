@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Sodium
+=== Sodium <sec:sodium>
 
 Sodium loading expands plasma volume and probes hypovolemia as an orthostatic mechanism. It carries a specific ME/CFS caution: intracellular sodium overload has been documented by sodium-MRI, so sodium loading may paradoxically worsen symptoms by increasing ATPase demand to pump the extra sodium out of cells.
 

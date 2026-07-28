@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Omega-3 Fatty Acids (EPA/DHA)
+=== Omega-3 Fatty Acids (EPA/DHA) <sec:omega3>
 
 Omega-3s probe failed resolution of inflammation. EPA and DHA are precursors for resolvins, protectins, and maresins (specialized pro-resolving mediators, or SPMs) that actively terminate inflammation. Supplementation tests whether inflammation persists because the resolution off-switch is broken rather than because the on-switch is stuck.
 

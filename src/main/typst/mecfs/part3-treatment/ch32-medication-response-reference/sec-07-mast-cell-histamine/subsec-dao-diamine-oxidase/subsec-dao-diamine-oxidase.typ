@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== DAO (Diamine Oxidase)
+=== DAO (Diamine Oxidase) <sec:dao>
 
 DAO degrades histamine in the gut. Supplementing it probes whether symptoms arise from histamine intolerance (impaired degradation of dietary histamine) or from mast cell activation (excessive endogenous histamine production).
 

@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Dornase Alfa (Pulmozyme)
+=== Dornase Alfa (Pulmozyme) <sec:dornase-alfa>
 
 Recombinant DNase I that cleaves neutrophil extracellular traps (NETs) — webs of extruded DNA released by neutrophils. It probes whether excessive NETosis contributes, and whether a NET/DNase imbalance is accessible to enzymatic clearance.
 

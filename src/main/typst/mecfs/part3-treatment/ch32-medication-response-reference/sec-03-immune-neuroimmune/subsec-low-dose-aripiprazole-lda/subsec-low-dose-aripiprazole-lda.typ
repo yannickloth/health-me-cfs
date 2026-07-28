@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Low-Dose Aripiprazole (LDA)
+=== Low-Dose Aripiprazole (LDA) <sec:low-dose-aripiprazole-lda>
 
 LDA (1–2 mg/day) is a partial agonist at D2/D3 and 5-HT1A, antagonist at 5-HT2A. At microdose levels (≤1 mg/day), the pharmacologically dominant action is presynaptic D2/D3 partial agonism — insufficient for antipsychotic occupancy but adequate for microglial D2 receptor engagement. Carries significant risks: akathisia, serotonin syndrome, CYP2D6 variable exposure, and prediabetes/metabolic syndrome (@warn:lda-metabolic).
 

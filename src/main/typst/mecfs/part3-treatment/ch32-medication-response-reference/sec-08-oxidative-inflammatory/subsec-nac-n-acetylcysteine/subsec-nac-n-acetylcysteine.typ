@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== NAC (N-Acetylcysteine)
+=== NAC (N-Acetylcysteine) <sec:nac>
 
 NAC is a glutathione precursor (antioxidant), glutamate modulator (cystine-glutamate antiporter), and potentially reduces HSAT2 retroelement activation (ROS → HSF1 → HSAT2).
 

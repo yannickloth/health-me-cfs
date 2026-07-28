@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Magnesium
+=== Magnesium <sec:magnesium>
 
 Magnesium is a cofactor for more than 300 enzymes, including those governing ATP utilization and the sodium-calcium exchanger (NCX). Magnesium L-threonate crosses the blood-brain barrier. Supplementation probes whether systemic or CNS magnesium deficiency is contributing.
 

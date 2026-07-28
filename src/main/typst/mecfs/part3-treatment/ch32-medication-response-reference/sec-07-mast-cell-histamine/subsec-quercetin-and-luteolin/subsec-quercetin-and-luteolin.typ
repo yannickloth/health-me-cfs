@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Quercetin and Luteolin
+=== Quercetin and Luteolin <sec:quercetin-luteolin>
 
 Quercetin stabilizes mast cells, inhibits PI3K (restoring CD80 on antigen-presenting cells), and may resensitize β2-adrenergic receptors. Luteolin crosses the blood-brain barrier, stabilizing CNS mast cells and microglia. Together they probe peripheral mast cell activation, CNS mast cell/microglial involvement, and impaired immune costimulation.
 

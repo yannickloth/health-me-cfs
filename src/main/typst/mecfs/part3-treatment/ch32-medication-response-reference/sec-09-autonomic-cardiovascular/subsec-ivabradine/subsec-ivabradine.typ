@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Ivabradine
+=== Ivabradine <sec:ivabradine>
 
 Selective If-channel blocker — reduces heart rate without affecting blood pressure, contractility, or autonomic tone. Because it slows the heart by acting directly on the sinoatrial node rather than by blunting sympathetic drive, it probes whether tachycardia is the primary problem (hyperadrenergic POTS) or a compensatory response to low stroke volume.
 

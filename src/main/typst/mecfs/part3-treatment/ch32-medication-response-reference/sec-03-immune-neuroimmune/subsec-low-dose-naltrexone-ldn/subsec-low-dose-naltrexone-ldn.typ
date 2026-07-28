@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Low-Dose Naltrexone (LDN)
+=== Low-Dose Naltrexone (LDN) <sec:low-dose-naltrexone-ldn>
 
 LDN blocks TLR4 receptors on microglia (reducing neuroinflammation), restores TRPM3 calcium channel function in vitro, and triggers compensatory endorphin upregulation. Does not increase metabolic rate — can be tried even in severe patients.
 

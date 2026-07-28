@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Low-Dose IL-2
+=== Low-Dose IL-2 <sec:low-dose-il2-ch32>
 
 Low-dose interleukin-2 selectively expands regulatory T cells (Tregs), the immune cells that suppress autoreactive responses. It probes whether Treg deficiency permits autoantibody production — if restoring Tregs reduces autoantibodies, their deficiency was permissive.
 

@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== B Vitamin Supplementation
+=== B Vitamin Supplementation <sec:b-vitamins>
 
 B vitamins are cofactors at specific points in energy metabolism and neurotransmitter synthesis. Which B vitamin produces a response points toward which metabolic bottleneck was rate-limiting: B1 (thiamine) → PDH/TCA; B2 (riboflavin) → Complex II; B3 (niacin) → the NAD+ pool; B6/P5P → neurotransmitter synthesis or BH4 recycling; B9/B12 → the methylation cycle, homocysteine burden, and BH4 recycling.
 

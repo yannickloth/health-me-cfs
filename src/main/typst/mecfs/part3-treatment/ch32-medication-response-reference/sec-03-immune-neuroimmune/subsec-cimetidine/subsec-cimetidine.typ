@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Cimetidine
+=== Cimetidine <sec:cimetidine>
 
 Cimetidine uniquely blocks H2 receptors on CD8+ suppressor T cells, removing an inhibitory signal and enhancing cell-mediated immunity. Also inhibits CYP450 (1A2, 2D6, 3A4). Famotidine lacks these properties — a differential that cleanly isolates cimetidine's immunomodulatory mechanism. Cimetidine response defines the VIM (viral-immune-metabolic) phenotype.
 

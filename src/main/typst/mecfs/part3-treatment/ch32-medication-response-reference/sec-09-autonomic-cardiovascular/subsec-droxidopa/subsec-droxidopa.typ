@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Droxidopa
+=== Droxidopa <sec:droxidopa>
 
 Norepinephrine prodrug that crosses the blood-brain barrier. It probes central norepinephrine deficiency — a documented CSF catecholamine reduction in ME/CFS @Walitt2024NIH — by supplying the precursor that the body converts into norepinephrine both peripherally and centrally.
 

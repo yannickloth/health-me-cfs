@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Methyl-Donor Support (SAMe, Methylfolate, Methylcobalamin, Choline, Betaine)
+=== Methyl-Donor Support (SAMe, Methylfolate, Methylcobalamin, Choline, Betaine) <sec:methyl-donor>
 
 Methyl donors supply the substrate for DNA and protein methylation. They probe whether HSAT2 pericentromeric satellite-repeat derepression contributes to disease maintenance via loss of DNA methylation — restoring methyl availability could re-silence these repeats. Methyl donors also have well-established independent roles in homocysteine handling and BH4/neurotransmitter synthesis.
 

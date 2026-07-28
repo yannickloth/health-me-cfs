@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Creatine
+=== Creatine <sec:creatine>
 
 Creatine probes the phosphocreatine ATP buffer — a battery backup that regenerates ATP faster than oxidative phosphorylation during bursts of cognitive or physical demand. It does not increase ATP production; it buffers supply against transient spikes in demand.
 

@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Beta-Blockers (Propranolol, Nebivolol)
+=== Beta-Blockers (Propranolol, Nebivolol) <sec:beta-blockers>
 
 Beta-blockers reduce sympathetic tone by blocking β-adrenergic receptors, lowering heart rate and blunting adrenergic drive. They probe whether sympathetic overactivity contributes to symptoms, and — at low doses — whether β2-adrenergic autoantibodies are involved.
 

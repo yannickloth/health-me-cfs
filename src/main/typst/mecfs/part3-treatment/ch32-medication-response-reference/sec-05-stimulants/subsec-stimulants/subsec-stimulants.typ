@@ -1,7 +1,7 @@
 #import "../../../../shared/environments.typ": finding
 
 
-=== CNS Stimulants and Wake-Promoting Agents
+=== CNS Stimulants and Wake-Promoting Agents <sec:cns-stimulants>
 
 All stimulants probe catecholamine (dopamine/norepinephrine) deficiency. Their differences in mechanism, selectivity, and safety create a hierarchy. *All are symptom management* — none address root cause. Hierarchy from safest to most concerning: pitolisant > solriamfetol ≈ modafinil > methylphenidate > amphetamines.
 

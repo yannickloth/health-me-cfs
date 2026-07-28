@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Coenzyme Q10, NADH, D-Ribose, L-Carnitine, Alpha-Lipoic Acid
+=== Coenzyme Q10, NADH, D-Ribose, L-Carnitine, Alpha-Lipoic Acid <sec:mitochondrial-cofactors>
 
 These supplements probe whether energy production failure is a rate-limiting contributor to symptoms. They supply substrates or cofactors to the electron transport chain, bypassing damaged complexes or augmenting residual capacity. Mitochondrial dysfunction is well-documented in ME/CFS; the diagnostic question is "which step is the bottleneck and how much can supplementation compensate?"
 

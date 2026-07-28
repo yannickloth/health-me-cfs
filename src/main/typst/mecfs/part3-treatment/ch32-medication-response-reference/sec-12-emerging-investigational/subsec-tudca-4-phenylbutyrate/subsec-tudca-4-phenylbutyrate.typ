@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== TUDCA / 4-Phenylbutyrate
+=== TUDCA / 4-Phenylbutyrate <sec:tudca>
 
 TUDCA and 4-phenylbutyrate are chemical chaperones that reduce endoplasmic reticulum (ER) stress by stabilizing protein folding and inhibiting the unfolded protein response (UPR). They probe whether ER stress is a significant disease amplifier.
 

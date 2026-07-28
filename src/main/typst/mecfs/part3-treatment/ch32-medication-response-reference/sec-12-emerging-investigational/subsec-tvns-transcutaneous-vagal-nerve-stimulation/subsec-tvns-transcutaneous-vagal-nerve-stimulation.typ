@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== tVNS (transcutaneous Vagal Nerve Stimulation)
+=== tVNS (transcutaneous Vagal Nerve Stimulation) <sec:tvns>
 
 Transcutaneous vagal nerve stimulation stimulates the auricular branch of the vagus nerve, enhancing parasympathetic tone. It probes whether vagal deficiency contributes to inflammation and autonomic dysfunction, and — via its sham comparison — whether muscarinic receptor blockade is present.
 

@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Valacyclovir and Valganciclovir
+=== Valacyclovir and Valganciclovir <sec:valacyclovir-valganciclovir>
 
 Valacyclovir inhibits EBV/VZV/HSV DNA polymerase. Valganciclovir has broader coverage (HHV-6, CMV) and greater potency, but carries a Black Box Warning for bone marrow suppression and is Category C (energy-demanding). Both probe whether active herpesvirus replication contributes to ongoing symptoms.
 

@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== H1 and H2 Antihistamines
+=== H1 and H2 Antihistamines <sec:h1-h2-antihistamines>
 
 Antihistamines probe mast cell activation and histamine-mediated symptoms. H1 blockers (cetirizine, fexofenadine, loratadine, rupatadine) target vascular, neural, and cutaneous histamine effects. H2 blockers (famotidine) target gastric and immune effects. Mast cell stabilizers (ketotifen, cromolyn) prevent degranulation rather than blocking histamine after release.
 

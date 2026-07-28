@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Glycyrrhizin (Licorice Root)
+=== Glycyrrhizin (Licorice Root) <sec:glycyrrhizin>
 
 Glycyrrhizin directly neutralizes HMGB1 — a damage-associated molecular pattern (DAMP) released during cellular stress that drives sterile inflammation. It probes whether HMGB1-mediated DAMP signaling contributes to post-exertional malaise (PEM).
 

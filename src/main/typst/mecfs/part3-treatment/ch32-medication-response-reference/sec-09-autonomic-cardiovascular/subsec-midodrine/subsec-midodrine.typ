@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Midodrine
+=== Midodrine <sec:midodrine>
 
 α1-adrenergic agonist that constricts peripheral veins and arterioles. It probes whether venous pooling or inadequate vasoconstriction is the orthostatic mechanism, because it raises peripheral vascular tone without expanding volume or altering central drive.
 

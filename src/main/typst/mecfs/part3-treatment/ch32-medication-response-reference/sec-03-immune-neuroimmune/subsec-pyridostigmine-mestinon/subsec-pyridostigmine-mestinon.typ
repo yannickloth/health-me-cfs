@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Pyridostigmine (Mestinon)
+=== Pyridostigmine (Mestinon) <sec:pyridostigmine-ch32>
 
 Pyridostigmine inhibits acetylcholinesterase, prolonging acetylcholine at autonomic ganglia, the neuromuscular junction, and vagal immune synapses. Probes preload failure, cholinergic anti-inflammatory pathway, and residual autonomic nerve function. One of the strongest evidence bases: Joseph 2022 iCPET RCT (n=45) showed objective hemodynamic improvement @Joseph2022pyridostigmine, Squires 2023 long-term follow-up (n=37) showed sustained benefit @Squires2023pyridostigmine.
 

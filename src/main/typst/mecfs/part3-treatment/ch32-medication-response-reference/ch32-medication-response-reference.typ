@@ -16,6 +16,9 @@ Every drug response — therapeutic benefit, null response, side effect at a spe
 #include "sec-02e-synthesis-algorithm/sec-02e-synthesis-algorithm.typ"
 #include "sec-02f-pharmacodiagnostic-matrix/sec-02f-pharmacodiagnostic-matrix.typ"
 
+// --- MEDICATION INDEX ---
+#include "sec-02g-medication-index/sec-02g-medication-index.typ"
+
 // --- MEDICATIONS (per system, one section per drug/class) ---
 #include "sec-03-immune-neuroimmune/sec-03-immune-neuroimmune.typ"
 #include "sec-04-antiviral/sec-04-antiviral.typ"

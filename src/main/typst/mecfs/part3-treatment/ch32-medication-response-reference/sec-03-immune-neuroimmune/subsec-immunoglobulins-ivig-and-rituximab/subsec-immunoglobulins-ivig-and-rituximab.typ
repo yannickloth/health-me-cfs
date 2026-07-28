@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Immunoglobulins (IVIG) and Rituximab
+=== Immunoglobulins (IVIG) and Rituximab <sec:ivig-rituximab>
 
 IVIG neutralizes circulating autoantibodies and modulates Fc receptors. Rituximab eliminates CD20+ B cells (autoantibody-producing precursors). Both probe whether humoral autoimmunity is contributing. Both are Category C (energy-demanding), extremely expensive, and require infusion center access.
 

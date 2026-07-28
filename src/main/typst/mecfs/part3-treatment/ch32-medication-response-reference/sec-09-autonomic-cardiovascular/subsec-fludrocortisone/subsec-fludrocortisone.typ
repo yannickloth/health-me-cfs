@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Fludrocortisone
+=== Fludrocortisone <sec:fludrocortisone>
 
 Mineralocorticoid that expands plasma volume via sodium retention. It probes hypovolemia as an orthostatic mechanism: if low circulating volume is limiting venous return, expanding volume should improve tolerance.
 

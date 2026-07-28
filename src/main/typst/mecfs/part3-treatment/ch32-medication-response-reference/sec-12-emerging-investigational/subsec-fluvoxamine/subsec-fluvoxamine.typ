@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": finding
 
-=== Fluvoxamine
+=== Fluvoxamine <sec:fluvoxamine>
 
 At low doses, fluvoxamine is a sigma-1 receptor (S1R) agonist. S1R is an endoplasmic reticulum (ER) chaperone that regulates calcium signaling at mitochondria-associated membranes and modulates the integrated stress response (ISR). Low-dose fluvoxamine therefore probes ER-mitochondrial calcium dysregulation and ISR involvement, separate from its antidepressant (SSRI) action.
 
