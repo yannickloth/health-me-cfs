@@ -10,3 +10,6 @@ The chapter's most radical claim is that a null response is as informative as a 
 #include "subsubsec-02-the-null-ladder-algorithm.typ"
 #include "subsubsec-03-the-patient-specific-null-matrix.typ"
 
+#v(1em)
+*Origin-axis extension:* The null matrix eliminates *mechanisms*. Translating mechanism-level elimination to origin-level elimination — can a patient's null pattern rule out viral, autoimmune, or genetic origin? — requires additional logical scaffolding that the null matrix alone does not provide. This is formalized in @sec:origin-elimination (Chapter 32, sec-02h). In brief: the rituximab null eliminates B-cell-dependent autoantibody production but does not eliminate autoimmune origin — four autoimmune pathways survive the null. The valacyclovir null eliminates ongoing viral replication but does not eliminate viral origin — trigger-only and amplifier models survive. Genetic origin is inherently unfalsifiable by any null pattern. Origin inference requires combining the null matrix with the patient's temporal trajectory and pre-morbid state — an axis not captured by drug-response data alone @Maziarz2024CausalPluralism.
+

@@ -1,6 +1,6 @@
 #import "../../../shared/environments.typ": *
 
-== Gerlier Skeletal Asymmetry 4-Pathway Model
+== Gerlier Skeletal Asymmetry 4-Pathway Model <sec:gerlier-skeletal-asymmetry>
 
 *Certainty: 0.10.* This model was proposed by Colette Marie Gerlier (2026-07-21, personal communication). The entire cascade from skeletal asymmetry → multi-organ dysautonomia has zero direct ME/CFS evidence. Included because (a) it generates specific, low-cost, falsifiable predictions (shoe lift, EOS radiography, COMPASS-31), (b) if validated, a simple mechanical intervention could be disease-modifying, and (c) its 4-pathway convergence on the dopaminergic node provides specific diagnostic logic.
 *Consequence for this entire section:* The 2-week shoe lift trial is the highest-yield probe. If positive (reduced standing PEM, improved COMPASS-31), a mechanical trigger IS contributing. If negative, asymmetry may be non-contributory — direct attention to biochemical/autoimmune hypotheses.

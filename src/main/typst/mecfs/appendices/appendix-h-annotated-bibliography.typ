@@ -31379,3 +31379,150 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     / *Conclusion:*: Modern medicine's emphasis on action and single-time-point measurements fails conditions where abnormalities are only apparent under provocation or across time. Structured observation preserves diagnostic curiosity and allows physiology to express itself without confounding interventions.
     / *Limitations:*: Single patient perspective; narrative, not empirical; no quantitative data.
     / *Certainty:*: 0.30
+
+// =============================================================================
+
+== Pharmacodiagnostic Origin Inference: Epistemology and Methodology
+<sec:bib-pharmacodiagnostic-origin-inference>
+// =============================================================================
+
+=== Maziarz 2024 — Causal Pluralism in Medicine
+
+    / *Full Citation:*: Maziarz M. Causal Pluralism in Medicine and its Implications for Clinical Practice. _Journal for General Philosophy of Science_. 2024;55(3):377--398. @Maziarz2024CausalPluralism
+    / *DOI:*: #link("https://doi.org/10.1007/s10838-023-09658-1")[10.1007/s10838-023-09658-1]
+    / *PMID:*: 39554999
+    / *Study Design:*: Philosophy of medicine analysis
+    / *Key Findings:*:
+        - Three types of causal claims in medicine: manipulationist (RCT), probabilistic (observational epidemiology), mechanistic (laboratory research)
+        - RCTs support intervention therapeutic decisions; observational studies support prediction; mechanistic studies support interference
+        - Each type of causal claim delivers evidence for different types of therapeutic decisions
+    / *Conclusion:*: Causal pluralism constrains what null trials can conclude. A null RCT rules out current manipulable causation but does NOT rule out historical causal roles or mechanistic contributions at sub-threshold levels.
+    / *Pharmacodiagnostic Relevance:*: When rituximab is null in ME/CFS, this rules out B-cell autoantibody production as a currently manipulable cause of symptoms but does NOT rule out a historical autoimmune trigger that has burned out or autoantibodies confined to undetectable subgroups. The distinction between manipulable cause and historical trigger is the key contribution to pharmacodiagnostic origin inference.
+    / *Certainty:*: 0.55 (philosophy; not empirical)
+
+=== De Pretis et al.\ 2019 — E-Synthesis Bayesian Framework
+
+    / *Full Citation:*: De Pretis F, Landes J, Osimani B. E-Synthesis: A Bayesian Framework for Causal Assessment in Pharmacosurveillance. _Frontiers in Pharmacology_. 2019;10:1317. @DePretis2019ESynthesis
+    / *DOI:*: #link("https://doi.org/10.3389/fphar.2019.01317")[10.3389/fphar.2019.01317]
+    / *PMID:*: 31920632
+    / *Study Design:*: Bayesian methodology development with case study application
+    / *Key Findings:*:
+        - Bayesian framework aggregating multiple evidence types (anecdotal reports, case series, RCTs, observational studies) to assess causal probability
+        - Introduces evidential modulators bearing on reliability of incoming study results
+        - Exploits coherence of independent evidence converging toward hypothesis
+        - Integrates heterogeneous data types and methods into single inferential framework
+    / *Conclusion:*: E-Synthesis provides mathematically rigorous infrastructure for formal pharmacodiagnostic inference. Multiple drug-response signals can be integrated into a single posterior probability for each origin hypothesis.
+    / *Pharmacodiagnostic Relevance:*: Methodological backbone for a formal pharmacodiagnostic matrix. If a patient has null response to drug A (targeting mechanism X) but positive response to drug B (targeting mechanism Y), each response updates posterior probability of competing origin hypotheses via Bayesian calculus. Currently no disease uses such a system.
+    / *Certainty:*: 0.60 (rigorous methodology; ERC-funded)
+
+=== Borck and Lohse 2026 — Uncertainty in Precision Medicine
+
+    / *Full Citation:*: Borck C, Lohse S. Sorting out and navigating uncertainty in precision medicine. _History and Philosophy of the Life Sciences_. 2026;48(2):21. @Borck2026UncertaintyPM
+    / *DOI:*: #link("https://doi.org/10.1007/s40656-026-00726-5")[10.1007/s40656-026-00726-5]
+    / *PMID:*: 41876830
+    / *Study Design:*: Philosophy of medicine analysis; Cluster of Excellence Precision Medicine in Chronic Inflammation
+    / *Key Findings:*:
+        - Three uncertainty types: socio-technical, epistemological, ontological
+        - Ontological uncertainty from biological complexity itself is non-transient; cannot be overcome by more data
+        - Precision medicine paradox: more personalized data can increase uncertainty because complexity becomes more visible
+    / *Conclusion:*: Some origin-level questions may be inherently unanswerable via treatment response due to ontological uncertainty.
+    / *Pharmacodiagnostic Relevance:*: If ME/CFS involves multiple parallel pathways, drug responses will be confounded by subset-specific mechanisms, compensatory pathway activation, and non-stationary disease states. The pharmacodiagnostic matrix must acknowledge that some origin inferences may be underdetermined by even complete drug-response data.
+    / *Certainty:*: 0.50 (philosophy; informed by clinical experience)
+
+=== Fischer and Jukola 2026 — Experimental Evidence and Exclusion Reasoning
+
+    / *Full Citation:*: Fischer E, Jukola S. Studying asphyxiation in the lab: the role of experimental evidence in cause-of-death inquiry. _History and Philosophy of the Life Sciences_. 2026;48(1):9. @Fischer2026AsphyxiationExp
+    / *DOI:*: #link("https://doi.org/10.1007/s40656-025-00712-3")[10.1007/s40656-025-00712-3]
+    / *PMID:*: 41553635
+    / *Study Design:*: Philosophy of science analysis (forensic medicine)
+    / *Key Findings:*:
+        - Experimental evidence identifies or excludes potential causes -- not definitive causes
+        - Key function: rebut claims to impossibility; concept of false advertising (mismatch between methodology and goals)
+        - Laboratory evidence constrains but does not determine case-level causation
+    / *Conclusion:*: The logic of exclusion is valid but limited. A null drug trial can eliminate a mechanism as a current disease driver but does not establish what IS driving the disease.
+    / *Pharmacodiagnostic Relevance:*: A null result rules out the specific mechanism the drug targets only if: (1) drug achieves target engagement, (2) the mechanism is necessary for symptom maintenance, and (3) the trial has adequate power. The false advertising concept warns against claiming a null trial eliminates an origin hypothesis when it only tests one downstream mechanism.
+    / *Certainty:*: 0.45 (philosophy; forensic application)
+
+=== Meyer 2026 — Bayesian Methods and Null-Result Interpretation
+
+    / *Full Citation:*: Meyer N. The Contribution of Bayesian Methods in Solving the Paradoxes of Classical Statistical Tests in Biomedical Research. _Journal of Clinical Medicine_. 2026;15(6):2262. @Meyer2026BayesianParadox
+    / *DOI:*: #link("https://doi.org/10.3390/jcm15062262")[10.3390/jcm15062262]
+    / *PMID:*: 41899186
+    / *Study Design:*: Educational/commentary; non-empirical
+    / *Key Findings:*:
+        - Frequentist p-values conflate Fisher and Neyman-Pearson frameworks creating paradoxes in clinical reasoning
+        - p > 0.05 means data compatible with null -- NOT null hypothesis established
+        - Bayesian posterior probability is the correct metric: probability that treatment has no effect is X percent
+    / *Conclusion:*: A null RCT should update posterior probability toward (but never to) certainty of null. The magnitude depends on trial power, prior probability, and coherence with other evidence.
+    / *Pharmacodiagnostic Relevance:*: The Fluge 2019 trial at n=151 has reasonable power making the null fairly informative -- but the posterior cannot reach zero. The correct interpretation is rituximab null reduces posterior probability of B-cell-dependent autoimmune mechanism from prior to posterior instead of rituximab null proves autoimmune mechanism absent.
+    / *Certainty:*: 0.40 (educational; non-empirical)
+
+=== Oea et al.\ 2024 — ME/CFS Clinical Trials Overview
+
+    / *Full Citation:*: Oea N, et al.\ Advancing Research and Treatment: An Overview of Clinical Trials in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) and Future Perspectives. _Journal of Clinical Medicine_. 2024;13(2):325. @Oea2024AdvancingME
+    / *DOI:*: #link("https://doi.org/10.3390/jcm13020325")[10.3390/jcm13020325]
+    / *PMID:*: 38256459
+    / *Study Design:*: Narrative review
+    / *Key Findings:*:
+        - Comprehensive overview of ME/CFS clinical trials
+        - Documents rituximab trajectory: Phase I case series to Phase II positive to Phase III negative
+        - Situates null within broader immunomodulatory landscape (daratumumab, cyclophosphamide, immunoadsorption)
+    / *Conclusion:*: The rituximab null does NOT falsify autoimmune hypothesis broadly -- it specifically eliminates B-cell depletion as effective. Plasma cell targeting (daratumumab) may succeed where B-cell depletion failed.
+    / *Pharmacodiagnostic Relevance:*: If daratumumab (anti-CD38, targeting long-lived plasma cells) shows benefit where rituximab (anti-CD20, targeting B-cells) did not, this refines pharmacodiagnostic inference: autoantibodies ARE relevant but from CD20-negative plasma cells, not B-cells.
+    / *Certainty:*: 0.50 (narrative review; no new data)
+
+=== Sepúlveda et al.\ 2024 — EBV IgG Responses and Antigenic Mimicry
+
+    / *Full Citation:*: Sepúlveda M, et al.\ IgG Antibody Responses to Epstein-Barr Virus in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Their Effective Potential for Disease Diagnosis and Pathological Antigenic Mimicry. _Medicina_. 2024;60(1):161. @Sepulveda2024IgGME
+    / *DOI:*: #link("https://doi.org/10.3390/medicina60010161")[10.3390/medicina60010161]
+    / *PMID:*: 38256421
+    / *Study Design:*: Case-control immunoprofiling
+    / *Key Findings:*:
+        - EBV IgG responses in ME/CFS show distinct patterns vs healthy controls supporting antigenic mimicry
+        - Elevated EBV antibodies do NOT necessarily indicate ongoing viral replication; may reflect persistent immune memory or mimicry-driven autoreactivity
+    / *Conclusion:*: EBV antibody elevation in ME/CFS is compatible with both viral persistence AND post-infectious autoimmunity. Distinguishing between these requires treatment response data.
+    / *Pharmacodiagnostic Relevance:*: If EBV antibodies elevated but valacyclovir (anti-EBV) is null, this supports antigenic mimicry over active viral replication as origin. If valganciclovir (broader spectrum) responds in subset, this suggests HHV-6 or CMV specifically rather than EBV.
+    / *Certainty:*: 0.55 (case-control; single study)
+
+=== Rekeland et al.\ 2024 — Six-Year Follow-up of Rituximab/Cyclophosphamide Trials
+
+    / *Full Citation:*: Rekeland IG, Sørland K, Neteland LL, Fosså A, Alme K, Risa K, Dahl O, Tronstad KJ, Mella O, Fluge Ø. Six-year follow-up of participants in two clinical trials of rituximab or cyclophosphamide in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _PLoS One_. 2024;19(7):e0307484. @Rekeland2024SixYrFollowup
+    / *DOI:*: #link("https://doi.org/10.1371/journal.pone.0307484")[10.1371/journal.pone.0307484]
+    / *PMID:*: 39042627
+    / *PMCID:*: PMC11265720
+    / *Study Design:*: Long-term follow-up of completed RCTs
+    / *Sample Size:*: n=151 (Fluge 2019 + cyclophosphamide trial participants)
+    / *Key Findings:*:
+        - At six-year follow-up, no divergence between rituximab vs placebo groups
+        - No long-term benefit from having received rituximab during the trial period
+        - Eliminates hypothesis that clinical benefits from B-cell depletion could emerge years after treatment
+    / *Conclusion:*: B-cell depletion produces no delayed or long-term benefit in ME/CFS. The null at 24 months (Fluge 2019) is not due to insufficient follow-up duration.
+    / *Pharmacodiagnostic Relevance:*: Strengthens origin-level inference from the rituximab null. Combined with daratumumab pilot (Fluge 2025, targeting CD38+ plasma cells): if daratumumab succeeds where rituximab failed, relevant autoantibody-producing cells are CD20-negative long-lived plasma cells.
+    / *Certainty:*: 0.70 (long follow-up; full original cohort; PLoS One)
+
+=== Weipert et al.\ 2025 — RAPID Adaptive Platform Trial Protocol
+
+    / *Full Citation:*: Weipert L, Telgmann RG, Anton G, et al.\ Randomized adaptive assessment of post COVID syndrome treatments (RAPID): a study protocol for a multicenter, randomized, controlled adaptive platform trial of treatment options for Post Covid Syndrome (PCS) including the first intervention specific appendix RAPID\_REVIVE. _Trials_. 2025;26(1):297. @Weipert2025RAPID
+    / *DOI:*: #link("https://doi.org/10.1186/s13063-025-09008-0")[10.1186/s13063-025-09008-0]
+    / *PMID:*: 40830806
+    / *Study Design:*: Clinical trial protocol (adaptive platform design)
+    / *Key Findings:*:
+        - Master protocol for adaptive platform trial testing multiple PCS treatments; first ISA tests antiviral vidofludimus calcium vs placebo
+        - Primary outcome: SF-36 Physical Function change from baseline to day 56
+        - Response-adaptive randomization after initialization phase
+    / *Conclusion:*: Protocol only -- no efficacy results. Platform design enables testing multiple treatments simultaneously, producing multi-drug response data to constrain origin inference. If antiviral is null in PCS patients meeting ME/CFS criteria, this constrains viral persistence hypothesis.
+    / *Pharmacodiagnostic Relevance:*: Platform trial architecture is the design needed for a proper pharmacodiagnostic matrix: multiple drugs tested in parallel against common control producing cross-drug response comparisons and origin inferences. Demonstrates this is feasible in post-infectious fatigue syndromes.
+    / *Certainty:*: 0.40 (protocol only; no results)
+
+=== Wormgoor et al.\ 2026 — Wheat and Chaff in ME/CFS
+
+    / *Full Citation:*: Wormgoor M, et al.\ Wheat and chaff in Myalgic Encephalomyelitis/Chronic fatigue syndrome (ME/CFS) in clinics and laboratory. _Journal of Translational Medicine_. 2026;24. @Wormgoor2026Chaff
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-025-07397-z")[10.1186/s12967-025-07397-z]
+    / *PMID:*: 41491817
+    / *Study Design:*: Critical review / opinion
+    / *Key Findings:*:
+        - Systematic separation of evidence-based from speculative claims in ME/CFS diagnostics and therapy
+        - Wheat and chaff framing applied to both clinical and laboratory claims
+    / *Conclusion:*: Significant portion of ME/CFS clinical claims lack adequate evidence. Pharmacodiagnostic inference must distinguish treatment responses that genuinely narrow mechanism from those confounded by placebo or natural history.
+    / *Pharmacodiagnostic Relevance:*: The pharmacodiagnostic matrix must include quality filters for which drug responses count as evidence. Some responses are informative (true wheat) while others are noise (chaff).
+    / *Certainty:*: 0.35 (opinion/review; no empirical data)
