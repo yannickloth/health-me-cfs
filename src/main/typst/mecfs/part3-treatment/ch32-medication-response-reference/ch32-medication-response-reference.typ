@@ -18,6 +18,9 @@ Every drug response — therapeutic benefit, null response, side effect at a spe
 #include "sec-02h-origin-elimination/sec-02h-origin-elimination.typ"
 #include "sec-02i-null-subtyping/sec-02i-null-subtyping.typ"
 
+// --- REFERENCE TABLE (prominent early placement for rapid system-probe lookup) ---
+#include "sec-02j-reference-table/sec-02j-reference-table.typ"
+
 // --- MEDICATION INDEX ---
 #include "sec-02g-medication-index/sec-02g-medication-index.typ"
 
@@ -32,6 +35,5 @@ Every drug response — therapeutic benefit, null response, side effect at a spe
 #include "sec-10-electrolytes/sec-10-electrolytes.typ"
 #include "sec-11-sleep-pain/sec-11-sleep-pain.typ"
 #include "sec-12-emerging-investigational/sec-12-emerging-investigational.typ"
-#include "sec-13-reference-table/sec-13-reference-table.typ"
-#include "sec-14-hormetic-dose-range-reference/sec-14-hormetic-dose-range-reference.typ"
+#include "sec-13-hormetic-dose-range-reference/sec-13-hormetic-dose-range-reference.typ"
 
