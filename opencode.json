@@ -42,7 +42,12 @@
       }
     },
     "tikz-validator": {
-      "model": "kimi-for-coding/k2p7"
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      }
     },
     "test-runner": {
       "model": "deepseek/deepseek-v4-flash",
@@ -198,7 +203,12 @@
       }
     },
     "ci-build-fixer": {
-      "model": "kimi-for-coding/kimi-for-coding-highspeed"
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      }
     },
     "config-auditor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -390,10 +400,20 @@
       }
     },
     "tikz-illustrator": {
-      "model": "kimi-for-coding/k2p7"
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      }
     },
     "typst-illustrator": {
-      "model": "kimi-for-coding/k2p7"
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      }
     },
     "formalization-advisor": {
       "model": "deepseek/deepseek-v4-pro",
@@ -585,13 +605,28 @@
       }
     },
     "typst-diagram-checker": {
-      "model": "kimi-for-coding/k2p7"
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      }
     },
     "diagram-accuracy-auditor": {
-      "model": "kimi-for-coding/k2p7"
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      }
     },
     "diagram-consistency-auditor": {
-      "model": "kimi-for-coding/k2p7"
+      "model": "deepseek/deepseek-v4-flash",
+      "options": {
+        "thinking": {
+          "type": "disabled"
+        }
+      }
     },
     "svg-illustrator": {
       "model": "kimi-for-coding/k2p7"
