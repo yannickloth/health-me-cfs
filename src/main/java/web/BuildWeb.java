@@ -384,6 +384,7 @@ String rewriteSegment(String text, Pattern tokenPat, Map<String, String[]> regis
         if (target != null) {
             var link = relLink(qmd, Path.of(target[1]), id);
             var label = target[2] == null || target[2].isBlank() ? humanize(prefix, id) : target[2];
+            if (label.contains("/home/") || label.startsWith("/")) label = humanize(prefix, id);
             replacement = "[" + label + "](" + link + ")";
         } else {
             missing.add(id);
@@ -395,21 +396,27 @@ String rewriteSegment(String text, Pattern tokenPat, Map<String, String[]> regis
     return sb.toString();
 }
 
-String relLink(Path fromQmd, Path toQmd, String id) {
-    if (fromQmd.toAbsolutePath().normalize().equals(toQmd.toAbsolutePath().normalize())) {
-        return "#" + id;
+    String relLink(Path fromQmd, Path toQmd, String id) {
+        var fromAbs = fromQmd.toAbsolutePath().normalize();
+        var toAbs = toQmd.toAbsolutePath().normalize();
+        if (fromAbs.equals(toAbs)) {
+            return "#" + id;
+        }
+        var rel = fromAbs.getParent()
+            .relativize(toAbs).normalize().toString();
+        rel = rel.replace(File.separatorChar, '/');
+        if (!rel.endsWith(".qmd") && !rel.endsWith(".html")) {
+            rel = rel + ".html";
+        }
+        rel = rel.replaceFirst("\\.qmd$", ".html");
+        return rel + "#" + id;
     }
-    var rel = fromQmd.toAbsolutePath().getParent()
-        .relativize(toQmd.toAbsolutePath()).normalize().toString();
-    rel = rel.replace(File.separatorChar, '/');
-    rel = rel.replaceFirst("\\.qmd$", ".html");
-    return rel + "#" + id;
-}
 
-String humanize(String prefix, String id) {
-    var body = id.substring(prefix.length() + 1).replace('-', ' ').replace('_', ' ').strip();
-    return body.isEmpty() ? id : body;
-}
+    String humanize(String prefix, String id) {
+        var body = id.substring(prefix.length() + 1).replace('-', ' ').replace('_', ' ').strip();
+        if (body.contains("/") || body.startsWith("home/")) return id;
+        return body.isEmpty() ? id : body;
+    }
 
 HashMap<Path, String> resolvedCache = new HashMap<>();
 

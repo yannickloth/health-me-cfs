@@ -22,6 +22,7 @@ final class RegexConversion implements TypstToQmd {
         src = stripLetBlocks(src);
         src = src.replaceAll("(?m)^#set\\b.*$\\n?", "");
         src = src.replaceAll("(?m)^#show\\b.*$\\n?", "");
+        src = stripShowRuleBodies(src);
         src = src.replaceAll("(?m)^[/.]+figures/fig-[^\"]*\\.typ\"?\\s*$\\n?", "");
         src = src.replaceAll("#include\\s+\"([^\"]*)figures/(fig-[^\"]+)\\.typ\"", "![$2](../../figures/$2.svg)");
         src = src.replaceAll("(?m)^#include.*$\\n?", "");
@@ -90,6 +91,9 @@ final class RegexConversion implements TypstToQmd {
         src = src.replaceAll("#pad\\([^)]*\\)\\[", "");
         src = src.replaceAll("#align\\(center,\\s*", "");
         src = src.replaceAll("#align\\(\\s*", "");
+        src = src.replaceAll("\\)\\[(?=\\n*:::)", "");
+        src = src.replaceAll("\\)\\[\\s*$", "");
+        src = src.replaceAll("\\bcenter\\)\\s*\\[", "");
 
         src = src.replaceAll("#strong\\[([^\\]]+?)\\]", "**$1**");
         src = src.replaceAll("#emph\\[([^\\]]+?)\\]", "*$1*");
@@ -103,12 +107,18 @@ final class RegexConversion implements TypstToQmd {
         src = src.replaceAll("#link\\(\"([^\"]+)\"\\)\\[([^\\]]+?)\\]", "[$2]($1)");
         src = src.replaceAll("#link\\(\"([^\"]+)\"\\)", "<$1>");
         src = src.replaceAll("#link\\(<([^>]+)>\\)\\[([^\\]]+?)\\]", "[$2](#$1)");
+        src = src.replaceAll("#link\\(([^,]+),\\s*([^)]+)\\)", "[$2]($1)");
+        src = src.replaceAll("#doc-date\\.display\\(\"[^\"]+\"\\)", "");
+        src = src.replaceAll("#doc-date\\.year\\(\\)", "");
+        src = src.replaceAll("#str\\([^)]+\\)", "");
 
         src = convertFootnotes(src);
         src = src.replaceAll("#line\\([^)]*\\)", "\n---\n");
         src = src.replaceAll("#h\\([^)]*\\)", " ");
         src = src.replaceAll("#v\\([^)]*\\)", "\n");
+        src = convertSymTokens(src);
         src = src.replaceAll("#block\\([^)]*\\)\\[", "");
+        src = src.replaceAll("#block\\[", "");
         src = src.replaceAll("(?m)^\\[style=nextline\\]\\s*$\\n?", "");
         src = quoteToBlockquote(src);
 
@@ -165,9 +175,29 @@ final class RegexConversion implements TypstToQmd {
         src = encloseEnv(src, "consistency-check",      "note",     "Consistency Check","");
 
         src = encloseNoTitle(src, "proof", "note", "Proof");
+        src = encloseNoTitle(src, "proposal", "note", "Proposal");
+        src = encloseNoTitle(src, "open-question", "note", "Open Question");
+        src = encloseNoTitle(src, "limitation", "warning", "Limitation");
+        src = encloseNoTitle(src, "practical-warning", "warning", "Practical Warning");
+        src = encloseNoTitle(src, "recommendation", "tip", "Recommendation");
+        src = encloseNoTitle(src, "observation", "note", "Observation");
+        src = encloseNoTitle(src, "synthesis", "tip", "Synthesis");
+        src = encloseNoTitle(src, "speculation", "caution", "Speculation");
+        src = encloseNoTitle(src, "hypothesis", "important", "Hypothesis");
+        src = encloseNoTitle(src, "clinical-finding", "note", "Clinical Finding");
+        src = encloseNoTitle(src, "prediction", "note", "Prediction");
+        src = encloseNoTitle(src, "model-insight", "note", "Model Insight");
+        src = encloseNoTitle(src, "definition", "note", "Definition");
+        src = encloseNoTitle(src, "direction", "note", "Research Direction");
+        src = encloseNoTitle(src, "requirement", "important", "Requirement");
+        src = encloseNoTitle(src, "protocol", "note", "Protocol");
+        src = encloseNoTitle(src, "warning-env", "caution", "Warning");
+        src = encloseNoTitle(src, "achievement", "tip", "Achievement");
+        src = encloseNoTitle(src, "key-point", "tip", "Key Point");
         src = src.replaceAll("#chapter-abstract\\[", "\n\n::: {.callout-note}\n### Chapter Abstract\n\n");
         src = src.replaceAll("(?m)^\\]\\s+(<[a-z][\\w:\\.-]*>)\\s*$", "$1");
         src = src.replaceAll("(?m)^\\].*$", "");
+        src = src.replaceAll("(?m)^\\[(=|/|-)[^]]*\\],.*$", "");
         src = src.replaceAll("#sub\\[(.+?)\\]", "~$1~");
         src = src.replaceAll("#super\\[(.+?)\\]", "^$1^");
 
@@ -582,6 +612,43 @@ final class RegexConversion implements TypstToQmd {
             }
         }
         return sb.toString();
+    }
+
+    String convertSymTokens(String s) {
+        return s
+            .replace("#sym.plus.minus", "±")
+            .replace("#sym.arrow.r", "→")
+            .replace("#sym.arrow.l", "←")
+            .replace("#sym.arrow.t", "↑")
+            .replace("#sym.arrow.b", "↓")
+            .replace("#sym.arrow.r.double", "⇒")
+            .replace("#sym.arrow.double.r", "⇒")
+            .replace("#sym.arrow.double.l", "⇐")
+            .replace("#sym.arrow.l.r", "↔")
+            .replace("#sym.beta", "β")
+            .replace("#sym.alpha", "α")
+            .replace("#sym.gamma", "γ")
+            .replace("#sym.delta", "δ")
+            .replace("#sym.mu", "μ")
+            .replace("#sym.lt.eq", "≤")
+            .replace("#sym.gt.eq", "≥")
+            .replace("#sym.approx", "≈")
+            .replace("#sym.lt", "<")
+            .replace("#sym.gt", ">")
+            .replace("#sym.times", "×")
+            .replace("#sym.percent", "%")
+            .replace("#sym.xmark", "✗")
+            .replace("#sym.checkmark", "✓")
+            .replace("#sym.bullet", "•")
+            .replace("#sym.arrow", "→")
+            .replace("#sym.gt.double", "»")
+            .replace("#sym.lt.double", "«")
+            .replace("#sym.gt.eq", "≥")
+            .replace("#sym.dot.op", "·")
+            .replace("#sym.times.op", "×")
+            .replace("#sym.eq.not", "≠")
+            .replace("#sym.nothing", "∅")
+            .replace("#sym.infinity", "∞");
     }
 
     String convertFootnotes(String s) {
@@ -1527,6 +1594,42 @@ final class RegexConversion implements TypstToQmd {
         if (sb.length() > 0 && sb.charAt(sb.length() - 1) == '\n'
                 && (src.isEmpty() || src.charAt(src.length() - 1) != '\n')) {
             sb.deleteCharAt(sb.length() - 1);
+        }
+        return sb.toString();
+    }
+
+    String stripShowRuleBodies(String src) {
+        var sb = new StringBuilder();
+        int i = 0;
+        while (i < src.length()) {
+            int pos = src.indexOf("#show", i);
+            if (pos < 0) { sb.append(src.substring(i)); break; }
+            int lineEnd = src.indexOf('\n', pos);
+            int arrowPos = src.indexOf("=>", pos);
+            if (arrowPos < 0 || (lineEnd >= 0 && arrowPos > lineEnd)) {
+                sb.append(src, i, lineEnd + 1);
+                i = lineEnd + 1;
+                continue;
+            }
+            sb.append(src, i, pos);
+            int afterArrow = arrowPos + 2;
+            while (afterArrow < src.length() && Character.isWhitespace(src.charAt(afterArrow))) afterArrow++;
+            int bodyEnd;
+            if (afterArrow < src.length() && src.charAt(afterArrow) == '{') {
+                int depth = 1;
+                bodyEnd = afterArrow + 1;
+                while (bodyEnd < src.length() && depth > 0) {
+                    char c = src.charAt(bodyEnd);
+                    if (c == '{') depth++;
+                    else if (c == '}') depth--;
+                    bodyEnd++;
+                }
+            } else {
+                bodyEnd = src.indexOf('\n', afterArrow);
+                if (bodyEnd < 0) bodyEnd = src.length();
+            }
+            if (bodyEnd < src.length() && src.charAt(bodyEnd) == '\n') bodyEnd++;
+            i = bodyEnd;
         }
         return sb.toString();
     }
