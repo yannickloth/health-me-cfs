@@ -1,7 +1,6 @@
 #import "../../../../shared/environments.typ": *
 
-==== The Sequential Ordering Principle — Which Drug First?
-  <sec:sequential-ordering-principle>
+==== The Sequential Ordering Principle — Which Drug First? <sec:sequential-ordering-principle>
 
 *Certainty: 0.20.* The ordering below is a mechanistic inference framework combining pharmacology (drug half-life, metabolic cost, receptor breadth) with clinical heuristics (cost, accessibility). No prospective study validates the ordering principle for ME/CFS specifically. It should be treated as a clinical reasoning scaffold, not a validated protocol. (Origin: brainstorm)
 

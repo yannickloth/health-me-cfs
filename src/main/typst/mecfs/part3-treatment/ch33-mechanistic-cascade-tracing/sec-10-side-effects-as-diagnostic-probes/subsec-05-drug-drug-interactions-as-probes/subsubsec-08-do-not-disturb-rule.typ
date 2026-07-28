@@ -1,7 +1,6 @@
 #import "../../../../shared/environments.typ": *
 
-==== The "Do Not Disturb" Rule — When to Stop
-  <sec:do-not-disturb-rule>
+==== The "Do Not Disturb" Rule — When to Stop <sec:do-not-disturb-rule>
 
 *Certainty: 0.20.* These stopping conditions are clinical heuristics derived from the side-effect diagnostic patterns (Patterns 1--5, @sec:side-effects-diagnostic) and the PEM budget constraint (@sec:pem-budget-constraint). None has been validated prospectively in ME/CFS pharmacodiagnostic trials. They represent a safety-first clinical reasoning scaffold — the cost of a false stop (failing to find the right drug) is lower than the cost of a false continue (triggering PEM from a futile trial). (Origin: brainstorm)
 
