@@ -338,7 +338,7 @@
   .gt-pop {
     position: fixed;
     z-index: 99999;
-    max-inline-size: min(90vw, 360px);
+    max-inline-size: min(90vw, 520px);
     background: #f8fafc;
     border: 1px solid #cbd5e1;
     border-radius: 8px;
@@ -356,6 +356,8 @@
     pointer-events: none;
     overflow-wrap: break-word;
     word-break: break-word;
+    max-block-size: min(80vh, 600px);
+    overflow-y: auto;
   }
 
   .gt-show {
