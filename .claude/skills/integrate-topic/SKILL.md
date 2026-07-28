@@ -1055,7 +1055,7 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 
 **Agent:** main session | **Model:** haiku (mechanical check — cheap)
 
-**Purpose:** Scan newly added prose for undefined acronyms, medication names, and key terms that lack a tooltip entry in `web/glossary.json`. Prevent new content from introducing orphaned terminology that readers can't hover-to-explain.
+**Purpose:** Scan newly added prose for undefined acronyms, medication names, and key terms that lack a tooltip entry in `src/main/typst/mecfs/lib/glossary.json`. Prevent new content from introducing orphaned terminology that readers can't hover-to-explain.
 
 **Trigger:** Always run after Phase 5a (content final). Skips if no `.qmd` or `.typ` files were modified in Phases 3–5.
 
@@ -1070,7 +1070,7 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
    ```
    Also grep for medication/generic names and long technical terms (lowercase, multi-word) that appear in the new prose.
 
-2. Cross-check against `web/glossary.json` keys:
+2. Cross-check against `src/main/typst/mecfs/lib/glossary.json` keys:
    ```bash
    python3 -c "
    import json
@@ -1090,7 +1090,7 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
    - Skip: file-extensions-as-words (.PDF, .CSV)
    - Keep only: biomedical acronyms, medication names, methodological/statistical abbreviations, disease names, anatomical abbreviations, gene/protein symbols, pathway names
 
-4. **For each remaining term, add to `web/glossary.json`:**
+4. **For each remaining term, add to `src/main/typst/mecfs/lib/glossary.json`:**
    - `label`: the term itself
    - `category`: classify (medication, supplement, enzyme, pathway, condition, measurement, method, etc.)
    - `definition`: one-sentence explanation accessible to an educated non-specialist

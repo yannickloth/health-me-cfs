@@ -281,6 +281,14 @@ void main(String[] args) throws IOException, InterruptedException {
     }
     System.out.println("  " + jsCount + " file(s) copied");
 
+    // --- glossary.json ---
+    System.out.println();
+    System.out.println("=== glossary.json ===");
+    var glossarySrc = srcRoot.resolve("lib/glossary.json");
+    var glossaryDst = webRoot.resolve("glossary.json");
+    copy(glossarySrc, glossaryDst, REPLACE_EXISTING);
+    System.out.println("  lib/glossary.json -> web/glossary.json");
+
     System.out.println();
     System.out.println("Next: quarto render");
 }

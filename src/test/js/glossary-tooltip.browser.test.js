@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = process.cwd();
 
-const gloss = JSON.parse(readFileSync(join(PROJECT_ROOT, 'web/glossary.json'), 'utf8'));
+const gloss = JSON.parse(readFileSync(join(PROJECT_ROOT, 'src/main/typst/mecfs/lib/glossary.json'), 'utf8'));
 const pageHtml = readFileSync(join(__dirname, 'test-page.html'), 'utf8');
 const glossaryJs = readFileSync(join(PROJECT_ROOT, 'src/main/js/glossary-tooltip.js'), 'utf8');
 const stylesCss = readFileSync(join(PROJECT_ROOT, 'web/styles.css'), 'utf8');

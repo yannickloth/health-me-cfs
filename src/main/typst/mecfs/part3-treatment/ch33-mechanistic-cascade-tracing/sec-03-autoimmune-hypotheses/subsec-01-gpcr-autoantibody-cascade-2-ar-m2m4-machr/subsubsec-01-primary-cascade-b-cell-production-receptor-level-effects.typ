@@ -20,7 +20,7 @@
   - *BC007 works where IA fails:* The relevant AAbs are IgG3 subclass (not removed by protein A columns) or IgA (protein A has low IgA affinity). BC007's aptamer binding is subclass-independent.
   - *IA works where BC007 fails:* The AAb target is not among BC007's aptamer panel (β1-AR, β2-AR, M2, α1-AR, AT1R, ETA) — the pathogenic AAb targets a different GPCR (M4 mAChR, angiotensin-1 receptor, endothelin receptor, or a non-GPCR target). IA removes broadly by immunoglobulin class; BC007 is target-specific.
   - *Both IA and BC007 null:* Either (a) GPCR AAbs are absent (confirm by pre-treatment AAb panel), (b) GPCR AAbs are present but not rate-limiting — downstream tissue damage is irreversible (fibrosis, neuronal loss, epigenetic consolidation), or (c) the pathogenic AAbs are IgM and not removed by IA protein A OR not neutralized by BC007's DNA aptamers.
-- *If none of the above works:* GPCR autoantibodies are either absent, non-pathogenic, or not rate-limiting. See Germain 2025 @Germain2025autoantibody for assay discordance. A null across all four probes effectively excludes IgG GPCR AAb as the dominant mechanism.
+#finding(claim: [GPCR IgG AAb are not the dominant mechanism], explanation: [Null response across all four probes (rituximab, daratumumab, IA, BC007) effectively excludes IgG GPCR autoantibodies as rate-limiting. Autoantibodies may be absent, non-pathogenic, or downstream of irreversible tissue damage.], certainty: [Medium], level: [Partial root cause])
 
 *Step I2:* β2-AR desensitization/internalization (receptor-level — vascular, metabolic, mast cell)
 - *Three downstream consequences of β2-AR dysfunction:*

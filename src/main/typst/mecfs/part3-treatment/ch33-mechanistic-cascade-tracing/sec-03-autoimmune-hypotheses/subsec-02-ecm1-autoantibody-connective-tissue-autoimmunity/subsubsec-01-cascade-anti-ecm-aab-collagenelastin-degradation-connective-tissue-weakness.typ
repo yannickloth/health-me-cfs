@@ -9,7 +9,7 @@
 
 *Step J2:* Impaired collagen crosslinking (ECM-level)
 - *Intercept:* Vitamin C (500--2000 mg/day; ascorbic acid, prolyl hydroxylase cofactor, antioxidant) — prolyl hydroxylase cofactor; Copper (trace mineral; lysyl oxidase cofactor for collagen crosslinking) — LOX cofactor; Glycine + proline (amino acid substrates; collagen synthesis) — collagen substrate; Circadian-timed (prolyl hydroxylase circadian optimization model, @sec:safe-mode)
-- *If timed vitamin C + glycine works:* Collagen crosslinking is impaired but biosynthetically rescuable.
+#finding(claim: [Collagen crosslinking is impaired but biosynthetically rescuable], explanation: [Timed vitamin C plus glycine response confirms impaired collagen crosslinking that can be rescued by providing prolyl hydroxylase cofactor and collagen amino acid substrate precursors.], certainty: [Medium], level: [Partial root cause])
 
 *Step J3:* ECM degradation (MMP-driven)
 - *Intercept:* Doxycycline (low-dose, 20 mg BID; tetracycline antibiotic, MMP-9 inhibitor at subantimicrobial dose) — MMP-9 inhibitor; Ketotifen (mast cell stabilizer) — reduces mast cell tryptase→MMP; DMF (dimethyl fumarate; Nrf2 activator, immunomodulator) — reduces HIF-1α-driven MMP-3
