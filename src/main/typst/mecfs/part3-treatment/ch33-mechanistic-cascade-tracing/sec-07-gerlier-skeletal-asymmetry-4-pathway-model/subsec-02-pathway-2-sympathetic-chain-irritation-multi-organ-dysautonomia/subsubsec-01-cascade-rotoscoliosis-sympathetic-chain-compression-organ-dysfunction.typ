@@ -10,7 +10,7 @@
 
 *Step G2a:* Sympathetic chain compression
 - *Intercept:* Shoe lift / postural correction; Osteopathic manipulation (CAUTION — unstable CCI)
-- *If shoe lift improves COMPASS-31:* Mechanical compression of sympathetic chain was driving autonomic dysfunction. Gerlier Pathway 2-specific evidence.
+#finding(claim: [Shoe lift improves COMPASS-31 — sympathetic chain compression driving autonomic dysfunction], explanation: [Mechanical correction of rotoscoliosis reduces compression of the sympathetic chain, confirming that autonomic dysfunction is mechanically driven (Gerlier Pathway 2-specific evidence).], certainty: [Low], level: [Partial root cause — mechanical sympathetic compression])
 
 *Step G2b:* Organ-specific dysautonomia
 - *Intercept:* Pyridostigmine (acetylcholinesterase inhibitor; peripheral cholinergic) — enhances remaining cholinergic tone in GI; Domperidone (peripheral D2 receptor antagonist; prokinetic); Midodrine (α1-adrenergic receptor agonist; vasoconstrictor) for cardiac

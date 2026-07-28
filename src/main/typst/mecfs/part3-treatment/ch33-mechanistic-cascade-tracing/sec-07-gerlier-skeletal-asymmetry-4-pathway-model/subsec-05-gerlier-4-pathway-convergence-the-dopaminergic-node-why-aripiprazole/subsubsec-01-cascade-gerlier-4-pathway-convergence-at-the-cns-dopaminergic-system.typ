@@ -8,15 +8,20 @@ Pathway 4 (functional CCI) → brainstem compression → ascending dopaminergic 
 
 *Step Z1:* The dopaminergic convergence node
 - *Intercept:* Aripiprazole (low-dose, 0.25--2 mg; D2/D3 partial agonist) — D2/D3 partial agonist; Amantadine (dopamine releaser; NMDA antagonist); Methylphenidate (DAT/NET inhibitor; NDRI)
-- *If aripiprazole works:* The dopaminergic node IS the bottleneck. The lesion is at or above the dopamine receptor level.
-- *If aripiprazole does NOT work:* The bottleneck is BELOW the dopamine receptor. Either presynaptic (synthesis, DAT), downstream signaling (cAMP/PKA), or upstream in a non-dopaminergic Gerlier pathway.
+#finding(claim: [Aripiprazole works — dopaminergic node is the bottleneck], explanation: [Response to D2/D3 partial agonism confirms the lesion is at or above the dopamine receptor level. The dopaminergic convergence node is rate-limiting for symptom expression.], certainty: [Low], level: [Partial root cause — dopaminergic dysfunction])
+
+#finding(claim: [Aripiprazole does NOT work — bottleneck below dopamine receptor], explanation: [Non-response implicates a lesion below the dopamine receptor: presynaptic (dopamine synthesis, DAT function), downstream signaling (cAMP/PKA), or a non-dopaminergic Gerlier pathway (ATP depletion, autonomic/vascular, mechanical pain).], certainty: [Low], level: [Symptom management — non-dopaminergic driver])
 
 *Step Z2:* Distinguishing which pathway drives the dopaminergic deficit
-- *If aripiprazole works AND shoe lift works AND midodrine works → Pathway 2 (sympathetic chain) confirmed.*
-- *If aripiprazole works AND shoe lift does NOT work → non-Gerlier dopamine driver, or Pathway 3/4.*
-- *If aripiprazole works AND cervical bracing works → Pathway 4 (functional CCI) likely.*
-- *If aripiprazole works AND LDN works → Shared neuroinflammatory convergence.*
-- *If aripiprazole does NOT work but shoe lift works:* Gerlier drives symptoms through non-dopaminergic pathway (direct ATP depletion, autonomic/vascular, or mechanical pain).
+#finding(claim: [Aripiprazole + shoe lift + midodrine all work — confirmed Pathway 2 (sympathetic chain)], explanation: [Triple response confirms the Gerlier model: skeletal asymmetry drives sympathetic chain compression (midodrine-responsive), which is the specific pathway.], certainty: [Low], level: [Partial root cause — confirmed mechanical→sympathetic pathway])
+
+#finding(claim: [Aripiprazole works but shoe lift does NOT — non-Gerlier dopamine driver], explanation: [Dopamine dysfunction is present but not driven by skeletal asymmetry. Consider Pathway 3 (nerve compression) or 4 (functional CCI), or a non-Gerlier dopamine hypothesis (neuroinflammation, GPCR AAb).], certainty: [Low], level: [Symptom management — dopamine-responsive, non-mechanical driver])
+
+#finding(claim: [Aripiprazole works AND cervical bracing works — Pathway 4 (functional CCI) likely], explanation: [Combined dopamine response and mechanical cervical stabilization points to functional CCI as the upstream driver of dopaminergic dysfunction via brainstem compression.], certainty: [Low], level: [Partial root cause — functional CCI→dopamine])
+
+#finding(claim: [Aripiprazole works AND LDN works — shared neuroinflammatory convergence], explanation: [Both D2/D3 partial agonism and TLR4 antagonism improve symptoms, suggesting neuroinflammation drives the dopaminergic deficit via microglial cytokine-mediated dopamine suppression.], certainty: [Low], level: [Partial root cause — neuroinflammatory→dopaminergic])
+
+#finding(claim: [Aripiprazole does NOT work but shoe lift works — non-dopaminergic Gerlier pathway], explanation: [Gerlier drives symptoms through a non-dopaminergic mechanism: direct ATP depletion (Pathway 1), autonomic/vascular effects (Pathway 2), or mechanical pain (Pathway 3). Dopamine modulation cannot compensate.], certainty: [Low], level: [Partial root cause — non-dopaminergic mechanical driver])
 
 *Step Z3:* What a null aripiprazole response means
 A patient with documented skeletal asymmetry and aripiprazole non-response has one of: (1) ATP drain so severe dopamine modulation cannot compensate; (2) sympathetic compression → cardiovascular/vascular autonomic dysfunction, not dopaminergic; (3) pain → nociceptive-level, not dopaminergic, treatment needed; (4) asymmetry is present but non-contributory.
