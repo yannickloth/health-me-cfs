@@ -11,4 +11,6 @@
 #include "subsubsec-04-sequential-ordering-as-causal-probe.typ"
 #include "subsubsec-05-prerequisite-and-contraindicated-combinations.typ"
 #include "subsubsec-06-contraindication-ladder.typ"
+#include "subsubsec-07-sequential-ordering-principle.typ"
+#include "subsubsec-08-do-not-disturb-rule.typ"
 

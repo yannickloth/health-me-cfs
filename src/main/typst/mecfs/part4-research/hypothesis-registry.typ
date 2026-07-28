@@ -4933,5 +4933,33 @@ This registry collects all hypotheses, speculations, open questions, and predict
   chapter-ref: [ch33: subsec-04 subsubsec-03 response onset latency],
   prediction: [Prospective LDN latency tracking: ~30% respond by day 2 (TRPM3/TLR4), ~40% at weeks 3–6 (endorphin/microglial), 30% non-responders. Falsified if unimodal distribution.],
   treatment: [If validated, onset latency classifies fast vs slow responders, avoiding futile 8-week trials. No clinical recommendation without validation. Origin: brainstorm.],
-  limitation: [No prospective latency study. Confounded by placebo (also ~48h onset), concurrent changes, disease fluctuation. Bimodal hypothesis theoretical. Inter-individual PK variability produces pseudo-latency differences.],
+   limitation: [No prospective latency study. Confounded by placebo (also ~48h onset), concurrent changes, disease fluctuation. Bimodal hypothesis theoretical. Inter-individual PK variability produces pseudo-latency differences.],
+)
+
+= Entries added 2026-07-29: Sequential Ordering Principle + Do Not Disturb Rule
+
+#registry-entry(
+  [Sequential Ordering Principle — Five-Rule Drug Trial Priority Order],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Mechanistic inference framework combining pharmacology (drug half-life, metabolic cost, receptor breadth) with clinical heuristics (cost, accessibility). No prospective study validates the ordering principle for ME/CFS. Existing ch33 content covers individual drug mechanisms and synergy/antagonism pairs; the 5-rule framework synthesizes them into a clinical decision sequence. (Origin: brainstorm sec 13c)],
+  citations: [@Eckey2025PatientReported],
+  mechanism: [Five priority rules: (1) Restorative > Corrective > Threshold-modulatory > Substrate > Symptomatic — trial drugs in descending therapeutic depth. (2) Broad > Narrow — each trial should eliminate the most hypotheses. (3) Energy-neutral > Energy-consuming — conserve PEM budget. (4) Reversible > Irreversible — short-washout drugs allow rapid reinterpretation. (5) Cheap/OTC > Expensive/Prescription — access principle, applied when mechanistic criteria are equal. Integrated sequence: LDN → mast-cell stabilisers → LDA → mitochondrial cofactors → valacyclovir → stimulants cautiously → IVIG/rituximab.],
+  chapter-ref: [ch33: @sec:sequential-ordering-principle],
+  prediction: [Prospective 7-drug sequence trial: cumulative diagnostic resolution (proportion with >30% improvement + mechanism validated by synergy probe) ≥60% by step 5 (LDN through valacyclovir). Falsified if cumulative resolution <40% or ≥30% of resolution occurs after step 5 (stimulants/IVIG — the end-of-sequence drugs).],
+  treatment: [Clinical decision scaffold — provides a defensible "which drug next?" algorithm. Reduces trial-and-error PEM cost. No validated treatment recommendation. Origin: brainstorm.],
+  limitation: [No prospective validation. Ordering conflicts possible — broad but expensive (IVIG) vs narrow but cheap (NAC). Population-specific: ordering assumes patient has the energy budget for 7+ drug trials; severe patients may exhaust PEM budget before step 3. POTS-dominant cluster may need autonomic probes (midodrine, pyridostigmine) earlier.],
+)
+
+#registry-entry(
+  [Do Not Disturb Rule — Four Stopping Conditions for Pharmacodiagnostic Trials],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Clinical heuristics derived from side-effect diagnostic patterns (Patterns 1–5) and PEM budget constraint. None validated prospectively for ME/CFS pharmacodiagnostic trialling. Existing ch33 sec-10 documents all 6 side-effect patterns; this entry formalizes their clinical stopping implications. (Origin: brainstorm sec 13d)],
+  citations: [Existing ch33 references; no dedicated stopping-rule literature],
+  mechanism: [Four stopping conditions: (C1) Any drug causes severe PEM (>24h self-care-blocking crash or >50% more severe than typical) → stop, do not escalate. PEM obscures diagnostic signal. (C2) Energy-neutral drug causes fatigue → stop, the fatigue IS the diagnostic signal (Pattern 1 — zero reserve in target system). (C3) Three consecutive nulls in same mechanism class → eliminate the class. (C4) >50% improvement from any drug → pause, fully characterise the response before adding a second drug. Each stop IS a diagnostic outcome.],
+  chapter-ref: [ch33: @sec:do-not-disturb-rule],
+  prediction: [Per-condition falsifiable: (C1) Early-resumers after drug-induced PEM (<1 week) show higher false-positive rates than late-resumers (≥2 weeks). (C2) Dose reduction to 50% eliminates energy-neutral fatigue. (C3) <10% of patients respond to a fourth same-class drug after three nulls. (C4) Fast-sequencers (<1 week after >50% improvement) show lower cumulative resolution than characterisation-first sequencers (≥6 weeks + washout).],
+  treatment: [Safety framework — prevents cumulative PEM from futile pharmacodiagnostic trialling. Reduces risk of false-positive attribution and class-wide adverse event discovery. Clinical utility: conserves PEM budget and redirects toward validated mechanisms. Origin: brainstorm.],
+  limitation: [All conditions are heuristic — no prospective validation. C3 threshold (3 nulls) is arbitrary. C2 (energy-neutral → fatigue = Pattern 1) not validated. C4 (>50% improvement) may miss additive benefits from combining with a second drug. Severe patients may trigger C1 from drugs well-tolerated in moderate patients — severity-level interaction effect unknown.],
 )

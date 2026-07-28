@@ -39,7 +39,7 @@ This section synthesizes key research findings integrated from literature review
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
+    columns: (auto, auto, auto, auto, auto),
   
   [*Study*], [*Design*], [*Sample*], [*Key Findings*], [*Evidence Level*],
   
@@ -61,7 +61,7 @@ This section synthesizes key research findings integrated from literature review
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
+    columns: (auto, auto, auto, auto, auto),
   
   [*Study*], [*Design*], [*Sample*], [*Key Findings*], [*Certainty*],
   
@@ -83,7 +83,7 @@ This section synthesizes key research findings integrated from literature review
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
+    columns: (auto, auto, auto, auto, auto),
   
   [*Biomarker*], [*Measurement*], [*Finding*], [*Clinical Utility*], [*Validation Status*],
   
@@ -136,7 +136,7 @@ These interventions lack formal RCT validation but have plausible mechanisms and
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
+    columns: (auto, auto, auto, auto, auto),
   
   [*Intervention*], [*Reported Dose*], [*Reported Benefits*], [*Plausible Mechanism*], [*Research Status*],
   
@@ -162,7 +162,7 @@ These interventions lack formal RCT validation but have plausible mechanisms and
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
+    columns: (auto, auto, auto, auto),
   
   [*Condition*], [*Diagnostic Test*], [*Presentation Overlap*], [*Clinical Implication*],
   
@@ -191,7 +191,7 @@ These interventions lack formal RCT validation but have plausible mechanisms and
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
+    columns: (auto, auto, auto, auto, auto),
   
   [*Mechanism*], [*Supporting Evidence*], [*Key Studies/Findings*], [*Gaps*], [*Strength*],
   
@@ -225,7 +225,7 @@ Community-reported patterns from online forums, patient advocacy groups, and Hac
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
+    columns: (auto, auto, auto, auto),
   
   [*Pattern/Rule*], [*Description*], [*Clinical Implication*], [*Validation Status*],
   
@@ -257,7 +257,7 @@ Community-reported patterns from online forums, patient advocacy groups, and Hac
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
+    columns: (auto, auto, auto),
   
   [*Gap*], [*Current Status*], [*Research Need*],
   
@@ -289,7 +289,7 @@ Table @tab:cross-domain-parallels summarizes validated interventions from other
 
 #figure(
   table(
-    columns: (auto, auto, auto, auto, auto, auto),
+    columns: (auto, auto, auto, auto, auto),
   
   [*Source Field*], [*Shared Feature*], [*Intervention*], [*ME/CFS Application*], [*Implementation Status*],
   
