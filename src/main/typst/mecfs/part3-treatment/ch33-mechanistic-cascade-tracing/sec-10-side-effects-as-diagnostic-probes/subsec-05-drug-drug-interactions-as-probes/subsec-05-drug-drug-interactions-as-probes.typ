@@ -10,4 +10,5 @@
 #include "subsubsec-03-pharmacokinetic-interactions-as-probe.typ"
 #include "subsubsec-04-sequential-ordering-as-causal-probe.typ"
 #include "subsubsec-05-prerequisite-and-contraindicated-combinations.typ"
+#include "subsubsec-06-contraindication-ladder.typ"
 

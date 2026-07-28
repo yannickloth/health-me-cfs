@@ -156,13 +156,17 @@
 
   function handlePopInteraction(ev) {
     if ('ontouchstart' in window) return;
-    const el = ev.target.closest('.gt-pop');
-    if (!el) return;
 
-    if (ev.type === 'mouseenter') {
-      if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
-    } else if (ev.type === 'mouseleave') {
-      _hideTimer = setTimeout(hideAll, 100);
+    if (ev.type === 'mouseover') {
+      if (ev.target.closest('.gt-pop')) {
+        if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
+      }
+    } else if (ev.type === 'mouseout') {
+      const pop = _activePop;
+      if (!pop) return;
+      if (!pop.contains(ev.relatedTarget)) {
+        _hideTimer = setTimeout(hideAll, 100);
+      }
     }
   }
 
@@ -271,8 +275,8 @@
           this.#handler = handler;
 
           this.#popHandler = handlePopInteraction;
-          document.addEventListener('mouseenter', this.#popHandler, true);
-          document.addEventListener('mouseleave', this.#popHandler, true);
+          document.addEventListener('mouseover', this.#popHandler, true);
+          document.addEventListener('mouseout', this.#popHandler, true);
 
           this.#docClick = (e) => {
             if (!e.target.closest('glossary-term') && !e.target.closest('.gt-pop')) hideAll();
@@ -292,8 +296,8 @@
         this.#handler = null;
       }
       if (this.#popHandler) {
-        document.removeEventListener('mouseenter', this.#popHandler, true);
-        document.removeEventListener('mouseleave', this.#popHandler, true);
+        document.removeEventListener('mouseover', this.#popHandler, true);
+        document.removeEventListener('mouseout', this.#popHandler, true);
         this.#popHandler = null;
       }
       if (this.#docClick) {
