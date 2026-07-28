@@ -1,5 +1,5 @@
 #import "../../../../shared/environments.typ": *
-#import "../../../../../../lib/clinical-caution.typ": clinical-caution
+#import "/src/main/typst/lib/clinical-caution.typ": clinical-caution
 
 ==== The Contraindication Ladder — What NEVER to Combine
   <sec:contraindication-ladder>

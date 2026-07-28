@@ -20,7 +20,14 @@ THE DIAGNOSTIC PROBE: Aripiprazole tells you dopamine IS rate-limiting. Distingu
 - Atomoxetine/NRI response → NE deficiency-driven
 - Shoe lift response → Gerlier Pathway 2
 
-If aripiprazole works and ONLY shoe lift works (no LDN, no IA, no memantine): dopamine lesion is specifically from Gerlier Pathway 2.
+#finding(
+  claim: [Aripiprazole + shoe lift response localizes dopamine lesion to Gerlier Pathway 2],
+  explanation: [
+    If aripiprazole works and ONLY shoe lift works (no LDN, no IA, no memantine): dopamine lesion is specifically from Gerlier Pathway 2.
+  ],
+  certainty: [Low],
+  level: [Partial root cause]
+)
 
 *Consequence:* Aripiprazole is the convergence probe — it tells you dopamine dysfunction is rate-limiting but not WHY. Probe COMBINATIONS are diagnostic.
 *Origin:* mechanistic-pathway-tracing.
