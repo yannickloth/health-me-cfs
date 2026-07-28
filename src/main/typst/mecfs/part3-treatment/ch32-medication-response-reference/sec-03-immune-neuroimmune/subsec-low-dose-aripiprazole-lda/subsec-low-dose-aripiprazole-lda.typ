@@ -44,3 +44,7 @@ A positive LDA response cannot distinguish whether the benefit is microglial (D2
 ==== Key caveat
 
 Non-response is weaker evidence than response. LDA non-response does not exclude dopamine deficiency, microglial involvement, or cognitive-circuit pathology — D2 receptors may be downregulated from chronic inflammation, the dose may be outside the therapeutic window (U-shaped dose-response), or metabolic constraint may limit neurotransmitter release even with receptor stimulation.
+
+==== Compendium
+
+The full pharmacodiagnostic entry — including dose-specific side-effect patterns (akathisia at micro-dose, persistent akathisia after discontinuation, receptor-state consolidation vs. microglial triggering), combination diagnostics with LDN, and worsening risk profiles (metabolic, akathisia, orthostatic) — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Aripiprazole entry). The Gerlier 4-pathway dopaminergic convergence cascade (Steps Z1–Z4) is at Chapter 33, sec-07. Side effects classified by the five diagnostic patterns (Patterns 1–5) are detailed at Chapter 33, sec-10.

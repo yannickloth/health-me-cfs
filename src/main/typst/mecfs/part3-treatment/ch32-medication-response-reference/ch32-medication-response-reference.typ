@@ -1,5 +1,10 @@
 #import "../../shared/environments.typ": *
 
+= Medication Response Reference: From Drug Response to Mechanism Identification <ch:medication-response-reference>
+
+=== Chapter Abstract
+Every drug response — therapeutic benefit, null response, side effect at a specific dose — is diagnostic information. This chapter provides: (a) generic frameworks for reading dose-response curves, side-effect patterns, and cross-drug combination signals; (b) per-medication clinical entries with response/non-response interpretation, dose-dependent differential diagnosis, and combination inference; and (c) a consolidated per-drug dose-range reference with cross-drug predictive patterns. For each drug, the central question is: what does the response reveal about which mechanism is broken?
+
 #include "sec-01-why-this-chapter-exists/sec-01-why-this-chapter-exists.typ"
 #include "sec-02-how-to-use/sec-02-how-to-use.typ"
 

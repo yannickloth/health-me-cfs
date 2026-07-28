@@ -108,3 +108,7 @@ non-response is weaker evidence than response. LDN non-response does not exclude
 - LDN does not work + cimetidine works → VIM phenotype (@sec:vim-phenotype): T-cell dysfunction, not TLR4/TRPM3.
 - LDN does not work + LDA works → microglial involvement confirmed through D2 pathway despite TLR4 non-response. Complementary targets (TLR4 + D2) on the same cell population; combination may be synergistic even when LDN appears ineffective alone — LDN may reduce one input while LDA raises the threshold on all inputs simultaneously.
 - LDN does not work + mast-cell stabilisers work → mast-cell → microglial pathway confirmed, but TLR4 is not the dominant microglial receptor for mast-cell-derived signals in this patient.
+
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic (TLR4/TRPM3/endorphin/orexin), dose-specific side-effect diagnostic patterns (SE0–SE5), combination diagnostics with aripiprazole and midodrine, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, LDN entry). The M1–M4 cascade tracing LDN's multi-target dose-response through each mechanism is at Chapter 33, sec-08. Side effects classified by the five diagnostic patterns (Patterns 1–5) are detailed at Chapter 33, sec-10.

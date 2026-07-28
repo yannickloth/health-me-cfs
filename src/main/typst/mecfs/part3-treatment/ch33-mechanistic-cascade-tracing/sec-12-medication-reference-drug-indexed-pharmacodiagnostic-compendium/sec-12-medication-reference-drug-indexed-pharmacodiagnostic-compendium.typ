@@ -1,5 +1,7 @@
 === Medication Reference — Drug-Indexed Pharmacodiagnostic Compendium <sec:medication-reference>
 
+The drug-indexed entries in this section provide the most granular pharmacodiagnostic resolution available in the paper — each drug's mechanism-exclusion logic (what a null response eliminates), dose-specific side-effect patterns, combination diagnostics, and worsening risk profiles. For the clinical-interpretation counterpart — what response means, dose-dependent differential diagnosis, and practical combination guidance — see @ch:medication-response-reference (Chapter 32). Each entry below cross-references its Chapter 32 clinical section where one exists.
+
 == 5-HTP (5-Hydroxytryptophan)
 
 *Appears in:* @sec:trpm3-cascade Step A4 (serotonin precursor probe), @sec:vagal-cascade, cross-reference matrix Phase 4 Group C.
@@ -196,7 +198,7 @@ Corrective — Factor Xa inhibitor reducing microthrombi formation — bleeding 
 
 === Aripiprazole (Low-Dose)
 
-*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, @sec:dopamine-convergence, cross-reference matrix.
+*Appears in:* @sec:gerlier-dopamine-node, @sec:microglial-cascade Step K2d, @sec:dopamine-convergence, cross-reference matrix. #emph[Clinical reference:] Chapter 32, @ch:medication-response-reference, LDA section — response interpretation, dose-response differential (0.2–2 mg), combination inference with LDN.
 #strong[HD] Threshold-modulatory — microglial D2 partial agonism raising activation threshold; symptomatic dopaminergic cognitive support. Does not remove what primed the microglia.
 
 
@@ -1377,7 +1379,7 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 
 === LDN (Low-Dose Naltrexone)
 
-*Appears in:* @sec:trpm3-cascade A2, @sec:microglial-cascade K2d, @sec:dopamine-convergence, cross-reference matrix.
+*Appears in:* @sec:trpm3-cascade A2, @sec:microglial-cascade K2d, @sec:dopamine-convergence, cross-reference matrix. #emph[Clinical reference:] Chapter 32, @ch:medication-response-reference, LDN section — response interpretation, side effects per dose zone, combination inference, dose-dependent differential.
 #strong[HD] Mixed — Restorative (TRPM3 Ca²⁺ influx restoration at 3.0–4.5 mg) + Corrective (TLR4/Nrf2 hormetic anti-inflammatory priming at 0.5–1.5 mg + compensatory endorphin upregulation at 1.5–3.0 mg). Dose-dependent: higher doses are more restorative; lower doses are threshold-modulatory/corrective.
 
 
@@ -1394,9 +1396,20 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 
 #strong[+]SE Dose-dependent mechanism identification: the dose at which benefit peaks reveals which target is rate-limiting. 0.5--1.5 mg peak → TLR4/Nrf2 hormetic window dominant. 3.0--4.5 mg peak → TRPM3 restoration dominant. Benefit lost on dose increase within LDN range → hormetic window crossed; the inversion point measures Nrf2 transcriptional reserve.
 
-#strong[−] TRPM3 absent, non-responsive, or not rate-limiting. If LDN fails but aripiprazole works → DA-specific lesion, not TRPM3. If LDN fails but IVIG works → AAb-driven, not TLR4-driven.
+#strong[−] TRPM3 absent, non-responsive, or not rate-limiting. If LDN fails but aripiprazole works → DA-specific lesion, not TRPM3. If LDN fails but IVIG works → AAb-driven, not TLR4-driven. *Critical:* non-response when only high doses (3.0--4.5 mg) were trialled is uninterpretable — the TLR4/Nrf2 hormetic window (0.5--1.5 mg) may be the patient's therapeutic range and was never tested. Non-response cannot be concluded unless both the low-dose window and the 3.0--4.5 mg range have been trialled.
 
-#strong[SE] Sedation at 0.5--1.5 mg → orexin critically low — opioid blockade further suppresses already-low orexin (Pattern 1). Dysphoria → opioid-dependent mood regulation — paradoxical reactor phenotype identified (Pattern 2). Vivid dreams/nightmares → REM disinhibition from opioid blockade — confirms opioid tone was suppressing REM.
+*Dose-specific side effects (diagnostic):*
+#strong[SE0] Systemic sickness (malaise, flu-like, nausea) at a specific dose, absent below → within-range hormetic crossing. TLR4 blockade threshold crossed between tolerated dose and sickness dose → Nrf2-mediated M2 microglial programme collapses → M1 reversion → cytokine surge. The inversion dose identifies the patient's TLR4 hormetic ceiling. Narrow window (sickness at 4.5 mg in a patient fine at 4.0 mg) → Nrf2 reserve is narrow, consistent with the tipping-point being near-maximal TLR4 blockade. Broad window (sickness only at 4.5 mg, fine at all lower doses) → Nrf2 reserve adequate but TLR4 signal is strong. Sickness at 1.5 mg → very narrow reserve; patient may need 0.5 mg.
+
+#strong[SE1] GI-predominant nausea without systemic sickness → gut enteric TLR4 blockade dominates. Enteric glia express TLR4; first-pass gut concentration may exceed CNS concentration. Split dosing or transdermal LDN bypasses gut first-pass — if nausea resolves on transdermal → gut-localized. If nausea persists → CNS-mediated TLR4 threshold crossed.
+
+#strong[SE2] Sedation at 0.5--1.5 mg (especially at initiation) → orexin critically low — opioid blockade further suppresses already-low orexin (Pattern 1). Sedation resolving after 2--4 weeks → endorphin compensation restabilized orexin — functional orexin reserve confirmed. Persistent sedation → structural orexin deficit.
+
+#strong[SE3] Dysphoria/depression at any dose → opioid-dependent mood regulation — paradoxical reactor phenotype identified (Pattern 2). Permanent trait: avoid all opioid-modulating drugs (naltrexone, naloxone, buprenorphine, tramadol, tapentadol). Occurs at any dose, including 0.5 mg — this is pharmacodynamic, not dose-rate-dependent.
+
+#strong[SE4] Vivid dreams/nightmares → REM disinhibition from opioid blockade — confirms opioid tone was suppressing REM. Switch to morning dosing if sleep disruption unacceptable (concedes endorphin upregulation benefit, preserves TLR4/TRPM3).
+
+#strong[SE5] No side effects at any dose up to 4.5 mg + no therapeutic benefit → none of LDN's four receptor targets (TLR4, TRPM3, opioid, orexin) produced any perceptible signal. Strong null — these systems are not rate-limiting. But requires that ALL dose zones were tested.
 
 #strong[W] *Mechanism:* C (paradoxical — opioid blockade unmasks severe endogenous opioid deficit → depressive episode → secondary HPA stress cascade → sustained mood disturbance). *Protracted risk:* Low. *Permanent risk:* Very Low (the most plausible permanent pathway is psychological trauma from severe adverse reaction, not pharmacodynamic damage). *Rechallenge:* Never if psychiatric reaction occurred — the paradoxical reactor phenotype for opioid systems is a permanent trait. The patient should avoid all opioid-modulating medications (naltrexone, naloxone, buprenorphine, tramadol, tapentadol). If LDN was tolerated but not therapeutic: the null diagnostic information is obtained; no rechallenge needed unless dosing window was incorrect.
 
@@ -1407,6 +1420,8 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 
 
 #strong[+] Neuroinflammation + DA deficiency are independent co-rate-limiting mechanisms. If the combination produces greater improvement than either alone → dual-pathway convergence confirmed — TLR4-microglial + D2/D3 are separate bottlenecks that reinforce each other.
+
+#strong[+] If LDN produced a dose-specific ceiling signal (sickness at 4.5 mg) with no therapeutic window at any tested dose, but LDA produces sharp threshold benefit (PEM protection at 1 mg, absent at 0.5 mg) → microglial involvement confirmed by two independent probes on the same cell population, but the therapeutically accessible receptor is D2, not TLR4. LDN's ceiling proves receptor engagement: the microglial TLR4 population is present and functional. But the hormetic collapse (sickness at 4.5 mg) occurred before any therapeutic window appeared — TLR4 blockade cannot produce benefit in this patient because the ceiling precedes the window. LDA's sharp threshold independently confirms the same microglial population is D2-responsive. The asymmetry — TLR4 has a ceiling with no window, D2 has a window with no ceiling below 2 mg — IS the diagnostic signal. This pattern excludes TLR4 as a therapeutic target while confirming D2 as the dominant microglial activation pathway. It is stronger evidence than simple LDN non-response, which could reflect inadequate dose-range testing or receptor inaccessibility rather than true mechanism exclusion.
 
 #strong[−] If additive only (combo benefit = LDN + aripiprazole individually) → shared pathway — LDN reduces microglial TNF-α → partially restores DA synthesis; aripiprazole works downstream on D2/D3. No synergy means the pathways converge on the same node, not independent.
 
