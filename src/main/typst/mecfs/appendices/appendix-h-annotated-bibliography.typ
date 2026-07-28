@@ -30801,6 +30801,144 @@ sec-bib-rf-elevated-mecfs-duplicate
 
 // =============================================================================
 
+== Charlton 2026 Muscle-Bedrest Stream
+<sec:bib-charlton2026-muscle-bedrest>
+// =============================================================================
+
+=== Charlton et al.\ 2026 --- Skeletal Muscle Properties in Long COVID and ME/CFS Differ from Those Induced by Bed Rest
+
+    / *Full Citation:*: Charlton BT, Slaghekke A, Appelman B, Eggelbusch M, Huijts JY, Noort W, Hendrickse PW, Bloemers FW, Posthuma JJ, van Amstel P, Goulding RP, Degens H, Jaspers RT, van Vugt M, Wüst RCI. Skeletal Muscle Properties in Long COVID and ME/CFS Differ from Those Induced by Bed Rest. _Nature Communications_. 2026. Article in Press. @Charlton2026MuscleBedrest
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-026-75725-y")[10.1038/s41467-026-75725-y]
+    / *Study Design:*: Cross-sectional comparison: strict 60d head-down tilt bed rest (n=24 healthy, longitudinal pre-post) vs long COVID (n~25), ME/CFS (n~26, pre-2020 dx), age/sex-matched healthy controls (n=30)
+    / *Key Findings:*:
+        - VO#sub[2]max similarly reduced in patient groups and post-bed rest — but via different physiological mechanisms
+        - Bed rest: reduced VEmax, increased VE/VCO#sub[2] slope; patients: increased HR-VO#sub[2] slope (suggestive of impaired O#sub[2] extraction or stroke volume)
+        - Bed rest: global muscle atrophy without fiber type change
+        - Both patient groups: more glycolytic (type IIa/IIx) fibers (+ decreased type I) — fiber type shift not seen in bed rest
+        - ME/CFS: selective type I fiber atrophy — unique to ME/CFS, not in bed rest or long COVID
+        - OXPHOS capacity + SDH activity correlated with VO#sub[2]max in healthy controls and pre/post bed rest (r=0.53--0.74) — this correlation ABSENT in both patient groups (r=0.27--0.31, p>0.14)
+        - Bed rest: increased capillary density (atrophy outpaces capillary loss); ME/CFS: lower capillary-to-fiber ratio and density
+        - Both patient groups: downshifted capillary-to-fiber vs FCSA relationship (fewer capillaries for given fiber size)
+        - Intrinsic mitochondrial dysfunction: lower OXPHOS/SDH ratio, trending lower E/L coupling efficiency in patients (not in bed rest)
+        - Myoglobin content similar across groups — suggests maintained intramyocyte O#sub[2] diffusion capacity
+    / *Conclusion:*: Physical inactivity/deconditioning alone cannot explain skeletal muscle alterations in long COVID and ME/CFS. Patients show disease-intrinsic mitochondrial dysfunction, fibre type shift, and capillarization deficits that distinguish them from bed rest. Rehabilitation strategies should treat patients as unique cases, not simply deconditioned.
+    / *Limitations:*: Cross-sectional in patients (no pre-disease biopsies); self-selection bias toward milder patients; bed rest cohort younger (30 vs 42 years mean); head-down tilt ≠ ambulatory deconditioning; cannot distinguish disease duration from disease pathophysiology; no sex-specific analysis due to bed rest female underpowering (8/24).
+    / *Certainty:*: 0.85
+
+=== Hendrickse et al.\ 2022 --- Capillary Rarefaction During Bed Rest Is Proportionally Less than Fibre Atrophy and Loss of Oxidative Capacity
+
+    / *Full Citation:*: Hendrickse PW, Wüst RCI, Ganse B, Giakoumaki I, Rittweger J, Bosutti A, Degens H. Capillary Rarefaction During Bed Rest Is Proportionally Less than Fibre Atrophy and Loss of Oxidative Capacity. _Journal of Cachexia, Sarcopenia and Muscle_. 2022;13(6):2712-2723. @Hendrickse2022CapillaryBR
+    / *DOI:*: #link("https://doi.org/10.1002/jcsm.13072")[10.1002/jcsm.13072]
+    / *PMID:*: 36102002
+    / *Study Design:*: Longitudinal: vastus lateralis + soleus biopsies at baseline, 6d, and 55d bed rest (AGBRESA study); n=19
+    / *Key Findings:*:
+        - Rapid early fibre atrophy (-23% at 6d) with proportional capillary loss (C:F ratio declined)
+        - Slower later atrophy (-12% from 6d to 55d)
+        - By 55d: capillary supply in relative excess of oxidative capacity (+42%) — uncoupled from mitochondrial loss
+        - SDH optical density decreased -19% at 55d without further capillary loss
+        - Artificial gravity (30min/d centrifugation) failed to prevent these changes
+    / *Conclusion:*: Prolonged bed rest uncouples capillary supply from oxidative capacity. This creates a capillary-excess state advantageous for recovery — the opposite of what Charlton 2026 finds in ME/CFS (capillary deficit). Foundational bed rest comparator for the primary paper.
+    / *Limitations:*: Small sample (n=19); all healthy volunteers; centrifugation group merged with control for main analysis.
+    / *Certainty:*: 0.75
+
+=== Eggelbusch et al.\ 2024 --- The Impact of Bed Rest on Human Skeletal Muscle Metabolism
+
+    / *Full Citation:*: Eggelbusch M, Charlton BT, Bosutti A, Ganse B, Giakoumaki I, Grootemaat AE, Hendrickse PW, Jaspers Y, Kemp S, Kerkhoff TJ, Noort W, van Weeghel M, van der Wel NN, Wesseling JR, Frings-Meuthen P, Rittweger J, Mulder ER, Jaspers RT, Degens H, Wüst RCI. The Impact of Bed Rest on Human Skeletal Muscle Metabolism. _Cell Reports Medicine_. 2024;5(1):101372. @Eggelbusch2024BedrestMetab
+    / *DOI:*: #link("https://doi.org/10.1016/j.xcrm.2023.101372")[10.1016/j.xcrm.2023.101372]
+    / *PMID:*: 38232697
+    / *Study Design:*: Same AGBRESA 60d bed rest cohort; multi-omics integrative analysis (metabolomics, lipidomics, EM, respirometry, immunohistochemistry)
+    / *Key Findings:*:
+        - Short-term (6d): intracellular glycogen accumulation, reduced GLUT4 membrane localization, rapid insulin sensitivity loss
+        - Long-term (55d): intramyocellular lipid + ceramide + sphingomyelin accumulation
+        - Fragmented mitochondria on EM after 55d
+        - Reduced OXPHOS capacity
+        - Identified intracellular nutrient overload as determinant of insulin resistance and mitochondrial dysfunction
+        - Temporal dissociation: carbohydrate defect (early) vs lipid defect (late)
+    / *Conclusion:*: Bed rest induces a specific metabolic signature (glycogen→lipid overload→mitochondrial fragmentation) that is distinct from the patient phenotype in Charlton 2026 (intrinsic mitochondrial dysfunction without nutrient overload). Supports the conclusion that the metabolic defects in patients are disease-intrinsic.
+    / *Limitations:*: Same cohort size (n=24); head-down tilt model limitations for generalization to clinical deconditioning.
+    / *Certainty:*: 0.80
+
+=== Joseph et al.\ 2021 --- Invasive CPET in ME/CFS: Insights into Exercise Intolerance
+
+    / *Full Citation:*: Joseph P, Arevalo C, Oliveira RKF, Faria-Urbina M, Waxman AB, Systrom DM. Insights From Invasive Cardiopulmonary Exercise Testing of Patients With Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. _Chest_. 2021;160(2):642-651. @Joseph2021iCPETmeCFS
+    / *DOI:*: #link("https://doi.org/10.1016/j.chest.2021.01.082")[10.1016/j.chest.2021.01.082]
+    / *PMID:*: 33577778
+    / *Study Design:*: Cross-sectional; invasive CPET with radial + pulmonary artery catheters; n=20 ME/CFS (Fukuda 1994) vs n=10 healthy controls
+    / *Key Findings:*:
+        - Marked reduction in peak systemic O#sub[2] extraction (cardiac output × arteriovenous O#sub[2] difference) in ME/CFS
+        - Reduced stroke volume augmentation with exercise
+        - Low biventricular filling pressures — preload failure, not cardiac dysfunction
+        - Normal pulmonary gas exchange and pulmonary vascular function
+        - Arterial PO#sub[2] similar to controls at peak exercise
+    / *Conclusion:*: ME/CFS exercise limitation is primarily peripheral (oxygen extraction + preload failure), not central (lung/heart). Directly supports Charlton 2026's argument that patient limitations differ from deconditioning — cited as ref 40 in the primary paper.
+    / *Limitations:*: Modest sample; Fukuda criteria (broader phenotype than CCC); single center; no concurrent muscle biopsy.
+    / *Certainty:*: 0.75
+
+=== Singh et al.\ 2022 --- Persistent Exertional Intolerance After COVID-19: Invasive CPET
+
+    / *Full Citation:*: Singh I, Joseph P, Heerdt PM, Cullinan M, Lutchmansingh DD, Gulati M, Possick JD, Systrom DM. Persistent Exertional Intolerance After COVID-19: Insights From Invasive Cardiopulmonary Exercise Testing. _Chest_. 2022;161(1):54-63. @Singh2022iCPETlongCOVID
+    / *DOI:*: #link("https://doi.org/10.1016/j.chest.2021.08.010")[10.1016/j.chest.2021.08.010]
+    / *PMID:*: 34389297
+    / *Study Design:*: Cross-sectional; invasive CPET; n=10 post-COVID patients (9 never hospitalized) with unexplained dyspnea/exercise intolerance
+    / *Key Findings:*:
+        - Peak VO#sub[2]: 71% predicted — moderate impairment
+        - Key finding: reduced peak systemic O#sub[2] extraction despite normal cardiac output
+        - Some patients showed preload failure (low filling pressures)
+        - Normal pulmonary gas exchange ruling out lung parenchymal limitation
+    / *Conclusion:*: Peripherally-mediated exercise limitation (impaired O#sub[2] extraction) after COVID-19, consistent with Joseph 2021 in ME/CFS and cited as ref 41 in Charlton 2026.
+    / *Limitations:*: Small sample (n=10); heterogeneous group; no concurrent muscle biopsy.
+    / *Certainty:*: 0.70
+
+=== Germain et al.\ 2025 --- Plasma Proteomics of Post-Exertional Malaise
+
+    / *Full Citation:*: Germain A, Glass KA, Eckert MA, Giloteaux L, Hanson MR. Temporal Dynamics of the Plasma Proteomic Landscape Reveals Maladaptation in ME/CFS Following Exertion. _Molecular & Cellular Proteomics_. 2025;24(12):101467. @Germain2025PlasmaProteomePEM
+    / *DOI:*: #link("https://doi.org/10.1016/j.mcpro.2025.101467")[10.1016/j.mcpro.2025.101467]
+    / *PMID:*: 41237904
+    / *Study Design:*: Longitudinal plasma proteomics (SomaScan 7K, 6361 proteins); n=79 ME/CFS vs n=53 age/BMI-matched sedentary controls; 2-day CPET with samples at 5 timepoints
+    / *Key Findings:*:
+        - ME/CFS showed persistent immune/metabolic/neuromuscular pathway dysregulation during recovery (PEM onset)
+        - Upregulated glycolysis/gluconeogenesis — suggestive of mitochondrial stress
+        - Suppressed T/B cell signaling, downregulated IL-17 and cell-cell communication pathways
+        - Proteomic associations with VO#sub[2]max + anaerobic threshold were disrupted in ME/CFS vs controls
+        - Sex-stratified: distinct female vs male molecular responses to exertion
+        - Sedentary control cohort provides new reference data on molecular responses to acute exertion in females
+    / *Conclusion:*: PEM is accompanied by a specific proteomic signature that is not explained by physical deconditioning. The disrupted proteome-performance associations corroborate Charlton 2026's finding that OXPHOS-VO#sub[2]max correlation is lost in patients.
+    / *Limitations:*: Plasma proteomics (not tissue-level); 79 ME/CFS is substantial but heterogenous; no invasive hemodynamics.
+    / *Certainty:*: 0.70
+
+=== Toriola et al.\ 2026 --- ATG13-Dependent Autophagy and Muscle Mitochondrial Function
+
+    / *Full Citation:*: Toriola MA, Timlin E, Bulbule S, Reyes A, Adedeji OM, Gottschalk CG, Barua A, Arnold LA, Roy A. Genetic Depletion of the Early Autophagy Protein ATG13 Impairs Mitochondrial Energy Metabolism, Augments Oxidative Stress, Induces M1 Macrophage Polarization, and Compromises Myelin Integrity in Skeletal Muscle. _Inflammation Research_. 2026;75(1):26. @Toriola2026ATG13muscle
+    / *DOI:*: #link("https://doi.org/10.1007/s00011-025-02158-6")[10.1007/s00011-025-02158-6]
+    / *PMID:*: 41591477
+    / *Study Design:*: Murine experimental model; ATG13 hemizygous deletion (Tg+/-ATG13)
+    / *Key Findings:*:
+        - ATG13 deficit disrupts autophagy, impairs mitochondrial oxidative metabolism
+        - Increased ROS, Sirtuin-1 inactivation via nitrosylation, NF-κB activation
+        - M1 macrophage polarization with infiltration into muscle vasculature
+        - Myelin integrity loss in nerve bundles innervating muscle
+        - Reduced muscle strength after treadmill exercise — PEM-like phenotype
+    / *Conclusion:*: Impaired autophagy can create a PEM-like muscle phenotype with mitochondrial dysfunction, oxidative stress, and neurogenic inflammation. Provides a candidate upstream mechanism for the mitochondrial defects Charlton 2026 documents — the missing link between systemic inflammation and muscle OXPHOS failure.
+    / *Limitations:*: Murine model (single animal); relevance to human ME/CFS not established; same lab group as Drosen 2025.
+    / *Certainty:*: 0.50
+
+=== Behan et al.\ 1991 --- Mitochondrial Abnormalities in Postviral Fatigue Syndrome
+
+    / *Full Citation:*: Behan WMH, More IAR, Behan PO. Mitochondrial Abnormalities in the Postviral Fatigue Syndrome. _Acta Neuropathologica_. 1991;83(1):61-65. @Behan1991MitochondrialPVFS
+    / *DOI:*: #link("https://doi.org/10.1007/BF00294431")[10.1007/BF00294431]
+    / *PMID:*: 1792865
+    / *Study Design:*: Cross-sectional; electron microscopy of vastus lateralis biopsies; n=50 PVFS patients
+    / *Key Findings:*:
+        - 80% of patients had abnormal mitochondria on EM: branching, elongation, compartmentalization of cristae, paracrystalline inclusions
+        - Type II fibre atrophy predominant
+        - Findings were present in all patients regardless of symptom duration
+        - Controls (n=20) had normal mitochondria on EM
+    / *Conclusion:*: First study to demonstrate structural mitochondrial pathology in post-viral fatigue syndrome — published 35 years before Charlton 2026 but fundamentally consistent with the finding of mitochondrial dysfunction as disease-intrinsic, not deconditioning-driven.
+    / *Limitations:*: 1990s methodology (no quantitative stereology, no respirometry); diagnostic criteria not modern (Oxford definition); no ME/CFS-specific recruitment.
+    / *Certainty:*: 0.35
+
+// =============================================================================
+
 == HSV Dormancy-Undormancy Probe
 <sec:bib-hsv-dormancy-undormancy-probe>
 // =============================================================================
@@ -31621,3 +31759,657 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Kynurenine pathway activation driven by IDO/TDO in response to inflammatory cytokines
     / *Null-Subtyping Relevance:*: The glycine-site binding of KYNA at NMDA receptors determines probe design for the OVERWHELMED null subtype. Because KYNA competes at the glycine co-agonist site, the concentration-competition probe must use a glycine-site agonist or glycine itself — not a glutamate-site NMDA agonist. This distinguishes KYNA-mediated OVERWHELMED from anti-NMDAR autoantibody-mediated BLOCKED (where the receptor itself is targeted).
     / *Certainty:*: 0.45 (Mol Pain; narrative review; heterogeneous conditions; no ME/CFS-specific data)
+
+// =============================================================================
+
+== Menstrual Cycle as Endogenous Pharmacodiagnostic Probe
+<sec:bib-menstrual-cycle-pharmacodiagnostic>
+
+// =============================================================================
+
+=== Thomas et al.\ 2026 — Systems Neuroendocrinology in ME/CFS and Long COVID
+
+    *Full Citation:*: Thomas N, Huang K, Schneider-Futschik EK, et al.\ Systems neuroendocrinology in ME/CFS and long COVID: a chronobiological framework for hormone-based research. _Frontiers in Neuroendocrinology_. 2026;82:101268. @Thomas2026neuroendocrinologyFramework
+    *DOI:*: #link("https://doi.org/10.1016/j.yfrne.2026.101268")[10.1016/j.yfrne.2026.101268]
+    *PMID:*: 42320559
+    *Published:*: June 19, 2026 (online ahead of print)
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Hormonal dysregulation increasingly reported in ME/CFS and Long COVID
+        - Sex hormone signalling identified as key area of vulnerability given female predominance
+        - Peripheral hormone levels in isolation have limited utility; chronobiology-aware dense-sampling essential
+        - Proposes framework integrating circadian rhythms, menstrual cycles, and multi-omic analyses
+        - Coordinates hypothalamic-pituitary axes with immune, autonomic, nervous, and metabolic functions
+    *Relevance:*: Most directly relevant paper for the endogenous pharmacodiagnostic probe concept. Explicitly calls for menstrual-cycle-aware, time-structured sampling in ME/CFS research — the essential foundation for testing drug response by cycle phase.
+    *Certainty Assessment:*: 0.60 (review; no primary data; online ahead of print; ME/CFS-specific)
+
+=== Jovanovic et al.\ 2009 — 5-HT1A Receptor and 5-HTT Binding During Menstrual Cycle
+
+    *Full Citation:*: Jovanovic H, Karlsson P, Cerin A, Halldin C, Nordström A-L. 5-HT(1A) receptor and 5-HTT binding during the menstrual cycle in healthy women examined with [(11)C] WAY100635 and [(11)C] MADAM PET. _Psychiatry Research: Neuroimaging_. 2009;172(1):31–37. @Jovanovic2009serotoninPET
+    *DOI:*: #link("https://doi.org/10.1016/j.pscychresns.2008.07.002")[10.1016/j.pscychresns.2008.07.002]
+    *PMID:*: 19118985
+    *Published:*: April 30, 2009
+    *Study Design:*: Within-subject PET study
+    *Sample Size:*: n=13 (5-HT1A; [11C]WAY100635), n=8 (5-HTT; [11C]MADAM); healthy women
+    *Diagnostic Criteria:*: healthy volunteers
+    *Key Findings:*:
+        - NULL RESULT: 5-HT1A receptor binding potential did NOT significantly differ between follicular and luteal phases in any brain region
+        - 5-HTT binding similarly unchanged
+        - No correlation between change in estradiol or progesterone and change in 5-HT1A or 5-HTT binding
+        - Transvaginal ultrasound used for precise cycle phase characterization
+    *Relevance:*: Critical null finding constraining the mechanism of the probe hypothesis for serotonergic drugs. If receptor *density/availability* (BP_ND) does not change across the cycle, then cycle-phase drug response differences cannot be attributed to receptor number changes. Does NOT falsify the probe hypothesis: functional sensitivity (G-protein coupling, second messenger efficacy, downstream gene expression) can differ without binding changes. The null is specifically about receptor *availability*, not functional output.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (PET gold standard, within-subject design)
+        - *Sample:*: Small (n=8–13)
+        - *Replication:*: Single study; partial replication design strong but small n
+        - *Score:*: 0.65 (weight: 0.75; discounted: 0.49)
+
+=== Petersen et al.\ 2021 — Striatal Dopamine D2 Receptor Availability and Peripheral 17β-Estradiol
+
+    *Full Citation:*: Petersen N, Rapkin AJ, Okita K, et al.\ Striatal dopamine D(2)-type receptor availability and peripheral 17β-estradiol. _Molecular Psychiatry_. 2021;26(6):2038–2047. @Petersen2021D2estradiol
+    *DOI:*: #link("https://doi.org/10.1038/s41380-020-01000-1")[10.1038/s41380-020-01000-1]
+    *PMID:*: 33420479
+    *PMCID:*: PMC9196143
+    *Published:*: January 8, 2021
+    *Study Design:*: Within-subject PET study
+    *Sample Size:*: n=16 healthy women (ages 23–45)
+    *Diagnostic Criteria:*: healthy volunteers
+    *Key Findings:*:
+        - NULL RESULT: D2-type receptor availability (BP_ND) did NOT differ between high-estrogen (periovulatory) and low-estrogen (early follicular) phases
+        - No significant difference in whole striatum, caudate, putamen, or accumbens subregions
+        - [18F]fallypride used — higher affinity than [11C]raclopride (Nordström 1998)
+        - Supersedes Nordström 1998 (n=5)
+    *Relevance:*: Higher-quality null than the original Nordström 1998 D2 PET study. Together with Jovanovic 2009, constrains the receptor-density-change interpretation of the probe hypothesis. Stable D2 availability across cycle does NOT preclude: (a) functional D2 output differences (cAMP signalling, β-arrestin recruitment), (b) differential drug occupancy at D2 (competition effects), or (c) extrasynaptic D2 changes below PET resolution. The probe concept depends on functional pharmacodynamic differences, not receptor density differences per se.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Molecular Psychiatry, within-subject, high-affinity tracer)
+        - *Sample:*: Moderate (n=16)
+        - *Replication:*: Single study; consistent direction with Nordström 1998 (n=5)
+        - *Score:*: 0.75 (weight: 0.75; discounted: 0.56)
+
+=== Bosch et al.\ 2025 — Female Sex and Estrogens on Drug Pharmacokinetics
+
+    *Full Citation:*: Bosch EL, Sommer IEC, Touw DJ. The influence of female sex and estrogens on drug pharmacokinetics: what is the evidence? _Expert Opinion on Drug Metabolism & Toxicology_. 2025;21(6):637–647. @Bosch2025sexPKreview
+    *DOI:*: #link("https://doi.org/10.1080/17425255.2025.2481891")[10.1080/17425255.2025.2481891]
+    *PMID:*: 40109018
+    *Published:*: 2025
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Women experience adverse drug reactions approximately twice as often as men
+        - CYP1A2, CYP2D6, CYP3A4 modulated by estrogen — expression and activity vary across menstrual cycle
+        - UGT enzymes and P-glycoprotein also estrogen-sensitive
+        - Intraindividual PK differences observed within women due to fluctuating estrogen
+        - Calls for personalized dosing based on sex and estrogen levels
+    *Relevance:*: Provides the pharmacokinetic foundation for the probe concept. If drug *clearance* varies by cycle phase (PK effect), differences in efficacy/toxicity across phases could be PK-driven rather than PD-driven (receptor-level). This is an essential control variable: to infer receptor-system involvement from cycle-phase drug response, PK confounds must be measured or excluded. Practical implication: any probe study must measure drug serum levels to distinguish PK from PD contributions.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (expert review, clinical focus)
+        - *Sample:*: N/A (review)
+        - *Replication:*: Synthesizes multiple studies; consistent with FDA guidance on sex differences in PK
+        - *Score:*: 0.68 (weight: 0.75; discounted: 0.51)
+
+=== Rizor et al.\ 2024 — Menstrual Cycle Hormones and Brain Architecture
+
+    *Full Citation:*: Rizor EJ, Babenko V, Dundon NM, et al.\ Menstrual cycle-driven hormone concentrations co-fluctuate with white and gray matter architecture changes across the whole brain. _Human Brain Mapping_. 2024;45(11):e26785. @Rizor2024brainArchitecture
+    *DOI:*: #link("https://doi.org/10.1002/hbm.26785")[10.1002/hbm.26785]
+    *PMID:*: 39031470
+    *PMCID:*: PMC11258887
+    *Published:*: August 1, 2024
+    *Study Design:*: Within-subject neuroimaging study
+    *Sample Size:*: n=30 naturally cycling women
+    *Diagnostic Criteria:*: healthy volunteers
+    *Key Findings:*:
+        - 17β-estradiol and LH directly proportional to WM diffusion anisotropy (μFA) across the whole brain
+        - FSH directly proportional to cortical thickness (CT)
+        - Progesterone associated with increased tissue volume, decreased CSF volume
+        - Effects observed across frontal, occipital, temporal, and parietal lobes — NOT limited to classical HPG-axis receptor-dense regions
+        - First report of simultaneous brain-wide WM microstructure and CT changes coinciding with menstrual hormone rhythms
+    *Relevance:*: Demonstrates that menstrual cycle hormones produce measurable, whole-brain structural changes in humans at the macro level. This provides plausibility for the probe hypothesis: if fluctuating hormone concentrations restructure brain architecture (DTI, CT, volume), they certainly influence the micro-level receptor dynamics and drug target systems that the probe concept depends on. Suggests that the probe's detectable signal (differential drug response) could be substantial enough to measure behaviourally.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Human Brain Mapping, multimodal DTI+T1, within-subject design)
+        - *Sample:*: Moderate (n=30)
+        - *Replication:*: Single study; first of its kind
+        - *Score:*: 0.70 (weight: 0.75; discounted: 0.53)
+
+=== Sellers et al.\ 2015 — Rapid Estrogen Regulation of Synaptic Connectivity and Cognition
+
+    *Full Citation:*: Sellers K, Raval P, Srivastava DP. Molecular signature of rapid estrogen regulation of synaptic connectivity and cognition. _Frontiers in Neuroendocrinology_. 2015;36:72–89. @Sellers2015estrogenSynaptic
+    *DOI:*: #link("https://doi.org/10.1016/j.yfrne.2014.08.001")[10.1016/j.yfrne.2014.08.001]
+    *PMID:*: 25159586
+    *Published:*: January 2015
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - ERα and ERβ couple to intracellular signalling cascades (MAPK/ERK, PI3K/Akt, CREB) within minutes
+        - Estrogen receptors transactivate mGluRs and NMDA receptors — direct physical interaction with NR1 and NR2B subunits
+        - Estrogen enhances LTP via NMDA receptor potentiation; rapid effects on dendritic spine density
+        - Non-genomic (rapid signalling) pathways distinct from classical genomic (nuclear) estrogen action
+    *Relevance:*: Core mechanistic paper establishing oestrogen as NMDA positive allosteric modulator. Under the probe hypothesis: during the follicular/ovulatory phase when oestrogen is high, a drug acting through NMDA signalling would show *enhanced* efficacy (oestrogen potentiates the receptor target). During the luteal phase when oestrogen is low, the same drug would show *reduced* efficacy. A drug whose response pattern matches this follicular>luteal profile can be inferred to act through NMDA-signalling pathways — including drugs whose NMDA involvement was previously unrecognized.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Front Neuroendocrinol, comprehensive review)
+        - *Sample:*: N/A (review; primarily animal/cell data)
+        - *Replication:*: Extensively replicated preclinical finding
+        - *Score:*: 0.72 (weight: 0.50; discounted: 0.36)
+
+=== Shadani et al.\ 2024 — Sex Differences in Psychedelic Actions
+
+    *Full Citation:*: Shadani S, Conn K, Andrews ZB, Foldi CJ. Potential differences in psychedelic actions based on biological sex. _Endocrinology_. 2024;165(8):bqae083. @Shadani2024psychedelicsSex
+    *DOI:*: #link("https://doi.org/10.1210/endocr/bqae083")[10.1210/endocr/bqae083]
+    *PMID:*: 38980913
+    *PMCID:*: PMC11259856
+    *Published:*: July 1, 2024
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Estrogen influences serotonin neurotransmission: affects synthesis, release, and receptor subtype sensitivity
+        - Psychedelics (5-HT2A agonists) may show differential therapeutic efficacy across menstrual cycle phases
+        - Direct interaction between estrogen and the serotonin system — mechanisms include: (a) increased tryptophan hydroxylase (synthesis), (b) reduced SERT expression (reuptake), (c) modulation of 5-HT1A autoreceptor sensitivity
+        - Calls for investigating cycle-phase effects in psychedelic clinical trials
+    *Relevance:*: Explicitly frames the cycle-phase × drug response interaction for serotonin-acting drugs and provides the template methodology for the probe concept. While the review focuses on psychedelics, the estrogen-serotonin interaction is relevant to all serotonergic drugs: SSRIs, SNRIs, triptans, 5-HT3 antagonists, and atypical antipsychotics. Under the probe hypothesis: serotonergic drugs would show differential efficacy by cycle phase because oestrogen modulates the serotonin system at multiple levels.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (Endocrinology, focused review)
+        - *Sample:*: N/A (review; mixed human + animal data)
+        - *Replication:*: Consistent with broader estrogen-serotonin literature
+        - *Score:*: 0.58 (weight: 0.75; discounted: 0.44)
+
+=== Lee et al.\ 2012 — CYP450 Expression During Estrous Cycle in Rats
+
+    *Full Citation:*: Lee S-Y, Oh S-J, Yun K-U, et al.\ Expression of hepatic and ovarian cytochrome P450 during estrous cycle in rats. _Archives of Toxicology_. 2012;86(1):75–85. @Lee2012CYPestrous
+    *DOI:*: #link("https://doi.org/10.1007/s00204-011-0730-1")[10.1007/s00204-011-0730-1]
+    *PMID:*: 21717108
+    *Published:*: January 2012
+    *Study Design:*: Animal experimental study
+    *Sample Size:*: Female rats; diestrus vs proestrus comparison
+    *Key Findings:*:
+        - NULL RESULT: expression and activity of CYP isoforms (CYP1A1, 1A2, 1B1, 2B1, 2C11, 2C12, 2E1, 3A1, 3A2, 4A), cytochrome b5, and NADPH-CYP reductase were NOT significantly different between diestrus and proestrus
+        - Serum estradiol markedly elevated in proestrus — but CYP system did not track this increase
+        - Conclusion: ``CYP-dependent system is not sensitive to changes in the estrous cycle''
+    *Relevance:*: Constrains the PK arm of the probe hypothesis: if CYP expression and activity are stable across cycle phases (in rats), then cycle-phase differences in drug response are more likely PD-driven (receptor-level pharmacodynamics) than PK-driven (metabolism-level clearance differences). This is methodologically important: it argues that PK confounds may be smaller than feared, simplifying probe interpretation. However, this finding is in partial tension with Bosch 2025 (which reports estrogen effects on CYP in humans) — species and isoform specificity may explain the discrepancy.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (Arch Toxicol, thorough CYP panel)
+        - *Sample:*: Animal study (rat model)
+        - *Replication:*: Single study; no human CYP-estrous data
+        - *Score:*: 0.55 (weight: 0.50; discounted: 0.28)
+
+=== Locci & Pinna 2017 — Neurosteroid Biosynthesis and GABA-A Receptor Subunit Composition
+
+    *Full Citation:*: Locci A, Pinna G. Neurosteroid biosynthesis down-regulation and changes in GABA(A) receptor subunit composition: a biomarker axis in stress-induced cognitive and emotional impairment. _British Journal of Pharmacology_. 2017;174(19):3226–3241. @Locci2017neurosteroidGABA
+    *DOI:*: #link("https://doi.org/10.1111/bph.13843")[10.1111/bph.13843]
+    *PMID:*: 28456011
+    *PMCID:*: PMC5595768
+    *Published:*: October 2017
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Allopregnanolone (progesterone metabolite) enhances extrasynaptic and postsynaptic GABA-A inhibition via positive allosteric modulation
+        - Allo binds at a distinct site from GABA, benzodiazepines, barbiturates, and picrotoxin
+        - Stress downregulates neurosteroid biosynthesis and shifts GABA-A receptor subunit composition: δ-subunit reduction, α4γ2 upregulation
+        - Subunit shift directly alters drug sensitivity: benzodiazepines become less effective (lose γ2-site efficacy), neurosteroids become more potent (compensatory)
+        - δ-subunit-containing extrasynaptic receptors mediate tonic currents — critical for network-level inhibition
+    *Relevance:*: Core mechanistic paper for the progesterone→allopregnanolone→GABA-A axis of the probe hypothesis. During the luteal phase, progesterone is high and its metabolite allopregnanolone potently enhances GABA-A signalling. This has two pharmacodiagnostic implications: (1) A drug whose GABA-A activity is allopregnanolone-potentiated will show *enhanced* efficacy in the luteal phase (additive/synergistic PAM effect), (2) A drug targeting GABA-A that is *outcompeted* by allopregnanolone (shared binding site) will show *reduced* efficacy in the luteal phase. The direction of cycle-phase effect distinguishes which GABA-A interaction mechanism the drug uses.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Br J Pharmacol, comprehensive review)
+        - *Sample:*: N/A (review; primarily preclinical)
+        - *Replication:*: Extensively replicated preclinical and clinical (brexanolone RCTs)
+        - *Score:*: 0.72 (weight: 0.50; discounted: 0.36)
+
+// =============================================================================
+
+== Contraindication Ladder — Pharmacodiagnostic Drug Interaction Framework
+<sec:bib-contraindication-ladder>
+// =============================================================================
+
+=== Knadler et al.\ 2011 — Duloxetine Clinical Pharmacokinetics and Drug Interactions
+
+    *Full Citation:*: Knadler MP, Lobo E, Chappell J, Bergstrom R. Duloxetine: clinical pharmacokinetics and drug interactions. _Clinical Pharmacokinetics_. 2011;50(5):281–294. @Knadler2011DuloxetinePK
+    *DOI:*: #link("https://doi.org/10.2165/11539240-000000000-00000")[10.2165/11539240-000000000-00000]
+    *PMID:*: 21366359
+    *Study Design:*: Comprehensive PK review (Eli Lilly, drug manufacturer)
+    *Key Findings:*:
+        - Fluvoxamine (CYP1A2 inhibitor) increases duloxetine AUC by 460% (90% CI 359–584) and Cmax by 141% (90% CI 93–200)
+        - CYP1A2 inhibition produces clinically significant duloxetine exposure increase — listed in prescribing information
+        - Smoking associated with 30% decrease in duloxetine concentration (CYP1A2 induction)
+        - Duloxetine is a moderate CYP2D6 inhibitor; duloxetine PK affected by CYP2D6 poor metabolizer status but to a lesser extent
+    *Conclusion:*: Fluvoxamine–duloxetine is a Level 2 (PK catastrophe) contraindicated combination. The ~5× increase in duloxetine exposure carries risk of serotonin syndrome, hepatotoxicity, and exaggerated adverse effects. Documented in FDA labeling.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Clin Pharmacokinet; manufacturer data)
+        - *Sample:*: Formal PK interaction study
+        - *Replication:*: Confirmed in FDA prescribing information and Hanif 2023
+        - *Score:*: 0.80
+
+=== Due Bruun et al.\ 2024 — LDN RCT in Fibromyalgia
+
+    *Full Citation:*: Due Bruun K, Christensen R, Amris K, Vaegter HB, Blichfeldt-Eckhardt MR, Bye-Møller L, Holsgaard-Larsen A, Toft P. Naltrexone 6 mg once daily versus placebo in women with fibromyalgia: a randomised, double-blind, placebo-controlled trial. _The Lancet Rheumatology_. 2024;6(1):e31–e39. @DueBruun2024LDNFibromyalgia
+    *DOI:*: #link("https://doi.org/10.1016/S2665-9913(23)00278-3")[10.1016/S2665-9913(23)00278-3]
+    *PMID:*: 38258677
+    *Study Design:*: Single-centre double-blind RCT
+    *Sample Size:*: n=99 women with fibromyalgia (LDN 6 mg n=49, placebo n=50)
+    *Key Findings:*:
+        - No significant between-group difference in pain intensity change (−0.34 points, p=0.27, Cohen's d 0.23)
+        - AEs in 84% LDN vs 86% placebo; discontinuation due to AEs: 8% vs 6%
+        - LDN may improve memory problems — suggested for future investigation
+    *Conclusion:*: LDN was not superior to placebo for pain in fibromyalgia. Provides safety characterization relevant to Level 1 — LDN antagonizes μ-opioid receptors, creating a pharmacodynamic contraindication with opioid agonists.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Lancet Rheumatology)
+        - *Sample:*: Moderate (n=99)
+        - *Replication:*: Consistent with Yang 2023 systematic review
+        - *Score:*: 0.75
+
+=== Yang et al.\ 2023 — LDN Systematic Review in Fibromyalgia
+
+    *Full Citation:*: Yang J, Shin KM, Do A, Bierle DM, Abu Dabrh AM, Yin Z, Bauer BA, Mohabbat AB. The Safety and Efficacy of Low-Dose Naltrexone in Patients with Fibromyalgia: A Systematic Review. _Journal of Pain Research_. 2023;16:1017–1023. @Yang2023LDNSystematicReview
+    *DOI:*: #link("https://doi.org/10.2147/JPR.S395457")[10.2147/JPR.S395457]
+    *PMID:*: 36974308
+    *PMCID:*: PMC10039621
+    *Study Design:*: Systematic review
+    *Sample Size:*: n=9 studies (1 RCT, 2 case reports, 2 case series, 4 pilot trials)
+    *Key Findings:*:
+        - LDN effective for symptomatic management of fibromyalgia across heterogeneous studies
+        - 78% of included studies evaluated safety — no severe adverse events reported
+        - Evidence level limited; large-sample RCTs needed
+    *Conclusion:*: Provides the most comprehensive safety characterization of LDN. Primary contraindication risk with opioids is pharmacodynamic opposition, not intrinsic LDN toxicity.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (J Pain Res; heterogeneous small studies)
+        - *Sample:*: Aggregated across 9 studies
+        - *Replication:*: Consistent with Due Bruun 2024 and Patten 2018
+        - *Score:*: 0.60
+
+=== Lipworth & Grove 1997 — Partial Beta-Adrenoceptor Agonist Activity
+
+    *Full Citation:*: Lipworth BJ, Grove A. Evaluation of partial beta-adrenoceptor agonist activity. _British Journal of Clinical Pharmacology_. 1997;43(1):9–14. @Lipworth1997PartialAgonist
+    *DOI:*: #link("https://doi.org/10.1111/j.1365-2125.1997.tb00025.x")[10.1111/j.1365-2125.1997.tb00025.x]
+    *PMID:*: 9056046
+    *Study Design:*: Comprehensive review of pharmacological principles
+    *Key Findings:*:
+        - Partial β-AR agonist exhibits opposite agonist/antagonist activity depending on adrenergic tone
+        - In presence of exogenous full agonist, β2-AR partial agonist activity expressed as antagonism (e.g., salmeterol attenuating fenoterol responses)
+        - Reduction of exercise heart rate occurs to a lesser degree with BBs having partial agonist activity
+    *Conclusion:*: Establishes mechanistic basis for Level 1 (Receptor Antagonism). β-blockers + β2-agonists represent direct pharmacodynamic opposition at the receptor level — textbook pharmacology.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Br J Clin Pharmacol, foundational review)
+        - *Sample:*: N/A (pharmacological principles)
+        - *Replication:*: Confirmed in all major pharmacology textbooks
+        - *Score:*: 0.55
+
+=== Everly et al.\ 2004 — Beta-Blocker Underuse in Secondary Prevention of MI
+
+    *Full Citation:*: Everly MJ, Heaton PC, Cluxton RJ Jr. Beta-blocker underuse in secondary prevention of myocardial infarction. _Annals of Pharmacotherapy_. 2004;38(2):286–293. @Everly2004BBUnderuse
+    *DOI:*: #link("https://doi.org/10.1345/aph.1C472")[10.1345/aph.1C472]
+    *PMID:*: 14742768
+    *Study Design:*: Systematic literature review
+    *Key Findings:*:
+        - Absolute BB contraindications: severe bradycardia, sick sinus syndrome, second-/third-degree AV block, severe LV dysfunction, active PVD with rest ischemia, or reactive airway disease requiring airway support
+        - Cardioselective β-blockers + albuterol can minimize bronchospasm effects
+        - BB use reduces mortality by 19–48% and reinfarction by up to 28%
+    *Conclusion:*: Explicit clinical contraindication criteria support Level 1: non-cardioselective β-blockers block β2-mediated bronchodilation, opposing β2-agonist therapy.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (Ann Pharmacother)
+        - *Sample:*: N/A (review)
+        - *Replication:*: Consistent with all major guidelines
+        - *Score:*: 0.50
+
+=== Blockmans et al.\ 2006 — Methylphenidate in CFS (RCT)
+
+    *Full Citation:*: Blockmans D, Persoons P, Van Houdenhove B, Bobbaers H. Does methylphenidate reduce the symptoms of chronic fatigue syndrome? _American Journal of Medicine_. 2006;119(2):167.e23–167.e30. @Blockmans2006MPHCFS
+    *DOI:*: #link("https://doi.org/10.1016/j.amjmed.2005.07.047")[10.1016/j.amjmed.2005.07.047]
+    *PMID:*: 16443425
+    *Study Design:*: Double-blind crossover RCT
+    *Sample Size:*: n=60 CFS (Fukuda 1994)
+    *Key Findings:*:
+        - Methylphenidate 2×10 mg/day significantly reduced fatigue vs placebo (CIS: −9.7, p<0.0001; VAS: −1.0, p=0.001)
+        - Clinical significant effect in only 17% for fatigue, 22% for concentration — 83% non-response
+        - Did NOT assess PEM as outcome
+    *Conclusion:*: Stimulants provide short-term benefit in a minority. The 83% non-response may reflect PEM exacerbation from activity masking. Supports Level 4 — stimulants in documented PEM carry risk of energy envelope violation.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Am J Med, rigorous crossover)
+        - *Sample:*: Moderate (n=60)
+        - *Replication:*: Consistent with Van Houdenhove 2010, Eckey 2025
+        - *Score:*: 0.65
+
+=== Eckey et al.\ 2025 — Patient-Reported Treatment Outcomes in ME/CFS and Long COVID
+
+    *Full Citation:*: Eckey M, Li P, Morrison B, Bergquist J, Davis RW, Xiao W. Patient-reported treatment outcomes in ME/CFS and long COVID. _Proceedings of the National Academy of Sciences_. 2025;122(28):e2426874122. @Eckey2025PatientReported
+    *DOI:*: #link("https://doi.org/10.1073/pnas.2426874122")[10.1073/pnas.2426874122]
+    *PMID:*: 40627388
+    *PMCID:*: PMC12280984
+    *Study Design:*: Large patient survey
+    *Sample Size:*: n=3,925 (ME/CFS and long COVID)
+    *Key Findings:*:
+        - 150+ treatments evaluated; 89.7% ME/CFS reported PEM
+        - POTS-dominant cluster benefited from autonomic modulators; cognitive-dysfunction cluster benefited from CNS stimulants
+        - Treatment responses correlated between ME/CFS and long COVID (R²=0.68)
+    *Conclusion:*: Directly supports cluster-specific contraindications. CNS stimulants may be harmful in POTS-dominant ME/CFS (increased HR → PEM exacerbation). Differential cluster response is empirical basis for Level 4 stimulant contraindication.
+    *Certainty Assessment:*:
+        - *Quality:*: High (PNAS)
+        - *Sample:*: Large (n=3,925)
+        - *Replication:*: Consistent with Blockmans 2006
+        - *Score:*: 0.70
+
+=== Ponticelli et al.\ 2023 — Autophagy and Podocytopathy
+
+    *Full Citation:*: Ponticelli C, Moroni G, Reggiani F. Autophagy and podocytopathy. _Nephrology Dialysis Transplantation_. 2023;38(9):1931–1939. @Ponticelli2023AutophagyPodocyte
+    *DOI:*: #link("https://doi.org/10.1093/ndt/gfad024")[10.1093/ndt/gfad024]
+    *PMID:*: 36708169
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Autophagy regulated by AMPK (activator) and mTOR (inhibitor)
+        - "Caution is needed with other autophagy activators, such as mTOR inhibitors and metformin, because of potential adverse events"
+        - No clinical trial with autophagy regulators in podocytopathies conducted
+    *Conclusion:*: Only identified paper warning about combined mTOR inhibitor + metformin use. Supports Level 4: rapamycin + metformin → dual-pathway mTORC1 suppression → potentially excessive autophagy → amplified PEM risk.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (NDT)
+        - *Sample:*: N/A (review)
+        - *Replication:*: Single cautionary statement; no trial data
+        - *Score:*: 0.45
+
+=== Kim & Farrell 2022 — Orthostatic Hypotension: A Practical Approach
+
+    *Full Citation:*: Kim MJ, Farrell J. Orthostatic Hypotension: A Practical Approach. _American Family Physician_. 2022;105(1):39–49. @Kim2022OrthostaticHypotension
+    *PMID:*: 35029940
+    *Study Design:*: Clinical review
+    *Key Findings:*:
+        - First-line OH medications: midodrine and droxidopa
+        - "Although fludrocortisone improves symptoms, it has concerning long-term effects"
+        - OH associated with up to 50% increase in all-cause mortality
+    *Conclusion:*: Supports contraindication table: fludrocortisone worsening orthostasis → permanent avoidance. Volume expansion does not address structural venous pooling in connective-tissue-driven OH.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (Am Fam Physician)
+        - *Sample:*: N/A (review)
+        - *Replication:*: Consistent with Palma 2020
+        - *Score:*: 0.55
+
+=== Palma & Kaufmann 2020 — Management of Orthostatic Hypotension
+
+    *Full Citation:*: Palma JA, Kaufmann H. Management of Orthostatic Hypotension. _Continuum (Minneapolis, Minn.)_. 2020;26(1):154–177. @Palma2020OHManagement
+    *DOI:*: #link("https://doi.org/10.1212/CON.0000000000000816")[10.1212/CON.0000000000000816]
+    *PMID:*: 31996627
+    *PMCID:*: PMC7339914
+    *Study Design:*: Clinical review (AAN Continuum)
+    *Key Findings:*:
+        - Fludrocortisone associated with renal failure, cardiac failure, increased all-cause hospitalization
+        - Peripheral denervation → better droxidopa response; central dysfunction → better NE reuptake inhibitor response
+    *Conclusion:*: Pharmacodiagnostic differentiation of OH type predicts drug response — aligns with ch33 framework. In connective-tissue-driven OH, fludrocortisone may worsen outcomes.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Continuum — AAN flagship)
+        - *Sample:*: N/A (review)
+        - *Replication:*: Consistent with Kim 2022
+        - *Score:*: 0.60
+
+=== Dayal et al.\ 2025 — Clonidine + Midodrine in SH-OH (Case Report)
+
+    *Full Citation:*: Dayal M, Shah MS, Radfar N, Patel S, Thomas R. Multimodal Management of Supine Hypertension With Orthostatic Hypotension in an Elderly Male Patient With Parkinson's Disease. _Cureus_. 2025;17(4):e82394. @Dayal2025SHOHCase
+    *DOI:*: #link("https://doi.org/10.7759/cureus.82394")[10.7759/cureus.82394]
+    *PMID:*: 40385848
+    *PMCID:*: PMC12084856
+    *Study Design:*: Single case report
+    *Key Findings:*:
+        - Clonidine + hydralazine at bedtime for SH; midodrine timed around daytime activity for OH
+        - Temporal separation successfully managed opposing pharmacodynamic goals
+    *Conclusion:*: Confirms Level 3 (PD Opposition): simultaneous clonidine + midodrine is self-negating, but temporal separation converts opposition into complementarity.
+    *Certainty Assessment:*:
+        - *Quality:*: Low (Cureus case report, n=1)
+        - *Sample:*: Single case
+        - *Replication:*: None
+        - *Score:*: 0.25
+
+=== Amariles et al.\ 2007 — Clinical Relevance of Drug Interactions
+
+    *Full Citation:*: Amariles P, Giraldo NA, Faus MJ. Clinical relevance of drug interactions. _Medicina Clínica_. 2007;129(1):27–35. @Amariles2007DDIClinicalRelevance
+    *DOI:*: #link("https://doi.org/10.1157/13106681")[10.1157/13106681]
+    *PMID:*: 17570184
+    *Study Design:*: Narrative review [Spanish]
+    *Key Findings:*:
+        - Proposes DDI classification based on severity and probability of occurrence
+        - Emphasizes systemic clearance and bioavailability changes as key PK parameters
+    *Conclusion:*: Closest existing framework to DDI severity classification. Uses severity + probability rather than mechanism type — confirming the contraindication ladder's novel organizational principle.
+    *Score:*: 0.40
+
+=== Dieu et al.\ 2019 — High-Risk DDI Prevalence in Paediatric Inpatients
+
+    *Full Citation:*: Dieu LW, Leuppi-Taegtmeyer AB, van den Anker J, Trachsel D, Gotta V. Prevalence of high-risk drug-drug interactions in paediatric inpatients: a retrospective, single-centre cohort analysis. _Swiss Medical Weekly_. 2019;149:w20103. @Dieu2019DDIPaediatrics
+    *DOI:*: #link("https://doi.org/10.4414/smw.2019.20103")[10.4414/smw.2019.20103]
+    *PMID:*: 31422575
+    *Study Design:*: Retrospective cohort analysis
+    *Sample Size:*: n=300 paediatric inpatients
+    *Key Findings:*:
+        - Pharmavista CDSS uses "contraindicated" and "contraindicated by precaution" severity tiers
+        - Zero cases "contraindicated"; 1.7% "contraindicated by precaution"
+    *Conclusion:*: Demonstrates existing severity-tiered DDI systems but none organize by mechanism type — confirming the ladder's novelty.
+    *Score:*: 0.55
+
+// =============================================================================
+
+== Diurnal Response Window — Time-of-Day Drug Response as Pharmacodiagnostic Probe
+<sec:bib-diurnal-response-window>
+
+// =============================================================================
+
+=== Lévi et al.\ 2024 — Circadian Regulation of Drug Responses
+
+    *Full Citation:*: Lévi FA, Okyar A, Hadadi E, Innominato PF, Ballesta A. Circadian regulation of drug responses: toward sex-specific and personalized chronotherapy. _Annual Review of Pharmacology and Toxicology_. 2024;64:89–114. @Levi2024chronopharmacologyReview
+    *DOI:*: #link("https://doi.org/10.1146/annurev-pharmtox-051920-095416")[10.1146/annurev-pharmtox-051920-095416]
+    *PMID:*: 37722720
+    *Published:*: January 23, 2024
+    *Study Design:*: Comprehensive review
+    *Key Findings:*:
+        - Comprehensive framework integrating molecular clocks into personalized chronotherapy
+        - Sexually dimorphic circadian drug responses identified across multiple drug classes (chemotherapy, immunotherapy, cardiovascular, metabolic, inflammatory, neurological)
+        - Proper administration timing confirmed to improve tolerability/efficacy
+        - Introduces chronofit vs nonchronofit patient classification based on circadian function robustness
+        - Chronobiotics (drugs targeting the circadian clock) as emerging pharmacological class
+        - Recommends integration of remote longitudinal circadian monitoring, single-timepoint biopsy-based clock function prediction, and multiscale biorhythmic mathematical modelling
+    *Relevance:*: Foundational framework for the diurnal response window concept. Introduces key conceptual vocabulary: chronopharmacology, chronotherapy, molecular clock function prediction. Directly relevant to classifying ME/CFS patients by circadian robustness for probe interpretation — chronofit patients would show cleaner diurnal drug response differences.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Annual Review of Pharmacology and Toxicology; top-tier review)
+        - *Sample:*: N/A (review)
+        - *Replication:*: Synthesizes multiple clinical domains
+        - *Score:*: 0.85 (weight: 0.75; discounted: 0.64)
+
+=== Livieratos et al.\ 2025 — Post-Infectious Fatigue and Circadian Rhythm Disruption
+
+    *Full Citation:*: Livieratos A, Lockley SW, Tsiodras S. Post infectious fatigue and circadian rhythm disruption in long-COVID and other infections: a need for further research. _EClinicalMedicine_. 2025;80:103073. @Livieratos2025circadianPostInfectious
+    *DOI:*: #link("https://doi.org/10.1016/j.eclinm.2025.103073")[10.1016/j.eclinm.2025.103073]
+    *PMID:*: 39896874
+    *PMCID:*: PMC11787434
+    *Published:*: January 18, 2025
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Post-infectious fatigue and sleep disturbances intimately linked to circadian rhythm disruption driven by SARS-CoV-2 infection
+        - Dysregulation of core clock genes: CLOCK, BMAL1, PER2
+        - Mitochondrial dysfunction impairing oxidative phosphorylation
+        - Cytokine-induced neuroinflammation (IL-6, TNF-α) as circadian disruptor
+        - Epigenetic changes including DNA methylation at clock-related loci, particularly in peripheral tissues
+        - Systemic circadian dysregulation identified as molecular hallmark of post-infectious fatigue syndromes
+    *Relevance:*: Most directly relevant paper to ME/CFS circadian disruption. Provides molecular basis (clock genes, mitochondrial dysfunction, epigenetic modifications) for why diurnal drug response windows would be abnormal in ME/CFS — the disrupted circadian clock creates an exaggerated diurnal signal-to-noise ratio for drug response differences. Argues that circadian disruption is not merely a symptom but a core pathophysiological mechanism.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (EClinicalMedicine/Lancet group; comprehensive mechanistic synthesis)
+        - *Sample:*: N/A (review; Long COVID focus rather than classic ME/CFS)
+        - *Replication:*: Mechanistic pathways still largely preclinical
+        - *Score:*: 0.65 (weight: 0.85; discounted: 0.55)
+
+=== Woo et al.\ 2026 — Neuroendocrine Signature of ME/CFS (Meta-Analysis)
+
+    *Full Citation:*: Woo TW, Choi YJ, Kim JY, Lee JS, Son CG. Neuroendocrine signature of ME/CFS: Meta-analytic evidence for bioactive cortisol deficit and exaggerated feedback sensitivity. _Molecular Psychiatry_. 2026. Online ahead of print. @Woo2026mecfsCortisolMeta
+    *DOI:*: #link("https://doi.org/10.1038/s41380-026-03608-1")[10.1038/s41380-026-03608-1]
+    *PMID:*: 42026257
+    *Published:*: April 23, 2026 (online ahead of print)
+    *Study Design:*: Systematic review and meta-analysis
+    *Sample Size:*: 46 independent datasets; 1,388 ME/CFS patients (71.9% female; mean age 37.3 ± 6.2 yrs); 1,349 matched healthy controls
+    *Diagnostic Criteria:*: varied (Fukuda, CCC, IOM across 46 included studies)
+    *Key Findings:*:
+        - Lower salivary cortisol at awakening and in the morning compared to controls
+        - Reduced 24-hour urinary cortisol and hair cortisol (cumulative output measures)
+        - Impaired cortisol release in response to ACTH stimulation (adrenal sensitivity reduced)
+        - Exaggerated cortisol suppression following glucocorticoid administration (enhanced negative feedback)
+        - Consistent pattern across measurement matrices: reduced free cortisol availability + enhanced HPA-axis negative feedback sensitivity
+    *Relevance:*: Highest-certainty paper in the diurnal response window evidence base. Quantifies the blunted diurnal cortisol rhythm in ME/CFS — the physiological substrate that the diurnal response window probe exploits. The exaggerated negative feedback sensitivity suggests drugs that modulate the HPA axis (corticosteroids, CRH antagonists, glucocorticoid receptor modulators) will show amplified diurnal response differences in ME/CFS compared to healthy controls. Provides effect-size benchmarks for power calculations in future chronopharmacology studies targeting ME/CFS.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Molecular Psychiatry; systematic review with meta-analysis; 46 datasets)
+        - *Sample:*: Large (n=2,737 total included; largest HPA meta-analysis in ME/CFS)
+        - *Replication:*: Meta-analytic aggregation of 46 independent studies
+        - *Score:*: 0.88 (weight: 1.00; discounted: 0.88)
+
+=== Okyar et al.\ 2024 — Circadian Timing System and Drug Metabolism
+
+    *Full Citation:*: Okyar A, Ozturk Civelek D, Akyel YK, Surme S, Pala Kara Z, Kavakli IH. The role of the circadian timing system on drug metabolism and detoxification: an update. _Expert Opinion on Drug Metabolism & Toxicology_. 2024;20(6):503–517. @Okyar2024circadianDrugMetabolism
+    *DOI:*: #link("https://doi.org/10.1080/17425255.2024.2356167")[10.1080/17425255.2024.2356167]
+    *PMID:*: 38753451
+    *Published:*: June 2024
+    *Study Design:*: Expert review
+    *Key Findings:*:
+        - ABC and SLC transporter families in intestine, liver, and kidney show dominant circadian regulation at the transcriptional level
+        - CYP450 systems in intestine, liver, and kidney under circadian clock control via CLOCK:BMAL1 binding to E-box elements in CYP gene promoters
+        - Circadian efflux control at blood-brain barrier documented — CNS drug penetration varies by time of day
+        - Sex-related circadian changes in metabolism and detoxification processes identified
+        - Better understanding of coupling between central clock and circadian metabolism/transport contributes to rational chronotherapy
+    *Relevance:*: PK arm of the diurnal response window probe. If a drug shows time-of-day efficacy differences, the Okyar framework allows differential attribution to PK (circadian metabolism/clearance) vs PD (circadian receptor expression at the target). The two must be disentangled for valid mechanistic inference. Identifies specific CYP isoforms and transporter families with known circadian expression for systematic probe design: a drug whose response varies by time of day and whose primary metabolism is through a non-circadian CYP isoform is likely showing PD-mediated diurnal variation.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (Expert Opinion on Drug Metabolism & Toxicology; authoritative but not systematic)
+        - *Sample:*: N/A (review; preclinical + clinical pharmacology literature)
+        - *Replication:*: Well-established chronopharmacology principle supported across multiple independent labs
+        - *Score:*: 0.78 (weight: 0.75; discounted: 0.59)
+
+=== Hermida et al.\ 2021 — Trial Design Guidelines for Ingestion-Time Chronopharmacology
+
+    *Full Citation:*: Hermida RC, Smolensky MH, Balan H, et al.\ Guidelines for the design and conduct of human clinical trials on ingestion-time differences — chronopharmacology and chronotherapy — of hypertension medications. _Chronobiology International_. 2021;38(1):1–26. @Hermida2021chronotherapyGuidelines
+    *DOI:*: #link("https://doi.org/10.1080/07420528.2020.1850468")[10.1080/07420528.2020.1850468]
+    *PMID:*: 33342316
+    *PMCID:*: PMC8112296
+    *Published:*: January 2021
+    *Study Design:*: Position statement / methodological guidelines
+    *Key Findings:*:
+        - Defines 8-point minimum guidelines for chronopharmacology trials: recruitment restricted to ABPM-diagnosed hypertensives with comparable activity/sleep routines; treatment times selected by internal biological time (sleep/wake cycle) not clock time; ABPM as primary or sole BP assessment method; asleep BP mean and sleep-time relative decline calculated per individual; adjusted calculation procedure for ABPM means (not arithmetic averages); validated devices hourly over ≥48h; minimum sample size calculation by proper statistical methods; randomized double-blind or crossover design with adequate washout
+        - Reviews >150 human hypertension chronopharmacology trials (1974–present) documenting diverse protocols of suboptimal or defective design
+        - Common flaws: time-of-day vs circadian-time confusion, underpowered samples, inadequate washout, wake-time office BP rather than ABPM
+        - Prior studies mostly small sample size and statistically underpowered
+    *Relevance:*: Provides methodological template for designing diurnal response window studies in ME/CFS. Critical design elements directly applicable: alignment to individual sleep/wake cycle (not clock time), multi-day monitoring (≥48h), differentiation of circadian-phase-based vs clock-time-based timing, adequate power calculations, and blinding. These design elements prevent the common confound where "morning vs evening" studies conflate circadian phase with time since awakening.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Chronobiology International; multi-center consensus; 22 co-authors from international institutions)
+        - *Sample:*: N/A (methodological review; >150 trials)
+        - *Replication:*: Consensus position statement backed by comprehensive literature review
+        - *Score:*: 0.82 (weight: 0.75; discounted: 0.62)
+
+=== Alten et al.\ 2015 — Delayed-Release Prednisone in RA (CAPRA-2 RCT)
+
+    *Full Citation:*: Alten R, Grahn A, Holt RJ, Rice P, Buttgereit F. Delayed-release prednisone improves fatigue and health-related quality of life: findings from the CAPRA-2 double-blind randomised study in rheumatoid arthritis. _RMD Open_. 2015;1(1):e000134. @Alten2015prednisoneChronotherapy
+    *DOI:*: #link("https://doi.org/10.1136/rmdopen-2015-000134")[10.1136/rmdopen-2015-000134]
+    *PMID:*: 26535146
+    *PMCID:*: PMC4623361
+    *Published:*: August 13, 2015
+    *Study Design:*: Double-blind randomized controlled trial
+    *Sample Size:*: n=350 symptomatic RA patients on DMARDs; randomized 2:1 to DR-prednisone 5mg vs placebo (12 weeks)
+    *Diagnostic Criteria:*: ACR/EULAR RA criteria
+    *Key Findings:*:
+        - Delayed-release prednisone (administered ~22:00, releases at ~02:00) significantly improved fatigue beyond DMARD alone (FACIT-F: +3.8 vs +1.6 placebo; p=0.0032)
+        - Improvement in FACIT-F correlated positively with clinical response
+        - Significantly greater improvement in SF-36 vitality score (+5.6, p=0.001), physical component (+2.3, p=0.0003), and FACT-G general quality of life (+2.6, p=0.0233)
+        - Mechanism: evening administration timed so drug release at ~02:00 coincides with nocturnal rise of pro-inflammatory cytokines (IL-6, TNF-α) that drive morning stiffness and fatigue
+    *Relevance:*: Proof-of-concept demonstration that timing of drug administration predicts efficacy specifically for the fatigue dimension — the exact probe logic. Establishes that chronotherapy for fatigue is clinically feasible, measurable, and significant. If evening prednisone improves RA fatigue by timing anti-inflammatory action to the nocturnal cytokine surge, the same principle is applicable to ME/CFS where nocturnal immune activation is suspected. Demonstrates that chronotherapy is not merely theoretical — it produces clinically meaningful effect sizes (FACIT-F 2.2 points above placebo).
+    *Certainty Assessment:*:
+        - *Quality:*: High (RMD Open; double-blind RCT; n=350)
+        - *Sample:*: RA population (not ME/CFS); commercial trial (Horizon Pharma)
+        - *Replication:*: Single RCT; CAPRA-1 (proof-of-concept) replicated by CAPRA-2
+        - *Score:*: 0.82 (weight: 0.75; discounted: 0.62)
+
+=== Galbo & Kall 2016 — Circadian Variations in PMR
+
+    *Full Citation:*: Galbo H, Kall L. Circadian variations in clinical symptoms and concentrations of inflammatory cytokines, melatonin, and cortisol in polymyalgia rheumatica before and during prednisolone treatment: a controlled, observational, clinical experimental study. _Arthritis Research & Therapy_. 2016;18:174. @Galbo2016pmrCircadianCytokines
+    *DOI:*: #link("https://doi.org/10.1186/s13075-016-1072-4")[10.1186/s13075-016-1072-4]
+    *PMID:*: 27455959
+    *PMCID:*: PMC4960703
+    *Published:*: July 26, 2016
+    *Study Design:*: Controlled observational study with repeated 24h measurements
+    *Sample Size:*: n=10 glucocorticoid-naive PMR patients; n=7 non-PMR control subjects
+    *Diagnostic Criteria:*: PMR clinical diagnosis
+    *Key Findings:*:
+        - Pain and stiffness peaked in early morning (plateau 04:00–08:00), declined to nadir at 16:00 (2P < 0.05)
+        - Plasma IL-6, IL-8, TNF-α, IL-1β, and IL-4 varied with diurnal time in both groups, peaking between 04:00 and 08:00
+        - Cytokine concentrations (except IL-1β) and IL-10 were higher in patients throughout 24h
+        - Melatonin and cortisol consistently higher in patients, peaking ~02:00 and ~08:00 respectively
+        - Prednisolone 20mg/day for 14 days abolished symptoms, normalized CRP, reduced melatonin, IL-6, IL-8, and TNF-α; IL-10 increased at 10:00–14:00
+        - Findings support melatonin → cytokine production → symptoms pathway, with cortisol acting as anti-inflammatory counter-regulator
+    *Relevance:*: Demonstrates diurnal symptom-cytokine coupling in an autoimmune fatigue condition — provides precedent for time-of-day drug testing in fatigue syndromes. The 04:00–08:00 inflammatory peak is the target window for chronotherapy. Extending this logic to ME/CFS: a drug effective at 08:00 but not 20:00 may reflect anti-cytokine action timed to the nocturnal inflammatory surge. A drug effective at 20:00 but not 08:00 may reflect an anticipatory anti-inflammatory mechanism. The cytokine time-course data provides the circadian biomarker against which drug response timing can be interpreted.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (Arthritis Research & Therapy; controlled, repeated-measures, biomarker-linked)
+        - *Sample:*: Very small (n=10 PMR); PMR ≠ ME/CFS; open-label prednisolone
+        - *Replication:*: Single-center (Copenhagen); single study
+        - *Score:*: 0.75 (weight: 0.65; discounted: 0.49)
+
+=== Cutolo 2019 — Circadian Rhythms and Rheumatoid Arthritis
+
+    *Full Citation:*: Cutolo M. Circadian rhythms and rheumatoid arthritis. _Joint Bone Spine_. 2019;86(3):327–333. @Cutolo2019circadianRA
+    *DOI:*: #link("https://doi.org/10.1016/j.jbspin.2018.09.003")[10.1016/j.jbspin.2018.09.003]
+    *PMID:*: 30227223
+    *Published:*: May 2019
+    *Study Design:*: Review with clinical practice integration
+    *Key Findings:*:
+        - RA symptoms (joint pain, stiffness, functional disability) show circadian variation with early morning maximum
+        - Nighttime rise of pro-inflammatory cytokines (especially IL-6, TNF-α) precedes clinical symptoms
+        - Cortisol circadian rhythm relatively preserved but insufficient in magnitude to suppress the increased inflammation — relative adrenal insufficiency
+        - Melatonin stimulates production of inflammatory cytokines (contrasts with its sleep-promoting role)
+        - Chronotherapy with modified-release prednisone administered at bedtime delays drug release to ~02:00–04:00, optimizing cytokine suppression
+        - Circadian-informed timing of NSAIDs and DMARDs also under investigation
+    *Relevance:*: Clinical template for the diurnal probe concept. RA serves as the best-studied exemplar where timing of drug administration is mechanistically linked to diurnal pathophysiology (nocturnal cytokine surge → morning symptoms → bedtime drug timing). The "relative adrenal insufficiency" in RA is structurally analogous to the blunted cortisol axis in ME/CFS (Woo 2026) — if endogenous cortisol is already low, the diurnal drug response window for HPA-axis-modulating drugs may be amplified compared to healthy controls.
+    *Certainty Assessment:*:
+        - *Quality:*: High (Joint Bone Spine; authoritative review by senior rheumatology chronopharmacology researcher)
+        - *Sample:*: N/A (review; RA-specific)
+        - *Replication:*: Well-replicated clinical principle across RA literature
+        - *Score:*: 0.75 (weight: 0.70; discounted: 0.53)
+
+=== Zaki et al.\ 2019 — Chronotherapeutics Review
+
+    *Full Citation:*: Zaki NFW, Yousif M, BaHammam AS, Spence DW, Bharti VK, Subramanian P, Pandi-Perumal SR. Chronotherapeutics: recognizing the importance of timing factors in the treatment of disease and sleep disorders. _Clinical Neuropharmacology_. 2019;42(3):80–87. @Zaki2019chronotherapeuticsReview
+    *DOI:*: #link("https://doi.org/10.1097/WNF.0000000000000341")[10.1097/WNF.0000000000000341]
+    *PMID:*: 31082833
+    *Published:*: May/June 2019
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Systematic description of chronopharmacology principles: the way biological processes are expressed throughout the 24-hour day affects drug response
+        - Defines key terms: chronopharmacology (timing effects on kinetics/dynamics), chronotherapeutics (timing to optimize efficacy/safety), chronotype (individual circadian preference)
+        - Reviews time-specified drug treatment for sleep disorders including hypnotics, melatonin/ramelteon, and wake-promoting agents
+        - Covers cardiovascular chronotherapy (evening ACE inhibitors, bedtime statins), respiratory disease (evening theophylline), cancer chronotherapy
+        - Chronotype as individual-difference factor — morning vs evening types may show opposite drug response timing
+        - Promotes adoption by researchers and clinicians
+    *Relevance:*: Accessible entry-point review covering drug classes commonly used in ME/CFS symptom management (antidepressants, hypnotics, stimulants) from a circadian perspective. Chronotype dimension is directly relevant: ME/CFS patients with phase-delayed chronotype (evening preference) may show different optimal drug timing than phase-advanced patients. The review explicitly positions chronopharmacology as an underutilized dimension of precision medicine.
+    *Certainty Assessment:*:
+        - *Quality:*: Low-Medium (Clinical Neuropharmacology; narrative review without systematic methodology)
+        - *Sample:*: N/A (review); selective coverage of drug classes
+        - *Replication:*: N/A (introductory review)
+        - *Score:*: 0.60 (weight: 0.75; discounted: 0.45)
+
+=== Ohdo 2021 — Chrono-Drug Discovery Based on Circadian Rhythm
+
+    *Full Citation:*: Ohdo S. Chrono-drug discovery and development based on circadian rhythm of molecular, cellular and organ level. _Biological & Pharmaceutical Bulletin_. 2021;44(6):747–761. @Ohdo2021chronoDrugDiscovery
+    *DOI:*: #link("https://doi.org/10.1248/bpb.b21-00277")[10.1248/bpb.b21-00277]
+    *PMID:*: 34078807
+    *Published:*: 2021
+    *Study Design:*: Review
+    *Key Findings:*:
+        - Suprachiasmatic nucleus (SCN) as circadian pacemaker; clock genes (CLOCK/BMAL1/PER/CRY) regulate vast array of circadian rhythms in drug targets, transporters, and metabolizing enzymes
+        - Clock gene disruption linked to sleep disorders, metabolic syndromes, and cancer
+        - Chrono-DDS (drug delivery systems matching circadian rhythm) as emerging paradigm
+        - Circadian dynamics of cancer stem cells controlled by tumor microenvironment — timing-sensitive therapeutic windows
+        - Novel clock gene modulators (chronobiotics) being developed as therapeutic targets: case study of CKD model where clock-targeting inhibitor repressed renal inflammation
+        - Gene/antibody delivery targeting specific clock-controlled molecules
+    *Relevance:*: Molecular-level foundation for the diurnal response window probe. If a drug's target (receptor, enzyme, transporter) is under circadian clock transcriptional control, the drug's efficacy at different times of day reveals the functional integrity of the clock-gene pathway regulating that target. In ME/CFS patients where Livieratos 2025 documents clock gene dysregulation, the diurnal drug response window should be exaggerated — the disrupted clock amplifies the normally subtle diurnal variation in target expression. Identifies specific clock genes as potential pharmacodiagnostic targets.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium (Biol Pharm Bull; review, primarily preclinical/cellular evidence)
+        - *Sample:*: N/A (review; cancer-centric examples)
+        - *Replication:*: Core clock mechanisms well-established across organisms; Chrono-DDS applications less replicated
+        - *Score:*: 0.65 (weight: 0.50; discounted: 0.33)
+
+=== Guarnotta et al.\ 2021 — Adrenal Insufficiency Steroid Chronopharmacology
+
+    *Full Citation:*: Guarnotta V, Amodei R, Giordano C. Metabolic comorbidities of adrenal insufficiency: focus on steroid replacement therapy and chronopharmacology. _Current Opinion in Pharmacology_. 2021;60:123–132. @Guarnotta2021adrenalChronopharmacology
+    *DOI:*: #link("https://doi.org/10.1016/j.coph.2021.07.003")[10.1016/j.coph.2021.07.003]
+    *PMID:*: 34416524
+    *Published:*: October 2021
+    *Study Design:*: Review
+    *Key Findings:*:
+        - In adrenal insufficiency, hydrocortisone replacement must mimic the physiological circadian cortisol rhythm: peak at ~08:00, trough at midnight
+        - Standard bid/tid dosing regimens fail to replicate the normal diurnal curve — supraphysiological peaks then subphysiological troughs
+        - Modified-release hydrocortisone formulations (dual-release, once-daily at bedtime; Chronocort) better approximate the physiological rhythm
+        - Circadian-matched replacement reduces metabolic comorbidities (obesity, insulin resistance, osteoporosis, cardiovascular risk) compared to flat-dosing regimens
+        - Quality of life improved when steroid replacement respects circadian control of HPA axis output
+        - Chronopharmacological approach is standard of care in modern adrenal insufficiency management
+    *Relevance:*: Directly relevant to ME/CFS where HPA axis output is blunted (Woo 2026). If ME/CFS patients have functional adrenal insufficiency (reduced cortisol availability + exaggerated feedback sensitivity), the diurnal timing of corticosteroid administration — or any drug that modulates HPA axis feedback — should produce amplified response differences compared to healthy controls. The adrenal insufficiency chronopharmacology experience demonstrates clinically: circadian-matched dosing is not merely a theoretical ideal, it produces measurable improvements in metabolic and quality-of-life outcomes.
+    *Certainty Assessment:*:
+        - *Quality:*: Medium-High (Current Opinion in Pharmacology; authoritative review)
+        - *Sample:*: N/A (review; adrenal insufficiency ≠ ME/CFS)
+        - *Replication:*: Supported by Chronocort and Plenadren clinical development programs
+        - *Score:*: 0.70 (weight: 0.60; discounted: 0.42)

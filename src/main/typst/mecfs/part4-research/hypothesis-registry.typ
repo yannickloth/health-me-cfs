@@ -4823,3 +4823,73 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [Framework-level — no direct treatment recommendation. Informs interpretation of existing null responses and design of future pharmacodiagnostic protocols.],
   limitation: [All probes untested in ME/CFS. BLOCKED subtype contingent on validated pathogenic GPCR AAb detection (contested). OVERWHELMED subtype contingent on KYNA elevation (minority of patients). Framework may add conceptual precision with zero practical impact if blocked/overwhelmed null prevalence is negligible.],
 )
+
+= Entries added 2026-07-28: Menstrual Cycle as Endogenous Pharmacodiagnostic Probe
+
+#registry-entry(
+  [Menstrual Cycle as Endogenous Pharmacodiagnostic Probe — Drug Response Tracking Across Cycle Phases],
+  type: "S",
+  certainty: "0.25",
+  evidence: [Oestrogen rapidly potentiates NMDA signalling via ER transactivation of MAPK/ERK and PI3K/Akt (review, largely animal data @Sellers2015estrogenSynaptic, cert 0.36 discounted). Progesterone-derived allopregnanolone enhances GABA-A tonic current, with receptor subunit composition shifting drug sensitivity (review, preclinical @Locci2017neurosteroidGABA, cert 0.36 discounted). Oestrogen modulates serotonin synthesis, release, and receptor sensitivity (review @Shadani2024psychedelicsSex, cert 0.44 discounted). Menstrual cycle hormones produce measurable whole-brain structural changes in humans (n=30 @Rizor2024brainArchitecture, cert 0.53 discounted). Thomas et al. 2026 explicitly call for menstrual-cycle-aware sampling in ME/CFS research (review @Thomas2026neuroendocrinologyFramework, cert 0.60 discounted). PET null findings constrain but do not falsify: 5-HT1A binding unchanged across cycle (n=13 @Jovanovic2009serotoninPET), D2 availability unchanged (n=16 @Petersen2021D2estradiol). CYP450 expression stable across rat oestrous cycle @Lee2012CYPestrous suggests PD over PK interpretation. PK data in humans mixed (review @Bosch2025sexPKreview). Zero human studies testing cycle-phase-dependent drug response as receptor-system probe. Origin: brainstorm — @sec:menstrual-cycle-dopaminergic-mast-cell-probe, extended to pharmacodiagnostic drug-response tracking.],
+  citations: [@Sellers2015estrogenSynaptic @Locci2017neurosteroidGABA @Shadani2024psychedelicsSex @Rizor2024brainArchitecture @Thomas2026neuroendocrinologyFramework @Jovanovic2009serotoninPET @Petersen2021D2estradiol @Lee2012CYPestrous @Bosch2025sexPKreview],
+  mechanism: [Menstrual hormone fluctuations (oestrogen at follicular/ovulatory peak → potentiates NMDA, D2, 5-HT1A signalling; progesterone/allopregnanolone at luteal peak → potentiates GABA-A) provide a predictable, endogenous oscillation of receptor function. Tracking drug response across two full cycles maps the drug's mechanism to hormone-gated receptor families: follicular benefit → oestrogen-coupled (NMDA/D2/serotonergic); luteal benefit → progesterone/GABA-coupled; flat response → hormone-independent. The probe relies on functional sensitivity differences (downstream signalling cascade potency), not receptor density changes (PET-null for D2/5-HT1A binding). PK confound (oestrogen modulation of CYP) must be controlled via serum drug level measurement.],
+  chapter-ref: [ch33 sec-10 subsec-07: endogenous probes — menstrual cycle pharmacodiagnostic],
+  prediction: [In a prospective N-of-1 trial, premenopausal ME/CFS patients track a drug with known receptor pharmacology across 3+ cycles. Cycle-phase response variation >30% with follicular-phase benefit → D2 is oestrogen-coupled. Falsified if (a) drug serum levels vary by cycle phase (PK confound), (b) same variation with placebo, or (c) D2/5-HT1A functional output (cAMP response to agonist in PBMCs) shows zero cycle-phase variation in humans.],
+  treatment: [None — observational probe, not a treatment recommendation. Formalises cycle-phase drug-response tracking as a zero-cost diagnostic method. Applies only to menstruating patients with regular cycles (excludes postmenopausal, continuous hormonal contraception, prepubertal, male, amenorrhoeic).],
+  limitation: [No human study has directly tested the probe concept in any disease. The >30% threshold is arbitrary. Two-timepoint sampling (follicular vs luteal) may miss periovulatory oestrogen peak. Cycle-phase symptom patterns confounded by non-hormonal factors (menstrual pain, sleep disruption). Requires minimum 8 weeks for reliable inference. All mechanistic evidence for oestrogen→receptor modulation from general-population and animal studies; no ME/CFS-specific validation. Risk of over-interpretation, though risk of harm is negligible (observational only). Origin: brainstorm.],
+)
+
+#registry-entry(
+  [Menstrual Cycle Phase at Drug Initiation as Confound in N-of-1 Trial Design],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Logical corollary of @spec:menstrual-cycle-pharmacodiagnostic-probe. If cycle-phase hormone levels modulate receptor sensitivity, a D2 agonist started during high-oestrogen follicular phase will produce a different initial response than the same drug started during low-oestrogen luteal phase — creating a systematic confound in N-of-1 trial interpretation that reads as tachyphylaxis (if started at follicular peak followed by luteal decline) or inefficacy (if started at luteal nadir). Zero human data. Origin: brainstorm — Phase 5 extension.],
+  citations: [@Sellers2015estrogenSynaptic @Petersen2021D2estradiol @Rizor2024brainArchitecture],
+  mechanism: [Cycle phase at drug initiation → initial receptor state (oestrogen-potentiated vs baseline) → initial drug response magnitude. Follicular-start trials produce higher initial efficacy for oestrogen-coupled drugs → subsequent luteal-phase decline misinterpreted as tachyphylaxis or tolerance. Luteal-start trials produce lower initial efficacy → drug abandoned as ineffective. Standardising initiation to day 1 of menses (hormone nadir) OR recording cycle phase as covariate eliminates the confound.],
+  chapter-ref: [ch33 sec-10 subsec-07: endogenous probes — menstrual cycle pharmacodiagnostic],
+  prediction: [In pooled N-of-1 trial data from premenopausal ME/CFS patients, cycle phase at drug initiation predicts response magnitude for dopaminergic drugs (follicular-start higher initial response than luteal-start). Null result would suggest cycle-phase-independent initial response, removing the confound.],
+  treatment: [Methodological recommendation: standardise drug trial initiation to a specific cycle phase (day 1 of menses) or record phase as covariate and test for phase × response interaction. No treatment recommendation.],
+  limitation: [No prospective data. Requires coordinating drug trial initiation with menstrual phase — adds logistical burden. If confirmed null, this recommendation is unnecessary. If confirmed positive, applies only to oestrogen-coupled drugs (D2 agonists, SSRIs, NMDA modulators), not all medications. Origin: brainstorm.],
+)
+
+#registry-entry(
+  [Can Cycle-Phase Drug Response Patterns Stratify ME/CFS Patients by Mechanism?],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [Entirely inferential — builds on @spec:menstrual-cycle-pharmacodiagnostic-probe. If cycle-phase-dependent drug response identifies patient subgroups with oestrogen- or progesterone-coupled pathophysiology, these subgroups may differ in prognosis, treatment trajectory, or biomarker profile. Zero data.],
+  citations: [],
+  mechanism: [Cycle-phase response pattern → patient-level mechanism identification → treatment stratification: oestrogen-dependent responders may benefit from hormonal modulation or continuous-cycle contraceptives; hormone-independent responders would waste time on hormonal strategies. The concept is that cycle-phase variation is not just diagnostic for the drug's mechanism but for the patient's disease pathophysiology.],
+  chapter-ref: [ch33 sec-10 subsec-07: endogenous probes — menstrual cycle pharmacodiagnostic],
+  prediction: [If cycle-phase drug response is prospectively tracked across a cohort, patients with >30% follicular response variation will differ from those with less than 15% variation in: (a) response to hormonal modulation, (b) D2 agonist efficacy, (c) oestrogen receptor gene expression in PBMCs. Falsified if no patient-level differences emerge beyond the drug-level mechanism inference.],
+  treatment: [Research-stage only — not a basis for current clinical decisions.],
+  limitation: [Requires validation of the base probe concept first. Patient stratification by cycle-phase response is a second-order inference. Entirely untested. Origin: brainstorm.],
+)
+
+= Entries added 2026-07-28: Charlton et al. 2026 — Bed Rest Comparator Study
+
+#registry-entry(
+  [OXPHOS–V̇O₂ₘₐₓ Uncoupling Reflects Disease-Intrinsic Mitochondrial Dysfunction, Not Deconditioning],
+  type: "FH",
+  certainty: "0.65",
+  evidence: [Charlton et al. (2026, Nature Communications) @Charlton2026MuscleBedrest: n=105 total (26 ME/CFS, 25 Long COVID, 30 healthy controls, 24 pre-/post-bed-rest). OXPHOS capacity (high-resolution respirometry) correlated with V̇O₂ₘₐₓ (maximal CPET) in healthy controls (r>0) and pre-/post-bed-rest, but not in either patient group. Intrinsic mitochondrial function (OXPHOS/SDH, E/L coupling) impaired in patients but not after bed rest. Corroborated by Joseph 2021 (invasive CPET: impaired O₂ extraction in ME/CFS @Joseph2021iCPETmeCFS), Germain 2025 (plasma proteomics: disrupted proteomic-VO₂max associations in ME/CFS @Germain2025PlasmaProteomePEM), and Eggelbusch 2024 (bed rest: preserved OXPHOS–performance coupling despite atrophy @Eggelbusch2024BedrestMetab).],
+  citations: [@Charlton2026MuscleBedrest @Joseph2021iCPETmeCFS @Germain2025PlasmaProteomePEM @Eggelbusch2024BedrestMetab],
+  mechanism: [Mitochondrial respiratory capacity normally scales with whole-body aerobic performance. In ME/CFS, the coupling breaks: patients have low V̇O₂ₘₐₓ regardless of how much mitochondrial machinery they retain, and intrinsic mitochondrial function is impaired (lower OXPHOS/SDH, lower E/L coupling). This is not a deconditioning effect — bed rest reduces both OXPHOS and V̇O₂ₘₐₓ but preserves their correlation. The limiting factor is either downstream of the mitochondrion (O₂ delivery failure, microvascular obstruction) or upstream (CNS-mediated motor output restriction).],
+  chapter-ref: [ch20: universal mechanisms — Family 17 structural integrity / @fhyp:oxphos-vo2max-uncoupling],
+  prediction: [Interventions that increase mitochondrial content (pyruvate dehydrogenase activation, NAD⁺ precursors) should restore the OXPHOS–V̇O₂ₘₐₓ correlation if the uncoupling is a modifiable mitochondrial failure. If V̇O₂ₘₐₓ remains uncoupled despite raised OXPHOS capacity, the limiting factor is upstream (CNS motor output) or delivery-side (microvascular obstruction). Interventions improving O₂ delivery (volume expansion, pyridostigmine) that restore the correlation would localise the bottleneck to the microvasculature.],
+  treatment: [Research-stage only. Implications for clinical approach: "reconditioning" is not a rational therapeutic strategy — the molecular machinery needed to adapt to exercise is itself impaired. Mitochondrial support strategies (CoQ10, NAD⁺ precursors) and microvascular therapies are rational targets.],
+  limitation: [Single cohort, single lab (Wüst/VU Amsterdam). No independent replication of the OXPHOS–V̇O₂ₘₐₓ dissociation specifically. Mild–moderate patients only (daily steps 733–8609). Organelle-level finding; no patient-reported outcome data. Correlation design (change in V̇O₂ₘₐₓ after raising OXPHOS has not been tested prospectively).],
+)
+
+#registry-entry(
+  [Sixty-Day Bed Rest Fails to Reproduce ME/CFS Muscle Phenotype — Deconditioning Not the Explanation],
+  type: "A",
+  certainty: "0.85",
+  evidence: [Charlton et al. (2026, Nature Communications) @Charlton2026MuscleBedrest compared 60-day strict head-down tilt bed rest (n=24 healthy volunteers) against 26 ME/CFS patients, 25 Long COVID patients, and 30 healthy controls across multiple independent measurements: fibre typing (IHC), fibre-type-specific atrophy, mitochondrial respirometry, capillary morphology, whole-body CPET, ventilatory patterns. Five phenotypic dimensions diverged between bed rest and patients, each excluding deconditioning as the sole explanation.],
+  citations: [@Charlton2026MuscleBedrest],
+  mechanism: [Bed rest produces: (1) generalised atrophy of all fibre types without shift; patients show Type I-selective atrophy and glycolytic shift. (2) Preserved OXPHOS–V̇O₂ₘₐₓ coupling; patients lose it. (3) Increased capillary density (atrophy outpaces capillary loss); ME/CFS shows lower capillary-to-fibre ratios. (4) Altered ventilatory pattern (increased V̇E/V̇CO₂ slope); patients' ventilation is largely normal. (5) No intrinsic mitochondrial function impairment; patients show reduced OXPHOS/SDH and E/L coupling. The qualitative divergence at five independent levels makes deconditioning an insufficient explanation.],
+  chapter-ref: [ch20: @ach:charlton2026-bedrest-rebuttal; ch07: PEM connection (subsec-16); ch11: cardiovascular summary],
+  prediction: [Future studies that include activity-matched sedentary controls (not bed rest but matched daily step counts to ME/CFS patients) should reproduce the qualitative divergence found by Charlton et al. — the patient phenotype is not reproducible by activity reduction alone. Falsified if an activity-matched sedentary control group (not bed rest) develops the same glycolytic shift, Type I atrophy, or OXPHOS–V̇O₂ₘₐₓ uncoupling as patients.],
+  treatment: [Structural evidence that deconditioning is not the primary driver of exercise intolerance. Supports the concept that PEM is a disease-intrinsic phenomenon requiring targeted treatment of its underlying mechanisms (mitochondrial support, microvascular therapy, CNS energy budget), not "reconditioning." Does not provide specific treatment evidence.],
+  limitation: [Cross-sectional in patients (no longitudinal patient cohort). Bed rest participants younger than patient-matched controls. Head-down tilt is an imperfect model of ambulant deconditioning. All ambulant patients (mild–moderate). Single-lab findings awaiting independent replication. Correlation study — causation inferred from laboratory-controlled bed rest comparator, not directly tested in patients prospectively.],
+)
+

@@ -20,7 +20,7 @@ Figures @fig:pem-normal and @fig:pem-mecfs illustrate the critical distinction
 
 *The Effort-Performance Disconnect: Physiological Mechanisms*
 
-The profound subjective experience described in Section @sec:pem—the sensation of “giving everything” yet achieving minimal output—has direct physiological correlates that distinguish ME/CFS from psychological disorders or deconditioning.
+The profound subjective experience described in Section @sec:pem—the sensation of “giving everything” yet achieving minimal output—has direct physiological correlates that distinguish ME/CFS from psychological disorders or deconditioning. A 2026 direct comparison of 60-day strict bed rest in healthy volunteers against ME/CFS and Long COVID muscle biopsies confirmed that the patient phenotype is qualitatively different from deconditioning at multiple independent levels (glycolytic shift, Type I-selective atrophy, OXPHOS–V̇O₂ₘₐₓ uncoupling, capillary density differences), none of which are reproduced by prolonged disuse @Charlton2026MuscleBedrest.
 
 *Central Nervous System Effort Signaling:*
 
