@@ -31,6 +31,8 @@ A null result does not always imply mechanism absence:
 - *Drug access failure* — BBB impermeability, CYP2D6 rapid metabolizer status, drug-drug interaction preventing target engagement.
 - *Receptor desensitization* — the receptor is present but non-responsive from chronic endogenous activation. The null is a true statement about receptor *function*, not receptor *presence*. Distinction matters: one receptor can be desensitized while another on the same cell is functional. LDN null + LDA positive does not exclude microglial involvement — it excludes TLR4 involvement specifically, while confirming D2 involvement.
 
+For the full null subtyping taxonomy distinguishing absent vs. blocked vs. overwhelmed vs. biased null states — including pharmacological probes (bypass agonist, allosteric ligand, concentration-competition) to resolve which kind of null a failure represents — see @sec:null-subtyping. The null failure modes above are practical, non-probe-resolved categories; null subtyping systematizes them within a receptor-pharmacology framework.
+
 === The Null Matrix <sec:null-matrix-clinical>
 
 A patient-specific null matrix is a grid: each row is a medication trialled, each column is a mechanism hypothesis. A cell is marked "null" if the medication targets that mechanism and produced no response. The matrix readout: rows with many nulls eliminate mechanism classes broadly; columns with no positive responses exclude that hypothesis for the patient. The intersection of all null cells defines the set of mechanisms that remain live hypotheses for that patient. The matrix is dynamic — each new drug trial adds a row and potentially eliminates more columns.
