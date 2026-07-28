@@ -19,6 +19,9 @@
 | NETosis | Dornase alfa |
 | Cerebral perfusion | Ginkgo, pyridostigmine |
 | Methylation / epigenetics | B vitamins (B9/B12), methyl-donor support |
+| Electrolyte / volume homeostasis | Sodium, magnesium |
+| Sleep architecture | Sleep medications (melatonin, zolpidem, trazodone, gabapentinoids, DORAs) |
+| Pain pathways | Pain medications (gabapentinoids, oxycodone, NSAIDs, duloxetine) |
 
 *(Origin: medication-differential-analysis)*
 
