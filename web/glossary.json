@@ -319,10 +319,6 @@
     "category": "enzyme",
     "definition": "Sirtuins: a family of NAD+-dependent deacetylase enzymes regulating metabolism, stress resistance, and aging. SIRT1 and SIRT3 dysfunction may contribute to ME/CFS metabolic dysregulation."
   },
-  "NRF2": {
-    "label": "NRF2",
-    "alias": "Nrf2"
-  },
   "SOD": {
     "label": "SOD",
     "category": "enzyme",
@@ -1570,7 +1566,7 @@
       }
     ],
     "therapeuticCategory": "Threshold-modulatory",
-    "therapeuticDepth": "Threshold-modulatory / Symptomatic",
+    "therapeuticDepth": "Threshold-modulatory",
     "doseZones": [
       {
         "dose": "50–200 mg",
@@ -1625,7 +1621,7 @@
     "class": "Hormone / chronobiotic / sleep aid",
     "rx": "OTC (US); prescription in some EU countries",
     "therapeuticCategory": "Substrate-repletion",
-    "therapeuticDepth": "Substrate-repletion / Symptomatic",
+    "therapeuticDepth": "Substrate-repletion",
     "doseZones": [
       {
         "dose": "0.3–0.5 mg",
@@ -2472,7 +2468,7 @@
       }
     ],
     "therapeuticCategory": "Symptomatic",
-    "therapeuticDepth": "Symptomatic / Threshold-modulatory",
+    "therapeuticDepth": "Symptomatic",
     "doseZones": [
       {
         "dose": "25–50 mg (low-dose)",
@@ -6273,9 +6269,6 @@
   "N-acetylcysteine": {
     "alias": "NAC"
   },
-  "N-Acetylcysteine": {
-    "alias": "NAC"
-  },
   "Immune globulin": {
     "alias": "IVIG"
   },
@@ -6286,9 +6279,6 @@
     "alias": "SCIG"
   },
   "Hyperbaric oxygen": {
-    "alias": "HBOT"
-  },
-  "Hyperbaric Oxygen": {
     "alias": "HBOT"
   },
   "Coenzyme Q 10": {
@@ -6303,23 +6293,8 @@
   "Alpha-lipoic acid": {
     "alias": "ALA"
   },
-  "alpha-lipoic acid": {
-    "alias": "ALA"
-  },
   "Lipoic acid": {
     "alias": "ALA"
-  },
-  "lipoic acid": {
-    "alias": "ALA"
-  },
-  "paracetamol": {
-    "alias": "Paracetamol"
-  },
-  "ibuprofen": {
-    "alias": "Ibuprofen"
-  },
-  "naproxen": {
-    "alias": "Naproxen"
   },
   "Celebrex": {
     "alias": "Celecoxib"
@@ -6628,7 +6603,7 @@
       }
     ],
     "therapeuticCategory": "Corrective",
-    "therapeuticDepth": "Corrective / Threshold-modulatory",
+    "therapeuticDepth": "Corrective",
     "doseZones": [
       {
         "dose": "25–50 mg",
@@ -6828,9 +6803,6 @@
   "Omega 3": {
     "alias": "Omega-3"
   },
-  "omega-3": {
-    "alias": "Omega-3"
-  },
   "Fish oil": {
     "alias": "Omega-3"
   },
@@ -6858,13 +6830,7 @@
       }
     ]
   },
-  "Acetyl-L-carnitine": {
-    "alias": "Carnitine"
-  },
   "D-ribose": {
-    "alias": "D-Ribose"
-  },
-  "d-ribose": {
     "alias": "D-Ribose"
   },
   "L-Glutathione": {
@@ -6880,9 +6846,6 @@
     "alias": "SAMe"
   },
   "S-adenosyl methionine": {
-    "alias": "SAMe"
-  },
-  "S-Adenosyl methionine": {
     "alias": "SAMe"
   },
   "L-Taurine": {
@@ -7926,7 +7889,7 @@
   },
   "Pregnenolone": {
     "label": "Pregnenolone",
-    "category": "hormone",
+    "category": "supplement",
     "definition": "The precursor neurosteroid from which all other steroid hormones are synthesized. Pregnenolone itself is a TRPM3 agonist and positive allosteric modulator of GABA-A and NMDA receptors. Used in ME/CFS for HPA axis support and neurosteroid-mediated cognitive and mood effects.",
     "generic": "Pregnenolone",
     "class": "Neurosteroid / hormone precursor / TRPM3 agonist",
@@ -7944,7 +7907,9 @@
         "label": "Human Metabolome Database",
         "url": "https://hmdb.ca/metabolites/HMDB0000253"
       }
-    ]
+    ],
+    "therapeuticCategory": "Substrate-repletion",
+    "therapeuticDepth": "Substrate-repletion"
   },
   "Rapamycin": {
     "label": "Rapamycin",
@@ -8556,11 +8521,6 @@
     "category": "pathway",
     "definition": "The rapid release of preformed mediators (histamine, tryptase, heparin, TNF-α) and newly synthesized mediators (PGD2, LTC4, PAF) from mast cell granules upon activation. Can be triggered by IgE/FcεRI crosslinking, MRGPRX2 (substance P, drugs), or complement (C3a, C5a). Inappropriate degranulation defines MCAS, a major ME/CFS comorbidity."
   },
-  "Molecular mimicry": {
-    "label": "Molecular mimicry",
-    "category": "pathway",
-    "definition": "Immune cross-reactivity where pathogen-derived peptides (or proteins) structurally resemble host proteins, causing the immune response to the pathogen to also attack self-tissue. Molecular mimicry is the dominant hypothesis for infection-triggered autoimmunity in ME/CFS: EBV, HSV, Campylobacter, and SARS-CoV-2 all have documented cross-reactive epitopes with human GPCRs and neuronal proteins."
-  },
   "Purkinje cell": {
     "label": "Purkinje cell",
     "category": "cell",
@@ -8872,10 +8832,6 @@
     "label": "Oxford Criteria (1991)",
     "category": "diagnostic",
     "definition": "The broadest ME/CFS case definition ever proposed, requiring only fatigue as the principal symptom with definite onset plus functional impairment. Explicitly allowed inclusion of patients with concurrent psychiatric diagnoses and did not require PEM, pain, or neurological symptoms. Used in the PACE trial; widely criticized for over-inclusion of depression and deconditioning. Superseded by NICE 2021 criteria."
-  },
-  "glymphatic system": {
-    "label": "glymphatic system",
-    "alias": "Glymphatic system"
   },
   "meningeal lymphatics": {
     "label": "Meningeal Lymphatic Vessels",
@@ -9590,10 +9546,6 @@
     "label": "Separatrix",
     "category": "concept",
     "definition": "In dynamical systems theory, the boundary that separates two or more basins of attraction. Crossing the separatrix moves the system from one stable state to another. In the ME/CFS disease-state model, the separatrix represents the threshold of perturbation required to transition between healthy and disease equilibria."
-  },
-  "AhR": {
-    "label": "AhR (Aryl Hydrocarbon Receptor)",
-    "alias": "AHR"
   },
   "CRPS": {
     "label": "CRPS",
@@ -10792,5 +10744,33 @@
     "label": "DAO",
     "category": "protein",
     "definition": "Diamine oxidase: the primary enzyme responsible for extracellular histamine degradation, predominantly produced in the intestinal mucosa. Reduced DAO activity contributes to histamine intolerance, which symptomatically overlaps with MCAS in ME/CFS."
+  },
+  "BMAL1": {
+    "category": "gene",
+    "definition": "Brain and muscle ARNT-like 1 — core clock gene that forms the CLOCK-BMAL1 heterodimer driving circadian transcription of PER, CRY, and clock-controlled output genes."
+  },
+  "CAR": {
+    "category": "biomarker",
+    "definition": "Cortisol Awakening Response: the natural rise in cortisol levels in the first 30-45 minutes after waking, a marker of HPA axis integrity. Blunted CAR is one of the most consistent neuroendocrine findings in ME/CFS."
+  },
+  "CLOCK": {
+    "category": "gene",
+    "definition": "Circadian Locomotor Output Cycles Kaput — core clock gene that heterodimerizes with BMAL1 to drive circadian transcription. CLOCK polymorphisms have been associated with circadian rhythm disorders and metabolic syndrome."
+  },
+  "D2": {
+    "category": "receptor",
+    "definition": "Dopamine receptor D2: a G-protein-coupled receptor for dopamine, expressed in striatum, pituitary, and midbrain. D2 is the target of aripiprazole/LDA and is implicated in reward, motor control, and pituitary hormone regulation."
+  },
+  "D3": {
+    "category": "receptor",
+    "definition": "Dopamine receptor D3: a G-protein-coupled receptor for dopamine, primarily expressed in limbic regions. D3 partial agonism contributes to aripiprazole's therapeutic effects with lower motor side-effect liability than D2 antagonism."
+  },
+  "GR": {
+    "category": "receptor",
+    "definition": "Glucocorticoid receptor: a nuclear receptor activated by cortisol, regulating transcription of genes involved in metabolism, inflammation, and stress response. GR expression peaks in early morning (04:00-08:00) and is the target of corticosteroid drugs."
+  },
+  "PER2": {
+    "category": "gene",
+    "definition": "Period circadian regulator 2: a core clock gene whose protein product forms a negative feedback loop with CLOCK-BMAL1, generating ~24h oscillations in gene expression. PER2 also regulates cell cycle and metabolism."
   }
 }
