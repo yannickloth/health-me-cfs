@@ -332,5 +332,6 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | charlton2026-muscle-bedrest | [subtrees/charlton2026-muscle-bedrest.md](subtrees/charlton2026-muscle-bedrest.md) | 2026-07-28 | 35 | 3 | 🔵 in progress |
 | contraindication-ladder | [subtrees/contraindication-ladder.md](subtrees/contraindication-ladder.md) | 2026-07-29 | 7 | 5 | 🔵 in progress |
+| diurnal-response-window | [subtrees/diurnal-response-window.md](subtrees/diurnal-response-window.md) | 2026-07-29 | 4 | 2 | ✅ done |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
