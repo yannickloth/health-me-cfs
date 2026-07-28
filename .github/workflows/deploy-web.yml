@@ -10,33 +10,8 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  pdf:
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
-
-      - name: Install Nix
-        uses: cachix/install-nix-action@v25
-        with:
-          nix_path: nixpkgs=channel:nixos-unstable
-          extra_nix_config: |
-            experimental-features = nix-command flakes
-
-      - name: Build PDF
-        run: nix build --print-build-logs
-
-      - name: Upload PDF artifact
-        uses: actions/upload-artifact@v7
-        with:
-          name: pdf
-          path: result/loth2026-mecfs.pdf
-          retention-days: 1
-
   web:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -59,13 +34,13 @@ jobs:
           retention-days: 1
 
   deploy:
-    needs: [ pdf, web ]
+    needs: [ web ]
     if: success()
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     permissions:
       pages: write
       id-token: write
+      actions: read
     steps:
       - name: Download web artifact
         uses: actions/download-artifact@v6
@@ -73,11 +48,30 @@ jobs:
           name: web-site
           path: web-site
 
-      - name: Download PDF artifact
-        uses: actions/download-artifact@v6
+      - name: Find build-pdf run for this commit
+        uses: actions/github-script@v7
+        id: find-run
         with:
-          name: pdf
+          script: |
+            const runs = await github.rest.actions.listWorkflowRuns({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'build-pdf.yml',
+              head_sha: context.sha,
+              status: 'success',
+              per_page: 1,
+            });
+            const run = runs.data.workflow_runs[0];
+            if (!run) throw new Error('No successful build-pdf run found for this commit');
+            return run.id;
+
+      - name: Download PDF from build-pdf run
+        uses: dawidd6/action-download-artifact@v6
+        with:
+          run_id: ${{ steps.find-run.outputs.result }}
+          name: me-cfs-paper
           path: web-site
+          check_artifacts: true
 
       - name: Setup Pages
         uses: actions/configure-pages@v6
