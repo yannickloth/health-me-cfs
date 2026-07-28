@@ -133,4 +133,4 @@ The [hypothesis registry](../../../part4-research/ch38-proposed-studies/30-hypot
 
 ---
 
-*This update covers work committed between July 21 and July 27, 2026. The full changelog and paper are at [loth.cc](https://loth.cc/). Previous weekly updates: [Load-Bearing Walls](../load-bearing-walls/), [Root Cause ≠ Treatment Priority](../root-cause-not-treatment-priority/), [The Genetics That Ends the Debate](../genetics-ends-debate/).*
+*This update covers work committed between July 21 and July 27, 2026. The full changelog and paper are at [loth.cc](https://yannickloth.github.io/health-me-cfs/). Previous weekly updates: [Load-Bearing Walls](../load-bearing-walls/), [Root Cause ≠ Treatment Priority](../root-cause-not-treatment-priority/), [The Genetics That Ends the Debate](../genetics-ends-debate/).*

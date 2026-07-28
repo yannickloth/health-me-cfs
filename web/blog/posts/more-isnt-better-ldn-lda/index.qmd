@@ -122,6 +122,6 @@ None of this requires a biomarker. The dose-response curve *is* the readout.
 
 ---
 
-*This post draws on the hormesis framework developed in [Loth 2026](https://loth.cc/). The LDN dose-response analysis was triggered by a clinical observation from Kevin Lee (personal communication, July 2026); the expansion to 17 medications was triggered by Yannick L.'s observation that the same logic applies to LDA and other low-dose drugs. For the full mechanistic cascade analysis — including the LDN multi-target dose-response cascade, the inverted-U diagnostic pattern across 17 medications, and the HIP-B trial specification — see the primary paper.*
+*This post draws on the hormesis framework developed in [Loth 2026](https://yannickloth.github.io/health-me-cfs/). The LDN dose-response analysis was triggered by a clinical observation from Kevin Lee (personal communication, July 2026); the expansion to 17 medications was triggered by Yannick L.'s observation that the same logic applies to LDA and other low-dose drugs. For the full mechanistic cascade analysis — including the LDN multi-target dose-response cascade, the inverted-U diagnostic pattern across 17 medications, and the HIP-B trial specification — see the primary paper.*
 
 *Related: [The Inverted-U Is Not One Thing: Four Ways a Drug Can Stop Working When You Raise the Dose](../inverted-u-not-one-thing/) · [Your LDN Dose Is a Diagnostic](../dose-is-diagnostic-ldn/)*
