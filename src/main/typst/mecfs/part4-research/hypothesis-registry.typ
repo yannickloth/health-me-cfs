@@ -4908,3 +4908,30 @@ This registry collects all hypotheses, speculations, open questions, and predict
   limitation: [L2 cimetidine+aripiprazole predicted-only (0 PubMed hits). L4 rapamycin+metformin predicted-only (0 adverse-interaction papers). L3 supported by 1 case report in a non-ME/CFS population. L1 pairs lack dedicated interaction studies (pharmacology-level evidence only). Contraindication table entries lack formal rechallenge data. No prospective validation of the ladder structure. Origin: brainstorm — pharmacological inference from receptor physiology + CYP metabolism + autonomic physiology + metabolic constraint modelling.],
 )
 
+= Entries added 2026-07-29: Diurnal Response Window — Circadian Pharmacodiagnostic Probe
+
+#registry-entry(
+  [Diurnal Response Window as Circadian Pharmacodiagnostic Probe],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Circadian receptor expression established in chronopharmacology: GR peak 04:00–08:00, TLR4 peak 18:00–00:00, H1 peak 02:00–06:00, D2/D3 striatal peak 12:00–16:00 (Levi 2024 review @Levi2024chronopharmacologyReview). ME/CFS: blunted cortisol awakening response, exaggerated HPA feedback (meta-analysis, n=1,388, 46 datasets @Woo2026mecfsCortisolMeta — discounted cert 0.88). Chronotherapy proof-of-concept: evening-timed prednisone improves fatigue in RA (CAPRA-2 RCT, n=350, FACIT-F +3.8 vs +1.6, p=0.0032 @Alten2015prednisoneChronotherapy). Diurnal cytokine-symptom coupling: PMR IL-6/IL-8/TNF-α peak 04:00–08:00, prednisolone chronotherapy abolishes symptoms @Galbo2016pmrCircadianCytokines. Post-infectious fatigue: clock gene dysregulation (CLOCK, BMAL1, PER2), epigenetic clock changes @Livieratos2025circadianPostInfectious. CYP450/transporter circadian regulation @Okyar2024circadianDrugMetabolism. Trial methodology guidelines @Hermida2021chronotherapyGuidelines. (Origin: brainstorm)],
+  citations: [@Levi2024chronopharmacologyReview @Woo2026mecfsCortisolMeta @Alten2015prednisoneChronotherapy @Galbo2016pmrCircadianCytokines @Livieratos2025circadianPostInfectious @Okyar2024circadianDrugMetabolism @Hermida2021chronotherapyGuidelines @Cutolo2019circadianRA @Zaki2019chronotherapeuticsReview @Ohdo2021chronoDrugDiscovery @Guarnotta2021adrenalChronopharmacology],
+  mechanism: [Drug at 08:00 vs 20:00 produces >30% benefit difference if target follows circadian rhythm; flat → constitutively expressed or downstream. Three patterns: (1) morning-only → GR/cortisol-coupled; (2) evening-only → melatonin/sleep-dependent (TLR4 peak 18:00–00:00); (3) flat → non-circadian. PK vs PD disambiguation via plasma drug levels at both time points. ME/CFS blunted HPA may amplify diurnal signal.],
+  chapter-ref: [ch33: @sec:diurnal-response-window],
+  prediction: [Crossover trial (08:00 vs 20:00, 2 weeks each, n≥1, ≤7 days washout): drug with circadian target shows >30% difference. If all drugs <30% in patient with normal circadian phase → probe assumption falsified. If non-circadian drug shows >30% difference → PK confound unless plasma levels controlled. Falsified if pilot (n≥10, 2 drugs with known circadian vs non-circadian targets) finds no drug with >30% diurnal difference in any patient with confirmed circadian phase.],
+  treatment: [No treatment recommendation — pure pharmacodiagnostic methodology. If validated, zero-cost clinical test: 08:00 vs 20:00 response difference reveals receptor circadian coupling, guiding dosing timing without lab work.],
+  limitation: [No ME/CFS chronopharmacology trial exists — concept untested in this population. Assumes circadian phase aligned with clock time (false for DSPD/ASPD). Diurnal symptom variation confounds drug effect. Requires actigraphy + plasma drug levels for PK/PD disambiguation. All evidence analogical (general chronopharmacology + autoimmune chronotherapy). Origin: brainstorm.],
+)
+
+#registry-entry(
+  [Response Onset Latency as Mechanism Kinetics Classifier],
+  type: "S",
+  certainty: "0.25",
+  evidence: [Onset latency well-documented for drug classes but never systematised for ME/CFS mechanism inference. SSRI onset 2–4 weeks (postsynaptic adaptation), stimulant hours (DAT inhibition), IVIG 48–72h (immune complex) vs 2–4 weeks (immunomodulation). Existing ch33 content covers LDN, aripiprazole, IVIG, duloxetine, gabapentin, DORA latency inferences. No trial validates latency-to-mechanism mapping. (Origin: brainstorm)],
+  citations: [Existing ch33 references; no dedicated ME/CFS latency studies],
+  mechanism: [<48h → ion channel gating, receptor agonism/antagonism; 2–7 days → enzyme induction/acute phase protein; 1–4 weeks → receptor upregulation, microglial M1→M2 shift; 4–12 weeks → epigenetic remodelling, mitochondrial biogenesis. LDN at 48h: TRPM3/TLR4 direct (too fast for endorphin). LDN at 3–6 weeks: endorphin or microglial shift.],
+  chapter-ref: [ch33: subsec-04 subsubsec-03 response onset latency],
+  prediction: [Prospective LDN latency tracking: ~30% respond by day 2 (TRPM3/TLR4), ~40% at weeks 3–6 (endorphin/microglial), 30% non-responders. Falsified if unimodal distribution.],
+  treatment: [If validated, onset latency classifies fast vs slow responders, avoiding futile 8-week trials. No clinical recommendation without validation. Origin: brainstorm.],
+  limitation: [No prospective latency study. Confounded by placebo (also ~48h onset), concurrent changes, disease fluctuation. Bimodal hypothesis theoretical. Inter-individual PK variability produces pseudo-latency differences.],
+)

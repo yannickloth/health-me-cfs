@@ -330,4 +330,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | global-perspectives-mecfs | [subtrees/global-perspectives-mecfs.md](subtrees/global-perspectives-mecfs.md) | 2026-07-26 | 14 | 6 | 🔵 in progress |
 | hsv-dormancy-undormancy-probe | [subtrees/hsv-dormancy-undormancy-probe.md](subtrees/hsv-dormancy-undormancy-probe.md) | 2026-07-26 | 17 | 0 | 🔵 in progress |
 
+| charlton2026-muscle-bedrest | [subtrees/charlton2026-muscle-bedrest.md](subtrees/charlton2026-muscle-bedrest.md) | 2026-07-28 | 35 | 3 | 🔵 in progress |
+| contraindication-ladder | [subtrees/contraindication-ladder.md](subtrees/contraindication-ladder.md) | 2026-07-29 | 7 | 5 | 🔵 in progress |
+
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
