@@ -1,4 +1,5 @@
 #import "../../../../shared/environments.typ": *
+#import "/src/main/typst/lib/clinical-caution.typ": clinical-caution
 
 ==== The Contraindication Ladder — What NEVER to Combine
   <sec:contraindication-ladder>
@@ -30,7 +31,7 @@ The existing section above lists specific contraindicated combinations embedded 
 
 #clinical-caution()
 
-*Certainty: 0.30 (fluvoxamine+duloxetine: 0.25 predicted-only for cimetidine+aripiprazole).* These pairs involve sequential drug metabolism where Drug A inhibits the CYP enzyme that Drug B needs for clearance. Drug B accumulates to toxic levels. The interaction is dose-dependent: at low Drug B doses, the accumulation may be tolerable; at therapeutic doses, exposure can increase 4--5-fold.
+*Certainty: 0.30 (fluvoxamine+duloxetine established; 0.25 predicted-only for cimetidine+aripiprazole).* These pairs involve sequential drug metabolism where Drug A inhibits the CYP enzyme that Drug B needs for clearance. Drug B accumulates to toxic levels. The interaction is dose-dependent: at low Drug B doses, the accumulation may be tolerable; at therapeutic doses, exposure can increase 4--5-fold.
 
 *Mechanism:* Drug A is a CYP inhibitor (CYP1A2, CYP2D6, CYP3A4, CYP2C19). Drug B is a substrate of the inhibited enzyme. Drug A → reduced clearance of Drug B → supratherapeutic Drug B plasma concentration → toxicity.
 
@@ -71,7 +72,7 @@ The existing section above lists specific contraindicated combinations embedded 
 
 *Established pairs:*
 
-- *Stimulants (methylphenidate, modafinil) + documented PEM:* Stimulants increase resting metabolic rate by 7--15% and mask the fatigue signal that normally limits activity to within the energy envelope. Blockmans 2006 (@Blockmans2006MPHCFS) — methylphenidate 2×10 mg/day reduced fatigue in CFS patients (p<0.0001), but clinically significant effect (>33% improvement) occurred in only 17% for fatigue and 22% for concentration. The 83% non-response rate may include patients whose PEM was worsened by activity masking — the study did not specifically assess PEM outcomes. Eckey 2025 (@Eckey2025PatientReported) — CNS stimulants were beneficial in the cognitive-dysfunction cluster but NOT in the POTS-dominant cluster. Implication: stimulants in POTS-dominant ME/CFS → tachycardia + activity masking → PEM exacerbation. Stimulants should ONLY be trialled after PEM-protective strategies (pacing, LDA) are established, and only in the cognitive-dysfunction subtype where the evidence supports benefit. (Severity coverage: all levels, but risk of PEM is greater in severe/very severe patients — lower energy reserve means narrower safety margin.)
+- *Stimulants (methylphenidate, modafinil) + documented PEM:* Stimulants increase resting metabolic rate by 7--15% and mask the fatigue signal that normally limits activity to within the energy envelope. Blockmans 2006 (@Blockmans2006MPHCFS) — methylphenidate 2×10 mg/day reduced fatigue in CFS patients (p $<$ 0.0001), but clinically significant effect (>33% improvement) occurred in only 17% for fatigue and 22% for concentration. The 83% non-response rate may include patients whose PEM was worsened by activity masking — the study did not specifically assess PEM outcomes. Eckey 2025 (@Eckey2025PatientReported) — CNS stimulants were beneficial in the cognitive-dysfunction cluster but NOT in the POTS-dominant cluster. Implication: stimulants in POTS-dominant ME/CFS → tachycardia + activity masking → PEM exacerbation. Stimulants should ONLY be trialled after PEM-protective strategies (pacing, LDA) are established, and only in the cognitive-dysfunction subtype where the evidence supports benefit. (Severity coverage: all levels, but risk of PEM is greater in severe/very severe patients — lower energy reserve means narrower safety margin.)
 
 - *Caffeine + modafinil (dual wakefulness-promoting agents):* Caffeine is an adenosine A1/A2A antagonist; modafinil increases dopamine via DAT inhibition + activates orexin/histamine pathways. Combined, the wakefulness pressure may override sleep drive entirely → sleep deprivation → amplified PEM on subsequent days. A patient who feels "great" on modafinil + caffeine but crashes 48 hours later is experiencing delayed PEM from activity-masking, not a spontaneous symptom fluctuation.
 
