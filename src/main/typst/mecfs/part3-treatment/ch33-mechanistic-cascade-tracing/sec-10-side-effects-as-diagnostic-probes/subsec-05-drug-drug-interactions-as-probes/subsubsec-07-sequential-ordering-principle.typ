@@ -1,6 +1,7 @@
 #import "../../../../shared/environments.typ": *
 
-==== The Sequential Ordering Principle — Which Drug First? <sec:sequential-ordering-principle>
+==== The Sequential Ordering Principle — Which Drug First?
+  <sec:sequential-ordering-principle>
 
 *Certainty: 0.20.* The ordering below is a mechanistic inference framework combining pharmacology (drug half-life, metabolic cost, receptor breadth) with clinical heuristics (cost, accessibility). No prospective study validates the ordering principle for ME/CFS specifically. It should be treated as a clinical reasoning scaffold, not a validated protocol. (Origin: brainstorm)
 
@@ -8,7 +9,7 @@ The subsections above establish which drug combinations reveal mechanism informa
 
 Five principles rank the trial sequence. When principles conflict (e.g., broad but expensive vs narrow but cheap), the higher-numbered principle takes priority.
 
-#speculation(title: [Rule 1: Restorative → Corrective → Threshold-Modulatory → Substrate-Replenishing → Symptomatic])[
+#speculation[Rule 1: Restorative → Corrective → Threshold-Modulatory → Substrate-Replenishing → Symptomatic][
 
 *Certainty: 0.15.* Mechanism-based ordering: trial drugs in descending order of therapeutic depth.
 
@@ -23,7 +24,7 @@ Diagnostic rationale: if a restorative drug works, the corrective and threshold-
 *Falsifiable prediction:* Prospective trial of the 7-drug sequence (below) should show higher cumulative diagnostic resolution rate (proportion of patients whose bottleneck is identified within 5 drug trials) compared to patient-chosen or symptom-targeted sequencing. Falsified if diagnostic resolution rate is equivalent across sequences.
 ]
 
-#speculation(title: [Rule 2: Broad → Narrow])[
+#speculation[Rule 2: Broad → Narrow][
 
 *Certainty: 0.20.* Each drug trial costs PEM budget and time. Maximise the diagnostic information per trial by starting with drugs that probe the most mechanisms simultaneously — a single broad-probe negative eliminates multiple hypotheses at once.
 
@@ -34,7 +35,7 @@ When two drugs are equally broad, break ties by therapeutic depth (Rule 1) then 
 *Falsifiable prediction:* Mathematical optimisation of expected diagnostic information per drug trial (using the existing ch33 cascade branch maps as prior probabilities) should converge to broad-first sequencing. If narrow-first sequencing dominates for >2 drug pairs in the ch33 cascade map, the broad-first rule is falsified.
 ]
 
-#speculation(title: [Rule 3: Energy-Neutral → Energy-Consuming])[
+#speculation[Rule 3: Energy-Neutral → Energy-Consuming][
 
 *Certainty: 0.20.* Every drug trial consumes PEM budget. The PEM budget is finite — each episode causes cumulative damage. Energy-neutral drugs (LDN, LDA, ketotifen, CoQ10, NAC) have zero metabolic cost. Energy-consuming drugs (stimulants, IVIG, corticosteroids) increase resting metabolic rate, require infusion-day exertion, or suppress counter-regulatory systems (HPA axis).
 
@@ -43,7 +44,7 @@ Energy-consuming drugs should only be trialled after energy-neutral probes have 
 *Falsifiable prediction:* PEM incidence during clinical pharmacodiagnostic sequencing should be higher in the first 5 drug trials when energy-consuming drugs are trialled early (< trial 3) than when energy-neutral drugs are trialled first. Falsified if PEM incidence is equal or lower with early energy-consuming trials.
 ]
 
-#speculation(title: [Rule 4: Reversible → Irreversible])[
+#speculation[Rule 4: Reversible → Irreversible][
 
 *Certainty: 0.25.* Drug washout duration determines how quickly a trial can be reinterpreted if the diagnostic interpretation changes.
 
@@ -63,7 +64,7 @@ Short-half-life drugs can be trialled, stopped, and reinterpreted quickly. Long-
 
 - NAC, CoQ10, magnesium, antihistamines: OTC
 - LDN, LDA: requires prescription + compounding pharmacy
-- IVIG, rituximab: hospital administration, $10,000--100,000+
+- IVIG, rituximab: hospital administration, USD 10,000–100,000+
 
 This is an access-and-equity principle, not a mechanistic one. The null-ladder should be sequenced by cost when all mechanistic-efficiency criteria are equal. A patient who cannot afford a CoQ10 trial loses one diagnostic probe; a patient who cannot afford IVIG loses the most powerful remaining probe. Conserve the expensive probes for later in the sequence when the differential has narrowed enough that their specificity justifies their cost.
 
