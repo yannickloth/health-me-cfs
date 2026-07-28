@@ -15,3 +15,7 @@ Analgesics, neuropathic pain medications, and opioids are universally symptomati
 
 *Key caveat:* Opioids carry a specific ME/CFS warning — by masking pain, they can enable overexertion beyond the energy envelope, paradoxically worsening PEM. Symptomatic pain relief here can drive the disease process in the wrong direction.
 
+==== Compendium
+
+The full pharmacodiagnostic entries for individual sleep and pain medications — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, individual entries: Zolpidem, Trazodone, Gabapentin/Pregabalin, Oxycodone, and related entries).
+

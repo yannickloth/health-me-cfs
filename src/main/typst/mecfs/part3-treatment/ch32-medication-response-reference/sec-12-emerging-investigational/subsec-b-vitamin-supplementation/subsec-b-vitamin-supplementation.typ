@@ -38,3 +38,7 @@ B6 at doses above 100 mg/day can cause peripheral neuropathy. Methylcobalamin an
 - B vitamins work + inflammation markers remain elevated → inflammatory consumption continues; supplementation is compensatory only.
 - B6 works + LDA also benefits → shared BH4 recycling pathway (both dopamine synthesis and BH4 depend on B6).
 
+==== Compendium
+
+The full pharmacodiagnostic entries for individual B vitamins — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, individual entries: Thiamine (B1), Niacin, Vitamin B12).
+

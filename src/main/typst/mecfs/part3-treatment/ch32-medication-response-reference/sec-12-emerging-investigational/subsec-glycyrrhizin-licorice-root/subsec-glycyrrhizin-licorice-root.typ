@@ -30,3 +30,7 @@ Pseudoaldosteronism (hypertension, hypokalemia, edema) limits use to short trial
 - Glycyrrhizin + dornase alfa both work → DAMP-driven inflammation from both HMGB1 and NET components.
 - Glycyrrhizin reduces post-exertional HMGB1 but PEM persists → HMGB1 is one PEM component; other mechanisms also contribute.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Glycyrrhizin entry).
+

@@ -30,3 +30,7 @@ TUDCA and 4-phenylbutyrate are chemical chaperones that reduce endoplasmic retic
 - TUDCA works + fluvoxamine does not → a TUDCA-responsive UPR branch is dominant, not the S1R-mediated calcium arm.
 - TUDCA + mitochondrial supplements both work → impaired ER-mitochondrial calcium transfer plus a downstream mitochondrial substrate limitation co-present.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, TUDCA entry).
+

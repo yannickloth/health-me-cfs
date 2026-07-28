@@ -31,3 +31,7 @@ Low-dose IL-2 is not standard-of-care and is available only in research protocol
 - Low-dose IL-2 + rituximab both work → Treg expansion suppresses new autoantibody production while rituximab eliminates existing B cells.
 - Low-dose IL-2 works + rituximab does not sustain response → Treg deficiency is driving continuous B-cell stimulation.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Low-Dose IL-2 entry).
+

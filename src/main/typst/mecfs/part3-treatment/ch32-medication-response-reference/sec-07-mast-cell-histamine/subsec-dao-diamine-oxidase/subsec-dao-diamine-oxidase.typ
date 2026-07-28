@@ -30,3 +30,7 @@ DAO supplementation is most informative combined with a low-histamine diet trial
 - DAO works + antihistamines do not → pure HIT (production normal, degradation impaired).
 - DAO does not work + antihistamines work → pure MCAS (production excessive, degradation intact).
 
+==== Compendium
+
+DAO does not yet have a dedicated entry in the Chapter 33 pharmacodiagnostic compendium. The mast-cell and histamine pathways are detailed at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, H1 Antihistamines entry and Ketotifen entry).
+

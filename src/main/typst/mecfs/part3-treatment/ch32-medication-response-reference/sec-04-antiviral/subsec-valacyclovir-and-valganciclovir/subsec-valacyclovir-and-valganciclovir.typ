@@ -32,3 +32,7 @@ Non-response does not exclude a viral contribution. The drug may fail to reach v
 - Valacyclovir failure + valganciclovir success → HHV-6 or CMV involvement.
 - Valacyclovir works + relapse on discontinuation → viral suppression, not cure; immune deficit persists.
 - Valacyclovir does not work + cimetidine works → viral component may respond to immune enhancement rather than direct polymerase inhibition.
+
+==== Compendium
+
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Valacyclovir entry and Valganciclovir entry).

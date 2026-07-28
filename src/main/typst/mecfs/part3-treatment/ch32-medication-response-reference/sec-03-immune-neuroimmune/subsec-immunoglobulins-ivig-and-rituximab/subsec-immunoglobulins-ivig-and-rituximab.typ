@@ -29,3 +29,7 @@ Non-response does not exclude autoantibody-mediated pathology. Both drugs spare 
 - Rituximab works + relapse on B-cell repopulation → short-lived plasmablasts are sufficient to sustain disease; long-lived plasma cells are not the dominant source, and maintenance B-cell depletion (rather than plasma-cell-directed therapy) may hold benefit.
 - IVIG works transiently + rituximab works longer → distinguishes plasmablast-driven from plasma-cell-driven production: transient IVIG benefit reflects neutralization of circulating antibody, while durable rituximab benefit points to plasmablast-dependent supply.
 - Neither IVIG nor rituximab works → non-humoral pathology dominates; look toward neuroinflammatory, metabolic, autonomic, or viral mechanisms instead.
+
+==== Compendium
+
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, IVIG entry and Rituximab entry).

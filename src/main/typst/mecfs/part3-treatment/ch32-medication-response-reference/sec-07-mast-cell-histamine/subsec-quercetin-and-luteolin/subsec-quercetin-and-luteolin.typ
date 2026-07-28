@@ -33,3 +33,7 @@ Quercetin bioavailability is poor; phytosome or otherwise enhanced formulations 
 - Quercetin/luteolin + antihistamines both work → complementary action: preventing degranulation plus blocking released histamine.
 - Luteolin adds benefit beyond quercetin → a CNS mast cell/microglial component beyond the peripheral one.
 
+==== Compendium
+
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Quercetin entry and Luteolin entry).
+

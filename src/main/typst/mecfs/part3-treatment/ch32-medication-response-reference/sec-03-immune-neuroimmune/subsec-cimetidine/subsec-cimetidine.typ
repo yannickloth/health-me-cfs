@@ -30,3 +30,7 @@ Non-response does not exclude T-cell dysfunction. T cells may be too exhausted (
 - Cimetidine works + LDN does not → VIM phenotype distinct from neuroinflammatory phenotype.
 - Cimetidine works + valacyclovir works → complementary immune-mediated + pharmacological viral suppression.
 - Cimetidine works + pyridostigmine works → viral-immune-autonomic phenotype.
+
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, H2 Antagonists entry).

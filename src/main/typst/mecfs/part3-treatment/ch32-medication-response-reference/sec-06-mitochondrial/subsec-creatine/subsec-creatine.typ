@@ -30,3 +30,7 @@ Creatine may raise serum creatinine and confound kidney-function tests; clinicia
 - Creatine works + mitochondrial supplements do not → production capacity is adequate but burst capacity is limited (a buffer deficit).
 - Creatine works + low-dose aripiprazole (LDA) does not → the cognitive deficit is energy-level, not neurotransmitter-level.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Creatine entry).
+

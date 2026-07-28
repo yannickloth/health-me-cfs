@@ -33,3 +33,7 @@ tVNS requires consistent stimulation parameters; home devices vary in output, an
 - tVNS works + pyridostigmine does not → tVNS provides a pre-ganglionic signal that pyridostigmine cannot.
 - tVNS sham beats active + LDN works → autoantibody-blocked muscarinic receptors coexist with neuroinflammation.
 
+==== Compendium
+
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, taVNS entry and VNS entry).
+

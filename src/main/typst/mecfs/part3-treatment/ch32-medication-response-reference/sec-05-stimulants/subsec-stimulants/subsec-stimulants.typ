@@ -34,4 +34,8 @@ A positive response is not automatically beneficial. Stimulants mask fatigue, wh
 - Methylphenidate does not work + LDA works → common ME/CFS pattern: receptor-level support more effective than reuptake blockade.
 - Stimulant works + LDA works → severe dopamine deficit requiring maximal pharmacological support. Prioritize treating upstream cause.
 
+==== Compendium
+
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Methylphenidate entry, Modafinil/Armodafinil entry, and related stimulant entries).
+
 

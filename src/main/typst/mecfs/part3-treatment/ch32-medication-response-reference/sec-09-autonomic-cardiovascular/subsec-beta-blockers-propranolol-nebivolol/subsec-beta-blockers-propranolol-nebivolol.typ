@@ -32,3 +32,7 @@ Beta-blockers that worsen fatigue indicate compensatory tachycardia — the wors
 - Beta-blockers WORSEN + ivabradine works → low-SV POTS; ivabradine slows the sinoatrial node without reducing contractility, whereas beta-blockade cut output.
 - Beta-blockers work + fludrocortisone does not → pure hyperadrenergic POTS (not volume-depleted).
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Beta-Blockers entry).
+

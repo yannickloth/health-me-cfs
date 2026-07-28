@@ -31,3 +31,7 @@ HSAT2 as an ME/CFS mechanism derives from a single Ewing sarcoma preprint — a 
 - Methyl donors + NAC both work → combined oxidative stress and methylation depletion (HSAT2 can be driven both by ROS via HSF1 and by methylation loss).
 - B6/B12/folate help + B3/NAD+ also helps → multiple B-vitamin pool depletions are co-present.
 
+==== Compendium
+
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, SAMe entry and Vitamin B12 entry).
+

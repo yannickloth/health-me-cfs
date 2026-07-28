@@ -31,3 +31,7 @@ Droxidopa raises blood pressure and is contraindicated if supine hypertension is
 - Droxidopa + LDN both work → inflammatory catecholamine depletion, consistent with the IDO/BH4 pathway.
 - Droxidopa works + mitochondrial supplements do not → the norepinephrine deficit is not primarily from packaging failure.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Droxidopa entry).
+

@@ -30,3 +30,7 @@ Fluvoxamine is the strongest CYP1A2 and CYP2D6 inhibitor among SSRIs. Any co-adm
 - Fluvoxamine + mitochondrial supplements both work → impaired ER-mitochondrial calcium transfer plus a downstream mitochondrial substrate limitation.
 - Fluvoxamine does not work + TUDCA works → a TUDCA-responsive UPR branch is dominant, not the S1R-mediated arm.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Fluvoxamine entry).
+

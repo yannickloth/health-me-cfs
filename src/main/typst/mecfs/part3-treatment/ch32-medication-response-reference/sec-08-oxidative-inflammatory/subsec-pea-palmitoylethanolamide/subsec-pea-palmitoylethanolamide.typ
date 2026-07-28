@@ -30,3 +30,7 @@ Standard PEA has poor oral bioavailability; only ultramicronized or micronized f
 - PEA works + antihistamines do not → upstream PPAR-α suppression is more effective than receptor blockade.
 - PEA does not work + LDN works → microglia (the TLR4 pathway), not the PPAR-α pathway, is the primary neuroinflammatory driver.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, PEA entry).
+

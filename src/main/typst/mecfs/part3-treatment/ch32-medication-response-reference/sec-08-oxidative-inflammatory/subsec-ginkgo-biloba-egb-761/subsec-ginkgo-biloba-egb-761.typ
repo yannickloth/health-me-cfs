@@ -30,3 +30,7 @@ Ginkgo inhibits platelet aggregation — avoid it with anticoagulants (warfarin,
 - Ginkgo works + low-dose aripiprazole (LDA) does not → the cognitive deficit is perfusion-limited, not neurotransmitter-limited.
 - Ginkgo + NAC both work → cerebral hypoperfusion and oxidative stress are co-present.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Ginkgo Biloba entry).
+

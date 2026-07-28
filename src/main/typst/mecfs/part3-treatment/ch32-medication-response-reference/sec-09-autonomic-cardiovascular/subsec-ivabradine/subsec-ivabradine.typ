@@ -32,3 +32,7 @@ Ivabradine in low-SV POTS can worsen symptoms — reducing heart rate in a patie
 - Ivabradine works + fludrocortisone does not → hyperadrenergic, not hypovolemic, POTS.
 - Ivabradine WORSENS + midodrine works → low-SV POTS with venous pooling; reducing heart rate lowers output further while venoconstriction restores return.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Ivabradine entry).
+

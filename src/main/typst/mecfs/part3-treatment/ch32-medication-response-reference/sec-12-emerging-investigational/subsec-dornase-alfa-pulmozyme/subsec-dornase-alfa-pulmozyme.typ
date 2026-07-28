@@ -31,3 +31,7 @@ This is investigational — measure NET biomarkers before and after to assess bi
 - Dornase alfa reduces markers + symptoms lag → NETs cleared but downstream damage (microthrombi, endothelial injury) persists.
 - Dornase alfa + NAC both work → an oxidative-stress → NETosis cascade; ROS drives NET formation, and NAC reduces the upstream ROS.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Dornase alfa entry).
+

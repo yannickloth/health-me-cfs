@@ -31,3 +31,7 @@ Non-response does not exclude mitochondrial dysfunction. A safe-mode program act
 - Supplements + LDN both work → energy deficit + neuroinflammation (linked — inflammation impairs mitochondria).
 - Supplements + pyridostigmine both work → improved energy production + improved energy delivery (synergy).
 - Supplements do not work + LDA works → cognitive deficit is neurotransmitter-level, not energy-supply-level.
+
+==== Compendium
+
+The full pharmacodiagnostic entries — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — are at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, individual mitochondrial cofactor entries: Coenzyme Q10, NADH, D-Ribose, L-Carnitine, Alpha-Lipoic Acid, and Mitochondrial Supplements group entry).

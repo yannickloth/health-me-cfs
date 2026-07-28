@@ -31,3 +31,7 @@ Non-response does not exclude autonomic dysfunction. Pyridostigmine can only pot
 - Pyridostigmine + LDN both work → neuroinflammation → autonomic dysfunction (inflammatory-to-autonomic cascade).
 - Pyridostigmine + fludrocortisone/midodrine → multi-mechanism preload failure (ganglionic + volume + vasoconstriction). Meta-analysis: combined therapy −6.74 mmHg systolic drop (p \< 0.05) @Pavic2025pyridostigmine.
 - Pyridostigmine does not work + ivabradine works → insufficient ganglionic reserve; excessive sinus node automaticity or inadequate parasympathetic restraint predominates.
+
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Pyridostigmine entry).

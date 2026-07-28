@@ -30,3 +30,7 @@ Serum magnesium is unreliable for total body magnesium — RBC magnesium is more
 - Magnesium + mitochondrial supplements both work → multiple energy-pathway cofactor deficits.
 - Magnesium works + fludrocortisone/sodium does not → a magnesium-specific deficit, not general hypovolemia.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Magnesium entry).
+

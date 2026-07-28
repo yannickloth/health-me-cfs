@@ -30,3 +30,7 @@ Aspirin at doses above 100 mg inhibits COX-2 and blocks the EPA→SPM conversion
 - Omega-3 + NAC both work → oxidative stress and resolution failure are co-present.
 - Omega-3 work + antihistamines do not → inflammation from resolution failure, not acute mast cell mediators.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Omega-3 entry).
+

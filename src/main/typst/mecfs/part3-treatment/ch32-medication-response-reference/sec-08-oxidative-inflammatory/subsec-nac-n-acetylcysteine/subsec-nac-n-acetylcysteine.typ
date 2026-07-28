@@ -31,3 +31,7 @@ Non-response does not exclude oxidative stress. Glutathione synthesis can be rat
 - NAC + mitochondrial supplements both work → oxidative stress arising from mitochondrial electron leak; the two mechanisms are linked (a leaking electron transport chain generates the reactive oxygen species NAC neutralizes).
 - NAC + LDN both work → neuroinflammation plus oxidative damage, a common co-occurrence in which inflammatory signaling and oxidative stress reinforce each other.
 - NAC works alone (LDN does not) → peripheral oxidative stress without a dominant neuroinflammatory component.
+
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, NAC entry).

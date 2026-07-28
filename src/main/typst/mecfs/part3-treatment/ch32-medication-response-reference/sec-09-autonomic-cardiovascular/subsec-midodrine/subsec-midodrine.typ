@@ -31,3 +31,7 @@ Midodrine raises blood pressure and can cause supine hypertension; it should be 
 - Midodrine works + fludrocortisone does not → venous pooling that is not volume-responsive.
 - Midodrine does not work + fludrocortisone works → hypovolemia, not venous tone, is the mechanism.
 
+==== Compendium
+
+The full pharmacodiagnostic entry — including mechanism-exclusion logic, dose-specific side-effect diagnostic patterns, combination diagnostics, and worsening risk profiles — is at @ch:mechanistic-cascade-tracing (Chapter 33, sec-12, Midodrine entry).
+
