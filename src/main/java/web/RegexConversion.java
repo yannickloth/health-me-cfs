@@ -276,7 +276,10 @@ final class RegexConversion implements TypstToQmd {
                 continue;
             }
             if (stripped.matches("^={3,}\\s+.+")) {
-                preamble.add(stripped.replaceAll("^=+", "##"));
+                if (inPreamble)
+                    preamble.add(stripped.replaceAll("^=+", "##"));
+                else
+                    current.add(stripped.replaceAll("^=+", "##"));
             } else if (inPreamble) {
                 if (stripped.matches("^<[a-z]+:[^>]+>$") && !stripped.matches("^<(sec|subsec|subsubsec):[^>]+>$"))
                     preambleLabels.add(stripped);
