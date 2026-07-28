@@ -9630,7 +9630,9 @@
   "sodium": {
     "label": "Sodium (Na⁺)",
     "category": "molecule",
-    "definition": "The primary extracellular cation and main determinant of plasma osmolarity. Sodium influx through voltage-gated sodium channels (Nav) drives action potential generation in neurons and muscle. Sodium handling is relevant to ME/CFS through blood volume regulation, POTS management (salt supplementation), and TRPV4 channel function."
+    "definition": "The primary extracellular cation and main determinant of plasma osmolarity. Sodium influx through voltage-gated sodium channels (Nav) drives action potential generation in neurons and muscle. Sodium handling is relevant to ME/CFS through blood volume regulation, POTS management (salt supplementation), and TRPV4 channel function.",
+    "therapeuticCategory": "Substrate-repletion",
+    "therapeuticDepth": "Substrate-repletion"
   },
   "potassium": {
     "label": "Potassium (K⁺)",
