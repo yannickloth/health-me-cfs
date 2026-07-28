@@ -709,22 +709,26 @@
       {
         "dose": "0.5–1.5 mg",
         "category": "Corrective",
-        "mechanism": "TLR4/Nrf2 hormetic anti-inflammatory priming — Nrf2-mediated M1→M2 microglial shift. Benefit lost if dose escalated beyond this window."
+        "mechanism": "TLR4/Nrf2 hormetic anti-inflammatory priming — Nrf2-mediated M1→M2 microglial shift. Benefit lost if dose escalated beyond this window.",
+        "sideEffects": "Sedation (orexin suppression, usually resolves in 2–4 weeks); vivid dreams (REM disinhibition); dysphoria/depression at any dose → paradoxical reactor — stop permanently."
       },
       {
         "dose": "1.5–3.0 mg",
         "category": "Corrective",
-        "mechanism": "Compensatory endorphin upregulation from overnight opioid blockade — plateaus at individual endorphin ceiling."
+        "mechanism": "Compensatory endorphin upregulation from overnight opioid blockade — plateaus at individual endorphin ceiling.",
+        "sideEffects": "Nausea possible if gut TLR4 blockade dominates; vivid dreams; sedation decreasing as endorphin compensation builds."
       },
       {
         "dose": "3.0–4.5 mg",
         "category": "Restorative",
-        "mechanism": "TRPM3 Ca²⁺ channel function restoration — in vitro; clinical link unproven."
+        "mechanism": "TRPM3 Ca²⁺ channel function restoration — in vitro; clinical link unproven.",
+        "sideEffects": "Systemic sickness (malaise, flu-like) if TLR4 hormetic threshold crossed — M2 microglial programme collapses → cytokine surge. Risk highest at this dose range. Narrow-tolerance patients may be fine at 4 mg and sick at 4.5 mg. Nausea, GI distress, orexin disinhibition → insomnia."
       },
       {
         "dose": "3.0–4.5 mg",
         "category": "Threshold-modulatory",
-        "mechanism": "Orexin disinhibition via hypothalamic TLR4 blockade."
+        "mechanism": "Orexin disinhibition via hypothalamic TLR4 blockade.",
+        "sideEffects": "Insomnia/wakefulness if orexin disinhibition overtakes sedation effects; may paradoxically increase fatigue if orexin neurons are too depleted to respond."
       }
     ]
   },
@@ -2613,7 +2617,7 @@
   "TRPM3": {
     "label": "TRPM3",
     "category": "receptor",
-    "definition": "Transient Receptor Potential Melastatin 3: a cation channel activated by heat, pregnenolone sulfate, and osmotic stimuli. Implicated in pain sensation and thermoregulation; TRPM3 dysfunction may contribute to ME/CFS sensory hypersensitivity and temperature dysregulation."
+    "definition": "Transient Receptor Potential Melastatin 3: a calcium-permeable cation channel gated by PIP₂ (essential cofactor), pregnenolone sulfate (agonist), and heat (>40°C). Expressed on NK cells (cytotoxicity), sensory neurons (pain/heat detection), pancreatic β-cells (insulin secretion), and vascular smooth muscle (tone). TRPM3 calcium influx is significantly reduced in ME/CFS NK cells — the most replicated ion channel finding in the disease (six independent cohorts). LDN restores TRPM3-dependent calcium flux in vitro; the PIP₂ requirement links TRPM3 dysfunction to GPCR autoantibody-driven PIP₂ depletion."
   },
   "TRPM8": {
     "label": "TRPM8",
