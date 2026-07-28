@@ -83,4 +83,4 @@ Applying all five principles in order (Restorative > Corrective > Threshold > Su
 7. IVIG/rituximab (high therapeutic depth; broad; energy-consuming — infusion-day exertion; months-reversible; hospital + expensive)
 
 *Falsifiable prediction:* Seven-step ladder — prospective N-of-1 trial protocol: trial each drug ×4--6 weeks with symptom diaries + HRV + activity monitoring. Primary endpoint: cumulative diagnostic resolution (proportion of patients for whom a single drug produces >30% symptom improvement + the improvement's mechanism specificity is validated by a confirmatory second drug per the synergy ladder). Predicted cumulative resolution ≥60% by step 5 (LDN + mast cell + LDA + mitochondrial cofactors + valacyclovir). Falsified if cumulative resolution `<40%` or if ≥30% of resolution occurs after step 5 (stimulants/IVIG/rituximab — the end-of-sequence drugs). (Certainty: 0.10 — the sequence has never been trialled.)
-]
+
