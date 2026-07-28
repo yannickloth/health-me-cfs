@@ -57,7 +57,7 @@ Short-half-life drugs can be trialled, stopped, and reinterpreted quickly. Long-
 *Falsifiable prediction:* Error rate in diagnostic inference (incorrect bottleneck localisation confirmed by later contradictory drug response) should be higher when long-half-life drugs are trialled before short-half-life drugs, because the prolonged washout period creates overlapping drug effects that confound attribution. Falsified if error rates are equivalent regardless of washout sequencing.
 ]
 
-#speculation(title: [Rule 5: Cheap/OTC → Expensive/Prescription], [
+#speculation(title: [Rule 5: Cheap/OTC - Expensive/Prescription], [
 
 *Certainty: 0.20.* When mechanism-inference ordering is equal (two drugs have equivalent therapeutic depth, breadth, energy cost, and washout), default to the cheaper and more accessible option.
 
