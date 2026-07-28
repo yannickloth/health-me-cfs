@@ -32051,7 +32051,7 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     *Study Design:*: Double-blind crossover RCT
     *Sample Size:*: n=60 CFS (Fukuda 1994)
     *Key Findings:*:
-        - Methylphenidate 2×10 mg/day significantly reduced fatigue vs placebo (CIS: −9.7, p<0.0001; VAS: −1.0, p=0.001)
+        - Methylphenidate 2×10 mg/day significantly reduced fatigue vs placebo (CIS: −9.7, p `<` 0.0001; VAS: −1.0, p=0.001)
         - Clinical significant effect in only 17% for fatigue, 22% for concentration — 83% non-response
         - Did NOT assess PEM as outcome
     *Conclusion:*: Stimulants provide short-term benefit in a minority. The 83% non-response may reflect PEM exacerbation from activity masking. Supports Level 4 — stimulants in documented PEM carry risk of energy envelope violation.

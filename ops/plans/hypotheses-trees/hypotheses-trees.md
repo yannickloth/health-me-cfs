@@ -49,6 +49,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| menstrual-cycle-pharmacodiagnostic | [subtrees/menstrual-cycle-pharmacodiagnostic.md](subtrees/menstrual-cycle-pharmacodiagnostic.md) | 2026-07-28 | 15 | 0 | ⬜ pending |
 | interoceptive-dose-finding | [subtrees/interoceptive-dose-finding.md](subtrees/interoceptive-dose-finding.md) | 2026-07-27 | 1 | 1 | 🔵 in progress |
 | pulsed-therapy | [subtrees/pulsed-therapy.md](subtrees/pulsed-therapy.md) | 2026-07-27 | 16 | 7 | ✅ done |
 | pharmacodiagnostic-matrix | [subtrees/pharmacodiagnostic-matrix.md](subtrees/pharmacodiagnostic-matrix.md) | 2026-07-25 | 16 | 4 | ✅ done |

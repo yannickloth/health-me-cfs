@@ -1,6 +1,6 @@
 #import "../../../../shared/environments.typ": *
 
-==== Menstrual Cycle as Dopaminergic and Mast Cell Probe
+==== Menstrual Cycle as Dopaminergic and Mast Cell Probe <sec:menstrual-cycle-dopaminergic-mast-cell-probe>
 
 Estrogen is dopaminergic (enhances DA synthesis via tyrosine hydroxylase upregulation, reduces DA reuptake via DAT downregulation) and mast-cell-stabilizing (reduces IgE-mediated degranulation). Progesterone is GABAergic (allopregnanolone metabolite — positive allosteric modulator of GABA-A) and can trigger mast cell degranulation in sensitive individuals (estrogen withdrawal at luteal phase onset).
 

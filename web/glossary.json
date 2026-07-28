@@ -10460,5 +10460,20 @@
     "label": "REAP",
     "category": "method",
     "definition": "Rapid Extracellular Antigen Profiling \u2014 a high-throughput autoantibody screening method that detects functional antibodies binding to cell-surface receptors. Used in the largest ME/CFS autoantibody screen (Germain 2025, n=172) which found no significant GPCR autoantibody differences versus controls, contrasting with CellTrend ELISA-based studies."
+  },
+  "LFDRR": {
+    "label": "LFDRR",
+    "category": "measurement",
+    "definition": "Luteal-to-Follicular Drug Response Ratio. A single-number biomarker computed as mean drug efficacy during the luteal phase (days 21\u201328) divided by mean efficacy during the follicular phase (days 7\u201314). LFDRR < 0.7 suggests oestrogen-coupled mechanism; > 1.3 suggests progesterone/GABA-coupled; 0.7\u20131.3 suggests hormone-independent."
+  },
+  "FUNCAP": {
+    "label": "FUNCAP",
+    "category": "measurement",
+    "definition": "Functional Capacity scale for ME/CFS. A validated patient-reported outcome measure assessing functional status across daily living domains including personal hygiene, mobility, and household activities."
+  },
+  "MAPK/ERK": {
+    "label": "MAPK/ERK",
+    "category": "pathway",
+    "definition": "Mitogen-Activated Protein Kinase / Extracellular signal-Regulated Kinase signalling cascade. A major intracellular signalling pathway that controls gene expression, cell proliferation, and synaptic plasticity. Activated downstream of oestrogen receptor transactivation."
   }
 }

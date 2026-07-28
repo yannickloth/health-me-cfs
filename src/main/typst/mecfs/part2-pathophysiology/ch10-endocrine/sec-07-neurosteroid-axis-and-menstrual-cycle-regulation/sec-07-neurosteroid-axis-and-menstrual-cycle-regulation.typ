@@ -3,7 +3,7 @@
 == Neurosteroid Axis and Menstrual Cycle Regulation
 <sec:neurosteroid-axis-endocrine>
 
-Beyond classical HPA, HPG, and thyroid dysregulation, a neurosteroid axis centered on allopregnanolone — produced from progesterone via hepatic and central nervous system 5α-reductase — modulates HPA function, GABA-A tone, and sleep architecture. This axis is dynamically regulated across the menstrual cycle and may represent a distinct vulnerability in ME/CFS.
+Beyond classical HPA, HPG, and thyroid dysregulation, a neurosteroid axis centered on allopregnanolone — produced from progesterone via hepatic and central nervous system 5α-reductase — modulates HPA function, GABA-A tone, and sleep architecture. This axis is dynamically regulated across the menstrual cycle and may represent a distinct vulnerability in ME/CFS. For the clinical application of these cycle-phase hormone fluctuations as a pharmacodiagnostic probe — tracking drug response across follicular and luteal phases to infer receptor coupling — see @sec:menstrual-cycle-endogenous-probe.
 
 #include "subsec-07-4-gaba-a-receptor-plasticity-as-a-cycle-severity-modulator/subsec-07-4-gaba-a-receptor-plasticity-as-a-cycle-severity-modulator.typ"
 
