@@ -37,4 +37,7 @@
 
 **Certainty bump log:**
 
-empty
+| Hypothesis | Phase | Old cert | New cert | Δ | Reason |
+|-----------|-------|---------|---------|---|--------|
+| Genetic-origin unfalsifiability | 7 (compatibility) | 0.70 | 0.75 | +0.05 | Registry's three-pronged genetic convergence independently establishes genetic layer as real and additive |
+| Aripiprazole/dopamine origin-level (table) | 7 (compatibility) | 0.30 | 0.35 | +0.05 | Independent corroboration from ch33 sec-09 dopamine convergence node (cert 0.35) with identical 6-driver structure |

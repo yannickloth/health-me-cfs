@@ -25,7 +25,7 @@ A positive antiviral response confirms that active herpesvirus replication was c
 
 ==== Key caveat
 
-Non-response does not exclude a viral contribution. The drug may fail to reach virus sequestered in sanctuary sites (CNS, salivary glands, latent reservoirs), or the reactivation may be a consequence of an uncorrected immune deficit rather than a cause — blocking polymerase without correcting immunity can simply shunt the virus into a different latency program. Non-response is weaker evidence than response: it makes active replication less likely to be dominant but does not rule it out.
+Non-response does not exclude a viral contribution. The drug may fail to reach virus sequestered in sanctuary sites (CNS, salivary glands, latent reservoirs), or the reactivation may be a consequence of an uncorrected immune deficit rather than a cause — blocking polymerase without correcting immunity can simply shunt the virus into a different latency program. Non-response is weaker evidence than response: it makes active replication less likely to be dominant but does not rule it out. For the limits of what an antiviral null can conclude about viral origin specifically — including the trigger vs. amplifier vs. ongoing-driver distinction — see @sec:origin-elimination.
 
 ==== How Valacyclovir and Valganciclovir combine with other medications
 - Valacyclovir works + LDN works → two independent drivers: virus + neuroinflammation.

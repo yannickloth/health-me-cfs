@@ -22,7 +22,7 @@ A positive response confirms that humoral autoimmunity was contributing but does
 
 ==== Key caveat
 
-Non-response does not exclude autoantibody-mediated pathology. Both drugs spare long-lived CD20− plasma cells, so autoantibodies driven from that sanctuary can persist even when the treatment is working as designed on B cells and circulating antibody. Non-response is weaker evidence than response — it makes humoral autoimmunity less likely to be dominant but does not rule it out, particularly given the energy-demanding, expensive nature of these therapies that limits adequate trials.
+Non-response does not exclude autoantibody-mediated pathology. Both drugs spare long-lived CD20− plasma cells, so autoantibodies driven from that sanctuary can persist even when the treatment is working as designed on B cells and circulating antibody. Non-response is weaker evidence than response — it makes humoral autoimmunity less likely to be dominant but does not rule it out, particularly given the energy-demanding, expensive nature of these therapies that limits adequate trials. For the limits of what a rituximab null can conclude about autoimmune origin specifically — including why four autoimmune pathways survive the null — see @sec:origin-elimination.
 
 ==== How IVIG and Rituximab combine with other medications
 - IVIG/rituximab work + antivirals work → autoantibody-driven pathology coexisting with active viral replication; suggests a combined mechanism in which immune dysregulation both produces autoantibodies and permits viral reactivation.

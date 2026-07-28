@@ -31526,3 +31526,98 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     / *Conclusion:*: Significant portion of ME/CFS clinical claims lack adequate evidence. Pharmacodiagnostic inference must distinguish treatment responses that genuinely narrow mechanism from those confounded by placebo or natural history.
     / *Pharmacodiagnostic Relevance:*: The pharmacodiagnostic matrix must include quality filters for which drug responses count as evidence. Some responses are informative (true wheat) while others are noise (chaff).
     / *Certainty:*: 0.35 (opinion/review; no empirical data)
+
+// =============================================================================
+
+<sec:bib-null-subtyping>
+// =============================================================================
+
+=== Finlay et al.\ 2020 — 100 Years of Ligand–Receptor Binding and Response
+
+    / *Full Citation:*: Finlay DB, Duffull SB, Glass M. 100 years of modelling ligand–receptor binding and response: a focus on GPCRs. _British Journal of Pharmacology_. 2020;177(7):1501-1520. @Finlay2020receptorOccupancy
+    / *DOI:*: #link("https://doi.org/10.1111/bph.14907")[10.1111/bph.14907]
+    / *PMID:*: 31739586
+    / *Study Design:*: Comprehensive methodological review
+    / *Key Findings:*:
+        - Reviews 100 years of receptor occupancy theory development
+        - Formalizes relationship between receptor occupancy and response (non-linear, spare receptors)
+        - Covers competitive antagonism: pA2, pKB derivation, Schild analysis
+        - Distinguishes competitive vs non-competitive vs allosteric antagonism
+        - Addresses null methods for defining "receptor pharmacology" — when no response occurs despite receptor presence
+    / *Null-Subtyping Relevance:*: Provides the quantitative framework for distinguishing ABSENT (no binding site) from BLOCKED (competitor occupies site) from functional antagonism. A drug's null response at a given concentration does not imply receptor absence — it may reflect competitive blockade, receptor reserve, or allosteric modulation.
+    / *Certainty:*: 0.90 (Br J Pharmacol; comprehensive review of century-old established theory)
+
+=== Skiba & Kruse 2021 — Autoantibodies as Endogenous Modulators of GPCR Signaling
+
+    / *Full Citation:*: Skiba MA, Kruse AC. Autoantibodies as endogenous modulators of GPCR signaling. _Trends in Pharmacological Sciences_. 2021;42(3):135-150. @Skiba2021AAbGPCRmodulation
+    / *DOI:*: #link("https://doi.org/10.1016/j.tips.2020.11.013")[10.1016/j.tips.2020.11.013]
+    / *PMID:*: 33461756
+    / *Study Design:*: Review with structural biology integration
+    / *Key Findings:*:
+        - Autoantibodies targeting GPCRs can act as orthosteric antagonists, allosteric modulators, biased agonists, or inverse agonists
+        - AAb binding to GPCR extracellular loops (ECL1, ECL2, ECL3) produces distinct functional outcomes: ECL2 binding commonly agonist-like; ECL1 can produce antagonism
+        - AAb promote receptor internalization and desensitization via β-arrestin recruitment
+        - Allosteric small molecules can still bind and modulate GPCR function even when orthosteric site is AAb-occupied
+        - Structural approaches (cryo-EM, X-ray) now enable epitope mapping for AAb-GPCR complexes
+    / *Null-Subtyping Relevance:*: Establishes that GPCR autoantibodies produce the BLOCKED null subtype — receptor structurally present but orthosteric site occupied. Allosteric ligands can bypass this block, providing a diagnostic probe distinguishing BLOCKED from ABSENT. AAb-mediated internalization creates hybrid BLOCKED/ABSENT state: receptor structurally present but functionally depleted from membrane.
+    / *Certainty:*: 0.85 (Trends Pharmacol Sci; well-established pharmacology)
+
+=== Sunami et al.\ 2025 — GPCR Autoimmunity in POTS
+
+    / *Full Citation:*: Sunami Y, Sugaya K, Takahashi K. G protein-coupled receptors related to autoimmunity in postural orthostatic tachycardia syndrome. _Immunological Medicine_. 2025;48(1):1-11. @Sunami2025GPCRPOTS
+    / *DOI:*: #link("https://doi.org/10.1080/25785826.2025.2457613")[10.1080/25785826.2025.2457613]
+    / *PMID:*: 39885707
+    / *Study Design:*: Review
+    / *Key Findings:*:
+        - POTS adrenergic receptor autoantibodies exert allosteric effects on phenylephrine response
+        - M2 muscarinic receptor autoantibodies produce negative allosteric modulation
+        - POTS AAb activated α1 and β2 adrenergic receptors via allosteric mechanism
+        - Distinguishes stimulatory from inhibitory AAb functional profiles
+    / *Null-Subtyping Relevance:*: Direct clinical-context evidence for the BLOCKED null subtype. A POTS patient with negative allosteric M2 AAb would show null response to an orthosteric M2 agonist — but an allosteric M2 positive modulator could restore function. Validates the allosteric bypass probe concept in a dysautonomia population overlapping with ME/CFS.
+    / *Limitations:*: Relies primarily on CellTrend ELISA methodology; functional assay replication pending.
+    / *Certainty:*: 0.50 (Immunol Med; recent review; methodology concerns)
+
+=== Dodge-Kafka et al.\ 2026 — β-Adrenergic Receptor Autoantibody Functional Effects
+
+    / *Full Citation:*: Dodge-Kafka KL, Turcotte MG, Possidento SM, et al.\ β-Adrenergic Receptors: Not Always Outside-In. _Physiology_. 2026;41(4). @DodgeKafka2026betaArrestinAAb
+    / *DOI:*: #link("https://doi.org/10.1152/physiol.00026.2025")[10.1152/physiol.00026.2025]
+    / *Study Design:*: Review with mechanistic focus
+    / *Key Findings:*:
+        - β1AR autoantibodies reduce plasma membrane receptor expression (internalization)
+        - Sustained AAb activation produces chronic homologous desensitization
+        - β-arrestin-biased signaling: AAb activates β-arrestin pathway while Gαs pathway is desensitized
+        - This creates a pathway-specific partial null: drugs signaling through Gαs show null response while β-arrestin pathway remains active
+    / *Null-Subtyping Relevance:*: Documents a key nuance in the BLOCKED null subtype — the receptor may be functionally null for specific signaling pathways while structurally present. A drug relying on Gαs coupling (e.g., standard β-agonist for cAMP elevation) would appear null, but a β-arrestin-biased ligand could still produce response. This refines the allosteric bypass probe to include biased-ligand probes.
+    / *Certainty:*: 0.55 (Physiology; 2026; recent review bridging basic to clinical pharmacology)
+
+=== Kavyani et al.\ 2024 — Kynurenine Pathway Dysregulation in ME/CFS
+
+    / *Full Citation:*: Kavyani B, Ahn SB, Missailidis D, Annesley SJ, Fisher PR, Guillemin GJ, et al.\ Dysregulation of the kynurenine pathway, cytokine expression pattern, and proteomics profile link to symptomology in myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). _Molecular Neurobiology_. 2024;61(7):4728-4748. @Kavyani2024kynurenineMEcfs
+    / *DOI:*: #link("https://doi.org/10.1007/s12035-023-03756-w")[10.1007/s12035-023-03756-w]
+    / *PMID:*: 38097810
+    / *Study Design:*: Case-control multi-omics
+    / *Sample Size:*: ME/CFS patients (exact n not in abstract)
+    / *Key Findings:*:
+        - ME/CFS patients show altered tryptophan metabolism via the kynurenine pathway
+        - Reduced KYNA/QUIN ratio — neuroprotective KYNA depleted relative to neurotoxic QUIN
+        - Cytokines (IL-1β, TNF) correlated with kynurenine pathway enzyme expression
+        - Kynurenine pathway metabolites linked to proteomics-based symptom clusters
+        - IDO-1/TDO activation confirmed in immune–metabolic dysregulation
+    / *Null-Subtyping Relevance:*: This study shows KYNA depletion (not elevation) in ME/CFS. For the OVERWHELMED null subtype (elevated KYNA outcompeting drugs at NMDA receptors), this implies the subtype applies only to the KYNA-elevated subpopulation. The direction of KYNA dysregulation may differ by disease phase or inflammatory state. In the KYNA-depleted state, NMDAR drugs would show enhanced (not null) responses. Pharmacodiagnostic probing requires measuring KYNA levels before drug testing.
+    / *Limitations:*: Single study; KYNA level direction inconsistent across literature; need CSF measurements and pre/post-exercise comparisons.
+    / *Certainty:*: 0.60 (Mol Neurobiol; direct ME/CFS study; multi-omics; single cohort)
+
+=== Hazrati et al.\ 2024 — Kynurenine Pathway Across Chronic Pain Conditions
+
+    / *Full Citation:*: Hazrati E, Eftekhar SP, Mosaed R, et al.\ Understanding the kynurenine pathway: a narrative review on its impact across chronic pain conditions. _Molecular Pain_. 2024;20:17448069241297714. @Hazrati2024kynureninePain
+    / *DOI:*: #link("https://doi.org/10.1177/17448069241297714")[10.1177/17448069241297714]
+    / *PMID:*: 39618145
+    / *Study Design:*: Narrative review
+    / *Key Findings:*:
+        - Covers kynurenine pathway in chronic pain, fibromyalgia, CFS/ME, and MDD
+        - KYNA acts as endogenous NMDA receptor antagonist at the glycine co-agonist site (not the glutamate site)
+        - 7-Cl-KYNA is a synthetic analog with higher NMDA antagonist potency — potential positive control for KYNA probe design
+        - KYNA also antagonizes α7 nicotinic acetylcholine receptors
+        - Kynurenine pathway activation driven by IDO/TDO in response to inflammatory cytokines
+    / *Null-Subtyping Relevance:*: The glycine-site binding of KYNA at NMDA receptors determines probe design for the OVERWHELMED null subtype. Because KYNA competes at the glycine co-agonist site, the concentration-competition probe must use a glycine-site agonist or glycine itself — not a glutamate-site NMDA agonist. This distinguishes KYNA-mediated OVERWHELMED from anti-NMDAR autoantibody-mediated BLOCKED (where the receptor itself is targeted).
+    / *Certainty:*: 0.45 (Mol Pain; narrative review; heterogeneous conditions; no ME/CFS-specific data)

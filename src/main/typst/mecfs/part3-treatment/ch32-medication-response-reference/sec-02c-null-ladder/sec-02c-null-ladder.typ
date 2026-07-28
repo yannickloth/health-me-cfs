@@ -36,3 +36,5 @@ A null result does not always imply mechanism absence:
 A patient-specific null matrix is a grid: each row is a medication trialled, each column is a mechanism hypothesis. A cell is marked "null" if the medication targets that mechanism and produced no response. The matrix readout: rows with many nulls eliminate mechanism classes broadly; columns with no positive responses exclude that hypothesis for the patient. The intersection of all null cells defines the set of mechanisms that remain live hypotheses for that patient. The matrix is dynamic — each new drug trial adds a row and potentially eliminates more columns.
 
 For the formal null matrix methodology including drug-hypothesis constraint-satisfaction scoring and spectral resolution limits, see @sec:pharmacodiagnostic-matrix-clinical.
+
+For the limits of what each null can conclude about viral, autoimmune, genetic, or mechanical origin specifically — including why a rituximab null does not rule out autoimmune origin and a valacyclovir null does not rule out viral origin — see @sec:origin-elimination.

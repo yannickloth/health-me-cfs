@@ -16,6 +16,7 @@ Every drug response — therapeutic benefit, null response, side effect at a spe
 #include "sec-02e-synthesis-algorithm/sec-02e-synthesis-algorithm.typ"
 #include "sec-02f-pharmacodiagnostic-matrix/sec-02f-pharmacodiagnostic-matrix.typ"
 #include "sec-02h-origin-elimination/sec-02h-origin-elimination.typ"
+#include "sec-02i-null-subtyping/sec-02i-null-subtyping.typ"
 
 // --- MEDICATION INDEX ---
 #include "sec-02g-medication-index/sec-02g-medication-index.typ"

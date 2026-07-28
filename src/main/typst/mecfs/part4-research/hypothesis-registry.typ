@@ -4769,3 +4769,57 @@ This registry collects all hypotheses, speculations, open questions, and predict
   [oq:confound-explained-null], [After controlling for severity, symptom fluctuation variance, psychiatric comorbidity (HADS), medication count/class, age, and gender — the ME/CFS-specific residual discrepancy may be zero. If so, the discrepancy is a quantitative amplification of normal interoceptive noise driven by severity, not an ME/CFS-specific mechanism. The framework collapses to "severe illness → large subjective-objective mismatch — any disease." A surviving disease-specific residual confirms the discrepancy as an ME/CFS property. Origin: brainstorm — Phase 5, category 11.],[Phase 5 / 0.40],
 
 )
+
+= Entries added 2026-07-28: Null Subtyping (Absent vs. Blocked vs. Overwhelmed)
+
+#registry-entry(
+  [Null Subtype 1 — Absent: Receptor or Enzyme Never Present],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Receptor occupancy theory establishes that a null agonist response does not equate to receptor absence — it only indicates insufficient occupancy at that concentration. Bypass agonist logic (direct downstream activator confirming downstream machinery intact) is pharmacologically sound but never tested in ME/CFS. @Finlay2020receptorOccupancy],
+  citations: [@Finlay2020receptorOccupancy],
+  mechanism: [Receptor, ion channel, enzyme, or transporter never existed in patient's tissue — or lost irreversibly. Drug never had a target. Bypass probe: give downstream agonist; if bypass produces response, receptor was absent. If bypass fails, downstream machinery also broken.],
+  chapter-ref: [ch32: null subtyping — absent vs blocked vs overwhelmed],
+  prediction: [In patients with TRPM3 null response to pregnenolone, calcium ionophore (A23187 or ionomycin) produces calcium flux in PBMCs — confirming TRPM3 is specifically absent while calcium signalling machinery is intact. Falsified if ionophore also produces null, though this would suggest broader calcium signalling defect rather than TRPM3-specific absence.],
+  treatment: [None — absent target cannot be targeted. Treatment shifts to downstream pathways or unrelated mechanisms.],
+  limitation: [No published ME/CFS study has tested bypass-agonist logic systematically. Probe requires in vitro or ex vivo setup (PBMC calcium flux, functional receptor assay) not available in standard clinical settings.],
+)
+
+#registry-entry(
+  [Null Subtype 2 — Blocked: Receptor Present but Orthosteric Site Inaccessible],
+  type: "S",
+  certainty: "0.20",
+  evidence: [GPCR autoantibodies can act as orthosteric antagonists, allosteric modulators, biased agonists — well-established pharmacology @Skiba2021AAbGPCRmodulation. GPCR AAb documented in POTS (allosteric modulation @Sunami2025GPCRPOTS) and ME/CFS (detection methods contested — Germain2025 REAP/Luminex null vs CellTrend ELISA positive). β-arrestin-biased AAb signalling produces chronic functional blockade distinct from simple orthosteric antagonism @DodgeKafka2026betaArrestinAAb.],
+  citations: [@Skiba2021AAbGPCRmodulation @Sunami2025GPCRPOTS @DodgeKafka2026betaArrestinAAb],
+  mechanism: [Receptor structurally present but orthosteric site occupied — by autoantibody, competitive endogenous ligand, or PTM locking inactive conformation. Probe: allosteric ligand binding different site may produce response when orthosteric agonist fails. If allosteric works → blocked, not absent. If both fail → absent or allosteric site also disrupted.],
+  chapter-ref: [ch32: null subtyping — absent vs blocked vs overwhelmed],
+  prediction: [In β2-AR AAb-positive ME/CFS patients (by validated functional assay), allosteric β2-AR modulator (e.g. Cmpd-6 or biased ligand) produces measurable cAMP response in PBMCs while orthosteric agonist (isoproterenol) does not — confirming orthosteric-site blockade. Falsified if both produce null, suggesting receptor absence or broader signalling defect rather than site-specific blockade.],
+  treatment: [Immunoadsorption or plasmapheresis to remove AAb, then retest orthosteric drug. B-cell depletion for AAb source elimination. Allosteric bypass as alternative strategy when AAb removal is impractical.],
+  limitation: [GPCR AAb detection in ME/CFS is contested — largest screen (Germain2025 n=172) null. Probe requires validated functional GPCR AAb assay not clinically available. No published study has tested allosteric bypass in AAb-positive ME/CFS patients. If GPCR AAb in ME/CFS are non-pathogenic or measurement artefacts, this null subtype collapses.],
+)
+
+#registry-entry(
+  [Null Subtype 3 — Overwhelmed: Receptor Outcompeted by Endogenous Antagonist],
+  type: "S",
+  certainty: "0.15",
+  evidence: [KYNA as endogenous NMDA antagonist binding glycine co-agonist site is well-established neuroscience @Schwarcz2012. Kynurenine pathway dysregulated in ME/CFS @Kavyani2024kynurenineMEcfs but KYNA direction inconsistent — some studies show elevation, others depletion. KYNA binding site (glycine co-agonist, not glutamate site) means concentration-competition probe must control for glycine levels @Hazrati2024kynureninePain.],
+  citations: [@Schwarcz2012 @Kavyani2024kynurenineMEcfs @Hazrati2024kynureninePain],
+  mechanism: [Receptor present, structurally intact, capable of signalling — but outcompeted by supraphysiological endogenous antagonist at orthosteric or co-agonist site. Probe: escalate drug dose above therapeutic range; if drug works at high dose → overwhelmed (higher concentration displaced endogenous antagonist). If fails at all doses → absent or blocked.],
+  chapter-ref: [ch32: null subtyping — absent vs blocked vs overwhelmed],
+  prediction: [In ME/CFS patients with confirmed elevated plasma KYNA (>2 SD above healthy controls), escalating ketamine dose over 3 sessions (0.1 → 0.5 → 1.0 mg/kg) produces dose-dependent symptom improvement linear with dose — while NMDA-agonist-naive patients show flat dose-response. Falsified if high-dose ketamine produces no improvement or produces psychosis/dissociation before therapeutic effect — suggesting KYNA elevation is compensatory (neuroprotective) rather than causal for NMDA hypofunction.],
+  treatment: [Kynurenine pathway inhibition (IDO/TDO inhibitor) to lower KYNA, allowing standard-dose NMDA drugs to work. Alternatively, glycine-site agonist (D-serine) to competitively displace KYNA without NMDA overstimulation risk. Dose escalation of NMDA-targeting drug with safety monitoring.],
+  limitation: [KYNA direction inconsistent in ME/CFS — applies only to elevated-KYNA subset (minority). Probe requires measurement of both KYNA and glycine levels. Concentration-competition probe (escalating doses of psychoactive drugs) carries clinical risk (dissociation, psychosis). No published study has tested this probe. Framework may apply to a negligible fraction of ME/CFS patients.],
+)
+
+#registry-entry(
+  [Null Ladder Extension — Tripartite Null Taxonomy with Distinguishing Probes],
+  type: "OQ",
+  certainty: "0.20",
+  evidence: [Synthesises receptor occupancy theory @Finlay2020receptorOccupancy, GPCR AAb pharmacology @Skiba2021AAbGPCRmodulation, GPCR AAb in POTS @Sunami2025GPCRPOTS, β-arrestin-biased AAb signalling @DodgeKafka2026betaArrestinAAb, and kynurenine pathway dysregulation in ME/CFS @Kavyani2024kynurenineMEcfs into a unified framework for distinguishing absent/blocked/overwhelmed null responses. Zero empirical validation in ME/CFS — all probes are proposed and untested.],
+  citations: [@Finlay2020receptorOccupancy @Skiba2021AAbGPCRmodulation @Sunami2025GPCRPOTS @DodgeKafka2026betaArrestinAAb @Kavyani2024kynurenineMEcfs @Hazrati2024kynureninePain],
+  mechanism: [Binary null logic (null → mechanism eliminated) is incomplete. Three distinct null types exist with mutually exclusive diagnostic implications and distinguishing probes. Absent: receptor never present (bypass agonist probe). Blocked: receptor present but orthosteric site occupied by AAb/ligand/PTM (allosteric probe). Overwhelmed: receptor present but outcompeted by endogenous antagonist (concentration-competition probe). Each null type changes treatment strategy differently — blocked nulls should be unblocked, not abandoned; overwhelmed nulls should be dose-adjusted, not abandoned.],
+  chapter-ref: [ch32: null subtyping — absent vs blocked vs overwhelmed],
+  prediction: [In a cohort of 100 ME/CFS patients with documented null responses to ≥3 drugs, systematic null-subtyping using the three probes identifies ≥5% of nulls as BLOCKED or OVERWHELMED (not ABSENT) — confirming that binary null logic produces false eliminations in a measurable minority. Falsified if all nulls resolve to ABSENT on probing, meaning the tripartite framework adds no clinical value over binary null logic.],
+  treatment: [Framework-level — no direct treatment recommendation. Informs interpretation of existing null responses and design of future pharmacodiagnostic protocols.],
+  limitation: [All probes untested in ME/CFS. BLOCKED subtype contingent on validated pathogenic GPCR AAb detection (contested). OVERWHELMED subtype contingent on KYNA elevation (minority of patients). Framework may add conceptual precision with zero practical impact if blocked/overwhelmed null prevalence is negligible.],
+)
