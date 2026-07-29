@@ -1,3 +1,5 @@
+#import "../../../shared/environments.typ": *
+
 === Medication Reference — Drug-Indexed Pharmacodiagnostic Compendium <sec:medication-reference>
 
 The drug-indexed entries in this section provide the most granular pharmacodiagnostic resolution available in the paper — each drug's mechanism-exclusion logic (what a null response eliminates), dose-specific side-effect patterns, combination diagnostics, and worsening risk profiles. For the clinical-interpretation counterpart — what response means, dose-dependent differential diagnosis, and practical combination guidance — see @ch:medication-response-reference (Chapter 32). Each entry below cross-references its Chapter 32 clinical section where one exists.
