@@ -6,7 +6,7 @@ import { strict as assert } from 'node:assert';
 import test from 'node:test';
 
 const jsSource = fs.readFileSync('src/main/js/glossary-tooltip.js', 'utf8');
-const glossaryJson = JSON.parse(fs.readFileSync('src/main/typst/mecfs/lib/glossary.json', 'utf8'));
+const glossaryJson = JSON.parse(fs.readFileSync('src/main/resources/glossary.json', 'utf8'));
 const nonMetaKeys = Object.keys(glossaryJson).filter(k => k[0] !== '_');
 
 // ── Syntax check ──

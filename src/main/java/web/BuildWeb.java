@@ -284,10 +284,10 @@ void main(String[] args) throws IOException, InterruptedException {
     // --- glossary.json ---
     System.out.println();
     System.out.println("=== glossary.json ===");
-    var glossarySrc = srcRoot.resolve("lib/glossary.json");
+    var glossarySrc = Path.of("src/main/resources/glossary.json").toAbsolutePath().normalize();
     var glossaryDst = webRoot.resolve("glossary.json");
     copy(glossarySrc, glossaryDst, REPLACE_EXISTING);
-    System.out.println("  lib/glossary.json -> web/glossary.json");
+    System.out.println("  src/main/resources/glossary.json -> web/glossary.json");
 
     System.out.println();
     System.out.println("Next: quarto render");
