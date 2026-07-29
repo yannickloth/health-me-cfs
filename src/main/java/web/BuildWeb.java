@@ -115,11 +115,17 @@ void main(String[] args) throws IOException, InterruptedException {
             var outDir = webAppDir.resolve(appName);
             System.out.println("  " + appName + " -> z-appendices/" + appName);
             createDirectories(outDir);
-            var resolved = resolveIncludes(app, srcRoot);
-            var resolvedFile = createTempFile("buildweb-", ".typ");
-            writeString(resolvedFile, resolved);
-            resolvedFile.toFile().deleteOnExit();
-            tasks.add(new ChapterTask(appName, outDir, resolvedFile));
+
+            // Glossary: generate QMD directly from JSON instead of Typst regex conversion
+            if (appName.contains("terminology")) {
+                generateGlossaryQmd(outDir);
+            } else {
+                var resolved = resolveIncludes(app, srcRoot);
+                var resolvedFile = createTempFile("buildweb-", ".typ");
+                writeString(resolvedFile, resolved);
+                resolvedFile.toFile().deleteOnExit();
+                tasks.add(new ChapterTask(appName, outDir, resolvedFile));
+            }
         }
     }
     System.out.println();
@@ -459,5 +465,166 @@ String resolveIncludes(Path file, Path srcRoot) throws IOException {
     var result = sb.toString();
     resolvedCache.put(file, result);
     return result;
+}
+
+// --- Glossary QMD generation ---
+// Reads glossary.json directly to produce the QMD glossary page,
+// bypassing the Typst regex converter which cannot handle data-driven files.
+
+void generateGlossaryQmd(Path outDir) throws IOException {
+    var glossarySrc = Path.of("src/main/resources/glossary.json").toAbsolutePath().normalize();
+    var rawJson = readString(glossarySrc);
+    var entries = parseGlossaryJson(rawJson);
+
+    var sb = new StringBuilder();
+    sb.append("---\n");
+    sb.append("title: \"Glossary of Medical and Scientific Terms\"\n");
+    sb.append("---\n\n");
+    sb.append("<span id=\"app-glossary\"></span>\n\n");
+    sb.append("This glossary defines medical, biochemical, immunological, ");
+    sb.append("and statistical terms used throughout this document. ");
+    sb.append("Terms are organized alphabetically. ");
+    sb.append("Where a term is used in a specialized sense specific to ");
+    sb.append("ME/CFS research, the ME/CFS-specific usage is indicated.\n\n");
+
+    String currentGroup = "";
+    for (var entry : entries) {
+        var group = entry.group();
+        if (!group.equals(currentGroup)) {
+            currentGroup = group;
+            sb.append("## ").append(group).append("\n\n");
+        }
+        sb.append("**").append(entry.label()).append("**: ")
+          .append(entry.definition()).append("\n\n");
+    }
+
+    writeString(outDir.resolve("01-glossary-of-medical-and-scientific-terms.qmd"), sb.toString());
+}
+
+record GlossaryEntry(String label, String definition, String group) {}
+
+List<GlossaryEntry> parseGlossaryJson(String json) {
+    var entries = new ArrayList<GlossaryEntry>();
+    var excludedCategories = Set.of(
+        "medication", "supplement", "medication_class", "vitamin", "brand"
+    );
+    var groupDict = Map.ofEntries(
+        Map.entry("A", "A"), Map.entry("B", "B"), Map.entry("C", "C"),
+        Map.entry("D", "D–E"), Map.entry("E", "D–E"),
+        Map.entry("F", "F–G"), Map.entry("G", "F–G"),
+        Map.entry("H", "H–I"), Map.entry("I", "H–I"),
+        Map.entry("J", "J"),
+        Map.entry("K", "K–M"), Map.entry("L", "K–M"), Map.entry("M", "K–M"),
+        Map.entry("N", "N–O"), Map.entry("O", "N–O"),
+        Map.entry("P", "P–R"), Map.entry("Q", "P–R"), Map.entry("R", "P–R"),
+        Map.entry("S", "S–T"), Map.entry("T", "S–T"),
+        Map.entry("U", "U–Z"), Map.entry("V", "U–Z"), Map.entry("W", "U–Z"),
+        Map.entry("X", "U–Z"), Map.entry("Y", "U–Z"), Map.entry("Z", "U–Z")
+    );
+
+    // Minimal streaming JSON parser — handles the flat glossary structure.
+    // We extract top-level string keys, then their { } object values.
+    // State machine: finding key → reading value → collecting "label"/"definition"/"category" fields.
+
+    record ParsedEntry(String label, String definition, String category) {}
+    var parsed = new ArrayList<ParsedEntry>();
+
+    int i = json.indexOf('{') + 1; // skip opening brace of root
+    int len = json.length();
+
+    while (i < len) {
+        char c = json.charAt(i);
+        if (Character.isWhitespace(c)) { i++; continue; }
+        if (c == '}') break; // end of root
+        if (c == ',') { i++; continue; }
+
+        // Read key
+        var keyStart = json.indexOf('"', i) + 1;
+        var keyEnd = json.indexOf('"', keyStart);
+        var rawKey = json.substring(keyStart, keyEnd);
+        i = keyEnd + 1;
+
+        // Skip to ':'
+        while (i < len && json.charAt(i) != ':') i++;
+        i++; // skip ':'
+
+        // If key is "_meta_", skip its object entirely
+        if ("_meta_".equals(rawKey)) {
+            while (i < len && json.charAt(i) != '{') i++;
+            i = skipJsonObject(json, i);
+            continue;
+        }
+
+        // Read object value
+        while (i < len && json.charAt(i) != '{') i++;
+        var valueStart = i;
+        i = skipJsonObject(json, valueStart);
+
+        var objStr = json.substring(valueStart, i);
+        String label = rawKey;
+        String definition = "";
+        String category = "";
+
+        // Extract fields from the object string
+        label = extractJsonString(objStr, "label");
+        if (label == null || label.isEmpty()) label = rawKey;
+
+        definition = extractJsonString(objStr, "definition");
+        if (definition == null || definition.isEmpty()) continue;
+
+        category = extractJsonString(objStr, "category");
+        if (category == null) category = "";
+
+        parsed.add(new ParsedEntry(label, definition, category));
+    }
+
+    // Filter excluded categories and sort
+    for (var p : parsed) {
+        if (excludedCategories.contains(p.category())) continue;
+        var sortKey = p.label().toLowerCase();
+        if (sortKey.startsWith("a ")) sortKey = sortKey.substring(2);
+        if (sortKey.startsWith("an ")) sortKey = sortKey.substring(3);
+        if (sortKey.startsWith("the ")) sortKey = sortKey.substring(4);
+
+        var firstChar = p.label().substring(0, 1).toUpperCase();
+        var group = Character.isDigit(firstChar.charAt(0)) ? "#"
+            : groupDict.getOrDefault(firstChar, firstChar);
+
+        entries.add(new GlossaryEntry(p.label(), p.definition(), group));
+    }
+
+    entries.sort(Comparator.comparing(GlossaryEntry::label, String.CASE_INSENSITIVE_ORDER));
+    return entries;
+}
+
+int skipJsonObject(String json, int start) {
+    int depth = 1;
+    int i = start + 1;
+    boolean inString = false;
+    while (i < json.length() && depth > 0) {
+        char c = json.charAt(i);
+        if (inString) {
+            if (c == '\\') { i += 2; continue; }
+            if (c == '"') inString = false;
+        } else {
+            if (c == '"') inString = true;
+            else if (c == '{' || c == '[') depth++;
+            else if (c == '}' || c == ']') depth--;
+        }
+        i++;
+    }
+    return i;
+}
+
+String extractJsonString(String objStr, String key) {
+    var pattern = Pattern.compile("\"" + Pattern.quote(key) + "\"\\s*:\\s*\"([^\"]*)\"");
+    var m = pattern.matcher(objStr);
+    if (m.find()) {
+        var val = m.group(1);
+        // Unescape simple escapes
+        val = val.replace("\\\"", "\"").replace("\\\\", "\\").replace("\\n", "\n");
+        return val;
+    }
+    return null;
 }
 
