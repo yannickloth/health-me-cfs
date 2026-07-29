@@ -10599,7 +10599,7 @@
   },
   "LDA": {
     "label": "LDA",
-    "category": "medication",
+    "category": "concept",
     "definition": "Low-dose aripiprazole: aripiprazole used at sub-antipsychotic doses (~0.25–2 mg/day), acting as a partial dopamine D2 agonist. Hypothesized to modulate microglial activation and dopamine tone in ME/CFS neuroinflammation.",
     "generic": "Aripiprazole (low dose)",
     "class": "Partial D2 agonist / microglial modulator",
@@ -10637,7 +10637,7 @@
   },
   "Gabapentinoids": {
     "label": "Gabapentinoids",
-    "category": "medication",
+    "category": "medication_class",
     "definition": "A class of drugs (gabapentin, pregabalin) that bind the α2δ subunit of voltage-gated calcium channels, reducing neurotransmitter release. Used for neuropathic pain, sleep disturbance, and hyperalgesia in ME/CFS and fibromyalgia.",
     "class": "α2δ calcium channel ligands",
     "rx": "Rx",
@@ -10653,7 +10653,7 @@
   },
   "NSAIDs": {
     "label": "NSAIDs",
-    "category": "medication",
+    "category": "medication_class",
     "definition": "Non-steroidal anti-inflammatory drugs (ibuprofen, naproxen, celecoxib) that inhibit cyclooxygenase (COX-1/COX-2) enzymes, reducing prostaglandin synthesis. Used for pain and inflammation in ME/CFS but limited by gastrointestinal, renal, and cardiovascular toxicity with chronic use.",
     "class": "COX-1/COX-2 inhibitor",
     "rx": "Both Rx and OTC",
@@ -10669,7 +10669,7 @@
   },
   "Beta-blockers": {
     "label": "Beta-blockers",
-    "category": "medication",
+    "category": "medication_class",
     "definition": "Drugs that antagonize beta-adrenergic receptors. Used in ME/CFS for POTS and tachycardia (propranolol, metoprolol); may also block β2-adrenergic autoantibodies potentially reducing their pathological effects (speculative). Non-selective beta-blockers carry risk of worsening fatigue and bronchospasm.",
     "class": "Beta-adrenergic receptor antagonist",
     "rx": "Rx",
@@ -10685,7 +10685,7 @@
   },
   "Antihistamines": {
     "label": "Antihistamines",
-    "category": "medication",
+    "category": "medication_class",
     "definition": "A class of drugs that block histamine receptors. H1 antihistamines (cetirizine, loratadine, fexofenadine) target allergic and mast-cell-mediated symptoms; H2 antihistamines (famotidine, cimetidine) block gastric H2 receptors with additional immunomodulatory effects. Used as first-line therapy for mast cell activation symptoms in ME/CFS.",
     "class": "H1 and H2 receptor antagonists",
     "rx": "Both Rx and OTC",

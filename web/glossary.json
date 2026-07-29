@@ -10599,7 +10599,7 @@
   },
   "LDA": {
     "label": "LDA",
-    "category": "medication",
+    "category": "concept",
     "definition": "Low-dose aripiprazole: aripiprazole used at sub-antipsychotic doses (~0.25–2 mg/day), acting as a partial dopamine D2 agonist. Hypothesized to modulate microglial activation and dopamine tone in ME/CFS neuroinflammation.",
     "generic": "Aripiprazole (low dose)",
     "class": "Partial D2 agonist / microglial modulator",
@@ -10637,7 +10637,7 @@
   },
   "Gabapentinoids": {
     "label": "Gabapentinoids",
-    "category": "medication",
+    "category": "medication_class",
     "definition": "A class of drugs (gabapentin, pregabalin) that bind the α2δ subunit of voltage-gated calcium channels, reducing neurotransmitter release. Used for neuropathic pain, sleep disturbance, and hyperalgesia in ME/CFS and fibromyalgia.",
     "class": "α2δ calcium channel ligands",
     "rx": "Rx",
@@ -10653,7 +10653,7 @@
   },
   "NSAIDs": {
     "label": "NSAIDs",
-    "category": "medication",
+    "category": "medication_class",
     "definition": "Non-steroidal anti-inflammatory drugs (ibuprofen, naproxen, celecoxib) that inhibit cyclooxygenase (COX-1/COX-2) enzymes, reducing prostaglandin synthesis. Used for pain and inflammation in ME/CFS but limited by gastrointestinal, renal, and cardiovascular toxicity with chronic use.",
     "class": "COX-1/COX-2 inhibitor",
     "rx": "Both Rx and OTC",
@@ -10669,7 +10669,7 @@
   },
   "Beta-blockers": {
     "label": "Beta-blockers",
-    "category": "medication",
+    "category": "medication_class",
     "definition": "Drugs that antagonize beta-adrenergic receptors. Used in ME/CFS for POTS and tachycardia (propranolol, metoprolol); may also block β2-adrenergic autoantibodies potentially reducing their pathological effects (speculative). Non-selective beta-blockers carry risk of worsening fatigue and bronchospasm.",
     "class": "Beta-adrenergic receptor antagonist",
     "rx": "Rx",
@@ -10685,7 +10685,7 @@
   },
   "Antihistamines": {
     "label": "Antihistamines",
-    "category": "medication",
+    "category": "medication_class",
     "definition": "A class of drugs that block histamine receptors. H1 antihistamines (cetirizine, loratadine, fexofenadine) target allergic and mast-cell-mediated symptoms; H2 antihistamines (famotidine, cimetidine) block gastric H2 receptors with additional immunomodulatory effects. Used as first-line therapy for mast cell activation symptoms in ME/CFS.",
     "class": "H1 and H2 receptor antagonists",
     "rx": "Both Rx and OTC",
@@ -10774,5 +10774,135 @@
   "PER2": {
     "category": "gene",
     "definition": "Period circadian regulator 2: a core clock gene whose protein product forms a negative feedback loop with CLOCK-BMAL1, generating ~24h oscillations in gene expression. PER2 also regulates cell cycle and metabolism."
+  },
+  "Anaerobic": {
+    "label": "Anaerobic threshold (AT)",
+    "category": "concept",
+    "definition": "The exercise intensity above which lactate production exceeds clearance, causing blood lactate to rise. Reduced in ME/CFS."
+  },
+  "aerobic glycolysis": {
+    "label": "Aerobic glycolysis",
+    "category": "pathway",
+    "definition": "Glycolysis occurring in the presence of oxygen, with pyruvate entering the Krebs cycle rather than being converted to lactate. Distinct from anaerobic glycolysis."
+  },
+  "baroreflex": {
+    "label": "Baroreflex",
+    "category": "system",
+    "definition": "The reflex arc that maintains blood pressure by adjusting heart rate and vascular tone in response to changes detected by arterial baroreceptors."
+  },
+  "Bell Disability Scale": {
+    "label": "Bell Disability Scale",
+    "category": "method",
+    "definition": "A 0–100 rating scale for functional capacity in ME/CFS, where 100 represents normal function and 0 represents bedridden and dependent."
+  },
+  "β2-adrenergic autoantibodies": {
+    "label": "Beta2-adrenergic autoantibodies (β2-Abs)",
+    "category": "concept",
+    "definition": "Autoantibodies targeting the β2-adrenergic receptor, identified in ME/CFS subsets. May contribute to vascular and autonomic dysfunction."
+  },
+  "butyrate": {
+    "label": "Butyrate",
+    "category": "concept",
+    "definition": "A short-chain fatty acid produced by gut bacteria from dietary fiber. Maintains intestinal barrier integrity and exerts anti-inflammatory effects."
+  },
+  "CDR": {
+    "label": "Cell danger response (CDR)",
+    "category": "cell",
+    "definition": "A conserved metabolic response to cellular threat, characterized by reduced mitochondrial function and extracellular ATP/ADP signaling. Proposed as a unifying mechanism in ME/CFS by Naviaux."
+  },
+  "circadian rhythm": {
+    "label": "Circadian rhythm",
+    "category": "system",
+    "definition": "Endogenous biological oscillations with approximately 24-hour periodicity, governed by the suprachiasmatic nucleus and peripheral clock genes."
+  },
+  "digital twin": {
+    "label": "Digital twin",
+    "category": "concept",
+    "definition": "A patient-specific computational model continuously updated with real-time data to predict individual disease trajectory and treatment response."
+  },
+  "dysautonomia": {
+    "label": "Dysautonomia",
+    "category": "concept",
+    "definition": "Dysfunction of the autonomic nervous system. In ME/CFS, manifests as orthostatic intolerance, POTS, temperature dysregulation, and gastrointestinal dysmotility."
+  },
+  "gut-brain axis": {
+    "label": "Gut–brain axis",
+    "category": "system",
+    "definition": "The bidirectional communication system between the gastrointestinal tract and the central nervous system, involving neural (vagal), immune, endocrine, and microbial signaling pathways."
+  },
+  "Hill function": {
+    "label": "Hill function",
+    "category": "concept",
+    "definition": "A mathematical function describing cooperative binding or sigmoidal dose–response relationships: f(x) = x^n / (K^n + x^n), where n is the Hill coefficient and K is the half-saturation constant."
+  },
+  "hypometabolism": {
+    "label": "Hypometabolism",
+    "category": "concept",
+    "definition": "A state of reduced metabolic activity. In ME/CFS, refers to the systemic downregulation of metabolic pathways documented by metabolomics studies."
+  },
+  "immune exhaustion": {
+    "label": "Immune exhaustion",
+    "category": "condition",
+    "definition": "Progressive loss of effector function in T cells or NK cells due to chronic antigen stimulation. Characterized by upregulation of inhibitory receptors (PD-1, Tim-3, LAG-3)."
+  },
+  "Krebs cycle": {
+    "label": "Krebs cycle",
+    "category": "pathway",
+    "definition": "(Also: citric acid cycle, tricarboxylic acid cycle.) The metabolic pathway in the mitochondrial matrix that oxidizes acetyl-CoA to CO2, generating NADH, FADH2, and GTP."
+  },
+  "LPS": {
+    "label": "Lipopolysaccharide (LPS)",
+    "category": "concept",
+    "definition": "A component of gram-negative bacterial cell walls. A potent activator of innate immunity through TLR4 signaling. Elevated circulating LPS (endotoxemia) may result from intestinal barrier dysfunction in ME/CFS."
+  },
+  "metabolic trap": {
+    "label": "Metabolic trap",
+    "category": "concept",
+    "definition": "A hypothesis proposing that ME/CFS involves a stable biochemical state in which a metabolic pathway remains locked in a dysfunctional configuration due to bistability in enzyme kinetics."
+  },
+  "Michaelis-Menten kinetics": {
+    "label": "Michaelis–Menten kinetics",
+    "category": "concept",
+    "definition": "A model of enzyme-catalyzed reaction rates: v = V_(max)[S]/(K_m + [S]), where V_(max) is the maximal rate and K_m is the substrate concentration at half-maximal rate."
+  },
+  "mitochondria": {
+    "label": "Mitochondria",
+    "category": "cell",
+    "definition": "Double-membrane organelles responsible for aerobic ATP production via the Krebs cycle and electron transport chain. Mitochondrial dysfunction is a central feature of ME/CFS pathophysiology."
+  },
+  "NT1": {
+    "label": "Narcolepsy Type 1 (NT1)",
+    "category": "concept",
+    "definition": "An autoimmune condition caused by T-cell-mediated destruction of ≥90% of hypothalamic orexin neurons, producing CSF orexin-A <110 pg/mL, cataplexy, and excessive daytime sleepiness. Triggered by post-infectious molecular mimicry (H1N1, _Streptococcus_), strongly associated with HLA-DQB1\\*06:02."
+  },
+  "OX2R agonist": {
+    "label": "OX2R agonist",
+    "category": "receptor",
+    "definition": "A selective agonist of the orexin-2 receptor (OX2R). Danavorexton (TAK-925, IV) and oveporexton (TAK-861, oral) are in clinical development for narcolepsy. Hypothesized as potential ME/CFS treatments if functional orexin deficiency is confirmed."
+  },
+  "proton-motive force": {
+    "label": "Proton-motive force",
+    "category": "concept",
+    "definition": "The electrochemical gradient across the inner mitochondrial membrane, composed of the membrane potential (Delta Psi) and the pH gradient (DeltapH). Drives ATP synthesis by Complex V."
+  },
+  "sensitivity analysis": {
+    "label": "Sensitivity analysis",
+    "category": "concept",
+    "definition": "A mathematical technique for determining which model parameters most strongly influence model outputs. Global sensitivity analysis (Sobol indices) partitions output variance across parameters and interactions."
+  },
+  "SCFAs": {
+    "label": "Short-chain fatty acids (SCFAs)",
+    "category": "molecule",
+    "definition": "Fatty acids with fewer than 6 carbon atoms (acetate, propionate, butyrate) produced by bacterial fermentation of dietary fiber in the colon."
+  },
+  "tilt table testing": {
+    "label": "Tilt table testing",
+    "category": "test",
+    "definition": "A diagnostic procedure for orthostatic intolerance in which the patient is passively tilted from supine to upright while heart rate and blood pressure are monitored."
+  },
+  "Warburg effect": {
+    "label": "Warburg effect",
+    "category": "concept",
+    "definition": "The metabolic shift from oxidative phosphorylation to aerobic glycolysis, originally described in cancer cells but also characteristic of activated immune cells."
   }
 }
