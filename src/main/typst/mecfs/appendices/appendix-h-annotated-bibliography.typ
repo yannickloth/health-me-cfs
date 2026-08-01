@@ -25380,6 +25380,307 @@ sec-bib-rf-elevated-mecfs-duplicate
 
 // =============================================================================
 
+== Local Sleep / Waking Sleep-Like Slow Waves — Relevance to ME/CFS
+<sec:bib-local-sleep-waking-slow-waves>
+
+=== Pinggal et al.\ 2026 — Core Seed: Waking Slow Waves in ADHD
+
+    / *Full Citation:*: Pinggal E, Jackson J, Kusztor A, Chapman D, Windt J, Drummond SPA, Silk TJ, Bellgrove MA, Andrillon T. Sleep-like slow waves during wakefulness mediate attention and vigilance difficulties in adult attention-deficit/hyperactivity disorder. _Journal of Neuroscience_. 2026;46(15):e1694252025. @Pinggal2026localsleepADHD
+    / *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.1694-25.2025")[10.1523/JNEUROSCI.1694-25.2025]
+    / *PMID:*: 41839570
+    / *PMCID:*: PMC13086247
+    / *Published:*: April 15, 2026
+    / *Study Design:*: Cross-sectional case-control EEG
+    / *Sample Size:*: n=32 ADHD adults, n=31 neurotypical controls
+    / *Key Findings:*:
+        - ADHD adults exhibited higher waking slow wave density over parieto-temporal electrodes vs controls
+        - More commission errors, mind wandering, mind blanking, and theta oscillations in ADHD
+        - SW density mediated ADHD-related attentional difficulties (omission errors, slower RT, greater RT variability)
+        - SW density correlated with elevated sleepiness ratings; on-task reports negatively correlated with SW density
+        - First direct evidence that local sleep intrusions during wakefulness mechanistically explain attentional dysfunction in ADHD
+    / *Conclusion:*: Sleep-like slow waves during wakefulness are a neural mechanism underlying attentional difficulties in ADHD. Local sleep represents a porous boundary between sleep and wake states.
+    / *Limitations:*: Single study (N=63); cross-sectional design; ADHD population only; no ME/CFS data; EEG detects SW but not underlying cellular mechanisms.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (J Neuroscience; rigorous EEG methodology; peer-reviewed)
+        - *Sample:*: Medium (n=63 total); single-center
+        - *Replication:*: Not yet replicated; preceded by Pinggal 2022 pharmacological study
+        - *Score:*: 0.80 (weight: 0.85; discounted: 0.68)
+
+=== Pinggal et al.\ 2022 — Pharmacological Modulation of Waking Slow Waves
+
+    / *Full Citation:*: Pinggal E, Dockree PM, O'Connell RG, Bellgrove MA, Andrillon T. Pharmacological manipulations of physiological arousal and sleep-like slow waves modulate sustained attention. _Journal of Neuroscience_. 2022;42(43):8113--8124. @Pinggal2022pharmaSlowWaves
+    / *DOI:*: #link("https://doi.org/10.1523/JNEUROSCI.0836-22.2022")[10.1523/JNEUROSCI.0836-22.2022]
+    / *PMID:*: 36109167
+    / *PMCID:*: PMC9637000
+    / *Published:*: October 26, 2022
+    / *Study Design:*: Double-blind, randomized, placebo-controlled, 4-way crossover trial
+    / *Sample Size:*: n=32 healthy male participants
+    / *Key Findings:*:
+        - Methylphenidate (↑dopamine/noradrenaline) improved sustained attention performance
+        - Atomoxetine (↑noradrenaline, frontal-predominant) increased impulsive responding
+        - Citalopram (↑serotonin) increased sleep-like slow waves and missed trials
+        - Slow waves differentially predicted both misses (sluggishness) and faster incorrect responses (impulsivity) in region-specific fashion
+        - Slow waves outperformed alpha power as a predictor of attentional lapses
+    / *Conclusion:*: Monoamine arousal systems gate local sleep intrusions. Serotonergic tone promotes slow wave generation; catecholaminergic tone suppresses it.
+    / *Limitations:*: Male-only sample; healthy young adults; single dose per drug; pharmacological specificity limited.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (J Neuroscience; RCT crossover design; double-blind)
+        - *Sample:*: Small (n=32); male-only; healthy (not clinical)
+        - *Replication:*: Single study; no independent replication
+        - *Score:*: 0.78 (weight: 0.90; discounted: 0.70)
+
+=== Gong et al.\ 2026 — Waking SWA Subtype Specificity in Pediatric ADHD
+
+    / *Full Citation:*: Gong S, Lu X, Wang H, Wang Y. Sleep-like slow waves in ADHD: regional specificity in combined type. _International Journal of Psychophysiology_. 2026;222:113349. @Gong2026slowWavesADHDSubtypes
+    / *DOI:*: #link("https://doi.org/10.1016/j.ijpsycho.2026.113349")[10.1016/j.ijpsycho.2026.113349]
+    / *PMID:*: 41724214
+    / *Published:*: April 2026
+    / *Study Design:*: Cross-sectional case-control EEG
+    / *Sample Size:*: n=120 children (healthy controls, ADHD-I, ADHD-C)
+    / *Key Findings:*:
+        - Waking SWA elevated in both ADHD subtypes; highest in combined type
+        - Global SWA parameters distinguished ADHD from typical development
+        - Topographic analysis revealed prefrontal SWA features selectively distinguished ADHD-C from ADHD-I
+        - Prefrontal SWA correlated with executive control and orientation deficits in ADHD-C only
+        - ADHD subtype significantly modulated the relationship between SWA and behavioral performance
+    / *Conclusion:*: Waking slow waves show subtype-specific topography in ADHD. Prefrontal local sleep characterizes the combined subtype. SWA dynamics may enable neurophysiological stratification.
+    / *Limitations:*: Pediatric population only; single-center (China); no EEG source localization; ANT task may not capture all attention domains.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Int J Psychophysiol; well-designed but single-center)
+        - *Sample:*: Good (n=120); pediatric only
+        - *Replication:*: First subtype analysis; replicates Pinggal2026 core finding in children
+        - *Score:*: 0.65 (weight: 0.85; discounted: 0.55)
+
+=== Andrillon & Oudiette 2023 — Local Sleep Review
+
+    / *Full Citation:*: Andrillon T, Oudiette D. What is sleep exactly? Global and local modulations of sleep oscillations all around the clock. _Neuroscience & Biobehavioral Reviews_. 2023;155:105465. @Andrillon2023localSleepReview
+    / *DOI:*: #link("https://doi.org/10.1016/j.neubiorev.2023.105465")[10.1016/j.neubiorev.2023.105465]
+    / *PMID:*: 37972882
+    / *Published:*: December 2023
+    / *Study Design:*: Comprehensive narrative review
+    / *Key Findings:*:
+        - Sleep is a local, not purely global, phenomenon — local sleep occurs during both sleep and wakefulness
+        - Evidence from animals and humans, healthy and pathological brains
+        - Local sleep provides unified framework for: dreaming in NREM/REM, NREM and REM parasomnias, intrasleep responsiveness, inattention and mind wandering in wakefulness
+        - Behavioral, phenomenological, and physiological dimensions of sleep can dissociate
+        - Physiological origins and functions of local sleep remain unclear
+    / *Conclusion:*: The notion of local sleep provides a unified account for phenomena spanning sleep disorders and waking cognitive dysfunction. Exploring local sleep could provide a novel perspective on how and why we sleep.
+    / *Limitations:*: Narrative review (not systematic); many studies cited are animal models or small human samples; incomplete mechanistic understanding.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (Neurosci Biobehav Rev; comprehensive; senior authors)
+        - *Sample:*: N/A (review)
+        - *Replication:*: Well-replicated phenomenon across species and labs
+        - *Score:*: 0.82 (weight: 0.95; discounted: 0.78)
+
+=== Deboer 2026 — Two Types of Local Sleep
+
+    / *Full Citation:*: Deboer T. Global and regional vigilance: are there two types of local sleep? _Brain and Behavior_. 2026;16(4):e71362. @Deboer2026twoTypesLocalSleep
+    / *DOI:*: #link("https://doi.org/10.1002/brb3.71362")[10.1002/brb3.71362]
+    / *PMID:*: 41913650
+    / *PMCID:*: PMC13112011
+    / *Published:*: April 2026
+    / *Study Design:*: Perspective article
+    / *Key Findings:*:
+        - Distinguishes Type 1 local sleep (distinct vigilance states simultaneously, subcortical origin) from Type 2 local sleep (use-dependent local neuronal changes, cortical origin)
+        - Type 1: uni-hemispheric sleep, NREM parasomnias in humans
+        - Type 2: local slow waves induced by prior workload, waking SW intrusions
+        - Mechanistic differences: subcortical vs cortical origin; different regulatory drivers
+    / *Conclusion:*: Waking slow wave intrusions are Type 2 cortical local sleep driven by use-dependent fatigue. Recognizing this distinction clarifies mechanistic questions.
+    / *Limitations:*: Perspective (no new data); conceptual distinction may oversimplify mixed cases.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Brain and Behavior; perspective article)
+        - *Sample:*: N/A (perspective)
+        - *Replication:*: Conceptual — builds on established literature
+        - *Score:*: 0.60 (weight: 0.80; discounted: 0.48)
+
+=== Van Dongen 2025 — Local vs Global Sleep Theory
+
+    / *Full Citation:*: Van Dongen HPA. Local versus global sleep organization and the quest to determine sleep function. _Neurobiology of Sleep and Circadian Rhythms_. 2025;18(Suppl):100117. @VanDongen2025localVsGlobalSleep
+    / *DOI:*: #link("https://doi.org/10.1016/j.nbscr.2025.100117")[10.1016/j.nbscr.2025.100117]
+    / *PMID:*: 40703581
+    / *PMCID:*: PMC12282847
+    / *Published:*: May 2025
+    / *Study Design:*: Theoretical paper
+    / *Key Findings:*:
+        - Extends Krueger's neuronal/glial assembly model
+        - Local sleep is physics-based: information processing depletes energy, increases entropy → local quiescence is inevitable, has no function
+        - Global sleep is biology-based adaptation to manage local sleep pressure while the organism is relatively safe
+        - Global sleep regulation is subject to evolutionary shaping and species-specific optimization
+        - "Sleep may just be the unavoidable, but worthwhile, price we pay for cognition"
+    / *Conclusion:*: Local sleep is an inevitable physics-based consequence of neural computation. Global sleep evolved to preemptively manage local sleep pressure. This framing has implications for conditions where energy metabolism is impaired.
+    / *Limitations:*: Theoretical only; no empirical testing of proposed model; highly speculative physics framing.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Neurobiol Sleep Circ Rhythms; theoretical; respected author)
+        - *Sample:*: N/A (theory)
+        - *Replication:*: Speculative; consistent with use-dependent local sleep evidence
+        - *Score:*: 0.55 (weight: 0.75; discounted: 0.41)
+
+=== Alfonsa et al.\ 2023 — Chloride Mechanism for Local Sleep Pressure
+
+    / *Full Citation:*: Alfonsa H, Burman RJ, Brodersen PJN, Newey SE, Mahfooz K, Yamagata T, Panayi MC, Bannerman DM, Vyazovskiy VV, Akerman CJ. Intracellular chloride regulation mediates local sleep pressure in the cortex. _Nature Neuroscience_. 2023;26(1):64--78. @Alfonsa2023chlorideLocalSleep
+    / *DOI:*: #link("https://doi.org/10.1038/s41593-022-01214-2")[10.1038/s41593-022-01214-2]
+    / *PMID:*: 36510112
+    / *Published:*: January 2023
+    / *Study Design:*: Animal experimental (mouse)
+    / *Key Findings:*:
+        - Intracellular chloride accumulates in cortical neurons during wakefulness
+        - Chloride accumulation drives local sleep pressure — the longer a cortical region works, the more chloride accumulates
+        - KCC2/NKCC1 chloride transporter manipulation alters slow wave expression
+        - Provides molecular mechanism for use-dependent local sleep
+    / *Conclusion:*: Intracellular chloride concentration acts as a cellular proxy for time-spent-awake, directly gating local sleep pressure in cortical circuits.
+    / *Limitations:*: Mouse model only; chloride measurement in vivo is technically challenging; human translation unknown.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (Nature Neuroscience; elegant experiments; rigorous controls)
+        - *Sample:*: N/A (animal model)
+        - *Replication:*: Builds on established chloride/sleep work; specific mechanism needs independent replication
+        - *Score:*: 0.78 (weight: 0.85; discounted: 0.66)
+
+=== ElGrawani et al.\ 2024 — BDNF-TrkB Drives Local Sleep Buildup
+
+    / *Full Citation:*: ElGrawani W, Sun G, Kliem FP, et al. BDNF-TrkB signaling orchestrates the buildup process of local sleep. _Cell Reports_. 2024;43(7):114500. @ElGrawani2024BDNFlocalSleep
+    / *DOI:*: #link("https://doi.org/10.1016/j.celrep.2024.114500")[10.1016/j.celrep.2024.114500]
+    / *PMID:*: 39046880
+    / *Published:*: July 23, 2024
+    / *Study Design:*: Animal experimental (mouse)
+    / *Key Findings:*:
+        - BDNF-TrkB signaling identified as molecular driver of local sleep buildup
+        - BDNF application during wakefulness increases subsequent local slow wave activity
+        - TrkB blockade prevents use-dependent SWA increase
+        - Links synaptic plasticity marker (BDNF) to sleep pressure regulation
+    / *Conclusion:*: BDNF-TrkB is a key molecular pathway translating prior neural activity into local sleep pressure. Synaptic potentiation and sleep pressure share this pathway.
+    / *Limitations:*: Mouse only; pharmacological manipulations may not capture endogenous dynamics; BDNF has pleiotropic functions.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium-High (Cell Reports; mechanistic, well-controlled)
+        - *Sample:*: N/A (animal model)
+        - *Replication:*: Single study; builds on BDNF/sleep literature
+        - *Score:*: 0.70 (weight: 0.80; discounted: 0.56)
+
+=== Leemburg et al.\ 2025 — LPS Inflammation Triggers Local Sleep
+
+    / *Full Citation:*: Leemburg S, Kala A, Nataraj A, Karkusova P, et al. LPS-induced systemic inflammation disrupts brain activity in a region- and vigilance-state specific manner. _Brain, Behavior, and Immunity_. 2025;120:12--24. @Leemburg2025LPSvigilance
+    / *DOI:*: #link("https://doi.org/10.1016/j.bbi.2025.05.002")[10.1016/j.bbi.2025.05.002]
+    / *PMID:*: 40349731
+    / *Published:*: August 2025
+    / *Study Design:*: Animal experimental (unspecified species)
+    / *Key Findings:*:
+        - LPS-induced systemic inflammation disrupts EEG activity in region- and vigilance-state specific ways
+        - Certain cortical areas show sleep-like activity (slow waves) during behavioral wakefulness — inflammation-induced local sleep
+        - Peripheral inflammation → CNS EEG disruption is regionally heterogeneous
+    / *Conclusion:*: Systemic inflammation can directly trigger waking slow wave intrusions in specific cortical regions. Provides mechanistic bridge from peripheral inflammation → neuroinflammation → local sleep → cognitive dysfunction.
+    / *Limitations:*: Animal model; LPS is an acute bolus, not chronic low-grade inflammation; human translation uncertain.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Brain Behav Immun; well-designed but single study)
+        - *Sample:*: N/A (animal model)
+        - *Replication:*: Single study; consistent with sickness behavior/neuroinflammation literature
+        - *Score:*: 0.55 (weight: 0.70; discounted: 0.39)
+
+=== Maness et al.\ 2019 — ME/CFS Common in Hypersomnolent Patients
+
+    / *Full Citation:*: Maness C, Saini P, Bliwise DL, Olvera V, Rye DB, Trotti LM. Systemic exertion intolerance disease/chronic fatigue syndrome is common in sleep centre patients with hypersomnolence: a retrospective pilot study. _Journal of Sleep Research_. 2019;28(3):e12689. @Maness2019SEIDhypersomnolence
+    / *DOI:*: #link("https://doi.org/10.1111/jsr.12689")[10.1111/jsr.12689]
+    / *PMID:*: 29624767
+    / *PMCID:*: PMC6173992
+    / *Published:*: June 2019
+    / *Study Design:*: Retrospective pilot study
+    / *Sample Size:*: n=187 hypersomnolent sleep center patients
+    / *Key Findings:*:
+        - 21% of hypersomnolent patients met SEID/ME/CFS criteria
+        - SEID frequency did not differ across sleep diagnoses (idiopathic hypersomnia, NT2, OSA, short sleep, normal study)
+        - SEID patients had more profound fatigue and were less responsive to wake-promoting agents (88.6% non-response vs 67.7%)
+        - SEID patients did not differ by gender, age, ESS, depressive symptoms, or PSG parameters
+    / *Conclusion:*: ME/CFS is a common comorbidity in patients presenting with hypersomnolence; not specific to any hypersomnolence subtype. Excessive daytime sleepiness may mask underlying ME/CFS.
+    / *Limitations:*: Retrospective; single-center (Emory); small subgroups; SEID criteria applied via chart review not prospective assessment.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (J Sleep Res; retrospective design; pilot)
+        - *Sample:*: Moderate (n=187); single-center
+        - *Replication:*: Not replicated
+        - *Score:*: 0.65 (weight: 0.85; discounted: 0.55)
+
+=== Neu et al.\ 2015 — SWS Power Spectra in CFS vs Insomnia
+
+    / *Full Citation:*: Neu D, Mairesse O, Verbanck P, Le Bon O. Slow wave sleep in the chronically fatigued: power spectra distribution patterns in chronic fatigue syndrome and primary insomnia. _Clinical Neurophysiology_. 2015;126(10):1926--1933. @Neu2015swsMECFSinsomnia
+    / *DOI:*: #link("https://doi.org/10.1016/j.clinph.2014.12.016")[10.1016/j.clinph.2014.12.016]
+    / *PMID:*: 25620040
+    / *Published:*: October 2015
+    / *Study Design:*: Cross-sectional case-control EEG with power spectral analysis
+    / *Sample Size:*: CFS, primary insomnia, and healthy controls (drug-free, no comorbidities)
+    / *Key Findings:*:
+        - Both CFS and primary insomnia showed decreased central ultra-slow power (0.3--0.79 Hz) during SWS
+        - CFS had increased SWS duration but qualitatively impaired — quantitative compensation without qualitative restoration
+        - PI showed additional increase in frontal faster-frequency power during SWS (correlated with affective symptoms)
+        - Central ultra-slow power reduction correlated with fatigue severity and poor sleep quality
+    / *Conclusion:*: SWS is present in CFS at normal or increased duration but with impaired spectral quality — lower proportion of the slowest (most restorative) oscillations. Suggests altered sleep homeostatic regulation.
+    / *Limitations:*: Small sample sizes; single-center (Brussels); no waking EEG to assess local sleep; cross-sectional.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium-High (Clin Neurophysiol; rigorous EEG spectral analysis; drug-free patients)
+        - *Sample:*: Small; single-center
+        - *Replication:*: Not directly replicated; consistent with Fatt 2020 and broader CFS sleep literature
+        - *Score:*: 0.72 (weight: 0.85; discounted: 0.61)
+
+=== Fatt et al.\ 2020 — Reduced Parasympathetic Activity During SWS in CFS
+
+    / *Full Citation:*: Fatt SJ, Beilharz JE, Joubert M, Wilson C, Lloyd AR, Vollmer-Conna U, Cvejic E. Parasympathetic activity is reduced during slow-wave sleep, but not resting wakefulness, in patients with chronic fatigue syndrome. _Journal of Clinical Sleep Medicine_. 2020;16(1):19--28. @Fatt2020parasympatheticSWS
+    / *DOI:*: #link("https://doi.org/10.5664/jcsm.8114")[10.5664/jcsm.8114]
+    / *PMID:*: 31957647
+    / *PMCID:*: PMC7053003
+    / *Published:*: January 15, 2020
+    / *Study Design:*: Cross-sectional case-control (home-based PSG + HRV)
+    / *Sample Size:*: n=24 CFS, n=24 matched healthy controls
+    / *Key Findings:*:
+        - CFS patients had slower sleep onset, more awakenings, larger proportion of SWS
+        - Parasympathetic activity (normalized HF power) reduced in CFS specifically during deeper sleep stages
+        - Reduced parasympathetic signaling was NOT present during wake before sleep, REM, or with time spent in SWS
+        - Reduced nocturnal parasympathetic activity associated with poorer self-reported wellbeing and sleep quality
+    / *Conclusion:*: Autonomic hypervigilance during deeper, recuperative sleep stages — patients are in SWS but not in a restorative autonomic state. Causal links need confirmation but provide intervention targets for unrefreshing sleep.
+    / *Limitations:*: Small sample (n=48); single-center; correlational design; HRV as indirect autonomic measure.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium-High (J Clin Sleep Med; well-controlled; home-based recording improves ecological validity)
+        - *Sample:*: Small (n=48)
+        - *Replication:*: Consistent with earlier CFS autonomic sleep literature; not independently replicated
+        - *Score:*: 0.72 (weight: 0.85; discounted: 0.61)
+
+=== Ruby et al.\ 2024 — Sleep-to-Wake Transition and Local Sleep
+
+    / *Full Citation:*: Ruby P, Evangelista E, Bastuji H, et al. From physiological awakening to pathological sleep inertia: neurophysiological and behavioural characteristics of the sleep-to-wake transition. _Neurophysiologie Clinique_. 2024;54(2):102934. @Ruby2024sleepWakeTransition
+    / *DOI:*: #link("https://doi.org/10.1016/j.neucli.2023.102934")[10.1016/j.neucli.2023.102934]
+    / *PMID:*: 38394921
+    / *Published:*: April 2024
+    / *Study Design:*: Narrative review
+    / *Key Findings:*:
+        - Sleep inertia = persistent local sleep in specific brain regions after behavioral awakening
+        - Neurophysiological characteristics: regional slow wave persistence, reduced functional connectivity
+        - Sleep-deprived individuals show longer and more intense sleep inertia
+        - Pathological sleep inertia linked to disorders of arousal
+    / *Conclusion:*: The sleep-to-wake transition is not instantaneous or uniform — some brain regions can remain in local sleep after awakening. This may explain unrefreshing sleep: failure of complete local sleep dissipation.
+    / *Limitations:*: Narrative review (not systematic); limited human neuroimaging data during transitional states; sparse literature on pathological sleep inertia.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Neurophysiol Clin; review by established French sleep group)
+        - *Sample:*: N/A (review)
+        - *Replication:*: Emerging literature; local sleep during wakefulness concept is gaining support
+        - *Score:*: 0.65 (weight: 0.80; discounted: 0.52)
+
+=== Ortelli et al.\ 2022 — Post-COVID Attentional Slowing
+
+    / *Full Citation:*: Ortelli P, Benso F, Ferrazzoli D, et al. Global slowness and increased intra-individual variability are key features of attentional deficits and cognitive fluctuations in post COVID-19 patients. _Scientific Reports_. 2022;12:13123. @Ortelli2022postcovidAttention
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-022-17463-x")[10.1038/s41598-022-17463-x]
+    / *PMID:*: 35907947
+    / *Published:*: July 30, 2022
+    / *Study Design:*: Cross-sectional case-control neuropsychological assessment
+    / *Sample Size:*: n=65 post-COVID, n=52 healthy controls
+    / *Key Findings:*:
+        - Post-COVID patients showed global slowing and increased intra-individual variability in attentional tasks
+        - The behavioral signature — RT slowing, variability, attentional fluctuations — is identical to the waking slow wave signature described in Pinggal 2026
+        - Attention was the most affected cognitive domain
+    / *Conclusion:*: Post-viral cognitive dysfunction exhibits the behavioral fingerprint of local sleep intrusions. Attention lapses and RT variability in post-COVID may reflect the same waking slow wave mechanism as ADHD.
+    / *Limitations:*: No EEG recorded — behavioral inference only; cross-sectional; heterogeneous post-COVID severity; small sample.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Scientific Reports; well-designed but no neurophysiology)
+        - *Sample:*: Moderate (n=117); single-center
+        - *Replication:*: Consistent with broader post-COVID cognition literature
+        - *Score:*: 0.60 (weight: 0.80; discounted: 0.48)
+
+// =============================================================================
+
 == Sleep Synaptic Homeostasis / SV2A PET — Elmenhorst 2026 and Related
 <sec:bib-sleep-synaptic-reset>
 

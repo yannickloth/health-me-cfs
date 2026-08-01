@@ -76,6 +76,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | ebv-heterogeneity     | [subtrees/ebv-heterogeneity.md](subtrees/ebv-heterogeneity.md)        | 2026-04-20      | 0          | 0          | ⬜ stub        |
 | autoimmune-diseases   | [subtrees/autoimmune-diseases.md](subtrees/autoimmune-diseases.md)    | 2026-05-02      | 0          | 0          | ⬜ group-root  |
 | autoimmune-sle        | [subtrees/autoimmune-sle.md](subtrees/autoimmune-sle.md)              | 2026-06-07      | 33         | 1          | 🔵 in progress |
+| local-sleep-waking-slow-waves | [subtrees/local-sleep-waking-slow-waves.md](subtrees/local-sleep-waking-slow-waves.md) | 2026-08-01      | 9          | 4          | ✅ done |
 | autoimmune-sjogren    | [subtrees/autoimmune-sjogren.md](subtrees/autoimmune-sjogren.md)      | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | autoimmune-ms         | [subtrees/autoimmune-ms.md](subtrees/autoimmune-ms.md)                | 2026-05-02      | 0          | 0          | ⬜ stub        |
 | autoimmune-ra         | [subtrees/autoimmune-ra.md](subtrees/autoimmune-ra.md)                | 2026-05-02      | 0          | 0          | ⬜ stub        |

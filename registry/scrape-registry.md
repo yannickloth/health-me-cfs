@@ -761,3 +761,15 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (37 queries, batch) | pubmed/eutils | 2026-07-26 | — | ops/research/literature-tcell-mitochondrial-exhaustion-2026-07-26.md, ops/research/search-log-tcell-mitochondrial-exhaustion-2026-07-26.md, bib/immune.bib (4 new + 6 updated + 1 added to energy-metabolism.bib reference), appendix-h (12 annotated entries) — T-cell mitochondrial exhaustion literature collection |
+
+## Local Sleep / Waking Slow Waves Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-01 | 23 queries: Pinggal 2026 seed, local sleep ME/CFS, local sleep wakefulness, sleep fragmentation ME/CFS, orexin/hypocretin ME/CFS, EDS ME/CFS, EEG vigilance CFS, alpha intrusion ME/CFS, local sleep narcolepsy, slow waves fibromyalgia, attention lapses post-viral, sleep homeostasis CFS, waking slow waves, local sleep long COVID, slow waves + sleep deprivation + attention, sleep pressure + neuroinflammation, noradrenergic arousal CFS, adenosine ME/CFS |
+| Crossref API | 2026-08-01 | Pinggal 2026 seed DOI metadata (10.1523/JNEUROSCI.1694-25.2025) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (23 queries, batch) | pubmed/eutils | 2026-08-01 | — | ops/research/literature-local-sleep-waking-slow-waves-2026-08-01.md, ops/research/search-log-local-sleep-waking-slow-waves-2026-08-01.md, bib/sleep.bib (12 new entries), bib/neuroinflammation.bib (1 new entry), appendix-h (14 annotated entries) — Local sleep / waking slow waves literature (14 papers) |
+| Crossref API (10.1523/JNEUROSCI.1694-25.2025) | crossref | 2026-08-01 | — | ops/research/literature-local-sleep-waking-slow-waves-2026-08-01.md — Seed paper metadata |
+
