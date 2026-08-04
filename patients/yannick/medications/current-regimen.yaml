@@ -1,16 +1,13 @@
 # Current Medication Regimen
 
 regimen_date: 2026-05-22
-last_updated: 2026-07-26
+last_updated: 2026-08-04
 
 medications:
   - name: Low-Dose Naltrexone (LDN)
-    current_dose: 4mg
-    frequency: once daily
-    timing: morning
-    recent_change: increased from 3.5mg to 4mg
-    change_date: 2026-05-22
-    status: "active — continuing alongside LDA; ~6 months non-response noted, but maintained during LDA trial"
+    current_dose: none
+    status: "STOPPED 2026-08-02 — no effectiveness at 4mg after adequate trial; patient favors future trial of lower dose levels (distinct pharmacology)"
+    change_date: 2026-08-02
 
   - name: Aripiprazole (low-dose, LDA)
     current_dose: 1mg
@@ -74,6 +71,7 @@ supplements:
     notes: unmeasured amounts, patient adds to each water bottle
 
 notes: |
+  - LDN STOPPED 2026-08-02 (no effectiveness at 4mg; lower-dose retrial under consideration)
   - LDN dose increased from 3.5mg to 4mg on 2026-05-22
   - Mestinon significantly reduced from 3×3 pills/day to 3×1 pill/day on 2026-05-22
   - Ritalin MR dose reduced from MR 30mg to MR 10mg on 2026-05-22 (MR 30mg too strong, induced PEM)

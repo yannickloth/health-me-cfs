@@ -1,6 +1,26 @@
 # Medication Change Log
 
 changes:
+  - date: 2026-08-02
+    medication: "Low-Dose Naltrexone (LDN)"
+    action: stop
+    previous_dose: 4mg
+    new_dose: none
+    rationale: >
+      No effectiveness at 4mg after adequate trial (~6 months non-response
+      documented 2026-07-09; maintained during LDA trial). Patient stopped
+      LDN on 2026-08-02. Patient favors subsequently trialing lower
+      naltrexone dose levels, which have distinct pharmacological effects
+      from the standard 4-4.5mg low dose.
+    notes: >
+      Open question for any future lower-dose trial: which dose level(s),
+      which target mechanism, and which symptom domain as outcome measure.
+      The 4mg failure was interpreted as TLR4 not being the dominant
+      microglial sensor in this patient (see
+      notes/lda-results-pem-mechanism-2026-07.md, "Note additionnelle
+      2026-07-21"). A lower-dose retrial tests a different mechanism and
+      does not contradict that interpretation.
+
   - date: 2026-07-26
     medication: "Aripiprazole (low-dose, LDA)"
     action: dose restoration (continued)
