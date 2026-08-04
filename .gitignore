@@ -362,14 +362,11 @@ web/*-listing.json
 # Reference materials
 test-tikz-figure.pdf
 .gitignore
-.claude/logs/routing.log.lock
 general protocols/light-energy-protocol.pdf
 general protocols/medication-supplement-guide.pdf
 tmp/
-.history/
 figures/FIXES-*.md
 figures/VALIDATION_REPORT-*.md
-.claudelens
 
 # Sven folder is a symlink to external notes vault — not tracked
 patients/sven

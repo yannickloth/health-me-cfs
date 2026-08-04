@@ -3,8 +3,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "small_model": "deepseek/deepseek-v4-flash",
   "instructions": [
-    "Read CLAUDE.md for project context.",
-    "Read .claude/agents/*.md for agent definitions.",
+    "Read .claude/CLAUDE.md for project context.",
+    "Read .opencode/agents/*.md for agent definitions.",
     "Tiers: (1) deepseek-v4-flash thinking-disabled = mechanical, build-verified, high-volume; flash kept for speed, thinking explicitly OFF because DS4 API defaults thinking ON. (2) deepseek-v4-pro thinking-enabled effort=high = default judgment tier (DS4-pro cheap; DS4 supports only high/max; opencode auto-elevates complex agent calls to max). (3) kimi-for-coding/k2p7 (K2.7 Code, 256K ctx) = code-generation agents where DS4 code mistakes cause rework loops. (4) kimi-for-coding/kimi-for-coding-highspeed = latency-sensitive code fix loops. (5) kimi-for-coding/k3 = correctness/logic/safety-critical and error-propagating builders (low-frequency; reasoning always-on at effort=max — the only value K3 accepts; no thinking param; token-hungry; no sweeps, no mechanical work). All Kimi models share the limited Allegretto quota: k2p7/highspeed burn far less than k3. VISION: DS4 models are text-only — any agent that Reads rendered figures/PDFs (diagram layout, accuracy, consistency, spacing checks) MUST use a Kimi model (k2p7 default; k3 for deep visual-rhetoric)."
   ],
   "plugin": ["../llm-harness-plugins/agentmem/opencode/index.ts"],

@@ -3,8 +3,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "small_model": "deepseek/deepseek-v4-flash",
   "instructions": [
-    "Read CLAUDE.md for project context.",
-    "Read .claude/agents/*.md for agent definitions.",
+    "Read .claude/CLAUDE.md for project context.",
+    "Read .opencode/agents/*.md for agent definitions.",
     "3 tiers: deepseek-v4-flash no-think (mechanical), deepseek-v4-flash+think (moderate reasoning/cost-effective), deepseek-v4-pro+think (deep reasoning). Default: deepseek-v4-flash."
   ],
   "agent": {

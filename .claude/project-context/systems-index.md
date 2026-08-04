@@ -8,7 +8,7 @@ Lazy-load reference for all major subsystems. Load details on demand.
 
 ## Agents
 
-Full index + specs: `.claude/agents/README.md`
+Full index + specs: `.opencode/agents/README.md`
 
 ---
 
@@ -28,8 +28,7 @@ Builds formal causal and quantitative models of ME/CFS pathophysiology with expl
 | `model-auditor` | Cross-validate DAG↔EPC↔ODE |
 | `uncertainty-analyst` | Certainty propagation |
 
-- Full workflow: `.claude/workflows/formalization-pipeline.md`
-- Methodology + decision matrices: `.claude/FORMALIZATION_METHODOLOGY.md`
+- Full workflow: `.claude/skills/formalization-pipeline/SKILL.md`
 - Output structure + environments: `.claude/template-proposal-formalization-environments.md`
 
 ---
@@ -56,7 +55,7 @@ Builds formal causal and quantitative models of ME/CFS pathophysiology with expl
 | `meta-analysis-coordinator` | Synthesize across papers |
 | `evidence-mapper` | Citation↔model index |
 
-Full pipeline: `/integrate-topic` skill (`.claude/skills/integrate-topic/SKILL.md`)
+Full pipeline: `/integrate-topic` skill (`.agents/skills/integrate-topic/SKILL.md`)
 
 ---
 
@@ -67,7 +66,6 @@ Full pipeline: `/integrate-topic` skill (`.claude/skills/integrate-topic/SKILL.m
 **Agents:** `case-documenter`, `medical-advisor`, `treatment-analyst`, `crisis-manager`, `pacing-coach`, `data-validator`, `hypothesis-generator`, `research-monitor`, `benefit-navigator`, `caregiver-coordinator`
 
 - System docs: `.claude/systems/medical-agent-system.md`
-- Case data: `.claude/case-data/`
 - Recommendations: `appendix-j-recommendations.tex`
 - Personal case data: `appendix-i-*.tex`
 
@@ -86,7 +84,7 @@ Full pipeline: `/integrate-topic` skill (`.claude/skills/integrate-topic/SKILL.m
 | Tone | Neutral, evidence-based throughout |
 | Research citations | Always include certainty assessment |
 
-Full guidelines: `.claude/writing-style.md`
+Full guidelines: `.opencode/writing-style.md`
 
 ---
 
@@ -114,4 +112,4 @@ Full guidelines: `.claude/writing-style.md`
 | Safety auditors | `safety-auditor`, `pharmacology-auditor`, `patient-safety-auditor` |
 | Rigor auditors | `falsifiability-auditor`, `bibliography-auditor` |
 
-Full phase breakdown + execution protocol: `.claude/skills/review-biomedical/SKILL.md`
+Full phase breakdown + execution protocol: `.agents/skills/review-biomedical/SKILL.md`

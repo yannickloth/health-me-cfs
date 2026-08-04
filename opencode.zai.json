@@ -3,8 +3,8 @@
   "model": "deepseek/deepseek-v4-pro",
   "small_model": "deepseek/deepseek-v4-flash",
   "instructions": [
-    "Read CLAUDE.md for project context.",
-    "Read .claude/agents/*.md for agent definitions.",
+    "Read .claude/CLAUDE.md for project context.",
+    "Read .opencode/agents/*.md for agent definitions.",
     "4 tiers: glm-4.7-flash no-think (mechanical), glm-4.7+think (moderate reasoning), glm-5-turbo+think (fast capable), glm-5.1+think (deep reasoning). Default: glm-4.7."
   ],
   "agent": {
