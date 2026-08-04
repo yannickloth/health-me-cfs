@@ -191,3 +191,36 @@ The body text uses left alignment (ragged right). For a conference abstract inte
 6. Simplify Figure 1(d) legend text ("Strand with canonical repeat polarity" → plain language)
 7. Fix "immune immune" duplication in Figure 2 caption
 8. Switch body text to justified paragraphs
+9. Strengthen herpesvirus reactivation claims with primary prevalence studies (see below)
+
+---
+
+## Herpesvirus Reactivation Prevalence — Literature Gap
+
+The paper states: "frequent observation that Long COVID and ME/CFS emerge following reactivation of latent herpesviruses" and lists HSV-1, EBV, HHV-6, and HCMV as viruses "reported to reactivate in Long COVID." However, **no specific prevalence numbers are cited**, and the two support citations (`Davis2021LongCOVIDreview`, `Komaroff2021PAISreview`) are general reviews — not primary reactivation studies. The audit flagged this gap in 2026-07-21 (`C1 Medium`).
+
+### Missing primary evidence — Long COVID
+
+| Study | n | Findings |
+|-------|---|----------|
+| **Gold et al. 2021** (*Pathogens*) | 185 surveyed, 68 serology | **66.7% (20/30)** long COVID subjects showed EBV reactivation (EA-D IgG or VCA IgM) vs **10% (2/20)** controls. *p < 0.001* |
+| **Butt et al. 2024** (*Viruses*) | 96 acute, 62 followed 20 months | High EBV antibodies → **>4× odds of fatigue** (acute + follow-up). High CMV antibodies → **>3× odds of concentration problems.** HSV-1/2 no association |
+| **Maguire et al. 2024** (*bioRxiv*, IMPACC, n=1,154) | 1,154 hospitalized COVID-19 | Significant *Herpesviridae* reactivation during acute COVID-19. Persistent *Anelloviridae* at ≥3 months → PASC fatigue |
+
+### Missing primary evidence — ME/CFS
+
+| Study | n | Findings |
+|-------|---|----------|
+| **Palomo et al. 2026** | 40 ME/CFS, 16 controls, 873 longitudinal samples | **72.5%** ME/CFS co-expressed antibodies to multiple herpesviruses (EBV, HHV-6, VZV) vs **31%** controls (*p < 0.001*) |
+| **Hannestad et al. 2025** | 13 ME/CFS, 16 controls | Higher EBV viral load in ME/CFS sputum (*p = 0.026*) |
+| **Liu et al. 2023** (*medRxiv*) | — | Heightened EBV and HSV-1 reactivation in both ME/CFS and long COVID |
+| **Ruiz-Pablos et al. 2021** | Post-EBV mononucleosis | ~10% develop ME/CFS at 6 months post-acute EBV infection |
+
+### Important negative studies (for balanced citation)
+
+| Study | n | Findings |
+|-------|---|----------|
+| **Cliff et al. 2019** (UK Biobank) | 251 ME/CFS + 107 HC + 46 MS | No herpesvirus seroprevalence differences (largest null) |
+| **Buchwald et al. 1996** | n=548 | No HSV-1/2 seroprevalence differences |
+
+**Recommendation:** Add Gold et al. 2021 and Butt et al. 2024 to `refs.bib` and cite them for the reactivation claim instead of (or alongside) the current review-only citations. The 66.7% vs 10% EBV reactivation figure from Gold et al. is the strongest direct evidence supporting the paper's claim.
