@@ -393,6 +393,9 @@ src/main/latex/hsat2/20260720T*.pdf
 test-l3.pdf
 src/main/latex/**/main.pdf
 src/main/latex/**/*.pdf
+!src/main/latex/hsat2/long_abstract/20260721T1227_long-abstract.pdf
+!src/main/latex/hsat2/long_abstract/20260723T1102_long-abstract.pdf
+!src/main/latex/hsat2/long_abstract/20260804_ABST-Final-V2-Could HSAT2 Repeat RNAs Drive Long COVID and ME_CFS_ A New Hypothesis-4figs-2aout.pdf
 src/main/typst/**/main.pdf
 src/main/typst/**/*.pdf
 **/node_modules
