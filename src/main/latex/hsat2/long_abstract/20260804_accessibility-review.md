@@ -12,6 +12,8 @@ Scope: Text and figure accessibility for physicians / non-scientists
 - Pages 3–4: Figures 1–4 (each full-page)
 - Page 5: Figure 4 continuation (large blank area; PDF ends abruptly)
 
+The PDF contains 2,255 words (as extracted by `pdftotext`). This count includes the main body text but excludes words embedded in the 4 figures, since `pdftotext` doesn't extract text from images.
+
 ---
 
 ## Critical Issues
