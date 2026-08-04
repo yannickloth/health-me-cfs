@@ -17,6 +17,8 @@ All pipelines are skills or agents. Invoke via `/skill-name`.
 | `/full-document-review` | "full document review" |
 | `/review-biomedical <scope>` | biomedical 20-category review |
 | `/medication-differential-analysis` | "what does LDN response tell us" · "differential analysis for all meds" · "retroactive differential" |
+| `/typst-write` | "write/edit [file].typ" · "create a typst file with valid syntax" |
+| `/review-english-prose-style` | "review prose style" · "de-AI-ify prose" · "naturalize english text" |
 
 ## Agents (Direct Invocation)
 
@@ -24,3 +26,5 @@ All pipelines are skills or agents. Invoke via `/skill-name`.
 |-------|---------|
 | `environment-selection` | "help me choose an environment" |
 | `template-advisor` | "should I use template or project-specific?" |
+| `typst-writer` | "write [content] as typst" · "create a .typ file" |
+| `english-prose-pattern-auditor` | "find AI-prose tells in [file]" · "audit prose patterns" |
