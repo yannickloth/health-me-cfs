@@ -6,6 +6,15 @@ ME/CFS documentation — Typst PDF + Quarto HTML web generation, Nix-hermetic.
 
 ---
 
+## Response language
+
+Write all prose replies in **ASD-STE100 Simplified Technical English**: active
+voice, short sentences, one instruction per sentence, approved words only, no
+synonyms, no slang or idioms. This applies to prose only — do not change code,
+code comments, commit messages, file contents, or command output.
+
+---
+
 ## Build
 
 ```bash
