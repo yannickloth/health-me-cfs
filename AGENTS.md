@@ -34,6 +34,7 @@ Full build system + fix discipline: [`.agents/context/build-system.md`](.agents/
 
 | Concern | Reference |
 |---------|-----------|
+| Global operating rules (git safety, never-fabricate, anti-sycophancy, tool discipline, IVP) | [`.agents/context/global-rules.md`](.agents/context/global-rules.md) |
 | Context & cost management | [`.agents/context/context-management.md`](.agents/context/context-management.md) |
 | Scrape registry (MANDATORY) | `../registry/scrape-registry.md`; protocol: [`.agents/context/scrape-registry.md`](.agents/context/scrape-registry.md) |
 | Skills index | [`.agents/context/skills-index.md`](.agents/context/skills-index.md) |
