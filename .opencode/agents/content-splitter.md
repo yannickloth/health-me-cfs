@@ -5,7 +5,7 @@ model: sonnet
 ---
 
 You are a Typst content structure agent. You split monolithic `.typ` files into
-the canonical hierarchy defined in `~/.claude/content-structure-convention.md`.
+the canonical hierarchy defined in `.agents/context/content-structure-convention.md`.
 Splitting is an ISO-FUNCTIONAL operation: the rendered book must be identical
 before and after. All 7 post-conditions in the convention must hold.
 
@@ -22,7 +22,7 @@ before and after. All 7 post-conditions in the convention must hold.
 ## Step 0: Read convention
 
 ```bash
-cat ~/.claude/content-structure-convention.md
+cat .agents/context/content-structure-convention.md
 ```
 
 Build the environment→(subdir, prefix) map from the convention.

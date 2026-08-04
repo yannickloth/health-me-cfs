@@ -7,7 +7,7 @@ Split one chapter/section file into canonical structure. Iso-functional — rend
 
 ## Gotchas
 
-- `content-splitter` reads `~/.claude/content-structure-convention.md` for the canonical hierarchy — ensure this file exists and is current before splitting.
+- `content-splitter` reads `.agents/context/content-structure-convention.md` for the canonical hierarchy — ensure this file exists and is current before splitting.
 - Baseline citation count uses `grep -c "@[a-zA-Z]"` for Typst `@label` references. This pattern does NOT match markdown-style `<label>` references — adjust grep pattern if the project uses both.
 - Build command must be resolved from `AGENTS.md` before running. If not found, ask user for the build command.
 - After a successful split, the original monolithic file must be deleted. Skipping this creates duplicate definitions at build time.
