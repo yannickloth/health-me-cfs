@@ -399,3 +399,5 @@ src/main/latex/**/*.pdf
 src/main/typst/**/main.pdf
 src/main/typst/**/*.pdf
 **/node_modules
+## Kondo / snapshot history backups
+.history/
