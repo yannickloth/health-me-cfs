@@ -88,7 +88,7 @@ Checkpoints give phase-boundary rollback. To avoid the history-rewrite hazard en
 
 ## Agent Registry — Available Agents
 
-Verify these exist before delegating any phase. Run: `ls .claude/agents/<name>.md`.
+Verify these exist before delegating any phase. Run: `ls .opencode/agents/<name>.md`.
 
 | Agent file | Used by phase | Status |
 |-----------|---------------|--------|
@@ -1265,9 +1265,9 @@ Add to Phase 0 tracking: `6 | M matches examined, N adapted (R reinforced, T con
 
 **Purpose:** New hypotheses don't only interact with evidence — they interact with *each other*. Phase 7 maps how each newly integrated hypothesis relates to every existing hypothesis in the registry: which reinforce, which feed into, which conflict, which are independent. Output: compatibility matrix + reinforcement chains + conflict clusters + certainty adjustment proposals.
 
-**Execution mode:** Phase 7 runs inline in the main session (current model). No separate agent is spawned — the main session performs all three steps below as a single integrated pass. The `hypothesis-compatibility-auditor` and `hypothesis-reinforcement-builder` agent files exist in `.claude/agents/` for reference (audit checklist and reinforcement rules) but are not delegated to; the main session reads them for guidance and executes directly. This avoids the agent non-existence / blank output issues observed in prior cycles.
+**Execution mode:** Phase 7 runs inline in the main session (current model). No separate agent is spawned — the main session performs all three steps below as a single integrated pass. The `hypothesis-compatibility-auditor` and `hypothesis-reinforcement-builder` agent files exist in `.opencode/agents/` for reference (audit checklist and reinforcement rules) but are not delegated to; the main session reads them for guidance and executes directly. This avoids the agent non-existence / blank output issues observed in prior cycles.
 
-**Before starting Phase 7, verify agent output quality gate:** If a prior phase delegated to an agent that returned blank output, check whether the agent actually exists in `.claude/agents/`. If it does not exist → escalate to user: "Agent `<agent-name>` not found in `.claude/agents/`. Should I implement Phase N manually, or do you want to create the agent first?" Do not silently proceed with manual fallback; the user must approve the deviation from the cost model.
+**Before starting Phase 7, verify agent output quality gate:** If a prior phase delegated to an agent that returned blank output, check whether the agent actually exists in `.opencode/agents/`. If it does not exist → escalate to user: "Agent `<agent-name>` not found in `.opencode/agents/`. Should I implement Phase N manually, or do you want to create the agent first?" Do not silently proceed with manual fallback; the user must approve the deviation from the cost model.
 
 ### Step 1 — Compatibility Audit (main session, inline)
 
@@ -1654,7 +1654,7 @@ Add entry to `src/main/typst/mecfs/shared/changelog.typ` under current version (
 
 Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit` skill rules (conventional commits, no generated build outputs, PDF rule by provenance — source-copy PDFs under `Literature/**` ARE committed; only build-generated PDFs are excluded).
 
-**Scope precisely (MANDATORY):** Stage ONLY this topic's files (chapters, registry, changelog, and the tracked `ops/` artifacts: plan, subtree, `ops/research/` literature summary + search log, `ops/brainstorms/` brainstorm, `ops/integration-guides/` guides). Use the explicit file list from the plan's per-phase reports — never `git add -A`. Exclude: the disposable audit scratch in `tmp/` (synthesis, compat-audit, coherence-audit, synonym-map — NEVER commit `tmp/`, it is gitignored); unrelated WIP (other topics' `SKILL.md` edits, etc.); and transient review-skill artifacts (e.g. `.claude/review-checkpoint-*.md` — do NOT commit these per `.claude/` hygiene). See `ops/AGENTS.md` for the folder map.
+**Scope precisely (MANDATORY):** Stage ONLY this topic's files (chapters, registry, changelog, and the tracked `ops/` artifacts: plan, subtree, `ops/research/` literature summary + search log, `ops/brainstorms/` brainstorm, `ops/integration-guides/` guides). Use the explicit file list from the plan's per-phase reports — never `git add -A`. Exclude: the disposable audit scratch in `tmp/` (synthesis, compat-audit, coherence-audit, synonym-map — NEVER commit `tmp/`, it is gitignored); unrelated WIP (other topics' `SKILL.md` edits, etc.); and transient review-skill artifacts (e.g. review-checkpoint files — do NOT commit these). See `ops/AGENTS.md` for the folder map.
 
 **Shared-file ownership re-check (MIXED mode / concurrency):** Before committing, verify your shared-file entries survived any parallel commit:
 ```bash
@@ -1719,7 +1719,7 @@ If `nix build` fails on a key that a parallel stream's rebase/reset may have dro
 
 | Check | Condition | Action if fails |
 |-------|-----------|-----------------|
-| Agent exists | Agent file in `.claude/agents/<name>.md` | If not found → escalate to user: "Agent `<name>` missing. Implement Phase N manually or create agent?" Do NOT silently fall back to manual execution. |
+| Agent exists | Agent file in `.opencode/agents/<name>.md` | If not found → escalate to user: "Agent `<name>` missing. Implement Phase N manually or create agent?" Do NOT silently fall back to manual execution. |
 | Output non-empty | `task_result` is not null/blank | If blank → re-run once with same agent/prompt. If still blank → escalate to user: "Agent returned empty output twice. Run Phase N manually?" |
 | Output files exist | Any paths claimed in output exist on disk | If missing → re-run once. If still missing → escalate. |
 | Phase-specific checks | e.g., Phase 1: the target `bib/<topic-area>.bib` has new entries AND every key in the agent's "bib keys produced" list resolves (case-exact) to a real entry in that bib (reconcile — report typos/omissions); Phase 4: brainstorm file has ≥8 ideas across required categories | If failed → report which checks failed; ask user whether to proceed or fix. Phase 1 key mismatches are auto-resolved by using the bib as ground truth (do not block on them). |
@@ -1756,7 +1756,7 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 - **No duplicate integration** — Phase 5 must dedup brainstorm ideas against Phase 3 environments before integrating
 - **Ch30 cascade overlap prevention** — Phase 5d must check for identical or partially-overlapping cascades in existing ch30 sections before creating new files; duplicate cascade entries waste context and confuse the differential diagnostic model
 - **Ch30 category routing required** — every mechanistic claim must be classified into a ch30 sec-* category (Phase 3 Category Router); category assignment determines file placement, #include structure, and sec-09 convergence eligibility
-- **Commit scope is per-topic** — Phase 13 stages only this topic's files by explicit list; never commit transient review-skill artifacts (`.claude/review-checkpoint-*.md`) or unrelated WIP
+- **Commit scope is per-topic** — Phase 13 stages only this topic's files by explicit list; never commit transient review-skill artifacts (review-checkpoint files) or unrelated WIP
 
 ---
 

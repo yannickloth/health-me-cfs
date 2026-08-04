@@ -19,7 +19,7 @@ Iterative review-fix loop for Typst diagrams. Fix until critical + warning = 0.
 
 Per round (R1, R2, ...):
 
-1. **REVIEW** — Run `/review-typst-diagrams` checklist (`.claude/agents/typst-diagram-checker.md`) on all files in scope (R1) | changed files only (R2+). Report only — no fixes yet.
+1. **REVIEW** — Run `/review-typst-diagrams` checklist (`.opencode/agents/typst-diagram-checker.md`) on all files in scope (R1) | changed files only (R2+). Report only — no fixes yet.
 2. **COUNT** — Tally: critical / warning / info.
 3. **CONVERGE CHECK** — critical + warning = 0 → stop (INFO does not block convergence).
 4. **FIX** — Apply fixes for all critical + warning findings.
@@ -31,7 +31,7 @@ Per round (R1, R2, ...):
 
 ## Review Checklist Reference
 
-Full checklist from `.claude/agents/typst-diagram-checker.md`:
+Full checklist from `.opencode/agents/typst-diagram-checker.md`:
 1. Horizontal overflow
 2. Vertical overflow / page break issues
 3. Internal overlaps (including elements touching)
@@ -45,7 +45,7 @@ Full checklist from `.claude/agents/typst-diagram-checker.md`:
 
 ## Rules
 
-- Read `.claude/agents/typst-diagram-checker.md` before first round
+- Read `.opencode/agents/typst-diagram-checker.md` before first round
 - INFO findings reported but do NOT block convergence
 - Never skip build verification after fixes
 - Fix introduces regression → prioritize regression in next round

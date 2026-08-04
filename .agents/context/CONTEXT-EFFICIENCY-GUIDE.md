@@ -572,13 +572,13 @@ Reserve for complex multi-step workflows (like literature-integrator).
 
 ```bash
 # Count words (rough token proxy)
-wc -w .claude/agents/*.md
+wc -w .opencode/agents/*.md
 
 # Find ASCII boxes
-grep "┌\|─{3,}" .claude/**/*.md
+grep "┌\|─{3,}" .opencode/agents/*.md .agents/**/*.md
 
 # Find nested trees
-grep "    ├──" .claude/**/*.md
+grep "    ├──" .opencode/agents/*.md .agents/**/*.md
 ```
 
 ---

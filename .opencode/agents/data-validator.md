@@ -16,9 +16,9 @@ model: haiku
 
 ANY lookup → Grep first, read only matches:
 ```bash
-grep -n "^{|^}|\"date\"" .claude/case-data/daily-*.json | head -10
-find .claude/case-data/daily -name "*.json" -type f | wc -l
-grep -E "\"energy\":[0-9]+" .claude/case-data/daily-*.json | head -10
+grep -n "^{|^}|\"date\"" patients/<name>/self-reported/*.yaml | head -10
+find patients/<name>/self-reported -name "*.json" -type f | wc -l
+grep -E "\"energy\":[0-9]+" patients/<name>/self-reported/*.yaml | head -10
 ```
 ✗ Never load entire files for lookups.
 

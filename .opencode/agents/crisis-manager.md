@@ -40,14 +40,14 @@ grep -n "\\begin{warning}.*crisis|emergency protocol" src/main/typst/mecfs/appen
 **Example 2: Check recent crashes**
 ```bash
 # Find recent crisis entries
-grep -l "severe crash|PEM worsening" .claude/case-data/daily-*.json | tail -5
+grep -l "severe crash|PEM worsening" patients/<name>/self-reported/*.yaml | tail -5
 # Read only recent entries, not entire log
 ```
 
 **Example 3: Review symptom thresholds**
 ```bash
 # Check alert levels
-grep -n "threshold|alert|warning" .claude/case-data/symptom-config.json
+grep -n "threshold|alert|warning" patients/<name>/symptoms/*.yaml
 # Don't read full configuration, just thresholds
 ```
 

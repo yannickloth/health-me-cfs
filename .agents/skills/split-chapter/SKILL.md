@@ -7,9 +7,9 @@ Split one chapter/section file into canonical structure. Iso-functional — rend
 
 ## Gotchas
 
-- `content-splitter` reads `.claude/content-structure-convention.md` for the canonical hierarchy — ensure this file exists and is current before splitting.
+- `content-splitter` reads `~/.claude/content-structure-convention.md` for the canonical hierarchy — ensure this file exists and is current before splitting.
 - Baseline citation count uses `grep -c "@[a-zA-Z]"` for Typst `@label` references. This pattern does NOT match markdown-style `<label>` references — adjust grep pattern if the project uses both.
-- Build command must be resolved from `.claude/CLAUDE.md` before running. If not found, ask user for the build command.
+- Build command must be resolved from `AGENTS.md` before running. If not found, ask user for the build command.
 - After a successful split, the original monolithic file must be deleted. Skipping this creates duplicate definitions at build time.
 - Agent invocations use the Task tool — not direct shell calls.
 
@@ -31,7 +31,7 @@ Split one chapter/section file into canonical structure. Iso-functional — rend
    grep -c "@[a-zA-Z]" {file}   # citations (Typst @label style)
    grep -c "<[a-zA-Z]" {file}   # labels (markdown-style, if used)
    grep -c "^#" {file}           # environment calls
-   {build-command}    # resolve from .claude/CLAUDE.md — must pass before split
+   {build-command}    # resolve from AGENTS.md — must pass before split
    ```
 
 3. **Split** — run `content-splitter` agent (Task tool) on the target file
@@ -39,7 +39,7 @@ Split one chapter/section file into canonical structure. Iso-functional — rend
 4. **Audit** — run `structure-auditor` agent (Task tool) on the new chapter directory
    - Must report COMPLIANT before proceeding
 
-5. **Build** — resolve command from `.claude/CLAUDE.md` (see convention §Build Command), run it
+5. **Build** — resolve command from `AGENTS.md` (see convention §Build Command), run it
    - Must pass with no new errors
 
 6. **Remove old file** — delete the original monolithic file (backed by git)

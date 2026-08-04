@@ -369,7 +369,7 @@ No overlap — each serves distinct purpose.
 2. Create examples in ME/CFS document to demonstrate value
 3. Propose to template maintainers (this doc = spec)
 4. Accepted → migrate project-specific → template
-5. Rejected → keep project-specific; document in `.claude/template-environments.md` as custom additions
+5. Rejected → keep project-specific; document in `.agents/context/template-environments.md` as custom additions
 
 ---
 

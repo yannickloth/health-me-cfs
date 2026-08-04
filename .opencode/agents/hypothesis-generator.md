@@ -10,7 +10,7 @@ model: opus
 
 ✅ Grep first, read only matches:
 ```bash
-grep -n "symptom|pain|fatigue" .claude/case-data/daily-2025-01-*.json | head -30
+grep -n "symptom|pain|fatigue" patients/<name>/self-reported/2025-01-*.yaml | head -30
 grep -n "\\begin{requirement}.*subtype" src/main/typst/mecfs/part1-clinical/ch05-subgroups.typ
 grep -i "subtype|phenotype|cluster" references.bib | head -10
 ```

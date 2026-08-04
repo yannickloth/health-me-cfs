@@ -19,7 +19,7 @@ Grep first; read only what's found.
 grep -n "\\section{.*Caregiver}|\\begin{requirement}.*caregiver" src/main/typst/mecfs/appendices/appendix-j-recommendations.typ
 
 # ✓ Find caregiver education files
-find .claude/case-data -name "*caregiver*" -o -name "*support*" -type f
+find patients/<name> -name "*caregiver*" -o -name "*support*" -type f
 
 # ✓ Find communication guidelines
 grep -n "communication|explain to|tell family" src/main/typst/mecfs/appendices/appendix-j-recommendations.typ | head -10

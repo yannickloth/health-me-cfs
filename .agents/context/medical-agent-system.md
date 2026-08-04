@@ -60,7 +60,7 @@ User Daily Input → case-documenter (logs) → data-validator (checks) → {pac
 
 | Trigger | Frequency | Purpose | Output |
 |---------|-----------|---------|--------|
-| `"case-documenter: log today's symptoms: energy 3/10, pain 5/10"` | Daily | Medical record | `.claude/case-data/symptoms/YYYY-MM-DD.yaml` |
+| `"case-documenter: log today's symptoms: energy 3/10, pain 5/10"` | Daily | Medical record | `patients/<name>/symptoms/YYYY-MM-DD.yaml` |
 | `"pacing-coach: help me plan today's activities"` | Daily / pre-activity | Stay within energy envelope | Activity plans, real-time guidance |
 
 ### Weekly Monitoring
@@ -90,7 +90,7 @@ User Daily Input → case-documenter (logs) → data-validator (checks) → {pac
 
 ```
 health-me-cfs/
-├── .claude/
+├── .opencode/
 │   ├── agents/                          # Agent definitions
 │   │   ├── case-documenter.md
 │   │   ├── medical-advisor.md
@@ -103,9 +103,13 @@ health-me-cfs/
 │   │   ├── benefit-navigator.md
 │   │   └── caregiver-coordinator.md
 │   │
-│   ├── systems/
-│   │   └── medical-agent-system.md      # This file
-│   │
+│   └── opencode.json
+│
+├── .agents/
+│   └── context/
+│       └── medical-agent-system.md      # This file
+│
+├── appendices/
 │   └── case-data/                       # Patient data (not committed to git)
 │       ├── symptoms/
 │       │   ├── 2026-01-23.yaml
@@ -291,8 +295,8 @@ User → medical-advisor → (spawns) → literature-researcher
 
 ### Data Storage
 
-- All case data stored locally in `.claude/case-data/`
-- Add `.claude/case-data/` to `.gitignore` (personal health data)
+- Personal case data lives in `patients/<name>/` (see `.agents/context/medical-agent-system.md`)
+- Add `patients/<name>/` to `.gitignore` (see patients/*/generated/case-data-README.md) (personal health data)
 - Appendix I sections can be redacted before sharing document
 - No cloud storage or external transmission
 
@@ -306,7 +310,7 @@ User → medical-advisor → (spawns) → literature-researcher
 
 - Keep repository private
 - Encrypt backups
-- Consider using encrypted filesystem for `.claude/case-data/`
+- Consider using encrypted filesystem for personal case data
 
 ## Quality Assurance
 

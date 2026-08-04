@@ -10,9 +10,9 @@ model: opus
 
 ✅ Grep first, read only matches:
 ```bash
-find .claude/case-data -name "treatment-LDN-*.json" -type f
-grep -n "date|energy|pain" .claude/case-data/treatment-LDN-trial.json | head -30
-grep -n "baseline|week.*[0-9]" .claude/case-data/treatment-LDN-trial.json | head -5
+find patients/<name> -name "treatment-LDN-*.yaml" -type f
+grep -n "date|energy|pain" patients/<name>/medications/treatment-LDN-trial.yaml | head -30
+grep -n "baseline|week.*[0-9]" patients/<name>/medications/treatment-LDN-trial.yaml | head -5
 ```
 ❌ Don't load entire files for lookups.
 

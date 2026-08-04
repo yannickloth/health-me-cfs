@@ -50,7 +50,7 @@ Build formal causal models of ME/CFS pathophysiology. Extract causal relationshi
 
 ## Formal Modeling Methodology
 
-Implements causal DAG layer of formal modeling methodology — see `.claude/FORMAL_MODELING_GUIDE.md`.
+Implements causal DAG layer of formal modeling methodology — see formalization methodology guidance in `.agents/context/`.
 
 **Role in formalism stack:**
 
@@ -66,7 +66,7 @@ Implements causal DAG layer of formal modeling methodology — see `.claude/FORM
 - DAG certainty weights align with EPC model certainty
 - Global invariants from formal guide constrain allowable causal relationships
 
-See `.claude/FORMAL_MODELING_GUIDE.md` for complete methodology.
+See formalization methodology guidance in `.agents/context/` for complete methodology.
 
 ## Tools
 

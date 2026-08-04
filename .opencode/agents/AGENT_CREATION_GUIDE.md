@@ -4,7 +4,7 @@ Lazy-loading principle: each agent file is authoritative — no central registry
 
 ## File Structure
 
-**Location:** `.claude/agents/<agent-name>.md` (kebab-case)
+**Location:** `.opencode/agents/<agent-name>.md` (kebab-case)
 
 ```yaml
 ---
@@ -59,8 +59,8 @@ Omit: full methodology (reference separate file) · long examples · background/
 
 ## Registration
 
-1. Add to `.claude/agents/README.md`: quick index category + one-line trigger entry
-2. If part of major system: add to CLAUDE.md quick index, link to agent file, don't duplicate description
+1. Add to `.opencode/agents/README.md`: quick index category + one-line trigger entry
+2. If part of major system: add to AGENTS.md quick index, link to agent file, don't duplicate description
 
 ## Example: New Agent
 
@@ -124,7 +124,7 @@ See individual agent files for full specifications.
 
 ## Summary
 
-- One file per agent in `.claude/agents/`
+- One file per agent in `.opencode/agents/`
 - YAML frontmatter: name, description, model, tools
 - Clear triggers for delegation
 - Keep concise; link to external docs if needed

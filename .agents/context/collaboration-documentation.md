@@ -10,7 +10,7 @@ Track methodological decisions, collaboration patterns, contribution types durin
 
 - **User:** create config system for documenting collaboration methodology + contribution patterns
 - **Rationale:** systematically capture (1) user request types (2) Claude responses/approaches (3) methodological decisions (4) human-AI collaboration nature
-- **Implementation:** this file as `.claude/systems/` config
+- **Implementation:** this file as `.agents/context/` config
 
 ---
 
@@ -34,7 +34,7 @@ Track methodological decisions, collaboration patterns, contribution types durin
 | Type | System Configuration |
 | User Request | "add a Claude Code config [...] instructing you to note your and my contributions, especially the kind of requests I have of you for the redaction of this paper" |
 | Methodological Note | User explicitly wants to document collaboration process → meta-analysis of human-AI co-authorship in final paper |
-| Claude Response | Created this documentation system as `.claude/systems/` config |
+| Claude Response | Created this documentation system as `.agents/context/` config |
 
 ---
 

@@ -10,7 +10,7 @@ Quick validation before commit. Haiku-only for speed.
 - `nix build` must pass before other checks — if it fails, skip remaining steps.
 - Changed `.typ` files detection: `git diff --cached --name-only '*.typ'`. If no `.typ` files are staged, skip steps 2-4.
 - Agent invocations use the Task tool — not direct shell calls.
-- `typst-syntax-fixer`, `typst-formatting-fixer`, `typst-xref-checker`, `typst-citation-checker` are agents defined as project-level agents. If any agent file is missing from `.claude/agents/`, skip that step with a warning.
+- `typst-syntax-fixer`, `typst-formatting-fixer`, `typst-xref-checker`, `typst-citation-checker` are agents defined as project-level agents. If any agent file is missing from `.opencode/agents/`, skip that step with a warning.
 
 ## Checklist
 

@@ -28,13 +28,13 @@ grep -n "CitationKey" src/main/typst/mecfs/references.bib
 
 ```bash
 # Energy budget — today's log only
-grep -n "activity|steps|duration" .claude/case-data/daily-$(date +%Y-%m-%d).json
+grep -n "activity|steps|duration" patients/<name>/self-reported/$(date +%Y-%m-%d).yaml
 
 # Activity guidelines
 grep -n "\\begin{requirement}.*activity|safe exertion" src/main/typst/mecfs/part3-treatment/ch10-pacing.typ
 
 # Recent activity pattern (last 5–10 days)
-grep -n "activity_level|exertion" .claude/case-data/daily-*.json | tail -10
+grep -n "activity_level|exertion" patients/<name>/self-reported/*.yaml | tail -10
 ```
 
 ## Tasks

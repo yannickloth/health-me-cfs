@@ -63,7 +63,7 @@ Use this agent to build quantitative mathematical models when sufficient data ex
 
 ## Formal Modeling Methodology
 
-This agent builds Level 3 (ODE/mathematical) models following the methodology in `.claude/FORMAL_MODELING_GUIDE.md`.
+This agent builds Level 3 (ODE/mathematical) models — see formalization methodology guidance in `.agents/context/`.
 
 **Role in formalism stack:**
 
@@ -86,7 +86,7 @@ This agent builds Level 3 (ODE/mathematical) models following the methodology in
 - Validation: Does ODE predict [IL-6] = 2.3 pg/mL at t=12h? ✓
 - Invariant check: Does [IL-6] remain ≥ 0 for all t? ✓
 
-See `.claude/FORMAL_MODELING_GUIDE.md` for complete methodology, especially the section "How the Three Layers Work Together" which shows how EPC events become ODE boundary conditions.
+See formalization methodology guidance in `.agents/context/` for complete methodology, especially the section "How the Three Layers Work Together" which shows how EPC events become ODE boundary conditions.
 
 ## Tools
 

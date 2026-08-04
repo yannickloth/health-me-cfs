@@ -1,6 +1,6 @@
-> **Style rule:** All `.claude/` config files must use schematic, telegraphic style — tables/lists/symbols > prose, short phrases, filler words dropped. Goal: minimize context window consumption.
+> **Style rule:** All `.agents/context/` config files must use schematic, telegraphic style — tables/lists/symbols > prose, short phrases, filler words dropped. Goal: minimize context window consumption.
 
-# CLAUDE.md
+# AGENTS.md
 
 ME/CFS documentation — Typst PDF + Quarto HTML web generation, Nix-hermetic.
 
@@ -26,7 +26,7 @@ nix run .#clean         # .cache, .build, result, *.pdf in src/main/typst/
 nix develop             # Dev shell (typst, quarto, jdk25; TYPST_PACKAGE_CACHE_PATH, TYPST_FONT_PATHS preset)
 ```
 
-Full build system + fix discipline: [`build-system.md`](build-system.md)
+Full build system + fix discipline: [`.agents/context/build-system.md`](.agents/context/build-system.md)
 
 ---
 
@@ -34,13 +34,13 @@ Full build system + fix discipline: [`build-system.md`](build-system.md)
 
 | Concern | Reference |
 |---------|-----------|
-| Context & cost management | [`project-context/context-management.md`](project-context/context-management.md) |
-| Scrape registry (MANDATORY) | `../registry/scrape-registry.md`; protocol: [`project-context/scrape-registry.md`](project-context/scrape-registry.md) |
-| Skills index | [`project-context/skills-index.md`](project-context/skills-index.md) |
-| Systems index (agents, formalization, literature, review) | [`project-context/systems-index.md`](project-context/systems-index.md) |
+| Context & cost management | [`.agents/context/context-management.md`](.agents/context/context-management.md) |
+| Scrape registry (MANDATORY) | `../registry/scrape-registry.md`; protocol: [`.agents/context/scrape-registry.md`](.agents/context/scrape-registry.md) |
+| Skills index | [`.agents/context/skills-index.md`](.agents/context/skills-index.md) |
+| Systems index (agents, formalization, literature, review) | [`.agents/context/systems-index.md`](.agents/context/systems-index.md) |
 
 ---
 
 ## Lazy-Loading
 
-This file: routing and core behavior only. Full details on demand from `project-context/`.
+This file: routing and core behavior only. Full details on demand from `.agents/context/`.

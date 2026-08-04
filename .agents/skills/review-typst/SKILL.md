@@ -27,7 +27,7 @@ Per round (R1, R2, ...):
    - Typst correctness (undefined labels, broken cross-references, compilation errors)
    - Common Typst pitfalls
    - LaTeX remnants (unconverted `\command{}` syntax)
-   - Writing style (checklist from `.claude/agents/style-auditor.md`): US English, no AI markers, vocabulary precision, appropriate tone
+   - Writing style (checklist from `.opencode/agents/style-auditor.md`): US English, no AI markers, vocabulary precision, appropriate tone
 
 2. **LIST** — Report findings with severity: critical / major / minor
 

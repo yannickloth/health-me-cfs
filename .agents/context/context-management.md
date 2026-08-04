@@ -57,4 +57,4 @@ Thresholds halved: compaction at ~100k tokens (not 200k). 70% of actual limit (1
 
 ## Hook Integration
 
-`PostToolUse` hook: `.claude/hooks/context-cost-monitor.sh` → automated threshold warnings. Acknowledge and act on hook warnings.
+Context-cost monitoring is managed via opencode plugin — see `.agents/context/context-management.md`.

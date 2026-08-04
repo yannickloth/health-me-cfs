@@ -125,7 +125,7 @@ Document when patterns are acceptable:
 ## Phase 4: Design AI-Style Auditor Agent
 
 ### 4.1 Agent Specification
-Create `.claude/agents/ai-style-auditor.md`:
+Create `.opencode/agents/ai-style-auditor.md`:
 
 **Core Principles:**
 - Pattern identification, NOT classification
@@ -170,7 +170,7 @@ Create `.claude/agents/ai-style-auditor.md`:
 ## Phase 5: Design Review Skill
 
 ### 5.1 Skill Specification
-Create `.claude/skills/review-ai-style.md`:
+Create `.agents/skills/review-ai-style/SKILL.md`:
 
 **Workflow:**
 1. Run ai-style-auditor on target files
@@ -219,8 +219,8 @@ Create `registry/ai-style-auditor-limitations.md`:
 1. **Literature Review Summary**: Consolidated findings from academic research
 2. **Pattern Registry**: Complete structured database in `registry/ai-prose-patterns.md`
 3. **Corpus Analysis Report**: Findings from analyzing your ME/CFS documentation
-4. **AI-Style Auditor Agent**: Fully specified agent in `.claude/agents/`
-5. **Review-Style Skill**: Complete skill definition in `.claude/skills/`
+4. **AI-Style Auditor Agent**: Fully specified agent in `.opencode/agents/`
+5. **Review-Style Skill**: Complete skill definition in `.agents/skills/`
 6. **Test Results**: Before/after examples, accuracy metrics, limitations documentation
 7. **Usage Guide**: How to use the agent and skill effectively
 

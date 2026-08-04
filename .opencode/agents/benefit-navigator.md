@@ -15,7 +15,7 @@ model: sonnet
 grep -n "\\begin{requirement}.*disability|SSA requirement" src/main/typst/mecfs/appendices/appendix-j-recommendations.typ
 
 # ✓ Find case summary
-find .claude/case-data -name "case-summary.md" -type f
+find patients/<name> -name "case-summary.md" -type f
 
 # ✓ Find eligibility criteria
 grep -n "disability|SSA|eligibility" src/main/typst/mecfs/appendices/appendix-j-recommendations.typ | head -10

@@ -48,7 +48,7 @@ grep -n "process|step.*leads to|causes" src/main/typst/mecfs/part2-pathophysiolo
 
 Lightweight decision-support agent. Scans literature for given process · applies methodology decision matrix.
 
-Implements decision framework from `.claude/FORMAL_MODELING_GUIDE.md` and `.claude/FORMALIZATION_METHODOLOGY.md`.
+Implements decision framework — see formalization methodology guidance in `.agents/context/`.
 
 **Outputs:**
 1. Data category (A/B/C/D)

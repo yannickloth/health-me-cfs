@@ -56,7 +56,7 @@ Per round (R1, R2, ...):
 
 ## Checkpoint
 
-Every 3 rounds → write continuation checkpoint to `.claude/review-checkpoint-latex.md`:
+Every 3 rounds → write continuation checkpoint to `.agents/context/review-checkpoint-latex.md`:
 - Scope + current round number
 - Cumulative findings by category
 - Remaining known issues

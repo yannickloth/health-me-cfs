@@ -37,7 +37,7 @@ Audit Claude Code config stack for conflicts, inconsistencies, undefined referen
 
 ### 1. Config Files
 
-Locate: `~/.claude/CLAUDE.md` (global) · `.claude/CLAUDE.md` (project) · `.claude/settings.json` (if exists)
+Locate: `AGENTS.md` (project) · `.opencode/agents/*.md` (agents)
 
 - [ ] Contradictory instructions (global says X, project says NOT X)
 - [ ] Ambiguous override rules (unclear precedence)
@@ -45,7 +45,7 @@ Locate: `~/.claude/CLAUDE.md` (global) · `.claude/CLAUDE.md` (project) · `.cla
 
 ### 2. Agent Definitions
 
-Locate: `.claude/agents/*.md` · global CLAUDE.md for general agents
+Locate: `.opencode/agents/*.md` · AGENTS.md for general agents
 
 - [ ] Agents referenced in CLAUDE.md but missing definition file
 - [ ] Agent files not in any index
@@ -65,7 +65,7 @@ Locate: `.claude/agents/*.md` · global CLAUDE.md for general agents
 
 ### 4. Workflow Definitions
 
-Locate: `.claude/workflows/*.md`
+Locate: `.opencode/agents/*.md`
 
 - [ ] Workflows referencing undefined agents
 - [ ] Orphan workflows (defined, never triggered)
@@ -79,8 +79,8 @@ Locate: `.claude/workflows/*.md`
 
 ## Instructions
 
-1. Gather: read `~/.claude/CLAUDE.md`, `.claude/CLAUDE.md`, `.claude/settings.json`; glob `.claude/agents/*.md`, `.claude/workflows/*.md`
-2. Build reference graph: extract agent names from CLAUDE.md files + agent files + workflows; map what references what
+1. Gather: read `AGENTS.md`; glob `.opencode/agents/*.md`
+2. Build reference graph: extract agent names from AGENTS.md + agent files; map what references what
 3. Conflict detection: compare global vs project; check precedence; identify instruction clashes
 4. Reference validation: every referenced agent → definition exists; every definition → reachable; no orphans
 5. Routing analysis: trace paths for cycles; confirm general agents don't re-route; verify fallback coverage
@@ -121,7 +121,7 @@ Locate: `.claude/workflows/*.md`
 
 ```markdown
 # CONFLICT: Global "always route through router" vs project "spawn directly for simple tasks"
-# MISSING: CLAUDE.md mentions `literature-researcher` but no .claude/agents/literature-researcher.md
+# MISSING: AGENTS.md mentions `literature-researcher` but no `.opencode/agents/literature-researcher.md`
 # CIRCULAR: router → general-agent (uncertain) → router (re-routing) → infinite loop
 # MISMATCH: proof-verifier model:haiku — haiku inappropriate for deep reasoning
 ```

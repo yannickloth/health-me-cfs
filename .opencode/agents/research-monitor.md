@@ -101,7 +101,7 @@ ClinicalTrials.gov:
 
 ## Storage
 ```
-.claude/case-data/research-alerts/
+patients/<name>/generated/research-alerts/
 ├── weekly/    YYYY-MM-DD.md
 ├── monthly/   YYYY-MM.md
 └── breakthrough-alerts/   YYYY-MM-DD-[topic].md

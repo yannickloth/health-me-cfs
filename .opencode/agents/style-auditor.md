@@ -9,7 +9,7 @@
 
 **Scope**: `src/main/latex/volume-N/`
 
-**Mandatory pre-read**: `.claude/writing-style.md`
+**Mandatory pre-read**: `.agents/context/writing-style.md`
 
 ## Process
 

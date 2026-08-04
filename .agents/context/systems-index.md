@@ -28,8 +28,8 @@ Builds formal causal and quantitative models of ME/CFS pathophysiology with expl
 | `model-auditor` | Cross-validate DAG↔EPC↔ODE |
 | `uncertainty-analyst` | Certainty propagation |
 
-- Full workflow: `.claude/skills/formalization-pipeline/SKILL.md`
-- Output structure + environments: `.claude/template-proposal-formalization-environments.md`
+- Full workflow: `.agents/skills/formalization-pipeline/SKILL.md`
+- Output structure + environments: `.agents/context/template-proposal-formalization-environments.md`
 
 ---
 
@@ -65,7 +65,7 @@ Full pipeline: `/integrate-topic` skill (`.agents/skills/integrate-topic/SKILL.m
 
 **Agents:** `case-documenter`, `medical-advisor`, `treatment-analyst`, `crisis-manager`, `pacing-coach`, `data-validator`, `hypothesis-generator`, `research-monitor`, `benefit-navigator`, `caregiver-coordinator`
 
-- System docs: `.claude/systems/medical-agent-system.md`
+- System docs: `.agents/context/medical-agent-system.md`
 - Recommendations: `appendix-j-recommendations.tex`
 - Personal case data: `appendix-i-*.tex`
 
@@ -84,7 +84,7 @@ Full pipeline: `/integrate-topic` skill (`.agents/skills/integrate-topic/SKILL.m
 | Tone | Neutral, evidence-based throughout |
 | Research citations | Always include certainty assessment |
 
-Full guidelines: `.opencode/writing-style.md`
+Full guidelines: `.agents/context/writing-style.md`
 
 ---
 

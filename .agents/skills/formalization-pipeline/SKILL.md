@@ -13,7 +13,7 @@ Transform ME/CFS pathophysiology into rigorous formal models with explicit uncer
 
 ## Gotchas
 
-- **Agent dependencies:** The pipeline depends on ~8 agents — verify each exists before launching (`ls .claude/agents/formalization/`).
+- **Agent dependencies:** The pipeline depends on ~8 agents — verify each exists before launching (`ls .opencode/agents/`).
 - **EPC before ODE:** EPC must be built before ODE (EPC events become ODE boundary conditions). Skipping EPC for a Level-3 process produces unvalidated ODE.
 - **Certainty scale is ordinal, not continuous:** Certainty is assigned in ±0.10 bands (High 0.8-1.0, Medium 0.5-0.7, Low 0.2-0.4). Treating it as continuous produces spurious precision.
 - **Models/ directory is not in the Typst build:** Only TikZ/LaTeX extracted from `models/` and integrated into `src/` gets built. Files left in `models/` without integration will not appear in the paper.
@@ -279,5 +279,5 @@ models/
 
 ## Methodology References
 
-- Decision matrices + EPC vs BPMN rationale: `.claude/FORMALIZATION_METHODOLOGY.md`
-- Output environments + LaTeX/Typst spec: `.claude/template-proposal-formalization-environments.md`
+- Decision matrices + EPC vs BPMN rationale: see formalization methodology guidance in `.agents/context/`
+- Output environments + LaTeX/Typst spec: `.agents/context/template-proposal-formalization-environments.md`

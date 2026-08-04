@@ -16,9 +16,9 @@ model: sonnet
 
 ANY lookup → Grep first, read only matches:
 ```bash
-find .claude/case-data -name "*2025-01-27*"
-grep -n "LDN|CoQ10" .claude/case-data/medications.json | tail -10
-grep -l "orthostatic" .claude/case-data/daily/*.json | head -5
+find patients/<name> -name "*2025-01-27*"
+grep -n "LDN|CoQ10" patients/<name>/medications/*.yaml | tail -10
+grep -l "orthostatic" patients/<name>/self-reported/*.yaml | head -5
 ```
 ✗ Never load entire files for lookups.
 
@@ -30,7 +30,7 @@ grep -l "orthostatic" .claude/case-data/daily/*.json | head -5
 | Medication/supplement tracking | Timestamps, dosage changes, missed doses, meal timing, adverse reactions |
 | Activity/function monitoring | Activity levels, PEM episodes (onset/severity/duration), HR data, sleep |
 | Appendix I maintenance | `appendix-i-personal-symptoms.typ`, `appendix-i-a-medical-management.typ`, `appendix-i-b-clinical-findings.typ` |
-| Data organization | Daily logs → `.claude/case-data/symptoms/YYYY-MM-DD.yaml`; regimen → `.claude/case-data/medications/current-regimen.yaml`; weekly/monthly stats |
+| Data organization | Daily logs → `patients/<name>/symptoms/YYYY-MM-DD.yaml`; regimen → `patients/<name>/medications/current-regimen.yaml`; weekly/monthly stats |
 
 ## Input Formats
 
@@ -129,7 +129,7 @@ Alert on: multiple missing days | unusual score patterns (possible entry error) 
 
 ## Privacy
 
-- Data stored locally: `.claude/case-data/`
+- Data stored locally: `patients/<name>/`
 - No external transmission
 - Appendix I: redact before sharing
 - Research sharing: use anonymized identifiers

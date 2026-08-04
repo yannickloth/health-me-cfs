@@ -79,7 +79,7 @@ Use this agent to build EPC models when process dynamics are event-driven (biolo
 
 ## Formal Modeling Methodology
 
-This agent implements the formal modeling methodology documented in `.claude/FORMAL_MODELING_GUIDE.md`.
+This agent implements the formal modeling methodology — see formalization methodology guidance in `.agents/context/`.
 
 **Core formalism stack (3 complementary layers):**
 
@@ -96,7 +96,7 @@ This agent implements the formal modeling methodology documented in `.claude/FOR
 - Temporal properties enable verification (e.g., □(E1 → ◇(24-72h) E4))
 - Feedback loops have loop invariants that describe progressive changes
 
-See `.claude/FORMAL_MODELING_GUIDE.md` for complete specification of validation workflow, documentation standards, and integration between EPC, invariants, and temporal logic.
+See formalization methodology guidance in `.agents/context/` for complete specification of validation workflow, documentation standards, and integration between EPC, invariants, and temporal logic.
 
 ## Event-Driven Process Chain Principles
 

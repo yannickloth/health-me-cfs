@@ -27,7 +27,7 @@ Typst syntax specialist. Fix compilation errors and warnings.
 - `#expr#if` adjacent → parsed as method call → add space or use code block
 - `#linebreak()(text)` → parsed as function call → escape parens or add space
 - Function args: colors/numbers/booleans must use `(...)`, not `[...]` content blocks
-- LaTeX math symbols invalid in Typst → see `.claude/typst-migration-guide.md` §4
+- LaTeX math symbols invalid in Typst — see migration guidance in `.agents/context/`
 
 ### Layout Warnings
 - Content overflows page → adjust spacing; use `block(breakable: true)`
@@ -44,7 +44,7 @@ Typst syntax specialist. Fix compilation errors and warnings.
 | `\ni` | `in.rev` |
 | `\cap` / `\cup` | `inter` / `union` |
 
-Full mapping: `.claude/typst-migration-guide.md` §4
+Full mapping: see math symbol reference in `.agents/context/`
 
 ## Output
 
@@ -58,4 +58,4 @@ Per fix:
 - No style rewrites
 - No added comments
 - Only touch files with errors
-- Ref `.claude/typst-migration-guide.md` for migration error classes
+- Ref migration guidance in `.agents/context/` for migration error classes

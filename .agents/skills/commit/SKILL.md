@@ -43,7 +43,7 @@ Group remaining changes by **logical cohesion** (same thing / same fix / same co
 **Grouping heuristics:**
 - Same chapter/section → one commit per chapter/area
 - Shared infrastructure (library, preamble, build config) → separate commit
-- `.claude/` config/agents/skills → separate from content
+- `.opencode/` and `.agents/` config (agents, skills) → separate from content
 - `meta/` planning files → separate commit
 - Diagram-only changes → bundle with chapter or split if large
 - Mechanical formatting/style fixes → separate from content
@@ -84,7 +84,7 @@ Format: `<type>(<scope>): <subject>`
 |--------|---------|
 | `content` | Prose additions or edits to book chapters |
 | `diagram` | Diagram-only changes (TikZ, CeTZ, Typst figures) |
-| `config` | `.claude/` agents, skills, CLAUDE.md, settings |
+| `config` | `.opencode/` agents, `.agents/` skills, AGENTS.md |
 | `exercise` | Exercise or solution additions/edits |
 
 **Scope** (optional, recommended for localized changes):

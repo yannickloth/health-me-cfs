@@ -213,8 +213,8 @@ User request → Determine task type:
 
 **Optimization tasks:**
 - Single agent → Read and optimize that agent file
-- "All agents" → Glob `.claude/agents/*.md` and batch optimize
-- "Documentation" → Check CLAUDE.md, workflows, systems
+- "All agents" → Glob `.opencode/agents/*.md` and batch optimize
+- "Documentation" → Check AGENTS.md, skills
 - "Everything" → Comprehensive audit of all config
 
 **Creation tasks:**
@@ -228,16 +228,16 @@ Use Grep to find common issues:
 
 ```bash
 # Find ASCII art boxes
-grep -l "┌\|─{3,}\|╔\|═{3,}" .claude/**/*.md
+grep -l "┌\|─{3,}\|╔\|═{3,}" .opencode/**/*.md .agents/**/*.md
 
 # Find nested tree structures (3+ levels of indentation with tree chars)
-grep "    ├──\|    └──" .claude/**/*.md
+grep "    ├──\|    └──" .opencode/**/*.md .agents/**/*.md
 
 # Find verbose decision trees
-grep -A 10 "Is.*true?" .claude/**/*.md
+grep -A 10 "Is.*true?" .opencode/**/*.md .agents/**/*.md
 
 # Find redundant "Purpose/Role/What This Does" sections
-grep -c "^## Purpose\|^## Role\|^## What" .claude/agents/*.md
+grep -c "^## Purpose\|^## Role\|^## What" .opencode/agents/*.md
 ```
 
 ### Step 3: Optimize Each File
@@ -454,15 +454,15 @@ After optimization or creation, verify:
 
 ```bash
 # Check files still parse correctly
-for f in .claude/agents/*.md; do
+for f in .opencode/agents/*.md; do
   head -20 "$f" | grep -q "^---$" || echo "WARNING: $f missing YAML"
 done
 
 # Check no broken references introduced
-grep -r "ref{" .claude/**/*.md
+grep -r "ref{" .opencode/**/*.md .agents/**/*.md
 
 # Spot-check token reduction
-wc -w .claude/agents/*.md  # Compare before/after
+wc -w .opencode/agents/*.md  # Compare before/after
 ```
 
 ## Examples

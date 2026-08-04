@@ -483,13 +483,13 @@ Mitochondrial dysfunction may trigger further immune dysregulation (feedback loo
 
 ### Full Spec + Methodology
 
-- `.claude/template-proposal-formalization-environments.md` → complete LaTeX code (colors, tcolorbox defs); template-vs-project criteria; implementation notes (icons, param syntax)
-- `.claude/FORMALIZATION_METHODOLOGY.md` → decision matrix (Data × Impact × Maturity → Level/Model type); evidence quality tiers (High/Med/Low certainty 0–1); EPC vs BPMN rationale; per-process ME/CFS analysis
+- `.agents/context/template-proposal-formalization-environments.md` → complete LaTeX code (colors, tcolorbox defs); template-vs-project criteria; implementation notes (icons, param syntax)
+- Formalization methodology guidance in `.agents/context/` → decision matrix (Data × Impact × Maturity → Level/Model type); evidence quality tiers (High/Med/Low certainty 0–1); EPC vs BPMN rationale; per-process ME/CFS analysis
 
 ## See Also
 
 - [infolead-latex-templates/README.md](../infolead-latex-templates/README.md) — template docs
 - [infolead-latex-templates/theorems.tex](../infolead-latex-templates/theorems.tex) — env definitions
 - [infolead-latex-templates/THEOREMS-MIGRATION.md](../infolead-latex-templates/THEOREMS-MIGRATION.md) — migration guide
-- [.claude/latex-conventions.md](latex-conventions.md) — LaTeX formatting
-- [.claude/preamble-setup.md](preamble-setup.md) — preamble loading order
+- [.agents/context/latex-conventions.md](.agents/context/latex-conventions.md) — LaTeX formatting
+- [.agents/context/preamble-setup.md](.agents/context/preamble-setup.md) — preamble loading order

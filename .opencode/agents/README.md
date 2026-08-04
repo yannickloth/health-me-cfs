@@ -2,7 +2,7 @@
 
 Specialized subagents for this LaTeX ME/CFS documentation project.
 
-**Routing logic and general agents are defined globally in `~/.claude/CLAUDE.md`.** This directory contains only project-specific specialized agents.
+**Routing logic and general agents are defined globally.** This directory contains only project-specific specialized agents.
 
 ## Lazy-Loading Principle
 
@@ -30,7 +30,7 @@ System prompt / instructions for the agent...
 
 ## Available Specialized Agents
 
-**Quick lookup:** Find agent in `.claude/agents/{name}.md` for full specs.
+**Quick lookup:** Find agent in `.opencode/agents/{name}.md` for full specs.
 
 ### Haiku (mechanical)
 

@@ -8,8 +8,8 @@ Convergence loop: audit → fix → re-audit until COMPLIANT or max rounds reach
 ## Gotchas
 
 - `./split-chapter` produces a new directory — the old monolithic file must be removed after successful split. Failing to delete it creates duplicate definitions and build failures.
-- `structure-auditor` reads `.claude/content-structure-convention.md` — ensure this file exists before running. If missing, the audit will fail or produce false negatives.
-- Build command resolution from `CLAUDE.md` requires a grep for "Build Command" — if the convention uses a different heading, resolution will fail silently. Verify by reading `.claude/CLAUDE.md` convention directly.
+- `structure-auditor` reads `~/.claude/content-structure-convention.md` — ensure this file exists before running. If missing, the audit will fail or produce false negatives.
+- Build command resolution from `AGENTS.md` requires a grep for "Build Command" — if the convention uses a different heading, resolution will fail silently. Verify by reading `AGENTS.md` convention directly.
 - Import path computation for violations D/E: paths are relative to the chapter aggregator, not to `lib.typ`. Incorrect relative paths won't be caught until `nix build`.
 - Max 10 rounds is a safety limit — if violations decrease each round but don't hit zero by round 10, consider that the last few may be false positives or require structural redesign.
 

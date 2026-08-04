@@ -70,7 +70,7 @@ Two distinct semantic judgments (this is why this agent is Sonnet, not Haiku —
 I see changes to:
 1. Chapter 7 immune content (ch07-immune-dysfunction.typ)
 2. Bibliography entries (references.bib)
-3. Agent configuration (.claude/agents/)
+3. Agent configuration (`.opencode/agents/`)
 
 These could be:
 - One commit: "Update immune chapter with citations and agent tooling"

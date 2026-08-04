@@ -11,7 +11,7 @@ For LaTeX-specific review (scientific rigor, citation checks, `nix build`) → u
 
 ## Arguments
 
-- `$ARGUMENTS` — file path(s) or glob (e.g., `.claude/agents/*.md`, `.claude/CLAUDE.md`)
+- `$ARGUMENTS` — file path(s) or glob (e.g., `.opencode/agents/*.md`, `AGENTS.md`)
 
 **Guard:** `$ARGUMENTS` empty/blank/literal → ask user for scope; do not start without concrete path/glob.
 **Guard:** Glob resolves to zero files → report empty match; ask user to refine; do not start with empty file set.
@@ -21,7 +21,7 @@ For LaTeX-specific review (scientific rigor, citation checks, `nix build`) → u
 - Convergence = 2 **consecutive** zero-finding rounds, not just one clean pass. Any correction — however small — resets the consecutive-clean counter to 0.
 - For non-LaTeX file types (Markdown, YAML, config, agent files), do **not** run `nix build` or any build tool as a validation step — only review the files themselves.
 - Do not invent content when fixing — if a finding requires domain knowledge or factual claims you cannot verify, flag it for human review instead.
-- Checkpoint path: `.claude/` directory must exist before writing.
+- Checkpoint path: `.opencode/` directory must exist before writing.
 
 ## Protocol
 
@@ -52,7 +52,7 @@ Per round (R1, R2, ...):
 
 ## Checkpoint
 
-Every 3 rounds → write continuation checkpoint to `.claude/review-checkpoint-convergence.md`:
+Every 3 rounds → write continuation checkpoint to `.agents/context/review-checkpoint-convergence.md`:
 - Scope + current round number
 - Cumulative findings by category
 - Remaining known issues
