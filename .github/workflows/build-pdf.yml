@@ -76,3 +76,15 @@ jobs:
           fail_on_unmatched_files: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Prune old release assets (keep last 3)
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          RELEASE_ID=$(gh api repos/${{ github.repository }}/releases/tags/latest --jq '.id')
+          gh api "repos/${{ github.repository }}/releases/$RELEASE_ID" --jq \
+            '.assets | sort_by(.created_at) | reverse | .[3:] | .[].id' | while read id; do
+            echo "Deleting asset $id"
+            gh api -X DELETE "repos/${{ github.repository }}/releases/assets/$id" --silent
+          done
