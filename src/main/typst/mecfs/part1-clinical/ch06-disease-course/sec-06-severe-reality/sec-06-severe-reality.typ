@@ -123,7 +123,7 @@ Sound hypersensitivity (hyperacusis) forces many patients into isolation that ap
 
     - *Double hearing protection*: Earplugs inside industrial ear defenders
     - *No music*: What was once a source of joy becomes neurologically unbearable
-    - *No conversation*: Human speech—even whispered—triggers crashes
+    - *No conversation*: Human speech—even whispered—triggers crashes. Conversations are classified as Tier 4–6 in the cognitive triage hierarchy — above the safe energy ceiling for severe patients @Loth2026mecfs.
     - *No television, podcasts, or audiobooks*: All auditory input is too stimulating
     - *Environmental noise intolerance*: A car passing outside, a door closing in another room, birds singing—all cause distress
 
