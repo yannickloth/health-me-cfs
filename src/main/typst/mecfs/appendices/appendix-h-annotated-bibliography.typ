@@ -31569,6 +31569,35 @@ sec-bib-rf-elevated-mecfs-duplicate
     / *Limitations:*: Mouse study; single drug; mTOR-specific.
     / *Certainty:*: 0.80
 
+=== Gile et al.\ 2026 — Rapamycin Modulates Purine Metabolism and Mitochondrial Energy in ME/CFS
+    / *Full Citation:*: Gile B, Bulbule S, Toriola MA, Ruan BT, Marium S, Benko A, Grach S, Mueller M, Bateman L, Bell J, Yellman B, Berner J, Chheda B, Kaufman D, Gottschalk G, Roy A. Association of rapamycin treatment with the modulation of purine metabolism, reduced microglial inflammatory responses, improved mitochondrial energy metabolism, and alleviation of fatigue symptoms in ME/CFS subjects: pilot findings from phase-II observational study. _Journal of Translational Medicine_. 2026;24(1):921. @Gile2026rapamycinPurine
+    / *DOI:*: https://doi.org/10.1186/s12967-026-08575-3
+    / *Study Design:*: Phase II multicenter observational pilot (n=86 enrolled; 70 completed day 36; 40 completed 90 days). Simmaron/Bateman Horne/Mayo/CCD consortium. No placebo group. NCT06257420.
+    / *Key Findings:*:
+        - LCMS-based purine metabolomics showed rapamycin differentially regulated IMP→XMP and IMP→hypoxanthine conversion
+        - Flow cytometry confirmed rapamycin reduces IMP dehydrogenase (IMPDH) activity, limiting IMP→XMP flux
+        - Purine supplementation induced mitochondrial oxidative stress in PBMCs; rapamycin mitigated this
+        - Seahorse OCR: mitochondrial respiration improved in responder PBMCs after 90 days of rapamycin
+        - Reduced microglial inflammatory responses in flow cytometry assays
+        - Clinical symptom improvement consistent with prior Ruan 2025 pilot
+    / *Conclusion:*: First mechanistic evidence linking rapamycin's clinical benefit in ME/CFS to purine metabolism modulation — mTORC1 inhibition → reduced IMPDH activity → altered purine biosynthesis → improved mitochondrial respiration → reduced microglial inflammation. Establishes a purine-mediated mTOR→mitochondria→microglia axis.
+    / *Limitations:*: Uncontrolled (no placebo); molecular results biased to responders; 53% attrition at 90 days; same consortium as prior rapamycin studies (potential for correlated bias). No blinding. Purine metabolism mechanism requires independent replication.
+    / *Certainty:*: 0.50
+
+=== Fronticelli Baldelli and Buonsenso 2025 — mTOR Hyperactivation in Pediatric Post-Infectious Syndromes
+    / *Full Citation:*: Fronticelli Baldelli G, Buonsenso D. Proposed Mechanistic Axis of Infections and mTOR Hyperactivation: A Multidisciplinary Review of Immune, Rheumatologic, and Psychiatric Links. _Children_. 2025;12(12):1603. @FronticelliBaldelli2025mTORinfections
+    / *DOI:*: https://doi.org/10.3390/children12121603
+    / *Study Design:*: Narrative review — clinical, translational, and experimental literature synthesis
+    / *Key Findings:*:
+        - Proposes mTOR as mechanistic link between peripheral infection-driven inflammation and CNS dysfunction in post-infectious syndromes
+        - Stepwise pathway: sustained mTOR activation→T-cell/macrophage pro-inflammatory skew→BBB endothelial compromise→microglial/neuronal mTOR activation→neuroinflammation, impaired synaptic maintenance, neurotransmitter disruption
+        - Framework applies to Long COVID, ME/CFS, and PANS/PANDAS in children
+        - mTORS6 phosphorylation as candidate biomarker for pathway activation
+        - Motivates mTOR-targeted interventions (rapamycin) in pediatric post-infectious neuropsychiatric syndromes
+    / *Conclusion:*: Extends the mTOR hyperactivation framework to pediatric populations. Reinforces the infection→mTOR→BBB→neuroinflammation cascade proposed in adult ME/CFS literature (Bar-Tana 2025, Drosen 2025). Pediatric focus is novel.
+    / *Limitations:*: Review only — no primary human data. Pediatrics-focused; adult ME/CFS translational relevance inferred but not directly tested. mTOR→psychiatric symptoms link is plausible but many steps lack pediatric human evidence. Single-proponent model (Fronticelli Baldelli). Journal quality: MDPI Children (impact factor ~2.5).
+    / *Certainty:*: 0.35
+
 === Hodding et al.\ 1980 — Drug Withdrawal Syndromes: Foundational Review
 
     / *Full Citation:*: Hodding GC, Jann M, Ackerman IP. Drug withdrawal syndromes — a literature review. _Western Journal of Medicine_. 1980;133(5):383--391. @Hodding1980DrugWithdrawal

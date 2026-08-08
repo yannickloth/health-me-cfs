@@ -3988,7 +3988,33 @@ This registry collects all hypotheses, speculations, open questions, and predict
   chapter-ref: [ch06: nocturnal autophagy sleep],
   prediction: [PBMC pSer258-ATG13 shows flattened nighttime rhythm (nocturnal decline \< 20%) in ME/CFS vs healthy (\> 40% decline) during 24-hour inpatient sampling. Rapamycin (morning dosing) restores the trough and improves subjective unrefreshing sleep by week 4. Falsified if nocturnal pSer258-ATG13 rhythm is normal in ME/CFS.],
   treatment: [TRE, metformin, or rapamycin as autophagy restoration strategies for unrefreshing sleep. No clinical recommendation — rapamycin is research-stage. TRE is safest but requires trial in ME/CFS sleep context.],
-  limitation: [Mechanism inferred from general circadian autophagy biology. No serial pSer258-ATG13 measurements performed in ME/CFS. Unrefreshing sleep may have multiple causes — mTORC1-driven autophagy failure is one candidate mechanism, not the sole explanation.],
+   limitation: [Mechanism inferred from general circadian autophagy biology. No serial pSer258-ATG13 measurements performed in ME/CFS. Unrefreshing sleep may have multiple causes — mTORC1-driven autophagy failure is one candidate mechanism, not the sole explanation.],
+)
+
+#registry-entry(
+  [mTORC1→IMPDH→Purine Metabolism→Mitochondrial Dysfunction Axis],
+  type: "S",
+  certainty: "0.50",
+  evidence: [Gile et al. (2026) Phase II observational study (n=86 enrolled): LCMS purine metabolomics showed rapamycin modulates IMP→XMP conversion via IMP dehydrogenase (IMPDH) inhibition. Flow cytometry confirmed reduced IMPDH activity. Purine supplementation induced mitochondrial oxidative stress in PBMCs; rapamycin partially mitigated. Seahorse OCR: improved mitochondrial respiration (basal, ATP-linked, maximal, spare capacity) in responder PBMCs after 90 days. Microglial inflammation reduced. Same Simmaron/Bateman Horne/Mayo consortium as prior rapamycin/ATG13 studies. Uncontrolled (no placebo). NCT06257420. @Gile2026rapamycinPurine],
+  citations: [@Gile2026rapamycinPurine],
+  mechanism: [mTORC1 hyperactivation → IMPDH upregulation (via ATF4-mediated transcriptional control of one-carbon pathway) → elevated IMP→XMP flux → purine intermediate accumulation → purine-driven mitochondrial oxidative stress → impaired mitochondrial respiration (basal, ATP-linked, maximal OCR) → extracellular purine release → microglial P2X7 receptor activation → NLRP3 inflammasome → IL-1β → neuroinflammation. Distinct from mTORC1→ATG13→autophagy block — parallel downstream pathology contributing to mitochondrial dysfunction via a different biochemical route.],
+  chapter-ref: [ch07: mTOR/AMPK autophagy balance, ch08: mTOR→SASP endothelial senescence],
+  prediction: [IMPDH activity elevated in ME/CFS PBMCs vs controls (≥1.5-fold) and correlates with mTORC1 activity (pS6K, p4E-BP1). Rapamycin reduces IMPDH activity and normalizes the IMP/XMP ratio in a dose-dependent manner. Purine supplementation at ME/CFS plasma-relevant concentrations impairs mitochondrial OCR in control PBMCs. The P2X7→NLRP3 link is falsified if rapamycin's microglial anti-inflammatory effect is independent of purine concentration changes (i.e., IMPDH inhibition and microglial markers do not correlate within patients). ],
+  treatment: [IMPDH as drug target downstream of mTORC1 — could be modulated without direct mTORC1 inhibition (avoiding immunosuppression from mTORC2 co-inhibition). Mycophenolate mofetil (IMPDH inhibitor) is FDA-approved for transplant immunosuppression but carries its own risk profile. No clinical recommendation — both rapamycin and IMPDH inhibitors are research-stage for ME/CFS.],  
+  limitation: [Uncontrolled study (no placebo). 53% attrition at 90 days. Molecular results biased to responders — purine/metabolic improvement may reflect responder biology, not rapamycin effect per se. Single consortium (Simmaron) — needs independent replication. IMPDH→P2X7→NLRP3 cascade in ME/CFS microglia is entirely inferred from separate biochemical data. IMPDH inhibitor alternative (mycophenolate) has different risk profile not evaluated in ME/CFS.],
+)
+
+#registry-entry(
+  [mTOR Hyperactivation → BBB Compromise → Pediatric Neuroinflammation in Post-Infectious Syndromes],
+  type: "H",
+  certainty: "0.30",
+  evidence: [Fronticelli Baldelli and Buonsenso (2025) narrative review: proposes mTOR as mechanistic link between peripheral infection-driven inflammation and CNS dysfunction in pediatric post-infectious syndromes. Stepwise cascade: sustained mTOR activation→T-cell/macrophage pro-inflammatory skew→BBB compromise (endothelial mTOR weakens tight junctions, increases vesicular transport)→microglial mTOR→neuroinflammation, impaired synaptic plasticity. Framework spans Long COVID, ME/CFS, PANS/PANDAS in children. pS6 as candidate mTOR pathway biomarker. @FronticelliBaldelli2025mTORinfections],
+  citations: [@FronticelliBaldelli2025mTORinfections],
+  mechanism: [Infection→sustained mTORC1 activation in immune cells→pro-inflammatory T-cell/macrophage polarization→endothelial mTOR signaling weakens BBB tight junctions and increases vesicular transport→cytokines and autoreactive cells enter CNS→engage mTOR in microglia and neurons→neuroinflammation, impaired synaptic maintenance, neurotransmitter disruption→fatigue, cognitive dysfunction, neuropsychiatric symptoms.],
+  chapter-ref: [ch08: mTOR→SASP endothelial senescence],
+  prediction: [Pediatric post-infectious patients (Long COVID, ME/CFS) show elevated pS6 in PBMCs vs healthy controls. pS6 levels correlate with BBB permeability markers (S100B, CSF/serum albumin ratio). Rapamycin reduces pS6 and BBB permeability markers in a pediatric trial. Falsified if pS6 is normal in pediatric post-infectious patients or if mTOR inhibition does not reduce BBB permeability.],
+  treatment: [mTORC1 inhibitors (rapamycin) as potential intervention for pediatric post-infectious neuroinflammation. Entirely preclinical for pediatrics — no human pediatric mTOR inhibitor trial for post-infectious syndromes exists. Safety concerns: rapamycin is an immunosuppressant with growth and developmental risks in children.],
+  limitation: [Review only — no primary human data. Pediatric focus with adult ME/CFS inference. Many steps lack pediatric human evidence. Single-proponent model. mTOR→psychiatric symptoms link is plausible but untested in children with post-infectious syndromes. Journal: MDPI Children (IF ~2.5). Proceed with extreme caution: pediatric rapamycin use carries additional developmental risks beyond adult safety concerns.],  
 )
 
 #registry-entry(
