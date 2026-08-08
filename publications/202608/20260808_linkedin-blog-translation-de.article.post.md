@@ -23,7 +23,7 @@ Was Sie finden:
 
 Alles Open Access (CC-BY 4.0). Jede Behauptung rückverfolgbar zur zitierten Literatur. Jedes Modell überprüfbar.
 
-Das ist keine Zusammenfassung. Keine verwässerte Populärwissenschaft. Es ist die vollständige Wissenschaft, auf Deutsch — weil Sprache niemals eine Barriere für das Verständnis der eigenen Krankheit sein sollte.
+Keine Zusammenfassungen, keine verwässerte Populärwissenschaft — jedes Thema ein eigenständiger Artikel auf Deutsch. Weil Sprache niemals eine Barriere für das Verständnis der eigenen Krankheit sein sollte.
 
 #MECFS #MyalgischeEnzephalomyelitis #ChronischesErschöpfungssyndrom #CFS #OpenAccess #OpenScience #Medizin #MedizinischeForschung #Wissenschaftskommunikation #LongCovid #PostCovid #Gesundheit
 
