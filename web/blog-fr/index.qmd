@@ -1,0 +1,20 @@
+---
+title: "Blog"
+lang: fr
+listing:
+  contents: posts
+  sort:
+    - "date desc"
+    - "title asc"
+  type: default
+  categories: true
+  feed: true
+  filter-ui: true
+  sort-ui: true
+  date-format: iso
+page-layout: full
+---
+
+::: {.blog-lang-links}
+Également disponible en : [English](/blog/) · Français · [Deutsch](/blog-de/)
+:::

@@ -1,0 +1,228 @@
+---
+title: "La silencieuse, la difficile, l'absente : ce que coûte la vie sociale dans l'EM/SFC"
+description: "C'est la silencieuse du groupe. Parfois elle n'est pas seulement silencieuse — elle est tranchante, critique, négative. Les gens remarquent d'abord le silence, puis la platitude, puis le tranchant. Ils interprètent le silence comme du désengagement, la critique comme de l'hostilité, le retrait comme un rejet. Ils se trompent sur toute la ligne..."
+author: "Yannick Loth"
+date: "2026-08-07"
+categories: [Impact social, Métabolisme énergétique, Neurocognitif]
+lang: fr
+---
+
+C'est la silencieuse du groupe. Celle qui se tient légèrement à l'écart, qui ne participe pas, qui ne s'accorde pas à l'énergie de la pièce. Amorphe. À peine présente.
+
+Parfois elle n'est pas seulement silencieuse — elle est tranchante. Critique. Négative. Elle s'agace de petites choses. Elle relève ce qui ne va pas plutôt que ce qui va. Les gens remarquent d'abord le silence, puis la platitude, puis le tranchant. Ils interprètent le silence comme du désengagement. La critique comme de l'hostilité. Le retrait comme un rejet.
+
+Ils se trompent sur toute la ligne. Ce qui ressemble à de l'absence, de la froideur ou une personnalité difficile est en réalité de la biologie. La personne atteinte d'EM/SFC alloue des ressources métaboliques rares au maintien de la conscience. Le cerveau, fonctionnant presque à vide, bascule dans son mode le plus ancien et le plus économe en énergie : la détection des menaces. Tout le reste — la conversation légère, l'animation, la réciprocité, la générosité d'interprétation, même la chaleur humaine élémentaire — est un luxe que le budget énergétique ne peut pas se permettre.
+
+---
+
+## Rire coûte de l'énergie. La chaleur authentique coûte encore plus.
+
+Chaque action du corps nécessite de l'ATP. Bouger un muscle. Activer un neurone. Synthétiser un neurotransmetteur. Le corps en bonne santé produit de l'ATP en continu, sans effort. Le corps atteint d'EM/SFC, non. Les mitochondries sont altérées à plusieurs niveaux. L'apport en substrats est réduit par l'hypoperfusion cérébrale. La chaîne de transport d'électrons est inhibée par la signalisation inflammatoire. La demande dépasse régulièrement l'offre.
+
+Produire une émotion est métaboliquement coûteux. Sourire exige la contraction coordonnée de multiples muscles faciaux, maintenue pendant toute la durée du signal social. Le substrat neurochimique des émotions positives — la dopamine — est synthétisé à partir de la tyrosine via la tyrosine hydroxylase, qui nécessite la tétrahydrobioptérine (BH4) comme cofacteur. La BH4 est déplétée chez de nombreux patients atteints d'EM/SFC [@Williams2025GCH1BH4]. Les régions cérébrales qui coordonnent l'expression émotionnelle — le cortex préfrontal, le cingulaire antérieur, les ganglions de la base — présentent un métabolisme du glucose réduit [@siessmeier2003pet] et une activation réduite des ganglions de la base lors du traitement de la récompense dans l'EM/SFC [@Miller2014dopamine].
+
+Rire est un événement moteur, cognitif et affectif complexe. Quand une personne atteinte d'EM/SFC reste silencieuse pendant que la salle rit, elle ne juge pas la plaisanterie. Elle rationne l'ATP.
+
+---
+
+## La vie sociale est une tâche cognitive à haute intensité énergétique
+
+Une conversation de groupe exige simultanément le traitement du langage, la mémoire de travail, les fonctions exécutives, l'intégration sensorielle et la production d'affects — en temps réel, de manière soutenue pendant toute la durée de l'interaction. L'effort cognitif augmente la demande cérébrale en ATP de 10 à 20 % au-dessus du niveau de base [@Jamadar2025metabolic], et le cerveau dispose de réserves énergétiques minimales.
+
+Les ganglions de la base — le centre de calcul effort-récompense du cerveau — montrent une activation réduite dans l'EM/SFC lors du traitement de la récompense [@Miller2014dopamine]. Le cerveau calcule l'interaction sociale comme coût élevé, récompense faible. Ce n'est pas un comportement appris. C'est un calcul métabolique : le cerveau perçoit les exigences sociales de la même manière qu'il perçoit l'effort physique au-delà des capacités.
+
+Les personnes en bonne santé traitent la parole à environ 150 mots par minute, avec des latences de tour de parole mesurées en millisecondes. Un cerveau qui fonctionne près de son plafond métabolique ne peut pas traiter les informations à cette vitesse, ne peut pas produire de réponse à cette vitesse, ne peut pas maintenir l'attention. Alors il arrête d'essayer. La personne se tait.
+
+---
+
+## Le cerveau en déficit énergétique bascule vers la négativité
+
+C'est la partie dont personne ne parle. Quand vous n'avez plus d'énergie, vous ne devenez pas seulement silencieux. Vous devenez difficile.
+
+L'autorégulation — le contrôle émotionnel, l'inhibition des impulsions, le choix prudent des mots, la capacité de faire une pause avant de réagir, la générosité d'interpréter un commentaire ambigu de manière charitable plutôt que comme une attaque — tout cela repose sur le cortex préfrontal. Le cortex préfrontal est l'une des régions cérébrales les plus coûteuses métaboliquement. Quand l'ATP est rare, il est le premier système à se dégrader.
+
+Ce n'est pas une métaphore. Les expériences de Baumeister et ses collègues ont démontré que les actes d'autocontrôle — supprimer une émotion, faire des choix, résister à la tentation — altèrent l'autocontrôle ultérieur, et que cet épuisement a une composante métabolique mesurable dans la glycémie [@Gailliot2007glucoseSelfControl; @Baumeister1998egoDepletion]. Bien que le modèle spécifique au glucose ait été débattu et affiné dans les tentatives de réplication ultérieures, la conclusion centrale — que l'autorégulation puise dans une ressource limitée qui peut s'épuiser — est bien établie. La capacité du cerveau à réguler les émotions, à inhiber les impulsions et à adopter un comportement prosocial provient du même réservoir que tout le reste. Quand le réservoir est bas, les freins lâchent.
+
+Le cerveau épuisé revient à ce qui est le moins coûteux computationnellement : un traitement heuristique, catégoriel, orienté vers la menace. Il scrute ce qui ne va pas parce que scruter ce qui va bien est énergétiquement coûteux. Il interprète l'ambiguïté comme de l'hostilité parce qu'accorder le bénéfice du doute exige un effort cognitif. Il s'agace de petites provocations parce qu'inhiber l'agacement demande des ressources préfrontales qui ne sont pas disponibles.
+
+C'est la logique évolutive. Quand un organisme est en état de crise métabolique — blessé, infecté, affamé — le cerveau bascule de l'exploration à la défense. De la curiosité à la vigilance. De la coopération à l'autoprotection. Les circuits sous-corticaux anciens, affinés pendant des centaines de millions d'années pour la survie, prennent la priorité quand les ressources métaboliques sont rares. Les fonctions préfrontales énergétiquement coûteuses — le jugement nuancé, la régulation émotionnelle, la générosité sociale — sont rétrogradées.
+
+Dans l'EM/SFC, cet état est chronique. La crise énergétique n'est pas temporaire — c'est la maladie. La posture défensive n'est donc pas un mauvais jour. C'est la ligne de base.
+
+---
+
+## Le basculement défensif : pourquoi le déficit énergétique vous rend critique
+
+Quand une personne atteinte d'EM/SFC devient tranchante, négative ou critique, ce n'est presque jamais lié à la cible de la critique. C'est lié à l'état énergétique de la personne qui critique.
+
+Plusieurs mécanismes convergent pour produire ce phénomène :
+
+**Hypométabolisme préfrontal.** Le cortex préfrontal dorsolatéral (dlPFC) est le siège du contrôle cognitif — la capacité de passer outre les réponses automatiques, de réguler les émotions, de sélectionner la réponse socialement appropriée parmi un éventail de réponses possibles. La neuroimagerie montre une altération du métabolisme du glucose et du débit sanguin cérébral dans les régions préfrontales et des ganglions de la base dans l'EM/SFC [@siessmeier2003pet]. Quand le dlPFC est sous-alimenté, le filtre entre la pensée et la parole s'amincit. Ce qu'un cerveau sain penserait sans le dire, le cerveau EM/SFC le pense et le dit — parce que le circuit inhibiteur qui l'aurait retenu fonctionne à vide.
+
+**La charge cognitive rétrécit l'attention.** Plus un système est épuisé, plus il réduit son traitement à ce qui est le plus urgent. Pour un cerveau en crise énergétique, ce qui est le plus urgent, c'est la menace — réelle ou perçue. Le résultat est un biais cognitif vers le négatif. La recherche sur la fatigue mentale montre que les individus épuisés deviennent moins capables de traitement nuancé, revenant par défaut à des jugements heuristiques et catégoriels. Ce n'est pas la personnalité. C'est une réponse biologique conservée à la rareté des ressources.
+
+**La régulation émotionnelle coûte du glucose.** Supprimer une réaction émotionnelle — frustration, irritation, blessure — exige un engagement préfrontal actif. Les études de Gailliot et al. ont montré que les tâches de suppression émotionnelle réduisent de manière mesurable la glycémie et altèrent l'autocontrôle ultérieur [@Gailliot2007glucoseSelfControl]. Bien que le mécanisme spécifique au glucose ait été débattu, le principe plus large — que l'autorégulation soutenue consomme des ressources métaboliques et se dégrade avec la fatigue — est bien étayé. Dans l'EM/SFC, où le métabolisme cérébral du glucose de base est altéré, la capacité de régulation émotionnelle est perpétuellement sous tension. Chaque personne dans la pièce adresse de petites exigences au système de régulation émotionnelle du patient. Le patient n'a rien sur son compte. Le découvert s'exprime sous forme d'irritabilité, de dureté ou de retrait.
+
+**L'effort du masquage.** De nombreuses personnes atteintes de maladie chronique rapportent masquer leurs symptômes en contexte social — supprimer les signes visibles de douleur, forcer l'engagement, performer la normalité. Cette expérience auto-rapportée correspond au coût métabolique connu de la régulation émotionnelle soutenue : la personne qui masque depuis une heure accomplit une tâche continue d'autorégulation depuis soixante minutes d'affilée, en plus de la charge cognitive de la conversation, en plus de la charge sensorielle de l'environnement. Quand le masque tombe — quand le ton devient plus dur, quand la patience s'épuise — ce n'est pas parce que la personne a une personnalité difficile en dessous. C'est parce que le budget énergétique du masquage a été épuisé, et ce qui reste est l'état non filtré d'un cerveau en déficit métabolique.
+
+---
+
+## La joie des autres devient votre stress
+
+Quand les amis ou la famille sont spontanés, joueurs, animés, ils créent un environnement plus exigeant. La spontanéité exige de traiter des informations imprévues, ce qui est computationnellement plus coûteux. Le jeu introduit de l'ambiguïté — est-ce sérieux, quelle est la réponse attendue — qui exige un traitement supplémentaire. L'animation augmente la charge sensorielle. Tout cela augmente le coût métabolique d'être présent.
+
+L'attente de réciprocité émotionnelle ajoute une couche supplémentaire. Quand quelqu'un vous adresse de la joie, le script social exige que vous renvoyiez quelque chose en retour. Pour la personne atteinte d'EM/SFC, cette demande arrive à un système qui ne peut pas produire la réponse. Les circuits préfrontaux et des ganglions de la base sont hypométaboliques [@siessmeier2003pet; @Miller2014dopamine]. La synthèse de dopamine, qui alimente les émotions positives, est compromise quand la BH4 est déplétée [@Williams2025GCH1BH4]. Les muscles qui produisent l'expression faciale sont alimentés par des mitochondries qui ne délivrent pas.
+
+L'incapacité à réciproquer devient son propre facteur de stress — culpabilité, honte d'être exposé, la performance épuisante d'un engagement feint. Cette culpabilité est métaboliquement réelle. Chaque pensée du type « je devrais rire » est une dépense d'ATP que le corps ne peut pas se permettre.
+
+Et si l'écart entre ce que le patient peut donner et ce que la situation sociale exige est trop grand, la réponse n'est peut-être pas un retrait silencieux — ce peut être de l'irritation. *Pourquoi sont-ils si bruyants. Pourquoi ont-ils tant besoin de moi. Pourquoi ne voient-ils pas que je n'ai plus rien.* L'irritation est la façon dont le cerveau se protège d'une demande qu'il ne peut pas satisfaire. Il est plus facile de repousser le monde que d'admettre qu'on ne peut pas l'atteindre.
+
+---
+
+## La platitude est métabolique, pas psychologique
+
+L'aplatissement affectif — expressivité émotionnelle réduite, voix monocorde, visage immobile — est fréquemment interprété à tort comme une dépression, une anxiété sociale ou un trouble de la personnalité. Les patients sont orientés vers les services de psychiatrie, se voient prescrire des antidépresseurs, et s'entendent dire que leurs difficultés sociales reflètent des traits évitants ou schizoïdes.
+
+La platitude n'est rien de tout cela. C'est la surface visible d'une contrainte métabolique : quand l'ATP est insuffisante pour alimenter l'expression émotionnelle, l'expression émotionnelle s'arrête. Le cerveau fait un triage : maintenir les fonctions vitales de base, maintenir la conscience, puis allouer ce qui reste à la signalisation sociale. Dans l'EM/SFC sévère, il ne reste rien.
+
+La suppression émotionnelle dans l'EM/SFC a été documentée expérimentalement : les patients montrent une activité électrodermale atténuée pendant les tâches de suppression émotionnelle — un aplatissement physiologique — associée à une détresse subjective *plus élevée* [@Rimes2016EmotionSuppression]. Le corps ne peut pas produire la réponse physiologique normale, mais l'expérience subjective demeure. Le patient ressent tout. Il ne peut simplement pas le montrer.
+
+Et parfois ce qu'il ressent, c'est de la frustration. De la frustration que son corps ne coopère pas. De la frustration que les autres interprètent à tort son immobilité comme de la froideur. De la frustration que le monde exige des productions — sourires, mots, réactions — que ses mitochondries ne peuvent pas financer. La frustration, contrairement à la chaleur, peut être produite avec une coordination préfrontale minimale — c'est le chemin de moindre résistance pour un cerveau qui ne peut pas se payer les circuits coûteux de l'engagement social positif. Alors c'est la frustration qui fuit.
+
+---
+
+## La boucle d'amplification
+
+Les affects négatifs amplifient la perception des symptômes somatiques dans l'EM/SFC. Une étude expérimentale a constaté que l'induction d'affects négatifs augmentait le signalement des symptômes chez les patients EM/SFC et fibromyalgiques significativement plus que chez les témoins sains [@VanDenHoute2017Somatic]. Ce n'est pas parce que les symptômes sont psychologiques. C'est parce que l'affect et l'intéroception partagent des circuits neuronaux — l'insula antérieure et le cortex cingulaire antérieur traitent à la fois la valence émotionnelle et la sensation corporelle. Quand ces circuits sont sensibilisés par l'inflammation chronique, la détresse émotionnelle et les symptômes physiques s'amplifient mutuellement.
+
+La conséquence sociale est sévère. L'environnement est à la fois épuisant (vidant l'ATP), cognitivement exigeant et — quand ça se passe mal — émotionnellement éprouvant. Chaque dimension nourrit les autres. L'épuisement altère le traitement cognitif. La surcharge cognitive rend les frictions sociales plus probables. Les frictions produisent de la détresse émotionnelle — et aussi de la défensive, du retrait ou des explosions verbales. La détresse amplifie les symptômes. Les symptômes drainent plus d'énergie. Le cycle se resserre.
+
+Le retrait social n'est pas un choix dans ce contexte. C'est un disjoncteur. Supprimer la demande sociale supprime la charge cognitive, la complexité émotionnelle, le risque d'entrer dans une spirale d'amplification dont le coût — des jours de malaise post-effort — dépasse largement tout bénéfice.
+
+---
+
+## Le coût de la synchronie émotionnelle : pourquoi vous ne pouvez pas vous accorder à leur humeur
+
+Il y a une exigence dans chaque interaction sociale que les personnes en bonne santé ne remarquent jamais parce qu'elles la satisfont automatiquement : la synchronie émotionnelle. L'exigence tacite d'accorder le tempo émotionnel de la pièce. De refléter l'énergie, l'affect, le rythme des personnes qui vous entourent.
+
+Pour une personne atteinte d'EM/SFC, cette exigence est métaboliquement ruineuse.
+
+Quand deux personnes sont émotionnellement en phase — toutes deux joyeuses, toutes deux calmes, toutes deux sérieuses — le cerveau gère cela efficacement. Le cortex orbitofrontal médian et le cortex préfrontal ventromédian, régions liées à la récompense et aux sentiments positifs, s'activent. Être en phase est métaboliquement peu coûteux parce que cela n'exige aucune résolution de conflit [@Kuhn2011emotionalSynchrony].
+
+Mais quand il y a un décalage — la salle rit et vous êtes épuisé, les autres sont animés et vous êtes à plat, quelqu'un vous adresse de la bonne humeur et vous ne ressentez rien — le cerveau doit engager un circuit entièrement différent. Le cortex préfrontal dorsolatéral (DLPFC) s'active pour traiter le conflit entre ce que vous ressentez et ce que la situation exige [@Kuhn2011emotionalSynchrony]. Le DLPFC est la région cérébrale la plus coûteuse métaboliquement. À chaque seconde de décalage, le cerveau brûle de l'ATP supplémentaire pour gérer l'écart entre l'état interne et l'attente externe.
+
+Voilà ce que sont la plupart des situations sociales pour la personne atteinte d'EM/SFC : un état continu de décalage émotionnel. La pièce est à un tempo que le patient ne peut pas égaler. L'affect que le patient peut produire — plat, silencieux, minimal — est incongru avec l'affect que la pièce attend. Alors le DLPFC tourne en continu, brûlant de l'énergie que le patient n'a pas, essayant de combler un écart qui ne peut pas être comblé. Le résultat n'est pas une synchronie réussie. C'est un épuisement cognitif.
+
+**Le mimétisme facial exige le cortex préfrontal.** Le mimétisme émotionnel — la tendance automatique à refléter les expressions faciales d'autrui — n'est pas vraiment automatique quand vous êtes épuisé. Produire la réponse faciale appropriée à l'émotion d'autrui exige un cortex préfrontal médian fonctionnel. Des expériences de TMS l'ont démontré directement : activer le cortex préfrontal médian améliore le mimétisme facial ; l'inhiber le détériore [@Balconi2013rTMSMimicry; @Balconi2011MPFCmimicry]. Le matériel neuronal qui produit le sourire que vous êtes censé rendre est le même circuit frontal qui est hypométabolique et hypoperfusé dans l'EM/SFC.
+
+**La fatigue altère directement la contagion émotionnelle.** Les données de la recherche sur la privation de sommeil sont sans ambiguïté. La privation partielle de sommeil réduit la contagion émotionnelle — les personnes ressentent moins de bonheur en observant des visages heureux, et leur cerveau montre une activation réduite aux stimuli émotionnels — même quand leurs muscles faciaux produisent encore la réponse de mimétisme [@Tamm2020sleepContagion]. La privation totale de sommeil réduit l'empathie émotionnelle dans plusieurs domaines [@Guadagni2014sleepEmpathy]. Sur le terrain, les médecins privés de sommeil montrent une empathie mesurablement réduite et prescrivent moins d'analgésiques aux patients souffrants [@ChoshenHillel2022sleepEmpathy].
+
+Si une seule nuit de mauvais sommeil dégrade la synchronie émotionnelle chez des personnes en bonne santé, imaginez ce que font des années de dysfonctionnement métabolique cérébral. L'EM/SFC place le cerveau dans un état analogue à une privation de sommeil partielle continue — métabolisme du glucose cérébral réduit, fonction préfrontale altérée, catécholamines déplétées. Les circuits neuronaux qui soutiennent l'accordage émotionnel, le mimétisme facial et la réciprocité affective sont les mêmes circuits qui sont les plus vulnérables au stress métabolique.
+
+**La conséquence sociale.** La personne atteinte d'EM/SFC entre dans une pièce où les autres sont animés, engagés, émotionnellement fluides. Son cerveau détecte immédiatement le décalage. Son DLPFC s'active pour le gérer. Son cortex préfrontal médian, déjà hypométabolique, est sommé de produire des réponses faciales appropriées. Sa dopamine, déjà déplétée, est sommée d'alimenter des affects positifs. Tout l'appareil de synchronie fonctionne en déficit dès la première seconde.
+
+Ce que la salle voit : quelqu'un qui ne s'accorde pas à l'humeur. Qui ne sourit pas quand on l'attend. Qui ne rit pas aux bons moments. Qui ne se réchauffe pas à mesure que la conversation avance. Le décalage est visible. Il met les personnes en bonne santé mal à l'aise — parce que la synchronie émotionnelle est la manière dont les humains signalent la sécurité, l'appartenance et la compréhension mutuelle. Une personne qui ne peut pas se synchroniser est perçue comme froide, hostile ou étrange, même si la personne qui perçoit ne peut pas articuler pourquoi.
+
+Ce que le patient ressent : un écart toujours plus grand entre ce qui est attendu et ce qui peut être fourni. La conscience de l'écart. L'effort pour le combler. L'épuisement dû à l'effort. La culpabilité quand ça échoue. Le retrait qui suit, non pas parce qu'il l'a choisi, mais parce que le budget énergétique pour essayer est épuisé.
+
+**Une lacune de recherche.** Aucune étude publiée n'a mesuré directement la synchronie émotionnelle ou la contagion émotionnelle dans l'EM/SFC. L'argument repose sur des données convergentes : la fatigue altère la contagion émotionnelle dans des expériences contrôlées, le mimétisme facial dépend de circuits préfrontaux compromis dans l'EM/SFC, et les patients décrivent systématiquement l'épuisement socio-émotionnel comme une expérience centrale. C'est une véritable niche de recherche inexplorée — et une réalité quotidienne pour les patients.
+
+---
+
+## Le comportement de maladie : le cadre évolutif
+
+Le cadre évolutif du comportement de maladie — l'ensemble coordonné de fatigue, retrait social, anhédonie, hyperalgésie et irritabilité qui accompagne l'infection — redirige l'énergie loin de l'interaction sociale et vers la fonction immunitaire. Il est ancien. Il est conservé à travers les espèces. Ce n'est pas un dysfonctionnement — c'est un programme.
+
+Quand un animal est malade, il se retire du groupe. Il cesse de faire sa toilette. Il cesse de répondre aux signaux sociaux. Il devient moins tolérant à l'approche. Il peut devenir agressif si on le pousse. Chacun de ces comportements sert le même objectif : conserver l'énergie pour la défense immunitaire en éliminant toute dépense non essentielle, y compris et surtout la dépense sociale.
+
+Dans l'infection aiguë, ce programme s'exécute pendant quelques jours puis s'éteint. Dans l'EM/SFC, les données suggèrent que la signalisation inflammatoire chronique maintient le programme de comportement de maladie engagé bien au-delà de tout déclencheur aigu [@VollmerConna2004]. Le patient ne choisit pas d'être replié, plat ou difficile. Le cerveau du patient exécute un logiciel conçu pour une infection de courte durée, mais le signal d'arrêt n'arrive jamais.
+
+L'irritabilité qui accompagne le comportement de maladie n'est pas un effet secondaire. Elle est adaptative. Un animal malade et faible doit tenir les menaces à distance parce qu'il ne peut ni combattre ni fuir. L'irritabilité — le seuil bas de réaction défensive, la réponse vive à une intrusion mineure — sert d'alarme périmétrique. « Reste à distance. Je suis vulnérable. Je ne peux pas me permettre de m'engager. » La personne atteinte d'EM/SFC qui s'agace d'un visiteur qui parle trop fort n'est pas impolie. Elle exécute un programme de survie ancien qui ordonne à un organisme épuisé de se protéger des exigences qu'il ne peut pas satisfaire.
+
+---
+
+## Au-delà de la discrétion et de la critique : la signature psychosociale complète du déficit énergétique
+
+Les conséquences sociales de l'EM/SFC vont bien au-delà de la discrétion et du tranchant déjà décrits. Le déficit énergétique produit un syndrome comportemental reconnaissable — un ensemble prévisible de changements psychosociaux qui émergent chaque fois qu'un système nerveux humain fonctionne en dessous de ses besoins métaboliques. Beaucoup de ces changements ne sont pas reconnus comme des symptômes. Ils sont interprétés comme de la personnalité, comme des valeurs, comme ce que la personne est devenue.
+
+**Prosocialité réduite.** Quand le cerveau est en déficit énergétique, le comportement d'aide est parmi les premières victimes. Une étude historique a démontré qu'une seule nuit de perte de sommeil réduisait la volonté d'aider autrui, désactivait le réseau de cognition sociale du cerveau — cortex préfrontal médian, jonction temporo-pariétale, gyrus frontal inférieur — et, à l'échelle de la population, la perte d'une heure de sommeil due au passage à l'heure d'été produisait une baisse mesurable des dons caritatifs réels sur des millions de transactions [@BenSimon2022sleepHelping]. Bien que les données directes proviennent de la privation de sommeil, les circuits neuronaux sous-jacents — régions préfrontales et temporo-pariétales — sont les mêmes circuits compromis par l'hypométabolisme cérébral de l'EM/SFC. Quand le budget énergétique est contraint, les impulsions généreuses sont prévisiblement rétrogradées.
+
+La personne atteinte d'EM/SFC ne cesse pas de se soucier des autres. Mais la capacité d'agir sur cette sollicitude — tendre la main, offrir de l'aide, initier la gentillesse — est épuisée avec tout le reste. Les amis et la famille peuvent remarquer le retrait du soutien pratique, les messages sans réponse, la personne qui était la première à aider et qui maintenant ne peut plus. Ce n'est pas de l'égoïsme. C'est une contrainte métabolique sur les circuits neuronaux de la générosité.
+
+**Conservation-retrait.** Le terme vient de la médecine psychosomatique : un état comportemental observé chez les organismes confrontés à une adversité sévère et continue, dans lequel le soi se retire de l'engagement, rétrécit son cercle de confiance, intensifie la préoccupation pour soi et redirige toutes les ressources restantes vers l'autoprotection [@Ironside1980conservationWithdrawal]. La description originale se lit comme un portrait clinique de l'EM/SFC non diagnostiquée : retrait du contact social, activité réduite, intérêts rétrécis, vigilance accrue aux menaces, focalisation accrue sur soi — tout cela servant la fonction évolutive de préserver l'organisme pendant une période de rareté des ressources.
+
+Ce n'est pas une dépression. C'est une réponse biologiquement conservée au déficit énergétique qui précède la psychologie humaine de centaines de millions d'années. L'animal qui meurt de faim ou qui est blessé n'explore pas, ne joue pas, ne toilette pas ses congénères, ne prend pas de risques, ne partage pas la nourriture. Il conserve. Il se retire. Il attend. Le même programme, activé chroniquement par le dysfonctionnement métabolique de l'EM/SFC, produit le même phénotype comportemental chez l'humain.
+
+**Sensibilité réduite à la récompense.** La fatigue ne rend pas seulement les choses plus difficiles. Elle les fait paraître moins dignes d'être faites. Des recherches récentes sur la fatigue post-infectieuse ont constaté qu'une fatigue plus importante était associée à une sensibilité réduite à la récompense — indépendamment de la sensibilité à l'effort [@Scholing2025fatigueReward]. Le cerveau ne surestime pas le coût des activités ; il sous-estime leur valeur. Cela se distingue de l'anhédonie (l'incapacité à ressentir du plaisir). La personne atteinte d'EM/SFC peut encore apprécier les choses — son cerveau leur assigne simplement une priorité motivationnelle plus faible par rapport à l'énergie qu'elles exigent. Le calcul a changé : les activités qui sembleraient normalement valoir l'effort ne génèrent plus une incitation suffisante pour justifier la dépense.
+
+Concrètement : la personne cesse de proposer des activités. Cesse de planifier. Cesse d'initier. Non pas parce qu'elle a perdu tout intérêt pour la vie, mais parce que son cerveau a recalculé le rapport coût-bénéfice de chaque action potentielle et en a trouvé la plupart négatives. Le monde rétrécit. Ce qui reste est un ensemble étroit de comportements à faible coût et haute nécessité — manger, l'hygiène de base si possible, le minimum de contact social requis pour maintenir les relations qui ne peuvent pas être perdues. Tout le reste est hors budget.
+
+**Rétrécissement perceptif.** Sous l'effet du stress et de la fatigue, l'attention se rétrécit aux stimuli centraux et focaux, et la conscience périphérique se dégrade. C'est un phénomène bien établi connu sous le nom d'effet Easterbrook : à mesure que l'activation ou la charge augmente, l'éventail des indices qu'un organisme peut traiter se réduit [@Easterbrook1959cueUtilization]. Appliqué aux situations sociales, cela signifie que la personne épuisée manque l'information sociale périphérique — les changements subtils dans l'expression de quelqu'un, le changement de ton, le langage corporel qui signale un changement dans la conversation. Elle traite moins l'environnement social, non pas parce qu'elle ne fait pas attention, mais parce que sa bande passante attentionnelle s'est contractée.
+
+Ce rétrécissement a des conséquences sociales. La personne qui manque les indices périphériques répond de manière moins appropriée, interprète mal les situations plus souvent et paraît socialement maladroite ou déconnectée. Elle ne l'est pas. Elle fonctionne avec un champ perceptif réduit, et l'information qui lui manque est celle que les personnes en bonne santé utilisent inconsciemment pour naviguer dans l'interaction sociale.
+
+**Le tableau cumulatif.** Pris dans leur ensemble, ces changements décrivent une personne qui est : moins généreuse, plus repliée sur elle-même, moins motivée par la récompense, plus centrée sur elle-même et qui traite une tranche plus étroite du monde social. Ce n'est pas une personnalité. Ce n'est pas une défaillance morale. Ce n'est pas qui la personne est « vraiment en dessous ». C'est le produit comportemental prévisible d'un cerveau qui a été forcé en mode conservation d'énergie, et cela correspond presque parfaitement au cadre du comportement de maladie que l'évolution a construit précisément à cette fin [@Morris2013mecfsSickness].
+
+La tragédie est que sans diagnostic — sans comprendre que ces changements sont des symptômes d'une maladie métabolique — la personne et tout son entourage construisent des explications qui placent la cause dans le caractère. « Elle est devenue égoïste. » « Il ne s'intéresse plus à rien. » « Ce n'est plus la personne que j'ai épousée. » La biologie du déficit énergétique est invisible. Le comportement qu'elle produit est interprété comme ce que la personne a décidé d'être.
+
+---
+
+## Ce que fait la personne atteinte d'EM/SFC au lieu de participer
+
+La présence silencieuse et immobile dans la pièce n'est pas passive. Le cerveau travaille activement — il alloue, il surveille, il conserve.
+
+Toutes les quelques secondes, un calcul interne s'exécute : *combien d'énergie ai-je, combien la prochaine minute va-t-elle exiger, quelle est la manière la moins coûteuse de rester présente ?* Le patient suit la charge sensorielle, les niveaux de bruit, la complexité visuelle, le nombre d'interlocuteurs. Il surveille l'état autonomique — fréquence cardiaque, respiration, signaux précoces de malaise post-effort. Il pèse le coût de chaque action potentielle. Parler maintenant, ou économiser cette énergie pour se lever plus tard. Se défendre contre ce commentaire, ou le laisser passer et économiser l'ATP.
+
+Et quand l'énergie devient trop basse même pour cette gestion — quand la surveillance elle-même devient trop coûteuse — le système bascule dans son mode le moins cher : la défense. Chaque stimulus est une menace potentielle. Chaque question est une exigence. Chaque sourire est une demande de retrait sur un compte sans provision. La personnalité qui émerge — critique, distante, réactive — n'est pas la personne. C'est la personne dépouillée des ressources métaboliques nécessaires pour être généreuse.
+
+**Quand vous ne savez pas que vous avez l'EM/SFC.** Pour beaucoup de personnes, cela se produit avant le diagnostic — parfois des années avant. L'épuisement, le retrait social, l'irritabilité, l'incapacité à suivre — tout cela est ressenti mais pas compris. La personne ne sait pas pourquoi la vie sociale est devenue si punitive. Elle ne sait pas que ses mitochondries défaillent. Elle sait seulement qu'être entourée de gens la fait se sentir plus mal, et que lutter contre cela ne fait qu'aggraver la chute.
+
+Sans explication biologique, le cerveau fait ce que les cerveaux font avec la détresse inexpliquée : il cherche des causes dans l'environnement. *Ces gens me fatiguent. Cette amie est trop exigeante. Ce groupe est trop stressant. Je dois être introverti. Je ne dois plus aimer ces personnes. Peut-être que je suis déprimé.* Les interprétations qui émergent du déficit énergétique — la scrutation des menaces, le biais de négativité, la posture défensive — deviennent l'histoire que la personne se raconte pour expliquer pourquoi elle se retire.
+
+Elle commence à s'isoler. Non pas parce que l'isolement est ce qu'elle veut, mais parce que l'isolement est le seul schéma qui réduit les symptômes de manière fiable. L'analyse coût-bénéfice, exécutée sans conscience, converge vers une stratégie unique : passer moins de temps avec les gens qui exigent de l'énergie, plus de temps avec ceux qui en demandent moins. L'ami tranquille qui n'a pas besoin d'un engagement constant. Le parent qui s'assoit dans un silence confortable. L'espace en ligne où la participation est optionnelle et asynchrone. La personne qui lui accorde de l'attention sans exiger de performance en retour.
+
+C'est un comportement rationnel dans le contexte d'une maladie métabolique non reconnue. Mais sans le diagnostic, cela ressemble à autre chose — anxiété sociale, évitement, changement de personnalité, détérioration relationnelle. La personne ne choisit pas la solitude. Elle gravite vers les seuls environnements sociaux que son budget énergétique peut soutenir. L'isolement n'est pas le problème. C'est la solution à un problème qui n'a pas encore été nommé.
+
+---
+
+## EM/SFC sévère : quand même un murmure déclenche une crise
+
+Pour les patients sévères, le coût énergétique de la vie sociale franchit un seuil où même l'interaction minimale est dangereuse. Une conversation murmurée — quelques phrases, prononcées lentement par quelqu'un à côté du lit — peut déclencher un malaise post-effort durant des jours. Les conversations sont classées comme interdites dans la hiérarchie de triage cognitif pour l'EM/SFC sévère [@Loth2026mecfs].
+
+À ce niveau, la présence silencieuse devient une absence. La patiente n'est plus amorphe dans le groupe — elle en est absente. Seule dans une pièce sombre, conservant l'énergie pour respirer, pour avaler, pour rester immobile. Les visites sont limitées à quelques minutes. Les voix doivent être douces. Les questions doivent pouvoir recevoir une réponse par un signe de tête ou un seul mot.
+
+Et même à cet extrême — peut-être surtout à cet extrême — la patiente peut être consciente de l'effet que produit sa voix quand elle parle. Brève. Brusque. Ingrate. Elle le sait. La conscience elle-même coûte de l'énergie. La culpabilité coûte de l'énergie. Il n'y a pas de résolution sauf l'acceptation : voici à quoi ressemble la survie quand chaque mot est une dépense que le corps ne peut pas se permettre.
+
+---
+
+## Ce que cela signifie pour les personnes qui aiment quelqu'un atteint d'EM/SFC
+
+Si quelqu'un dans votre vie est devenu silencieux, critique, difficile ou absent — comprenez ce que vous voyez.
+
+Cette personne ne s'éloigne pas de vous. Son cerveau rationne l'énergie pour la survie et bascule dans son mode de fonctionnement le moins coûteux.
+
+Quand sa voix devient dure, ce n'est pas à propos de vous. C'est le son d'un cortex préfrontal qui ne peut pas se permettre de filtrer.
+
+Quand elle semble négative ou pessimiste, ce n'est pas une vision du monde. C'est le biais computationnel d'un système épuisé qui scrute les menaces parce que scruter la sécurité coûte plus cher.
+
+Quand elle annule des projets — encore — elle fait le calcul : coût énergétique de cet événement par rapport à l'énergie disponible, qui peut être inférieure à zéro.
+
+Quand elle se tait dans un groupe, n'attirez pas l'attention dessus. Ne demandez pas ce qui ne va pas. Ne la poussez pas à participer. La pression elle-même coûte de l'énergie.
+
+Quand elle est tranchante ou critique, ne surenchérissez pas. Ne vous défendez pas. Ne discutez pas. La dispute lui coûtera de l'énergie qu'elle n'a pas, et elle en paiera le prix plus tard — en heures ou en jours de symptômes aggravés que vous ne verrez pas.
+
+À la place : laissez le silence être acceptable. Laissez la platitude être acceptable. Laissez la critique atterrir sans riposte. Laissez l'effacement dans l'arrière-plan être acceptable. Préservez l'espace dans lequel elle se trouve sans exiger qu'elle le remplisse. Cela ne vous coûte rien. C'est peut-être la seule interaction qu'elle peut se permettre.
+
+---
+
+## Ce que cela signifie pour les personnes vivant avec l'EM/SFC
+
+Si vous avez l'EM/SFC et que vous ressentez de la culpabilité à propos de ce que vous êtes devenu — plus silencieux, plus plat, plus critique, plus difficile, plus absent — la biologie est de votre côté.
+
+Le silence n'est pas un échec personnel. C'est une contrainte métabolique. Votre cerveau ne produit pas la réponse parce que vos mitochondries ne produisent pas l'ATP.
+
+Le tranchant, la négativité, la défensive — ce ne sont pas des défauts de caractère. Ce sont les productions prévisibles d'un cerveau qui fonctionne à vide. Le cortex préfrontal qui produirait la chaleur, la patience et la générosité est le même cortex préfrontal qui est hypométabolique, hypoperfusé et épuisé. Vous n'êtes pas une personne difficile. Vous êtes une personne dont les ressources métaboliques pour être agréable sont réquisitionnées pour rester en vie.
+
+La culpabilité — le sentiment que vous devriez être plus présent, plus engagé, plus gentil — est une charge cognitive en soi. Elle coûte de l'énergie. Chaque pensée du type « je devrais être plus sympa », « je devrais être plus amusant », « je devrais être un meilleur ami » est une dépense d'ATP que votre corps ne peut pas se permettre. Réduire cette culpabilité n'est pas de l'auto-indulgence. C'est une intervention de conservation d'énergie.
+
+Vos limites sont réelles. Votre énergie n'est pas infinie. La protéger n'est pas égoïste. Quand vous restez assis en silence, quand votre visage ne bouge pas, quand votre voix sort plus dure que vous ne le vouliez, quand vous êtes à peine présent — vous n'échouez pas à être humain. Vous survivez à une maladie qui rend le fait d'être humain métaboliquement coûteux, et vous le faites avec l'énergie qu'il vous reste. C'est assez.
