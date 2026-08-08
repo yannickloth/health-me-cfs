@@ -63,3 +63,5 @@ Energy production impairment is a central feature of ME/CFS pathophysiology and 
 
 #include "sec-27-brain-energy.typ"
 
+#include "sec-28-prefrontal-executive-energy-adhd.typ"
+
