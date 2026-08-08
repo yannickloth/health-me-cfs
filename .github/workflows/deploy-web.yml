@@ -62,10 +62,14 @@ jobs:
               per_page: 1,
             });
             const run = runs.data.workflow_runs[0];
-            if (!run) throw new Error('No successful build-pdf run found for this commit');
+            if (!run) {
+              core.warning('No successful build-pdf run found for this commit — deploying web without PDF');
+              return '';
+            }
             return run.id;
 
       - name: Download PDF from build-pdf run
+        if: steps.find-run.outputs.result != ''
         uses: dawidd6/action-download-artifact@v6
         with:
           run_id: ${{ steps.find-run.outputs.result }}
