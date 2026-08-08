@@ -8,8 +8,8 @@ Ich habe meinen gesamten wissenschaftlichen Blog zu ME/CFS — 65 Artikel — in
 
 Warum das wichtig ist:
 
-- Deutschland ist von etwa 650.000 ME/CFS-Patienten auf über 650.000 seit der Pandemie angewachsen. Die Versorgungslücke ist enorm.
-- Österreich und die Schweiz — weitere Hunderttausende Betroffene im deutschsprachigen Raum, mit dem gleichen Informationsdefizit.
+- Deutschland zählt über 650.000 ME/CFS-Patienten seit der Pandemie. Die Versorgungslücke ist enorm.
+- Österreich, die Schweiz, die deutschsprachige Gemeinschaft Belgiens — Hunderttausende weitere Betroffene im deutschen Sprachraum, mit dem gleichen Informationsdefizit.
 - Wenn Wissenschaft nur auf Englisch existiert, werden ganze Patientengruppen vom Diskurs über ihren eigenen Körper ausgeschlossen. Übersetzung ist kein Luxus. Sie ist Zugang.
 
 Was Sie finden:
