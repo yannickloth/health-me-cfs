@@ -1,0 +1,72 @@
+---
+title: "Pourquoi vos somnifères ne réparent pas votre sommeil non réparateur"
+description: "Vous avez commencé la trazodone. Votre traceur de sommeil montre plus de sommeil profond. Vous dormez toute la nuit pour la première fois depuis des années. Et vous vous réveillez toujours épuisé."
+author: "Yannick Loth"
+date: "2026-06-19"
+categories: [Sommeil, Système glymphatique, Traitement]
+lang: fr
+---
+
+Vous avez commencé la trazodone. Votre traceur de sommeil montre plus de sommeil profond. Vous dormez toute la nuit pour la première fois depuis des années. Et vous vous réveillez toujours épuisé.
+
+Ce n'est pas un échec du traitement. C'est de la biologie.
+
+---
+
+## La pompe contre les tuyaux
+
+Votre cerveau possède un système d'élimination des déchets — le système glymphatique [@Xie2013glymphatic] — qui fonctionne pendant le sommeil à ondes lentes. Pensez-y comme à un réseau pompe-tuyaux : les oscillations de la norépinéphrine entraînent la vasomotricité cérébrale (la pompe), qui pousse le liquide céphalorachidien (LCR) à travers les espaces périvasculaires entourés de pieds astrocytaires (les tuyaux), éliminant les déchets métaboliques — tau, amyloïde, médiateurs inflammatoires.
+
+Les médicaments du sommeil comme la trazodone et les AOR (antagonistes des récepteurs de l'orexine) [@Hauglund2025neVasomotion] peuvent restaurer la pompe en quelques jours. Ils augmentent la durée du sommeil à ondes lentes, normalisent la puissance delta et consolident l'architecture du sommeil. Mesurable sur l'EEG dès la première nuit.
+
+Mais les tuyaux ? Après des années de sommeil non réparateur, ce ne sont plus les tuyaux d'origine.
+
+---
+
+## Ce que des années de mauvais sommeil font aux tuyaux
+
+L'altération glymphatique chronique provoque des dommages structuraux à trois sites, et chacun se répare à une vitesse différente :
+
+| Composant | Ce qui est endommagé | Temps de réparation structurel | Ratio par rapport à la pompe |
+|-----------|----------------------|--------------------------------|-------------------------------|
+| Canaux d'eau AQP4 | Délocalisés des pieds astrocytaires vers le corps cellulaire — la pompe tourne mais l'eau ne peut pas circuler | 2 à 4 mois | ~20× |
+| Pieds astrocytaires | Rétractés des parois des vaisseaux — surface de contact réduite pour l'échange de fluide | 3 à 6 mois | ~40× |
+| Membrane basale périvasculaire | Épaissie et fibrotique — la demi-vie du collagène IV est de 120 à 300 jours | 6 à 18 mois | ~100× |
+
+La pompe (l'architecture du sommeil) se normalise en ~5 jours. La récupération structurelle complète des tuyaux prend ~12 mois. **Composite pondéré : ~70× l'échelle de temps de restauration.**
+
+Ce n'est pas un chiffre précis. C'est une estimation par ordre de grandeur basée sur la biologie du trafic protéique, de la réorganisation cytosquelettique et du renouvellement de la matrice extracellulaire. Mais le message est le même : votre somnifère a résolu le problème aigu en une semaine. Le problème chronique va prendre presque un an.
+
+---
+
+## La trajectoire mois par mois
+
+**Semaine 1 :** L'architecture du sommeil se normalise [@Holth2019tauSleep]. Vous dormez toute la nuit. Vous vous réveillez encore fatigué. C'est attendu — la pompe tourne, les tuyaux sont encore détruits.
+
+**Semaines 2 à 8 :** L'imagerie DTI-ALPS [@NematGorgani2025GlymphaticMECFS] montre une fonction glymphatique qui s'améliore de peut-être 10 à 15 % du déficit. Les canaux AQP4 se redistribuent lentement vers les pieds astrocytaires. Vous ne ressentez aucune différence. Le cerveau rembourse sa dette de déchets avant que le bilan ne montre une élimination positive.
+
+**Mois 3 :** AQP4 entièrement repolarisé. Pieds astrocytaires partiellement réétendus. Les déchets accumulés sont largement éliminés. **C'est le seuil.** C'est là que les patients commencent à remarquer moins de brouillard cérébral, une sensibilité réduite aux déclencheurs de MPE, une endurance cognitive plus constante. C'est pourquoi les gens disent que cela « a enfin commencé à fonctionner » après 8 à 12 semaines.
+
+**Mois 6 :** Pieds astrocytaires largement restaurés. La DTI-ALPS [@Ding2025glymphaticAD] approche ~50 à 60 % de récupération du déficit. Bénéfice symptomatique significatif — mais toujours pas 100 %.
+
+**Mois 12 et plus :** Le remodelage de la membrane basale périvasculaire approche de la fin. C'est le plafond de la récupération structurelle. Si vous n'êtes pas nettement mieux à 12 mois, l'altération restante n'est pas glymphatique — vous avez besoin d'une classe d'intervention différente.
+
+---
+
+## La prédiction falsifiable
+
+Ce modèle avance une affirmation précise et testable : les patients atteints d'EM/SFC avec plus de 5 ans de sommeil non réparateur qui obtiennent une architecture de sommeil objectivement normale (puissance delta, % de sommeil lent profond, densité des fuseaux en PSG) après 4 semaines de trazodone + AOR [@Lucey2023SuvorexantTau] présenteront **toujours** un indice glymphatique réduit à la DTI-ALPS [@NematGorgani2025GlymphaticMECFS] par rapport à des témoins appariés par âge. Les mêmes patients traités pendant plus de 6 mois montreront une amélioration progressive de la DTI-ALPS.
+
+Un résultat nul — normalisation de la DTI-ALPS dans les 4 semaines suivant la restauration de l'architecture du sommeil — réfuterait le modèle de dégradation structurelle et soutiendrait un modèle purement fonctionnel (réversible). Personne n'a mené cette étude.
+
+---
+
+## Ce que cela signifie si vous êtes un patient
+
+1. **La patience est de la physiologie, pas un échec personnel.** Si vous dormez mieux et ne guérissez toujours pas, vous ne faites rien de travers. L'échelle de temps de récupération est 70× l'échelle de temps de restauration du sommeil. La biologie prédit ce décalage.
+
+2. **S'arrêter à 4 semaines garantit l'absence de bénéfice.** Si vous abandonnez votre protocole de sommeil après un mois parce que « cela ne fonctionne pas », les données disent que vous avez raison — mais seulement parce que vous vous êtes arrêté avant que les tuyaux ne commencent à guérir.
+
+3. **Le plafond à 12 mois est réel.** Si vous avez maintenu un sommeil réparateur constant pendant un an et que vous avez atteint un plateau, vous avez extrait tout ce que l'axe glymphatique peut vous donner. Une amélioration supplémentaire nécessite de cibler d'autres mécanismes — soutien mitochondrial, pacing, stratégies anti-inflammatoires, et potentiellement de traiter les verrous en amont comme la persistance auto-immune.
+
+4. **La qualité du sommeil compte plus que sa durée.** La pompe fonctionne sur les oscillations delta, pas sur les minutes au lit. Les AOR et la trazodone [@Parhizkar2025LemborexantTau] améliorent le signal qui entraîne l'élimination. Les médicaments Z comme le zolpidem augmentent la durée du sommeil mais suppriment les oscillations de noradrénaline qui entraînent la pompe [@Fultz2019csfOscillations] — et n'offrent aucune neuroprotection tau [@Parhizkar2025LemborexantTau]. La classe du médicament compte.

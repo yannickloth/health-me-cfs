@@ -1,0 +1,82 @@
+---
+title: "Les quatre saveurs de la fatigue que la médecine traite comme une seule"
+description: "« Je suis fatigué. »"
+author: "Yannick Loth"
+date: "2026-06-12"
+categories: [Symptômes, Diagnostic, Erreurs de diagnostic]
+lang: fr
+---
+
+« Je suis fatigué. »
+
+Une mère de 32 ans dit cela à son médecin généraliste. Elle veut dire qu'elle ne peut pas sortir du lit après avoir préparé le déjeuner de ses enfants. Elle a dormi dix heures. Elle n'a pas sommeil. Elle n'est pas triste. Ses muscles ne génèrent plus de force et son cerveau ne forme plus de phrases, et cela a commencé 36 heures après une marche pour aller au magasin — une marche qui a pris huit minutes.
+
+Un cadre de 45 ans dit les trois mêmes mots au même médecin généraliste l'heure suivante. Il veut dire qu'il ne peut pas trouver la volonté d'ouvrir son ordinateur portable. Il a dormi quatre heures. Il pourrait physiquement monter les escaliers en courant si le bâtiment était en feu. Son corps fonctionne. Sa motivation, non.
+
+Le médecin généraliste entend « je suis fatigué » deux fois et recourt à la même démarche différentielle : thyroïde, fer, dépression. La langue française a peu de mots pour au moins quatre états biologiquement sans lien. Cette pauvreté linguistique n'est pas une curiosité. Elle entraîne des erreurs de diagnostic, des traitements inadaptés et des préjudices mesurables.
+
+---
+
+## Les quatre états
+
+**La fatigue périphérique** est l'incapacité des muscles à générer de la force. Elle a une physiologie précise : épuisement de l'ATP dans les myocytes, accumulation de lactate et d'ions hydrogène, libération altérée du calcium par le réticulum sarcoplasmique. On peut la mesurer avec un dynamomètre — le muscle ne peut littéralement pas se contracter aussi fort. Un marathonien au kilomètre 38 souffre de fatigue périphérique. Elle se résout avec le repos, la reconstitution du glycogène et le temps. Le mécanisme est local, la récupération est prévisible, et personne ne conteste sa réalité.
+
+**La fatigabilité** — aussi appelée malaise post-effort (MPE) — diffère de la fatigue par une dimension à laquelle la plupart des cliniciens ne pensent pas à demander : le temps. La caractéristique déterminante est le délai. L'effort a lieu le lundi. L'effondrement survient le mardi ou le mercredi. Entre l'effort et l'effondrement, le patient peut se sentir bien, voire plein d'énergie. Puis le sol se dérobe. La fonction cognitive se dégrade. La douleur s'intensifie. Les activités de base deviennent impossibles. La récupération prend des jours à des semaines, pas des heures. C'est la caractéristique cardinale de l'encéphalomyélite myalgique/syndrome de fatigue chronique (EM/SFC), et elle n'a d'équivalent dans aucune autre affection qui utilise le mot « fatigue ». Ce ne sont pas des muscles qui cèdent sous la charge. C'est un effondrement métabolique systémique qui suit l'effort avec un délai caractéristique [@Jason2015CFSvsME; @VanNess2010PEM].
+
+**La somnolence** est la propension à s'endormir. Elle est entraînée par l'accumulation d'adénosine et la pression circadienne. Une personne atteinte de narcolepsie a sommeil. Une personne qui a dormi trois heures a sommeil. On peut les distinguer des patients fatigués par une seule observation : mettez-les dans une pièce sombre et silencieuse, et ils s'endorment en quelques minutes. Un patient présentant une fatigabilité de type EM/SFC, placé dans cette même pièce, ne parvient souvent pas à s'endormir du tout — l'état « fatigué mais sur les nerfs » où l'épuisement et l'insomnie coexistent. La somnolence répond aux stimulants, à la caféine et au sommeil. La fatigabilité n'y répond pas.
+
+**L'amotivation** (anergie) est l'absence d'élan pour engager une action. Le corps peut exécuter ; le cerveau n'émet pas l'ordre. Cela relève principalement du système dopaminergique — un déficit dans la circuiterie de prédiction de la récompense qui attribue une valeur aux actions futures et génère l'impulsion de les commencer. La dépression produit de l'amotivation. La dysfonction exécutive du TDAH aussi, mais par un mécanisme différent : non pas une évaluation de récompense absente, mais une incapacité à traduire l'évaluation en déclenchement d'action sans saillance suffisante. Le patient en amotivation peut souvent exécuter lorsqu'il est contraint de l'extérieur — le pompier qui ne ressent aucune motivation mais court quand même dans le bâtiment. Le patient en fatigue périphérique ou en fatigabilité ne le peut pas.
+
+---
+
+## Pourquoi la confusion tue
+
+Les quatre états ont des traitements différents. Appliquer le traitement de l'un à un patient souffrant d'un autre va de l'inutile au dangereux.
+
+**L'exercice** est thérapeutique pour l'amotivation liée à la dépression. Il a de fortes preuves d'amélioration de l'humeur, de restauration de la fonction dopaminergique et de rupture du cycle retrait-inactivité. Les cliniciens le savent. Ils le généralisent. Un patient qui dit « je suis fatigué » et dont les bilans sanguins sont normaux se voit prescrire une thérapie par exercice gradué ou des encouragements à « tenir le coup ».
+
+Si ce patient présente une fatigabilité de type EM/SFC, l'exercice ne fait pas que échouer — il provoque une détérioration physiologique mesurable. L'épreuve d'effort cardio-pulmonaire (test d'effort cardiopulmonaire, TECP) sur deux jours montre que les patients atteints d'EM/SFC qui font de l'exercice jusqu'à leur limite le jour 1 présentent un seuil ventilatoire réduit, une consommation d'oxygène de pointe réduite et une transition anaérobie plus précoce le jour 2 [@Snell2013CPET]. Le système est objectivement pire après l'effort. C'est le contraire du déconditionnement, où la performance du jour 2 est préservée ou améliorée. La thérapie par exercice gradué appliquée aux patients atteints d'EM/SFC dans l'essai PACE a été suivie de rapports de détérioration significative des patients — et d'aucune amélioration objective selon les propres mesures de l'essai lorsque le protocole a été réanalysé indépendamment [@Wilshire2018].
+
+**Les stimulants** (méthylphénidate, modafinil) aident l'amotivation et la somnolence. Ils augmentent le tonus dopaminergique et noradrénergique, améliorant l'élan et la vigilance. Dans le TDAH, ils sont de première intention. Dans l'EM/SFC, ils peuvent temporairement améliorer la fonction cognitive et réduire la sensation de brouillard — mais ils ne font rien pour prévenir le MPE et peuvent l'aggraver en masquant les signaux d'alerte. Un patient sous stimulants se sent capable d'en faire plus, en fait plus, et s'effondre plus fort.
+
+**Le sommeil** résout la somnolence par définition. Il résout partiellement la fatigue périphérique par la reconstitution du glycogène et la réparation tissulaire. Il ne résout pas la fatigabilité de l'EM/SFC — les patients rapportent un sommeil non réparateur quelle que soit la durée, et le mécanisme sous-jacent du MPE ne répond pas au sommeil. Et il ne résout pas l'amotivation — un patient déprimé peut dormir douze heures et se réveiller avec une absence d'élan identique.
+
+---
+
+## La question diagnostique que personne ne pose
+
+« Quel type de fatigue ressentez-vous ? »
+
+Plus précisément :
+
+1. **Vos muscles cèdent-ils sous la charge ?** (La force de préhension décline pendant un effort soutenu, les jambes lâchent en montant les escaliers) → Fatigue périphérique. Examens : dynamométrie, CK, EMG. Envisager : maladie mitochondriale, myasthénie grave, déconditionnement, anémie.
+
+2. **Vous effondrez-vous 24 à 72 heures après l'activité, et non pendant ?** → Fatigabilité / MPE. Examens : TECP sur deux jours, journal d'activité-symptômes avec suivi du délai. Envisager : EM/SFC, syndrome post-infectieux.
+
+3. **Vous endormez-vous involontairement dans des situations passives ?** → Somnolence. Examens : échelle de somnolence d'Epworth, polysomnographie, test itératif de latence d'endormissement (TILE). Envisager : apnée du sommeil, narcolepsie, hypersomnie idiopathique, privation de sommeil.
+
+4. **Votre corps peut exécuter mais vous ne pouvez pas vous faire démarrer ?** → Amotivation. Examens : PHQ-9, dépistage du TDAH, évaluation de l'anhédonie. Envisager : dépression, TDAH, déficit dopaminergique, épuisement professionnel.
+
+La plupart des patients ont une saveur dominante mais des éléments de plusieurs. Un patient atteint d'EM/SFC présente typiquement une fatigabilité (primaire) plus une fatigue périphérique (secondaire, due au déconditionnement) plus un sommeil perturbé (contribuant) plus une possible amotivation (due à la dépression chronique liée à la maladie). La question clinique n'est pas laquelle ils ont — c'est laquelle est primaire, parce que le mécanisme primaire détermine si l'exercice aide ou nuit.
+
+---
+
+## Le problème de langage est structurel
+
+Ce n'est pas un plaidoyer pour que les patients « décrivent mieux leurs symptômes ». La charge incombe à la médecine, pas aux patients. Les outils d'évaluation clinique qui utilisent une seule échelle de fatigue — une échelle visuelle analogique de 0 à 10, ou une liste de contrôle demandant « ressentez-vous de la fatigue : oui/non » — sont structurellement incapables de distinguer les quatre états. Ils réduisent des physiopathologies distinctes à une seule dimension, puis s'étonnent que le traitement n'ait pas fonctionné.
+
+L'échelle de fatigue de Chalder, utilisée dans l'essai PACE pour affirmer que la thérapie par exercice gradué « avait fonctionné » pour l'EM/SFC, ne distingue pas la fatigabilité de toute autre forme de fatigue. Un patient pourrait s'améliorer sur l'échelle de Chalder en devenant moins déprimé tout en développant simultanément un MPE pire. Ce n'est pas une préoccupation théorique.
+
+Un bilan clinique qui demande « ressentez-vous de la fatigue ? » demande « ressentez-vous une pathologie ? ». La réponse est toujours oui. Cela ne vous dit rien sur quelle pathologie, quel mécanisme, quel traitement. C'est une question conçue pour l'épidémiologie, pas pour le patient individuel assis devant vous.
+
+La solution n'est pas compliquée. Interrogez sur le moment. Interrogez sur le délai. Interrogez sur la réponse à l'exercice. Demandez si le patient peut exécuter lorsqu'il est contraint de l'extérieur. Quatre questions, cinq minutes, et la démarche différentielle passe de « fatigue : voir tout » à une catégorie mécanistique précise avec des examens diagnostiques précis et des implications thérapeutiques précises.
+
+---
+
+## Le coût d'un seul mot
+
+La langue ne sera pas redessinée pour la précision clinique. Mais la pratique clinique, elle, peut l'être. Les quatre états sont biologiquement distincts, diagnostiquement séparables et thérapeutiquement divergents. Les traiter comme une seule chose produit des préjudices mesurables, documentés et continus.
+
+« Je suis fatigué » n'est pas un diagnostic. C'est un point de départ. La question suivante — celle qui change tout — est : fatigué *comment* ?
+
+---

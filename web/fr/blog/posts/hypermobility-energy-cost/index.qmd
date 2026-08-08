@@ -1,0 +1,92 @@
+---
+title: "L'hypermobilité n'est pas que de la souplesse : le coût énergétique des articulations instables"
+description: "Elle a l'air en bonne santé. Elle est jeune, elle est mince, elle peut toucher ses paumes au sol sans plier les genoux. Les médecins l'appellent « souple » depuis l'enfance, et les kinésithérapeutes ont admiré son amplitude de mouvement. Personne ne lui a dit que sa flexi..."
+author: "Yannick Loth"
+date: "2026-06-19"
+categories: [Hypermobilité, Métabolisme énergétique, Comorbidités]
+lang: fr
+---
+
+Elle a l'air en bonne santé. Elle est jeune, elle est mince, elle peut toucher ses paumes au sol sans plier les genoux. Les médecins l'appellent « souple » depuis l'enfance, et les kinésithérapeutes ont admiré son amplitude de mouvement. Personne ne lui a dit que sa flexibilité est un déficit structurel — que ses ligaments sont faits de collagène qui ne maintient pas les articulations comme il le devrait — et que ce déficit coûte à son corps trois fois plus d'énergie pour faire tout ce qu'une personne à articulations normales fait sans y penser.
+
+Le trouble du spectre de l'hypermobilité (TSH) et le syndrome d'Ehlers-Danlos hypermobile (SEDh) sont des affections du tissu conjonctif — plus précisément, du collagène. La protéine qui forme l'échafaudage structurel des ligaments, des tendons, de la peau, des vaisseaux sanguins et de la matrice extracellulaire de pratiquement tous les organes du corps. Lorsque le collagène est anormalement élastique, chaque structure qu'il construit est anormalement élastique. Les articulations ne maintiennent pas leur position. Les vaisseaux sanguins ne maintiennent pas leur tonus. L'intestin ne propulse pas efficacement son contenu. Les conséquences se propagent en cascade à travers chaque système, et le coût énergétique cumulé est un impôt que le patient paie chaque minute de chaque jour.
+
+---
+
+## L'impôt invisible sur chaque mouvement
+
+Chez une personne à articulations normales, les ligaments fournissent une stabilité passive. Lorsque vous vous tenez debout, vos ligaments du genou maintiennent l'articulation en position sans aucun effort musculaire. Les muscles sont libres de faire d'autres choses — générer du mouvement, répondre aux perturbations, porter des charges. Les ligaments sont comme des haubans sur un piquet de tente : ils fournissent une stabilité structurelle gratuitement [@HakimGrahame2003hypermobility].
+
+Chez une personne hypermobile, les ligaments sont assez élastiques pour ne pas stabiliser complètement l'articulation. Les muscles doivent compenser. Chaque articulation, à chaque instant, les muscles posturaux font le travail que les ligaments devraient gérer passivement. Rester debout immobile n'est pas sans effort — cela nécessite une contraction musculaire active et continue pour empêcher l'articulation de se subluxer, de s'hyperétendre ou de dériver vers une position instable.
+
+Cela a un coût métabolique direct. La contraction du muscle squelettique nécessite de l'ATP. Une contraction continue de faible niveau — le type nécessaire pour stabiliser les articulations hypermobiles pendant les activités ordinaires — nécessite une dépense d'ATP soutenue qui ne se produit pas chez les individus à articulations normales. Une personne hypermobile assise sur une chaise brûle plus d'énergie qu'une personne à articulations normales assise sur la même chaise, parce que ses muscles stabilisent activement sa colonne, ses hanches et ses épaules contre la gravité d'une manière que les ligaments devraient gérer gratuitement.
+
+Le système proprioceptif — le réseau de capteurs dans les articulations, les tendons et les muscles qui rapporte la position du corps au cerveau — travaille aussi en surrégime. Dans une articulation stable, l'apport proprioceptif est simple : l'articulation est en position, les ligaments le confirment, le cerveau le remarque à peine. Dans une articulation hypermobile, l'apport proprioceptif est bruyant et peu fiable. L'articulation dérive. Le cerveau reçoit des signaux de correction constants. La charge de calcul du traitement des données de position de chaque articulation instable, en continu, n'est pas triviale — et le traitement cognitif consomme du glucose.
+
+Résultat : une personne hypermobile dépense nettement plus d'énergie pour la posture, le mouvement et la surveillance de la position du corps qu'une personne à articulations normales effectuant des activités identiques. Ce n'est pas documenté dans les applications de comptage de calories ni dans les manuels de physiologie de l'exercice. C'est invisible pour quiconque mesure « l'activité » par le nombre de pas ou les minutes d'exercice. Mais les mitochondries le savent.
+
+---
+
+## La cascade vasculaire
+
+Le tissu conjonctif n'est pas seulement dans les articulations. Il forme les parois des vaisseaux sanguins. Dans l'hypermobilité, les vaisseaux sanguins sont anormalement distensibles — ils s'étirent plus facilement sous pression. Cela a une conséquence spécifique et dévastatrice pour la régulation de la pression artérielle.
+
+Lorsqu'une personne atteinte de SEDh se lève, le sang s'accumule dans les veines distensibles du bas du corps. Normalement, le tonus veineux et la pompe musculaire renvoient le sang au cœur rapidement. Dans le SEDh, les veines s'étirent excessivement, l'accumulation est plus grande et le retour veineux chute. Le cœur reçoit moins de sang. Le débit cardiaque chute. La pression artérielle chute. Le cerveau, assis au sommet du système circulatoire, est perfusé en dernier et le moins [@Roma2018POTShEDS; @DeWandele2014dysautonomiaEDS].
+
+C'est le mécanisme du POTS (syndrome de tachycardie orthostatique posturale) chez les patients atteints de SEDh : la fréquence cardiaque grimpe pour compenser le volume d'éjection réduit, produisant une tachycardie. Le patient ressent des palpitations, des étourdissements et une dysfonction cognitive en position debout — non parce que le cœur est malade, mais parce que les vaisseaux sanguins sont trop extensibles pour maintenir une précharge adéquate.
+
+Le coût énergétique de la tachycardie compensatoire est réel. Une fréquence cardiaque au repos de 100 bpm (courante dans le SEDh/le POTS) contre 65 bpm représente une augmentation de 50 % du travail cardiaque — chaque minute, chaque heure, chaque jour. Le cœur est un muscle. Une augmentation du travail cardiaque signifie une augmentation de la consommation d'ATP cardiaque. Chez un patient dont le budget énergétique est déjà tendu, une augmentation de 50 % de la charge de travail cardiaque n'est pas une considération mineure.
+
+---
+
+## Le lien avec les mastocytes
+
+Le chevauchement entre le SEDh et le syndrome d'activation mastocytaire (SAM) est cliniquement frappant et pas entièrement expliqué. Les estimations varient, mais la prévalence du SAM dans les cohortes SEDh est très supérieure à celle de la population générale [@Seneviratne2017].
+
+Une hypothèse : le tissu conjonctif défectueux fournit une signalisation mécanique anormale aux mastocytes qui y résident. Les mastocytes sont mécano-sensibles — ils répondent aux forces physiques dans leur matrice environnante. Dans une matrice extracellulaire anormale, les signaux mécaniques sont anormaux, conduisant potentiellement à une activation mastocytaire inappropriée.
+
+Lorsque les mastocytes dégranulent, ils libèrent de l'histamine, des prostaglandines, de la tryptase et une cascade de médiateurs inflammatoires — de façon systémique. Le coût énergétique qui en résulte est substantiel : l'activation immunitaire consomme 20 à 25 % du métabolisme de base au maximum. La fatigue post-dégranulation chez les patients atteints de SAM est profonde et peut durer 24 à 72 heures, imitant le MPE.
+
+Pour un patient atteint de SEDh qui souffre aussi de SAM, l'équation énergétique est dévastatrice : impôt d'instabilité structurelle + travail cardiovasculaire compensatoire + épisodes récurrents d'activation immunitaire = déficit énergétique chronique, même avant l'ajout de toute pathologie supplémentaire de l'EM/SFC.
+
+---
+
+## La cascade complète
+
+Commencez par le collagène défectueux. Suivez les conséquences :
+
+1. **Instabilité articulaire** → compensation musculaire continue → coût d'ATP accru de tout mouvement et de la posture
+2. **Laxité vasculaire** → accumulation de sang → POTS → tachycardie compensatoire → coût énergétique cardiaque accru
+3. **Dysrégulation autonome** → tonus vagal altéré → motilité intestinale réduite → SIBO → malabsorption → vol de nutriments
+4. **Dysfonction mastocytaire** → activation immunitaire récurrente → coût énergétique inflammatoire + effondrements post-crise
+5. **Surcharge proprioceptive** → demande de traitement du SNC accrue → fatigue cognitive
+6. **Douleur chronique** → des subluxations, luxations, neuropathie → le traitement du signal douloureux est métaboliquement coûteux + perturbation du sommeil + tribut psychologique
+7. **Perturbation du sommeil** → de la douleur, du POTS (tachycardie en décubitus), de l'activation mastocytaire → restauration altérée → fatigue résiduelle
+
+Chaque étape de cette cascade a un coût énergétique. Les coûts s'additionnent. Un patient qui vit les sept paie un impôt énergétique qu'une personne à articulations normales ne paie pas, avant même de sortir du lit le matin.
+
+---
+
+## SEDh et EM/SFC : pas une coïncidence mais un substrat
+
+La prévalence de l'EM/SFC dans les populations SEDh — et inversement — est trop élevée pour être une coïncidence. Le cluster (SEDh + POTS + SAM + EM/SFC) apparaît en pratique clinique avec une fréquence qui crie une physiopathologie partagée.
+
+Le cadre que cette série développe suggère pourquoi : l'EM/SFC est un état de défaillance énergétique chronique maintenu par de multiples mécanismes auto-renforçants. L'hypermobilité fournit le substrat — un corps qui n'a jamais été structurellement équipé pour une efficacité énergétique normale, fonctionnant avec un déficit permanent qui rapproche le patient du seuil auquel tout coup supplémentaire (une infection, une période de stress, une procédure chirurgicale) le fait basculer dans l'état attracteur de l'EM/SFC.
+
+Selon ce modèle, une personne hypermobile ne développe pas l'EM/SFC à cause de la malchance. Elle la développe parce que sa marge énergétique de base a toujours été plus petite. Le tampon entre « gérer » et « échouer » était plus étroit. La falaise était plus proche.
+
+Cela a une implication pratique : dans le sous-groupe SEDh des patients atteints d'EM/SFC, le traitement doit s'attaquer à la fuite d'énergie structurelle aux côtés des mécanismes métaboliques et immunitaires. Les vêtements de compression (réduisant l'accumulation veineuse), le bracing articulaire (réduisant la compensation musculaire), la gestion du POTS (fludrocortisone, midodrine, sodium et liquides accrus) et le traitement du SAM (antihistaminiques, stabilisateurs de mastocytes) ne sont pas des interventions périphériques. Ce sont des réductions directes de l'impôt énergétique que la dysfonction du tissu conjonctif impose [@Loth2026mecfs].
+
+---
+
+## Le schéma de renvoi
+
+Les patients hypermobiles sont renvoyés avec une régularité remarquable. Leur douleur articulaire est attribuée aux « douleurs de croissance » dans l'enfance et à la « surutilisation » à l'âge adulte. Leur fatigue est attribuée au déconditionnement. Leur POTS est attribué à l'anxiété. Leurs symptômes de SAM sont attribués à des intolérances alimentaires ou à des réactions psychosomatiques.
+
+Le schéma persiste parce qu'aucune plainte individuelle, isolée, n'est assez dramatique pour déclencher une investigation. Laxité articulaire légère. Fréquence cardiaque légèrement rapide. Bouffées vasomotrices occasionnelles. Fatigue non spécifique. Chaque élément est individuellement sous-diagnostique. Le diagnostic exige de reconnaître le schéma — le cluster de laxité légère du tissu conjonctif plus dysfonction autonome plus hyperréactivité immunitaire plus fatigue chronique — et de comprendre que le cluster est un seul processus pathologique, pas quatre symptômes sans lien chez un patient qui se plaint beaucoup.
+
+Le délai moyen avant le diagnostic de SEDh au Royaume-Uni est de 10 ans. Le délai moyen avant le diagnostic d'EM/SFC est de 4 à 7 ans. Un patient avec les deux peut passer 15 ans à s'entendre dire que chaque symptôme individuel n'est pas assez grave pour justifier une investigation, tandis que le coût énergétique cumulé entraîne un handicap progressif.
+
+La solution est la reconnaissance de schéma. Le score de Beighton prend deux minutes. La question « vos articulations cliquent-elles, craquent-elles ou se subluxent-elles ? » prend dix secondes. L'observation qu'un patient avec une fatigue inexpliquée a aussi une peau extensible, des coudes hyperextensibles et une fréquence cardiaque au repos de 100 devrait déclencher une cascade d'investigations qui change tout dans sa prise en charge.
+
+---

@@ -1,0 +1,126 @@
+---
+title: "La formation médicale enseigne le mauvais niveau d'abstraction"
+description: "Un patient arrive avec des décennies de sommeil non réparateur — présent depuis l'adolescence, et documenté des années plus tard par une étude du sommeil qui montre quelque chose de spécifique. L'enregistrement trouve une durée normale de sommeil lent profond, mais avec 5 à 6 % d'intrusion d'ondes al..."
+author: "Yannick Loth"
+date: "2026-04-16"
+categories: [Formation médicale, Médecine des systèmes]
+lang: fr
+---
+
+Un patient arrive avec des décennies de sommeil non réparateur — présent depuis l'adolescence, et documenté des années plus tard par une étude du sommeil qui montre quelque chose de spécifique. L'enregistrement trouve une durée normale de sommeil lent profond, mais avec 5 à 6 % d'intrusion d'ondes alpha : des oscillations cérébrales de veille contaminant le sommeil à ondes lentes au rythme de plusieurs minutes par heure. Le mécanisme du circuit thalamique derrière cette constatation est caractérisé dans la littérature de recherche [@timofeev2015thalamic]. Une conséquence en aval plausible, soutenue principalement par des preuves de modèles animaux, est que la clairance glymphatique — qui semble dépendre d'une activité à ondes lentes non perturbée — est altérée pendant un sommeil contaminé, permettant aux déchets métaboliques de s'accumuler dans le tissu cérébral ; le patient se réveille épuisé quel que soit le nombre d'heures de sommeil. La gabapentine, un médicament déjà en usage clinique courant depuis des décennies, agit sur ce circuit en réduisant l'excitabilité des canaux calciques dans le thalamus, et une hypothèse mécanistique raisonnable est qu'elle pourrait supprimer les oscillations anormales à leur source.
+
+Malgré tout cela, le médicament reste non prescrit — non après l'étude du sommeil, non après l'orientation en neurologie, non après des années de suivi. Les données n'étaient pas manquantes, et le mécanisme n'était pas inconnu. Une lecture possible est que la barrière à la prescription était pratique — usage hors AMM, base de preuves mince pour cette indication spécifique, prudence raisonnable. Une autre est que ce qui manquait était un cadre pour relier la constatation documentée à la pharmacologie disponible. Les deux peuvent être vrais simultanément, et ni l'un ni l'autre ne disculpe l'autre.
+
+---
+
+## Les chiffres d'abord
+
+L'ICD-11, la classification internationale actuelle des maladies, contient environ **17 000 catégories diagnostiques** et plus de **130 000 termes cliniques** [@WHOICD11]. C'est autour de cela que la formation médicale est organisée : une taxonomie énorme d'affections nommées, chacune avec ses propres critères, son propre protocole et son propre spécialiste.
+
+Une façon proposée d'organiser la biologie sous-jacente regroupe ces 17 000 affections en environ **20 familles de mécanismes fondamentaux**, chacune contenant plusieurs mécanismes concrets — environ 80 à 100 mécanismes distincts au total, selon le niveau de résolution auquel on compte. Le nombre et les limites de ces familles dépendent de la granularité choisie ; ce qui suit est une décomposition possible, offerte comme cadre organisateur plutôt que comme consensus scientifique établi :
+
+- Régulation énergétique et métabolique (dysfonction mitochondriale, bloc PDH/PDK, changement glycolytique, déplétion en NAD⁺)
+- Équilibre redox et oxydatif (surproduction de ROS/RNS, peroxydation lipidique, stress nitrosatif)
+- Transport des canaux ioniques et membranaire (canalopathies, rigidité membranaire, défaillance de signalisation Ca²⁺)
+- Activation immunitaire et signalisation des cytokines (hyperactivation innée, épuisement des NK, complément)
+- Auto-immunité et mimétisme moléculaire (auto-anticorps récepteurs, mauvaise direction immunitaire post-virale)
+- Coagulation et hématologique (formation de microcaillots, hyperactivation plaquettaire, hypercoagulabilité)
+- Dysfonction vasculaire et endothéliale (défaillance endothéliale, hypoperfusion cérébrale, paradoxe du RAAS)
+- Système nerveux autonome et périphérique (POTS, défaillance du baroréflexe, neuropathie des petites fibres)
+- Régulation neuroendocrine et hormonale (atténuation de l'HPA, défaillance de conversion thyroïdienne, hormones sexuelles)
+- Neurologique et thalamocortical (neuroinflammation, déséquilibre E/I, intrusion alpha, défaillance glymphatique)
+- Métabolisme des acides aminés et des neurotransmetteurs (IDO/kynurénine, déplétion en sérotonine, voie du NAD⁺)
+- Régulation génomique et épigénétique (signatures de méthylation, attrition des télomères, verrouillage épigénétique post-viral)
+- Homeostasie et dégradation des protéines (dysrégulation des HSP, défaillance de l'autophagie, agrégation)
+- Mort cellulaire et sénescence (épuisement, SASP, pyroptose, ferroptose)
+- Axe intestin-microbiote-immun (dysbiose, intestin perméable, translocation de LPS, axe intestin-cerveau)
+- Persistance virale et échappement immunitaire (réactivation des herpèsvirus, persistance des entérovirus)
+- Intégrité structurelle et tissulaire (dommages musculaires, raréfaction capillaire, perte des fibres nerveuses)
+- Signalisation transcriptionnelle et nucléaire (NF-κB, Nrf2, dysrégulation des récepteurs nucléaires)
+- Signalisation purinergique et de danger (ATP-DAMP, P2X7, réponse au danger cellulaire, NLRP3)
+
+Sous ce cadrage, les 17 000 maladies ne sont pas 17 000 phénomènes indépendants mais des combinaisons différentes et des expressions spécifiques aux tissus d'un ensemble plus petit de familles de mécanismes — et le nombre de maladies nommées est élevé en partie parce que leur combinatoire, exprimée à travers différents tissus, âges, sévérités et déclencheurs, produit une variété énorme de tableaux cliniques distincts. Les catégories diagnostiques ont une valeur réelle : elles encodent les taux de base épidémiologiques, le pronostic et les données de réponse au traitement accumulées à travers des millions de patients. L'argument n'est pas que les catégories devraient être abandonnées, mais que la formation médicale est organisée presque exclusivement autour de ces 17 000 catégories, et que la couche de mécanismes sous-jacente — celle partagée entre les affections — reçoit comparativement peu d'importance dans le raisonnement clinique.
+
+---
+
+## À quoi ressemble le mode d'échec à grande échelle
+
+Les erreurs de diagnostic causent une estimation de **800 000 décès ou incapacités permanentes par an rien qu'aux États-Unis**, faisant de l'erreur de diagnostic la plus grande source unique de préjudice grave lié à l'erreur médicale — plus grande que les erreurs médicamenteuses et plus grande que les complications chirurgicales [@NewmanToker2023diagnosticError]. Rien que dans les services d'urgence, environ **7,4 millions de patients par an sont mal diagnostiqués** sur 130 millions de visites annuelles, soit près de 1 sur 18 [@AHRQ2022diagnosticErrors].
+
+Ces chiffres capturent les préjudices aigus et mesurables du mauvais diagnostic — une mauvaise identification conduisant à un traitement manqué conduisant à une détérioration mesurable. C'est une catégorie d'échec différente de celle au centre de cet article, qui concerne un diagnostic *correct* associé à un tableau mécanistique *incomplet* : le patient correctement étiqueté EM/SFC, correctement identifié comme ayant un sommeil non réparateur, mais dont le mécanisme spécifique de dysrégulation du sommeil n'est jamais caractérisé ni traité. Ce préjudice est invisible dans les statistiques, et il s'accumule au fil des ans. La littérature sur l'erreur de diagnostic documente l'extrémité aiguë ; l'extrémité chronique reste largement non mesurée.
+
+---
+
+## Pourquoi la formation à la reconnaissance de schémas échoue pour les patients complexes
+
+La formation médicale est construite autour de la **reconnaissance de schémas au niveau diagnostique** :
+
+> amas de symptômes → diagnostic → protocole
+
+La couche mécanistique — *pourquoi* les symptômes surviennent, *quel processus biologique* est perturbé, *comment* un traitement le corrige au niveau cellulaire — figure en bonne place dans la formation préclinique, où la physiologie et la physiopathologie sont centrales. Dans les années cliniques et en pratique, cependant, elle tend à reculer vers une théorie de soutien : un savoir de fond qui informe mais ne pilote pas la séquence de raisonnement.
+
+Ce modèle est efficace en contexte. Un médecin généraliste couvre des milliers de maladies, et la reconnaissance de schémas au niveau diagnostique est rapide et généralement adéquate pour les maladies courantes, bien caractérisées et à mécanisme unique où l'approche de correspondance de protocole produit de bons résultats. Le même modèle échoue de façon prévisible, cependant, dans trois situations spécifiques.
+
+**Situation 1 : La présentation ne correspond pas à un schéma connu.** La dysrégulation du patient existe et est réelle, mais elle produit une constellation de symptômes qui ne se mappe proprement sur aucune entrée diagnostique unique. Le système ne renvoie aucune correspondance, et le patient est étiqueté « inexpliqué », « fonctionnel » ou « psychosomatique ». Ce n'est pas un cas limite diagnostique ; c'est l'expérience standard des patients atteints de maladie chronique multisystémique.
+
+**Situation 2 : Les dysrégulations en interaction traversent les frontières de spécialité.** L'excitabilité thalamo-corticale documentée en médecine du sommeil est directement pertinente pour le neurologue, le spécialiste de la douleur et le clinicien des maladies post-infectieuses — mais ce sont des départements séparés avec des dossiers séparés et une communication transversale limitée. Les données générées dans une spécialité ne se propagent pas automatiquement : le résultat de l'étude du sommeil sédimente dans un dossier de médecine du sommeil, et le neurologue soit ne le voit jamais, soit le voit sans le cadre pour agir en dehors de son contexte de spécialité.
+
+**Situation 3 : Le traitement correct existe mais n'est pas indiqué par protocole pour le diagnostic apparié.** Ici le diagnostic est correct et la dysrégulation est documentée, mais le médicament disponible n'est pas dans le protocole pour cette catégorie diagnostique parce que le protocole a été écrit autour de la catégorie plutôt qu'autour du mécanisme. Malgré l'existence d'une voie pharmacologique, rien n'est prescrit.
+
+Ces trois modes d'échec sont structurels et prévisibles. Ce sont des produits d'un modèle de formation optimisé pour la correspondance diagnostique, et ils apparaissent comme des échecs individuels de médecin alors qu'en réalité ils sont systématiques.
+
+---
+
+## Le décalage d'abstraction
+
+Un médecin formé au niveau du mécanisme reconnaît la même dysrégulation à travers plusieurs catégories diagnostiques simultanément. L'hyperexcitabilité thalamo-corticale — le mécanisme derrière l'intrusion d'ondes alpha dans le sommeil profond — apparaît dans la fibromyalgie (documenté depuis [@Moldofsky1975alphaDeltaSleep]), l'EM/SFC (constatations d'ondes cérébrales de sommeil similaires, études multiples), la migraine chronique, le trouble de stress post-traumatique, et l'insomnie résistante au traitement : un mécanisme s'étendant sur cinq entrées diagnostiques, sans lien formel tracé entre elles dans les programmes de formation standard.
+
+La recherche publiée dans [@timofeev2015thalamic] a caractérisé les altérations du circuit thalamique impliquées : des changements dans la signalisation inhibitrice et deux courants électriques thalamiques transforment un circuit qui produit normalement des oscillations delta lentes en un circuit qui produit une activité alpha plus rapide. Les travaux ont été menés principalement sur des préparations animales, et la traduction clinique implique les incertitudes habituelles — mais ils ont identifié une cible pharmacologique concrète.
+
+Un médecin familier avec cette littérature peut examiner une étude du sommeil montrant une intrusion alpha et raisonner vers les médicaments disponibles qui réduisent l'excitabilité des canaux calciques dans le thalamus — la gabapentine, déjà en usage clinique, avec un profil de sécurité connu, et déjà prescrite par le même neurologue pour d'autres indications. Un médecin formé uniquement au niveau diagnostique n'a aucune entrée de cadre pour « intrusion alpha sans épilepsie », et ainsi la constatation anormale est notée dans le dossier sans déclencher aucun raisonnement thérapeutique.
+
+---
+
+## L'explication structurelle
+
+Ce schéma d'échec n'est pas une histoire d'incompétence médicale. Le taux d'erreur de diagnostic médian à travers les catégories de maladies est d'environ **13,6 %**, allant de 2,2 % pour l'infarctus du myocarde à plus de 60 % pour les présentations rares [@Zwaan2012diagnosticErrors]. Ce ne sont pas des médecins négligents ; ce sont des médecins dont le modèle de formation porte un angle mort systématique.
+
+Le système de classification des maladies — la médecine organisée autour de maladies nommées — est un artefact historique de plus de 260 ans, antérieur à toute compréhension de la biologie cellulaire, de la génétique ou des mécanismes moléculaires. L'observation clinique a précédé la compréhension mécanistique de plusieurs siècles, et les syndromes ont été nommés bien avant que quiconque ne sache pourquoi ils survenaient. L'infrastructure de la médecine moderne — codes de facturation, catégories d'approbation de médicaments, frontières de spécialité, comités de recommandations, examens de licence — a ensuite été construite sur cette structure, et elle s'est avérée difficile à réorganiser.
+
+Les comités de recommandations codifient ce qui était connu au moment où la recommandation a été écrite. Dans l'EM/SFC, de nombreuses recommandations cliniques actuelles reflètent une compréhension du début des années 2000, et dans certains pays l'intervention recommandée primaire reste la thérapie par exercice gradué — une approche qui a été progressivement retirée des recommandations au Royaume-Uni, aux États-Unis et ailleurs, en partie pour des raisons méthodologiques et en partie en réponse à des preuves accumulées qu'elle peut aggraver les symptômes post-effort chez une fraction substantielle des patients. Les preuves restent ici réellement contestées, mais un médecin suivant une ancienne recommandation locale peut pratiquer une médecine qui diverge significativement du consensus de recherche actuel.
+
+Une proposition de programme médical [@Frenk2014medicalEducation] a formulé l'alternative directement : le corps ne peut répondre à une agression que d'un nombre fini de façons, et un programme basé sur les mécanismes organiserait la formation clinique autour de ces réponses finies, avec des cas de patients illustrant des présentations spécifiques aux mécanismes plutôt que d'ajouter une entrée de plus spécifique à la maladie dans une taxonomie en expansion constante. Cette proposition existe dans la littérature, et elle n'est pas encore devenue une pratique standard.
+
+---
+
+## Ce qu'il reste au patient à faire
+
+Quand le système échoue à synthétiser les données disponibles, quelqu'un doit le faire — et dans la maladie chronique complexe, cette personne est souvent le patient. L'étude du sommeil documentant l'intrusion alpha est réalisée ; la consultation de neurologie est faite ; des années passent. Le patient lit ensuite la littérature de recherche, rencontre les travaux de Moldofsky et le modèle mécanistique de Timofeev, travaille la pharmacologie des canaux calciques thalamiques, et arrive à un rendez-vous portant un document qui relie ces constatations à ses propres données d'étude du sommeil et propose une intervention spécifique avec un raisonnement mécanistique.
+
+Ce n'est pas un scénario exceptionnel. Dans les communautés de l'EM/SFC et du COVID long — au moins parmi ceux qui sont assez valides et assez connectés pour participer aux réseaux de patients et aux discussions de recherche — les patients auto-éduqués avec une compréhension mécanistique de leur propre physiopathologie semblent être courants. L'incitation est simple : le système n'a pas fait la synthèse, donc le patient tente de la faire. Ce processus a ses propres risques : lecture sélective, biais de confirmation, modèles mécanistiques plausibles mais faux. Mais le fait que les patients l'entreprisent reflète une lacune que le système clinique n'a pas comblée, et l'échec structurel en amont est ce qui crée la condition.
+
+---
+
+## Ce qui doit changer
+
+Le modèle de formation est le point d'intervention, et les changements qu'il exige sont identifiables.
+
+**Enseigner les grappes de mécanismes comme contenu primaire.** Un module sur la dysrégulation thalamo-corticale couvre la fibromyalgie, l'EM/SFC, la migraine chronique, le trouble de stress post-traumatique et le sommeil non réparateur simultanément — un mécanisme avec des expressions multiples — afin que les étudiants apprennent à reconnaître la même dysrégulation à travers cinq catégories diagnostiques plutôt que de traiter cinq protocoles déconnectés comme des connaissances sans lien.
+
+**Enseigner le raisonnement thérapeutique à partir du mécanisme.** Le flux actuel de *diagnostic → protocole* devrait être complété par une formation sous la forme : *dysrégulation documentée → quels outils disponibles agissent sur ce mécanisme → qualité des preuves, faisabilité, risque d'interaction.* Cela produit des médecins capables de raisonner à partir de la physiopathologie documentée même quand aucun protocole n'existe pour la catégorie diagnostique appariée — tout en conservant la discipline de distinguer la plausibilité mécanistique de l'efficacité clinique démontrée.
+
+**Enseigner la synthèse inter-spécialités comme compétence clinique.** Les patients complexes génèrent des données à travers les départements, et la formation devrait inclure une pratique explicite de l'intégration des constatations de différentes spécialités — une étude du sommeil, un test autonome, un bilan immunologique — dans un tableau mécanistique unifié. Cette synthèse n'est actuellement pas enseignée comme compétence formelle, et c'est précisément ce dont les patients complexes ont besoin.
+
+**Enseigner la catégorie diagnostique comme point de départ, pas comme point final.** Un diagnostic confirmé ne signifie pas que la dysrégulation complète du patient est capturée par cette étiquette. L'EM/SFC n'est pas un mécanisme unique mais un schéma de dysrégulation multisystémique avec une hétérogénéité biologique documentée, et traiter l'étiquette de catégorie comme une caractérisation complète produit des soins systématiquement incomplets.
+
+---
+
+## Le coût de ne pas changer
+
+La littérature sur l'erreur de diagnostic documente 800 000 décès ou incapacités permanentes par an dues à des erreurs de diagnostic aiguës — mauvaises étiquettes, affections manquées, traitements incorrects. C'est une catégorie de préjudice. Une seconde, structurellement différente et largement non mesurée, concerne les patients avec des diagnostics corrects et une caractérisation mécanistique incomplète : des personnes dont les dysrégulations spécifiques ont été documentées, dont les mécanismes étaient connus, et dont les traitements existaient, mais qui n'y ont jamais été reliées. Ce ne sont pas le même problème, et ils peuvent ne pas avoir la même solution — mais les deux pointent vers une lacune de raisonnement clinique que la formation est, au moins en partie, positionnée pour combler.
+
+---
+
+*Fait partie d'une série continue sur la biologie de l'EM/SFC et ce qu'elle révèle sur les systèmes médicaux.*
+
+---

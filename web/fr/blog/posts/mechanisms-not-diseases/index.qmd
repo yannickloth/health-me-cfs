@@ -1,0 +1,101 @@
+---
+title: "La médecine a 10 000 maladies et environ 40 mécanismes. Elle forme au mauvais."
+description: "La médecine est organisée autour des maladies. Les médecins apprennent 10 000 affections nommées — leurs critères diagnostiques, leurs traitements standard, leurs présentations typiques. Quand un patient arrive, le système essaie de le faire correspondre à une catégorie connue. Si la correspon..."
+author: "Yannick Loth"
+date: "2026-04-16"
+categories: [Formation médicale, Médecine des systèmes]
+lang: fr
+---
+
+La médecine est organisée autour des maladies. Les médecins apprennent 10 000 affections nommées — leurs critères diagnostiques, leurs traitements standard, leurs présentations typiques. Quand un patient arrive, le système essaie de le faire correspondre à une catégorie connue. Si la correspondance est trouvée, le traitement suit le protocole. Si elle ne l'est pas, le patient passe à travers.
+
+Cela fonctionne bien pour les maladies courantes et bien caractérisées. Cela échoue systématiquement pour tout le reste.
+
+---
+
+## L'asymétrie dont personne ne parle
+
+Combien de mécanismes biologiques fondamentaux sous-tendent ces 10 000 maladies ?
+
+Environ 30 à 50, selon la façon dont vous les comptez :
+
+- L'inflammation et la dysrégulation immunitaire
+- La dysfonction mitochondriale et la défaillance énergétique
+- L'hyperexcitabilité thalamo-corticale
+- La dysrégulation autonome
+- La défaillance de perfusion vasculaire
+- La dégradation des barrières biologiques (intestinale, hémato-encéphalique)
+- La dysrégulation de l'axe HPA
+- La sénescence cellulaire
+- La dysbiose du microbiote
+- La consolidation épigénétique
+
+Les 10 000 maladies ne sont pas 10 000 phénomènes indépendants. Ce sont des combinaisons et des expressions différentes de ce petit ensemble de mécanismes, dans des tissus différents, à des sévérités différentes, avec des déclencheurs différents.
+
+Un médecin qui comprend profondément l'hyperexcitabilité thalamo-corticale peut la reconnaître dans la fibromyalgie, dans l'EM/SFC, dans certaines migraines, dans le trouble de stress post-traumatique, dans l'insomnie résistante au traitement — sans avoir besoin d'un protocole spécifique pour chaque. Un médecin formé uniquement par protocole a besoin d'une entrée séparée pour chaque affection, et ne produit rien quand la présentation ne correspond à aucune entrée connue.
+
+---
+
+## Ce que cela signifie en pratique
+
+Considérez un patient qui passe une polysomnographie. Elle montre une intrusion d'ondes alpha dans le sommeil profond (N3) — un schéma dans lequel une activité cérébrale de veille contamine le sommeil à ondes lentes, empêchant la fonction réparatrice. La quantité de N3 est normale. La qualité, non.
+
+Ce schéma est documenté dans la recherche sur la fibromyalgie depuis 1975 [@Moldofsky1975alphaDeltaSleep]. Le mécanisme est raisonnablement bien compris : une excitabilité thalamo-corticale anormale fait que la fréquence d'oscillation reste dans la gamme alpha (~10 Hz) au lieu de passer en delta (~1 Hz). Le résultat est un sommeil qui paraît adéquat par la durée mais échoue au niveau cellulaire — la clairance glymphatique ne se produit pas, les déchets métaboliques s'accumulent, le cerveau se réveille épuisé.
+
+La gabapentine agit directement sur ce mécanisme, via la modulation des canaux calciques dans le thalamus.
+
+Personne ne propose de gabapentine après la PSG. Non parce que les données sont absentes. Non parce que le mécanisme est inconnu. Mais parce que le neurologue consultant cherche une épilepsie ou une apnée — des catégories avec des protocoles clairs — et une intrusion alpha sans diagnostic correspondant n'est pas une catégorie. C'est une constatation sans dossier à vérifier.
+
+Des années plus tard, avec un diagnostic d'EM/SFC, les mêmes données de PSG racontent une histoire complètement différente. Les données n'ont pas changé. Le cadre interprétatif, oui.
+
+---
+
+## Le problème structurel
+
+L'organisation nosologique de la médecine — les catégories de maladies d'abord, les mécanismes ensuite — est un produit de l'histoire. L'observation clinique a précédé la compréhension mécanistique de plusieurs siècles. Les syndromes ont été nommés avant que quiconque ne sache pourquoi ils survenaient. L'infrastructure (codes de facturation, approbations de médicaments, programmes de formation, comités de recommandations) a été construite autour de cette structure et est désormais extrêmement résistante au changement.
+
+Le résultat est un système avec trois modes d'échec systématiques :
+
+**Mode d'échec 1 : Combinaisons inconnues.** Quand un patient a une présentation qui ne correspond à aucune maladie connue unique mais s'explique comme une combinaison de deux ou trois mécanismes connus, le système n'a aucune entrée pour elle. Le patient est soit mal diagnostiqué, étiqueté psychosomatique, soit renvoyé chez lui avec « rien trouvé ».
+
+**Mode d'échec 2 : Cécité inter-spécialités.** Les mécanismes ne respectent pas les frontières des spécialités. L'hyperexcitabilité thalamo-corticale apparaît en médecine du sommeil, en neurologie, en médecine de la douleur et en psychiatrie — mais celles-ci sont organisées comme des départements séparés avec une communication limitée. Une constatation faite en médecine du sommeil ne se propage pas automatiquement au neurologue, et inversement. Les données existent ; personne ne les synthétise.
+
+**Mode d'échec 3 : Décalage des recommandations.** Les recommandations codifient ce qui était connu au moment où elles ont été écrites. Les recommandations sur l'EM/SFC dans de nombreux pays reflètent encore la compréhension du début des années 2000. Un médecin suivant les recommandations actuelles pratique, dans certains domaines, une médecine vieille de 20 ans — non parce qu'il est mal informé, mais parce que le système dans lequel il évolue se met à jour lentement.
+
+---
+
+## Ce n'est pas une critique des médecins individuels
+
+Un médecin généraliste couvre environ 10 000 affections. Aucun humain ne peut maintenir une expertise mécanistique approfondie sur toutes. Le système demande l'impossible puis blâme les individus quand ils échouent à le fournir.
+
+Le problème est architectural. Le système a été conçu pour un monde où les maladies étaient surtout à mécanisme unique, surtout infectieuses, et surtout résolubles avec une intervention définie. Ce monde ne décrit plus l'essentiel de la charge de maladie dans les pays riches. Les maladies chroniques multisystémiques — EM/SFC, COVID long, fibromyalgie, dysautonomie — ne rentrent pas dans l'architecture. Ce ne sont pas des cas limites de niche ; elles affectent des dizaines de millions de personnes.
+
+---
+
+## À quoi ressemblerait une médecine mécanisme d'abord
+
+Un médecin formé autour des mécanismes plutôt que des maladies aborderait un patient complexe différemment :
+
+1. **Cartographier les mécanismes actifs** — non « quelle maladie ce patient a-t-il ? » mais « quels processus biologiques sont perturbés, et comment interagissent-ils ? »
+2. **Cibler ceux qui sont accessibles** — non « quel est le protocole pour ce diagnostic ? » mais « lequel de ces mécanismes peut être atteint avec les outils disponibles, et dans quel ordre ? »
+3. **Synthétiser entre les spécialités** — la PSG, les tests autonomes, le bilan immunologique, la métabolomique — comme entrées d'un tableau mécanistique unifié, non comme des sorties départementales séparées.
+
+C'est ce que font maintenant certains centres spécialisés dans l'EM/SFC. Ce n'est pas standard. Cela exige du temps qui n'est pas remboursé, une synthèse qui n'est pas enseignée, et un cadre qui n'est pas dans les recommandations.
+
+---
+
+## L'implication plus profonde
+
+L'EM/SFC est peut-être l'exemple contemporain le plus clair d'une maladie qui tombe entièrement en dehors de la compétence du système nosologique. Elle est multisystémique, pilotée par les mécanismes, sans biomarqueur unique, sans domicile de spécialité clair, et avec une base de recherche qui devance les recommandations cliniques d'une décennie.
+
+Les patients atteints d'EM/SFC finissent souvent par faire eux-mêmes la synthèse mécanistique — lire la littérature, relier la PSG aux données autonomes puis à l'immunologie, arriver aux rendez-vous médicaux avec une compréhension plus intégrée de leur propre physiopathologie que le médecin qu'ils consultent.
+
+Ce n'est pas comme cela que cela devrait fonctionner. Mais c'est ce qui se passe quand le cadre interprétatif traîne derrière les données.
+
+Les données sont là. Les mécanismes sont connus. Les outils existent souvent.
+
+Ce qui manque, c'est l'architecture qui les relie.
+
+---
+
+*Fait partie d'une série continue sur la biologie de l'EM/SFC et ce qu'elle révèle sur les systèmes médicaux.*

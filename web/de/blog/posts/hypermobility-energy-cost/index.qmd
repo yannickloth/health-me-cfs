@@ -1,0 +1,92 @@
+---
+title: "Hypermobilität ist nicht nur Flexibilität: Die Energiekosten instabiler Gelenke"
+description: "Sie sieht gesund aus. Sie ist jung, sie ist schlank, sie kann mit den Handflächen den Boden berühren, ohne die Knie zu beugen. Ärzte haben sie seit der Kindheit als \"flexibel\" bezeichnet, und Physiotherapeuten haben ihre Beweglichkeit bewundert. Niemand hat ihr gesagt, dass ihre Flexibilit..."
+author: "Yannick Loth"
+date: "2026-06-19"
+categories: [Hypermobilität, Energiestoffwechsel, Komorbiditäten]
+lang: de
+---
+
+Sie sieht gesund aus. Sie ist jung, sie ist schlank, sie kann mit den Handflächen den Boden berühren, ohne die Knie zu beugen. Ärzte haben sie seit der Kindheit als „flexibel“ bezeichnet, und Physiotherapeuten haben ihre Beweglichkeit bewundert. Niemand hat ihr gesagt, dass ihre Flexibilität ein strukturelles Defizit ist — dass ihre Bänder aus Kollagen bestehen, das Gelenke nicht so zusammenhält, wie es sollte — und dass dieses Defizit ihrem Körper dreimal so viel Energie kostet, um all das zu tun, was ein Mensch mit normalen Gelenken tut, ohne nachzudenken.
+
+Die Hypermobilitätsspektrumstörung (HSD) und das hypermobile Ehlers-Danlos-Syndrom (hEDS) sind Erkrankungen des Bindegewebes — genauer gesagt des Kollagens. Des Proteins, das das strukturelle Gerüst von Bändern, Sehnen, Haut, Blutgefäßen und der extrazellulären Matrix praktisch jedes Organs im Körper bildet. Wenn Kollagen abnorm elastisch ist, ist jede Struktur, die es baut, abnorm elastisch. Gelenke halten nicht ihre Position. Blutgefäße halten nicht ihren Tonus. Der Darm treibt den Inhalt nicht effizient voran. Die Konsequenzen kaskadieren durch jedes System, und die kumulativen Energiekosten sind eine Abgabe, die der Patient jede Minute jedes Tages zahlt.
+
+---
+
+## Die unsichtbare Abgabe auf jede Bewegung
+
+Bei einem Menschen mit normalen Gelenken bieten Bänder passive Stabilität. Wenn Sie stehen, halten Ihre Kniebänder das Gelenk ohne jede Muskelanstrengung in Position. Die Muskeln sind frei für andere Dinge — Bewegung erzeugen, auf Störungen reagieren, Lasten tragen. Die Bänder sind wie Abspannseile an einer Zeltstange: Sie bieten strukturelle Stabilität gratis [@HakimGrahame2003hypermobility].
+
+Bei einem hypermobilen Menschen sind die Bänder elastisch genug, um das Gelenk nicht vollständig zu stabilisieren. Die Muskeln müssen kompensieren. Jedes Gelenk, jeden Moment, leisten die Haltungsmuskeln die Arbeit, die Bänder passiv bewältigen sollten. Stillstehen ist nicht mühelos — es erfordert eine kontinuierliche aktive Muskelkontraktion, um zu verhindern, dass das Gelenk subluxiert, hyperextendiert oder in eine instabile Position driften.
+
+Das hat direkte metabolische Kosten. Die Kontraktion des Skelettmuskels erfordert ATP. Kontinuierliche Kontraktion niedriger Stärke — die Art, die zur Stabilisierung hypermobiler Gelenke während normaler Aktivitäten nötig ist — erfordert anhaltenden ATP-Verbrauch, der bei Personen mit normalen Gelenken nicht auftritt. Eine hypermobile Person, die auf einem Stuhl sitzt, verbrennt mehr Energie als eine Person mit normalen Gelenken, die auf demselben Stuhl sitzt, weil ihre Muskeln ihre Wirbelsäule, Hüften und Schultern aktiv gegen die Schwerkraft stabilisieren, auf eine Weise, die Bänder gratis bewältigen sollten.
+
+Auch das propriozeptive System — das Netzwerk von Sensoren in Gelenken, Sehnen und Muskeln, das dem Gehirn die Körperposition meldet — arbeitet auf Hochtouren. In einem stabilen Gelenk ist der propriozeptive Input einfach: Das Gelenk ist in Position, die Bänder bestätigen es, das Gehirn registriert es kaum. In einem hypermobilen Gelenk ist der propriozeptive Input verrauscht und unzuverlässig. Das Gelenk driftet. Das Gehirn empfängt ständig Korrektursignale. Die Berechnungslast, Positionsdaten von jedem instabilen Gelenk kontinuierlich zu verarbeiten, ist nicht trivial — und kognitive Verarbeitung verbraucht Glukose.
+
+Das Ergebnis: Eine Person mit Hypermobilität verbraucht deutlich mehr Energie für Haltung, Bewegung und Überwachung der Körperposition als eine Person mit normalen Gelenken, die identische Aktivitäten ausführt. Das ist nicht in Kalorienzähl-Apps oder Lehrbüchern der Belastungsphysiologie dokumentiert. Es ist unsichtbar für jeden, der „Aktivität“ an Schritten oder Minuten Bewegung misst. Aber die Mitochondrien wissen es.
+
+---
+
+## Die vaskuläre Kaskade
+
+Bindegewebe ist nicht nur in Gelenken. Es bildet die Wände der Blutgefäße. Bei Hypermobilität sind Blutgefäße abnorm dehnbar — sie dehnen sich unter Druck leichter. Das hat eine spezifische und verheerende Konsequenz für die Blutdruckregulation.
+
+Wenn eine Person mit hEDS aufsteht, sammelt sich Blut in den dehnbaren Venen des Unterkörpers. Normalerweise führen Venentonus und die Muskelpumpe Blut umgehend zum Herzen zurück. Bei hEDS dehnen sich die Venen übermäßig, die Blutansammlung ist größer und der venöse Rückfluss sinkt. Das Herz erhält weniger Blut. Der Herzzeitvolumen sinkt. Der Blutdruck sinkt. Das Gehirn, oben im Kreislaufsystem, wird zuletzt und am wenigsten perfundiert [@Roma2018POTShEDS; @DeWandele2014dysautonomiaEDS].
+
+Das ist der Mechanismus von POTS (posturales orthostatisches Tachykardie-Syndrom) bei hEDS-Patienten: Die Herzfrequenz schnellt hoch, um das reduzierte Schlagvolumen zu kompensieren, und erzeugt Tachykardie. Der Patient erlebt im Stehen Palpitationen, Benommenheit und kognitive Dysfunktion — nicht weil das Herz krank ist, sondern weil die Blutgefäße zu dehnbar sind, um eine ausreichende Vorlast aufrechtzuerhalten.
+
+Die Energiekosten der kompensatorischen Tachykardie sind real. Eine Ruheherzfrequenz von 100 Schlägen/min (häufig bei hEDS/POTS) gegenüber 65 Schlägen/min stellt eine 50%ige Steigerung der Herzarbeit dar — jede Minute, jede Stunde, jeden Tag. Das Herz ist ein Muskel. Mehr Herzarbeit bedeutet mehr kardialen ATP-Verbrauch. Bei einem Patienten, dessen Energiebudget bereits angespannt ist, ist eine 50%ige Steigerung der Herzbelastung keine nebensächliche Überlegung.
+
+---
+
+## Die Mastzellverbindung
+
+Die Überschneidung zwischen hEDS und Mastzellaktivierungssyndrom (MCAS) ist klinisch auffallend und nicht vollständig erklärt. Die Schätzungen variieren, aber die MCAS-Prävalenz in hEDS-Kohorten liegt weit über der Allgemeinbevölkerung [@Seneviratne2017].
+
+Eine Hypothese: Defektes Bindegewebe liefert abnorme mechanische Signalgebung an Mastzellen, die darin leben. Mastzellen sind mechanosensitiv — sie reagieren auf physikalische Kräfte in ihrer umgebenden Matrix. In einer abnormen extrazellulären Matrix sind die mechanischen Signale abnorm, was möglicherweise zu unangemessener Mastzellaktivierung führt.
+
+Wenn Mastzellen degranulieren, setzen sie Histamin, Prostaglandine, Tryptase und eine Kaskade entzündlicher Mediatoren frei — systemisch. Die daraus resultierenden Energiekosten sind beträchtlich: Immunaktivierung verbraucht im Höhepunkt 20–25 % des Grundumsatzes. Post-Degranulations-Ermüdung bei MCAS-Patienten ist tiefgreifend und kann 24–72 Stunden dauern, was PEM nachahmt.
+
+Für einen hEDS-Patienten, der auch MCAS hat, ist die Energiegleichung verheerend: Abgabe für strukturelle Instabilität + kompensatorische kardiovaskuläre Arbeit + wiederkehrende Immunaktivierungsepisoden = chronisches Energiedefizit, noch bevor irgendeine zusätzliche ME/CFS-Pathologie hinzukommt.
+
+---
+
+## Die vollständige Kaskade
+
+Beginnen Sie mit defektem Kollagen. Verfolgen Sie die Konsequenzen:
+
+1. **Gelenkinstabilität** → kontinuierliche Muskelkompensation → erhöhte ATP-Kosten aller Bewegung und Haltung
+2. **Vaskuläre Laxität** → Blutansammlung → POTS → kompensatorische Tachykardie → erhöhte kardiale Energiekosten
+3. **Autonome Dysregulation** → beeinträchtigter Vagustonus → reduzierte Darmmotilität → SIBO → Malabsorption → Nährstoffdiebstahl
+4. **Mastzelldysfunktion** → wiederkehrende Immunaktivierung → entzündliche Energiekosten + Post-Schub-Zusammenbrüche
+5. **Propriozeptive Überlastung** → erhöhte ZNS-Verarbeitungsanforderung → kognitive Ermüdung
+6. **Chronischer Schmerz** → durch Subluxationen, Luxationen, Neuropathie → Schmerzverarbeitung ist metabolisch teuer + Schlafstörung + psychologische Belastung
+7. **Schlafstörung** → durch Schmerz, POTS (Tachykardie im Liegen), Mastzellaktivierung → beeinträchtigte Erholung → Restermüdung
+
+Jeder Schritt in dieser Kaskade hat Energiekosten. Die Kosten sind additiv. Ein Patient, der alle sieben erlebt, zahlt eine Energieabgabe, die eine Person mit normalen Gelenken nicht zahlt, bevor er morgens überhaupt aus dem Bett kommt.
+
+---
+
+## hEDS und ME/CFS: kein Zufall, sondern Substrat
+
+Die Prävalenz von ME/CFS in hEDS-Populationen — und umgekehrt — ist zu hoch, um Zufall zu sein. Das Cluster (hEDS + POTS + MCAS + ME/CFS) erscheint in der klinischen Praxis mit einer Häufigkeit, die nach gemeinsamer Pathophysiologie schreit.
+
+Der Rahmen, den diese Serie entwickelt, legt nahe, warum: ME/CFS ist ein Zustand chronischen Energieschadens, der durch mehrere sich selbst verstärkende Mechanismen aufrechterhalten wird. Hypermobilität bietet das Substrat — einen Körper, der strukturell nie für normale Energieeffizienz ausgestattet war und mit einem dauerhaften Defizit läuft, das den Patienten näher an die Schwelle bringt, an der jeder zusätzliche Treffer (eine Infektion, eine Stressperiode, ein chirurgischer Eingriff) ihn in den ME/CFS-Attraktorzustand kippt.
+
+Nach diesem Modell entwickelt eine hypermobile Person ME/CFS nicht wegen Pech. Sie entwickelt es, weil ihre Ausgangsenergiemarge immer kleiner war. Der Puffer zwischen „Bewältigen“ und „Scheitern“ war enger. Die Klippe war näher.
+
+Das hat eine praktische Implikation: In der hEDS-Untergruppe von ME/CFS-Patienten muss die Behandlung den strukturellen Energieentzug neben den metabolischen und immunologischen Mechanismen angehen. Kompressionskleidung (reduziert venöse Blutansammlung), Gelenkschienen (reduzieren Muskelkompensation), POTS-Management (Fludrocortison, Midodrin, erhöhtes Natrium und Flüssigkeit) und MCAS-Behandlung (Antihistaminika, Mastzellstabilisatoren) sind keine peripheren Interventionen. Sie sind direkte Reduktionen der Energieabgabe, die die Bindegewebsdysfunktion auferlegt [@Loth2026mecfs].
+
+---
+
+## Das Abweisungsmuster
+
+Hypermobile Patienten werden mit bemerkenswerter Konsequenz abgewiesen. Ihre Gelenkschmerzen werden in der Kindheit als „Wachstumsschmerzen“ und im Erwachsenenalter als „Überbeanspruchung“ bezeichnet. Ihre Ermüdung wird der Dekonditionierung zugeschrieben. Ihr POTS wird der Angst zugeschrieben. Ihre MCAS-Symptome werden Nahrungsmittelunverträglichkeiten oder psychosomatischen Reaktionen zugeschrieben.
+
+Das Muster besteht fort, weil keine einzelne Beschwerde für sich genommen dramatisch genug ist, um eine Untersuchung auszulösen. Leichte Gelenklaxität. Leicht schnelle Herzfrequenz. Gelegentliches Erröten. Unspezifische Ermüdung. Jedes Stück ist einzeln subdiagnostisch. Die Diagnose erfordert das Erkennen des Musters — des Clusters aus leichter Bindegewebslaxität plus autonomer Dysfunktion plus Immunhyperreaktivität plus chronischer Ermüdung — und das Verständnis, dass das Cluster ein Krankheitsprozess ist, nicht vier unzusammenhängende Symptome bei einem Patienten, der sich viel beklagt.
+
+Die durchschnittliche Zeit bis zur hEDS-Diagnose im Vereinigten Königreich beträgt 10 Jahre. Die durchschnittliche Zeit bis zur ME/CFS-Diagnose beträgt 4–7 Jahre. Ein Patient mit beidem kann 15 Jahre damit verbringen, zu hören, dass jedes einzelne Symptom nicht schwerwiegend genug ist, um eine Untersuchung zu rechtfertigen, während die kumulativen Energiekosten eine fortschreitende Behinderung antreiben.
+
+Die Lösung ist Mustererkennung. Der Beighton-Score dauert zwei Minuten. Die Frage „Klicken, knacken oder subluxieren Ihre Gelenke?“ dauert zehn Sekunden. Die Beobachtung, dass ein Patient mit ungeklärter Ermüdung auch dehnbare Haut, hyperextensible Ellbogen und eine Ruheherzfrequenz von 100 hat, sollte eine Kaskade von Untersuchungen auslösen, die sein gesamtes Management verändert.
+
+---

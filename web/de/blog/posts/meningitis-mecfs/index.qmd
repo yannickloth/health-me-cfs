@@ -1,0 +1,64 @@
+---
+title: "Der UK-Meningitis-Ausbruch und ME/CFS: Warum Patienten mit Immun-Dysfunktion aufpassen sollten"
+description: "Zwei Menschen sind tot und zwanzig Fälle wurden bei einem Ausbruch von Meningokokken der Gruppe B in Canterbury, Kent, gemeldet. Der Ausbruch steht in Verbindung mit einem Nachtclub und der University of Kent, und die UKHSA setzt Antibiotika und gezielte Bexsero-Impfun..."
+author: "Yannick Loth"
+date: "2026-03-18"
+categories: [Immunologie, Öffentliche Gesundheit]
+lang: de
+---
+
+Zwei Menschen sind tot und zwanzig Fälle wurden bei einem Ausbruch von Meningokokken der Gruppe B in Canterbury, Kent, gemeldet. Der Ausbruch steht in Verbindung mit einem Nachtclub und der University of Kent, und die UKHSA setzt Antibiotika und gezielte Bexsero-Impfung ein, um ihn einzudämmen.
+
+Für die allgemeine Öffentlichkeit im kontinentalen Europa ist das noch kein Grund zur Sorge. Aber wenn Sie ME/CFS haben — oder sich um jemanden kümmern, der es hat —, verdient die Biologie dieser Situation einen genaueren Blick.
+
+## ME/CFS-Patienten haben dokumentierte Immun-Dysfunktion
+
+Die immunologischen Verwundbarkeiten hier sind in der Peer-Review-Literatur gut etabliert, nicht theoretisch. Beginnen Sie mit **NK-Zellen** — natürliche Killerzellen, Teil des Schnellreaktions-Arsenals des angeborenen Immunsystems. Bei ME/CFS ist die NK-Zell-Zytotoxizität durchweg reduziert, einer der am häufigsten replizierten Befunde des Fachgebiets, dokumentiert seit Caligiuri et al. 1987 [@Caligiuri1987nk] und seither in Dutzenden Studien bestätigt; diese Zellen tragen zur frühen Erregereindämmung durch Zytokin-vermittelte Aktivierung von Makrophagen und Neutrophilen bei. Dann gibt es **T-Zell-Erschöpfung**: Eine bahnbrechende Studie von 2024 aus dem Hanson-Labor in Cornell (Iu et al., PNAS) [@iu2024tcell_exhaustion] zeigte, dass CD8+-T-Zellen bei ME/CFS-Patienten eine epigenetische Umprogrammierung hin zur Erschöpfung aufweisen — erhöhte SLAMF6-, SLAMF7-, EOMES- und TOX-Marker —, was keine vorübergehende Aktivierungsermüdung ist, sondern ein programmierter Zustand, der die Fähigkeit des adaptiven Immunsystems, Infektionen zu bekämpfen, dauerhaft reduziert. Schließlich **Komplementverbrauch**: ME/CFS-Patienten zeigen eine anhaltende Komplementaktivierung — Sorensen et al. (2003) [@Sorensen2003complement] fanden erhöhte C4a-Spaltprodukte, die auf einen Verbrauch des klassischen Wegs hindeuten, und Glass et al. (2025) [@Glass2025ev] bestätigten eine breitere Komplementdysregulation nach Belastung. Terminaler Komplementmangel ist der stärkste einzelne individuelle Risikofaktor für wiederkehrende invasive Meningokokken-Erkrankung. Das ME/CFS-Komplementphänotyp ist kein genetischer Terminalmangel, aber ein anhaltender Verbrauch von Komplementkomponenten ist auch nicht normal, und jede Reduktion der Komplementverfügbarkeit zählt für ein Pathogen, für dessen Beseitigung Komplement entscheidend ist.
+
+## Das Blut-Hirn-Schranken-Problem
+
+Hier wird es spezifisch für Meningitis.
+
+Meningitis funktioniert, indem sie die Blut-Hirn-Schranke (BHS) überquert, um das Gehirn und seine umgebenden Membranen zu infizieren — die gesamte Krankheit hängt vom Durchbrechen dieser Struktur ab [@Pinas2022glymphatic]. ME/CFS-Patienten zeigen Hinweise, dass ihre BHS bereits unter Druck steht: erhöhte CSF/Serum-Albumin-Verhältnisse, die auf erhöhte Durchlässigkeit hindeuten, periphere Entzündungsmarker, die in der Zerebrospinalflüssigkeit erscheinen, und anhaltende Neuroinflammation mit Mikroglia-Aktivierung [@wallis2022atg13]. Meningeale Mastzellen, die kürzlich bei der Regulierung der CSF-Dynamik impliziert wurden, können diese Verwundbarkeit weiter verstärken [@Christodoulides2024meningitis].
+
+Das schafft, was ich eine „doppelte Verwundbarkeit“ nenne: ein Pathogen, das spezifisch eine Struktur angreift, die bereits durch die zugrunde liegende Krankheit geschwächt ist. Die Bakterien haben möglicherweise einen leichteren Eintrittsweg, und das Immunsystem ist möglicherweise langsamer, sie zu stoppen.
+
+## Meningitis kann ME/CFS auslösen oder verschlimmern
+
+Das Risiko ist nicht nur die akute Infektion. Zwei neuere Studien fanden, dass 31–34 % der Meningitis-Überlebenden bei der Nachbeobachtung anhaltende Ermüdung berichten, unabhängig davon, wie schwer die akute Erkrankung war (Schwitter 2024 [@Schwitter2024meningitis], Ungureanu 2021 [@Ungureanu2021meningitis]); eine frühere Studie (Hotopf et al., 1996 [@Hotopf1996meningitis]) dokumentierte in ähnlicher Weise chronische Ermüdung nach viraler Meningitis. Auffälliger noch: Ungureanu et al. [@Ungureanu2021meningitis] fanden, dass 53 % der Post-Meningitis-Patienten „schnelle Erschöpfung nach kognitiver Anstrengung“ berichteten — ein Symptom, das sich erheblich mit der kognitiven Komponente der postexertionellen Malaise, dem Kennzeichen von ME/CFS, überschneidet.
+
+Für jemanden, der bereits ME/CFS hat, stellt eine schwere Infektion wie Meningitis ein erhebliches Risiko eines dauerhaften funktionellen Rückgangs dar. Das Modell des „Infektions-Ratschenmodells“ — konsistent mit Q-Fever-Fatigue-Daten, die zeigen, dass 98,9 % der Patienten nach 10 Jahren immer noch PEM erleben (Spronk et al., 2023 [@Spronk2023qfever]), und mit dem breiteren Muster, dass postinfektiöse Fatigue-Syndrome, sobald sie etabliert sind, dauerhaft sind — legt nahe, dass jede signifikante Infektion eine stufenweise, potenziell irreversible Senkung der Basisfunktion riskiert.
+
+## Die gute Nachricht: Impfung ist für ME/CFS-Patienten sicher und wirksam
+
+Bevölkerungsdaten aus Norwegen (Magnus et al., 2015 [@Magnus2015influenza]) zeigten, dass eine tatsächliche Influenza-Infektion das Risiko, ME/CFS zu entwickeln, verdoppelte (Hazard Ratio: 2,04), während der adjuvante Pandemieimpfstoff null erhöhtes Risiko zeigte (Hazard Ratio: 0,97). Eine separate norwegische Studie (Magnus et al., 2009 [@Magnus2009meningococcal]) fand keinen Zusammenhang zwischen einem früheren Meningokokken-B-OMV-Impfstoff (MenBvac, nicht Bexsero) und ME (adjustierte OR: 1,06). Die einzige Studie, die die Impfstoffimmunogenität direkt bei ME-Patienten maß (Prinsen et al., 2012 [@Prinsen2012vaccine]), fand, dass Patienten identische Antikörperantworten wie gesunde Kontrollen aufbauten.
+
+Anders ausgedrückt: Impfung schützt vor dem, was Krankheitsverschlimmerung auslöst, ohne selbst irgendein Risiko hinzuzufügen. Für ME/CFS-Patienten ist diese Asymmetrie der Kern der Sache.
+
+## Eine Komplikation: Was COVID mit Ihrem immunologischen Gedächtnis angestellt haben könnte
+
+Es gab viel Diskussion darüber, ob COVID-19 das Immunsystem „zurücksetzt“ — ob eine SARS-CoV-2-Infektion Immunität auslöschen kann, die Sie durch frühere Impfungen oder Infektionen aufgebaut haben, so wie es Masern berühmt tun. Das Bild, das aus der Forschung auftaucht, ist nuancierter, als die Schlagzeilen nahelegen, und es zählt hier.
+
+Zuerst der beruhigende Teil: COVID scheint keine masernartige Immun-Amnese zu verursachen. Studien, die präexistente Antikörper gegen Diphtherie, Tetanus und Keuchhusten verfolgten, fanden, dass die Titer nach der COVID-19-Infektion stabil blieben. Ihre Kindheitsimpfstoffe funktionieren mit anderen Worten wahrscheinlich noch.
+
+Aber COVID verursacht durch andere Mechanismen messbaren Immunschaden. Persistente Lymphopenie — chronisch niedrige Lymphozytenzahlen — betrifft 7–12 % der Menschen mit mittelschwerem bis schwerem COVID (Phetsouphanh et al., 2022 [@Phetsouphanh2022immuneDysfunction]). T-Zell-Erschöpfungsmarker (PD-1, TIM-3, CTLA-4) bleiben lange nach der Auflösung der akuten Infektion erhöht, und eine Studie mit 190 Teilnehmern fand, dass Long-COVID- und ME/CFS-Patienten vergleichbare Immunprofile hatten: niedrigere Lymphozyten, niedrigere CD8+-T-Zellen, niedrigere NK-Zellen und höhere entzündliche Zytokine (Rohrhofer et al., 2024 [@Rohrhofer2024stratification]). Persistente Komplementdysregulation — anhaltender Verbrauch von Komplementkomponenten — wurde bei Long-COVID-Patienten durch einen Artikel in *Science* von 2024 bestätigt (Klein et al. [@Klein2024longcovid]).
+
+Was bedeutet das für den künftigen Impfschutz? Niemand hat das direkt bei ME/CFS-Patienten untersucht, und das ist eine erhebliche Lücke. Aber hier ist die Sorge: Wenn Sie bereits ME/CFS-Immun-Dysfunktion hatten — reduzierte NK-Zellen, erschöpfte T-Zellen, Komplementverbrauch — und dann COVID zusätzlichen Immunschaden obendrauf legte, reagieren Sie möglicherweise nicht so gut auf neue Impfungen, wie die Prinsen-2012-Studie (die COVID um ein Jahrzehnt vorausgeht) vorhersagen würde. Ob ME/CFS-Patienten, die COVID durchgemacht haben, zusätzliche Auffrischungsdosen brauchen oder nach der Impfung ihre Antikörpertiter überwachen lassen sollten, sind Fragen, die noch keine Antworten haben, aber wahrscheinlich welche haben sollten.
+
+## Was deckt Bexsero tatsächlich ab?
+
+Bexsero (4CMenB) ist der in Kent eingesetzte Impfstoff. Er zielt auf vier Antigene auf der Oberfläche von Meningokokken B: fHbp, NHBA, NadA und PorA. Reale UK-Daten zeigen eine Wirksamkeit von 83 % gegen jeden MenB-Stamm und 94 % gegen als impfstoffverhinderbar vorhergesagte Stämme (Ladhani et al. 2020 [@Ladhani2020menB4CMenB], GSK-Daten); seit Beginn des NHS-Säuglingsprogramms 2015 sind die MenB-Fälle bei impfstoffberechtigten Kindern um 75 % gesunken.
+
+Jedoch — und das zählt — deckt Bexsero nicht alle MenB-Stämme gleichermaßen ab. Die Abdeckung variiert nach klonalem Komplex: ausgezeichnet für cc41/44 (~94 %) und cc32 (~96 %), aber sinkend für cc269 (auf 53 %). Der spezifische klonale Komplex des Kent-Ausbruchsstamms wurde noch nicht öffentlich identifiziert, und Prof. Andrew Pollard (Oxford) hat angemerkt, dass „die erste Frage zur Impfung ist, ob dieser B-Stamm vom Impfstoff abgedeckt wird, da dies nicht immer der Fall ist.“ Ein zweiter MenB-Impfstoff, Trumenba (Pfizer), hat eine höhere vorhergesagte MenB-spezifische Abdeckung (90 % gegenüber 67 %) durch das Anzielen zweier fHbp-Subfamilien; er ist zugelassen, aber nicht in den Routineprogrammen des Vereinigten Königreichs oder Belgiens.
+
+## Was ME/CFS-Patienten in Erwägung ziehen sollten
+
+Nichts von dem Folgenden ist medizinischer Rat — es sind evidenzbasierte Überlegungen, die Sie mit Ihrem Arzt besprechen sollten, und sie sind es wert, angesprochen zu werden.
+
+Wenn Sie im Vereinigten Königreich vor 2015 geboren wurden oder irgendwo in Europa ein Erwachsener sind, sind Sie fast sicher nicht gegen MenB geimpft; MenACWY kann je nach Impfplan Ihres Landes in Ihrer Vorgeschichte sein. In Belgien ist Bexsero auf Rezept erhältlich (~80–90 € pro Dosis, zwei Dosen nötig), und ME/CFS-Patienten mit dokumentiertem Komplementverbrauch oder anderer Immun-Dysfunktion könnten mit ihrem Arzt besprechen, ob sie die Kriterien für Risikogruppen nach den Leitlinien des belgischen Hohen Gesundheitsrats erfüllen (die Komplementmangel und Asplenie abdecken). Der Zeitpunkt zählt, wenn Sie das verfolgen: Lassen Sie sich nicht während eines Crashs oder Schubs impfen, und planen Sie 3–5 Tage Ruhe nach jeder Dosis ein, da Bexsero tendenziell reaktogener ist als MenACWY-Impfstoffe.
+
+Über die Impfung hinaus ist grundlegende Infektionsprävention — Handhygiene, keine geteilten Getränke oder Utensilien, Vermeiden von anhaltendem engem Kontakt in überfüllten geschlossenen Räumen — für ME/CFS-Patienten echtes krankheitsmodifizierendes Verhalten, keine Übervorsicht. Jede Infektion, die Sie verhindern, ist ein stufenweiser Rückgang, den Sie vermeiden. Und wenn Sie in die Gegend von Canterbury/Kent reisen, ist ein Gespräch mit Ihrem Hausarzt über die Impfung vor der Reise es wert; der Ausbruch ist derzeit geografisch eingedämmt, aber Umgebungen mit engem Kontakt wie Nachtclubs und Schlafsäle sind Hochrisikoumgebungen.
+
+## Das breitere Bild
+
+Was ME/CFS so schwer zu leben macht, ist genau dies: Die der Krankheit zugrunde liegende Immun-Dysfunktion macht auch jede nachfolgende Infektion gefährlicher und wahrscheinlicher, eine dauerhafte Verschlimmerung zu erzeugen. Jeder Ausbruch — COVID, Influenza, Meningitis — trägt ein unverhältnismäßiges Risiko für diese Population, und die Forschung ist unzweideutig, dass Infektion Krankheitsbeginn und -fortschritt auslöst, während Impfung dies nicht tut. Für ME/CFS-Patienten sollte diese Asymmetrie jede Entscheidung über Infektionsrisiko beeinflussen.

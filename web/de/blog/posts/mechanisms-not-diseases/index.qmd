@@ -1,0 +1,101 @@
+---
+title: "Die Medizin hat 10.000 Krankheiten und etwa 40 Mechanismen. Sie trainiert für den falschen."
+description: "Die Medizin ist um Krankheiten herum organisiert. Ärzte lernen 10.000 benannte Erkrankungen — ihre diagnostischen Kriterien, ihre Standardbehandlungen, ihre typischen Präsentationen. Wenn ein Patient kommt, versucht das System, ihn einer bekannten Kategorie zuzuordnen. Wenn die Zuordnung gefunden..."
+author: "Yannick Loth"
+date: "2026-04-16"
+categories: [Medizinische Ausbildung, Systemmedizin]
+lang: de
+---
+
+Die Medizin ist um Krankheiten herum organisiert. Ärzte lernen 10.000 benannte Erkrankungen — ihre diagnostischen Kriterien, ihre Standardbehandlungen, ihre typischen Präsentationen. Wenn ein Patient kommt, versucht das System, ihn einer bekannten Kategorie zuzuordnen. Wenn die Zuordnung gefunden wird, folgt die Behandlung dem Protokoll. Wenn nicht, fällt der Patient durch.
+
+Das funktioniert gut für häufige, gut charakterisierte Krankheiten. Es scheitert systematisch bei allem anderen.
+
+---
+
+## Die Asymmetrie, über die niemand spricht
+
+Wie viele fundamentale biologische Mechanismen liegen diesen 10.000 Krankheiten zugrunde?
+
+Etwa 30 bis 50, je nachdem, wie man sie zählt:
+
+- Entzündung und Immun-Dysregulation
+- Mitochondriale Dysfunktion und Energieversagen
+- Thalamokortikale Übererregbarkeit
+- Autonome Dysregulation
+- Vaskuläres Perfusionsversagen
+- Zusammenbruch biologischer Barrieren (Darm, Blut-Hirn-Schranke)
+- HPA-Achsen-Dysregulation
+- Zelluläre Seneszenz
+- Mikrobiom-Dysbiose
+- Epigenetische Konsolidierung
+
+Die 10.000 Krankheiten sind keine 10.000 unabhängigen Phänomene. Sie sind verschiedene Kombinationen und Ausdrücke dieser kleinen Gruppe von Mechanismen, in verschiedenen Geweben, mit verschiedenen Schweregraden, mit verschiedenen Auslösern.
+
+Ein Arzt, der die thalamokortikale Übererregbarkeit tief versteht, kann sie in Fibromyalgie, in ME/CFS, in bestimmten Migräneformen, in PTSD, in behandlungsresistenter Schlaflosigkeit erkennen — ohne ein spezifisches Protokoll für jedes zu brauchen. Ein Arzt, der nur durch Protokoll ausgebildet wurde, braucht einen separaten Eintrag für jede Erkrankung und produziert nichts, wenn die Präsentation keinem bekannten Eintrag entspricht.
+
+---
+
+## Was das in der Praxis bedeutet
+
+Betrachten Sie einen Patienten mit einer Polysomnographie. Sie zeigt Alpha-Wellen-Intrusion im Tiefschlaf (N3) — ein Muster, bei dem wache Gehirnaktivität den Tiefschlaf kontaminiert und die erholsame Funktion verhindert. Die Menge an N3 ist normal. Die Qualität nicht.
+
+Dieses Muster ist in der Fibromyalgieforschung seit 1975 dokumentiert [@Moldofsky1975alphaDeltaSleep]. Der Mechanismus ist recht gut verstanden: Abnorme thalamokortikale Erregbarkeit lässt die Oszillationsfrequenz im Alpha-Bereich (~10 Hz) bleiben, statt in den Delta-Bereich (~1 Hz) überzugehen. Das Ergebnis ist Schlaf, der nach Dauer angemessen aussieht, aber auf zellulärer Ebene versagt — glymphatische Reinigung findet nicht statt, metabolische Abfälle sammeln sich an, das Gehirn wacht erschöpft auf.
+
+Gabapentin wirkt direkt auf diesen Mechanismus, über Kalziumkanal-Modulation im Thalamus.
+
+Niemand schlägt nach dem PSG Gabapentin vor. Nicht weil die Daten fehlen. Nicht weil der Mechanismus unbekannt ist. Sondern weil der konsultierende Neurologe nach Epilepsie oder Apnoe sucht — Kategorien mit klaren Protokollen — und Alpha-Intrusion ohne passende Diagnose keine Kategorie ist. Es ist ein Befund ohne Fall, den es zu prüfen gilt.
+
+Jahre später, mit einer ME/CFS-Diagnose, erzählen dieselben PSG-Daten eine völlig andere Geschichte. Die Daten haben sich nicht geändert. Der Interpretationsrahmen schon.
+
+---
+
+## Das strukturelle Problem
+
+Die nosologische Organisation der Medizin — Krankheitskategorien zuerst, Mechanismen zweitens — ist ein Produkt der Geschichte. Die klinische Beobachtung ging dem mechanistischen Verständnis um Jahrhunderte voraus. Syndrome wurden benannt, lange bevor jemand wusste, warum sie auftraten. Die Infrastruktur (Abrechnungscodes, Arzneimittelzulassungen, Ausbildungscurricula, Leitlinienkomitees) wurde um diese Struktur herum aufgebaut und ist heute äußerst resistent gegen Veränderung.
+
+Das Ergebnis ist ein System mit drei systematischen Versagensmodi:
+
+**Versagensmodus 1: Unbekannte Kombinationen.** Wenn ein Patient eine Präsentation hat, die keiner einzelnen bekannten Krankheit entspricht, aber als Kombination von zwei oder drei bekannten Mechanismen erklärbar ist, hat das System keinen Eintrag dafür. Der Patient wird entweder falsch diagnostiziert, als psychosomatisch etikettiert oder mit „nichts gefunden“ nach Hause geschickt.
+
+**Versagensmodus 2: Spezialübergreifende Blindheit.** Mechanismen respektieren keine Spezialitätsgrenzen. Thalamokortikale Übererregbarkeit erscheint in der Schlafmedizin, Neurologie, Schmerzmedizin und Psychiatrie — aber diese sind als getrennte Abteilungen mit begrenztem Austausch organisiert. Ein in der Schlafmedizin erhobener Befund propagiert nicht automatisch zum Neurologen und umgekehrt. Die Daten existieren; niemand synthetisiert sie.
+
+**Versagensmodus 3: Leitlinien-Lag.** Leitlinien kodieren, was zum Zeitpunkt ihrer Erstellung bekannt war. ME/CFS-Leitlinien in vielen Ländern spiegeln noch das Verständnis der frühen 2000er Jahre wider. Ein Arzt, der aktuellen Leitlinien folgt, praktiziert in manchen Bereichen 20 Jahre alte Medizin — nicht weil er schlecht informiert ist, sondern weil sich das System, in dem er arbeitet, langsam aktualisiert.
+
+---
+
+## Das ist keine Kritik an einzelnen Ärzten
+
+Ein Hausarzt deckt ungefähr 10.000 Erkrankungen ab. Kein Mensch kann über alle hinweg tiefe mechanistische Expertise aufrechterhalten. Das System verlangt das Unmögliche und gibt dann Einzelpersonen die Schuld, wenn sie es nicht liefern.
+
+Das Problem ist architektonisch. Das System wurde für eine Welt entworfen, in der Krankheiten meist einzelmechanisch, meist infektiös und meist mit einer definierten Intervention auflösbar waren. Diese Welt beschreibt den Großteil der Krankheitslast in wohlhabenden Ländern nicht mehr. Multisystemische chronische Krankheiten — ME/CFS, Long COVID, Fibromyalgie, Dysautonomie — passen nicht in die Architektur. Sie sind keine Nischen-Eckfälle; sie betreffen zig Millionen Menschen.
+
+---
+
+## Wie mechanismus-erste Medizin aussehen würde
+
+Ein Arzt, der um Mechanismen statt um Krankheiten herum ausgebildet wurde, würde einen komplexen Patienten anders angehen:
+
+1. **Die aktiven Mechanismen kartieren** — nicht „welche Krankheit hat dieser Patient?“ sondern „welche biologischen Prozesse sind dysreguliert, und wie interagieren sie?“
+2. **Die zugänglichen anzielen** — nicht „was ist das Protokoll für diese Diagnose?“ sondern „welcher dieser Mechanismen kann mit verfügbaren Werkzeugen erreicht werden, und in welcher Reihenfolge?“
+3. **Spezialübergreifend synthetisieren** — das PSG, die autonome Testung, das Immunologie-Panel, die Metabolomik — als Eingaben eines vereinheitlichten mechanistischen Bildes, nicht als getrennte Abteilungsausgaben.
+
+Das ist es, was einige spezialisierte ME/CFS-Zentren heute tun. Es ist nicht Standard. Es erfordert Zeit, die nicht erstattet wird, Synthese, die nicht gelehrt wird, und einen Rahmen, der nicht in den Leitlinien steht.
+
+---
+
+## Die tiefere Implikation
+
+ME/CFS ist vielleicht das klarste zeitgenössische Beispiel einer Krankheit, die völlig außerhalb der Zuständigkeit des nosologischen Systems liegt. Sie ist multisystemisch, mechanismusgetrieben, ohne einzelnen Biomarker, ohne klares Spezialitätszuhause und mit einer Forschungsbasis, die den klinischen Leitlinien um ein Jahrzehnt voraus ist.
+
+ME/CFS-Patienten landen oft selbst bei der mechanistischen Synthese — Lesen der Literatur, Verbinden des PSG mit den autonomen Daten und dann der Immunologie, Ankommen bei Arztterminen mit einem integrierteren Verständnis ihrer eigenen Pathophysiologie als dem des konsultierten Arztes.
+
+So sollte es nicht funktionieren. Aber es passiert, wenn der Interpretationsrahmen hinter den Daten zurückbleibt.
+
+Die Daten sind da. Die Mechanismen sind bekannt. Die Werkzeuge existieren oft.
+
+Was fehlt, ist die Architektur, die sie verbindet.
+
+---
+
+*Teil einer fortlaufenden Serie über die Biologie von ME/CFS und was sie über medizinische Systeme offenbart.*
