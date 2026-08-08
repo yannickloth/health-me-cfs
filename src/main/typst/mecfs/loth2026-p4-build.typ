@@ -112,7 +112,7 @@
 #pagebreak()
 #include "shared/patient-faq.typ"
 #pagebreak()
-#include "shared/changelog.typ"
+
 
 // Table of contents / figures / tables
 #pagebreak()
