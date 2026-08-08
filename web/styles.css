@@ -247,6 +247,41 @@
     background: #eff6ff !important;
   }
 
+  /* Observation: neutral — descriptive, no strong claim */
+  .env-observation {
+    border-color: #6366f1 !important;
+    background: #f8faff !important;
+  }
+  .env-observation .callout-title { color: #3730a3; }
+
+  /* Warning: amber-red — caution/alert */
+  .env-warning {
+    border-color: #ef4444 !important;
+    background: #fef2f2 !important;
+  }
+  .env-warning .callout-title { color: #991b1b; }
+
+  /* Proposal: slate — formal suggestion */
+  .env-proposal {
+    border-color: #3b82f6 !important;
+    background: #eff6ff !important;
+  }
+  .env-proposal .callout-title { color: #1e40af; }
+
+  /* Key point: amber — takeaway emphasis */
+  .env-key-point {
+    border-color: #f59e0b !important;
+    background: #fffbeb !important;
+  }
+  .env-key-point .callout-title { color: #92400e; }
+
+  /* Model insight: violet — modeling-derived inference */
+  .env-model-insight {
+    border-color: #8b5cf6 !important;
+    background: #f5f3ff !important;
+  }
+  .env-model-insight .callout-title { color: #5b21b6; }
+
   :where(.epigraph, blockquote) {
     border-inline-start: 3px solid var(--epigraph-border);
     padding-block: 0.6em;

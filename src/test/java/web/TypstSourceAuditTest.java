@@ -70,9 +70,9 @@ void main() throws IOException {
     }
 }
 
-String labelRegex = "<([a-z]+:[a-zA-Z0-9_.-]+)>";
-String labelFnRegex = "#label\\(\"([a-z]+:[a-zA-Z0-9_.-]+)\"\\)";
-String crossRefPrefixes = "(?:sec|ch|subsec|subsubsec|fig|tab|eq|hyp|spec|oq|ach|pred|prop|lim|warn|rec|dir|obs|app|def|req|protocol|rem|cont|cf|open):";
+String labelRegex = "<([a-z]+[:-][a-zA-Z0-9_.-]+)>";
+String labelFnRegex = "#label\\(\"([a-z]+[:-][a-zA-Z0-9_.-]+)\"\\)";
+String crossRefPrefixes = "(?:sec|ch|subsec|subsubsec|fig|tab|eq|hyp|spec|oq|ach|pred|prop|lim|warn|rec|dir|obs|app|def|req|protocol|rem|cont|cf|open|fhyp):";
 
 List<Path> collectTypFiles(Path root) throws IOException {
     var files = new ArrayList<Path>();
@@ -141,6 +141,7 @@ List<LabelDup> checkDuplicateLabels(List<Path> allTypFiles) {
     var result = new ArrayList<LabelDup>();
     var p = Pattern.compile(labelRegex);
     var pFn = Pattern.compile(labelFnRegex);
+    var linkMatcher = Pattern.compile("#link\\s*\\(\\s*<[^>]+>");
     for (var f : allTypFiles) {
         try {
             var fname = srcRoot.relativize(f).toString();
@@ -150,6 +151,10 @@ List<LabelDup> checkDuplicateLabels(List<Path> allTypFiles) {
             for (var line : lines) {
                 var stripped = line.strip();
                 if (stripped.startsWith("//")) continue;
+                var linkM = linkMatcher.matcher(stripped);
+                while (linkM.find()) {
+                    stripped = stripped.replace(linkM.group(), "");
+                }
                 var m = p.matcher(stripped);
                 while (m.find()) counts.merge(m.group(1), 1, Integer::sum);
                 var mFn = pFn.matcher(stripped);

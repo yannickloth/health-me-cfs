@@ -15,5 +15,5 @@ A cross-document registry tracks every hypothesis, speculation, prediction, and 
 Automated audits verify that medical terminology is used consistently across all chapters. Variant forms of key terms (e.g., “NK cells” versus “natural killer cells,” “OI” versus “orthostatic intolerance”) are detected and normalized.
 
 *Revision tracking.*
-Changes are tracked through the document's Git history, which provides full traceability of every modification at the line level.
+Changes are tracked through the document's version-controlled changelog (Appendix), which records what changed in each version and why. Git history provides full traceability of every modification at the line level.
 
