@@ -1,0 +1,52 @@
+---
+title: "L'EM/SFC après les épidémies : un schéma de quatre-vingt-dix ans de 1934 au COVID"
+description: "Si la vague post-COVID d'encéphalomyélite myalgique/syndrome de fatigue chronique (EM/SFC) semble être quelque chose de nouveau, c'est seulement parce que les vagues précédentes étaient assez petites pour être oubliées. Les épidémies virales déclenchent l'EM/SFC depuis au moins 1934 — et la maladie laissée derrière chaque fois était la même que celle dont des millions sont diagnostiqués aujourd'hui."
+author: "Yannick Loth"
+date: "2026-03-16"
+categories: [Épidémiologie, Histoire]
+lang: fr
+---
+
+Si la vague post-COVID d'encéphalomyélite myalgique/syndrome de fatigue chronique (EM/SFC) semble être quelque chose de nouveau, c'est seulement parce que les vagues précédentes étaient assez petites pour être oubliées. Les épidémies virales déclenchent l'EM/SFC depuis au moins 1934 — et la maladie laissée derrière chaque fois était la même que celle dont des millions sont diagnostiqués aujourd'hui.
+
+## Quatre épidémies avant le COVID
+
+Tout a commencé à l'hôpital général du comté de Los Angeles. Entre mai 1934 et décembre 1935, 198 employés de l'hôpital — 4,5 % du personnel, dont plus de 10 % des infirmiers et 5 % des médecins — ont développé une maladie post-infectieuse initialement diagnostiquée comme « poliomyélite atypique ». Ils n'ont jamais récupéré normalement [@Gilliam1938].
+
+Quatorze ans plus tard, une épidémie à Akureyri, en Islande, a touché 1 090 personnes en trois mois — assez pour lui valoir le nom de « maladie islandaise ». Les symptômes étaient les mêmes : une fatigue écrasante qui ne se résolvait pas, un dysfonctionnement neurologique, une incapacité prolongée longtemps après la clairance de l'infection aiguë [@Sigurdsson1950].
+
+Puis en 1955, le Royal Free Hospital de Londres a vu 292 membres du personnel tomber malades sur cinq mois, dont 255 ont nécessité une hospitalisation. Cette épidémie a donné son nom à la maladie : le Dr Melvin Ramsay, chef des maladies infectieuses, a forgé « encéphalomyélite myalgique bénigne ». Le mot « bénigne » a ensuite été abandonné une fois la nature chronique et invalidante de la maladie devenue indéniable [@RoyalFree1957; @Ramsay1986].
+
+Trois décennies plus tard, une épidémie à Incline Village près du lac Tahoe a touché 259 patients. Les CDC ont enquêté, trouvé des anticorps élevés contre le virus d'Epstein-Barr et — dans l'une des décisions de marque les plus lourdes de conséquences de l'histoire médicale — rebaptisé la maladie « syndrome de fatigue chronique » en 1988. Un nom qui l'a trivialisée pendant les trente années suivantes [@Buchwald1992; @Holmes1988].
+
+Quatre épidémies sur cinquante ans, chacune suivant une épidémie virale, chacune produisant la même maladie chronique post-infectieuse. Le déclencheur changeait à chaque fois ; la maladie ne changeait pas.
+
+## La vague du COVID-19
+
+Le SARS-CoV-2 a créé des millions de nouveaux patients avec une vieille maladie.
+
+L'étude RECOVER-Adult [@RECOVER2025] a constaté que 4,5 % des personnes infectées par le SARS-CoV-2 ont développé une EM/SFC répondant aux critères diagnostiques formels, contre 0,6 % chez les témoins non infectés — une augmentation du risque de près de cinq fois (rapport de risque : 4,93). Parmi les patients classés comme « COVID long », 51 % répondent aux critères diagnostiques complets de l'EM/SFC.
+
+Ce que cela signifie en pratique : les États-Unis à eux seuls sont passés d'environ 1,5 million de patients atteints d'EM/SFC avant la pandémie à quelque part entre 5 et 9 millions, et le fardeau économique annuel est passé de 36 à 51 milliards de dollars à 149 à 362 milliards [@Jason2022prevalence].
+
+Le schéma s'applique aussi hors des États-Unis. En Allemagne, la population de patients est passée d'environ 250 000 à plus de 650 000 à la fin 2024. Les estimations mondiales pré-pandémiques plaçaient la population atteinte d'EM/SFC entre 15 et 30 millions ; la vague post-COVID a presque certainement poussé ce nombre bien plus haut, bien que les chiffres précis soient encore en cours de compilation.
+
+## Des décennies d'écart
+
+Chaque vague précédente était assez petite pour être écartée. Quelques centaines de patients dans un hôpital. Un millier dans une ville islandaise. Quelques centaines près d'un lac au Nevada. À chaque fois, l'establishment médical a enquêté brièvement, a échoué à isoler une cause virale unique, et a passé à autre chose. Les patients sont restés sans diagnostic ni traitement — et après que McEvedy et Beard ont publié leur tristement célèbre réanalyse de 1970 sur l'« hystérie collective » des épidémies précédentes [@McEvedy1970], beaucoup ont subi l'incrédulité active de leurs propres médecins. Une modélisation mathématique ultérieure des données d'épidémie a montré que les schémas épidémiologiques correspondaient à des modèles de maladies infectieuses, pas à des modèles psychogènes [@Underhill2021] — mais à ce moment-là, le mal était déjà fait à la crédibilité du domaine.
+
+La vague du COVID-19 a brisé ce cycle, pour une raison : l'échelle. Quand des millions de personnes développent le même syndrome post-infectieux simultanément après un virus suivi à l'échelle mondiale, il devient très difficile de l'appeler psychosomatique. La pandémie a fait ce que quatre-vingt-dix ans d'épidémies et de plaidoyer des patients n'avaient pas pu faire — elle a forcé la médecine à regarder.
+
+Ce que les chercheurs ont trouvé a confirmé ce que le domaine de l'EM/SFC rapportait depuis des décennies. L'étude de phénotypage approfondi des NIH [@walitt2024deep] — 75 auteurs à travers 15 instituts des NIH — a démontré un dysfonctionnement cérébral, un épuisement immunitaire et un échec métabolique chez les patients atteints d'EM/SFC : une maladie biologique objective et mesurable, pas de la « fatigue » ou du « déconditionnement ».
+
+## Une nouvelle infrastructure de recherche
+
+La pandémie a créé une infrastructure de recherche qui n'existait pas auparavant. Les programmes sur le COVID long comme RECOVER et PHOSP-COVID ont inclus des groupes de comparaison d'EM/SFC, produisant des données de haute qualité sur les deux conditions. Des traitements étudiés pour le COVID long — y compris la naltrexone à faible dose — montrent des promesses pour l'EM/SFC, et la recherche sur les biomarqueurs accélérée par l'urgence de la crise est directement applicable.
+
+Le changement de perception publique compte tout autant. Quand votre collègue, votre voisin ou un membre de votre famille développe une maladie chronique post-infectieuse après le COVID, il devient plus difficile d'écarter la personne qui a développé la même maladie après une mononucléose en 2015 — ou après une grippe en 1987. Pour des millions de patients atteints d'EM/SFC, le COVID long a fait ce que des décennies de plaidoyer n'avaient pas pu faire : il a rendu leur maladie visible.
+
+## Le problème de l'étiquette « COVID long »
+
+Mais cette visibilité comporte un piège. Si l'EM/SFC est absorbée dans le « COVID long » comme une étiquette — si le diagnostic spécifique disparaît dans un terme parapluie vague — alors le schéma historique sera obscurci une fois de plus. La prochaine épidémie produira la même vague, la même confusion, les mêmes années de retard diagnostique, et les mêmes patients à qui on dit que c'est dans leur tête.
+
+1934, 1948, 1955, 1984, 2020. Les épidémies virales déclenchent des vagues d'EM/SFC. Ce n'est pas une hypothèse — c'est quatre-vingt-dix ans d'histoire médicale documentée. La question ouverte est de savoir si nous construirons enfin l'infrastructure diagnostique, les voies de traitement et les programmes de recherche pour attraper la prochaine vague avant qu'elle ne détruise des millions d'autres vies.

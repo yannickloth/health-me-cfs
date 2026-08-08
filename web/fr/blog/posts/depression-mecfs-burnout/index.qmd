@@ -1,0 +1,131 @@
+---
+title: "Dépression, burnout, EM/SFC : trois maladies, un seul mot"
+description: "Une femme d'une trentaine d'années dit à son médecin qu'elle est épuisée. Elle ne peut pas travailler. Elle survit à peine à la journée. Elle courait des semi-marathons et maintenant elle ne peut pas marcher jusqu'à la boutique du coin sans des conséquences qui durent des jours."
+author: "Yannick Loth"
+date: "2026-06-19"
+categories: [Erreurs de diagnostic, Comorbidités, Diagnostic]
+lang: fr
+---
+
+Une femme d'une trentaine d'années dit à son médecin qu'elle est épuisée. Elle ne peut pas travailler. Elle survit à peine à la journée. Elle courait des semi-marathons et maintenant elle ne peut pas marcher jusqu'à la boutique du coin sans des conséquences qui durent des jours.
+
+Le médecin voit une jeune femme avec des analyses sanguines normales qui dit qu'elle est fatiguée. Le diagnostic différentiel est court : dépression, stress, burnout. Peut-être la thyroïde, mais la TSH est normale. Un antidépresseur est prescrit. Une orientation vers un psychologue est faite. L'exercice gradué est recommandé — commencez petit, augmentez progressivement, vous vous sentirez mieux une fois que vous bougerez à nouveau.
+
+Elle essaie. Elle fait de l'exercice. Elle s'effondre si violemment qu'elle ne peut pas se lever du lit pendant une semaine. Elle le dit au médecin. Le médecin ajuste l'antidépresseur. Elle essaie à nouveau. Elle s'effondre à nouveau, pire cette fois. Le médecin soupçonne qu'elle n'essaie pas vraiment, ou que la dépression est plus sévère qu'initialement évalué. Un antidépresseur plus fort est prescrit. Peut-être une orientation en hospitalisation.
+
+À aucun moment de cette séquence personne n'a posé la question qui aurait tout changé : l'exercice vous fait-il vous sentir mieux, ou vous fait-il vous sentir moins bien ?
+
+---
+
+## Trois maladies, une seule salle d'attente
+
+La dépression, le burnout et l'EM/SFC produisent tous la plainte « je ne peux pas fonctionner et je suis épuisé ». Ils partagent des caractéristiques de surface : retrait des activités, performance réduite au travail, sommeil perturbé, plaintes cognitives, isolement social. Dans une consultation de 15 minutes avec des résultats de laboratoire normaux, ils sont cliniquement impossibles à distinguer, sauf si le clinicien sait poser les questions discriminantes spécifiques.
+
+Ils sont biologiquement sans rapport. Leurs traitements sont incompatibles. Appliquer le traitement de l'un à un patient atteint d'un autre cause des dommages documentés.
+
+---
+
+## La dépression : le circuit de récompense devenu muet
+
+Le trouble dépressif majeur est, à son cœur biologique, un trouble du traitement de la récompense et de la signalisation monoaminergique. L'anhédonie — l'incapacité à éprouver du plaisir ou à l'anticiper — n'est pas une tristesse métaphorique mais un déficit mesurable de la fonction dopaminergique et sérotoninergique. La neuro-imagerie montre une activité réduite dans le striatum ventral et le cortex préfrontal pendant les tâches de récompense [@Pizzagalli2009reward].
+
+La fatigue de la dépression est principalement une amotivation : le corps peut agir, mais le cerveau ne génère pas l'impulsion de commencer. Un patient déprimé placé dans un environnement extérieurement structuré — une séance de kinésithérapie, une marche avec un ami qui insiste — découvre souvent que l'activité elle-même est gérable, même légèrement agréable. La barrière était l'initiation, pas la capacité.
+
+L'exercice est réellement thérapeutique pour la dépression. Pas comme platitude mais comme pharmacologie : il augmente le BDNF, favorise la neurogenèse hippocampique, normalise la fonction de l'axe HPA et régule à la hausse la transmission monoaminergique [@Schuch2016exerciseDepression]. Les méta-analyses montrent systématiquement des tailles d'effet comparables aux antidépresseurs pour la dépression légère à modérée.
+
+**Le schéma cortisolique dans la dépression** est hyperactif. L'axe HPA est hyper-réactif : cortisol élevé, réponse de réveil au cortisol exagérée, inhibition de rétroaction émoussée. La réponse au stress tourne trop chaud.
+
+**Le schéma du sommeil** comprend un réveil matinal précoce, une latence REM réduite et un sommeil lent perturbé — mais surtout, la privation de sommeil peut temporairement *améliorer* l'humeur dans la dépression. C'est paradoxal et spécifique : cela reflète le rôle du sommeil dans la consolidation des souvenirs émotionnels négatifs. La dépression est l'une des très rares conditions où moins de sommeil peut aider brièvement.
+
+---
+
+## Le burnout : le puits à sec
+
+Le burnout est un phénomène professionnel — reconnu dans la CIM-11 comme un syndrome résultant d'un stress professionnel chronique qui n'a pas été géré avec succès. Il est caractérisé par trois dimensions : l'épuisement, le cynisme/dépersonnalisation et la réduction de l'efficacité professionnelle [@Maslach2016burnout].
+
+La fatigue du burnout est l'épuisement d'un système qui a fonctionné à haut rendement sans récupération adéquate. La différence avec la dépression : le burnout a un déclencheur externe clair, et la suppression de ce déclencheur conduit à la récupération. Un enseignant en burnout qui prend un congé sabbatique de six mois récupère typiquement. Une personne déprimée qui prend le même congé sabbatique ne récupère pas — parce que le déclencheur est interne.
+
+**Le schéma cortisolique dans le burnout** commence hyperactif (comme dans la dépression) mais évolue vers un émoussement avec la chronicité. Le burnout à un stade avancé peut montrer la même courbe de cortisol plate que l'EM/SFC, ce qui est une raison pour laquelle un burnout de longue date peut être difficile à distinguer d'une EM/SFC précoce.
+
+**L'exercice dans le burnout** est généralement bénéfique — il aide la récupération quand il est combiné à la réduction du stress. Mais l'exercice seul, sans traiter la source de la demande chronique, est insuffisant.
+
+**La distinction critique avec l'EM/SFC :** le burnout s'améliore avec le repos. Un repos authentique et soutenu — pas un week-end, mais des semaines à des mois de demande réduite — inverse l'épuisement. Si le repos n'aide pas, le burnout est le mauvais diagnostic.
+
+---
+
+## L'EM/SFC : le moteur cassé
+
+L'EM/SFC est une maladie neuro-immune caractérisée par le malaise post-effort (PEM) — une réponse pathologique à l'effort qui produit une détérioration retardée, disproportionnée et prolongée de la fonction physique, cognitive et neurologique. Le rapport de l'IOM de 2015 a identifié le PEM comme la caractéristique centrale : « les patients ont une incapacité pathologique à produire suffisamment d'énergie sur demande » [@IOM2015].
+
+La fatigue n'est pas une amotivation (le cerveau veut agir mais le corps ne peut produire suffisamment d'énergie) ni un déconditionnement (l'exercice aggrave, n'améliore pas, comme le démontrent les CPET sur 2 jours). Elle est métabolique : fonction mitochondriale altérée, utilisation altérée des substrats, lactate élevé à des charges de travail de niveau de repos, activation immunitaire après l'effort.
+
+**Le schéma cortisolique dans l'EM/SFC** est émoussé — production totale réduite, courbe diurne aplatie, réponse de réveil au cortisol absente ou diminuée [@papadopoulos2009hypothalamus]. C'est l'opposé de l'HPA hyperactif de la dépression. La réponse au stress tourne trop froid.
+
+**La réponse à l'exercice** est le test de référence diagnostique. Si l'exercice produit systématiquement une détérioration retardée (24 à 72 heures plus tard, durant des jours à des semaines, disproportionnée par rapport à l'effort), ce n'est pas une dépression et ce n'est pas un burnout. Le CPET sur 2 jours le confirme objectivement : seuil ventilatoire réduit, VO2 de pointe réduite et transition anaérobie plus précoce au jour 2. Aucune autre condition de fatigue ne montre ce schéma.
+
+**Le schéma du sommeil** est non réparateur quelle que soit la durée. L'intrusion alpha-delta contamine le sommeil profond. Les patients peuvent dormir dix heures et se réveiller en se sentant empoisonnés. La privation de sommeil n'améliore pas les symptômes — elle les aggrave de façon catastrophique.
+
+**Le repos ne résout pas l'EM/SFC.** Il réduit la sévérité des symptômes quand il est combiné à la réduction de la demande (le pacing), mais il n'inverse pas le dysfonctionnement métabolique et immunitaire sous-jacent. Un patient qui se repose pendant six mois ne récupère pas comme un patient en burnout. La machinerie est endommagée, pas seulement épuisée.
+
+---
+
+## Les questions discriminantes
+
+Cinq questions séparent ces trois conditions dans une rencontre clinique :
+
+**1. L'exercice vous fait-il mieux ou moins bien ?**
+- Mieux → dépression ou burnout (surtout si le bénéfice est perceptible en quelques heures)
+- Moins bien, avec un retard de 24 à 72 heures → EM/SFC
+
+**2. Le repos résout-il votre épuisement ?**
+- Oui, avec un repos soutenu → burnout
+- Partiellement, mais la ligne de base ne revient jamais à la normale → EM/SFC
+- Non — vous pouvez vous reposer des semaines et le vide ne se remplit pas → dépression
+
+**3. Pouvez-vous agir quand vous y êtes extérieurement contraint ?**
+- Oui — l'activité est gérable une fois commencée → dépression (amotivation, pas incapacité)
+- Non — la contrainte externe ne change pas la limitation physique → EM/SFC
+
+**4. À quel moment l'épuisement culmine-t-il ?**
+- Le matin (impossible de démarrer, s'améliore au fil de la journée) → dépression
+- S'accumule au fil de la journée, pire le soir → burnout
+- 24 à 72 heures après l'effort, avec un retard → EM/SFC
+
+**5. Y a-t-il eu un déclencheur clair ?**
+- Apparition progressive liée à une demande professionnelle soutenue → burnout
+- Apparition progressive sans facteur de stress externe proportionnel → dépression
+- Apparition soudaine après une infection, une chirurgie, un traumatisme ou un événement identifiable → EM/SFC (dans ~70 % des cas)
+
+Aucune question unique n'est diagnostique. C'est le schéma à travers les cinq qui l'est.
+
+---
+
+## Le burnout autistique : la quatrième entité
+
+Il existe un quatrième état de fatigue qui ne s'insère pas nettement dans les trois précédents et qui est de plus en plus reconnu : le burnout autistique. Ce n'est pas un burnout professionnel avec un diagnostic d'autisme en annexe. C'est un phénomène spécifique : l'épuisement énergétique progressif qui résulte du masquage soutenu des traits autistiques dans des environnements neurotypiques.
+
+Le masquage — réprimer le stimming, forcer le contact visuel, surveiller et imiter les indices sociaux en temps réel, gérer la surcharge sensorielle sans montrer de détresse — est cognitivement et métaboliquement coûteux. Il exige une fonction exécutive continue que les personnes neurotypiques ne dépensent pas. Sur des mois et des années, cette dépense chronique épuise les réserves. L'effondrement, quand il survient, ressemble à l'EM/SFC : fatigue profonde, arrêt cognitif, hyperréactivité sensorielle, retrait.
+
+La distinction clé : le burnout autistique se résout quand les demandes de masquage sont réduites. Une personne autiste qui transitionne vers un environnement adapté sur le plan sensoriel avec des demandes sociales réduites récupère typiquement, parfois rapidement. Si le burnout a duré des années, la récupération peut être plus lente et incomplète — mais la trajectoire est vers l'amélioration une fois la source de demande traitée.
+
+Pour les personnes autistes qui ont aussi une EM/SFC, les deux drainages énergétiques sont additifs. Le masquage épuise le même budget énergétique que le PEM. Réduire la demande de masquage n'est pas un aménagement de luxe — c'est une intervention directe qui réduit la charge métabolique totale et peut réduire la fréquence et la sévérité du PEM.
+
+---
+
+## Le coût de la confusion
+
+L'essai PACE [@White2011pace] a prescrit la thérapie par l'exercice gradué et la thérapie cognitivo-comportementale à des patients atteints d'EM/SFC en utilisant un protocole dérivé de l'hypothèse du déconditionnement — l'hypothèse que l'EM/SFC est maintenue par l'inactivité et des croyances sur la maladie, et que l'exercice gradué l'inverserait, tout comme il inverse le retrait lié à la dépression.
+
+L'essai a revendiqué un succès. Une réanalyse indépendante utilisant les critères de résultat pré-spécifiés de l'essai lui-même n'a montré aucun bénéfice significatif [@Wilshire2018]. Les enquêtes auprès des patients ont rapporté que la thérapie par l'exercice gradué était l'intervention la plus susceptible d'aggraver leur état, avec 74 % des répondants rapportant une détérioration [@MEAssociation2015survey].
+
+Le préjudice n'était pas aléatoire. Il était prévisible à partir de la biologie. La thérapie par l'exercice fonctionne pour la dépression parce que la barrière est l'amotivation, et le système peut gérer la charge. La thérapie par l'exercice nuit à l'EM/SFC parce que la barrière est la capacité métabolique, et le système ne peut pas gérer la charge. Le traitement était correct pour le mauvais diagnostic. L'échec n'était pas dans la réponse du patient. Il était dans la confusion qui rendait la prescription rationnelle en apparence.
+
+Cette confusion continue. Les patients atteints d'EM/SFC sont encore orientés vers les services psychiatriques, encore traités par antidépresseurs comme traitement principal, encore incités à faire de l'exercice, encore informés que leur échec à s'améliorer reflète une motivation insuffisante. Chacune de ces recommandations est appropriée pour la dépression et nuisible pour l'EM/SFC. Le mot « fatigué » est le pont qui rend la mauvaise application invisible.
+
+---
+
+## Qu'est-ce qui changerait si on cessait d'utiliser un seul mot
+
+Si les formulaires d'admission clinique remplaçaient « fatigue : oui/non » par un discriminateur en quatre items — fatigue périphérique, fatigabilité/PEM, somnolence, amotivation — la voie diagnostique bifurquerait à la première visite au lieu de la cinquième. Le patient atteint d'EM/SFC ne recevrait jamais la prescription d'exercice. Le patient déprimé ne recevrait jamais le protocole de pacing. Le patient en burnout obtiendrait le repos dont il a besoin au lieu du médicament dont il n'a pas besoin.
+
+La barrière n'est pas la technologie, ni le financement, ni la recherche. C'est le vocabulaire. Un mot, prétendant décrire une chose, appliqué à quatre. La biologie est claire depuis des années. Le langage n'a pas suivi.

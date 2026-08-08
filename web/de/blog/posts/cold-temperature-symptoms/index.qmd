@@ -1,0 +1,126 @@
+---
+title: "Immer kalt, nie richtig warm: Die Biologie der Temperatur-Dysregulation bei ME/CFS"
+description: "Es gibt einen Moment, den viele Menschen mit ME/CFS nur zu gut kennen: unter zwei Decken in einem Raum liegen, der nicht kalt ist, und trotzdem nicht warm werden. Oder plötzlich schwitzen, ohne sich anzustrengen. Oder Finger, die in einem leicht kühlen Raum weiß und taub werden. Oder entdecken, dass ein warmes Bad — etwas, das gesunde Menschen als erholsam empfinden — sie für den Rest des Tages erschöpft zurücklässt."
+author: "Yannick Loth"
+date: "2026-03-23"
+categories: [Autonome Dysfunktion, Symptome]
+lang: de
+---
+
+Es gibt einen Moment, den viele Menschen mit ME/CFS nur zu gut kennen: unter zwei Decken in einem Raum liegen, der nicht kalt ist, und trotzdem nicht warm werden. Oder plötzlich schwitzen, ohne sich anzustrengen. Oder Finger, die in einem leicht kühlen Raum weiß und taub werden. Oder entdecken, dass ein warmes Bad — etwas, das gesunde Menschen als erholsam empfinden — sie für den Rest des Tages erschöpft zurücklässt.
+
+Die Temperaturregulation sollte automatisch sein. Für Menschen mit ME/CFS ist sie unzuverlässig, metabolisch teuer und oft schlichtweg kaputt.
+
+Dieser Artikel erklärt, warum — und verbindet die Temperatur-Dysregulation mit mehreren anderen Symptomen, die scheinbar nichts miteinander zu tun haben, aber dieselben vorgelagerten Fehlfunktionen teilen.
+
+---
+
+## Der Thermostat im Gehirn
+
+Das Temperaturregulationssystem des Körpers wird hauptsächlich vom Hypothalamus gesteuert, einer kleinen, aber metabolisch dichten Gehirnregion, die die Körperkerntemperatur kontinuierlich überwacht und die Reaktion über das autonome Nervensystem koordiniert: Blutgefäße erweitern, um Wärme abzugeben, wenn es zu warm ist; sie verengen und lösen Zittern aus, um Wärme zu speichern, wenn es zu kalt ist; sie dirigiert die Schweißdrüsen, passt die Blutverteilung zwischen Kern und Peripherie an.
+
+All das ist autonom — es sollte automatisch geschehen, unterhalb des Bewusstseins. Bei ME/CFS stören drei miteinander verbundene Fehlfunktionen das gesamte System gleichzeitig.
+
+---
+
+## Fehlfunktion 1: Das autonome Nervensystem ist dysreguliert
+
+Das autonome Nervensystem — das unwillkürliche Kontrollnetzwerk des Körpers für Herzfrequenz, Blutdruck, Blutfluss, Verdauung, Drüsensekretion und Temperatur — ist bei den meisten Menschen mit ME/CFS funktionell beeinträchtigt. Das ist kein peripherer Befund. Es ist heute eines der am konsistentesten dokumentierten Merkmale der Krankheit.
+
+Die beiden Zweige des autonomen Systems — sympathisch und parasympathisch — stehen normalerweise in einem dynamischen Gleichgewicht. Bei ME/CFS ist dieses Gleichgewicht gestört. Mehrere Mechanismen tragen dazu bei:
+
+**Autoantikörper gegen autonome Rezeptoren.** Die Forschung hat erhöhte Autoantikörper gegen die beta-adrenergen (β₁ und β₂) und muskarinischen cholinergen (M3 und M4) Rezeptoren dokumentiert, die autonome Nervenfasern zur Kommunikation mit Zielgeweben verwenden, darunter Blutgefäße und Schweißdrüsen. Diese Antikörper können an diesen Rezeptoren agonistische (unangemessene Aktivierung) oder antagonistische (Blockierung) Wirkungen entfalten und erratische autonome Signale erzeugen, die durch das normale regulatorische Feedback des Gehirns nicht korrigiert werden können.
+
+**Erschöpftes zentrales Noradrenalin.** Die direkte Messung des Liquor cerebrospinalis in der tiefen Phänotypisierungsstudie der NIH zu ME/CFS fand reduzierte Noradrenalin-Metaboliten — ein direkter chemischer Beleg dafür, dass den zentralen autonomen Schaltkreisen ihr primäres Signalmolekül ausgeht. Noradrenalin treibt die sympathischen Reaktionen an, die unter anderem die peripheren Blutgefäße verengen, um die Körpertemperatur in der Kälte zu halten.
+
+**Small-Fiber-Neuropathie.** Hautstanzbiopsien bestätigen, dass 30–38 % der ME/CFS-Patienten eine messbar reduzierte Dichte der kleinen, unmyelinisierten Nervenfasern aufweisen, die sowohl Schmerz- als auch autonome Signale übertragen — einschließlich der autonomen Fasern, die den kutanen Blutfluss und die Schweißdrüsenaktivität steuern. Bei Patienten mit subklinischer Nervenbeteiligung ist der Anteil mit ziemlicher Sicherheit höher. Dies sind genau die Fasern, die dafür verantwortlich sind, dass sich Blutgefäße als Reaktion auf die Temperatur zusammenziehen oder erweitern.
+
+Das Ergebnis: Die periphere Gefäßversorgung erhält unpräzise, inkonsistente oder abgeschwächte Anweisungen vom Gehirn. Wenn der Körper Wärme speichern muss, ziehen sich die Blutgefäße möglicherweise nicht richtig zusammen. Wenn er Wärme abgeben muss, erweitern sie sich möglicherweise nicht auf Abruf. Der Thermostat sendet Befehle; die Stellglieder reagieren unregelmäßig.
+
+---
+
+## Fehlfunktion 2: Wärme erzeugen ist teuer, und es mangelt an Energie
+
+Thermoregulation ist nicht passiv. Wärme zu erzeugen — sei es durch Zittern, durch zitterfreie Thermogenese im braunen Fettgewebe oder einfach durch die Aufrechterhaltung normaler Stoffwechselaktivität in den Zellen — erfordert ATP, die universelle Energiewährung des Körpers.
+
+Bei ME/CFS ist die ATP-Produktion auf mitochondrialer Ebene beeinträchtigt. Die Elektronentransportkette — die Maschinerie, die die überwältigende Mehrheit des zellulären ATP erzeugt — leckt Elektronen mit einer mehrfach höheren Rate als normal, produziert reaktive Sauerstoffspezies statt nutzbarer Energie und schädigt die mitochondrialen Strukturen selbst. Das Ergebnis ist eine reduzierte ATP-Ausbeute pro verbrauchter metabolischer Substrateinheit.
+
+Für die Thermoregulation schafft dies ein direktes Problem: **Wärmeerzeugung kostet Energie, die der Körper nicht übrig hat.**
+
+Zittern — einer der primären Kälteschutzmechanismen — ist eine unwillkürliche schnelle Muskelkontraktion. Muskelkontraktion verbraucht ATP. In einem Körper, in dem die ATP-Produktion bereits unterhalb der Kapazität läuft, kann der anhaltende ATP-Bedarf des Zitterns nicht nachhaltig sein. Die Muskeln zittern möglicherweise kurz und können die Reaktion dann nicht aufrechterhalten. Die Person bleibt kalt.
+
+Die zitterfreie Thermogenese, bei der das braune Fettgewebe Fett verbrennt, um direkt Wärme zu erzeugen, hängt ebenfalls von der mitochondrialen Aktivität ab. Im Kontext einer weit verbreiteten mitochondrialen Dysfunktion ist auch dieser Weg wahrscheinlich beeinträchtigt.
+
+Die Kälte, die Menschen mit ME/CFS empfinden, ist in vielen Fällen kein Wahrnehmungsproblem. Sie ist die physische Konsequenz eines thermoregulatorischen Systems, dem der Treibstoff fehlt, um richtig zu funktionieren.
+
+---
+
+## Fehlfunktion 3: Das Blut fließt nicht dorthin, wo es hin muss
+
+Die Körperkerntemperatur wird teilweise dadurch aufrechterhalten, dass warmes, sauerstoffhaltiges Blut in der Nähe der lebenswichtigen Organe gehalten wird. Dies erfordert, dass das Herz-Kreislauf-System das Blut angemessen verteilt — und bei ME/CFS ist diese Verteilung gestört.
+
+Die meisten Menschen mit ME/CFS haben dokumentierte Verringerungen des Gesamtblutvolumens — das Plasmavolumen liegt typischerweise 10–20 % unter dem Normalwert. Mit weniger Gesamtblut priorisiert der Körper zunehmend die Durchblutung der Kernorgane, sodass weniger arterieller Fluss für die Extremitäten verfügbar ist.
+
+Hinzu kommt die orthostatische Intoleranz — das Versagen, bei aufrechter Haltung einen ausreichenden Blutfluss aufrechtzuerhalten — die bei der Mehrheit der ME/CFS-Patienten vorliegt. Beim Stehen sammelt sich Blut in der venösen Zirkulation der unteren Körperhälfte. Das autonome System sollte diese Gefäße verengen und das Herzzeitvolumen erhöhen (Vorlast — das Volumen, das das Herz vor jedem Schlag füllt), um dies zu kompensieren; bei ME/CFS ist diese Reaktion beeinträchtigt. Das Herzzeitvolumen fällt. Sowohl das Gehirn als auch die Extremitäten erhalten weniger arterielles Blut.
+
+Die Extremitäten erhalten weniger warmes Blut. Sie kühlen schneller ab. Und weil die Vasokonstriktion, die normalerweise den Wärmeverlust von Händen und Füßen begrenzen würde, dysreguliert ist, kann der Körper die Wärme, die er hat, nicht effizient lenken.
+
+Das Raynaud-Phänomen — bei dem Finger und Zehen als Reaktion auf Kälte oder Stress weiß, dann blau, dann rot werden — tritt bei einer beträchtlichen Teilmenge von ME/CFS-Patienten auf. Es spiegelt das Gegenteil der oben beschriebenen unzureichenden Vasokonstriktion wider: eine übertriebene sympathische vasokonstriktorische Reaktion, die den Blutfluss zu den Fingern vollständig abschneidet. Die weiße Phase ist maximale arterielle Konstriktion; die blaue Phase ist Ischämie durch fehlenden Fluss; die rote Phase ist ein überschwemmender Rebound, wenn sich die Konstriktion löst. Sowohl das Versagen, ausreichend zu verengen (chronisch kalte Extremitäten) als auch die übermäßige Verengung der Raynaud-Episoden sind Ausdruck desselben dysregulierten autonomen Systems — eines, das keine proportionalen, kalibrierten Reaktionen auf thermische und zirkulatorische Signale aufrechterhalten kann.
+
+---
+
+## Warum auch Wärme ein Problem ist
+
+ME/CFS-Patienten, die die meiste Zeit frieren, leiden häufig auch an Hitzeintoleranz — Schwierigkeiten, warme Umgebungen zu tolerieren, sich in der Sonne sofort unwohl zu fühlen oder nach einem warmen Bad oder einer warmen Dusche zusammenzubrechen.
+
+Das scheint widersprüchlich. Es ist es nicht.
+
+Dieselbe beeinträchtigte Thermoregulation, die eine ausreichende Kälteabwehr verhindert, verhindert auch eine ausreichende Hitzeabwehr. Die Wärmeabgabe erfordert, dass sich die Blutgefäße in der Haut erweitern, dass sich das Schwitzen aktiviert und dass das Herzzeitvolumen steigt, um warmes Blut zur Kühlung an die Hautoberfläche zu bringen. All dies erfordert robuste autonome Signale und ausreichende kardiovaskuläre Reserve. Bei ME/CFS ist nichts davon zuverlässig.
+
+Darüber hinaus verursachen warme Umgebungen Vasodilatation — Blut sammelt sich zur Peripherie, reduziert den venösen Rückfluss zum Herzen und das Herzzeitvolumen. In einem gesunden Herz-Kreislauf-System wird dies durch eine erhöhte Herzfrequenz und Vasokonstriktion an anderer Stelle kompensiert. Bei ME/CFS, wo ein Vorlastversagen (unzureichende Blutfüllung des Herzens) bereits vorliegt, verringert diese Vasodilatation das Schlagvolumen und Herzzeitvolumen weiter. Das Gehirn wird hypoperfundiert. Die orthostatischen Symptome verschlimmern sich. Die Person fühlt sich schwach, übel und kognitiv beeinträchtigt — nicht weil sie überhitzt, sondern weil das Herz-Kreislauf-System unter thermischem Stress keine ausreichende Perfusion aufrechterhalten kann.
+
+Ein warmes Bad oder eine warme Dusche verursacht dieselbe Vasodilatation. Die physische Wärme ist real. Der anschließende Zusammenbruch ist kardiovaskulär und autonom, nicht thermisch.
+
+---
+
+## Die Nachtschweißausbrüche
+
+Nachtschweiß bei ME/CFS ist häufig und oft schwerwiegend — trotz kühlem Raum schweißgebadet aufwachen oder in Ruhe durch die Kleidung schwitzen.
+
+Bei gesunden Menschen ist Schwitzen thermoregulatorisch: Der Körper aktiviert die Schweißdrüsen, um sich abzukühlen. Bei ME/CFS kann Schwitzen als dysautonomes Ereignis auftreten: Das autonome System feuert das falsche Signal zur falschen Zeit, aktiviert Schweißdrüsen nicht weil der Körper zu heiß ist, sondern weil die autonome Schaltung fehlfunktioniert. Zytokine aus der chronischen Immunaktivierung können Schwitzen ebenfalls direkt auslösen — derselbe Mechanismus, der für das "Nachtschweiß" bei aktiven Infektionen verantwortlich ist.
+
+Die Person ist nicht zu warm. Minuten später kann sie wieder frieren. Der Schweiß ist eine thermoregulatorische Ausgabe eines Systems, das seinen genauen sensorischen Input verloren hat.
+
+---
+
+## Weitere überraschende Symptome mit denselben Wurzeln
+
+Die Temperatur-Dysregulation ist eine Manifestation einer Reihe von Fehlfunktionen — autonome Dysfunktion, Energiedefizite, reduziertes Blutvolumen, zerebrale Hypoperfusion — die eine Reihe von Symptomen hervorrufen, die unzusammenhängend erscheinen, bis man die zugrunde liegende Biologie versteht.
+
+**Atembeschwerden bei normalen Sauerstoffwerten.** Viele Menschen mit ME/CFS erleben Kurzatmigkeit oder das Gefühl, keinen befriedigenden Atemzug zu bekommen, selbst wenn die Pulsoxymetrie eine normale Sauerstoffsättigung zeigt. Das Problem ist nicht die Sauerstoffaufnahme — es ist die Sauerstoffabgabe und -verwertung auf zellulärer Ebene. Autonome Dysfunktion verändert den Atemantrieb. Vorlastversagen reduziert das Herzzeitvolumen, was bedeutet, dass pro Atemzug weniger Blut an die Gewebe abgegeben wird. Die Atemmuskulatur kann in energiedefizitären Zuständen schnell ermüden. Eine Studie aus dem Jahr 2025 ergab, dass etwa 70 % der ME/CFS-Patienten abnorme Atemmuster mit Desynchronisation zwischen Brust- und Bauchbewegung aufweisen — sie nutzen akzessorische Atemmuskeln statt des Zwerchfells, was pro Atemzug etwa dreimal so viel Energie verbraucht.
+
+**Verschwommenes Sehen, das sich tageweise unterscheidet.** Die Sehqualität bei ME/CFS kann mit dem Energiezustand dramatisch schwanken. Der Ziliarmuskel, der die Fokussierung der Linse einstellt, benötigt anhaltendes ATP, um zu funktionieren. Die autonomen Fasern, die den Pupillendurchmesser steuern, gehören zu demselben dysregulierten System. An einem energiearmen Tag ermüdet der Ziliarmuskel, das Fokussieren wird mühsam oder unmöglich, und es kann zu Diplopie (Doppelsehen) kommen. An einem energiebesseren Tag verbessert sich das Sehen. Dies ist kein Sehproblem im ophthalmologischen Sinne — es ist ein Energie- und autonomes Problem mit visuellen Folgen.
+
+**Kognitive Symptome, die sich im Stehen verschlimmern.** Gehirnnebel bei ME/CFS ist kein fester Zustand — er verschlimmert sich zuverlässig beim Stehen und in aufrechter Haltung und bessert sich oft im Liegen. Dies korreliert direkt mit der zerebralen Perfusion: In aufrechter Haltung fällt das Herzzeitvolumen und das Blut sammelt sich unterhalb des Herzens. Das Gehirn erhält weniger Blut. Die kognitive Funktion — einer der energie- und perfusionsabhängigsten Prozesse des Körpers — verschlechtert sich rasch. Kipptischstudien eines niederländischen Überweisungszentrums ergaben, dass 91 % der ME/CFS-Patienten während orthostatischem Stress eine messbar reduzierte Herzleistung und zerebralen Blutfluss zeigten, wobei die kognitiven Symptome direkt mit dem Grad der Blutflussreduktion korrelierten — Befunde, die auf eine unabhängige Replikation warten, aber mit dem klinischen Bild übereinstimmen. Der Gehirnnebel ist nicht metaphorisch. Er ist Hypoperfusion.
+
+**Geräusch- und Lichtempfindlichkeit.** Hyperakusis (Geräuschempfindlichkeit) und Photophobie (Lichtempfindlichkeit) sind bei 60–90 % der Menschen mit ME/CFS vorhanden, oft in einem Ausmaß, das in normalen Umgebungen abgedunkelte Räume oder Ohrstöpsel erfordert. Normale Gesprächslautstärke kann schmerzhaft laut sein. Sonnenlicht durch ein Fenster kann unerträglich sein. Die Mechanismen überlappen sich mit denen in früheren Artikeln: Die zentrale Sensibilisierung hat die Schwellen der sensorischen Verarbeitungsneuronen im gesamten Nervensystem gesenkt, und die metabolisch anspruchsvollen Zellen der Netzhaut und der Cochlea sind besonders anfällig für die Energiedefizite, die ihre Funktion beeinträchtigen. Das sensorische Nervensystem läuft — wie die motorischen und autonomen Nervensysteme — in einem sensibilisierten, energiedepletierten Zustand.
+
+**"Subjektive Hypoglykämie" bei normalem Blutzucker.** Viele ME/CFS-Patienten erleben Episoden, in denen sie das Gefühl haben, ihr Blutzucker sei abgestürzt — Zittern, Schwäche, kognitive Trübung, intensiver Hunger — selbst wenn der Blutzucker normal ist. Der Mechanismus ist orthostatische Intoleranz, nicht Stoffwechsel: Das fallende Herzzeitvolumen und die zerebrale Hypoperfusion, die das Stehen begleiten, imitieren das subjektive Erlebnis einer Hypoglykämie. Patienten mögen Jahre damit verbringen, diese Episoden durch häufiges Essen zu bewältigen, wenn die tatsächlich benötigte Intervention kardiovaskulär ist — erhöhte Flüssigkeit, Natrium und möglicherweise Kompressionskleidung zur Unterstützung des venösen Rückflusses.
+
+---
+
+## Was all dies gemeinsam hat
+
+Kälteintoleranz, Hitzeintoleranz, Nachtschweiß, Raynaud, Atemlosigkeit, schwankendes Sehen, kognitive Symptome, die der Haltung folgen, sensorische Überempfindlichkeit: Dies sind keine zufällige Sammlung unzusammenhängender Beschwerden. Sie sind ein kohärentes Muster.
+
+Autonome Dysfunktion — unpräzise, unzuverlässige Kommunikation zwischen dem Gehirn und den unwillkürlichen Systemen des Körpers — erklärt die kardiovaskulären und thermoregulatorischen Fehlfunktionen. Mitochondriale Energiedefizite erklären, warum Reparatur und Kompensation unmöglich sind. Reduziertes Blutvolumen erklärt, warum selbst kleine kardiovaskuläre Belastungen überproportionale Folgen erzeugen. Zerebrale Hypoperfusion erklärt, warum Kognition, Sehen und sensorische Filterung sich alle in haltungsabhängiger, energieabhängiger Weise verschlechtern. Zentrale Sensibilisierung erklärt, warum sensorische Inputs, die in einem gesunden Nervensystem als unwichtig gefiltert würden, als überwältigend erlebt werden.
+
+Die Person, die unter zwei Decken liegt, immer noch kalt, erschöpft von der Anstrengung, warm zu werden, übertreibt ihr Unbehagen nicht. Ihr thermoregulatorisches System hat die zuverlässige Kontrolle über die Prozesse verloren, die Wärme erzeugen und speichern — der Treibstoff ist unzureichend, die Signale sind unpräzise, das Blut, das Wärme zu den Extremitäten trägt, ist im Volumen reduziert und wird unvorhersehbar verteilt.
+
+Das ist keine Schwäche. Das ist Physiologie.
+
+---
+
+## Eine Anmerkung zur Forschung
+
+Die hier beschriebenen Mechanismen stützen sich auf autonome Teststudien, kardiovaskuläre Bildgebung (einschließlich Nahinfrarotspektroskopie und Kipptisch-Protokollen), Hautbiopsieforschung, Liquor-Analyse aus der tiefen Phänotypisierungsstudie der NIH zu ME/CFS und die Literatur zu Autoantikörpern gegen autonome Rezeptoren. Temperatur-Dysregulation und autonome Dysfunktion gehören zu den am konsistentesten dokumentierten Merkmalen von ME/CFS über Kohorten hinweg. Wo Befunde für einzelne Gruppen spezifisch oder noch nicht unabhängig repliziert sind, wird dies in der zugrunde liegenden Dokumentation vermerkt.

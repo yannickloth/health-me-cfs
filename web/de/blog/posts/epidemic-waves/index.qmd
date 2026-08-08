@@ -1,0 +1,52 @@
+---
+title: "ME/CFS nach Epidemien: ein neunzigjähriges Muster von 1934 bis COVID"
+description: "Wenn die Post-COVID-Welle der Myalgischen Enzephalomyelitis/des Chronischen Fatigue-Syndroms (ME/CFS) wie etwas Neues wirkt, dann nur, weil die früheren Wellen klein genug waren, um vergessen zu werden. Virale Epidemien lösen ME/CFS seit mindestens 1934 aus — und die Krankheit, die jedes Mal zurückblieb, war dieselbe, die heute bei Millionen diagnostiziert wird."
+author: "Yannick Loth"
+date: "2026-03-16"
+categories: [Epidemiologie, Geschichte]
+lang: de
+---
+
+Wenn die Post-COVID-Welle der Myalgischen Enzephalomyelitis/des Chronischen Fatigue-Syndroms (ME/CFS) wie etwas Neues wirkt, dann nur, weil die früheren Wellen klein genug waren, um vergessen zu werden. Virale Epidemien lösen ME/CFS seit mindestens 1934 aus — und die Krankheit, die jedes Mal zurückblieb, war dieselbe, die heute bei Millionen diagnostiziert wird.
+
+## Vier Ausbrüche vor COVID
+
+Es begann im Los Angeles County General Hospital. Zwischen Mai 1934 und Dezember 1935 entwickelten 198 Krankenhausangestellte — 4,5 % des Personals, darunter über 10 % der Pflegekräfte und 5 % der Ärzte — eine postinfektiöse Erkrankung, die zunächst als "atypische Kinderlähmung" diagnostiziert wurde. Sie erholten sich nie normal [@Gilliam1938].
+
+Vierzehn Jahre später betraf ein Ausbruch in Akureyri, Island, 1.090 Menschen in drei Monaten — genug, um ihm den Namen "isländische Krankheit" einzubringen. Die Symptome waren dieselben: erdrückende Fatigue, die sich nicht auflöste, neurologische Dysfunktion, verlängerte Behinderung lange nachdem die akute Infektion geklärt war [@Sigurdsson1950].
+
+Dann, 1955, erkrankten im Royal Free Hospital in London über fünf Monate 292 Mitarbeiter, von denen 255 einen Krankenhausaufenthalt benötigten. Dieser Ausbruch gab der Krankheit ihren Namen: Dr. Melvin Ramsay, Leiter der Abteilung für Infektionskrankheiten, prägte "benigne myalgische Enzephalomyelitis". Das Wort "benigne" wurde später fallen gelassen, sobald die chronische, invalidisierende Natur der Krankheit unbestreitbar wurde [@RoyalFree1957; @Ramsay1986].
+
+Drei Jahrzehnte später betraf ein Ausbruch in Incline Village am Lake Tahoe 259 Patienten. Die CDC untersuchte, fand erhöhte Epstein-Barr-Virus-Antikörper und — in einer der folgenreichsten Marketingentscheidungen der Medizingeschichte — benannte die Krankheit 1988 in "chronisches Fatigue-Syndrom" um. Ein Name, der sie in den folgenden dreißig Jahren trivialisierte [@Buchwald1992; @Holmes1988].
+
+Vier Ausbrüche über fünfzig Jahre, jede nach einer viralen Epidemie, jede mit derselben chronischen postinfektiösen Erkrankung. Der Auslöser wechselte jedes Mal; die Krankheit nicht.
+
+## Die COVID-19-Welle
+
+SARS-CoV-2 schuf Millionen neuer Patienten mit einer alten Krankheit.
+
+Die RECOVER-Adult-Studie [@RECOVER2025] ergab, dass 4,5 % der mit SARS-CoV-2 Infizierten ME/CFS entwickelten, das die formellen diagnostischen Kriterien erfüllte, verglichen mit 0,6 % bei nicht infizierten Kontrollen — ein fast fünffacher Risikoanstieg (Hazard Ratio: 4,93). Unter den als "Long COVID" eingestuften Patienten erfüllen 51 % die vollständigen ME/CFS-Diagnosekriterien.
+
+Was das in der Praxis bedeutet: Allein die USA gingen von schätzungsweise 1,5 Millionen ME/CFS-Patienten vor der Pandemie auf irgendwo zwischen 5 und 9 Millionen, und die jährliche wirtschaftliche Belastung stieg von 36–51 Milliarden auf 149–362 Milliarden US-Dollar [@Jason2022prevalence].
+
+Das Muster gilt auch außerhalb der USA. In Deutschland wuchs die Patientenzahl bis Ende 2024 von rund 250.000 auf über 650.000. Präpandemische Globalschätzungen bezifferten die ME/CFS-Bevölkerung auf 15 bis 30 Millionen; die Post-COVID-Welle hat diese Zahl mit ziemlicher Sicherheit weit nach oben getrieben, auch wenn genaue Zahlen noch zusammengestellt werden.
+
+## Jahrzehnte des Wegwischens
+
+Jede frühere Welle war klein genug, um abgetan zu werden. Ein paar hundert Patienten in einem Krankenhaus. Eintausend in einer isländischen Stadt. Ein paar hundert nahe einem See in Nevada. Jedes Mal untersuchte das medizinische Establishment kurz, scheiterte daran, eine einzelne virale Ursache zu isolieren, und zog weiter. Patienten blieben ohne Diagnose oder Behandlung zurück — und nachdem McEvedy und Beard ihre berüchtigte "Massenhysterie"-Reanalyse der früheren Ausbrüche von 1970 veröffentlichten [@McEvedy1970], waren viele mit aktivem Unglauben seitens ihrer eigenen Ärzte konfrontiert. Nachfolgende mathematische Modellierung der Ausbruchsdaten zeigte, dass die epidemiologischen Muster eher zu Infektionskrankheitsmodellen passten als zu psychogenen [@Underhill2021] — aber da war der Schaden für die Glaubwürdigkeit des Feldes bereits angerichtet.
+
+Die COVID-19-Welle brach diesen Kreislauf aus einem Grund: wegen der Größenordnung. Wenn Millionen Menschen gleichzeitig dasselbe postinfektiöse Syndrom nach einem global verfolgten Virus entwickeln, wird es sehr schwer, es psychosomatisch zu nennen. Die Pandemie tat, was neunzig Jahre Ausbrüche und Patientenfürsprache nicht vermocht hatten — sie zwang die Medizin hinzusehen.
+
+Was die Forscher fanden, bestätigte, was das ME/CFS-Feld seit Jahrzehnten berichtete. Die tiefe Phänotypisierungsstudie der NIH [@walitt2024deep] — 75 Autoren über 15 NIH-Institute — demonstrierte Gehirn-Dysfunktion, Immunerschöpfung und metabolisches Versagen bei ME/CFS-Patienten: objektive, messbare, biologische Krankheit, nicht "Fatigue" oder "Dekonditionierung".
+
+## Neue Forschungsinfrastruktur
+
+Die Pandemie schuf Forschungsinfrastruktur, die vorher nicht existierte. Long-COVID-Programme wie RECOVER und PHOSP-COVID haben ME/CFS-Vergleichsgruppen eingeschlossen und hochwertige Daten zu beiden Zuständen produziert. Für Long COVID untersuchte Behandlungen — einschließlich niedrig dosiertem Naltrexon — zeigen Versprechen für ME/CFS, und die durch die Dringlichkeit der Krise beschleunigte Biomarker-Forschung ist direkt anwendbar.
+
+Der Wandel in der öffentlichen Wahrnehmung zählt ebenso. Wenn Ihr Kollege, Ihr Nachbar oder ein Familienmitglied nach COVID eine chronische postinfektiöse Erkrankung entwickelt, wird es schwerer, die Person abzutun, die dieselbe Krankheit nach Mononukleose 2015 entwickelt hat — oder nach einer Grippe 1987. Für Millionen von ME/CFS-Patienten tat Long COVID etwas, das Jahrzehnte der Fürsprache nicht vermocht hatten: Es machte ihre Krankheit sichtbar.
+
+## Das Problem mit dem Etikett "Long COVID"
+
+Aber diese Sichtbarkeit birgt eine Falle. Wenn ME/CFS als Etikett in "Long COVID" aufgehen — wenn die spezifische Diagnose in einem vagen Dachbegriff verschwindet — dann wird das historische Muster erneut verschleiert. Die nächste Epidemie wird dieselbe Welle erzeugen, dieselbe Verwirrung, dieselben Jahre der Diagnoseverzögerung und dieselben Patienten, denen gesagt wird, es sei alles nur in ihrem Kopf.
+
+1934, 1948, 1955, 1984, 2020. Virale Epidemien lösen Wellen von ME/CFS aus. Das ist keine Hypothese — es ist neunzig Jahre dokumentierte Medizingeschichte. Die offene Frage ist, ob wir endlich die diagnostische Infrastruktur, die Behandlungswege und die Forschungsprogramme aufbauen, um die nächste Welle abzufangen, bevor sie Millionen weiterer Leben zerstört.

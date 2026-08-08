@@ -1,0 +1,92 @@
+---
+title: "Der Körper, der nicht isst — und der Körper, der nicht aufhört zu speichern: Nahrung, Gewicht und ME/CFS"
+description: "Es gibt eine Geschichte, die Kliniker manchmal über ME/CFS-Patienten erzählen, die aufhören zu essen. Die Geschichte geht: Sie ist ein Teenager-Mädchen, sie verliert Gewicht, sie verweigert Nahrung, sie muss eine Essstörung haben."
+author: "Yannick Loth"
+date: "2026-04-03"
+categories: [Komorbiditäten, Fehldiagnosen]
+lang: de
+---
+
+Es gibt eine Geschichte, die Kliniker manchmal über ME/CFS-Patienten erzählen, die aufhören zu essen. Die Geschichte geht: Sie ist ein Teenager-Mädchen, sie verliert Gewicht, sie verweigert Nahrung, sie muss eine Essstörung haben.
+
+Die Geschichte ist manchmal falsch. Und wenn sie falsch ist, sind die Folgen ernst.
+
+---
+
+## Warum ME/CFS-Patienten aufhören zu essen
+
+Schwierigkeiten beim Essen betreffen etwa 10 % der Jugendlichen mit ME/CFS, und über die Hälfte erlebt erhebliche Übelkeit oder Bauchschmerzen. Die Vermeidung ist nicht psychologisch — die Mechanismen sind organisch, und sie potenzieren sich gegenseitig.
+
+Große Mahlzeiten, schwere Speisen, selbst die Anstrengung, lange genug aufrecht zu sitzen, um einen Teller leer zu essen, können einen Patienten über seine Energieschwelle treiben und einen verzögerten Zusammenbruch auslösen. Nahrung wird mit Verschlechterung assoziiert, nicht irrational, sondern zutreffend. Studien mit Ultraschall-Trinktests haben viszerale Hypersensitivität und beeinträchtigte gastrische Akkommodation bei ME/CFS-Patienten dokumentiert: Der Magen dehnt sich nicht normal aus, um Nahrung aufzunehmen, und die Nerven in der Darmwand sind hypersensitiv. Oberbauchschmerzen und Übelkeit verschlechtern sich in den Minuten nach dem Essen messbar, nach demselben Mechanismus wie funktionelle Dyspepsie.
+
+In der Zwischenzeit wirken proinflammatorische Signalmoleküle — GDF-15, IL-6, TNF-α — auf die Appetitzentren im Gehirn und reduzieren den Hunger unabhängig von jedem psychologischen Zustand. Dies ist Krankheitsverhalten: derselbe evolutionsbedingte Mechanismus, der bewirkt, dass Sie bei der Grippe keinen Appetit haben, nur dass er bei ME/CFS nicht abgeschaltet wird. Die Anorexie ist immunologisch, nicht psychiatrisch. Und in sehr schweren Fällen sind Kauen, Schlucken und aufrechtes Sitzen keine trivialen Handlungen — es sind Energieausgaben. Für einen Patienten, dessen verfügbare Energie für einen ganzen Tag dem entspricht, was eine gesunde Person in einer einzigen Stunde verbraucht, ist eine Mahlzeit keine Kleinigkeit.
+
+---
+
+## Die Fehldiagnose, die Leben kostet
+
+Wenn ein Teenager-Mädchen mit ME/CFS erheblich an Gewicht verliert, weil es nicht essen kann, ohne zusammenzubrechen, kann ein Kliniker, der mit ME/CFS nicht vertraut ist, Folgendes sehen: weibliche Patientin, Gewichtsverlust, Nahrungsvermeidung, Fatigue. Die einfallende Differenzialdiagnose ist Anorexia nervosa.
+
+Diese Fehldiagnose ist dokumentiert. Sie hat spezifische, ernste Folgen.
+
+Ernährungsunterstützung — einschließlich Sondenernährung — wird vorenthalten, während Teams psychiatrische Erklärungen verfolgen. Standard-Behandlungen für Essstörungen werden angewendet: Verhaltensaktivierung, abgestufte Exposition gegenüber gefürchteten Lebensmitteln, Motivationsförderung, die auf die "Weigerung" zu essen abzielt. Diese Interventionen setzen voraus, dass die Restriktion des Patienten willentlich ist und dass die Lösung psychologisch ist. Wenn die Restriktion organisch ist, schlagen sie fehl. Schlimmer: Verhaltensaktivierung riskiert, ein postexertionelles Unwohlsein bei einem Patienten auszulösen, der bereits schwer krank ist.
+
+2021 veröffentlichten Baxter, Speight und Weir eine Fallserie in *Healthcare*, die fünf Patienten mit sehr schwerem ME/CFS dokumentierte, die lebensbedrohlich mangelernährt wurden [@Baxter2021malnutrition]. In jedem Fall wurde die Verzögerung durch Zögern des Klinikers verursacht — Teams, die "psychologische Theorien postulierten", statt ein primäres medizinisches Bedürfnis anzugehen. Die Folgen umfassten neurologische Schäden, Osteoporose, kardiale Komplikationen und schlechte Wundheilung.
+
+Die unterscheidenden Merkmale, die diese Fehldiagnose verhindern sollten, sind klar, sobald Sie wissen, wonach Sie suchen. Ein Patient mit ME/CFS-bedingten Essschwierigkeiten ist durch seine Unfähigkeit zu essen *bedrückt*. Er will normal essen. Er hat keine Körperbild-Störung. Sein Gewichtsverlust ist nicht erwünscht — er wird betrauert. Seine Essschwierigkeit folgt seinem Krankheitsschweregrad, verschlechtert sich während Schüben und bessert sich, wenn die Krankheit besser wird. Er hat objektive Anzeichen von ME/CFS: orthostatische Intoleranz im Kipptest, über Tage dokumentiertes postexertionelles Unwohlsein, die spezifische Signatur dieser Krankheit.
+
+Der Patient mit Anorexia nervosa präsentiert sich in fast jeder Hinsicht anders.
+
+---
+
+## Das gegenteilige Problem: Gewichtszunahme, die nicht auf die üblichen Ratschläge reagiert
+
+Die Essgeschichte bei ME/CFS läuft in beide Richtungen.
+
+Bei Patienten, die essen können, ist unfreiwillige Gewichtszunahme häufig. Die Mechanismen sind unkompliziert: durch die Krankheit auferlegte nahezu vollständige körperliche Inaktivität, verlangsamter Stoffwechsel, gestörte hormonelle Regulation. Was weniger offensichtlich — und klinisch wichtig — ist, ist das spezifische Muster der Gewichtsveränderung, das auftritt.
+
+ME/CFS ist mit etwa einer Verdoppelung des Risikos des metabolischen Syndroms assoziiert: erhöhter Bauchumfang, hohe Triglyceride, erhöhter Nüchternblutzucker, reduziertes HDL. Die Beziehung ist dosisabhängig — in einer bevölkerungsbasierten Fall-Kontroll-Studie war jede zusätzliche Komponente des metabolischen Syndroms mit einem Anstieg der Chancen auf eine ME/CFS-Diagnose um 37 % assoziiert.
+
+Auffälliger noch ist ein Muster namens **sarkopenische Adipositas**: Die Fettmasse nimmt zu, während die Muskelmasse abnimmt, selbst bei Patienten, deren Gesamtkörpergewicht normal aussieht. Die Mechanismen konvergieren aus mehreren Richtungen. Der Körper kann Fett nicht effizient verbrennen — Studien haben spezifische Defizite in den Enzymen identifiziert, die Fettsäuren oxidieren (ACAD und CPT), was bedeutet, dass gespeichertes Fett sich ansammelt, statt als Treibstoff zu dienen. Gleichzeitig ist die Muskelproteinsynthese beeinträchtigt, weil die mitochondriale Dysfunktion, die Fatigue verursacht, auch den energieabhängigen Prozess des Aufbaus und der Erhaltung von Muskeln beeinträchtigt. Skelettmuskel-Anomalien bei ME/CFS — Atrophie, reduzierte oxidative Kapazität, veränderte Faserzusammensetzung — wurden histologisch dokumentiert.
+
+Das Ergebnis: ein Patient, der auf einer Waage "normalgewichtig" aussehen mag, dessen Körperzusammensetzung sich aber deutlich in Richtung Fett und weg vom Muskel verschoben hat. Standard-BMI-Messungen verpassen dies vollständig.
+
+---
+
+## Warum Standard-Ratschläge hier scheitern
+
+"Nehmen Sie durch Diät und Bewegung ab." Für die meisten mit Adipositas assoziierten Zustände ist dies eine vernünftige Anleitung. Für ME/CFS ist es kontraindiziert.
+
+Bewegungsbasiertes Gewichtsmanagement löst postexertionelles Unwohlsein aus. NICE zog seine Empfehlung für abgestufte Bewegungstherapie bei ME/CFS 2021 zurück, basierend auf Belegen von Schaden aus Patientenbefragungen und Studien-Reanalysen — und derselbe Mechanismus gilt, ob das Ziel nun Rehabilitation oder Gewichtsmanagement ist. Progressive Bewegung zur Reduktion von Körperfett bei ME/CFS einzuschreiben, folgt demselben Weg, der Zusammenbrüche und Verschlechterung verursacht; das Ziel ändert nicht die Folgen.
+
+Kalorienrestriktion ohne sorgfältige Beachtung der Nährstoffdichte verstärkt die bereits vorliegenden Ernährungsdefizite. ME/CFS-Patienten haben häufig Mängel an B-Vitaminen, Magnesium, Zink, Vitamin D und Omega-3-Fettsäuren — Nährstoffe, die die mitochondriale Funktion und die Immunregulation unterstützen. Kalorien ohne Behebung der Mikronährstoffdichte einzuschränken, hungert bereits beeinträchtigte Stoffwechselprozesse von essenziellen Kofaktoren aus.
+
+Der medizinische Rahmen "nehmen Sie einfach ab" ignoriert auch, warum das Gewicht da ist. Die Fettansammlung bei ME/CFS ist kein Verhaltensproblem. Sie ist eine Folge beeinträchtigter Fettoxidation, erzwungener Inaktivität und gestörter metabolischer Regulation. Sie zu beheben erfordert, diese vorgelagerten Ursachen anzugehen — nicht einfach Kalorien zu reduzieren oder die Bewegung zu erhöhen.
+
+---
+
+## Fehlregulierte Appetitkontrolle
+
+Die Appetitregulation ist nicht einfach eine Frage von Willenskraft oder Gewohnheit; sie wird durch Hormone und Immunsignale vermittelt, und ME/CFS stört mehrere davon.
+
+Leptin ist das Hormon, das dem Gehirn sagt: "Sie haben genug Fettreserven, hören Sie auf zu essen." Studien haben erhöhtes zirkulierendes Leptin im insulinresistenten ME/CFS-Subtyp gefunden — paradoxerweise hoch, da hohes Leptin den Appetit und die Fettspeicherung unterdrücken sollte. Das Muster ist konsistent mit Leptinresistenz, bei der das Gehirn nicht mehr angemessen auf das Signal reagiert, eine bekannte Folge chronischer Entzündung. Fett akkumuliert weiterhin trotz des Signals, das es verhindern sollte.
+
+AMPK fügt eine weitere Störungsebene hinzu. Es ist der primäre Energiesensor der Zelle, der aktiviert wird, wenn das zellulare ATP sinkt — was bei ME/CFS chronisch geschieht. AMPK treibt normalerweise den Hunger an und fördert die Fettoxidation. Aber wenn die flussabwärts gelegene Fettoxidations-Maschinerie selbst kaputt ist, wird das Signal ohne die beabsichtigte Reaktion erzeugt: Der Patient ist hungrig oder sollte hungrig sein, aber Essen löst die zellulare Energiekrise nicht, weil das Problem nicht der Mangel an Nahrung ist — es ist die Unfähigkeit, Nahrung in Energie umzuwandeln.
+
+---
+
+## Was tatsächlich hilft
+
+Die Evidenzbasis für Ernährungsinterventionen bei ME/CFS ist dünn, aber die Prinzipien sind klar. Kleine, häufige Mahlzeiten reduzieren den Energieaufwand jedes einzelnen Essereignisses und reduzieren den postprandialen orthostatischen Stress. Kohlenhydrate mit niedrigem glykämischen Index — Hafer, Reis, Kartoffeln — helfen, den Blutzucker zu stabilisieren, ohne große Insulinspitzen auszulösen, die die Insulinresistenz verschlimmern können, und ausreichend Protein verlangsamt den mit Inaktivität assoziierten Muskelabbau. Die Einbeziehung eines Ernährungsberaters ist unerlässlich; unkontrollierte Ernährungsrestriktion bei ME/CFS trägt ein dokumentiertes Risiko schwerer Ernährungsdefizite.
+
+Für Patienten, die oral keine ausreichende Aufnahme aufrechterhalten können, ist enterale Ernährung — Sondenernährung über nasogastrale oder nasojejunale Sonden — manchmal notwendig und sollte nicht verzögert werden. Die Entscheidung, bei ME/CFS mit Sondenernährung zu beginnen, ist eine medizinische Entscheidung, keine psychiatrische. Auf eine psychiatrische Beurteilung zu warten, bevor ein mangelernährter Patient ernährt wird, ist kein Versorgungsstandard — es ist ein Versagen der Versorgung.
+
+---
+
+## Das größere Bild
+
+ME/CFS stört die Ernährung von beiden Enden gleichzeitig. Manche Patienten können nicht genug essen. Andere können ihren Körper nicht davon abhalten, die Zusammensetzung auf Weisen zu ändern, die sich ihrer Kontrolle entziehen. Beide Gruppen sehen sich einer zusätzlichen Schicht von Stigmatisierung gegenüber: Dem dünnen Patienten wird angenommen, eine Essstörung zu haben; dem übergewichtigen Patienten wird unterstellt, sich nicht genug anzustrengen.
+
+Keine dieser Annahmen ist angemessen, und beide verpassen die zugrunde liegende Biologie.
+
+Das Ernährungsproblem bei ME/CFS ist ein metabolisches, immunologisches und neurologisches Problem — gekleidet in etwas Vertrauterem und Bequemeres, um es abzutun.

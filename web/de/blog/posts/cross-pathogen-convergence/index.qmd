@@ -1,0 +1,97 @@
+---
+title: "Ein Virus, ein Bakterium, ein Parasit: Verschiedene Erreger, dieselben Folgen"
+description: "1999 nahm eine Forschungsgruppe in Dubbo, Australien, 253 Personen zum Zeitpunkt der akuten Infektion mit einem von drei Erregern auf: Epstein-Barr-Virus (EBV), Coxiella burnetii (das Bakterium, das Q-Fieber verursacht) oder Ross-River-Virus (ein durch Mücken übertragenes Alphavirus). D..."
+author: "Yannick Loth"
+date: "2026-06-19"
+categories: [Immunologie, Epidemiologie, Pathophysiologie]
+lang: de
+---
+
+1999 nahm eine Forschungsgruppe in Dubbo, Australien, 253 Personen zum Zeitpunkt der akuten Infektion mit einem von drei Erregern auf: Epstein-Barr-Virus (EBV), Coxiella burnetii (das Bakterium, das Q-Fieber verursacht) oder Ross-River-Virus (ein durch Mücken übertragenes Alphavirus). Diese drei Organismen sind taxonomisch nicht verwandt. Sie infizieren unterschiedliche Gewebe, nutzen unterschiedliche Replikationsstrategien und aktivieren unterschiedliche Zweige des Immunsystems. Die Forscher verfolgten die Patienten über Monate.
+
+Nach sechs Monaten hatten 12 % der Kohorte ein postinfektiöses Fatigue-Syndrom entwickelt, das die Kriterien für chronische Fatigue erfüllte. Der Anteil war derselbe, unabhängig davon, welcher Erreger die akute Erkrankung verursacht hatte. Der Schweregrad der initialen Infektion sagte voraus, wer eine chronische Fatigue entwickeln würde. Die Identität des Erregers tat dies nicht [@Hickie2006postinfectious].
+
+Dieser Befund hätte in jeder medizinischen Fachzeitschrift die Titelseite zieren müssen. Er tat es nicht, weil er nicht zum vorherrschenden Paradigma passte — dass chronische Fatigue-Syndrome durch spezifische persistierende Infektionen verursacht werden und dass es die Aufgabe der Forschung ist, herauszufinden, welcher Erreger verantwortlich ist.
+
+Die Daten aus Dubbo sagten etwas anderes. Der Erreger spielt keine Rolle. Die Wirtsantwort tut es.
+
+---
+
+## Die Liste wird länger
+
+In den zwei Jahrzehnten seit Dubbo wurde dasselbe Muster nach einer erschreckend breiten Palette von Infektionen dokumentiert.
+
+**Epstein-Barr-Virus**: der ursprüngliche "postvirale Fatigue"-Erreger. Auf eine primäre EBV-Infektion (Mononukleose/Pfeiffersches Drüsenfieber) folgt in etwa 10–12 % der Fälle ein chronisches Fatigue-Syndrom, wobei die Symptome nach sechs Monaten und darüber hinaus fortbestehen [@Katz2009IMadolescentCFS; @White2001mononucleosis].
+
+**SARS-CoV-2**: der Erreger, der das Muster im großen Maßstab bewies. Long COVID betrifft schätzungsweise 10–20 % der infizierten Personen — zig Millionen weltweit — mit einem Symptomprofil, das erheblich mit ME/CFS überlappt: postexertionelles Unwohlsein, kognitive Dysfunktion, autonome Instabilität, nicht erholsamer Schlaf [@Davis2023]. Zum ersten Mal war das medizinische System gezwungen, postinfektiöse Fatigue als Massenereignis zu betrachten, statt als individuelle Kuriosität.
+
+**Q-Fieber**: der Dubbo-Erreger, der den Punkt am saubersten bewies. Das Q-Fieber-Fatigue-Syndrom ist als eigenständige Entität anerkannt, entwickelt sich in 20 % der akuten Q-Fieber-Fälle und äußert sich in Fatigue, Myalgien, Nachtschweiß und Stimmungsschwankungen, die jahrelang anhalten [@Marmion2005Qfever].
+
+**Ross-River-Virus**: Post-Ross-River-Fatigue dauert Monate bis Jahre und präsentiert sich mit Gelenkschmerzen, Fatigue und kognitiven Beschwerden, die von ME/CFS nicht zu unterscheiden sind [@Harley2002rossRiver].
+
+**Chikungunya und Dengue**: beide mit verlängerter postinfektiöser Fatigue und chronischer Arthralgie assoziiert, die lange nach der viralen Klärung fortbestehen [@Gerardin2011chikungunya; @Garcia2011dengueFatigue].
+
+**Giardia**: Die Dubbo-Gruppe zeigte später, dass selbst eine parasitäre Infektion — taxonomisch weit entfernt von Viren und Bakterien — bei einer Teilmenge infizierter Personen postinfektiöse Fatigue erzeugt [@Naess2012giardia_cfs]. Dem Bergen-Ausbruch wasserbedingter Giardiasis folgte ein dokumentierter Anstieg chronischer Fatigue-Fälle.
+
+**Influenza, SARS, MERS**: Historische Ausbrüche hinterließen jeweils eine Spur chronischer Fatigue-Fälle, allerdings ohne die prospektive Dokumentation, die Dubbo und Long COVID lieferten.
+
+Die Liste ist ein Verzeichnis von allem, was eine erhebliche akute Erkrankung verursachen kann. Die Organismen teilen nichts — weder Taxonomie, noch Gewebetropismus, noch Replikationsmechanismus. Was sie teilen, ist die Fähigkeit, eine schwere Immunantwort auszulösen.
+
+---
+
+## Was die Konvergenz bedeutet
+
+Wenn der Erreger die Ursache wäre, würde jede Infektion ein anderes chronisches Syndrom mit einem anderen Mechanismus produzieren. Post-EBV-Fatigue würde sich von Post-Q-Fieber-Fatigue unterscheiden, die sich von Post-Giardia-Fatigue unterscheiden würde. Das tun sie nicht. Die Syndrome sind klinisch ununterscheidbar, sobald sie etabliert sind.
+
+Wenn der Erreger die Ursache wäre, würde die Rate chronischer Fatigue mit erregerspezifischen Merkmalen korrelieren — Viruslast, Gewebetropismus, Persistenzfähigkeit. Das tut sie nicht. Die Rate korreliert mit dem Schweregrad der akuten Erkrankung und, in geringerem Maße, mit Wirtsfaktoren wie weiblichem Geschlecht und vorbestehenden Immun-Genvarianten.
+
+Wenn der Erreger die Ursache wäre, würde das Beseitigen des Erregers die Fatigue heilen. Das tut es nicht. Das Post-Behandlungs-Lyme-Syndrom besteht fort, nachdem Borrelia eradiziert ist. Long COVID besteht nach Klärung von SARS-CoV-2 fort. Der Q-Fieber-Fatigue hält lange an, nachdem Coxiella nicht mehr nachweisbar ist.
+
+Die Konvergenz über radikal verschiedene Erreger erzwingt eine Schlussfolgerung: ME/CFS (und die postinfektiösen Fatigue-Syndrome, die seine Kriterien erfüllen) ist keine chronische Infektionskrankheit. Es ist eine Wirtsantwort-Krankheit. Der Erreger ist der Auslöser. Die Krankheit ist das, was das Immunsystem tut, nachdem der Auslöser verschwunden ist.
+
+---
+
+## Die Wirtsantwort, die sich nicht abschaltet
+
+Eine normale Immunantwort auf eine Infektion folgt einer Bahn: Erkennung, Alarm, Mobilisierung, Kampf, Auflösung, Gedächtnis. Jede Phase geht in die nächste über. Die Auflösungsphase ist ebenso aktiv reguliert wie die Kampfphase — sie erfordert spezifische entzündungshemmende Zytokine (IL-10, TGF-β), regulatorische T-Zellen und die Klärung von schadensassoziierten molekularen Mustern (DAMPs), die den initialen Alarm ausgelöst haben.
+
+Das Arbeitsmodell für postinfektiöses ME/CFS ist, dass diese Auflösung fehlschlägt. Die Kampfphase geht nicht in die Auflösung über, sondern in einen chronischen, sich selbst tragenden Zustand der Immunaktivierung. Mehrere Mechanismen wurden vorgeschlagen, und sie schließen sich nicht gegenseitig aus:
+
+**Molekulare Mimikry und Autoantikörperbildung.** Die akute Immunantwort erzeugt Antikörper gegen Erregerproteine. Einige dieser Antikörper kreuzen mit Wirtsproteinen — insbesondere G-Protein-gekoppelten Rezeptoren, die die autonome Funktion und die Gefäßversorgung regulieren [@Bynke2020]. Einmal gebildet, persistieren diese Autoantikörper unabhängig vom Erreger und treiben die Dysfunktion weiter an.
+
+**Persistierende DAMPs.** Die Gewebeschädigung durch die akute Infektion hinterlässt Trümmer — mitochondriale DNA, extrazelluläres ATP, Kernproteine — die das angeborene Immunsystem als andauernde Gefahrensignale interpretiert. Auch nachdem der Erreger verschwunden ist, halten diese endogenen Gefahrensignale das Immunsystem im Kampfmodus.
+
+**Epigenetische Prägung.** Eine schwere Infektion verändert die epigenetische Programmierung von Immunzellen — DNA-Methylierungsmuster, Histonmodifikationen — auf Weisen, die nach Auflösung der Infektion fortbestehen. Das Immunsystem "erinnert" sich an die Infektion nicht durch adaptive Immunität (Antikörper und Gedächtnis-T-Zellen, was normal ist), sondern durch angeborene Immun-Reprogrammierung (trainierte Immunität), die die entzündliche Genexpression in einen hochregulierten Zustand sperrt [@Netea2020trainedImmunity].
+
+**Erschöpfte T-Zellen.** Chronische Antigen-Exposition während der akuten Phase kann zu T-Zell-Erschöpfung führen — einem Zustand, in dem T-Zellen inhibitorische Rezeptoren (PD-1, CTLA-4, LAG-3) exprimieren und ihre Fähigkeit verlieren, wirksame Antworten aufzubauen. Dies lässt latente Viren (EBV, HHV-6, CMV), die gesunde Immunsysteme unterdrückt halten, reaktivieren und schafft eine sekundäre Quelle chronischer Immunaktivierung, die gar nicht Teil der ursprünglichen Infektion war.
+
+---
+
+## Warum dies die Behandlung neu rahmt
+
+Wenn ME/CFS eine chronische Infektion wäre, bestünde die Behandlung darin, den Erreger zu finden und zu beseitigen. Jahrzehntelange antivirale und antibiotische Studien bei ME/CFS haben bestenfalls bescheidene und inkonsistente Ergebnisse erzielt — konsistent mit einem Modell, in dem der Erreger verschwunden ist, aber der Schaden bleibt.
+
+Wenn ME/CFS eine Wirtsantwort-Krankheit ist, verlagert sich das Behandlungsziel auf den festgefahrenen Immunzustand selbst:
+
+- **Immunmodulation**: Niedrig dosiertes Naltrexon, das die mikrogellale Aktivierung moduliert; IVIg, das Autoantikörperprofile zurücksetzt; Rituximab, das B-Zellen depletiert (einschließlich derjenigen, die pathogene Autoantikörper produzieren)
+- **Autoantikörper-Entfernung**: Immunadsorption, die IgG physisch aus dem Kreislauf entfernt — Studien bei ME/CFS laufen mit vorläufig positiven Ergebnissen
+- **Entzündungshemmende Ansätze**: Zielrichtung auf die spezifischen Zytokine und Pathways, die hochreguliert bleiben (JAK-Inhibitoren, IL-6-Blockade)
+- **Auflösung des DAMP-Signals**: Reduktion der mitochondrialen Schädigung (die die DAMPs erzeugt, die die Immunaktivierung aufrechterhalten), Wiederherstellung der glymphatischen Klärung (die sie aus dem Gehirn entfernt)
+
+Keiner dieser Ansätze zielt auf einen spezifischen Erreger. Alle zielen auf die Wirtsmaschinerie, die im falschen Zustand feststeckt.
+
+---
+
+## Was die Konvergenz lehrt
+
+Die erregerübergreifende Konvergenz ist eines der wichtigsten Ergebnisse der ME/CFS-Forschung und zugleich eines der am meisten unterschätzten. Sie sagt uns:
+
+**Hört auf, nach einem einzigen Erreger zu suchen.** Es gibt keinen einzelnen verursachenden Organismus. Es gibt Dutzende auslösefähiger Organismen, und die Liste wird weiter wachsen. Die Konvergenz der Ergebnisse aus divergenten Auslösern bedeutet, dass der Krankheitsmechanismus flussabwärts vom Auslöser liegt.
+
+**Untersucht den Übergang.** Das kritische Ereignis ist nicht die Infektion — es ist der Übergang von akuter Erkrankung zu chronischer Immun-Dysfunktion. Prospektive Studien, die diesen Übergang in Echtzeit erfassen (wie Dubbo, und wie Long-COVID-Studien im großen Maßstab), sind mehr wert als tausend retrospektive Erhebungen etablierter Patienten.
+
+**Behandelt den Zustand, nicht die Vorgeschichte.** Ein Patient, der ME/CFS nach EBV entwickelte, und ein Patient, der es nach einer Operation entwickelte, sind, sobald die Krankheit etabliert ist, derselbe Patient. Sie haben denselben festgefahrenen Immunzustand, dieselben metabolischen Folgen, dieselben Behandlungsziele. Ihre Einstiegspunkte unterscheiden sich. Ihre aktuelle Krankheit nicht.
+
+**Nehmt jede postinfektiöse Fatigue ernst.** Wenn 10–12 % der bedeutenden akuten Infektionen zu chronischen Fatigue-Syndromen führen, ist die globale Last erschütternd — und das meiste davon ist unsichtbar, weil die Medizin das Muster nicht erkennt. Jede akute Infektion ist ein potenzieller ME/CFS-Auslöser. Postinfektiöse Nachsorge sollte Standard sein, nicht zufällig.
+
+COVID bewies dies in einem Maßstab, den man nicht ignorieren konnte. Die Frage ist, ob die Medizin anerkennen wird, dass das Muster immer da war, für jeden Erreger, oder ob sie Long COVID als Sonderfall behandelt und die anderen 90 % der postinfektiösen ME/CFS-Patienten unsichtbar lässt.

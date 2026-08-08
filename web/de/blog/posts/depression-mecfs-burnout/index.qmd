@@ -1,0 +1,131 @@
+---
+title: "Depression, Burnout, ME/CFS: Drei Krankheiten, ein Wort"
+description: "Eine Frau in ihren Dreißigern sagt ihrem Arzt, sie sei erschöpft. Sie kann nicht arbeiten. Sie kommt kaum durch den Tag. Früher lief sie Halbmarathons, jetzt kann sie nicht zum Laden um die Ecke gehen, ohne dass es Folgen gibt, die Tage andauern."
+author: "Yannick Loth"
+date: "2026-06-19"
+categories: [Fehldiagnosen, Komorbiditäten, Diagnostik]
+lang: de
+---
+
+Eine Frau in ihren Dreißigern sagt ihrem Arzt, sie sei erschöpft. Sie kann nicht arbeiten. Sie kommt kaum durch den Tag. Früher lief sie Halbmarathons, jetzt kann sie nicht zum Laden um die Ecke gehen, ohne dass es Folgen gibt, die Tage andauern.
+
+Der Arzt sieht eine junge Frau mit normalen Blutwerten, die sagt, sie sei müde. Die Differenzialdiagnose ist kurz: Depression, Stress, Burnout. Vielleicht Schilddrüse, aber das TSH ist in Ordnung. Ein Antidepressivum wird verschrieben. Eine Überweisung zum Psychologen erfolgt. Abgestuftes Training wird empfohlen — fangen Sie klein an, bauen Sie auf, Sie fühlen sich besser, sobald Sie sich wieder bewegen.
+
+Sie versucht es. Sie trainiert. Sie kollabiert so heftig, dass sie eine Woche lang nicht aus dem Bett kommt. Sie erzählt es dem Arzt. Der Arzt passt das Antidepressivum an. Sie versucht es erneut. Sie kollabiert erneut, diesmal schlimmer. Der Arzt vermutet, sie versuche es nicht wirklich, oder die Depression sei schwerer als zunächst eingeschätzt. Ein stärkeres Antidepressivum wird verschrieben. Vielleicht eine Überweisung zur stationären Behandlung.
+
+An keinem Punkt in dieser Abfolge hat jemand die Frage gestellt, die alles verändert hätte: Macht Ihnen Bewegung ein besseres Gefühl, oder macht sie es schlimmer?
+
+---
+
+## Drei Krankheiten, ein Wartezimmer
+
+Depression, Burnout und ME/CFS erzeugen alle die Beschwerde: "Ich kann nicht funktionieren und ich bin erschöpft." Sie teilen Oberflächenmerkmale: Rückzug von Aktivitäten, reduzierte Leistung bei der Arbeit, gestörter Schlaf, kognitive Beschwerden, soziale Isolation. In einer 15-minütigen Konsultation mit normalen Laborergebnissen sind sie klinisch ununterscheidbar, sofern der Kliniker nicht weiß, welche spezifischen unterscheidenden Fragen zu stellen sind.
+
+Sie sind biologisch unverwandt. Ihre Behandlungen sind unvereinbar. Die Behandlung der einen auf einen Patienten mit einer anderen anzuwenden, verursacht dokumentierten Schaden.
+
+---
+
+## Depression: der Belohnungsschaltkreis, der verstummte
+
+Die schwere depressive Störung ist in ihrem biologischen Kern eine Störung der Belohnungsverarbeitung und der monoaminergen Signalübertragung. Die Anhedonie — die Unfähigkeit, Vergnügen zu erleben oder zu antizipieren — ist keine metaphorische Traurigkeit, sondern ein messbares Defizit der dopaminergen und serotonergen Funktion. Die Neurobildgebung zeigt eine reduzierte Aktivität im ventralen Striatum und im präfrontalen Kortex bei Belohnungsaufgaben [@Pizzagalli2009reward].
+
+Die Fatigue der Depression ist in erster Linie Amotivation: Der Körper kann leisten, aber das Gehirn erzeugt nicht den Impuls zu beginnen. Ein depressiver Patient, der in eine extern strukturierte Umgebung gebracht wird — eine Physiotherapiesitzung, ein Spaziergang mit einem Freund, der darauf besteht — entdeckt oft, dass die Aktivität selbst machbar ist, sogar leicht angenehm. Die Barriere war die Initiation, nicht die Kapazität.
+
+Bewegung ist für Depressionen wirklich therapeutisch. Nicht als Phrase, sondern als Pharmakologie: Sie erhöht BDNF, fördert die Neurogenese des Hippocampus, normalisiert die HPA-Achsen-Funktion und reguliert die monoaminerge Transmission hoch [@Schuch2016exerciseDepression]. Meta-Analysen zeigen konsistent Effektstärken, die mit Antidepressiva bei leichter bis mittelschwerer Depression vergleichbar sind.
+
+**Das Cortisol-Muster bei Depression** ist hyperaktiv. Die HPA-Achse ist überreaktiv: erhöhtes Cortisol, übertriebene Cortisol-Aufwachreaktion, abgestumpfte Feedback-Hemmung. Die Stressantwort läuft zu heiß.
+
+**Das Schlafmuster** umfasst frühmorgendliches Erwachen, reduzierte REM-Latenz und gestörten Tiefschlaf — aber entscheidend ist, dass Schlafentzug die Stimmung bei Depressionen vorübergehend *verbessern* kann. Das ist paradox und spezifisch: Es spiegelt die Rolle des Schlafs bei der Konsolidierung negativer emotionaler Erinnerungen. Depression ist eine der sehr wenigen Zustände, bei denen weniger Schlaf kurzzeitig helfen kann.
+
+---
+
+## Burnout: der Brunnen, der trockenlief
+
+Burnout ist ein arbeitsbedingtes Phänomen — in der ICD-11 als Syndrom anerkannt, das aus chronischem arbeitsbedingtem Stress resultiert, der nicht erfolgreich bewältigt wurde. Es ist durch drei Dimensionen charakterisiert: Erschöpfung, Zynismus/Depersonalisierung und reduzierte berufliche Wirksamkeit [@Maslach2016burnout].
+
+Burnout-Fatigue ist die Erschöpfung eines Systems, das bei hohem Output ohne ausreichende Erholung gelaufen ist. Der Unterschied zur Depression: Burnout hat einen klaren externen Treiber, und die Beseitigung dieses Treibers führt zur Erholung. Eine ausgebrannte Lehrerin, die ein sechsmonatiges Sabbatical nimmt, erholt sich typischerweise. Eine depressive Person, die dasselbe Sabbatical nimmt, erholt sich nicht — weil der Treiber intern ist.
+
+**Das Cortisol-Muster bei Burnout** beginnt hyperaktiv (wie bei Depression), entwickelt sich aber mit der Chronizität in Richtung Abflachung. Burnout im Spätstadium kann dieselbe flache Cortisol-Kurve wie ME/CFS zeigen, was ein Grund ist, warum langjähriges Burnout schwer von frühem ME/CFS zu unterscheiden sein kann.
+
+**Bewegung bei Burnout** ist grundsätzlich förderlich — sie unterstützt die Erholung, wenn sie mit Stressreduktion kombiniert wird. Aber Bewegung allein, ohne die Quelle der chronischen Anforderung anzugehen, ist unzureichend.
+
+**Die kritische Unterscheidung von ME/CFS:** Burnout bessert sich mit Ruhe. Echte, anhaltende Ruhe — nicht ein Wochenende, sondern Wochen bis Monate reduzierter Anforderung — kehrt die Erschöpfung um. Wenn Ruhe nicht hilft, ist Burnout die falsche Diagnose.
+
+---
+
+## ME/CFS: der Motor, der kaputtging
+
+ME/CFS ist eine neuroimmune Erkrankung, die durch postexertionelles Unwohlsein (PEM) charakterisiert ist — eine pathologische Reaktion auf Anstrengung, die eine verzögerte, unverhältnismäßige und verlängerte Verschlechterung der physischen, kognitiven und neurologischen Funktion erzeugt. Der IOM-Bericht von 2015 identifizierte PEM als zentrales Merkmal: "Patienten haben eine pathologische Unfähigkeit, bei Bedarf ausreichend Energie zu produzieren" [@IOM2015].
+
+Die Fatigue ist keine Amotivation (das Gehirn will handeln, aber der Körper kann nicht ausreichend Energie produzieren) und keine Dekonditionierung (Bewegung macht sie schlimmer, nicht besser, wie beim 2-Tage-CPET demonstriert). Sie ist metabolisch: beeinträchtigte mitochondriale Funktion, veränderte Substratnutzung, erhöhtes Laktat bei Belastungsniveaus in Ruhe, Immunaktivierung nach Anstrengung.
+
+**Das Cortisol-Muster bei ME/CFS** ist abgestumpft — reduzierte Gesamtproduktion, abgeflachte Tageskurve, fehlende oder verminderte Cortisol-Aufwachreaktion [@papadopoulos2009hypothalamus]. Dies ist das Gegenteil der hyperaktiven HPA-Achse der Depression. Die Stressantwort läuft zu kalt.
+
+**Die Bewegungsreaktion** ist der diagnostische Lackmustest. Wenn Bewegung konsistent eine verzögerte Verschlechterung erzeugt (24–72 Stunden später, die Tage bis Wochen anhält, unverhältnismäßig zur Anstrengung), ist es weder Depression noch Burnout. Der 2-Tage-CPET bestätigt dies objektiv: reduzierte ventilatorische Schwelle, reduzierte Spitzen-VO2 und früherer anaerober Übergang am Tag 2. Kein anderer Fatigue-Zustand zeigt dieses Muster.
+
+**Das Schlafmuster** ist unabhängig von der Dauer nicht erholsam. Alpha-Delta-Intrusion kontaminiert den Tiefschlaf. Patienten können zehn Stunden schlafen und aufwachen und sich vergiftet fühlen. Schlafentzug verbessert die Symptome nicht — er macht sie katastrophal schlimmer.
+
+**Ruhe löst ME/CFS nicht auf.** Sie reduziert den Schweregrad der Symptome, wenn sie mit Anforderungsreduktion (Pacing) kombiniert wird, aber sie kehrt die zugrunde liegende metabolische und immunologische Dysfunktion nicht um. Ein Patient, der sechs Monate ruht, erholt sich nicht wie ein ausgebrannter Patient. Die Maschinerie ist beschädigt, nicht nur erschöpft.
+
+---
+
+## Die unterscheidenden Fragen
+
+Fünf Fragen trennen diese drei Zustände in einer klinischen Begegnung:
+
+**1. Macht Bewegung Sie besser oder schlechter?**
+- Besser → Depression oder Burnout (besonders, wenn der Nutzen innerhalb von Stunden spürbar ist)
+- Schlechter, mit 24–72 Stunden Verzögerung → ME/CFS
+
+**2. Löst Ruhe Ihre Erschöpfung?**
+- Ja, mit anhaltender Ruhe → Burnout
+- Teilweise, aber der Ausgangswert kehrt nie zur Normalität zurück → ME/CFS
+- Nein — Sie können wochenlang ruhen und die Leere füllt sich nicht → Depression
+
+**3. Können Sie unter externem Zwang handeln?**
+- Ja — die Aktivität ist machbar, sobald sie begonnen wurde → Depression (Amotivation, nicht Unfähigkeit)
+- Nein — externer Zwang ändert die physische Einschränkung nicht → ME/CFS
+
+**4. Wann erreicht die Erschöpfung ihren Höhepunkt?**
+- Morgens (kommt nicht in Gang, bessert sich im Laufe des Tages) → Depression
+- Akkumuliert über den Tag, am Abend am schlimmsten → Burnout
+- 24–72 Stunden nach Anstrengung, mit Verzögerung → ME/CFS
+
+**5. Gab es einen klaren Auslöser?**
+- Schleichender Beginn, gebunden an anhaltende berufliche Anforderung → Burnout
+- Schleichender Beginn ohne proportionalen externen Stressor → Depression
+- Plötzlicher Beginn nach Infektion, Operation, Trauma oder identifizierbarem Ereignis → ME/CFS (in ~70 % der Fälle)
+
+Keine einzelne Frage ist diagnostisch. Es ist das Muster über alle fünf.
+
+---
+
+## Autistisches Burnout: die vierte Entität
+
+Es gibt einen vierten Fatiguen-Zustand, der nicht sauber in die drei oben genannten passt und zunehmend anerkannt wird: autistisches Burnout. Dies ist kein berufliches Burnout mit angehängter Autismus-Diagnose. Es ist ein spezifisches Phänomen: die progressive Energie-Depletion, die aus anhaltendem Masking autistischer Merkmale in neurotypischen Umgebungen resultiert.
+
+Masking — das Unterdrücken von Stimming, das Erzwingen von Blickkontakt, das Überwachen und Nachahmen sozialer Hinweise in Echtzeit, das Bewältigen sensorischer Überlastung ohne Anzeichen von Not — ist kognitiv und metabolisch teuer. Es erfordert kontinuierliche exekutive Funktion, die neurotypische Menschen nicht aufwenden. Über Monate und Jahre depletiert diese chronische Ausgabe die Reserven. Der Zusammenbruch, wenn er kommt, sieht aus wie ME/CFS: tiefe Fatigue, kognitive Abschaltung, sensorische Hyperreaktivität, Rückzug.
+
+Die Kernunterscheidung: Autistisches Burnout löst sich auf, wenn die Masking-Anforderungen reduziert werden. Eine autistische Person, die in eine sensorisch freundliche Umgebung mit reduzierten sozialen Anforderungen wechselt, erholt sich typischerweise, manchmal schnell. Wenn das Burnout jahrelang angehalten hat, kann die Erholung langsamer und unvollständig sein — aber die Bahn führt zur Besserung, sobald die Anforderungsquelle angegangen wird.
+
+Für autistische Personen, die auch ME/CFS haben, sind die beiden Energieverlustquellen additiv. Masking depletiert dasselbe Energiebudget, das PEM depletiert. Die Masking-Anforderung zu reduzieren ist keine Luxus-Akommodation — es ist eine direkte Intervention, die die gesamte metabolische Last reduziert und die PEM-Häufigkeit und -Schwere verringern kann.
+
+---
+
+## Die Kosten der Vermischung
+
+Die PACE-Studie [@White2011pace] verschrieb ME/CFS-Patienten abgestufte Bewegungstherapie und kognitive Verhaltenstherapie unter Verwendung eines Protokolls, das von der Dekonditionierungs-Hypothese abgeleitet war — der Annahme, dass ME/CFS durch Inaktivität und Krankheitsüberzeugungen aufrechterhalten wird und dass abgestufte Bewegung es umkehren würde, so wie sie depressiven Rückzug umkehrt.
+
+Die Studie beanspruchte Erfolg. Eine unabhängige Reanalyse unter Verwendung der eigenen vorspezifizierten Endpunkte der Studie zeigte keinen signifikanten Nutzen [@Wilshire2018]. Patientenbefragungen berichteten, dass die abgestufte Bewegungstherapie die Intervention war, die ihren Zustand am wahrscheinlichsten verschlechterte, wobei 74 % der Befragten eine Verschlechterung berichteten [@MEAssociation2015survey].
+
+Der Schaden war nicht zufällig. Er war aus der Biologie vorhersagbar. Bewegungstherapie wirkt bei Depressionen, weil die Barriere Amotivation ist und das System die Last bewältigen kann. Bewegungstherapie schadet bei ME/CFS, weil die Barriere die metabolische Kapazität ist und das System die Last nicht bewältigen kann. Die Behandlung war für die falsche Diagnose richtig. Der Fehler lag nicht in der Reaktion des Patienten. Er lag in der Vermischung, die die Verschreibung rational erscheinen ließ.
+
+Diese Vermischung hält an. ME/CFS-Patienten werden immer noch an psychiatrische Dienste überwiesen, immer noch mit Antidepressiva als Primärbehandlung behandelt, immer noch zum Training ermutigt, immer noch belehrt, dass ihr Versagen, sich zu bessern, unzureichende Motivation widerspiegelt. Jede dieser Empfehlungen ist für Depression angemessen und für ME/CFS schädlich. Das Wort "müde" ist die Brücke, die die falsche Anwendung unsichtbar macht.
+
+---
+
+## Was sich ändern würde, wenn wir aufhörten, ein Wort zu verwenden
+
+Wenn klinische Aufnahmeformulare "Fatigue: ja/nein" durch einen Vier-Punkte-Diskriminator ersetzten — periphere Fatigue, Fatigabilität/PEM, Schläfrigkeit, Amotivation — würde der diagnostische Weg beim ersten Besuch abzweigen statt beim fünften. Der ME/CFS-Patient würde nie die Bewegungsverordnung erhalten. Der depressive Patient würde nie das Pacing-Protokoll erhalten. Der ausgebrannte Patient würde die Ruhe bekommen, die er braucht, statt das Medikament, das er nicht braucht.
+
+Die Barriere ist nicht Technologie, nicht Finanzierung, nicht Forschung. Es ist Vokabular. Ein Wort, das vorgibt, eine Sache zu beschreiben, angewendet auf vier. Die Biologie ist seit Jahren klar. Die Sprache hat nicht aufgeholt.
