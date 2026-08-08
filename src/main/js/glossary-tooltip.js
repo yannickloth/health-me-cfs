@@ -9,6 +9,9 @@
     : '/glossary.json';
   const CATEGORY_LABELS = {
     medication: 'Medication', supplement: 'Supplement', medication_class: 'Class',
+    diagnostic_criteria: 'Diagnostic Criteria', organisation: 'Organization', registry: 'Registry',
+    research: 'Research', anatomical: 'Anatomy', compound: 'Compound', device: 'Device',
+    abbreviation: 'Abbreviation', gene: 'Gene',
     disease: 'Disease', symptom: 'Symptom', condition: 'Condition', hormone: 'Hormone',
     neurotransmitter: 'Neurotransmitter', cytokine: 'Cytokine', protein: 'Protein',
     enzyme: 'Enzyme', molecule: 'Molecule', metabolite: 'Metabolite', pathway: 'Pathway',

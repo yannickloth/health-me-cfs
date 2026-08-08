@@ -10512,6 +10512,16 @@
     "brand": "Wakix",
     "therapeuticCategory": "Symptomatic",
     "therapeuticDepth": "Symptomatic",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pitolisant%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pitolisant"
+      }
+    ],
     "doseZones": [
       {
         "dose": "Therapeutic range",
@@ -10530,6 +10540,16 @@
     "brand": "Sunosi",
     "therapeuticCategory": "Symptomatic",
     "therapeuticDepth": "Symptomatic",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Solriamfetol%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Solriamfetol"
+      }
+    ],
     "doseZones": [
       {
         "dose": "Therapeutic range",
@@ -10548,6 +10568,16 @@
     "brand": "Northera",
     "therapeuticCategory": "Symptomatic",
     "therapeuticDepth": "Symptomatic",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Droxidopa%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Droxidopa"
+      }
+    ],
     "doseZones": [
       {
         "dose": "Therapeutic range",
@@ -10571,6 +10601,16 @@
     "brand": "Rupafin, Wystamm",
     "therapeuticCategory": "Threshold-modulatory",
     "therapeuticDepth": "Threshold-modulatory",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Rupatadine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Rupatadine"
+      }
+    ],
     "doseZones": [
       {
         "dose": "Therapeutic range",
