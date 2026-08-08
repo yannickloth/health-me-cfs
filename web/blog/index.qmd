@@ -13,3 +13,7 @@ listing:
   date-format: iso
 page-layout: full
 ---
+
+::: {.blog-lang-links}
+Also available in: English · [Français](/blog-fr/) · [Deutsch](/blog-de/)
+:::
