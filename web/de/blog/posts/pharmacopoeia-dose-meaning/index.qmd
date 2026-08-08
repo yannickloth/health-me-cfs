@@ -1,0 +1,268 @@
+---
+title: "Teil 4: Die Pharmakopöe — jede Dosierung für jedes Medikament und was sie bedeutet"
+description: "Du hast ein Medikament in einer Dosierung ausprobiert, und es hat nicht gewirkt. Oder es hat gewirkt und dann aufgehört. Oder es verursachte eine Nebenwirkung, die dein Arzt abtat. Hier erfährst du, wie du die Dosis-Wirkungs-Beziehung über achtzehn Medikamente hinweg liest — nicht nur, ob ein Medikament ‚wirkt', sondern was jede Dosisstufe über deine zugrunde liegende Biologie verrät."
+lang: de
+author: "Yannick Loth"
+date: "2026-07-27"
+categories: [Behandlung, Pharmakologie, ME/CFS]
+---
+
+Wer den Kreislauf aus Versuch und Irrtum oft genug durchgemacht hat, kennt das Muster auswendig: ein Medikament beginnen, etwas bemerken, hochdosieren, das Etwas verlieren, niedriger dosieren, das Etwas zurückbekommen. Der Arzt notiert „Responder" oder „Non-Responder" und macht weiter — eine Binärentscheidung, die den Großteil der Information verwirft. *Wo* auf der Dosisachse eine Reaktion auftrat und wo sie verschwand, ist das diagnostische Signal. Der Rest ist verlustbehaftete Kompression.
+
+Die drei vorherigen Beiträge haben begründet, warum: Die achtzehn Medikamente mit umgekehrt U-förmiger Dosis-Wirkungs-Kurve fallen in vier mechanistisch verschiedene Kategorien, und die Dosis, bei der der Nutzen auftritt, seinen Höhepunkt erreicht und sich umkehrt, kann zeigen, welcher Mechanismus limitierend ist. Dieser Beitrag ist die patientenorientierte Ergänzung zur konsolidierten Referenztabelle, die jetzt in der Hauptarbeit steht (ch32, sec-14). Was folgt, ist ein Durchgang durch jedes Medikament, jedes klinisch relevante Dosisband und was jedes Band *bedeuten kann* — Nutzen, Verlust des Nutzens, Nebenwirkungen und Stille tragen alle Information.
+
+Zwei Einschränkungen, bevor wir beginnen. Erstens: Jede hier abgeleitete medikamentenübergreifende Interpretation ist ungetestet. Die Cluster-Korrelations-Behauptung — dass die Fenster der Nrf2-Medikamente einander folgen sollten, aber nicht die Fenster der Katecholamin-Medikamente — ist die zentrale falsifizierbare Hypothese, und sie wartet auf die HIP-B-Studie. Das sind empirische Wetten, keine gesicherten Fakten. Zweitens: Das Rahmenwerk könnte falsch sein. Die Dosis, bei der ein Medikament wirkt, und die Dosis, bei der es aufhört zu wirken, bleibt Information über die Biologie, unabhängig davon, ob die interpretierende Schicht darüber Bestand hat. Die Dosis-Wirkungs-Kurve gehört dir. Die Theorie darum ist vorläufig.
+
+---
+
+## Kategorie 1: Nrf2-vermittelte Hormesis
+
+Diese Medikamente lösen antiinflammatorische und antioxidative Genexpression über den Keap1-Nrf2-ARE-Signalweg aus. Der Nutzen ist die eigene adaptive Antwort der Zelle, nicht die direkte Wirkung des Medikaments. Zu wenig Medikament löst das Stresssignal nicht aus; zu viel löscht es aus oder überfordert die kompensatorische Maschinerie der Zelle. Das therapeutische Fenster ist daher von Natur aus schmal.
+
+### LDN (Low-Dose Naltrexon, niedrig dosiertes Naltrexon)
+
+LDN trifft vier Ziele, jedes bei einer anderen Plasmakonzentration: TLR4/Nrf2-hormetisches Priming (Peak bei 0,5–1,5 mg), kompensatorische Opioid-Hochregulierung (Plateau bis 1,5–3,0 mg), Wiederherstellung des TRPM3-Ionenkanals (wahrscheinlich 3,0–4,5 mg) und Orexin-Disinhibition (folgt der TLR4-Kurve). Die richtige Dosis hängt ganz davon ab, welcher Mechanismus dominant ist — die vollständige Vier-Mechanismen-Kaskade findest du in Teil 1.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 0,25–0,5 mg | Mikrodosis-Sonde | **Wenn es wirkt:** Hohe Empfindlichkeit; ein schmales Fenster über alle Nrf2-Cluster-Medikamente hinweg ist wahrscheinlich. **Wenn es nicht wirkt:** Die Auslöseschwelle wird möglicherweise nicht erreicht — versuche 1,0–1,5 mg. Oder der oxidative Grundton ist niedrig und es braucht eine größere Störung, um den Sensor auszulösen. **Nebenwirkungen:** Ein Aufflackern bei der Mikrodosis deutet auf homöostatisches Überschießen hin (siehe Teil 3): Die Pufferkapazität des Systems ist zu gering, um die adaptive Antwort einzuhegen. Versuche 0,1 mg sublinguale Tropfen; hält das Aufflackern an, ist die Dosissuche verfrüht. |
+| 0,5–1,5 mg | TLR4/Nrf2-hormetisches Priming | **Wenn es wirkt:** TLR4-getriebene Neuroinflammation ist limitierend, und die Mikroglia sind Nrf2-ansprechbar. Die Breite dieses Fensters (Nutzenverlust bei 1,0 mg gegenüber bis 1,5 mg anhaltendem) schätzt die Nrf2-Reserve. **Wenn es nicht wirkt:** Nutzenverlust unter 1,5 mg bedeutet schmale Nrf2-Reserve. Ganz ohne Nutzen deutet darauf hin, dass TLR4 nicht das limitierende Eingangssignal auf die Mikroglia ist. **Nebenwirkungen:** Lebhafte Träume, anfängliche Schlafstörung — die Opioidrezeptor-Bindung ist schon bei Mikrodosen nachweisbar. Meist vorübergehend (1–2 Wochen). Länger als 3 Wochen anhaltend: versuche 0,25 mg morgens + 0,25 mg abends. |
+| 1,5–3,0 mg | Übergangszone: TLR4/Nrf2 klingt ab, kompensatorisches Opioid steigt | **Wenn es wirkt:** Anhaltender Nutzen deutet darauf hin, dass die Opioid-Hochregulierung beiträgt oder die Nrf2-Reserve breit genug ist, das Priming aufrechtzuerhalten. **Wenn es nicht wirkt:** Der Verlust bei 1,5–2,0 mg ist das häufigste Muster — eine reine TLR4/Nrf2-dominante Antwort. **Nebenwirkungen:** Ein „aufgedrehtes" Gefühl deutet darauf hin, dass die Orexin-Disinhibition einsetzt. Wenn es erträglich ist, weiter machen. |
+| 3,0–4,5 mg | TRPM3-Wiederherstellung, Opioid-Plateau, Orexin-Disinhibition. TLR4/Nrf2 erloschen | **Wenn es wirkt:** Nutzen, der hier erstmals auftritt, deutet auf eine TRPM3-Kanalopathie oder einen Orexin-Mangel hin. Von niedrigeren Dosen anhaltender Nutzen bedeutet, dass die Opioid-Kompensation der dominante Treiber ist. **Wenn es nicht wirkt:** Kein Nutzen hier (und 0,5–1,5 mg versagten ebenfalls) bedeutet, dass keiner der vier LDN-Mechanismen limitierend ist — die Differentialdiagnose verengt sich auf den D2-Signalweg (LDA), Autoantikörper, B-Zell-Pathologie, MCAS oder strukturelle Ursachen. **Nebenwirkungen:** Übermäßige Wachheit; gekoppelt mit Verlust des antiinflammatorischen Nutzens ist der Nettoeffekt neutral bis negativ. |
+| 4,5–9,0 mg | Alle Mechanismen über dem Optimum; Annäherung an die Mu-Opioid-Antagonisierung | **Wenn es wirkt:** Kein Mechanismus hat ein Optimum über 4,5 mg — jeder Nutzen wurde bereits bei 4,5 erreicht. **Wenn es nicht wirkt:** Erwartet — alle vier Mechanismen sind über ihren Dosis-Optima. Das Medikament ist nicht gescheitert; die Dosis ist zu hoch. **Nebenwirkungen:** Gereiztheit, Dysphorie — die Mu-Antagonisierung setzt ein. Nicht weiter eskalieren. |
+| ≥50 mg | Voller Mu-Opioid-Antagonist | **Wenn es wirkt:** Keine therapeutische Rationale bei ME/CFS. **Wenn es nicht wirkt:** Alle LDN-spezifischen Mechanismen sind erloschen. **Nebenwirkungen:** Anhedonie, verschlechterter Schmerz — absetzen, zurück zur wirksamen niedrigen Dosis. |
+
+**Was es für andere Medikamente bedeutet:** Nutzen im Bereich 0,5–1,5 mg ist vereinbar mit einer Antwort auf andere Nrf2-Aktivatoren (Sulforaphan, niedrig dosiertes Melatonin, niedrig dosiertes Lithium, Quercetin). Nutzen nur bei 3,0–4,5 mg deutet darauf hin, dass Nrf2-Aktivatoren wahrscheinlich nicht helfen und TRPM3-gerichtete Interventionen (Mikrodosis-Lithium zur PIP₂-Stabilisierung) oder Orexin-gerichtete Wirkstoffe in Betracht gezogen werden sollten.
+
+### Niedrig dosiertes Lithium (0,3–5 mg elementares Lithium)
+
+Lithium wirkt über GSK-3β-Hemmung, die Nrf2 enthemmt. Bei höheren Konzentrationen kommt die IMPase-Hemmung ins Bild und erzeugt eine biphasische Zwei-Ziel-Dynamik — dieselbe Logik wie Rapamycins mTORC1/C2, aber mit einem anderen Enzympaar.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 0,3–1,0 mg | Partielle GSK-3β-Hemmung, milde Nrf2/ARE-Aktivierung | **Wenn es wirkt:** Breite Nrf2-Reserve — selbst minimale GSK-3β-Hemmung genügt. Vereinbar mit breiten Fenstern für den Rest des Clusters. **Wenn es nicht wirkt:** Schwelle nicht erreicht. Das heißt nicht, dass GSK-3β irrelevant ist. **Nebenwirkungen:** Praktisch keine; unter der Nebenwirkungsschwelle jedes bekannten Lithium-Mechanismus. |
+| 1,0–5,0 mg | Dosisabhängige GSK-3β-Hemmung, Nrf2-Aktivierung; IMPase-Hemmung beginnt | **Wenn es wirkt:** GSK-3β ist limitierend für die Nrf2-Aktivierung. Nutzenverlust über diesem Bereich deutet darauf hin, dass die IMPase-Empfindlichkeit die therapeutische Obergrenze begrenzt. **Wenn es nicht wirkt:** Kein Nutzen bei keiner Dosis deutet darauf hin, dass GSK-3β nicht der limitierende Nrf2-Repressor ist oder die IMPase-Hemmung den Nutzen durch PIP₂-Verarmung aufhebt — ohne PI-Messung nicht zu unterscheiden. **Nebenwirkungen:** Milde kognitive Trägheit (selten) — Lithium sollte abgesetzt werden, denn dann ist GSK-3β kein tragfähiges Ziel. Durst oder Polyurie bei diesen Dosen: absetzen. |
+| 5–15 mg | IMPase-Hemmung dominiert | **Wenn es wirkt:** Nutzen nur hier bedeutet, dass der Mechanismus nicht GSK-3β/Nrf2 ist — möglicherweise IP₃-Modulation oder PIP₂-Dynamik. **Wenn es nicht wirkt:** Verlust ab einer niedrigeren wirksamen Dosis bedeutet, dass die IMPase-Hemmung dem Nrf2-Nutzen entgegenwirkt. **Nebenwirkungen:** Kognitive Trägheit, emotionale Abstumpfung, mögliche Schilddrüsenwirkung bei längerer Anwendung. |
+| ≥150 mg | Psychiatrische Dosen | **Wenn es wirkt:** Nicht anwendbar auf die ME/CFS-Hormesis. **Wenn es nicht wirkt:** Erwartet. **Nebenwirkungen:** Volle Lithium-Toxizitätsprofil (Tremor, Nephrotoxizität, Hypothyreose). Nicht verwenden. |
+
+**Was es für andere Medikamente bedeutet:** Ein schmaleres Lithium-Fenster als das LDN-Fenster macht die IMPase-Empfindlichkeit und nicht die Nrf2-Reserve zum limitierenden Faktor. Ein breiteres Lithium-Fenster als das LDN-Fenster deutet darauf hin, dass der TLR4-Ton LDN spezifisch begrenzt, nicht die Nrf2-Reserve global.
+
+### Melatonin (0,3–5 mg)
+
+Melatonin hat zwei trennbare Wirkungen: ein chronobiotisches (zirkadianes) Signal, das dosisunabhängig ist, und eine Nrf2-Aktivierung über MT1/MT2-Rezeptoren, die hormetisch ist. Die Interpretation der Dosis-Wirkungs-Kurve erfordert zu unterscheiden, welche der beiden den Nutzen erzeugt.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 0,1–0,3 mg | Ultra-niedrig dosierte zirkadiane Sonde | **Wenn es wirkt:** Auflösung der Benommenheit bei höheren Dosen durch geteilte Dosen — Muster des langsamen CYP1A2-Metabolisierers. **Wenn es nicht wirkt:** Die chronobiotische Schwelle wird möglicherweise nicht erreicht. **Nebenwirkungen:** Praktisch keine; unter der Nebenwirkungsschwelle. |
+| 0,3–1,0 mg | Physiologisch: zirkadianer Phasenvorlauf + milde Nrf2-Aktivierung über MT1/MT2 | **Wenn es wirkt:** Nutzen nur beim Einschlafen → zirkadianer Mechanismus (keine Nrf2-Schlussfolgerung). Antiinflammatorischer Nutzen (reduziertes Unwohlsein, klarere Kognition) → der Nrf2-Signalweg trägt bei, vereinbar mit der Antwort auf andere Cluster-Medikamente. **Wenn es nicht wirkt:** Rein zirkadianer Nutzen bedeutet, dass Nrf2 nicht beiträgt — die Cluster-Schlussfolgerung gilt nicht. **Nebenwirkungen:** Morgenbenommenheit → langsamer CYP1A2-Stoffwechsel. Dosis teilen oder auf 0,1–0,3 mg absinken. |
+| 1,0–3,0 mg | Suraphysiologisch: MT1/MT2 + direkte antioxidative Wirkungen | **Wenn es wirkt:** Nutzen über das hinaus, was 0,3–1,0 mg erreichte → direkte antioxidative Wirkungen tragen bei, oder schneller Metabolisierer. **Wenn es nicht wirkt:** Rückgang des Nutzens ab 1 mg → MT1/MT2-Desensitisierung; das suraphysiologische Signal entbehrt der zirkadianen Spezifität. **Nebenwirkungen:** Keine über die dosisabhängige Sedierung hinaus. |
+| 3,0–5,0 mg | Hochdosiert: MT1/MT2 desensitisiert, Nrf2-Komponente erloschen | **Wenn es wirkt:** Nur der chronobiotische Effekt auf das Einschlafen kann fortbestehen — der Nrf2-vermittelte antiinflammatorische Nutzen geht wahrscheinlich verloren. **Wenn es nicht wirkt:** Erwarteter teilweiser Verlust — die hormetische antiinflammatorische Komponente fehlt. **Nebenwirkungen:** Sedierung, kein therapeutischer Vorteil gegenüber niedrigeren Dosen. |
+| >5 mg | Nur Sedierung | **Wenn es wirkt:** Placebo bestenfalls im Rahmenwerk der Hormesis. **Wenn es nicht wirkt:** Erwartet. **Nebenwirkungen:** Dosisabhängige Sedierung, keine mechanistische Rationale. |
+
+### Sulforaphan (Brokkolisprossen-Extrakt, glucoraphanin-standardisiert)
+
+Sulforaphan modifiziert direkt Cysteinreste von Keap1, um Nrf2 freizusetzen — es ist die reinste Nrf2-Sonde im Cluster.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 10–30 mg Glucoraphanin | Keap1-Cysteinmodifikation, Nrf2-Freisetzung | **Wenn es wirkt:** Extrem empfindlicher Nrf2-Sensor, reichliche Nrf2-Reserve. Schmales Fenster hier → der Nrf2-Cluster ist wahrscheinlich der Engpass. **Wenn es nicht wirkt:** Schwelle nicht erreicht; eskalieren. **Nebenwirkungen:** Magen-Darm-Beschwerden → Problem des Glucosinolat-Stoffwechsels; Anhalten → dem Darmmikrobiom fehlen Myrosinase-produzierende Bakterien. |
+| 30–60 mg Glucoraphanin | Dosisabhängige Keap1-Unterdrückung | **Wenn es wirkt:** Moderate Nrf2-Abbaurate; GSK-3β-Ton im Normalbereich. **Wenn es nicht wirkt:** Nutzenverlust bis 60 mg → schmale Nrf2-Reserve, alle Cluster-Medikamente sollten schmale, korrelierte Fenster zeigen. **Nebenwirkungen:** Magen-Darm-Symptome wie oben. |
+| 60–100 mg Glucoraphanin | Nahezu vollständige Keap1-Unterdrückung | **Wenn es wirkt:** Hohe Nrf2-Abbauraten (Keap1-Überexpression oder GSK-3β-Hyperaktivität); erfordert nahezu vollständige Keap1-Unterdrückung. **Wenn es nicht wirkt:** Der Verlust ist ein Sättigungsplateau (Keap1 vollständig modifiziert), keine echte hormetische Umkehr. **Nebenwirkungen:** Magen-Darm-Symptome wie oben. |
+| Keine Dosis-Wirkungs-Beziehung | Nrf2-Reserve flach | **Wenn es wirkt:** Maximal aktiviert oder über das Rettbare hinaus inaktiviert. **Wenn es nicht wirkt:** Cluster-Medikamente helfen wahrscheinlich nicht. **Nebenwirkungen:** — |
+
+### NAC (N-Acetylcystein)
+
+Die Dosis-Wirkungs-Beziehung von NAC wird von einer biochemischen Eigenheit dominiert: Bei 600 mg kann ein Thiol-Radikal-Schub das Glutathion erschöpfen, bevor die Netto-Synthese einsetzt, was bei etwa 20–30 % der Patienten eine vorübergehende paradoxe Verschlechterung erzeugt. Das ist ein pharmakokinetisches Ereignis, kein Versagen des Medikaments.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 600 mg | Thiol-Radikal-Schub, Beginn der Glutathion-Synthese | **Wenn es wirkt:** Anhaltender Nutzen → keine paradoxe Verschlechterung; niedriger oxidativer Ton. **Wenn es nicht wirkt:** Vorübergehende paradoxe Verschlechterung erwartet bei 20–30 % — ein pharmakokinetisches Ereignis, kein Versagen des Medikaments. **Nebenwirkungen:** Magen-Darm-Beschwerden, vorübergehende Verschlechterung (der oxidative Schub erschöpft Glutathion vor der Synthese). |
+| 1.200 mg | Glutathion-Synthese, redoxempfindliche Keap1-Nrf2-Aktivierung | **Wenn es wirkt:** Der Glutathion-Syntheseweg ist intakt; die Nrf2-Aktivierung über das redoxempfindliche Keap1 funktioniert. **Wenn es nicht wirkt:** Nrf2-Aktivierung ist downstream limitiert; Keap1-Modifikatoren (Sulforaphan) oder GSK-3β-Hemmer (Lithium), die Glutathion umgehen, können weiterhin wirken. **Nebenwirkungen:** Magen-Darm-Beschwerden. |
+| Kein Nutzen bei keiner Dosis | Glutathion-Synthese oder Nrf2-Aktivierung downstream limitiert | **Wenn es wirkt:** — **Wenn es nicht wirkt:** Keap1-Modifikatoren (Sulforaphan) oder GSK-3β-Hemmer (Lithium) können die Blockade weiterhin umgehen. **Nebenwirkungen:** Magen-Darm-Beschwerden. |
+
+### Quercetin
+
+Quercetin steht in zwei Kategorien — COMT-Hemmung (Katecholamin-Cluster) und Nrf2-Aktivierung (Nrf2-Cluster) — und der Dosisbereich zeigt, welcher Mechanismus den Nutzen treibt.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 250–500 mg | COMT-Hemmung (Katecholamin-Cluster) + Nrf2-Aktivierung über PI3K/Akt (Nrf2-Cluster) | **Wenn es wirkt:** Kognitiver Nutzen → Signal des Katecholamin-Clusters. Antiinflammatorischer Nutzen → Signal des Nrf2-Clusters. **Wenn es nicht wirkt:** Beide Mechanismen sind möglicherweise unzureichend beteiligt — eskalieren, um zu isolieren. **Nebenwirkungen:** Kopfschmerz → COMT-Genotyp beurteilen: Val/Val braucht möglicherweise mehr; Met/Met kann bei jeder Dosis überschießen. |
+| 500–1.000 mg | Beide Mechanismen in moderater Intensität beteiligt | **Wenn es wirkt:** Breiter Nutzen → sowohl COMT als auch Nrf2 tragen bei. **Wenn es nicht wirkt:** Verlust hier → schmales Fenster über beide Mechanismen. **Nebenwirkungen:** Auf noradrenerge Zeichen achten (Tachykardie, Hypertonie). |
+| 1.000–2.000 mg | Beide Mechanismen auf dem Peak → Überschießrisiko | **Wenn es wirkt:** Anhaltender Nutzen → breite COMT- und Nrf2-Reserve. **Wenn es nicht wirkt:** COMT-Hemmung überschießt → noradrenerger Überschuss. Auto-Oxidation der Catechol-Gruppe → prooxidativer Stress. **Nebenwirkungen:** Hypertonie, Tachykardie, Kopfschmerz, paradoxe Entzündung. |
+
+---
+
+## Kategorie 2: Partielle Agonismus-Invertierung (inverted-U)
+
+Das ist keine Hormesis — keine kompensatorische Hochregulierung, kein Stresssignal, keine adaptive Antwort. Aripiprazol hat am D2-Rezeptor etwa 25 % intrinsische Aktivität verglichen mit den 100 % von Dopamin. Bei niedriger Belegung ergänzt es ein defizitäres endogenes Signal (Netto-Agonismus). Bei höherer Belegung verdrängt es den wirksameren natürlichen Liganden (Netto-Antagonismus). Die Kurve ist in jeder Population mit Dopaminmangel identisch, nicht ME/CFS-spezifisch, aber die *Belegung, bei der die Umkehr auftritt*, offenbart die D2-Rezeptorreserve.
+
+### LDA (niedrig dosiertes Aripiprazol, 0,2–2 mg)
+
+LDA wirkt auf drei Ebenen, alle unter 2 mg: mikrogliäres D2/D3 (≤1 mg, erhöht die Aktivierungsschwelle, unterdrückt die Zytokinfreisetzung), mesokortikolimbisches D2/D3 (≤2 mg, stellt den kognitiven und motivationalen Dopamin-Ton wieder her) und 5-HT1A-Autorezeptoren (≤2 mg, stabilisiert die serotonerge Ausgabe). Alle drei erlöschen über 2 mg, da sich die Rezeptorbindung auf ein Standard-Antipsychotikum-Profil verschiebt (5-HT2A, H1, α1).
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 0,2–0,5 mg | Mikrogliäler D2/D3-Teilagonismus | **Wenn es wirkt:** Hoch empfindliche mikrogliäre D2-Rezeptoren. Mikrogliäre D2/D3-Aktivierung ist wahrscheinlich limitierend. **Wenn es nicht wirkt:** Dosierungsproblem, kein D2-Problem — eskalieren, nicht auf D2-Nichtbeteiligung schließen. **Nebenwirkungen:** Akathisie/Unruhe → paradox: präsynaptische Autorezeptor-Bindung, vorübergehender Dopamin-Abfall, bevor der postsynaptische Agonismus übernimmt. |
+| 0,5–1,0 mg | Mikrogliäres D2/D3 anhaltend, mesokortikolimbisches D2/D3 beginnt | **Wenn es wirkt:** Mikroglia-getriebene Entzündung ist dominant; kognitiver Nutzen tritt auf. **Wenn es nicht wirkt:** Nutzenverlust bis 1,0 mg → schmale D2-Rezeptorreserve. **Nebenwirkungen:** Unruhe, Aktivierung. |
+| 1,0–2,0 mg | Mesokortikolimbisches D2/D3 + 5-HT1A-Autorezeptoren | **Wenn es wirkt:** Breite D2-Reserve. Das Dopaminsystem ist wahrscheinlich nicht limitierend. Serotonerge Stabilisierung trägt bei. **Wenn es nicht wirkt:** Moderate D2-Reserve — das Nutzenfenster ist dosisbeschränkt. **Nebenwirkungen:** Sedierung, beginnende Gewichtszunahme. |
+| >2 mg | Standard-Antipsychotikum-Profil (5-HT2A, H1, α1) dominiert; D2-Teilagonismus erloschen | **Wenn es wirkt:** Keine therapeutische Rationale. **Wenn es nicht wirkt:** Erwartet — alle Niedrigdosis-Mechanismen sind erloschen. **Nebenwirkungen:** Akathisie, Sedierung, Gewichtszunahme, metabolische Wirkungen. Das LDA-Fenster ist geschlossen. |
+
+Tragende klinische Logik: LDA-Nonresponse, gefolgt von LDN-Response, bedeutet mikrogliäre Beteiligung über TLR4, nicht über D2. LDN-Nonresponse, gefolgt von LDA-Response, bedeutet das Gegenteil. Beide Muster bestätigen mikrogliäre Beteiligung über verschiedene Rezeptoren — die beiden Medikamente sind mechanistisch komplementär.
+
+---
+
+## Kategorie 3: Katecholamin-Invertierung im präfrontalen Kortex
+
+Die umgekehrte U-Kurve ist die natürliche Betriebskurve der D1- und α2A-Schaltkreise im präfrontalen Kortex — etablierte Neurowissenschaft, über Arten und Methoden hinweg. Diese Medikamente schieben das System entlang seiner bestehenden Kurve. Der Umkehrpunkt zeigt, wo der Katecholamin-Grundton liegt. Medikamente, die den Ton erhöhen (Modafinil, Duloxetin), schieben vom linken Arm zum Peak; Medikamente, die den Ton senken (Betablocker, Guanfacin), schieben vom rechten Arm zum Peak. Jemand, der sowohl von einem Niedrigdosis-Steigerer als auch von einem Niedrigdosis-Senker profitiert, hat einen paradox breiten Peak — ein breiter Tonbereich wird toleriert.
+
+### Modafinil
+
+Modafinil blockiert DAT und NET und erhöht so das synaptische Dopamin und Noradrenalin.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 12,5–25 mg | Mikrodosis-DAT/NET-Blockade-Sonde | **Wenn es wirkt:** Extrem hohe Empfindlichkeit gegenüber Dopamin-/Noradrenalin-Erhöhung. Vereinbar mit schmalen Fenstern des Katecholamin-Clusters. **Wenn es nicht wirkt:** Schwelle nicht erreicht; der Grundton-Dopamin kann sehr hoch sein. **Nebenwirkungen:** Praktisch keine. |
+| 25–50 mg | DAT/NET-Blockade, Katecholamin-Erhöhung | **Wenn es wirkt:** Niedrig-normales Grundton-Dopamin; schmale Fenster des Katecholamin-Clusters erwartet. Nutzen in diesem Bereich → niedriger Umkehrpunkt. **Wenn es nicht wirkt:** Kein Nutzen → kein Dopamin-Mangel-Problem oder Grundton zu hoch. **Nebenwirkungen:** Kopfschmerz, Angst (sympathische Aktivierung). |
+| 50–100 mg | Moderate DAT/NET-Blockade | **Wenn es wirkt:** Moderates Grundton-Dopamin; standardmäßiger therapeutischer Bereich. **Wenn es nicht wirkt:** Nutzenverlust bis 100 mg → schmale Reserve, bestätigend für einen niedrigen Umkehrpunkt. **Nebenwirkungen:** Kopfschmerz, Angst, Tachykardie. |
+| 100–200 mg | Volle DAT/NET-Blockade | **Wenn es wirkt:** Höheres Grundton-Dopamin, breitere Fenster. **Wenn es nicht wirkt:** — **Nebenwirkungen:** Sympathische Überaktivierung, Schlaflosigkeit. |
+| 200–400 mg | Supra-therapeutische DAT/NET-Blockade | **Wenn es wirkt:** Anhaltender Nutzen → hohes Grundton-Dopamin, sehr breite Fenster. Selten. **Wenn es nicht wirkt:** Kein Nutzen bei keiner Dosis → Guanfacin (α2A, verschieden von DAT) kann dort wirken, wo Modafinil nicht wirkt. **Nebenwirkungen:** Angst, Schlaflosigkeit, kardiovaskuläre Belastung. Nicht als Erstlinie empfohlen. |
+
+**Zentraler medikamentenübergreifender Test:** Die Korrelation der Umkehrpunkte von LDN × Modafinil testet, ob die hormetische Reserve ein echtes Systemmerkmal ist, das völlig verschiedene Rezeptoren (TLR4 vs. DAT/NET) und Zelltypen (Mikroglia vs. präsynaptische Endigungen) umspannt.
+
+### Duloxetin
+
+Duloxetin hat zwei Dosis-Wirkungs-Profile in einem Medikament vereint: SERT-Hemmung (serotonerg, monotone Sättigung — kein inverted-U) und NET-Hemmung (noradrenerg, Katecholamin-inverted-U).
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 10–20 mg | SERT-Hemmung (nur serotonerg) | **Wenn es wirkt:** Schmerzmodulation, Schlafverbesserung. Serotonerg-dominantes Muster. **Wenn es nicht wirkt:** NET-Schwelle nicht erreicht — keine Katecholamin-Schlussfolgerung. **Nebenwirkungen:** SNRI-Absetzsyndrom bei abruptem Absetzen; über ≥3 Wochen ausschleichen. |
+| 20–40 mg | SERT-Sättigung + NET-Hemmung setzt ein | **Wenn es wirkt:** Sowohl serotonerge als auch noradrenerge Vorteile. Energie und Motivation treten auf → die NET-Komponente ist beteiligt. **Wenn es nicht wirkt:** Energie stellt sich nicht ein → NET noch nicht erreicht oder Grundton-NE bereits auf dem Peak. **Nebenwirkungen:** Magen-Darm, Aktivierung, Schlaflosigkeit. |
+| 40–60 mg | Volle SERT + NET auf therapeutischem Peak | **Wenn es wirkt:** Breite serotonerge und katecholaminerge Reserve. **Wenn es nicht wirkt:** Energie/Motivation peaken hier → moderate katecholaminerge Reserve. **Nebenwirkungen:** Mehr Nebenwirkungen; Schwitzen, Blutdruckanstieg. |
+| 60–90 mg | SERT-Plateau, NET-Überschießrisiko | **Wenn es wirkt:** Der Schmerznutzen kann fortbestehen (SERT auf Plateau), während der Energienutzen invertiert (NET auf dem rechten Arm) — die Mechanismen werden erfolgreich dissoziiert. **Wenn es nicht wirkt:** Energienutzen verloren → NET auf dem rechten Arm der invertierten U-Kurve, während SERT auf dem Plateau bleibt. Das Medikament ist nicht gescheitert; die NET-Komponente ist über dem Optimum. **Nebenwirkungen:** Dosisabhängige sympathische Aktivierung. |
+| 90–120 mg | Sowohl SERT als auch NET supra-therapeutisch | **Wenn es wirkt:** Kein zusätzlicher Nutzen gegenüber 60 mg. **Wenn es nicht wirkt:** Erwarteter Verlust des noradrenergen Nutzens. **Nebenwirkungen:** Maximale Nebenwirkungslast; das Risiko des SNRI-Absetzsyndroms steigt. |
+
+### Betablocker
+
+Im Gegensatz zu Modafinil und Duloxetin, die den Katecholamin-Ton erhöhen, senken Betablocker ihn — sie schieben vom rechten Arm zum Peak.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| Propranolol 5–10 mg oder Atenolol 12,5–25 mg | Periphere β-AR-Blockade | **Wenn es wirkt:** Orthostatische Tachykardie ohne kognitive Trägheit kontrolliert → peripherer sympathischer Überschuss mit intaktem zentralem Ton. **Wenn es nicht wirkt:** Der Beitrag des peripheren β-AR kann minimal sein — kein autonomes Problem. **Nebenwirkungen:** Minimal bei diesen Dosen. |
+| Propranolol 10–20 mg | Periphere + zentrale β-AR-Modulation | **Wenn es wirkt:** Kognitive Verbesserung mit orthostatischer Kontrolle → die zentrale β-AR-Modulation bewegt den Ton zum Peak; der Grundton war übermäßig. **Wenn es nicht wirkt:** Kognitive Trägheit bei jeder Dosis → der Grundton ist niedrig, nicht hoch; die Betablockade schiebt ihn weiter nach links. **Nebenwirkungen:** Müdigkeit, Gehirnnebel, Bradykardie. |
+| Propranolol >20 mg | Nicht-selektive zentrale β-AR-Blockade | **Wenn es wirkt:** Anhaltende orthostatische Kontrolle ohne kognitiven Preis → breite katecholaminerge Reserve. **Wenn es nicht wirkt:** Erwartete kognitive Trägheit. Mit Guanfacin oder Clonidin zu kombinieren ist kontraproduktiv — das System braucht mehr Katecholamin-Ton, nicht weniger. **Nebenwirkungen:** Kognitive Trägheit, Müdigkeit, Depression, Bradykardie. |
+
+### Guanfacin
+
+Das inverted-U von Guanfacin ist in das Verhältnis von postsynaptischem (therapeutischem) zu präsynaptischem (sedierendem) α2A-Agonismus eingebaut.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 0,5–1,0 mg | Postsynaptisches α2A dominiert | **Wenn es wirkt:** Verbessertes Arbeitsgedächtnis, Fokus, Emotionsregulation. Postsynaptische Wirkungen dominieren bei therapeutischen Dosen. **Wenn es nicht wirkt:** Sedierung ohne kognitive Verbesserung → präsynaptischer α2A-Agonismus dominiert selbst bei niedrigen Werten; Guanfacin ist wahrscheinlich das falsche Medikament. **Nebenwirkungen:** Sedierung, Mundtrockenheit, Hypotonie. |
+| 1,0–2,0 mg | Postsynaptisches α2A + aufkommende präsynaptische Wirkungen | **Wenn es wirkt:** Anhaltender kognitiver Nutzen → breite α2A-Reserve. Korrelierte Fenster mit Modafinil stützen die Kohärenz des Katecholamin-Clusters (Schaltkreis-Überlappung mit Modafinils D1-vermittelter Wirkung). **Wenn es nicht wirkt:** Kognitive Trägheit ohne therapeutischen Gewinn → präsynaptische Hemmung hat den postsynaptischen Nutzen überholt. **Nebenwirkungen:** Sedierung, Bradykardie, Hypotonie. |
+| >2 mg | Präsynaptische α2A-Sedierung dominiert | **Wenn es wirkt:** Kein zusätzlicher therapeutischer Gewinn zu erwarten. **Wenn es nicht wirkt:** Erwartet — alle therapeutischen α2A-Wirkungen sind über dem Optimum. **Nebenwirkungen:** Ausgeprägte Sedierung, Bradykardie, Hypotonie. |
+
+### Gabapentinoide
+
+Gabapentinoide sind keine saubere Sonde des Katecholamin-Clusters — sie reduzieren die Glutamatfreisetzung breit, nicht nur den noradrenergen Ton.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| Gabapentin 100–300 mg oder Pregabalin 25–75 mg | α2δ-vermitteltes sensorisches Gating | **Wenn es wirkt:** Verbessertes sensorisches Gating (α2δ-vermittelt) statt optimalem PFC-Katecholamin-Ton — begrenzt den medikamentenübergreifenden Inferenzwert. **Wenn es nicht wirkt:** Schwelle nicht erreicht; vorsichtig eskalieren. **Nebenwirkungen:** Kognitive Trägheit ist bei jeder Dosis zu erwarten und dosisabhängig. |
+| Gabapentin 300–900 mg oder Pregabalin 75–150 mg | Breite Glutamatreduktion | **Wenn es wirkt:** Breiterer Nutzen kann die Reduktion des noradrenergen Tons einbeziehen; die Inferenz des Katecholamin-Clusters ist durch glutamaterge Wirkungen verfälscht. **Wenn es nicht wirkt:** — **Nebenwirkungen:** Dosisabhängige Sedierung, kognitive Trägheit. |
+| Gabapentin >900 mg oder Pregabalin >150 mg | Sedierung dominiert | **Wenn es wirkt:** Kein zusätzlicher therapeutischer Gewinn zu erwarten. **Wenn es nicht wirkt:** Die Sedierung überschreibt jedes diagnostische Signal. **Nebenwirkungen:** Ausgeprägte Sedierung, kognitive Beeinträchtigung. Nicht für die diagnostische Dosissuche empfohlen. |
+
+---
+
+## Kategorie 4: Konzentrationsabhängige Zielauswahl und biphasische Biochemie
+
+Diese Medikamente teilen die Form der umgekehrten U-Kurve mit den vorherigen Kategorien, entstehen aber aus verbindungsspezifischen Mechanismen: differenzielle Bindungsaffinität über Targets (4a), pharmakokinetische Schwellen mit Beteiligung der ZNS-Penetration (4b) oder biphasischer Stoffwechsel (4c). Sie tragen keinen medikamentenübergreifenden Vorhersagewert innerhalb dieser Kategorie, obwohl einige pfadspezifische Schlussfolgerungen bieten.
+
+### Rapamycin (Sirolimus) — Kategorie 4a
+
+Rapamycin hemmt mTORC1 mit etwa 10-fach höherer Affinität als mTORC2. Bei intermittierenden niedrigen Dosen (0,5–2 mg/Woche) wird mTORC1 teilweise blockiert — die Autophagie wird wiederhergestellt, die Mitophagie verbessert sich und das SASP seneszenter Zellen wird unterdrückt. Bei höheren Wochen-Dosen (3–6 mg) oder täglicher Dosierung setzt die mTORC2-Hemmung ein und erzeugt Insulinresistenz und Immunsuppression. Das therapeutische Fenster spiegelt das FKBP12-mTOR-Bindungsaffinitätsverhältnis wider, keine Gewebs-Hormesis des Wirts — weshalb intermittierende Wochen-Dosierung die Selektivität erhält: mTORC2 hat eine längere Off-Rate und erholt sich im medikamentenfreien Intervall.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 0,5–2 mg/Woche (intermittierend) | mTORC1-selektive Hemmung | **Wenn es wirkt:** Das mTORC1-getriebene Autophagieversagen ist limitierend. Autophagie wiederhergestellt, Mitophagie verbessert, SASP unterdrückt. **Wenn es nicht wirkt (mTORC1 vermutet):** Die Autophagie-Maschinerie downstream von mTORC1 kann defekt sein — das Tor öffnet sich, aber der Weg dahinter ist nicht funktionsfähig. **Nebenwirkungen:** Minimal bei intermittierenden niedrigen Dosen. |
+| 3–6 mg/Woche oder tägliche Dosierung | mTORC2-Hemmung setzt ein | **Wenn es wirkt:** Nutzen aus der niedrigeren Dosis verloren → die mTORC2-Selektivität ist durchbrochen; Insulinresistenz und Immunsuppression versetzen den Autophagiegewinn. **Wenn es nicht wirkt:** Erwarteter Verlust aus dem mTORC1-Fenster. **Nebenwirkungen:** Mundgeschwüre, Lipid-/Glukoseanstiege — die mTORC2-Hemmung hat das therapeutische Fenster durchbrochen. |
+| Tägliche Dosierung, Standarddosen | Volle mTORC1 + mTORC2-Hemmung | **Wenn es wirkt:** Keine therapeutische Rationale (Immunsuppression ist die primäre Wirkung). **Wenn es nicht wirkt:** Erwartet. **Nebenwirkungen:** Insulinresistenz, Immunsuppression, gestörte Wundheilung. |
+
+Die Fensterbreite von Rapamycin sagt nichts über die Fenster von LDN oder Modafinil aus. Sie kann jedoch die Antwort auf andere mTORC1-selektive Interventionen vorhersagen: intermittierendes Fasten, Metformin oder Spermidin, die die Autophagie über mTORC1 induzieren, ohne mTORC2 überhaupt zu erregen.
+
+### Kortikosteroide — Kategorie 4a
+
+Kortikosteroide sind kein einzelnes Medikament mit einer Dosis-Wirkungs-Kurve — sie sind zwei Medikamente, getrennt durch eine Konzentrationsschwelle. Die physiologische Substitution liefert das antiinflammatorische Glukokortikoid-Signal, das eine hypofunktionale HPA-Achse nicht endogen erzeugen kann. Eine suraphysiologische Dosierung unterdrückt die HPA-Achse selbst, und das Ausschleichen erzeugt eine Rebound-Entzündung, die oft schlimmer ist als der Ausgangswert.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| Hydrocortison 5–10 mg/Tag oder Prednison 2,5–5 mg/Tag | Physiologische Glukokortikoid-Substitution | **Wenn es wirkt:** Dramatische Reaktion → ACTH/Cortisol-Abklärung auf Nebenniereninsuffizienz auslösen. Die HPA-Achse ist hypofunktional. **Wenn es nicht wirkt:** Physiologische Substitution unzureichend — die zugrunde liegende Entzündung ist nicht GR-vermittelt oder die HPA-Achse ist intakt. **Nebenwirkungen:** Minimal bei Substitutionsdosen. Das Ausschleichen wird schwer, weil die zugrunde liegende HPA-Hypofunktion weiterhin besteht. |
+| Prednison 5–15 mg/Tag | Suraphysiologisch: HPA-Unterdrückungsschwelle | **Wenn es wirkt:** Glukokortikoid-Resistenz oder nicht-GR-vermittelte Entzündung — mechanistisch aufschlussreich, klinisch aber gefährlich; die therapeutische Marge schrumpft, je tiefer die HPA-Unterdrückung wird. **Wenn es nicht wirkt:** Höhere Dosis kann nötig sein — aber die Risiko-Nutzen-Rechnung verschiebt sich schnell. **Nebenwirkungen:** Die HPA-Achsen-Unterdrückung beginnt. Das Ausschleichen wird schwer, weil die Achse unterdrückt wurde und Zeit zum Erholen braucht. |
+| Prednison >15 mg/Tag | Volle HPA-Unterdrückung + systemische Glukokortikoid-Wirkungen | **Wenn es wirkt:** Der Nutzen validiert einen glukokortikoid-ansprechbaren Mechanismus, aber zu hohen Kosten. **Wenn es nicht wirkt:** Erwartet — die Nebenwirkungslast begrenzt den Nutzen. **Nebenwirkungen:** HPA-Unterdrückung, Osteoporoserisiko, Immunsuppression, Gewichtszunahme, Glukoseregulationsstörung. Rebound-Entzündung beim Ausschleichen oft schlimmer als der Ausgangswert. |
+
+### DORAs (duale Orexinrezeptor-Antagonisten) — Kategorie 4b
+
+DORAs sitzen auf einer pharmakokinetischen Klippe. Die partielle Orexin-Blockade verbessert den Schlaf, indem sie den Wachheitstrieb beruhigt. Eine nahezu vollständige Blockade kann in Schlafparalyse und Einschlaf-Halluzinationen überschießen — eine Narkolepsie-Nachahmung, die die subjektive Schlafqualität verschlechtert, selbst wenn die Gesamtschlafzeit zunimmt.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| Daridorexant 25 mg oder Suvorexant 10 mg | Partielle Orexin-Blockade | **Wenn es wirkt:** Schlaf verbessert, indem der Wachheitstrieb ohne Überschießen beruhigt wird. Angemessene Reduktion des Orexin-Tons. **Wenn es nicht wirkt:** Unzureichende Blockade; der Teilantagonismus erreicht die therapeutische Schwelle nicht. Oder Orexin ist nicht das limitierende Wachheitssignal. **Nebenwirkungen:** Minimal bei diesen Dosen. |
+| Daridorexant 50 mg oder Suvorexant 20 mg | Nahezu vollständige Orexin-Blockade | **Wenn es wirkt:** Hoher Orexin-Ton, der eine nahezu vollständige Blockade für das Einschlafen erfordert. **Wenn es nicht wirkt:** Überschießen in Schlafparalyse und Einschlaf-Halluzinationen — eine Narkolepsie-Nachahmung, die die subjektive Schlafqualität verschlechtert. **Nebenwirkungen:** Schlafparalyse, Einschlaf-Halluzinationen, Benommenheit am Folgetag. Daridorexant (t½ = 8 h) gegenüber Suvorexant (t½ = 12 h) bevorzugt, um Übertragungen auf den Folgetag zu minimieren. |
+
+### H1-Antihistaminika — Kategorie 4b
+
+Die klinische Frage ist, ob das Antihistaminikum wegen der peripheren H1-Blockade (MCAS-Symptomkontrolle) oder wegen der zentralen H1-Blockade (Sedierung, Anxiolyse) nützt. Fexofenadin beantwortet das: Es ist ein P-Glykoprotein-Substrat, das aktiv aus dem ZNS ausgeschleust wird, mit nahezu keiner Hirnpenetration bei jeder Dosis.
+
+| Dosis / Wirkstoff | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| Fexofenadin 60–180 mg | Nur periphere H1-Blockade (keine ZNS-Penetration) | **Wenn es wirkt:** Symptome kontrolliert → das Ziel ist peripher (MCAS). Bestätigt, dass peripheres Histamin der Treiber ist. **Wenn es nicht wirkt:** Peripheres H1 ist entweder nicht die Ursache oder die Dosis unzureichend. **Nebenwirkungen:** Minimal; keine Sedierung (keine ZNS-Penetration). |
+| Cetirizin 5–10 mg | Periphere + zentrale H1-Blockade | **Wenn es wirkt und Fexofenadin nicht:** Zentrale Wirkungen tragen bei — der wahrgenommene Nutzen kann gar nicht über das periphere H1 laufen. Anxiolyse/Sedierung können der eigentliche Mechanismus sein. **Wenn es nicht wirkt:** H1 ist nicht der limitierende Pfad. **Nebenwirkungen:** Sedierung (ZNS-gängig). |
+
+### Allopregnanolon — Kategorie 4c
+
+Allopregnanolon ist am GABA-A-Rezeptor biphasisch, weil es wahrscheinlich zwei Stellen mit entgegengesetzten Konzentrations-Wirkungs-Kurven bindet. Die Dosis-Wirkungs-Beziehung ist hochgradig individuell und hängt von der GABA-A-Untereinheiten-Zusammensetzung, dem hormonellen Status und der Stressgeschichte ab.
+
+| Konzentration / Kontext | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| ~1–5 nM (Lutealphase-Äquivalent) | GABA-A-Stelle 1: paradoxer Anxiogenese-Effekt | **Wenn es Angst verursacht:** Paradox anxiogen bei niedrigen Konzentrationen — ein bekanntes Phänomen bei der PMDS. Die GABA-A-Untereinheiten-Zusammensetzung begünstigt bei niedrigem Allopregnanolon eine erregende Antwort. **Wenn es keine Angst verursacht:** Das GABA-A-Rezeptorsubtyp-Profil begünstigt auch bei niedrigen Konzentrationen die Hemmung. **Nebenwirkungen:** Angst, Agitation, Reizbarkeit. |
+| >10 nM (Schwangerschaftsniveau) | GABA-A-Stelle 2: Anxiolyse und Sedierung | **Wenn es wirkt:** Anxiolytisch und sedierend bei höheren Konzentrationen. Das GABA-A-Rezeptorprofil unterstützt die Hemmung auf diesen Niveaus. **Wenn es nicht wirkt:** GABA-A-Rezeptor-Unempfindlichkeit oder konkurrierender erregender Ton. **Nebenwirkungen:** Sedierung, Toleranz bei längerer Anwendung. |
+
+### Ketotifen — Kategorie 4b
+
+Ketotifen trägt zwei unabhängige therapeutische Wirkungen: Mastzellstabilisierung (nicht-H1) und H1-Blockade.
+
+| Dosis | Mechanismus | Interpretation |
+|------|-----------|----------------|
+| 0,25–1,0 mg | Mastzellstabilisierung dominiert; minimale ZNS-Penetration | **Wenn es wirkt:** MCAS-Nutzen ohne Sedierung → bestätigt den Mastzellstabilisierungs-Mechanismus. Eine dosisabhängige und sedierungslimitierte Antwort bestätigt die Mastzellbeteiligung. **Wenn es nicht wirkt:** Sedierung selbst bei 0,25 mg → hohe ZNS-Penetrationsempfindlichkeit, spricht für rein periphere Interventionen. **Nebenwirkungen:** Minimal; Sedierung bei 0,25 mg ist selbst diagnostisch — deutet auf hohe ZNS-Penetrationsempfindlichkeit hin. |
+| 1,0–2,0 mg | Mastzellstabilisierung + zentrale H1-Blockade | **Wenn es wirkt:** Zusätzlicher MCAS-Nutzen auf Kosten der Sedierung — akzeptabler Kompromiss, wenn die Mastzellstabilisierung dosisabhängig ist. **Wenn es nicht wirkt:** Die zentrale H1-Blockade erzeugt bei den meisten Menschen klinisch signifikante Sedierung, die die Mastzellgewinne aufhebt. **Nebenwirkungen:** Klinisch signifikante Sedierung bei den meisten Menschen. |
+| 2,0–4,0 mg | Zentrale H1-Blockade dominiert; Sedierungskosten | **Wenn es wirkt:** Kein zusätzlicher Nutzen gegenüber 1,0–2,0 mg. **Wenn es nicht wirkt:** Die Sedierungskosten übersteigen den Mastzellstabilisierungsgewinn — der Nettonutzen invertiert. **Nebenwirkungen:** Ausgeprägte Sedierung; die Gewinne aus der Mastzellstabilisierung werden überschrieben. |
+
+---
+
+## Das Muster über Medikamente hinweg lesen
+
+Der diagnostische Ertrag liegt nicht in den Dosis-Wirkungs-Kurven eines einzelnen Medikaments. Er entsteht durch den Vergleich über alle Medikamente hinweg, die eine Person ausprobiert hat.
+
+Wenn alle Nrf2-Cluster-Medikamente schmale Fenster zeigen — Nutzenverlust bei niedrigen Dosen über LDN, Sulforaphan, Lithium, Melatonin hinweg — deutet das auf eine erschöpfte Nrf2-transkriptionelle Reserve hin. Es gibt eine signifikante Nrf2-abhängige entzündliche Komponente, aber die adaptive Maschinerie ist erschöpft. Die Strategie verschiebt sich hin zu Nrf2-schonenden Interventionen: die allostatische Last reduzieren, Medikamente vermeiden, die für den Nutzen auf Nrf2 angewiesen sind, Sulforaphan als Präconditionierung vor anderen Cluster-Medikamenten in Betracht ziehen. Das Spiegelbild — durchgehend breite Fenster — bedeutet, dass die Nrf2-Reserve reichlich ist und Nrf2 wahrscheinlich nicht der Engpass ist.
+
+Dieselbe Logik gilt für den Katecholamin-Cluster. Überall schmale Fenster implizieren, dass der dynamische Bereich des präfrontalen Katecholamins komprimiert ist, wobei der Grundton nahe am Peak der umgekehrten U-Kurve liegt; kleine Störungen in beide Richtungen verursachen Probleme. Die Dosierung muss für alle Katecholamin-aktiven Medikamente präzise sein, und der Patient ist gleichzeitig empfindlich gegenüber Medikamenten, die den Ton erhöhen, und solchen, die ihn senken. Das entgegengesetzte Bild — über den Cluster hinweg nötige hohe Dosen, keine Umkehrungen bei klinischen Dosen — deutet auf einen sehr niedrigen Grundton, monoton zunehmenden Nutzen und gut verträgliche Dosen, die bei anderen invertieren würden.
+
+Ein schmales Rapamycin-Fenster neben breiten Nrf2- und Katecholamin-Fenstern ist ein medikamentenspezifisches Signal: Die mTORC1/C2-Selektivität ist eng, aber die hormetische Reserve in anderen Systemen ist intakt. Die mTORC1-getriebene Autophagie kann weiterhin ein gültiges Ziel sein, durch präzise dosiertes Rapamycin oder mTORC1-selektive Alternativen (intermittierendes Fasten, Metformin). Keine Dosis-Wirkungs-Beziehung in irgendeinem Cluster — alle Medikamente, die flache oder monotone Kurven erzeugen — ist eine aussagekräftige Null: Das Rahmenwerk hat kein zugängliches Ziel identifiziert, und die Untersuchung sollte sich nicht-pharmakologischen oder strukturellen Ursachen zuwenden.
+
+Gemischte Muster lokalisieren die Läsion. Schmale Nrf2- mit breiten Katecholamin-Fenstern macht das Immun-Entzündungs-System zum Engpass, während die kognitive Reserve erhalten bleibt — das erwartete Muster für TLR4-dominante Neuroinflammation. Antiinflammatorische Medikamente bekommen die sorgfältige Titration; kognitive Medikamente werden freizügiger dosiert. Das Umgekehrte — breites Nrf2 mit schmalem Katecholamin — deutet auf eine Katecholamin-dominante Pathophysiologie (ausgeprägte orthostatische Intoleranz, niedriges Noradrenalin im Liegen, COMT Val/Val) und kehrt die Dosierungsprioritäten um. Jedes Cluster schmal, alle Medikamente bei sehr niedrigen Dosen invertierend, deutet auf eine globale adaptive Kompromittierung: Zellen am Rande der Dekompensation, jede pharmakologische Störung riskiert ein Überschießen. Die Strategie ist ultraniedrig, ultralangsam — stabilisieren, nicht auf Verbesserung abzielen. Die Schmalheit ist der Schweregradindikator.
+
+---
+
+## Sicherheit
+
+| Behauptung | Sicherheit |
+|-------|-----------|
+| Die mechanistische Aufteilung in vier Kategorien | Moderat (Kategorie 1: Nrf2-Hormesis in der Toxikologie, nicht in der klinischen Dosierung); Hoch (Kategorie 2: Rezeptorbelegungs-Eigenschaft); Hoch (Kategorie 3: kanonische Neurowissenschaft); Variabel (Kategorie 4: subtypendabhängig) |
+| Dosisbereich-Interpretationen sind mechanistisch korrekt | Niedrig bis moderat — begründet in der Target-Bindung jedes Medikaments, aber die klinische Relevanz bei ME/CFS ist unerwiesen |
+| Medikamentenübergreifende Cluster-Korrelations-Vorhersagen | Niedrig — die zentrale falsifizierbare Hypothese, nie getestet |
+| „Kein Nutzen bei keiner Dosis" schließt die Mechanismen eines Medikaments als limitierend aus | Moderat — nur gültig, wenn das „kein Nutzen" aus systematischer Dosissuche stammt, nicht aus einer einzelnen Dosis |
+| Die Cluster-Zuordnung sagt Subtyp und Behandlungspriorität voraus | Niedrig — kohärent, ungetestet; wartet auf HIP-B |
+| Globale Schmalheit weist auf schwere adaptive Kompromittierung hin | Niedrig bis moderat — vereinbar mit dem Rahmenwerk, aber ohne Korrelationsdaten nicht von zufällig zusammentreffenden medikamentenspezifischen Empfindlichkeiten zu unterscheiden |
+
+*Dieser Beitrag stützt sich auf das Hormesis-Rahmenwerk, entwickelt in Loth 2026 (https://yannickloth.github.io/health-me-cfs/). Die mechanistische Aufteilung in vier Kategorien (Teil 2) und die fünf LDN-Dosis-Wirkungs-Muster (Teil 3) liefern die konzeptuelle Architektur. Spezifische Dosisbereiche und Interpretationen sind zusammengesetzt aus dem 17-Medikamente-Hormesis-Inversions-Rahmenwerk, der HIP-B-Studienspezifikation, der mechanistischen Cluster-Analyse und klinischer Beobachtung — die vollständigen mechanistischen Kaskaden findest du in der Hauptarbeit.*
+
+*Serie: [Teil 1: Gründe, warum mehr nicht besser ist](../more-isnt-better-ldn-lda/) · [Teil 2: Die umgekehrte U-Kurve ist nicht eine Sache](../inverted-u-not-one-thing/) · [Teil 3: Deine LDN-Dosis ist eine Diagnose](../dose-is-diagnostic-ldn/)*

@@ -1,0 +1,137 @@
+---
+title: "Wochenrückblick — 21.–27. Juli 2026: Ein pharmakodiagnostischer Kompass, sechs neue Kapitel, Begleitpublikationen und die Dosis, die ein Diagnostikum ist"
+description: "Die Arbeit wuchs um 102 Medikamente, ein 17-Dosen-Hormesis-Framework, 4 neue Kapitel, 924 Glossareinträge, eine invers-U-Zerlegung in 4 Kategorien und die erste pharmakodiagnostische Matrix, die jede Arzneimittelreaktion einem zugrunde liegenden Mechanismus zuordnet – alles in einer Woche."
+author: "Yannick Loth"
+date: "2026-07-27"
+categories: [Research, ME/CFS, Update]
+lang: de
+---
+
+Der Rückblick der letzten Woche behandelte Genetik, Zelltyp-Anreicherung und skelettale Asymmetrie. Es ist schwer, den Umfang dessen zu vermitteln, was seither geschehen ist, daher gliedere ich das Ganze nach Themen statt nach Zeitverlauf. Die Kurzfassung: Die Arbeit enthält jetzt ein umfassendes pharmakodiagnostisches Framework, das 102 Medikamente umfasst, ein Hormesis-Modell mit 17 Medikamenten, das in vier mechanistisch unterschiedliche Kategorien zerlegt ist, sechs neue Kapitel ([Vergleichende Nosologie](../../../part2-pathophysiology/ch16-causal-hierarchy/01-causal-hierarchy-root-causes-amplifiers-and-consequences.qmd), [Forschungsmethoden](../../../part4-research/ch34-epidemiology-outcomes/01-epidemiological-and-outcomes-research.qmd), [Globale Perspektiven](../../../part4-research/ch36-translational-findings/01-translational-findings-implications-for-related-conditions.qmd), [Wirtschaftliche Auswirkungen](../../../part4-research/ch34-epidemiology-outcomes/04-quality-of-life-and-disability-studies.qmd)), 924 [Glossareinträge](../../../z-appendices/appendix-a-terminology/01-glossary-of-medical-and-scientific-terms.qmd) mit Live-Tooltips in der Webversion sowie die erste formale [pharmakodiagnostische Matrix](../../../part3-treatment/ch30-mechanistic-cascade-tracing/12-medication-reference-drug-indexed-pharmacodiagnostic-compendium.qmd), die Wirkungsmuster mit wahrscheinlichen zugrunde liegenden Mechanismen verknüpft. Das Repository verzeichnete über sieben Tage hinweg rund 213 Commits.
+
+---
+
+## Der pharmakodiagnostische Kompass
+
+Der größte einzelne Arbeitsstrang war eine pharmakodiagnostische Infrastruktur, die letzten Montag in keiner Form existierte.
+
+**[Kapitel 33: Mechanistisches Kaskaden-Tracing](../../../part3-treatment/ch30-mechanistic-cascade-tracing/01-mechanistic-cascade-tracing-from-hypothesis-to-clinical-probe.qmd)** enthält jetzt [102 Einträge zu Medikamenten, Nahrungsergänzungsmitteln und Behandlungen](../../../part3-treatment/ch30-mechanistic-cascade-tracing/12-medication-reference-drug-indexed-pharmacodiagnostic-compendium.qmd) — jeweils mit einer schrittweisen Kaskadenverfolgung durch die Mechanismen, die ein Wirkstoff anspricht, den Reaktionsmustern, die die Wirkungen und [Nebenwirkungen](../../../part3-treatment/ch30-mechanistic-cascade-tracing/10-side-effects-as-diagnostic-probes.qmd) des Wirkstoffs offenbaren, und dem, was Nicht-Reaktion oder paradoxe Verschlechterung darüber aussagt, welche Pfade nicht der Engpass sind. Das Kapitel enthält eine Taxonomie der Verschlimmerung über 11 Mechanismen für Wirkstoffe, die PEM oder eine anhaltende Verschlechterung auslösen können, eine formale [pharmakodiagnostische Matrix](../../../part3-treatment/ch30-mechanistic-cascade-tracing/12-medication-reference-drug-indexed-pharmacodiagnostic-compendium.qmd), die alle 102 Wirkstoffe gegen 28 Hypothesen-Domänen kreuzverweist, sowie Dissoziationsmuster — Wirkstoffpaare, die ein Ziel teilen, sich aber bei einem anderen unterscheiden, sodass die differenzielle Reaktion die Läsion lokalisiert.
+
+Ein neuer Abschnitt über [negative Kontrollklassen von Medikamenten](../../../part3-treatment/ch30-mechanistic-cascade-tracing/10-side-effects-as-diagnostic-probes.qmd) definiert eine formale Taxonomie: Rituximab als kanonische Negativkontrolle, Immunglobulinadsorption als Grenzfall und die Unterscheidung zwischen „Null-Leiter" und „Negativkontroll-Leiter", die verhindert, dass man von „Null-Ergebnis" auf „Null-Behauptung" abrutscht. Das ist sowohl eine methodologische Absicherung — jede Hypothese in der Arbeit muss angeben, welches Ergebnis aus welcher Klasse von Negativkontrolle sie widerlegen würde — als auch ein diagnostisches Instrument: Das Medikament, das *nicht* wirkt, ist eine Information über den Mechanismus, der nicht vorhanden ist.
+
+**Pulstherapie** und **zeitabhängige Hormesis** sind jetzt als allgemeiner Behandlungsrahmen integriert. Einige Medikamente haben ein therapeutisches Fenster, das zeitabhängig und nicht nur dosisabhängig ist — intermittierende Dosierung erhält die Selektivität über Ziele hinweg mit unterschiedlichen Off-Raten (Rapamycin, mTORC1 vs. mTORC2), verhindert die Rezeptor-Desensibilisierung, die hormetische Kompensation löscht, und nutzt die Erholungsphase, in der die adaptive Reaktion über dem Ausgangswert liegt. Eine ergänzende Spekulation — **[interozeptive Dosisfindung](../../../part3-treatment/ch30-mechanistic-cascade-tracing/08-integrative-models.qmd)** — fasst die absichtliche intermittierende Dosierung als rationales N-of-1-Experiment neu auf: Die Patientin titriert in Richtung der Dosis, die ein internes Nutzensignal erzeugt, und das Titrationsmuster selbst wird diagnostisch.
+
+**Die TRPV1-Temperaturachse** ist jetzt als autonomer Belastungstest im Abschnitt [integrative Spekulationen](../../../part2-pathophysiology/ch15-symptom-producing-mechanisms/02-sickness-behavior-as-overarching-integrative-framework.qmd) von Kapitel 15 integriert. Thermische Belastungen — Kälteexposition, heisses Bad, Sauna — belasten auf unterschiedliche Weise TRPV1-vermittelte vasomotorische, sudomotorische und baroreflektorische Pfade. Reaktionsmuster auf diese Belastungen (übertriebene Vasokonstriktion, ausbleibendes Schwitzen, verzögerte Herzfrequenzerholung) lokalisieren das autonome Versagen auf bestimmte Rezeptor-Kanal-Komplexe und sagen voraus, welche pharmakologischen Sonden (Capsaicin, Menthol, TRPV1-Antagonisten) am ehesten eine Pathologie aufdecken. Eine [eigens vorgeschlagene Studie](../../../part4-research/ch38-proposed-studies/29-thermoregulatory-research-protocols.qmd) legt nun das Design fest.
+
+---
+
+## Das 17-Medikamente-Hormesis-Framework und seine vier Kategorien
+
+Das Hormesis-Framework wurde von 5 auf 17 Medikamente erweitert, gestützt durch 11 neue Zitationen und einen 5. mechanistischen Cluster (D2-Partialagonisten, die Aripiprazol/LDA vom Nrf2-Cluster trennen), und ist jetzt in das Kapitel **[Integrative Modelle](../../../part2-pathophysiology/ch15-symptom-producing-mechanisms/01-symptom-producing-mechanisms-in-me-cfs.qmd)** integriert. Die vier Kategorien — und ihre diagnostischen Implikationen — sind:
+
+- **Kategorie 1: Nrf2-vermittelte Hormesis** (LDN, niedrig dosiertes Lithium, Melatonin, Sulforaphan, NAC, Quercetin). Das Medikament löst ein mildes Stresssignal aus; die adaptive Reaktion der Zelle über Keap1-Nrf2-ARE ist der eigentliche therapeutische Mechanismus. Das therapeutische Fenster spiegelt die transkriptionelle Reserve von Nrf2 wider. Enge Fenster sagen enge Fenster für alle Wirkstoffe des Clusters voraus.
+- **Kategorie 2: Invers-U der Partialagonisten** (LDA/Aripiprazol). Keine Hormesis — eine Rezeptorbesetzungseigenschaft. Bei geringer Besetzung netto Agonismus; bei höherer Besetzung verdrängt der Partialagonist den stärkeren endogenen Liganden und kehrt sich zu netto Antagonismus um. Der Umkehrpunkt offenbart die D2-Rezeptorreserve.
+- **Kategorie 3: Katecholamin-Invers-U im PFC** (Modafinil, Duloxetin, Betablocker, Guanfacin). Diese Wirkstoffe bewegen sich entlang der nativen umgekehrten U-Kurve von Dopamin/Noradrenalin des präfrontalen Kortex. Die Dosis, bei der der Nutzen auftritt, seinen Höhepunkt erreicht und sich umkehrt, offenbart den katecholaminergen Grundtonus.
+- **Kategorie 4: Konzentrationsabhängige Zielselektion** (Rapamycin, Kortikosteroide, DORAs, H1-Antihistaminika, Allopregnanolon, Ketotifen). Das Invers-U jedes Wirkstoffs entsteht aus verbindungsspezifischer Biochemie — unterschiedliche Bindungsaffinität, ZNS-Eintrittsschwellenwerte oder biphasischer Metabolismus.
+
+Die zentrale falsifizierbare Hypothese: Die Umkehrpunkte der Wirkstoffe sollten sich nach Kategorie bündeln. Wirkstoffe des Nrf2-Clusters sollten korrelierte Fenster haben. Wirkstoffe des Katecholamin-Clusters sollten korrelierte Fenster haben. Die beiden Cluster sollten nicht korrelieren. Das wurde nie getestet, und die Arbeit legt nun ein Studiendesign (HIP-B) fest, um es zu testen.
+
+Darüber hinaus integriert **[Kapitel 8](../../../part2-pathophysiology/ch07-immune-dysfunction/01-immune-system-dysfunction.qmd)** jetzt eine [HSV-Latenz-und-Reaktivierungs-Sonde](../../../part2-pathophysiology/ch07-immune-dysfunction/06-viral-reactivation-and-persistence.qmd): sichtbare Herpesvirus-Reaktivierung (Lippenherpes) als patientenberichterbarer, PEM-bezogener Biomarker endogener Reaktivierung, der den HSV-1/2-Latenzzyklus als Fenster in die breitere Herpesvirus-Reaktivierungsdynamik nutzt, die bei ME/CFS-Symptomschüben eine Rolle spielt.
+
+Die begleitende Blog-Serie — [Warum mehr nicht besser ist](../more-isnt-better-ldn-lda/), [Das Inverse-U ist nicht eine Sache](../inverted-u-not-one-thing/), [Ihre LDN-Dosis ist ein Diagnostikum](../dose-is-diagnostic-ldn/) und [Die Pharmakopöe — jeder Dosisbereich für jedes Medikament und was er bedeutet](../pharmacopoeia-dose-meaning/) — ist das patientenzentrierte Äquivalent der konsolidierten Referenztabelle.
+
+Zwei letzte Erweiterungen des pharmakodiagnostischen Frameworks kamen spät in der Woche hinzu:
+
+**Klassifikation der therapeutischen Tiefe**: Alle 193 Arzneimitteleinträge in sec-12 und alle 208 Glossareinträge zu Medikamenten wurden entlang einer Achse Restaurativ→Symptomatisch klassifiziert, wodurch die bestehende Drei-Ebenen-Taxonomie von ch32 über die gesamte Arbeit systematisiert wurde. Jedes Medikament trägt nun eine Tiefenbewertung, die die Reparatur grundlegender Mechanismen von der Symptomlinderung unterscheidet — und damit explizit macht, was die pharmakodiagnostische Inferenz aus einer bestimmten Reaktion schließen kann und was nicht.
+
+**Ligand-Rezeptor-Dualität**: ein Meta-Framework, das die Beobachtung formalisiert, dass die meisten auf Rezeptoren zielenden Medikamente einen Signalweg aktivieren, während sie am selben Rezeptor einen anderen unterdrücken. Aripiprazol aktiviert am D2-Rezeptor cAMP, während es β-Arrestin unterdrückt — ein biasierter Agonist, kein einfacher Partialagonist. Diese Dualität bedeutet, dass die pharmakodiagnostische Inferenz „Medikament X wirkt" in „welchen Arm des Signalportfolios des Rezeptors braucht das System der Patientin?" zerlegen muss. Das Framework ist nun in die sec-12-Struktur eingebettet.
+
+---
+
+## Transkriptomik: Amatica Health RNA-seq
+
+Vorläufige Befunde aus der [Amatica-Health-RNA-seq-Kohorte](../../../part2-pathophysiology/ch06-cellular-and-metabolic-findings/) wurden in Kapitel 6 integriert. Dies sind die ersten ME/CFS-Transkriptomdaten, die Patientinnen mit bestätigten komorbiden Hypermobilitätsspektrum-Störungen einschließen, wodurch eine natürliche Stratifizierungsachse entsteht. Die Befunde konvergieren mit bestehenden transkriptomischen Signaturen — mitochondriale Herunterregulierung, Immundysregulation und metabolische Verschiebung —, während sie neue Genexpressionsmuster hervorbringen, die sich zwischen hypermobilen und nicht-hypermobilen Schichten unterscheiden, was auf eine eigene transkriptomische Architektur unter dem ME/CFS-Dach hindeutet.
+
+---
+
+## Muskuläre mikrovaskuläre Dysfunktion und Gehirn-Clearance
+
+Zwei strukturelle Pathophysiologie-Stränge wurden über mehrere Kapitel eingewoben:
+
+**Muskuläre Kapillar-Mikrovaskulatur-Dysfunktion** — die Befunde von Slaghekke/Charlton zur Verdickung der Basalmembran von Kapillaren und zur gestörten Sauerstoffextraktion — wurde über die Kapitel 6, 10, 13, 14k und 17 integriert. Dies ist ein Brückenmechanismus: Er verbindet die systemische mikrovaskuläre Pathologie mit der muskelspezifischen PEM-Kaskade und liefert ein konkretes strukturelles Korrelat für die gestörte Sauerstoffzufuhr, die selbst geringe Anstrengung katastrophal werden lässt.
+
+**Gehirn-Clearance-Architektur** — Kapitel 13 wurde mit einem vollständigen Framework zur glymphatischen und meningealen Lymphdrainage bestückt. Das Modell erklärt, warum nicht-erholsamer Schlaf mechanistisch spezifisch und nicht nur symptomatisch sein könnte: Eine beeinträchtigte glymphatische Clearance während des Schlafs bedeutet, dass jede Nacht die Stoffwechselnebenprodukte der neuronalen Aktivität des Vortages nicht beseitigt, was eine kumulative neurotoxische Last erzeugt, die der Schlaf nicht zurücksetzen kann.
+
+---
+
+## T-Zell-mitochondriale Erschöpfung
+
+Das Thema t-Zell-mitochondriale-Erschöpfung durchlief seine vollständige Integrationspipeline — verband Kapitel 6 und Kapitel 7, erhielt eine Sicherheits-Erhöhung auf Phase 7 und fügte Glossareinträge hinzu. Das Framework beschreibt eine sich selbst verstärkende Schleife, in der chronische Immunaktivierung mitochondriale Erschöpfung in T-Zellen antreibt, erschöpfte T-Zellen die metabolische Fähigkeit verlieren, persistierende Antigene zu beseitigen, und restliches Antigen weitere Aktivierung antreibt. Dies ist kein vom mitochondrialen Thema der Arbeit getrennter Mechanismus, sondern eine zelltyp-spezifische Instanzierung desselben Energieversagensprinzips — angewendet auf genau die Zellen, die die Immundysfunktion auflösen sollten.
+
+---
+
+## Begleitpublikationen: Forschungs- und Software-Ideen
+
+Zwei neue eigenständige Begleitpublikationen wurden hinzugefügt:
+
+**[Forschungsideen](../../../companions/research-ideas/)** — 15 formale Forschungsvorschläge, die Diagnostik, Behandlungstests, Biomarker-Validierung und epidemiologische Studien abdecken, jeweils mit angegebenem Design, Machbarkeitseinschätzung und erwartetem Evidenzgewicht.
+
+**[Software-Ideen](../../../companions/software-ideas/)** — 17 patientenpriorisierte Softwarekonzepte, die die praktische Infrastrukturlücke adressieren: Symptom-Tracker, die die PEM-Verzögerung erfassen, Behandlungsregister mit Dosis-Wirkungs-Oberflächen, N-of-1-Studienplattformen und Entscheidungsunterstützung für die Differentialdiagnose. Das sind konkrete Spezifikationen, keine Feature-Listen — jedes enthält das Datenmodell und die Inferenzlogik.
+
+---
+
+## HSAT2-Long-Abstract
+
+Genevièves [Long-Abstract für ISLC-PAIS 2026](../../../companions/hsat2/) wurde finalisiert und eingereicht. Das Abstract präsentiert den Mechanismus der Mikroglia-Sensibilisierung des HSAT2-Falls als ausgearbeitetes Beispiel, das die patientenbeobachtete Pharmakologie (LDA-Dosis-Wirkung) mit formaler mechanistischer Modellierung verbindet, einschließlich einer SVG-Abbildung zur Genom-Organisation. Es ist die erste wissenschaftliche Präsentation der patientenbasierten Datenschicht der Arbeit.
+
+---
+
+## Der Diskrepanz-Index zwischen Subjektiven und Messbaren Grössen
+
+[Kapitel 15](../../../part2-pathophysiology/ch15-symptom-producing-mechanisms/01-symptom-producing-mechanisms-in-me-cfs.qmd) führt nun in seinem [eigenen Abschnitt](../../../part2-pathophysiology/ch15-symptom-producing-mechanisms/01-symptom-producing-mechanisms-in-me-cfs.qmd) ein formales diagnostisches Konstrukt ein: die Lücke zwischen dem, was eine Patientin angibt, tun zu können, und dem, was objektive Tests messen, dass sie kann. Bei ME/CFS erbringen Patientinnen in einbereichsabhängigen Tests häufig normale Leistungen — Griffkraft, VO₂max, kognitive Testbatterie —, während sie diese Leistung nicht über Bereiche oder Tage hinweg aufrechterhalten können. Der Diskrepanz-Index quantifiziert dies: Eine hohe Diskrepanz ist diagnostisch informativ, kein Beleg für Simulation. Er spiegelt die ökologische-Validität-Lücke in Standardtests wider: Die Messung in einem Einzelbereich, einer einzigen Sitzung und in nicht-ermüdetem Zustand erfasst nicht die multisystemische, anstrengungsabhängige Natur der Krankheit mit verzögertem Kollaps. Das Framework ist nun in das Kapitel „Integrative Modelle" mit einer vollständigen kommentierten Bibliografie und der Spezifikation diagnostischer Schwellenwerte eingebettet.
+
+---
+
+## Sechs neue Kapitel
+
+**[Kapitel 16: Vergleichende Nosologie](../../../part2-pathophysiology/ch16-causal-hierarchy/01-causal-hierarchy-root-causes-amplifiers-and-consequences.qmd)** — von Grund auf geschrieben. Vergleicht systematisch die ME/CFS-Diagnosekriterien (Fukuda, CCC, ICC, IOM, NICE) über Bereiche hinweg, mit einer tragend-gegenüber-sekundär Zerlegung von Verriegelungen (lock decomposition), einem epigenetischen Konsolidierungsmodell, einer GPCR-Autoantikörper-Kaskade und PANS/PANDAS, integriert als Existenzbeweis für Architektur B von neuroimmunen Enzephalitis-Spektren. Das Kapitel formalisiert die Unterscheidung zwischen Verriegelungen (locks), die den Krankheitszustand aufrechterhalten, und solchen, die ihn verstärken.
+
+**[Kapitel 34: Forschungsmethoden](../../../part4-research/ch34-epidemiology-outcomes/01-epidemiological-and-outcomes-research.qmd)** — aus einem Stub entwickelt. Analyse der Methodik über acht Teilthemen: CPET-Protokolle, Biomarker-Validierungs-Frameworks, N-of-1-Studiendesign, Bayessche adaptive Designs, Auswahlkriterien für Negativkontrollen und die pharmakodiagnostische Inferenzlogik. Das Kapitel liefert das methodologische Gerüst für jede vorgeschlagene Studie der Arbeit.
+
+**[Kapitel 40: Wirtschaftliche Auswirkungen](../../../part4-research/ch34-epidemiology-outcomes/04-quality-of-life-and-disability-studies.qmd)** — vollständige Analyse von Krankheitskosten, Beschäftigung und der Diskrepanz zwischen Krankheitslast und Finanzierung. Dokumentiert die systematische Kluft zwischen Krankheitslast (Prävalenz × Behinderungsgewicht × Dauer) und Forschungsfinanzierung mit internationalen Vergleichsdaten.
+
+**[Kapitel 43: Globale Perspektiven](../../../part4-research/ch36-translational-findings/01-translational-findings-implications-for-related-conditions.qmd)** — 18 Länder über 6 Dimensionen (Diagnosekriterien, Zugang zur Gesundheitsversorgung, Anerkennung von Behinderung, Forschungsinfrastruktur, Patientenvertretung, kulturelle Einstellungen). Das Kapitel kartiert die geopolitischen Landschaft der ME/CFS-Versorgung und Forschung und identifiziert, wo sich Behandlungsprotokolle unterscheiden und wo sie konvergieren.
+
+**[Kapitel 39: Gesundheitssysteme und Politik](../../../part4-research/ch35-controversies/10-research-funding-disparities.qmd)** — 17 Behandlungsumgebungen, 10 Publikationen und ein 4-Fehler-Modell (diagnostisches Versagen, therapeutisches Versagen, systemisches Versagen, Versagen der Wissensproduktion), das erklärt, warum ME/CFS-Ergebnisse über Gesundheitssysteme mit grundlegend unterschiedlichen Designs hinweg schlecht sind. Strukturelles Versagen ist eine Folge des Kategorienfehlers, nicht der Ressourcenzuteilung.
+
+**[Kapitel 45: Patientengeneriertes Wissen und Citizen Science](../../../part4-research/ch37-research-infrastructure/01-research-infrastructure-proposals.qmd)** — dokumentiert das parallele Ökosystem der Wissensproduktion, das Patientinnen außerhalb formaler Institutionen aufgebaut haben: Protokollaustausch, Crowdsourcing-Behandlungsregister, Verfolgung unerwünschter Ereignisse und das informelle diagnostische Fachwissen, das erfahrene Patientinnen ansammeln.
+
+Zusätzliche Stubs für 8 weitere Kapitel wurden erstellt, um strukturelle Lücken zu schließen. Die gesamte Kapitelnummerierung wurde neu organisiert (1–55 fortlaufend), um die strukturelle Erweiterung aufzunehmen. Das bestehende [Kapitel zur Geschichte von ME/CFS](../../../part1-clinical/ch01-introduction/02-historical-context.qmd) (ch02) wurde mit einer vollständigen chronologischen Erzählung von 1934 bis 2025 bestückt und mit überlappenden Inhalten in ch01 abgeglichen. [Regenerations-Umgebungen von Satellitenzellen](../../../ops/), die bei einer früheren Umstrukturierung von Kapitel 7 verloren gingen, wurden wiederhergestellt und erhielten Korrekturen aus der adversariellen Überprüfung — eine mechanische Reparatur, die den Nutzen des Skills zur propagierenden Strategierahmung in Phase 10b belegte. Ein [Serotonin-Engpass-Integrationsplan und Suchprotokoll](../../../ops/) wurde für eine spätere Integration vorgemerkt, zusammen mit formalen Dokumenten zu [Themen-Integrationsprioritäten](../../../ops/) und [kreativen Integrationsprioritäten](../../../ops/), die die verbleibenden offenen Themen nach geschätzter Wirkung und Schwierigkeit einordnen.
+
+---
+
+## Web und Infrastruktur
+
+Das [Glossarsystem](../../../z-appendices/appendix-a-terminology/01-glossary-of-medical-and-scientific-terms.qmd) wuchs von null auf 924 Einträge mit Live-Tooltips in der Webversion, plus 172 Aliase und einen Mechanismus zum Ausnehmen ohne Tooltip. Das System umfasst Medikamente, Nahrungsergänzungsmittel, Krankheitserreger, Anatomie, Methoden und Domain-Terminologie. Jeder technische Begriff in der Webpublikation ist jetzt ein Hover-Ziel.
+
+Die Convertierungspipeline von Typst zu QMD wurde in eine prozessinterne parallele Pipeline mit 10-facher Durchsatzverbesserung umgebaut. Ein neuer BuildAuditTest führt 10 Prüfungen nach dem Build aus. Das Deploy-Timeout wurde auf 60 Minuten wiederhergestellt. Doppelte Build-Läufe wurden eliminiert. Bib-Dateien werden jetzt über BuildWeb.java automatisch generiert, statt in git verfolgt zu werden.
+
+Drei LinkedIn-Beiträge wurden im Prosastil naturalisiert. Der [KCE-Bedarfsassessment für belgisches ME/CFS](../kce-belgium-needs-assessment/) und eine [4-teilige DecodeME-GWAS-Serie](../genetics-ends-debate/) wurden veröffentlicht.
+
+---
+
+## Patientenbasierte Daten
+
+Zwei klinische Beobachtungen wurden protokolliert: eine Libramont-PEM-Episode, die durch die Reduzierung der LDA-Dosis von 1 mg auf 0,5 mg ausgelöst wurde (was nahelegt, dass 0,5 mg unter der Mikroglia-D2-Aktvierungsschwelle für diese Patientin liegt), und LDA-Fehlertoleranz — die Beobachtung, dass Schlafentzug unter LDA weder Migräne noch Brain Fog mehr auslöst, mit einer manischen-Umkehr-Differentialdiagnose, die im Gegensatz zu früheren Stimulanzien-Erregungsmustern steht. Der [Mikroglia-Sensibilisierungsmechanismus des HSAT2-Falls](../../../companions/hsat2/) wurde für die Einreichung des ISLC-PAIS-2026-Long-Abstracts aktualisiert.
+
+---
+
+## Was nun falsifizierbar ist, das es letzte Woche nicht war
+
+Die Falsifizierbarkeitsfläche der Arbeit hat sich erheblich erweitert. Die pharmakodiagnostische Matrix spezifiziert exakte medikamentenübergreifende Inferenzmuster, die durch bestimmte Reaktions-Nicht-Reaktions-Paarungen widerlegt würden. Die Vier-Kategorien-Hormesis-Zerlegung sagt eine Korrelation der Wirkstofffenster innerhalb der Kategorie und eine Unabhängigkeit zwischen den Kategorien voraus — eine Behauptung, die in jeder Kohorte mit Multi-Wirkstoff-Dosis-Wirkungs-Daten testbar ist. Der Diskrepanz-Index zwischen Subjektiven und Messbaren Grössen spezifiziert einen Schwellenwert, oberhalb dessen die Diskrepanz als diagnostisch gilt. Die Negativkontroll-Leiter definiert, welche Klassen von Null-Ergebnissen welche Hypothesen widerlegen. Jedes neue Kapitel — globale Perspektiven, wirtschaftliche Auswirkungen, Gesundheitssysteme — trägt in den Überprüfungsaufzeichnungen der Phase 5a seine eigenen falsifizierbaren Vorhersagen.
+
+Das [Hypothesen-Register](../../../part4-research/ch38-proposed-studies/30-hypothesis-and-speculation-registry.qmd) wurde nach Thema neu organisiert, und alle Einträge tragen nun Falsifizierbarkeitsbedingungen statt nur Existenzbehauptungen. Das Modell der T-Zell-mitochondrialen Erschöpfung ist über Einzelzell-Metabolomik falsifizierbar: Erschöpfte ME/CFS-T-Zellen sollten eine geringere Reservekapazität der Atmung (spare respiratory capacity) aufweisen als gesunde Kontrollen, und das Defizit sollte mit der antigenspezifischen Tetramerfärbung korrelieren — wenn nicht, ist die Energieversagens-Erklärung für persistierende virale/autoimmune Ziele falsch. Das glymphatische Framework ist über kontrastverstärktes MRT falsifizierbar: Wenn ME/CFS-Patientinnen normale glymphatische Clearance-Raten zeigen, muss der nicht-erholsame Schlaf durch einen anderen Mechanismus getrieben werden.
+
+---
+
+*Dieser Rückblick umfasst die Arbeit, die zwischen dem 21. und 27. Juli 2026 committet wurde. Das vollständige Änderungsprotokoll und die Publikation finden Sie unter [loth.cc](https://yannickloth.github.io/health-me-cfs/). Vorherige Wochenrückblicke: [Tragende Wände](../load-bearing-walls/), [Grundursache ≠ Behandlungspriorität](../root-cause-not-treatment-priority/), [Die Genetik, die die Debatte beendet](../genetics-ends-debate/).*

@@ -1,0 +1,145 @@
+---
+title: "Teil 3: Ihre LDN-Dosis ist ein Diagnostikum — Was die Dosis-Wirkungs-Kurve über den gestörten Mechanismus aussagt"
+description: "Sie brauchen keinen Biomarker, um zu wissen, welcher LDN-Mechanismus bei Ihrer ME/CFS dominiert. Die Dosis-Wirkungs-Kurve selbst ist der Messwert. So lesen Sie sie."
+author: "Yannick Loth"
+date: "2026-07-27"
+categories: [Behandlung, Pharmakologie, ME/CFS]
+lang: de
+---
+
+Sie titrieren LDN. Sie beginnen mit 0,5 mg. Etwas verschiebt sich — weniger Nebel, weniger Unwohlsein. Sie gehen auf 1,5 mg. Der Nutzen bleibt erhalten. Sie gehen auf 3,0 mg. Alles kommt zurück.
+
+Die übliche klinische Interpretation dieses Verlaufs ist, dass 3,0 mg „zu hoch" war und Sie zu 1,5 mg zurückkehren sollten. Diese Interpretation ist korrekt — aber auch zu dünn. Denn *wo* auf der Dosisskala Sie den Nutzen verlieren, sagt etwas darüber aus, *welcher Mechanismus* den Nutzen ursprünglich erzeugt hat. Die Dosis-Wirkungs-Kurve ist nicht nur ein Dosierungsleitfaden. Sie ist ein Diagnoseinstrument.
+
+---
+
+## LDN trifft vier Angriffspunkte, jeden bei einer anderen Dosis
+
+Die therapeutischen Wirkungen von LDN bei ME/CFS beruhen auf vier Mechanismen:
+
+1. **TLR4 → Nrf2 hormetische Vorbereitung** — die partielle TLR4-Blockade löst über Nrf2 kompensatorische antiinflammatorische Genexpression aus. Erfordert einen Resttonus von TLR4. Gipfelt bei 0,5–1,5 mg. Kollabiert, wenn TLR4 überblockiert wird.
+
+2. **Opioide kompensatorische Hochregulation** — die Blockade der Opioidrezeptoren bringt den Körper dazu, mehr endogene Opioide zu produzieren (Beta-Endorphin, Met-Enkephalin). Die Obergrenze wird durch die Vorläuferexpression bestimmt, nicht durch die LDN-Dosis. Aktiv von 1,5–3,0 mg, erhalten bei 4,5 mg.
+
+3. **TRPM3-Ionenkanal-Wiederherstellung** — LDN stellt den Kalziumfluss durch TRPM3-Kanäle an NK-Zellen und sensorischen Neuronen wieder her. Der Mechanismus beinhaltet die Entfernung eines durch Opioidrezeptoren vermittelten inhibitorischen Signals. Die erforderliche Konzentration scheint höher zu sein als bei der TLR4-Hormesis (in vivo vermutlich 3,0–4,5 mg).
+
+4. **Orexin-Enthemmung** — LDN entfernt den tonischen Inhibitionsimpuls auf Orexin-Neuronen im Hypothalamus. Folgt der TLR4-Dosis-Wirkungs-Kurve. Trägt zur Wachheit bei, kann aber bei höheren Dosen das „aufgedrehte" Gefühl erzeugen.
+
+Jeder Mechanismus hat seine eigene Dosis-Wirkungs-Kurve. Die Kurven haben nicht dasselbe Optimum. Die „richtige Dosis" für einen bestimmten Patienten ist die Dosis, bei der der dominierende Mechanismus maximal aktiviert ist.
+
+---
+
+## Die Dosis-Wirkungs-Kurve lesen
+
+### Muster 1: Nutzen bei 0,5–1,5 mg, verloren bei 3,0–4,5 mg
+
+**Was es bedeutet.** Ihr dominierender Mechanismus ist die hormetische TLR4/Nrf2-Vorbereitung. Bei niedrigen Dosen löst die partielle TLR4-Blockade die Nrf2-vermittelte Mikroglia-Umschaltung M1→M2 aus — das eigene antiinflammatorische Programm der Zelle aktiviert sich, reduziert die Zytokinproduktion und löst die Neuroinflammation auf. Bei 3,0 mg und darüber wird TLR4 zu vollständig blockiert. Die Zelle erkennt das entzündliche Stresssignal nicht mehr. Nrf2 bleibt an Keap1 gebunden, die antiinflammatorischen Gene werden abgeschaltet, und der Nutzen kollabiert.
+
+**Was es Ihnen über Ihre Krankheit sagt.** Ihre Neuroinflammation ist TLR4-getrieben, nicht TRPM3-getrieben oder opioidmoduliert. Ihre Mikroglia sind Nrf2-responsiv — die kompensatorische Maschinerie funktioniert, sie braucht nur das richtige Signal zur Aktivierung. Die Breite Ihres Fensters (verloren bei 1,0 mg gegenüber verloren bei 2,5 mg) schätzt Ihre transkriptionelle Nrf2-Reserve: Ein schmales Fenster bedeutet eine geringe Reserve.
+
+**Was es vorhersagt.** Sie sollten auf andere Nrf2-aktivierende Medikamente ansprechen — Sulforaphan, niedrig dosiertes Melatonin, niedrig dosiertes Lithium —, weil sie auf demselben Keap1-Nrf2-Pfad konvergieren. Ihre Fensterbreite für LDN sagt Ihre Fensterbreite für diese Medikamente innerhalb des Nrf2-Clusters voraus.
+
+**Was zu tun ist.** Halten Sie die wirksame niedrige Dosis aufrecht. Eskalieren Sie nicht — Eskalation ist kontraproduktiv, nicht nur unnötig. Der Mechanismus, der LDN für Sie wirksam macht, ist das hormetische Fenster. Sie können den Nutzenverlust nicht „wegdrängen", indem Sie die Dosis weiter erhöhen — das Fenster erscheint bei höheren Dosen nicht wieder, weil die Nrf2-Vorbereitung einen Resttonus von TLR4 erfordert und dieser Tonus verloren ist.
+
+---
+
+### Muster 2: Kein Nutzen bei 0,5–1,5 mg, Nutzen bei 3,0–4,5 mg
+
+**Was es bedeutet.** Ihr dominierender Mechanismus ist entweder die TRPM3-Ionenkanal-Wiederherstellung oder die Orexin-Enthemmung. Die TLR4/Nrf2-Vorbereitung hat sich bei niedriger Dosis nicht aktiviert — entweder weil Ihr TLR4-Tonus zu hoch ist, als dass die partielle Blockade Nrf2 auslösen könnte, oder weil Ihre Nrf2-Reserve zu erschöpft ist, um eine kompensatorische Antwort aufzubauen. Aber bei 3,0–4,5 mg werden entweder die TRPM3-Kanäle wiederhergestellt (was die NK-Zellfunktion und die Kalziumsignalübertragung sensorischer Neuronen verbessert) oder die Orexin-Enthemmung greift ein (was Wachheit und Kognition verbessert), und Sie erzielen einen Nutzen.
+
+**Was es Ihnen über Ihre Krankheit sagt.** Ihre Pathologie liegt auf Kanalebene, nicht entzündungsgetrieben — oder zumindest nicht über TLR4 entzündungsgetrieben. Wenn TRPM3 der dominierende Mechanismus ist, haben Sie die dokumentierte ME/CFS-TRPM3-Kanalopathie. Medikamente, die Entzündungen reduzieren, ohne TRPM3 zu berühren, helfen Ihnen möglicherweise nicht. Wenn die Orexin-Enthemmung dominiert, stammt Ihr Nutzen aus verbesserter Wachheit und Kognition — er betrifft vor allem Gehirnnebel und Wachsamkeit, nicht die zugrunde liegende Immunstörung.
+
+**Was es vorhersagt.** TRPM3-dominant: Sie sollten auf andere Interventionen ansprechen, die die Ionenkanalfunktion wiederherstellen oder TRPM3-abhängige Prozesse umgehen. Lithium-Mikrodosis (stabilisiert PIP₂, das TRPM3 für das Gating benötigt) und möglicherweise Rapamycin (reduziert die mTORC1-getriebene PIP₂-Depletion) sind mechanistisch plausibel, aber ungetestet. Orexin-dominant: Der Nutzen kann auf Wachheit und Kognition begrenzt sein; Medikamente, die den Orexin-Tonus auf andere Weise wiederherstellen (Pitolisant, Solriamfetol), können über einen anderen Mechanismus einen ähnlichen Nutzen erzielen.
+
+**Was zu tun ist.** Titrieren Sie auf 3,0–4,5 mg und halten Sie die Dosis. Gehen Sie nicht davon aus, dass ein Versagen bei 0,5–1,5 mg ein LDN-Versagen bedeutet — Sie brauchen einfach den höheren Mechanismus. Wenn der Nutzen vor allem kognitiv/auf Wachheit bezogen ist → ist die Orexin-Enthemmung der wahrscheinliche Mechanismus. Wenn der Nutzen multisystemisch ist (Immun-, Gefäß-, Neurotransmitter) → ist die TRPM3-Wiederherstellung wahrscheinlicher. Eskalieren Sie nicht über 4,5 mg hinaus — alle vier Mechanismen sind bei dieser Dosis gesättigt, und eine weitere Eskalation drängt in Richtung mu-Opioid-Antagonismus bei 50 mg, was den Nutzen unabhängig davon, welcher Mechanismus funktionierte, umkehren wird.
+
+---
+
+### Muster 3: Nutzen über den gesamten Bereich, erhalten bei 4,5 mg
+
+**Was es bedeutet.** Ihr dominierender Mechanismus ist die opioide kompensatorische Hochregulation. Die TLR4/Nrf2-Hormesis hätte sich bei 3,0–4,5 mg umgekehrt, wenn sie der dominierende Mechanismus wäre — die Tatsache, dass der Nutzen bei 4,5 mg erhalten bleibt, schließt TLR4/Nrf2 als primären Treiber aus. Die Opioidkompensation erreicht ein Plateau, kehrt sich aber nicht um: Der Körper produziert so viel endogenes Opioid, wie er kann, und die Obergrenze wird durch die Vorläuferexpression bestimmt, nicht durch die LDN-Dosis. Die TRPM3-Wiederherstellung kann ebenfalls beitragen — ihre Dosis-Wirkungs-Kurve in vivo ist jenseits des Konzentrationsbereichs, der bei klinischen LDN-Dosen erreicht wird, unbekannt.
+
+**Was es Ihnen über Ihre Krankheit sagt.** Nutzen ohne Umkehrung bedeutet, dass Ihr therapeutischer Mechanismus nicht von einem Stresssignal abhängt, das ausgelöscht werden kann. Die Opioidkompensation wird durch die Rezeptorblockade selbst angetrieben — je mehr Blockade, desto mehr Kompensation, bis zur Synthese-Obergrenze. Dies ist pharmakologisch sicherer als der Nrf2-Mechanismus, weil es nicht durch Dosissteigerung verloren gehen kann.
+
+**Was es vorhersagt.** Anders als beim Nrf2-hormetischen Patienten sagt Ihr LDN-Nutzen keine Reaktion auf andere Nrf2-Aktivatoren voraus — Sulforaphan oder Melatonin könnten nichts bewirken. Ihr Fenstermuster deutet darauf hin, dass die entzündliche Komponente Ihrer Krankheit nicht der geschwindigkeitsbegrenzende Faktor ist oder nicht TLR4-vermittelt ist.
+
+**Was zu tun ist.** Titrieren Sie bis zum Plateau und hören Sie auf. Eine Eskalation über den Plateau-Punkt hinaus fügt keine weitere Opioidkompensation hinzu — die Obergrenze ist biologisch, nicht pharmakologisch — und erhöht nur die TRPM3/Orexin-Wirkungen, die neutral oder nachteilig sein können.
+
+---
+
+### Muster 4: M-förmig — Nutzen bei 0,5 mg, Verlust bei 1,5 mg, Rückkehr bei 4,5 mg
+
+**Was es bedeutet.** Sie haben zwei geschwindigkeitsbegrenzende Mechanismen, die bei verschiedenen Dosen mit demselben Medikament angegangen werden können. Der erste Gipfel ist das hormetische TLR4/Nrf2-Fenster. Der Abfall bei 1,5 mg ist die übermäßige TLR4-Blockade, die die Nrf2-Vorbereitung auslöscht. Die Rückkehr bei 4,5 mg ist ein anderer Mechanismus — TRPM3-Wiederherstellung oder Opioidkompensation —, der bei einer höheren Konzentration greift.
+
+**Was es Ihnen über Ihre Krankheit sagt.** Ihre Pathologie ist in einer Weise multi-mechanistisch, die ungewöhnlich aufschlussreich ist. Sowohl die TLR4-getriebene Neuroinflammation als auch die TRPM3-Kanalopathie (oder der Opioidmangel) tragen bei. Die beiden Mechanismen sind durch die Dosis trennbar — eine saubere experimentelle Trennung, die die Einzelmechanismus-Muster der meisten Patienten nicht liefern können.
+
+**Was es vorhersagt.** Die beiden Gipfel sagen unabhängig verschiedene Dinge voraus. Der Niedrigdosis-Gipfel sagt Medikamentenantworten im Nrf2-Cluster voraus. Der Hochdosis-Gipfel sagt TRPM3-bezogene Interventionen oder opioidempfindliche Symptomdomänen voraus. Dieser Patient ist der ideale Kandidat für mechanismusspezifische Zusatztherapien statt einer Kompromissdosis — Sie können potenziell beide Optima gleichzeitig erfassen, indem Sie einen Niedrigdosis-Nrf2-Aktivator (Sulforaphan, Melatonin) mit LDN in der TRPM3-Dosis kombinieren, statt LDN allein zu bitten, beides zu tun.
+
+**Was zu tun ist.** Wählen Sie die Dosis, die Ihre dominante Symptomdomäne anspricht. Wenn Neuroinflammation (grippeähnliches Unwohlsein, kognitiver Nebel) die Hauptlast ist, halten Sie den Niedrigdosis-Gipfel aufrecht und fügen Sie ein separat gerichtetes TRPM3-Mittel hinzu. Wenn sensorische Überempfindlichkeit oder NK-Zellfunktionsstörung die Hauptlast ist, halten Sie den Hochdosis-Gipfel aufrecht und fügen Sie einen separaten Nrf2-Aktivator hinzu. Teilen Sie die Differenz nicht — eine Kompromissdosis zwischen den beiden Gipfeln trifft keines der Optima und erzielt keinen Nutzen.
+
+---
+
+### Muster 5: Kein Nutzen bei jeder Dosis
+
+**Was es bedeutet.** Keiner der vier Mechanismen von LDN ist bei Ihrer Krankheit geschwindigkeitsbegrenzend. Dies ist ein echtes negatives Ergebnis — aber es bedeutet keines der Folgenden:
+
+- Dass Neuroinflammation fehlt. TLR4 ist einer von vielen Rezeptoren auf Mikroglia. Eine LDN-Nichtantwort, gefolgt von einer LDA-Antwort, ist ein Beleg *für* die Beteiligung der Mikroglia, über den D2-Pfad, nicht über den TLR4-Pfad.
+
+- Dass eine Immunstörung fehlt. LDN zielt nicht auf B-Zellen, T-Zellen, Mastzellen oder autoantikörperproduzierende Plasmazellen ab. Es moduliert eine spezifische Teilmenge der angeborenen Immunsignalübertragung.
+
+- Dass die Dosis falsch war. Eine Nichtantwort bei 0,5 mg kann bedeuten, dass der Mechanismus eine höhere Dosis erfordert (Muster 2). Eine Nichtantwort bei 4,5 mg nach Eskalation über den gesamten Bereich ist ein stärkerer Beleg — alle vier Optima wurden getestet.
+
+**Was es Ihnen über Ihre Krankheit sagt.** Ihr geschwindigkeitsbegrenzender Mechanismus ist nicht TLR4, nicht Opioid, nicht TRPM3 und nicht Orexin. Es ist etwas anderes — Autoantikörper, B-Zell-Pathologie, Mastzellaktivierung, mitochondriale Dysfunktion, strukturelle ZNS-Schädigung oder ein noch nicht charakterisierter Mechanismus. Das negative Ergebnis verengt die Differenzialdiagnose.
+
+**Was es vorhersagt.** Sie werden wahrscheinlich nicht auf andere Nrf2-aktivierende Medikamente ansprechen — sie konvergieren auf denselben Pfad, den LDN nicht aktivieren konnte. Sie können auf Medikamente ansprechen, die auf die verbleibenden Kandidaten abzielen: LDA für mikrogliäres D2, Immunadsorption für Autoantikörper, Mastzellstabilisatoren für MCAS, Rapamycin für das mTORC1-getriebene Autophagieversagen.
+
+**Was zu tun ist.** Eskalieren Sie nicht über 4,5 mg hinaus. Eine Nichtantwort bei 4,5 mg nach dem Testen des gesamten Bereichs bedeutet, dass alle vier therapeutischen Mechanismen ausprobiert wurden. Naltrexon in Standarddosis (50 mg) blockiert die Opioidrezeptoren vollständig — es kann einem Patienten nicht helfen, der nicht von der opioid-kompensatorischen Hochregulation bei 4,5 mg profitiert hat, und es blockiert aktiv den Mechanismus, der bei einer niedrigeren Dosis hätte funktionieren können.
+
+---
+
+## Warum Mikrodosen aufflammen können: das homöostatische Überschießen
+
+Bevor ein Patient eines der fünf diagnostischen Muster erreichen kann, muss er die anfängliche Störung überleben. Bei einigen Patienten erzeugt selbst die niedrigste klinische Dosis (0,25–0,5 mg) keinen Nutzen, sondern ein systemisches Aufflammen — neurologische Agitation, Schlafstörung, Immunaktivierung. Wenn LDN bei 0,5 mg rein ein Rezeptorbesetzungsphänomen wäre, sollte dies nicht geschehen. Die Rezeptor-Mathematik sagt bei Mikrodosen vernachlässigbare Wirkungen voraus. Doch Aufflammen treten in sensibilisierten ME/CFS-Populationen häufig auf.
+
+Die Erklärung liegt nicht in der Rezeptorbesetzung, sondern in der *Reaktion* des Organismus auf die Rezeptorbesetzung. Hormesis beschreibt eine biphasische zelluläre Stressantwort: Die anfängliche Störung — selbst eine winzige — aktiviert kompensatorische Signalwege, die überschießen können. In einem gesunden System mit ausreichender Pufferkapazität wird dieses Überschießen gedämpft, und die Netto-Wirkung ist eine therapeutische adaptive Hochregulation. In einem System mit beeinträchtigter zellulärer Resilienz löst dieselbe anfängliche Störung eine destabilisierende Überkorrektur aus.
+
+Speziell bei LDN löst die transiente Opioidrezeptorblockade bei Mikrodosen eine Rebound-Hochregulation endogener Endorphine und eine erhöhte Rezeptordichte aus. Der Körper erkennt die Blockade und *überreagiert* — er produziert mehr Endorphine, als das System verarbeitet kann, stört die Schlafarchitektur, verändert den autonomen Tonus und löst Immunverschiebungen aus. Dies ist kein Versagen der Hormesis. Es ist Hormesis in einem System, dem die Pufferkapazität fehlt, um die adaptive Antwort in einem therapeutischen Bereich zu halten.
+
+Dieselbe Logik gilt für den Nrf2-Pfad. Die partielle TLR4-Blockade löst eine oxidative Signalübertragung aus, die die Nrf2-vermittelte antiinflammatorische Genexpression aktivieren sollte. Aber wenn die Redox-Bilanz der Zelle bereits prekär ist — wenn die reaktiven Sauerstoffspezies im Ausgangszustand erhöht sind und die Glutathion-Reserven erschöpft sind —, kann die anfängliche oxidative Störung, selbst wenn sie mild ist, die Zelle über ihre Stresstoleranzschwelle drücken, bevor Nrf2 Zeit hat, sein Schutzprogramm auszuführen. Das hormetische Fenster kollabiert, bevor es sich öffnet.
+
+Dieser Rahmen deutet Mikrodosis-Aufflammen nicht als Medikamentenintoleranz im herkömmlichen Sinne um, sondern als eine Diskrepanz zwischen der Größe der Störung und der adaptiven Kapazität des Systems in diesem Moment. Er sagt voraus, dass derselbe Patient, der heute bei 0,5 mg aufflammt, 0,25 mg vertragen und sein hormetisches Fenster über Wochen allmählich erweitern kann, während sich seine zelluläre Infrastruktur anpasst. Er sagt auch voraus, dass Patienten mit der höchsten allostatischen Belastung — die schwersten Fälle — bei Mikrodosen am wahrscheinlichsten aufflammen, nicht weil das Medikament falsch ist, sondern weil ihre Pufferkapazität am engsten ist.
+
+Dies ist die Voraussetzung für die fünf oben beschriebenen diagnostischen Muster. Wenn ein Patient bei keiner Dosis in das hormetische Fenster eintreten kann, ist der diagnostische Messwert keine Musternummer, sondern eine grundlegende Beobachtung: Die adaptive Kapazität des Systems liegt derzeit unterhalb der Schwelle, die benötigt wird, um eine kompensatorische Antwort aufzubauen. Die klinische Aufgabe verschiebt sich von der Dosisfindung zum Aufbau der Infrastruktur — Reduzierung der allostatischen Belastung durch Pacing, Schlafwiederherstellung und metabolische Unterstützung —, bevor das pharmakologische Signal wieder eingeführt wird.
+
+---
+
+## Die Einschränkungen
+
+Jedes Muster oben ist eine mechanistische Vorhersage aus einem Modell, das nie prospektiv getestet wurde. Es gibt keine Dosis-Wirkungs-Studie innerhalb des Bereichs für LDN in irgendeiner Erkrankung — nicht bei ME/CFS, nicht bei Fibromyalgie, nicht bei irgendetwas anderem. Das Modell ist aufgebaut aus:
+
+- Der mikrogliären M1→M2-Dosisabhängigkeit, die in vitro dokumentiert, aber nie in menschlichem Gewebe nachgewiesen wurde.
+- Der Nrf2-Hormesis, die in der Toxikologie (dem Calabrese-Korpus) etabliert, aber nie im Zusammenhang mit der LDN-Dosierung untersucht wurde.
+- Dem Opioidrezeptor-Feedback, das in Tiermodellen dokumentiert, aber bei Menschen unter chronischem LDN nicht quantifiziert wurde.
+- Der TRPM3-Wiederherstellung durch Naltrexon, die in der NK-Zellkultur dokumentiert, aber nie mit der klinischen Dosis-Wirkungs-Kurve korreliert wurde.
+- Der Orexin-Enthemmung, die aus der Naltrexon-Pharmakologie abgeleitet, aber nie direkt bei LDN-Dosen gemessen wurde.
+
+Das Modell ist widerlegbar. Eine vierarmige Crossover-Dosis-Wirkungs-Studie (0,5, 1,5, 3,0, 4,5 mg, n ≥ 30 pro Arm, 8 Wochen pro Dosis) würde jedes hier beschriebene Muster bestätigen oder widerlegen. Die bevorstehende LIFT-Studie verwendet eine einzelne feste LDN-Dosis und kann diese Frage nicht beantworten. Die mit Abstand größte Evidenzlücke in der LDN-Literatur ist eine prospektive Dosis-Wirkungs-Studie innerhalb des Bereichs — geschätzte Kosten 200.000–400.000 US-Dollar, wobei sie jede LDN-Verschreibung betrifft, die bei irgendeiner chronischen Erkrankung ausgestellt wird.
+
+---
+
+## Sicherheitseinschätzung
+
+| Behauptung | Sicherheit |
+|-------|-----------|
+| LDN-Nutzen bei 3,0–4,5 mg verloren, deutet auf TLR4/Nrf2-hormetische Dominanz hin | Niedrig — mechanistisch begründet, aber nie prospektiv getestet |
+| LDN-Nutzen nur bei 3,0–4,5 mg deutet auf TRPM3- oder Orexin-Dominanz hin | Niedrig — Ableitung aus in-vitro-TRPM3-Daten und Orexin-Pharmakologie; nie getestet |
+| M-förmige Antwort deutet auf zwei nicht überlappende Optima hin | Niedrig — durch das Mehrtarget-Modell vorhergesagt; nie prospektiv beobachtet |
+| Die Form der Dosis-Wirkungs-Kurve sagt die Antwort auf andere Nrf2-Aktivatoren voraus | Niedrig — die In-Cluster-Korrelationsvorhersage ist theoretisch kohärent, aber vollständig ungetestet |
+| Nichtantwort bei allen vier Dosen schließt TLR4-, Opioid-, TRPM3- und Orexin-Mechanismen aus | Mittel — die vier Targets sind die bekannten LDN-Targets; das Fehlen einer Antwort bei allen getesteten Konzentrationen ist ein schwacher Beleg für Abwesenheit, aber stärker als eine Nichtantwort bei einer einzelnen Dosis |
+| LDN-Nichtantwort mit LDA-Antwort bestätigt mikrogliäre Beteiligung | Niedrig — mechanistisch kohärent, aber nie prospektiv getestet |
+
+---
+
+*Dieser Beitrag stützt sich auf das hormetische LDN-Dosis-Wirkungs-Rahmenwerk aus [Loth 2026](https://yannickloth.github.io/health-me-cfs/), ausgelöst durch Kevin Lees klinische Beobachtung, dass eine höhere LDN-Dosis weniger Nutzen erbringen kann als eine niedrigere LDN-Dosis. Der Mikrodosis-Aufflamm-Mechanismus — homöostatisches Überschießen in Systemen mit beeinträchtigter Pufferkapazität — stützt sich auf Lees Ausführung, warum hormetische Dosis-Wirkungs-Kurven durch Redox-Zustand, allostatische Belastung und basale zelluläre Reserve moduliert werden. Für die vollständige mechanistische Kaskade — einschließlich der Vier-Mechanismus-Dosis-Wirkungs-Kaskade, des invertierten-U-Diagnosemusters und des Hormesis-Rahmenwerks für 17 Medikamente — siehe das Primärpapier.*
+
+*Vorher: [Das umgekehrte U ist nicht eine Sache: Vier Möglichkeiten, wie ein Medikament aufhört zu wirken, wenn Sie die Dosis erhöhen](../inverted-u-not-one-thing/) · Anfang der Reihe: [Warum mehr nicht besser ist: Das Dosis-Wirkungs-Paradoxon bei LDN und LDA](../more-isnt-better-ldn-lda/)*
