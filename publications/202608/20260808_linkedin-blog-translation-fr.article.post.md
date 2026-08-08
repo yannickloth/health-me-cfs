@@ -23,7 +23,7 @@ Ce que vous trouverez :
 
 Tout est en accès libre (CC-BY 4.0). Chaque affirmation est traçable jusqu'à la littérature citée. Chaque modèle est testable.
 
-Ce n'est pas un résumé. Ce n'est pas une vulgarisation édulcorée. C'est la science complète, en français, parce que la langue ne devrait jamais être une barrière à la compréhension de sa propre maladie.
+Pas de résumés, pas de vulgarisation édulcorée — chaque sujet est un article à part entière en français. Parce que la langue ne devrait jamais être une barrière à la compréhension de sa propre maladie.
 
 #EM #EM_SFC #SFC #EncéphalomyéliteMyalgique #SyndromeDeFatigueChronique #ScienceOuverte #Médecine #RechercheMédicale #VulgarisationScientifique #Francophonie #CovidLong #Santé
 
