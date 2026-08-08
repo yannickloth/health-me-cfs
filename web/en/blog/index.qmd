@@ -10,6 +10,7 @@ listing:
   feed: true
   filter-ui: true
   sort-ui: true
+  page-size: 100
   date-format: iso
 page-layout: full
 ---
