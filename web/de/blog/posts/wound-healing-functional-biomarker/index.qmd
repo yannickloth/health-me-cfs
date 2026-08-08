@@ -1,0 +1,129 @@
+---
+title: "Die Studie, an die niemand gedacht hat: Heilen ME/CFS-Patienten normal?"
+description: "Jahrelang gingen Forscher davon aus, dass Wundheilung eines der wenigen Dinge ist, die ME/CFS unberührt lässt. Haare wachsen, Nägel wachsen, die Haut repariert sich selbst – das sind autonome Prozesse, oder? Dann überprüfte jemand die Literatur. Die Annahme war nicht nur falsch. Sie war nie getestet worden."
+author: "Yannick Loth"
+date: "2026-07-05"
+categories: [Research, Biomarkers, Pathophysiology, Diagnostics]
+lang: de
+---
+
+Jahrelang saß die Wundheilung in dem Papier, das ich über die Pathophysiologie von ME/CFS schreibe, im Kapitel mit den anderen erhaltenen Funktionen. Haarwuchs, Nagelwachstum, Hautreparatur – autonome Prozesse, die weiterlaufen, egal wie krank der Rest des Körpers ist. Ein Patient mit schwerer ME/CFS kann nicht zum Badezimmer gehen, kann kein Gespräch führen, kann kein Licht tolerieren. Aber er hört nicht auf, Haare wachsen zu lassen. Sein Körper hält sich, zumindest an der Oberfläche, weiterhin instand.
+
+Das erschien intuitiv logisch. Wundheilung ist lokal – Blutplättchen, Gerinnungsfaktoren, Fibroblasten, die an der Verletzungsstelle arbeiten. Warum sollte eine zentrale Krankheit des Energiemangels einen Prozess berühren, der sich in der Haut abspielt?
+
+Dann überprüften wir die Literatur. Nicht die Annahme – die Evidenz. Hat jemand jemals die Wundheilung bei ME/CFS gemessen?
+
+Niemand. Nicht eine einzige Studie. Die Annahme war in der schlimmsten Weise falsch: nicht widerlegt, nie getestet.
+
+---
+
+## Drei unabhängige Signalwege, alle in dieselbe Richtung
+
+Wenn man eine Lücke in der Literatur findet, lautet die nächste Frage: Was sollten wir *erwarten* zu finden? Sie suchen nach mechanistischen Hinweisen – bekannter Biologie bei ME/CFS, die andernorts nachweislich die Wundreparatur reguliert. Drei Evidenzlinien liefen zusammen, jede aus einem anderen Bereich. Keine war dafür ausgelegt, nach Wundheilung zu fragen, aber alle drei deuten auf eine Beeinträchtigung hin.
+
+### 1. NK-Zellen: Das Reparaturteam ist nur halb stark
+
+NK-Zellen – natürliche Killerzellen – sind die am robustesten replizierte Immunanomalie bei ME/CFS. Eine Meta-Analyse von 2024 über 28 Studien fand ihre zytotoxische Funktion auf etwa 50 % des Niveaus gesunder Kontrollen reduziert (Hedges' g = 0,96, ein großer Effekt) [@Baraniuk2024NKMeta].
+
+Was hat das mit Wundheilung zu tun? Im Jahr 2021 zeigten Sobecki et al., dass NK-Zellen bei der Gewebereparatur keine passiven Beobachter sind – sie sind vorgeschaltete Regulatoren [@Sobecki2021NKWoundHypoxia]. Unter der Kontrolle von HIF-1α sezernieren NK-Zellen IFN-γ und GM-CSF, die direkt die Geschwindigkeit und Qualität des Wundverschlusses modulieren. Entfernen Sie die NK-Zellfunktion, und die Wunde schließt sich schneller – zunächst. Aber sie schließt sich schlecht: schlechte Immunkoordination, beeinträchtigte Bakterienabwehr, schließlicher Verfall der Reparaturqualität.
+
+Das relevante Detail: Die NK-Funktion, die für die Wundheilung zählt, ist die *Zytokinsekretion*, nicht die *Zytotoxizität*. Die ME/CFS-Literatur hat die Zytotoxizität erschöpfend gemessen. Die Zytokinproduktion derselben Zellen – der wundrelevante Arm – wurde kaum bewertet. Wir wissen, dass eine Hälfte der NK-Funktion beeinträchtigt ist. Von der anderen Hälfte wissen wir es nicht, aber es gibt keinen Grund anzunehmen, dass sie intakt ist.
+
+### 2. Das autonome Nervensystem: Makrophagen erhalten das falsche Signal
+
+ME/CFS beinhaltet sympathische Überaktivierung und parasympathischen Rückzug – dokumentiert bei POTS, in Herzratenvariabilitäts-Studien und im Kipptischtest. Es ist eine Krankheit des autonomen Ungleichgewichts.
+
+Xue et al. (2018) identifizierten zwei Makrophagenpopulationen im heilenden Gewebe: eine, die von sympathischen Signalen (β2-adrenerg, proinflammatorisch, anti-reparativ) angetrieben wird, und eine, die von parasympathischen Signalen (α7-nAChR, antiinflammatorisch, pro-reparativ) angetrieben wird [@Xue2018ANSWoundHealing]. Das autonome Nervensystem reguliert nicht nur Herzfrequenz und Blutdruck – es sagt den Wundmakrophagen, welches Reparaturprogramm sie ausführen sollen.
+
+Wenn ME/CFS das autonome Gleichgewicht zur sympathischen Dominanz kippt, ist die Vorhersage einfach: Makrophagen an Wundstellen erhalten ein anhaltendes Signal „bleibt entzündet, verzögert die Reparatur“. Die Mausdaten sind sauber. Ob menschliches ME/CFS-Gewebe die Katecholaminkonzentrationen erreicht, die für diese Verschiebung nötig sind, ist unbekannt – aber die Maschinerie ist vorhanden, und das autonome Ungleichgewicht ist dokumentiert.
+
+### 3. Immunerschöpfung: nicht nur wenig Energie, wenig Reparaturkapazität
+
+Die Immunerschöpfung bei ME/CFS reicht über NK-Zellen hinaus. CD8+-T-Zellen zeigen eine transkriptionelle und epigenetische Umprogrammierung hin zu spätstadiger Erschöpfung [@Iu2024CD8exhaustion]. Zytokinprofile zeigen unterdrückte Interferon-Signalübertragung und reduzierte Immunglobulin-Genexpression [@EatonFitch2024ImmuneExhaustion].
+
+Was passiert, wenn das Immunsystem global erschöpft ist? Es existiert ein klinisches Modell: Verbrennungspatienten. Stanojcic et al. (2016) dokumentierten, dass die Immunerschöpfung bei älteren Verbrennungspatienten – ein Phänotyp aus NK-Dysfunktion, deregulierten Zytokinen und beeinträchtigter früher Immunantwort – eine klinisch signifikante Beeinträchtigung der Wundheilung erzeugte [@Stanojcic2016ImmuneExhaustionBurns]. Das Verbrennungsmodell ist extremer als ME/CFS, aber der Immunphänotyp überlappt: halbierte NK-Zytotoxizität, chronisch erhöhtes TGF-β, anhaltende Immunaktivierung und epigenetische Unterdrückung von Reparaturprogrammen [@Abhimanyu2021PostInfectiousEpigenetics].
+
+Chronisch erhöhtes TGF-β fügt einen weiteren Mechanismus hinzu. Petri et al. (2017) zeigten, dass TGF-β und IL-6 NK-Zellen dauerhaft in einen regulatorischen Zustand sperren und damit die normale zeitliche Sequenz stören, die für die Wundheilung erforderlich ist [@Petri2017MSCNKTGFb]. Bei ME/CFS ist TGF-β chronisch erhöht. Die Vorhersage: Der regulatorische Kreislauf, der NK-Zellen früh aktivieren und spät unterdrücken sollte, steckt in der späten Unterdrückungsphase fest.
+
+---
+
+## Das Problem des klinischen Schweigens
+
+Wenn alle drei Signalwege eine beeinträchtigte Heilung vorhersagen, warum melden Patienten langsame Wundheilung nicht als hervorstechende Beschwerde?
+
+Es gibt mindestens drei Möglichkeiten, und sie schließen sich nicht gegenseitig aus:
+
+1. **Sesshafte Patienten erleiden weniger Wunden.** Wenn Sie haus- oder bettgebunden sind, schneiden Sie sich einfach nicht so oft an Dingen, stolpern oder schürfen sich das Knie, wie jemand mit aktivem Leben. Das klinische Schweigen könnte eine geringe Wund-*inzidenz* widerspiegeln, nicht normale Wund-*heilung*.
+
+2. **Kompensationsmechanismen maskieren das Defizit.** Erhöhtes TGF-β fördert Fibrose – Narbenbildung. Eine Wunde könnte sich mit normaler Geschwindigkeit schließen, aber minderwertige Narbenqualität erzeugen und Gewebe hinterlassen, das strukturell schwächer und anfälliger für erneute Verletzungen ist. Wenn Patienten ihre Narben nicht histologisch untersuchen, würden sie es nicht bemerken.
+
+3. **Die subklinische Beeinträchtigung ist real, aber subtil.** Der Unterschied in der Heilungsrate könnte 15–30 % langsamer sein – klinisch bedeutsam für einen Biomarker, aber nicht dramatisch genug, dass Patienten ihn spontan als ein Problem melden, das sich von ihren anderen Symptomen unterscheidet.
+
+Die ehrliche Antwort: Wir wissen nicht, welche davon richtig ist, weil niemand nachgesehen hat.
+
+---
+
+## Die Studie: 64.000 €, bettseitig machbar, eine Messung
+
+Hier ist der Vorschlag. Er ist nicht teuer. Er erfordert kein multizentrisches Konsortium. Er kann an einem einzigen Forschungskrankenhaus in weniger als einem Jahr durchgeführt werden.
+
+**Teilnehmer:** 40 ME/CFS-Patienten (ICC-Kriterien) + 20 nach Alter und Geschlecht gematchte sesshafte gesunde Kontrollen + 20 Krankheitskontrollen (Fibromyalgie oder Multiple Sklerose, nach Behinderungsgrad gematcht). Der Krankheitskontroll-Arm ist entscheidend: Er unterscheidet ME/CFS-spezifische Heilungsanomalien von generischen, mit Dekonditionierung oder Behinderung zusammenhängenden Effekten.
+
+**Der Eingriff:** Eine Saugblase – eine standardisierte 8-mm-Blase, die durch Unterdruck erzeugt wird, ein etabliertes dermatologisches Verfahren, das risikoarm und bettseitig durchführbar ist. Sie messen die Reepithelisierungszeit: wie lange die Blase zum Verschließen braucht.
+
+**Was Sie in der Blasenflüssigkeit messen:** IFN-γ und GM-CSF (NK-Zytokinausstoß – der wundrelevante Arm der NK-Funktion, nicht die Zytotoxizität), TGF-β (der MSC-NK-Regulationskreislauf) und Katecholamine (lokaler sympathischer Antrieb an der Wundstelle).
+
+**Womit Sie korrelieren:** NK-Zytotoxizität *und* NK-Zytokinsekretion aus stimulierten PBMCs (beides ist nötig – die Zytotoxizität sagt Ihnen etwas über einen Arm, die Zytokinsekretion über den wundrelevanten Arm), Herzratenvariabilität (sympathovagales Gleichgewicht), Bell-Behinderungsscore (Krankheitsschwere).
+
+**Stratifizierung:** Nach Krankheitsschwere (leicht/mittel/schwer), Krankheitsdauer (<3 Jahre, 3–7 Jahre, >7 Jahre), POTS-Komorbidität und Betablocker-Einnahme (die lokale Katecholaminmessungen verfälscht).
+
+**Kosten:** ~800 € pro Teilnehmer für den Wundeingriff, Histologie, Zytokinpanel der Blasenflüssigkeit, NK-Assays und HRV-Messung. Gesamt: ~64.000 € für 80 Teilnehmer.
+
+**Zeitplan:** 6 Monate Rekrutierung + 1 Monat Nachbeobachtung.
+
+---
+
+## Warum eine Blase vier Fragen beantwortet
+
+Eine einzelne Saugblase ist nicht nur eine Wundheilungsmessung. Vier unabhängige Fragen lösen sich gleichzeitig auf:
+
+1. **Ist die Wundheilung tatsächlich beeinträchtigt?** Die primäre Frage. Wenn die Reepithelisierungszeit bei ME/CFS normal ist, sind die oben beschriebenen drei mechanistischen Signalwege entweder falsch oder kompensiert. Wenn sie abnormal ist, haben wir einen neuen Biomarker.
+
+2. **Welcher Mechanismus dominiert?** Das Zytokinprofil der Blasenflüssigkeit unterscheidet mechanistische Subtypen. Muster A (hohes IFN-γ, niedriges GM-CSF) legt nahe, dass NK-Zellen unter HIF-1α in den Abwehrmodus verschoben wurden. Muster B (niedriges IFN-γ, niedriges GM-CSF) legt global nicht-funktionelle NK-Zellen nahe – allgemeine Erschöpfung. Muster C (hohes TGF-β) legt nahe, dass der MSC-NK-Regulationskreislauf konstitutiv aktiviert ist. Muster D (hohe Katecholamine) legt nahe, dass der sympathische Antrieb zu den Wundmakrophagen dominiert. Diese Muster schließen sich nicht gegenseitig aus – sie können sich überlappen –, aber dominante Signale deuten auf Behandlungsziele hin.
+
+3. **Ist das Modell der selektiven Energiedysfunktion korrekt?** Der theoretische Rahmen hinter der ME/CFS-Pathophysiologie schlägt vor, dass einige Prozesse autonom erhalten bleiben (Haarwuchs, Nagelwachstum), während bedarfsreagierende Prozesse selektiv beeinträchtigt sind. Wundheilung ist ein Grenzfall: Sie wirkt autonom, erfordert aber NK-Mobilisierung, autonome Regulation und erheblichen ATP-Aufwand. Wenn die Heilung beeinträchtigt ist, wird die Prozessklassifizierung des Rahmens gestärkt. Wenn sie normal ist, muss die Grenze zwischen erhaltenen und beeinträchtigten Prozessen neu gezogen werden.
+
+4. **Kann Wundheilung als Biomarker dienen?** Wenn die Heilungsrate mit der Krankheitsschwere (Bell-Score) korreliert, haben wir einen funktionellen Biomarker, der keinen Belastungstest erfordert. Das ist wertvoll für schwere und bettlägerige Patienten, bei denen CPET – der aktuelle Goldstandard für funktionelle Beeinträchtigung – unmöglich ist.
+
+---
+
+## Der Systembiologie-Ausdruck
+
+Das ist das eleganteste Merkmal des Vorschlags. Wundheilung ist kein einzelner biologischer Prozess – sie ist eine integrierte Ausgabe aus NK-Zellfunktion, autonomem Gleichgewicht, Makrophagenpolarisation und metabolischer Kapazität. Die Heilungsrate zu messen bedeutet im Wesentlichen, die Gesundheit aller vier Systeme gleichzeitig zu messen.
+
+Ein einziger zusammengesetzter funktioneller Biomarker, aus einem bettseitigen Eingriff, der 500 € kostet, der Informationen über mehrere dysfunktionale Systeme integriert. Kein PET-Scanner nötig. Kein Belastungstest, der den Patienten umwerfen würde. Nur eine Blase und eine Stoppuhr.
+
+---
+
+## Und wenn die Wundheilung normal ist?
+
+Der Vorschlag umfasst eine Pilotphase: zuerst 10 ME/CFS + 10 Kontrollen, um die Effektgröße zu bestimmen und die Machbarkeit zu bestätigen.
+
+Wenn sich herausstellt, dass die Wundheilung normal ist – wenn Reepithelisierungszeit, Narbenqualität und Blasenflüssigkeits-Zytokine nicht von den Kontrollen zu unterscheiden sind –, produziert die Studie dennoch wertvolle Daten. Sie schließt einen Gewebereparatur-Defekt als klinisch relevanten Mechanismus aus. Sie verfeinert das Modell der selektiven Dysfunktion, indem sie feststellt, dass dieser spezifische bedarfsreagierende Prozess tatsächlich erhalten ist. Sie sagt uns etwas Wichtiges darüber, was der Körper noch leisten kann, wenn er fast nichts anderes mehr kann.
+
+Wissenschaft schreitet durch das Ausschließen genauso voran wie durch das Bestätigen. Das ist einer der billigsten und schnellsten Wege, etwas ein- oder auszuschließen, das Implikationen dafür hat, wie wir die Krankheit verstehen.
+
+---
+
+## Der größere Punkt
+
+Die ME/CFS-Forschung hat ein Trichterproblem. Begrenzte Mittel fließen zu denselben Zielen – virale Persistenz, Autoantikörper, metabolisches Profiling – während große, einfache, mechanistisch informative Fragen nicht gestellt werden, weil niemand die Lücke bemerkt hat.
+
+Wundheilung ist eine dieser Lücken. Sie saß in der Kategorie „erhaltene Funktionen“, weil sie dorthin zu gehören schien, nicht weil sie jemand getestet hatte. Als wir nachsahen, deuteten drei unabhängige Evidenzlinien in die andere Richtung. Die Frage ist 64.000 € und sechs Monate wert. Sie erfordert nichts, von dem wir nicht bereits wissen, wie man es macht.
+
+Das Studiendesign, das detaillierte Protokoll und die mechanistische Rationale sind im vollständigen Papier verfügbar [@Loth2026mecfs]. Wenn Sie ein Forscher mit Zugang zu einer Saugkammer und einer ME/CFS-Klinik sind, ist diese bereit loszulegen.
+
+---
+
+*Vollständiger mechanistischer Rahmen:*
+*Dies ist Teil einer laufenden Reihe zur Erforschung der ME/CFS-Mechanismen. Das Buchprojekt hinter diesen Artikeln ist frei verfügbar und wird regelmäßig aktualisiert.*

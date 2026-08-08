@@ -1,0 +1,95 @@
+---
+title: "Teil 4: Das Striatum gehört nicht uns — Was geteilte MSN-Anreicherung für ME/CFS bedeutet"
+description: "Die DecodeME-GWAS deutet auf mittelgroße Stachelneuronen. Ebenso die GWAS von Schizophrenie, Depression und Alkoholgebrauchsstörung. Gleicher Zelltyp, verschiedene Krankheiten. Warum das die Erkenntnis nicht schwächt — sondern die nächste Frage schärft."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Genetik, Neurologie, Krankheitsübergreifend]
+lang: de
+---
+
+Sie haben die ersten drei Beiträge dieser Reihe gelesen. Die DecodeME-GWAS impliziert mittelgroße Stachelneuronen. Das Striatum ist der Flaschenhals. Dopamin-Medikamente sind plötzlich rational. Es ist eine saubere, befriedigende Geschichte — und wie alle sauberen, befriedigenden Geschichten in der Biologie hat sie ein Problem.
+
+Der Zelltyp, auf den die Genetik deutet, ist kein ME/CFS-Fingerabdruck. Er ist ein Fingerabdruck, der an mehreren Tatorten auftaucht.
+
+---
+
+## Dieselben Neuronen, vier Krankheiten
+
+Die Anreicherung mittelgroßer Stachelneuronen aus GWAS findet sich bei:
+
+| Erkrankung | MSN-Anreicherung | Schlüssel-Referenzen |
+|---|---|---|
+| ME/CFS | Ja | DecodeME-Konsortium, Li et al. 2025 [@Li2025decodeME] |
+| Schizophrenie | Ja | PGC3, Trubetskoy et al. 2022 [@Trubetskoy2022schizophrenia] |
+| Major Depression | Ja | PGC MDD, Wray et al. 2018 [@Wray2018depression] |
+| Alkoholgebrauchsstörung | Ja | PGC AUD, Zhou et al. 2020 [@Zhou2020AUD] |
+
+Das Striatum ist ein generischer Verletzlichkeitsknotenpunkt des Gehirns. Wenn sein Schaltkreis beeinträchtigt ist — durch genetische Variation, Entzündung, metabolischen Stress, Substanzexposition —, umfasst die Ausgabe motivationale, motorische und Belohnungsverarbeitungs-Defizite, unabhängig von der vorgeschalteten Ursache. Die geteilte Anreicherung ist kein Zufall. Sie ist eine Beschränkung, die dadurch auferlegt wird, dass MSN am Schnittpunkt von hohem metabolischem Bedarf, dichter Dopamin-Innervation und mehreren Verletzlichkeitswegen (Entzündung, Perfusion, Energieversagen) sitzen.
+
+Aber die Krankheiten sind nicht dieselben. Ein Schizophreniepatient erlebt Halluzinationen und Denkstörungen. Ein Depressionpatient erlebt Anhedonie und Wertlosigkeit. Ein ME/CFS-Patient erlebt post-exertionales Unwohlsein und orthostatische Intoleranz. Gleicher Zelltyp. Radikal unterschiedliche Phänotypen. Das ist kein Widerspruch — es ist ein Signal darüber, was wir messen und was wir übersehen.
+
+---
+
+## Warum geteilte Anreicherung nicht geteilter Mechanismus bedeutet
+
+Die GWAS-Zelltyp-Anreicherung sagt Ihnen, *wo Risikovarianten exprimiert werden*, nicht *was diese Varianten tun.* Ein in MSN angereichertes SNP könnte jedes der Hunderte von Genen betreffen, die in diesen Neuronen exprimiert werden. Die spezifischen Gene, die Wirkungsrichtung, der zeitliche Verlauf der Entwicklung und die Interaktion mit anderen Zelltypen unterscheiden sich alle zwischen den Krankheiten.
+
+Die Schizophrenie-GWAS-SNPs in MSN betreffen synaptische Pruning-Gene (C4, Komplementweg), konsistent mit übermäßiger Synapseneliminierung während der Adoleszenz. Die Depressions-GWAS-SNPs betreffen Gene, die an der Stresshormon-Signalübertragung und der Regulation neurotropher Faktoren beteiligt sind, konsistent mit einer HPA-vermittelten Verletzlichkeit. Die Alkoholgebrauchsstörungs-SNPs betreffen Opioid- und Dopaminrezeptor-Gene, konsistent mit einer veränderten Belohnungssensitivität [@Trubetskoy2022schizophrenia; @Wray2018depression].
+
+Bei ME/CFS wissen wir noch nicht, welche spezifischen Gene innerhalb der MSN betroffen sind. Die GWAS sagt uns den Zelltyp. Sie sagt uns noch nicht, ob der Mechanismus ist:
+
+- **D1/D2-Bahn-Ungleichgewicht** — eine Verschiebung des Verhältnisses der „Go"/„No-Go"-Signale, die die Handlungsinitiierung neurologisch teuer macht
+- **Metabolische Insuffizienz** — MSN sind GABAerge Neuronen, die mit hohen Raten tonisch feuern; wenn die mitochondriale Funktion global beeinträchtigt ist, versagen MSN zuerst
+- **Dopaminrezeptor-Desensibilisierung** — chronische niedriggradige Entzündung, die die Dopamin-Signalübertragung unabhängig von der genetischen Variation reduziert
+- **Synapsen-Dysfunktion des kortiko-striatalen Weges** — beeinträchtigte Eingangsintegration vom präfrontalen Kortex zum Striatum
+
+Diese sind nicht gleichwertig. Ein D1/D2-Ungleichgewicht erfordert Dopamin-Agonisten. Metabolische Insuffizienz erfordert mitochondriale Unterstützung. Rezeptor-Desensibilisierung erfordert Entzündungshemmer. Synapsen-Dysfunktion erfordert etwas ganz anderes. Gleicher Zelltyp. Vier verschiedene Mechanismen. Vier verschiedene Behandlungen. Die geteilte Anreicherung schwächt die Erkenntnis nicht — sie schärft die Frage: *welcher Mechanismus innerhalb der MSN ist ME/CFS-spezifisch?*
+
+---
+
+## Die Information in den Unterschieden
+
+Geteilte Anreicherung ist kein Bug. Sie ist eine Eigenschaft, die eine Kontrollgruppe für das nächste Experiment liefert. Wenn wir die molekulare Signatur der MSN-Dysfunktion bei ME/CFS identifizieren und mit den Signaturen bei Schizophrenie, Depression und Alkoholgebrauchsstörung vergleichen können, werden uns die *Unterschiede zwischen ihnen* sagen, was für jede Krankheit einzigartig ist. Zwei Strategien:
+
+**Post-Mortem-Transkriptomik.** Der Vergleich der Genexpression in striatalen MSN von ME/CFS-Gehirnen gegenüber Depressions-Gehirnen würde aufdecken, welche Bahnen differenziell aktiviert sind. So hat die Psychiatrie Schizophrenie von bipolarer Störung auf molekularer Ebene unterschieden — nicht durch das Finden krankheitsspezifischer Gene, sondern durch das Finden von Genexpressionssignaturen, die sich unterschieden.
+
+**PET-Liganden-Profiling.** Verschiedene PET-Liganden untersuchen verschiedene Aspekte der striatalen Funktion. D1-Rezeptordichte, D2-Rezeptordichte, Dopamin-Transporter-Verfügbarkeit, VMAT2-Bindung, Mikroglia-Aktivierung — jede liefert eine andere Sicht auf denselben Schaltkreis. Der Vergleich von ME/CFS-PET-Profilen mit Schizophrenie- und Depressions-Profilen würde die spezifischen Rezeptor- und Transporteranomalien identifizieren, die die Erkrankungen unterscheiden.
+
+Keine dieser Methoden wurde im großen Maßstab durchgeführt. Beide sind angesichts der Erkenntnis der geteilten Anreicherung nun logisch notwendig.
+
+---
+
+## Was die geteilte Erkenntnis nicht leisten kann
+
+Die geteilte MSN-Anreicherung stützt mehrere Behauptungen nicht, die eine naive Lesart nahelegen könnte:
+
+**Sie macht ME/CFS nicht zu einer psychiatrischen Erkrankung.** Schizophrenie und Depression sind ebenfalls Gehirnerkrankungen mit genetischer Architektur, die in Neuronen exprimiert wird — und sie sind im abwertenden Sinne auch nicht „nur im Kopf". Der geteilte Zelltyp zeigt, dass sie ein biologisches Substrat teilen, nicht, dass sie eine Ursache oder eine Behandlung teilen. Das Gehirn ist ein Organ. Erkrankungen dieses Organs sind neurologisch.
+
+**Sie rechtfertigt nicht die Verschreibung von Antipsychotika oder Antidepressiva bei ME/CFS.** Der geteilte Zelltyp sagt nichts darüber, ob die für eine Erkrankung entwickelten Medikamente für eine andere wirken. Die meisten Antipsychotika blockieren D2-Rezeptoren — das Gegenteil von dem, was das Dopamin-Mangelmodell von ME/CFS vorhersagen würde. Die Zelltyp-Konvergenz darf nicht mit pharmakologischer Konvergenz verwechselt werden.
+
+**Sie schwächt das genetische Argument für die neurologische Primarität nicht.** Die Erkenntnis, dass MSN-Anreicherung geteilt ist, schwächt nicht die Erkenntnis, dass *die Immunzell-Anreicherung fehlt.* Die Genetik besagt immer noch: Die Krankheit entsteht in Neuronen, nicht in Immunzellen. Mit anderen Gehirnerkrankungen geteilt, ja. Immun, nein. Die Unterscheidung zwischen „es ist im Gehirn" und „es ist im Immunsystem" bleibt die entscheidende.
+
+---
+
+## Die fünfte Frage, die das Feld beantworten muss
+
+Wenn diese Reihe für drei Schlussfolgerungen argumentiert hat — (1) die Genetik klärt den neurologischen Ort, (2) das Striatum ist der Flaschenhals, (3) Dopamin-Medikamente sind rational —, dann fügt der vierte Beitrag den notwendigen Zusatz hinzu: (4) das Striatum ist ein geteilter Verletzlichkeitsknotenpunkt, und die *spezifische* Dysfunktion innerhalb der MSN, die ME/CFS statt Schizophrenie oder Depression erzeugt, bleibt unbekannt.
+
+Das ist keine Schwäche. Es ist die nächste Forschungsfrage, und sie ist präzise: *Was ist die molekulare Signatur der MSN-Dysfunktion bei ME/CFS, die sie von der MSN-Dysfunktion bei anderen Erkrankungen unterscheidet?* Beantworten Sie das, und Sie haben ein Medikamentenziel — nicht einen geteilten Schaltkreis, sondern eine krankheitsspezifische Läsion in ihm.
+
+Bis diese Frage beantwortet ist, zielt jedes Dopamin-Medikament für ME/CFS auf den richtigen Schaltkreis für einen Mechanismus, den wir noch nicht spezifizieren können. Rationale Pharmakologie, aber mit geringerer Auflösung, als wir brauchen.
+
+---
+
+## Sicherheitseinschätzung
+
+| Behauptung | Sicherheit |
+|---|---|
+| MSN-Anreicherung ist zwischen ME/CFS, Schizophrenie, Depression und AUD geteilt | Sehr hoch — unabhängig replizierte GWAS-Ergebnisse in allen vier Erkrankungen |
+| Geteilte Zelltyp-Anreicherung impliziert keinen geteilten Mechanismus | Hoch — verschiedene Krankheiten betreffen verschiedene Gene, verschiedene Bahnen und verschiedene molekulare Pathologien innerhalb desselben Zelltyps |
+| Die spezifische molekulare Läsion innerhalb der MSN bei ME/CFS ist unbekannt | Sehr hoch — dies ist eine Aussage darüber, was nicht getan wurde, nicht darüber, was die Evidenz zeigt |
+| Transkriptom- oder PET-Profiling könnte die striatale ME/CFS-Pathologie von anderen Erkrankungen unterscheiden | Mittel — die Strategie hat in der Psychiatrie funktioniert; wurde nicht auf ME/CFS angewendet |
+| D1/D2-Ungleichgewicht ist der wahrscheinlichste Mechanismus | Niedrig — einer von mehreren Kandidaten; keine direkte Evidenz speziell für ME/CFS |
+| Die Identifizierung einer krankheitsspezifischen MSN-Signatur würde ein Medikamentenziel ergeben | Mittel — logische Schlussfolgerung GWAS → Mechanismus → Ziel; hängt von der Natur der Signatur ab |
+
+*Beitrag 4 von 4 der DecodeME-GWAS-Reihe. Zurück: [Die Genetik hat es geklärt](../genetics-ends-debate/) · [Das Striatum ist der Flaschenhals](../striatum-bottleneck/) · [Parkinson-Medikamente bei ME/CFS?](../dopamine-rational-mechanism/)*

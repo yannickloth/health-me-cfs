@@ -1,0 +1,129 @@
+---
+title: "L'étude à laquelle personne n'a pensé : les patients atteints d'EM/SFC guérissent-ils normalement ?"
+description: "Pendant des années, les chercheurs ont supposé que la cicatrisation était l'une des rares choses que l'EM/SFC laissait intacte. Les cheveux poussent, les ongles poussent, la peau se répare — ce sont des processus autonomes, non ? Puis quelqu'un a vérifié la littérature. L'hypothèse n'était pas seulement fausse. Elle n'avait jamais été testée."
+author: "Yannick Loth"
+date: "2026-07-05"
+categories: [Research, Biomarkers, Pathophysiology, Diagnostics]
+lang: fr
+---
+
+Pendant des années, dans l'article que j'écris sur la physiopathologie de l'EM/SFC, la cicatrisation figurait dans le chapitre avec les autres fonctions préservées. La croissance des cheveux, la croissance des ongles, la réparation de la peau — des processus autonomes qui continuent de fonctionner aussi malade que soit le reste du corps. Un patient atteint d'EM/SFC sévère ne peut pas marcher jusqu'à la salle de bain, ne peut pas tenir une conversation, ne peut pas tolérer la lumière. Mais il ne cesse pas de faire pousser ses cheveux. Son corps, du moins à la surface, continue de s'entretenir.
+
+Cela semblait intuitivement logique. La cicatrisation est locale — plaquettes, facteurs de coagulation, fibroblastes travaillant sur le site de la blessure. Pourquoi une maladie cérébrale de défaillance énergétique toucherait-elle un processus qui se déroule dans la peau ?
+
+Puis nous avons vérifié la littérature. Pas l'hypothèse — les données probantes. Quelqu'un a-t-il réellement mesuré la cicatrisation dans l'EM/SFC ?
+
+Personne. Pas une seule étude. L'hypothèse était fausse de la pire manière : non pas réfutée, jamais testée.
+
+---
+
+## Trois voies indépendantes, toutes dans le même sens
+
+Lorsque vous trouvez une lacune dans la littérature, la question suivante est : à quoi devrions-nous nous *attendre* à trouver ? Vous cherchez des indices mécanistiques — une biologie connue dans l'EM/SFC qui, ailleurs, s'est avérée réguler la réparation des plaies. Trois lignes de données probantes ont convergé, chacune d'un domaine différent. Aucune n'a été conçue pour interroger la cicatrisation, mais les trois pointent vers une altération.
+
+### 1. Cellules NK : l'équipe de réparation est à mi-force
+
+Les cellules NK — natural killer (tueuses naturelles) — sont l'anomalie immunitaire la plus solidement reproduite dans l'EM/SFC. Une méta-analyse de 2024 portant sur 28 études a trouvé leur fonction cytotoxique réduite à environ 50 % des niveaux des témoins sains (g de Hedges = 0,96, un effet important) [@Baraniuk2024NKMeta].
+
+Quel est le lien avec la cicatrisation ? En 2021, Sobecki et al. ont montré que les cellules NK ne sont pas des spectateurs passifs dans la réparation tissulaire — ce sont des régulateurs en amont [@Sobecki2021NKWoundHypoxia]. Sous le contrôle du HIF-1α, les cellules NK sécrètent de l'IFN-γ et du GM-CSF, qui modulent directement la vitesse et la qualité de la fermeture de la plaie. Retirez la fonction NK, et la plaie se ferme plus vite — au début. Mais elle se ferme mal : mauvaise coordination immunitaire, défense bactérienne altérée, dégradation éventuelle de la qualité de la réparation.
+
+Le détail pertinent : la fonction NK qui compte pour la cicatrisation est la *sécrétion de cytokines*, pas la *cytotoxicité*. La littérature sur l'EM/SFC a mesuré la cytotoxicité de manière exhaustive. La production de cytokines par les mêmes cellules — le bras pertinent pour la plaie — a à peine été évaluée. Nous savons qu'une moitié de la fonction NK est altérée. Nous ne savons rien de l'autre moitié, mais il n'y a aucune raison de supposer qu'elle est intacte.
+
+### 2. Le système nerveux autonome : les macrophages reçoivent le mauvais signal
+
+L'EM/SFC implique une surexcitation sympathique et un retrait parasympathique — documentés dans le POTS, dans les études de variabilité de la fréquence cardiaque et dans les tests de table basculante. C'est une maladie de déséquilibre autonome.
+
+Xue et al. (2018) ont identifié deux populations de macrophages dans le tissu cicatrisant : l'une entraînée par des signaux sympathiques (β2-adrénergique, pro-inflammatoire, anti-réparation) et l'autre entraînée par des signaux parasympathiques (α7-nAChR, anti-inflammatoire, pro-réparation) [@Xue2018ANSWoundHealing]. Le système nerveux autonome ne régule pas seulement la fréquence cardiaque et la pression artérielle — il dit aux macrophages de la plaie quel programme de réparation exécuter.
+
+Si l'EM/SFC incline l'équilibre autonome vers la dominance sympathique, la prédiction est simple : les macrophages du site de la plaie reçoivent un signal persistant « restez enflammés, retardez la réparation ». Les données de la souris sont claires. On ignore si le tissu humain atteint d'EM/SFC atteint les concentrations de catécholamines requises pour produire ce changement — mais la machinerie existe, et le déséquilibre autonome est documenté.
+
+### 3. Épuisement immunitaire : pas seulement une faible énergie, une faible capacité de réparation
+
+L'épuisement immunitaire dans l'EM/SFC va au-delà des cellules NK. Les lymphocytes T CD8+ montrent une reprogrammation transcriptionnelle et épigénétique vers un épuisement de stade avancé [@Iu2024CD8exhaustion]. Les profils de cytokines montrent une signalisation de l'interféron supprimée et une expression réduite des gènes des immunoglobulines [@EatonFitch2024ImmuneExhaustion].
+
+Que se passe-t-il lorsque le système immunitaire est globalement épuisé ? Un modèle clinique existe : les patients brûlés. Stanojcic et al. (2016) ont documenté que l'épuisement immunitaire chez les patients brûlés âgés — un phénotype de dysfonction NK, de cytokines dérégulées et de réponse immunitaire précoce altérée — produisait une altération cliniquement significative de la cicatrisation [@Stanojcic2016ImmuneExhaustionBurns]. Le modèle de la brûlure est plus extrême que l'EM/SFC, mais le phénotype immunitaire se recoupe : cytotoxicité NK réduite de moitié, élévation chronique du TGF-β, activation immunitaire persistante et suppression épigénétique des programmes de réparation [@Abhimanyu2021PostInfectiousEpigenetics].
+
+L'élévation chronique du TGF-β ajoute un autre mécanisme. Petri et al. (2017) ont montré que le TGF-β et l'IL-6 verrouillent définitivement les cellules NK dans un état régulateur, perturbant la séquence temporelle normale requise pour la cicatrisation [@Petri2017MSCNKTGFb]. Dans l'EM/SFC, le TGF-β est chroniquement élevé. La prédiction : le circuit régulateur qui devrait activer les cellules NK tôt et les supprimer tard est coincé dans la phase de suppression tardive.
+
+---
+
+## Le problème du silence clinique
+
+Si les trois voies prédisent une cicatrisation altérée, pourquoi les patients ne signalent-ils pas une cicatrisation lente comme plainte importante ?
+
+Il existe au moins trois possibilités, et elles ne sont pas mutuellement exclusives :
+
+1. **Les patients sédentaires rencontrent moins de plaies.** Si vous êtes confiné à la maison ou alité, vous ne vous coupez tout simplement pas sur des objets, ne trébuchez pas et ne vous écorchez pas le genou aussi souvent qu'une personne menant une vie active. Le silence clinique pourrait refléter une faible *incidence* de plaies, pas une cicatrisation *normale*.
+
+2. **Des mécanismes compensatoires masquent le déficit.** Le TGF-β élevé favorise la fibrose — la formation de cicatrices. Une plaie pourrait se fermer à un rythme normal mais produire une qualité de cicatrice inférieure, laissant un tissu structurellement plus faible et plus sujet aux blessures répétées. Si les patients n'examinent pas leurs cicatrices histologiquement, ils ne le remarqueraient pas.
+
+3. **L'altération infraclinique est réelle mais subtile.** La différence de vitesse de guérison pourrait être de 15 à 30 % plus lente — cliniquement significative pour un biomarqueur, mais pas assez spectaculaire pour que les patients la signalent spontanément comme un problème distinct de leurs autres symptômes.
+
+La réponse honnête : nous ne savons pas laquelle de ces possibilités est correcte parce que personne n'a regardé.
+
+---
+
+## L'étude : 64 000 €, réalisable au chevet du patient, une seule mesure
+
+Voici la proposition. Elle n'est pas coûteuse. Elle ne nécessite pas de consortium multi-sites. Elle peut être faite dans un seul hôpital de recherche en moins d'un an.
+
+**Participants :** 40 patients atteints d'EM/SFC (critères ICC) + 20 témoins sains sédentaires appariés selon l'âge et le sexe + 20 témoins de maladie (fibromyalgie ou sclérose en plaques, appariés selon le niveau d'incapacité). Le bras témoin de maladie est essentiel : il distingue les anomalies de cicatrisation spécifiques à l'EM/SFC des effets génériques liés au déconditionnement ou à l'incapacité.
+
+**La procédure :** une bulle de succion — une bulle standardisée de 8 mm créée par pression négative, une technique dermatologique établie, à faible risque et réalisable au chevet. Vous mesurez le temps de réépithélialisation : le temps qu'il faut à la bulle pour se fermer.
+
+**Ce que vous mesurez dans le liquide de la bulle :** IFN-γ et GM-CSF (production de cytokines NK — le bras pertinent pour la plaie de la fonction NK, pas la cytotoxicité), TGF-β (le circuit régulateur MSC-NK) et catécholamines (stimulation sympathique locale au site de la plaie).
+
+**Ce que vous corrélez avec :** la cytotoxicité NK *et* la sécrétion de cytokines NK à partir des PBMC stimulées (les deux sont nécessaires — la cytotoxicité vous renseigne sur un bras, la sécrétion de cytokines vous renseigne sur le bras pertinent pour la plaie), la variabilité de la fréquence cardiaque (équilibre sympathovagal), le score d'incapacité de Bell (sévérité de la maladie).
+
+**Stratification :** par sévérité de la maladie (légère/moyenne/sévère), durée de la maladie (<3 ans, 3–7 ans, >7 ans), comorbidité POTS et usage de bêtabloquants (qui faussent les mesures locales de catécholamines).
+
+**Coût :** environ 800 € par participant pour la procédure de plaie, l'histologie, le panel de cytokines du liquide de la bulle, les dosages NK et la mesure de la VRC. Total : environ 64 000 € pour 80 participants.
+
+**Calendrier :** 6 mois de recrutement + 1 mois de suivi.
+
+---
+
+## Pourquoi une seule bulle répond à quatre questions
+
+Une seule bulle de succion n'est pas seulement une mesure de cicatrisation. Quatre questions indépendantes se résolvent simultanément :
+
+1. **La cicatrisation est-elle réellement altérée ?** La question principale. Si le temps de réépithélialisation est normal dans l'EM/SFC, les trois voies mécanistiques décrites ci-dessus sont soit fausses, soit compensées. S'il est anormal, nous avons un nouveau biomarqueur.
+
+2. **Quel mécanisme domine ?** Le profil cytokinique du liquide de la bulle distingue les sous-types mécanistiques. Le schéma A (IFN-γ élevée, GM-CSF faible) suggère des cellules NK déplacées vers un mode de défense sous HIF-1α. Le schéma B (IFN-γ faible, GM-CSF faible) suggère des cellules NK globalement non fonctionnelles — épuisement général. Le schéma C (TGF-β élevée) suggère que le circuit régulateur MSC-NK est activé de manière constitutive. Le schéma D (catécholamines élevées) suggère que la pulsion sympathique vers les macrophages de la plaie domine. Ces schémas ne sont pas mutuellement exclusifs — ils peuvent se chevaucher — mais des signaux dominants suggèrent des cibles de traitement.
+
+3. **Le modèle de dysfonction énergétique sélective est-il correct ?** Le cadre théorique sous-jacent à la physiopathologie de l'EM/SFC propose que certains processus sont préservés de manière autonome (croissance des cheveux, croissance des ongles) tandis que les processus sensibles à la demande sont sélectivement altérés. La cicatrisation est un cas limite : elle semble autonome mais requiert la mobilisation des NK, la régulation autonome et une dépense d'ATP significative. Si la guérison est altérée, la classification des processus du cadre est renforcée. Si elle est normale, la frontière entre processus préservés et altérés doit être redessinée.
+
+4. **La cicatrisation peut-elle servir de biomarqueur ?** Si la vitesse de guérison est corrélée à la sévérité de la maladie (score de Bell), nous avons un biomarqueur fonctionnel qui ne nécessite pas de test d'effort. C'est précieux pour les patients sévères et alités chez qui le CPET — l'étalon-or actuel pour l'altération fonctionnelle — est impossible.
+
+---
+
+## Le résultat de biologie des systèmes
+
+C'est la caractéristique la plus élégante de la proposition. La cicatrisation n'est pas un processus biologique unique — c'est une sortie intégrée de la fonction des cellules NK, de l'équilibre autonome, de la polarisation des macrophages et de la capacité métabolique. Mesurer la vitesse de guérison revient à mesurer la santé des quatre systèmes simultanément.
+
+Un seul biomarqueur fonctionnel composite, issu d'une procédure au chevet qui coûte 500 €, intégrant des informations sur de multiples systèmes dysfonctionnels. Pas besoin de scanner PET. Pas de test d'effort qui ferait s'effondrer le patient. Juste une bulle et un chronomètre.
+
+---
+
+## Et si la cicatrisation est normale ?
+
+La proposition inclut une phase pilote : 10 EM/SFC + 10 témoins d'abord, pour établir la taille de l'effet et confirmer la faisabilité.
+
+Si la cicatrisation s'avère normale — si le temps de réépithélialisation, la qualité de la cicatrice et les cytokines du liquide de la bulle sont indiscernables des témoins — l'étude produit quand même des données précieuses. Elle exclut un déficit de réparation tissulaire comme mécanisme cliniquement pertinent. Elle affine le modèle de dysfonction sélective en établissant que ce processus particulier sensible à la demande est, en fait, préservé. Elle nous dit quelque chose d'important sur ce que le corps peut encore faire quand il ne peut presque rien faire d'autre.
+
+La science progresse autant en excluant des choses qu'en les confirmant. C'est l'un des moyens les moins chers et les plus rapides de confirmer ou d'exclure quelque chose qui a des implications sur notre compréhension de la maladie.
+
+---
+
+## Le point plus large
+
+La recherche sur l'EM/SFC a un problème d'entonnoir. Un financement limité afflue vers les mêmes cibles — persistance virale, autoanticorps, profilage métabolique — tandis que de grandes questions simples et mécanistiquement informatives ne sont pas posées parce que personne n'a remarqué la lacune.
+
+La cicatrisation est l'une de ces lacunes. Elle était classée dans la catégorie des « fonctions préservées » parce qu'elle semblait y appartenir, pas parce que quelqu'un l'avait testée. Quand nous avons vérifié, trois lignes de données probantes indépendantes pointaient dans l'autre sens. La question vaut 64 000 € et six mois. Elle ne requiert rien que nous ne sachions déjà faire.
+
+La conception de l'étude, le protocole détaillé et la justification mécanistique sont disponibles dans l'article complet [@Loth2026mecfs]. Si vous êtes un chercheur ayant accès à une chambre de succion et à une clinique d'EM/SFC, celle-ci est prête à démarrer.
+
+---
+
+*Cadre mécanistique complet :*
+*Cet article fait partie d'une série en cours explorant les mécanismes de l'EM/SFC. Le projet de livre derrière ces articles est librement accessible et mis à jour régulièrement.*

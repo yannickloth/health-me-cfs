@@ -1,0 +1,96 @@
+---
+title: "« Votre étude du sommeil était normale » : comment les tests standard ratent ce qui ne va pas dans l'EM/SFC"
+description: "Il y a une scène qui se joue des milliers de fois par an dans les cliniques du sommeil du monde entier. Un patient atteint d'EM/SFC — épuisé au-delà de toute description, se réveillant chaque matin en se sentant empoisonné, incapable de fonctionner pendant des heures après avoir ouvert les yeux — est e..."
+author: "Yannick Loth"
+date: "2026-05-19"
+categories: [Sleep, Diagnostics, Misdiagnosis]
+lang: fr
+---
+
+Il y a une scène qui se joue des milliers de fois par an dans les cliniques du sommeil du monde entier. Un patient atteint d'EM/SFC — épuisé au-delà de toute description, se réveillant chaque matin en se sentant empoisonné, incapable de fonctionner pendant des heures après avoir ouvert les yeux — est envoyé pour une polysomnographie. Il passe une nuit inconfortable dans un lit d'hôpital, branché à des électrodes, sachant que ce test est censé valider ce qu'il raconte à ses médecins depuis des mois ou des années.
+
+Les résultats reviennent : *Étude du sommeil normale. Aucune pathologie significative identifiée.*
+
+Le patient sait — avec la certitude de quelqu'un qui vit dans son propre corps — que son sommeil n'est pas normal. Le test dit le contraire. Le médecin fait confiance au test. Le patient rentre chez lui sans diagnostic, sans traitement et avec le soupçon grandissant que son équipe médicale pense que c'est psychologique.
+
+Le test a échoué. Pas le patient.
+
+Pour être clair : les études du sommeil valent toujours la peine d'être poursuivies. La PSG standard détecte l'apnée obstructive du sommeil, les mouvements périodiques des membres, le trouble du comportement en sommeil paradoxal et l'hypoventilation nocturne — tous coexistent avec l'EM/SFC et sont traitables indépendamment. Le problème n'est pas que la PSG est inutile. Le problème est que lorsqu'elle revient « normale », on lui pose une question qu'elle n'a pas été conçue pour y répondre.
+
+---
+
+## Ce que mesure réellement la polysomnographie standard
+
+Une polysomnographie (PSG) nocturne standard enregistre l'EEG (ondes cérébrales), l'EOG (mouvements oculaires), l'EMG (tonus musculaire), l'ECG (rythme cardiaque), l'effort respiratoire, la saturation en oxygène et la position du corps. Un technicien formé note ensuite l'enregistrement en inspectant visuellement des époques de 30 secondes — des fenêtres de temps — et en attribuant à chacune un stade de sommeil : Éveil, N1 (sommeil léger), N2 (fuseaux du sommeil et complexes K), N3 (sommeil à ondes lentes) ou REM.
+
+La sortie est un hypnogramme — une chronologie montrant dans quel stade le patient se trouvait à chaque instant de la nuit — et un ensemble de statistiques récapitulatives : temps de sommeil total, efficacité du sommeil, latence du sommeil, pourcentage dans chaque stade, nombre d'éveils par heure et indices d'événements respiratoires.
+
+Pour les affections que la PSG a été conçue pour détecter — apnée obstructive du sommeil, narcolepsie, trouble du comportement en sommeil paradoxal, trouble des mouvements périodiques des membres — cette approche fonctionne bien. Ces affections produisent des perturbations architecturales grossières visibles au niveau de l'époque de 30 secondes [@AASM2023manual].
+
+La pathologie du sommeil de l'EM/SFC opère à un grain plus fin.
+
+---
+
+## Ce que le test manque
+
+Commençons par le problème le plus fondamental. L'intrusion alpha-delta — des ondes de fréquence alpha (8–12 Hz) s'introduisant dans le sommeil delta (0,5–4 Hz), présentes dans l'EEG brut, contaminant le sommeil à ondes lentes et l'empêchant d'être réparateur — ne change pas du tout la classification du stade de sommeil. Une époque contenant à la fois une activité delta et alpha est toujours notée comme N3 (sommeil à ondes lentes) par les critères visuels standard, car le rythme dominant est le delta. La contamination alpha n'est simplement pas capturée dans le score du stade.
+
+La détecter nécessite une analyse spectrale : la décomposition mathématique du signal EEG en ses fréquences constitutives. Cela ne fait pas partie de la notation PSG standard, la plupart des laboratoires du sommeil ne la réalisent pas en routine, et la plupart des médecins du sommeil n'ont jamais vu un ratio de puissance alpha-delta sur un rapport. Ainsi, l'anomalie de sommeil la plus significative du patient se trouve dans les données brutes, présente mais invisible dans le résumé clinique. L'intrusion alpha-delta a été identifiée pour la première fois chez des patients atteints de fibromyalgie par Moldofsky et al. [@Moldofsky1975alphaDeltaSleep] puis quantifiée avec des méthodes spectrales par Roizenblatt et al. [@Roizenblatt2001alphaFM], et pourtant le résultat n'a jamais intégré la notation clinique de routine.
+
+Ensuite, il y a le problème des micro-éveils. L'American Academy of Sleep Medicine définit un éveil évaluable comme un changement brusque de la fréquence EEG d'au moins 3 secondes [@AASM2023manual]. Les éveils plus courts que cela — qui peuvent être le résultat polysomnographique le plus constant dans l'EM/SFC — ne sont pas notés. Un patient qui subit des centaines de micro-éveils de moins de 3 secondes par nuit, chacun perturbant brièvement la coordination neuronale requise pour un sommeil réparateur, recevra un indice d'éveil indiquant « dans les limites normales ». Chacun de ces micro-événements déclenche une brève activation sympathique, une montée transitoire de noradrénaline, une suppression momentanée du flux glymphatique [@Xie2013glymphatic]. Des centaines par nuit, chacun trop bref pour compter, chacun rongeant la récupération nocturne, et le système de notation l'appelle normal.
+
+Le problème du pourcentage est plus subtil mais tout aussi conséquent. Les patients atteints d'EM/SFC peuvent passer un pourcentage parfaitement normal du temps de sommeil total en N3 — et le rapport le reflète, donc le médecin ne voit pas d'alerte. Mais ce qui compte, c'est la continuité. Des époques de sommeil à ondes lentes soutenues et ininterrompues de 20 minutes et plus sont nécessaires pour la clairance glymphatique et la consolidation de la mémoire [@Diekelmann2010sleepMemory] ; un N3 fragmenté — cinq minutes ici, trois minutes là, ponctué de transitions de stade et de micro-éveils — produit le même pourcentage mais essentiellement aucune des fonctions réparatrices. La PSG standard rapporte le pourcentage ; elle ne rapporte ni l'époque soutenue la plus longue ni un indice de fragmentation. Deux patients montrant tous deux 20 % de N3, l'un en blocs soutenus et l'autre en fragments dispersés, reçoivent le même score.
+
+Par-dessus tout, la qualité du sommeil dans l'EM/SFC fluctue dramatiquement avec l'activité de la maladie, le moment du malaise post-effort (PEM) et la dérive circadienne. Une seule nuit de PSG peut capturer une nuit relativement bonne — la nouveauté et le stress du laboratoire du sommeil produisent parfois même un effet de première nuit qui déforme davantage l'architecture — tandis qu'un suivi à domicile sur plusieurs nuits donnerait une image bien plus représentative. Il est rarement prescrit.
+
+Enfin, la PSG standard enregistre la fréquence cardiaque mais saute généralement l'analyse détaillée de la variabilité de la fréquence cardiaque pendant le sommeil. L'activation sympathique persistante, l'absence d'abaissement nocturne de la pression artérielle et la fréquence cardiaque élevée pendant la nuit qui caractérisent le sommeil de l'EM/SFC sont toutes présentes dans les données brutes et toutes absentes du rapport clinique.
+
+---
+
+## Ce qu'il faudrait faire à la place
+
+Rien de ce qui suit ne nécessite une nouvelle technologie. Cela nécessite la volonté d'utiliser réellement ce qui existe déjà.
+
+L'ajout le plus important à la PSG standard est l'EEG quantitatif : calculer la densité spectrale de puissance sur toute la nuit, particulièrement le ratio delta/alpha pendant les époques N3, pour rendre l'intrusion alpha-delta visible. Cette analyse peut être exécutée sur des données déjà collectées par n'importe quel montage PSG standard ; c'est une étape de post-traitement computationnelle, pas une mise à niveau matérielle. Le coût est le temps d'analyse. De même, noter les éveils à un seuil de 1 seconde plutôt que 3 — ou calculer un indice de fragmentation qui capture les perturbations sous le seuil que la notation standard ignore — est tout à fait réalisable avec les logiciels existants. Les outils sont utilisés dans la recherche sur le sommeil ; ils n'ont simplement pas fait la transition vers les rapports cliniques de routine.
+
+L'analyse des fuseaux du sommeil est un pari un peu plus incertain, mais pas beaucoup. Les fuseaux — des bouffées thalamiques de 12–14 Hz, des marqueurs de l'intégrité thalamocorticale — sont corrélés à la qualité du sommeil réparateur et sont détectables de façon simple à partir des données PSG standard. On suppose que les patients atteints d'EM/SFC ont une densité et une puissance de fuseaux réduites en raison de l'éclatement thalamique limité par l'énergie, mais aucune étude publiée n'a encore réellement mesuré cela dans la maladie. La mesure est facile. Il faut juste que quelqu'un le fasse.
+
+Pour capturer la variabilité qu'une seule nuit de laboratoire ne peut pas, les appareils EEG à domicile de qualité grand public et clinique peuvent maintenant enregistrer l'EEG frontal sur plusieurs nuits. Ils manquent de la résolution spatiale d'un montage PSG complet, mais ils peuvent suivre le ratio delta/alpha, les mesures de continuité du sommeil et les variations nocturnes sur plusieurs semaines. Pour une maladie où la qualité du sommeil peut changer radicalement selon l'activité de la maladie et le moment du PEM, un mois de données à domicile vaut plus qu'une nuit de laboratoire.
+
+Ajouter une surveillance continue de la pression artérielle (pour l'abaissement nocturne), une analyse détaillée de la VRC (pour l'équilibre sympathique-parasympathique) et une capnographie (pour le dépistage de l'hypoventilation nocturne) en parallèle de la PSG couvrirait la dimension autonome que les études standard laissent entièrement non abordée.
+
+---
+
+## La conséquence clinique de « normal »
+
+Un résultat « normal » fait plus de dégâts qu'aucun résultat du tout, parce qu'il ferme activement des portes.
+
+Les options de traitement sont entièrement contournées. L'intrusion alpha-delta pourrait répondre à une modulation des canaux calciques de type T ou aux gabapentinoïdes ; la dysfonction autonome du sommeil pourrait répondre aux DORA ou aux agonistes alpha-2 ; les mouvements périodiques des membres, s'ils sont présents d'autres nuits mais sous le seuil de la seule nuit étudiée, pourraient répondre à l'optimisation du fer. Aucune de ces options n'est envisagée quand l'étude revient propre.
+
+Le préjudice de crédibilité est plus difficile à quantifier mais peut-être pire. Dans un système médical qui a déjà du mal à prendre l'EM/SFC au sérieux, une étude du sommeil « normale » devient un autre point de données utilisé — parfois explicitement, généralement implicitement — pour suggérer que les plaintes du patient sont exagérées ou psychologiques. L'étude n'était pas normale. Le test n'a pas mesuré la chose qui est anormale. Cette distinction survit rarement au transfert entre le rapport et la consultation.
+
+Et l'impact sur la recherche s'accumule avec le temps. Quand les études du sommeil de l'EM/SFC rapportent constamment des résultats normaux parce qu'elles utilisent une notation standard sans analyse spectrale, cela ralentit la reconnaissance de la pathologie du sommeil spécifique à l'EM/SFC comme cible de recherche légitime. Le domaine mesure ce qui est facile à mesurer, conclut qu'il n'y a rien à voir, et passe à autre chose.
+
+---
+
+## Ce que les patients peuvent faire maintenant
+
+L'infrastructure clinique ne va pas rattraper vite son retard. En attendant, quelques choses valent la peine d'être faites.
+
+Quand on vous réfère pour une PSG, demandez si le laboratoire effectue une analyse EEG quantitative. Certains centres universitaires du sommeil le font ; la plupart non. S'ils ne le font pas, demandez si les données EEG brutes peuvent être exportées pour une analyse externe — c'est la chose la plus informative que vous puissiez demander, et certains laboratoires accommoderont la demande même si elle n'est pas standard. Les bandeaux EEG de qualité grand public avec des capacités d'analyse spectrale sont une autre option, imparfaite mais réelle : ils manquent de validation clinique pour les indicateurs spécifiques à l'EM/SFC, mais ils peuvent suivre le ratio delta/alpha sur plusieurs nuits et montrer le schéma au fil du temps. C'est de l'auto-phénotypage de qualité recherche plutôt qu'un diagnostic, mais cela produit des données là où il n'y en a autrement aucune.
+
+Pour la dimension autonome, la fréquence cardiaque continue, la VRC et la SpO₂ provenant d'appareils portables — corrélées aux évaluations subjectives de la qualité du sommeil — peuvent documenter ce que la PSG manque. Un graphique montrant une fréquence cardiaque nocturne constamment élevée et une absence de récupération nocturne de la VRC est plus lisible dans une conversation médicale qu'une description verbale de se réveiller épuisé.
+
+Et si une étude du sommeil revient « normale » alors que le sommeil est profondément non réparateur, cet écart est en soi médicalement significatif. Il signifie que la pathologie opère en dessous de la résolution du test — pas qu'il n'y a pas de pathologie. Il vaut la peine de le dire clairement par écrit, à la personne qui gère le cas.
+
+---
+
+## Un problème de mesure, pas un problème de patient
+
+L'écart entre ce que les patients atteints d'EM/SFC vivent dans leur sommeil et ce que rapporte la polysomnographie standard est l'un des échecs de mesure les plus conséquents de la médecine moderne du sommeil. Les tests ont été conçus pour un ensemble différent de maladies, et ils fonctionnent bien pour ces maladies. Ils n'ont jamais été conçus en pensant à l'EM/SFC, et le décalage se voit.
+
+Moderniser l'approche diagnostique — analyse spectrale, notation élargie des éveils, suivi multi-nuits, évaluation autonome simultanée — est techniquement simple et économiquement faisable. Les outils et les algorithmes existent déjà, développés en grande partie dans les contextes de recherche sur le sommeil. Ce qui manque, c'est la reconnaissance que « PSG normale » dans le contexte d'un sommeil profondément non réparateur n'est pas rassurant. Cela signifie que le test ne mesure pas les bonnes choses, pas que le patient va bien.
+
+---
+
+*Article précédent de cette série : [Et si nous réparions l'intrusion alpha ?](https://www.linkedin.com/pulse/) — une expérience de pensée sur une maladie à mécanismes multiples.*

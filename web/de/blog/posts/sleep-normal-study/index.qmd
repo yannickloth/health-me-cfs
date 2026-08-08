@@ -1,0 +1,96 @@
+---
+title: "„Ihre Schlafstudie war normal“: Wie Standardtests übersehen, was bei ME/CFS defekt ist"
+description: "Es gibt eine Szene, die sich Tausende Male pro Jahr in Schlaflaboren auf der ganzen Welt abspielt. Ein Patient mit ME/CFS – über jede Beschreibung hinaus erschöpft, wacht jeden Morgen auf und fühlt sich vergiftet, stundenlang unfähig zu funktionieren, nachdem er die Augen geöffnet hat – wird zu einer S..."
+author: "Yannick Loth"
+date: "2026-05-19"
+categories: [Sleep, Diagnostics, Misdiagnosis]
+lang: de
+---
+
+Es gibt eine Szene, die sich Tausende Male pro Jahr in Schlaflaboren auf der ganzen Welt abspielt. Ein Patient mit ME/CFS – über jede Beschreibung hinaus erschöpft, wacht jeden Morgen auf und fühlt sich vergiftet, stundenlang unfähig zu funktionieren, nachdem er die Augen geöffnet hat – wird zu einer Polysomnographie-Untersuchung geschickt. Er verbringt eine unbequeme Nacht in einem Krankenhausbett, mit Elektroden verkabelt, im Wissen, dass dieser Test das validieren soll, was er seinen Ärzten seit Monaten oder Jahren erzählt.
+
+Die Ergebnisse kommen zurück: *Normale Schlafstudie. Keine signifikante Pathologie identifiziert.*
+
+Der Patient weiß – mit der Gewissheit von jemandem, der in seinem eigenen Körper lebt –, dass sein Schlaf nicht normal ist. Der Test sagt das Gegenteil. Der Arzt vertraut dem Test. Der Patient geht ohne Diagnose, ohne Behandlung und mit dem wachsenden Verdacht, dass sein medizinisches Team dies für psychologisch hält, nach Hause.
+
+Der Test ist gescheitert. Nicht der Patient.
+
+Um es klar zu sagen: Schlafstudien sind weiterhin sinnvoll. Das Standard-PSG erkennt obstruktive Schlafapnoe, periodische Gliedmaßenbewegungen, REM-Schlaf-Verhaltensstörung und nächtliche Hypoventilation – die alle mit ME/CFS koexistieren und unabhängig behandelbar sind. Das Problem ist nicht, dass PSG nutzlos ist. Das Problem ist, dass, wenn das Ergebnis „normal“ ist, ihm eine Frage gestellt wird, für die es nicht entwickelt wurde.
+
+---
+
+## Was die Standard-Polysomnographie tatsächlich misst
+
+Ein standardmäßiges nächtliches Polysomnogramm (PSG) zeichnet EEG (Gehirnwellen), EOG (Augenbewegungen), EMG (Muskeltonus), EKG (Herzrhythmus), Atemanstrengung, Sauerstoffsättigung und Körperposition auf. Ein ausgebildeter Techniker bewertet dann die Aufzeichnung, indem er visuell 30-Sekunden-Epochen – Zeitfenster – inspiziert und jeder eine Schlafphase zuweist: Wach, N1 (leichter Schlaf), N2 (Schlafspindeln und K-Komplexe), N3 (Tiefschlaf) oder REM.
+
+Die Ausgabe ist ein Hypnogramm – eine Zeitachse, die zeigt, in welcher Phase sich der Patient zu jedem Zeitpunkt der Nacht befand – sowie eine Reihe von Zusammenfassungsstatistiken: Gesamtschlafzeit, Schlafeffizienz, Schlaflatenz, Prozent in jeder Phase, Anzahl der Erregungen pro Stunde und respiratorische Ereignisindizes.
+
+Für die Bedingungen, zu deren Erkennung das PSG entwickelt wurde – obstruktive Schlafapnoe, Narkolepsie, REM-Schlaf-Verhaltensstörung, periodische Gliedmaßenbewegungsstörung – funktioniert dieser Ansatz gut. Diese Bedingungen erzeugen grobe architektonische Störungen, die auf der Ebene der 30-Sekunden-Epoche sichtbar sind [@AASM2023manual].
+
+Die ME/CFS-Schlafpathologie operiert auf einer feineren Körnung.
+
+---
+
+## Was der Test übersieht
+
+Beginnen wir mit dem grundlegendsten Problem. Alpha-Delta-Intrusion – Alpha-Frequenzwellen (8–12 Hz), die in den Delta-Schlaf (0,5–4 Hz) eindringen, im rohen EEG vorhanden sind, den Tiefschlaf kontaminieren und verhindern, dass er erholsam ist – ändert die Klassifizierung der Schlafphase überhaupt nicht. Eine Epoche, die sowohl Delta- als auch Alpha-Aktivität enthält, wird von den Standard-Visualkriterien immer noch als N3 (Tiefschlaf) bewertet, weil der dominante Rhythmus Delta ist. Die Alpha-Kontamination wird im Phasenwert einfach nicht erfasst.
+
+Sie zu erkennen erfordert eine Spektralanalyse: die mathematische Zerlegung des EEG-Signals in seine Komponentenfrequenzen. Das ist nicht Teil der standardmäßigen PSG-Bewertung, die meisten Schlaflabore führen sie nicht routinemäßig durch, und die meisten Schlafmediziner haben noch nie ein Alpha-Delta-Leistungsverhältnis in einem Bericht gesehen. So sitzt die signifikanteste Schlafanomalie des Patienten in den Rohergebnissen, vorhanden, aber unsichtbar in der klinischen Zusammenfassung. Alpha-Delta-Intrusion wurde erstmals von Moldofsky et al. bei Fibromyalgiepatienten identifiziert [@Moldofsky1975alphaDeltaSleep] und später von Roizenblatt et al. mit spektralen Methoden quantifiziert [@Roizenblatt2001alphaFM], doch der Befund ist nie in die routinemäßige klinische Bewertung eingegangen.
+
+Dann ist da das Problem der Mikroerregungen. Die American Academy of Sleep Medicine definiert eine bewertbare Erregung als einen abrupten Wechsel der EEG-Frequenz, der mindestens 3 Sekunden dauert [@AASM2023manual]. Erregungen, die kürzer sind – die der konsistenteste polysomnografische Befund bei ME/CFS sein könnten –, werden nicht bewertet. Ein Patient, der hunderte Sub-3-Sekunden-Mikroerregungen pro Nacht erlebt, die jeweils kurz die neuronale Koordination stören, die für erholsamen Schlaf erforderlich ist, erhält einen Erregungsindex mit „innerhalb der Normgrenzen“. Jedes dieser Mikroereignisse löst eine kurze sympathische Aktivierung aus, einen vorübergehenden Noradrenalin-Anstieg, eine momentane Unterdrückung des glymphatischen Flusses [@Xie2013glymphatic]. Hunderte pro Nacht, jede zu kurz zum Zählen, jede, die an der nächtlichen Erholung zehrt – und das Bewertungssystem nennt es normal.
+
+Das Prozentproblem ist subtiler, aber ebenso folgenreich. ME/CFS-Patienten können einen völlig normalen Prozentsatz der Gesamtschlafzeit in N3 verbringen – und der Bericht spiegelt dies wider, sodass der Arzt keine Warnung sieht. Aber was zählt, ist die Kontinuität. Langanhaltende, ununterbrochene Tiefschlaf-Epochen von 20+ Minuten sind für die glymphatische Clearance und die Gedächtniskonsolidierung erforderlich [@Diekelmann2010sleepMemory]; fragmentiertes N3 – fünf Minuten hier, drei Minuten dort, unterbrochen von Phasenübergängen und Mikroerregungen – ergibt denselben Prozentsatz, aber im Wesentlichen keine der erholsamen Funktionen. Das Standard-PSG berichtet den Prozentsatz; es berichtet weder die längste anhaltende Epoche noch einen Fragmentierungsindex. Zwei Patienten, die beide 20 % N3 zeigen, einer in anhaltenden Blöcken und einer in verstreuten Fragmenten, erhalten dieselbe Bewertung.
+
+Darüber hinaus schwankt die ME/CFS-Schlafqualität dramatisch mit der Krankheitsaktivität, dem Zeitpunkt des Post-Exertionalen Malaise (PEM) und der zirkadianen Drift. Eine einzelne PSG-Nacht kann eine relativ gute Nacht erfassen – die Neuheit und der Stress des Schlaflabors erzeugen manchmal sogar einen Erste-Nacht-Effekt, der die Architektur weiter verzerrt –, während ein mehrnächtiges Heimmonitoring ein weitaus repräsentativeres Bild liefern würde. Es wird selten verordnet.
+
+Schließlich zeichnet das Standard-PSG die Herzfrequenz auf, überspringt aber typischerweise die detaillierte Analyse der Herzratenvariabilität während des Schlafs. Die anhaltende sympathische Aktivierung, das fehlende nächtliche Absinken des Blutdrucks und die erhöhte nächtliche Herzfrequenz, die den ME/CFS-Schlaf kennzeichnen, sind alle in den Rohdaten vorhanden und alle im klinischen Bericht abwesend.
+
+---
+
+## Was stattdessen getan werden sollte
+
+Nichts von dem Folgenden erfordert neue Technologie. Es erfordert den Willen, tatsächlich zu nutzen, was bereits existiert.
+
+Die wichtigste Ergänzung zum Standard-PSG ist quantitatives EEG: die Berechnung der Leistungsspektraldichte über die Nacht, insbesondere des Delta/Alpha-Verhältnisses während N3-Epochen, um die Alpha-Delta-Intrusion sichtbar zu machen. Diese Analyse kann auf Daten ausgeführt werden, die bereits von jedem Standard-PSG-Setup erfasst wurden; es ist ein rechnerischer Nachbearbeitungsschritt, kein Hardware-Upgrade. Die Kosten sind die Analysezeit. Ebenso ist das Bewerten von Erregungen bei einer 1-Sekunden-Schwelle statt 3 Sekunden – oder die Berechnung eines Fragmentierungsindex, der die unterschwelligen Störungen erfasst, die die Standardbewertung ignoriert – mit vorhandener Software durchaus machbar. Die Werkzeuge werden in der Schlafforschung verwendet; sie haben einfach den Übergang in routinemäßige klinische Berichte nicht geschafft.
+
+Die Schlafspindel-Analyse ist ein etwas größeres Stück, aber nicht viel. Spindeln – 12–14-Hz-thalamische Ausbrüche, Marker für die thalamokortikale Integrität – korrelieren mit der erholsamen Schlafqualität und sind aus Standard-PSG-Daten unkompliziert erkennbar. Es wird angenommen, dass ME/CFS-Patienten eine reduzierte Spindeldichte und -leistung haben, weil das energetisch limitierte thalamische Feuern eingeschränkt ist, aber keine veröffentlichte Studie hat dies in der Krankheit bislang tatsächlich gemessen. Die Messung ist einfach. Jemand muss es nur tun.
+
+Um die Variabilität zu erfassen, die eine einzige Labornacht nicht kann, können Verbraucher- und klinische Heimelektroenzephalografie-Geräte jetzt frontales EEG über mehrere Nächte aufzeichnen. Ihnen fehlt die räumliche Auflösung eines vollständigen PSG-Montagesetups, aber sie können das Delta/Alpha-Verhältnis, Schlafkontinuitätsmetriken und Nacht-zu-Nacht-Schwankungen über Wochen verfolgen. Bei einer Krankheit, bei der sich die Schlafqualität je nach Krankheitsaktivität und PEM-Zeitpunkt dramatisch ändern kann, ist ein Monat Heimatdaten mehr wert als eine Labornacht.
+
+Die Hinzunahme einer kontinuierlichen Blutdrucküberwachung (für das nächtliche Absinken), einer detaillierten HRV-Analyse (für das sympathisch-parasympathische Gleichgewicht) und einer Kapnographie (für das Screening auf nächtliche Hypoventilation) neben dem PSG würde die autonome Dimension abdecken, die Standardstudien völlig unberücksichtigt lassen.
+
+---
+
+## Die klinische Konsequenz von „normal“
+
+Ein „normales“ Ergebnis richtet mehr Schaden an als gar kein Ergebnis, weil es aktiv Dinge ausschließt.
+
+Behandlungsoptionen werden vollständig umgangen. Alpha-Delta-Intrusion könnte auf T-Typ-Kalziumkanal-Modulation oder Gabapentinoide ansprechen; autonome Schlafdysfunktion könnte auf DORAs oder Alpha-2-Agonisten ansprechen; periodische Gliedmaßenbewegungen, wenn sie an anderen Nächten vorhanden sind, aber in der einen untersuchten Nacht unter der Schwelle liegen, könnten auf Eisenoptimierung ansprechen. Keine davon wird in Betracht gezogen, wenn die Studie sauber zurückkommt.
+
+Der Glaubwürdigkeitsschaden ist schwerer zu quantifizieren, aber wohl schlimmer. In einem medizinischen System, das bereits Schwierigkeiten hat, ME/CFS ernst zu nehmen, wird eine „normale“ Schlafstudie zu einem weiteren Datenpunkt, der verwendet wird – manchmal explizit, meist implizit –, um nahezulegen, dass die Beschwerden des Patienten übertrieben oder psychologisch sind. Die Studie war nicht normal. Der Test hat das Abnormal nicht gemessen. Diese Unterscheidung überlebt selten die Übergabe zwischen Bericht und Konsultation.
+
+Und die Forschungsauswirkung summiert sich im Laufe der Zeit. Wenn ME/CFS-Schlafstudien konsequent normale Befunde melden, weil sie die Standardbewertung ohne Spektralanalyse verwenden, verlangsamt dies die Anerkennung der ME/CFS-spezifischen Schlafpathologie als legitimes Forschungsziel. Das Feld misst, was leicht zu messen ist, schließt, dass es nichts zu sehen gibt, und zieht weiter.
+
+---
+
+## Was Patienten jetzt tun können
+
+Die klinische Infrastruktur wird nicht schnell aufholen. In der Zwischenzeit sind ein paar Dinge die Mühe wert.
+
+Wenn Sie zum PSG überwiesen werden, fragen Sie, ob das Labor eine quantitative EEG-Analyse durchführt. Einige akademische Schlafzentren tun das; die meisten nicht. Wenn nicht, fragen Sie, ob die rohen EEG-Daten für eine externe Analyse exportiert werden können – das ist das informativste Einzelstück, für das Sie sich einsetzen können, und einige Labore werden der Bitte nachkommen, auch wenn sie nicht Standard ist. Verbrauchergeeignete EEG-Stirnbänder mit Spektralanalysefähigkeiten sind eine weitere Option, unvollkommen, aber real: Ihnen fehlt die klinische Validierung für ME/CFS-spezifische Metriken, aber sie können das Delta/Alpha-Verhältnis über mehrere Nächte verfolgen und das Muster über die Zeit zeigen. Das ist Self-Phenotyping in Forschungsklasse und keine Diagnose, aber es erzeugt Daten, wo sonst keine sind.
+
+Für die autonome Dimension können kontinuierliche Herzfrequenz, HRV und SpO₂ von Wearables – korreliert mit subjektiven Schlafqualitätsbewertungen – dokumentieren, was das PSG übersieht. Ein Diagramm, das eine anhaltend erhöhte nächtliche Herzfrequenz und ausbleibende nächtliche HRV-Erholung zeigt, ist in einer medizinischen Konversation besser lesbar als eine verbale Beschreibung, erschöpft aufzuwachen.
+
+Und wenn eine Schlafstudie „normal“ zurückkommt, während der Schlaf tiefgreifend nicht erholsam ist, ist diese Diskrepanz an sich medizinisch bedeutsam. Sie bedeutet, dass die Pathologie unterhalb der Auflösung des Tests operiert – nicht, dass es keine Pathologie gibt. Es ist wert, das schriftlich klar zu sagen, gegenüber der Person, die den Fall betreut.
+
+---
+
+## Ein Messproblem, kein Patientproblem
+
+Die Kluft zwischen dem, was ME/CFS-Patienten in ihrem Schlaf erleben, und dem, was die Standard-Polysomnographie meldet, ist einer der folgenreichsten Messfehler in der modernen Schlafmedizin. Die Tests wurden für eine andere Reihe von Krankheiten entwickelt, und sie funktionieren gut für diese Krankheiten. Sie wurden nie mit ME/CFS im Sinn entwickelt, und die Diskrepanz wird sichtbar.
+
+Die Verbesserung des diagnostischen Ansatzes – Spektralanalyse, erweiterte Erregungsbewertung, mehrnächtiges Monitoring, begleitende autonome Bewertung – ist technisch unkompliziert und wirtschaftlich machbar. Die Werkzeuge und Algorithmen existieren bereits, weitgehend entwickelt in Schlafforschungskontexten. Was fehlt, ist die Erkenntnis, dass ein „normales PSG“ im Kontext von tiefgreifend nicht erholsamem Schlaf nicht beruhigend ist. Es bedeutet, dass der Test nicht die richtigen Dinge misst, nicht, dass der Patient in Ordnung ist.
+
+---
+
+*Vorheriger Artikel dieser Reihe: [Was wäre, wenn wir Alpha-Intrusion beheben würden?](https://www.linkedin.com/pulse/) – ein Gedankenexperiment zu einer Krankheit mit mehreren Mechanismen.*

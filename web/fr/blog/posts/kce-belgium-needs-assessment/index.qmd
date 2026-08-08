@@ -1,0 +1,194 @@
+---
+title: "749 Belges atteints d'EM/SFC ont dit à leur gouvernement ce qui va mal — les données sont brutales"
+description: "La première évaluation complète des besoins en Belgique sur l'EM/SFC. 749 patients interrogés, 19 entretiens. Qualité de vie comparable aux affections les plus incapacitantes connues, retards diagnostiques au-delà de 5 ans, le GET nuisant à la plupart des patients et 8,6 ans perdus en invalidité professionnelle. Ce que le rapport a trouvé, ce que cela signifie pour les patients et les médecins partout."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Politique, Qualité de vie, Diagnostic, Traitement, Comorbidités, Épidémiologie]
+lang: fr
+---
+
+Une équipe de chercheurs en services de santé du Centre fédéral d'expertise des soins de santé belge (KCE) vient de publier l'évaluation des besoins la plus détaillée des patients EM/SFC jamais menée en Europe. Ils ont interrogé 749 adultes avec un diagnostic d'EM/SFC, réalisé 19 entretiens approfondis avec des patients et recoupé le tout avec les bases de données gouvernementales [@Cornelis2026KCE420].
+
+Le rapport est paru le 30 juin 2026. Ce n'est pas une recommandation clinique — les auteurs sont explicites à ce sujet. C'est une évaluation des besoins : de quoi les patients EM/SFC ont-ils réellement besoin, et à quel point le système de santé échoue-t-il à le fournir ? Quatre associations de patients ont collaboré au projet. Trois experts internationaux l'ont validé. Le gouvernement belge l'a financé.
+
+La réponse, en bref : le système échoue à tous les niveaux, et les données qui quantifient cet échec devraient changer la façon dont les médecins, les décideurs politiques et les chercheurs pensent cette maladie.
+
+---
+
+## Les chiffres de qualité de vie sont pires que vous ne le pensez
+
+Une étude danoise de référence de 2015 a constaté que l'EM/SFC a la qualité de vie liée à la santé (HRQoL) la plus faible de toutes les affections chroniques étudiées — pire que la sclérose en plaques, pire que l'AVC, pire que le cancer. À l'aide d'un questionnaire standard appelé EQ-5D, les patients EM/SFC ont obtenu un score de 0,47, contre 0,85 pour la population générale [@Hvidberg2015qol].
+
+Le KCE a actualisé ce tableau avec un instrument plus sensible — l'EQ-5D-5L, qui compte cinq niveaux par dimension au lieu de trois — et a constaté que la situation est encore plus sombre que ce qu'Hvidberg rapportait.
+
+Pour comprendre cette échelle : l'échelle d'utilité EQ-5D-5L va de 0 (un état aussi mauvais que d'être mort) à 1 (santé parfaite). Des valeurs inférieures à 0 sont possibles — des états considérés comme « pires que la mort ».
+
+Les patients EM/SFC belges ont obtenu une utilité moyenne de **0,36** sur l'état de santé actuel, en baisse par rapport à une estimation de **0,84** avant l'apparition de la maladie — une découverte statistiquement robuste. La moyenne de la population générale belge est de 0,79. C'est un déclin de 57 % — un effondrement, pas une baisse [@Cornelis2026KCE420].
+
+Le patient EM/SFC moyen n'est pas sous zéro sur l'échelle, mais les patients sévères et très sévères — ceux qui sont alités et n'ont pas pu remplir un sondage en ligne — ont été en grande partie exclus. Le score d'utilité moyen réel pour l'ensemble de la population EM/SFC pourrait être nettement pire que 0,36, peut-être même sous zéro, car les patients les plus malades n'ont pas pu être interrogés.
+
+Les facteurs qui ont entraîné les pires baisses de qualité de vie : avoir entre 30 et 50 ans (l'âge le plus productif et celui de la procréation), attendre plus de 2 ans pour un diagnostic, avoir le COVID long comme comorbidité, faire face à des difficultés financières et manquer d'accès aux soins spécialisés. À l'exception de l'âge, chaque facteur de cette liste est modifiable par la politique.
+
+---
+
+## Le retard diagnostique n'est pas un accident — c'est une caractéristique de conception du système
+
+La moitié des 749 patients interrogés a attendu plus de 2 ans entre leur première consultation médicale et l'obtention d'un diagnostic. Trente-neuf pour cent ont attendu plus de 5 ans. Seuls 4 % avaient été diagnostiqués dans les 6 mois précédents — ce qui signifie que l'échantillon était dominé par des patients de longue durée qui avaient déjà survécu au parcours diagnostique [@Cornelis2026KCE420].
+
+Et le retard diagnostique avait un prix mesurable : chaque année d'attente supplémentaire était significativement associée à une HRQoL plus mauvaise (une découverte statistiquement robuste, p = 0,010). Ce n'est pas seulement une frustration — c'est un contributeur indépendant à la charge de la maladie.
+
+Pour les médecins qui lisent ceci : les critères diagnostiques que le rapport évalue incluent l'IOM (2015), la NICE (2021), Fukuda (1994) et les critères canadiens de consensus (2003). Le KCE accepte les critères de l'IOM comme référence mais note que l'application incohérente chez les cliniciens belges est le goulot d'étranglement, pas les critères eux-mêmes. La suggestion du rapport est simple : intégrer l'EM/SFC dans la formation médicale et les programmes de formation continue.
+
+---
+
+## Sept patients sur dix ont au moins une affection coexistante
+
+C'est peut-être la découverte la moins discutée du rapport. Le KCE a systématiquement interrogé sur les comorbidités et a trouvé :
+
+| Affection | Prévalence |
+|-----------|-----------|
+| Fibromyalgie | 63,3 % |
+| Syndrome de l'intestin irritable | 56,9 % |
+| Hypotension orthostatique | 20,6 % |
+| POTS | 17,0 % |
+| COVID long | 16,4 % |
+| Neuropathie des petites fibres | 12,8 % |
+| Syndrome d'activation des mastocytes | 10,5 % |
+
+**73,2 % des patients ont déclaré au moins une comorbidité liée à l'EM/SFC.** [@Cornelis2026KCE420]
+
+Ce n'est pas une « comorbidité » au sens banal — la plupart des patients ont plusieurs affections interactives qui exigent chacune des évaluations diagnostiques et des approches de traitement distinctes. Une patiente qui se présente avec de la fatigue, des douleurs généralisées, une tachycardie orthostatique et des symptômes gastro-intestinaux n'est pas une « patiente complexe » avec un trouble psychiatrique primaire plus une somatisation. C'est une patiente qui a besoin d'une évaluation de la fibromyalgie, d'un test de table basculante, d'une consultation en gastro-entérologie et éventuellement d'une évaluation du MCAS. Certaines de ces affections peuvent être des conséquences en aval de la physiopathologie sous-jacente de l'EM/SFC. D'autres peuvent partager des causes en amont. Pour la plupart d'entre elles, le sens causal n'est pas résolu.
+
+Ces données renforcent une observation clinique de plus en plus étayée par la littérature : l'EM/SFC, la fibromyalgie, le SII, le POTS, le MCAS, l'instabilité cranio-cervicale et le syndrome d'Ehlers-Danlos hypermobile forment un groupe d'affections étroitement entrelacées partageant des substrats du tissu conjonctif, autonomes et immunitaires. Le KCE n'utilise pas ce cadre, mais ses chiffres de prévalence confirment indépendamment l'idée centrale : l'EM/SFC voyage rarement seule, et la traiter isolément passe à côté de l'essentiel du tableau.
+
+---
+
+## L'exercice progressif (GET) nuit à la majorité — mais 26 % s'améliorent
+
+Le KCE a interrogé directement les patients sur leurs expériences de traitement. Les résultats sur l'exercice progressif (GET) et la thérapie cognitivo-comportementale (TCC) sont plus détaillés que toute enquête patient publiée à ce jour :
+
+- **GET :** Une majorité de patients a déclaré une exacerbation des symptômes et une charge de traitement substantielle. Le rapport décrit le GET comme « majoritairement perçu comme nocif ». Mais — et c'est la découverte qui complique le récit — **26 % des patients ont déclaré une amélioration modérée ou substantielle avec le GET** [@Cornelis2026KCE420].
+
+- **La physiothérapie manuelle** (le genre pratique, non basée sur l'exercice) a eu des « expériences généralement positives » — une distinction que le rapport maintient soigneusement.
+
+- **TCC :** Environ 50 % se sont améliorés, 20 % se sont détériorés, 30 % sans changement — une chance égale d'amélioration, mais un risque d'aggravation d'un sur cinq [@Cornelis2026KCE420].
+
+- **Conseil psychologique** (non-TCC) : 50 % se sont améliorés, 30 % sans changement.
+
+Le résultat du GET est celui qui exige une réponse. La position du document est que le GET est contre-indiqué chez les patients EM/SFC qui présentent un malaise post-effort (MPE) — le symptôme définissant de la maladie, où un effort physique ou mental déclenche une aggravation disproportionnée des symptômes pouvant durer des jours ou des semaines. De grandes enquêtes patient montrent des taux de préjudice de 51 % [@Kindlon2011GET]. Le KCE confirme indépendamment ce tableau. Mais le signal de 26 % de répondants n'est pas du bruit — c'est un sous-groupe minoritaire qui tolère apparemment un traitement qui nuit à tous les autres, ou en tire bénéfice. Les auteurs du KCE notent, de façon incisive, que les caractéristiques de ce sous-groupe n'ont pas été étudiées.
+
+C'est l'une des 30 idées de recherche que le processus d'intégration a générées. Elle a été classée comme hypothèse pour un travail futur — enregistrée comme prédiction testable : si un essai prospectif identifie les répondants au GET par une capacité d'exercice préservée et l'absence de MPE après une activité légère, l'effet du sous-groupe devrait se répliquer. Si ce n'est pas le cas, les 26 % sont de l'effet placebo, une régression vers la moyenne ou une attribution erronée.
+
+En attendant, aucun médecin ne devrait prescrire le GET à un patient EM/SFC non sélectionné sur la base d'un signal de 26 % de répondants minoritaires. Mais la recherche qui pourrait identifier qui sont ces 26 % — et protéger les 74 % restants — mérite d'être financée.
+
+---
+
+## Huit ans et demi hors du travail — et c'est pour les personnes qui ont réussi à entrer dans la base de données
+
+Le KCE a recoupé son enquête avec les données administratives du gouvernement belge. Ils ont trouvé **1 189 personnes** dans la base de données d'invalidité avec l'EM/SFC comme diagnostic principal en décembre 2024 — 82 % de femmes, 72 % âgées de 45 ans ou plus. La durée moyenne d'invalidité : **8,6 ans.**
+
+Ce chiffre est parmi les plus longs de toutes les affections étudiées dans le cadre du modèle NEED du KCE — une méthodologie que le centre a appliquée à des dizaines de maladies chroniques. L'EM/SFC est, selon ce critère, l'une des affections les plus incapacitantes du système de santé belge. Et le chiffre de 1 189 est presque certainement une sous-estimation : il ne capture que les personnes qui ont franchi le parcours d'évaluation de l'invalidité et se sont vu attribuer un code EM/SFC — ce qui signifie que les 84 % de cas estimés non diagnostiqués et quiconque dont le dossier a été codé comme fibromyalgie, épuisement professionnel ou « fatigue chronique non spécifiée » sont invisibles.
+
+Les données espagnoles sur l'emploi de Castro-Marrero de 2019 ont trouvé 58,6 % de chômage et 66 % en arrêt maladie chez les personnes EM/SFC [@CastroMarrero2019employment]. Les données administratives du KCE ajoutent quelque chose de différent : la durée. Huit ans et demi n'est pas une incapacité temporaire. C'est un événement qui met fin à une carrière.
+
+---
+
+## Le désavantage francophone — même maladie, pires résultats
+
+Une découverte spécifique à la Belgique mais pertinente pour tout système de santé multilingue : les patients francophones ont connu une baisse de qualité de vie significativement plus forte que les patients néerlandophones (−0,57 contre −0,47, une différence statistiquement robuste) [@Cornelis2026KCE420].
+
+L'explication la plus plausible est structurelle : l'unique centre de référence EM/SFC financé par l'État belge se trouve en Flandre néerlandophone. Les patients francophones de Wallonie sont confrontés à des coûts directs plus élevés, à des distances de déplacement plus longues et à moins de prestataires spécialisés. L'analyse qualitative des questions ouvertes du supplément (n=237 réponses en texte libre) a confirmé que les patients francophones ont déclaré des besoins non satisfaits plus élevés, une moindre satisfaction des soins et des problèmes d'accessibilité plus importants [@Cornelis2026KCE420S].
+
+La disparité français-néerlandais fonctionne comme une quasi-expérience naturelle : deux populations avec la même maladie, le même pays, un accès aux soins différent. L'explication la plus plausible de l'écart est structurelle — un délai d'obtention du diagnostic plus long, moins d'options de traitement et une tension financière plus forte prédisent tous indépendamment une HRQoL pire, et les patients francophones ont connu ces trois éléments plus sévèrement. Cependant, les facteurs de confusion (différences culturelles dans la perception de la maladie, variables socioéconomiques et déséquilibre d'échantillonnage propre à l'enquête de 88,7 % de néerlandophones contre 11,3 % de francophones) signifient que la question causale reste ouverte [@Cornelis2026KCE420S].
+
+---
+
+## La reconnaissance : le besoin central non satisfait qu'aucun essai clinique n'aborde
+
+L'analyse qualitative du supplément du KCE de 237 réponses en texte libre a identifié la reconnaissance comme le besoin non satisfait le plus important — simultanément dans les soins de santé, la politique et la société [@Cornelis2026KCE420S].
+
+Les patients ont décrit trois couches distinctes de non-reconnaissance :
+
+1. **Non-reconnaissance clinique :** des médecins qui ne savent pas ce qu'est l'EM/SFC, ne connaissent pas les critères diagnostiques ou refusent de les utiliser.
+2. **Non-reconnaissance institutionnelle :** des évaluateurs d'incapacité qui n'acceptent pas l'EM/SFC comme cause valable d'altération du travail, entraînant des prestations refusées et des années d'appel.
+3. **Non-reconnaissance sociale :** famille, amis, employeurs et public qui interprètent la maladie invisible comme paresse, simulation ou instabilité psychologique.
+
+L'analyse qualitative du supplément relie la psychologisation — l'attribution systématique des symptômes de l'EM/SFC à des causes psychologiques — directement à chacune de ces couches. Lorsqu'un évaluateur d'incapacité du gouvernement croit que l'affection n'est pas « réelle », ce n'est pas un échec d'empathie individuelle. C'est une conséquence structurelle d'un système médical qui a enseigné à toute une génération de cliniciens que les symptômes médicalement inexpliqués sont psychiatriques jusqu'à preuve du contraire.
+
+Le KCE fournit la confirmation la plus récente et la plus rigoureuse sur le plan méthodologique de la voix des patients que la psychologisation n'est pas un préjudice théorique — elle produit des conséquences mesurables en termes de retard diagnostique, d'accès aux soins, d'insécurité financière et d'isolement social.
+
+---
+
+## Ce que le rapport KCE ne fait pas — et ce qu'il ne peut pas nous dire
+
+Les auteurs du KCE sont prudents sur les limites. Leur rapport :
+
+- **N'est pas une recommandation clinique.** Il suggère des orientations politiques mais ne formule pas de recommandations de traitement.
+- **N'évalue pas des traitements spécifiques les uns contre les autres.** Les données de traitement rapportées par les patients sont descriptives — « voici ce que les patients nous ont dit de leur expérience » — pas une efficacité comparative.
+- **Ne résout pas la controverse GET/TCC.** Le signal de 26 % de répondants au GET est noté mais inexpliqué. Le taux de détérioration de 20 % en TCC est noté mais non analysé.
+- **Ne peut pas se généraliser aux patients sévères/très sévères.** La population alitée n'a pas pu participer à un sondage en ligne. Leurs besoins peuvent différer qualitativement, pas seulement quantitativement.
+- **N'inclut pas les enfants ou les adolescents.**
+- **N'inclut pas d'analyse coût-efficacité.**
+- **A été publié en français et en néerlandais uniquement.** L'allemand (la troisième langue officielle de la Belgique) et l'anglais n'ont pas été fournis.
+
+Ces limites ne sont pas des échecs — ce sont des contraintes honnêtes d'une méthodologie d'évaluation des besoins. Elles laissent aussi un programme de recherche que d'autres pays peuvent reprendre.
+
+---
+
+## Ce que le KCE a changé dans notre article sur l'EM/SFC
+
+Le rapport KCE a été intégré à l'article en juillet 2026, trois semaines après sa publication :
+
+- Le **score EQ-5D-5L de 0,36** a été ajouté à côté de la valeur existante de Hvidberg 2015 de 0,47 — deux cohortes nationales indépendantes, à dix ans d'écart, utilisant des instruments différents, convergeant vers le même tableau. Les données du KCE sont plus récentes, collectées avec une mesure plus sensible, et proviennent d'une étude financée par le gouvernement plutôt que d'un article universitaire.
+
+- Le **tableau de prévalence des comorbidités** — fibromyalgie 63,3 %, SII 56,9 %, POTS 17,0 %, MCAS 10,5 % et le taux de multi-comorbidité de 73,2 % — a été ajouté comme point de données autonome. Aucune étude unique antérieure n'avait de données de comorbidité aussi complètes dans une cohorte européenne d'EM/SFC.
+
+- **Le retard diagnostique** (50 % > 2 ans, 39 % > 5 ans, associé à une HRQoL pire) a été placé à côté des statistiques de retard de l'IOM 2015 que l'article citait déjà — une réplication belge d'une découverte américaine.
+
+- **L'incapacité de travail** (1 189 cas d'invalidité, durée moyenne de 8,6 ans) a été ajoutée à côté des données espagnoles sur l'emploi de Castro-Marrero. Le KCE apporte quelque chose que la littérature antérieure ne possédait pas : la durée issue des registres administratifs gouvernementaux, pas de l'autodéclaration du patient.
+
+Les quatre ajouts sont des renforts descriptifs — ils renforcent des affirmations que l'article faisait déjà avec des données collectées indépendamment et validées par le gouvernement.
+
+L'intégration a aussi généré 30 idées de recherche (analyse du sous-groupe de répondants au GET, quantification du biais de sous-représentation des cas sévères, taxonomie du déficit de reconnaissance, conception d'essai de pacing, et d'autres). Toutes sont documentées et falsifiables, classées pour les cycles d'intégration futurs, mais pas encore ajoutées au texte des chapitres de l'article — elles appartiennent au pipeline de recherche, pas au récit physiopathologique.
+
+---
+
+## Ce que les patients peuvent faire avec ce rapport
+
+Le rapport KCE a été rédigé pour le gouvernement belge — c'est un document politique. Mais les patients, où qu'ils soient, peuvent l'utiliser :
+
+1. **Montrez à votre médecin les données EQ-5D-5L.** Le chiffre de qualité de vie (0,36) est plus récent (2026), plus granulaire (instrument à cinq niveaux) et plus bas que les données danoises de 2015 (0,47) que de nombreux médecins ont vues. Ce n'est pas une nouvelle découverte — c'est une réplication avec un instrument plus précis.
+
+2. **Montrez à votre médecin le tableau des comorbidités.** Si vous avez l'EM/SFC plus des symptômes gastro-intestinaux, orthostatiques ou des symptômes cohérents avec le MCAS, le KCE fournit une prévalence à l'échelle de la population qui soutient un dépistage systématique. Vous n'êtes pas inhabituel — vous êtes typique.
+
+3. **Utilisez les données de retard diagnostique quand on vous congédie.** Si votre médecin prétend que l'EM/SFC n'existe pas ou que vous avez simplement besoin de faire plus d'exercice, le rapport documente que 50 % des patients attendent plus de 2 ans pour un diagnostic — et que cette attente *aggrave activement les résultats.* Un médecin qui prolonge le retard diagnostique contribue à la charge de la maladie.
+
+4. **Si vous êtes en Belgique :** le rapport KCE a été commandé par le gouvernement belge et porte un poids institutionnel. Le citer à votre mutuelle, au médecin du travail de votre employeur, à votre évaluateur d'incapacité ou à votre médecin généraliste a plus de force que de citer un article de revue publié — parce que le rapport s'adresse aux institutions qui contrôlent votre accès aux soins et aux prestations.
+
+5. **Si vous êtes francophone en Belgique :** la découverte du supplément selon laquelle les patients francophones ont de pires résultats est documentée dans le rapport du gouvernement lui-même. Utilisez-la pour plaider en faveur d'un accès équitable aux services situés en Flandre ou pour l'établissement d'un centre de référence wallon.
+
+---
+
+## Un programme de recherche qui s'écrit de lui-même
+
+Le KCE laisse derrière lui plus de questions que de réponses, ce qui est exactement ce qu'une évaluation des besoins bien menée devrait faire. Le sous-groupe des 26 % de répondants au GET est la question sans réponse la plus évidente, mais il y en a d'autres — du biais de sous-représentation des cas sévères (les patients les plus malades sont exclus des études mêmes censées les représenter) à la question de savoir si un parcours de soins national structuré raccourcit de manière mesurable la durée d'invalidité de 8,6 ans.
+
+Certaines de ces questions seront répondues lorsque les Pays-Bas publieront leur recommandation nationale, attendue plus tard en 2026. D'autres exigeront des études prospectives dédiées. Ce que le KCE a fait, c'est formuler la question : voici les écarts, mesurés avec une rigueur financée par le gouvernement, validés par des patients et des experts internationaux, et étayés par des données administratives qui ne peuvent pas être considérées comme de l'autoévaluation.
+
+La recherche sur l'EM/SFC est sous-financée selon toute mesure — le KCE documente lui-même que le plan de prestation intersectoriel du Royaume-Uni et le programme ZonMw des Pays-Bas de 28,5 millions d'euros sont des exceptions, pas la norme. Le rapport belge n'ajoute pas de financement de recherche. Mais il ajoute quelque chose d'à peu près aussi précieux : un point fixe. Lorsque le prochain ministre belge de la Santé demandera de quoi les patients EM/SFC ont besoin, la réponse fait 285 pages et a été livrée le 30 juin 2026.
+
+---
+
+*Note : Cet article s'appuie sur l'intégration complète du rapport KCE dans l'article sur l'EM/SFC (achevée le 21/07/2026). Le rapport KCE et son supplément sont : Cornelis J, De Meulemeester K, Christiaens W, Jonckheer P, Savoye I, Dauvrin M, Kohn L, Castanares-Zapatero D (2026). Management of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome in Belgium: An Analysis Based on Patient Needs. Belgian Health Care Knowledge Centre. KCE Reports 420 and 420S. DOI: 10.57598/R420C and 10.57598/R420S.*
+
+---
+
+## L'essentiel pour la pratique clinique
+
+Le KCE est une évaluation des besoins, pas une recommandation clinique. Il ne formule pas de recommandations de traitement. Ses données sur l'expérience de traitement rapportée par les patients (préjudice du GET, réponse mitigée à la TCC, préférence pour le pacing) confirment ce que la littérature montre déjà mais ne résolvent pas les controverses thérapeutiques.
+
+Points cliniques précis :
+- **La qualité de vie dans l'EM/SFC est dévastatrice (EQ-5D-5L 0,36)** — comparable aux affections les plus incapacitantes de la médecine. Dans l'étude Hvidberg 2015 qui a fait des comparaisons tête-à-tête, l'EM/SFC se classait sous le cancer, la SEP et l'AVC. Les données plus récentes du KCE confirment la gravité. Reconnaissez-le directement avec les patients.
+- **Le dépistage des comorbidités n'est pas optionnel.** Sept patients sur dix ont au moins une affection supplémentaire qui exige une évaluation et un traitement distincts. La fibromyalgie, le POTS, le MCAS, le SII et la neuropathie des petites fibres ne sont pas un « vernis fonctionnel » — ce sont des affections diagnosticables avec des voies de traitement spécifiques.
+- **Le retard diagnostique est un préjudice iatrogène.** Chaque année de retard aggrave indépendamment les résultats (une association statistiquement robuste). Si un patient se présente avec 6 mois de malaise post-effort (MPE — aggravation disproportionnée des symptômes après un effort), une impression diagnostique initiale d'EM/SFC (avec évaluation d'exclusion appropriée) est plus sûre qu'une dérive diagnostique de plusieurs années vers la psychiatrie, l'épuisement professionnel ou « l'attente vigilante ».
+- **Ne prescrivez pas le GET à des patients non sélectionnés.** Le signal de 26 % de répondants minoritaires est inexpliqué et le sous-groupe n'a pas été caractérisé. Un taux de préjudice de 74 % doit avoir la priorité.

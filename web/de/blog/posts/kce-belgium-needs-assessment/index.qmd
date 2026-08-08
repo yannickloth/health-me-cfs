@@ -1,0 +1,194 @@
+---
+title: "749 Belgier mit ME/CFS sagten ihrer Regierung, was kaputt ist — die Daten sind brutal"
+description: "Belgiens erste umfassende ME/CFS-Bedarfserhebung. 749 befragte Patienten, 19 Interviews. Lebensqualität vergleichbar mit den bekanntesten schwerst beeinträchtigenden Erkrankungen, Diagnoseverzögerungen über 5 Jahre, GET schadet den meisten Patienten, und 8,6 Jahre Arbeitsunfähigkeit. Was der Bericht fand, was er für Patienten und Ärzte überall bedeutet."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Politik, Lebensqualität, Diagnose, Behandlung, Komorbiditäten, Epidemiologie]
+lang: de
+---
+
+Ein Team von Gesundheitsdienst-Forschern am belgischen Zentrum für medizinische Expertise (KCE) hat gerade die detaillierteste Bedarfserhebung von ME/CFS-Patienten veröffentlicht, die je in Europa durchgeführt wurde. Sie befragten 749 Erwachsene mit diagnostizierter ME/CFS, führten mit 19 Patienten vertiefende Interviews und kreuzvergleichten alles mit Regierungsdatenbanken [@Cornelis2026KCE420].
+
+Der Bericht erschien am 30. Juni 2026. Er ist keine klinische Leitlinie — das machen die Autoren explizit klar. Er ist eine Bedarfserhebung: Was brauchen ME/CFS-Patienten tatsächlich, und wie schlecht versagt das Gesundheitssystem dabei? Vier Patientenverbände arbeiteten an dem Projekt mit. Drei internationale Experten validierten es. Die belgische Regierung finanzierte es.
+
+Die Antwort, kurz gesagt: Das System versagt auf allen Ebenen, und die Daten, die dieses Versagen quantifizieren, sollten verändern, wie Ärzte, Entscheidungsträger und Forscher über diese Krankheit denken.
+
+---
+
+## Die Zahlen zur Lebensqualität sind schlimmer, als Sie denken
+
+Eine wegweisende dänische Studie von 2015 stellte fest, dass ME/CFS die niedrigste gesundheitsbezogene Lebensqualität (HRQoL) aller untersuchten chronischen Erkrankungen hat — schlechter als Multiple Sklerose, schlechter als Schlaganfall, schlechter als Krebs. Mit einem Standardfragebogen namens EQ-5D erreichten ME/CFS-Patienten 0,47, gegenüber 0,85 in der Allgemeinbevölkerung [@Hvidberg2015qol].
+
+Das KCE aktualisierte dieses Bild mit einem empfindlicheren Instrument — dem EQ-5D-5L, das fünf Stufen pro Dimension statt drei hat — und stellte fest, dass die Lage noch düsterer ist, als Hvidberg berichtete.
+
+Zum Verständnis dieser Skala: Die EQ-5D-5L-Nutzwertskala reicht von 0 (ein Zustand, so schlimm wie tot zu sein) bis 1 (vollkommene Gesundheit). Werte unter 0 sind möglich — Zustände, die als „schlimmer als der Tod" gelten.
+
+Belgische ME/CFS-Patienten erreichten einen mittleren Nutzwert von **0,36** für den aktuellen Gesundheitszustand, gegenüber einem geschätzten **0,84** vor Krankheitsbeginn — ein statistisch robustes Ergebnis. Der Mittelwert der belgischen Allgemeinbevölkerung liegt bei 0,79. Das ist ein Rückgang von 57 % — ein Zusammenbruch, kein Abfall [@Cornelis2026KCE420].
+
+Der durchschnittliche ME/CFS-Patient liegt nicht unter null auf der Skala, aber die schwer und sehr schwer betroffenen Patienten — jene, die bettlägerig sind und eine Online-Umfrage nicht ausfüllen konnten — wurden weitgehend ausgeschlossen. Der wahre durchschnittliche Nutzwert für die gesamte ME/CFS-Bevölkerung könnte erheblich schlechter sein als 0,36, vielleicht sogar unter null, weil die schwerstkranken Patienten nicht befragt werden konnten.
+
+Die Faktoren, die die schlimmsten Lebensqualitätseinbußen verursachten: im Alter von 30 bis 50 Jahren zu sein (die wichtigsten Jahre des Arbeitens und der Elternschaft), mehr als 2 Jahre auf eine Diagnose zu warten, Long COVID als Komorbidität zu haben, mit finanziellen Schwierigkeiten konfrontiert zu sein und keinen Zugang zu spezialisierter Versorgung zu haben. Außer dem Alter ist jeder Faktor auf dieser Liste durch Politik veränderbar.
+
+---
+
+## Die Diagnoseverzögerung ist kein Zufall — sie ist ein Konstruktionsmerkmal des Systems
+
+Die Hälfte der 749 befragten Patienten wartete mehr als 2 Jahre von ihrer ersten Arztkonsultation bis zur Diagnose. Neununddreißig Prozent warteten mehr als 5 Jahre. Nur 4 % waren in den letzten 6 Monaten diagnostiziert worden — das bedeutet, dass die Stichprobe von langzeitkranken Patienten dominiert wurde, die den diagnostischen Hindernislauf bereits überlebt hatten [@Cornelis2026KCE420].
+
+Und die Diagnoseverzögerung hatte einen messbaren Preis: Jedes zusätzliche Jahr des Wartens war signifikant mit schlechterer HRQoL verbunden (ein robustes statistisches Ergebnis, p = 0,010). Das ist nicht nur eine Frustration — es ist ein unabhängiger Beitrag zur Krankheitslast.
+
+Für Ärzte, die dies lesen: Die diagnostischen Kriterien, die der Bericht bewertet, umfassen IOM (2015), NICE (2021), Fukuda (1994) und die kanadischen Konsenskriterien (2003). Das KCE akzeptiert die IOM-Kriterien als Maßstab, stellt aber fest, dass die uneinheitliche Anwendung bei belgischen Klinikern der Flaschenhals ist, nicht die Kriterien selbst. Der Vorschlag des Berichts ist einfach: ME/CFS in die medizinische Ausbildung und in Programme des lebenslangen Lernens aufnehmen.
+
+---
+
+## Sieben von zehn Patienten haben mindestens eine Begleiterkrankung
+
+Dies könnte die am wenigsten besprochene Erkenntnis des Berichts sein. Das KCE fragte systematisch nach Komorbiditäten und fand:
+
+| Erkrankung | Prävalenz |
+|-----------|-----------|
+| Fibromyalgie | 63,3 % |
+| Reizdarmsyndrom | 56,9 % |
+| Orthostatische Hypotonie | 20,6 % |
+| POTS | 17,0 % |
+| Long COVID | 16,4 % |
+| Small-Fibre-Neuropathie | 12,8 % |
+| Mastzellaktivierungssyndrom | 10,5 % |
+
+**73,2 % der Patienten berichteten mindestens eine ME/CFS-bezogene Komorbidität.** [@Cornelis2026KCE420]
+
+Das ist keine „Komorbidität" im beiläufigen Sinne — die meisten Patienten haben mehrere interagierende Erkrankungen, die jeweils getrennte diagnostische Abklärungen und Behandlungsansätze erfordern. Eine Patientin, die sich mit Fatigue, weit verbreiteten Schmerzen, posturaler Tachykardie und gastrointestinalen Symptomen vorstellt, ist keine „komplexe Patientin" mit einer primären psychiatrischen Störung plus Somatisierung. Sie ist eine Patientin, die eine Fibromyalgie-Abklärung, einen Kipptisch-Test, eine gastroenterologische Überweisung und möglicherweise eine MCAS-Bewertung braucht. Einige dieser Erkrankungen können Folgeerscheinungen der zugrunde liegenden ME/CFS-Pathophysiologie sein. Andere könnten gemeinsame vorgeschaltete Ursachen haben. Für die meisten von ihnen ist die kausale Richtung ungeklärt.
+
+Diese Daten stärken eine klinische Beobachtung, die zunehmend durch die Literatur gestützt wird: ME/CFS, Fibromyalgie, RDS, POTS, MCAS, kraniocervikale Instabilität und hypermobiles Ehlers-Danlos-Syndrom bilden ein eng verwobenes Cluster von Erkrankungen, die Bindegewebs-, autonome und Immun-Substrate teilen. Das KCE verwendet diesen Rahmen nicht, aber seine Prävalenzzahlen bestätigen unabhängig die Kernidee: ME/CFS kommt selten allein, und eine isolierte Behandlung übersieht den größten Teil des Bildes.
+
+---
+
+## Abgestufte Bewegungstherapie (GET) schadet der Mehrheit — aber 26 % verbessern sich
+
+Das KCE fragte Patienten direkt nach ihren Behandlungserfahrungen. Die Ergebnisse zur abgestuften Bewegungstherapie (GET) und kognitiven Verhaltenstherapie (CBT) sind detaillierter als jede bisher veröffentlichte Patientenbefragung:
+
+- **GET:** Eine Mehrheit der Patienten berichtete über eine Symptomverschlimmerung und eine erhebliche Behandlungsbelastung. Der Bericht beschreibt GET als „überwiegend als schädlich wahrgenommen". Aber — und das ist die Erkenntnis, die die Erzählung verkompliziert — **26 % der Patienten berichteten eine mäßige oder erhebliche Verbesserung durch GET** [@Cornelis2026KCE420].
+
+- **Manuelle Physiotherapie** (die praktische Art, nicht übungsbasiert) hatte „allgemein positive Erfahrungen" — eine Unterscheidung, die der Bericht sorgfältig aufrechterhält.
+
+- **CBT:** Etwa 50 % verbesserten sich, 20 % verschlechterten sich, 30 % ohne Änderung — eine gleiche Chance auf Verbesserung, aber ein Risiko von eins zu fünf, sich zu verschlechtern [@Cornelis2026KCE420].
+
+- **Psychologische Beratung** (Nicht-CBT): 50 % verbesserten sich, 30 % ohne Änderung.
+
+Das GET-Ergebnis ist jenes, das eine Antwort verlangt. Die Position des Papiers ist, dass GET bei ME/CFS-Patienten mit post-exertionalem Unwohlsein (PEM) kontraindiziert ist — dem definierenden Symptom der Krankheit, bei dem körperliche oder geistige Anstrengung eine unverhältnismäßige Verschlimmerung der Symptome auslöst, die Tage oder Wochen anhalten kann. Große Patientenbefragungen zeigen Schadensraten von 51 % [@Kindlon2011GET]. Das KCE bestätigt dieses Bild unabhängig. Aber das 26 %-Responder-Signal ist kein Rauschen — es ist eine Minderheiten-Untergruppe, die eine Behandlung, die allen anderen schadet, offenbar toleriert oder davon profitiert. Die KCE-Autoren merken spitz an, dass die Merkmale dieser Untergruppe nicht untersucht wurden.
+
+Dies ist eine von 30 Forschungsideen, die der Integrationsprozess hervorgebracht hat. Sie wurde als Hypothese für künftige Arbeit abgelegt — als testbare Vorhersage festgehalten: Wenn eine prospektive Studie GET-Responder durch erhaltene Belastungskapazität und Ausbleiben von PEM nach leichter Aktivität identifiziert, sollte sich der Untergruppeneffekt replizieren. Wenn nicht, sind die 26 % Placebo, Regression zur Mitte oder Fehlattribution.
+
+In der Zwischenzeit sollte kein Arzt GET einem unselektierten ME/CFS-Patienten auf der Grundlage eines 26 %-Minderheiten-Responder-Signals verschreiben. Aber Forschung, die identifizieren könnte, wer diese 26 % sind — und die anderen 74 % schützen —, verdient Finanzierung.
+
+---
+
+## Achteinhalb Jahre außerhalb des Arbeitslebens — und das sind die Menschen, die es in die Datenbank geschafft haben
+
+Das KCE kreuzverglich seine Umfrage mit den Verwaltungsdaten der belgischen Regierung. Sie fanden **1.189 Personen** in der Invaliditätsdatenbank mit ME/CFS als Primärdiagnose zum Stand Dezember 2024 — 82 % weiblich, 72 % im Alter von 45 Jahren oder älter. Die mittlere Invaliditätsdauer: **8,6 Jahre.**
+
+Diese Zahl gehört zu den längsten aller Erkrankungen, die im Rahmen des KCE-NEED-Modells untersucht wurden — einer Methodik, die das Zentrum auf Dutzende chronischer Krankheiten angewendet hat. ME/CFS ist nach dieser Messgröße eine der am stärksten beeinträchtigenden Erkrankungen im belgischen Gesundheitssystem. Und die Zahl 1.189 ist mit hoher Wahrscheinlichkeit eine Unterzählung: Sie erfasst nur Menschen, die die Invaliditätsbegutachtungs-Pipeline durchlaufen und einen ME/CFS-Code zugewiesen bekommen haben — das heißt, die geschätzten 84 % nicht diagnostizierten Fälle und alle, deren Unterlagen als Fibromyalgie, Burnout oder „chronische Müdigkeit, nicht näher bezeichnet" codiert wurden, sind unsichtbar.
+
+Castro-Marreros spanische Beschäftigungsdaten von 2019 fanden 58,6 % Arbeitslosigkeit und 66 % Krankenstand bei ME/CFS [@CastroMarrero2019employment]. Die Verwaltungsdaten des KCE fügen etwas anderes hinzu: die Dauer. Achteinhalb Jahre sind keine vorübergehende Behinderung. Es ist ein Ereignis, das eine Karriere beendet.
+
+---
+
+## Der frankophone Nachteil — gleiche Krankheit, schlechtere Ergebnisse
+
+Eine Erkenntnis, die Belgien-spezifisch ist, aber für jedes mehrsprachige Gesundheitssystem relevant ist: Frankophone Patienten verzeichneten einen signifikant größeren Rückgang der Lebensqualität als niederländischsprachige Patienten (−0,57 gegenüber −0,47, ein robust statistisch signifikanter Unterschied) [@Cornelis2026KCE420].
+
+Die plausibelste Erklärung ist strukturell: Belgiens einziges staatlich finanziertes ME/CFS-Referenzzentrum liegt im niederländischsprachigen Flandern. Frankophone Patienten in Wallonien sind mit höheren Eigenkosten, längeren Anfahrtswegen und weniger spezialisierten Anbietern konfrontiert. Die qualitative Analyse der offenen Fragen des Supplements (n=237 Freitextantworten) bestätigte, dass frankophone Patienten über höhere ungedeckte Bedürfnisse, geringere Behandlungszufriedenheit und größere Zugänglichkeitsprobleme berichteten [@Cornelis2026KCE420S].
+
+Die französisch-niederländische Differenz funktioniert als natürliches Quasi-Experiment: zwei Populationen mit derselben Krankheit, demselben Land, unterschiedlichem Gesundheitszugang. Die plausibelste Erklärung für die Kluft ist strukturell — längere Zeit bis zur Diagnose, weniger Behandlungsoptionen und größere finanzielle Belastung sagen alle unabhängig eine schlechtere HRQoL voraus, und frankophone Patienten erlebten alle drei schwerer. Störfaktoren (kulturelle Unterschiede in der Krankheitswahrnehmung, sozioökonomische Variablen und das eigene Stichproben-Ungleichgewicht der Umfrage von 88,7 % Niederländischsprachigen gegenüber 11,3 % Frankophonen) bedeuten jedoch, dass die kausale Frage offen bleibt [@Cornelis2026KCE420S].
+
+---
+
+## Anerkennung: das zentrale ungedeckte Bedürfnis, das keine klinische Studie angeht
+
+Die qualitative Analyse von 237 Freitextantworten im KCE-Supplement identifizierte Anerkennung als das mit Abstand wichtigste ungedeckte Bedürfnis — gleichzeitig in Gesundheitsversorgung, Politik und Gesellschaft [@Cornelis2026KCE420S].
+
+Patienten beschrieben drei verschiedene Ebenen der Nicht-Anerkennung:
+
+1. **Klinische Nicht-Anerkennung:** Ärzte, die nicht wissen, was ME/CFS ist, die diagnostischen Kriterien nicht kennen oder sich weigern, sie anzuwenden.
+2. **Institutionelle Nicht-Anerkennung:** Invaliditätsgutachter, die ME/CFS nicht als gültige Ursache von Arbeitsbeeinträchtigung akzeptieren, was zu verweigerten Leistungen und Jahren von Einspruch führt.
+3. **Soziale Nicht-Anerkennung:** Familie, Freunde, Arbeitgeber und Öffentlichkeit, die unsichtbare Krankheit als Faulheit, Simulation oder psychologische Instabilität interpretieren.
+
+Die qualitative Analyse des Supplements verbindet die Psychologisierung — die systematische Zuschreibung von ME/CFS-Symptomen zu psychologischen Ursachen — direkt mit jeder dieser Ebenen. Wenn ein staatlicher Invaliditätsgutachter glaubt, die Erkrankung sei nicht „echt", ist das kein Versagen individueller Empathie. Es ist eine strukturelle Folge eines medizinischen Systems, das einer ganzen Generation von Klinikern beigebracht hat, dass medizinisch unerklärte Symptome psychiatrisch sind, bis das Gegenteil bewiesen ist.
+
+Das KCE liefert die jüngste und methodisch strengste Bestätigung der Patientenstimme, dass Psychologisierung kein theoretischer Schaden ist — sie erzeugt messbare Folgen beim diagnostischen Verzug, beim Zugang zur Behandlung, bei finanzieller Unsicherheit und bei sozialer Isolation.
+
+---
+
+## Was der KCE-Bericht nicht tut — und was er uns nicht sagen kann
+
+Die KCE-Autoren sind vorsichtig mit Grenzen. Ihr Bericht:
+
+- **Ist keine klinische Leitlinie.** Er schlägt politische Richtungen vor, gibt aber keine Behandlungsempfehlungen.
+- **Bewertet nicht spezifische Behandlungen gegeneinander.** Die patientenberichteten Behandlungsdaten sind deskriptiv — „das haben uns die Patienten über ihre Erfahrung erzählt" — nicht vergleichende Wirksamkeit.
+- **Löst die GET/CBT-Kontroverse nicht.** Das 26 %-GET-Responder-Signal wird vermerkt, aber nicht erklärt. Die 20 %-CBT-Verschlechterungsrate wird vermerkt, aber nicht analysiert.
+- **Kann nicht auf schwer/sehr schwer betroffene Patienten verallgemeinert werden.** Die bettlägerige Bevölkerung konnte nicht an einer Online-Umfrage teilnehmen. Ihre Bedürfnisse könnten sich qualitativ unterscheiden, nicht nur quantitativ.
+- **Enthält keine Kinder oder Jugendliche.**
+- **Enthält keine Kosten-Nutzen-Analyse.**
+- **Wurde nur auf Französisch und Niederländisch veröffentlicht.** Deutsch (die dritte Amtssprache Belgiens) und Englisch wurden nicht bereitgestellt.
+
+Diese Einschränkungen sind kein Versagen — sie sind ehrliche Beschränkungen einer Bedarfserhebungs-Methodik. Sie hinterlassen auch eine Forschungsagenda, die andere Länder aufgreifen können.
+
+---
+
+## Was das KCE in unserem ME/CFS-Papier verändert hat
+
+Der KCE-Bericht wurde im Juli 2026, drei Wochen nach der Veröffentlichung, in das Papier integriert:
+
+- Der **EQ-5D-5L-Wert von 0,36** wurde neben den vorhandenen Hvidberg-2015-Wert von 0,47 gestellt — zwei unabhängige nationale Kohorten, zehn Jahre auseinander, mit unterschiedlichen Instrumenten, die zum selben Bild konvergieren. Die KCE-Daten sind neuer, mit einer empfindlicheren Messung erhoben und stammen aus einer staatlich finanzierten Studie statt aus einem akademischen Papier.
+
+- Die **Komorbiditäts-Prävalenztabelle** — Fibromyalgie 63,3 %, RDS 56,9 %, POTS 17,0 %, MCAS 10,5 % und die 73,2 %-Mehrfachkomorbiditätsrate — wurde als eigenständiger Datenpunkt hinzugefügt. Keine frühere einzelne Studie hatte in einer europäischen ME/CFS-Kohorte so umfassende Komorbiditätsdaten.
+
+- **Diagnoseverzug** (50 % > 2 Jahre, 39 % > 5 Jahre, verbunden mit schlechterer HRQoL) wurde neben die IOM-2015-Verzugsstatistiken gestellt, die das Papier bereits zitierte — eine belgische Replikation eines amerikanischen Befunds.
+
+- **Arbeitsunfähigkeit** (1.189 Invaliditätsfälle, mittlere Dauer 8,6 Jahre) wurde neben Castro-Marreros spanische Beschäftigungsdaten gestellt. Das KCE trägt etwas bei, das die frühere Literatur nicht hatte: die Dauer aus staatlichen Verwaltungsregistern, nicht aus der Patientenselbstauskunft.
+
+Alle vier Ergänzungen sind deskriptive Bekräftigungen — sie stärken Aussagen, die das Papier bereits mit unabhängig gesammelten, staatlich validierten Daten machte.
+
+Die Integration generierte außerdem 30 Forschungsideen (GET-Responder-Untergruppenanalyse, Quantifizierung des Schwerbetroffenen-Unterrepräsentations-Bias, Taxonomie des Anerkennungsdefizits, Pacing-Studiendesign und andere). Sie alle sind dokumentiert und falsifizierbar, für künftige Integrationszyklen abgelegt, aber noch nicht in den Kapiteltext des Papiers aufgenommen — sie gehören in die Forschungspipeline, nicht in die Pathophysiologie-Erzählung.
+
+---
+
+## Was Patienten mit diesem Bericht tun können
+
+Der KCE-Bericht wurde für die belgische Regierung geschrieben — er ist ein politisches Dokument. Aber Patienten überall können ihn nutzen:
+
+1. **Zeigen Sie Ihrem Arzt die EQ-5D-5L-Daten.** Die Lebensqualitätszahl (0,36) ist neuer (2026), granulärer (fünfstufiges Instrument) und niedriger als die dänischen Daten von 2015 (0,47), die viele Ärzte gesehen haben. Dies ist keine neue Erkenntnis — es ist eine Replikation mit einem schärferen Instrument.
+
+2. **Zeigen Sie Ihrem Arzt die Komorbiditätstabelle.** Wenn Sie ME/CFS plus gastrointestinale Symptome, orthostatische Symptome oder Symptome haben, die mit MCAS übereinstimmen, liefert das KCE eine populationsweite Prävalenz, die ein systematisches Screening stützt. Sie sind nicht ungewöhnlich — Sie sind typisch.
+
+3. **Nutzen Sie die Diagnoseverzugsdaten, wenn Sie abgewiesen werden.** Wenn Ihr Arzt behauptet, ME/CFS existiere nicht oder Sie müssten nur mehr Sport treiben, dokumentiert der Bericht, dass 50 % der Patienten mehr als 2 Jahre auf eine Diagnose warten — und dass dieses Warten die *Ergebnisse aktiv verschlechtert.* Ein Arzt, der den Diagnoseverzug verlängert, trägt zur Krankheitslast bei.
+
+4. **Wenn Sie in Belgien sind:** Der KCE-Bericht wurde von der belgischen Regierung in Auftrag gegeben und trägt institutionelles Gewicht. Ihn bei Ihrer Krankenkasse, dem Arbeitsmediziner Ihres Arbeitgebers, Ihrem Invaliditätsgutachter oder Ihrem Hausarzt zu zitieren, hat mehr Durchschlagskraft als das Zitieren eines veröffentlichten Fachartikels — weil der Bericht an die Institutionen gerichtet ist, die Ihren Zugang zu Versorgung und Leistungen kontrollieren.
+
+5. **Wenn Sie in Belgien frankophon sind:** Die Erkenntnis des Supplements, dass frankophone Patienten schlechtere Ergebnisse haben, ist im Bericht der Regierung selbst dokumentiert. Nutzen Sie sie, um für einen gleichberechtigten Zugang zu in Flandern gelegenen Diensten oder für die Einrichtung eines wallonischen Referenzzentrums zu argumentieren.
+
+---
+
+## Eine Forschungsagenda, die sich selbst schreibt
+
+Das KCE hinterlässt mehr Fragen als Antworten, was genau das ist, was eine gut durchgeführte Bedarfserhebung tun sollte. Die 26 %-GET-Responder-Untergruppe ist die offensichtlichste unbeantwortete Frage, aber es gibt weitere — vom Schwerbetroffenen-Unterrepräsentations-Bias (die schwerstkranken Patienten werden aus genau den Studien ausgeschlossen, die sie repräsentieren sollen) bis zur Frage, ob ein strukturierter nationaler Versorgungspfad die 8,6-jährige Invaliditätsdauer messbar verkürzt.
+
+Einige dieser Fragen werden beantwortet, wenn die Niederlande ihre nationale Leitlinie veröffentlichen, die später im Jahr 2026 erwartet wird. Andere werden dedizierte prospektive Studien erfordern. Was das KCE getan hat, ist, das Fragen zu formulieren: Hier sind die Lücken, gemessen mit staatlich finanzierter Strenge, von Patienten und internationalen Experten validiert und durch Verwaltungsdaten gestützt, die nicht als Selbstauskunft abgetan werden können.
+
+ME/CFS-Forschung ist nach jedem Maßstab unterfinanziert — das KCE dokumentiert selbst, dass der britische Cross-Sector Delivery Plan und das niederländische ZonMw-Programm mit 28,5 Millionen Euro Ausnahmen sind, nicht die Norm. Der belgische Bericht fügt keine Forschungsgelder hinzu. Aber er fügt etwas fast ebenso Wertvolles hinzu: einen Fixpunkt. Wenn der nächste belgische Gesundheitsminister fragt, was ME/CFS-Patienten brauchen, ist die Antwort 285 Seiten lang und wurde am 30. Juni 2026 geliefert.
+
+---
+
+*Hinweis: Dieser Artikel stützt sich auf die vollständige Integration des KCE-Berichts in das ME/CFS-Papier (abgeschlossen am 21.07.2026). Der KCE-Bericht und sein Supplement sind: Cornelis J, De Meulemeester K, Christiaens W, Jonckheer P, Savoye I, Dauvrin M, Kohn L, Castanares-Zapatero D (2026). Management of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome in Belgium: An Analysis Based on Patient Needs. Belgian Health Care Knowledge Centre. KCE Reports 420 and 420S. DOI: 10.57598/R420C and 10.57598/R420S.*
+
+---
+
+## Klinisches Fazit
+
+Das KCE ist eine Bedarfserhebung, keine klinische Leitlinie. Es gibt keine Behandlungsempfehlungen. Seine patientenberichteten Behandlungserfahrungsdaten (GET-Schaden, gemischte CBT-Ansprechrate, Pacing-Präferenz) bestätigen, was die Literatur bereits zeigt, lösen aber keine therapeutischen Kontroversen.
+
+Konkrete klinische Kernpunkte:
+- **Die Lebensqualität bei ME/CFS ist verheerend (EQ-5D-5L 0,36)** — vergleichbar mit den am stärksten beeinträchtigenden Erkrankungen der Medizin. In der Hvidberg-Studie von 2015 mit gleichen Vergleichen rangierte ME/CFS unter Krebs, MS und Schlaganfall. Die neueren KCE-Daten bestätigen die Schwere. Erkennen Sie dies direkt bei den Patienten an.
+- **Komorbiditäts-Screening ist nicht optional.** Sieben von zehn Patienten haben mindestens eine zusätzliche Erkrankung, die eine getrennte Abklärung und Behandlung erfordert. Fibromyalgie, POTS, MCAS, RDS und Small-Fibre-Neuropathie sind kein „funktionelles Overlay" — sie sind diagnostizierbare Erkrankungen mit spezifischen Behandlungspfaden.
+- **Diagnoseverzug ist iatrogener Schaden.** Jedes Jahr Verzögerung verschlechtert die Ergebnisse unabhängig (ein robuster statistischer Zusammenhang). Wenn sich ein Patient mit 6 Monaten post-exertionalem Unwohlsein (PEM — unverhältnismäßige Symptomverschlimmerung nach Anstrengung) vorstellt, ist ein anfänglicher diagnostischer Eindruck von ME/CFS (mit entsprechender Ausschluss-Abklärung) sicherer als eine jahrelange diagnostische Drift in Richtung Psychiatrie, Burnout oder „wartendes Abwarten".
+- **Verschreiben Sie GET nicht an unselektierte Patienten.** Das 26 %-Minderheiten-Responder-Signal ist unerklärt und die Untergruppe wurde nicht charakterisiert. Eine Schadensrate von 74 % hat Priorität.

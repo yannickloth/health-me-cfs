@@ -1,0 +1,95 @@
+---
+title: "Partie 4 : Le striatum n'est pas le nôtre — ce que signifie le partage de l'enrichissement des MSN pour l'EM/SFC"
+description: "Le GWAS DecodeME pointe vers les neurones épineux moyens. Tout comme les GWAS de la schizophrénie, de la dépression et du trouble lié à la consommation d'alcool. Même type cellulaire, différentes maladies. Voici pourquoi cela n'affaiblit pas la découverte — cela aiguise la question suivante."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Génétique, Neurologie, Trans-pathologies]
+lang: fr
+---
+
+Vous avez lu les trois premiers articles de cette série. Le GWAS DecodeME implique les neurones épineux moyens. Le striatum est le goulot d'étranglement. Les médicaments dopaminergiques sont soudainement rationnels. C'est une histoire propre et satisfaisante — et comme toutes les histoires propres et satisfaisantes en biologie, elle a un problème.
+
+Le type cellulaire vers lequel pointe la génétique n'est pas une empreinte de l'EM/SFC. C'est une empreinte qui apparaît sur plusieurs scènes de crime.
+
+---
+
+## Les mêmes neurones, quatre maladies
+
+L'enrichissement des neurones épineux moyens issu des GWAS se retrouve dans :
+
+| Affection | Enrichissement MSN | Références clés |
+|---|---|---|
+| EM/SFC | Oui | Consortium DecodeME, Li et al. 2025 [@Li2025decodeME] |
+| Schizophrénie | Oui | PGC3, Trubetskoy et al. 2022 [@Trubetskoy2022schizophrenia] |
+| Dépression majeure | Oui | PGC MDD, Wray et al. 2018 [@Wray2018depression] |
+| Trouble lié à la consommation d'alcool | Oui | PGC AUD, Zhou et al. 2020 [@Zhou2020AUD] |
+
+Le striatum est un nœud générique de vulnérabilité cérébrale. Lorsque son circuit est compromis — par variation génétique, inflammation, stress métabolique, exposition à des substances — le résultat inclut des déficits motivationnels, moteurs et de traitement de la récompense, quelle que soit la cause en amont. L'enrichissement partagé n'est pas un accident. C'est une contrainte imposée par le fait que les MSN se situent à l'intersection d'une demande métabolique élevée, d'une innervation dopaminergique dense et de multiples voies de vulnérabilité (inflammation, perfusion, défaillance énergétique).
+
+Mais les maladies ne sont pas les mêmes. Un patient schizophrène éprouve des hallucinations et un trouble de la pensée. Un patient dépressif éprouve de l'anhédonie et un sentiment de dévalorisation. Un patient EM/SFC éprouve un malaise post-effort et une intolérance orthostatique. Même type cellulaire. Des phénotypes radicalement différents. Ce n'est pas une contradiction — c'est un signal sur ce que nous mesurons et ce que nous négligeons.
+
+---
+
+## Pourquoi un enrichissement partagé ne signifie pas un mécanisme partagé
+
+L'enrichissement par types cellulaires issu d'un GWAS vous dit *où les variants de risque sont exprimés*, pas *ce que ces variants font.* Un SNP enrichi dans les MSN pourrait affecter l'un des centaines de gènes exprimés dans ces neurones. Les gènes spécifiques, la direction de l'effet, le moment du développement et l'interaction avec d'autres types cellulaires diffèrent tous entre les maladies.
+
+Les SNP du GWAS de la schizophrénie dans les MSN affectent des gènes d'élagage synaptique (C4, voie du complément), cohérent avec une élimination excessive des synapses pendant l'adolescence. Les SNP du GWAS de la dépression affectent des gènes impliqués dans la signalisation des hormones de stress et la régulation des facteurs neurotrophiques, cohérent avec une vulnérabilité médiée par l'axe HPA. Les SNP du trouble lié à la consommation d'alcool affectent les gènes des récepteurs opioïdes et dopaminergiques, cohérent avec une sensibilité à la récompense altérée [@Trubetskoy2022schizophrenia; @Wray2018depression].
+
+Pour l'EM/SFC, nous ne savons pas encore quels gènes spécifiques au sein des MSN sont affectés. Le GWAS nous dit le type cellulaire. Il ne nous dit pas encore si le mécanisme est :
+
+- **Un déséquilibre des voies D1/D2** — un déplacement du rapport de signal « go »/« no-go » qui rend l'initiation d'une action neurologiquement coûteuse
+- **Une insuffisance métabolique** — les MSN sont des neurones GABAergiques qui déchargent de façon tonique à des rythmes élevés ; si la fonction mitochondriale est globalement altérée, les MSN échouent en premier
+- **Une désensibilisation des récepteurs de dopamine** — une inflammation chronique de bas grade réduisant la signalisation dopaminergique indépendamment de la variation génétique
+- **Une dysfonction synaptique cortico-striatale** — une intégration d'entrées altérée du cortex frontal vers le striatum
+
+Ces mécanismes ne sont pas équivalents. Un déséquilibre D1/D2 appelle des agonistes dopaminergiques. Une insuffisance métabolique appelle un soutien mitochondrial. Une désensibilisation des récepteurs appelle des anti-inflammatoires. Une dysfonction synaptique appelle quelque chose d'entièrement différent. Même type cellulaire. Quatre mécanismes différents. Quatre traitements différents. L'enrichissement partagé n'affaiblit pas la découverte — il aiguise la question : *quel mécanisme au sein des MSN est spécifique à l'EM/SFC ?*
+
+---
+
+## L'information contenue dans les différences
+
+L'enrichissement partagé n'est pas un bug. C'est une caractéristique qui fournit un groupe témoin pour la prochaine expérience. Si nous pouvons identifier la signature moléculaire de la dysfonction des MSN dans l'EM/SFC et la comparer aux signatures de la schizophrénie, de la dépression et du trouble lié à la consommation d'alcool, les *différences entre elles* nous diront ce qui est unique à chaque maladie. Deux stratégies :
+
+**Transcriptomique post-mortem.** Comparer l'expression génique dans les MSN striataux de cerveaux EM/SFC par rapport aux cerveaux dépressifs révélerait quelles voies sont activées différentiellement. C'est ainsi que la psychiatrie a distingué la schizophrénie du trouble bipolaire au niveau moléculaire — non pas en trouvant des gènes spécifiques d'une maladie, mais en trouvant des signatures d'expression génique qui différaient.
+
+**Profilage par ligands TEP.** Différents ligands TEP sondent différents aspects de la fonction striatale. La densité des récepteurs D1, la densité des récepteurs D2, la disponibilité du transporteur de dopamine, la liaison du VMAT2, l'activation microgliale — chacun fournit une vue différente du même circuit. Comparer les profils TEP de l'EM/SFC aux profils de la schizophrénie et de la dépression identifierait les anomalies de récepteurs et de transporteurs spécifiques qui distinguent les affections.
+
+Ni l'une ni l'autre de ces approches n'a été menée à grande échelle. Les deux sont désormais logiquement nécessaires compte tenu de la découverte d'enrichissement partagé.
+
+---
+
+## Ce que la découverte partagée ne peut pas faire
+
+L'enrichissement partagé des MSN ne soutient pas plusieurs affirmations qu'une lecture naïve pourrait suggérer :
+
+**Il ne fait pas de l'EM/SFC une maladie psychiatrique.** La schizophrénie et la dépression sont aussi des maladies cérébrales dont l'architecture génétique est exprimée dans les neurones — et elles ne sont pas non plus « juste dans votre tête » au sens dédaigneux. Le type cellulaire partagé montre qu'elles partagent un substrat biologique, pas qu'elles partagent une cause ou un traitement. Le cerveau est un organe. Les maladies de cet organe sont neurologiques.
+
+**Il ne justifie pas de prescrire des antipsychotiques ou des antidépresseurs pour l'EM/SFC.** Le type cellulaire partagé ne dit rien sur le fait que les médicaments développés pour une affection fonctionnent pour une autre. La plupart des antipsychotiques bloquent les récepteurs D2 — l'inverse de ce que le modèle de déficit dopaminergique de l'EM/SFC prédirait. La convergence des types cellulaires ne doit pas être confondue avec une convergence pharmacologique.
+
+**Il n'affaiblit pas l'argument génétique en faveur de la primauté neurologique.** Le fait que l'enrichissement des MSN soit partagé n'affaiblit pas la découverte que *l'enrichissement des cellules immunitaires est absent.* La génétique dit toujours : La maladie prend son origine dans les neurones, pas dans les cellules immunitaires. Partagée avec d'autres maladies cérébrales, oui. Immunitaire, non. La distinction entre « c'est dans le cerveau » et « c'est dans le système immunitaire » reste celle qui est essentielle.
+
+---
+
+## La cinquième question que le domaine doit répondre
+
+Si cette série a défendu trois conclusions — (1) la génétique tranche le locus neurologique, (2) le striatum est le goulot d'étranglement, (3) les médicaments dopaminergiques sont rationnels — alors le quatrième article ajoute le qualificatif nécessaire : (4) le striatum est un nœud de vulnérabilité partagé, et la dysfonction *spécifique* au sein des MSN qui produit l'EM/SFC plutôt que la schizophrénie ou la dépression reste inconnue.
+
+Ce n'est pas une faiblesse. C'est la prochaine question de recherche, et elle est précise : *quelle est la signature moléculaire de la dysfonction des MSN dans l'EM/SFC qui la distingue de la dysfonction des MSN dans d'autres affections ?* Répondez à cela, et vous avez une cible thérapeutique — pas un circuit partagé, mais une lésion spécifique à la maladie au sein de celui-ci.
+
+Jusqu'à ce que cette question trouve réponse, chaque médicament dopaminergique pour l'EM/SFC cible le bon circuit pour un mécanisme que nous ne pouvons pas encore préciser. Une pharmacologie rationnelle, mais à une résolution plus faible que nécessaire.
+
+---
+
+## Estimation du degré de certitude
+
+| Affirmation | Certitude |
+|---|---|
+| L'enrichissement des MSN est partagé entre l'EM/SFC, la schizophrénie, la dépression et le trouble lié à l'alcool | Très élevée — découvertes GWAS répliquées indépendamment dans les quatre affections |
+| Un enrichissement partagé par types cellulaires n'implique pas un mécanisme partagé | Élevée — différentes maladies impliquent différents gènes, différentes voies et différentes pathologies moléculaires au sein du même type cellulaire |
+| La lésion moléculaire spécifique au sein des MSN dans l'EM/SFC est inconnue | Très élevée — c'est un énoncé de ce qui n'a pas été fait, pas de ce que montrent les preuves |
+| Un profilage transcriptomique ou TEP pourrait distinguer la pathologie striatale de l'EM/SFC des autres affections | Modérée — la stratégie a fonctionné en psychiatrie ; n'a pas encore été appliquée à l'EM/SFC |
+| Le déséquilibre D1/D2 est le mécanisme le plus probable | Faible — l'un des plusieurs candidats ; pas de preuve directe spécifiquement dans l'EM/SFC |
+| Identifier une signature MSN spécifique à la maladie produirait une cible thérapeutique | Modérée — inférence logique GWAS → mécanisme → cible ; dépend de la nature de la signature |
+
+*Article 4 sur 4 de la série GWAS DecodeME. Précédent : [La génétique a tranché](../genetics-ends-debate/) · [Le striatum est le goulot d'étranglement](../striatum-bottleneck/) · [Les médicaments de la maladie de Parkinson pour l'EM/SFC ?](../dopamine-rational-mechanism/)*

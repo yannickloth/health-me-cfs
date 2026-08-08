@@ -1,0 +1,98 @@
+---
+title: "Partie 1 : La génétique a tranché — l'EM/SFC est neurologique"
+description: "Pendant des décennies, le débat faisait rage : l'EM/SFC est-elle auto-immune ou neurologique ? La plus grande étude GWAS à ce jour y a répondu. Les variants de risque opèrent dans les neurones, pas dans les cellules immunitaires. Voici ce que cela change."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Génétique, Neurologie, Physiopathologie]
+lang: fr
+---
+
+Vous êtes assis dans le bureau d'un neurologue. Vous avez apporté un classeur — trois ans de journaux de symptômes, deux rapports de table basculante, un test de respiration autonome, une étude du sommeil montrant une intrusion alpha-delta. Le neurologue jette un coup d'œil aux documents, les repose et dit : « Vos tests sont normaux. Avez-vous envisagé de voir un psychiatre ? »
+
+Cette scène s'est jouée des dizaines de milliers de fois. Ce n'est pas de la malice — c'est de l'incertitude habillée en certitude. Sans ancre génétique, les médecins pouvaient toujours se replier sur l'hypothèse nulle : *si on ne le trouve pas dans le sang, cela doit être dans l'esprit.* La plus grande étude génétique jamais menée sur l'EM/SFC vient de retirer cette ancre de l'eau.
+
+---
+
+## Ce que le GWAS a trouvé
+
+Le consortium DecodeME, dirigé par Li et al. 2025, a analysé environ 5 000 cas d'EM/SFC par rapport à des témoins issus de la population, dans ce qui est de loin l'étude d'association pangénomique (GWAS) la plus puissante statistiquement jamais menée sur la maladie [@Li2025decodeME]. La découverte principale n'est pas un « gène de l'EM/SFC » unique — il n'y en a pas. La découverte concerne *l'endroit où les variants génétiques qui augmentent le risque sont exprimés.*
+
+Les variants de risque se regroupent massivement dans le **tissu cérébral**, plus précisément dans les **neurones.** Pas les cellules de la microglie, pas les astrocytes, pas les cellules immunitaires. Les neurones.
+
+L'enrichissement en types cellulaires le plus significatif se trouvait dans les **neurones épineux moyens (MSN)** du striatum — une population spécifique de neurones des ganglions de la base impliqués dans le contrôle moteur, le traitement de la récompense et la prise de décision effort/récompense. Lorsque votre cerveau calcule si une action vaut le coût énergétique, ce sont les MSN qui effectuent ce calcul.
+
+---
+
+## Ce que signifie la découverte
+
+Cela met fin au cadre « auto-immune ou neurologique » qui a paralysé le domaine pendant deux décennies.
+
+**L'implication immunitaire est réelle mais secondaire.** Les patients EM/SFC présentent des cytokines élevées, des auto-anticorps, des cellules NK dysfonctionnelles — la pathologie immunitaire est mesurable et cliniquement importante [@IOM2015]. Mais c'est une dérégulation immunitaire *acquise*, non une dérégulation immunitaire induite génétiquement. L'architecture génétique pointe vers le cerveau. Le système immunitaire répond à quelque chose en amont — probablement une neuroinflammation, des signaux de dommage ou une perturbation autonome prenant son origine dans le SNC.
+
+**Le locus principal de la maladie est le cerveau.** Cela change la destination des ressources de recherche. Avant le GWAS, un chercheur pouvait raisonnablement soutenir que les panels de cytokines et les dosages d'auto-anticorps étaient la voie la plus prometteuse. Cet argument a désormais un contre-argument génétique : le plan de la maladie est écrit dans les neurones. Les biomarqueurs sanguins peuvent rester utiles — ils capturent la pathologie en aval — mais ils ne capturent pas la racine.
+
+**Cela n'exclut pas le traitement immunitaire.** La distinction compte. Qu'à la pathologie immunitaire soit secondaire ne signifie pas que la cibler soit inutile. L'immunoadsorption, le rituximab, la naltrexone à faible dose — tout cela peut encore fonctionner, et peut fonctionner précisément parce qu'interrompre l'aval immunitaire peut rompre les boucles de rétroaction qui maintiennent la maladie. La génétique dit : le système immunitaire est un *mécanisme de maintien*, pas la *lésion primaire.* Traitez-le par tous les moyens, mais ne confondez pas traiter un mécanisme de maintien avec traiter la cause première.
+
+---
+
+## Le striatum et l'hypothèse des ganglions de la base
+
+L'enrichissement des MSN est la découverte la plus spécifique du GWAS, et il se connecte directement à une hypothèse vieille de vingt-cinq ans.
+
+Chaudhuri et Behan ont proposé en 2000 que l'EM/SFC implique une dysfonction des ganglions de la base, plus précisément une perturbation de la signalisation dopaminergique dans le striatum qui altère la capacité du cerveau à traduire l'effort en action [@Chaudhuri2000basal]. À l'époque, l'hypothèse reposait sur l'imagerie fonctionnelle montrant une liaison réduite du transporteur de dopamine striatal et sur l'observation clinique d'un ralentissement moteur, d'une motivation réduite et d'une intolérance à l'effort ne correspondant pas à une pathologie musculaire périphérique.
+
+Le GWAS fournit le fondement génétique d'une hypothèse qui jusqu'ici reposait entièrement sur l'imagerie fonctionnelle et l'observation clinique. Le MSN est le type cellulaire que l'hypothèse avait prédit. La génétique est la note de bas de page : *le mécanisme est inscrit dans le tissu.*
+
+Mais voici la réserve — et elle est de taille.
+
+L'enrichissement des MSN n'est pas spécifique à l'EM/SFC. Il est partagé avec la schizophrénie, la dépression et le trouble lié à la consommation d'alcool. Le striatum semble être un nœud générique de « vulnérabilité cérébrale » — lorsque son circuit est compromis, le résultat est une forme de déficit motivationnel, moteur ou de traitement de la récompense, quel que soit le déclencheur en amont. Le GWAS nous dit *où regarder* — le striatum — mais pas encore *ce qui est cassé* à l'intérieur. Le type cellulaire est localisé. Le mécanisme au sein de ce type cellulaire ne l'est pas.
+
+---
+
+## Ce qui change pour les patients
+
+L'impact pratique d'une découverte génétique dans les neurones n'est ni un test sanguin ni un médicament. C'est quelque chose de plus immédiat : **des munitions.**
+
+L'argument « c'est psychologique » perd son fondement. Une découverte génétique exprimée dans les neurones n'est pas une découverte psychiatrique. Si l'architecture génétique de l'EM/SFC dit neurones — neurones épineux moyens, circuits striataux, signalisation dopaminergique — alors la maladie a plus en commun avec la maladie de Parkinson qu'avec la dépression. Personne ne dit à un patient parkinsonien de « penser positivement » ou d'« essayer l'exercice gradué ». La génétique rend ce même rejet plus difficile pour l'EM/SFC.
+
+L'argument « c'est un déconditionnement » perd aussi du terrain. Le déconditionnement ne produit pas un signal génétique spécifique à un type cellulaire dans le striatum. Le déconditionnement produit un muscle désentraîné — mesurable, réel, mais secondaire par rapport à la lésion neurologique qui rend l'exercice impossible en premier lieu.
+
+Et l'argument « c'est de l'anxiété de santé » — celui qui poursuit l'EM/SFC depuis l'épidémie du Royal Free Hospital en 1955 [@McEvedy1970] — devient manifestement intenable. L'anxiété de santé n'a pas de signal GWAS. Le striatum, si.
+
+---
+
+## Ce qui change pour la recherche
+
+Les implications pour l'allocation des ressources sont directes :
+
+**Neuroimagerie** — imagerie fonctionnelle et structurelle du striatum, des circuits des ganglions de la base et des voies dopaminergiques — devient la voie de recherche non génétique la plus prioritaire. Si la génétique dit neurones, nous devons voir ce que ces neurones font, en temps réel, chez les patients.
+
+**Métabolomique du LCR** — en particulier les métabolites des neurotransmetteurs, les produits du métabolisme de la dopamine et les intermédiaires de la signalisation striatale — devient plus informative que les panels de cytokines sanguines. L'aval est dans le sang ; l'amont est dans le LCR.
+
+**Interrogation des circuits striataux** — à l'aide des techniques de la neurologie des troubles du mouvement (stimulation magnétique transcrânienne, imagerie de sources EEG, analyse de connectivité fonctionnelle appliquée aux ganglions de la base) — devrait être déployée directement.
+
+Le système immunitaire devient une cible de recherche secondaire : toujours important, toujours traitable, mais n'est plus le locus principal de l'investigation.
+
+---
+
+## L'éléphant de cinquante mille personnes dans la pièce
+
+Le GWAS DecodeME représente un réel progrès. Il représente aussi une limite. Cinq mille cas suffisent pour que l'analyse d'enrichissement soit robuste — mais cela ne suffit pas pour le fine-mapping, l'association au niveau des gènes et l'analyse des voies qui nous diraient *quels mécanismes spécifiques au sein des MSN* sont perturbés.
+
+Le domaine de l'EM/SFC a besoin d'un GWAS à cinquante mille personnes. C'est ce nombre qu'il a fallu pour que la schizophrénie, la dépression et le trouble bipolaire passent de « on sait que c'est génétique » à « on sait quelles voies biologiques sont cassées » [@SchizophreniaWGPConsortium2014]. Le consortium DecodeME fournit la direction. Financer le prochain passage à l'échelle fournirait la destination.
+
+---
+
+## Estimation du degré de certitude
+
+| Affirmation | Certitude |
+|-------|-----------|
+| Les variants de risque de l'EM/SFC sont enrichis dans le tissu cérébral (neurones) par rapport aux cellules immunitaires | Très élevée — découverte GWAS principale, statistiquement robuste |
+| Les neurones épineux moyens sont le type cellulaire le plus enrichi | Élevée — étayé par l'analyse d'enrichissement des types cellulaires, bien que dépendant du jeu de données de référence |
+| Cela exclut une dysfonction immunitaire primaire génétiquement | Élevée — l'enrichissement immunitaire est absent malgré une puissance adéquate |
+| Cela établit le cerveau comme locus primaire de la maladie | Modérée — la génétique pointe vers le cerveau ; exige des preuves convergentes des études fonctionnelles |
+| L'enrichissement des MSN striataux est spécifique à l'EM/SFC | Faible — partagé avec la schizophrénie, la dépression, le trouble lié à la consommation d'alcool |
+| La génétique change la pratique clinique | Faible — aucun test diagnostique ni cible thérapeutique encore issu de cette découverte |
+| Passer à 50 000+ cas identifierait des voies spécifiques perturbées | Modérée à élevée — fondée sur des progrès analogues en génétique psychiatrique |
+
+*Article 1 sur 4 de la série GWAS DecodeME. Suivant : [Le striatum est le goulot d'étranglement](../striatum-bottleneck/) · [Les médicaments de la maladie de Parkinson pour l'EM/SFC ?](../dopamine-rational-mechanism/) · [Le striatum n'est pas le nôtre](../msn-specificity-caveat/)*

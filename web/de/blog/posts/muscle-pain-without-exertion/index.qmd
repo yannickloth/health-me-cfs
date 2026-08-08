@@ -1,0 +1,118 @@
+---
+title: "Warum Ihre Muskeln schmerzen, obwohl Sie nichts getan haben"
+description: "Ein evidenzbasiertes Modell von Muskelschmerzen bei ME/CFS, das erklärt, wie Schlafverlust denselben Schmerz erzeugen kann wie körperliche Anstrengung – durch kontinuierlichen metabolischen Stress, oxidative Nociceptor-Sensibilisierung und autonome mikrovaskuläre Dysfunktion."
+author: "Yannick Loth"
+date: "2026-07-04"
+categories: [Pain, Sleep, Energy Metabolism, Pathophysiology]
+lang: de
+---
+
+Sie wachen nach einer schlechten Nacht auf – drei Stunden fragmentierter Schlaf, um 4 Uhr wach, der Kopf rauscht – und Ihre Muskeln schmerzen.
+
+Nicht der saubere Muskelkater des gestrigen Trainings. Nicht das Brennen eines Laktat-Sets. Etwas anderes.
+
+Es ist tief. Bis in die Knochen. Ein dumpfes, unerbittliches Nagen, das in Ihren Oberschenkeln, Ihrem Rücken, Ihren Schultern sitzt – als wäre der Muskel selbst ausgehöhlt und mit etwas Schwerem und Krankem gefüllt worden. Sie drücken auf Ihre Quadrizeps und sie sind zart, als wären sie innerlich geprellt. Der Schmerz ist nicht scharf. Er ist diffus und hartnäckig – das Unwohlsein einer Grippe, das schwere, durch den Körper ziehende Unwohlsein, das Sie bekommen, wenn Ihr Körper etwas bekämpft. Nur bekämpfen Sie nichts. Sie liegen einfach nur da.
+
+Manchmal wandert er. Ihr Nacken und Ihre Trapezmuskeln schmerzen heute, aber gestern waren es der untere Rücken und die Waden. Der Schmerz bewegt sich zwischen Muskelgruppen – nicht symmetrisch, nicht vorhersehbar – und gebeten, ihn zu beschreiben, greifen Sie zu Worten wie *pochend, nagend, schmerzend*. Wenn Sie schwer betroffen sind, fügen Sie *erschöpfend* hinzu. *Nervend*. *Zermürbend*. Es fühlt sich an, als hätten Sie einen Marathon gelaufen und dann die ganze Nacht mit einem Virus durchgemacht. Ihre Muskeln fühlen sich *vergiftet* an – aber Sie haben nichts getan. Sie haben keinen Sport getrieben. Sie sind nicht weiter als bis zum Badezimmer gegangen.
+
+Das ist nicht der verzögerte Muskelkater (DOMS), den gesunde Menschen kennen – der befriedigende Schmerz eines Trainings, der sagt „ich habe mich angestrengt“. Patienten berichten durchweg, dass er sich *qualitativ anders* anfühlt als DOMS. DOMS ist auf die trainierten Muskeln lokalisiert, erreicht seinen Höhepunkt nach 24–48 Stunden und löst sich nach 72 auf. Dieser Schmerz ist weit verbreitet, wandernd und unaufhörlich. Er folgt keinem Training. Er folgt nicht einmal einer Aktivität. Er ist da, wenn Sie aufwachen, und er ist da, wenn Sie schlafen gehen, und das Schlimmste ist, dass er sich exakt so anfühlt wie der Schmerz *nach* Übertreibung – nur dass die Übertreibung nie passiert ist.
+
+Wenn Sie ME/CFS haben, haben Sie das erlebt. Wenn nicht, klingt es unmöglich. Bei gesunden Menschen folgt Muskelschmerz der Anstrengung und löst sich mit der Erholung auf. Aber bei ME/CFS ist dasselbe sensorische Profil – tiefer Schmerz, Empfindlichkeit, Schwere, Drucksensitivität – auch ohne den Auslöser vorhanden, der es normalerweise erzeugt. Hier ist, was wir darüber wissen, wie das funktioniert.
+
+---
+
+## Der Athletenvergleich
+
+Elitesportler wissen, wie sich metabolischer Stress nach dem Training anfühlt. Nach einem maximalen Einsatz – einem 400-Meter-Lauf, einem Maximalheben, einem Match, das in die Verlängerung ging – brennen ihre Muskeln. Laktat hat sich im Gewebe angesammelt, der pH-Wert ist gesunken, ATP ist entleert und nicht wieder aufgefüllt, und die Muskelfasern befinden sich in einem Zustand, der einen Schritt vom Krampf entfernt ist. Es tut weh. Aber es vergeht. Innerhalb von Stunden bis zu einem Tag holen ihre Mitochondrien auf, das Laktat klärt sich, der pH-Wert normalisiert sich und der Schmerz löst sich auf. Die metabolische Krise war real, aber vorübergehend.
+
+Bei ME/CFS zeigt eine Untergruppe von Patienten mehrere dieser gleichen Marker im Ruhezustand:
+- Erhöhtes Laktat in Ruhe (44,7 % der Patienten mit ≥ 2 mmol/L) [@Ghali2019]
+- Beeinträchtigte Erholung von trainingsinduzierter Azidose zwischen wiederholten Trainingseinheiten [@Jones2012lactate]
+- Breite Störung von Energiemetaboliten im Plasma – obwohl das Gesamtmuster ein hypometabolischer (Energie sparender) Zustand ist, nicht bloß „metabolischer Stress“ [@Naviaux2016metabolomics]
+
+Diese Befunde stammen aus Blut und Plasma, nicht aus direkten Muskelgewebemessungen. Die Überschneidung mit Post-Training-Profilen ist real, aber teilweise: Die Daten deuten auf eine metabolische Dysregulation in Ruhe hin, aber die Muster sind nicht identisch mit der Post-Training-Erholung, und nur etwa die Hälfte der Patienten zeigt erhöhtes Laktat. Das unten beschriebene Modell gilt für die Untergruppe von Patienten, bei denen diese metabolischen Anomalien im Ruhezustand vorhanden sind, und das Bild wird noch zusammengesetzt.
+
+---
+
+## Drei Kandidatenmechanismen
+
+### 1. Der Muskel könnte sich im Ruhezustand in einer metabolischen Krise befinden
+
+**Evidenzstufe: teilweise bestätigt, mit Lücken.** Mehrere Studien legen nahe, dass die Funktion der mitochondrialen Elektronentransportkette bei ME/CFS beeinträchtigt ist – nicht vollständig, aber genug, um die aerobe ATP-Produktion zu begrenzen [@Anderson2020mitochondriaMECFS]. Eine reduzierte Sauerstoffextraktionskapazität während des Trainings wurde gemessen [@Vermeulen2014O2extraction]. Die Schlussfolgerung ist, dass Muskelzellen selbst in Ruhe ihren ATP-Bedarf möglicherweise nicht über die aerobe Atmung decken und sich stattdessen auf die anaerobe Glykolyse stützen, die ATP schneller produziert, aber um den Preis der Laktatanreicherung. Erhöhtes Laktat in Ruhe findet sich bei ~45 % der Patienten. Ob dies einen erhöhten glykolytischen Fluss, eine reduzierte oxidative Clearance oder beides widerspiegelt, ist nicht geklärt.
+
+Die Schlüsselfrage für den Schmerz: Aktivieren die biochemischen Bedingungen im ruhenden ME/CFS-Muskel die Schmerzrezeptoren? Drei Familien sind relevant, obwohl eine direkte Messung ihrer Aktivierung bei ME/CFS nicht durchgeführt wurde.
+
+**ASIC3-Rezeptoren** sind säureempfindliche Ionenkanäle, die niedrigen pH-Wert (Azidose) erkennen. Erhöhtes Laktat verstärkt ihre Aktivierung in sauren Umgebungen und macht sie zu integrativen Sensoren metabolischer Not. Wenn der pH-Wert fällt und das Laktat steigt – wie nach intensivem Training bei gesunden Menschen –, feuern ASIC3. Ob der pH-Wert des ruhenden Muskels bei ME/CFS niedrig genug ist, um ASIC3 zu aktivieren, wurde nicht direkt gemessen. **Vorhersage:** Wenn der Muskel-pH-Wert bei ME/CFS in Ruhe normal ist, kommt ASIC3-vermittelter Schmerz in Ruhe nicht vor, und dieser Mechanismus schlägt fehl.
+
+**P2X3-Rezeptoren** sind ATP-aktivierte Kanäle an sensorischen Nervenendigungen. Wenn Muskelzellen metabolisch gestresst sind, lecken sie ATP in den extrazellulären Raum. Dieses extrazelluläre ATP bindet an P2X3 und signalisiert Schmerz. Ob das extrazelluläre ATP in Ruhe bei ME/CFS-Muskeln chronisch erhöht ist, ist unbekannt – das wurde nicht gemessen. **Vorhersage:** Wenn eine Mikrodialyse des ME/CFS-Muskels normale ATP-Spiegel in Ruhe zeigt, treibt P2X3 den Ruheschmerz nicht an.
+
+**TRPV1-Rezeptoren** – dieselben Kanäle, die durch Capsaicin aktiviert werden – reagieren auf Protonen, Hitze und Entzündungsmediatoren. Prostaglandine (insbesondere PGE2) sensibilisieren TRPV1 und senken seine Aktivierungsschwelle [@Moriyama2005]. Wenn der Muskel-pH-Wert niedrig ist und Entzündungsmediatoren vorhanden sind, könnte TRPV1 in Ruhe sensibilisiert sein – aber Muskelentzündung bei ME/CFS ist in Ruhe kein gut replizierter Befund.
+
+Was etabliert ist: Die molekulare Maschinerie, die metabolische Not in Schmerzsignale umwandeln würde, ist im Muskel vorhanden. Was nicht etabliert ist: dass diese Maschinerie bei ME/CFS in Ruhe aktiv ist. Das Modell ist kohärent, wartet aber auf direkte Verifikation.
+
+### 2. Oxidativer Stress könnte eine sich selbst verstärkende Schmerzschleife aufrechterhalten
+
+**Evidenzstufe: Mechanismus in vitro etabliert, ME/CFS-Anwendung inferentiell.** Erhöhter systemischer oxidativer Stress wurde bei ME/CFS dokumentiert, mit Belegen sowohl für erhöhte ROS-Produktion als auch für reduzierte antioxidative Kapazität [@maes2012oxidative]. Redox-Proteomik-Analysen bestätigen breite oxidative Modifikationsmuster [@oxidativestress2025].
+
+Zwei TRP-Kanäle übersetzen oxidativen Stress in Schmerz:
+
+- **TRPA1** – der „Wasabi-Rezeptor“ – erkennt oxidative Gewebeschäden direkt. ROS, Lipidperoxidationsprodukte und reaktive Aldehyde aktivieren TRPA1 über die kovalente Modifikation reaktiver Cysteinreste [@Macpherson2007]. Ob oxidativer Stress bei ME/CFS die Konzentration und Gewebekompartimentierung erreicht, die nötig ist, um TRPA1 an Muskel-Nociceptoren zu aktivieren, wurde nicht direkt getestet. **Vorhersage:** Wenn TRPA1-Antagonisten den Ruheschmerz bei ME/CFS-Patienten stärker reduzieren als bei Fibromyalgie-Kontrollen, trägt TRPA1 spezifisch bei.
+
+- **TRPV1** nimmt an einer positiven Rückkopplungsschleife teil: ROS regulieren COX-2 herauf → erhöhte Prostaglandinproduktion → TRPV1-Sensibilisierung → Nociceptor-Feuern → neurogene Entzündung (Freisetzung von Substanz P, CGRP) → anhaltende COX-2-Aktivierung [@Li2021]. Prinzipiell könnte chronischer oxidativer Stress diese Schleife in einen konstitutiven Zustand niedriger Intensität treiben. Ob er das bei ME/CFS in ausreichendem Maße tut, um den Schmerz aufrechtzuerhalten, ist nicht bekannt. **Vorhersage:** Wenn diese Schleife den Schmerz antreibt, sollten COX-2-Hemmer oder TRPV1-Antagonisten die spontanen Schmerzangaben reduzieren.
+
+### 3. Mikrovaskuläre Dysfunktion könnte autonome Muskelischämie verursachen
+
+**Evidenzstufe: inferentiell, mit stützender Physiologie.** Bei ME/CFS ist die autonome Regulation beeinträchtigt. Ein reduziertes Blutvolumen wurde dokumentiert [@Streeten1998blood], und eine abnormale Endothelfunktion wurde berichtet [@lacerda2024proteomics]. Die Vorhersage ist, dass die Kapillarrekrutierung unzuverlässig ist und einige Muskelregionen selbst in Ruhe unzureichend perfused werden.
+
+Wenn die Sauerstoffzufuhr unter den metabolischen Bedarf des Gewebes fällt, erleiden betroffene Fasern eine fokale Ischämie. Der Ischämie-Reperfusions-Zyklus – der Blutfluss kehrt zu depriviertem Gewebe zurück – erzeugt ROS, aktiviert Entzündungswege und löst Nociceptor-Feuern aus. Diese Kette wurde im ME/CFS-Muskel nicht direkt visualisiert; jedes Glied ist aus verwandter Physiologie einzeln plausibel, aber der vollständige integrierte Weg bei ME/CFS ist unbestätigt. **Vorhersage:** Wenn die Nahinfrarotspektroskopie (NIRS) eine normale Sauerstoffversorgung des ruhenden Gewebes im ME/CFS-Muskel zeigt, trägt mikrovaskuläre Ischämie nicht zum Ruheschmerz bei.
+
+Diese mikrovaskuläre Dysfunktion variiert mit Haltung, Blutvolumen und autonomem Zustand – nicht mit dem Aktivitätsniveau. Aufstehen verschiebt das Blutvolumen und verändert die Perfusionsmuster. Liegen verändert sie wieder. Eine schlechte Nacht Schlaf destabilisiert die autonome Regulation und verschlimmert die Perfusionsschwankungen. Wenn die Ischämie-Hypothese zutrifft, ist der darauf folgende Muskelschmerz real – das Gewebe erlebte Sauerstoffmangel. Aber er wurde nicht durch Muskelkontraktion verursacht. Er wurde durch ein Gefäßversorgungsversagen verursacht, auf das der Patient keinen Einfluss hatte.
+
+Arterielles TRPV1 in der glatten Gefäßmuskulatur – getrennt vom neuronalen TRPV1 – könnte zur Vasokonstriktion in Widerstandsarteriolen beitragen [@Phan2020trpv1arterial]. Das ist ein allgemeiner Befund der Gefäßphysiologie; seine Relevanz für ME/CFS ist spekulativ.
+
+---
+
+## Warum Schlafverlust es verschlimmert
+
+*Die unten beschriebenen Mechanismen beschreiben plausible Wege. Jedes Glied wird durch allgemeine physiologische Evidenz gestützt; ob diese Wege wie beschrieben spezifisch bei ME/CFS funktionieren, wurde nicht nachgewiesen. Das Gewicht des Modells hängt von der Konvergenz über mehrere unabhängige Evidenzlinien ab, nicht von einem einzelnen Glied.*
+
+**Schlafverlust vertieft die metabolische Krise.** Schlaffragmentierung beeinträchtigt den Gehirn-Energiestoffwechsel: Die Glukoseaufnahme in Kortex und Hippocampus sinkt [@Baud2016fragmentation]. (Entgegen dem totalen Schlafentzug – der das Gehirn-Laktat erhöht – reduziert Fragmentierung das kortikale Laktat.) Der metabolische Stress des Gehirns wirkt wahrscheinlich über hypothalamische autonome Zentren zurück und verschlechtert die Gefäßregulation. **Vorhersage:** Wenn sich die autonome Funktion nach schlechtem Schlaf bei ME/CFS nicht ändert, ist dieser Weg nicht aktiv.
+
+**Schlafverlust verkürzt das nächtliche antioxidative Fenster.** Melatonin – ein starkes Antioxidans – steigt nachts unter zirkadianer (suprachiasmatischer Kern) Kontrolle an und erreicht seinen Höhepunkt während der frühen bis mittleren Schlafphase. Melatonin fängt ROS direkt in der Mitochondrienmatrix ab [@Reiter2016antioxidant]. Schlafverlust verkürzt das Melatonin-Expositionsfenster: Die Gesamtproduktion bleibt etwa erhalten, aber die Dauer des erhöhten nächtlichen Melatonins – und damit der antioxidativen Mitochondrienschutz – wird verkürzt. Reduzierte antioxidative Aktivität durch die Nacht → erhöhte Muskel-ROS am Morgen → erhöhte TRPV1/TRPA1-Aktivierung. **Vorhersage:** Wenn eine Melatoninsupplementierung während des Schlafentzugs den morgendlichen Muskelschmerz bei ME/CFS nicht reduziert, ist der Melatonin→ROS→TRP-Arm dieses Modells erheblich geschwächt.
+
+**Schlafverlust verhindert die glymphatische Clearance.** Das Abfallentsorgungssystem des Gehirns ist während des NREM-Schlafs am aktivsten, angetrieben durch noradrenalinvermittelte langsame Vasomotion [@Hauglund2025neVasomotion]. Wenn der Schlaf fragmentiert ist, bleiben Entzündungsmediatoren und metabolische Abfälle im Gehirn und erhalten eine Neuroinflammation aufrecht. Dies speist die zentrale Sensibilisierung – einen Zustand der Hypererregbarkeit des Hinterhorns, in dem die absteigende Schmerzhemmung versagt und normalerweise harmloser Input zu Schmerz verstärkt wird [@Nijs2017neuroinflammation]. Ob eine glymphatische Beeinträchtigung spezifisch die zentrale Sensibilisierung bei ME/CFS antreibt (eher als gliale Aktivierung durch systemische Entzündung oder andere Faktoren), ist unbestimmt. **Vorhersage:** Wenn die Verbesserung der glymphatischen Funktion unabhängig von der Schlafdauer den Schmerz nicht reduziert, ist dieser Weg nicht der Haupttreiber.
+
+**Schlafverlust destabilisiert die autonome Kontrolle.** Eine einzelne Nacht schlechten Schlafs erhöht messbar den sympathischen Tonus und reduziert die parasympathische Aktivität bei gesunden Populationen. Da die mikrovaskuläre Muskelperfusion von einer ausgewogenen autonomen Regulation abhängt, verschlechtert dies die Ischämie-Reperfusions-Zyklen im Muskel direkt.
+
+Das Gesamtbild: Eine schlechte Nacht Schlaf verschiebt plausibel das biochemische Profil des Muskels in Richtung der Nachwirkungen körperlicher Anstrengung – erhöhte ROS, sensibilisierte Schmerzrezeptoren, aktivierte Entzündungswege, beeinträchtigte mikrovaskuläre Perfusion und verstärkte zentrale Schmerzverarbeitung. Die verschiedenen Wege konvergieren über unabhängige Mechanismen auf dasselbe Ergebnis. Jeder Mechanismus allein wäre eine schwache Erklärung; ihre Konvergenz verleiht dem Modell sein Gewicht.
+
+---
+
+## Das ist keine „Dekonditionierung“
+
+Die Dekonditionierungs-Hypothese – dass Muskelschmerz bei ME/CFS eine Schwäche durch Inaktivität widerspiegelt – identifiziert korrekt ein reales Phänomen (reduzierte Aktivität kann Dekonditionierung verursachen), verkehrt aber die kausale Richtung bei den meisten Patienten. Der primäre Treiber des Muskelschmerzes ist die metabolische Beeinträchtigung; die Inaktivität und jede sekundäre Dekonditionierung folgen daraus. Sie schließen sich nicht gegenseitig aus: Beide können koexistieren, aber die Evidenz aus Belastungsstudien legt nahe, dass die metabolische Dysfunktion der Aktivitätseinschränkung vorausgeht und sie antreibt, nicht umgekehrt.
+
+Mit abgestuftem Training diesen Zustand zu behandeln, ist problematisch, weil es metabolische Anforderungen zu einem System hinzufügt, das bereits nicht in der Lage ist, den Ruhebedarf aerob zu decken. Die Rationale hinter abgestuftem Training – dass Dekonditionierung Symptome antreibt und durch langsam steigende Aktivität umgekehrt werden kann – scheitert, wenn das zugrunde liegende Problem keine Dekonditionierung ist, sondern eine metabolische Beeinträchtigung, die durch Training selbst verschlimmert wird.
+
+---
+
+## Was Sie dagegen tun können
+
+*Die folgenden Ratschläge gelten für Ihren vertrauten, musterkonsistenten ME/CFS-bezogenen Muskelschmerz. Wenn Ihr Schmerz neu ist, sich von Ihrem üblichen Muster unterscheidet, einseitig ist, mit Schwellung/Rötung/Fieber verbunden ist oder von Brustschmerzen oder Atemnot begleitet wird – suchen Sie eine ärztliche Untersuchung auf. Dieser Artikel beschreibt ein Mechanismusmodell; er ist keine vollständige Differenzialdiagnose.*
+
+Wenn Sie heute Morgen nach einer schlechten Nacht mit Muskelschmerzen aufgewacht sind, hier ist, was wahrscheinlich passiert und was helfen kann:
+
+**Wenn die obigen Mechanismen korrekt sind, arbeiten Ihre Mitochondrien wahrscheinlich mit reduzierter Kapazität.** Sie waren vor der schlechten Nacht bereits eingeschränkt. Der Schlafverlust hat sie wahrscheinlich weiter reduziert – weniger glymphatische Clearance, weniger antioxidative Aktivität, weniger parasympathische Erholung.
+
+**Ihre Muskelschmerzrezeptoren sind wahrscheinlich sensibilisiert.** TRPV1, TRPA1, ASIC3 und P2X3 erkennen die metabolischen Not-Signale, die Ihre Muskelzellen aussenden, und feuern wahrscheinlich bei einer niedrigeren Schwelle als bei einem gesunden Menschen.
+
+**Ihre mikrovaskuläre Perfusion könnte instabil sein.** Die autonome Dysregulation durch Schlafverlust bedeutet plausibel, dass einige Muskelregionen selbst in Ruhe unzureichend durchblutet werden.
+
+Was hilft:
+
+- **Ruhen Sie sich wirklich aus.** Nicht „durchbeißen“. Das biochemische Defizit ist real, und ATP von einem System zu fordern, das es nicht produzieren kann, vertieft die Krise. Flaches Liegen in einem dunklen, ruhigen Raum reduziert gleichzeitig die Stoffwechselanforderungen und den sympathischen Tonus. Pacing – das Ausbalancieren von Aktivität und Ruhe innerhalb Ihrer Energiehülle – ist der am besten evidenzgestützte langfristige Ansatz.
+- **Flüssigkeitszufuhr mit Elektrolyten.** Reduziertes Blutvolumen verschlechtert die mikrovaskuläre Perfusion. Die Erweiterung des Plasmavolumens mit Wasser und Natrium unterstützt die Kapillarrekrutierung. Wenn Sie Bluthochdruck, Herzinsuffizienz oder Nierenerkrankung haben oder Medikamente einnehmen, die den Flüssigkeitshaushalt beeinflussen (einschließlich Fludrocortison, das einige ME/CFS-Patienten einnehmen), klären Sie eine erhöhte Natriumzufuhr mit Ihrem Arzt ab.
+- **Vermeiden Sie die Versuchung, den Schmerz durch Bewegung zu „testen“.** Viele Patienten versuchen verständlicherweise, die betroffenen Muskeln zu bewegen, um zu sehen, ob sie „wirklich“ wund sind. Das fügt Fasern, die sich bereits in einer metabolischen Krise befinden, einen ATP-Bedarf hinzu. Sanfte Bewegungsumfänge ohne Widerstand sind in Ordnung – das Ziel ist nicht, gegen den Schmerz zu drücken.
+- **Erkennen Sie das als das an, was es ist.** Der Muskelschmerz ist weder eingebildet noch psychosomatisch – er hat ein kohärentes mechanistisches Modell, das in dokumentierter metabolischer Dysfunktion, Nociceptor-Biologie und autonomer Beeinträchtigung verankert ist. Er bessert sich oft, wenn sich Ihr Körper vom Schlafdefizit erholt, obwohl ein gewisses Ausmaß an Grund-Muskelschmerz aufgrund der zugrunde liegenden metabolischen Beeinträchtigung bestehen bleiben kann. Ihren Schlaf zu schützen bedeutet, Ihre Muskeln zu schützen – denn bei ME/CFS verschiebt schlechter Schlaf das biochemische Profil weiter in ein Gebiet, das mit Post-Anstrengungs-Stress überlappt.
+
+Für das umfassende Bild, wie diese Mechanismen in die breitere ME/CFS-Pathophysiologie integriert werden, siehe [@Loth2026mecfs].

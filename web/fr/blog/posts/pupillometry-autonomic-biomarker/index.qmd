@@ -1,0 +1,159 @@
+---
+title: "Votre pupille pourrait révéler si les autoanticorps altèrent la fonction autonome — une hypothèse"
+description: "Une mesure oculaire de 30 secondes pourrait tester si les autoanticorps anti-GPCR présents dans l'EM/SFC altèrent réellement la fonction autonome. La technologie existe. L'étude n'a pas encore été réalisée."
+author: "Yannick Loth"
+date: "2026-07-09"
+categories: [Biomarkers, Diagnostics, Autonomic Dysfunction, Immunology, Research]
+lang: fr
+---
+
+Un appareil portatif qui mesure la vitesse à laquelle votre pupille se contracte et se dilate en réponse à la lumière coûte environ 3 000 €, est approuvé par la FDA et a été validé dans les cas de commotion cérébrale, de diabète, de sclérose en plaques et de défaillance autonome pure. La mesure prend 30 secondes. Vous n'avez pas à vous lever. Vous n'avez pas à faire d'exercice. Vous vous asseyez simplement dans une pièce sombre et l'appareil enregistre le réflexe pupillaire à la lumière.
+
+Aucune étude moderne de pupillométrie automatisée n'a été publiée dans l'EM/SFC. (Aucun essai enregistré n'a été identifié dans une recherche sur ClinicalTrials.gov en date de juillet 2026.)
+
+Pourquoi c'est important : les récepteurs qui contrôlent votre pupille sont exactement les mêmes que ceux ciblés par les autoanticorps retrouvés chez de nombreux patients atteints d'EM/SFC. Votre pupille pourrait nous dire si ces autoanticorps ont réellement un effet.
+
+---
+
+## La pupille est une fenêtre sur le système nerveux autonome
+
+Votre système nerveux autonome contrôle les choses auxquelles vous ne pensez pas : la fréquence cardiaque, la digestion, la transpiration, la pression artérielle et la taille de vos pupilles. Il possède deux branches :
+
+- **Parasympathique** (« repos et digestion ») — ralentit les choses, conserve l'énergie. Contraction de la pupille.
+- **Sympathique** (« combat ou fuite ») — accélère les choses, mobilise l'énergie. Dilatation de la pupille.
+
+La réponse de la pupille à un éclair de lumière — le *réflexe pupillaire à la lumière*, ou RPL — est l'une des mesures autonomes les plus rapides, les plus simples et les plus reproductibles disponibles. Un bref stimulus lumineux atteint la rétine. Le signal traverse le nerf optique jusqu'au noyau d'Edinger-Westphal dans le mésencéphale, puis au ganglion ciliaire et enfin au muscle sphincter de l'iris, qui contracte la pupille. Tout le réflexe prend environ 200 millisecondes.
+
+Lorsque la lumière s'éteint, la pupille se dilate à nouveau — cette fois pilotée par la branche sympathique, qui envoie un signal depuis le ganglion cervical supérieur de votre cou vers les récepteurs adrénergiques alpha-1 du muscle dilatateur de l'iris.
+
+Ce que les chercheurs mesurent avec un pupillomètre moderne est précis : l'amplitude de constriction (à quel point la pupille rétrécit), la latence de constriction (le délai avant le début de la constriction), la vitesse de dilatation (à quelle vitesse elle se rouvre) et le diamètre de base (l'équilibre au repos entre les deux systèmes).
+
+Chacun de ces paramètres correspond à un type de récepteur spécifique. **La constriction** dépend des récepteurs muscariniques M3 — ce sont des récepteurs cholinergiques, parasympathiques (des récepteurs couplés aux protéines G, ou RCPG). **La dilatation** dépend des récepteurs adrénergiques alpha-1 — ce sont des RCPG sympathiques [@lisowski2025pupillary]. C'est important car ces deux types de récepteurs sont des cibles des autoanticorps retrouvés dans l'EM/SFC.
+
+---
+
+## La controverse des autoanticorps
+
+En 2016, Loebel et ses collègues ont publié une étude montrant que 29,5 % des 268 patients atteints d'EM/SFC présentaient des autoanticorps élevés contre les récepteurs bêta-2 adrénergiques et muscariniques M3/M4 [@Loebel2016]. En 2021, Szklarski et ses collègues ont confirmé ce résultat et ont constaté que les patients atteints d'EM/SFC déclenchée par une infection présentaient des taux d'autoanticorps significativement plus élevés que les patients sans déclencheur infectieux — et que ces anticorps étaient corrélés à la sévérité des symptômes [@szklarski2021cd26]. En 2026, Azcue et ses collègues ont reproduit le résultat dans une cohorte post-COVID et de SFC [@azcue2026gpcrpupil].
+
+Mais en 2025, Germain et ses collègues ont réalisé le plus grand dépistage à ce jour : 172 participants, 7 542 interactions anticorps-antigène à l'aide de deux plateformes à haut débit différentes (REAP et Luminex). Ils ont trouvé *zéro* signal d'autoanticorps spécifique à l'EM/SFC [@Germain2025autoantibody]. Toutes les cibles des RCPG — adrénergiques bêta-1, bêta-2, bêta-3, muscariniques M1 à M4 — étaient négatives. Aucun autoanticorps ne différait entre les patients et les témoins à quelque seuil statistiquement significatif que ce soit. Par la taille de l'étude, la diversité des plateformes et la rigueur statistique, Germain 2025 est l'étude unique la plus solide sur cette question. Les études positives par ELISA (Loebel 2016, Szklarski 2021, Azcue 2026) sont plus petites et utilisent une seule plateforme de dosage avec des limites de spécificité connues.
+
+C'est un véritable désaccord. Deux plateformes de dosage différentes — ELISA (positive) et REAP/Luminex (négative) — donnent des réponses opposées à la même question biologique. Le désaccord joue dans les deux sens : l'ELISA peut détecter des liaisons de faible spécificité, mais la REAP/Luminex utilise des épitopes linéaires exprimés de manière recombinante qui peuvent se replier de façon incorrecte, manquant potentiellement des anticorps qui nécessitent la conformation native des RCPG [@Germain2025autoantibody]. En 2022, Vernino et ses collègues ont tenté de reproduire les résultats ELISA dans le POTS : ils ont constaté que 100 % des *témoins sains* testaient positifs, rendant la valeur diagnostique du test nulle [@POTS2022failed_replication]. Une interprétation parcimonieuse est que l'ELISA détecte des anticorps qui se lient mais sont fonctionnellement sans importance (faible spécificité) ; la charge de la preuve consiste à démontrer la signification fonctionnelle.
+
+C'est ici que cela devient cliniquement conséquent. BC007, un aptamère d'ADN qui neutralise les autoanticorps anti-RCPG, a montré une amélioration spectaculaire dans un cas pilote de COVID long [@Hohberger2021bc007]. Un essai d'immunoadsorption dans l'EM/SFC est en cours [@Stein2023immunoadsorptionInterim]. Certains patients se font tester pour ces anticorps. Mais personne ne sait si un résultat ELISA positif signifie que les anticorps altèrent réellement la fonction des récepteurs, ou s'il signifie que le test a un problème de spécificité — détectant des anticorps présents mais inoffensifs, ou pire, ne détectant rien de réel du tout. **Avertissement important :** aucune de ces thérapies n'est approuvée pour l'EM/SFC. Les IVIG sont hors AMM ; l'immunoadsorption est réservée aux essais ; le BC007 n'est pas disponible comme traitement clinique. Aucune recommandation clinique n'est impliquée par cette discussion.
+
+---
+
+## Ce que la pupille peut nous dire
+
+Les récepteurs muscariniques M3 et adrénergiques alpha-1 sont présents dans tout le corps — sur les vaisseaux sanguins, sur le cœur, sur les muscles lisses intestinaux, sur les cellules immunitaires, sur les mastocytes. Mais dans pratiquement tous les tissus, mesurer la fonction des récepteurs est techniquement difficile. Il faudrait une biopsie, un cathéter invasif ou une TEP spécialisée.
+
+La pupille est différente. Les récepteurs M3 et alpha-1 de l'iris sont accessibles à travers un milieu transparent (la cornée). Ils sont activés par un stimulus précis et reproductible (un éclair de lumière). Leur réponse est mécaniquement simple — se contracter ou se dilater — et peut être quantifiée à une résolution de la milliseconde avec un appareil de la taille d'une petite lampe de poche.
+
+Si les autoanticorps anti-RCPG dans l'EM/SFC sont *fonctionnels* — c'est-à-dire qu'ils se lient au récepteur et altèrent sa signalisation — un pupillomètre peut détecter l'altération, en supposant (a) que l'anticorps atteint l'iris en concentration suffisante à travers la barrière hémato-oculaire, (b) que les isoformes de récepteurs exprimées dans le tissu de l'iris correspondent à celles ciblées, et (c) qu'aucun mécanisme compensatoire (par exemple, la sur-régulation des récepteurs) ne masque l'effet. Les anticorps bloquant le M3 devraient ralentir la constriction. Les anticorps bloquant l'alpha-1 devraient ralentir la dilatation.
+
+Si les autoanticorps anti-RCPG sont *non fonctionnels* — c'est-à-dire qu'ils se lient au récepteur sans affecter sa signalisation, ou qu'ils se lient à quelque chose d'autre entièrement qui réagit de façon croisée avec l'ELISA — la pupille devrait être normale, indépendamment de ce que dit le test sanguin. (La réciproque ne tient pas : un RPL anormal chez un patient avec des anticorps pourrait aussi provenir de médicaments, d'une pathologie du tronc cérébral, d'un déconditionnement ou d'une dysfonction autonome indépendante de tout autoanticorps — équifinalité.)
+
+Cette approche s'apparente à un bioessai in vivo, utilisant du tissu natif à des densités physiologiques de récepteurs.
+
+---
+
+## Données probantes transversales aux maladies
+
+La pupillométrie a été étudiée comme biomarqueur autonome dans de multiples affections présentant des caractéristiques chevauchant l'EM/SFC. (Note : les affections énumérées impliquent des mécanismes pathologiques différents — microvasculaire, démyélinisant, traumatique — donc la convergence porte sur l'utilité de la méthode, pas sur une physiopathologie partagée.)
+
+Dans la **neuropathie autonome diabétique**, l'amplitude de constriction du RPL et la vitesse de dilatation sont réduites, et l'ampleur de la réduction est corrélée à la durée de la maladie. Li et ses collègues (2026) ont montré que la différence de diamètre pupillaire scotopique-photopique pouvait servir de biomarqueur pour la gestion glycémique à long terme [@li2026pupil]. Thakar et ses collègues (2025) ont confirmé la corrélation entre les paramètres du RPL et l'épaisseur de la couche de fibres nerveuses rétiniennes — un corrélat structurel [@thakar2025pupillometry].
+
+Dans la **sclérose en plaques**, Parmak Yener et ses collègues (2026) ont démontré que l'apprentissage automatique appliqué aux caractéristiques pupillographiques pouvait distinguer les patients présentant une atteinte autonome de ceux qui n'en présentaient pas [@parmakyener2026pupillography]. De Rodez Benavent et ses collègues (2019) ont relié des anomalies autonomes rétiniennes et pupillaires à la dysfonction autonome cardiovasculaire au début de la SEP — montrant que l'œil reflète l'état autonome systémique [@derodezbenavent2019autonomic].
+
+Dans la **commotion cérébrale**, Master et ses collègues (2020, JAMA Ophthalmology) ont publié une étude portant sur 352 adolescents montrant que les paramètres du RPL distinguent les athlètes commotionnés des athlètes sains. C'était une validation vaste et rigoureuse du RPL comme biomarqueur physiologique objectif — juste dans une autre affection [@master2020plr].
+
+Dans le **syndrome post-COVID**, Smit et ses collègues (2026) ont constaté une altération de la dynamique pupillaire évoquée par des tâches chez 397 patients par rapport à 129 témoins. L'indice d'activité pupillaire était significativement plus faible chez les patients post-COVID à tous les niveaux de difficulté de tâche [@smit2026pupillary].
+
+Dans le **SDRC** (syndrome douloureux régional complexe), Drummond et Finch (2022) ont utilisé la dilatation pupillaire à des stimuli d'éveil comme sonde de la fonction du locus coeruleus, constatant que le côté affecté présentait des pupilles plus petites — cohérent avec un déficit noradrénergique ipsilatéral [@drummond2022crps].
+
+Dans toutes ces affections, la pupillométrie détecte la dysfonction autonome [@sander2025pupillometry @rizzuto2025hippus]. Le schéma varie selon la maladie, mais la méthode fonctionne. Une mise en garde notable : Egg et ses collègues (2002) ont constaté que le paramètre du RPL le plus intuitivement lié à l'instabilité autonome — l'hippus pupillaire, l'oscillation spontanée de la taille de la pupille — était *inversement* corrélé à la fatigue dans la SEP (r = -0,52). Plus d'oscillation pupillaire signifiait *moins* de fatigue [@egg2002pupillary]. Ce résultat nul devrait tempérer les attentes : tous les paramètres du RPL ne suivront pas les symptômes, et le sens de l'effet peut ne pas être celui que l'intuition prédit.
+
+**La seule étude directe de pupillométrie dans le SFC a été publiée en 1997** par Sendrowski et ses collègues. Elle utilisait une méthodologie pharmacologique (mydriase à la phényléphrine) plutôt que la pupillométrie automatisée moderne, comptait moins de 20 participants et testait une hypothèse spécifique sur l'hypersensibilité de dénervation sympathique [@sendrowski1997sympathetic]. Elle n'a jamais été reproduite.
+
+Un écart de 29 ans entre la seule étude sur l'EM/SFC et une technologie désormais courante en neurologie, en ophtalmologie et en médecine du sport — voilà la lacune de données probantes.
+
+---
+
+## À quoi ressemblerait l'étude ?
+
+Une première étude ne nécessiterait rien qui n'existe déjà :
+
+| Composant | Statut |
+|-----------|--------|
+| **Appareil** | NeurOptics PLR-3000 ou équivalent — approuvé par la FDA, 2 000–5 000 €, utilisé quotidiennement dans les cliniques pour commotion cérébrale |
+| **Participants** | 60 EM/SFC positifs aux autoanticorps anti-RCPG + 60 négatifs + 60 témoins sains — réalisable sur un site disposant d'une cohorte EM/SFC existante et d'un dosage validé d'autoanticorps (dépistage de 200+ patients pour identifier 60 positifs à un taux de séroprévalence d'environ 29,5 %) |
+| **Test d'autoanticorps** | Déjà établi à Charité (ELISA CellTrend) et via des protocoles publiés REAP/Luminex (Germain 2025) |
+| **Protocole** | Séance unique, 30 secondes par mesure, en décubitus, aucun exercice requis. Facteurs de confusion médicamenteux : les bêtabloquants, les anticholinergiques, les ISRS et les antihistaminiques affectent tous la fonction pupillaire. Ils seront documentés et analysés comme covariables, mais avec 180 participants et de multiples sous-groupes, le contrôle statistique est limité. Le lavage médicamenteux n'est pas proposé en raison des obstacles éthiques et pratiques |
+| **Analyse** | Comparez la vitesse de constriction et la vitesse de dilatation entre les groupes. Contrôlez l'âge, les médicaments et la lumière ambiante |
+| **Durée** | Collecte des données : 30 secondes par mesure, environ 30–45 minutes par participant, y compris l'installation, le consentement et la prise de sang pour les autoanticorps. Total : réalisable en 6–12 mois sur un seul site |
+| **Coût** | Appareil 2 000–5 000 € (environ 1–5 % du coût total ; le personnel, le recrutement et les tests d'autoanticorps dominent) |
+
+L'analyse principale teste deux prédictions :
+1. Les patients atteints d'EM/SFC avec des autoanticorps anti-RCPG élevés présenteront une vitesse de constriction du RPL plus lente (si les anticorps anti-M3 sont fonctionnels) et/ou une vitesse de dilatation plus lente (si les anticorps anti-alpha-1 sont fonctionnels) par rapport aux patients sans anticorps et aux témoins.
+2. Les paramètres du RPL seront corrélés à la sévérité des symptômes autonomes (score COMPASS-31) et aux mesures de l'intolérance orthostatique.
+
+L'analyse secondaire teste si le sous-type d'autoanticorps — dominant M3 versus dominant alpha-1 — prédit quel paramètre du RPL est affecté. Si cette double dissociation tient, la pupillométrie pourrait servir de bioessai spécifique au récepteur, indiquant aux cliniciens quelle voie autonome est altérée sans prise de sang.
+
+---
+
+## Trois scénarios : ce que chacun signifierait
+
+### Scénario A : Positif — le RPL est anormal chez les patients positifs aux autoanticorps
+
+Le test pupillaire révèle une altération fonctionnelle des récepteurs chez les patients avec des titres d'autoanticorps positifs — mais pas chez les patients avec des titres négatifs ni chez les témoins sains. La dissociation entre les anticorps anti-M3 et la constriction (par rapport aux anticorps anti-alpha-1 et la dilatation) est nette.
+
+**Ce qui change pour les patients :** un résultat positif de pupillométrie serait la première preuve que les autoanticorps anti-RCPG sont *pathogènes* dans l'EM/SFC — pas seulement un résultat de laboratoire. Cela signifierait que les autoanticorps altèrent la fonction des récepteurs autonomes à des concentrations physiologiques dans le tissu natif. Cela renforce directement la justification des thérapies immunomodulatrices (IVIG, immunoadsorption, BC007). On pourrait dire à un patient : « Vos anticorps altèrent vos récepteurs. Les thérapies qui les éliminent ou les neutralisent ont une cible mécanistique que nous pouvons réellement mesurer. »
+
+La pupillométrie pourrait aussi servir de moniteur de réponse au traitement. Si une thérapie fonctionne, la fonction pupillaire devrait s'améliorer. Une mesure de 30 secondes avant et après le traitement remplace les rapports subjectifs de symptômes par un critère d'évaluation physiologique objectif.
+
+### Scénario B : Nul — le RPL est normal quel que soit le statut des autoanticorps
+
+La pupille répond normalement dans tous les groupes d'EM/SFC — positifs aux anticorps, négatifs aux anticorps, aucune différence par rapport aux témoins. Les autoanticorps détectés par ELISA sont soit non fonctionnels, soit non pathogènes, soit pas détectés de façon fiable.
+
+**Ce qui change pour les patients :** le résultat nul de Germain 2025 est fonctionnellement confirmé. La recherche de thérapies de déplétion des autoanticorps anti-RCPG devrait être dépriorisée. Les patients avec des résultats ELISA positifs mais sans altération fonctionnelle des récepteurs peuvent éviter de poursuivre des traitements qui n'ont aucune justification mécanistique.
+
+**Ce qui change pour les chercheurs :** le chapitre des autoanticorps anti-RCPG dans l'EM/SFC se refermerait ou se rétrécirait nettement — **à condition que la barrière hémato-oculaire ne bloque pas l'accès des anticorps**. Un anticorps fonctionnellement pertinent mais incapable de traverser la barrière produirait un RPL faussement négatif tout en restant pathogène ailleurs. Cela peut être abordé en mesurant la concentration d'anticorps dans le liquide lacrymal ou l'humeur aqueuse chez un sous-ensemble de participants. Si la pénétration de la barrière est confirmée et que le RPL reste normal, l'hypothèse RCPG dans l'EM/SFC se rétrécirait nettement. Les ressources seraient déplacées vers des cibles d'anticorps non RCPG (ANT, thyroïde, AChR ganglionnaire), qui sont une question distincte non traitée par cette étude. La méthode de pupillométrie, ayant échoué à détecter tout effet fonctionnel, ne serait pas poursuivie comme biomarqueur dans l'EM/SFC — même si elle reste utile dans les affections chevauchantes où elle est déjà validée.
+
+**Important :** un résultat nul de pupillométrie ne réfute pas toute implication des autoanticorps dans l'EM/SFC — seulement l'hypothèse RCPG spécifique qui a été testée.
+
+### Scénario C : Mixte — le RPL anormal seulement dans un sous-ensemble, ou des effets trop faibles pour un usage clinique
+
+Un sous-ensemble de patients positifs aux anticorps présente des anomalies du RPL, mais l'effet est faible, ou le chevauchement entre les groupes est trop important pour un diagnostic individuel. Le RPL peut suivre la dysfonction autonome mais ne peut pas distinguer les anticorps pathogènes des anticorps non pathogènes au niveau individuel.
+
+**Limite d'interprétation :** le scénario C n'est distinguable d'un vrai positif que si un seuil de taille d'effet prédéfini est atteint (par exemple, d de Cohen ≥ 0,5 pour la différence de vitesse de constriction entre les groupes positifs et négatifs aux anticorps). Les effets en dessous de ce seuil devraient être traités comme un résultat nul, pas comme un « soutien partiel ». Sans cette limite, l'hypothèse est infalsifiable [@lakens2013calculating].
+
+**Ce qui change pour les patients :** l'ambiguïté persiste. L'effet du RPL peut être réel mais trop faible pour guider des décisions cliniques individuelles. Des cohortes plus grandes ou des protocoles normalisant les facteurs de confusion seraient nécessaires. La question des autoanticorps anti-RCPG reste ouverte, mais cela favoriserait l'avis que si ces anticorps sont fonctionnels, leur effet est modeste ou restreint à un sous-ensemble étroit.
+
+**Ce qui ne se produit pas dans ce scénario :** aucun test clinique, aucun moniteur de traitement, aucun bioessai spécifique au récepteur, aucune stratification diagnostique au niveau individuel.
+
+---
+
+## Pourquoi c'est important maintenant
+
+Cette lacune de données probantes a une qualité spécifique et inhabituelle. La plupart des lacunes de biomarqueurs dans l'EM/SFC sont coûteuses à combler. Il vous faut la spectrométrie de masse pour la métabolomique. Il vous faut le séquençage pour la génomique. Il vous faut une IRM spécialisée pour la neuroimagerie.
+
+La pupillométrie a besoin d'un appareil à 3 000 €, d'une pièce sombre et de 30 secondes par patient. (Le coût de l'appareil représente environ 1–5 % du coût total de l'étude ; le temps des chercheurs, le recrutement des participants et les tests d'autoanticorps dominent.)
+
+La technologie est approuvée par la FDA. Des données normatives existent. Une validation transversale aux maladies a été faite. La justification mécanistique — des autoanticorps anti-RCPG ciblant exactement les récepteurs qui contrôlent la pupille — est spécifique et réfutable.
+
+Ce qui manque, c'est une étude — précisément, quelqu'un disposant d'une cohorte EM/SFC existante, d'un jeu de données d'autoanticorps anti-RCPG et d'un budget matériel d'environ 3 000 € pour consacrer un an à répondre à une question que le domaine débat depuis une décennie.
+
+---
+
+*Note : cet article s'appuie sur la revue systématique de la littérature et la synthèse des données probantes documentées dans le plan d'intégration de la pupillométrie comme biomarqueur autonome et dans l'intégration formelle dans le document EM/SFC (chapitre 29, Recherche sur les biomarqueurs ; chapitre 8, Dysfonction neurologique ; chapitre 14d, Connexions transversales aux maladies), achevées le 2026-07-09.*
+
+---
+
+## Conclusion clinique
+
+Cet article décrit une hypothèse de recherche, pas un outil clinique. **Aucune action clinique n'est justifiée à l'heure actuelle.** Plus précisément :
+- Ne prescrivez pas de pupillométrie pour les patients atteints d'EM/SFC — elle n'est pas validée pour cette population et il n'existe aucune norme d'interprétation.
+- Ne prescrivez pas de test d'autoanticorps anti-RCPG pour la prise de décision clinique — la controverse sur le dosage (ELISA contre REAP/Luminex) signifie que la signification du résultat est floue.
+- Ne poursuivez pas de thérapie immunomodulatrice (IVIG, immunoadsorption, BC007) sur la base d'un test d'autoanticorps positif — aucune n'est approuvée pour l'EM/SFC et la justification mécanistique n'est pas confirmée.
+- Si un patient pose des questions sur ce sujet, la réponse honnête est : « Nous ne savons pas encore si ces anticorps importent. Une étude est nécessaire. »

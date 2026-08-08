@@ -1,0 +1,98 @@
+---
+title: "Teil 1: Die Genetik hat es geklärt — ME/CFS ist neurologisch"
+description: "Jahrzehntelang tobte die Debatte: Ist ME/CFS autoimmun oder neurologisch? Die bisher größte GWAS hat die Antwort geliefert. Die Risikovarianten wirken in Neuronen, nicht in Immunzellen. Das ändert einiges."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Genetik, Neurologie, Pathophysiologie]
+lang: de
+---
+
+Sie sitzen im Büro eines Neurologen. Sie haben einen Ordner mitgebracht — drei Jahre Symptomtagebücher, zwei Kipptisch-Berichte, einen autonomen Atemtest, eine Schlafstudie mit Alpha-Delta-Intrusion. Der Neurologe wirft einen Blick auf die Unterlagen, legt sie beiseite und sagt: „Ihre Tests sind normal. Haben Sie erwogen, einen Psychiater aufzusuchen?"
+
+Diese Szene hat sich zig Tausende Male wiederholt. Es ist keine Böswilligkeit — es ist Unsicherheit, die sich als Sicherheit ausgibt. Ohne genetischen Anker konnten Ärzte immer zur Nullhypothese zurückkehren: *Wenn wir es nicht im Blut finden, muss es im Kopf sein.* Die größte je durchgeführte genetische Studie zu ME/CFS hat diesen Anker gerade aus dem Wasser gezogen.
+
+---
+
+## Was die GWAS gefunden hat
+
+Das DecodeME-Konsortium unter der Leitung von Li et al. 2025 analysierte rund 5.000 ME/CFS-Fälle gegen Populationskontrollen in der mit Abstand statistisch aussagekräftigsten genomweiten Assoziationsstudie, die je zu dieser Krankheit durchgeführt wurde [@Li2025decodeME]. Die Haupterkenntnis ist kein einziges „ME/CFS-Gen" — es gibt keins. Die Erkenntnis betrifft *den Ort, an dem die genetischen Varianten, die das Risiko erhöhen, exprimiert werden.*
+
+Die Risikovarianten häufen sich überwiegend im **Hirngewebe**, insbesondere in **Neuronen.** Nicht in Mikroglia, nicht in Astrozyten, nicht in Immunzellen. In Neuronen.
+
+Die signifikanteste Zelltyp-Anreicherung fand sich in den **mittelgroßen Stachelneuronen (MSN)** des Striatums — einer spezifischen Neuronpopulation der Basalganglien, die an motorischer Kontrolle, Belohnungsverarbeitung und Aufwand-Belohnungs-Entscheidungen beteiligt ist. Wenn Ihr Gehirn berechnet, ob eine Handlung die Energiekosten wert ist, führen MSN diese Berechnung durch.
+
+---
+
+## Was die Erkenntnis bedeutet
+
+Das beendet den Rahmen „autoimmun vs. neurologisch", der das Feld seit zwei Jahrzehnten gelähmt hat.
+
+**Die Immunbeteiligung ist real, aber sekundär.** ME/CFS-Patienten haben erhöhte Zytokine, Autoantikörper, dysfunktionale NK-Zellen — die Immunpathologie ist messbar und klinisch bedeutsam [@IOM2015]. Aber es ist eine *erworbene* Immun-Dysregulation, keine genetisch gesteuerte Immun-Dysregulation. Die genetische Architektur deutet auf das Gehirn. Das Immunsystem reagiert auf etwas vorgeschaltetes — wahrscheinlich Neuroinflammation, Schadenssignale oder autonome Störungen, die im ZNS entstehen.
+
+**Der primäre Ort der Krankheit ist das Gehirn.** Das ändert, wohin die Forschungsressourcen fließen sollten. Vor der GWAS konnte ein Forscher plausibel argumentieren, dass Zytokin-Panels und Autoantikörper-Tests der vielversprechendste Weg seien. Dieses Argument hat nun ein genetisches Gegenargument: Der Grundriss der Krankheit ist in Neuronen geschrieben. Blut-Biomarker können weiterhin nützlich sein — sie erfassen die Pathologie nachgeschaltet —, aber sie erfassen nicht die Wurzel.
+
+**Das schließt eine Immunbehandlung nicht aus.** Die Unterscheidung ist wichtig. Nur weil die Immunpathologie sekundär ist, heißt das nicht, dass es nutzlos ist, sie anzusteuern. Immunadsorption, Rituximab, niedrig dosiertes Naltrexon — diese können weiterhin wirken, und sie könnten genau deshalb wirken, weil die Unterbrechung des Immun-Nachschalts die Rückkopplungsschleifen durchbrechen kann, die die Krankheit aufrechterhalten. Die Genetik sagt: Das Immunsystem ist ein *aufrechterhaltender Mechanismus*, nicht die *primäre Läsion.* Behandeln Sie es durchaus, aber verwechseln Sie die Behandlung eines aufrechterhaltenden Mechanismus nicht mit der Behandlung der Grundursache.
+
+---
+
+## Das Striatum und die Basalganglien-Hypothese
+
+Die MSN-Anreicherung ist die spezifischste Erkenntnis der GWAS, und sie verbindet direkt mit einer 25 Jahre alten Hypothese.
+
+Chaudhuri und Behan schlugen 2000 vor, dass ME/CFS eine Basalganglien-Dysfunktion beinhaltet, insbesondere eine Störung der dopaminergen Signalübertragung im Striatum, die die Fähigkeit des Gehirns beeinträchtigt, Anstrengung in Handlung zu übersetzen [@Chaudhuri2000basal]. Damals beruhte die Hypothese auf funktioneller Bildgebung, die eine reduzierte striatale Dopamin-Transporterbindung zeigte, sowie auf der klinischen Beobachtung von motorischer Verlangsamung, reduzierter Motivation und Belastungsintoleranz, die nicht zu einer peripheren Muskelpathologie passten.
+
+Die GWAS liefert das genetische Fundament für eine Hypothese, die bislang vollständig auf funktioneller Bildgebung und klinischer Beobachtung beruhte. Das MSN ist der Zelltyp, den die Hypothese vorhergesagt hatte. Die Genetik ist die Fußnote: *Der Mechanismus steckt im Gewebe.*
+
+Aber hier ist die Einschränkung — und sie ist erheblich.
+
+Die MSN-Anreicherung ist nicht ME/CFS-spezifisch. Sie wird mit Schizophrenie, Depression und Alkoholgebrauchsstörung geteilt. Das Striatum scheint ein generischer „Gehirn-Verletzlichkeits"-Knotenpunkt zu sein — wenn sein Schaltkreis beeinträchtigt ist, ist das Ergebnis eine Form von motivationalem, motorischem oder Belohnungsverarbeitungs-Defizit, unabhängig vom vorgeschalteten Auslöser. Die GWAS sagt uns, *wo wir hinschauen sollen* — auf das Striatum —, aber noch nicht, *was darin defekt ist.* Der Zelltyp ist lokalisiert. Der Mechanismus innerhalb dieses Zelltyps nicht.
+
+---
+
+## Was sich für Patienten ändert
+
+Die praktische Auswirkung einer genetischen Erkenntnis in Neuronen ist weder ein Bluttest noch ein Medikament. Sie ist etwas Unmittelbareres: **Munition.**
+
+Das „es ist psychologisch"-Argument verliert seine Grundlage. Eine genetische Erkenntnis, die in Neuronen exprimiert wird, ist keine psychiatrische Erkenntnis. Wenn die genetische Architektur von ME/CFS Neuronen besagt — mittelgroße Stachelneuronen, striatale Schaltkreise, Dopamin-Signalübertragung —, dann hat die Krankheit mehr mit Parkinson gemeinsam als mit Depression. Niemand sagt einem Parkinson-Patienten, er solle „positiv denken" oder „gestuftes Training ausprobieren". Die Genetik macht dieselbe Abweisung bei ME/CFS schwerer.
+
+Das „es ist Dekonditionierung"-Argument verliert ebenfalls an Boden. Dekonditionierung erzeugt kein zelltypspezifisches genetisches Signal im Striatum. Dekonditionierung erzeugt detrainierte Muskulatur — messbar, real, aber sekundär gegenüber der neurologischen Läsion, die Bewegung erst gar nicht möglich macht.
+
+Und das „es ist Gesundheitsangst"-Argument — jenes, das ME/CFS seit dem Royal-Free-Hospital-Ausbruch von 1955 verfolgt [@McEvedy1970] — wird offenkundig unhaltbar. Gesundheitsangst hat kein GWAS-Signal. Das Striatum schon.
+
+---
+
+## Was sich für die Forschung ändert
+
+Die Implikationen für die Ressourcenzuweisung sind klar:
+
+**Neurobildgebung** — funktionelle und strukturelle Bildgebung des Striatums, der Basalganglien-Schaltkreise und der Dopaminbahnen — wird zum wichtigsten nicht-genetischen Forschungsweg. Wenn die Genetik Neuronen sagt, müssen wir sehen, was diese Neuronen tun, in Echtzeit, bei Patienten.
+
+**Liquor-Metabolomik** — insbesondere Neurotransmitter-Metabolite, Dopamin-Umbauprodukte und Zwischenprodukte der striatalen Signalübertragung — wird aufschlussreicher als Zytokin-Panels aus dem Blut. Das Nachgeschaltete ist im Blut; das Vorgeschaltete ist im Liquor.
+
+**Untersuchung der striatalen Schaltkreise** — mit Techniken aus der Bewegungsstörungs-Neurologie (transkranielle Magnetstimulation, EEG-Quellenbildgebung, funktionelle Konnektivitätsanalyse der Basalganglien) — sollte direkt eingesetzt werden.
+
+Das Immunsystem wird zu einem sekundären Forschungsziel: weiterhin wichtig, weiterhin behandelbar, aber nicht mehr der primäre Ort der Untersuchung.
+
+---
+
+## Der Fünfzigtausend-Personen-Elefant im Raum
+
+Die DecodeME-GWAS ist echter Fortschritt. Sie stellt auch eine Grenze dar. Fünftausend Fälle reichen aus, damit die Anreicherungsanalyse robust ist — aber sie reichen nicht für das Fine-Mapping, die Gen-Assoziation und die Pathway-Analyse, die uns sagen würden, *welche spezifischen Mechanismen innerhalb der MSN* gestört sind.
+
+Das ME/CFS-Feld braucht eine GWAS mit fünfzigtausend Personen. Diese Zahl ist nötig gewesen, damit Schizophrenie, Depression und bipolare Störung von „wir wissen, es ist genetisch" zu „wir wissen, welche biologischen Bahnen defekt sind" gelangen [@SchizophreniaWGPConsortium2014]. Das DecodeME-Konsortium liefert die Richtung. Die Finanzierung des nächsten Ausbaus würde das Ziel liefern.
+
+---
+
+## Sicherheitseinschätzung
+
+| Behauptung | Sicherheit |
+|-------|-----------|
+| ME/CFS-Risikovarianten sind im Hirngewebe (Neuronen) gegenüber Immunzellen angereichert | Sehr hoch — primäres GWAS-Ergebnis, statistisch robust |
+| Mittelgroße Stachelneuronen sind der am stärksten angereicherte Zelltyp | Hoch — gestützt durch Zelltyp-Anreicherungsanalyse, obwohl abhängig vom Referenzdatensatz |
+| Das schließt eine primär genetische Immun-Dysfunktion aus | Hoch — Immun-Anreicherung fehlt trotz ausreichender Power |
+| Das etabliert das Gehirn als primären Krankheitsort | Mittel — Genetik deutet auf Gehirn; erfordert konvergierende Belege aus Funktionsstudien |
+| Striatale MSN-Anreicherung ist ME/CFS-spezifisch | Niedrig — geteilt mit Schizophrenie, Depression, Alkoholgebrauchsstörung |
+| Die Genetik verändert die klinische Praxis | Niedrig — noch kein diagnostischer Test oder Behandlungsziel aus dieser Erkenntnis |
+| Skalierung auf über 50.000 Fälle würde spezifische gestörte Bahnen identifizieren | Mittel bis hoch — basierend auf analogen Fortschritten in der psychiatrischen Genetik |
+
+*Beitrag 1 von 4 der DecodeME-GWAS-Reihe. Weiter: [Das Striatum ist der Flaschenhals](../striatum-bottleneck/) · [Parkinson-Medikamente bei ME/CFS?](../dopamine-rational-mechanism/) · [Das Striatum gehört nicht uns](../msn-specificity-caveat/)*
