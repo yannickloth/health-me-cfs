@@ -1,0 +1,128 @@
+---
+title: "Partie 1 : Pourquoi plus n'est pas mieux — le paradoxe de la relation dose-réponse dans le LDN et le LDA"
+description: "Vous avez enfin trouvé une dose qui fonctionne. Votre médecin suggère de la doubler — après tout, si un peu aide, plus devrait aider davantage. Mais pour le LDN et le LDA, cette logique est inversée. Voici le mécanisme qui explique pourquoi augmenter la dose peut vous faire empirer."
+author: "Yannick Loth"
+date: "2026-07-27"
+categories: [Traitement, Pharmacologie, EM/SFC]
+lang: fr
+---
+
+Vous prenez 0,5 mg de naltrexone à faible dose depuis trois mois. Le brouillard cérébral s'est dissipé. L'inflammation généralisée — cette sensation empoisonnée, semblable à une grippe — est redevenue un bruit de fond. Pour la première fois depuis des années, vous arrivez à lire un chapitre de livre. Vous apportez ce compte-rendu à votre médecin.
+
+« C'est formidable, dit-elle. Essayons 4,5 mg pour voir si vous obtenez encore plus de bénéfices. »
+
+Vous obéissez. En une semaine, le brouillard revient. Le malaise revient. La chose qui fonctionnait a cessé de fonctionner — et vous n'avez pas changé de médicament, vous avez simplement augmenté la dose.
+
+Cette expérience est assez courante dans les communautés EM/SFC pour avoir reçu une explication populaire : *commencer bas et aller lentement.* L'explication populaire a raison. Ce qu'elle ne vous dit pas, c'est *pourquoi* — et pourquoi comprendre ce pourquoi change tout dans la façon dont vous pensez à votre propre traitement.
+
+---
+
+## LDN : quatre médicaments en un, chacun avec sa propre dose
+
+L'explication standard du LDN est qu'il bloque les récepteurs TLR4 sur la microglie, réduisant la neuroinflammation. C'est vrai. C'est aussi insuffisant. Le LDN touche en réalité quatre cibles, et chaque cible a une concentration optimale différente.
+
+**TLR4 → amorçage hormétique via Nrf2 (0,5–1,5 mg).** À très faible dose, le LDN bloque *partiellement* le TLR4 — et le blocage partiel est la clé. La cellule détecte la réduction de la signalisation TLR4 et compense en augmentant Nrf2, un facteur de transcription maître qui active des dizaines de gènes anti-inflammatoires et antioxydants. La microglie passe de l'état M1 (pro-inflammatoire, qui libère des cytokines) à l'état M2 (anti-inflammatoire, qui élimine les débris). C'est l'hormèse : le léger stress du blocage partiel des récepteurs déclenche une réponse adaptative plus importante que le blocage lui-même.
+
+Mais ce mécanisme exige un certain tonus TLR4 résiduel. Si le TLR4 est bloqué de façon trop complète, la cellule ne détecte plus le stress, et l'augmentation compensatoire de Nrf2 s'arrête. Le bénéfice hormétique ne s'estompe pas — il s'effondre. Passer le LDN de 1,5 mg à 3,0 mg peut faire la différence entre un programme anti-inflammatoire actif et un programme silencieux.
+
+**Augmentation compensatoire des opioïdes (1,5–3,0 mg).** Le LDN bloque aussi les récepteurs opioïdes, et le corps réagit en augmentant la production d'opioïdes endogènes — la bêta-endorphine et la met-enképhaline. Cette compensation est transcriptionnelle : la cellule lit la signalisation opioïde réduite et écrit des instructions pour fabriquer davantage de précurseurs opioïdes. Le plafond est fixé par la vitesse à laquelle la cellule peut produire ces précurseurs, non par la quantité de LDN que vous prenez.
+
+**Restauration du canal ionique TRPM3 (dose incertaine, probablement 3,0–4,5 mg in vivo).** TRPM3 est un canal calcique exprimé sur les cellules NK et les neurones sensoriels. Sa fonction est altérée dans l'EM/SFC — répliquée indépendamment dans plusieurs laboratoires. Le LDN restaure le flux calcique de TRPM3 in vitro, probablement en supprimant un signal inhibiteur médié par les récepteurs opioïdes. La concentration requise pour la restauration de TRPM3 semble plus élevée que pour l'hormèse TLR4.
+
+**Désinhibition de l'orexine (suit la relation dose-réponse du TLR4 dans l'hypothalamus).** Le LDN supprime un signal inhibiteur tonique sur les neurones à orexine, qui régulent l'éveil et l'équilibre énergétique. Cela peut contribuer à la sensation d'être « surexcité » que certains patients rapportent à des doses plus élevées de LDN — le signal de l'orexine est désinhibé tandis que le programme anti-inflammatoire perd simultanément son assise.
+
+### La conséquence clinique
+
+Ces quatre mécanismes ont des optimums de dose qui ne se chevauchent pas. La « bonne dose » varie d'un patient à l'autre parce que le mécanisme dominant de chaque patient est différent.
+
+Un patient dont les symptômes sont entraînés par la neuroinflammation médiée par le TLR4 obtient un bénéfice à 0,5–1,5 mg et le perd à 3,0 mg et au-delà. Le médecin qui fait passer une dose efficace de 1,5 mg à 4,5 mg n'a pas trouvé une « dose efficace plus élevée » — elle a éteint le mécanisme qui fonctionnait et l'a remplacé par un profil de médicament différent dont le patient n'a peut-être pas besoin.
+
+Un patient dont les symptômes sont entraînés par une canalopathie TRPM3 peut n'obtenir aucun résultat à 0,5 mg parce que la restauration de TRPM3 ne s'est pas encore déclenchée. Il lui faut 3,0–4,5 mg. Le médecin qui le démarre à 0,5 mg et conclut que « le LDN ne fonctionne pas » peut avoir tort — la dose était simplement en deçà de ce que le mécanisme exige.
+
+Un patient avec une réponse en forme de M — bénéfice à 0,5 mg, perte à 1,5 mg, retour à 4,5 mg — a deux mécanismes limitants que le même médicament peut cibler à des doses différentes. Aucune dose isolée ne saisirait le tableau complet. Ce schéma est prédit par le modèle multi-cibles mais n'a jamais été testé de façon prospective.
+
+---
+
+## Il n'y a aucune raison d'aller au-delà de 4,5 mg
+
+C'est la partie qu'il faut énoncer explicitement, parce que la logique intuitive est puissante et fausse.
+
+La naltrexone à dose standard est de 50 mg. À cette dose, la naltrexone est un antagoniste complet des récepteurs mu-opioïdes — elle bloque l'augmentation compensatoire des endorphines qui maintenait l'humeur et la régulation de la douleur. Le bénéfice s'inverse non pas parce que la courbe dose-réponse a repris sa descente, mais parce qu'un récepteur complètement différent est engagé. Sélection de cible dépendante de la dose : à 0,5–4,5 mg vous modulez le TLR4, le TRPM3 et le tonus opioïde ; à 50 mg vous bloquez les récepteurs opioïdes d'emblée. Aucun patient dont le mécanisme thérapeutique est l'hormèse TLR4/Nrf2, l'augmentation opioïde ou la restauration de TRPM3 ne bénéficie d'un blocage opioïde complet.
+
+Et le fait de doubler — par exemple, passer de 4,5 à 9 mg ? C'est le pire des deux mondes. L'hormèse TLR4/Nrf2 est déjà complètement éteinte à 3,0 mg. La restauration de TRPM3 est saturée aux concentrations atteintes par 4,5 mg. L'augmentation compensatoire des opioïdes a atteint son plafond de précurseurs endogènes. La désinhibition de l'orexine suit la relation dose-réponse du TLR4 et s'éteint de même. Il n'existe aucun cinquième mécanisme avec un optimum de dose au-dessus de 4,5 mg. Doubler à 9 mg pousse les quatre mécanismes au-delà de leurs optimums simultanément, s'approchant de la plage des 50 mg où l'antagonisme des récepteurs mu prédomine, sans engager aucune nouvelle cible thérapeutique. Chaque mécanisme qui pouvait aider est disparu, et le mécanisme qui va nuire se rapproche.
+
+---
+
+## LDA : la même forme de courbe, un mécanisme complètement différent
+
+L'aripiprazole à faible dose (0,2–2 mg) n'est pas de l'hormèse. C'est un agoniste partiel en U inversé — une propriété d'occupation des récepteurs qui s'applique à toute population présentant un déficit en dopamine, pas spécifiquement à l'EM/SFC.
+
+L'aripiprazole a environ 25 % d'activité intrinsèque au récepteur D2 de la dopamine. À faible dose et à faible occupation des récepteurs, il fournit un *agonisme net* — il active les récepteurs D2, renforçant le tonus dopaminergique là où il est déficient. À mesure que la dose augmente et que l'occupation dépasse environ 50 %, l'agoniste partiel entre en compétition avec la dopamine endogène pour la liaison au récepteur. Comme l'activité intrinsèque de l'aripiprazole est inférieure à celle de la dopamine, l'effet net s'inverse : l'agoniste partiel bloque un signal naturel plus efficace, produisant un antagonisme net.
+
+Bénéfice à 0,2–2 mg. Préjudice à 5–30 mg — la plage de doses psychiatriques standard. À ces doses, l'occupation de D2 dépasse 80 %, le patient développe une akathisie, une anhédonie et un syndrome métabolique — l'inverse de ce que l'on veut dans une maladie déjà caractérisée par un déficit en dopamine.
+
+### Les trois niveaux d'action du LDA, tous en dessous de 2 mg
+
+Le LDA agit sur trois populations distinctes aux doses micro :
+
+**D2/D3 microglial (≤1 mg).** L'agonisme de type D2 supprime la libération de cytokines pro-inflammatoires, la production d'oxyde nitrique et les espèces réactives de l'oxygène par la microglie amorcée. Le médicament agit comme un modulateur de seuil : il élève le seuil d'activation de sorte que les signaux d'effort qui déclenchent normalement une cascade neuro-inflammatoire post-effort ne passent plus dans le territoire symptomatique.
+
+**D2/D3 mésocorticolimbique (≤2 mg).** L'agonisme partiel restaure la signalisation dopaminergique tonique dans les circuits préfrontaux et hippocampiques, améliorant la cognition, la motivation et la tolérance à l'effort.
+
+**Autorécepteurs 5-HT1A (≤2 mg).** L'agonisme partiel aux autorécepteurs 5-HT1A de la sérotonine dans les noyaux du raphé réduit le tonus sérotoninergique, avec une stabilisation en aval du système nerveux autonome.
+
+Les trois mécanismes ont des optimums de dose inférieurs à 2 mg. Au-dessus de 2 mg, de nouveaux récepteurs s'engagent — antagonisme 5-HT2A, blocage H1, antagonisme α1 — qui ne sont pas des cibles thérapeutiques dans l'EM/SFC et n'ajoutent que des effets secondaires.
+
+### Pourquoi doubler ne trouve pas de nouvelle fenêtre
+
+À 2 mg, l'occupation de D2 approche déjà le point d'inversion — l'agonisme net diminue. À 4 mg, l'occupation se situe clairement dans la plage dominée par l'antagonisme. La suppression des cytokines médiée par le D2 microglial est perdue. La restauration du tonus mésocorticolimbique est perdue. La signalisation dopaminergique nette chute sous la ligne de base. Les trois niveaux d'action qui rendaient le médicament thérapeutique à 0,2–2 mg sont éteints, et les nouveaux engagements de récepteurs (5-HT2A, H1, α1) produisent sédation, prise de poids et aggravation orthostatique — tous activement nocifs dans l'EM/SFC.
+
+Il n'existe pas de quatrième niveau. Il n'existe aucun mécanisme thérapeutique qui s'engage à 3 mg mais pas à 2 mg. Doubler le LDA ne trouve pas de nouveau mécanisme — il éteint les trois qui fonctionnaient et active des récepteurs qui aggravent la maladie.
+
+---
+
+## LDN + LDA ensemble : complémentaires, pas redondants
+
+C'est ici que la logique diagnostique devient stratégie clinique.
+
+Le LDN bloque le TLR4 sur la microglie. Le LDA stimule le D2 sur la microglie. Ce sont des récepteurs différents sur la même population cellulaire, convergeant vers la même machinerie de production de cytokines par des voies de signalisation différentes.
+
+Un patient totalement non-répondeur au LDN peut néanmoins répondre de façon spectaculaire au LDA — non pas parce que le LDN était la mauvaise hypothèse, mais parce que le TLR4 n'est pas l'entrée limitante sur sa microglie. L'agonisme D2 supprime la production de cytokines par une voie différente. La non-réponse au LDN suivie d'une réponse au LDA n'est pas une preuve contre la neuroinflammation. C'est une preuve *pour* l'implication microgliale, à travers un récepteur que le LDN ne touche pas.
+
+Un patient qui répond aux deux présente une implication microgliale multi-récepteurs — les voies TLR4 *et* D2 contribuent toutes deux. Le traitement combiné peut être synergique : le LDN réduit un facteur pro-inflammatoire pendant que le LDA élève le seuil d'activation sur tous les facteurs simultanément.
+
+---
+
+## Ce que cela signifie pour les patients
+
+La sagesse populaire — « commencer bas et aller lentement » — se révèle mécanistiquement précise. Mais le mécanisme ajoute quelque chose que la sagesse populaire n'apporte pas : **la recherche de dose est diagnostique.**
+
+Si vous bénéficiez de 0,5–1,5 mg de LDN et perdez le bénéfice à 3,0+ mg, votre mécanisme dominant est l'hormèse TLR4/Nrf2. Votre neuroinflammation est entraînée par le TLR4 et votre microglie est réactive à Nrf2. Cela prédit une réponse à d'autres médicaments activant Nrf2 (sulforaphane, mélatonine, lithium à faible dose).
+
+Si vous bénéficiez uniquement de 3,0–4,5 mg et n'obtenez rien en dessous, votre mécanisme dominant est le TRPM3 ou les opioïdes. Votre pathologie se situe au niveau des canaux ioniques, pas de l'inflammation. Des médicaments qui réduisent l'inflammation sans toucher à TRPM3 peuvent ne pas aider.
+
+Si vous bénéficiez sur toute la plage de LDN sans perdre le bénéfice à 4,5 mg, votre mécanisme dominant est l'augmentation compensatoire des opioïdes. Le bénéfice ne s'inverse pas à 4,5 mg parce que l'augmentation opioïde, contrairement au TLR4/Nrf2, n'exige pas de tonus résiduel — elle est entraînée par le blocage des récepteurs lui-même.
+
+Si vous perdez le bénéfice du LDA lorsque vous passez de 1 mg à 2 mg, votre réserve de récepteurs D2 est étroite — peu de récepteurs, et l'agonisme de chacun compte. Si votre bénéfice persiste jusqu'à 2 mg, votre réserve de récepteurs est large.
+
+Aucun de ces éléments ne nécessite un biomarqueur. La courbe dose-réponse *est* l'indicateur.
+
+---
+
+## Estimation de certitude
+
+| Affirmation | Certitude |
+|-------|-----------|
+| Le LDN a des optimums de dose non chevauchants sur quatre cibles | Modérée — mécanistiquement fondée (hormèse TLR4/Nrf2, compensation opioïde, restauration TRPM3, désinhibition de l'orexine, toutes documentées indépendamment) mais aucun essai de relation dose-réponse dans la plage n'existe dans aucune condition |
+| Le bénéfice hormétique TLR4/Nrf2 est perdu lorsque le TLR4 est trop bloqué | Modérée — soutenue par la littérature sur l'hormèse Nrf2 (corpus de Calabrese) et la dépendance à la dose de la transition microgliale M1→M2 in vitro ; jamais testée de façon prospective dans le LDN |
+| Le LDA suit un U inversé d'agoniste partiel | Élevée — propriété d'occupation des récepteurs, non spécifique à l'EM/SFC ; s'applique à toute population déficiente en dopamine |
+| Le LDA perd son action thérapeutique au-dessus de 2 mg | Modérée — les modèles d'occupation de D2 prédisent l'inversion au-delà d'environ 50 % ; l'étude pilote de Crosby 2021 a trouvé un bénéfice uniquement à ≤2 mg |
+| La forme de la courbe dose-réponse est diagnostique du mécanisme dominant | Faible — prédite par le modèle multi-cibles ; jamais testée ; la première confirmation prospective exige un essai croisé de relation dose-réponse du LDN à quatre bras |
+| Il n'existe aucun mécanisme thérapeutique au-dessus de 4,5 mg de LDN ou au-dessus de 2 mg de LDA | Modérée — les profils d'engagement des cibles sont connus ; tous les engagements de récepteurs supplémentaires au-dessus de ces plafonds sont soit neutres, soit nocifs pour les cibles thérapeutiques EM/SFC connues |
+| La non-réponse au LDN suivie d'une réponse au LDA confirme l'implication microgliale | Faible — mécanistiquement cohérente (le TLR4 et le D2 sont des récepteurs différents sur la même cellule) mais jamais testée de façon prospective |
+
+---
+
+*Cet article s'appuie sur le cadre de l'hormèse développé dans [Loth 2026](https://yannickloth.github.io/health-me-cfs/). L'analyse de la relation dose-réponse du LDN a été déclenchée par une observation clinique de Kevin Lee (communication personnelle, juillet 2026) ; l'extension à 17 médicaments a été déclenchée par l'observation de Yannick L. que la même logique s'applique au LDA et à d'autres médicaments à faible dose. Pour l'analyse complète de la cascade mécanistique — y compris la cascade de relation dose-réponse multi-cibles du LDN, le schéma diagnostique en U inversé sur 17 médicaments et la spécification de l'étude HIP-B — voir l'article principal.*
+
+*Articles liés : [Le U inversé n'est pas une seule chose : quatre façons dont un médicament peut cesser de fonctionner quand vous augmentez la dose](../inverted-u-not-one-thing/) · [Votre dose de LDN est un diagnostic](../dose-is-diagnostic-ldn/)*

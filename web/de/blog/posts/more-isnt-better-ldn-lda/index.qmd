@@ -1,0 +1,128 @@
+---
+title: "Teil 1: Warum mehr nicht besser ist — das Dosis-Wirkungs-Paradoxon bei LDN und LDA"
+description: "Sie haben endlich eine Dosis gefunden, die wirkt. Ihr Arzt schlägt vor, sie zu verdoppeln — schließlich sollte, wenn ein wenig hilft, mehr auch mehr helfen. Doch bei LDN und LDA ist diese Logik auf den Kopf gestellt. Hier ist der Mechanismus, der erklärt, warum eine höhere Dosis Sie schlechter machen kann."
+author: "Yannick Loth"
+date: "2026-07-27"
+categories: [Behandlung, Pharmakologie, ME/CFS]
+lang: de
+---
+
+Sie nehmen seit drei Monaten 0,5 mg niedrigdosiertes Naltrexon. Der Gehirnnebel hat sich gelichtet. Die körperweite Entzündung — dieses vergiftete, grippeähnliche Gefühl — ist zum Hintergrundgeräusch geworden. Zum ersten Mal seit Jahren können Sie ein Buchkapitel lesen. Sie bringen diesen Bericht zu Ihrem Arzt.
+
+„Das ist großartig", sagt sie. „Versuchen wir 4,5 mg und schauen wir, ob Sie noch mehr Nutzen daraus ziehen."
+
+Sie fügen sich. Innerhalb einer Woche kehrt der Nebel zurück. Das Unwohlsein kehrt zurück. Die Sache, die funktionierte, hat aufgehört zu funktionieren — und Sie haben das Medikament nicht gewechselt, Sie haben nur die Dosis erhöht.
+
+Diese Erfahrung ist in den ME/CFS-Gemeinschaften häufig genug, um eine volkstümliche Erklärung erhalten zu haben: *fangen Sie niedrig an und gehen Sie langsam vor.* Die volkstümliche Erklärung hat recht. Was sie Ihnen nicht sagt, ist *warum* — und warum das Verständnis des Warum alles daran ändert, wie Sie über Ihre eigene Behandlung denken.
+
+---
+
+## LDN: vier Medikamente in einem, jedes mit seiner eigenen Dosis
+
+Die Standarderklärung für LDN lautet, dass es TLR4-Rezeptoren auf der Mikroglia blockiert und so die Neuroinflammation reduziert. Das stimmt. Es ist auch unzureichend. LDN trifft tatsächlich vier Ziele, und jedes Ziel hat eine andere optimale Konzentration.
+
+**TLR4 → hormetisches Priming über Nrf2 (0,5–1,5 mg).** Bei sehr niedrigen Dosen blockiert LDN TLR4 *teilweise* — und die teilweise Blockade ist der Schlüssel. Die Zelle erkennt die reduzierte TLR4-Signalübertragung und kompensiert, indem sie Nrf2 hochreguliert, einen Master-Transkriptionsfaktor, der Dutzende von entzündungshemmenden und antioxidativen Genen aktiviert. Die Mikroglia wechselt von M1 (pro-inflammatorisch, Zytokine freisetzend) zu M2 (anti-inflammatorisch, Trümmer beseitigend). Das ist Hormesis: Der milde Stress einer teilweisen Rezeptorblockade löst eine adaptive Antwort aus, die größer ist als die Blockade selbst.
+
+Doch dieser Mechanismus erfordert einen gewissen Resttonus von TLR4. Wenn TLR4 zu vollständig blockiert ist, erkennt die Zelle den Stress nicht mehr, und die kompensatorische Nrf2-Hochregulierung schaltet sich ab. Der hormetische Nutzen verblasst nicht — er kollabiert. Die Erhöhung von LDN von 1,5 mg auf 3,0 mg kann den Unterschied zwischen einem aktiven anti-inflammatorischen Programm und einem stillen Programm ausmachen.
+
+**Kompensatorische Hochregulierung der Opioide (1,5–3,0 mg).** LDN blockiert auch Opioidrezeptoren, und der Körper reagiert, indem er die Produktion endogener Opioide erhöht — Beta-Endorphin und Met-Enkephalin. Diese Kompensation ist transkriptionell: Die Zelle liest die reduzierte Opioidsignalübertragung und schreibt Anweisungen für mehr Opioidvorläufer. Die Obergrenze wird bestimmt durch die Geschwindigkeit, mit der die Zelle diese Vorläufer produzieren kann, nicht durch die Menge an LDN, die Sie einnehmen.
+
+**Wiederherstellung des Ionenkanals TRPM3 (Dosis ungewiss, wahrscheinlich 3,0–4,5 mg in vivo).** TRPM3 ist ein Kalziumkanal, der auf natürlichen Killerzellen und sensorischen Neuronen exprimiert wird. Seine Funktion ist bei ME/CFS beeinträchtigt — in mehreren Laboren unabhängig repliziert. LDN stellt den TRPM3-Kalziumfluss in vitro wieder her, wahrscheinlich durch die Beseitigung eines opioidrezeptorvermittelten inhibitorischen Signals. Die für die TRPM3-Wiederherstellung erforderliche Konzentration scheint höher zu sein als für die TLR4-Hormesis.
+
+**Orexin-Dishibition (folgt der TLR4-Dosis-Wirkung im Hypothalamus).** LDN entfernt ein tonisches inhibitorisches Signal auf Orexin-Neuronen, die Wachheit und Energiehaushalt regulieren. Dies könnte zu dem „aufgedrehten" Gefühl beitragen, das einige Patienten bei höheren LDN-Dosen berichten — das Orexin-Signal wird disinhibiert, während das anti-inflammatorische Programm gleichzeitig an Halt verliert.
+
+### Die klinische Konsequenz
+
+Diese vier Mechanismen haben sich nicht überschneidende Dosisoptima. Die „richtige Dosis" variiert von Patient zu Patient, weil der dominante Mechanismus jedes Patienten unterschiedlich ist.
+
+Ein Patient, dessen Symptome durch TLR4-vermittelte Neuroinflammation angetrieben werden, erzielt einen Nutzen bei 0,5–1,5 mg und verliert ihn bei 3,0 mg und darüber. Der Arzt, der eine wirksame 1,5-mg-Dosis auf 4,5 mg anhebt, hat keine „höhere wirksame Dosis" gefunden — sie hat den Mechanismus ausgelöscht, der funktionierte, und durch ein anderes Medikamentenprofil ersetzt, das der Patient vielleicht braucht und vielleicht nicht.
+
+Ein Patient, dessen Symptome durch eine TRPM3-Kanalopathie angetrieben werden, erzielt möglicherweise bei 0,5 mg nichts, weil die TRPM3-Wiederherstellung noch nicht eingesetzt hat. Er braucht 3,0–4,5 mg. Der Arzt, der ihn mit 0,5 mg startet und schlussfolgert, dass „LDN nicht wirkt", könnte falschliegen — die Dosis lag unterhalb der für den Mechanismus erforderlichen Dosis.
+
+Ein Patient mit einer M-förmigen Antwort — Nutzen bei 0,5 mg, Verlust bei 1,5 mg, Rückkehr bei 4,5 mg — hat zwei geschwindigkeitsbestimmende Mechanismen, die das gleiche Medikament bei unterschiedlichen Dosen adressieren kann. Keine der beiden Dosen allein würde das vollständige Bild erfassen. Dieses Muster wird vom Multitarget-Modell vorhergesagt, wurde aber nie prospektiv getestet.
+
+---
+
+## Es gibt keinen Grund, über 4,5 mg hinauszugehen
+
+Dies ist der Teil, der explizit ausgesprochen werden muss, weil die intuitive Logik stark und falsch ist.
+
+Naltrexon in Standarddosis beträgt 50 mg. Bei dieser Dosis ist Naltrexon ein vollständiger Mu-Opioid-Antagonist — es blockiert die kompensatorische Endorphin-Hochregulierung, die Stimmung und Schmerzregulation aufrechterhielt. Der Nutzen kehrt sich nicht deshalb um, weil eine Dosis-Wirkungs-Kurve wieder nach unten abfällt, sondern weil ein völlig anderer Rezeptor beansprucht wird. Dosisabhängige Zielselektion: Bei 0,5–4,5 mg modulieren Sie TLR4, TRPM3 und den Opioidtonus; bei 50 mg blockieren Sie Opioidrezeptoren vollständig. Kein Patient, dessen therapeutischer Mechanismus TLR4/Nrf2-Hormesis, Opioidhochregulierung oder TRPM3-Wiederherstellung ist, profitiert von einer vollständigen Opioidblockade.
+
+Was ist mit dem Verdoppeln — sagen wir, von 4,5 auf 9 mg? Das ist das Schlimmste aus beiden Welten. Die TLR4/Nrf2-Hormesis ist bei 3,0 mg bereits vollständig ausgelöscht. Die TRPM3-Wiederherstellung ist bei den durch 4,5 mg erreichten Konzentrationen gesättigt. Die kompensatorische Hochregulierung der Opioide hat ihre endogene Vorläufer-Obergrenze erreicht. Die Orexin-Dishibition folgt der TLR4-Dosis-Wirkung und schaltet sich ebenfalls ab. Es gibt keinen fünften Mechanismus mit einem Dosisoptimum über 4,5 mg. Das Verdoppeln auf 9 mg treibt alle vier Mechanismen gleichzeitig über ihre Optima hinaus, nähert sich dem 50-mg-Bereich, in dem die Mu-Opioid-Antagonie dominiert, ohne ein neues therapeutisches Ziel zu beanspruchen. Jeder Mechanismus, der helfen könnte, ist verschwunden, und der Mechanismus, der schaden wird, nähert sich.
+
+---
+
+## LDA: dieselbe Kurvenform, ein völlig anderer Mechanismus
+
+Niedrigdosiertes Aripiprazol (0,2–2 mg) ist keine Hormesis. Es ist ein partieller Agonist mit umgekehrtem U — eine Rezeptorbesetzungs-Eigenschaft, die in jeder Population mit Dopaminmangel gilt, nicht spezifisch bei ME/CFS.
+
+Aripiprazol hat etwa 25 % intrinsische Aktivität am Dopamin-D2-Rezeptor. Bei niedrigen Dosen und geringer Rezeptorbesetzung liefert es *Nettogonismus* — es aktiviert D2-Rezeptoren und steigert den Dopamin-Tonus dort, wo er defizient ist. Wenn die Dosis steigt und die Besetzung etwa 50 % überschreitet, konkurriert der partielle Agonist mit endogenem Dopamin um die Rezeptorbindung. Da die intrinsische Aktivität von Aripiprazol niedriger ist als die von Dopamin, kehrt sich der Nettoeffekt um: Der partielle Agonist blockiert ein wirksameres natürliches Signal und erzeugt Nettoantagonismus.
+
+Nutzen bei 0,2–2 mg. Schaden bei 5–30 mg — dem Standardbereich der psychiatrischen Dosen. Bei diesen Dosen übersteigt die D2-Besetzung 80 %, der Patient bekommt Akathisie, Anhedonie und metabolisches Syndrom — das Gegenteil dessen, was man bei einer Krankheit will, die bereits durch Dopaminmangel gekennzeichnet ist.
+
+### Die drei Wirkebenen von LDA, alle unter 2 mg
+
+LDA wirkt auf drei verschiedene Populationen auf Mikrodosis-Ebene:
+
+**Mikroglia-D2/D3 (≤1 mg).** D2-ähnlicher Agonismus unterdrückt die Freisetzung pro-inflammatorischer Zytokine, die Produktion von Stickstoffmonoxid und reaktiver Sauerstoffspezies aus primierter Mikroglia. Das Medikament wirkt als Schwellenmodulator: Es erhöht die Aktivierungsschwelle, sodass Belastungssignale, die normalerweise eine post-exertionelle neuroinflammatorische Kaskade auslösen, nicht mehr in symptomatisches Territorium eintreten.
+
+**Mesokortikolimbisches D2/D3 (≤2 mg).** Partieller Agonismus stellt die tonische Dopamin-Signalübertragung in präfrontalen und hippokampalen Schaltkreisen wieder her und verbessert Kognition, Motivation und Belastungstoleranz.
+
+**5-HT1A-Autorezeptoren (≤2 mg).** Partieller Agonismus an Serotonin-5-HT1A-Autorezeptoren in den Raphe-Kernen reduziert den serotonergen Tonus, mit nachgelagerter Stabilisierung des autonomen Nervensystems.
+
+Alle drei Mechanismen haben Dosisoptima unter 2 mg. Über 2 mg werden neue Rezeptoren beansprucht — 5-HT2A-Antagonismus, H1-Blockade, α1-Antagonismus — die bei ME/CFS keine therapeutischen Ziele sind und nur Nebenwirkungen mit sich bringen.
+
+### Warum das Verdoppeln kein neues Fenster findet
+
+Bei 2 mg erreicht die D2-Besetzung bereits den Umkehrpunkt — der Nettogonismus lässt nach. Bei 4 mg liegt die Besetzung deutlich im antagonistisch dominierten Bereich. Die mikrogliale D2-vermittelte Zytokinunterdrückung geht verloren. Die Wiederherstellung des mesokortikolimbischen Tonus geht verloren. Die Netto-Dopamin-Signalübertragung fällt unter den Ausgangswert. Die drei Wirkebenen, die das Medikament bei 0,2–2 mg therapeutisch machten, sind ausgelöscht, und die neuen Rezeptorbindungen (5-HT2A, H1, α1) erzeugen Sedierung, Gewichtszunahme und orthostatische Verschlechterung — allesamt bei ME/CFS aktiv schädlich.
+
+Es gibt keine vierte Ebene. Es gibt keinen therapeutischen Mechanismus, der bei 3 mg, aber nicht bei 2 mg beansprucht wird. Das Verdoppeln von LDA findet keinen neuen Mechanismus — es löscht die drei aus, die funktionierten, und aktiviert Rezeptoren, die die Krankheit verschlimmern.
+
+---
+
+## LDN + LDA zusammen: komplementär, nicht redundant
+
+Hier wird die diagnostische Logik zur klinischen Strategie.
+
+LDN blockiert TLR4 auf der Mikroglia. LDA stimuliert D2 auf der Mikroglia. Dies sind verschiedene Rezeptoren auf derselben Zellpopulation, die über verschiedene Signalwege auf dieselbe Zytokin-Ausgabe-Maschinerie konvergieren.
+
+Ein Patient, der ein vollständiger LDN-Nonresponder ist, kann dennoch dramatisch auf LDA ansprechen — nicht, weil LDN der falsche Ansatz war, sondern weil TLR4 nicht der geschwindigkeitsbegrenzende Eingang auf seiner Mikroglia ist. D2-Agonismus unterdrückt die Zytokinproduktion über einen anderen Weg. LDN-Nonresponse gefolgt von LDA-Response ist kein Beweis gegen die Neuroinflammation. Es ist ein Beweis *für* die Beteiligung der Mikroglia, über einen Rezeptor, den LDN nicht berührt.
+
+Ein Patient, der auf beide anspricht, hat eine Mehr-Rezeptor-Mikroglia-Beteiligung — die TLR4- *und* die D2-Pfade tragen beide bei. Eine kombinierte Behandlung kann synergistisch sein: LDN reduziert einen pro-inflammatorischen Input, während LDA die Aktivierungsschwelle aller Inputs gleichzeitig erhöht.
+
+---
+
+## Was das für Patienten bedeutet
+
+Die Volksweisheit — „fangen Sie niedrig an und gehen Sie langsam vor" — erweist sich als mechanistisch präzise. Aber der Mechanismus fügt etwas hinzu, das die Volksweisheit nicht bietet: **Dosisfindung ist diagnostisch.**
+
+Wenn Sie von 0,5–1,5 mg LDN profitieren und den Nutzen bei 3,0+ mg verlieren, ist Ihr dominanter Mechanismus die TLR4/Nrf2-Hormesis. Ihre Neuroinflammation ist TLR4-getrieben und Ihre Mikroglia ist Nrf2-responsiv. Dies sagt eine Reaktion auf andere Nrf2-aktivierende Medikamente voraus (Sulforaphan, Melatonin, niedrigdosiertes Lithium).
+
+Wenn Sie nur von 3,0–4,5 mg profitieren und darunter nichts erzielen, ist Ihr dominanter Mechanismus TRPM3 oder opioid. Ihre Pathologie liegt auf Ionenkanal-Ebene, nicht entzündungsgetrieben. Medikamente, die die Entzündung reduzieren, ohne TRPM3 zu berühren, helfen möglicherweise nicht.
+
+Wenn Sie über den gesamten LDN-Bereich profitieren, ohne bei 4,5 mg Nutzen zu verlieren, ist Ihr dominanter Mechanismus die kompensatorische Opioid-Hochregulierung. Der Nutzen kehrt sich bei 4,5 mg nicht um, weil die Opioid-Hochregulierung, anders als TLR4/Nrf2, keinen Resttonus erfordert — sie wird durch die Rezeptorblockade selbst angetrieben.
+
+Wenn Sie den LDA-Nutzen verlieren, wenn Sie von 1 mg auf 2 mg gehen, ist Ihre D2-Rezeptorreserve eng — wenige Rezeptoren, und der Agonismus jedes einzelnen zählt. Wenn Ihr Nutzen bis 2 mg anhält, ist Ihre Rezeptorreserve breit.
+
+Nichts davon erfordert einen Biomarker. Die Dosis-Wirkungs-Kurve *ist* die Messgröße.
+
+---
+
+## Sicherheitsschätzung
+
+| Behauptung | Sicherheit |
+|-------|-----------|
+| LDN hat sich nicht überschneidende Dosisoptima über vier Ziele | Mittel — mechanistisch begründet (TLR4/Nrf2-Hormesis, Opioidkompensation, TRPM3-Wiederherstellung, Orexin-Dishibition, alle unabhängig dokumentiert), aber es gibt in keiner Indikation eine Dosis-Wirkungs-Studie innerhalb des Bereichs |
+| Der hormetische TLR4/Nrf2-Nutzen geht verloren, wenn TLR4 überblockiert ist | Mittel — gestützt durch die Nrf2-Hormesis-Literatur (Calabrese-Korpus) und die In-vitro-Dosisabhängigkeit der Mikroglia M1→M2; bei LDN nie prospektiv getestet |
+| LDA folgt einem partiellen Agonisten-Umkehr-U | Hoch — Rezeptorbesetzungs-Eigenschaft, nicht ME/CFS-spezifisch; gilt in jeder dopamin-defizienten Population |
+| LDA verliert seine therapeutische Wirkung über 2 mg | Mittel — D2-Besetzungsmodelle sagen eine Umkehrung über etwa 50 % voraus; die Crosby-2021-Pilotstudie fand einen Nutzen nur bei ≤2 mg |
+| Die Form der Dosis-Wirkungs-Kurve ist diagnostisch für den dominanten Mechanismus | Niedrig — vom Multitarget-Modell vorhergesagt; nie getestet; die erste prospektive Bestätigung erfordert eine vierarmige LDN-Dosis-Wirkungs-Crossover-Studie |
+| Es gibt keinen therapeutischen Mechanismus über 4,5 mg LDN oder über 2 mg LDA | Mittel — die Target-Engagement-Profile sind bekannt; alle zusätzlichen Rezeptorbindungen über diesen Obergrenzen sind für die bekannten ME/CFS-therapeutischen Ziele entweder neutral oder schädlich |
+| LDN-Nonresponse mit anschließender LDA-Response bestätigt die Beteiligung der Mikroglia | Niedrig — mechanistisch kohärent (TLR4 und D2 sind verschiedene Rezeptoren auf derselben Zelle), aber nie prospektiv getestet |
+
+---
+
+*Dieser Beitrag stützt sich auf den Hormesis-Rahmen, der in [Loth 2026](https://yannickloth.github.io/health-me-cfs/) entwickelt wurde. Die LDN-Dosis-Wirkungs-Analyse wurde durch eine klinische Beobachtung von Kevin Lee ausgelöst (persönliche Mitteilung, Juli 2026); die Erweiterung auf 17 Medikamente wurde durch die Beobachtung von Yannick L. ausgelöst, dass dieselbe Logik auf LDA und andere niedrigdosierte Medikamente zutrifft. Für die vollständige mechanistische Kaskadenanalyse — einschließlich der LDN-Multitarget-Dosis-Wirkungs-Kaskade, des diagnostischen Umkehr-U-Musters über 17 Medikamente und der HIP-B-Studienspezifikation — siehe die Hauptarbeit.*
+
+*Verwandte Artikel: [Das Umgekehrte U ist keine einzelne Sache: vier Wege, wie ein Medikament aufhört zu wirken, wenn Sie die Dosis erhöhen](../inverted-u-not-one-thing/) · [Ihre LDN-Dosis ist eine Diagnose](../dose-is-diagnostic-ldn/)*
