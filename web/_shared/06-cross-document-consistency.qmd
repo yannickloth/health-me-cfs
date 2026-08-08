@@ -1,0 +1,19 @@
+---
+title: "Cross-Document Consistency"
+---
+
+<span id="ch-methodology"></span>
+<span id="sec-meth-consistency"></span>
+
+
+Maintaining consistency across over 400+ pages requires systematic tracking mechanisms.
+
+*Hypothesis registry.*
+A cross-document registry tracks every hypothesis, speculation, prediction, and open question in the manuscript. When any such environment is added, modified, or removed in any chapter, the registry is updated to reflect the change. This prevents contradictions between chapters, ensures that predictions stated in one chapter are not contradicted by evidence presented in another, and provides a single reference point for the document's epistemic commitments.
+
+*Terminology harmonization.*
+Automated audits verify that medical terminology is used consistently across all chapters. Variant forms of key terms (e.g., “NK cells” versus “natural killer cells,” “OI” versus “orthostatic intolerance”) are detected and normalized.
+
+*Revision tracking.*
+Changes are tracked through the document's Git history, which provides full traceability of every modification at the line level.
+
