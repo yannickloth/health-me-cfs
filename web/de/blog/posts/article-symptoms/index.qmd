@@ -1,0 +1,165 @@
+---
+title: "Vom Energiedefizit zu jedem Symptom: Wie ME/CFS den Körper bricht"
+description: "In einem [früheren Artikel](https://www.linkedin.com/pulse/when-your-cells-cant-make-energy-biology-behind-mecfs-yannick-l--hiiwe) habe ich das Versagen des Energiestoffwechsels bei ME/CFS durchgegangen: Wie eine beeinträchtigte Komplex-I-Aktivität eine nichtlineare Klippe in..."
+author: "Yannick Loth"
+date: "2026-03-10"
+categories: [Symptome, Pathophysiologie]
+lang: de
+---
+
+In einem [früheren Artikel](https://www.linkedin.com/pulse/when-your-cells-cant-make-energy-biology-behind-mecfs-yannick-l--hiiwe) habe ich das Versagen des Energiestoffwechsels bei ME/CFS durchgegangen: Wie eine beeinträchtigte Komplex-I-Aktivität eine nichtlineare Klippe in der ATP-Produktion erzeugt, wie beschädigte Mitochondrien nicht gereinigt werden können, weil die Reinigung selbst Energie erfordert, und wie das gesamte System in eine selbstverstärkende Abwärtsspirale gerät.
+
+Aber das Energieversagen allein erklärt nicht, warum Patienten *so unterschiedliche Symptome* erleben. Warum Brain Fog? Warum Schmerzen? Warum wird das Stehen unmöglich? Warum hört Schlaf auf, erholsam zu sein?
+
+## Die zwei Achsen von ME/CFS
+
+Bevor wir die Kaskaden verfolgen, eine Unterscheidung, die Ihre Sicht auf diese Krankheit verändert.
+
+ME/CFS wirkt auf zwei getrennten Achsen gleichzeitig. **Kapazitätsbegrenzende Mechanismen** — mitochondriale Dysfunktion, reduzierter Blutfluss, metabolische Inflexibilität — setzen die Obergrenze für das, was ein Patient *tun kann*. **Symptomproduzierende Mechanismen** — Zytokine, Neurotransmitter-Störung, zentrale Sensibilisierung — bestimmen, wie der Patient *sich fühlt*.
+
+Ein Patient könnte theoretisch eine erhaltene Energieproduktion haben und sich dennoch tief erschöpft fühlen, wenn sein Gehirn mit Entzündungssignalen bombardiert wird. Umgekehrt würde die Wiederherstellung der mitochondrialen Funktion ohne Behandlung der Entzündungssignalübertragung die Kapazität erweitern, ohne die Symptome zu lindern.
+
+Bei ME/CFS sind beide Achsen gleichzeitig gestört. Und sie addieren sich nicht einfach — sie multiplizieren sich. Zytokingetriebene Ermüdungssignale treffen härter, wenn der Körper wirklich energievarm ist. Schmerz wird durch zentrale Sensibilisierung verstärkt, wenn das Gewebe tatsächlich hypoxisch ist. Die Interaktion erzeugt eine Belastung, die weit größer ist als die Summe ihrer Teile.
+
+---
+
+## Kaskade 1: Das Gehirn hungert zuerst
+
+Ihr Gehirn macht 2 % Ihrer Körpermasse aus, verbraucht aber 20-25 % Ihrer Ruheenergie. Wenn die zelluläre Energieproduktion fällt, spürt das Gehirn es zuerst — und die Folgen sind verheerend.
+
+**Messbare Blutflussdefizite.** Transkranielle Doppler-Studien beim Kipptisch-Test zeigen, dass unter ME/CFS-Patienten mit normalen Herzfrequenz- und Blutdruckreaktionen 91 % dennoch einen abnormalen zerebralen Blutfluss haben — die Standard-Vitalzeichen sehen normal aus, aber das Gehirn ist still unterperfundiert. Die Größenordnung: eine 26 %-Reduktion des zerebralen Blutflusses beim Stehen, gegenüber 7 % bei gesunden Kontrollen — ein 3,7-facher Unterschied.
+
+**Neurotransmitter-Verarmung.** Die Tiefen-Phänotypisierungsstudie des NIH von 2024 — die bislang gründlichste neurologische Untersuchung von ME/CFS — führte Lumbalpunktionen durch und maß direkt die Chemie der Gehirn-Rückenmarks-Flüssigkeit. Sie fand reduzierte Werte von Homovanillinsäure (ein Dopaminmetabolit), DHPG (was eine verminderte Noradrenalinaktivität anzeigt) und Epinephrin. Das sind keine indirekten Marker. Das ist die direkte Messung der Verarmung der chemischen Botenstoffe des Gehirns.
+
+Die klinischen Korrelationen sind präzise: Niedrigere Katecholaminwerte sagten eine reduzierte Griffkraft-Ausdauer, langsamere Reaktionszeiten, schlechtere Gedächtnis- und Exekutivfunktionswerte und eine reduzierte Bereitschaft voraus, schwierige Aufgaben zu wählen — nicht aus Mangel an Motivation, sondern weil die Berechnung des Gehirns über zulässige Anstrengung fehlkalibriert ist.
+
+**Die Anstrengungs-Fehlberechnung.** Funktionelles MRT während motorischer Aufgaben offenbarte etwas Auffallendes: reduzierte Aktivität in der temporo-parietalen Junktion (TPJ), einer Gehirnregion, die sensorische Informationen integriert, um zu berechnen, wie viel Anstrengung eine Aufgabe erfordert. Das Gehirn *nimmt die Anstrengungsanforderungen tatsächlich ungenau wahr*. Das ist kein Faulheit oder Detraining — es ist ein messbares neurologisches Defizit.
+
+Paradoxerweise zeigte der motorische Kortex, während die TPJ unterperformte, *anhaltende Hyperaktivität* — das Gehirn versuchte weiterhin "härter", selbst als die tatsächliche Kraftausgabe abnahm. Die Elektromyographie bestätigte, dass dies kein Muskelproblem war. Die Dysfunktion ist zentral.
+
+Unser mathematisches Modell erfasst dies mit einer kognitiven Symptomgleichung:
+
+> **Modellregel:** Kognitive Dysfunktion ∝ ZNS-Zytokine + Dopamindefizit + zerebrales Blutflussdefizit
+
+Jeder Term ist unabhängig messbar. Zusammen erklären sie, warum "Brain Fog" bei ME/CFS nicht vage ist — es ist die vorhersehbare Folge eines energiehungrigen Gehirns, das mit verarmten Neurotransmittern und unzureichender Blutversorgung läuft.
+
+---
+
+## Kaskade 2: Das alte Krankheitsprogramm, das sich nicht abschaltet
+
+Wenn Sie Grippe haben, fühlen Sie sich schrecklich — erschöpft, schmerzend, zurückgezogen, unfähig klar zu denken. Das ist nicht das Virus, das Sie direkt schädigt. Es ist Ihr Gehirn, das Sie *absichtlich* krank fühlen lässt, durch ein uraltes Überlebensprogramm namens Krankheitsverhalten: Energie sparen, sich von Aktivität zurückziehen, Ressourcen zum Immunsystem umleiten.
+
+Dieses Programm wird durch entzündliche Zytokine (IL-1β, IL-6, TNF-α) ausgelöst, die über drei Wege das Gehirn erreichen:
+- **Der humorale Weg:** Zytokine diffundieren direkt ins Gehirn durch Regionen, in denen die Blut-Hirn-Schranke natürlich unvollständig ist
+- **Der Transportweg:** Trägerproteine schaufeln Zytokine aktiv über die Blut-Hirn-Schranke
+- **Der neurale Weg:** Zytokinrezeptoren am Vagusnerv übertragen Immunsignale innerhalb von Minuten zum Hirnstamm
+
+Einmal im Gehirn, lösen diese Zytokine die Prostaglandin-E₂-Produktion aus, die wachheitsfördernde Neuronen unterdrückt und Schlafdruck-Schaltkreise aktiviert. Das Ergebnis: Müdigkeit, Schmerzempfindlichkeit, Appetitverlust, sozialer Rückzug, kognitive Verlangsamung — das komplette Krankheitsverhaltens-Paket.
+
+Bei akuter Infektion löst sich das auf, wenn der Erreger beseitigt ist. Bei ME/CFS nicht. Anhaltende Immunaktivierung erhält den Zytokinantrieb. Eine abgestumpfte Stresshormon-Antwort entfernt die entzündungshemmende Bremse. Aktivierte Mikroglia — die ansässigen Immunzellen des Gehirns — verstärken das Signal lokal und produzieren ihre eigenen Zytokine, die den Müdigkeitszustand lange nach der Normalisierung der peripheren Entzündung aufrechterhalten.
+
+Die Dosis-Wirkungs-Beziehung ist beim Menschen etabliert: Studien an Patienten mit dokumentiertem EBV, Q-Fieber und Ross-River-Virus zeigen, dass höhere Zytokinwerte schlechtere Müdigkeit, Unwohlsein, Schmerzen und kognitive Verlangsamung in einer direkten, quantitativen Beziehung voraussagen. Und randomisierte kontrollierte Studien mit Interferon-alpha-Therapie zeigen, dass alleinige Zytokin-Exposition — ohne jede Infektion — dasselbe neurovegetative Syndrom (Müdigkeit, Somnolenz, Appetitverlust) über Mechanismen erzeugt, die sich von Stimmungswegen unterscheiden.
+
+Das Modell erfasst dies:
+
+> **Modellregel:** Müdigkeit ∝ ATP-Defizit + proinflammatorische Zytokine + Cortisol-Defizit
+
+Der erste Term ist die Kapazitätsgrenze. Der zweite und dritte sind das Krankheitsverhaltenssignal. Bei ME/CFS sind alle drei gleichzeitig abnormal.
+
+---
+
+## Kaskade 3: Schlaf, der nicht erholt
+
+ME/CFS-Patienten berichten fast durchweg über unerholsamen Schlaf — 91 % in Umfragen. Doch Standard-Schlafstudien sehen oft fast normal aus. Dieses Paradoxon hat eine spezifische biochemische Erklärung.
+
+**Adenosin — das Schlafdruck-Molekül.** Adenosin akkumuliert während des Wachseins als metabolisches Abfallprodukt und wird während des Schlafs beseitigt. Deshalb fühlen Sie sich im Laufe des Tages zunehmend schläfrig, und deshalb hält Sie Koffein (ein Adenosin-Rezeptorblocker) wach.
+
+Bei ME/CFS bedeutet das mitochondriale ATP-Defizit, dass mehr AMP und ADP sich selbst in der Ausgangslage anreichern, was eine konstitutive Adenosin-Generierung antreibt, *unabhängig davon, wie lange Sie wach waren*. Das System, das signalisieren soll "Sie waren lange genug aktiv, Zeit zu schlafen", läuft ständig, weil die Zellen immer energiestressig sind.
+
+**Beeinträchtigte Reinigung.** Adenosin wird normalerweise von Astrozyten beseitigt — Unterstützungszellen des Gehirns. Aber Neuroinflammation schädigt diese Zellen und beeinträchtigt ihre Adenosin-Reinigungskapazität. Das Ergebnis: chronisch erhöhtes Adenosin, das das Gehirn nicht aufnehmen kann.
+
+**Verstärkte Empfindlichkeit.** Aktivierte Mikroglia regulieren A2A-Adenosinrezeptoren hoch — den spezifischen Rezeptortyp, der den Schlafdruck vermittelt. PET-Bildgebung bei ME/CFS zeigt 45-199 % erhöhte TSPO-Bindung (ein Marker der Mikroglia-Aktivierung) im zingulären Kortex, Hippocampus, Amygdala, Thalamus und Hirnstamm. Basierend auf dem, was über die mikrogliare A2A-Rezeptorexpression während der Aktivierung bekannt ist, wird erwartet, dass diese anhaltende Neuroinflammation die Adenosinrezeptor-Dichte erhöht — was bedeutet, dass dieselbe Menge Adenosin ein stärkeres Schlafdruck-Signal erzeugt.
+
+Das Ergebnis: Patienten schlafen normal ein (die Einschlaflatenz bleibt in Studien erhalten), aber der Schlaf ist pathologisch fragmentiert. Die Polysomnographie findet konsistent erhöhte Mikroarousals — kurze Unterbrechungen, die den erholsamen Tiefschlaf stören, ohne die Einschlaflatenz zu verlängern oder die Schlafstadien dramatisch zu verändern. Der Patient schläft, aber der Schlaf tut nicht das, was Schlaf tun soll.
+
+---
+
+## Kaskade 4: Schmerz, von innen verstärkt
+
+Schmerz bei ME/CFS hat periphere Komponenten — Myalgie, Gelenkschmerz, Kopfschmerz — aber das zentrale Nervensystem verstärkt diese Signale weit über das hinaus, was die periphere Eingabe rechtfertigt. Drei konvergierende Mechanismen treiben diese Verstärkung an.
+
+**Zytokingetriebene Sensibilisierung.** Dieselben proinflammatorischen Zytokine, die das Krankheitsverhalten antreiben, senken auch die Schmerzschwellen. IL-1β und TNF-α wirken direkt auf Rückenmarksneuronen, um eingehende Schmerzsignale zu verstärken. Chronische Exposition erzeugt keine Toleranz — sie erzeugt Sensibilisierung, bei der das Schmerzsystem progressiv reaktiver auf kleinere Reize wird.
+
+**Neuroinflammation.** Aktivierte Mikroglia in schmerzverarbeitenden Regionen setzen Mediatoren frei, die umliegende Neuronen sensibilisieren. Die dokumentierte 45-199 % erhöhte TSPO-Bindung bei ME/CFS — die eine anhaltende Mikroglia-Aktivierung anzeigt — liefert eine Quelle zentraler Schmerzverstärkung.
+
+**Oxidativer Stress.** Die reaktiven Sauerstoffspezies (ROS), die durch die beeinträchtigte Elektronentransportkette erzeugt werden — die im vorherigen Artikel beschriebene 7-fache Zunahme — schädigen Nervengewebe und aktivieren Schmerzwege. Diese Schädigung ist selbstverstärkend: ROS schädigt die Enzyme, die die ROS-Akkumulation normalerweise verhindern würden.
+
+Das Modell:
+
+> **Modellregel:** Schmerz ∝ proinflammatorische Zytokine + Neuroinflammation + oxidativer Stress
+
+Dies erklärt, warum ME/CFS-Schmerz nicht gut auf Standard-Schmerzmittel anspricht: Das Problem ist keine periphere Verletzung, die Schmerzsignale erzeugt. Es ist das zentrale Schmerzverarbeitungssystem selbst, das durch Entzündung und oxidative Schädigung dysreguliert wird.
+
+---
+
+## Kaskade 5: Das autonome Nervensystem verliert die Kontrolle
+
+Das autonome Nervensystem reguliert alles, was Ihr Körper ohne bewusste Anstrengung tut: Herzfrequenz, Blutdruck, Verdauung, Temperatur. Bei ME/CFS versagt diese Regulation — und das Energiedefizit ist die vorgelagerte Ursache.
+
+**Zentrale Katecholamin-Insuffizienz.** Noradrenalin ist der primäre Neurotransmitter des sympathischen Nervensystems. Die Liquor-Messungen, die reduzierte Noradrenalinmetaboliten zeigen, erklären nicht nur den Brain Fog — sie erklären die kardiovaskuläre Dysregulation. Ohne adäquate Noradrenalin-Signalübertragung kann das Herz keine angemessenen Reaktionen auf Haltungsänderungen aufbauen.
+
+**Das Stehen-Problem.** Wenn Sie stehen, zieht die Schwerkraft Blut in Ihre Beine. Normalerweise kompensiert Ihr autonomes System innerhalb von Sekunden — verengt Blutgefäße, erhöht die Herzfrequenz. Bei ME/CFS ist diese Kompensation beeinträchtigt. Blut staut sich. Der zerebrale Blutfluss fällt. Der Patient fühlt sich schwindelig, benommen oder kognitiv beeinträchtigt — manchmal innerhalb von Minuten nach dem Stehen.
+
+**Die Energiesteuer der Kompensation.** Das autonome System, das *es* kompensieren kann, tut dies ineffizient und erfordert übermäßige sympathische Aktivierung. Diese erhöhte Herzarbeit verbrennt ATP, das das bereits verarmte System nicht entbehren kann. Stehen wird zu einem laufenden Energieaufwand, die gesunde Menschen nicht zahlen.
+
+Für Patienten mit hypermoblem Ehlers-Danlos-Syndrom — unter ME/CFS-Patienten überrepräsentiert — wird die Rechnung schlechter. Eine erhöhte venöse Compliance bedeutet, dass sich beim Stehen mehr Blut staut und noch größere Kompensationsanstrengung erfordert. Unser Modell sagt voraus, dass dies eine 10-20 %-Reduktion der für Aktivität verfügbaren Energie während der aufrechten Stunden auferlegt, unabhängig von jeder mitochondrialen oder Immunfunktionsstörung.
+
+**Versagen der Darmmotilität.** Der Vagusnerv, der die Verdauungsmotilität antreibt, ist Teil dieses autonomen Kollapses. Ein reduzierter Vagustonus bedeutet beeinträchtigte Darmbewegung, die eine bakterielle Überwucherung (SIBO) erlaubt — dokumentiert bei 48 % der getesteten ME/CFS-Patienten. Die überwuchernden Bakterien erhöhen die Darmpermeabilität, wodurch bakterielle Produkte in den Blutstrom gelangen können, mehr Immunaktivierung auslösen, die mehr Energie entzieht und das autonome System weiter beeinträchtigt. Ein weiterer Teufelskreis.
+
+---
+
+## Kaskade 6: Das Immunsystem gefangen zwischen Erschöpfung und Überaktivierung
+
+Die Energie-Immun-Kopplung ist die kritischste Rückkopplungsschleife im gesamten System — und sie läuft in beide Richtungen.
+
+**Immunaktivierung zieht Energie.** Aktivierte Immunzellen sind metabolisch teuer. Während Immunschüben kann allein die Immunantwort einen erheblichen Teil des täglichen Energiebudgets verbrauchen — Energie, die sonst für Denken, Bewegen oder schlicht Stehen verfügbar wäre. Deshalb fühlen sich ME/CFS-Patienten während Infektionen schlechter: nicht nur wegen der Infektion selbst, sondern wegen der Energiekosten der Bekämpfung.
+
+**Energieverarmung lähmt die Immunität.** NK-Zell-Zytotoxizität, T-Zell-Proliferation und Antikörperproduktion erfordern alle ATP. Wenn ATP unter funktionale Schwellen fällt, können Immunzellen ihre Aufgaben nicht erfüllen. Das mathematische Modell verwendet eine kooperative (Hill-Funktion) Beziehung — die Immun-Effizienz nimmt nicht sanft mit ATP ab. Sie hält bis zu einer Schwelle, dann kollabiert sie.
+
+Dies schafft den zentralen Teufelskreis: Immunaktivierung → Energieverarmung → beeinträchtigte Immunkontrolle → anhaltende Infektion oder Autoimmunität → anhaltende Immunaktivierung. Das Modell sagt voraus, dass dieser Zyklus oberhalb eines kritischen Niveaus selbsterhaltend ist — unter der Schwelle ist der gesunde Zustand stabil; oberhalb konvergiert das System zu einem Krankheitsattraktor, der der Rückkehr zur Gesundheit aktiv widersteht.
+
+---
+
+## Warum alle sechs Kaskaden gleichzeitig laufen — und warum Anstrengung alle verschlimmert
+
+Postexertionelles Unwohlsein (PEM) — das Kennzeichnungssymptom von ME/CFS, ausführlich behandelt im [früheren Artikel](https://www.linkedin.com/pulse/when-your-cells-cant-make-energy-biology-behind-mecfs-yannick-l--hiiwe) — ist das, was passiert, wenn alle sechs Kaskaden gleichzeitig getroffen werden. Anstrengung erschöpft ATP und löst eine übertriebene angeborene Immunantwort aus (über TLR4/NF-κB-Aktivierung), die Zytokine ins Gehirn sendet, die Neurotransmitter und autonome Regulation stören, die den Blutfluss reduzieren, was das Energiedefizit weiter verschlimmert. Die 12-72-Stunden-Verzögerung von PEM spiegelt die Zeit wider, die die sekundäre Schadenswelle — Entzündungsmediatoren, oxidativer Stress, Nervensensibilisierung — benötigt, um sich durch alle sechs Wege zu verbreiten.
+
+Aber selbst in Ruhe sind das keine sechs getrennten Krankheiten. Es sind sechs nachgelagerte Konsequenzen desselben vorgelagerten Versagens, verbunden durch gemeinsame Substrate, Signalübertragung und Rückkopplungsschleifen. Das Energiedefizit beeinträchtigt die Immunfunktion. Die Immunantwort zieht Energie. Zytokine wandern ins Gehirn. Gehirnentzündung stört Neurotransmitter. Neurotransmitter-Defizite beeinträchtigen die autonome Regulation. Autonomes Versagen reduziert den Blutfluss. Reduzierter Blutfluss verschlechtert das Energiedefizit.
+
+Unser integriertes mathematisches Modell verfolgt all diese Interaktionen durch 64 gekoppelte Zustandsvariablen. Als wir die Netzwerkstruktur mit Kontrolltheorie analysierten, zeigte sich ein auffallendes Ergebnis: Das System erfordert **4-6 gleichzeitige Interventionspunkte**, um vom Krankheitszustand zur Gesundheit getrieben zu werden. Diese erstrecken sich über Subsysteme:
+
+- Komplex-I-Aktivität (Energiestoffwechsel)
+- Zytokinproduktion (Immunsystem)
+- Durchlässigkeit der Blut-Hirn-Schranke (neuroimmune Schnittstelle)
+- Baroreflex-Verstärkung (autonome Regulation)
+- BH₄-Verfügbarkeit (Neurotransmittersynthese)
+
+Weniger anvisieren, und die unbehandelten Wege kompensieren und ziehen das System in den Krankheitsattraktor zurück. Deshalb haben Einzelmedikamenten-Studien enttäuscht. Nicht weil der anvisierte Mechanismus falsch war — sondern weil das Behandeln einer Kaskade, während fünf andere weiterlaufen, mathematisch unzureichend ist, um das System zu verschieben.
+
+---
+
+## Was das bedeutet
+
+**Die Symptomvielfalt von ME/CFS ist kein Mysterium.** Brain Fog, Schmerz, unerholsamer Schlaf, orthostatische Intoleranz, Immunfunktionsstörung, Darmprobleme — das sind keine getrennten Zustände, die zufällig koexistieren. Es sind die vorhersehbaren, mechanistisch rückverfolgbaren Konsequenzen des zellulären Energieversagens, das sich durch sechs parallele, aber miteinander verbundene Wege verbreitet. Jedes Symptom hat eine molekulare Erklärung. Jeder Weg hat messbare Biomarker. Die Verbindungen zwischen ihnen können als Gleichungen geschrieben werden.
+
+**Die Behandlung von ME/CFS erfordert, mehrere Kaskaden gleichzeitig anzugehen.** Eine Behandlung, die die mitochondriale Funktion wiederherstellt, ohne die Neuroinflammation anzugehen, erweitert, was ein Patient *tun kann*, ohne zu verändern, wie er *sich fühlt*. Eine Behandlung, die Zytokine unterdrückt, ohne den Energiestoffwechsel zu unterstützen, verbessert die Symptome, ohne die Kapazität zu erweitern. Das Modell sagt voraus, dass die Patienten, die sich bessern, diejenigen sind — durch Design oder Zufall — deren Behandlungskombinationen genug der 4-6 erforderlichen Interventionspunkte abdecken.
+
+**Jede Behauptung in diesem Artikel ist testbar.** Die zerebralen Blutflussdefizite können mit transkraniellem Doppler gemessen werden. Die Katecholamin-Verarmung kann im Liquor gemessen werden. Die Mikroglia-Aktivierung kann mit PET-Bildgebung gemessen werden. Die Adenosin-Dynamik kann pharmakologisch gemessen werden. Das Modell verlangt von Ihnen nicht, etwas auf Glauben zu nehmen — es bittet Sie zu messen.
+
+---
+
+## Wichtige Vorbehalte
+
+Die hier beschriebenen mathematischen Modelle sind theoretische Rahmen. Sie formalisieren das aktuelle Verständnis in testbare Gleichungen, wurden aber nicht rechnerisch implementiert oder gegen Patientendaten validiert. Die Symptomzuordnungsgleichungen sind bewusste einfache lineare Näherungen — die reale Symptomwahrnehmung umfasst Schwelleneffekte, zentrale Sensibilisierung und individuelle Variation, die diese Modelle erster Ordnung nicht erfassen. Die Steuerbarkeitsanalyse (4-6 Treiberknoten) ist eine Vorhersage aus der Netzwerkstruktur des Modells, keine empirisch validierte Behandlungsstrategie.
+
+Was die Modelle *jedoch* liefern, ist Präzision: explizite Annahmen, quantitative Vorhersagen und falsifizierbare Behauptungen. "Energiedefizit verursacht Brain Fog" wird zu "10-15 % zerebrale Blutflussreduktion kombiniert mit Dopaminmetabolit-Defizit erzeugt kognitive Dysfunktion proportional zur gewichteten Summe von drei messbaren Variablen." Die erste Aussage ist nicht falsifizierbar. Die zweite kann getestet werden.

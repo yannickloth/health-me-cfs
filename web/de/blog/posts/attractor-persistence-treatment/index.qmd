@@ -1,0 +1,106 @@
+---
+title: "Warum ME/CFS nicht verschwindet — und warum schwere Fälle der Behandlung widerstehen"
+description: "Wenn jemand eine Virusinfektion bekommt, ist die erwartete Abfolge klar: das Immunsystem aktiviert sich, der Erreger wird beseitigt, die Entzündung löst sich auf, und die Person kehrt zur Gesundheit zurück."
+author: "Yannick Loth"
+date: "2026-03-24"
+categories: [Systembiologie, Behandlung, Modellierung]
+lang: de
+---
+
+Wenn jemand eine Virusinfektion bekommt, ist die erwartete Abfolge klar: das Immunsystem aktiviert sich, der Erreger wird beseitigt, die Entzündung löst sich auf, und die Person kehrt zur Gesundheit zurück.
+
+Bei ME/CFS schlägt der Auflösungsschritt fehl. Das Immunsystem bleibt lange nach dem Abklingen der akuten Infektion aktiviert. Der Stoffwechsel bleibt unterdrückt. Das Nervensystem bleibt in einem Zustand, der während der Krankheit Sinn macht, aber danach nicht mehr. Wochen, Monate und später Jahre danach ist die Person immer noch krank [Kap. 15 §Anhaltendes Krankheitsverhalten bei ME/CFS].
+
+Warum? Und warum widerstehen schwere Fälle der Behandlung, selbst wenn mildere Fälle eine gewisse Reaktion zeigen?
+
+Beide Fragen haben sich als dieselbe Antwort herausgestellt.
+
+---
+
+## Eine Krankheit mit zwei stabilen Zuständen
+
+In der Theorie dynamischer Systeme ist ein *Attraktor* eine stabile Konfiguration, in die ein System tendiert und deren Verlassen es widersteht. Die gesunde Physiologie ist ein Attraktor. Krankheitszustände können andere sein.
+
+Bei einem gesunden Menschen bilden Immunsystem und Stoffwechsel ein selbstregulierendes System, das nach einer Störung zum gesunden Zustand zurückkehrt. Nach einer Infektion steigt die Entzündung an, erledigt ihre Aufgabe und löst sich auf. Der Körper kehrt dorthin zurück, wo er begonnen hat.
+
+Ein formales Modell der ME/CFS-Pathophysiologie sagt vier modellabgeleitete Krankheitsattraktoren voraus — stabile Konfigurationen aus Immunaktivierung, metabolischer Unterdrückung und autonomer Dysfunktion [Kap. 33 §Attraktor-Migration innerhalb des Patienten]. Sobald das System in eines dieser Becken gewandert ist, kehrt es nicht spontan zurück. Die selbstverstärkenden Schleifen, die den Krankheitszustand aufrechterhalten, machen ihn mathematisch stabil in demselben Sinn, in dem der gesunde Zustand mathematisch stabil ist [Kap. 33 §Das ODE-System des Krankheitszustands].
+
+Dies ist eine strukturelle Vorhersage darüber, warum ME/CFS fortbesteht, keine Metapher.
+
+---
+
+## Warum einige Patienten hineinfallen und andere nicht
+
+Der Zustandsraum wird durch eine *Separatrize* geteilt — eine Grenze zwischen dem Anziehungsbecken des gesunden Zustands und den Becken der Krankheitszustände. Stellen Sie es sich wie einen Wasserscheidenkamm vor: Regen auf einer Seite fließt in ein Tal, Regen auf der anderen Seite fließt woandershin. Punkte innerhalb des gesunden Beckens kehren nach einer Störung zur Gesundheit zurück. Punkte außerhalb konvergieren zu einem Krankheitsattraktor [Kap. 31 §Kipp-Punkt-Dynamik].
+
+Die Erklärung des Modells dafür, warum dieselbe Infektion bei einer Person ME/CFS und bei einer anderen vollständige Erholung verursacht, ist, dass der Unterschied nicht primär in der Infektion liegt, sondern darin, wo die Ausgangsparameter jeder Person sie vor dem Eintreffen des Auslösers bereits relativ zur Separatrize platzieren. Dies ist nicht die einzige mögliche Erklärung — genetische HLA-Variation, Erregerdosis und Geschlechtsunterschiede sind alles aktive Forschungsbereiche — aber es ist die Erklärung, die das kumulative-Hit-Muster und das Fehlen einer sauberen erreger-spezifischen Inzidenzrate am besten erklärt [Kap. 16 §Triggerfähige Mechanismen].
+
+Mehrere Faktoren verschieben diese Grenze. Vorbestehende Immunverwundbarkeit — Neigung zur Autoantikörperbildung, NK-Zell-Dysfunktion, dysregulierte Zytokinsignalübertragung — platziert einige Menschen von Anfang an näher heran. Kumulative frühere Treffer, sequenzielle Stressoren, die die kompensatorischen Reserven progressiv erschöpfen, bewegen das System noch näher, ohne es notwendigerweise zu überschreiten [Kap. 31 §Auslöseereignisse]. Und epigenetisches Priming, frühere Genexpressionsveränderungen, die teils stabilisiert wurden, verringert die Erholungsspanne, bevor ein akuter Auslöser eintrifft [Kap. 16 §Epigenetische Konsolidierung].
+
+Das Multi-Hit-Muster ist besonders wichtig. Viele Patienten berichten über frühere Infektionen oder Stressoren, von denen sie sich "erholt" haben — aber diese Erholungen könnten prekäre minimale Funktionalität statt einer echten Rückkehr zur Ausgangslage gewesen sein. Jeder Treffer erodierte die Marge, bis schließlich ein weiterer sie überschritt [Kap. 31 §Versagen der Erholungsmechanismen].
+
+---
+
+## Warum es bleibt
+
+Einmal über die Separatrize, befindet sich das System im Becken eines Krankheitsattraktors. Die wichtigere Frage ist: Warum bleibt es dort?
+
+Eine der zentralen selbstverstärkenden Schleifen wirkt über Immun- und Stoffwechselsysteme [Kap. 13 §Teufelskreis-Modelle]:
+
+> Chronische Immunaktivierung erzeugt Zytokine → Zytokine unterdrücken die mitochondriale Funktion und den Energiestoffwechsel → beeinträchtigte Energie begrenzt die Fähigkeit des Immunsystems, Entzündung aufzulösen oder restliches virales Material zu beseitigen → restliche Aktivität erhält die Immunaktivierung → *zurück zum Anfang*
+
+Für viele Patienten erfordert nichts davon, dass der ursprüngliche Auslöser weiterläuft — die Kaskade ist selbsterhaltend geworden [Kap. 16 §Eintrittspunkte: Mehrere Türen, ein endgültiger gemeinsamer Weg]. Deshalb liegt das Auslöseereignis oft Jahre zurück, wenn ein Patient eine Behandlung sucht.
+
+Ein wichtiger Vorbehalt: Bei einigen Patienten hat sich der ursprüngliche Auslöser möglicherweise nicht vollständig aufgelöst. Die Belege für persistente virale Reservoirs — latentes EBV, HHV-6-Reaktivierung oder restliches SARS-CoV-2-Antigen im Gewebe — häufen sich, insbesondere bei Long COVID. Für diese Patienten trägt der Auslöser möglicherweise weiterhin bei, und antivirale Ansätze können relevanter sein. Der Attraktor-Rahmen und der Reservoir-Rahmen schließen sich nicht gegenseitig aus: persistente virale Aktivität könnte einer der Eingänge sein, der die selbstverstärkende Schleife aufrechterhält, statt eine alternative Erklärung [Kap. 33 §Wirksamkeit antiviraler Therapie und Zusammensetzung des Bedrohungssignals].
+
+Drei zusätzliche Mechanismen vertiefen das Becken. Das ZNS-Energieversagen stört die normale Koordination zwischen sympathischem und parasympathischem System und erzeugt das fehlgeschlagene vasomotorische Regulationssystem, die orthostatische Intoleranz und die beeinträchtigte Herzleistung, die ME/CFS charakterisieren [Kap. 16 §ZNS-Energiekrise]. Bei einigen Patienten werden Autoantikörper gegen GPCRs (G-Protein-gekoppelte Rezeptoren, eine Klasse von Zelloberflächenrezeptoren, die das autonome Nervensystem regulieren) von langlebigen Plasmazellen produziert, die sich nicht auflösen, und dysregulieren kontinuierlich die autonome Signalübertragung über einen Mechanismus, der völlig unabhängig von der ursprünglichen Infektion ist [Kap. 16 §GPCR-Autoantikörper-Kaskade]. Dieser Mechanismus ist bemerkenswert, weil er prinzipiell ausreicht, die Krankheit allein aufrechtzuerhalten: Wenn die GPCR-Autoantikörper-Clearance bei diesen Patienten eine Remission erreicht, wäre diese Untergruppe erklärt, ohne das volle Multi-Attraktor-Modell zu erfordern — ein wichtiger Falsifizierbarkeitstest für diesen Rahmen [Kap. 16 §Tragende versus sekundäre Schlösser]. Schließlich wird das für Krankheit geeignete Genexpressionsprogramm durch DNA-Methylierung und Histonmodifikationen stabilisiert; selbst nachdem die ursprünglichen Signale verschwunden sind, besteht die epigenetische Aufzeichnung fort, und Zellen exprimieren das Krankheitsprogramm weiter nicht, weil sie das Signal noch empfangen, sondern weil es nun in die Modifikationsebene des Genoms geschrieben ist [Kap. 16 §Epigenetische Konsolidierung].
+
+Der Auslöser war die Tür. Die Schlösser halten den Patienten drinnen, und sie funktionieren unabhängig vom Auslöser [Kap. 16 §Tragende versus sekundäre Schlösser].
+
+---
+
+## Warum schwere Fälle der Behandlung widerstehen
+
+Sich von ME/CFS zu erholen bedeutet, die Separatrize zurück zu überqueren. Aber die Separatrize ist nicht symmetrisch — der Weg von Gesundheit zu Krankheit und der Weg zurück sind verschieden, eine Eigenschaft namens *Hysterese* [Kap. 31 §Hysteresen-Analyse]. Ein tieferes Attraktorbecken bedeutet, dass das System weiter von der Grenze entfernt sitzt und proportional mehr Kraft erfordert, um es zurück zu drücken. Sie können den Auslöser nicht einfach rückgängig machen.
+
+Wie tief ein Patient im Becken sitzt, entspricht grob der Krankheitsdauer und -schwere. Veröffentlichte Meta-Analysen berichten, dass etwa 5 % der Patienten spontan genesen; das Modell reproduziert dies durch Variation von Patient zu Patient bei Parametern nahe der Separatrize-Grenze, wo natürliche Schwankungen das System zurückdrücken können. Für die Mehrheit ist eine bewusste Intervention erforderlich [Kap. 31 §Stabile versus progressive Krankheit].
+
+Das Modell sagt vier Krankheitssubtypen voraus, jeder ein eigener Attraktor — eine modellabgeleitete Partition, die auf empirische Validierung wartet; die wahre Zahl klinisch bedeutsamer Subtypen kann abweichen [Kap. 33 §Attraktor-Migration innerhalb des Patienten]. Bei milderen Subtypen sind weniger Schlösser tragend, und das Modell legt nahe, dass das Angehen des dominanten Mechanismus für die Flucht ausreichen kann. Für die drei milderen Subtypen — immundominant, metabolisch-dominant, neurovaskulär-dominant — können auf den dominanten Mechanismus abgestimmte Einzelziel-Interventionen die Flucht erreichen [Kap. 16 §Tragende versus sekundäre Schlösser].
+
+Diese Subtypen sind keine festen Ziele. Das Modell sagt voraus, dass Patienten im Laufe der Zeit zwischen Attraktorbecken migrieren, wenn sie zusätzliche Schlösser erwerben — typischerweise in der Richtung immundominant → metabolisch-dominant → schwer/verriegelt. Diese Migrationsvorhersage kann noch nicht von der Möglichkeit unterschieden werden, dass Patienten einfach von Anfang an in verschiedene Attraktoren eintreten, da keine longitudinalen Subtypisierungsdaten existieren. Aber wenn sie bestätigt würde, erklärte sie, warum ME/CFS sich im Laufe der Jahre "im Charakter verändert" und warum frühe Behandlung das Fortschreiten zu tieferen, behandlungsresistenteren Konfigurationen verhindern könnte [Kap. 33 §Attraktor-Migration innerhalb des Patienten].
+
+Im schweren Attraktor wirken alle drei Mechanismen gleichzeitig — und ihre Interaktion macht das Becken so schwer zu verlassen. Das Modell sagt ein schroffes Ergebnis voraus: Keine Einzelparameter-Wiederherstellung erreicht die Flucht. Mitochondriale Unterstützung allein, Immunmodulation allein, epigenetische Intervention allein — jede verschiebt das System im Attraktor, ohne es zu verlassen, weil das Becken bis zu dem Punkt vertieft ist, an dem jede einzelne Intervention, wie wirksam auch immer in milderen Subtypen, einfach unzureichend ist [Kap. 33 §Abhängigkeit der Schlossentfernungs-Sequenz].
+
+Der Separatrize-Schubrahmen des Modells sagt voraus, dass die Flucht erfordert, mehrere unterschwellige Interventionen mit positiven synergistischen Interaktionen zu stapeln, bis die kombinierte Störung die Grenze überschreitet [Kap. 33 §Separatrize-Schub über gestapelte unterschwellige Interventionen]. Auf allen modellierten Fluchtwegen ist das Angehen der epigenetischen Konsolidierung tragend: Andere Wiederherstellungen können ihre volle Arbeit nicht leisten, solange das epigenetische Programm noch den Krankheitszustand kodiert [Kap. 16 §Die patientenzugängliche epigenetische Umkehrstrategie].
+
+Das Modell sagt auch voraus, dass die Reihenfolge wichtig ist: Die Energie-Wiederherstellung muss der epigenetischen Intervention vorausgehen oder sie begleiten, weil das Umkehren der Methylierung, ohne zuerst die entzündlichen Signale zu reduzieren, die sie antreiben, zu einer schnellen Rekonsolidierung führt [Kap. 33 §Abhängigkeit der Schlossentfernungs-Sequenz].
+
+Die Behauptung hier ist architektonisch, keine generische "alles ist kaputt"-Geschichte: Die epigenetische Konsolidierung ist ein tragendes Schloss, das angegangen werden muss, bevor andere Interventionen ihre volle Wirkung entfalten können. Persistenz und Behandlungsresistenz sind derselbe Attraktor in unterschiedlichen Tiefen, keine zwei getrennten Probleme.
+
+---
+
+## Was das Modell vorhersagt — und wie man es falsifiziert
+
+Dies erzeugt spezifische, falsifizierbare Vorhersagen.
+
+Für mildere Subtypen: Auf das dominante Schloss dieses Subtyps abgestimmte Einzelziel-Interventionen sollten eine bedeutsame Genesung erzeugen. Unausgewählte Studien, die Subtypen mischen, verdünnen das Signal [Kap. 16 §Behandlungsimplikationen der kausalen Hierarchie].
+
+Für schwere Fälle: Einzelziel-Interventionen erzeugen höchstens eine partielle Verbesserung — nicht weil sie prinzipiell unwirksam sind, sondern weil sie unzureichend sind, um die Attraktorgrenze zu überschreiten. Die Vorhersage ist, dass Kombinationstherapien, die mitochondriale Unterstützung, entzündungshemmende Mittel und epigenetische Modifikatoren stapeln, bei schweren Patienten *qualitativ unterschiedliche* Ergebnisse zeigen werden als jede einzelne Therapie — insbesondere einen Stufenwechsel der Genesungsrate, definiert als Überschreiten der Separatrize-Schwelle. Wenn eine gut konzipierte Kombinationsstudie bei nach Schweregrad geschichteten schweren Patienten keinen solchen Stufenwechsel zeigt, ist die Separatrize-Schubanalyse des Modells falsifiziert [Kap. 33 §Separatrize-Schub über gestapelte unterschwellige Interventionen].
+
+Der vom Modell vorgeschlagene patientenzugängliche Weg erfordert keine toxischen epigenetischen Medikamente. Eine anhaltende (18-24-monatige) entzündungshemmende Therapie kombiniert mit metabolischer Unterstützung (CoQ10, NR/NMN) würde die Signale reduzieren, die die Methylierungsaktivität antreiben, sodass die natürliche passive Demethylierung die epigenetische Konsolidierung im Laufe der Zeit allmählich erodieren kann [Kap. 16 §Die patientenzugängliche epigenetische Umkehrstrategie]. Pharmakologische epigenetische Wirkstoffe — HDAC-Inhibitoren (Enzyme, die die Genexpression steuern) wie Valproat und Vorinostat sowie demethylierende Mittel wie 5-Azacytidin und Decitabin — sind für andere Zustände zugelassen (Valproat für Epilepsie und bipolare Störung, die anderen in der Onkologie) und tragen erhebliche Toxizitätsprofile. Sie werden hier nur als Forschungsrichtung aufgeführt, nicht als Behandlungsvorschlag.
+
+---
+
+## Was dieser Rahmen behaupten kann und was nicht
+
+Dies ist ein formales Modell, keine klinische Studie. Alle Kapitelzitate in diesem Artikel beziehen sich auf den eigenen Rahmen des Autors — ein unveröffentlichtes Modell, das noch nicht unabhängig repliziert oder von anderen Forschungsgruppen validiert wurde. Die Attraktorstruktur, die Vier-Subtypen-Partition, die Separatrize-Schubanalyse und die Schlussfolgerung des tragenden epigenetischen Schlosses sind alle interne Vorhersagen dieses Modells, keine Konsensbefunde. Die zugrunde liegenden Mechanismen, die sie kodieren — Immun-Metabolik-Rückkopplungsschleifen, epigenetische Stabilisierung der Genexpression, Versagen der autonomen Koordination — sind jeweils einzeln durch veröffentlichte ME/CFS-Forschung gestützt, aber ihre Integration in ein vereinheitlichtes dynamisches System ist der eigene Beitrag des Modells [Kap. 16 §Behandlungsimplikationen der kausalen Hierarchie].
+
+Die Einteilung in tragende versus sekundäre Schlösser ist auch stadienabhängig: Ein Mechanismus, der früh in der Krankheit sekundär ist, kann tragend werden, wenn die ursprüngliche Grundursache sich auflöst, das Schloss aber fortbesteht [Kap. 16 §Tragende versus sekundäre Schlösser].
+
+Der Mechanismus der epigenetischen Konsolidierung ist mechanistisch plausibel und konsistent mit der klinischen Beobachtung, dass die Krankheitsdauer mit der Behandlungsresistenz korreliert [Kap. 31 §Stabile versus progressive Krankheit] — aber direkte epigenetische Belege bei ME/CFS bleiben begrenzt. Die Vorhersagen der Separatrize-Schübe und des minimalen Interventionssatzes tragen im Quellmodell Sicherheiten von 0,35-0,40, niedriger als der Persistenzrahmen (0,45-0,50). Die behandlungsspezifischen Vorhersagen sind der unsicherste Teil dieses Artikels [Kap. 33 §Emergente Vorhersagen aus der Kreuzideen-Synthese].
+
+Sicherheit: 0,35-0,50, je nach spezifischer Behauptung. Die selbstverstärkende Natur von ME/CFS ist gut gestützt (0,50); die formale Charakterisierung dynamischer Systeme fügt quantitative Präzision hinzu (0,45); die Behandlungskombinations-Vorhersagen sind am spekulativsten (0,35).
+
+---
+
+ME/CFS bleibt bestehen, weil die Krankheit sich durch selbstverstärkende Schleifen selbst erhält, die nicht mehr vom ursprünglichen Auslöser abhängen. Schwere Fälle widerstehen der Behandlung, weil diese Schleifen vertieft wurden — vor allem durch epigenetische Konsolidierung — bis zu dem Punkt, an dem das System durch keine einzelne Intervention entkommen kann. Persistenz und Behandlungsresistenz sind derselbe Attraktor in unterschiedlichen Tiefen.

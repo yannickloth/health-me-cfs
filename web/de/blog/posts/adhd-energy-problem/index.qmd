@@ -1,0 +1,139 @@
+---
+title: "Ihr ADHS ist ein Energieproblem"
+description: "Dies ist der erste Artikel einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Die hier vorgelegten Belege stammen aus einem Open-Access-Dokumentationsprojekt zu ME/CFS (CC-BY 4.0), das Pathophysiologie, formale Mathematisierung..."
+author: "Yannick Loth"
+date: "2026-05-22"
+categories: [ADHS, Neurodivergenz, Energiestoffwechsel]
+lang: de
+---
+
+Dieser Artikel vertritt die Auffassung, dass ADHS in seinem funktionalen Kern ein Defizit der Gehirn-Energieproduktion ist — nicht allein eine Störung der entwicklungsbedingten neuronalen Vernetzung.
+
+---
+
+## Die grundlegenden PET-Belege
+
+1990 veröffentlichten Zametkin und Kollegen am NIH eine PET-Studie im *New England Journal of Medicine*. Sie legten 25 Erwachsene mit ADHS und 50 gematchte Kontrollen in einen PET-Scanner und maßen den zerebralen Glukosestoffwechsel — wie viel Treibstoff das Gehirn tatsächlich verbrannte.
+
+Das Ergebnis: **ein um 8,1 % niedrigerer globaler zerebraler Glukosestoffwechsel** bei ADHS-Erwachsenen. Signifikanter Hypometabolismus in 30 der 60 untersuchten Gehirnregionen. Die größten Reduktionen fanden sich im prämotorischen Kortex und im oberen präfrontalen Kortex — den Regionen, die für anhaltende Aufmerksamkeit, Planung und Impulskontrolle zuständig sind [@Zametkin1990].
+
+*Wichtiger Vorbehalt: Eine Nachuntersuchung von 1993 durch dieselbe Gruppe bei Jugendlichen reproduzierte den globalen Befund nach Korrektur für die Gehirngröße nicht, und die spätere PET-Literatur fiel gemischt aus. Das Hypometabolismus-Signal ist real, aber seine Interpretation — Energieversorgungsausfall versus reduzierte Nachfrage durch weniger aktive Schaltkreise — bleibt umstritten.*
+
+Im Energierahmen betreibt das ADHS-Gehirn seine energiereichste Region mit reduzierter Treibstoffversorgung.
+
+---
+
+## Das war kein Einzelfallbefund
+
+Eine **systematische Übersichtsarbeit von 2025** bündelte 20 Studien zum zerebralen Blutfluss mit 1.652 ADHS-Teilnehmern und 580 Kontrollen. Der Kernbefund: **Hypoperfusion im Ruhezustand** — reduzierter Blutfluss — im rechten orbitofrontalen Gyrus, im temporalen Kortex, in den Basalganglien und im Putamen.
+
+In der Energieinterpretation bedeutet weniger Blutfluss weniger Sauerstoff, weniger Glukose, weniger ATP. Eine alternative Interpretation — dass reduzierte neuronale Aktivität den reduzierten Blutfluss *verursacht* statt umgekehrt — bleibt möglich; die Kausalrichtung ist nicht vollständig geklärt [@Berthier2025cbfadhd].
+
+Methylphenidat — das häufigste ADHS-Medikament — normalisiert den striatalen, thalamischen und präzentralen Blutfluss. Es repariert nicht die Vernetzung. In diesem Modell stellt es die Treibstoffzufuhr wieder her.
+
+---
+
+## Energieversagen und Neuroinflammation — im selben Gehirn
+
+Eine Doppeltracer-PET-Studie von 2021 bildete simultan zwei Dinge bei 24 medikamentennaiven ADHS-Erwachsenen gegenüber 24 Kontrollen ab:
+
+1. **Verfügbarkeit des Dopamin-D1-Rezeptors** — reduziert im anterioren zingulären Kortex, korreliert mit der Hyperaktivitätsschwere
+2. **Mikroglia-Aktivierung** — erhöht im dorsolateralen präfrontalen Kortex und im orbitofrontalen Kortex, korreliert mit Verarbeitungsgeschwindigkeit und Aufmerksamkeitsdefiziten
+
+Der entscheidende Befund: Diese beiden Messgrößen waren **positiv korreliert — nur in der ADHS-Gruppe**. Je mehr Dopamindefizit, desto mehr Neuroinflammation [@Yokokura2021D1Rmicroglia].
+
+Dasselbe Gehirn zeigt ein Katecholamin-Defizit und eine Immunaktivierung. In der Ausgangslage. Vor jeder Erkrankung.
+
+Das ist bedeutsam, weil ME/CFS durch einen ähnlichen Doppelbefund charakterisiert ist: Katecholamin-Verarmung + Neuroinflammation. Die Tiefen-Phänotypisierungsstudie des NIH dokumentierte reduzierte Dopaminmetaboliten im Liquor bei ME/CFS-Patienten [@walitt2024deep]. Im Energiemodell legt dies nahe, dass das ADHS-Gehirn möglicherweise bereits einen milderen Punkt desselben metabolischen Kontinuums besetzt — obwohl geteilte Biomarker kein geteiltes Mechanismus beweisen. Das gleiche nachgelagerte Muster (niedriges Dopamin + Entzündung) kann aus unterschiedlichen vorgelagerten Ursachen entstehen.
+
+---
+
+## Das doppelte Eisendefizit
+
+Eisenmangel ist bei ADHS häufig — und er verschärft das Energieproblem über einen doppelten Mechanismus:
+
+**Mechanismus 1:** Eisen ist ein erforderlicher Kofaktor für die **Tyrosinhydroxylase** — das geschwindigkeitsbestimmende Enzym der Dopamin- und Noradrenalinsynthese. Wenig Eisen bedeutet weniger Neurotransmitterproduktion.
+
+**Mechanismus 2:** Eisen ist auch ein erforderlicher Kofaktor für den **mitochondrialen Komplex I und Komplex II** — das Herz der zellulären Energieproduktion. Wenig Eisen bedeutet weniger ATP.
+
+Ein Mineral. Zwei kritische Defizite. Beeinträchtigte Neurotransmitterproduktion UND reduzierte Energieabgabe.
+
+Empfohlene Ferritinschwellenwerte laut neuroentwicklungsbezogenen Leitlinien: unter 30 ng/mL ist suboptimal für ADHS; unter 50 ng/mL für AS-bezogene Schlafphänotypen. Standard-Labor-"Normalbereiche" (typischerweise >12 ng/mL) können funktionell bedeutsame Defizite übersehen [@DelRosso2026ironNeurodevelopmental].
+
+---
+
+## Der BH4-Engpass
+
+Tetrahydrobiopterin (BH4) ist der geschwindigkeitsbestimmende Kofaktor für:
+- **Tyrosinhydroxylase** → Dopamin- und Noradrenalinsynthese
+- **Tryptophanhydroxylase** → Serotoninsynthese
+- **Alle drei NOS-Isoformen** → Stickstoffmonoxid-Synthese (Regulation des Gefäßtonus)
+
+Ein einziges Kofaktordefizit beeinträchtigt gleichzeitig drei Neurotransmittersysteme UND die Regulation des zerebralen Blutflusses [@Williams2025GCH1BH4].
+
+Eine genetische Variante — **GCH1 rs841** — reduziert die BH4-Produktion. Sie ist bei etwa 4 % der Bevölkerung homozygot. Sie wurde mit ADHS, Autismus, Depression, Angstzuständen und PMDS in Verbindung gebracht. Fünf Fallberichte zeigten eine Verbesserung von ADHS unter niedrig dosierter BH4-Supplementierung (0,088–0,292 mg/kg/Tag) [@Williams2025GCH1BH4].
+
+Entzündungszytokine erhöhen paradoxerweise die BH4-Synthese, beschleunigen aber ihre Oxidation — was während einer Erkrankung zu einer Netto-Verminderung der Monoamine führt [@Fanet2021BH4neuro]. Das schafft eine mechanistische Brücke zwischen Infektion und Aufmerksamkeitsversagen.
+
+---
+
+## Ist ADHS wirklich "entwicklungsbedingt"?
+
+Die konventionelle Auffassung — gestützt durch Jahrzehnte genetischer, neurobildgebender und longitudinaler Forschung — ist, dass ADHS eine neurologische Entwicklungsstörung ist. Das Gehirn ist von frühem Kindesalter an anders verdrahtet.
+
+Eine Herausforderung dieser Auffassung: Die **Dunedin-Geburtskohortenstudie** verfolgte 1.037 Personen von der Geburt bis zum Alter von 38 Jahren mit einer Retention von 95 %:
+
+- **90 % der Erwachsenen, die im Alter von 38 Jahren die ADHS-Kriterien erfüllten, hatten KEIN ADHS in der Kindheit**
+- Nur 5 % der kindlichen ADHS-Fälle erfüllten die Kriterien mit 38 Jahren noch
+- Die Gruppe mit Erwachsenbeginn zeigte weder neuropsychologische Defizite in der Kindheit noch polygenes Risiko für kindliches ADHS
+- Kindliches und erwachsenes ADHS waren "praktisch überlappungsfreie Mengen"
+
+Wenn erwachsenes ADHS nicht entwicklungsbedingt ist, was ist es dann? Eine Möglichkeit: **erworbene Katecholamin-Insuffizienz** — entstanden durch Stress, chronische Entzündung, hormonelle Veränderungen oder Infektion [@Moffitt2015adhdadult].
+
+Diese Interpretation bleibt umstritten — Faraone & Biederman (2016) argumentierten, dass die Fälle mit Erwachsenbeginn unterschwellige kindliche Symptome, diagnostische Schwelleneffekte oder komorbide Erkrankungen widerspiegeln könnten, die ADHS imitieren. Aber sie öffnet die Tür zu einer Frage mit Konsequenzen: Können ADHS-Symptome durch metabolische Störung *erworben* werden?
+
+---
+
+## Jede wirksame Behandlung wirkt über Energie
+
+| Behandlung | Mechanismus (Energierahmen) |
+|-----------|---------------------------|
+| Stimulanzien (Methylphenidat, Amphetamine) | Erhöhen die Katecholaminverfügbarkeit → mehr Signal pro Einheit neuronaler Energie |
+| Sport | Erhöht den zerebralen Blutfluss, BDNF, akute Katecholaminfreisetzung *(Anmerkung: Bewegungsempfehlungen erfordern bei ME/CFS eine kritische Modifikation — gestufte Bewegungstherapie ist laut NICE 2021 kontraindiziert)* |
+| Schlaf | Stellt die Mitochondrienfunktion wieder her; Schlafentzug imitiert ADHS |
+| Eisensupplementierung | Stellt den TH-Kofaktor + die Funktion der Komplexe I/II wieder her |
+| Koffein | Blockiert Adenosin → erhöht vorübergehend das effektive Energiebudget |
+
+Unter der Energielinse repariert keines dieser Mittel die "Vernetzung" — alle erhöhen die Energieverfügbarkeit oder reduzieren den Energiebedarf an der präfrontalen Synapse. Mitochondriale Dysfunktion wurde als Kernkomponente der ADHS-Pathophysiologie identifiziert, was das Energiedefizit-Modell weiter stützt [@Almutairi2024mitoadhd]. Im Standardmodell der Neurotransmitter wirken dieselben Behandlungen, indem sie die dopaminerge/noradrenerge Signalübertragung wiederherstellen. Beide Rahmen sagen dieselben Behandlungsreaktionen voraus; sie zu unterscheiden erfordert zu messen, ob die Energieversorgung oder die Neurotransmittersignalübertragung das primäre Defizit ist.
+
+*Anmerkung: Diese Tabelle stellt mechanistische Rahmen aus der Forschungsliteratur dar, keine klinischen Empfehlungen. Behandlungsentscheidungen sollten mit einem qualifizierten Kliniker getroffen werden.*
+
+---
+
+## Der Neu-Rahmen
+
+ADHS ist kein Charakterfehler. Es ist kein Disziplinproblem. Es ist vielleicht nicht einmal in allen Fällen ein festes Entwicklungsmerkmal.
+
+Es ist das, was passiert, wenn die metabolisch anspruchsvollste Region des Gehirns — der präfrontale Kortex — nicht genug Treibstoff bekommt, um ihre Funktionen aufrechtzuerhalten.
+
+Manchmal ist die Treibstoffzufuhr genetisch klein. Manchmal ist sie durch Entzündung, Eisenmangel oder BH4-Oxidation erschöpft. Manchmal ist sie durch chronische Hypoperfusion reduziert.
+
+Das nachgelagerte Symptom ist dasselbe: Aufmerksamkeitsversagen, exekutive Dysfunktion, Impulsivität. Weil der präfrontale Kortex zuerst versagt, wenn die Energie knapp wird — jedes Mal, in jedem Kontext.
+
+Und das hat Auswirkungen weit über die Aufmerksamkeit hinaus. In diesem Modell versagt dasselbe Energiesystem, das bei ADHS leicht versagt, bei ME/CFS katastrophal. Der nächste Artikel dieser Serie erklärt, warum ADHS-Patienten doppelt so häufig eine chronische behindernde Müdigkeit entwickeln wie die Allgemeinbevölkerung.
+
+---
+
+## Grenzen und alternative Interpretationen
+
+Dieser Artikel präsentiert EINE interpretative Linse — den Energie-/Stoffwechselrahmen. Die Schlüsselalternativen, die der Leser abwägen sollte:
+
+1. **Ursache gegen Folge:** Der reduzierte Glukosestoffwechsel kann reduzierte neuronale Aktivität widerspiegeln (Wirkung einer anderen Vernetzung), nicht eine unzureichende Energieversorgung (Ursache der Dysfunktion). Wenn ja, bleibt ADHS eine entwicklungsbedingte Konnektivitätsstörung und die metabolischen Befunde sind nachgelagerte Signaturen.
+2. **Genetische Pleiotropie:** ADHS und ME/CFS können genetische Risikovarianten teilen, die beide Zustände unabhängig erzeugen, ohne dass das eine das andere über einen metabolischen Weg verursacht.
+3. **Entzündung als einfachere Erklärung:** Chronische niedriggradige Entzündung (wie durch IL-6 in den ALSPAC-Daten gezeigt) kann direkt sowohl neurodivergente Merkmale als auch Müdigkeitsanfälligkeit verursachen, ohne ein Konzept einer "metabolischen Reserve" zu erfordern.
+
+Der Energierahmen erzeugt testbare Vorhersagen, die sich von diesen Alternativen unterscheiden — insbesondere hinsichtlich der Frage, ob die Korrektur modifizierbarer Energie-Defizite (Eisen, BH4, Perfusion) den Ausbruch von ME/CFS verhindert. Bis diese Tests durchgeführt sind, bleibt das Modell eine Hypothese, kein etablierter Mechanismus.
+
+---
+
+*Teil 1 einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet.*

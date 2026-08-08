@@ -1,0 +1,82 @@
+---
+title: "Ihre Zellen betreiben ein Kraftwerk. So bricht es zusammen."
+description: "Ihr Körper enthält etwa 37 Billionen Zellen. Fast jede von ihnen enthält Hunderte bis Tausende von Mitochondrien — Organellen, die sich vor zwei Milliarden Jahren aus Bakterien entwickelt haben und nie gingen. Ihre Aufgabe ist einfach in der Beschreibung und überwältigend im Umfang: Nahrung und Sauerstoff in ATP zu verwandeln, das Molekül, das alles andere antreibt."
+author: "Yannick Loth"
+date: "2026-06-18"
+categories: [Energiestoffwechsel, Mitochondrien]
+lang: de
+---
+
+Ihr Körper enthält etwa 37 Billionen Zellen. Fast jede von ihnen enthält Hunderte bis Tausende von Mitochondrien — Organellen, die sich vor zwei Milliarden Jahren aus Bakterien entwickelt haben und nie gingen. Ihre Aufgabe ist einfach in der Beschreibung und überwältigend im Umfang: Nahrung und Sauerstoff in ATP zu verwandeln, das Molekül, das alles andere antreibt.
+
+Ein gesunder Mensch recycelt etwa 50 kg ATP pro Tag. Nicht produziert — recycelt. Der gesamte ATP-Pool im Körper beträgt zu jedem Zeitpunkt nur etwa 50 Gramm. Dieser Pool wird täglich etwa tausendmal umgewälzt. Jeder Herzschlag, jeder Gedanke, jede Immunantwort, jede Muskelkontraktion zehrt von demselben Konto und füllt es in Echtzeit wieder auf.
+
+Wenn diese Recyclingmaschinerie verlangsamt, sinkt der Kontostand. Nicht dramatisch — nicht auf null, kein Herzstillstand. Nur 30 % weniger. Vielleicht 50 % weniger. Genug, dass alles noch funktioniert, langsam, schmerzhaft, mit einer Erholungszeit, die eher in Tagen als in Minuten gemessen wird. Das ist der metabolische Zustand von ME/CFS.
+
+---
+
+## Das Fließband
+
+Die Energieproduktion ist ein sequenzieller Prozess mit drei Stufen, die jeweils die nächste speisen.
+
+**Glykolyse** findet im Zytoplasma statt, außerhalb der Mitochondrien. Ein Glukosemolekül wird in zwei Pyruvatmoleküle gespalten und ergibt 2 ATP. Das ist schnell, erfordert keinen Sauerstoff und ist die Ausweichoption, wenn alles andere versagt. Es ist auch ineffizient — 2 ATP aus einem Molekül, das 36 ergeben könnte.
+
+**Der Krebs-Zyklus** (Zitronensäurezyklus) läuft in der mitochondrialen Matrix ab. Pyruvat gelangt in die Mitochondrien, wird durch den Pyruvat-Dehydrogenase-Komplex (PDH) in Acetyl-CoA umgewandelt und speist einen achtstufigen Zyklus, der Elektronen aus Kohlenstoffbindungen herauslöst und sie auf Trägermoleküle (NADH und FADH2) lädt. Der Kohlenstoff verlässt als CO2 — dasselbe CO2, das Sie ausatmen. Der Zyklus selbst produziert nur direkt 2 ATP. Sein eigentlicher Output sind die beladenen Elektronenträger.
+
+**Die Atmungskette (ETC)** ist der Ort, an dem sich die Elektronen auszahlen. NADH und FADH2 liefern ihre Elektronen an eine Reihe von Proteinkomplexen (I bis IV), die in der inneren Mitochondrienmembran eingebettet sind. Wenn die Elektronen die Kette hinunterlaufen, pumpen die Komplexe Wasserstoffionen über die Membran und bauen einen elektrochemischen Gradienten auf. Dieser Gradient treibt die ATP-Synthase an — einen buchstäblichen Rotationsmotor, den kleinsten Motor der Biologie —, der sich dreht und ATP aus ADP und Phosphat zusammensetzt. Diese Stufe produziert etwa 34 ATP pro Glukosemolekül. Sie erfordert Sauerstoff als endgültigen Elektronenakzeptor.
+
+Insgesamt: 2 (Glykolyse) + 2 (Krebs) + ~34 (ETC) = ~38 ATP pro Glukose. Das Fließband ist elegant, leistungsfähig und vollständig davon abhängig, dass jede Stufe korrekt funktioniert.
+
+---
+
+## Wo es bei ME/CFS bricht
+
+Die Evidenz für mitochondriale Dysfunktion bei ME/CFS ist nicht länger indirekt. Sie stammt aus mehreren unabhängigen Untersuchungslinien.
+
+**Der PDH-Engpass.** Fluge, Mella und Kollegen am Haukeland-Universitätskrankenhaus berichteten, dass ME/CFS-Patienten Hinweise auf eine beeinträchtigte Pyruvat-Dehydrogenase-Funktion zeigen — den Enzymkomplex, der Pyruvat in Acetyl-CoA umwandelt, das Tor von der Glykolyse zum Krebs-Zyklus [@Fluge2016]. Wenn PDH gehemmt ist, kann Pyruvat nicht effizient in die Mitochondrien gelangen. Es staut sich und wird stattdessen in Laktat umgewandelt. Die Zelle fällt auf die Glykolyse zurück — 2 ATP statt 38. Dasselbe Glukosemolekül, ein Zwanzigstel der Energie.
+
+**Die metabolische Verschiebung.** Metabolomik-Studien zeigen durchweg, dass ME/CFS-Patienten veränderte Aminosäureprofile, gestörten Lipidstoffwechsel und Muster aufweisen, die mit einer beeinträchtigten mitochondrialen Fettsäureoxidation konsistent sind [@Germain2017taurineME; @Naviaux2016metabolomics]. Das Bild ist eines der metabolischen Inflexibilität: Die Maschinerie zum Verbrennen von Fett (Beta-Oxidation) und zum Betrieb des vollständigen Krebs-Zyklus unterarbeitet und erzwingt eine stärkere Abhängigkeit vom ineffizienten glykolytischen Pfad.
+
+**Die CPET-Evidenz.** Die zweitägige kardiopulmonale Belastungsuntersuchung (CPET) bietet das direkteste Fenster. Am Tag 1 trainieren ME/CFS-Patienten bis zur maximalen Kapazität und zeigen eine reduzierte Spitzensauerstoffaufnahme im Vergleich zu sitzenden Kontrollen — aber dies allein könnte Dekonditionierung sein. Am Tag 2, 24 Stunden später, reproduzieren gesunde Kontrollen ihre Leistung von Tag 1. ME/CFS-Patienten können das nicht. Ihre Ventilationsschwelle sinkt, ihre Spitzen-VO2 sinkt, und sie wechseln bei geringeren Belastungen in den anaeroben Stoffwechsel [@Snell2013CPET; @Stevens2018CPETmethod]. Das System ist nach einer einzigen maximalen Anstrengung objektiv schlechter. Dies ist die metabolische Signatur von PEM — Post-Exertional Malaise, geschrieben in Sauerstoffverbrauchskurven.
+
+**Die Laktatdaten.** ME/CFS-Patienten zeigen nach Belastung erhöhtes venöses Laktat bei Intensitäten, die bei Kontrollen kein nennenswertes Laktat erzeugen [@Jones2012lactate]. Das bedeutet, dass sie ihre anaerobe Schwelle — den Punkt, an dem die Glykolyse die oxidative Phosphorylierung überholt — bei Belastungen überschreiten, die eine gesunde Person aerob bewältigt. Der Gang in die Küche kann die anaerobe Schwelle überschreiten. Das Brennen, die Erschöpfung, die mehrtägige Erholung — das sind keine eingebildeten Symptome. Sie sind das subjektive Erleben einer Laktatazidose bei Aktivität auf Ruheniveau.
+
+---
+
+## Die Mathematik der Klippe
+
+Die Beziehung zwischen mitochondrialem Schaden und ATP-Ausgabe ist nicht linear. Eine 20 %-Reduktion der Atmungskettenkapazität erzeugt keine 20 %-Reduktion von ATP. Das System hat eine Reservekapazität — redundante Komplexe, überschüssige Enzyme —, die moderate Schäden puffert. Sobald aber der Schaden diesen Puffer überschreitet, fällt die ATP-Ausgabe steil ab. Dies ist ein Schwelleneffekt, und er erklärt eines der verwirrendsten Merkmale von ME/CFS: die Klippe.
+
+Patienten beschreiben eine scharfe Grenze zwischen „Durchhalten" und „Zusammenbruch". Sie können manche Aktivitäten tun — langsam, sorgfältig — und dann, ohne proportionalen Anstieg der Anforderung, krachen sie. Das ist keine psychologische Zerbrechlichkeit. Es ist das nichtlineare Verhalten eines Systems, das nahe seiner Pufferschwelle arbeitet. Kleine Anforderungssteigerungen, die bei einer gesunden Person unsichtbar wären, stoßen ein beeinträchtigtes System über seine Klippenkante. Die Mathematik sagt genau das Muster voraus, das Patienten beschreiben.
+
+---
+
+## Warum der Einbruch verzögert ist
+
+PEM kommt 12 bis 72 Stunden nach der Anstrengung, nicht währenddessen. Diese Verzögerung ist das Merkmal, das Kliniker am meisten verwirrt, die auf periphere Ermüdung geschult sind, wo die Erschöpfung sofort eintritt.
+
+Mehrere Mechanismen tragen zur Verzögerung bei. Sport erzeugt reaktive Sauerstoffspezies (ROS) als Nebenprodukt erhöhter mitochondrialer Aktivität. In gesunden Mitochondrien neutralisieren antioxidative Systeme ROS in Echtzeit. In geschädigten Mitochondrien übersteigt die ROS-Produktion die Beseitigungskapazität, und der Überschuss beginnt, die Mitochondrien selbst zu schädigen — Membranlipide zu oxidieren, mitochondriale DNA zu schädigen, die Komplexfunktion zu beeinträchtigen. Dieser Schaden akkumuliert während und nach dem Sport, manifestiert sich aber erst als funktionale Beeinträchtigung, wenn die Zelle am nächsten Tag mit der nun weiter geschädigten Maschinerie versucht, den Energiebedarf zu decken.
+
+Darüber hinaus braucht die durch Anstrengung ausgelöste Entzündungskaskade — Zytokinfreisetzung, Mikroglia-Aktivierung, Rekrutierung von Immunzellen — 12–24 Stunden, um ihren Höhepunkt zu erreichen. Der subjektive Einbruch fällt mit dem Entzündungs- bzw. Zytokin-Höhepunkt zusammen, nicht mit der mechanischen Anstrengung.
+
+Das grausame Ergebnis: Der Patient fühlt sich während und unmittelbar nach der Anstrengung wohl. Er glaubt, dass er sich verbessert. Er tut mehr. Der Einbruch kommt einen Tag später und lehrt nichts darüber, welche spezifische Aktivität ihn verursacht hat, weil die zeitliche Kopplung zwischen Aktion und Konsequenz gebrochen ist.
+
+---
+
+## Was das nicht ist
+
+Das ist nicht „müde sein". Gesunde Müdigkeit löst sich mit Ruhe auf, weil die Maschinerie intakt ist — Ruhe ermöglicht das Auffüllen der ATP-Pools, den Ersatz von Glykogen, die Reparatur von Muskelfasern. Bei ME/CFS ist die Maschinerie selbst beeinträchtigt. Ruhe reduziert die Nachfrage, repariert aber nicht das Produktionssystem. Es ist der Unterschied zwischen einem leeren Kraftstofftank und einem beschädigten Motor. Den Tank füllen repariert den Motor nicht.
+
+Das ist keine Dekonditionierung. Dekonditionierung senkt die aerobe Kapazität durch Muskelatrophie und kardiovaskuläres Detraining. Sie wird durch abgestuftes Training umgekehrt. ME/CFS wird durch dieselbe Intervention verschlechtert. Die Zweitages-CPET-Daten — Verschlechterung, nicht Verbesserung, nach Anstrengung — widersprechen der Dekonditionierungshypothese direkt.
+
+Das ist keine Faulheit, keine Depression und kein Mangel an Willenskraft. Es ist ein messbarer, reproduzierbarer Energieproduktionsausfall auf zellulärer Ebene mit spezifischen biochemischen Korrelaten. Keine Menge Motivation repariert einen PDH-Komplex, der nicht funktioniert.
+
+---
+
+## Das Ausmaß des Problems
+
+Ihr Körper recycelt täglich 50 kg ATP. Wenn diese Recyclingrate um ein Drittel sinkt, verlieren Sie das energetische Äquivalent von allem, was über das Basisüberleben hinausgeht. Keine kräftige Bewegung. Keine anhaltende Konzentration. Keine Immunüberwachung jenseits des Minimums. Keine Gewebereparatur jenseits von Notfällen. Alles, was über das Am-Leben-Halten hinausgeht, wird abgeschnitten.
+
+Das ist die Energiehülle. Keine Metapher. Keine Bewältigungsstrategie. Eine metabolische Beschränkung, die durch die Leistung beeinträchtigter Mitochondrien auferlegt wird, die in Zellen arbeiten, die ihr Bestes mit einer Maschinerie tun, die nicht richtig funktioniert [@Loth2026mecfs].
+
+---

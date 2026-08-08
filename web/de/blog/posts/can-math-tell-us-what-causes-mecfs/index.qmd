@@ -1,0 +1,70 @@
+---
+title: "Können uns die Mathematik sagen, was ME/CFS verursacht?"
+description: "Die Biologie beantwortet kausale Fragen im Labor: Sie stören ein System, beobachten das Ergebnis und leiten die Beziehung ab. Aber bei menschlichen Erkrankungen sind die meisten Störungen weder kontrollierbar noch umkehrbar, die meisten Patienten kommen mit bereits etablierter Erkrankung an, und das, was Sie am meisten wissen möchten — was im Moment des Ausbruchs passiert ist —, ist normalerweise unbeobachtbar. Die Biologie erreicht ihre Grenze."
+author: "Yannick Loth"
+date: "2026-04-23"
+categories: [Modellierung, Systembiologie]
+lang: de
+---
+
+Die Biologie beantwortet kausale Fragen im Labor: Sie stören ein System, beobachten das Ergebnis und leiten die Beziehung ab. Aber bei menschlichen Erkrankungen sind die meisten Störungen weder kontrollierbar noch umkehrbar, die meisten Patienten kommen mit bereits etablierter Erkrankung an, und das, was Sie am meisten wissen möchten — was im Moment des Ausbruchs passiert ist —, ist normalerweise unbeobachtbar. Die Biologie erreicht ihre Grenze.
+
+Die Mathematik hat einen anderen Ansatz. Statt das kausale Ereignis direkt zu beobachten, bauen Sie ein formales Modell der Systemdynamik, kodieren die Mechanismen, von denen Sie glauben, dass sie wirken, und fragen dann: Kann dieser Mechanismus allein, ausgehend von einem gesunden Zustand, das System über die Grenze in die Krankheit treiben? Diese Frage kann analytisch beantwortet werden, ohne das Experiment an einem Patienten durchzuführen.
+
+Das ist es, was Kap. 33 des Rahmenwerks tut. Es nimmt die qualitative kausale Hierarchie aus Kap. 16 — die dreistufige Klassifizierung von Wurzelursachen, Verstärkern und Konsequenzen, entwickelt durch verbale biologische Argumentation — und unterzieht sie einem formalen Test unter Verwendung eines dynamischen Systemmodells mit 67 Variablen [Kap. 33 §Introduction].
+
+---
+
+## Drei komplementäre Analysen
+
+Die formale Analyse stellt drei Fragen, die jeweils einen anderen Aspekt der Krankheitsdynamik ansprechen [Kap. 33 §Methodology]. Die erste ist die Trigger-Suffizienz: Kann die Störung eines einzelnen Mechanismus — ausgehend vom gesunden stationären Zustand — das System über die Separatrix treiben, die Grenze zwischen dem gesunden Attraktor und dem Krankheitsattraktor, ohne jede andere Veränderung? Wenn ja, kann dieser Mechanismus allein die Krankheit auslösen. Die zweite ist die Sensitivitätsanalyse: Im Krankheitsgleichgewicht, welche Parameter kontrollieren die Krankheitskonfiguration am stärksten? Hohe Sensitivität bedeutet, dass kleine Änderungen an einem Parameter große Verschiebungen in der Krankheitsschwere erzeugen, was die tragenden Mechanismen mit dem größten therapeutischen Hebel identifiziert. Die dritte ist das Entfernen von Sperren: Kann die Wiederherstellung eines einzelnen Mechanismus auf gesunde Werte — ausgehend vom Krankheitsgleichgewicht — dem System ermöglichen, dem Krankheitsattraktor zu entkommen? Wenn ja, ist dieser Mechanismus eine notwendige Sperre, deren Vorhandensein für die Aufrechterhaltung der Krankheit erforderlich ist.
+
+Die Trigger-Suffizienz identifiziert, was die Krankheit verursachen kann; das Entfernen von Sperren identifiziert, was sie aufrechterhält. Die beiden sind nicht symmetrisch, denn ein Mechanismus, der die Krankheit auslöst, muss für ihre Aufrechterhaltung nicht notwendig sein, sobald andere Schleifen eingegriffen haben, und ein Mechanismus, der für die Aufrechterhaltung notwendig ist, muss nicht der ursprüngliche Auslöser gewesen sein.
+
+---
+
+## Ergebnisse der Trigger-Suffizienz
+
+Drei der vier Kandidaten-Wurzelursachen bestehen den Trigger-Suffizienz-Test [Kap. 33 §Trigger Sufficiency Analysis].
+
+Die ZNS-Energiekrise — die Reduktion der Komplex-I-Aktivität — ist der direkteste Weg. Unterhalb von etwa 65 % der gesunden Komplex-I-Aktivität durchläuft das Energie-Immun-Rückkopplungssystem eine Sattel-Knoten-Bifurkation: Der gesunde Attraktor verschwindet, und der einzige verbleibende stabile Zustand ist der Krankheitsattraktor [Kap. 33 §CNS Energy Crisis: Complex I Reduction]. Die Kaskade läuft wie folgt ab: ATP sinkt, die Immunkontrolle schwächt sich, Zytokine steigen, der Energie-Immun-Teufelskreis verriegelt sich und epigenetische Konsolidierung beginnt.
+
+Die Aktivierung des metabolischen Sicherheitsmodus folgt einem anderen Mechanismus. Der Sicherheitsmodus-Schalter weist Hysterese auf, eine bistabile Struktur, bei der Aktivierung und Deaktivierung unterschiedliche Schwellen haben. Ein vorübergehendes Bedrohungssignal, das die Aktivierungsschwelle überschreitet, löst den Schalter in den Hochunterdrückungszustand, und interne Rückkopplungen — ETC-Unterdrückung erhöht ROS, ROS treiben den Zytokinanstieg, Zytokine stützen das Bedrohungssignal — halten den Schalter aktiviert, selbst nachdem die externe Bedrohung verschwunden ist. Der Mechanismus ist, sobald ausgelöst, selbstverstärkend [Kap. 33 §Metabolic Safe Mode Activation].
+
+Die GPCR-Autoantikörper-Kaskade arbeitet langsamer. Wenn der Autoantikörpertiter etwa 55–65 % des normalisierten Maximums erreicht, reduziert endotheliale Dysfunktion die effektive Sauerstoffzufuhr genug, um die Energie-Immun-Bifurkation auszulösen. Da die Autoantikörperakkumulation Wochen bis Monate dauert, ist dieser Weg mit dem ME/CFS-Subtyp mit allmählichem Beginn konsistent und nicht mit der akuten postinfektiösen Präsentation [Kap. 33 §GPCR Autoantibodies].
+
+Die TRPM3-Kanalopathie ist bedingt trigger-suffizient, nicht unabhängig. Selbst der vollständige TRPM3-Verlust reduziert die Komplex-I-Aktivität auf etwa 70 % des gesunden Wertes — nahe an, aber nicht über der kritischen Schwelle von 65 % —, sodass sie die Krankheit bei den meisten Menschen nicht unabhängig auslöst. Stattdessen verschiebt sie die Schwelle für jeden anderen Mechanismus: Ein Patient mit TRPM3-Dysfunktion benötigt nur eine 20 %-Komplex-I-Reduktion, um die Bifurkation zu überschreiten, gegenüber 35 % bei einem Patienten mit intakter Kalziumsignalübertragung. Die Dysfunktion ist eine Vulnerabilität, die Routineinfektionen gefährlich macht [Kap. 33 §TRPM3 Trigger Sufficiency].
+
+---
+
+## Sensitivität: Was den Krankheitszustand am meisten steuert
+
+Die globale Sensitivitätsanalyse (Sobol-Indizes) ordnet die Parameter danach, wie stark sie den Krankheitszustands-ATP-Spiegel steuern, unter Berücksichtigung nichtlinearer Wechselwirkungen [Kap. 33 §Sensitivity Analysis]. Die Rangfolge lautet: Komplex-I-Aktivität (Sobol-Index 0,42), Immunerschöpfungsrate (0,31), Sicherheitsmodus-Aktivierung (0,28), epigenetischer Methylierungsindex (0,22) und Autoantikörpertiter (0,19). Die Summe dieser Indizes erreicht 1,77 — deutlich über 1 —, weil die Parameterinteraktionen selbst erheblich sind. Der Krankheitszustand wird nicht durch eine einzelne Variable kontrolliert, sondern durch deren kollektive Konfiguration, was die mathematische Signatur eines Mehrsperren-Systems ist.
+
+Die Komplex-I-Aktivität ist der einflussreichste einzelne Parameter, aber die Immunerschöpfung rangiert an zweiter Stelle, höher als die lokale Sensitivitätsanalyse nahelegen würde, was eine starke nichtlineare Kopplung zwischen den Energie- und Immun-Subsystemen widerspiegelt. Der epigenetische Methylierungsindex rangiert an vierter Stelle, ein moderater, aber allgegenwärtiger Einfluss, der alle Ausgangsvariablen betrifft, ohne eine einzelne zu dominieren. Dies ist konsistent mit seiner Rolle als langsamer Modifikator, der den Krankheitsattraktor fortschreitend vertieft, anstatt ein Subsystem direkt anzutreiben.
+
+---
+
+## Sperrenentfernung: Woraus sich das System nicht befreien kann
+
+Für drei der vier Krankheitssubtypen ist die Wiederherstellung eines einzelnen Parameters ausreichend, um dem Krankheitsattraktor zu entkommen [Kap. 33 §Lock Removal Results]. Im immundominanten Subtyp erreicht die Wiederherstellung der Immunerschöpfungsrate den Ausbruch; im metabolisch-dominanten Subtyp ist entweder die Wiederherstellung der Komplex-I-Aktivität oder die Deaktivierung des Sicherheitsmodus-Schalters ausreichend; im neurovaskulär-dominanten Subtyp erreicht die Beseitigung von Autoantikörpern den Ausbruch.
+
+Der schwere/verriegelte Attraktor ist anders. Keine Wiederherstellung eines einzelnen Parameters ermöglicht den Ausbruch — jede Intervention verschiebt das System innerhalb des Krankheitsbeckens, ohne dessen Grenze zu überschreiten. Die minimalen erfolgreichen Kombinationen erfordern alle die Umkehrung der epigenetischen Methylierung gepaart mit einer energieerzeugenden Wiederherstellung [Kap. 33 §Minimum Intervention Sets]. Dies ist die mathematische Grundlage des Arguments, das früher in dieser Serie vorgebracht wurde, dass schweres ME/CFS eine Kombination statt einer Einzelziel-Behandlung erfordert. Die epigenetische Konsolidierung hat mehrere Parameter gleichzeitig unter die Ausbruchsschwelle gedrückt, sodass die Wiederherstellung eines Einzels die anderen unterdrückt lässt und den Krankheitsattraktor in der modifizierten Landschaft intakt lässt [Kap. 33 §Interpretation: Why Epigenetic Reversal Is Rate-Limiting].
+
+---
+
+## Was diese Art von Analyse behaupten kann und was nicht
+
+Die Ergebnisse hier stammen aus einem Modell. Die 67 ODEs kodieren das aktuelle biologische Verständnis, und die Kopplungsgleichungen spiegeln die bekannte Rückkopplungstopologie wider. Aber viele Parameterwerte werden aus begrenzten Daten geschätzt, das Modell wurde nicht vollständig numerisch validiert, und die qualitativen Vorhersagen — trigger-suffiziente Mechanismen, notwendige Sperren, minimale Interventionssätze — hängen von der Rückkopplungsstruktur ab und nicht von präzisen Parameterwerten [Kap. 33 §Analytical vs. Numerical Results].
+
+Die analytischen Behauptungen (welche Mechanismen trigger-suffizient sind, welche notwendige Sperren sind) sollten robust gegenüber Modelldetails sein, weil sie die Topologie des Rückkopplungsnetzwerks widerspiegeln. Die spezifischen numerischen Schwellen (Komplex I bei 65 %, Autoantikörpertiter bei 55–65 % normalisiert) sind Größenordnungs-Schätzungen, die mit besseren Daten verfeinert werden.
+
+Was die Analyse wertvoll macht, ist nicht, dass sie die Hierarchie beweist, sondern dass sie die Hierarchie auf eine spezifische Weise testbar macht. Das Modell macht Vorhersagen — darüber, welche Interventionstypen erfolgreich sein sollten, welche bei Verbesserung ohne Genesung ein Plateau erreichen sollten, welche Kombinationen qualitativ unterschiedliche Ergebnisse erzeugen sollten —, die gegen klinische Daten geprüft werden können. Wenn Vorhersagen scheitern, sagt Ihnen das Scheitern etwas Spezifisches darüber, welcher Teil der Rückkopplungsstruktur des Modells falsch ist.
+
+Das ist der Beitrag, den die Mathematik zu einer Krankheit leistet, die experimentell nicht leicht untersucht werden kann. Nicht Beweis, sondern Präzision — die Art von Präzision, die eine verbale Hypothese in eine widerlegbare verwandelt.
+
+---
+
+*Vorheriger Artikel in dieser Reihe: [Warum Einzelziel-Behandlungen bei ME/CFS weiterhin scheitern](https://www.linkedin.com/pulse/) (2026-04-20)*
+
+*Nächster in dieser Reihe: Das Multi-Hit-Modell — warum nur manche Menschen nach einer Infektion ME/CFS entwickeln, und wie prädisponierende Vulnerabilitäten mathematisch aussehen*

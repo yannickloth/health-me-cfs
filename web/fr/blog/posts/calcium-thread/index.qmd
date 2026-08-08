@@ -1,0 +1,100 @@
+---
+title: "Le fil du calcium"
+description: "Il existe un élément unique qui apparaît dans au moins trois modes de défaillance distincts de l'EM/SFC. Pas comme cause racine dans chaque cas — les mécanismes sont différents. Mais comme un personnage récurrent : la chose qui se dérègle, dans différents tissus, pour différentes raisons, produisant des symptômes différents qui remontent tous au même ion."
+author: "Yannick Loth"
+date: "2026-04-18"
+categories: [Physiopathologie, Canaux ioniques]
+lang: fr
+---
+
+Il existe un élément unique qui apparaît dans au moins trois modes de défaillance distincts de l'EM/SFC. Pas comme cause racine dans chaque cas — les mécanismes sont différents. Mais comme un personnage récurrent : la chose qui se dérègle, dans différents tissus, pour différentes raisons, produisant des symptômes différents qui remontent tous au même ion.
+
+Le calcium.
+
+---
+
+## Mode de défaillance 1 : le muscle qui ne peut pas récupérer
+
+Après un effort physique ou cognitif, de nombreux patients atteints d'EM/SFC ressentent un effondrement différé — le malaise post-effort — qui peut ne pas culminer avant 24 à 48 heures et peut durer des jours ou des semaines. Le mécanisme proposé par Wirth et Scheibenbogen [@WirthScheibenbogen2021muscle] suit une chaîne ionique spécifique.
+
+Les cellules musculaires nécessitent une pompe sodium-potassium (l'enzyme Na⁺/K⁺-ATPase) pour maintenir leur chimie interne. Dans l'EM/SFC, cette pompe semble sous-performante — possiblement parce que les récepteurs bêta-2 adrénergiques qui l'activent sont dysfonctionnels, possiblement par interférence auto-anticorps. Quand la pompe échoue, le sodium s'accumule à l'intérieur de la cellule.
+
+Le sodium intracellulaire élevé déclenche l'échangeur sodium-calcium — un transporteur qui exporte normalement le calcium — pour fonctionner en sens inverse. Au lieu de déplacer le calcium vers l'extérieur, il l'importe.
+
+Le résultat est une surcharge de calcium à l'intérieur des cellules musculaires. Le calcium à des concentrations intracellulaires élevées est toxique. Il inonde les mitochondries, altère la production d'énergie, déclenche un stress oxydatif et, dans les cas graves, provoque des dommages structuraux aux fibres musculaires — visibles en microscopie électronique chez les patients atteints d'EM/SFC. L'imagerie du sodium — une technique IRM spécialisée qui mesure les ions sodium directement dans le tissu musculaire — a confirmé l'accumulation prédite : les patients atteints d'EM/SFC montrent une augmentation de 30 % du sodium musculaire intracellulaire après l'exercice, contre 17 % chez les témoins.
+
+C'est l'un des principaux mécanismes proposés derrière le malaise post-effort. Pas du déconditionnement. Pas de la psychologie. Une cascade ionique spécifique, mesurable, qui empoisonne les cellules musculaires quand elles sont poussées au-delà d'un seuil.
+
+---
+
+## Mode de défaillance 2 : la cellule immunitaire qui ne peut pas tirer
+
+Les cellules natural killer sont les tueurs de première ligne du système immunitaire — les cellules qui identifient et détruisent les cellules infectées ou anormales. Leur mécanisme de destruction dépend du calcium. Quand une cellule natural killer reconnaît une cible, le calcium afflue à travers un canal spécifique appelé TRPM3, déclenchant la dégranulation qui délivre la charge mortelle.
+
+Dans l'EM/SFC, TRPM3 est en panne.
+
+Le groupe de l'université Griffith (Marshall-Gradisnik et coll.) documente cela depuis des années. L'activité du canal TRPM3 est significativement réduite dans les cellules natural killer des patients atteints d'EM/SFC. L'influx de calcium est altéré. Les cellules ne peuvent pas dégranuler correctement. Leur capacité de destruction est démontrablement réduite. Une étude à grande échelle de 2025 a confirmé ce résultat sur plusieurs sites de laboratoire [@marshall2025trpm3] — en faisant l'une des anomalies biologiques les plus constamment observées dans l'EM/SFC, bien qu'une réplication indépendante par des groupes de recherche distincts soit encore nécessaire.
+
+Notablement, la naltrexone à faible dose — un traitement dont de nombreux patients atteints d'EM/SFC rapportent un bénéfice — semble restaurer partiellement la fonction TRPM3 dans ces cellules. L'article de 2024 de Lohn et coll. [@WirthLohn2024microvascular] a documenté cet effet et proposé la dysfonction TRPM3 comme explication mécanistique de pourquoi la naltrexone à faible dose produit un bénéfice dans cette population.
+
+Ici, le problème du calcium est en amont, pas en aval. Le canal lui-même est dysfonctionnel — non pas à cause d'une crise énergétique poussant une cascade, mais en tant qu'altération primaire. La cellule immunitaire ne peut pas charger le calcium. Elle ne peut pas tirer. Les agents pathogènes ou les virus réactivés que le système immunitaire devrait éliminer ne sont pas éliminés.
+
+---
+
+## Mode de défaillance 3 : le cerveau qui ne peut pas se reposer
+
+Pendant le sommeil profond à ondes lentes, les neurones thalamiques doivent osciller à basse fréquence — autour de 1 Hz, le rythme delta. C'est l'état dans lequel le système d'élimination des déchets du cerveau (le système glymphatique, qui dépend de ces oscillations lentes) peut fonctionner. Quand vous vous réveillez véritablement reposé, c'est pourquoi.
+
+Chez certains patients atteints d'EM/SFC, et chez la majorité des patients atteints de fibromyalgie, ces oscillations lentes sont contaminées par l'activité alpha — la fréquence d'éveil du cerveau (~10 Hz) s'introduisant dans le sommeil profond. Le résultat : un sommeil qui semble normal en durée mais ne restaure pas.
+
+Le mécanisme, caractérisé par Timofeev et coll. [@timofeev2015thalamic], remonte au canal calcique thalamique. Spécifiquement, une classe de canaux calciques voltage-dépendants dans les neurones thalamo-corticaux — qui s'ouvrent et se ferment à basse tension, générant des salves rythmiques — sont responsables de la production de l'activité oscillatoire lente qui crée les ondes delta. Quand l'excitabilité thalamique est anormalement élevée — quand le circuit ne peut pas correctement se calmer — ces canaux produisent à la place des oscillations à plus haute fréquence. L'alpha s'introduit. Le sommeil profond devient non réparateur.
+
+Le canal calcique impliqué est différent du canal TRPM3 dans les cellules immunitaires et de l'échangeur sodium-calcium dans le muscle. Même élément, machinerie moléculaire différente, tissu différent, conséquence clinique différente.
+
+---
+
+## Trois défaillances, trois mécanismes — ou un seul ?
+
+À ce stade, le tableau ressemble à ceci :
+
+| Tissu | Problème calcique | Conséquence clinique |
+|--------|----------------|---------------------|
+| Muscle | Inversion de l'échangeur sodium-calcium → surcharge de calcium (secondaire à la défaillance sodium/énergie) | Malaise post-effort, intolérance à l'exercice |
+| Cellules immunitaires | Dysfonction du canal TRPM3 (primaire) | Élimination altérée des agents pathogènes, épuisement immunitaire |
+| Thalamus | Hyperexcitabilité du canal calcique voltage-dépendant | Sommeil non réparateur, altération cognitive |
+
+Sont-ce trois problèmes indépendants qui co-occurrent parce que l'EM/SFC est une maladie multisystémique ? Ou sont-ce les expressions d'une seule dysrégulation calcique sous-jacente ?
+
+L'hypothèse TRPM3 offre un candidat pour une explication unificatrice. TRPM3 n'est pas seulement exprimé dans les cellules immunitaires. Il est exprimé dans tout le système nerveux central, y compris dans les neurones du cerveau. Il joue un rôle dans la libération spontanée de neurotransmetteurs, dans l'homéostasie calcique neuronale, et dans l'excitabilité des circuits sensoriels et cérébraux. Si la dysfonction TRPM3 était systémique plutôt que restreinte aux cellules immunitaires — affectant les neurones aussi bien que les cellules natural killer — elle modifierait la gestion du calcium dans les circuits thalamiques, contribuant potentiellement aux anomalies d'oscillation observées dans les études du sommeil.
+
+Ce n'est pas établi. La dysfonction TRPM3 dans l'EM/SFC n'a été démontrée que dans les cellules immunitaires. Que la même altération existe dans les neurones thalamiques n'a jamais été mesuré. C'est une hypothèse, pas un résultat.
+
+Mais c'est une hypothèse falsifiable. Une seule expérience — mesurer la fonction TRPM3 dans des modèles cellulaires neuronaux, ou dans du tissu cérébral post-mortem de patients atteints d'EM/SFC, ou indirectement par imagerie de la dynamique calcique thalamique — pourrait y répondre.
+
+---
+
+## Ce que cela signifie pour les sous-types
+
+La voie musculaire (inversion de l'échangeur sodium-calcium, surcharge en sodium, défaillance énergétique poussant la toxicité calcique) est très probablement un mécanisme secondaire — une dysrégulation calcique en aval de la crise métabolique. Les patients avec une hypoperfusion sévère, une atteinte cardiovasculaire significative, ou des déclencheurs d'effort physique élevé peuvent exprimer cette voie le plus fortement.
+
+La voie TRPM3 peut être primaire — le canal est cassé en premier, et la défaillance énergétique, la dysfonction immunitaire et éventuellement la perturbation du sommeil suivent comme conséquences en aval. Ce serait un sous-type distinct : un phénotype entraîné par une canalopathie où la lésion racine est au niveau du canal, pas au niveau métabolique.
+
+Ces deux sous-types prédiraient des réponses au traitement différentes. S'attaquer à la cascade sodium-calcium (avec des stimulants de la Na⁺/K⁺-ATPase, des bloqueurs de canaux sodiques, ou un soutien mitochondrial) cible la voie secondaire. Restaurer la fonction TRPM3 (la LDN étant le candidat actuel) cible la première. Chez un patient où les deux sont actives, les deux peuvent être nécessaires.
+
+Le même médicament donné au mauvais sous-type ne produirait aucune réponse — et cela pourrait expliquer une fraction substantielle des échecs d'essais cliniques dans l'EM/SFC qui ont intrigué les chercheurs pendant des décennies.
+
+---
+
+## Le fil
+
+Un élément, trois systèmes, au moins deux mécanismes distincts, possiblement une cause racine.
+
+Le calcium n'est pas la seule histoire dans l'EM/SFC. Mais c'est peut-être un fil qui, quand on le tire, relie plus de la maladie que n'importe quelle autre molécule unique. La voie musculaire et les voies immunitaire/sommeil utilisent une machinerie moléculaire différente — la connexion entre elles peut être métabolique plutôt que canalopathique. Mais le problème immunitaire et le problème de sommeil peuvent partager une racine commune dans TRPM3. Le patient qui a tous les trois peut ne pas avoir trois maladies séparées. Il peut avoir deux problèmes calciques, pas un — et l'un de ces deux peut être réversible.
+
+Cette expérience — mesurer la fonction TRPM3 dans les neurones thalamiques dans l'EM/SFC — n'a pas été réalisée. Quand elle le sera, la réponse sera importante.
+
+---
+
+*Fait partie d'une série en cours sur la biologie de l'EM/SFC.*
+
+---

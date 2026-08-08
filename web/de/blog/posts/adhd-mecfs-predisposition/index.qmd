@@ -1,0 +1,106 @@
+---
+title: "Warum Menschen mit ADHS doppelt so häufig ME/CFS entwickeln"
+description: "Dies ist der zweite Artikel einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Der erste Artikel vertrat die Auffassung, dass ADHS ein Defizit der Gehirn-Energieproduktion ist. Dieser beantwortet die nächste Frage: Warum könnte dieses Defizit Menschen für ME/CFS anfällig machen?"
+author: "Yannick Loth"
+date: "2026-05-25"
+categories: [ADHS, Neurodivergenz, Pathophysiologie]
+lang: de
+---
+
+Dies ist der zweite Artikel einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Der erste Artikel vertrat die Auffassung, dass ADHS ein Defizit der Gehirn-Energieproduktion ist. Dieser beantwortet die nächste Frage: Warum könnte dieses Defizit Menschen für ME/CFS anfällig machen?
+
+---
+
+## Das epidemiologische Signal
+
+Die ALSPAC-Geburtskohorte — eine der größten Längsschnittstudien der Welt — verfolgte 4.563 Kinder von der Geburt bis zum 18. Lebensjahr. Die Befunde zu neurodivergenten Merkmalen und Müdigkeit sind auffallend [@Quadt2024neurodivergentfatigue]:
+
+- **ADHS-Merkmale im Alter von 9 Jahren → OR = 2,18** (95 %-KI 1,33–3,56, p = 0,002) für chronische behindernde Müdigkeit im Alter von 18 Jahren *(Anmerkung: der gemessene Endpunkt war "chronische behindernde Müdigkeit", nicht nach ICC- oder CCC-Kriterien diagnostiziertes ME/CFS)*
+- **Autismus-Merkmale im Alter von 7 Jahren → OR = 1,78** (95 %-KI 1,17–2,72, p = 0,004)
+- **IL-6 im Alter von 9 Jahren vermittelte den Pfad** — unabhängig von Depression
+
+Die Kinder, die Müdigkeit entwickelten, waren nicht einfach nur neurodivergent. Sie waren neurodivergent UND bereits entzündet. Die Entzündung war volle neun Jahre vor dem Auftreten der Müdigkeit messbar.
+
+---
+
+## Die Zahlen beim erwachsenen ME/CFS
+
+Unter Erwachsenen mit bestätigtem CFS (n = 158, einzelne Spezialklinik) [@SaezFrancas2012adhdcfs]:
+
+- **29,7 % hatten ADHS in der Kindheit** — gegenüber etwa 5–7 % in der Allgemeinbevölkerung. Eine 5-fache Anreicherung.
+- **20,9 % erfüllten die Erwachsenen-ADHS-Kriterien weiterhin**
+- Diejenigen mit komorbidem ADHS hatten einen **früheren CFS-Beginn und eine schlechtere Prognose**
+- ADHS-Schweregrad und depressive Symptome waren **unabhängige Prädiktoren** für die Müdigkeitsintensität
+
+*Vorbehalte: Dies ist eine Stichprobe einer einzelnen Spezialklinik (Verweis-Bias möglich), ADHS wurde retrospektiv bei Erwachsenen beurteilt, die sich an kindliche Symptome erinnerten (Erinnerungs-Bias), und CFS wurde nach den Fukuda-Kriterien diagnostiziert (breiter als ICC/CCC). Die Anreicherung kann in bevölkerungsbasierten Stichproben kleiner sein.*
+
+---
+
+## Die Metabolische-Reserve-Hypothese
+
+Stellen Sie sich die Gehirn-Energieproduktion als einen Generator mit einer bestimmten maximalen Leistung vor. Die tägliche kognitive Funktion benötigt einen Teil dieser Leistung. Die Differenz zwischen dem, was Sie brauchen, und dem, was Sie produzieren können, ist Ihre **metabolische Reserve** — Ihr Puffer für Zeiten erhöhter Anforderungen.
+
+Das ADHS-Gehirn arbeitet bereits mit **8,1 % weniger globalem Glukosestoffwechsel** [@Zametkin1990] und dokumentierter **präfrontaler Hypoperfusion** [@Berthier2025cbfadhd]. Sein Generator ist kleiner. Seine Reserve ist dünner.
+
+Nun fügen Sie einen Immunauslöser hinzu.
+
+Eine Infektion zu bekämpfen ist metabolisch teuer. Zytokinproduktion, Lymphozytenproliferation, Neuroinflammation — all das verbraucht Energie. Bei jemandem mit großer Reserve kann das System die Immunantwort unterstützen, während Reparaturprozesse im Hintergrund laufen. Müdigkeit ist vorübergehend. Die Erholung folgt.
+
+Bei jemandem, dessen Reserve bereits marginal war — dessen Gehirn bereits nahe seiner Kapazität lief, nur um Aufmerksamkeit aufrechtzuerhalten — drückt dieselbe Infektion das System unter eine kritische Schwelle.
+
+---
+
+## Das Zwei-Treffer-Schwellenmodell
+
+Der Übergang von postinfektiöser Müdigkeit zu ME/CFS kann an einer bestimmten Schwelle auftreten — obwohl dies eine Hypothese bleibt, kein gezeigtes biophysikalisches Ereignis. Der vorgeschlagene Mechanismus: Wenn mitochondriale Schäden durch reaktive Sauerstoffspezies die Reparaturkapazität übersteigen, beginnt ein selbsterhaltender Zyklus: beschädigte Mitochondrien produzieren mehr ROS, die mehr Mitochondrien schädigen, die mehr ROS produzieren. Das System kehrt nicht spontan in seinen Zustand vor der Erkrankung zurück.
+
+Die vorbestehende metabolische Reserve bestimmt, wer diese Schwelle überschreitet:
+
+- **Hohe Reserve** (neurotypisch, keine metabolischen Risikofaktoren): Infektion → vorübergehende Müdigkeit → Erholung
+- **Niedrige Reserve** (ADHS, AS, Eisenmangel, hEDS): Infektion → Schwelle überschritten → ME/CFS
+
+Das Modell sagt **Hysterese** voraus — die Umkehrung der Infektion kehrt ME/CFS nicht um, weil der vorwärtskoppelnde Schadenszyklus nun selbsterhaltend ist.
+
+*Eine einfachere Alternativerklärung: Die ALSPAC-Daten zeigten, dass IL-6 den Pfad vermittelte. Chronische Entzündung allein — ohne jedes "Reserve"-Konzept — könnte direkt sowohl neurodivergente Merkmale als auch die spätere Müdigkeitsanfälligkeit verursachen. Das Modell der metabolischen Reserve fügt nur dann erklärenden Wert hinzu, wenn die Korrektur von Reservedefiziten (Eisen, BH4, Perfusion) den Ausbruch von ME/CFS verhindert — eine Vorhersage, die noch nicht getestet wurde.*
+
+---
+
+## Die Stimulanzien-Dissoziation: konsistent mit dem Modell
+
+Eine PNAS-Umfrage von 2025 unter 3.925 ME/CFS-Patienten ergab [@Vernon2025PNAS]:
+
+- Stimulanzien verbesserten **Brain Fog bei 77,1 %**
+- Stimulanzien verbesserten die **Müdigkeitswahrnehmung bei 71,7 %**
+- Stimulanzien hatten einen **Nettoeffekt von -1,5 % auf PEM**
+
+Diese Dissoziation ist genau das, was das Modell der metabolischen Reserve vorhersagt. Stimulanzien erhöhen die Katecholamineffizienz — was die Energiekosten jeder kognitiven Einheit reduziert. Sie erhöhen effektiv die kognitive Komfortzone. Aber sie erhöhen nicht die maximale mitochondriale Kapazität. PEM wird durch den Gesamtmetabolik-, die Produktionskapazität übersteigenden Verbrauch ausgelöst, den Stimulanzien nicht verändern.
+
+Die verbesserte Kognition führt oft zu erhöhter Aktivität — die "Ersparnisse" werden ausgegeben statt angelegt. Das Nettoergebnis: besserer Brain Fog, unverändertes oder schlechteres PEM.
+
+---
+
+## Zeitliche Vorrangigkeit: ADHS kommt zuerst
+
+Ein oft übersehener kritischer Punkt: Die ALSPAC-Daten zeigen, dass **ADHS-Merkmale dem Müdigkeitsbeginn um fast ein Jahrzehnt vorausgehen** [@Quadt2024neurodivergentfatigue]. Das ist nicht ME/CFS, das ADHS verursacht. Es ist ADHS, das die Gehirne markiert, die zuerst brechen, wenn ein Immunauslöser eintrifft.
+
+Die 29,7 %-Prävalenz von kindlichem ADHS in CFS-Kohorten erzählt dieselbe Geschichte aus der anderen Richtung [@SaezFrancas2012adhdcfs]: Fast ein Drittel der ME/CFS-Patienten hatte ein vorbestehendes Energiedefizit, das in der Kindheit als ADHS diagnostizierbar war.
+
+---
+
+## Was ist modifizierbar?
+
+Wenn die Hypothese der metabolischen Reserve richtig ist, ist die Prädisposition kein rein genetisches Schicksal. Mehrere Komponenten sind modifizierbar:
+
+**Eisenstatus.** Ferritin unter 30 ng/mL beeinträchtigt sowohl die Dopaminsynthese als auch die mitochondriale Funktion [@DelRosso2026ironNeurodevelopmental]. Die Korrektur ist billig und sicher.
+
+**BH4-Kofaktorunterstützung.** Für GCH1-rs841-Träger (~4 % der Bevölkerung) könnte eine BH4-Supplementierung oder Kofaktorunterstützung (Folinsäure, Vitamin C, Eisen zum Recycling) die Reserve erhöhen [@Williams2025GCH1BH4].
+
+**Zerebrale Perfusion.** Bei Patienten mit gleichzeitigem POTS/Dysautonomie erhöht das Standard-Perfusionsmanagement (Kompression, Flüssigkeits-/Salzbeladung, zurückgelehnte Arbeitspositionen) direkt die Gehirn-Energieversorgung.
+
+Keine Studie hat getestet, ob die präventive Korrektur dieser modifizierbaren Reserveverminderer bei neurodivergenten Patienten die ME/CFS-Inzidenz nach einer Infektion reduziert. Die Vorhersage ist klar. Der Versuch wurde nicht durchgeführt.
+
+*Anmerkung: Das Obige sind Forschungshypothesen über modifizierbare Risikofaktoren, keine klinischen Empfehlungen. Besprechen Sie jede Intervention mit einem qualifizierten Kliniker.*
+
+---
+
+*Teil 2 einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet.*

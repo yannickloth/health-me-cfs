@@ -1,0 +1,101 @@
+---
+title: "À court d'énergie : il leur manque jusqu'à 15 % de leur sang"
+description: "L'adulte moyen a environ 5 litres de sang. Imaginez maintenant vous réveiller chaque matin avec 500 à 750 ml de moins — en permanence. Pas de blessure, pas de saignement, pas de cause évidente. Juste... moins de sang."
+author: "Yannick Loth"
+date: "2026-03-13"
+categories: [Cardiovasculaire, Physiopathologie]
+lang: fr
+---
+
+L'adulte moyen a environ 5 litres de sang. Imaginez maintenant vous réveiller chaque matin avec 500 à 750 ml de moins — en permanence. Pas de blessure, pas de saignement, pas de cause évidente. Juste... moins de sang.
+
+C'est la réalité de nombreuses personnes atteintes d'encéphalomyélite myalgique/syndrome de fatigue chronique (EM/SFC). Et c'est peut-être l'une des explications les plus simples de leur épuisement.
+
+---
+
+## Quelle est l'ampleur des déficits ?
+
+Les déficits de volume sanguin dans l'EM/SFC ne sont pas subtils. Ils ont été mesurés avec des techniques de référence — globules rouges marqués par radionucléides et dilution à double isotope — dans de multiples études indépendantes :
+
+- **Volume sanguin total** : 10-15 % sous les valeurs prédites [@Newton2016] [@Streeten1998blood]
+- **Volume plasmatique** (la partie liquide) : 21 % plus bas chez les patients atteints de SPOT — une affection qui chevauche l'EM/SFC dans ~60 % des cas [@Raj2005] ; 11 ml/kg sous la référence chez les patients atteints d'EM/SFC [@vanCampen2018]
+- **Masse des globules rouges** : réduite chez 94 % des patientes et 50 % des patients atteints d'EM/SFC [@Streeten1998blood]
+
+Pour mettre cela en perspective : un don de sang prélève environ 10 % de votre volume sanguin. Ces patients vivent, en permanence, dans un état comparable au fait d'avoir tout juste donné leur sang — sauf que leur corps ne compense jamais le déficit.
+
+---
+
+## Volume sanguin, débit cardiaque et chaîne énergétique
+
+Le lien entre le volume sanguin et l'énergie n'est pas compliqué :
+
+**Moins de volume sanguin signifie moins de sang retournant au cœur** (retour veineux réduit). **Moins de retour veineux signifie que le cœur se remplit moins** à chaque battement (précharge réduite). **Moins de précharge signifie que chaque battement pompe moins de sang** (volume d'éjection réduit). **Moins de sang pompé signifie moins d'oxygène atteignant les tissus.** Moins d'oxygène, moins d'ATP — le carburant moléculaire qui fait fonctionner tout ce que vous faites.
+
+Les IRM cardiaques confirment directement cette chaîne : les patients atteints d'EM/SFC présentent un volume télédiastolique ventriculaire gauche réduit (le cœur se remplit moins) et un volume d'éjection réduit (chaque battement pompe moins), avec de fortes corrélations au volume sanguin mesuré [@Newton2016]. Crucialement, ces réductions sont *disproportionnées au niveau d'inactivité* — ce n'est pas un déconditionnement. La même étude n'a trouvé aucune relation entre la durée de la maladie et les volumes cardiaques, écartant le déclin physique progressif comme explication.
+
+Le cerveau se trouve au bout de cette chaîne et n'a nulle part où emprunter. Le débit sanguin cérébral peut être réduit jusqu'à 40 % dans l'EM/SFC, entraîné par un faible débit cardiaque, une dysfonction autonome, un volume sanguin réduit et une autorégulation altérée agissant ensemble. Contrairement à d'autres organes, le cerveau ne peut pas compenser de manière significative — ce qui explique pourquoi les patients rapportent une dysfonction cognitive (le « brouillard cérébral ») et des difficultés de concentration, et pourquoi beaucoup se sentent nettement plus vifs couchés, où un retour veineux amélioré rétablit la perfusion cérébrale.
+
+---
+
+## Un système hormonal qui ne répond pas
+
+Voici où cela devient étrange. Votre corps dispose d'un système éprouvé pour détecter le faible volume sanguin et le corriger : le système rénine-angiotensine-aldostérone (RAAS). Quand le volume sanguin chute, les reins libèrent la rénine, qui déclenche une cascade aboutissant à l'aldostérone — une hormone qui dit aux reins de retenir le sodium et l'eau, augmentant le volume sanguin.
+
+Dans l'EM/SFC, ce système est paradoxalement supprimé.
+
+Miwa et Fujita [@Miwa2017] ont constaté que les patients atteints d'EM/SFC avaient une aldostérone 33 % plus basse et une hormone antidiurétique (ADH) 33 % plus basse que les témoins sains — *malgré* une hypovolémie documentée. La réponse hormonale était de retenir *moins* de liquide, pas plus.
+
+Raj et coll. [@Raj2005] ont trouvé le même paradoxe chez les patients atteints de SPOT (une affection qui chevauche l'EM/SFC dans environ 60 % des cas) : le volume sanguin était nettement réduit, mais l'activité rénine plasmatique était inchangée et l'aldostérone était basse. Le système de détection du volume était en panne.
+
+Le résultat est un déficit auto-entretenu. Le corps manque de sang, mais les systèmes hormonaux qui devraient corriger cela sont soit supprimés, soit non réactifs. Pourquoi cela se produit — dérégulation du système nerveux central, interférence auto-immune avec les récepteurs hormonaux, ou autre chose — reste une question de recherche ouverte.
+
+---
+
+## Quantité réduite, qualité compromise
+
+Même le sang qui reste ne fonctionne pas de manière optimale. Les globules rouges des patients atteints d'EM/SFC montrent une déformabilité réduite [@Saha2019] — ils sont plus rigides et moins capables de s'infiltrer dans les capillaires pour délivrer l'oxygène. Cela signifie que même si vous pouviez magiquement restaurer le volume sanguin du jour au lendemain, la livraison d'oxygène resterait altérée au niveau tissulaire.
+
+Par-dessus tout, les cytokines inflammatoires (IL-6, TNF-alpha) — élevées dans l'EM/SFC — suppriment la production de nouveaux globules rouges (érythropoïèse) et séquestrent le fer, créant un schéma ressemblant à l'anémie des maladies chroniques. Le sang n'est pas seulement réduit en quantité ; sa qualité est compromise.
+
+---
+
+## Se lever avec un déficit de 15 %
+
+Le faible volume sanguin frappe le plus fort au moment où un patient se lève. Quand vous passez de couché à debout, la gravité tire environ 500-700 ml de sang vers vos jambes et votre abdomen ; une personne en bonne santé compense en resserrant les vaisseaux sanguins et en accélérant le rythme cardiaque. Quelqu'un qui manque déjà de 500-750 ml commence cet effort compensatoire dans un trou qu'il ne peut pas combler.
+
+C'est pourquoi 70-90 % des patients atteints d'EM/SFC ressentent une intolérance orthostatique — et ce n'est ni de l'anxiété ni du déconditionnement. C'est de la physique : il n'y a littéralement pas assez de sang pour maintenir une perfusion cérébrale adéquate en position debout.
+
+Le revers est tout aussi révélateur : de nombreux patients se sentent nettement mieux couchés. La position horizontale élimine la fuite gravitationnelle, permettant au volume sanguin limité de se répartir uniformément et d'atteindre le cerveau. Quand un patient dit qu'il ne peut penser clairement qu'allongé à plat, ce n'est pas une préférence psychologique — c'est son système cardiovasculaire fonctionnant dans ses contraintes.
+
+---
+
+## Gérer le déficit — et chercher la cause
+
+Plusieurs approches s'attaquent directement au déficit, avec des mécanismes variés :
+
+- **Charge en sel et en liquides** (8-10 g de sodium/jour, 2-3 L de liquides) : Augmente le volume plasmatique. Chez une personne ayant un volume sanguin normal, cela élèverait la pression artérielle de manière nocive. Chez les patients atteints d'EM/SFC hypovolémiques, cela corrige partiellement un déficit.
+- **Fludrocortisone** : Un minéralocorticoïde qui fait ce que l'aldostérone du patient ne parvient pas à faire — dire aux reins de retenir le sodium et l'eau. Requiert 1 à 2 semaines pour un effet complet.
+- **Vêtements de compression** : Contre-pression mécanique qui réduit l'accumulation veineuse dans les jambes et l'abdomen, gardant plus de sang dans la circulation centrale.
+- **Desmopressine** : Un analogue de l'ADH qui remplace l'hormone antidiurétique manquante. Amélioration des symptômes orthostatiques chez 50 % des patients dans l'essai de Miwa.
+
+Ces interventions aident — mais elles gèrent le déficit, elles ne réparent pas la cause. Alors pourquoi les hormones de régulation du volume sont-elles supprimées ?
+
+Une théorie dominante pointe vers les auto-anticorps — des protéines immunitaires qui ciblent par erreur les récepteurs du corps lui-même. Les patients atteints d'EM/SFC montrent des taux élevés d'auto-anticorps contre les récepteurs couplés aux protéines G (GPCR), y compris les récepteurs AT1 de l'angiotensine II [@Loebel2016] [@Sotzny2021] [@Bynke2020]. Le récepteur AT1 est un maillon clé de la chaîne RAAS : l'angiotensine II s'y lie pour déclencher la libération d'aldostérone. Des auto-anticorps interférant avec ce récepteur expliqueraient directement pourquoi le système échoue à corriger le faible volume sanguin — le signal passe, mais le récepteur ne répond pas normalement.
+
+C'est encore une hypothèse, pas un fait établi. Mais c'est testable : trois approches complémentaires — l'immunoadsorption (filtrer les auto-anticorps du sang), le BC007 (une molécule synthétique qui les neutralise) et le daratumumab (ciblant les cellules qui les produisent) — sont en essais cliniques actifs. Si la théorie des auto-anticorps est correcte, ces traitements pourraient réparer la suppression du RAAS à sa source — restaurant la capacité du corps à réguler son propre volume sanguin.
+
+---
+
+## Un déficit mesurable rarement mesuré
+
+Le volume sanguin n'est pas un score de questionnaire ou un symptôme auto-déclaré. Ce sont des millilitres de liquide mesurés avec des radio-isotopes, et les déficits documentés ici sont assez importants pour expliquer une partie significative du handicap.
+
+Pourtant, le test du volume sanguin est rarement pratiqué en clinique. La plupart des patients atteints d'EM/SFC n'ont jamais mesuré leur volume sanguin. Les tests sanguins standard (numération de formule sanguine, hémoglobine) peuvent sembler complètement normaux même avec un déficit de 15 % du volume sanguin — parce que la *concentration* de globules rouges est préservée alors même que le *volume total* chute.
+
+C'est sans doute l'un des résultats les plus exploitables de la recherche sur l'EM/SFC : un déficit mesurable avec des traitements disponibles. La barrière n'est pas la connaissance — c'est la mise en œuvre.
+
+---
+
+## Mises en garde et portée
+
+Tous les patients atteints d'EM/SFC ne présentent pas le même degré d'hypovolémie. La réduction du volume sanguin peut représenter un sous-type ou un facteur contributif plutôt qu'un mécanisme universel. Les chiffres cités ici proviennent d'études avec des échantillons de 14 à 42 patients — significatifs pour la recherche sur l'EM/SFC, mais pas grands selon les normes médicales générales. Et la relation entre le volume sanguin et la sévérité globale de l'EM/SFC, bien que corrélée, n'est pas le tableau complet — la dysfonction immunitaire, l'altération mitochondriale et les facteurs neurologiques contribuent tous indépendamment.

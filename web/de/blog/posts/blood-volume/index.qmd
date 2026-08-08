@@ -1,0 +1,101 @@
+---
+title: "Auf dem Zahnfleisch: ME/CFS-Patienten fehlen bis zu 15 % ihres Blutes"
+description: "Der Durchschnittserwachsene hat etwa 5 Liter Blut. Stellen Sie sich nun vor, jeden Morgen mit 500 bis 750 ml weniger aufzuwachen — dauerhaft. Keine Verletzung, keine Blutung, keine offensichtliche Ursache. Nur... weniger Blut."
+author: "Yannick Loth"
+date: "2026-03-13"
+categories: [Kardiovaskulär, Pathophysiologie]
+lang: de
+---
+
+Der Durchschnittserwachsene hat etwa 5 Liter Blut. Stellen Sie sich nun vor, jeden Morgen mit 500 bis 750 ml weniger aufzuwachen — dauerhaft. Keine Verletzung, keine Blutung, keine offensichtliche Ursache. Nur... weniger Blut.
+
+Das ist die Realität vieler Menschen mit Myalgischer Enzephalomyelitis/Chronischem Fatigue-Syndrom (ME/CFS). Und es könnte eine der unkompliziertesten Erklärungen dafür sein, warum sie erschöpft sind.
+
+---
+
+## Wie groß sind die Defizite?
+
+Blutvolumendefizite bei ME/CFS sind nicht subtil. Sie wurden mit Goldstandard-Techniken gemessen — radioaktiv markierten roten Blutkörperchen und Dual-Isotopen-Verdünnung — in mehreren unabhängigen Studien:
+
+- **Gesamtblutvolumen**: 10–15 % unter den vorhergesagten Werten [@Newton2016] [@Streeten1998blood]
+- **Plasmavolumen** (der flüssige Anteil): 21 % niedriger bei POTS-Patienten — einer Erkrankung, die in ~60 % der Fälle mit ME/CFS überlappt [@Raj2005]; 11 ml/kg unter der Referenz bei ME/CFS-Patienten [@vanCampen2018]
+- **Masse der roten Blutkörperchen**: verringert bei 94 % der weiblichen und 50 % der männlichen ME/CFS-Patienten [@Streeten1998blood]
+
+Zum Einordnen: Eine Blutspende entnimmt etwa 10 % Ihres Blutvolumens. Diese Patienten leben dauerhaft in einem Zustand, der vergleichbar mit einer gerade erfolgten Blutspende ist — nur dass ihr Körper das Defizit nie ausgleicht.
+
+---
+
+## Blutvolumen, Herzzeitvolumen und die Energiekette
+
+Der Zusammenhang zwischen Blutvolumen und Energie ist nicht kompliziert:
+
+**Weniger Blutvolumen bedeutet weniger Blut, das zum Herzen zurückfließt** (reduzierter venöser Rückfluss). **Weniger venöser Rückfluss bedeutet, dass sich das Herz bei jedem Schlag weniger füllt** (reduzierte Vorlast). **Weniger Vorlast bedeutet, dass jeder Herzschlag weniger Blut pumpt** (reduziertes Schlagvolumen). **Weniger gepumptes Blut bedeutet weniger Sauerstoff, der die Gewebe erreicht.** Weniger Sauerstoff bedeutet weniger ATP — der molekulare Treibstoff, der alles antreibt, was Sie tun.
+
+Kardiale MRT-Studien bestätigen diese Kette direkt: ME/CFS-Patienten haben ein reduziertes linksventrikuläres enddiastolisches Volumen (das Herz füllt sich weniger) und ein reduziertes Schlagvolumen (jeder Schlag pumpt weniger), mit starken Korrelationen zum gemessenen Blutvolumen [@Newton2016]. Entscheidend ist, dass diese Reduktionen *unverhältnismäßig zum Inaktivitätsgrad* sind — das ist kein Dekonditionierungseffekt. Dieselbe Studie fand keine Beziehung zwischen Krankheitsdauer und Herzvolumina, was einen allmählichen körperlichen Verfall als Erklärung ausschließt.
+
+Das Gehirn sitzt am Ende dieser Kette und hat nichts, von dem es sich etwas leihen könnte. Die zerebrale Durchblutung kann bei ME/CFS um bis zu 40 % reduziert sein, angetrieben durch niedriges Herzzeitvolumen, autonome Dysfunktion, reduziertes Blutvolumen und beeinträchtigte Autoregulation, die zusammenwirken. Anders als andere Organe kann das Gehirn nicht sinnvoll kompensieren — weshalb Patienten kognitive Dysfunktion („Brain Fog") und Konzentrationsschwierigkeiten berichten, und warum viele sich im Liegen spürbar klarer fühlen, wo ein verbesserter venöser Rückfluss die zerebrale Perfusion wiederherstellt.
+
+---
+
+## Ein hormonelles System, das nicht reagiert
+
+Hier wird es merkwürdig. Ihr Körper hat ein gut getestetes System zur Erkennung und Korrektur von niedrigem Blutvolumen: das Renin-Angiotensin-Aldosteron-System (RAAS). Wenn das Blutvolumen sinkt, setzen die Nieren Renin frei, das eine Kaskade auslöst, die in Aldosteron endet — ein Hormon, das den Nieren sagt, Natrium und Wasser zurückzuhalten und so das Blutvolumen zu erweitern.
+
+Bei ME/CFS ist dieses System paradoxerweise unterdrückt.
+
+Miwa & Fujita [@Miwa2017] fanden, dass ME/CFS-Patienten 33 % niedrigeres Aldosteron und 33 % niedrigeres antidiuretisches Hormon (ADH) als gesunde Kontrollen hatten — *trotz* dokumentierter Hypovolämie. Die hormonelle Antwort bestand darin, *weniger* Flüssigkeit zurückzuhalten, nicht mehr.
+
+Raj und Kollegen [@Raj2005] fanden dasselbe Paradoxon bei POTS-Patienten (einer Erkrankung, die in etwa 60 % der Fälle mit ME/CFS überlappt): Das Blutvolumen war deutlich reduziert, aber die Plasma-Renin-Aktivität war unverändert und das Aldosteron niedrig. Das volumenmessende System war defekt.
+
+Das Ergebnis ist ein sich selbst aufrechterhaltendes Defizit. Der Körper hat zu wenig Blut, aber die hormonellen Systeme, die dies korrigieren sollten, sind entweder unterdrückt oder reagieren nicht. Warum dies geschieht — ob zentralnervöse Dysregulation, autoimmuner Eingriff in Hormonrezeptoren oder etwas anderes — bleibt eine offene Forschungsfrage.
+
+---
+
+## Reduzierte Menge, beeinträchtigte Qualität
+
+Selbst das verbleibende Blut funktioniert nicht optimal. Rote Blutkörperchen von ME/CFS-Patienten zeigen eine reduzierte Verformbarkeit [@Saha2019] — sie sind steifer und weniger in der Lage, sich durch Kapillaren zu zwängen, um Sauerstoff zu liefern. Das bedeutet, dass die Sauerstoffzufuhr selbst dann, wenn Sie das Blutvolumen über Nacht auf magische Weise wiederherstellen könnten, auf Gewebeebene immer noch beeinträchtigt wäre.
+
+Darüber hinaus unterdrücken entzündliche Zytokine (IL-6, TNF-alpha) — die bei ME/CFS erhöht sind — die Produktion neuer roter Blutkörperchen (Erythropoese) und sequestrieren Eisen, wodurch ein Muster entsteht, das einer Anämie bei chronischer Krankheit ähnelt. Das Blut ist nicht nur in der Menge reduziert; seine Qualität ist beeinträchtigt.
+
+---
+
+## Aufstehen trotz eines 15 %-Defizits
+
+Niedriges Blutvolumen trifft am härtesten in dem Moment, in dem ein Patient aufsteht. Wenn Sie vom Liegen in die aufrechte Position wechseln, zieht die Schwerkraft etwa 500–700 ml Blut in Ihre Beine und Ihren Bauch; eine gesunde Person kompensiert dies, indem sie Blutgefäße verengt und die Herzfrequenz beschleunigt. Jemand, dem bereits 500–750 ml fehlen, beginnt diesen Kompensationsaufwand in einem Loch, aus dem er nicht herauskommt.
+
+Deshalb erleben 70–90 % der ME/CFS-Patienten eine orthostatische Intoleranz — und es ist keine Angst oder Dekonditionierung. Es ist Physik: Es gibt buchstäblich nicht genug Blut, um im Stehen eine angemessene Gehirnperfusion aufrechtzuerhalten.
+
+Die Kehrseite ist ebenso aufschlussreich: Viele Patienten fühlen sich im Liegen spürbar besser. Die horizontale Position beseitigt die gravitationsbedingte Drainage und ermöglicht es dem begrenzten Blutvolumen, sich gleichmäßig zu verteilen und das Gehirn zu erreichen. Wenn ein Patient sagt, dass er nur flach liegend klar denken kann, ist das keine psychologische Präferenz — es ist sein Herz-Kreislauf-System, das innerhalb seiner Grenzen arbeitet.
+
+---
+
+## Das Defizit bewältigen — und die Ursache suchen
+
+Mehrere Ansätze gehen das Defizit direkt mit unterschiedlichen Mechanismen an:
+
+- **Salz- und Flüssigkeitszufuhr** (8–10 g Natrium/Tag, 2–3 L Flüssigkeit): Erweitert das Plasmavolumen. Bei einer Person mit normalem Blutvolumen würde dies den Blutdruck schädlich erhöhen. Bei hypovolämischen ME/CFS-Patienten korrigiert es teilweise ein Defizit.
+- **Fludrocortison**: Ein Mineralokortikoid, das das tut, was das eigene Aldosteron des Patienten nicht tut — den Nieren sagen, Natrium und Wasser zurückzuhalten. Benötigt 1–2 Wochen für die volle Wirkung.
+- **Kompressionskleidung**: Mechanischer Gegendruck, der die venöse Ansammlung in Beinen und Bauch reduziert und mehr Blut im zentralen Kreislauf hält.
+- **Desmopressin**: Ein ADH-Analogon, das das fehlende antidiuretische Hormon ersetzt. Verbesserte orthostatische Symptome bei 50 % der Patienten in Miwas Studie.
+
+Diese Interventionen helfen — aber sie bewältigen das Defizit, sie beheben nicht die Ursache. Warum sind also die volumenregulierenden Hormone unterdrückt?
+
+Eine führende Theorie verweist auf Autoantikörper — Immunproteine, die fälschlicherweise die eigenen Rezeptoren des Körpers angreifen. ME/CFS-Patienten zeigen erhöhte Autoantikörper gegen G-Protein-gekoppelte Rezeptoren (GPCRs), einschließlich Angiotensin-II-AT1-Rezeptoren [@Loebel2016] [@Sotzny2021] [@Bynke2020]. Der AT1-Rezeptor ist ein Schlüsselglied der RAAS-Kette: Angiotensin II bindet daran, um die Aldosteronfreisetzung auszulösen. Autoantikörper, die in diesen Rezeptor eingreifen, würden direkt erklären, warum das System das niedrige Blutvolumen nicht korrigiert — das Signal kommt durch, aber der Rezeptor reagiert nicht normal.
+
+Dies ist immer noch eine Hypothese, keine etablierte Tatsache. Aber sie ist testbar: Drei komplementäre Ansätze — Immunadsorption (Herausfiltern von Autoantikörpern aus dem Blut), BC007 (ein synthetisches Molekül, das sie neutralisiert) und Daratumumab (das auf die Zellen abzielt, die sie produzieren) — befinden sich in aktiven klinischen Studien. Wenn die Autoantikörper-Theorie korrekt ist, könnten diese Behandlungen die RAAS-Unterdrückung an ihrer Quelle beheben — und so die Fähigkeit des Körpers wiederherstellen, sein eigenes Blutvolumen zu regulieren.
+
+---
+
+## Ein messbares Defizit, das selten gemessen wird
+
+Blutvolumen ist kein Fragebogenwert oder selbstberichtetes Symptom. Es sind Milliliter Flüssigkeit, gemessen mit Radioisotopen, und die hier dokumentierten Defizite sind groß genug, um einen erheblichen Teil der Behinderung zu erklären.
+
+Doch Blutvolumentests werden in der klinischen Praxis selten durchgeführt. Die meisten ME/CFS-Patienten haben ihr Blutvolumen nie messen lassen. Standardbluttests (vollständiges Blutbild, Hämoglobin) können trotz eines 15 %-Blutvolumendefizits völlig normal erscheinen — weil die *Konzentration* der roten Blutkörperchen erhalten bleibt, auch wenn das *Gesamtvolumen* sinkt.
+
+Dies ist wohl einer der am besten umsetzbaren Befunde in der ME/CFS-Forschung: ein messbares Defizit mit verfügbaren Behandlungen. Das Hindernis ist nicht das Wissen — es ist die Umsetzung.
+
+---
+
+## Hinweise und Geltungsbereich
+
+Nicht alle ME/CFS-Patienten zeigen denselben Grad an Hypovolämie. Die Reduktion des Blutvolumens könnte eher eine Untergruppe oder einen beitragenden Faktor als einen universellen Mechanismus darstellen. Die hier zitierten Zahlen stammen aus Studien mit Stichproben von 14–42 Patienten — bedeutend für die ME/CFS-Forschung, aber nicht groß nach allgemeinen medizinischen Maßstäben. Und die Beziehung zwischen Blutvolumen und der Gesamtschwere von ME/CFS ist zwar korreliert, aber nicht das vollständige Bild — Immunstörung, mitochondriale Beeinträchtigung und neurologische Faktoren tragen alle unabhängig bei.

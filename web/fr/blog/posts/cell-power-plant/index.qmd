@@ -1,0 +1,82 @@
+---
+title: "Vos cellules font tourner une centrale électrique. Voici comment elle casse."
+description: "Votre corps contient environ 37 billions de cellules. Presque chacune d'elles contient des centaines à des milliers de mitochondries — des organites qui ont évolué à partir de bactéries il y a deux milliards d'années et ne sont jamais repartis. Leur travail est simple dans la description et stupéfiant dans l'ampleur : convertir la nourriture et l'oxygène en ATP, la molécule qui fait fonctionner tout le reste."
+author: "Yannick Loth"
+date: "2026-06-18"
+categories: [Métabolisme énergétique, Mitochondries]
+lang: fr
+---
+
+Votre corps contient environ 37 billions de cellules. Presque chacune d'elles contient des centaines à des milliers de mitochondries — des organites qui ont évolué à partir de bactéries il y a deux milliards d'années et ne sont jamais repartis. Leur travail est simple dans la description et stupéfiant dans l'ampleur : convertir la nourriture et l'oxygène en ATP, la molécule qui fait fonctionner tout le reste.
+
+Un humain en bonne santé recycle environ 50 kg d'ATP par jour. Pas produit — recyclé. Le pool total d'ATP dans le corps à un moment donné n'est que d'environ 50 grammes. Ce pool se renouvelle environ mille fois par jour. Chaque battement de cœur, chaque pensée, chaque réponse immunitaire, chaque contraction musculaire puise dans le même compte et le reconstitue en temps réel.
+
+Quand cette machinerie de recyclage ralentit, le solde du compte chute. Pas dramatiquement — pas à zéro, pas un arrêt cardiaque. Juste 30 % de moins. Peut-être 50 % de moins. Assez pour que tout fonctionne encore, lentement, douloureusement, avec un temps de récupération mesuré en jours au lieu de minutes. C'est l'état métabolique de l'EM/SFC.
+
+---
+
+## La chaîne de montage
+
+La production d'énergie est un processus séquentiel en trois étapes, chacune alimentant la suivante.
+
+**La glycolyse** a lieu dans le cytoplasme, en dehors des mitochondries. Une molécule de glucose est divisée en deux molécules de pyruvate, produisant 2 ATP. C'est rapide, ne nécessite pas d'oxygène, et c'est le repli quand tout le reste échoue. C'est aussi inefficace — 2 ATP à partir d'une molécule qui pourrait en donner 36.
+
+**Le cycle de Krebs** (cycle de l'acide citrique) se déroule à l'intérieur de la matrice mitochondriale. Le pyruvate entre dans les mitochondries, est converti en acétyl-CoA par le complexe pyruvate déshydrogénase (PDH), et alimente un cycle en huit étapes qui dépouille les électrons des liaisons carbone et les charge sur des molécules transporteuses (NADH et FADH2). Le carbone sort sous forme de CO2 — le même CO2 que vous expirez. Le cycle lui-même ne produit directement que 2 ATP. Sa véritable sortie, ce sont les transporteurs d'électrons chargés.
+
+**La chaîne de transport d'électrons (CTE)** est là où les électrons portent leurs fruits. Le NADH et le FADH2 livrent leurs électrons à une série de complexes protéiques (I à IV) intégrés dans la membrane mitochondriale interne. Quand les électrons descendent le long de la chaîne, les complexes pompent des ions hydrogène à travers la membrane, construisant un gradient électrochimique. Ce gradient entraîne l'ATP synthase — un véritable moteur rotatif, le plus petit moteur de la biologie — qui tourne et assemble l'ATP à partir d'ADP et de phosphate. Cette étape produit environ 34 ATP par molécule de glucose. Elle exige de l'oxygène comme accepteur final d'électrons.
+
+Au total : 2 (glycolyse) + 2 (Krebs) + ~34 (CTE) = ~38 ATP par glucose. La chaîne de montage est élégante, puissante, et entièrement dépendante du fait que chaque étape fonctionne correctement.
+
+---
+
+## Où elle casse dans l'EM/SFC
+
+Les preuves de la dysfonction mitochondriale dans l'EM/SFC ne sont plus circonstancielles. Elles proviennent de multiples axes d'investigation indépendants.
+
+**Le goulot d'étranglement PDH.** Fluge, Mella et leurs collègues de l'hôpital universitaire de Haukeland ont rapporté que les patients atteints d'EM/SFC montrent des signes d'une fonction altérée de la pyruvate déshydrogénase — le complexe enzymatique qui convertit le pyruvate en acétyl-CoA, la passerelle de la glycolyse au cycle de Krebs [@Fluge2016]. Quand la PDH est inhibée, le pyruvate ne peut pas entrer efficacement dans les mitochondries. Il s'accumule et est converti en lactate à la place. La cellule se replie sur la glycolyse — 2 ATP au lieu de 38. Le même glucose, un vingtième de l'énergie.
+
+**Le changement métabolique.** Les études de métabolomique montrent constamment que les patients atteints d'EM/SFC présentent des profils d'acides aminés altérés, un métabolisme lipidique perturbé et des schémas cohérents avec une oxydation mitochondriale des acides gras altérée [@Germain2017taurineME; @Naviaux2016metabolomics]. Le tableau est celui d'une inflexibilité métabolique : la machinerie pour brûler les graisses (bêta-oxydation) et pour faire tourner le cycle de Krebs complet sous-performe, forçant une plus grande dépendance à la voie glycolytique inefficace.
+
+**La preuve par CPET.** Le test d'effort cardio-respiratoire (CPET) sur deux jours offre la fenêtre la plus directe. Le jour 1, les patients atteints d'EM/SFC font de l'exercice à capacité maximale et montrent une consommation d'oxygène maximale réduite par rapport aux témoins sédentaires — mais cela seul pourrait être du déconditionnement. Le jour 2, 24 heures plus tard, les témoins sains reproduisent leur performance du jour 1. Les patients atteints d'EM/SFC ne le peuvent pas. Leur seuil ventilatoire chute, leur VO2 maximale chute, et ils entrent dans le métabolisme anaérobie à des charges de travail plus faibles [@Snell2013CPET; @Stevens2018CPETmethod]. Le système est objectivement pire après une seule séance d'effort maximal. C'est la signature métabolique du MPE — le malaise post-effort écrit dans les courbes de consommation d'oxygène.
+
+**Les données sur le lactate.** Les patients atteints d'EM/SFC montrent un lactate veineux élevé après un exercice à des intensités qui ne produisent pas de lactate significatif chez les témoins [@Jones2012lactate]. Cela signifie qu'ils franchissent leur seuil anaérobie — le point où la glycolyse dépasse la phosphorylation oxydative — à des charges de travail qu'une personne en bonne santé gère de manière aérobie. Marcher jusqu'à la cuisine peut dépasser le seuil anaérobie. La brûlure, l'épuisement, la récupération de plusieurs jours — ce ne sont pas des symptômes imaginés. C'est l'expérience subjective de l'acidose lactique à une activité de niveau de repos.
+
+---
+
+## Les mathématiques de la falaise
+
+La relation entre les dommages mitochondriaux et la production d'ATP n'est pas linéaire. Une réduction de 20 % de la capacité de la chaîne de transport d'électrons ne produit pas une réduction de 20 % de l'ATP. Le système a une capacité de réserve — des complexes redondants, un excès d'enzymes — qui tamponne les dommages modérés. Mais une fois que les dommages dépassent ce tampon, la production d'ATP chute fortement. C'est un effet de seuil, et il explique l'une des caractéristiques les plus déroutantes de l'EM/SFC : la falaise.
+
+Les patients décrivent une frontière nette entre « gérer » et « s'effondrer ». Ils peuvent faire certaines activités — lentement, soigneusement — puis, sans augmentation proportionnelle de la demande, ils s'effondrent. Ce n'est pas une fragilité psychologique. C'est le comportement non linéaire d'un système fonctionnant près de sa limite tampon. De petits accroissements de la demande qui seraient invisibles chez une personne en bonne santé poussent un système compromis par-dessus le bord de sa falaise. Les mathématiques prédisent exactement le schéma que les patients décrivent.
+
+---
+
+## Pourquoi l'effondrement est différé
+
+Le MPE arrive 12 à 72 heures après l'effort, pas pendant. Ce délai est la caractéristique qui confond le plus les cliniciens formés à la fatigue périphérique, où l'épuisement est immédiat.
+
+Plusieurs mécanismes contribuent au délai. L'exercice produit des espèces réactives de l'oxygène (ROS) comme sous-produit de l'activité mitochondriale accrue. Dans les mitochondries saines, les systèmes antioxydants neutralisent les ROS en temps réel. Dans les mitochondries endommagées, la production de ROS dépasse la capacité d'élimination, et l'excès commence à endommager les mitochondries elles-mêmes — oxydant les lipides membranaires, endommageant l'ADN mitochondrial, altérant la fonction des complexes. Ces dommages s'accumulent pendant et après l'exercice mais ne se manifestent pas comme altération fonctionnelle jusqu'à ce que la cellule tente de répondre à la demande énergétique le lendemain avec une machinerie désormais davantage endommagée.
+
+En outre, la cascade inflammatoire déclenchée par l'effort — libération de cytokines, activation microgliale, recrutement de cellules immunitaires — met 12 à 24 heures à culminer. L'effondrement subjectif s'aligne sur le pic inflammatoire, pas sur l'effort mécanique.
+
+Le résultat cruel : le patient se sent bien pendant et immédiatement après l'effort. Il croit qu'il s'améliore. Il en fait davantage. L'effondrement arrive un jour plus tard, n'enseignant rien sur l'activité spécifique qui l'a causé, parce que le couplage temporel entre l'action et la conséquence est rompu.
+
+---
+
+## Ce que cela n'est pas
+
+Ce n'est pas « être fatigué ». La fatigue saine se résout avec le repos parce que la machinerie est intacte — le repos permet aux pools d'ATP de se remplir, au glycogène d'être remplacé, aux fibres musculaires de se réparer. Dans l'EM/SFC, la machinerie elle-même est compromise. Le repos réduit la demande mais ne répare pas le système de production. C'est la différence entre un réservoir de carburant vide et un moteur endommagé. Remplir le réservoir ne répare pas le moteur.
+
+Ce n'est pas du déconditionnement. Le déconditionnement réduit la capacité aérobie par atrophie musculaire et détrainement cardiovasculaire. Il est inversé par l'exercice progressif. L'EM/SFC est aggravée par la même intervention. Les données CPET sur 2 jours — détérioration, pas amélioration, après l'effort — contredisent directement l'hypothèse du déconditionnement.
+
+Ce n'est pas de la paresse, de la dépression ou un manque de volonté. C'est une défaillance mesurable, reproductible, au niveau cellulaire, de la production d'énergie avec des corrélats biochimiques spécifiques. Aucune quantité de motivation ne répare un complexe PDH qui ne fonctionne pas.
+
+---
+
+## L'ampleur du problème
+
+Votre corps recycle 50 kg d'ATP par jour. Si ce taux de recyclage chute d'un tiers, vous perdez l'équivalent énergétique de tout ce qui est au-dessus de la survie de base. Pas de mouvement vigoureux. Pas de concentration soutenue. Pas de surveillance immunitaire au-delà du minimum. Pas de réparation tissulaire au-delà des urgences. Tout ce qui dépasse le fait de vous maintenir en vie est coupé.
+
+C'est l'enveloppe énergétique. Pas une métaphore. Pas une stratégie d'adaptation. Une contrainte métabolique imposée par la sortie de mitochondries compromises, fonctionnant dans des cellules qui font de leur mieux avec une machinerie qui ne fonctionne pas correctement [@Loth2026mecfs].
+
+---

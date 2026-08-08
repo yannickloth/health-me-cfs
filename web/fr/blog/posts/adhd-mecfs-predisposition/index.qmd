@@ -1,0 +1,106 @@
+---
+title: "Pourquoi les personnes atteintes de TDAH développent l'EM/SFC à un taux deux fois supérieur"
+description: "Ceci est le deuxième article d'une série sur la biologie énergétique reliant le TDAH, l'autisme et l'EM/SFC. Le premier article présentait l'argument selon lequel le TDAH est un déficit de production d'énergie cérébrale. Celui-ci répond à la question suivante : pourquoi ce déficit pourrait-il rendre les personnes vulné..."
+author: "Yannick Loth"
+date: "2026-05-25"
+categories: [TDAH, Neurodivergence, Physiopathologie]
+lang: fr
+---
+
+Ceci est le deuxième article d'une série sur la biologie énergétique reliant le TDAH, l'autisme et l'EM/SFC. Le premier article présentait l'argument selon lequel le TDAH est un déficit de production d'énergie cérébrale. Celui-ci répond à la question suivante : pourquoi ce déficit pourrait-il rendre les personnes vulnérables à l'EM/SFC ?
+
+---
+
+## Le signal épidémiologique
+
+La cohorte de naissance ALSPAC — l'une des plus grandes études longitudinales au monde — a suivi 4 563 enfants de la naissance jusqu'à l'âge de 18 ans. Les résultats sur les traits neurodivergents et la fatigue sont frappants [@Quadt2024neurodivergentfatigue] :
+
+- **Traits de TDAH à 9 ans → OR = 2,18** (IC 95 % 1,33–3,56, p = 0,002) pour la fatigue chronique invalidante à 18 ans *(note : le critère de jugement mesuré était la "fatigue chronique invalidante", pas l'EM/SFC diagnostiquée selon les critères ICC ou CCC)*
+- **Traits d'autisme à 7 ans → OR = 1,78** (IC 95 % 1,17–2,72, p = 0,004)
+- **L'IL-6 à 9 ans servait de médiateur à la voie** — indépendamment de la dépression
+
+Les enfants qui ont développé une fatigue n'étaient pas simplement neurodivergents. Ils étaient neurodivergents ET déjà enflammés. L'inflammation était mesurable neuf années entières avant que la fatigue n'apparaisse.
+
+---
+
+## Les chiffres dans l'EM/SFC adulte
+
+Chez les adultes atteints d'un SFC confirmé (n = 158, clinique spécialisée unique) [@SaezFrancas2012adhdcfs] :
+
+- **29,7 % avaient un TDAH infantile** — contre environ 5 à 7 % dans la population générale. Un enrichissement de 5×.
+- **20,9 % satisfaisaient encore aux critères du TDAH adulte**
+- Ceux présentant un TDAH comorbide avaient un **début du SFC plus précoce et un pronostic plus mauvais**
+- La sévérité du TDAH et les symptômes dépressifs étaient des **prédicteurs indépendants** de l'intensité de la fatigue
+
+*Mises en garde : il s'agit d'un échantillon clinique spécialisé mono-site (biais de référencement possible), le TDAH a été évalué rétrospectivement chez des adultes se remémorant des symptômes infantiles (biais de mémorisation), et le SFC a été diagnostiqué selon les critères de Fukuda (plus larges que l'ICC/CCC). L'enrichissement peut être plus faible dans les échantillons communautaires.*
+
+---
+
+## L'hypothèse de la réserve métabolique
+
+Pensez à la production d'énergie cérébrale comme à un générateur doté d'une certaine puissance maximale. La fonction cognitive quotidienne exige une part de cette puissance. La différence entre ce dont vous avez besoin et ce que vous pouvez produire est votre **réserve métabolique** — votre marge pour quand les demandes augmentent.
+
+Le cerveau TDAH fonctionne déjà avec **8,1 % de métabolisme global du glucose en moins** [@Zametkin1990] et une **hypoperfusion préfrontale** documentée [@Berthier2025cbfadhd]. Son générateur est plus petit. Sa réserve est plus mince.
+
+Maintenant, ajoutez un déclencheur immunitaire.
+
+Combattre une infection est métaboliquement coûteux. La production de cytokines, la prolifération des lymphocytes, la neuro-inflammation — tout cela consomme de l'énergie. Chez quelqu'un avec une grande réserve, le système peut soutenir la réponse immunitaire pendant que les processus de réparation fonctionnent en arrière-plan. La fatigue est temporaire. La récupération suit.
+
+Chez quelqu'un dont la réserve était déjà marginale — dont le cerveau fonctionnait déjà près de sa capacité juste pour maintenir l'attention — la même infection fait passer le système sous un seuil critique.
+
+---
+
+## Le modèle de seuil à deux coups
+
+La transition de la fatigue post-infectieuse vers l'EM/SFC peut se produire à un seuil spécifique — bien que cela reste une hypothèse, et non un événement biophysique démontré. Le mécanisme proposé : lorsque les dommages mitochondriaux dus aux espèces réactives de l'oxygène dépassent la capacité de réparation, un cycle auto-entretenu commence : les mitochondries endommagées produisent plus de ROS, qui endommagent plus de mitochondries, qui produisent plus de ROS. Le système ne revient pas spontanément à son état antérieur à la maladie.
+
+La réserve métabolique préexistante détermine qui franchit ce seuil :
+
+- **Réserve élevée** (neurotypique, aucun facteur de risque métabolique) : infection → fatigue transitoire → récupération
+- **Réserve faible** (TDAH, TSA, carence en fer, SEDh) : infection → seuil franchi → EM/SFC
+
+Le modèle prédit une **hystérésis** — inverser l'infection ne renverse pas l'EM/SFC, parce que le cycle de dommages auto-entretenus est désormais autosuffisant.
+
+*Une explication alternative plus simple : les données ALSPAC ont montré que l'IL-6 servait de médiateur à la voie. L'inflammation chronique seule — sans aucun concept de "réserve" — pourrait causer directement à la fois les traits neurodivergents et la vulnérabilité ultérieure à la fatigue. Le modèle de réserve métabolique n'ajoute de valeur explicative que si la correction des déficits de réserve (fer, BH4, perfusion) prévient l'apparition de l'EM/SFC — une prédiction qui n'a pas encore été testée.*
+
+---
+
+## La dissociation par les stimulants : cohérente avec le modèle
+
+Une enquête PNAS de 2025 auprès de 3 925 patients atteints d'EM/SFC a constaté [@Vernon2025PNAS] :
+
+- Les stimulants amélioraient le **brouillard cérébral dans 77,1 % des cas**
+- Les stimulants amélioraient la **perception de la fatigue dans 71,7 % des cas**
+- Les stimulants avaient un **effet net de -1,5 % sur le PEM**
+
+Cette dissociation est exactement ce que le modèle de réserve métabolique prédit. Les stimulants augmentent l'efficacité des catécholamines — réduisant le coût énergétique de chaque unité cognitive. Ils augmentent effectivement la marge cognitive. Mais ils n'augmentent pas la capacité maximale mitochondriale. Le PEM est déclenché par une dépense métabolique totale dépassant la capacité de production, que les stimulants ne modifient pas.
+
+L'amélioration cognitive mène souvent à une activité accrue — dépenser les "économies" plutôt que les thésauriser. Le résultat net : un meilleur brouillard cérébral, un PEM inchangé ou aggravé.
+
+---
+
+## Précédence temporelle : le TDAH précède
+
+Un point critique souvent manqué : les données ALSPAC montrent que **les traits de TDAH précèdent l'apparition de la fatigue de près d'une décennie** [@Quadt2024neurodivergentfatigue]. Ce n'est pas l'EM/SFC qui cause le TDAH. C'est le TDAH qui marque les cerveaux qui lâcheront en premier quand un déclencheur immunitaire arrivera.
+
+La prévalence de 29,7 % de TDAH infantile dans les cohortes de SFC raconte la même histoire dans l'autre sens [@SaezFrancas2012adhdcfs] : près d'un tiers des patients atteints d'EM/SFC avaient un déficit énergétique préexistant, diagnostiquable comme TDAH dans l'enfance.
+
+---
+
+## Qu'est-ce qui est modifiable ?
+
+Si l'hypothèse de la réserve métabolique est correcte, la prédisposition n'est pas purement un destin génétique. Plusieurs composantes sont modifiables :
+
+**Statut du fer.** Une ferritine inférieure à 30 ng/mL altère à la fois la synthèse de dopamine et la fonction mitochondriale [@DelRosso2026ironNeurodevelopmental]. La correction est peu coûteuse et sûre.
+
+**Soutien du cofacteur BH4.** Pour les porteurs de GCH1 rs841 (~4 % de la population), une supplémentation en BH4 ou un soutien du cofacteur (acide folinique, vitamine C, fer pour le recyclage) pourrait augmenter la réserve [@Williams2025GCH1BH4].
+
+**Perfusion cérébrale.** Chez les patients présentant un POTS/dysautonomie concomitant, la prise en charge standard de la perfusion (compression, charge en liquides/sel, positions de travail inclinées) augmente directement la livraison d'énergie cérébrale.
+
+Aucune étude n'a testé si la correction préventive de ces facteurs modifiables réduisant la réserve chez les patients neurodivergents réduit l'incidence de l'EM/SFC après une infection. La prédiction est claire. L'essai n'a pas été fait.
+
+*Note : Ce qui précède sont des hypothèses de recherche sur des facteurs de risque modifiables, et non des recommandations cliniques. Discutez de toute intervention avec un clinicien qualifié.*
+
+---
+
+*Partie 2 d'une série sur la biologie énergétique reliant le TDAH, l'autisme et l'EM/SFC.*

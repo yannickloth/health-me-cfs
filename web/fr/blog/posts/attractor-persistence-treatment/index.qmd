@@ -1,0 +1,106 @@
+---
+title: "Pourquoi l'EM/SFC ne se résout pas — et pourquoi les cas graves résistent au traitement"
+description: "Quand une personne contracte une infection virale, la séquence attendue est claire : le système immunitaire s'active, le pathogène est éliminé, l'inflammation se résout et la personne revient à la santé."
+author: "Yannick Loth"
+date: "2026-03-24"
+categories: [Biologie des systèmes, Traitement, Modélisation]
+lang: fr
+---
+
+Quand une personne contracte une infection virale, la séquence attendue est claire : le système immunitaire s'active, le pathogène est éliminé, l'inflammation se résout et la personne revient à la santé.
+
+Dans l'EM/SFC, l'étape de résolution échoue. Le système immunitaire reste activé longtemps après le passage de l'infection aiguë. Le métabolisme reste supprimé. Le système nerveux reste dans un état qui a du sens pendant la maladie mais pas après. Des semaines, des mois, puis des années plus tard, la personne est toujours malade [Ch. 15 §Comportement de maladie persistant dans l'EM/SFC].
+
+Pourquoi ? Et pourquoi les cas graves résistent-ils au traitement même lorsque les cas plus légers montrent une certaine réponse ?
+
+Les deux questions ont en fait la même réponse.
+
+---
+
+## Une maladie à deux états stables
+
+Dans la théorie des systèmes dynamiques, un *attracteur* est une configuration stable vers laquelle un système tend à se stabiliser et qu'il résiste à quitter. La physiologie saine est un attracteur. Les états de maladie peuvent en être d'autres.
+
+Chez une personne saine, le système immunitaire et le métabolisme forment un système auto-régulateur qui revient à l'état sain après une perturbation. Après une infection, l'inflammation monte, fait son travail et se résout. Le corps revient là où il a commencé.
+
+Un modèle formel de la physiopathologie de l'EM/SFC prédit quatre attracteurs de maladie dérivés du modèle — des configurations stables d'activation immunitaire, de suppression métabolique et de dysfonction autonome [Ch. 33 §Migration d'attracteur intra-patient]. Une fois que le système s'est déplacé dans l'un de ces bassins, il n'y revient pas spontanément. Les boucles auto-renforçantes qui maintiennent l'état de maladie le rendent mathématiquement stable au même sens que l'état sain est mathématiquement stable [Ch. 33 §Le système d'équations différentielles ordinaires d'état de maladie].
+
+C'est une prédiction structurelle sur la raison pour laquelle l'EM/SFC persiste, et non une métaphore.
+
+---
+
+## Pourquoi certains patients y tombent et d'autres non
+
+L'espace d'état est divisé par une *séparatrice* — une frontière entre le bassin d'attraction de l'état sain et les bassins des états de maladie. Pensez-y comme une crête de partage des eaux : la pluie d'un côté s'écoule vers une vallée, la pluie de l'autre côté s'écoule ailleurs. Les points à l'intérieur du bassin sain reviennent à la santé après une perturbation. Les points à l'extérieur convergent vers un attracteur de maladie [Ch. 31 §Dynamique de basculement].
+
+L'explication du modèle pour la raison pour laquelle la même infection cause l'EM/SFC chez une personne et une récupération complète chez une autre est que la différence ne réside pas principalement dans l'infection, mais dans l'endroit où les paramètres de base de chaque personne les placent déjà par rapport à la séparatrice avant que le déclencheur ne frappe. Ce n'est pas la seule explication possible — la variation génétique HLA, la dose de pathogène et les différences de sexe sont toutes des domaines de recherche actifs — mais c'est l'explication qui rend le mieux compte du schéma de coups cumulés et de l'absence d'un taux d'incidence spécifique au pathogène propre [Ch. 16 §Mécanismes capables de déclencher].
+
+Plusieurs facteurs déplacent cette frontière. Une vulnérabilité immunitaire préexistante — propension à la formation d'auto-anticorps, dysfonction des cellules NK, signalisation de cytokines dérégulée — place certaines personnes plus près dès le départ. Les coups préalables cumulés, les facteurs de stress séquentiels qui épuisent progressivement les réserves compensatoires, rapprochent encore plus le système sans nécessairement le franchir [Ch. 31 §Événements déclencheurs]. Et l'amorçage épigénétique, les changements antérieurs d'expression génique devenus partiellement stabilisés, rétrécit la marge de récupération avant qu'un déclencheur aigu n'arrive [Ch. 16 §Consolidation épigénétique].
+
+Le schéma multi-coups est particulièrement important. De nombreux patients rapportent des infections ou des facteurs de stress antérieurs dont ils "se sont remis" — mais ces récupérations peuvent avoir été une fonctionnalité minimale précaire plutôt qu'un vrai retour à la ligne de base. Chaque coup a érodé la marge jusqu'à ce que, finalement, un de plus la franchisse [Ch. 31 §Échec des mécanismes de récupération].
+
+---
+
+## Pourquoi cela reste
+
+Une fois la séparatrice franchie, le système est dans le bassin d'un attracteur de maladie. La question la plus importante est : pourquoi y reste-t-il ?
+
+L'une des boucles auto-renforçantes centrales opère à travers les systèmes immunitaire et métabolique [Ch. 13 §Modèles de cercle vicieux] :
+
+> L'activation immunitaire chronique produit des cytokines → les cytokines suppriment la fonction mitochondriale et le métabolisme énergétique → l'énergie altérée limite la capacité du système immunitaire à résoudre l'inflammation ou à éliminer le matériel viral résiduel → l'activité résiduelle soutient l'activation immunitaire → *retour au début*
+
+Pour de nombreux patients, aucune de ces choses n'exige que le déclencheur d'origine continue de fonctionner — la cascade est devenue auto-entretenue [Ch. 16 §Points d'entrée : plusieurs portes, une seule voie finale commune]. C'est pourquoi l'événement déclencheur est souvent passé depuis des années quand un patient cherche un traitement.
+
+Une mise en garde importante : chez certains patients, le déclencheur d'origine peut ne pas s'être entièrement résolu. Les preuves de réservoirs viraux persistants — VEB latent, réactivation du HHV-6 ou antigène résiduel du SARS-CoV-2 dans les tissus — s'accumulent, en particulier dans la COVID longue. Pour ces patients, le déclencheur peut encore contribuer, et les approches antivirales peuvent être plus pertinentes. Le cadre des attracteurs et le cadre des réservoirs ne s'excluent pas mutuellement : une activité virale persistante pourrait être l'un des intrants qui soutiennent la boucle auto-renforçante, plutôt qu'une explication alternative [Ch. 33 §Efficacité de la thérapie antivirale et composition du signal de menace].
+
+Trois mécanismes supplémentaires approfondissent le bassin. La défaillance énergétique du SNC perturbe la coordination normale entre les systèmes sympathique et parasympathique, produisant l'échec de la régulation vasomotrice, l'intolérance orthostatique et la diminution du débit cardiaque qui caractérisent l'EM/SFC [Ch. 16 §Crise énergétique du SNC]. Chez certains patients, des auto-anticorps ciblant les RCPG (récepteurs couplés aux protéines G, une classe de récepteurs de surface cellulaire qui régulent le système nerveux autonome) sont produits par des plasmocytes à longue durée de vie qui ne se résolvent pas, dérégulant en continu la signalisation autonome par un mécanisme entièrement indépendant de l'infection d'origine [Ch. 16 §Cascade d'auto-anticorps anti-RCPG]. Ce mécanisme est notable parce qu'il est en principe suffisant pour maintenir la maladie à lui seul : si la clairance des auto-anticorps anti-RCPG obtient une rémission chez ces patients, ce sous-groupe serait expliqué sans exiger le modèle complet à attracteurs multiples — un test important de falsifiabilité pour ce cadre [Ch. 16 §Verrous porteurs contre verrous secondaires]. Enfin, le programme d'expression génique approprié à la maladie devient stabilisé par méthylation de l'ADN et modifications des histones ; même après la disparition des signaux d'origine, la trace épigénétique persiste, et les cellules continuent d'exprimer le programme de maladie non pas parce qu'elles reçoivent encore le signal mais parce qu'il est maintenant écrit dans la couche de modification du génome [Ch. 16 §Consolidation épigénétique].
+
+Le déclencheur était la porte. Les verrous sont ce qui maintient le patient à l'intérieur, et ils fonctionnent indépendamment du déclencheur [Ch. 16 §Verrous porteurs contre verrous secondaires].
+
+---
+
+## Pourquoi les cas graves résistent au traitement
+
+Se rétablir de l'EM/SFC signifie refranchir la séparatrice. Mais la séparatrice n'est pas symétrique — le chemin de la santé à la maladie et le chemin du retour sont différents, une propriété appelée *hystérésis* [Ch. 31 §Analyse de l'hystérésis]. Un bassin d'attracteur plus profond signifie que le système se trouve plus loin de la frontière et exige proportionnellement plus de force pour le repousser de l'autre côté. Vous ne pouvez pas simplement annuler le déclencheur.
+
+La profondeur à laquelle un patient se trouve dans le bassin correspond approximativement à la durée et à la sévérité de la maladie. Des méta-analyses publiées rapportent qu'environ 5 % des patients se rétablissent spontanément ; le modèle reproduit cela par la variation patient à patient des paramètres près de la frontière de la séparatrice, où les fluctuations naturelles peuvent pousser le système vers l'arrière. Pour la majorité, une intervention délibérée est requise [Ch. 31 §Maladie stable contre maladie progressive].
+
+Le modèle prédit quatre sous-types de maladie, chacun étant un attracteur distinct — une partition dérivée du modèle qui attend une validation empirique ; le nombre réel de sous-types cliniquement significatifs peut différer [Ch. 33 §Migration d'attracteur intra-patient]. Dans les sous-types plus légers, moins de verrous sont porteurs, et le modèle suggère que traiter le mécanisme dominant peut suffire pour s'échapper. Pour les trois sous-types plus légers — à dominance immunitaire, à dominance métabolique, à dominance neurovasculaire — les interventions à cible unique appariées au mécanisme dominant peuvent atteindre l'échappement [Ch. 16 §Verrous porteurs contre verrous secondaires].
+
+Ces sous-types ne sont pas des destinations fixes. Le modèle prédit que les patients migrent entre les bassins d'attracteurs au fil du temps à mesure qu'ils acquièrent des verrous supplémentaires — typiquement dans la direction immunitaire-dominant → métabolique-dominant → sévère/verrouillé. Cette prédiction de migration ne peut pas encore être distinguée de la possibilité que les patients entrent simplement dans des attracteurs différents dès le début, car aucune donnée de sous-typage longitudinal n'existe. Mais si elle était confirmée, elle expliquerait pourquoi l'EM/SFC "change de caractère" au fil des ans et pourquoi un traitement précoce peut prévenir la progression vers des configurations plus profondes et plus résistantes au traitement [Ch. 33 §Migration d'attracteur intra-patient].
+
+Dans l'attracteur sévère, les trois mécanismes opèrent simultanément — et leur interaction est ce qui rend le bassin si difficile à fuir. Le modèle prédit un résultat frappant : aucune restauration à paramètre unique n'atteint l'échappement. Le soutien mitochondrial seul, la modulation immunitaire seule, l'intervention épigénétique seule — chacun déplace le système dans l'attracteur sans s'en échapper, parce que le bassin est approfondi au point où toute intervention unique, aussi efficace soit-elle dans les sous-types légers, est simplement insuffisante [Ch. 33 §Dépendance de la séquence de retrait des verrous].
+
+Le cadre de poussée de séparatrice du modèle prédit que l'échappement exige d'empiler plusieurs interventions sous-seuil avec des interactions synergiques positives jusqu'à ce que la perturbation combinée franchisse la frontière [Ch. 33 §Poussée de séparatrice par interventions sous-seuil empilées]. À travers tous les chemins d'échappement modélisés, traiter la consolidation épigénétique est porteur : les autres restaurations ne peuvent pas faire leur plein travail tant que le programme épigénétique code encore l'état de maladie [Ch. 16 §La stratégie de renversement épigénétique accessible au patient].
+
+Le modèle prédit aussi que l'ordre compte : la restauration énergétique doit précéder ou accompagner l'intervention épigénétique, parce que renverser la méthylation sans d'abord réduire les signaux inflammatoires qui la pilotent mène à une reconsolidation rapide [Ch. 33 §Dépendance de la séquence de retrait des verrous].
+
+L'affirmation ici est architecturale, pas un récit générique "tout est cassé" : la consolidation épigénétique est un verrou porteur qui doit être traité avant que d'autres interventions puissent atteindre leur plein effet. La persistance et la résistance au traitement sont le même attracteur à des profondeurs différentes, et non deux problèmes séparés.
+
+---
+
+## Ce que le modèle prédit — et comment le falsifier
+
+Cela produit des prédictions spécifiques et falsifiables.
+
+Pour les sous-types plus légers : des interventions à cible unique appariées au verrou dominant de ce sous-type devraient produire une récupération significative. Les essais non sélectionnés qui mélangent les sous-types dilueront le signal [Ch. 16 §Implications thérapeutiques de la hiérarchie causale].
+
+Pour les cas graves : les interventions à cible unique produiront au plus une amélioration partielle — non pas parce qu'elles sont inefficaces en principe, mais parce qu'elles sont insuffisantes pour franchir la frontière de l'attracteur. La prédiction est que les thérapies combinées empilant le soutien mitochondrial, les agents anti-inflammatoires et les modificateurs épigénétiques montreront des résultats *qualitativement différents* chez les patients sévères par rapport à toute thérapie unique — spécifiquement, un changement par paliers du taux de récupération défini comme dépassant le seuil de la séparatrice. Si un essai combiné bien conçu chez des patients sévères stratifiés par sévérité ne montre pas un tel changement par paliers, l'analyse de poussée de séparatrice du modèle est falsifiée [Ch. 33 §Poussée de séparatrice par interventions sous-seuil empilées].
+
+La voie accessible au patient que le modèle propose n'exige pas de médicaments épigénétiques toxiques. Une thérapie anti-inflammatoire soutenue (18 à 24 mois) combinée à un soutien métabolique (CoQ10, NR/NMN) réduirait les signaux qui pilotent l'activité de méthylation, permettant à la déméthylation passive naturelle d'éroder progressivement la consolidation épigénétique au fil du temps [Ch. 16 §La stratégie de renversement épigénétique accessible au patient]. Les agents épigénétiques pharmacologiques — les inhibiteurs de HDAC (enzymes qui contrôlent l'expression génique) comme le valproate et la vorinostat, et les agents déméthylants comme la 5-azacytidine et la décitabine — sont approuvés pour d'autres conditions (valproate pour l'épilepsie et le trouble bipolaire, les autres en oncologie) et portent des profils de toxicité significatifs. Ils sont listés ici comme une direction de recherche uniquement, et non comme une suggestion de traitement.
+
+---
+
+## Ce que ce cadre peut et ne peut pas revendiquer
+
+C'est un modèle formel, pas un essai clinique. Toutes les citations de chapitres dans cet article renvoient au propre cadre de l'auteur — un modèle non publié qui n'a pas encore été reproduit de manière indépendante ni validé par d'autres groupes de recherche. La structure d'attracteurs, la partition en quatre sous-types, l'analyse de poussée de séparatrice et la conclusion du verrou porteur épigénétique sont toutes des prédictions internes de ce modèle, et non des résultats consensuels. Les mécanismes sous-jacents qu'elles codent — boucles de rétroaction immun-métaboliques, stabilisation épigénétique de l'expression génique, échec de coordination autonome — sont chacun soutenus individuellement par la recherche publiée sur l'EM/SFC, mais leur intégration dans un système dynamique unifié est la propre contribution du modèle [Ch. 16 §Implications thérapeutiques de la hiérarchie causale].
+
+La classification en verrous porteurs et verrous secondaires est aussi dépendante du stade : un mécanisme secondaire au début de la maladie peut devenir porteur à mesure que la cause racine d'origine se résout mais que le verrou persiste [Ch. 16 §Verrous porteurs contre verrous secondaires].
+
+Le mécanisme de consolidation épigénétique est mécanistiquement plausible et cohérent avec l'observation clinique que la durée de la maladie est corrélée à la résistance au traitement [Ch. 31 §Maladie stable contre maladie progressive] — mais les preuves épigénétiques directes dans l'EM/SFC restent limitées. Les prédictions de poussée de séparatrice et d'ensemble d'intervention minimal portent des certitudes de 0,35 à 0,40 dans le modèle source, inférieures au cadre de persistance (0,45-0,50). Les prédictions spécifiques au traitement sont la partie la moins certaine de cet article [Ch. 33 §Prédictions émergentes de la synthèse inter-idées].
+
+Certitude : 0,35-0,50, selon l'affirmation spécifique. La nature auto-renforçante de l'EM/SFC est bien soutenue (0,50) ; la caractérisation formelle en systèmes dynamiques ajoute une précision quantitative (0,45) ; les prédictions de combinaison de traitement sont les plus spéculatives (0,35).
+
+---
+
+L'EM/SFC persiste parce que la maladie se maintient elle-même par des boucles auto-renforçantes qui ne dépendent plus du déclencheur d'origine. Les cas graves résistent au traitement parce que ces boucles ont été approfondies — par la consolidation épigénétique avant tout — au point où le système ne peut pas s'échapper par une intervention unique. La persistance et la résistance au traitement sont le même attracteur à des profondeurs différentes.

@@ -1,0 +1,100 @@
+---
+title: "Der Kalzium-Faden"
+description: "Es gibt ein einzelnes Element, das in mindestens drei getrennten ME/CFS-Ausfallmodi auftaucht. Nicht als Ursache oder Kernproblem in jedem Fall — die Mechanismen sind unterschiedlich. Aber als wiederkehrender Charakter: das Ding, das in verschiedenen Geweben, aus verschiedenen Gründen schiefgeht und verschiedene Symptome erzeugt, die alle auf dasselbe Ion zurückgehen."
+author: "Yannick Loth"
+date: "2026-04-18"
+categories: [Pathophysiologie, Ionenkanäle]
+lang: de
+---
+
+Es gibt ein einzelnes Element, das in mindestens drei getrennten ME/CFS-Ausfallmodi auftaucht. Nicht als Ursache oder Kernproblem in jedem Fall — die Mechanismen sind unterschiedlich. Aber als wiederkehrender Charakter: das Ding, das in verschiedenen Geweben, aus verschiedenen Gründen schiefgeht und verschiedene Symptome erzeugt, die alle auf dasselbe Ion zurückgehen.
+
+Kalzium.
+
+---
+
+## Ausfallmodus 1: der Muskel, der sich nicht erholen kann
+
+Nach körperlicher oder kognitiver Anstrengung erleben viele ME/CFS-Patienten einen verzögerten Einbruch — Post-Exertional Malaise (PEM) —, der möglicherweise erst nach 24 bis 48 Stunden seinen Höhepunkt erreicht und Tage oder Wochen andauern kann. Der von Wirth und Scheibenbogen vorgeschlagene Mechanismus [@WirthScheibenbogen2021muscle] folgt einer spezifischen Ionenkette.
+
+Muskelzellen benötigen eine Natrium-Kalium-Pumpe (das Enzym Na⁺/K⁺-ATPase), um ihre innere Chemie aufrechtzuerhalten. Bei ME/CFS scheint diese Pumpe zu mindern/verschlechtern — möglicherweise weil die beta-2-adrenergen Rezeptoren, die sie aktivieren, dysfunktional sind, möglicherweise durch Autoantikörper-Interferenz. Wenn die Pumpe ausfällt, sammelt sich Natrium in der Zelle an.
+
+Erhöhtes intrazelluläres Natrium bringt den Natrium-Kalzium-Austauscher — einen Transporter, der normalerweise Kalzium exportiert — dazu, rückwärts zu laufen. Statt Kalzium herauszubefördern, importiert er es.
+
+Das Ergebnis ist eine Kalziumüberladung in den Muskelzellen. Kalzium in hohen intrazellulären Konzentrationen ist toxisch. Es flutet die Mitochondrien, beeinträchtigt die Energieproduktion, löst oxidativen Stress aus und verursacht in schweren Fällen strukturelle Schäden an den Muskelfasern — unter dem Elektronenmikroskop bei ME/CFS-Patienten sichtbar. Natrium-Bildgebung — eine spezialisierte MRT-Technik, die Natriumionen direkt im Muskelgewebe misst — hat die vorhergesagte Akkumulation bestätigt: ME/CFS-Patienten zeigen nach körperlicher Belastung einen Anstieg des intrazellulären Muskelnatriums um 30 %, verglichen mit 17 % bei Kontrollen.
+
+Dies ist einer der führenden vorgeschlagenen Mechanismen hinter der Post-Exertional Malaise. Keine Dekonditionierung. Keine Psychologie. Eine spezifische, messbare Ionenkaskade, die Muskelzellen vergiftet, wenn sie über eine Schwelle hinaus getrieben werden.
+
+---
+
+## Ausfallmodus 2: die Immunzelle, die nicht feuern kann
+
+Natürliche Killerzellen sind die Ersthelfer-Killer des Immunsystems — die Zellen, die infizierte oder abnormale Zellen identifizieren und zerstören. Ihr Abtötungsmechanismus hängt von Kalzium ab. Wenn eine natürliche Killerzelle ein Ziel erkennt, strömt Kalzium durch einen spezifischen Kanal namens TRPM3 ein und löst die Degranulation aus, die die tödliche Ladung freisetzt.
+
+Bei ME/CFS ist TRPM3 defekt.
+
+Die Gruppe der Griffith University (Marshall-Gradisnik und Kollegen) dokumentiert dies seit Jahren. Die TRPM3-Kanalaktivität ist in den natürlichen Killerzellen von ME/CFS-Patienten deutlich reduziert. Der Kalziumeinstrom ist beeinträchtigt. Die Zellen können nicht richtig degranulieren. Ihre Abtötungskapazität ist nachweislich verringert. Eine groß angelegte Studie von 2025 bestätigte diesen Befund über mehrere Laborstandorte hinweg [@marshall2025trpm3] — was ihn zu einer der am konsistentesten beobachteten biologischen Anomalien bei ME/CFS macht, obwohl eine unabhängige Replikation durch getrennte Forschungsgruppen noch aussteht.
+
+Bemerkenswerterweise scheint Niedrigdosis-Naltrexon — eine Behandlung, von der viele ME/CFS-Patienten profitieren — die TRPM3-Funktion in diesen Zellen teilweise wiederherzustellen. Die Arbeit von Lohn und Kollegen aus dem Jahr 2024 [@WirthLohn2024microvascular] dokumentierte diesen Effekt und schlug TRPM3-Dysfunktion als mechanistische Erklärung dafür vor, warum Niedrigdosis-Naltrexon in dieser Population Nutzen erzeugt.
+
+Hier liegt das Kalziumproblem vorgelagert, nicht nachgelagert. Der Kanal selbst ist dysfunktional — nicht wegen einer Energiekrise, die eine Kaskade antreibt, sondern als primäre Beeinträchtigung. Die Immunzelle kann kein Kalzium laden. Sie kann nicht feuern. Krankheitserreger oder reaktivierte Viren, die das Immunsystem beseitigen sollte, werden nicht beseitigt.
+
+---
+
+## Ausfallmodus 3: das Gehirn, das nicht ruhen kann
+
+Während des tiefen Slow-Wave-Schlafs müssen thalamische Neuronen mit niedriger Frequenz oszillieren — um etwa 1 Hz, den Delta-Rhythmus. Dies ist der Zustand, in dem das Abfallentsorgungssystem des Gehirns (das glymphatische System, das von diesen langsamen Oszillationen abhängt) funktionieren kann. Wenn Sie sich wirklich erholt aufwachen — das ist der Grund.
+
+Bei einigen ME/CFS-Patienten und bei der Mehrheit der Fibromyalgie-Patienten sind diese langsamen Oszillationen durch Alpha-Aktivität kontaminiert — die Wachfrequenz des Gehirns (~10 Hz), die in den Tiefschlaf eindringt. Das Ergebnis: Schlaf, der in der Dauer normal erscheint, aber nicht wiederherstellt.
+
+Der von Timofeev und Kollegen charakterisierte Mechanismus [@timofeev2015thalamic] führt auf den thalamischen Kalziumkanal zurück. Konkret ist eine Klasse spannungssensitiver Kalziumkanäle in thalamokortikalen Neuronen — die sich bei niedrigen Spannungen öffnen und schließen und rhythmische Salven erzeugen — für die Produktion der langsamen oszillierenden Aktivität verantwortlich, die die Delta-Wellen erzeugt. Wenn die thalamische Erregbarkeit abnorm erhöht ist — wenn der Kreislauf nicht richtig zur Ruhe kommen kann — produzieren diese Kanäle stattdessen Oszillationen mit höherer Frequenz. Alpha dringt ein. Tiefschlaf wird nicht erholsam.
+
+Der beteiligte Kalziumkanal unterscheidet sich vom TRPM3-Kanal in Immunzellen und vom Natrium-Kalzium-Austauscher im Muskel. Dasselbe Element, andere molekulare Maschinerie, anderes Gewebe, andere klinische Konsequenz.
+
+---
+
+## Drei Ausfälle, drei Mechanismen — oder einer?
+
+An diesem Punkt sieht das Bild so aus:
+
+| Gewebe | Kalziumproblem | Klinische Konsequenz |
+|--------|----------------|---------------------|
+| Muskel | Umkehrung des Natrium-Kalzium-Austauschers → Kalziumüberladung (sekundär zum Natrium-/Energie-Ausfall) | Post-Exertional Malaise, Belastungsintoleranz |
+| Immunzellen | TRPM3-Kanaldysfunktion (primär) | Beeinträchtigte Beseitigung von Krankheitserregern, Immunerschöpfung |
+| Thalamus | Übererregbarkeit des spannungssensitiven Kalziumkanals | Nicht erholsamer Schlaf, kognitive Beeinträchtigung |
+
+Sind dies drei unabhängige Probleme, die zufällig gemeinsam auftreten, weil ME/CFS eine multisystemische Erkrankung ist? Oder sind es Ausdrücke einer einzigen zugrunde liegenden Kalzium-Dysregulation?
+
+Die TRPM3-Hypothese bietet einen Kandidaten für eine vereinheitlichende Erklärung. TRPM3 wird nicht nur in Immunzellen exprimiert. Es ist im gesamten zentralen Nervensystem exprimiert, einschließlich in Gehirnneuronen. Es spielt eine Rolle bei der spontanen Neurotransmitterfreisetzung, bei der neuronalen Kalziumhomöostase und bei der Erregbarkeit sensorischer und zerebraler Schaltkreise. Wäre die TRPM3-Dysfunktion systemisch statt auf Immunzellen beschränkt — und würde Neuronen ebenso wie natürliche Killerzellen betreffen —, so würde sie die Kalziumverarbeitung in thalamischen Schaltkreisen verändern und möglicherweise zu den in Schlafstudien beobachteten Oszillationsanomalien beitragen.
+
+Dies ist nicht etabliert. Die TRPM3-Dysfunktion bei ME/CFS wurde nur in Immunzellen nachgewiesen. Ob dieselbe Beeinträchtigung in thalamischen Neuronen existiert, wurde nie gemessen. Es ist eine Hypothese, kein Befund.
+
+Aber es ist eine widerlegbare Hypothese. Ein einziges Experiment — die Messung der TRPM3-Funktion in neuronalen Zellmodellen, oder in postmortalem Gehirngewebe von ME/CFS-Patienten, oder indirekt durch Bildgebung der thalamischen Kalziumdynamik — könnte sie beantworten.
+
+---
+
+## Was das für die Untergruppen bedeutet
+
+Der Muskelweg (Umkehrung des Natrium-Kalzium-Austauschers, Natriumüberladung, Energieausfall, der Kalziumtoxizität antreibt) ist höchstwahrscheinlich ein sekundärer Mechanismus — Kalzium-Dysregulation nachgelagert zur metabolischen Krise. Patienten mit schwerer Hypoperfusion, signifikanter kardiovaskulärer Beteiligung oder hohen körperlichen Anstrengungsauslösern können diesen Weg am stärksten ausprägen.
+
+Der TRPM3-Weg kann primär sein — der Kanal ist zuerst defekt, und Energieausfall, Immunstörung und möglicherweise Schlafstörung folgen als nachgelagerte Konsequenzen. Dies wäre eine eigene Untergruppe: ein kanalopathiegetriebener Phänotyp, bei dem die Wurzelläsion auf Kanalebene liegt, nicht auf metabolischer Ebene.
+
+Diese beiden Untergruppen würden unterschiedliche Behandlungsantworten vorhersagen. Die Natrium-Kalzium-Kaskade anzugehen (mit Na⁺/K⁺-ATPase-Stimulanzien, Natriumkanalblockern oder mitochondrialer Unterstützung) zielt auf den sekundären Weg. Die TRPM3-Funktion wiederherzustellen (LDN ist derzeit der Kandidat) zielt auf den primären. Bei einem Patienten, bei dem beide aktiv sind, können beide nötig sein.
+
+Dasselbe Medikament, das der falschen Untergruppe gegeben wird, würde keine Antwort erzeugen — und dies könnte einen erheblichen Teil der klinischen Studienfehlschläge bei ME/CFS erklären, die Forscher seit Jahrzehnten verblüffen.
+
+---
+
+## Der Faden
+
+Ein Element, drei Systeme, mindestens zwei unterschiedliche Mechanismen, möglicherweise eine Wurzelursache.
+
+Kalzium ist nicht die einzige Geschichte bei ME/CFS. Aber es könnte ein Faden sein, der, wenn man daran zieht, mehr von der Krankheit verbindet als jedes andere einzelne Molekül. Der Muskelweg und die Immun-/Schlafwege verwenden eine unterschiedliche molekulare Maschinerie — die Verbindung zwischen ihnen könnte eher metabolisch als kanalopathisch sein. Aber das Immunproblem und das Schlafproblem könnten eine gemeinsame Wurzel in TRPM3 haben. Der Patient, der alle drei hat, könnte nicht drei getrennte Krankheiten haben. Er könnte zwei Kalziumprobleme haben, nicht eines — und eines dieser beiden könnte reversibel sein.
+
+Dieses Experiment — die Messung der TRPM3-Funktion in thalamischen Neuronen bei ME/CFS — wurde nicht durchgeführt. Wenn es durchgeführt wird, wird die Antwort wichtig sein.
+
+---
+
+*Teil einer laufenden Serie über die Biologie von ME/CFS.*
+
+---

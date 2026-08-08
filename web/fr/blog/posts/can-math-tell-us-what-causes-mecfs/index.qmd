@@ -1,0 +1,70 @@
+---
+title: "Les mathématiques peuvent-elles nous dire ce qui cause l'EM/SFC ?"
+description: "La biologie répond aux questions causales en laboratoire : vous perturbez un système, vous observez le résultat et vous inférez la relation. Mais dans la maladie humaine, la plupart des perturbations ne sont ni contrôlables ni réversibles, la plupart des patients arrivent avec une maladie déjà établie, et ce que vous voulez le plus savoir — ce qui s'est passé au moment du début — est généralement inobservable. La biologie atteint sa limite."
+author: "Yannick Loth"
+date: "2026-04-23"
+categories: [Modélisation, Biologie des systèmes]
+lang: fr
+---
+
+La biologie répond aux questions causales en laboratoire : vous perturbez un système, vous observez le résultat et vous inférez la relation. Mais dans la maladie humaine, la plupart des perturbations ne sont ni contrôlables ni réversibles, la plupart des patients arrivent avec une maladie déjà établie, et ce que vous voulez le plus savoir — ce qui s'est passé au moment du début — est généralement inobservable. La biologie atteint sa limite.
+
+Les mathématiques ont une approche différente. Au lieu d'observer directement l'événement causal, vous construisez un modèle formel de la dynamique du système, vous encodez les mécanismes que vous croyez opérants, puis vous demandez : ce mécanisme seul peut-il, à partir d'un état sain, pousser le système au-delà de la frontière dans la maladie ? Cette question peut être répondue de manière analytique, sans mener l'expérience sur un patient.
+
+C'est ce que fait le Ch. 33 du cadre. Il prend la hiérarchie causale qualitative du Ch. 16 — la classification en trois niveaux des causes racines, des amplificateurs et des conséquences, développée par un raisonnement biologique verbal — et la soumet à un test formel en utilisant un modèle de systèmes dynamiques à 67 variables [Ch. 33 §Introduction].
+
+---
+
+## Trois analyses complémentaires
+
+L'analyse formelle pose trois questions, chacune ciblant un aspect différent de la dynamique de la maladie [Ch. 33 §Methodology]. La première est la suffisance du déclencheur : à partir de l'état d'équilibre sain, perturber un seul mécanisme peut-il pousser le système au-delà de la séparatrice — la frontière entre l'attracteur sain et l'attracteur de maladie — sans aucun autre changement ? Si oui, ce mécanisme peut à lui seul initier la maladie. La deuxième est l'analyse de sensibilité : à l'état d'équilibre de la maladie, quels paramètres contrôlent le plus fortement la configuration de la maladie ? Une sensibilité élevée signifie que de petits changements dans un paramètre produisent de grands déplacements dans la sévérité de la maladie, identifiant les mécanismes porteurs de charge présentant le plus grand levier thérapeutique. La troisième est le retrait du verrou : à partir de l'état d'équilibre de la maladie, restaurer un seul mécanisme aux valeurs saines peut-il permettre au système d'échapper à l'attracteur de maladie ? Si oui, ce mécanisme est un verrou nécessaire dont la présence est requise pour le maintien de la maladie.
+
+La suffisance du déclencheur identifie ce qui peut causer la maladie ; le retrait du verrou identifie ce qui la maintient. Les deux ne sont pas symétriques, car un mécanisme qui déclenche la maladie peut ne pas être nécessaire à son maintien une fois que d'autres boucles se sont engagées, et un mécanisme nécessaire au maintien peut ne pas avoir été le déclencheur original.
+
+---
+
+## Résultats de suffisance du déclencheur
+
+Trois des quatre causes racines candidates passent le test de suffisance du déclencheur [Ch. 33 §Trigger Sufficiency Analysis].
+
+La crise énergétique du SNC — la réduction de l'activité du Complexe I — est la voie la plus directe. Sous environ 65 % de l'activité saine du Complexe I, le système de rétroaction énergie-immunité subit une bifurcation nœud-col : l'attracteur sain disparaît, et le seul état stable restant est l'attracteur de maladie [Ch. 33 §CNS Energy Crisis: Complex I Reduction]. La cascade se déroule ainsi : l'ATP chute, le contrôle immunitaire s'affaiblit, les cytokines augmentent, le cercle vicieux énergie-immunité se verrouille, et la consolidation épigénétique commence.
+
+L'activation du mode sûr métabolique suit un mécanisme différent. L'interrupteur du mode sûr présente une hystérésis, une structure bistable où l'activation et la désactivation ont des seuils différents. Un signal de menace transitoire dépassant le seuil d'activation déclenche l'interrupteur vers l'état de haute suppression, et des rétroactions internes — la suppression de la CTe élevant les ROS, les ROS poussant la montée des cytokines, les cytokines soutenant le signal de menace — maintiennent l'interrupteur activé même après la disparition de la menace externe. Le mécanisme s'auto-perpétue une fois déclenché [Ch. 33 §Metabolic Safe Mode Activation].
+
+La cascade d'auto-anticorps GPCR fonctionne plus lentement. Quand le titre d'auto-anticorps atteint environ 55–65 % du maximum normalisé, la dysfonction endothéliale réduit la délivrance effective d'oxygène suffisamment pour déclencher la bifurcation énergie-immunité. Parce que l'accumulation d'auto-anticorps prend des semaines à des mois, cette voie est cohérente avec le sous-type d'EM/SFC à début progressif plutôt qu'avec la présentation post-infectieuse aiguë [Ch. 33 §GPCR Autoantibodies].
+
+La canalopathie TRPM3 est conditionnellement suffisante pour déclencher plutôt qu'indépendamment. Même la perte complète de TRPM3 réduit l'activité du Complexe I à environ 70 % de la normale — proche de mais pas au-delà du seuil critique de 65 % — donc elle ne déclenche pas indépendamment la maladie chez la plupart des individus. Ce qu'elle fait à la place, c'est déplacer le seuil pour chaque autre mécanisme : un patient avec une dysfonction TRPM3 ne nécessite qu'une réduction de 20 % du Complexe I pour franchir la bifurcation, contre 35 % chez un patient avec une signalisation calcique intacte. La dysfonction est une vulnérabilité qui rend les infections de routine dangereuses [Ch. 33 §TRPM3 Trigger Sufficiency].
+
+---
+
+## Sensibilité : ce qui contrôle le plus l'état de maladie
+
+L'analyse de sensibilité globale (indices de Sobol) classe les paramètres selon combien ils contrôlent le niveau d'ATP à l'état de maladie, en tenant compte des interactions non linéaires [Ch. 33 §Sensitivity Analysis]. Le classement est : activité du Complexe I (indice de Sobol 0,42), taux d'épuisement immunitaire (0,31), activation du mode sûr (0,28), indice de méthylation épigénétique (0,22) et titre d'auto-anticorps (0,19). La somme de ces indices atteint 1,77 — bien au-dessus de 1 — parce que les interactions de paramètres sont elles-mêmes substantielles. L'état de maladie n'est pas contrôlé par une seule variable mais par leur configuration collective, ce qui est la signature mathématique d'un système à verrous multiples.
+
+L'activité du Complexe I est le paramètre individuel le plus influent, mais l'épuisement immunitaire se classe deuxième, plus haut que ne le suggérerait l'analyse de sensibilité locale, reflétant un fort couplage non linéaire entre les sous-systèmes énergétique et immunitaire. L'indice de méthylation épigénétique se classe quatrième, une influence modérée mais omniprésente qui affecte toutes les variables de sortie sans dominer aucune d'elles. Cela est cohérent avec son rôle de modificateur lent qui approfondit progressivement l'attracteur de maladie plutôt que de piloter directement un sous-système.
+
+---
+
+## Retrait du verrou : ce dont le système ne peut pas s'échapper
+
+Pour trois des quatre sous-types de maladie, une restauration à paramètre unique est suffisante pour échapper à l'attracteur de maladie [Ch. 33 §Lock Removal Results]. Dans le sous-type à dominante immunitaire, la restauration du taux d'épuisement immunitaire réalise l'échappement ; dans le sous-type à dominante métabolique, soit restaurer l'activité du Complexe I, soit désactiver l'interrupteur du mode sûr est suffisant ; dans le sous-type à dominante neurovasculaire, l'élimination des auto-anticorps réalise l'échappement.
+
+L'attracteur sévère/verrouillé est différent. Aucune restauration à paramètre unique ne permet l'échappement — chaque intervention déplace le système dans le bassin de maladie sans franchir sa frontière. Les combinaisons minimales réussies exigent toutes l'inversion de la méthylation épigénétique couplée à une restauration produisant de l'énergie [Ch. 33 §Minimum Intervention Sets]. C'est la base mathématique de l'argument, avancé plus tôt dans cette série, que l'EM/SFC sévère nécessite une combinaison plutôt qu'un traitement à cible unique. La consolidation épigénétique a supprimé simultanément plusieurs paramètres en dessous du seuil d'échappement, donc restaurer l'un laisse les autres supprimés et l'attracteur de maladie intact dans le paysage modifié [Ch. 33 §Interpretation: Why Epigenetic Reversal Is Rate-Limiting].
+
+---
+
+## Ce que ce type d'analyse peut et ne peut pas affirmer
+
+Les résultats ici dérivent d'un modèle. Les 67 ODE encodent la compréhension biologique actuelle, et les équations de couplage reflètent la topologie de rétroaction connue. Mais de nombreuses valeurs de paramètres sont estimées à partir de données limitées, le modèle n'a pas été intégralement validé numériquement, et les prédictions qualitatives — mécanismes suffisants pour déclencher, verrous nécessaires, ensembles d'interventions minimales — dépendent de la structure de rétroaction plutôt que des valeurs précises des paramètres [Ch. 33 §Analytical vs. Numerical Results].
+
+Les affirmations analytiques (quels mécanismes sont suffisants pour déclencher, lesquels sont des verrous nécessaires) devraient être robustes aux détails du modèle parce qu'elles reflètent la topologie du réseau de rétroaction. Les seuils numériques spécifiques (Complexe I à 65 %, titre d'auto-anticorps à 55–65 % normalisé) sont des estimations d'ordre de grandeur qui seront affinées avec de meilleures données.
+
+Ce qui rend l'analyse précieuse, ce n'est pas qu'elle prouve la hiérarchie, mais qu'elle rend la hiérarchie testable d'une manière spécifique. Le modèle fait des prédictions — sur les types d'interventions qui devraient réussir, sur celles qui devraient plafonner à une amélioration sans rétablissement, sur les combinaisons qui devraient produire des résultats qualitativement différents — qui peuvent être vérifiées contre des données cliniques. Quand les prédictions échouent, l'échec vous dit quelque chose de spécifique sur quelle partie de la structure de rétroaction du modèle est erronée.
+
+C'est la contribution que les mathématiques font à une maladie difficilement étudiable expérimentalement. Pas une preuve, mais une précision — le genre de précision qui transforme une hypothèse verbale en une hypothèse falsifiable.
+
+---
+
+*Article précédent dans cette série : [Pourquoi les traitements à cible unique continuent d'échouer dans l'EM/SFC](https://www.linkedin.com/pulse/) (2026-04-20)*
+
+*Prochain dans cette série : Le modèle multi-hits — pourquoi seules certaines personnes développent une EM/SFC après infection, et à quoi ressemblent les vulnérabilités prédisposantes mathématiquement*
