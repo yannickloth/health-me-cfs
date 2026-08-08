@@ -1222,6 +1222,46 @@ final class RegexConversion implements TypstToQmd {
                 }
             }
             if (!isTable) {
+                int depth2 = 1;
+                int j2 = pos + 8;
+                while (j2 < s.length() && depth2 > 0) {
+                    char c = s.charAt(j2);
+                    if (c == '(') depth2++;
+                    else if (c == ')') depth2--;
+                    j2++;
+                }
+                int afterClose2 = j2;
+                while (afterClose2 < s.length() && s.charAt(afterClose2) == ' ') afterClose2++;
+                if (afterClose2 < s.length() && s.charAt(afterClose2) == '[') {
+                    int bd2 = 1;
+                    int bStart2 = afterClose2 + 1;
+                    int bEnd2 = bStart2;
+                    while (bEnd2 < s.length() && bd2 > 0) {
+                        char c = s.charAt(bEnd2);
+                        if (c == '[') bd2++;
+                        else if (c == ']') bd2--;
+                        bEnd2++;
+                    }
+                    var bracketContent2 = s.substring(bStart2, bEnd2 - 1);
+                    if (bracketContent2.contains("#table(")) {
+                        var md2 = extractAndConvertTable(bracketContent2);
+                        if (md2 != null) {
+                            sb.append(md2).append("\n");
+                        }
+                        j2 = bEnd2;
+                        while (j2 < s.length() && s.charAt(j2) == ' ') j2++;
+                        if (j2 < s.length() && s.charAt(j2) == '<') {
+                            int labelEnd2 = s.indexOf('>', j2);
+                            if (labelEnd2 >= 0) {
+                                sb.append(s, j2, labelEnd2 + 1).append('\n');
+                                j2 = labelEnd2 + 1;
+                            }
+                        }
+                        if (j2 < s.length() && s.charAt(j2) == '\n') j2++;
+                        i = j2;
+                        continue;
+                    }
+                }
                 sb.append("#figure(");
                 i = pos + 8;
                 continue;

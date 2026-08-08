@@ -29,7 +29,7 @@ void main(String[] args) throws Exception {
     try (var stream = walk(webDir)) {
         for (var path : stream.filter(p -> p.toString().endsWith(".qmd")).sorted().toList()) {
             var relPath = webDir.relativize(path).toString();
-            if (relPath.startsWith("blog/")) continue;
+            if (relPath.startsWith("blog/") || relPath.contains("/blog/posts/")) continue;
             filesScanned++;
             var lines = readAllLines(path);
             auditFile(lines, relPath, findings);
@@ -145,8 +145,7 @@ void auditFile(List<String> lines, String relPath, List<QualityFinding> findings
         inYaml = false;
         inCodeBlock = false;
         var bareCite = Pattern.compile(
-            "(?<!\\[)@([A-Z][a-z]+\\d{4}|[a-z]+\\d{4})(?!\\])");
-        var alreadyBracketed = Pattern.compile("\\[@[A-Za-z]+\\d{4}\\]");
+            "(?<!\\[)@([A-Z][a-z]+\\d{4}\\b)(?!\\s*\\])");
         var emailPat = Pattern.compile("[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}");
         for (int i = 0; i < lines.size(); i++) {
             var line = lines.get(i);
@@ -155,7 +154,6 @@ void auditFile(List<String> lines, String relPath, List<QualityFinding> findings
             if (fencedCode.matcher(line).matches()) { inCodeBlock = !inCodeBlock; continue; }
             if (inCodeBlock || inYaml) continue;
             if (emailPat.matcher(line).find()) continue;
-            if (alreadyBracketed.matcher(line).find()) continue;
 
             var m = bareCite.matcher(line);
             while (m.find()) {

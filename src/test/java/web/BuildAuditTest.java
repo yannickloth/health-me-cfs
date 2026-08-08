@@ -71,7 +71,7 @@ void main(String[] args) throws Exception {
 List<Path> allQmdFiles(Path webDir) throws IOException {
     try (var walk = walk(webDir)) {
         return walk.filter(p -> p.toString().endsWith(".qmd")
-                && !p.toString().contains("blog/")).sorted().toList();
+                && !p.toString().matches(".*[/\\\\](blog|blog-de|blog-fr)[/\\\\]+.*")).sorted().toList();
     }
 }
 
@@ -400,7 +400,8 @@ void check7QmdNaming(List<Path> qmdFiles, List<Finding> findings) {
         // Skip non-chapter pages: about, faq, index, patient-resources
         if (relP.startsWith("_shared/") || relP.equals("about.qmd")
                 || relP.startsWith("faq/") || relP.equals("index.qmd")
-                || relP.startsWith("patient-resources/")) continue;
+                || relP.startsWith("patient-resources/")
+                || relP.startsWith("blog/") || relP.startsWith("blog-de/") || relP.startsWith("blog-fr/")) continue;
         // Annotated bibliography uses 3-digit prefixes (100-199)
         if (relP.contains("appendix-h-annotated-bibliography") && fname.matches("^\\d{3}-.+\\.qmd$")) continue;
         if (!fname.matches("^\\d{2}-.+\\.qmd$")) {
