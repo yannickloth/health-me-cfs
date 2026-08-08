@@ -1,5 +1,5 @@
 ---
-title: "Ihre Schilddrüse ist „normal": Warum TSH allein Ihnen nichts sagt"
+title: 'Ihre Schilddrüse ist „normal": Warum TSH allein Ihnen nichts sagt'
 description: "TSH 2,8 mIU/l. Referenzbereich 0,4–4,0. Normal. Fall geschlossen."
 author: "Yannick Loth"
 date: "2026-06-19"

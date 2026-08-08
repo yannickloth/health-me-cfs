@@ -1,6 +1,6 @@
 ---
 title: "Die Kinder, die später ME/CFS entwickelten, schliefen nicht zu viel. Sie schliefen zu wenig."
-description: "Es gibt ein Stereotyp über Ermüdungserkrankungen: der Patient, der den ganzen Tag schläft. Der Verschlafene. Derjenige, der „einfach aufstehen und etwas tun" muss."
+description: 'Es gibt ein Stereotyp über Ermüdungserkrankungen: der Patient, der den ganzen Tag schläft. Der Verschlafene. Derjenige, der „einfach aufstehen und etwas tun" muss.'
 author: "Yannick Loth"
 date: "2026-06-12"
 categories: [Sleep, Epidemiology, Pediatrics]

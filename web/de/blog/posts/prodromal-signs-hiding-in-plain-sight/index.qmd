@@ -1,6 +1,6 @@
 ---
-title: "Was, wenn diese Kindheitssymptome nie nur „Wachstumsschmerzen" waren?"
-description: "Das Kind, das 20 Stunden pro Woche trainiert und trotzdem nicht mit Gleichaltrigen mithalten kann, die halb so viel trainieren. Der Teenager, der jedes Spiel stark beginnt, aber in der zweiten Halbzeit nachlässt — Trainer nennen es „mangelnde Konzentration". Der Einser-Schüler, der unerklärlich erschöp..."
+title: 'Was, wenn diese Kindheitssymptome nie nur „Wachstumsschmerzen" waren?'
+description: 'Das Kind, das 20 Stunden pro Woche trainiert und trotzdem nicht mit Gleichaltrigen mithalten kann, die halb so viel trainieren. Der Teenager, der jedes Spiel stark beginnt, aber in der zweiten Halbzeit nachlässt — Trainer nennen es „mangelnde Konzentration". Der Einser-Schüler, der unerklärlich erschöp...'
 author: "Yannick Loth"
 date: "2026-06-15"
 categories: [Diagnostik, Pädiatrie, Symptome]
