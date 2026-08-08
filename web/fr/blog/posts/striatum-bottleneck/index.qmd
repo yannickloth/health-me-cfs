@@ -1,0 +1,95 @@
+---
+title: "Partie 2 : Le striatum est le goulot d'étranglement"
+description: "Si des virus, des traumatismes et une activation immunitaire déclenchent tous la même maladie, où convergent-ils ? Le GWAS DecodeME pointe vers un circuit unique. Ciblez le goulot d'étranglement, pas le déclencheur."
+author: "Yannick Loth"
+date: "2026-07-21"
+categories: [Génétique, Neurologie, Biologie des systèmes]
+lang: fr
+---
+
+Vous vous réveillez et votre corps pèse plus lourd qu'hier. Ce n'est pas une courbature — c'est une lourdeur. Chaque mouvement exige une négociation. Le café est à trois mètres, mais le circuit striato-thalamique-frontal qui traduit *je veux du café* en *marche jusqu'à la cuisine* a un rapport signal-bruit cassé. La commande est là. L'exécution ne l'est pas. Ce n'est pas un manque de motivation. C'est la sortie d'une région cérébrale qui se trouve à la convergence de tous les déclencheurs connus de l'EM/SFC.
+
+Le précédent article a établi que le GWAS attribue le risque d'EM/SFC aux neurones, pas aux cellules immunitaires — l'architecture génétique dit : le cerveau. L'épidémiologie nous dit le reste : divers agents pathogènes (EBV, SARS-CoV-2, HHV-6), les traumatismes physiques, la chirurgie et le stress sévère peuvent tous déclencher la même maladie. La convergence clinique exige une convergence anatomique — mêmes symptômes, même circuit. Le GWAS DecodeME fournit maintenant l'adresse physique de cet endroit [@Li2025decodeME].
+
+---
+
+## L'hypothèse de convergence obtient une adresse
+
+Le consortium DecodeME a analysé plus de 15 000 participants (dont environ 5 000 cas d'EM/SFC) et 8 millions de variantes génétiques. Les loci significatifs à l'échelle du génome pointent vers des gènes neuronaux — *CA10, SHISA6, SOX6, LRRC7, DCC, UNC13C* — et l'enrichissement en types cellulaires le plus significatif issu de l'analyse post-GWAS pointe vers les neurones épineux moyens (MSN) du striatum.
+
+Ce signal résiste aux corrections de tests multiples dans trois atlas de types cellulaires indépendants. L'enrichissement dans les cellules immunitaires est nul — le signal génétique ne provient pas des microglies, des astrocytes ou des cellules immunitaires périphériques. Il provient des neurones au centre des circuits moteur, motivationnel et de récompense du cerveau.
+
+Le striatum comme lieu de la fatigue n'est pas nouveau. Chaudhuri et Behan ont proposé il y a plus de deux décennies que la fatigue centrale résulte d'une défaillance dans l'intégration par les ganglions de la base des entrées limbiques et de la fonction motrice — plus précisément le système cortical striato-thalamique-frontal — dans laquelle une signalisation dopaminergique perturbée entrave la capacité du cerveau à traduire l'effort en action [@Chaudhuri2000basal]. Une hypothèse clinique fondée sur le recoupement des symptômes avec la maladie de Parkinson et la sclérose en plaques dispose maintenant d'une preuve génétique issue du plus grand jeu de données d'EM/SFC jamais constitué.
+
+---
+
+## Pourquoi le striatum ?
+
+Le striatum n'est pas une région cérébrale obscure. C'est le carrefour central pour :
+
+**Le contrôle moteur.** Les MSN sont les gardiens des ganglions de la base — ils reçoivent les entrées de tout le cortex et déterminent si une commande motrice passe. Quand les MSN échouent, le mouvement devient laborieux non pas parce que les muscles sont faibles, mais parce qu'initier le mouvement est neurologiquement coûteux.
+
+**La prise de décision effort/récompense.** Le striatum ventral intègre les signaux dopaminergiques encodant la valeur attendue d'une action. Chaque mouvement, chaque tâche cognitive passe par ce calcul coût-bénéfice. Dans l'EM/SFC, l'estimation du coût est pathologiquement élevée — non pas à cause d'une dépression, mais parce que le circuit qui calcule ces valeurs reçoit des entrées corrompues.
+
+**La signalisation dopaminergique.** Les MSN sont les cibles principales des neurones dopaminergiques du mésencéphale. Les MSN à récepteur D1 forment la voie « go » ; les MSN à récepteur D2 forment la voie « no-go ». L'équilibre détermine si une action est initiée ou inhibée. Une signalisation dopaminergique perturbée fait pencher cet équilibre vers l'inhibition.
+
+---
+
+## Quatre routes vers le même circuit
+
+Si le striatum est le goulot d'étranglement, comment des déclencheurs divers l'atteignent-ils ? Les données soutiennent au moins quatre voies, toutes non exclusives :
+
+**La neuro-inflammation.** L'activation immunitaire périphérique amorce la microglie dans tout le cerveau, mais le striatum est particulièrement vulnérable en raison de sa forte densité en terminaisons dopaminergiques. La microglie activée libère des cytokines qui suppriment la décharge des MSN et perturbent l'équilibre des voies D1/D2, transformant un événement immunitaire périphérique en déficit moteur au niveau du circuit.
+
+**La défaillance métabolique.** Le striatum a l'une des demandes métaboliques les plus élevées de toutes les régions cérébrales. Les MSN sont des neurones GABAergiques qui déchargent de manière tonique à des fréquences élevées, consommant de l'ATP à une cadence qui les rend vulnérables à toute réduction de la disponibilité énergétique. L'altération mitochondriale frappe le striatum en premier et le plus durement.
+
+**La perturbation par auto-anticorps.** Des auto-anticorps de type GPCR dirigés contre les récepteurs adrénergiques, muscariniques et dopaminergiques ont été documentés dans un sous-ensemble de patients atteints d'EM/SFC [@Loebel2016antibodies]. Même un accès à faible niveau au niveau des organes circumventriculaires ou à travers une barrière compromise peut faire basculer la ligne de base de la signalisation dopaminergique striatale.
+
+**L'hypoperfusion.** Le striatum se trouve à l'extrémité distale de territoires vasculaires qui le rendent sensible aux déficits de perfusion. Quand le débit cardiaque chute ou que l'autorégulation échoue, le striatum perd l'apport en oxygène tôt — et l'oxygène est le substrat limitant pour l'ATP que les MSN brûlent en continu.
+
+Ces voies coexistent. Un patient post-viral présentant une activation immunitaire, une altération mitochondriale et une hypoperfusion subit trois insultes indépendantes convergeant sur les mêmes neurones. Le goulot d'étranglement est frappé sous plusieurs angles simultanément — c'est pourquoi la maladie est sévère et persistante.
+
+---
+
+## Ce que cela signifie pour le traitement
+
+Si le striatum est le goulot d'étranglement, la stratégie de traitement change. Plutôt que de demander « qu'est-ce qui a déclenché ce patient ? », demandez « qu'est-ce qui perturbe actuellement la fonction du circuit striatal ? ». Cela recadre le traitement d'une manière neurologiquement rationnelle.
+
+- **La signalisation dopaminergique** — les agonistes dopaminergiques, le bupropion, l'amantadine méritent une investigation systématique en tant que modulateurs du circuit striatal, et non comme interventions psychiatriques.
+- **La neuro-inflammation** — la naltrexone à faible dose, la minocycline, ou des approches anti-inflammatoires ciblées qui réduisent l'activation microgliale dans le striatum.
+- **La perfusion** — expansion volémique, stabilisation autonomique, compression — l'oxygénation striatale détermine directement la sortie du circuit.
+- **Le soutien métabolique** — des interventions qui améliorent la fonction mitochondriale ou réduisent la demande énergétique, en reconnaissant le striatum comme le canari dans la mine pour les déficits énergétiques systémiques.
+
+Ces cibles thérapeutiques ne sont pas spécifiques au déclencheur. Elles s'appliquent également à l'EM/SFC post-virale, post-traumatique et à début progressif. Si le goulot d'étranglement est partagé, le traitement devrait l'être aussi.
+
+---
+
+## La réserve : la spécificité dans un substrat partagé
+
+Le résultat d'enrichissement en MSN n'est pas propre à l'EM/SFC. La schizophrénie, la dépression et le trouble lié à la consommation d'alcool montrent aussi un enrichissement striatal. Le striatum est un nœud de vulnérabilité générique — une région cérébrale susceptible d'un dysfonctionnement provenant de nombreuses causes en amont.
+
+Mais le dysfonctionnement doit différer. L'EM/SFC n'est pas la schizophrénie. La question : qu'est-ce qui ne va pas précisément dans la fonction des MSN dans l'EM/SFC ? L'équilibre D1/D2 ? La fréquence de décharge ? La réponse dopaminergique ? L'intégration des entrées corticales ? La réponse détermine si nous pouvons cibler le dysfonctionnement propre à l'EM/SFC plutôt que moduler largement les circuits striataux.
+
+---
+
+## Une prédiction falsifiable
+
+Le modèle du goulot d'étranglement fait une prédiction claire : si le dysfonctionnement striatal est le point d'aboutissement commun, les interventions qui améliorent la signalisation dopaminergique striatale devraient améliorer les symptômes quel que soit le type de déclencheur. Si un traitement ne fonctionne que dans les cas post-infectieux et non dans les cas à début progressif, l'hypothèse de convergence est affaiblie. S'il fonctionne dans tous les types de déclencheurs, le modèle du goulot d'étranglement est renforcé. C'est testable.
+
+Rien en science n'est prouvé par une seule prédiction. Mais un modèle qui ne génère aucune prédiction falsifiable n'est pas un modèle — c'est une histoire. Le modèle du goulot d'étranglement est testable. Il devrait être testé avant d'être cru.
+
+---
+
+## Estimation de certitude
+
+| Affirmation | Certitude |
+|---|---|
+| Les variantes du risque génétique de l'EM/SFC sont enrichies dans les MSN striataux | Très élevée — principal résultat du GWAS, résiste aux corrections de tests multiples [@Li2025decodeME] |
+| Le striatum est le point de convergence de plusieurs types de déclencheurs de l'EM/SFC | Modérée — plausible sur le plan anatomique et mécanistique ; non directement démontrée |
+| Les quatre voies de convergence (neuro-inflammation, métabolique, auto-anticorps, perfusion) coexistent chez les patients | Faible à modérée — chaque voie est soutenue individuellement ; aucune étude n'a mesuré les quatre simultanément |
+| Les interventions dopaminergiques striatales devraient fonctionner quel que soit le type de déclencheur | Faible — prédiction issue du modèle ; non testée |
+| La spécificité en sous-types de MSN finement résolue (MSN D1 vs D2) est déterminée par les données actuelles | Faible — nécessite une réplication avec des atlas de types cellulaires plus fins et des cohortes indépendantes |
+
+L'hypothèse du goulot d'étranglement est un cadre pour organiser ce que nous savons, pas un mécanisme prouvé. Elle dirige l'attention vers le circuit striatal comme locus critique d'investigation. Que cet investissement porte ses fruits dépend de la prochaine série d'expériences.
+
+*Article 2 sur 4 dans la série GWAS DecodeME. Précédent : [La génétique a tranché](../genetics-ends-debate/) · Suivant : [Médicaments pour Parkinson contre l'EM/SFC ?](../dopamine-rational-mechanism/) · [Le striatum n'est pas à nous](../msn-specificity-caveat/)*
