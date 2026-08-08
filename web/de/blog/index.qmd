@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-lang: fr
+lang: de
 listing:
   contents: posts
   sort:
@@ -16,5 +16,5 @@ page-layout: full
 ---
 
 ::: {.blog-lang-links}
-Également disponible en : [English](/blog/) · Français · [Deutsch](/blog-de/)
+Auch verfügbar auf: [English](/en/blog/) · [Français](/fr/blog/) · Deutsch
 :::

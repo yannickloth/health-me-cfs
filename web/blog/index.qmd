@@ -1,19 +1,12 @@
 ---
 title: "Blog"
-listing:
-  contents: posts
-  sort:
-    - "date desc"
-    - "title asc"
-  type: default
-  categories: true
-  feed: true
-  filter-ui: true
-  sort-ui: true
-  date-format: iso
 page-layout: full
 ---
 
-::: {.blog-lang-links}
-Also available in: English · [Français](/blog-fr/) · [Deutsch](/blog-de/)
+::: {.blog-lang-chooser}
+Choose your language / Choisissez votre langue / Sprache wählen:
+
+- [English](/en/blog/)
+- [Français](/fr/blog/)
+- [Deutsch](/de/blog/)
 :::

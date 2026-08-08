@@ -41,9 +41,9 @@ website:
       - text: "Blog"
         href: blog/index.qmd
       - text: "Blog (FR)"
-        href: blog-fr/index.qmd
+        href: fr/blog/index.qmd
       - text: "Blog (DE)"
-        href: blog-de/index.qmd
+        href: de/blog/index.qmd
       - text: "FAQ"
         href: faq/index.qmd
     right:
@@ -52,7 +52,7 @@ website:
       - text: "Download PDF"
         href: loth2026-mecfs.pdf
       - icon: rss
-        href: blog/index.xml
+        href: en/blog/index.xml
   sidebar:
     style: docked
     search: true

@@ -6,7 +6,7 @@ about:
     - text: DOI
       href: https://doi.org/10.5281/zenodo.19627450
     - icon: rss
-      href: ../blog/index.xml
+      href: ../en/blog/index.xml
 ---
 
 ## About
