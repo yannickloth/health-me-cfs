@@ -1,0 +1,141 @@
+---
+title: "Teil 2: Das umgekehrte U ist nicht eine Sache — vier Möglichkeiten, wie ein Medikament aufhört zu wirken, wenn Sie die Dosis erhöhen"
+description: "Achtzehn Medikamente bei ME/CFS zeigen dasselbe Muster: Nutzen bei niedriger Dosis, Schaden bei hoher Dosis. Die Kurve ist dieselbe. Der Mechanismus nicht. Hier ist die molekulare Zerlegung."
+author: "Yannick Loth"
+date: "2026-07-27"
+categories: [Behandlung, Pharmakologie, Pathophysiologie]
+lang: de
+---
+
+Wenn Sie ME/CFS haben, kennen Sie die Erfahrung: Ein Medikament hilft bei einer niedrigen Dosis, und dann eskaliert Ihr Arzt — der der Logik folgt, die die Medizin seit Paracelsus regiert. „Lasst uns sehen, ob wir mehr Nutzen bekommen." Sie tun das nicht. Ihnen geht es schlechter. Sie gehen auf die niedrige Dosis zurück. Das Medikament wirkt wieder.
+
+Dieses Muster — das umgekehrte U, die biphasische Kurve, das hormetische Fenster — wurde für mindestens achtzehn Medikamente bei ME/CFS dokumentiert: LDN, LDA, Modafinil, Duloxetin, Betablocker, Guanfacin, Gabapentinoide, Rapamycin, Kortikosteroide, DORAs, H1-Antihistaminika, Allopregnanolon, NAC, Ketotifen, Quercetin, Sulforaphan, Lithium, Melatonin. Die Liste ist lang genug, dass ein Zufall unwahrscheinlich ist. Etwas Systematisches passiert.
+
+Die Versuchung ist, sie unter einer einzigen Erklärung zu vereinheitlichen — „Hormesis", die Idee, dass Niedrigdosis-Stress eine kompensatorische adaptive Hochregulation auslöst. Diese Erklärung ist für einige von ihnen richtig. Für die meisten von ihnen ist sie falsch.
+
+Die achtzehn Medikamente teilen eine Kurvenform. Sie teilen keinen Mechanismus. Das umgekehrte U bei ME/CFS ist mindestens vier pharmakologisch unterschiedliche Phänomene, die zufällig dasselbe Dosis-Wirkungs-Muster erzeugen. Sie in ein einziges Konzept zusammenzufassen, verdunkelt die klinischen Implikationen, die je nach Kategorie unterschiedlich sind.
+
+---
+
+## Kategorie 1: Nrf2-vermittelte Hormesis (die echte Hormesis)
+
+**Medikamente:** LDN (bei niedriger Dosis), niedrig dosiertes Lithium, Melatonin, Sulforaphan, Quercetin. NAC wird hier als gleichzeitiger Nrf2-Aktivator aufgeführt, aber auch unter Kategorie 4 (Subtyp 4c) für seine biphasische Thiol-Biochemie klassifiziert — es kann in verschiedenen Dosisbereichen über beide Mechanismen wirken.
+
+**Was es ist.** Hormesis im strengen pharmakologischen Sinne: Ein Niedrigdosis-Stressor löst die kompensatorische Hochregulation schützender Signalwege aus, und diese Hochregulation — nicht das Medikament selbst — erzeugt den Nutzen. Das Medikament ist das Signal. Die Reaktion der Zelle ist die Behandlung.
+
+**Der Mechanismus.** Milder oxidativer oder inflammatorischer Stress aktiviert den Keap1-Nrf2-ARE-Signalweg. Unter basalen Bedingungen bindet Keap1 Nrf2 und zielt auf dessen Abbau ab. Wenn sich Stresssignale ansammeln — moderate TLR4-Blockade, milde ROS-Erhöhung, partielle Enzymhemmung — setzt Keap1 Nrf2 frei, das in den Zellkern transloziert und die Transkription von über 200 Genen aktiviert: antioxidative Enzyme, antiinflammatorische Proteine, Faktoren der mitochondrialen Biogenese, Proteasom-Untereinheiten, Autophagie-Komponenten. Die Zelle rüstet ihre gesamte Stressreaktions-Infrastruktur auf, weil sie eine Bedrohung erkannt hat. Dies ist das Prinzip hinter Sport bei gesunden Menschen: Durch Sport induziertes ROS löst eine Nrf2-vermittelte mitochondriale Biogenese aus und macht Sie fitter. Der Stress ist das Signal für die Anpassung.
+
+**Warum die niedrige Dosis entscheidend ist.** Zu viel Stress und die adaptive Reaktion wird überwältigt — die Zelle wechselt von Kompensation zu Schadensbegrenzung. Zu wenig Stress und Keap1 setzt Nrf2 nicht frei — das Signal wird nie ausgelöst. Das therapeutische Fenster ist die Goldlöckchen-Zone, in der Stress ausreicht, um Nrf2 auszulösen, aber nicht ausreicht, um Schaden zu verursachen.
+
+**Warum höhere Dosen es schlimmer machen.** Speziell bei LDN: Bei 0,5–1,5 mg löst die partielle TLR4-Blockade die Nrf2-vermittelte Mikroglia-Umschaltung M1→M2 aus. Bei 3,0 mg und darüber wird TLR4 zu vollständig blockiert — die Zelle erkennt das Stresssignal nicht mehr, Nrf2 bleibt an Keap1 gebunden, und das antiinflammatorische Programm kollabiert. Das Medikament bindet den Rezeptor weiterhin — nur hat es aufgehört, die adaptive Reaktion zu erzeugen, die es therapeutisch machte. Beachten Sie, dass dies ein Auslöseversagen ist (zu wenig Stresssignal) und keine überwältigte Reaktion (zu viel Stress). Die hormetische Kurve hat aus entgegengesetzten Gründen auf jedem Arm ein umgekehrtes U: Der linke Arm versagt durch unzureichendes Signal, der rechte Arm versagt durch übermäßigen Schaden, der die Reparaturkapazität überwältigt. LDN bei höheren Dosen liegt auf dem linken Arm.
+
+**Die klinische Implikation.** Die Nrf2-Kapazität variiert zwischen Patienten. Ein Patient, der den LDN-Nutzen bei 1,0 mg verliert, hat eine schmale Nrf2-Reserve — seine Zellen können das kompensatorische Programm nicht über ein schmales Stressfenster hinaus aufrechterhalten. Ein Patient, der den Nutzen bis 3,0 mg aufrechterhält, hat eine breite Nrf2-Reserve. Die Breite des hormetischen Fensters ist kein Dosierungsartefakt — sie ist eine Ablesung der Stressreaktionskapazität des Patienten. Sie sagt die Reaktion auf jedes andere Nrf2-aktivierende Medikament im Cluster voraus.
+
+**Warum hormetische Schwellen zwischen Individuen differieren.** Position und Breite des hormetischen Fensters sind keine festen Eigenschaften des Medikaments — sie sind Eigenschaften des Organismus. Drei Determinanten modulieren, wo die hormetische Kurve eines bestimmten Patienten auf der Dosisachse liegt:
+
+1. **Redox-Zustand.** Der Keap1-Nrf2-Sensor ist selbst redoxempfindlich. In einer Zelle mit hohem basalen oxidativen Stress sind die Keap1-Cysteine bereits teilweise oxidiert — der Sensor ist vorgeladen, und eine kleinere Störung löst die Nrf2-Freisetzung aus. In einer Zelle mit geringem basalen oxidativen Stress ist der Sensor ruhend, und eine größere Störung ist erforderlich. Das bedeutet, dass dieselbe Mikrodosis LDN Nrf2 bei einem Patienten mit hohem oxidativem Tonus auslösen und bei einem Patienten mit geringem oxidativem Tonus nicht auslösen kann.
+
+2. **Allostatische Belastung.** Die kumulative Last chronischen Stresses — Zytokinexposition, Schlafstörung, metabolische Belastung, Schmerzsignalübertragung — erschöpft die transkriptionelle Maschinerie, die Nrf2 zur Ausführung seines Programms benötigt. Nrf2 kann in den Zellkern translozieren, aber wenn die biosynthetische Kapazität der Zelle erschöpft ist, werden die antiinflammatorischen Genprodukte nicht hergestellt. Hohe allostatische Belastung verengt das hormetische Fenster von beiden Seiten: Sie erhöht die Schwelle für die Nrf2-Auslösung (weil der Sensor desensibilisiert ist) und senkt die Obergrenze für die adaptive Reaktion (weil die nachgeschalteten Ressourcen erschöpft sind).
+
+3. **Basale zelluläre Reserve.** Mitochondriendichte, NAD⁺-Verfügbarkeit, Proteasomkapazität und Sirtuin-Aktivität beeinflussen alle, ob eine Zelle ein Nrf2-vermitteltes transkriptionelles Programm aufrechterhalten kann. Eine geringe Reserve bedeutet, dass die adaptive Reaktion fragil ist — selbst ein korrekt ausgelöstes Nrf2-Signal kann verpuffen, weil der Zelle die Energie oder Maschinerie zur Ausführung fehlt. Deshalb erzeugt dasselbe Medikament in derselben Dosis bei einem Patienten einen therapeutischen Auftrieb und bei einem anderen ein stressartiges Aufflackern: Das Medikament ist identisch, aber die zelluläre Infrastruktur, die das Signal empfängt, ist es nicht.
+
+Das bedeutet, dass die hormetische Kurve keine pharmakologische Konstante ist. Sie ist eine Systembiologie-Ablesung des zellulären Zustands des Patienten zum Zeitpunkt der Dosierung. Das hormetische Fenster eines Patienten kann sich im Verlauf seiner Krankheit erweitern oder verengen — es ist dynamisch, nicht statisch. Die klinische Aufgabe besteht nicht darin, eine einzelne dauerhafte Dosis zu finden, sondern gegen ein sich bewegendes physiologisches Ziel zu titrieren.
+
+---
+
+## Kategorie 2: Umgekehrtes U des partiellen Agonisten
+
+**Medikamente:** LDA/Aripiprazol (einziges Mitglied).
+
+**Was es ist.** Ein Rezeptorbesetzungsphänomen. Das Medikament aktiviert den Rezeptor mit geringerer Wirksamkeit als der natürliche Ligand. Bei geringer Besetzung ergänzt es das defiziente endogene Signal — Netto-Agonismus. Bei hoher Besetzung verdrängt es den wirksameren natürlichen Liganden — Netto-Antagonismus.
+
+**Der Mechanismus.** Aripiprazol hat etwa 25 % intrinsische Aktivität an D2-Rezeptoren. Dopamin hat 100 % intrinsische Aktivität — es ist der volle Agonist. Wenn wenige Rezeptoren von Aripiprazol besetzt sind, ist der Netto-Effekt auf das System zusätzliche Aktivierung: Der partielle Agonist addiert sich zu dem vorhandenen endogenen Dopamin und erhöht den Netto-Tonus. Wenn die meisten Rezeptoren besetzt sind, blockiert Aripiprazol die Dopaminbindung — und da Aripiprazol den Rezeptor nur 25 % so effektiv aktiviert wie Dopamin, fällt der Netto-Tonus. Der Umkehrpunkt liegt bei etwa 50 % Besetzung.
+
+**Warum es keine Hormesis ist.** Die Zelle baut keine adaptive Reaktion auf. Es gibt kein Nrf2, kein transkriptionelles Programm, keine kompensatorische Hochregulation. Die Kurve ist eine direkte, augenblickliche Folge der Rezeptor-Ligand-Bindungskinetik — eine Eigenschaft des Massenwirkungsgesetzes, keine biologische Anpassung. Sie gilt identisch in einem Reagenzglas, bei einem gesunden Probanden und bei einem ME/CFS-Patienten. Sie ist nicht krankheitsspezifisch.
+
+**Die klinische Implikation.** Der Umkehrpunkt offenbart die D2-Rezeptorreserve. Wenn sich der Nutzen bei 1 mg umkehrt, hat der Patient wenige funktionelle D2-Rezeptoren — der Beitrag jedes Einzelnen zum Netto-Tonus ist groß, und die Blockade eines bescheidenen Anteils reicht aus, um umzukehren. Wenn der Nutzen bis 2 mg anhält, ist die Rezeptorreserve breit. Das diagnostische Signal des umgekehrten U von LDA betrifft die Integrität des Dopaminsystems, nicht die Stressreaktionskapazität.
+
+---
+
+## Kategorie 3: Katecholamin-Umkehrtes-U am präfrontalen Kortex
+
+**Medikamente:** Modafinil, Duloxetin, Betablocker, Guanfacin, Gabapentinoide.
+
+**Was es ist.** Ein kanonisches neurowissenschaftliches Prinzip: Moderater Katecholamin-Tonus an präfrontalen D1- und α2A-Rezeptoren optimiert das Signal-Rausch-Verhältnis in Arbeitsgedächtnis-Schaltkreisen; übermäßiger Tonus kollabiert die Netzwerkabstimmung.
+
+**Der Mechanismus.** Präfrontale Kortex-Pyramidenneuronen benötigen einen spezifischen Konzentrationsbereich von Dopamin und Noradrenalin, um „abgestimmtes" Feuern aufrechtzuerhalten — selektiv auf relevante Eingaben zu antworten, während Rauschen unterdrückt wird. Unterhalb des Optimums ist das Signal zu schwach; Neuronen feuern nicht zuverlässig. Oberhalb des Optimums kollabiert die D1- und α2A-Überaktivierung die Selektivität — Neuronen feuern auf alles, einschließlich Rauschen, und die Arbeitsgedächtnis-Repräsentationen degradieren.
+
+Dies ist kein pharmakologisches Artefakt. So ist der präfrontale Kortex entstanden, um zu funktionieren. Das umgekehrte U ist die native Betriebskurve des Systems. Medikamente, die die Katecholaminspiegel erhöhen — DAT-Hemmer (Modafinil), NET-Hemmer (Duloxetin bei höheren Dosen), α2A-Agonisten (Guanfacin) — schieben das System entlang seiner bestehenden Kurve. Zu wenig Medikament und Sie liegen unterhalb des Optimums. Zu viel und Sie überschießen.
+
+**Warum es keine Hormesis ist.** Kein Stresssignal. Keine kompensatorische Hochregulation. Die Antwort des Neurons auf Dopamin ist bei jeder Konzentration dieselbe — es ist die Berechnung auf Schaltkreisebene, die sich umkehrt. Der Mechanismus ist Netzwerkdynamik, nicht zelluläre Anpassung.
+
+**Die klinische Implikation.** Das umgekehrte U identifiziert den basalen Katecholamin-Tonus des Patienten. Ein Patient, der den Modafinil-Nutzen bei 50 mg verliert, hat niedriges basales Dopamin — eine kleine DAT-Blockade schiebt ihn über das Optimum. Ein Patient, der bis 200 mg und darüber profitiert, hat einen hohen Basaltonus — es braucht erhebliches zusätzliches Dopamin, um zu überschießen. Der Umkehrpunkt ist ein funktioneller Test des präfrontalen Katecholamin-Status und sagt die optimale Dosis für jedes Medikament im Cluster voraus.
+
+---
+
+## Kategorie 4: Konzentrationsabhängige Zielselektion und biphasische Biochemie
+
+**Medikamente:** Rapamycin, Kortikosteroide, Allopregnanolon, DORAs, H1-Antihistaminika, NAC, Ketotifen, Quercetin.
+
+**Was es ist.** Drei verschiedene Subtypen teilen eine gemeinsame Konsequenz — Nutzen bei niedriger Konzentration, Schaden oder Nutzenverlust bei höherer Konzentration —, entstehen aber aus unterschiedlichen Mechanismen. (4a) Zwei-Target-Selektivität: Das Medikament hat ein therapeutisches Hochaffinitäts-Target und ein Niedrigaffinitäts-Target mit gegensätzlicher Wirkung. Bei niedriger Konzentration engagiert sich nur das therapeutische Target. Bei höherer Konzentration kehrt der Übergriff auf das zweite Target den Nutzen um. (4b) Pharmakokinetische Schwelle: Das therapeutische Target des Medikaments ist peripher; bei höheren Dosen engagiert die ZNS-Penetration Gehirn-Targets, die Sedierung oder Beeinträchtigung erzeugen. (4c) Biphasische Biochemie: Der Stoffwechselweg des Medikaments hat bei verschiedenen Konzentrationen gegensätzliche Netto-Wirkungen.
+
+**Rapamycin (mTORC1 vs mTORC2) — Subtyp 4a.** mTOR existiert in zwei Komplexen. mTORC1 reguliert Autophagie, Proteinsynthese und Stoffwechsel. mTORC2 reguliert Zellüberleben, Zytoskelett und Insulinsignalübertragung. Rapamycin bindet mTORC1 mit höherer Affinität als mTORC2. Bei niedrigen intermittierenden Dosen (1–3 mg/Woche) hemmt Rapamycin mTORC1 teilweise — Autophagie wird wiederhergestellt, die mitochondriale Qualitätskontrolle verbessert sich, und das SASP seneszenter Zellen (das inflammatorische Sekretionsprofil alternder oder beschädigter Zellen) wird unterdrückt. Bei höheren täglichen Dosen (5–10 mg/Tag) hemmt Rapamycin auch mTORC2 — es entwickelt sich eine Insulinresistenz, Immunsuppression tritt auf, und der metabolische Nutzen kehrt sich um. Dies ist keine Hormesis. Es ist eine differenzielle Bindungsaffinität über zwei strukturell verwandte Komplexe.
+
+**Kortikosteroide — Subtyp 4a.** Der physiologische Ersatz (5–10 mg Prednison) liefert das antiinflammatorische Signal, das die HPA-Achse normalerweise bereitstellt. Supraphysiologische Dosen unterdrücken die HPA-Achse selbst — der Körper stoppt die eigene Cortisolproduktion, und die Ausschleichung erzeugt eine Rebound-Entzündung, die schlimmer ist als der Ausgangswert.
+
+**DORAs und H1-Antihistaminika — Subtyp 4b (pharmakokinetische Schwelle).** DORAs (duale Orexinrezeptor-Antagonisten): Die partielle Orexin-Blockade verbessert bei niedriger Dosis den Schlaf; die vollständige Blockade bei höherer Dosis verursacht Schlafparalyse und Tagesschläfrigkeit — das Medikament überschießt das schlaffördernde Fenster. H1-Antihistaminika (z. B. Cetirizin): Die periphere H1-Blockade bei 5–10 mg lindert MCAS-Symptome; die ZNS-Penetration bei ≥20 mg erzeugt Sedierung — das Medikament überquert die Blut-Hirn-Schranke und engagiert ein Gehirn-Target, das nicht zum peripheren Nutzen beitrug. Die Umkehrung ist ein Konzentrationsgradienten-Phänomen, kein Mechanismus auf Rezeptorebene.
+
+**Allopregnanolon (GABA-A biphasisch) — Subtyp 4c.** Allopregnanolon ist ein positiver allosterischer Modulator von GABA-A-Rezeptoren — es verstärkt die Wirkung von GABA. Bei niedrigen Konzentrationen (1–5 nM, typisch für die Lutealphase) erhöht es bei einigen Frauen paradoxerweise die Angst. Bei höheren Konzentrationen (>10 nM, Schwangerschaftsniveau) erzeugt es Sedierung und Anxiolyse. Der Mechanismus beinhaltet wahrscheinlich zwei Bindungsstellen am GABA-A-Rezeptor mit entgegengesetzten Konzentrations-Wirkungs-Kurven. Keine Hormesis, keine Netzwerkdynamik — zwei Bindungsstellen am selben Protein.
+
+**NAC — Subtyp 4c.** Bei niedriger Dosis (600 mg) kann NAC eine paradoxe Verschlechterung erzeugen — der Thiol-Radikalburst durch Cysteinoxidation erschöpft Glutathion, bevor die Netto-Synthese einsetzt. Bei höherer Dosis (1.200 mg) sättigt die Synthesebahn, und das Netto-Glutathion steigt. Die Umkehrung liegt auf der Ebene der Cystein-Biochemie, nicht der Rezeptorpharmakologie. NAC erscheint auch in Kategorie 1 als Nrf2-Aktivator — es kann in verschiedenen Dosisbereichen über beide Mechanismen wirken.
+
+**Ketotifen — Subtyp 4b.** MCAS-Nutzen bei niedriger Dosis aus Mastzellstabilisierung; Sedierung oberhalb der H1-Antihistamin-Schwelle — die dosisabhängige ZNS-Penetration kehrt den Nettovorteil um.
+
+**Quercetin — Subtyp 4c.** Die COMT-Hemmung bei niedriger Dosis kann den präfrontalen Katecholamin-Tonus optimieren (ähnlich wie Kategorie 3); bei höheren Dosen überschießt die übermäßige COMT-Hemmung das Katecholamin-Umkehrtes-U und beeinträchtigt die Kognition.
+
+**Die klinische Implikation.** Diese Medikamente teilen weder gegeneinander noch mit den anderen Kategorien einen gemeinsamen Mechanismus. Ihre Umgekehrtes-U-Kurven sind medikamentenspezifische Eigenschaften — die Dosis, bei der Rapamycin seine mTORC1-Selektivität verliert, sagt Ihnen nichts über die Dosis, bei der Modafinil das präfrontale D1 überschießt, und keine von beiden sagt Ihnen etwas über die Dosis, bei der die Nrf2-Vorbereitung von LDN kollabiert. Innerhalb dieser Kategorie tragen die drei Subtypen unterschiedlichen diagnostischen Wert: Subtyp 4a (Zwei-Target-Selektivität) offenbart Rezeptorreserve und Target-Affinitätsverhältnisse; Subtyp 4b (pharmakokinetische Schwelle) offenbart Blut-Hirn-Schranken-Integrität und ZNS-Penetrationsempfindlichkeit; Subtyp 4c (biphasische Biochemie) offenbart Stoffwechselweg-Kapazität. Sie sind hier gruppiert, weil sie den Katalog vervollständigen — dies sind die verbleibenden nicht-monotonen Medikamente im Artikel —, nicht weil sie mechanistisch gruppieren.
+
+---
+
+## Warum die Unterscheidung wichtig ist
+
+Die therapeutische Implikation eines umgekehrten U hängt vollständig davon ab, zu welcher Kategorie das Medikament gehört.
+
+Für Nrf2-Hormesis-Medikamente misst die Breite des Fensters die Stressreaktionskapazität. Ein Patient mit einem schmalen LDN-Fenster wird vorausgesagt, schmale Fenster für Sulforaphan, Melatonin und Lithium zu haben — weil alle auf demselben Keap1-Nrf2-Pfad konvergieren. Die Vorhersage ist testbar.
+
+Für das Katecholamin-Umkehrtes-U misst der Umkehrpunkt den basalen präfrontalen Katecholamin-Tonus. Ein Patient mit einem schmalen Modafinil-Fenster wird vorausgesagt, schmale Fenster für Duloxetin und Guanfacin zu haben — weil alle auf demselben D1/α2A-Schaltkreis konvergieren. Die Vorhersage ist testbar und mechanistisch unabhängig von der Nrf2-Vorhersage.
+
+Für das Umgekehrtes-U des partiellen Agonisten misst der Umkehrpunkt die Rezeptorreserve — eine strukturelle Eigenschaft des Dopaminsystems, nicht des Stressreaktionssystems.
+
+Für die Medikamente der Kategorie 4 (konzentrationsabhängige Zielselektion und biphasische Biochemie) ist der Umkehrpunkt eine medikamentenspezifische Eigenschaft und trägt keinerlei medikamentenübergreifenden Vorhersagewert.
+
+Wenn Sie das umgekehrte U als ein einziges Phänomen behandeln, sagen Sie voraus, dass alle achtzehn Medikamente innerhalb von Patienten korrelieren — schmales LDN-Fenster, schmales Modafinil-Fenster, schmales Rapamycin-Fenster. Diese Vorhersage ist wahrscheinlich falsch. Die mechanistische Zerlegung sagt ein interessanteres Ergebnis voraus: Korrelation innerhalb von Clustern, keine Korrelation zwischen Clustern. Nrf2-Medikamente sollten miteinander korrelieren. Katecholamin-Medikamente sollten miteinander korrelieren. LDA sollte grenzwertig sein — es teilt ein Dopaminsubstrat mit dem Katecholamin-Cluster, operiert aber über einen anderen Mechanismus (partieller Agonismus vs. Wiederaufnahmehemmung). Rapamycin und Allopregnanolon sollten Inseln sein.
+
+---
+
+## Die falsifizierbare Vorhersage
+
+Wenn hormetische Reserve ein einziges systemübergreifendes Merkmal ist — eine allgemeine Eigenschaft der ME/CFS-Physiologie — dann sollten Umkehrpunkte über alle achtzehn Medikamente korrelieren. Der orthogonale Mechanismus-Test par excellence ist LDN vs. Modafinil: vollständig unterschiedliche Rezeptoren (TLR4 vs. DAT/NET), Zelltypen (Mikroglia vs. präsynaptische Endigungen) und anatomische Targets. Wenn diese beiden korrelieren (r ≥ 0,4), ist hormetische Reserve eine echte Systemeigenschaft. Wenn sie nicht korrelieren (r < 0,2), ist das umgekehrte U eine Sammlung medikamentenspezifischer Artefakte, und das Einzelmerkmal-Modell ist falsch.
+
+Dieser Test wird im Artikel als HIP-B-Studie spezifiziert: sechs Medikamente (LDN, Sulforaphan, Duloxetin, Modafinil, Rapamycin, Allopregnanolon) auf vier Dosisstufen, Crossover innerhalb des Patienten, n ≥ 80 für definitive Tests. Bis HIP-B oder ein Äquivalent durchgeführt wird, ist die Einheit des umgekehrten U bei ME/CFS eine empirische Frage, keine etablierte Tatsache.
+
+---
+
+## Sicherheitseinschätzung
+
+| Behauptung | Sicherheit |
+|-------|-----------|
+| Nrf2-vermittelte Hormesis ist der Mechanismus für die Medikamente des Nrf2-Clusters | Mittel — Nrf2-Hormesis ist in der Toxikologie gut etabliert (Calabrese-Korpus); direkte Evidenz speziell bei LDN fehlt |
+| Das Umgekehrtes-U des partiellen Agonisten gilt für LDA | Hoch — Rezeptorbesetzungseigenschaft, für alle partiellen Agonisten dokumentiert |
+| Das Katecholamin-Umkehrtes-U gilt für präfrontale D1/α2A-Medikamente | Hoch — kanonische Neurowissenschaft, über Spezies und Methoden repliziert (Arnsten, Cools) |
+| mTORC1/C2-Selektivität erklärt das Umgekehrtes-U von Rapamycin | Hoch — in Maus- und menschlichen Zelllinien etabliert (Sarbassov, Lamming) |
+| Die biphasische Kurve von Allopregnanolon ist ein Zwei-Bindungsstellen-Phänomen | Mittel — biphasische Konzentrations-Wirkung dokumentiert; Zwei-Stellen-Mechanismus abgeleitet |
+| Umkehrpunkte korrelieren innerhalb mechanistischer Cluster | Niedrig — für kein Cluster je getestet |
+| Umkehrpunkte korrelieren nicht zwischen Clustern | Niedrig — nie getestet |
+| HIP-B würde Einzelmerkmal- von Mehrfachmerkmal-hormetischer Reserve unterscheiden | Mittel — die statistische Leistungsberechnung ist solide (n ≥ 80 für r ≥ 0,4 vs. r < 0,2); die Studie existiert nicht |
+
+---
+
+*Dieser Beitrag stützt sich auf das in [Loth 2026](https://yannickloth.github.io/health-me-cfs/) entwickelte Hormesis-Rahmenwerk, das den Calabrese-Hormesis-Korpus, die Arnsten/Cools-Literatur zum Katecholamin-Umgekehrtes-U, die Sabatini/Lamming-mTORC1/C2-Dosisselektivität und Andreen-Allopregnanolon-biphasische Pharmakologie synthetisiert. Das Rahmenwerk wurde durch Kevin Lees klinische Beobachtung ausgelöst, dass LDN in höherer Dosis oft weniger Nutzen zeigt als LDN in niedrigerer Dosis, und durch Yannick L.s Beobachtung erweitert, dass dieselbe Logik für LDA und jedes andere Niedrig- oder Hochdosis-Medikament im Artikel gilt — ein Muster, das das Standard-Einzelmechanismus-TLR4-Modell nicht erklären kann. Das Rahmenwerk der interindividuellen Schwellenvarianz — Redox-Zustand, allostatische Belastung und basale zelluläre Reserve als Determinanten der hormetischen Fensterposition — stützt sich auf Kevin Lees Ausführung, warum hormetische Dosis-Wirkungs-Kurven organismusabhängig und nicht pharmakologisch festgelegt sind.*
+
+*Vorher: [Warum mehr nicht besser ist: Das Dosis-Wirkungs-Paradoxon bei LDN und LDA](../more-isnt-better-ldn-lda/) · Nächster: [Ihre LDN-Dosis ist ein Diagnostikum](../dose-is-diagnostic-ldn/)*

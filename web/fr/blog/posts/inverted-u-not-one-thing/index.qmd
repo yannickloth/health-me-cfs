@@ -1,0 +1,141 @@
+---
+title: "Partie 2 : L'U inversé n'est pas une seule chose — quatre façons dont un médicament peut cesser de fonctionner quand on augmente la dose"
+description: "Dix-huit médicaments dans l'EM/SFC montrent le même schéma : bénéfice à faible dose, méfait à forte dose. La courbe est la même. Le mécanisme ne l'est pas. Voici la décomposition moléculaire."
+author: "Yannick Loth"
+date: "2026-07-27"
+categories: [Traitement, Pharmacologie, Physiopathologie]
+lang: fr
+---
+
+Si vous avez une EM/SFC, vous connaissez l'expérience : un médicament aide à faible dose, puis votre médecin — suivant la logique qui régit la médecine depuis Paracelse — augmente la dose. « Voyons si on peut obtenir plus de bénéfice. » Vous n'en obtenez pas. Vous allez plus mal. Vous revenez à la faible dose. Le médicament fonctionne à nouveau.
+
+Ce schéma — l'U inversé, la courbe biphasique, la fenêtre hormétique — a été documenté pour au moins dix-huit médicaments dans l'EM/SFC : LDN, LDA, modafinil, duloxétine, bêta-bloquants, guanfacine, gabapentinoïdes, rapamycine, corticostéroïdes, DORA, antihistaminiques H1, alloprégnanolone, NAC, kétotifène, quercétine, sulforaphane, lithium, mélatonine. La liste est assez longue pour que la coïncidence soit peu plausible. Quelque chose de systématique se produit.
+
+La tentation est de les unifier sous une explication unique — l'« hormèse », l'idée qu'un stress à faible dose déclenche une régulation compensatoire à la hausse adaptative. Cette explication est correcte pour certains d'entre eux. Elle est fausse pour la plupart d'entre eux.
+
+Les dix-huit médicaments partagent une forme de courbe. Ils ne partagent pas un mécanisme. L'U inversé dans l'EM/SFC est au moins quatre phénomènes pharmacologiquement distincts qui arrivent à produire le même schéma dose-réponse. Les réduire à un seul concept obscurcit les implications cliniques, qui diffèrent par catégorie.
+
+---
+
+## Catégorie 1 : Hormèse médiée par Nrf2 (la vraie hormèse)
+
+**Médicaments :** LDN (à faible dose), lithium à faible dose, mélatonine, sulforaphane, quercétine. Le NAC est listé ici comme activateur de Nrf2 concomitant mais aussi classé en catégorie 4 (sous-type 4c) pour sa biochimie thiol biphasique — il peut opérer via les deux mécanismes à différentes plages de dose.
+
+**Ce que c'est.** L'hormèse au sens pharmacologique strict : un stressor à faible dose déclenche la régulation compensatoire à la hausse de voies protectrices, et cette régulation à la hausse — pas le médicament lui-même — produit le bénéfice. Le médicament est le signal. La réponse de la cellule est le traitement.
+
+**Le mécanisme.** Un stress oxydatif ou inflammatoire modéré active la voie Keap1-Nrf2-ARE. Dans les conditions basales, Keap1 lie Nrf2 et le cible pour dégradation. Quand les signaux de stress s'accumulent — blocage TLR4 modeste, élévation ROS modérée, inhibition enzymatique partielle — Keap1 libère Nrf2, qui transloque dans le noyau et active la transcription de plus de 200 gènes : enzymes antioxydantes, protéines anti-inflammatoires, facteurs de biogenèse mitochondriale, sous-unités du protéasome, composants de l'autophagie. La cellule améliore l'ensemble de son infrastructure de réponse au stress parce qu'elle a détecté une menace. C'est le principe derrière l'exercice chez les personnes en bonne santé : le ROS induit par l'exercice déclenche la biogenèse mitochondriale médiée par Nrf2, ce qui vous rend plus en forme. Le stress est le signal de l'adaptation.
+
+**Pourquoi la faible dose est essentielle.** Trop de stress et la réponse adaptative est submergée — la cellule passe de la compensation au contrôle des dégâts. Trop peu de stress et Keap1 ne libère pas Nrf2 — le signal ne se déclenche jamais. La fenêtre thérapeutique est la zone de Boucle-d'or où le stress est suffisant pour déclencher Nrf2 mais insuffisant pour causer des dégâts.
+
+**Pourquoi des doses plus élevées vous aggravent.** Pour LDN spécifiquement : à 0,5–1,5 mg, le blocage partiel de TLR4 déclenche le basculement microglial M1→M2 médié par Nrf2. À 3,0 mg et au-delà, TLR4 est bloqué trop complètement — la cellule ne détecte plus le signal de stress, Nrf2 reste lié à Keap1, et le programme anti-inflammatoire s'effondre. Le médicament continue de se lier au récepteur — il a simplement cessé de produire la réponse adaptative qui le rendait thérapeutique. Notez que c'est un échec de déclenchement (trop peu de signal de stress) plutôt qu'une réponse submergée (trop de stress). La courbe hormétique a un U inversé pour des raisons opposées sur chaque bras : le bras gauche échoue par signal insuffisant, le bras droit échoue par dégâts excessifs qui submergent la capacité de réparation. Le LDN à doses plus élevées se situe sur le bras gauche.
+
+**L'implication clinique.** La capacité Nrf2 varie entre les patients. Un patient qui perd le bénéfice du LDN à 1,0 mg a une réserve Nrf2 étroite — ses cellules ne peuvent pas soutenir le programme compensatoire au-delà d'une fenêtre de stress étroite. Un patient qui maintient le bénéfice jusqu'à 3,0 mg a une réserve Nrf2 large. La largeur de la fenêtre hormétique n'est pas un artefact de dosage — c'est une lecture de la capacité de réponse au stress du patient. Elle prédit la réponse à chaque autre médicament activant Nrf2 du groupe.
+
+**Pourquoi les seuils hormétiques diffèrent entre les individus.** La position et la largeur de la fenêtre hormétique ne sont pas des propriétés fixes du médicament — ce sont des propriétés de l'organisme. Trois déterminants modulent où se situe la courbe hormétique d'un patient donné sur l'axe de dose :
+
+1. **État redox.** Le capteur Keap1-Nrf2 est lui-même sensible au redox. Dans une cellule avec un stress oxydatif basal élevé, les cystéines de Keap1 sont déjà partiellement oxydées — le capteur est pré-chargé, et une plus petite perturbation déclenche la libération de Nrf2. Dans une cellule avec un stress oxydatif basal faible, le capteur est quiescent, et une plus grande perturbation est nécessaire. Cela signifie que la même micro-dose de LDN peut déclencher Nrf2 chez un patient à tonus oxydatif élevé et échouer à le déclencher chez un patient à tonus oxydatif faible.
+
+2. **Charge allostatique.** Le fardeau cumulé du stress chronique — exposition aux cytokines, perturbation du sommeil, contrainte métabolique, signalisation de la douleur — épuise la machinerie transcriptionnelle dont Nrf2 a besoin pour exécuter son programme. Nrf2 peut transloquer dans le noyau, mais si la capacité biosynthétique de la cellule est épuisée, les produits géniques anti-inflammatoires ne sont pas fabriqués. Une charge allostatique élevée rétrécit la fenêtre hormétique des deux côtés : elle élève le seuil de déclenchement de Nrf2 (parce que le capteur est désensibilisé) et abaisse le plafond de la réponse adaptative (parce que les ressources en aval sont épuisées).
+
+3. **Réserve cellulaire de base.** La densité mitochondriale, la disponibilité de NAD⁺, la capacité du protéasome et l'activité des sirtuines influencent toutes la capacité d'une cellule à soutenir un programme transcriptionnel médié par Nrf2. Une faible réserve signifie que la réponse adaptative est fragile — même un signal Nrf2 correctement déclenché peut ne pas aboutir parce que la cellule manque d'énergie ou de machinerie pour l'exécuter. C'est pourquoi le même médicament à la même dose produit une élévation thérapeutique chez un patient et une poussée de type stress chez un autre : le médicament est identique, mais l'infrastructure cellulaire qui reçoit le signal ne l'est pas.
+
+Cela signifie que la courbe hormétique n'est pas une constante pharmacologique. C'est une lecture en biologie des systèmes de l'état cellulaire du patient au moment du dosage. La fenêtre hormétique d'un patient peut s'élargir ou se rétrécir au cours de sa maladie — elle est dynamique, pas statique. La tâche clinique n'est pas de trouver une dose unique permanente mais de titrer contre une cible physiologique mouvante.
+
+---
+
+## Catégorie 2 : U inversé de l'agoniste partiel
+
+**Médicaments :** LDA/aripiprazole (membre unique).
+
+**Ce que c'est.** Un phénomène d'occupation des récepteurs. Le médicament active le récepteur avec une efficacité inférieure à celle du ligand naturel. À faible occupation, il complète le signal endogène déficient — agonisme net. À forte occupation, il déplace le ligand naturel plus efficace — antagonisme net.
+
+**Le mécanisme.** L'aripiprazole a environ 25 % d'activité intrinsèque aux récepteurs D2. La dopamine a 100 % d'activité intrinsèque — c'est l'agoniste complet. Quand peu de récepteurs sont occupés par l'aripiprazole, l'effet net sur le système est une activation supplémentaire : l'agoniste partiel s'ajoute à la dopamine endogène présente, élevant le tonus net. Quand la plupart des récepteurs sont occupés, l'aripiprazole bloque la liaison de la dopamine — et puisque l'aripiprazole active le récepteur à seulement 25 % de l'efficacité de la dopamine, le tonus net chute. Le point d'inversion est à environ 50 % d'occupation.
+
+**Pourquoi ce n'est pas de l'hormèse.** La cellule ne monte pas de réponse adaptative. Il n'y a pas de Nrf2, pas de programme transcriptionnel, pas de régulation compensatoire à la hausse. La courbe est une conséquence directe et instantanée de la cinétique de liaison récepteur-ligand — une propriété de loi d'action de masse, pas une adaptation biologique. Elle s'applique à l'identique dans un tube à essai, chez un volontaire sain et chez un patient EM/SFC. Elle n'est pas spécifique à la maladie.
+
+**L'implication clinique.** Le point d'inversion révèle la réserve de récepteurs D2. Si le bénéfice s'inverse à 1 mg, le patient a peu de récepteurs D2 fonctionnels — la contribution de chacun au tonus net est grande, et bloquer une fraction modeste suffit à inverser. Si le bénéfice persiste jusqu'à 2 mg, la réserve de récepteurs est large. Le signal diagnostique de l'U inversé de la LDA concerne l'intégrité du système dopaminergique, pas la capacité de réponse au stress.
+
+---
+
+## Catégorie 3 : U inversé des catécholamines au cortex préfrontal
+
+**Médicaments :** Modafinil, duloxétine, bêta-bloquants, guanfacine, gabapentinoïdes.
+
+**Ce que c'est.** Un principe de neuroscience canonique : un tonus catécholaminergique modéré aux récepteurs D1 et α2A préfrontaux optimise le rapport signal-bruit dans les circuits de la mémoire de travail ; un tonus excessif effondre l'accordage des réseaux.
+
+**Le mécanisme.** Les neurones pyramidaux du cortex préfrontal exigent une plage de concentration spécifique de dopamine et de noradrénaline pour maintenir une décharge « accordée » — répondant sélectivement aux entrées pertinentes tout en supprimant le bruit. Sous l'optimum, le signal est trop faible ; les neurones ne déchargent pas de manière fiable. Au-dessus de l'optimum, la suractivation D1 et α2A effondre la sélectivité — les neurones déchargent à tout, y compris au bruit, et les représentations de la mémoire de travail se dégradent.
+
+Ce n'est pas un artefact pharmacologique. C'est ainsi que le cortex préfrontal a évolué pour fonctionner. L'U inversé est la courbe de fonctionnement native du système. Les médicaments qui élèvent les niveaux de catécholamines — inhibiteurs de DAT (modafinil), inhibiteurs de NET (duloxétine à doses plus élevées), agonistes α2A (guanfacine) — poussent le système le long de sa courbe existante. Trop peu de médicament et vous êtes sous l'optimum. Trop et vous dépassez.
+
+**Pourquoi ce n'est pas de l'hormèse.** Pas de signal de stress. Pas de régulation compensatoire à la hausse. La réponse du neurone à la dopamine est la même à chaque concentration — c'est le calcul au niveau du circuit qui s'inverse. Le mécanisme est la dynamique de réseau, pas l'adaptation cellulaire.
+
+**L'implication clinique.** L'U inversé identifie le tonus catécholaminergique de base du patient. Un patient qui perd le bénéfice du modafinil à 50 mg a une dopamine basale faible — un petit blocage de DAT les pousse au-delà de l'optimum. Un patient qui bénéficie jusqu'à 200 mg et au-delà a un tonus basal élevé — il faut de la dopamine supplémentaire substantielle pour dépasser. Le point d'inversion est un test fonctionnel du statut catécholaminergique préfrontal, et il prédit la dose optimale pour chaque médicament du groupe.
+
+---
+
+## Catégorie 4 : Sélection de cible dépendante de la concentration et biochimie biphasique
+
+**Médicaments :** Rapamycine, corticostéroïdes, alloprégnanolone, DORA, antihistaminiques H1, NAC, kétotifène, quercétine.
+
+**Ce que c'est.** Trois sous-types distincts partagent une conséquence commune — bénéfice à faible concentration, méfait ou perte de bénéfice à plus forte concentration — mais proviennent de mécanismes différents. (4a) Sélectivité à deux cibles : le médicament a une cible thérapeutique de haute affinité et une cible de basse affinité à effet opposé. À faible concentration, seule la cible thérapeutique s'engage. À plus forte concentration, le débordement vers la seconde cible inverse le bénéfice. (4b) Seuil pharmacocinétique : la cible thérapeutique du médicament est périphérique ; à doses plus élevées, la pénétration du SNC engage des cibles cérébrales qui produisent sédation ou altération. (4c) Biochimie biphasique : la voie métabolique du médicament a des effets nets opposés à différentes concentrations.
+
+**Rapamycine (mTORC1 vs mTORC2) — sous-type 4a.** mTOR existe en deux complexes. mTORC1 régule l'autophagie, la synthèse protéique et le métabolisme. mTORC2 régule la survie cellulaire, le cytosquelette et la signalisation de l'insuline. La rapamycine lie mTORC1 avec une affinité supérieure à mTORC2. À de faibles doses intermittentes (1–3 mg/semaine), la rapamycine inhibe partiellement mTORC1 — l'autophagie est restaurée, le contrôle qualité mitochondrial s'améliore, et le SASP des cellules sénescentes (le profil de sécrétion inflammatoire des cellules vieillissantes ou endommagées) est supprimé. À des doses quotidiennes plus élevées (5–10 mg/jour), la rapamycine inhibe aussi mTORC2 — une résistance à l'insuline se développe, une immunosuppression se produit, et le bénéfice métabolique s'inverse. Ce n'est pas de l'hormèse. C'est une affinité de liaison différentielle entre deux complexes structurellement liés.
+
+**Corticostéroïdes — sous-type 4a.** Le remplacement physiologique (5–10 mg de prednisone) fournit le signal anti-inflammatoire que l'axe HPA fournit normalement. Les doses supraphysiologiques suppriment l'axe HPA lui-même — le corps cesse de produire son propre cortisol, et la réduction progressive produit une inflammation de rebond pire qu'au départ.
+
+**DORA et antihistaminiques H1 — sous-type 4b (seuil pharmacocinétique).** DORA (antagonistes doubles des récepteurs de l'orexine) : le blocage partiel de l'orexine à faible dose améliore le sommeil ; le blocage complet à dose plus élevée provoque une paralysie du sommeil et une hypersomnie diurne — le médicament dépasse la fenêtre de promotion du sommeil. Antihistaminiques H1 (par ex., cétirizine) : le blocage périphérique H1 à 5–10 mg soulage les symptômes du SAMA ; la pénétration du SNC à ≥20 mg produit une sédation — le médicament traverse la barrière hémato-encéphalique et engage une cible cérébrale qui ne contribuait pas au bénéfice périphérique. L'inversion est un phénomène de gradient de concentration, pas un mécanisme au niveau des récepteurs.
+
+**Alloprégnanolone (biphasique GABA-A) — sous-type 4c.** L'alloprégnanolone est un modulateur allostérique positif des récepteurs GABA-A — il renforce l'effet du GABA. À de faibles concentrations (1–5 nM, typiques de la phase lutéale), elle augmente paradoxalement l'anxiété chez certaines femmes. À des concentrations plus élevées (>10 nM, niveau de la grossesse), elle produit sédation et anxiolyse. Le mécanisme implique vraisemblablement deux sites de liaison sur le récepteur GABA-A avec des courbes concentration-réponse opposées. Pas d'hormèse, pas de dynamique de réseau — deux sites de liaison sur la même protéine.
+
+**NAC — sous-type 4c.** À faible dose (600 mg), le NAC peut produire une aggravation paradoxale — le sursaut de radicaux thiol de l'oxydation de la cystéine épuise le glutathion avant que la synthèse nette ne démarre. À dose plus élevée (1 200 mg), la voie de synthèse se sature et le glutathion net monte. L'inversion se situe au niveau de la biochimie de la cystéine, pas de la pharmacologie des récepteurs. Le NAC apparaît aussi en catégorie 1 comme activateur de Nrf2 — il peut opérer via les deux mécanismes à différentes plages de dose.
+
+**Kétotifène — sous-type 4b.** Bénéfice SAMA à faible dose par stabilisation des mastocytes ; sédation au-dessus du seuil antihistaminique H1 — la pénétration dépendante de la dose du SNC inverse le bénéfice net.
+
+**Quercétine — sous-type 4c.** L'inhibition de la COMT à faible dose peut optimiser le tonus catécholaminergique préfrontal (similaire à la catégorie 3) ; à doses plus élevées, l'inhibition excessive de la COMT dépasse l'U inversé des catécholamines et altère la cognition.
+
+**L'implication clinique.** Ces médicaments ne partagent pas un mécanisme commun entre eux, encore moins avec les autres catégories. Leurs courbes en U inversé sont des propriétés spécifiques au médicament — la dose à laquelle la rapamycine perd sa sélectivité envers mTORC1 ne vous dit rien sur la dose à laquelle le modafinil dépasse le D1 préfrontal, et ni l'une ni l'autre ne vous dit quoi que ce soit sur la dose à laquelle l'amorçage Nrf2 du LDN s'effondre. Au sein de cette catégorie, les trois sous-types portent une valeur diagnostique différente : le sous-type 4a (sélectivité à deux cibles) révèle la réserve de récepteurs et les ratios d'affinité de cible ; le sous-type 4b (seuil pharmacocinétique) révèle l'intégrité de la barrière hémato-encéphalique et la sensibilité à la pénétration du SNC ; le sous-type 4c (biochimie biphasique) révèle la capacité de la voie métabolique. Ils sont regroupés ici parce qu'ils complètent le catalogue — ce sont les médicaments non monotones restants de l'article — pas parce qu'ils se regroupent mécanistiquement.
+
+---
+
+## Pourquoi la distinction importe
+
+L'implication thérapeutique d'un U inversé dépend entièrement de la catégorie à laquelle appartient le médicament.
+
+Pour les médicaments à hormèse Nrf2, la largeur de la fenêtre mesure la capacité de réponse au stress. Un patient avec une fenêtre LDN étroite devrait avoir des fenêtres étroites pour le sulforaphane, la mélatonine et le lithium — parce qu'ils convergent tous vers la même voie Keap1-Nrf2. La prédiction est testable.
+
+Pour l'U inversé des catécholamines, le point d'inversion mesure le tonus catécholaminergique préfrontal de base. Un patient avec une fenêtre modafinil étroite devrait avoir des fenêtres étroites pour la duloxétine et la guanfacine — parce qu'ils convergent tous vers le même circuit D1/α2A. La prédiction est testable, et elle est mécanistiquement indépendante de la prédiction Nrf2.
+
+Pour l'U inversé de l'agoniste partiel, le point d'inversion mesure la réserve de récepteurs — une propriété structurelle du système dopaminergique, pas du système de réponse au stress.
+
+Pour les médicaments de catégorie 4 (sélection de cible dépendante de la concentration et biochimie biphasique), le point d'inversion est une propriété spécifique au médicament, et il ne porte aucune valeur prédictive entre médicaments.
+
+Si vous traitez l'U inversé comme un seul phénomène, vous prédisez que tous les dix-huit médicaments corréleront chez les patients — fenêtre LDN étroite, fenêtre modafinil étroite, fenêtre rapamycine étroite. Cette prédiction est probablement fausse. La décomposition mécanistique prédit un résultat plus intéressant : corrélation au sein des groupes, aucune corrélation entre les groupes. Les médicaments Nrf2 devraient corréler entre eux. Les médicaments catécholaminergiques devraient corréler entre eux. La LDA devrait être frontalière — elle partage un substrat dopaminergique avec le groupe catécholaminergique mais opère via un mécanisme différent (agonisme partiel vs inhibition de la recapture). La rapamycine et l'alloprégnanolone devraient être des îles.
+
+---
+
+## La prédiction falsifiable
+
+Si la réserve hormétique est un trait unique transversal aux systèmes — une propriété générale de la physiologie de l'EM/SFC — alors les points d'inversion devraient corréler à travers les dix-huit médicaments. Le test de mécanisme orthogonal par excellence est LDN vs modafinil : des récepteurs complètement distincts (TLR4 vs DAT/NET), des types cellulaires (microglies vs terminaisons présynaptiques) et des cibles anatomiques. Si ces deux corrèlent (r ≥ 0,4), la réserve hormétique est une propriété système authentique. S'ils ne corrèlent pas (r < 0,2), l'U inversé est une collection d'artefacts spécifiques au médicament et le modèle de trait unique est faux.
+
+Ce test est spécifié dans l'article comme l'essai HIP-B : six médicaments (LDN, sulforaphane, duloxétine, modafinil, rapamycine, alloprégnanolone) à quatre niveaux de dose, croisement intrapatient, n ≥ 80 pour un test définitif. Jusqu'à ce que le HIP-B ou un équivalent soit mené, l'unité de l'U inversé dans l'EM/SFC est une question empirique, pas un fait établi.
+
+---
+
+## Estimation de certitude
+
+| Affirmation | Certitude |
+|-------|-----------|
+| L'hormèse médiée par Nrf2 est le mécanisme des médicaments du groupe Nrf2 | Modérée — l'hormèse Nrf2 est bien établie en toxicologie (corpus de Calabrese) ; la preuve directe dans le LDN spécifiquement est absente |
+| L'U inversé de l'agoniste partiel s'applique à la LDA | Élevée — propriété d'occupation des récepteurs, documentée pour tous les agonistes partiels |
+| L'U inversé des catécholamines s'applique aux médicaments D1/α2A préfrontaux | Élevée — neuroscience canonique, répliquée à travers les espèces et les méthodes (Arnsten, Cools) |
+| La sélectivité mTORC1/C2 explique l'U inversé de la rapamycine | Élevée — établie dans les lignées cellulaires de souris et humaines (Sarbassov, Lamming) |
+| La courbe biphasique de l'alloprégnanolone est un phénomène de deux sites de liaison | Modérée — la réponse biphasique concentration-réponse est documentée ; le mécanisme à deux sites est inféré |
+| Les points d'inversion corrèlent au sein des groupes mécanistiques | Faible — jamais testé pour aucun groupe |
+| Les points d'inversion ne corrèlent pas entre les groupes | Faible — jamais testé |
+| Le HIP-B distinguerait une réserve hormétique à trait unique d'une réserve à traits multiples | Modérée — le calcul de puissance statistique est solide (n ≥ 80 pour r ≥ 0,4 vs r < 0,2) ; l'essai n'existe pas |
+
+---
+
+*Cet article s'appuie sur le cadre hormétique développé dans [Loth 2026](https://yannickloth.github.io/health-me-cfs/), synthétisant le corpus d'hormèse de Calabrese, la littérature de l'U inversé des catécholamines d'Arnsten/Cools, la sélectivité de dose mTORC1/C2 de Sabatini/Lamming, et la pharmacologie biphasique de l'alloprégnanolone d'Andreen. Le cadre a été déclenché par l'observation clinique de Kevin Lee selon laquelle le LDN à dose plus élevée montre souvent moins de bénéfice que le LDN à dose plus basse, et étendu par l'observation de Yannick L. selon laquelle la même logique s'applique à la LDA et à chaque autre médicament à faible ou forte dose de l'article — un schéma que le modèle standard à mécanisme unique TLR4 ne peut pas expliquer. Le cadre de variance des seuils inter-individuels — état redox, charge allostatique et réserve cellulaire de base comme déterminants de la position de la fenêtre hormétique — s'appuie sur l'articulation de Kevin Lee de la raison pour laquelle les courbes dose-réponse hormétiques dépendent de l'organisme plutôt que d'être pharmacologiquement fixes.*
+
+*Précédent : [Pourquoi plus n'est pas mieux : le paradoxe de la dose-réponse dans le LDN et la LDA](../more-isnt-better-ldn-lda/) · Suivant : [Votre dose de LDN est un diagnostic](../dose-is-diagnostic-ldn/)*
