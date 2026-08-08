@@ -1,0 +1,160 @@
+---
+title: "La réaction en chaîne de 3 secondes : pourquoi un coup sur un nerf peut vous faire perdre connaissance"
+description: "Frappez un nerf — l'intérieur d'un coude, le dessous d'un poignet, le coin d'un bureau contre un tibia — et pendant environ une seconde vous enregistrez une piqûre nette. *Oh, je me suis cogné là.* Puis la douleur commence à se matérialiser et à s'intensifier — non pas progressivement, ma..."
+author: "Yannick Loth"
+date: "2026-05-26"
+categories: [Douleur, Dysfonction autonome, Neurologie]
+lang: fr
+---
+
+Frappez un nerf — l'intérieur d'un coude, le dessous d'un poignet, le coin d'un bureau contre un tibia — et pendant environ une seconde vous enregistrez une piqûre nette. *Oh, je me suis cogné là.* Puis la douleur commence à se matérialiser et à s'intensifier — non pas progressivement, mais dans une vague montante. Une à deux secondes supplémentaires passent, et le verdict du cerveau arrive avant que des mots ne puissent se former : *pas survivable debout.* Tout devient noir. Quelques secondes plus tard, la conscience revient. Vous êtes sur le sol.
+
+Ce n'est pas une anomalie médicale. C'est une **syncope neurocardiogénique** — un malaise déclenché par une douleur intense — et la chaîne d'événements de l'impact au sol est une séquence remarquablement précise de neurophysiologie. Chez une personne à haute sensibilité autonome, toute la cascade du coup à l'inconscience peut s'exécuter en moins de trois secondes. Voici exactement ce qui se passe, étape par étape, avec le vocabulaire qui la rend compréhensible même si vous n'avez jamais suivi de cours de biologie.
+
+---
+
+## Étape 1 : L'impact — les fibres Aδ déchargent en premier (0–100 ms)
+
+Le corps humain a deux types de fils de douleur qui vont de la peau à la moelle épinière puis au cerveau. Les deux vivent à l'intérieur des nerfs périphériques. Les plus rapides sont appelés **fibres Aδ** — pensez à elles comme à la voie express. Elles sont enveloppées dans une isolation graisseuse appelée **myéline** (my-é-line), qui permet aux signaux électriques de voyager à environ 5–30 mètres par seconde. Un écrasement mécanique d'un nerf périphérique — comme un poignet frappant le coin d'un bureau au niveau du nerf ulnaire près du canal de Guyon — dépolarise (active électriquement) ces fibres Aδ instantanément.
+
+Ce qu'elles livrent au cerveau est une **douleur nette et localisable** : le point exact de l'impact. Les fibres Aδ donnent le « aïe » qui vous dit précisément où vous vous êtes blessé.
+
+C'est pourquoi il y a généralement une brève fenêtre — environ une seconde — pour penser *oh, je me suis cogné là*. La volée Aδ est arrivée. Les autres fibres de douleur ne sont pas encore arrivées. La douleur n'a même pas commencé à se matérialiser.
+
+---
+
+## Étape 2 : Le recrutement des fibres C — la vague retardée (200 ms → 2 secondes)
+
+Le deuxième type de fil de douleur est la **fibre C**. Celles-ci sont non myélinisées — pas d'isolation — donc leurs signaux voyagent lentement, à environ 0,5–2 mètres par seconde. Elles transportent un type de douleur différent : **sourde, diffuse, brûlante, croissante, émotionnellement insupportable**.
+
+Les fibres C ne se contentent pas de signaler des dommages. Elles libèrent de la **substance P** et du **peptide relié au gène de la calcitonine (CGRP)** sur le site de la blessure — deux molécules qui provoquent une **inflammation neurogène**. La substance P rend les parois des capillaires voisins plus perméables : les espaces entre les cellules tapissant le vaisseau s'élargissent, et le plasma sanguin (la composante liquide claire du sang, pas le sang entier) s'échappe dans le tissu environnant. Le CGRP dilate les petites artères alimentant la zone, augmentant le flux sanguin. Le plasma qui s'échappe transporte des protéines du complément et des facteurs de coagulation. Les **mastocytes** — cellules immunitaires stationnées dans les tissus — détectent les signaux de dommages, dégranulent (libèrent leurs paquets internes d'histamine et d'autres médiateurs inflammatoires) et amplifient toute la cascade. Ce processus **sensibilise** les terminaisons nerveuses, ce qui signifie que la même fibre C décharge maintenant à un seuil plus bas qu'avant la blessure. Il recrute aussi les fibres C voisines qui n'étaient pas initialement impliquées.
+
+C'est pourquoi la douleur n'atteint pas un plateau après le coup initial. Elle **monte** — parce que la cascade inflammatoire locale amplifie le signal même si l'agression mécanique est déjà terminée. Dans un système nerveux sensibilisé, cette escalade peut être quasi verticale.
+
+Ce qui arrive au cerveau environ 1–2 secondes après l'impact est un crescendo d'entrées des fibres C : diffuse, croissante, impossible à ignorer, signalant *ça ne s'améliore pas, ça s'aggrave* — et dans la syncope à apparition rapide, la conscience s'effondre au point le plus raide de cette escalade.
+
+---
+
+## Étape 3 : Le noyau du tractus solitaire — où le réflexe détourne le système (~1–2 secondes)
+
+Toute cette information nociceptive (douloureuse) remonte la moelle épinière et le tronc cérébral vers une structure appelée le **noyau du tractus solitaire (NTS)** dans le bulbe rachidien — la partie la plus basse du cerveau, juste au-dessus de la moelle épinière. Le NTS est le hub d'intégration central de la **sensation viscérale** : il reçoit des entrées du cœur, des poumons, de l'intestin et — de manière cruciale — des nocicepteurs [@Benarroch2022NTS].
+
+Lorsque le NTS reçoit une **volée nociceptive intense à apparition rapide**, il interprète cela comme un signal de menace trop massif pour que les systèmes régulateurs normaux le gèrent. Il déclenche une prise de contrôle d'urgence.
+
+---
+
+## Étape 4 : La cascade autonome double — activation vagale + retrait sympathique (~1,5–2,5 secondes)
+
+Le NTS envoie deux signaux de sortie simultanés [@Raj2020syncope] :
+
+**Signal 1 : L'activation vagale.** Le **nerf vague** (nerf crânien X, le dixième nerf crânien — il y a douze ensembles numérotés de nerfs directement attachés au cerveau) porte des fibres parasympathiques vers le cœur. Lorsque le NTS le déclenche, la sortie vagale vers le nœud sino-auriculaire du cœur — son stimulateur naturel — monte en flèche. La fréquence cardiaque chute fortement. C'est ce qu'on appelle la **bradycardie** (fréquence cardiaque lente).
+
+**Signal 2 : Le retrait sympathique.** Le NTS inhibe simultanément le **bulbe ventrolatéral rostral (RVLM)** — la région du tronc cérébral qui maintient normalement le tonus sympathique vers les vaisseaux sanguins. Les nerfs sympathiques qui maintiennent habituellement les artères et les veines légèrement contractées se taisent. Les vaisseaux sanguins se dilatent. La pression artérielle s'effondre. C'est la **vasodilatation** — le côté vasculaire du réflexe.
+
+Ensemble : le cœur pompe plus lentement ET les vaisseaux sanguins sont devenus mous. Le sang qui se dirigeait vers le cerveau commence à s'accumuler dans les jambes et l'abdomen. La **pression de perfusion cérébrale** — le gradient de pression qui pousse le sang vers le haut dans le crâne — s'effondre.
+
+---
+
+## Étape 5 : L'hypoperfusion cérébrale — le cerveau à court de carburant (~2–3 secondes)
+
+Le cerveau consomme environ 20 % de l'oxygène et du glucose du corps malgré environ 2 % du poids corporel. Il n'a essentiellement aucune réserve d'énergie — pas de stockage de glycogène, pas d'oxydation des graisses sur laquelle se rabattre. Il a besoin d'un flux sanguin continu.
+
+Lorsque la perfusion descend sous environ 50 % de la normale, les neurones corticaux commencent à échouer. La conscience est un processus gourmand en énergie ; c'est la première chose qui disparaît.
+
+Les symptômes prodromiques — les signes d'alerte que certaines personnes ressentent avant de s'évanouir — sont ce qu'un cerveau à court de carburant ressent de l'intérieur : **vision tunnel** (la rétine périphérique perd sa fonction en premier), **audition étouffée** (le cortex auditif se ferme), **nausée** (désinhibition du tronc cérébral), **vertige** (le système vestibulaire perd son apport sanguin).
+
+Dans la syncope à apparition rapide d'origine douloureuse, l'escalade peut comprimer ces signes prodromiques en moins d'une seconde. Une personne passe de *ça fait mal* à *je ne peux pas rester conscient* sans traverser une phase d'alerte reconnaissable.
+
+---
+
+## Étape 6 : La syncope — le redémarrage forcé du cerveau (~2,5–3,5 secondes après l'impact)
+
+La **syncope** (sin-ko-pee) est le terme médical pour la perte de conscience transitoire due à une hypoperfusion cérébrale [@Grubb2005syncope] [@Adkisson2017syncope]. Ce n'est pas une convulsion — c'est le cerveau qui ferme les systèmes non essentiels pour préserver le métabolisme de base, comme un ordinateur portable qui entre en veille d'urgence quand la batterie atteint 1 %.
+
+Pendant la syncope, le tonus musculaire est perdu (la personne s'effondre), ce qui est en fait la contre-mesure la plus efficace du corps : **passer à l'horizontale élimine le gradient de gravité** qui tirait le sang loin du cerveau. En position couchée — allongé à plat sur le dos — le cœur et le cerveau sont à peu près au même niveau, et la pression de perfusion est rétablie par la simple physique.
+
+---
+
+## Étape 7 : La reperfusion en position couchée — le sang revient (~3,5–10 secondes après l'impact)
+
+Une fois horizontal sur le sol, trois choses se produisent simultanément :
+
+1. **La gravité est éliminée.** Plus de colonne hydrostatique qui lutte contre le cœur.
+2. **La réactivation du baroréflexe.** Les barorécepteurs des artères carotides — les capteurs de pression qui criaient *trop bas !* — détectent maintenant une pression rétablie et commencent à normaliser la sortie autonome.
+3. **L'autorégulation cérébrale reprend.** Le mécanisme intrinsèque du cerveau pour maintenir un flux sanguin constant sur une gamme de pressions se remet en marche.
+
+Les neurones corticaux, affamés quelques secondes plus tôt, recommencent à décharger. La conscience se réassemble — pas instantanément comme un interrupteur, mais sur quelques secondes, avec désorientation et une vague conscience d'avoir été ailleurs.
+
+---
+
+## Étape 8 : La récupération post-syncopale — les suites
+
+Au réveil, le cœur est probablement encore bradycardique (lent) et la pression artérielle se normalise progressivement. La sensation résiduelle est caractéristique : **nausée, pâleur, transpiration, faiblesse, confusion sur ce qui vient de se passer**.
+
+La douleur d'origine est toujours présente, mais n'escalade plus — la cascade inflammatoire a atteint un plateau, et la position couchée signifie que le cerveau ne se bat plus pour la perfusion.
+
+La plupart des gens se rétablissent complètement en quelques minutes. Le cerveau ne subit pas de dommages permanents d'un bref épisode d'hypoperfusion — contrairement à l'arrêt cardiaque, la syncope est auto-limitante : l'effondrement lui-même est le remède.
+
+---
+
+## Qui est susceptible à cela ?
+
+Tous ceux qui frappent un nerf ne s'évanouissent pas. La réponse dépend de la physiologie autonome individuelle et des conditions préexistantes. Voici qui est à risque plus élevé :
+
+### 1. Tonus vagal de base élevé
+
+Certaines personnes ont naturellement un nerf vague plus réactif — fréquence cardiaque au repos plus basse, réponse plus forte à la manœuvre de Valsalva (pousser, comme quand on soulève quelque chose de lourd), déclenchement plus facile de la bradycardie avec une pression sur le cou (sensibilité du sinus carotidien). Ces individus ont la **branche vagale** du réflexe pré-sensibilisée. Une entrée nociceptive donnée produit une chute plus importante de la fréquence cardiaque que chez une personne ayant un tonus vagal moyen.
+
+### 2. POTS (syndrome de tachycardie orthostatique posturale)
+
+Les patients POTS ont déjà un système nerveux autonome dysrégulé [@POTSautonomicProfiles2025] [@Sheldon2015POTScriteria] [@Garland2015POTSbeyond]. Leur caractéristique est une **augmentation excessive de la fréquence cardiaque en position debout** — le système sympathique surcompense pour maintenir la perfusion cérébrale contre l'accumulation de sang. Mais de nombreux patients POTS ont aussi un **POTS neuropathique** — les nerfs sympathiques vers les vaisseaux sanguins du bas du corps sont partiellement endommagés (neuropathie des petites fibres [@Schondorf2021autonomicPOTS]), ce qui signifie que la vasoconstriction est déjà altérée.
+
+Lorsqu'un pic de douleur déclenche le retrait sympathique médié par le NTS, le système cardiovasculaire d'un patient POTS est moins capable de compenser. La vasodilatation est plus importante par rapport à la ligne de base, et la récupération du baroréflexe est plus lente. **La syncope est plus probable et la récupération prend plus de temps.**
+
+De plus, de nombreux patients POTS ont des **déficits de volume sanguin** (hypovolémie) — moins de sang total en circulation signifie moins de réserve lorsque la pression de perfusion chute. Un réservoir plus petit se vide plus vite.
+
+### 3. Inflammation nerveuse préexistante (névrite / neuropathie)
+
+Si un nerf ou sa gaine environnante (l'isolation de la **myéline**) est déjà enflammé — que ce soit par une attaque auto-immune (Guillain-Barré, PIDC), une compression (canal carpien, radiculopathie) ou des dommages métaboliques (neuropathie diabétique) — le seuil de déclenchement des nocicepteurs est déjà abaissé. Le nerf est **sensibilisé**.
+
+Cela signifie que la même frappe mécanique produit une **volée nociceptive plus importante** que dans un nerf sain. Davantage de fibres C sont déjà prêtes à décharger. Le signal arrivant au NTS est amplifié, rendant la syncope plus probable.
+
+Dans des conditions comme les **syndromes d'Ehlers-Danlos (SED/spectre de l'hypermobilité)**, la laxité du tissu conjonctif autour des gaines nerveuses peut conduire à une irritation mécanique chronique de bas grade des nerfs périphériques — un état de sensibilisation de fond qui abaisse le seuil de syncope.
+
+### 4. EM/SFC et COVID long
+
+La dysfonction autonome est quasi universelle dans l'EM/SFC et courante dans le COVID long [@Baschieri2019circadianAutonomic]. L'intolérance orthostatique, le POTS et la variabilité anormale de la fréquence cardiaque sont bien documentés. De nombreux patients EM/SFC ont une **sensibilité baroréflexe réduite** — le système qui détecte les chutes de pression artérielle et compense est lent.
+
+Combiné à la **neuroinflammation** (cytokines cérébrales élevées, microglie activée), qui peut abaisser le seuil du NTS pour déclencher le réflexe, les patients EM/SFC peuvent être plus vulnérables à la syncope induite par la douleur même sans POTS préexistant.
+
+### 5. Carence en fer
+
+La carence en fer altère la **tyrosine hydroxylase** — l'enzyme limitant la vitesse de synthèse de la dopamine et de la noradrénaline [@DelRosso2020ironRLS]. La noradrénaline est le principal neurotransmetteur du système nerveux sympathique. Une faible production de noradrénaline signifie un **tonus sympathique réduit** — la vasoconstriction de base qui maintient la pression artérielle.
+
+Lorsque le NTS déclenche un retrait sympathique par-dessus un tonus sympathique déjà faible, la chute de pression artérielle est plus profonde. Les personnes carencées en fer ont moins de réserve cardiovasculaire pour absorber le coup.
+
+### 6. Anxiété et hypervigilance à la douleur
+
+Les individus avec un catastrophisme élevé de la douleur ou une sensibilité intéroceptive (conscience accrue des sensations corporelles internes) peuvent amplifier la réponse du NTS par **entrée corticale descendante**. Le cortex préfrontal et l'amygdale projettent vers le NTS et peuvent moduler sa sensibilité. La peur de la douleur croissante — même avant que la syncope elle-même ne devienne une possibilité consciente — peut accélérer la cascade en ajoutant un entraînement limbique (cerveau émotionnel) au NTS.
+
+---
+
+## Peut-on la prévenir ?
+
+Pour une simple frappe mécanique d'un nerf, il y a peu à faire sur le moment — le réflexe est plus rapide que l'intervention consciente. Mais pour les personnes qui savent qu'elles sont susceptibles :
+
+- **Allongez-vous immédiatement** si des symptômes prodromiques apparaissent. N'essayez pas de lutter debout — le gradient de gravité est l'ennemi.
+- **Gardez le fer et la ferritine dans la plage normale.** Une ferritine inférieure à 30 ng/mL altère la synthèse des catécholamines.
+- **Les vêtements de compression et le chargement de liquide/sel** (si un POTS ou une intolérance orthostatique est présent) augmentent le volume sanguin et réduisent la chute de perfusion.
+- **Les thérapies de désensibilisation à la douleur** (exposition graduée, biofeedback) peuvent recalibrer le seuil du NTS chez les personnes ayant une hypersensibilité chronique à la douleur.
+- **Traitez les neuropathies sous-jacentes** — réduire la sensibilisation nerveuse de base réduit l'amplification de toute nouvelle entrée nociceptive.
+
+---
+
+## L'essentiel
+
+S'évanouir d'un coup sur un nerf n'est pas un signe de faiblesse ni une réaction psychologique excessive. C'est un **réflexe du tronc cérébral câblé en dur** qui exécute le même circuit chez chaque être humain. Les circuits de certaines personnes sont plus sensibles — en raison du tonus vagal, du POTS, de l'inflammation nerveuse, du volume sanguin, du statut des catécholamines ou de la sensibilisation centrale — mais le mécanisme est identique.
+
+Le décalage de 1 seconde entre la piqûre nette initiale et la vague insupportable est la signature exacte d'une **nociception Aδ-d'abord, amplifiée par les fibres C** déclenchant la prise de contrôle autonome du NTS. Le cerveau avertit, puis tire la corde.
+
+Ce n'est pas de la dysfonction. C'est le tronc cérébral faisant exactement ce que l'évolution l'a conçu pour faire lorsqu'il reçoit un signal de douleur qu'il interprète comme une menace de niveau de survie — il met le corps à l'horizontale, rétablit le sang vers le cerveau et redémarre le système.

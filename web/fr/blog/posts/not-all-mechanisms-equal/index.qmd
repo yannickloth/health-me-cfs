@@ -1,0 +1,81 @@
+---
+title: "Tous les mécanismes ne se valent pas"
+description: "Il existe des dizaines de mécanismes impliqués dans l'EM/SFC : activation immunitaire, dysfonction mitochondriale, dysrégulation autonome, perturbation du microbiome, fragmentation du sommeil, stress oxydatif, réactivation virale, changements épigénétiques, autoanticorps. La..."
+author: "Yannick Loth"
+date: "2026-04-06"
+categories: [Hiérarchie causale, Physiopathologie, Biologie des systèmes]
+lang: fr
+---
+
+Il existe des dizaines de mécanismes impliqués dans l'EM/SFC : activation immunitaire, dysfonction mitochondriale, dysrégulation autonome, perturbation du microbiome, fragmentation du sommeil, stress oxydatif, réactivation virale, changements épigénétiques, autoanticorps. La réaction standard face à une telle liste est une sorte de désespoir thérapeutique — la maladie est « partout », ce qui signifie qu'elle est « nulle part ». Mais la liste ne ressemble à cela que si vous traitez tous ces mécanismes comme thérapeutiquement équivalents. Les revues standard s'arrêtent souvent à l'énumération des mécanismes sans classement causal explicite — et ils ne sont pas équivalents dans ce classement.
+
+Une analyse causale formelle de la physiopathologie de l'EM/SFC distingue trois niveaux d'implication causale, et cette distinction a des conséquences directes pour le traitement [Ch. 16 §Cadre : La classification à trois niveaux].
+
+---
+
+## Trois niveaux d'implication causale
+
+Une *cause racine* est un mécanisme dont la défaillance seule suffit à enchaîner vers le syndrome complet d'EM/SFC, capable en principe d'expliquer la transition de la santé à la maladie sans exiger de dysfonction préalable dans d'autres systèmes. En pratique, les causes racines agissent rarement de manière isolée, mais ce qui les distingue, c'est qu'elles *pourraient* [Ch. 16 §Mécanismes capables de déclenchement].
+
+Un *amplificateur* aggrave, perpétue ou verrouille l'état de maladie mais ne peut pas l'initier ; les amplificateurs s'engagent une fois qu'une cause racine a déstabilisé l'homéostasie. Certains sont *porteurs de charge* — leur élimination est nécessaire pour la récupération — tandis que d'autres sont secondaires, ce qui signifie que leur élimination améliore l'expérience du patient sans permettre d'échapper à l'état de maladie. Cette distinction fera l'objet du prochain article de cette série [Ch. 16 §Mécanismes amplificateurs].
+
+Les *conséquences* sont des phénomènes réels, cliniquement significatifs, qui se produisent en aval du processus de maladie. Ils produisent des symptômes et érodent la qualité de vie, ce qui les rend importants — et ils sont souvent ce qui fait le plus souffrir les patients — mais les traiter seuls ne peut pas résoudre ce qui maintient la maladie. Le niveau limite l'attente thérapeutique, pas la signification clinique [Ch. 16 §Conséquences en aval].
+
+---
+
+## Quatre critères pour une cause racine
+
+Tout mécanisme précoce ou en amont ne se qualifie pas. Le cadre exige quatre critères, tous devant être satisfaits [Ch. 16 §Mécanismes capables de déclenchement].
+
+Le premier est la compatibilité avec les précipitants : le mécanisme doit être déclenchable par les précipitants connus de l'EM/SFC — infection virale, stress physiologique sévère, chirurgie, traumatisme, vaccination. Les études épidémiologiques rapportent systématiquement qu'environ 70 % des cas d'EM/SFC sont précédés d'une infection aiguë, bien que les estimations publiées varient ; le cadre utilise ce chiffre comme une approximation de travail [Ch. 16 §Mécanismes capables de déclenchement]. Toute cause racine proposée doit être compatible avec ce schéma et avec les précipitants non infectieux qui expliquent le reste.
+
+Le deuxième est la suffisance de l'effondrement énergétique. Le mécanisme doit, à lui seul, être capable de produire le malaise post-effort, la caractéristique cardinale. Le MPE n'est pas une simple fatigue ; c'est la persistance et l'accumulation des sous-produits post-effort — déchets métaboliques, médiateurs inflammatoires, dommages oxydatifs — que la physiologie saine élimine en quelques heures mais que la physiologie de l'EM/SFC ne peut pas, produisant une aggravation caractéristique des symptômes avec une latence de 12 à 72 heures et une durée qui peut s'étendre sur des jours ou des semaines. Une cause racine proposée doit expliquer ce schéma spécifique, pas la fatigue en général [Ch. 16 §Mécanismes capables de déclenchement].
+
+Troisièmement, la chronicité : le mécanisme doit expliquer pourquoi l'EM/SFC persiste pendant des années ou des décennies. De nombreux processus aigus — inflammation, stress métabolique, perturbation hormonale — sont intrinsèquement auto-limitants dans la physiologie saine, donc une cause racine doit soit être auto-perpétuante, soit créer des conditions qui empêchent la résolution normale [Ch. 16 §Mécanismes capables de déclenchement].
+
+Quatrièmement, la propagation multi-systémique. L'EM/SFC n'est pas une maladie d'un seul système, donc toute cause racine doit avoir un chemin plausible pour produire une dysfonction à travers les domaines neurologique, immunologique, cardiovasculaire, endocrinien et gastro-intestinal, directement ou par des cascades en aval [Ch. 16 §Mécanismes capables de déclenchement].
+
+Ces critères sont des filtres, pas des preuves. Un mécanisme qui passe les quatre est une cause racine *candidate* ; plusieurs mécanismes peuvent passer, et lequel a réellement déclenché la maladie d'un patient donné est une question séparée.
+
+---
+
+## Les plafonds thérapeutiques
+
+Le niveau auquel appartient un mécanisme détermine le type de travail thérapeutique qu'il peut faire [Ch. 16 §Implications thérapeutiques de la hiérarchie causale].
+
+Traiter une conséquence produit un soulagement symptomatique sans s'attaquer à ce qui maintient la maladie. Le médicament du sommeil pour la fragmentation du sommeil liée à l'EM/SFC est l'exemple le plus clair : les preuves disponibles suggèrent que les patients dont le sommeil se normalise pharmacologiquement ne se rétablissent généralement pas — ils dorment mieux dans l'état de maladie, bien que les résultats varient [Ch. 16 §Conséquences en aval]. Le plafond thérapeutique est borné par le niveau.
+
+Traiter un amplificateur peut ralentir significativement la progression et réduire le fardeau de la maladie, et si l'amplificateur est porteur de charge, son élimination peut être un composant nécessaire de la récupération. Même ainsi, le traitement de l'amplificateur seul laisse encore le mécanisme de maladie sous-jacent intact [Ch. 16 §Mécanismes amplificateurs].
+
+Traiter une cause racine est là où se produit le travail structurel, mais seulement si la cause racine est encore active. Dans la maladie à un stade avancé, la cause racine d'origine peut s'être résolue depuis longtemps tandis que les amplificateurs — certains désormais porteurs de charge — maintiennent la maladie indépendamment. Le déclencheur était la porte ; les verrous sont ce qui retient le patient à l'intérieur [Ch. 16 §Verrous porteurs de charge contre verrous secondaires]. À ce stade, traiter le déclencheur n'apporte qu'un bénéfice limité.
+
+L'implication découle de ceci : le mécanisme le plus fondamentalement causal dans l'histoire d'un patient donné peut ne plus être la cible de traitement la plus prioritaire. C'est le sujet d'un article ultérieur. Ce que le cadre des niveaux établit ici est plus basique — que les mécanismes ne font pas tous le même type de travail, et que les traiter comme s'ils le faisaient produit une confusion prévisible sur la raison pour laquelle les interventions réussissent ou échouent.
+
+---
+
+## Quels mécanismes se qualifient
+
+Sur la base de l'analyse à quatre critères, trois mécanismes sont évalués comme causes racines candidates capables de déclenchement dans l'EM/SFC — ce qui signifie qu'ils satisfont les quatre filtres sous l'analyse mécanistique actuelle du cadre, non que cette classification a été confirmée expérimentalement [Ch. 16 §Mécanismes capables de déclenchement].
+
+La *crise énergétique du SNC* implique une défaillance énergétique hypothalamique et du tronc cérébral qui perturbe la coordination centrale de la fonction immunitaire, autonome et métabolique. Elle satisfait les quatre critères et a un chemin direct vers le MPE par la régulation énergétique centrale altérée de la réponse à l'effort [Ch. 16 §Crise énergétique du SNC].
+
+La *cascade d'autoanticorps GPCR* implique des autoanticorps ciblant des récepteurs couplés aux protéines G qui dysrégulent le système nerveux autonome par un mécanisme suffisant en principe pour maintenir la maladie à lui seul, et déclenchable par la perturbation immunitaire suivant l'infection ou un stress sévère [Ch. 16 §Cascade d'autoanticorps GPCR].
+
+La *consolidation épigénétique* est la stabilisation du programme d'expression génique adapté à la maladie par la méthylation de l'ADN et des modifications des histones. Une fois établie, elle est — selon l'hypothèse de ce modèle — auto-entretenue : les cellules expriment le programme de maladie non pas parce qu'elles reçoivent encore le signal mais parce qu'il est encodé dans la couche de régulation génique. (Les marques épigénétiques sont dynamiques et en principe réversibles, mais le cadre propose qu'elles soient résistantes à l'inversion homéostatique normale dans ce contexte.) Le cadre propose que l'infection aiguë crée les signaux inflammatoires qui initient les changements de méthylation, qu'une fois établi ce mécanisme produit une dysfonction multi-systémique persistante, et qu'il ne se résout pas de lui-même — bien que la confirmation expérimentale directe de cette séquence dans l'EM/SFC humaine reste incomplète [Ch. 16 §Consolidation épigénétique].
+
+Plusieurs mécanismes cliniquement proéminents — stress oxydatif, réactivation virale, fragmentation du sommeil, dysbiose intestinale — tombent dans les niveaux amplificateur ou conséquence. Ils sont réels et importants, mais ce ne sont pas des causes racines [Ch. 16 §Mécanismes amplificateurs ; §Conséquences en aval].
+
+---
+
+## Limites de la classification
+
+C'est une classification causale basée sur l'analyse mécanistique, pas un essai clinique. La structure à trois niveaux et le filtre à quatre critères sont des outils de raisonnement. De manière cruciale, les quatre critères sont les propres constructions du cadre : les passer est une validation interne au modèle, pas une confirmation empirique indépendante. Les attributions de niveau représentent la meilleure évaluation mécanistique actuelle du cadre, pas des résultats confirmés expérimentalement — l'incertitude est substantielle. La place d'un mécanisme peut différer selon les patients en fonction du point d'entrée et de la durée de la maladie, les trois causes racines candidates n'ont pas été validées dans des études contrôlées, et de nouvelles preuves pourraient reclasser les mécanismes à mesure que la compréhension s'améliore [Ch. 16 §Implications de recherche].
+
+L'objectif est de remplacer une liste indifférenciée par une liste structurée — parce que le niveau auquel appartient un mécanisme est l'une des choses les plus pratiquement importantes que vous puissiez savoir à son sujet.
+
+---
+
+
+*Article précédent de cette série : [Pourquoi l'EM/SFC ne se résout pas — et pourquoi les cas sévères résistent au traitement](https://www.linkedin.com/pulse/) (2026-03-24)*
+
+*Suivant : Quatre portes, une maladie — pourquoi l'infection virale, le stress, la chirurgie et la vaccination produisent tous le même syndrome*

@@ -1,0 +1,94 @@
+---
+title: "SIBO : les bactéries qui volent votre petit-déjeuner"
+description: "L'intestin grêle est censé être relativement stérile. Le gros intestin — le côlon — est une métropole microbienne, abritant des milliers de milliards de bactéries qui fermentent les fibres, produisent des vitamines et maintiennent le système immunitaire muqueux. L'intestin grêle,..."
+author: "Yannick Loth"
+date: "2026-06-19"
+categories: [Microbiome intestinal, Traitement]
+lang: fr
+---
+
+L'intestin grêle est censé être relativement stérile. Le gros intestin — le côlon — est une métropole microbienne, abritant des milliers de milliards de bactéries qui fermentent les fibres, produisent des vitamines et maintiennent le système immunitaire muqueux. L'intestin grêle, en amont, est l'endroit où vous absorbez réellement vos nutriments : fer, B12, folate, vitamines liposolubles, acides aminés, sucres. Il doit être relativement dégagé de bactéries pour que cela fonctionne. Une onde musculaire appelée complexe moteur migrant (CMM) balaie l'intestin grêle entre les repas, poussant les bactéries en aval vers le côlon où elles appartiennent.
+
+Lorsque ce système échoue — lorsque des bactéries colonisent l'intestin grêle en nombre significatif — elles mangent votre nourriture avant que vous ne l'absorbiez. Elles fermentent des glucides qui auraient dû être absorbés comme glucose, produisant de l'hydrogène, du méthane et du sulfure d'hydrogène gazeux. Elles consomment la B12 et le fer. Elles endommagent la paroi intestinale, altérant l'absorption de tout le reste. Le résultat est une carence nutritionnelle malgré une prise alimentaire adéquate, des ballonnements et des douleurs après chaque repas, et — parce que vos mitochondries ont besoin de ces nutriments pour produire de l'énergie — de la fatigue.
+
+C'est la prolifération bactérienne intestinale grêle (SIBO), et chez les patients EM/SFC c'est probablement le contributeur traitable le plus courant à la fatigue qui est systématiquement négligé.
+
+---
+
+## Pourquoi les patients EM/SFC sont des cibles faciles
+
+Le complexe moteur migrant est contrôlé par le nerf vague. Le nerf vague est dysfonctionnel dans l'EM/SFC. Ce n'est pas de la spéculation — les tests autonomes montrent systématiquement un tonus vagal altéré chez les patients EM/SFC ([@Newton2012]; [@Beaumont2012vagalCFS]).
+
+Le CMM se déclenche pendant le jeûne — entre les repas et pendant le sommeil nocturne — balayant l'intestin grêle environ toutes les 90 minutes. Lorsque le contrôle vagal de la motilité intestinale est altéré, la fréquence du CMM chute. Le cycle de nettoyage ralentit. Les bactéries qui seraient normalement balayées vers le côlon s'accumulent dans l'intestin grêle. Plus la dysfonction vagale persiste, plus la prolifération est grande.
+
+Les patients EM/SFC tendent aussi vers une activité physique réduite (parce que l'activité provoque le MPE), ce qui ralentit indépendamment la motilité intestinale. Beaucoup prennent des médicaments qui réduisent davantage la motilité : des opioïdes pour la douleur, des anticholinergiques pour divers symptômes, des inhibiteurs de la pompe à protons qui réduisent l'acide gastrique (l'une des premières lignes de défense du corps contre la colonisation de l'intestin grêle).
+
+La configuration est une tempête parfaite : tonus vagal altéré + activité réduite + médicaments ralentissant la motilité + acide gastrique réduit = une porte ouverte pour le SIBO.
+
+---
+
+## Trois types de SIBO, trois problèmes différents
+
+Le SIBO n'est pas une seule condition. Le gaz produit par les bactéries proliférantes détermine le profil des symptômes et le traitement.
+
+**Le SIBO à prédominance hydrogène** est le type le plus courant. Les bactéries fermentent les glucides et produisent du gaz hydrogène. Les symptômes sont principalement à prédominance diarrhéique : ballonnements, urgence, selles molles, crampes abdominales après les repas. L'hydrogène lui-même est relativement bénin — ce sont les conséquences mécaniques et osmotiques de la fermentation bactérienne qui causent les symptômes.
+
+**Le SIBO à prédominance méthane** (de plus en plus appelé IMO — prolifération de méthanogènes intestinaux) est causé par des archées (Methanobrevibacter smithii, principalement) qui consomment l'hydrogène et produisent du méthane. Le méthane ralentit directement le transit intestinal — il inhibe la contraction du muscle lisse dans la paroi intestinale [@Pimentel2006methaneTransit]. Le résultat est des symptômes à prédominance constipation : ballonnements, selles peu fréquentes, efforts, sensation d'évacuation incomplète. Le SIBO au méthane crée un cercle vicieux : le méthane ralentit la motilité, ce qui aggrave la prolifération, qui produit plus de méthane.
+
+**Le SIBO à prédominance sulfure d'hydrogène** est le type reconnu le plus récent. Les bactéries sulfato-réductrices (Desulfovibrio, Bilophila, Fusobacterium) consomment l'hydrogène et produisent du H₂S. Cette variante mérite sa propre discussion — et son propre article dans cette série — parce que le H₂S est un poison mitochondrial. Il inhibe la cytochrome c oxydase (Complexe IV de la chaîne de transport d'électrons) au même site de liaison que le cyanure. Un patient atteint de SIBO à prédominance H₂S ne souffre pas seulement de malabsorption des nutriments — ses bactéries intestinales produisent un composé qui supprime directement la production d'énergie mitochondriale.
+
+---
+
+## Ce que le SIBO vole
+
+Le vol de nutriments est spécifique et dévastateur pour les patients EM/SFC :
+
+**Le fer.** Les bactéries de l'intestin grêle consomment le fer alimentaire et endommagent la muqueuse duodénale où le fer est absorbé. Un patient peut manger assez de fer alimentaire et être quand même fonctionnellement déplété en fer — non pas à cause d'une carence alimentaire mais à cause d'une consommation compétitive et d'une défaillance d'absorption. Son ferritine chute pour des raisons qu'un historique alimentaire ne révélera pas.
+
+**La vitamine B12.** Les bactéries consomment la B12 avant qu'elle n'atteigne l'iléon terminal, où l'absorption se produit. La carence en B12 du SIBO peut produire de la fatigue, une neuropathie et une dysfonction cognitive — des symptômes qui, chez un patient EM/SFC, sont attribués à la maladie elle-même plutôt qu'à une cause traitable.
+
+**Les vitamines liposolubles (A, D, E, K).** La déconjugaison bactérienne des acides biliaires dans l'intestin grêle altère l'absorption des graisses, et avec elle l'absorption des vitamines liposolubles. La carence en vitamine D d'un patient EM/SFC peut ne pas provenir d'une exposition solaire insuffisante — elle peut provenir d'une malabsorption que personne n'a testée.
+
+**Les calories.** La fermentation bactérienne des glucides dans l'intestin grêle détourne le substrat calorique qui aurait dû alimenter le patient. Le patient se sent épuisé après avoir mangé parce que le repas a déclenché une fermentation bactérienne plutôt qu'une absorption des nutriments. Les ballonnements, les gaz et la fatigue post-prandiale ne sont pas « fonctionnels » — ils sont le résultat de bactéries consommant le repas en premier.
+
+---
+
+## Diagnostic : imparfait mais disponible
+
+Le test diagnostique standard est le test respiratoire au lactulose ou au glucose. Le patient boit une solution sucrée, et l'hydrogène et le méthane expirés sont mesurés à intervalles sur 90-120 minutes. Une élévation d'hydrogène ou de méthane avant que la solution n'atteigne le côlon (typiquement dans les 90 minutes) suggère une fermentation bactérienne dans l'intestin grêle.
+
+Le test a des limites bien connues. La sensibilité est modérée — les études rapportent 60-70 % — et la spécificité dépend de critères d'interprétation qui varient entre les laboratoires [@Rezaie2017breathConsensus]. Les faux négatifs sont courants, en particulier pour le SIBO à prédominance H₂S, qui n'était pas mesurable sur les tests respiratoires standard jusqu'à récemment (le test trio-smart mesure maintenant les trois gaz).
+
+Le test respiratoire au glucose est plus spécifique mais moins sensible — le glucose est absorbé rapidement dans l'intestin grêle proximal, donc il peut manquer un SIBO distal. Le test au lactulose est plus sensible mais moins spécifique — le lactulose atteint le côlon chez tout le monde, créant une élévation de base difficile à distinguer d'un signal d'intestin grêle.
+
+Malgré ces limites, un test respiratoire positif chez un patient EM/SFC symptomatique est cliniquement exploitable. Et un test négatif n'exclut pas le SIBO — il peut justifier un traitement empirique si le tableau clinique est fortement évocateur.
+
+---
+
+## Traitement : efficace mais récurrent
+
+Le traitement standard du SIBO à prédominance hydrogène est la rifaximine (Xifaxan), un antibiotique non absorbé qui agit localement dans l'intestin. Il est bien toléré, a une absorption systémique minimale et est efficace dans environ 50-70 % des cas à dose standard [@Pimentel2011TARGET].
+
+Le SIBO à prédominance méthane exige une thérapie combinée — typiquement rifaximine plus néomycine ou métronidazole — parce que les archées responsables de la production de méthane ne sont pas adéquatement ciblées par la rifaximine seule.
+
+Le traitement du SIBO à prédominance H₂S est moins standardisé. Le sous-salicylate de bismuth a une certaine efficacité contre les bactéries sulfato-réductrices. La restriction alimentaire en soufre (réduire l'ail, l'oignon, les légumes crucifères, les œufs, les suppléments riches en soufre comme la NAC et l'acide alpha-lipoïque) réduit la disponibilité du substrat.
+
+Le régime élémentaire — une formule nutritionnelle liquide absorbée dans l'intestin grêle proximal, laissant rien aux bactéries à fermenter — est efficace dans environ 80 % des cas mais est difficile à maintenir pendant les 2-3 semaines requises et coûte cher.
+
+**Le problème de la récurrence.** C'est le défi central. Le SIBO répond au traitement, mais si la dysfonction motilité sous-jacente n'est pas adressée, il revient. Chez les patients EM/SFC, la dysfonction vagale qui a causé le SIBO fait partie de la maladie. Le SIBO est une conséquence en aval, pas la cause racine. Le traitement apporte un soulagement — parfois un soulagement dramatique — mais la maintenance est requise.
+
+Les agents prokinétiques (érythromycine à faible dose, prucalopride) stimulent le CMM et réduisent la récurrence. L'espacement des repas — permettre 4 à 5 heures entre les repas pour permettre le cycle du CMM — est une intervention non pharmacologique simple que de nombreux patients EM/SFC trouvent utile.
+
+---
+
+## Pourquoi cela compte spécifiquement pour l'EM/SFC
+
+Un patient avec EM/SFC et SIBO non traité a deux drains d'énergie fonctionnant simultanément : la maladie elle-même et le parasitisme bactérien dans son intestin grêle. Le SIBO vole des nutriments dont les mitochondries compromises ont besoin. Il produit du H₂S qui inhibe davantage ces mitochondries. Il pilote l'inflammation intestinale qui active le système immunitaire, consommant encore plus d'énergie. Et il cause des symptômes post-prandiaux que le patient et son médecin attribuent à « juste l'EM/SFC ».
+
+Traiter le SIBO ne guérit pas l'EM/SFC. Mais il retire un fardeau significatif et traitable d'un système déjà à sa limite. Les patients dont le SIBO a été traité avec succès rapportent des améliorations significatives de la fatigue, de la fonction cognitive et des symptômes post-prandiaux — non parce que l'EM/SFC est causée par le SIBO, mais parce que le SIBO aggravait tout.
+
+La question à poser n'est pas « le SIBO pourrait-il causer tout cela ? » C'est rarement le cas. La question est « le SIBO pourrait-il rendre tout cela 20-30 % pire ? » Chez un patient dont la marge d'énergie se mesure en pourcentages, 20-30 % est la différence entre être confiné à la maison et pouvoir sortir de chez soi.
+
+Tout patient EM/SFC avec des symptômes gastro-intestinaux — ballonnements, fatigue post-prandiale, intolérances alimentaires, habitudes intestinales alternées — devrait être testé pour le SIBO. Le test respiratoire coûte moins de 100 €. Le traitement, s'il est positif, est un traitement de deux semaines d'un antibiotique bien toléré. Le retour potentiel sur un test de 100 € et une ordonnance de 50 € est une amélioration mesurable du budget énergétique d'un patient qui ne peut pas se permettre de gaspiller un seul pourcent [@Loth2026mecfs].
+
+---

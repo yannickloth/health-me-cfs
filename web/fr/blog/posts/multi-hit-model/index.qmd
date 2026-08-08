@@ -1,0 +1,87 @@
+---
+title: "Pourquoi seuls certains développent l'EM/SFC après une infection"
+description: "Dans les mois qui suivent une vague de COVID-19, une fraction des individus infectés développe un COVID long. Parmi ceux-ci, un sous-ensemble — distingué, jusqu'à présent, seulement imparfaitement du reste — progresse vers ce qui répond pleinement aux critères de l'EM/SFC. La fraction n'est pas petite, m..."
+author: "Yannick Loth"
+date: "2026-04-26"
+categories: [Modélisation, Épidémiologie, Physiopathologie]
+lang: fr
+---
+
+Dans les mois qui suivent une vague de COVID-19, une fraction des individus infectés développe un COVID long. Parmi ceux-ci, un sous-ensemble — distingué, jusqu'à présent, seulement imparfaitement du reste — progresse vers ce qui répond pleinement aux critères de l'EM/SFC. La fraction n'est pas petite, mais c'est une fraction. La plupart des personnes qui contractent le VEB, le HHV-6 ou le SARS-CoV-2 se rétablissent. Elles ne développent pas l'EM/SFC.
+
+C'est l'une des énigmes centrales de la maladie. Pourquoi, à partir de la même infection dans la même communauté, certaines personnes se rétablissent-elles complètement alors que d'autres non ? L'infection ne peut pas être la réponse entière. Autre chose distingue ceux qui basculent de ceux qui ne basculent pas.
+
+---
+
+## Une frontière, pas une falaise
+
+Le cadre des systèmes dynamiques développé aux chapitres 16 et 33 propose une réponse spécifique fondée sur le concept de séparatrice — la frontière dans l'espace d'états qui sépare le bassin de l'attracteur sain des bassins des attracteurs de maladie [Ch. 33 §Analyse de suffisance de déclenchement].
+
+Pensez-y comme à une crête de partage des eaux. La pluie qui tombe d'un côté s'écoule vers une vallée ; la pluie de l'autre côté s'écoule ailleurs. En termes physiologiques, une personne dont les paramètres de base la placent bien à l'intérieur du bassin sain peut absorber une infection significative et revenir à la santé : la perturbation pousse le système vers la frontière mais pas au-delà, et les forces de restauration le ramènent. Une personne dont les paramètres la placent déjà près de la séparatrice n'a besoin que d'une petite poussée supplémentaire. La même infection, des résultats différents.
+
+L'explication du modèle pour savoir pourquoi seuls certains développent l'EM/SFC après une infection est que la différence ne réside pas principalement dans l'infection elle-même mais dans l'endroit où la ligne de base de chaque personne la place déjà, par rapport à la séparatrice, avant l'arrivée du déclencheur [Ch. 16 §Mécanismes capables de déclenchement].
+
+---
+
+## Ce qui referme l'écart
+
+Plusieurs facteurs peuvent déplacer la position de base d'une personne vers la frontière sans produire de maladie manifeste [Ch. 31 §Événements déclencheurs] :
+
+La variation génétique affectant l'efficacité du Complexe I mitochondrial, la fonction des cellules NK et la susceptibilité auto-immune liée aux HLA peut placer les individus plus près du seuil dès la naissance. Ces variantes ne provoquent pas l'EM/SFC en l'absence d'un déclencheur ; elles réduisent la marge de rétablissement lorsqu'un déclencheur arrive [Ch. 33 §Scénarios à coups multiples et interactions de déclencheurs].
+
+Une auto-immunité antérieure — formation subclinique d'autoanticorps avant tout déclencheur d'EM/SFC — est un autre facteur prédisposant. Le modèle estime le seuil critique d'autoanticorps à environ 0,55–0,65 (normalisé), ce qui signifie que les patients avec des autoanticorps GPCR circulants déjà élevés à la suite d'événements immunitaires antérieurs peuvent être dans un état où même une agression infectieuse modérée suffit à franchir la séparatrice [Ch. 33 §Analyse de la cascade d'autoanticorps GPCR].
+
+La canalopathie TRPM3 mérite une mention séparée. TRPM3 est un canal ionique perméable au calcium impliqué dans l'activation des cellules NK et la fonction des neurones sensoriels. Les polymorphismes qui réduisent la fonction TRPM3 ne semblent pas, à eux seuls, suffire pour déclencher — ils ne pilotent pas indépendamment le système vers l'état de maladie. Mais ils sont le facteur prédisposant le plus fort du cadre : le coefficient d'interaction TRPM3–Complexe I est de 0,45, ce qui signifie que la dysfonction TRPM3 abaisse substantiellement le seuil pour les autres déclencheurs [Ch. 33 §Scénarios à coups multiples et interactions de déclencheurs].
+
+---
+
+## Comment les vulnérabilités sous-seuil se combinent
+
+La question est de savoir comment ces perturbations sous-seuil se combinent. Pour deux mécanismes, la condition de déclenchement combinée est [Ch. 33 §Scénarios à coups multiples, Équation multi-coups] :
+
+> (perturbation_i / seuil_i) + (perturbation_j / seuil_j) + γ_ij × (perturbation_i / seuil_i) × (perturbation_j / seuil_j) ≥ 1
+
+où γ_ij est le coefficient d'interaction. Si γ_ij est positif, les mécanismes sont synergiques — le seuil combiné est inférieur à la somme des contributions individuelles, ce qui signifie qu'il faut moins de chacun. Si γ_ij est nul, ils sont simplement additifs.
+
+Tous les coefficients d'interaction par paires estimés à partir du modèle sont positifs — et tous sont des estimations heuristiques issues de l'analyse qualitative de couplage, non des calculs numériques formels [Ch. 33 §Scénarios à coups multiples et interactions de déclencheurs]. La synergie la plus forte se situe entre la réduction du Complexe I et les autoanticorps GPCR (γ_CI,AAb = 0,55), ce qui a un sens biologique : tous deux convergent sur le même goulot d'étranglement, la production d'ATP dépendante de l'oxygène. Les autoanticorps réduisent l'apport d'oxygène par dysfonction endothéliale ; la réduction du Complexe I altère son utilisation. Une personne avec une efficacité du Complexe I modérément réduite et des autoanticorps GPCR modérément élevés — ni l'un ni l'autre suffisant seul — peut être poussée à travers la séparatrice par une infection qui laisserait chaque vulnérabilité isolée loin d'être dangereuse.
+
+La même réserve s'applique aux valeurs de seuil : le seuil d'autoanticorps de 0,55–0,65 (normalisé) et le coefficient TRPM3–Complexe I de 0,45 sont des approximations dérivées du modèle nécessitant une analyse complète de bifurcation numérique pour être confirmées [Ch. 33 §Estimations des coefficients d'interaction].
+
+---
+
+## Ce que les études de Dubbo ont montré
+
+Cela explique un schéma qui a été documenté mais incomplètement compris. L'apparition de l'EM/SFC est le plus souvent déclenchée par des infections, mais seule une petite fraction des individus infectés développe l'EM/SFC [@Hickie2006postinfectious; @Chu2019onsetPatterns]. Les études de cohorte prospectives — les études d'infection de Dubbo étant les plus claires — ont suivi des individus à travers une maladie infectieuse aiguë et ont suivi qui développait des syndromes de fatigue post-infectieux. Le tableau est mitigé : la sévérité de la maladie aiguë était le prédicteur unique le plus fort à Dubbo [@Hickie2006postinfectious], suggérant que l'intensité de l'infection compte aussi, pas seulement la ligne de base. Mais les facteurs de risque associés à la conversion incluaient également l'état de santé antérieur : fatigue préexistante, événements de stress antérieurs, autres vulnérabilités. Le cadre multi-coups est cohérent avec les deux : la sévérité aiguë détermine la taille de la perturbation ; la position de base détermine la quantité de perturbation nécessaire [Ch. 33 §Cadre multi-coups — Implication épidémiologique].
+
+L'explication du modèle — et c'est une explication, pas un mécanisme établi — est que ceux qui développent l'EM/SFC correspondent à la fraction de la population exposée dont les perturbations sous-seuil préexistantes les placent dans le régime multi-coups, assez près de la séparatrice pour que l'infection fournisse la poussée finale.
+
+Ce n'est pas une affirmation que certaines personnes sont simplement « moins résilientes » dans un sens vague. C'est une affirmation mécaniste spécifique : l'auto-immunité antérieure, la vulnérabilité mitochondriale, les polymorphismes TRPM3 et les stresseurs cumulatifs antérieurs sont le substrat sur lequel agit le déclencheur. Le même déclencheur est plus dangereux pour un système déjà positionné près de la frontière.
+
+---
+
+## De « qui l'attrape » à « qui est à risque »
+
+Le cadre multi-coups déplace la question de « quels pathogènes causent l'EM/SFC » vers « qui est à risque, et qu'est-ce qui réduit ce risque ».
+
+Si la formation d'autoanticorps préexistante, la dysfonction TRPM3 et l'altération du Complexe I sont les vulnérabilités prédisposantes, alors celles-ci sont, en principe, mesurables. Pas actuellement dans la pratique clinique de routine — les dosages sont de qualité recherche et les valeurs de seuil dérivées de modèles, non validées empiriquement — mais le cadre prédit que ces biomarqueurs stratifieraient le risque post-infectieux mieux que les seules caractéristiques du pathogène.
+
+Il prédit aussi que le coup de l'infection n'est pas binaire : les infections sous-seuil qui ne déclenchent pas l'EM/SFC peuvent quand même déplacer le système incrémentalement plus près de la séparatrice — érodant la marge sans la franchir. Le schéma multi-coups observé cliniquement, où les patients rapportent des infections ou des stresseurs antérieurs dont ils se sont « rétablis », peut refléter une série de telles approches de la frontière, chacune laissant le système légèrement plus précaire, jusqu'à ce qu'un coup de plus soit suffisant [Ch. 31 §Échec des mécanismes de rétablissement].
+
+Une intervention précoce après un premier coup potentiel — avant que les dommages sous-seuil ne s'accumulent et avant que la consolidation épigénétique ne commence — est ce que le modèle suggère serait le plus efficace. Cette prédiction est discutée plus en détail dans le prochain article de cette série.
+
+---
+
+## Ce que cela est et n'est pas
+
+Ce cadre est ancré dans l'analyse formelle d'un modèle ODE à 67 variables qui n'a pas été validé indépendamment. Les coefficients d'interaction sont dérivés d'une analyse de sous-système réduit avec des éléments heuristiques ; les valeurs de seuil nécessitent une analyse complète de bifurcation numérique pour être confirmées. Les attributions de facteurs prédisposants sont argumentées mécaniquement mais pas encore testées empiriquement dans des études de cohorte prospectives [Ch. 33 §Scénarios à coups multiples et interactions de déclencheurs].
+
+Ce que le cadre fournit, c'est une explication structurelle — non pas une histoire de « certaines personnes sont simplement malchanceuses », mais un compte rendu spécifique des vulnérabilités préexistantes qui comptent, de la manière dont elles se combinent et de ce que cette combinaison implique pour la stratification du risque et la prévention. Ce n'est pas la seule explication candidate : les modèles de persistance virale, dans lesquels la signalisation résiduelle induite par le pathogène maintient l'état de maladie indépendamment de la vulnérabilité préexistante, font des prédictions différentes et sont étudiés en parallèle. Les modèles multi-coups et de persistance ne sont pas mutuellement exclusifs — les deux peuvent opérer chez différents patients ou à différentes phases de la maladie — mais ils ont des implications distinctes pour le moment d'une intervention précoce.
+
+Certitude : 0,35–0,45. Le principe multi-coups est bien soutenu par l'observation épidémiologique ; les coefficients d'interaction et les valeurs de seuil spécifiques sont des approximations dérivées de modèles.
+
+---
+
+
+*Article précédent de cette série : [Murs porteurs contre murs intérieurs](https://www.linkedin.com/pulse/) (2026-04-13)*
+
+*Suivant : Une fenêtre de traitement précoce — l'horloge épigénétique qui détermine combien de temps la fenêtre reste ouverte*

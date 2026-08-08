@@ -1,0 +1,87 @@
+---
+title: "Warum nur manche Menschen nach einer Infektion ME/CFS bekommen"
+description: "In den Monaten nach einer COVID-19-Welle entwickelt ein Teil der infizierten Personen Long COVID. Von diesen geht eine Untergruppe — bislang nur unvollkommen von den übrigen unterschieden — in das über, was die vollständigen ME/CFS-Kriterien erfüllt. Der Anteil ist nicht klein, a..."
+author: "Yannick Loth"
+date: "2026-04-26"
+categories: [Modellierung, Epidemiologie, Pathophysiologie]
+lang: de
+---
+
+In den Monaten nach einer COVID-19-Welle entwickelt ein Teil der infizierten Personen Long COVID. Von diesen geht eine Untergruppe — bislang nur unvollkommen von den übrigen unterschieden — in das über, was die vollständigen ME/CFS-Kriterien erfüllt. Der Anteil ist nicht klein, aber es ist ein Anteil. Die meisten Menschen, die EBV, HHV-6 oder SARS-CoV-2 bekommen, erholen sich. Sie entwickeln kein ME/CFS.
+
+Das ist eines der zentralen Rätsel der Krankheit. Warum erholen sich bei derselben Infektion in derselben Gemeinschaft manche Menschen vollständig und andere nicht? Die Infektion kann nicht die ganze Antwort sein. Etwas anderes unterscheidet diejenigen, die umkippen, von denen, die es nicht tun.
+
+---
+
+## Eine Grenze, keine Klippe
+
+Das in den Kapiteln 16 und 33 entwickelte Rahmenwerk dynamischer Systeme schlägt eine spezifische Antwort vor, die auf dem Konzept der Separatrix beruht — der Grenze im Zustandsraum, die das Becken des gesunden Attraktors von den Becken der Krankheitsattraktoren trennt [Kap. 33 §Trigger-Suffizienz-Analyse].
+
+Denken Sie daran wie an einen Wasserscheidengrat. Regen, der auf der einen Seite fällt, fließt in ein Tal; Regen auf der anderen Seite fließt woanders hin. In physiologischer Hinsicht kann eine Person, deren Baselinesparameter deutlich innerhalb des gesunden Beckens liegen, eine erhebliche Infektion absorbieren und zur Gesundheit zurückkehren: Die Störung schiebt das System in Richtung Grenze, aber nicht darüber hinaus, und die Wiederherstellungskräfte ziehen es zurück. Eine Person, deren Parameter sie bereits nahe der Separatrix platzieren, braucht nur einen kleinen zusätzlichen Stoß. Dieselbe Infektion, unterschiedliche Ergebnisse.
+
+Die Erklärung des Modells dafür, warum nur manche Menschen nach einer Infektion ME/CFS entwickeln, ist, dass der Unterschied nicht primär in der Infektion selbst liegt, sondern darin, wo die Baseline jede Person bereits positioniert, relativ zur Separatrix, bevor der Auslöser eintrifft [Kap. 16 §Trigger-fähige Mechanismen].
+
+---
+
+## Was den Abstand schließt
+
+Mehrere Faktoren können die Basisposition einer Person in Richtung Grenze verschieben, ohne offensichtliche Krankheit zu erzeugen [Kap. 31 §Auslöseereignisse]:
+
+Genetische Variation, die die Effizienz des mitochondrialen Komplex I, die NK-Zellfunktion und HLA-verknüpfte autoimmune Anfälligkeit betrifft, kann Individuen von Geburt an näher an die Schwelle bringen. Diese Varianten verursachen kein ME/CFS ohne einen Auslöser; sie verengen die Marge für die Erholung, wenn ein Auslöser eintrifft [Kap. 33 §Multi-Hit-Szenarien und Triggerinteraktionen].
+
+Vorherige Autoimmunität — subklinische Autoantikörperbildung vor jedem ME/CFS-Auslöser — ist ein weiterer prädisponierender Faktor. Das Modell schätzt die kritische Autoantikörperschwelle auf etwa 0,55–0,65 (normalisiert), was bedeutet, dass Patienten mit zirkulierenden GPCR-Autoantikörpern, die bereits durch frühere Immunereignisse erhöht sind, sich in einem Zustand befinden können, in dem selbst ein mäßiger infektiöser Angriff ausreicht, um die Separatrix zu überschreiten [Kap. 33 §GPCR-Autoantikörper-Kaskaden-Analyse].
+
+Die TRPM3-Kanalopathie verdient eine gesonderte Erwähnung. TRPM3 ist ein kalziumdurchlässiger Ionenkanal, der an der NK-Zellaktivierung und der Funktion sensorischer Neuronen beteiligt ist. Polymorphismen, die die TRPM3-Funktion reduzieren, scheinen für sich allein genommen nicht trigger-suffizient zu sein — sie treiben das System nicht unabhängig in den Krankheitszustand. Aber sie sind der stärkste prädisponierende Faktor im Rahmenwerk: Der TRPM3-Komplex-I-Interaktionskoeffizient beträgt 0,45, was bedeutet, dass die TRPM3-Dysfunktion die Schwelle für andere Auslöser erheblich senkt [Kap. 33 §Multi-Hit-Szenarien und Triggerinteraktionen].
+
+---
+
+## Wie sich subschwellige Verletzlichkeiten kombinieren
+
+Die Frage ist, wie sich diese subschwelligen Störungen kombinieren. Für zwei Mechanismen lautet die kombinierte Triggerbedingung [Kap. 33 §Multi-Hit-Szenarien, Gleichung Multi-Hit]:
+
+> (Störung_i / Schwelle_i) + (Störung_j / Schwelle_j) + γ_ij × (Störung_i / Schwelle_i) × (Störung_j / Schwelle_j) ≥ 1
+
+wobei γ_ij der Interaktionskoeffizient ist. Wenn γ_ij positiv ist, sind die Mechanismen synergistisch — die kombinierte Schwelle ist niedriger als die Summe der individuellen Beiträge, es wird also weniger von jedem benötigt. Wenn γ_ij null ist, sind sie einfach additiv.
+
+Alle aus dem Modell geschätzten paarweisen Interaktionskoeffizienten sind positiv — und alle sind heuristische Schätzungen aus qualitativer Kopplungsanalyse, keine formale numerische Berechnung [Kap. 33 §Multi-Hit-Szenarien und Triggerinteraktionen]. Die stärkste Synergie besteht zwischen der Komplex-I-Reduktion und GPCR-Autoantikörpern (γ_CI,AAb = 0,55), was biologisch sinnvoll ist: Beide konvergieren auf denselben Engpass, die sauerstoffabhängige ATP-Produktion. Autoantikörper reduzieren die Sauerstoffabgabe durch endotheliale Dysfunktion; die Komplex-I-Reduktion beeinträchtigt ihre Nutzung. Eine Person mit mäßig reduzierter Komplex-I-Effizienz und mäßig erhöhten GPCR-Autoantikörpern — keines allein ausreichend — kann durch eine Infektion über die Separatrix getrieben werden, die jede Verletzlichkeit isoliert weit von Gefahr entfernt lassen würde.
+
+Dieselbe Einschränkung gilt für die Schwellenwerte: Die Autoantikörperschwelle von 0,55–0,65 (normalisiert) und der TRPM3-Komplex-I-Koeffizient von 0,45 sind modellabgeleitete Näherungen, die eine vollständige numerische Bifurkationsanalyse zur Bestätigung erfordern [Kap. 33 §Interaktionskoeffizienten-Schätzungen].
+
+---
+
+## Was die Dubbo-Studien zeigten
+
+Dies erklärt ein Muster, das dokumentiert, aber unvollständig verstanden wurde. Der ME/CFS-Beginn wird am häufigsten durch Infektionen ausgelöst, aber nur ein kleiner Teil der infizierten Personen entwickelt ME/CFS [@Hickie2006postinfectious; @Chu2019onsetPatterns]. Prospektive Kohortenstudien — die Dubbo-Infektionsstudien sind die klarsten — verfolgten Individuen durch akute Infektionskrankheiten und beobachteten, wer postinfektiöse Erschöpfungssyndrome entwickelte. Das Bild ist gemischt: Die Schwere der akuten Erkrankung war in Dubbo der stärkste einzelne Prädiktor [@Hickie2006postinfectious], was nahelegt, dass auch die Intensität der Infektion zählt, nicht nur die Baseline. Aber die mit der Konversion verbundenen Risikofaktoren umfassten auch den früheren Gesundheitszustand: vorbestehende Erschöpfung, frühere Stressereignisse, andere Verletzlichkeiten. Das Multi-Hit-Rahmenwerk ist mit beiden konsistent: Die Akutschwere bestimmt die Größe der Störung; die Basisposition bestimmt, wie viel Störung benötigt wird [Kap. 33 §Multi-Hit-Rahmenwerk — Epidemiologische Implikation].
+
+Die Erklärung des Modells — und es ist eine Erklärung, kein etablierter Mechanismus — ist, dass diejenigen, die ME/CFS entwickeln, dem Teil der exponierten Bevölkerung entsprechen, dessen vorbestehende subschwellige Störungen sie in das Multi-Hit-Regime platzieren, nahe genug an der Separatrix, dass die Infektion den letzten Stoß liefert.
+
+Dies ist keine Aussage, dass manche Menschen in vagen Sinne einfach „weniger widerstandsfähig" sind. Es ist eine spezifische mechanistische Behauptung: Vorherige Autoimmunität, mitochondriale Verletzlichkeit, TRPM3-Polymorphismen und kumulative frühere Stressoren sind das Substrat, auf dem der Auslöser wirkt. Derselbe Auslöser ist für ein System, das bereits nahe der Grenze positioniert ist, gefährlicher.
+
+---
+
+## Von „wer es bekommt" zu „wer gefährdet ist"
+
+Das Multi-Hit-Rahmenwerk verschiebt die Frage von „welche Erreger verursachen ME/CFS" zu „wer ist gefährdet, und was reduziert dieses Risiko".
+
+Wenn vorbestehende Autoantikörperbildung, TRPM3-Dysfunktion und Komplex-I-Beeinträchtigung die prädisponierenden Verletzlichkeiten sind, dann sind diese prinzipiell messbar. Derzeit nicht in der klinischen Routinepraxis — die Assays sind Forschungsqualität und die Schwellenwerte modellabgeleitet, nicht empirisch validiert —, aber das Rahmenwerk sagt voraus, dass diese Biomarker das postinfektiöse Risiko besser stratifizieren würden als die Erregereigenschaften allein.
+
+Es sagt auch voraus, dass der Treffer der Infektion nicht binär ist: Subschwellige Infektionen, die kein ME/CFS auslösen, könnten das System dennoch inkrementell näher an die Separatrix bewegen — die Marge erodieren, ohne sie zu überschreiten. Das klinisch beobachtete Multi-Hit-Muster, bei dem Patienten frühere Infektionen oder Stressoren berichten, von denen sie sich „erholt" haben, könnte eine Reihe solcher Grenzannahäherungen widerspiegeln, die das System jeweils etwas prekärer zurücklassen, bis ein weiterer Treffer ausreicht [Kap. 31 §Versagen der Erholungsmechanismen].
+
+Frühe Intervention nach einem potenziellen ersten Treffer — bevor sich subschwelliger Schaden anhäuft und bevor epigenetische Konsolidierung beginnt — ist, was das Modell als am wirksamsten nahelegt. Diese Vorhersage wird im nächsten Artikel dieser Serie ausführlicher diskutiert.
+
+---
+
+## Was dies ist und nicht ist
+
+Dieses Rahmenwerk gründet auf der formalen Analyse eines ODE-Modells mit 67 Variablen, das nicht unabhängig validiert wurde. Die Interaktionskoeffizienten sind aus reduzierter Teilsystemanalyse mit heuristischen Elementen abgeleitet; die Schwellenwerte erfordern eine vollständige numerische Bifurkationsanalyse zur Bestätigung. Die Zuordnungen prädisponierender Faktoren sind mechanistisch argumentiert, aber in prospektiven Kohortenstudien noch nicht empirisch getestet [Kap. 33 §Multi-Hit-Szenarien und Triggerinteraktionen].
+
+Was das Rahmenwerk liefert, ist eine strukturelle Erklärung — keine „manche Menschen haben einfach Pech"-Geschichte, sondern eine spezifische Darstellung, welche vorbestehenden Verletzlichkeiten zählen, wie sie sich kombinieren und was diese Kombination für Risikostratifizierung und Prävention impliziert. Dies ist nicht die einzige Kandidatenerklärung: Virale Persistenzmodelle, in denen residuale erregergetriebene Signalgebung den Krankheitszustand unabhängig von vorbestehender Verletzlichkeit aufrechterhält, machen andere Vorhersagen und werden parallel untersucht. Die Multi-Hit- und Persistenzmodelle schließen sich nicht gegenseitig aus — beide können bei verschiedenen Patienten oder in verschiedenen Krankheitsphasen wirken —, aber sie haben unterschiedliche Implikationen für das Timing der Frühintervention.
+
+Sicherheit: 0,35–0,45. Das Multi-Hit-Prinzip wird durch epidemiologische Beobachtung gut gestützt; die spezifischen Interaktionskoeffizienten und Schwellenwerte sind modellabgeleitete Näherungen.
+
+---
+
+
+*Vorheriger Artikel dieser Serie: [Tragende Wände vs. Innenwände](https://www.linkedin.com/pulse/) (2026-04-13)*
+
+*Nächster: Ein frühes Behandlungsfenster — die epigenetische Uhr, die bestimmt, wie lange das Fenster offen bleibt*

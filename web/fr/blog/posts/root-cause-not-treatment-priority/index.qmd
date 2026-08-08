@@ -1,0 +1,55 @@
+---
+title: "Cause racine ≠ priorité de traitement"
+description: "Le mécanisme le plus fondamentalement causal dans l'EM/SFC n'est pas nécessairement la meilleure cible de traitement. Cela semble faux au premier abord. Sûrement que la cause la plus en amont mérite l'intervention la plus agressive ? La logique se décompose de trois manières distinctes, et..."
+author: "Yannick Loth"
+date: "2026-04-16"
+categories: [Hiérarchie causale, Traitement]
+lang: fr
+---
+
+Le mécanisme le plus fondamentalement causal dans l'EM/SFC n'est pas nécessairement la meilleure cible de traitement. Cela semble faux au premier abord. Sûrement que la cause la plus en amont mérite l'intervention la plus agressive ? La logique se décompose de trois manières distinctes, et comprendre pourquoi a des conséquences réelles pour la manière dont vous pensez la stratégie de traitement.
+
+---
+
+## Trois raisons pour lesquelles la cause racine et la priorité de traitement divergent
+
+La première est que la cause racine peut ne plus être présente. La plupart des patients EM/SFC sont diagnostiqués des années après l'apparition. L'événement déclencheur — une infection virale, une période de stress physiologique extrême, une chirurgie — s'est résolu il y a longtemps ; le virus a été éliminé, le stresseur a pris fin et la plaie a guéri. Pourtant, la maladie persiste, parce que les mécanismes amplificateurs que le déclencheur a mis en marche sont devenus auto-entretenus. La cause d'origine est partie ; les verrous qu'elle a établis restent. Dans cette situation, traiter le déclencheur d'origine n'aboutit à rien, puisqu'il n'est plus actif. La question cliniquement pertinente n'est pas « qu'est-ce qui a causé votre EM/SFC ? » mais « qu'est-ce qui la maintient maintenant ? » Ce peuvent être des réponses très différentes [Ch. 16 §Implications thérapeutiques de la hiérarchie causale].
+
+La deuxième raison est que la cause la plus en amont peut être la moins accessible. Le métabolisme énergétique du SNC ne peut pas être directement restauré avec les thérapeutiques disponibles. Vous ne pouvez pas injecter d'ATP dans le cerveau, réparer pharmacologiquement le couplage neurovasculaire avec une précision ciblée, ni inverser l'activation microgliale sans immunosuppression large. Le mécanisme le plus fondamentalement causal, s'il s'agit de la crise énergétique du SNC, est aussi le moins atteignable thérapeutiquement avec les outils actuels [Ch. 16 §Implications thérapeutiques de la hiérarchie causale]. En attendant, des amplificateurs en aval comme l'activation mastocytaire (accessible avec des antihistaminiques et des stabilisateurs de mastocytes, avec des profils de sécurité établis et un début d'action rapide [Ch. 16 §Boucle mastocyte-énergie]) ou la déplétion en NAD⁺ (accessible avec une supplémentation en NR/NMN [Ch. 16 §Spirale de déplétion en NAD⁺]) sont accessibles maintenant. Leur rang causal peut être inférieur, mais leur rang thérapeutique peut être plus élevé précisément parce qu'on peut les atteindre.
+
+La troisième raison est que les traitements à mécanisme unique échouent par conception dans une maladie à verrous multiples. Même si une cause racine est à la fois actuellement active et thérapeutiquement accessible, la traiter seule peut échouer. L'EM/SFC est maintenue par plusieurs processus auto-renforçants simultanément ; adressez-en un et les autres maintiennent l'état de maladie indépendamment. La récupération exige de libérer suffisamment de verrous à la fois pour que les restants ne puissent plus retenir le système [Ch. 16 §Implications thérapeutiques de la hiérarchie causale]. La question pertinente n'est jamais « quel mécanisme unique devrions-nous cibler ? » mais « quelle combinaison de mécanismes, adressée simultanément, permet l'échappement de l'attracteur de maladie ? »
+
+---
+
+## La priorité de traitement comme produit de deux axes
+
+La priorité de traitement devrait être déterminée par le produit de l'importance causale et de la tractabilité thérapeutique, pas par l'importance causale seule [Ch. 16 §Implications thérapeutiques de la hiérarchie causale]. Un mécanisme hautement causal mais actuellement inaccessible a une priorité de traitement faible — vous ne pouvez pas traiter ce que vous ne pouvez pas atteindre. Un mécanisme modérément causal mais hautement tractable peut se classer plus haut parce qu'il contribue à la combinaison nécessaire pour l'échappement de la maladie et qu'on peut agir dessus maintenant.
+
+Appliquer ce raisonnement à la classification complète des mécanismes du Ch. 16 [§Tableau des priorités de traitement] produit un classement qui diverge substantiellement de la hiérarchie causale. La cascade d'autoanticorps GPCR se classe première : c'est une cause racine avec une tractabilité modérée à élevée, puisque l'immunoadsorption et le daratumumab démontrent une faisabilité en conditions réelles et le taux de réponse de 60 % dans le pilote daratumumab est parmi les plus élevés rapportés pour toute intervention EM/SFC [Ch. 16 §Cascade d'autoanticorps GPCR]. La boucle d'activation mastocytaire se classe deuxième, non parce qu'elle est causalement primaire mais parce que les antihistaminiques et les stabilisateurs de mastocytes sont sûrs, largement disponibles et produisent un soulagement symptomatique rapide, et parce que stabiliser cette boucle améliore immédiatement la qualité de vie pendant que des traitements plus lents et plus fondamentaux structurellement prennent effet. La déplétion en NAD⁺ se classe troisième : la supplémentation en NR/NMN adresse un amplificateur clé de la défaillance énergétique, et les bénéfices s'accumulent sur des semaines sans préoccupations de sécurité significatives.
+
+La consolidation épigénétique se classe quatrième, ce qui est notable parce que c'est un amplificateur porteur de charge difficile à adresser avec les outils actuels [Ch. 16 §Consolidation épigénétique, §Verrous porteurs de charge contre verrous secondaires]. L'implication la plus pratique est la prévention : une intervention précoce, avant que la consolidation ne s'approfondisse, est bien plus faisable que l'inversion d'une consolidation établie, et cela plaide pour un traitement précoce agressif plutôt qu'une approche attentiste.
+
+La crise énergétique du SNC, classée comme le mécanisme le plus causalement important de tout le cadre, apparaît en septième position. Aucune intervention actuelle ne peut l'adresser directement et sélectivement ; la photobiomodulation transcrânienne, l'insuline intranasale et l'oxygénothérapie hyperbare sont toutes expérimentales avec des données spécifiques limitées à l'EM/SFC.
+
+---
+
+## Pourquoi le mécanisme le plus important se classe septième
+
+L'importance causale et la tractabilité thérapeutique sont des axes orthogonaux. Un mécanisme peut occuper la position la plus importante sur l'un et une position médiocre sur l'autre, et la stratégie de traitement doit naviguer sur les deux. La crise énergétique du SNC se classant septième n'est pas une erreur dans le raisonnement ; c'est le propos.
+
+Cela ne signifie pas que les approches ciblant le SNC devraient être abandonnées. Cela signifie qu'elles appartiennent plus bas dans la séquence de traitement immédiate. En pratique, la séquence devrait se dérouler à peu près ainsi : commencer par des interventions tractables qui fournissent un soulagement symptomatique immédiat, ajouter des interventions ciblant la cause racine là où le mécanisme est probablement encore actif et accessible, et incorporer des approches expérimentales ciblant des mécanismes de faible tractabilité à mesure que la base de preuves se développe.
+
+---
+
+## Ce que cela prédit sur les essais cliniques
+
+Le même raisonnement explique un schéma qui a frustré la recherche sur le traitement de l'EM/SFC pendant des décennies : la déception quasi universelle des essais à cible unique. Si la maladie est à verrous multiples, et si la bonne priorité de traitement est « accessible et combinable » plutôt que « le plus causalement en amont », alors un essai testant un seul agent hautement causal contre placebo est presque structurellement garanti de produire un résultat modeste ou nul. Non parce que l'agent ne fonctionne pas, mais parce que la conception de l'essai teste une intervention unique contre une maladie qui ne peut pas être déplacée par des interventions uniques [Ch. 16 §Implications de recherche].
+
+Le cadre le prédit. Il suggère aussi à quoi ressemblerait une conception d'essai plus productive : stratifier par mécanisme actif, combiner des interventions ciblant différentes parties de l'architecture des verrous, et mesurer non seulement l'amélioration des symptômes mais les changements dans la trajectoire de la maladie [Ch. 16 §Implications de recherche].
+
+---
+
+
+*Article précédent de cette série : [Murs porteurs contre murs intérieurs](https://www.linkedin.com/pulse/) (2026-04-13)*
+
+*Suivant : Pourquoi les traitements à cible unique continuent d'échouer dans l'EM/SFC — le modèle du piège à verrous multiples et ce qu'il prédit sur la conception des traitements*

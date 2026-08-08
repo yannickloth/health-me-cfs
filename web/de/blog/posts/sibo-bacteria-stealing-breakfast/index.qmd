@@ -1,0 +1,94 @@
+---
+title: "SIBO: Die Bakterien, die Ihr Frühstück stehlen"
+description: "Der Dünndarm soll relativ steril sein. Der Dickdarm — das Kolon — ist eine mikrobielle Metropole, die Billionen von Bakterien beherbergt, die Ballaststoffe fermentieren, Vitamine produzieren und das mukosale Immunsystem aufrechterhalten. Der Dünndarm, stromaufwärts, ist der Ort, wo Sie tatsächlich Ihre Nährstoffe absorbieren..."
+author: "Yannick Loth"
+date: "2026-06-19"
+categories: [Darmmikrobiom, Behandlung]
+lang: de
+---
+
+Der Dünndarm soll relativ steril sein. Der Dickdarm — das Kolon — ist eine mikrobielle Metropole, die Billionen von Bakterien beherbergt, die Ballaststoffe fermentieren, Vitamine produzieren und das mukosale Immunsystem aufrechterhalten. Der Dünndarm, stromaufwärts, ist der Ort, wo Sie tatsächlich Ihre Nährstoffe absorbieren: Eisen, B12, Folat, fettlösliche Vitamine, Aminosäuren, Zucker. Er muss relativ frei von Bakterien sein, damit dies funktioniert. Eine muskuläre Welle namens migrierender motorischer Komplex (MMC) fegt zwischen den Mahlzeiten durch den Dünndarm und schiebt Bakterien stromabwärts in das Kolon, wo sie hingehören.
+
+Wenn dieses System versagt — wenn Bakterien den Dünndarm in erheblicher Zahl besiedeln — essen sie Ihre Nahrung, bevor Sie sie absorbieren. Sie fermentieren Kohlenhydrate, die als Glukose hätten absorbiert werden sollen, und produzieren Wasserstoff-, Methan- und Schwefelwasserstoffgas. Sie verbrauchen B12 und Eisen. Sie beschädigen die Darmschleimhaut und beeinträchtigen die Absorption von allem anderen. Das Ergebnis ist Nährstoffmangel trotz angemessener Nahrungsaufnahme, Blähungen und Schmerzen nach jeder Mahlzeit und — weil Ihre Mitochondrien diese Nährstoffe zur Energieproduktion benötigen — Erschöpfung.
+
+Das ist eine Dünndarmfehlbesiedlung (Small Intestinal Bacterial Overgrowth, SIBO), und bei ME/CFS-Patienten ist es wahrscheinlich der häufigste behandelbare Beitrag zur Erschöpfung, der systematisch übersehen wird.
+
+---
+
+## Warum ME/CFS-Patienten leichte Ziele sind
+
+Der migrierende motorische Komplex wird vom Vagusnerv gesteuert. Der Vagusnerv ist bei ME/CFS dysfunktional. Das ist keine Spekulation — autonome Tests zeigen konsistent beeinträchtigten Vagustonus bei ME/CFS-Patienten ([@Newton2012]; [@Beaumont2012vagalCFS]).
+
+Der MMC feuert während des Fastens — zwischen den Mahlzeiten und während des nächtlichen Schlafs — und fegt den Dünndarm etwa alle 90 Minuten sauber. Wenn die vagale Kontrolle der Darmmotilität beeinträchtigt ist, sinkt die MMC-Frequenz. Der Reinigungszyklus verlangsamt sich. Bakterien, die normalerweise ins Kolon gespült würden, sammeln sich im Dünndarm. Je länger die vagale Dysfunktion anhält, desto größer die Überwucherung.
+
+ME/CFS-Patienten tendieren auch zu reduzierter körperlicher Aktivität (weil Aktivität PEM verursacht), was die Darmmotilität unabhängig verlangsamt. Viele nehmen Medikamente ein, die die Motilität weiter reduzieren: Opioide gegen Schmerzen, Anticholinergika gegen verschiedene Symptome, Protonenpumpenhemmer, die die Magensäure reduzieren (eine der ersten Verteidigungslinien des Körpers gegen Dünndarmbesiedlung).
+
+Das Setup ist ein perfekter Sturm: beeinträchtigter Vagustonus + reduzierte Aktivität + motilitätsverlangsamende Medikamente + reduzierte Magensäure = eine offene Tür für SIBO.
+
+---
+
+## Drei Arten von SIBO, drei verschiedene Probleme
+
+SIBO ist nicht eine einzige Bedingung. Das von den überwuchernden Bakterien erzeugte Gas bestimmt das Symptomprofil und die Behandlung.
+
+**Wasserstoffdominantes SIBO** ist der häufigste Typ. Bakterien fermentieren Kohlenhydrate und produzieren Wasserstoffgas. Die Symptome sind überwiegend durchfallbetont: Blähungen, Harndrang, weicher Stuhl, Bauchkrämpfe nach den Mahlzeiten. Der Wasserstoff selbst ist relativ harmlos — es sind die mechanischen und osmotischen Folgen der bakteriellen Fermentation, die Symptome verursachen.
+
+**Methandominantes SIBO** (zunehmend IMO genannt — Intestinal Methanogen Overgrowth) wird durch Archaeen (hauptsächlich Methanobrevibacter smithii) verursacht, die Wasserstoff verbrauchen und Methan produzieren. Methan verlangsamt direkt den Darmtransit — es hemmt die Kontraktion der glatten Muskulatur in der Darmwand [@Pimentel2006methaneTransit]. Das Ergebnis sind verstopfungsbetonte Symptome: Blähungen, seltene Stuhlgänge, Pressen, das Gefühl einer unvollständigen Entleerung. Methan-SIBO erzeugt einen Teufelskreis: Das Methan verlangsamt die Motilität, was die Überwucherung verschlimmert, was mehr Methan produziert.
+
+**Schwefelwasserstoffdominantes SIBO** ist der neueste anerkannte Typ. Sulfatreduzierende Bakterien (Desulfovibrio, Bilophila, Fusobacterium) verbrauchen Wasserstoff und produzieren H₂S. Diese Variante verdient eine eigene Diskussion — und einen eigenen Artikel in dieser Serie —, weil H₂S ein mitochondriales Gift ist. Es hemmt die Cytochrom-c-Oxidase (Komplex IV der Atmungskette) an derselben Bindungsstelle wie Zyanid. Ein Patient mit H₂S-dominantem SIBO absorbiert nicht nur Nährstoffe schlecht — seine Darmbakterien produzieren eine Verbindung, die die mitochondriale Energieproduktion direkt unterdrückt.
+
+---
+
+## Was SIBO stiehlt
+
+Der Nährstoffdiebstahl ist spezifisch und verheerend für ME/CFS-Patienten:
+
+**Eisen.** Bakterien im Dünndarm verbrauchen diätetisches Eisen und beschädigen die Duodenalschleimhaut, wo Eisen absorbiert wird. Ein Patient kann ausreichend diätetisches Eisen essen und trotzdem funktional eisenverarmt sein — nicht wegen eines Ernährungsmangels, sondern wegen kompetitiven Verbrauchs und Versagens der Absorption. Sein Ferritin fällt aus Gründen, die eine Ernährungsanamnese nicht aufdecken wird.
+
+**Vitamin B12.** Bakterien verbrauchen B12, bevor es das terminale Ileum erreicht, wo die Absorption stattfindet. B12-Mangel durch SIBO kann Erschöpfung, Neuropathie und kognitive Dysfunktion erzeugen — Symptome, die bei einem ME/CFS-Patienten der Krankheit selbst und nicht einer behandelbaren Ursache zugeschrieben werden.
+
+**Fettlösliche Vitamine (A, D, E, K).** Bakterielle Dekonjugation von Gallensäuren im Dünndarm beeinträchtigt die Fettabsorption und damit die Absorption fettlöslicher Vitamine. Ein Vitamin-D-Mangel bei einem ME/CFS-Patienten könnte nicht von unzureichender Sonnenexposition stammen — er könnte von einer Malabsorption stammen, die niemand getestet hat.
+
+**Kalorien.** Bakterielle Fermentation von Kohlenhydraten im Dünndarm leitet kalorisches Substrat um, das den Patienten hätte ernähren sollen. Der Patient fühlt sich nach dem Essen erschöpft, weil die Mahlzeit bakterielle Fermentation statt Nährstoffabsorption auslöste. Die Blähungen, das Gas und die postprandiale Erschöpfung sind nicht „funktionell" — sie sind das Ergebnis von Bakterien, die die Mahlzeit zuerst verbrauchen.
+
+---
+
+## Diagnose: unvollkommen, aber verfügbar
+
+Der Standard-Diagnosetest ist der Laktulose- oder Glukose-Atemtest. Der Patient trinkt eine Zuckerlösung, und ausgeatmeter Wasserstoff und Methan werden über 90–120 Minuten in Intervallen gemessen. Ein Anstieg von Wasserstoff oder Methan, bevor die Lösung das Kolon erreicht (typischerweise innerhalb von 90 Minuten), deutet auf bakterielle Fermentation im Dünndarm hin.
+
+Der Test hat bekannte Einschränkungen. Die Sensitivität ist mäßig — Studien berichten 60–70 % — und die Spezifität hängt von Interpretationskriterien ab, die zwischen Labors variieren [@Rezaie2017breathConsensus]. Falsch-negative Ergebnisse sind häufig, insbesondere für H₂S-dominantes SIBO, das bis vor kurzem mit Standard-Atemtests nicht messbar war (der Trio-Smart-Test misst nun alle drei Gase).
+
+Der Glukose-Atemtest ist spezifischer, aber weniger sensibel — Glukose wird im proximalen Dünndarm schnell absorbiert, daher kann er distales SIBO übersehen. Der Laktulose-Test ist sensibler, aber weniger spezifisch — Laktulose erreicht bei jedem das Kolon und erzeugt einen Baseline-Anstieg, der schwer von einem Dünndarmsignal zu unterscheiden sein kann.
+
+Trotz dieser Einschränkungen ist ein positiver Atemtest bei einem symptomatischen ME/CFS-Patienten klinisch verwertbar. Und ein negativer Test schließt SIBO nicht aus — er kann eine empirische Behandlung rechtfertigen, wenn das klinische Bild stark suggeriert ist.
+
+---
+
+## Behandlung: wirksam, aber rezidivierend
+
+Die Standardbehandlung für wasserstoffdominantes SIBO ist Rifaximin (Xifaxan), ein nicht absorbiertes Antibiotikum, das lokal im Darm wirkt. Es ist gut verträglich, hat minimale systemische Absorption und ist in etwa 50–70 % der Fälle bei Standarddosierung wirksam [@Pimentel2011TARGET].
+
+Methandominantes SIBO erfordert eine Kombinationstherapie — typischerweise Rifaximin plus Neomycin oder Metronidazol —, weil die für die Methanproduktion verantwortlichen Archaeen durch Rifaximin allein nicht ausreichend anvisiert werden.
+
+Die Behandlung von H₂S-dominantem SIBO ist weniger standardisiert. Wismutsubsalicylat hat eine gewisse Wirksamkeit gegen sulfatreduzierende Bakterien. Die diätetische Schwefelbeschränkung (Reduzierung von Knoblauch, Zwiebeln, Kreuzblütlern, Eiern, schwefelreichen Supplementen wie NAC und Alpha-Liponsäure) reduziert die Substratverfügbarkeit.
+
+Die Elementardiät — eine flüssige Ernährungsformel, die im proximalen Dünndarm absorbiert wird und den Bakterien nichts zum Fermentieren lässt — ist in etwa 80 % der Fälle wirksam, ist aber für die erforderlichen 2–3 Wochen schwer durchzuhalten und teuer.
+
+**Das Rezidivproblem.** Das ist die zentrale Herausforderung. SIBO spricht auf die Behandlung an, aber wenn die zugrunde liegende Motilitätsdysfunktion nicht angegangen wird, kehrt es zurück. Bei ME/CFS-Patienten ist die vagale Dysfunktion, die das SIBO verursachte, Teil der Krankheit. Das SIBO ist eine nachgelagerte Konsequenz, nicht die Grundursache. Die Behandlung bringt Linderung — manchmal dramatische Linderung —, aber eine Erhaltung ist erforderlich.
+
+Prokinetische Mittel (niedrig dosiertes Erythromycin, Prucaloprid) stimulieren den MMC und reduzieren Rezidive. Die zeitlichen Abstände zwischen den Mahlzeiten — 4–5 Stunden zwischen den Mahlzeiten zu lassen, um den MMC-Zyklus zu ermöglichen — ist eine einfache nicht-pharmakologische Intervention, die viele ME/CFS-Patienten hilfreich finden.
+
+---
+
+## Warum dies speziell für ME/CFS zählt
+
+Ein Patient mit ME/CFS und unbehandeltem SIBO hat zwei gleichzeitig laufende Energiedrains: die Krankheit selbst und die bakterielle Parasitierung in seinem Dünndarm. Das SIBO stiehlt Nährstoffe, die die beeinträchtigten Mitochondrien brauchen. Es produziert H₂S, das diese Mitochondrien weiter hemmt. Es treibt Darmentzündung, die das Immunsystem aktiviert und noch mehr Energie verbraucht. Und es verursacht postprandiale Symptome, die der Patient und sein Arzt dem „einfach ME/CFS" zuschreiben.
+
+Das Behandeln des SIBO heilt ME/CFS nicht. Aber es entfernt eine erhebliche, behandelbare Last von einem System, das bereits an seiner Grenze ist. Patienten, deren SIBO erfolgreich behandelt wurde, berichten von bedeutsamen Verbesserungen bei Erschöpfung, kognitiver Funktion und postprandialen Symptomen — nicht weil ME/CFS durch SIBO verursacht wird, sondern weil SIBO alles schlechter machte.
+
+Die zu stellende Frage ist nicht „könnte SIBO das alles verursachen?" Das ist selten der Fall. Die Frage ist „könnte SIBO das alles 20–30 % schlimmer machen?" Bei einem Patienten, dessen Energiemarge in Prozentpunkten gemessen wird, ist 20–30 % der Unterschied zwischen ans Haus gebunden und das Haus verlassen zu können.
+
+Jeder ME/CFS-Patient mit gastrointestinalen Symptomen — Blähungen, postprandiale Erschöpfung, Nahrungsmittelunverträglichkeiten, wechselnde Stuhlgewohnheiten — sollte auf SIBO getestet werden. Der Atemtest kostet unter 100 €. Die Behandlung, falls positiv, ist eine zweiwöchige Kur eines gut verträglichen Antibiotikums. Die potenzielle Rendite auf einen 100-€-Test und ein 50-€-Rezept ist eine messbare Verbesserung des Energiebudgets eines Patienten, der es sich nicht leisten kann, auch nur ein Prozent zu verschwenden [@Loth2026mecfs].
+
+---

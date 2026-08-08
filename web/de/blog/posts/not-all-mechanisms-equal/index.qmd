@@ -1,0 +1,81 @@
+---
+title: "Nicht alle Mechanismen sind gleich"
+description: "Es gibt Dutzende von Mechanismen, die bei ME/CFS impliziert sind: Immunaktivierung, mitochondriale Dysfunktion, autonome Dysregulation, Mikrobiom-Störung, Schlaffragmentierung, oxidativer Stress, virale Reaktivierung, epigenetische Veränderungen, Autoantikörper. D..."
+author: "Yannick Loth"
+date: "2026-04-06"
+categories: [Kausale Hierarchie, Pathophysiologie, Systembiologie]
+lang: de
+---
+
+Es gibt Dutzende von Mechanismen, die bei ME/CFS impliziert sind: Immunaktivierung, mitochondriale Dysfunktion, autonome Dysregulation, Mikrobiom-Störung, Schlaffragmentierung, oxidativer Stress, virale Reaktivierung, epigenetische Veränderungen, Autoantikörper. Die Standardreaktion auf eine solche Liste ist eine Art therapeutischer Verzweiflung — die Krankheit ist „überall", was bedeutet, dass sie „nirgends" ist. Aber die Liste sieht nur so aus, wenn man alle diese Mechanismen als therapeutisch gleichwertig behandelt. Standard-Reviews hören oft beim Aufzählen von Mechanismen auf, ohne explizite kausale Rangfolge — und sie sind in dieser Rangfolge nicht gleichwertig.
+
+Eine formale kausale Analyse der ME/CFS-Pathophysiologie unterscheidet drei Ebenen kausaler Beteiligung, und diese Unterscheidung hat direkte Konsequenzen für die Behandlung [Kap. 16 §Rahmenwerk: Die Drei-Ebenen-Klassifikation].
+
+---
+
+## Drei Ebenen kausaler Beteiligung
+
+Eine *Grundursache* ist ein Mechanismus, dessen Versagen allein ausreicht, um in das vollständige ME/CFS-Syndrom zu kaskadieren, und der prinzipiell den Übergang von Gesundheit zu Krankheit erklären kann, ohne eine frühere Dysfunktion in anderen Systemen zu erfordern. In der Praxis wirken Grundursachen selten isoliert, aber was sie unterscheidet, ist, dass sie es *könnten* [Kap. 16 §Trigger-fähige Mechanismen].
+
+Ein *Verstärker* verschlimmert, perpetuiert oder verriegelt den Krankheitszustand, kann ihn aber nicht initiieren; Verstärker greifen ein, sobald eine Grundursache die Homöostase destabilisiert hat. Einige sind *tragend* — ihre Entfernung ist für die Erholung notwendig —, während andere sekundär sind, das heißt, ihre Entfernung verbessert die Erfahrung des Patienten, ohne ein Entkommen aus dem Krankheitszustand zu ermöglichen. Diese Unterscheidung wird Gegenstand des nächsten Artikels dieser Serie sein [Kap. 16 §Verstärkermechanismen].
+
+*Konsequenzen* sind reale, klinisch bedeutsame Phänomene, die abwärts des Krankheitsprozesses auftreten. Sie erzeugen Symptome und erodieren die Lebensqualität, was sie wichtig macht — und sie sind oft das, womit Patienten am akutesten leiden —, aber sie allein zu behandeln kann nicht auflösen, was die Krankheit aufrechterhält. Die Ebene begrenzt die therapeutische Erwartung, nicht die klinische Bedeutung [Kap. 16 §Abwärts-Konsequenzen].
+
+---
+
+## Vier Kriterien für eine Grundursache
+
+Nicht jeder frühe oder übergeordnete Mechanismus qualifiziert sich. Das Rahmenwerk erfordert vier Kriterien, die alle erfüllt sein müssen [Kap. 16 §Trigger-fähige Mechanismen].
+
+Das erste ist die Auslöser-Kompatibilität: Der Mechanismus muss durch bekannte ME/CFS-Auslöser triggerbar sein — virale Infektion, schwerer physiologischer Stress, Operation, Trauma, Impfung. Epidemiologische Studien berichten konsistent, dass etwa 70 % der ME/CFS-Fälle von einer akuten Infektion vorausgegangen sind, obwohl die veröffentlichten Schätzungen variieren; das Rahmenwerk verwendet diese Zahl als Arbeitsnäherung [Kap. 16 §Trigger-fähige Mechanismen]. Jede vorgeschlagene Grundursache muss mit diesem Muster und mit den nicht-infektiösen Auslösern, die den Rest erklären, kompatibel sein.
+
+Das zweite ist die Energie-Kollaps-Suffizienz. Der Mechanismus muss allein in der Lage sein, das Post-Exertional-Malaise, das kardinale Merkmal, zu erzeugen. PEM ist nicht bloße Müdigkeit; es ist die Persistenz und Akkumulation von Post-Anstrengungs-Nebenprodukten — metabolische Abfälle, Entzündungsmediatoren, oxidativer Schaden —, die gesunde Physiologie in Stunden beseitigt, ME/CFS-Physiologie aber nicht, wobei eine charakteristische Symptomverschlechterung mit einer Latenz von 12–72 Stunden und einer Dauer, die sich über Tage oder Wochen erstrecken kann, entsteht. Eine vorgeschlagene Grundursache muss dieses spezifische Muster erklären, nicht Müdigkeit im Allgemeinen [Kap. 16 §Trigger-fähige Mechanismen].
+
+Drittens: Chronicität — der Mechanismus muss erklären, warum ME/CFS Jahre oder Jahrzehnte anhält. Viele akute Prozesse — Entzündung, metabolischer Stress, hormonelle Störung — sind in gesunder Physiologie inhärent selbstlimitierend, also muss eine Grundursache entweder selbstverstärkend sein oder Bedingungen schaffen, die eine normale Auflösung verhindern [Kap. 16 §Trigger-fähige Mechanismen].
+
+Viertens: Multisystem-Ausbreitung. ME/CFS ist keine Krankheit eines einzelnen Systems, also muss jede Grundursache einen plausiblen Weg haben, Dysfunktion über neurologische, immunologische, kardiovaskuläre, endokrine und gastrointestinale Bereiche zu erzeugen, direkt oder durch Abwärts-Kaskaden [Kap. 16 §Trigger-fähige Mechanismen].
+
+Diese Kriterien sind Filter, kein Beweis. Ein Mechanismus, der alle vier besteht, ist eine *Kandidaten*-Grundursache; mehrere Mechanismen können bestehen, und welcher die Krankheit eines bestimmten Patienten tatsächlich ausgelöst hat, ist eine separate Frage.
+
+---
+
+## Therapeutische Obergrenzen
+
+Die Ebene, zu der ein Mechanismus gehört, bestimmt, welche Art therapeutischer Arbeit er leisten kann [Kap. 16 §Behandlungsimplikationen der Kausalen Hierarchie].
+
+Das Behandeln einer Konsequenz erzeugt symptomatische Linderung, ohne das anzugehen, was die Krankheit aufrechterhält. Schlafmedikation für die ME/CFS-bezogene Schlaffragmentierung ist das klarste Beispiel: Die verfügbaren Belege legen nahe, dass Patienten, deren Schlaf sich pharmakologisch normalisiert, sich typischerweise nicht erholen — sie schlafen innerhalb des Krankheitszustands besser, obwohl die Ergebnisse variieren [Kap. 16 §Abwärts-Konsequenzen]. Die therapeutische Obergrenze wird durch die Ebene begrenzt.
+
+Das Behandeln eines Verstärkers kann die Progression sinnvoll verlangsamen und die Krankheitslast reduzieren, und wenn der Verstärker tragend ist, kann seine Entfernung eine notwendige Komponente der Erholung sein. Selbst dann lässt alleinige Verstärkerbehandlung den zugrunde liegenden Krankheitsmechanismus intakt [Kap. 16 §Verstärkermechanismen].
+
+Das Behandeln einer Grundursache ist dort, wo die strukturelle Arbeit geschieht, aber nur, wenn die Grundursache noch aktiv ist. In der Spätphase der Krankheit hat sich die ursprüngliche Grundursache möglicherweise längst aufgelöst, während Verstärker — einige nun tragend — die Krankheit unabhängig aufrechterhalten. Der Auslöser war die Tür; die Schlösser sind es, die den Patienten im Inneren halten [Kap. 16 §Tragende versus Sekundäre Verriegelungen]. Zu diesem Zeitpunkt bringt die Behandlung des Auslösers nur begrenzten Nutzen.
+
+Die Implikation folgt daraus: Der kausal fundamentalste Mechanismus in der Vorgeschichte eines bestimmten Patienten ist möglicherweise nicht länger das Behandlungsprioritätsziel. Das ist Gegenstand eines späteren Artikels. Was das Ebenen-Rahmenwerk hier etabliert, ist grundlegender — dass die Mechanismen nicht alle dieselbe Art von Arbeit leisten und sie so zu behandeln, als täten sie es, erzeugt vorhersehbare Verwirrung darüber, warum Interventionen gelingen oder scheitern.
+
+---
+
+## Welche Mechanismen sich qualifizieren
+
+Basierend auf der Vier-Kriterien-Analyse werden drei Mechanismen als Kandidaten-Grundursachen mit Trigger-Fähigkeit bei ME/CFS bewertet — das heißt, sie erfüllen alle vier Filter unter der aktuellen mechanistischen Analyse des Rahmenwerks, nicht dass diese Klassifikation experimentell bestätigt wurde [Kap. 16 §Trigger-fähige Mechanismen].
+
+Die *ZNS-Energiekrise* beinhaltet einen Energieversagen von Hypothalamus und Hirnstamm, der die zentrale Koordination von Immun-, Autonom- und Stoffwechselfunktion stört. Sie erfüllt alle vier Kriterien und hat einen direkten Weg zu PEM durch beeinträchtigte zentrale Energieregulation der Anstrengungsreaktion [Kap. 16 §ZNS-Energiekrise].
+
+Die *GPCR-Autoantikörper-Kaskade* beinhaltet Autoantikörper, die auf G-Protein-gekoppelte Rezeptoren zielen und das autonome Nervensystem über einen Mechanismus dysregulieren, der prinzipiell ausreicht, die Krankheit allein aufrechtzuerhalten, und durch die Immunstörung nach Infektion oder schwerem Stress triggerbar ist [Kap. 16 §GPCR-Autoantikörper-Kaskade].
+
+Die *epigenetische Konsolidierung* ist die Stabilisierung des krankheitsangepassten Genexpressionsprogramms durch DNA-Methylierung und Histonmodifikationen. Einmal etabliert, ist sie — nach der Hypothese dieses Modells — selbstverstärkend: Zellen exprimieren das Krankheitsprogramm, nicht weil sie noch das Signal empfangen, sondern weil es in der Genregulationsschicht encodiert ist. (Epigenetische Marker sind dynamisch und prinzipiell reversibel, aber das Rahmenwerk schlägt vor, dass sie in diesem Kontext resistent gegen normale homöostatische Umkehrung sind.) Das Rahmenwerk schlägt vor, dass die akute Infektion die Entzündungssignale erzeugt, die die Methylierungsänderungen initiieren, dass dieser Mechanismus einmal etabliert anhaltende Multisystem-Dysfunktion produziert und dass er sich nicht selbst auflöst — obwohl die direkte experimentelle Bestätigung dieser Sequenz beim menschlichen ME/CFS unvollständig bleibt [Kap. 16 §Epigenetische Konsolidierung].
+
+Mehrere klinisch prominente Mechanismen — oxidativer Stress, virale Reaktivierung, Schlaffragmentierung, Darmdysbiose — fallen in die Verstärker- oder Konsequenz-Ebenen. Sie sind real und wichtig, aber sie sind keine Grundursachen [Kap. 16 §Verstärkermechanismen; §Abwärts-Konsequenzen].
+
+---
+
+## Grenzen der Klassifikation
+
+Dies ist eine kausale Klassifikation, die auf mechanistischer Analyse basiert, kein klinischer Versuch. Die Drei-Ebenen-Struktur und der Vier-Kriterien-Filter sind Werkzeuge zum Denken. Entscheidend sind: Die vier Kriterien sind die eigenen Konstrukte des Rahmenwerks; sie zu bestehen ist modellinterne Validierung, keine unabhängige empirische Bestätigung. Die Ebenen-Zuordnungen repräsentieren die aktuelle beste mechanistische Einschätzung des Rahmenwerks, keine experimentell bestätigten Befunde — die Unsicherheit ist substanziell. Wo ein Mechanismus fällt, kann je nach Patient je nach Einstiegspunkt und Krankheitsdauer unterschiedlich sein, die drei Kandidaten-Grundursachen wurden nicht in kontrollierten Studien validiert, und neue Belege könnten Mechanismen reklassifizieren, sobald sich das Verständnis verbessert [Kap. 16 §Forschungsimplikationen].
+
+Das Ziel ist, eine undifferenzierte Liste durch eine strukturierte zu ersetzen — weil die Ebene, zu der ein Mechanismus gehört, eines der praktisch wichtigsten Dinge ist, die man über ihn wissen kann.
+
+---
+
+
+*Vorheriger Artikel dieser Serie: [Warum ME/CFS sich nicht auflöst — und warum schwere Fälle der Behandlung widerstehen](https://www.linkedin.com/pulse/) (2026-03-24)*
+
+*Nächster: Vier Türen, eine Krankheit — warum virale Infektion, Stress, Operation und Impfung alle dasselbe Syndrom erzeugen*

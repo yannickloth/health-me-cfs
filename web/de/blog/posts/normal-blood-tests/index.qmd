@@ -1,0 +1,104 @@
+---
+title: "Ihre Blutwerte waren normal: Was Standardlabore nicht sehen können"
+description: "Ferritin 22 ng/mL. Referenzbereich: 10-200. Ergebnis: normal. Keine Maßnahme erforderlich."
+author: "Yannick Loth"
+date: "2026-06-15"
+categories: [Diagnostik, Fehldiagnose]
+lang: de
+---
+
+Ferritin 22 ng/mL. Referenzbereich: 10-200. Ergebnis: normal. Keine Maßnahme erforderlich.
+
+Das sagt der Laborbericht. Was er nicht sagt, ist, dass Ihr Ferritin über 50 liegen muss — wohl über 100 —, bevor eisenabhängige Enzyme in Ihren Mitochondrien genug Substrat haben, um mit voller Kapazität zu laufen. Dass der Referenzbereich aus einer Krankenhauspopulation erzeugt wurde, die Menschen mit chronischer Krankheit, Entzündung und Eisenüberladung umfasst, und dass „über den unteren 2,5 %" nicht dasselbe ist wie „ausreichend für eine optimale zelluläre Energieproduktion".
+
+Sie sind nach jedem funktionalen Standard eisenverarmt. Das Labor sagt, Sie seien in Ordnung. Ihr Arzt vertraut dem Labor. Sie gehen ohne Behandlung nach Hause und mit der stillen Überzeugung, dass die Medizin Sie im Stich gelassen hat.
+
+Das ist keine Eisengeschichte. Das ist die Geschichte jedes Mikronährstoffs, jedes Hormons und jedes Biomarkers, auf die ME/CFS-Patienten angewiesen sind — und es ist die Geschichte, warum „Ihre Blutwerte waren normal" zum zerstörerischsten Satz in der Versorgung chronischer Krankheiten geworden ist.
+
+---
+
+## Das Problem der Referenzbereiche
+
+Labor-Referenzbereiche werden konstruiert, indem man eine Population stichprobt und das 2,5. und 97,5. Perzentil zieht. Jeder, der zwischen diese Linien fällt, ist „normal". Dies hat drei eingebettete Annahmen, von denen keine für Zustände chronischen Energiemangels gilt.
+
+Erstens ist die Referenzpopulation keine gesunde Population. Es ist jeder, der zufällig Blut in diesem Labor abnehmen ließ. Krankenhauslabore — woher die meisten Referenzbereiche stammen — nehmen Blut von den Kranken, den Alten und den besorgten Gesunden. Gemeindenormen unterscheiden sich von Normen optimaler Funktion, und der Abstand zwischen „nicht markiert" und „ausreichend für Höchstleistung der Zellen" kann enorm sein.
+
+Zweitens beschreibt der Bereich eine statistische Verteilung, keine physiologische Anforderung. Es gibt keinen biologischen Grund anzunehmen, dass das 3. Perzentil von Ferritin in einer Krankenhauspopulation das Mindesteisen darstellt, das für die mitochondriale Funktion erforderlich ist. Die Bedürfnisse des Körpers ordnen sich nicht nach Populationsstatistiken an. Ein Ferritin von 15 hält Sie davon ab, eine offene Eisenmangelanämie zu entwickeln. Es macht Cytochrom-c-Oxidase nicht glücklich.
+
+Drittens behandeln Referenzbereiche jeden Analyt isoliert. Ein Ferritin von 30 bei jemandem mit gleichzeitigem B12-Mangel und niedrigem Magnesium ist eine andere physiologische Situation als ein Ferritin von 30 bei jemandem, dessen andere Cofaktoren aufgefüllt sind. Die Wechselwirkungen zwischen Mängeln sind multiplikativ, nicht additiv. Aber jedes Laborergebnis kommt allein, beurteilt gegen seinen eigenen Referenzbereich, und erzeugt die Illusion, dass „alle Ergebnisse normal" „alle Systeme funktionsfähig" bedeutet.
+
+---
+
+## Eisen: die 15-jährige Diagnoselücke
+
+Eisen ist das krasseste Beispiel. Es gibt nun substantielle Belege dafür, dass Eisenmangel bei Ferritinwerten weit über dem Standard-Anämie-Grenzwert Müdigkeit, kognitive Dysfunktion und Belastungsintoleranz verursacht.
+
+[@Vaucher2012] zeigte in einer randomisierten kontrollierten Studie, dass intravenöses Eisen die Müdigkeit bei nicht-anämischen Frauen mit Ferritin unter 50 ng/mL verbesserte — Frauen, deren Laborergebnisse nach konventionellen Kriterien „normal" waren. [@Krayenbuehl2011] zeigte, dass die Schwere der Müdigkeit mit Ferritinwerten unter 100 korrelierte, nicht unter 15. Die WHO definiert Eisenmangel als Ferritin unter 15. Ihre Zellen definieren ihn als „nicht genug für das, was ich brauche", was für mitochondriale Enzyme erheblich höher ist.
+
+Die Lücke zwischen diesen Schwellen — die 15-jährige Kluft zwischen funktionaler Eisenverarmung und einem abnormen Labor-Flag — ist der Raum, in dem Patienten mit behandelbarer Müdigkeit leben und ihnen gesagt wird, dass sie in Ordnung sind. Für ME/CFS-Patienten, deren Energieproduktionskapazität bereits durch andere Mechanismen beeinträchtigt ist, ist ein Ferritin von 25 keine geringfügige Suboptimalität. Es ist ein weiteres Gewicht auf einem System, das bereits an seiner Grenze ist.
+
+---
+
+## Magnesium: die Messung, die nicht funktioniert
+
+Serum-Magnesium ist der am häufigsten verordnete Test. Er ist auch fast nutzlos. Weniger als 1 % des körpereigenen Gesamtmagnesiums ist im Blut. Der Körper verteidigt Serum-Magnesium mit außergewöhnlicher Kraft — zieht es aus dem Knochen, aus den Muskeln, aus intrazellulären Speichern —, weil der Herzrhythmus davon abhängt. Bis das Serum-Magnesium unter den Referenzbereich fällt, ist das intrazelluläre Magnesium seit Monaten verarmt.
+
+RBC-Magnesium ist geringfügig besser, spiegelt aber immer noch nicht wider, was zählt: das an ATP gebundene Magnesium in den Mitochondrien. ATP ist ohne Magnesium biologisch inert. Es existiert als Mg-ATP, und das ist die Form, die jede Kinase im Körper erkennt. Eine Zelle kann ausreichend ATP und unzureichendes magnesiumgebundenes ATP haben, und kein Standard-Laboratoriumstest misst letzteres.
+
+Die praktische Konsequenz: Ein Patient, der täglich 400 mg Magnesiumglycinat supplementiert und bei Serum-Magnesium „normal getestet" hat, könnte seine zelluläre Energieproduktion auf eine Weise wirklich verbessern, die kein Bluttest je bestätigen oder verneinen wird. Der Test und die Biologie operieren in verschiedenen Bereichen.
+
+---
+
+## B12: neurologische Schäden, bevor sich das Blutbild ändert
+
+Ein Vitamin-B12-Mangel folgt demselben Muster, mit einer zusätzlichen Grausamkeit: Der neurologische Schaden beginnt, bevor hämatologische Veränderungen auftreten. Ein Patient kann eine subakute kombinierte Degeneration des Rückenmarks haben — irreversible Nervenschädigung — mit einem „normalen" großen Blutbild. Die makrozytäre Anämie, die Lehrbücher als das Kennzeichen des B12-Mangels beschreiben, ist ein später Befund, kein früher.
+
+Serum-B12 unter 200 pg/mL wird als mangelhaft markiert. Aber funktionale B12-Insuffizienz — beeinträchtigte Methylierung, erhöhtes Homocystein, beeinträchtigte Myelinsynthese — kann bei Werten bis zu 400–500 pg/mL auftreten, abhängig von genetischen Polymorphismen der MTHFR- und TCN2-Gene. Methylmalonsäure (MMA) und Homocystein sind bessere funktionale Marker, aber sie werden nur angeordnet, wenn jemand daran denkt, sie zu fragen.
+
+Für ME/CFS-Patienten, bei denen Methylierungsdysfunktion dokumentiert ist und bei denen neurologische Symptome (Brain Fog, periphere Neuropathie, kognitiver Abbau) Kernmerkmale sind, ist ein B12 von 250 pg/mL nicht beruhigend. Es ist ein potenziell behandelbarer Beitrag zu einem Symptomkomplex, mit dem der Patient leben soll.
+
+---
+
+## Vitamin D: wo „ausreichend" ausgehandelt wurde, nicht entdeckt
+
+Die Schwelle für Vitamin-D-Suffizienz — 30 ng/mL (75 nmol/L) in den meisten Laboren — wurde festgelegt, um Rachitis und Osteomalazie zu verhindern. Sie wurde nie festgelegt, um die Immunfunktion, mitochondriale Biogenese oder Entzündungsmodulation zu optimieren [@Holick2007vitaminD]. Diese Effekte erfordern höhere Werte, und die Belege für Nutzen reichen bis mindestens 50–60 ng/mL.
+
+Ein Patient mit 32 ng/mL hat einen „normalen" Vitamin-D-Spiegel. Er hat auch einen Spiegel, bei dem die Funktion regulatorischer T-Zellen des Immunsystems suboptimal ist [@Bscheider2016vitaminD], bei dem die Vitamin-D-Rezeptor-vermittelte Gentranskription in Immunzellen nicht vollständig aktiviert ist und bei dem die entzündungshemmenden Wirkungen von Vitamin D auf das NLRP3-Inflammasom unvollständig sind.
+
+Für einen Patienten mit ME/CFS, wo Immundysregulation und chronische Entzündung zentrale Pathophysiologie sind, ist ein Vitamin D von 32 nicht ausreichend. Es liegt über der Schwelle für Knochenkrankheit. Es liegt unter der Schwelle für Immunoptimierung. Und der Laborbericht sagt „normal".
+
+---
+
+## Das Muster
+
+Jeder dieser Fälle folgt derselben Struktur:
+
+1. Ein Referenzbereich wird festgelegt, basierend auf der Verhinderung offener klinischer Krankheit in einer Allgemeinpopulation.
+2. Ein Patient mit chronischer, komplexer Erkrankung fällt in diesen Bereich.
+3. Der Kliniker liest „normal" und geht weiter.
+4. Der Patient bleibt funktional mangelhaft auf eine Weise, die einzeln bescheiden, aber kollektiv verheerend ist, wenn drei oder vier „normale" Ergebnisse jeweils einen suboptimalen Input in dasselbe Energieproduktionssystem darstellen.
+
+Das Problem ist nicht, dass die Labormedizin falsch liegt. Die Referenzbereiche tun, wofür sie gemacht wurden: offene Pathologie identifizieren. Das Problem ist, dass „innerhalb des Referenzbereichs" kulturell mit „kein Problem" gleichgesetzt wurde, und für Patienten an den Rändern der Energiesuffizienz ist der Raum zwischen „nicht markiert" und „optimal" der Ort, an dem die Behandelbarkeit lebt.
+
+---
+
+## Was das praktisch bedeutet
+
+Dies ist kein Argument dafür, Laborbereiche zu ignorieren oder jeden Wert bis zum 95. Perzentil zu jagen. Es ist ein Argument für klinischen Kontext.
+
+Ein Ferritin von 22 bei einem ansonsten gesunden 25-jährigen Athleten rechtfertigt möglicherweise keine Maßnahme. Ein Ferritin von 22 bei einem Patienten mit ME/CFS, dokumentierter Belastungsintoleranz, bestätigter mitochondrialer Energiebeeinträchtigung und drei weiteren grenzwertigen Cofaktoren — das ist eine andere klinische Situation und erfordert eine andere Antwort.
+
+Die über Standardpanels hinaus anzuordnenden Tests sind nicht exotisch:
+
+- **Ferritin** (mit Kontext: behandeln, wenn <50–100 bei symptomatischen Patienten, unabhängig vom Anämiestatus)
+- **RBC-Magnesium** (unvollkommen, aber besser als Serum)
+- **Methylmalonsäure + Homocystein** (funktionaler B12/Folat-Status)
+- **25-OH-Vitamin D** (Ziel 50–60 ng/mL, nicht nur „über 30")
+- **Vollständiges Schilddrüsenpanel** (TSH + freies T3 + freies T4 + Antikörper — nicht nur TSH)
+- **Nüchterninsulin + HOMA-IR** (metabolische Funktion, nicht nur Nüchternglukose)
+
+Keiner dieser Tests kostet mehr als ein paar hundert Euro. Alle identifizieren behandelbare Beiträge zur Müdigkeit, die Standardpanels übersehen.
+
+Wenn die Blutwerte eines chronisch kranken Patienten „normal" zurückkommen, sollte die klinische Antwort nicht „gute Nachrichten, nichts Falsches" sein. Sie sollte lauten: „nichts abnorm nach Referenzbereich — aber schauen wir, ob diese Werte für das angemessen sind, was Ihr Körper tatsächlich braucht [@Loth2026mecfs]."
+
+---
