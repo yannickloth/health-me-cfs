@@ -38,8 +38,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Blog"
-        href: blog/index.qmd
+      - text: "Blog (EN)"
+        href: en/blog/index.qmd
       - text: "Blog (FR)"
         href: fr/blog/index.qmd
       - text: "Blog (DE)"
@@ -52,7 +52,13 @@ website:
       - text: "Download PDF"
         href: loth2026-mecfs.pdf
       - icon: rss
-        href: en/blog/index.xml
+        menu:
+          - text: "RSS (EN)"
+            href: en/blog/index.xml
+          - text: "RSS (FR)"
+            href: fr/blog/index.xml
+          - text: "RSS (DE)"
+            href: de/blog/index.xml
   sidebar:
     style: docked
     search: true

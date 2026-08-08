@@ -6,7 +6,14 @@ about:
     - text: DOI
       href: https://doi.org/10.5281/zenodo.19627450
     - icon: rss
-      href: ../en/blog/index.xml
+      href: en/blog/index.xml
+      text: "RSS (EN)"
+    - icon: rss
+      href: fr/blog/index.xml
+      text: "RSS (FR)"
+    - icon: rss
+      href: de/blog/index.xml
+      text: "RSS (DE)"
 ---
 
 ## About
