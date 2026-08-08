@@ -1,0 +1,111 @@
+---
+title: "Was, wenn wir die Alpha-Intrusion beheben würden? Ein Gedankenexperiment bei ME/CFS"
+description: "Niemand hat dieses Experiment bislang durchgeführt. Aber die Frage ist es trotzdem wert, gestellt zu werden."
+author: "Yannick Loth"
+date: "2026-05-16"
+categories: [Sleep, Treatment]
+lang: de
+---
+
+Niemand hat dieses Experiment bislang durchgeführt. Aber die Frage ist es trotzdem wert, gestellt zu werden.
+
+Alpha-Delta-Schlaf – das Eindringen von Alpha-Wellen der Wachfrequenz in den Tiefschlaf – ist eine der am besten dokumentierten objektiven Anomalien bei ME/CFS und Fibromyalgie (Moldofsky et al. 1975, *Psychosomatic Medicine* [@Moldofsky1975alphaDeltaSleep]; Roizenblatt et al. 2001, *Arthritis & Rheumatism* [@Roizenblatt2001alphaFM]). Er verhindert, dass das Gehirn in die Slow-Wave-Oszillationen eintritt, die die nächtliche Erholung antreiben. Ein früherer Artikel dieser Serie beschrieb die angenommene thalamische Kalziumkanal-Dysfunktion, die ihn verursacht (bei ME/CFS-Patienten noch nicht direkt getestet).
+
+Angenommen, ein Medikament, ein Hirnstimulationsprotokoll oder eine zukünftige Intervention könnte diese Intrusion sauber eliminieren und während des Slow-Wave-Schlafs reine Delta-Oszillationen wiederherstellen. Was würde sich ändern? Was nicht? Die Antwort enthüllt sich als etwas Wichtiges darüber, warum ME/CFS gegen Einzelziel-Interventionen resistiert – und es ist kein besonders ermutigendes Bild.
+
+---
+
+## Was sich verbessern würde
+
+Der erste und direkteste Nutzen wäre die partielle Wiederherstellung der glymphatischen Beseitigung. Delta-Oszillationen sind der primäre Treiber des glymphatischen Flusses – des Abfallbeseitigungssystems des Gehirns, das während des Tiefschlafs metabolische Trümmer wegspült (Xie et al. 2013, *Science* [@Xie2013glymphatic]). Die Räume zwischen den Gehirnzellen erweitern sich während des Delta-Schlafs und erlauben der Gehirn-Rückenmarks-Flüssigkeit, durchzufließen und angesammelten Abfall abzutransportieren. Mit beseitigter Alpha-Intrusion und wiederhergestellten anhaltenden Delta-Epochen würde dieses Beseitigungssystem seine Antriebskraft zurückgewinnen. Das Ergebnis: weniger Anhäufung von Entzündungsmediatoren, fehlgefalteten Proteinen und metabolischem Abfall im Gehirngewebe. Das morgendliche „Kater"-Gefühl – die toxische, vergiftete Empfindung, die Patienten beim Erwachen beschreiben – würde sich wahrscheinlich verbessern. Morgendliche Kopfschmerzen, die durch beeinträchtigte Beseitigung über Nacht verursacht werden, würden wahrscheinlich abnehmen.
+
+Auch die Gedächtniskonsolidierung würde sich verbessern. Schlafspindeln (thalamische Bursts von 12–14 Hz) koppeln sich während der Up-Zustände langsamer Oszillationen mit hippokampalen Sharp-Wave-Ripples und übertragen Erinnerungen von der kurzfristigen hippokampalen Speicherung zur langfristigen kortikalen Speicherung (Diekelmann & Born 2010, *Nature Reviews Neuroscience* [@Diekelmann2010sleepMemory]; Staresina et al. 2015, *Nature Neuroscience* [@Staresina2015sleepOscillations]) – aber diese Kopplung erfordert intakte Slow-Wave-Oszillationen als Gerüst. Mit wiederhergestellten Deltawellen sollte eine Komponente der kognitiven Dysfunktion bei ME/CFS, die Schwierigkeit, neue Informationen zu konsolidieren, sich verbessern.
+
+Der neuroinflammatorische Teufelskreis würde sich teilweise brechen. Beeinträchtigte glymphatische Beseitigung hinterlässt Entzündungsmediatoren im Gehirn, die das NLRP3-Inflammasom in der Mikroglia aktivieren und Zytokine erzeugen, die die Schlafarchitektur weiter stören. Besserer Delta-Schlaf und verbesserte Beseitigung würden einen der Inputs entfernen, die diese Schleife antreiben – schlechter Schlaf → Abfallansammlung → Neuroinflammation → schlechterer Schlaf – obwohl sie die Schleife nicht vollständig eliminieren würden.
+
+Schließlich könnten sich die Schmerzschwellen verbessern. Während normalen Slow-Wave-Schlafs unterdrücken Delta-Oszillationen aktiv die Aktivität der nozizeptiven Bahn – die Schmerzschaltkreise des Gehirns werden über das thalamische Gating herunterreguliert, und dies ist Teil dessen, was Schlaf erholsam macht. Alpha-Intrusion lässt diese Schmerzbahnen die ganze Nacht teilweise aktiv. Die Wiederherstellung von Delta könnte diese nächtliche Unterdrückung wiederherstellen, den Morgenschmerz verbessern und im Laufe der Zeit möglicherweise die zentrale Sensibilisierung reduzieren.
+
+---
+
+## Was sich nicht verbessern würde
+
+Hier verdient das Gedankenexperiment sein Geld.
+
+Selbst mit perfekten Delta-Oszillationen bleiben die Aquaporin-4-Wasserkanäle, die das molekulare Tor für den glymphatischen Austausch bilden, durch erhöhtes nächtliches Noradrenalin unterdrückt – eine Folge der autonomen Dysfunktion, nicht der Schlafarchitektur (Xie et al. 2013 [@Xie2013glymphatic]). Sie können die Antriebskraft wiederherstellen, während die Rohrleitungen teilweise blockiert bleiben. Die glymphatische Beseitigung würde sich verbessern, aber nicht normalisieren.
+
+Der Kynurenin-Weg läuft unterdessen weiter. Der Tryptophan-zu-Kynurenin-Shunt – angetrieben durch chronische Immunaktivierung über IDO1/IDO2-Enzyme – produziert Chinolinsäure, einen NMDA-Rezeptoragonisten, der direkt exzitotoxisch auf Neuronen wirkt. ME/CFS-Patienten zeigen deutlich erhöhte Chinolinsäure und reduzierte neuroprotektive KA/QA-Verhältnisse (Groven et al. 2021, *Psychoneuroendocrinology* [@Groven2021kynurenine]). Schlaf-Oszillationen haben keinen Einfluss auf diesen Weg. Der durch Chinolinsäure-vermittelte Exzitotoxizität getriebene Brain Fog bleibt auf dem Niveau, das er vorher hatte.
+
+Mastzell-vermittelte kognitive Beeinträchtigung ist ebenfalls unangetastet. Histamin, das aus aktivierten Mastzellen freigesetzt wird, gelangt ins Gehirn und wirkt auf H3-Rezeptoren, um die Acetylcholin-Freisetzung zu unterdrücken, was direkt Aufmerksamkeit, Arbeitsgedächtnis und exekutive Funktion beeinträchtigt. Schlaf-Oszillationen sind nicht Teil dieses Schaltkreises.
+
+Zerebrale Hypoperfusion setzt sich fort. ME/CFS-Patienten zeigen einen reduzierten zerebralen Blutfluss – 26 %-Reduktionen während orthostatischer Belastung dokumentiert gegenüber 7 % bei Kontrollen (van Campen et al. 2020, *Clinical Neurophysiology Practice* [@VanCampenEtAl2020]) – angetrieben durch autonome Dysfunktion, Endothel-Dysfunktion und reduziertes Blutvolumen. Die Sauerstoffversorgung des Gehirns ist unabhängig davon begrenzt, wie gut es schläft. Kognitive Aufgaben, die einen erhöhten Blutfluss erfordern, würden auf der Angebotsebene weiterhin scheitern.
+
+Das mitochondriale Bild ändert sich ebenfalls nicht. Das Energiedefizit, das ME/CFS antreibt – beeinträchtigte oxidative Phosphorylierung, Dysfunktion der Elektronentransportkette, erhöhtes mitochondriales ROS – ist ein peripheres und systemisches Problem, das die Schlafarchitektur allein nicht lösen kann. Besserer Schlaf könnte die nächtliche mitochondriale Reparatur bescheiden verbessern, aber der fundamentale metabolische Defekt bleibt.
+
+Und die autonome Dysfunktion, die einen Großteil des Schlafproblems überhaupt verursacht hat, bleibt bestehen. Das sympathisch-parasympathische Ungleichgewicht, die orthostatische Intoleranz, die unangemessene Tachykardie und die vaskuläre Dysregulation, die ME/CFS kennzeichnen, sind der Schlafarchitektur vorgelagert, nicht nachgelagert. Der müde-aber-aufgedrehte Zustand zur Schlafenszeit, das nächtliche Erwachen, der Nachtschweiß – all das würde wahrscheinlich auch mit verbesserten Delta-Oszillationen während des Schlafs, der eintritt, bestehen bleiben.
+
+---
+
+## Das Problem der partiellen Verbesserung
+
+Setzen Sie die Vorhersagen zusammen, und Sie erhalten: signifikante, aber unvollständige Verbesserung des Brain Fogs, moderate Verbesserung des Schmerzes, bescheidene Verbesserung der Müdigkeit und praktisch keine Änderung der autonomen Symptome, des PEM oder der Belastungsintoleranz.
+
+Diese Asymmetrie veranschaulicht etwas Fundamentales an ME/CFS, das die meisten Behandlungsdiskussionen nicht anerkennen. Die Krankheit hat mehrere unabhängige pathologische Mechanismen, die gleichzeitig laufen, und sie teilen keine einzige vorgelagerte Ursache. Sie teilen einen gemeinsamen Auslöser – in vielen Fällen eine Virusinfektion – und eine gemeinsame erhaltende Umgebung aus Immunfehlregulation und metabolischem Versagen, aber einmal etabliert, laufen die einzelnen Mechanismen auf teilweise unabhängigen Bahnen.
+
+Brain Fog ist das klarste Beispiel. Er hat mindestens drei unabhängige mechanistische Treiber: glymphatisches Beseitigungsversagen (schlafabhängig, möglicherweise durch Wiederherstellung von Delta behebbar); Kynurenin-Weg-Exzitotoxizität (immunabhängig, vom Schlaf unbeeinflusst); und Mastzell-Histamin-Unterdrückung von Acetylcholin über H3-Rezeptoren (mastzellabhängig, ebenfalls vom Schlaf unbeeinflusst). Das Beheben des ersten hilft. Der Patient könnte sich wesentlich besser fühlen – aber nicht gesund. Das ist genau das Teilverbesserungs-Muster, das Kliniker tatsächlich beobachten: Jede wirksame Intervention bewegt etwas in die richtige Richtung, ohne die Krankheit zu lösen.
+
+---
+
+## Was man nicht tun sollte – und warum Standard-Ratschläge nach hinten losgehen
+
+Der meiste Schlafrat für ME/CFS-Patienten ist aus der allgemeinen Insomnie-Literatur übernommen, wo er funktioniert. Bei ME/CFS, wo die Schlafdysfunktion neben jeder verhaltensbezogenen Komponente eine neurologische und autonome Basis hat, müssen einige Standardempfehlungen modifiziert werden – nicht, weil die verhaltensbezogene Schlafmedizin nichts zu bieten hat, sondern weil bestimmte Komponenten schlecht mit der zugrunde liegenden Physiologie interagieren.
+
+Die Schlafrestriktionstherapie ist der klarste Fall. CBT-I-Protokolle reduzieren typischerweise die Zeit im Bett, um „Schlafdruck" aufzubauen – leichter Schlafentzug, der den fragmentierten Schlaf konsolidiert. Bei ME/CFS scheitert diese Logik schon am ersten Schritt: Das Energiedefizit bedeutet, dass Schlafentzug den homöostatischen Schlafdruck nicht normal aufbaut, weil der Adenosin-Mechanismus bereits dysfunktional ist (Porkka-Heiskanen et al. 1997, *Science* [@PorkkaHeiskanen1997adenosine]; behandelt im früheren Artikel dieser Serie). Stattdessen entleert Schlafrestriktion eine bereits bankrotte Energiereserve, kann Post-Exertionelle Malaise auslösen und verschlimmert die autonome Dysfunktion, die das Schlafproblem antreibt. Die NICE-Leitlinie für ME/CFS (2021, aktualisiert [@NICE2021mecfs]) empfiehlt ausdrücklich personalisiertes Schlafmanagement und nicht Schlafrestriktion. Wenn ein Schlafkliniker CBT-I vorschlägt, sollte die Schlafrestriktions-Komponente ausdrücklich besprochen werden – Patienten sollten sicherstellen, dass ihr Kliniker versteht, dass die ME/CFS-spezifische Physiologie Schlafentzug kontraproduktiv macht. Andere CBT-I-Komponenten sind eine andere Sache: Stimuluskontrolle kann die konditionierte Erregung zur Schlafenszeit adressieren (ein reales Phänomen, das sich über die organische Schlafdysfunktion legt), kognitive Umstrukturierung kann mit der Angst helfen, die sich um den Schlaf ansammelt, und Schlafplanung kann die zirkadiane Ausrichtung unterstützen. Das Problem ist speziell die Schlafrestriktion, nicht die verhaltensbezogene Schlafmedizin als Ganzes.
+
+Die „kein Nickerchen"-Regel ist bei ME/CFS falsch, obwohl unkontrollierte Nickerchen ihr eigenes Problem sind. Standard-Insomnie-Ratschläge verbieten Nickerchen am Tag, um den nächtlichen Schlafantrieb zu erhalten. Nickerchen erfüllen bei ME/CFS einen anderen Zweck: Horizontale Ruhe reduziert die kardialen Vorlastanforderungen (wichtig bei orthostatischer Intoleranz), verringert die Energieausgabe der Skelettmuskulatur und kann die zerebrale Perfusion verbessern, selbst wenn der Patient nicht tatsächlich einschläft. Der Haken ist, dass ME/CFS-Nickerchen auch nicht so erholsam sind wie ein Nickerchen eines gesunden Menschen, weil der Adenosin-Abbau-Mechanismus, der Nickerchen erfrischend macht, selbst beeinträchtigt ist. Die praktische Anleitung sind *kontrollierte Nickerchen* – früher Nachmittag (13:00–15:00), maximal 15–20 Minuten, Wecker gestellt. Späte Nickerchen riskieren, die bereits fragile zirkadiane Phase zu verschieben. Und wenn nachmittägliche Schläfrigkeit auf ungewöhnliche Anstrengung aus den vorherigen 24–72 Stunden folgt, könnte sie das Prodrom von PEM sein und nicht gewöhnliche Müdigkeit; eine Pacing-Bewertung ist angemessener als Schlaf.
+
+Die Nickerchenlänge ist der Ort, an dem echter Schaden entsteht. Nach 30–40 Minuten tritt das Gehirn in den Slow-Wave-Schlaf ein. Bei einem gesunden Menschen erzeugt das Erwachen aus diesem Zustand eine Schlafinertie, die in 15–30 Minuten verfliegt; bei ME/CFS dauert derselbe Übergang 2–4 Stunden, weil die erforderliche thalamische Koordination selbst energiebegrenzt ist. Ein 90-minütiges Nickerchen, das in einen vollen Schlafzyklus eintritt und austritt, kann den Patienten für den Rest des Tages funktional handlungsunfähig machen. Sehr lange Nickerchen – 2–3 Stunden oder mehr – verschlimmern dies, indem sie dem Nachtschlaf Slow-Wave-Schlaf stehlen. Das gesamte tägliche Slow-Wave-Budget ist endlich, und der Tagesanteil ist ohnehin Alpha-kontaminiert, sodass der Patient mit zwei Blöcken schlechten Schlafs statt einem endet.
+
+Die Ausnahme ist wichtig: Während eines Crashs oder einer schweren PEM-Episode kann der Körper verlängerten Schlaf von 12–16 Stunden verlangen. Das ist kein Nickerchen – es ist eine physiologische Notfallreaktion, und dagegen anzukämpfen ist kontraproduktiv. Die relevante Unterscheidung ist zwischen *habitualem* langem Tagesschlaf (ein Muster, das es wert ist, mit einem Kliniker besprochen zu werden, da es auf eine unterbehandelte Schlafarchitektur-Dysfunktion oder unerkannte chronische Überanstrengung hindeuten kann) und *crash-bedingter* Hypersomnie (der Körper erzwingt Ruhe, um weiteren Schaden zu begrenzen).
+
+Zolpidem verdient eine besondere Erwähnung, weil es das Problem verschlimmern kann, für das es verschrieben wurde. Wie im vorherigen Artikel beschrieben, unterdrückt Zolpidem in Mausmodellen die Noradrenalin-Oszillationen, die die glymphatische Beseitigung während des Schlafs antreiben (Hauglund et al. 2025, *Cell* [@Hauglund2025neVasomotion]; menschliche Validierung ausstehend). Wenn dies auf Menschen übertragbar ist, schläft der Patient länger, aber das Abfallbeseitigungssystem des Gehirns aktiviert sich nicht richtig. Das morgendliche „toxische" Gefühl kann trotz der erhöhten Gesamtschlafzeit bestehen bleiben oder sich verschlimmern. *Wichtig: Patienten, denen derzeit Zolpidem oder ein Z-Medikament verschrieben ist, sollten nicht selbst absetzen. Ein abruptes Absetzen birgt Risiken, einschließlich Rebound-Insomnie und bei längerer Anwendung Krampfanfälle. Jede Änderung sollte mit dem Verschreiber besprochen werden.*
+
+Zwei weitere Gewohnheiten verdienen eine kurze Erwähnung. Sich den ganzen Tag wach zu halten, um „den Schlaf für heute Nacht aufzusparen", kostet metabolisch mehr, als es einbringt: Die Energie, ein entleertes System stundenlang aufrecht und aktiv zu halten, übersteigt typischerweise die zirkadianen Kosten einer kurzen frühen Nachmittagsruhe, und Patienten kommen oft in metabolisch schlechterer Verfassung und paradoxerweise schlechterer Schlafqualität zur Schlafenszeit. Alkohol ist ähnlich kontraproduktiv – er fördert anfängliche Sedierung, fragmentiert aber die zweite Nachthälfte, unterdrückt den REM-Schlaf, verschlimmert die autonome Instabilität und beeinträchtigt die glymphatische Funktion. In einem System, in dem jede Minute qualitativ hochwertigen Slow-Wave-Schlafs zählt, ist sein Nettoeffekt stark negativ.
+
+---
+
+## Aktuelle pharmakologische Ansätze zum Alpha-Delta-Schlaf
+
+Mehrere vorhandene Medikamente zielen teilweise auf die Alpha-Intrusion ab, obwohl keines sie sauber eliminiert. Die Dosisbereiche unten spiegeln die veröffentlichte klinische Anwendung wider – sie sind keine Verschreibungsanleitung. Alle erfordern ärztliche Bewertung und Überwachung, insbesondere angesichts der bei ME/CFS häufigen kardialen, autonomen und Wechselwirkungsrisiken. Beginnen, beenden oder passen Sie kein Medikament auf Grundlage dieses Artikels an.
+
+Gabapentin und Pregabalin sind die am häufigsten verschriebenen. Sie binden Alpha-2-Delta-Untereinheiten spannungsgesteuerter Kalziumkanäle, erhöhen den Slow-Wave-Schlaf und reduzieren die Alpha-Frequenzaktivität während NREM (Lo et al. 2002, *Epilepsia* [@Lo2002gabapentinSWS]). Gabapentin (100–600 mg zur Schlafenszeit) ist First-Line, wenn Schmerz und Schlafstörung koexistieren; Pregabalin (25–150 mg) hat ähnliche Wirksamkeit mit vorhersehbarerer Pharmakokinetik. Beide verbessern die Delta-Power in der Polysomnographie, aber keines eliminiert die Alpha-Intrusion vollständig – sie verschieben das Verhältnis, statt die zugrunde liegende Oszillationsdysfunktion zu lösen.
+
+Niedrig dosierte trizyklische Antidepressiva (Amitriptylin 5–25 mg, Doxepin 3–6 mg) verbessern die subjektive Schlafqualität durch Histamin-H1-Blockade und serotonerge Effekte, aber ihre Wirkung speziell auf die Alpha-Delta-Architektur ist bescheiden. Trazodon (25–100 mg) wird häufig für die Schlafinitiierung verwendet, verändert aber das Alpha/Delta-Power-Verhältnis nicht konsistent.
+
+Die dualen Orexinrezeptor-Antagonisten Suvorexant und Lemborexant zielen auf die Orexin-getriebene Hyperarousal, die die Alpha-Intrusion aufrechterhalten kann (López-Amador et al. 2025, *Exploration* [@LopezAmador2025orexin]), und sind mechanistisch interessant angesichts der dokumentierten Orexin-System-Dysfunktion bei ME/CFS – obwohl die klinische Erfahrung in dieser Population begrenzt bleibt. Z-Medikamente (Zolpidem, Eszopiclon) sind für die Schlafinitiierung wirksam, adressieren aber nicht die nicht-erfrischende Qualität des ME/CFS-Schlafs; Zolpidems Unterdrückung der glymphatik-antreibenden Noradrenalin-Oszillationen könnte die Abfallansammlung aktiv verschlimmern (Hauglund et al. 2025 [@Hauglund2025neVasomotion]).
+
+Das Muster durch all dies ist dasselbe: partielle Verbesserung der Schlafqualität, keine spezifische Korrektur der thalamischen Oszillationsdysfunktion, die die Alpha-Delta-Intrusion erzeugt. Wir haben noch kein pharmakologisches Werkzeug, das den Mechanismus direkt anzielt.
+
+## Ein spezifischeres Ziel – und eine Studie, die es testen könnte
+
+Ethosuximid ist ein selektiver T-Typ-Kalziumkanal-Blocker, der in der Absence-Epilepsie verwendet wird (Coulter et al. 1989, *Neuroscience Letters* [@Coulter1989anticonvulsantCalcium]), und es zielt direkt auf die CaV3.1-Kanäle, die die thalamischen Oszillationen erzeugen. Eine Crossover-Studie mit Einzeldosis – Ethosuximid 250 mg gegenüber Placebo, nächtliche Polysomnographie, die Delta-Power und den Alpha-Delta-Index misst – würde direkt beantworten, ob eine T-Typ-Kanal-Blockade den ME/CFS-Schlaf von Alpha-kontaminiert zu reinem Delta verschieben kann.
+
+Die Richtung ist wirklich ungewiss. Wenn die Alpha-Delta-Intrusion aus *unzureichendem* T-Typ-Strom für die Delta-Erzeugung resultiert (der Kanal bereits hypoaktiv wegen des Energieversagens), dann würde ein weiteres Blockieren den Schlaf verschlechtern. Wenn sie aus *restlichem* T-Typ-Strom resultiert, der mit der falschen Frequenz feuert (der Kanal feuert, aber mit Alpha- statt Delta-Frequenz wegen veränderter konkurrierender Ströme), dann könnte ein selektives Blockieren die abweichende Alpha-Komponente spezifisch unterdrücken. Diese beiden Möglichkeiten sagen entgegengesetzte Ergebnisse desselben Medikaments voraus. Eine Nacht, ein Medikament, ein PSG – und die thalamische Kalziumhypothese für die ME/CFS-Schlafdysfunktion ist entweder gestützt oder widerlegt, und wir lernen, ob die pharmakologische Behebung der Alpha-Intrusion mit derzeit verfügbaren Werkzeugen überhaupt möglich ist.
+
+---
+
+## Warum das über den Schlaf hinaus wichtig ist
+
+Der wahre Wert des Gedankenexperiments liegt nicht darin, vorherzusagen, wie sehr eine einzelne Intervention helfen würde. Er liegt darin, ein strukturelles Merkmal der Krankheit sichtbar zu machen, das oft unbenannt bleibt: ME/CFS ist ein Mehr-Mechanismus-System, und diese Mechanismen sind teilweise voneinander unabhängig.
+
+Jeder Artikel dieser Schlafserie hat ein anderes Stück beschrieben – Alpha-Wellen-Intrusion, glymphatisches Versagen, Adenosin-Fehlregulation, autonomes Übergabefehler, thermoregulatorische Instabilität, zirkadiane Entkopplung, Orexin-Unterdrückung. Alle beeinträchtigen unabhängig die Schlafqualität, und alle haben ihre eigenen teilweise unterschiedlichen vorgelagerten Ursachen. Einen anzugehen hilft wirklich, und das zählt für die Menschen, die damit leben. Aber es reicht nicht.
+
+Manche Patienten verstehen das bereits intuitiv. Sie verfolgen ihren Schlaf mit Wearables, bemerken, dass einige Nächte klar „Alpha-Nächte" sind, während andere „autonome Nächte" oder „Temperaturnächte" sind, und betreiben faktisch empirische Phänotypisierung ihrer eigenen Krankheit. Die Forschungsgemeinschaft sollte diese Granularität erreichen. Polysomnographie mit Spektralanalyse, autonome Tests und zirkadiane Phasenmessung sollten der Pflegestandard der Bewertung sein, nicht die Ausnahme.
+
+Das Feld wartet nicht auf ein einzelnes Durchbruchs-Medikament. Es wartet auf die Anerkennung, dass ME/CFS dasselbe Mehrziel-, Mechanismus-angepasste Denken erfordert, das vor Jahrzehnten in Onkologie und Kardiologie Standard wurde – und das hier immer noch nicht systematisch angewendet wurde.
+
+---
+
+
+---
+
+*Vorheriger Artikel dieser Serie: [Müde, aber aufgedreht](https://www.linkedin.com/pulse/) – der autonome Verrat zur Schlafenszeit.*

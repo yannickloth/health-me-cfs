@@ -1,0 +1,117 @@
+---
+title: "Warum Stimulanzien bei Brain Fog helfen, aber nicht bei PEM"
+description: "Dies ist der sechste Teil einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Dieser Artikel erklärt die auffallende Dissoziation zwischen dem Nutzen von Stimulanzien für kognitive Symptome und ihrer Nullwirkung auf Post-Exertionelle Malaise – und was sie über eine ungetes..."
+author: "Yannick Loth"
+date: "2026-06-06"
+categories: [ADHD, Treatment, PEM]
+lang: de
+---
+
+Dies ist der sechste Teil einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet. Dieser Artikel erklärt die auffallende Dissoziation zwischen dem Nutzen von Stimulanzien für kognitive Symptome und ihrer Nullwirkung auf Post-Exertionelle Malaise – und was sie über eine ungetestete Behandlungskombination enthüllt. Das Modell der metabolischen Reserve postuliert, dass ADHS ein zugrunde liegendes Gehirn-Energiedefizit beinhaltet [@Zametkin1990].
+
+---
+
+## Die Daten
+
+Eine PNAS-Umfrage von 2025 mit **3.925 ME/CFS-Patienten** bewertete die Behandlungsergebnisse über mehrere Domänen [@Vernon2025PNAS]:
+
+- Stimulanzien verbesserten **Brain Fog bei 77,1 %**
+- Stimulanzien verbesserten **die Wahrnehmung von Müdigkeit bei 71,7 %**
+- Stimulanzien hatten einen **Nettoeffekt von -1,5 % auf PEM**
+
+Diese drei Zahlen scheinen widersprüchlich zu sein. Wie kann etwas die Müdigkeit um 72 % verbessern und gleichzeitig eine Nullwirkung auf das definierende Symptom der Krankheit haben?
+
+Das Modell der metabolischen Reserve bietet eine kohärente Erklärung.
+
+---
+
+## Was Stimulanzien tatsächlich tun
+
+Stimulanzien – Methylphenidat, Amphetamine, Modafinil, Solriamfetol – erhöhen die Verfügbarkeit von Dopamin und Noradrenalin an der Synapse. Das macht die neuronale Signalgebung effizienter. Jeder Gedanke, jede Entscheidung, jeder Akt anhaltender Aufmerksamkeit erfordert **weniger Feuereffekte** und daher **weniger metabolische Energie**.
+
+In technischen Begriffen: Stimulanzien reduzieren die Energie-**Nachfrage** pro kognitiver Einheit, ohne die Energie-**Versorgung** zu erhöhen.
+
+Das subjektive Erleben: Das Denken wird leichter. Die ständige Anstrengung, die nur zur Aufrechterhaltung der Aufmerksamkeit nötig ist – der Grundzustand sowohl im ADHS- als auch im ME/CFS-Brain-Fog –, lässt nach. Die Zahlen von 77 % und 71,7 % spiegeln diese reale Verbesserung der kognitiven Effizienz wider.
+
+---
+
+## Warum PEM sich nicht verbessert
+
+Post-Exertionelle Malaise wird nicht dadurch ausgelöst, wie hart Sie *glauben*, zu arbeiten. Sie wird ausgelöst durch die Menge an Gesamtenergie, die Sie *tatsächlich ausgeben* – relativ zu Ihrer Produktionskapazität.
+
+PEM tritt auf, wenn die gesamte metabolische Nachfrage die maximale mitochondriale Produktion lange genug überschreitet, um oxidativen Schaden zu initiieren [@walitt2024deep]. Stimulanzien erhöhen die mitochondriale Kapazität nicht. Sie heben die Decke nicht an. Sie reduzieren die Kosten einer spezifischen Nachfragekategorie (Kognition), ohne die Decke zu ändern, die PEM bestimmt.
+
+Und hier ist die Falle: **Wenn Kognition leichter wird, machen Sie mehr.**
+
+Sie fühlen sich besser. Sie übernehmen das zusätzliche Meeting. Sie holen E-Mails auf. Sie denken „vielleicht schaffe ich heute einen normalen Nachmittag". Das Stimulans hat Ihnen nicht mehr Energie gegeben. Es hat vorhandene Energie billiger gemacht, um sie fürs *Denken* auszugeben. Also geben Sie sie aus – plus mehr, weil die verbesserte Kognition Sie befähigt fühlen lässt.
+
+Das Ergebnis: Der Gesamtenergieverbrauch steigt. Der kognitive Anteil ist pro Einheit billiger, aber die Anzahl der Einheiten steigt. Nettoeffekt auf die gesamte metabolische Nachfrage: etwa null. Nettoeffekt auf PEM: etwa null.
+
+Unter dem Modell der metabolischen Reserve ist die -1,5 % keine pharmakologische Fehlleistung – sie ist eine verhaltensbezogene. Eine alternative Interpretation: Stimulanzien beeinflussen den PEM-Mechanismus überhaupt nicht, unabhängig vom Pacing-Verhalten, weil PEM eine grundlegend andere Pathophysiologie als kognitive Müdigkeit hat. Die Unterscheidung dieser Interpretationen erfordert eine Studie, die Stimulanzien mit erzwungenem Pacing kombiniert (siehe unten).
+
+---
+
+## Die ungetestete Vorhersage
+
+Das Modell der metabolischen Reserve macht eine spezifische, testbare Vorhersage:
+
+**Stimulanzien-behandelte ME/CFS-Patienten, die striktes Aktivitäts-Pacing aufrechterhalten, sollten eine NIEDRIGERE PEM-Häufigkeit zeigen als unbehandelte Patienten.**
+
+Die Logik: Wenn das Stimulans die metabolischen Kosten der kognitiven Funktion um (sagen wir) 20 % reduziert und der Patient dasselbe Aktivitätsniveau beibehält, dann werden 20 % seines kognitiven Energiebudgets freigesetzt – seiner Reserve hinzugefügt. Mehr Reserve = mehr Puffer, bevor die PEM-Schwelle überschritten wird.
+
+**Stimulanzien-behandelte Patienten, die ihre Aktivität erhöhen, sollten eine HÖHERE PEM-Häufigkeit zeigen.**
+
+Die Logik: Sie fühlen sich besser, tun mehr, überschreiten die Hülle. Das Stimulans hat es ihnen ermöglicht, zu überschießen, ohne es zu merken.
+
+Die **Netto -1,5 %** in der Vernon-Umfrage ist wahrscheinlich der Durchschnitt dieser beiden entgegengesetzten Effekte. Einige Patienten hielten Tempo und profitierten. Einige Patienten taten mehr und crashten. Der Durchschnitt: etwa null.
+
+Keine Studie hat dies direkt getestet. Keine Studie hat die Stimulanzien-Verordnung mit erzwungenen Pacing-Protokollen kombiniert. Die Kombination **Stimulanzien + striktes Pacing** ist die ungetestete Intervention, von der das Modell vorhersagt, dass sie funktionieren sollte.
+
+---
+
+## Ein sekundärer Nutzen: Mitochondrienschutz?
+
+Es gibt eine separate Beweislinie, die nahelegt, dass Methylphenidat direkte mitochondriale Effekte haben könnte [@Almutairi2024mitoadhd]:
+
+- Erhöht die **Parkin**-Expression (ein Mitophagie-Regulator – hilft, beschädigte Mitochondrien zu beseitigen)
+- Reduziert die Produktion **reaktiver Sauerstoffspezies**
+- Hält das mitochondriale Membranpotential aufrecht
+
+Wenn bestätigt, bedeutet dies, dass Methylphenidat nicht nur die kognitive Energienachfrage reduziert – es könnte auch die Mitochondrien, die diese Energie produzieren, leicht schützen. Ein Medikament, das beides tut, wäre im Rahmen der metabolischen Reserve besonders wertvoll. Diese Evidenz ist jedoch überwiegend präklinisch und wurde bei ME/CFS-Patienten nicht validiert.
+
+---
+
+## Die Blockmans-RCT
+
+Die strengste Studie von Methylphenidat bei ME/CFS war eine doppelblinde Crossover-RCT (n = 60, 4 Wochen pro Arm) [@Blockmans2006methylphenidate]:
+
+- Die Ermüdungswerte fielen unter Methylphenidat im Vergleich zu Placebo signifikant
+- Die Konzentration verbesserte sich signifikant
+- Lebensqualität und körperliche Funktion verbesserten sich **nicht** signifikant
+- In einem separaten langfristigen Beobachtungs-Follow-up derselben Gruppe (n = 149 Befragte von 194 Verschriebenen): 65 % hatten Methylphenidat abgesetzt; unter den Fortsetzenden berichteten 48 % eine ≥50 %ige Ermüdungsverbesserung, 62 % eine ≥50 %ige Konzentrationsverbesserung
+
+Die hohe Abbruchrate (65 % abgesetzt) ist selbst aufschlussreich. Konsistent mit dem Modell: Patienten, die absetzten, könnten jene gewesen sein, die die Aktivität erhöhten, schlechteres PEM erlebten und die Verschlechterung dem Medikament zuschrieben. Patienten, die fortfuhren, könnten jene gewesen sein, die das Pacing beibehielten und den kognitiven Nutzen ohne PEM-Kosten erlebten.
+
+---
+
+## Praktische Implikationen
+
+Für ME/CFS-Patienten, die Stimulanzien verwenden:
+
+1. **Der Nutzen ist „dieselbe Menge kostet mich weniger" – nicht „ich kann mehr tun".** Behalten Sie dasselbe Aktivitätsniveau bei, das Sie vor dem Beginn des Stimulans hatten.
+
+2. **Verwenden Sie externe Timer, nicht das innere Gefühl, um zu entscheiden, wann Sie aufhören.** Das Stimulans unterdrückt das subjektive Warnsignal. Bis Sie sich unter einem Stimulans kognitiv müde fühlen, haben Sie Ihre Hülle bereits überschritten.
+
+3. **Verfolgen Sie PEM 24 h und 48 h nach kognitiven Sitzungen.** Wenn sich PEM trotz verbesserter Kognition während der Sitzungen verschlimmert, geben Sie die Ersparnisse aus, statt sie zu banken.
+
+4. **Erwägen Sie Pacing zuerst, Stimulans zweitens.** Etablieren Sie zuerst eine stabile, gepacete Baseline. Dann fügen Sie das Stimulans hinzu. Überwachen Sie, ob sich die PEM-Häufigkeit ändert. Wenn sie abnimmt: Die Kombination funktioniert wie vorhergesagt. Wenn sie zunimmt: Sie haben die Aktivität erhöht, ohne es zu merken.
+
+5. **Kardiale Vorsicht bei POTS-Patienten.** Methylphenidat und Amphetamine sind sympathomimetisch. Bei den 30–40 % der ME/CFS-Patienten mit komorbiderm POTS können sie die Tachykardie verschlimmern. Spezifische Bedenken: (a) Stimulanzien + Midodrin können hypertensive Spitzen verursachen; (b) Stimulanzien + Betablocker erzeugen entgegengesetzte kardiovaskuläre Antriebe; (c) Stimulanzien + Fludrocortison erhöhen die gesamte sympathische Last. Wenn Stimulanzien bei einem POTS-Patienten begonnen werden, verwenden Sie die niedrigste wirksame Dosis, überwachen Sie Ruhe- und orthostatische Herzfrequenz und co-managen Sie mit dem Kliniker, der die POTS-Medikamente verschreibt.
+
+6. **Der Schweregrad zählt.** Die obigen Pacing-Ratschläge setzen voraus, dass der Patient strukturierte kognitive Arbeits-Sitzungen umsetzen kann. Schwere und sehr schwere ME/CFS-Patienten – jene, die bettlägerig oder hausgebunden sind – können Timer, Tracking oder Aktivitätsentscheidungen möglicherweise ohne Unterstützung durch die Pflegeperson nicht selbst verwalten. Passen Sie die Prinzipien an das funktionale Niveau des Patienten an.
+
+*Hinweis: Dies sind Pacing-Prinzipien, die aus dem Modell der metabolischen Reserve abgeleitet sind, keine Verschreibungsanleitung. Alle Medikamentenentscheidungen – einschließlich Stimulanzien-Beginn, Dosierung und kardialer Überwachung – erfordern einen qualifizierten Kliniker.*
+
+---
+
+*Teil 6 einer Serie über die Energiebiologie, die ADHS, Autismus und ME/CFS verbindet.*

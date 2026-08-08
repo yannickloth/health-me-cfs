@@ -1,0 +1,95 @@
+---
+title: "Fatigué mais surexcité : la trahison autonome à l'heure du coucher"
+description: "Il y a une cruauté particulière que les patients atteints d'EM/SFC connaissent bien mais voient rarement décrite dans la littérature médicale. Vous êtes épuisé — pas fatigué, pas somnolent, mais l'épuisement profond jusqu'à l'os d'un corps qui a tourné à vide toute la journée. Chaque fibre dit : d..."
+author: "Yannick Loth"
+date: "2026-05-13"
+categories: [Sleep, Autonomic Dysfunction]
+lang: fr
+---
+
+Il y a une cruauté particulière que les patients atteints d'EM/SFC connaissent bien mais voient rarement décrite dans la littérature médicale. Vous êtes épuisé — pas fatigué, pas somnolent, mais l'épuisement profond jusqu'à l'os d'un corps qui a tourné à vide toute la journée. Chaque fibre dit : dormez. Maintenant.
+
+Vous vous allongez. Vous fermez les yeux. Et votre cerveau s'allume.
+
+La fréquence cardiaque monte au lieu de baisser. Les pensées s'emballent — pas des pensées productives, pas exactement de l'anxiété, mais une qualité bourdonnante et électrique de vigilance qui ne peut pas être éteinte. Le corps est mou d'épuisement ; le système nerveux bourdonne d'activation. Vous êtes simultanément trop fatigué pour bouger et trop surexcité pour dormir.
+
+Ce n'est pas de l'insomnie au sens conventionnel, et ce n'est pas une mauvaise hygiène du sommeil. Le système nerveux autonome a perdu la capacité de passer de son mode diurne à son mode nocturne, et tout ce qui dépend de cette transition échoue avec elle.
+
+---
+
+## L'interrupteur qui ne bascule pas
+
+Dans la physiologie saine, la transition de l'éveil au sommeil implique un transfert coordonné entre le système nerveux sympathique (la branche « combat ou fuite » qui domine pendant la journée) et le système nerveux parasympathique (la branche « repos et digestion » qui devrait dominer la nuit).
+
+Ce transfert est activement piloté par l'hypothalamus, orchestré en cascade : baisse du cortisol, montée de la mélatonine, augmentation du tonus vagal parasympathique, diminution de la noradrénaline et de l'épinéphrine, vasodilatation périphérique (pour évacuer la chaleur et abaisser la température centrale), et suppression progressive des neurones orexine promoteurs d'éveil. Chaque étape dépend des précédentes, et la séquence complète prend 60–90 minutes chez les personnes saines — la période de « décompression » que ciblent les conseils d'hygiène du sommeil.
+
+Dans l'EM/SFC, ce transfert échoue à plusieurs points simultanément, et les échecs se conjuguent.
+
+Les études de variabilité de la fréquence cardiaque montrent constamment un tonus parasympathique réduit dans l'EM/SFC, même pendant le sommeil — une puissance HRV haute fréquence plus faible et un rapport sympathique-à-parasympathique élevé tout au long de la nuit [@Rahman2019sleepCFS]. La branche sympathique ne se désengage tout simplement pas la nuit — elle continue de conduire une fréquence cardiaque élevée, une pression artérielle élevée et une noradrénaline élevée. Physiologiquement, le corps du patient est en « mode diurne » alors qu'il est allongé dans une pièce sombre à minuit.
+
+La noradrénaline soutenue comporte une conséquence en aval spécifique au-delà de la vigilance : elle inhibe directement les canaux aquaporine-4 (AQP4) sur les astrocytes, supprimant l'élimination glymphatique [@Xie2013glymphatic]. Le même neurochimique qui maintient le patient éveillé bloque aussi le système d'élimination des déchets du cerveau — si bien que même quand le sommeil arrive finalement, il arrive dans un cerveau dont la plomberie a été fermée par son propre système nerveux.
+
+Puis il y a le problème de température. L'endormissement exige une baisse d'environ 1 °C de la température corporelle centrale, obtenue par vasodilatation dans les mains et les pieds. La dysfonction autonome altère précisément cette réponse vasculaire. Le corps ne peut pas évacuer la chaleur correctement, la température centrale reste élevée, et la porte de sommeil hypothalamique ne s'ouvre pas. Les patients remarquent souvent que leurs mains et leurs pieds sont froids au coucher — ce qui est l'inverse de ce qui devrait se produire, puisque la vasoconstriction périphérique retient la chaleur plutôt que de la rayonner.
+
+Enfin, la régulation de l'orexine se dérègle. Les neurones orexine dans l'hypothalamus sont le système maître promoteur d'éveil ; ils devraient être supprimés chaque soir par la pression de sommeil montante et les signaux circadiens. Une revue intégrative récente de 27 études a trouvé des niveaux d'orexine-A globalement constamment réduits dans l'EM/SFC, mais le schéma temporel de suppression et d'activation semble dysrégulé de manières qui produisent une vigilance inappropriée la nuit et une somnolence inappropriée le jour [@LopezAmador2025orexin].
+
+---
+
+## La contribution inflammatoire
+
+L'échec autonome n'est pas non plus toute l'histoire. Les cytokines inflammatoires périphériques — IL-1β, IL-6, TNF-α, élevées chez de nombreux patients atteints d'EM/SFC — traversent dans le cerveau via les organes circumventriculaires et les afférences vagales, où elles agissent sur les circuits hypothalamiques qui régulent à la fois le sommeil et l'éveil. L'effet est réellement paradoxal : ces cytokines augmentent simultanément la pression de sommeil (le cerveau sait que le corps est malade et veut forcer le repos) et fragmentent l'architecture du sommeil (l'état inflammatoire perturbe la coordination oscillatoire nécessaire au sommeil profond soutenu). Cette double action — pro-somnogène mais fragmentante du sommeil — est bien caractérisée dans la littérature cytokines-sommeil [@Krueger2001cytokinesSleep].
+
+Vous avez donc une poussée inflammatoire qui pousse vers le sommeil, tandis que l'activation sympathique et la perturbation inflammatoire du sommeil empêchent le sommeil d'être réparateur. Les deux systèmes sont activés par la maladie. Ils tirent dans des directions opposées, et le patient est pris entre eux, épuisé et incapable de se reposer.
+
+---
+
+## À quoi ressemble la nuit qui s'annonce
+
+Si le patient finit par s'endormir — souvent des heures après s'être couché — le sommeil qui suit porte les marques de la transition ratée tout au long.
+
+Les éveils nocturnes sont fréquents : cinq à vingt fois ou plus par nuit, souvent avec une pleine vigilance et des difficultés à se rendormir. Chaque éveil réengage le système sympathique, ré-élève la noradrénaline, et remet à zéro tous les progrès de sommeil lent qui avaient été faits. Le sommeil sain implique aussi un creux nocturne de 10–20 % de la pression artérielle, mais beaucoup de patients atteints d'EM/SFC sont des « non-dippers » — leur pression artérielle reste élevée ou même monte pendant le sommeil, un marqueur fiable d'activation sympathique persistante tout au long de la nuit.
+
+L'instabilité thermorégulatrice qui a empêché l'endormissement ne se résout pas une fois le sommeil arrivé. La dégranulation des mastocytes libère de l'histamine et des prostaglandines qui altèrent le tonus vasculaire de manière imprévisible, et certains patients traversent des cycles de sueurs abondantes et de frissons plusieurs fois par nuit, chaque cycle déclenchant un éveil qui fragmente davantage le sommeil. La fréquence cardiaque raconte la même histoire : au lieu de descendre aux 50–60 BPM typiques d'un sommeil reposant, elle reste à 75–90 ou plus. Les patients équipés de wearables peuvent voir cela directement — le graphique de fréquence cardiaque nocturne qui devrait tracer un creux en forme de U lisse montre à la place un plateau bruyant et élevé.
+
+---
+
+## Pourquoi les conseils d'hygiène du sommeil manquent la cible
+
+Les recommandations standard d'hygiène du sommeil — heure de coucher constante, pièce sombre, pas d'écrans avant de dormir, éviter la caféine — ne sont pas fausses, juste insuffisantes. Elles traitent les facteurs comportementaux et environnementaux qui soutiennent le transfert autonome, mais un système autonome structurellement incapable de faire la transition ne sera pas réparé en ajustant les routines du coucher.
+
+Dire à un patient atteint d'EM/SFC de « pratiquer une meilleure hygiène du sommeil » pour son état fatigué-mais-surexcité, c'est comme dire à quelqu'un avec un thermostat cassé d'ouvrir une fenêtre. La fenêtre aide. Le thermostat est toujours cassé.
+
+Des interventions plus ciblées existent, mais aucune n'est curative et toutes exigent une évaluation par un prescripteur — surtout compte tenu des comorbidités autonomes fréquentes dans l'EM/SFC. Côté autonome, les stratégies qui réduisent l'activation sympathique — stimulation du nerf vague, exercices de respiration lente si tolérés, et approches pharmacologiques comme la clonidine ou la guanfacine à faible dose (toutes deux des agents actifs cardiovasculairement exigeant une surveillance chez les patients avec hypotension orthostatique) — traitent le déséquilibre racine plutôt que ses effets en aval. Les preuves dans l'EM/SFC sont limitées mais mécanistiquement fondées.
+
+La température peut être manipulée directement : un bain chaud 90 minutes avant le coucher suivi d'un refroidissement peut artificiellement déclencher la baisse de température centrale que le système autonome ne fournit pas [@Haghayegh2019warmBathSleep] (méta-analyse montrant une réduction d'environ 10 minutes de la latence d'endormissement). Certains patients trouvent que réchauffer les extrémités — chaussettes chauffantes, bouillotte aux pieds — favorise la vasodilatation périphérique qui devrait initier spontanément l'endormissement.
+
+Pour le problème de l'orexine, les antagonistes doubles des récepteurs de l'orexine (DORA) comme le suvorexant et le lemborexant suppriment la signalisation orexine promotrice d'éveil sans la sédation brutale des benzodiazépines ou des Z-drugs. Ils consolident le sommeil en réduisant les épisodes de veille prolongée et préservent mieux l'architecture normale du sommeil que les options plus anciennes. L'expérience clinique précoce dans l'EM/SFC a été prudemment positive, bien que les essais contrôlés fassent encore défaut.
+
+L'ancrage circadien vaut la peine d'être considéré séparément de la sédation. La mélatonine à faible dose (0,5–1 mg) calée sur l'apparition de la mélatonine sous lumière tamisée de l'individu — pas l'instruction arbitraire « à prendre au coucher » du paquet — peut aider à ancrer la phase circadienne et à renforcer le déclin vespéral du cortisol. L'exposition à la lumière vive matinale renforce le signal circadien depuis l'autre direction, mais doit être abordée avec prudence : pour les patients sévères et très sévères, la lumière vive peut déclencher une surcharge sensorielle et aggraver les symptômes.
+
+---
+
+## Le coût de la nuit perdue
+
+Chaque heure passée dans l'état fatigué-mais-surexcité comporte un coût qui va bien au-delà de l'épuisement du lendemain. L'activation sympathique soutenue maintient la noradrénaline élevée et l'élimination glymphatique supprimée toute la nuit ; l'endormissement retardé grignote le temps de sommeil lent total ; et tout sommeil fragmenté qui arrive perturbe la consolidation de la mémoire, altère la sécrétion d'hormone de croissance, et laisse la recalibration immunitaire incomplète.
+
+La mauvaise nuit se compose. Le patient ne se sent pas seulement plus mal le lendemain — il y a des dommages accumulés d'une maintenance nocturne ratée, des dommages qui peuvent mettre des jours ou des semaines à faire surface comme un brouillard cérébral qui s'approfondit, une douleur aggravée, ou un épisode complet de malaise post-effort déclenché par une activité qui aurait été gérable après une nuit véritablement réparatrice.
+
+---
+
+## Les jambes qui ne veulent pas se reposer
+
+Même quand le sommeil arrive enfin, le corps peut ne pas coopérer.
+
+Le syndrome des jambes sans repos (RLS) et le trouble des mouvements périodiques des membres (PLMD) sont des comorbidités reconnues de l'EM/SFC, bien que leur prévalence spécifique à l'EM/SFC n'ait pas été rigoureusement étudiée. Le RLS implique un besoin irrépressible de bouger les jambes, typiquement pire au repos et le soir — précisément quand les patients atteints d'EM/SFC essaient de s'installer dans le sommeil. Les liens mécanistiques les plus forts vont à la dysrégulation du fer (la carence en fer centrale du SNC peut survenir même avec des niveaux de fer sériques normaux) et à la dysfonction dopaminergique. L'étude de phénotypage profond des NIH a trouvé des niveaux réduits de DOPA, de DOPAC et de DHPG dans le liquide céphalo-rachidien — des métabolites de la voie catécholaminergique — chez les patients atteints d'EM/SFC par rapport aux témoins [@walitt2024deep]. Un résultat d'une petite cohorte (n=17 vs 21 témoins), pas encore répliqué indépendamment, mais qui implique directement les voies dopaminergiques impliquées dans le RLS.
+
+Le PLMD — flexion périodique de la hanche et du genou avec dorsiflexion du pied, survenant toutes les 20–40 secondes pendant le sommeil — perturbe l'architecture du sommeil sans que le patient se réveille nécessairement. Un index PLMD au-dessus de 15 événements par heure est diagnostique (critères ICSD-3). Chaque mouvement déclenche un micro-éveil, fragmentant la continuité du sommeil et empêchant les époques soutenues de sommeil lent nécessaires à l'élimination glymphatique.
+
+Pour les patients atteints d'EM/SFC, la combinaison est cruelle : l'échec du transfert autonome retarde l'endormissement, le RLS empêche de s'installer, l'intrusion d'ondes alpha dégrade la qualité du sommeil lent une fois le sommeil arrivé, et le PLMD fragmente ce qui reste. Chaque mécanisme altère indépendamment la restauration ; ensemble, ils peuvent l'éliminer — un échec nocturne à chaque niveau de la transition autonome au contrôle moteur, se re-nourrissant dans chaque autre échec du système.
+
+---
+
+
+---
+
+*Article précédent dans cette série : [Le paradoxe de la sieste](https://www.linkedin.com/pulse/) — pourquoi le repos ne fait pas de remise à zéro dans l'EM/SFC.*

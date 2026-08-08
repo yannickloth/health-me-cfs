@@ -1,0 +1,111 @@
+---
+title: "Et si nous réparions l'intrusion alpha ? Une expérience de pensée dans l'EM/SFC"
+description: "Personne n'a encore mené cette expérience. Mais la question vaut quand même la peine d'être posée."
+author: "Yannick Loth"
+date: "2026-05-16"
+categories: [Sleep, Treatment]
+lang: fr
+---
+
+Personne n'a encore mené cette expérience. Mais la question vaut quand même la peine d'être posée.
+
+Le sommeil alpha-delta — l'intrusion d'ondes alpha de fréquence d'éveil dans le sommeil profond — est l'une des anomalies objectives les plus documentées dans l'EM/SFC et la fibromyalgie (Moldofsky et al. 1975, *Psychosomatic Medicine* [@Moldofsky1975alphaDeltaSleep] ; Roizenblatt et al. 2001, *Arthritis & Rheumatism* [@Roizenblatt2001alphaFM]). Il empêche le cerveau d'entrer dans les oscillations à ondes lentes qui entraînent la restauration nocturne. Un article précédent de cette série a décrit la dysfonction des canaux calciques thalamiques supposée la provoquer (pas encore directement testée chez les patients atteints d'EM/SFC).
+
+Supposons qu'un médicament, un protocole de stimulation cérébrale, ou une future intervention puisse proprement éliminer cette intrusion et restaurer des oscillations delta pures pendant le sommeil lent. Qu'est-ce qui changerait ? Qu'est-ce qui ne changerait pas ? La réponse s'avère révéler quelque chose d'important sur pourquoi l'EM/SFC résiste aux interventions à cible unique — et ce n'est pas un tableau particulièrement encourageant.
+
+---
+
+## Ce qui s'améliorerait
+
+Le premier et plus direct bénéfice serait la restauration partielle de l'élimination glymphatique. Les oscillations delta sont le principal moteur de l'écoulement glymphatique — le système d'élimination des déchets du cerveau qui évacue les débris métaboliques pendant le sommeil profond (Xie et al. 2013, *Science* [@Xie2013glymphatic]). Les espaces entre les cellules cérébrales s'élargissent pendant le sommeil delta, permettant au liquide céphalo-rachidien de circuler et d'évacuer les déchets accumulés. Avec l'intrusion alpha éliminée et des époques delta soutenues restaurées, ce système d'élimination retrouverait sa force motrice. Le résultat : moins d'accumulation de médiateurs inflammatoires, de protéines mal repliées et de déchets métaboliques dans le tissu cérébral. La sensation matinale de « gueule de bois » — cette sensation toxique et empoisonnée que décrivent les patients au réveil — s'améliorerait probablement. Les maux de tête matinaux entraînés par l'altération de l'élimination nocturne diminueraient probablement.
+
+La consolidation de la mémoire s'améliorerait aussi. Les fuseaux de sommeil (rafales thalamiques de 12–14 Hz) se couplent aux ondulations de pointes de l'hippocampe pendant les états up des oscillations lentes, transférant les souvenirs du stockage hippocampique à court terme au stockage cortical à long terme (Diekelmann & Born 2010, *Nature Reviews Neuroscience* [@Diekelmann2010sleepMemory] ; Staresina et al. 2015, *Nature Neuroscience* [@Staresina2015sleepOscillations]) — mais ce couplage exige des oscillations lentes intactes comme échafaudage. Avec les ondes delta restaurées, une composante de la dysfonction cognitive de l'EM/SFC, la difficulté à consolider les nouvelles informations, devrait s'améliorer.
+
+Le cercle vicieux neuroinflammatoire se briserait partiellement. L'altération de l'élimination glymphatique laisse des médiateurs inflammatoires dans le cerveau, qui activent l'inflammasome NLRP3 dans la microglie, produisant des cytokines qui perturbent davantage l'architecture du sommeil. Un meilleur sommeil delta et une meilleure élimination retireraient l'un des intrants entraînant cette boucle — mauvais sommeil → accumulation de déchets → neuroinflammation → pire sommeil — bien que cela n'élimine pas entièrement la boucle.
+
+Enfin, les seuils de douleur pourraient s'améliorer. Pendant le sommeil lent normal, les oscillations delta suppriment activement l'activité de la voie nociceptive — les circuits de la douleur du cerveau sont régulés à la baisse via le gating thalamique, et cela fait partie de ce qui rend le sommeil réparateur. L'intrusion alpha laisse ces voies de la douleur partiellement actives toute la nuit. Restaurer le delta pourrait restaurer cette suppression nocturne, améliorant la douleur matinale et réduisant potentiellement la sensibilisation centrale au fil du temps.
+
+---
+
+## Ce qui ne s'améliorerait pas
+
+C'est ici que l'expérience de pensée montre sa valeur.
+
+Même avec des oscillations delta parfaites, les canaux hydriques aquaporine-4 qui forment la porte moléculaire de l'échange glymphatique restent supprimés par la noradrénaline nocturne élevée — une conséquence de la dysfonction autonome, pas de l'architecture du sommeil (Xie et al. 2013 [@Xie2013glymphatic]). Vous pouvez restaurer la force motrice pendant que la plomberie reste partiellement bloquée. L'élimination glymphatique s'améliorerait mais ne se normaliserait pas.
+
+La voie de la kynurénine continue de tourner quoi qu'il arrive. Le shunt tryptophane-vers-kynurénine — entraîné par l'activation immunitaire chronique via les enzymes IDO1/IDO2 — produit l'acide quinolinique, un agoniste des récepteurs NMDA qui est directement excito-toxique pour les neurones. Les patients atteints d'EM/SFC montrent un acide quinolinique significativement élevé et des ratios KA/QA neuroprotecteurs réduits (Groven et al. 2021, *Psychoneuroendocrinology* [@Groven2021kynurenine]). Les oscillations du sommeil n'ont aucun rapport avec cette voie. Le brouillard cérébral entraîné par l'excito-toxicité médiée par l'acide quinolinique persiste au niveau qu'il avait avant.
+
+L'altération cognitive médiée par les mastocytes est pareillement intouchée. L'histamine libérée par les mastocytes activés passe dans le cerveau et agit sur les récepteurs H3 pour supprimer la libération d'acétylcholine, altérant directement l'attention, la mémoire de travail et la fonction exécutive. Les oscillations du sommeil ne font pas partie de ce circuit.
+
+L'hypoperfusion cérébrale continue. Les patients atteints d'EM/SFC montrent un débit sanguin cérébral réduit — des réductions de 26 % documentées pendant un défi orthostatique contre 7 % chez les témoins (van Campen et al. 2020, *Clinical Neurophysiology Practice* [@VanCampenEtAl2020]) — entraîné par la dysfonction autonome, la dysfonction endothéliale et un volume sanguin réduit. L'apport d'oxygène du cerveau est limité indépendamment de la qualité de son sommeil. Les tâches cognitives qui exigent un débit sanguin accru échoueraient toujours au niveau de l'approvisionnement.
+
+Le tableau mitochondrial ne change pas non plus. Le déficit énergétique qui entraîne l'EM/SFC — phosphorylation oxydative altérée, dysfonction de la chaîne de transport d'électrons, ROS mitochondrial élevé — est un problème périphérique et systémique que l'architecture du sommeil seule ne peut pas résoudre. Un meilleur sommeil pourrait modestement améliorer la réparation mitochondriale nocturne, mais le défaut métabolique fondamental persiste.
+
+Et la dysfonction autonome qui a causé une grande partie du problème de sommeil en premier lieu reste. Le déséquilibre sympathique-parasympathique, l'intolérance orthostatique, la tachycardie inappropriée et la dysrégulation vasculaire qui caractérisent l'EM/SFC sont en amont de l'architecture du sommeil, pas en aval. L'état « fatigué mais surexcité » au coucher, les éveils nocturnes, les sueurs nocturnes — tout cela persisterait probablement même avec des oscillations delta améliorées pendant le sommeil qui se produit.
+
+---
+
+## Le problème de l'amélioration partielle
+
+Mettez les prédictions ensemble et vous obtenez : une amélioration significative mais incomplète du brouillard cérébral, une amélioration modérée de la douleur, une amélioration modeste de la fatigue, et essentiellement aucun changement des symptômes autonomes, du PEM ou de l'intolérance à l'effort.
+
+Cette asymétrie illustre quelque chose de fondamental à propos de l'EM/SFC que la plupart des discussions de traitement omettent de reconnaître. La maladie a plusieurs mécanismes pathologiques indépendants tournant simultanément, et ils ne partagent pas une seule cause en amont. Ils partagent un déclencheur commun — dans de nombreux cas, une infection virale — et un environnement soutenant commun de dysrégulation immunitaire et d'échec métabolique, mais une fois établis, les mécanismes individuels tournent sur des voies partiellement indépendantes.
+
+Le brouillard cérébral est l'exemple le plus clair. Il a au moins trois moteurs mécanistiques indépendants : l'échec de l'élimination glymphatique (dépendant du sommeil, potentiellement réparable en restaurant le delta) ; l'excito-toxicité de la voie de la kynurénine (dépendante de l'immunité, non affectée par le sommeil) ; et la suppression de l'acétylcholine par l'histamine des mastocytes via les récepteurs H3 (dépendante des mastocytes, également non affectée par le sommeil). Réparer le premier aide. Le patient peut se sentir nettement mieux — mais pas bien. C'est exactement le schéma d'amélioration partielle que les cliniciens observent réellement : chaque intervention efficace déplace quelque chose dans la bonne direction sans résoudre la maladie.
+
+---
+
+## Ce qu'il ne faut pas faire — et pourquoi les conseils standard se retournent
+
+La plupart des conseils de sommeil pour les patients atteints d'EM/SFC sont empruntés à la littérature générale sur l'insomnie, où ils fonctionnent. Dans l'EM/SFC, où la dysfonction du sommeil a une base neurologique et autonome en plus de toute composante comportementale, certaines recommandations standard nécessitent une modification — non pas que la médecine comportementale du sommeil n'ait rien à offrir, mais parce que des composants spécifiques interagissent mal avec la physiologie sous-jacente.
+
+La thérapie de restriction du sommeil est le cas le plus clair. Les protocoles TCC-I réduisent typiquement le temps au lit pour construire la « pression de sommeil » — une privation légère de sommeil qui consolide le sommeil fragmenté. Dans l'EM/SFC, cette logique échoue dès la première étape : le déficit énergétique signifie que la privation de sommeil ne construit pas la pression de sommeil homéostatique normalement, parce que le mécanisme de l'adénosine est déjà dysfonctionnel (Porkka-Heiskanen et al. 1997, *Science* [@PorkkaHeiskanen1997adenosine] ; couvert dans l'article précédent de cette série). Au lieu de cela, la restriction du sommeil épuise une réserve d'énergie déjà en faillite, peut déclencher un malaise post-effort et aggrave la dysfonction autonome qui entraîne le problème de sommeil. La recommandation NICE pour l'EM/SFC (2021, mise à jour [@NICE2021mecfs]) recommande explicitement une gestion personnalisée du sommeil plutôt qu'une restriction du sommeil. Si un clinicien du sommeil propose une TCC-I, le composant de restriction du sommeil devrait être discuté explicitement — les patients devraient s'assurer que leur clinicien comprend que la physiologie spécifique à l'EM/SFC rend la privation de sommeil contre-productive. Les autres composants de la TCC-I sont une autre affaire : le contrôle du stimulus peut traiter l'éveil conditionné au coucher (un phénomène réel qui se superpose à la dysfonction du sommeil organique), la restructuration cognitive peut aider avec l'anxiété qui s'accumule autour du sommeil, et la programmation du sommeil peut soutenir l'alignement circadien. Le problème est spécifiquement la restriction du sommeil, pas la médecine comportementale du sommeil dans son ensemble.
+
+La règle du « pas de siestes » est fausse dans l'EM/SFC, bien que des siestes non contrôlées soient leur propre problème. Les conseils d'insomnie standard interdisent les siestes diurnes pour préserver l'élan du sommeil nocturne. Les siestes dans l'EM/SFC servent un but différent : le repos horizontal réduit les demandes de précharge cardiaque (important avec l'intolérance orthostatique), diminue la dépense énergétique des muscles squelettiques et peut améliorer la perfusion cérébrale même quand le patient ne s'endort pas réellement. Le hic, c'est que les siestes de l'EM/SFC ne sont pas non plus réparatrices comme le serait une sieste d'une personne saine, parce que le mécanisme de dissipation de l'adénosine qui rend les siestes rafraîchissantes est lui-même altéré. La directive pratique est celle de *siestes contrôlées* — début d'après-midi (13 h 00–15 h 00), 15–20 minutes maximum, alarme réglée. Les siestes tardives risquent de décaler la phase circadienne déjà fragile. Et si la somnolence de l'après-midi suit un effort inhabituel des 24–72 heures précédentes, cela peut être le prodrome du PEM plutôt qu'une fatigue ordinaire ; une évaluation du pacing est plus appropriée que le sommeil.
+
+La durée de la sieste est l'endroit où de vrais dommages s'accumulent. Passé 30–40 minutes, le cerveau entre dans le sommeil lent. Chez une personne saine, se réveiller de cet état produit une inertie du sommeil qui se dissipe en 15–30 minutes ; dans l'EM/SFC, la même transition prend 2–4 heures, parce que la coordination thalamique requise est elle-même limitée en énergie. Une sieste de 90 minutes qui entre et sort d'un cycle complet peut laisser le patient fonctionnellement incapable pour le reste de la journée. Les siestes très longues — 2–3 heures ou plus — aggravent cela en volant le sommeil lent de la nuit. Le budget total de sommeil lent quotidien est fini, et la portion diurne est de toute façon contaminée par l'alpha, si bien que le patient finit avec deux blocs de sommeil de mauvaise qualité au lieu d'un.
+
+L'exception est importante : pendant un crash ou un épisode sévère de PEM, le corps peut exiger un sommeil prolongé de 12–16 heures. Ce n'est pas une sieste — c'est une réponse d'urgence physiologique, et la combattre est contre-productif. La distinction pertinente est entre l'hypersomnie diurne *habituelle* longue (un schéma qui vaut la peine d'être discuté avec un clinicien, car il peut signaler une dysfonction d'architecture du sommeil sous-traitée ou un surmenage chronique non reconnu) et l'hypersomnie *entraînée par un crash* (le corps imposant le repos pour limiter d'autres dommages).
+
+Le zolpidem mérite une mention spécifique parce qu'il peut aggraver le problème pour lequel il a été prescrit. Comme décrit dans l'article précédent, dans les modèles murins, le zolpidem supprime les oscillations de noradrénaline qui entraînent l'élimination glymphatique pendant le sommeil (Hauglund et al. 2025, *Cell* [@Hauglund2025neVasomotion] ; validation humaine en attente). Si cela se transpose aux humains, le patient dort plus longtemps mais le système d'élimination des déchets du cerveau ne s'active pas correctement. La sensation matinale « toxique » peut persister ou s'aggraver malgré l'augmentation du temps de sommeil total. *Important : les patients actuellement sous zolpidem ou toute Z-drug ne doivent pas arrêter seuls. Un sevrage brutal comporte des risques incluant l'insomnie rebond et, chez les utilisateurs de longue durée, des crises. Tout changement doit être discuté avec le prescripteur.*
+
+Deux autres habitudes méritent une brève mention. Se forcer à rester éveillé toute la journée pour « économiser le sommeil pour ce soir » coûte plus métaboliquement que cela ne gagne : l'énergie de garder un système appauvri debout et actif pendant des heures dépasse typiquement le coût circadien d'un bref repos en début d'après-midi, et les patients arrivent souvent au coucher en pire forme métabolique avec, paradoxalement, une pire qualité de sommeil. L'alcool est pareillement contre-productif — il favorise la sédation initiale mais fragmente la seconde moitié de la nuit, supprime le sommeil REM, aggrave l'instabilité autonome et altère la fonction glymphatique. Dans un système où chaque minute de sommeil lent de qualité compte, son effet net est fortement négatif.
+
+---
+
+## Approches pharmacologiques actuelles du sommeil alpha-delta
+
+Plusieurs médicaments existants ciblent partiellement l'intrusion alpha, bien qu'aucun ne l'élimine proprement. Les plages de doses ci-dessous reflètent l'utilisation clinique publiée — ce ne sont pas des conseils de prescription. Tous exigent une évaluation et une surveillance par un médecin, particulièrement compte tenu des risques cardiaques, autonomes et d'interactions médicamenteuses fréquents dans l'EM/SFC. Ne démarrez, n'arrêtez ni n'ajustez aucun médicament sur la base de cet article.
+
+La gabapentine et la prégabaline sont les plus communément prescrites. Elles se lient aux sous-unités des canaux calciques voltage-dépendants alpha-2-delta, augmentant le sommeil lent et réduisant l'activité de fréquence alpha pendant le NREM (Lo et al. 2002, *Epilepsia* [@Lo2002gabapentinSWS]). La gabapentine (100–600 mg au coucher) est en première ligne quand la douleur et la perturbation du sommeil coexistent ; la prégabaline (25–150 mg) a une efficacité similaire avec une pharmacocinétique plus prévisible. Les deux améliorent la puissance delta sur la polysomnographie, mais ni l'une ni l'autre n'élimine complètement l'intrusion alpha — elles déplacent le ratio plutôt que de résoudre la dysfonction oscillatoire sous-jacente.
+
+Les tricycliques à faible dose (amitriptyline 5–25 mg, doxépine 3–6 mg) améliorent la qualité subjective du sommeil par blocage de l'histamine H1 et effets sérotoninergiques, mais leur impact sur l'architecture alpha-delta spécifiquement est modeste. La trazodone (25–100 mg) est largement utilisée pour l'initiation du sommeil mais n'altère pas constamment le ratio de puissance alpha/delta.
+
+Les antagonistes doubles des récepteurs de l'orexine suvorexant et lemborexant ciblent l'hyperéveil entraîné par l'orexine qui peut soutenir l'intrusion alpha (López-Amador et al. 2025, *Exploration* [@LopezAmador2025orexin]), et sont mécanistiquement intéressants compte tenu de la dysfonction documentée du système orexine dans l'EM/SFC — bien que l'expérience clinique dans cette population reste limitée. Les Z-drugs (zolpidem, eszopiclone) sont efficaces pour l'initiation du sommeil mais ne traitent pas la qualité non rafraîchissante du sommeil de l'EM/SFC ; la suppression par le zolpidem des oscillations de noradrénaline entraînant le glymphatique peut activement aggraver l'accumulation de déchets (Hauglund et al. 2025 [@Hauglund2025neVasomotion]).
+
+Le schéma à travers tout cela est le même : amélioration partielle de la qualité du sommeil, aucune correction spécifique de la dysfonction oscillatoire thalamique qui produit l'intrusion alpha-delta. Nous n'avons pas encore d'outil pharmacologique qui cible directement le mécanisme.
+
+## Une cible plus spécifique — et un essai qui pourrait la tester
+
+L'éthosuximide est un bloqueur sélectif des canaux calciques de type T utilisé dans l'épilepsie-absence (Coulter et al. 1989, *Neuroscience Letters* [@Coulter1989anticonvulsantCalcium]), et il cible directement les canaux CaV3.1 qui génèrent les oscillations thalamiques. Une étude croisée à dose unique — éthosuximide 250 mg contre placebo, polysomnographie nocturne mesurant la puissance delta et l'index alpha-delta — permettrait de répondre directement à la question de savoir si le blocage des canaux de type T peut déplacer le sommeil de l'EM/SFC d'alpha-contaminé à delta pur.
+
+La direction est réellement incertaine. Si l'intrusion alpha-delta résulte d'un courant de type T *insuffisant* pour la génération delta (le canal déjà hypoactif en raison de la défaillance énergétique), alors le bloquer davantage aggraverait le sommeil. Si elle résulte d'un courant de type T *résiduel* tirant à la mauvaise fréquence (le canal tire, mais à la fréquence alpha plutôt que delta en raison de courants concurrents modifiés), alors un blocage sélectif pourrait supprimer le composant alpha aberrant spécifiquement. Ces deux possibilités prédisent des résultats opposés du même médicament. Une nuit, un médicament, une PSG — et l'hypothèse calcique thalamique pour la dysfonction du sommeil de l'EM/SFC est soit soutenue soit réfutée, et nous apprenons si réparer pharmacologiquement l'intrusion alpha est même possible avec les outils actuellement disponibles.
+
+---
+
+## Pourquoi cela importe au-delà du sommeil
+
+La vraie valeur de l'expérience de pensée n'est pas de prédire combien une seule intervention aiderait. C'est de rendre visible une caractéristique structurelle de la maladie qui reste souvent innommée : l'EM/SFC est multi-mécanisme, et ces mécanismes sont partiellement indépendants les uns des autres.
+
+Chaque article de cette série sur le sommeil a décrit une pièce différente — intrusion des ondes alpha, défaillance glymphatique, dysrégulation de l'adénosine, échec du transfert autonome, instabilité thermorégulatrice, désynchronisation circadienne, suppression de l'orexine. Tous altèrent indépendamment la qualité du sommeil, et tous ont leurs propres causes en amont partiellement distinctes. En traiter un aide réellement, et cela compte pour les gens qui vivent avec cela. Mais ce n'est pas assez.
+
+Certains patients comprennent déjà cela intuitivement. Ils suivent leur sommeil avec des wearables, remarquent que certaines nuits sont clairement des « nuits alpha » tandis que d'autres sont des « nuits autonomes » ou des « nuits de température », et font effectivement du phénotypage empirique de leur propre maladie. La communauté de recherche devrait égaler cette granularité. La polysomnographie avec analyse spectrale, les tests autonomes et la mesure de la phase circadienne devraient être la norme de soin de l'évaluation, pas l'exception.
+
+Le domaine n'attend pas un seul médicament révolutionnaire. Il attend la reconnaissance que l'EM/SFC exige la même pensée multi-cible et adaptée au mécanisme qui est devenue standard en oncologie et cardiologie il y a des décennies — et qui n'a toujours pas été systématiquement appliquée ici.
+
+---
+
+
+---
+
+*Article précédent dans cette série : [Fatigué mais surexcité](https://www.linkedin.com/pulse/) — la trahison autonome à l'heure du coucher.*

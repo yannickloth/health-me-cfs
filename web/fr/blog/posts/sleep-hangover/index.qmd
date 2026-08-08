@@ -1,0 +1,159 @@
+---
+title: "La gueule de bois que vous n'avez pas méritée : ce que c'est vraiment de se réveiller avec l'EM/SFC"
+description: "Il existe une sensation matinale particulière que les patients atteints d'EM/SFC reconnaissent instantanément mais peinent à expliquer à quiconque ne l'a jamais ressentie. Vous ouvrez les yeux et le monde est faux. Pas dans le brouillard — empoisonné. L'analogie la plus proche que la plupart des gens comp..."
+author: "Yannick Loth"
+date: "2026-05-07"
+categories: [Sleep, Glymphatic System, Symptoms]
+lang: fr
+---
+
+Il existe une sensation matinale particulière que les patients atteints d'EM/SFC reconnaissent instantanément mais peinent à expliquer à quiconque ne l'a jamais ressentie. Vous ouvrez les yeux et le monde est faux. Pas dans le brouillard — empoisonné. L'analogie la plus proche que la plupart des gens comprendraient est une gueule de bois sévère : la lourdeur derrière les yeux, la cognition épaisse, la sensation que votre cerveau est enveloppé dans quelque chose qui l'empêche d'entrer en contact avec le monde. Sauf que vous n'avez rien bu. Vous avez dormi huit, dix, douze heures. Et vous vous sentez pire qu'avant de vous coucher.
+
+La « gueule de bois sans boire » a une explication mécanistique candidate — pas encore directement testée chez les patients atteints d'EM/SFC, mais ancrée dans la recherche sur la physiologie du sommeil d'autres domaines — et elle commence par un système d'élimination des déchets qui échoue peut-être à faire son travail pendant la nuit.
+
+---
+
+## L'équipe de nettoyage nocturne du cerveau
+
+Pendant un sommeil profond sain, le cerveau fait fonctionner une opération d'élimination des déchets appelée système glymphatique. Le liquide céphalo-rachidien circule le long des espaces entourant les vaisseaux sanguins, échange avec le liquide entre les cellules cérébrales par des canaux hydriques spécialisés (aquaporine-4), et évacue les débris métaboliques accumulés pendant la journée : médiateurs inflammatoires, protéines mal repliées, neurotransmetteurs en excès, lactate (Iliff et al. 2012[@Iliff2012glymphatic], *Science Translational Medicine*).
+
+Ce système n'est pas toujours actif. Il fonctionne préférentiellement pendant le sommeil lent — la phase profonde à oscillations delta où le cerveau génère des ondes électriques lentes et synchronisées à 0,5–4 Hz. Pendant ces oscillations, les espaces entre les cellules cérébrales s'élargissent d'environ 60 % dans les modèles murins (Xie et al. 2013[@Xie2013glymphatic], *Science* ; mesures humaines en attente), ouvrant les canaux par lesquels les déchets sont évacués. L'équipe de nettoyage a besoin que le bâtiment soit calme, et les ondes delta sont ce calme.
+
+Ce qui entraîne l'élimination glymphatique, ce n'est pas la durée du sommeil mais sa qualité — précisément la profondeur et la continuité du sommeil lent. Un patient qui dort douze heures de sommeil fragmenté et contaminé par l'alpha peut obtenir moins d'élimination glymphatique qu'une personne en bonne santé qui dort sept heures consolidées.
+
+---
+
+## Pourquoi l'équipe de nettoyage ne peut pas entrer
+
+Dans l'EM/SFC, le système glymphatique rencontre des problèmes de trois directions à la fois.
+
+Le premier est architectural. Le sommeil alpha-delta — l'intrusion d'ondes alpha de fréquence d'éveil (8–12 Hz) dans ce qui devrait être un sommeil delta profond — signifie que le cerveau n'entre jamais complètement dans l'état oscillatoire qui entraîne l'écoulement glymphatique. Ce schéma a été documenté pour la première fois chez des patients fibromyalgiques par Moldofsky et al. (1975[@Moldofsky1975alphaDeltaSleep], *Psychosomatic Medicine*) puis caractérisé quantitativement par Roizenblatt et al. (2001[@Roizenblatt2001alphaFM], *Arthritis & Rheumatism*). La dysfonction des canaux calciques thalamiques qui pourrait en être la cause — les canaux CaV3.1 qui génèrent normalement les oscillations du sommeil profond dérivant vers la fréquence alpha lorsque des courants ioniques concurrents sont perturbés (Perez-Reyes 2005[@PerezReyes2005Ttype], *PNAS*) — a été couverte dans un article antérieur de cette série sur la dérégulation du calcium. Sans oscillations delta soutenues, les espaces interstitiels ne s'élargissent pas, le liquide ne circule pas, et les déchets ne bougent pas.
+
+Le deuxième problème est moléculaire. Les canaux aquaporine-4 (AQP4) au niveau des pieds des astrocytes bordant les vaisseaux sanguins sont la porte moléculaire de l'échange glymphatique — les animaux déficients en AQP4 montrent une réduction d'environ 70 % de l'élimination des solutés (Iliff et al. 2012[@Iliff2012glymphatic]) — et la noradrénaline les inhibe (Xie et al. 2013[@Xie2013glymphatic]). Les patients atteints d'EM/SFC avec dysfonction autonome ont souvent une noradrénaline nocturne chroniquement élevée, si bien que le même déséquilibre du système nerveux qui empêche le corps de se détendre dans le sommeil bloque aussi physiquement les canaux d'élimination des déchets.
+
+Troisièmement, le système part de loin. La microglie activée — les cellules immunitaires résidentes du cerveau — perturbe les espaces périvasculaires par lesquels circule le liquide glymphatique, si bien qu'une neuroinflammation préexistante endommage la plomberie avant même que le cycle de nettoyage nocturne ne commence.
+
+Le résultat de ces trois facteurs : les déchets s'accumulent. Glutamate, lactate, cytokines inflammatoires, fragments de mitochondries endommagées — tout cela reste dans le parenchyme cérébral au matin, et le patient se réveille dans cet environnement chimique. Si l'hypothèse glymphatique est correcte, c'est une forme d'intoxication — non par l'alcool, mais par les débris métaboliques non nettoyés du cerveau lui-même. Cela n'a pas été directement mesuré dans l'EM/SFC, mais la chaîne mécanistique du sommeil lent altéré à la réduction de l'élimination des déchets est bien fondée dans la littérature plus large sur la physiologie du sommeil.
+
+---
+
+## La séquence de démarrage de deux à quatre heures
+
+Les personnes en bonne santé ressentent l'inertie du sommeil — ces premières minutes de brouillard après le réveil. Elle se dissipe généralement en 15–30 minutes alors que le cerveau passe des oscillations du sommeil aux schémas d'éveil, que l'adénosine s'élimine et que le cortisol augmente.
+
+Dans l'EM/SFC, l'inertie du sommeil peut durer deux à quatre heures. Les patients décrivent l'incapacité à former des pensées cohérentes, à répondre à une conversation, à aller de la chambre à la cuisine sans se reposer. Certains dorment à travers plusieurs alarmes, appels téléphoniques, contacts physiques. Un cerveau qui n'a pas terminé son cycle de maintenance nocturne essaie de démarrer dans un état fonctionnel tout en étant encore chargé des déchets qu'il était censé éliminer.
+
+La composante cortisol compte ici. Le réveil sain implique une réponse d'éveil au cortisol — une montée brutale du cortisol dans les 30–60 premières minutes après le réveil qui fait passer le cerveau du mode sommeil au mode alerte. Les patients atteints d'EM/SFC montrent typiquement des rythmes de cortisol aplatis : le pic matinal est atténué, la variation diurne réduite (Cleare 2003[@Cleare2003neuroendocrineCFS], *Endocrine Reviews* ; Papadopoulos & Cleare 2012[@papadopoulos2009hypothalamus], *Nature Reviews Endocrinology*). Le cerveau ne reçoit pas le signal neurochimique qu'il est l'heure de se réveiller. Il flotte entre les états, à moitié endormi et à moitié empoisonné, pendant des heures.
+
+---
+
+## Le mal de tête qui n'en est pas un
+
+Beaucoup de patients atteints d'EM/SFC se réveillent avec un mal de tête matinal qui défie la classification standard. Ce n'est pas le pouls unilatéral de la migraine, et ce n'est pas la pression en bandeau de la céphalée de tension. C'est quelque chose de plus profond et de plus diffus — une sensation que le cerveau est gonflé, congestionné, faux. Les patients recherchent des mots comme « toxique », « empoisonné », « comme si on m'avait drogué ».
+
+L'altération de l'élimination glymphatique nocturne correspond. Les déchets métaboliques qui auraient dû être évacués restent dans le parenchyme cérébral, produisant une inflammation et une pression localisées. Chez les patients avec hypoventilation nocturne concomitante — courante dans l'EM/SFC sévère en raison de la faiblesse des muscles respiratoires — la rétention de CO₂ ajoute une vasodilatation et une composante pulsatile distincte. Certains patients ont les deux : la lourdeur toxique de la défaillance glymphatique et le battement vasculaire de la rétention de CO₂, superposés l'un à l'autre.
+
+Les analgésiques standard ne traitent aucun des deux mécanismes. Améliorer la qualité du sommeil lent traite le moteur glymphatique ; le dépistage de l'hypoventilation nocturne traite le moteur du CO₂. L'analgésique n'est pas faux — il n'est simplement pas dirigé vers quelque chose qui compte ici.
+
+---
+
+## La crampe à 3 heures du matin
+
+Beaucoup de patients atteints d'EM/SFC sont réveillés par des crampes musculaires nocturnes, parfois violentes. Pas seulement les mollets — mains, pieds, cou, gorge, mâchoire. Ce ne sont pas des crampes ordinaires.
+
+Le mécanisme se connecte directement au déficit énergétique. La relaxation musculaire est un processus actif qui exige de l'énergie : les ions calcium doivent être repompés dans le réticulum sarcoplasmique par la pompe SERCA, et cette pompe nécessite de l'ATP. Quand l'ATP est insuffisant — comme c'est le cas systémiquement dans l'EM/SFC — les muscles ne peuvent pas se relâcher complètement. Le résultat est une crampe spontanée, particulièrement la nuit quand le taux métabolique baisse et que l'approvisionnement déjà marginal en ATP se resserre davantage.
+
+Le magnésium joue un double rôle : il agit comme un bloqueur de canaux calciques endogène et est un cofacteur essentiel de la synthèse mitochondriale de l'ATP. Les patients atteints d'EM/SFC avec dysfonction gastro-intestinale ont un risque élevé de malabsorption du magnésium. Pourtant, les preuves des revues Cochrane montrent que la supplémentation en magnésium seule ne résout pas de manière fiable les crampes nocturnes — suggérant que dans l'EM/SFC, les crampes sont entraînées par le déficit énergétique lui-même, pas uniquement par une carence minérale. Traiter le cofacteur sans traiter le moteur qui l'utilise est insuffisant.
+
+La connexion calcique va plus loin. Le modèle de Wirth et Scheibenbogen propose qu'une sous-performance de la pompe sodium-potassium conduit à une accumulation intracellulaire de sodium, ce qui force l'échangeur sodium-calcium (NCX1) à fonctionner en sens inverse — important du calcium au lieu de l'exporter. La surcharge calcique intracellulaire résultante altère les mitochondries, déclenche le stress oxydatif, et dans le tissu musculaire produit exactement le schéma de crampes et de contractures que décrivent les patients atteints d'EM/SFC. L'IRM du sodium a confirmé l'augmentation prédite de 30 % du sodium musculaire intracellulaire après l'effort chez les patients atteints d'EM/SFC (Petter et al. 2022[@Petter2022sodium], *Journal of Translational Medicine*).
+
+Chaque crampe est un autre fragment de la nuit volée — un autre micro-éveil, une autre remise à zéro de l'horloge des stades de sommeil, une autre interruption du sommeil lent qui était censé entraîner l'élimination glymphatique.
+
+---
+
+## Aucune sortie
+
+L'échec de l'élimination glymphatique laisse des médiateurs inflammatoires dans le cerveau. Ces médiateurs activent l'inflammasome NLRP3 dans la microglie, produisant IL-1β et IL-18 — des cytokines qui perturbent davantage l'architecture du sommeil (Krueger et al. 2001[@Krueger2001cytokinesSleep], *Annals of the New York Academy of Sciences*). Un sommeil pire signifie une élimination pire signifie davantage d'inflammation signifie un sommeil pire. Le cycle n'a aucun point de sortie naturel.
+
+C'est pourquoi « dormir plus » ne fonctionne pas. Le problème n'est pas une occasion insuffisante de dormir ; c'est que le sommeil lui-même est structurellement incapable de remplir sa fonction de maintenance primaire. Davantage d'heures de sommeil cassé signifie davantage d'heures d'élimination ratée. Le patient reste couché plus longtemps et se réveille en se sentant pareil, ou pire — une immobilité prolongée dans un état d'activation sympathique peut elle-même aggraver la dysfonction autonome.
+
+---
+
+## Que faudrait-il pour briser le cycle ?
+
+Si l'élimination glymphatique pouvait être rétablie — par une meilleure qualité du sommeil lent, une fonction AQP4 normalisée, ou une noradrénaline nocturne réduite — les conséquences en aval seraient réelles. Moins de déchets métaboliques signifie moins d'activation microgliale, ce qui signifie une meilleure architecture du sommeil, ce qui signifie une meilleure élimination. Le cycle peut, en principe, tourner dans l'autre sens.
+
+La vérité plus dure est que la défaillance glymphatique n'est que l'un des plusieurs mécanismes indépendants produisant la dysfonction cognitive dans l'EM/SFC. La voie de la kynurénine produit l'acide quinolinique qui est directement neurotoxique — les patients atteints d'EM/SFC montrent un acide quinolinique significativement élevé et des ratios neuroprotecteurs réduits (Groven et al. 2021[@Groven2021kynurenine], *Psychoneuroendocrinology*). L'histamine dérivée des mastocytes supprime l'acétylcholine via les récepteurs H3. L'hypoperfusion cérébrale limite l'apport d'oxygène indépendamment de l'élimination — des réductions de 26 % du débit sanguin cérébral documentées pendant un défi orthostatique (van Campen et al. 2020 [@VanCampenEtAl2020], *Clinical Neurophysiology Practice*). Réparer la branche glymphatique aiderait — ce ne serait simplement pas suffisant en soi.
+
+L'EM/SFC revient toujours à ceci : chaque mécanisme est réel, chacun contribue, et aucun d'eux n'est toute l'histoire. Comprendre lesquels dominent chez un patient donné — par polysomnographie, tests autonomes, neuro-imagerie — est la condition préalable à toute intervention véritablement ciblée.
+
+Pour l'instant, la gueule de bois matinale persiste. Non parce que la science ne la comprend pas, mais parce que les interventions qui pourraient la traiter exigent une infrastructure clinique qui n'existe pas encore pour la plupart des patients.
+
+---
+
+## Qu'est-ce qui pourrait aider ? Un cadre mécanistique pour les interventions
+
+*Avertissement important :* L'hypothèse glymphatique — que les symptômes matinaux sont causés par une altération de l'élimination nocturne des déchets — n'a jamais été directement testée chez les patients atteints d'EM/SFC. Cependant, le fondement mécanistique est bien établi en neurosciences : le système glymphatique est un processus physiologique démontré dans les cerveaux de mammifères, le sommeil lent est connu pour entraîner son activité, et le sommeil alpha-delta et l'inhibition de l'AQP4 sont des phénomènes documentés. Ce qui reste non testé dans l'EM/SFC, c'est de savoir si ces mécanismes établis opèrent à un niveau pathologique. L'analogie de la « gueule de bois » pourrait tout aussi bien s'appliquer à la dérégulation du cortisol, à l'hypoperfusion cérébrale, ou à d'autres mécanismes. Les interventions ci-dessous sont organisées mécanistiquement : si une dysfonction glymphatique se produit, ce sont les voies par lesquelles elle pourrait être traitée. Ce n'est pas un avis médical ; c'est une carte conceptuelle pour une discussion avec des cliniciens, pas un protocole de traitement.
+
+### Cibles directes : Restaurer le sommeil lent
+
+Ces interventions agissent directement sur les mécanismes qui entraînent l'élimination glymphatique — la qualité du sommeil profond à ondes delta qui ouvre les espaces interstitiels et laisse les déchets s'écouler.
+
+**Gabapentine et prégabaline.** Dans la fibromyalgie, ces médicaments augmentent le sommeil lent et ont des preuves bien établies de réduction de la douleur[@PregabalinFMS2005]. Dans l'EM/SFC, les données sont limitées et l'extrapolation de la fibromyalgie n'est pas validée. Tout bénéfice dans l'EM/SFC surviendrait probablement par soulagement de la douleur plutôt que par amélioration glymphatique directe. Les effets secondaires cognitifs (vertiges, confusion) sont une considération significative pour des patients dont la plainte principale peut être la dysfonction cognitive ; commencer bas et surveiller l'aggravation cognitive est essentiel.
+
+**Élévation de la tête de lit (10–15 degrés).** Le mécanisme proposé est une amélioration du drainage veineux cérébral, renforçant potentiellement l'élimination glymphatique. Cependant, les patients atteints d'EM/SFC montrent un débit sanguin cérébral réduit, et toute intervention qui affecte la perfusion cérébrale nécessite prudence. Aucun essai contrôlé n'existe dans l'EM/SFC, et le risque de perturbation du sommeil par l'inconfort positionnel n'est pas négligeable. Cette intervention est mécanistiquement plausible mais non testée.
+
+**Environnement de sommeil frais (18–20 °C).** La température ambiante affecte l'architecture du sommeil : les environnements plus frais favorisent le sommeil lent, qui est la phase la plus associée à la réparation mitochondriale et à l'élimination glymphatique. C'est une intervention faible en soi mais qui contribue de façon cumulative lorsqu'elle est combinée à d'autres stratégies d'optimisation du sommeil.
+
+### Système nerveux sympathique : Réduire l'activation nocturne
+
+La noradrénaline inhibe les canaux aquaporine-4, la porte moléculaire de l'échange glymphatique. Tout ce qui réduit l'activation sympathique pendant le sommeil aide indirectement l'équipe de nettoyage à faire son travail.
+
+**Naltrexone à faible dose (LDN).** Le mécanisme proposé implique une modulation microgliale et une neuroinflammation réduite, mais cela n'a pas été démontré chez les patients atteints d'EM/SFC. Les preuves sont limitées et incohérentes : un petit essai croisé randomisé dans la fibromyalgie (n=30) a montré une réduction modeste de la douleur[@Younger2013], mais d'autres études n'ont montré aucun effet significatif[@Polo2019LDN]. Aucune ECR spécifique à l'EM/SFC n'existe. Les rêves vifs sont fréquents, et des réactions psychiatriques sévères incluant la dépression et les idées suicidaires ont été rapportées. Le risque absolu est inconnu. Compte tenu des preuves faibles et incohérentes et de la sévérité des préjudices rapportés, la LDN exige une discussion attentive des risques-bénéfices avec un clinicien et une surveillance de l'humeur pendant les 2–4 premières semaines.
+
+**Pratiques de relaxation et respiration diaphragmatique.** Une respiration abdominale lente et profonde (4–6 respirations par minute) active le nerf vague et déplace l'équilibre autonome vers la dominance parasympathique. Elle peut être pratiquée couchée avec une dépense énergétique minimale. La relaxation musculaire progressive (la variante « relâchement uniquement », sans tension) et l'imagerie guidée sont aussi des options. Aucune preuve n'existe que ces pratiques améliorent spécifiquement l'élimination glymphatique ; le mécanisme proposé (noradrénaline réduite → AQP4 déinhibée → meilleur écoulement glymphatique) est une chaîne théorique qui n'a pas été démontrée. Tout bénéfice surviendrait par réduction générale du stress plutôt que par amélioration glymphatique ciblée.
+
+**Repos horizontal sans sommeil.** S'allonger élimine le défi gravitationnel au retour veineux que l'intolérance orthostatique rend si coûteux. La précharge cardiaque se normalise, la perfusion cérébrale s'améliore, et la poussée compensatrice sympathique qui consomme des ressources métaboliques pendant la posture debout est réduite. Ce n'est pas une perte de temps : les bénéfices physiologiques s'accumulent que le sommeil se produise ou non. Le bénéfice établi est la tolérance orthostatique ; tout effet sur la fonction glymphatique est spéculatif et secondaire au mécanisme orthostatique primaire.
+
+### Ancrage circadien : Chronométrer l'équipe de nettoyage
+
+Le système glymphatique n'est pas toujours actif — il fonctionne préférentiellement pendant le sommeil lent, qui est lui-même géré par le rythme circadien. Ancrer l'horloge circadienne aide à garantir que lorsque le patient dort, cela se produit au moment biologiquement optimal.
+
+**Heure de réveil fixe.** Une heure de réveil matinale constante (à 30 minutes près) ancre le rythme circadien[@Rosa1983sleepNeuroendocrine]. Cependant, pour les patients atteints d'EM/SFC avec une dette de sommeil sévère, forcer un réveil précoce quand le sommeil est nécessaire peut augmenter la privation sans améliorer l'alignement circadien. L'équilibre entre la constance circadienne et la gestion de la dette de sommeil exige une évaluation individuelle.
+
+**Lumière vive matinale.** L'exposition à une lumière vive (10 000 lux d'une lampe de luminothérapie ou de la lumière naturelle du jour) dans les 30 minutes suivant le réveil, pendant 20–30 minutes, peut aider à décaler le rythme circadien vers un endormissement plus précoce. L'effet dépend de la phase circadienne existante du patient ; la luminothérapie est la plus efficace lorsqu'elle est calibrée par rapport à la courbe de réponse de phase. Les patients qui ne tolèrent pas la lumière vive en raison de photosensibilité peuvent bénéficier d'expositions plus courtes ou d'une simulation d'aube de plus faible intensité.
+
+**Mélatonine à faible dose (0,3–0,5 mg).** La mélatonine à faible dose soutient l'entraînement circadien plutôt que la sédation. Des doses supraphysiologiques peuvent avoir des effets différents, mais la courbe dose-réponse dans l'EM/SFC est inconnue. L'effet sur la fonction glymphatique n'a jamais été étudié. Tout bénéfice surviendrait par alignement circadien plutôt que par modulation glymphatique directe.
+
+**Restriction de la lumière du soir.** Atténuer les lumières et utiliser des lunettes teintées ambre ou des filtres de lumière bleue sur les écrans à partir de 2 heures avant le coucher évite la suppression de la mélatonine, qui retarderait l'endormissement et décalerait la fenêtre du sommeil lent plus tard dans la nuit.
+
+### Gestion des symptômes en aval : Réduire la charge
+
+Ces interventions ne réparent pas directement la défaillance glymphatique, mais elles réduisent les charges supplémentaires qui aggravent les symptômes matinaux quand l'équipe de nettoyage a déjà échoué.
+
+**Trazodone et amitriptyline.** Ces antidépresseurs sédatifs améliorent le maintien du sommeil et peuvent augmenter le sommeil lent. La trazodone (25–100 mg au coucher) a un faible risque de dépendance ; l'amitriptyline (5–25 mg au coucher) aide aussi pour la douleur et les maux de tête mais a des effets secondaires anticholinergiques qui limitent la dose. Les preuves sont extrapolées des populations d'insomnie ; les données spécifiques à l'EM/SFC sont limitées.
+
+**Gestion de la douleur.** La douleur chronique consomme de l'énergie et empêche le repos, créant un cercle vicieux avec la perturbation du sommeil. Les analgésiques simples (acétaminophène, AINS) apportent un soulagement modeste ; les agents de la douleur neuropathique (gabapentine, prégabaline, duloxétine[@Schwedhelm2008citrulline]) sont souvent plus efficaces compte tenu de la sensibilisation centrale et de la neuropathie des petites fibres sous-jacentes à une grande partie de la douleur de l'EM/SFC. L'objectif n'est pas l'élimination — souvent impossible — mais la réduction suffisante pour permettre l'initiation du sommeil.
+
+**Traiter agressivement les comorbidités.** Apnée du sommeil, mouvements périodiques des membres, allergies, dysfonction gastro-intestinale, POTS — chaque affection non traitée ajoute à la charge métabolique. Dans l'EM/SFC, les patients opèrent au bord absolu de la capacité ; une perturbation du sommeil « mineure » qu'une personne saine pourrait ignorer peut coûter des heures de fonctionnalité le lendemain. Traiter les comorbidités est important pour la conservation d'énergie, bien que les preuves qu'un tel traitement améliore directement les résultats de l'EM/SFC soient limitées.
+
+### La vérification de la réalité : Limites de la base de preuves
+
+Le cadre ci-dessus reflète la plausibilité mécanistique plutôt que l'efficacité prouvée dans l'EM/SFC. L'évaluation honnête de la littérature de recherche est la suivante :
+
+- **Preuves modérées :** Les composants d'hygiène du sommeil (lumière matinale, environnement frais) dans la population générale ; gabapentine/prégabaline pour la douleur dans la fibromyalgie. Ceux-ci ont les bases de preuves les plus solides, bien que l'extrapolation de la fibromyalgie à l'EM/SFC reste non validée.
+
+- **Preuves faibles :** LDN spécifiquement dans l'EM/SFC (aucune ECR) ; élévation de la tête de lit (aucun essai sur l'EM/SFC) ; la plupart des médicaments utilisés hors AMM pour le sommeil dans l'EM/SFC (preuves extrapolées des populations d'insomnie ou de fibromyalgie).
+
+- **Preuves très faibles :** Pratiques de relaxation, repos horizontal, interventions circadiennes pour l'amélioration glymphatique — celles-ci sont mécanistiquement plausibles mais non testées.
+
+**Limitation critique :** L'hypothèse glymphatique elle-même n'a jamais été testée chez les patients atteints d'EM/SFC. Si les symptômes matinaux sont causés principalement par une dérégulation du cortisol, une hypoperfusion cérébrale, ou une neuroinflammation plutôt que par une défaillance glymphatique, tout le cadre d'intervention serait mal dirigé. La voie de la kynurénine produit l'acide quinolinique qui est directement neurotoxique ; l'histamine dérivée des mastocytes supprime l'acétylcholine ; l'hypoperfusion cérébrale limite l'apport d'oxygène indépendamment de l'élimination. Ce sont des mécanismes indépendants qui peuvent expliquer les symptômes matinaux sans invoquer la glymphatique.
+
+C'est pourquoi les patients rapportent que les interventions fonctionnent « très modérément » au mieux. Chaque traitement cible un mécanisme dans un système où plusieurs mécanismes peuvent échouer simultanément. Sans biomarqueurs pour identifier quels mécanismes dominent chez un patient donné, le traitement reste empirique : essais et erreurs guidés par un raisonnement mécanistique incomplet plutôt que par un diagnostic de précision.
+
+---
+
+
+---
+
+*Article précédent dans cette série : [Quand le repos ne restaure pas](https://www.linkedin.com/pulse/) (2026-03-19) — métabolisme énergétique, dysfonction mitochondriale, et le système glymphatique.*

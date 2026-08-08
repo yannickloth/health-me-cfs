@@ -1,0 +1,64 @@
+---
+title: "Warum Einzelziel-Behandlungen bei ME/CFS immer wieder scheitern"
+description: "Einzelziel-ME/CFS-Behandlungen haben eine konsistente Bilanz: bescheidene Ergebnisse, unvollständige Ansprechen, Nutzen, der kurz vor der Genesung ein Plateau erreicht. Dies geschieht über mechanistische Kategorien hinweg – antivirale Mittel, Immunmodulatoren, mitochondriale Nahrungsergänzungen, Schlafm..."
+author: "Yannick Loth"
+date: "2026-04-20"
+categories: [Treatment, Systems Biology]
+lang: de
+---
+
+Einzelziel-ME/CFS-Behandlungen haben eine konsistente Bilanz: bescheidene Ergebnisse, unvollständige Ansprechen, Nutzen, der kurz vor der Genesung ein Plateau erreicht. Dies geschieht über mechanistische Kategorien hinweg – antivirale Mittel, Immunmodulatoren, mitochondriale Nahrungsergänzungen, Schlafmedikamente – und über Forschungsqualitätsstufen hinweg. Das Muster ist konsistent genug, um eine Erklärung jenseits von „die falsche Zielsetzung wurde gewählt" zu verlangen.
+
+Der in Ch. 16 und Ch. 33 entwickelte Rahmen bietet eine. Die Krankheit ist von der Architektur her multi-locked (mehrfach verriegelt), und Einzelziel-Behandlungen scheitern nicht, weil die Ziele falsch sind, sondern weil die Konstruktion strukturell nicht in der Lage ist, gegen ein Multi-Lock-System zu bestehen [Ch. 16 §Behandlungsimplikationen der kausalen Hierarchie].
+
+---
+
+## Das Multi-Lock-Modell
+
+Die Persistenz von ME/CFS wird gleichzeitig durch mehrere selbstverstärkende Mechanismen aufrechterhalten, und diese Mechanismen sind nicht unabhängig – sie bilden Rückkopplungsschleifen, die sich gegenseitig stützen. Epigenetische Konsolidierung kodiert das Krankheitsprogramm auf Chromatin-Ebene, hält Immunzellen in aktivierten Phänotypen und metabolische Enzyme in unterdrückten Expressionsmustern [Ch. 16 §Epigenetische Konsolidierung]. Immunschlupf lässt virale Reaktivierung stattfinden, was die Zytokinproduktion aufrechterhält und den Energieabfluss aufrechterhält [Ch. 16 §Virale Reaktivierung und Immunerschöpfung]. Automatikörper-vermittelte Endotheldysfunktion reduziert die Sauerstoffzufuhr, was die mitochondriale Funktion beeinträchtigt, was die Immun-Kontrolle weiter kompromittiert [Ch. 16 §GPCR-Autoantikörper-Kaskade].
+
+Weil jeder Prozess in die anderen zurückkoppelt, hinterlässt das Entfernen eines die übrigen intakt und kompensationsfähig. Der Attraktor – die stabile Krankheitskonfiguration, in die sich das System einfindet – hat mehrere Mechanismen, die ihn halten, und kein einzelnes Mechanismen-Entfernen reicht aus, um dem Becken zu entkommen. Dies ist keine pathologische Eigenheit von ME/CFS; es ist die erwartete Eigenschaft jedes Systems mit mehreren selbstverstärkenden Rückkopplungsschleifen. Der Krankheitsattraktor bleibt bestehen, weil er redundante strukturelle Stützen hat [Ch. 33 §Lock-Entfernungs-Analyse].
+
+---
+
+## Was die Mathematik vorhersagt
+
+Die formale Analyse in Ch. 33 testet dies direkt. Für jeden der vier Krankheitssubtypen lautet die Frage: Welche Einzelparameter-Wiederherstellungen reichen aus, um das System dem Krankheitsattraktor entkommen zu lassen?
+
+Für drei der vier Subtypen – immun-dominant, metabolisch-dominant und neurovaskulär-dominant – gibt es mindestens eine Einzelparameter-Wiederherstellung, die das Entkommen erreicht. Stellt man die Immun-Erschöpfungsrate im immun-dominanten Subtyp wieder her, kehrt das System zur Gesundheit zurück. Beseitigt man Autoantikörper im neurovaskulär-dominanten Subtyp, ebenso.
+
+Für den schweren/verriegelten Attraktor ist keine Einzelparameter-Wiederherstellung ausreichend. Jede Einzelintervention erzeugt Verbesserung – manchmal substanzielle – aber der Krankheitsattraktor bleibt bestehen. Das System verschiebt sich innerhalb des Krankheitsbeckens, ohne daraus zu entkommen [Ch. 33 §Lock-Entfernungs-Ergebnisse].
+
+---
+
+## Das paarweise Ergebnis
+
+Wenn zwei Parameter für den schweren Attraktor gleichzeitig wiederhergestellt werden, scheitern die meisten Paare immer noch am Erreichen des Entkommens. Wiederherstellung der Komplex-I-Aktivität plus Immun-Erschöpfungsrate: Verbesserung um 65 %, kein Entkommen. Wiederherstellung von Autoantikörpern plus Immun-Erschöpfung: Verbesserung, kein Entkommen.
+
+Zwei Paare gelingen: Komplex-I-Aktivitäts-Wiederherstellung kombiniert mit epigenetischer Methylierungs-Umkehrung und Safe-Mode-Deaktivierung kombiniert mit epigenetischer Methylierungs-Umkehrung.
+
+Das Muster ist nicht akzidentell. Beide erfolgreichen Paare kombinieren eine energieproduzierende Intervention mit epigenetischer Umkehrung. Im schweren Attraktor hat die epigenetische Konsolidierung das Krankheitsbecken so weit vertieft, dass die Wiederherstellung eines einzelnen Teilsystems die anderen in der epigenetisch modifizierten Parameterlandschaft gefangen lässt – der epigenetische Datensatz kodiert weiterhin den Krankheitszustand, selbst wenn die vorgelagerte Signalgebung sich ändert. Die epigenetische Umkehrung, die diese Kodierung entfernt, erweist sich als Voraussetzung für das Entkommen in jedem erfolgreichen Paar; weder Energie-Wiederherstellung allein noch epigenetische Umkehrung allein erreicht es, aber beide zusammen schon [Ch. 33 §Minimale Interventionsmengen].
+
+---
+
+## Warum dies testbar ist
+
+Der Rahmen macht spezifische empirische Behauptungen, nicht nur strukturelle Beobachtungen. Daratumumab im neurovaskulär-dominanten Subtyp (Autoantikörper-positiv) sollte Genesung bei Patienten erzeugen, die früh genug behandelt werden, dass die epigenetische Konsolidierung ihren Attraktor noch nicht auf den schweren Pegel vertieft hat – was die 60 % Responder in der Pilotstudie erklären könnte [Ch. 16 §GPCR-Autoantikörper-Kaskade, §Forschungsimplikationen]. Die 40 % Nicht-Responder könnten Patienten darstellen, deren Krankheit in den tieferen Attraktor übergegangen ist, wo die Autoantikörper-Entfernung allein nicht mehr ausreicht [Ch. 33 §Lock-Entfernungs-Ergebnisse].
+
+Jede Intervention, die nur auf sekundäre Schlösser zielt – oxidativer Stress, Schlaffragmentierung, virale Reaktivierung –, sollte ein Plateau-Muster erzeugen: echte Verbesserung, die weit vor der Genesung stoppt, unabhängig von Dosis oder Dauer, weil solche Interventionen das System innerhalb des Krankheitsbeckens verschieben, ohne die Struktur des Beckens zu ändern. Eine Kombination aus mitochondrialer Unterstützung mit einem epigenetischen Modifikator, getestet an schweren Patienten, sollte qualitativ andere Ergebnisse erzeugen als jede allein; nicht bloß additiv, sondern kategorial anders, weil die Kombination die Schwelle überschreitet, die keine einzeln überschreitet.
+
+Diese Vorhersagen sind im gewöhnlichen wissenschaftlichen Sinne falsifizierbar. Sie könnten falsch sein, und das Testen würde bestimmen, ob das Modell etwas Reales über die Krankheitsarchitektur widerspiegelt.
+
+---
+
+## Die Design-Implikation
+
+Wenn das Multi-Lock-Modell korrekt ist, ist die standardmäßige einarmige klinische Studie – Testen eines Mittels gegen Placebo in einer unselektierten ME/CFS-Population – strukturell wahrscheinlich, enttäuschende Ergebnisse zu erzeugen, nicht weil die Prüfer das falsche Ziel gewählt haben, sondern weil das Studiendesign eine Einzelziel-Krankheit voraussetzt. Für leichte oder moderate Subtypen mit zugänglichen notwendigen Schlössern können Einzelziel-Studien gelingen. Für den schweren Attraktor können sie es nicht.
+
+Das Design, auf das der Rahmen hinweist, ist kombinatorisch: aktive Mechanismen bei jedem Patienten identifizieren (Autoantikörperstatus, epigenetische Last, metabolisches Profil), Kombinationen mit subtyp-vorhergesagten Lock-Strukturen abgleichen und die Wirkung der Kombination auf die Krankheitstrajektorie testen und nicht auf eine Symptom-Schnappschussaufnahme. Das vorhergesagte Ergebnis ist qualitativ statt additiv – eine Steigungsänderung in der Krankheitstrajektorie, nicht nur eine Achsen-Abschnittsverschiebung [Ch. 16 §Forschungsimplikationen]. Das ist eine schwerer durchzuführende Studie, und der Vorhersage des Modells nach ist es auch die einzige Art, die Genesung bei schweren Patienten aufzeigen kann.
+
+---
+
+*Vorheriger Artikel dieser Serie: [Wurzelursache ≠ Behandlungs-Priorität](https://www.linkedin.com/pulse/) (2026-04-16)*
+
+*Nächster: Kann Mathematik uns sagen, was ME/CFS verursacht? – Einführung des formalen Rahmens: Auslöser-Suffizienz, Sensitivitätsanalyse und Lock-Entfernung*

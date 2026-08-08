@@ -1,0 +1,83 @@
+---
+title: "Votre thyroïde est « normale » : pourquoi la TSH seule ne vous dit rien"
+description: "TSH 2,8 mUI/L. Plage de référence 0,4-4,0. Normale. Dossier clos."
+author: "Yannick Loth"
+date: "2026-06-19"
+categories: [Endocrine, Diagnostics, Misdiagnosis]
+lang: fr
+---
+
+TSH 2,8 mUI/L. Plage de référence 0,4-4,0. Normale. Dossier clos.
+
+Sauf que non. Ce nombre est l'opinion de l'hypophyse sur les niveaux circulants d'hormone thyroïdienne. Il ne dit rien de ce qui se passe au niveau cellulaire — si la T3, l'hormone thyroïdienne active, atteint les mitochondries de vos muscles et de votre cerveau et pilote réellement les processus métaboliques qu'elle est censée piloter. La TSH est un signal à propos d'un signal. C'est la lecture du thermostat de la température de la pièce, pas une mesure de si les radiateurs réchauffent réellement quelqu'un.
+
+Pour une personne saine, la TSH est un substitut raisonnable. Le système fonctionne : l'hypophyse détecte les niveaux d'hormone thyroïdienne, ajuste la TSH en conséquence, et la thyroïde répond. Pour un patient atteint de maladie chronique, cette boucle de rétroaction peut se découpler à au moins trois endroits — chacun produisant un état où le patient est hypothyroïdien au niveau cellulaire avec une TSH « normale ».
+
+---
+
+## Les trois façons dont la fonction thyroïdienne se casse sans que la TSH le remarque
+
+**L'hypothyroïdie centrale.** L'hypophyse elle-même est sous-performance. Elle ne produit pas assez de TSH pour entraîner correctement la thyroïde. La thyroïde, recevant une stimulation insuffisante, produit moins de T4 et de T3 — mais la TSH lit « normale » parce que l'idée de « normal » de l'hypophyse s'est recalibrée à la baisse. Cela se produit dans toute affection qui affecte la fonction hypophysaire : maladie chronique, traumatisme crânien, tumeurs hypophysaires, et — pertinent — la suppression chronique de l'axe HPA, documentée dans l'EM/SFC. L'axe hypothalamo-hypophyso-thyroïdien n'existe pas en isolation ; il dialogue avec l'axe HPA, et la suppression de l'un peut entraîner l'autre vers le bas [@Mancini2018thyroidOxidative].
+
+**Conversion de T4 en T3 altérée.** La glande thyroïde produit principalement la T4 (thyroxine), une prohormone. La T4 doit être convertie en T3 (triiodothyronine) par les enzymes déiodinases dans les tissus périphériques pour être biologiquement active. La conversion la plus importante se produit via la déiodinase de type 2 (DIO2) dans le cerveau, le muscle et la graisse brune.
+
+L'inflammation chronique supprime l'activité de la DIO2 et suractive la DIO3, l'enzyme qui convertit la T4 en T3 inverse (rT3) — une forme biologiquement inactive qui occupe les récepteurs de T3 sans les activer (Wajner & Maia 2012, *Clinical Endocrinology*). Cela s'appelle le « syndrome euthyroïdien du malade » ou « syndrome de maladie non thyroïdienne » (NTIS). La TSH est normale. La T4 peut être normale. Mais la T3 qui pilote réellement le métabolisme dans les tissus est basse, et la T3 inverse est élevée [@Wajner2012NTIS]. Le patient est fonctionnellement hypothyroïdien dans chaque cellule, et chaque prise de sang ordonnée par le généraliste dit que tout va bien.
+
+Ce n'est pas une rareté. Cela se produit dans tout état inflammatoire chronique : sepsis, insuffisance cardiaque, maladie rénale chronique, et — presque certainement — l'EM/SFC, où l'activation immunitaire chronique est une caractéristique centrale.
+
+**Polymorphismes génétiques de la DIO2.** Le polymorphisme Thr92Ala dans le gène DIO2 (rs225014) est présent chez environ 16 % de la population européenne comme homozygotes. Il réduit l'efficacité de l'enzyme DIO2, altérant la conversion de T4 en T3 dans chaque tissu qui en dépend. Les porteurs ont une TSH normale, une T4 normale, mais peuvent avoir une T3 fonctionnellement insuffisante au niveau cellulaire [@Panicker2009]. Ce n'est pas une hypothyroïdie par aucune définition standard. C'est une réduction déterminée génétiquement de l'efficacité de l'activation de l'hormone thyroïdienne qu'aucun panel thyroïdien standard ne détecte.
+
+Pour un porteur par ailleurs sain, le déficit peut être infraclinique. Pour un patient atteint d'EM/SFC — où chaque système producteur d'énergie est déjà sollicité — une réduction de 10 à 15 % de la disponibilité de T3 aux mitochondries peut être la différence entre gérer et ne pas gérer.
+
+---
+
+## Hashimoto : la destruction auto-immune que personne n'a cherchée
+
+La thyroïdite de Hashimoto est la maladie auto-immune la plus courante au monde. Les anticorps (anti-TPO, anti-thyroglobuline) attaquent le tissu thyroïdien, le détruisant progressivement. La destruction est lente — il faut des années pour que suffisamment de tissu soit perdu pour que la TSH monte au-dessus de la plage de référence.
+
+Pendant ces années, le patient a une inflammation thyroïdienne auto-immune active, des niveaux d'hormones fluctuants alors que les follicules intacts compensent les détruits, et une fatigue qui corrèle avec les niveaux d'anticorps plutôt qu'avec la TSH [@Ott2011]. La TSH peut rester dans la plage pendant une décennie pendant que la glande est détruite. Le patient a fatigue, brouillard cérébral, changements de poids, intolérance au froid et perte de cheveux — et on lui dit que sa thyroïde va bien parce que le seul test ordonné était la TSH.
+
+Les anticorps anti-TPO sont présents chez environ 10 % de la population générale. Dans les cohortes d'EM/SFC, la prévalence peut être plus élevée — la diathèse auto-immune qui entraîne l'EM/SFC chevauche la diathèse auto-immune qui entraîne Hashimoto. Tester les anticorps ajoute environ 20 € à la commande de laboratoire. Il identifie une affection progressive, traitable et complètement invisible au dépistage par TSH.
+
+---
+
+## À quoi ressemble une évaluation thyroïdienne complète
+
+Le panel minimum pour un patient avec fatigue chronique devrait inclure :
+
+- **TSH** — nécessaire mais pas suffisante
+- **T4 libre** — la prohormone. Bas-normale + TSH normale suggère une hypothyroïdie centrale.
+- **T3 libre** — l'hormone active. T3 libre basse avec T4 et TSH normales = problème de conversion.
+- **T3 inverse** — le compétiteur inactif. rT3 élevée avec TSH normale = syndrome euthyroïdien du malade.
+- **Anticorps anti-TPO et anti-thyroglobuline** — dépistage de Hashimoto. Positif = destruction thyroïdienne auto-immune en cours, quel que soit la TSH actuelle.
+
+Le panel complet coûte environ 50 à 80 € dans la plupart des laboratoires européens. Le panel standard ordonné par la plupart des généralistes — TSH seule — coûte 15 € et manque chaque scénario décrit ci-dessus.
+
+---
+
+## La controverse du traitement
+
+C'est ici que le terrain devient politiquement chargé. La position endocrinologique standard est : si la TSH est normale, le patient est euthyroïdien, aucun traitement n'est indiqué. Cette position est défendable par la base de preuves si vous définissez « euthyroïdien » par les valeurs de laboratoire et « réponse au traitement » par la normalisation de la TSH.
+
+Elle devient moins défendable quand vous demandez si les patients avec une TSH normale mais des symptômes d'hypothyroïdie, une T3 libre basse, ou des anticorps positifs s'améliorent avec le remplacement de l'hormone thyroïdienne. Plusieurs études suggèrent que oui, du moins dans des sous-groupes — particulièrement avec une thérapie combinée T4/T3 plutôt qu'une monothérapie T4, et particulièrement chez les porteurs du polymorphisme Thr92Ala de la DIO2 ([@Panicker2009] ; [@Wiersinga2017T4T3]).
+
+Ce n'est pas une approbation de prescrire l'hormone thyroïdienne à tous ceux qui ont de la fatigue et une TSH normale. C'est une observation que la classification binaire — euthyroïdien ou hypothyroïdien, basée sur une seule hormone d'une seule glande à un moment donné — est trop grossière pour capturer la réalité de l'action de l'hormone thyroïdienne au niveau des tissus.
+
+Pour les patients atteints d'EM/SFC spécifiquement : la question n'est pas de savoir si une dysfonction thyroïdienne infraclinique cause l'EM/SFC. Elle ne le fait presque certainement pas. La question est de savoir si elle contribue au déficit énergétique chez un sous-ensemble de patients — et si la corriger, dans ce sous-ensemble, produit une amélioration significative de la fonction. Les preuves sont suggestives. Le préjudice d'un essai supervisé de remplacement thyroïdien chez un patient avec une T3 libre basse documentée et des anticorps positifs est minimal. Le bénéfice potentiel, chez un patient dont la marge énergétique est mesurée en pourcentages à un chiffre, est significatif [@Loth2026mecfs].
+
+---
+
+## Le schéma plus profond
+
+La dysfonction thyroïdienne dans l'EM/SFC n'est pas un problème isolé. Elle fait partie d'un schéma à l'échelle du système de suppression endocrinienne entraînée par la maladie chronique :
+
+- Atténuation de l'axe HPA (cortisol aplati) → ACTH réduit → cortisol réduit → réponse au stress altérée
+- Atténuation de l'axe HPT (hypothyroïdie centrale) → TSH réduite → production thyroïdienne réduite
+- Suppression de l'axe HPG → hormones sexuelles réduites → fatigue, changements de composition corporelle
+- Atténuation de l'axe GH → hormone de croissance réduite → réparation des tissus et récupération à l'effort altérées
+
+Ces axes dialoguent. La suppression de l'HPA tire vers le bas l'axe HPT. L'inflammation chronique les supprime tous. Le résultat est un patient avec des valeurs « normales » à chaque test endocrinien isolé qui fonctionne néanmoins dans un état d'insuffisance endocrinienne multi-axes — pas un déficit assez sévère pour déclencher une alarme individuelle, mais collectivement suffisant pour produire une altération fonctionnelle profonde.
+
+C'est le chapitre thyroïdien d'une histoire plus grande : l'écart entre « non signalé comme anormal » et « adéquat pour ce dont le corps a besoin » est l'espace où vivent les patients atteints d'EM/SFC. La thyroïde est un axe. Le schéma est le même à travers tous.
+
+---

@@ -1,0 +1,95 @@
+---
+title: "Müde, aber aufgedreht: Der autonome Verrat zur Schlafenszeit"
+description: "Es gibt eine besondere Grausamkeit, die ME/CFS-Patienten gut kennen, die aber selten in der medizinischen Literatur beschrieben wird. Sie sind erschöpft – nicht müde, nicht schläfrig, sondern die bis in die Knochen reichende, zelluläre Erschöpfung eines Körpers, der den ganzen Tag auf leer gelaufen i..."
+author: "Yannick Loth"
+date: "2026-05-13"
+categories: [Sleep, Autonomic Dysfunction]
+lang: de
+---
+
+Es gibt eine besondere Grausamkeit, die ME/CFS-Patienten gut kennen, die aber selten in der medizinischen Literatur beschrieben wird. Sie sind erschöpft – nicht müde, nicht schläfrig, sondern die bis in die Knochen reichende, zelluläre Erschöpfung eines Körpers, der den ganzen Tag auf leer gelaufen ist. Jede Faser sagt: schlaf. Jetzt.
+
+Sie legen sich hin. Sie schließen die Augen. Und Ihr Gehirn schaltet sich ein.
+
+Die Herzfrequenz steigt statt zu fallen. Gedanken rasen – nicht produktive Gedanken, nicht genau Angst, sondern eine summende, elektrische Qualität von Wachheit, die nicht abgeschaltet werden kann. Der Körper ist schlaff vor Erschöpfung; das Nervensystem summt vor Aktivierung. Sie sind gleichzeitig zu müde, um sich zu bewegen, und zu aufgedreht, um zu schlafen.
+
+Das ist keine Insomnie im herkömmlichen Sinne, und es ist keine schlechte Schlafhygiene. Das autonome Nervensystem hat die Fähigkeit verloren, von seinem Tagesmodus in seinen Nachtmodus zu wechseln, und alles, was von diesem Übergang abhängt, scheitert mit ihm.
+
+---
+
+## Der Schalter, der nicht umlegt
+
+In gesunder Physiologie beinhaltet der Übergang vom Wachsein zum Schlaf eine koordinierte Übergabe zwischen dem sympathischen Nervensystem (dem „Kampf-oder-Flucht"-Zweig, der tagsüber dominiert) und dem parasympathischen Nervensystem (dem „Ruhe-und-Verdauung"-Zweig, der nachts dominieren sollte).
+
+Diese Übergabe wird aktiv vom Hypothalamus angetrieben, orchestriert durch eine Kaskade: sinkendes Cortisol, steigendes Melatonin, zunehmender parasympathischer Vagus-Tonus, abnehmendes Noradrenalin und Adrenalin, periphere Vasodilatation (um Wärme abzugeben und die Körpertemperatur zu senken) und die fortschreitende Unterdrückung wachfördernder Orexin-Neuronen. Jeder Schritt hängt vom vorherigen ab, und die vollständige Sequenz dauert bei gesunden Menschen 60–90 Minuten – die „Runterkomm-Phase", auf die Schlafhygiene-Ratschläge zielen.
+
+Bei ME/CFS scheitert diese Übergabe gleichzeitig an mehreren Punkten, und die Fehler verstärken sich gegenseitig.
+
+Herzfrequenzvariabilitäts-Studien zeigen bei ME/CFS durchweg einen reduzierten parasympathischen Tonus, selbst während des Schlafs – niedrigere High-Frequency-HRV-Power und ein erhöhtes Sympathikus-zu-Parasympathikus-Verhältnis während der gesamten Nacht [@Rahman2019sleepCFS]. Der sympathische Zweig entkoppelt nachts einfach nicht – er treibt weiterhin erhöhte Herzfrequenz, erhöhten Blutdruck und erhöhtes Noradrenalin an. Physiologisch ist der Körper des Patienten im „Tagesmodus", während er um Mitternacht in einem dunklen Raum liegt.
+
+Anhaltendes Noradrenalin trägt eine spezifische nachgelagerte Konsequenz über die Wachheit hinaus: Es hemmt direkt Aquaporin-4 (AQP4)-Kanäle an Astrozyten und unterdrückt die glymphatische Beseitigung [@Xie2013glymphatic]. Dasselbe Neurochemikal, das den Patienten wach hält, blockiert auch das Abfallbeseitigungssystem des Gehirns – sodass der Schlaf, selbst wenn er schließlich eintrifft, in einem Gehirn eintrifft, dessen Rohrleitungen von seinem eigenen Nervensystem abgeschaltet wurden.
+
+Dann gibt es das Temperaturproblem. Der Schlafbeginn erfordert einen Abfall der Körperkerntemperatur um ~1°C, erreicht durch Vasodilatation in Händen und Füßen. Autonome Dysfunktion beeinträchtigt genau diese vaskuläre Reaktion. Der Körper kann keine Wärme abgeben, die Kerntemperatur bleibt erhöht und das hypothalamische Schlaf-Gate öffnet sich nicht. Patienten bemerken oft, dass ihre Hände und Füße zur Schlafenszeit kalt sind – was das Gegenteil von dem ist, was passieren sollte, da periphere Vasokonstriktion Wärme festhält, statt sie abzustrahlen.
+
+Schließlich geht die Orexin-Regulation schief. Orexin-Neuronen im Hypothalamus sind das Meister-Wachfördersystem; sie sollten jeden Abend durch steigenden Schlafdruck und zirkadiane Signale unterdrückt werden. Ein aktueller integrativer Review von 27 Studien fand insgesamt durchgängig reduzierte Orexin-A-Spiegel bei ME/CFS, aber das zeitliche Muster von Unterdrückung und Aktivierung scheint auf Weisen dysreguliert, die nachts unangemessene Wachheit und tagsüber unangemessene Schläfrigkeit erzeugen [@LopezAmador2025orexin].
+
+---
+
+## Der entzündliche Beitrag
+
+Das autonome Versagen ist auch nicht die ganze Geschichte. Periphere entzündliche Zytokine – IL-1β, IL-6, TNF-α, bei vielen ME/CFS-Patienten erhöht – gelangen über zirkumventrikuläre Organe und vagale Afferenzen ins Gehirn, wo sie auf hypothalamische Schaltkreise wirken, die sowohl Schlaf als auch Erregung regulieren. Der Effekt ist wirklich paradox: Diese Zytokine erhöhen gleichzeitig den Schlafdruck (das Gehirn weiß, dass der Körper krank ist, und will Ruhe erzwingen) und fragmentieren die Schlafarchitektur (der entzündliche Zustand stört die oszillatorische Koordination, die für anhaltenden Tiefschlaf nötig ist). Diese Doppelwirkung – pro-somnogen und dennoch schlaffragmentierend – ist in der Zytokin-Schlaf-Literatur gut charakterisiert [@Krueger2001cytokinesSleep].
+
+Sie haben also entzündlichen Antrieb, der zum Schlaf drängt, während sympathische Aktivierung und entzündliche Schlafstörung verhindern, dass der Schlaf erholsam ist. Beide Systeme werden von der Krankheit aktiviert. Sie ziehen in entgegengesetzte Richtungen, und der Patient ist dazwischen gefangen, erschöpft und unfähig, sich auszuruhen.
+
+---
+
+## Wie die kommende Nacht aussieht
+
+Wenn der Patient schließlich einschläft – oft Stunden nach dem Hinlegen – trägt der folgende Schlaf die Spuren des gescheiterten Übergangs durchweg.
+
+Nächtliches Erwachen ist häufig: fünf bis zwanzig Mal oder mehr pro Nacht, oft mit vollständiger Wachheit und Schwierigkeiten, wieder einzuschlafen. Jedes Erwachen reaktiviert das sympathische System, erhöht das Noradrenalin erneut und setzt jeden Fortschritt des Slow-Wave-Schlafs zurück, der gemacht worden war. Gesunder Schlaf beinhaltet auch einen nächtlichen 10–20 %-Abfall des Blutdrucks, aber viele ME/CFS-Patienten sind „Non-Dipper" – ihr Blutdruck bleibt während des Schlafs erhöht oder steigt sogar, ein zuverlässiger Marker anhaltender sympathischer Aktivierung während der Nacht.
+
+Die thermoregulatorische Instabilität, die den Schlafbeginn verhindert hat, löst sich nicht auf, sobald der Schlaf eintritt. Mastzell-Degranulation setzt Histamin und Prostaglandine frei, die den Gefäßtonus unvorhersehbar verändern, und manche Patienten wechseln mehrere Male pro Nacht zwischen durchnässenden Schweißausbrüchen und zitternden Kälteschauern, wobei jeder Zyklus eine Erregung auslöst, die den Schlaf weiter fragmentiert. Die Herzfrequenz erzählt dieselbe Geschichte: Statt auf die für erholsamen Schlaf typischen 50–60 BPM zu fallen, bleibt sie bei 75–90 oder höher. Patienten mit Wearables können das direkt sehen – das nächtliche Herzfrequenzdiagramm, das einen glatten U-förmigen Abfall zeichnen sollte, zeigt stattdessen ein verrauschtes, erhöhtes Plateau.
+
+---
+
+## Warum Schlafhygiene-Ratschläge den Punkt verfehlen
+
+Standard-Schlafhygiene-Empfehlungen – konsistente Schlafenszeit, dunkler Raum, keine Bildschirme vor dem Schlafengehen, Koffein vermeiden – sind nicht falsch, nur unzureichend. Sie adressieren die verhaltensbezogenen und umweltbedingten Faktoren, die die autonome Übergabe unterstützen, aber ein autonomes System, das strukturell nicht in der Lage ist, den Übergang zu machen, wird nicht durch die Anpassung der Schlafenszeit-Routinen repariert.
+
+Einem ME/CFS-Patienten zu sagen, er solle für seinen müde-aber-aufgedrehten Zustand „bessere Schlafhygiene praktizieren", ist wie jemandem mit kaputtem Thermostat zu sagen, er solle ein Fenster öffnen. Das Fenster hilft. Der Thermostat ist immer noch kaputt.
+
+Es gibt gezieltere Interventionen, aber keine ist heilend, und alle erfordern eine Bewertung durch den Verschreiber – besonders angesichts der autonomen Komorbiditäten, die bei ME/CFS häufig sind. Auf der autonomen Seite adressieren Strategien, die die sympathische Aktivierung reduzieren – Vagusnervstimulation, langsame Atemübungen, sofern toleriert, und pharmakologische Ansätze wie niedrig dosiertes Clonidin oder Guanfacin (beides kardiovaskulär wirksame Mittel, die bei Patienten mit orthostatischer Hypotonie eine Überwachung erfordern) – das Wurzelungleichgewicht und nicht seine nachgelagerten Effekte. Die Evidenz bei ME/CFS ist begrenzt, aber mechanistisch begründet.
+
+Die Temperatur kann direkt manipuliert werden: Ein warmes Bad 90 Minuten vor dem Schlafengehen, gefolgt von Abkühlung, kann den Abfall der Kerntemperatur künstlich auslösen, den das autonome System nicht liefert [@Haghayegh2019warmBathSleep] (Meta-Analyse, die eine Reduktion der Einschlaflatenz von ~10 Minuten zeigt). Manche Patienten finden, dass das Erwärmen der Extremitäten – beheizte Socken, eine Wärmflasche an den Füßen – die periphere Vasodilatation fördert, die den Schlafbeginn spontan initiieren sollte.
+
+Für das Orexin-Problem unterdrücken duale Orexinrezeptor-Antagonisten (DORAs) wie Suvorexant und Lemborexant die wachfördernde Orexin-Signalgebung ohne die stumpfe Sedierung von Benzodiazepinen oder Z-Drogen. Sie konsolidieren den Schlaf, indem sie verlängerte Wachphasen reduzieren, und erhalten die normale Schlafarchitektur besser als ältere Optionen. Frühe klinische Erfahrung bei ME/CFS war vorsichtig positiv, obwohl kontrollierte Studien noch fehlen.
+
+Zirkadiane Verankerung ist getrennt von der Sedierung zu erwägen. Niedrig dosiertes Melatonin (0,5–1 mg), getimt auf das Melatonin-Beginn-unter-Dimlicht des Einzelnen – nicht die willkürliche Anweisung „zur Schlafenszeit nehmen" auf der Verpackung – kann helfen, die zirkadiane Phase zu verankern und den abendlichen Cortisol-Abfall zu stärken. Die Exposition gegenüber morgendlichem hellem Licht verstärkt das zirkadiane Signal von der anderen Richtung, muss aber vorsichtig angegangen werden: Für schwere und sehr schwere Patienten kann helles Licht sensorische Überlastung auslösen und die Symptome verschlimmern.
+
+---
+
+## Der Preis der verlorenen Nacht
+
+Jede Stunde im müde-aber-aufgedrehten Zustand trägt einen Preis, der weit über die Erschöpfung des nächsten Tages hinausgeht. Anhaltende sympathische Aktivierung hält Noradrenalin erhöht und die glymphatische Beseitigung die ganze Nacht unterdrückt; der verzögerte Schlafbeginn zehrt am gesamten Slow-Wave-Schlaf; und was auch immer fragmentierter Schlaf eintrifft, stört die Gedächtniskonsolidierung, beeinträchtigt die Wachstumshormon-Sekretion und lässt die Immun-Reorganisation unvollständig.
+
+Die schlechte Nacht potenziert sich. Der Patient fühlt sich nicht nur am Folgetag schlechter – es gibt akkumulierten Schaden aus gescheiterter nächtlicher Wartung, Schaden, der Tage oder Wochen brauchen kann, um als sich vertiefender Brain Fog, verschlimmerter Schmerz oder eine vollständige Post-Exertionelle-Malaise-Episode aufzutauchen, ausgelöst durch Aktivität, die nach einer wirklich erholsamen Nacht machbar gewesen wäre.
+
+---
+
+## Die Beine, die nicht ruhen wollen
+
+Selbst wenn der Schlaf endlich eintrifft, mag der Körper nicht kooperieren.
+
+Restless-Legs-Syndrom (RLS) und Periodische-Gliedmaßenbewegungs-Störung (PLMD) sind anerkannte Komorbiditäten von ME/CFS, obwohl ihre ME/CFS-spezifische Prävalenz nicht rigoros untersucht wurde. RLS beinhaltet einen unwiderstehlichen Drang, die Beine zu bewegen, typischerweise schlimmer in Ruhe und am Abend – genau dann, wenn ME/CFS-Patienten versuchen, sich in den Schlaf zu begeben. Die stärksten mechanistischen Verbindungen führen zur Eisen-Dysregulation (zentraler ZNS-Eisenmangel kann selbst bei normalen Serum-Eisenwerten auftreten) und zur dopaminergen Dysfunktion. Die Tiefen-Phänotypisierung-Studie der NIH fand bei ME/CFS-Patienten im Vergleich zu Kontrollen verringerte Liquor-Spiegel von DOPA, DOPAC und DHPG – Katecholamin-Pfad-Metaboliten [@walitt2024deep]. Ein Ergebnis aus einer kleinen Kohorte (n=17 vs. 21 Kontrollen), noch nicht unabhängig repliziert, das aber die dopaminergen Bahnen, die am RLS beteiligt sind, direkt impliziert.
+
+PLMD – periodische Beugung von Hüfte und Knie mit Dorsalflexion des Fußes, die während des Schlafs alle 20–40 Sekunden auftritt – stört die Schlafarchitektur, ohne dass der Patient unbedingt aufwacht. Ein PLMD-Index über 15 Ereignisse pro Stunde ist diagnostisch (ICSD-3-Kriterien). Jede Bewegung löst eine Mikro-Erregung aus, fragmentiert die Schlafkontinuität und verhindert die anhaltenden Slow-Wave-Epochen, die für die glymphatische Beseitigung nötig sind.
+
+Für ME/CFS-Patienten ist die Kombination grausam: Das autonome Übergabefehler verzögert den Schlafbeginn, RLS verhindert das Zur-Ruhe-Kommen, Alpha-Wellen-Intrusion verschlechtert die Slow-Wave-Schlafqualität, sobald der Schlaf eintrifft, und PLMD fragmentiert, was übrig bleibt. Jeder Mechanismus beeinträchtigt unabhängig die Erholung; zusammen können sie sie eliminieren – ein nächtliches Versagen auf jeder Ebene von der autonomen Transition bis zur motorischen Kontrolle, das sich in jeden anderen Fehler im System zurückspeist.
+
+---
+
+
+---
+
+*Vorheriger Artikel dieser Serie: [Das Nickerchen-Paradoxon](https://www.linkedin.com/pulse/) – warum Ruhe bei ME/CFS nicht zurücksetzt.*

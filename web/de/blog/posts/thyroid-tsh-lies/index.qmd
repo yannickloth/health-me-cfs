@@ -1,0 +1,83 @@
+---
+title: "Ihre Schilddrüse ist „normal": Warum TSH allein Ihnen nichts sagt"
+description: "TSH 2,8 mIU/l. Referenzbereich 0,4–4,0. Normal. Fall geschlossen."
+author: "Yannick Loth"
+date: "2026-06-19"
+categories: [Endocrine, Diagnostics, Misdiagnosis]
+lang: de
+---
+
+TSH 2,8 mIU/l. Referenzbereich 0,4–4,0. Normal. Fall geschlossen.
+
+Außer, dass es das nicht ist. Diese Zahl ist die Meinung der Hypophyse über die zirkulierenden Schilddrüsenhormonspiegel. Sie sagt nichts darüber aus, was auf zellulärer Ebene passiert – ob T3, das aktive Schilddrüsenhormon, die Mitochondrien in Ihren Muskeln und Ihrem Gehirn erreicht und tatsächlich die Stoffwechselprozesse antreibt, die es antreiben soll. TSH ist ein Signal über ein Signal. Es ist die Messung der Raumtemperatur durch den Thermostat, keine Messung davon, ob die Heizkörper jemanden tatsächlich wärmen.
+
+Für einen gesunden Menschen ist TSH ein vernünftiger Stellvertreter. Das System funktioniert: Die Hypophyse erfasst die Schilddrüsenhormonspiegel, passt TSH entsprechend an und die Schilddrüse antwortet. Für einen Patienten mit chronischer Krankheit kann diese Rückkopplungsschleife an mindestens drei Stellen entkoppeln – jede erzeugt einen Zustand, in dem der Patient auf zellulärer Ebene hypothyreot ist, mit „normalem" TSH.
+
+---
+
+## Die drei Arten, wie die Schilddrüsenfunktion bricht, ohne dass TSH es bemerkt
+
+**Zentrale Hypothyreose.** Die Hypophyse selbst leistet Unterleistung. Sie produziert nicht genug TSH, um die Schilddrüse angemessen zu antreiben. Die Schilddrüse, die unzureichende Stimulation erhält, produziert weniger T4 und T3 – aber das TSH liest „normal", weil die Vorstellung der Hypophyse von „normal" nach unten neu kalibriert wurde. Dies tritt bei jeder Erkrankung auf, die die Hypophysenfunktion betrifft: chronische Krankheit, Schädeltrauma, Hypophysentumoren und – relevant – chronische HPA-Achsen-Unterdrückung, die bei ME/CFS dokumentiert ist. Die hypothalamische-hypophysäre-Schilddrüsen-Achse existiert nicht isoliert; sie spricht mit der HPA-Achse, und die Unterdrückung der einen kann die andere mit nach unten ziehen [@Mancini2018thyroidOxidative].
+
+**Beeinträchtigte T4-zu-T3-Konversion.** Die Schilddrüse produziert hauptsächlich T4 (Thyroxin), ein Prohormon. T4 muss durch Deiodase-Enzyme in peripheren Geweben zu T3 (Trijodthyronin) umgewandelt werden, um biologisch aktiv zu sein. Die wichtigste Umwandlung erfolgt über die Typ-2-Deiodase (DIO2) in Gehirn, Muskel und braunem Fett.
+
+Chronische Entzündung unterdrückt die DIO2-Aktivität und reguliert DIO3 hoch, das Enzym, das T4 in reverses T3 (rT3) umwandelt – eine biologisch inaktive Form, die T3-Rezeptoren besetzt, ohne sie zu aktivieren (Wajner & Maia 2012, *Clinical Endocrinology*). Dies nennt man „Euthyroid-Sick-Syndrom" oder „Non-Thyroidal-Illness-Syndrom" (NTIS). TSH ist normal. T4 kann normal sein. Aber das T3, das tatsächlich den Stoffwechsel in den Geweben antreibt, ist niedrig, und reverses T3 ist hoch [@Wajner2012NTIS]. Der Patient ist in jeder Zelle funktional hypothyreot, und jedes Labor, das der Hausarzt anordnet, sagt, dass alles in Ordnung ist.
+
+Das ist keine seltene Kuriosität. Es tritt in jedem chronischen Entzündungszustand auf: Sepsis, Herzinsuffizienz, chronische Nierenerkrankung und – fast sicher – ME/CFS, wo chronische Immunaktivierung ein zentrales Merkmal ist.
+
+**DIO2-Genetische-Polymorphismen.** Der Thr92Ala-Polymorphismus im DIO2-Gen (rs225014) ist bei etwa 16 % der europäischen Bevölkerung als Homozygote vorhanden. Er reduziert die Effizienz des DIO2-Enzyms und beeinträchtigt die T4-zu-T3-Umwandlung in jedem Gewebe, das darauf angewiesen ist. Träger haben normales TSH, normales T4, aber können auf zellulärer Ebene funktional unzureichendes T3 haben [@Panicker2009]. Das ist keine Hypothyreose nach irgendeiner Standarddefinition. Es ist eine genetisch bedingte Reduktion der Effizienz der Schilddrüsenhormon-Aktivierung, die kein Standard-Schilddrüsenpanel erkennt.
+
+Für einen anderweitig gesunden Träger mag das Defizit subklinisch sein. Für einen ME/CFS-Patienten – bei dem jedes Energie produzierende System bereits belastet ist – kann eine 10–15 %ige Reduktion der T3-Verfügbarkeit für Mitochondrien der Unterschied zwischen Bewältigen und Nicht-Bewältigen sein.
+
+---
+
+## Hashimoto: die autoimmune Zerstörung, die niemand untersucht hat
+
+Die Hashimoto-Thyreoiditis ist die weltweit häufigste Autoimmunerkrankung. Antikörper (Anti-TPO, Anti-Thyreoglobulin) greifen Schilddrüsengewebe an und zerstören es fortschreitend. Die Zerstörung ist langsam – es dauert Jahre, bis genug Gewebe verloren ist, dass TSH über den Referenzbereich steigt.
+
+Während dieser Jahre hat der Patient eine aktive autoimmune Schilddrüsenentzündung, schwankende Hormonspiegel, während intakte Follikel zerstörte kompensieren, und Müdigkeit, die mit den Antikörperspiegeln korreliert und nicht mit TSH [@Ott2011]. Das TSH kann ein Jahrzehnt im Bereich bleiben, während die Drüse zerstört wird. Der Patient hat Müdigkeit, Brain Fog, Gewichtsveränderungen, Kälteintoleranz und Haarausfall – und bekommt gesagt, dass seine Schilddrüse in Ordnung sei, weil der einzige angeordnete Test TSH war.
+
+Anti-TPO-Antikörper sind bei etwa 10 % der Allgemeinbevölkerung vorhanden. In ME/CFS-Kohorten kann die Prävalenz höher sein – die autoimmune Diathese, die ME/CFS antreibt, überlappt mit der autoimmunen Diathese, die Hashimoto antreibt. Das Testen auf Antikörper fügt dem Laborauftrag etwa 20 € hinzu. Es identifiziert einen Zustand, der fortschreitend, behandelbar und für das TSH-Screening völlig unsichtbar ist.
+
+---
+
+## Wie eine vollständige Schilddrüsenbewertung aussieht
+
+Das Mindestpanel für einen Patienten mit chronischer Müdigkeit sollte umfassen:
+
+- **TSH** – notwendig, aber nicht ausreichend
+- **Freies T4** – das Prohormon. Niedrig-normal + normales TSH deutet auf zentrale Hypothyreose hin.
+- **Freies T3** – das aktive Hormon. Niedriges freies T3 bei normalem T4 und TSH = Konversionsproblem.
+- **Reverses T3** – der inaktive Konkurrent. Hohes rT3 bei normalem TSH = Euthyroid-Sick-Syndrom.
+- **Anti-TPO- und Anti-Thyreoglobulin-Antikörper** – Hashimoto-Screening. Positiv = fortschreitende autoimmune Schilddrüsenzerstörung, unabhängig vom aktuellen TSH.
+
+Das vollständige Panel kostet in den meisten europäischen Labors etwa 50–80 €. Das Standardpanel, das die meisten Hausärzte anordnen – TSH allein – kostet 15 € und verfehlt jedes oben beschriebene Szenario.
+
+---
+
+## Die Behandlungskontroverse
+
+Hier wird das Terrain politisch aufgeladen. Die Standardposition der Endokrinologie ist: Wenn TSH normal ist, ist der Patient euthyreot, keine Behandlung ist indiziert. Diese Position ist durch die Evidenzbasis verteidigbar, wenn Sie „euthyreot" durch Laborwerte und „Behandlungsansprechen" durch TSH-Normalisierung definieren.
+
+Sie wird weniger verteidigbar, wenn Sie fragen, ob Patienten mit normalem TSH, aber Symptomen einer Hypothyreose, niedrigem freiem T3 oder positiven Antikörpern sich durch die Schilddrüsenhormon-Substitution verbessern. Mehrere Studien legen nahe, dass sie es tun, zumindest in Untergruppen – insbesondere mit kombinierter T4/T3-Therapie statt T4-Monotherapie, und insbesondere bei Trägern des DIO2-Thr92Ala-Polymorphismus ([@Panicker2009]; [@Wiersinga2017T4T3]).
+
+Das ist keine Empfehlung, jedem mit Müdigkeit und normalem TSH Schilddrüsenhormon zu verschreiben. Es ist eine Beobachtung, dass die binäre Klassifikation – euthyreot oder hypothyreot, basierend auf einem einzelnen Hormon einer einzelnen Drüse, gemessen zu einem einzelnen Zeitpunkt – zu grob ist, um die Realität der Schilddrüsenhormon-Wirkung auf Gewebeebene zu erfassen.
+
+Speziell für ME/CFS-Patienten: Die Frage ist nicht, ob subklinische Schilddrüsendysfunktion ME/CFS verursacht. Das tut sie fast sicher nicht. Die Frage ist, ob sie bei einem Teil der Patienten zum Energiedefizit beiträgt – und ob ihre Korrektur in diesem Teil eine sinnvolle Verbesserung der Funktion erzeugt. Die Evidenz ist suggestiv. Der Schaden eines überwachten Versuchs einer Schilddrüsen-Substitution bei einem Patienten mit dokumentiertem niedrigem freiem T3 und positiven Antikörpern ist minimal. Der potenzielle Nutzen bei einem Patienten, dessen Energiemarge in einstelligen Prozenten gemessen wird, ist signifikant [@Loth2026mecfs].
+
+---
+
+## Das tiefere Muster
+
+Schilddrüsendysfunktion bei ME/CFS ist kein eigenständiges Problem. Sie ist Teil eines systemweiten Musters endokriner Unterdrückung, das durch chronische Krankheit angetrieben wird:
+
+- HPA-Achsen-Abstumpfung (flaches Cortisol) → reduziertes ACTH → reduziertes Cortisol → beeinträchtigte Stressantwort
+- HPT-Achsen-Abstumpfung (zentrale Hypothyreose) → reduziertes TSH → reduzierte Schilddrüsenausgabe
+- HPG-Achsen-Unterdrückung → reduzierte Sexualhormone → Müdigkeit, Veränderungen der Körperzusammensetzung
+- GH-Achsen-Abstumpfung → reduziertes Wachstumshormon → beeinträchtigte Gewebereparatur und Belastungserholung
+
+Diese Achsen sprechen miteinander. HPA-Unterdrückung zieht die HPT-Achse nach unten. Chronische Entzündung unterdrückt sie alle. Das Ergebnis ist ein Patient mit „normalen" Werten in jedem isolierten endokrinen Test, der dennoch in einem Zustand multi-axialer endokriner Insuffizienz funktioniert – kein Defizit schwer genug, um irgendeinen einzelnen Alarm auszulösen, aber kollektiv ausreichend, um tiefe funktionale Beeinträchtigung zu erzeugen.
+
+Dies ist das Schilddrüsen-Kapitel einer größeren Geschichte: Die Lücke zwischen „nicht als abnormal markiert" und „ausreichend für das, was der Körper braucht" ist der Raum, in dem ME/CFS-Patienten leben. Die Schilddrüse ist eine Achse. Das Muster ist durch alle gleich.
+
+---

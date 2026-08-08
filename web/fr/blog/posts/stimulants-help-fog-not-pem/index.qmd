@@ -1,0 +1,117 @@
+---
+title: "Pourquoi les stimulants aident le brouillard cérébral mais pas le PEM"
+description: "C'est le sixième d'une série sur la biologie de l'énergie reliant le TDAH, l'autisme et l'EM/SFC. Cet article explique la dissociation frappante entre le bénéfice des stimulants pour les symptômes cognitifs et leur effet nul sur le malaise post-effort — et ce qu'elle révèle sur une combinaison de tr..."
+author: "Yannick Loth"
+date: "2026-06-06"
+categories: [ADHD, Treatment, PEM]
+lang: fr
+---
+
+C'est le sixième d'une série sur la biologie de l'énergie reliant le TDAH, l'autisme et l'EM/SFC. Cet article explique la dissociation frappante entre le bénéfice des stimulants pour les symptômes cognitifs et leur effet nul sur le malaise post-effort — et ce qu'elle révèle sur une combinaison de traitement non testée. Le modèle de réserve métabolique pose que le TDAH implique un déficit énergétique cérébral de base [@Zametkin1990].
+
+---
+
+## Les données
+
+Un sondage PNAS de 2025 portant sur **3 925 patients atteints d'EM/SFC** a évalué les résultats de traitement dans de multiples domaines [@Vernon2025PNAS] :
+
+- Les stimulants ont amélioré **le brouillard cérébral chez 77,1 %**
+- Les stimulants ont amélioré **la perception de la fatigue chez 71,7 %**
+- Les stimulants ont eu un **effet net de -1,5 % sur le PEM**
+
+Ces trois nombres paraissent contradictoires. Comment quelque chose peut-il améliorer la fatigue de 72 % tout en ayant simultanément un effet nul sur le symptôme définissant de la maladie ?
+
+Le modèle de réserve métabolique offre une explication cohérente.
+
+---
+
+## Ce que font réellement les stimulants
+
+Les stimulants — méthylphénidate, amphétamines, modafinil, solriamfétol — augmentent la disponibilité de la dopamine et de la noradrénaline à la synapse. Cela rend la signalisation neuronale plus efficace. Chaque pensée, chaque décision, chaque acte d'attention soutenue exige **moins de cycles de déclenchement** et donc **moins d'énergie métabolique**.
+
+En termes d'ingénierie : les stimulants réduisent la **demande** d'énergie par unité cognitive sans augmenter l'**offre** d'énergie.
+
+L'expérience subjective : la pensée devient plus facile. L'effort constant requis juste pour maintenir l'attention — qui est l'état de base dans le brouillard cérébral du TDAH et de l'EM/SFC — se relâche. Les nombres de 77 % et 71,7 % reflètent cette amélioration réelle de l'efficacité cognitive.
+
+---
+
+## Pourquoi le PEM ne s'améliore pas
+
+Le malaise post-effort n'est pas déclenché par la dureté de l'effort que vous *ressentez*. Il est déclenché par le total d'énergie que vous *dépensez réellement* — par rapport à votre capacité de production.
+
+Le PEM survient quand la demande métabolique totale dépasse la production maximale des mitochondries assez longtemps pour initier un dommage oxydatif [@walitt2024deep]. Les stimulants n'augmentent pas la capacité mitochondriale. Ils ne relèvent pas le plafond. Ils réduisent le coût d'une catégorie spécifique de demande (la cognition) sans changer le plafond qui détermine le PEM.
+
+Et voici le piège : **quand la cognition devient plus facile, vous en faites plus.**
+
+Vous vous sentez mieux. Vous prenez cette réunion supplémentaire. Vous rattrapez vos courriels. Vous pensez « peut-être qu'aujourd'hui je peux gérer un après-midi normal ». Le stimulant ne vous a pas donné plus d'énergie. Il a rendu l'énergie existante moins chère à dépenser sur *penser*. Donc vous la dépensez — plus encore, parce que la cognition améliorée vous rend capable de vous sentir apte.
+
+Le résultat : la dépense énergétique totale augmente. La partie cognitive est moins chère par unité, mais le nombre d'unités augmente. Effet net sur la demande métabolique totale : approximativement zéro. Effet net sur le PEM : approximativement zéro.
+
+Sous le modèle de réserve métabolique, le -1,5 % n'est pas un échec pharmacologique — c'est un échec comportemental. Une interprétation alternative : les stimulants n'affectent tout simplement pas le mécanisme du PEM du tout, indépendamment du comportement de pacing, parce que le PEM a une physiopathologie fondamentalement différente de la fatigue cognitive. Distinguer ces interprétations exige un essai combinant les stimulants avec un pacing imposé (voir plus bas).
+
+---
+
+## La prédiction non testée
+
+Le modèle de réserve métabolique fait une prédiction spécifique et testable :
+
+**Les patients atteints d'EM/SFC traités par stimulants qui maintiennent un pacing d'activité strict devraient montrer une FRÉQUENCE DE PEM PLUS FAIBLE que les patients non traités.**
+
+La logique : si le stimulant réduit le coût métabolique de la fonction cognitive de (disons) 20 %, et que le patient maintient le même niveau d'activité, alors 20 % de son budget énergétique cognitif est libéré — ajouté en retour à sa réserve. Plus de réserve = plus de tampon avant que le seuil de PEM ne soit franchi.
+
+**Les patients traités par stimulants qui augmentent leur activité devraient montrer une FRÉQUENCE DE PEM PLUS ÉLEVÉE.**
+
+La logique : ils se sentent mieux, font plus, dépassent l'enveloppe. Le stimulant leur a permis de dépasser sans s'en rendre compte.
+
+Le **net de -1,5 %** dans le sondage Vernon est probablement la moyenne de ces deux effets opposés. Certains patients ont rythmé et en ont bénéficié. Certains patients en ont fait plus et ont crashé. La moyenne : approximativement zéro.
+
+Aucun essai n'a testé cela directement. Aucune étude n'a combiné la prescription de stimulants avec des protocoles de pacing imposé. La combinaison **stimulants + pacing strict** est l'intervention non testée que le modèle prédit devoir fonctionner.
+
+---
+
+## Un bénéfice secondaire : protection mitochondriale ?
+
+Il y a une ligne de preuves séparée suggérant que le méthylphénidate peut avoir des effets mitochondriaux directs [@Almutairi2024mitoadhd] :
+
+- Augmente l'expression de **Parkin** (un régulateur de la mitophagie — aide à éliminer les mitochondries endommagées)
+- Réduit la production **d'espèces réactives de l'oxygène**
+- Maintient le potentiel membranaire mitochondrial
+
+Si cela est confirmé, cela signifie que le méthylphénidate ne réduit peut-être pas seulement la demande d'énergie cognitive — il pourrait aussi légèrement protéger les mitochondries qui produisent cette énergie. Un médicament qui fait les deux serait particulièrement précieux dans le cadre de la réserve métabolique. Cependant, cette preuve est principalement préclinique et n'a pas été validée chez les patients atteints d'EM/SFC.
+
+---
+
+## L'ECR de Blockmans
+
+L'essai le plus rigoureux du méthylphénidate dans l'EM/SFC était une ECR croisée en double aveugle (n = 60, 4 semaines par bras) [@Blockmans2006methylphenidate] :
+
+- Les scores de fatigue ont baissé significativement sous méthylphénidate vs placebo
+- La concentration s'est significativement améliorée
+- La qualité de vie et le fonctionnement physique ne se sont **pas** améliorés significativement
+- Dans un suivi observationnel à long terme séparé du même groupe (n = 149 sondés sur 194 prescrits) : 65 % avaient arrêté le méthylphénidate ; parmi ceux qui continuaient, 48 % ont rapporté une amélioration de la fatigue ≥50 %, 62 % ont rapporté une amélioration de la concentration ≥50 %
+
+Le taux d'abandon élevé (65 % ont arrêté) est lui-même informatif. Conforme au modèle : les patients qui ont arrêté peuvent être ceux qui ont augmenté leur activité, vécu un PEM pire, et attribué l'aggravation au médicament. Les patients qui ont continué peuvent être ceux qui ont maintenu le pacing et vécu le bénéfice cognitif sans coût de PEM.
+
+---
+
+## Implications pratiques
+
+Pour les patients atteints d'EM/SFC utilisant des stimulants :
+
+1. **Le bénéfice est « la même quantité me coûte moins » — pas « je peux en faire plus ».** Maintenez le même niveau d'activité que celui que vous aviez avant de commencer le stimulant.
+
+2. **Utilisez des minuteurs externes, pas le ressenti interne, pour décider quand arrêter.** Le stimulant supprime le signal d'avertissement subjectif. Au moment où vous vous sentez cognitivement fatigué sous stimulant, vous avez déjà dépassé votre enveloppe.
+
+3. **Suivez le PEM à 24 h et 48 h après les sessions cognitives.** Si le PEM s'aggrave malgré une cognition améliorée pendant les sessions, vous dépensez les économies plutôt que de les mettre en banque.
+
+4. **Envisagez pacing d'abord, stimulant ensuite.** Établissez une base stable et rythmée d'abord. Puis ajoutez le stimulant. Surveillez si la fréquence du PEM change. Si elle diminue : la combinaison fonctionne comme prédit. Si elle augmente : vous avez augmenté l'activité sans vous en rendre compte.
+
+5. **Prudence cardiaque chez les patients POTS.** Le méthylphénidate et les amphétamines sont sympathomimétiques. Dans les 30–40 % de patients atteints d'EM/SFC avec POTS comorbide, ils peuvent aggraver la tachycardie. Préoccupations spécifiques : (a) stimulants + midodrine peuvent provoquer des pics hypertensifs ; (b) stimulants + bêta-bloquants créent des poussées cardiovasculaires opposées ; (c) stimulants + fludrocortisone augmentent la charge sympathique globale. Si vous commencez des stimulants chez un patient POTS, utilisez la dose efficace la plus basse, surveillez la fréquence cardiaque de repos et orthostatique, et co-gérez avec le clinicien qui prescrit les médicaments du POTS.
+
+6. **La sévérité compte.** Les conseils de pacing ci-dessus supposent que le patient peut mettre en œuvre des sessions de travail cognitif structuré. Les patients atteints d'EM/SFC sévère et très sévère — ceux qui sont alités ou confinés à la maison — peuvent ne pas être capables d'auto-gérer les minuteurs, le suivi ou les décisions d'activité sans soutien de l'aidant. Adaptez les principes au niveau fonctionnel du patient.
+
+*Note : Ce sont des principes de pacing dérivés du modèle de réserve métabolique, pas des conseils de prescription. Toutes les décisions médicamenteuses — y compris l'initiation des stimulants, le dosage et la surveillance cardiaque — exigent un clinicien qualifié.*
+
+---
+
+*Partie 6 d'une série sur la biologie de l'énergie reliant le TDAH, l'autisme et l'EM/SFC.*
