@@ -10818,20 +10818,6 @@ This section covers the foundational mechanosensation and nociception literature
         - *Quality:* Medium (n=15; single group)
         - *Score:* 0.60
 
-=== Sasso/Marshall-Gradisnik et al.\ 2025 --- Oxidative Stress Shared by ME/CFS and Long COVID (PNAS)
-
-    *Full Citation:*: Sasso EM et al.\ Oxidative stress is a shared characteristic of ME/CFS and Long COVID. _PNAS_. 2025;122(28):e2426564122. @oxidativestress2025
-    *DOI:*: #link("https://doi.org/10.1073/pnas.2426564122")[10.1073/pnas.2426564122]
-    *PMID:*: 40627396
-    *Study Design:*: Case-control; flow cytometry, RNA-seq, mass spectrometry; n=25 healthy, 27 ME/CFS, 20 Long COVID
-    *Key Findings:*:
-        - Elevated ROS, reduced SOD2, GPx4-mediated lipid oxidative damage in both conditions
-        - Sex-specific pattern; converges on shared oxidative-mitochondrial signature
-    *Relevance to ch17:*: Family 2 (redox/oxidative balance). Confirms shared ME/CFS/Long COVID signature.
-    *Certainty Assessment:*:
-        - *Quality:* High (PNAS, 2025)
-        - *Score:* 0.70
-
 === Saha, Krishnan & Raghu 2023 --- IMPA1-Dependent PIP2 and Ca2+ Signalling by Lithium
 
     *Full Citation:*: Saha S, Krishnan H, Raghu P. IMPA1 dependent regulation of phosphatidylinositol 4,5-bisphosphate and calcium signaling by lithium. _Life Sci Alliance_. 2023;7(2):e202302425. @saha2023impa1

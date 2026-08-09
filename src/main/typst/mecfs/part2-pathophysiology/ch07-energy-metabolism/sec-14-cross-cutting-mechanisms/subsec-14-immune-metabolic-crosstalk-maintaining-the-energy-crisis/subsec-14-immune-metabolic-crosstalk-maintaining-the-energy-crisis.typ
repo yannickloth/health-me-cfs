@@ -21,7 +21,7 @@ Che, Hornig, and Lipkin  (published in npj Metabolic Health and Disease) docume
 
 ==== Oxidative Stress in Immune Cells
 
-Paul and Bhatt @PaulBhatt2025oxidative (published in PNAS) measured reactive oxygen species (ROS) in circulating lymphocytes from ME/CFS and Long COVID patients. They found elevated ROS in memory T cells, with striking sex differences: females showed higher ROS production and T-cell hyperproliferation; males showed evidence of mitochondrial lipid oxidative damage. Critically, metformin treatment attenuated T-cell hyperproliferation in vitro, suggesting ROS-driven immune dysregulation may be pharmacologically reversible.
+Shankar et al.\ @Shankar2025oxidativestress (published in PNAS) measured reactive oxygen species (ROS) in circulating lymphocytes from ME/CFS and Long COVID patients. They found elevated ROS in memory T cells, with striking sex differences: females showed higher ROS production and T-cell hyperproliferation; males showed evidence of mitochondrial lipid oxidative damage. Critically, metformin treatment attenuated T-cell hyperproliferation in vitro, suggesting ROS-driven immune dysregulation may be pharmacologically reversible.
 
 ==== Mitochondrial Fragmentation in Immune Cells: The DRP1 Connection
 

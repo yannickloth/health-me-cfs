@@ -77,7 +77,7 @@ Full discussion: @ch:energy-metabolism. Functional CPET correlates: @ch:causal-h
 
 - *ROS overproduction.* Elevated ROS in PBMCs and RBCs; RBC ROS ~30% higher than healthy controls; correlates with symptom severity and membrane stiffness @marshall2018rbc.
 
-- *Glutathione depletion and compensatory upregulation.* Paradoxically elevated total glutathione levels alongside glutathione peroxidase 4 (GPx4)-mediated lipid oxidative damage in memory lymphocytes, suggesting compensatory upregulation under chronic oxidative load that nonetheless fails to contain damage @oxidativestress2025.
+- *Glutathione depletion and compensatory upregulation.* Paradoxically elevated total glutathione levels alongside glutathione peroxidase 4 (GPx4)-mediated lipid oxidative damage in memory lymphocytes, suggesting compensatory upregulation under chronic oxidative load that nonetheless fails to contain damage @Shankar2025oxidativestress.
 
 - *Mitochondrial SOD2 downregulation.* Decreased mitochondrial superoxide dismutase protein in ME/CFS immune cells, reducing the first line of mitochondrial ROS defence.
 
@@ -91,7 +91,7 @@ Full discussion: @ch:energy-metabolism. Functional CPET correlates: @ch:causal-h
 
 Full discussion: @ch:energy-metabolism.
 
-*Evidence status:* Established (replicated across multiple cohorts; shared signature with Long COVID @oxidativestress2025).
+*Evidence status:* Established (replicated across multiple cohorts; shared signature with Long COVID @Shankar2025oxidativestress).
 
 == Family 3: Ion Channel and Membrane Transport
 <sec:um-ion-channel>
