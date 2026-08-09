@@ -10944,5 +10944,25 @@
     "label": "Warburg effect",
     "category": "concept",
     "definition": "The metabolic shift from oxidative phosphorylation to aerobic glycolysis, originally described in cancer cells but also characteristic of activated immune cells."
+  },
+  "GM-CSF": {
+    "label": "GM-CSF",
+    "category": "cytokine",
+    "definition": "Granulocyte-Macrophage Colony-Stimulating Factor: a cytokine that stimulates bone-marrow production of granulocytes and macrophages. GM-CSF is a severity-correlated inflammatory marker in ME/CFS and is elevated (as is G-CSF) in Alzheimer's disease, suggesting a shared myeloid-axis signal across inflammatory CNS conditions."
+  },
+  "IL-17A": {
+    "label": "IL-17A",
+    "category": "cytokine",
+    "definition": "Interleukin-17A: the defining cytokine of Th17 cells, recruiting neutrophils and promoting inflammation. Elevated in Alzheimer's disease and in depression/persons with mental illness, and relevant to Th17-axis signalling in ME/CFS; crossing the blood-brain barrier, it may contribute to CNS inflammation."
+  },
+  "IL-17F": {
+    "label": "IL-17F",
+    "category": "cytokine",
+    "definition": "Interleukin-17F: a Th17-family cytokine structurally related to IL-17A, produced by Th17 cells and promoting neutrophil recruitment. Part of early-disease ME/CFS cytokine signatures."
+  },
+  "inflammaging": {
+    "label": "inflammaging",
+    "category": "pathway",
+    "definition": "Low-grade chronic inflammation that increases with age and is linked to immunosenescence (deteriorating immune function). Implicated across neuroinflammatory CNS conditions including Alzheimer's disease and proposed as a contributor to chronic illness."
   }
 }

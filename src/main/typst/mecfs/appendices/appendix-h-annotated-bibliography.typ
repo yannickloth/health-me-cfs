@@ -32729,3 +32729,63 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - *Sample:*: N/A (review; adrenal insufficiency ≠ ME/CFS)
         - *Replication:*: Supported by Chronocort and Plenadren clinical development programs
         - *Score:*: 0.70 (weight: 0.60; discounted: 0.42)
+
+=== Kuring et al.\ 2026 — Inflammatory Markers in Dementia (Meta-Analysis)
+
+    *Full Citation:*: Kuring JK, Mathias JL, Ward L, Tachas G. Inflammatory markers associated with dementia: a systematic review and meta-analysis. _Journal of Psychiatric Research_. 2026;197:26–40. @Kuring2026InflammatoryDementia
+    *DOI:*: #link("https://doi.org/10.1016/j.jpsychires.2026.02.044")[10.1016/j.jpsychires.2026.02.044]
+    *PMID:*: 41759353
+    *Published:*: February 2026
+    *Study Design:*: PRISMA/MOOSE-conforming systematic review and meta-analysis (41 studies; 3895 participants). CRD42020188244.
+    *Key Findings:*:
+        - AD is associated with inflammation independent of comorbid mental/physical conditions that cause inflammation. IL-17A (Hedges' g 0.74), IL-1α (0.57), IL-10 (0.59) elevated, each from 4 studies
+        - G-CSF (0.80), GM-CSF (0.44), IL-3 (1.39) elevated in AD (2 studies each); IL-3, G-CSF novel markers not examined by prior alzheimer meta-analyses
+        - Excluding comorbid inflammatory conditions removed the IL-6 and TNF-α elevations reported in older meta-analyses — comorbid conditions, not dementia itself, may have driven those signals
+        - VaD, DLB, FTD show tentative, divergent inflammatory profiles: IL-1α, IL-3, CCL18 higher in AD but lower in VaD/DLB/FTD
+        - Peripheral vs CSF discordance for IL-1β and TNF-α in AD (lower in CSF, no difference peripherally) — blood may not be a reliable proxy for CNS neuroinflammation
+        - Overlap evidence: IL-17A elevated in AD and in depression; G-CSF elevated in AD, depression, and PTSD — consistent with a mental-illness → inflammation → dementia pathway
+    *Conclusion:*: Supports the inflammatory-mediated neurodegeneration hypothesis: AD (and tentatively VaD/DLB/FTD) display inflammatory changes not attributable to comorbid inflammatory conditions. Whether inflammation is causal, prodromal, or epiphenomenal to dementia remains unresolved.
+    *Limitations:*: Observational, cross-sectional included studies cannot establish causality; data for VaD/DLB/FTD and most markers limited (single studies); publication bias not assessable; dementia diagnoses clinical rather than biomarker-confirmed (possible mixed-dementia contamination); peripheral measures may not reflect CNS inflammation.
+    *Certainty Assessment:*:
+        - *Quality:*: High (peer-reviewed meta-analysis, PRISMA/MOOSE, 41 studies, large pooled n)
+        - *Sample:*: n=3895 (2256 dementia, 1639 controls)
+        - *Replication:*: Findings cross 41 included studies but individual markers mostly single-study
+        - *Score:*: 0.85 (weight: 0.75 [dementia ≈ other-disease general-population]; discounted: 0.64)
+
+=== Kuring et al.\ 2023 — Inflammatory Markers in Depression/Anxiety/PTSD (Meta-Analysis)
+
+    *Full Citation:*: Kuring JK, Mathias JL, Ward L, Tachas G. Inflammatory markers in persons with clinically-significant depression, anxiety or PTSD: a systematic review and meta-analysis. _Journal of Psychiatric Research_. 2023;168:279–292. @Kuring2023InflammatoryMood
+    *DOI:*: #link("https://doi.org/10.1016/j.jpsychires.2023.10.009")[10.1016/j.jpsychires.2023.10.009]
+    *PMID:*: 37931509
+    *Published:*: December 2023
+    *Study Design:*: PRISMA/MOOSE-conforming systematic review and meta-analysis of inflammatory markers in clinically-significant depression, anxiety, or PTSD.
+    *Key Findings:*:
+        - Evaluates the inflammatory-mediated neurodegeneration hypothesis from the mental-illness side: whether depression, anxiety, and PTSD are each associated with inflammation independent of comorbid inflammatory conditions
+        - Companion to the 2026 dementia meta-analysis; the 2026 paper compares dementia inflammatory profiles to these mental-illness profiles
+        - Provides the depression-side anchor for the hypothesis: IL-17A and G-CSF elevated in both AD (2026) and depression (2023) → shared inflammatory pathway candidate
+    *Conclusion:*: Establishes the mental-illness-associated inflammatory baseline against which dementia inflammation is compared, supporting the plausibility of a mental-illness → inflammation → dementia chain.
+    *Limitations:*: Observational/cross-sectional included studies; cannot establish temporal or causal ordering between mental illness and inflammation.
+    *Certainty Assessment:*:
+        - *Quality:*: High (peer-reviewed meta-analysis, PRISMA/MOOSE)
+        - *Sample:*: Multi-study meta-analysis; large pooled n
+        - *Replication:*: Across multiple included studies per marker
+        - *Score:*: 0.80 (weight: 0.75 [mental-illness population, non-ME/CFS]; discounted: 0.60)
+
+=== Strawbridge et al.\ 2019 — Inflammatory Proteins in CFS (Meta-Analysis)
+
+    *Full Citation:*: Strawbridge R, Sartor ML, Scott F, Cleare AJ. Inflammatory proteins are altered in chronic fatigue syndrome—A systematic review and meta-analysis. _Neuroscience and Biobehavioral Reviews_. 2019;107:69–83. @Strawbridge2019CFSInflammatory
+    *DOI:*: #link("https://doi.org/10.1016/j.neubiorev.2019.08.011")[10.1016/j.neubiorev.2019.08.011]
+    *PMID:*: 31465778
+    *Published:*: December 2019
+    *Study Design:*: Systematic review and meta-analysis of circulating inflammatory protein levels in CFS vs healthy controls (42 studies).
+    *Key Findings:*:
+        - ME/CFS patients have significantly elevated TNF-α (ES 0.274, p\<0.001), IL-2 (0.203), IL-4 (0.373), TGF-β (0.967), and CRP (0.622)
+        - 12 other proteins measured did not differ between CFS and controls
+        - Provides the ME/CFS-side parallel: chronic fatigue is associated with a similar low-grade inflammatory profile to that seen in dementia — but the specific elevated markers differ (TNF-α/IL-4/TGF-β/CRP in CFS vs IL-17A/IL-1α/IL-10/G-CSF/IL-3 in AD)
+    *Conclusion:*: Supports an inflammatory component in CFS, though heterogeneity across studies indicates inflammation is not uniform across all patients — parallels the subgroup-specific inflammatory profiles argued in dementia.
+    *Limitations:*: Substantial between-study heterogeneity; most studies not designed to test the inflammatory-mediated hypothesis; possible comorbidity confounding; case definitions varied.
+    *Certainty Assessment:*:
+        - *Quality:*: High (peer-reviewed meta-analysis, 42 studies)
+        - *Sample:*: 42 studies
+        - *Replication:*: Across multiple studies per protein
+        - *Score:*: 0.70 (weight: 1.00 [ME/CFS cohort]; discounted: 0.70)

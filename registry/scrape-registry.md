@@ -581,6 +581,9 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/23514626/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Deutz2013HMB — HMB preserves lean mass bed rest older adults RCT |
 | https://pubmed.ncbi.nlm.nih.gov/28705993/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Standley2017HMBMitochondria — HMB effects mitochondria bed rest |
 | https://pubmed.ncbi.nlm.nih.gov/25296344/ | pubmed | 2026-05-26 | 2026-05-26 | lit-muscle-preservation-bedbound — Dirks2015NMES — NMES prevents muscle wasting comatose ICU patients |
+| https://www.sciencedirect.com/science/article/pii/S0022395626001287 | sciencedirect | 2026-08-09 | — | ops/research/literature-dementia-inflammation-2026.md, ops/research/search-log-dementia-inflammation-2026.md, bib/neuroinflammation.bib, appendix-h, Literature/reviews/Kuring2026_dementia_inflammation_meta.pdf — Kuring 2026 dementia inflammatory markers meta-analysis (inflammatory-mediated neurodegeneration hypothesis) |
+| https://pubmed.ncbi.nlm.nih.gov/37931509/ | pubmed | 2026-08-09 | — | Kuring 2023 depression/anxiety/PTSD inflammatory markers meta-analysis (companion paper) |
+| https://pubmed.ncbi.nlm.nih.gov/31465778/ | pubmed | 2026-08-09 | — | Strawbridge 2019 CFS inflammatory proteins meta-analysis (ME/CFS cross-disease support) |
 
 ## Brain Clearance Architecture 2026 Literature (2026-05-30)
 

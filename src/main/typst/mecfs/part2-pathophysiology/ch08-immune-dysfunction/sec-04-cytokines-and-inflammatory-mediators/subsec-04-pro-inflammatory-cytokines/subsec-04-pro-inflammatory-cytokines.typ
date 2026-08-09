@@ -13,7 +13,7 @@ IL-6 has both pro- and anti-inflammatory effects and is frequently elevated in M
 
 ==== Tumor Necrosis Factor-Alpha (TNF-$alpha$)
 
-TNF-$alpha$ is a central inflammatory cytokine elevated in some ME/CFS studies. It causes fatigue, malaise, and cognitive dysfunction while also affecting mitochondrial function and promoting muscle wasting (cachexia) via ubiquitin-proteasome pathway activation. Variable findings across studies may reflect patient heterogeneity within the ME/CFS population. Nutritional anti-catabolic strategies that inhibit the ubiquitin-proteasome pathway — such as HMB, a leucine metabolite that preserved lean mass in a bed rest RCT — may partially offset TNF-$alpha$-driven muscle catabolism in immobilized patients; this is discussed in Section @subsec:muscle-preservation-bedbound @Deutz2013HMB.
+TNF-$alpha$ is a central inflammatory cytokine elevated in some ME/CFS studies. It causes fatigue, malaise, and cognitive dysfunction while also affecting mitochondrial function and promoting muscle wasting (cachexia) via ubiquitin-proteasome pathway activation. A meta-analysis of 42 studies confirmed significantly elevated TNF-$alpha$ in CFS versus controls (effect size 0.274, $p < 0.001$), alongside elevated IL-2, IL-4, TGF-$beta$, and CRP, but found 12 other measured proteins did not differ between groups @Strawbridge2019CFSInflammatory. Variable findings across studies may reflect patient heterogeneity within the ME/CFS population @Strawbridge2019CFSInflammatory. Nutritional anti-catabolic strategies that inhibit the ubiquitin-proteasome pathway — such as HMB, a leucine metabolite that preserved lean mass in a bed rest RCT — may partially offset TNF-$alpha$-driven muscle catabolism in immobilized patients; this is discussed in Section @subsec:muscle-preservation-bedbound @Deutz2013HMB.
 
 ==== Interferons
 
@@ -104,6 +104,14 @@ No study has yet examined all three factors (duration, severity, sex/hormones) s
 #limitation(title: [Integrated Cytokine Model: Extrapolated from Separate Studies])[
 The integrated duration/severity/sex model combines findings from Hornig 2015, Montoya 2017, and Che 2025—three studies using different cohorts, cytokine panels, analytic methods, and stratification criteria. No study has simultaneously examined all three factors. The clinical predictions (e.g., “early + severe + female + low estradiol” = highest cytokines) are logical extrapolations, not empirical findings. The interaction effects between duration, severity, and sex may be non-additive in ways not predictable from individual studies.
 ]
+
+#limitation(title: [Comorbidity Masking of Cytokine Signals — A Cross-Disease Caution])[
+A 41-study meta-analysis of inflammatory markers in dementia found that excluding patients with comorbid psychiatric and physical inflammatory conditions *removed* the classically reported elevations of IL-6 and TNF-$alpha$ in Alzheimer's disease, while elevations of IL-17A, IL-1$alpha$, IL-10, G-CSF, GM-CSF, and IL-3 survived this exclusion @Kuring2026InflammatoryDementia. This is a methodological caution that applies to any chronic condition including ME/CFS: if included ME/CFS populations are not screened for common comorbid inflammatory conditions (arthritis, diabetes, chronic infections, autoimmune disease), apparent IL-6 or TNF-$alpha$ signals may be inflated by comorbidity rather than reflect disease-inherent inflammation. The finding also reinforces the specificity of the ME/CFS cytokine signal: the markers that survive comorbidity-exclusion in dementia (IL-17A, G-CSF, GM-CSF, IL-1$alpha$) overlap with the ME/CFS severity-correlated markers reported above (G-CSF, GM-CSF, IL-17F, IL-17A-adjacent Th17 axis @Kuring2026InflammatoryDementia), suggesting a possible shared Th17/myeloid-axis signal — but the dementia markers are not directly transferable to ME/CFS, and replication in comorbidity-screened ME/CFS cohorts is needed before any such inference is drawn.
+
+*(Certainty: 0.45 — methodological parallel from a dementia population; specific marker transfer to ME/CFS unsupported. Severity coverage: unknown — dementia populations not ME/CFS-severity-stratified.)*
+
+*Consequence:* For patients and readers, this is a caution about how inflammatory-marker research can overstate a signal that is really driven by other coexisting illnesses; it does not change any current ME/CFS treatment or diagnostic practice.
+] <lim:dementia-comorbidity-masking>
 
 *IL-2 as Emerging Biomarker Target*
 

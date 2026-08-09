@@ -5017,3 +5017,31 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [If positive, identifies atomoxetine and methylphenidate as first-line pharmacological probes targeting the waking local-sleep mechanism with a quantifiable electrophysiological endpoint. Research-stage only until confirmed.],
   limitation: [No ME/CFS waking slow-wave EEG data exist -- the entire protocol is a prediction. EEG hardware and analysis pipeline are standard but require operator training for waking slow-wave detection. CSF DHPG measurement requires lumbar puncture -- only feasible in research settings, not routine clinical monitoring. Cross-sectional first; longitudinal PEM timecourse adds scheduling complexity. Atomoxetine and methylphenidate carry sympathomimetic side effects that may be poorly tolerated in ME/CFS patients with POTS. (Origin: /integrate-topic local-sleep-waking-slow-waves.)],
 )
+= Entries added 2026-08-09: Dementia Neuroinflammation — Bidirectional Mental-Illness–Inflammation Template
+
+#registry-entry(
+  [The Inflammatory-Mediated Neurodegeneration Template: Bidirectional Mental-Illness–Inflammation Link],
+  type: "S",
+  certainty: "0.45",
+  evidence: [Meta-analyses testing the inflammatory-mediated-neurodegeneration hypothesis found (a) Alzheimer's disease associated with elevated IL-17A, IL-1$alpha$, IL-10, G-CSF, GM-CSF, IL-3 independent of comorbid psychiatric/physical inflammatory conditions @Kuring2026InflammatoryDementia; (b) depression, anxiety, PTSD each associated with inflammation independent of such comorbidities @Kuring2023InflammatoryMood. IL-17A elevated in both AD and depression; G-CSF in AD, depression, PTSD. Excluding comorbid inflammatory conditions removed classically-reported IL-6/TNF-$alpha$ elevations in AD @Kuring2026InflammatoryDementia. Cross-disease (dementia/mental-illness → ME/CFS inference); specific AD markers do not match ME/CFS profile (TNF-$alpha$/IL-4/TGF-$beta$/CRP per @Strawbridge2019CFSInflammatory), so only the general template, not the specific markers, transfers.],
+  citations: [@Kuring2026InflammatoryDementia @Kuring2023InflammatoryMood @Strawbridge2019CFSInflammatory],
+  mechanism: [Pre-existing mental-illness-associated inflammation → IL-17A/IL-1$alpha$/G-CSF signaling → CNS neuroinflammation and neuroinflammatory-mediated CNS pathology. In ME/CFS this runs REVERSE to the "neuroinflammation as common upstream driver" model (depression as secondary); the two imply a bidirectional inflammation–mental-state loop with causality direction unresolved. Comorbidity masking: excluding comorbid inflammatory conditions changes which cytokines appear elevated (a methodological caution applicable to ME/CFS inflammatory-marker research).],
+  chapter-ref: [ch14d-cross-disease: @spec:bidirectional-mood-inflammation-template; ch08 pro-inflammatory cytokines: @lim:dementia-comorbidity-masking; ch19 causal hierarchy: chronicity criterion cross-disease precedent],
+  prediction: [Within ME/CFS, a depression/anxiety-comorbid subgroup (excluding other inflammatory conditions) will show a distinct inflammatory-marker profile (higher IL-17A, G-CSF) correlating with depressive-symptom severity, with mental-symptom onset preceding the marker rise in longitudinal sampling. Falsified if mental symptoms are uniformly secondary (marker rise follows mental-symptom onset in all patients) or if the sub-group marker profile is not distinct.],
+  treatment: [No clinical treatment recommendation. If confirmed, the bidirectional link would imply anticytokine/anti-neuroinflammatory strategies and mental-health treatment may each partially address the other — but this is speculative and not currently actionable.],
+  limitation: [Cross-sectional included studies cannot establish causality vs prodrome vs epiphenomenon. Direction of mental-illness→inflammation arrow unresolved. Specific dementia markers not transferable to ME/CFS. Severity applicability unknown (dementia populations not ME/CFS-severity-stratified). No comorbidity-screened ME/CFS replication yet. (Origin: /integrate-topic dementia-inflammation.)],
+)
+
+#registry-entry(
+  [Shared Th17/Myeloid-Axis Signal Between ME/CFS and Inflammatory CNS Conditions],
+  type: "S",
+  certainty: "0.30",
+  evidence: [G-CSF and GM-CSF are severity-correlated inflammatory markers in ME/CFS (Montoya PNAS 2017 cohort @Montoya2017) and are elevated in Alzheimer's disease independent of comorbidity @Kuring2026InflammatoryDementia. IL-17F (Th17) is part of early-disease ME/CFS signatures (Hornig 2015); IL-17A is elevated in both Alzheimer's and depression @Kuring2023InflammatoryMood. This specific Th17/myeloid-hematopoiesis axis (G-CSF/GM-CSF/IL-17 family) converges across conditions, in contrast to the overall divergent ME/CFS (TNF-$alpha$/IL-4/TGF-$beta$/CRP @Strawbridge2019CFSInflammatory) vs AD (IL-17A/IL-1$alpha$/IL-10/G-CSF/IL-3) profiles.],
+  citations: [@Kuring2026InflammatoryDementia @Kuring2023InflammatoryMood @Strawbridge2019CFSInflammatory @Montoya2017],
+  mechanism: [Chronic inflammatory-CNS conditions may share an operational Th17/myeloid hematopoiesis axis (G-CSF, GM-CSF, IL-17 family) as a measurable pathway, even when their broader inflammatory profiles diverge. In ME/CFS this axis may drive or track fatigue/cognitive severity.],
+  chapter-ref: [ch14d-cross-disease: @spec:th17-myeloid-shared-signal],
+  prediction: [A comorbidity-screened ME/CFS cohort will show elevated G-CSF and GM-CSF with a Th17-correlated profile (raised IL-17F/IL-17A) tracking fatigue/cognitive severity. Falsified if comorbidity-screened ME/CFS cohorts show neither elevated G-CSF/GM-CSF nor a Th17-correlated signal.],
+  treatment: [No clinical recommendation. If confirmed, identifies a specific measurable immune axis for biomarker and stratification use; anti-Th17/anti-IL-17 biologics would be research-stage probes only with no ME/CFS data.],
+  limitation: [Cross-study marker panels differ; none run on comorbidity-screened ME/CFS cohorts. Inference from cross-disease panels, not direct ME/CFS replication. Severity applicability unknown. (Origin: /integrate-topic dementia-inflammation — brainstorm.)],
+)
+
