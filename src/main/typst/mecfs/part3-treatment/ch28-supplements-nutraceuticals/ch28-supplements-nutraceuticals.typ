@@ -227,7 +227,7 @@ Given the evidence for energy metabolism dysfunction in ME/CFS (Chapter @ch:ene
 
 *Rationale.* CoQ10 is a mobile electron carrier in the electron transport chain, shuttling electrons from Complex I and Complex II to Complex III, and is a potent lipid-soluble antioxidant.
 
-*Evidence.* Moderate. Multiple small studies show benefit in ME/CFS @Maes2009CoQ10 (Castro-Marrero 2015: n=73, CoQ10+NADH combination) and fibromyalgia @Cordero2013. A 2022 systematic review and meta-analysis of 13 RCTs (n=1,126) found CoQ10 significantly reduced fatigue across several chronic conditions (cancer fatigue, MS, fibromyalgia, cardiovascular disease; not ME/CFS-specific) @Tsai2022CoQ10fatigue.
+*Evidence.* Moderate. Multiple small studies show benefit in ME/CFS @Maes2009CoQ10 (Castro-Marrero 2015: n=73, CoQ10+NADH combination) and fibromyalgia @Cordero2013. A 2022 systematic review and meta-analysis of 13 RCTs (n=1,126) found CoQ10 significantly reduced fatigue across several chronic conditions (cancer fatigue, MS, fibromyalgia, cardiovascular disease; not ME/CFS-specific) @Tsai2022CoQ10fatigue. In a large patient-reported survey ($n = 3{,}925$), higher CoQ10 doses strongly outperformed lower doses: positive response 50.7% at \>200 mg/day versus 26.7% at 50–100 mg/day @Eckey2025PatientReported — a real-world dose-response signal consistent with the Tsai 2022 meta-analysis coefficient and with the dosing table below. (Severity applicability: unknown — survey did not stratify by severity.)
 
 #achievement(title: [Strong Meta-Analysis Evidence Base])[
 The Tsai 2022 meta-analysis provides high-quality evidence that CoQ10 reduces fatigue across multiple chronic conditions. The dose-response relationship (coefficient = -0.0017 per mg, p < 0.001) and duration-response relationship (coefficient = -0.0042 per day, p = 0.007) enable evidence-based dosing decisions. CoQ10-only formulations were more effective than CoQ10 compounds in the analysis.
@@ -747,7 +747,7 @@ The three components target overlapping but distinct mast cell stabilization pat
 
 *Rationale for combination:* Quercetin addresses IgE-dependent degranulation; luteolin addresses CRH-driven and microglial activation; PEA addresses PPAR-mediated downregulation. The three mechanisms are additive rather than overlapping.
 
-*Evidence base:* Quercetin and PEA each have moderate evidence for mast cell conditions; combination has not been tested. Luteolin data are from in vitro and animal models. No ME/CFS RCT exists for any component of this stack. Evidence grade: E (theoretical/preclinical).
+*Evidence base:* Quercetin and PEA each have moderate evidence for mast cell conditions; combination has not been tested. Luteolin data are from in vitro and animal models. No ME/CFS RCT exists for any component of this stack. Evidence grade: E (theoretical/preclinical). Patient-reported data ($n = 3{,}925$) support the enhanced-delivery premise directly: PEA formulations with enhanced bioavailability had a higher positive response (56.8%) than PEA overall (41.5%), echoing the phytosome rationale for quercetin and PEA above @Eckey2025PatientReported. (Severity applicability: unknown — survey did not stratify by severity.)
 
 *Dosing start for ME/CFS sensitivity:* Begin with quercetin phytosome 250 mg once daily for 2 weeks, then add luteolin 100 mg, then add PEA 300 mg; titrate over 6 weeks to avoid intolerance. Monitor for GI effects.
 
@@ -892,7 +892,7 @@ If the OTC combination produces no improvement in urinary neopterin:biopterin ra
 
 *Rationale.* Essential for methylation, nerve function, and energy metabolism.
 
-*Evidence.* Low–Moderate. Some ME/CFS patients respond dramatically to B12, especially sublingual or injectable forms; others show no benefit.
+*Evidence.* Low–Moderate. Some ME/CFS patients respond dramatically to B12, especially sublingual or injectable forms; others show no benefit. In a large patient-reported survey ($n = 3{,}925$), B12 *injections* (47.1% positive response) significantly outperformed *oral* B12 (30.5%) @Eckey2025PatientReported — the largest-scale format-comparison signal and consistent with the mechanistic rationale that parenteral administration bypasses absorption limitations and drives tissue B12/MMA changes more reliably. (Severity applicability: unknown — survey did not stratify by severity.)
 
 *Forms.*
 
