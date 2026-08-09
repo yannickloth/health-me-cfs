@@ -2,7 +2,7 @@
 title: "ME/CFS — A Comprehensive Medical Documentation"
 listing:
   id: recent-posts
-  contents: blog/posts
+  contents: en/blog/posts
   sort:
     - "date desc"
     - "title asc"
@@ -54,4 +54,4 @@ Short, accessible articles exploring specific ME/CFS topics — mechanisms, trea
 ::: {#recent-posts}
 :::
 
-[See all blog posts &rarr;](blog/index.qmd){.btn .btn-outline-primary}
+[See all blog posts &rarr;](en/blog/index.qmd){.btn .btn-outline-primary}
