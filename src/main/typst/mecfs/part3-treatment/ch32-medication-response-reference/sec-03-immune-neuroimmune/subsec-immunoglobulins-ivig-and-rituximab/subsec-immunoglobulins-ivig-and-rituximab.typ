@@ -4,6 +4,8 @@
 
 IVIG neutralizes circulating autoantibodies and modulates Fc receptors. Rituximab eliminates CD20+ B cells (autoantibody-producing precursors). Both probe whether humoral autoimmunity is contributing. Both are Category C (energy-demanding), extremely expensive, and require infusion center access.
 
+*Patient-reported signal.* In the largest treatment-outcome survey to date (Eckey et al.\ 2025, $n = 3{,}925$), IVIG/subcutaneous IgG was among the most positively rated treatments overall (NAS 58.2%) and, notably, had its highest response in the multisystemic symptom cluster (73.3% positive, alongside manual lymphatic drainage at 73.9%) — the cluster with the highest symptom/comorbidity burden @Eckey2025PatientReported. (Severity: survey was severity-stratified; the multisystemic cluster had the lowest capacity, 39.1% ± 17.6%.) This is patient-reported, unblinded evidence, not RCT-level, but it supports prioritizing an immune-targeting probe in multisystemic patients and is consistent with the humoral-autoimmunity hypothesis above. (Evidence class: patient-reported survey, single study.)
+
 ==== If IVIG or rituximab works
 
 

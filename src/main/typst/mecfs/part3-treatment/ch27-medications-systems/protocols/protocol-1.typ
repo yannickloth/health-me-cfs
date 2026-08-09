@@ -26,7 +26,7 @@
 
     - Avoid all stimulants after noon (methylphenidate) or early morning only (modafinil, amphetamines)
     - Monitor sleep quality metrics with wearables
-    - Consider low-dose melatonin as a concurrent intervention (43.3% net positive in PNAS survey) @Vernon2025PNAS
+    - Consider low-dose melatonin as a concurrent intervention (43.3% net positive in PNAS survey) @Eckey2025PatientReported
 
 *5. Mitochondrial co-support (limited evidence):*
 

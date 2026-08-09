@@ -18,7 +18,7 @@ Dopamine governs focus, motivation, executive function, and reward processing. I
 
 - *Cause C — HPA axis hypocortisolism:* Cortisol normally upregulates tyrosine hydroxylase. ME/CFS often involves blunted cortisol, reducing enzyme activation and dopamine production. → *If LDA + fludrocortisone both work, HPA dysfunction (Cause C) may contribute.*
 
-*Certainty of this inference:* Low to Medium for dopaminergic involvement. CSF catecholamine reduction is documented @Walitt2024NIH, and stimulant surveys report 77.1% brain fog improvement @Vernon2025PNAS — but LDA specifically has zero controlled ME/CFS trials.
+*Certainty of this inference:* Low to Medium for dopaminergic involvement. CSF catecholamine reduction is documented @Walitt2024NIH, and stimulant surveys report 77.1% brain fog improvement @Eckey2025PatientReported — but LDA specifically has zero controlled ME/CFS trials.
 
 *What this finding does NOT tell us:*
 - Whether the dopamine deficit is primary (genetic, developmental ADHD) or secondary (acquired from neuroinflammation, metabolic failure, or HPA dysfunction).
