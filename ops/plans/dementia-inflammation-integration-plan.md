@@ -102,6 +102,13 @@ ch30 footprint decision: **Citation cross-ref only** (cross-disease comparative 
 - Phase 12: changelog updated — Version 7.3 entry in `shared/changelog-tspo-pet-section.typ` (references @Kuring2026InflammatoryDementia, @Kuring2023InflammatoryMood, @Strawbridge2019CFSInflammatory; clinical relevance MEDIUM; quality note none).
 - Phase 13: commit (below). Final build PASS (exit 0).
 
+## Phase 13 result
+- Commits: `0d552866` (content, 10 files: chapters/appendix/registry/glossary/changelog + Literature PDF + scrape-registry), `8b6bb549` (docs, 6 ops files).
+- Shared-file ownership: bib entries (Kuring×2, Strawbridge) shipped via parallel stream commit `f09dae3a` (verified in HEAD); appendix-h (2), registry (2), changelog 7.3 (1) landed in `0d552866`. All verified present in HEAD.
+- Excluded: `web/index.qmd` (other stream's WIP, left unstaged), `tmp/` (gitignored), `neuroinflammation.bib` (already in HEAD via parallel stream).
+- Post-commit integrity: nix build error count 0; `git status` shows only foreign `web/index.qmd`.
+- MIXED-tree mode honored: no history rewrites, no reset, explicit file-list staging. Status: ✅ done.
+
 
 ## Certainty Bump Log
 
