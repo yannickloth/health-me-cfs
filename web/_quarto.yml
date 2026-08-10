@@ -99,6 +99,8 @@ format:
     include-after-body: glossary-tooltip.html
     resources:
       - glossary.json
+      - glossary-fr.json
+      - glossary-de.json
       - glossary-tooltip.js
     crossref:
       sec-prefix: Section

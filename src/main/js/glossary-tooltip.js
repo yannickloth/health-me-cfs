@@ -3,29 +3,81 @@
 // Usage: <glossary-tooltips></glossary-tooltips> anywhere in <body>
 
 (() => {
-  const SCRIPT_EL = document.querySelector('script[src$="glossary-tooltip.js"]');
-  const GLOSSARY_URL = SCRIPT_EL
-    ? new URL('glossary.json', SCRIPT_EL.src).href
-    : '/glossary.json';
-  const CATEGORY_LABELS = {
-    medication: 'Medication', supplement: 'Supplement', medication_class: 'Class',
-    diagnostic_criteria: 'Diagnostic Criteria', organisation: 'Organization', registry: 'Registry',
-    research: 'Research', anatomical: 'Anatomy', compound: 'Compound', device: 'Device',
-    abbreviation: 'Abbreviation', gene: 'Gene',
-    disease: 'Disease', symptom: 'Symptom', condition: 'Condition', hormone: 'Hormone',
-    neurotransmitter: 'Neurotransmitter', cytokine: 'Cytokine', protein: 'Protein',
-    enzyme: 'Enzyme', molecule: 'Molecule', metabolite: 'Metabolite', pathway: 'Pathway',
-    receptor: 'Receptor', transporter: 'Transporter', transcription_factor: 'Transcription Factor',
-    cell: 'Cell', immune: 'Immune', biomarker: 'Biomarker', measurement: 'Measurement',
-    axis: 'Axis', system: 'System', barrier: 'Barrier', fluid: 'Fluid', test: 'Test',
-    imaging: 'Imaging', pathogen: 'Pathogen', diagnostic: 'Diagnostic', method: 'Method',
-    treatment: 'Treatment', organization: 'Organization', regulation: 'Regulation',
-    administration: 'Administration', neurotrophin: 'Neurotrophin', cofactor: 'Cofactor',
-    concept: 'Concept', mechanism: 'Mechanism', anatomy: 'Anatomy', vitamin: 'Vitamin',
-    hypothesis: 'Hypothesis', physiology: 'Physiology', study: 'Study',
-    neuropeptide: 'Neuropeptide',
-    'cell-biology': 'Cell Biology', 'immunology': 'Immunology'
+  const GLOSSARY_FILES = {
+    en: 'glossary.json',
+    fr: 'glossary-fr.json',
+    de: 'glossary-de.json'
   };
+
+  function pageLang() {
+    const htmlLang = document.documentElement?.lang && document.documentElement.lang.slice(0, 2).toLowerCase();
+    return GLOSSARY_FILES[htmlLang] ? htmlLang : 'en';
+  }
+
+  const SCRIPT_EL = document.querySelector('script[src$="glossary-tooltip.js"]');
+  const BASE_URL = SCRIPT_EL ? SCRIPT_EL.src : '/';
+  const LANG = pageLang();
+  const GLOSSARY_URL = new URL(GLOSSARY_FILES[LANG], BASE_URL).href;
+  const CATEGORY_LABEL_SETS = {
+    en: {
+      medication: 'Medication', supplement: 'Supplement', medication_class: 'Class',
+      diagnostic_criteria: 'Diagnostic Criteria', organisation: 'Organization', registry: 'Registry',
+      research: 'Research', anatomical: 'Anatomy', compound: 'Compound', device: 'Device',
+      abbreviation: 'Abbreviation', gene: 'Gene',
+      disease: 'Disease', symptom: 'Symptom', condition: 'Condition', hormone: 'Hormone',
+      neurotransmitter: 'Neurotransmitter', cytokine: 'Cytokine', protein: 'Protein',
+      enzyme: 'Enzyme', molecule: 'Molecule', metabolite: 'Metabolite', pathway: 'Pathway',
+      receptor: 'Receptor', transporter: 'Transporter', transcription_factor: 'Transcription Factor',
+      cell: 'Cell', immune: 'Immune', biomarker: 'Biomarker', measurement: 'Measurement',
+      axis: 'Axis', system: 'System', barrier: 'Barrier', fluid: 'Fluid', test: 'Test',
+      imaging: 'Imaging', pathogen: 'Pathogen', diagnostic: 'Diagnostic', method: 'Method',
+      treatment: 'Treatment', organization: 'Organization', regulation: 'Regulation',
+      administration: 'Administration', neurotrophin: 'Neurotrophin', cofactor: 'Cofactor',
+      concept: 'Concept', mechanism: 'Mechanism', anatomy: 'Anatomy', vitamin: 'Vitamin',
+      hypothesis: 'Hypothesis', physiology: 'Physiology', study: 'Study',
+      neuropeptide: 'Neuropeptide',
+      'cell-biology': 'Cell Biology', 'immunology': 'Immunology'
+    },
+    fr: {
+      medication: 'Médicament', supplement: 'Complément', medication_class: 'Classe',
+      diagnostic_criteria: 'Critères diagnostiques', organisation: 'Organisation', registry: 'Registre',
+      research: 'Recherche', anatomical: 'Anatomie', compound: 'Composé', device: 'Dispositif',
+      abbreviation: 'Abréviation', gene: 'Gène',
+      disease: 'Maladie', symptom: 'Symptôme', condition: 'Affection', hormone: 'Hormone',
+      neurotransmitter: 'Neurotransmetteur', cytokine: 'Cytokine', protein: 'Protéine',
+      enzyme: 'Enzyme', molecule: 'Molécule', metabolite: 'Métabolite', pathway: 'Voie',
+      receptor: 'Récepteur', transporter: 'Transporteur', transcription_factor: 'Facteur de transcription',
+      cell: 'Cellule', immune: 'Système immunitaire', biomarker: 'Biomarqueur', measurement: 'Mesure',
+      axis: 'Axe', system: 'Système', barrier: 'Barrière', fluid: 'Liquide', test: 'Test',
+      imaging: 'Imagerie', pathogen: 'Agent pathogène', diagnostic: 'Diagnostic', method: 'Méthode',
+      treatment: 'Traitement', organization: 'Organisation', regulation: 'Régulation',
+      administration: 'Administration', neurotrophin: 'Neurotrophine', cofactor: 'Cofacteur',
+      concept: 'Concept', mechanism: 'Mécanisme', anatomy: 'Anatomie', vitamin: 'Vitamine',
+      hypothesis: 'Hypothèse', physiology: 'Physiologie', study: 'Étude',
+      neuropeptide: 'Neuropeptide',
+      'cell-biology': 'Biologie cellulaire', 'immunology': 'Immunologie'
+    },
+    de: {
+      medication: 'Medikament', supplement: 'Nahrungsergänzung', medication_class: 'Klasse',
+      diagnostic_criteria: 'Diagnosekriterien', organisation: 'Organisation', registry: 'Register',
+      research: 'Forschung', anatomical: 'Anatomie', compound: 'Verbindung', device: 'Gerät',
+      abbreviation: 'Abkürzung', gene: 'Gen',
+      disease: 'Krankheit', symptom: 'Symptom', condition: 'Erkrankung', hormone: 'Hormon',
+      neurotransmitter: 'Neurotransmitter', cytokine: 'Zytokin', protein: 'Protein',
+      enzyme: 'Enzym', molecule: 'Molekül', metabolite: 'Metabolit', pathway: 'Signalweg',
+      receptor: 'Rezeptor', transporter: 'Transporter', transcription_factor: 'Transkriptionsfaktor',
+      cell: 'Zelle', immune: 'Immun', biomarker: 'Biomarker', measurement: 'Messung',
+      axis: 'Achse', system: 'System', barrier: 'Barriere', fluid: 'Flüssigkeit', test: 'Test',
+      imaging: 'Bildgebung', pathogen: 'Erreger', diagnostic: 'Diagnostik', method: 'Methode',
+      treatment: 'Behandlung', organization: 'Organisation', regulation: 'Regulation',
+      administration: 'Verabreichung', neurotrophin: 'Neurotrophin', cofactor: 'Kofaktor',
+      concept: 'Konzept', mechanism: 'Mechanismus', anatomy: 'Anatomie', vitamin: 'Vitamin',
+      hypothesis: 'Hypothese', physiology: 'Physiologie', study: 'Studie',
+      neuropeptide: 'Neuropeptid',
+      'cell-biology': 'Zellbiologie', 'immunology': 'Immunologie'
+    }
+  };
+  const CATEGORY_LABELS = CATEGORY_LABEL_SETS[LANG] || CATEGORY_LABEL_SETS.en;
   const ESCAPE_RE = /[&<>"]/g;
   const ESCAPE_MAP = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
   const esc = (s) => (s && typeof s === 'string') ? s.replace(ESCAPE_RE, c => ESCAPE_MAP[c]) : '';
