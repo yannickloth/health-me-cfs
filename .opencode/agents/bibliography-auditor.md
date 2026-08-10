@@ -1,7 +1,7 @@
 ---
 name: bibliography-auditor
 description: Audit references.bib and citation usage for duplicates, missing fields, uncited entries, broken citations, retracted papers, and annotated bibliography alignment. Use when checking bibliography health. Works with Typst (.typ) files.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 # Bibliography Auditor

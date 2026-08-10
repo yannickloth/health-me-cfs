@@ -19,17 +19,17 @@ Scans the entire paper (or scoped subset) for scattered environments that collec
 - **Promiscuous term filter:** Terms appearing in >20% of all rows (e.g., "IL-6", "TNF-α", "NF-κB", "oxidative-stress") are filtered before cluster identification. They are generic markers, not meaningful convergence signals.
 - **Single-chapter vs. multi-chapter placement:** Single-chapter clusters go in the chapter itself; multi-chapter clusters go in designated synthesis chapters (ch14d for mechanistic, ch18 for drug class, ch07/ch10/ch15 for organ-system).
 - **Review convergence (Phase 4) runs both `/review-typst` AND `/review-adversarial`:** Both must pass before commit. Adversarial CRITICAL findings block convergence; HIGH findings may remain if explicitly noted as limitations.
-- **Phase 1 full-doc scan uses sonnet, not haiku:** 3,000+ environments across 6 parts require domain judgment — haiku's higher error rate on term extraction creates false negatives/positives that break the merge.
+- **Phase 1 full-doc scan uses deepseek-v4-pro, not deepseek-v4-flash:** 3,000+ environments across 6 parts require domain judgment — the flash tier's higher error rate on term extraction creates false negatives/positives that break the merge.
 
 ---
 
 ## Phase 1 — Environment Inventory
 
-**Agent:** multiple `explore` agents (one per chapter/part) | **Model:** haiku | **Execution:** parallel foreground (each writes its own output file)
+**Agent:** multiple `explore` agents (one per chapter/part) | **Model:** deepseek-v4-flash | **Execution:** parallel foreground (each writes its own output file)
 
 **Partitioning rule:**
-- Full-document scan (no scope argument) → single `sonnet-general` agent scans the full `src/main/typst/mecfs/` directory. This avoids the coordination overhead of 6 parallel agents and eliminates terminology drift entirely, since one agent reads everything. Sonnet is used (not haiku) because accurate term extraction from 3,000+ environments across 6 parts requires domain judgment — haiku's higher error rate would create false negatives/positives that break the merge.
-- Scoped scan (e.g., `ch07 ch14d ch15`) → one `explore` agent (haiku) per chapter in the scope. Scoped scans have fewer environments, so the coordination overhead is acceptable and the speed gain from parallelism outweighs the inconsistency risk. Minimum 1, maximum 5 agents.
+- Full-document scan (no scope argument) → single `sonnet-general` agent scans the full `src/main/typst/mecfs/` directory. This avoids the coordination overhead of 6 parallel agents and eliminates terminology drift entirely, since one agent reads everything. deepseek-v4-pro is used (not deepseek-v4-flash) because accurate term extraction from 3,000+ environments across 6 parts requires domain judgment — the flash tier's higher error rate would create false negatives/positives that break the merge.
+- Scoped scan (e.g., `ch07 ch14d ch15`) → one `explore` agent (deepseek-v4-flash) per chapter in the scope. Scoped scans have fewer environments, so the coordination overhead is acceptable and the speed gain from parallelism outweighs the inconsistency risk. Minimum 1, maximum 5 agents.
 - If a single chapter has >200 environments → split that chapter into two agents (first half, second half). The `appendices/` directory is its own agent.
 
 **Shared term vocabulary (MANDATORY — prevents terminology drift across agents).** Every agent must use this exact taxonomy when filling the Mechanism/Tissue/Drug/Process columns. If an environment mentions a term on this list, use the canonical form exactly as written here. If an environment mentions a concept not on this list, add it using the standard biomedical name (not an abbreviation unique to one chapter) and flag it with `[+]` in the output table so the merge step can identify novel terms. For drugs, include the approval status suffix: `†` = FDA/EMA-approved for any indication, `‡` = research-stage only (no regulatory approval for any indication). This prevents syntheses from implying therapeutic readiness for research-stage compounds.
@@ -62,7 +62,7 @@ Scans the entire paper (or scoped subset) for scattered environments that collec
 
 ## Phase 2 — Cluster Evaluation
 
-**Agent:** `sonnet-general` | **Model:** sonnet | **Execution:** foreground (report → main session decision)
+**Agent:** `sonnet-general` | **Model:** deepseek-v4-pro | **Execution:** foreground (report → main session decision)
 
 Read the Phase 1 master output file (`tmp/synthesis-inventory-master-<date>.md`). For each candidate cluster:
 
@@ -102,9 +102,9 @@ Read the Phase 1 master output file (`tmp/synthesis-inventory-master-<date>.md`)
 
 ## Phase 3 — Synthesis Writing
 
-**Agent:** main session | **Model:** sonnet
+**Agent:** main session | **Model:** deepseek-v4-pro
 
-Composition requires judgment about where to place syntheses (which chapter, before which section heading), how to frame convergent arguments for different audiences, and how to balance certainty with caveats. Sonnet is sufficient for this — no deep reasoning (opus) needed since the evidence has already been evaluated by Phase 2.
+Composition requires judgment about where to place syntheses (which chapter, before which section heading), how to frame convergent arguments for different audiences, and how to balance certainty with caveats. deepseek-v4-pro is sufficient for this — no max-effort reasoning needed since the evidence has already been evaluated by Phase 2.
 
 For each eligible cluster, in priority order (mechanism > tissue > drug class > pathological process):
 
@@ -149,7 +149,7 @@ For every `#synthesis` environment written in Phase 3:
 
 ## Phase 5 — Commit
 
-**Agent:** main session | **Model:** haiku
+**Agent:** main session | **Model:** deepseek-v4-flash
 
 Mechanical git operations — staging, commit message formatting, queue file update. No domain reasoning required.
 
@@ -185,10 +185,10 @@ Build: PASS
 
 | Phase | Agent | Model | Why this model |
 |-------|-------|-------|----------------|
-| 1 (full doc) | `sonnet-general` | sonnet | Single agent, no coordination overhead, no terminology drift |
-| 1 (scoped) | `explore` × N (parallel) | haiku | Per-chapter grep + term extraction — cheap, parallelizable |
-| 1 (merge) | main session | haiku | Deduplicate + merge + index + filter — mechanical |
-| 2 | `sonnet-general` | sonnet | Judgment-based cluster evaluation |
-| 3 | main session | sonnet | Composition + placement judgment |
-| 4 | review-convergence + review-adversarial | sonnet/opus | Same as Phase 11 in integrate-topic |
-| 5 | main session | haiku | Mechanical git operations |
+| 1 (full doc) | `sonnet-general` | deepseek-v4-pro | Single agent, no coordination overhead, no terminology drift |
+| 1 (scoped) | `explore` × N (parallel) | deepseek-v4-flash | Per-chapter grep + term extraction — cheap, parallelizable |
+| 1 (merge) | main session | deepseek-v4-flash | Deduplicate + merge + index + filter — mechanical |
+| 2 | `sonnet-general` | deepseek-v4-pro | Judgment-based cluster evaluation |
+| 3 | main session | deepseek-v4-pro | Composition + placement judgment |
+| 4 | review-convergence + review-adversarial | deepseek-v4-pro | Same as Phase 11 in integrate-topic |
+| 5 | main session | deepseek-v4-flash | Mechanical git operations |

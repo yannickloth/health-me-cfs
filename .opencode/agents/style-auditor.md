@@ -1,6 +1,11 @@
+---
+name: style-auditor
+description: Audit book chapters for writing style consistency.
+model: deepseek/deepseek-v4-pro
+---
+
 # style-auditor Agent
 
-**Purpose**: Audit book chapters for writing style consistency.
 
 **When to use**:
 - After significant content edits
@@ -43,4 +48,3 @@
 
 **Output**: Style audit report with flagged sections and rewrites.
 
-**Model**: sonnet (subjective judgment, style analysis, rewrite suggestions)

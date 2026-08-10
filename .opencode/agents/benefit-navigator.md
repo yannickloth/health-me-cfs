@@ -1,7 +1,7 @@
 ---
 name: benefit-navigator
 description: Generate documentation for disability applications, workplace accommodations, insurance claims, and benefit eligibility. Format medical evidence for administrative and legal purposes. Help navigate bureaucratic requirements for ME/CFS recognition.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

@@ -1,7 +1,7 @@
 ---
 name: template-advisor
 description: Advise on using infolead-latex-templates environments, theorems, and preamble modules. Use when creating new LaTeX structures or choosing appropriate environments.
-model: haiku
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Purpose

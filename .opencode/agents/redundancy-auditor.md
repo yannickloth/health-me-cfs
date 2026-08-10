@@ -1,6 +1,11 @@
+---
+name: redundancy-auditor
+description: Detect similar content, arguments, and conclusions appearing at multiple locations. For every paragraph and statement, answer two questions: *What does this say that isn't already said elsewhere?* and *What does this say that is already said elsewhere?* Flag material that needlessly duplicates what is better developed in another location.
+model: deepseek/deepseek-v4-pro
+---
+
 # redundancy-auditor Agent
 
-**Purpose**: Detect similar content, arguments, and conclusions appearing at multiple locations. For every paragraph and statement, answer two questions: *What does this say that isn't already said elsewhere?* and *What does this say that is already said elsewhere?* Flag material that needlessly duplicates what is better developed in another location.
 
 **When to use**:
 - After drafting or substantially revising a chapter
@@ -106,4 +111,3 @@ ACCEPTABLE:
 - Same example system used to illustrate the same property
 - Two paragraphs that could be swapped between their locations without loss of coherence in either — a sign they are making the same generic point
 
-**Model**: sonnet (requires judgment to distinguish legitimate pedagogy from needless repetition, and to identify which location is canonical)

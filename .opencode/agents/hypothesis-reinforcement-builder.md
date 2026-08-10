@@ -1,7 +1,7 @@
 ---
 name: hypothesis-reinforcement-builder
 description: Build reinforcement chains and conflict clusters from hypothesis compatibility audit output. Constructs chain tables, identifies mutual reinforcement networks, proposes certainty adjustments, writes results to the plan file. Read-write.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 # Hypothesis Reinforcement Builder

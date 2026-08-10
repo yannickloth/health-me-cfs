@@ -1,7 +1,7 @@
 ---
 name: immunology-auditor
 description: Audit immunology content for cell subset precision, cytokine context, immune assay limitations, and acute vs chronic conflation. Use when reviewing ch07, ch14 immune sections, or any immune-related content. Works with Typst (.typ) files.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 # Immunology Auditor

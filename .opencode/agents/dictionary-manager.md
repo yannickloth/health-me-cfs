@@ -1,7 +1,7 @@
 ---
 name: dictionary-manager
 description: Manage LTeX dictionaries and spelling exceptions. Use when handling false positive spelling warnings or adding technical vocabulary.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 LTeX dictionary manager. Handle false positives and technical vocabulary.

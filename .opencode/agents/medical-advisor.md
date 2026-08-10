@@ -1,7 +1,7 @@
 ---
 name: medical-advisor
 description: Analyze ME/CFS case data and research literature to generate evidence-based medical recommendations with citations and justifications. All recommendations are PRELIMINARY and must be reviewed by a qualified healthcare provider before implementation.
-model: opus
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

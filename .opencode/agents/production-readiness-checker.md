@@ -1,6 +1,11 @@
+---
+name: production-readiness-checker
+description: Scan for leftover markers, incomplete content, and production artifacts before publication.
+model: deepseek/deepseek-v4-flash
+---
+
 # production-readiness-checker Agent
 
-**Purpose**: Scan for leftover markers, incomplete content, and production artifacts before publication.
 
 **When to use**: before publisher submission · volume completion (pre-flight) · after major editing passes
 
@@ -50,4 +55,3 @@ Orphan files: [list]
 VERDICT: READY / NOT READY (X critical, Y warning)
 ```
 
-**Model**: haiku (mechanical grep, pattern matching, checklist verification)

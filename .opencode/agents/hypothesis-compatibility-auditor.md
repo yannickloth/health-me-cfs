@@ -1,7 +1,7 @@
 ---
 name: hypothesis-compatibility-auditor
 description: Compare newly integrated hypotheses against the full hypothesis registry to identify pairwise relationships: reinforcement (mechanisms align), conflict (mechanisms contradict), feed-into (one mechanism provides input to another), or independent. Searches paper text and external literature. Read-only.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 # Hypothesis Compatibility Auditor

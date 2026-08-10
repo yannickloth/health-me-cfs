@@ -1,7 +1,7 @@
 ---
 name: case-documenter
 description: Maintain structured ME/CFS case documentation including daily symptoms, medications, supplements, and functional capacity tracking. Update Appendix I sections with patient data and generate summary statistics for medical review.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

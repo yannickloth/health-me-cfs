@@ -1,7 +1,7 @@
 ---
 name: pathway-auditor
 description: Audit biological pathway descriptions for accuracy - missing intermediaries, deprecated nomenclature, gene/protein conflation, and unsupported directionality claims. Use when reviewing Part II pathophysiology content. Works with Typst (.typ) files.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 # Biological Pathway Auditor

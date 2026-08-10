@@ -1,7 +1,7 @@
 ---
 name: pacing-coach
 description: Provide real-time pacing guidance to help patient stay within energy envelope and prevent PEM. Track activity levels, suggest rest breaks, calculate safe activity budgets, and identify activity triggers for crashes.
-model: haiku
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

@@ -1,6 +1,11 @@
+---
+name: xref-checker
+description: Verify all cross-references (`\ref`, `\cref`, `\pageref`, `\autoref`, `\nameref`, `\eqref`) resolve within and across volumes.
+model: deepseek/deepseek-v4-flash
+---
+
 # xref-checker Agent
 
-**Purpose**: Verify all cross-references (`\ref`, `\cref`, `\pageref`, `\autoref`, `\nameref`, `\eqref`) resolve within and across volumes.
 
 **When to use**:
 - After adding/renaming/moving/deleting `\label` or `\ref`
@@ -33,4 +38,3 @@ Orphan labels (INFO): [list]
 Build log reference warnings: [count]
 ```
 
-**Model**: haiku (mechanical grep, set comparison, build log parsing)

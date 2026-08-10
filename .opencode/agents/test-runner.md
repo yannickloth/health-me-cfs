@@ -1,7 +1,7 @@
 ---
 name: test-runner
 description: Run Typst compilation and parse output for errors. Use after code changes to verify document builds successfully.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 Build verification agent. Run `typst compile`; report results.

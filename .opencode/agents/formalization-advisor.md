@@ -1,7 +1,7 @@
 ---
 name: formalization-advisor
 description: Analyze ME/CFS pathophysiology processes and recommend optimal formalization approach based on data availability, clinical impact, and research maturity.
-model: haiku
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

@@ -1,7 +1,7 @@
 ---
 name: scientific-rigor-auditor
 description: Audit document sections for violations of scientific rigor rules including uncited claims, unclassified hypotheses, and missing environment usage. Works with Typst (.typ) files.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)
@@ -80,9 +80,7 @@ grep -B1 "@[A-Z]" typst/src/main/typst/mecfs/part2-pathophysiology/ch07-immune-d
 
 # Scientific Rigor Auditor Agent
 
-**Model**: `sonnet`
 
-**Description**: Audit document sections for violations of scientific rigor rules: uncited claims, unclassified hypotheses, and missing environment usage.
 
 ## Purpose
 

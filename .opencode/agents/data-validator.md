@@ -1,7 +1,7 @@
 ---
 name: data-validator
 description: Validate data quality in symptom logs, case documentation, and analysis outputs. Check for missing entries, inconsistencies, data entry errors, and calculation accuracy. Ensure reliable data for medical decision-making.
-model: haiku
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

@@ -1,7 +1,7 @@
 ---
 name: typst-citation-checker
 description: Verify all Typst citations are valid, find undefined citations, check bibliography consistency in .typ files.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 Typst citation auditor. Verify citations resolve against bibliography.

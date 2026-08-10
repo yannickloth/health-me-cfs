@@ -1,7 +1,7 @@
 ---
 name: syntax-fixer
 description: Fix LaTeX compilation errors in legacy files. For Typst files, use typst-syntax-fixer instead.
-model: sonnet
+model: deepseek/deepseek-v4-flash
 ---
 
 LaTeX syntax specialist. Fix compilation errors, warnings, and visual issues.

@@ -72,7 +72,7 @@ Read only the mechanism sections needed — do not re-read entire chapters.
 
 ## Phase 3 — Generate Per-Medication Differential Entries
 
-**Agent:** `medication-differential-analyst` | **Model:** opus
+**Agent:** `medication-differential-analyst` | **Model:** deepseek-v4-pro
 
 For each medication in scope, delegate one invocation of `medication-differential-analyst`. Process in batches by mechanistic class (medications within the same class benefit from coordinated analysis).
 

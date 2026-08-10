@@ -1,7 +1,7 @@
 ---
 name: comorbidity-auditor
 description: Audit comorbidity and differential diagnosis content for overlap condition delineation (hEDS, MCAS, POTS, fibro, Long COVID), shared vs distinct mechanisms, and exclusion criteria adherence. Use when reviewing ch04, ch14d, or cross-disease content. Works with Typst (.typ) files.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 # Comorbidity & Differential Diagnosis Auditor

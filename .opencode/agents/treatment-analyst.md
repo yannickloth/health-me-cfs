@@ -1,7 +1,7 @@
 ---
 name: treatment-analyst
 description: Analyze outcomes of treatment trials using patient case data. Generate statistical analysis of intervention effectiveness. Identify responder patterns and calculate effect sizes. Provide evidence-based guidance on continuing, modifying, or stopping treatments.
-model: opus
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

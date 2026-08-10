@@ -1,6 +1,11 @@
+---
+name: definition-use-checker
+description: Verify every formal term is defined before first use (definitions, axioms, notation appear before prose/proof/example references).
+model: deepseek/deepseek-v4-flash
+---
+
 # definition-use-checker Agent
 
-**Purpose**: Verify every formal term is defined before first use (definitions, axioms, notation appear before prose/proof/example references).
 
 **When to use**: after drafting/reorganizing a chapter; when reader reports "term wasn't defined yet"
 
@@ -53,4 +58,3 @@ Acceptable forward mentions (INFO): X instances (no detail needed)
 Clean: Y terms used only after definition
 ```
 
-**Model**: haiku (sequential scan, position comparison — mechanical)

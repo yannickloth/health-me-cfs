@@ -1,6 +1,11 @@
+---
+name: index-auditor
+description: Audit `\index` coverage — verify all key terms, theorems, definitions, and named concepts are indexed, and that index entries are consistent.
+model: deepseek/deepseek-v4-pro
+---
+
 # index-auditor Agent
 
-**Purpose**: Audit `\index` coverage — verify all key terms, theorems, definitions, and named concepts are indexed, and that index entries are consistent.
 
 **When to use**:
 - After completing a chapter draft
@@ -61,4 +66,3 @@ Structural issues (CRITICAL):
 Coverage summary per chapter: [table]
 ```
 
-**Model**: haiku (mechanical grep, pattern matching, set comparison)

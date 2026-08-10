@@ -1,7 +1,7 @@
 ---
 name: caregiver-coordinator
 description: Generate documentation and instructions for caregivers, family members, and medical team. Translate complex medical information into actionable guidance. Create support protocols for various severity levels.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

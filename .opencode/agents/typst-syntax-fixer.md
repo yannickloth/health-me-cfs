@@ -1,7 +1,7 @@
 ---
 name: typst-syntax-fixer
 description: Fix Typst compilation errors and warnings. Use when Typst build fails or has errors in .typ files.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 Typst syntax specialist. Fix compilation errors and warnings.

@@ -1,6 +1,11 @@
+---
+name: misconception-auditor
+description: Verify chapters include explicit misconception inoculation — common misunderstandings anticipated and addressed, not left for readers to stumble into.
+model: deepseek/deepseek-v4-pro
+---
+
 # misconception-auditor Agent
 
-**Purpose**: Verify chapters include explicit misconception inoculation — common misunderstandings anticipated and addressed, not left for readers to stumble into.
 
 **When to use**:
 - After drafting chapter introducing a principle, theorem, or design concept
@@ -68,4 +73,3 @@ Quality issues (INFO):
   [file:line] Misconception states what's wrong but not what's correct
 ```
 
-**Model**: sonnet (domain knowledge of common misunderstandings, pedagogical judgment required)

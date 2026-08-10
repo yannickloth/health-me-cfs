@@ -1,7 +1,7 @@
 ---
 name: meta-analysis-coordinator
 description: Synthesize findings across multiple papers on the same ME/CFS mechanism into structured evidence tables or meta-summaries. Use when comparing results from several studies, creating evidence tables for appendix G, or resolving conflicting findings across papers.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Purpose

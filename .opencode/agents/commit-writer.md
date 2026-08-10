@@ -1,7 +1,7 @@
 ---
 name: commit-writer
 description: Write commit messages, stage changes, and create commits. Use when committing session work, staging files, or improving commit message quality. High-frequency agent for day-to-day version control.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 Commit message specialist: clear, conventional commits.

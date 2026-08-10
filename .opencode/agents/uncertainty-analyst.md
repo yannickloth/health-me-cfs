@@ -1,7 +1,7 @@
 ---
 name: uncertainty-analyst
 description: Propagate certainty values through the DAG→EPC→ODE model hierarchy and flag model predictions that exceed available evidence confidence. Use when checking whether model predictions are overconfident or when certainty values need propagation analysis.
-model: opus
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Purpose

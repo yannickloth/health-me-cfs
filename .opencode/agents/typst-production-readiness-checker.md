@@ -1,7 +1,7 @@
 ---
 name: typst-production-readiness-checker
 description: Scan Typst files for TODO markers, placeholders, debug artifacts, LaTeX remnants, and production issues. Use before publishing, at volume completion, or after major edits to .typ files.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 Typst production readiness checker. Scan for markers, incomplete content, and artifacts.
@@ -56,4 +56,3 @@ Orphan files: [list]
 VERDICT: READY / NOT READY (X critical, Y warning)
 ```
 
-**Model**: haiku (mechanical grep, pattern matching, checklist verification)

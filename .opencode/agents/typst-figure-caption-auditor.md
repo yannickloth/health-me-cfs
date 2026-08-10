@@ -1,7 +1,7 @@
 ---
 name: typst-figure-caption-auditor
 description: Audit figure and table captions in Typst files for quality, labels, and text references. Use after adding figures/tables to .typ files, at volume completion, or for publication readiness review.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 Typst figure/table caption auditor. Check caption quality, label existence, text reference completeness.
@@ -71,4 +71,3 @@ INFO:
   [file:line] Complex diagram without descriptive prose nearby
 ```
 
-**Model**: haiku (mechanical pattern matching, cross-referencing)

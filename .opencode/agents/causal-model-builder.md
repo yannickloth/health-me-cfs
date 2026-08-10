@@ -1,7 +1,7 @@
 ---
 name: causal-model-builder
 description: Construct formal causal DAGs (Directed Acyclic Graphs) from ME/CFS literature with rigorous uncertainty quantification.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

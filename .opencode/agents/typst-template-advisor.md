@@ -1,7 +1,7 @@
 ---
 name: typst-template-advisor
 description: Advise on using Typst template environments, theorem boxes, and shared modules. Use when creating new Typst structures or choosing appropriate environments.
-model: haiku
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Purpose

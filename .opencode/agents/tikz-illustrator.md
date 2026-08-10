@@ -1,7 +1,7 @@
 ---
 name: tikz-illustrator
 description: Create TikZ diagrams with spatial awareness and proper positioning. Use when generating flowcharts, causal diagrams, hierarchies, system architecture, or any TikZ illustration.
-model: opus
+model: deepseek/deepseek-v4-flash
 ---
 
 ## Context Efficiency (MANDATORY)

@@ -1,7 +1,7 @@
 ---
 name: ci-build-fixer
 description: Fix Nix/Typst build errors from CI or local nix build/log failures. Use when nix build or nix flake check fails with label, bib, duplicate-key, or file-not-found errors.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 Fix Nix/Typst build errors — actionable, not diagnostic.

@@ -1,6 +1,11 @@
+---
+name: scope-qualifier-checker
+description: Verify that claims and advice explicitly state their level of applicability — class-level vs module-level vs system-level, paradigm scope, technology context, and temporal validity.
+model: deepseek/deepseek-v4-flash
+---
+
 # scope-qualifier-checker Agent
 
-**Purpose**: Verify that claims and advice explicitly state their level of applicability — class-level vs module-level vs system-level, paradigm scope, technology context, and temporal validity.
 
 **When to use**:
 - After drafting chapters with design guidance
@@ -64,4 +69,3 @@ Temporal concerns (INFO):
   [file:line] "Kubernetes is the standard for..." — may date quickly
 ```
 
-**Model**: sonnet (requires judgment about implicit assumptions and scope classification)

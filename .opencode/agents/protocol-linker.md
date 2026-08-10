@@ -1,7 +1,7 @@
 ---
 name: protocol-linker
 description: Link newly integrated literature to existing document content and create bidirectional cross-references between pathophysiology and treatment chapters.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)
@@ -54,10 +54,7 @@ grep -n "\\label{" src/main/typst/mecfs/part1-clinical/ch04-diagnostic-criteria.
 
 # protocol-linker
 
-**Model**: sonnet
-**Tools**: Read, Edit, Grep, Glob
 
-**Description**: Links newly integrated literature to existing document content, creates bidirectional cross-references between pathophysiology and treatment chapters, and updates urgent protocols (Ch14a/14b) based on new evidence. Final integration step after main session writes chapter content.
 
 ---
 

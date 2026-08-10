@@ -1,7 +1,7 @@
 ---
 name: publication-preparer
 description: Check document publication-readiness — anonymization completeness, abstract quality, DOI/ORCID metadata, and generate a submission checklist. Use before any public release or preprint submission. Works with Typst (.typ) files.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Purpose

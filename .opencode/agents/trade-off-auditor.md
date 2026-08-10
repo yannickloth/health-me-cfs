@@ -1,6 +1,11 @@
+---
+name: trade-off-auditor
+description: Verify that design advice, pattern recommendations, and architectural guidance explicitly state trade-offs — every design decision has costs, and the book must present them honestly.
+model: deepseek/deepseek-v4-pro
+---
+
 # trade-off-auditor Agent
 
-**Purpose**: Verify that design advice, pattern recommendations, and architectural guidance explicitly state trade-offs — every design decision has costs, and the book must present them honestly.
 
 **When to use**:
 - After drafting chapters that recommend design patterns, principles, or architectural styles
@@ -61,4 +66,3 @@ Context-free advice (INFO):
   [file:line] "Always separate X from Y" — no context for when this applies
 ```
 
-**Model**: sonnet (requires judgment about what constitutes balanced vs one-sided presentation)

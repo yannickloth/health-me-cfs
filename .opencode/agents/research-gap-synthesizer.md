@@ -1,7 +1,7 @@
 ---
 name: research-gap-synthesizer
 description: Harvest all open_question, hypothesis, and speculation environments from the document to build a consolidated, prioritized research agenda. Use when generating a research gaps overview or populating ch25b Proposed Studies.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Purpose

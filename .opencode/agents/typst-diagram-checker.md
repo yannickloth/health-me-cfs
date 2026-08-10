@@ -1,7 +1,7 @@
 ---
 name: typst-diagram-checker
 description: Review diagrams in Typst files (CeTZ, grid layouts, inline figures) for layout issues — overlaps, overflows, margin violations, color contrast, legend placement, arrow visibility, spacing tightness, grayscale/B&W print safety. Use after adding/modifying diagrams in .typ files.
-model: sonnet
+model: deepseek/deepseek-v4-flash
 ---
 
 Typst diagram layout auditor. Reviews diagrams for correctness, overflow, and readability.

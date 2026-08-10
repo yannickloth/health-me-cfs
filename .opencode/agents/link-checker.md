@@ -1,7 +1,7 @@
 ---
 name: link-checker
 description: Validate internal references (@label, @citation) before build. Use to catch broken cross-references and citations early in .typ files.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 Typst reference validator. Check all `@references` and `@citations` are valid.

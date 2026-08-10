@@ -1,6 +1,11 @@
+---
+name: figure-caption-auditor
+description: Audit figure/table captions — must state a claim (not just describe), standalone-readable, consistent. Checks all figures/tables referenced in text.
+model: deepseek/deepseek-v4-flash
+---
+
 # figure-caption-auditor Agent
 
-**Purpose**: Audit figure/table captions — must state a claim (not just describe), standalone-readable, consistent. Checks all figures/tables referenced in text.
 
 **When to use**: After adding figures/tables · at volume completion · publication readiness review
 
@@ -74,4 +79,3 @@ INFO:
   [file:line] Table caption below table (convention: above)
 ```
 
-**Model**: haiku (mechanical pattern matching, cross-referencing)

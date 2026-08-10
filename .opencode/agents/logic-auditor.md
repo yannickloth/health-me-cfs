@@ -1,7 +1,7 @@
 ---
 name: logic-auditor
 description: Audit document for circular reasoning, completeness gaps, and indirect arguments. Use when checking logical structure, detecting circular definitions, or verifying exhaustiveness. Works with Typst (.typ) files.
-model: opus
+model: deepseek/deepseek-v4-pro
 ---
 
 Logic auditor. Find circular reasoning, completeness gaps, indirect arguments.

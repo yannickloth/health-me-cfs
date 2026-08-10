@@ -1,7 +1,7 @@
 ---
 name: hypothesis-generator
 description: Analyze patient case data to generate testable hypotheses about ME/CFS subtype, underlying mechanisms, potential triggers, and likely treatment responders. Cross-reference patterns with research literature to propose diagnostic and therapeutic strategies.
-model: opus
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

@@ -1,7 +1,7 @@
 ---
 name: biochemistry-auditor
 description: Audit metabolomics and biochemistry content for pathway stoichiometry, redox chemistry specificity, mitochondrial precision, and substrate/enzyme/cofactor role clarity. Use when reviewing ch06 or metabolic content. Works with Typst (.typ) files.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 # Biochemistry Auditor

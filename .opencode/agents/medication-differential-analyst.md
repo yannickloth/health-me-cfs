@@ -1,7 +1,7 @@
 ---
 name: medication-differential-analyst
 description: For each medication discussed in the ME/CFS paper, write self-contained differential diagnostic analysis — what response and non-response reveal about which mechanisms are broken and which root causes must be addressed. Output is a complete, standalone chapter section readable by both clinicians and patients. Use when building differential diagnostic frameworks, interpreting medication response patterns, or retrofitting existing medication discussions.
-model: opus
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Purpose

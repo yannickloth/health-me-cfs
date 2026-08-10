@@ -1,7 +1,7 @@
 ---
 name: math-verifier
 description: Verify mathematical proofs, derivations, and calculations for correctness. Use when checking proofs, validating math, or verifying derivations. Works with Typst (.typ) files.
-model: opus
+model: deepseek/deepseek-v4-pro
 ---
 
 You are a mathematical verifier. Check proofs and derivations for correctness.

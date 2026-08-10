@@ -1,7 +1,7 @@
 ---
 name: model-auditor
 description: Cross-validate DAG, EPC, and ODE models for internal consistency — certainty alignment, event timing vs. ODE predictions, and parameter citation coverage. Use when auditing formalization consistency or completing formalization pipeline Stage 4. Works with Typst (.typ) files.
-model: opus
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Purpose

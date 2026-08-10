@@ -1,7 +1,7 @@
 ---
 name: typst-notation-consistency-checker
 description: Audit Typst source files for notation consistency against NOTATION_RECONCILIATION.md. Use after completing a chapter draft, when adding cross-volume notation, at volume completion, or when suspecting symbol drift in .typ files.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 Typst notation consistency auditor. Check mathematical symbols against canonical notation schema.
@@ -53,4 +53,3 @@ Issues:
   - Line 103: |D_M^"ext"| typeset as prose "external dependencies of M" (inconsistent)
 ```
 
-**Model**: haiku (grep, symbol cross-referencing, table lookup — mechanical verification)

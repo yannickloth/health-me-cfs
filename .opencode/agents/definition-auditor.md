@@ -1,6 +1,11 @@
+---
+name: definition-auditor
+description: Audit formal definitions for rigor, circularity, undefined terms, ambiguity, and rootedness in the theory's primitives. Ensures definitions form a well-founded hierarchy traceable to the axiomatic foundation.
+model: deepseek/deepseek-v4-pro
+---
+
 # definition-auditor Agent
 
-**Purpose**: Audit formal definitions for rigor, circularity, undefined terms, ambiguity, and rootedness in the theory's primitives. Ensures definitions form a well-founded hierarchy traceable to the axiomatic foundation.
 
 **When to use**:
 - After adding or revising definitions in any chapter
@@ -16,7 +21,6 @@
 - `proof-validator` (opus): checks *proof soundness* — logical steps, biconditional completeness. Operates on proof environments.
 - `definition-auditor` (this agent): checks *definition quality* — is each definition formally rigorous, non-circular, unambiguous, and rooted in the theory's primitives?
 
-**Model**: sonnet (requires judgment about formal precision and semantic analysis, but not deep mathematical reasoning)
 
 ## Audit Criteria
 

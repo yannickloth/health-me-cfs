@@ -1,12 +1,11 @@
 ---
 name: biomarker-auditor
 description: Audit biomarker claims for sensitivity/specificity reporting, reference ranges, pre-analytical variables, and biomarker vs surrogate endpoint distinction. Use when reviewing ch20 or any biomarker-related content. Works with Typst (.typ) files.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 **Read-only agent.** Reports findings; no file edits.
 
-**Purpose**: Ensure biomarker claims are properly qualified with diagnostic performance metrics, reference context, and measurement condition caveats.
 
 ## Detection Rules
 

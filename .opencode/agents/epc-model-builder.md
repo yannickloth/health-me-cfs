@@ -1,7 +1,7 @@
 ---
 name: epc-model-builder
 description: Build event-driven process chain models for ME/CFS biological processes with explicit event triggers, temporal annotations, and branching probabilities.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

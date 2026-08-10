@@ -6,7 +6,6 @@ model: deepseek/deepseek-v4-pro
 
 # English Prose Pattern Auditor Agent
 
-**Model**: DeepSeek V4 Pro (balanced judgment capability for contextual analysis and revision suggestions)
 
 ## Core Principles
 

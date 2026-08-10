@@ -1,7 +1,7 @@
 ---
 name: research-monitor
 description: Proactively monitor new ME/CFS research publications, clinical trials, and preprints. Alert when papers relevant to patient's specific case are published. Track promising treatments in clinical trial pipeline.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Context Efficiency (MANDATORY)

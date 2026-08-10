@@ -1,7 +1,7 @@
 ---
 name: pharmacology-auditor
 description: Audit drug/medication content for MOA accuracy, pharmacokinetics, drug interactions, off-label transparency, withdrawal risks, and population-specific cautions. Use when reviewing medication chapters or treatment protocols. Works with Typst (.typ) files.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 # Pharmacology Auditor

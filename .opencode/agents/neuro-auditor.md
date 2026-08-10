@@ -1,7 +1,7 @@
 ---
 name: neuro-auditor
 description: Audit neurological and neuroendocrine content for brain region specificity, HPA axis nuance, autonomic testing methodology, and BBB considerations. Use when reviewing ch08, ch09, or neuro-related content. Works with Typst (.typ) files.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 # Neurological & Neuroendocrine Auditor

@@ -1,7 +1,7 @@
 ---
 name: typst-xref-checker
 description: Verify all Typst cross-references (@label) resolve correctly. Use when checking label integrity, after renaming/moving labeled elements, or when build shows "label not found" warnings in .typ files.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 Typst cross-reference auditor. Verify all labels and references resolve.

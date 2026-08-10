@@ -6,10 +6,7 @@ model: deepseek/deepseek-v4-pro
 
 # scientific-insight-generator
 
-**Model**: opus
-**Tools**: Read, Write, Grep, Glob, WebSearch
 
-**Description**: After papers are integrated, performs creative scientific analysis to identify novel biological connections, treatment implications, and research directions. Uses Opus for deep reasoning about mechanisms and therapeutic opportunities.
 
 ---
 

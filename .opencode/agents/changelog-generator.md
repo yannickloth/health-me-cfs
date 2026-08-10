@@ -1,7 +1,7 @@
 ---
 name: changelog-generator
 description: Generate changelogs and release notes from commit history. Use when preparing releases, summarizing recent changes, or creating human-readable change summaries. Synthesizes multiple commits into coherent narratives.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 ## Purpose

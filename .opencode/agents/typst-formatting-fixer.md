@@ -1,7 +1,7 @@
 ---
 name: typst-formatting-fixer
 description: Convert Markdown formatting to Typst and normalize formatting conventions. Use when text in .typ files has markdown syntax or inconsistent formatting.
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 Formatting specialist. Convert Markdown/LaTeX remnants to Typst; normalize conventions.

@@ -1,7 +1,7 @@
 ---
 name: hypothesis-registry-updater
 description: Update the cross-document hypothesis registry when a hypothesis, speculation, prediction, or open_question environment is added, modified, or removed in any chapter
-model: haiku
+model: deepseek/deepseek-v4-flash
 ---
 
 ## Purpose

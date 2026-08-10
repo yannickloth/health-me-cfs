@@ -1,6 +1,11 @@
+---
+name: notation-consistency-checker
+description: Audit LaTeX source files for notation consistency against `NOTATION_RECONCILIATION.md`; catch symbol drift across chapters and volumes.
+model: deepseek/deepseek-v4-flash
+---
+
 # notation-consistency-checker Agent
 
-**Purpose**: Audit LaTeX source files for notation consistency against `NOTATION_RECONCILIATION.md`; catch symbol drift across chapters and volumes.
 
 **When to use**:
 - After chapter draft, before committing
@@ -50,4 +55,3 @@ Issues:
   - Line 103: |D_M^ext| typeset as prose "external dependencies of M" (inconsistent)
 ```
 
-**Model**: haiku (grep, symbol cross-referencing, table lookup — mechanical verification)
