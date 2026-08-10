@@ -66,6 +66,41 @@ The apparent Long COVID vs ME/CFS divergence in ccf-mtDNA must be interpreted ca
 *Clinical note:* ccf-mtDNA measurement is a research-only assay. Until head-to-head studies exist, clinicians should distinguish Long COVID from ME/CFS using established clinical criteria (symptom duration, PEM pattern, exclusion criteria); ccf-mtDNA adds nothing to current diagnostic practice.
 ] <spec:cfmtdna-distinguish>
 
+*A third divergence point: brain MRS neurochemistry.* Ultra-high-field 7 Tesla magnetic resonance spectroscopy (MRS, a non-invasive imaging method that measures tissue chemistry in a living brain region) provides an in vivo layer of evidence on the Long COVID / ME/CFS question @Godlewska2025MRS. In a direct comparison (24 ME/CFS, 25 Long COVID, 24 healthy controls), ME/CFS patients showed _elevated brain lactate_ in both the pregenual and dorsal anterior cingulate cortex (energy-metabolite consistent with energetic stress), whereas Long COVID patients showed _reduced total choline_ (a membrane/lipid metabolite) specifically in the dorsal anterior cingulate @Godlewska2025MRS. Resting calf-muscle metabolites did not differ between groups. The authors conclude that, despite similar clinical presentations, ME/CFS and Long COVID show distinct neurochemical signatures and should not be pooled as a single group until the mechanisms are understood @Godlewska2025MRS. This mirrors the CPET-2 and ccf-mtDNA divergences above as a third, methodologically distinct line of evidence pointing to mechanism divergence.
+
+#hypothesis(title: [Distinct Brain Neurochemical Signatures Distinguish ME/CFS from Long COVID (7T MRS)])[
+Ultra-high-field 7 Tesla MRS shows a separable brain chemistry profile for ME/CFS (elevated anterior-cingulate lactate) versus Long COVID (reduced dorsal-cingulate choline), supporting distinct rather than identical neurobiological mechanisms despite overlapping symptoms @Godlewska2025MRS. (Certainty: 0.50.)
+
+*Evidence Base.* In a single-protocol head-to-head study (24 ME/CFS, 25 Long COVID, 24 HC), ME/CFS brain lactate was elevated in both pgACC ($p = 0.004$) and dACC ($p = 0.006$), consistent with the independent-lab brain-lactate replication cluster (Mount Sinai: Murrough et al.\ 2010, Natelson et al.\ 2017; UAB: Mueller et al.\ 2020) @Godlewska2025MRS @Murrough2010VentricularLactate @Natelson2017Lactate @Mueller2020MRS. Long COVID showed reduced total choline in dACC ($p = 0.0002$), a finding without a stated ME/CFS counterpart in the same cohort. Resting calf-muscle metabolites did not differ between groups @Godlewska2025MRS.
+
+*Alternative Interpretations / competing mechanisms* (Standing Epistemic #4). The lactate elevation in ME/CFS does not uniquely identify a cause: it could reflect (1) mitochondrial dysfunction (impaired oxidation of lactate), (2) astrocyte-neuron lactate shuttle export failure, (3) hypoperfusion-driven anaerobic shift, or (4) inflammatory-cell glycolysis. The choline reduction in Long COVID is associative, not causal, and its direction is not uniform: Mueller et al.\ 2020 reported _elevated_ choline in ME/CFS cingulate, and Pajuelo et al.\ 2024 found _increased_ choline in the corpus callosum of older post-COVID patients @Mueller2020MRS @Pajuelo2024CorpusCallosum — so choline changes are region-, age-, and condition-dependent, and the dACC reduction should not be generalized.
+
+*Clinical Implications.* If the neurochemical divergence is real, the treat-as-one-population practice in some long COVID and ME/CFS trials may mask condition-specific responses. This is a research planning implication, not a change to current clinical care.
+
+*Research Implications.* Cross-sectional MRS cannot establish causation. Direct head-to-head MRS with matched cohorts, plus perfusion measurement (to separate hypoperfusion from mitochondrial causes of lactate), and longitudinal follow-up (does Long COVID choline normalize or progress toward an ME/CFS lactate profile?) are needed.
+
+*Limitation (MRS interpretation caution).* The divergence is a single-site 7T observation (24/25/24) not yet independently replicated at ultra-high field; 7T metabolite quantification is sensitive to voxel placement, T2/water-referencing, and patient arousal during scanning, and no severity/medication/diet stratification or perfusion co-measure was reported. The central evidence for ME/CFS (brain lactate elevation) is independently replicated at lower field strengths (Mount Sinai ventricular lactate; UAB regional LAC-MRS), but the Long COVID choline divergence rests on one cohort and the choline direction is region-, age-, and condition-dependent, so the divergence should be treated as a provisional hypothesis pending replication.
+
+*Falsifiable Predictions.*
+- A head-to-head 7T MRS replication will find ME/CFS lactate elevated but Long COVID lactate not elevated in cingulate cortex (and vice versa for choline), i.e. the divergence is reproducible.
+- Long COVID patients who later meet full ME/CFS criteria will show a shift toward the ME/CFS lactate-elevation signature, whereas those who do not will retain the choline-reduction signature.
+- Concurrent arterial-spin-labeling perfusion will show whether the ME/CFS lactate elevation tracks cerebral hypoperfusion (implicating a vascular cause) or persists with normal perfusion (implicating a primary mitochondrial/metabolic cause).
+
+*Severity applicability:* Unknown --- the Godlewska cohort was not stratified by severity.
+
+*Consequence:* If confirmed, this would change how researchers design trials — stopping the common practice of pooling ME/CFS and long COVID patients as a single group — and would give brain-imaging an early role in telling the two conditions apart by their underlying chemistry, though it is not yet ready to guide any clinical decision.
+] <hyp:distinct-brain-neurochemistry-mecfs-longcovid>
+
+#speculation(title: [Long COVID Dorsal-Cingulate Choline Reduction: Coagulation and "Brain Fog" Substrate])[
+*Certainty: 0.35.* The reduced total choline (tCho) in the dorsal anterior cingulate of Long COVID patients may reflect altered membrane phospholipid metabolism (choline is a precursor for membrane phosphatidylcholine and a source of choline for the one-carbon/anticoagulation axis) @Godlewska2025MRS. The authors link this to the association between blood clots and "brain fog," and to earlier animal work showing that choline can prevent intravascular coagulation. The speculation is that a brain-region-specific choline deficit either (a) is a marker of endothelial/membrane stress in the setting of microclotting, or (b) contributes to a pro-coagulant local milieu relevant to cognitive symptoms. Evidence is associative and cross-sectional; there is no in-cohort coagulation assay and no demonstration that the dACC choline deficit causally drives symptoms.
+
+*Falsifiable prediction.* (1) Long COVID patients with low dACC choline will show elevated markers of coagulation/fibrinolysis (D-dimer, fibrinogen, or microclot assay) relative to those with normal dACC choline. (2) If choline's anticoagulant role is causal, dietary choline supplementation would raise dACC choline and correlatively lower coagulation markers --- but subject to the caveat that choline status is driven by diet and the one-carbon cycle, not simply by tissue concentration, and no human trial supports this. (3) Falsified if dACC choline is unrelated to intravascular coagulation markers and to cognitive symptom severity.
+
+*Clinical note.* This is a research hypothesis, not a clinical recommendation. There is no evidence that choline supplementation changes Long COVID brain chemistry or symptoms, and the choline-coagulation link is mechanistic speculation. No dietary or supplement guidance is warranted. *Severity applicability:* Unknown --- cohort not severity-stratified.
+
+*Consequence:* If replicated, this would point to a treatable axis (the one-carbon/choline/coagulation pathway) in at least a subset of Long COVID patients with brain fog, and would give MRS a candidate role as a stratification biomarker --- but it is currently too early and too associative to guide any clinical decision.
+] <spec:long-covid-dacc-choline>
+
 === Autoantibody Convergence: GPCR and Tissue-Specific Mechanisms
 
 #hypothesis(title: [Long COVID and ME/CFS Share Two Distinct Autoantibody Pathways])[
