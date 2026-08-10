@@ -5240,3 +5240,99 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [Research tool only; not a therapeutic proposal.],
   limitation: [Diagnostic utility, inter-lab reproducibility, and correlation with clinical severity are unproven; lacks neural/immune/vascular context; not severity-stratified. (Origin: /integrate-topic biofabrication-mughal-3d-muscle-cfs-sera.)],
 )
+
+#registry-entry(
+  [The in-vitro serum response is a three-phase sequence (PDH compensation → cofactor exhaustion → mitochondrial collapse), not a static state],
+  type: "S",
+  certainty: "0.30",
+  evidence: [Biofabricated 3D skeletal muscle exposed to patient serum shows up-regulated glycolysis and mitochondrial hyperfusion at 48 h, then toroidal fragmentation and contractile failure at 96--144 h @Mughal20253dMuscleSera; patient sera also drive PDH-related myoblast metabolic shift @Fluge2016PDH. The phase decomposition is an interpretation reconciling short-exposure hypermetabolic and long-exposure hypometabolic findings; raw 0.30, discounted from in-vitro weight.],
+  citations: [@Mughal20253dMuscleSera @Fluge2016PDH],
+  mechanism: [Serum-driven pyruvate-dehydrogenase inhibition forces compensatory glycolysis and substrate shift (Phase I); sustained high-flux glycolysis depletes cofactor and antioxidant pools (NAD⁺/NADH, thiamine pyrophosphate, glutathione) (Phase II); exhaustion tips into mitochondrial fragmentation and contractile failure (Phase III) -- reconciling ostensibly contradictory hypermetabolic and hypometabolic bodies of evidence into one temporal cycle that maps onto the PEM time-course.],
+  chapter-ref: [ch07 sec-21: @spec:pdh-three-phase-cascade],
+  prediction: [Serial PDH activity, NAD⁺/NADH, and mitochondrial morphology measurements in the 3D model must show PDH decline first, then cofactor depletion, then fragmentation -- any different ordering falsifies the model.],
+  treatment: [Not a prescribing recommendation. Suggests phase-specific, mechanistically-motivated candidate metabolic support (thiamine/riboflavin/alpha-lipoic acid, tested in-vitro first); no clinical use established.],
+  limitation: [Single un-replicated in-vitro study; phase sequence not directly measured as a continuous trajectory; not severity-stratified. (Origin: /integrate-topic biofabrication-mughal-3d-muscle-cfs-sera -- brainstorm 1.1.)],
+)
+
+#registry-entry(
+  [The circulating serum factor is likely a multi-component cocktail rather than a single molecule],
+  type: "S",
+  certainty: "0.22",
+  evidence: [The biphasic response engages at least four distinct processes (PDH inhibition, calcium dysregulation, mitochondrial fission, contractile impairment), which no single species plausibly drives @Mughal20253dMuscleSera; anti-mitochondrial antibodies are excluded as the sole mediator @Nilsson2020NoMitoAb; serum transfers a multi-faceted antiviral-metabolic state @Schreiner2020HHV6MitoME. Discounted from in-vitro/indirect evidence.],
+  citations: [@Mughal20253dMuscleSera @Nilsson2020NoMitoAb @Schreiner2020HHV6MitoME],
+  mechanism: [A concurrent set of mediators -- a PDH-inhibitory cytokine (TNFα/IL-6), a mitochondrial-fission or cell-danger signal (e.g. HHV-6 microRNA), a calcium/ion-channel disruptor, and an inflammatory/exosomal danger signal -- rather than one molecule, explains why removing any single ingredient may fail to rescue the muscle phenotype.],
+  chapter-ref: [ch20 Family 17: @spec:serum-factor-multicomponent],
+  prediction: [Serum fractionation should show that no single fraction (e.g. exosomes alone, a single cytokine) recapitulates the full biphasic phenotype; falsified if one isolated fraction reproduces the complete picture.],
+  treatment: [Not a prescribing recommendation. Argues against single-cytokine-target strategies and toward broader serum-factor removal (immunoadsorption) as the research direction; no clinical use.],
+  limitation: [Structurally motivated inference, not directly demonstrated; mediator identity unknown; not severity-stratified. (Origin: /integrate-topic biofabrication-mughal-3d-muscle-cfs-sera -- brainstorm 1.3.)],
+)
+
+#registry-entry(
+  [Serum fractionation of ME/CFS sera is the highest-priority experiment to identify the circulating mediator],
+  type: "OQ",
+  certainty: "n/a",
+  evidence: [The unknown serum mediator must be narrowed from an anonymous class to a molecular species; fractionation by size, heat-lability, nuclease-sensitivity, and immunoglobulin depletion, tested on the 3D model, is the decisive experiment @Mughal20253dMuscleSera @Fluge2016PDH @Schreiner2020HHV6MitoME @Nilsson2020NoMitoAb.],
+  citations: [@Mughal20253dMuscleSera @Fluge2016PDH @Schreiner2020HHV6MitoME @Nilsson2020NoMitoAb],
+  mechanism: [Fractionating serum and applying each fraction to biofabricated muscle with quantitative readouts (lactate efflux, PDK mRNA, mitochondrial morphology, contractile force) identifies which molecular class transmits the metabolic pathology; a parallel blinded ME/CFS vs LC vs healthy comparison tests whether the assay discriminates conditions.],
+  chapter-ref: [ch20: @oq:serum-fractionation-mediator],
+  prediction: [The active mediator class will be recoverable, and patient sera will induce a fraction-dependent biphasic response reproducibly; falsified if no fraction reproduces the phenotype in a validated assay.],
+  treatment: [Research-direction formulation; not a treatment proposal.],
+  limitation: [Requires replication of the anchoring in-vitro platform and individual (non-pooled) patient sera; not yet performed. (Origin: /integrate-topic biofabrication-mughal-3d-muscle-cfs-sera -- brainstorm 2.1.)],
+)
+
+#registry-entry(
+  [Toroidal mitochondrial fragmentation as a candidate disease-specific ultrastructural signature in ME/CFS muscle],
+  type: "S",
+  certainty: "0.20",
+  evidence: [Biofabricated 3D muscle exposed to patient serum shows ring-shaped (toroidal) mitochondrial fragmentation at the decompensation phase @Mughal20253dMuscleSera, a morphology distinct from normal fission and linked to Drp1 over-activation/Opa1 loss; whether it generalizes to patient biopsies is untested. Discounted from in-vitro evidence.],
+  citations: [@Mughal20253dMuscleSera @Charlton2025MusclePEMReview],
+  mechanism: [A stress-specific mitochondrial morphology distinct from normal fission, plausibly reflecting Drp1 over-activation and Opa1 loss; if reproduced in patient-muscle EM and absent from the deconditioning bed-rest phenotype and inflammatory myopathy, it could serve as an objective, self-report-independent microscope-based marker of ME/CFS muscle pathology.],
+  chapter-ref: [ch20 Family 17: @spec:toroidal-mitochondrial-signature],
+  prediction: [Electron microscopy of ME/CFS patient muscle biopsies should show toroidal mitochondria at a higher rate than bed-rest-treated healthy muscle and age-matched controls; falsified if toroidal forms are equally common in bed-rest or healthy tissue.],
+  treatment: [Not a prescribing recommendation. If toroidal morphology proves irreversible, it would reinforce energy pacing as tissue preservation rather than mere symptom control; no clinical intervention.],
+  limitation: [Morphology seen in one in-vitro study; may be an artifact of the culture system; biopsy confirmation and specificity untested; not severity-stratified. (Origin: /integrate-topic biofabrication-mughal-3d-muscle-cfs-sera -- brainstorm 1.2.)],
+)
+
+= Entries added 2026-08-10: Hibernation Arousal Biology as a Drug-Discovery Resource
+
+#registry-entry(
+  [Hibernation Arousal Machinery as a Cross-Species Resource for the ME/CFS Low-Energy State],
+  type: "S",
+  certainty: "0.40",
+  evidence: [Hibernating mammals exhibit a reversible, spontaneously-arousing torpor state driven by conserved signals: central adenosine A1-receptor activation induces torpor in a non-hibernating rat @Shimaoka2018A1ARHypothermia; arachidonic-acid -> PPAR-alpha/TRPV-Ca2+ is an arousal lipid regulator @Wang2026T2TArachidonic; mTORC1 reactivation is a conserved metabolic switch @Wu2021mTORMetabolicStress; BAT UCP1 thermogenesis drives arousal @Hunstiger2023NSTHibernation; non-neuronal choroid-plexus sensors may initiate arousal @Markussen2024ArousalChoroid; and non-hibernating mammalian cells retain a latent "hibernation-like" adaptive-pausing program @Jobava2021AdaptivePausing. All model-system/cross-species (heavily discounted); no ME/CFS human data.],
+  citations: [@Shimaoka2018A1ARHypothermia @Wang2026T2TArachidonic @Wu2021mTORMetabolicStress @Hunstiger2023NSTHibernation @Markussen2024ArousalChoroid @Jobava2021AdaptivePausing @Duffy2022ArousalOxidative],
+  mechanism: [The arousal/recovery machinery is a (reversible) energy-state-switch resource whose signals (mTORC1, ISR/adaptive-pausing, arachidonic-acid/PPAR-alpha, A1AR-as-entry/A2A-as-arousal-shift) overlap the paper's existing ISR/mTORC1 content (ch07 @spec:pem-isr and ISR assay content); it contributes a specific assay (polysome-profile) and a cross-species precedent that ISR/pausing is reversible, rather than a distinct novel mechanism.],
+  chapter-ref: [ch18: @spec:hibernation-arousal-resource; ch07 ISR cross-ref @spec:pem-isr],
+  prediction: [A discriminating test with a matched-sedentary control arm: patient-derived ME/CFS PBMCs/iPSC cells should show a reduced polysome:monosome ratio and stalled-initiation-codon mRNAs relative to both healthy AND matched-sedentary controls, partially reversible on ISR inhibition (ISRIB) or mTORC1 reactivation beyond the sedentary-control component. A normal polysome profile falsifies pausing engagement; a positive-only-vs-healthy (not sedentary) result is ambiguous. Research prediction only.],
+  treatment: [None. Basic-science drug-discovery resource; no clinical recommendation. Interbout arousal increases oxidative damage @Duffy2022ArousalOxidative -- a safety caveat gating any future therapeutic extrapolation.],
+  limitation: [All model-system/cross-species (translation gap); no ME/CFS human data; torpor is largely a small-mammal adaptation (primate hibernation rare -- dwarf lemur @Blanco2024DwarfLemur). Severity applicability unknown. (Origin: /integrate-topic hibernation-biology-torpor-arousal.)],
+)
+
+= Entries added 2026-08-10: Post-COVID New-Onset ME/CFS Risk Sustained to Four Years
+
+#registry-entry(
+  [SARS-CoV-2 infection raises new-onset ME/CFS risk, persisting up to four years post-infection],
+  type: "H",
+  certainty: "0.75",
+  evidence: [A large electronic health record cohort ($n = 147{,}377$; Montefiore) found elevated new-onset ME/CFS risk sustained to four years after SARS-CoV-2 infection, adjusted hazard ratio 1.46 (hospitalized) and 1.56 (non-hospitalized) versus 111{,}301 controls @Hadidchi2025CFSrisk. Directionally consistent with RECOVER ($n = 11{,}785$, approx. 2.8-fold incidence, IOM criteria) @RECOVER2025, the CDC INSPIRE cohort ($n = 4{,}376$) @Unger2024MECFSinspire, and a CDC fatiguing-illness cohort ($n = 13{,}611$; outcome is post-COVID fatigue, not ME/CFS criteria) @Vu2024FatiguePostCovid. Raw 0.75 (ME/CFS cohort, peer-reviewed, large n), discounted unchanged at weight 1.00.],
+  citations: [@Hadidchi2025CFSrisk @RECOVER2025 @Unger2024MECFSinspire @Vu2024FatiguePostCovid],
+  mechanism: [An acute SARS-CoV-2 infection triggers a post-infectious process that, in a susceptible subset, resolves into chronic ME/CFS -- consistent with the post-infectious trigger model established for Epstein-Barr virus and SARS-CoV-1 @Hickie2006postinfectious @Moldofsky2011PostSARS. The four-year persistence argues against a transient pandemic-era effect and for a sustained post-infectious pathophysiology. None of the acute-phase biomarkers tested (ferritin, D-dimer, LDH, CRP) discriminated converters, separating acute inflammatory markers from post-acute predictors @Hadidchi2025CFSrisk.],
+  chapter-ref: [ch01 sec-04: @subsec:risk-factors, @subsec:prevalence; ch14d: @sec:cross-disease; ch06: @sec:onset],
+  prediction: [ME/CFS incidence after SARS-CoV-2 should remain above pre-pandemic baseline for several years post-infection in other large cohorts with comparable follow-up; the four-year hazard-ratio elevation should replicate. Falsified if cohorts with $\ge$4-year follow-up find the excess risk decays to baseline by year two to three, or if the finding reflects EHR/ascertainment artifact rather than true new-onset disease.],
+  treatment: [None -- epidemiological risk finding, not an intervention. Implies post-COVID monitoring: patients with persisting post-acute symptoms should be assessed for ME/CFS criteria and managed per standard ME/CFS guidance; no novel treatment is indicated.],
+  limitation: [The four-year horizon is single-study (not yet directly replicated -- comparators have 6-month to 2-year follow-up); EHR ICD-coded outcome underestimates true ME/CFS and cannot confirm diagnostic criteria; pre-COVID baseline ME/CFS status was not excluded; severity applicability unknown -- cohort not severity-stratified. (Origin: /integrate-topic hadidchi2025-cfs-me-4yrs-post-covid.)],
+)
+
+#registry-entry(
+  [Post-acute (not acute) iron dynamics as the temporal predictor of post-COVID ME/CFS conversion],
+  type: "H",
+  certainty: "0.40",
+  evidence: [The Hadidchi null that acute-phase biomarkers (ferritin, D-dimer, LDH, CRP) do not predict post-COVID ME/CFS conversion, combined with the iron-redox temporal phase-shift model @Hadidchi2025CFSrisk @Hanson2024iron @Sonnweber2022CovILD @Kavyani2023Hepcidin, constrains the converter-discriminating window to the post-acute transition (weeks 2--12 onward) rather than the acute phase.],
+  citations: [@Hadidchi2025CFSrisk @Hanson2024iron @Sonnweber2022CovILD @Kavyani2023Hepcidin],
+  mechanism: [Acute inflammatory hypoferremia (IL-6 -> hepcidin spike) is universal and non-discriminatory; converters diverge from recoverers in the post-acute transition as hepcidin falls and functional iron deficiency (elevated ferritin, low TSAT) emerges -- so a converter-predicting blood test is expected at 3--6 months, not day 0--30.],
+  chapter-ref: [ch14d: @hyp:postcovid-postacute-iron-prediction],
+  prediction: [A longitudinal study measuring ferritin, TSAT, hepcidin at 1, 3, 6, 12 months post-COVID must show 3-month (not 1-month) iron trajectories separating future ME/CFS converters (IOM-2015) from recoverers, e.g. AUC > 0.70. Falsified if all post-acute timepoints are non-predictive.],
+  treatment: [None -- research/diagnostic prediction, not an intervention. If validated, an approx. \$20 ferritin+TSAT measurement at the 3-month post-COVID visit could flag patients for ME/CFS monitoring.],
+  limitation: [No existing longitudinal post-COVID iron-panel study; severity applicability unknown (incidence cohorts not severity-stratified); single-study null. (Origin: /integrate-topic hadidchi2025-cfs-me-4yrs-post-covid -- Phase-4 brainstorm idea 1.1.)],
+)
+

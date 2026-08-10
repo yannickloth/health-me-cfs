@@ -50,6 +50,18 @@ At the blood-brain barrier endothelium, circulating cytokines trigger prostaglan
 
 #include "sec-01-misc/subsec-04-dedicated-sickness-torpor-neural-circuits/hypotheses/hyp-dedicated-sickness-torpor-neural-circuits.typ"
 
+==== The EP3R "Stuck Switch" and Circuit-Leveraged Mechanisms
+
+#include "sec-01-misc/subsec-04-dedicated-sickness-torpor-neural-circuits/speculations/spec-ep3r-stuck-switch.typ"
+
+#include "sec-01-misc/subsec-04-dedicated-sickness-torpor-neural-circuits/speculations/spec-area-postrema-gpcr-glp1-gate.typ"
+
+#include "sec-01-misc/subsec-04-dedicated-sickness-torpor-neural-circuits/speculations/spec-hibernation-arousal-resource.typ"
+
+==== Constraints on the Torpor/Sickness-Circuit Model
+
+#include "sec-01-misc/subsec-04-dedicated-sickness-torpor-neural-circuits/limitations/lim-torpor-circuits-constraints.typ"
+
 === Orexin/Hypocretin Suppression as a Central Mediator of ME/CFS Fatigue and Sleep Dysfunction
 <sec:ch15-orexin>
 

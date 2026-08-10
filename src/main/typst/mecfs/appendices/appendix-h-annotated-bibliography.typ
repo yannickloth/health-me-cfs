@@ -21281,22 +21281,135 @@ individuals. Evidence spans iron, magnesium, vitamin B12, vitamin D, and thyroid
     *ME/CFS Relevance:*: ACO1/IRP1 is a critical node: it senses iron levels AND regulates mitochondrial function. Its association with post-COVID tissue damage suggests iron-redox signalling is part of long-term post-viral pathology.
     *Certainty:*: 0.65/1.0
 
-==== Hadidchi et al.\ 2025 --- CFS/ME Risk After COVID-19: Acute Ferritin Not Predictive @Hadidchi2025CFSrisk
+==== Hadidchi et al.\ 2025 --- CFS/ME Risk After COVID-19 @Hadidchi2025CFSrisk
 
     *Full Citation:*: Hadidchi R, Patel B, Madan J, et al.\ Elevated risk of new-onset chronic fatigue syndrome/myalgic encephalomyelitis up to four years after SARS-CoV-2 infection. _Journal of Translational Medicine_. 2025;23(1):815.
     *DOI:*: #link("https://doi.org/10.1186/s12967-025-06625-w")[10.1186/s12967-025-06625-w]
     *PMID:*: 40702518
+    *PMCID:*: PMC12288244
     *Study Design:*: Retrospective cohort, n=147,377, Montefiore Health System, 4-year follow-up
+    *Research Stream:*: hadidchi2025-cfs-me-4yrs-post-covid
     *Key Findings:*:
-        - HR 1.46 (hospitalized) and 1.56 (non-hospitalized) for new-onset CFS/ME vs COVID- controls
+        - HR 1.46 (hospitalized) and 1.56 (non-hospitalized) for new-onset CFS/ME vs COVID-negative controls
         - Females, liver disease, autoimmune disorders, anxiety disorders at higher risk
         - Re-infection NOT associated with increased CFS/ME risk
-        - *None of the acute blood biomarkers (ferritin, D-dimer, LDH, CRP, etc.) associated with future CFS/ME risk*
+        - None of the acute blood biomarkers (ferritin, D-dimer, LDH, CRP, etc.) associated with future CFS/ME risk
         - COVID-19 vaccination in initial rollout associated with increased CFS/ME risk
-    *Conclusion:*: SARS-CoV-2 infection increases CFS/ME risk independent of hospitalization. Acute-phase biomarkers including ferritin do NOT predict who will develop CFS/ME.
-    *Limitations:*: Retrospective; EHR-based diagnosis (underascertainment); single US health system; vaccination finding confounded by era.
-    *ME/CFS Relevance:*: Critical null result: acute ferritin is NOT predictive. This distinguishes acute-phase ferritin (nonspecific) from post-acute ferritin (potentially predictive per Yamamoto2023/Kedor2022). Timing of ferritin measurement matters critically.
-    *Certainty:*: 0.70/1.0
+    *Conclusion:*: SARS-CoV-2 infection increases CFS/ME risk independent of hospitalization severity, with risk persisting up to 4 years. Acute-phase biomarkers including ferritin do NOT predict who will develop CFS/ME — timing of measurement matters critically. First large-cohort study to show sustained 4-year risk horizon.
+    *Limitations:*: Retrospective; EHR-based diagnosis (underascertainment); single US health system (Montefiore, Bronx); vaccination finding confounded by era.
+    *Certainty:*: 0.75/1.0
+
+==== RECOVER 2025 --- Post-COVID ME/CFS Incidence (NIH RECOVER-Adult) @RECOVER2025
+
+    *Full Citation:*: Jason LA, Dorri JA, Natelson BH, Bateman L, Vernon SD.\ Incidence and Prevalence of Post-COVID-19 Myalgic Encephalomyelitis: A RECOVER-Adult Study. _Journal of General Internal Medicine_. 2025.
+    *DOI:*: #link("https://doi.org/10.1007/s11606-024-09290-9")[10.1007/s11606-024-09290-9]
+    *PMID:*: 39804551
+    *PMCID:*: PMC11968624
+    *Study Design:*: Prospective observational cohort, n=11,785, NIH RECOVER consortium
+    *Research Stream:*: hadidchi2025-cfs-me-4yrs-post-covid
+    *Key Findings:*:
+        - Post-COVID ME/CFS incidence 2.8-fold higher vs uninfected controls
+        - Largest US national post-COVID ME/CFS incidence estimate
+        - Used IOM-2015 criteria for ME/CFS classification
+    *Conclusion:*: SARS-CoV-2 infection substantially increases risk of developing ME/CFS, confirming Hadidchi 2025 in a national prospective cohort with formal ME/CFS criteria.
+    *Limitations:*: Self-reported symptom criteria; selection bias toward healthcare-seeking population.
+    *Certainty:*: 0.78/1.0
+
+==== Unger et al.\ 2024 --- ME/CFS After SARS-CoV-2 (INSPIRE) @Unger2024MECFSinspire
+
+    *Full Citation:*: Unger ER, Lin J-MS, Wisk LE, et al.\ Myalgic Encephalomyelitis/Chronic Fatigue Syndrome After SARS-CoV-2 Infection. _JAMA Network Open_. 2024;7(7):e2423555.
+    *DOI:*: #link("https://doi.org/10.1001/jamanetworkopen.2024.23555")[10.1001/jamanetworkopen.2024.23555]
+    *PMID:*: 39046739
+    *PMCID:*: PMC11270135
+    *Study Design:*: Prospective cohort, n=4,376, 8 US sites, CDC INSPIRE study
+    *Research Stream:*: hadidchi2025-cfs-me-4yrs-post-covid
+    *Key Findings:*:
+        - Post-COVID patients assessed for ME/CFS by IOM-2015 criteria at 6+ months
+        - Significant proportion met ME/CFS symptom criteria
+        - CDC-led, multicenter, prospective replication of post-COVID ME/CFS
+    *Conclusion:*: Prospective symptom assessment confirms elevated post-COVID ME/CFS risk in a large, geographically diverse US cohort. Complements EHR-based studies (Hadidchi, Vu) with direct symptom measurement.
+    *Limitations:*: Self-reported symptoms; no pre-COVID baseline; follow-up started at 6 months.
+    *Certainty:*: 0.78/1.0
+
+==== Vu et al.\ 2024 --- Post-COVID Fatiguing Illness Incidence @Vu2024FatiguePostCovid
+
+    *Full Citation:*: Vu QM, Fitzpatrick AL, Cope JR, et al.\ Estimates of Incidence and Predictors of Fatiguing Illness after SARS-CoV-2 Infection. _Emerging Infectious Diseases_. 2024;30(3):539--547.
+    *DOI:*: #link("https://doi.org/10.3201/eid3003.231194")[10.3201/eid3003.231194]
+    *PMID:*: 38407166
+    *PMCID:*: PMC10902536
+    *Study Design:*: Retrospective matched cohort, n=4,589 COVID + 9,022 controls, median 11.4mo follow-up
+    *Research Stream:*: hadidchi2025-cfs-me-4yrs-post-covid
+    *Key Findings:*:
+        - COVID-19 associated with significantly elevated incidence of post-COVID fatigue and chronic fatigue vs matched controls
+        - Incidence rates quantified with confidence intervals
+        - CDC-led EHR analysis using ICD codes
+    *Conclusion:*: Post-COVID fatigue is a measurable, elevated epidemiological signal in EHR data. Supports Hadidchi 2025 direction but with fatigue outcome (not ME/CFS-specific).
+    *Limitations:*: Fatigue outcome via ICD codes (not ME/CFS); pre-Omicron era; single healthcare system.
+    *Certainty:*: 0.68/1.0 (population-weighted: 0.85 × 0.68 = 0.58)
+
+==== Cornelissen et al.\ 2024 --- Post-COVID Fatigue Clusters (P4O2) @Cornelissen2024FatigueClusters
+
+    *Full Citation:*: Cornelissen MEB, Bloemsma LD, Vaes AW, et al.\ Fatigue and symptom-based clusters in post COVID-19 patients: a multicentre, prospective, observational cohort study. _Journal of Translational Medicine_. 2024;22(1):191.
+    *DOI:*: #link("https://doi.org/10.1186/s12967-024-04979-1")[10.1186/s12967-024-04979-1]
+    *PMID:*: 38383493
+    *PMCID:*: PMC10880228
+    *Study Design:*: Prospective multicentre cohort, Netherlands (P4O2 consortium)
+    *Research Stream:*: hadidchi2025-cfs-me-4yrs-post-covid
+    *Key Findings:*:
+        - ME/CFS-like cluster identified among post-COVID patients, distinct from other fatigue clusters
+        - Substantial symptom overlap between post-COVID ME/CFS cluster and reference ME/CFS cohort
+        - Cluster analysis supports ME/CFS as a distinct post-COVID phenotype
+    *Conclusion:*: Not all post-COVID fatigue is identical — an ME/CFS cluster is distinguishable. Supports epidemiological separation of post-COVID ME/CFS from generic post-COVID fatigue.
+    *Limitations:*: Questionnaire-based; cluster methodology limits direct incidence estimates.
+    *Certainty:*: 0.65/1.0
+
+==== Tack et al.\ 2026 --- ME/CFS Incidence in Hospital Employees @Tack2026MECFSincidence
+
+    *Full Citation:*: Tack M, Gruber R, Betting L, et al.\ Assessment and Incidence Determination of Myalgic Encephalomyelitis/Chronic Fatigue Syndrome Following a SARS-CoV-2 Infection in a Prospective Cohort of Hospital Employees. _Medicina (Kaunas)_. 2026;62(3):480.
+    *DOI:*: #link("https://doi.org/10.3390/medicina62030480")[10.3390/medicina62030480]
+    *PMID:*: 41901562
+    *PMCID:*: PMC13027803
+    *Study Design:*: Prospective cohort, n=221 hospital employees, clinical assessment with CCC
+    *Research Stream:*: hadidchi2025-cfs-me-4yrs-post-covid
+    *Key Findings:*:
+        - 11.8% (CI95% 7.8--16.8) persistent fatigue; 3.2% (CI95% 1.3--6.4) diagnosed with ME/CFS by CCC
+        - GPCR autoantibodies in 66.6% (12/18), possible EBV reactivation in 86.7% (13/15)
+        - Coagulation parameters suggesting inflammation in 38.9%
+        - Demonstrates diagnostic pathway for post-COVID ME/CFS in occupational health setting
+    *Conclusion:*: Lower-bound incidence estimate of 3.2% post-COVID ME/CFS using CCC criteria with clinical assessment. GPCR autoantibodies and EBV reactivation are common in post-COVID ME/CFS.
+    *Limitations:*: Small sample (7 ME/CFS cases); single hospital; selection bias (only those reporting fatigue were assessed).
+    *Certainty:*: 0.55/1.0
+
+==== Moldofsky and Patcai 2011 --- Chronic Post-SARS Syndrome @Moldofsky2011PostSARS
+
+    *Full Citation:*: Moldofsky H, Patcai J.\ Chronic widespread musculoskeletal pain, fatigue, depression and disordered sleep in chronic post-SARS syndrome; a case-controlled study. _BMC Neurology_. 2011;11:37.
+    *DOI:*: #link("https://doi.org/10.1186/1471-2377-11-37")[10.1186/1471-2377-11-37]
+    *PMID:*: 21435231
+    *Study Design:*: Case-control study, n=22 post-SARS (Toronto 2003), 7 fibromyalgia, 21 healthy controls, 1--3 years post-infection
+    *Research Stream:*: hadidchi2025-cfs-me-4yrs-post-covid
+    *Key Findings:*:
+        - Chronic widespread pain, fatigue, depression, disordered sleep in post-SARS patients
+        - Alpha-wave intrusion during NREM sleep — identical EEG pattern to fibromyalgia
+        - Establishes historical precedent: coronavirus infection (SARS-CoV-1) causes chronic post-infectious fatigue/pain syndrome lasting years
+    *Conclusion:*: SARS-CoV-1 triggered a post-infectious syndrome resembling fibromyalgia/ME/CFS. Directly foreshadows post-COVID ME/CFS (SARS-CoV-2) and supports the post-coronavirus etiology model underlying Hadidchi 2025.
+    *Limitations:*: Very small n (22); historical controls; no formal ME/CFS diagnosis (fibromyalgia framework).
+    *Certainty:*: 0.50/1.0 (population-weighted: 0.85 × 0.50 = 0.43)
+
+==== Poomkudy et al.\ 2024 --- Joint Flexibility and ME/CFS After Mononucleosis @Poomkudy2024JointFlexibility
+
+    *Full Citation:*: Poomkudy JT, Torres C, Jason LA, Fishbein J, Katz BZ.\ Joint Flexibility and Myalgic Encephalomyelitis/Chronic Fatigue Syndrome After Mononucleosis. _Clinical Therapeutics_. 2024;46(3):285--288.
+    *DOI:*: #link("https://doi.org/10.1016/j.clinthera.2023.12.011")[10.1016/j.clinthera.2023.12.011]
+    *PMID:*: 38242746
+    *PMCID:*: PMC11009060
+    *Study Design:*: Prospective cohort of adolescents with infectious mononucleosis (EBV)
+    *Research Stream:*: hadidchi2025-cfs-me-4yrs-post-covid
+    *Key Findings:*:
+        - Joint hypermobility identified as potential risk factor for ME/CFS after EBV infection
+        - Extends Katz 2009 EBV→ME/CFS prospective cohort findings
+        - Connective tissue phenotype may predispose to post-infectious ME/CFS
+    *Conclusion:*: EBV-triggered ME/CFS provides historical post-infectious precedent (pre-COVID baseline) against which post-COVID ME/CFS risk can be compared. Joint hypermobility identified as an additional risk modifier.
+    *Limitations:*: Small sample; secondary analysis from a larger study.
+    *Certainty:*: 0.45/1.0
 
 ==== Baklund et al.\ 2021 --- Ferritin Elevated in ME/CFS vs Healthy Donors @Baklund2021RoutineBlood
 
@@ -33266,4 +33379,189 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - *Quality:*: High (multi-omic design with orthogonal validation; Frontiers in Immunology, peer-reviewed)
         - *Sample:*: n=94 LTCS + 24 CONV + 66 HC (antibody/cytokine); subset for deep phenotyping
         - *Replication:*: Consistent with prior NK depletion findings in ME/CFS (Baraniuk 2024 meta-analysis); no direct replication of scRNA-seq signature yet
-        - *Score:*: 0.45 (discounted for Long COVID population, not ME/CFS)
+         - *Score:*: 0.45 (discounted for Long COVID population, not ME/CFS)
+
+=== Drew 2026 — Hibernation-Inspired Innovations in Biomedicine
+    / *Full Citation:*: Drew KL. Hibernation-Inspired Innovations in Biomedicine: Addressing Aging, Chronic Diseases, and Critical Care. _Canadian Journal of Zoology_. 2026;104. @Drew2026HibernationBiomedicine
+    / *DOI:*: #link("https://doi.org/10.1139/cjz-2025-0055")[10.1139/cjz-2025-0055]
+    / *Key Findings:*:
+        - Interbout arousals provide insights into tolerance of rapid rewarming and reperfusion
+        - Hibernators resist muscle atrophy, bone loss, and neuronal damage during prolonged inactivity
+        - Reversible metabolic suppression, insulin resistance, and adaptive anorexia inform obesity/diabetes research
+        - Temperature-independent neuroprotection and nitrogen recycling offer translational opportunities
+    / *Conclusion:*: Hibernation biology represents an underexploited drug-discovery resource. Interbout arousal — a physiological, reversible circuit-state-reset — is conserved across mammals.
+    / *Limitations:*: Review; author (KLD) has financial interest in Be Cool Pharmaceutics. Translational path from hibernator biology to human therapy is unvalidated.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (review, peer-reviewed, COI disclosed)
+        - *Sample:*: n/a (review)
+        - *Replication:*: n/a
+        - *Score:*: 0.35
+
+=== Markussen et al.\ 2024 — c-fos in Choroid Plexus at Spontaneous Arousal
+    / *Full Citation:*: Markussen FAF, Cázarez-Márquez F, Melum VJ, Hazlerigg DG, Wood SH. c-fos induction in the choroid plexus, tanycytes and pars tuberalis is an early indicator of spontaneous arousal from torpor in a deep hibernator. _Journal of Experimental Biology_. 2024;227(10):jeb247224. @Markussen2024ArousalChoroid
+    / *DOI:*: #link("https://doi.org/10.1242/jeb.247224")[10.1242/jeb.247224]
+    / *Key Findings:*:
+        - Non-neuronal sites (choroid plexus, pars tuberalis, third ventricle tanycytes) show peak c-fos at arousal initiation
+        - Dorsomedial hypothalamus active during torpor entry but NOT at earliest arousal stages — nor is the preoptic area
+        - Suggests metabolic feedback from blood/CSF factors initiates spontaneous arousal, not only hypothalamic thermoregulation
+    / *Conclusion:*: Arousal initiation from torpor involves non-neuronal metabolic sensing in brain barrier structures. This is distinct from the hypothalamic EP3R switch in torpor entry.
+    / *Limitations:*: Rodent study (golden hamster); c-fos is a proxy for neural activity; causality not established.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (Journal of Experimental Biology, high-resolution multi-parameter monitoring)
+        - *Sample:*: Animal (hamster, n not specified)
+        - *Replication:*: Single study
+        - *Score:*: 0.34
+
+=== Hunstiger et al.\ 2023 — Non-Shivering Thermogenesis in Arctic Ground Squirrels
+    / *Full Citation:*: Hunstiger M, Johannsen MM, Oliver SR. Non-shivering thermogenesis is differentially regulated during the hibernation season in Arctic ground squirrels. _Frontiers in Physiology_. 2023;14:1207529. @Hunstiger2023NSTHibernation
+    / *DOI:*: #link("https://doi.org/10.3389/fphys.2023.1207529")[10.3389/fphys.2023.1207529]
+    / *Key Findings:*:
+        - BAT UCP1 peaks in winter and tapers after terminal arousal — primary thermogenic source for interbout arousal
+        - Muscular NST (SERCA1a/2a, sarcolipin) shows opposite pattern: depressed in late hibernation, rebounds after terminal arousal
+        - White adipose tissue shows no UCP1 expression
+        - Differential timing indicates distinct NST functions in maintaining thermogenesis
+    / *Conclusion:*: BAT UCP1 is the primary thermogenic driver of interbout arousal. Muscular NST plays a role in post-hibernation recovery, not in arousal itself.
+    / *Limitations:*: Animal study; protein expression (not direct thermogenesis measurement); seasonal sampling may confound date-of-arousal effects.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Frontiers in Physiology, wild-caught animals, seasonal longitudinal design)
+        - *Sample:*: Animal (Arctic ground squirrels, seasonal n)
+        - *Replication:*: Consistent with prior UCP1 literature
+        - *Score:*: 0.32
+
+=== González-Riaño et al.\ 2025 — Brain Lipidomics of Hibernating Syrian Hamsters
+    / *Full Citation:*: González-Riaño C, León-Espinosa G, Regalado-Reyes M, García A, DeFelipe J, Barbas C. Advanced lipidomics using UHPLC-ESI-QTOF-MS/MS reveals novel lipids in hibernating Syrian hamsters. _Journal of Chromatography A_. 2025;1743:465692. @GonzalezRiano2025Lipidomics
+    / *DOI:*: #link("https://doi.org/10.1016/j.chroma.2025.465692")[10.1016/j.chroma.2025.465692]
+    / *Key Findings:*:
+        - 377 lipid species annotated across late torpor, arousal, and euthermic stages
+        - PMeOH (methylated lysophosphatidic acid) elevated during torpor — cell survival signalling
+        - Decreased phosphatidic acid with increased DAG implies PKC signalling shift
+        - MGDG lipids elevated in torpor suggest neuroprotection via oligodendrocyte function
+    / *Conclusion:*: Torpor induces specific brain lipidome remodelling consistent with membrane fluidity maintenance and oxidative stress protection. The DAG↑/PA↓ shift is a candidate arousal-preparatory signal.
+    / *Limitations:*: Descriptive lipidomics (no functional validation); single species (Syrian hamster); small group sizes for cross-stage comparison.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Journal of Chromatography A, advanced MS/MS methodology)
+        - *Sample:*: Animal (hamster, n per stage unclear)
+        - *Replication:*: Single study
+        - *Score:*: 0.31
+
+=== Wang et al.\ 2026 — T2T Genome: Arachidonic Acid in Hibernation Lipid Metabolism
+    / *Full Citation:*: Wang L, Chen P, Gao Q, et al. A telomere-to-telomere genome reveals arachidonic acid as a key regulator of hepatic lipid metabolism during hibernation. _Communications Biology_. 2026. @Wang2026T2TArachidonic
+    / *DOI:*: #link("https://doi.org/10.1038/s42003-026-10625-x")[10.1038/s42003-026-10625-x]
+    / *Key Findings:*:
+        - First T2T genome of a hibernating mammal (Daurian ground squirrel, 2.69 Gb, 19 chromosomes)
+        - Comparative genomics of 17 species: arachidonic acid pathway enriched in hibernator-expanded gene families
+        - Multi-omics (transcriptomic + metabolomic) across 4 hibernation stages confirmed arachidonic acid (20:4 n-6) as key regulator
+        - In-vitro: arachidonic acid interacts with PPARα and TRPV channels, triggering Ca2+ signalling and lipid metabolic enzyme expression
+    / *Conclusion:*: Arachidonic acid is a key lipid signal in hibernation metabolic regulation, operating through PPARα/TRPV-Ca2+ axis. This connects directly to the eicosanoid/PnS prostaglandin arousal-cascade hypothesis.
+    / *Limitations:*: Single organ (liver); in-vitro validation uses primary hepatocytes (not in vivo); T2T assembly for one individual.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (Communications Biology, Nature portfolio, multi-omics + in-vitro)
+        - *Sample:*: Animal (Daurian ground squirrel) + in-vitro hepatocytes
+        - *Replication:*: Single study (first T2T for this species)
+        - *Score:*: 0.35
+
+=== Shimaoka et al.\ 2018 — A1 Adenosine Receptor Hypothermia in Non-Hibernators
+    / *Full Citation:*: Shimaoka H, Kawaguchi T, Morikawa K, et al. Induction of hibernation-like hypothermia by central activation of the A1 adenosine receptor in a non-hibernator, the rat. _Journal of Physiological Sciences_. 2018;68(4):425–430. @Shimaoka2018A1ARHypothermia
+    / *DOI:*: #link("https://doi.org/10.1007/s12576-017-0543-y")[10.1007/s12576-017-0543-y]
+    / *Key Findings:*:
+        - Intracerebroventricular CHA (A1AR agonist) induces deep hypothermia (under 20 deg C) with maintained sinus rhythm in non-hibernating rats
+        - Forced cooling of anesthetized rats without A1AR activation causes cardiac arrest
+        - Pentobarbital abolished the protective rhythm effect — implies active, anaesthesia-sensitive mechanism
+    / *Conclusion:*: Central A1AR activation is a conserved torpor-entry signal that can be pharmacologically induced across species. This is the strongest translational bridge from hibernation biology to human hypometabolic-state induction.
+    / *Limitations:*: Rat study (non-hibernator but still rodent); single A1 agonist (CHA); hypothermia, not full torpor phenotype; no metabolic rate measurements.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (clear experimental design, cardiac monitoring, cross-species relevance)
+        - *Sample:*: Animal (rat, n per group unclear)
+        - *Replication:*: Consistent with later Uchino 2024 (torpor-tagged neuron activation by A1 agonist)
+        - *Score:*: 0.40
+
+=== Wu and Storey 2021 — mTOR Signaling in Metabolic Stress Adaptation
+    / *Full Citation:*: Wu CW, Storey KB. mTOR Signaling in Metabolic Stress Adaptation. _Biomolecules_. 2021;11(5):681. @Wu2021mTORMetabolicStress
+    / *DOI:*: #link("https://doi.org/10.3390/biom11050681")[10.3390/biom11050681]
+    / *Key Findings:*:
+        - mTORC1 suppression is a conserved feature of metabolic depression across hibernation, estivation, anoxia tolerance, and dauer diapause
+        - mTOR reactivation accompanies arousal from torpor
+        - mTOR exhibits stressor-dependent regulatory patterns across diverse species
+    / *Conclusion:*: mTORC1 is a central metabolic switch for torpor entry (suppressed) and arousal (reactivated). This is an evolutionary homolog of the AMPK/mTOR energy-state switch in the Komaroff-Dantzer circuit model.
+    / *Limitations:*: Review (no primary data); broad scope across multiple stress states may obscure hibernation-specific mechanisms.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Biomolecules, comprehensive review, Storey lab is a leading hibernation biochemistry group)
+        - *Sample:*: n/a (review)
+        - *Replication:*: n/a
+        - *Score:*: 0.33
+
+=== Jobava et al.\ 2021 — Adaptive Translational Pausing in Severe Stress
+    / *Full Citation:*: Jobava R, Mao Y, Guan BJ, et al. Adaptive translational pausing is a hallmark of the cellular response to severe environmental stress. _Molecular Cell_. 2021;81(20):4191–4208.e8. @Jobava2021AdaptivePausing
+    / *DOI:*: #link("https://doi.org/10.1016/j.molcel.2021.09.029")[10.1016/j.molcel.2021.09.029]
+    / *Key Findings:*:
+        - Severe hyperosmotic stress induces a transient hibernation-like state (adaptive pausing response, APR) in mammalian cells
+        - APR coordinates ATP conservation via mitochondrial fragmentation and widespread translational pausing at initiation codons
+        - mRNAs remain poised to resume translation upon recovery via ISR signalling
+        - Recovery involves cell cycle progression, growth resumption, and mitochondrial reversal
+    / *Conclusion:*: Non-hibernating mammalian cells possess a latent hibernation-like metabolic shutdown program. This provides a cellular mechanism model for the ME/CFS low-energy state — not a passive failure but an active, coordinated survival program.
+    / *Limitations:*: In-vitro (hyperosmotic stress model); not a hibernation organism study; extrapolation from acute stress to chronic illness is speculative.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (Molecular Cell, rigorous mechanistic design)
+        - *Sample:*: In-vitro mammalian cells
+        - *Replication:*: Independent labs; translational pausing mechanism verified
+        - *Score:*: 0.47
+
+=== Blanco et al.\ 2024 — Primate Hibernation: Captive Dwarf Lemurs
+    / *Full Citation:*: Blanco MB, Greene LK, Welser KH, Ehmke EE, Yoder AD, Klopfer PH. Primate hibernation: The past, present, and promise of captive dwarf lemurs. _Annals of the New York Academy of Sciences_. 2024;1540(1):178–190. @Blanco2024DwarfLemur
+    / *DOI:*: #link("https://doi.org/10.1111/nyas.15206")[10.1111/nyas.15206]
+    / *Key Findings:*:
+        - Dwarf lemurs (Cheirogaleus spp.) are the only obligate primate hibernators
+        - Duke Lemur Center successfully induced hibernation in captivity after decades of failure
+        - Stable cold (13 deg C) with food: shallower torpor bouts, modified gut microbiome
+        - Fluctuating temperatures: passive daily rewarming, altered fat depletion, reduced oxidative stress
+    / *Conclusion:*: Primate hibernation is achievable and environmentally manipulable — the best translational bridge from hibernation biology to human applications. The primate torpor-arousal cycle is the closest available model for human circuit-state transitions.
+    / *Limitations:*: Review/colony report; small colony; endangered species limits experimental manipulations; no molecular-level data in this review.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Annals of NYAS, captive colony report, preliminary data)
+        - *Sample:*: Animal (captive dwarf lemurs, small n)
+        - *Replication:*: n/a (unique colony)
+        - *Score:*: 0.34
+
+=== Dias et al.\ 2021 — Stem Cell Dormancy and Hibernation
+    / *Full Citation:*: Dias IB, Bouma HR, Henning RH. Unraveling the Big Sleep: Molecular Aspects of Stem Cell Dormancy and Hibernation. _Frontiers in Physiology_. 2021;12:624950. @Dias2021StemCellTorpor
+    / *DOI:*: #link("https://doi.org/10.3389/fphys.2021.624950")[10.3389/fphys.2021.624950]
+    / *Key Findings:*:
+        - Shared molecular factors between hematopoietic stem cell quiescence and torpor: reversible cell cycle inhibition, glucose-to-FAO shift, mitochondrial downregulation, HIF-1α changes, mTOR suppression, autophagy, radiation resistance
+        - Similarity is remarkable despite different cell populations (proliferating stem cells vs. terminally differentiated cells in torpor)
+    / *Conclusion:*: Cellular dormancy programs are deeply conserved between stem cell biology and hibernation physiology. The mTOR-HIF-1α-autophagy axis is a convergent energy-state regulator.
+    / *Limitations:*: Review (no primary data); comparison across very different biological contexts may obscure mechanistic differences.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Frontiers in Physiology, clear comparative framework)
+        - *Sample:*: n/a (review)
+        - *Replication:*: n/a
+        - *Score:*: 0.34
+
+=== Fu et al.\ 2021 — Hibernation Brain Transcriptome (13-Lined Ground Squirrel)
+    / *Full Citation:*: Fu R, Gillen AE, Grabek KR, et al. Dynamic RNA Regulation in the Brain Underlies Physiological Plasticity in a Hibernating Mammal. _Frontiers in Physiology_. 2021;11:624677. @Fu2021HibernationTranscriptome
+    / *DOI:*: #link("https://doi.org/10.3389/fphys.2020.624677")[10.3389/fphys.2020.624677]
+    / *Key Findings:*:
+        - 6,505 hibernation-related differentially expressed/processed transcripts across three brain regions
+        - First deconvolution of seasonal vs. temperature-dependent effects on brain transcriptome
+        - Regulatory network of RNA binding proteins dynamic in hibernation
+        - Evidence for regulated transcription and RNA turnover (not just passive temperature effects)
+    / *Conclusion:*: Hibernation involves active, regulated transcriptomic programming in the brain, not passive cold-induced suppression. This dataset is the primary transcriptomic resource for benchmarking ME/CFS brain expression patterns against a natural hypometabolic state.
+    / *Limitations:*: Animal study (ground squirrel); bulk tissue RNA-seq (not single-cell); COI: KG at Fauna Bio, SM/CB on SAB.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium-High (Frontiers in Physiology, enhanced genome assembly, squirrelBox tool)
+        - *Sample:*: Animal (13-lined ground squirrel, n per condition specified)
+        - *Replication:*: Consistent with prior hibernation transcriptome studies
+        - *Score:*: 0.32
+
+=== Duffy et al.\ 2022 — Arousal Increases Oxidative Damage
+    / *Full Citation:*: Duffy BM, Staples JF, Tessier SN. Arousal from Torpor Increases Oxidative Damage in the Hibernating Thirteen-Lined Ground Squirrel. _Physiological and Biochemical Zoology_. 2022;95(3):229–238. @Duffy2022ArousalOxidative
+    / *DOI:*: #link("https://doi.org/10.1086/719931")[10.1086/719931]
+    / *Key Findings:*:
+        - Interbout arousal increases oxidative damage (protein carbonylation, lipid peroxidation) in ground squirrel tissues
+        - The arousal process — while essential for metabolic homeostasis — carries a measurable oxidative cost
+    / *Conclusion:*: Counterbalances the narrative that interbout arousal is a benign, purely restorative process. Pharmacological arousal from a torpor-like state in ME/CFS could impose oxidative stress if the protective adaptations of natural hibernators are not also engaged.
+    / *Limitations:*: Animal study; single species; oxidative markers are proxies (not functional endpoints).
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (Physiological and Biochemical Zoology, clear hypothesis test)
+        - *Sample:*: Animal (13-lined ground squirrel)
+        - *Replication:*: Consistent with general ROS biology in ischemia-reperfusion; specific to hibernation context
+        - *Score:*: 0.32

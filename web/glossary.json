@@ -10924,5 +10924,35 @@
     "label": "median preoptic nucleus",
     "category": "anatomy",
     "definition": "A hypothalamic nucleus whose neurons, in rodents, regulate entry into and exit from a torpor-like hypometabolic state; relevant as a neural circuit that may mediate the low-energy metabolic state proposed in ME/CFS."
+  },
+  "hibernation": {
+    "label": "hibernation",
+    "category": "pathway",
+    "definition": "A prolonged state of deep torpor in which an animal drastically lowers body temperature and metabolic rate over weeks to months to survive winter; distinguished from brief interbout arousal episodes."
+  },
+  "interbout arousal": {
+    "label": "interbout arousal",
+    "category": "pathway",
+    "definition": "The periodic, spontaneous return to normal body temperature and metabolism that hibernating animals make between torpor bouts; the molecular signals of this reversible 'wake-up' are the focus of hibernation-based drug-discovery for low-energy states."
+  },
+  "brown adipose tissue": {
+    "label": "brown adipose tissue",
+    "category": "anatomy",
+    "definition": "A type of fat tissue rich in mitochondria and the protein UCP1 that generates heat (non-shivering thermogenesis) to raise body temperature and drive arousal from torpor/hypothermia."
+  },
+  "choroid plexus": {
+    "label": "choroid plexus",
+    "category": "anatomy",
+    "definition": "A network of cells in the brain's ventricles that produces cerebrospinal fluid and forms the blood-CSF barrier; also functions as a metabolic sensor that may help initiate arousal from torpor."
+  },
+  "tanycyte": {
+    "label": "tanycyte",
+    "category": "anatomy",
+    "definition": "Specialized ependymal cells lining the base of the brain's third ventricle that sense circulating metabolites and may participate in energy-state signaling including torpor arousal."
+  },
+  "polysome": {
+    "label": "polysome",
+    "category": "measurement",
+    "definition": "A string of ribosomes translating a single messenger RNA at once; a reduced polysome-to-monosome ratio indicates translational stalling, a marker of the cellular energy-conservation (adaptive pausing) response."
   }
 }
