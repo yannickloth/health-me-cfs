@@ -59,9 +59,11 @@
 - Net cert change 0; R=1/T=0; 3 falsifiable predictions; ~1000 words; T1 low; MEDIUM clinical.
 - Quality flags: NONE.
 
-## Phase 5d report (ch30 cascade)
-- **SKIPPED per skill model-note:** "If opus is unavailable → skip Phase 5d entirely (no ops trace, no chapter content)." This environment's configured models are deepseek/kimi — no opus. The neuroinflammation→neural-circuit mechanism maps to ch30 sec-04 (neuroinflammatory) per the Phase 3 Category Router, but no ch30 cascade file/sec-12/sec-09/sec-13 changes were made. Rationale: (a) opus unavailable per model-note; (b) interception drugs lack ME/CFS-specific certainty ≥0.40 (sec-12 step-6 pruning threshold) — most anti-neuroinflammatory agents have no ME/CFS efficacy data, so a cascade would lack discriminating value. The neuroinflammation-hub treatment framing is carried in ch18 consequence + registry `treatment:` field (research-stage only), not as a ch30 cascade.
-- Phase 5c: N/A (no medication with ME/CFS human evidence integrated).
+## Phase 5d report (ch30 cascade) — REVISED after real execution
+- **Executed (not skipped).** Cascade traced to `ops/integration-guides/pathway-drug-trace-komaroff-dantzer-symptom-persistence.md`.
+- **Quality Gate — NO DISCRIMINATING VALUE:** The neuroinflammation→symptom arm (Steps 1–3) is ALREADY traced in the existing `@sec:microglial-cascade` (sec-04) with full drug interception (LDN, Minocycline, PEA) + differential inferences. The only genuinely-novel Node (Step 4c torpor/median-preoptic circuit) has NO ME/CFS-specific intercepting drug reaching certainty ≥0.40 → pruning rule applied → **no new ch30 subsec/sec-12/sec-09/sec-13 files created**.
+- **Step-2 overlap action applied:** Added `@sec:microglial-cascade` cross-reference to the Phase 3 ch18 environment `@hyp:ch15-sickness-torpor-circuits` (build-verified).
+- Phase 5c: N/A (no medication with ME/CFS human evidence; no new sec-12 differential inference).
 
 ## Phase 6 report (retrospective adaptation)
 - Semantic match: Komaroff-Dantzer "CNS-confined neuroinflammation → neural-circuit symptom generation" matches the paper's EXISTING Omdal-null reconciliation in ch18 (biphasic: acute cytokine surge → hypothalamic microglial priming → CNS-circuit-maintained fatigue). Synonym map: tmp/synonym-map-komaroff-dantzer-symptom-persistence.md.
