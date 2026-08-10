@@ -5,6 +5,20 @@
 
 MCAS is the diagnosable subset of the broader "mast cell / histaminergic dysregulation" domain (Domain 6 in the multi-domain framework; Section @sec:domain6-mast-cell). Not all patients with histaminergic symptoms meet formal MCAS criteria.
 
+==== MCAS Without ME/CFS vs.\ ME/CFS With MCAS
+
+It is worth separating two clinical situations that are frequently conflated, because the distinction changes what a mast-cell finding means for the patient.
+
+*MCAS as a primary disorder (without ME/CFS).* In a person who does not have ME/CFS, MCAS is the illness: flushing, urticaria, angio-oedema, abdominal cramping, and episodic autonomic reactions *are* the disease being treated @Valent2021criteria. Treating the mast cells is treating the condition. Response to mast-cell therapy is the endpoint itself, and non-response in this setting argues against mast-cell dependency of the symptoms.
+
+*ME/CFS with comorbid MCAS.* In ME/CFS, the situation is different in three respects:
+
+- *MCAS is usually downstream.* Most ME/CFS patients with MCAS developed it *after* their illness began, not before (Section @spec:amplification-ratchet). It is an amplifier riding on top of a pre-existing energy-and-immune disorder, not the origin of the illness.
+- *Treating mast cells is treating an amplifier.* Improvement in flushing or orthostatic symptoms with antihistamines does not mean mast cells were the cause; it means mast-cell activation was one of the amplifiers. It does not repair the underlying energy defect.
+- *Non-response does not argue against ME/CFS.* Because MCAS is one of several amplification routes and only one of the mediators to be blocked, a failed antihistamine trial in an ME/CFS patient supports only that histamine blockade was not a sufficient lever -- it says nothing about whether the underlying illness is real or treatable (@lim:nonige-mcas-parsimony, Section @sec:mcas).
+
+The practical corollary: in ME/CFS, empirical mast-cell-directed therapy is best framed to the patient as *a trial aimed at one amplifier* -- with defined expectations about which symptoms it should touch and a clear plan for what a partial or null result does and does not mean -- rather than as a diagnostic test for whether mast cells "cause" the illness @Castells2024mcasreview.
+
 ==== Overlap with ME/CFS
 
 MCAS involves inappropriate mast cell degranulation:
