@@ -5337,3 +5337,149 @@ This registry collects all hypotheses, speculations, open questions, and predict
 )
 
 
+
+= Entries added 2026-08-10: ch39 Healthcare-Systems-Policy (retroactive registry completion)
+
+#registry-entry(
+  [Medical Education Reform — What Would Move the Needle?],
+  type: "OQ",
+  certainty: "0.50",
+  evidence: [ch39 documents a medical-education deficit but no intervention studies; no study tests whether adding ME/CFS content to curricula changes diagnosis/referral/outcomes @Bateman2021Mayo. A mandatory-CME model (e.g., opioid/implicit-bias-mandate-style) is proposed but never trialed. (Certainty: descriptive evidence only; no intervention).],
+  citations: [@Bateman2021Mayo],
+  mechanism: [The education deficit is self-perpetuating — physicians untrained in ME/CFS cannot recognize it or teach the next generation; reform requires evidence-tested interventions, not only aspirational recommendations.],
+  chapter-ref: [ch39: @oq:medical-education-reform],
+  prediction: [A CME/curriculum intervention should measurably change diagnosis rate, referral pattern, or outcome (vs. no-intervention control); absence of change would indicate the barrier is structural, not educational.],
+  limitation: [No prospective intervention data in ME/CFS; severity applicable across all levels. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [Diagnostic Delay as a Healthcare-System Metric (iatrogenic harm)],
+  type: "H",
+  certainty: "0.55",
+  evidence: [Average ME/CFS diagnostic delay 5-10 years across surveys @Bateman2021Mayo; delay is iatrogenic harm (inappropriate GET/psychiatric misdiagnosis during the gap, employment/savings loss, repeated invalidation). Consistent across multiple surveys; no prospective delay-to-harm study.],
+  citations: [@Bateman2021Mayo],
+  mechanism: [Diagnostic delay exposes patients to harmful recommendations and invalidation; reducing delay is a low-cost "treatment" (each month of delay avoided is a month of appropriate care).],
+  chapter-ref: [ch39: @hyp:diagnostic-delay-harm],
+  prediction: [A registry linking diagnostic delay (months) to later QoL/employment outcomes should show a monotonic relationship (delay -> harm).],
+  limitation: [Cross-sectional survey evidence; no prospective study; severity applicability all, greatest for those progressing to severe. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [Do Specialist Clinics Improve Outcomes?],
+  type: "OQ",
+  certainty: "N/A",
+  evidence: [Zero RCTs/controlled comparisons of specialist ME/CFS clinics (BHC, Stanford, OMI, Hadassah, Charite) vs. primary care on diagnostic accuracy, functional outcomes, or satisfaction. Recommendation for specialist care rests on expert consensus/patient preference, not demonstrated superiority.],
+  citations: [@Bateman2021Mayo],
+  mechanism: [Whether specialty structure improves outcomes is unmeasured; clinic existence creates an implicit standard of care that most patients cannot access, without evidence it is superior.],
+  chapter-ref: [ch39: @oq:specialist-clinic-evidence; ch39 BHC care-delivery example],
+  prediction: [A controlled comparison (or quasi-experiment, @oq:specialist-clinic-quasiexperiment) of specialist vs. well-informed primary care; null would mean current unequal access is not justified by outcomes.],
+  limitation: [Evidence gap identification, not a factual claim; severity most critical for severe/very-severe. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [Co-Production as a Healthcare Design Principle],
+  type: "S",
+  certainty: "0.50",
+  evidence: [Qualitative co-production study (n=8) with ME/CFS patients identified preference for multidisciplinary teams, mHealth symptom tracking, PEM-aware pathways @Thornton2025energy. Small/unvalidated in ME/CFS; methodology sound generically.],
+  citations: [@Thornton2025energy],
+  mechanism: [Designing services WITH patients (co-production) may better meet energy-limited, multidisciplinary, PEM-aware needs than standard clinic-centered design.],
+  chapter-ref: [ch39: @spec:coproduction],
+  prediction: [Co-produced ME/CFS services should show higher retention/satisfaction than non-co-designed services.],
+  limitation: [n=8 qualitative; not ME/CFS-validated; severity most important for severe/very-severe. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [The Universal Access Null Hypothesis — What If Reform Doesn't Change Outcomes?],
+  type: "OQ",
+  certainty: "N/A",
+  evidence: [If all barriers removed (education, delay, guidelines, specialist access, disability, invalidation), would outcomes improve? Partly refuted (reducing delay/GET-avoidance almost certainly prevents iatrogenic harm) but not for benefit (no evidence any care model improves long-term function).],
+  citations: [@Bateman2021Mayo],
+  mechanism: [Distinguishes removing HARM (GET, invalidation, benefit denial — evidence-backed) from providing BENEFIT (specialist care, co-production, multidisciplinary — untested).],
+  chapter-ref: [ch39: @oq:universal-access-null],
+  prediction: [Reform separating harm-removal from benefit-provision; benefit claims remain untested until controlled comparisons exist.],
+  limitation: [Descriptive/qualitative health-services evidence; no care-model comparative studies. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [Diagnostic Desert — Geographic Access as a Self-Reinforcing Trap],
+  type: "H",
+  certainty: "0.45",
+  evidence: [10x variation in ME/CFS diagnosis across English ICBs @samms2025unequalaccess; PEM makes travel an active harm (radius constraint shorter than any other chronic disease), producing a self-reinforcing desert (fewer diagnoses -> apparent low prevalence -> no deployment -> fewer access).],
+  citations: [@samms2025unequalaccess],
+  mechanism: [PEM-adjusted travel impedance (distance x PEM severity) predicts diagnosis probability better than raw distance, and is ME/CFS-specific (fibromyalgia, lacking PEM barrier, shows weaker clustering).],
+  chapter-ref: [ch39: @hyp:diagnostic-desert],
+  prediction: [PEM-adjusted distance from nearest specialist inversely correlates with ICB diagnosis rate, stronger for ME/CFS than fibromyalgia; opening a clinic in a desert should produce a diagnostic surge.],
+  limitation: [Geographic variation documented; the trap mechanism is novel/untested; severity most relevant for severe/very-severe. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [The Guideline Cascade Duration — Contested Diseases Have Longer Implementation Gaps],
+  type: "S",
+  certainty: "0.35",
+  evidence: [Evidence-to-practice lag averages ~17 years; contested illnesses likely longer (pre-existing beliefs, no specialty champions, hard-to-audit negative recommendations). German G-BA statutory directive is a natural experiment.],
+  citations: [@Bateman2021Mayo],
+  mechanism: [For contested diseases, guideline uptake is systematically delayed: belief revision, absence of specialty champions, and negative (GET-withdrawal) recommendations are harder to audit than positive ones.],
+  chapter-ref: [ch39: @spec:guideline-cascade-duration],
+  prediction: [German physicians show higher PEM-concern awareness than UK at matched time-from-publication (Germany: binding directive vs. UK advisory NICE 2021).],
+  limitation: [Implementation-science support is general; contested-illness amplification novel; NICE-2021 cascade unobserved; all severity. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [Healthcare Invalidation x PEM Synergy — a Bootstrap Trap Preventing Care Re-Entry],
+  type: "S",
+  certainty: "0.40",
+  evidence: [Invalidation (Bontempo 2025) drives healthcare avoidance; PEM prevents clinic participation @Bontempo2025invalidation. Interaction: too-traumatized-to-trust AND too-fatigued-to-shop = bootstrap trap, even when good care becomes available.],
+  citations: [@Bontempo2025invalidation],
+  mechanism: [Past invalidation + PEM (provider-searching is physiologically costly) keeps the most-harmed patients outside the system; reform investments may preferentially benefit milder patients.],
+  chapter-ref: [ch39: @spec:invalidation-pem-trap],
+  prediction: [When a new specialist opens, the first 50 patients will have lower baseline invalidation scores and milder PEM than the regional ME/CFS population; refuted if avoidance does not interact with PEM to predict time-to-specialist-contact.],
+  limitation: [Both mechanisms individually documented; synergy inferred not directly observed; severity most critical for long-duration severe patients. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [The NICE 2021 Natural Experiment — did UK practice change?],
+  type: "OQ",
+  certainty: "0.75",
+  evidence: [NICE NG206 (Oct 2021) withdrew GET and recognized PEM; UK centralized data (CPRD ~20m patients) makes an interrupted-time-series answerable: pre-NICE vs post-NICE on diagnoses/GET-proxy-referrals/delay, with fibromyalgia+RA controls @samms2025unequalaccess.],
+  citations: [@samms2025unequalaccess],
+  mechanism: [Guideline-attributable change detected by structural break in referral/exercise patterns for ME/CFS but not controls; if no break, implementation-gap concern confirmed.],
+  chapter-ref: [ch39: @oq:nice-natural-experiment],
+  prediction: [Structural break in ME/CFS referral/diagnosis patterns post-NICE-2021 vs. controls; absence confirms the implementation gap.],
+  limitation: [Feasibility high (standard method, data exist); the study has not yet been run. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [The Specialist Clinic Quasi-Experiment — distance as instrument],
+  type: "OQ",
+  certainty: "0.55",
+  evidence: [Geographic proximity to specialist clinic as instrumental variable (PEM-adjusted distance); two-stage least squares estimates clinic-use effect on delay/function/PE-related ED visits, with MS comparator.],
+  citations: [],
+  mechanism: [If specialist clinics improve outcomes, distance->use->better function; if null (@oq:specialist-clinic-evidence), apparent benefit reflects selection (wealthier/milder/health-literate reach them).],
+  chapter-ref: [ch39: @oq:specialist-clinic-quasiexperiment],
+  prediction: [Two-stage: PEM-adjusted distance predicts clinic use; clinic use predicts diagnostic delay, functional status, and PEM-ED visits; controls for selection by severity.],
+  limitation: [Feasibility reasonable (UK data exist; US richer on claims, poorer on function); un-run. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [The Medical Education Pilot Trial — does teaching doctors change what they do?],
+  type: "OQ",
+  certainty: "0.50",
+  evidence: [Cluster-RCT (n=20-30 practices, 1:1) of a 2-hour ME/CFS module (criteria, PEM, guidelines, EHR tool) vs. usual care; primary outcome new ME/CFS diagnoses per 10k patients over 18 months; powered to detect a doubling.],
+  citations: [],
+  mechanism: [If education raises knowledge but not diagnosis rate, the barrier is structural (time, referral-pathway absence), not educational — upstream-failure model would need revision.],
+  chapter-ref: [ch39: @oq:education-pilot-trial],
+  prediction: [Education arm shows higher ME/CFS diagnosis rate; absence implies structural (not educational) barrier.],
+  limitation: [18-month follow-up may be too short (delay averages 5+ years); feasible but un-run. (ch39, prior cycle.)],
+)
+
+#registry-entry(
+  [The PEM-Proof Care Delivery Trial — visits designed around what ME/CFS does to patients],
+  type: "OQ",
+  certainty: "0.55",
+  evidence: [RCT (n=200 newly diagnosed, two arms, identical clinical content) comparing PEM-avoiding delivery (telehealth, async messaging, actigraphy, coordinator, energy-conservation pre-visit) vs. standard in-person clinic; primary SF-36 physical function at 12 months, secondary PEM frequency.],
+  citations: [],
+  mechanism: [If PEM-avoiding delivery is superior on functional outcomes, PEM-aware delivery is a clinical-effectiveness lever, not just a preference; severe/housebound hypothesized to benefit most.],
+  chapter-ref: [ch39: @oq:pem-proof-trial],
+  prediction: [PEM-avoiding arm shows better SF-36 physical function / fewer PEM episodes at 12 months than standard care.],
+  limitation: [Blinding to delivery channel impossible (actigraphy as objective check); feasible but un-run. (ch39, prior cycle.)],
+)
