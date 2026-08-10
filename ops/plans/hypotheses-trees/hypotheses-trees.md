@@ -334,6 +334,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | charlton2026-muscle-bedrest | [subtrees/charlton2026-muscle-bedrest.md](subtrees/charlton2026-muscle-bedrest.md) | 2026-07-28 | 35 | 3 | 🔵 in progress |
 | contraindication-ladder | [subtrees/contraindication-ladder.md](subtrees/contraindication-ladder.md) | 2026-07-29 | 7 | 5 | 🔵 in progress |
 | sequential-ordering-principle | [subtrees/sequential-ordering-principle.md](subtrees/sequential-ordering-principle.md) | 2026-08-10 | 2 | 1 | ✅ done |
+| bhc-clinical-operations-model | [subtrees/bhc-clinical-operations-model.md](subtrees/bhc-clinical-operations-model.md) | 2026-08-10 | 2 | 0 | ✅ done |
 | diurnal-response-window | [subtrees/diurnal-response-window.md](subtrees/diurnal-response-window.md) | 2026-07-29 | 4 | 2 | ✅ done |
 | dementia-inflammation | [subtrees/dementia-inflammation.md](subtrees/dementia-inflammation.md) | 2026-08-09 | 15 | 10 | ✅ done |
 | ai-multiomics-mecfs-xiong2025 | [subtrees/ai-multiomics-mecfs-xiong2025.md](subtrees/ai-multiomics-mecfs-xiong2025.md) | 2026-08-10 | 6 | 3 | 🔵 in progress |

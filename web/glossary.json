@@ -10954,5 +10954,15 @@
     "label": "polysome",
     "category": "measurement",
     "definition": "A string of ribosomes translating a single messenger RNA at once; a reduced polysome-to-monosome ratio indicates translational stalling, a marker of the cellular energy-conservation (adaptive pausing) response."
+  },
+  "EMR": {
+    "label": "EMR",
+    "category": "method",
+    "definition": "Electronic Medical Record — the digital system a clinic uses to store patient records; a specialist clinic may customize EMR fields to capture disease-specific measures such as head-up-angle and day-to-day symptom status."
+  },
+  "Project ECHO": {
+    "label": "Project ECHO",
+    "category": "treatment",
+    "definition": "A provider-education model in which specialist clinicians train community practitioners on a complex specialty (here ME/CFS) through videoconference case-based mentoring, spreading specialist knowledge beyond the specialist clinic."
   }
 }
