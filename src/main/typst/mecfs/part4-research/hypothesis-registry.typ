@@ -5130,16 +5130,16 @@ This registry collects all hypotheses, speculations, open questions, and predict
 = Entries added 2026-08-10: Dedicated Sickness/Torpor Neural Circuits & Symptom Persistence
 
 #registry-entry(
-  [Neuroinflammation-Activated Dedicated Sickness and Torpor Neural Circuits Generate ME/CFS Core Symptoms],
+  [Neuroinflammation-Activated Dedicated Sickness and Torpor Neural Circuits — a Hypothesis for ME/CFS Symptom Generation],
   type: "H",
-  certainty: "0.45",
-  evidence: [Komaroff & Dantzer 2025 (Cell Reports Medicine) synthesize the sickness-behavior and torpor framework @KomaroffDantzer2025SymptomPersistence: dedicated neural circuits -- area postrema to brainstem (suppresses eating/drinking/movement), organum vasculosum to ventromedial preoptic area (appetite suppression, warmth seeking, fever), and median preoptic nucleus to torpor (hypometabolic, reduced ATP) -- are activated by neuroinflammation and generate stereotyped symptom bundles. The rodent circuits are well-established (raw 0.62 @Hrvatin2020TorporNeurons, @Machado2025PreopticSwitch) but application to chronic human ME/CFS is inferential (translation gap -> 0.31); review-level integration supports a 0.45 working hypothesis.],
-  citations: [@KomaroffDantzer2025SymptomPersistence @Hrvatin2020TorporNeurons @Machado2025PreopticSwitch],
-  mechanism: [Peripheral abnormalities (endothelial, autoantibody, mitochondrial, dysbiosis) and intrinsic neuroinflammation converge on microglial/astrocyte activation; neuroinflammation activates dedicated sickness/torpor circuits whose output is the ME/CFS symptom set (fatigue, cognitive slowing, malaise). A defective neural-circuit switch (preoptic EP3R two-way switch @Machado2025PreopticSwitch) could leave these circuits chronically engaged, sustaining symptoms.],
-  chapter-ref: [ch18: @hyp:ch15-sickness-torpor-circuits; ch16: amplifier layer; ch07: torpor/hypometabolic switch],
-  prediction: [If a dedicated sickness/torpor circuit mediates ME/CFS fatigue and PEM, then neuroinflammation-sensitive functional imaging (TSPO-PET or task fMRI) of the area postrema, ventromedial preoptic area, and median preoptic nucleus should track symptom severity and rise with post-exertional provocation; interventions that quell neuroinflammation should reduce both circuit activation and symptoms. Absence of any circuit-specific imaging change with symptoms would falsify the dedicated-circuit (versus diffuse-inflammation) claim.],
-  treatment: [Research-stage only. Principal treatment implication is to target neuroinflammation directly (the hub activating these circuits); traditional anti-inflammatory drugs are predicted to be inadequate; novel anti-inflammatory/inflammasome-directed therapies under investigation. No ME/CFS dosing or efficacy data exist.],
-  limitation: [Circuits demonstrated in rodents; chronic human engagement not directly evidenced (translation gap). Review-based inference, not primary ME/CFS data. Severity applicability unknown. (Origin: /integrate-topic komaroff-dantzer-symptom-persistence.)],
+  certainty: "0.40",
+  evidence: [Komaroff & Dantzer 2025 (Cell Reports Medicine) propose the sickness-behavior and torpor framework @KomaroffDantzer2025SymptomPersistence: dedicated neural circuits -- area postrema to brainstem (suppresses eating/drinking/movement), organum vasculosum to ventromedial preoptic area (appetite suppression, warmth seeking, fever), and median preoptic nucleus to torpor (hypometabolic) -- are activated by neuroinflammation and generate stereotyped symptom bundles. The rodent circuits are well-established @Hrvatin2020TorporNeurons, @Machado2025PreopticSwitch, but application to chronic human ME/CFS is inferential and rests on a single review by the framework's originator, with no independent ME/CFS-cohort evidence; multiple rival readings (deconditioning, neural plasticity, the model not extending to inflammation-negative patients) are not currently distinguished.],
+  citations: [@KomaroffDantzer2025SymptomPersistence @Hrvatin2020TorporNeurons @Machado2025PreopticSwitch @Tuomaala2026TSPOLongCovid],
+  mechanism: [Neuroinflammation (whose presence in established ME/CFS is uncertain -- Omdal peripheral null, regional-not-global TSPO) could activate dedicated sickness/torpor circuits whose output is the ME/CFS symptom set. An important rival: the closest human neuroinflammatory data (limbic) do not correspond to the named area-postrema/preoptic circuits, so the human signal is indirect support at best.],
+  chapter-ref: [ch18: @hyp:ch15-sickness-torpor-circuits; ch18: @lim:torpor-circuits-constraints],
+  prediction: [The discriminating test must resolve a *specific* circuit (area-postrema→brainstem) tracking symptoms under a modality able to resolve millimeter-scale nuclei (ultra-high-field fMRI or higher-resolution tracers; current TSPO-PET cannot). Absence of any circuit-specific activation change with symptoms would falsify the dedicated-circuit (versus diffuse-inflammation or plasticity-maintained) claim. The neuroinflammation-input claim is separately refuted by consistent absence of neuroinflammatory signal in ME/CFS cohorts.],
+  treatment: [Research-stage. Principal implied target is neuroinflammation (existing anti-neuroinflammatory rationale unchanged); no new test or drug follows from the dedicated-circuit framing. No ME/CFS dosing or efficacy data.],
+  limitation: [Rodent-only circuits; zero direct human ME/CFS evidence; torpor-with-hypothermia phenotype not reproduced in ME/CFS; severity applicability unknown; all proposed tests research-only and unsuitable for severe patients. (Origin: /integrate-topic komaroff-dantzer-symptom-persistence.)],
 )
 
 #registry-entry(
@@ -5153,4 +5153,90 @@ This registry collects all hypotheses, speculations, open questions, and predict
   prediction: [If self-reinforcing vicious cycles sustain the illness, then (a) severity should correlate with the NUMBER of co-active abnormalities and bidirectional constraints, not any single marker; (b) therapies that break a single node should show partial but not complete remission; (c) residual unexplained variance should persist when any one abnormality is corrected. Falsified if correcting one specific abnormality reliably induces sustained remission in a substantial fraction of patients.],
   treatment: [Research-stage frame; argues for combination/multi-target strategies and for monitoring multiple abnormality axes. No specific clinical dosing recommendation.],
   limitation: [Integrative/synthesis claim (review), not a single testable primary finding; the closed-loop structure is inferred, not measured directly. Severity applicability unknown. (Origin: /integrate-topic komaroff-dantzer-symptom-persistence.)],
+)
+
+= Entries added 2026-08-10: Peripheral Blood Methylome as Long COVID vs ME/CFS Distinguishing Signature
+
+#registry-entry(
+  [Peripheral Blood Methylome Distinguishes Long COVID from ME/CFS While Sharing a Common Epigenetic Core],
+  type: "S",
+  certainty: "0.52",
+  evidence: [Peppercorn et al. 2025 (RRBS of PBMCs, n=5 ME/CFS / n=5 Long COVID / n=5 HC, age/sex-matched, University of Otago) — ME/CFS 214 DMFs vs HC (145 hyper / 69 hypo), Long COVID 429 DMFs (281 hyper / 148 hypo); 118 DMFs shared with Pearson R=0.88; 26 of 118 differ by more than 10% between the two conditions; 6 show opposite-direction methylation @Peppercorn2025methylation. Single lab, small n, no independent replication (raw 0.52 discounted unchanged for ME/CFS population, weight 1.00).],
+  citations: [@Peppercorn2025methylation],
+  mechanism: [PBMC DNA methylation across ME/CFS and Long COVID share a common epigenetic core (Pearson R=0.88 on shared DMFs) yet retain condition-specific sites, of which six show opposite-direction changes; LC shows more abundant methylation changes, consistent with earlier disease stage (LC ~1 yr vs ME/CFS ~12 yr) or SARS-CoV-2-specific effects. PCA separates the three cohorts into distinct clusters.],
+  chapter-ref: [ch14d cross-disease: @spec:methylene-mecfs-longcovid-distinguish; ch19: @spec:methylation-loss-consolidation; ch55: @oq:consolidation-directionality],
+  prediction: [A stage-matched, larger (n≥50/group) methylation study with LC and ME/CFS at comparable time-from-onset should (i) reproduce the Pearson R=0.88 shared-makeup relationship, (ii) shrink the LC-vs-ME/CFS DMF amplitude gap when stage is matched, and (iii) determine whether the six opposite-direction DMFs replicate as condition-specific or collapse with stage matching. Falsified if stage-matched cohorts show no reproducible condition-specific DMFs.],
+  treatment: [None yet — a diagnostic/differential-stratification hypothesis, not a treatment target. If the six opposite-direction DMFs replicate, they could support a blood-based test distinguishing LC from ME/CFS, but this is research-stage and unvalidated.],
+  limitation: [Small n (5/5/5), single lab, no independent replication, cross-sectional (no directionality), PBMC proxy not tissue; stage mismatch (LC 1 yr vs ME/CFS 12 yr) confounds condition-specific vs time-from-onset attribution; opposite-direction DMFs not validated for diagnosis. Severity applicability unknown. (Origin: /integrate-topic peppercorn-methylation-landscapes.)],
+)
+
+= Entries added 2026-08-10: EP3R Stuck-Switch & Area-Postrema Gate (Komaroff-Dantzer re-run)
+
+#registry-entry(
+  [The EP3R "Stuck Switch" — a Candidate (Unproven) Nervous-System Persistence Mechanism],
+  type: "S",
+  certainty: "0.25",
+  evidence: [Preoptic EP3 receptor neurons act as a two-way switch routing between fever (hypermetabolic) and torpor-like (hypometabolic) states in rodents @Machado2025PreopticSwitch. A speculation that a persistent (post-washout) failure of that switch could maintain a low-energy state without ongoing neuroinflammation -- offered as a partial reading of the Omdal null @KomaroffDantzer2025SymptomPersistence. Restates persistence in circuit vocabulary; no EP3R latch or desensitization demonstrated in any species or in ME/CFS (zero direct human evidence).],
+  citations: [@Machado2025PreopticSwitch @KomaroffDantzer2025SymptomPersistence],
+  mechanism: [Candidate lesion (EP3R desensitization, biased signaling, fever-arm failure) could leave the brain switch in an energy-conserving position; a simpler rival reading is that the sickness-behavior model simply does not extend to inflammation-negative patients, whose symptoms may have a different cause.],
+  chapter-ref: [ch18: @spec:ep3r-stuck-switch],
+  prediction: [Discriminating test is a reversible latch: transient PGE2 that persists as torpor output after ligand washout (bistability) in rodents; in humans, a maintained low defended temperature set-point with acute disengageability. PBMC EP3R is excluded as a CNS proxy. Falsified if no persistent reversible latch is demonstrable under washout, or no maintained set-point with acute disengageability in ME/CFS.],
+  treatment: [Research/hypothesis-generation only. No switch-resetting intervention exists or is in trials; no clinical recommendation.],
+  limitation: [Rodent-only; zero direct human evidence; torpor-with-hypothermia phenotype not reproduced in ME/CFS; not severity-stratified. (Origin: /integrate-topic komaroff-dantzer-symptom-persistence -- brainstorm re-run.)],
+)
+
+#registry-entry(
+  [Area Postrema Autoantibody × GLP-1 Gate — an Untested Cross-Reactivity Hypothesis],
+  type: "S",
+  certainty: "0.20",
+  evidence: [The area postrema is both a route for circulating GPCR autoantibody access to brainstem nuclei and a dense GLP-1 receptor region @Azcue2026GPCRautoAbs @KomaroffDantzer2025SymptomPersistence. The interference step requires an explicit, unsupported premise that ME/CFS GPCR autoantibodies (literature targets include adrenergic/muscarinic receptors) cross-react with or sterically impede GLP-1 receptors -- no such cross-family interaction has been shown. Co-location of two facts does not by itself entail an interaction.],
+  citations: [@Azcue2026GPCRautoAbs @KomaroffDantzer2025SymptomPersistence],
+  mechanism: [If (unsupported premise) GPCR autoantibodies interfered with GLP-1 receptor signaling at the area postrema, they could blunt GLP-1-dependent anti-inflammatory signaling and help sustain neuroinflammation. A simpler established mechanism (agonistic autoantibodies acting on their own receptors) already explains part of the autonomic symptom profile.],
+  chapter-ref: [ch18: @spec:area-postrema-gpcr-glp1-gate],
+  prediction: [Decisive test: purified ME/CFS patient IgG vs controls in competitive binding against labeled GLP-1 on area-postrema membranes. If no displacement, the competitive-interference claim is falsified. Clinical predictions (blunted GLP-1-induced nausea; stratified GLP-1-RA response) are confounded by vagal dysfunction/dysautonomia and cannot stand alone.],
+  treatment: [Not a prescribing recommendation. No GLP-1-RA use in ME/CFS is trial-supported; GPCR-autoantibody testing is research-only; GLP-1 RAs risk reduced intake/weight loss and nausea-driven orthostatic worsening in comorbid POTS and severe ME/CFS.],
+  limitation: [Cross-reactivity premise untested and mechanistically unmotivated; GPCR-autoantibody findings contested and single-source; not severity-stratified. (Origin: /integrate-topic komaroff-dantzer-symptom-persistence -- brainstorm re-run.)],
+)
+
+= Entries added 2026-08-10: Plasma-Cell Targeting (Daratumumab) Update — LLPC Source & NK-Depletion Limit
+
+#registry-entry(
+  [Viral dUTPase drives the TFH/activin-A axis that generates the antibody-secreting plasma cells daratumumab depletes],
+  type: "H",
+  certainty: "0.65",
+  evidence: [EBV/HHV-6A dUTPases enhance TFH-cell differentiation and extrafollicular activities in ME/CFS, with ME/CFS patients showing elevated activin A and IL-21 correlating with anti-viral-dUTPase antibodies; EBV dUTPase induced marginal-zone B and invariant NKT-FH expansion in mouse spleen @Cox2022dUTPaseMECFS. Raw 0.65 (ME/CFS cohort, peer-reviewed, partially replicated via later dUTPase-antibody findings), discounted unchanged at weight 1.00.],
+  citations: [@Cox2022dUTPaseMECFS],
+  mechanism: [Persistent herpesvirus reactivation (via dUTPase, an early lytic protein) diverges the germinal-center response toward activin A/IL-21-driven extrafollicular antibody output, plausibly generating CD38+ long-lived plasma cells (LLPCs) that continue secreting pathogenic autoantibodies independent of ongoing B-cell cycling -- the cell type rituximab (CD20+) spares but daratumumab (anti-CD38) deletes @Cox2022dUTPaseMECFS.],
+  chapter-ref: [ch33 sec-12 Daratumumab (Anti-CD38); ch19: @hyp:plasma-cell-sanctuary; ch32 sec-02h origin-elimination],
+  prediction: [If this mechanism holds, long-lived autoantibody-producing cells in ME/CFS should be CD38+ and CD20−, and their depletion (daratumumab) should produce a sustained drop in the offending autoantibody titers with a response latency matching antibody decay (8--9 mo), as observed in the pilot. Falsified if daratumumab responders show no fall in the candidature autoantibody, or if non-responders retain elevated titers with intact CD38+ plasma cells.],
+  treatment: [Research-stage only. Narrows the humoral-autoimmunity target to the CD38+ long-lived plasma cell and supports plasma-cell-directed agents (daratumumab) over B-cell depletion in the autoantibody-positive subgroup; none of this is a prescribing recommendation.],
+  limitation: [Direct dUTPase→LLPC causality not experimentally proven (mouse used EBV dUTPase only); TFH/activin-A axis not independently replicated; dUTPase antibodies could reflect reactivation rather than steady-state LLPC output; not severity-stratified. NK data (Ray 2026) constrain any planned depletion by warning that CD38+ NK co-deletion may blunt response in already-NK-poor patients @Ray2026nkLongCOVID. (Origin: /integrate-topic daratumumab update.)],
+)
+
+= Entries added 2026-08-10: Biofabricated 3D Skeletal Muscle & Circulating Serum Factor
+
+#registry-entry(
+  [A circulating serum factor in ME/CFS and Long COVID reproduces a biphasic muscle metabolic phenotype in otherwise-healthy biofabricated tissue],
+  type: "H",
+  certainty: "0.26",
+  evidence: [Healthy 3D biofabricated skeletal muscle exposed in vitro to ME/CFS and Long COVID patient sera shows up-regulated glycolysis, mitochondrial hyperfusion, elevated oxygen consumption early, then contractile weakness and toroidal mitochondrial fragmentation by 96--144 h @Mughal20253dMuscleSera. The serum-transfer phenomenon has prior support across models @Fluge2016PDH @Schreiner2020HHV6MitoME @Appelman2024MusclePEM; anti-mitochondrial antibodies are excluded as the mediator @Nilsson2020NoMitoAb. Raw 0.65, discounted 0.26 by in-vitro population weight 0.40.],
+  citations: [@Mughal20253dMuscleSera @Fluge2016PDH @Schreiner2020HHV6MitoME @Appelman2024MusclePEM @Nilsson2020NoMitoAb],
+  mechanism: [A serum-borne mediator (candidate classes: cytokines, HHV-6 microRNA, exosomes, viral fragments) drives pyruvate dehydrogenase impairment and a compensatory glycolytic/hypermetabolic adaptation that decompensates into mitochondrial fragmentation and reduced contractile capacity -- reproducing in isolated healthy muscle the glycolytic shift documented in patient biopsies, independent of deconditioning, neural outflow, or vascular factors.],
+  chapter-ref: [ch20 Family 17: @hyp:serum-factor-biphasic-muscle; ch07 sec-21: @oq:muscle-trap-hyper-vs-hypometabolic],
+  prediction: [Depleting or neutralizing the putative serum factor (immunoadsorption, specific cytokine/exosome blockade) should prevent or reverse the derangement -- attenuated glycolysis, preserved mitochondrial integrity -- in the 3D model, and measurably reduce post-exertional muscle fatigue if translatable. Falsified if patient sera no longer induce the biphasic response with the factor removed.],
+  treatment: [Not a prescribing recommendation. Identifies the circulating mediator as a research target (immunoadsorption, cytokine blockade) that is still preclinical; no clinical mitigation is established.],
+  limitation: [Anchor finding is single in-vitro study (unpopulated; not independently replicated); not severity-stratified; mediator identity unknown; in-vitro population weight 0.40 caps clinical relevance. (Origin: /integrate-topic biofabrication-mughal-3d-muscle-cfs-sera.)],
+)
+
+#registry-entry(
+  [Biofabricated 3D skeletal muscle as a functional ex-vivo assay for serum-borne muscle pathology],
+  type: "S",
+  certainty: "0.28",
+  evidence: [A validated 3D biofabrication platform has been used to expose healthy muscle to patient sera and produce a mechanistic metabolic readout @Mughal20253dMuscleSera, built on platform validation in Duchenne MD and drug screening @FernandezGaribay2022XenoMuscle. Raw 0.70, discounted 0.28 by in-vitro population weight 0.40.],
+  citations: [@Mughal20253dMuscleSera @FernandezGaribay2022XenoMuscle],
+  mechanism: [If the biphasic serum response is reproducible and patient-specific, the biofabricated tissue provides a medium-throughput functional endophenotype -- a measurable readout of whether an individual's serum impairs muscle metabolism -- usable to screen candidate circulating mediators and modulators before animal or human trials.],
+  chapter-ref: [ch20: @spec:3d-biofab-muscle-platform],
+  prediction: [A blinded cohort of ME/CFS, Long COVID, and healthy sera should yield a biphasic muscle response that is significantly more frequent/severe in patient versus control sera and correlates with reported PEM or fatigue severity.],
+  treatment: [Research tool only; not a therapeutic proposal.],
+  limitation: [Diagnostic utility, inter-lab reproducibility, and correlation with clinical severity are unproven; lacks neural/immune/vascular context; not severity-stratified. (Origin: /integrate-topic biofabrication-mughal-3d-muscle-cfs-sera.)],
 )

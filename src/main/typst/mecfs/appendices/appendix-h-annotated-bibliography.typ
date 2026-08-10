@@ -13807,6 +13807,27 @@ deficiency, supporting a pharmacological rather than replacement rationale.
     *Limitations:*: Cross-sectional design (no causal proof); small n (54 vs 21); saliva proxy (not blood or brain tissue); sex-stratified subanalyses are exploratory; PHB2-miR-153-3p mechanism is a proposed model, not directly demonstrated in this study.
     *Certainty:*: 0.47
 
+=== Peppercorn et al.\ 2025 --- DNA Methylation Landscapes in ME/CFS vs Long COVID PBMCs
+
+    @Peppercorn2025methylation
+
+    *Full Citation:*: Peppercorn K, Sharma S, Edgar CD, Stockwell PA, Rodger EJ, Chatterjee A, Tate WP. "Comparing DNA Methylation Landscapes in Peripheral Blood from Myalgic Encephalomyelitis/Chronic Fatigue Syndrome and Long COVID Patients." _International Journal of Molecular Sciences_. 2025;26(14):6631.
+    *DOI:*: #link("https://doi.org/10.3390/ijms26146631")[10.3390/ijms26146631]
+    *PMID:*: 40724879
+    *PMCID:*: PMC12294161
+    *Published:*: July 10, 2025
+    *Study Design:*: Comparative cross-sectional RRBS (reduced representation bisulphite sequencing) of PBMC DNA from age/sex-matched cohorts: n=5 ME/CFS, n=5 Long COVID (LC), n=5 healthy controls. University of Otago.
+    *Key Findings:*:
+        - ME/CFS: 214 differentially methylated fragments (DMFs) vs HC (>10 % methylation difference, p < 0.05); 145 hypermethylated, 69 hypomethylated (67.8 % hypermethylation dominant).
+        - Long COVID: 429 DMFs vs HC (281 hypermethylated, 148 hypomethylated) — LC shows more abundant methylation changes than ME/CFS.
+        - 118 DMFs common to both cohorts (Pearson R = 0.88), indicating a largely shared epigenetic makeup; 26 of 118 show >10 % methylation difference between the two disease cohorts and 6 show opposite-direction changes.
+        - PCA separates ME/CFS, LC, and HC into three distinct clusters; global methylomes otherwise similar across chromosomes except sex chromosomes.
+        - Promoter/exon DMFs mainly hypermethylated; 12 promoter and 6 exon DMFs linked to genes (e.g., LGALS3, CHD7, STAT5A, ABCA7) relevant to immune and metabolic function.
+        - 6 of 26 divergent DMFs show opposite-direction methylation between LC and ME/CFS (five hypermethylated in LC but hypomethylated in ME/CFS; one the reverse) — potential disease-specific signatures.
+    *Conclusion:*: Documents a generally shared epigenetic makeup between ME/CFS and Long COVID with specific, distinct methylation changes. Differences likely reflect disease stage (LC ~1 year vs ME/CFS ~12 years from onset) or SARS-CoV-2-specific effects. Establishes the comparative methylome as a foundation for larger, stage-matched studies.
+    *Limitations:*: Very small n (5 per cohort); single lab (Otago, no independent replication); cross-sectional (no directionality); PBMC proxy, not tissue/brain; functional significance of DMFs not experimentally validated; stage mismatch (LC 1 yr vs ME/CFS 12 yr) confounds disease-specific vs time-from-onset attribution.
+    *Certainty:*: 0.52
+
 === Stabile et al.\ 2024 --- miR-153-3p Elevation Causes Short-Term Memory Deficits in Mice
 
     @Stabile2024mir153memory
@@ -33040,3 +33061,209 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - *Sample:*: 28 studies
         - *Replication:*: Reproducible finding, heterogeneous effect
         - *Score:*: 0.62
+
+=== Tuomaala et al.\ 2026 — TSPO-PET Glial Activation in Long COVID Limbic System
+    / *Full Citation:*: Tuomaala J, Saraste M, Smith E, Kuusi M, Westerberg E, Honkonen E, et al. Association between post-COVID-19 neuropsychiatric symptoms and persistent glial activation in the limbic system: a TSPO PET study. _J Neurol_. 2026;273(5):298. @Tuomaala2026TSPOLongCovid
+    / *DOI:*: #link("https://doi.org/10.1007/s00415-026-13842-w")[10.1007/s00415-026-13842-w]
+    / *PMID:*: 42059960
+    / *Study Design:*: Case-control TSPO-PET ([11C]PK11195) imaging study with 3T MRI; 14 LC, 11 healthy controls, 13 MS controls
+    / *Key Findings:*:
+        - Global TSPO availability (DVR) was NOT elevated in LC compared to HCs — a partial null that constrains the magnitude and spatial extent of neuroinflammation in LC
+        - Limbic TSPO DVR correlated with LC severity: lower quality of life associated with higher DVRs in hippocampus, amygdala, and thalamus (rho = –0.83 to –0.70)
+        - Depression and anxiety correlated positively with DVRs in hippocampus and amygdala (rho = 0.75–0.97)
+        - White-matter TSPO DVR was lower in individuals with longer LC duration (over 16 months vs. under 16 months), suggesting neuroinflammation may partially subside over time
+    / *Conclusion:*: Global neuroinflammation is not a uniform LC feature — but regional limbic glial activation is associated with symptom severity and neuropsychiatric burden, supporting a regionally-specific neuroinflammation→symptom model that aligns with the Komaroff-Dantzer 2025 neural-circuit hypothesis while constraining its spatial scope.
+    / *Limitations:*: Small sample (n=14 LC); single TSPO radioligand ([11C]PK11195 has lower signal-to-noise than second-generation TSPO tracers); cross-sectional; cannot establish causation; long-COVID only, no ME/CFS arm.
+     / *Certainty Assessment:*:
+         - *Quality:*: Medium (first TSPO-PET study in LC; small n but gold-standard imaging methodology)
+         - *Sample:*: n=38 total (14 LC, 11 HC, 13 MS)
+         - *Replication:*: Single study; no TSPO-PET replication in LC yet
+         - *Score:*: 0.50
+
+=== Mughal et al.\ 2025 — 3D Biofabricated Muscle Exposed to ME/CFS & LC Sera
+    / *Full Citation:*: Mughal S, Andújar-Sánchez F, Sabater-Arcis M, Garrabou G, Fernández-Solà J, Alegre-Martin J, Sanmartin-Sentañes R, Castro-Marrero J, Esteve-Codina A, Casals E, Fernández-Costa JM, Ramón-Azcón J. Metabolic adaptation and fragility in healthy 3D in vitro skeletal muscle tissues exposed to chronic fatigue syndrome and Long COVID-19 sera. _Biofabrication_. 2025;17(4). @Mughal20253dMuscleSera
+    / *DOI:*: #link("https://doi.org/10.1088/1758-5090/adf66c")[10.1088/1758-5090/adf66c]
+    / *PMID:*: 40744071
+    / *Study Design:*: In vitro — healthy 3D biofabricated human skeletal muscle tissues exposed to ME/CFS and Long COVID patient sera for 48h, 96h, and 144h. Transcriptomics, mitochondrial imaging, contractile force measurement. Barcelona mega-collaboration (IBEC, IDIBAPS, Hospital Clinic, Vall d'Hebron, CNAG).
+    / *Key Findings:*:
+        - Short exposure (48h): significant reduction in contractile strength; upregulated protein translation, glycolytic enzymes, calcium dysregulation, myotube hypertrophy, mitochondrial hyperfusion
+        - Elevated mitochondrial oxygen consumption in ME/CFS-exposed tissues — paradoxically high respiration during initial adaptation
+        - Prolonged exposure (96--144h): muscle fragility and weakness, mitochondria fragment into toroidal conformation
+        - Proposed hypermetabolic adaptation model: muscle initially adapts via glycolysis → prolonged exposure causes mitochondrial and structural deterioration
+        - First 3D in vitro skeletal muscle model for ME/CFS/LC; first evidence of transient metabolic adaptation in engineered muscle
+    / *Conclusion:*: Patient sera contain circulating factor(s) that induce a biphasic response in healthy muscle: initial adaptive glycolysis and hypermetabolism, followed by fragility and mitochondrial collapse. Suggests serum-borne mediators (cytokines, miRNA, exosomes, metabolites) drive muscle pathology independently of neural or vascular context.
+    / *Limitations:*: In vitro model (population weight 0.40); small and heterogeneous patient sera sample; no neural or vascular components in model; short exposure times (max 6 days); unblinded exposure; single muscle tissue architecture; no direct patient muscle biopsy comparison within study.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (novel methodology, rigorous multi-omics, but in vitro)
+        - *Sample:*: n=ME/CFS + LC sera (small, exact counts not in abstract)
+        - *Replication:*: Single study; no replication yet
+        - *Score:*: 0.26
+
+=== Appelman et al.\ 2024 — Muscle Abnormalities Worsen After PEM in Long COVID
+    / *Full Citation:*: Appelman B, Charlton BT, Goulding RP, Kerkhoff TJ, Breedveld EA, Noort W, Offringa C, Bloemers FW, van Weeghel M, Schomakers BV, Coelho P, Posthuma JJ, Aronica E, Joost Wiersinga W, van Vugt M, Wüst RCI. Muscle abnormalities worsen after post-exertional malaise in long COVID. _Nature Communications_. 2024;15:17. @Appelman2024MusclePEM
+    / *DOI:*: #link("https://doi.org/10.1038/s41467-023-44432-3")[10.1038/s41467-023-44432-3]
+    / *PMID:*: 38177128
+    / *Study Design:*: Longitudinal case-control (NCT05225688). n=25 Long COVID, n=21 healthy controls. Vastus lateralis biopsies before and after maximal exercise test. Metabolomics, histopathology, electron microscopy. Wüst lab, Vrije Universiteit Amsterdam.
+    / *Key Findings:*:
+        - Skeletal muscle structure associated with lower exercise capacity in Long COVID
+        - Local and systemic metabolic disturbances in patient muscle
+        - Severe exercise-induced myopathy after PEM induction — muscle damage not present at rest appears after exertion
+        - Tissue infiltration of amyloid-containing deposits in skeletal muscle — novel finding
+        - Glycolytic fiber type shift away from oxidative metabolism
+    / *Conclusion:*: PEM involves acute structural damage to skeletal muscle with amyloid deposition and metabolic decompensation. Exercise intolerance is not simply deconditioning — it reflects active tissue pathology.
+    / *Limitations:*: Long COVID only (no ME/CFS arm); single exercise bout; biopsy site may not represent whole-body muscle; cross-sectional temporal sampling.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (Nature Communications, rigorous design)
+        - *Sample:*: n=46 (25 LC + 21 HC)
+        - *Replication:*: Consistent with prior muscle biopsy findings; Wüst lab replication series ongoing
+        - *Score:*: 0.68
+
+=== Fluge et al.\ 2016 — Impaired Pyruvate Dehydrogenase in ME/CFS
+    / *Full Citation:*: Fluge Ø, Mella O, Bruland O, Risa K, Dyrstad SE, Alme K, Rekeland IG, Sapkota D, Røsland GV, Fosså A, et al. Metabolic profiling indicates impaired pyruvate dehydrogenase function in myalgic encephalopathy/chronic fatigue syndrome. _JCI Insight_. 2016;1(21):e89376. @Fluge2016PDH
+    / *DOI:*: #link("https://doi.org/10.1172/jci.insight.89376")[10.1172/jci.insight.89376]
+    / *PMID:*: 28018972
+    / *Study Design:*: Serum metabolomics (n=200 ME/CFS, 102 HC) + in vitro myoblast culture in patient serum + PBMC gene expression. Haukeland University Hospital, Bergen.
+    / *Key Findings:*:
+        - Specific reduction of amino acids fueling TCA cycle (mainly female patients); elevated 3-methylhistidine (protein catabolism) in males
+        - Functional PDH impairment via increased PDK1/2/4, SIRT4, PPARδ mRNA expression
+        - Myoblasts cultured in severe ME/CFS serum: increased mitochondrial respiration, excessive lactate secretion
+        - First serum-transfer-to-muscle-cell experiment in ME/CFS literature
+    / *Conclusion:*: A circulating serum factor in ME/CFS impairs PDH function, shifting muscle metabolism toward glycolysis with compensatory mitochondrial hyperactivation. This is the methodological precursor to Mughal 2025.
+    / *Limitations:*: Myoblasts (2D culture, not mature myotubes); serum factor identity unknown; moderate correlational design; PDH impairment inferred from amino acid patterns + mRNA, not direct enzymatic assay.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium-High (large n, multi-method, but 2D in vitro component)
+        - *Sample:*: n=302 (200 ME/CFS + 102 HC)
+        - *Replication:*: Partially replicated (Fernandez-Guerra 2021, Tomas 2017); PDH finding consistent with other metabolic studies
+        - *Score:*: 0.52
+
+=== Charlton et al.\ 2025 — Skeletal Muscle Adaptations & PEM Review
+    / *Full Citation:*: Charlton BT, Goulding RP, Jaspers RT, Appelman B, van Vugt M, Wüst RCI. Skeletal muscle adaptations and post-exertional malaise in long COVID. _Trends in Endocrinology & Metabolism_. 2025;36(7):614--622. @Charlton2025MusclePEMReview
+    / *DOI:*: #link("https://doi.org/10.1016/j.tem.2024.11.008")[10.1016/j.tem.2024.11.008]
+    / *PMID:*: 39694730
+    / *Study Design:*: Opinion/review article from Wüst lab (Amsterdam/Vrije Universiteit).
+    / *Key Findings:*:
+        - Mitochondrial dysfunction, endothelial abnormalities, glycolytic fiber type shift as main contributors to reduced exercise capacity in Long COVID
+        - Rapid skeletal muscle tissue damage and intramuscular immune cell infiltration contribute to PEM
+        - Metabolic shift toward glycolysis (away from OXPHOS) is central to post-exertional symptom worsening
+        - Bridges Appelman 2024 with emerging metabolic adaptation concept
+    / *Conclusion:*: PEM pathophysiology involves multiple interacting mechanisms — mitochondrial, endothelial, and immunological — converging on skeletal muscle. Glycolytic shift is a maladaptive compensation, not a primary defect.
+    / *Limitations:*: Opinion/review (no new data); Long COVID focus (may not fully generalize to ME/CFS without viral trigger).
+    / *Certainty Assessment:*:
+        - *Quality:*: Low-Medium (opinion piece with expert synthesis)
+        - *Sample:*: N/A (review)
+        - *Replication:*: N/A
+        - *Score:*: 0.36
+
+=== Schreiner et al.\ 2020 — HHV-6 Reactivation & Mitochondrial Fragmentation in ME/CFS
+    / *Full Citation:*: Schreiner P, Harrer T, Scheibenbogen C, Lamer S, Schlosser A, Naviaux RK, Prusty BK. Human Herpesvirus-6 Reactivation, Mitochondrial Fragmentation, and the Coordination of Antiviral and Metabolic Phenotypes in ME/CFS. _Immunohorizons_. 2020;4(4):201--215. @Schreiner2020HHV6MitoME
+    / *DOI:*: #link("https://doi.org/10.4049/immunohorizons.2000006")[10.4049/immunohorizons.2000006]
+    / *PMID:*: 32327453
+    / *Study Design:*: In vitro — U2-OS cells with chromosomally integrated HHV-6A ± reactivation (trichostatin-A). Supernatant adoptive transfer to naive A549 cells. Adoptive transfer of serum from 10 ME/CFS patients to naive cells. Proteomics (pSILAC).
+    / *Key Findings:*:
+        - HHV-6 reactivation → mitochondrial fragmentation, PDH inhibition, 1-carbon metabolism induction, SOD2 suppression
+        - Supernatant adoptive transfer → antiviral state in naive cells preventing influenza/HSV-1 superinfection
+        - ME/CFS patient serum adoptive transfer → same mitochondrial fragmentation + antiviral state in naive cells
+        - Cell danger response model: antiviral protection at cost of compromised energy metabolism
+    / *Conclusion:*: A serum-borne factor from ME/CFS patients — potentially HHV-6 miRNA or viral fragments — transfers a metabolic phenotype (mitochondrial fragmentation, PDH suppression, antiviral state) to healthy cells. This directly demonstrates that serum carries the metabolic pathology.
+    / *Limitations:*: In vitro model (population weight 0.75 for patient serum transfer); n=10 ME/CFS sera (small); HHV-6 connection correlational in patient sera; U2-OS cells are osteosarcoma-derived, not muscle.
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (innovative design, but small n and cancer cell line)
+        - *Sample:*: n=10 ME/CFS sera
+        - *Replication:*: Consistent with Hennig 2022 (HHV-6 miR-aU14 causing DRP1 mitochondrial fragmentation)
+        - *Score:*: 0.41
+
+=== Nilsson et al.\ 2020 — No Anti-Mitochondrial Antibodies in ME/CFS (NULL)
+    / *Full Citation:*: Nilsson I, Palmer J, Apostolou E, Gottfries CG, Rizwan M, Dahle C, Rosén A. Metabolic Dysfunction in ME/CFS Not Due to Anti-Mitochondrial Antibodies. _Frontiers in Medicine_. 2020;7:108. @Nilsson2020NoMitoAb
+    / *DOI:*: #link("https://doi.org/10.3389/fmed.2020.00108")[10.3389/fmed.2020.00108]
+    / *PMID:*: 32296708
+    / *Study Design:*: Cross-sectional antibody screening. n=161 ME/CFS, 15 PBC (positive control), 14 fibromyalgia, 29 MS, 44 healthy blood donors. Linköping University.
+    / *Key Findings:*:
+        - Only 1/161 ME/CFS positive for anti-PDC antibodies (vs 15/15 PBC patients)
+        - Anti-mitochondrial antibodies (inner/outer membrane) negative in ME/CFS
+        - Anti-cardiolipin antibody levels not significantly different from HC
+    / *Conclusion:*: The metabolic/mitochondrial dysfunction observed in ME/CFS cannot be explained by circulating anti-mitochondrial autoantibodies. The serum factor is something else — cytokines, metabolites, miRNA, exosomes, or viral particles.
+    / *Limitations:*: Only tested a limited panel of mitochondrial antigens; does not exclude antibodies against other mitochondrial epitopes; cross-sectional (cannot rule out transient autoantibody production).
+    / *Certainty Assessment:*:
+        - *Quality:*: Medium (well-powered null study, but limited antigen panel)
+        - *Sample:*: n=161 ME/CFS
+        - *Replication:*: Consistent with Germain 2025 (comprehensive autoantibody profiling null)
+        - *Score:*: 0.47
+
+=== Fernández-Garibay et al.\ 2022 — Xeno-Free 3D Bioengineered Muscle Platform
+    / *Full Citation:*: Fernández-Garibay X, Gómez-Florit M, Domingues RMA, Gomes ME, Fernández-Costa JM, Ramón-Azcón J. Xeno-free bioengineered human skeletal muscle tissue using human platelet lysate-based hydrogels. _Biofabrication_. 2022;14(4). @FernandezGaribay2022XenoMuscle
+    / *DOI:*: #link("https://doi.org/10.1088/1758-5090/ac8dc8")[10.1088/1758-5090/ac8dc8]
+    / *PMID:*: 36041422
+    / *Study Design:*: Methodological — development and validation of xeno-free human platelet lysate (HUgel) hydrogel platform for 3D skeletal muscle tissue engineering. IBEC/Barcelona (Ramón-Azcón lab).
+    / *Key Findings:*:
+        - Human platelet lysate-based hydrogels with aldehyde-cellulose nanocrystals as xeno-free scaffold
+        - Tunable mechanical, structural, and biochemical properties for 3D stem cell culture
+        - Formation of highly aligned, long myotubes expressing sarcomeric proteins
+        - Electrical stimulation capability with non-invasive contractile force measurement
+        - This is the foundational platform technology used in Mughal 2025
+    / *Conclusion:*: The IBEC group's muscle-on-a-chip platform is validated for disease modeling and drug screening. The technology readiness supports Mughal 2025's application to ME/CFS/LC sera.
+    / *Limitations:*: Methodological paper (no disease application); hydrogel properties may not fully recapitulate native ECM; in vitro only.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (rigorous engineering validation)
+        - *Sample:*: N/A (methodology)
+        - *Replication:*: Platform used in multiple subsequent papers (Tejedera-Villafranca 2023, Ruiz-Gutiérrez 2025, Mughal 2025)
+        - *Score:*: 0.28
+
+=== Fernandez-Guerra et al.\ 2021 — PBMC Bioenergetics & PDH Proteomics in ME/CFS
+    / *Full Citation:*: Fernandez-Guerra P, Gonzalez-Ebsen AC, Boonen SE, Courraud J, Gregersen N, Mehlsen J, Palmfeldt J, Olsen RKJ, Brinth LS. Bioenergetic and Proteomic Profiling of Immune Cells in ME/CFS Patients: An Exploratory Study. _Biomolecules_. 2021;11(7):961. @FernandezGuerra2021PBMCmito
+    / *DOI:*: #link("https://doi.org/10.3390/biom11070961")[10.3390/biom11070961]
+    / *PMID:*: 34209852
+    / *Study Design:*: Exploratory case-control. n=6 ME/CFS, age/gender-matched controls. PBMC bioenergetics (Seahorse extracellular flux analysis) + quantitative proteomics. Aarhus University.
+    / *Key Findings:*:
+        - PBMCs from ME/CFS patients showed significantly lower mitochondrial coupling efficiency
+        - Proteome alterations centred on pyruvate dehydrogenase (PDH) and coenzyme A metabolism
+        - Decreased capacity to provide adequate intracellular ATP levels
+        - Reinforces Fluge 2016 PDH impairment finding in immune cells (not just muscle)
+    / *Conclusion:*: PDH/metabolic impairment in ME/CFS is systemic — detectable in circulating immune cells, not restricted to skeletal muscle. Supports the concept that a circulating factor affects multiple cell types.
+    / *Limitations:*: Very small n=6; exploratory (not powered for firm conclusions); only PBMCs studied (not muscle); single time point.
+    / *Certainty Assessment:*:
+        - *Quality:*: Low (exploratory, n=6)
+        - *Sample:*: n=6 ME/CFS
+        - *Replication:*: Consistent with Fluge 2016 PDH findings
+        - *Score:*: 0.24
+
+=== Cox et al.\ 2022 — EBV/HHV-6A dUTPases Drive TFH Differentiation and LLPC Generation in ME/CFS
+
+    / *Full Citation:*: Cox BS, Alharshawi K, Mena-Palomo I, Lafuse WP, Ariza ME. EBV/HHV-6A dUTPases contribute to myalgic encephalomyelitis/chronic fatigue syndrome pathophysiology by enhancing TFH cell differentiation and extrafollicular activities. _JCI Insight_. 2022;7(11):e158193. @Cox2022dUTPaseMECFS
+    / *DOI:*: #link("https://doi.org/10.1172/jci.insight.158193")[10.1172/jci.insight.158193]
+    / *PMID:*: 35482424
+    / *Study Design:*: Cross-sectional human cohort (ME/CFS vs controls) + in vitro mechanistic + in vivo mouse model
+    / *Key Findings:*:
+        - ME/CFS patients have elevated activin A and IL-21 serum levels correlating with antibodies against EBV/HHV-6 dUTPases
+        - IL-21 elevated without concomitant CXCL13 increase → impaired germinal center function in ME/CFS
+        - ME/CFS serum sufficient to drive TFH cell differentiation via activin A-dependent mechanism
+        - EBV dUTPase induced marginal zone B cell and invariant NKT-FH cell expansion in mouse spleen
+        - Viral dUTPases strongly induced activin A secretion in vitro
+    / *Conclusion:*: EBV and HHV-6A dUTPases dysregulate germinal center activity and promote extrafollicular antibody responses in ME/CFS, potentially generating pathogenic long-lived plasma cells (LLPCs) via a TFH/activin A/IL-21 axis.
+    / *Relevance to Daratumumab:*: Provides the most direct mechanistic bridge from viral trigger → aberrant TFH activity → LLPC generation in ME/CFS. Explains why plasma-cell targeting (daratumumab, anti-CD38) could succeed where B-cell targeting (rituximab, anti-CD20) failed: the pathogenic autoantibody-producing cells may be CD20-negative, CD38-positive LLPCs generated during a dysregulated germinal center response. The elevated IL-21 without CXCL13 pattern suggests impaired GC function despite ongoing TFH differentiation — a signature of extrafollicular autoantibody production.
+    / *Limitations:*: Cohort size not specified in abstract for human arm; single-timepoint cross-sectional design; mouse model used EBV dUTPase only (not HHV-6A); direct causal link from dUTPase→LLPC generation not experimentally proven.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (JCI Insight; multi-level evidence: human serum, in vitro, mouse)
+        - *Sample:*: Human cohort (size unspecified in abstract) + in vitro + mouse
+        - *Replication:*: Partially supported by Williams/Cox/Ariza 2025 (heightened anti-dUTPase IgG in post-infectious ME/CFS); no independent replication of TFH/activin A axis
+        - *Score:*: 0.65
+
+=== Ray et al.\ 2026 — NK Cell Dysregulation Defines Long COVID Symptoms
+
+    / *Full Citation:*: Ray U, Schulze Selting A, Perera RP, Yang Z, Lysenkov V, Göpel S, Bitzer M, Salker MS, Ossowski S, Riess O, Casadei N, Singh Y. Dysregulated NK-cell gene expression defines the enduring symptoms of long COVID-19. _Frontiers in Immunology_. 2026;17:1720551. @Ray2026nkLongCOVID
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2026.1720551")[10.3389/fimmu.2026.1720551]
+    / *PMID:*: 41878441
+    / *Study Design:*: Cross-sectional multi-omics: plasma antibody/cytokine profiling (n=94 LTCS, 24 CONV, 66 HC), 14-color flow cytometry (n=23/6/9), scRNA-seq PBMCs (n=32/6/8)
+    / *Key Findings:*:
+        - LTCS patients had elevated anti-SARS-CoV-2 IgG titers but significantly REDUCED systemic cytokines (IFN-γ, TNF-α, IL-6, IL-10)
+        - Flow cytometry: marked depletion of CD56+CD16+ NK cells and CD56+CD3+ NKT cells
+        - scRNA-seq confirmed NK type I cell loss with upregulation of PDCD4, CHD1, CXCR4, SLC7A5 and downregulation of TGFBR3, RIPOR2, MBNL1
+        - Gene set enrichment: activation of circadian/translational programs; suppression of olfactory, neurotransmitter receptor, and GABA-gated ion-channel pathways
+        - Functional assays validated reduced NK-cell inflammatory capacity
+    / *Conclusion:*: Long COVID is characterized by systemic cytokine attenuation and quantitative/functional NK-cell deficit coupled to neurosensory pathway suppression, identifying an NK-centric neuroimmune axis.
+    / *Relevance to Daratumumab:*: Fluge 2025 identified low baseline NK-cell count as a significant predictor of NON-response to daratumumab in ME/CFS. Daratumumab itself depletes CD38+ NK cells (on-target effect). This study demonstrates that post-viral fatigue syndromes feature pre-existing NK depletion and dysfunction. If daratumumab further depletes already-compromised NK cells, this could paradoxically worsen immune surveillance — a potential mechanism explaining the non-responder pattern.
+    / *Limitations:*: Cross-sectional (no longitudinal data on NK recovery); long COVID only (not ME/CFS cohort); no mechanistic confirmation of NK→symptom causality.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (multi-omic design with orthogonal validation; Frontiers in Immunology, peer-reviewed)
+        - *Sample:*: n=94 LTCS + 24 CONV + 66 HC (antibody/cytokine); subset for deep phenotyping
+        - *Replication:*: Consistent with prior NK depletion findings in ME/CFS (Baraniuk 2024 meta-analysis); no direct replication of scRNA-seq signature yet
+        - *Score:*: 0.45 (discounted for Long COVID population, not ME/CFS)

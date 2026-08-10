@@ -805,3 +805,14 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | https://pubmed.ncbi.nlm.nih.gov/40724879/ | pubmed | 2026-08-10 | 2026-08-10 | appendix-h (new annotated entry); bib/genetics-epigenetics.bib (Peppercorn2025methylation, DOI accuracy check) — Peppercorn 2025 methylation landscapes ME/CFS vs LC |
+
+## Biofabrication 3D Muscle Mughal 2025 — ME/CFS & Long COVID Sera Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-10 | 14 queries: anchor paper Mughal 2025 (PMID 40744071), 3D muscle serum ME/CFS, Appelman 2024 Nat Commun, Fluge PDH, Schreiner HHV-6 serum transfer, Nilsson anti-mito Ab null, Fernandez-Guerra PBMC, Ramón-Azcón IBEC platform papers |
+| Google Scholar | 2026-08-10 | Mughal 2025 anchor confirmation + citation tracking |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://pubmed.ncbi.nlm.nih.gov/40744071/ | pubmed | 2026-08-10 | 2026-08-10 | ops/research/literature-summary-biofabrication-mughal-3d-muscle-cfs-sera-2026-08-10.md, ops/research/search-log-biofabrication-mughal-3d-muscle-cfs-sera-2026-08-10.md, bib/musculoskeletal.bib (6 entries), bib/immune.bib (1 entry), bib/energy-metabolism.bib (1 entry), appendix-h (8 annotated entries), ops/integration-guides/integration-guide-biofabrication-mughal-3d-muscle-cfs-sera.md — Mughal 2025 biofabrication 3D muscle serum model (8 papers) |
+| PubMed E-utilities API (14 queries, batch) | pubmed/eutils | 2026-08-10 | 2026-08-10 | 8 papers across musculoskeletal/immune/energy-metabolism bib + appendix-h |
