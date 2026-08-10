@@ -1,6 +1,10 @@
 
 
 
+## Version 7.12
+
+- *Deferred: post-acute ferritin/iron-trajectory ME/CFS conversion prediction* — insufficient evidence. The claim that post-acute (3–12 month) ferritin/TSAT/hepcidin *trajectories* predict post-COVID ME/CFS conversion requires a longitudinal iron-trajectory cohort, which does not currently exist (zero PubMed hits for a longitudinal iron-trajectory cohort predicting post-COVID ME/CFS/chronic-fatigue conversion). Existing iron-redox studies are cross-sectional. Recorded at `ops/deferred-topics.md` with reactivation threshold (≥2 papers with discounted certainty ≥0.40 on longitudinal post-acute iron trajectories → conversion). Recursive Gate-C topic from the hadidchi2025 cycle.
+
 ## Version 7.11
 
 - *BHC clinical operations model as a descriptive care-delivery example* ([Chapter 39 healthcare-systems-policy, specialist-clinic section, 1 new `====` descriptive sub-section; glossary.json, 2 new entries]): Documented the Bateman Horne Center's operational care-delivery architecture (membership-specialist clinic model, PCP-maintenance requirement, explicit chronic-opioid policy, ME/CFS-specific EMR customization with Good Day/Bad Day and head-up-angle tracking, Project ECHO-style provider education) as a concrete real-world example of how a leading U.S. Center of Excellence structures ME/CFS specialist care. Framed strictly as descriptive and unevaluated (per the chapter's existing `@oq:specialist-clinic-evidence` — zero comparative-effectiveness studies of specialist care models); not a validated care template or treatment claim. B-gate exploratory topic (single-institution website source; no peer-reviewed care-delivery-model literature). No new claims, no certainty bumps, no hypothesis/treatment content. _Motivated by:_ the paper's existing ch39 specialist-clinic section and the BHC exploratory scan (2026-07-23). _Clinical relevance:_ LOW — descriptive care-delivery example for health-system planners; not diagnostic or treatment. _Quality note:_ WEAK-EVIDENCE (descriptive, single-institution, unevaluated).
