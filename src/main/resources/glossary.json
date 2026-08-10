@@ -10077,6 +10077,41 @@
     "category": "anatomy",
     "definition": "A group of interconnected subcortical nuclei (caudate, putamen, globus pallidus, substantia nigra, subthalamic nucleus) that coordinate motor control, habit learning, and executive function. The basal ganglia are the primary target of anti-neuronal antibodies in PANS/PANDAS/Sydenham chorea; basal ganglia dysfunction also contributes to movement abnormalities and cognitive inflexibility in ME/CFS."
   },
+  "striatum": {
+    "label": "striatum",
+    "category": "anatomy",
+    "definition": "The largest structure of the basal ganglia, comprising the caudate nucleus, putamen, and nucleus accumbens. It integrates cortical, limbic, and dopaminergic input to mediate motor control, reward, and effort-based decision making; striatal dysfunction is implicated in the motivational and psychomotor symptoms of post-infectious ME/CFS and long COVID."
+  },
+  "putamen": {
+    "label": "putamen",
+    "category": "anatomy",
+    "definition": "A dorsal-striatum structure involved in motor control and habit learning, innervated by dopamine from the substantia nigra. Loss of dopaminergic input to the putamen produces movement slowing (bradykinesia); reduced putamen dopaminergic terminals in long COVID correlate with slower movement and longer task completion."
+  },
+  "caudate": {
+    "label": "caudate",
+    "category": "anatomy",
+    "definition": "A dorsal-striatum structure involved in motor control, learning, and memory/executive function. Dopaminergic loss in the caudate is associated with cognitive decline and word-finding difficulty in long COVID."
+  },
+  "substantia nigra": {
+    "label": "substantia nigra",
+    "category": "anatomy",
+    "definition": "A midbrain structure whose dopaminergic neurons project to the dorsal striatum (caudate/putamen) and control movement initiation. Degeneration of these neurons underlies Parkinson's disease; animal models show SARS-CoV-2 can invade the substantia nigra, raising the question of whether direct viral invasion contributes to dopaminergic-terminal loss in long COVID."
+  },
+  "ventral striatum": {
+    "label": "ventral striatum",
+    "category": "anatomy",
+    "definition": "The reward-associated portion of the striatum, centred on the nucleus accumbens, mediating motivation and effort-based decision making. Reduced dopaminergic terminals in the ventral striatum correlate with apathy in long COVID."
+  },
+  "apathy": {
+    "label": "apathy",
+    "category": "symptom",
+    "definition": "A reduction in motivation, interest, and goal-directed behaviour that is distinct from depression. In long COVID and post-infectious illness, apathy has been linked to reduced dopaminergic terminals in the ventral striatum."
+  },
+  "functional connectivity": {
+    "label": "functional connectivity",
+    "category": "measurement",
+    "definition": "A statistical measure of how correlated the fMRI (BOLD) activity of two brain regions is over time. Altered functional connectivity of dopaminergically targeting circuits indicates disrupted communication between brain regions, though it does not directly measure dopamine itself."
+  },
   "maternal immune activation": {
     "label": "maternal immune activation",
     "category": "pathway",

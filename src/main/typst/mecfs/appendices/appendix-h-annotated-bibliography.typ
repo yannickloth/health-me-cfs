@@ -27753,6 +27753,114 @@ sec-bib-rf-elevated-mecfs-duplicate
     *ME/CFS Relevance:*: Foundational precedent for inflammation-driven DA dysfunction producing identical symptoms to ME/CFS (apathy, motor slowing). Cytokine model directly applicable to ME/CFS neuroinflammatory hypothesis.
     *Certainty Assessment:*: - *Quality:* High (Arch Gen Psychiatry, PET methodology, controlled cytokine challenge) - *Score:* 0.68
 
+=== Mancini et al.\ 2023 — Dopamine Imbalance in Neuroinflammation Post-COVID
+
+    *Full Citation:*: Mancini M, Natoli S, Gardoni F, Di Luca M, Pisani A. Dopamine Transmission Imbalance in Neuroinflammation: Perspectives on Long-Term COVID-19. _Int J Mol Sci_. 2023;24(6):5618. @Mancini2023DAneuroinflammation
+    *DOI:*: #link("https://doi.org/10.3390/ijms24065618")[10.3390/ijms24065618]
+    *Study Design:*: Narrative review
+    *Key Findings:*:
+        - Proinflammatory cytokines, chemokines, and ROS disrupt DA homeostasis
+        - SARS-CoV-2-mediated neuroinflammation may impair nigrostriatal DAergic function
+        - Links neuroinflammation to α-synuclein pathology in DA neurons
+    *ME/CFS Relevance:*: Provides mechanistic bridge from the gliosis observed in Braga 2023/2025 to the DA terminal loss seen in Liu 2026.
+    *Certainty Assessment:*: - *Quality:* Medium (review, no original data) - *Score:* 0.55; discounted 0.47 (population weight 0.85, LC cohort)
+
+=== Meyer et al.\ 2022 — PET/SPECT Brain Imaging Systematic Review in COVID-19
+
+    *Full Citation:*: Meyer PT, Hellwig S, Blazhenets G, Hosp JA. Molecular Imaging Findings on Acute and Long-Term Effects of COVID-19 on the Brain: A Systematic Review. _J Nucl Med_. 2022;63(7):971--980. @MeyerPT2022PETbrainCOVID
+    *DOI:*: #link("https://doi.org/10.2967/jnumed.121.263085")[10.2967/jnumed.121.263085]
+    *Key Findings:*:
+        - Reversible frontoparietal hypometabolism in acute COVID-19
+        - Controversial findings in post-COVID syndrome: some studies show limbic/subcortical hypometabolism, others null
+        - Nigrostriatal integrity loss noted in sporadic post-COVID parkinsonism cases
+        - Critical methodological appraisal of imaging heterogeneity
+    *ME/CFS Relevance:*: Documents the imaging controversy that Liu 2026 resolves with direct VMAT2 measurement.
+    *Certainty Assessment:*: - *Quality:* High (J Nucl Med, systematic review, methodological critique) - *Score:* 0.65
+
+=== Lee et al.\ 2021 — TGF-β1 Induces Central Fatigue and Suppresses Striatal Dopamine
+
+    *Full Citation:*: Lee WK, Kim Y, Jang H, et al.\ Exogenous Transforming Growth Factor-β in Brain-Induced Symptoms of Central Fatigue and Suppressed Dopamine Production in Mice. _Int J Mol Sci_. 2021;22(5):2580. @Lee2021TGFbetaDopamine
+    *DOI:*: #link("https://doi.org/10.3390/ijms22052580")[10.3390/ijms22052580]
+    *Study Design:*: Animal model (C57BL/6 mouse)
+    *Key Findings:*:
+        - ICV TGF-β1 injection induced fatigue-like behaviors (FST immobility ↑, rotarod retention ↓, pain hypersensitivity, passive avoidance ↓)
+        - TGF-β1 suppressed tyrosine hydroxylase in VTA with striatal dopamine reduction
+        - TH suppression confirmed in SH-SY5Y human neuroblastoma cells
+    *ME/CFS Relevance:*: Reactive astrocytes release TGF-β; this provides direct causal evidence that gliosis → TGF-β → TH suppression → DA deficiency. Complements the gliosis findings in Braga 2023/2025.
+    *Certainty Assessment:*: - *Quality:* Medium (animal model, mechanistic) - *Score:* 0.50
+
+=== Song et al.\ 2021 — Myelophil Restores Striatal Dopamine in Reserpine-Induced ME/CFS Model
+
+    *Full Citation:*: Song JH, Won SK, Eom GH, et al.\ Improvement Effects of Myelophil on Symptoms of Chronic Fatigue Syndrome in a Reserpine-Induced Mouse Model. _Int J Mol Sci_. 2021;22(19):10199. @Song2021MyelophilDopamine
+    *DOI:*: #link("https://doi.org/10.3390/ijms221910199")[10.3390/ijms221910199]
+    *Study Design:*: Animal model (reserpine-induced ME/CFS mouse)
+    *Key Findings:*:
+        - Reserpine (VMAT2 inhibitor) produced depression, pain, and fatigue behaviors
+        - Myelophil restored striatal dopamine + serotonin, increased TH expression
+        - Reduced neuroinflammation (Iba1) and normalized TGF-β in brain
+    *ME/CFS Relevance:*: Reserpine is a direct VMAT2 blocker — the same transporter measured by Liu 2026. Demonstrates pharmacological reversibility of VMAT2 impairment → reduced DA → fatigue. Direct animal-model parallel to the human VMAT2 PET finding.
+    *Certainty Assessment:*: - *Quality:* Medium (animal model) - *Score:* 0.45
+
+=== Chang et al.\ 2024 — Spike Protein Causes α-Synuclein Aggregation in DA Neurons
+
+    *Full Citation:*: Chang MH, Park JH, Lee HK, Choi JY, Koh YH. SARS-CoV-2 Spike Protein 1 Causes Aggregation of α-Synuclein via Microglia-Induced Inflammation and Production of Mitochondrial ROS. _Biomedicines_. 2024;12(6):1223. @Chang2024SpikeAlphaSyn
+    *DOI:*: #link("https://doi.org/10.3390/biomedicines12061223")[10.3390/biomedicines12061223]
+    *Key Findings:*:
+        - S1 spike protein induced α-synuclein aggregation in BE(2)M-17 DA neurons via BV-2 microglial inflammation
+        - Spike + low-dose MPP+ synergistically boosted α-synuclein aggregation
+        - Metformin suppressed S1-induced inflammation and α-synucleinopathy
+    *ME/CFS Relevance:*: Links spike protein directly to DA neuron pathology. Suggests persistent spike protein (or viral reservoir) could drive ongoing α-synuclein aggregation → DA terminal vulnerability.
+    *Certainty Assessment:*: - *Quality:* Medium (in vitro + rodent) - *Score:* 0.50
+
+=== Pokharel et al.\ 2025 — SARS-CoV-2 Invades Substantia Nigra, Alters miR-330-5p
+
+    *Full Citation:*: Pokharel BR, Majumdar N, Williams F, et al.\ SARS-CoV-2 Infection of Substantia Nigra Pars Compacta Induces Expression of miR-330-5p at 10 Days Post-Infection. _J Gen Virol_. 2025;106(9):002149. @Pokharel2025SARS2SNpc
+    *DOI:*: #link("https://doi.org/10.1099/jgv.0.002149")[10.1099/jgv.0.002149]
+    *Key Findings:*:
+        - SARS-CoV-2 detected in SNpc at 10d post intranasal inoculation in K18-hACE2 mice
+        - Increased IL-1β, B1R, ADAM17; miR-330-5p significantly reduced
+        - ADAM17 confirmed as direct miR-330-5p target (luciferase assay)
+        - First direct evidence of SARS-CoV-2 tropism for dopaminergic cell body region
+    *ME/CFS Relevance:*: Demonstrates SARS-CoV-2 can reach the substantia nigra where DA cell bodies reside. miR-330-5p/ADAM17 axis may be a molecular pathway for post-infection DA neuron vulnerability.
+    *Certainty Assessment:*: - *Quality:* Medium (animal model, J Gen Virol) - *Score:* 0.55
+
+=== Chatterjee et al.\ 2024 — SARS-CoV-2 + MPTP Synergy in SN Neurodegeneration
+
+    *Full Citation:*: Chatterjee D, Kurup D, Smeyne RJ. Environmental Exposures and Familial Background Alter the Induction of Neuropathology and Inflammation after SARS-CoV-2 Infection. _bioRxiv_ (updated in _NPJ Parkinsons Dis_. 2025). 2024. @Chatterjee2024SARSMitoMPTP
+    *DOI:*: #link("https://doi.org/10.1038/s41531-025-00925-0")[10.1038/s41531-025-00925-0]
+    *Key Findings:*:
+        - SARS-CoV-2 synergized with subtoxic MPTP to induce SN neurodegeneration
+        - Effect rescued by vaccination in WT mice but not in G2019S LRRK2 mutants (mRNA vaccine)
+        - Gene-environment-virus interaction: infection alone insufficient; primes for toxic "second hit"
+    *ME/CFS Relevance:*: Explains why only some long COVID patients lose VMAT2 terminals — genetic background (e.g., LRRK2 variants) and environmental co-exposures may determine vulnerability. Relevant to ME/CFS heterogeneity.
+    *Certainty Assessment:*: - *Quality:* Medium (animal model, preprint updated to journal) - *Score:* 0.45
+
+=== Inderyas et al.\ 2026 — Dopaminergic FC Disruption in ME/CFS and Long COVID (7T fMRI)
+
+    *Full Citation:*: Inderyas M, Thapaliya K, Marshall-Gradisnik S, Barnden L. Distinct Functional Connectivity Patterns in Myalgic Encephalomyelitis and Long COVID Patients During Cognitive Fatigue: A 7 Tesla Task-fMRI Study. _J Transl Med_. 2026;24(1):236. @Inderyas2026DopaminergicFC
+    *DOI:*: #link("https://doi.org/10.1186/s12967-026-07708-y")[10.1186/s12967-026-07708-y]
+    *Study Design:*: 7T task-fMRI (Stroop), cross-sectional
+    *Sample Size:*: n=32 ME/CFS, n=19 LC, n=27 HC
+    *Key Findings:*:
+        - Reduced FC between nucleus accumbens (DA hub) and vermis in LC vs HC
+        - Reduced dopaminergic hippocampal-N.Acc. connectivity implies blunted motivation/cognition
+        - Caudate and amygdala FC correlated with cognitive symptom scores
+    *ME/CFS Relevance:*: First 7T fMRI evidence of dopaminergic circuit dysfunction in both ME/CFS and LC. Complements Liu 2026 structural VMAT2 finding with functional connectivity evidence. Direct ME/CFS cohort.
+    *Certainty Assessment:*: - *Quality:* Medium-high (7T fMRI, adequate n, both ME/CFS and LC) - *Score:* 0.60
+
+=== Taenzer et al.\ 2023 — Urine Metabolomics: DA Synthesis Disturbance in LC and ME/CFS
+
+    *Full Citation:*: Taenzer M, Löffler-Ragg J, Schroll A, et al.\ Urine Metabolite Analysis to Identify Pathomechanisms of Long COVID: A Pilot Study. _Int J Tryptophan Res_. 2023;16:11786469231220781. @Taenzer2023UrineMetabolomicsLC
+    *DOI:*: #link("https://doi.org/10.1177/11786469231220781")[10.1177/11786469231220781]
+    *Study Design:*: Cross-sectional urine metabolomics pilot
+    *Sample Size:*: n=25 LC, n=8 ME/CFS, n=8 HC
+    *Key Findings:*:
+        - Phenylalanine significantly lower in both LC and ME/CFS
+        - Dopamine and serotonin pathway metabolites deviated from reference ranges in many LC patients
+        - Fatigue associated with lower kynurenine, phenylalanine, and reduced Kyn/Trp ratio
+    *ME/CFS Relevance:*: Peripheral evidence of disturbed neurotransmitter precursor metabolism in both LC and ME/CFS — consistent with reduced DA synthesis capacity. Complements central (CSF) catecholamine findings from Aregawi 2026.
+    *Certainty Assessment:*: - *Quality:* Low-medium (pilot, n=8 ME/CFS, urine not CSF) - *Score:* 0.50
+
 === Klempner 2001 — Two Controlled Trials of Antibiotic Treatment in Persistent Lyme Disease
 
     *Full Citation:*: Klempner MS, Hu LT, Evans J, et al.\ Two controlled trials of antibiotic treatment in patients with persistent symptoms and a history of Lyme disease. _New England Journal of Medicine_. 2001;345(2):85--92. @Klempner2001LymeAbx

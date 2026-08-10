@@ -387,6 +387,17 @@ Prevents re-processing of already-integrated content.
 | https://pubmed.ncbi.nlm.nih.gov/38703861/ | pubmed | 2026-04-20 | — | bib/staging — Frye2024ASDmitochondria — ASD mitochondrial biomarkers meta-analysis 204 studies |
 | https://pubmed.ncbi.nlm.nih.gov/33603376/ | pubmed | 2026-04-20 | — | bib/staging — Kindgren2021hEDSadhd — ADHD/ASD prevalence in hEDS/HSD children Sweden |
 | https://pmc.ncbi.nlm.nih.gov/articles/PMC8847158/ | PMC | 2026-04-20 | — | bib/staging — Csecs2022hypermobility — joint hypermobility mediates neurodivergence–dysautonomia link |
+
+## Dopamine Nigrostriatal VMAT2 Long COVID Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-10 | 16 queries: primary Liu 2026 VMAT2 paper, VMAT2+dopamine+long COVID, dopamine+ME/CFS, nigrostriatal+fatigue, SARS-CoV-2+neuroinflammation+dopaminergic, dopamine transporter+ME/CFS, VMAT2+Parkinson biomarker, MAO-B inhibitor+fatigue, nigrostriatal+post-viral/post-infectious, Guedj+Beckman commentary (not found) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (16 queries, batch) | pubmed/eutils | 2026-08-10 | — | ops/research/literature-dopamine-nigrostriatal-long-covid-2026-08-10.md, ops/research/search-log-dopamine-nigrostriatal-long-covid-2026-08-10.md, bib/long-covid.bib, bib/neuroinflammation.bib, bib/treatments.bib, appendix-h — Dopamine nigrostriatal VMAT2 Long COVID literature (10 new papers + 7 pre-existing reused) |
+| https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(26)00222-7/fulltext | thelancet.com | 2026-08-10 | SKIP (403 paywall) | Primary Liu 2026 abstract obtained via PubMed E-utilities instead |
+| https://www.sciencealert.com (2 URLs) | sciencealert.com | 2026-08-10 | SKIP (404) | Both article URLs returned 404; secondary source not accessible |
 | https://pubmed.ncbi.nlm.nih.gov/40145613/ | pubmed | 2026-04-20 | — | bib/staging — BaezaVelasco2025autismEDS — autism–hypermobility–EDS systematic review meta-analysis |
 | https://pubmed.ncbi.nlm.nih.gov/26505533/ | pubmed | 2026-04-20 | — | bib/staging — Lau2015migraineCFS — migraine confers 1.5x CFS risk, Taiwan national cohort |
 | https://pubmed.ncbi.nlm.nih.gov/37123270/ | pubmed | 2026-04-20 | — | bib/staging — Wang2023migraineMito — energy metabolism disturbance migraine mitochondrial review |
