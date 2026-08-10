@@ -66,8 +66,8 @@
 - Various 2026 non-mechanistic pandemic-cohort papers: not mechanistically relevant.
 - White 2001 fibromyalgia, Maes 2011/2013 inflammation-depression: competing-mechanism framing; reviewed but not added (already present in corpus or out of scope for this specific integration).
 
-## Resulting bib keys (8 new; extracted from bib, verified)
-`KomaroffDantzer2025SymptomPersistence`, `Dantzer2001SicknessBehavior`, `Hrvatin2020TorporNeurons`, `Machado2025PreopticSwitch`, `Sommen2026LCFatigueSignature`, `Augustin2026GutImmunePASC`, `Azcue2026GPCRautoAbs`, `Baraniuk2024NKCytotoxicity`
+## Resulting bib keys (9 total; 8 original + 1 added in audit; extracted from bib, verified)
+`KomaroffDantzer2025SymptomPersistence`, `Dantzer2001SicknessBehavior`, `Hrvatin2020TorporNeurons`, `Machado2025PreopticSwitch`, `Sommen2026LCFatigueSignature`, `Augustin2026GutImmunePASC`, `Azcue2026GPCRautoAbs`, `Baraniuk2024NKCytotoxicity`, `Tuomaala2026TSPOLongCovid`
 
 ## Certainty array (raw / population weight / discounted)
 
@@ -81,3 +81,12 @@
 | Augustin2026GutImmunePASC | long COVID | 0.85 | 0.50 | 0.42 |
 | Azcue2026GPCRautoAbs | long COVID+CFS | 0.85/0.80 | 0.45 | 0.36 |
 | Baraniuk2024NKCytotoxicity | ME/CFS | 1.0 | 0.62 | 0.62 |
+| Tuomaala2026TSPOLongCovid | long COVID | 0.85 | 0.50 | 0.42 |
+
+## Audit additions (2026-08-10, Phase 1 verification)
+| # | Action | Rationale |
+|---|--------|-----------|
+| 1 | Tuomaala2026TSPOLongCovid ADDED | First TSPO-PET study in long COVID. Partial null (global TSPO not elevated) constrains the "neuroinflammation→symptoms" claim; limbic correlations (rho 0.75–0.97 with depression/anxiety; rho −0.83 to −0.70 with QoL) support a regionally-specific glial/symptom link. Directly relevant to gap (b). Added as the 9th paper. |
+| 2 | RECOVER trajectory (Thaweethai 2025, n=3,659) DECLINED | Purely descriptive symptom clusters; no mechanistic evidence about vicious cycles. Not contributing to Komaroff-Dantzer mechanism claims. |
+| 3 | GWAS primary for ref 31 NOT FOUND | Could not locate the specific 3-loci long COVID GWAS (HLA-DQA1-DQB, ABO, BPTF-KPAN2-C17orf58) in PubMed — likely a preprint or the review's internal reference format. Not added; the review itself serves as citation for the GWAS claim. |
+| 4 | Null/contra for autoantibody/viral-persistence DECLINED | No strong null/contradictory paper identified in PubMed that isn't already represented (Omdal2026LCFatigueStress in corpus). Tuomaala 2026 partially fills this gap with its TSPO-global-null.

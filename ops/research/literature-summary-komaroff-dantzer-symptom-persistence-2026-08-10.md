@@ -22,9 +22,12 @@ This is a high-authority REVIEW by the two leading exponents of the neuroimmune/
 
 ### Null / negative (constrains claims, already in corpus)
 - **Omdal2026LCFatigueStress** (existing): no association of persistent long-COVID fatigue with peripheral inflammatory/cellular-stress biomarkers (CRP, TNF-α, IL-6). **Must be reconciled** with the review's "systemic inflammation → symptoms" arm — resolution is that the review specifies *neuroinflammation* (localized/CNS), which serum markers don't detect.
+- **Tuomaala2026TSPOLongCovid** (added in audit): global TSPO-PET availability NOT elevated in LC vs HC — first TSPO-PET study in long COVID (n=14). However, limbic TSPO DVR correlated with symptom severity (QoL rho −0.83 to −0.70; depression/anxiety rho 0.75–0.97 in hippocampus/amygdala). Constrains the "global neuroinflammation" claim to a regionally-specific (limbic) pattern that supports the neural-circuit model while narrowing its spatial scope.
 
 ### Missing (not found, notable)
 - Direct human evidence that the rodent sickness/torpor neural circuits are chronically engaged in ME/CFS/long COVID. (Framed by the review as a hypothesis backed by analogy + LPS-fMRI data in the broader literature.)
+- Primary source for the specific 3-loci long COVID GWAS (HLA-DQA1-DQB, ABO, BPTF-KPAN2-C17orf58) cited as ref 31 by Komaroff-Dantzer 2025 — not located in PubMed; may be a preprint or the review's own formulation. The review itself remains the citation source for this claim.
+- TSPO-PET studies in ME/CFS beyond Nakatomi (2014 cortical/limbic finding): no new TSPO-PET ME/CFS study found for 2020–2026 (Tuomaala 2026 is LC-only, with partial null).
 
 ## Central mechanistic claim supported
 

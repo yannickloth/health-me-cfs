@@ -1,7 +1,7 @@
 # Integration Guide: Komaroff & Dantzer 2025 — Symptom Causes & Persistence
 
-**Bib keys (verified):** `KomaroffDantzer2025SymptomPersistence`, `Dantzer2001SicknessBehavior`, `Hrvatin2020TorporNeurons`, `Machado2025PreopticSwitch`, `Sommen2026LCFatigueSignature`, `Augustin2026GutImmunePASC`, `Azcue2026GPCRautoAbs`, `Baraniuk2024NKCytotoxicity`
-**Confidence note:** Core review full text read; supporting abstracts verified via PubMed.
+**Bib keys (verified; 9 total):** `KomaroffDantzer2025SymptomPersistence`, `Dantzer2001SicknessBehavior`, `Hrvatin2020TorporNeurons`, `Machado2025PreopticSwitch`, `Sommen2026LCFatigueSignature`, `Augustin2026GutImmunePASC`, `Azcue2026GPCRautoAbs`, `Baraniuk2024NKCytotoxicity`, `Tuomaala2026TSPOLongCovid`
+**Confidence note:** Core review full text read; supporting abstracts verified via PubMed. Tuomaala 2026 added in Phase-1 audit (2026-08-10) for the TSPO-PET limbic-glial/symptom correlation evidence.
 
 ## Integration Strategy — INCREMENTAL, NOT REDUNDANT
 
