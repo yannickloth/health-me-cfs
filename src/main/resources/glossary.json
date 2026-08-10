@@ -10112,6 +10112,66 @@
     "category": "measurement",
     "definition": "A statistical measure of how correlated the fMRI (BOLD) activity of two brain regions is over time. Altered functional connectivity of dopaminergically targeting circuits indicates disrupted communication between brain regions, though it does not directly measure dopamine itself."
   },
+  "hibernation": {
+    "label": "hibernation",
+    "category": "pathway",
+    "definition": "A prolonged state of deep torpor in which an animal drastically lowers body temperature and metabolic rate over weeks to months to survive winter; distinguished from brief interbout arousal episodes."
+  },
+  "torpor": {
+    "label": "torpor",
+    "category": "pathway",
+    "definition": "An evolutionarily conserved hypometabolic state, analogous to hibernation in miniature, in which the body sharply reduces ATP-generating metabolism to conserve energy; mediated by dedicated preoptic neural circuits and invoked as a model for the low-energy metabolic state in some people with ME/CFS and long COVID."
+  },
+  "interbout arousal": {
+    "label": "interbout arousal",
+    "category": "pathway",
+    "definition": "The periodic, spontaneous return to normal body temperature and metabolism that hibernating animals make between torpor bouts; the molecular signals of this reversible 'wake-up' are the focus of hibernation-based drug-discovery for low-energy states."
+  },
+  "brown adipose tissue": {
+    "label": "brown adipose tissue",
+    "category": "anatomy",
+    "definition": "A type of fat tissue rich in mitochondria and the protein UCP1 that generates heat (non-shivering thermogenesis) to raise body temperature and drive arousal from torpor/hypothermia."
+  },
+  "area postrema": {
+    "label": "area postrema",
+    "category": "anatomy",
+    "definition": "A brainstem sensory circumventricular organ that senses circulating inflammatory signals and nausea/vomiting triggers and, in animal models, is the origin of a neural circuit that suppresses eating, drinking, and movement (sickness behavior)."
+  },
+  "choroid plexus": {
+    "label": "choroid plexus",
+    "category": "anatomy",
+    "definition": "A network of cells in the brain's ventricles that produces cerebrospinal fluid and forms the blood-CSF barrier; also functions as a metabolic sensor that may help initiate arousal from torpor."
+  },
+  "tanycyte": {
+    "label": "tanycyte",
+    "category": "anatomy",
+    "definition": "Specialized ependymal cells lining the base of the brain's third ventricle that sense circulating metabolites and may participate in energy-state signaling including torpor arousal."
+  },
+  "median preoptic nucleus": {
+    "label": "median preoptic nucleus",
+    "category": "anatomy",
+    "definition": "A hypothalamic nucleus whose neurons, in rodents, regulate entry into and exit from a torpor-like hypometabolic state; relevant as a neural circuit that may mediate the low-energy metabolic state proposed in ME/CFS."
+  },
+  "ventromedial preoptic area": {
+    "label": "ventromedial preoptic area",
+    "category": "anatomy",
+    "definition": "A hypothalamic region that receives inflammatory signals to produce appetite suppression, warmth-seeking, and fever — a component of the sickness behavior circuitry."
+  },
+  "polysome": {
+    "label": "polysome",
+    "category": "measurement",
+    "definition": "A string of ribosomes translating a single messenger RNA at once; a reduced polysome-to-monosome ratio indicates translational stalling, a marker of the cellular energy-conservation (adaptive pausing) response."
+  },
+  "EMR": {
+    "label": "EMR",
+    "category": "method",
+    "definition": "Electronic Medical Record — the digital system a clinic uses to store patient records; a specialist clinic may customize EMR fields to capture disease-specific measures such as head-up-angle and day-to-day symptom status."
+  },
+  "Project ECHO": {
+    "label": "Project ECHO",
+    "category": "treatment",
+    "definition": "A provider-education model in which specialist clinicians train community practitioners on a complex specialty (here ME/CFS) through videoconference case-based mentoring, spreading specialist knowledge beyond the specialist clinic."
+  },
   "maternal immune activation": {
     "label": "maternal immune activation",
     "category": "pathway",
