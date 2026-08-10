@@ -10077,6 +10077,101 @@
     "category": "anatomy",
     "definition": "A group of interconnected subcortical nuclei (caudate, putamen, globus pallidus, substantia nigra, subthalamic nucleus) that coordinate motor control, habit learning, and executive function. The basal ganglia are the primary target of anti-neuronal antibodies in PANS/PANDAS/Sydenham chorea; basal ganglia dysfunction also contributes to movement abnormalities and cognitive inflexibility in ME/CFS."
   },
+  "striatum": {
+    "label": "striatum",
+    "category": "anatomy",
+    "definition": "The largest structure of the basal ganglia, comprising the caudate nucleus, putamen, and nucleus accumbens. It integrates cortical, limbic, and dopaminergic input to mediate motor control, reward, and effort-based decision making; striatal dysfunction is implicated in the motivational and psychomotor symptoms of post-infectious ME/CFS and long COVID."
+  },
+  "putamen": {
+    "label": "putamen",
+    "category": "anatomy",
+    "definition": "A dorsal-striatum structure involved in motor control and habit learning, innervated by dopamine from the substantia nigra. Loss of dopaminergic input to the putamen produces movement slowing (bradykinesia); reduced putamen dopaminergic terminals in long COVID correlate with slower movement and longer task completion."
+  },
+  "caudate": {
+    "label": "caudate",
+    "category": "anatomy",
+    "definition": "A dorsal-striatum structure involved in motor control, learning, and memory/executive function. Dopaminergic loss in the caudate is associated with cognitive decline and word-finding difficulty in long COVID."
+  },
+  "substantia nigra": {
+    "label": "substantia nigra",
+    "category": "anatomy",
+    "definition": "A midbrain structure whose dopaminergic neurons project to the dorsal striatum (caudate/putamen) and control movement initiation. Degeneration of these neurons underlies Parkinson's disease; animal models show SARS-CoV-2 can invade the substantia nigra, raising the question of whether direct viral invasion contributes to dopaminergic-terminal loss in long COVID."
+  },
+  "ventral striatum": {
+    "label": "ventral striatum",
+    "category": "anatomy",
+    "definition": "The reward-associated portion of the striatum, centred on the nucleus accumbens, mediating motivation and effort-based decision making. Reduced dopaminergic terminals in the ventral striatum correlate with apathy in long COVID."
+  },
+  "apathy": {
+    "label": "apathy",
+    "category": "symptom",
+    "definition": "A reduction in motivation, interest, and goal-directed behaviour that is distinct from depression. In long COVID and post-infectious illness, apathy has been linked to reduced dopaminergic terminals in the ventral striatum."
+  },
+  "functional connectivity": {
+    "label": "functional connectivity",
+    "category": "measurement",
+    "definition": "A statistical measure of how correlated the fMRI (BOLD) activity of two brain regions is over time. Altered functional connectivity of dopaminergically targeting circuits indicates disrupted communication between brain regions, though it does not directly measure dopamine itself."
+  },
+  "hibernation": {
+    "label": "hibernation",
+    "category": "pathway",
+    "definition": "A prolonged state of deep torpor in which an animal drastically lowers body temperature and metabolic rate over weeks to months to survive winter; distinguished from brief interbout arousal episodes."
+  },
+  "torpor": {
+    "label": "torpor",
+    "category": "pathway",
+    "definition": "An evolutionarily conserved hypometabolic state, analogous to hibernation in miniature, in which the body sharply reduces ATP-generating metabolism to conserve energy; mediated by dedicated preoptic neural circuits and invoked as a model for the low-energy metabolic state in some people with ME/CFS and long COVID."
+  },
+  "interbout arousal": {
+    "label": "interbout arousal",
+    "category": "pathway",
+    "definition": "The periodic, spontaneous return to normal body temperature and metabolism that hibernating animals make between torpor bouts; the molecular signals of this reversible 'wake-up' are the focus of hibernation-based drug-discovery for low-energy states."
+  },
+  "brown adipose tissue": {
+    "label": "brown adipose tissue",
+    "category": "anatomy",
+    "definition": "A type of fat tissue rich in mitochondria and the protein UCP1 that generates heat (non-shivering thermogenesis) to raise body temperature and drive arousal from torpor/hypothermia."
+  },
+  "area postrema": {
+    "label": "area postrema",
+    "category": "anatomy",
+    "definition": "A brainstem sensory circumventricular organ that senses circulating inflammatory signals and nausea/vomiting triggers and, in animal models, is the origin of a neural circuit that suppresses eating, drinking, and movement (sickness behavior)."
+  },
+  "choroid plexus": {
+    "label": "choroid plexus",
+    "category": "anatomy",
+    "definition": "A network of cells in the brain's ventricles that produces cerebrospinal fluid and forms the blood-CSF barrier; also functions as a metabolic sensor that may help initiate arousal from torpor."
+  },
+  "tanycyte": {
+    "label": "tanycyte",
+    "category": "anatomy",
+    "definition": "Specialized ependymal cells lining the base of the brain's third ventricle that sense circulating metabolites and may participate in energy-state signaling including torpor arousal."
+  },
+  "median preoptic nucleus": {
+    "label": "median preoptic nucleus",
+    "category": "anatomy",
+    "definition": "A hypothalamic nucleus whose neurons, in rodents, regulate entry into and exit from a torpor-like hypometabolic state; relevant as a neural circuit that may mediate the low-energy metabolic state proposed in ME/CFS."
+  },
+  "ventromedial preoptic area": {
+    "label": "ventromedial preoptic area",
+    "category": "anatomy",
+    "definition": "A hypothalamic region that receives inflammatory signals to produce appetite suppression, warmth-seeking, and fever — a component of the sickness behavior circuitry."
+  },
+  "polysome": {
+    "label": "polysome",
+    "category": "measurement",
+    "definition": "A string of ribosomes translating a single messenger RNA at once; a reduced polysome-to-monosome ratio indicates translational stalling, a marker of the cellular energy-conservation (adaptive pausing) response."
+  },
+  "EMR": {
+    "label": "EMR",
+    "category": "method",
+    "definition": "Electronic Medical Record — the digital system a clinic uses to store patient records; a specialist clinic may customize EMR fields to capture disease-specific measures such as head-up-angle and day-to-day symptom status."
+  },
+  "Project ECHO": {
+    "label": "Project ECHO",
+    "category": "treatment",
+    "definition": "A provider-education model in which specialist clinicians train community practitioners on a complex specialty (here ME/CFS) through videoconference case-based mentoring, spreading specialist knowledge beyond the specialist clinic."
+  },
   "maternal immune activation": {
     "label": "maternal immune activation",
     "category": "pathway",
@@ -10512,6 +10607,16 @@
     "brand": "Wakix",
     "therapeuticCategory": "Symptomatic",
     "therapeuticDepth": "Symptomatic",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Pitolisant%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Pitolisant"
+      }
+    ],
     "doseZones": [
       {
         "dose": "Therapeutic range",
@@ -10530,6 +10635,16 @@
     "brand": "Sunosi",
     "therapeuticCategory": "Symptomatic",
     "therapeuticDepth": "Symptomatic",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Solriamfetol%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Solriamfetol"
+      }
+    ],
     "doseZones": [
       {
         "dose": "Therapeutic range",
@@ -10548,6 +10663,16 @@
     "brand": "Northera",
     "therapeuticCategory": "Symptomatic",
     "therapeuticDepth": "Symptomatic",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Droxidopa%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Droxidopa"
+      }
+    ],
     "doseZones": [
       {
         "dose": "Therapeutic range",
@@ -10571,6 +10696,16 @@
     "brand": "Rupafin, Wystamm",
     "therapeuticCategory": "Threshold-modulatory",
     "therapeuticDepth": "Threshold-modulatory",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Rupatadine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Rupatadine"
+      }
+    ],
     "doseZones": [
       {
         "dose": "Therapeutic range",
@@ -10905,64 +11040,150 @@
     "category": "concept",
     "definition": "The metabolic shift from oxidative phosphorylation to aerobic glycolysis, originally described in cancer cells but also characteristic of activated immune cells."
   },
-  "torpor": {
-    "label": "torpor",
+  "GM-CSF": {
+    "label": "GM-CSF",
+    "category": "cytokine",
+    "definition": "Granulocyte-Macrophage Colony-Stimulating Factor: a cytokine that stimulates bone-marrow production of granulocytes and macrophages. GM-CSF is a severity-correlated inflammatory marker in ME/CFS and is elevated (as is G-CSF) in Alzheimer's disease, suggesting a shared myeloid-axis signal across inflammatory CNS conditions."
+  },
+  "IL-17A": {
+    "label": "IL-17A",
+    "category": "cytokine",
+    "definition": "Interleukin-17A: the defining cytokine of Th17 cells, recruiting neutrophils and promoting inflammation. Elevated in Alzheimer's disease and in depression/persons with mental illness, and relevant to Th17-axis signalling in ME/CFS; crossing the blood-brain barrier, it may contribute to CNS inflammation."
+  },
+  "IL-17F": {
+    "label": "IL-17F",
+    "category": "cytokine",
+    "definition": "Interleukin-17F: a Th17-family cytokine structurally related to IL-17A, produced by Th17 cells and promoting neutrophil recruitment. Part of early-disease ME/CFS cytokine signatures."
+  },
+  "inflammaging": {
+    "label": "inflammaging",
     "category": "pathway",
-    "definition": "An evolutionarily conserved hypometabolic state, analogous to hibernation in miniature, in which the body sharply reduces ATP-generating metabolism to conserve energy; mediated by dedicated preoptic neural circuits and invoked as a model for the low-energy metabolic state in some people with ME/CFS and long COVID."
+    "definition": "Low-grade chronic inflammation that increases with age and is linked to immunosenescence (deteriorating immune function). Implicated across neuroinflammatory CNS conditions including Alzheimer's disease and proposed as a contributor to chronic illness."
   },
-  "area postrema": {
-    "label": "area postrema",
-    "category": "anatomy",
-    "definition": "A brainstem sensory circumventricular organ that senses circulating inflammatory signals and nausea/vomiting triggers and, in animal models, is the origin of a neural circuit that suppresses eating, drinking, and movement (sickness behavior)."
+  "histamine intolerance": {
+    "label": "histamine intolerance",
+    "category": "condition",
+    "definition": "Histamine Intolerance: a condition where ingested or released histamine exceeds the body's degradation capacity (impaired DAO or HNMT enzyme activity), producing flushing, headache, tachycardia, gut symptoms and nasal congestion. Mechanistically distinct from — but overlapping with — MCAS; often managed with a time-limited low-histamine diet. See also HIT.",
+    "also": "HIT"
   },
-  "ventromedial preoptic area": {
-    "label": "ventromedial preoptic area",
-    "category": "anatomy",
-    "definition": "A hypothalamic region that receives inflammatory signals to produce appetite suppression, warmth-seeking, and fever — a component of the sickness behavior circuitry."
+  "urticaria": {
+    "label": "urticaria",
+    "category": "condition",
+    "definition": "Hives: raised, itchy, red or skin-coloured wheals on the skin, most often an allergic or mast-cell-mediated reaction. When it recurs for weeks to months with no obvious trigger it is called chronic spontaneous urticaria, and it is one of the settings where standard-dose antihistamines often, and appropriately, get up-dosed."
   },
-  "median preoptic nucleus": {
-    "label": "median preoptic nucleus",
-    "category": "anatomy",
-    "definition": "A hypothalamic nucleus whose neurons, in rodents, regulate entry into and exit from a torpor-like hypometabolic state; relevant as a neural circuit that may mediate the low-energy metabolic state proposed in ME/CFS."
+  "hives": {
+    "label": "hives",
+    "category": "symptom",
+    "definition": "Colloquial name for urticaria: itchy, raised skin wheals caused by histamine-driven local swelling (weals) in the skin. A hallmark histamine/mast-cell symptom."
   },
-  "hibernation": {
-    "label": "hibernation",
+  "HNMT": {
+    "label": "HNMT",
+    "category": "enzyme",
+    "definition": "Histamine N-methyltransferase: an intracellular enzyme that breaks down (methylates) histamine. A common genetic variant can reduce its activity in roughly 15-20% of people. Reduced HNMT function could, in principle, cause a 'clearing' problem where normal mast-cell histamine release builds up — but its effect in ME/CFS has not been measured in a cohort, and there is no routine clinical test for it."
+  },
+  "degranulation": {
+    "label": "degranulation",
     "category": "pathway",
-    "definition": "A prolonged state of deep torpor in which an animal drastically lowers body temperature and metabolic rate over weeks to months to survive winter; distinguished from brief interbout arousal episodes."
+    "definition": "The process by which a mast cell (or other granulocyte) fuses its storage granules with the cell membrane and empties their contents — histamine, tryptase, prostaglandins, leukotrienes and more — into the surrounding tissue. The key event in allergic reactions and mast cell activation."
   },
-  "interbout arousal": {
-    "label": "interbout arousal",
-    "category": "pathway",
-    "definition": "The periodic, spontaneous return to normal body temperature and metabolism that hibernating animals make between torpor bouts; the molecular signals of this reversible 'wake-up' are the focus of hibernation-based drug-discovery for low-energy states."
+  "complement": {
+    "label": "complement",
+    "category": "immune",
+    "definition": "A set of around 30 blood proteins that help the immune system fight infection and clear debris. Some complement fragments (notably C3a and C5a) can also activate mast cells directly, providing a non-allergen route to degranulation."
   },
-  "brown adipose tissue": {
-    "label": "brown adipose tissue",
-    "category": "anatomy",
-    "definition": "A type of fat tissue rich in mitochondria and the protein UCP1 that generates heat (non-shivering thermogenesis) to raise body temperature and drive arousal from torpor/hypothermia."
+  "mast cell activation syndrome": {
+    "label": "mast cell activation syndrome",
+    "category": "condition",
+    "definition": "MCAS (spelled out): a condition of inappropriate mast cell degranulation producing multi-system symptoms — flushing, hives, gut cramping, tachycardia and more — with no established trigger or a threshold that appears lowered. Diagnostic criteria are contested. See MCAS.",
+    "also": "MCAS"
   },
-  "choroid plexus": {
-    "label": "choroid plexus",
-    "category": "anatomy",
-    "definition": "A network of cells in the brain's ventricles that produces cerebrospinal fluid and forms the blood-CSF barrier; also functions as a metabolic sensor that may help initiate arousal from torpor."
+  "orthostatic intolerance": {
+    "label": "orthostatic intolerance",
+    "category": "symptom",
+    "definition": "Difficulty keeping blood pressure and heart rate stable when standing, producing dizziness, light-headedness, palpitations and sometimes fainting on standing. Closely linked to POTS and common in ME/CFS; mast-cell mediators that dilate blood vessels can worsen it."
   },
-  "tanycyte": {
-    "label": "tanycyte",
-    "category": "anatomy",
-    "definition": "Specialized ependymal cells lining the base of the brain's third ventricle that sense circulating metabolites and may participate in energy-state signaling including torpor arousal."
+  "systemic mastocytosis": {
+    "label": "systemic mastocytosis",
+    "category": "condition",
+    "definition": "A clonal mast cell disease in which too many abnormal mast cells accumulate in the bone marrow and organs. More severe than MCAS but with overlapping symptoms (flushing, gut pain, bone pain, anaphylaxis). Because it is rare but serious and partly treated differently, it is among the conditions a clinician rules out (with a baseline tryptase test) before labelling symptoms 'just MCAS'."
   },
-  "polysome": {
-    "label": "polysome",
-    "category": "measurement",
-    "definition": "A string of ribosomes translating a single messenger RNA at once; a reduced polysome-to-monosome ratio indicates translational stalling, a marker of the cellular energy-conservation (adaptive pausing) response."
+  "basophil": {
+    "label": "basophil",
+    "category": "immune",
+    "definition": "A type of white blood cell that, like mast cells, stores and releases histamine. A comparatively minor blood cell in number, but it contributes to allergic responses; mast cells and basophils together are the main histamine stores."
   },
-  "EMR": {
-    "label": "EMR",
-    "category": "method",
-    "definition": "Electronic Medical Record — the digital system a clinic uses to store patient records; a specialist clinic may customize EMR fields to capture disease-specific measures such as head-up-angle and day-to-day symptom status."
+  "mast-cell stabiliser": {
+    "label": "mast-cell stabiliser",
+    "category": "medication_class",
+    "definition": "A class of drugs (cromolyn, ketotifen, and some others) that aim to stop mast cells from degranulating in the first place — that is, they act earlier than antihistamines, which only block histamine after release. Used in MCAS; ketotifen is sedating and cromolyn often targets gut symptoms."
   },
-  "Project ECHO": {
-    "label": "Project ECHO",
-    "category": "treatment",
-    "definition": "A provider-education model in which specialist clinicians train community practitioners on a complex specialty (here ME/CFS) through videoconference case-based mentoring, spreading specialist knowledge beyond the specialist clinic."
+  "Bilastine": {
+    "label": "Bilastine",
+    "category": "medication",
+    "definition": "A second-generation H1 antihistamine with a good balance of efficacy and low sedation at standard dose; one of the drugs with grade-A up-dosing evidence in chronic spontaneous urticaria.",
+    "generic": "Bilastine",
+    "brand": "Bilaxten, Ilevro",
+    "class": "H1 antihistamine (second-generation)",
+    "rx": "OTC / prescription depending on country",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Bilastine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Bilastine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Bilastine"
+      }
+    ]
+  },
+  "Levocetirizine": {
+    "label": "Levocetirizine",
+    "category": "medication",
+    "definition": "A second-generation H1 antihistamine, the active form of cetirizine, often used at about half the cetirizine dose. Low-sedating but (like cetirizine) accumulates with kidney impairment, so it needs dose adjustment in renal disease.",
+    "generic": "Levocetirizine",
+    "brand": "Xyzal",
+    "class": "H1 antihistamine (second-generation)",
+    "rx": "OTC / prescription depending on country",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Levocetirizine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Levocetirizine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Levocetirizine"
+      }
+    ]
+  },
+  "Desloratadine": {
+    "label": "Desloratadine",
+    "category": "medication",
+    "definition": "A second-generation H1 antihistamine and the active metabolite of loratadine. Low-sedating; used for allergic rhinitis and urticaria, and one of the drugs considered when standard doses of other H1s are insufficient.",
+    "generic": "Desloratadine",
+    "brand": "Clarinex, Aerius",
+    "class": "H1 antihistamine (second-generation)",
+    "rx": "OTC / prescription depending on country",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Desloratadine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Desloratadine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Desloratadine"
+      }
+    ]
   }
 }

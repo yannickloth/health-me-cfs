@@ -11059,5 +11059,131 @@
     "label": "inflammaging",
     "category": "pathway",
     "definition": "Low-grade chronic inflammation that increases with age and is linked to immunosenescence (deteriorating immune function). Implicated across neuroinflammatory CNS conditions including Alzheimer's disease and proposed as a contributor to chronic illness."
+  },
+  "histamine intolerance": {
+    "label": "histamine intolerance",
+    "category": "condition",
+    "definition": "Histamine Intolerance: a condition where ingested or released histamine exceeds the body's degradation capacity (impaired DAO or HNMT enzyme activity), producing flushing, headache, tachycardia, gut symptoms and nasal congestion. Mechanistically distinct from — but overlapping with — MCAS; often managed with a time-limited low-histamine diet. See also HIT.",
+    "also": "HIT"
+  },
+  "urticaria": {
+    "label": "urticaria",
+    "category": "condition",
+    "definition": "Hives: raised, itchy, red or skin-coloured wheals on the skin, most often an allergic or mast-cell-mediated reaction. When it recurs for weeks to months with no obvious trigger it is called chronic spontaneous urticaria, and it is one of the settings where standard-dose antihistamines often, and appropriately, get up-dosed."
+  },
+  "hives": {
+    "label": "hives",
+    "category": "symptom",
+    "definition": "Colloquial name for urticaria: itchy, raised skin wheals caused by histamine-driven local swelling (weals) in the skin. A hallmark histamine/mast-cell symptom."
+  },
+  "HNMT": {
+    "label": "HNMT",
+    "category": "enzyme",
+    "definition": "Histamine N-methyltransferase: an intracellular enzyme that breaks down (methylates) histamine. A common genetic variant can reduce its activity in roughly 15-20% of people. Reduced HNMT function could, in principle, cause a 'clearing' problem where normal mast-cell histamine release builds up — but its effect in ME/CFS has not been measured in a cohort, and there is no routine clinical test for it."
+  },
+  "degranulation": {
+    "label": "degranulation",
+    "category": "pathway",
+    "definition": "The process by which a mast cell (or other granulocyte) fuses its storage granules with the cell membrane and empties their contents — histamine, tryptase, prostaglandins, leukotrienes and more — into the surrounding tissue. The key event in allergic reactions and mast cell activation."
+  },
+  "complement": {
+    "label": "complement",
+    "category": "immune",
+    "definition": "A set of around 30 blood proteins that help the immune system fight infection and clear debris. Some complement fragments (notably C3a and C5a) can also activate mast cells directly, providing a non-allergen route to degranulation."
+  },
+  "mast cell activation syndrome": {
+    "label": "mast cell activation syndrome",
+    "category": "condition",
+    "definition": "MCAS (spelled out): a condition of inappropriate mast cell degranulation producing multi-system symptoms — flushing, hives, gut cramping, tachycardia and more — with no established trigger or a threshold that appears lowered. Diagnostic criteria are contested. See MCAS.",
+    "also": "MCAS"
+  },
+  "orthostatic intolerance": {
+    "label": "orthostatic intolerance",
+    "category": "symptom",
+    "definition": "Difficulty keeping blood pressure and heart rate stable when standing, producing dizziness, light-headedness, palpitations and sometimes fainting on standing. Closely linked to POTS and common in ME/CFS; mast-cell mediators that dilate blood vessels can worsen it."
+  },
+  "systemic mastocytosis": {
+    "label": "systemic mastocytosis",
+    "category": "condition",
+    "definition": "A clonal mast cell disease in which too many abnormal mast cells accumulate in the bone marrow and organs. More severe than MCAS but with overlapping symptoms (flushing, gut pain, bone pain, anaphylaxis). Because it is rare but serious and partly treated differently, it is among the conditions a clinician rules out (with a baseline tryptase test) before labelling symptoms 'just MCAS'."
+  },
+  "basophil": {
+    "label": "basophil",
+    "category": "immune",
+    "definition": "A type of white blood cell that, like mast cells, stores and releases histamine. A comparatively minor blood cell in number, but it contributes to allergic responses; mast cells and basophils together are the main histamine stores."
+  },
+  "mast-cell stabiliser": {
+    "label": "mast-cell stabiliser",
+    "category": "medication_class",
+    "definition": "A class of drugs (cromolyn, ketotifen, and some others) that aim to stop mast cells from degranulating in the first place — that is, they act earlier than antihistamines, which only block histamine after release. Used in MCAS; ketotifen is sedating and cromolyn often targets gut symptoms."
+  },
+  "Bilastine": {
+    "label": "Bilastine",
+    "category": "medication",
+    "definition": "A second-generation H1 antihistamine with a good balance of efficacy and low sedation at standard dose; one of the drugs with grade-A up-dosing evidence in chronic spontaneous urticaria.",
+    "generic": "Bilastine",
+    "brand": "Bilaxten, Ilevro",
+    "class": "H1 antihistamine (second-generation)",
+    "rx": "OTC / prescription depending on country",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Bilastine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Bilastine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Bilastine"
+      }
+    ]
+  },
+  "Levocetirizine": {
+    "label": "Levocetirizine",
+    "category": "medication",
+    "definition": "A second-generation H1 antihistamine, the active form of cetirizine, often used at about half the cetirizine dose. Low-sedating but (like cetirizine) accumulates with kidney impairment, so it needs dose adjustment in renal disease.",
+    "generic": "Levocetirizine",
+    "brand": "Xyzal",
+    "class": "H1 antihistamine (second-generation)",
+    "rx": "OTC / prescription depending on country",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Levocetirizine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Levocetirizine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Levocetirizine"
+      }
+    ]
+  },
+  "Desloratadine": {
+    "label": "Desloratadine",
+    "category": "medication",
+    "definition": "A second-generation H1 antihistamine and the active metabolite of loratadine. Low-sedating; used for allergic rhinitis and urticaria, and one of the drugs considered when standard doses of other H1s are insufficient.",
+    "generic": "Desloratadine",
+    "brand": "Clarinex, Aerius",
+    "class": "H1 antihistamine (second-generation)",
+    "rx": "OTC / prescription depending on country",
+    "sources": [
+      {
+        "label": "PubMed",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Desloratadine%5BMeSH%5D"
+      },
+      {
+        "label": "DailyMed",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?query=Desloratadine"
+      },
+      {
+        "label": "PubChem",
+        "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Desloratadine"
+      }
+    ]
   }
 }
