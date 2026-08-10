@@ -9,3 +9,5 @@ Several researchers have proposed that ME/CFS involves metabolic “traps” —
 
 #include "subsec-21-the-dauer-hypothesis/subsec-21-the-dauer-hypothesis.typ"
 
+#include "subsec-21-serum-induced-muscle-metabolic-trap/subsec-21-serum-induced-muscle-metabolic-trap.typ"
+

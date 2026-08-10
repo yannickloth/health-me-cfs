@@ -530,6 +530,78 @@ What remains open: whether the limiting factor is mitochondrial (supercomplex di
 *Consequence:* The collective evidence from muscle biopsy, invasive CPET, and proteomics — all triangulated against direct bed rest comparators — means that a clinician who tells a mild–moderate ME/CFS patient to "just get moving" is making a claim contradicted by the strongest empirical data available. The patient's muscle is not responding to the same stimulus as a deconditioned healthy person's muscle because the muscle itself is different at the molecular level. For clinicians, the practical takeaway is consistent with existing guidance (@NICE2021mecfs): pacing and energy management that keeps exertion below the individual's ventilatory threshold replaces progressive exercise prescription. The immediate research priority is identifying what breaks the link between mitochondrial machinery and whole-body performance.
 ] <syn:charlton2026-deconditioning-null>
 
+#hypothesis(title: [A Circulating Serum Factor Reproduces the ME/CFS Muscle Metabolic Phenotype in Healthy Tissue])[
+Healthy 3D biofabricated skeletal muscle exposed in vitro to serum from ME/CFS and Long COVID patients undergoes a biphasic metabolic response @Mughal20253dMuscleSera: after 48 hours the tissue shows up-regulated glycolysis, myotube hypertrophy, mitochondrial hyperfusion, and paradoxically elevated oxygen consumption — a hypermetabolic adaptation — but by 96–144 hours this compensatory state collapses into contractile weakness and toroidal mitochondrial fragmentation, leaving the tissue fragile. This is not a purely correlational finding: a serum-borne factor is sufficient to shift otherwise-healthy muscle toward the glycolytic, mitochondria-unstable phenotype documented in patient biopsies (@Appelman2024MusclePEM; @spec:sc-depletion-glycolytic-shift).
+
+The serum-transfer paradigm has prior support. Fluge et al. showed that myoblasts cultured in severe ME/CFS serum increase mitochondrial respiration and secrete excess lactate @Fluge2016PDH. Schreiner et al. found that ME/CFS serum adoptively transfers mitochondrial fragmentation and an antiviral state to naive cells @Schreiner2020HHV6MitoME. Nilsson et al. ruled out anti-mitochondrial antibodies as the mediator @Nilsson2020NoMitoAb, pointing instead to cytokines, microRNA (e.g. HHV-6 aU14), exosomes, or viral fragments. The 3D model is the most disease-representative recapitulation of these effects to date because it reproduces them in structurally intact, contracting muscle rather than a monolayer.
+
+*Certainty: 0.26* (discounted). The in-vitro design (biofabricated tissue, population weight 0.40) caps confidence; the underlying serum-transfer phenomenon is better supported across models (Fluge 0.52, Schreiner 0.41, Appelman 0.68).
+
+*Falsifiable prediction:* Depleting or neutralizing the putative serum factor (immunoadsorption, specific cytokine or exosome blockade) should prevent or reverse the metabolic derangement — attenuated glycolysis and preserved mitochondrial integrity — in the 3D muscle model, and measurably reduce post-exertional muscle fatigue if translatable to patients.
+
+*Severity applicability:* Unknown — the study used pooled patient sera and did not stratify by severity.
+
+*Consequence:* Muscle dysfunction in ME/CFS need not be caused by deconditioning, neural outflow, or vascular insufficiency alone — it can be induced in isolated healthy muscle by patient serum. That makes the circulating mediator both a drug target and a candidate diagnostic signal, and reframes "muscle weakness" as a systemic serum-driven process rather than purely a tissue or central problem.
+] <hyp:serum-factor-biphasic-muscle>
+
+#speculation(title: [Biofabricated 3D Skeletal Muscle as a Functional Assay for Serum-Borne Muscle Pathogens])[
+If the biphasic serum response is reproducible, a biofabricated 3D skeletal-muscle tissue (@Mughal20253dMuscleSera; platform validated in Duchenne muscular dystrophy and drug screening, @FernandezGaribay2022XenoMuscle) becomes a practical functional assay: a measurable, physiologically intact readout of whether an individual's serum impairs muscle metabolism. This would give researchers a medium-throughput ex-vivo endophenotype and could eventually serve as a diagnostic discriminator or a screening platform for candidate circulating mediators and modulators (e.g. immunoadsorption, cytokine blockers) before animal or human trials.
+
+*Certainty: 0.28* (discounted). The platform is mature and validated, but its diagnostic utility and reproducibility across labs and serum biobanks is unproven.
+
+*Falsifiable prediction:* A blinded cohort of ME/CFS, Long COVID, and healthy sera should yield a biphasic muscle response that (a) is significantly more frequent/severe in patient versus control sera, and (b) correlates with a patient-reported PEM or fatigue severity score.
+
+*Severity applicability:* Unknown — candidate assay; validation would need to stratify by severity.
+
+*Consequence:* A serum-responsive muscle tissue could turn an otherwise subjective complaint into an objective, measurable signal, accelerating the search for the circulating cause and giving clinicians a biomarker-like readout that does not depend on a patient's self-report.
+] <spec:3d-biofab-muscle-platform>
+
+#speculation(title: [The Circulating Serum Factor Is Likely a Multi-Component Cocktail, Not a Single Molecule])[
+The biphasic response involves at least four distinct biological processes — pyruvate-dehydrogenase inhibition, calcium dysregulation, mitochondrial fission, and contractile impairment @Mughal20253dMuscleSera. It is implausible that one molecular species drives all four. A more parsimonious model posits several concurrent mediators: a PDH-inhibitory cytokine (e.g. TNFα/IL-6), a mitochondrial-fission or cell-danger signal (e.g. HHV-6 microRNA, consistent with serum transferring an antiviral metabolic state @Schreiner2020HHV6MitoME), a calcium or ion-channel disruptor, and a sustained inflammatory/exosomal danger signal. Anti-mitochondrial antibodies were excluded as the sole mediator @Nilsson2020NoMitoAb, but immunoglobulin-bound complexes or exosomes remain candidates.
+
+*Certainty: 0.22* — a structurally motivated inference from the number of independent processes the serum provokes; not directly demonstrated.
+
+*Falsifiable prediction:* Fractionation of patient serum into size, heat-labile, nuclease-sensitive, and immunodepleted components should show that no single fraction recapitulates the full biphasic phenotype — whereas the hypothesis is falsified if one isolated fraction (e.g. the exosome pool alone) reproduces the complete picture. (Origin: brainstorm.)
+
+*Severity applicability:* Unknown — in-vitro, not severity-stratified.
+
+*Consequence:* If the cause is a mixture rather than a single culprit, then interventions that remove one ingredient (a single cytokine blocker) may fail while the others keep damaging muscle — which would explain inconsistent single-target trials and argues for removing or blocking the serum-borne insult more broadly.
+] <spec:serum-factor-multicomponent>
+
+#speculation(title: [Toroidal Mitochondrial Fragmentation as a Candidate Disease-Specific Ultrastructural Signature])[
+The ring-shaped (toroidal) mitochondrial morphology seen at the decompensation phase of the 3D model @Mughal20253dMuscleSera is a specific stress morphology distinct from the spherical/rod shapes of normal fission, commonly linked to Drp1 over-activation and Opa1 loss. If this morphology is reproduced in patient-muscle biopsies — and absent from the deconditioning bed-rest phenotype (which diverges on oxidative fibres and OXPHOS coupling @Charlton2026MuscleBedrest) or from inflammatory myopathy — it could serve as an objective electromicroscopic marker of the ME/CFS muscle pathology that does not depend on self-report. Whether toroidal morphology reflects an in-vitro artifact of the culture system, and whether it is reversible or a marker of irreversible damage, is undetermined.
+
+*Certainty: 0.20* — morphology seen in one in-vitro study; biopsy confirmation and specificity are untested.
+
+*Falsifiable prediction:* Electron microscopy of ME/CFS patient muscle biopsies should show toroidal mitochondria at a higher rate than bed-rest-treated healthy muscle and than age-matched controls; the marker is falsified if toroidal forms are equally common in bed-rest or healthy tissue. (Origin: brainstorm.)
+
+*Severity applicability:* Unknown — biopsy and in-vitro evidence not severity-stratified.
+
+*Consequence:* A microscope-based signature could let a pathologist recognize the disease in a muscle sample — an objective diagnostic-independent-of-self-report — and, if toroidal morphology proves irreversible, would strengthen the case that severe PEM episodes can leave cumulative, non-recoverable mitochondrial damage, reinforcing energy pacing as tissue preservation rather than mere symptom control.
+] <spec:toroidal-mitochondrial-signature>
+
+#limitation(title: [The In Vitro Model Does Not Fully Escape the Deconditioning Confound — a Bed-Rest Serum Control Is Needed])[
+The 3D muscle model demonstrates that patient serum alone can induce metabolic fragility in otherwise-healthy tissue, which argues against deconditioning as the sole cause @Mughal20253dMuscleSera. However, blood from chronically inactive ME/CFS patients may itself carry deconditioning-associated factors — myokines released by atrophic muscle, altered metabolite profiles, or inflammation arising from inactivity — that damage healthy muscle without being disease-specific. The clean control for disease-specificity would be serum from healthy volunteers after extreme deconditioning (e.g. the 60-day bed-rest protocol that fails to reproduce the ME/CFS muscle phenotype @Charlton2026MuscleBedrest): if bed-rest serum does not reproduce the biphasic fragility, the serum effect is disease-specific and not a deconditioning artifact.
+
+*Certainty:* n/a (epistemic caveat).
+
+*Consequence:* Even this elegant model does not fully separate "disease causes muscle damage" from "inactivity produces circulating factors that damage muscle," so a bed-rest serum control arm is essential before claiming the serum response is disease-specific rather than inactivity-driven. (Origin: brainstorm.)
+] <lim:in-vitro-deconditioning-serum-conf>
+
+#open-question(title: [Serum Fractionation Is the Highest-Priority Next Experiment for Identifying the Circulating Mediator])[
+The single most decisive next step is to fractionate ME/CFS serum by molecular size, heat-lability, nuclease-sensitivity, and immunoglobulin depletion, then test each fraction on the 3D muscle model with quantitative readouts (lactate efflux, PDK mRNA, mitochondrial morphology, contractile force) @Mughal20253dMuscleSera @Fluge2016PDH @Schreiner2020HHV6MitoME @Nilsson2020NoMitoAb. This would narrow the unknown circulating mediator from "an unidentified something" to a specific molecular class (cytokine, microRNA, exosome, metabolite, or viral fragment), which is the prerequisite for both a blood-based diagnostic and a targeted therapeutic. A parallel blinded comparison of ME/CFS vs Long COVID vs healthy sera on the platform could also test whether the assay discriminates the two conditions, which share symptoms but may differ in mediator composition.
+
+*Certainty:* n/a (research-direction formulation).
+
+*Consequence:* Identifying the molecular class of the serum factor would convert a promising but vague finding into a concrete testable target — the difference between "something in the blood hurts muscle" and "this specific molecule is the culprit," which is what enables a blood test and a targeted treatment. (Origin: brainstorm.)
+] <oq:serum-fractionation-mediator>
+
+#synthesis(title: [A Circulating Serum Factor Converges the Skeletal-Muscle Metabolic Findings])[
+A convergent body of in-vitro and in-vivo evidence argues that a circulating factor in ME/CFS and Long COVID sera can reproduce the skeletal-muscle metabolic phenotype in otherwise-healthy contracting tissue (@hyp:serum-factor-biphasic-muscle), without deconditioning, neural, or vascular inputs. The most coherent reading is a temporal one: serum-driven pyruvate-dehydrogenase impairment forces compensatory glycolysis (a hypermetabolic phase), then cofactor/antioxidant exhaustion tips into toroidal mitochondrial fragmentation and contractile fragility — the three-phase model (@spec:pdh-three-phase-cascade, @oq:muscle-trap-hyper-vs-hypometabolic). This reconciles earlier apparently contradictory "hypermetabolic" and "hypometabolic" findings as phases of one cycle and maps onto the clinical PEM time-course. The mediator is likely multi-component rather than a single molecule (@spec:serum-factor-multicomponent), and identifying it — via serum fractionation (@oq:serum-fractionation-mediator) and torch-shaped ultrastructure biopsy work (@spec:toroidal-mitochondrial-signature) — is the decisive next step. What the evidence strongly supports is that muscle weakness has a serum-driven, disease-intrinsic component; what remains open is the identity of the mediator and whether the striking in-vitro morphology generalizes to patient tissue.
+
+*Consequence:* Multiple converging lines now point to something in patients' blood itself damaging healthy muscle — so if that mediator is identified, it becomes both a blood-based diagnostic target and a therapy target, and it strengthens the mechanistic case for the "disease-intrinsic, not deconditioning" view of ME/CFS muscle pathology.
+] <syn:biofabrication-serum-factor-model>
+
 == Family 18: Transcriptional and Nuclear Signalling
 <sec:um-transcriptional>
 
