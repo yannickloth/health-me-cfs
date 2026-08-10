@@ -1,0 +1,9 @@
+Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) and Long Covid-19 (LC-19) are complex conditions with no diagnostic markers or consensus on disease progression. Despite extensive research, no in vitro model exists to study skeletal muscle wasting, peripheral weakness, or potential therapies. We developed 3D in vitro skeletal muscle tissues to map muscle adaptations to patient sera over time. Short exposures (48 H) to patient sera led to a significant reduction in muscle contractile strength. Transcriptomic analysis revealed the upregulation of protein translation, glycolytic enzymes, disturbances in calcium homeostasis, hypertrophy, and mitochondrial hyperfusion. Structural analyses confirmed myotube hypertrophy and elevated mitochondrial oxygen consumption In ME/CFS. While muscles initially adapted by increasing glycolysis, prolonged exposure (96-144 H) caused muscle fragility and weakness, with mitochondria fragmenting into a toroidal conformation. We propose that skeletal muscle tissue in ME/CFS and LC-19 progresses through a hypermetabolic state, leading to severe muscular and mitochondrial deterioration. This is the first study to suggest such transient metabolic adaptation.
+
+DOI: 10.1088/1758-5090/adf66c
+PMID: 40744071
+Journal: Biofabrication, 2025 Aug 8;17(4)
+Authors: Mughal S, Andújar-Sánchez F, Sabater-Arcis M, Garrabou G, Fernández-Solà J, Alegre-Martin J, Sanmartin-Sentañes R, Castro-Marrero J, Esteve-Codina A, Casals E, Fernández-Costa JM, Ramón-Azcón J.
+Affiliations: IBEC (Barcelona), IDIBAPS/Clinic Barcelona, Vall d'Hebron, CNAG, ICREA
+Keywords: Long Covid-19; chronic fatigue syndrome; metabolic adaptation; skeletal muscle.
+License: Creative Commons Attribution
