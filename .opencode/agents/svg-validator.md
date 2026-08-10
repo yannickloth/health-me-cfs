@@ -38,10 +38,11 @@ Vision-based validation of SVG scientific diagrams: visual overlap detection, sp
 
 ```bash
 # Convert SVG to PNG for vision model inspection
-inkscape --export-type=png --export-dpi=300 --export-filename=/tmp/svg-check.png "$SVG_FILE" 2>/dev/null
+inkscape --export-type=png --export-dpi=300 --export-filename=tmp/svg-check.png "$SVG_FILE" 2>/dev/null
 # or
-rsvg-convert -d 300 -p 300 -o /tmp/svg-check.png "$SVG_FILE" 2>/dev/null
+rsvg-convert -d 300 -p 300 -o tmp/svg-check.png "$SVG_FILE" 2>/dev/null
 ```
+Note: temp files go in `tmp/` at project root (`.gitignore`d, never committed).
 
 **Vision checks on rendered PNG:**
 - Element overlap (boxes, text, arrows intersecting)
@@ -150,7 +151,7 @@ def validate_spacing(elements):
 status: PASS | FAIL | WARNING
 render:
   success: true
-  png_path: /tmp/svg-check.png
+  png_path: tmp/svg-check.png
 layout:
   elements_checked: N
   violations:

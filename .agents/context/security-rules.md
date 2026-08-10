@@ -82,8 +82,8 @@ Extreme caution required.
 
 ### Rare Exception — Proceed with confidence ONLY if ALL met
 
-- ✓ User provided exact file path (e.g., `/tmp/temp-12345.txt`)
-- ✓ File obviously temporary (in `/tmp/` | matches temp pattern)
+- ✓ User provided exact file path (e.g., `tmp/temp-12345.txt`)
+- ✓ File obviously temporary (in project-`tmp/` | matches temp pattern)
 - ✓ Single file only (not multiple)
 - ✓ Trivially reversible (git-tracked | recreatable)
 - ✓ Zero uncertainty about safety
@@ -111,8 +111,8 @@ Extreme caution required.
 
 | Request | Reason |
 |---------|--------|
-| "Delete /tmp/temp-12345.txt" | Explicit path, clearly temp, single |
-| `rm /tmp/test-output-2026-01-31.log` | Explicit, temp, single |
+| "Delete tmp/temp-12345.txt" | Explicit path, clearly temp, single |
+| `rm tmp/test-output-2026-01-31.log` | Explicit, temp, single |
 
 ### Risk Checklist — ANY ✓ → Extra caution
 

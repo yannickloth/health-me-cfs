@@ -14,31 +14,33 @@ Typst reference validator. Check all `@references` and `@citations` are valid.
 
 ## Process
 
+Note: temp files go in `tmp/` at project root (`.gitignore`d, never committed).
+
 1. **Extract labels:**
    ```bash
-   grep -rh "<[a-zA-Z][a-zA-Z0-9_-]*>" src/main/typst/mecfs/ --include="*.typ" | grep -oP "<\K[a-zA-Z][a-zA-Z0-9_-]*(?=>)" | sort -u > /tmp/labels.txt
+   grep -rh "<[a-zA-Z][a-zA-Z0-9_-]*>" src/main/typst/mecfs/ --include="*.typ" | grep -oP "<\K[a-zA-Z][a-zA-Z0-9_-]*(?=>)" | sort -u > tmp/labels.txt
    ```
 
 2. **Extract references:**
    ```bash
-   grep -rh "@[a-zA-Z][a-zA-Z0-9_-]*" src/main/typst/mecfs/ --include="*.typ" | grep -oP "@\K[a-zA-Z][a-zA-Z0-9_-]+" | sort -u > /tmp/refs.txt
+   grep -rh "@[a-zA-Z][a-zA-Z0-9_-]*" src/main/typst/mecfs/ --include="*.typ" | grep -oP "@\K[a-zA-Z][a-zA-Z0-9_-]+" | sort -u > tmp/refs.txt
    ```
 
 3. **Extract bib keys:**
    ```bash
-   grep -oP "^@[a-z]+\{\K[^,]+" src/main/typst/mecfs/references.bib | sort -u > /tmp/bibkeys.txt
+   grep -oP "^@[a-z]+\{\K[^,]+" src/main/typst/mecfs/references.bib | sort -u > tmp/bibkeys.txt
    ```
 
 4. **Classify each `@key`:** label ref (if `<key>` in labels) | citation (if key in bib) | broken (neither)
 
 5. **Find broken refs:**
    ```bash
-   comm -23 /tmp/refs.txt <(cat /tmp/labels.txt /tmp/bibkeys.txt | sort -u)
+   comm -23 tmp/refs.txt <(cat tmp/labels.txt tmp/bibkeys.txt | sort -u)
    ```
 
 6. **Find orphaned labels (INFO only):**
    ```bash
-   comm -23 /tmp/labels.txt /tmp/refs.txt
+   comm -23 tmp/labels.txt tmp/refs.txt
    ```
 
 ## Output Format

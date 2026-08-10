@@ -72,12 +72,13 @@ reachable via `#include` from the chapter aggregator.
 
 ```bash
 # Collect all includes recursively
-grep -rh "#include" {target} | sed 's/.*#include "\(.*\)".*/\1/' | sort > /tmp/included.txt
+grep -rh "#include" {target} | sed 's/.*#include "\(.*\)".*/\1/' | sort > tmp/included.txt
 # Collect all leaf files
 find {target} -name "*.typ" ! -name "ch*.typ" ! -name "sec-*.typ" ! -name "subsec-*.typ" \
-  ! -name "lib.typ" ! -name "main*.typ" ! -name "_*.typ" | sort > /tmp/all-leaves.txt
-comm -23 /tmp/all-leaves.txt /tmp/included.txt
+  ! -name "lib.typ" ! -name "main*.typ" ! -name "_*.typ" | sort > tmp/all-leaves.txt
+comm -23 tmp/all-leaves.txt tmp/included.txt
 ```
+Note: temp files go in `tmp/` at project root (`.gitignore`d, never committed).
 
 ### Check E — Import chain
 
