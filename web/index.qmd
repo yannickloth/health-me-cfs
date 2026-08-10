@@ -33,11 +33,11 @@ This documentation represents literature synthesis, **not clinical advice**. All
 
 A structured reference work spanning five parts, with an epistemic classification system (achievements, hypotheses, speculations, predictions, warnings, recommendations). Available as a navigable website and [downloadable PDF](loth2026-mecfs.pdf).
 
-- **[Part I — Clinical Presentation:](part1-clinical/)** Core and additional symptoms, diagnostic criteria, disease course
-- **[Part II — Pathophysiology:](part2-pathophysiology/)** Energy metabolism, immune dysfunction, neurological, endocrine, cardiovascular, gut-microbiome, integrative models
-- **[Part III — Treatment:](part3-treatment/)** Symptom management, medications, supplements, lifestyle interventions, emerging therapies
-- **[Part IV — Research Evidence:](part4-research/)** Biomarker research, clinical trials, mechanistic studies, epidemiology, controversies
-- **[Part V — Quantitative Modeling:](part5-modeling/)** Mathematical models of disease dynamics using ordinary differential equations
+- **[Part I — Clinical Presentation:](part1-clinical/ch01-introduction/01-introduction-to-me-cfs.html)** — Core and additional symptoms, diagnostic criteria, disease course
+- **[Part II — Pathophysiology:](part2-pathophysiology/ch07-energy-metabolism/01-energy-metabolism-and-mitochondrial-function.html)** — Energy metabolism, immune dysfunction, neurological, endocrine, cardiovascular, gut-microbiome, integrative models
+- **[Part III — Treatment:](part3-treatment/ch21-mechanism-treatment-map/01-mechanism-treatment-map.html)** — Symptom management, medications, supplements, lifestyle interventions, emerging therapies
+- **[Part IV — Research Evidence:](part4-research/ch34-research-methods/01-me-cfs-specific-research-methods.html)** — Biomarker research, clinical trials, mechanistic studies, epidemiology, controversies
+- **[Part V — Quantitative Modeling:](part5-modeling/ch48-modeling-foundations/01-foundations-of-me-cfs-modeling.html)** — Mathematical models of disease dynamics using ordinary differential equations
 
 Use the **sidebar** to browse chapters and sections. Each page has its own table of contents.
 
