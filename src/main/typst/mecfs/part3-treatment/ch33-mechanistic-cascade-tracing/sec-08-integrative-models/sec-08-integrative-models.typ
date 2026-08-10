@@ -8,3 +8,5 @@
 
 #include "subsec-03-hormetic-dose-response-multi-target-optimization/subsec-03-hormetic-dose-response-multi-target-optimization.typ"
 
+#include "subsec-04-innate-immune-hyperactivation-cascade/subsec-04-innate-immune-hyperactivation-cascade.typ"
+

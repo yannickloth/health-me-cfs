@@ -160,7 +160,7 @@ Corrective — eliminates food antigens driving immune activation; if food antig
 
 === Anakinra
 
-*Appears in:* Cross-reference matrix Group A.
+*Appears in:* Cross-reference matrix Group A, @sec:innate-immune-hyperactivation-cascade U2.
 Corrective — blocks IL-1 receptor, interrupting IL-1β-driven autoinflammatory amplification; does not address IL-1β source
 
 
@@ -428,7 +428,7 @@ Corrective — natural metformin analog; AMPK activation restoring metabolic eff
 
 === Canakinumab
 
-*Appears in:* Cross-reference matrix Group A.
+*Appears in:* Cross-reference matrix Group A, @sec:innate-immune-hyperactivation-cascade U2.
 Corrective — blocks IL-1β specifically, interrupting autoinflammatory amplification; does not address IL-1β source
 
 
@@ -582,7 +582,7 @@ Corrective — P2Y12 inhibitor reducing platelet aggregation — research-stage 
 
 === Colchicine
 
-*Appears in:* Cross-reference matrix Group A.
+*Appears in:* Cross-reference matrix Group A, @sec:innate-immune-hyperactivation-cascade U2.
 Corrective — microtubule inhibitor with NLRP3 inflammasome suppression; anti-inflammatory with narrow therapeutic window
 
 
@@ -610,7 +610,7 @@ Corrective — microtubule inhibitor with NLRP3 inflammasome suppression; anti-i
 
 === Corticosteroids (Prednisone, Methylprednisolone, Hydrocortisone)
 
-*Appears in:* Cross-reference matrix, @sec:hpa-axis.
+*Appears in:* Cross-reference matrix, @sec:hpa-axis, @sec:innate-immune-hyperactivation-cascade U1.
 #strong[HD] Threshold-modulatory — suppresses inflammation broadly via glucocorticoid receptor; does not address inflammatory driver — HPA suppression risk.
 
 
@@ -1385,7 +1385,7 @@ Corrective — zonulin antagonist reducing intestinal permeability; if leaky gut
 
 === LDN (Low-Dose Naltrexone)
 
-*Appears in:* @sec:trpm3-cascade A2, @sec:microglial-cascade K2d, @sec:dopamine-convergence, cross-reference matrix. #emph[Clinical reference:] Chapter 32, @ch:medication-response-reference, LDN section — response interpretation, side effects per dose zone, combination inference, dose-dependent differential.
+*Appears in:* @sec:trpm3-cascade A2, @sec:microglial-cascade K2d, @sec:innate-immune-hyperactivation-cascade U3, @sec:dopamine-convergence, cross-reference matrix. #emph[Clinical reference:] Chapter 32, @ch:medication-response-reference, LDN section — response interpretation, side effects per dose zone, combination inference, dose-dependent differential.
 #strong[HD] Mixed — Restorative (TRPM3 Ca²⁺ influx restoration at 3.0–4.5 mg) + Corrective (TLR4/Nrf2 hormetic anti-inflammatory priming at 0.5–1.5 mg + compensatory endorphin upregulation at 1.5–3.0 mg). Dose-dependent: higher doses are more restorative; lower doses are threshold-modulatory/corrective.
 
 
@@ -1723,7 +1723,7 @@ Corrective — AMPK activation restoring metabolic efficiency + reducing mTORC1 
 
 === Minocycline
 
-*Appears in:* @sec:microglial-cascade K1, cross-reference matrix.
+*Appears in:* @sec:microglial-cascade K1, @sec:innate-immune-hyperactivation-cascade U3, cross-reference matrix.
 Corrective — microglial anti-inflammatory + MMP-9 inhibition + neuroprotective; multi-mechanism tetracycline
 
 
