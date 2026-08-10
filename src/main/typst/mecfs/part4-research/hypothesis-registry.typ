@@ -1126,6 +1126,19 @@ This registry collects all hypotheses, speculations, open questions, and predict
 )
 
 #registry-entry(
+  [Systemic Innate-Immune Hyperactivation as a Drug-Addressable Driver of Fatigue/PEM],
+  type: "H",
+  certainty: "0.55",
+  evidence: [Che et al.\ 2025 (Lipkin multi-site multi-omics + ex-vivo microbial stimulation) @che2025innate and Hornig et al.\ 2015 plasma immune signatures @Hornig2015 document an exaggerated innate immune response that worsens after exercise and correlates with fatigue/PEM. Consistent with ch18 TLR4/NF-$kappa$B PEM amplification @hyp:tlr4-nfkb-pem-amplifier. Cohort overlap: Che 2025 and Hornig 2015 share the Columbia multi-site program — these are overlapping sources, not independent replications.],
+  citations: [@che2025innate,@Hornig2015],
+  mechanism: [Infectious/microbial-antigen trigger → exaggerated innate TLR/NF-$kappa$B and NLRP3-inflammasome response → systemic chronic inflammation → downstream metabolic (TCA/beta-oxidation/urea-cycle) and tryptophan-kynurenine amplification → fatigue and PEM worsened by exercise.],
+  chapter-ref: [ch33 sec-08 innate-immune-hyperactivation-cascade (@sec:innate-immune-hyperactivation-cascade); ch08 @sec:innate-immunity @sec:immune-activation; ch18 @hyp:tlr4-nfkb-pem-amplifier; ch17 @sec:multi-lock-trap],
+  prediction: [Qualitatively different drug-response patterns separate an innate-immune driver from metabolic-triage and CNS-confined neuroinflammation: (a) if systemic innate immunity is rate-limiting, broad anti-inflammatories give partial relief and inflammasome/IL-1 blockers (colchicine, anakinra, canakinumab) improve a subset; (b) if metabolic-triage dominates (@sec:triage-cascade), anti-inflammatories fail to relieve fatigue; (c) if the driver is CNS-confined (cf. Omdal CNS-compartment hypothesis), peripherally-restricted anti-inflammatories (NSAIDs, colchicine) fail while CNS-penetrant agents (LDN, minocycline) succeed. Falsified if anti-inflammatory response patterns are uniform across all ME/CFS patients in all three scenarios.],
+  treatment: [Sequential, mechanism-probing trial of broad anti-inflammatory → inflammasome/IL-1 blocker → CNS-penetrant immunomodulator, each with the monitoring, interaction, and stopping guidance in @sec:medication-reference. Research-stage; no clinical recommendation.],
+  limitation: [Che 2025 is cross-sectional with severity distribution unstated (severity coverage unknown) and uses ex-vivo blood/plasma to infer systemic tissue inflammation (compartment gap, Doc C). Competes with the CNS-confined-peripheral-null hypothesis — differential drug response is the deciding test, not inflammatory-marker presence alone. Origin: /integrate-topic innate-immunity-che2025 (scoped cascade micro-add).],
+)
+
+#registry-entry(
   [Corticosteroid-Induced Transcriptional Reprogramming Creates Pathological "Stuck State"],
   type: "H",
   certainty: "0.50",
@@ -5045,3 +5058,99 @@ This registry collects all hypotheses, speculations, open questions, and predict
   limitation: [Cross-study marker panels differ; none run on comorbidity-screened ME/CFS cohorts. Inference from cross-disease panels, not direct ME/CFS replication. Severity applicability unknown. (Origin: /integrate-topic dementia-inflammation — brainstorm.)],
 )
 
+= Entries added 2026-08-10: AI Multi-Omics Modeling (BioMapAI) — Dysbiotic Crosstalk
+
+#registry-entry(
+  [Dysbiotic Microbiome-Immune-Metabolome Crosstalk with a Benzoate-to-Hippurate Axis in ME/CFS],
+  type: "H",
+  certainty: "0.50",
+  evidence: [BioMapAI (n=249; 96 controls, 153 ME/CFS; 4-year longitudinal; 515 timepoints) integrated gut metagenomics, plasma metabolomics, immune profiling, blood labs, and 12 symptoms; classification AUC=0.99 with held-out + four external-cohort validation @Xiong2025BioMapAI. Connectivity map: decreased butyrate/BCAA pathways, increased tryptophan/benzoate pathways, heightened MAIT/gamma-delta T-cell IFN-gamma + granzyme A, increase in benzoate-to-hippurate linked to sleep/emotional/fatigue symptoms. Pillars individually supported: butyrate deficiency @Xiong2023multiomics; tryptophan/kynurenine diversion @Kavyani2022kynurenine; T-cell remodeling @Shahbaz2026single-cell-immune @Lee2025TcellActivation; hippuric acid elevated in post-infectious syndromes @Brigo2025UremicMetabolites and fibromyalgia @Malatji2017FibromyalgiaMetabolomics. The model classification is strong (0.90); the specific directional causal claims of the axis rest on the model's association structure.],
+  citations: [@Xiong2025BioMapAI @Xiong2023multiomics @Kavyani2022kynurenine @Shahbaz2026single-cell-immune @Lee2025TcellActivation @Brigo2025UremicMetabolites @Malatji2017FibromyalgiaMetabolomics],
+  mechanism: [Gut dysbiosis → altered microbial-metabolite output (decreased SCFA/BCAA, increased tryptophan/benzoate) → read by immune system and reflected in plasma lipids/bile acids → inflammatory innate-like T-cell activity (MAIT/gamma-delta IFN-gamma, granzyme A) → symptom burden; benzoate-to-hippurate (hepatic glycine conjugation of microbial benzoate) as a readout of the axis. Causal direction (which compartment drives which) not established.],
+  chapter-ref: [ch15: @hyp:biomapai-dysbiotic-crosstalk-benzoate-hippurate; @ach:biomapai-multi-omics-integration; ch12: @sec:multi-omic-microbiome],
+  prediction: [In an independent ME/CFS cohort with paired metagenomics + plasma/urine metabolomics: (a) reduced butyrate/BCAA-producing taxa + reduced metabolites; (b) increased benzoate and hippurate; (c) significant positive correlation between urinary/plasma hippurate (or benzoate-pathway score) and fatigue/sleep/emotional severity. If benzoate-to-hippurate is only a global-dysbiosis marker, it should not independently predict symptom severity after adjusting for dysbiosis burden.],
+  treatment: [No clinical treatment recommendation. If replicated, benzoate-to-hippurate axis is a candidate measurable readout of the microbial-immune interface tied to specific ME/CFS symptoms — for monitoring illness burden and response to microbiome-modulating strategies. Research-stage only.],
+  limitation: [Symptom-specific biomarkers were computed on the full dataset and not held-out validated. Single-country (US) cohort, n=249. Associative, not causal. Benzoate-to-hippurate axis supported by the model plus small pilots (Brigo n=41, Malatji n=18). Tension: model shows MAIT/gamma-delta ACTIVATION while single-cell data show DEPLETION in Long-COVID ME/CFS (reconcilable as activation-then-exhaustion trajectory but unresolved). Severity applicability unknown — cohort not stratified. (Origin: /integrate-topic ai-multiomics-mecfs-xiong2025.)],
+)
+
+#registry-entry(
+  [A Cross-Layer Coordination Signature, Not Any Single Marker, Defines ME/CFS],
+  type: "H",
+  certainty: "0.60",
+  evidence: [BioMapAI PCoA: each omics layer alone leaves patients indistinguishable from controls (microbiome, plasma metabolome, immune profile overlap heavily); only integration separates groups with high accuracy @Xiong2025BioMapAI. Consistent with discrepancy framework (single-resting-measurement domains miss the disease @syn:subjective-measurable-discrepancy-index). Observation directly reported + methodological foundation of model necessity; the stronger claim that the specific cross-layer correlation structure is diagnostic/reproducible not yet independently confirmed.],
+  citations: [@Xiong2025BioMapAI],
+  mechanism: [ME/CFS pathology is a pathological coordination (association) structure across compartments — normal correlated relationships between microbiome, immune system, and metabolome are rewired, even though each layer's marginal distribution is largely preserved.],
+  chapter-ref: [ch15: @hyp:coordination-signature-defines-mecfs],
+  prediction: [Independent multi-omics ME/CFS cohort: (a) each single omics layer alone fails to robustly separate (AUC below ~0.80); (b) a model integrating the cross-layer correlation structure (not just concatenated features) sustains separation (AUC meaningfully higher). Falsified if a single omics layer discriminates as well as the integrated model.],
+  treatment: [No clinical recommendation. If confirmed, biomarker strategy shifts from a single blood marker toward algorithms reading cross-layer relationship patterns.],
+  limitation: [Depends on the observation being reproducible in independent cohorts; not severity-stratified; the "coordination structure" is partly defined by the model's architecture (may not be a natural-kind property). Severity applicability unknown. (Origin: /integrate-topic ai-multiomics-mecfs-xiong2025 — brainstorm.)],
+)
+
+#registry-entry(
+  [Longitudinal Symptom Stability Is Symptom-Specific: Stable Fatigue Core, Labile Emotional Component],
+  type: "S",
+  certainty: "0.30",
+  evidence: [BioMapAI 3-4 year longitudinal data: fatigue persistently severe across years; emotional dysregulation highly variable/unstable @Xiong2025BioMapAI. Single (US) cohort, model-reconstructed/observed timecourse, not independently replicated with dedicated longitudinal symptom time-series.],
+  citations: [@Xiong2025BioMapAI],
+  mechanism: [Different symptoms driven by different biological timescales: stable driver (chronic metabolic or neuroimmune deficit) for fatigue; labile driver (fluctuating gut-metabolic state, autonomic reactivity, state-dependent inflammatory tone) for emotional symptoms.],
+  chapter-ref: [ch15: @spec:longitudinal-symptom-specific-stability],
+  prediction: [Prospective longitudinal ME/CFS cohort with serial monthly scoring over 12+ months: test-retest stability (ICC) significantly higher for fatigue than emotional items; a stable biological measure correlates significantly more strongly with the time-stable fatigue score than the fluctuating emotional score. Falsified if fatigue as labile as emotional symptoms.],
+  treatment: [No clinical recommendation. If confirmed, affects study design (stable vs fluctuating endpoints) and reframes the emotional component as possibly a distinct fluctuating physiology.],
+  limitation: [Single-cohort, model-derived; severity unknown; not replicated. (Origin: /integrate-topic ai-multiomics-mecfs-xiong2025 — brainstorm.)],
+)
+
+= Entries added 2026-08-10: Godlewska 7T MRS — Brain/Muscle Chemistry & Long COVID Divergence
+
+#registry-entry(
+  [Distinct Brain Neurochemical Signatures Distinguish ME/CFS from Long COVID (7T MRS)],
+  type: "H",
+  certainty: "0.50",
+  evidence: [7T MRS head-to-head (24 ME/CFS, 25 long COVID, 24 HC): ME/CFS brain lactate elevated in both pgACC (p=0.004) and dACC (p=0.006); long COVID showed reduced total choline in dACC (p=0.0002); resting calf-muscle metabolites did not differ between groups @Godlewska2025MRS. The ME/CFS brain-lactate elevation is consistent with a 3-organic-lab replication cluster (Mount Sinai: @Murrough2010VentricularLactate, @Natelson2017Lactate; UAB: @Mueller2020MRS).],
+  citations: [@Godlewska2025MRS @Murrough2010VentricularLactate @Natelson2017Lactate @Mueller2020MRS],
+  mechanism: [ME/CFS and long COVID show separable anterior-cingulate neurochemistry (lactate elevation vs choline reduction) despite overlapping clinical symptoms; consistent with distinct underlying neurobiological mechanisms rather than a single pooled post-infectious fatigue. Brain lactate does not uniquely localise a cause (mitochondrial vs astrocyte-lactate-shuttle vs hypoperfusion vs inflammatory-cell glycolysis).],
+  chapter-ref: [ch14d-cross-disease: @hyp:distinct-brain-neurochemistry-mecfs-longcovid; ch09: existing brain-lactate glial-cell environment @Godlewska2025MRS baseline],
+  prediction: [A head-to-head 7T MRS replication will reproduce the divergence (ME lactate elevated, long COVID lactate not; vice versa for choline). Long COVID patients who later meet full ME/CFS criteria will shift toward the ME/CFS lactate-elevation signature. Concurrent perfusion imaging will resolve whether ME/CFS lactate tracks hypoperfusion (vascular) or persists with normal perfusion (mitochondrial/anabolic).],
+  treatment: [No clinical recommendation. If confirmed, argues against pooling ME/CFS and long COVID in treatment trials and supports MRS as a stratification/mechanistic-readout tool (research-stage).],
+  limitation: [Single-site 7T cohort, not yet independently replicated at 7T; cross-sectional (no causation); choline direction is region/age/condition-dependent (Pajuelo corpus-callosum increase @Pajuelo2024CorpusCallosum; Mueller cingulate increase @Mueller2020MRS) so should not be generalised. Severity applicability unknown -- cohort not severity-stratified. (Origin: /integrate-topic godlewska-7t-mrs-brain-muscle.)],
+)
+
+#registry-entry(
+  [Long COVID Dorsal-Cingulate Choline Reduction: Coagulation and "Brain Fog" Substrate],
+  type: "S",
+  certainty: "0.35",
+  evidence: [Reduced total choline (tCho) in dorsal anterior cingulate of long COVID patients (p=0.0002) @Godlewska2025MRS. Author-linked to the blood-clot/brain-fog association and to animal work showing choline can prevent intravascular coagulation. Purely associative and cross-sectional; no in-cohort coagulation assay and no causal demonstration. Direction heterogeneity: Pajuelo corpus-callosum choline increase in older patients @Pajuelo2024CorpusCallosum; Mueller cingulate choline increase in ME/CFS @Mueller2020MRS.],
+  citations: [@Godlewska2025MRS @Pajuelo2024CorpusCallosum @Mueller2020MRS],
+  mechanism: [Brain-region-specific choline deficit in long COVID may reflect altered membrane phospholipid metabolism; speculative link to a pro-coagulant local milieu relevant to cognitive symptoms via choline's role in the one-carbon/anticoagulation axis.],
+  chapter-ref: [ch14d-cross-disease: @spec:long-covid-dacc-choline],
+  prediction: [(1) Long COVID patients with low dACC choline will show elevated coagulation/fibrinolysis markers (D-dimer, fibrinogen, microclot assay) relative to those with normal choline. (2) If choline's anticoagulant role were causal, dietary choline supplementation would raise dACC choline and lower coagulation markers. Falsified if dACC choline is unrelated to coagulation markers and cognitive severity.],
+  treatment: [No clinical recommendation; no evidence choline supplementation changes long COVID brain chemistry or symptoms.],
+  limitation: [Associative, cross-sectional, single cohort; no coagulation co-measure; choline direction heterogeneous across regions/ages/conditions. Severity applicability unknown. (Origin: /integrate-topic godlewska-7t-mrs-brain-muscle.)],
+)
+
+= Entries added 2026-08-10: Dedicated Sickness/Torpor Neural Circuits & Symptom Persistence
+
+#registry-entry(
+  [Neuroinflammation-Activated Dedicated Sickness and Torpor Neural Circuits Generate ME/CFS Core Symptoms],
+  type: "H",
+  certainty: "0.45",
+  evidence: [Komaroff & Dantzer 2025 (Cell Reports Medicine) synthesize the sickness-behavior and torpor framework @KomaroffDantzer2025SymptomPersistence: dedicated neural circuits -- area postrema to brainstem (suppresses eating/drinking/movement), organum vasculosum to ventromedial preoptic area (appetite suppression, warmth seeking, fever), and median preoptic nucleus to torpor (hypometabolic, reduced ATP) -- are activated by neuroinflammation and generate stereotyped symptom bundles. The rodent circuits are well-established (raw 0.62 @Hrvatin2020TorporNeurons, @Machado2025PreopticSwitch) but application to chronic human ME/CFS is inferential (translation gap -> 0.31); review-level integration supports a 0.45 working hypothesis.],
+  citations: [@KomaroffDantzer2025SymptomPersistence @Hrvatin2020TorporNeurons @Machado2025PreopticSwitch],
+  mechanism: [Peripheral abnormalities (endothelial, autoantibody, mitochondrial, dysbiosis) and intrinsic neuroinflammation converge on microglial/astrocyte activation; neuroinflammation activates dedicated sickness/torpor circuits whose output is the ME/CFS symptom set (fatigue, cognitive slowing, malaise). A defective neural-circuit switch (preoptic EP3R two-way switch @Machado2025PreopticSwitch) could leave these circuits chronically engaged, sustaining symptoms.],
+  chapter-ref: [ch18: @hyp:ch15-sickness-torpor-circuits; ch16: amplifier layer; ch07: torpor/hypometabolic switch],
+  prediction: [If a dedicated sickness/torpor circuit mediates ME/CFS fatigue and PEM, then neuroinflammation-sensitive functional imaging (TSPO-PET or task fMRI) of the area postrema, ventromedial preoptic area, and median preoptic nucleus should track symptom severity and rise with post-exertional provocation; interventions that quell neuroinflammation should reduce both circuit activation and symptoms. Absence of any circuit-specific imaging change with symptoms would falsify the dedicated-circuit (versus diffuse-inflammation) claim.],
+  treatment: [Research-stage only. Principal treatment implication is to target neuroinflammation directly (the hub activating these circuits); traditional anti-inflammatory drugs are predicted to be inadequate; novel anti-inflammatory/inflammasome-directed therapies under investigation. No ME/CFS dosing or efficacy data exist.],
+  limitation: [Circuits demonstrated in rodents; chronic human engagement not directly evidenced (translation gap). Review-based inference, not primary ME/CFS data. Severity applicability unknown. (Origin: /integrate-topic komaroff-dantzer-symptom-persistence.)],
+)
+
+#registry-entry(
+  [Symptom Persistence Arises from Self-Reinforcing Vicious Cycles Across Underlying Abnormalities],
+  type: "H",
+  certainty: "0.45",
+  evidence: [Komaroff & Dantzer 2025 synthesize bidirectional reinforcement among abnormalities (mitochondrial injury <-> inflammation; redox <-> energy; redox <-> endothelial; endothelial+NK+neuroinflammation; spike/fibrin pro-inflammatory epitope) as vicious cycles that perpetuate pathology and symptoms @KomaroffDantzer2025SymptomPersistence. Each individual connection is supported by the primary literature the review cites; the unified vicious-cycle model is the review's integrative claim and is consistent with but not directly proven as a closed loop in patients.],
+  citations: [@KomaroffDantzer2025SymptomPersistence @Baraniuk2024NKCytotoxicity],
+  mechanism: [Chronicity results not from one lesion but from persistent agents/antigens + defective resolution + reactivation + dysbiosis + autoimmunity + a defective circuit switch, amplified by positive-feedback loops among the biological abnormalities -- so that correcting any single abnormality may not break the cycle.],
+  chapter-ref: [ch16: chronicity/amplifier synthesis],
+  prediction: [If self-reinforcing vicious cycles sustain the illness, then (a) severity should correlate with the NUMBER of co-active abnormalities and bidirectional constraints, not any single marker; (b) therapies that break a single node should show partial but not complete remission; (c) residual unexplained variance should persist when any one abnormality is corrected. Falsified if correcting one specific abnormality reliably induces sustained remission in a substantial fraction of patients.],
+  treatment: [Research-stage frame; argues for combination/multi-target strategies and for monitoring multiple abnormality axes. No specific clinical dosing recommendation.],
+  limitation: [Integrative/synthesis claim (review), not a single testable primary finding; the closed-loop structure is inferred, not measured directly. Severity applicability unknown. (Origin: /integrate-topic komaroff-dantzer-symptom-persistence.)],
+)

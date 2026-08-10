@@ -10904,5 +10904,25 @@
     "label": "Warburg effect",
     "category": "concept",
     "definition": "The metabolic shift from oxidative phosphorylation to aerobic glycolysis, originally described in cancer cells but also characteristic of activated immune cells."
+  },
+  "torpor": {
+    "label": "torpor",
+    "category": "pathway",
+    "definition": "An evolutionarily conserved hypometabolic state, analogous to hibernation in miniature, in which the body sharply reduces ATP-generating metabolism to conserve energy; mediated by dedicated preoptic neural circuits and invoked as a model for the low-energy metabolic state in some people with ME/CFS and long COVID."
+  },
+  "area postrema": {
+    "label": "area postrema",
+    "category": "anatomy",
+    "definition": "A brainstem sensory circumventricular organ that senses circulating inflammatory signals and nausea/vomiting triggers and, in animal models, is the origin of a neural circuit that suppresses eating, drinking, and movement (sickness behavior)."
+  },
+  "ventromedial preoptic area": {
+    "label": "ventromedial preoptic area",
+    "category": "anatomy",
+    "definition": "A hypothalamic region that receives inflammatory signals to produce appetite suppression, warmth-seeking, and fever — a component of the sickness behavior circuitry."
+  },
+  "median preoptic nucleus": {
+    "label": "median preoptic nucleus",
+    "category": "anatomy",
+    "definition": "A hypothalamic nucleus whose neurons, in rodents, regulate entry into and exit from a torpor-like hypometabolic state; relevant as a neural circuit that may mediate the low-energy metabolic state proposed in ME/CFS."
   }
 }

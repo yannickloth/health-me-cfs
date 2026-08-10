@@ -4683,6 +4683,68 @@ This multi-hit model explains why simple volume expansion (saline infusion) prov
         - Mechanistic explanation for reduced serotonin precursor availability and neurotransmitter imbalances in ME/CFS
 
 
+=== Murrough et al.\ 2010 — Increased Ventricular Lactate in CFS vs Major Depressive Disorder
+
+    *Full Citation:*: Murrough JW, Mao X, Collins KA, et al.\ Increased ventricular lactate in chronic fatigue syndrome measured by 1H MRS imaging at 3.0 T. II: comparison with major depressive disorder. _NMR in Biomedicine_. 2010;23(6):643–650.
+    *DOI:*: #link("https://doi.org/10.1002/nbm.1512")[10.1002/nbm.1512]
+    *PMID:*: 20661876
+    *Sample Size:*: n=17 CFS, n=21 MDD, n=19 healthy controls
+    *Key Findings:*:
+        - Ventricular CSF lactate significantly elevated in CFS vs healthy controls, replicating a prior Shungu-group study
+        - Ventricular lactate in major depressive disorder did not differ from healthy controls
+        - Lactate correlated with severity of mental fatigue specific to the CFS group
+    *Conclusion:*: Brain MRS lactate distinguishes CFS from major depressive disorder despite symptom overlap, supporting lactate as a differential biomarker.
+    *Limitations:*: Single center; modest sample; ventricular CSF (global) rather than tissue-specific measurement.
+
+=== Jones et al.\ 2025 — Neurometabolite Alterations in Gulf War Illness (Whole-Brain MRS)
+
+    *Full Citation:*: Jones C, Haskin O, Younger J. Neurometabolite alterations in Gulf War Illness: a whole-brain magnetic resonance spectroscopy study. _Experimental Brain Research_. 2025;243(11):237.
+    *DOI:*: #link("https://doi.org/10.1007/s00221-025-07174-w")[10.1007/s00221-025-07174-w]
+    *PMID:*: 41137912
+    *Sample Size:*: n=20 GWI veterans, n=20 healthy veterans
+    *Key Findings:*:
+        - Widespread decreases in brain choline, N-acetylaspartate, and creatine in GWI vs healthy veterans
+        - Regional elevations in lactate and brain temperature
+        - No group difference in cerebral perfusion
+    *Conclusion:*: Chronic fatigue syndromes can share a brain metabolite signature (choline decrease, lactate increase); cross-disease parallel to ME/CFS lactate and long-COVID choline findings.
+    *Limitations:*: Small sample; same UAB (Younger) methodology as the ME/CFS Mueller study, so not an independent methodological replication.
+
+=== Sklinda et al.\ 2021 — Ischaemic Background of Brain Fog in Long-Haul COVID (MRS)
+
+    *Full Citation:*: Sklinda K, Górecki A, Dorobek M, et al.\ Ischaemic background of brain fog in long-haul COVID-19 — a nuclear magnetic resonance spectroscopy-based metabonomic analysis. Preliminary results. _Polish Journal of Radiology_. 2021;86:e654–e660.
+    *DOI:*: #link("https://doi.org/10.5114/pjr.2021.111100")[10.5114/pjr.2021.111100]
+    *PMID:*: 35059058
+    *Sample Size:*: n=11 brain-fog long COVID, n=14 healthy controls
+    *Key Findings:*:
+        - Routine MRI showed no macroscopic changes, but 1H MRS showed Glx and Lac concentration changes in brain fog patients
+        - Authors infer a probable ischaemic background to symptomatic brain fog
+    *Conclusion:*: Supports brain energy-metabolite alteration in long COVID, concordant with a hypoperfusion/ischaemia mechanism rather than a primary structural lesion.
+    *Limitations:*: Pilot, very small sample, preliminary.
+
+=== Pajuelo et al.\ 2024 — Choline in the Corpus Callosum of Post-COVID Patients
+
+    *Full Citation:*: Pajuelo D, Dezortova M, Hajek M, et al.\ Metabolic changes assessed by 1H MR spectroscopy in the corpus callosum of post-COVID patients. _MAGMA_. 2024;37(5):937–946.
+    *DOI:*: #link("https://doi.org/10.1007/s10334-024-01171-w")[10.1007/s10334-024-01171-w]
+    *PMID:*: 38865058
+    *Sample Size:*: n=58 post-COVID, n=23 healthy controls
+    *Key Findings:*:
+        - Choline INCREASED in the splenium of the corpus callosum in OLDER (>40y) post-COVID patients only (p=0.02)
+        - No difference between symptomatic and asymptomatic patients
+    *Conclusion:*: Contrasts with the Godlewska dACC choline DECREASE; choline direction is region- and age-dependent, not a uniform reduction across the long-COVID brain.
+    *Limitations:*: Single region (corpus callosum splenium); age-dependent effects limit generalizability.
+
+=== Bravi et al.\ 2025 — Long-Term Effect of COVID-19 on Brain Metabolism and Connectivity
+
+    *Full Citation:*: Bravi B, Paolini M, Colombo F, et al.\ Long term effect of COVID-19 on brain metabolism and connectivity. _Neuroscience_. 2025;580:1–8.
+    *DOI:*: #link("https://doi.org/10.1016/j.neuroscience.2025.06.015")[10.1016/j.neuroscience.2025.06.015]
+    *PMID:*: 40516783
+    *Sample Size:*: n=64 COVID-19 survivors, n=33 healthy controls
+    *Key Findings:*:
+        - Higher glutamate and N-acetylaspartate in COVID-19 survivors vs controls, with a positive association with cognitive complaints
+        - Higher fractional anisotropy, lower diffusivity
+    *Conclusion:*: Offers a competing interpretation to an energy-deficit reading: brain metabolites may reflect repair/remyelination after SARS-CoV-2 infection.
+    *Limitations:*: Cross-sectional at 3 years; interpretation of NAA/glutamate as cumulative repair is indirect.
+
 // =============================================================================
 
 == Prognosis and Outcomes
@@ -7063,6 +7125,18 @@ _Note: This bibliography was compiled in January 2025 and updated March 2026. Th
         - *Certainty: 0.75* — rigorous in vitro biochemistry; core reference for KGDHC-ROS field
 
     *Relevance:*: Every inactivating condition described — elevated H#sub[2]O#sub[2], HNE from lipid peroxidation, elevated NADH/NAD#super[+] — is independently documented in ME/CFS (Shankar 2025: elevated ROS and HNE; Heng 2025: elevated NAD#super[+] in PBMCs with impaired reduction). KGDHC is therefore _mechanistically predicted_ to be impaired in ME/CFS, but has never been measured (G17). The positive feedback loop (KGDHC inhibition → less NADH reduction → more E3 ROS → more KGDHC inhibition) could sustain a self-amplifying vicious cycle.
+
+=== Naegel et al.\ 2023 — Skeletal Muscle Energy Metabolism by Dynamic 31P MRS in COVID-19 and MS
+
+    *Full Citation:*: Naegel A, Ratiney H, Karkouri J, et al.\ Alteration of skeletal muscle energy metabolism assessed by 31P MRS in clinical routine: Part 2. Clinical application. _NMR in Biomedicine_. 2023;36(12):e5031.
+    *DOI:*: #link("https://doi.org/10.1002/nbm.5031")[10.1002/nbm.5031]
+    *PMID:*: 37797947
+    *Sample Size:*: n=19 COVID-19 patients, n=38 multiple sclerosis, n=40 matched healthy controls
+    *Key Findings:*:
+        - Dynamic 31P-MRS with exercise/recovery protocol showed reduced muscle oxidative capacity (prolonged $tau$PCr, reduced Vmax) in both COVID-19 and MS vs controls
+        - Resting phosphocreatine differences were inconsistent (PCr lower in MS only); the robust membrane markers of oxidative impairment appeared in recovery dynamics
+    *Conclusion:*: The muscle bioenergetic deficit in post-viral/neuroimmune fatigue is largely exercise-provoked and visible in recovery kinetics, reconciling the Godlewska resting-muscle null with the exercised-muscle deficit literature.
+    *Limitations:*: COVID-19 cohort likely heterogeneous in severity/timing; advanced quality-control pipeline reduced final analyzable sample.
 
 // =============================================================================
 
@@ -32789,3 +32863,180 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - *Sample:*: 42 studies
         - *Replication:*: Across multiple studies per protein
         - *Score:*: 0.70 (weight: 1.00 [ME/CFS cohort]; discounted: 0.70)
+
+=== Xiong et al.\ 2025 — AI-Driven Multi-Omics Modeling of ME/CFS (BioMapAI)
+
+    *Full Citation:*: Xiong R, Aiken E, Caldwell R, Vernon SD, Kozhaya L, Gunter C, Bateman L, Unutmaz D, Oh J. AI-driven multi-omics modeling of myalgic encephalomyelitis/chronic fatigue syndrome. _Nature Medicine_. 2025;31(9):2991–3001. @Xiong2025BioMapAI
+    *DOI:*: #link("https://doi.org/10.1038/s41591-025-03788-3")[10.1038/s41591-025-03788-3]
+    *PMID:*: 40715814
+    *Published:*: 25 July 2025 (Epub); Sep 2025 (issue)
+    *Study Design:*: Prospective longitudinal multi-omics cohort; supervised deep neural network (BioMapAI); explainable AI (SHAP).
+    *Key Findings:*:
+        - BioMapAI integrates gut metagenomics, plasma metabolomics, immune cell profiling, blood labs, and 12 clinical symptoms from 249 participants (96 healthy, 153 ME/CFS; 515 timepoints over 4 years)
+        - Disease classification AUC=0.99; validated on held-out and 4 independent external cohorts (Guo, Raijmakers microbiome; Germain, Che metabolome)
+        - Constructs a microbiome–immune–metabolome connectivity map adjusted for age/gender/clinical factors
+        - Dysbiotic crosstalk: decreased butyrate and branched-chain amino acid pathways; increased tryptophan and benzoate pathways, linked to GI symptoms
+        - Heightened inflammatory activity in mucosal-associated invariant T (MAIT) and γδ T cell subsets secreting IFN-γ and Granzyme A
+        - Increased benzoate→hippurate transformation associated with emotional disturbance, sleep issues, and fatigue
+        - Heterogeneity: fatigue persistently severe; emotional dysregulation variable; controls indistinguishable from patients on any single omics layer alone
+    *Conclusion:*: Provides systems-level integration of the gut microbiome, immune system, and plasma metabolome in ME/CFS, refining existing hypotheses (butyrate/BCAA deficiency, tryptophan diversion, immune activation, metabolic dysbiosis) and nominating a specific benzoate→hippurate–symptom axis.
+    *Limitations:*: Symptom-specific biomarkers computed on the full dataset and not validated on held-out data; single-country (US) cohort, n=249; associative not causal; no interventional validation; competing interest (S.D. Vernon — The BioCollective kit vendor).
+    *Certainty Assessment:*:
+        - *Quality:*: High (top journal, rigorous multi-omics + AI)
+        - *Sample:*: n=249 ME/CFS cohort (96 healthy, 153 ME/CFS)
+        - *Replication:*: External validation in 4 independent cohorts; held-out validation partial (symptom-level gaps)
+        - *Score:*: 0.90 (weight: 1.00 [ME/CFS cohort]; discounted: 0.90)
+
+=== Brigo et al.\ 2025 — Uremic Bacterial Metabolites in Post-COVID-19 Syndrome
+
+    *Full Citation:*: Brigo N, Mayr W, Taenzer M, Löffler-Ragg J, Schroll A, Engl S, Schütz B, Rappl P, Heine T, Weiss G, Kurz K. Concentrations of uremic bacterial metabolites in patients with post-COVID-19 syndrome. _Frontiers in Cellular and Infection Microbiology_. 2025;15:1582972. @Brigo2025UremicMetabolites
+    *DOI:*: #link("https://doi.org/10.3389/fcimb.2025.1582972")[10.3389/fcimb.2025.1582972]
+    *PMID:*: 40510799
+    *Published:*: 29 May 2025
+    *Study Design:*: Pilot case-control; mass-spectrometry urine metabolomics.
+    *Key Findings:*:
+        - Elevated tryptamine, HPHPA (4-hydroxyphenylpropionic acid), hippuric acid, and trimethylamine exclusively in patients with post-infectious syndromes (post-COVID and ME/CFS)
+        - Elevated bacterial uremic metabolites in 64% of post-COVID patients vs 37.5% of controls and ME/CFS
+        - Supports the gut-dysbiosis → microbial-metabolite → systemic-signaling axis overlapping post-infectious fatigue
+    *Conclusion:*: Urine metabolomic fingerprinting of bacterial metabolites is a promising approach for probing gut dysbiosis in post-infectious fatigue syndromes, consistent with the benzoate→hippurate axis highlighted by the Xiong model.
+    *Limitations:*: Small pilot (n=41: 25 PCS, 8 ME/CFS, 8 controls); overall BUM levels not significantly different between groups; exploratory clustering.
+    *Certainty Assessment:*:
+        - *Quality:*: Adequate (peer-reviewed pilot)
+        - *Sample:*: Small (n=41)
+        - *Replication:*: Single study
+        - *Score:*: 0.30 (weight: 0.85 [post-infectious]; discounted: 0.26)
+
+=== Malatji et al.\ 2017 — Fibromyalgia Diagnostic Metabolomics and Hippuric Acid
+
+    *Full Citation:*: Malatji BG, Meyer H, Mason S, Engelke UFH, Wevers RA, van Reenen M, Reinecke CJ. A diagnostic biomarker profile for fibromyalgia syndrome based on an NMR metabolomics study of selected patients and controls. _BMC Neurology_. 2017;17(1):88. @Malatji2017FibromyalgiaMetabolomics
+    *DOI:*: #link("https://doi.org/10.1186/s12883-017-0863-9")[10.1186/s12883-017-0863-9]
+    *PMID:*: 28490352
+    *Published:*: 11 May 2017
+    *Study Design:*: Urinary 1H-NMR metabolomics; case-control with multiple control groups.
+    *Key Findings:*:
+        - Significant increases in gut-microbiome-related metabolites (hippuric, succinic, lactic acids) in fibromyalgia vs controls
+        - Diagnostic algorithm (succinic acid, taurine, creatine) achieved ROC AUC ~0.90
+        - Supports hippuric acid as a cross-condition marker of altered microbiome–host metabolite flux in chronic pain/fatigue
+    *Conclusion:*: Independent evidence that gut-microbiome-derived hippurate is elevated in a chronic pain syndrome overlapping ME/CFS, reinforcing the benzoate→hippurate axis the Xiong model links to symptoms.
+    *Limitations:*: Small (n=18 FMS patients), single centre, largely female cohort; cross-sectional; associative.
+    *Certainty Assessment:*:
+        - *Quality:*: Adequate (peer-reviewed)
+        - *Sample:*: Small (n=18)
+        - *Replication:*: Single study
+        - *Score:*: 0.25 (weight: 0.80 [fibromyalgia]; discounted: 0.20)
+
+=== Komaroff & Dantzer 2025 — Causes of Symptoms and Symptom Persistence in Long COVID and ME/CFS
+    / *Full Citation:*: Komaroff AL, Dantzer R. Causes of symptoms and symptom persistence in long COVID and myalgic encephalomyelitis/chronic fatigue syndrome. _Cell Reports Medicine_. 2025;6(8):102259. @KomaroffDantzer2025SymptomPersistence
+    / *DOI:*: #link("https://doi.org/10.1016/j.xcrm.2025.102259")[10.1016/j.xcrm.2025.102259]
+    / *Key Findings:*:
+        - Long COVID and ME/CFS together affect an estimated 60–400 million people globally and share similar underlying biological abnormalities (autoantibodies against neural targets, endothelial dysfunction, acquired mitochondrial dysfunction, pro-inflammatory gut microbiome)
+        - Proposes that symptoms are additionally generated by ancient evolutionarily-conserved responses to vital threats — sickness behavior and torpor — mediated by recently discovered dedicated neural circuits (area postrema→brainstem; organum vasculosum→ventromedial preoptic area; median preoptic nucleus→torpor)
+        - These neural circuits constitute a symptom-generating pathway activated by neuroinflammation, which may be targetable therapeutically
+        - Symptom persistence is driven by persistent infectious agents (or their nucleic acids/antigens), residual tissue injury, defective resolution of inflammation, herpesvirus reactivation, gut dysbiosis, autoimmunity, a defective neural-circuit "switch," and mutually reinforcing vicious cycles
+        - Treatment implication: target neuroinflammation directly; traditional anti-inflammatory drugs are unlikely to be effective, novel therapies required
+    / *Conclusion:*: Provides an authoritative unifying synthesis in which the known peripheral abnormalities of long COVID and ME/CFS generate symptoms via neuroinflammation activating dedicated sickness-behavior and torpor neural circuits, with chronicity sustained by positive-feedback vicious cycles.
+    / *Limitations:*: Review (not primary data); the dedicated sickness-behavior/torpor neural circuits have been identified in rodents and are only indirectly evidenced in humans; the neural-circuit model is speculative as applied to chronic illness.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (peer-reviewed review, senior authors)
+        - *Sample:*: n/a (review)
+        - *Replication:*: n/a
+        - *Score:*: 0.78
+
+=== Dantzer 2001 — Cytokine-Induced Sickness Behavior: Mechanisms and Implications
+    / *Full Citation:*: Dantzer R. Cytokine-induced sickness behavior: mechanisms and implications. _Ann NY Acad Sci_. 2001;933:222–234. @Dantzer2001SicknessBehavior
+    / *DOI:*: #link("https://doi.org/10.1111/j.1749-6632.2001.tb05827.x")[10.1111/j.1749-6632.2001.tb05827.x]
+    / *Key Findings:*:
+        - Defines sickness behavior as a coordinated set of behavioral changes (lethargy, anorexia, anhedonia, social withdrawal) developing during infection
+        - Establishes the molecular mechanism: peripheral pro-inflammatory cytokines (IL-1, TNF-α) act on the brain via a fast afferent-nerve (vagal) pathway and a slow humoral pathway (choroid plexus, circumventricular organs)
+        - Frames sickness behavior as the expression of a central motivational state that reorganizes organism priorities to cope with infection
+    / *Conclusion:*: The foundational paper establishing the neuroimmune (cytokine-driven) model of symptom generation that this review builds on.
+    / *Limitations:*: Primarily acute-infection framework; plasticity mechanisms of the sickness motivational state not yet understood.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (foundational, peer-reviewed)
+        - *Sample:*: n/a (review/framework)
+        - *Replication:*: n/a
+        - *Score:*: 0.70
+
+=== Hrvatin et al.\ 2020 — Neurons that Regulate Mouse Torpor
+    / *Full Citation:*: Hrvatin S, Sun S, Wilcox OF, Yao H, Lavin-Peter AJ, Cicconet M, et al. Neurons that regulate mouse torpor. _Nature_. 2020;583:115–121. @Hrvatin2020TorporNeurons
+    / *DOI:*: #link("https://doi.org/10.1038/s41586-020-2387-5")[10.1038/s41586-020-2387-5]
+    / *Key Findings:*:
+        - Identifies neurons in the median preoptic nucleus of the hypothalamus that regulate entry into and exit from torpor
+        - Optogenetic stimulation of these neurons triggers a full torpor-like hypometabolic state even without food deprivation or vital threat; can induce torpor in rats that do not naturally torpor
+    / *Conclusion:*: Provides the neural-circuit basis for treating a torpor-like hypometabolic response — a metabolic analogue of sickness behavior — as a real, circuit-mediated phenomenon relevant to ME/CFS and long COVID hypometabolic changes.
+    / *Limitations:*: Rodent study; the human relevance and the role of these circuits in chronic (not acute) hypometabolic states are not established.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (Nature, optogenetics, replicated)
+        - *Sample:*: n/a (basic neuroscience)
+        - *Replication:*: Independent
+        - *Score:*: 0.62
+
+=== Machado et al.\ 2025 — Preoptic EP3R Neurons Constitute a Two-Way Switch for Fever and Torpor
+    / *Full Citation:*: Machado NLS, Lynch N, Costa LHA, Melville D, Kucukdereli H, Kaur S, et al. Preoptic EP3R neurons constitute a two-way switch for fever and torpor. _Nature_. 2025. @Machado2025PreopticSwitch
+    / *DOI:*: #link("https://doi.org/10.1038/s41586-025-09056-1")[10.1038/s41586-025-09056-1]
+    / *Key Findings:*:
+        - Shows that preoptic EP3 receptor-expressing neurons act as a two-way switch mediating both fever and torpor
+        - Implies a single switchable neural node can route the organism between protective hypermetabolic (fever) and hypometabolic (torpor) states
+    / *Conclusion:*: Directly supports the review's hypothesis of a "defective neural circuit switch" — an on-off mechanism that could become stuck in the "on" (sickness/torpor) position, contributing to chronic symptom persistence.
+    / *Limitations:*: Rodent study; whether a preoptic EP3R switch is chronically engaged in ME/CFS or long COVID is untested.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (Nature)
+        - *Sample:*: n/a (basic neuroscience)
+        - *Replication:*: Recent single-report (2025)
+        - *Score:*: 0.62
+
+=== Sommen et al.\ 2026 — Deep Immunophenotyping Reveals a Fatigue Signature in Long COVID
+    / *Full Citation:*: Sommen SL, Segtnan S, Selvakumar J, Havdal LB, Stiansen-Sonerud T, Gjerstad J, et al. Long COVID: Deep single-cell immunophenotyping and machine learning reveal a general signature for fatigue. _J Transl Med_. 2026;24(1):736. @Sommen2026LCFatigueSignature
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-026-08149-3")[10.1186/s12967-026-08149-3]
+    / *Key Findings:*:
+        - Deep single-cell immunophenotyping plus machine learning in long COVID identifies a general immunophenotypic signature associated with fatigue
+        - Demonstrates that persistent fatigue in long COVID is associated with an ongoing immune signature, not necessarily a serum inflammatory cytokine elevation
+    / *Conclusion:*: Supports the model that persistent symptoms track immune-system state, consistent with a neuroinflammation-focused (rather than serum-cytokine) account of symptom persistence.
+    / *Limitations:*: Single cohort; signature vs. causation not established; ME/CFS not directly studied.
+    / *Certainty Assessment:*:
+        - *Quality:*: Adequate (peer-reviewed, single study)
+        - *Sample:*: Medium cohort
+        - *Replication:*: Single study
+        - *Score:*: 0.50
+
+=== Augustin et al.\ 2026 — Persistent Gut–Immune Axis Dysregulation in Long-Term Post-COVID Syndrome
+    / *Full Citation:*: Augustin M, Picard L, Rauschning D, Zenev E, Pracht E, de Silva US, et al. Persistent Gut–Immune Axis dysregulation in long-term Post-COVID Syndrome: Insights from a prospective, observational, cross-sectional case-control study. _Mucosal Immunology_. 2026;19(3):100328. @Augustin2026GutImmunePASC
+    / *DOI:*: #link("https://doi.org/10.1016/j.mucimm.2026.03.002")[10.1016/j.mucimm.2026.03.002]
+    / *Key Findings:*:
+        - Prospective cross-sectional case-control study demonstrating persistent gut–immune axis dysregulation in long-term post-COVID syndrome
+        - Supports the persistence of gut dysbiosis and mucosal immune disturbance long after acute infection
+    / *Conclusion:*: Provides empirical support for gut dysbiosis as one of the vicious-cycle drivers of symptom persistence in post-acute infection syndrome.
+    / *Limitations:*: Cross-sectional (no longitudinal trajectory); long-COVID only, not ME/CFS.
+    / *Certainty Assessment:*:
+        - *Quality:*: Adequate (peer-reviewed, case-control)
+        - *Sample:*: Medium
+        - *Replication:*: Single study
+        - *Score:*: 0.50
+
+=== Azcue et al.\ 2026 — GPCR Autoantibodies in Post-COVID Condition and Chronic Fatigue Syndrome
+    / *Full Citation:*: Azcue N, Prada A, Del Pino R, Acera M, Fernández-Valle T, Ayo-Mentxakatorre N, et al. Involvement of autoantibodies against G protein-coupled receptors in post-COVID condition and Chronic Fatigue Syndrome. _Scientific Reports_. 2026;16:20609. @Azcue2026GPCRautoAbs
+    / *DOI:*: #link("https://doi.org/10.1038/s41598-026-49131-9")[10.1038/s41598-026-49131-9]
+    / *Key Findings:*:
+        - Case-control study examining functional GPCR autoantibodies in post-COVID condition and ME/CFS
+        - Relevant to the GPCR autoantibody hypothesis and to the shared autoantibody findings in long COVID and ME/CFS
+    / *Conclusion:*: Independent recent evidence that GPCR autoantibodies — a candidate shared pathogenic abnormality — are present in both post-COVID condition and ME/CFS.
+    / *Limitations:*: Case-control (association evidence); small-to-medium; severity stratification not emphasized.
+    / *Certainty Assessment:*:
+        - *Quality:*: Adequate (peer-reviewed, case-control)
+        - *Sample:*: Small-to-medium
+        - *Replication:*: Single study
+        - *Score:*: 0.45
+
+=== Baraniuk et al.\ 2024 — Meta-Analysis of NK Cell Cytotoxicity in ME/CFS
+    / *Full Citation:*: Baraniuk JN, Eaton-Fitch N, Marshall-Gradisnik S. Meta-analysis of natural killer cell cytotoxicity in myalgic encephalomyelitis/chronic fatigue syndrome. _Frontiers in Immunology_. 2024;15:1440643. @Baraniuk2024NKCytotoxicity
+    / *DOI:*: #link("https://doi.org/10.3389/fimmu.2024.1440643")[10.3389/fimmu.2024.1440643]
+    / *Key Findings:*:
+        - Meta-analysis of 28 papers/55 E:T ratio datapoints; NK cell cytotoxicity in ME/CFS reduced to about half of healthy control levels (Hedges' g 0.96, 95% CI 0.75–1.18)
+        - High heterogeneity explained by E:T ratios, methods, and potential outliers
+    / *Conclusion:*: Confirms reproducible NK dysfunction in ME/CFS but the heterogeneity signals methodological sensitivity and warns against treating reduced NK cytotoxicity as a single invariant invariant defect — consistent with the review's multi-abnormality, vicious-cycle view.
+    / *Limitations:*: Meta-analysis heterogeneity; cannot establish whether reduced NK cytotoxicity is cause or consequence.
+    / *Certainty Assessment:*:
+        - *Quality:*: High (meta-analysis)
+        - *Sample:*: 28 studies
+        - *Replication:*: Reproducible finding, heterogeneous effect
+        - *Score:*: 0.62

@@ -776,3 +776,23 @@ Prevents re-processing of already-integrated content.
 | PubMed API queries (23 queries, batch) | pubmed/eutils | 2026-08-01 | — | ops/research/literature-local-sleep-waking-slow-waves-2026-08-01.md, ops/research/search-log-local-sleep-waking-slow-waves-2026-08-01.md, bib/sleep.bib (12 new entries), bib/neuroinflammation.bib (1 new entry), appendix-h (14 annotated entries) — Local sleep / waking slow waves literature (14 papers) |
 | Crossref API (10.1523/JNEUROSCI.1694-25.2025) | crossref | 2026-08-01 | — | ops/research/literature-local-sleep-waking-slow-waves-2026-08-01.md — Seed paper metadata |
 
+
+## 7T MRS Brain/Muscle Chemistry (Godlewska 2025) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-10 | Multi-query: "magnetic resonance spectroscopy chronic fatigue syndrome brain lactate", "31P MRS phosphocreatine ATP muscle", "MRS long COVID brain metabolites", "choline platelet coagulation". Primary paper PMID 40652046 (Godlewska 2025 Mol Psychiatry). |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (batch, 5 queries + abstract pulls) | pubmed/eutils | 2026-08-10 | — | ops/research/literature-godlewska-7t-mrs-brain-muscle-2026-08-10.md, ops/research/search-log-godlewska-7t-mrs-brain-muscle-2026-08-10.md, bib/long-covid.bib + neuroinflammation.bib (6 new entries), appendix-h — 7T MRS brain/muscle topic |
+
+## Komaroff & Dantzer 2025 — Symptom Persistence Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-10 | Queries: Komaroff Dantzer 2025 symptom persistence LC/ME-CFS; Dantzer cytokine sickness behavior; median preoptic nucleus torpor; Hrvatin torpor preoptic; preoptic EP3R fever torpor; long COVID deep immunophenotyping fatigue; gut-immune dysregulation post-COVID; GPCR autoantibodies post-COVID CFS; NK cell ME/CFS meta-analysis |
+| EuropePMC (REST fullTextXML) | 2026-08-10 | Retrieved open-access full text of PMC12432373 (Komaroff & Dantzer 2025, Cell Reports Medicine) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (12 queries, batch) | pubmed/eutils | 2026-08-10 | — | ops/research/search-log-komaroff-dantzer-symptom-persistence-2026-08-10.md; bib/{long-covid,autoimmunity,neuroinflammation,immune}.bib; appendix-h — Komaroff-Dantzer symptom-persistence literature (8 papers) |
+| EuropePMC fullTextXML PMC12432373 | europepmc | 2026-08-10 | — | Literature/reviews/Komaroff_2025_CausesOfSymptomsLongCovidMECFS/ (full text) |
