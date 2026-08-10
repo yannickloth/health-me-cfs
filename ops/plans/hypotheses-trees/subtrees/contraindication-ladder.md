@@ -18,5 +18,5 @@
 | 13b-3 | L3 Pharmacodynamic Opposition Contraindications | framework | 0.15 | 2 | 2 | 1 | 0 | 2 | ✅ | — |
 | 13b-4 | L4 Metabolic PEM Risk Contraindications | framework | 0.20 | 2 | 2 | 2 | 0 | 2 | ✅ | — |
 | 13b-5 | Contraindication Table — What NOT to use if | framework | 0.20 | 2 | 3 | 2 | 0 | 4 | ✅ | — |
-| 13c-6 | Sequential Ordering Principle | speculation | 0.20 | 2 | 3 | 2 | 0 | 3 | ⏭️ | subtrees/sequential-ordering-principle.md |
+| 13c-6 | Sequential Ordering Principle | speculation | 0.30 | 2 | 3 | 2 | 0 | 3 | ✅ | subtrees/sequential-ordering-principle.md |
 | 13d-7 | Do Not Disturb Rule — When to Stop | speculation | 0.20 | 1 | 3 | 2 | 0 | 2 | ⏭️ | subtrees/do-not-disturb-rule.md |

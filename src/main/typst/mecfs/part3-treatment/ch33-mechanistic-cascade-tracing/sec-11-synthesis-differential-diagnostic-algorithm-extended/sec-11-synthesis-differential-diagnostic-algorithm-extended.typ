@@ -7,6 +7,18 @@
 
 The binary-probe version of this algorithm used sequential probes. This extended version incorporates the full dimensionality: effect magnitude, onset latency, response duration, dose-response slope, side-effect patterns, drug-drug interactions, endogenous probe patterns, and the null matrix constraint. It also incorporates the PEM budget — probes are sequenced by (diagnostic yield) / (PEM risk).
 
+#open-question(title: [Sequential Ordering Principle — Which Probe First])[
+The ordering logic implicit throughout this algorithm can be stated as five discrete rules that jointly determine trial sequence. *(Rule 1 — Restorative before threshold-modulatory before symptomatic:)* probes of restorative/threshold-modulatory mechanisms (e.g., mitochondrial support, immunomodulation) carry genuine mechanistic (differentiating) information, whereas purely-symptomatic agents do not; run the mechanistic probes first, because a response or non-response there narrows the differential, while a symptomatic response does not. *(Rule 2 — PEM-cost before yield when cost is material:)* for high-energy probe candidates, sequence by (diagnostic yield) ÷ (PEM risk); defer an informative-but-costly probe behind a cheaper one of comparable yield. *(Rule 3 — Zero-energy mechanical probes first:)* shoe-lift, cervical collar, and positional probes carry maximal yield at zero metabolic cost and should precede any drug trial when posture/positional modulation is present. *(Rule 4 — Null-elimination ordering:)* sequence so that each null response eliminates a mechanism class efficiently (the null-matrix formalism, Section @sec:null-matrix), rather than testing mechanisms compatibly. *(Rule 5 — Prerequisite/contraindication gating:)* a probe may not be trialed until prerequisite combinations are satisfied and all contraindication-ladder rules (Section @sec:contraindication-ladder) are checked. These rules are the paper's own methodology made explicit; they have not been prospectively validated. (Certainty: 0.30 — a clinical-research ordering framework grounded in the algorithm's design logic, not a validated or dose-specific protocol. Active caps: formalization of internal methodology; no new treatment claim.)
+
+*Falsifiable (methodology) prediction:* If the ordering rules improve diagnostic efficiency, then a cohort following Rule-1/Rule-2 sequencing (mechanistic, PEM-budget-first) should reach a narrow differential or a working treatment hypothesis in fewer sequential probes than a cohort using arbitrary order, at comparable or lower cumulative PEM burden. This is a research-design prediction; it does not specify any individual's treatment.
+
+(Severity applicability: presented generally across severity levels, but the PEM-cost-first rule (Rule 2) and zero-energy-probes-first (Rule 3) weight most heavily in severe/very-severe patients whose energy budget is smallest; no severity-stratified validation exists.)
+
+(Origin: /integrate-topic sequential-ordering-principle — formalizes existing sec-11/sec-13c methodology.)
+
+*Consequence:* This gives clinicians and the paper's later sections an explicit, numbered rule-set for choosing which pharmacodiagnostic probe to run first — but as a methodological framework, not a drug or dose recommendation.
+] <oq:sequential-ordering-principle>
+
 ==== Step 0 — Audit Existing Data (Before Any New Trial)
 <sec:step-0-audit>
 
