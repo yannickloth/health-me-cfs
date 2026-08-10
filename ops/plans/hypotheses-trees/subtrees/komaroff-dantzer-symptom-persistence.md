@@ -5,7 +5,7 @@
 **Plan file:** `ops/plans/komaroff-dantzer-symptom-persistence-integration-plan.md`
 **Date:** 2026-08-10
 **Parent topic:** root
-**Child subtrees:** subtrees/hibernation-biology-torpor-arousal.md (queued, Gate A)
+**Child subtrees:** subtrees/hibernation-biology-torpor-arousal.md (done, /integrate-topic hibernation-biology-torpor-arousal)
 
 ## Nodes
 
@@ -34,7 +34,7 @@
 | R4.2 | Adenosine-modulating supplements | speculation | 0.10 | 1 | 2 | 1 | 0 | 0 | ⏭️ | — |
 | R5.2 | Graduated cold exposure as torpor-circuit antagonist | open-question | 0.25 | 2 | 2 | 3 | 1 | 0 | ⤯ | — |
 | R5.3 | Bright-light circadian entrainment as preoptic reset | open-question | 0.20 | 2 | 2 | 3 | 1 | 0 | ⤯ | — |
-| R8.1 | Hibernation biology as drug-discovery platform | speculation | 0.35 | 3 | 3 | 4 | 3 | 1 | ⏭️ | subtrees/hibernation-biology-torpor-arousal.md |
+| R8.1 | Hibernation biology as drug-discovery platform | speculation | 0.40 | 3 | 3 | 4 | 3 | 1 | ✅ | subtrees/hibernation-biology-torpor-arousal.md |
 | R8.2 | Cancer cachexia analog for drug repurposing | open-question | 0.25 | 2 | 3 | 3 | 1 | 1 | ⤯ | — |
 | R8.3 | Chemo-brain as iatrogenic sickness-circuit model | open-question | 0.30 | 2 | 2 | 3 | 1 | 1 | ⤯ | — |
 | R9.2 | rs-fMRI preoptic→effector connectivity biomarker | proposal | 0.30 | 2 | 1 | 3 | 2 | 4 | ⬜ | — |

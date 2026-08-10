@@ -337,6 +337,9 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | dementia-inflammation | [subtrees/dementia-inflammation.md](subtrees/dementia-inflammation.md) | 2026-08-09 | 15 | 10 | ✅ done |
 | ai-multiomics-mecfs-xiong2025 | [subtrees/ai-multiomics-mecfs-xiong2025.md](subtrees/ai-multiomics-mecfs-xiong2025.md) | 2026-08-10 | 6 | 3 | 🔵 in progress |
 | godlewska-7t-mrs-brain-muscle | [subtrees/godlewska-7t-mrs-brain-muscle.md](subtrees/godlewska-7t-mrs-brain-muscle.md) | 2026-08-10 | 10 | 1 | ✅ done |
-| komaroff-dantzer-symptom-persistence | [subtrees/komaroff-dantzer-symptom-persistence.md](subtrees/komaroff-dantzer-symptom-persistence.md) | 2026-08-10 | 11 | 3 | ✅ done |
+| komaroff-dantzer-symptom-persistence | [subtrees/komaroff-dantzer-symptom-persistence.md](subtrees/komaroff-dantzer-symptom-persistence.md) | 2026-08-10 | 38 | 3 | ✅ done |
+| hibernation-biology-torpor-arousal | [subtrees/hibernation-biology-torpor-arousal.md](subtrees/hibernation-biology-torpor-arousal.md) | 2026-08-10 | 14 | 2 | ✅ done |
+| biofabrication-mughal-3d-muscle-cfs-sera | [subtrees/biofabrication-mughal-3d-muscle-cfs-sera.md](subtrees/biofabrication-mughal-3d-muscle-cfs-sera.md) | 2026-08-10 | 21 | 9 | 🔵 in progress |
+| hadidchi2025-cfs-me-4yrs-post-covid | [subtrees/hadidchi2025-cfs-me-4yrs-post-covid.md](subtrees/hadidchi2025-cfs-me-4yrs-post-covid.md) | 2026-08-10 | 18 | 7 | 🔵 in progress |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
