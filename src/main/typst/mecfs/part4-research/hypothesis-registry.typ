@@ -5337,17 +5337,3 @@ This registry collects all hypotheses, speculations, open questions, and predict
 )
 
 
-= Entries added 2026-08-10: Sequential Ordering Principle (Pharmacodiagnostic Trial Order)
-
-#registry-entry(
-  [Sequential Ordering Principle — Which Pharmacodiagnostic Probe First],
-  type: "OQ",
-  certainty: "0.30",
-  evidence: [Formalizes the ordering logic already practiced in the paper's ch33 sec-11 extended algorithm (PEM-budget sequencing by diagnostic-yield-to-PEM-risk ratio; lowest-energy-cost-first; null-elimination; prerequisite/contraindication gating) into five explicit rules: (1) restorative/threshold-modulatory before symptomatic (mechanistic information), (2) PEM-cost-before-yield when cost material, (3) zero-energy mechanical probes first, (4) null-elimination ordering, (5) prerequisite/contraindication gating. No distinct external literature (zero PubMed hits for a published sequential-pharmacodiagnostic-ordering protocol in ME/CFS); an internal-methodology formalization, not a validated protocol.],
-  citations: [@sec:null-matrix, @sec:contraindication-ladder],
-  mechanism: [A clinical-research ordering framework: running mechanism-informative probes first and PEM-cost-sequencing the rest maximizes the differential-diagnostic yield per unit of energy cost, minimizing total PEM burden to reach a working hypothesis.],
-  chapter-ref: [ch33 sec-11 synthesis: @oq:sequential-ordering-principle],
-  prediction: [A cohort following Rules 1-2 (mechanistic, PEM-budget-first sequencing) should reach a narrow differential or working hypothesis in fewer sequential probes than an arbitrary-order cohort, at comparable/lower cumulative PEM burden. Research-design prediction; not individual treatment guidance.],
-  treatment: [None as drug/dose. This is a trial-sequencing framework for clinicians/researchers running pharmacodiagnostic probes; it does not recommend any specific agent.],
-  limitation: [No prospective validation; derived from the algorithm's design logic; PARTIAL cap (methodology formalization, WEAK-EVIDENCE). Severity applicability: methodology presented generally, not stratified by severity. (Origin: /integrate-topic sequential-ordering-principle.)],
-)
