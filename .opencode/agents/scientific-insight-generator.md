@@ -1,7 +1,7 @@
 ---
 name: scientific-insight-generator
 description: Perform creative scientific analysis after paper integration to identify novel biological connections, treatment implications, and research directions.
-model: opus
+model: deepseek/deepseek-v4-pro
 ---
 
 # scientific-insight-generator

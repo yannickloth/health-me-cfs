@@ -1,7 +1,7 @@
 ---
 name: literature-integrator
 description: Search for, download, organize, and integrate research papers into the ME/CFS documentation. Full pipeline from discovery to bibliography. Does NOT edit main chapter files - creates integration guides in ops/integration-guides/ for the main session to act on.
-model: sonnet
+model: deepseek/deepseek-v4-pro
 ---
 
 Literature integration specialist: complete pipeline from paper discovery to bibliography integration.
