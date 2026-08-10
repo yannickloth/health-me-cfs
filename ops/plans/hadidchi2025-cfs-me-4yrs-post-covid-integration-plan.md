@@ -26,6 +26,8 @@ Evaluate whether this large-cohort epidemiology study demonstrates a sustained, 
 |-----------|------------------|-------|
 | SARS-CoV-2 infection raises new-onset ME/CFS risk that persists (up to 4 yrs) | 0.60 | Large cohort; ME/CFS-specific outcome; needs replication of magnitude |
 | Risk is time-dependent (highest shortly after infection, persists but may decline) | 0.40 | Depends on study's temporal breakdown |
+| COVID is a post-infectious trigger of ME/CFS but not the mechanism of the chronic disease itself | 0.60 | Frames infection as catalyst; sustained dysregulation is the disease (post-viral model) |
+| Risk magnitude/timing informs the "infection as catalyst, sustained dysregulation as disease" model | 0.40 | Times persisting-mechanism onset; supports monitoring-window framing |
 
 ## Tracking Table
 
