@@ -5,7 +5,7 @@ description: Use this skill to evaluate and integrate a new topic into the ME/CF
 
 # Evaluate and Integrate New Topic into the ME/CFS Paper
 
-End-to-end: research → synthesize → **integration decision** → develop → **safety gate** → brainstorm → **drug-interaction check** → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → strategic-framing propagation → review convergence → changelog → commit.
+End-to-end: research → synthesize → **integration decision** → develop → **safety gate** → brainstorm → **drug-interaction check** → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → strategic-framing propagation → review convergence → changelog → **completion gate (Phase Ledger)** → commit.
 
 **Null hypothesis:** The default outcome is *non-integration*. The burden of proof is on demonstrating that the topic has sufficient evidence and relevance to warrant inclusion. Integration must be earned by passing evidence gates — not assumed.
 
@@ -1002,7 +1002,7 @@ For each drug that intercepts the new cascade:
 
 ### Model note
 
-Phase 5d requires reasoning across mechanistic biochemistry, pharmacology, and differential diagnosis. Use opus. If opus is unavailable → **skip Phase 5d entirely** (no ops trace, no chapter content). Continue with remaining phases.
+Phase 5d requires reasoning across mechanistic biochemistry, pharmacology, and differential diagnosis. Use opus. If opus is unavailable → **STOP and ask the user** (does NOT silently skip the phase): "Phase 5d requires opus for cascade tracing + ch30 integration, but opus is unavailable. (a) retry with opus later, (b) run 5d in the current session accepting lower reasoning fidelity, (c) explicitly waive 5d and record it as WAIVED." Do not silently skip — a waived phase must be recorded so the completion audit can distinguish it from an omission. Continue with remaining phases only after the user decides.
 
 **Report:** "Phase 5d complete: N cascade branches traced, M drug→node pairs, K discriminated probes, L sec-12 entries updated/created, P sec-09 convergence patterns added/updated, Q sec-13 matrix rows/columns added. Cascades cert ≥ 0.30: R integrated into chapter; cert 0.10–0.29: S ops-only; cert < 0.10: T skipped. Ch30 files created/modified: <list>. Pruned branches: U. Cascade trace at `ops/integration-guides/pathway-drug-trace-<topic-slug>.md`."
 
@@ -1433,7 +1433,7 @@ The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.ty
 
 **When to run:** After Phase 10 (cross-chapter coherence), before Phase 11 (review convergence). Coherence must be verified before synthesis, since the synthesis cross-references the integrated environments.
 
-**Trigger condition:** This phase runs when ≥3 environments were integrated across ≥2 chapters — the threshold at which the argument exceeds what a casual chapter reader can reconstruct. For single-chapter or 1–2 environment integrations, synthesis is unnecessary; the environments speak for themselves.
+**Trigger condition:** This phase runs when ≥2 environments jointly argue a distinct convergent point (previously: ≥3 across ≥2 chapters — the higher threshold silently dropped useful syntheses). For a single environment that stands alone, skip. When 2+ environments form a convergent argument OR the integration is single-chapter with ≥2 related environments: do NOT silently skip — flag to the user: "N environments integrated that may warrant a #synthesis box (single chapter). Add one, or skip?" Wait for answer. This removes the silent-skip failure mode where a coherent sub-argument shipped without any synthesis surface.
 
 **Procedure:**
 
@@ -1584,8 +1584,10 @@ Same scope-boundary rule as retroactive Phase 10a: edits another cycle's committ
 
 | Tier | When | Review approach |
 |------|------|-----------------|
-| **Lightweight** | Single chapter/section touched AND (PARTIAL decision OR ≤10 new environments) | Run focused `Task`-based passes: one adversarial pass (`devil-advocate-auditor` or a 6-persona prompt) + one `typst-xref-checker` pass, each scoped to the changed regions only. Fix CRITICAL/HIGH (+ opportunistically MEDIUM/LOW). Full multi-agent convergence skills are token-disproportionate for a small PARTIAL section. |
-| **Full** | Multi-chapter integration OR PROCEED with >10 new environments OR any treatment/clinical content | Run the full convergence loop below (11a/11b/11c skills to 2 consecutive zero-finding rounds). |
+| **Lightweight** | Single chapter/section touched AND (PARTIAL decision OR **≤3** new environments) AND no treatment/clinical content | Run focused `Task`-based passes: one adversarial pass (`devil-advocate-auditor` or a 6-persona prompt) + one `typst-xref-checker` pass, each scoped to the changed regions only. Fix CRITICAL/HIGH (+ opportunistically MEDIUM/LOW). Full multi-agent convergence skills are token-disproportionate for a small PARTIAL section. |
+| **Full** | Multi-chapter integration OR PROCEED with **>3** new environments OR any treatment/clinical content | Run the full convergence loop below (11a/11b/11c skills to 2 consecutive zero-finding rounds). |
+
+**Lightweight-tier bar (raised):** Previously the lightweight tier allowed ≤10 new environments. That let multi-environment, multi-claim integrations escape the full adversarial loop. The bar is now **≤3 environments AND a single chapter AND no treatment/clinical content**. Anything integrating 4+ environments, spanning chapters, or touching treatment/clinical content forces the Full tier. When PARTIAL decision interacts with a multi-environment integration, default to Full — the weak-evidence cap itself argues for heavier review, not lighter.
 
 State which tier you chose and why in the Phase 11 report. The lightweight tier still requires zero CRITICAL and zero HIGH before proceeding.
 
@@ -1647,6 +1649,82 @@ Add entry to `src/main/typst/mecfs/shared/changelog.typ` under current version (
 - Changelog entry must also pass review — run one quick `/review-typst` pass on `changelog.typ` alone after writing it (Phase 11 will have already converged by this point)
 
 **Report:** "Phase 12 complete: changelog updated."
+
+---
+
+## Phase 12.5 — Completion Gate (Phase Ledger)
+
+**Agent:** main session | **Model:** current | **MANDATORY — before Phase 13 commit.**
+
+**Purpose:** The pipeline is long and self-supervised. Phases and agents get dropped
+without a recorded reason, and the plan record alone cannot distinguish a genuine
+skip from an omission. This gate forces every phase into one of three states
+BEFORE a commit is allowed. It is the in-skill equivalent of the
+`/pipeline-governor` meta-skill's audit — run it even when not governed, and expect
+the governor to re-audit it.
+
+### Before Phase 13, walk every phase in the ledger:
+
+Open `ops/plans/<topic-slug>-integration-plan.md` and append a `## Phase Ledger`
+section. For **each** phase listed below, mark exactly one state:
+
+| State | Meaning | Evidence to cite |
+|-------|---------|------------------|
+| `RAN` | Phase executed and left its artifact | Artifact path on disk + the phase's report line in the plan |
+| `LEGIT-SKIP` | A documented skip/termination condition fired | Quote the specific condition that fired + the evidence it fired (e.g. "REJECT → cycle ends; Phase 2 decision", "5c: non-pharmacological topic", "5d: cert <0.10", "5z: no files modified", "10a: single standalone environment") |
+| `WAIVED` | Explicitly user-authorized omission | The user's stated reason, recorded (user must have granted this — never self-waive) |
+
+**Any phase left `OMISSION` (= no state assigned / no documented skip) BLOCKS Phase 13.** Do not commit. Do the phase, or get an explicit user waiver.
+
+### Phase ledger checklist (every row must be RAN / LEGIT-SKIP / WAIVED):
+
+| Phase | Must-run unless… | Required artifact if RAN |
+|-------|------------------|--------------------------|
+| 0 | always | plan file present + validated |
+| 1 | gap-fill scope w/ already-cited lit (record WHY) | search-log + bib entries |
+| 2 | always (REJECT/DEFER are RAN outcomes) | `tmp/synthesis-*` OR decision recorded (REJECT/DEFER branch) |
+| 3 | always after PROCEED/PARTIAL | chapter envs + registry rows |
+| 3a | always after 3 | build PASS (report) |
+| 3b | non-treatment topic | `tmp/safety-gate-*` |
+| 3.5 | always | consequence fields present |
+| 4 | REJECT/DEFER terminator; PARTIAL still runs (limited) | `ops/brainstorms/*` |
+| 4a | standalone/gap-fill (record WHY) | subtree file + root index |
+| 5 | always after 3 | triage + environments |
+| 5b | always after 5/5c/5d | build PASS (report) |
+| 5d | non-mechanistic / cert<0.10 / opus WAIVED | cascade trace ops/ (if cascade) |
+| 5c | non-pharm / no-target-mech | ch24 differential entry |
+| 5a | always | falsifiability audit applied |
+| 5z | no .typ/.qmd modified in 3–5 | glossary entries added |
+| 6 | always | synonym-map + adapted claims |
+| 7 | always (zero-overlap still records) | registry adjustments + bump log |
+| 8 | always | build PASS |
+| 9 | always | quality flags |
+| 10 | always | coherence-audit + fixes |
+| 10a | single standalone env, or user-skipped | synthesis env |
+| 10b | no framing implication | framing edits OR explicit note |
+| 11 | always (lightweight counts as RAN) | convergence report |
+| 12 | always | changelog entry |
+| 13 | always | commit hash |
+
+### Verification rules (do not trust the self-report only)
+
+- For every `RAN`, verify the artifact exists: `ls <path>` / `git show HEAD:<shared>` /
+  `nix build` passes. A report line without a disk artifact = `OMISSION`.
+- Confirm the build passes with **no** `error:` lines: `nix build 2>&1 | grep -c 'error:'` → 0.
+- Independently confirm (even if the phase said it did): every new
+  `#hypothesis-box`/`#speculation`/`#prediction` has a falsifiability statement;
+  every new environment has a `*Consequence:*` field; the hypothesis registry was
+  updated if any new claim environment was added; bib keys used in new content
+  resolve (case-exact) in the split `bib/*.bib`.
+
+**Actionable message on gate fail:** "Phase Ledger blocked: `<Phase N>` is OMISSION
+(no artifact, no documented skip). Run it or waive it with a reason before Phase 13."
+Fix, then re-walk the ledger. The gate is green only when every row is
+RAN / LEGIT-SKIP / WAIVED and the build passes.
+
+**Report:** "Phase 12.5 completion gate: N phases RAN, M LEGIT-SKIP (list with
+conditions), W WAIVED (list with user reasons), 0 OMISSION. Build: PASS. Ledger
+clean — Phase 13 may proceed."
 
 ---
 

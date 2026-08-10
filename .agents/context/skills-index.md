@@ -10,6 +10,7 @@ All pipelines are skills or agents. Invoke via `/skill-name`.
 |-------|---------|
 | `/formalization-pipeline` | "formalize [process/chapter]" · "build causal model" |
 | `/integrate-topic` | "integrate [topic] into paper" |
+| `/pipeline-governor` | "run [pipeline] and verify nothing was skipped" · "guarantee all phases ran" · "audit a completed integrate-topic cycle" · govern/[pipeline] |
 | `/tikz-illustration-pipeline` | "create a TikZ diagram showing [description]" |
 | `/fix-ci` | "fix github action errors" · "nix build failed" · "ci failed" |
 | `/pre-commit` | "run pre-commit checks" |
