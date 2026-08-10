@@ -796,3 +796,12 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | PubMed API queries (12 queries, batch) | pubmed/eutils | 2026-08-10 | — | ops/research/search-log-komaroff-dantzer-symptom-persistence-2026-08-10.md; bib/{long-covid,autoimmunity,neuroinflammation,immune}.bib; appendix-h — Komaroff-Dantzer symptom-persistence literature (8 papers) |
 | EuropePMC fullTextXML PMC12432373 | europepmc | 2026-08-10 | — | Literature/reviews/Komaroff_2025_CausesOfSymptomsLongCovidMECFS/ (full text) |
+
+## Peppercorn 2025 — DNA Methylation Landscapes ME/CFS vs Long COVID
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed | 2026-08-10 | Peppercorn et al. 2025, Int J Mol Sci 26(14):6631. DOI 10.3390/ijms26146631, PMID 40724879, PMCID PMC12294161. RRBS of PBMCs, n=5 ME/CFS / n=5 LC / n=5 HC. |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://pubmed.ncbi.nlm.nih.gov/40724879/ | pubmed | 2026-08-10 | 2026-08-10 | appendix-h (new annotated entry); bib/genetics-epigenetics.bib (Peppercorn2025methylation, DOI accuracy check) — Peppercorn 2025 methylation landscapes ME/CFS vs LC |
