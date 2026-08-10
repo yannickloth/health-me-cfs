@@ -105,7 +105,7 @@ If you have ME/CFS, the framework this series has developed says three things:
 
 ## The landscape is the map
 
-This series [@Loth2026mecfs] began with a question: why are you so tired? The answer turned out to be: for fourteen possible reasons, in varying combinations, maintained by feedback loops that resist individual intervention.
+This series [@Loth2026website] began with a question: why are you so tired? The answer turned out to be: for fourteen possible reasons, in varying combinations, maintained by feedback loops that resist individual intervention.
 
 The energy failure landscape is not a single road to a single destination. It is a terrain with many entry points, many paths, and one valley at the centre where the paths converge. Getting out of the valley requires knowing which paths brought you there — and working on each one.
 

@@ -74,7 +74,7 @@ The framework this series has been developing suggests why: ME/CFS is a state of
 
 On this model, a hypermobile person doesn't develop ME/CFS because of bad luck. They develop it because their baseline energy margin was always smaller. The buffer between "managing" and "failing" was narrower. The cliff was closer.
 
-This has a practical implication: in the hEDS subset of ME/CFS patients, treatment must address the structural energy drain alongside the metabolic and immune mechanisms. Compression garments (reducing venous pooling), joint bracing (reducing muscular compensation), POTS management (fludrocortisone, midodrine, increased sodium and fluids), and MCAS treatment (antihistamines, mast cell stabilisers) are not peripheral interventions. They are direct reductions in the energy tax that the connective tissue dysfunction imposes [@Loth2026mecfs].
+This has a practical implication: in the hEDS subset of ME/CFS patients, treatment must address the structural energy drain alongside the metabolic and immune mechanisms. Compression garments (reducing venous pooling), joint bracing (reducing muscular compensation), POTS management (fludrocortisone, midodrine, increased sodium and fluids), and MCAS treatment (antihistamines, mast cell stabilisers) are not peripheral interventions. They are direct reductions in the energy tax that the connective tissue dysfunction imposes [@Loth2026website].
 
 ---
 

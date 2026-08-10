@@ -62,7 +62,7 @@ It becomes less defensible when you ask whether patients with normal TSH but sym
 
 This is not an endorsement of prescribing thyroid hormone to everyone with fatigue and a normal TSH. It is an observation that the binary classification — euthyroid or hypothyroid, based on a single hormone from a single gland measured at a single time point — is too coarse to capture the reality of thyroid hormone action at the tissue level.
 
-For ME/CFS patients specifically: the question is not whether sub-clinical thyroid dysfunction causes ME/CFS. It almost certainly doesn't. The question is whether it contributes to the energy deficit in a subset of patients — and whether correcting it, in that subset, produces a meaningful improvement in function. The evidence is suggestive. The harm of a supervised trial of thyroid replacement in a patient with documented low free T3 and positive antibodies is minimal. The potential benefit, in a patient whose energy margin is measured in single-digit percentages, is significant [@Loth2026mecfs].
+For ME/CFS patients specifically: the question is not whether sub-clinical thyroid dysfunction causes ME/CFS. It almost certainly doesn't. The question is whether it contributes to the energy deficit in a subset of patients — and whether correcting it, in that subset, produces a meaningful improvement in function. The evidence is suggestive. The harm of a supervised trial of thyroid replacement in a patient with documented low free T3 and positive antibodies is minimal. The potential benefit, in a patient whose energy margin is measured in single-digit percentages, is significant [@Loth2026website].
 
 ---
 

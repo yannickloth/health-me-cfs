@@ -114,4 +114,4 @@ What helps:
 - **Avoid the temptation to "test" the pain by moving.** Many patients, understandably, try to move the affected muscles to see if they're "really" sore. This adds ATP demand to fibres that are already in metabolic crisis. Gentle range-of-motion without resistance is fine — the point is not to push against the pain.
 - **Recognise this as what it is.** The muscle pain is not imagined or psychosomatic — it has a coherent mechanistic model grounded in documented metabolic dysfunction, nociceptor biology, and autonomic impairment. It will often improve as your body recovers from the sleep deficit, though some degree of baseline muscle pain may persist due to the underlying metabolic impairment. Protecting your sleep is protecting your muscles — because in ME/CFS, poor sleep shifts the biochemical profile further into territory that overlaps with post-exertion stress.
 
-For the comprehensive picture of how these mechanisms integrate into the broader ME/CFS pathophysiology, see [@Loth2026mecfs].
+For the comprehensive picture of how these mechanisms integrate into the broader ME/CFS pathophysiology, see [@Loth2026website].

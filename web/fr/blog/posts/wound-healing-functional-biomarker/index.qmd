@@ -121,7 +121,7 @@ La recherche sur l'EM/SFC a un problème d'entonnoir. Un financement limité aff
 
 La cicatrisation est l'une de ces lacunes. Elle était classée dans la catégorie des « fonctions préservées » parce qu'elle semblait y appartenir, pas parce que quelqu'un l'avait testée. Quand nous avons vérifié, trois lignes de données probantes indépendantes pointaient dans l'autre sens. La question vaut 64 000 € et six mois. Elle ne requiert rien que nous ne sachions déjà faire.
 
-La conception de l'étude, le protocole détaillé et la justification mécanistique sont disponibles dans l'article complet [@Loth2026mecfs]. Si vous êtes un chercheur ayant accès à une chambre de succion et à une clinique d'EM/SFC, celle-ci est prête à démarrer.
+La conception de l'étude, le protocole détaillé et la justification mécanistique sont disponibles dans l'article complet [@Loth2026website]. Si vous êtes un chercheur ayant accès à une chambre de succion et à une clinique d'EM/SFC, celle-ci est prête à démarrer.
 
 ---
 

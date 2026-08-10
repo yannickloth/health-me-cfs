@@ -94,7 +94,7 @@ H₂S from gut dysbiosis connects three pillars of ME/CFS pathophysiology throug
 
 This is not "the gut-brain axis" as a vague metaphor. It is a specific molecule, produced by specific bacteria, inhibiting a specific enzyme complex, through a specific binding mechanism, with specific downstream consequences for energy production, intestinal integrity, and immune activation. Every step is biochemically characterised. Every step is, in principle, targetable.
 
-For the ME/CFS patient who has tried "everything" — CoQ10, carnitine, B vitamins, anti-inflammatory diets — and hasn't improved: has anyone checked whether their gut bacteria are producing the very toxin that makes all those interventions irrelevant? If Complex IV is chronically inhibited by H₂S, no amount of upstream cofactor support will restore the ATP output the patient needs. You have to stop the poison before you can fix the engine [@Loth2026mecfs].
+For the ME/CFS patient who has tried "everything" — CoQ10, carnitine, B vitamins, anti-inflammatory diets — and hasn't improved: has anyone checked whether their gut bacteria are producing the very toxin that makes all those interventions irrelevant? If Complex IV is chronically inhibited by H₂S, no amount of upstream cofactor support will restore the ATP output the patient needs. You have to stop the poison before you can fix the engine [@Loth2026website].
 
 ---
 

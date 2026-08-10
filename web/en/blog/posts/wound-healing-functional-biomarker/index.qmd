@@ -120,7 +120,7 @@ ME/CFS research has a funnel problem. Limited funding flows toward the same targ
 
 Wound healing is one of those gaps. It was sitting in the "preserved functions" category because it seemed like it belonged there, not because anyone tested it. When we checked, three independent lines of evidence pointed the other way. The question is worth €64,000 and six months. It requires nothing we don't already know how to do.
 
-The study design, detailed protocol, and mechanistic rationale are available in the full paper [@Loth2026mecfs]. If you're a researcher with access to a suction chamber and an ME/CFS clinic, this one is ready to go.
+The study design, detailed protocol, and mechanistic rationale are available in the full paper [@Loth2026website]. If you're a researcher with access to a suction chamber and an ME/CFS clinic, this one is ready to go.
 
 ---
 

@@ -63,7 +63,7 @@ Sie wird weniger verteidigbar, wenn Sie fragen, ob Patienten mit normalem TSH, a
 
 Das ist keine Empfehlung, jedem mit Müdigkeit und normalem TSH Schilddrüsenhormon zu verschreiben. Es ist eine Beobachtung, dass die binäre Klassifikation – euthyreot oder hypothyreot, basierend auf einem einzelnen Hormon einer einzelnen Drüse, gemessen zu einem einzelnen Zeitpunkt – zu grob ist, um die Realität der Schilddrüsenhormon-Wirkung auf Gewebeebene zu erfassen.
 
-Speziell für ME/CFS-Patienten: Die Frage ist nicht, ob subklinische Schilddrüsendysfunktion ME/CFS verursacht. Das tut sie fast sicher nicht. Die Frage ist, ob sie bei einem Teil der Patienten zum Energiedefizit beiträgt – und ob ihre Korrektur in diesem Teil eine sinnvolle Verbesserung der Funktion erzeugt. Die Evidenz ist suggestiv. Der Schaden eines überwachten Versuchs einer Schilddrüsen-Substitution bei einem Patienten mit dokumentiertem niedrigem freiem T3 und positiven Antikörpern ist minimal. Der potenzielle Nutzen bei einem Patienten, dessen Energiemarge in einstelligen Prozenten gemessen wird, ist signifikant [@Loth2026mecfs].
+Speziell für ME/CFS-Patienten: Die Frage ist nicht, ob subklinische Schilddrüsendysfunktion ME/CFS verursacht. Das tut sie fast sicher nicht. Die Frage ist, ob sie bei einem Teil der Patienten zum Energiedefizit beiträgt – und ob ihre Korrektur in diesem Teil eine sinnvolle Verbesserung der Funktion erzeugt. Die Evidenz ist suggestiv. Der Schaden eines überwachten Versuchs einer Schilddrüsen-Substitution bei einem Patienten mit dokumentiertem niedrigem freiem T3 und positiven Antikörpern ist minimal. Der potenzielle Nutzen bei einem Patienten, dessen Energiemarge in einstelligen Prozenten gemessen wird, ist signifikant [@Loth2026website].
 
 ---
 

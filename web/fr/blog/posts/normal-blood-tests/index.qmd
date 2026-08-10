@@ -99,6 +99,6 @@ Les tests à prescrire au-delà des panels standard ne sont pas exotiques :
 
 Aucun de ces tests ne coûte plus de quelques centaines d'euros. Tous identifient des contributeurs traitables à la fatigue que les panels standard manquent.
 
-Lorsque les analyses de sang d'un patient chroniquement malade reviennent « normales », la réponse clinique ne devrait pas être « bonne nouvelle, rien d'anormal ». Elle devrait être : « rien d'anormal selon la plage de référence — mais regardons si ces niveaux sont adéquats pour ce dont votre corps a réellement besoin [@Loth2026mecfs]. »
+Lorsque les analyses de sang d'un patient chroniquement malade reviennent « normales », la réponse clinique ne devrait pas être « bonne nouvelle, rien d'anormal ». Elle devrait être : « rien d'anormal selon la plage de référence — mais regardons si ces niveaux sont adéquats pour ce dont votre corps a réellement besoin [@Loth2026website]. »
 
 ---
