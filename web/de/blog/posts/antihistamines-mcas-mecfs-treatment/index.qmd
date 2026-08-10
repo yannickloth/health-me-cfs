@@ -1,0 +1,126 @@
+---
+title: "MCAS Artikel 2: Antihistaminika bei ME/CFS und MCAS — H1 vs. H2, und warum Ihr Arzt die Dosis erhöht"
+description: "Ein Leitfaden in einfacher Sprache zu den Medikamenten für die Mastzellaktivierung bei ME/CFS — der echte Unterschied zwischen H1- und H2-Antihistaminika, wo Histamin und seine Rezeptoren leben, die Mastzell-Stabilisatoren, welche Symptome die Medikamente beeinflussen können und welche nicht, und warum Dosen über der Norm manchmal nötig sind."
+author: "Yannick Loth"
+date: "2026-08-10"
+categories: [Behandlung, MCAS, Pharmakologie]
+lang: de
+---
+
+Wenn Sie ME/CFS und MCAS haben — oder auch nur einige der allergischen Symptome —, ist das Erste, das man Ihnen wahrscheinlich in die Hand drückt, ein Antihistaminikum. Und das Rezept oder der Rat wird wahrscheinlich den verwirrenden Ausdruck „H1 und H2" enthalten.
+
+Dieser Artikel erklärt die Medikamente selbst: was Histamin ist und wo seine zwei relevanten Empfängerpunkte liegen, die H1- und H2-Antihistaminika und die Mastzell-Stabilisatoren, die einen Schritt früher wirken. Er beantwortet auch die meistgestellte Frage: *warum will mein Arzt die Dosis über das erhöhen, was auf der Packung steht?*
+
+Für den konzeptionellen Hintergrund — was MCAS ist, warum es nach ME/CFS auftritt und der Unterschied zwischen alleinigem MCAS und ME/CFS-mit-MCAS — siehe den [Begleitartikel zur Übersicht](../mcas-mecfs-overview/index.qmd). Und für die ehrliche Diskussion „was, wenn es nicht wirkt" siehe den [Begleitartikel zum Behandlungsversagen](../when-antihistamine-doesnt-work/index.qmd).
+
+---
+
+## Zuerst eine einfache Warnung
+
+*Alles Folgende ist ein Medikament, das Ihnen wahrscheinlich angeboten wird, kein Rat zur Selbstmedikation. Histamin ist nicht die einzige beteiligte Chemikalie, Antihistaminika sind kein harmloses Wasser, und ich bin kein Arzt. Sprechen Sie mit einer verschreibenden Person, bevor Sie eines dieser Medikamente beginnen, absetzen oder ändern. Wenn Ihre Symptome plötzlich, schwerwiegend oder lebensbedrohlich wirken — insbesondere Atemnot oder Schwellung im Hals —, ist das ein Notfall. Gehen Sie ins Krankenhaus. Dieser Artikel ist eine Erklärung, kein Rezept. Und bei ME/CFS kann eine falsche Diagnose oder das falsche Medikament Sie zurückwerfen, also arbeiten Sie mit jemandem, der die Krankheit ernst nimmt.*
+
+---
+
+## Was ist Histamin, und wo lebt es?
+
+Histamin ist ein kleiner chemischer Bote. Es wird von Mastzellen hergestellt, aber auch von bestimmten weißen Blutkörperchen (Basophilen) und im ganzen Körper gespeichert. Seine Aufgabe in Gesundheit ist normal und nützlich: Es hilft, winzige Blutgefäße zu erweitern, unterstützt die Magensäuresekretion und wirkt als Nervensystemsignal.
+
+Histamin wirkt, indem es sich auf *Rezeptoren* dockt — Empfängerports auf der Außenseite von Zellen. Es gibt vier bekannte Arten, H1 bis H4. Für Ihre Zwecke zählen nur zwei:
+
+**Wo Histamin und seine Rezeptoren arbeiten:**
+
+- **H1-Rezeptoren** leben auf der glatten Muskulatur Ihrer Atemwege, den Blutgefäßen Ihrer Haut, Ihrer Nase und Ihren Augen. Wenn Histamin auf H1 landet, bekommen Sie Juckreiz, Rötung, Quaddeln, eine laufende Nase, Niesen und ein Zusammenziehen der Atemwege. H1-Blocker behandeln diese Allergiesymptome [@Molderings2016pharmacological].
+- **H2-Rezeptoren** leben hauptsächlich in Ihrer Magenschleimhaut (Steuerung der Säuresekretion) und auf Immunzellen. Wenn Histamin auf H2 landet, treibt es Magensäure hoch und spricht mit Immunzellen. H2-Blocker sind die Medikamente, die Sie vielleicht als Sodbrennen-Pillen kennen. Bei der Mastzellbehandlung werden sie *zusammen mit* H1-Blockern verwendet, weil Mastzellen an beiden Stellen Histamin freisetzen [@Simons2019cimetidine].
+
+**Warum man „H1 und H2 zusammen" sagt:** Eine Mastzelle schüttet Histamin überall zugleich aus. Nur den H1-Standort zu blockieren lässt die H2-Standorte in Magen und Immunzellen weiter getroffen. Deshalb koppelt die Mastzellversorgung **häufig** (nicht immer) ein H1-Antihistaminikum mit einem H2-Antihistaminikum [@Molderings2016pharmacological]. Seien Sie sich seiner Grundlage klar: Die H1+H2-Kombination ist gängige klinische Praxis, aber, wie die unten genannten Einschränkungen anmerken, ist der zusätzliche Nutzen speziell des H2-Teils *nicht* durch hochwertige Belege gestützt — es ist eine vernünftige Praxis, keine bewiesene Notwendigkeit.
+
+---
+
+## Die H1-Antihistaminika
+
+**Was sie sind.** Das sind die „Allergiepillen". Cetirizin, Loratadin, Fexofenadin, Bilastin, Levocetirizin, Desloratadin. Die *zweiten Generation* sind die, die man langfristig meist verwendet, weil sie so konstruiert sind, dass sie kaum ins Gehirn gelangen und daher weniger Schläfrigkeit verursachen [@Podder2023updosing].
+
+**Wofür sie da sind.** Rötung, Juckreiz, Quaddeln, laufende Nase, Niesen, Engegefühl im Hals — die klassischen „Histamin auf H1"-Symptome.
+
+**Wie sie wirken.** Sie verhindern nicht, dass Histamin freigesetzt wird. Sie verhindern nicht, dass Mastzellen feuern. Sie **setzen sich auf den H1-Rezeptor und blockieren das Andocken von Histamin.** Das Histamin ist immer noch in Ihrem Blut; es kann nur nicht mehr eines seiner Ziele erreichen [@Molderings2016pharmacological].
+
+**Ein Kniff, den Ärzte kennen — und *warum* hohe Dosen nötig sind.** Bei chronischer Urticaria (Quaddeln ohne ersichtliche Ursache) versagen Standarddosen oft, und die internationalen Leitlinien empfehlen, die Dosis auf das Zwei-, Drei- oder sogar Vierfache der normalen Menge zu erhöhen [@Zuberbier2022urticaria]. Die Dosiserhöhung hat echte Belege: Eine systematische Übersichtsarbeit fand Grad-A-Unterstützung für Cetirizin, Fexofenadin und Bilastin in höheren Dosen, mit einer Ansprechrate von 83 % für Fexofenadin [@Podder2023updosing].
+
+Warum hilft mehr? Ein nützliches, vereinfachtes Bild: Stellen Sie sich den H1-Rezeptor als Schloss und Histamin als Schlüssel vor. Ein Antihistaminikum ist ein blockierender Schlüssel, der in dasselbe Schloss passt, dort sitzen bleibt und echte Schlüssel am Eindringen hindert. Wenn Mastzellen gewaltig feuern, gibt es viel mehr Histamin als sonst, also braucht es mehr Blocker, um die meisten Schlösser gefüllt zu halten. (Streng genommen sind Antihistaminika der zweiten Generation *inverse Agonisten* mit hoher Affinität, und die echte Pharmakologie ist subtiler als ein einfaches Schloss-Schlüssel-Modell — diese Analogie dient der Anschauung, nicht dem Mechanismus.) Welche Chemie auch immer genau vorliegt, der praktische, gut belegte Punkt steht: Bei chronischer Urticaria ist eine Standarddosis oft zahlenmäßig unterlegen, und die Dosiserhöhung stellt die Kontrolle wieder her — deshalb eskalieren die Leitlinien und MCAS-Kliniker.
+
+Deshalb funktioniert die Dosiserhöhung bei chronischer Urticaria, und deshalb verwenden MCAS-Kliniker dieselbe Idee — auch wenn sie unter Aufsicht erfolgen muss und die spezifische Evidenzbasis *im MCAS selbst* viel dünner ist als in der Urticaria [@Nurmatov2015H1systematic]. Die 83 %-Zahl stammt aus Urticaria-Studien, in denen diese Patienten bei Standarddosis bereits nicht ansprachen; dieser Kontext, kein absolutes Versprechen, ist es, was die Zahl bedeutet. Ein wichtiger Sicherheitshinweis: In Standarddosis sedieren Antihistaminika der zweiten Generation selten, aber in mehrfacher Dosis steigen Schläfrigkeit und andere Nebenwirkungen — und Sedierung ist bei ME/CFS ein schwerer Preis. Die Sicherheitsdaten für eine bis zu vierfache Dosis sind beruhigend (in einer Serie berichteten nur 10 % eine Nebenwirkung, meist Schläfrigkeit, ohne schwere Ereignisse), aber nicht risikofrei — und diese Zahlen stammen aus Urticaria-Populationen, nicht aus der medikamentenempfindlichen ME/CFS-Population, also behandeln Sie sie als indikativ, nicht verbindlich [@VandenElzen2017updosing][@Podder2023updosing]. **Die Dosiserhöhung ist *nicht* für alle:** Menschen mit Niereninsuffizienz (Cetirizin und Levocetirizin reichern sich an), ältere Menschen (Sedierung, Stürze, Harnverhalt) und jede Schwangere oder Stillende brauchen eine ausdrückliche Überprüfung durch eine verschreibende Person, bevor die Dosis erhöht wird — und niemand sollte seine Dosis ohne diese Überprüfung selbst erhöhen. Ein strukturierter Versuch steigt langsam (im Allgemeinen eine Stufe nach der anderen, jeweils über ein bis zwei Wochen beurteilt) und stoppt, wenn die Sedierung den Nutzen überwiegt. Praktisch bedeutet das auch: **kein Autofahren und keine Maschinenbedienung, bis Sie wissen, wie die *erhöhte* Dosis auf Sie wirkt**, denn Sedierung in mehrfacher Dosis ist häufig und unberechenbar.
+
+**Die ehrliche Einschränkung.** Eine systematische Übersichtsarbeit fand nur fünf kleine Studien von H1-Antihistaminika speziell bei Mastzellaktivierungssyndromen — obwohl diese Medikamente also weit verbreitet sind und die „Histamin auf Haut/Nase"-Symptome klar stoppen, ist die hochwertige Evidenz *spezifisch für MCAS* schwach [@Nurmatov2015H1systematic].
+
+---
+
+## Die H2-Antihistaminika
+
+**Was sie sind.** Famotidin und Cimetidin. Sie erkennen sie als Sodbrennen-Medikamente. (Ranitidin, ein einst häufiger H2-Blocker, wurde weltweit 2019–2020 wegen einer krebsrisikobehafteten Verunreinigung zurückgezogen; jede Tablette in einer alten Schublade mit der Aufschrift „Ranitidin" sollte nicht eingenommen werden.) Bei der Mastzellbehandlung spielen sie eine zweite Rolle.
+
+**Wofür sie da sind.** Zusammen mit einem H1-Blocker reduzieren sie Magensymptome (Sodbrennen, Reflux, Blähungen) und beruhigen die Immunzellseite der Histaminsignalgebung [@Simons2019cimetidine].
+
+**Wie sie wirken.** Sie setzen sich auf den H2-Rezeptor in Magen und Immunzellen und blockieren dort Histamin. Ihre Immunwirkungen sind real, aber komplex: H2 zu blockieren verändert das Verhalten bestimmter T- und B-Immunzellen [@vanderPol2021H2ReceptorImmune].
+
+**Die ehrliche Einschränkung.** Famotidin und seine Verwandten sind als *Ulkus-/Sodbrennen-Medikamente* sehr sicher und gut untersucht. Ob eine zusätzliche H2-Blockade die Mastzellsymptome über einen H1-Blocker hinaus spürbar verbessert, ist weniger streng belegt — es ist gute klinische Praxis, aber keine hochwertige Evidenz [@Simons2019cimetidine].
+
+**Eine eigene Idee: die H2-Responder-Untergruppe.** Weil H2-Rezeptoren auch auf Immunzellen sitzen, schlägt ein kleiner Korpus klinischen Denkens vor, dass *einige* ME/CFS-Patienten — charakteristischerweise jene mit postinfektiösem Beginn (nach EBV oder anderen Herpesviren), ausgeprägtem POTS und Histaminproblemen — ungewöhnlich gut auf den spezifischen H2-Blocker **Cimetidin** ansprechen könnten. Der vorgeschlagene Mechanismus ist zweifach: H2 auf bestimmten Immunzellen zu blockieren könnte eine erschöpfte zelluläre Immunantwort auf ein sich chronisch reaktivierendes Virus stärken, während der Mastzellen-/Histaminweg die metabolische Seite angeht [@Goldstein1986cimetidine][@Simons2019cimetidine]. Bleiben Sie hier skeptisch: Dieser Phänotyp beruht auf einer Behauptung von 1986 plus Mechanismus, und rund vier Jahrzehnte später **hat keine kontrollierte Studie ihn bestätigt**. Beachten Sie die ehrliche Deutung dieses Schweigens: Es könnte bedeuten, dass die Wirkung selten oder schwach ist — aber ein billiges Generikum hat wenig kommerziellen Anreiz, getestet zu werden, also könnte es ebenso bedeuten, dass nie eine angemessene Studie durchgeführt wurde. So oder so ist es eine Hypothese aus Fallberichten, keine Regel, und ein schlechter Grund, Cimetidin einem sichereren H2 vorzuziehen. **Und Cimetidin hat eine harte Sicherheitsgrenze:** Anders als Famotidin ist es ein starker Hemmer mehrerer Leberenzyme (CYP1A2, 2C9, 2D6, 3A4), erhöht also die Blutspiegel von Warfarin, Theophyllin, vielen Antidepressiva, Betablockern und Antiarrhythmika und anderen, und bei Langzeitgebrauch kann es antiandrogene Wirkungen haben. Bei einem ME/CFS/POTS-Patienten, der oft bereits mehrere davon einnimmt, **muss die verschreibende Person die vollständige Medikamentenliste prüfen, bevor Cimetidin verwendet wird; Famotidin ist aus diesem Grund die sicherere Voreinstellung.** [@Loth2026website]
+
+---
+
+## Die Mastzell-Stabilisatoren
+
+Antihistaminika blockieren die Chemikalien, nachdem sie freigesetzt wurden. Eine andere Medikamentenfamilie versucht, die Entladung selbst zu stoppen.
+
+- **Cromolyn (Cromoglycat)** — ein Mastzell-Stabilisator, oft oral bei Darmsymptomen oder inhaliert/vernebelt bei Lungenproblemen. Er versucht, Mastzellen an der Degranulation zu hindern [@Molderings2016pharmacological].
+- **Ketotifen** — ein H1-Antihistaminikum *plus* Mastzell-Stabilisator. Es wird häufig in der Mastzellen-/POTS-Versorgung eingesetzt [@Weinstock2024Ketotifen]. **Sedierung ist ein echtes Problem:** Ketotifen ist bei vielen Menschen stark sedierend, daher beginnt man meist nachts mit niedriger Dosis und steigert langsam. Für einen ME/CFS-Patienten kann diese tagsüber auftretende Sedierung teurer sein als der Nutzen, daher braucht es einen sorgfältigen Versuch mit Ihrem Kliniker.
+- **Rupatadin** — ein H1-Antihistaminikum, das auch einen zweiten Mediator (PAF) blockiert. Der Nutzen höherer Dosen wurde hauptsächlich bei Mastozytose (einer schwereren, klonalen Krankheit) untersucht, was eine vernünftige, aber nicht identische Grundlage für seine MCAS-Anwendung ist [@Izquierdo2024rupatadine].
+- **Montelukast** — blockiert Leukotriene, eine weitere Mastproduktfamilie; manchmal ergänzt, wenn Histaminblocker unzureichend sind (aus Fallserienpraxis, nicht aus MCAS-spezifischen Studien) [@Afrin2013MCAS]. **Es trägt eine amerikanische Box-Warnung** für schwere Stimmungs- und Verhaltensänderungen (Unruhe, Depression, in seltenen Fällen Suizidgedanken); wer es einnimmt, sollte es sofort absetzen und melden, wenn sich Stimmung oder Verhalten ändern.
+
+**Die ehrliche Einschränkung — und es ist eine wichtige.** In schweren oder resistenten Fällen zeigen stärkere Medikamente (Omalizumab, ein Antikörper, der den Allergieweg angreift) Ansprechen in Fallserien [@Matheny2025OmalizumabMCAS]. Aber die Versuche höchster Güte mit Mastzell-Stabilisatoren in *überlappenden Erkrankungen* waren enttäuschend: Eine randomisierte Studie mit Ketotifen bei Fibromyalgie fand **keinen Gesamtnutzen über Placebo hinaus** [@Moldofsky2015]. Das ist eine ernüchternde, ehrliche Datengrundlage, und wir kommen im [Begleitartikel zum Behandlungsversagen](../when-antihistamine-doesnt-work/index.qmd) darauf zurück.
+
+---
+
+## Die Symptome, die Antihistaminika beeinflussen können, und die, die sie nicht können
+
+**Was sie helfen könnten (wenn Ihre Symptome mastzellbedingt sind):** Rötung, Juckreiz, Quaddeln, eine verstopfte oder laufende Nase, manche Kopfschmerzen, Darmkrämpfe und Reflux und möglicherweise manche orthostatischen Symptome, weil Histamin und Prostaglandin D₂ Gefäße erweitern und den Blutdruck senken [@Kohno2021potsmast]. In einer Long-COVID/MCAS-Kohorte, die mit Fexofenadin plus Famotidin behandelt wurde, berichteten Untergruppen von Patienten über das Verschwinden von Fatigue, Hirnnebel und Tachykardie — allerdings hatte die Studie keine Kontrollgruppe, kann also Ursache und Wirkung nicht beweisen [@Salvucci2023antihistamineLongCOVID].
+
+**Setzen Sie Erwartungen ehrlich, weil die widrige Evidenz existiert.** Die einzige randomisierte Studie mit einem H1-Antihistaminikum speziell beim chronischen Fatigue-Syndrom — eine doppelblinde Studie von 1996 — fand **überhaupt keinen Nutzen**, und sie wurde nie durch einen positiven MCAS-spezifischen RCT übertroffen [@Steinberg1996]. Die Long-COVID-Besserungen oben sind unkontrolliert, und die positiven Dosiserhöhungsdaten stammen aus chronischer Urticaria, nicht aus ME/CFS. Was das bedeutet: „Für die allergische Profiluntergruppe einen Versuch wert" ist eine vernünftige Hoffnung, aber die ehrliche Vorabwahrscheinlichkeit ist bescheiden und nicht garantiert — genau deshalb zählt ein strukturierter Versuch mit einer Absetzregel (unten), und warum ein gescheiterter Versuch ein gewöhnliches Ergebnis ist, kein persönliches Versagen.
+
+**Was sie normalerweise NICHT allein beheben:** das zentrale Energieproduktionsproblem bei ME/CFS, was auch immer sein genauer Mechanismus ist. Selbst wo Histaminblockade Symptomen hilft, spricht sie die zellulären Energie- und Immundysfunktionen nicht direkt an, die weitgehend als im Zentrum der Krankheit liegend vorgeschlagen werden [@Loth2026website]. Kein Mastzellmedikament wird als Heilmittel für ME/CFS verkauft, und die vorsichtige Perspektive ist, dass das *ein Teil* des Bildes für *manche* Menschen ist — nicht die ganze Krankheit [@Castells2024mcasreview].
+
+---
+
+## Zu erwartende Ergebnisse
+
+Seien Sie realistisch und geduldig. Die Mastzellversorgung bei ME/CFS wird meist als *Versuch* beschrieben, nicht als garantierte Behandlung. So sieht das in der Praxis aus:
+
+- **Einem Versuch wird Zeit gegeben.** Das Ansprechen wird typischerweise über Wochen bis Monate beurteilt, nicht über Tage. Ein einzelner Nachmittag, an dem „es nichts bewirkte", sagt Ihnen wenig.
+- **Der Effekt kann teilweise sein.** Sie könnten die Rötung und die Kopfschmerzen senken, die Fatigue behalten und das als Gewinn zählen.
+- **Höhere Dosen sind manchmal nötig** für die H1-Blocker, unter Aufsicht, und sie müssen wegen möglicher Sedierung vorsichtig eskaliert werden — und Sedierung ist das Letzte, was ein ME/CFS-Patient braucht [@Zuberbier2022urticaria].
+- **H1 + H2 zu kombinieren (und manchmal einen Stabilisator) ist üblich, aber nicht fest belegt** — besonders der H2-Teil beruht auf Praxis, nicht auf starken Studien [@Molderings2016pharmacological].
+- **Die Erwartung zählt.** Die klinische *Erwartung* — noch nicht durch eine prospektive Studie bewiesen — ist, dass die Mastzellbehandlung am ehesten Menschen hilft, die auch klare episodische allergische Symptome haben (Rötung, Quaddeln, Histamin-artige Reaktionen) [@Rohrhofer2025mecfsmast][@Weinstock2023MCASneuro]. Ob dieses „allergische Profil" das Ansprechen wirklich vorhersagt, wurde in einer kontrollierten Studie nicht getestet, also behandeln Sie es als vernünftige Vorabannahme, nicht als Garantie. Wenn Sie keine dieser Symptome haben, macht das eine dramatische Reaktion aus diesen Gründen weniger wahrscheinlich — aber es ist kein Umgehen der obigen Evidenzunsicherheit.
+
+---
+
+## Ein Beispiel für einen „strukturierten Versuch" — und zuerst andere Ursachen ausschließen
+
+*Dies ist ein Beispiel, um Ihrem Kliniker etwas Konkretes zu geben — keine Selbstverschreibung. Die verschreibende Person wählt Medikament, Dosis und Dauer.*
+
+**Ein praktischer Rahmen, den ein Arzt verschreiben kann:** Wählen Sie ein Zielsymptom (z. B. Rötung, Quaddeln oder Darmkrämpfe). Beginnen Sie mit einem einzelnen Antihistaminikum der zweiten Generation (z. B. Fexofenadin 180 mg täglich oder die bevorzugte Wahl der verschreibenden Person). Beurteilen Sie das einzelne Zielsymptom nach 4–6 Wochen. **Erst nach Titration bis zur maximal tolerierten Dosis** (die bei diesen Medikamenten bis zum Vierfachen der Anfangsdosis betragen kann, laut dem Dosiserhöhungsabschnitt oben — die Anfangsdosis ist *nicht* die Zieldosis) wird das Medikament beurteilt. Wenn es bei dieser tolerierten höheren Dosis keine Besserung gibt, greift die Absetzregel: **setzen Sie diesen Wirkstoff ab (oder versuchen Sie ein anderes Antihistaminikum der zweiten Generation — das Versagen eines Moleküls ist nicht das Versagen der Klasse), statt ein weiteres Medikament hinzuzufügen**, was eine sauberere Antwort ist. Wenn das Medikament in Standarddosis hilft, gibt es keinen Grund, sie zu erhöhen. Erst wenn ein ausreichend dosiertes H1 wirklich nicht hilft, geht das Gespräch zum Hinzufügen eines H2 oder Stabilisators über. Jede Erhöhung erfolgt mit der verschreibenden Person, niemals durch Selbsteskalation.
+
+**Zuerst ausschließen / vor der Dosiserhöhung wissen:** Bestimmte Krankheiten erzeugen dasselbe Rötungs- und Episodensymptombild und dürfen nicht als „nur MCAS" behandelt werden — insbesondere systemische Mastozytose (ein Baseline-Tryptase-Bluttest ist weit verfügbar und das erste Screening), eine echte IgE-Nahrungsmittelallergie, Schilddrüsenerkrankung und, selten, hormonsezernierende Tumoren (Karzinoid, Phäochromozytom). Eine verschreibende Person sollte diese ausschließen, bevor sie sich auf eine chronische Antihistaminika-Behandlung festlegt.
+
+**Wann weiter überweisen:** wiederkehrende schwere Reaktionen, erhöhte Baseline-Tryptase, Ohnmacht/Synkope bei Reaktionen oder Versagen gut durchgeführter Erst- und Zweitlinienmittel rechtfertigen alle die Überweisung an einen Allergologen-Immunologen mit MCAS-Erfahrung, statt fortgesetzter empirischer Dosierung in der Primärversorgung.
+
+**Wenn Sie auch POTS-Medikamente nehmen** (Fludrocortison, Midodrin, Betablocker), müssen die Blutdruck- und Sedationswirkungen eines höher dosierten Antihistaminikums und jede Cimetidin-Interaktion gemeinsam beurteilt werden — das ist ein Fall für eine einzige verschreibende Person, die die vollständige Medikamentenliste hält, kein selbstgesteuerter Ergänzungsstapel.
+
+---
+
+## Das Fazit
+
+Antihistaminika — die H1 und die H2 — sind echte Medikamente, die Histamin an zwei verschiedenen Empfängerstandorten blockieren. Sie beruhigen die allergischen Symptome, nicht die Energiekrise [@Molderings2016pharmacological]. Höhere Dosen sind manchmal wirklich nötig, weil ein Mastzellsturm eine Standarddosis einfach zahlenmäßig übertrifft, aber diese Erhöhung muss unter Aufsicht erfolgen und trägt einen Sedierungspreis. Und die ehrliche Wahrheit ist, dass die *spezifischen* Belege für diese Medikamente bei MCAS-auf-ME/CFS dünner sind als die Urticaria-Evidenz, der viele Dosierungsregeln entliehen sind [@Nurmatov2015H1systematic].
+
+Sie sind ernst zu nehmen *als Teil des Bildes* für Menschen mit dem episodischen allergischen Profil. Aber sie sind kein Heilmittel, und ein gescheiterter Versuch sagt Ihnen mehr als „die Medikamente wirken nicht" — er weist Sie auf die nuancierteren Fragen hin, die im [Begleitartikel dazu, was es bedeutet, wenn sie nicht helfen](../when-antihistamine-doesnt-work/index.qmd) behandelt werden.
+
+Für das vollständige, voll zitierte Bild, wie Mastzellen unter den vielen Kandidatenmechanismen bei ME/CFS gewogen werden, siehe [@Loth2026website].

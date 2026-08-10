@@ -1,0 +1,55 @@
+---
+title: "Les affections qui accompagnent l'EM/SFC — une série"
+description: "L'EM/SFC apparaît rarement seule. L'activation des mastocytes, le POTS, l'hypermobilité, la fibromyalgie, les problèmes intestinaux et les migraines co-occurrent bien plus souvent que par hasard. C'est la page d'accueil d'une série en langage clair sur chaque affection concomitante : ce qu'elle est, comment elle se rapporte à l'EM/SFC, les traitements, et — toujours — ce que cela signifie si le traitement ne marche pas."
+author: "Yannick Loth"
+date: "2026-08-10"
+categories: [EM/SFC, Série, Comorbidités]
+lang: fr
+---
+
+L'EM/SFC apparaît rarement seule. En pratique, elle voyage avec une constellation d'autres affections — l'activation des mastocytes, le syndrome de tachycardie orthostatique posturale (POTS), les syndromes d'hypermobilité, la neuropathie des petites fibres, l'infection chronique, l'auto-immunité, les problèmes intestinaux et la douleur de type fibromyalgique. Le document principal derrière ce site appelle le groupe le plus resserré de sept la *Septade* : des physiopathologies en interaction qui co-occurrent et s'alimentent mutuellement. Cette série est **inspirée par** cette idée mais un peu plus large — elle couvre ces sept-là plus la douleur de type fibromyalgique, et se termine par un article sur la façon dont les amplificateurs s'enchaînent en un seul tableau.
+
+Cette série explique une affection concomitante à la fois, en langage clair, pour un lecteur las du jargon. Chaque article suit la même forme :
+
+1. **Ce que l'on ressent** — une courte vignette honnête.
+2. **Ce que c'est** — le mécanisme, en mots ordinaires.
+3. **Comment cela se rapporte à l'EM/SFC** — y compris si c'est une *cause*, un *amplificateur en aval*, ou un compagnon *coïncident* (souvent : un amplificateur).
+4. **Les traitements** — ce qu'ils sont, comment ils fonctionnent.
+5. **Ce que cela signifie si le traitement ne marche pas** — la partie honnête.
+
+---
+
+## Partie 1 (actuelle) : Activation des mastocytes et histamine
+
+La série s'ouvre avec le MCAS — l'affection où vos cellules immunitaires se déclenchent sans déclencheur, avec bouffées de chaleur et réactions à la poussière et au toucher. C'est une première entrée naturelle parce que c'est fréquent, en partie réversible, et emblématique du message central de toute la série : *la plupart de ces affections sont des amplificateurs, pas des causes, et traiter un amplificateur peut encore valoir le coup.*
+
+Lisez les trois articles dans l'ordre :
+
+1. **[MCAS et EM/SFC : pourquoi votre corps réagit à rien](../mcas-mecfs-overview/index.qmd)** — ce qu'est le MCAS, pourquoi il apparaît après l'EM/SFC (pas avant), et la différence entre MCAS isolé et EM/SFC avec MCAS.
+2. **[Les antihistaminiques pour l'EM/SFC et le MCAS : H1 vs H2, et pourquoi votre médecin augmente la dose](../antihistamines-mcas-mecfs-treatment/index.qmd)** — les médicaments, l'histamine et ses récepteurs, et les stabilisateurs.
+3. **[Quand l'antihistaminique ne marche pas](../when-antihistamine-doesnt-work/index.qmd)** — les tests normaux, l'intolérance à l'histamine, les « variétés » de mastocytes, le cliquet d'amplification, et quoi faire ensuite.
+
+---
+
+## Prévu pour cette série
+
+À venir dans des entrées ultérieures, chacune suivant le même modèle :
+
+1. **[Le POTS et le cœur qui s'emballe quand vous vous levez](../pots-mecfs/index.qmd)** — l'intolérance orthostatique et le volume sanguin *(ensuite).*
+2. **L'hypermobilité et la connexion au tissu conjonctif** — la triade hEDS / POTS / MCAS.
+3. **La neuropathie des petites fibres — quand le câblage lui-même est défectueux** — les nerfs endommagés qui portent la douleur et le cœur qui s'emballe.
+4. **La douleur qui n'est pas musculaire** — la douleur de type fibromyalgique et la sensibilisation nerveuse.
+5. **L'intestin qui se comporte mal** — dysmotilité gastro-intestinale, SIBO et réactions alimentaires.
+6. **L'infection chronique** — la réactivation virale et la maladie transmise par les tiques.
+7. **L'auto-immunité** — les anticorps qui parlent au système nerveux.
+8. **Enchaînés ensemble** — comment les amplificateurs deviennent un seul tableau.
+
+La série complète prévue (sujets, priorités, ancres de sources et prédictions réfutables) vit dans [`_series-plan.md`](../../_series-plan.md).
+
+---
+
+## Une note sur l'honnêteté
+
+Chaque article de cette série distingue soigneusement trois choses : ce qui est *confirmé* par les preuves, ce qui est une *hypothèse prometteuse*, et ce qui est *l'expérience d'un patient individuel*. Il garde aussi distinctes les deux situations EM/SFC — une affection concomitante isolée vs la même affection par-dessus l'EM/SFC — parce que l'objectif du traitement et le sens d'un échec diffèrent généralement (tout en reconnaissant que c'est une frontière clinique, dépendante du jugement, plutôt qu'un mur biologique dur).
+
+La science sous-jacente est entièrement citée dans le document principal — voir les vues d'ensemble du MCAS et le chapitre transversal pour le matériel source si vous voulez le détail derrière ces pièces en langage clair [@Loth2026website].

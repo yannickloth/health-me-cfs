@@ -1,0 +1,55 @@
+---
+title: "Die Erkrankungen, die mit ME/CFS reisen — eine Serie"
+description: "ME/CFS reist selten allein. Mastzellaktivierung, POTS, Hypermobilität, Fibromyalgie, Darmprobleme und Migräne treten weit häufiger gemeinsam auf als durch Zufall. Dies ist die Landingpage einer Serie in einfacher Sprache zu jeder begleitenden Erkrankung: was sie ist, wie sie sich auf ME/CFS bezieht, die Behandlungen und — immer — was es bedeutet, wenn die Behandlung nicht wirkt."
+author: "Yannick Loth"
+date: "2026-08-10"
+categories: [ME/CFS, Serie, Komorbiditäten]
+lang: de
+---
+
+ME/CFS tritt selten allein auf. In der Praxis reist es mit einer Konstellation anderer Erkrankungen — Mastzellaktivierung, posturales orthostatisches Tachykardiesyndrom (POTS), Hypermobilitätssyndrome, Small-Fiber-Neuropathie, chronische Infektion, Autoimmunität, Darmprobleme und fibromyalgieartiger Schmerz. Das Primärdokument hinter dieser Website nennt das engste Cluster von sieben die *Septade*: interagierende Pathophysiologien, die gemeinsam auftreten und sich gegenseitig speisen. Diese Serie ist von dieser Idee **inspiriert**, aber etwas breiter — sie umfasst jene sieben plus das Fibromyalgie-Schmerzmuster und schließt mit einem Stück darüber, wie die Verstärker zu einem einzigen Bild verketten.
+
+Diese Serie erklärt eine begleitende Erkrankung nach der anderen, in einfacher Sprache, für eine Leserin/einen Leser, die/der des Fachjargons überdrüssig ist. Jeder Artikel folgt derselben Form:
+
+1. **Wie es sich anfühlt** — eine kurze, ehrliche Vignette.
+2. **Was es ist** — der Mechanismus, in gewöhnlichen Worten.
+3. **Wie es sich auf ME/CFS bezieht** — einschließlich, ob es eine *Ursache*, ein *nachgeschalteter Verstärker* oder ein *zufälliger* Begleiter ist (oft: ein Verstärker).
+4. **Die Behandlungen** — was sie sind, wie sie wirken.
+5. **Was es bedeutet, wenn die Behandlung nicht wirkt** — der ehrliche Teil.
+
+---
+
+## Teil 1 (aktuell): Mastzellaktivierung und Histamin
+
+Die Serie beginnt mit MCAS — der Erkrankung, bei der Ihre Immunzellen ohne Auslöser feuern, mit Rötung und Reaktionen auf Staub und Berührung. Es ist ein natürlicher erster Eintrag, weil es häufig, teilweise reversibel und bezeichnend für die Kernbotschaft der ganzen Serie ist: *die meisten davon sind Verstärker, keine Ursachen, und einen Verstärker zu behandeln kann sich trotzdem lohnen.*
+
+Lesen Sie die drei Artikel in Reihenfolge:
+
+1. **[MCAS und ME/CFS: warum Ihr Körper auf nichts reagiert](../mcas-mecfs-overview/index.qmd)** — was MCAS ist, warum es nach ME/CFS auftritt (nicht davor), und der Unterschied zwischen alleinigem MCAS und ME/CFS-mit-MCAS.
+2. **[Antihistaminika bei ME/CFS und MCAS: H1 vs. H2, und warum Ihr Arzt die Dosis erhöht](../antihistamines-mcas-mecfs-treatment/index.qmd)** — die Medikamente, Histamin und seine Rezeptoren, und die Stabilisatoren.
+3. **[Wenn das Antihistaminikum nicht wirkt](../when-antihistamine-doesnt-work/index.qmd)** — normale Tests, Histaminintoleranz, die „Sorten" von Mastzellen, die Verstärkungsratsche und was als Nächstes zu tun ist.
+
+---
+
+## Für diese Serie geplant
+
+Später in weiteren Einträgen, jeder nach derselben Vorlage:
+
+1. **[POTS und das Herz, das rast, wenn Sie aufstehen](../pots-mecfs/index.qmd)** — orthostatische Intoleranz und Blutvolumen *(als Nächstes).*
+2. **Hypermobilität und die Bindegewebsverbindung** — die hEDS / POTS / MCAS-Triade.
+3. **Small-Fiber-Neuropathie — wenn die Verkabelung selbst falsch ist** — die beschädigten Nerven, die den Schmerz und das rasende Herz tragen.
+4. **Der Schmerz, der kein Muskel ist** — fibromyalgieartiger Schmerz und Nervensensibilisierung.
+5. **Der Darm, der sich danebenbenimmt** — GI-Dysmotilität, SIBO und Nahrungsreaktionen.
+6. **Chronische Infektion** — virale Reaktivierung und zeckenübertragene Krankheit.
+7. **Autoimmunität** — Antikörper, die mit dem Nervensystem sprechen.
+8. **Verketten zusammen** — wie die Verstärker zu einem Bild werden.
+
+Der vollständige geplante Umfang (Themen, Prioritäten, Quellenanker und falsifizierbare Vorhersagen) lebt in [`_series-plan.md`](../../_series-plan.md).
+
+---
+
+## Eine Notiz zur Ehrlichkeit
+
+Jeder Artikel dieser Serie unterscheidet sorgfältig drei Dinge: was durch Evidenz *bestätigt* ist, was eine *vielversprechende Hypothese* ist, und was *die Erfahrung eines einzelnen Patienten* ist. Er hält auch die beiden ME/CFS-Situationen getrennt — eine begleitende Erkrankung für sich vs. dieselbe Erkrankung zusätzlich zu ME/CFS —, weil sich das Behandlungsziel und die Bedeutung eines Misserfolgs meist unterscheiden (wobei anerkannt wird, dass dies eine klinische, urteilsabhängige Grenze ist, keine harte biologische Wand).
+
+Die zugrunde liegende Wissenschaft ist im Primärdokument vollständig zitiert — siehe die MCAS-Übersichten und das krankheitsübergreifende Kapitel für Quellenmaterial, wenn Sie die Details hinter diesen einfachsprachigen Stücken wünschen [@Loth2026website].
