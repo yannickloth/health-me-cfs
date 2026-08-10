@@ -19,7 +19,7 @@
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|-------------------|------|-----------|--------|-------|
-| 1 | Systemic innate-immune hyperactivation as drug-addressable driver of fatigue/PEM | n/a (cascade) | 0.55 | ✅ done | ch33 sec-08 subsec-04 cascade + sec-12 cross-refs + registry entry (scoped micro-add) |
+| 1 | Systemic innate-immune hyperactivation as drug-addressable driver of fatigue/PEM | n/a (cascade) | 0.55 | ✅ done | ch33 sec-08 subsec-04 cascade + sec-12 cross-refs + registry entry (scoped micro-add); committed 98aa0fdf |
 
 ## Phase 3 status (2026-08-10)
 - Added `subsec-04-innate-immune-hyperactivation-cascade/` (header + cascade subsubsec) under ch33 sec-08.
@@ -84,6 +84,11 @@ Every component mechanism (innate immunity, TLR4/NF-κB, mitochondrial, kynureni
 
 ## Phase 12 (2026-08-10)
 - Added Version 7.4 changelog entry to `shared/changelog-tspo-pet-section.typ` (_Motivated by:_ @che2025innate). All citations/xrefs in the entry verified to resolve.
+
+## Phase 13 (2026-08-10)
+- Committed `98aa0fdf` — 8 files (ch33 cascade + sec-12 + 4 ops artifacts). Scope-clean.
+- Shared-file ownership: registry entry + changelog 7.4 entry landed in PARALLEL commit `cbd6221a` (komaroff-dantzer) and `b3541142`/`cbd6221a` (godlewska/komaroff-dantzer). **Verified both entries intact in HEAD** via `git show HEAD:<file> | grep <key>`.
+- Post-commit integrity: `nix build` 0 errors; foreign ai-multiomics files remain staged (not lost) for parallel stream; no history rewritten.
 
 ## Notes
 - **MIXED mode** — working tree has unrelated untracked files (`ai-multiomics-mecfs-xiong2025` topic). No shared-branch WIP commits; rollback = `git checkout <ref> -- <file>` (NEVER reset/rebase/amend); all phases scoped by explicit file lists from phase reports, NOT `git diff`.
