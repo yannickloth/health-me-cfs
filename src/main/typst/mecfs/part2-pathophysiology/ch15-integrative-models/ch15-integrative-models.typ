@@ -47,6 +47,18 @@ Systems biology approaches ME/CFS as a network of interacting components rather 
 
 *Therapeutic implication:* Single-target interventions have limited efficacy in complex network diseases. Multi-target approaches (CoQ10 + LDN, mitochondrial support + immune modulation, autonomic support + anti-inflammatory) may achieve better outcomes by simultaneously addressing multiple network nodes.
 
+== AI-Driven Multi-Omics Integration: The BioMapAI Model
+<sec:ai-multi-omics-biomap>
+
+BioMapAI, a supervised deep neural network by Xiong, Oh, Bateman, Unutmaz and colleagues @Xiong2025BioMapAI, is the most comprehensive AI integration of ME/CFS multi-omics to date — a 4-year longitudinal study of 249 participants (96 controls, 153 patients) combining gut metagenomics, plasma metabolomics, immune profiling, blood laboratories, and 12 clinical symptoms, with held-out and four-cohort external validation. Its explanatory power lies in integration: no single omics layer separated patients from controls, yet the integrated model reached an area-under-the-curve of 0.99. The model's explainable connectivity map and its dysbiotic host-microbiome readout are developed below.
+
+#include "sec-01-misc/subsec-10-ai-multi-omics-integration-biomap/achievements/ach-biomapai-multi-omics-integration-of-fiv.typ"
+#include "sec-01-misc/subsec-10-ai-multi-omics-integration-biomap/hypotheses/hyp-biomapai-dysbiotic-microbiome-immune-metab.typ"
+#include "sec-01-misc/subsec-10-ai-multi-omics-integration-biomap/open-questions/oq-innate-like-t-cell-activation-vs-depletio.typ"
+#include "sec-01-misc/subsec-10-ai-multi-omics-integration-biomap/hypotheses/hyp-cross-layer-coordination-signature-defines-.typ"
+#include "sec-01-misc/subsec-10-ai-multi-omics-integration-biomap/speculations/spec-longitudinal-symptom-specific-stability-roc.typ"
+#include "sec-01-misc/subsec-10-ai-multi-omics-integration-biomap/limitations/lim-biomapai-symptom-circularity-caveat.typ"
+
 == The Subjective-Measurable Discrepancy: A Diagnostic Pattern Across ME/CFS Measurement Domains
 <sec:subjective-measurable-discrepancy>
 
