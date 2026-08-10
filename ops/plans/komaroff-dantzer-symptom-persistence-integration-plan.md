@@ -36,6 +36,13 @@
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|-------------------|------|-----------|--------|-------|
 | 1 | Komaroff-Dantzer 2025 review — primary paper synthesis | — | 0.78 disc | ✅ done | Phase 2: PROCEED. Synthesis at tmp/synthesis-komaroff-dantzer-symptom-persistence-2026-08-10.md; Active Caps set. |
+
+## Phase 13 report (commit)
+- Commit: `cbd6221a` — `content(komaroff-dantzer): integrate sickness/torpor neural-circuit symptom model` — 21 files, +1483/-1.
+- Committed ONLY this topic's files via explicit pathspec; foreign parallel-cycle files (Xiong, innate-immunity, godlewska: ~19 staged + untracked ops artifacts) left intact for their owning cycles.
+- Shared-file entries verified present post-commit at HEAD: bib long-covid KomaroffDantzer2025 key, hypothesis-registry (2), changelog 7.5, glossary (5 keys). Parallel strands' entries in the SAME shared files (bib/registry/changelog/glossary) shipped alongside mine (whole-file commit) — acceptable per shared-file ownership; note: appendix-h also carries Xiong/Brigo/Malatji entries from the Xiong cycle.
+- Build post-commit: PASS. No history rewrite (pathspec commit; no reset/rebase/amend). No scratch pointers in MIXED mode (none to clean).
+- Excluded: foreign staged files + untracked ops of other cycles left untouched; tmp/ audit scratch (gitignored) never committed.
 | 2 | Named sickness/torpor neural circuits (area postrema→brainstem; OV→VMPO; median preoptic→torpor) | — | 0.45 | ✅ done | Phase 3/5: ch18 @hyp:ch15-sickness-torpor-circuits; registry entry; translation-gap annotated |
 | 3 | Torpor-like AMPK-mTOR hypometabolic switch as adaptive | — | 0.30 | ✅ done | Folded into #2 ch18 hyp + Phase 6 ch07/ch16 reinforcement |
 | 4 | Two-way fever/torpor preoptic switch (defective circuit "switch") | — | 0.31 | ✅ done | Machado2025; folded into #2 ch18 hyp |
