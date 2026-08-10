@@ -11,7 +11,7 @@
 
 | ID | Title | Env | Cert | mech | tx | expl | math | dx | Status | Children |
 |----|-------|-----|------|------|----|------|------|----|--------|----------|
-| 1.1 | Bidirectional mood–inflammation loop | speculation | 0.45 | 3 | 2 | 3 | 0 | 2 | ✅ | — |
+| 1.1 | Bidirectional mood–inflammation loop | speculation | 0.40 | 3 | 2 | 3 | 0 | 2 | ✅ | — |
 | 1.2 | Comorbidity-masking inflates IL-6/TNF-α claims | limitation | 0.45 | 3 | 0 | 3 | 0 | 2 | ✅ | — |
 | 1.3 | Th17/myeloid-axis shared-signal | speculation | 0.30 | 3 | 2 | 3 | 0 | 3 | ✅ | — |
 | 2.1 | Comorbidity-screened ME/CFS cytokine meta | proposal | n/a | 0 | 0 | 3 | 0 | 3 | ↩️ | — |
@@ -20,7 +20,7 @@
 | 5.1 | Stress-reduction dampens mood–inflammation loop | speculation | 0.20 | 2 | 1 | 2 | 0 | 0 | ↩️ | — |
 | 6.1 | Comorbidity-audit clinical tool | proposal | n/a | 0 | 0 | 2 | 0 | 3 | ↩️ | — |
 | 7.1 | Bidirectional mood–inflammation coupling node | proposal | n/a | 2 | 0 | 2 | 4 | 0 | ↩️ | — |
-| 8.1 | Dementia ↔ ME/CFS inflammatory-template bridge | speculation | 0.45 | 4 | 3 | 4 | 0 | 2 | ✅ | — |
+| 8.1 | Dementia ↔ ME/CFS inflammatory-template bridge | speculation | 0.40 | 4 | 3 | 4 | 0 | 2 | ✅ | — |
 | 10.1 | Inflammation may be epiphenomenal | limitation | 0.60 | 2 | 2 | 4 | 0 | 0 | ✅ | — |
 | 10.2 | Causality may reverse even in dementia | open-question | n/a | 2 | 0 | 3 | 0 | 0 | ✅ | — |
 | 11.1 | Null: inflammation has no role | limitation | n/a | 2 | 2 | 4 | 0 | 0 | ✅ | — |

@@ -45,10 +45,10 @@ Standing epistemic checklist: #1–#6 all ✓ (see Phase 2 report below).
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|-------------------|------|-----------|--------|-------|
 | 1 | Core paper evidence synthesis | — | 0.64 disc | ✅ done | Phase 2: PROCEED. Synthesis at tmp/synthesis-dementia-inflammation-2026.md; Active Caps set |
-| 2 | Bidirectional mental-illness–inflammation template | 2 | 0.45 | ✅ done | Phase 3: ch14d @spec:bidirectional-mood-inflammation-template; registry entry |
+| 2 | Bidirectional mental-illness–inflammation template | 2 | 0.40 | ✅ done | Phase 3: ch14d @spec:bidirectional-mood-inflammation-template; registry entry |
 | 3 | Comorbidity-masking caution (IL-6/TNF-α null) | 2 | 0.45 | ✅ done | Phase 3: ch08 @lim:dementia-comorbidity-masking |
 | 4 | ch19 chronicity cross-disease precedent | — | 0.45 | ✅ done | Phase 3: ch19 chronicity criterion sentence |
-| B-1.1 | Bidirectional mood–inflammation loop | 2 | 0.45 | ✅ done | brainstorm → ch14d (anchor, Phase 3) |
+| B-1.1 | Bidirectional mood–inflammation loop | 2 | 0.40 | ✅ done | brainstorm → ch14d (anchor, Phase 3) |
 | B-1.2 | Comorbidity-masking inflates IL-6/TNF-α | 2 | 0.45 | ✅ done | brainstorm → ch08 (anchor, Phase 3) |
 | B-1.3 | Th17/myeloid-axis shared-signal | 2 | 0.30 | ✅ done | brainstorm → ch14d @spec:th17-myeloid-shared-signal; registry entry; anti-Th17 probe folded into consequence |
 | B-2.1 | Comorbidity-screened ME/CFS cytokine meta | 2 | n/a | ⏭️ tree-only | proposal — research direction, no inline text (BLOAT control) |
@@ -57,7 +57,7 @@ Standing epistemic checklist: #1–#6 all ✓ (see Phase 2 report below).
 | B-5.1 | Stress-reduction dampens mood–inflammation loop | — | 0.20 | ⏭️ covered-by-existing | dedup: pacing/stress content already exists |
 | B-6.1 | Comorbidity-audit clinical tool | 2 | n/a | ⏭️ tree-only | proposal — low value, no inline text |
 | B-7.1 | Bidirectional mood–inflammation coupling node | 2 | n/a | ⏭️ tree-only | proposal — math model, covered implicitly |
-| B-8.1 | Dementia ↔ ME/CFS inflammatory-template bridge | 2 | 0.45 | ✅ done | brainstorm → ch19/ch14d (anchor) |
+| B-8.1 | Dementia ↔ ME/CFS inflammatory-template bridge | 2 | 0.40 | ✅ done | brainstorm → ch19/ch14d (anchor) |
 | B-10.1 | Inflammation may be epiphenomenal | crit | 0.60 | ✅ done | limitation (critical) inline |
 | B-10.2 | Causality may reverse even in dementia | crit | n/a | ✅ done | open-question (critical) inline |
 | B-11.1 | Null: inflammation has no role | crit | n/a | ✅ done | limitation (critical) inline |
@@ -121,7 +121,7 @@ ch30 footprint decision: **Citation cross-ref only** (cross-disease comparative 
 - Phase 7: cross-hypothesis compatibility inline (below).
 
 ## Phase 7 compatibility
-Pairs audited (5): bidirectional-template(0.45)↔neuroinflammation-cascade-generator(0.35) = feed-into/complementary-direction → **unresolved tension flagged** (cert diff 0.10, framed as bidirectional loop in ch14d); bidirectional-template→ch15-neurodegeneration-risk(0.35) = reinforcement (cross-ref added); th17-myeloid↔neuroinflammation-cascade = reclassified independent→weak-feed (shared Th17/neuroinflammation theme); th17-myeloid↔il2-pathway = independent; bidirectional↔adhd-mecfs-same-root = independent. Certainty adjustments: 0 bumps, 0 reductions (all speculative <0.50 guards, cert diffs ≤0.10). Standing epistemic checklist: no violations.
+Pairs audited (5): bidirectional-template(0.40)↔neuroinflammation-cascade-generator(0.35) = feed-into/complementary-direction → **unresolved tension flagged** (cert diff 0.10, framed as bidirectional loop in ch14d); bidirectional-template→ch15-neurodegeneration-risk(0.35) = reinforcement (cross-ref added); th17-myeloid↔neuroinflammation-cascade = reclassified independent→weak-feed (shared Th17/neuroinflammation theme); th17-myeloid↔il2-pathway = independent; bidirectional↔adhd-mecfs-same-root = independent. Certainty adjustments: 0 bumps, 0 reductions (all speculative <0.50 guards, cert diffs ≤0.10). Standing epistemic checklist: no violations.
 
 ## Notes
 - Standalone user-supplied topic; not queued by a parent cycle.
