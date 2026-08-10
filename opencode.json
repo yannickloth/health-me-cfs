@@ -5,7 +5,7 @@
   "instructions": [
     "Read AGENTS.md for project context.",
     "Read .opencode/agents/*.md for agent definitions.",
-    "Tiers: (1) deepseek-v4-flash thinking-disabled = mechanical, build-verified, high-volume; flash kept for speed, thinking explicitly OFF because DS4 API defaults thinking ON. (2) deepseek-v4-pro thinking-enabled effort=high = default judgment tier (DS4-pro cheap; DS4 supports only high/max; opencode auto-elevates complex agent calls to max). (3) kimi-for-coding/k2p7 (K2.7 Code, 256K ctx) = code-generation agents where DS4 code mistakes cause rework loops. (4) kimi-for-coding/kimi-for-coding-highspeed = latency-sensitive code fix loops. (5) kimi-for-coding/k3 = correctness/logic/safety-critical and error-propagating builders (low-frequency; reasoning always-on at effort=max — the only value K3 accepts; no thinking param; token-hungry; no sweeps, no mechanical work). All Kimi models share the limited Allegretto quota: k2p7/highspeed burn far less than k3. VISION: DS4 models are text-only — any agent that Reads rendered figures/PDFs (diagram layout, accuracy, consistency, spacing checks) MUST use a Kimi model (k2p7 default; k3 for deep visual-rhetoric)."
+    "Tiers: (1) deepseek-v4-flash thinking-disabled = mechanical, build-verified, high-volume; flash kept for speed, thinking explicitly OFF because DS4 API defaults thinking ON. (2) deepseek-v4-pro thinking-enabled = judgment tier; effort=high for default judgment work, effort=max for deep-reasoning auditors/builders formerly on k3 (DS4-pro cheap; DS4 supports only high/max; opencode auto-elevates complex agent calls to max). (3) kimi-for-coding/k2p7 (K2.7 Code, 256K ctx) = code-generation agents where DS4 code mistakes cause rework loops. (4) kimi-for-coding/kimi-for-coding-highspeed = latency-sensitive code fix loops. (5) kimi-for-coding/k3 = reserved ONLY for vision-critical agents that must Read rendered figures/PDFs and judge deep visual rhetoric (diagram-rhetoric-auditor). NO text-only review agent may use Kimi k3. VISION: DS4 models are text-only — any agent that Reads rendered figures/PDFs (diagram layout, accuracy, consistency, spacing checks) MUST use a Kimi model (k2p7 default; k3 for deep visual-rhetoric)."
   ],
   "plugin": [
     "../llm-harness-plugins/agentmem/opencode/index.ts"
@@ -66,8 +66,11 @@
       }
     },
     "causal-model-builder": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
@@ -89,9 +92,12 @@
       }
     },
     "clinician-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "commit-writer": {
@@ -131,9 +137,12 @@
       }
     },
     "consequence-field-writer": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "content-reviewer": {
@@ -155,14 +164,20 @@
       }
     },
     "crisis-manager": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "cynic-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
@@ -193,8 +208,11 @@
       }
     },
     "devil-advocate-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
@@ -333,8 +351,11 @@
       }
     },
     "hypothesis-compatibility-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
@@ -356,8 +377,11 @@
       }
     },
     "hypothesis-reinforcement-builder": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
@@ -397,33 +421,48 @@
       }
     },
     "logic-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
     "math-verifier": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
     "medical-advisor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "medication-differential-analyst": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
     "meta-analysis-coordinator": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "microbiome-auditor": {
@@ -445,8 +484,11 @@
       }
     },
     "model-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
@@ -477,9 +519,12 @@
       }
     },
     "opus-general": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "pacing-coach": {
@@ -501,15 +546,21 @@
       }
     },
     "patient-safety-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "pharmacology-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "production-readiness-checker": {
@@ -539,15 +590,21 @@
       }
     },
     "quantitative-model-builder": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
     "reductionist-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "redundancy-auditor": {
@@ -587,9 +644,12 @@
       }
     },
     "safety-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "scientific-insight-generator": {
@@ -602,9 +662,12 @@
       }
     },
     "scientific-rigor-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "scope-qualifier-checker": {
@@ -625,15 +688,21 @@
       }
     },
     "sophist-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
     "strawman-auditor": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "structure-auditor": {
@@ -728,9 +797,12 @@
       }
     },
     "treatment-analyst": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
-        "reasoning_effort": "max"
+        "thinking": {
+          "type": "enabled"
+        },
+        "reasoning_effort": "high"
       }
     },
     "typst-citation-checker": {
@@ -799,8 +871,11 @@
       }
     },
     "typst-proof-validator": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
@@ -839,8 +914,11 @@
       }
     },
     "uncertainty-analyst": {
-      "model": "kimi-for-coding/k3",
+      "model": "deepseek/deepseek-v4-pro",
       "options": {
+        "thinking": {
+          "type": "enabled"
+        },
         "reasoning_effort": "max"
       }
     },
