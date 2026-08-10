@@ -1,0 +1,74 @@
+1. J Transl Med. 2024 Feb 21;22(1):191. doi: 10.1186/s12967-024-04979-1.
+
+Fatigue and symptom-based clusters in post COVID-19 patients: a multicentre, 
+prospective, observational cohort study.
+
+Cornelissen MEB(1)(2)(3), Bloemsma LD(4)(5)(6), Vaes AW(7), Baalbaki N(4)(5)(6), 
+Deng Q(7)(8), Beijers RJHCG(8), Noij LCE(4)(5)(6), Houweling L(4)(5)(6)(9), 
+Bazdar S(4)(5)(6), Spruit MA(7)(8), Maitland-van der Zee AH(4)(5)(6); the P4O2 
+Consortium.
+
+Author information:
+(1)Department of Pulmonary Medicine, Amsterdam UMC, Amsterdam, The Netherlands. 
+m.e.b.cornelissen@amsterdamumc.nl.
+(2)Amsterdam Institute for Infection and Immunity, Amsterdam UMC, Amsterdam, The 
+Netherlands. m.e.b.cornelissen@amsterdamumc.nl.
+(3)Amsterdam Public Health Research Institute, Amsterdam UMC, Amsterdam, The 
+Netherlands. m.e.b.cornelissen@amsterdamumc.nl.
+(4)Department of Pulmonary Medicine, Amsterdam UMC, Amsterdam, The Netherlands.
+(5)Amsterdam Institute for Infection and Immunity, Amsterdam UMC, Amsterdam, The 
+Netherlands.
+(6)Amsterdam Public Health Research Institute, Amsterdam UMC, Amsterdam, The 
+Netherlands.
+(7)Department of Research and Development, Ciro, Horn, The Netherlands.
+(8)Department of Respiratory Medicine, Nutrim Institute of Nutrition and 
+Translational Research in Metabolism, Faculty of Health, Medicine and Life 
+Sciences, Maastricht University, Maastricht, The Netherlands.
+(9)Department of Environmental Epidemiology, Institute for Risk Assessment 
+Sciences (IRAS), Utrecht University, Utrecht, The Netherlands.
+
+BACKGROUND: In the Netherlands, the prevalence of post COVID-19 condition is 
+estimated at 12.7% at 90-150 days after SARS-CoV-2 infection. This study aimed 
+to determine the occurrence of fatigue and other symptoms, to assess how many 
+patients meet the Myalgic Encephalomyelitis/Chronic Fatigue Syndrome (ME/CFS) 
+criteria, to identify symptom-based clusters within the P4O2 COVID-19 cohort and 
+to compare these clusters with clusters in a ME/CFS cohort.
+METHODS: In this multicentre, prospective, observational cohort in the 
+Netherlands, 95 post COVID-19 patients aged 40-65 years were included. Data 
+collection at 3-6 months after infection included demographics, medical history, 
+questionnaires, and a medical examination. Follow-up assessments occurred 
+9-12 months later, where the same data were collected. Fatigue was determined 
+with the Fatigue Severity Scale (FSS), a score of ≥ 4 means moderate to high 
+fatigue. The frequency and severity of other symptoms and the percentage of 
+patients that meet the ME/CFS criteria were assessed using the DePaul Symptom 
+Questionnaire-2 (DSQ-2). A self-organizing map was used to visualize the 
+clustering of patients based on severity and frequency of 79 symptoms. In a 
+previous study, 337 Dutch ME/CFS patients were clustered based on their symptom 
+scores. The symptom scores of post COVID-19 patients were applied to these 
+clusters to examine whether the same or different clusters were found.
+RESULTS: According to the FSS, fatigue was reported by 75.9% of the patients at 
+3-6 months after infection and by 57.1% of the patients 9-12 months later. 
+Post-exertional malaise, sleep disturbances, pain, and neurocognitive symptoms 
+were also frequently reported, according to the DSQ-2. Over half of the patients 
+(52.7%) met the Fukuda criteria for ME/CFS, while fewer patients met other 
+ME/CFS definitions. Clustering revealed specific symptom patterns and showed 
+that post COVID-19 patients occurred in 11 of the clusters that have been 
+observed in the ME/CFS cohort, where 2 clusters had > 10 patients.
+CONCLUSIONS: This study shows persistent fatigue and diverse symptomatology in 
+post COVID-19 patients, up to 12-18 months after SARS-CoV-2 infection. 
+Clustering showed that post COVID-19 patients occurred in 11 of the clusters 
+that have been observed in the ME/CFS cohort.
+
+© 2024. The Author(s).
+
+DOI: 10.1186/s12967-024-04979-1
+PMCID: PMC10880228
+PMID: 38383493 [Indexed for MEDLINE]
+
+Conflict of interest statement: M.E.B.C., L.D.B., N.B., R.J.H.C.G.B., L.H., 
+L.C.E.N. and A.H.M.: Public and private partners in the P4O2 consortium, as 
+listed under ‘funding’. M.A.S. reports grants from Lung Foundation Netherlands, 
+grants from Stichting Astma Bestrijding, grants and fees from Boehringer 
+Ingelheim, and grants and personal fees from AstraZeneca, outside the submitted 
+work. All payments were done to M.A.S. employer. S.B., A.W.V. and Q.D. declare 
+that they have no competing interests.

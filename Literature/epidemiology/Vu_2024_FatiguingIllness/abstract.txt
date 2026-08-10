@@ -1,0 +1,25 @@
+1. Emerg Infect Dis. 2024 Mar;30(3):539-547. doi: 10.3201/eid3003.231194.
+
+Estimates of Incidence and Predictors of Fatiguing Illness after SARS-CoV-2 
+Infection.
+
+Vu QM, Fitzpatrick AL, Cope JR, Bertolli J, Sotoodehnia N, West TE, Gentile N, 
+Unger ER.
+
+This study aimed to estimate the incidence rates of post-COVID-19 fatigue and 
+chronic fatigue and to quantify the additional incident fatigue caused by 
+COVID-19. We analyzed electronic health records data of 4,589 patients with 
+confirmed COVID-19 during February 2020-February 2021 who were followed for a 
+median of 11.4 (interquartile range 7.8-15.5) months and compared them to data 
+from 9,022 propensity score-matched non-COVID-19 controls. Among COVID-19 
+patients (15% hospitalized for acute COVID-19), the incidence rate of fatigue 
+was 10.2/100 person-years and the rate of chronic fatigue was 1.8/100 
+person-years. Compared with non-COVID-19 controls, the hazard ratios were 1.68 
+(95% CI 1.48-1.92) for fatigue and 4.32 (95% CI 2.90-6.43) for chronic fatigue. 
+The observed association between COVID-19 and the significant increase in the 
+incidence of fatigue and chronic fatigue reinforces the need for public health 
+actions to prevent SARS-CoV-2 infections.
+
+DOI: 10.3201/eid3003.231194
+PMCID: PMC10902536
+PMID: 38407166 [Indexed for MEDLINE]

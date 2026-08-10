@@ -1,0 +1,137 @@
+1. JAMA Netw Open. 2024 Jul 1;7(7):e2423555. doi: 
+10.1001/jamanetworkopen.2024.23555.
+
+Myalgic Encephalomyelitis/Chronic Fatigue Syndrome After SARS-CoV-2 Infection.
+
+Unger ER(1), Lin JS(1), Wisk LE(2), Yu H(3), L'Hommedieu M(2), Lavretsky H(4), 
+Montoy JCC(5), Gottlieb MA(6), Rising KL(7)(8), Gentile NL(9)(10)(11), 
+Santangelo M(12), Venkatesh AK(3)(13), Rodriguez RM(5), Hill MJ(14), Geyer 
+RE(10), Kean ER(7), Saydah S(15), McDonald SA(16)(17), Huebinger R(14), Idris 
+AH(16), Dorney J(3), Hota B(18), Spatz ES(3)(19), Stephens KA(10)(20), Weinstein 
+RA(12)(21), Elmore JG(2); Innovative Support for Patients with SARS-CoV-2 
+Infections Registry (INSPIRE) Group.
+
+Collaborators: Koo K, Derden A, Gatling K, Guzman D, Yang G, Kaadan AM, 
+Hassaballa M, Jerger R, Ahmed Z, Choi M, Pavlopoulos A, Kesari A, Gaylord CA, 
+Gomez C, Lomas E, Boliboun PJ, Patel K, Malicki C, Lin Z, Li SX, Ebna Mannan I, 
+Yang Z, Liu M, Ulrich A, Kinsman J, Pierce S, Puente X, Salah W, Nichol G, 
+Anderson J, Schiffgens M, Morse D, Adams K, Stober T, Maat Z, O'Laughlin KN, 
+Willis M, Zhang Z, Chang G, Lyon V, Klabbers RE, Ruiz L, Malone K, Park J, Renzi 
+N, Watts P, Kelly M, Schaeffer K, Grau D, Cheng D, Shutty C, Charlton A, 
+Shughart L, Shughart H, Amadio G, Miao J, Hannikainen P, Chandler C, Diaz Roldan 
+K, Eguchi M, Moreno R, Wang RC, Kemball R, Chan V, Lara Chavez C, Wong A, 
+Arreguin M, Kane A, Nikonowicz P, Sapp S, Gallegos D, Martin KR, Plumb ID, Hall 
+AJ, Briggs-Hagen M.
+
+Author information:
+(1)Division of High-Consequence Pathogens and Pathology, National Center for 
+Emerging and Zoonotic Infectious Diseases, Centers for Disease Control and 
+Prevention, Atlanta, Georgia.
+(2)Division of General Internal Medicine & Health Services Research, David 
+Geffen School of Medicine at the University of California, Los Angeles.
+(3)Center for Outcomes Research & Evaluation (CORE), Section of Cardiovascular 
+Medicine, Department of Internal Medicine, Yale School of Medicine, New Haven, 
+Connecticut.
+(4)Department of Psychiatry and Biobehavioral Sciences, David Geffen School of 
+Medicine at the University of California, Los Angeles.
+(5)Department of Emergency Medicine, University of California, San Francisco.
+(6)Department of Emergency Medicine, Rush University Medical Center, Chicago, 
+Illinois.
+(7)Department of Emergency Medicine, Thomas Jefferson University, Philadelphia, 
+Pennsylvania.
+(8)Jefferson Center for Connected Care, Sidney Kimmel Medical School, Thomas 
+Jefferson University, Philadelphia, Pennsylvania.
+(9)Post-COVID Rehabilitation and Recovery Clinic, University of Washington, 
+Seattle.
+(10)Department of Family Medicine, University of Washington, Seattle.
+(11)Department of Laboratory Medicine and Pathology, University of Washington, 
+Seattle.
+(12)Division of Infectious Diseases, Department of Internal Medicine, Rush 
+University Medical Center, Chicago, Illinois.
+(13)Department of Emergency Medicine, Yale School of Medicine, New Haven, 
+Connecticut.
+(14)Department of Emergency Medicine, UTHealth Houston, Houston, Texas.
+(15)National Center for Immunizations and Respiratory Diseases, Centers for 
+Disease Control and Prevention, Atlanta, Georgia.
+(16)Department of Emergency Medicine, University of Texas Southwestern Medical 
+Center, Dallas.
+(17)Clinical Informatics Center, University of Texas Southwestern Medical 
+Center, Dallas.
+(18)Tendo Systems, Inc, Philadelphia, Pennsylvania.
+(19)Department of Epidemiology, Yale School of Public Health, New Haven, 
+Connecticut.
+(20)Department of Biomedical Informatics and Medical Education, University of 
+Washington, Seattle.
+(21)Division of Infectious Diseases, Department of Medicine, Cook County 
+Hospital, Chicago, Illinois.
+
+IMPORTANCE: Chronic symptoms reported following an infection with SARS-CoV-2, 
+such as cognitive problems, overlap with symptoms included in the definition of 
+myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS).
+OBJECTIVE: To evaluate the prevalence of ME/CFS-like illness subsequent to acute 
+SARS-CoV-2 infection, changes in ME/CFS symptoms through 12 months of follow-up, 
+and the association of ME/CFS symptoms with SARS-CoV-2 test results at the acute 
+infection-like index illness.
+DESIGN, SETTING, AND PARTICIPANTS: This prospective, multisite, longitudinal 
+cohort study (Innovative Support for Patients with SARS-CoV-2 Infections 
+Registry [INSPIRE]) enrolled participants from December 11, 2020, to August 29, 
+2022. Participants were adults aged 18 to 64 years with acute symptoms 
+suggestive of SARS-CoV-2 infection who received a US Food and Drug 
+Administration-approved SARS-CoV-2 test at the time of illness and did not die 
+or withdraw from the study by 3 months. Follow-up surveys were collected through 
+February 28, 2023.
+EXPOSURE: COVID-19 status (positive vs negative) at enrollment.
+MAIN OUTCOME AND MEASURES: The main outcome was the weighted proportion of 
+participants with ME/CFS-like illness based on the 2015 Institute of Medicine 
+clinical case definition using self-reported symptoms.
+RESULTS: A total of 4378 participants were included in the study. Most were 
+female (3226 [68.1%]). Mean (SD) age was 37.8 (11.8) years. The survey 
+completion rates ranged from 38.7% (3613 of 4738 participants) to 76.3% (1835 of 
+4738) and decreased over time. The weighted proportion of participants 
+identified with ME/CFS-like illness did not change significantly at 3 through 12 
+months of follow-up and was similar in the COVID-19-positive (range, 2.8%-3.7%) 
+and COVID-19-negative (range, 3.1%-4.5%) groups. Adjusted analyses revealed no 
+significant difference in the odds of ME/CFS-like illness at any time point 
+between COVID-19-positive and COVID-19-negative individuals (marginal odds ratio 
+range, 0.84 [95% CI, 0.42-1.67] to 1.18 [95% CI, 0.55-2.51]).
+CONCLUSIONS AND RELEVANCE: In this prospective cohort study, there was no 
+evidence that the proportion of participants with ME/CFS-like illness differed 
+between those infected with SARS-CoV-2 vs those without SARS-CoV-2 infection up 
+to 12 months after infection. A 3% to 4% prevalence of ME/CFS-like illness after 
+an acute infection-like index illness would impose a high societal burden given 
+the millions of persons infected with SARS-CoV-2.
+
+DOI: 10.1001/jamanetworkopen.2024.23555
+PMCID: PMC11270135
+PMID: 39046739 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of Interest Disclosures: Dr Wisk 
+reported receiving grants from the Centers for Disease Control and Prevention 
+(CDC) and US Department of Health and Human Services during the conduct of the 
+study. Dr Lavretsky reported receiving grants from the National Center for 
+Complementary and Integrative Health, National Institute of Mental Health, US 
+Department of Defense, and Patient-Centered Outcomes Research Institute (PCORI) 
+outside the submitted work and royalties for books published by Oxford 
+University Press and Johns Hopkins University Press. Dr Montoy reported 
+receiving grants from the CDC’s National Center for Immunization and Respiratory 
+Diseases (NCIRD) during the conduct of the study and from the CDC outside the 
+submitted work. Dr Gottlieb reported receiving grants from the CDC during the 
+conduct of the study. Dr Rising reported receiving grants from the CDC during 
+the conduct of the study and from the National Institutes of Health outside the 
+submitted work. Dr Gentile reported receiving grants from the CDC during the 
+conduct of the study and being the primary care medical director of the COVID 
+Aftercare, Recovery, and Support (CAReS) Clinic at the University of Washington. 
+Dr Venkatesh reported receiving grants from the CDC during the conduct of the 
+study and from the Society for Academic Emergency Medicine Foundation outside 
+the submitted work. Dr Huebinger reported receiving grants from the CDC during 
+the conduct of the study. Dr Idris reported receiving grants from the CDC during 
+the conduct of the study. Dr Spatz reported receiving grant funding from the 
+CDC; US Food and Drug Administration to support projects within the Yale 
+University–Mayo Clinic Center of Excellence in Regulatory Science and 
+Innovation; National Heart, Lung, and Blood Institute; and PCORI. Dr Stephens 
+reported receiving grants from the CDC during the conduct of the study. Dr 
+Weinstein reported receiving grants from the CDC during the conduct of the 
+study. Dr Elmore reported receiving grants from the CDC during the conduct of 
+the study and serving as editor-in-chief of adult primary care for UpToDate and 
+as director of the National Clinician Scholars Program at the University of 
+California, Los Angeles. No other disclosures were reported.

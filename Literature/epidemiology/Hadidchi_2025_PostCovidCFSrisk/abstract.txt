@@ -1,0 +1,62 @@
+1. J Transl Med. 2025 Jul 23;23(1):815. doi: 10.1186/s12967-025-06625-w.
+
+Elevated risk of new-onset chronic fatigue syndrome/myalgic encephalomyelitis up 
+to four years after SARS-CoV-2 infection.
+
+Hadidchi R(1), Patel B(1), Madan J(1), Liu A(1), Henry S(1), Duong TQ(2)(3).
+
+Author information:
+(1)Department of Radiology, Montefiore Health System and Albert Einstein College 
+of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461, USA.
+(2)Department of Radiology, Montefiore Health System and Albert Einstein College 
+of Medicine, 1300 Morris Park Avenue, Bronx, NY, 10461, USA. 
+tim.duong@einsteinmed.edu.
+(3)Center for Health Data Innovation, Montefiore Health System and Albert 
+Einstein College of Medicine, Bronx, NY, USA. tim.duong@einsteinmed.edu.
+
+BACKGROUND: Fatigue is a common sequela of SARS-CoV-2 infection, with many 
+COVID-19 patients subsequently developing chronic fatigue syndrome and myalgic 
+encephalomyelitis (CFS/ME). Long-term associations between COVID-19, new-onset 
+CFS/ME, and other independent predictors such as vaccination for SARS-CoV-2, 
+re-infection, and blood biomarkers at time of infection remain unclear. This 
+study investigated the incidence and independent predictors of developing 
+new-onset CFS/ME up to 4 years post SARS-CoV-2 infection in comparison to 
+COVID- controls.
+METHODS: This retrospective analysis conducted within the Montefiore Health 
+System from February 1, 2020, to January 12, 2024 included adults without a 
+prior diagnosis of fatigue or CFS/ME who were hospitalized for COVID-19 
+(n = 10,667), not hospitalized for COVID-19 (n = 25,409), and non-COVID-19 
+controls (n = 111,301). The observation time was between 30 days and 4 years 
+post index date. The outcome was new-onset CFS/ME. Multivariate adjusted hazard 
+ratios (HR) with 95% confidence intervals were calculated, assessing risk posed 
+by SARS-CoV-2 infection, re-infection, and vaccination. Whether abnormal levels 
+of aspartate aminotransferase, creatinine, D-dimer, lactate dehydrogenase, 
+ferritin, hemoglobin, platelets, neutrophil/lymphocyte ratio, and temperature 
+during hospitalization were associated with future CFS/ME risk was examined.
+RESULTS: Compared to COVID- controls, the risk of developing new-onset CFS/ME 
+was higher among both COVID-19 hospitalized (adjusted HR = 1.46 [1.07, 1.99]) 
+and non-hospitalized patients (1.56 [1.25, 1.93]). Females (1.54 [1.27, 1.89]), 
+patients with liver disease (1.61 [1.29, 2.00]), autoimmune disorders (1.57 
+[1.18, 2.08]), and anxiety disorders (1.35 [1.04, 1.74]) were more likely to 
+develop CFS/ME (p < 0.05). Re-infection with SARS-CoV-2 was not associated with 
+increased risk of incident CFS/ME. COVID-19 vaccination status during the 
+initial phase of the rollout (prior to 2022) was associated with an increased 
+risk of new-onset CFS/ME (p < 0.05). None of the blood biomarkers during acute 
+COVID-19 were associated with new-onset CFS/ME risk (p > 0.05).
+CONCLUSION: SARS-CoV-2 infection is associated with an increased risk of 
+new-onset CFS/ME, independent of hospitalization status. Females, and 
+individuals with autoimmune and anxiety disorders were more susceptible. These 
+findings highlight the need for ongoing surveillance and management of 
+fatigue-related symptoms in COVID-19 survivors.
+
+© 2025. The Author(s).
+
+DOI: 10.1186/s12967-025-06625-w
+PMCID: PMC12288244
+PMID: 40702518 [Indexed for MEDLINE]
+
+Conflict of interest statement: Declarations. Ethics approval and consent to 
+participate: This retrospective cohort study was approved by the 
+Einstein-Montefiore Institutional Review Board (#2021–13658) with an exemption 
+for informed consent. Consent for publication: Not applicable. Competing 
+interests: The authors declare that they have no competing interests.

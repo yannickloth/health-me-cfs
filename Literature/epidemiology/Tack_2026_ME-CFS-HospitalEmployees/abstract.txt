@@ -1,0 +1,57 @@
+1. Medicina (Kaunas). 2026 Mar 3;62(3):480. doi: 10.3390/medicina62030480.
+
+Assessment and Incidence Determination of Myalgic Encephalomyelitis/Chronic 
+Fatigue Syndrome Following a SARS-CoV-2 Infection in a Prospective Cohort of 
+Hospital Employees.
+
+Tack M(1), Gruber R(1), Betting L(2), Herbrandt S(2), Wu S(3), Schlößer B(3), 
+Häussermann P(4), Maegele M(5), Schlang G(6), Mattner F(1).
+
+Author information:
+(1)Institute of Hygiene, Cologne Merheim Medical Center, University of 
+Witten/Herdecke, Ostmerheimerstraße 200, 51109 Cologne, Germany.
+(2)Statistical Consulting and Analysis, Center for Higher Education, TU Dortmund 
+University, Vogelpothsweg 78, 44227 Dortmund, Germany.
+(3)Institute of Transfusion Medicine, Cologne Merheim Medical Center, 
+Ostmerheimerstraße 200, 51109 Cologne, Germany.
+(4)Department of Geriatric Psychiatry and Psychotherapy, LVR Hospital Cologne, 
+Wilhelm-Griesinger-Straße 23, 51109 Cologne, Germany.
+(5)Department of Traumatology and Orthopedic Surgery, Cologne Merheim Medical 
+Center, Institute for Research in Operative Medicine (IFOM), University of 
+Witten/Herdecke, Ostmerheimerstraße 200, 51109 Cologne, Germany.
+(6)Department of Occupational Medicine, Cologne Merheim Medical Center, 
+Ostmerheimerstraße 200, 51109 Cologne, Germany.
+
+Background and Objectives: Post-COVID-19 syndrome (PCS), characterized by 
+persistent fatigue, can develop after a SARS-CoV-2 infection. Myalgic 
+encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a chronic, 
+post-infectious condition marked by severe fatigue and post-exertional malaise. 
+This study aimed to determine the incidence and characteristics of PCS and 
+ME/CFS in a cohort of hospital employees (HEs) with SARS-CoV-2 infections. 
+Materials and Methods: All HEs who tested SARS-CoV-2-positive between March 2020 
+and May 2021 who later reported persistent fatigue were invited for an 
+assessment from July to December 2022. Canadian Consensus Criteria were used for 
+the diagnosis of ME/CFS. Assessments included the Montreal Cognitive Assessment 
+(MoCA), and determination of coagulation factors, Epstein-Barr virus (EBV) 
+antibodies and autoantibodies (AABs) against G-protein-coupled receptors 
+(GPCRs). Results: Of the 221 HEs, 11.8% (95% confidence interval (CI95%) 
+7.8-16.8, 26/221) still reported persistent fatigue and 3.2% (CI95% 1.3-6.4, 
+7/221) were diagnosed with ME/CFS. In total, 19 HEs (median age 51.0 years, 
+89.4% female, 63.1% possible or confirmed nosocomial infection) participated in 
+our assessment. In 42.1% (8/19) MoCA results were below normal. Laboratory 
+values showed increased GPCR AABs in 66.6% (12/18), possible EBV reactivation in 
+86.7% (13/15) and coagulation parameters suggesting inflammatory processes in 
+38.9% (7/18). Conclusions: Our study was able to determine lower-bound 
+incidences of PCS with fatigue and ME/CFS and demonstrated a diagnostic pathway 
+for HEs following SARS-CoV-2 infections. Possible EBV reactivation, increased 
+GPCR AABs and potential coagulation cascade activation may play a pathogenic 
+role.
+
+DOI: 10.3390/medicina62030480
+PMCID: PMC13027803
+PMID: 41901562 [Indexed for MEDLINE]
+
+Conflict of interest statement: M.M. declares that he received lecture fees and 
+fees for participation in expert and advisory committees as well as financial 
+support for research projects from IL-Werfen/TEM-International. The other 
+authors declare that they have no competing interests.
