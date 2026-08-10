@@ -1,6 +1,7 @@
 # Integration Plan: Elevated Risk of New-Onset CFS/ME 4 Years After SARS-CoV-2
 
 **Topic slug:** `hadidchi2025-cfs-me-4yrs-post-covid`
+**Status:** ✅ done (committed 1e31bf39 + f134da42)
 **Topic:** Hadidchi R (Duong TQ), 2025, J Transl Med, #10 2025-07-23. "Elevated risk of new-onset CFS/ME up to 4 years after SARS-CoV-2."
 **Source:** Original / epidemiologic study (large-cohort post-SARS-CoV-2 follow-up).
 **Date:** 2026-08-10
@@ -86,8 +87,8 @@ PROCEED threshold met: all 8 papers ≥0.43 discounted (0/8 below 0.40). Hadidch
 | 10b | ✅ | No framing propagation needed — post-infectious trigger model already established; synthesis is quantitative strengthening, not a new trigger/amplifier or paradigm shift. Abstract/reading-guide/ch16 unchanged. |
 | 11 | ✅ | Full-tier (multi-chapter, >3 envs). Adversarial R1: 0 CRITICAL, 3 HIGH, 6 MED, 5 LOW → fixed. R2: 0 CRITICAL, 1 HIGH (orphaned 4.93 in prevalence) → fixed (removed, no source anchor; reconciled RECOVER 2.8-fold). R3: 0 CRITICAL, 0 HIGH confirmed (all citations in bib, labels resolve ×1, all 5 envs have *Consequence:*, no stray tildes, no contradictions). Low/med house-style notes documented but non-blocking. xref/typst verified directly + nix build PASS. TRANSIENT concurrent-cycle build error (oq:tissue-isr-panel) resolved on clean rebuild — hibernation cycle's mid-edit, not mine. CONVERGED. |
 | 12 | ✅ | Changelog Version 7.9 entry added to shared/changelog-tspo-pet-section.typ. |
-| 12.5 | 🔵 | Completion gate — governor ledger below. |
-| 13 | ⬜ | |
+| 12.5 | ✅ | Completion gate — full ledger RAN (below). No OMISSION phases; LEGIT-SKIP: 5c/5d/5z. |
+| 13 | ✅ | Committed as 2 commits: 1e31bf39 content(hadidchi2025) + f134da42 docs(hadidchi2025). MIXED mode: registry/appendix/hypotheses-tree entries swept into hibernation commit e5b221e3 (verified intact in HEAD); foreign biofabrication files unstaged/excluded; queued-topics Gate C row deferred (left unstaged to avoid sweeping hibernation status edit). Post-commit tree build blocked by CONCURRENT biofabrication ch07 uncommitted edit (not mine). |
 
 ## Certainty Bump Log
 
