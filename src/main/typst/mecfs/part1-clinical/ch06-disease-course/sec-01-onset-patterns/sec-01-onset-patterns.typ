@@ -13,7 +13,7 @@ Approximately 64% of ME/CFS cases begin with an acute infectious illness @Jason2
 Documented infectious triggers include:
 
     - *Epstein-Barr virus (EBV)*: The most studied trigger, with 10–12% of infectious mononucleosis cases progressing to ME/CFS
-    - *SARS-CoV-2*: COVID-19 has created a new wave of post-infectious ME/CFS (Long COVID with ME/CFS phenotype)
+    - *SARS-CoV-2*: COVID-19 has created a new wave of post-infectious ME/CFS (Long COVID with ME/CFS phenotype); new-onset risk remains elevated up to four years post-infection (hazard ratio ≈1.5) @Hadidchi2025CFSrisk
     - *Influenza*: Both seasonal and pandemic strains
     - *Enteroviruses*: Including coxsackieviruses and echoviruses
     - *Ross River virus*: Endemic trigger in Australia
