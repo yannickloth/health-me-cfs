@@ -134,3 +134,9 @@ See ledger walk below (per-phase states).
 | 13 | PENDING | commit (next) |
 
 No phase in OMISSION. All RAN phases have on-disk artifacts (verified). Build PASS (0 errors).
+
+## Phase 13 — Commit
+- COMMIT: `5b568a45` content(vmat2-longcovid): strengthen dopaminergic integration with ME/CFS functional evidence. 12 files, +695/-11.
+- Post-commit integrity: HEAD builds (0 error lines); only parallel ch08-MCAS file remains unstaged (correctly preserved for owning session). Shared-file entries verified present.
+- NOT staged (correctly excluded): parallel ch08 mast-cell editing, blog posts, general.bib (Loth2026 website entry committed by parallel session in 66b059e4).
+- Checkpoint cleanup: MIXED mode — no scratch pointers created; no history rewrite performed.
