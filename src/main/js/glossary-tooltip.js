@@ -78,6 +78,18 @@
     }
   };
   const CATEGORY_LABELS = CATEGORY_LABEL_SETS[LANG] || CATEGORY_LABEL_SETS.en;
+
+  // doseZones[].category is a machine color key kept in English; display it localized
+  const DOSE_CAT_LABELS = {
+    en: { Restorative: 'Restorative', Corrective: 'Corrective', 'Threshold-modulatory': 'Threshold-modulatory',
+      'Substrate-repletion': 'Substrate-repletion', Symptomatic: 'Symptomatic', Mixed: 'Mixed' },
+    fr: { Restorative: 'Restaurateur', Corrective: 'Correcteur', 'Threshold-modulatory': 'Modulateur de seuil',
+      'Substrate-repletion': 'Réplétion de substrat', Symptomatic: 'Symptomatique', Mixed: 'Mixte' },
+    de: { Restorative: 'Restaurativ', Corrective: 'Korrektiv', 'Threshold-modulatory': 'Schwellenmodulierend',
+      'Substrate-repletion': 'Substratauffüllung', Symptomatic: 'Symptomatisch', Mixed: 'Gemischt' }
+  };
+  const DOSE_CAT_LABEL = DOSE_CAT_LABELS[LANG] || DOSE_CAT_LABELS.en;
+
   const ESCAPE_RE = /[&<>"]/g;
   const ESCAPE_MAP = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
   const esc = (s) => (s && typeof s === 'string') ? s.replace(ESCAPE_RE, c => ESCAPE_MAP[c]) : '';
@@ -105,7 +117,7 @@
         const c = colors[z.category] || '#6b7280';
         const doseClass = z.dose === 'Therapeutic range' ? 'gt-dz-single' : 'gt-dz-detail';
         const se = z.sideEffects ? `<br><span class="gt-dz-se">${esc(z.sideEffects)}</span>` : '';
-        return `<tr><td class="gt-dz-dose">${esc(z.dose)}</td><td class="gt-dz-cat"><b style="color:${c}">${esc(z.category)}</b></td><td class="gt-dz-mech">${esc(z.mechanism)}${se}</td></tr>`;
+        return `<tr><td class="gt-dz-dose">${esc(z.dose)}</td><td class="gt-dz-cat"><b style="color:${c}">${esc(DOSE_CAT_LABEL[z.category] ?? z.category)}</b></td><td class="gt-dz-mech">${esc(z.mechanism)}${se}</td></tr>`;
       });
       const header = e.doseZones.length > 1 ? `<tr><th>Dose</th><th>Effect</th><th>Mechanism</th></tr>` : '';
       lines.push(`<table class="gt-dz-table">${header}${rows.join('')}</table>`);
@@ -228,12 +240,31 @@
   function buildGlossaryMeta(glossary) {
     // Strip _meta/_config keys
     const keys = Object.keys(glossary).filter(k => k[0] !== '_');
-    keys.sort((a, b) => b.length - a.length); // longest first so alternation matches greedier branches first
 
+    // Build match terms: canonical keys plus per-entry localized synonyms.
+    // Each maps to its canonical entry key so a matched phrase opens the right tooltip.
+    const matchers = [];          // { text, key }
+    const resolve = new Map();    // lowercase matched text -> canonical key
     const extraSeparators = ['/'];
+
+    for (const k of keys) {
+      matchers.push({ text: k, key: k });
+      resolve.set(k.toLowerCase(), k);
+      const syns = glossary[k]?.synonyms;
+      if (Array.isArray(syns)) {
+        for (const s of syns) {
+          if (typeof s !== 'string' || !s) continue;
+          matchers.push({ text: s, key: k });
+          resolve.set(s.toLowerCase(), k);
+        }
+      }
+    }
+
+    // Longest first so alternation matches greedier branches first
+    matchers.sort((a, b) => b.text.length - a.text.length);
     const sepPattern = extraSeparators.map(s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('');
-    const keyPattern = keys.map(k => k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
-    const termRe = new RegExp(`(?<![a-zA-Z0-9${sepPattern}])(${keyPattern})(?![a-zA-Z0-9${sepPattern}])`, 'g');
+    const keyPattern = matchers.map(m => m.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
+    const termRe = new RegExp(`(?<![a-zA-Z0-9${sepPattern}])(${keyPattern})(?![a-zA-Z0-9${sepPattern}])`, 'gi');
 
     // Map each key to its glossary entry (fast O(1) lookup, same as glossary lookup)
     const noTooltipPhrases = [];
@@ -246,14 +277,14 @@
       const ntPattern = noTooltipPhrases
         .map(p => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[\s\u00A0]+/g, '[\\s\\u00A0]+'))
         .join('|');
-      noTooltipRe = new RegExp(ntPattern, 'g');
+      noTooltipRe = new RegExp(ntPattern, 'gi');
     }
 
-    return { keys, termRe, noTooltipRe, noTooltipPhrases };
+    return { keys, termRe, noTooltipRe, noTooltipPhrases, resolve };
   }
 
   function markTerms(body, glossary, meta) {
-    const { termRe, noTooltipRe } = meta;
+    const { termRe, noTooltipRe, resolve } = meta;
 
     // Collect text nodes first — mutating DOM during TreeWalker corrupts iteration
     const textNodes = [];
@@ -286,7 +317,9 @@
       termRe.lastIndex = 0;
 
       html = html.replace(termRe, (match) => {
-        return `<glossary-term data-gt="${match}">${match}</glossary-term>`;
+        const dk = resolve.get(match.toLowerCase());
+        if (!dk) return match;
+        return `<glossary-term data-gt="${dk}" data-gt-match="${match}">${match}</glossary-term>`;
       });
 
       if (phMap.size) html = html.replace(NOPLACE_RE, m => phMap.get(m) ?? m);
