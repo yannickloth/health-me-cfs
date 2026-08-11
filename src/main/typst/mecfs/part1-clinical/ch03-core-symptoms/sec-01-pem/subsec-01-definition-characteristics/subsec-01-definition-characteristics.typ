@@ -10,6 +10,40 @@ Post-exertional malaise represents an abnormal response to physical, cognitive, 
     - *Cumulative effect*: Sequential exertions compound impairment
     - *Unpredictable threshold*: The level of activity that triggers PEM varies and may decrease over time
 
+#achievement(title: [PEM Is a Multi-Symptom Cascade That Extends Beyond Simple Fatigue])[
+Meta-analytic evidence confirms that post-exertional malaise is strongly, unusually discriminating in ME/CFS, with an odds ratio of about 10.4 versus controls @Brown2020metaPEM. Factor-analytic studies in large international samples ($n = 2{,}308$) demonstrate that PEM loads as an empirically distinct symptom domain, separable from cognitive dysfunction and sleep disturbance @Conroy2023empirical. (Certainty: 0.60)
+
+Importantly, within the PEM construct exploratory factor analysis reveals two empirically distinct sub-components---generalized fatigue and muscle-specific fatigue @McManimen2019deconstruct ---showing that the *fatigue* dimension within PEM is itself multi-faceted rather than unitary. This is evidence that PEM carries a structured fatigue component, not that it is fatigue-free. Brief clinical instruments can discriminate PEM from the general fatigue of other neurological conditions (multiple sclerosis, post-polio syndrome) with 81.7% accuracy @Cotler2018briefPEM, and the DSQ-PEM, validated in German populations ($n = 3{,}711$ combined), retains discriminant validity as a PEM-specific instrument even while correlating with fatigue scales @Kuczyk2025DSQPEM.
+
+*Consequence:* PEM is not well captured by measuring fatigue alone---for example with the Chalder Fatigue Scale or the MFI-20---because a crash can involve multiple overlapping symptom domains beyond tiredness. Clinicians should ask about post-exertional symptom worsening across several systems, not only post-exertional tiredness. None of these studies tested whether a crash can occur in the complete absence of fatigue; that question is examined separately as a candidate hypothesis below.
+
+(Severity coverage: not stratified by severity --- the underlying factor-analytic, meta-analytic, and psychometric studies draw on largely ambulatory cohorts; the construct distinction is expected to hold across severity levels, but applicability to severe/very-severe patients is inferred rather than directly measured.)
+] <ach:pem-distinct-from-fatigue>
+
+#speculation(title: [Diagnostic Criteria Differentiate PEM-Requiring from PEM-Optional Definitions])[
+A systematic review of 25 ME/CFS case definitions published between 1986 and 2020 identifies a clear hierarchy @Lim2020caseDefinitions. The Fukuda (1994) criteria require fatigue as compulsory but make PEM optional---a feature that produces a more heterogeneous diagnostic group. By contrast, the Canadian Consensus Criteria (CCC, 2003), the International Consensus Criteria (ICC, 2011), and the IOM (2015) criteria all require PEM as a compulsory feature @IOM2015redefining. (Certainty: 0.60)
+
+Note that "PEM-optional" means the Fukuda cohort is a *mixed* population, not a uniformly PEM-absent one: some Fukuda-positive patients lack PEM entirely while others have it fully. For this reason Fukuda-based findings are heterogeneous rather than uniformly PEM-negative, and the contrast that matters is PEM-present versus PEM-absent patients within any criteria set.
+
+The practical consequence is measurable. In a Norwegian survey of 660 fatigue patients, the PEM score was the strongest determinant of intervention tolerance: patients meeting CCC criteria (PEM-required) differed significantly from those meeting Fukuda criteria (PEM-optional) in their responses to key interventions @Kielland2023diagnosticCriteria. Within Fukuda-diagnosed cohorts, PEM severity stratifies patients on symptom burden and psychological distress independently of fatigue severity @May2020PEMburden. In pediatric populations, 85% of Fukuda-diagnosed patients also meet IOM criteria, and the IOM-positive subgroup has significantly worse health-related quality of life @Roma2019pediatricPEM.
+
+*Falsifiable prediction:* If PEM is a distinct construct from fatigue, then in a mixed-criteria cohort, Fukuda-positive/IOM-negative patients (PEM absent) should show meaningfully different outcomes than CCC/IOM-positive patients (PEM present)---specifically, at least a 0.3-point smaller improvement on the SF-36 physical-function subscale (0--100 scale) or at least a 10-percentage-point higher proportion without functional recovery after a standardized intervention, over a 12-month follow-up. If the PEM-positive and PEM-negative groups show statistically indistinguishable trajectories on these prespecified endpoints, the claim that PEM status carries independent prognostic weight is not supported.
+
+*Consequence:* Using PEM-optional criteria (Fukuda) dilutes the ME/CFS diagnosis with patients whose primary problem may be a chronic fatigue of other etiology. For clinical trials and epidemiological studies, PEM-required criteria (CCC, IOM) should be the default; findings from Fukuda-based studies must be interpreted with the understanding that the cohort may include patients who lack the hallmark symptom.
+
+(Severity coverage: not stratified by severity --- the case-definition comparisons draw on ambulatory heterogeneous cohorts; the diagnostic implications likely apply across severity levels, but severe/very-severe patients are under-represented and the claim is inferred for them.)
+] <spec:case-definition-pem-hierarchy>
+
+#open-question(title: [How Well Does Self-Reported PEM Align with Objectively Provoked PEM?])[
+A significant gap exists between self-reported and objectively provoked PEM. In a Long COVID cohort, 67% of patients self-reported PEM on questionnaires, but only 5.9% (2 of 34) developed observable PEM after a standardized cardiopulmonary exercise test @Stussman2025selfReport. Long COVID PEM responses to exercise were less severe and less prolonged than those observed in ME/CFS patients tested under the same protocol. Notably, 64.7% of Long COVID patients reported *positive* themes after exercise---a finding inconsistent with true PEM.
+
+This does not mean the self-reported PEM is "false." It may mean that (a) the CPET protocol fails to provoke PEM in a subset of patients, (b) the PEM trigger in Long COVID is more commonly cognitive or emotional than physical, (c) patients conflate general exercise-related fatigue with PEM, or (d) a 2-day CPET (not used in this study) is necessary to reliably provoke PEM. All four explanations have precedent in the literature. The finding mirrors earlier work showing that slight differences in PEM-item wording significantly affect whether a patient is classified as having PEM @Jason2015definingPEM.
+
+*Consequence:* Self-report PEM instruments (such as the DSQ-PEM and FUNCAP) are essential for clinical assessment but may over-classify PEM relative to objective provocation, particularly in post-COVID populations where PEM pathophysiology may differ from classical ME/CFS. Research studies should use both self-report and objective provocation when feasible, and clinicians should interpret a questionnaire-only PEM label cautiously in post-COVID presentation.
+
+(Severity coverage: not stratified by severity --- the concordance data are from a small Long COVID cohort able to attend exercise testing (n = 34), which biases toward ambulatory, less-severe patients; generalizing the self-report-vs-objective gap to severe/very-severe patients is inferred.)
+] <oq:pem-selfreport-vs-objective>
+
 ==== Common Triggers
 
 PEM can be triggered by various forms of exertion:

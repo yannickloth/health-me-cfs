@@ -33671,5 +33671,171 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
     / *Certainty Assessment:*:
         - *Quality:*: Medium (Physiological and Biochemical Zoology, clear hypothesis test)
         - *Sample:*: Animal (13-lined ground squirrel)
-        - *Replication:*: Consistent with general ROS biology in ischemia-reperfusion; specific to hibernation context
+         - *Replication:*: Consistent with general ROS biology in ischemia-reperfusion; specific to hibernation context
         - *Score:*: 0.32
+
+// =============================================================================
+== Fatigue–PEM Relationship: Definitional and Construct Validity Studies
+// =============================================================================
+
+=== IOM 2015 — Beyond ME/CFS: Redefining an Illness
+    / *Full Citation:*: Institute of Medicine. Beyond Myalgic Encephalomyelitis/Chronic Fatigue Syndrome: Redefining an Illness. Washington, DC: The National Academies Press; 2015. @IOM2015redefining
+    / *DOI:*: #link("https://doi.org/10.17226/19012")[10.17226/19012]
+    / *PMID:*: 25695122
+    / *Key Findings:*:
+        - Introduced SEID (Systemic Exertion Intolerance Disease) diagnostic criteria with PEM as the hallmark symptom
+        - Requires both PEM and fatigue for diagnosis; PEM characterized as multi-symptom worsening, not simply fatigue
+        - Recommended that PEM be operationalized through frequency/severity of symptom exacerbation after exertion
+        - Identified PEM, unrefreshing sleep, cognitive impairment, and orthostatic intolerance as core diagnostic features
+    / *Conclusion:*: The IOM 2015 report established PEM as the defining feature of ME/CFS, conceptually distinct from simple fatigue. Both constructs are required for diagnosis, but PEM is not reducible to fatigue.
+    / *Limitations:*: Institutional consensus report, not an empirical study; the SEID terminology was not widely adopted; diagnostic criteria have not been prospectively validated against biomarkers.
+
+=== Conroy et al.\ 2023 — Empirical Case Definition via Factor Analysis
+    / *Full Citation:*: Conroy KE, Islam MF, Jason LA. Evaluating case diagnostic criteria for myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS): toward an empirical case definition. _Disability and Rehabilitation_. 2023;45(5):840–847. @Conroy2023empirical
+    / *DOI:*: #link("https://doi.org/10.1080/09638288.2022.2043462")[10.1080/09638288.2022.2043462]
+    / *PMID:*: 35236205
+    / *Key Findings:*:
+        - Factor analysis of n=2,308 international ME/CFS patients identified 7 symptom domains
+        - PEM, cognitive dysfunction, and sleep dysfunction emerged as primary factors
+        - Pain did NOT emerge as an independent factor — contrasts with CCC and ICC criteria
+        - Factor solution best aligned with CCC (which requires PEM) rather than IOM or ME-ICC
+    / *Conclusion:*: PEM is an empirically distinct symptom domain, separable from other ME/CFS symptoms. The CCC framework most closely matches empirical symptom clustering.
+    / *Limitations:*: Self-report data; convenience sample recruited online; cross-cultural generalizability needs validation.
+
+=== Davenport et al.\ 2023 — Two-Symptom PEM Clinical Prediction Rule
+    / *Full Citation:*: Davenport TE, Chu L, Stevens SR, Stevens J, Snell CR, Van Ness JM. Two symptoms can accurately identify post-exertional malaise in myalgic encephalomyelitis/chronic fatigue syndrome. _Work_. 2023;74(4):1199–1213. @Davenport2023twoSymptoms
+    / *DOI:*: #link("https://doi.org/10.3233/WOR-220554")[10.3233/WOR-220554]
+    / *PMID:*: 36938769
+    / *Key Findings:*:
+        - Only 1–2 symptoms needed to differentiate ME/CFS from sedentary controls after CPET
+        - Fatigue, cognitive dysfunction, lack of positive feelings/mood, and decline in function were the most discriminating symptoms
+        - Fatigue is one of four discriminating symptoms — PEM is multi-symptom, not solely fatigue
+    / *Conclusion:*: PEM can be identified efficiently with a small set of symptoms; fatigue is necessary but not sufficient for PEM identification.
+    / *Limitations:*: Small sample (n=49 ME/CFS, n=10 controls); Fukuda criteria used; CPET-based provocation may not capture all PEM triggers.
+
+=== Brown & Jason 2020 — Meta-Analysis of PEM as Cardinal Symptom
+    / *Full Citation:*: Brown A, Jason LA. Meta-analysis investigating post-exertional malaise between patients and controls. _Journal of Health Psychology_. 2020;25(13–14):2053–2071. @Brown2020metaPEM
+    / *DOI:*: #link("https://doi.org/10.1177/1359105318784161")[10.1177/1359105318784161]
+    / *PMID:*: 29974812
+    / *Key Findings:*:
+        - PEM was 10.4× more likely in ME/CFS patients vs controls (meta-analytic odds ratio)
+        - Patient recruitment strategy and control selection were significant moderators of effect size
+        - Concluded PEM should be considered a cardinal symptom of ME/CFS
+    / *Conclusion:*: The strength of the PEM–ME/CFS association supports PEM as a defining feature that distinguishes ME/CFS from other fatiguing conditions.
+    / *Limitations:*: Studies used varied PEM operationalizations; heterogeneity in case definitions across included studies.
+
+=== McManimen et al.\ 2019 — Deconstructing PEM: Two-Factor Structure
+    / *Full Citation:*: McManimen SL, Sunnquist ML, Jason LA. Deconstructing post-exertional malaise: an exploratory factor analysis. _Journal of Health Psychology_. 2019;24(2):188–198. @McManimen2019deconstruct
+    / *DOI:*: #link("https://doi.org/10.1177/1359105316664139")[10.1177/1359105316664139]
+    / *PMID:*: 27557649
+    / *Key Findings:*:
+        - Exploratory factor analysis found PEM is composed of two empirically distinct experiences
+        - Factor 1: generalized fatigue (whole-body exhaustion)
+        - Factor 2: muscle-specific fatigue (localized musculoskeletal exhaustion)
+    / *Conclusion:*: PEM is not a unitary fatigue construct. It has at least two sub-components, neither of which maps to simple "being tired." This has implications for PEM operationalization in diagnostic criteria.
+    / *Limitations:*: Small sample; Fukuda criteria; self-report data; exploratory (not confirmatory) factor analysis.
+
+=== Lim & Son 2020 — Systematic Review of 25 ME/CFS Case Definitions
+    / *Full Citation:*: Lim EJ, Son CG. Review of case definitions for myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS). _Journal of Translational Medicine_. 2020;18(1):289. @Lim2020caseDefinitions
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-020-02455-0")[10.1186/s12967-020-02455-0]
+    / *PMID:*: 32727489
+    / *Key Findings:*:
+        - Reviewed 25 case definitions from 1986 to 2020; categorized into ME, ME/CFS, CFS, and SEID
+        - PEM is compulsory in ME and ME/CFS definitions (CCC, ICC, IOM) but optional or absent in CFS/Fukuda
+        - Fatigue, cognitive impairment, PEM, sleep disorder, and orthostatic intolerance were the overlapping symptoms across all four categories
+        - SEID (IOM 2015) requires both fatigue AND PEM
+    / *Conclusion:*: The historical evolution of case definitions shows progressive recognition of PEM as a compulsory feature. Older definitions (Fukuda) that do not require PEM capture a more heterogeneous, potentially less specific patient population.
+    / *Limitations:*: Review, not meta-analysis; did not empirically test which definition produces the most valid cohort.
+
+=== Stussman et al.\ 2025 — Self-Reported vs Objectively-Assessed PEM in Long COVID
+    / *Full Citation:*: Stussman B, Camarillo N, McCrossin G, et al. Post-exertional malaise in Long COVID: subjective reporting versus objective assessment. _Frontiers in Neurology_. 2025;16:1534352. @Stussman2025selfReport
+    / *DOI:*: #link("https://doi.org/10.3389/fneur.2025.1534352")[10.3389/fneur.2025.1534352]
+    / *PMID:*: 40337174
+    / *Key Findings:*:
+        - Self-reported PEM was 67% in Long COVID questionnaire cohort (n=244)
+        - Only 5.9% (2/34) had observable PEM after standardized CPET in the exercise cohort
+        - Long COVID PEM responses to CPET were less severe and prolonged than in ME/CFS
+        - 64.7% of Long COVID patients expressed positive themes after CPET
+    / *Conclusion:*: Self-reported PEM substantially overestimates objectively-provocable PEM in Long COVID. Exercise testing to determine PEM presence may have clinical utility. The self-report/objective gap suggests many patients conflate fatigue with PEM.
+    / *Limitations:*: Small exercise cohort (n=34 Long COVID, n=9 ME/CFS); CPET as sole provocation method may miss PEM triggered by cognitive/emotional exertion.
+
+=== May et al.\ 2020 — PEM Severity Stratifies Symptom Burden in Fukuda-Diagnosed CFS
+    / *Full Citation:*: May M, Milrad SF, Perdomo DM, et al. Post-exertional malaise is associated with greater symptom burden and psychological distress in patients diagnosed with Chronic Fatigue Syndrome. _Journal of Psychosomatic Research_. 2020;129:109893. @May2020PEMburden
+    / *DOI:*: #link("https://doi.org/10.1016/j.jpsychores.2019.109893")[10.1016/j.jpsychores.2019.109893]
+    / *PMID:*: 31884303
+    / *Key Findings:*:
+        - n=261 CFS patients (Fukuda criteria); hiPEM vs loPEM groups compared
+        - hiPEM patients had significantly greater symptom intensity, frequency, interference, depressive symptoms, and mood disturbance
+        - PEM status stratified patients on outcomes even though Fukuda criteria do not require PEM
+    / *Conclusion:*: PEM severity captures clinically meaningful heterogeneity within Fukuda-diagnosed CFS that baseline fatigue alone does not. This supports PEM as a construct distinct from and additive to fatigue.
+    / *Limitations:*: Cross-sectional; self-reported PEM severity; Fukuda criteria may include patients without true ME/CFS.
+
+=== Cotler et al.\ 2018 — Brief PEM Questionnaire Operationalization
+    / *Full Citation:*: Cotler J, Holtzman C, Dudun C, Jason LA. A brief questionnaire to assess post-exertional malaise. _Diagnostics_. 2018;8(3):66. @Cotler2018briefPEM
+    / *DOI:*: #link("https://doi.org/10.3390/diagnostics8030066")[10.3390/diagnostics8030066]
+    / *PMID:*: 30208578
+    / *Key Findings:*:
+        - Five supplementary DSQ PEM duration items correctly classified ME/CFS patients 81.7% of the time
+        - Incorrectly classified MS and post-polio syndrome as ME/CFS only 16.6% of the time
+        - Second-step PEM operationalization per NIH/CDC Common Data Elements recommendations
+    / *Conclusion:*: PEM can be operationalized with brief instruments that discriminate ME/CFS from other fatiguing neurological conditions. This supports PEM's construct validity as specific to ME/CFS.
+    / *Limitations:*: Small validation cohort; did not test against other fatiguing conditions (cancer fatigue, depression).
+
+=== Kielland et al.\ 2023 — Diagnostic Criteria Impact on Patient Experience
+    / *Full Citation:*: Kielland A, Liu J, Jason LA. Do diagnostic criteria for ME matter to patient experience with services and interventions? Key results from an online RDS survey targeting fatigue patients in Norway. _Journal of Health Psychology_. 2023;28(13):1189–1203. @Kielland2023diagnosticCriteria
+    / *DOI:*: #link("https://doi.org/10.1177/13591053231169191")[10.1177/13591053231169191]
+    / *PMID:*: 37114822
+    / *Key Findings:*:
+        - n=660 fatigue patients in Norway; compared CCC proxy vs Fukuda proxy
+        - PEM score was strongly associated with experience of most interventions
+        - Patients meeting CCC (PEM-required) differed significantly from Fukuda (PEM-optional) on key intervention responses
+        - Most interventions perceived as having low-to-negative health effects
+    / *Conclusion:*: PEM score is a strong determinant of intervention tolerance. Diagnostic criteria that require PEM identify patients at higher risk of harm from exertion-based interventions.
+    / *Limitations:*: Respondent-driven sampling; self-reported diagnoses; Norway-specific healthcare context.
+
+=== Kuczyk et al.\ 2025 — German DSQ-PEM Psychometric Validation
+    / *Full Citation:*: Kuczyk C, Nöhre M, Herrmann-Lingen C, et al. Reliability and validity of the German version of the DePaul Symptom Questionnaire Post-Exertional Malaise (DSQ-PEM). _Frontiers in Psychiatry_. 2025;16:1647040. @Kuczyk2025DSQPEM
+    / *DOI:*: #link("https://doi.org/10.3389/fpsyt.2025.1647040")[10.3389/fpsyt.2025.1647040]
+    / *PMID:*: 40980044
+    / *Key Findings:*:
+        - Validated German DSQ-PEM in general population (n=2,263) and PCC clinical sample (n=1,448)
+        - Excellent internal consistency in both samples
+        - DSQ-PEM correlated with Chalder Fatigue Scale (convergent validity) but remained a distinct instrument
+        - Known-group validity: DSQ-PEM effectively differentiates PCC from general population
+    / *Conclusion:*: DSQ-PEM is a psychometrically sound, distinct instrument for measuring PEM. Correlation with fatigue scales confirms PEM captures a related but separate construct.
+    / *Limitations:*: German-language only; PCC sample may not fully represent ME/CFS; cross-sectional validation.
+
+=== Peter et al.\ 2025 — EPILOC: PEM in Persistent PCS at 2 Years
+    / *Full Citation:*: Peter RS, Nieters A, Göpel S, et al. Persistent symptoms and clinical findings in adults with post-acute sequelae of COVID-19/post-COVID-19 syndrome in the second year after acute infection: a population-based, nested case-control study. _PLOS Medicine_. 2025;22(1):e1004511. @Peter2025EPILOC
+    / *DOI:*: #link("https://doi.org/10.1371/journal.pmed.1004511")[10.1371/journal.pmed.1004511]
+    / *PMID:*: 39847575
+    / *Key Findings:*:
+        - Population-based German study: n=982 PCS patients, n=576 controls
+        - PEM for >14h reported by 35.6% of persistent PCS patients; 11.6% met IOM ME/CFS criteria
+        - Patients with persistent PCS and PEM reported more pain and had worse results in nearly all objective tests
+        - PEM associated with lower VO2peak, lower handgrip strength, and worse ventilatory efficiency
+    / *Conclusion:*: PEM stratifies PCS patients on both subjective and objective measures at 2 years post-infection. PEM presence identifies a more severely affected subgroup within PCC.
+    / *Limitations:*: No pre-infection baseline; excluded patients too ill to attend clinic; self-reported PEM with objective correlates.
+
+=== Jason et al.\ 2015 — Problems in Defining PEM
+    / *Full Citation:*: Jason LA, Evans M, So S, Scott J, Brown A. Problems in defining post-exertional malaise. _Journal of Prevention and Intervention in the Community_. 2015;43(1):20–31. @Jason2015definingPEM
+    / *DOI:*: #link("https://doi.org/10.1080/10852352.2014.973239")[10.1080/10852352.2014.973239]
+    / *PMID:*: 25584525
+    / *Key Findings:*:
+        - n=32 CFS patients (Fukuda criteria)
+        - Slight differences in wording of self-report PEM items significantly affected PEM classification
+        - Operationalizing PEM matters — shallow self-report conflates PEM with other constructs
+    / *Conclusion:*: The way PEM is assessed affects whether a patient is classified as having it. This has implications for diagnostic reliability and for studies that compare PEM vs non-PEM subgroups.
+    / *Limitations:*: Small sample; single diagnostic criterion (Fukuda); self-report only.
+
+=== Roma et al.\ 2019 — Pediatric PEM and Health-Related Quality of Life
+    / *Full Citation:*: Roma M, Marden CL, Flaherty MAK, Jasion SE, Cranston EM, Rowe PC. Impaired health-related quality of life in adolescent myalgic encephalomyelitis/chronic fatigue syndrome: the impact of core symptoms. _Frontiers in Pediatrics_. 2019;7:26. @Roma2019pediatricPEM
+    / *DOI:*: #link("https://doi.org/10.3389/fped.2019.00026")[10.3389/fped.2019.00026]
+    / *PMID:*: 30828572
+    / *Key Findings:*:
+        - n=55 adolescent ME/CFS patients (Fukuda criteria); 85% also met IOM criteria
+        - PEM frequency significantly associated with severity of impaired HRQOL (p < 0.001)
+        - Patients meeting IOM criteria (PEM-required) had worse HRQOL than those meeting only Fukuda (PEM-optional)
+        - Orthostatic intolerance present in 96% of the cohort
+    / *Conclusion:*: PEM is a core driver of impaired quality of life in pediatric ME/CFS. Diagnostic criteria requiring PEM identify a more severely affected subgroup.
+    / *Limitations:*: Small sample; single tertiary center; cross-sectional; parent-proxy reporting for younger children.

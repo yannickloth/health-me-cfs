@@ -11185,5 +11185,15 @@
         "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Desloratadine"
       }
     ]
+  },
+  "MFI-20": {
+    "label": "MFI-20",
+    "category": "test",
+    "definition": "Multidimensional Fatigue Inventory: a 20-item self-report questionnaire measuring five fatigue dimensions (general, physical, reduced activity, reduced motivation, mental fatigue). Measures general fatigue; does not by itself capture post-exertional malaise."
+  },
+  "HRQOL": {
+    "label": "HRQOL",
+    "category": "measurement",
+    "definition": "Health-Related Quality of Life: the impact of a disease and its treatment on a person physical, mental, and social well-being, typically measured with instruments such as SF-36."
   }
 }

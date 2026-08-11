@@ -5483,3 +5483,78 @@ This registry collects all hypotheses, speculations, open questions, and predict
   prediction: [PEM-avoiding arm shows better SF-36 physical function / fewer PEM episodes at 12 months than standard care.],
   limitation: [Blinding to delivery channel impossible (actigraphy as objective check); feasible but un-run. (ch39, prior cycle.)],
 )
+
+= Entries added 2026-08-11: Fatigue–PEM Relationship (definitional core + PEM-without-fatigue development)
+
+#registry-entry(
+  [PEM Is a Multi-Symptom Cascade Extending Beyond Simple Fatigue],
+  type: "H",
+  certainty: "0.60",
+  evidence: [Meta-analytic odds ratio ~10.4 for PEM in ME/CFS vs controls @Brown2020metaPEM; factor analysis in n=2,308 loads PEM as a distinct primary factor separable from cognitive/sleep domains @Conroy2023empirical; exploratory factor analysis shows the fatigue component of PEM itself has two sub-components (generalized and muscle-specific) @McManimen2019deconstruct; PEM-specific instruments (DSQ-PEM) retain discriminant validity against fatigue scales @Kuczyk2025DSQPEM. Replicated across factor-analytic, meta-analytic, and psychometric lines.],
+  citations: [@Brown2020metaPEM, @Conroy2023empirical, @McManimen2019deconstruct, @Kuczyk2025DSQPEM],
+  mechanism: [PEM is a multi-effector post-exertional cascade; fatigue is one component readout (itself multi-faceted) among several; this supports that PEM extends beyond simple fatigue, but does not by itself establish that PEM can occur with zero fatigue.],
+  chapter-ref: [ch03 sec-01-pem: @ach:pem-distinct-from-fatigue],
+  prediction: [A within-subject crash time-series will determine whether crashes dominated by cognitive/autonomic/pain symptoms can occur with fatigue absent (two independent criteria: free-text fatigue-absence, and zero fatigue under direct multi-synonym probing).],
+  limitation: [Construct-distinction evidence is moderately strong; the stronger claim "PEM can occur with zero fatigue" remains a candidate hypothesis without direct documentation. Severity coverage not stratified; ambulatory cohorts. (ch03, this cycle.)],
+)
+
+#registry-entry(
+  [Diagnostic Criteria Hierarchy: PEM-Required vs PEM-Optional Definitions],
+  type: "S",
+  certainty: "0.60",
+  evidence: [Systematic review of 25 case definitions: Fukuda (1994) requires fatigue, makes PEM optional; CCC (2003), ICC (2011), IOM (2015) make PEM compulsory @Lim2020caseDefinitions @IOM2015redefining. PEM-required criteria identify patients differing on intervention tolerance @Kielland2023diagnosticCriteria and stratify severity independent of fatigue @May2020PEMburden.],
+  citations: [@Lim2020caseDefinitions, @IOM2015redefining, @Kielland2023diagnosticCriteria],
+  mechanism: [Using PEM-optional (Fukuda) criteria dilutes the diagnosis with chronic-fatigue-of-other-etiology patients, weakening the cohort for PEM-relevant trials and epidemiology.],
+  chapter-ref: [ch03 sec-01-pem: @spec:case-definition-pem-hierarchy],
+  prediction: [Fukuda-positive/IOM-negative patients should show at least a 0.3-point smaller SF-36 physical-function improvement or at least a 10-percentage-point higher non-recovery rate vs CCC/IOM-positive patients over 12 months; indistinguishable trajectories refute PEM's independent prognostic weight.],
+  limitation: [Hierarchy documented; the trajectory/response prediction is indirect (mixed-criteria cohorts, no direct within-subject trial). Severity not stratified; ambulatory. (ch03, this cycle.)],
+)
+
+#registry-entry(
+  [Self-Reported vs Objective PEM: Why the Gap?],
+  type: "OQ",
+  certainty: "N/A",
+  evidence: [In Long COVID, 67% self-report PEM but only 5.9% (2/34) show objectively provoked PEM after standardized CPET @Stussman2025selfReport; PEM-item wording materially changes classification @Jason2015definingPEM.],
+  citations: [@Stussman2025selfReport, @Jason2015definingPEM],
+  mechanism: [Open question: gap could reflect protocol failure to provoke PEM, non-physical triggers, conflation of exercise fatigue with PEM, or need for 2-day CPET — four candidate explanations with precedent.],
+  chapter-ref: [ch03 sec-01-pem: @oq:pem-selfreport-vs-objective],
+  prediction: [A study using both self-report and 2-day objective provocation with multi-trigger protocols will resolve which explanation(s) account for the self-report/objective dissociation.],
+  limitation: [Small Long COVID cohort (n=34) able to attend CPET — biased toward ambulatory patients; not stratified by severity. (ch03, this cycle.)],
+)
+
+#registry-entry(
+  [PEM-Without-Fatigue: Temporal Cases (crash window / onset / baseline)],
+  type: "S",
+  certainty: "0.40",
+  evidence: [No study directly tests PEM-without-fatigue. Indirect support: four-symptom PEM prediction set includes three non-fatigue domains @Davenport2023twoSymptoms; PEM stratifies severity independent of baseline fatigue @May2020PEMburden; crash-predominant phenotype recognised (ch18).],
+  citations: [@Davenport2023twoSymptoms, @May2020PEMburden],
+  mechanism: [PEM is effort-triggered multi-system; a crash may be dominated by cognitive/autonomic/pain/flulike symptoms (fatigue subdominant or below reporting threshold), at onset, or a patient may have near-normal baseline fatigue yet be PEM-positive (crash-predominant).],
+  chapter-ref: [ch03 sec-01-pem: @spec:pem-without-fatigue-temporal],
+  prediction: [Two independent criteria: (a) true biological fatigue-absence is falsified if no objectively confirmed crash is ever described in purely non-fatigue terms under free-text elicitation (no fatigue prompt); (b) the artifact reading is falsified if a measurable fraction (>10%) of crashes are described in purely non-fatigue terms under free-text and still report zero fatigue under direct multi-synonym probing.],
+  limitation: [All scenarios candidate; no direct within-title documentation; severity not stratified, severe/very-severe reporting constrained. (ch03, this cycle.)],
+)
+
+#registry-entry(
+  [PEM-Without-Fatigue: Candidate Mechanisms M1–M5],
+  type: "S",
+  certainty: "0.40",
+  evidence: [Five indirect mechanisms: (M1) non-fatigue dominant expressive channels @Davenport2023twoSymptoms @Conroy2023empirical; (M2) two-factor PEM substructure @McManimen2019deconstruct; (M3) trigger-type dependence; (M4) labeling/measurement frame @Jason2015definingPEM; (M5) self-report vs objective dissociation @Stussman2025selfReport. M4 is the most parsimonious (no novel pathway; directly supported by wording-sensitivity evidence; cert 0.45).],
+  citations: [@Davenport2023twoSymptoms, @Conroy2023empirical, @McManimen2019deconstruct, @Jason2015definingPEM, @Stussman2025selfReport],
+  mechanism: [If PEM-without-fatigue occurs, any of five pathways (channel dominance, two-factor PEM, trigger type, labeling, measurement gap) could explain a non-fatigue-dominant crash; none isolated or directly tested. The labeling/measurement-artifact account (M4, with M5) is the default until disproven.],
+  chapter-ref: [ch03 sec-01-pem: @spec:pem-without-fatigue-mechanisms],
+  prediction: [Falsifiable, two independent criteria: (a) true biological fatigue-absence falsified if no crash is ever fatigue-free under free-text elicitation (no fatigue prompt); (b) artifact reading falsified if a measurable fraction of crashes are fatigue-free under free-text AND still report zero fatigue under direct multi-synonym probing. Additional: (c) trigger-type differences in fatigue intensity; (d) M2 low-muscle-fatigue-arm sparing.],
+  limitation: [All mechanisms inferred (indirect/analogical); none directly tested; stringent honesty constraint — must not assert as established fact. Severity not stratified. (ch03, this cycle.)],
+)
+
+#registry-entry(
+  [Is "PEM Without Fatigue" Real Biology or Always a Measurement Artifact?],
+  type: "OQ",
+  certainty: "N/A",
+  evidence: [Strong null interpretation: reported fatigue-absence may always be measurement/labeling artifact — fatigue is imprecise and culturally loaded @Jason2015definingPEM; IOM requires fatigue alongside PEM @IOM2015redefining; no validated PEM instrument scores PEM-positive with explicit zero fatigue.],
+  citations: [@Jason2015definingPEM, @IOM2015redefining],
+  mechanism: [If null holds, the temporal cases and mechanisms above describe experience/reporting variants (channel dominance, vocabulary, trigger type) of fatigue-looking crashes, not biological fatigue-absence. Deciding biology-vs-artifact determines whether low-fatigue crashes are treated as real PEM or an elicitation gap.],
+  chapter-ref: [ch03 sec-01-pem: @oq:pem-without-fatigue-null],
+  prediction: [A within-subject study pairing free-text elicitation (no fatigue prompt) with a structured multi-system PEM instrument discriminates: if patients describing non-fatigue crashes still rate fatigue when directly probed, artifact dominates; if a measurable fraction report no fatigue even under direct multi-synonym probing, artifact reading is incomplete.],
+  limitation: [Open question — no decisive data; presented as the balancing null, not an assertion. Severity not stratified. (ch03, this cycle.)],
+)
+
