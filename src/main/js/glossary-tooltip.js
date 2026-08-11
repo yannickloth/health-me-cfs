@@ -93,11 +93,18 @@
   const ESCAPE_RE = /[&<>"]/g;
   const ESCAPE_MAP = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
   const esc = (s) => (s && typeof s === 'string') ? s.replace(ESCAPE_RE, c => ESCAPE_MAP[c]) : '';
+  // Only allow http(s) and protocol-relative links; reject javascript:, data:, etc.
+  const safeUrl = (s) => {
+    if (typeof s !== 'string' || !s) return '';
+    return /^https?:\/\//i.test(s) || /^\/\//i.test(s) ? s : '';
+  };
   const NOPLACE_RE = /\u0000gt\d+\u0000/g;
 
   function buildTooltip(key, entry, glossary) {
     let e = entry;
-    while (e?.alias && glossary[e.alias]) {
+    const seenAliases = new Set();
+    while (e?.alias && glossary[e.alias] && !seenAliases.has(e.alias)) {
+      seenAliases.add(e.alias);
       key = e.alias;
       e = glossary[key];
     }
@@ -129,9 +136,14 @@
     if (e.also) lines.push(`<span class="gt-also">${esc(e.also)}</span>`);
 
     if (e.sources?.length) {
-      const links = e.sources.map(s =>
-        `<a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.label)}</a>`
-      );
+      const safeSources = e.sources.filter(s => s && typeof s === 'object');
+      const links = safeSources.map(s => {
+        const url = safeUrl(s.url);
+        const label = esc(s.label);
+        return url
+          ? `<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label}</a>`
+          : `<span>${label}</span>`;
+      });
       lines.push(`<span class="gt-sources">Info: ${links.join(' \u00b7 ')}</span>`);
     }
 
@@ -142,39 +154,54 @@
   function positionTooltip(tooltip, anchor) {
     const rect = anchor.getBoundingClientRect();
     const tipH = tooltip.offsetHeight;
-    const tipW = tooltip.offsetWidth;
+    let tipW = tooltip.offsetWidth;
     const vw = window.innerWidth;
     const vh = window.innerHeight;
     const margin = 8;
+    const maxW = vw - 2 * margin;
+
+    // Clamp width so a wide tooltip (e.g. a doseZone table) never hangs off-screen.
+    if (tipW > maxW) {
+      tipW = maxW;
+      tooltip.style.maxWidth = maxW + 'px';
+    }
 
     let top = rect.bottom + margin;
     let left = rect.left + rect.width / 2;
 
     if (top + tipH > vh - margin) top = rect.top - tipH - margin;
     if (top < margin) top = margin;
-    if (left + tipW / 2 > vw - margin) left = vw - tipW - margin;
-    if (left - tipW / 2 < margin) left = margin;
+    // Center on the anchor, then clamp so the tooltip stays within the viewport.
+    left = Math.min(Math.max(left, margin + tipW / 2), vw - margin - tipW / 2);
 
     tooltip.style.top = top + 'px';
     tooltip.style.left = left + 'px';
     tooltip.style.transform = 'translateX(-50%)';
-    if (left === margin || left === vw - tipW - margin) tooltip.style.transform = 'none';
   }
 
   let _activePop = null;
   let _activeAnchor = null;
-  let _fadeTimer = null;
   let _hideTimer = null;
+  // Pops currently fading out. Each got its OWN removal timer, so a later hideAll
+  // (e.g. rapid hover across several terms) never cancels an already-scheduled
+  // removal — otherwise an earlier pop could be orphaned in the DOM forever.
+  const _fading = new Set();
+
+  function _scheduleFade(pop) {
+    if (_fading.has(pop)) return;
+    _fading.add(pop);
+    setTimeout(() => {
+      if (pop && pop.parentNode) pop.parentNode.removeChild(pop);
+      _fading.delete(pop);
+    }, 200);
+  }
 
   function hideAll() {
-    if (_fadeTimer) { clearTimeout(_fadeTimer); _fadeTimer = null; }
     if (_hideTimer) { clearTimeout(_hideTimer); _hideTimer = null; }
     if (_activePop) {
       _activePop.classList.remove('gt-show');
-      _fadeTimer = setTimeout(() => {
-        _activePop?.parentNode?.removeChild(_activePop);
-        _activePop = null;
-      }, 200);
+      _scheduleFade(_activePop);
+      _activePop = null;
     }
     if (_activeAnchor) {
       _activeAnchor.classList.remove('gt-active');
@@ -212,9 +239,11 @@
       if (!('ontouchstart' in window)) return;
       ev.preventDefault();
       ev.stopPropagation();
-      if (_activePop) {
+      if (_activePop && _activeAnchor === el) {
+        // Tapping the already-open term toggles it closed.
         hideAll();
       } else {
+        // Opening a (possibly different) term in one tap; showTooltip closes any open pop.
         const pop = buildTooltip(key, entry, glossary);
         showTooltip(el, pop);
       }
@@ -237,36 +266,85 @@
     }
   }
 
+  const RE_SPECIAL = /[.*+?^${}()|[\]\\]/g;
+  const escReg = (s) => (typeof s === 'string' ? s.replace(RE_SPECIAL, '\\$&') : '');
+
+  // Build term-matching regexes over canonical keys + per-entry synonyms.
+  //
+  // Two regexes, not one, because they need different case-sensitivity and one
+  // regex cannot apply per-branch case flags in the target engines:
+  //   - `keyRe`: canonical keys, case-sensitive. Prevents 2-3 letter abbreviation
+  //     keys (OR, NO, IL, NE, ALS, DA, PE, ...) from false-positive on everyday
+  //     English/French/German prose words ("or", "no", "il", "als", "da").
+  //   - `synRe`: localized multi-word synonyms, case-insensitive, so title-case
+  //     synonyms ("Malaise post-effort") match lowercase prose.
+  //
+  // `resolve` is the single source of truth {lowercaseText -> canonical key} used
+  // by markTerms to open the correct tooltip. Collisions are resolved
+  // deterministically (real entry with a definition wins over an alias stub;
+  // canonical keys win over synonyms; otherwise first-registered wins) and logged.
   function buildGlossaryMeta(glossary) {
-    // Strip _meta/_config keys
     const keys = Object.keys(glossary).filter(k => k[0] !== '_');
 
-    // Build match terms: canonical keys plus per-entry localized synonyms.
-    // Each maps to its canonical entry key so a matched phrase opens the right tooltip.
-    const matchers = [];          // { text, key }
-    const resolve = new Map();    // lowercase matched text -> canonical key
+    const resolve = new Map();
     const extraSeparators = ['/'];
-
-    for (const k of keys) {
-      matchers.push({ text: k, key: k });
-      resolve.set(k.toLowerCase(), k);
-      const syns = glossary[k]?.synonyms;
-      if (Array.isArray(syns)) {
-        for (const s of syns) {
-          if (typeof s !== 'string' || !s) continue;
-          matchers.push({ text: s, key: k });
-          resolve.set(s.toLowerCase(), k);
+    const sepPattern = extraSeparators.map(escReg).join('');
+    const boundary = `[a-zA-Z0-9\\p{L}${sepPattern}]`;
+    const register = (text, key, ci, allowOverwrite) => {
+      const low = text.toLowerCase();
+      const existing = resolve.get(low);
+      if (existing !== undefined && existing !== key) {
+        if (!allowOverwrite) {
+          console.warn(`glossary-tooltip: match text "${text}" collides (${existing} vs ${key}); keeping ${existing}`);
+          return null;
         }
+      }
+      resolve.set(low, key);
+      return escReg(text);
+    };
+
+    const keyBranches = [];
+    const synBranches = [];
+
+    // Canonical keys: case-sensitive; a real entry (has a definition) beats an
+    // alias stub when two keys differ only by case (e.g. D-Ribose/D-ribose).
+    for (const k of keys) {
+      const low = k.toLowerCase();
+      const existing = resolve.get(low);
+      if (existing !== undefined && existing !== k) {
+        const kReal = !!glossary[k]?.definition;
+        const exReal = !!glossary[existing]?.definition;
+        if (!(kReal && !exReal)) continue; // keep existing (real wins, or first stays)
+        // k is the real entry displacing a stub
+      }
+      if (resolve.get(low) === k) continue; // already the owner
+      resolve.set(low, k);
+      keyBranches.push(escReg(k));
+    }
+
+    // Synonyms: case-insensitive; never overwrite a canonical key.
+    for (const k of keys) {
+      const syns = glossary[k]?.synonyms;
+      if (!Array.isArray(syns)) continue;
+      for (const s of syns) {
+        if (typeof s !== 'string' || !s) continue;
+        if (resolve.has(s.toLowerCase())) continue; // canonical key owns it
+        const payload = register(s, k, true, false);
+        if (payload) synBranches.push(payload);
       }
     }
 
-    // Longest first so alternation matches greedier branches first
-    matchers.sort((a, b) => b.text.length - a.text.length);
-    const sepPattern = extraSeparators.map(s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('');
-    const keyPattern = matchers.map(m => m.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|');
-    const termRe = new RegExp(`(?<![a-zA-Z0-9${sepPattern}])(${keyPattern})(?![a-zA-Z0-9${sepPattern}])`, 'gi');
+    // Longest first so the alternation matches the greedier branch first.
+    keyBranches.sort((a, b) => b.length - a.length);
+    synBranches.sort((a, b) => b.length - a.length);
 
-    // Map each key to its glossary entry (fast O(1) lookup, same as glossary lookup)
+    const keyRe = keyBranches.length
+      ? new RegExp(`(?<!${boundary})(${keyBranches.join('|')})(?!${boundary})`, 'gu')
+      : null;
+    const synRe = synBranches.length
+      ? new RegExp(`(?<!${boundary})(${synBranches.join('|')})(?!${boundary})`, 'giu')
+      : null;
+
     const noTooltipPhrases = [];
     for (const k of keys) {
       const nt = glossary[k]?.noTooltip;
@@ -275,16 +353,16 @@
     let noTooltipRe = null;
     if (noTooltipPhrases.length) {
       const ntPattern = noTooltipPhrases
-        .map(p => p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&').replace(/[\s\u00A0]+/g, '[\\s\\u00A0]+'))
+        .map(escReg).map(p => p.replace(/[\s\u00A0]+/g, '[\\s\\u00A0]+'))
         .join('|');
       noTooltipRe = new RegExp(ntPattern, 'gi');
     }
 
-    return { keys, termRe, noTooltipRe, noTooltipPhrases, resolve };
+    return { keys, keyRe, synRe, noTooltipRe, resolve };
   }
 
   function markTerms(body, glossary, meta) {
-    const { termRe, noTooltipRe, resolve } = meta;
+    const { keyRe, synRe, noTooltipRe, resolve } = meta;
 
     // Collect text nodes first — mutating DOM during TreeWalker corrupts iteration
     const textNodes = [];
@@ -301,8 +379,8 @@
 
     for (const tn of textNodes) {
       let html = tn.textContent;
+      const phMap = new Map(); // noTooltip placeholders
 
-      const phMap = new Map();
       if (noTooltipRe) {
         noTooltipRe.lastIndex = 0;
         html = html.replace(noTooltipRe, m => {
@@ -312,15 +390,32 @@
         });
       }
 
-      termRe.lastIndex = 0;
-      if (!termRe.test(html)) continue;
-      termRe.lastIndex = 0;
+      // Synonyms first (case-insensitive, localized full names). A matched phrase
+      // maps to its canonical key for the correct tooltip.
+      if (synRe) {
+        synRe.lastIndex = 0;
+        html = html.replace(synRe, (match) => {
+          const dk = resolve.get(match.toLowerCase());
+          if (!dk) return match;
+          const ph = `\u0000gt${phMap.size}\u0000`;
+          phMap.set(ph, `<glossary-term data-gt="${esc(dk)}" data-gt-match="${esc(match)}">${esc(match)}</glossary-term>`);
+          return ph;
+        });
+      }
 
-      html = html.replace(termRe, (match) => {
-        const dk = resolve.get(match.toLowerCase());
-        if (!dk) return match;
-        return `<glossary-term data-gt="${dk}" data-gt-match="${match}">${match}</glossary-term>`;
-      });
+      // Canonical keys (case-sensitive) on the placeholder-protected text so key
+      // matching never runs inside a wrapped synonym.
+      if (keyRe) {
+        keyRe.lastIndex = 0;
+        if (keyRe.test(html)) {
+          keyRe.lastIndex = 0;
+          html = html.replace(keyRe, (match) => {
+            const dk = resolve.get(match.toLowerCase());
+            if (!dk) return match;
+            return `<glossary-term data-gt="${esc(dk)}" data-gt-match="${esc(match)}">${esc(match)}</glossary-term>`;
+          });
+        }
+      }
 
       if (phMap.size) html = html.replace(NOPLACE_RE, m => phMap.get(m) ?? m);
 
@@ -330,72 +425,88 @@
       for (const el of wrapper.querySelectorAll('glossary-term')) {
         const dk = el.getAttribute('data-gt');
         if (!glossary[dk]) { el.remove(); continue; }
-        el.dataset.gtKey = dk;
+        el.dataset.gtKey = el.getAttribute('data-gt');
       }
 
       tn.parentNode.replaceChild(wrapper, tn);
     }
   }
 
+  // A page may contain several <glossary-tooltips>. Document-level listeners and the
+  // tooltip state are module-scoped and registered exactly once, reference-counted by
+  // the number of CONNECTED instances. `_instanceCount` tracks live instances on every
+  // connect/disconnect (not just the first), so teardown only happens on the last
+  // disconnect and a late-resolving fetch never registers listeners with zero live
+  // instances (which would otherwise leak handlers with no teardown path).
+  let _instanceCount = 0;
+  let _documentTeardown = null;
+  let _glossary = null;   // resolved glossary shared by all instances (one URL)
+  let _loading = false;
+
+  function attachDocumentListeners() {
+    if (_documentTeardown || !_glossary || _instanceCount === 0) return;
+
+    const glossary = _glossary;
+    const handler = (e) => handleInteraction(e, glossary);
+    document.addEventListener('mouseenter', handler, true);
+    document.addEventListener('mouseleave', handler, true);
+    document.addEventListener('click', handler);
+
+    document.addEventListener('mouseover', handlePopInteraction, true);
+    document.addEventListener('mouseout', handlePopInteraction, true);
+
+    const docClick = (e) => {
+      if (!e.target.closest('glossary-term') && !e.target.closest('.gt-pop')) hideAll();
+    };
+    document.addEventListener('click', docClick);
+    const scrollHandler = () => hideAll();
+    window.addEventListener('scroll', scrollHandler);
+
+    _documentTeardown = () => {
+      document.removeEventListener('mouseenter', handler, true);
+      document.removeEventListener('mouseleave', handler, true);
+      document.removeEventListener('click', handler);
+      document.removeEventListener('mouseover', handlePopInteraction, true);
+      document.removeEventListener('mouseout', handlePopInteraction, true);
+      document.removeEventListener('click', docClick);
+      window.removeEventListener('scroll', scrollHandler);
+    };
+  }
+
+  function detachDocumentListeners() {
+    if (_instanceCount > 0 || !_documentTeardown) return;
+    _documentTeardown();
+    _documentTeardown = null;
+  }
+
   class GlossaryTooltips extends HTMLElement {
     #loaded = false;
     #glossary = null;
-    #handler = null;
-    #popHandler = null;
-    #docClick = null;
-    #scrollHandler = null;
 
     connectedCallback() {
+      _instanceCount += 1;
+      attachDocumentListeners();
       if (this.#loaded) return;
       this.#loaded = true;
+      if (_glossary) { this.#glossary = _glossary; markTerms(document.body, _glossary, buildGlossaryMeta(_glossary)); return; }
+      if (_loading) return; // another instance is already fetching
 
+      _loading = true;
       fetch(GLOSSARY_URL)
         .then(r => r.json())
         .then(glossary => {
+          _loading = false;
+          _glossary = glossary;
           this.#glossary = glossary;
-          const meta = buildGlossaryMeta(glossary);
-          markTerms(document.body, glossary, meta);
-
-          const handler = (e) => handleInteraction(e, this.#glossary);
-          document.addEventListener('mouseenter', handler, true);
-          document.addEventListener('mouseleave', handler, true);
-          document.addEventListener('click', handler);
-          this.#handler = handler;
-
-          this.#popHandler = handlePopInteraction;
-          document.addEventListener('mouseover', this.#popHandler, true);
-          document.addEventListener('mouseout', this.#popHandler, true);
-
-          this.#docClick = (e) => {
-            if (!e.target.closest('glossary-term') && !e.target.closest('.gt-pop')) hideAll();
-          };
-          document.addEventListener('click', this.#docClick);
-          this.#scrollHandler = () => hideAll();
-          window.addEventListener('scroll', this.#scrollHandler);
+          markTerms(document.body, glossary, buildGlossaryMeta(glossary));
+          attachDocumentListeners();
         })
-        .catch(() => console.warn('Glossary tooltips: could not fetch glossary.json'));
+        .catch(() => { _loading = false; console.warn('Glossary tooltips: could not fetch glossary.json'); });
     }
 
     disconnectedCallback() {
-      if (this.#handler) {
-        document.removeEventListener('mouseenter', this.#handler, true);
-        document.removeEventListener('mouseleave', this.#handler, true);
-        document.removeEventListener('click', this.#handler);
-        this.#handler = null;
-      }
-      if (this.#popHandler) {
-        document.removeEventListener('mouseover', this.#popHandler, true);
-        document.removeEventListener('mouseout', this.#popHandler, true);
-        this.#popHandler = null;
-      }
-      if (this.#docClick) {
-        document.removeEventListener('click', this.#docClick);
-        this.#docClick = null;
-      }
-      if (this.#scrollHandler) {
-        window.removeEventListener('scroll', this.#scrollHandler);
-        this.#scrollHandler = null;
-      }
+      _instanceCount = Math.max(0, _instanceCount - 1);
+      detachDocumentListeners();
     }
   }
 
