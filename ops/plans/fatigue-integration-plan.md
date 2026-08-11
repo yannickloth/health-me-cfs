@@ -91,6 +91,6 @@ Synthesis artifact: `tmp/synthesis-fatigue-2026-08-11.md`. Phase 2 decision reco
 | 11 | RAN | adversarial review-fix-build converged Round 1 (0 CRITICAL/HIGH); SLOW-CONVERGENCE not fired |
 | 12 | RAN | changelog v7.15 added (changelog-tspo-pet-section.typ, per established per-cycle pattern) |
 | 12.5 | RAN | this ledger — 0 OMISSION |
-| 13 | _pending_ | commit (awaiting user decision on CONCURRENT-mode foreign file) |
+| 13 | RAN | commit eb2ea1e2 (content(fatigue-ch03), 30 files, +1667 lines); post-commit build PASS 0 err; shared-file entries verified in HEAD (glossary Fatigability, registry fatigue block, 10 bib keys); scratch pointers wip/fatigue-pre3 + -pre6 deleted; foreign parallel file src/main/js/glossary-tooltip.js left unstaged per user decision |
 
 Verification: build 0 errors at all checkpoints (3a, 5b, 8, after 10a/11); 8/8 citations resolve case-exact; every new hypothesis has falsifiable prediction; every new env has Consequence + Severity applicability; registry updated (3 entries aligned to chapter labels); glossary JSON valid.
