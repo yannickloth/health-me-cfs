@@ -5558,3 +5558,42 @@ This registry collects all hypotheses, speculations, open questions, and predict
   limitation: [Open question — no decisive data; presented as the balancing null, not an assertion. Severity not stratified. (ch03, this cycle.)],
 )
 
+= Entries added 2026-08-11: Fatigue as a Core Symptom (definition, severity, fatigability, phenotypes)
+
+#registry-entry(
+  [Fatigue Is Embedded Within Coherent Multi-System Symptom Clusters (Brain / Gut-Immune / Autonomic)],
+  type: "H",
+  certainty: "0.60",
+  evidence: [Factor analysis in n=748 adults with ME/CFS identified three symptom clusters — Brain, Gut-Immune, Autonomic — each with strong model fit (EFA/CFA/SEM) @HabermannHorstmeier2025symptomClusters; fatigue distributed across domains rather than forming a separate factor.],
+  citations: [@HabermannHorstmeier2025symptomClusters],
+  mechanism: [Fatigue is a cross-cutting symptom whose precipitating driver may differ by cluster, rather than a unitary construct; treating fatigue as a single target may miss cluster-specific mechanisms.],
+  chapter-ref: [ch03 sec-00-fatigue: @hyp:fatigue-embedded-clusters],
+  prediction: [In a pre-registered trial stratifying ME/CFS patients by dominant symptom cluster and assigning cluster-targeted intervention, a significant cluster × treatment interaction on a validated fatigue instrument must emerge (p < 0.05 corrected; interaction η²p ≥ 0.01). Absence of interaction or only a main effect refutes cluster-specific fatigue mechanism.],
+  limitation: [Cross-sectional; self-report; single-sample factor solution not yet independently replicated; does not establish causal mechanism. Severity not stratified. (ch03, this cycle.)],
+)
+
+#registry-entry(
+  [Severity-Based Fatigue Subgroups Exist and Depend on Case Definition],
+  type: "H",
+  certainty: "0.65",
+  evidence: [K-means clustering of the Australian registry (n=2,873 patients vs n=797 controls) identified four severity subgroups with significantly impaired HRQoL; ICC-defined patients had worst outcomes; cluster structure depended on case definition @EatonFitch2026registryQoL.],
+  citations: [@EatonFitch2026registryQoL],
+  mechanism: [Fatigue severity is not a single number; the observed subgroup structure changes with the diagnostic criteria applied, so severity classification is partly an artifact of case definition.],
+  chapter-ref: [ch03 sec-00-fatigue: @hyp:severity-subgroups],
+  prediction: [Replication of k-means in independent cohort (n ≥ 500, same case definition) must recover ≥3 of 4 original subgroups (silhouette ≥ 0.25), with significant between-cluster differences (p < 0.05 corrected) on external measure — e.g. 7-day actigraphy step count or MFI-20 subscales. Refuted if all pairwise contrasts p > 0.05 after Holm–Bonferroni or if different case definition dissolves the 4-cluster solution.],
+  limitation: [Self-selected registry volunteers; cross-sectional; k-means clusters descriptive, may not capture true latent subtypes; single registry not yet replicated. Severity: ambulatory registry; severe/very-severe under-represented. (ch03, this cycle.)],
+)
+
+#registry-entry(
+  [Do Subjective Fatigue and Objective Fatigability Dissociate in ME/CFS?],
+  type: "OQ",
+  certainty: "N/A",
+  evidence: [Subjective fatigue and objective fatigability may not correlate closely: actigraphy shows objectively reduced activity @Liu2025geneticFatigueActigraphy and neuroimaging shows impaired central motor drive @Bedard2026centralFatigability, while subjective scales capture experienced exhaustion; no large study has correlated both within the same ME/CFS cohort.],
+  citations: [@Liu2025geneticFatigueActigraphy, @Bedard2026centralFatigability],
+  mechanism: [Open question: whether patients reporting severe fatigue but normal performance (or vice versa) are a meaningful subtype or measurement dissociation is unresolved for fatigue specifically, by contrast with related autonomic findings.],
+  chapter-ref: [ch03 sec-00-fatigue: @oq:fatigue-subjective-objective],
+  prediction: [A study pairing a subjective fatigue instrument with objective fatigability (actigraphy + performance test) in the same cohort will establish whether the two orders dissociate and what any dissociation predicts clinically.],
+  limitation: [No dedicated fatigue discordance study exists; related evidence from other autonomic measures not directly transferable. Severity not stratified. (ch03, this cycle.)],
+)
+
+

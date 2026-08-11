@@ -135,6 +135,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | exercise-recovery-pem  | [subtrees/exercise-recovery-pem.md](subtrees/exercise-recovery-pem.md)  | 2026-05-07      | 21         | 21         | ✅ done        |
 | pupillometry-autonomic-biomarker-mecfs | [subtrees/pupillometry-autonomic-biomarker-mecfs.md](subtrees/pupillometry-autonomic-biomarker-mecfs.md) | 2026-07-09 | 27 | 0 | 🔵 in progress |
 | exercise-blinding     | [subtrees/exercise-blinding.md](subtrees/exercise-blinding.md)        | 2026-04-21      | 20         | 0          | ⬜ stub        |
+| fatigue | [subtrees/fatigue.md](subtrees/fatigue.md) | 2026-08-11 | 14 | 0 | 🔵 in progress |
 | fatigue-pem-relationship | [subtrees/fatigue-pem-relationship.md](subtrees/fatigue-pem-relationship.md) | 2026-08-11 | 12 | 0 | 🔵 in progress |
 | funcap                | [subtrees/funcap.md](subtrees/funcap.md)                              | 2026-04-23      | 36         | 0          | ⬜ stub        |
 | G7-mito-pdh           | [subtrees/G7-mito-pdh.md](subtrees/G7-mito-pdh.md)                   | 2026-04-12      | 30         | 0          | ⬜ stub        |

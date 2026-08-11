@@ -827,3 +827,12 @@ Prevents re-processing of already-integrated content.
 |-----|--------|---------|------------|--------|
 | https://pubmed.ncbi.nlm.nih.gov/40744071/ | pubmed | 2026-08-10 | 2026-08-10 | ops/research/literature-summary-biofabrication-mughal-3d-muscle-cfs-sera-2026-08-10.md, ops/research/search-log-biofabrication-mughal-3d-muscle-cfs-sera-2026-08-10.md, bib/musculoskeletal.bib (6 entries), bib/immune.bib (1 entry), bib/energy-metabolism.bib (1 entry), appendix-h (8 annotated entries), ops/integration-guides/integration-guide-biofabrication-mughal-3d-muscle-cfs-sera.md — Mughal 2025 biofabrication 3D muscle serum model (8 papers) |
 | PubMed E-utilities API (14 queries, batch) | pubmed/eutils | 2026-08-10 | 2026-08-10 | 8 papers across musculoskeletal/immune/energy-metabolism bib + appendix-h |
+
+## Fatigue as Core Symptom Literature Search (2026-08-11)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-11 | 14 queries: fatigue definition/severity/phenotypes in ME/CFS; fatigue vs fatigability distinction; symptom clusters; objective vs subjective assessment; ICF framework; differential diagnosis (idiopathic chronic fatigue, depression); genetic/population-level correlates |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed API queries (14 queries, batch) | pubmed/eutils | 2026-08-11 | — | ops/research/search-log-fatigue-2026-08-11.md, ops/research/literature-fatigue-2026-08-11.md, bib/diagnosis-assessment.bib (10 entries), appendix-h (10 annotated entries) — Fatigue as core symptom literature (10 papers) |

@@ -33839,3 +33839,122 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Orthostatic intolerance present in 96% of the cohort
     / *Conclusion:*: PEM is a core driver of impaired quality of life in pediatric ME/CFS. Diagnostic criteria requiring PEM identify a more severely affected subgroup.
     / *Limitations:*: Small sample; single tertiary center; cross-sectional; parent-proxy reporting for younger children.
+
+=== Park et al.\ 2024 — Systematic Review of Fatigue Severity in ME/CFS RCTs
+    / *Full Citation:*: Park JW, Park BJ, Lee JS, Lee EJ, Ahn YC, Son CG. Systematic review of fatigue severity in ME/CFS patients: insights from randomized controlled trials. _Journal of Translational Medicine_. 2024;22(1):529. @Park2024fatigueSeverity
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-024-05349-7")[10.1186/s12967-024-05349-7]
+    / *PMID:*: 38831460
+    / *Key Findings:*:
+        - Meta-analysis of 60 RCTs, n=7,088 ME/CFS patients; pooled fatigue severity 77.9/100 (95% CI 74.7–81.0)
+        - Physical fatigue (74.3) and cognitive fatigue (74.2) higher than mental fatigue (70.1)
+        - Severity varied by diagnostic criteria (ICC 54.2 to Canadian 83.6) and assessment tool (MFS 54.2 to CIS 88.6)
+        - Non-pharmacological trial participants showed higher baseline fatigue (79.1) than pharmacological trials (75.5)
+    / *Conclusion:*: ME/CFS patients in RCTs show severe, persistent fatigue across all domains. Measurement heterogeneity highlights the need for standardized fatigue assessment.
+    / *Limitations:*: Heterogeneous trial populations; mostly Fukuda/CES criteria; no PEM-required subgroup analysis.
+
+=== Liu et al.\ 2025 — Genetic Variants in CFS Predict Population Fatigue and Actigraphy
+    / *Full Citation:*: Liu PZ, Raizen DM, Skarke C, Brooks TG, Anafi RC. Genetic variants associated with chronic fatigue syndrome predict population-level fatigue severity and actigraphic measurements. _Sleep_. 2025;48(2):zsae243. @Liu2025geneticFatigueActigraphy
+    / *DOI:*: #link("https://doi.org/10.1093/sleep/zsae243")[10.1093/sleep/zsae243]
+    / *PMID:*: 39442002
+    / *Key Findings:*:
+        - UK Biobank: n=295 CFS vs n=63,133 controls; CFS patients had decreased overall movement (d=0.220), lower activity amplitudes (d=-0.377), lower wrist temperature amplitudes (d=-0.173)
+        - 30 CFS-associated SNVs tested; one associated with subjective fatigue in controls, one with actigraphy
+        - Genetic overlap of CFS risk with fatigue phenotypes suggests shared biology between clinical and population-level fatigue
+    / *Conclusion:*: CFS fatigue shares genetic architecture with population-level fatigue, supporting a continuum model and validating actigraphy as an objective correlate.
+    / *Limitations:*: CFS diagnosed by self-report in UK Biobank; small CFS group (n=295); cross-sectional actigraphy.
+
+=== Lee et al.\ 2025 — Fatigue-Dominant Long COVID: Clinical and Laboratory Characteristics
+    / *Full Citation:*: Lee JS, Choi Y, Joung JY, Son CG. Clinical and laboratory characteristics of fatigue-dominant long-COVID subjects: a cross-sectional study. _American Journal of Medicine_. 2025;138(2):346–353.e1. @Lee2025fatigueDominantLC
+    / *DOI:*: #link("https://doi.org/10.1016/j.amjmed.2024.01.025")[10.1016/j.amjmed.2024.01.025]
+    / *PMID:*: 38331137
+    / *Key Findings:*:
+        - n=100 fatigue-dominant Long COVID (mKCFQ11 >60, VAS fatigue >5); severe fatigue across all measures
+        - No differences by sex, post-COVID period, or age
+        - Plasma cortisol negatively correlated with fatigue scores (more specific to mental than physical fatigue)
+        - Fatigue scales (mKCFQ11, MFI, VAS) strongly inter-correlated
+    / *Conclusion:*: Post-viral fatigue is a coherent construct measurable by validated instruments. Cortisol association supports endocrine contribution to fatigue without explaining physical/motivational dimensions.
+    / *Limitations:*: Single time point; Korean population; no healthy controls; self-referred sample.
+
+=== Bileviciute-Ljungar et al.\ 2020 — ICF Core Set for ME/CFS
+    / *Full Citation:*: Bileviciute-Ljungar I, Schult ML, Borg K, Ekholm J. Preliminary ICF core set for patients with myalgic encephalomyelitis/chronic fatigue syndrome in rehabilitation medicine. _Journal of Rehabilitation Medicine_. 2020;52(6):jrm00074. @BileviciuteLjungar2020ICF
+    / *DOI:*: #link("https://doi.org/10.2340/16501977-2697")[10.2340/16501977-2697]
+    / *PMID:*: 32488281
+    / *Key Findings:*:
+        - n=100 ME/CFS patients assessed by rehabilitation team; ICF Body Functions impairments in energy/fatigue (100%), physical endurance (99%), fatigability (96%), sleep (91%), pain (82%)
+        - Activity/Participation most frequently limited: housework (93%), assisting others (92%), employment (87%), handling stress (83%)
+        - Fatigue and fatigability emerged as distinct ICF categories (b1300 energy level vs b4552 fatigability)
+        - Majority of impairments rated light-to-moderate, except employment restrictions (severe)
+    / *Conclusion:*: Fatigue and fatigability are distinct ICF constructs. ME/CFS disability spans all ICF domains, with fatigue/fatigability as the most prevalent body-function impairments.
+    / *Limitations:*: Single-center; team consensus rather than formal Delphi; preliminary core set.
+
+=== Eaton-Fitch & Marshall-Gradisnik 2026 — Australian ME/CFS Registry: Symptom Clusters and HRQoL
+    / *Full Citation:*: Eaton-Fitch N, Marshall-Gradisnik S. Australian registry reports poor health and wellbeing in people living with ME/CFS. _Journal of Translational Medicine_. 2026. @EatonFitch2026registryQoL
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-026-08618-9")[10.1186/s12967-026-08618-9]
+    / *PMID:*: 42443918
+    / *Key Findings:*:
+        - n=2,873 ME/CFS vs n=797 non-fatigued controls; largest Australian ME/CFS registry analysis
+        - HRQoL significantly impaired vs controls (SF-36); worse outcomes for ICC vs Fukuda-defined patients
+        - K-means clustering identified 4 symptom-severity clusters differing by case definition stringency
+        - Symptom severity/frequency predicted by case definition strictness; not a predictor of HRQoL outcomes
+    / *Conclusion:*: ME/CFS symptom burden is severe and consistent across diagnostic criteria, but ICC criteria identify patients with poorest HRQoL. Empirical clustering supports phenotypic subgroups.
+    / *Limitations:*: Self-reported data; voluntary registry recruitment (selection bias); cross-sectional.
+
+=== Tankisi et al.\ 2024 — Clinical Neurophysiology of Fatigue and Fatigability
+    / *Full Citation:*: Tankisi H, Versace V, Kuppuswamy A, Cole J. The role of clinical neurophysiology in the definition and assessment of fatigue and fatigability. _Clinical Neurophysiology Practice_. 2024;9:39–50. @Tankisi2024fatigueFatigability
+    / *DOI:*: #link("https://doi.org/10.1016/j.cnp.2023.12.004")[10.1016/j.cnp.2023.12.004]
+    / *PMID:*: 38274859
+    / *Key Findings:*:
+        - Conceptual distinction: fatigue = subjective perception; fatigability = objective performance decline
+        - Central fatigability assessed by twitch interpolation, TMS, EEG/MEG, readiness potentials
+        - Peripheral fatigability assessed by surface/needle EMG, single-fiber EMG, nerve conduction
+        - Framework applicable across neurological disorders and post-COVID fatigue
+    / *Conclusion:*: Differentiating fatigue (perceived) from fatigability (measurable) is essential for understanding ME/CFS. Neurophysiological tools can objectively quantify central vs peripheral contributions.
+    / *Limitations:*: Narrative review, not systematic; no ME/CFS-specific neurophysiological data.
+
+=== Eguchi et al.\ 2026 — EV-miRNA Biomarkers Differentiating ME/CFS from Other Fatigue Conditions
+    / *Full Citation:*: Eguchi A, Kuratsune H, Nakatomi Y, Yasui T, Nakagawa R, Watanabe Y, Fukuda S. Circulating extracellular vesicles-microRNAs as potential biomarkers for the identification of ME/CFS: differentiating fatigue-related conditions. _Journal of Translational Medicine_. 2026;24(1):979. @Eguchi2026EVmiRNAfatigue
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-026-08695-w")[10.1186/s12967-026-08695-w]
+    / *PMID:*: 42533331
+    / *Key Findings:*:
+        - n=6 ME/CFS, n=6 idiopathic chronic fatigue, n=8 depression; 62 EV-miRNA signature with 87% sensitivity and 94% specificity
+        - ME/CFS EVs had unique subpopulation (high calcein intensity, larger diameter) vs ICF and depression
+        - Top candidate miRNAs (miR-21-5p, let-7f-5p, miR-26b-5p, miR-20a-5p) elevated only in ME/CFS, not HC
+        - Pathway enrichment in focal adhesion, PI3K-Akt, insulin signaling, endocrine functions
+    / *Conclusion:*: ME/CFS fatigue is biologically distinguishable from idiopathic chronic fatigue and depression at the EV-miRNA level, supporting the existence of a distinct ME/CFS fatigue phenotype.
+    / *Limitations:*: Very small discovery cohort (n=6 ME/CFS); limited HC validation (n=4); requires independent replication.
+
+=== Habermann-Horstmeier & Horstmeier 2025 — Symptom Clusters as Translational Model
+    / *Full Citation:*: Habermann-Horstmeier L, Horstmeier LM. Symptom clusters in ME/CFS reflect distinct neuroimmune and autonomic pathophysiological mechanisms: a translational model. _Journal of Translational Medicine_. 2025;24(1):606. @HabermannHorstmeier2025symptomClusters
+    / *DOI:*: #link("https://doi.org/10.1186/s12967-026-08159-1")[10.1186/s12967-026-08159-1]
+    / *PMID:*: 42050709
+    / *Key Findings:*:
+        - n=748 adults with ME/CFS; hypothesis-driven symptom clusters tested via EFA, CFA, SEM
+        - Brain factor (brain fog, sensory hypersensitivity, visual disturbances, sleep, headaches) showed excellent fit (RMSEA=0.021, CFI=0.996)
+        - Gut-Immune two-factor structure superior to one-factor; Autonomic symptom complex as higher-order latent factor
+        - Clusters aligned with functional biological systems (not random co-occurrence)
+    / *Conclusion:*: ME/CFS symptom clusters map onto distinct neuroimmune-autonomic biological axes. This supports mechanism-aligned subgrouping for diagnostics and treatment stratification.
+    / *Limitations:*: Self-reported symptoms; mechanistic alignment inferred from literature, not directly measured; cross-sectional.
+
+=== Bedard et al.\ 2026 — Central Origin of Fatigability in ME/CFS (Multimodal Neuroimaging)
+    / *Full Citation:*: Bedard P, Knutson KM, McGurrin PM, Vial F, Popa T, Horovitz SG, Hallett M, Nath A, Walitt B. Central origin of fatigability in Myalgic encephalomyelitis/chronic fatigue syndrome revealed by multimodal neuroimaging. _NeuroImage: Clinical_. 2026;51:104041. @Bedard2026centralFatigability
+    / *DOI:*: #link("https://doi.org/10.1016/j.nicl.2026.104041")[10.1016/j.nicl.2026.104041]
+    / *PMID:*: 42551185
+    / *Key Findings:*:
+        - n=15 ME/CFS vs n=19 healthy controls; grip force fatigability task with simultaneous fMRI, EEG, EMG
+        - ME/CFS patients developed fatigue significantly earlier despite same maximum voluntary force
+        - Healthy controls increased muscle and brain activity until fatigue onset; ME/CFS showed minimal fluctuations
+        - Central (brain) failure to upregulate motor output, not peripheral muscle failure
+    / *Conclusion:*: Fatigability in ME/CFS has a central neural origin — the brain fails to increase motor drive. This distinguishes ME/CFS fatigue from peripheral fatigue states.
+    / *Limitations:*: Small sample (n=15 ME/CFS); NIH intramural cohort (selection bias); female underrepresented (7 per group).
+
+=== Campos et al.\ 2022 — Post-Viral Fatigue Assessment Methods Review
+    / *Full Citation:*: Campos MC, Nery T, Starke AC, de Bem Alves AC, Speck AE, Aguiar AS. Post-viral fatigue in COVID-19: a review of symptom assessment methods, mental, cognitive, and physical impairment. _Neuroscience and Biobehavioral Reviews_. 2022;142:104902. @Campos2022PVFassessment
+    / *DOI:*: #link("https://doi.org/10.1016/j.neubiorev.2022.104902")[10.1016/j.neubiorev.2022.104902]
+    / *PMID:*: 36202253
+    / *Key Findings:*:
+        - Subjective fatigue assessed via structured questionnaires (Chalder, MFI, FSS, VAS)
+        - Objective fatigability assessed via physical performance tests (handgrip, CPET) and cognitive tests
+        - Both subjective and objective domains are impaired in post-COVID fatigue
+        - Multi-domain assessment framework recommended for clinical and research settings
+    / *Conclusion:*: Post-viral fatigue assessment requires both subjective (perceived fatigue) and objective (fatigability) tools across physical, cognitive, and mental domains. Framework directly applicable to ME/CFS.
+    / *Limitations:*: Narrative review, not systematic; COVID-19-specific; limited pre-COVID post-viral fatigue data.

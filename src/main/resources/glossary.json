@@ -11195,5 +11195,14 @@
     "label": "HRQOL",
     "category": "measurement",
     "definition": "Health-Related Quality of Life: the impact of a disease and its treatment on a person physical, mental, and social well-being, typically measured with instruments such as SF-36."
+  },
+  "Fatigability": {
+    "label": "Fatigability",
+    "category": "symptom",
+    "definition": "The objective decline in physical or cognitive performance during sustained effort, as measured by performance tests (e.g., twitch interpolation, transcranial magnetic stimulation, sustained-force tasks). In ME/CFS it is formally distinct from fatigue (the subjective perception of exhaustion); ICF codes them separately (b1300 energy level vs b4552 fatigability). Evidence suggests a central (brain-level) failure of motor drive contributes to ME/CFS fatigability.",
+    "also": "objective fatigability; performance fatigability; contrasts with fatigue (subjective)",
+    "noTooltip": [
+      "fatigue"
+    ]
   }
 }
