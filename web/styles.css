@@ -1,498 +1,140 @@
 @layer base, components, utilities;
 
-:root {
-  --callout-red:    var(--bs-danger);
-  --callout-teal:   var(--bs-primary);
-  --callout-green:  var(--bs-teal);
-  --callout-purple: var(--bs-purple);
-  --callout-orange: var(--bs-warning);
-  --callout-bg:     var(--bs-light);
-  --epigraph-bg:    var(--bs-light);
-  --epigraph-border:var(--bs-secondary);
-}
-
+/* Every color, radius, shadow and spacing value below comes from the cosmo
+   theme's own `--bs-*` tokens. Custom hues are not needed: each semantic box
+   maps onto an existing cosmo hue. Tints and title text are derived from the
+   box's accent via `color-mix`, so nothing falls outside the theme palette. */
 @layer base {
-  body, p, li, dd, td, th {
-    text-align: justify;
-    hyphens: auto;
-  }
-
-  /* Don't justify headings, navigation, or code */
-  h1, h2, h3, h4, h5, h6,
-  nav, .sidebar, pre, code,
+  body, p, li, dd, td, th { text-align: justify; hyphens: auto; }
+  h1,h2,h3,h4,h5,h6, nav, .sidebar, pre, code,
   .callout-title, .registry-badge, .registry-name,
-  dt, caption, figcaption, .quarto-title-meta {
-    text-align: unset;
-  }
+  dt, caption, figcaption, .quarto-title-meta { text-align: unset; }
 
-  figure img {
-    max-inline-size: 100%;
-    block-size: auto;
-  }
-
-  .math.display {
-    overflow-x: auto;
-    padding-block: 0.2em;
-  }
-
-  .sidebar nav[role="doc-toc"] ul {
-    list-style-type: none;
-    padding-inline-start: 0.8em;
-  }
+  figure img { max-inline-size: 100%; block-size: auto; }
+  .math.display { overflow-x: auto; padding-block: 0.2em; }
+  .sidebar nav[role="doc-toc"] ul { list-style-type: none; padding-inline-start: 0.8em; }
 }
 
 @layer components {
-  .callout-warning,
-  .callout-note,
-  .callout-important,
-  .callout-tip,
-  .callout-caution {
-    border-inline-start: 4px solid;
-    padding-block: 0.8em;
-    padding-inline: 1em;
-    margin-block: 1em;
-    background: var(--callout-bg);
-
-    .callout-title {
-      font-weight: bold;
-      margin-block-end: 0.4em;
-    }
+  /* Accent boxes — one shared frame; each class sets its `--box-accent` hue
+     (a cosmo token), from which the border, tinted fill, and title derive. */
+  .callout-warning, .callout-note, .callout-important, .callout-tip, .callout-caution,
+  .env-hypothesis, .env-proposal, .env-direction, .env-speculation, .env-key-point,
+  .env-achievement, .env-open-question, .env-limitation, .env-warning,
+  .env-prediction, .env-model-insight, .env-recommendation, .env-synthesis,
+  .env-clinical-finding, .env-observation, .env-finding {
+    border-inline-start: 3px solid var(--box-accent);
+    background: color-mix(in srgb, var(--box-accent) 8%, var(--bs-light));
+  }
+  .callout-warning, .callout-note, .callout-important, .callout-tip, .callout-caution,
+  :is(.env-hypothesis, .env-proposal, .env-direction, .env-speculation, .env-key-point,
+      .env-achievement, .env-open-question, .env-limitation, .env-warning,
+      .env-prediction, .env-model-insight, .env-recommendation, .env-synthesis,
+      .env-clinical-finding, .env-observation) .callout-title {
+    color: color-mix(in srgb, var(--box-accent) 60%, var(--bs-dark));
   }
 
-  .callout-warning {
-    border-color: var(--callout-red);
-    background: color-mix(in srgb, var(--callout-red) 5%, white);
-  }
+  /* Blue  (hypothesis / proposal / direction) */
+  .env-hypothesis, .env-proposal, .env-direction { --box-accent: var(--bs-primary); }
+  /* Orange (speculation / key-point) */
+  .env-speculation, .env-key-point { --box-accent: var(--bs-warning); }
+  /* Green (recommendation / achievement) */
+  .env-recommendation, .env-achievement { --box-accent: var(--bs-success); }
+  /* Teal (open question / synthesis) */
+  .env-open-question, .env-synthesis { --box-accent: var(--bs-teal); }
+  /* Purple (prediction / model insight) */
+  .env-prediction, .env-model-insight { --box-accent: var(--bs-info); }
+  /* Indigo (clinical finding / observation) */
+  .env-clinical-finding, .env-observation { --box-accent: var(--bs-indigo); }
+  /* Red (limitation / warning) */
+  .env-limitation, .env-warning { --box-accent: var(--bs-danger); }
+  /* Finding block */
+  .env-finding { --box-accent: var(--bs-success); }
 
-  .callout-note {
-    border-color: var(--callout-teal);
-    background: color-mix(in srgb, var(--callout-teal) 5%, white);
-  }
+  /* Quarto base callouts → cosmo hues */
+  .callout-warning   { --box-accent: var(--bs-danger); }
+  .callout-note      { --box-accent: var(--bs-primary); }
+  .callout-important { --box-accent: var(--bs-success); }
+  .callout-tip       { --box-accent: var(--bs-info); }
+  .callout-caution   { --box-accent: var(--bs-warning); }
 
-  .callout-important {
-    border-color: var(--callout-green);
-    background: color-mix(in srgb, var(--callout-green) 5%, white);
-  }
-
-  .callout-tip {
-    border-color: var(--callout-purple);
-    background: color-mix(in srgb, var(--callout-purple) 5%, white);
-  }
-
-  .callout-caution {
-    border-color: var(--callout-orange);
-    background: color-mix(in srgb, var(--callout-orange) 5%, white);
-  }
-
-  /* Registry entry cards — hypothesis registry */
+  /* Registry entry cards — reuse the same accent system */
   .registry-entry {
-    border-inline-start: 4px solid;
-    border-radius: 0 4px 4px 0;
-    padding: 0.75em 1em 0.5em;
-    margin-block: 1em;
+    border-inline-start: 3px solid var(--box-accent);
+    background: color-mix(in srgb, var(--box-accent) 8%, var(--bs-light));
   }
-  .registry-entry .registry-header {
-    display: flex;
-    align-items: baseline;
-    gap: 0.6em;
-    margin-block-end: 0.5em;
-  }
-  .registry-entry .registry-badge {
-    font-size: 0.78em;
-    font-weight: bold;
-    padding: 0.15em 0.45em;
-    border-radius: 3px;
-    white-space: nowrap;
-    color: white;
-  }
-  .registry-entry .registry-name {
-    font-weight: bold;
-    font-size: 0.95em;
-  }
-  dl.registry-fields {
-    display: grid;
-    grid-template-columns: 7em 1fr;
-    gap: 0.2em 0.75em;
-    font-size: 0.88em;
-    margin: 0;
-  }
-  dl.registry-fields dt {
-    font-weight: bold;
-    color: #555;
-    padding-block-start: 0.1em;
-    margin: 0;
-  }
-  dl.registry-fields dd {
-    margin: 0;
-  }
-  /* Type-specific colors */
-  .registry-H {
-    border-color: #3b82f6;
-    background: #eff6ff;
-  }
-  .registry-H .registry-badge { background: #3b82f6; }
-  .registry-S {
-    border-color: #8b5cf6;
-    background: #f5f3ff;
-  }
-  .registry-S .registry-badge { background: #8b5cf6; }
-  .registry-OQ {
-    border-color: #f59e0b;
-    background: #fffbeb;
-  }
-  .registry-OQ .registry-badge { background: #f59e0b; }
-  .registry-P {
-    border-color: #10b981;
-    background: #ecfdf5;
-  }
-  .registry-P .registry-badge { background: #10b981; }
+  .registry-H  { --box-accent: var(--bs-primary); }   /* hypothesis */
+  .registry-S  { --box-accent: var(--bs-warning); }   /* speculation */
+  .registry-OQ { --box-accent: var(--bs-teal); }      /* open question */
+  .registry-P  { --box-accent: var(--bs-success); }   /* prediction-adjacent */
 
-  /* Environment-specific color overrides — apply on top of base callout styling */
-  /* Hypothesis: deep blue — high epistemic commitment */
-  .env-hypothesis {
-    border-color: #1d4ed8 !important;
-    background: #eff6ff !important;
-  }
-  .env-hypothesis .callout-title { color: #1e3a8a; }
-
-  /* Speculation: amber — exploratory, uncertain */
-  .env-speculation {
-    border-color: #d97706 !important;
-    background: #fffbeb !important;
-  }
-  .env-speculation .callout-title { color: #92400e; }
-
-  /* Achievement: emerald — established finding */
-  .env-achievement {
-    border-color: #059669 !important;
-    background: #ecfdf5 !important;
-  }
-  .env-achievement .callout-title { color: #065f46; }
-
-  /* Open question: teal — information, inquiry */
-  .env-open-question {
-    border-color: #0891b2 !important;
-    background: #ecfeff !important;
-  }
-  .env-open-question .callout-title { color: #164e63; }
-
-  /* Limitation: crimson — caution */
-  .env-limitation {
-    border-color: #dc2626 !important;
-    background: #fef2f2 !important;
-  }
-  .env-limitation .callout-title { color: #991b1b; }
-
-  /* Prediction: purple — forward-looking */
-  .env-prediction {
-    border-color: #7c3aed !important;
-    background: #f5f3ff !important;
-  }
-  .env-prediction .callout-title { color: #4c1d95; }
-
-  /* Recommendation: green — actionable */
-  .env-recommendation {
-    border-color: #16a34a !important;
-    background: #f0fdf4 !important;
-  }
-  .env-recommendation .callout-title { color: #14532d; }
-
-  /* Synthesis: teal-green — convergent evidence */
-  .env-synthesis {
-    border-color: #0d9488 !important;
-    background: #f0fdfa !important;
-  }
-  .env-synthesis .callout-title { color: #134e4a; }
-
-  /* Clinical finding: slate-blue */
-  .env-clinical-finding {
-    border-color: #4f46e5 !important;
-    background: #eef2ff !important;
-  }
-  .env-clinical-finding .callout-title { color: #312e81; }
-
-  /* Finding: differential diagnostic inference block (ch29).
-     Card appearance — green left border + tinted background matching the
-     findings-group callout-note color. Only consecutive siblings get top gap. */
-  .env-finding {
-    border-inline-start: 4px solid oklch(0.5 0.09 135);
-    background: oklch(0.96 0.02 140);
-    border-radius: 0 4px 4px 0;
-    padding-block: 0.6em;
-    padding-inline-end: 0.8em;
-
-    & + .env-finding { margin-block-start: 1.5em; }
-  }
-  .env-finding-heading { font-weight: 600; margin-block-end: 0.35em; }
-  .env-finding-explanation { margin-block-end: 0.5em; }
-  .env-finding-fields {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 2px 12px;
-    margin-block: 0;
-    font-size: 0.9em;
-
-    dt {
-      font-weight: 500;
-      color: oklch(0.44 0 0);
-      white-space: nowrap;
-    }
-
-    dd { margin-inline-start: 0; }
-  }
-
-  /* Research direction */
-  .env-direction {
-    border-color: #2563eb !important;
-    background: #eff6ff !important;
-  }
-
-  /* Observation: neutral — descriptive, no strong claim */
-  .env-observation {
-    border-color: #6366f1 !important;
-    background: #f8faff !important;
-  }
-  .env-observation .callout-title { color: #3730a3; }
-
-  /* Warning: amber-red — caution/alert */
-  .env-warning {
-    border-color: #ef4444 !important;
-    background: #fef2f2 !important;
-  }
-  .env-warning .callout-title { color: #991b1b; }
-
-  /* Proposal: slate — formal suggestion */
-  .env-proposal {
-    border-color: #3b82f6 !important;
-    background: #eff6ff !important;
-  }
-  .env-proposal .callout-title { color: #1e40af; }
-
-  /* Key point: amber — takeaway emphasis */
-  .env-key-point {
-    border-color: #f59e0b !important;
-    background: #fffbeb !important;
-  }
-  .env-key-point .callout-title { color: #92400e; }
-
-  /* Model insight: violet — modeling-derived inference */
-  .env-model-insight {
-    border-color: #8b5cf6 !important;
-    background: #f5f3ff !important;
-  }
-  .env-model-insight .callout-title { color: #5b21b6; }
-
+  /* Epigraphs / blockquotes — theme blockquote width + subtle hue */
   :where(.epigraph, blockquote) {
-    border-inline-start: 3px solid var(--epigraph-border);
-    padding-block: 0.6em;
-    padding-inline: 1em;
-    margin-block: 1em;
-    background: var(--epigraph-bg);
+    border-inline-start: var(--bs-blockquote-border-width) solid var(--bs-gray-400);
+    background: var(--bs-light);
+    color: var(--bs-secondary-color);
     font-style: italic;
+    padding: 0.6em 1em;
   }
+
+  /* ch29 response marks — ✓/✗ icons, not prose */
+  .response-mark.positive { color: var(--bs-success); }
+  .response-mark.negative { color: var(--bs-danger); }
+
+  /* ── Glossary tooltips (custom popover) ── */
+  .gt, glossary-term { border-bottom: 1px dashed var(--bs-gray-400); cursor: help; color: inherit; display: inline; }
+  .gt:hover, .gt-active, glossary-term:hover, glossary-term.gt-active { border-bottom-color: var(--bs-link-color); color: var(--bs-link-color); }
+  .gt-icon, :is(.gt, glossary-term):not(:has(.gt-icon))::after {
+    inline-size: 11px; block-size: 11px; border-radius: 50%; background: var(--bs-gray-400);
+    color: var(--bs-white); font-size: 7px; font-weight: 700; line-height: 11px; text-align: center;
+    cursor: help; position: relative; top: -0.3em; content: '?';
+  }
+  .gt-icon { display: inline-block; margin-inline-start: 1px; user-select: none; }
+  :is(.gt, glossary-term):not(:has(.gt-icon))::after { display: inline-block; }
+  .gt:hover .gt-icon, .gt-active .gt-icon, glossary-term:hover .gt-icon, glossary-term.gt-active .gt-icon,
+  :is(.gt, glossary-term):hover::after, :is(.gt, glossary-term).gt-active::after { background: var(--bs-link-color); }
+
+  .gt-pop {
+    position: fixed; z-index: 99999; max-inline-size: min(90vw, 520px);
+    background: var(--bs-body-bg); border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius-lg); box-shadow: var(--bs-box-shadow);
+    padding: 12px 14px; font-size: 0.875rem; line-height: 1.5;
+    display: flex; flex-direction: column; gap: 4px;
+    opacity: 0; visibility: hidden; transform: translateY(4px);
+    transition: opacity .15s ease, visibility .15s ease, transform .15s ease;
+    pointer-events: none; overflow-wrap: break-word; word-break: break-word;
+    max-block-size: min(80vh, 600px); overflow-y: auto;
+  }
+  .gt-show { opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto; }
+
+  .gt-cat { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; color: var(--bs-secondary-color); }
+  .gt-term { font-weight: 700; font-size: 0.95rem; color: var(--bs-body-color); }
+  .gt-def { color: var(--bs-body-color); }
+
+  .gt-td {
+    font-size: 0.8rem; line-height: 1.45; color: var(--bs-body-color); margin: 2px 0; padding: 3px 6px;
+    background: var(--bs-light); border-left: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: 0 var(--bs-border-radius) var(--bs-border-radius) 0;
+  }
+  .gt-td b, .gt-dz-cat b { text-transform: uppercase; letter-spacing: 0.04em; }
+  .gt-td b { font-size: 0.65rem; }
+
+  .gt-dz-table { width: 100%; border-collapse: collapse; margin: 4px 0; font-size: 0.75rem; }
+  .gt-dz-table th { text-align: left; font-weight: 600; color: var(--bs-secondary-color); padding: 2px 4px; border-bottom: var(--bs-border-width) solid var(--bs-border-color); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .gt-dz-table td { padding: 3px 4px; vertical-align: top; border-bottom: var(--bs-border-width) solid var(--bs-border-color); line-height: 1.35; }
+  .gt-dz-dose { white-space: nowrap; color: var(--bs-secondary-color); width: 1%; }
+  .gt-dz-cat { white-space: nowrap; width: 1%; }
+  .gt-dz-cat b { font-size: 0.6rem; }
+  .gt-dz-mech { color: var(--bs-secondary-color); }
+  tr:only-child .gt-dz-dose.gt-dz-single { display: none; }
+
+  .gt-also, .gt-sources { font-size: 0.8rem; color: var(--bs-secondary-color); border-top: var(--bs-border-width) solid var(--bs-border-color); padding-top: 4px; margin-top: 2px; }
+  .gt-sources { font-size: 0.75rem; line-height: 1.6; }
+  .gt-sources a { color: var(--bs-link-color); text-decoration: none; }
+  .gt-sources a:hover { text-decoration: underline; }
+  .gt-pop b { color: var(--bs-emphasis-color); }
 }
 
 @layer utilities {
-  .unbulleted {
-    list-style-type: none;
-    padding-inline-start: 0;
-  }
-}
-
-/* ch29 response-mark decoration — ✓/✗ as coloured icons, not prose */
-.response-mark.positive { color: #2e7d32; }
-.response-mark.negative { color: #c62828; }
-
-/* ── Glossary tooltips ── */
-@layer components {
-  .gt,
-  glossary-term {
-    border-bottom: 1px dashed #6b7280;
-    cursor: help;
-    position: relative;
-    text-decoration: none;
-    color: inherit;
-    display: inline;
-  }
-  .gt:hover,
-  .gt-active,
-  glossary-term:hover,
-  glossary-term.gt-active {
-    border-bottom-color: #2563eb;
-    color: #2563eb;
-  }
-
-  .gt-icon {
-    display: inline-block;
-    inline-size: 11px;
-    block-size: 11px;
-    border-radius: 50%;
-    background: #94a3b8;
-    color: #fff;
-    font-size: 7px;
-    font-weight: 700;
-    line-height: 11px;
-    text-align: center;
-    margin-inline-start: 1px;
-    cursor: help;
-    user-select: none;
-    position: relative;
-    top: -0.3em;
-    font-style: normal;
-    content: '?';
-  }
-
-  .gt:not(:has(.gt-icon))::after,
-  glossary-term:not(:has(.gt-icon))::after {
-    display: inline-block;
-    inline-size: 11px;
-    block-size: 11px;
-    border-radius: 50%;
-    background: #94a3b8;
-    color: #fff;
-    font-size: 7px;
-    font-weight: 700;
-    line-height: 11px;
-    text-align: center;
-    cursor: help;
-    content: '?';
-    position: relative;
-    top: -0.3em;
-  }
-  .gt:hover .gt-icon,
-  .gt-active .gt-icon,
-  glossary-term:hover .gt-icon,
-  glossary-term.gt-active .gt-icon,
-  .gt:hover::after,
-  .gt-active::after,
-  glossary-term:hover::after,
-  glossary-term.gt-active::after {
-    background: #2563eb;
-  }
-
-  .gt-pop {
-    position: fixed;
-    z-index: 99999;
-    max-inline-size: min(90vw, 520px);
-    background: #f8fafc;
-    border: 1px solid #cbd5e1;
-    border-radius: 8px;
-    box-shadow: 0 4px 16px rgba(0,0,0,.12);
-    padding: 12px 14px;
-    font-size: 0.875rem;
-    line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(4px);
-    transition: opacity .15s ease, visibility .15s ease, transform .15s ease;
-    pointer-events: none;
-    overflow-wrap: break-word;
-    word-break: break-word;
-    max-block-size: min(80vh, 600px);
-    overflow-y: auto;
-  }
-
-  .gt-show {
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-    /* Allow taps on mobile inside the popup */
-    pointer-events: auto;
-  }
-
-  .gt-cat {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-weight: 600;
-    color: #64748b;
-  }
-
-  .gt-term {
-    font-weight: 700;
-    font-size: 0.95rem;
-    color: #0f172a;
-  }
-
-  .gt-def {
-    color: #334155;
-  }
-
-  .gt-td {
-    font-size: 0.8rem;
-    line-height: 1.45;
-    color: #475569;
-    margin: 2px 0;
-    padding: 3px 6px;
-    background: #f8fafc;
-    border-left: 3px solid #cbd5e1;
-    border-radius: 0 3px 3px 0;
-  }
-  .gt-td b {
-    text-transform: uppercase;
-    font-size: 0.65rem;
-    letter-spacing: 0.04em;
-  }
-
-  .gt-dz-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 4px 0;
-    font-size: 0.75rem;
-  }
-  .gt-dz-table th {
-    text-align: left;
-    font-weight: 600;
-    color: #475569;
-    padding: 2px 4px;
-    border-bottom: 1px solid #e2e8f0;
-    font-size: 0.65rem;
-    text-transform: uppercase;
-    letter-spacing: 0.04em;
-  }
-  .gt-dz-table td {
-    padding: 3px 4px;
-    vertical-align: top;
-    border-bottom: 1px solid #f1f5f9;
-    line-height: 1.35;
-  }
-  .gt-dz-dose { white-space: nowrap; color: #64748b; width: 1%; }
-  .gt-dz-cat { white-space: nowrap; width: 1%; }
-  .gt-dz-cat b { text-transform: uppercase; font-size: 0.6rem; letter-spacing: 0.04em; }
-  .gt-dz-mech { color: #475569; }
-
-  /* Single-zone: hide dose column, show compact */
-  .gt-dz-single + .gt-dz-cat + .gt-dz-mech { }
-  tr:only-child .gt-dz-dose.gt-dz-single { display: none; }
-
-  .gt-also {
-    font-size: 0.8rem;
-    color: #64748b;
-    border-top: 1px solid #e2e8f0;
-    padding-top: 4px;
-    margin-top: 2px;
-  }
-
-  .gt-sources {
-    font-size: 0.75rem;
-    color: #475569;
-    border-top: 1px solid #e2e8f0;
-    padding-top: 4px;
-    margin-top: 2px;
-    line-height: 1.6;
-  }
-  .gt-sources a {
-    color: #2563eb;
-    text-decoration: none;
-  }
-  .gt-sources a:hover {
-    text-decoration: underline;
-  }
-
-  .gt-pop b {
-    color: #1e293b;
-  }
+  .unbulleted { list-style-type: none; padding-inline-start: 0; }
 }
