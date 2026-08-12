@@ -119,7 +119,7 @@
       chosen to differ from the base callout they may ride on, so no two boxes
       share a color. */
    .env-hypothesis, .env-proposal, .env-direction { --box-accent: #d4af37; --box-accent-strong: #8d6d00; --box-bg: #fff6c9; --box-fg: #5d4a00; }
-   .env-speculation, .env-key-point { --box-accent: #e0642f; --box-accent-strong: #b4481e; --box-bg: #fde4d4; --box-fg: #7a2d0a; }
+   .env-speculation, .env-key-point { --box-accent: var(--bs-info); --box-accent-strong: #0079ab; --box-bg: var(--bs-info-bg-subtle); --box-fg: var(--bs-info-text-emphasis); }
    .env-recommendation, .env-achievement { --box-accent: #7a9b2d; --box-accent-strong: #557000; --box-bg: #eef3d8; --box-fg: #3f5200; }
    .env-open-question, .env-synthesis { --box-accent: var(--bs-teal); --box-accent-strong: #00825c; }
    .env-prediction, .env-model-insight { --box-accent: #2f6690; --box-accent-strong: #12405f; --box-bg: #d9e6f0; --box-fg: #173a54; }
@@ -196,7 +196,7 @@
   .registry-fields dd { color: var(--box-fg); margin: 0; }
 
   .registry-H  { --box-accent: #d4af37; --box-accent-strong: #8d6d00; --box-bg: #fff6c9; --box-fg: #5d4a00; }   /* hypothesis (gold) */
-  .registry-S  { --box-accent: #e0642f; --box-accent-strong: #b4481e; --box-bg: #fde4d4; --box-fg: #7a2d0a; }   /* speculation (coral) */
+  .registry-S  { --box-accent: var(--bs-info); --box-accent-strong: #0079ab; --box-bg: var(--bs-info-bg-subtle); --box-fg: var(--bs-info-text-emphasis); }   /* speculation (cyan) */
   .registry-OQ { --box-accent: var(--bs-teal);    --box-accent-strong: #00825c; }                                 /* open question (teal) */
   .registry-P  { --box-accent: #2f6690; --box-accent-strong: #12405f; --box-bg: #d9e6f0; --box-fg: #173a54; }   /* prediction (steel blue) */
 
