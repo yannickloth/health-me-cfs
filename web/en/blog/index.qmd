@@ -1,5 +1,6 @@
 ---
 title: "Blog"
+lang: en
 listing:
   contents: posts
   sort:
