@@ -127,3 +127,9 @@
 - **LOW-4 (post-exercise-only exosome signal):** FIXED — ch14d now notes the exosome IL-1β finding is reported after exercise, not at rest.
 - Citation integrity: verified (0 findings) — all @keys real, RR statistics match the paper.
 - SLOW-CONVERGENCE: not fired (one review pass, fast convergence).
+
+## Phase 12 / 13 status
+- Phase 12: changelog updated — Version 7.16 entry in `shared/changelog-tspo-pet-section.typ` (references @Aditi2026EncephalitisDementia @Granerod2017PostEncephalitis; clinical relevance MEDIUM; quality note none).
+- Phase 13: commits `be4ed54d` (content, 10 files) + `f9d90674` (docs, 8 files incl. Literature/reviews/Aditi PDF). Final build PASS (exit 0).
+- Epistemic checklist: all ✓. Quality flags: NONE. ch30: citation cross-ref only. Phase Ledger: all phases RAN or LEGIT-SKIP (zero OMISSION).
+- Post-commit tree: only foreign `web/en/blog/**/*.qmd` + `Literature/s41586-026-10740-z.pdf` remain (other streams' work) — left unstaged/untracked. MIXED-tree honored: no reset/rebase/amend, explicit-file-list staging/commit. Status: ✅ done.
