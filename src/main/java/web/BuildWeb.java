@@ -298,6 +298,24 @@ void main(String[] args) throws IOException, InterruptedException {
         System.out.println("  src/main/resources/" + gf + " -> web/" + gf);
     }
 
+    // --- Static HTML assets (redirects etc.) ---
+    System.out.println();
+    System.out.println("=== static html assets ===");
+    var htmlSrcDir = Path.of("src/main/html/web").toAbsolutePath().normalize();
+    int htmlCount = 0;
+    if (isDirectory(htmlSrcDir)) {
+        try (var stream = walk(htmlSrcDir)) {
+            for (var f : stream.filter(Files::isRegularFile).sorted().toList()) {
+                var rel = htmlSrcDir.relativize(f);
+                var dst = webRoot.resolve(rel);
+                createDirectories(dst.getParent());
+                copy(f, dst, REPLACE_EXISTING);
+                htmlCount++;
+            }
+        }
+    }
+    System.out.println("  " + htmlCount + " file(s) copied -> web/");
+
     System.out.println();
     System.out.println("Next: quarto render");
 }
