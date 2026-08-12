@@ -1,9 +1,9 @@
 @layer base, components, utilities;
 
-/* Every color, radius, shadow and spacing value below comes from the cosmo
-   theme's own `--bs-*` tokens. Custom hues are not needed: each semantic box
-   maps onto an existing cosmo hue. Tints and title text are derived from the
-   box's accent via `color-mix`, so nothing falls outside the theme palette. */
+/* Colors come from the cosmo theme's own `--bs-*` tokens. Each semantic box
+   maps onto an existing cosmo hue; tints and title text derive from the box's
+   accent via `color-mix`, so nothing falls outside the theme palette.
+   Micro-sizing inside the custom glossary popover is explicit CSS. */
 @layer base {
   body, p, li, dd, td, th { text-align: justify; hyphens: auto; }
   h1,h2,h3,h4,h5,h6, nav, .sidebar, pre, code,
@@ -25,6 +25,8 @@
   .env-clinical-finding, .env-observation, .env-finding {
     border-inline-start: 3px solid var(--box-accent);
     background: color-mix(in srgb, var(--box-accent) 8%, var(--bs-light));
+    padding: 0.8rem 1rem;
+    margin-block-end: 1rem;
   }
   .callout-warning, .callout-note, .callout-important, .callout-tip, .callout-caution,
   :is(.env-hypothesis, .env-proposal, .env-direction, .env-speculation, .env-key-point,
@@ -58,19 +60,49 @@
   .callout-tip       { --box-accent: var(--bs-info); }
   .callout-caution   { --box-accent: var(--bs-warning); }
 
+  /* Finding block — adjacent siblings get a gap */
+  .env-finding { border-radius: var(--bs-border-radius); }
+  .env-finding + .env-finding { margin-block-start: 1.5em; }
+  .env-finding-heading { font-weight: 600; margin-block-end: 0.35em; }
+  .env-finding-explanation { margin-block-end: 0.5em; }
+  .env-finding-fields {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2px 12px;
+    margin-block: 0;
+    font-size: 0.9em;
+  }
+  .env-finding-fields dt { font-weight: 500; color: var(--bs-secondary-color); white-space: nowrap; }
+  .env-finding-fields dd { margin-inline-start: 0; }
+
   /* Registry entry cards — reuse the same accent system */
   .registry-entry {
     border-inline-start: 3px solid var(--box-accent);
     background: color-mix(in srgb, var(--box-accent) 8%, var(--bs-light));
+    padding: 0.75rem 1rem 0.5rem;
+    margin-block-end: 1rem;
   }
+  .registry-header { display: flex; align-items: baseline; gap: 0.6em; margin-block-end: 0.5em; }
+  .registry-badge { font-size: 0.78em; font-weight: bold; padding: 0.15em 0.45em; white-space: nowrap; color: color-contrast(var(--box-accent) vs var(--bs-white), var(--bs-dark)); background: var(--box-accent); border-radius: var(--bs-border-radius); }
+  .registry-name { font-weight: bold; font-size: 0.95em; }
+  .registry-fields {
+    display: grid;
+    grid-template-columns: 7em 1fr;
+    gap: 0.2em 0.75em;
+    font-size: 0.88em;
+    margin: 0;
+  }
+  .registry-fields dt { font-weight: bold; color: var(--bs-secondary-color); padding-block-start: 0.1em; margin: 0; }
+  .registry-fields dd { margin: 0; }
+
   .registry-H  { --box-accent: var(--bs-primary); }   /* hypothesis */
   .registry-S  { --box-accent: var(--bs-warning); }   /* speculation */
   .registry-OQ { --box-accent: var(--bs-teal); }      /* open question */
-  .registry-P  { --box-accent: var(--bs-success); }   /* prediction-adjacent */
+  .registry-P  { --box-accent: var(--bs-info); }      /* prediction (mirrors env-prediction) */
 
-  /* Epigraphs / blockquotes — theme blockquote width + subtle hue */
+  /* Epigraphs / blockquotes — theme border width + subtle hue */
   :where(.epigraph, blockquote) {
-    border-inline-start: var(--bs-blockquote-border-width) solid var(--bs-gray-400);
+    border-inline-start: var(--bs-border-width) solid var(--bs-gray-400);
     background: var(--bs-light);
     color: var(--bs-secondary-color);
     font-style: italic;
