@@ -6,7 +6,7 @@ import { strict as assert } from 'node:assert';
 import test from 'node:test';
 
 const jsSource = fs.readFileSync('src/main/web/glossary-tooltip.js', 'utf8');
-const glossaryJson = JSON.parse(fs.readFileSync('src/main/resources/glossary.json', 'utf8'));
+const glossaryJson = JSON.parse(fs.readFileSync('src/main/resources/glossary-en.json', 'utf8'));
 const nonMetaKeys = Object.keys(glossaryJson).filter(k => k[0] !== '_');
 
 // ── Syntax check ──
@@ -45,7 +45,7 @@ test('Amitriptyline definition has no raw HTML injection chars', () => {
 });
 
 // ── Glossary JSON integrity ──
-test('glossary.json has required meta fields', () => {
+test('glossary-en.json has required meta fields', () => {
   assert.ok(glossaryJson._meta, '_meta exists');
   const fields = glossaryJson._meta.fields;
   assert.ok(fields.definition, 'meta.fields.definition');

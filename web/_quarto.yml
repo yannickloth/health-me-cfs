@@ -101,7 +101,7 @@ format:
     cite-method: citeproc
     include-after-body: glossary-tooltip.html
     resources:
-      - glossary.json
+      - glossary-en.json
       - glossary-fr.json
       - glossary-de.json
       - glossary-tooltip.js

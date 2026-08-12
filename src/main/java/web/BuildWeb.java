@@ -287,10 +287,10 @@ void main(String[] args) throws IOException, InterruptedException {
     }
     System.out.println("  " + jsCount + " file(s) copied");
 
-    // --- glossary.{json,fr,de}.json ---
+    // --- glossary.{en,fr,de}.json ---
     System.out.println();
-    System.out.println("=== glossary.json ===");
-    var glossaryFiles = new String[] { "glossary.json", "glossary-fr.json", "glossary-de.json" };
+    System.out.println("=== glossary.{en,fr,de}.json ===");
+    var glossaryFiles = new String[] { "glossary-en.json", "glossary-fr.json", "glossary-de.json" };
     for (var gf : glossaryFiles) {
         var gSrc = Path.of("src/main/resources/" + gf).toAbsolutePath().normalize();
         var gDst = webRoot.resolve(gf);
@@ -489,11 +489,11 @@ String resolveIncludes(Path file, Path srcRoot) throws IOException {
 }
 
 // --- Glossary QMD generation ---
-// Reads glossary.json directly to produce the QMD glossary page,
+// Reads glossary-en.json directly to produce the QMD glossary page,
 // bypassing the Typst regex converter which cannot handle data-driven files.
 
 void generateGlossaryQmd(Path outDir) throws IOException {
-    var glossarySrc = Path.of("src/main/resources/glossary.json").toAbsolutePath().normalize();
+    var glossarySrc = Path.of("src/main/resources/glossary-en.json").toAbsolutePath().normalize();
     var rawJson = readString(glossarySrc);
     var entries = parseGlossaryJson(rawJson);
 

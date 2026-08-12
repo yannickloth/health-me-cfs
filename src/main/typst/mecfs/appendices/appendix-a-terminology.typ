@@ -5,7 +5,7 @@
 
 This glossary defines medical, biochemical, immunological, and statistical terms used throughout this document. Terms are organized alphabetically. Where a term is used in a specialized sense specific to ME/CFS research, the ME/CFS-specific usage is indicated.
 
-#let glossary-data = json("../../../resources/glossary.json")
+#let glossary-data = json("../../../resources/glossary-en.json")
 
 // Categories excluded from this scientific glossary
 // (medication/supplement product categories belong in therapeutic chapters)

@@ -1,10 +1,10 @@
 // glossary-tooltip.js — <glossary-tooltips> custom element
-// Loads glossary.json, wraps matching terms in the DOM, renders hover/tap tooltips.
+// Loads glossary JSON, wraps matching terms in the DOM, renders hover/tap tooltips.
 // Usage: <glossary-tooltips></glossary-tooltips> anywhere in <body>
 
 (() => {
   const GLOSSARY_FILES = {
-    en: 'glossary.json',
+    en: 'glossary-en.json',
     fr: 'glossary-fr.json',
     de: 'glossary-de.json'
   };
@@ -501,7 +501,7 @@
           markTerms(document.body, glossary, buildGlossaryMeta(glossary));
           attachDocumentListeners();
         })
-        .catch(() => { _loading = false; console.warn('Glossary tooltips: could not fetch glossary.json'); });
+        .catch(() => { _loading = false; console.warn('Glossary tooltips: could not fetch glossary JSON'); });
     }
 
     disconnectedCallback() {

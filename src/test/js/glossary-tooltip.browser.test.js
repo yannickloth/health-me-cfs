@@ -12,7 +12,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = process.cwd();
 
-const gloss = JSON.parse(readFileSync(join(PROJECT_ROOT, 'src/main/resources/glossary.json'), 'utf8'));
+const gloss = JSON.parse(readFileSync(join(PROJECT_ROOT, 'src/main/resources/glossary-en.json'), 'utf8'));
 const pageHtml = readFileSync(join(__dirname, 'test-page.html'), 'utf8');
 const glossaryJs = readFileSync(join(PROJECT_ROOT, 'src/main/web/glossary-tooltip.js'), 'utf8');
 const stylesCss = readFileSync(join(PROJECT_ROOT, 'web/styles.css'), 'utf8');
@@ -29,7 +29,7 @@ function serve(port) {
             'href="../../../web/styles.css"',
             'href="/styles.css"'
           ));
-        } else if (p === '/glossary.json') {
+        } else if (p === '/glossary-en.json') {
           res.writeHead(200, { 'content-type': 'application/json' });
           res.end(JSON.stringify(gloss));
         } else if (p === '/glossary-tooltip.js') {
