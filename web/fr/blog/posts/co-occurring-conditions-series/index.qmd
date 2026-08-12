@@ -25,9 +25,9 @@ La série s'ouvre avec le MCAS — l'affection où vos cellules immunitaires se 
 
 Lisez les trois articles dans l'ordre :
 
-1. **[MCAS et EM/SFC : pourquoi votre corps réagit à rien](../mcas-mecfs-overview/index.qmd)** — ce qu'est le MCAS, pourquoi il apparaît après l'EM/SFC (pas avant), et la différence entre MCAS isolé et EM/SFC avec MCAS.
-2. **[Les antihistaminiques pour l'EM/SFC et le MCAS : H1 vs H2, et pourquoi votre médecin augmente la dose](../antihistamines-mcas-mecfs-treatment/index.qmd)** — les médicaments, l'histamine et ses récepteurs, et les stabilisateurs.
-3. **[Quand l'antihistaminique ne marche pas](../when-antihistamine-doesnt-work/index.qmd)** — les tests normaux, l'intolérance à l'histamine, les « variétés » de mastocytes, le cliquet d'amplification, et quoi faire ensuite.
+1. **[MCAS et EM/SFC : pourquoi votre corps réagit à rien](../mast-cell-mcas/mcas-mecfs-overview/index.qmd)** — ce qu'est le MCAS, pourquoi il apparaît après l'EM/SFC (pas avant), et la différence entre MCAS isolé et EM/SFC avec MCAS.
+2. **[Les antihistaminiques pour l'EM/SFC et le MCAS : H1 vs H2, et pourquoi votre médecin augmente la dose](../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd)** — les médicaments, l'histamine et ses récepteurs, et les stabilisateurs.
+3. **[Quand l'antihistaminique ne marche pas](../mast-cell-mcas/when-antihistamine-doesnt-work/index.qmd)** — les tests normaux, l'intolérance à l'histamine, les « variétés » de mastocytes, le cliquet d'amplification, et quoi faire ensuite.
 
 ---
 
@@ -35,7 +35,7 @@ Lisez les trois articles dans l'ordre :
 
 À venir dans des entrées ultérieures, chacune suivant le même modèle :
 
-1. **[Le POTS et le cœur qui s'emballe quand vous vous levez](../pots-mecfs/index.qmd)** — l'intolérance orthostatique et le volume sanguin *(ensuite).*
+1. **Le POTS et le cœur qui s'emballe quand vous vous levez** — l'intolérance orthostatique et le volume sanguin *(ensuite).*
 2. **L'hypermobilité et la connexion au tissu conjonctif** — la triade hEDS / POTS / MCAS.
 3. **La neuropathie des petites fibres — quand le câblage lui-même est défectueux** — les nerfs endommagés qui portent la douleur et le cœur qui s'emballe.
 4. **La douleur qui n'est pas musculaire** — la douleur de type fibromyalgique et la sensibilisation nerveuse.

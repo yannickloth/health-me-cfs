@@ -1,0 +1,74 @@
+---
+title: "The Conditions That Travel With ME/CFS — a Series"
+description: "ME/CFS rarely travels alone. Mast cell activation, POTS, hypermobility, fibromyalgia, gut problems, and migraine all co-occur far more often than chance. This is the landing page for a plain-language series on each co-occurring condition: what it is, how it relates to ME/CFS, the treatments, and — always — what it means if the treatment doesn't work."
+author: "Yannick Loth"
+date: "2026-08-10"
+categories: [ME/CFS, Series, Comorbidities]
+---
+
+ME/CFS rarely shows up alone. In practice, it travels with a constellation of other conditions — mast cell activation, postural orthostatic tachycardia syndrome (POTS), hypermobility syndromes, small fiber neuropathy, chronic infection, autoimmunity, gut problems, and fibromyalgia-pattern pain. The primary document behind this site calls the tightest cluster of seven the *Septad*: interacting pathophysiologies that co-occur and feed one another. This series is **informed by** that idea but a little broader — it covers those seven plus the fibromyalgia-pain pattern, and it closes with a piece on how the amplifiers chain into a single picture.
+
+This series explains one co-occurring condition at a time, in plain language, for a reader who is sick and tired of jargon. Each article follows the same shape:
+
+1. **What it feels like** — a short, honest vignette.
+2. **What it is** — the mechanism, in ordinary words.
+3. **How it relates to ME/CFS** — including whether it's a *cause*, a *downstream amplifier*, or a *coincidental* companion (often: amplifier).
+4. **The treatments** — what they are, how they work.
+5. **What it means if the treatment doesn't work** — the honest part.
+
+---
+
+## Part 1: Mast Cell Activation and Histamine
+
+The series opens with MCAS — the condition where your immune cells fire without a trigger, flushing and reacting to dust and touch. It's a natural first entry because it's common, it's reversible in part, and it's emblematic of the whole series' core message: *most of these are amplifiers, not causes, and treating an amplifier can still be worth doing.*
+
+Read the three articles in order:
+
+1. **[MCAS and ME/CFS: Why Your Body Reacts to Nothing](../mast-cell-mcas/mcas-mecfs-overview/index.qmd)** — what MCAS is, why it appears after ME/CFS (not before), and the difference between MCAS-alone and ME/CFS-with-MCAS.
+2. **[Antihistamines for ME/CFS and MCAS: H1 vs H2, and Why Your Doctor Raises the Dose](../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd)** — the medications, histamine and its receptors, and the stabilisers.
+3. **[When the Antihistamine Doesn't Work](../mast-cell-mcas/when-antihistamine-doesnt-work/index.qmd)** — normal tests, histamine intolerance, the "flavours" of mast cells, the amplification ratchet, and what to do next.
+
+---
+
+## Part 2: Postural Orthostatic Tachycardia (POTS)
+
+The series continues with POTS — the heart that races when you stand, the blood volume that is paradoxically low, and the brain that loses blood flow even when vitals look normal. POTS is the second most common co-occurring amplifier; it directly pairs with the mast-cell orthostatic links and the connective-tissue problems covered next.
+
+Read the two articles in order:
+
+1. **[POTS and the Heart That Races When You Stand](../autonomic-cardiovascular/pots-mecfs/index.qmd)** — what POTS is, the renin-aldosterone paradox, the cerebral blood flow data, and the difference between POTS-alone and ME/CFS-with-POTS.
+2. **[Treatments for POTS and Dysautonomia in ME/CFS — and What It Means When They Don't Work](../autonomic-cardiovascular/pots-mecfs-treatment/index.qmd)** — salt, compression, fludrocortisone, midodrine, ivabradine, beta-blockers, pyridostigmine, the SSRI pitfall, expected results, and the honest failure discussion.
+
+---
+
+## Part 3: Hypermobility and the Connective-Tissue Connection
+
+The triad comes together: hypermobility completes the POTS–MCAS–hEDS cluster. This entry explains why flexible tissue does not hold together — how loose connective tissue drives blood pooling, mast-cell firing, and the five mechanistic pathways that link it to systemic illness in ME/CFS. Unlike MCAS and POTS, there is no drug for collagen; the treatments are mechanical, not pharmacological.
+
+Read the article:
+
+1. **[Hypermobile EDS, Flexible Joints, and the Connective-Tissue Connection to ME/CFS](../connective-tissue/hypermobility-heds/index.qmd)** — what hEDS is, why it has no identified genetic defect, the five mechanistic pathways (vascular laxity, CCI, ECM–mast cell, purinergic, SFN), hEDS-alone vs hEDS-on-ME/CFS, physiotherapy/bracing/CCI surgery, and the honest failure discussion.
+
+---
+
+## Planned for this series
+
+Coming in later entries, each following the same template:
+
+1. **Small fiber neuropathy — when the wiring itself is wrong** — the damaged nerves that carry the pain and the racing heart *(next).*
+2. **Small fiber neuropathy — when the wiring itself is wrong** — the damaged nerves that carry the pain and the racing heart.
+3. **The pain that isn't muscle** — fibromyalgia-pattern pain and nerve sensitisation.
+4. **The gut that misbehaves** — GI dysmotility, SIBO, and food reactions.
+5. **Chronic infection** — viral reactivation and tick-borne disease.
+6. **Autoimmunity** — antibodies that talk to the nervous system.
+7. **Chained together** — how the amplifiers become one picture.
+
+The planned full series (topics, priorities, source anchors, and falsifiable predictions) lives in [`_series-plan.md`](../../_series-plan.md).
+
+---
+
+## A note on honesty
+
+Every article in this series distinguishes three things carefully: what is *confirmed* by evidence, what is a *promising hypothesis*, and what is *an individual patient's experience*. It also keeps the two ME/CFS situations distinct — a co-occurring condition on its own vs the same condition sitting on top of ME/CFS — because the treatment goal and the meaning of a failure usually differ (while acknowledging this is a clinical, judgment-dependent boundary rather than a hard biological wall).
+
+The underlying science is fully cited in the primary document — see the MCAS overviews and the cross-disease chapter for source material if you want the detail behind these plain-language pieces [@Loth2026website].

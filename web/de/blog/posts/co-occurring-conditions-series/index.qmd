@@ -25,9 +25,9 @@ Die Serie beginnt mit MCAS — der Erkrankung, bei der Ihre Immunzellen ohne Aus
 
 Lesen Sie die drei Artikel in Reihenfolge:
 
-1. **[MCAS und ME/CFS: warum Ihr Körper auf nichts reagiert](../mcas-mecfs-overview/index.qmd)** — was MCAS ist, warum es nach ME/CFS auftritt (nicht davor), und der Unterschied zwischen alleinigem MCAS und ME/CFS-mit-MCAS.
-2. **[Antihistaminika bei ME/CFS und MCAS: H1 vs. H2, und warum Ihr Arzt die Dosis erhöht](../antihistamines-mcas-mecfs-treatment/index.qmd)** — die Medikamente, Histamin und seine Rezeptoren, und die Stabilisatoren.
-3. **[Wenn das Antihistaminikum nicht wirkt](../when-antihistamine-doesnt-work/index.qmd)** — normale Tests, Histaminintoleranz, die „Sorten" von Mastzellen, die Verstärkungsratsche und was als Nächstes zu tun ist.
+1. **[MCAS und ME/CFS: warum Ihr Körper auf nichts reagiert](../mast-cell-mcas/mcas-mecfs-overview/index.qmd)** — was MCAS ist, warum es nach ME/CFS auftritt (nicht davor), und der Unterschied zwischen alleinigem MCAS und ME/CFS-mit-MCAS.
+2. **[Antihistaminika bei ME/CFS und MCAS: H1 vs. H2, und warum Ihr Arzt die Dosis erhöht](../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd)** — die Medikamente, Histamin und seine Rezeptoren, und die Stabilisatoren.
+3. **[Wenn das Antihistaminikum nicht wirkt](../mast-cell-mcas/when-antihistamine-doesnt-work/index.qmd)** — normale Tests, Histaminintoleranz, die „Sorten" von Mastzellen, die Verstärkungsratsche und was als Nächstes zu tun ist.
 
 ---
 
@@ -35,7 +35,7 @@ Lesen Sie die drei Artikel in Reihenfolge:
 
 Später in weiteren Einträgen, jeder nach derselben Vorlage:
 
-1. **[POTS und das Herz, das rast, wenn Sie aufstehen](../pots-mecfs/index.qmd)** — orthostatische Intoleranz und Blutvolumen *(als Nächstes).*
+1. **POTS und das Herz, das rast, wenn Sie aufstehen** — orthostatische Intoleranz und Blutvolumen *(als Nächstes).*
 2. **Hypermobilität und die Bindegewebsverbindung** — die hEDS / POTS / MCAS-Triade.
 3. **Small-Fiber-Neuropathie — wenn die Verkabelung selbst falsch ist** — die beschädigten Nerven, die den Schmerz und das rasende Herz tragen.
 4. **Der Schmerz, der kein Muskel ist** — fibromyalgieartiger Schmerz und Nervensensibilisierung.
