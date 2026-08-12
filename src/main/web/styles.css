@@ -119,7 +119,8 @@
    .env-recommendation, .env-achievement { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); }
    .env-open-question, .env-synthesis { --box-accent: var(--bs-teal); --box-accent-strong: #00825c; }
    .env-prediction, .env-model-insight { --box-accent: var(--bs-info); --box-accent-strong: #0079ab; }
-   .env-clinical-finding, .env-observation { --box-accent: var(--bs-indigo); --box-accent-strong: #4a00d8; }
+   .env-clinical-finding { --box-accent: var(--bs-indigo); --box-accent-strong: #4a00d8; }
+   .env-observation      { --box-accent: #9b7cc4; --box-accent-strong: #73508f; --box-bg: #f0e8f7; --box-fg: #5a4371; }
    .env-limitation, .env-warning { --box-accent: var(--bs-danger); --box-accent-strong: #c42f2a; --box-bg: var(--bs-danger-bg-subtle); }
    .env-finding { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); }
 
@@ -131,17 +132,18 @@
    .env-recommendation, .env-achievement,
    .env-open-question, .env-synthesis,
    .env-prediction, .env-model-insight,
-   .env-clinical-finding, .env-observation,
+   .env-clinical-finding,
    .env-limitation, .env-warning, .env-finding {
      --box-fg: color-mix(in srgb, var(--box-accent) 72%, var(--bs-black));
    }
 
    /* Env families without a dedicated -bg-subtle token: tint their accent.
-      (env-hypothesis/proposal/direction share note's exact colours above.) */
+      (env-hypothesis/proposal/direction share note's exact colours above;
+      env-observation has its own mauve palette.) */
    .env-speculation, .env-key-point,
    .env-open-question, .env-synthesis,
    .env-prediction, .env-model-insight,
-   .env-clinical-finding, .env-observation {
+   .env-clinical-finding {
      --box-bg: color-mix(in srgb, var(--box-accent) 15%, var(--bs-white));
    }
 
