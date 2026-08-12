@@ -1054,7 +1054,7 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
 
 **Agent:** main session | **Model:** deepseek-v4-flash (mechanical check — cheap)
 
-**Purpose:** Scan newly added prose for undefined acronyms, medication names, and key terms that lack a tooltip entry in `src/main/typst/mecfs/lib/glossary.json`. Prevent new content from introducing orphaned terminology that readers can't hover-to-explain.
+**Purpose:** Scan newly added prose for undefined acronyms, medication names, and key terms that lack a tooltip entry in `src/main/resources/glossary-en.json`. Prevent new content from introducing orphaned terminology that readers can't hover-to-explain.
 
 **Trigger:** Always run after Phase 5a (content final). Skips if no `.qmd` or `.typ` files were modified in Phases 3–5.
 
@@ -1069,11 +1069,11 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
    ```
    Also grep for medication/generic names and long technical terms (lowercase, multi-word) that appear in the new prose.
 
-2. Cross-check against `src/main/typst/mecfs/lib/glossary.json` keys:
+2. Cross-check against `src/main/resources/glossary-en.json` keys:
    ```bash
    python3 -c "
    import json
-   g = json.load(open('web/glossary.json'))
+   g = json.load(open('src/main/resources/glossary-en.json'))
    with open('tmp/new-terms.txt') as f:
        terms = set(line.strip() for line in f if len(line.strip()) >= 3 and not line.isspace())
    missing = sorted(t for t in terms if t not in g)
@@ -1089,14 +1089,14 @@ Update integrated count in root `hypotheses-trees.md` subtree index row.
    - Skip: file-extensions-as-words (.PDF, .CSV)
    - Keep only: biomedical acronyms, medication names, methodological/statistical abbreviations, disease names, anatomical abbreviations, gene/protein symbols, pathway names
 
-4. **For each remaining term, add to `src/main/typst/mecfs/lib/glossary.json`:**
+4. **For each remaining term, add to `src/main/resources/glossary-en.json`:**
    - `label`: the term itself
    - `category`: classify (medication, supplement, enzyme, pathway, condition, measurement, method, etc.)
    - `definition`: one-sentence explanation accessible to an educated non-specialist
    - If medication: add `generic`, `brand`, `class`, `rx` fields following existing schema
    - Use bracket notation for `class` in JSON (JS reserved word)
 
-5. **For medications found in prose but in `glossary.json` only as bare molecules** (e.g., "Naltrexone" defined as a molecule but "LDN" is the clinical usage entry), ensure both forms are covered.
+5. **For medications found in prose but in `glossary-en.json` only as bare molecules** (e.g., "Naltrexone" defined as a molecule but "LDN" is the clinical usage entry), ensure both forms are covered.
 
 6. Set `category` to `treatment` for non-drug interventions (CBT, GET, HBOT, pacing, etc.) that don't fit medication/supplement.
 
