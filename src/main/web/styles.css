@@ -125,7 +125,7 @@
    .env-prediction, .env-model-insight { --box-accent: #2f6690; --box-accent-strong: #12405f; --box-bg: #d9e6f0; --box-fg: #173a54; }
    .env-clinical-finding { --box-accent: var(--bs-indigo); --box-accent-strong: #4a00d8; }
    .env-observation      { --box-accent: #9b7cc4; --box-accent-strong: #73508f; --box-bg: #f0e8f7; --box-fg: #5a4371; }
-   .env-limitation { --box-accent: #7a5433; --box-accent-strong: #5a3a1e; --box-bg: #efe2d3; --box-fg: #4a2f15; }
+   .env-limitation { --box-accent: var(--bs-warning); --box-accent-strong: #c94600; --box-bg: var(--bs-warning-bg-subtle); --box-fg: var(--bs-warning-text-emphasis); }
    .env-warning    { --box-accent: var(--bs-danger); --box-accent-strong: #c42f2a; --box-bg: var(--bs-danger-bg-subtle); --box-fg: var(--bs-danger-text-emphasis); }
    .env-finding { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); }
 
