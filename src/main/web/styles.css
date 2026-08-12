@@ -216,9 +216,10 @@
 
   /* ── Glossary tooltips (custom popover) ── */
   /* Underline + "?" badge follow the box's text colour (--box-fg) when inside
-     an env/callout box, else fall back to the theme primary blue. */
-  .gt, glossary-term { border-bottom: 1.5px dashed var(--box-fg, var(--bs-primary)); cursor: help; color: inherit; display: inline; }
-  /* The "?" badge uses the same colour as the underline (box text in-box, theme
+     an env/callout box, else fall back to #0079ab (the tip callout title
+     background — a lighter, more vivid blue than the dark primary). */
+  .gt, glossary-term { border-bottom: 1.5px dashed var(--box-fg, #0079ab); cursor: help; color: inherit; display: inline; }
+  /* The "?" badge uses the same colour as the underline (box text in-box, tip
      blue otherwise), with a white glyph. Raised slightly to sit level with
      surrounding text. */
   .gt-icon, :is(.gt, glossary-term):not(:has(.gt-icon))::after {
@@ -226,7 +227,7 @@
     align-items: center;
     justify-content: center;
     inline-size: 12px; block-size: 12px; border-radius: 50%;
-    background: var(--box-fg, var(--bs-primary));
+    background: var(--box-fg, #0079ab);
     color: var(--bs-white); font-size: 9px; line-height: 1;
     cursor: help; vertical-align: 0.5em;
   }
