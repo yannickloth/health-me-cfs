@@ -10,7 +10,7 @@ It's 4 p.m. again. Your face flushes, your nose runs, your throat feels tight �
 
 Now add the rest of ME/CFS: the crashing fatigue, the brain fog, the unrefreshing sleep. Somewhere in the middle of it, your doctor or your online support group says the word *MCAS* and hands you an antihistamine and tells you to "just try it."
 
-This article is the conceptual overview. What MCAS actually is, how mast cells can fire with no allergen involved, whether MCAS causes ME/CFS (it almost never does), and the difference between having MCAS on its own and having it *on top of* ME/CFS. The treatments — the H1 and H2 antihistamines, dosing, and stabilisers — are covered in a separate companion article, and the honest "what if the drugs don't work" discussion in a third.
+This article is the conceptual overview. What MCAS actually is, how mast cells can fire with no allergen involved, whether MCAS causes ME/CFS (it almost never does), and the difference between having MCAS on its own and having it *on top of* ME/CFS. The treatments — the H1 and H2 antihistamines, dosing, and stabilisers — are covered in the [companion treatment article](../antihistamines-mcas-mecfs-treatment/index.qmd), and the honest "what if the drugs don't work" discussion in the [companion article on treatment failure](../when-antihistamine-doesnt-work/index.qmd).
 
 ---
 
@@ -124,6 +124,6 @@ Many describe it as starting in the skin: unexplained hives, flushing, an itch t
 
 MCAS is real and a meaningful subset of people with ME/CFS carry it [@Rohrhofer2025mecfsmast]. The honest read of the data is that it is most often **later-arriving** — detected after ME/CFS begins — which cools any "hidden cause" story, though detection-order limits mean even that is provisional. Whether it then *worsens* the illness (an amplifier) or largely *co-exists* with it (a bystander) is not yet settled by the evidence; separating the two would require a controlled trial showing improvement on core ME/CFS outcomes, not relief of mast-cell symptoms alone. The MCAS-alone vs ME/CFS-with-MCAS distinction matters because the treatment goal differs, but it is a clinical distinction, not a hard biological wall. Treating mast cells is reasonable to try *as part of the picture*; keeping both the "amplifier" and "bystander" readings open is what keeps this honest.
 
-**Next in this mini-series:** how the actual medications work — the difference between H1 and H2 antihistamines, why your doctor raises the dose, and the mast-cell stabilisers [see the companion article on treatment]. And when the drugs don't work, what that does and doesn't tell you [companion article on treatment failure].
+**Next in this mini-series:** how the actual medications work — the difference between H1 and H2 antihistamines, why your doctor raises the dose, and the mast-cell stabilisers [see the companion article on treatment](../antihistamines-mcas-mecfs-treatment/index.qmd). And when the drugs don't work, what that does and doesn't tell you [companion article on treatment failure](../when-antihistamine-doesnt-work/index.qmd).
 
 For the comprehensive, fully-cited picture of how mast cells are weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

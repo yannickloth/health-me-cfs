@@ -1,0 +1,123 @@
+---
+title: "Fibromyalgia Article 2: Treating Fibromyalgia-Pattern Pain in ME/CFS — LDN, SNRIs, COX-2 Inhibitors, PEA, and What It Means When the Pain Doesn't Stop"
+description: "A plain-language guide to treating fibromyalgia-pattern pain in ME/CFS — low-dose naltrexone for microglial TLR4, SNRIs for descending inhibition, gabapentinoids for central amplification, COX-2 inhibitors for the PGE2/TRPV1 loop, PEA for multi-modal pain, NMDA antagonists for severe cases, expected results, and the honest 'what if nothing helps' discussion."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Treatment, Fibromyalgia, Pain, ME/CFS]
+---
+
+If you have ME/CFS and fibromyalgia-pattern pain, the standard fibromyalgia treatment guidelines — SNRIs, gabapentinoids, graded exercise — were not written for a patient whose pain amplifies after minimal exertion. The drugs that work in pure fibromyalgia may cause sedation and cognitive slowing that are proportionally more costly when brain fog is already present. And some of the most effective treatments for fibromyalgia pain — LDN, PEA, COX-2 inhibitors — work through mechanisms that are particularly relevant to the ME/CFS overlap.
+
+This article explains the treatment architecture. For the conceptual background — what central sensitisation is, the TRPV1/TRPA1 channels, and the nociplastic-neuropathic hybrid — see the [companion overview article](../fibromyalgia-pattern-pain/index.qmd).
+
+---
+
+## First, a plain warning
+
+*Everything below is a conversation to have with a clinician, not self-medication. LDN is a compounded medication requiring a prescription. COX-2 inhibitors have cardiovascular and renal risks. Gabapentinoids cause physiological dependence. NMDA antagonists (ketamine) are controlled substances requiring supervised administration. Work with a pain specialist who understands ME/CFS.*
+
+---
+
+## The treatment architecture
+
+### Low-dose naltrexone (LDN): the best first step for the overlap
+
+LDN at 1–4.5 mg daily is the single most mechanistically coherent treatment for fibromyalgia-pattern pain in ME/CFS. Naltrexone is an opioid antagonist at standard doses (50 mg), but at low doses it paradoxically reduces pain through a different mechanism: **microglial TLR4 blockade**.
+
+Microglia — the brain's immune cells — express toll-like receptor 4 (TLR4). When TLR4 is activated by DAMPs from tissue stress, LPS from gut permeability, or inflammatory signals, microglia release pro-inflammatory cytokines that sensitise nearby neurons in the spinal cord and brain — the cellular basis of central sensitisation. LDN blocks TLR4 signalling on microglia, reducing this neuroinflammatory amplification [@Polo2019LDN].
+
+In fibromyalgia, LDN has trial evidence: a 2019 RCT showed significant pain reduction vs placebo, with a favourable side-effect profile. In ME/CFS, the evidence is uncontrolled patient surveys — but the mechanism (TLR4 blockade on primed microglia) is directly relevant to both the central-sensitisation component and the PEM-driven microglial re-activation. LDN is generally well tolerated — vivid dreams and initial insomnia are the most common side effects, mitigated by taking it in the morning rather than at bedtime. Start at 0.5–1.5 mg and titrate slowly over weeks.
+
+### SNRIs: duloxetine and milnacipran
+
+Duloxetine (30–60 mg daily) boosts norepinephrine and serotonin in the descending inhibitory pain pathways. It has Cochrane-level evidence for fibromyalgia pain. In ME/CFS, the same pharmacology that improves pain may worsen the "tired-but-wired" state at initiation — SNRIs can be activating, with initial insomnia, anxiety, and nausea that settle over 2–4 weeks. Start at 30 mg, reassess at 4 weeks, and stop if activation persists.
+
+Milnacipran is approved for fibromyalgia but is more noradrenergic, which may be too activating for the ME/CFS autonomic profile. Duloxetine is the safer default.
+
+### Gabapentinoids (pregabalin, gabapentin)
+
+Pregabalin (150–450 mg daily in divided doses) has the strongest fibromyalgia evidence among the gabapentinoids. It reduces the calcium-dependent neurotransmitter release from hyper-excitable central neurons — a different mechanism from the SNRIs. The sedation and cognitive-slowing side effects are the rate-limiting factor in ME/CFS. Start low (pregabalin 25–50 mg at bedtime) and titrate slowly. The honest outcome in many ME/CFS patients is that the maximum tolerated dose is below the effective dose for pain — and that is a pharmacological access problem, not a patient compliance problem.
+
+### COX-2 inhibitors: breaking the PGE₂/TRPV1 loop
+
+If the COX-2/PGE₂/TRPV1 feed-forward loop is active — and the evidence that it is comes from the heat-hyperalgesia described by patients — then COX-2 inhibition (celecoxib 100–200 mg twice daily, etoricoxib) should reduce PGE₂ production and break the loop. The prediction is specific: COX-2 inhibition should reduce resting burning pain and heat hypersensitivity without necessarily improving fatigue or PEM — because the COX-2 loop is a pain amplifier, not an energy-failure mechanism.
+
+**Practical considerations.** COX-2 inhibitors have cardiovascular risks with long-term use and should not be combined with other NSAIDs. They are a timed trial for the COX-2/TRPV1-predominant pain phenotype, not a chronic maintenance strategy. The honest limitation: no ME/CFS-specific COX-2 trial exists, and the evidence is mechanistic, not clinical.
+
+### Palmitoylethanolamide (PEA): multi-modal, low-risk
+
+PEA is an endogenous fatty-acid amide that acts through PPAR-α and indirectly on the endocannabinoid system. A 2025 meta-analysis found PEA effective for nociceptive, neuropathic, AND nociplastic pain — an unusually broad profile. It reduces mast-cell degranulation, microglial activation, and peripheral nerve sensitisation — all three mechanisms relevant to ME/CFS pain [@Vina2025pea].
+
+PEA is generally well tolerated (mild GI upset in a minority), available without prescription in many countries, and has no drug-drug interactions of significance. The usual dose is 300–600 mg twice daily. The evidence is strongest for chronic pelvic pain and neuropathic compression syndromes; the extension to fibromyalgia-pain in ME/CFS is mechanistically plausible but not directly trialled. The low risk and broad mechanism profile make it a reasonable early step in the treatment ladder.
+
+### NMDA antagonists: ketamine and memantine
+
+For severe, treatment-resistant pain driven by central wind-up (enhanced temporal summation on QST), NMDA-receptor blockade is the most direct mechanism. **Low-dose ketamine** infusions (0.5 mg/kg over 40 minutes, typically a series of 3–5 infusions over 2 weeks) produce rapid pain relief in fibromyalgia — but the relief is temporary (days to weeks), and the dissociative side effects (depersonalisation, hallucinations, cognitive fragmentation) are a poor fit for ME/CFS patients who already experience brain fog and sensory sensitivity [@Walitt2021KetamineFibro].
+
+**Memantine** (10–20 mg daily, titrated slowly) is an oral NMDA antagonist with a milder side-effect profile. It is used in Alzheimer's disease and has case-series evidence for fibromyalgia. In ME/CFS, the rationale extends to reducing the metabolic cost of sensitised pain processing — but memantine can cause brain fog, dizziness, and agitation at initiation, and the therapeutic window in ME/CFS is narrow. It is an option for the patient who has failed LDN, SNRIs, and gabapentinoids, and who has documented wind-up on QST.
+
+---
+
+## An example structured trial
+
+*This is an example to give your clinician something to work from — not a self-prescription.*
+
+Start with LDN 0.5–1.5 mg at bedtime, titrate to 4.5 mg over 4–8 weeks. Reassess the single target symptom — resting burning pain, tender-point sensitivity, or post-exertional pain amplification — at 12 weeks. **If no benefit at 4.5 mg, stop** — doses above 4.5 mg lose the TLR4-selective effect.
+
+If LDN produces partial benefit, add celecoxib 200 mg daily for 2 weeks as a diagnostic probe. If burning pain and heat sensitivity improve within 2 weeks, the COX-2/PGE₂/TRPV1 loop is active — but prolonged COX-2 inhibition carries cardiovascular risk, so use it to confirm the mechanism and consider intermittent rather than continuous dosing. If celecoxib has no effect at 2 weeks, stop — the loop is not the dominant amplifier.
+
+If LDN + celecoxib have both been trialled, add an SNRI (duloxetine 30 mg, titrate to 60 mg over 4 weeks) or pregabalin (25–50 mg at bedtime, titrate to the maximum tolerated dose). Reassess at 8 weeks. **Stop if sedation or activation prevents reaching an effective dose** — the therapeutic window in ME/CFS is narrower than in pure fibromyalgia, and a null result at the maximum tolerated dose is a valid trial.
+
+Add PEA 300–600 mg twice daily as a low-risk adjunct at any point in the sequence. Its broad-spectrum mechanism (mast-cell stabilisation, microglial modulation, peripheral-sensitisation reduction) makes it complementary to LDN and SNRIs rather than redundant. Reassess at 8 weeks.
+
+Only add one intervention at a time. The goal is to find the combination that reduces pain enough to improve function without adding sedation or cognitive slowing that worsens the core illness. The structured-trial architecture is the only way to know what each drug contributes.
+
+---
+
+## Expected results
+
+- **LDN takes weeks, not days.** The anti-microglial effect builds gradually. Titrate to 4.5 mg over 4–8 weeks; reassess at 12 weeks. Vivid dreams and initial insomnia are common and usually resolve. If no benefit at 4.5 mg after 12 weeks, stop — LDN has a sharp dose-response curve, and doses above 4.5 mg lose the TLR4-selective effect and enter standard opioid-antagonist territory.
+- **SNRIs and gabapentinoids have a therapeutic lag and a side-effect cost.** The effective dose for pain is often higher than the starting dose. A drug stopped at 2 weeks because of sedation was never given a fair trial — but a drug that causes intolerable sedation at the lowest dose is a genuine failure and should be stopped.
+- **COX-2 inhibitors work quickly (days) or not at all.** If celecoxib reduces burning pain within a week, the COX-2/PGE₂/TRPV1 loop is active. If it does nothing after 2 weeks, the loop is probably not the dominant amplifier, and prolonged COX-2 inhibition carries cardiovascular risk — stop.
+- **PEA is slow and subtle.** Expect gradual improvement over 4–8 weeks, not dramatic relief. The benefit, if it comes, is often described as "less sensitised" rather than "less pain" — a reduction in the amplification rather than the signal.
+- **Partial response is the most common outcome.** Pain reduced from 8/10 to 5/10 on LDN + PEA, with SNRIs adding a further point but causing unacceptable side effects — that is a real-world treatment result, not a failure.
+
+---
+
+## What it means if the treatment does not help
+
+**One: failed LDN does not disprove central sensitisation.** LDN blocks microglial TLR4 — one pathway among several. If the dominant mechanism is deficient descending inhibition (low CSF norepinephrine), an SNRI may help where LDN did not.
+**Two: sedation may prevent reaching an effective gabapentinoid dose.** The maximum tolerated dose in ME/CFS may be below the analgesic dose. This is a pharmacological access problem, not evidence that the pain is not central.
+**Three: the PEM-driven re-sensitisation loop may overwhelm the treatment.** If every minor exertion triggers an ASIC3/P2X4/TLR4 re-sensitisation cascade, then even effective medications are fighting a moving target. The pain management cannot succeed if the energy envelope is not respected — pacing is not an alternative to medication; it is the condition under which medication has a chance to work.
+**Four: a sequence of well-run trials (LDN, SNRI, gabapentinoid, PEA, COX-2 inhibitor) with no benefit is genuine evidence that the available pharmacology is not sufficient.** That is a limitation of current medicine, not a verdict on the pain being "psychological." It means the focus shifts to non-pharmacological strategies (pacing, graded sensory exposure, cognitive strategies) and radical energy conservation — not because the pain is not real, but because the drugs are not adequate.
+
+---
+
+## The falsifiable predictions
+
+- **If LDN reduces pain in ME/CFS more in the PEM-amplified pain subgroup (pain worsens 12–48h post-exertion) than in the stable-pain subgroup**, the TLR4-driven PEM re-sensitisation is clinically relevant [@Loth2026website].
+- **If celecoxib reduces heat hyperalgesia on QST but does not improve VO₂ peak or PEM threshold**, the COX-2/PGE₂/TRPV1 loop is a pain amplifier, not an energy-failure mechanism — consistent with the nociplastic-amplifier model.
+- **If TRPA1 antagonists reduce post-exertional pain more than baseline pain**, the oxidative-stress-to-TRPA1 pathway is a PEM-specific pain mechanism.
+- **If fibromyalgia-only patients (no ME/CFS) show normal exercise muscle perfusion on NIRS while ME/CFS+fibromyalgia patients show impaired perfusion**, the vascular-TRPV1 mechanism distinguishes the ME/CFS-overlap pain from pure fibromyalgia pain.
+
+---
+
+## What you can actually do
+
+- **Start with LDN.** Lowest side-effect burden, mechanistically relevant to microglial-driven central sensitisation, and evidence-supported in fibromyalgia. Titrate slowly, give it 12 weeks, and stop if no benefit at 4.5 mg.
+- **Use COX-2 inhibitors as a diagnostic probe, not a maintenance strategy.** If celecoxib 200 mg daily for 2 weeks reduces burning pain, the COX-2/PGE₂/TRPV1 loop is active — and that tells you something about the pain mechanism even if you do not stay on the drug long-term.
+- **Add PEA.** Low risk, multi-modal mechanism, meta-analytically effective across pain types. It is not a replacement for LDN or SNRIs — it is an adjunct that may shift the sensitivity without adding side effects.
+- **For SNRIs and gabapentinoids, start low, go slow, and name a stop-rule.** The goal is to find a dose that reduces pain without worsening brain fog. If no dose in the therapeutic range achieves that, the drug has failed — document it and move on.
+- **Respect the energy envelope.** Pain that worsens after crashes is a PEM signal. Medications that improve pain cannot compensate for an energy budget that is continuously overdrawn. Pacing is the foundation on which pain management is built — not an alternative to it.
+
+---
+
+## The bottom line
+
+Fibromyalgia-pattern pain in ME/CFS is treated with a multi-modal approach: LDN for microglial TLR4, SNRIs and gabapentinoids for central amplification (with sedation caveats), COX-2 inhibitors for the PGE₂/TRPV1 loop, PEA for broad-spectrum sensitisation reduction, and NMDA antagonists for severe wind-up. The PEM-driven re-sensitisation — absent in pure fibromyalgia — means the energy envelope and the pain envelope are coupled, and pacing is the foundation on which all pharmacological pain management rests [@Loth2026website].
+
+A failed trial of any one drug does not mean the pain is not real. It means that drug, at that dose, in that patient, was not sufficient — and the honest next step is to try the next mechanism or to accept that current pharmacology has limits and shift the focus to function within them.
+
+**Next in this series:** The gut that misbehaves — GI dysmotility, SIBO, and why the stomach is the first lever ME/CFS patients can pull.
+
+For the comprehensive, fully-cited picture of how fibromyalgia-pattern pain is weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

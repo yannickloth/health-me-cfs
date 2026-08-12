@@ -43,27 +43,78 @@ Read the two articles in order:
 
 ## Part 3: Hypermobility and the Connective-Tissue Connection
 
-The triad comes together: hypermobility completes the POTS–MCAS–hEDS cluster. This entry explains why flexible tissue does not hold together — how loose connective tissue drives blood pooling, mast-cell firing, and the five mechanistic pathways that link it to systemic illness in ME/CFS. Unlike MCAS and POTS, there is no drug for collagen; the treatments are mechanical, not pharmacological.
+The triad comes together: hypermobility completes the POTS–MCAS–hEDS cluster. This two-part entry explains why flexible tissue does not hold together — the five mechanistic pathways, how mast cells can actively degrade collagen (acquired hypermobility), the TNXB genetics, the neurodivergence axis, and the treatment architecture from isometric physiotherapy through circadian collagen support to experimental MMP inhibition.
 
-Read the article:
+Read the three articles in order:
 
-1. **[Hypermobile EDS, Flexible Joints, and the Connective-Tissue Connection to ME/CFS](../connective-tissue/hypermobility-heds/index.qmd)** — what hEDS is, why it has no identified genetic defect, the five mechanistic pathways (vascular laxity, CCI, ECM–mast cell, purinergic, SFN), hEDS-alone vs hEDS-on-ME/CFS, physiotherapy/bracing/CCI surgery, and the honest failure discussion.
+1. **[Hypermobile EDS and the Connective-Tissue Connection to ME/CFS](../connective-tissue/hypermobility-heds/index.qmd)** — what hEDS is, why it has no identified genetic defect, the 81% vs 15.5% gap, acquired progressive hypermobility (tryptase→MMP-3/-13, chymase→MMP-1, histaminylation), the matrix-stiffness feedback loop, five mechanistic pathways, the neurodivergence connection, TNXB genetics, the permanent 10–20% energy tax, and hEDS-alone vs hEDS-on-ME/CFS.
+2. **[Managing Hypermobility on Top of ME/CFS](../connective-tissue/hypermobility-heds-treatment/index.qmd)** — isometric resistance protocols, circadian collagen cofactor timing (vitamin C, alpha-ketoglutarate), glycine and proline, copper/B6 for LOX, low-dose doxycycline for MMP-9, emerging therapies (tVNS, HIF-1α inhibitors, TGF-β1 blockade), CCI surgery, expected results, and an example structured trial.
+3. **[When the Treatment Doesn't Help](../connective-tissue/hypermobility-heds-failure/index.qmd)** — the deconditioning-PEM trap, the matrix-stiffness tipping point, the congenital-vs-acquired triage, the six numbered failure points, falsifiable predictions, and what you can actually do.
 
 ---
 
-## Planned for this series
+## Part 4: Small Fiber Neuropathy
 
-Coming in later entries, each following the same template:
+The series continues with the wiring that is wrong — small fiber neuropathy explains the burning, shooting pain and the autonomic dysfunction that the heart-rate monitors show but standard neurology tests miss.
 
-1. **Small fiber neuropathy — when the wiring itself is wrong** — the damaged nerves that carry the pain and the racing heart *(next).*
-2. **Small fiber neuropathy — when the wiring itself is wrong** — the damaged nerves that carry the pain and the racing heart.
-3. **The pain that isn't muscle** — fibromyalgia-pattern pain and nerve sensitisation.
-4. **The gut that misbehaves** — GI dysmotility, SIBO, and food reactions.
-5. **Chronic infection** — viral reactivation and tick-borne disease.
-6. **Autoimmunity** — antibodies that talk to the nervous system.
-7. **Chained together** — how the amplifiers become one picture.
+Read the two articles in order:
 
-The planned full series (topics, priorities, source anchors, and falsifiable predictions) lives in [`_series-plan.md`](../../_series-plan.md).
+1. **[Small Fiber Neuropathy — When the Wiring Itself Is Wrong in ME/CFS](../neurology/sfn/index.qmd)** — what SFN is, the three mechanism families (mast-cell tryptase→PAR2, microvascular ischemia, IgG-mediated DRG autoimmunity), the visceral-vs-somatic distinction, the POTS–SFN–MCAS–hEDS intersection, and SFN-alone vs SFN-on-ME/CFS.
+2. **[Treating Small Fiber Neuropathy in ME/CFS](../neurology/sfn-treatment/index.qmd)** — gabapentinoids, SNRIs, topicals, IVIG for autoimmune SFN, alpha-lipoic acid, mast-cell stabilisers, expected results, the honest failure discussion, and practical guidance.
+
+---
+
+## Part 5: Fibromyalgia-Pattern Pain
+
+The pain that isn't muscle — when your nervous system turns the gain up, TRPV1 and TRPA1 channels are stuck open, and body heat feels like burning. This overlaps with 47–76% of ME/CFS patients.
+
+Read the two articles in order:
+
+1. **[The Pain That Isn't Muscle — Fibromyalgia-Pattern Pain in ME/CFS](../pain/fibromyalgia-pattern-pain/index.qmd)** — central sensitisation, TRPV1/TRPA1 channels, the COX-2/PGE2 feed-forward loop, the nociplastic-neuropathic hybrid, and fibromyalgia-alone vs fibromyalgia-on-ME/CFS.
+2. **[Treating Fibromyalgia-Pattern Pain in ME/CFS](../pain/fibromyalgia-pain-treatment/index.qmd)** — LDN, SNRIs, gabapentinoids, COX-2 inhibitors, PEA, NMDA antagonists, expected results, the honest failure discussion, and practical guidance.
+
+---
+
+## Part 6: GI Dysmotility and SIBO
+
+The gut that misbehaves — why your stomach empties slowly, how bacteria steal your breakfast, hydrogen sulfide as a mitochondrial poison, and diet as the first lever a patient can pull.
+
+Read the two articles in order:
+
+1. **[SIBO, Gastroparesis, and the Gut That Misbehaves in ME/CFS](../gut/sibo-gi-dysmotility/index.qmd)** — ICC/vagal motility failure, mast-cell–gut axis, H₂S mitochondrial toxicity, DAO and histamine intolerance, and GI-problems-alone vs GI-problems-on-ME/CFS.
+2. **[Treating SIBO, Gastroparesis, and the Gut](../gut/sibo-gi-treatment/index.qmd)** — meal spacing, low-histamine elimination, SIBO antibiotics and herbals, elemental diet, DAO, butyrate, prokinetics, expected results, a structured trial example, the honest failure discussion, falsifiable predictions, and practical guidance.
+
+---
+
+## Part 7: Chronic Infection
+
+The infection that never ended — EBV, HHV-6, tick-borne disease, abortive lytic replication, poly-herpesvirus co-reactivation, and why something is still talking to your immune system years after you "recovered."
+
+Read the two articles in order:
+
+1. **[EBV, HHV-6, Tick-Borne Disease, and the Infection That Never Ended in ME/CFS](../infectious/chronic-infection/index.qmd)** — abortive-lytic-replication model, EBV→mast cell→MMP-9 pathway, HHV-6 miR-aU14→mitochondrial fragmentation, poly-herpesvirus co-reactivation, and chronic-infection-alone vs chronic-immune-stimulation-on-ME/CFS.
+2. **[Antivirals, Immunomodulators, and What It Means When They Don't Work in ME/CFS](../infectious/chronic-infection-treatment/index.qmd)** — valacyclovir, valganciclovir, cimetidine, mast-cell stabilisers to intercept the EBV→MMP-9 pathway downstream, why ALR makes antivirals less effective, expected results, the honest failure discussion, and practical guidance.
+
+---
+
+## Part 8: Autoimmunity
+
+Antibodies that talk to your nervous system — GPCR autoantibodies targeting your blood vessels, gut, and brain, the Fc-glycoprofile that determines pathogenicity, and why removing them doesn't always fix the problem.
+
+Read the two articles in order:
+
+1. **[GPCR Autoantibodies, Immune Attack on the Nervous System, and the Antibodies That Talk to Your Receptors in ME/CFS](../autoimmune/autoimmunity/index.qmd)** — what GPCR autoantibodies are, the 29–91% prevalence range and what it actually means, the Fc-glycoprofile, the post-infectious trigger, and autoimmunity-alone vs autoimmunity-on-ME/CFS.
+2. **[Immunoadsorption, IVIG, Rituximab, Daratumumab — Removing the Antibodies, and What It Means When That Doesn't Fix ME/CFS](../autoimmune/autoimmunity-treatment/index.qmd)** — the treatment evidence from most to least mature, the RituxME lesson, the daratumumab signal, expected results, the honest failure discussion, and practical guidance.
+
+---
+
+## Part 9: Chained Together — Synthesis Capstone
+
+How the amplifiers become one disease — the feedback loops connecting all eight conditions, the amplification ratchet that makes longer illness harder to treat, and the clinical imperative of multi-target treatment.
+
+Read the article:
+
+1. **[Chained Together: How the Amplifiers Become One Disease in ME/CFS](../synthesis/chained-together/index.qmd)** — the vascular-inflammation loop, the nerve-mast-cell amplifier, the gut-brain-histamine axis, the EBV–mast cell–MMP-9–BBB bridge, the autoimmunity–POTS–SFN loop, the amplification ratchet, multi-target treatment, and what the whole series has argued in one place.
 
 ---
 

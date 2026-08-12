@@ -1,0 +1,110 @@
+---
+title: "Chronic Infection Article 1: EBV, HHV-6, Tick-Borne Disease, and the Infection That Never Ended in ME/CFS"
+description: "A plain-language guide to chronic infection and viral reactivation in ME/CFS — why EBV, HHV-6, and tick-borne pathogens keep signalling to your immune system years after the acute illness, the EBV→mast cell→MMP-9 pathway, abortive lytic replication, poly-herpesvirus co-reactivation, and the difference between active infection on its own and chronic immune stimulation on top of ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Chronic Infection, EBV, HHV-6, ME/CFS, Pathophysiology]
+---
+
+The gland in your neck has been up since you "recovered" from mono years ago. You flare when you are stressed — the sore throat returns, the lymph nodes ache, the fatigue deepens — and you are told it is "past infection." Your antibody tests show high titres to EBV and HHV-6, but the infectious-disease specialist says that only means you were exposed, not that the virus is active. Something is still talking to your immune system.
+
+Now add the rest of ME/CFS: the PEM, the unrefreshing sleep, the brain fog. About 70% of ME/CFS cases follow an acute infection — EBV mononucleosis, HHV-6 roseola, tick-borne Borrelia, enterovirus, SARS-CoV-2 — and the question that has haunted the field for decades is whether the pathogen is still there, still driving the disease, or whether it lit a fire and walked away [@Blomberg2019HerpesvirusNull].
+
+This article is the conceptual overview. What EBV, HHV-6, and tick-borne pathogens actually do in ME/CFS, the abortive-lytic-replication model that explains why antiviral antibodies are high but viral load is undetectable, the EBV→mast cell→MMP-9 pathway, the poly-herpesvirus co-reactivation pattern, and the difference between active infection on its own and chronic immune stimulation on top of ME/CFS. The treatments — antivirals, immunomodulators, and why the evidence is thinner than the mechanisms — are covered in the [companion treatment article](../chronic-infection-treatment/index.qmd).
+
+---
+
+## First, a plain warning
+
+*This is an explanation, not self-medication advice, and I am not a doctor. Antiviral medications (valacyclovir, valganciclovir) require a prescriber and renal monitoring. Tick-borne infections require specialist evaluation — untreated Lyme can progress to neurological and cardiac complications. If you have a new bull's-eye rash, facial palsy, or joint swelling after a tick bite, seek urgent medical attention.*
+
+---
+
+## The short version, if you only read one part
+
+- **~70% of ME/CFS cases follow an acute infection**, and the Big Four are EBV (mononucleosis → 9–11% develop ME/CFS), HHV-6 (roseola → neurotropic, integrates into chromosomes), tick-borne Borrelia (Lyme → 10–20% develop PTLDS), and SARS-CoV-2 (>50% of Long COVID meet ME/CFS criteria).
+- **The central puzzle is abortive lytic replication (ALR).** The virus enters the lytic cycle — expressing immunostimulatory proteins — but stops before producing virions. There is no measurable viral load in blood, but the viral proteins (dUTPases, immediate-early genes) are still being made, and the immune system still sees them. This explains why antibody titres are high but PCR is negative [@Cox2022dUTPaseMECFS].
+- **EBV directly activates mast cells.** Recombinant EBV protein added to human mast cells increased MMP-9 release nearly sixfold (2,464 vs 433 pg/ml) — and MMP-9 degrades the blood-brain barrier, allowing peripheral inflammatory mediators to access the brain [@Chinnappan2026IL11MMP9].
+- **Poly-herpesvirus co-reactivation is the rule, not the exception.** 72.5% of ME/CFS patients had elevated antibodies to multiple herpesvirus dUTPases vs 31% of controls. EBV, HHV-6, CMV, and VZV can reactivate together — the immune system is fighting a multi-front viral war with depleted resources [@Palomo2026herpesvirus].
+- **Chronic infection is the most hypothesis-heavy topic in the Septad.** It is mechanistically central but harder to treat plainly — antivirals that block DNA replication in fully lytic virus may be ineffective against ALR, and the evidence for them in ME/CFS is weak and unreplicated.
+
+---
+
+## The EBV connection: mechanism, not serology
+
+Epstein-Barr virus infects >90% of the world's population. In most people, it establishes latency in B-cells and remains quiescent for life, suppressed by T-cell surveillance. In ME/CFS, several lines of evidence point to EBV reactivation — but "reactivation" does not mean the same thing as acute mononucleosis.
+
+### Abortive lytic replication (ALR)
+
+In full lytic replication, the virus expresses immediate-early genes (BZLF1, BRLF1), then early genes (including BLLF3, the dUTPase), replicates its DNA, assembles virions, and lyses the cell. ALR stops after the early-gene stage — the viral proteins are made, but no infectious virus is produced. The cell is not killed, but it is expressing viral antigens that the immune system must continuously suppress.
+
+Why this matters for ME/CFS: ALR explains the immunological signature — high antibodies to lytic antigens (EA-D, VCA, dUTPase), but undetectable or low viral DNA in blood. The virus is not "replicating" in the conventional sense, but it is actively producing proteins that drive immune activation, inflammation, and — critically — mast-cell degranulation [@Cox2022dUTPaseMECFS].
+
+### The dUTPase problem
+
+dUTPase is a conserved herpesvirus enzyme that converts dUTP to dUMP, preventing uracil misincorporation into viral DNA. It is also a potent **pathogen-associated molecular pattern (PAMP)** — the innate immune system recognises dUTPase through TLR2 and triggers NF-κB-driven cytokine production. The dUTPases of EBV (BLLF3), HHV-6 (U45), VZV (ORF8), and CMV are structurally similar enough that one reactivating virus can produce a dUTPase that cross-stimulates the immune response to another — a mechanistic basis for poly-herpesvirus co-reactivation [@Cox2022dUTPaseMECFS].
+
+The EBV dUTPase also activates NF-κB in mast cells, which drives MMP-9 expression. This is the bridge between the viral-reactivation story and the connective-tissue degradation story covered in the hypermobility articles: a reactivating herpesvirus produces a protein (dUTPase) that tells mast cells to release an enzyme (MMP-9) that degrades collagen and opens the blood-brain barrier. The virus is not in the brain. But its downstream products get there.
+
+### EBV→mast cell→MMP-9: the pathway in numbers
+
+Chinnappan et al. (2026) tested the direct effect of recombinant EBV protein on human mast cells in culture:
+- MMP-9 release: **2,464 pg/ml (EBV) vs 433 pg/ml (unstimulated), p<0.001, n=3**
+- For comparison, LPS (a bacterial PAMP) produced 1,422 pg/ml — EBV was 1.7× more potent than LPS at driving MMP-9
+- The same study found elevated serum IL-11 in ME/CFS patients — a cytokine that amplifies MMP-9 expression from microglia, creating a **second MMP-9 amplification loop** in the brain
+
+**Honesty caveats, because they matter.** The study used cord-blood mast cells (not patient mast cells), n=3 (12-week culture requirement limits replication), serum rather than plasma (MMP-9 is 3–4× higher in serum due to platelet degranulation during clotting), and the ME/CFS and control groups were not age-matched. The finding has not been independently replicated. The effect direction — EBV protein activates mast cells to release MMP-9 — is mechanistically important and biologically plausible, but the magnitude and specificity are provisional [@Chinnappan2026IL11MMP9].
+
+---
+
+## HHV-6: the neurotropic integrator
+
+Human herpesvirus 6 (HHV-6) infects nearly all children by age 2 (causing roseola) and establishes latency in T-cells, monocytes, and — critically — in the central nervous system. HHV-6 is the only human herpesvirus that can **integrate into the host chromosome** (ciHHV-6), creating a permanent genetic reservoir that standard antivirals cannot clear.
+
+In ME/CFS, several findings point to HHV-6 involvement:
+
+- **miR-aU14 meets mitochondria.** HHV-6 encodes a microRNA, miR-aU14, that inhibits the host's miR-30 family. miR-30 normally suppresses p53 and DRP1 — removing that inhibition activates p53-dependent DRP1 translocation to mitochondria, causing **mitochondrial fragmentation**. The virus does not infect mitochondria directly. It sends a microRNA that tells the cell to break its own mitochondria [@Schreiner2020HHV6MitoME].
+- **Post-mortem neuroinvasion.** HHV-6 miR-aU14 was found in the choroid plexus, hippocampus, amygdala, and dorsal root ganglia of ME/CFS patients at autopsy — and was absent in 24 controls. The sample was n=3, so this is a finding, not a settled fact. But it places a viral nucleic acid in the exact brain regions implicated in ME/CFS cognitive, autonomic, and sensory symptoms.
+- **Prevalence.** Latent or persistent HHV-6 is found in 46.7% of ME/CFS patients vs 10% of controls.
+
+---
+
+## Tick-borne disease: Lyme, Bartonella, Babesia
+
+**Lyme disease (Borrelia burgdorferi)** causes acute infection treated with 2–4 weeks of antibiotics. In 10–20% of cases, symptoms persist for months to years — post-treatment Lyme disease syndrome (PTLDS). PTLDS shares 26 of 29 core ME/CFS symptoms (fatigue, cognitive dysfunction, musculoskeletal pain, sleep disturbance), making the two conditions nearly clinically indistinguishable in the post-infectious phase.
+
+The mechanism debate mirrors the EBV debate: is there persistent Borrelia (antibiotic-refractory reservoirs, biofilm-protected spirochetes) or is PTLDS a post-infectious immune dysregulation that outlasts the pathogen? The evidence for persistent infection — culture, PCR, xenodiagnosis — exists but is inconsistent and technically challenging. The evidence for post-infectious immune dysregulation — elevated cytokines, T-cell exhaustion, autoantibody generation — is robust and mirrors ME/CFS [@Nawrocki2025LymeSymptomsCDC].
+
+**Bartonella and Babesia** are tick-borne co-infections that are less studied than Lyme. Bartonella DNA has been detected in ~26% and Babesia in ~24% of ME/CFS cohorts — but these studies lacked healthy controls, so the baseline community prevalence (which is not zero) is unknown. The honest position: tick-borne co-infections are plausible contributors in the exposed individual; the evidence for them as a general ME/CFS mechanism is weak.
+
+---
+
+## Poly-herpesvirus co-reactivation
+
+The immune system does not fight one herpesvirus at a time. The 72.5% poly-herpesvirus seroreactivity rate (vs 31% in controls) suggests that when immune surveillance weakens — and T-cell exhaustion, NK dysfunction, and CD8+ senescence are all documented in ME/CFS — multiple latent herpesviruses reactivate simultaneously [@Palomo2026herpesvirus].
+
+This creates a treatment problem. Valacyclovir inhibits EBV DNA polymerase (lytic replication) but has no effect on HHV-6. Valganciclovir covers HHV-6 and CMV but is more toxic. No single antiviral covers all four (EBV, HHV-6, CMV, VZV) without additive toxicity. And none of them block ALR, because the early viral proteins are produced before the DNA-polymerase step that the drugs target.
+
+---
+
+## Chronic infection by itself vs ME/CFS with chronic infection
+
+**Active chronic infection on its own (no ME/CFS).** Active EBV replication (PCR-positive, detectable viral load), active Lyme (culture or PCR-confirmed), active HHV-6 (viremia in transplant patients) — these are infectious diseases treated with antivirals or antibiotics. If the pathogen is identified and a drug exists that targets it, treatment is straightforward: give the drug, monitor the pathogen, confirm clearance.
+
+**ME/CFS with chronic immune stimulation (the situation this series is about).** When the infection history is in the past and the current problem is ALR, immune dysregulation, or post-infectious autoimmunity, the treatment logic changes:
+
+- **Antivirals that work against lytic replication may not work against ALR.** The viral proteins driving the immune response are produced before the drug's target step. A negative antiviral trial does not prove the virus is irrelevant — it proves the drug, at that dose, did not interrupt the specific replication stage that is active.
+- **Eradication may be impossible.** Integrated HHV-6 cannot be removed. Latent EBV in memory B-cells is lifelong. The treatment goal shifts from "clear the pathogen" to "suppress the immune activation the pathogen is causing."
+- **The host immune defect may be the rate-limiting factor, not the viral load.** If T-cells are exhausted and NK cells are dysfunctional, giving an antiviral without addressing the immune defect is like giving a firefighter a smaller hose while the water pressure is dropping. The fire is not the pathogen; the fire is the immune response to the pathogen, and the response is failing because the immune system is depleted.
+
+---
+
+## The bottom line
+
+Chronic infection is the most mechanistically central and therapeutically frustrating of the Septad conditions. The evidence that herpesviruses and tick-borne pathogens are involved in ME/CFS is strong — abortive lytic replication, poly-herpesvirus co-reactivation, EBV→mast cell→MMP-9, and HHV-6 mitochondrial fragmentation are not fringe hypotheses. But the evidence that targeting them with current antivirals improves ME/CFS is weak and unreplicated — and the distinction between ALR (which antivirals do not block) and lytic replication (which they do) explains why [@Loth2026website].
+
+The [treatment companion article](../chronic-infection-treatment/index.qmd) covers the antivirals (valacyclovir, valganciclovir, famciclovir), the immunomodulators (cimetidine), the mast-cell stabilisers that intercept the EBV→MMP-9 pathway downstream of the virus, and the honest "what if the antivirals don't work" discussion.
+
+**Next in this mini-series:** the antivirals, the evidence, and what a negative trial does and does not tell you [[see the companion article]](../chronic-infection-treatment/index.qmd).
+
+For the comprehensive, fully-cited picture of how chronic infection is weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

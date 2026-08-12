@@ -1,0 +1,146 @@
+---
+title: "Hypermobility Article 2: Managing Hypermobility on Top of ME/CFS — Physiotherapy, Circadian Collagen Support, MMP Inhibitors, and Emerging Therapies"
+description: "A plain-language guide to managing hypermobile EDS and joint hypermobility in ME/CFS — the isometric resistance protocols that work, circadian collagen cofactor timing (vitamin C, alpha-ketoglutarate), glycine and proline for synthesis, doxycycline for MMP-9 inhibition, emerging therapies (tVNS, HIF-1α inhibitors, TGF-β1 blockade), CCI surgery, expected results, and a worked structured-trial example."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Treatment, Hypermobility, hEDS, ME/CFS, Connective Tissue]
+---
+
+If you have ME/CFS and hypermobility, you have already learned that no drug fixes collagen. But the primary document behind this series contains a surprisingly deep treatment architecture — not a single magic molecule, but a coordinated set of mechanical, nutritional, pharmacological, and emerging interventions that target different points in the connective-tissue-amplification cascade.
+
+This article explains the treatment architecture. For the conceptual background — what hEDS is, the five mechanistic pathways, acquired progressive hypermobility, the neurodivergence connection, and the difference between hEDS-alone and ME/CFS-with-hEDS — see the [companion overview article](../hypermobility-heds/index.qmd). And for the honest "what if it doesn't work" discussion, see the [companion article on treatment failure](../hypermobility-heds-failure/index.qmd).
+
+---
+
+## First, a plain warning
+
+*Everything below is a conversation to have with a clinician, not self-direction. Hypermobility treatment is mechanical (physiotherapy, bracing, surgery), nutritional (supplements that support collagen synthesis), and pharmacological (off-label MMP inhibitors, experimental therapies). None of it replaces pacing, and aggressive physiotherapy in ME/CFS can cause harm. Work with someone who understands both connective tissue disorders and post-exertional malaise. If you have progressive neurological symptoms or loss of bowel or bladder control, that is an emergency — go to a hospital.*
+
+---
+
+## Three treatment categories
+
+| Category | What it targets | Evidence strength |
+|----------|----------------|-------------------|
+| Mechanical | Structural support, joint protection, reversal of deconditioning, CCI stabilisation | Moderate (physio) to low (CCI surgery) |
+| Nutritional | Collagen crosslinking (vitamin C timing, α-KG), collagen synthesis precursors (glycine, proline), LOX cofactors (copper, B6) | Theoretical (mech. plausible; no ME/CFS trials) |
+| Pharmacological / experimental | MMP-9 inhibition (doxycycline), mast-cell ECM modulation (tVNS), HIF-1α isoform correction, TGF-β1 blockade | Very low to experimental |
+
+---
+
+## Mechanical: physiotherapy, bracing, compression, and the deconditioning-pacing trap
+
+### The isometric-resistance principle
+
+In healthy connective tissue, progressive overload — lifting progressively heavier weights through a full range of motion — stimulates collagen synthesis and strengthens tendons and ligaments. In hypermobility, the same approach can cause subluxation, because the joint lacks the passive stability to control end-range loading.
+
+The adaptation, documented in the hEDS rehabilitation literature, is **isometric and mid-range resistance training**:
+
+- **Isometric holds** — contracting a muscle without moving the joint — strengthen the stabilising muscles without challenging the ligament at its end range. This is the safest loading mode for hypermobile joints [@Zabriskie2022hEDSresistance].
+- **Resistance-band work** — elastic bands provide variable resistance that is lowest at the start of the movement (where the joint is most vulnerable) and highest at the mid-range (where the stabilisers are most engaged). This profile is better suited to hypermobile joints than free weights [@Loth2026website].
+- **Avoid end-range loading.** Hypermobile patients should stop short of full extension or flexion — the last degrees of motion are where the ligament, not the muscle, is taking the load.
+
+**The ME/CFS constraint.** Everything above assumes the patient can exercise without triggering PEM — and that assumption fails for most moderate-to-severe ME/CFS patients. The primary document is explicit: no dual hEDS+ME/CFS exercise study exists. The general principle is that isometric holds must be brief (seconds, not minutes), well within the anaerobic threshold, and followed by adequate rest. If a physiotherapy session produces PEM — delayed worsening of fatigue, cognitive symptoms, or orthostatic intolerance 12–48 hours later — the load was too high, regardless of how the joints felt during the session.
+
+### Bracing and external support
+
+For unstable joints — particularly knees, ankles, wrists, fingers, and the cervical spine — external bracing provides the passive stability that ligaments cannot. Ring splints for hypermobile finger joints, rigid ankle braces, and soft cervical collars are common. The trade-off: prolonged continuous bracing can weaken the stabilising muscles. The practical compromise is intermittent bracing — during activity, not at rest — and coupling bracing with targeted isometric work for the same joint.
+
+### Compression garments
+
+Abdominal and leg compression (20–30 mmHg, waist-high) is one of the few interventions that directly targets the vascular-laxity pathway with physiological evidence: a controlled study in ME/CFS showed that compression stockings improved cardiac output and cerebral blood flow during tilt testing [@VisserVanCampenRowe2022compression]. In hEDS, where venous pooling is amplified by vessel-wall laxity, compression is disproportionately beneficial — it mechanically reduces the gravitational pooling that the loose vessels cannot control.
+
+### Craniocervical fusion surgery
+
+For patients with demonstrable craniocervical instability (confirmed by upright MRI with flexion-extension views) and progressive neurological symptoms, surgical stabilisation of the skull-spine junction (C0–C2 fusion) is the most invasive option. One series reported 60–80% improvement rates, but with a 19% complication rate — hardware failure, infection, adjacent-segment disease — and no controlled outcome data exist [@Bragee2020]. **This is a last-resort decision made with a specialised neurosurgeon, not a routine recommendation.**
+
+---
+
+## Nutritional: giving the collagen machinery what it needs
+
+### Circadian collagen-support timing
+
+Prolyl hydroxylases (P4H, P3H) are the enzymes that hydroxylate proline residues in collagen chains, creating the sites for stable crosslinking. These enzymes exhibit circadian rhythms — they are most active during sleep, when collagen synthesis peaks. In ME/CFS, ROS-mediated inhibition of prolyl hydroxylases is proposed as one route to impaired collagen crosslinking [@Wirth2026CTDMECFS].
+
+- **Ascorbic acid (vitamin C)** — the essential cofactor for prolyl and lysyl hydroxylase. Without it, collagen cannot crosslink (scurvy is a collagen-crosslinking failure). The primary document proposes timed dosing of 1000 mg ascorbic acid during the sleep-onset window, when hydroxylase activity peaks, rather than at a fixed morning time [@Loth2026website].
+- **Alpha-ketoglutarate (α-KG)** — the essential substrate for the hydroxylation reaction. 200 mg timed to the same window.
+
+Low-dose cofactors are generally safe; high-dose ascorbic acid can cause gastrointestinal upset, and α-KG is well tolerated at typical supplement doses. This is a low-risk, mechanistically-plausible, untested intervention — and it should be discussed with a clinician, not self-directed at high doses.
+
+### Collagen synthesis precursors
+
+- **Glycine** — 3–5 g daily, taken in divided doses. Glycine is rate-limiting for collagen synthesis and is also an inhibitory neurotransmitter that may improve sleep quality. Generally well tolerated.
+- **Proline** — 500 mg–1 g daily. The rationale is that collagen's high proline content makes it a plausible rate-limiting precursor in high-turnover states.
+- **Copper and vitamin B6** — cofactors for lysyl oxidase (LOX), the enzyme that performs the final collagen and elastin crosslinking step. A subset of acquired hypermobility may involve functional LOX deficiency, making copper and B6 status relevant. Copper supplementation should only be done with measured deficiency — excess copper is toxic.
+
+The honest limits: no trial has tested glycine or proline supplementation for hypermobility in ME/CFS. The precursor rationale is biochemically correct — if you need to synthesise more collagen, you need glycine and proline — but whether increasing precursor intake increases collagen synthesis in hypermobile patients with ME/CFS is unknown. These are low-risk, mechanistically-plausible interventions. They are not proven.
+
+---
+
+## Pharmacological: blocking MMP-9 with low-dose doxycycline
+
+The mast-cell → tryptase/chymase → MMP-3/-13/-1 cascade degrades collagen. Of the MMPs, **MMP-9** (gelatinase B) is the most consistently implicated in connective tissue degradation in ME/CFS and post-infectious states. Doxycycline, at a sub-antimicrobial dose (20–40 mg twice daily — well below the 100–200 mg antibiotic dose), is a selective MMP-9 inhibitor. It binds the catalytic zinc site and inhibits MMP activity without suppressing bacterial flora [@Loth2026website].
+
+The rationale is specific to *acquired* progressive hypermobility: if mast-cell enzymes are actively degrading collagen, blocking the downstream MMP that executes the degradation may slow or partially reverse tissue damage. Low-dose doxycycline is generally well tolerated (GI upset, photosensitivity). It is contraindicated in pregnancy and in children under 8. Long-term use (>3 months) has not been studied for this indication. No RCT of low-dose doxycycline for hypermobility in ME/CFS exists.
+
+### A note on what not to take: high-dose ascorbic acid plus iron
+
+Ascorbic acid enhances iron absorption, and the combination of high-dose vitamin C with iron supplementation can generate hydroxyl radicals through the Fenton reaction, increasing oxidative stress — the opposite of what collagen repair needs. If vitamin C is used at gram doses, iron should not be co-supplemented unless iron deficiency is documented and the prescriber manages the timing (separate by at least 4 hours) [@Loth2026website].
+
+---
+
+## Emerging therapies: tVNS, HIF-1α inhibitors, TGF-β1 blockade
+
+These are experimental interventions developed in the primary document's mechanistic models. None has been tested in ME/CFS or hEDS clinical trials. They are listed here for completeness, not as recommendations.
+
+### Transcutaneous vagus nerve stimulation (tVNS)
+
+The vagus nerve innervates mast cells and modulates their activity through the cholinergic anti-inflammatory pathway (α7nAChR). A vagus-mast-cell-connective-tissue axis is proposed: vagal signalling suppresses mast-cell degranulation; when vagal tone is low (as in ME/CFS), mast cells fire more, releasing tryptase/chymase/MMPs that degrade ECM [@Loth2026website].
+
+Ear-based tVNS (tragus stimulation) is the least invasive form. One sham-controlled RCT in POTS showed that 2 months of tragus stimulation reduced the standing heart-rate increase and lowered β1AR/α1AR autoantibodies [@Teixeira2024POTS]. The extension to hypermobility is speculative: if tVNS reduces mast-cell degranulation, it may reduce MMP-mediated collagen degradation. **This is a research-stage hypothesis, not a clinical recommendation.**
+
+### HIF-1α isoform rebalancing
+
+Chronic HIF-1α elevation drives MMP expression (MMP-3, MMP-9), VEGF production, and pathological connective-tissue remodelling [@Wirth2026CTDMECFS]. The primary document proposes shifting from the pathological HIF-1α-dominant state to a more physiological HIF-2α profile. Small-molecule HIF-2α agonists (e.g., PT2385 analogues) exist in the oncology pipeline but have never been tested in ME/CFS or hypermobility [@Loth2026website]. This is preclinical.
+
+### TGF-β1 blockade
+
+TGF-β1 is a master regulator of fibrosis and ECM deposition. In hEDS, chronic microtrauma and mast-cell activation may drive excessive TGF-β1 signalling, producing basement-membrane thickening in capillaries alongside laxity in ligaments — compartment-specific ECM dysregulation. Fresolimumab, a monoclonal anti-TGF-β1 antibody, has been trialled in systemic sclerosis. The extension to hEDS+ME/CFS is entirely theoretical [@Loth2026website].
+
+---
+
+## Expected results
+
+Be realistic, and be patient. Hypermobility treatment in ME/CFS is a lifelong management strategy, not a course of treatment with an endpoint.
+
+- **Physiotherapy works slowly and partially.** Isometric strengthening takes months to produce measurable joint-stability gains. The goal is not normal joints — it is reduced subluxations, reduced pain, improved function within energy limits. A physio session that does not trigger PEM is a win; a physio programme that produces PEM is a dosing failure, not a personal failure.
+- **The circadian collagen support is a slow, low-signal intervention.** If it works, the effect will be measured in months — reduced injury frequency, slightly better joint stability — not days. The cost is low (vitamin C and α-KG are inexpensive), so a 3–6 month trial is reasonable if the mechanical foundation is already in place.
+- **Low-dose doxycycline, if it works, addresses acquired laxity — not congenital laxity.** If your hypermobility has been stable since childhood, the MMP pathway may not be active, and doxycycline may do nothing. If your hypermobility has worsened in adulthood, correlating with MCAS flares, doxycycline is a mechanistically rational but unproven trial.
+- **Partial response is not failure.** Bracing a single unstable joint and being able to type without subluxing a finger is a win. Standing 3 minutes longer without presyncope because you used compression is a win. The energy failure may still be there — you addressed one contributor in a multi-contributor system.
+- **Treat the downstream amplifiers.** Because you cannot fix the collagen, the clinical leverage is in what the loose tissue enables: POTS (fludrocortisone, midodrine, ivabradine), MCAS (antihistamines, stabilisers), pain ([covered in the fibromyalgia-pain article](../../pain/fibromyalgia-pain-treatment/index.qmd)). These interventions do not depend on knowing whether the hEDS is a "real" disease or a normal variant — they target physiology that is measurably abnormal.
+
+---
+
+## An example structured trial
+
+*This is an example to give your clinician something to work from — not a self-prescription.*
+
+Pick the single joint or symptom that limits you most — a subluxing shoulder, a painful SI joint, orthostatic presyncope from venous pooling. Start with the mechanical foundation: isometric physio (named exercises, 3–5 minute sessions, 3×/week), bracing during activity, waist-high 20–30 mmHg compression during upright hours. Reassess at 8 weeks.
+
+If the mechanical foundation is in place but joint laxity is progressive — more subluxations, new joints involved, correlation with MCAS flares — add low-dose doxycycline 20–40 mg twice daily. Reassess joint stability at 12 weeks. **Stop if no change** — doxycycline addresses acquired MMP-mediated degradation, not congenital laxity, and a null result at 12 weeks means the MMP pathway is not the relevant contributor.
+
+If doxycycline is not indicated (stable congenital laxity, no MCAS, no adult worsening), add circadian collagen support: timed ascorbic acid 1000 mg + α-KG 200 mg at sleep onset. Reassess at 12 weeks.
+
+Only add one intervention at a time, and only after the previous one has been judged at an adequate dose and duration. Adding everything at once makes it impossible to know what helped. The entire programme runs under the condition that no session triggers PEM — if a physio session produces PEM, the load is reduced, regardless of what the joints tolerated.
+
+---
+
+## The bottom line
+
+Hypermobility treatment in ME/CFS has no single drug and no curative endpoint. The architecture is mechanical first (isometric physiotherapy, bracing, compression), nutritional second (circadian vitamin C + α-KG, glycine, proline, copper/B6), and pharmacological third (low-dose doxycycline for acquired MMP-mediated degradation, experimental therapies for the future). The permanent 10–20% energy tax on upright posture imposed by loose vessels is a model prediction that explains why hEDS+ME/CFS patients tend toward greater severity — and why supine rest and compression are not just symptom-management but genuine physiological interventions [@Loth2026website].
+
+The congenital-vs-acquired triage, the matrix-stiffness bistable model, and the circadian collagen-support timing are all developed in the primary document, not established in clinical trials. Treat them as hypotheses to test with your clinician, not as settled recommendations.
+
+**Next in this mini-series:** what it means when these treatments don't work — the deconditioning-PEM trap, the matrix-stiffness tipping point, and the honest limits of current medicine for a permanent tissue trait [see the companion article on treatment failure].
+
+For the comprehensive, fully-cited picture of how connective tissue disorders are weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

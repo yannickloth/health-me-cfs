@@ -1,0 +1,108 @@
+---
+title: "Autoimmunity Article 1: GPCR Autoantibodies, Immune Attack on the Nervous System, and the Antibodies That Talk to Your Receptors in ME/CFS"
+description: "A plain-language guide to autoimmunity in ME/CFS — why antibodies targeting your own receptors (β2-adrenergic, muscarinic M3/M4) may drive dysautonomia, the 29–91% prevalence range that signals a measurement problem, why antibody titre does not equal disease severity, the Fc-glycoprofile gate, the post-infectious trigger, and the difference between classical autoimmunity and autoimmunity on top of ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Autoimmunity, GPCR, ME/CFS, Pathophysiology]
+---
+
+A blood test shows an antibody aimed at your own receptors — not a classic autoimmune disease like lupus or rheumatoid arthritis. Nothing lights up on scans. Your CRP and ESR are normal. But the antibody is there, targeting the β2-adrenergic receptor that regulates your blood vessels and the muscarinic M3 receptor that controls your gut and pupils. Your nerves and vessels are being signalled by self-directed antibodies — and nobody can tell you whether removing them would fix anything.
+
+Now add the rest of ME/CFS: the PEM, the brain fog, the orthostatic intolerance. Between 29% and 91% of ME/CFS patients have detectable GPCR autoantibodies — depending entirely on which assay is used, which antibodies are tested, and which threshold defines "positive" [@Loebel2016]. That range — from one in three to almost everyone — is the signature of a field that has not yet solved its measurement problem.
+
+This article is the conceptual overview. What GPCR autoantibodies actually are, why the prevalence range spans 29–91%, the Fc-glycoprofile that determines whether an antibody is pathogenic or inert, why antibody titre does not equal disease severity, the post-infectious trigger story, and the difference between classical autoimmunity and autoimmunity *on top of* ME/CFS. The treatments — immunoadsorption, IVIG, rituximab, daratumumab, and why the evidence is not settled — are covered in the [companion treatment article](../autoimmunity-treatment/index.qmd).
+
+---
+
+## First, a plain warning
+
+*This is an explanation, not self-medication advice, and I am not a doctor. Autoantibody testing for ME/CFS is not standardised — CellTrend ELISAs, the most commonly used commercial assay, have been shown to produce positive results in 98–100% of healthy controls in a replication study, calling their diagnostic value into question. Immunoadsorption, IVIG, rituximab, and daratumumab are hospital-based interventions with significant risks including infection, anaphylaxis, thromboembolism, and — in the case of rituximab — progressive multifocal leukoencephalopathy. These are treatments for the severely affected, discussed with an immunologist, not self-directed.*
+
+---
+
+## The short version, if you only read one part
+
+- **GPCR autoantibodies** target G-protein-coupled receptors — β1/β2-adrenergic (blood vessels, heart rate), M1/M3/M4 muscarinic (gut, pupils, cognition), and α1-adrenergic (vascular tone). They are found in 29–91% of ME/CFS patients depending on the study, the assay, and the threshold [@Loebel2016].
+- **The fundamental measurement problem is unresolved.** The most common commercial assay (CellTrend ELISA) produced positive results in 100% of healthy controls in one independent replication — meaning the test cannot distinguish patient from control. The highest-quality assay (REAP proteome-wide screen, 7,542 antigen interactions) found zero significant autoantibody signals in ME/CFS — a complete null [@Germain2025autoantibody].
+- **Antibody titre is a poor predictor of pathogenicity.** Two people with the same β2-AAb level can have completely different disease severity because what matters is not the quantity of antibody but its **Fc glycoprofile** — the sugar molecules attached to the antibody's tail that determine whether it activates complement, engages Fc receptors, or sits inert. An agalactosylated (G0F) IgG is pro-inflammatory; a sialylated IgG is anti-inflammatory. Same titre, opposite effects [@Loth2026website].
+- **Passive-transfer evidence from fibromyalgia and Long COVID** shows that injecting patient IgG into mice reproduces pain and small-fibre neuropathy — proving that the antibodies are causative, not just correlative, in those conditions. No ME/CFS-specific passive-transfer study exists yet [@Goebel2021passiveTransferFM].
+- **Autoimmunity is usually post-infectious, not spontaneous.** GPCR autoantibodies are generated during infection through molecular mimicry (viral proteins resemble self-receptors) or bystander activation (the immune response to the virus spills over to self-antigens). The antibodies persist after the infection clears — and whether they continue to cause damage depends on the Fc glycoprofile and the host's ability to clear them.
+
+---
+
+## What are GPCR autoantibodies, for real?
+
+G-protein-coupled receptors (GPCRs) are the largest family of cell-surface receptors in the human body. They sit on the outer membrane of cells and transmit external signals — hormones, neurotransmitters, light, odours — to the inside of the cell. Beta-adrenergic receptors (β1, β2, β3) respond to adrenaline and noradrenaline, controlling heart rate, vascular tone, and bronchial dilation. Muscarinic acetylcholine receptors (M1–M5) respond to acetylcholine, controlling gut motility, pupil constriction, salivation, and — in the brain — cognition and alertness.
+
+Autoantibodies against GPCRs can do three things:
+
+1. **Agonistic activation** — the antibody mimics the natural ligand, turning the receptor on. An agonistic β2-AAb causes the same effect as adrenaline: increased heart rate, vasodilation. If sustained, receptor desensitisation and internalisation follow — the cell removes the receptor from the surface to protect itself, and the patient becomes functionally deficient in that signalling pathway even though the antibody is still present.
+
+2. **Antagonistic blockade** — the antibody blocks the natural ligand from binding, turning the receptor off. An antagonistic M3-AAb inhibits gut motility and salivation, mimicking the effects of anticholinergic drugs.
+
+3. **Receptor internalisation without activation** — the antibody cross-links receptors and triggers β-arrestin-mediated endocytosis, removing the receptor from the surface without activating it. This is functionally equivalent to blockade, but the receptor is physically removed rather than just occupied. This mechanism, demonstrated for NMDAR antibodies in autoimmune encephalitis and extended to GPCRs in the primary document, explains why some autoantibodies cause functional deficits without any measurable agonistic or antagonistic activity [@Kim2026nmdar_cryoem].
+
+The clinical effect depends on which receptors are targeted, in which tissues, with which functional effect, and in which Fc-glycoprofile state. This combinatorial complexity — receptor type × tissue location × functional mode × glycoprofile — is why a single "GPCR autoantibody panel" does not predict symptoms, treatment response, or prognosis.
+
+---
+
+## The 29–91% range: what it actually means
+
+The prevalence range for GPCR autoantibodies in ME/CFS spans 29–91% across seven studies. This is not biological variability — it is measurement chaos.
+
+- **Loebel 2016** (n=268 ME/CFS, n=108 controls) used a bioassay measuring functional receptor activation: 29.5% had ≥1 elevated GPCR AAb. This is the most conservative and most functionally meaningful estimate.
+- **Bynke 2020** (Sweden, n=~100) used a different ELISA platform: 79–91% had ≥1 elevated AAb. Same disease, different assay, triple the prevalence.
+- **Vernino 2022** (POTS, n=116) tested the commercial CellTrend ELISA: **98.3% of patients AND 100% of controls were α1-AAb positive.** The test could not distinguish patient from control — zero diagnostic value.
+- **Germain 2025** (n=172 participants) ran the highest-resolution platform available — REAP, screening 6,183 exoproteome antigens — and found **zero** significant autoantibody signals (q<0.68). Complete null.
+
+The pattern is systematic: the more functional and specific the assay, the lower the prevalence. The less specific the assay, the higher the prevalence — until, at the limit, 100% of healthy controls test positive and the assay collapses. The implication, uncomfortable but honest, is that **many of the reported GPCR autoantibody associations may be assay artefacts rather than disease-specific signals** [@POTS2022failed_replication].
+
+The one consistent signal across studies — and the one finding that survives the measurement controversy — is β2-adrenergic autoantibodies. Azcue 2026 found β2-AAb elevated in ME/CFS vs post-COVID and healthy controls (F=3.15, p=0.046), and β2-AAb levels correlated with autonomic symptom severity (r=0.45, p=0.001) — the strongest quantitative AAb–symptom correlation to date. β2 is the most consistently replicated GPCR target in ME/CFS [@Azcue2026gpcr].
+
+---
+
+## The Fc glycoprofile: why the same titre means different things
+
+All IgG antibodies have a conserved glycosylation site at asparagine-297 in the Fc region. The sugar structure attached there — the glycoprofile — determines effector function:
+
+- **Agalactosylated (G0F) IgG** — no galactose residues. This glycoform binds Fcγ receptors with high affinity, activates complement, and drives antibody-dependent cellular cytotoxicity. It is the **pro-inflammatory** glycoform, elevated in active rheumatoid arthritis and acute viral infection. If a patient's β2-AAb is predominantly G0F, it is likely pathogenic.
+- **Sialylated IgG** — terminal sialic acid residues. This glycoform engages DC-SIGN on regulatory macrophages, inducing an anti-inflammatory response. It is the **anti-inflammatory** glycoform, elevated during pregnancy (when autoimmune diseases often remit) and after successful IVIG therapy. If a patient's β2-AAb is predominantly sialylated, it may be inert or even protective.
+- **Bisected (G0FB) IgG** — intermediate; elevated in steady-state antibody responses.
+
+The same ELISA titre of β2-AAb — let's say 15 U/ml — could be predominantly G0F (pathogenic, driving autonomic dysfunction) or predominantly sialylated (inert, a remnant of a past infection that the immune system has already damped). Current commercial testing does not measure the glycoprofile. This means that a positive GPCR autoantibody test, without glycoprofile information, is **ambiguous** — it tells you the antibody is there, but not whether it is doing anything [@Loth2026website].
+
+---
+
+## The post-infectious trigger: molecular mimicry and bystander activation
+
+GPCR autoantibodies are not generated spontaneously. They arise during infection through two mechanisms:
+
+**Molecular mimicry.** Viral proteins share sequence homology with self-receptors. EBV EBNA-1 shares epitopes with adrenergic and muscarinic receptors. SARS-CoV-2 spike protein shares sequence similarity with β2-AR extracellular loops. The antibody response to the viral protein cross-reacts with the self-receptor — the immune system, targeting the virus, accidentally targets the host.
+
+**Bystander activation.** During a vigorous antiviral immune response, B-cells that recognise self-antigens — normally kept quiescent by tolerance mechanisms — become activated by the cytokine milieu and begin producing autoantibodies. The autoantibodies were not part of the antiviral response; they were collateral damage from the immune activation.
+
+Both mechanisms explain why GPCR autoantibodies appear after infection and can persist for months to years — and why their pathogenicity depends on whether the post-infectious immune environment shifts toward a pro-inflammatory (G0F) or anti-inflammatory (sialylated) glycoprofile.
+
+---
+
+## Autoimmunity by itself vs ME/CFS with autoimmunity
+
+**Classical autoimmunity on its own (no ME/CFS).** Lupus, rheumatoid arthritis, myasthenia gravis, autoimmune autonomic ganglionopathy — these are diseases where the autoantibody is the dominant pathology. Removing it (immunoadsorption, rituximab, IVIG) treats the disease. The antibody titre correlates with disease activity. The pathology is well characterised.
+
+**ME/CFS with autoantibodies (the situation this series is about).** When GPCR autoantibodies sit on top of ME/CFS, three things are different:
+
+- **The autoantibodies are one contributor.** Removing them may improve autonomic symptoms without fixing the energy failure, the immune dysregulation, or the cerebral hypoperfusion. The best-case treatment outcome is partial — the dysautonomia improves, the PEM does not [@Loth2026website].
+- **Antibody titre does not equal disease severity.** Two patients with the same β2-AAb level can have completely different clinical pictures because the Fc glycoprofile, the receptor compartment (plasma membrane vs internalised), the tissue distribution, and the host's compensatory mechanisms all modulate the antibody's effect.
+- **A failed antibody-removal trial says nothing against ME/CFS.** If immunoadsorption removes the autoantibodies and symptoms do not improve, the autoantibodies were not the dominant pathology — they were a marker of immune activation, not a driver of the disease. This is the most honest reading of the Anft 2025 result (below) and the one that should shape expectations for any autoantibody-targeted treatment.
+
+---
+
+## The bottom line
+
+Autoimmunity — specifically GPCR autoantibodies — is the most provocative and most contested topic in the Septad. The β2-adrenergic signal is consistently replicated; the commercial assays that report 91% prevalence are not. The Fc glycoprofile determines whether an antibody is pathogenic, and no one is measuring it. The passive-transfer evidence from fibromyalgia and Long COVID proves that patient antibodies can cause disease — but no ME/CFS-specific transfer study exists [@Goebel2021passiveTransferFM].
+
+The honest read: GPCR autoantibodies are real in a subset, their pathogenicity depends on factors not captured by current testing, and the treatments that remove them ([covered in the companion article](../autoimmunity-treatment/index.qmd)) have shown strong signals in uncontrolled studies and sobering nulls in controlled ones. The field is at the point where the mechanism is plausible but the therapeutic implications are unproven — and the distinction matters enormously for patients making treatment decisions.
+
+**Next in this mini-series:** the treatments — immunoadsorption, IVIG, rituximab, daratumumab, and why the controlled-trial evidence does not match the open-label signals [[see the companion article]](../autoimmunity-treatment/index.qmd).
+
+For the comprehensive, fully-cited picture of how autoimmunity is weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

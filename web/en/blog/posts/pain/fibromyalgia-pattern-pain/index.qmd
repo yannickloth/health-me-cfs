@@ -1,0 +1,101 @@
+---
+title: "Fibromyalgia Article 1: The Pain That Isn't Muscle — Fibromyalgia-Pattern Pain in ME/CFS and Why Your Nervous System Turned the Gain Up"
+description: "A plain-language guide to fibromyalgia-pattern pain and how it overlaps with ME/CFS — why pain arrives without tissue damage, how TRPV1 and TRPA1 channels are stuck open, the COX-2/PGE2 feed-forward loop that makes body heat feel like burning, the nociplastic-neuropathic hybrid, and the difference between fibromyalgia on its own and fibromyalgia-pain on top of ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Fibromyalgia, Pain, ME/CFS, Pathophysiology]
+---
+
+It hurts everywhere but no tissue is injured. You press on a muscle and it aches — but the MRI is clean, the blood tests are normal, and the rheumatologist says there is no inflammation. The wrong brightness stings. Warmth and noise crawl. A light touch on your arm lingers as a burning after-sensation for minutes after the hand is gone. Pain without damage — your nervous system turned the gain up, and nobody turned it back down.
+
+Now add the rest of ME/CFS: the crashing fatigue, the unrefreshing sleep, the brain fog. Between 47% and 76% of ME/CFS patients meet criteria for fibromyalgia — and this subgroup has worse pain, worse function, and a higher burden of every other symptom [@RamirezMorales2022overlap].
+
+This article is the conceptual overview. What fibromyalgia-pattern pain actually is, how central sensitisation works, the TRPV1/TRPA1 channels that are stuck open, the COX-2/PGE2 feed-forward loop that makes normal body temperature feel like burning, the nociplastic-neuropathic hybrid, and the difference between fibromyalgia on its own and fibromyalgia-pain *on top of* ME/CFS. The treatments — LDN, SNRIs, gabapentinoids, COX-2 inhibitors, PEA, NMDA antagonists — are covered in the [companion treatment article](../fibromyalgia-pain-treatment/index.qmd).
+
+---
+
+## First, a plain warning
+
+*This is an explanation, not self-medication advice, and I am not a doctor. Widespread pain in ME/CFS can have treatable contributors — small fiber neuropathy, MCAS, hypermobility-related joint pain, and vitamin deficiencies — and these need to be assessed before concluding the pain is purely nociplastic. The medications discussed below require a prescriber. If you have new-onset severe pain, focal weakness, or loss of bowel or bladder control, go to a hospital.*
+
+---
+
+## The short version, if you only read one part
+
+- **Fibromyalgia** is a chronic pain disorder defined by widespread pain, fatigue, and cognitive symptoms — but unlike ME/CFS, it lacks PEM as a cardinal feature. The overlap with ME/CFS is 47–76%, making it the most common co-occurring pain condition [@RamirezMorales2022overlap].
+- **Central sensitisation** — the spinal cord and brain amplifying pain signals — is present in 84% of ME/CFS and 95% of fibromyalgia. The gain is turned up, so ordinary sensory input (light touch, warmth, pressure) is processed as pain [@Nijs2021sensitization].
+- **TRPV1 and TRPA1 channels on sensory nerves are stuck open.** TRPV1 is the heat-and-capsaicin receptor — normally activated at ~43°C, but in the sensitised state, inflammatory prostaglandins lower its threshold to body temperature (~35°C), making normal warmth painful. TRPA1 is the oxidative-stress sensor — activated by ROS, H₂O₂, and reactive aldehydes that accumulate during PEM [@Macpherson2007].
+- **The pain is not "in your head" — it is in your ion channels, your spinal cord, and your small nerve fibres.** And in ME/CFS specifically, it is amplified by post-exertional mechanisms (ASIC3, P2X4, TLR4) that do not operate in fibromyalgia alone — which is why PEM makes the pain worse.
+- **The distinction matters.** Fibromyalgia-alone: treat central amplification. Fibromyalgia-on-ME/CFS: treat central amplification PLUS the PEM-driven re-sensitisation that keeps reactivating the pain after every crash.
+
+---
+
+## What is central sensitisation, for real?
+
+In a healthy nervous system, a painful stimulus — heat, pressure, a cut — activates nociceptors (pain-sensing nerve endings) in the peripheral tissue. The signal travels to the spinal cord, where it is modulated — amplified or suppressed — by descending pathways from the brainstem before reaching consciousness. The system has a gain control: when you are in danger, the brainstem disinhibits the spinal cord, making you more sensitive to pain (useful for fighting or fleeing while injured). When the danger passes, the gain is turned back down.
+
+In central sensitisation, the gain is stuck on high. Three processes converge:
+
+1. **Enhanced temporal summation (wind-up).** Repeated identical stimuli produce progressively larger pain responses — the spinal cord amplifies rather than habituates. This is NMDA-receptor-dependent and is one of the most reproducible QST findings in fibromyalgia.
+
+2. **Deficient conditioned pain modulation (CPM).** In a healthy person, a painful stimulus in one area (e.g., cold water on the hand) reduces pain sensitivity elsewhere — the "pain inhibits pain" phenomenon, mediated by descending noradrenergic and serotonergic pathways from the brainstem. In fibromyalgia and ME/CFS, this inhibitory system is weak or absent — the brain cannot turn down the volume [@Nijs2017neuroinflammation].
+
+3. **Glial activation.** Microglia and astrocytes in the spinal cord and brain become primed — they release pro-inflammatory cytokines (IL-1β, TNF-α, IL-6) and reactive oxygen species that sensitise nearby neurons. This is not "inflammation" in the rheumatological sense — CRP and ESR are normal. It is neuroinflammation, invisible to standard blood tests, measurable only by PET imaging or CSF analysis.
+
+The result: pressure that should feel like touch feels like pain (allodynia). Warmth that should feel neutral feels like burning (heat hyperalgesia). Pain that should be localised spreads to adjacent areas (secondary hyperalgesia). **The stimulus is real. The amplification is pathological.**
+
+---
+
+## TRPV1 and TRPA1: the channels stuck open
+
+### TRPV1: why body heat hurts
+
+TRPV1 is the "capsaicin receptor" — a calcium-permeable ion channel on small sensory nerve fibres that opens in response to heat (>43°C), protons (tissue acidity), and capsaicin. In a healthy person, TRPV1 is a heat-safety switch: it fires when tissue temperature approaches the damage threshold.
+
+In the sensitised state, **prostaglandin E₂ (PGE₂)**, released from inflamed or stressed tissue, binds to EP1 receptors on the TRPV1-expressing nerve terminal. This chemically lowers TRPV1's thermal threshold — from ~43°C to as low as ~35°C, which is normal body temperature [@Moriyama2005]. The result: the warmth of a blanket feels like a burn. A hot shower is intolerable. Body heat — generated by normal metabolism — is enough to keep TRPV1 partially open, producing a continuous low-grade burning sensation at rest.
+
+The PGE₂ problem is self-amplifying. TRPV1 activation upregulates **COX-2** within ~30 minutes, producing more PGE₂, which further lowers the TRPV1 threshold — a feed-forward loop that requires no ongoing tissue injury to sustain itself [@Moriyama2005]. Once the loop is established, it runs autonomously.
+
+**A distinct vascular TRPV1** on arteriolar smooth muscle complicates the picture. Unlike neuronal TRPV1, vascular TRPV1 causes *vasoconstriction* and does not desensitise. During PEM, inflammatory lipids (LPA) activate vascular TRPV1, impairing muscle perfusion — a mechanism that may explain why post-exertional muscle pain in ME/CFS is disproportionate to the exercise done [@Phan2020trpv1arterial].
+
+### TRPA1: why oxidative stress hurts
+
+TRPA1 is the "wasabi receptor" — activated by mustard oil, garlic, and environmental irritants. But its physiological trigger is **oxidative stress**: reactive oxygen species (H₂O₂), reactive aldehydes (4-HNE, from lipid peroxidation), and electrophiles modify specific cysteine residues on TRPA1, opening the channel [@Macpherson2007].
+
+During PEM, mitochondrial dysfunction generates a burst of ROS. Skeletal muscle micro-injury releases lipid-peroxidation products. The oxidative-stress signal directly activates TRPA1 on sensory nerve terminals, producing a pain signal that has no mechanical correlate — the muscle is not injured in any way visible on imaging, but the nerve is reporting damage because TRPA1 was chemically opened by the metabolic aftermath of exertion.
+
+TRPA1 is also expressed on **Schwann cells** — the glial cells that wrap peripheral nerves. When TRPA1 on Schwann cells is activated by ROS, the Schwann cell releases prostaglandins, cytokines, and CGRP into the endoneurial space, producing neurogenic inflammation *inside the nerve sheath* — independent of axonal injury. This is a plausible mechanism for the nerve-sheath pain that SFN patients describe: the nerve trunk itself is inflamed, not just the terminals [@Loth2026website].
+
+---
+
+## The nociplastic-neuropathic hybrid
+
+One of the primary document's central insights about pain in ME/CFS is that most patients do not have purely nociplastic or purely neuropathic pain — they have both, and the interaction between them makes the pain worse than either alone [@Loth2026website].
+
+- **The neuropathic component** comes from SFN — small fibres are lost (30–38% biopsy-confirmed), and the remaining fibres are hyper-excitable from mast-cell tryptase→PAR2 sensitisation. This produces the burning, shooting, electric-shock quality that neuropathic-pain questionnaires capture.
+- **The nociplastic component** comes from central sensitisation — the spinal cord and brain amplifying the signal from those hyper-excitable fibres. This produces the widespread, pressure-sensitive, multi-sensory pain that fibromyalgia criteria capture.
+- **PEM amplifies both.** Post-exertional acidosis activates ASIC3 channels on sensory nerves; ATP released from metabolically stressed muscle activates P2X4 receptors on microglia; TLR4 on microglia is activated by DAMPs from tissue stress. These three signals converge to re-sensitise the entire pain pathway every time the patient exceeds their energy envelope. This is why the pain is worse after crashes — and why the pain in ME/CFS is more treatment-resistant than the pain in fibromyalgia alone: the re-sensitisation input keeps arriving [@Loth2026website].
+
+---
+
+## Fibromyalgia by itself vs ME/CFS with fibromyalgia-pattern pain
+
+**Fibromyalgia on its own (no ME/CFS).** Fibromyalgia is a chronic pain disorder. Central sensitisation, deficient descending inhibition, and glial activation are the dominant mechanisms. Treatment targets the central amplification: SNRIs, gabapentinoids, LDN, NMDA antagonists. The pain is disabling, but it does not worsen in a delayed, predictable pattern after minimal exertion the way PEM does. Exercise that would trigger a 48-hour crash in ME/CFS may be tolerated — or even therapeutic — in pure fibromyalgia.
+
+**ME/CFS with fibromyalgia-pattern pain (the situation this series is about).** When fibromyalgia-pain sits on top of ME/CFS, three things are different:
+
+- **PEM amplifies the pain.** The post-exertional ASIC3/P2X4/TLR4 re-sensitisation means every crash is a pain flare. The energy envelope and the pain envelope are coupled — you cannot treat one without respecting the other [@Loth2026website].
+- **The treatment window is narrower.** SNRIs and gabapentinoids that are well tolerated in pure fibromyalgia may worsen brain fog and fatigue in ME/CFS. NMDA antagonists (ketamine) that are effective for fibromyalgia pain may be too dissociative for someone with ME/CFS cognitive dysfunction.
+- **Treating the pain does not fix the energy failure.** Pain relief is worth pursuing — it improves sleep, reduces the metabolic cost of being in pain, and preserves function. But pain relief does not restore mitochondrial function, clear the immune dysregulation, or reverse the cerebral hypoperfusion. It treats one amplifier in a multi-amplifier system.
+
+---
+
+## The bottom line
+
+Fibromyalgia-pattern pain is real in ME/CFS — 47–76% of patients meet criteria — and it is driven by central sensitisation (84%), stuck-open TRPV1/TRPA1 channels, a self-sustaining COX-2/PGE₂ loop, and PEM-driven re-sensitisation that fibromyalgia alone does not have [@RamirezMorales2022overlap][@Nijs2021sensitization].
+
+The honest read: the pain is an amplifier of the broader energy-immune disorder, not the core disease. Treating it improves quality of life; it does not fix the crash. The [treatment companion article](../fibromyalgia-pain-treatment/index.qmd) covers the multi-modal approach — LDN, SNRIs, gabapentinoids, COX-2 inhibitors, PEA, and the PEM-conscious dosing that distinguishes ME/CFS pain management from standard fibromyalgia care.
+
+**Next in this mini-series:** how to actually treat the pain — the medications, the dosing, and the honest "what if nothing helps" discussion [[see the companion article]](../fibromyalgia-pain-treatment/index.qmd).
+
+For the comprehensive, fully-cited picture of how fibromyalgia-pattern pain is weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

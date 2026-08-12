@@ -1,0 +1,118 @@
+---
+title: "GI Dysmotility Article 2: Treating SIBO, Gastroparesis, and the Gut — Diet, Prokinetics, Antibiotics, DAO, and What It Means When Nothing Helps"
+description: "A plain-language guide to treating GI dysmotility and SIBO in ME/CFS — meal spacing and low-histamine elimination as the first lever, SIBO antibiotics and herbal antimicrobials, elemental diet, prokinetics for MMC support, DAO for histamine intolerance, butyrate for the barrier, expected results, the honest 'what if nothing helps' discussion, and what you can actually do."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Treatment, GI Dysmotility, SIBO, ME/CFS, Gut]
+---
+
+If you have ME/CFS and gut symptoms, you are in the one system where you have direct agency — diet is a lever you can pull without a prescription, without a specialist, and without leaving your home. But the treatments beyond diet — SIBO antibiotics, prokinetics, elemental diet — require a prescriber, an understanding of the mechanism, and a plan for what a failure means.
+
+This article explains the treatment architecture. For the conceptual background — what GI dysmotility and SIBO are, the three mechanisms, and the gut-problems-alone vs ME/CFS-with-gut-problems distinction — see the [companion overview article](../sibo-gi-dysmotility/index.qmd).
+
+---
+
+## First, a plain warning
+
+*Everything below is a conversation to have with a clinician, not self-medication. SIBO antibiotics and prokinetics are prescription medications. Elimination diets — especially prolonged low-FODMAP or low-histamine — risk malnutrition and should be supervised by a dietitian. Elemental diet requires medical supervision. DAO supplements are unregulated.*
+
+---
+
+## The treatment ladder
+
+### Diet: the first lever
+
+**Meal spacing** — 4–5 hours between meals, no snacking. The migrating motor complex (MMC) only activates during fasting. In a person with impaired MMC, every snack resets the clock. Meal spacing is the simplest, lowest-cost non-pharmacological MMC support and requires no prescription, no dietitian, and no supplements. If meal spacing alone reduces bloating and early satiety within 2 weeks, you have identified a motility-dependent symptom component — and that tells you something useful about the mechanism.
+
+**Low-histamine elimination diet** — 3–4 weeks of strict avoidance of high-histamine foods (aged, fermented, cured, tinned fish, shellfish, tomatoes, spinach, aubergine, avocado, alcohol), followed by structured reintroduction. If symptoms improve by >50% within 3–4 weeks, histamine is a contributor. If weight drops or nothing changes in that window, stop — prolonged restriction without benefit causes malnutrition and eating-disorder risk without justification [@ComasBaste2020histamine].
+
+**Low-FODMAP** — for the IBS-overlap subtype (bloating, alternating diarrhoea and constipation, pain relieved by bowel movements). Three phases: 4–6 week strict elimination, structured reintroduction of individual FODMAP groups, personalised maintenance. Requires a dietitian — the restriction phase is nutritionally inadequate if prolonged, and unsupervised FODMAP elimination can worsen dysbiosis by starving beneficial fibre-fermenting bacteria.
+
+### SIBO treatment
+
+**Rifaximin** 550 mg three times daily for 14 days — first-line for hydrogen-predominant SIBO. It is non-absorbed (stays in the gut), has a low side-effect profile, and has trial evidence for IBS with SIBO. If methane is elevated (IMO — intestinal methanogen overgrowth), add **neomycin** 500 mg twice daily. If hydrogen sulfide is suspected (rotten-egg-smelling gas, diarrhoea), **metronidazole** or dietary sulfate reduction is more targeted. SIBO recurs if the motility defect is not addressed — antibiotics alone have a ~44% recurrence rate within 9 months.
+
+**Herbal antimicrobials** — berberine, allicin (for methane), oregano oil, neem — have evidence roughly equivalent to rifaximin for SIBO (46% vs 34% normalisation in one head-to-head study) and are available without prescription. They are not harmless — berberine can lower blood pressure and interact with CYP450 enzymes, and oregano oil is caustic to the oesophagus if taken undiluted.
+
+**Elemental diet** — a liquid formula of pre-digested nutrients that requires no digestion, starving bacteria while feeding the patient. 14 days of exclusive elemental diet achieves 80–85% SIBO eradication — the highest rate of any intervention — but palatability, cost, and the practical burden are significant barriers. In severe ME/CFS, the elemental diet paradoxically may reduce burden (no cooking, no decision-making about food) while treating the SIBO.
+
+**Prokinetics** — low-dose erythromycin (50 mg at bedtime, motilin agonist, stimulates gastric MMC), prucalopride (1–2 mg daily, 5-HT₄ agonist, stimulates small-bowel MMC), or metoclopramide (only FDA-approved gastroparesis drug, but carries a tardive dyskinesia risk with prolonged use). Prokinetics are not for acute SIBO treatment — they are for preventing recurrence after eradication, by restoring the MMC that keeps bacteria swept downstream.
+
+### Barrier and butyrate support
+
+- **Butyrate** (sodium butyrate 600–1200 mg twice daily or tributyrin) — the primary energy source for colonocytes, stabiliser of tight junctions, and HDAC inhibitor that suppresses mast-cell degranulation by up to 90%.
+- **Zinc carnosine** 75 mg twice daily — stabilises the gastric and intestinal mucosal barrier.
+- **L-glutamine** 5 g daily — the primary fuel for enterocytes during small-intestinal barrier repair.
+
+### DAO supplementation
+
+DAO enzyme capsules (derived from porcine kidney), taken 15 minutes before meals, degrade dietary histamine in the gut lumen. If post-meal flushing, tachycardia, and brain fog improve, histamine intolerance is confirmed. DAO is not a treatment for MCAS — it only addresses the dietary-histamine load, not the endogenous mast-cell production. It is a low-risk diagnostic-therapeutic agent that can be trialled alongside dietary changes.
+
+---
+
+## Expected results
+
+- **Meal spacing works quickly or not at all.** If 4–5 hour gaps between meals reduce bloating within 2 weeks, the MMC is functional and motility is the lever. If it does nothing, the MMC may be too impaired for meal spacing alone to restore it.
+- **The low-histamine diet is a 3–4 week diagnostic probe.** If symptoms improve, continue with structured reintroduction. If nothing changes, stop the restriction — do not drift into long-term malnutrition.
+- **Rifaximin works within the 14-day course or not at all.** If bloating, distension, and bowel habits normalise, SIBO was present. If nothing changes — and the breath test was positive — one honest possibility is a false-positive breath test (~30–40% rate).
+- **Prokinetics prevent recurrence, not acute SIBO.** If SIBO recurs within 3 months of antibiotics, the MMC is not being maintained — add a prokinetic. If SIBO does not recur without prokinetics, the MMC recovered on its own.
+- **DAO is a diagnostic probe, not a long-term fix.** If DAO supplementation improves post-meal symptoms, HIT is dominant and dietary management is the long-term strategy. DAO supplementation confirms the mechanism; it does not replace dietary histamine avoidance.
+
+---
+
+## An example structured trial
+
+*This is an example to give your clinician something to work from — not a self-prescription.*
+
+Start with meal spacing: 4–5 hours between meals, no snacking. Reassess bloating and early satiety at 2 weeks. If improved, continue — you have a motility-dependent component.
+
+Add the low-histamine diet for 4 weeks. **Reassess at 4 weeks.** If post-meal flushing, tachycardia, and brain fog improve by >50%, histamine is a contributor. If nothing changes, stop the diet — histamine is not the dominant mechanism.
+
+If bloating, early satiety, and alternating bowel habits persist despite meal spacing, get a lactulose breath test. If hydrogen or methane is elevated, treat with rifaximin 550 mg TID ± neomycin 500 mg BID for 14 days. Reassess at 4 weeks post-treatment. **If SIBO symptoms recur within 3 months**, add a prokinetic (erythromycin 50 mg at bedtime). Reassess at 12 weeks. Stop the prokinetic if SIBO has not recurred at 6 months — the MMC may have recovered.
+
+If all of the above fails and SIBO is confirmed on repeat testing, consider a 14-day elemental diet under medical supervision.
+
+**Only add one intervention at a time.** Adding everything at once — meal spacing + low-histamine + rifaximin + prokinetic simultaneously — makes it impossible to know what helped.
+
+---
+
+## What it means if the treatment does not help
+
+**One: SIBO treatment may fail because the breath test was a false positive.** Breath tests have a ~30–40% false-positive rate, and the 2024 consensus statement's "remains unproven" conclusion is a genuine epistemic limitation. If rifaximin and herbal antimicrobials produce no benefit, one honest possibility is that SIBO was never the problem — the symptoms had a different mechanism (visceral hypersensitivity, MCAS, rapid transit).
+
+**Two: the low-histamine diet may fail because histamine is not the problem.** If 4 weeks of strict dietary histamine reduction produces no change, and DAO supplementation also fails, histamine is unlikely to be a major contributor — stop dietary restriction and look to other mechanisms.
+
+**Three: prokinetics may fail because the MMC is structurally damaged, not just slowed.** If ICCs are destroyed by autoantibodies, not just functionally suppressed, a drug that stimulates residual ICC function may have limited effect. The distinction matters for expectations — prokinetics support residual function; they do not regenerate lost pacemaker cells.
+
+**Four: the gut may not be the dominant amplifier.** If you have treated SIBO, eliminated histamine, restored butyrate, and taken prokinetics — and the fatigue, brain fog, and PEM are unchanged — the gut was a passenger, not a driver, in your specific case. That is honest and useful information. Stop pursuing gut-targeted treatments and move to the next amplifier.
+
+**Five: elemental diet may fail because the underlying cause was never the bacteria.** Elemental diet removes all dietary substrate for bacterial fermentation — if 14 days of exclusive elemental diet produces no improvement, the symptoms were not bacterial-overgrowth-driven. They may be visceral hypersensitivity, MCAS, or rapid transit. That is a finding — the most aggressive SIBO treatment available has been tested and has failed, and the probability that SIBO is the dominant mechanism drops substantially.
+
+---
+
+## The falsifiable predictions
+
+- **If mast-cell stabilisers (cromolyn, ketotifen) improve GI dysmotility independent of diet changes**, mast-cell mediators are a direct motility brake, and stabilisers are upstream of prokinetics in the treatment algorithm.
+- **If butyrate supplementation reduces mast-cell degranulation markers (urinary methylhistamine, prostaglandin D₂ metabolite) in SIBO-positive ME/CFS**, the butyrate-deficiency→mast-cell-disinhibition pathway is clinically relevant and the microbiome-mast-cell axis is a targetable mechanism.
+- **If prokinetics prevent SIBO recurrence in patients with normal ICC function (anti-CdtB/anti-vinculin negative) but fail in patients with positive anti-ICC antibodies**, the ICC-damage mechanism is clinically actionable and antibody testing should guide prokinetic expectations.
+
+---
+
+## What you can actually do
+
+- **Start with meal spacing.** Four to five hours between meals, no snacking. This costs nothing, requires no prescription, and directly supports MMC function. If it helps, you have identified a motility-dependent symptom component.
+- **Trial a low-histamine diet for 4 weeks with a clear stop-date.** If symptoms improve, histamine is relevant. If nothing changes, stop the restriction.
+- **Get a lactulose breath test, but read it critically.** A positive test suggests SIBO; a negative test does not rule it out. Treat the clinical picture, not a borderline number.
+- **If SIBO is treated, add a prokinetic to prevent recurrence.** Antibiotics clear the overgrowth; only restored MMC function prevents it from coming back.
+- **Consider DAO before meals as a diagnostic probe.** DAO improvement = HIT. DAO no improvement + antihistamine improvement = MCAS. Neither helps = mechanism is not histamine.
+- **Accept that the gut is one amplifier among several.** Treating it may reduce the total illness burden without fixing the energy crisis. That is not failure — it is accurate targeting in a multi-amplifier system.
+
+---
+
+## The bottom line
+
+GI dysmotility treatment in ME/CFS runs from meal spacing and low-histamine elimination through SIBO antibiotics and elemental diet to DAO, butyrate, and prokinetics. Diet is the first lever — the intervention the patient controls directly — and the pharmacology is supportive, not central [@Loth2026website].
+
+A failed trial of any one intervention tells you something specific — which mechanism is not dominant in your case — and that is useful information, not a personal failure. The structured-trial architecture (one intervention at a time, named endpoint, named stop-rule) is how you distinguish signal from noise in a multi-mechanism system.
+
+For the comprehensive, fully-cited picture of how GI dysmotility and the gut microbiome are weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

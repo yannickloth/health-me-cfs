@@ -1,0 +1,73 @@
+---
+title: "Hypermobility Article 3: When the Treatment Doesn't Help — What Failure Means for Hypermobility on Top of ME/CFS"
+description: "The honest, uncomfortable discussion about hypermobility treatment failure in ME/CFS — why physiotherapy can't fix everything, the deconditioning-PEM trap, the matrix-stiffness tipping point, the falsifiable predictions, and what you can actually do when the loose tissue is permanent."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Treatment, Hypermobility, hEDS, ME/CFS, Treatment Failure]
+---
+
+You did the physiotherapy. You tried the bracing, the compression, the timed vitamin C. Maybe you tried the doxycycline. And your joints still sublux, your blood still pools, and the energy crisis is exactly where it was. None of that is a verdict on your illness — but it is a finding, and this article explains what it means.
+
+Hypermobility treatment failure is different from MCAS or POTS failure, because there was never a drug that could fix the collagen. What a failure means is specific, honest, and worth understanding before you conclude "nothing works."
+
+This is the third of three articles. For the background — what hEDS is, the five mechanistic pathways, acquired progressive hypermobility, and the neurodivergence connection — see the [overview](../hypermobility-heds/index.qmd). For how the treatments work, see the [treatment article](../hypermobility-heds-treatment/index.qmd).
+
+---
+
+## First, a plain warning
+
+*This is an explanation, not self-medication advice, and I am not a doctor. A treatment failure in hypermobility is a reason to revisit the diagnosis and the management plan with a clinician — not a reason to conclude that you are not suffering or that your connective tissue is fine. If you have progressive neurological symptoms or loss of bowel or bladder control, that is a medical emergency — go to a hospital.*
+
+---
+
+## What it means if the treatment does not help
+
+**One: physiotherapy failure may mean the load exceeded the tissue, not that the approach was wrong.** Hypermobile connective tissue has a narrower mechanical window than normal tissue — too little load and muscles atrophy, too much and joints sublux or PEM triggers. Finding that window when both constraints pull in opposite directions — deconditioning requires loading, PEM forbids it — is objectively difficult. A failed physiotherapy trial is more likely a dosing problem (load, frequency, rest) than a proof that strengthening does not work. And in ME/CFS, the window may simply not exist: the minimum load needed to prevent atrophy may already exceed the maximum load that avoids PEM. That is not a failure of you or your physiotherapist. It is a failure of the available tools in a system with two incompatible constraints.
+
+**Two: the hEDS diagnosis itself may be a poor fit.** Because hEDS has no molecular marker, and because the clinical criteria capture a substantial fraction of the general population, some people diagnosed with hEDS may sit at the hypermobile end of a normal distribution — with real symptoms, but not a specific connective-tissue disease. If treatments aimed at "the collagen" feel like they are missing the target, one honest possibility is that the hEDS label was the wrong frame, and the symptoms are better explained by central sensitisation, SFN, or another pathway. The fact that the hEDS autonomic profile resembles fibromyalgia more closely than it resembles other EDS types is evidence for this reading [@MECFSScience2024heds]. Distinguish carefully: "the hEDS diagnosis may not be the right frame for my symptoms" is a legitimate clinical question. "My symptoms are not real because the hEDS diagnosis might be wrong" is a reasoning error — the symptoms are real regardless of whether the label captures them.
+
+**Three: the deconditioning spiral and the PEM spiral pull in opposite directions.** In hEDS, 78% report exercise intolerance, sedentary behaviour increases from 44% to 85% after symptom onset, and dysautonomic patients show measurable cardiac atrophy — smaller cardiac chambers, reduced left ventricular end-diastolic volume [@RuizMaya2021cardiac]. These are the consequences of *not* moving. But in ME/CFS, movement that crosses the anaerobic threshold triggers PEM — a genuine worsening of the disease, not "feeling tired." The deconditioning spiral is real, and the PEM spiral is real, and they pull in opposite directions. If treatment fails, one honest reading is that the balance between the two has not been found — not that the patient did not try hard enough. The clinical art is moving enough to prevent atrophy without crossing the PEM threshold, and for some patients, that window may be vanishingly small. For those patients, the honest clinical recommendation is to accept that physiotherapy cannot safely be done — not because it would not help the joints, but because the cost to the energy system exceeds the benefit to the joints.
+
+**Four: the matrix-stiffness bistable model predicts that once the system crosses the tipping point, recovery may require sustained, multi-target intervention.** If the mast-cell-ECM feedback loop has degraded collagen past the point where the healthy state is accessible, intermittent treatment (occasional antihistamines, periodic physiotherapy) may be insufficient — the system keeps drifting back to the degraded state. The model predicts that sustained, multi-target treatment (mast-cell stabilisers + MMP inhibition + collagen-precursor support) over months may be needed to flip the system, and for some patients, the collagen may be structurally degraded past the point of any reversibility [@Loth2026website]. This is a model prediction, not a clinical fact — but it offers an honest reading of why some patients do not respond: the structural damage accumulated during years of untreated MCAS may not be reversible by any current intervention. If you have been hypermobile since childhood (congenital laxity) and the primary document's model is correct, the failure is mechanical — the collagen was never tight, and no intervention will make it tight. That is not a treatment failure in the conventional sense. It is the expected outcome when the target (collagen quality) cannot be changed by any known intervention.
+
+**Five: the congenital-vs-acquired triage may be the most important distinction you never made.** If your hypermobility has been stable since childhood (same Beighton score at 15 and 35, same joints involved, no progression), you have congenital laxity — and the mechanical, nutritional, and pharmacological interventions that target *acquired* degradation will have limited effect. The honest move is to focus on joint protection, bracing, compression, and treatment of downstream amplifiers (POTS, MCAS). If your hypermobility has worsened in adulthood — more subluxations, new joint involvement, correlation with MCAS flares — you have acquired progressive hypermobility, and the treatments that failed may have been targeting the wrong component (congenital) while missing the active one (acquired). Revisit the triage with your clinician: if the hypermobility is progressive, the mast-cell-ECM-MMP axis is a rational target. If it is stable, it is not.
+
+**Six: a sequence of well-run failures — physiotherapy at appropriate intensity with no benefit, bracing that does not improve function, doxycycline with no change in joint stability at 12 weeks, circadian collagen support with no improvement in injury frequency at 6 months — is genuine evidence that connective-tissue laxity is not the dominant amplifier in your specific case.** That is useful information, and the honest next step is to stop pursuing the collagen pathway and shift attention to the downstream amplifiers (POTS, MCAS, SFN) and the energy/immune core. It is not a verdict on your illness. It is not a verdict on the hEDS diagnosis. It is the honest, disciplined answer to the question "is treating the collagen helping?" — and the answer is no, so the resources go elsewhere.
+
+---
+
+## The falsifiable predictions
+
+For those who find the framework useful, here is what would confirm or refute the hypermobility-in-ME/CFS story:
+
+- **If hypermobile ME/CFS patients show lower ex-vivo mast-cell degranulation thresholds that correlate with Beighton score**, the mechanical-mast-cell-activation hypothesis gains direct support [@Loth2026website].
+- **If hEDS patients without ME/CFS have normal NK cytotoxicity and MDSC frequency, while ME/CFS+hEDS patients show the full immune signature**, hypermobility is a permissive substrate rather than a primary immune driver [@Wirth2026CTDMECFS].
+- **If the autonomic profile of hEDS patients is indistinguishable from fibromyalgia and distinct from vascular EDS**, the central-sensitisation reading gains support over the peripheral-structural-defect reading [@MECFSScience2024heds].
+- **If timed ascorbic acid + α-KG improves objective collagen-crosslinking markers (hydroxyproline, serum PICP) compared to same total dose at a fixed time**, circadian collagen support is an actionable low-cost intervention [@Loth2026website].
+- **If low-dose doxycycline reduces circulating MMP-9 and slows joint-hypermobility progression in the acquired-hypermobility subgroup (documented adult-onset worsening, MCAS-positive), but not in the congenital-stable subgroup (Beighton stable since childhood)**, the congenital-vs-acquired triage is validated.
+- **If the mast-cell–ECM bistable model is correct:** patients with shorter illness duration (<5 years) should respond better to mast-cell stabilisers than patients with longer duration (>10 years), because less cumulative collagen degradation has occurred — and the difference should exceed the effect of baseline Beighton score.
+- **Individual-level falsifier:** a patient who has congenital-stable hypermobility (unchanged since childhood), has failed physiotherapy at an appropriate intensity, has no MCAS symptoms, and has no CCI on upright MRI, for whom hypermobility-targeted treatments produce no improvement, is genuine evidence that connective-tissue laxity is not the dominant amplifier — and the honest move is to stop pursuing the collagen pathway.
+
+---
+
+## What you can actually do
+
+*This is not medical advice; it is a map of the conversation to have with a clinician.*
+
+- **Start with the Beighton score — but do not stop there.** A positive Beighton (≥5/9 in adults) should trigger a full hEDS diagnostic assessment, including skin, pain, and family-history criteria. Do not self-diagnose hEDS from the Beighton score alone — the Beighton is a screening tool for joint laxity, and joint laxity alone is not hEDS.
+- **Triage: congenital vs acquired.** If your hypermobility has been stable since childhood, the main levers are mechanical (physiotherapy, bracing, compression) and the treatment of downstream amplifiers. If it has worsened in adulthood — more subluxations, new joint involvement, correlation with MCAS flares — the acquired-degradation pathway may be active, and mast-cell stabilisation plus a discussion about low-dose doxycycline with your clinician may be worth having.
+- **Find a physiotherapist who understands both hypermobility and ME/CFS.** This is hard. The physio needs to know isometric and mid-range-only loading for unstable joints, AND that PEM means aerobic thresholds must be respected, sessions must be short, and rest days are non-negotiable. If your physio tells you to "push through the fatigue" or "feel the stretch," find a different physio.
+- **Compression is low-risk, high-yield, and supported by evidence.** Waist-high 20–30 mmHg compression stockings directly target the vascular-laxity pathway and are one of the few interventions with controlled evidence in ME/CFS. If you cannot pull them on yourself, use a donning aid or ask a caregiver.
+- **Make a trial of each intervention concrete and time-limited.** Isometric physio: named exercises, named frequency (e.g., 3×/week, 5-minute sessions), reassess at 8 weeks. Circadian collagen support: timed vitamin C 1000 mg + α-KG 200 mg at sleep onset, reassess at 12 weeks. Low-dose doxycycline: 20–40 mg twice daily, reassess joint stability at 12 weeks, stop if no change. One intervention at a time.
+- **Take a well-run failure as a finding** and bring it back to the clinician — it points you away from the collagen pathway and toward the next hypothesis. It does not mean you are not sick. It is not a verdict on your illness.
+- **Accept that the loose tissue is permanent and the management is lifelong.** No drug will tighten your collagen to normal. The goal is not to fix the connective tissue — it is to manage the cascade it enables, protect the joints from cumulative damage, and keep the energy budget balanced. That is not resignation. It is accurate targeting.
+
+---
+
+## The bottom line
+
+Hypermobility treatment failure in ME/CFS has specific, honest meanings — a dosing problem (physiotherapy load), a diagnostic mismatch (hEDS label may be the wrong frame), an incompatible-constraints problem (deconditioning spiral vs PEM spiral), a structural-irreversibility problem (matrix-stiffness bistable model), or a targeting error (congenital vs acquired triage). None of these is a verdict on the patient. Each points to a different next step [@Loth2026website].
+
+A well-run failure — congenital-stable hypermobility, no MCAS, physiotherapy at an appropriate intensity, doxycycline null at 12 weeks, collagen support null at 6 months — is genuine evidence that the collagen pathway is not the dominant amplifier, and the honest move is to shift attention to POTS, MCAS, SFN, and the energy/immune core.
+
+For the comprehensive, fully-cited picture of how connective tissue disorders are weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

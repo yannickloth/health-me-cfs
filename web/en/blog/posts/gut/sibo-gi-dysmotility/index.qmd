@@ -1,0 +1,95 @@
+---
+title: "GI Dysmotility Article 1: SIBO, Gastroparesis, Histamine, and the Gut That Misbehaves in ME/CFS"
+description: "A plain-language guide to GI dysmotility and SIBO in ME/CFS — why the stomach empties slowly, how bacteria steal your breakfast, the mast-cell-gut-motility connection, hydrogen sulfide as a mitochondrial toxin, the DAO-histamine connection, and the difference between gut problems on their own and gut problems on top of ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [GI Dysmotility, SIBO, ME/CFS, Gut, Pathophysiology]
+---
+
+Your stomach empties slowly. You are full for hours after a tiny meal, bloated, cramping, or running to the toilet with no explanation. You eat and the fatigue deepens — not in an hour, but within minutes, as if the food itself is draining what little energy you have. The more your gut misbehaves, the more your whole body flares: brain fog, mast-cell flushing, orthostatic intolerance, pain. One system, dominoed.
+
+Now add the rest of ME/CFS: the PEM, the unrefreshing sleep, the energy crisis. Somewhere in the gut — in the slow motility, the bacteria growing where they should not, the barrier that leaks, the mast cells that fire at food proteins — a substantial fraction of the total illness burden is being generated. And the gut is the one system where the patient has direct agency: diet is the first lever.
+
+This article is the conceptual overview. What GI dysmotility and SIBO actually are, the three mechanisms (ICC/vagal failure, mast-cell–gut axis, H₂S mitochondrial poisoning), the DAO-histamine connection, and the difference between gut problems on their own and gut problems *on top of* ME/CFS. The treatments — meal spacing, low-histamine elimination, SIBO antibiotics and herbals, elemental diet, DAO, and prokinetics — are covered in the [companion treatment article](../sibo-gi-treatment/index.qmd).
+
+---
+
+## First, a plain warning
+
+*This is an explanation, not self-medication advice, and I am not a doctor. Rapidly progressive weight loss, inability to keep down liquids, severe abdominal pain, or blood in the stool require urgent evaluation. Elimination diets — especially prolonged low-FODMAP or low-histamine — risk malnutrition and should be supervised by a dietitian.*
+
+---
+
+## The short version, if you only read one part
+
+- **GI symptoms affect 70–90% of ME/CFS patients** — nausea, bloating, early fullness, alternating diarrhoea and constipation, food intolerances — making the gut the most consistently involved organ system outside the brain.
+- **Three mechanisms converge.** (1) Autonomic neuropathy damages the interstitial cells of Cajal and the vagus, slowing gut motility — food sits, bacteria grow (SIBO). (2) Mast cells in the gut mucosa degranulate, releasing histamine, tryptase, and prostaglandins that further slow motility and increase permeability. (3) Sulfate-reducing bacteria produce hydrogen sulfide (H₂S), which directly poisons mitochondrial Complex IV — the same target as cyanide — draining cellular ATP [@Nicholls2013sulfideCOX].
+- **SIBO is real in ME/CFS but its diagnosis is contested.** Breath tests have high false-positive rates, and a 2024 international consensus statement concluded the SIBO hypothesis "remains unproven" [@Kashyap2024SIBOcritique]. Treat the clinical picture, not the breath-test number.
+- **Treating the gut rarely fixes the energy crisis, but ignoring the gut makes the energy crisis worse.** The gut is an amplifier — histamine overload, nutrient malabsorption, and H₂S toxicity all drain a system that is already in deficit.
+
+---
+
+## Three mechanisms
+
+### The motility failure: ICC damage, vagal dysfunction, and autoimmunity
+
+The gut's rhythmic contractions — the migrating motor complex (MMC) that sweeps bacteria downstream between meals — is orchestrated by the **interstitial cells of Cajal (ICC)** , pacemaker cells that link smooth muscle to the enteric nervous system [@Deloose2012MMCreview]. In post-infectious ME/CFS, two processes damage the ICC:
+
+- **Autoantibodies.** Anti-CdtB and anti-vinculin antibodies, generated after bacterial gastroenteritis (Campylobacter, E. coli), cross-react with ICC proteins, damaging the pacemaker cells and impairing MMC function. This is the best-documented mechanism for post-infectious IBS and SIBO.
+- **Vagal dysfunction.** The vagus nerve drives gastric phase III of the MMC. Structural vagal denervation — documented in Long COVID by gastric mucosal biopsy showing selective loss of cholinergic nerve fibres — impairs stomach emptying specifically. The small-bowel MMC is driven by the enteric nervous system, not the vagus, so vagal dysfunction alone does not cause SIBO — but vagal dysfunction plus ICC damage can [@acanfora2026vagaldenervation].
+
+When the MMC fails, bacteria that should be swept into the colon accumulate in the small intestine. This is **SIBO** — small intestinal bacterial overgrowth. The bacteria ferment carbohydrates, producing hydrogen, methane, or hydrogen sulfide gas. Methane slows transit further (a positive-feedback loop). Hydrogen sulfide is a mitochondrial toxin. All three steal nutrients before you can absorb them.
+
+### The mast-cell–gut axis: histamine, permeability, and the motility brake
+
+Mast cells are concentrated in the gut mucosa — more than in any other tissue. In MCAS, they degranulate inappropriately, releasing:
+
+- **Histamine**, which directly stimulates gut secretion and can trigger diarrhoea. Histamine also feeds back to the brain via H3 receptors, suppressing acetylcholine, serotonin, and norepinephrine release — the neurochemical basis of post-meal brain fog.
+- **Tryptase**, which activates PAR2 on enteric nerves, slowing motility and increasing visceral hypersensitivity — the gut becomes more sensitive to normal distension, producing pain and bloating from ordinary amounts of gas [@Novak2022].
+- **Prostaglandins**, which increase intestinal permeability by loosening tight junctions between epithelial cells.
+
+The bidirectional loop is self-amplifying. Dysbiosis (SIBO, low butyrate producers) reduces the short-chain fatty acids (butyrate, propionate) that normally inhibit mast-cell degranulation — butyrate suppresses mast-cell activation by up to 90% through HDAC inhibition [@Folkerts2020butyrate]. Without this suppression, mast cells fire more, damaging the barrier, which allows more bacterial products (LPS) to translocate, which activates more mast cells. The loop runs.
+
+### Hydrogen sulfide: the mitochondrial poison nobody tests for
+
+Sulfate-reducing bacteria — Desulfovibrio, Bilophila, Fusobacterium — convert dietary sulfate and taurine into hydrogen sulfide (H₂S). At low concentrations, H₂S is a physiological gasotransmitter that regulates vascular tone. At high concentrations — produced by an overgrown sulfate-reducing population in SIBO — H₂S binds to the **CuB/heme-a₃ site of cytochrome c oxidase (Complex IV)** , the terminal enzyme of the mitochondrial electron transport chain [@Nicholls2013sulfideCOX]. This is the same binding site targeted by cyanide.
+
+The inhibition is biphasic and partially reversible: low micromolar concentrations chronically reduce ATP output without causing cell death. Portal circulation carries H₂S directly from the gut to the liver; when the liver's detoxification capacity is overwhelmed, H₂S enters the systemic circulation and inhibits Complex IV in every tissue. The result is a systemic energy drain that is invisible to standard blood tests — H₂S is not measured in clinical practice [@Pimenta2024sulfidogenic].
+
+---
+
+## The DAO–histamine connection: why food makes you flare
+
+Diamine oxidase (DAO) is the intestinal enzyme that degrades dietary histamine before it can enter the bloodstream. DAO is produced by gut epithelial cells; its activity is reduced by mucosal inflammation, SIBO, and genetic polymorphisms in the AOC1 gene (present in ~15–20% of the population). When DAO activity is low, high-histamine foods (aged cheeses, fermented foods, cured meats, wine, tomatoes, spinach) deliver a histamine load that the gut cannot clear.
+
+This matters in ME/CFS because the distinction between **histamine intolerance** (HIT — impaired DAO-mediated degradation of dietary histamine, with normal mast-cell function) and **MCAS** (excessive endogenous histamine production from hyperactive mast cells) changes the treatment. HIT responds to DAO supplementation and a low-histamine diet; MCAS requires mast-cell stabilisers and antihistamines. The two can coexist, and the primary document proposes a diagnostic probe: supplement DAO before meals. If DAO alone reduces post-meal symptoms, HIT is dominant. If antihistamines are needed in addition, MCAS is active. If neither DAO nor antihistamines help, the mechanism is not histamine-driven [@Loth2026website].
+
+---
+
+## The order matters: gut problems are usually downstream, not the cause
+
+GI dysmotility in ME/CFS is almost always downstream of the systemic illness, not its cause. The ICC damage is post-infectious (antibodies generated during the initial gastroenteritis persist and continue to damage the pacemaker cells). The vagal denervation is post-viral (COVID, EBV, or other neurotropic infection damaging the vagus directly). The mast-cell–gut loop is a consequence of systemic MCAS, not a primary gut disorder. The hydrogen sulfide problem is driven by the bacterial overgrowth that follows the motility failure.
+
+But — as with every amplifier in this series — "downstream" does not mean "does not matter." Once the gut loop is running, it adds a histamine load, a nutrient-malabsorption burden, and an H₂S energy drain on top of an already-depleted system. Treating the gut does not fix the core energy/immune defect, but **not** treating the gut means the system drains faster than it can recover.
+
+---
+
+## Gut problems by themselves vs ME/CFS with gut problems
+
+**IBS/SIBO on their own (no ME/CFS).** IBS is a disorder of gut-brain interaction — visceral hypersensitivity, altered motility, and microbiome shifts produce pain, bloating, and altered bowel habits. SIBO is a defined overgrowth treatable with antibiotics. Treatment is gut-focused: diet, prokinetics, antibiotics, and the symptoms are confined to the GI tract. Fatigue, if present, is secondary to malnutrition and resolves with gut treatment.
+
+**ME/CFS with gut problems (the situation this series is about).** When GI dysmotility sits on top of ME/CFS, three things are different:
+
+- **The gut is one amplifier.** The histamine overload, the H₂S energy drain, and the nutrient malabsorption all worsen the systemic energy deficit — but fixing the gut does not fix the PEM or the immune dysregulation [@Loth2026website].
+- **Diet is the first lever — but it is a lever, not a cure.** A low-histamine diet reduces the histamine load but does not stop the mast cells from degranulating. Meal spacing supports the MMC but does not regenerate lost ICCs. The dietary interventions are partial, supportive, and worth doing — and they are not curative.
+- **A failed gut treatment says nothing against your ME/CFS.** Because the gut is one amplifier among several, a SIBO treatment that fails to improve fatigue does not mean the SIBO was not real — it means the SIBO was not the dominant drain on your energy budget, and the honest next step is to look elsewhere.
+
+---
+
+## The bottom line
+
+The gut is the most consistently involved organ system in ME/CFS outside the brain, and it is the one system where the patient has direct agency through diet. Three mechanisms — ICC/vagal motility failure, mast-cell–driven permeability and dysmotility, and hydrogen sulfide mitochondrial poisoning — are not mutually exclusive, and they converge on the same endpoint: a gut that steals energy rather than providing it [@Loth2026website].
+
+**Next in this mini-series:** how to actually treat the gut — meal spacing, low-histamine elimination, SIBO antibiotics and herbals, elemental diet, DAO, butyrate, prokinetics, and the honest "what if nothing helps" discussion [[see the companion article]](../sibo-gi-treatment/index.qmd).
+
+For the comprehensive, fully-cited picture of how GI dysmotility and the gut microbiome are weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

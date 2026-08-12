@@ -1,0 +1,110 @@
+---
+title: "SFN Article 1: Small Fiber Neuropathy — When the Wiring Itself Is Wrong in ME/CFS"
+description: "A plain-language guide to small fiber neuropathy and how it overlaps with ME/CFS — why the nerves themselves are damaged yet over-react, how mast cells attack nerve endings through tryptase and PAR2, the visceral-vs-somatic distinction, the DRG autoimmune hypothesis, and the difference between SFN on its own and SFN on top of ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [SFN, ME/CFS, Neuropathy, Pathophysiology]
+---
+
+The pain has no seam. Burning, shooting, too-loose or too-tight, weather that lands inside your skin. Cold floors are electric. Warm water stings. Your feet cannot tell temperature apart from pain — both arrive as the same signal. And the same damaged nerves that misfire in your skin also run your sweat glands, your heart rate, and your gut. The wiring itself is wrong.
+
+Now add the rest of ME/CFS: the crashing fatigue, the brain fog, the unrefreshing sleep. Somewhere in the damage, a skin biopsy shows reduced nerve-fibre density — objective proof that the small fibres innervating your skin, your blood vessels, and your organs are genuinely lost. And yet these same nerves over-react to everything. Paradoxical hypersensitivity despite nerve damage.
+
+This article is the conceptual overview. What small fiber neuropathy actually is, how mast cells attack nerve endings through tryptase and PAR2, the visceral-vs-somatic distinction, the autoimmune hypothesis targeting the dorsal root ganglia, and the difference between SFN on its own and SFN *on top of* ME/CFS. The treatments — neuropathic-pain medications, IVIG, and mast-cell stabilisers — are covered in the [companion treatment article](../sfn-treatment/index.qmd).
+
+---
+
+## First, a plain warning
+
+*This is an explanation, not self-medication advice, and I am not a doctor. Neuropathic pain requires careful diagnosis — some causes (diabetes, vitamin deficiencies, autoimmune nerve diseases) have specific treatments. Gabapentinoids and SNRIs are prescribed medications with side-effect profiles that include sedation, dizziness, and dependency. Work with a neurologist or pain specialist. If you have rapidly progressive weakness, loss of bladder or bowel control, or ascending numbness, go to a hospital.*
+
+---
+
+## The short version, if you only read one part
+
+- **SFN** is damage to the smallest nerve fibres — the thinly myelinated A-delta and unmyelinated C-fibres that carry pain, temperature, and autonomic signals. The gold-standard diagnosis is a skin biopsy measuring intraepidermal nerve fibre density (IENFD).
+- **SFN is common in ME/CFS.** Prevalence estimates range from 30–38% biopsy-confirmed by standardised criteria to up to 80% in cohorts overlapping with fibromyalgia and mast-cell disorders. Pooled prevalence in fibromyalgia is ~49% by meta-analysis [@Grayston2019sfn].
+- **Three mechanism families converge:** (1) mast-cell neurotoxicity — tryptase activates PAR2 on Schwann cells and sensory neurons, lowering pain thresholds; (2) microvascular ischemia — vasa nervorum endothelial dysfunction starves small fibres of oxygen; (3) IgG-mediated autoimmunity targeting the dorsal root ganglia — passive transfer of patient IgG reduces IENFD in mice.
+- **SFN is usually a downstream amplifier in ME/CFS.** It explains the pain and the dysautonomia, and it links directly to POTS (31% of SFN patients meet POTS criteria), MCAS (80% of mast-cell disorder patients have SFN), and hEDS (24/24 hEDS patients in one study had SFN) [@Novak2022].
+- **The paradoxical hypersensitivity despite nerve damage** — burning pain from a light touch — is a hallmark. SFN removes the sensory gate, and mast-cell mediators further sensitise the remaining fibres.
+
+---
+
+## What is small fiber neuropathy, for real?
+
+Peripheral nerves come in sizes. Large, heavily myelinated A-beta fibres carry touch, vibration, and position sense — these are what nerve-conduction studies measure, and they are *normal* in SFN. The small fibres — A-delta (thinly myelinated) and C-fibres (unmyelinated) — carry pain, temperature, and autonomic signals. They are too small for standard nerve-conduction studies to detect, which is why SFN was invisible to neurology for decades.
+
+The skin biopsy changed that. A 3 mm punch biopsy from the lower leg, immunostained for PGP9.5 (a pan-neuronal marker), counts the nerve fibres crossing the dermal-epidermal junction. The result — intraepidermal nerve fibre density (IENFD) — is compared to age- and sex-matched norms. Values below the fifth percentile are diagnostic for SFN [@Oaklander2022SFN].
+
+In a healthy person, small fibres quietly report temperature, light touch, and the body's internal state to the brain. In SFN, fibres are lost — and the ones that remain are hyper-excitable, firing spontaneously and at exaggerated amplitudes. The result is pain without injury: burning, shooting, electric-shock sensations at rest, plus allodynia (pain from normally non-painful stimuli) and hyperalgesia (exaggerated pain from mildly painful stimuli).
+
+---
+
+## Three mechanism families
+
+### Mast-cell neurotoxicity: tryptase → PAR2 → nerve sensitisation
+
+This is the most direct link between two Septad conditions. Mast cells sit alongside small nerve fibres — in the skin, around blood vessels, in the gut mucosa, and adjacent to the dorsal root ganglia where sensory neuron cell bodies reside. When mast cells degranulate, they release tryptase, which cleaves **protease-activated receptor 2 (PAR2)** on Schwann cells and sensory nerve terminals [@Novak2022].
+
+PAR2 activation has two consequences. First, it sensitises the nerve terminal — lowering its firing threshold so that ordinary stimuli trigger pain signals. Second, it triggers neurogenic inflammation — the nerve terminal releases substance P and CGRP, which feed back to mast cells and activate them further. This creates a **self-amplifying loop**: mast cell fires → tryptase → PAR2 on nerve → nerve releases substance P → MRGPRX2 on mast cell → mast cell fires again. The loop runs without any external trigger, and it explains how a patient with both MCAS and SFN can have burning pain that does not correlate with any visible tissue injury.
+
+**CADM1** adds a physical dimension. This cell-adhesion molecule physically couples mast cells to sensory nerve endings. In the presence of CADM1, mast-cell degranulation rises several-fold on nerve contact, and IL-6 release triples — the adhesion itself amplifies the signal [@Magadmi2019].
+
+**Prevalence of the link:** approximately 80% of patients with mast-cell disorders have SFN on skin biopsy, and among POTS patients with SFN, GI symptom severity correlates with neuropathy severity — suggesting the same small-fibre damage explains both the skin pain and the gut dysmotility [@Ekman2025SFNpots].
+
+### Microvascular ischemia: the vasa nervorum problem
+
+Small nerve fibres depend on a dense capillary network — the vasa nervorum — for oxygen delivery. These capillaries are themselves innervated by autonomic small fibres, forming a feedback loop that regulates nerve blood flow. In ME/CFS, endothelial dysfunction impairs vasodilation, and systemic hypoperfusion reduces oxygen delivery. The nerve fibres, already metabolically demanding (maintaining a long axon with high ATP needs), become ischemic. Unmyelinated C-fibres, which have the highest surface-to-volume ratio and the least metabolic reserve, are the first to fail [@josephoaklander2021mecfssfn].
+
+The finding that SFN in ME/CFS is often **non-length-dependent** — affecting the proximal thigh and the foot equally, or even the face — points away from the classic "dying-back" pattern of metabolic neuropathy and toward a **dorsal root ganglion** (DRG) level process, where the cell body itself is damaged rather than the distal axon [@Azcue2023sfn].
+
+### IgG-mediated autoimmunity: the DRG hypothesis
+
+The strongest evidence for an autoimmune mechanism comes from passive-transfer experiments. When IgG purified from fibromyalgia or Long COVID patients is injected into mice, the mice develop reduced IENFD and pain behaviours — the human antibodies alone are sufficient to reproduce the neuropathy [@Goebel2021passiveTransferFM]. In Long COVID, DRG-binding IgG has been specifically identified, and IVIG — which dilutes pathogenic antibodies and provides immunomodulatory Fc-glycans — has shown a signal in the non-length-dependent subtype [@Mignolet2026passiveTransferLC].
+
+The hypothesis, developed extensively in the primary document, is that IgG targeting neuronal antigens in the DRG — where the blood-nerve barrier is naturally fenestrated and permeable to circulating antibodies — causes a cell-body-level injury to sensory neurons. The non-length-dependent pattern follows directly: if the cell body is damaged, all its peripheral branches are affected simultaneously, regardless of distance from the cell body [@Loth2026website].
+
+**The honest limit:** no ME/CFS-specific passive-transfer study has been published. All existing data come from fibromyalgia and Long COVID cohorts. The DRG-autoimmune hypothesis for ME/CFS is mechanistically coherent, supported by the non-length-dependent pattern, and consistent with the treatment signal from IVIG — but it has not been directly demonstrated.
+
+---
+
+## The visceral-vs-somatic distinction
+
+One of the more revealing recent findings distinguishes **visceral** (internal organ) from **somatic** (skin) small-fibre involvement. Acanfora et al. (2026) performed gastric mucosal biopsies in Long COVID patients and found selective loss of cholinergic nerve fibres in the stomach — but **normal** skin IENFD. The visceral autonomic denervation was present without somatic denervation, and it correlated with heart-rate variability, NT-proBNP, and D-dimer levels [@acanfora2026vagaldenervation].
+
+This matters for ME/CFS because it fragments the SFN picture: a patient could have normal leg-skin biopsy results and still have significant visceral autonomic denervation driving their gastroparesis, orthostatic intolerance, and cardiac symptoms. The skin biopsy — the gold standard — only samples somatic small fibres. Corneal confocal microscopy (CCM), which images the small fibres in the cornea non-invasively, may capture a different — possibly more systemic — picture, and studies comparing CCM to skin biopsy in ME/CFS are ongoing [@Azcue2025sfn].
+
+---
+
+## The POTS–SFN–MCAS–hEDS intersection
+
+SFN sits at the crossroads of four Septad conditions:
+
+- **POTS:** 31% of SFN patients meet POTS criteria; neuropathic POTS — where the tachycardia is driven by sympathetic denervation in the legs — is a distinct subtype that may respond differently to treatment (midodrine for vasoconstriction rather than beta-blockers for rate control) [@Azcue2023sfn].
+- **MCAS:** 80% of mast-cell disorder patients have SFN; the tryptase→PAR2→nerve-sensitisation loop is the biochemical bridge between the two conditions [@Novak2022].
+- **hEDS:** In one study, all 24 hEDS patients had reduced IENFD, and 95% met criteria for neuropathic pain. SFN may be the common downstream pathway where the structural connective-tissue abnormality and the ME/CFS functional abnormality converge — the loose tissue compresses and stretches small fibres, and the fibres, already vulnerable from metabolic and immune stress, cannot recover [@Cazzato2016sfn].
+- **Fibromyalgia:** 49% pooled SFN prevalence by meta-analysis. The nociplastic-pain picture and the neuropathic-pain picture overlap so completely in fibromyalgia that some researchers argue the distinction is clinical rather than biological — the same small-fibre damage produces both the widespread-pain pattern of fibromyalgia and the autonomic symptoms of POTS, and the diagnostic label depends on which symptoms are most prominent [@sommer2025fibromyalgiasfn].
+
+---
+
+## SFN by itself vs ME/CFS with SFN
+
+**SFN on its own (no ME/CFS).** SFN is the dominant complaint. The neuropathic pain, the temperature dysregulation, the sweating abnormalities, and the autonomic symptoms are the disease being treated. The diagnostic workup focuses on identifying the cause — diabetes, vitamin deficiency, autoimmune disease, genetic small-fibre channelopathies — and treatment targets the underlying cause where possible, or the neuropathic pain where it is not. Gabapentinoids, SNRIs, and topical agents are first-line.
+
+**ME/CFS with SFN (the situation this series is about).** When SFN sits on top of ME/CFS, three things are different:
+
+- **SFN is one amplifier.** The nerve damage explains the pain and contributes to the dysautonomia, but treating the nerves does not fix the energy failure or the immune dysregulation [@Loth2026website].
+- **Pain medications that work in diabetic neuropathy may be poorly tolerated.** Gabapentinoids and SNRIs cause sedation, dizziness, and cognitive slowing — side effects that are more costly in ME/CFS, where brain fog and fatigue are already the central complaints. The therapeutic window is narrower.
+- **A failed neuropathic-pain trial says nothing against the underlying small-fibre damage.** The nerves are objectively damaged — the biopsy and the QST show it. A drug that fails to control the pain is a failure of that drug in that patient, not evidence that the nerves are fine. Distinguish the two: "gabapentin did not help my pain" is useful pharmacology. "My nerves must be normal because the drug did not work" is a reasoning error.
+
+---
+
+## The bottom line
+
+Small fiber neuropathy is real in ME/CFS — 30–38% biopsy-confirmed, up to 80% in overlapping cohorts — and it explains the burning pain, the temperature dysregulation, and part of the autonomic dysfunction that so many patients describe [@Oaklander2022SFN][@Grayston2019sfn]. Three mechanisms converge: mast-cell tryptase→PAR2 nerve sensitisation, microvascular ischemia of the vasa nervorum, and IgG-mediated DRG autoimmunity — and they are not mutually exclusive. The same patient can have all three [@Loth2026website].
+
+SFN is usually a downstream amplifier, not the cause, and treating the pain does not fix the energy failure. But objective nerve-fibre loss on biopsy is among the strongest pieces of evidence that the symptoms are biologically real — and the treatment companion covers the pharmacological, IVIG, and mast-cell–stabilisation options that target different points in the nerve-damage cascade.
+
+**Next in this mini-series:** the treatments — gabapentinoids, SNRIs, topical capsaicin and lidocaine, IVIG for autoimmune SFN, alpha-lipoic acid for metabolic support, and the mast-cell stabilisers that interrupt the tryptase→PAR2 loop [[see the companion article]](../sfn-treatment/index.qmd).
+
+For the comprehensive, fully-cited picture of how small fiber neuropathy is weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

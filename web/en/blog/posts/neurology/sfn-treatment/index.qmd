@@ -1,0 +1,131 @@
+---
+title: "SFN Article 2: Treating Small Fiber Neuropathy in ME/CFS — Pain Medications, IVIG, Mast-Cell Stabilisers, and What It Means When the Pain Doesn't Stop"
+description: "A plain-language guide to treating small fiber neuropathy in ME/CFS — the neuropathic-pain ladder from gabapentinoids and SNRIs to topical lidocaine and capsaicin, IVIG for autoimmune SFN, alpha-lipoic acid and metabolic support, mast-cell stabilisers that interrupt the tryptase→PAR2 loop, expected results, and the honest 'what if nothing helps' discussion."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Treatment, SFN, Neuropathy, ME/CFS, Pain]
+---
+
+If you have ME/CFS and small fiber neuropathy — confirmed on skin biopsy or strongly suggested by burning, shooting pain and autonomic symptoms — you face a treatment landscape where the standard neuropathic-pain drugs have evidence in diabetic neuropathy and post-herpetic neuralgia, not ME/CFS. The sedation cost of gabapentinoids is heavier when brain fog is already a daily reality. And the autoimmune-SFN subgroup — the one most likely to respond to IVIG — is only beginning to be defined.
+
+This article explains the treatment architecture. For the conceptual background — what SFN is, the three mechanism families, and the visceral-vs-somatic distinction — see the [companion overview article](../sfn/index.qmd).
+
+---
+
+## First, a plain warning
+
+*Everything below is a conversation to have with a clinician, not self-medication. Neuropathic-pain medications cause sedation, cognitive slowing, and — in the case of gabapentinoids — physiological dependence requiring supervised tapering. IVIG is a blood product with risks of aseptic meningitis, thromboembolism, and anaphylaxis. Work with a neurologist or pain specialist who understands ME/CFS. If you have rapidly progressive weakness or loss of bladder or bowel control, go to a hospital.*
+
+---
+
+## The treatment ladder
+
+### Step one: topical agents — lowest risk, targeted delivery
+
+**Lidocaine 5% medicated plaster.** Applied directly to the most painful area for 12 hours, lidocaine blocks voltage-gated sodium channels on the small nerve fibres in the skin — the same channels that are hyper-excitable in SFN. It has essentially no systemic absorption and no cognitive side effects. The limitation is practical: it only treats the area under the plaster, and SFN pain is often widespread.
+
+**Capsaicin.** Low-concentration capsaicin cream (0.025–0.1%) applied 3–4 times daily initially worsens burning by activating TRPV1, then depletes substance P from the nerve terminals over weeks, reducing pain signalling. The initial burning is a barrier — many patients stop before the benefit appears. High-concentration capsaicin 8% patch, applied by a clinician for 30–60 minutes under local anaesthesia, delivers a single treatment that can provide pain relief for up to 3 months by defunctionalising the TRPV1-expressing nerve terminals. The mechanism makes sense for SFN — TRPV1 is concentrated on small fibres — but the evidence is in post-herpetic neuralgia and HIV neuropathy, not ME/CFS.
+
+### Step two: oral neuropathic-pain medications — with the sedation caveat
+
+**Gabapentinoids** (gabapentin, pregabalin). These bind the α2δ subunit of voltage-gated calcium channels, reducing neurotransmitter release from hyper-excitable nerve terminals. They are first-line for neuropathic pain in most guidelines. The problem in ME/CFS is **sedation, dizziness, and cognitive slowing** — the very symptoms the patient is already battling. Start low (gabapentin 100–300 mg at bedtime, pregabalin 25–50 mg), titrate slowly over weeks, and stop if sedation outweighs benefit before reaching an effective dose. Gabapentinoids cause physiological dependence; do not stop abruptly.
+
+**SNRIs** (duloxetine 30–60 mg, venlafaxine 75–225 mg). These boost descending inhibitory pain pathways by increasing norepinephrine and serotonin in the spinal cord. Duloxetine has the best neuropathic-pain evidence (diabetic neuropathy, fibromyalgia). SNRIs can be activating rather than sedating — which may be an advantage in ME/CFS fatigue — but can also worsen insomnia and anxiety at initiation. The honest limitation: the fibromyalgia evidence is positive for duloxetine; the ME/CFS-specific evidence is absent.
+
+**Tricyclic antidepressants** (amitriptyline 10–50 mg at bedtime, nortriptyline). These work through sodium-channel blockade and norepinephrine reuptake inhibition. They are effective for neuropathic pain and have the advantage of improving sleep when taken at night — but the anticholinergic side effects (dry mouth, constipation, urinary retention) and morning sedation can be a poor fit for ME/CFS patients who already have autonomic dysfunction and brain fog.
+
+### Step three: metabolic and nutritional support
+
+**Alpha-lipoic acid** 600–1800 mg daily. This antioxidant improves nerve blood flow and reduces oxidative stress in diabetic neuropathy, with a modest effect size. The rationale extends to ME/CFS — if microvascular ischemia contributes to small-fibre loss, improving endothelial function and reducing oxidative damage may slow progression. The evidence is in diabetes; no ME/CFS trial exists. It is generally well tolerated at these doses.
+
+**Acetyl-L-carnitine** 1500–3000 mg daily. Carnitine supports mitochondrial fatty-acid transport, and small nerve fibres have high mitochondrial density in their terminals. The rationale is metabolic support for stressed neurones. Again, the evidence is diabetic neuropathy, not ME/CFS.
+
+**B vitamins** (B12, benfotiamine, B6). B12 deficiency causes a myeloneuropathy that can mimic SFN; B12 levels should be checked and corrected if low. Benfotiamine (a fat-soluble B1 analogue) has some evidence in diabetic neuropathy. **B6 toxicity** — at doses above 100 mg daily — can itself cause a sensory neuropathy that looks exactly like SFN. Do not supplement high-dose B6 without monitoring levels.
+
+### Step four: IVIG — for the autoimmune-SFN subgroup
+
+If SFN is IgG-mediated — and the passive-transfer evidence from fibromyalgia and Long COVID, the non-length-dependent pattern, and the DRG-level hypothesis all point toward an autoimmune mechanism in a subset — then IVIG is the most mechanistically direct treatment. IVIG at 0.4 g/kg daily for 5 days, then monthly, has been used for autoimmune SFN in other conditions (Sjögren's, sarcoidosis) and has shown a signal in the non-length-dependent ME/CFS subtype [@Loth2026website].
+
+**What predicts response.** Non-length-dependent pattern on skin biopsy (proximal = distal involvement), documented autonomic dysfunction (QSART abnormal), and — where available — evidence of neuronal autoantibodies or DRG-binding IgG. The length-dependent pattern (stocking-glove, feet worse than thighs) is less likely to be autoimmune and more likely to be metabolic or ischemic.
+
+**Practical considerations.** IVIG is expensive, requires infusion-centre access (a physical burden in moderate-to-severe ME/CFS), and carries risks — aseptic meningitis (severe headache 24–48 hours post-infusion), thromboembolism, and rare anaphylaxis. It is not a first-line treatment. It is a mechanistically rational option for the biopsy-confirmed, non-length-dependent, autoimmune-profile patient who has failed oral medications — and it requires a neurologist comfortable with the off-label indication.
+
+### Step five: mast-cell stabilisers — interrupting the tryptase→PAR2 loop
+
+If the tryptase→PAR2→nerve-sensitisation loop is active — and in the MCAS-positive subset, it almost certainly is — then mast-cell stabilisers (cromolyn, ketotifen) and antihistamines that reduce mast-cell degranulation may reduce the ongoing neurotoxic input to the small fibres [@Loth2026website].
+
+The rationale is upstream: rather than blocking the pain signal after the nerve has been sensitised (gabapentin, SNRI), stabilising the mast cell prevents it from releasing tryptase in the first place, breaking the self-amplifying loop. The treatment is covered in detail in the [MCAS treatment article](../../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd). The SFN-specific evidence is indirect — the 80% SFN prevalence in mast-cell disorders and the PAR2 mechanism — but the intervention is low-risk in the MCAS-positive subset and mechanistically coherent.
+
+---
+
+## An example structured trial
+
+*This is an example to give your clinician something to work from — not a self-prescription.*
+
+Confirm the SFN diagnosis with a skin biopsy (PGP9.5 IENFD). Note the pattern — non-length-dependent (autoimmune-profile) vs length-dependent (metabolic/ischemic profile). This guides the treatment sequence.
+
+Start with the lowest-risk option: lidocaine 5% plaster on the most painful area, 12 hours on / 12 hours off. Reassess at 2 weeks. If the localised pain improves, continue — you have a peripheral, sodium-channel-mediated component.
+
+If the pain is widespread or lidocaine is insufficient, add gabapentin 100–300 mg at bedtime, titrate slowly over 4 weeks to the maximum tolerated dose. Reassess at 8 weeks. **Stop if sedation prevents reaching an effective dose** — the maximum tolerated dose in ME/CFS may be below the analgesic dose, and that is a pharmacological access problem, not a patient failure. If gabapentin fails, trial duloxetine 30 mg daily, titrate to 60 mg, reassess at 8 weeks.
+
+If the biopsy shows non-length-dependent SFN and oral medications have failed, discuss IVIG with a neurologist: 0.4 g/kg daily for 5 days, then 0.4 g/kg every 3–4 weeks. Reassess at 6 months. **Stop if no improvement** — a 6-month null IVIG trial is sufficient evidence that immunoglobulin therapy is not the lever.
+
+If MCAS is present (flushing, hives, histamine symptoms), add mast-cell stabilisers (cromolyn, ketotifen) as an adjunct — they target the tryptase→PAR2 loop upstream of the pain medications, but they are not a replacement for the neuropathic-pain ladder.
+
+Only add one intervention at a time. Polypharmacy before monotherapy evaluation makes it impossible to know what helped.
+
+---
+
+## Expected results
+
+- **Topicals work quickly or not at all.** Lidocaine provides relief within hours; capsaicin takes weeks. If neither helps after an adequate trial (lidocaine 2 weeks, capsaicin 4–6 weeks), the pain may not be peripherally maintained in the skin — it may be central or DRG-level.
+- **Gabapentinoids and SNRIs require dose titration over weeks to months.** The effective dose for SFN pain is often higher than the starting dose, and the sedation side effect at initiation does not predict sedation at steady state. A dose that is stopped after 3 days because of drowsiness was never given a fair trial.
+- **IVIG response may take 3–6 months.** The 5-day loading dose is followed by monthly infusions; improvement is gradual. A single cycle is not an adequate trial.
+- **Mast-cell stabilisers, if they help, help indirectly.** They are not treating the SFN — they are removing the inflammatory input that keeps the SFN active. If the small-fibre damage is already structural (fibres lost, not just sensitised), stabilisers may reduce the pain without restoring the fibre density.
+- **Combination is often needed.** Topical lidocaine patches for the most painful area + low-dose gabapentin or duloxetine for the background pain + mast-cell stabilisers if MCAS is present is a common — and mechanistically rational — multi-target approach.
+
+---
+
+## What it means if the treatment does not help
+
+**One: a failed gabapentinoid trial is not a failed SFN diagnosis.** The nerves are objectively damaged — the biopsy is the evidence. A drug that does not control the pain is a pharmacological failure, not a diagnostic failure.
+
+**Two: sedation may prevent reaching an effective dose.** The maximum tolerated dose of gabapentin in ME/CFS may be below the effective dose for neuropathic pain. This is a treatment-access problem, not a proof that the pain is not neuropathic.
+
+**Three: length-dependent SFN (stocking-glove) is less likely to respond to IVIG.** If the pattern is distal-to-proximal, the mechanism is more likely metabolic or ischemic than autoimmune. IVIG in this group has a lower expected yield.
+
+**Four: central sensitisation may dominate.** If QST shows normal small-fibre function but enhanced temporal summation (the pain signal amplifies in the spinal cord), the dominant mechanism may be central, not peripheral, and the treatment target shifts to NMDA antagonists (memantine, low-dose ketamine) and LDN — [covered in the fibromyalgia-pain article](../../pain/fibromyalgia-pain-treatment/index.qmd).
+
+**Five: a sequence of well-run failures — topicals, gabapentinoids, SNRIs, IVIG if indicated — is genuine evidence that neuropathic-pain pharmacology is not the lever.** That does not mean the nerves are fine. It means the available drugs are not sufficient, and the focus shifts to managing function within limits rather than chasing pain relief from medications that do not deliver it.
+
+---
+
+## The falsifiable predictions
+
+- **If SFN-positive ME/CFS patients respond differently to IVIG than SFN-negative**, the autoimmune-SFN subgroup is a therapeutically meaningful distinction [@Loth2026website].
+- **If mast-cell stabilisers reduce QST-assessed small-fibre hypersensitivity in MCAS-positive SFN**, the tryptase→PAR2 mechanism is clinically relevant and targetable.
+- **If corneal confocal microscopy detects small-fibre loss that correlates with autonomic symptom severity but is not reflected in skin biopsy**, the visceral-vs-somatic distinction is clinically actionable — and CCM should be added to the diagnostic toolkit.
+- **If the non-length-dependent pattern predicts IVIG response better than total IENFD**, the DRG-autoimmune mechanism is supported and the pattern should guide treatment triage.
+
+---
+
+## What you can actually do
+
+- **Get the biopsy if neuropathic pain is a dominant symptom.** A 3 mm skin punch biopsy (PGP9.5 immunostaining) is the gold standard. It is objective, it distinguishes SFN from central sensitisation, and it guides treatment triage (non-length-dependent → autoimmune workup → IVIG consideration).
+- **Start with topicals.** Lidocaine 5% patches and capsaicin cream have no systemic side effects and no cognitive cost — a meaningful advantage in ME/CFS.
+- **For oral medications, start low, go slow, and name a stop-rule.** Gabapentin 100 mg at bedtime, reassess at 4 weeks. If sedation prevents reaching an effective dose, stop and try an SNRI instead. A drug that is never titrated to an effective dose was never given a fair trial; a drug that causes intolerable side effects before reaching efficacy should be stopped — both are valid outcomes.
+- **Check B12, folate, and B6 levels before supplementing.** Correct deficiencies. Do not supplement high-dose B6 if levels are normal — B6 toxicity causes SFN.
+- **If MCAS is present, treat it.** The tryptase→PAR2 loop is active, and stabilising mast cells is upstream of the pain. See the MCAS treatment article.
+- **Accept that pain may not fully resolve.** The goal in ME/CFS-associated SFN is functional improvement — standing longer, sleeping through the night, tolerating clothing — not zero pain. Partial relief from a multi-target approach is often the realistic outcome. That is not failure. It is accurate targeting in a complex system.
+
+---
+
+## The bottom line
+
+SFN treatment in ME/CFS runs on a ladder: topicals (lidocaine, capsaicin), oral neuropathic-pain medications (gabapentinoids, SNRIs, TCAs — all with a sedation caveat), metabolic support (alpha-lipoic acid, acetyl-L-carnitine), IVIG for the autoimmune subgroup, and mast-cell stabilisers to interrupt the tryptase→PAR2 loop. The evidence for each step is extrapolated from diabetic neuropathy, fibromyalgia, and autoimmune SFN in other conditions — no ME/CFS-specific RCTs exist [@Loth2026website].
+
+A failed trial of any one drug does not falsify the SFN diagnosis. The nerves are objectively damaged. The drugs are imperfect. The honest clinical art is finding the combination that reduces pain enough to improve function without adding sedation that worsens the core illness.
+
+**Next in this series:** Fibromyalgia-pattern pain — when the nervous system turns the gain up, and pain arrives without tissue damage.
+
+For the comprehensive, fully-cited picture of how small fiber neuropathy is weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

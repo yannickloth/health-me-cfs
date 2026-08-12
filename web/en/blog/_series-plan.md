@@ -17,18 +17,20 @@ So: **9 topics, and the total exceeds 9 articles.** The name is **"the condition
 
 | Topic | Articles | Status |
 |-------|----------|--------|
-| Series landing (`mecfs-co-occurring-conditions-series`) | 1 | ✅ |
+| Series landing (`co-occurring-conditions-series`) | 1 | ✅ |
 | 1. MCAS (overview / treatment / failure) | 3 | ✅ |
-| 2. POTS / dysautonomia | 1–2 | → Scheduled |
-| 3. Hypermobility / hEDS | 1–2 | - |
-| 4. Small Fiber Neuropathy | 1–2 | - |
-| 5. Fibromyalgia-pattern pain | 1–2 | - |
-| 6. GI dysmotility / SIBO | 1–2 | - |
-| 7. Chronic infection | 1–2 | - |
-| 8. Autoimmunity | 1–2 | - |
-| 9. "Chained together" (synthesis) | 1 | - |
+| 2. POTS / dysautonomia | 2 | ✅ |
+| 3. Hypermobility / hEDS | 3 | ✅ |
+| 4. Small Fiber Neuropathy | 2 | ✅ |
+| 5. Fibromyalgia-pattern pain | 2 | ✅ |
+| 6. GI dysmotility / SIBO | 2 | ✅ |
+| 7. Chronic infection | 2 | ✅ |
+| 8. Autoimmunity | 2 | ✅ |
+| 9. "Chained together" (synthesis) | 1 | ✅ |
+|
+| **Total** | **18** | ✅ |
 
-*Each topic opens as a single article; a topic expands to 2 only if its treatment and failure discussions grow past comfortable length (as MCAS did). Final total: 10–17 articles.*
+*Series complete. 9 topics, 18 articles.*
 
 ## Goal and positioning
 
@@ -70,29 +72,41 @@ The **Septad's seven** conditions are defined in `ch06 …/hyp-the-septad-seven-
 
 The series opened (2026-08-10) with MCAS as a three-post mini-series and a landing page:
 
-- `posts/mecfs-co-occurring-conditions-series/index.qmd` — series landing.
-- `posts/mcas-mecfs-overview/index.qmd` — MCAS + ME/CFS, downstream reframe, MCAS-only vs ME/CFS-with-MCAS.
-- `posts/antihistamines-mcas-mecfs-treatment/index.qmd` — H1/H2, dosing, stabilisers.
-- `posts/when-antihistamine-doesnt-work/index.qmd` — normal tests, HIT, "flavours", amplification ratchet.
+- `posts/co-occurring-conditions-series/index.qmd` — series landing.
+- `posts/mast-cell-mcas/mcas-mecfs-overview/index.qmd` — MCAS + ME/CFS, downstream reframe, MCAS-only vs ME/CFS-with-MCAS.
+- `posts/mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd` — H1/H2, dosing, stabilisers.
+- `posts/mast-cell-mcas/when-antihistamine-doesnt-work/index.qmd` — normal tests, HIT, "flavours", amplification ratchet.
 
-## Scheduling priority (remaining)
+## Part 2 — delivered ✅
 
-Order chosen so that each article builds on the previous and pairs naturally (POTS and hypermobility come together because they share the MCAS constellation):
+POTS (2026-08-12) as a two-post pair:
 
-| Pri | # | Topic | Why now | Pairs with |
-|-----|---|-------|---------|------------|
-| 1 | 2 | POTS / dysautonomia | Huge patient burden; directly pairs with the MCAS orthostatic links already written | MCAS, SFN |
-| 2 | 3 | Hypermobility / hEDS | Completes the POTS–MCAS–hypermobility triad; connective-tissue theme runs deep in ch08 | POTS, MCAS |
-| 3 | 4 | Small Fiber Neuropathy (SFN) | Explains pain + sensory amplification; links nerve-mast cell story | POTS, fibro-pain |
-| 4 | 5 | Fibromyalgia-pattern pain | Commonest severe symptom; extends the muscle-pain article | SFN, muscle-pain |
-| 5 | 6 | GI dysmotility / SIBO | High burden; diet is patients' first lever | MCAS (gut), Chronic infection |
-| 6 | 7 | Chronic infection (EBV/HHV-6/tick) | Mechanistically central but harder to explain plainly; good after mechanisms are familiar | Autoimmunity |
-| 7 | 8 | Autoimmunity | Most hypothesis-heavy; needs the infections article first for context | Chronic infection |
-| 8 | 9 | Migration / brain-fog and "chained together" synthesis | Series capstone: how the amplifiers chain into one picture | All |
+- `posts/autonomic-cardiovascular/pots-mecfs/index.qmd` — mechanism, renin-aldosterone paradox, cerebral blood flow, downstream vs cause, POTS-alone vs ME/CFS-with-POTS.
+- `posts/autonomic-cardiovascular/pots-mecfs-treatment/index.qmd` — salt/compression, fludrocortisone, midodrine, ivabradine/beta-blockers, pyridostigmine, SSRI pitfall, expected results, failure analysis, predictions, practical guidance.
+
+## Part 3 — delivered ✅
+
+Hypermobility/hEDS (2026-08-12) as a two-post pair:
+
+- `posts/connective-tissue/hypermobility-heds/index.qmd` — what hEDS is, no genetic defect, 81% vs 15.5% gap, acquired progressive hypermobility (tryptase→MMP-3/-13, chymase→MMP-1, histaminylation), matrix-stiffness bistable model, 5 mechanistic pathways, neurodivergence axis, TNXB genetics, permanent 10–20% energy tax, hEDS-alone vs hEDS-on-ME/CFS.
+- `posts/connective-tissue/hypermobility-heds-treatment/index.qmd` — isometric resistance protocols, circadian collagen cofactor timing (vitamin C, α-KG), glycine/proline/copper/B6, low-dose doxycycline for MMP-9, emerging therapies (tVNS, HIF-1α inhibitors, TGF-β1 blockade), CCI surgery, deconditioning-PEM trap, failure analysis, falsifiable predictions, practical guidance.
+
+## Parts 4–9 — delivered ✅
+
+All remaining topics (2026-08-12):
+
+- **SFN:** `posts/neurology/sfn/index.qmd` + `posts/neurology/sfn-treatment/index.qmd`
+- **Fibromyalgia-pain:** `posts/pain/fibromyalgia-pattern-pain/index.qmd` + `posts/pain/fibromyalgia-pain-treatment/index.qmd`
+- **GI dysmotility/SIBO:** `posts/gut/sibo-gi-dysmotility/index.qmd`
+- **Chronic infection:** `posts/infectious/chronic-infection/index.qmd` + `posts/infectious/chronic-infection-treatment/index.qmd`
+- **Autoimmunity:** `posts/autoimmune/autoimmunity/index.qmd` + `posts/autoimmune/autoimmunity-treatment/index.qmd`
+- **Chained together:** `posts/synthesis/chained-together/index.qmd`
+
+
 
 ---
 
-## — Topic 2: POTS and the heart that races when you stand → Scheduled
+## — Topic 2: POTS and the heart that races when you stand → Done ✅
 
 | Field | Value |
 |-------|-------|
@@ -104,7 +118,7 @@ Order chosen so that each article builds on the previous and pairs naturally (PO
 | **Falsifiable prediction** | If supine norepinephrine is elevated and HR normalises with α-blockade, peripheral sympathetic excess is confirmed (see primary doc) |
 | **Can pair with** | MCAS, SFN, hypermobility |
 
-## — Topic 3: Hypermobility and the connective-tissue connection → Not started
+## — Topic 3: Hypermobility and the connective-tissue connection → Done ✅
 
 | Field | Value |
 |-------|-------|

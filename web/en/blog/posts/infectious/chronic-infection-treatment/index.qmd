@@ -1,0 +1,122 @@
+---
+title: "Chronic Infection Article 2: Antivirals, Immunomodulators, and What It Means When They Don't Work in ME/CFS"
+description: "A plain-language guide to treating chronic viral infection in ME/CFS — valacyclovir for EBV, valganciclovir for HHV-6/CMV, cimetidine as an immunomodulator, mast-cell stabilisers to intercept the EBV→MMP-9 pathway, why abortive lytic replication makes antivirals less effective than expected, and the honest 'what if nothing helps' discussion."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Treatment, Chronic Infection, Antivirals, ME/CFS]
+---
+
+If you have ME/CFS and evidence of herpesvirus reactivation — high EA-D IgG, elevated dUTPase antibodies, documented HHV-6 DNA, or a clinical history of EBV-mono-then-never-recovered — you face a treatment landscape where the antiviral drugs exist but the evidence for them in ME/CFS is thin, the best-studied drug targets a replication step that abortive lytic replication bypasses, and the placebo-controlled trials are small, old, and unreplicated.
+
+This article explains the treatment architecture. For the conceptual background — what abortive lytic replication is, the EBV→mast cell→MMP-9 pathway, and poly-herpesvirus co-reactivation — see the [companion overview article](../chronic-infection/index.qmd).
+
+---
+
+## First, a plain warning
+
+*Everything below is a conversation to have with a clinician, not self-medication. Valacyclovir and valganciclovir require renal monitoring; valganciclovir is a teratogen and causes bone-marrow suppression; famciclovir requires dose adjustment in renal impairment. Cimetidine is a CYP450 inhibitor with extensive drug-drug interactions. Mast-cell stabilisers are not antivirals — they intercept the downstream immune activation, not the viral trigger. None of these drugs should be started, stopped, or changed without a prescriber.*
+
+---
+
+## The antiviral landscape
+
+### Valacyclovir — the most-studied, least-effective drug for the task
+
+Valacyclovir is a prodrug of acyclovir. It is phosphorylated by the viral thymidine kinase (EBV BXLF1) and then by cellular kinases to acyclovir triphosphate, which inhibits the viral DNA polymerase. It works against **lytic EBV replication** — when the virus is actively copying its genome.
+
+The problem is that in ME/CFS, the viral proteins driving immune activation (dUTPases, immediate-early gene products) are produced **before** the DNA-polymerase step. Valacyclovir blocks a step that ALR does not reach. It is like locking a door that the intruder already walked through.
+
+**The evidence.** Lerner's open-label cohort (2002) reported 30–40% response in ME/CFS patients with elevated EBV antibodies, and a small placebo-controlled trial at 36 months was positive — but the trial came from a single group, has never been independently replicated, and used cardiac-output endpoints (not PEM or fatigue) as primary measures. The honest evidence grade: **weak and single-group** [@Lerner2002valacyclovir].
+
+**Practical considerations.** Valacyclovir is well tolerated (headache, nausea in ~10%) and requires adequate hydration to prevent crystalluria. Typical doses are 1–1.5 g three to four times daily — high, but necessary because acyclovir has poor oral bioavailability (~20%) and the prodrug compensates. A 3–6 month trial is the minimum to assess response; shorter trials are not informative.
+
+### Valganciclovir — broader spectrum, more toxicity, better signal
+
+Valganciclovir is a prodrug of ganciclovir, which is phosphorylated by a different viral kinase (CMV UL97, HHV-6 U69) and also inhibits viral DNA polymerase. It covers EBV, HHV-6, and CMV — a broader spectrum that matches the poly-herpesvirus reactivation pattern. But it also inhibits the host mitochondrial DNA polymerase-γ, causing **bone-marrow suppression** (neutropenia, anaemia, thrombocytopenia) and teratogenicity.
+
+**The evidence.** Montoya's EVOLVE trial (2013, n=30) was a placebo-controlled RCT that found 50–60% response rate, significant improvements in mental fatigue, fatigue severity, and cognition, with responders 7.4× more likely to improve on valganciclovir than placebo. These are unusually strong numbers for an ME/CFS trial — but the trial was small, subgroup-driven (responders had elevated antibody titres), and has never been independently replicated [@Montoya2013valganciclovir].
+
+**What might explain the signal, if it is real.** Valganciclovir has anti-inflammatory effects independent of its antiviral activity — it inhibits CMV-driven TNF-α and IL-6 production from infected monocytes. The 7.4× response may reflect an anti-inflammatory mechanism rather than a purely antiviral one. If that is correct, the antibody-positive subgroup responded not because their virus was more active, but because their immune activation was more CMV-driven. The drug worked as an anti-inflammatory, not as an antiviral — a clinically useful distinction that the trial design cannot resolve.
+
+### Famciclovir and acyclovir — the older, weaker options
+
+Famciclovir (prodrug of penciclovir) covers HSV and VZV but not EBV, HHV-6, or CMV. It has no ME/CFS trial evidence. In the treatment protocols of the primary document, famciclovir 250 mg daily is used as a prophylactic in the severe-ME/CFS protocol — not as a therapeutic antiviral, but to prevent HSV/VZV reactivation from adding to the viral burden in an already depleted immune system.
+
+Acyclovir (the active drug behind valacyclovir, but with lower bioavailability) has been used historically. If valacyclovir is available, there is no reason to use acyclovir — same mechanism, worse pharmacokinetics.
+
+---
+
+## The cimetidine story: an H2 antihistamine that modulates immunity
+
+Cimetidine is an H2-receptor antagonist — a heartburn drug. But unlike famotidine (the other H2 blocker commonly used in MCAS), cimetidine has additional immunological effects: it inhibits suppressor T-cell activity, enhances natural-killer-cell function, and — in a 1986 case series — was associated with improvement in a post-EBV fatigue phenotype characterised by POTS, histamine issues, and post-infectious onset [@Goldstein1986CimetidineEBV].
+
+**The honest limit.** This is a 40-year-old case series with no controlled trial. The mechanism — H2 blockade on T-suppressor cells → enhanced cellular immunity → improved viral clearance — is plausible but unproven. Cimetidine is a **potent CYP450 inhibitor** (CYP1A2, 2C9, 2D6, 3A4), which means it raises blood levels of beta-blockers, many antidepressants, warfarin, antiarrhythmics, and other POTS/ME/CFS medications. In a patient already on several of these, cimetidine is a drug-interaction risk, not a benign add-on. Famotidine is the safer H2 blocker for routine MCAS treatment; cimetidine is a specific — and speculative — immunomodulatory trial in the post-infectious phenotype, and it requires a full medication review by the prescriber before use.
+
+---
+
+## The mast-cell stabiliser intercept: downstream of the virus
+
+If EBV dUTPase activates mast cells to release MMP-9, and MMP-9 degrades the blood-brain barrier, then **mast-cell stabilisers (cromolyn, ketotifen) and MMP-9 inhibitors (low-dose doxycycline)** intercept the pathway **downstream** of the virus. This is not antiviral treatment — it does not reduce viral protein production or clear the infection. It blocks the host response to the viral protein.
+
+This matters because it bypasses the ALR problem. Mast-cell stabilisers do not need the virus to be in lytic replication — they work on the mast cell that has been activated by the viral protein, regardless of what stage the virus is in. The treatment of MCAS — H1 and H2 antihistamines, mast-cell stabilisers, and avoidance of non-specific triggers — is covered in the MCAS articles. The chronic-infection-specific point is that in the EBV-positive, MCAS-positive subset, mast-cell stabilisers may reduce MMP-9-mediated BBB disruption even if antivirals fail, because they target the host side of the virus-host interaction, not the virus side [@Loth2026website].
+
+---
+
+## Expected results
+
+- **The best-case antiviral response is partial.** Even in the positive valganciclovir trial, "responder" meant clinically significant improvement in fatigue and cognition — not recovery, not return to work, not normalisation of PEM. Set expectations accordingly.
+- **A negative valacyclovir trial is expected, not anomalous.** Valacyclovir targets lytic DNA replication; ALR stops before that step. A drug that fails to hit its target because its target is not engaged is a mechanism failure, not a patient failure.
+- **The valganciclovir signal may or may not replicate.** Until an independent replication trial exists — and none is currently registered — the EVOLVE result is a single positive study in a field of nulls. Treat it as a promising signal, not an established treatment.
+- **Cimetidine, if it helps, helps the post-infectious POTS-MCAS phenotype.** If your ME/CFS was gradual-onset, not post-infectious, or if you lack POTS and histamine symptoms, the cimetidine phenotype is a poor match, and famotidine is the safer H2 blocker.
+- **Mast-cell stabilisers address the host response, not the viral trigger.** If EBV is driving your MCAS, stabilising mast cells may reduce symptoms without affecting the underlying viral activity. You will still have high antibody titres. The symptoms improve because the host response to the virus is damped, not because the virus is gone.
+
+---
+
+## An example structured trial
+
+*This is an example to give your clinician something to work from — not a self-prescription.*
+
+Confirm that the clinical picture is post-infectious (documented EBV mono, HHV-6 roseola, or tick-borne infection preceding ME/CFS onset). Get meaningful serology — EA-D IgG, VCA IgM, HHV-6 PCR from whole blood. If serology suggests reactivation, start valacyclovir 1 g three times daily. Reassess at 6 months. **Stop if no improvement** — continuing an antiviral past 6 months without benefit is not evidence-based.
+
+If valacyclovir fails and HHV-6 is documented (PCR positive, or ciHHV-6 known), discuss valganciclovir with a specialist. This is a toxic drug — bone-marrow suppression, teratogenicity — requiring regular CBC monitoring. A 3–6 month trial with pre-defined stopping rules and monthly CBC is the responsible approach. **Stop if neutropenia develops or if there is no improvement at 6 months.**
+
+If both antivirals fail — or if ALR is suspected (high EA-D without detectable viral load) — shift to the mast-cell intercept: H1 + H2 antihistamines plus a mast-cell stabiliser (cromolyn or ketotifen), targeting the EBV→mast cell→MMP-9 pathway downstream of the virus. Reassess at 12 weeks. A response supports the host-response model; a null result supports neither the antiviral nor the mast-cell model as the dominant mechanism, and the honest move is to stop pursuing the chronic-infection pathway.
+
+---
+
+## The falsifiable predictions
+
+- **If mast-cell stabilisers reduce plasma MMP-9 in EBV-reactive ME/CFS patients, but valacyclovir does not**, the EBV→mast cell→MMP-9 pathway is host-mediated, not viral-replication-mediated, and the mast-cell intercept is the rational treatment target regardless of antiviral response [@Loth2026website].
+- **If the threat-signal model is correct**, antiviral response should be stronger in patients with <3 years illness duration (where the viral-load component w_V·V still dominates the threat signal) than in patients with >10 years (where host factors dominate) — and the difference should exceed the baseline antibody titre difference.
+- **If EA-D IgG and HHV-6 DNA predict valganciclovir response but VCA IgG and EBNA IgG (markers of past infection, not reactivation) do not**, serology triage is clinically actionable and should guide antiviral prescribing rather than the current "try and see" approach.
+- **If cimetidine + valacyclovir produces a higher responder rate than valacyclovir alone in the post-infectious POTS-MCAS phenotype**, the immunomodulatory component is real and the historical cimetidine signal deserves a controlled trial — but this prediction requires a controlled study, not individual experience.
+
+---
+
+## What it means if the treatment does not help
+
+**One: a failed valacyclovir trial says valacyclovir does not work for you — nothing more.** It does not say EBV is inactive. It does not say ALR is not happening. It says a drug that blocks lytic DNA replication, at the dose you took, for the duration you took it, did not produce a measurable benefit. That is useful pharmacology. It is not a verdict on the viral hypothesis.
+**Two: a failed valganciclovir trial narrows the possibilities more.** Valganciclovir covers the poly-herpesvirus spectrum. If a 6-month trial at an adequate dose produces no benefit, the probability that an antiviral — any currently available antiviral — will help you drops substantially. That is useful information, and the honest next step is to shift to mast-cell stabilisation (intercepting the downstream immune activation) and away from further antiviral trials.
+**Three: the threat-signal model from the primary document's ODE framework predicts that antivirals work only when the viral-load component dominates the threat signal** — early in the disease. In long-established ME/CFS, the threat signal is maintained by host factors (immune dysregulation, autoantibodies, metabolic dysfunction) and a ~20% reduction in viral protein production from antivirals is insufficient to shift the system. This model is theoretical, but it offers an honest reading of why antivirals might work for some recently-infected patients and fail for most long-ill patients [@Loth2026website].
+
+---
+
+## What you can actually do
+
+- **Get meaningful serology, not just IgG.** Standard EBV panels (VCA IgG, EBNA IgG) tell you that you were exposed — which >90% of adults are. Meaningful serology for reactivation includes EA-D (early antigen, diffuse pattern), VCA IgM, dUTPase antibodies (research only, not clinically available yet), and — where accessible — EBV quantitative PCR. HHV-6 PCR from whole blood distinguishes active replication from integrated virus.
+- **If serology is suggestive and the clinical picture is post-infectious, a time-limited valacyclovir trial (1 g TID, 6 months) is a reasonable conversation to have with a clinician.** It is well tolerated, and a negative trial at least closes one door. Do not stay on valacyclovir indefinitely — if there is no change at 6 months, stop.
+- **Valganciclovir is a specialist decision.** The toxicity (bone marrow suppression, teratogenicity) and cost mean it should be managed by a clinician experienced with the drug, with regular CBC monitoring. A 3–6 month trial with pre-defined stopping rules is the responsible approach.
+- **Treat the MCAS if it is present.** Mast-cell stabilisers intercept the EBV→MMP-9 pathway downstream of the virus and may reduce symptoms regardless of whether the antivirals help. See the MCAS treatment articles.
+- **Accept that current antivirals may not be the right drugs for the ALR problem.** Drugs that target immediate-early gene expression or dUTPase signalling directly do not exist. The antivirals we have were designed for fully lytic herpesvirus infections (shingles, CMV retinitis, genital herpes). Using them for ALR in ME/CFS is a mismatch between mechanism and pharmacology — and a negative trial is not a failure of the viral hypothesis; it is a failure of the available drugs to address the specific viral state that is active.
+
+---
+
+## The bottom line
+
+Chronic infection is the most hypothesis-heavy treatment area in the Septad. The mechanisms are strong — EBV→mast cell→MMP-9, HHV-6 miR-aU14→mitochondrial fragmentation, poly-herpesvirus dUTPase co-activation — but the drugs that target these mechanisms are weak (valacyclovir misses ALR) or toxic (valganciclovir suppresses bone marrow). The mast-cell stabiliser intercept — blocking the host response downstream of the virus — is the one intervention that bypasses the ALR problem and is low-risk in the MCAS-positive subset [@Loth2026website].
+
+A failed antiviral trial is expected pharmacology, not a personal failure, and not a disproof of the viral-reactivation hypothesis. The honest clinical approach is a time-limited, endpoint-defined trial with a stopping rule — and if it fails, to shift to mast-cell stabilisation and accept that current antivirals are not the right tools for the job.
+
+**Next in this series:** Autoimmunity — antibodies that talk to the nervous system, GPCR autoantibodies, and why removing them doesn't always fix the problem.
+
+For the comprehensive, fully-cited picture of how chronic infection is weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

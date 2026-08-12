@@ -1,0 +1,104 @@
+---
+title: "POTS Article 1: POTS and the Heart That Races When You Stand — What It Means With ME/CFS"
+description: "A plain-language guide to postural orthostatic tachycardia syndrome and how it overlaps with ME/CFS — why standing up makes your heart sprint, why blood volume is low but the hormone that fixes it is paradoxically off, how mast cells and connective tissue feed the problem, and the difference between POTS on its own and POTS sitting on top of ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [POTS, ME/CFS, Dysautonomia, Pathophysiology]
+---
+
+You are lying down. Horizontal, calm, and your heart is at 95. You check your pulse because it feels wrong — a quiet room, a rested body, and your heart is running like you just climbed stairs. You stand up. Before you have walked anywhere, it climbs past 120. The room tilts. Your vision narrows. You sit back down because your body has decided that gravity is an emergency.
+
+Now add the rest of ME/CFS: the crashing fatigue after a short shower, the brain fog that makes a sentence feel like a puzzle, the sleep that does not refresh. Somewhere in the middle of it, a doctor or a tilt-table test says the word *POTS*, and you are handed a list of drugs you have never heard of — midodrine, fludrocortisone, ivabradine — and told to eat more salt.
+
+This article is the conceptual overview. What POTS actually is, why your blood volume is low but your body is not fixing it, whether POTS causes ME/CFS (it almost never does), and the difference between having POTS on its own and having it *on top of* ME/CFS. The treatments — the drug ladder from salt and compression through fludrocortisone, midodrine, ivabradine, and pyridostigmine — are covered in the [companion treatment article](../pots-mecfs-treatment/index.qmd), along with the honest "what if the drugs don't work" discussion.
+
+---
+
+## First, a plain warning
+
+*This is an explanation, not self-medication advice, and I am not a doctor. If your symptoms feel sudden, severe, or life-threatening — especially chest pain, loss of consciousness, or any symptom that feels like a heart attack — that is an emergency. Go to a hospital. Everything below is medicine you will likely be offered; talk to a prescriber before starting, stopping, or changing any of it.*
+
+---
+
+## The short version, if you only read one part
+
+- **POTS** stands for *postural orthostatic tachycardia syndrome*. It means your heart rate climbs by 30 beats per minute or more (or past 120 bpm) within ten minutes of standing, without your blood pressure dropping enough to qualify as orthostatic hypotension [@Hoad2008pots].
+- **It is genuinely more common in ME/CFS.** Roughly 27% of ME/CFS patients meet POTS criteria, compared to about 9% of controls [@Hoad2008pots]. But the 30-bpm threshold has poor diagnostic specificity — 10–15% of healthy people cross it [@MECFSScience2024pots] — and day-to-day reproducibility is weak, so a single test should be read cautiously.
+- **The core problem is not just the heart.** Low blood volume, paradoxically suppressed blood-volume-regulating hormones (renin, aldosterone, ADH), possible autoantibodies targeting receptors on blood vessels and nerves, and connective-tissue laxity that pools blood in the legs all contribute [@Raj2005][@Miwa2017][@Streeten1998blood].
+- **POTS is usually downstream of ME/CFS, not the cause.** It shares mechanisms with mast-cell activation and hypermobility — the three travel together so often they are called a triad [@Yao2025MCASPOTStriad] — and treating the tachycardia alone rarely fixes the energy failure.
+- **There is a useful distinction between POTS on its own and ME/CFS-with-POTS.** Treating blood flow and heart rate in the first is treating the primary condition; in the second it is treating one amplifier among several.
+
+---
+
+## What is POTS, for real?
+
+In a healthy person, standing up is a brief, silent act of coordination. Gravity pulls about 500–800 mL of blood into your legs. Baroreceptors — pressure sensors in your carotid arteries and aorta — detect the drop. Within seconds, your sympathetic nervous system tightens blood vessels, speeds your heart a little, and your renin-angiotensin-aldosterone system (RAAS) holds onto salt and water. Blood flows back up. The brain stays perfused. Heart rate rises by maybe 10–15 beats, then settles. You do not notice it.
+
+In POTS, several pieces of this system fail at once:
+
+**The blood volume is too low.** Direct measurements using the carbon monoxide rebreathing technique confirm that POTS patients have a significant blood volume deficit — roughly 700 mL less total blood volume on average — and plasma volume is disproportionately low [@Kulapatana2024]. In ME/CFS specifically, red blood cell mass was reduced in 93.8% of women and 50% of men, and plasma volume was subnormal in 52.6% [@Streeten1998blood]. Less blood in the tank means less blood available to pump upward when you stand.
+
+**The hormone that should repair this is paradoxically off.** Normally, low blood volume triggers renin release, which raises aldosterone, which tells the kidneys to hold onto sodium and water — expanding blood volume back to normal. In POTS, and in ME/CFS with orthostatic symptoms, renin activity is normal to low and aldosterone is frankly low despite the blood volume being measurably low [@Raj2005][@Miwa2017]. This is the *renin-aldosterone paradox* — the volume-regulating thermostat is set wrong, so the body does not try to fix the deficit even when it is objectively present.
+
+**The vessels may not clamp down properly.** When you stand, your leg vessels need to constrict to push blood back up. Mast-cell mediators — histamine, prostaglandin D₂ — dilate blood vessels and drop blood pressure, and mast cells sit directly alongside blood vessels and nerve endings [@Kohno2021potsmast]. In a person whose mast cells are firing too much (MCAS), or whose connective tissue is too lax to hold vessels under tension (hypermobility), that constriction can fail [@Yao2025MCASPOTStriad]. And there is a third mechanism under investigation: autoantibodies targeting α-adrenergic and β-adrenergic receptors — the very receptors the sympathetic nervous system uses to tighten vessels and adjust heart rate — have been found in POTS patients, though their prevalence and causal role are still being worked out [@Garland2015POTSbeyond].
+
+**The brain may be under-perfused even when heart rate and blood pressure look normal.** This is the finding that should reshape how you think about orthostatic intolerance in ME/CFS. In a large Dutch study using transcranial Doppler during tilt-table testing, 82% of ME/CFS patients with *normal* heart rate and blood pressure still showed an abnormal drop in cerebral blood flow. In patients who *did* meet POTS criteria, 100% showed the drop. At end-tilt, the cerebral blood flow reduction was 7% in controls versus 26% in ME/CFS — nearly four times greater [@VanCampenEtAl2020]. A follow-up study of over 500 patients confirmed that 91% of ME/CFS patients with normal heart rate and blood pressure still had abnormal cardiac output and cerebral blood flow reductions during tilt testing, suggesting endothelial dysfunction rather than a simple rate problem [@VanCampenEtAl2024].
+
+In plain words: **you can have normal vitals on paper and still have your brain losing blood flow when you stand.** The heart rate is a visible sign of a deeper, less visible problem — and in ME/CFS, the blood-flow defect exists in most patients whether or not they cross the 30-bpm POTS threshold.
+
+---
+
+## The POTS–ME/CFS overlap, in numbers
+
+Before you pin everything on the heart rate, here is what the data says — and what it does not.
+
+**About 1 in 4 ME/CFS patients meet the formal POTS criteria** (a ≥30 bpm heart rate increase on standing), compared to about 9% of controls [@Hoad2008pots]. But the 30-bpm threshold itself has problems:
+
+- 10–15% of healthy controls meet it in population studies [@MECFSScience2024pots].
+- Symptom severity correlates poorly with heart rate increase magnitude — the correlation explains only about 2% of the variance. A person with a modest 32-bpm rise can be severely disabled; a person with a 55-bpm rise can feel relatively well [@MECFSScience2024pots].
+- Test results show poor day-to-day reproducibility — a patient can meet criteria on Tuesday and not on Thursday [@MECFSScience2024pots].
+- Among ME/CFS patients who have orthostatic intolerance symptoms, only 21% meet formal POTS criteria — meaning the majority of orthostatic symptoms in ME/CFS are *not* captured by the POTS label [@MECFSScience2024pots].
+
+**What this means for you:** POTS as currently defined may be a poorly specified diagnostic category rather than a clean pathophysiological entity. Its apparent comorbidity with ME/CFS may partly reflect diagnostic threshold artefacts. The more honest, useful frame is: **most people with ME/CFS have some form of orthostatic intolerance**, whether or not the heart-rate number crosses an arbitrary line on a single test day. The cerebral blood flow data — showing abnormal perfusion in 91% of ME/CFS patients regardless of POTS status — supports a broader dysautonomia that the POTS label only partially captures [@VanCampenEtAl2024].
+
+**The overlap has plausible chemistry.** Mast cells produce mediators that dilate vessels and lower blood pressure — the wrong chemistry for a system already struggling to pump blood upward. In one POTS cohort, 42% had elevated mast-cell mediators; histamine breakdown products were elevated in 52%, prostaglandin D₂ in 36%, but tryptase in only 9% — demonstrating that the standard mast-cell blood test (tryptase) is a poor screen for mast-cell-driven autonomic dysfunction [@Kohno2021potsmast]. This is consistent with — but does not prove — the idea that mast cells contribute to the vascular side of POTS in the subset of patients who have both [@Yao2025MCASPOTStriad].
+
+**The connective-tissue side is even more direct.** Up to 70% of people with hypermobile Ehlers-Danlos syndrome (hEDS) or hypermobility spectrum disorder report dysautonomia symptoms, and up to 40% meet POTS criteria [@Mathias2021dysautonomia]. The mechanism is structural: lax connective tissue in blood vessel walls allows excessive venous pooling, so standing pulls more blood into the legs than the system was designed to recover [@Hakim2017cardiovascular].
+
+---
+
+## The order matters: POTS is usually downstream, not the cause
+
+Here is a fact that should shape how you think about treatment: **POTS almost always arrives as part of a cluster.** The POTS–MCAS–hypermobility triad is not coincidence. A recent critical review of the triad found that "an evidence-based, common pathophysiologic mechanism between any of the two, much less all three conditions, has yet to be described" [@Yao2025MCASPOTStriad] — so the honest position is that the three travel together, probably share mechanisms, but the causal arrows are not drawn.
+
+What *is* clear: **in ME/CFS, POTS is usually one amplifier among several, not the core disease.** The blood-volume deficit, the renin-aldosterone paradox, the mast-cell vascular effects, and the connective-tissue pooling are all routes to the same endpoint — the heart races to compensate — but fixing the heart rate does not fix the energy failure. The treatment-response data support this indirectly: in a survey of nearly 4,000 ME/CFS and Long COVID patients, autonomic modulators (midodrine, beta-blockers, fludrocortisone) helped the POTS-dominant symptom cluster regardless of whether the originating diagnosis was ME/CFS or Long COVID — which suggests the autonomic problem is a *shared downstream consequence* rather than a disease-specific cause [@Eckey2025PatientReported].
+
+Think of a car with a fuel-pump problem. The engine revs when you climb a hill — not because the engine is faulty, but because the fuel supply is weak and the engine is compensating. Fixing the revving (the heart rate) does not fix the fuel pump (the energy/immune defect). But treating the revving is still worth doing, because running the engine at redline costs fuel you do not have.
+
+---
+
+## POTS by itself vs ME/CFS with POTS
+
+A lot of the confusion around POTS comes from mixing up two situations that look similar — the same racing heart, the same dizziness on standing — but have different treatment goals.
+
+**POTS on its own (no ME/CFS).** In someone who does not have ME/CFS, POTS is the dominant complaint. The blood volume deficit, the venous pooling, and the compensatory tachycardia are the problem being treated. Restoring blood volume (salt, fludrocortisone), tightening vessels (midodrine), and slowing the rate (ivabradine, beta-blockers) are aimed at the primary condition. If symptoms respond, the goal is largely met — the person can stand, walk, and function.
+
+**ME/CFS with POTS (the situation this series is about).** When POTS sits on top of ME/CFS, three things are different:
+
+- **POTS is one amplifier.** The blood-pooling and racing heart cost energy the system already lacks, and the orthostatic stress can trigger PEM — but fixing the rate does not fix the energy failure or the immune dysregulation [@Loth2026website].
+- **Treating POTS treats one contributor.** If midodrine or compression helps you stand longer, the honest reading is that *venous pooling was contributing to your orthostatic symptoms*. It says nothing about whether the energy production, the immune system, or the brain inflammation are better.
+- **A failed POTS drug trial says nothing against your ME/CFS.** Because orthostatic intolerance in ME/CFS has multiple inputs — blood volume, renin-aldosterone axis, mast-cell mediators, endothelial function, connective-tissue integrity — a drug that blocks only one of these routes can fail while the overall dysautonomia remains real. And because the core illness is larger than any one pathway, a failed trial is a clue about *one medication in one mechanism*, not a verdict on whether your illness is real.
+
+Why this distinction matters practically: **in ME/CFS, a POTS treatment is best thought of as a timed trial aimed at one possible contributor** — with a clear idea of which symptoms it is meant to touch, and a plan for what a partial or null result does or does not mean.
+
+---
+
+## The bottom line
+
+POTS is real in ME/CFS — about 1 in 4 patients meet the criteria — but the 30-bpm threshold is a poor diagnostic gate, and most people with ME/CFS have orthostatic intolerance that the formal POTS label only partially captures [@Hoad2008pots][@MECFSScience2024pots]. The core problem is not just the heart rate: low blood volume, paradoxically suppressed volume-regulating hormones, mast-cell-mediated vasodilation, endothelial dysfunction, and connective-tissue laxity all funnel into the same endpoint — the heart races to compensate for a system that cannot keep blood moving upward [@Raj2005][@Streeten1998blood][@Miwa2017][@VanCampenEtAl2020].
+
+The honest read: POTS is most often a downstream amplifier, not the cause, and treating the heart rate rarely fixes the energy failure — but it is still worth treating, because running your heart at a sprint while lying still costs energy you do not have [@Loth2026website].
+
+**Next in this mini-series:** how the actual medications work — salt and compression first, then fludrocortisone, midodrine, ivabradine, beta-blockers, and pyridostigmine, the drug you should probably *not* take (the SSRI pitfall), expected results, and the honest "what if the drugs don't work" discussion [[see the companion article]](../pots-mecfs-treatment/index.qmd).
+
+For the comprehensive, fully-cited picture of how cardiovascular dysfunction and autonomic dysregulation are weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].

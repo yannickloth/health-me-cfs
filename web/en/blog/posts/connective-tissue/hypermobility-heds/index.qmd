@@ -1,0 +1,202 @@
+---
+title: "Hypermobility Article 1: Hypermobile EDS and the Connective-Tissue Connection to ME/CFS — Why Flexible Tissue Feeds the Cascade"
+description: "A plain-language guide to hypermobile Ehlers-Danlos syndrome and how it overlaps with ME/CFS — why flexible tissue does not hold together, the five mechanistic pathways linking loose connective tissue to systemic illness, how mast cells may actively degrade collagen (acquired hypermobility), the TNXB genetics, the neurodivergence axis, and the difference between being hypermobile on its own and being hypermobile on top of ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Hypermobility, hEDS, ME/CFS, Pathophysiology, Connective Tissue]
+---
+
+Your joints bend a little further than they should — always have. You are "just flexible." You could do the party tricks as a kid: palms flat on the floor, thumb to forearm, a knee that bent backwards enough to make people wince. Nobody told you that flexible tissue does not hold together.
+
+Now, years later, the pieces do not hold. Your blood pools in your legs when you stand. Your heart races to compensate — the POTS you already read about in this series. Your skin stretches. Your gut empties slowly. And somewhere in that loose connective tissue, your mast cells — the immune sentinels that sit embedded in the collagen scaffold of every tissue — fire at trivial pressure, because the matrix that should keep them quiet is too soft to dampen the signal [@Magadmi2019][@Wilson2026MastCellScorehEDS].
+
+This article is the conceptual overview. What hypermobile Ehlers-Danlos syndrome actually is, why it has no identified genetic defect (unlike every other EDS subtype), the five mechanistic pathways linking it to ME/CFS, the mast-cell → collagen degradation story that means hypermobility can be *acquired* as well as congenital, the TNXB genetics, the neurodivergence axis, and the difference between being hypermobile on its own and being hypermobile *on top of* ME/CFS. The treatments — physiotherapy, bracing, supplements, emerging therapies, and the permanent energy-tax model — are covered in the [companion treatment article](../hypermobility-heds-treatment/index.qmd), and the honest "what if the drugs don't work" discussion in the [companion article on treatment failure](../hypermobility-heds-failure/index.qmd).
+
+---
+
+## First, a plain warning
+
+*This is an explanation, not self-medication advice, and I am not a doctor. Hypermobility syndromes involve structural tissue weakness that can affect the spine, the blood vessels, and the internal organs. If you have progressive neurological symptoms, new-onset severe headaches, or loss of bowel or bladder control, that is a medical emergency — go to a hospital. Everything below about management is a conversation to have with a specialist.*
+
+---
+
+## The short version, if you only read one part
+
+- **hEDS** stands for *hypermobile Ehlers-Danlos syndrome*. Unlike other EDS subtypes (classical, vascular, kyphoscoliotic), which have identified genetic defects in specific collagen or collagen-processing genes, hEDS has **no identified connective tissue defect** despite extensive investigation [@MECFSScience2024heds].
+- **About 15.5% of ME/CFS patients meet strict hEDS criteria, and up to 81% are hypermobility-positive on the broader Brighton criteria** — and this subgroup is measurably sicker: worse quality of life, more autonomic symptoms, higher rates of POTS (33% vs. 20%) and formal EDS diagnosis (29% vs. 3%) [@Eccles2021hypermobility].
+- **The overlap is not coincidence.** There are five mechanistic pathways, plus two deeper biological threads: (1) mast cells can actively *degrade* collagen through tryptase and chymase, producing an *acquired* progressive hypermobility on top of any congenital laxity; (2) TNXB haploinsufficiency explains ~5–10% of hypermobility independently of mast cells [@Imanaka2026TNXBHypermobility].
+- **There is a neurodivergence connection.** Autistic individuals have 22.3% joint hypermobility; children with hEDS show 16% ADHD and 6% autism rates — the connective-tissue-neurodevelopmental link is real and under-appreciated [@BaezaVelasco2025autismEDS][@Kindgren2021hEDSadhd].
+- **The ODE models predict a permanent 10–20% energy tax** on upright posture in hEDS — not from mitochondria or immune dysfunction, but from the physics of loose vessels and compensatory heart work — providing a quantitative explanation for why hEDS+ME/CFS patients tend toward greater severity [@Loth2026website].
+- **hEDS is not the cause of ME/CFS.** It is a permissive *substrate* — a constitutional tissue trait that lowers the threshold for the cascade to run. Fixing the connective tissue itself is not possible with current medicine; treating the downstream amplifiers (POTS, MCAS) is where the clinical levers are.
+
+---
+
+## What is hypermobile EDS, for real?
+
+Connective tissue is the scaffolding of the body. Collagen, the most abundant protein in humans, forms the extracellular matrix — the structural mesh that holds organs in place, gives blood vessels their tone, anchors muscles to bone, and surrounds every mast cell and nerve ending with a calibrated physical environment.
+
+In classical EDS, a specific collagen gene (COL5A1, COL5A2) is broken and the molecular defect is known. In vascular EDS, COL3A1 is broken, and the fragile arteries and hollow organs are understood. In hypermobile EDS — the most common subtype and the one that overlaps with ME/CFS — **no gene, no protein, and no structural defect has been identified** despite decades of searching [@MECFSScience2024heds].
+
+This creates an uncomfortable situation. The diagnosis of hEDS is based entirely on clinical features: joint hypermobility measured by the Beighton score, skin hyperextensibility, chronic pain, and a family history. But 10–20% of the general population is joint hypermobile to some degree, and skin stretchiness, joint clicking, and chronic pain are individually common [@HakimGrahame2003hypermobility]. Whether hEDS is a distinct disease or the tail end of a normal distribution is a live controversy — and the diagnosis remains clinical, not molecular [@Wirth2026CTDMECFS].
+
+### The 81% vs 15.5% gap — and what it means
+
+This is the single most important number to understand about hypermobility in ME/CFS. When researchers use the **broad Brighton criteria** — which capture joint hypermobility by Beighton score plus related features — about 81% of ME/CFS patients are hypermobility-positive. When they use the **strict 2017 hEDS diagnostic criteria** — which require a specific combination of joint, skin, pain, and family-history features — that number drops to 15.5–18% [@Eccles2021hypermobility].
+
+The gap is enormous: 81% v. 15.5%. It means most ME/CFS patients have *some* degree of connective-tissue laxity, but only a minority have the full clinical syndrome. The primary document interprets this as evidence that **hypermobility is a permissive substrate, not a primary driver** — a constitutional tissue trait that lowers the threshold for other amplifiers (MCAS, POTS, SFN) to take hold, but not itself sufficient to cause ME/CFS [@Loth2026website]. If hypermobility were the cause, the 81% figure would be harder to reconcile with the 15.5% strict hEDS figure. The gap is consistent with a gradient model: tissue laxity makes the system vulnerable, and the disease arises when enough other amplifiers stack on top.
+
+### A competing genetic mechanism: TNXB and tenascin-X
+
+While hEDS has no identified primary gene, a small but important fraction of hypermobility has a known genetic cause that is *not* a collagen defect. The TNXB gene encodes tenascin-X, an extracellular matrix protein that regulates collagen fibril spacing and elastic fibre integrity. **Biallelic TNXB mutations cause classical-like EDS, and heterozygous (haploinsufficient) carriers account for approximately 5–10% of clinical hypermobility** — a competing genetic mechanism independent of mast cells and independent of the "no molecular defect" hEDS consensus [@Imanaka2026TNXBHypermobility].
+
+This matters because it fragments the hypermobility phenotype: some patients have congenital collagen laxity (currently unidentified gene), some have tenascin-X deficiency, and — as the next section explains — some have *acquired* hypermobility driven by mast-cell enzymes actively degrading their connective tissue. The three mechanisms can coexist in one patient.
+
+---
+
+## Acquired progressive hypermobility: mast cells degrade collagen
+
+Here is the deep thread that runs through the entire primary document and that most clinical discussions miss: **hypermobility is not always congenital.** Mast cells can actively degrade collagen and extracellular matrix, producing an *acquired* progressive hypermobility that worsens over time on top of any baseline laxity [@Loth2026website].
+
+### The enzyme chain
+
+Mast cells store two serine proteases — tryptase and chymase — inside their granules. When mast cells degranulate, these enzymes are released into the surrounding tissue. Their normal job is tissue remodelling and defence, but in chronic mast cell activation, they become a collagen-destruction machine:
+
+- **Tryptase** activates pro-MMP-3 (stromelysin) and pro-MMP-13 (collagenase-3), enzymes that cleave collagen and proteoglycans [@Magarinos2013TryptaseMMP]. Tryptase also cleaves protease-activated receptor 2 (PAR2) on fibroblasts, triggering more MMP release.
+- **Chymase** directly cleaves pro-MMP-1 (collagenase-1), the primary enzyme that degrades fibrillar collagen type I — the main structural collagen of ligaments, tendons, and blood vessel walls [@Saarinen1994ChymaseMMP1].
+- **The tryptase–chymase–MMP cascade** degrades collagen and elastin in cardiac tissue, vessel walls, and joint ligaments — connective tissue everywhere mast cells reside [@Janicki2006CardiacMastMMP].
+
+A separate, MMP-independent mechanism also operates: **histaminylation**, in which mast-cell histamine covalently modifies collagen fibrils through transglutaminase, altering their mechanical properties — making collagen softer and weaker without degrading it. This has been shown in vitro and may represent a distinct route to tissue laxity that is invisible to MMP assays [@Zhu2026HistaminylationCollagen].
+
+### Congenital vs acquired hypermobility — a triage with treatment consequences
+
+The primary document distinguishes **congenital** hypermobility (present from childhood, stable over time, TNXB or unknown genetic basis) from **acquired progressive** hypermobility (worsens in adulthood, correlates with MCAS flares, reversible if mast-cell activation is controlled). The distinction matters because the two respond differently to treatment [@Loth2026website]:
+
+- **Congenital laxity** is a structural trait — bracing, physiotherapy, and joint protection are the main levers. Mast-cell stabilisers may help the *symptoms* (pain, swelling) but will not tighten the collagen, because the collagen was never tight to start.
+- **Acquired laxity** is driven by ongoing enzymatic degradation — mast-cell stabilisers and MMP inhibitors (doxycycline 20–40 mg, a sub-antimicrobial dose that selectively inhibits MMP-9) may partially reverse the tissue damage, because the degradation process is ongoing and blockable.
+
+In practice, many patients have both — congenital baseline laxity plus an acquired degradation layer from chronic MCAS — and the art is in triaging which component is dominant.
+
+### The matrix-stiffness feedback loop
+
+Mast cells anchor to extracellular matrix proteins (fibronectin, vitronectin) through integrin receptors and — critically — through CADM1, a cell-adhesion molecule that physically couples mast cells to sensory nerve endings. In hypermobile tissue, the ECM is softer, so mechanical pressure that would be damped in a normal matrix transmits to the mast cell surface with less attenuation [@Magadmi2019]. This is a **bidirectional positive-feedback loop**:
+
+```
+loose ECM → less mechanical damping → mast cells fire more easily
+→ release tryptase/chymase → activate MMPs → degrade ECM further
+→ even looser ECM → mast cells fire even more easily → ...
+```
+
+The primary document formalises this as a **bistable model**: the mast-cell–ECM system has two stable states — a "healthy" state with firm matrix and quiet mast cells, and a "degraded" state with soft matrix and hyper-reactive mast cells. Once the system crosses the tipping point (a severe MCAS flare, a viral infection that massively activates mast cells, a period of prolonged inactivity that weakens connective tissue), it may not spontaneously return to the healthy state. The model predicts that treatment must be *sustained* — intermittent antihistamines or occasional stabilisers may not be enough to flip the system back — and that once the collagen is structurally degraded past a certain point, even complete mast-cell control may not reverse the laxity [@Loth2026website].
+
+---
+
+## The hEDS–ME/CFS overlap, in numbers
+
+The epidemiological evidence for hypermobility enrichment in ME/CFS is strong but the interpretation is contested:
+
+**In a UK registry of 815 ME/CFS patients:**
+- 81% met broad Brighton criteria for hypermobility
+- 15.5% met strict 2017 hEDS diagnostic criteria
+- The hypermobility-positive subgroup had significantly worse quality of life, more autonomic symptoms, higher POTS rates (33% vs. 20%), and higher formal EDS diagnosis rates (29% vs. 3%) compared to non-hypermobile ME/CFS patients [@Eccles2021hypermobility]
+
+**In the hEDS-autonomic data:**
+- Up to 70% of hEDS patients report dysautonomia symptoms
+- Up to 40% meet formal POTS criteria [@Mathias2021dysautonomia]
+- 78% report exercise intolerance as a primary symptom, and sedentary behaviour increased from 44% to 85% after symptom onset
+- Dysautonomic hEDS patients show measurable cardiac atrophy — smaller cardiac chambers and reduced left ventricular end-diastolic volume — consistent with chronic deconditioning from orthostatic intolerance [@RuizMaya2021cardiac]
+
+**In the EDS-MCAS-POTS triad:**
+- Approximately 31% of patients with both POTS and EDS also have MCAS, compared to 2% of those without EDS — an odds ratio of 32.5, one of the strongest comorbidity signals in the entire ME/CFS literature
+- But a critical 2025 review found that "an evidence-based, common pathophysiologic mechanism between any of the two, much less all three conditions, has yet to be described" [@Yao2025MCASPOTStriad] — so the triad is real at the epidemiological level but the causal arrows are not drawn
+
+**A hard honesty check.** The autonomic profile of hEDS — measured by heart rate variability, tilt-table testing, and baroreflex sensitivity — resembles fibromyalgia more closely than it resembles other EDS subtypes. If hEDS shared the same structural connective-tissue mechanism as classical or vascular EDS, you would expect similar autonomic phenotypes across EDS types. The fact that hEDS is the outlier — with an autonomic signature that looks more like a central-sensitisation disorder than a structural collagenopathy — is evidence that the mechanism may not be what the "loose tissue → stretched vessels → POTS" story implies [@MECFSScience2024heds].
+
+The honest position: **the clinical association between hypermobility and ME/CFS is real, but the mechanistic basis is uncertain.** The connective-tissue story is plausible and internally consistent; it is also competing with simpler explanations (hypermobility and ME/CFS co-occur because both are common in the same demographic; hypermobility amplifies symptoms without a specific causal pathway). Neither side has settled the question.
+
+---
+
+## Five pathways from loose connective tissue to systemic illness
+
+The primary document identifies five mechanistic pathways by which connective tissue laxity could contribute to the ME/CFS picture, listed here in decreasing order of evidence strength.
+
+### Pathway 1: Vascular laxity → autonomic dysfunction (HIGH EVIDENCE)
+
+This is the best-supported link and the one that directly explains the POTS overlap. Defective connective tissue in blood vessel walls has measurable consequences:
+
+- **Increased arterial compliance.** hEDS patients show significantly lower pulse wave velocity than controls — the arteries are too elastic. This impairs baroreceptor signalling: the stretch receptors in vessel walls cannot accurately detect blood pressure changes when the walls are too compliant, so the brain receives a degraded pressure signal [@Hakim2017cardiovascular].
+- **Excessive venous pooling.** Abnormal connective tissue in veins allows excessive distension under normal hydrostatic pressures. Blood pools in the lower extremities on standing, reducing venous return and cardiac preload. The heart races to compensate [@Mathias2021dysautonomia].
+- **Cerebral hypoperfusion follows.** The same chain — loose vessels → poor baroreflex → venous pooling → compensatory tachycardia → inadequate cerebral blood flow on standing — produces dizziness, brain fog, and orthostatic intolerance indistinguishable from POTS [@VanCampenEtAl2020].
+
+This pathway does not require any novel biology. It is a direct, structural consequence of the same connective-tissue abnormality that makes joints hypermobile, applied to blood vessels instead of ligaments.
+
+### Pathway 2: Craniocervical instability → brainstem dysfunction (MODERATE EVIDENCE)
+
+Ligamentous laxity at the craniocervical junction (C0–C2, where the skull meets the spine) can cause structural instability with neurological consequences. The brainstem — which controls heart rate, blood pressure, respiratory drive, and alertness — passes through this junction. Intermittent compression or stretching could theoretically produce autonomic dysfunction, fatigue, and cognitive symptoms.
+
+Bragée et al. studied 229 ME/CFS patients with upright MRI and found: 80% had craniocervical obstructions, 78% had indicators of intracranial hypertension, 75% had hypermobility indicators, 45% had Chiari malformation. The correlation between CCI severity and orthostatic intolerance was r=0.42 — modest but significant [@Bragee2020].
+
+**The honest limit.** The CCI–ME/CFS connection remains largely anecdotal. No controlled studies have established true CCI prevalence in ME/CFS, whether CCI causes symptoms or merely co-occurs, or what long-term surgical outcomes look like [@Wirth2026CTDMECFS]. Some patients report dramatic improvement after surgical stabilisation (one series reported 60–80% improvement rates), but these are uncontrolled individual cases, and surgery at the skull-spine junction carries serious risks including a 19% complication rate. Screening for CCI may be appropriate in ME/CFS patients with hypermobility and progressive neurological symptoms, but the evidence base does not support routine surgical referral.
+
+### Pathway 3: Extracellular matrix → mast cell dysregulation (LOW EVIDENCE)
+
+Mast cells anchor to ECM proteins via integrins and CADM1. Bidirectional signalling means abnormal ECM composition could alter mast cell activation thresholds. The hypothesis, developed extensively in the primary document, is that a softer ECM (as in hypermobility) transmits mechanical force to mast cells with less damping — so a given pressure on the tissue is more likely to trigger degranulation [@Magadmi2019].
+
+But as noted above, a 2025 critical review found no established mechanism for this link. The epidemiological triad is real; the biochemistry of what connects ECM to mast cell firing thresholds is not. The primary document's matrix-stiffness hypothesis (certainty: 0.45) attempts to fill this gap, but it remains a theoretical model awaiting direct testing [@Loth2026website].
+
+### Pathway 4: Tissue fragility → purinergic signalling (SPECULATIVE)
+
+The cell danger response hypothesis proposes that damaged cells release ATP into the extracellular space, activating P2X and P2Y purinergic receptors and triggering a protective hypometabolic state. hEDS patients experience more microtrauma from daily activities because their tissues are mechanically fragile. If this microtrauma is ongoing, the purinergic alarm might never reset, maintaining the hypometabolic state characteristic of ME/CFS.
+
+**The honest limit.** No studies have measured extracellular ATP or purinergic receptor activation in hEDS patients. This pathway is mechanistically coherent but entirely unvalidated [@Wirth2026CTDMECFS].
+
+### Pathway 5: Small fiber neuropathy as common downstream pathway (MODERATE EVIDENCE)
+
+In one study, all 24 hEDS patients showed decreased intraepidermal nerve fibre density consistent with SFN, with 95% meeting criteria for neuropathic pain [@Cazzato2016sfn]. ME/CFS patients show evidence of C-fibre denervation on quantitative sensory testing, with 31% meeting POTS criteria and 34% showing non-length-dependent SFN patterns [@Azcue2023sfn]. SFN affects both sensory and autonomic small fibres — explaining the widespread autonomic dysfunction in both conditions. SFN may be the point where the EDS structural abnormality and the ME/CFS functional abnormality converge, though whether the aetiology is the same in both conditions remains unknown.
+
+---
+
+## The neurodivergence connection
+
+One of the more striking findings of the last decade is the statistical link between connective tissue laxity and neurodevelopmental conditions:
+
+- **Autism + hypermobility.** A 2025 meta-analysis of 22 studies found 22.3% joint hypermobility in autistic individuals (rising to 31% when only clinical assessments were considered). The direction is not established — hypermobility may predispose to autism-relevant sensory processing differences through altered interoceptive signalling (the brain receiving degraded proprioceptive input from lax joints), or the same developmental genes may affect both connective tissue and neural wiring [@BaezaVelasco2025autismEDS].
+- **ADHD and hEDS in children.** In a study of children with hEDS/HSD, 16% met criteria for ADHD and 6% for autism — rates substantially above the general paediatric population [@Kindgren2021hEDSadhd].
+- **The mediating pathway appears to be dysautonomia.** One study found that 51% of a neurodivergent-hypermobile cohort had joint hypermobility, and that hypermobility statistically mediated the relationship between neurodivergence and dysautonomia — suggesting the connective-tissue trait is the physical link between the neural wiring difference and the autonomic symptoms [@Csecs2022hypermobility].
+
+This is not a causal claim. It does not mean hypermobility "causes" autism or ADHD, or that neurodivergence "causes" tissue laxity. The honest reading is that the same developmental pathways — possibly involving shared extracellular matrix proteins that guide both connective tissue formation and neural migration during embryogenesis — produce both phenotypes, and the correlation is a clue to a deeper shared biology that we do not yet understand.
+
+---
+
+## hEDS by itself vs ME/CFS with hEDS
+
+This is the core distinction of the series, and it applies to hypermobility more starkly than to any other co-occurring condition — because hEDS is a constitutional tissue trait present from birth (or, in the case of acquired hypermobility, accumulating over years), not an acquired disease.
+
+**hEDS on its own (no ME/CFS).** Hypermobility is the dominant feature. Joints ache, ligaments strain, skin stretches, the gut is sluggish. Treatment is mechanical and symptomatic: physiotherapy, bracing, pain management, and — for the most severe — surgical stabilisation. There is no drug that fixes collagen. People with isolated hEDS can be highly functional with appropriate joint protection and pacing.
+
+**ME/CFS with hEDS (the situation this series is about).** When hypermobility sits on top of ME/CFS, three things are different:
+
+- **hEDS is a permissive substrate, not the core disease.** Loose connective tissue lowers the threshold — vessels pool more, mast cells fire more easily, tissue microtrauma releases more ATP — but the energy failure and immune dysregulation of ME/CFS are not caused by the hypermobility. They run on it [@Loth2026website].
+- **Treating the joints does not fix the energy crisis.** Physiotherapy and bracing may reduce pain and stabilise function, but they do not address PEM, immune dysfunction, or cerebral hypoperfusion. Aggressive physiotherapy that ignores PEM can make ME/CFS worse.
+- **The treatment of downstream amplifiers becomes proportionally more important.** Because you cannot fix the collagen, the clinical levers are the conditions the loose tissue enables: treating the POTS with volume expansion, treating the MCAS with antihistamines and stabilisers, protecting the joints with bracing and pacing. The clinical art is not in fixing the collagen — it is in managing the cascade that the loose collagen lets through.
+
+---
+
+## The permanent energy tax
+
+The ODE models in the primary document include an explicit parameter for the hEDS vascular effect: a venous compliance amplification factor κ, empirically estimated between 1.3 and 2.0. The model predicts that **hEDS imposes a permanent 10–20% reduction in energy available for upright activity** — not from mitochondria, not from immune dysfunction, not from deconditioning, but from the physics of loose vessels requiring greater compensatory sympathetic drive and higher cardiac work just to maintain standing blood pressure [@Loth2026website].
+
+This prediction has direct clinical implications: supine positioning and compression garments benefit hEDS patients disproportionately, because they mechanically reduce the gravitational pooling that the loose vessels cannot control. It also explains why hEDS+ME/CFS patients tend toward greater severity — the connective-tissue deficit is a permanent tax on an energy budget that is already depleted by the core disease.
+
+---
+
+## The bottom line
+
+Hypermobile EDS is real as a clinical entity — about 1 in 6 ME/CFS patients meet strict diagnostic criteria, and up to 81% are hypermobility-positive on broader screening — but it has no identified molecular defect, its diagnostic boundaries are contested, and its mechanistic link to ME/CFS is supported by physiological plausibility more than by direct evidence [@Eccles2021hypermobility][@MECFSScience2024heds].
+
+The deeper biology, developed extensively in the primary document, proposes that hypermobility is not merely a congenital trait but can be *acquired* through mast-cell–mediated collagen degradation (tryptase → MMP-3/-13, chymase → MMP-1, histaminylation), and that the matrix-stiffness feedback loop creates a bistable system that, once tipped, may not spontaneously recover [@Loth2026website][@Zhu2026HistaminylationCollagen]. A small fraction (~5–10%) of hypermobility is explained by TNXB haploinsufficiency, an independent genetic mechanism [@Imanaka2026TNXBHypermobility].
+
+The honest read: hEDS is best understood as a **permissive substrate** that makes every other amplifier louder — and the permanent energy tax on upright posture means the substrate itself is never neutral, even when the downstream amplifiers are controlled. The [treatment companion article](../hypermobility-heds-treatment/index.qmd) covers the mechanical, pharmacological, and emerging-therapy options, and the [failure companion article](../hypermobility-heds-failure/index.qmd) covers what happens when they don't work.
+
+**Next in this mini-series:** how to actually manage hypermobility on top of ME/CFS — physiotherapy, bracing, supplements, circadian collagen support, isometric resistance training, doxycycline for MMP-9, tVNS, HIF-1α inhibitors, and the honest "what if nothing helps" discussion [[see the treatment article]](../hypermobility-heds-treatment/index.qmd) and [[the article on treatment failure]](../hypermobility-heds-failure/index.qmd).
+
+For the comprehensive, fully-cited picture of how connective tissue disorders are weighed among the many candidate mechanisms in ME/CFS, see [@Loth2026website].
