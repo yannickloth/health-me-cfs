@@ -260,7 +260,9 @@
               "installPhase"
             ];
             buildPhase = ''
-              java --source 25 src/test/java/web/BlogAuditTest.java
+              java --source 25 src/test/java/web/BlogAuditTest.java web/en/blog
+              java --source 25 src/test/java/web/BlogAuditTest.java web/de/blog
+              java --source 25 src/test/java/web/BlogAuditTest.java web/fr/blog
             '';
             installPhase = ''
               mkdir -p $out

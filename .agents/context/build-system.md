@@ -53,7 +53,7 @@ BuildWeb.java now also copies .bib files — no separate step needed.
 |---------|--------|
 | Content/layout issue in rendered HTML | Typst source (`src/main/typst/mecfs/`) or `ConvertAndSplit.java` |
 | Static page issue (index, about) | `web/index.qmd` or `web/about.qmd` directly |
-| Blog issue | `web/blog/posts/<slug>/index.qmd` directly |
+| Blog issue | `web/{en,de,fr}/blog/posts/<topic>/<slug>/index.qmd` directly |
 | Bibliography issue | `.bib` in `src/main/typst/mecfs/bib/` |
 | Figure issue | `.typ` in `src/main/typst/mecfs/figures/` |
 | **Never edit** | Generated `.qmd`, `web/_site/`, `web/figures/*.svg` |
@@ -61,9 +61,12 @@ BuildWeb.java now also copies .bib files — no separate step needed.
 ### Blog
 
 - NOT generated from Typst
-- Handwritten `.qmd` files: `web/blog/posts/<slug>/index.qmd` (51 posts)
-- Own `_metadata.yml`: sidebar=false, number-sections=false
-- Audited by `BlogAuditTest.java`
+- Handwritten `.qmd` files: `web/{en,de,fr}/blog/posts/<topic>/<slug>/index.qmd` (~70 posts per language)
+- Posts organized into topic folders; numbered series stay co-located under their topic (see `_blog-plan.md` / `_series-plan.md` in `web/{en,de,fr}/blog/`)
+- Series announcing-article for the multi-topic "Conditions That Travel With ME/CFS" sits at `web/{en,de,fr}/blog/posts/co-occurring-conditions-series/`
+- Out-of-date paths get a `<meta http-equiv="refresh">` `index.html` redirect, stored in `src/main/html/web/{en,de,fr}/blog/posts/<slug>/index.html` and copied into `web/` by `BuildWeb.java` during the build
+- Own `_metadata.yml`: sidebar=false, number-sections=false, lang=<de|en|fr>
+- Audited by `BlogAuditTest.java` (recursive over `posts/`) across all three language dirs
 
 ## Troubleshooting
 
@@ -75,7 +78,7 @@ BuildWeb.java now also copies .bib files — no separate step needed.
 | Web content missing/blank | Run steps 1, 2, 6 from generation pipeline (inside `nix develop`) |
 | Figure missing on web | Run `BuildWeb.java` figure compilation; verify `src/main/typst/mecfs/packages/preview/cetz/` exists |
 | Typst compile fails outside nix | Enter `nix develop` first (TYPST_PACKAGE_CACHE_PATH + TYPST_FONT_PATHS required) |
-| Blog audit fails | `java --source 25 src/test/java/web/BlogAuditTest.java` |
+| Blog audit fails | `java --source 25 src/test/java/web/BlogAuditTest.java web/en/blog` (also `web/de/blog`, `web/fr/blog`) |
 | Stale Nix dependencies | `nix flake update` refreshes `flake.lock`; rebuild after |
 
 ## CI/CD (GitHub Actions)

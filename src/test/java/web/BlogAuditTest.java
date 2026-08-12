@@ -27,7 +27,7 @@ void main(String[] args) throws Exception {
     }
 
     List<Path> postDirs;
-    try (var stream = list(postsDir)) {
+    try (var stream = Files.walk(postsDir)) {
         postDirs = stream.filter(Files::isDirectory)
             .filter(d -> isRegularFile(d.resolve("index.qmd")))
             .sorted()
