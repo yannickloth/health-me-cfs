@@ -270,7 +270,7 @@
 
   .gt-also, .gt-sources { font-size: 0.8rem; color: var(--bs-secondary-color); border-top: var(--bs-border-width) solid var(--bs-border-color); padding-top: 4px; margin-top: 2px; }
   .gt-sources { font-size: 0.75rem; line-height: 1.6; }
-  .gt-sources a { color: var(--bs-link-color); text-decoration: none; }
+  .gt-sources a { color: #0d6efd !important; text-decoration: none; }
   .gt-sources a:hover { text-decoration: underline; }
   .gt-pop b { color: var(--bs-emphasis-color); }
 
