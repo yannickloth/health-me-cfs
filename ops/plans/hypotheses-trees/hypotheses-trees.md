@@ -339,6 +339,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | bhc-clinical-operations-model | [subtrees/bhc-clinical-operations-model.md](subtrees/bhc-clinical-operations-model.md) | 2026-08-10 | 2 | 0 | ✅ done |
 | diurnal-response-window | [subtrees/diurnal-response-window.md](subtrees/diurnal-response-window.md) | 2026-07-29 | 4 | 2 | ✅ done |
 | dementia-inflammation | [subtrees/dementia-inflammation.md](subtrees/dementia-inflammation.md) | 2026-08-09 | 15 | 10 | ✅ done |
+| encephalitis-dementia-risk | [subtrees/encephalitis-dementia-risk.md](subtrees/encephalitis-dementia-risk.md) | 2026-08-12 | 24 | 17 | 🔵 in progress |
 | ai-multiomics-mecfs-xiong2025 | [subtrees/ai-multiomics-mecfs-xiong2025.md](subtrees/ai-multiomics-mecfs-xiong2025.md) | 2026-08-10 | 6 | 3 | 🔵 in progress |
 | godlewska-7t-mrs-brain-muscle | [subtrees/godlewska-7t-mrs-brain-muscle.md](subtrees/godlewska-7t-mrs-brain-muscle.md) | 2026-08-10 | 10 | 1 | ✅ done |
 | komaroff-dantzer-symptom-persistence | [subtrees/komaroff-dantzer-symptom-persistence.md](subtrees/komaroff-dantzer-symptom-persistence.md) | 2026-08-10 | 38 | 3 | ✅ done |

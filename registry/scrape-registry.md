@@ -836,3 +836,15 @@ Prevents re-processing of already-integrated content.
 | URL | Source | Scraped | Integrated | Target |
 |-----|--------|---------|------------|--------|
 | PubMed API queries (14 queries, batch) | pubmed/eutils | 2026-08-11 | — | ops/research/search-log-fatigue-2026-08-11.md, ops/research/literature-fatigue-2026-08-11.md, bib/diagnosis-assessment.bib (10 entries), appendix-h (10 annotated entries) — Fatigue as core symptom literature (10 papers) |
+
+## Encephalitis → Long-Term Dementia Risk (Aditi 2026) Literature Search
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-12 | 18 queries: post-encephalitis dementia; acute encephalitis cognitive outcomes; neuroinflammation neurodegeneration microglia; viral encephalitis dementia risk; autoimmune encephalitis cognitive decline; microglia activation ME/CFS neuroinflammation; HSV encephalitis cognitive; autoimmune encephalitis dementia cohort; NLRP3/inflammasome mechanism chain (Heneka/Ising) |
+| Crossref API | 2026-08-12 | DOI 10.1007/s00415-026-14017-3 metadata (title, journal, vol 273 iss 9, page 511, authors, license, PMID 42557422) |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| https://doi.org/10.1007/s00415-026-14017-3 | Springer (Journal of Neurology) | 2026-08-12 | — | bib/neuroinflammation.bib (Aditi2026EncephalitisDementia + 6 supporting), appendix-h (7 annotated entries), ops/research/search-log-encephalitis-dementia-risk-2026-08-12.md, ops/integration-guides/encephalitis-dementia-risk-integration-guide.md — integrate-topic encephalitis-dementia-risk (CROSS-DISEASE / indirect) |
+| https://medicalxpress.com/news/2026-08-brain-inflammation-dementia-shadow-older.html | MedicalXpress | 2026-08-12 | — | News coverage of Aditi 2026 encephalitis→dementia study (403 on fetch; URL registered for future re-scrape; journal DOI is the authoritative source) |
+| PubMed E-utilities API (18 queries, batch) | pubmed/eutils | 2026-08-12 | — | 7 papers across bib/neuroinflammation.bib + appendix-h — encephalitis-dementia-risk cross-disease literature |
