@@ -1816,20 +1816,22 @@ final class RegexConversion implements TypstToQmd {
         var dntu = fields.getOrDefault("dntu", "");
         var action = fields.getOrDefault("action", "");
         var level = fields.getOrDefault("level", "");
-        var html = new StringBuilder();
-        html.append("<div class=\"env-finding\">\n");
-        html.append("<h5 class=\"env-finding-heading\">Finding — ").append(claim).append("</h5>\n");
-        html.append("<div class=\"env-finding-body\">\n");
+        var sb = new StringBuilder();
+        // Render the finding as a Quarto callout so it shares the exact header
+        // (icon + full-width title) structure of the other env boxes.
+        sb.append("\n\n::: {.callout-important .env-finding}\n");
+        sb.append("### Finding: ").append(claim).append("\n\n");
         if (!explanation.isEmpty()) {
-            html.append("  <div class=\"env-finding-explanation\">").append(explanation).append("</div>\n");
+            sb.append(explanation).append("\n\n");
         }
-        html.append("  <dl class=\"env-finding-fields\">\n");
-        html.append("    <dt>Certainty</dt><dd>").append(certainty).append("</dd>\n");
-        if (!dntu.isEmpty()) html.append("    <dt>Does NOT tell us</dt><dd>").append(dntu).append("</dd>\n");
-        if (!action.isEmpty()) html.append("    <dt>Action</dt><dd>").append(action).append("</dd>\n");
-        html.append("    <dt>Level of action</dt><dd>").append(level).append("</dd>\n");
-        html.append("  </dl>\n</div>\n</div>");
-        return html.toString();
+        sb.append("<dl class=\"env-finding-fields\">\n");
+        sb.append("  <dt>Certainty</dt><dd>").append(certainty).append("</dd>\n");
+        if (!dntu.isEmpty()) sb.append("  <dt>Does NOT tell us</dt><dd>").append(dntu).append("</dd>\n");
+        if (!action.isEmpty()) sb.append("  <dt>Action</dt><dd>").append(action).append("</dd>\n");
+        sb.append("  <dt>Level of action</dt><dd>").append(level).append("</dd>\n");
+        sb.append("</dl>\n");
+        sb.append(":::\n\n");
+        return sb.toString();
     }
 
     String processFindingValue(String raw) {

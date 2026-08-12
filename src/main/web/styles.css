@@ -164,33 +164,10 @@
     color: var(--box-fg);
   }
   .env-finding + .env-finding { margin-block-start: 1.5em; }
-  /* Finding heading — a full-width accent bar like the callout title, with a
-     glyph icon, so the finding reads as the same kind of box. Flush to the
-     top: the .env-finding box drops its top padding here. */
-  .env-finding { padding-top: 0; }
-  .env-finding-heading {
-    background: var(--box-accent-strong);
-    color: var(--bs-white);
-    padding: 0.2em 0.7em;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-    border-radius: calc(var(--bs-border-radius) - 1px) calc(var(--bs-border-radius) - 1px) 0 0;
-    font-weight: 600;
-  }
-  .env-finding-heading::before {
-    content: "";
-    width: 0.85em; height: 0.85em;
-    background-color: currentColor;
-    flex: none;
-    -webkit-mask: center / contain no-repeat;
-    mask: center / contain no-repeat;
-    /* magnifier glyph: a lens circle with a handle */
-    -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M6.5 1a5.5 5.5 0 1 1 5.5 5.5A5.6 5.6 0 0 1 6.5 1zm0 1a4.5 4.5 0 1 0 4.5 4.5A4.5 4.5 0 0 0 6.5 2zm6.4 9.1-4.1 4.1a.75.75 0 0 1-1.062-1.06l4.1-4.1z'/></svg>");
-    mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M6.5 1a5.5 5.5 0 1 1 5.5 5.5A5.6 5.6 0 0 1 6.5 1zm0 1a4.5 4.5 0 1 0 4.5 4.5A4.5 4.5 0 0 0 6.5 2zm6.4 9.1-4.1 4.1a.75.75 0 0 1-1.062-1.06l4.1-4.1z'/></svg>");
-  }
-  .env-finding-explanation { margin-block-end: 0.5em; margin-block-start: 0.7em; padding: 0 0.2em; }
+  /* Finding uses the standard Quarto callout header (icon + full-width title
+     bar) like every other env box, so no bespoke heading styles are needed
+     beyond the accent token (set on .env-finding below) and the fields list. */
+  .env-finding-explanation { margin-block-end: 0.5em; }
   .env-finding-fields {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -198,7 +175,7 @@
     margin-block: 0;
     font-size: 0.9em;
   }
-  .env-finding-fields dt { font-weight: 500; color: color-mix(in srgb, var(--box-accent) 60%, var(--bs-black)); white-space: nowrap; }
+  .env-finding-fields dt { font-weight: 500; color: var(--box-fg); white-space: nowrap; }
   .env-finding-fields dd { margin-inline-start: 0; }
 
   /* Registry entry cards — reuse the same accent system */
