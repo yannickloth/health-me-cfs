@@ -40,11 +40,11 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Blog (EN)"
+      - text: "🇬🇧 Blog (EN)"
         href: en/blog/index.qmd
-      - text: "Blog (FR)"
+      - text: "🇫🇷 Blog (FR)"
         href: fr/blog/index.qmd
-      - text: "Blog (DE)"
+      - text: "🇩🇪 Blog (DE)"
         href: de/blog/index.qmd
       - text: "FAQ"
         href: faq/index.qmd
@@ -55,11 +55,11 @@ website:
         href: loth2026-mecfs.pdf
       - icon: rss
         menu:
-          - text: "RSS (EN)"
+          - text: "🇬🇧 RSS (EN)"
             href: en/blog/index.xml
-          - text: "RSS (FR)"
+          - text: "🇫🇷 RSS (FR)"
             href: fr/blog/index.xml
-          - text: "RSS (DE)"
+          - text: "🇩🇪 RSS (DE)"
             href: de/blog/index.xml
   sidebar:
     style: docked
