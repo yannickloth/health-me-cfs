@@ -1,0 +1,260 @@
+:root {
+}
+/* NOTE: these rules are deliberately UNLAYERED. styles.css is linked after
+   Bootstrap/Quarto CSS in the site, so unlayered rules win over Quarto's
+   unlayered callout styles by source order. Wrapping them in @layer would
+   DEMOTE them below unlayered CSS and the overrides would not apply. */
+  body, p, li, dd, td, th { text-align: justify; hyphens: auto; }
+  h1,h2,h3,h4,h5,h6, nav, .sidebar, pre, code,
+  .callout-title-container, .registry-badge, .registry-name,
+  dt, caption, figcaption, .quarto-title-meta { text-align: unset; }
+
+  figure img { max-inline-size: 100%; block-size: auto; }
+  .math.display { overflow-x: auto; padding-block: 0.2em; }
+  .sidebar nav[role="doc-toc"] ul { list-style-type: none; padding-inline-start: 0.8em; }
+
+  /* Accent boxes — one shared frame. Each box sets `--box-accent` (a cosmo
+     token) and `--box-accent-strong` (a fully saturated, darkened variant),
+     from which the border, the tinted fill, and the vivid title badge derive.
+     `--box-accent-strong` is set PER FAMILY (below), not computed here, so it
+     can be tuned per hue to guarantee WCAG AA contrast (>= 4.5:1) of the
+     white title text against the badge. Selectors repeat the full
+     `.callout.callout-style-default.callout-*` chain Quarto uses for headers,
+     so these have at least equal specificity and win by source order.
+
+     Box fill = a visible tint of the accent over white (~15%, matching the
+     theme's own -bg-subtle approach; Bootstrap computes these from the
+     accent at similar proportions). Title badge = the saturated dark accent. */
+  .callout.callout-style-default.callout-warning,
+  .callout.callout-style-default.callout-note,
+  .callout.callout-style-default.callout-important,
+  .callout.callout-style-default.callout-tip,
+  .callout.callout-style-default.callout-caution,
+  .callout.callout-style-default.env-hypothesis,
+  .callout.callout-style-default.env-proposal,
+  .callout.callout-style-default.env-direction,
+  .callout.callout-style-default.env-speculation,
+  .callout.callout-style-default.env-key-point,
+  .callout.callout-style-default.env-achievement,
+  .callout.callout-style-default.env-open-question,
+  .callout.callout-style-default.env-limitation,
+  .callout.callout-style-default.env-warning,
+  .callout.callout-style-default.env-prediction,
+  .callout.callout-style-default.env-model-insight,
+  .callout.callout-style-default.env-recommendation,
+  .callout.callout-style-default.env-synthesis,
+  .callout.callout-style-default.env-clinical-finding,
+  .callout.callout-style-default.env-observation,
+  .callout.callout-style-default.env-finding {
+    border-inline-start: 3px solid var(--box-accent-strong);
+    background: var(--box-bg);
+    color: var(--box-fg, color-mix(in srgb, var(--box-accent) 60%, var(--bs-black)));
+    padding: 0.8rem 1rem;
+    margin-block-end: 1rem;
+  }
+  /* Quarto callout header — icon + title on one line. Transparent so the
+     box's own pale fill shows through; only the title badge carries the
+     vivid accent. */
+  .callout.callout-style-default > .callout-header {
+    display: flex; align-items: center; gap: 0.5em; margin-block-end: 0.4em;
+    background: transparent !important;
+    opacity: 1;
+    padding-top: 0; padding-bottom: 0;
+  }
+  .callout-icon-container { display: inline-flex; align-items: center; }
+  .callout.callout-style-default > .callout-header .callout-title-container {
+    background: var(--box-accent-strong);
+    color: var(--bs-white);
+    padding: 0.15em 0.6em;
+    border-radius: var(--bs-border-radius);
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+  }
+  /* Icon glyph recolored to the title-badge color. Quarto paints the glyph as
+     a background-image SVG on .callout-icon::before; to tint the GLYPH (not a
+     filled rectangle) to the box's accent, drop the SVG fill and use the glyph
+     as a CSS mask filled with `--box-accent-strong`. The glyph URL comes from
+     Bootstrap itself (stored per callout type in --callout-icon). */
+  .callout.callout-style-default > .callout-header .callout-icon {
+    color: var(--box-accent-strong);
+  }
+  .callout.callout-style-default > .callout-header .callout-icon::before {
+    background-image: none;
+    -webkit-mask-image: var(--callout-icon);
+    mask-image: var(--callout-icon);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    background-color: var(--box-accent-strong);
+  }
+  /* Box body text = a darker version of the box's accent (theme -text-emphasis
+     where available, else a color-mix of the accent toward black). */
+  .callout.callout-style-default .callout-body-container {
+    color: var(--box-fg, color-mix(in srgb, var(--box-accent) 60%, var(--bs-black)));
+  }
+
+  /* Quarto base callouts → theme-native hue + subtle fill + saturated dark
+     strong variant (title badge bg / border / icon). Fill uses the theme's
+     own -bg-subtle token; strong is chosen so white title text meets AA.
+     `--callout-icon` is the glyph Bootstrap paints for each type, reused as a
+     CSS mask so the icon takes the title-badge colour. */
+  .callout-warning   { --box-accent: var(--bs-danger);  --box-accent-strong: #c42f2a; --box-bg: var(--bs-danger-bg-subtle);  --box-fg: var(--bs-danger-text-emphasis);  --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1-.002-.183L7.88 2.073a.147.147 0 0 1 .054-.057zm1.044 4.255a.5.5 0 0 0-.964 0l-.257 2.642a1.093 1.093 0 0 0 .142.608l-.526.253.003.012h.017l-.005.007.07.14a.5.5 0 0 0 .953-.237l-.262-2.698a.16.16 0 0 0-.016-.06zm-1.445 5.6a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0z'/></svg>"); }
+  .callout-note      { --box-accent: var(--bs-primary); --box-accent-strong: #004f9e; --box-bg: #cfe2f7; --box-fg: #0d2f54;   --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z'/></svg>"); }
+  .callout-important { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); --box-fg: var(--bs-success-text-emphasis); --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z'/></svg>"); }
+  .callout-tip       { --box-accent: var(--bs-info);    --box-accent-strong: #0079ab; --box-bg: var(--bs-info-bg-subtle);    --box-fg: var(--bs-info-text-emphasis);    --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.287-.091l-.762-1.769c-.094-.219-.25-.423-.453-.619A5.998 5.998 0 0 1 2 6zm7.835 6.724a3 3 0 0 0-3.67 0l-.065.044c.174-.022.348-.026.52-.026a4 4 0 0 1 .8.079c.158.027.318.042.477.058.523.053.975.138 1.93.046.1-.011.2-.02.3-.033l-.393-.052zm-4.647.898A.5.5 0 0 0 6 14.5h4a.5.5 0 0 0-.292-.456L9.57 13.8a2.87 2.87 0 0 0-1.14-1.3h-6.515z'/></svg>"); }
+  .callout-caution   { --box-accent: var(--bs-warning); --box-accent-strong: #c94600; --box-bg: var(--bs-warning-bg-subtle); --box-fg: var(--bs-warning-text-emphasis); --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M9.97 4.88l.953 3.811C10.158 8.878 9.14 9 8 9c-1.14 0-2.159-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zM5.055 4.285c.687.09 1.61.16 2.945.16 1.335 0 2.258-.07 2.945-.16l-.986-3.943a2 2 0 0 1-.4-.3.99.99 0 0 0-.35-.243A5 5 0 0 0 8 0c-2.5 0-3.6.436-4.136.8a.99.99 0 0 0-.35.243 2 2 0 0 1-.4.3l-.986 3.943c.687.09 1.61.16 2.945.16.201 0 .404-.003.647-.008z'/><path d='M9.153 16A.98.98 0 0 0 8 13.5a.99.99 0 0 0-1.154 2.5h2.307zm-5.5-4a1 1 0 0 1-.057-.238L3 8.196v-.488l.3-1.635.938 3.75c.156.624.636 1.028 1.22 1.028h2.058c.584 0 1.064-.404 1.22-1.028l.938-3.75.3 1.635v.488l-.596 3.566a1 1 0 0 1-.057.238h-5.5z'/></svg>"); }
+
+  /* Environment families → cosmo hues. These come AFTER the Quarto callout
+     types because env boxes carry BOTH a callout-* type class and an env-*
+     class; the env-* class carries the true epistemic meaning and must win
+     (e.g. #hypothesis → .callout-important + .env-hypothesis → blue). Teal,
+     indigo, and info have no theme -bg-subtle token, so env fills use a
+     color-mix tint of their accent over white. */
+  .env-hypothesis, .env-proposal, .env-direction { --box-accent: var(--bs-primary); --box-accent-strong: #004f9e; }
+  .env-speculation, .env-key-point { --box-accent: var(--bs-warning); --box-accent-strong: #c94600; }
+  .env-recommendation, .env-achievement { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); }
+  .env-open-question, .env-synthesis { --box-accent: var(--bs-teal); --box-accent-strong: #00825c; }
+  .env-prediction, .env-model-insight { --box-accent: var(--bs-info); --box-accent-strong: #0079ab; }
+  .env-clinical-finding, .env-observation { --box-accent: var(--bs-indigo); --box-accent-strong: #4a00d8; }
+  .env-limitation, .env-warning { --box-accent: var(--bs-danger); --box-accent-strong: #c42f2a; --box-bg: var(--bs-danger-bg-subtle); }
+  .env-finding { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); }
+
+  /* Env families without a dedicated -bg-subtle token: tint their accent. */
+  .env-hypothesis, .env-proposal, .env-direction,
+  .env-speculation, .env-key-point,
+  .env-open-question, .env-synthesis,
+  .env-prediction, .env-model-insight,
+  .env-clinical-finding, .env-observation {
+    --box-bg: color-mix(in srgb, var(--box-accent) 15%, var(--bs-white));
+  }
+
+  /* Finding block — a defined zone with a clear border on all sides (not just
+     the left accent edge), so it reads as a distinct box. The heading badge
+     keeps the saturated accent; interior fields sit on the pale fill. */
+  .env-finding {
+    border: 1px solid var(--box-accent-strong);
+    border-radius: var(--bs-border-radius);
+    padding: 0.8rem 1rem;
+  }
+  .env-finding + .env-finding { margin-block-start: 1.5em; }
+  .env-finding-heading {
+    background: var(--box-accent-strong);
+    color: var(--bs-white);
+    padding: 0.15em 0.6em;
+    border-radius: var(--bs-border-radius);
+    display: inline-block;
+    font-weight: 600;
+    font-size: 0.95em;
+  }
+  .env-finding-explanation { margin-block-end: 0.5em; }
+  .env-finding-fields {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 2px 12px;
+    margin-block: 0;
+    font-size: 0.9em;
+  }
+  .env-finding-fields dt { font-weight: 500; color: color-mix(in srgb, var(--box-accent) 60%, var(--bs-black)); white-space: nowrap; }
+  .env-finding-fields dd { margin-inline-start: 0; }
+
+  /* Registry entry cards — reuse the same accent system */
+  .registry-entry {
+    --box-fg: color-mix(in srgb, var(--box-accent) 72%, var(--bs-black));
+    border-inline-start: 3px solid var(--box-accent-strong);
+    background: var(--box-bg, color-mix(in srgb, var(--box-accent) 15%, var(--bs-white)));
+    color: var(--box-fg);
+    padding: 0.75rem 1rem 0.5rem;
+    margin-block-end: 1rem;
+  }
+  .registry-header { display: flex; align-items: baseline; gap: 0.6em; margin-block-end: 0.5em; }
+  .registry-badge { font-size: 0.78em; font-weight: bold; padding: 0.15em 0.45em; white-space: nowrap; color: var(--bs-white); background: var(--box-accent-strong); border-radius: var(--bs-border-radius); }
+  .registry-name { font-weight: bold; font-size: 0.95em; color: var(--box-fg); }
+  .registry-fields {
+    display: grid;
+    grid-template-columns: 7em 1fr;
+    gap: 0.2em 0.75em;
+    font-size: 0.88em;
+    margin: 0;
+  }
+  .registry-fields dt { font-weight: bold; color: var(--box-fg); padding-block-start: 0.1em; margin: 0; }
+  .registry-fields dd { color: var(--box-fg); margin: 0; }
+
+  .registry-H  { --box-accent: var(--bs-primary); --box-accent-strong: #004f9e; --box-bg: var(--bs-primary-bg-subtle); }   /* hypothesis */
+  .registry-S  { --box-accent: var(--bs-warning); --box-accent-strong: #c94600; --box-bg: var(--bs-warning-bg-subtle); }   /* speculation */
+  .registry-OQ { --box-accent: var(--bs-teal);    --box-accent-strong: #00825c; }                                          /* open question */
+  .registry-P  { --box-accent: var(--bs-info);    --box-accent-strong: #0079ab; --box-bg: var(--bs-info-bg-subtle); }      /* prediction (mirrors env-prediction) */
+
+  /* Epigraphs / blockquotes — theme border width + subtle hue */
+  :where(.epigraph, blockquote) {
+    border-inline-start: var(--bs-border-width) solid var(--bs-gray-400);
+    background: var(--bs-light);
+    color: var(--bs-secondary-color);
+    font-style: italic;
+    padding: 0.6em 1em;
+  }
+
+  /* ch29 response marks — ✓/✗ icons, not prose */
+  .response-mark.positive { color: var(--bs-success); }
+  .response-mark.negative { color: var(--bs-danger); }
+
+  /* ── Glossary tooltips (custom popover) ── */
+  .gt, glossary-term { border-bottom: 1.5px dashed currentColor; cursor: help; color: inherit; display: inline; }
+  /* The "?" badge uses the box's text colour as its background (matching text),
+     with a white glyph. Raised slightly to sit level with surrounding text. */
+  .gt-icon, :is(.gt, glossary-term):not(:has(.gt-icon))::after {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    inline-size: 12px; block-size: 12px; border-radius: 50%;
+    background: color-mix(in srgb, var(--box-accent) 60%, var(--bs-black));
+    color: var(--bs-white); font-size: 9px; line-height: 1;
+    cursor: help; vertical-align: 0.5em;
+  }
+  .gt-icon { margin-inline-start: 2px; user-select: none; }
+  :is(.gt, glossary-term):not(:has(.gt-icon))::after { content: '?'; margin-inline-start: 2px; }
+
+  .gt-pop {
+    position: fixed; z-index: 99999; max-inline-size: min(90vw, 520px);
+    background: var(--bs-body-bg); border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius-lg); box-shadow: var(--bs-box-shadow);
+    padding: 12px 14px; font-size: 0.875rem; line-height: 1.5;
+    display: flex; flex-direction: column; gap: 4px;
+    opacity: 0; visibility: hidden; transform: translateY(4px);
+    transition: opacity .15s ease, visibility .15s ease, transform .15s ease;
+    pointer-events: none; overflow-wrap: break-word; word-break: break-word;
+    max-block-size: min(80vh, 600px); overflow-y: auto;
+  }
+  .gt-show { opacity: 1; visibility: visible; transform: translateY(0); pointer-events: auto; }
+
+  .gt-cat { font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600; color: var(--bs-secondary-color); }
+  .gt-term { font-weight: 700; font-size: 0.95rem; color: var(--bs-body-color); }
+  .gt-def { color: var(--bs-body-color); }
+
+  .gt-td {
+    font-size: 0.8rem; line-height: 1.45; color: var(--bs-body-color); margin: 2px 0; padding: 3px 6px;
+    background: var(--bs-light); border-left: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: 0 var(--bs-border-radius) var(--bs-border-radius) 0;
+  }
+  .gt-td b, .gt-dz-cat b { text-transform: uppercase; letter-spacing: 0.04em; }
+  .gt-td b { font-size: 0.65rem; }
+
+  .gt-dz-table { width: 100%; border-collapse: collapse; margin: 4px 0; font-size: 0.75rem; }
+  .gt-dz-table th { text-align: left; font-weight: 600; color: var(--bs-secondary-color); padding: 2px 4px; border-bottom: var(--bs-border-width) solid var(--bs-border-color); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  .gt-dz-table td { padding: 3px 4px; vertical-align: top; border-bottom: var(--bs-border-width) solid var(--bs-border-color); line-height: 1.35; }
+  .gt-dz-dose { white-space: nowrap; color: var(--bs-secondary-color); width: 1%; }
+  .gt-dz-cat { white-space: nowrap; width: 1%; }
+  .gt-dz-cat b { font-size: 0.6rem; }
+  .gt-dz-mech { color: var(--bs-secondary-color); }
+  tr:only-child .gt-dz-dose.gt-dz-single { display: none; }
+
+  .gt-also, .gt-sources { font-size: 0.8rem; color: var(--bs-secondary-color); border-top: var(--bs-border-width) solid var(--bs-border-color); padding-top: 4px; margin-top: 2px; }
+  .gt-sources { font-size: 0.75rem; line-height: 1.6; }
+  .gt-sources a { color: var(--bs-link-color); text-decoration: none; }
+  .gt-sources a:hover { text-decoration: underline; }
+  .gt-pop b { color: var(--bs-emphasis-color); }
+
+  .unbulleted { list-style-type: none; padding-inline-start: 0; }
