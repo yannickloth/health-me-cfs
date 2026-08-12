@@ -68,10 +68,11 @@
   .callout.callout-style-default > .callout-header .callout-title-container {
     background: var(--box-accent-strong);
     color: var(--bs-white);
-    padding: 0.15em 0.6em;
+    padding: 0.2em 0.6em;
     border-radius: var(--bs-border-radius);
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    flex: 1 1 auto;
     font-weight: 600;
   }
   /* Icon glyph recolored to the title-badge color. Quarto paints the glyph as
@@ -121,7 +122,7 @@
       callout-* type class AND an env-* class; env-* must win. Env hues are
       chosen to differ from the base callout they may ride on, so no two boxes
       share a color. */
-   .env-hypothesis, .env-proposal, .env-direction { --box-accent: #e6c200; --box-accent-strong: #8f7300; --box-bg: #ecd13d; --box-fg: #292300; }
+   .env-hypothesis, .env-proposal, .env-direction { --box-accent: #f5b800; --box-accent-strong: #9a6b00; --box-bg: #f7c633; --box-fg: #2c2100; }
    .env-speculation, .env-key-point { --box-accent: #00bfd8; --box-accent-strong: #087381; --box-bg: #dcf4f7; --box-fg: #09444d; }
    .env-recommendation, .env-achievement { --box-accent: #8abf2e; --box-accent-strong: #5c7e14; --box-bg: #a6ce60; --box-fg: #192208; }
    .env-open-question, .env-synthesis { --box-accent: var(--bs-teal); --box-accent-strong: #00825c; }
@@ -201,7 +202,7 @@
   .registry-fields dt { font-weight: bold; color: var(--box-fg); padding-block-start: 0.1em; margin: 0; }
   .registry-fields dd { color: var(--box-fg); margin: 0; }
 
-  .registry-H  { --box-accent: #e6c200; --box-accent-strong: #8f7300; --box-bg: #ecd13d; --box-fg: #292300; }   /* hypothesis (neon gold) */
+  .registry-H  { --box-accent: #f5b800; --box-accent-strong: #9a6b00; --box-bg: #f7c633; --box-fg: #2c2100; }   /* hypothesis (warm gold) */
   .registry-S  { --box-accent: #00bfd8; --box-accent-strong: #087381; --box-bg: #dcf4f7; --box-fg: #09444d; }   /* speculation (cyan) */
   .registry-OQ { --box-accent: var(--bs-teal);    --box-accent-strong: #00825c; }                                 /* open question (teal) */
   .registry-P  { --box-accent: #2e8bd5; --box-accent-strong: #1b5c8f; --box-bg: #60a7df; --box-fg: #081926; }   /* prediction (neon steel) */
