@@ -275,7 +275,7 @@ void main(String[] args) throws IOException, InterruptedException {
     // --- JS assets ---
     System.out.println();
     System.out.println("=== js assets ===");
-    var jsSrcDir = Path.of("src/main/js");
+    var jsSrcDir = Path.of("src/main/web");
     var jsDstDir = webRoot;
     int jsCount = 0;
     try (var stream = list(jsSrcDir)) {
@@ -301,7 +301,7 @@ void main(String[] args) throws IOException, InterruptedException {
     // --- Static HTML assets (redirects etc.) ---
     System.out.println();
     System.out.println("=== static html assets ===");
-    var htmlSrcDir = Path.of("src/main/html/web").toAbsolutePath().normalize();
+    var htmlSrcDir = Path.of("src/main/web").toAbsolutePath().normalize();
     int htmlCount = 0;
     if (isDirectory(htmlSrcDir)) {
         try (var stream = walk(htmlSrcDir)) {

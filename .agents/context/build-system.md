@@ -64,7 +64,7 @@ BuildWeb.java now also copies .bib files — no separate step needed.
 - Handwritten `.qmd` files: `web/{en,de,fr}/blog/posts/<topic>/<slug>/index.qmd` (~70 posts per language)
 - Posts organized into topic folders; numbered series stay co-located under their topic (see `_blog-plan.md` / `_series-plan.md` in `web/{en,de,fr}/blog/`)
 - Series announcing-article for the multi-topic "Conditions That Travel With ME/CFS" sits at `web/{en,de,fr}/blog/posts/co-occurring-conditions-series/`
-- Out-of-date paths get a `<meta http-equiv="refresh">` `index.html` redirect, stored in `src/main/html/web/{en,de,fr}/blog/posts/<slug>/index.html` and copied into `web/` by `BuildWeb.java` during the build
+- Out-of-date paths get a `<meta http-equiv="refresh">` `index.html` redirect, stored in `src/main/web/{en,de,fr}/blog/posts/<slug>/index.html` and copied into `web/` by `BuildWeb.java` during the build
 - Own `_metadata.yml`: sidebar=false, number-sections=false, lang=<de|en|fr>
 - Audited by `BlogAuditTest.java` (recursive over `posts/`) across all three language dirs
 
