@@ -33958,3 +33958,77 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Multi-domain assessment framework recommended for clinical and research settings
     / *Conclusion:*: Post-viral fatigue assessment requires both subjective (perceived fatigue) and objective (fatigability) tools across physical, cognitive, and mental domains. Framework directly applicable to ME/CFS.
     / *Limitations:*: Narrative review, not systematic; COVID-19-specific; limited pre-COVID post-viral fatigue data.
+
+=== Aditi et al.\ 2026 — Long-Term Risk of Dementia Following Encephalitis (TriNetX EHR Cohort)
+    / *Full Citation:*: Aditi, Blackwell T, Fang X, Sharma S, Mendoza M, Landay A, Golovko G, Samir P. Long-term risk of dementia following encephalitis: a large-scale retrospective cohort study of electronic health records. _Journal of Neurology_. 2026;273(9):511. @Aditi2026EncephalitisDementia
+    / *DOI:*: #link("https://doi.org/10.1007/s00415-026-14017-3")[10.1007/s00415-026-14017-3]
+    / *PMID:*: 42557422
+    / *Study Design:*: Retrospective cohort, TriNetX US electronic health records (~129M patients, 72 healthcare organizations); encephalitis (onset ≥2005) vs propensity-score-matched controls, 10-year follow-up; comparator cohorts sepsis/meningitis/stroke.
+    / *Key Findings:*:
+        - Cumulative incidence 74.3/100,000; prevalence 90.2/100,000 (2014–2024).
+        - Composite dementia risk ratio (RR) by age: >60y = 2.11 (95% CI 1.98–2.25); 40–60y = 5.16 (4.46–5.98); younger groups elevated in composite but driven by post-encephalitic G31 sequelae, not AD/F03.
+        - 10-year hazard ratios: >60y = 3.26 (3.05–3.49); 40–60y = 6.74.
+        - Etiology composite dementia RR: non-infectious/post-infectious inflammatory (autoimmune: anti-NMDA, Hashimoto's, ADEM) = 3.93 (3.35–4.61) HIGHEST; viral = 1.99 (1.77–2.24); fungal/parasitic = 1.42 (1.30–1.55); unspecified = 1.35; bacterial = 1.35 (0.97–1.87) NOT significant.
+        - vs sepsis/meningitis/stroke: encephalitis higher risk for composite and individual dementia codes; vascular dementia exception (higher in stroke). Epilepsy risk increased (positive control). Mortality higher in encephalitis.
+    / *Conclusion:*: Acute brain-parenchymal inflammation (encephalitis) confers a markedly elevated long-term dementia risk that is strongest for non-infectious/post-infectious inflammatory (autoimmune) etiologies and most pronounced in midlife (40–60y). Establishes "acute CNS inflammation → long-term neurodegeneration" as a generalizable, population-scale relationship.
+    / *Limitations:*: EHR/administrative-code ascertainment (no neuropathological/biomarker confirmation); residual confounding despite propensity matching; no CSF/imaging inflammatory markers; general-population (non-ME/CFS) cohort.
+    / *ME/CFS Relevance:*: Indirect/cross-disease evidence — supports the neuroinflammation→neurodegeneration causal template the ME/CFS reasoning borrows. Does NOT demonstrate any dementia link in ME/CFS itself; the autoimmune-encephalitis excess parallels ME/CFS autoantibody hypotheses only by analogy.
+
+=== Granerod et al.\ 2017 — Increased Sequelae Post-Encephalitis (UK CPRD Cohort)
+    / *Full Citation:*: Granerod J, Davies NWS, Ramanuj PP, Easton A, Brown DW, Thomas SL. Increased rates of sequelae post-encephalitis in individuals attending primary care practices in the United Kingdom: a population-based retrospective cohort study. _Journal of Neurology_. 2017;264(2):407–415. @Granerod2017PostEncephalitis
+    / *DOI:*: #link("https://doi.org/10.1007/s00415-016-8316-8")[10.1007/s00415-016-8316-8]
+    / *PMID:*: 27766471
+    / *Study Design:*: UK Clinical Practice Research Datalink (CPRD) population-based retrospective cohort; 2,460 incident encephalitis cases vs 47,914 unexposed controls; multivariable Poisson regression.
+    / *Key Findings:*:
+        - Encephalitis survivors had increased risk of ALL investigated outcomes, including cognitive problems and dementia.
+        - Highest adjusted RR for epilepsy (31.9; 95% CI 25.4–40.1); psychiatric outcomes also elevated (bipolar 6.34; psychotic 3.48).
+        - RRs highest in first year of follow-up for all outcomes except headache.
+    / *Conclusion:*: Sequelae including cognitive decline and dementia are common in encephalitis survivors — an earlier, independent population-level confirmation of the acute-CNS-inflammation → cognitive/neurodegenerative-outcome relationship.
+    / *Limitations:*: Primary-care record ascertainment; 2017 (older than the 2026 primary); no etiology-specific dementia RRs.
+
+=== Heneka et al.\ 2025 — Neuroinflammation in Alzheimer Disease
+    / *Full Citation:*: Heneka MT, van der Flier WM, Jessen F, Hoozemans J, Thal DR, Boche D, et al.\ Neuroinflammation in Alzheimer disease. _Nature Reviews Immunology_. 2025;25(5):321–352. @Heneka2025NeuroinflammationAD
+    / *DOI:*: #link("https://doi.org/10.1038/s41577-024-01104-7")[10.1038/s41577-024-01104-7]
+    / *PMID:*: 39653749
+    / *Key Findings:*:
+        - Authoritative multi-author consensus on microglial and astroglial activation, NLRP3/inflammasome, and complement in AD.
+        - Chronic neuroinflammation is mechanistically implicated in driving proteinopathy and neurodegeneration, not merely accompanying it.
+    / *Conclusion:*: Provides the mechanism pathway by which CNS inflammation drives neurodegeneration — the biological template the post-encephalitis dementia finding instantiates at the population level.
+    / *Limitations:*: AD-focused review (dementia population); mechanisms not ME/CFS-specific; general-population discount applies.
+
+=== Ising et al.\ 2019 — NLRP3 Inflammasome Activation Drives Tau Pathology
+    / *Full Citation:*: Ising C, Venegas C, Zhang S, Scheiblich H, Schmidt SV, Vieira-Saecker A, et al.\ NLRP3 inflammasome activation drives tau pathology. _Nature_. 2019;575(7784):669–673. @Ising2019NLRP3Tau
+    / *DOI:*: #link("https://doi.org/10.1038/s41586-019-1769-z")[10.1038/s41586-019-1769-z]
+    / *PMID:*: 31748742
+    / *Key Findings:*:
+        - NLRP3 inflammasome activation in microglia causally drives tau pathology in tauopathy mice.
+    / *Conclusion:*: Direct mechanistic demonstration that neuroinflammation can causally drive a core neurodegenerative proteinopathy — supporting a causal (not epiphenomenal) role for neuroinflammation in neurodegeneration.
+    / *Limitations:*: Animal/model evidence; tauopathy (not ME/CFS); population discount applied.
+
+=== Heneka et al.\ 2013 — NLRP3 Activation in Alzheimer's Disease
+    / *Full Citation:*: Heneka MT, Kummer MP, Stutz A, Delekate A, Schwartz S, Vieira-Saecker A, et al.\ NLRP3 is activated in Alzheimer's disease and contributes to pathology in APP/PS1 mice. _Nature_. 2013;493(7434):674–678. @Heneka2013NLRP3Alzheimer
+    / *DOI:*: #link("https://doi.org/10.1038/nature11729")[10.1038/nature11729]
+    / *PMID:*: 23254930
+    / *Key Findings:*:
+        - NLRP3 inflammasome activated in human MCI/AD brain; Nlrp3−/−/Casp1−/− familial-AD mice protected from memory loss with reduced IL-1β and enhanced Aβ clearance.
+    / *Conclusion:*: Foundational causal evidence linking microglial inflammasome activation to AD pathology.
+    / *Limitations:*: Animal/model + human post-mortem; AD-specific; population discount applied.
+
+=== Javonillo et al.\ 2026 — Neurotropic Murine Coronavirus Effects on AD Pathology (5xFAD)
+    / *Full Citation:*: Javonillo DI, Furman S, Le L, Fernandez K, Mulford J, Singla V, et al.\ Characterization of effects of a neurotropic murine coronavirus infection on Alzheimer's disease neuropathology of 5xFAD mice. _bioRxiv_. 2026. @Javonillo2026CoronavirusAD
+    / *DOI:*: #link("https://doi.org/10.64898/2026.02.23.707587")[10.64898/2026.02.23.707587]
+    / *PMID:*: 42124663
+    / *Key Findings:*:
+        - Viral encephalitis (JHMV) in aged 5xFAD mice induced minimal overall Aβ change at 12 dpi but caused T-cell infiltration, Lgals3/MAC2+ macrophages around plaques, and down-regulated disease-associated-microglia (DAM) Aβ-clearance pathways.
+    / *Conclusion:*: Acute viral neuroinflammation does NOT simply accelerate amyloid pathology in this model — the viral-encephalitis ↔ AD interplay is bidirectional and model-dependent (contextualizing/partial-null result).
+    / *Limitations:*: Preprint (not yet peer reviewed); animal model; 12-day timepoint only; no tau assessment.
+
+=== Cohen et al.\ 2024 — Recent Trends in Neuroinflammatory and Neurodegenerative Disorders
+    / *Full Citation:*: Cohen J, Mathew A, Dourvetakis KD, Sanchez-Guerrero E, Pangeni RP, Gurusamy N, et al.\ Recent Research Trends in Neuroinflammatory and Neurodegenerative Disorders. _Cells_. 2024;13(6):511. @Cohen2024NeuroinflammReview
+    / *DOI:*: #link("https://doi.org/10.3390/cells13060511")[10.3390/cells13060511]
+    / *PMID:*: 38534355
+    / *Key Findings:*:
+        - Neuroinflammatory/neurodegenerative disorders (AD, PD, TBI, ALS) share glial activation and neuroimmune dysfunction driving neurodegeneration.
+        - Explicitly groups ME/CFS with Gulf War Illness as chronic neuroimmune-dysfunction disorders lacking disease-modifying therapy.
+    / *Conclusion:*: Bridges the neuroinflammation→neurodegeneration template directly to ME/CFS, grounding the cross-disease analogy.
+    / *Limitations:*: Narrative review (not systematic); mechanism extrapolated from other diseases; no ME/CFS dementia data.

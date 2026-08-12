@@ -11204,5 +11204,20 @@
     "noTooltip": [
       "fatigue"
     ]
+  },
+  "NfL": {
+    "label": "NfL",
+    "category": "biomarker",
+    "definition": "Neurofilament light: a structural protein released into blood and cerebrospinal fluid when nerve fibres are damaged. Elevated NfL is used as a general marker of ongoing axonal/neuronal injury and neurodegeneration, and is being explored as a cross-disease marker of CNS pathology."
+  },
+  "GFAP": {
+    "label": "GFAP",
+    "category": "protein",
+    "definition": "Glial fibrillary acidic protein: an intermediate-filament protein expressed by astrocytes. Its levels in blood or cerebrospinal fluid rise with astrocyte activation/injury and serve as a marker of reactive gliosis and neuroinflammatory damage."
+  },
+  "Dementia": {
+    "label": "Dementia",
+    "category": "condition",
+    "definition": "A syndrome of progressive cognitive decline (memory, reasoning, everyday function) resulting from multiple disorders that damage the brain over time, most commonly Alzheimer’s disease, vascular dementia, Lewy body dementia and frontotemporal dementia."
   }
 }

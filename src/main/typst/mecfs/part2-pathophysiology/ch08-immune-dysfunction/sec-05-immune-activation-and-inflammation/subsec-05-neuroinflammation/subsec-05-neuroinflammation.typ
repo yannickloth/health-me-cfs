@@ -7,7 +7,7 @@ The brain was traditionally considered “immune privileged,” but it is now re
 
 ==== Microglial Activation
 
-Microglia are the brain's resident immune cells. PET imaging shows increased TSPO binding, a marker of microglial activation, which persists years after initial infection. Activated microglia produce local cytokines that affect neuronal function, potentially explaining the cognitive symptoms prevalent in ME/CFS.
+Microglia are the brain's resident immune cells. PET imaging shows increased TSPO binding, a marker of microglial activation, which persists years after initial infection. Activated microglia produce local cytokines that affect neuronal function, potentially explaining the cognitive symptoms prevalent in ME/CFS. Independent of this still-contested ME/CFS TSPO signal (see the limitation below), a cross-disease anchor for the relevance of sustained central glial activation is provided by a large electronic-health-record cohort: acute brain-parenchymal inflammation (encephalitis) predicts a two- to five-fold increase in long-term dementia risk, strongest for non-infectious/post-infectious inflammatory (autoimmune) etiologies @Aditi2026EncephalitisDementia, and chronic CNS inflammatory conditions are mechanistically grounded in microglial/astroglial activation and NLRP3 signaling @Heneka2025NeuroinflammationAD @Cohen2024NeuroinflammReview (Section @spec:encephalitis-dementia-precedent).
 
 ==== Blood-Brain Barrier Dysfunction
 

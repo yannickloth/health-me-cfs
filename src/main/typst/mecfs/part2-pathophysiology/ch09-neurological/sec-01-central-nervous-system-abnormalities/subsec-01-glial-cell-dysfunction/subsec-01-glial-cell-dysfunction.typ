@@ -23,7 +23,7 @@ suggesting that neuronal injury detectable via standard blood biomarkers is not 
 universal feature of long COVID. This null finding does not exclude localised
 microglial activation: NfL and GFAP primarily reflect neuronal injury, whereas
 PET imaging studies demonstrating elevated TSPO binding in ME/CFS detect
-glial inflammation without overt neurodegeneration @Nakatomi2014neuroinflammation.
+glial inflammation without overt neurodegeneration @Nakatomi2014neuroinflammation. A caveat to "glial inflammation without overt neurodegeneration" comes from a large electronic-health-record cohort: acute brain-parenchymal inflammation (encephalitis) predicts a two- to five-fold increase in long-term dementia risk, strongest for non-infectious/post-infectious inflammatory (autoimmune) etiologies, though part of the younger-cohort excess reflects post-encephalitic sequelae rather than Alzheimer-type disease @Aditi2026EncephalitisDementia (Section @spec:encephalitis-dementia-precedent) — so whether sustained neuroinflammation progresses to measurable degeneration may depend on its intensity, duration and etiology, a question the short-window long-COVID NfL null cannot settle.
 Study: (case-control, $n=96$, Scientific Reports 2026, certainty: 0.55).
 Chronic microglial activation, when present, can produce sustained release of pro-inflammatory cytokines (IL-1$beta$, TNF-$alpha$, IL-6), oxidative stress through reactive oxygen species production, glutamate release contributing to excitotoxicity, disruption of synaptic pruning and plasticity, and blood-brain barrier dysfunction @Frank2024S1Priming @Nakatomi2014neuroinflammation.
 
