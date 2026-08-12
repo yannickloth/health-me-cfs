@@ -50,7 +50,10 @@
     border-top: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
     border-right: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
     border-bottom: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
-    background: var(--box-bg);
+    background-color: var(--box-bg);
+    /* subtle lightening toward the top — a soft, almost imperceptible sheen
+       that lifts the fill off a flat pastel, without a visible band. */
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.32), rgba(255,255,255,0) 42%);
     color: var(--box-fg, color-mix(in srgb, var(--box-accent) 60%, var(--bs-black)));
     padding: 0.8rem 1rem;
     margin-block-end: 1rem;
@@ -106,11 +109,11 @@
      own -bg-subtle token; strong is chosen so white title text meets AA.
      `--callout-icon` is the glyph Bootstrap paints for each type, reused as a
      CSS mask so the icon takes the title-badge colour. */
-  .callout-warning   { --box-accent: var(--bs-danger);  --box-accent-strong: #c42f2a; --box-bg: var(--bs-danger-bg-subtle);  --box-fg: var(--bs-danger-text-emphasis);  --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z'/><path d='M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z'/></svg>"); }
-  .callout-note      { --box-accent: var(--bs-primary); --box-accent-strong: #004f9e; --box-bg: #cfe2f7; --box-fg: #0d2f54;   --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z'/></svg>"); }
-  .callout-important { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); --box-fg: var(--bs-success-text-emphasis); --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z'/></svg>"); }
-  .callout-tip       { --box-accent: var(--bs-info);    --box-accent-strong: #0079ab; --box-bg: var(--bs-info-bg-subtle);    --box-fg: var(--bs-info-text-emphasis);    --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z'/></svg>"); }
-  .callout-caution   { --box-accent: var(--bs-warning); --box-accent-strong: #c94600; --box-bg: var(--bs-warning-bg-subtle); --box-fg: var(--bs-warning-text-emphasis); --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M9.97 4.88l.953 3.811C10.158 8.878 9.14 9 8 9c-1.14 0-2.159-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.274 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z'/></svg>"); }
+  .callout-warning   { --box-accent: #ff6b8a;  --box-accent-strong: #a63a56; --box-bg: #ffd6e0;  --box-fg: #6b1f36;  --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z'/><path d='M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z'/></svg>"); }
+  .callout-note      { --box-accent: #3d7ef7; --box-accent-strong: #1758b8; --box-bg: #cfe7ff; --box-fg: #123c6b;   --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z'/></svg>"); }
+  .callout-important { --box-accent: #2fbf6e; --box-accent-strong: #1a7a43; --box-bg: #cdf3df; --box-fg: #0e4a29; --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z'/></svg>"); }
+  .callout-tip       { --box-accent: #00b8e0; --box-accent-strong: #087381; --box-bg: #b8f2ff; --box-fg: #00566b;    --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z'/></svg>"); }
+  .callout-caution   { --box-accent: #ff9f43; --box-accent-strong: #a85f00; --box-bg: #ffddb0; --box-fg: #7a3a00; --callout-icon: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'><path d='M9.97 4.88l.953 3.811C10.158 8.878 9.14 9 8 9c-1.14 0-2.159-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.274 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z'/></svg>"); }
 
   /* Environment families → cosmo hues. These come AFTER the Quarto callout
      types because env boxes carry BOTH a callout-* type class and an env-*
@@ -118,20 +121,21 @@
      (e.g. #hypothesis → .callout-important + .env-hypothesis → blue). Teal,
      indigo, and info have no theme -bg-subtle token, so env fills use a
      color-mix tint of their accent over white. */
-   /* Environment families → distinct hues. Each family carries a base
-      callout-* type class AND an env-* class; env-* must win. Env hues are
-      chosen to differ from the base callout they may ride on, so no two boxes
-      share a color. */
-   .env-hypothesis, .env-proposal, .env-direction { --box-accent: #f5b800; --box-accent-strong: #9a6b00; --box-bg: #f7c633; --box-fg: #2c2100; }
-   .env-speculation, .env-key-point { --box-accent: #00bfd8; --box-accent-strong: #087381; --box-bg: #dcf4f7; --box-fg: #09444d; }
-   .env-recommendation, .env-achievement { --box-accent: #8abf2e; --box-accent-strong: #5c7e14; --box-bg: #a6ce60; --box-fg: #192208; }
-   .env-open-question, .env-synthesis { --box-accent: var(--bs-teal); --box-accent-strong: #00825c; }
-   .env-prediction, .env-model-insight { --box-accent: #2e8bd5; --box-accent-strong: #1b5c8f; --box-bg: #60a7df; --box-fg: #081926; }
-   .env-clinical-finding { --box-accent: var(--bs-indigo); --box-accent-strong: #4a00d8; }
-   .env-observation      { --box-accent: #c08be0; --box-accent-strong: #7a4da0; --box-bg: #cfa7e7; --box-fg: #231928; }
-   .env-limitation { --box-accent: var(--bs-warning); --box-accent-strong: #c94600; --box-bg: #f79b6b; --box-fg: #2c160b; }
-   .env-warning    { --box-accent: var(--bs-danger); --box-accent-strong: #c42f2a; --box-bg: var(--bs-danger-bg-subtle); --box-fg: var(--bs-danger-text-emphasis); }
-   .env-finding { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); }
+   /* Environment families → distinct, cool, modern hues. Each family carries a
+      base callout-* type class AND an env-* class; env-* must win. Colors are
+      bright-but-soft pastel fills with vivid accents and dark-saturated text
+      (light on the eyes, no old-paper warmth), chosen to differ from the base
+      callout they may ride on. */
+   .env-hypothesis, .env-proposal, .env-direction { --box-accent: #e6b800; --box-accent-strong: #9a6b00; --box-bg: #ffea9c; --box-fg: #6b5400; }
+   .env-speculation, .env-key-point { --box-accent: #00b8e0; --box-accent-strong: #087381; --box-bg: #b8f2ff; --box-fg: #00566b; }
+   .env-recommendation, .env-achievement { --box-accent: #8bc534; --box-accent-strong: #4c7009; --box-bg: #d6f2a3; --box-fg: #3c5700; }
+   .env-open-question, .env-synthesis { --box-accent: #18c091; --box-accent-strong: #00825c; --box-bg: #bdf5e2; --box-fg: #005b46; }
+   .env-prediction, .env-model-insight { --box-accent: #2f8bd0; --box-accent-strong: #14507a; --box-bg: #bfe3ff; --box-fg: #0a3d5c; }
+   .env-clinical-finding { --box-accent: #7c5ce0; --box-accent-strong: #4b3a99; --box-bg: #d9c6ff; --box-fg: #3a2b6b; }
+   .env-observation      { --box-accent: #bd8ff0; --box-accent-strong: #7a4da0; --box-bg: #ecd9ff; --box-fg: #4a3266; }
+   .env-limitation { --box-accent: #ff9f43; --box-accent-strong: #a85f00; --box-bg: #ffddb0; --box-fg: #7a3a00; }
+   .env-warning    { --box-accent: #ff6b8a; --box-accent-strong: #a63a56; --box-bg: #ffd6e0; --box-fg: #6b1f36; }
+   .env-finding { --box-accent: #2fbf6e; --box-accent-strong: #1a7a43; --box-bg: #cdf3df; --box-fg: #0e4a29; }
 
    /* Families without an explicit --box-fg (teal, indigo): dark version of
       their accent, so text matches hue regardless of the base callout type. */
@@ -155,6 +159,9 @@
     border: 1px solid var(--box-accent-strong);
     border-radius: var(--bs-border-radius);
     padding: 0.8rem 1rem;
+    background-color: var(--box-bg);
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.32), rgba(255,255,255,0) 42%);
+    color: var(--box-fg);
   }
   .env-finding + .env-finding { margin-block-start: 1.5em; }
   .env-finding-heading {
@@ -184,7 +191,8 @@
     border-top: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
     border-right: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
     border-bottom: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
-    background: var(--box-bg, color-mix(in srgb, var(--box-accent) 15%, var(--bs-white)));
+    background-color: var(--box-bg, color-mix(in srgb, var(--box-accent) 15%, var(--bs-white)));
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.32), rgba(255,255,255,0) 42%);
     color: var(--box-fg);
     padding: 0.75rem 1rem 0.5rem;
     margin-block-end: 1rem;
@@ -202,10 +210,10 @@
   .registry-fields dt { font-weight: bold; color: var(--box-fg); padding-block-start: 0.1em; margin: 0; }
   .registry-fields dd { color: var(--box-fg); margin: 0; }
 
-  .registry-H  { --box-accent: #f5b800; --box-accent-strong: #9a6b00; --box-bg: #f7c633; --box-fg: #2c2100; }   /* hypothesis (warm gold) */
-  .registry-S  { --box-accent: #00bfd8; --box-accent-strong: #087381; --box-bg: #dcf4f7; --box-fg: #09444d; }   /* speculation (cyan) */
-  .registry-OQ { --box-accent: var(--bs-teal);    --box-accent-strong: #00825c; }                                 /* open question (teal) */
-  .registry-P  { --box-accent: #2e8bd5; --box-accent-strong: #1b5c8f; --box-bg: #60a7df; --box-fg: #081926; }   /* prediction (neon steel) */
+  .registry-H  { --box-accent: #e6b800; --box-accent-strong: #9a6b00; --box-bg: #ffea9c; --box-fg: #6b5400; }   /* hypothesis (gold) */
+  .registry-S  { --box-accent: #00b8e0; --box-accent-strong: #087381; --box-bg: #b8f2ff; --box-fg: #00566b; }   /* speculation (cyan) */
+  .registry-OQ { --box-accent: #18c091; --box-accent-strong: #00825c; --box-bg: #bdf5e2; --box-fg: #005b46; }   /* open question (teal) */
+  .registry-P  { --box-accent: #2f8bd0; --box-accent-strong: #14507a; --box-bg: #bfe3ff; --box-fg: #0a3d5c; }   /* prediction (azure) */
 
   /* Epigraphs / blockquotes — theme border width + subtle hue */
   :where(.epigraph, blockquote) {
