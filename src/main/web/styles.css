@@ -114,35 +114,31 @@
      (e.g. #hypothesis → .callout-important + .env-hypothesis → blue). Teal,
      indigo, and info have no theme -bg-subtle token, so env fills use a
      color-mix tint of their accent over white. */
-   .env-hypothesis, .env-proposal, .env-direction { --box-accent: #e2c200; --box-accent-strong: #8d6d00; --box-bg: #fff6c9; --box-fg: #5d4a00; }
-   .env-speculation, .env-key-point { --box-accent: var(--bs-warning); --box-accent-strong: #c94600; }
-   .env-recommendation, .env-achievement { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); }
+   /* Environment families → distinct hues. Each family carries a base
+      callout-* type class AND an env-* class; env-* must win. Env hues are
+      chosen to differ from the base callout they may ride on, so no two boxes
+      share a color. */
+   .env-hypothesis, .env-proposal, .env-direction { --box-accent: #d4af37; --box-accent-strong: #8d6d00; --box-bg: #fff6c9; --box-fg: #5d4a00; }
+   .env-speculation, .env-key-point { --box-accent: #e0a300; --box-accent-strong: #996f00; --box-bg: #ffe9b3; --box-fg: #6b4c00; }
+   .env-recommendation, .env-achievement { --box-accent: #7a9b2d; --box-accent-strong: #557000; --box-bg: #eef3d8; --box-fg: #3f5200; }
    .env-open-question, .env-synthesis { --box-accent: var(--bs-teal); --box-accent-strong: #00825c; }
-   .env-prediction, .env-model-insight { --box-accent: var(--bs-info); --box-accent-strong: #0079ab; }
+   .env-prediction, .env-model-insight { --box-accent: #2f6690; --box-accent-strong: #12405f; --box-bg: #d9e6f0; --box-fg: #173a54; }
    .env-clinical-finding { --box-accent: var(--bs-indigo); --box-accent-strong: #4a00d8; }
    .env-observation      { --box-accent: #9b7cc4; --box-accent-strong: #73508f; --box-bg: #f0e8f7; --box-fg: #5a4371; }
-   .env-limitation, .env-warning { --box-accent: var(--bs-danger); --box-accent-strong: #c42f2a; --box-bg: var(--bs-danger-bg-subtle); }
+   .env-limitation, .env-warning { --box-accent: #7a5433; --box-accent-strong: #5a3a1e; --box-bg: #efe2d3; --box-fg: #4a2f15; }
    .env-finding { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); }
 
-   /* Env box text is a dark version of the env accent, regardless of which
-      base callout type the env box carries (env-* must win over callout-*).
-      This keeps e.g. env-key-point orange even when rendered on a
-      callout-tip (info) scaffold. */
-   .env-speculation, .env-key-point,
-   .env-recommendation, .env-achievement,
+   /* Families without an explicit --box-fg (teal, indigo): dark version of
+      their accent, so text matches hue regardless of the base callout type. */
    .env-open-question, .env-synthesis,
-   .env-prediction, .env-model-insight,
-   .env-clinical-finding,
-   .env-limitation, .env-warning, .env-finding {
+   .env-clinical-finding {
      --box-fg: color-mix(in srgb, var(--box-accent) 72%, var(--bs-black));
    }
 
-   /* Env families without a dedicated -bg-subtle token: tint their accent.
-      (env-hypothesis/proposal/direction share note's exact colours above;
-      env-observation has its own mauve palette.) */
-   .env-speculation, .env-key-point,
+   /* Families without an explicit --box-bg (teal, indigo have no theme
+      -bg-subtle token): tint their accent over white. All other env families
+      carry their own explicit fill above. */
    .env-open-question, .env-synthesis,
-   .env-prediction, .env-model-insight,
    .env-clinical-finding {
      --box-bg: color-mix(in srgb, var(--box-accent) 15%, var(--bs-white));
    }
@@ -198,10 +194,10 @@
   .registry-fields dt { font-weight: bold; color: var(--box-fg); padding-block-start: 0.1em; margin: 0; }
   .registry-fields dd { color: var(--box-fg); margin: 0; }
 
-  .registry-H  { --box-accent: #e2c200; --box-accent-strong: #8d6d00; --box-bg: #fff6c9; --box-fg: #5d4a00; }   /* hypothesis (yellow) */
-  .registry-S  { --box-accent: var(--bs-warning); --box-accent-strong: #c94600; --box-bg: var(--bs-warning-bg-subtle); }   /* speculation */
-  .registry-OQ { --box-accent: var(--bs-teal);    --box-accent-strong: #00825c; }                                          /* open question */
-  .registry-P  { --box-accent: var(--bs-info);    --box-accent-strong: #0079ab; --box-bg: var(--bs-info-bg-subtle); }      /* prediction (mirrors env-prediction) */
+  .registry-H  { --box-accent: #d4af37; --box-accent-strong: #8d6d00; --box-bg: #fff6c9; --box-fg: #5d4a00; }   /* hypothesis (gold) */
+  .registry-S  { --box-accent: #e0a300; --box-accent-strong: #996f00; --box-bg: #ffe9b3; --box-fg: #6b4c00; }   /* speculation (amber) */
+  .registry-OQ { --box-accent: var(--bs-teal);    --box-accent-strong: #00825c; }                                 /* open question (teal) */
+  .registry-P  { --box-accent: #2f6690; --box-accent-strong: #12405f; --box-bg: #d9e6f0; --box-fg: #173a54; }   /* prediction (steel blue) */
 
   /* Epigraphs / blockquotes — theme border width + subtle hue */
   :where(.epigraph, blockquote) {
