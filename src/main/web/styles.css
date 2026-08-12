@@ -135,7 +135,7 @@
    .env-observation      { --box-accent: #bd8ff0; --box-accent-strong: #7a4da0; --box-bg: #ecd9ff; --box-fg: #4a3266; }
    .env-limitation { --box-accent: #ff9f43; --box-accent-strong: #a85f00; --box-bg: #ffddb0; --box-fg: #7a3a00; }
    .env-warning    { --box-accent: #ff6b8a; --box-accent-strong: #a63a56; --box-bg: #ffd6e0; --box-fg: #6b1f36; }
-   .env-finding { --box-accent: #2fbf6e; --box-accent-strong: #1a7a43; --box-bg: #cdf3df; --box-fg: #0e4a29; }
+   .env-finding { --box-accent: #7bff00; --box-accent-strong: #016b2d; --box-bg: #d6ffb0; --box-fg: #0d3a22; }
 
    /* Families without an explicit --box-fg (teal, indigo): dark version of
       their accent, so text matches hue regardless of the base callout type. */
@@ -164,16 +164,33 @@
     color: var(--box-fg);
   }
   .env-finding + .env-finding { margin-block-start: 1.5em; }
+  /* Finding heading — a full-width accent bar like the callout title, with a
+     glyph icon, so the finding reads as the same kind of box. Flush to the
+     top: the .env-finding box drops its top padding here. */
+  .env-finding { padding-top: 0; }
   .env-finding-heading {
     background: var(--box-accent-strong);
     color: var(--bs-white);
-    padding: 0.15em 0.6em;
-    border-radius: var(--bs-border-radius);
-    display: inline-block;
+    padding: 0.2em 0.7em;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    border-radius: calc(var(--bs-border-radius) - 1px) calc(var(--bs-border-radius) - 1px) 0 0;
     font-weight: 600;
-    font-size: 0.95em;
   }
-  .env-finding-explanation { margin-block-end: 0.5em; }
+  .env-finding-heading::before {
+    content: "";
+    width: 0.85em; height: 0.85em;
+    background-color: currentColor;
+    flex: none;
+    -webkit-mask: center / contain no-repeat;
+    mask: center / contain no-repeat;
+    /* magnifier glyph: a lens circle with a handle */
+    -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M6.5 1a5.5 5.5 0 1 1 5.5 5.5A5.6 5.6 0 0 1 6.5 1zm0 1a4.5 4.5 0 1 0 4.5 4.5A4.5 4.5 0 0 0 6.5 2zm6.4 9.1-4.1 4.1a.75.75 0 0 1-1.062-1.06l4.1-4.1z'/></svg>");
+    mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M6.5 1a5.5 5.5 0 1 1 5.5 5.5A5.6 5.6 0 0 1 6.5 1zm0 1a4.5 4.5 0 1 0 4.5 4.5A4.5 4.5 0 0 0 6.5 2zm6.4 9.1-4.1 4.1a.75.75 0 0 1-1.062-1.06l4.1-4.1z'/></svg>");
+  }
+  .env-finding-explanation { margin-block-end: 0.5em; margin-block-start: 0.7em; padding: 0 0.2em; }
   .env-finding-fields {
     display: grid;
     grid-template-columns: auto 1fr;
