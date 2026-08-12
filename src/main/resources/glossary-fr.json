@@ -13065,4 +13065,165 @@
     ],
     "synonyms": []
   }
+,
+  "ivabradine": {
+    "label": "ivabradine",
+    "category": "medication",
+    "definition": "Médicament réduisant la fréquence cardiaque qui bloque le canal I_f dans le nœud sino-auriculaire. Utilisé dans le POTS et la dysautonomie à prédominance tachycardique."
+  },
+  "fludrocortisone": {
+    "label": "fludrocortisone",
+    "category": "medication",
+    "definition": "Un minéralocorticoïde synthétique qui imite l'aldostérone, augmentant le volume sanguin. Traitement de première intention pour le POTS."
+  },
+  "midodrine": {
+    "label": "midodrine",
+    "category": "medication",
+    "definition": "Un agoniste α₁-adrénergique qui resserre les vaisseaux sanguins. Utilisé dans le POTS."
+  },
+  "pyridostigmine": {
+    "label": "pyridostigmine",
+    "category": "medication",
+    "definition": "Un inhibiteur de l'acétylcholinestérase qui augmente l'acétylcholine aux synapses parasympathiques."
+  },
+  "propranolol": {
+    "label": "propranolol",
+    "category": "medication",
+    "definition": "Un bêta-bloquant non sélectif. De faibles doses peuvent atténuer le pic de fréquence cardiaque debout dans le POTS."
+  },
+  "valacyclovir": {
+    "label": "valacyclovir",
+    "category": "medication",
+    "definition": "Un promédicament de l'acyclovir ciblant l'ADN polymérase de l'EBV. L'antiviral le plus étudié pour l'EM/SFC post-infectieuse."
+  },
+  "cimetidine": {
+    "label": "cimetidine",
+    "category": "medication",
+    "definition": "Un antagoniste H2 avec effets immunomodulateurs. Puissant inhibiteur du CYP450. Série de cas historique de 1986 dans l'EM/SFC post-EBV."
+  },
+  "famotidine": {
+    "label": "famotidine",
+    "category": "medication",
+    "definition": "Un antagoniste H2 utilisé dans le SAMA avec les antihistaminiques H1. Pas d'inhibition du CYP450 — plus sûr que la cimétidine."
+  },
+  "duloxetine": {
+    "label": "duloxetine",
+    "category": "medication",
+    "definition": "Un IRSN avec des preuves de niveau Cochrane pour la douleur fibromyalgique. Renforce les voies inhibitrices descendantes."
+  },
+  "pregabalin": {
+    "label": "pregabalin",
+    "category": "medication",
+    "definition": "Un gabapentinoïde réduisant la libération de neurotransmetteurs. Première intention pour la douleur fibromyalgique."
+  },
+  "gabapentin": {
+    "label": "gabapentin",
+    "category": "medication",
+    "definition": "Un gabapentinoïde pour la douleur neuropathique. Se lie à la sous-unité α2δ des canaux calciques. La sédation est fréquente."
+  },
+  "celecoxib": {
+    "label": "celecoxib",
+    "category": "medication",
+    "definition": "Un inhibiteur sélectif de la COX-2. Sonde diagnostique pour la boucle COX-2/PGE₂/TRPV1."
+  },
+  "doxycycline": {
+    "label": "doxycycline",
+    "category": "medication",
+    "definition": "À doses sub-antimicrobiennes, un inhibiteur sélectif de la MMP-9. Utilisé hors AMM pour l'hypermobilité progressive acquise."
+  },
+  "rifaximin": {
+    "label": "rifaximin",
+    "category": "medication",
+    "definition": "Un antibiotique non absorbé pour le SIBO à prédominance hydrogène. Le SIBO récidive dans ~44% des cas à 9 mois si la motilité n'est pas traitée."
+  },
+  "naltrexone": {
+    "label": "naltrexone",
+    "category": "medication",
+    "definition": "À faibles doses (LDN, 1-4,5 mg), bloque le TLR4 microglial. Preuves d'essai dans la fibromyalgie."
+  },
+  "rituximab": {
+    "label": "rituximab",
+    "category": "medication",
+    "definition": "Un anticorps monoclonal anti-CD20 épuisant les lymphocytes B. L'essai RituxME phase III était nul."
+  },
+  "daratumumab": {
+    "label": "daratumumab",
+    "category": "medication",
+    "definition": "Un anticorps anti-CD38 épuisant les plasmocytes. Essai pilote 2025 : 60% de réponse avec latence de 8-9 mois. Non contrôlé."
+  },
+  "omalizumab": {
+    "label": "omalizumab",
+    "category": "medication",
+    "definition": "Un anticorps monoclonal anti-IgE. Sonde thérapeutique distinguant l'activation IgE de l'activation non-IgE."
+  },
+  "ketotifen": {
+    "label": "ketotifen",
+    "category": "medication",
+    "definition": "Un antihistaminique H1 et stabilisateur de mastocytes combiné. Fortement sédatif. ECR négatif dans la fibromyalgie."
+  },
+  "cromolyn": {
+    "label": "cromolyn",
+    "category": "medication",
+    "definition": "Un stabilisateur de mastocytes (cromoglycate) qui tente d'empêcher la dégranulation."
+  },
+  "montelukast": {
+    "label": "montelukast",
+    "category": "medication",
+    "definition": "Un antagoniste des récepteurs des leucotriènes. Avertissement américain pour effets neuropsychiatriques."
+  },
+  "PAR2": {
+    "label": "PAR2",
+    "category": "receptor",
+    "definition": "Récepteur Activé par les Protéases 2 : activé par la tryptase mastocytaire. Le pont biochimique entre le SAMA et la NPF."
+  },
+  "dUTPase": {
+    "label": "dUTPase",
+    "category": "enzyme",
+    "definition": "Désoxyuridine triphosphatase : une enzyme conservée des herpèsvirus et PAMP puissant. La dUTPase de l'EBV active les mastocytes."
+  },
+  "renin-aldosterone paradox": {
+    "label": "renin-aldosterone paradox",
+    "category": "concept",
+    "definition": "La constatation que la rénine et l'aldostérone sont basses malgré un volume sanguin objectivement bas."
+  },
+  "matrix stiffness": {
+    "label": "matrix stiffness",
+    "category": "concept",
+    "definition": "La propriété mécanique de la MEC amortissant la transmission de force. Réduite dans l'hypermobilité."
+  },
+  "QSART": {
+    "label": "QSART",
+    "category": "diagnostic",
+    "definition": "Test Quantitatif du Réflexe Axonal Sudomoteur : mesure la fonction des petites fibres autonomiques."
+  },
+  "QST": {
+    "label": "QST",
+    "category": "diagnostic",
+    "definition": "Test Sensoriel Quantitatif : mesure les seuils de détection. Distingue la perte de fibres de la sensibilisation centrale."
+  },
+  "ALR": {
+    "label": "ALR",
+    "category": "concept",
+    "definition": "Réplication Lytique Abortive : les herpèsvirus expriment des protéines précoces sans produire de virions."
+  },
+  "Septad": {
+    "label": "Septad",
+    "category": "concept",
+    "definition": "Les sept physiopathologies interactives co-survenant avec l'EM/SFC : amplificateurs, non coïncidences."
+  },
+  "nociplastic": {
+    "label": "nociplastic pain",
+    "category": "concept",
+    "definition": "Douleur par nociception altérée sans lésion tissulaire ou nerveuse. La sensibilisation centrale est le mécanisme principal."
+  },
+  "interstitial cells of Cajal": {
+    "label": "ICC",
+    "category": "cell",
+    "definition": "Cellules pacemaker du tractus GI générant le complexe moteur migrant. Endommagées par les auto-anticorps post-infectieux."
+  },
+  "histaminylation": {
+    "label": "histaminylation",
+    "category": "mechanism",
+    "definition": "Modification covalente des fibrilles de collagène par l'histamine mastocytaire. Voie indépendante des MMP vers la laxité tissulaire."
+  }
 }
