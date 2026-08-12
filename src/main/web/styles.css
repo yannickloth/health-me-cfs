@@ -114,7 +114,7 @@
      (e.g. #hypothesis → .callout-important + .env-hypothesis → blue). Teal,
      indigo, and info have no theme -bg-subtle token, so env fills use a
      color-mix tint of their accent over white. */
-   .env-hypothesis, .env-proposal, .env-direction { --box-accent: var(--bs-primary); --box-accent-strong: #004f9e; --box-bg: #cfe2f7; --box-fg: #0d2f54; }
+   .env-hypothesis, .env-proposal, .env-direction { --box-accent: #e2c200; --box-accent-strong: #8d6d00; --box-bg: #fff6c9; --box-fg: #5d4a00; }
    .env-speculation, .env-key-point { --box-accent: var(--bs-warning); --box-accent-strong: #c94600; }
    .env-recommendation, .env-achievement { --box-accent: var(--bs-success); --box-accent-strong: #4b7f00; --box-bg: var(--bs-success-bg-subtle); }
    .env-open-question, .env-synthesis { --box-accent: var(--bs-teal); --box-accent-strong: #00825c; }
@@ -196,7 +196,7 @@
   .registry-fields dt { font-weight: bold; color: var(--box-fg); padding-block-start: 0.1em; margin: 0; }
   .registry-fields dd { color: var(--box-fg); margin: 0; }
 
-  .registry-H  { --box-accent: var(--bs-primary); --box-accent-strong: #004f9e; --box-bg: var(--bs-primary-bg-subtle); }   /* hypothesis */
+  .registry-H  { --box-accent: #e2c200; --box-accent-strong: #8d6d00; --box-bg: #fff6c9; --box-fg: #5d4a00; }   /* hypothesis (yellow) */
   .registry-S  { --box-accent: var(--bs-warning); --box-accent-strong: #c94600; --box-bg: var(--bs-warning-bg-subtle); }   /* speculation */
   .registry-OQ { --box-accent: var(--bs-teal);    --box-accent-strong: #00825c; }                                          /* open question */
   .registry-P  { --box-accent: var(--bs-info);    --box-accent-strong: #0079ab; --box-bg: var(--bs-info-bg-subtle); }      /* prediction (mirrors env-prediction) */
