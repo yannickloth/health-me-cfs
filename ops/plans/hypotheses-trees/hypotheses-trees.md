@@ -348,3 +348,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 | hadidchi2025-cfs-me-4yrs-post-covid | [subtrees/hadidchi2025-cfs-me-4yrs-post-covid.md](subtrees/hadidchi2025-cfs-me-4yrs-post-covid.md) | 2026-08-10 | 18 | 7 | 🔵 in progress |
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
+| anellovirus-viral-reactivation-mecfs | [subtrees/anellovirus-viral-reactivation-mecfs.md](subtrees/anellovirus-viral-reactivation-mecfs.md) | 2026-08-13 | 9 | 4 | 🔵 in progress |

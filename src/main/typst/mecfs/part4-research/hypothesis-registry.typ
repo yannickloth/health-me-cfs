@@ -5612,3 +5612,29 @@ This registry collects all hypotheses, speculations, open questions, and predict
 )
 
 
+
+= Entries added 2026-08-13: Anelloviridae & Viral Reactivation in ME/CFS
+
+#registry-entry(
+  [Anellovirus Burden as an Immune-State Signature Rather Than a Viral Cause in ME/CFS],
+  type: "S",
+  certainty: "0.25",
+  evidence: [Briese et al. multicenter virome study found no consistent group-specific viral nucleic acid differences in ME/CFS except a lower prevalence of anelloviruses in cases (30.5% vs 54.1%, $p$ \< 0.001) @Briese2023MulticenterVirome; Maguire et al. (IMPACC, n=1154) found elevated Anelloviridae transcript reads in the long-COVID physical-disability PRO group @Maguire2026ViralReactivation, and noted prior anellovirus links to chronic fatigue syndrome and multiple sclerosis. Neither study measured anellovirus burden and immune markers in the same ME/CFS patients; immune-state-marker reading is an inference, not a finding.],
+  citations: [@Briese2023MulticenterVirome, @Maguire2026ViralReactivation],
+  mechanism: [Anellovirus (TTV/TTMV) burden may reflect immune-competence/dysregulation state rather than productive viral infection. Directional form: innate-hyperactivation-dominant subgroups → low TTV; adaptive-exhaustion-dominant → high TTV (see @spec:anellovirus-hyperimmune). The apparent direction difference across cohorts may be a method artifact (Briese binary prevalence vs Maguire transcript abundance).],
+  chapter-ref: [ch08 sec-06-other-implicated-viruses: @spec:anellovirus-immune-state (non-directional form) and @spec:anellovirus-hyperimmune (directional form); ch14d-cross-disease long-COVID overlap],
+  prediction: [Using the directional map (innate-hyperactivation→low TTV; adaptive-exhaustion→high TTV), a harmonized TTV assay in one cohort will show innate-hyperactivation-dominant subgroups with lower TTV and adaptive-exhaustion-dominant subgroups with higher TTV than controls, and TTV tracking an immune marker rather than symptom severity alone. Falsified if TTV is a stable, immune-independent, disease-defining feature across all subgroups, or if harmonization eliminates the direction difference (both non-significant).],
+  limitation: [Briese full text abstract-level (in-document numbers from the sibling spec used); Maguire is a hospitalized COVID-19 cohort (translation gap, population-discounted 0.85; hospitalization/steroid confound uneliminated); cross-sectional; competing explanations include method incommensurability, redundant-bystander, technical bias, and cohort-composition effects. Severity not stratified. Certainty lowered to 0.25 per adversarial review (was 0.40). (ch08, this cycle.)],
+)
+
+#registry-entry(
+  [Does Viral-Gene-Product Surveillance Have Any Diagnostic or Mechanistic Role in ME/CFS?],
+  type: "OQ",
+  certainty: "N/A",
+  evidence: [Multicenter PCR + high-throughput sequencing surveillance of blood, feces, and saliva found no consistent group-specific viral differences in ME/CFS except lower anelloviruses, leading the authors to recommend focusing future investigations on adaptive immune responses rather than viral-gene-product surveillance @Briese2023MulticenterVirome.],
+  citations: [@Briese2023MulticenterVirome],
+  mechanism: [Open question: whether viral-gene-product surveillance adds diagnostic or mechanistic value in ME/CFS, or whether the productive-replication arm of the viral-persistence model is unsupported and should yield to adaptive-immune investigation.],
+  chapter-ref: [ch08 sec-06-other-implicated-viruses: @lim:briese2023-viral-null],
+  prediction: [A study correlating anellovirus burden and adaptive-immune markers in the same ME/CFS cohort will determine whether the null surveillance result reflects absence of productive infection (supporting adaptive-immune focus) or a surveillance technical limitation.],
+  limitation: [Balancing null presented as a research-direction question, not an assertion; single null surveillance study; full cohort-stratification details not retrieved. Severity not stratified. (ch08, this cycle.)],
+)

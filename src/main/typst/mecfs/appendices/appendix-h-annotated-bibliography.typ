@@ -34032,3 +34032,28 @@ This section collects papers documenting the fundamental pattern where ME/CFS pa
         - Explicitly groups ME/CFS with Gulf War Illness as chronic neuroimmune-dysfunction disorders lacking disease-modifying therapy.
     / *Conclusion:*: Bridges the neuroinflammation→neurodegeneration template directly to ME/CFS, grounding the cross-disease analogy.
     / *Limitations:*: Narrative review (not systematic); mechanism extrapolated from other diseases; no ME/CFS dementia data.
+
+=== Maguire et al.\ 2026 — Virus Reactivation in Acute and Long COVID-19 (IMPACC)
+
+    / *Full Citation:*: Maguire C, Chen J, Rouphael N, Morse BA, Hoch A, Pickering H, et al.\ Virus reactivation in acute and long COVID-19. _Nature_. 2026. @Maguire2026ViralReactivation
+    / *DOI:*: #link("https://doi.org/10.1038/s41586-026-10740-z")[10.1038/s41586-026-10740-z]
+    / *Study Design:*: Longitudinal prospective multi-omic cohort (IMPACC; n=1154 hospitalized COVID-19 patients).
+    / *Key Findings:*:
+        - Widespread reactivation of chronic Herpesviridae (EBV, CMV, HSV1) and Anelloviridae in immunocompetent COVID-19 patients, not explained by immunosuppression.
+        - Anelloviridae transcripts significantly more prevalent in the long COVID physical-disability (PROMIS) patient-reported-outcome group, even after controlling for age, sex, immunosuppression, and acute COVID-19 severity.
+        - Anelloviridae associated with enrichment of neutrophil-degranulation genes; negatively associated with oxidative-stress-protective metabolites (methylcysteine sulfoxide, 6-bromotryptophan).
+        - Anelloviridae previously linked to chronic fatigue syndrome and multiple sclerosis.
+    / *Conclusion:*: Chronic viral reactivation — including Anelloviridae — associates with persistent physical disability in long COVID and may represent an immune-dysregulation (dysvirosis) signature relevant to post-infectious fatigue conditions.
+    / *Limitations:*: COVID-19 cohort (unvaccinated, ancestral strain), not a ME/CFS cohort; transcripts not qPCR; three compartments only; convalescent dropout limited long-COVID power; association not causation.
+
+=== Briese et al.\ 2023 — Multicenter Virome Analysis in ME/CFS
+
+    / *Full Citation:*: Briese T, Tokarz R, Bateman L, Che X, Guo C, Jain K, et al.\ A multicenter virome analysis of blood, feces, and saliva in myalgic encephalomyelitis/chronic fatigue syndrome. _Journal of Medical Virology_. 2023;95(8):e28993. @Briese2023MulticenterVirome
+    / *DOI:*: #link("https://doi.org/10.1002/jmv.28993")[10.1002/jmv.28993]
+    / *Study Design:*: Multicenter case–control viral-nucleic-acid surveillance using PCR and high-throughput sequencing of blood, feces, and saliva.
+    / *Key Findings:*:
+        - No consistent group-specific differences in viral nucleic acid between ME/CFS cases and healthy controls.
+        - Only exception: lower prevalence of anelloviruses in ME/CFS cases compared to controls.
+        - Conclusion: future investigations into viral infection in ME/CFS should focus on adaptive immune responses rather than surveillance for viral gene products.
+    / *Conclusion:*: Viral-gene-product surveillance does not identify an ongoing productive viral infection in ME/CFS; supports an immune-dysregulation (adaptive immune response) focus over a persistent-viral-replication model.
+    / *Limitations:*: Abstract-level detail available to this integration; full sample-size and cohort-stratification details not retrieved; cross-sectional sampling.

@@ -43,6 +43,6 @@ The anellovirus depletion suggests ME/CFS immune cells may be constitutively act
 
 This model predicts that ME/CFS immune cells should show elevated baseline metabolic activity (oxygen consumption, glucose uptake) compared to controls despite producing normal cytokine levels, and that their _stimulation response_ (fold-change upon challenge) will be blunted even though their _resting_ state appears overactive. The CureME biobank finding that ME/CFS showed reduced anellovirus but normal herpesvirus seroprevalence would be consistent: herpesvirus control requires adaptive immunity (which may be impaired), while anellovirus clearance relies on innate mechanisms that are constitutively overactive.
 
-*Falsification:* ME/CFS immune cells show normal or reduced baseline metabolic activity (not elevated), and anellovirus depletion is not replicated in independent cohorts.
+*Falsification:* ME/CFS immune cells show normal or reduced baseline metabolic activity (not elevated), and anellovirus depletion is not replicated in independent cohorts. *Cross-reference:* this directional (innate-hyperactivation) reading of the Briese depletion coexists with the weaker, non-directional form in @spec:anellovirus-immune-state and the convergent synthesis @syn:anellovirus-viral-reactivation-model; note the same depletion may partly reflect method (binary PCR prevalence) and awaits a harmonized assay.
 ] <spec:anellovirus-hyperimmune>
 

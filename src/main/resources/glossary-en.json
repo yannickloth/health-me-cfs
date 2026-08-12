@@ -11219,5 +11219,20 @@
     "label": "Dementia",
     "category": "condition",
     "definition": "A syndrome of progressive cognitive decline (memory, reasoning, everyday function) resulting from multiple disorders that damage the brain over time, most commonly Alzheimer’s disease, vascular dementia, Lewy body dementia and frontotemporal dementia."
+  },
+  "Anelloviruses": {
+    "label": "Anelloviruses",
+    "category": "pathogen",
+    "definition": "A large family of small single-stranded DNA viruses (family Anelloviridae, including Torque teno virus, TTV) found in 80–90% of the human population. They establish lifelong, generally harmless infection and are increasingly interpreted as markers of immune competence or dysregulation rather than as disease-causing agents."
+  },
+  "TTV": {
+    "label": "TTV",
+    "category": "pathogen",
+    "definition": "Torque teno virus: a member of the Anelloviridae family present in most healthy individuals. TTV burden rises when immune competence falls (e.g., in transplant immunosuppression) and is being studied as a marker of immune state in post-infectious fatigue conditions."
+  },
+  "dysvirosis": {
+    "label": "dysvirosis",
+    "category": "concept",
+    "definition": "A dysregulation of the human virome — the community of viruses that normally persist in the body without causing disease. In long COVID and ME/CFS research, dysvirosis refers to shifts in chronic viral (especially anellovirus) burden that reflect altered immune regulation rather than active viral infection."
   }
 }
