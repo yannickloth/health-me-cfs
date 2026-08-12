@@ -53,7 +53,7 @@ The prevalence range for GPCR autoantibodies in ME/CFS spans 29–91% across sev
 - **Loebel 2016** (n=268 ME/CFS, n=108 controls) used a bioassay measuring functional receptor activation: 29.5% had ≥1 elevated GPCR AAb. This is the most conservative and most functionally meaningful estimate.
 - **Bynke 2020** (Sweden, n=~100) used a different ELISA platform: 79–91% had ≥1 elevated AAb. Same disease, different assay, triple the prevalence.
 - **Vernino 2022** (POTS, n=116) tested the commercial CellTrend ELISA: **98.3% of patients AND 100% of controls were α1-AAb positive.** The test could not distinguish patient from control — zero diagnostic value.
-- **Germain 2025** (n=172 participants) ran the highest-resolution platform available — REAP, screening 6,183 exoproteome antigens — and found **zero** significant autoantibody signals (q<0.68). Complete null.
+- **Germain 2025** (n=172 participants) ran the highest-resolution platform available — REAP, screening 7,542 antibody–antigen interactions across 6,183 exoproteome proteins — and found **zero** significant autoantibody signals (q<0.68). Complete null.
 
 The pattern is systematic: the more functional and specific the assay, the lower the prevalence. The less specific the assay, the higher the prevalence — until, at the limit, 100% of healthy controls test positive and the assay collapses. The implication, uncomfortable but honest, is that **many of the reported GPCR autoantibody associations may be assay artefacts rather than disease-specific signals** [@POTS2022failed_replication].
 

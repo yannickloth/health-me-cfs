@@ -79,7 +79,7 @@ The honest limits: no trial has tested glycine or proline supplementation for hy
 
 ## Pharmacological: blocking MMP-9 with low-dose doxycycline
 
-The mast-cell → tryptase/chymase → MMP-3/-13/-1 cascade degrades collagen. Of the MMPs, **MMP-9** (gelatinase B) is the most consistently implicated in connective tissue degradation in ME/CFS and post-infectious states. Doxycycline, at a sub-antimicrobial dose (20–40 mg twice daily — well below the 100–200 mg antibiotic dose), is a selective MMP-9 inhibitor. It binds the catalytic zinc site and inhibits MMP activity without suppressing bacterial flora [@Loth2026website].
+The mast-cell → tryptase/chymase → MMP-3/-13/-1 cascade degrades collagen. Of the MMPs, **MMP-9** (gelatinase B) is the most consistently implicated in connective tissue degradation in ME/CFS and post-infectious states. Doxycycline, at the classic sub-antimicrobial anti-MMP dose, is a selective MMP-9 inhibitor. It binds the catalytic zinc site and inhibits MMP activity without suppressing bacterial flora [@Loth2026website]. The standard sub-antimicrobial regimen is **20 mg twice daily (40 mg/day total)** — deliberately below the antibiotic range. Note that the upper end of the range sometimes quoted (40 mg twice daily, i.e. 80 mg/day) is not truly sub-antimicrobial and approaches antibiotic dosing with more photosensitivity and resistance-selection risk; at that level it should not be described as "well below" a therapeutic dose.
 
 The rationale is specific to *acquired* progressive hypermobility: if mast-cell enzymes are actively degrading collagen, blocking the downstream MMP that executes the degradation may slow or partially reverse tissue damage. Low-dose doxycycline is generally well tolerated (GI upset, photosensitivity). It is contraindicated in pregnancy and in children under 8. Long-term use (>3 months) has not been studied for this indication. No RCT of low-dose doxycycline for hypermobility in ME/CFS exists.
 
@@ -127,7 +127,7 @@ Be realistic, and be patient. Hypermobility treatment in ME/CFS is a lifelong ma
 
 Pick the single joint or symptom that limits you most — a subluxing shoulder, a painful SI joint, orthostatic presyncope from venous pooling. Start with the mechanical foundation: isometric physio (named exercises, 3–5 minute sessions, 3×/week), bracing during activity, waist-high 20–30 mmHg compression during upright hours. Reassess at 8 weeks.
 
-If the mechanical foundation is in place but joint laxity is progressive — more subluxations, new joints involved, correlation with MCAS flares — add low-dose doxycycline 20–40 mg twice daily. Reassess joint stability at 12 weeks. **Stop if no change** — doxycycline addresses acquired MMP-mediated degradation, not congenital laxity, and a null result at 12 weeks means the MMP pathway is not the relevant contributor.
+If the mechanical foundation is in place but joint laxity is progressive — more subluxations, new joints involved, correlation with MCAS flares — add low-dose doxycycline: standard sub-antimicrobial dosing is 20 mg twice daily (40 mg/day), not antibiotic dosing. Reassess joint stability at 12 weeks. **Stop if no change** — doxycycline addresses acquired MMP-mediated degradation, not congenital laxity, and a null result at 12 weeks means the MMP pathway is not the relevant contributor.
 
 If doxycycline is not indicated (stable congenital laxity, no MCAS, no adult worsening), add circadian collagen support: timed ascorbic acid 1000 mg + α-KG 200 mg at sleep onset. Reassess at 12 weeks.
 

@@ -26,7 +26,9 @@ LDN at 1–4.5 mg daily is the single most mechanistically coherent treatment fo
 
 Microglia — the brain's immune cells — express toll-like receptor 4 (TLR4). When TLR4 is activated by DAMPs from tissue stress, LPS from gut permeability, or inflammatory signals, microglia release pro-inflammatory cytokines that sensitise nearby neurons in the spinal cord and brain — the cellular basis of central sensitisation. LDN blocks TLR4 signalling on microglia, reducing this neuroinflammatory amplification [@Polo2019LDN].
 
-In fibromyalgia, LDN has trial evidence: a 2019 RCT showed significant pain reduction vs placebo, with a favourable side-effect profile. In ME/CFS, the evidence is uncontrolled patient surveys — but the mechanism (TLR4 blockade on primed microglia) is directly relevant to both the central-sensitisation component and the PEM-driven microglial re-activation. LDN is generally well tolerated — vivid dreams and initial insomnia are the most common side effects, mitigated by taking it in the morning rather than at bedtime. Start at 0.5–1.5 mg and titrate slowly over weeks.
+In fibromyalgia, LDN has trial evidence: a 2019 RCT showed significant pain reduction vs placebo, with a favourable side-effect profile — though fibromyalgia RCTs as a group have a notoriously high placebo-response rate, and the LDN result is a single positive trial. In ME/CFS, the evidence is uncontrolled patient surveys — but the mechanism (TLR4 blockade on primed microglia) is directly relevant to both the central-sensitisation component and the PEM-driven microglial re-activation. LDN is generally well tolerated — vivid dreams and initial insomnia are the most common side effects, mitigated by taking it in the morning rather than at bedtime. Start at 0.5–1.5 mg and titrate slowly over weeks.
+
+**One interaction cannot be skipped.** Naltrexone is an opioid antagonist — even at low dose it blocks opioid receptors enough to **weaken or reverse opioid analgesia and to precipitate withdrawal in patients taking opioid painkillers**. If you are on any opioid (codeine, tramadol, hydrocodone, morphine, and so on), LDN must not be started without an explicit plan agreed with the prescriber. This is a genuine safety point, not a theoretical caveat — it is the single most important check before LDN in a pain population.
 
 ### SNRIs: duloxetine and milnacipran
 
@@ -40,7 +42,7 @@ Pregabalin (150–450 mg daily in divided doses) has the strongest fibromyalgia 
 
 ### COX-2 inhibitors: breaking the PGE₂/TRPV1 loop
 
-If the COX-2/PGE₂/TRPV1 feed-forward loop is active — and the evidence that it is comes from the heat-hyperalgesia described by patients — then COX-2 inhibition (celecoxib 100–200 mg twice daily, etoricoxib) should reduce PGE₂ production and break the loop. The prediction is specific: COX-2 inhibition should reduce resting burning pain and heat hypersensitivity without necessarily improving fatigue or PEM — because the COX-2 loop is a pain amplifier, not an energy-failure mechanism.
+If the COX-2/PGE₂/TRPV1 feed-forward loop is active — and the evidence that it is comes from the heat-hyperalgesia described by patients — then COX-2 inhibition (celecoxib, typically 200 mg daily) should reduce PGE₂ production and break the loop. The prediction is specific: COX-2 inhibition should reduce resting burning pain and heat hypersensitivity without necessarily improving fatigue or PEM — because the COX-2 loop is a pain amplifier, not an energy-failure mechanism.
 
 **Practical considerations.** COX-2 inhibitors have cardiovascular risks with long-term use and should not be combined with other NSAIDs. They are a timed trial for the COX-2/TRPV1-predominant pain phenotype, not a chronic maintenance strategy. The honest limitation: no ME/CFS-specific COX-2 trial exists, and the evidence is mechanistic, not clinical.
 
@@ -62,7 +64,7 @@ For severe, treatment-resistant pain driven by central wind-up (enhanced tempora
 
 *This is an example to give your clinician something to work from — not a self-prescription.*
 
-Start with LDN 0.5–1.5 mg at bedtime, titrate to 4.5 mg over 4–8 weeks. Reassess the single target symptom — resting burning pain, tender-point sensitivity, or post-exertional pain amplification — at 12 weeks. **If no benefit at 4.5 mg, stop** — doses above 4.5 mg lose the TLR4-selective effect.
+Start with LDN 0.5–1.5 mg daily (morning, to avoid insomnia — see above), titrate to 4.5 mg over 4–8 weeks. Reassess the single target symptom — resting burning pain, tender-point sensitivity, or post-exertional pain amplification — at 12 weeks. **If no benefit at 4.5 mg, stop** — doses above 4.5 mg lose the TLR4-selective effect.
 
 If LDN produces partial benefit, add celecoxib 200 mg daily for 2 weeks as a diagnostic probe. If burning pain and heat sensitivity improve within 2 weeks, the COX-2/PGE₂/TRPV1 loop is active — but prolonged COX-2 inhibition carries cardiovascular risk, so use it to confirm the mechanism and consider intermittent rather than continuous dosing. If celecoxib has no effect at 2 weeks, stop — the loop is not the dominant amplifier.
 

@@ -72,7 +72,7 @@ A separate, MMP-independent mechanism also operates: **histaminylation**, in whi
 The primary document distinguishes **congenital** hypermobility (present from childhood, stable over time, TNXB or unknown genetic basis) from **acquired progressive** hypermobility (worsens in adulthood, correlates with MCAS flares, reversible if mast-cell activation is controlled). The distinction matters because the two respond differently to treatment [@Loth2026website]:
 
 - **Congenital laxity** is a structural trait — bracing, physiotherapy, and joint protection are the main levers. Mast-cell stabilisers may help the *symptoms* (pain, swelling) but will not tighten the collagen, because the collagen was never tight to start.
-- **Acquired laxity** is driven by ongoing enzymatic degradation — mast-cell stabilisers and MMP inhibitors (doxycycline 20–40 mg, a sub-antimicrobial dose that selectively inhibits MMP-9) may partially reverse the tissue damage, because the degradation process is ongoing and blockable.
+- **Acquired laxity** is driven by ongoing enzymatic degradation — mast-cell stabilisers and MMP inhibitors (doxycycline at the sub-antimicrobial dose, 20 mg twice daily = 40 mg/day total, which selectively inhibits MMP-9) may partially reverse the tissue damage, because the degradation process is ongoing and blockable.
 
 In practice, many patients have both — congenital baseline laxity plus an acquired degradation layer from chronic MCAS — and the art is in triaging which component is dominant.
 

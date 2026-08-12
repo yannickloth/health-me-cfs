@@ -22,7 +22,7 @@ This article is the conceptual overview. What POTS actually is, why your blood v
 
 ## The short version, if you only read one part
 
-- **POTS** stands for *postural orthostatic tachycardia syndrome*. It means your heart rate climbs by 30 beats per minute or more (or past 120 bpm) within ten minutes of standing, without your blood pressure dropping enough to qualify as orthostatic hypotension [@Hoad2008pots].
+- **POTS** stands for *postural orthostatic tachycardia syndrome*. In adults it means your heart rate climbs by at least 30 beats per minute within ten minutes of standing (for adolescents, the criterion is rising *past* an absolute 120 bpm), without your blood pressure dropping enough to qualify as orthostatic hypotension [@Hoad2008pots].
 - **It is genuinely more common in ME/CFS.** Roughly 27% of ME/CFS patients meet POTS criteria, compared to about 9% of controls [@Hoad2008pots]. But the 30-bpm threshold has poor diagnostic specificity — 10–15% of healthy people cross it [@MECFSScience2024pots] — and day-to-day reproducibility is weak, so a single test should be read cautiously.
 - **The core problem is not just the heart.** Low blood volume, paradoxically suppressed blood-volume-regulating hormones (renin, aldosterone, ADH), possible autoantibodies targeting receptors on blood vessels and nerves, and connective-tissue laxity that pools blood in the legs all contribute [@Raj2005][@Miwa2017][@Streeten1998blood].
 - **POTS is usually downstream of ME/CFS, not the cause.** It shares mechanisms with mast-cell activation and hypermobility — the three travel together so often they are called a triad [@Yao2025MCASPOTStriad] — and treating the tachycardia alone rarely fixes the energy failure.
