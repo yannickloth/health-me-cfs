@@ -153,9 +153,13 @@ Before writing any agent prompt or delegating a task, verify all four fields are
 
 | Context | Temp dir | Notes |
 |---------|----------|-------|
-| Inside project | `tmp/` at project root | Create if absent; add to `.gitignore`; never commit |
+| Inside project (ephemeral scratch) | `$XDG_RUNTIME_DIR` (or per-project subdir) | tmpfs, user-private; ✗ not a repo `tmp/` |
+| Inside project (durable output) | project-named dir on disk, NOT `tmp/` | Mislabeling durable as "tmp" is the error; rename/move |
 | Outside project | `$XDG_RUNTIME_DIR` | Check set; fallback: `~/.cache/tmp` · project AGENTS.md may override |
-| ✗ Never use | `/tmp` | Shared, persists across sessions, security risks |
+| Tool intermediates (throwaway) | pre-approved sandbox path only | e.g. `/tmp/nix-shell.Gw6j9F/opencode` |
+| ✗ Never use | `/tmp` | Shared, persists across sessions, security risks — except the pre-approved sandbox path above |
+
+Rule: real temp scratch → tmpfs. Durable artifacts never in a tmp-named folder.
 
 ---
 
