@@ -39,6 +39,7 @@ Full build system + fix discipline: [`.agents/context/build-system.md`](.agents/
 | Scrape registry (MANDATORY) | `{PROJECT ROOT}/registry/scrape-registry.md`; protocol: [`.agents/context/scrape-registry.md`](.agents/context/scrape-registry.md) |
 | Skills index | [`.agents/context/skills-index.md`](.agents/context/skills-index.md) |
 | Systems index (agents, formalization, literature, review) | [`.agents/context/systems-index.md`](.agents/context/systems-index.md) |
+| Web box color system (accepted colors + usage conditions) | [`.agents/context/web-theme.md`](.agents/context/web-theme.md) |
 
 ---
 
