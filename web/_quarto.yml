@@ -34,6 +34,7 @@ bibliography:
 website:
   site-url: "https://yannickloth.github.io/health-me-cfs/"
   title: "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome"
+  logo: logos/ribbon.svg
   navbar:
     left:
       - text: "Home"
@@ -89,8 +90,9 @@ format:
     include-in-header:
       - text: |
           <script data-goatcounter="https://yannickloth.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
-    theme: sandstone
+    theme: cosmo
     css: styles.css
+    favicon: logos/ribbon.svg
     toc: true
     toc-depth: 3
     number-sections: true
