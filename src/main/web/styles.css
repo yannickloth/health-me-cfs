@@ -47,9 +47,9 @@
   .callout.callout-style-default.env-observation,
   .callout.callout-style-default.env-finding {
     border-inline-start: 3px solid var(--box-accent-strong);
-    border-top: 1px solid var(--box-accent-strong);
-    border-right: 1px solid var(--box-accent-strong);
-    border-bottom: 1px solid var(--box-accent-strong);
+    border-top: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
+    border-right: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
+    border-bottom: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
     background: var(--box-bg);
     color: var(--box-fg, color-mix(in srgb, var(--box-accent) 60%, var(--bs-black)));
     padding: 0.8rem 1rem;
@@ -180,9 +180,9 @@
   .registry-entry {
     --box-fg: color-mix(in srgb, var(--box-accent) 72%, var(--bs-black));
     border-inline-start: 3px solid var(--box-accent-strong);
-    border-top: 1px solid var(--box-accent-strong);
-    border-right: 1px solid var(--box-accent-strong);
-    border-bottom: 1px solid var(--box-accent-strong);
+    border-top: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
+    border-right: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
+    border-bottom: 1px solid color-mix(in srgb, var(--box-accent) 60%, var(--bs-white));
     background: var(--box-bg, color-mix(in srgb, var(--box-accent) 15%, var(--bs-white)));
     color: var(--box-fg);
     padding: 0.75rem 1rem 0.5rem;
