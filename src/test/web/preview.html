@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ME/CFS Web Theme — Style Preview</title>
+<!-- Assets as a Quarto-generated page would load them: the compiled cosmo
+     Bootstrap and Quarto libs from web/_site (build artifacts only exist
+     after `quarto render`), but the theme stylesheet from SOURCE at
+     src/main/web/styles.css (the file the build copies into the site),
+     plus the glossary-tooltip script. Loading styles.css from src/ means the
+     preview never goes stale against an old build and depends on src/ only.
+     The compiled _site libs are referenced only because Quarto generates them. -->
+<link rel="stylesheet" href="../../../web/_site/site_libs/bootstrap/bootstrap-920a04b97fdee302ccbc258b123ff42b.min.css">
+<link rel="stylesheet" href="../../../web/_site/site_libs/bootstrap/bootstrap-icons.css">
+<link rel="stylesheet" href="../../../web/_site/site_libs/quarto-html/tippy.css">
+<link rel="stylesheet" href="../../../web/_site/site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css">
+<link rel="stylesheet" href="../../main/web/styles.css">
+<script src="../../../web/_site/site_libs/bootstrap/bootstrap.min.js"></script>
+<script src="../../../web/_site/site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../web/_site/site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../web/_site/glossary-tooltip.js"></script>
+<style>
+  /* Preview-only page layout and helpers. All box/finding/registry/tooltip
+     styling comes from the site's own compiled assets above. */
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Source Sans Pro", -apple-system, "Segoe UI", Roboto, sans-serif;
+    margin: 0; padding: 0;
+  }
+  /* Show the tooltip popover statically here (styles.css hides it until hover). */
+  .gt-pop { position: static; opacity: 1; visibility: visible; transform: none; margin: 1em 0; }
+  /* Preview helper classes (not part of the theme). */
+  .note { color: #868e96; font-size: .9em; }
+  .gt-demo {
+    border: 1px dashed #dee2e6; padding: .4em .8em; border-radius: var(--bs-border-radius);
+    background: #f8f9fa; margin-block: .4em; font-size: .92em;
+  }
+</style>
+</head>
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<header id="quarto-header">
+  <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+        <a class="navbar-brand" href="#">
+          <span class="navbar-title">Style Preview</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<div class="container-fluid">
+<div class="row">
+<main class="content column-body" id="quarto-document-content">
+<header id="title-block-header" class="quarto-title-block default">
+  <div class="quarto-title">
+    <h1 class="title">ME/CFS Web Theme — Style Preview</h1>
+  </div>
+</header>
+
+<p class="note">Rendered with the site's own compiled assets (cosmo Bootstrap + styles.css) and markup structure, so boxes, callouts, registry cards, findings, and glossary tooltips appear exactly as on the live site. Hover the glossary terms to see a tooltip.</p>
+
+<h2>Quarto base callouts</h2>
+
+<div class="callout callout-style-default callout-note callout-titled">
+  <div class="callout-header d-flex align-content-center">
+    <div class="callout-icon-container"><i class="callout-icon">ℹ</i></div>
+    <div class="callout-title-container flex-fill"><span class="screen-reader-only">Note</span>Note</div>
+  </div>
+  <div class="callout-body-container callout-body"><p>Standard note callout, with <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-tip callout-titled">
+  <div class="callout-header d-flex align-content-center">
+    <div class="callout-icon-container"><i class="callout-icon">✦</i></div>
+    <div class="callout-title-container flex-fill">Tip</div>
+  </div>
+  <div class="callout-body-container callout-body"><p>Standard tip callout, with <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-important callout-titled">
+  <div class="callout-header d-flex align-content-center">
+    <div class="callout-icon-container"><i class="callout-icon">★</i></div>
+    <div class="callout-title-container flex-fill">Important</div>
+  </div>
+  <div class="callout-body-container callout-body"><p>Standard important callout, with <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-caution callout-titled">
+  <div class="callout-header d-flex align-content-center">
+    <div class="callout-icon-container"><i class="callout-icon">⚠</i></div>
+    <div class="callout-title-container flex-fill">Caution</div>
+  </div>
+  <div class="callout-body-container callout-body"><p>Standard caution callout, with <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-warning callout-titled">
+  <div class="callout-header d-flex align-content-center">
+    <div class="callout-icon-container"><i class="callout-icon">!</i></div>
+    <div class="callout-title-container flex-fill">Warning</div>
+  </div>
+  <div class="callout-body-container callout-body"><p>Standard warning callout, with <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<h2>Environment boxes</h2>
+<p class="note">Each box carries both a Quarto callout-type class and an <code>env-*</code> class; the <code>env-*</code> class sets the colour.</p>
+
+<div class="callout callout-style-default callout-important env-hypothesis callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">H</i></div>
+    <div class="callout-title-container">Hypothesis: Fatigue Is Embedded Within Coherent Multi-System Symptom Clusters</div>
+  </div>
+  <div class="callout-body-container"><p>Sample hypothesis content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-note env-open-question callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">?</i></div>
+    <div class="callout-title-container">Open Question: Does Objective Fatigability Dissociate from Subjective Fatigue?</div>
+  </div>
+  <div class="callout-body-container"><p>Sample open-question content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-caution env-speculation callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">~</i></div>
+    <div class="callout-title-container">Speculation: Aromatic L-Amino Acid Decarboxylase as a Metabolic Constraint</div>
+  </div>
+  <div class="callout-body-container"><p>Sample speculation content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-tip env-achievement callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">✓</i></div>
+    <div class="callout-title-container">Achievement: Multi-Omics Biomarker Panel</div>
+  </div>
+  <div class="callout-body-container"><p>Sample achievement content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-note env-prediction callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">→</i></div>
+    <div class="callout-title-container">Prediction: Striatal Dopaminergic Terminal Loss</div>
+  </div>
+  <div class="callout-body-container"><p>Sample prediction content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-warning env-limitation callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">⊗</i></div>
+    <div class="callout-title-container">Limitation: TSPO PET Null Findings May Underestimate Neuroinflammation</div>
+  </div>
+  <div class="callout-body-container"><p>Sample limitation content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-tip env-recommendation callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">✔</i></div>
+    <div class="callout-title-container">Recommendation: Pacing as Primary Symptom-Management Strategy</div>
+  </div>
+  <div class="callout-body-container"><p>Sample recommendation content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-tip env-synthesis callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">◎</i></div>
+    <div class="callout-title-container">Synthesis: Energy Failure Converges Across Metabolic, Immune, and Vascular Axes</div>
+  </div>
+  <div class="callout-body-container"><p>Sample synthesis content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-note env-clinical-finding callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">◈</i></div>
+    <div class="callout-title-container">Clinical Finding: Reduced Cerebral Glucose Metabolism</div>
+  </div>
+  <div class="callout-body-container"><p>Sample clinical-finding content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-note env-observation callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">▣</i></div>
+    <div class="callout-title-container">Observation: Self-Report and Objective Performance Diverge</div>
+  </div>
+  <div class="callout-body-container"><p>Sample observation content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-note env-model-insight callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">∿</i></div>
+    <div class="callout-title-container">Model Insight: Attractor Persistence Predicts Slow Recovery</div>
+  </div>
+  <div class="callout-body-container"><p>Sample model-insight content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-note env-direction callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">↪</i></div>
+    <div class="callout-title-container">Research Direction: Whole-Body TSPO Imaging, Peripheral-Up Central-Down</div>
+  </div>
+  <div class="callout-body-container"><p>Sample research-direction content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-caution env-warning callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">⚠</i></div>
+    <div class="callout-title-container">Warning: Withdrawal Risks When Discontinuing Antihistamines</div>
+  </div>
+  <div class="callout-body-container"><p>Sample warning content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<div class="callout callout-style-default callout-tip env-key-point callout-titled">
+  <div class="callout-header"><div class="callout-icon-container"><i class="callout-icon">★</i></div>
+    <div class="callout-title-container">Key Point: PEM Is the Differentiating Hallmark</div>
+  </div>
+  <div class="callout-body-container"><p>Sample key-point content, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</p></div>
+</div>
+
+<h2>Finding block</h2>
+<div class="env-finding">
+  <h5 class="env-finding-heading">Finding — Dosing response and mechanism are interdependent</h5>
+  <div class="env-finding-explanation">Uses the green accent and a labelled field list, e.g. <span class="gt">post-exertional<span class="gt-icon">?</span></span>.</div>
+  <dl class="env-finding-fields">
+    <dt>Rationale</dt><dd>Response to a medication reveals which mechanism is broken.</dd>
+    <dt>Caveat</dt><dd>Non-response may reflect dose, timing, or absorption, not the mechanism.</dd>
+    <dt>Next test</dt><dd>Cross a dose or route threshold before concluding mechanism failure.</dd>
+  </dl>
+</div>
+
+<h2>Registry entry cards</h2>
+<div class="registry-entry registry-H">
+  <div class="registry-header">
+    <span class="registry-badge">Hypothesis · 0.45</span>
+    <span class="registry-name">Striatal Dopaminergic Terminal Loss</span>
+  </div>
+  <dl class="registry-fields"><dt>Status</dt><dd>Open</dd><dt>Certainty</dt><dd>0.25</dd></dl>
+</div>
+<div class="registry-entry registry-S">
+  <div class="registry-header">
+    <span class="registry-badge">Speculation · 0.30</span>
+    <span class="registry-name">AADC Constraint</span>
+  </div>
+  <dl class="registry-fields"><dt>Status</dt><dd>Open</dd><dt>Certainty</dt><dd>0.30</dd></dl>
+</div>
+<div class="registry-entry registry-OQ">
+  <div class="registry-header">
+    <span class="registry-badge">Open Question</span>
+    <span class="registry-name">Fatigability Dissociation</span>
+  </div>
+  <dl class="registry-fields"><dt>Status</dt><dd>Open</dd></dl>
+</div>
+<div class="registry-entry registry-P">
+  <div class="registry-header">
+    <span class="registry-badge">Prediction · 0.20</span>
+    <span class="registry-name">Peripheral-Up, Central-Down TSPO Pattern</span>
+  </div>
+  <dl class="registry-fields"><dt>Status</dt><dd>Open</dd><dt>Certainty</dt><dd>0.20</dd></dl>
+</div>
+
+<h2>Epigraph / blockquote</h2>
+<blockquote>Nothing fails like success for the patient whose energy envelope is ignored.</blockquote>
+
+<h2>Response marks</h2>
+<p><span class="response-mark positive">✓</span> Positive response mark &nbsp;·&nbsp; <span class="response-mark negative">✗</span> Negative response mark</p>
+
+<h2>Glossary tooltip</h2>
+<p>Hover a term below. In the live site, matching text is wrapped automatically by the glossary script; here the markup is explicit.</p>
+
+<div class="gt-demo">Example sentence with a <span class="gt">glossary term<span class="gt-icon">?</span></span> inline. The underline is a thicker dash in the text colour; the <span class="gt">?</span> badge is near-black, becoming deep theme-blue on hover.</div>
+
+<p>The rendered tooltip popover looks like this (shown statically here):</p>
+<div class="gt-pop">
+  <span class="gt-cat">Mechanism</span>
+  <span class="gt-term">Post-Exertional Malaise (PEM)</span>
+  <span class="gt-def">A pathological symptom flare after cognitive, physical, or orthostatic exertion, typically delayed hours to days and lasting from 24 hours to weeks.</span>
+  <span class="gt-sources">Info: <a href="#">OpenMedicine Foundation</a> <span>·</span> <a href="#">MEpedia</a></span>
+</div>
+
+</main>
+</div>
+</div>
+
+</body>
+</html>
