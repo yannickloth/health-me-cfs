@@ -35,7 +35,7 @@ Dans la fibromyalgie, le LDN a des preuves d'essai : un essai contrôlé randomi
 
 La duloxétine (30 à 60 mg par jour) renforce la noradrénaline et la sérotonine dans les voies inhibitrices descendantes de la douleur. Elle a des preuves de niveau Cochrane pour la douleur fibromyalgique. Dans l'EM/SFC, la même pharmacologie qui améliore la douleur peut aggraver l'état « fatigué-mais-nerveux » à l'initiation — les IRSNa peuvent être activants, avec une insomnie, une anxiété et des nausées initiales qui se calment sur 2 à 4 semaines. Commencez à 30 mg, réévaluez à 4 semaines et arrêtez si l'activation persiste.
 
-Le milnacipran est approuvé pour la fibromyalgie mais est plus noradrénergique, ce qui peut être trop activant pour le profil autonome de l'EM/SFC. La duloxétine est le défaut plus sûr.
+Le milnacipran est approuvé pour la fibromyalgie mais est plus noradrénergique, ce qui peut être trop activant pour le profil autonome de l'EM/SFC. La duloxétine est l'option par défaut plus sûre.
 
 ### Gabapentinoïdes (prégabaline, gabapentine)
 
