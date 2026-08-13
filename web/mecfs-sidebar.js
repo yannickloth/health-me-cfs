@@ -137,6 +137,7 @@
           const tree = buildTree(manifest.items || [], 1, counter, current);
           this.innerHTML = '';
           this.appendChild(tree.ul);
+          setupSidebar(this);
           syncNavbar(current);
         })
         .catch(err => {
@@ -166,6 +167,58 @@
       } else {
         a.classList.remove('active');
         a.removeAttribute('aria-current');
+      }
+    });
+  }
+
+  // Wire up the sidebar: on desktop keep it docked just below the fixed
+  // navbar (tracking the navbar's real height so it never overlaps or leaves a
+  // gap); on small screens it becomes an off-canvas drawer toggled by a
+  // hamburger, closing on link click, Escape, or outside click.
+  function setupSidebar(sidebar) {
+    const desktop = window.matchMedia('(min-width: 992px)');
+
+    function syncTop() {
+      if (!desktop.matches) { sidebar.style.top = ''; return; }
+      const header = document.querySelector('#quarto-header');
+      if (header) sidebar.style.top = header.getBoundingClientRect().height + 'px';
+    }
+    syncTop();
+    desktop.addEventListener('change', syncTop);
+    window.addEventListener('resize', syncTop);
+
+    // Mobile off-canvas drawer.
+    if (document.querySelector('.mecfs-sidebar-toggle')) return;
+    const btn = document.createElement('button');
+    btn.className = 'mecfs-sidebar-toggle';
+    btn.setAttribute('type', 'button');
+    btn.setAttribute('aria-label', 'Toggle navigation sidebar');
+    btn.setAttribute('aria-expanded', 'false');
+    btn.setAttribute('aria-controls', 'mecfs-sidebar');
+    btn.innerHTML = '&#9776;'; // hamburger
+    document.body.appendChild(btn);
+
+    function setOpen(open) {
+      sidebar.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+    function close() { setOpen(false); }
+
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      setOpen(!sidebar.classList.contains('open'));
+    });
+    // Close the drawer after choosing a link (the navigation proceeds).
+    sidebar.addEventListener('click', (e) => {
+      if (e.target.closest('a')) close();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') close();
+    });
+    // Close when clicking outside the sidebar on small screens.
+    document.addEventListener('click', (e) => {
+      if (sidebar.classList.contains('open') && !sidebar.contains(e.target) && !btn.contains(e.target)) {
+        close();
       }
     });
   }
