@@ -82,9 +82,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Best-effort maintenance: prune excess release assets, retrying on
+          # transient API failures. A server error here must not fail the build,
+          # since the release and PDF upload already succeeded.
           RELEASE_ID=$(gh api repos/${{ github.repository }}/releases/tags/latest --jq '.id')
           gh api "repos/${{ github.repository }}/releases/$RELEASE_ID" --jq \
             '.assets | sort_by(.created_at) | reverse | .[3:] | .[].id' | while read id; do
             echo "Deleting asset $id"
-            gh api -X DELETE "repos/${{ github.repository }}/releases/assets/$id" --silent
+            for attempt in 1 2 3; do
+              if gh api -X DELETE "repos/${{ github.repository }}/releases/assets/$id" --silent; then
+                break
+              else
+                echo "Delete attempt $attempt failed; retrying in ${attempt}s"
+                sleep "$attempt"
+              fi
+            done
           done
