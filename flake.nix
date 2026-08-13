@@ -59,15 +59,22 @@
           '';
         };
 
-        # Clean source filter: exclude .git and result
+        # Clean source filter: exclude .git, result, and transient build dirs
         cleanSrc = pkgs.lib.cleanSourceWith {
           src = self;
           filter =
             path: type:
             let
               baseName = baseNameOf (toString path);
+              isTransient =
+                baseName == ".git"
+                || baseName == "result"
+                || baseName == "build-web-units"
+                || baseName == "_site"
+                || baseName == ".quarto"
+                || baseName == "site_libs";
             in
-            !(baseName == ".git" || baseName == "result");
+            !isTransient;
         };
 
         buildTypstPdf = pkgs.stdenvNoCC.mkDerivation {
@@ -123,14 +130,20 @@
             # Generate .qmd files, figures, and copy JS assets
             java --source 25 src/main/java/web/BuildWeb.java
 
+            # Generate the unified sidebar manifest for the <mecfs-sidebar> component
+            java --source 25 src/main/java/web/GenerateSidebar.java web web/mecfs-sidebar.json
+
             # Verify no orphaned labels in generated .qmd files
             java --source 25 src/test/java/web/QmdLabelAuditTest.java
 
             # Comprehensive post-build audit (10 checks, all warnings)
             java --source 25 src/test/java/web/BuildAuditTest.java
 
-            # Render HTML
-            quarto render web --to html
+            # Render HTML: per-unit isolated parallel render, then merge into web/_site
+            bash web/build-isolated.sh
+
+            # Regenerate site-level files from the merged site
+            java --source 25 src/main/java/web/GenerateSiteIndex.java web/_site
           '';
           installPhase = ''
             mkdir -p $out
@@ -159,11 +172,16 @@
             export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
 
             java --source 25 src/main/java/web/BuildWeb.java
+            java --source 25 src/main/java/web/GenerateSidebar.java web web/mecfs-sidebar.json
             java --source 25 src/test/java/web/QmdLabelAuditTest.java
             java --source 25 src/test/java/web/QmdEnvironmentCountTest.java
             java --source 25 src/test/java/web/BuildAuditTest.java
 
-            quarto render web --to html
+            # Render HTML: per-unit isolated parallel render, then merge into web/_site
+            bash web/build-isolated.sh
+
+            # Regenerate site-level files from the merged site
+            java --source 25 src/main/java/web/GenerateSiteIndex.java web/_site
 
             typst compile \
               --package-cache-path "${typst-package-cache}" \

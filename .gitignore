@@ -404,3 +404,6 @@ src/main/typst/**/*.pdf
 **/node_modules
 ## Kondo / snapshot history backups
 .history/
+
+## Isolated parallel web build staging
+build-web-units/
