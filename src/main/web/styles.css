@@ -289,3 +289,14 @@
      they would each occupy a grid cell, spacing the article cards apart. Hide
      them so only real .g-col-* items fill the grid. */
   .quarto-listing-container-grid .list.grid > span { display: none; }
+
+  /* Quarto's HTML writer injects whitespace-only placeholder <span> nodes as
+     direct children of #quarto-content (version-dependent; seen in some
+     deployed Quarto builds). Because #quarto-content is a CSS grid
+     (page-columns / page-rows-contents), each such span becomes a grid item
+     and pushes the real content down. Every direct-child <span> of
+     #quarto-content is a placeholder — real content sits in <nav>, <div>,
+     <main>, <script> siblings. No element-children check is needed: there are
+     no legitimate direct-child spans in Quarto's output, so a plain child
+     selector is safe. Mirrors the .list.grid > span rule above. */
+  #quarto-content > span { display: none; }
