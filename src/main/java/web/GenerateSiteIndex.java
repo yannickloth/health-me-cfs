@@ -28,6 +28,14 @@ void main(String[] args) throws IOException {
     htmlFiles.sort(Comparator.comparing(Path::toString));
     System.out.println("Rendered HTML files: " + htmlFiles.size());
 
+    // Quarto renders the navbar from _quarto.yml in each isolated unit. Links
+    // to pages outside the unit (blog indexes, FAQ, about) keep their .qmd
+    // extension because quarto only rewrites hrefs whose target is in the same
+    // project. Rewrite every href="...qmd" to .html in the merged site so all
+    // navigation links resolve.
+    rewriteQmdLinks(htmlFiles);
+    System.out.println("Rewrote .qmd navigation links to .html.");
+
     var searchDocs = new ArrayList<Map<String, Object>>();
     var sitemapUrls = new ArrayList<String>();
 
@@ -134,6 +142,20 @@ void main(String[] args) throws IOException {
     System.out.println("search.json entries: " + searchDocs.size());
     System.out.println("sitemap urls: " + sitemapUrls.size());
     System.out.println("Done.");
+}
+
+// Rewrite all href="...qmd" -> href="...html" in rendered HTML. Only applies
+// to <a href> attributes whose value ends in .qmd; leaves all other links
+// (external, .html, .pdf, anchors) untouched.
+void rewriteQmdLinks(List<Path> htmlFiles) throws IOException {
+    var href = Pattern.compile("href=\"([^\"]*?)\\.qmd\"");
+    for (var file : htmlFiles) {
+        var html = Files.readString(file);
+        var rewritten = href.matcher(html).replaceAll(m -> "href=\"" + m.group(1) + ".html\"");
+        if (!rewritten.equals(html)) {
+            Files.writeString(file, rewritten);
+        }
+    }
 }
 
 // --- Listings ---
