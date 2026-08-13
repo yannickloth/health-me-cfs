@@ -48,25 +48,47 @@ jobs:
           name: web-site
           path: web-site
 
-      - name: Find build-pdf run for this commit
+      - name: Wait for build-pdf run for this commit
         uses: actions/github-script@v7
         id: find-run
         with:
           script: |
-            const runs = await github.rest.actions.listWorkflowRuns({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              workflow_id: 'build-pdf.yml',
-              head_sha: context.sha,
-              status: 'success',
-              per_page: 1,
-            });
-            const run = runs.data.workflow_runs[0];
-            if (!run) {
-              core.warning('No successful build-pdf run found for this commit — deploying web without PDF');
-              return '';
+            // build-pdf runs in parallel with deploy-web. Wait (bounded) for it
+            // to reach a terminal state so the PDF is present at deploy time,
+            // while still falling back to a PDF-less deploy if it fails or is
+            // never triggered (e.g. manual workflow_dispatch on an old sha).
+            const MAX_WAIT_MS = 40 * 60 * 1000;   // 40 min upper bound
+            const POLL_MS = 30 * 1000;
+            const deadline = Date.now() + MAX_WAIT_MS;
+            while (Date.now() < deadline) {
+              // Scan all runs for this sha (per_page=100 default order newest-first),
+              // so a cancelled/superseded run does not mask an earlier success.
+              const { data } = await github.rest.actions.listWorkflowRuns({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: 'build-pdf.yml',
+                head_sha: context.sha,
+                per_page: 100,
+              });
+              const successful = data.workflow_runs.find(
+                r => r.status === 'completed' && r.conclusion === 'success'
+              );
+              if (successful) {
+                core.info(`build-pdf run #${successful.id} succeeded`);
+                return successful.id;
+              }
+              const anyCompleted = data.workflow_runs.find(r => r.status === 'completed');
+              if (anyCompleted) {
+                core.warning(
+                  `build-pdf runs for this sha all concluded without success (e.g. '${anyCompleted.conclusion}') — deploying web without PDF`
+                );
+                return '';
+              }
+              core.info('build-pdf run for this commit not completed yet; waiting');
+              await new Promise(r => setTimeout(r, POLL_MS));
             }
-            return run.id;
+            core.warning('Timed out waiting for build-pdf — deploying web without PDF');
+            return '';
 
       - name: Download PDF from build-pdf run
         if: steps.find-run.outputs.result != ''
@@ -74,8 +96,20 @@ jobs:
         with:
           run_id: ${{ steps.find-run.outputs.result }}
           name: me-cfs-paper
-          path: web-site
+          path: pdf-artifact
           check_artifacts: true
+
+      - name: Place PDF at site root as loth2026-mecfs.pdf
+        if: steps.find-run.outputs.result != ''
+        run: |
+          # build-pdf uploads the PDF renamed as loth2026-mecfs.<ts>-<sha>.pdf.
+          # The site links expect the canonical name loth2026-mecfs.pdf at root.
+          if ls pdf-artifact/loth2026-mecfs.*.pdf >/dev/null 2>&1; then
+            cp pdf-artifact/loth2026-mecfs.*.pdf web-site/loth2026-mecfs.pdf
+            echo "Placed PDF at web-site/loth2026-mecfs.pdf"
+          else
+            echo "warning: no loth2026-mecfs*.pdf in artifact; deploying web without PDF"
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v6

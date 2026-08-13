@@ -107,7 +107,7 @@ BuildWeb.java now also copies .bib files — no separate step needed.
 |----------|---------|------|
 | `ci.yml` | PR → main | `nix flake check` |
 | `build-pdf.yml` | push or PR → main, manual | PDF build + GitHub Release `latest` (no `nix flake check`) |
-| `deploy-web.yml` | push → main, manual | `nix flake check` → `web-full` → GitHub Pages deploy |
+| `deploy-web.yml` | push → main, manual | `nix build .#web` → GitHub Pages deploy; waits for `build-pdf.yml`, then copies `loth2026-mecfs.pdf` into site root |
 
 ## Source Layout
 
