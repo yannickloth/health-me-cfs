@@ -271,13 +271,23 @@
           blog-audit = pkgs.stdenvNoCC.mkDerivation {
             name = "mecfs-blog-audit";
             src = cleanSrc;
-            buildInputs = [ pkgs.jdk25 ];
+            buildInputs = [
+              pkgs.jdk25
+              pkgs.typst
+              pkgs.quarto
+            ];
             phases = [
               "unpackPhase"
               "buildPhase"
               "installPhase"
             ];
             buildPhase = ''
+              export HOME="$NIX_BUILD_TOP/home"
+              mkdir -p "$HOME"
+              export TYPST_PACKAGE_CACHE_PATH="${typst-package-cache}"
+              # Generate .qmd files (incl. the glossary appendix) so blog links to
+              # generated targets resolve during the audit.
+              java --source 25 src/main/java/web/BuildWeb.java
               java --source 25 src/test/java/web/BlogAuditTest.java web/en/blog
               java --source 25 src/test/java/web/BlogAuditTest.java web/de/blog
               java --source 25 src/test/java/web/BlogAuditTest.java web/fr/blog
