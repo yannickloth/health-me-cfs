@@ -18,6 +18,8 @@ In severe and very-severe ME/CFS, pacing transitions from a self-management stra
     - *Stop signal protocol:* Establish a non-verbal signal (finger tap, hand raise, bell) that the patient can give at any time to immediately stop all care activity. Caregivers must honour this without discussion or delay @Hermisson2026CareGuide.
     - *Dual pacing responsibility:* For bedbound patients, the caregiver paces *for* the patient, monitoring tolerance signs (facial tension, breathing changes, heart rate) and terminating activities pre-emptively before the patient reaches their threshold.
 
+*Operational care protocols.* The caregiver-pacing principles above are operationalised across the concrete daily care dimensions in Section @sec:practical-care-protocols — task-level feeding, hygiene, mobility/transfer, and communication protocols that convert "protect the energy envelope" into specific, budgeted, batchable care acts.
+
 *Warning: Caregiver as Overexertion Risk.*
 
 Caregivers who are also family members face unique challenges. Emotional investment can drive over-care — attempting more interventions than the patient can tolerate. The rule "less is more" must be consciously enforced. Caregiver burnout directly threatens the patient's stability, and caregiver self-care is a medical priority for the patient's sake @Hermisson2026CareGuide @Fennell2021Suffering.

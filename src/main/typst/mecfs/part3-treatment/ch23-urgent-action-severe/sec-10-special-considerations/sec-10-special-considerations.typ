@@ -6,3 +6,4 @@
 #include "subsec-04-financial-barriers/subsec-04-financial-barriers.typ"
 #include "subsec-05-perioperative-management/subsec-05-perioperative-management.typ"
 #include "subsec-06-cci-eds-severe/subsec-06-cci-eds-severe.typ"
+#include "subsec-07-practical-care-protocols/subsec-07-practical-care-protocols.typ"
