@@ -8,7 +8,24 @@
     "Tiers: (1) deepseek-v4-flash thinking-disabled = mechanical, build-verified, high-volume; flash kept for speed, thinking explicitly OFF because DS4 API defaults thinking ON. (2) deepseek-v4-pro thinking-enabled = judgment tier; effort=high for default judgment work, effort=max for deep-reasoning auditors/builders formerly on k3 (DS4-pro cheap; DS4 supports only high/max; opencode auto-elevates complex agent calls to max). (3) kimi-for-coding/k2p7 (K2.7 Code, 256K ctx) = code-generation agents where DS4 code mistakes cause rework loops. (4) kimi-for-coding/kimi-for-coding-highspeed = latency-sensitive code fix loops. (5) kimi-for-coding/k3 = reserved ONLY for vision-critical agents that must Read rendered figures/PDFs and judge deep visual rhetoric (diagram-rhetoric-auditor). NO text-only review agent may use Kimi k3. VISION: DS4 models are text-only — any agent that Reads rendered figures/PDFs (diagram layout, accuracy, consistency, spacing checks) MUST use a Kimi model (k2p7 default; k3 for deep visual-rhetoric)."
   ],
   "plugin": [
-    "../llm-harness-plugins/agentmem/opencode/index.ts"
+    "../llm-harness-plugins/context-includes/opencode/index.ts",
+    "../llm-harness-plugins/guardrail-chain/opencode/index.ts",
+    "../llm-harness-plugins/session-lifecycle/opencode/index.ts",
+    "../llm-harness-plugins/agentmem/opencode/index.ts",
+    "../llm-harness-plugins/semantic-cache/opencode/index.ts",
+    "../llm-harness-plugins/tier-router/opencode/index.ts",
+    "../llm-harness-plugins/datetime-inject/opencode/index.ts",
+    "../llm-harness-plugins/agentinsights/opencode/index.ts",
+    "../llm-harness-plugins/graphrag/opencode/index.ts",
+    "../llm-harness-plugins/knowledge-graph/opencode/index.ts",
+    "../llm-harness-plugins/prompt-registry/opencode/index.ts",
+    "../llm-harness-plugins/typst-toolkit/opencode/index.ts",
+    "../llm-harness-plugins/latex-toolkit/opencode/index.ts",
+    "../llm-harness-plugins/java-toolkit/opencode/index.ts",
+    "../llm-harness-plugins/python-toolkit/opencode/index.ts",
+    "../llm-harness-plugins/ivp/opencode/index.ts",
+    "../llm-harness-plugins/general-skills/opencode/index.ts",
+    "../llm-harness-plugins/permission-modes/opencode/index.ts"
   ],
   "agent": {
     "benefit-navigator": {
