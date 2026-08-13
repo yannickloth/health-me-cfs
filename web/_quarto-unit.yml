@@ -1,0 +1,84 @@
+project:
+  type: website
+bibliography:
+  - bib/autoimmunity.bib
+  - bib/autonomic-cardiovascular.bib
+  - bib/brain-clearance.bib
+  - bib/connective-tissue.bib
+  - bib/diagnosis-assessment.bib
+  - bib/endocrine-reproductive.bib
+  - bib/energy-metabolism.bib
+  - bib/epidemiology.bib
+  - bib/exercise-pem.bib
+  - bib/general.bib
+  - bib/genetics-epigenetics.bib
+  - bib/gut-microbiome.bib
+  - bib/immune.bib
+  - bib/ion-channels-lithium.bib
+  - bib/long-covid.bib
+  - bib/mast-cell.bib
+  - bib/modeling.bib
+  - bib/musculoskeletal.bib
+  - bib/neuroinflammation.bib
+  - bib/neurology-comorbidities.bib
+  - bib/pain-fibromyalgia.bib
+  - bib/pupillometry.bib
+  - bib/pathophysiology-general.bib
+  - bib/sleep.bib
+  - bib/stigma.bib
+  - bib/treatments.bib
+  - bib/vascular.bib
+  - bib/viral-infection.bib
+website:
+  site-url: "https://yannickloth.github.io/health-me-cfs/"
+  title: "Myalgic Encephalomyelitis / Chronic Fatigue Syndrome"
+  navbar:
+    logo:
+      light: logos/ribbon.svg
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "🇬🇧 Blog (EN)"
+        href: en/blog/index.qmd
+      - text: "🇫🇷 Blog (FR)"
+        href: fr/blog/index.qmd
+      - text: "🇩🇪 Blog (DE)"
+        href: de/blog/index.qmd
+      - text: "FAQ"
+        href: faq/index.qmd
+    right:
+      - text: "About"
+        href: about.qmd
+      - text: "Download PDF"
+        href: loth2026-mecfs.pdf
+      - icon: rss
+        menu:
+          - text: "🇬🇧 RSS (EN)"
+            href: en/blog/index.xml
+          - text: "🇫🇷 RSS (FR)"
+            href: fr/blog/index.xml
+          - text: "🇩🇪 RSS (DE)"
+            href: de/blog/index.xml
+  sidebar: false
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    favicon: logos/favicon.png
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    html-math-method: mathjax
+    cite-method: citeproc
+    include-after-body: mecfs-sidebar.html
+    resources:
+      - glossary-en.json
+      - glossary-fr.json
+      - glossary-de.json
+      - mecfs-sidebar.js
+      - mecfs-sidebar.json
+    crossref:
+      sec-prefix: Section
+      fig-prefix: Figure
+      tbl-prefix: Table
+      eq-prefix: Equation
