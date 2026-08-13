@@ -342,7 +342,7 @@ void deleteRecursive(Path dir) throws IOException {
 }
 
 static final String XREF_PREFIXES =
-    "sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open|clin|syn|pr";
+    "sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open|clin|syn|pr|clf";
 
 // resolveCrossRefs now takes the in-memory registry directly (no _xref.tsv re-read pass).
 // Still writes .qmd files to disk because they were written by the backends,

@@ -78,7 +78,7 @@ final class RegexConversion implements TypstToQmd {
             src = src.replace("BLOCKMATH" + bIdx + "", blockMathPlaceholders.get(bIdx));
         }
 
-        src = src.replaceAll("@(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open|clin|syn|pr)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
+        src = src.replaceAll("@(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open|clin|syn|pr|clf)(:|_|-)([a-zA-Z0-9_-]+)", "@$1-$3");
         src = src.replaceAll("@([A-Z][A-Za-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
         src = src.replaceAll("@([a-z]+\\d{4}[a-zA-Z0-9_]*)", "[@$1]");
 
@@ -1750,9 +1750,9 @@ final class RegexConversion implements TypstToQmd {
         s = s.replaceAll("#link\\(\"([^\"]+)\"\\)\\[([^\\]]+?)\\]", "[$2]($1)");
         s = s.replaceAll("#link\\(\"([^\"]+)\"\\)", "<$1>");
         s = translateMath(s);
-        s = s.replaceAll("[a-z][a-z0-9]*:@(sec|subsec|subsubsec|hyp|spec|lim|obs|oq|pred|prop|rec|warn|dir|prot|def|req|rem|open|clin|syn|pr)(?::)([a-zA-Z0-9_-]+)", "<a href=\"#$1-$2\">$1-$2</a>");
-        s = s.replaceAll("`(sec|subsec|subsubsec|hyp|spec|lim|obs|oq|pred|prop|rec|warn|dir|prot|def|req|rem|open|clin|syn|pr):([a-zA-Z0-9_-]+)`", "<a href=\"#$1-$2\">$1-$2</a>");
-        s = s.replaceAll("@(sec|subsec|subsubsec|hyp|spec|lim|obs|oq|pred|prop|rec|warn|dir|prot|def|req|rem|open|clin|syn|pr):([a-zA-Z0-9_-]+)", "<a href=\"#$1-$2\">$1-$2</a>");
+        s = s.replaceAll("[a-z][a-z0-9]*:@(sec|subsec|subsubsec|hyp|spec|lim|obs|oq|pred|prop|rec|warn|dir|prot|def|req|rem|open|clin|syn|pr|clf)(?::)([a-zA-Z0-9_-]+)", "<a href=\"#$1-$2\">$1-$2</a>");
+        s = s.replaceAll("`(sec|subsec|subsubsec|hyp|spec|lim|obs|oq|pred|prop|rec|warn|dir|prot|def|req|rem|open|clin|syn|pr|clf):([a-zA-Z0-9_-]+)`", "<a href=\"#$1-$2\">$1-$2</a>");
+        s = s.replaceAll("@(sec|subsec|subsubsec|hyp|spec|lim|obs|oq|pred|prop|rec|warn|dir|prot|def|req|rem|open|clin|syn|pr|clf):([a-zA-Z0-9_-]+)", "<a href=\"#$1-$2\">$1-$2</a>");
         s = s.replaceAll("<(sec|subsec|subsubsec|fig|tab|eq|ch|ach|hyp|spec|lim|obs|oq|pred|prop|app|warn|rec|dir|prot|par|def|req|protocol|rem|cont|cf|open):([a-zA-Z0-9_-]+)>", "");
         s = s.replace("|", "\\|");
         s = s.replaceAll("\\s*\\n\\s*", " ");
