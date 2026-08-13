@@ -2,7 +2,7 @@
 title: "SFN Artikel 2: Small-Fiber-Neuropathie bei ME/CFS behandeln — Schmerzmedikamente, IVIG, Mastzell-Stabilisatoren und was es bedeutet, wenn der Schmerz nicht aufhört"
 description: "Ein allgemeinverständlicher Leitfaden zur Behandlung der Small-Fiber-Neuropathie bei ME/CFS — die Leiter für neuropathischen Schmerz von Gabapentinoiden und SNRIs zu topischem Lidocain und Capsaicin, IVIG für autoimmunes SFN, Alpha-Liponsäure und metabolische Unterstützung, Mastzell-Stabilisatoren, die die Tryptase→PAR2-Schleife unterbrechen, erwartete Ergebnisse und die ehrliche Diskussion 'was, wenn nichts hilft'."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-07"
 categories: [Behandlung, SFN, Neuropathie, ME/CFS, Schmerz]
 lang: de
 ---

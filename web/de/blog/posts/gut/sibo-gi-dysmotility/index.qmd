@@ -2,7 +2,7 @@
 title: "GI-Dysmotilität Artikel 1: SIBO, Gastroparese, Histamin und der Darm, der bei ME/CFS danebengeht"
 description: "Ein allgemeinverständlicher Leitfaden zu GI-Dysmotilität und SIBO bei ME/CFS — warum der Magen langsam entleert, wie Bakterien Ihr Frühstück stehlen, die Mastzell-Darmmotilitäts-Verbindung, Schwefelwasserstoff als mitochondrialer Giftstoff, die DAO-Histamin-Verbindung und der Unterschied zwischen Darmproblemen allein und Darmproblemen zusätzlich zu ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-10"
 categories: [GI-Dysmotilität, SIBO, ME/CFS, Darm, Pathophysiologie]
 lang: de
 ---

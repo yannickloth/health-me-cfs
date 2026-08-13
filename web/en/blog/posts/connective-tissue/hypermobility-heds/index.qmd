@@ -2,7 +2,7 @@
 title: "Hypermobility Article 1: Hypermobile EDS and the Connective-Tissue Connection to ME/CFS — Why Flexible Tissue Feeds the Cascade"
 description: "A plain-language guide to hypermobile Ehlers-Danlos syndrome and how it overlaps with ME/CFS — why flexible tissue does not hold together, the five mechanistic pathways linking loose connective tissue to systemic illness, how mast cells may actively degrade collagen (acquired hypermobility), the TNXB genetics, the neurodivergence axis, and the difference between being hypermobile on its own and being hypermobile on top of ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-03"
 categories: [Hypermobility, hEDS, ME/CFS, Pathophysiology, Connective Tissue]
 ---
 

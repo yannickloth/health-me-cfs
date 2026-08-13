@@ -2,7 +2,7 @@
 title: "Dysmotilité gastro-intestinale Article 1 : SIBO, gastroparésie, histamine et l'intestin qui se conduit mal dans l'EM/SFC"
 description: "Un guide en langage clair sur la dysmotilité gastro-intestinale et le SIBO dans l'EM/SFC — pourquoi l'estomac se vide lentement, comment les bactéries volent votre petit-déjeuner, le lien mastocyte-motilité intestinale, le sulfure d'hydrogène comme toxine mitochondriale, le lien DAO-histamine, et la différence entre les problèmes intestinaux seuls et les problèmes intestinaux sur fond d'EM/SFC."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-10"
 lang: fr
 categories: [Dysmotilité GI, SIBO, EM/SFC, Intestin, Pathophysiologie]
 ---

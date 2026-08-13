@@ -2,7 +2,7 @@
 title: "Fibromyalgie Article 1 : La douleur qui n'est pas musculaire — La douleur de type fibromyalgique dans l'EM/SFC et pourquoi votre système nerveux a monté le volume"
 description: "Un guide en langage clair sur la douleur de type fibromyalgique et son chevauchement avec l'EM/SFC — pourquoi la douleur arrive sans dommage tissulaire, comment les canaux TRPV1 et TRPA1 sont restés bloqués ouverts, la boucle de rétroaction COX-2/PGE2 qui fait que la chaleur corporelle ressemble à une brûlure, l'hybride nociplastique-neuropathique, et la différence entre la fibromyalgie seule et la douleur fibromyalgique sur fond d'EM/SFC."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-08"
 lang: fr
 categories: [Fibromyalgie, Douleur, EM/SFC, Pathophysiologie]
 ---

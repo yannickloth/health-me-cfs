@@ -2,7 +2,7 @@
 title: "MCAS Article 1: MCAS and ME/CFS: Why Your Body Reacts to Nothing"
 description: "A plain-language guide to mast cell activation syndrome and how it overlaps with ME/CFS — what MCAS is, why mast cells can fire with no allergen at all, why MCAS almost always arrives *after* ME/CFS (not before it), the allergy that spreads from one food to the world, and how to tell MCAS-by-itself apart from ME/CFS-with-MCAS."
 author: "Yannick Loth"
-date: "2026-08-10"
+date: "2026-07-29"
 categories: [MCAS, ME/CFS, Pathophysiology]
 ---
 

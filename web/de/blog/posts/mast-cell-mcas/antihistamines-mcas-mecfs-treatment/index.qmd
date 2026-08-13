@@ -2,7 +2,7 @@
 title: "MCAS Artikel 2: Antihistaminika bei ME/CFS und MCAS — H1 vs. H2, und warum Ihr Arzt die Dosis erhöht"
 description: "Ein Leitfaden in einfacher Sprache zu den Medikamenten für die Mastzellaktivierung bei ME/CFS — der echte Unterschied zwischen H1- und H2-Antihistaminika, wo Histamin und seine Rezeptoren leben, die Mastzell-Stabilisatoren, welche Symptome die Medikamente beeinflussen können und welche nicht, und warum Dosen über der Norm manchmal nötig sind."
 author: "Yannick Loth"
-date: "2026-08-10"
+date: "2026-07-30"
 categories: [Behandlung, MCAS, Pharmakologie]
 lang: de
 ---

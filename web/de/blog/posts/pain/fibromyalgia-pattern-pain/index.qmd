@@ -2,7 +2,7 @@
 title: "Fibromyalgie Artikel 1: Der Schmerz, der kein Muskel ist — Fibromyalgie-Muster-Schmerz bei ME/CFS und warum Ihr Nervensystem den Verstärkungsfaktor hochgedreht hat"
 description: "Ein allgemeinverständlicher Leitfaden zu Fibromyalgie-Muster-Schmerz und wie er sich mit ME/CFS überschneidet — warum Schmerz ohne Gewebeschaden ankommt, wie TRPV1- und TRPA1-Kanäle offen hängen bleiben, die COX-2/PGE2-Feed-forward-Schleife, die Körperwärme wie Brennen fühlen lässt, der nociplastische-neuropathische Hybrid und der Unterschied zwischen Fibromyalgie allein und Fibromyalgie-Schmerz zusätzlich zu ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-08"
 categories: [Fibromyalgie, Schmerz, ME/CFS, Pathophysiologie]
 lang: de
 ---

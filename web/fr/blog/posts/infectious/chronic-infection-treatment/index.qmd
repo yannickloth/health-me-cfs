@@ -2,7 +2,7 @@
 title: "Infection chronique Article 2 : Antiviraux, immunomodulateurs, et ce que cela signifie quand ils ne fonctionnent pas dans l'EM/SFC"
 description: "Un guide en langage clair sur le traitement de l'infection virale chronique dans l'EM/SFC — valacyclovir pour le VEB, valganciclovir pour le HHV-6/CMV, cimétidine comme immunomodulateur, stabilisateurs de mastocytes pour intercepter la voie VEB→MMP-9, pourquoi la réplication lytique abortive rend les antiviraux moins efficaces que prévu, et la discussion honnête « et si rien n'aide »."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-13"
 lang: fr
 categories: [Traitement, Infection chronique, Antiviraux, EM/SFC]
 ---

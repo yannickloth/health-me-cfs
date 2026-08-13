@@ -2,7 +2,7 @@
 title: "NPF Article 2 : Traiter la neuropathie des petites fibres dans l'EM/SFC — Médicaments antidouleur, IVIG, stabilisateurs de mastocytes, et ce que cela signifie quand la douleur ne s'arrête pas"
 description: "Un guide en langage clair pour traiter la neuropathie des petites fibres dans l'EM/SFC — l'échelle de la douleur neuropathique des gabapentinoïdes et des IRSNa à la lidocaïne et la capsaïcine topiques, l'IVIG pour la NPF auto-immune, l'acide alpha-lipoïque et le soutien métabolique, les stabilisateurs de mastocytes qui interrompent la boucle tryptase→PAR2, les résultats attendus, et la discussion honnête « et si rien n'aide »."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-07"
 lang: fr
 categories: [Traitement, NPF, Neuropathie, EM/SFC, Douleur]
 ---

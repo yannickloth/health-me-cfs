@@ -2,7 +2,7 @@
 title: "Hypermobilität Artikel 2: Hypermobilität zusätzlich zu ME/CFS managen — Physiotherapie, zirkadiane Kollagenunterstützung, MMP-Inhibitoren und aufkommende Therapien"
 description: "Ein allgemeinverständlicher Leitfaden zum Management von hypermobilem EDS und Gelenkhypermobilität bei ME/CFS — die isometrischen Widerstandsprotokolle, die funktionieren, die zirkadiane Zeitplanung der Kollagen-Cofaktoren (Vitamin C, Alpha-Ketoglutarat), Glycin und Prolin für die Synthese, Doxycyclin zur MMP-9-Hemmung, aufkommende Therapien (tVNS, HIF-1α-Inhibitoren, TGF-β1-Blockade), CCI-Chirurgie, erwartete Ergebnisse und ein ausgearbeitetes Beispiel eines strukturierten Versuchs."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-04"
 categories: [Behandlung, Hypermobilität, hEDS, ME/CFS, Bindegewebe]
 lang: de
 ---

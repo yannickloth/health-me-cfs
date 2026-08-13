@@ -2,7 +2,7 @@
 title: "NPF Article 1 : Neuropathie des petites fibres — quand le câblage lui-même est défectueux dans l'EM/SFC"
 description: "Un guide en langage clair sur la neuropathie des petites fibres et son chevauchement avec l'EM/SFC — pourquoi les nerfs eux-mêmes sont endommagés mais réagissent pourtant de manière excessive, comment les mastocytes attaquent les terminaisons nerveuses par la tryptase et PAR2, la distinction viscéral-vs-somatique, l'hypothèse auto-immune des ganglions rachidiens dorsaux, et la différence entre la NPF seule et la NPF sur fond d'EM/SFC."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-06"
 lang: fr
 categories: [NPF, EM/SFC, Neuropathie, Pathophysiologie]
 ---

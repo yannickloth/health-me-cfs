@@ -2,7 +2,7 @@
 title: "POTS Article 2 : Traitements du POTS et de la dysautonomie dans l'EM/SFC — Sel, fludrocortisone, midodrine, ivabradine, et ce que cela signifie quand ils ne fonctionnent pas"
 description: "Un guide en langage clair sur les médicaments utilisés pour le POTS et l'intolérance orthostatique dans l'EM/SFC — l'échelle de traitement du sel et de la compression à la fludrocortisone, la midodrine, l'ivabradine, les bêta-bloquants et la pyridostigmine, le médicament que vous ne devriez probablement pas prendre (le piège des ISRS), les résultats attendus, et la discussion honnête « et si les médicaments ne fonctionnent pas »."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-02"
 lang: fr
 categories: [Traitement, POTS, Dysautonomie, Pharmacologie]
 ---

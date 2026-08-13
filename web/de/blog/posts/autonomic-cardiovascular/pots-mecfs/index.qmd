@@ -2,7 +2,7 @@
 title: "POTS Artikel 1: POTS und das Herz, das rast, wenn Sie aufstehen — was es mit ME/CFS bedeutet"
 description: "Ein allgemeinverständlicher Leitfaden zum posturalen orthostatischen Tachykardie-Syndrom und wie es sich mit ME/CFS überschneidet — warum Aufstehen das Herz sprinten lässt, warum das Blutvolumen niedrig ist, aber das Hormon, das es behebt, paradoxerweise abgeschaltet ist, wie Mastzellen und Bindegewebe das Problem befeuern, und der Unterschied zwischen POTS allein und POTS zusätzlich zu ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-01"
 categories: [POTS, ME/CFS, Dysautonomie, Pathophysiologie]
 lang: de
 ---

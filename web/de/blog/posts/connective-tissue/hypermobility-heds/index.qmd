@@ -2,7 +2,7 @@
 title: "Hypermobilität Artikel 1: Hypermobiles EDS und die Bindegewebs-Verbindung zu ME/CFS — Warum flexibles Gewebe die Kaskade befeuert"
 description: "Ein allgemeinverständlicher Leitfaden zum hypermobilen Ehlers-Danlos-Syndrom und wie es sich mit ME/CFS überschneidet — warum flexibles Gewebe nicht zusammenhält, die fünf mechanistischen Pfade, die loses Bindegewebe mit systemischer Krankheit verbinden, wie Mastzellen Kollagen aktiv abbauen können (erworbene Hypermobilität), die TNXB-Genetik, die Neurodivergenz-Achse und der Unterschied zwischen Hypermobilität allein und Hypermobilität zusätzlich zu ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-03"
 categories: [Hypermobilität, hEDS, ME/CFS, Pathophysiologie, Bindegewebe]
 lang: de
 ---

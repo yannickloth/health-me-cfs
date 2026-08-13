@@ -2,7 +2,7 @@
 title: "Autoimmunity Article 2: Immunoadsorption, IVIG, Rituximab, Daratumumab — Removing the Antibodies, and What It Means When That Doesn't Fix ME/CFS"
 description: "A plain-language guide to autoimmune-targeted treatments in ME/CFS — immunoadsorption for GPCR autoantibody removal, IVIG for immunomodulation, rituximab and the lesson of the phase III null, daratumumab for plasma-cell depletion, why the controlled trials don't match the open-label signals, expected results, and the honest 'what if nothing helps' discussion."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-15"
 categories: [Treatment, Autoimmunity, IVIG, Immunoadsorption, ME/CFS]
 ---
 

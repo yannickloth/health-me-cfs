@@ -2,7 +2,7 @@
 title: "POTS Article 2: Treatments for POTS and Dysautonomia in ME/CFS — Salt, Fludrocortisone, Midodrine, Ivabradine, and What It Means When They Don't Work"
 description: "A plain-language guide to the medications used for POTS and orthostatic intolerance in ME/CFS — the treatment ladder from salt and compression through fludrocortisone, midodrine, ivabradine, beta-blockers, and pyridostigmine, the drug you should probably not take (the SSRI pitfall), expected results, and the honest 'what if the drugs don't work' discussion."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-02"
 categories: [Treatment, POTS, Dysautonomia, Pharmacology]
 ---
 

@@ -2,7 +2,7 @@
 title: "GI Dysmotility Article 1: SIBO, Gastroparesis, Histamine, and the Gut That Misbehaves in ME/CFS"
 description: "A plain-language guide to GI dysmotility and SIBO in ME/CFS — why the stomach empties slowly, how bacteria steal your breakfast, the mast-cell-gut-motility connection, hydrogen sulfide as a mitochondrial toxin, the DAO-histamine connection, and the difference between gut problems on their own and gut problems on top of ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-10"
 categories: [GI Dysmotility, SIBO, ME/CFS, Gut, Pathophysiology]
 ---
 

@@ -2,7 +2,7 @@
 title: "Hypermobilité Article 2 : Gérer l'hypermobilité sur fond d'EM/SFC — Physiothérapie, soutien circadien du collagène, inhibiteurs de MMP et thérapies émergentes"
 description: "Un guide en langage clair pour gérer le SED hypermobile et l'hypermobilité articulaire dans l'EM/SFC — les protocoles de résistance isométrique qui fonctionnent, le minutage circadien des cofacteurs du collagène (vitamine C, alpha-cétoglutarate), la glycine et la proline pour la synthèse, la doxycycline pour l'inhibition de la MMP-9, les thérapies émergentes (tVNS, inhibiteurs de HIF-1α, blocage de TGF-β1), la chirurgie de l'ICC, les résultats attendus et un exemple d'essai structuré travaillé."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-04"
 lang: fr
 categories: [Traitement, Hypermobilité, hEDS, EM/SFC, Tissu conjonctif]
 ---

@@ -2,7 +2,7 @@
 title: "POTS Article 1: POTS and the Heart That Races When You Stand — What It Means With ME/CFS"
 description: "A plain-language guide to postural orthostatic tachycardia syndrome and how it overlaps with ME/CFS — why standing up makes your heart sprint, why blood volume is low but the hormone that fixes it is paradoxically off, how mast cells and connective tissue feed the problem, and the difference between POTS on its own and POTS sitting on top of ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-01"
 categories: [POTS, ME/CFS, Dysautonomia, Pathophysiology]
 ---
 

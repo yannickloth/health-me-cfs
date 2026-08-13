@@ -2,7 +2,7 @@
 title: "GI Dysmotility Article 2: Treating SIBO, Gastroparesis, and the Gut — Diet, Prokinetics, Antibiotics, DAO, and What It Means When Nothing Helps"
 description: "A plain-language guide to treating GI dysmotility and SIBO in ME/CFS — meal spacing and low-histamine elimination as the first lever, SIBO antibiotics and herbal antimicrobials, elemental diet, prokinetics for MMC support, DAO for histamine intolerance, butyrate for the barrier, expected results, the honest 'what if nothing helps' discussion, and what you can actually do."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-11"
 categories: [Treatment, GI Dysmotility, SIBO, ME/CFS, Gut]
 ---
 

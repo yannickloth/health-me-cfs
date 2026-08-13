@@ -2,7 +2,7 @@
 title: "Hypermobilität Artikel 3: Wenn die Behandlung nicht hilft — Was Versagen für Hypermobilität zusätzlich zu ME/CFS bedeutet"
 description: "Die ehrliche, unbequeme Diskussion über Hypermobilitäts-Behandlungsversagen bei ME/CFS — warum Physiotherapie nicht alles beheben kann, die Dekonditionierungs-PEM-Falle, der Matrix-Steifigkeits-Kipppunkt, die falsifizierbaren Vorhersagen und was Sie tatsächlich tun können, wenn das lose Gewebe permanent ist."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-05"
 categories: [Behandlung, Hypermobilität, hEDS, ME/CFS, Behandlungsversagen]
 lang: de
 ---

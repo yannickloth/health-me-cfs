@@ -2,7 +2,7 @@
 title: "Auto-immunité Article 2 : Immunoadsorption, IVIG, Rituximab, Daratumumab — Retirer les anticorps, et ce que cela signifie quand cela ne répare pas l'EM/SFC"
 description: "Un guide en langage clair sur les traitements ciblant l'auto-immunité dans l'EM/SFC — l'immunoadsorption pour le retrait des auto-anticorps anti-RCPG, l'IVIG pour l'immunomodulation, le rituximab et la leçon du résultat nul de la phase III, le daratumumab pour la déplétion des plasmocytes, pourquoi les essais contrôlés ne correspondent pas aux signaux en ouvert, les résultats attendus, et la discussion honnête « et si rien ne fonctionne »."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-15"
 lang: fr
 categories: [Traitement, Auto-immunité, IVIG, Immunoadsorption, EM/SFC]
 ---

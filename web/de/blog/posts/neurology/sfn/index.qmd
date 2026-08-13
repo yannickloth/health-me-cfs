@@ -2,7 +2,7 @@
 title: "SFN Artikel 1: Small-Fiber-Neuropathie — wenn die Verkabelung selbst bei ME/CFS falsch ist"
 description: "Ein allgemeinverständlicher Leitfaden zur Small-Fiber-Neuropathie und wie sie sich mit ME/CFS überschneidet — warum die Nerven selbst geschädigt, aber dennoch überreaktiv sind, wie Mastzellen Nervenenden durch Tryptase und PAR2 angreifen, die viszerale-vs-somatische Unterscheidung, die DRG-Autoimmunhypothese und der Unterschied zwischen SFN allein und SFN zusätzlich zu ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-06"
 categories: [SFN, ME/CFS, Neuropathie, Pathophysiologie]
 lang: de
 ---

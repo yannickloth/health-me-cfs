@@ -2,7 +2,7 @@
 title: "MCAS Article 2: Antihistamines for ME/CFS and MCAS: H1 vs H2, and Why Your Doctor Raises the Dose"
 description: "A plain-language guide to the medications used for mast cell activation in ME/CFS — the real difference between H1 and H2 antihistamines, where histamine and its receptors live, the mast-cell stabilisers, which symptoms the drugs can touch and which they can't, and why higher-than-normal doses are sometimes necessary."
 author: "Yannick Loth"
-date: "2026-08-10"
+date: "2026-07-30"
 categories: [Treatment, MCAS, Pharmacology]
 ---
 

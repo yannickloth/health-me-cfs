@@ -2,7 +2,7 @@
 title: "MCAS Article 3: When the Antihistamine Doesn't Work: What It Does and Doesn't Tell You About MCAS and ME/CFS"
 description: "The honest, uncomfortable question: you tried mast-cell treatment for your ME/CFS and it didn't help. This article explains why normal blood tests don't rule out a histamine problem, why one drug failing proves little, the difference between histamine intolerance and MCAS, the 'amplification ratchet' of long illness, and what to do next."
 author: "Yannick Loth"
-date: "2026-08-10"
+date: "2026-07-31"
 categories: [Treatment, MCAS, ME/CFS, Misdiagnosis]
 ---
 

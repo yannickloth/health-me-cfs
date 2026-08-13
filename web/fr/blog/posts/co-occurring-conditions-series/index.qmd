@@ -2,7 +2,7 @@
 title: "Les affections qui voyagent avec l'EM/SFC — une série"
 description: "L'EM/SFC voyage rarement seul. L'activation des mastocytes, le POTS, l'hypermobilité, la fibromyalgie, les problèmes intestinaux et les migraines co-occurrent bien plus souvent que par hasard. C'est la page d'accueil d'une série en langage clair sur chaque affection concomitante : ce qu'elle est, comment elle se rapporte à l'EM/SFC, les traitements, et — toujours — ce que cela signifie si le traitement ne marche pas."
 author: "Yannick Loth"
-date: "2026-08-10"
+date: "2026-07-28"
 categories: [EM/SFC, Série, Comorbidités]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "The Conditions That Travel With ME/CFS — a Series"
 description: "ME/CFS rarely travels alone. Mast cell activation, POTS, hypermobility, fibromyalgia, gut problems, and migraine all co-occur far more often than chance. This is the landing page for a plain-language series on each co-occurring condition: what it is, how it relates to ME/CFS, the treatments, and — always — what it means if the treatment doesn't work."
 author: "Yannick Loth"
-date: "2026-08-10"
+date: "2026-07-28"
 categories: [ME/CFS, Series, Comorbidities]
 ---
 

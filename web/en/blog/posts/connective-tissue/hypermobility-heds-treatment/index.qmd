@@ -2,7 +2,7 @@
 title: "Hypermobility Article 2: Managing Hypermobility on Top of ME/CFS — Physiotherapy, Circadian Collagen Support, MMP Inhibitors, and Emerging Therapies"
 description: "A plain-language guide to managing hypermobile EDS and joint hypermobility in ME/CFS — the isometric resistance protocols that work, circadian collagen cofactor timing (vitamin C, alpha-ketoglutarate), glycine and proline for synthesis, doxycycline for MMP-9 inhibition, emerging therapies (tVNS, HIF-1α inhibitors, TGF-β1 blockade), CCI surgery, expected results, and a worked structured-trial example."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-04"
 categories: [Treatment, Hypermobility, hEDS, ME/CFS, Connective Tissue]
 ---
 

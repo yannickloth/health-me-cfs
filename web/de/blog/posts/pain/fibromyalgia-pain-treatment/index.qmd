@@ -2,7 +2,7 @@
 title: "Fibromyalgie Artikel 2: Fibromyalgie-Muster-Schmerz bei ME/CFS behandeln — LDN, SNRIs, COX-2-Inhibitoren, PEA und was es bedeutet, wenn der Schmerz nicht aufhört"
 description: "Ein allgemeinverständlicher Leitfaden zur Behandlung von Fibromyalgie-Muster-Schmerz bei ME/CFS — niedrig dosiertes Naltrexon für mikrogliabedingtes TLR4, SNRIs für absteigende Hemmung, Gabapentinoide für zentrale Verstärkung, COX-2-Inhibitoren für die PGE2/TRPV1-Schleife, PEA für multimodalen Schmerz, NMDA-Antagonisten für schwere Fälle, erwartete Ergebnisse und die ehrliche Diskussion 'was, wenn nichts hilft'."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-09"
 categories: [Behandlung, Fibromyalgie, Schmerz, ME/CFS]
 lang: de
 ---

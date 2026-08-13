@@ -2,7 +2,7 @@
 title: "MCAS Article 3 : Quand l'antihistaminique ne marche pas — ce que cela dit et ne dit pas sur le MCAS et l'EM/SFC"
 description: "La question honnête et inconfortable : vous avez essayé un traitement des mastocytes pour votre EM/SFC et il n'a pas aidé. Cet article explique pourquoi des analyses de sang normales n'excluent pas un problème d'histamine, pourquoi un seul médicament qui échoue prouve peu, la différence entre l'intolérance à l'histamine et le MCAS, le 'cliquet d'amplification' de la longue maladie, et quoi faire ensuite."
 author: "Yannick Loth"
-date: "2026-08-10"
+date: "2026-07-31"
 categories: [Traitement, MCAS, EM/SFC, Erreur de diagnostic]
 lang: fr
 ---

@@ -2,7 +2,7 @@
 title: "MCAS Artikel 3: Wenn das Antihistaminikum nicht wirkt — was es über MCAS und ME/CFS sagt und nicht sagt"
 description: "Die ehrliche, unbequeme Frage: Sie haben die Mastzellbehandlung für Ihre ME/CFS versucht, und sie hat nicht geholfen. Dieser Artikel erklärt, warum normale Bluttests ein Histaminproblem nicht ausschließen, warum ein versagendes Medikament wenig beweist, den Unterschied zwischen Histaminintoleranz und MCAS, die 'Verstärkungsratsche' langer Krankheit und was als Nächstes zu tun ist."
 author: "Yannick Loth"
-date: "2026-08-10"
+date: "2026-07-31"
 categories: [Behandlung, MCAS, ME/CFS, Fehldiagnose]
 lang: de
 ---

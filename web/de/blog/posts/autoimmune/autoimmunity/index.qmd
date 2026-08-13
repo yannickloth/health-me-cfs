@@ -2,7 +2,7 @@
 title: "Autoimmunität Artikel 1: GPCR-Autoantikörper, immunologische Attacken auf das Nervensystem und die Antikörper, die mit Ihren Rezeptoren sprechen, bei ME/CFS"
 description: "Ein allgemeinverständlicher Leitfaden zur Autoimmunität bei ME/CFS — warum Antikörper, die auf die eigenen Rezeptoren abzielen (β2-adrenerg, muskarinisch M3/M4), Dysautonomie auslösen können, die stark assayabhängige berichtete Prävalenz, die auf ein Messproblem hindeutet, warum der Antikörpertiter nicht der Krankheitsschwere entspricht, das Fc-Glykoprofil-Gate, der postinfektiöse Auslöser und der Unterschied zwischen klassischer Autoimmunität und Autoimmunität zusätzlich zu ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-14"
 categories: [Autoimmunität, GPCR, ME/CFS, Pathophysiologie]
 lang: de
 ---

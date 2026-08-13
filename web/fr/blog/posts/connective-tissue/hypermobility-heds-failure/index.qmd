@@ -2,7 +2,7 @@
 title: "Hypermobilité Article 3 : Quand le traitement ne fonctionne pas — ce que l'échec signifie pour l'hypermobilité sur fond d'EM/SFC"
 description: "La discussion honnête et inconfortable sur l'échec du traitement de l'hypermobilité dans l'EM/SFC — pourquoi la physiothérapie ne peut pas tout réparer, le piège déconditionnement-MPE, le point de basculement de la rigidité de la matrice, les prédictions falsifiables, et ce que vous pouvez réellement faire quand le tissu lâche est permanent."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-05"
 lang: fr
 categories: [Traitement, Hypermobilité, hEDS, EM/SFC, Échec du traitement]
 ---

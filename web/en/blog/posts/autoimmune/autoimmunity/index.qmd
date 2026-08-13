@@ -2,7 +2,7 @@
 title: "Autoimmunity Article 1: GPCR Autoantibodies, Immune Attack on the Nervous System, and the Antibodies That Talk to Your Receptors in ME/CFS"
 description: "A plain-language guide to autoimmunity in ME/CFS — why antibodies targeting your own receptors (β2-adrenergic, muscarinic M3/M4) may drive dysautonomia, the wildly assay-dependent reported prevalence that signals a measurement problem, why antibody titre does not equal disease severity, the Fc-glycoprofile gate, the post-infectious trigger, and the difference between classical autoimmunity and autoimmunity on top of ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-14"
 categories: [Autoimmunity, GPCR, ME/CFS, Pathophysiology]
 ---
 

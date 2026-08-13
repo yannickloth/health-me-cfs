@@ -2,7 +2,7 @@
 title: "Hypermobility Article 3: When the Treatment Doesn't Help — What Failure Means for Hypermobility on Top of ME/CFS"
 description: "The honest, uncomfortable discussion about hypermobility treatment failure in ME/CFS — why physiotherapy can't fix everything, the deconditioning-PEM trap, the matrix-stiffness tipping point, the falsifiable predictions, and what you can actually do when the loose tissue is permanent."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-05"
 categories: [Treatment, Hypermobility, hEDS, ME/CFS, Treatment Failure]
 ---
 

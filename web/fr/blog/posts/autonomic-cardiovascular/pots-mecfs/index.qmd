@@ -2,7 +2,7 @@
 title: "POTS Article 1 : Le POTS et le cœur qui s'emballe quand vous vous levez — ce que cela signifie avec l'EM/SFC"
 description: "Un guide en langage clair sur le syndrome de tachycardie orthostatique posturale et son chevauchement avec l'EM/SFC — pourquoi se lever fait sprinter votre cœur, pourquoi le volume sanguin est faible mais que l'hormone qui le répare est paradoxalement déréglée, comment les mastocytes et le tissu conjonctif alimentent le problème, et la différence entre le POTS seul et le POTS superposé à l'EM/SFC."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-01"
 lang: fr
 categories: [POTS, EM/SFC, Dysautonomie, Pathophysiologie]
 ---

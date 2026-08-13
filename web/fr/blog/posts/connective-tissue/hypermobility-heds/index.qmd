@@ -2,7 +2,7 @@
 title: "Hypermobilité Article 1 : Le SED hypermobile et la connexion du tissu conjonctif avec l'EM/SFC — pourquoi un tissu souple alimente la cascade"
 description: "Un guide en langage clair sur le syndrome d'Ehlers-Danlos hypermobile et son chevauchement avec l'EM/SFC — pourquoi un tissu souple ne tient pas ensemble, les cinq voies mécanistiques reliant un tissu conjonctif lâche à une maladie systémique, comment les mastocytes peuvent dégrader activement le collagène (hypermobilité acquise), la génétique TNXB, l'axe de la neurodivergence, et la différence entre être hypermobile seul et être hypermobile sur fond d'EM/SFC."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-03"
 lang: fr
 categories: [Hypermobilité, hEDS, EM/SFC, Pathophysiologie, Tissu conjonctif]
 ---

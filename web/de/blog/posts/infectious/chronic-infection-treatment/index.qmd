@@ -2,7 +2,7 @@
 title: "Chronische Infektion Artikel 2: Antivirale Mittel, Immunmodulatoren und was es bedeutet, wenn sie bei ME/CFS nicht wirken"
 description: "Ein allgemeinverständlicher Leitfaden zur Behandlung chronischer viraler Infektion bei ME/CFS — Valacyclovir für EBV, Valganciclovir für HHV-6/CMV, Cimetidin als Immunmodulator, Mastzell-Stabilisatoren zur Unterbrechung des EBV→MMP-9-Pfads, warum abortive lytische Replikation antivirale Mittel weniger wirksam macht als erwartet, und die ehrliche Diskussion 'was, wenn nichts hilft'."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-13"
 categories: [Behandlung, Chronische Infektion, Antivirale, ME/CFS]
 lang: de
 ---

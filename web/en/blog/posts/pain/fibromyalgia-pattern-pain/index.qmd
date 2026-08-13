@@ -2,7 +2,7 @@
 title: "Fibromyalgia Article 1: The Pain That Isn't Muscle — Fibromyalgia-Pattern Pain in ME/CFS and Why Your Nervous System Turned the Gain Up"
 description: "A plain-language guide to fibromyalgia-pattern pain and how it overlaps with ME/CFS — why pain arrives without tissue damage, how TRPV1 and TRPA1 channels are stuck open, the COX-2/PGE2 feed-forward loop that makes body heat feel like burning, the nociplastic-neuropathic hybrid, and the difference between fibromyalgia on its own and fibromyalgia-pain on top of ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-08"
 categories: [Fibromyalgia, Pain, ME/CFS, Pathophysiology]
 ---
 

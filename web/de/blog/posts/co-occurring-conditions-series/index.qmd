@@ -2,7 +2,7 @@
 title: "Die Erkrankungen, die mit ME/CFS reisen — eine Serie"
 description: "ME/CFS reist selten allein. Mastzellaktivierung, POTS, Hypermobilität, Fibromyalgie, Darmprobleme und Migräne treten weit häufiger gemeinsam auf als durch Zufall. Dies ist die Landingpage einer Serie in einfacher Sprache zu jeder begleitenden Erkrankung: was sie ist, wie sie sich auf ME/CFS bezieht, die Behandlungen und — immer — was es bedeutet, wenn die Behandlung nicht wirkt."
 author: "Yannick Loth"
-date: "2026-08-10"
+date: "2026-07-28"
 categories: [ME/CFS, Serie, Komorbiditäten]
 lang: de
 ---

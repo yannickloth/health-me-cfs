@@ -2,7 +2,7 @@
 title: "Chained Together: How the Amplifiers Become One Disease in ME/CFS"
 description: "The synthesis capstone of the co-occurring conditions series — how mast-cell activation, POTS, hypermobility, small fiber neuropathy, chronic infection, GI dysmotility, autoimmunity, and fibromyalgia-pain do not simply co-occur but amplify one another through feedback loops that turn separate diagnoses into one machine. The Septad as interacting amplifiers, the amplification ratchet, and the clinical imperative of multi-target treatment."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-16"
 categories: [ME/CFS, Synthesis, Comorbidities, Septad, Pathophysiology]
 ---
 

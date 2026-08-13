@@ -2,7 +2,7 @@
 title: "POTS Artikel 2: Behandlungen für POTS und Dysautonomie bei ME/CFS — Salz, Fludrocortison, Midodrin, Ivabradin und was es bedeutet, wenn sie nicht wirken"
 description: "Ein allgemeinverständlicher Leitfaden zu den Medikamenten für POTS und orthostatische Intoleranz bei ME/CFS — die Behandlungsleiter von Salz und Kompression über Fludrocortison, Midodrin, Ivabradin, Betablocker bis Pyridostigmin, das Medikament, das Sie wahrscheinlich nicht nehmen sollten (die SSRI-Falle), erwartete Ergebnisse und die ehrliche Diskussion 'was, wenn die Medikamente nicht wirken'."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-02"
 categories: [Behandlung, POTS, Dysautonomie, Pharmakologie]
 lang: de
 ---

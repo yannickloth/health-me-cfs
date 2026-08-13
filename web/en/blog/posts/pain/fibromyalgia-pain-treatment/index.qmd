@@ -2,7 +2,7 @@
 title: "Fibromyalgia Article 2: Treating Fibromyalgia-Pattern Pain in ME/CFS — LDN, SNRIs, COX-2 Inhibitors, PEA, and What It Means When the Pain Doesn't Stop"
 description: "A plain-language guide to treating fibromyalgia-pattern pain in ME/CFS — low-dose naltrexone for microglial TLR4, SNRIs for descending inhibition, gabapentinoids for central amplification, COX-2 inhibitors for the PGE2/TRPV1 loop, PEA for multi-modal pain, NMDA antagonists for severe cases, expected results, and the honest 'what if nothing helps' discussion."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-09"
 categories: [Treatment, Fibromyalgia, Pain, ME/CFS]
 ---
 

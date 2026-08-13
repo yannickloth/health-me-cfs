@@ -2,7 +2,7 @@
 title: "SFN Article 1: Small Fiber Neuropathy — When the Wiring Itself Is Wrong in ME/CFS"
 description: "A plain-language guide to small fiber neuropathy and how it overlaps with ME/CFS — why the nerves themselves are damaged yet over-react, how mast cells attack nerve endings through tryptase and PAR2, the visceral-vs-somatic distinction, the DRG autoimmune hypothesis, and the difference between SFN on its own and SFN on top of ME/CFS."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-06"
 categories: [SFN, ME/CFS, Neuropathy, Pathophysiology]
 ---
 

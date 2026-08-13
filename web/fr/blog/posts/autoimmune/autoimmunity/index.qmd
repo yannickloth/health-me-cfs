@@ -2,7 +2,7 @@
 title: "Auto-immunité Article 1 : Auto-anticorps anti-RCPG, attaque immunitaire du système nerveux et anticorps qui parlent à vos récepteurs dans l'EM/SFC"
 description: "Un guide en langage clair sur l'auto-immunité dans l'EM/SFC — pourquoi des anticorps ciblant vos propres récepteurs (β2-adrénergiques, muscariniques M3/M4) peuvent provoquer une dysautonomie, la prévalence rapportée extrêmement dépendante du dosage qui signale un problème de mesure, pourquoi le titre d'anticorps ne correspond pas à la gravité de la maladie, la porte du glycoprofil Fc, le déclencheur post-infectieux, et la différence entre l'auto-immunité classique et l'auto-immunité sur fond d'EM/SFC."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-14"
 lang: fr
 categories: [Auto-immunité, RCPG, EM/SFC, Pathophysiologie]
 ---

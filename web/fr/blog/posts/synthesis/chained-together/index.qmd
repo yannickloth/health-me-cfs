@@ -2,7 +2,7 @@
 title: "Chained Together : Comment les amplificateurs deviennent une seule maladie dans l'EM/SFC"
 description: "Le point culminant de synthèse de la série sur les conditions co-occurrentes — comment l'activation des mastocytes, le POTS, l'hypermobilité, la neuropathie des petites fibres, l'infection chronique, la dysmotilité gastro-intestinale, l'auto-immunité et la douleur fibromyalgique ne co-occurrent pas simplement mais s'amplifient mutuellement par des boucles de rétroaction qui transforment des diagnostics séparés en une seule machine. La Septade comme amplificateurs en interaction, le cliquet d'amplification et l'impératif clinique du traitement multi-cibles."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-16"
 lang: fr
 categories: [EM/SFC, Synthèse, Comorbidités, Septade, Pathophysiologie]
 ---

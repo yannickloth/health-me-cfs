@@ -2,7 +2,7 @@
 title: "Chained Together: Wie die Verstärker bei ME/CFS zu einer Krankheit werden"
 description: "Der Synthese-Abschluss der Serie über ko-okkurrente Erkrankungen — wie Mastzellaktivierung, POTS, Hypermobilität, Small-Fiber-Neuropathie, chronische Infektion, GI-Dysmotilität, Autoimmunität und Fibromyalgie-Schmerz nicht einfach ko-okkurren, sondern sich gegenseitig durch Rückkopplungsschleifen verstärken, die getrennte Diagnosen in eine Maschine verwandeln. Die Septade als interagierende Verstärker, die Verstärkungs-Ratsche und der klinische Imperativ der Multitarget-Behandlung."
 author: "Yannick Loth"
-date: "2026-08-12"
+date: "2026-08-16"
 categories: [ME/CFS, Synthese, Komorbiditäten, Septade, Pathophysiologie]
 lang: de
 ---

@@ -2,7 +2,7 @@
 title: "MCAS Article 2 : Les antihistaminiques pour l'EM/SFC et le MCAS — H1 vs H2, et pourquoi votre médecin augmente la dose"
 description: "Un guide en langage clair sur les médicaments utilisés pour l'activation des mastocytes dans l'EM/SFC — la vraie différence entre les antihistaminiques H1 et H2, où vivent l'histamine et ses récepteurs, les stabilisateurs de mastocytes, les symptômes que les médicaments peuvent toucher et ceux qu'ils ne touchent pas, et pourquoi des doses supérieures à la normale sont parfois nécessaires."
 author: "Yannick Loth"
-date: "2026-08-10"
+date: "2026-07-30"
 categories: [Traitement, MCAS, Pharmacologie]
 lang: fr
 ---
