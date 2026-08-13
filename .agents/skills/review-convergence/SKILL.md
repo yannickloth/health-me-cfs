@@ -21,7 +21,6 @@ For LaTeX-specific review (scientific rigor, citation checks, `nix build`) → u
 - Convergence = 2 **consecutive** zero-finding rounds, not just one clean pass. Any correction — however small — resets the consecutive-clean counter to 0.
 - For non-LaTeX file types (Markdown, YAML, config, agent files), do **not** run `nix build` or any build tool as a validation step — only review the files themselves.
 - Do not invent content when fixing — if a finding requires domain knowledge or factual claims you cannot verify, flag it for human review instead.
-- Checkpoint path: `.opencode/` directory must exist before writing.
 
 ## Protocol
 
@@ -52,11 +51,14 @@ Per round (R1, R2, ...):
 
 ## Checkpoint
 
-Every 3 rounds → write continuation checkpoint to `.agents/context/review-checkpoint-convergence.md`:
-- Scope + current round number
-- Cumulative findings by category
-- Remaining known issues
-- Exact next steps to resume
+Every 3 rounds → write a continuation checkpoint (scope, current round, cumulative
+findings by category, remaining known issues, exact next steps to resume) to an
+**ephemeral, out-of-repo** location — never into the working tree, `tmp/`, or any
+tracked config directory:
+
+- Prefer `$XDG_RUNTIME_DIR/review-convergence-checkpoint.md` (tmpfs, user-private).
+- Fallback if `$XDG_RUNTIME_DIR` is unset: `$TMPDIR` or `~/.cache/review-convergence-checkpoint.md`.
+- Checkpoint is a throwaway resume aid. Do not commit it; delete it once the loop converges.
 
 ## Constraints
 
