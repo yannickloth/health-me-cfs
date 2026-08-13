@@ -78,6 +78,15 @@
 
 **Phase 11:** Lightweight tier (3 envs, single chapter ch08, no treatment/clinical content). Pass 1 (devil-advocate-auditor): 3 CRITICAL, 8 HIGH, 3 MEDIUM, 2 LOW. Fixed ALL CRITICAL+HIGH: convergence→"compatible with, not establish"; imported directional map from @spec:anellovirus-hyperimmune; scoped null to non-tissue compartments; certainty 0.40→0.25 (registry + env); consequence made conditional; bidirectional cross-links to sibling; named hospitalization/steroid confound; "abundance" language; significant-finding attribution. Pass 2 (devil-advocate re-review): 3/3 CRITICAL resolved, 8/8 HIGH resolved, 0 new. CONVERGED. Build PASS (fixed `p\<0.001` unclosed-label in registry).
 
+**Phase 12:** changelog entry added (Version 7.17) to `shared/changelog-tspo-pet-section.typ`. Build PASS.
+
+**Phase 12.5:** completion gate — ledger appended to plan. 23 RAN, 5 LEGIT-SKIP, 0 WAIVED, 0 OMISSION. Build PASS (0 error lines).
+
+**Phase 13:** committed `f9c86f1e` (content: integrate anelloviridae and viral reactivation in ME/CFS), 17 files. Per user "commit everything staged" decision, bundles parallel cycle's shared-file edits + autoimmunity.bib/treatments.bib brace fixes. Post-commit build PASS (0 error lines). My entries verified present in HEAD (viral-infection 2, registry 2, changelog 1, glossary 6). No history rewrite; parallel cycle's commits intact. Remaining foreign files (web/blog qmd, connective-tissue.bib, styles.css) left unstaged for their owning session.
+
+## Integration Complete
+Topic status: ✅ done. Commit f9c86f1e. Integration guide path: ops/plans/anellovirus-viral-reactivation-mecfs-integration-plan.md + ops/research/anellovirus-viral-reactivation-mecfs-literature-summary.md + ops/brainstorms/brainstorm-anellovirus-viral-reactivation-mecfs-2026-08-13.md.
+
 ## Certainty Bump Log
 (hypothesis | Phase | Old cert | New cert | Δ | Reason)
 
