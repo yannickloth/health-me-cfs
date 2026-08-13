@@ -71,7 +71,7 @@ Low-dose cofactors are generally safe; high-dose ascorbic acid can cause gastroi
 
 - **Glycine** — 3–5 g daily, taken in divided doses. Glycine is rate-limiting for collagen synthesis and is also an inhibitory neurotransmitter that may improve sleep quality. Generally well tolerated.
 - **Proline** — 500 mg–1 g daily. The rationale is that collagen's high proline content makes it a plausible rate-limiting precursor in high-turnover states.
-- **Copper and vitamin B6** — cofactors for lysyl oxidase (LOX), the enzyme that performs the final collagen and elastin crosslinking step. A subset of acquired hypermobility may involve functional LOX deficiency, making copper and B6 status relevant. Copper supplementation should only be done with measured deficiency — excess copper is toxic.
+- **Copper and vitamin B6** — cofactors for lysyl oxidase (LOX), the enzyme that performs the final collagen and elastin crosslinking step. A subset of acquired hypermobility may involve functional LOX deficiency, making copper and B6 status relevant. Copper supplementation should only be done with measured deficiency — excess copper is toxic. B6 should be kept at a modest dose (well under 50 mg/day): high-dose B6 (above roughly 100 mg/day) can itself cause a sensory neuropathy, so monitor levels rather than supplementing high-dose B6 blindly.
 
 The honest limits: no trial has tested glycine or proline supplementation for hypermobility in ME/CFS. The precursor rationale is biochemically correct — if you need to synthesise more collagen, you need glycine and proline — but whether increasing precursor intake increases collagen synthesis in hypermobile patients with ME/CFS is unknown. These are low-risk, mechanistically-plausible interventions. They are not proven.
 

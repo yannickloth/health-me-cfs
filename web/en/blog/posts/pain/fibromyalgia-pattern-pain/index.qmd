@@ -22,8 +22,8 @@ This article is the conceptual overview. What fibromyalgia-pattern pain actually
 
 ## The short version, if you only read one part
 
-- **Fibromyalgia** is a chronic pain disorder defined by widespread pain, fatigue, and cognitive symptoms — but unlike ME/CFS, it lacks PEM as a cardinal feature. The overlap with ME/CFS is 47–76%, making it the most common co-occurring pain condition [@RamirezMorales2022overlap].
-- **Central sensitisation** — the spinal cord and brain amplifying pain signals — is present in 84% of ME/CFS and 95% of fibromyalgia. The gain is turned up, so ordinary sensory input (light touch, warmth, pressure) is processed as pain [@Nijs2021sensitization].
+- **Fibromyalgia** is a chronic pain disorder defined by widespread pain, fatigue, and cognitive symptoms — but unlike ME/CFS, it lacks PEM as a cardinal feature. The overlap with ME/CFS is substantial — a meta-analysis reports roughly 47% on average, but with very high heterogeneity between studies (I²=98%) because diagnostic criteria vary widely, so individual study estimates range from roughly 47% up to the 70s% [@RamirezMorales2022overlap].
+- **Central sensitisation** — the spinal cord and brain amplifying pain signals — is widely regarded as a dominant mechanism in both conditions, with QST-based studies reporting it in a large majority of patients. One honest caveat the rest of this series would insist on: central sensitisation is inferred from psychophysical testing (quantitative sensory testing), not a directly measured biomarker, and prevalence estimates depend on the QST thresholds used — the same measurement-skepticism this series applies to POTS thresholds and GPCR assays applies here too [@Nijs2021sensitization].
 - **TRPV1 and TRPA1 channels on sensory nerves are stuck open.** TRPV1 is the heat-and-capsaicin receptor — normally activated at ~43°C, but in the sensitised state, inflammatory prostaglandins lower its threshold to body temperature (~35°C), making normal warmth painful. TRPA1 is the oxidative-stress sensor — activated by ROS, H₂O₂, and reactive aldehydes that accumulate during PEM [@Macpherson2007].
 - **The pain is not "in your head" — it is in your ion channels, your spinal cord, and your small nerve fibres.** And in ME/CFS specifically, it is amplified by post-exertional mechanisms (ASIC3, P2X4, TLR4) that do not operate in fibromyalgia alone — which is why PEM makes the pain worse.
 - **The distinction matters.** Fibromyalgia-alone: treat central amplification. Fibromyalgia-on-ME/CFS: treat central amplification PLUS the PEM-driven re-sensitisation that keeps reactivating the pain after every crash.
@@ -92,7 +92,7 @@ One of the primary document's central insights about pain in ME/CFS is that most
 
 ## The bottom line
 
-Fibromyalgia-pattern pain is real in ME/CFS — 47–76% of patients meet criteria — and it is driven by central sensitisation (84%), stuck-open TRPV1/TRPA1 channels, a self-sustaining COX-2/PGE₂ loop, and PEM-driven re-sensitisation that fibromyalgia alone does not have [@RamirezMorales2022overlap][@Nijs2021sensitization].
+Fibromyalgia-pattern pain is real in ME/CFS — a large share of patients (commonly ~47%, ranging higher with looser criteria) meet criteria — and it is driven by central sensitisation (widely regarded as dominant in the great majority), stuck-open TRPV1/TRPA1 channels, a self-sustaining COX-2/PGE₂ loop, and PEM-driven re-sensitisation that fibromyalgia alone does not have [@RamirezMorales2022overlap][@Nijs2021sensitization].
 
 The honest read: the pain is an amplifier of the broader energy-immune disorder, not the core disease. Treating it improves quality of life; it does not fix the crash. The [treatment companion article](../fibromyalgia-pain-treatment/index.qmd) covers the multi-modal approach — LDN, SNRIs, gabapentinoids, COX-2 inhibitors, PEA, and the PEM-conscious dosing that distinguishes ME/CFS pain management from standard fibromyalgia care.
 

@@ -23,9 +23,9 @@ This article is the conceptual overview. What small fiber neuropathy actually is
 ## The short version, if you only read one part
 
 - **SFN** is damage to the smallest nerve fibres — the thinly myelinated A-delta and unmyelinated C-fibres that carry pain, temperature, and autonomic signals. The gold-standard diagnosis is a skin biopsy measuring intraepidermal nerve fibre density (IENFD).
-- **SFN is common in ME/CFS.** Prevalence estimates range from 30–38% biopsy-confirmed by standardised criteria to up to 80% in cohorts overlapping with fibromyalgia and mast-cell disorders. Pooled prevalence in fibromyalgia is ~49% by meta-analysis [@Grayston2019sfn].
+- **SFN is common in ME/CFS.** Estimates of biopsy-confirmed SFN in ME/CFS have been reported in a broad range (commonly cited around 30–50%, depending on cohort and criteria; the figure is contested), and it rises to up to 80% in cohorts overlapping with mast-cell disorders [@Oaklander2016autoimmuneSFN][@Novak2022]. Pooled prevalence in fibromyalgia is ~49% by meta-analysis [@Grayston2019sfn].
 - **Three mechanism families converge:** (1) mast-cell neurotoxicity — tryptase activates PAR2 on Schwann cells and sensory neurons, lowering pain thresholds; (2) microvascular ischemia — vasa nervorum endothelial dysfunction starves small fibres of oxygen; (3) IgG-mediated autoimmunity targeting the dorsal root ganglia — passive transfer of patient IgG reduces IENFD in mice.
-- **SFN is usually a downstream amplifier in ME/CFS.** It explains the pain and the dysautonomia, and it links directly to POTS (31% of SFN patients meet POTS criteria), MCAS (80% of mast-cell disorder patients have SFN), and hEDS (24/24 hEDS patients in one study had SFN) [@Novak2022].
+- **SFN is usually a downstream amplifier in ME/CFS.** It explains the pain and the dysautonomia, and it links directly to POTS (31% of SFN patients meet POTS criteria [@Azcue2023sfn]), MCAS (80% of mast-cell disorder patients have SFN [@Novak2022]), and hEDS (24/24 hEDS patients in one study had SFN [@Cazzato2016sfn]).
 - **The paradoxical hypersensitivity despite nerve damage** — burning pain from a light touch — is a hallmark. SFN removes the sensory gate, and mast-cell mediators further sensitise the remaining fibres.
 
 ---
@@ -50,7 +50,7 @@ PAR2 activation has two consequences. First, it sensitises the nerve terminal �
 
 **CADM1** adds a physical dimension. This cell-adhesion molecule physically couples mast cells to sensory nerve endings. In the presence of CADM1, mast-cell degranulation rises several-fold on nerve contact, and IL-6 release triples — the adhesion itself amplifies the signal [@Magadmi2019].
 
-**Prevalence of the link:** approximately 80% of patients with mast-cell disorders have SFN on skin biopsy, and among POTS patients with SFN, GI symptom severity correlates with neuropathy severity — suggesting the same small-fibre damage explains both the skin pain and the gut dysmotility [@Ekman2025SFNpots].
+**Prevalence of the link:** approximately 80% of patients with mast-cell disorders have SFN on skin biopsy [@Novak2022], and among POTS patients with SFN, GI symptom severity correlates with neuropathy severity [@Ekman2025SFNpots] — suggesting the same small-fibre damage explains both the skin pain and the gut dysmotility.
 
 ### Microvascular ischemia: the vasa nervorum problem
 
@@ -60,7 +60,7 @@ The finding that SFN in ME/CFS is often **non-length-dependent** — affecting t
 
 ### IgG-mediated autoimmunity: the DRG hypothesis
 
-The strongest evidence for an autoimmune mechanism comes from passive-transfer experiments. When IgG purified from fibromyalgia or Long COVID patients is injected into mice, the mice develop reduced IENFD and pain behaviours — the human antibodies alone are sufficient to reproduce the neuropathy [@Goebel2021passiveTransferFM]. In Long COVID, DRG-binding IgG has been specifically identified, and IVIG — which dilutes pathogenic antibodies and provides immunomodulatory Fc-glycans — has shown a signal in the non-length-dependent subtype [@Mignolet2026passiveTransferLC].
+The strongest evidence for an autoimmune mechanism comes from passive-transfer experiments. When IgG purified from fibromyalgia or Long COVID patients is injected into mice, the mice develop reduced IENFD and pain behaviours — the human antibodies alone are sufficient to reproduce the neuropathy [@Goebel2021passiveTransferFM][@Mignolet2026passiveTransferLC]. In Long COVID, DRG-binding IgG has been specifically identified, and IVIG — which dilutes pathogenic antibodies and provides immunomodulatory Fc-glycans — has shown a signal in autoimmune (including non-length-dependent) SFN [@Liu2020IVIG].
 
 The hypothesis, developed extensively in the primary document, is that IgG targeting neuronal antigens in the DRG — where the blood-nerve barrier is naturally fenestrated and permeable to circulating antibodies — causes a cell-body-level injury to sensory neurons. The non-length-dependent pattern follows directly: if the cell body is damaged, all its peripheral branches are affected simultaneously, regardless of distance from the cell body [@Loth2026website].
 
@@ -101,7 +101,7 @@ SFN sits at the crossroads of four Septad conditions:
 
 ## The bottom line
 
-Small fiber neuropathy is real in ME/CFS — 30–38% biopsy-confirmed, up to 80% in overlapping cohorts — and it explains the burning pain, the temperature dysregulation, and part of the autonomic dysfunction that so many patients describe [@Oaklander2022SFN][@Grayston2019sfn]. Three mechanisms converge: mast-cell tryptase→PAR2 nerve sensitisation, microvascular ischemia of the vasa nervorum, and IgG-mediated DRG autoimmunity — and they are not mutually exclusive. The same patient can have all three [@Loth2026website].
+Small fiber neuropathy is real in ME/CFS — commonly reported around 30–50% biopsy-confirmed depending on cohort and criteria, higher (up to 80%) in cohorts overlapping with mast-cell disorders — and it explains the burning pain, the temperature dysregulation, and part of the autonomic dysfunction that so many patients describe [@Oaklander2016autoimmuneSFN][@Novak2022]. Three mechanisms converge: mast-cell tryptase→PAR2 nerve sensitisation, microvascular ischemia of the vasa nervorum, and IgG-mediated DRG autoimmunity — and they are not mutually exclusive. The same patient can have all three [@Loth2026website].
 
 SFN is usually a downstream amplifier, not the cause, and treating the pain does not fix the energy failure. But objective nerve-fibre loss on biopsy is among the strongest pieces of evidence that the symptoms are biologically real — and the treatment companion covers the pharmacological, IVIG, and mast-cell–stabilisation options that target different points in the nerve-damage cascade.
 

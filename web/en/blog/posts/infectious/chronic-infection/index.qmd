@@ -8,7 +8,7 @@ categories: [Chronic Infection, EBV, HHV-6, ME/CFS, Pathophysiology]
 
 The gland in your neck has been up since you "recovered" from mono years ago. You flare when you are stressed — the sore throat returns, the lymph nodes ache, the fatigue deepens — and you are told it is "past infection." Your antibody tests show high titres to EBV and HHV-6, but the infectious-disease specialist says that only means you were exposed, not that the virus is active. Something is still talking to your immune system.
 
-Now add the rest of ME/CFS: the PEM, the unrefreshing sleep, the brain fog. About 70% of ME/CFS cases follow an acute infection — EBV mononucleosis, HHV-6 roseola, tick-borne Borrelia, enterovirus, SARS-CoV-2 — and the question that has haunted the field for decades is whether the pathogen is still there, still driving the disease, or whether it lit a fire and walked away [@Blomberg2019HerpesvirusNull].
+Now add the rest of ME/CFS: the PEM, the unrefreshing sleep, the brain fog. About 70% of ME/CFS cases follow an acute infection — EBV mononucleosis, HHV-6 roseola, tick-borne Borrelia, enterovirus, SARS-CoV-2 — and the question that has haunted the field for decades is whether the pathogen is still there, still driving the disease, or whether it lit a fire and walked away. The strongest prospective precedent is the Dubbo cohort, where a substantial share of people with EBV, Ross River virus, or Q-fever infections developed a post-infective fatigue syndrome [@Hickie2006postinfectious].
 
 This article is the conceptual overview. What EBV, HHV-6, and tick-borne pathogens actually do in ME/CFS, the abortive-lytic-replication model that explains why antiviral antibodies are high but viral load is undetectable, the EBV→mast cell→MMP-9 pathway, the poly-herpesvirus co-reactivation pattern, and the difference between active infection on its own and chronic immune stimulation on top of ME/CFS. The treatments — antivirals, immunomodulators, and why the evidence is thinner than the mechanisms — are covered in the [companion treatment article](../chronic-infection-treatment/index.qmd).
 
@@ -22,7 +22,7 @@ This article is the conceptual overview. What EBV, HHV-6, and tick-borne pathoge
 
 ## The short version, if you only read one part
 
-- **~70% of ME/CFS cases follow an acute infection**, and the Big Four are EBV (mononucleosis → 9–11% develop ME/CFS), HHV-6 (roseola → neurotropic, integrates into chromosomes), tick-borne Borrelia (Lyme → 10–20% develop PTLDS), and SARS-CoV-2 (>50% of Long COVID meet ME/CFS criteria).
+- **A large share of ME/CFS cases follow an acute infection** (commonly cited around 70%, though the exact proportion is debated and retrospective), and the Big Four are EBV/mononucleosis, HHV-6 (roseola → neurotropic, integrates into chromosomes), tick-borne Borrelia (Lyme), and SARS-CoV-2 — each of which is documented to precede a subset of ME/CFS and post-infectious fatigue cases.
 - **The central puzzle is abortive lytic replication (ALR).** The virus enters the lytic cycle — expressing immunostimulatory proteins — but stops before producing virions. There is no measurable viral load in blood, but the viral proteins (dUTPases, immediate-early genes) are still being made, and the immune system still sees them. This explains why antibody titres are high but PCR is negative [@Cox2022dUTPaseMECFS].
 - **EBV directly activates mast cells.** Recombinant EBV protein added to human mast cells increased MMP-9 release nearly sixfold (2,464 vs 433 pg/ml) — and MMP-9 degrades the blood-brain barrier, allowing peripheral inflammatory mediators to access the brain [@Chinnappan2026IL11MMP9].
 - **Poly-herpesvirus co-reactivation is the rule, not the exception.** 72.5% of ME/CFS patients had elevated antibodies to multiple herpesvirus dUTPases vs 31% of controls. EBV, HHV-6, CMV, and VZV can reactivate together — the immune system is fighting a multi-front viral war with depleted resources [@Palomo2026herpesvirus].
@@ -65,13 +65,13 @@ In ME/CFS, several findings point to HHV-6 involvement:
 
 - **miR-aU14 meets mitochondria.** HHV-6 encodes a microRNA, miR-aU14, that inhibits the host's miR-30 family. miR-30 normally suppresses p53 and DRP1 — removing that inhibition activates p53-dependent DRP1 translocation to mitochondria, causing **mitochondrial fragmentation**. The virus does not infect mitochondria directly. It sends a microRNA that tells the cell to break its own mitochondria [@Schreiner2020HHV6MitoME].
 - **Post-mortem neuroinvasion.** HHV-6 miR-aU14 was found in the choroid plexus, hippocampus, amygdala, and dorsal root ganglia of ME/CFS patients at autopsy — and was absent in 24 controls. The sample was n=3, so this is a finding, not a settled fact. But it places a viral nucleic acid in the exact brain regions implicated in ME/CFS cognitive, autonomic, and sensory symptoms.
-- **Prevalence.** Latent or persistent HHV-6 is found in 46.7% of ME/CFS patients vs 10% of controls.
+- **Prevalence.** Latent or persistent HHV-6 has been reported in around 47% of ME/CFS patients vs roughly 10% of controls in some studies (single-study figures; ranges vary by assay and definition).
 
 ---
 
 ## Tick-borne disease: Lyme, Bartonella, Babesia
 
-**Lyme disease (Borrelia burgdorferi)** causes acute infection treated with 2–4 weeks of antibiotics. In 10–20% of cases, symptoms persist for months to years — post-treatment Lyme disease syndrome (PTLDS). PTLDS shares 26 of 29 core ME/CFS symptoms (fatigue, cognitive dysfunction, musculoskeletal pain, sleep disturbance), making the two conditions nearly clinically indistinguishable in the post-infectious phase.
+**Lyme disease (Borrelia burgdorferi)** causes acute infection treated with 2–4 weeks of antibiotics. In 10–20% of cases, symptoms persist for months to years — post-treatment Lyme disease syndrome (PTLDS). PTLDS is reported to overlap heavily with ME/CFS on the core symptom set (fatigue, cognitive dysfunction, musculoskeletal pain, sleep disturbance), making the two conditions nearly clinically indistinguishable in the post-infectious phase.
 
 The mechanism debate mirrors the EBV debate: is there persistent Borrelia (antibiotic-refractory reservoirs, biofilm-protected spirochetes) or is PTLDS a post-infectious immune dysregulation that outlasts the pathogen? The evidence for persistent infection — culture, PCR, xenodiagnosis — exists but is inconsistent and technically challenging. The evidence for post-infectious immune dysregulation — elevated cytokines, T-cell exhaustion, autoantibody generation — is robust and mirrors ME/CFS [@Nawrocki2025LymeSymptomsCDC].
 

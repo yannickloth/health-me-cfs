@@ -42,7 +42,7 @@ Pregabalin (150–450 mg daily in divided doses) has the strongest fibromyalgia 
 
 ### COX-2 inhibitors: breaking the PGE₂/TRPV1 loop
 
-If the COX-2/PGE₂/TRPV1 feed-forward loop is active — and the evidence that it is comes from the heat-hyperalgesia described by patients — then COX-2 inhibition (celecoxib, typically 200 mg daily) should reduce PGE₂ production and break the loop. The prediction is specific: COX-2 inhibition should reduce resting burning pain and heat hypersensitivity without necessarily improving fatigue or PEM — because the COX-2 loop is a pain amplifier, not an energy-failure mechanism.
+If a COX-2/PGE₂/TRPV1 feed-forward loop is a contributor — a hypothesis suggested by the heat-hyperalgesia patients describe, though the loop itself is inferred rather than directly measured — then COX-2 inhibition (celecoxib, typically 200 mg daily) should reduce PGE₂ production and damp it. The prediction is specific: COX-2 inhibition should reduce resting burning pain and heat hypersensitivity without necessarily improving fatigue or PEM — because if the COX-2 loop contributes it is a pain amplifier, not an energy-failure mechanism.
 
 **Practical considerations.** COX-2 inhibitors have cardiovascular risks with long-term use and should not be combined with other NSAIDs. They are a timed trial for the COX-2/TRPV1-predominant pain phenotype, not a chronic maintenance strategy. The honest limitation: no ME/CFS-specific COX-2 trial exists, and the evidence is mechanistic, not clinical.
 
@@ -66,7 +66,7 @@ For severe, treatment-resistant pain driven by central wind-up (enhanced tempora
 
 Start with LDN 0.5–1.5 mg daily (morning, to avoid insomnia — see above), titrate to 4.5 mg over 4–8 weeks. Reassess the single target symptom — resting burning pain, tender-point sensitivity, or post-exertional pain amplification — at 12 weeks. **If no benefit at 4.5 mg, stop** — doses above 4.5 mg lose the TLR4-selective effect.
 
-If LDN produces partial benefit, add celecoxib 200 mg daily for 2 weeks as a diagnostic probe. If burning pain and heat sensitivity improve within 2 weeks, the COX-2/PGE₂/TRPV1 loop is active — but prolonged COX-2 inhibition carries cardiovascular risk, so use it to confirm the mechanism and consider intermittent rather than continuous dosing. If celecoxib has no effect at 2 weeks, stop — the loop is not the dominant amplifier.
+If LDN produces partial benefit, add celecoxib 200 mg daily for 2 weeks as a diagnostic probe. If burning pain and heat sensitivity improve within 2 weeks, a COX-2/PGE₂-mediated component is *suggested* (not confirmed — placebo or a general analgesic effect can look identical) — but prolonged COX-2 inhibition carries cardiovascular risk, so use it to inform the mechanism and consider intermittent rather than continuous dosing. If celecoxib has no effect at 2 weeks, stop — the COX-2 pathway is probably not a dominant amplifier.
 
 If LDN + celecoxib have both been trialled, add an SNRI (duloxetine 30 mg, titrate to 60 mg over 4 weeks) or pregabalin (25–50 mg at bedtime, titrate to the maximum tolerated dose). Reassess at 8 weeks. **Stop if sedation or activation prevents reaching an effective dose** — the therapeutic window in ME/CFS is narrower than in pure fibromyalgia, and a null result at the maximum tolerated dose is a valid trial.
 
@@ -80,7 +80,7 @@ Only add one intervention at a time. The goal is to find the combination that re
 
 - **LDN takes weeks, not days.** The anti-microglial effect builds gradually. Titrate to 4.5 mg over 4–8 weeks; reassess at 12 weeks. Vivid dreams and initial insomnia are common and usually resolve. If no benefit at 4.5 mg after 12 weeks, stop — LDN has a sharp dose-response curve, and doses above 4.5 mg lose the TLR4-selective effect and enter standard opioid-antagonist territory.
 - **SNRIs and gabapentinoids have a therapeutic lag and a side-effect cost.** The effective dose for pain is often higher than the starting dose. A drug stopped at 2 weeks because of sedation was never given a fair trial — but a drug that causes intolerable sedation at the lowest dose is a genuine failure and should be stopped.
-- **COX-2 inhibitors work quickly (days) or not at all.** If celecoxib reduces burning pain within a week, the COX-2/PGE₂/TRPV1 loop is active. If it does nothing after 2 weeks, the loop is probably not the dominant amplifier, and prolonged COX-2 inhibition carries cardiovascular risk — stop.
+- **COX-2 inhibitors work quickly (days) or not at all.** If celecoxib reduces burning pain within a week, a COX-2/PGE₂-mediated component is *suggested* — though not proven, since a non-COX-2 analgesic or placebo effect can look identical. If it does nothing after 2 weeks, the loop is probably not the dominant contributor, and prolonged COX-2 inhibition carries cardiovascular risk — stop.
 - **PEA is slow and subtle.** Expect gradual improvement over 4–8 weeks, not dramatic relief. The benefit, if it comes, is often described as "less sensitised" rather than "less pain" — a reduction in the amplification rather than the signal.
 - **Partial response is the most common outcome.** Pain reduced from 8/10 to 5/10 on LDN + PEA, with SNRIs adding a further point but causing unacceptable side effects — that is a real-world treatment result, not a failure.
 
@@ -107,7 +107,7 @@ Only add one intervention at a time. The goal is to find the combination that re
 ## What you can actually do
 
 - **Start with LDN.** Lowest side-effect burden, mechanistically relevant to microglial-driven central sensitisation, and evidence-supported in fibromyalgia. Titrate slowly, give it 12 weeks, and stop if no benefit at 4.5 mg.
-- **Use COX-2 inhibitors as a diagnostic probe, not a maintenance strategy.** If celecoxib 200 mg daily for 2 weeks reduces burning pain, the COX-2/PGE₂/TRPV1 loop is active — and that tells you something about the pain mechanism even if you do not stay on the drug long-term.
+- **Use COX-2 inhibitors as a diagnostic probe, not a maintenance strategy.** If celecoxib 200 mg daily for 2 weeks reduces burning pain, a COX-2/PGE₂-mediated component is *suggested* (not proven — a placebo or general analgesic effect can look the same), which tells you something about the pain mechanism even if you do not stay on the drug long-term.
 - **Add PEA.** Low risk, multi-modal mechanism, meta-analytically effective across pain types. It is not a replacement for LDN or SNRIs — it is an adjunct that may shift the sensitivity without adding side effects.
 - **For SNRIs and gabapentinoids, start low, go slow, and name a stop-rule.** The goal is to find a dose that reduces pain without worsening brain fog. If no dose in the therapeutic range achieves that, the drug has failed — document it and move on.
 - **Respect the energy envelope.** Pain that worsens after crashes is a PEM signal. Medications that improve pain cannot compensate for an energy budget that is continuously overdrawn. Pacing is the foundation on which pain management is built — not an alternative to it.

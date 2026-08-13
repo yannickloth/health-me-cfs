@@ -1,6 +1,6 @@
 ---
 title: "Autoimmunity Article 1: GPCR Autoantibodies, Immune Attack on the Nervous System, and the Antibodies That Talk to Your Receptors in ME/CFS"
-description: "A plain-language guide to autoimmunity in ME/CFS — why antibodies targeting your own receptors (β2-adrenergic, muscarinic M3/M4) may drive dysautonomia, the 29–91% prevalence range that signals a measurement problem, why antibody titre does not equal disease severity, the Fc-glycoprofile gate, the post-infectious trigger, and the difference between classical autoimmunity and autoimmunity on top of ME/CFS."
+description: "A plain-language guide to autoimmunity in ME/CFS — why antibodies targeting your own receptors (β2-adrenergic, muscarinic M3/M4) may drive dysautonomia, the wildly assay-dependent reported prevalence that signals a measurement problem, why antibody titre does not equal disease severity, the Fc-glycoprofile gate, the post-infectious trigger, and the difference between classical autoimmunity and autoimmunity on top of ME/CFS."
 author: "Yannick Loth"
 date: "2026-08-12"
 categories: [Autoimmunity, GPCR, ME/CFS, Pathophysiology]
@@ -8,9 +8,9 @@ categories: [Autoimmunity, GPCR, ME/CFS, Pathophysiology]
 
 A blood test shows an antibody aimed at your own receptors — not a classic autoimmune disease like lupus or rheumatoid arthritis. Nothing lights up on scans. Your CRP and ESR are normal. But the antibody is there, targeting the β2-adrenergic receptor that regulates your blood vessels and the muscarinic M3 receptor that controls your gut and pupils. Your nerves and vessels are being signalled by self-directed antibodies — and nobody can tell you whether removing them would fix anything.
 
-Now add the rest of ME/CFS: the PEM, the brain fog, the orthostatic intolerance. Between 29% and 91% of ME/CFS patients have detectable GPCR autoantibodies — depending entirely on which assay is used, which antibodies are tested, and which threshold defines "positive" [@Loebel2016]. That range — from one in three to almost everyone — is the signature of a field that has not yet solved its measurement problem.
+Now add the rest of ME/CFS: the PEM, the brain fog, the orthostatic intolerance. Depending entirely on which assay is used, which antibodies are tested, and which threshold defines "positive," reported GPCR autoantibody prevalence ranges from about 29% up to a level where a commercial ELISA reports almost everyone as positive — including healthy controls [@Loebel2016][@Bynke2020]. That spread — from one in three to nearly everyone — is the signature of a field that has not yet solved its measurement problem.
 
-This article is the conceptual overview. What GPCR autoantibodies actually are, why the prevalence range spans 29–91%, the Fc-glycoprofile that determines whether an antibody is pathogenic or inert, why antibody titre does not equal disease severity, the post-infectious trigger story, and the difference between classical autoimmunity and autoimmunity *on top of* ME/CFS. The treatments — immunoadsorption, IVIG, rituximab, daratumumab, and why the evidence is not settled — are covered in the [companion treatment article](../autoimmunity-treatment/index.qmd).
+This article is the conceptual overview. What GPCR autoantibodies actually are, why the reported prevalence scales so wildly with the assay used, the Fc-glycoprofile that determines whether an antibody is pathogenic or inert, why antibody titre does not equal disease severity, the post-infectious trigger story, and the difference between classical autoimmunity and autoimmunity *on top of* ME/CFS. The treatments — immunoadsorption, IVIG, rituximab, daratumumab, and why the evidence is not settled — are covered in the [companion treatment article](../autoimmunity-treatment/index.qmd).
 
 ---
 
@@ -22,10 +22,10 @@ This article is the conceptual overview. What GPCR autoantibodies actually are, 
 
 ## The short version, if you only read one part
 
-- **GPCR autoantibodies** target G-protein-coupled receptors — β1/β2-adrenergic (blood vessels, heart rate), M1/M3/M4 muscarinic (gut, pupils, cognition), and α1-adrenergic (vascular tone). They are found in 29–91% of ME/CFS patients depending on the study, the assay, and the threshold [@Loebel2016].
+- **GPCR autoantibodies** target G-protein-coupled receptors — β1/β2-adrenergic (blood vessels, heart rate), M1/M3/M4 muscarinic (gut, pupils, cognition), and α1-adrenergic (vascular tone). They are found at widely varying rates (from ~29% to nearly everyone) depending on the study, the assay, and the threshold [@Loebel2016][@Bynke2020].
 - **The fundamental measurement problem is unresolved.** The most common commercial assay (CellTrend ELISA) produced positive results in 100% of healthy controls in one independent replication — meaning the test cannot distinguish patient from control. The highest-quality assay (REAP proteome-wide screen, 7,542 antigen interactions) found zero significant autoantibody signals in ME/CFS — a complete null [@Germain2025autoantibody].
 - **Antibody titre is a poor predictor of pathogenicity.** Two people with the same β2-AAb level can have completely different disease severity because what matters is not the quantity of antibody but its **Fc glycoprofile** — the sugar molecules attached to the antibody's tail that determine whether it activates complement, engages Fc receptors, or sits inert. An agalactosylated (G0F) IgG is pro-inflammatory; a sialylated IgG is anti-inflammatory. Same titre, opposite effects [@Loth2026website].
-- **Passive-transfer evidence from fibromyalgia and Long COVID** shows that injecting patient IgG into mice reproduces pain and small-fibre neuropathy — proving that the antibodies are causative, not just correlative, in those conditions. No ME/CFS-specific passive-transfer study exists yet [@Goebel2021passiveTransferFM].
+- **Passive-transfer evidence from fibromyalgia and Long COVID** shows that injecting patient IgG into mice reproduces pain and small-fibre neuropathy — strong evidence that the antibodies are *sufficient* to reproduce a phenotype (i.e., can be pathogenic, not merely correlative) in those conditions [@Goebel2021passiveTransferFM][@Mignolet2026passiveTransferLC]. No ME/CFS-specific passive-transfer study exists yet.
 - **Autoimmunity is usually post-infectious, not spontaneous.** GPCR autoantibodies are generated during infection through molecular mimicry (viral proteins resemble self-receptors) or bystander activation (the immune response to the virus spills over to self-antigens). The antibodies persist after the infection clears — and whether they continue to cause damage depends on the Fc glycoprofile and the host's ability to clear them.
 
 ---
@@ -46,18 +46,18 @@ The clinical effect depends on which receptors are targeted, in which tissues, w
 
 ---
 
-## The 29–91% range: what it actually means
+## What the wide prevalence range actually means
 
-The prevalence range for GPCR autoantibodies in ME/CFS spans 29–91% across seven studies. This is not biological variability — it is measurement chaos.
+The reported prevalence for GPCR autoantibodies in ME/CFS spans a very wide range depending on assay — from about 29% on a functional bioassay to the point where a commercial ELISA reports almost everyone as positive, including healthy controls. This is not biological variability — it is measurement chaos.
 
 - **Loebel 2016** (n=268 ME/CFS, n=108 controls) used a bioassay measuring functional receptor activation: 29.5% had ≥1 elevated GPCR AAb. This is the most conservative and most functionally meaningful estimate.
-- **Bynke 2020** (Sweden, n=~100) used a different ELISA platform: 79–91% had ≥1 elevated AAb. Same disease, different assay, triple the prevalence.
+- **Bynke 2020** (Sweden, two cohorts, n=24 plasma + n=24 CSF each) used the CellTrend ELISA platform and found significantly elevated M3/M4 autoantibody levels in ME patients versus controls (β1/β2 in one cohort), but reported no single-cutoff prevalence percentage.
 - **Vernino 2022** (POTS, n=116) tested the commercial CellTrend ELISA: **98.3% of patients AND 100% of controls were α1-AAb positive.** The test could not distinguish patient from control — zero diagnostic value.
-- **Germain 2025** (n=172 participants) ran the highest-resolution platform available — REAP, screening 7,542 antibody–antigen interactions across 6,183 exoproteome proteins — and found **zero** significant autoantibody signals (q<0.68). Complete null.
+- **Germain 2025** (n=172 participants) ran the highest-resolution platform available — REAP, screening 7,542 antibody–antigen interactions across 6,183 exoproteome proteins — and found **zero** significant autoantibody signals: no q-value fell below 0.68 (i.e., nothing came close to the significance threshold). Complete null.
 
 The pattern is systematic: the more functional and specific the assay, the lower the prevalence. The less specific the assay, the higher the prevalence — until, at the limit, 100% of healthy controls test positive and the assay collapses. The implication, uncomfortable but honest, is that **many of the reported GPCR autoantibody associations may be assay artefacts rather than disease-specific signals** [@POTS2022failed_replication].
 
-The one consistent signal across studies — and the one finding that survives the measurement controversy — is β2-adrenergic autoantibodies. Azcue 2026 found β2-AAb elevated in ME/CFS vs post-COVID and healthy controls (F=3.15, p=0.046), and β2-AAb levels correlated with autonomic symptom severity (r=0.45, p=0.001) — the strongest quantitative AAb–symptom correlation to date. β2 is the most consistently replicated GPCR target in ME/CFS [@Azcue2026gpcr].
+The one signal that surfaces most often across the studies is β2-adrenergic autoantibodies — though with an honest caveat. Azcue 2026 found β2-AAb elevated in ME/CFS vs post-COVID and healthy controls (F=3.15, p=0.046), and β2-AAb levels correlated with autonomic symptom severity (r=0.45, p=0.001). Both figures come from a single group and a single assay, and the p=0.046 group difference is borderline — so while β2 is the most frequently reported GPCR target in ME/CFS, it is not independently replicated, and the REAP null above means even this signal does not escape the measurement controversy [@Azcue2026gpcr].
 
 ---
 
@@ -99,7 +99,7 @@ Both mechanisms explain why GPCR autoantibodies appear after infection and can p
 
 ## The bottom line
 
-Autoimmunity — specifically GPCR autoantibodies — is the most provocative and most contested topic in the Septad. The β2-adrenergic signal is consistently replicated; the commercial assays that report 91% prevalence are not. The Fc glycoprofile determines whether an antibody is pathogenic, and no one is measuring it. The passive-transfer evidence from fibromyalgia and Long COVID proves that patient antibodies can cause disease — but no ME/CFS-specific transfer study exists [@Goebel2021passiveTransferFM].
+Autoimmunity — specifically GPCR autoantibodies — is the most provocative and most contested topic in the Septad. The β2-adrenergic signal is the most frequently reported GPCR finding (but rests on a single group's borderline p=0.046 result, not independent replication); the commercial assays that report positivity in nearly everyone are not. The Fc glycoprofile determines whether an antibody is pathogenic, and no one is measuring it. The passive-transfer evidence from fibromyalgia and Long COVID provides strong evidence that patient antibodies can reproduce a phenotype in animals — but no ME/CFS-specific transfer study exists [@Goebel2021passiveTransferFM].
 
 The honest read: GPCR autoantibodies are real in a subset, their pathogenicity depends on factors not captured by current testing, and the treatments that remove them ([covered in the companion article](../autoimmunity-treatment/index.qmd)) have shown strong signals in uncontrolled studies and sobering nulls in controlled ones. The field is at the point where the mechanism is plausible but the therapeutic implications are unproven — and the distinction matters enormously for patients making treatment decisions.
 

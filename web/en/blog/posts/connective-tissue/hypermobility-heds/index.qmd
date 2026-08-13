@@ -102,11 +102,11 @@ The epidemiological evidence for hypermobility enrichment in ME/CFS is strong bu
 **In the hEDS-autonomic data:**
 - Up to 70% of hEDS patients report dysautonomia symptoms
 - Up to 40% meet formal POTS criteria [@Mathias2021dysautonomia]
-- 78% report exercise intolerance as a primary symptom, and sedentary behaviour increased from 44% to 85% after symptom onset
+- Exercise intolerance is among the most commonly reported symptoms, and sedentary behaviour rises markedly after symptom onset (the article on treatment failure discusses this pattern)
 - Dysautonomic hEDS patients show measurable cardiac atrophy — smaller cardiac chambers and reduced left ventricular end-diastolic volume — consistent with chronic deconditioning from orthostatic intolerance [@RuizMaya2021cardiac]
 
 **In the EDS-MCAS-POTS triad:**
-- Approximately 31% of patients with both POTS and EDS also have MCAS, compared to 2% of those without EDS — an odds ratio of 32.5, one of the strongest comorbidity signals in the entire ME/CFS literature
+- Approximately 31% of patients with both POTS and EDS also have MCAS, compared to 2% of those without EDS — an odds ratio of 32.5, one of the strongest comorbidity signals in the entire ME/CFS literature [@Wang2021triad]
 - But a critical 2025 review found that "an evidence-based, common pathophysiologic mechanism between any of the two, much less all three conditions, has yet to be described" [@Yao2025MCASPOTStriad] — so the triad is real at the epidemiological level but the causal arrows are not drawn
 
 **A hard honesty check.** The autonomic profile of hEDS — measured by heart rate variability, tilt-table testing, and baroreflex sensitivity — resembles fibromyalgia more closely than it resembles other EDS subtypes. If hEDS shared the same structural connective-tissue mechanism as classical or vascular EDS, you would expect similar autonomic phenotypes across EDS types. The fact that hEDS is the outlier — with an autonomic signature that looks more like a central-sensitisation disorder than a structural collagenopathy — is evidence that the mechanism may not be what the "loose tissue → stretched vessels → POTS" story implies [@MECFSScience2024heds].
@@ -159,7 +159,7 @@ In one study, all 24 hEDS patients showed decreased intraepidermal nerve fibre d
 
 One of the more striking findings of the last decade is the statistical link between connective tissue laxity and neurodevelopmental conditions:
 
-- **Autism + hypermobility.** A 2025 meta-analysis of 22 studies found 22.3% joint hypermobility in autistic individuals (rising to 31% when only clinical assessments were considered). The direction is not established — hypermobility may predispose to autism-relevant sensory processing differences through altered interoceptive signalling (the brain receiving degraded proprioceptive input from lax joints), or the same developmental genes may affect both connective tissue and neural wiring [@BaezaVelasco2025autismEDS].
+- **Autism + hypermobility.** A 2025 meta-analysis of 20 studies found 22.3% joint hypermobility in autistic individuals (rising to 31% when only clinical assessments were considered). The direction is not established — hypermobility may predispose to autism-relevant sensory processing differences through altered interoceptive signalling (the brain receiving degraded proprioceptive input from lax joints), or the same developmental genes may affect both connective tissue and neural wiring [@BaezaVelasco2025autismEDS].
 - **ADHD and hEDS in children.** In a study of children with hEDS/HSD, 16% met criteria for ADHD and 6% for autism — rates substantially above the general paediatric population [@Kindgren2021hEDSadhd].
 - **The mediating pathway appears to be dysautonomia.** One study found that 51% of a neurodivergent-hypermobile cohort had joint hypermobility, and that hypermobility statistically mediated the relationship between neurodivergence and dysautonomia — suggesting the connective-tissue trait is the physical link between the neural wiring difference and the autonomic symptoms [@Csecs2022hypermobility].
 
@@ -183,7 +183,7 @@ This is the core distinction of the series, and it applies to hypermobility more
 
 ## The permanent energy tax
 
-The ODE models in the primary document include an explicit parameter for the hEDS vascular effect: a venous compliance amplification factor κ, empirically estimated between 1.3 and 2.0. The model predicts that **hEDS imposes a permanent 10–20% reduction in energy available for upright activity** — not from mitochondria, not from immune dysfunction, not from deconditioning, but from the physics of loose vessels requiring greater compensatory sympathetic drive and higher cardiac work just to maintain standing blood pressure [@Loth2026website].
+The ODE models in the primary document include an explicit parameter for the hEDS vascular effect: a venous compliance amplification factor κ, set at 1.3–2.0 (a heuristic model parameter chosen in the primary document, not a measured quantity). The model predicts that **hEDS imposes a permanent 10–20% reduction in energy available for upright activity** — not from mitochondria, not from immune dysfunction, not from deconditioning, but from the physics of loose vessels requiring greater compensatory sympathetic drive and higher cardiac work just to maintain standing blood pressure [@Loth2026website].
 
 This prediction has direct clinical implications: supine positioning and compression garments benefit hEDS patients disproportionately, because they mechanically reduce the gravitational pooling that the loose vessels cannot control. It also explains why hEDS+ME/CFS patients tend toward greater severity — the connective-tissue deficit is a permanent tax on an energy budget that is already depleted by the core disease.
 
