@@ -1,0 +1,109 @@
+---
+title: "Autoimmunität Artikel 1: GPCR-Autoantikörper, immunologische Attacken auf das Nervensystem und die Antikörper, die mit Ihren Rezeptoren sprechen, bei ME/CFS"
+description: "Ein allgemeinverständlicher Leitfaden zur Autoimmunität bei ME/CFS — warum Antikörper, die auf die eigenen Rezeptoren abzielen (β2-adrenerg, muskarinisch M3/M4), Dysautonomie auslösen können, die stark assayabhängige berichtete Prävalenz, die auf ein Messproblem hindeutet, warum der Antikörpertiter nicht der Krankheitsschwere entspricht, das Fc-Glykoprofil-Gate, der postinfektiöse Auslöser und der Unterschied zwischen klassischer Autoimmunität und Autoimmunität zusätzlich zu ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Autoimmunität, GPCR, ME/CFS, Pathophysiologie]
+lang: de
+---
+
+Ein Bluttest zeigt einen Antikörper, der auf die eigenen Rezeptoren abzielt — nicht eine klassische Autoimmunerkrankung wie Lupus oder rheumatoide Arthritis. In den Scans leuchtet nichts auf. Ihr CRP und Ihre BSG sind normal. Aber der Antikörper ist da und richtet sich gegen den β2-adrenergen Rezeptor, der Ihre Blutgefäße reguliert, und gegen den muskarinischen M3-Rezeptor, der Ihren Darm und Ihre Pupillen steuert. Ihre Nerven und Gefäße werden von gegen das Selbst gerichteten Antikörpern signalisiert — und niemand kann Ihnen sagen, ob ihre Entfernung etwas beheben würde.
+
+Nun kommt der Rest von ME/CFS hinzu: das PEM, der Brain Fog, die orthostatische Intoleranz. Je nachdem, welcher Assay verwendet wird, welche Antikörper getestet werden und welcher Schwellenwert "positiv" definiert, reicht die berichtete Prävalenz von GPCR-Autoantikörpern von etwa 29 % bis zu einem Wert, bei dem ein kommerzieller ELISA fast alle als positiv meldet — einschließlich gesunder Kontrollen [@Loebel2016][@Bynke2020]. Diese Spannbreite — von einem von drei bis fast allen — ist das Kennzeichen eines Feldes, das sein Messproblem noch nicht gelöst hat.
+
+Dieser Artikel ist der konzeptionelle Überblick. Was GPCR-Autoantikörper tatsächlich sind, warum die berichtete Prävalenz so stark mit dem verwendeten Assay skaliert, das Fc-Glykoprofil, das bestimmt, ob ein Antikörper pathogen oder inert ist, warum der Antikörpertiter nicht der Krankheitsschwere entspricht, die Geschichte des postinfektiösen Auslösers und der Unterschied zwischen klassischer Autoimmunität und Autoimmunität *zusätzlich zu* ME/CFS. Die Behandlungen — Immunadsorption, IVIG, Rituximab, Daratumumab und warum die Evidenzlage nicht geklärt ist — werden im [Begleitartikel zur Behandlung](../autoimmunity-treatment/index.qmd) behandelt.
+
+---
+
+## Zuerst eine klare Warnung
+
+*Dies ist eine Erklärung, keine Selbstmedikationsempfehlung, und ich bin kein Arzt. Autoantikörpertests für ME/CFS sind nicht standardisiert — CellTrend-ELISAs, der am häufigsten verwendete kommerzielle Assay, haben in einer Replikationsstudie bei 98–100 % der gesunden Kontrollen positive Ergebnisse erzielt, was ihren diagnostischen Wert infrage stellt. Immunadsorption, IVIG, Rituximab und Daratumumab sind Interventionen im Krankenhaus mit erheblichen Risiken, darunter Infektion, Anaphylaxie, Thromboembolie und — im Fall von Rituximab — progressive multifokale Leukenzephalopathie. Dies sind Behandlungen für schwer Betroffene, besprochen mit einem Immunologen, nicht selbst durchzuführen.*
+
+---
+
+## Die Kurzfassung, wenn Sie nur einen Teil lesen
+
+- **GPCR-Autoantikörper** richten sich gegen G-Protein-gekoppelte Rezeptoren — β1/β2-adrenerg (Blutgefäße, Herzfrequenz), M1/M3/M4 muskarinisch (Darm, Pupillen, Kognition) und α1-adrenerg (Gefäßtonus). Sie werden je nach Studie, Assay und Schwellenwert mit sehr unterschiedlichen Raten gefunden (von ~29 % bis fast alle) [@Loebel2016][@Bynke2020].
+- **Das grundlegende Messproblem ist ungelöst.** Der am häufigsten verwendete kommerzielle Assay (CellTrend-ELISA) erzielte in einer unabhängigen Replikation bei 100 % der gesunden Kontrollen positive Ergebnisse — das heißt, der Test kann Patient nicht von Kontrolle unterscheiden. Der Assay höchster Qualität (REAP-Proteomweiter-Screen, 7.542 Antigen-Interaktionen) fand bei ME/CFS null signifikante Autoantikörpersignale — ein vollständiger Nullbefund [@Germain2025autoantibody].
+- **Der Antikörpertiter ist ein schlechter Prädiktor für die Pathogenität.** Zwei Personen mit demselben β2-AAk-Spiegel können eine völlig unterschiedliche Krankheitsschwere haben, denn entscheidend ist nicht die Menge des Antikörpers, sondern sein **Fc-Glykoprofil** — die Zuckermoleküle am Antikörperschwanz, die bestimmen, ob er Komplement aktiviert, Fc-Rezeptoren bindet oder inert bleibt. Ein agalaktosyliertes (G0F) IgG ist proinflammatorisch; ein sialyliertes IgG ist antiinflammatorisch. Gleicher Titer, gegensätzliche Wirkungen [@Loth2026website].
+- **Passivtransfer-Evidenz aus Fibromyalgie und Long COVID** zeigt, dass die Injektion von Patienten-IgG bei Mäusen Schmerz und Small-Fiber-Neuropathie reproduziert — starke Evidenz dafür, dass die Antikörper *ausreichend* sind, um einen Phänotyp zu reproduzieren (d. h. pathogen sein können, nicht nur korrelativ), bei diesen Erkrankungen [@Goebel2021passiveTransferFM][@Mignolet2026passiveTransferLC]. Eine ME/CFS-spezifische Passivtransfer-Studie existiert noch nicht.
+- **Autoimmunität ist meist postinfektiös, nicht spontan.** GPCR-Autoantikörper werden während einer Infektion durch molekulare Mimikry (virale Proteine ähneln Selbst-Rezeptoren) oder Bystander-Aktivierung (die Immunantwort auf das Virus greift auf Selbst-Antigene über) erzeugt. Die Antikörper bleiben nach dem Abklingen der Infektion bestehen — und ob sie weiterhin Schaden verursachen, hängt vom Fc-Glykoprofil und der Fähigkeit des Wirts ab, sie zu eliminieren.
+
+---
+
+## Was sind GPCR-Autoantikörper wirklich?
+
+G-Protein-gekoppelte Rezeptoren (GPCRs) sind die größte Familie von Zelloberflächenrezeptoren im menschlichen Körper. Sie sitzen auf der äußeren Membran von Zellen und übertragen externe Signale — Hormone, Neurotransmitter, Licht, Gerüche — ins Zellinnere. Beta-adrenerge Rezeptoren (β1, β2, β3) reagieren auf Adrenalin und Noradrenalin und steuern Herzfrequenz, Gefäßtonus und Bronchodilatation. Muskarinische Acetylcholinrezeptoren (M1–M5) reagieren auf Acetylcholin und steuern Darmmotilität, Pupillenverengung, Speichelbildung und — im Gehirn — Kognition und Wachheit.
+
+Autoantikörper gegen GPCRs können drei Dinge tun:
+
+1. **Agonistische Aktivierung** — der Antikörper imitiert den natürlichen Liganden und schaltet den Rezeptor an. Ein agonistischer β2-AAk verursacht dieselbe Wirkung wie Adrenalin: erhöhte Herzfrequenz, Vasodilatation. Bei Fortbestehen folgen Rezeptordesensibilisierung und Internalisierung — die Zelle entfernt den Rezeptor von der Oberfläche, um sich zu schützen, und der Patient wird in diesem Signalweg funktionell defizient, obwohl der Antikörper weiterhin vorhanden ist.
+
+2. **Antagonistische Blockade** — der Antikörper blockiert die Bindung des natürlichen Liganden und schaltet den Rezeptor aus. Ein antagonistischer M3-AAk hemmt Darmmotilität und Speichelbildung und imitiert die Wirkung anticholinerger Medikamente.
+
+3. **Rezeptorinternalisierung ohne Aktivierung** — der Antikörper vernetzt Rezeptoren und löst eine β-Arrestin-vermittelte Endozytose aus, wodurch der Rezeptor ohne Aktivierung von der Oberfläche entfernt wird. Dies ist funktionell äquivalent zur Blockade, aber der Rezeptor wird physisch entfernt statt nur besetzt. Dieser Mechanismus, der für NMDAR-Antikörper bei autoimmuner Enzephalitis nachgewiesen und im Primärdokument auf GPCRs erweitert wurde, erklärt, warum einige Autoantikörper funktionelle Defizite ohne messbare agonistische oder antagonistische Aktivität verursachen [@Kim2026nmdar_cryoem].
+
+Der klinische Effekt hängt davon ab, welche Rezeptoren in welchen Geweben mit welchem funktionellen Effekt und in welchem Fc-Glykoprofil-Zustand angezielt werden. Diese kombinatorische Komplexität — Rezeptortyp × Gewebelokalisation × Funktionsmodus × Glykoprofil — ist der Grund, warum ein einzelnes "GPCR-Autoantikörperpanel" keine Symptome, keinen Behandlungserfolg und keine Prognose vorhersagt.
+
+---
+
+## Was die breite Prävalenzspanne tatsächlich bedeutet
+
+Die berichtete Prävalenz von GPCR-Autoantikörpern bei ME/CFS reicht je nach Assay sehr weit — von etwa 29 % bei einem funktionellen Bioassay bis zu dem Punkt, an dem ein kommerzieller ELISA fast alle als positiv meldet, einschließlich gesunder Kontrollen. Das ist keine biologische Variabilität — es ist Messchaos.
+
+- **Loebel 2016** (n=268 ME/CFS, n=108 Kontrollen) verwendete einen Bioassay, der die funktionelle Rezeptoraktivierung misst: 29,5 % hatten ≥1 erhöhten GPCR-AAk. Dies ist die konservativste und funktionell aussagekräftigste Schätzung.
+- **Bynke 2020** (Schweden, zwei Kohorten, n=24 Plasma + n=24 Liquor jeweils) verwendete die CellTrend-ELISA-Plattform und fand bei ME-Patienten gegenüber Kontrollen signifikant erhöhte M3/M4-Autoantikörperspiegel (β1/β2 in einer Kohorte), berichtete aber keinen Prävalenzprozentsatz mit einem einzigen Cut-off.
+- **Vernino 2022** (POTS, n=116) testete den kommerziellen CellTrend-ELISA: **98,3 % der Patienten UND 100 % der Kontrollen waren α1-AAk-positiv.** Der Test konnte Patient nicht von Kontrolle unterscheiden — null diagnostischer Wert.
+- **Germain 2025** (n=172 Teilnehmer) führte die höchstauflösende verfügbare Plattform durch — REAP, Screening von 7.542 Antikörper-Antigen-Interaktionen über 6.183 Exoproteom-Proteine — und fand **null** signifikante Autoantikörpersignale: kein q-Wert fiel unter 0,68 (d. h., nichts kam nahe an die Signifikanzschwelle). Vollständiger Nullbefund.
+
+Das Muster ist systematisch: Je funktioneller und spezifischer der Assay, desto niedriger die Prävalenz. Je unspezifischer der Assay, desto höher die Prävalenz — bis schließlich 100 % der gesunden Kontrollen positiv testen und der Assay kollabiert. Die Implikation, unbequem aber ehrlich, ist, dass **viele der berichteten GPCR-Autoantikörper-Assoziationen Assay-Artefakte sein könnten und keine krankheitsspezifischen Signale** [@POTS2022failed_replication].
+
+Das Signal, das über die Studien hinweg am häufigsten auftaucht, sind β2-adrenerge Autoantikörper — allerdings mit einer ehrlichen Einschränkung. Azcue 2026 fand β2-AAk bei ME/CFS gegenüber Post-COVID und gesunden Kontrollen erhöht (F=3,15, p=0,046), und die β2-AAk-Spiegel korrelierten mit der Schwere der autonomen Symptome (r=0,45, p=0,001). Beide Zahlen stammen von einer einzigen Gruppe und einem einzigen Assay, und die Gruppenunterscheidung von p=0,046 ist grenzwertig — obwohl β2 der am häufigsten berichtete GPCR-Angriffspunkt bei ME/CFS ist, ist es also nicht unabhängig repliziert, und selbst dieses Signal entgeht der Messkontroverse wegen des obigen REAP-Nullbefunds nicht [@Azcue2026gpcr].
+
+---
+
+## Das Fc-Glykoprofil: warum der gleiche Titer Unterschiedliches bedeutet
+
+Alle IgG-Antikörper haben eine konservierte Glykosylierungsstelle an Asparagin-297 in der Fc-Region. Die dort angebrachte Zuckerstruktur — das Glykoprofil — bestimmt die Effektorfunktion:
+
+- **Agalaktosyliertes (G0F) IgG** — keine Galaktosereste. Diese Glykoform bindet Fcγ-Rezeptoren mit hoher Affinität, aktiviert Komplement und treibt die antikörperabhängige zelluläre Zytotoxizität an. Es ist die **proinflammatorische** Glykoform, erhöht bei aktiver rheumatoider Arthritis und akuter Virusinfektion. Wenn das β2-AAk eines Patienten überwiegend G0F ist, ist es wahrscheinlich pathogen.
+- **Sialyliertes IgG** — terminale Sialinsäurereste. Diese Glykoform bindet DC-SIGN auf regulatorischen Makrophagen und induziert eine antiinflammatorische Reaktion. Es ist die **antiinflammatorische** Glykoform, erhöht während der Schwangerschaft (wenn Autoimmunerkrankungen oft abklingen) und nach erfolgreicher IVIG-Therapie. Wenn das β2-AAk eines Patienten überwiegend sialyliert ist, kann es inert oder sogar protektiv sein.
+- **Bisektiertes (G0FB) IgG** — intermediär; erhöht bei stabilen Antikörperantworten.
+
+Der gleiche ELISA-Titer von β2-AAk — sagen wir 15 U/ml — könnte überwiegend G0F sein (pathogen, treibt die autonome Dysfunktion an) oder überwiegend sialyliert (inert, ein Überbleibsel einer vergangenen Infektion, das das Immunsystem bereits gedämpft hat). Aktuelle kommerzielle Tests messen das Glykoprofil nicht. Das bedeutet, dass ein positiver GPCR-Autoantikörpertest ohne Glykoprofil-Information **mehrdeutig** ist — er sagt Ihnen, dass der Antikörper da ist, aber nicht, ob er etwas tut [@Loth2026website].
+
+---
+
+## Der postinfektiöse Auslöser: molekulare Mimikry und Bystander-Aktivierung
+
+GPCR-Autoantikörper werden nicht spontan erzeugt. Sie entstehen während einer Infektion über zwei Mechanismen:
+
+**Molekulare Mimikry.** Virale Proteine teilen Sequenzhomologie mit Selbst-Rezeptoren. EBV-EBNA-1 teilt Epitope mit adrenergen und muskarinischen Rezeptoren. Das SARS-CoV-2-Spike-Protein teilt Sequenzähnlichkeit mit β2-AR-extrazellulären Schleifen. Die Antikörperantwort auf das virale Protein kreuzreagiert mit dem Selbst-Rezeptor — das Immunsystem, das auf das Virus abzielt, trifft versehentlich den Wirt.
+
+**Bystander-Aktivierung.** Während einer kräftigen antiviralen Immunantwort werden B-Zellen, die Selbst-Antigene erkennen — normalerweise durch Toleranzmechanismen inaktiv gehalten — durch das Zytokin-Milieu aktiviert und beginnen, Autoantikörper zu produzieren. Die Autoantikörper waren nicht Teil der antiviralen Antwort; sie waren Kollateralschaden der Immunaktivierung.
+
+Beide Mechanismen erklären, warum GPCR-Autoantikörper nach einer Infektion auftreten und über Monate bis Jahre persistieren können — und warum ihre Pathogenität davon abhängt, ob sich das postinfektiöse Immunmilieu in Richtung eines proinflammatorischen (G0F) oder antiinflammatorischen (sialylierten) Glykoproflils verschiebt.
+
+---
+
+## Autoimmunität allein vs. ME/CFS mit Autoimmunität
+
+**Klassische Autoimmunität allein (kein ME/CFS).** Lupus, rheumatoide Arthritis, Myasthenia gravis, autoimmune autonome Ganglionopathie — dies sind Erkrankungen, bei denen der Autoantikörper die dominante Pathologie ist. Seine Entfernung (Immunadsorption, Rituximab, IVIG) behandelt die Krankheit. Der Antikörpertiter korreliert mit der Krankheitsaktivität. Die Pathologie ist gut charakterisiert.
+
+**ME/CFS mit Autoantikörpern (die Situation, um die es in dieser Serie geht).** Wenn GPCR-Autoantikörper zusätzlich zu ME/CFS auftreten, sind drei Dinge anders:
+
+- **Die Autoantikörper sind ein Beitragender.** Ihre Entfernung kann autonome Symptome verbessern, ohne das Energieversagen, die Immundysregulation oder die zerebrale Hypoperfusion zu beheben. Das beste Behandlungsergebnis ist partiell — die Dysautonomie bessert sich, das PEM nicht [@Loth2026website].
+- **Der Antikörpertiter entspricht nicht der Krankheitsschwere.** Zwei Patienten mit demselben β2-AAk-Spiegel können völlig unterschiedliche klinische Bilder haben, weil das Fc-Glykoprofil, der Rezeptorkompartiment (Plasmamembran vs. internalisiert), die Gewebeverteilung und die kompensatorischen Mechanismen des Wirts alle die Wirkung des Antikörpers modulieren.
+- **Ein gescheiterter Antikörperentfernungsversuch sagt nichts gegen ME/CFS.** Wenn die Immunadsorption die Autoantikörper entfernt und sich die Symptome nicht bessern, waren die Autoantikörper nicht die dominante Pathologie — sie waren ein Marker der Immunaktivierung, kein Treiber der Krankheit. Dies ist die ehrlichste Lesart des Anft-2025-Ergebnisses (unten) und diejenige, die die Erwartungen an jede autoantikörpergerichtete Behandlung prägen sollte.
+
+---
+
+## Das Fazit
+
+Autoimmunität — insbesondere GPCR-Autoantikörper — ist das provokanteste und umstrittenste Thema in der Septade. Das β2-adrenerge Signal ist der am häufigsten berichtete GPCR-Befund (beruht aber auf dem grenzwertigen p=0,046-Ergebnis einer einzigen Gruppe, nicht auf unabhängiger Replikation); die kommerziellen Assays, die bei fast allen Positivität melden, sind es nicht. Das Fc-Glykoprofil bestimmt, ob ein Antikörper pathogen ist, und niemand misst es. Die Passivtransfer-Evidenz aus Fibromyalgie und Long COVID liefert starke Hinweise darauf, dass Patientenantikörper bei Tieren einen Phänotyp reproduzieren können — aber es existiert keine ME/CFS-spezifische Transferstudie [@Goebel2021passiveTransferFM].
+
+Die ehrliche Lesart: GPCR-Autoantikörper sind in einer Teilmenge real, ihre Pathogenität hängt von Faktoren ab, die von aktuellen Tests nicht erfasst werden, und die Behandlungen, die sie entfernen ([im Begleitartikel behandelt](../autoimmunity-treatment/index.qmd)), haben in unkontrollierten Studien starke Signale und in kontrollierten ernüchternde Nullbefunde gezeigt. Das Feld befindet sich an dem Punkt, an dem der Mechanismus plausibel, aber die therapeutischen Implikationen unbewiesen sind — und diese Unterscheidung ist für Patienten, die Behandlungsentscheidungen treffen, enorm wichtig.
+
+**Als Nächstes in dieser Mini-Serie:** die Behandlungen — Immunadsorption, IVIG, Rituximab, Daratumumab und warum die Evidenz aus kontrollierten Studien nicht mit den Open-Label-Signalen übereinstimmt [[siehe den Begleitartikel]](../autoimmunity-treatment/index.qmd).
+
+Für das umfassende, vollständig zitierte Bild darüber, wie Autoimmunität unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet wird, siehe [@Loth2026website].

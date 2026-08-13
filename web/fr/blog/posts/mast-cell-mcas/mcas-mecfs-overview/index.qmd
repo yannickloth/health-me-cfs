@@ -1,6 +1,6 @@
 ---
-title: "MCAS Article 1 : MCAS et EM/SFC — pourquoi votre corps réagit à rien"
-description: "Un guide en langage clair sur le syndrome d'activation des mastocytes et son chevauchement avec l'EM/SFC — ce qu'est le MCAS, pourquoi les mastocytes peuvent se déclencher sans aucun allergène, pourquoi le MCAS arrive presque toujours *après* l'EM/SFC (pas avant), l'allergie qui s'étend d'un aliment au monde entier, et comment distinguer le MCAS isolé du MCAS avec EM/SFC."
+title: "Article MCAS 1 : MCAS et EM/SFC : pourquoi votre corps réagit à rien"
+description: "Un guide en langage clair sur le syndrome d'activation des mastocytes et comment il se chevauche avec l'EM/SFC — ce qu'est le MCAS, pourquoi les mastocytes peuvent se déclencher sans allergène du tout, pourquoi le MCAS arrive presque toujours *après* l'EM/SFC (pas avant), l'allergie qui s'étend d'un aliment au monde entier, et comment distinguer le MCAS isolé du MCAS avec EM/SFC."
 author: "Yannick Loth"
 date: "2026-08-10"
 categories: [MCAS, EM/SFC, Physiopathologie]
@@ -11,7 +11,7 @@ Il est 16 h, encore une fois. Votre visage rougit, votre nez coule, votre gorge 
 
 Ajoutez maintenant le reste de l'EM/SFC : la fatigue écrasante, le brouillard cérébral, le sommeil non réparateur. Au milieu de tout cela, votre médecin ou votre groupe de soutien en ligne prononce le mot *MCAS* et vous tend un antihistaminique en vous disant « essayez juste ».
 
-Cet article est la vue d'ensemble conceptuelle. Ce qu'est réellement le MCAS, comment les mastocytes peuvent se déclencher sans allergène, si le MCAS cause l'EM/SFC (presque jamais), et la différence entre avoir un MCAS isolé et l'avoir *par-dessus* l'EM/SFC. Les traitements — les antihistaminiques H1 et H2, le dosage et les stabilisateurs — sont traités dans un article compagnon séparé, et la discussion honnête « et si les médicaments ne marchent pas » dans un troisième.
+Cet article est la vue d'ensemble conceptuelle. Ce qu'est réellement le MCAS, comment les mastocytes peuvent se déclencher sans allergène impliqué, si le MCAS cause l'EM/SFC (presque jamais), et la différence entre avoir un MCAS isolé et l'avoir *par-dessus* l'EM/SFC. Les traitements — les antihistaminiques H1 et H2, le dosage et les stabilisateurs — sont traités dans l'[article compagnon sur le traitement](../antihistamines-mcas-mecfs-treatment/index.qmd), et la discussion honnête « et si les médicaments ne marchent pas » dans l'[article compagnon sur l'échec du traitement](../when-antihistamine-doesnt-work/index.qmd).
 
 ---
 
@@ -125,6 +125,6 @@ Beaucoup décrivent un début sur la peau : urticaire inexpliquée, bouffées de
 
 Le MCAS est réel et une proportion notable de personnes atteintes d'EM/SFC en sont porteuses [@Rohrhofer2025mecfsmast]. La lecture honnête des données est qu'il est le plus souvent **d'apparition tardive** — détecté après le début de l'EM/SFC — ce qui refroidit toute histoire de « cause cachée », même si les limites d'ordre de détection signifient que cela reste provisoire. Qu'il *aggrave* ensuite la maladie (un amplificateur) ou *co-existe* surtout avec elle (un observateur) n'est pas encore tranché par les preuves ; les séparer exigerait un essai contrôlé montrant une amélioration des résultats centraux de l'EM/SFC, pas un soulagement des seuls symptômes mastocytaires. La distinction MCAS isolé vs EM/SFC avec MCAS importe car l'objectif du traitement diffère, mais c'est une distinction clinique, pas un mur biologique dur. Traiter les mastocytes est raisonnable à essayer *dans le cadre du tableau* ; garder ouvertes les lectures « amplificateur » et « observateur » est ce qui garde cela honnête.
 
-**Suite de cette mini-série :** comment fonctionnent réellement les médicaments — la différence entre les antihistaminiques H1 et H2, pourquoi votre médecin augmente la dose, et les stabilisateurs de mastocytes [voir l'article compagnon sur le traitement]. Et quand les médicaments ne marchent pas, ce que cela dit et ne dit pas [article compagnon sur l'échec du traitement].
+**Suite de cette mini-série :** comment fonctionnent réellement les médicaments — la différence entre les antihistaminiques H1 et H2, pourquoi votre médecin augmente la dose, et les stabilisateurs de mastocytes [voir l'article compagnon sur le traitement](../antihistamines-mcas-mecfs-treatment/index.qmd). Et quand les médicaments ne marchent pas, ce que cela dit et ne dit pas [article compagnon sur l'échec du traitement](../when-antihistamine-doesnt-work/index.qmd).
 
 Pour le tableau complet et entièrement cité de la façon dont les mastocytes sont pesés parmi les nombreux mécanismes candidats dans l'EM/SFC, voir [@Loth2026website].

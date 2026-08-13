@@ -1,0 +1,111 @@
+---
+title: "Infection chronique Article 1 : VEB, HHV-6, maladie transmise par les tiques, et l'infection qui ne s'est jamais terminée dans l'EM/SFC"
+description: "Un guide en langage clair sur l'infection chronique et la réactivation virale dans l'EM/SFC — pourquoi le VEB, le HHV-6 et les pathogènes transmis par les tiques continuent de signaler à votre système immunitaire des années après la maladie aiguë, la voie VEB→mastocyte→MMP-9, la réplication lytique abortive, la co-réactivation poly-herpèsvirus, et la différence entre l'infection active seule et la stimulation immunitaire chronique sur fond d'EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-12"
+lang: fr
+categories: [Infection chronique, VEB, HHV-6, EM/SFC, Pathophysiologie]
+---
+
+Le ganglion dans votre cou est enflé depuis que vous vous êtes « remis » de la mononucléose il y a des années. Vous flambez quand vous êtes stressé — le mal de gorge revient, les ganglions lymphatiques font mal, la fatigue s'approfondit — et on vous dit que c'est une « infection passée ». Vos tests d'anticorps montrent des titres élevés au VEB et au HHV-6, mais le spécialiste des maladies infectieuses dit que cela signifie seulement que vous avez été exposé, pas que le virus est actif. Quelque chose parle toujours à votre système immunitaire.
+
+Ajoutez maintenant le reste de l'EM/SFC : le MPE, le sommeil non réparateur, le brouillard cérébral. Environ 70 % des cas d'EM/SFC suivent une infection aiguë — mononucléose à VEB, roséole à HHV-6, Borrelia transmise par les tiques, entérovirus, SARS-CoV-2 — et la question qui hante le domaine depuis des décennies est de savoir si le pathogène est toujours là, continuant de conduire la maladie, ou s'il a allumé un feu et s'en est allé. Le précédent prospectif le plus fort est la cohorte de Dubbo, où une part substantielle des personnes avec des infections à VEB, virus de la rivière Ross ou fièvre Q a développé un syndrome de fatigue post-infectieux [@Hickie2006postinfectious].
+
+Cet article est la vue conceptuelle d'ensemble. Ce que font réellement le VEB, le HHV-6 et les pathogènes transmis par les tiques dans l'EM/SFC, le modèle de réplication lytique abortive qui explique pourquoi les anticorps antiviraux sont élevés mais que la charge virale est indétectable, la voie VEB→mastocyte→MMP-9, le schéma de co-réactivation poly-herpèsvirus, et la différence entre l'infection active seule et la stimulation immunitaire chronique sur fond d'EM/SFC. Les traitements — antiviraux, immunomodulateurs, et pourquoi les preuves sont plus minces que les mécanismes — sont couverts dans l'[article compagnon sur le traitement](../chronic-infection-treatment/index.qmd).
+
+---
+
+## D'abord, un avertissement simple
+
+*Ceci est une explication, pas un conseil d'automédication, et je ne suis pas médecin. Les médicaments antiviraux (valacyclovir, valganciclovir) exigent un prescripteur et une surveillance rénale. Les infections transmises par les tiques exigent une évaluation spécialisée — une maladie de Lyme non traitée peut progresser vers des complications neurologiques et cardiaques. Si vous avez une nouvelle éruption en œil de bœuf, une paralysie faciale ou un gonflement articulaire après une morsure de tique, cherchez une attention médicale urgente.*
+
+---
+
+## La version courte, si vous ne lisez qu'une partie
+
+- **Une grande part des cas d'EM/SFC suit une infection aiguë** (couramment citée autour de 70 %, bien que la proportion exacte soit débattue et rétrospective), et les quatre grands sont le VEB/mononucléose, le HHV-6 (roséole → neurotrope, s'intègre dans les chromosomes), la Borrelia transmise par les tiques (Lyme) et le SARS-CoV-2 — chacun étant documenté pour précéder un sous-ensemble de cas d'EM/SFC et de fatigue post-infectieuse.
+- **L'énigme centrale est la réplication lytique abortive (RLA).** Le virus entre dans le cycle lytique — exprimant des protéines immunostimulatrices — mais s'arrête avant de produire des virions. Il n'y a pas de charge virale mesurable dans le sang, mais les protéines virales (dUTPases, gènes immédiats-précoces) sont toujours fabriquées, et le système immunitaire les voit toujours. Cela explique pourquoi les titres d'anticorps sont élevés mais que la PCR est négative [@Cox2022dUTPaseMECFS].
+- **Le VEB active directement les mastocytes.** La protéine VEB recombinante ajoutée à des mastocytes humains a augmenté la libération de MMP-9 de près de six fois (2 464 contre 433 pg/ml) — et la MMP-9 dégrade la barrière hémato-encéphalique, permettant aux médiateurs inflammatoires périphériques d'accéder au cerveau [@Chinnappan2026IL11MMP9].
+- **La co-réactivation poly-herpèsvirus est la règle, pas l'exception.** 72,5 % des patients EM/SFC avaient des anticorps élevés à plusieurs dUTPases de herpèsvirus contre 31 % des témoins. Le VEB, le HHV-6, le CMV et le VZV peuvent se réactiver ensemble — le système immunitaire mène une guerre virale multi-fronts avec des ressources épuisées [@Palomo2026herpesvirus].
+- **L'infection chronique est le sujet le plus riche en hypothèses de la Septade.** Elle est mécanistiquement centrale mais plus difficile à traiter simplement — les antiviraux qui bloquent la réplication de l'ADN dans un virus pleinement lytique peuvent être inefficaces contre la RLA, et les preuves pour eux dans l'EM/SFC sont faibles et non répliquées.
+
+---
+
+## Le lien avec le VEB : mécanisme, pas sérologie
+
+Le virus d'Epstein-Barr infecte >90 % de la population mondiale. Chez la plupart des gens, il établit une latence dans les lymphocytes B et reste quiescent à vie, supprimé par la surveillance des lymphocytes T. Dans l'EM/SFC, plusieurs lignes de preuves pointent vers une réactivation du VEB — mais « réactivation » ne signifie pas la même chose que la mononucléose aiguë.
+
+### Réplication lytique abortive (RLA)
+
+Dans la réplication lytique complète, le virus exprime les gènes immédiats-précoces (BZLF1, BRLF1), puis les gènes précoces (y compris BLLF3, la dUTPase), réplique son ADN, assemble des virions et lyse la cellule. La RLA s'arrête après le stade du gène précoce — les protéines virales sont fabriquées, mais aucun virus infectieux n'est produit. La cellule n'est pas tuée, mais elle exprime des antigènes viraux que le système immunitaire doit continuellement supprimer.
+
+Pourquoi cela importe pour l'EM/SFC : la RLA explique la signature immunologique — des anticorps élevés aux antigènes lytiques (EA-D, VCA, dUTPase), mais un ADN viral indétectable ou faible dans le sang. Le virus ne « réplique » pas au sens conventionnel, mais il produit activement des protéines qui entraînent l'activation immunitaire, l'inflammation et — de manière critique — la dégranulation des mastocytes [@Cox2022dUTPaseMECFS].
+
+### Le problème de la dUTPase
+
+La dUTPase est une enzyme de herpèsvirus conservée qui convertit la dUTP en dUMP, empêchant l'incorporation erronée d'uracile dans l'ADN viral. C'est aussi un **motif moléculaire associé aux pathogènes (PAMP)** puissant — le système immunitaire inné reconnaît la dUTPase par TLR2 et déclenche la production de cytokines entraînée par NF-κB. Les dUTPases du VEB (BLLF3), du HHV-6 (U45), du VZV (ORF8) et du CMV sont structurellement suffisamment similaires pour qu'un virus en réactivation puisse produire une dUTPase qui stimule de manière croisée la réponse immunitaire à un autre — une base mécanistique pour la co-réactivation poly-herpèsvirus [@Cox2022dUTPaseMECFS].
+
+La dUTPase du VEB active aussi NF-κB dans les mastocytes, ce qui entraîne l'expression de la MMP-9. C'est le pont entre l'histoire de la réactivation virale et l'histoire de la dégradation du tissu conjonctif couverte dans les articles sur l'hypermobilité : un herpèsvirus en réactivation produit une protéine (dUTPase) qui dit aux mastocytes de libérer une enzyme (MMP-9) qui dégrade le collagène et ouvre la barrière hémato-encéphalique. Le virus n'est pas dans le cerveau. Mais ses produits en aval y arrivent.
+
+### VEB→mastocyte→MMP-9 : la voie en chiffres
+
+Chinnappan et al. (2026) ont testé l'effet direct de la protéine VEB recombinante sur des mastocytes humains en culture :
+- Libération de MMP-9 : **2 464 pg/ml (VEB) contre 433 pg/ml (non stimulé), p<0,001, n=3**
+- À titre de comparaison, le LPS (un PAMP bactérien) a produit 1 422 pg/ml — le VEB était 1,7× plus puissant que le LPS pour entraîner la MMP-9
+- La même étude a trouvé de l'IL-11 sérique élevée chez les patients EM/SFC — une cytokine qui amplifie l'expression de la MMP-9 à partir des microglies, créant une **seconde boucle d'amplification de la MMP-9** dans le cerveau
+
+**Mises en garde d'honnêteté, parce qu'elles comptent.** L'étude a utilisé des mastocytes de sang de cordon (pas des mastocytes de patients), n=3 (l'exigence de culture de 12 semaines limite la réplication), du sérum plutôt que du plasma (la MMP-9 est 3 à 4× plus élevée dans le sérum en raison de la dégranulation plaquettaire pendant la coagulation), et les groupes EM/SFC et témoins n'étaient pas appariés par âge. La découverte n'a pas été répliquée indépendamment. La direction de l'effet — la protéine VEB active les mastocytes pour libérer la MMP-9 — est mécanistiquement importante et biologiquement plausible, mais l'ampleur et la spécificité sont provisoires [@Chinnappan2026IL11MMP9].
+
+---
+
+## HHV-6 : l'intégrateur neurotrope
+
+L'herpèsvirus humain 6 (HHV-6) infecte presque tous les enfants avant 2 ans (causant la roséole) et établit une latence dans les lymphocytes T, les monocytes et — de manière critique — dans le système nerveux central. Le HHV-6 est le seul herpèsvirus humain qui peut **s'intégrer dans le chromosome de l'hôte** (ciHHV-6), créant un réservoir génétique permanent que les antiviraux standard ne peuvent pas éliminer.
+
+Dans l'EM/SFC, plusieurs découvertes pointent vers une implication du HHV-6 :
+
+- **miR-aU14 rencontre les mitochondries.** Le HHV-6 code un microARN, miR-aU14, qui inhibe la famille miR-30 de l'hôte. miR-30 supprime normalement p53 et DRP1 — retirer cette inhibition active la translocation de DRP1 dépendante de p53 vers les mitochondries, provoquant **une fragmentation mitochondriale**. Le virus n'infecte pas directement les mitochondries. Il envoie un microARN qui dit à la cellule de casser ses propres mitochondries [@Schreiner2020HHV6MitoME].
+- **Neuroinvasion post-mortem.** Le miR-aU14 du HHV-6 a été trouvé dans le plexus choroïde, l'hippocampe, l'amygdale et les ganglions rachidiens dorsaux de patients EM/SFC à l'autopsie — et absent chez 24 témoins. L'échantillon était n=3, donc c'est une découverte, pas un fait établi. Mais elle place un acide nucléique viral dans les régions cérébrales exactes impliquées dans les symptômes cognitifs, autonomes et sensoriels de l'EM/SFC.
+- **Prévalence.** Un HHV-6 latent ou persistant a été rapporté chez environ 47 % des patients EM/SFC contre environ 10 % des témoins dans certaines études (chiffres d'études uniques ; les fourchettes varient selon le test et la définition).
+
+---
+
+## Maladie transmise par les tiques : Lyme, Bartonella, Babesia
+
+**La maladie de Lyme (Borrelia burgdorferi)** provoque une infection aiguë traitée par 2 à 4 semaines d'antibiotiques. Dans 10 à 20 % des cas, les symptômes persistent des mois à des années — le syndrome de maladie de Lyme post-traitement (SMLPT). Le SMLPT est rapporté comme se chevauchant fortement avec l'EM/SFC sur l'ensemble des symptômes centraux (fatigue, dysfonctionnement cognitif, douleur musculo-squelettique, perturbation du sommeil), rendant les deux conditions presque cliniquement indistinguables en phase post-infectieuse.
+
+Le débat sur le mécanisme reflète le débat sur le VEB : y a-t-il une Borrelia persistante (réservoirs réfractaires aux antibiotiques, spirochètes protégés par biofilm) ou le SMLPT est-il une dérégulation immunitaire post-infectieuse qui survit au pathogène ? Les preuves d'infection persistante — culture, PCR, xénodiagnostic — existent mais sont incohérentes et techniquement difficiles. Les preuves de dérégulation immunitaire post-infectieuse — cytokines élevées, épuisement des lymphocytes T, génération d'auto-anticorps — sont robustes et reflètent l'EM/SFC [@Nawrocki2025LymeSymptomsCDC].
+
+**Bartonella et Babesia** sont des co-infections transmises par les tiques moins étudiées que Lyme. L'ADN de Bartonella a été détecté chez ~26 % et Babesia chez ~24 % des cohortes EM/SFC — mais ces études manquaient de témoins sains, donc la prévalence communautaire de base (qui n'est pas nulle) est inconnue. La position honnête : les co-infections transmises par les tiques sont des contributeurs plausibles chez l'individu exposé ; les preuves pour elles comme mécanisme général de l'EM/SFC sont faibles.
+
+---
+
+## Co-réactivation poly-herpèsvirus
+
+Le système immunitaire ne combat pas un herpèsvirus à la fois. Le taux de séroréactivité poly-herpèsvirus de 72,5 % (contre 31 % chez les témoins) suggère que lorsque la surveillance immunitaire s'affaiblit — et l'épuisement des lymphocytes T, le dysfonctionnement NK et la sénescence des CD8+ sont tous documentés dans l'EM/SFC — plusieurs herpèsvirus latents se réactivent simultanément [@Palomo2026herpesvirus].
+
+Cela crée un problème de traitement. Le valacyclovir inhibe l'ADN polymérase du VEB (réplication lytique) mais n'a aucun effet sur le HHV-6. Le valganciclovir couvre le HHV-6 et le CMV mais est plus toxique. Aucun antiviral unique ne couvre les quatre (VEB, HHV-6, CMV, VZV) sans toxicité additive. Et aucun ne bloque la RLA, parce que les protéines virales précoces sont produites avant l'étape de l'ADN polymérase que les médicaments ciblent.
+
+---
+
+## Infection chronique seule vs EM/SFC avec infection chronique
+
+**Infection chronique active seule (sans EM/SFC).** Réplication active du VEB (PCR positive, charge virale détectable), Lyme active (confirmée par culture ou PCR), HHV-6 actif (virémie chez les patients transplantés) — ce sont des maladies infectieuses traitées par des antiviraux ou des antibiotiques. Si le pathogène est identifié et qu'un médicament le ciblant existe, le traitement est simple : donnez le médicament, surveillez le pathogène, confirmez l'élimination.
+
+**EM/SFC avec stimulation immunitaire chronique (la situation dont traite cette série).** Lorsque l'histoire d'infection est dans le passé et que le problème actuel est la RLA, la dérégulation immunitaire ou l'auto-immunité post-infectieuse, la logique de traitement change :
+
+- **Les antiviraux qui fonctionnent contre la réplication lytique peuvent ne pas fonctionner contre la RLA.** Les protéines virales qui entraînent la réponse immunitaire sont produites avant l'étape cible du médicament. Un essai antiviral négatif ne prouve pas que le virus est non pertinent — il prouve que le médicament, à cette dose, n'a pas interrompu le stade de réplication spécifique qui est actif.
+- **L'éradication peut être impossible.** Le HHV-6 intégré ne peut pas être retiré. Le VEB latent dans les lymphocytes B mémoire est à vie. L'objectif du traitement passe de « éliminer le pathogène » à « supprimer l'activation immunitaire que le pathogène cause ».
+- **Le défaut immunitaire de l'hôte peut être le facteur limitant, pas la charge virale.** Si les lymphocytes T sont épuisés et que les cellules NK sont dysfonctionnelles, donner un antiviral sans traiter le défaut immunitaire revient à donner à un pompier un tuyau plus petit pendant que la pression de l'eau chute. Le feu n'est pas le pathogène ; le feu est la réponse immunitaire au pathogène, et la réponse échoue parce que le système immunitaire est épuisé.
+
+---
+
+## L'essentiel
+
+L'infection chronique est la condition la plus mécanistiquement centrale et thérapeutiquement frustrante de la Septade. Les preuves que les herpèsvirus et les pathogènes transmis par les tiques sont impliqués dans l'EM/SFC sont solides — la réplication lytique abortive, la co-réactivation poly-herpèsvirus, le VEB→mastocyte→MMP-9 et la fragmentation mitochondriale du HHV-6 ne sont pas des hypothèses marginales. Mais les preuves que les cibler avec les antiviraux actuels améliore l'EM/SFC sont faibles et non répliquées — et la distinction entre la RLA (que les antiviraux ne bloquent pas) et la réplication lytique (qu'ils bloquent) explique pourquoi [@Loth2026website].
+
+L'[article compagnon sur le traitement](../chronic-infection-treatment/index.qmd) couvre les antiviraux (valacyclovir, valganciclovir, famciclovir), les immunomodulateurs (cimétidine), les stabilisateurs de mastocytes qui interceptent la voie VEB→MMP-9 en aval du virus, et la discussion honnête « et si les antiviraux ne fonctionnent pas ».
+
+**Suite de cette mini-série :** les antiviraux, les preuves, et ce qu'un essai négatif fait et ne fait pas vous dire [[voir l'article compagnon]](../chronic-infection-treatment/index.qmd).
+
+Pour une vue complète et entièrement citée de la manière dont l'infection chronique est pesée parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].

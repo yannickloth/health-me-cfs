@@ -1,0 +1,203 @@
+---
+title: "Hypermobilité Article 1 : Le SED hypermobile et la connexion du tissu conjonctif avec l'EM/SFC — pourquoi un tissu souple alimente la cascade"
+description: "Un guide en langage clair sur le syndrome d'Ehlers-Danlos hypermobile et son chevauchement avec l'EM/SFC — pourquoi un tissu souple ne tient pas ensemble, les cinq voies mécanistiques reliant un tissu conjonctif lâche à une maladie systémique, comment les mastocytes peuvent dégrader activement le collagène (hypermobilité acquise), la génétique TNXB, l'axe de la neurodivergence, et la différence entre être hypermobile seul et être hypermobile sur fond d'EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-12"
+lang: fr
+categories: [Hypermobilité, hEDS, EM/SFC, Pathophysiologie, Tissu conjonctif]
+---
+
+Vos articulations se plient un peu plus loin qu'elles ne le devraient — toujours fait. Vous êtes « juste souple ». Vous pouviez faire les tours de fête enfant : paumes à plat sur le sol, pouce contre l'avant-bras, un genou qui se pliait vers l'arrière assez pour faire grimacer les gens. Personne ne vous a dit qu'un tissu souple ne tient pas ensemble.
+
+Maintenant, des années plus tard, les pièces ne tiennent pas. Votre sang s'accumule dans vos jambes quand vous vous levez. Votre cœur s'emballe pour compenser — le POTS que vous avez déjà lu dans cette série. Votre peau s'étire. Votre intestin se vide lentement. Et quelque part dans ce tissu conjonctif lâche, vos mastocytes — les sentinelles immunitaires qui sont intégrées dans l'échafaudage de collagène de chaque tissu — se déclenchent à une pression triviale, parce que la matrice qui devrait les maintenir silencieux est trop molle pour amortir le signal [@Magadmi2019][@Wilson2026MastCellScorehEDS].
+
+Cet article est la vue conceptuelle d'ensemble. Ce qu'est réellement le syndrome d'Ehlers-Danlos hypermobile, pourquoi il n'a pas de défaut génétique identifié (contrairement à tous les autres sous-types d'EDS), les cinq voies mécanistiques qui le relient à l'EM/SFC, l'histoire mastocyte → dégradation du collagène qui signifie que l'hypermobilité peut être *acquise* aussi bien que congénitale, la génétique TNXB, l'axe de la neurodivergence, et la différence entre être hypermobile seul et être hypermobile *sur fond* d'EM/SFC. Les traitements — physiothérapie, attelles, suppléments, thérapies émergentes et le modèle de la taxe énergétique permanente — sont couverts dans l'[article compagnon sur le traitement](../hypermobility-heds-treatment/index.qmd), et la discussion honnête « et si les médicaments ne fonctionnent pas » dans l'[article compagnon sur l'échec du traitement](../hypermobility-heds-failure/index.qmd).
+
+---
+
+## D'abord, un avertissement simple
+
+*Ceci est une explication, pas un conseil d'automédication, et je ne suis pas médecin. Les syndromes d'hypermobilité impliquent une faiblesse structurelle des tissus qui peut affecter la colonne vertébrale, les vaisseaux sanguins et les organes internes. Si vous avez des symptômes neurologiques progressifs, des maux de tête sévères d'apparition nouvelle ou une perte de contrôle intestinal ou vésical, c'est une urgence médicale — rendez-vous à l'hôpital. Tout ce qui suit sur la prise en charge est une conversation à avoir avec un spécialiste.*
+
+---
+
+## La version courte, si vous ne lisez qu'une partie
+
+- **Le hEDS** signifie *syndrome d'Ehlers-Danlos hypermobile*. Contrairement aux autres sous-types d'EDS (classique, vasculaire, cyphoscoliotique), qui ont des défauts génétiques identifiés dans des gènes spécifiques de collagène ou de traitement du collagène, le hEDS n'a **aucun défaut de tissu conjonctif identifié** malgré des investigations approfondies [@MECFSScience2024heds].
+- **Environ 15,5 % des patients EM/SFC répondent aux critères stricts du hEDS, et jusqu'à 81 % sont positifs à l'hypermobilité selon les critères plus larges de Brighton** — et ce sous-groupe est mesurablement plus malade : pire qualité de vie, plus de symptômes autonomes, des taux plus élevés de POTS (33 % contre 20 %) et de diagnostic formel d'EDS (29 % contre 3 %) [@Eccles2021hypermobility].
+- **Le chevauchement n'est pas une coïncidence.** Il y a cinq voies mécanistiques, plus deux fils biologiques plus profonds : (1) les mastocytes peuvent activement *dégrader* le collagène par la tryptase et la chymase, produisant une hypermobilité progressive *acquise* par-dessus toute laxité congénitale ; (2) l'haploinsuffisance TNXB explique ~5 à 10 % de l'hypermobilité indépendamment des mastocytes [@Imanaka2026TNXBHypermobility].
+- **Il y a un lien avec la neurodivergence.** Les personnes autistes ont 22,3 % d'hypermobilité articulaire ; les enfants avec hEDS montrent 16 % de TDAH et 6 % d'autisme — le lien tissu conjonctif-développement neurologique est réel et sous-estimé [@BaezaVelasco2025autismEDS][@Kindgren2021hEDSadhd].
+- **Les modèles ODE prédisent une taxe énergétique permanente de 10 à 20 %** sur la posture debout dans le hEDS — non pas des mitochondries ou du dysfonctionnement immunitaire, mais de la physique des vaisseaux lâches et du travail cardiaque compensatoire — fournissant une explication quantitative pour laquelle les patients hEDS+EM/SFC tendent vers une plus grande gravité [@Loth2026website].
+- **Le hEDS n'est pas la cause de l'EM/SFC.** C'est un *substrat* permissif — un trait tissulaire constitutionnel qui abaisse le seuil pour que la cascade se déroule. Réparer le tissu conjonctif lui-même n'est pas possible avec la médecine actuelle ; traiter les amplificateurs en aval (POTS, SAM) est là où sont les leviers cliniques.
+
+---
+
+## Qu'est-ce que le SED hypermobile, vraiment ?
+
+Le tissu conjonctif est l'échafaudage du corps. Le collagène, la protéine la plus abondante chez l'humain, forme la matrice extracellulaire — le maillage structurel qui maintient les organes en place, donne aux vaisseaux sanguins leur tonus, ancre les muscles aux os et entoure chaque mastocyte et chaque terminaison nerveuse d'un environnement physique calibré.
+
+Dans l'EDS classique, un gène spécifique du collagène (COL5A1, COL5A2) est cassé et le défaut moléculaire est connu. Dans l'EDS vasculaire, COL3A1 est cassé, et les artères fragiles et les organes creux sont compris. Dans l'EDS hypermobile — le sous-type le plus courant et celui qui chevauche l'EM/SFC — **aucun gène, aucune protéine et aucun défaut structurel n'a été identifié** malgré des décennies de recherche [@MECFSScience2024heds].
+
+Cela crée une situation inconfortable. Le diagnostic de hEDS repose entièrement sur des caractéristiques cliniques : hypermobilité articulaire mesurée par le score de Beighton, hyperextensibilité cutanée, douleur chronique et antécédents familiaux. Mais 10 à 20 % de la population générale est articulairement hypermobile à un certain degré, et l'élasticité cutanée, le craquement articulaire et la douleur chronique sont individuellement courants [@HakimGrahame2003hypermobility]. Que le hEDS soit une maladie distincte ou l'extrémité d'une distribution normale est une controverse vivante — et le diagnostic reste clinique, pas moléculaire [@Wirth2026CTDMECFS].
+
+### L'écart de 81 % contre 15,5 % — et ce qu'il signifie
+
+C'est le chiffre le plus important à comprendre à propos de l'hypermobilité dans l'EM/SFC. Lorsque les chercheurs utilisent les **critères larges de Brighton** — qui capturent l'hypermobilité articulaire par le score de Beighton plus des caractéristiques associées — environ 81 % des patients EM/SFC sont positifs à l'hypermobilité. Lorsqu'ils utilisent les **critères diagnostiques stricts du hEDS 2017** — qui exigent une combinaison spécifique de caractéristiques articulaires, cutanées, douloureuses et d'antécédents familiaux — ce chiffre chute à 15,5 à 18 % [@Eccles2021hypermobility].
+
+L'écart est énorme : 81 % contre 15,5 %. Cela signifie que la plupart des patients EM/SFC ont *un certain* degré de laxité du tissu conjonctif, mais que seule une minorité a le syndrome clinique complet. Le document principal interprète cela comme une preuve que **l'hypermobilité est un substrat permissif, pas un moteur principal** — un trait tissulaire constitutionnel qui abaisse le seuil pour que d'autres amplificateurs (SAM, POTS, NPF) s'installent, mais pas suffisant en soi pour causer l'EM/SFC [@Loth2026website]. Si l'hypermobilité était la cause, le chiffre de 81 % serait plus difficile à concilier avec le chiffre strict du hEDS de 15,5 %. L'écart est cohérent avec un modèle de gradient : la laxité tissulaire rend le système vulnérable, et la maladie survient quand assez d'autres amplificateurs s'empilent par-dessus.
+
+### Un mécanisme génétique concurrent : TNXB et la ténascine-X
+
+Bien que le hEDS n'ait pas de gène principal identifié, une petite mais importante fraction de l'hypermobilité a une cause génétique connue qui n'est *pas* un défaut du collagène. Le gène TNXB code la ténascine-X, une protéine de la matrice extracellulaire qui régule l'espacement des fibrilles de collagène et l'intégrité des fibres élastiques. **Les mutations bialléliques de TNXB provoquent un EDS de type classique-like, et les porteurs hétérozygotes (haploinsuffisants) représentent environ 5 à 10 % de l'hypermobilité clinique** — un mécanisme génétique concurrent indépendant des mastocytes et indépendant du consensus du hEDS « sans défaut moléculaire » [@Imanaka2026TNXBHypermobility].
+
+Cela importe parce que cela fragmente le phénotype de l'hypermobilité : certains patients ont une laxité de collagène congénitale (gène actuellement non identifié), certains ont un déficit en ténascine-X et — comme la section suivante l'explique — certains ont une hypermobilité *acquise* entraînée par les enzymes mastocytaires qui dégradent activement leur tissu conjonctif. Les trois mécanismes peuvent coexister chez un même patient.
+
+---
+
+## Hypermobilité progressive acquise : les mastocytes dégradent le collagène
+
+Voici le fil profond qui traverse tout le document principal et que la plupart des discussions cliniques manquent : **l'hypermobilité n'est pas toujours congénitale.** Les mastocytes peuvent activement dégrader le collagène et la matrice extracellulaire, produisant une hypermobilité progressive *acquise* qui s'aggrave avec le temps par-dessus toute laxité de base [@Loth2026website].
+
+### La chaîne enzymatique
+
+Les mastocytes stockent deux sérines protéases — la tryptase et la chymase — à l'intérieur de leurs granules. Lorsque les mastocytes dégranulent, ces enzymes sont libérées dans le tissu environnant. Leur travail normal est le remodelage tissulaire et la défense, mais dans l'activation chronique des mastocytes, elles deviennent une machine de destruction du collagène :
+
+- **La tryptase** active la pro-MMP-3 (stromélysine) et la pro-MMP-13 (collagénase-3), des enzymes qui clivent le collagène et les protéoglycanes [@Magarinos2013TryptaseMMP]. La tryptase clive aussi le récepteur 2 activé par les protéases (PAR2) sur les fibroblastes, déclenchant une libération supplémentaire de MMP.
+- **La chymase** clive directement la pro-MMP-1 (collagénase-1), l'enzyme principale qui dégrade le collagène fibrillaire de type I — le collagène structurel principal des ligaments, tendons et parois des vaisseaux sanguins [@Saarinen1994ChymaseMMP1].
+- **La cascade tryptase–chymase–MMP** dégrade le collagène et l'élastine dans le tissu cardiaque, les parois des vaisseaux et les ligaments articulaires — le tissu conjonctif partout où les mastocytes résident [@Janicki2006CardiacMastMMP].
+
+Un mécanisme séparé, indépendant des MMP, fonctionne aussi : **l'histaminylation**, dans laquelle l'histamine mastocytaire modifie de manière covalente les fibrilles de collagène par la transglutaminase, altérant leurs propriétés mécaniques — rendant le collagène plus mou et plus faible sans le dégrader. Cela a été montré in vitro et peut représenter une voie distincte vers la laxité tissulaire qui est invisible pour les dosages de MMP [@Zhu2026HistaminylationCollagen].
+
+### Hypermobilité congénitale vs acquise — un triage avec conséquences sur le traitement
+
+Le document principal distingue l'hypermobilité **congénitale** (présente depuis l'enfance, stable dans le temps, base génétique TNXB ou inconnue) de l'hypermobilité progressive **acquise** (s'aggrave à l'âge adulte, corrèle avec les poussées de SAM, réversible si l'activation des mastocytes est contrôlée). La distinction importe parce que les deux répondent différemment au traitement [@Loth2026website] :
+
+- **La laxité congénitale** est un trait structurel — l'attelle, la physiothérapie et la protection articulaire sont les principaux leviers. Les stabilisateurs de mastocytes peuvent aider les *symptômes* (douleur, gonflement) mais ne resserreront pas le collagène, car le collagène n'a jamais été serré au départ.
+- **La laxité acquise** est entraînée par une dégradation enzymatique en cours — les stabilisateurs de mastocytes et les inhibiteurs de MMP (doxycycline à la dose sub-antimicrobienne, 20 mg deux fois par jour = 40 mg/jour au total, qui inhibe sélectivement la MMP-9) peuvent partiellement inverser les dommages tissulaires, car le processus de dégradation est en cours et blocable.
+
+En pratique, beaucoup de patients ont les deux — une laxité de base congénitale plus une couche de dégradation acquise du SAM chronique — et l'art consiste à trier quel composant est dominant.
+
+### La boucle de rétroaction de rigidité de la matrice
+
+Les mastocytes s'ancrent aux protéines de la matrice extracellulaire (fibronectine, vitronectine) par des récepteurs intégrines et — de manière critique — par CADM1, une molécule d'adhésion cellulaire qui couple physiquement les mastocytes aux terminaisons nerveuses sensorielles. Dans le tissu hypermobile, la MEC est plus molle, donc la pression mécanique qui serait amortie dans une matrice normale se transmet à la surface du mastocyte avec moins d'atténuation [@Magadmi2019]. C'est une **boucle de rétroaction positive bidirectionnelle** :
+
+```
+MEC lâche → moins d'amortissement mécanique → les mastocytes se déclenchent plus facilement
+→ libèrent tryptase/chymase → activent les MMP → dégradent davantage la MEC
+→ MEC encore plus lâche → les mastocytes se déclenchent encore plus facilement → ...
+```
+
+Le document principal formalise cela comme un **modèle bistable** : le système mastocyte–MEC a deux états stables — un état « sain » avec une matrice ferme et des mastocytes calmes, et un état « dégradé » avec une matrice molle et des mastocytes hyper-réactifs. Une fois que le système franchit le point de basculement (une poussée sévère de SAM, une infection virale qui active massivement les mastocytes, une période d'inactivité prolongée qui affaiblit le tissu conjonctif), il peut ne pas revenir spontanément à l'état sain. Le modèle prédit que le traitement doit être *soutenu* — les antihistaminiques intermittents ou les stabilisateurs occasionnels peuvent ne pas suffire à faire basculer le système en arrière — et qu'une fois que le collagène est structurellement dégradé au-delà d'un certain point, même un contrôle complet des mastocytes peut ne pas inverser la laxité [@Loth2026website].
+
+---
+
+## Le chevauchement hEDS–EM/SFC, en chiffres
+
+Les preuves épidémiologiques de l'enrichissement en hypermobilité dans l'EM/SFC sont solides mais l'interprétation est contestée :
+
+**Dans un registre britannique de 815 patients EM/SFC :**
+- 81 % répondaient aux critères larges de Brighton pour l'hypermobilité
+- 15,5 % répondaient aux critères diagnostiques stricts du hEDS 2017
+- Le sous-groupe positif à l'hypermobilité avait une qualité de vie significativement pire, plus de symptômes autonomes, des taux de POTS plus élevés (33 % contre 20 %) et des taux de diagnostic formel d'EDS plus élevés (29 % contre 3 %) par rapport aux patients EM/SFC non hypermobiles [@Eccles2021hypermobility]
+
+**Dans les données hEDS-autonomie :**
+- Jusqu'à 70 % des patients hEDS rapportent des symptômes de dysautonomie
+- Jusqu'à 40 % répondent aux critères formels du POTS [@Mathias2021dysautonomia]
+- L'intolérance à l'exercice est parmi les symptômes les plus couramment rapportés, et le comportement sédentaire augmente nettement après l'apparition des symptômes (l'article sur l'échec du traitement discute ce schéma)
+- Les patients hEDS dysautonomiques montrent une atrophie cardiaque mesurable — des cavités cardiaques plus petites et un volume télédiastolique ventriculaire gauche réduit — cohérents avec le déconditionnement chronique de l'intolérance orthostatique [@RuizMaya2021cardiac]
+
+**Dans la triade EDS-SAM-POTS :**
+- Environ 31 % des patients avec POTS et EDS ont aussi un SAM, contre 2 % de ceux sans EDS — un odds ratio de 32,5, l'un des signaux de comorbidité les plus forts de toute la littérature EM/SFC [@Wang2021triad]
+- Mais une revue critique de 2025 a constaté qu'« un mécanisme physiopathologique commun fondé sur des preuves entre deux des conditions, encore moins les trois, reste à décrire » [@Yao2025MCASPOTStriad] — donc la triade est réelle au niveau épidémiologique mais les flèches causales ne sont pas tracées
+
+**Un contrôle d'honnêteté difficile.** Le profil autonome du hEDS — mesuré par la variabilité de la fréquence cardiaque, le test sur table inclinée et la sensibilité du baroréflexe — ressemble plus étroitement à la fibromyalgie qu'aux autres sous-types d'EDS. Si le hEDS partageait le même mécanisme structurel de tissu conjonctif que l'EDS classique ou vasculaire, on s'attendrait à des phénotypes autonomes similaires à travers les types d'EDS. Le fait que le hEDS soit le cas particulier — avec une signature autonome qui ressemble plus à un trouble de sensibilisation centrale qu'à une collagénopathie structurelle — est une preuve que le mécanisme peut ne pas être ce que l'histoire « tissu lâche → vaisseaux étirés → POTS » implique [@MECFSScience2024heds].
+
+La position honnête : **l'association clinique entre l'hypermobilité et l'EM/SFC est réelle, mais la base mécanistique est incertaine.** L'histoire du tissu conjonctif est plausible et cohérente en interne ; elle est aussi en concurrence avec des explications plus simples (l'hypermobilité et l'EM/SFC co-occurrent parce que les deux sont courantes dans la même démographie ; l'hypermobilité amplifie les symptômes sans voie causale spécifique). Aucun des deux côtés n'a tranché la question.
+
+---
+
+## Cinq voies du tissu conjonctif lâche à la maladie systémique
+
+Le document principal identifie cinq voies mécanistiques par lesquelles la laxité du tissu conjonctif pourrait contribuer au tableau de l'EM/SFC, listées ici par ordre décroissant de force des preuves.
+
+### Voie 1 : Laxité vasculaire → dysfonctionnement autonome (PREUVES ÉLEVÉES)
+
+C'est le lien le mieux soutenu et celui qui explique directement le chevauchement avec le POTS. Le tissu conjonctif défectueux dans les parois des vaisseaux sanguins a des conséquences mesurables :
+
+- **Compliance artérielle accrue.** Les patients hEDS montrent une vitesse d'onde de pouls significativement plus faible que les témoins — les artères sont trop élastiques. Cela altère la signalisation baroréceptrice : les récepteurs d'étirement dans les parois des vaisseaux ne peuvent pas détecter avec précision les changements de tension artérielle quand les parois sont trop compliantes, donc le cerveau reçoit un signal de pression dégradé [@Hakim2017cardiovascular].
+- **Pool veineux excessif.** Le tissu conjonctif anormal dans les veines permet une distension excessive sous des pressions hydrostatiques normales. Le sang s'accumule dans les membres inférieurs à la mise debout, réduisant le retour veineux et la précharge cardiaque. Le cœur s'emballe pour compenser [@Mathias2021dysautonomia].
+- **L'hypoperfusion cérébrale s'ensuit.** La même chaîne — vaisseaux lâches → baroréflexe pauvre → pool veineux → tachycardie compensatoire → débit sanguin cérébral inadéquat à la mise debout — produit des étourdissements, un brouillard cérébral et une intolérance orthostatique impossibles à distinguer du POTS [@VanCampenEtAl2020].
+
+Cette voie ne nécessite aucune biologie nouvelle. C'est une conséquence structurelle directe de la même anomalie du tissu conjonctif qui rend les articulations hypermobiles, appliquée aux vaisseaux sanguins au lieu des ligaments.
+
+### Voie 2 : Instabilité craniocervicale → dysfonctionnement du tronc cérébral (PREUVES MODÉRÉES)
+
+La laxité ligamentaire à la jonction craniocervicale (C0–C2, là où le crâne rencontre la colonne vertébrale) peut provoquer une instabilité structurelle avec des conséquences neurologiques. Le tronc cérébral — qui contrôle la fréquence cardiaque, la tension artérielle, la commande respiratoire et la vigilance — traverse cette jonction. Une compression ou un étirement intermittent pourrait théoriquement produire un dysfonctionnement autonome, de la fatigue et des symptômes cognitifs.
+
+Bragée et al. ont étudié 229 patients EM/SFC avec IRM en position debout et ont trouvé : 80 % avaient des obstructions craniocervicales, 78 % avaient des indicateurs d'hypertension intracrânienne, 75 % avaient des indicateurs d'hypermobilité, 45 % avaient une malformation de Chiari. La corrélation entre la sévérité de l'ICC et l'intolérance orthostatique était r=0,42 — modeste mais significative [@Bragee2020].
+
+**La limite honnête.** Le lien ICC–EM/SFC reste largement anecdotique. Aucune étude contrôlée n'a établi la véritable prévalence de l'ICC dans l'EM/SFC, si l'ICC cause les symptômes ou simplement co-occurre, ou à quoi ressemblent les résultats chirurgicaux à long terme [@Wirth2026CTDMECFS]. Certains patients rapportent une amélioration spectaculaire après stabilisation chirurgicale (une série a rapporté des taux d'amélioration de 60 à 80 %), mais ce sont des cas individuels non contrôlés, et la chirurgie à la jonction crâne-colonne vertébrale comporte des risques sérieux, y compris un taux de complications de 19 %. Le dépistage de l'ICC peut être approprié chez les patients EM/SFC avec hypermobilité et symptômes neurologiques progressifs, mais la base de preuves ne soutient pas une référence chirurgicale de routine.
+
+### Voie 3 : Matrice extracellulaire → dérégulation des mastocytes (PREUVES FAIBLES)
+
+Les mastocytes s'ancrent aux protéines de la MEC via les intégrines et CADM1. La signalisation bidirectionnelle signifie qu'une composition anormale de la MEC pourrait modifier les seuils d'activation des mastocytes. L'hypothèse, développée en détail dans le document principal, est qu'une MEC plus molle (comme dans l'hypermobilité) transmet la force mécanique aux mastocytes avec moins d'amortissement — donc une pression donnée sur le tissu est plus susceptible de déclencher la dégranulation [@Magadmi2019].
+
+Mais comme noté ci-dessus, une revue critique de 2025 n'a trouvé aucun mécanisme établi pour ce lien. La triade épidémiologique est réelle ; la biochimie de ce qui relie la MEC aux seuils de déclenchement des mastocytes ne l'est pas. L'hypothèse de la rigidité de la matrice du document principal (certitude : 0,45) tente de combler ce manque, mais elle reste un modèle théorique attendant des tests directs [@Loth2026website].
+
+### Voie 4 : Fragilité tissulaire → signalisation purinergique (SPÉCULATIF)
+
+L'hypothèse de la réponse au danger cellulaire propose que les cellules endommagées libèrent de l'ATP dans l'espace extracellulaire, activant les récepteurs purinergiques P2X et P2Y et déclenchant un état hypométabolique protecteur. Les patients hEDS subissent plus de microtraumatismes des activités quotidiennes parce que leurs tissus sont mécaniquement fragiles. Si ce microtraumatisme est continu, l'alarme purinergique pourrait ne jamais se réinitialiser, maintenant l'état hypométabolique caractéristique de l'EM/SFC.
+
+**La limite honnête.** Aucune étude n'a mesuré l'ATP extracellulaire ou l'activation des récepteurs purinergiques chez les patients hEDS. Cette voie est mécanistiquement cohérente mais entièrement non validée [@Wirth2026CTDMECFS].
+
+### Voie 5 : Neuropathie des petites fibres comme voie en aval commune (PREUVES MODÉRÉES)
+
+Dans une étude, les 24 patients hEDS ont montré une densité intra-épidermique de fibres nerveuses diminuée cohérente avec la NPF, avec 95 % répondant aux critères de la douleur neuropathique [@Cazzato2016sfn]. Les patients EM/SFC montrent des preuves de dénervation des fibres C aux tests sensoriels quantitatifs, avec 31 % répondant aux critères du POTS et 34 % montrant des schémas de NPF non dépendants de la longueur [@Azcue2023sfn]. La NPF affecte à la fois les petites fibres sensorielles et autonomes — expliquant le dysfonctionnement autonome étendu dans les deux conditions. La NPF peut être le point où l'anomalie structurelle de l'EDS et l'anomalie fonctionnelle de l'EM/SFC convergent, bien qu'on ne sache pas si l'étiologie est la même dans les deux conditions.
+
+---
+
+## Le lien avec la neurodivergence
+
+L'une des découvertes les plus frappantes de la dernière décennie est le lien statistique entre la laxité du tissu conjonctif et les conditions neurodéveloppementales :
+
+- **Autisme + hypermobilité.** Une méta-analyse de 2025 de 20 études a trouvé 22,3 % d'hypermobilité articulaire chez les personnes autistes (montant à 31 % quand seules les évaluations cliniques étaient considérées). La direction n'est pas établie — l'hypermobilité peut prédisposer à des différences de traitement sensoriel pertinentes pour l'autisme par une signalisation intéroceptive altérée (le cerveau recevant une entrée proprioceptive dégradée des articulations lâches), ou les mêmes gènes développementaux peuvent affecter à la fois le tissu conjonctif et le câblage neural [@BaezaVelasco2025autismEDS].
+- **TDAH et hEDS chez les enfants.** Dans une étude sur des enfants avec hEDS/HSD, 16 % répondaient aux critères du TDAH et 6 % de l'autisme — des taux nettement supérieurs à la population pédiatrique générale [@Kindgren2021hEDSadhd].
+- **La voie de médiation semble être la dysautonomie.** Une étude a trouvé que 51 % d'une cohorte neurodivergente-hypermobile avaient une hypermobilité articulaire, et que l'hypermobilité médiisait statistiquement la relation entre la neurodivergence et la dysautonomie — suggérant que le trait du tissu conjonctif est le lien physique entre la différence de câblage neural et les symptômes autonomes [@Csecs2022hypermobility].
+
+Ce n'est pas une affirmation causale. Cela ne signifie pas que l'hypermobilité « cause » l'autisme ou le TDAH, ni que la neurodivergence « cause » la laxité tissulaire. La lecture honnête est que les mêmes voies développementales — impliquant possiblement des protéines de la matrice extracellulaire partagées qui guident à la fois la formation du tissu conjonctif et la migration neurale pendant l'embryogenèse — produisent les deux phénotypes, et que la corrélation est un indice vers une biologie partagée plus profonde que nous ne comprenons pas encore.
+
+---
+
+## Le hEDS seul vs l'EM/SFC avec hEDS
+
+C'est la distinction centrale de la série, et elle s'applique à l'hypermobilité plus durement qu'à toute autre condition co-occurrente — parce que le hEDS est un trait tissulaire constitutionnel présent depuis la naissance (ou, dans le cas de l'hypermobilité acquise, s'accumulant sur des années), pas une maladie acquise.
+
+**Le hEDS seul (sans EM/SFC).** L'hypermobilité est le trait dominant. Les articulations font mal, les ligaments se fatiguent, la peau s'étire, l'intestin est paresseux. Le traitement est mécanique et symptomatique : physiothérapie, attelles, gestion de la douleur et — pour les plus sévères — stabilisation chirurgicale. Il n'y a aucun médicament qui répare le collagène. Les personnes avec un hEDS isolé peuvent être hautement fonctionnelles avec une protection articulaire et un pacing appropriés.
+
+**L'EM/SFC avec hEDS (la situation dont traite cette série).** Lorsque l'hypermobilité se superpose à l'EM/SFC, trois choses sont différentes :
+
+- **Le hEDS est un substrat permissif, pas la maladie centrale.** Le tissu conjonctif lâche abaisse le seuil — les vaisseaux font plus de pool, les mastocytes se déclenchent plus facilement, le microtraumatisme tissulaire libère plus d'ATP — mais le déficit énergétique et la dérégulation immunitaire de l'EM/SFC ne sont pas causés par l'hypermobilité. Ils s'en nourrissent [@Loth2026website].
+- **Traiter les articulations ne répare pas la crise énergétique.** La physiothérapie et les attelles peuvent réduire la douleur et stabiliser la fonction, mais elles n'abordent pas le MPE, le dysfonctionnement immunitaire ou l'hypoperfusion cérébrale. Une physiothérapie agressive qui ignore le MPE peut aggraver l'EM/SFC.
+- **Le traitement des amplificateurs en aval devient proportionnellement plus important.** Parce que vous ne pouvez pas réparer le collagène, les leviers cliniques sont les conditions que le tissu lâche permet : traiter le POTS par expansion du volume, traiter le SAM par antihistaminiques et stabilisateurs, protéger les articulations par attelles et pacing. L'art clinique n'est pas dans la réparation du collagène — il est dans la gestion de la cascade que le collagène lâche laisse passer.
+
+---
+
+## La taxe énergétique permanente
+
+Les modèles ODE du document principal incluent un paramètre explicite pour l'effet vasculaire du hEDS : un facteur d'amplification de la compliance veineuse κ, fixé à 1,3–2,0 (un paramètre de modèle heuristique choisi dans le document principal, pas une quantité mesurée). Le modèle prédit que **le hEDS impose une réduction permanente de 10 à 20 % de l'énergie disponible pour l'activité debout** — non pas des mitochondries, non pas du dysfonctionnement immunitaire, non pas du déconditionnement, mais de la physique des vaisseaux lâches nécessitant une plus grande commande sympathique compensatoire et un travail cardiaque plus élevé rien que pour maintenir la tension artérielle debout [@Loth2026website].
+
+Cette prédiction a des implications cliniques directes : la position allongée et les vêtements de compression bénéficient aux patients hEDS de manière disproportionnée, car ils réduisent mécaniquement le pool gravitationnel que les vaisseaux lâches ne peuvent pas contrôler. Cela explique aussi pourquoi les patients hEDS+EM/SFC tendent vers une plus grande gravité — le déficit du tissu conjonctif est une taxe permanente sur un budget énergétique déjà épuisé par la maladie centrale.
+
+---
+
+## L'essentiel
+
+Le SED hypermobile est réel comme entité clinique — environ 1 patient EM/SFC sur 6 répond aux critères diagnostiques stricts, et jusqu'à 81 % sont positifs à l'hypermobilité lors d'un dépistage plus large — mais il n'a aucun défaut moléculaire identifié, ses frontières diagnostiques sont contestées, et son lien mécanistique avec l'EM/SFC est soutenu plus par une plausibilité physiologique que par des preuves directes [@Eccles2021hypermobility][@MECFSScience2024heds].
+
+La biologie plus profonde, développée en détail dans le document principal, propose que l'hypermobilité n'est pas seulement un trait congénital mais peut être *acquise* par une dégradation du collagène médiée par les mastocytes (tryptase → MMP-3/-13, chymase → MMP-1, histaminylation), et que la boucle de rétroaction de rigidité de la matrice crée un système bistable qui, une fois basculé, peut ne pas se rétablir spontanément [@Loth2026website][@Zhu2026HistaminylationCollagen]. Une petite fraction (~5 à 10 %) de l'hypermobilité est expliquée par l'haploinsuffisance TNXB, un mécanisme génétique indépendant [@Imanaka2026TNXBHypermobility].
+
+La lecture honnête : le hEDS est mieux compris comme un **substrat permissif** qui rend chaque autre amplificateur plus fort — et la taxe énergétique permanente sur la posture debout signifie que le substrat lui-même n'est jamais neutre, même quand les amplificateurs en aval sont contrôlés. L'[article compagnon sur le traitement](../hypermobility-heds-treatment/index.qmd) couvre les options mécaniques, pharmacologiques et de thérapie émergente, et l'[article compagnon sur l'échec](../hypermobility-heds-failure/index.qmd) couvre ce qui se passe quand elles ne fonctionnent pas.
+
+**Suite de cette mini-série :** comment gérer réellement l'hypermobilité sur fond d'EM/SFC — physiothérapie, attelles, suppléments, soutien circadien du collagène, entraînement isométrique de résistance, doxycycline pour la MMP-9, tVNS, inhibiteurs de HIF-1α, et la discussion honnête « et si rien ne fonctionne » [[voir l'article sur le traitement]](../hypermobility-heds-treatment/index.qmd) et [[l'article sur l'échec du traitement]](../hypermobility-heds-failure/index.qmd).
+
+Pour une vue complète et entièrement citée de la manière dont les troubles du tissu conjonctif sont pesés parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].

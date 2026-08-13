@@ -1,0 +1,123 @@
+---
+title: "Autoimmunität Artikel 2: Immunadsorption, IVIG, Rituximab, Daratumumab — Entfernung der Antikörper und was es bedeutet, wenn das ME/CFS nicht behebt"
+description: "Ein allgemeinverständlicher Leitfaden zu autoimmungerichteten Behandlungen bei ME/CFS — Immunadsorption zur Entfernung von GPCR-Autoantikörpern, IVIG zur Immunmodulation, Rituximab und die Lehre aus dem Phase-III-Nullbefund, Daratumumab zur Plasmazell-Depletion, warum die kontrollierten Studien nicht mit den Open-Label-Signalen übereinstimmen, erwartete Ergebnisse und die ehrliche Diskussion 'was, wenn nichts hilft'."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Behandlung, Autoimmunität, IVIG, Immunadsorption, ME/CFS]
+lang: de
+---
+
+Wenn Sie ME/CFS und Hinweise auf GPCR-Autoantikörper haben, lautet die logische nächste Frage: Können wir sie entfernen? Die Behandlungen existieren — die Immunadsorption entfernt IgG physisch aus dem Blut, IVIG verdünnt pathogene Antikörper mit gepooltem gesundem Immunglobulin, Rituximab tötet die B-Zellen, die sie produzieren, Daratumumab geht einen Schritt weiter und tötet die Plasmazellen. Aber die Evidenz für jede erzählt eine konsistente Geschichte: Open-Label-Ergebnisse sind dramatisch; kontrollierte Ergebnisse sind ernüchternd.
+
+Dieser Artikel erklärt die Behandlungs-Evidenz. Für den konzeptionellen Hintergrund — was GPCR-Autoantikörper sind, das Fc-Glykoprofil und die Messkontroverse — siehe den [Begleitartikel zum Überblick](../autoimmunity/index.qmd).
+
+---
+
+## Zuerst eine klare Warnung
+
+*Alles unten beschreibt Interventionen im Krankenhaus mit erheblichen Risiken: Die Immunadsorption erfordert einen zentralvenösen Zugang und birgt Risiken für Infektion, Thrombose und Hypotonie. IVIG verursacht aseptische Meningitis, Thromboembolie und Anaphylaxie. Rituximab birgt das Risiko einer progressiven multifokalen Leukenzephalopathie. Daratumumab verursacht Infusionsreaktionen und Immunsuppression. Dies sind Behandlungen für schwer Betroffene, besprochen mit einem Immunologen — nicht selbst durchzuführen und nicht First-Line.*
+
+---
+
+## Die Behandlungs-Evidenz, von reifster zu am wenigsten reifer
+
+### Immunadsorption — der direkteste Mechanismus, die umstrittenste Evidenz
+
+Die Immunadsorption (IA) ist wie Dialyse für Antikörper. Blut wird durch eine Säule geleitet, die mit einem Liganden ausgekleidet ist, der IgG bindet — Tryptophan, Protein A oder ein synthetisches Peptid — und entfernt dabei ~80 % des zirkulierenden IgG in einer einzigen Sitzung. Ein typischer Zyklus besteht aus 5 Sitzungen über 10–14 Tage.
+
+Der Vorteil gegenüber dem Plasmaaustausch ist die Selektivität: IA entfernt IgG, ohne Albumin, Gerinnungsfaktoren oder andere Plasmaproteine zu entfernen. Der Nachteil ist, dass sie *alles* IgG entfernt — schützende Antikörper, Impfantworten und Autoantikörper gleichermaßen — und die Autoantikörper innerhalb von Wochen bis Monaten zurückkehren, wenn die B-Zellen und Plasmazellen, die sie produzieren, nicht angegangen werden.
+
+**Die Open-Label-Evidenz ist stark.** Die Scheibenbogen-Gruppe hat eine konsistente Serie veröffentlicht:
+- 2018-Pilotstudie (n=10): 70 % schnelle Besserung, 30 % anhaltend 6–12 Monate [@Scheibenbogen2018immunoadsorption].
+- 2020-Nachbehandlung (n=5): 80–90 % IgG- und β2AR-AAk-Reduktion, 4/5 anhaltende Besserung [@Tolle2020immunoadsorption].
+- 2025 (n=20 Post-COVID): IgG um 79 % reduziert, AAk um 77 %, **70 % Ansprechrate** (SF-36 PF ≥10 Punkte), dauerhaft nach 6 Monaten [@Stein2024immunoadsorption].
+
+**Die kontrollierte Evidenz ist ernüchternd.** Zwei Entwicklungen in den Jahren 2025–2026 haben das Bild verändert:
+- **Anft 2025** (unabhängiges Zentrum, n=12): AAk wurden eliminiert, Zytokine reduziert, eine neuropsychologische Verbesserung gemessen — aber **die ME/CFS-Symptomwerte verbesserten sich nicht**, und die AAk kehrten innerhalb eines Monats zurück [@Anft2025immunoadsorption]. Dies ist das diskordante Ergebnis, das einer Erklärung bedarf: Die Antikörperentfernung funktionierte biochemisch, übersetzte sich aber nicht in klinischen Nutzen.
+- **IA-PACS-CFS** (Charité, NCT05710770, scheinkontrolliert, ~65–66 Patienten): **Ein vorläufiger Konferenzbericht (Mai 2026) deutete keinen statistisch signifikanten Unterschied zwischen Immunadsorption und Scheinbehandlung auf der Chalder-Fatigue-Skala an** [@Pressler2024IAPACSCFSprotocol][@Rucker2026WirthScheibenbogen]. Eine Einschränkung relativiert dies: Die Studie selektierte nicht vorab auf antikörperpositive Patienten, sodass ein negatives Gesamtergebnis die Autoimmunhypothese nicht falsifiziert — es kann einfach bedeuten, dass Sie Antikörper von jemandem entfernen müssen, der sie hat.
+
+**Die Lehre aus der Diskordanz.** Die Immunadsorption entfernt Antikörper. Wenn ihre Entfernung die Symptome nicht verbessert, ist entweder (a) der Antikörper nicht pathogen (falsches Fc-Glykoprofil), (b) die von ihm verursachte Pathologie bereits irreversibel (Rezeptorinternalisierung, struktureller Schaden), (c) der Antikörper nicht die dominante Pathologie bei diesem Patienten, oder (d) die Antikörper-Rückkehr zu schnell für einen klinischen Nutzen. Alle vier sind plausibel, und die aktuellen Daten können sie nicht unterscheiden.
+
+### IVIG — Immunmodulation, nicht nur Antikörperverdünnung
+
+Intravenöses Immunglobulin (IVIG) in einer Dosierung von 0,4 g/kg täglich für 5 Tage, dann 0,4 g/kg alle 3–4 Wochen, bewirkt zwei Dinge: Es verdünnt pathogene Autoantikörper (eine geringere Wirkung als IA) und — wichtiger — es liefert immunmodulatorische Fc-Glykane von Tausenden gesunder Spender. Das sialylierte IgG in IVIG bindet DC-SIGN auf regulatorischen Makrophagen und induziert eine antiinflammatorische Verschiebung. Deshalb wirkt IVIG bei Erkrankungen (Kawasaki, CIDP, ITP), bei denen eine einfache Antikörperverdünnung nicht ausreichen würde.
+
+**Die Evidenz bei ME/CFS ist unkontrolliert.** Die Eckey-2025-Patientenbefragung (n=3.925) führte IVIG zu den positiver bewerteten Optionen im multisystemischen Symptomcluster (dafür wurde ein Wert um 73 % netto-positiv berichtet) — aber dies ist patientenberichtet, unkontrolliert und unterliegt einem Selektion-Bias, und die vollständige Aufschlüsselung der Befragung sollte direkt gelesen werden [@Eckey2025PatientReported]. Es gibt keine placebokontrollierte IVIG-RCT bei ME/CFS.
+
+**IVIG bei PANDAS — eine warnende Parallele.** PANDAS (pädiatrische autoimmune neuropsychiatrische Erkrankung assoziiert mit Streptokokkeninfektion) ist mechanistisch analog: Postinfektiöse Autoantikörper, die auf die Basalganglien abzielen, verursachen neuropsychiatrische Symptome. Eine placebokontrollierte IVIG-RCT von 2024 bei PANDAS war **null** — IVIG war nicht besser als Placebo. Die optimistische Lesart ist, dass die Studie unterpowert war oder die falschen Patienten eingeschlossen wurden. Die pessimistische Lesart — diejenige, die die Erwartungen für ME/CFS beschränken sollte — ist, dass postinfektiöse Autoantikörper-Syndrome möglicherweise nicht auf eine alleinige Antikörperverdünnung ansprechen [@Loth2026website].
+
+### Rituximab — die Lehre aus der B-Zell-Depletion
+
+Rituximab (Anti-CD20) depletiert B-Zellen — die Vorläufer der Plasmazellen, die Antikörper produzieren. Es verschont die langlebigen Plasmazellen (CD20-negativ), die im Knochenmark residieren und über Jahrzehnte weiterhin Antikörper sezernieren. Dies ist die mechanistische Erklärung dafür, warum Rituximab bei ME/CFS versagte.
+
+**Der Bogen der Evidenz ist lehrreich.** Die ersten Open-Label-Studien von Fluge & Mella (2009–2011) berichteten 67 % Ansprechraten — dramatisch, weit verbreitet berichtet und die Grundlage für die Phase-III-Studie RituxME. RituxME (n=151, doppelblind, placebokontrolliert) fand **26 % Rituximab vs. 35 % Placebo nach 24 Monaten — die Placebogruppe schnitt besser ab** [@Fluge2019]. Das Open-Label-Signal war Rauschen, verstärkt durch Erwartung und Regression zur Mitte.
+
+Die Lehre gilt für jedes andere Open-Label-Behandlungssignal bei ME/CFS: Unkontrollierte Ansprechraten überschätzen den Nutzen. Der RituxME-Nullbefund widerlegte die Autoimmunhypothese nicht — er bewies, dass die Depletion von B-Zellen ohne Depletion von Plasmazellen nicht funktioniert.
+
+---
+
+## Erwartete Ergebnisse
+
+- **Die beste Behandlungantwort ist partiell.** Selbst in den positiven Open-Label-Serien bedeutete "Responder" eine klinisch signifikante Verbesserung — nicht Genesung, nicht Rückkehr zur Arbeit, nicht Normalisierung des PEM. Die Behandlungen reduzieren den autoimmunen Beitrag; sie heilen ME/CFS nicht.
+- **Die IVIG-Antwort kann 3–6 Monate dauern.** Die Kombination aus Antikörperverdünnung und immunmodulatorischen Fc-Glykan-Wirkungen ist graduell. Ein einzelner Zyklus ist kein adäquater Versuch, aber ein Nullbefund nach 6 Monaten bei adäquater Dosierung reicht zum Absetzen aus.
+- **Die Immunadsorption wirkt biochemisch — das IgG fällt um 80 % — aber das garantiert keine klinische Verbesserung.** Die Anft-2025-Diskordanz (AAk weg, Symptome unverändert) ist der warnende Datenpunkt. IA sagt Ihnen etwas über den Antikörper; die klinische Antwort sagt Ihnen etwas darüber, ob der Antikörper pathogen war.
+- **Daratumumab spricht mit einer Latenz von 8–9 Monaten an, wenn das Signal real ist.** Dies ist die längste Latenz aller immungerichteten Behandlungen, und sie bedeutet, dass ein Versuch über 3–6 Monate falsch-negativ sein kann. Ein 12-Monats-Versuch ist das Minimum, um das Daratumumab-Signal zu beurteilen — und ein solcher Versuch wurde nicht durchgeführt.
+- **Behandlungsentscheidungen im Jahr 2026 werden unter echter Unsicherheit getroffen.** Das IA-PACS-CFS-Ergebnis wurde vorläufig berichtet (ein Konferenzbericht vom Mai 2026 deutete keinen signifikanten Nutzen gegenüber Scheinbehandlung an), und das kontrollierte EXTINCT-Ergebnis steht noch aus [@Rucker2026WirthScheibenbogen]. Die Glykoprofil-Hypothese ist mechanistisch elegant, aber klinisch ungetestet. Der ehrliche Ansatz ist ein zeitlich begrenzter, endpunktdefinierter Versuch — und die Disziplin, die Antwort zu akzeptieren, die er liefert.
+
+---
+
+## Ein Beispiel für einen strukturierten Versuch
+
+*Dies ist ein Beispiel, um Ihrem Arzt eine Arbeitsgrundlage zu geben — keine Selbstverordnung.*
+
+Die Voraussetzung sind dokumentierte GPCR-Autoantikörper in einem funktionellen Assay (Bioassay, nicht kommerzieller ELISA), ein postinfektiöser Beginn und ein POTS-dominantes autonomes Profil. Wenn diese nicht erfüllt sind, ist die Vortest-Wahrscheinlichkeit eines dominant autoimmunen Mechanismus niedrig, und diese Behandlungen sind wahrscheinlich ungeeignet.
+
+**Eine praktische Einschränkung zur Voraussetzung:** Der funktionelle GPCR-Bioassay ist meist nur in Forschungseinrichtungen verfügbar, nicht in der Routine-Klinik — sodass für die meisten Patienten die Antikörper-Hürde nicht tatsächlich erfüllt werden kann, bevor ein Versuch überhaupt besprochen werden kann. Wo ein funktioneller Assay nicht erhältlich ist, kollabiert die praktische Voraussetzung auf das klinische Bild allein: klarer postinfektiöser Beginn plus POTS-dominantes autonomes Profil mit dokumentierten orthostatischen Symptomen. Das ist ein schwächeres Tor als der Antikörpertest, und es sollte als solches gelesen werden — es senkt die Zuversicht, dass der Patient antikörperpositiv ist, macht die Behandlung aber nicht unangemessen, sie bei einem Spezialisten anzusprechen.
+
+Wenn das Profil stimmt, beginnen Sie mit der am wenigsten invasiven Option: IVIG 0,4 g/kg täglich für 5 Tage, dann 0,4 g/kg alle 3–4 Wochen. Wählen Sie ein einzelnes Ziel-Symptom — das autonome Symptom, das Sie am meisten einschränkt (Stehzeit, Präsynkopen-Häufigkeit, Herzfrequenzvariabilität bei orthostatischer Belastung). Bewerten Sie nach 6 Monaten neu. **Brechen Sie ab, wenn keine Besserung eintritt** — ein 6-monatiger IVIG-Nullversuch ist ausreichende Evidenz dafür, dass die Immunglobulintherapie nicht der Hebel ist. Beachten Sie, dass IVIG teuer ist (oft mehrere tausend Dollar pro Infusionszyklus) und, da bei ME/CFS off-label, häufig einer Vorabgenehmigung unterliegt und oft abgelehnt wird — sodass Zugang, nicht nur klinische Eignung, ein reales Hindernis ist, das im Voraus besprochen werden sollte.
+
+Wenn IVIG eine partielle Besserung erzielt, die AAk aber noch erhöht sind, und der Patient schwer betroffen ist (hausgebunden oder bettlägerig), besprechen Sie die Immunadsorption mit einem spezialisierten Zentrum. Ein 5-Sitzungs-IA-Zyklus (10–14 Tage) sollte das IgG um ~80 % reduzieren. Bewerten Sie 1 Monat nach der Behandlung neu. **Wenn sich die Symptome trotz ausreichender IgG-Reduktion nicht gebessert haben, ist die Lesart 'Antikörper sind die dominante Pathologie' nicht gestützt** — das könnte bedeuten, dass die Antikörper nicht pathogen waren, dass der von ihnen verursachte Schaden irreversibel ist oder dass sie nicht der Haupttreiber waren; die Daten, wie sie diese Serie diskutiert, trennen diese nicht sauber. In jedem Fall ist die handlungsrelevante klinische Schlussfolgerung dieselbe: Stoppen Sie die Antikörperentfernung und verlagern Sie sich auf das Management der nachgeschalteten Verstärker.
+
+Eskalieren Sie nur zu Daratumumab (wo verfügbar und unter spezialisierter Aufsicht), wenn sowohl IVIG als auch IA in der AAk-positiven postinfektiösen Untergruppe versagt haben — und nur innerhalb eines kontrollierten Forschungsprotokolls, angesichts des frühen Evidenzstadiums und der On-Target-NK-Zell-Depletion. Daratumumab ist ein teures Onkologie-Biologikum ohne zugelassene ME/CFS-Indikation; in der Praxis ist es effektiv auf spezialisierte/forschende Zentren beschränkt, die es beschaffen können, sodass es für die meisten Patienten keine realistisch erreichbare Option ist.
+
+---
+
+---
+
+## Was es bedeutet, wenn die Behandlung nicht hilft
+
+**Eins: Ein gescheiterter Immunadsorptionsversuch ist aufschlussreich.** Wenn das IgG um 80 % reduziert wurde und sich die Symptome nicht besserten, waren entweder die Antikörper nicht pathogen (Fc-Glykoprofil-Mismatch), die von ihnen verursachte Pathologie ist irreversibel (Rezeptorinternalisierung), oder die Antikörper-Rückkehr war zu schnell. Im ersten Fall ist eine weitere antikörpergerichtete Behandlung unwahrscheinlich hilfreich. Im zweiten und dritten könnte sie es — aber mit einer anderen Strategie (Erhaltung mit Daratumumab, nicht Puls mit IA).
+**Zwei: Ein gescheiterter IVIG-Versuch sagt, dass IVIG für Sie nicht funktioniert — und nichts mehr.** Er schließt einen autoimmunen Mechanismus nicht aus. IVIG ist immunmodulatorisch, nicht antikörperdepletierend, und Dosis, Marke und Infusionsrate beeinflussen alle die Verträglichkeit und möglicherweise die Wirksamkeit. Aber wenn IVIG in Standarddosen über 6 Monate keinen Nutzen erzielt, ist eine unbegrenzte Fortsetzung weder evidenzbasiert noch risikofrei.
+**Drei: Der RituxME-Nullbefund war ein Studienversagen, kein Hypothesenversagen.** Rituximab verschont Plasmazellen. Das Plasmazellen-Fabrik-Modell — gestützt durch das Daratumumab-Signal und die 8–9-monatige Latenz — steht weiterhin auf dem Tisch. Die Lehre aus RituxME ist nicht "Autoimmunität ist nicht der Mechanismus". Sie lautet "Deplenieren Sie nicht B-Zellen und erwarten Sie, Antikörper zu depletieren".
+**Vier: Eine Sequenz von Fehlschlägen — die Immunadsorption entfernt die Antikörper, aber die Symptome bestehen fort, IVIG erzielt keinen Nutzen, Daratumumab ist nicht verfügbar — ist echte Evidenz dafür, dass Autoimmunität nicht die dominante Pathologie ist, oder dass sie einmal dominant war, aber der von ihr verursachte Schaden jetzt selbst erhaltend ist.** In jedem Fall sind das nützliche Informationen. Stoppen Sie die Verfolgung antikörpergerichteter Behandlungen und konzentrieren Sie sich auf die nachgeschalteten Verstärker (POTS, MCAS, SFN), die die Autoimmunität möglicherweise ausgelöst hat.
+
+---
+
+## Die falsifizierbaren Vorhersagen
+
+- **Wenn das Glykoprofil die IA-Antwort vorhersagt** — G0F-dominante (proinflammatorische) Profile sprechen an; sialylierte Profile nicht — ist das Fc-Mechanismus-Modell klinisch handlungsrelevant und sollte zur Testung vor der Behandlung hinzugefügt werden [@Loth2026website].
+- **Wenn Daratumumab-Responder über 6–9 Monate einen Rückgang des pathogenen Antikörpertiters mit verzögerter klinischer Besserung zeigen**, ist das Plasmazellen-Fabrik-Modell gestützt, und die Latenz ist ein reales biologisches Phänomen, kein Placeboeffekt.
+- **Wenn sowohl IA-PACS-CFS als auch EXTINCT (Hannover, NCT05954325, n=63) in antikörperpositiven Untergruppen null zurückliefern**, erleidet die Autoimmunhypothese "einen Schlag, der mit dem Zusammenbruch von Rituximab zu RituxME vergleichbar ist" — die eigene Rahmung des Primärdokuments.
+- **Wenn der passive Transfer von ME/CFS-IgG bei Mäusen autonome Dysfunktion reproduziert** — das Experiment wurde bei Fibromyalgie und Long COVID durchgeführt, aber nie bei ME/CFS — bewegt sich der autoimmune Mechanismus von Assoziation zu Kausalität.
+
+---
+
+## Was Sie tatsächlich tun können
+
+- **Lassen Sie den richtigen Test machen, aber lesen Sie ihn kritisch.** Funktionelle GPCR-Autoantikörpertests (Bioassay, nicht ELISA) sind am aussagekräftigsten — aber nur in Forschungseinrichtungen verfügbar. Wenn Ihnen ein kommerzieller CellTrend-ELISA angeboten wird, wissen Sie, dass die Replikationsstudie von 2022 bei 100 % der gesunden Kontrollen α1-AAk-Positivität fand und der klinische Nutzen des Tests umstritten ist. Ein positives Ergebnis ist mehrdeutig. Ein negatives Ergebnis bei einem hochwertigen funktionellen Assay ist aussagekräftiger als ein positives Ergebnis bei einem unspezifischen ELISA.
+- **Der ehrlichste Prädiktor des Behandlungserfolgs ist nicht der Antikörpertiter — es ist, ob Sie einen klaren postinfektiösen Beginn und ein POTS-dominantes autonomes Profil haben.** Das β2-AAk-Signal korreliert mit der autonomen Schwere; die postinfektiöse Anamnese versetzt Sie in die Untergruppe, in der molekulare Mimikry der plausible Auslöser ist. Wenn Ihr ME/CFS schleichend, nicht-postinfektiös und eher schmerzdominiert als POTS-dominiert war, ist die Vortest-Wahrscheinlichkeit, dass ein autoimmuner Mechanismus der dominante Treiber ist, niedriger.
+- **Die Immunadsorption ist eine Spezialistenentscheidung für schwer Betroffene mit dokumentierten GPCR-Autoantikörpern und einem POTS-dominierten Profil.** Sie ist keine First-Line-Behandlung und keine allgemeine Empfehlung. Sie erfordert ein Zentrum mit IA-Erfahrung und einen Verschreiber, der die Evidenz-Grenzen versteht — einschließlich des ausstehenden IA-PACS-CFS-Ergebnisses und der Anft-2025-Diskordanz. Sie gehört auch zu den teuersten und am wenigsten verfügbaren Interventionen, die in dieser Serie beschrieben werden (Spezialistenzentrum, zentralvenöser Zugang, ein ~5-Sitzungs-Zyklus), sodass realistischer Zugang in den meisten Systemen als Hindernis angenommen werden sollte.
+- **IVIG ist eine risikoreichere, evidenzärmere Option, als ihr Ruf in der Patientengemeinschaft vermuten lässt.** Der PANDAS-IVIG-Nullbefund ist eine warnende Parallele. Die Eckey-2025-Befragungsdaten sind ermutigend, aber unkontrolliert. Ein 6-monatiger IVIG-Versuch mit definierten Endpunkten und einer Abbruchregel ist ein rationales Gespräch mit einem Immunologen, wenn GPCR-Autoantikörper dokumentiert sind und weniger invasive Optionen versagt haben — aber unbegrenztes IVIG ohne Beleg eines Nutzens ist keine gute Medizin. Die standardmäßigen Prä-IVIG-Sicherheitskontrollen — Serum-IgA-Spiegel (um eine IgA-Defizienz auszuschließen, bei der das Anaphylaxierisiko höher ist), Nierenfunktion und eine Thromboembolierisiko-Bewertung — sind Teil einer verantwortungsvollen Abklärung und sollten mit dem Verschreiber besprochen werden.
+- **Akzeptieren Sie, dass das Feld ungeklärt ist.** Das Daratumumab-Signal ist real, aber unkontrolliert. Das IA-PACS-CFS-Ergebnis wird nun in seiner vorläufigen Form abgewogen (was keinen klaren Nutzen gegenüber Scheinbehandlung nahelegt), und das EXTINCT-Ergebnis steht noch aus [@Rucker2026WirthScheibenbogen]. Die Glykoprofil-Hypothese ist mechanistisch elegant, aber klinisch ungetestet. Eine Behandlungsentscheidung im Jahr 2026 wird unter echter Unsicherheit getroffen — und der ehrliche klinische Ansatz ist, das anzuerkennen, einen zeitlich begrenzten Versuch mit Abbruchregel zu machen und die Antwort zu akzeptieren, die der Versuch liefert, in welche Richtung sie auch weist.
+
+---
+
+## Das Fazit
+
+Autoimmun gerichtete Behandlungen für ME/CFS existieren — Immunadsorption, IVIG, Rituximab, Daratumumab — aber die Evidenz ist ungleichmäßig, die Open-Label-Signale übersteigen die kontrollierten Ergebnisse in einem Muster, das RituxME unmöglich zu ignorieren machte, und die Messinstrumente, die identifizieren würden, wer anspricht (funktionelle Bioassays, Fc-Glykoprofile), sind klinisch nicht verfügbar. Das Daratumumab-Signal — 60 % deutliche Besserung in einer unkontrollierten Pilotstudie — ist die ermutigendste jüngste Entwicklung, aber das RituxME-Präzedenzfall verlangt eine kontrollierte Replikation, bevor es die Praxis ändert [@Fluge2025daratumumab][@Loth2026website].
+
+Der ehrliche klinische Ansatz ist ein zeitlich begrenzter, endpunktdefinierter Versuch in der antikörperpositiven, postinfektiösen, POTS-dominierten Untergruppe — und die Disziplin, aufzuhören, wenn der Versuch scheitert, und die Aufmerksamkeit auf die nachgeschalteten Verstärker zu verlagern, die die Autoimmunität, falls vorhanden, aktiviert hatte.
+
+**Als Nächstes in dieser Serie:** "Chained together" — der Synthese-Abschluss. Wie die Verstärker zu einer Krankheit werden und was das für die Behandlung bedeutet.
+
+Für das umfassende, vollständig zitierte Bild darüber, wie Autoimmunität unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet wird, siehe [@Loth2026website].

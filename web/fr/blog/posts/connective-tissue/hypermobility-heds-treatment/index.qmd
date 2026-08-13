@@ -1,0 +1,147 @@
+---
+title: "Hypermobilité Article 2 : Gérer l'hypermobilité sur fond d'EM/SFC — Physiothérapie, soutien circadien du collagène, inhibiteurs de MMP et thérapies émergentes"
+description: "Un guide en langage clair pour gérer le SED hypermobile et l'hypermobilité articulaire dans l'EM/SFC — les protocoles de résistance isométrique qui fonctionnent, le minutage circadien des cofacteurs du collagène (vitamine C, alpha-cétoglutarate), la glycine et la proline pour la synthèse, la doxycycline pour l'inhibition de la MMP-9, les thérapies émergentes (tVNS, inhibiteurs de HIF-1α, blocage de TGF-β1), la chirurgie de l'ICC, les résultats attendus et un exemple d'essai structuré travaillé."
+author: "Yannick Loth"
+date: "2026-08-12"
+lang: fr
+categories: [Traitement, Hypermobilité, hEDS, EM/SFC, Tissu conjonctif]
+---
+
+Si vous avez une EM/SFC et une hypermobilité, vous avez déjà appris qu'aucun médicament ne répare le collagène. Mais le document principal derrière cette série contient une architecture de traitement étonnamment profonde — pas une molécule magique unique, mais un ensemble coordonné d'interventions mécaniques, nutritionnelles, pharmacologiques et émergentes qui ciblent différents points de la cascade d'amplification du tissu conjonctif.
+
+Cet article explique l'architecture du traitement. Pour le contexte conceptuel — ce qu'est le hEDS, les cinq voies mécanistiques, l'hypermobilité progressive acquise, le lien avec la neurodivergence et la différence entre le hEDS seul et l'EM/SFC-avec-hEDS — voir l'[article compagnon de vue d'ensemble](../hypermobility-heds/index.qmd). Et pour la discussion honnête « et si cela ne fonctionne pas », voir l'[article compagnon sur l'échec du traitement](../hypermobility-heds-failure/index.qmd).
+
+---
+
+## D'abord, un avertissement simple
+
+*Tout ce qui suit est une conversation à avoir avec un clinicien, pas une auto-direction. Le traitement de l'hypermobilité est mécanique (physiothérapie, attelles, chirurgie), nutritionnel (suppléments qui soutiennent la synthèse du collagène) et pharmacologique (inhibiteurs de MMP hors indication, thérapies expérimentales). Rien de tout cela ne remplace le pacing, et une physiothérapie agressive dans l'EM/SFC peut causer du tort. Travaillez avec quelqu'un qui comprend à la fois les troubles du tissu conjonctif et le malaise post-effort. Si vous avez des symptômes neurologiques progressifs ou une perte de contrôle intestinal ou vésical, c'est une urgence — rendez-vous à l'hôpital.*
+
+---
+
+## Trois catégories de traitement
+
+| Catégorie | Ce qu'elle cible | Force des preuves |
+|----------|------------------|-------------------|
+| Mécanique | Soutien structurel, protection articulaire, inversion du déconditionnement, stabilisation de l'ICC | Modérée (physio) à faible (chirurgie ICC) |
+| Nutritionnel | Réticulation du collagène (minutage de la vitamine C, α-KG), précurseurs de la synthèse du collagène (glycine, proline), cofacteurs de la LOX (cuivre, B6) | Théorique (mécaniquement plausible ; aucun essai EM/SFC) |
+| Pharmacologique / expérimental | Inhibition de la MMP-9 (doxycycline), modulation mastocytaire de la MEC (tVNS), correction de l'isoforme HIF-1α, blocage de TGF-β1 | Très faible à expérimental |
+
+---
+
+## Mécanique : physiothérapie, attelles, compression et le piège déconditionnement-pacing
+
+### Le principe de résistance isométrique
+
+Dans le tissu conjonctif sain, la surcharge progressive — soulever des poids progressivement plus lourds sur une amplitude complète de mouvement — stimule la synthèse du collagène et renforce les tendons et les ligaments. Dans l'hypermobilité, la même approche peut provoquer une subluxation, car l'articulation manque de la stabilité passive pour contrôler le chargement en fin d'amplitude.
+
+L'adaptation, documentée dans la littérature de réadaptation du hEDS, est l'**entraînement en résistance isométrique et en amplitude moyenne** :
+
+- **Maintenus isométriques** — contracter un muscle sans bouger l'articulation — renforcent les muscles stabilisateurs sans solliciter le ligament à son amplitude maximale. C'est le mode de chargement le plus sûr pour les articulations hypermobiles [@Zabriskie2022hEDSresistance].
+- **Travail avec bandes de résistance** — les bandes élastiques fournissent une résistance variable qui est la plus faible au début du mouvement (là où l'articulation est la plus vulnérable) et la plus élevée à l'amplitude moyenne (là où les stabilisateurs sont le plus engagés). Ce profil convient mieux aux articulations hypermobiles que les poids libres [@Loth2026website].
+- **Évitez le chargement en fin d'amplitude.** Les patients hypermobiles doivent s'arrêter avant l'extension ou la flexion complètes — les derniers degrés de mouvement sont là où le ligament, pas le muscle, porte la charge.
+
+**La contrainte de l'EM/SFC.** Tout ce qui précède suppose que le patient peut faire de l'exercice sans déclencher le MPE — et cette supposition échoue pour la plupart des patients EM/SFC modérés à sévères. Le document principal est explicite : aucune étude d'exercice double hEDS+EM/SFC n'existe. Le principe général est que les maintenus isométriques doivent être brefs (secondes, pas minutes), bien en dessous du seuil anaérobique, et suivis d'un repos adéquat. Si une séance de physiothérapie produit du MPE — aggravation retardée de la fatigue, des symptômes cognitifs ou de l'intolérance orthostatique 12 à 48 heures plus tard — la charge était trop élevée, quel que soit le ressenti des articulations pendant la séance.
+
+### Attelles et soutien externe
+
+Pour les articulations instables — en particulier les genoux, chevilles, poignets, doigts et la colonne cervicale — l'attelle externe fournit la stabilité passive que les ligaments ne peuvent pas. Les anneaux de doigt pour les articulations hypermobiles des doigts, les attelles de cheville rigides et les colliers cervicaux souples sont courants. Le compromis : une attelle continue prolongée peut affaiblir les muscles stabilisateurs. Le compromis pratique est l'attelle intermittente — pendant l'activité, pas au repos — et le couplage de l'attelle avec un travail isométrique ciblé pour la même articulation.
+
+### Vêtements de compression
+
+La compression abdominale et des jambes (20 à 30 mmHg, montant jusqu'à la taille) est l'une des rares interventions qui cible directement la voie de laxité vasculaire avec des preuves physiologiques : une étude contrôlée dans l'EM/SFC a montré que les bas de contention amélioraient le débit cardiaque et le débit sanguin cérébral pendant le test d'inclinaison [@VisserVanCampenRowe2022compression]. Dans le hEDS, où le pool veineux est amplifié par la laxité de la paroi vasculaire, la compression est disproportionnellement bénéfique — elle réduit mécaniquement le pool gravitationnel que les vaisseaux lâches ne peuvent pas contrôler.
+
+### Chirurgie de fusion craniocervicale
+
+Pour les patients avec une instabilité craniocervicale démontrable (confirmée par IRM debout avec vues en flexion-extension) et des symptômes neurologiques progressifs, la stabilisation chirurgicale de la jonction crâne-colonne vertébrale (fusion C0–C2) est l'option la plus invasive. Une série a rapporté des taux d'amélioration de 60 à 80 %, mais avec un taux de complications de 19 % — défaillance du matériel, infection, maladie du segment adjacent — et aucune donnée de résultat contrôlée n'existe [@Bragee2020]. **C'est une décision de dernier recours prise avec un neurochirurgien spécialisé, pas une recommandation de routine.**
+
+---
+
+## Nutritionnel : donner à la machinerie du collagène ce dont elle a besoin
+
+### Minutage circadien du soutien du collagène
+
+Les prolyl-hydroxylases (P4H, P3H) sont les enzymes qui hydroxylent les résidus de proline dans les chaînes de collagène, créant les sites pour une réticulation stable. Ces enzymes présentent des rythmes circadiens — elles sont les plus actives pendant le sommeil, quand la synthèse du collagène est à son pic. Dans l'EM/SFC, l'inhibition médiée par les ROS des prolyl-hydroxylases est proposée comme une route vers une réticulation du collagène altérée [@Wirth2026CTDMECFS].
+
+- **Acide ascorbique (vitamine C)** — le cofacteur essentiel de la prolyl et de la lysyl-hydroxylase. Sans lui, le collagène ne peut pas se réticuler (le scorbut est un échec de réticulation du collagène). Le document principal propose un dosage minuté de 1000 mg d'acide ascorbique pendant la fenêtre d'endormissement, quand l'activité hydroxylase est à son pic, plutôt qu'à une heure fixe du matin [@Loth2026website].
+- **Alpha-cétoglutarate (α-KG)** — le substrat essentiel de la réaction d'hydroxylation. 200 mg minutés dans la même fenêtre.
+
+Les cofacteurs à faible dose sont généralement sûrs ; l'acide ascorbique à haute dose peut provoquer des troubles gastro-intestinaux, et l'α-KG est bien toléré aux doses de supplément typiques. C'est une intervention à faible risque, mécaniquement plausible et non testée — et elle doit être discutée avec un clinicien, pas auto-dirigée à fortes doses.
+
+### Précurseurs de la synthèse du collagène
+
+- **Glycine** — 3 à 5 g par jour, pris en doses divisées. La glycine est limitante pour la synthèse du collagène et est aussi un neurotransmetteur inhibiteur qui peut améliorer la qualité du sommeil. Généralement bien tolérée.
+- **Proline** — 500 mg à 1 g par jour. La justification est que la teneur élevée en proline du collagène en fait un précurseur limitant plausible dans les états à renouvellement élevé.
+- **Cuivre et vitamine B6** — cofacteurs de la lysyl oxydase (LOX), l'enzyme qui effectue l'étape finale de réticulation du collagène et de l'élastine. Un sous-ensemble d'hypermobilité acquise peut impliquer un déficit fonctionnel en LOX, rendant le statut en cuivre et B6 pertinent. La supplémentation en cuivre ne doit être faite qu'avec un déficit mesuré — l'excès de cuivre est toxique. La B6 doit être maintenue à une dose modeste (bien en dessous de 50 mg/jour) : la B6 à forte dose (au-dessus d'environ 100 mg/jour) peut elle-même provoquer une neuropathie sensorielle, donc surveillez les taux plutôt que de supplémenter de la B6 à forte dose à l'aveugle.
+
+Les limites honnêtes : aucun essai n'a testé la supplémentation en glycine ou en proline pour l'hypermobilité dans l'EM/SFC. La justification du précurseur est biochimiquement correcte — si vous devez synthétiser plus de collagène, vous avez besoin de glycine et de proline — mais on ne sait pas si l'augmentation de l'apport en précurseurs augmente la synthèse de collagène chez les patients hypermobiles avec EM/SFC. Ce sont des interventions à faible risque et mécaniquement plausibles. Elles ne sont pas prouvées.
+
+---
+
+## Pharmacologique : bloquer la MMP-9 avec la doxycycline à faible dose
+
+La cascade mastocyte → tryptase/chymase → MMP-3/-13/-1 dégrade le collagène. Parmi les MMP, la **MMP-9** (gélatinase B) est la plus constamment impliquée dans la dégradation du tissu conjonctif dans l'EM/SFC et les états post-infectieux. La doxycycline, à la dose classique sub-antimicrobienne anti-MMP, est un inhibiteur sélectif de la MMP-9. Elle se lie au site zinc catalytique et inhibe l'activité des MMP sans supprimer la flore bactérienne [@Loth2026website]. Le régime sub-antimicrobien standard est **20 mg deux fois par jour (40 mg/jour au total)** — délibérément en dessous de la plage antibiotique. Notez que l'extrémité supérieure de la plage parfois citée (40 mg deux fois par jour, c'est-à-dire 80 mg/jour) n'est pas réellement sub-antimicrobienne et s'approche d'un dosage antibiotique avec plus de photosensibilité et de risque de sélection de résistance ; à ce niveau, elle ne devrait pas être décrite comme « bien en dessous » d'une dose thérapeutique.
+
+La justification est spécifique à l'hypermobilité progressive *acquise* : si les enzymes mastocytaires dégradent activement le collagène, bloquer la MMP en aval qui exécute la dégradation peut ralentir ou inverser partiellement les dommages tissulaires. La doxycycline à faible dose est généralement bien tolérée (troubles gastro-intestinaux, photosensibilité). Elle est contre-indiquée pendant la grossesse et chez les enfants de moins de 8 ans. L'utilisation à long terme (>3 mois) n'a pas été étudiée pour cette indication. Aucun essai contrôlé randomisé de doxycycline à faible dose pour l'hypermobilité dans l'EM/SFC n'existe.
+
+### Une note sur ce qu'il ne faut pas prendre : acide ascorbique à forte dose plus fer
+
+L'acide ascorbique améliore l'absorption du fer, et la combinaison de vitamine C à forte dose avec une supplémentation en fer peut générer des radicaux hydroxyles par la réaction de Fenton, augmentant le stress oxydatif — l'inverse de ce dont la réparation du collagène a besoin. Si la vitamine C est utilisée à des doses de gramme, le fer ne doit pas être co-supplémenté à moins que la carence en fer soit documentée et que le prescripteur gère le minutage (séparez d'au moins 4 heures) [@Loth2026website].
+
+---
+
+## Thérapies émergentes : tVNS, inhibiteurs de HIF-1α, blocage de TGF-β1
+
+Ce sont des interventions expérimentales développées dans les modèles mécanistiques du document principal. Aucune n'a été testée dans des essais cliniques sur l'EM/SFC ou le hEDS. Elles sont listées ici pour être complètes, pas comme recommandations.
+
+### Stimulation transcutanée du nerf vague (tVNS)
+
+Le nerf vague innerve les mastocytes et module leur activité par la voie anti-inflammatoire cholinergique (α7nAChR). Un axe nerf vague-mastocyte-tissu conjonctif est proposé : la signalisation vagale supprime la dégranulation des mastocytes ; quand le tonus vagal est bas (comme dans l'EM/SFC), les mastocytes se déclenchent plus, libérant tryptase/chymase/MMP qui dégradent la MEC [@Loth2026website].
+
+La tVNS auriculaire (stimulation du tragus) est la forme la moins invasive. Un essai contrôlé randomisé en aveugle par simulation dans le POTS a montré que 2 mois de stimulation du tragus réduisaient l'augmentation de la fréquence cardiaque à la mise debout et abaissaient les auto-anticorps β1AR/α1AR [@Teixeira2024POTS]. L'extension à l'hypermobilité est spéculative : si la tVNS réduit la dégranulation des mastocytes, elle peut réduire la dégradation du collagène médiée par les MMP. **C'est une hypothèse au stade de la recherche, pas une recommandation clinique.**
+
+### Rééquilibrage de l'isoforme HIF-1α
+
+L'élévation chronique de HIF-1α entraîne l'expression des MMP (MMP-3, MMP-9), la production de VEGF et un remodelage pathologique du tissu conjonctif [@Wirth2026CTDMECFS]. Le document principal propose de passer de l'état pathologique à prédominance HIF-1α à un profil plus physiologique HIF-2α. Des agonistes HIF-2α à petite molécule (par ex., analogues de PT2385) existent dans le pipeline oncologique mais n'ont jamais été testés dans l'EM/SFC ou l'hypermobilité [@Loth2026website]. C'est préclinique.
+
+### Blocage de TGF-β1
+
+TGF-β1 est un régulateur maître de la fibrose et du dépôt de MEC. Dans le hEDS, le microtraumatisme chronique et l'activation des mastocytes peuvent entraîner une signalisation excessive de TGF-β1, produisant un épaississement de la membrane basale des capillaires parallèlement à une laxité des ligaments — une dérégulation de la MEC spécifique au compartiment. Le frésolimumab, un anticorps monoclonal anti-TGF-β1, a été testé dans la sclérodermie systémique. L'extension au hEDS+EM/SFC est entièrement théorique [@Loth2026website].
+
+---
+
+## Résultats attendus
+
+Soyez réaliste et patient. Le traitement de l'hypermobilité dans l'EM/SFC est une stratégie de gestion à vie, pas un traitement avec un point final.
+
+- **La physiothérapie fonctionne lentement et partiellement.** Le renforcement isométrique prend des mois pour produire des gains mesurables de stabilité articulaire. L'objectif n'est pas des articulations normales — c'est moins de subluxations, moins de douleur, une fonction améliorée dans les limites énergétiques. Une séance de physio qui ne déclenche pas le MPE est une victoire ; un programme de physio qui produit du MPE est un échec de dosage, pas un échec personnel.
+- **Le soutien circadien du collagène est une intervention lente et à faible signal.** S'il fonctionne, l'effet se mesurera en mois — réduction de la fréquence des blessures, légèrement meilleure stabilité articulaire — pas en jours. Le coût est faible (la vitamine C et l'α-KG sont peu chers), donc un essai de 3 à 6 mois est raisonnable si la fondation mécanique est déjà en place.
+- **La doxycycline à faible dose, si elle fonctionne, aborde la laxité acquise — pas la laxité congénitale.** Si votre hypermobilité est stable depuis l'enfance, la voie des MMP peut ne pas être active, et la doxycycline peut ne rien faire. Si votre hypermobilité s'est aggravée à l'âge adulte, corrélée aux poussées de SAM, la doxycycline est un essai mécaniquement rationnel mais non prouvé.
+- **La réponse partielle n'est pas un échec.** Mettre une attelle sur une seule articulation instable et pouvoir taper sans subluxer un doigt est une victoire. Rester debout 3 minutes de plus sans présyncope parce que vous avez utilisé la compression est une victoire. Le déficit énergétique peut toujours être là — vous avez abordé un contributeur dans un système multi-contributeurs.
+- **Traitez les amplificateurs en aval.** Parce que vous ne pouvez pas réparer le collagène, le levier clinique est dans ce que le tissu lâche permet : POTS (fludrocortisone, midodrine, ivabradine), SAM (antihistaminiques, stabilisateurs), douleur ([couverte dans l'article sur la douleur fibromyalgique](../../pain/fibromyalgia-pain-treatment/index.qmd)). Ces interventions ne dépendent pas de savoir si le hEDS est une maladie « réelle » ou une variante normale — elles ciblent une physiologie mesurablement anormale.
+
+---
+
+## Un exemple d'essai structuré
+
+*Ceci est un exemple pour donner à votre clinicien une base de travail — pas une auto-prescription.*
+
+Choisissez la seule articulation ou le seul symptôme qui vous limite le plus — une épaule qui se subluxe, une articulation sacro-iliaque douloureuse, une présyncope orthostatique due au pool veineux. Commencez par la fondation mécanique : physio isométrique (exercices nommés, séances de 3 à 5 minutes, 3×/semaine), attelle pendant l'activité, compression de 20 à 30 mmHg montant jusqu'à la taille pendant les heures debout. Réévaluez à 8 semaines.
+
+Si la fondation mécanique est en place mais que la laxité articulaire est progressive — plus de subluxations, de nouvelles articulations impliquées, corrélation avec les poussées de SAM — ajoutez la doxycycline à faible dose : le dosage sub-antimicrobien standard est de 20 mg deux fois par jour (40 mg/jour), pas un dosage antibiotique. Réévaluez la stabilité articulaire à 12 semaines. **Arrêtez s'il n'y a aucun changement** — la doxycycline aborde la dégradation acquise médiée par les MMP, pas la laxité congénitale, et un résultat nul à 12 semaines signifie que la voie des MMP n'est pas le contributeur pertinent.
+
+Si la doxycycline n'est pas indiquée (laxité congénitale stable, pas de SAM, pas d'aggravation à l'âge adulte), ajoutez le soutien circadien du collagène : acide ascorbique 1000 mg minuté + α-KG 200 mg à l'endormissement. Réévaluez à 12 semaines.
+
+N'ajoutez qu'une seule intervention à la fois, et seulement après que la précédente ait été jugée à une dose et une durée adéquates. Tout ajouter d'un coup rend impossible de savoir ce qui a aidé. Tout le programme se déroule sous la condition qu'aucune séance ne déclenche le MPE — si une séance de physio produit du MPE, la charge est réduite, quel que soit ce que les articulations ont toléré.
+
+---
+
+## L'essentiel
+
+Le traitement de l'hypermobilité dans l'EM/SFC n'a pas de médicament unique ni de point final curatif. L'architecture est mécanique d'abord (physiothérapie isométrique, attelles, compression), nutritionnelle ensuite (vitamine C circadienne + α-KG, glycine, proline, cuivre/B6), et pharmacologique en troisième (doxycycline à faible dose pour la dégradation acquise médiée par les MMP, thérapies expérimentales pour le futur). La taxe énergétique permanente de 10 à 20 % sur la posture debout imposée par les vaisseaux lâches est une prédiction de modèle qui explique pourquoi les patients hEDS+EM/SFC tendent vers une plus grande gravité — et pourquoi le repos allongé et la compression ne sont pas seulement une gestion des symptômes mais de véritables interventions physiologiques [@Loth2026website].
+
+Le triage congénital-vs-acquis, le modèle bistable de rigidité de la matrice et le minutage circadien du soutien du collagène sont tous développés dans le document principal, pas établis dans des essais cliniques. Traitez-les comme des hypothèses à tester avec votre clinicien, pas comme des recommandations tranchées.
+
+**Suite de cette mini-série :** ce que cela signifie quand ces traitements ne fonctionnent pas — le piège déconditionnement-MPE, le point de basculement de la rigidité de la matrice et les limites honnêtes de la médecine actuelle pour un trait tissulaire permanent [voir l'article compagnon sur l'échec du traitement].
+
+Pour une vue complète et entièrement citée de la manière dont les troubles du tissu conjonctif sont pesés parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].

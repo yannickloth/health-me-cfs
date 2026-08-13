@@ -1,0 +1,119 @@
+---
+title: "Dysmotilité gastro-intestinale Article 2 : Traiter le SIBO, la gastroparésie et l'intestin — Régime, prokinétiques, antibiotiques, DAO, et ce que cela signifie quand rien n'aide"
+description: "Un guide en langage clair pour traiter la dysmotilité gastro-intestinale et le SIBO dans l'EM/SFC — l'espacement des repas et l'éviction pauvre en histamine comme premier levier, les antibiotiques pour le SIBO et les antimicrobiens à base de plantes, le régime élémentaire, les prokinétiques pour le soutien du CMM, la DAO pour l'intolérance à l'histamine, le butyrate pour la barrière, les résultats attendus, la discussion honnête « et si rien n'aide » et ce que vous pouvez réellement faire."
+author: "Yannick Loth"
+date: "2026-08-12"
+lang: fr
+categories: [Traitement, Dysmotilité GI, SIBO, EM/SFC, Intestin]
+---
+
+Si vous avez une EM/SFC et des symptômes intestinaux, vous êtes dans le seul système où vous avez une action directe — le régime est un levier que vous pouvez tirer sans ordonnance, sans spécialiste et sans quitter votre domicile. Mais les traitements au-delà du régime — antibiotiques pour le SIBO, prokinétiques, régime élémentaire — exigent un prescripteur, une compréhension du mécanisme et un plan pour ce qu'un échec signifie.
+
+Cet article explique l'architecture du traitement. Pour le contexte conceptuel — ce que sont la dysmotilité gastro-intestinale et le SIBO, les trois mécanismes et la distinction problèmes-intestinaux-seuls vs EM/SFC-avec-problèmes-intestinaux — voir l'[article compagnon de vue d'ensemble](../sibo-gi-dysmotility/index.qmd).
+
+---
+
+## D'abord, un avertissement simple
+
+*Tout ce qui suit est une conversation à avoir avec un clinicien, pas une automédication. Les antibiotiques pour le SIBO et les prokinétiques sont des médicaments sur ordonnance. Les régimes d'éviction — en particulier un régime pauvre en FODMAP ou pauvre en histamine prolongé — risquent la malnutrition et doivent être supervisés par un diététicien. Le régime élémentaire exige une supervision médicale. Les suppléments de DAO sont non réglementés.*
+
+---
+
+## L'échelle de traitement
+
+### Régime : le premier levier
+
+**Espacement des repas** — 4 à 5 heures entre les repas, pas de grignotage. Le complexe moteur migrant (CMM) ne s'active que pendant le jeûne. Chez une personne avec un CMM altéré, chaque grignotage remet le compteur à zéro. L'espacement des repas est le soutien du CMM non pharmacologique le plus simple, le moins coûteux, et ne nécessite aucune ordonnance, aucun diététicien et aucun supplément. Si l'espacement des repas seul réduit les ballonnements et la satiété précoce en 2 semaines, vous avez identifié une composante symptomatique dépendante de la motilité — et cela vous dit quelque chose d'utile sur le mécanisme.
+
+**Régime d'éviction pauvre en histamine** — 3 à 4 semaines d'éviction stricte des aliments riches en histamine (affinés, fermentés, salaisons, poisson en conserve, crustacés, tomates, épinards, aubergine, avocat, alcool), suivies d'une réintroduction structurée. Si les symptômes s'améliorent de >50 % en 3 à 4 semaines, l'histamine est un contributeur. Si le poids chute ou que rien ne change dans cette fenêtre, arrêtez — une restriction prolongée sans bénéfice cause une malnutrition et un risque de trouble alimentaire sans justification [@ComasBaste2020histamine].
+
+**Pauvre en FODMAP** — pour le sous-type à chevauchement de SCI (ballonnements, alternance de diarrhée et de constipation, douleur soulagée par les selles). Trois phases : éviction stricte de 4 à 6 semaines, réintroduction structurée de groupes FODMAP individuels, maintenance personnalisée. Exige un diététicien — la phase de restriction est nutritionnellement inadéquate si elle est prolongée, et une éviction FODMAP non supervisée peut aggraver la dysbiose en affamant les bactéries bénéfiques qui fermentent les fibres.
+
+### Traitement du SIBO
+
+**Rifaximine** 550 mg trois fois par jour pendant 14 jours — en première intention pour le SIBO prédominant en hydrogène. Elle est non absorbée (reste dans l'intestin), a un faible profil d'effets secondaires et a des preuves d'essai pour le SCI avec SIBO. Si le méthane est élevé (IMO — prolifération intestinale de méthanogènes), ajoutez **la néomycine** 500 mg deux fois par jour. La néomycine comporte un **avertissement d'ototoxicité encadré et est néphrotoxique**, et elle est partiellement absorbée même par voie orale (~1 à 3 %), donc elle est **contre-indiquée en cas d'insuffisance rénale** et ne doit être utilisée qu'à court terme en gardant à l'esprit le dépistage auditif/acouphènes et rénal — un véritable point de sécurité, pas un ajout de routine. Si le sulfure d'hydrogène est suspecté (gaz à odeur d'œuf pourri, diarrhée), **le métronidazole** (typiquement 500 mg trois fois par jour) ou la réduction du sulfate alimentaire est plus ciblé — le métronidazole provoque une réaction de type disulfirame avec l'alcool et interagit avec la warfarine, donc les deux doivent être signalés. Le SIBO récidive si le défaut de motilité n'est pas traité — les antibiotiques seuls sont suivis d'un taux de récidive substantiel (couramment rapporté autour de 44 % en environ 9 mois, bien que les estimations varient selon l'étude et la définition), ce qui explique pourquoi un prokinétique pour restaurer le CMM est généralement le point clé.
+
+**Antimicrobiens à base de plantes** — berbérine, allicine (pour le méthane), huile d'origan, neem — sont parfois utilisés contre le SIBO. Une étude comparative en tête-à-tête a rapporté des taux de normalisation comparables à la rifaximine (46 % contre 34 %), mais c'est une comparaison d'un seul essai, de petit échantillon, pas une preuve solide d'équivalence, et ces composés ne sont pas un substitut à un traitement antibiotique géré médicalement. Ils sont disponibles sans ordonnance, mais plusieurs mises en garde s'appliquent : la berbérine peut abaisser la tension artérielle et interagit avec les enzymes CYP450 ; l'huile d'origan est caustique pour l'œsophage si elle est prise non diluée ; et les suppléments non réglementés varient en qualité et en standardisation, donc un produit acheté en ligne n'est pas la même dose ou pureté que le matériel d'étude. S'ils sont utilisés, ils doivent être discutés avec un clinicien et en aucun cas pris pour éviter un traitement prescrit de rifaximine.
+
+**Régime élémentaire** — une formule liquide de nutriments pré-digérés qui ne nécessite aucune digestion, affamant les bactéries tout en nourrissant le patient. 14 jours de régime élémentaire exclusif atteint une éradication du SIBO de 80 à 85 % — parmi les taux les plus élevés de toute intervention — mais la palatabilité, le coût et la charge pratique sont des obstacles significatifs [@PimentelElemental2004][@ElementalDiet2025]. Dans l'EM/SFC sévère, le régime élémentaire peut paradoxalement réduire la charge (pas de cuisine, pas de prise de décision sur la nourriture) tout en traitant le SIBO.
+
+**Prokinétiques** — érythromycine à faible dose (50 mg au coucher, agoniste de la motiline, stimule le CMM gastrique), prucalopride (1 à 2 mg par jour, agoniste 5-HT₄, stimule le CMM de l'intestin grêle) ou métoclopramide (typiquement 5 à 10 mg avant les repas et au coucher ; le seul médicament approuvé par la FDA pour la gastroparésie, mais il comporte un véritable risque de dyskinésie tardive, et la FDA limite l'utilisation continue à **12 semaines** car le risque augmente avec l'exposition cumulative — ce n'est pas une option à long terme). Les prokinétiques ne sont pas pour le traitement aigu du SIBO — ils sont pour prévenir la récidive après l'éradication, en restaurant le CMM qui maintient les bactéries balayées en aval.
+
+### Soutien de la barrière et du butyrate
+
+- **Butyrate** (butyrate de sodium 600 à 1200 mg deux fois par jour ou tributyrine) — la source d'énergie primaire des colonocytes, stabilisateur des jonctions serrées et inhibiteur de l'HDAC qui supprime la dégranulation des mastocytes jusqu'à 90 %.
+- **Carnosine de zinc** 75 mg deux fois par jour — stabilise la barrière muqueuse gastrique et intestinale.
+- **L-glutamine** 5 g par jour — le carburant principal des entérocytes pendant la réparation de la barrière de l'intestin grêle.
+
+### Supplémentation en DAO
+
+Les gélules d'enzyme DAO (dérivées de rein porcin), prises 15 minutes avant les repas, dégradent l'histamine alimentaire dans la lumière intestinale. Si les bouffées post-repas, la tachycardie et le brouillard cérébral s'améliorent, l'intolérance à l'histamine est *suggérée* — bien que pas définitivement confirmée, car une réponse à la DAO est aussi cohérente avec le placebo ou avec une réduction générale des symptômes intestinaux, et la DAO n'aborde que la charge d'histamine alimentaire, pas la production mastocytaire endogène. La DAO n'est pas un traitement du SAM. C'est un agent diagnostic-thérapeutique à faible risque qui peut être essayé parallèlement aux changements de régime.
+
+---
+
+## Résultats attendus
+
+- **L'espacement des repas fonctionne rapidement ou pas du tout.** Si des écarts de 4 à 5 heures entre les repas réduisent les ballonnements en 2 semaines, le CMM est fonctionnel et la motilité est le levier. S'il ne fait rien, le CMM peut être trop altéré pour que l'espacement des repas seul le restaure.
+- **Le régime pauvre en histamine est une sonde diagnostique de 3 à 4 semaines.** Si les symptômes s'améliorent, continuez avec une réintroduction structurée. Si rien ne change, arrêtez la restriction — ne dérivez pas vers une malnutrition à long terme.
+- **La rifaximine fonctionne dans le traitement de 14 jours ou pas du tout.** Si les ballonnements, la distension et les habitudes intestinales se normalisent, le SIBO était présent. Si rien ne change — et le test respiratoire était positif — une possibilité honnête est un test respiratoire faussement positif (~30 à 40 % de taux).
+- **Les prokinétiques préviennent la récidive, pas le SIBO aigu.** Si le SIBO récidive dans les 3 mois suivant les antibiotiques, le CMM n'est pas maintenu — ajoutez un prokinétique. Si le SIBO ne récidive pas sans prokinétiques, le CMM s'est rétabli tout seul.
+- **La DAO est une sonde diagnostique, pas une solution à long terme.** Si la supplémentation en DAO améliore les symptômes post-repas, l'ITH est un contributeur probable et la gestion diététique est la stratégie — bien que la réponse puisse aussi refléter le placebo. La supplémentation en DAO est évocatrice du mécanisme ; elle ne remplace pas l'éviction de l'histamine alimentaire.
+
+---
+
+## Un exemple d'essai structuré
+
+*Ceci est un exemple pour donner à votre clinicien une base de travail — pas une auto-prescription.*
+
+Commencez par l'espacement des repas : 4 à 5 heures entre les repas, pas de grignotage. Réévaluez les ballonnements et la satiété précoce à 2 semaines. Si c'est amélioré, continuez — vous avez une composante dépendante de la motilité.
+
+Ajoutez le régime pauvre en histamine pendant 4 semaines. **Réévaluez à 4 semaines.** Si les bouffées post-repas, la tachycardie et le brouillard cérébral s'améliorent de >50 %, l'histamine est un contributeur. Si rien ne change, arrêtez le régime — l'histamine n'est pas le mécanisme dominant.
+
+Si les ballonnements, la satiété précoce et les habitudes intestinales alternées persistent malgré l'espacement des repas, faites un test respiratoire au lactulose. Si l'hydrogène ou le méthane est élevé, traitez avec rifaximine 550 mg TID ± néomycine 500 mg BID pendant 14 jours. Réévaluez à 4 semaines après le traitement. **Si les symptômes du SIBO récidivent dans les 3 mois**, ajoutez un prokinétique (érythromycine 50 mg au coucher). Réévaluez à 12 semaines. Arrêtez le prokinétique si le SIBO n'a pas récidivé à 6 mois — le CMM peut s'être rétabli.
+
+Si tout ce qui précède échoue et que le SIBO est confirmé par des tests répétés, envisagez un régime élémentaire de 14 jours sous supervision médicale.
+
+**N'ajoutez qu'une seule intervention à la fois.** Tout ajouter d'un coup — espacement des repas + pauvre en histamine + rifaximine + prokinétique simultanément — rend impossible de savoir ce qui a aidé.
+
+---
+
+## Ce que cela signifie si le traitement ne fonctionne pas
+
+**Un : le traitement du SIBO peut échouer parce que le test respiratoire était un faux positif.** Les tests respiratoires ont un taux de faux positifs d'environ 30 à 40 %, et la conclusion « reste non prouvée » de la déclaration de consensus de 2024 est une véritable limite épistémique. Si la rifaximine et les antimicrobiens à base de plantes ne produisent aucun bénéfice, une possibilité honnête est que le SIBO n'a jamais été le problème — les symptômes avaient un mécanisme différent (hypersensibilité viscérale, SAM, transit rapide).
+
+**Deux : le régime pauvre en histamine peut échouer parce que l'histamine n'est pas le problème.** Si 4 semaines de réduction stricte de l'histamine alimentaire ne produisent aucun changement, et que la supplémentation en DAO échoue aussi, l'histamine est peu susceptible d'être un contributeur majeur — arrêtez la restriction alimentaire et cherchez d'autres mécanismes.
+
+**Trois : les prokinétiques peuvent échouer parce que le CMM est structurellement endommagé, pas seulement ralenti.** Si les ICC sont détruits par des auto-anticorps, pas seulement fonctionnellement supprimés, un médicament qui stimule la fonction résiduelle des ICC peut avoir un effet limité. La distinction importe pour les attentes — les prokinétiques soutiennent la fonction résiduelle ; ils ne régénèrent pas les cellules pacemaker perdues.
+
+**Quatre : l'intestin peut ne pas être l'amplificateur dominant.** Si vous avez traité le SIBO, éliminé l'histamine, restauré le butyrate et pris des prokinétiques — et que la fatigue, le brouillard cérébral et le MPE sont inchangés — l'intestin était un passager, pas un moteur, dans votre cas spécifique. C'est une information honnête et utile. Arrêtez de poursuivre les traitements ciblant l'intestin et passez à l'amplificateur suivant.
+
+**Cinq : le régime élémentaire peut échouer parce que la cause sous-jacente n'a jamais été les bactéries.** Le régime élémentaire retire tout substrat alimentaire pour la fermentation bactérienne — si 14 jours de régime élémentaire exclusif ne produisent aucune amélioration, les symptômes n'étaient pas entraînés par la prolifération bactérienne. Ils peuvent être une hypersensibilité viscérale, un SAM ou un transit rapide. C'est une découverte — le traitement du SIBO le plus agressif disponible a été testé et a échoué, et la probabilité que le SIBO soit le mécanisme dominant chute substantiellement.
+
+---
+
+## Les prédictions falsifiables
+
+- **Si les stabilisateurs de mastocytes (cromolyne, kétotifène) améliorent la dysmotilité gastro-intestinale indépendamment des changements de régime**, les médiateurs mastocytaires sont un frein de motilité direct, et les stabilisateurs sont en amont des prokinétiques dans l'algorithme de traitement.
+- **Si la supplémentation en butyrate réduit les marqueurs de dégranulation des mastocytes (méthylhistamine urinaire, métabolite de la prostaglandine D₂) dans l'EM/SFC SIBO-positive**, la voie déficit-en-butyrate→désinhibition-des-mastocytes est cliniquement pertinente et l'axe microbiome-mastocyte est un mécanisme ciblable.
+- **Si les prokinétiques préviennent la récidive du SIBO chez les patients avec une fonction ICC normale (anti-CdtB/anti-vinculine négatifs) mais échouent chez les patients avec des anticorps anti-ICC positifs**, le mécanisme de dommages aux ICC est cliniquement exploitable et les tests d'anticorps devraient guider les attentes des prokinétiques.
+
+---
+
+## Ce que vous pouvez réellement faire
+
+- **Commencez par l'espacement des repas.** Quatre à cinq heures entre les repas, pas de grignotage. Cela ne coûte rien, ne nécessite aucune ordonnance et soutient directement la fonction du CMM. Si cela aide, vous avez identifié une composante symptomatique dépendante de la motilité.
+- **Essayez un régime pauvre en histamine pendant 4 semaines avec une date d'arrêt claire.** Si les symptômes s'améliorent, l'histamine est pertinente. Si rien ne change, arrêtez la restriction.
+- **Faites un test respiratoire au lactulose, mais lisez-le de manière critique.** Un test positif suggère un SIBO ; un test négatif ne l'exclut pas. Traitez le tableau clinique, pas un chiffre limite.
+- **Si le SIBO est traité, ajoutez un prokinétique pour prévenir la récidive.** Les antibiotiques éliminent la prolifération ; seule une fonction du CMM restaurée empêche qu'elle revienne.
+- **Envisagez la DAO avant les repas comme sonde diagnostique.** Une amélioration cohérente liée à la DAO suggère une ITH ; avoir besoin aussi d'antihistaminiques suggère une composante mastocytaire endogène supplémentaire (SAM) ; ni l'un ni l'autre n'aidant suggère que l'histamine n'est pas un contributeur majeur. Traitez chacun de ces signaux comme un signal évocateur, pas une preuve — la réponse peut aussi refléter le placebo ou une amélioration intestinale non liée.
+- **Acceptez que l'intestin est un amplificateur parmi plusieurs.** Le traiter peut réduire la charge totale de la maladie sans réparer la crise énergétique. Ce n'est pas un échec — c'est un ciblage précis dans un système multi-amplificateurs.
+
+---
+
+## L'essentiel
+
+Le traitement de la dysmotilité gastro-intestinale dans l'EM/SFC va de l'espacement des repas et de l'éviction pauvre en histamine aux antibiotiques pour le SIBO et au régime élémentaire, puis à la DAO, au butyrate et aux prokinétiques. Le régime est le premier levier — l'intervention que le patient contrôle directement — et la pharmacologie est de soutien, pas centrale [@Loth2026website].
+
+Un essai échoué de l'une ou l'autre intervention vous dit quelque chose de spécifique — quel mécanisme n'est pas dominant dans votre cas — et c'est une information utile, pas un échec personnel. L'architecture d'essai structuré (une intervention à la fois, critère nommé, règle d'arrêt nommée) est la façon de distinguer le signal du bruit dans un système multi-mécanismes.
+
+Pour une vue complète et entièrement citée de la manière dont la dysmotilité gastro-intestinale et le microbiome intestinal sont pesés parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].

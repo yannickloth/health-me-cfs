@@ -1,0 +1,111 @@
+---
+title: "SFN Artikel 1: Small-Fiber-Neuropathie — wenn die Verkabelung selbst bei ME/CFS falsch ist"
+description: "Ein allgemeinverständlicher Leitfaden zur Small-Fiber-Neuropathie und wie sie sich mit ME/CFS überschneidet — warum die Nerven selbst geschädigt, aber dennoch überreaktiv sind, wie Mastzellen Nervenenden durch Tryptase und PAR2 angreifen, die viszerale-vs-somatische Unterscheidung, die DRG-Autoimmunhypothese und der Unterschied zwischen SFN allein und SFN zusätzlich zu ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [SFN, ME/CFS, Neuropathie, Pathophysiologie]
+lang: de
+---
+
+Der Schmerz hat keine Naht. Brennend, schießend, zu locker oder zu straff, Wetter, das in Ihrer Haut landet. Kalte Böden sind elektrisch. Warmes Wasser sticht. Ihre Füße können Temperatur nicht von Schmerz unterscheiden — beide kommen als dasselbe Signal an. Und dieselben geschädigten Nerven, die in Ihrer Haut fehlfeuern, steuern auch Ihre Schweißdrüsen, Ihre Herzfrequenz und Ihren Darm. Die Verkabelung selbst ist falsch.
+
+Nun kommt der Rest von ME/CFS hinzu: die erschöpfende Müdigkeit, der Brain Fog, der nicht erholsame Schlaf. Irgendwo im Schaden zeigt eine Hautbiopsie eine reduzierte Nervenfaserdichte — objektiver Beweis dafür, dass die kleinen Fasern, die Ihre Haut, Ihre Blutgefäße und Ihre Organe innervieren, tatsächlich verloren sind. Und doch überreagieren dieselben Nerven auf alles. Paradoxe Hypersensitivität trotz Nervenschaden.
+
+Dieser Artikel ist der konzeptionelle Überblick. Was Small-Fiber-Neuropathie tatsächlich ist, wie Mastzellen Nervenenden durch Tryptase und PAR2 angreifen, die viszerale-vs-somatische Unterscheidung, die Autoimmunhypothese, die auf die Spinalganglien (DRG) abzielt, und der Unterschied zwischen SFN allein und SFN *zusätzlich zu* ME/CFS. Die Behandlungen — neuropathische-Schmerz-Medikamente, IVIG und Mastzell-Stabilisatoren — werden im [Begleitartikel zur Behandlung](../sfn-treatment/index.qmd) behandelt.
+
+---
+
+## Zuerst eine klare Warnung
+
+*Dies ist eine Erklärung, keine Selbstmedikationsempfehlung, und ich bin kein Arzt. Neuropathischer Schmerz erfordert eine sorgfältige Diagnose — einige Ursachen (Diabetes, Vitaminmangel, autoimmune Nervenerkrankungen) haben spezifische Behandlungen. Gabapentinoide und SNRIs sind verschreibungspflichtige Medikamente mit Nebenwirkungsprofilen, die Sedierung, Schwindel und Abhängigkeit umfassen. Arbeiten Sie mit einem Neurologen oder Schmerzspezialisten. Wenn Sie rasch fortschreitende Schwäche, den Verlust der Blasen- oder Darmkontrolle oder aufsteigende Taubheit haben, gehen Sie ins Krankenhaus.*
+
+---
+
+## Die Kurzfassung, wenn Sie nur einen Teil lesen
+
+- **SFN** ist ein Schaden an den kleinsten Nervenfasern — den dünn myelinisierten A-delta- und unmyelinisierten C-Fasern, die Schmerz, Temperatur und autonome Signale tragen. Der Goldstandard der Diagnose ist eine Hautbiopsie, die die intraepidermale Nervenfaserdichte (IENFD) misst.
+- **SFN ist bei ME/CFS häufig.** Schätzungen für biopsiebestätigtes SFN bei ME/CFS wurden in einem breiten Bereich berichtet (häufig um 30–50 % zitiert, je nach Kohorte und Kriterien; die Zahl ist umstritten), und sie steigt auf bis zu 80 % in Kohorten, die sich mit Mastzellerkrankungen überschneiden [@Oaklander2016autoimmuneSFN][@Novak2022]. Die gepoolte Prävalenz bei Fibromyalgie beträgt per Meta-Analyse ~49 % [@Grayston2019sfn].
+- **Drei Mechanismus-Familien konvergieren:** (1) Mastzell-Neurotoxizität — Tryptase aktiviert PAR2 auf Schwann-Zellen und sensorischen Neuronen und senkt die Schmerzschwellen; (2) mikrovaskuläre Ischämie — Endothel-Dysfunktion der Vasa nervorum hungert kleine Fasern an Sauerstoff aus; (3) IgG-vermittelte Autoimmunität, die auf die Spinalganglien abzielt — der passive Transfer von Patienten-IgG reduziert die IENFD bei Mäusen.
+- **SFN ist bei ME/CFS meist ein nachgeschalteter Verstärker.** Es erklärt den Schmerz und die Dysautonomie und verbindet direkt mit POTS (31 % der SFN-Patienten erfüllen die POTS-Kriterien [@Azcue2023sfn]), MCAS (80 % der Mastzellerkrankungs-Patienten haben SFN [@Novak2022]) und hEDS (24/24 hEDS-Patienten in einer Studie hatten SFN [@Cazzato2016sfn]).
+- **Die paradoxe Hypersensitivität trotz Nervenschaden** — brennender Schmerz durch eine leichte Berührung — ist ein Kennzeichen. SFN entfernt das sensorische Tor, und Mastzell-Mediatoren sensibilisieren die verbleibenden Fasern weiter.
+
+---
+
+## Was ist Small-Fiber-Neuropathie wirklich?
+
+Periphere Nerven kommen in Größen vor. Große, stark myelinisierte A-beta-Fasern tragen Berührung, Vibration und Positionssinn — diese misst die Nervenleitgeschwindigkeitsuntersuchung, und sie sind bei SFN *normal*. Die kleinen Fasern — A-delta (dünn myelinisiert) und C-Fasern (unmyelinisiert) — tragen Schmerz, Temperatur und autonome Signale. Sie sind zu klein, als dass Standard-Nervenleitgeschwindigkeitsuntersuchungen sie erkennen könnten, weshalb SFN für die Neurologie jahrzehntelang unsichtbar war.
+
+Die Hautbiopsie hat das geändert. Eine 3-mm-Stanzbiopsie vom Unterschenkel, immungefärbt für PGP9.5 (einen pan-neuronalen Marker), zählt die Nervenfasern, die die dermal-epidermale Verbindung kreuzen. Das Ergebnis — die intraepidermale Nervenfaserdichte (IENFD) — wird mit alters- und geschlechtsgematchten Normen verglichen. Werte unter dem fünften Perzentil sind diagnostisch für SFN [@Oaklander2022SFN].
+
+Bei einem gesunden Menschen melden kleine Fasern ruhig Temperatur, leichte Berührung und den inneren Zustand des Körpers an das Gehirn. Bei SFN gehen Fasern verloren — und die verbleibenden sind hypererregbar, feuern spontan und mit übertriebenen Amplituden. Das Ergebnis ist Schmerz ohne Verletzung: brennende, schießende, elektrische-Schaft-Sensationen in Ruhe, plus Allodynie (Schmerz durch normalerweise nicht-schmerzhafte Reize) und Hyperalgesie (übertriebener Schmerz durch leicht schmerzhafte Reize).
+
+---
+
+## Drei Mechanismus-Familien
+
+### Mastzell-Neurotoxizität: Tryptase → PAR2 → Nervensensibilisierung
+
+Dies ist die direkteste Verbindung zwischen zwei Septaden-Zuständen. Mastzellen sitzen neben kleinen Nervenfasern — in der Haut, um Blutgefäße, in der Darmschleimhaut und neben den Spinalganglien, wo die Zellkörper sensorischer Neuronen residieren. Wenn Mastzellen degranulieren, setzen sie Tryptase frei, die den **Protease-aktivierten Rezeptor 2 (PAR2)** auf Schwann-Zellen und sensorischen Nervenendigungen spaltet [@Novak2022].
+
+Die PAR2-Aktivierung hat zwei Konsequenzen. Erstens sensibilisiert sie die Nervenendigung — senkt ihre Feuerschwelle, sodass gewöhnliche Reize Schmerzsignale auslösen. Zweitens löst sie eine neurogene Entzündung aus — die Nervenendigung setzt Substanz P und CGRP frei, die zu Mastzellen zurückmelden und sie weiter aktivieren. Das erzeugt eine **selbstverstärkende Schleife**: Mastzelle feuert → Tryptase → PAR2 auf Nerv → Nerv setzt Substanz P frei → MRGPRX2 auf Mastzelle → Mastzelle feuert wieder. Die Schleife läuft ohne jeden externen Auslöser, und sie erklärt, wie ein Patient mit sowohl MCAS als auch SFN brennenden Schmerz haben kann, der mit keiner sichtbaren Gewebeverletzung korreliert.
+
+**CADM1** fügt eine physische Dimension hinzu. Dieses Zelladhäsionsmolekül koppelt Mastzellen physisch an sensorische Nervenendigungen. In Gegenwart von CADM1 steigt die Mastzell-Degranulation bei Nervenkontakt um ein Mehrfaches, und die IL-6-Freisetzung verdreifacht sich — die Adhäsion selbst verstärkt das Signal [@Magadmi2019].
+
+**Prävalenz der Verbindung:** Ungefähr 80 % der Patienten mit Mastzellerkrankungen haben SFN in der Hautbiopsie [@Novak2022], und unter POTS-Patienten mit SFN korreliert die GI-Symptomschwere mit der Neuropathie-Schwere [@Ekman2025SFNpots] — was nahelegt, dass derselbe Small-Fiber-Schaden sowohl den Hautschmerz als auch die Darmdysmotilität erklärt.
+
+### Mikrovaskuläre Ischämie: das Vasa-nervorum-Problem
+
+Kleine Nervenfasern hängen für die Sauerstofflieferung von einem dichten Kapillarnetz ab — den Vasa nervorum. Diese Kapillaren werden selbst von autonomen kleinen Fasern innerviert, die eine Rückkopplungsschleife bilden, die den Nervenblutfluss reguliert. Bei ME/CFS beeinträchtigt die Endothel-Dysfunktion die Vasodilatation, und die systemische Hypoperfusion reduziert die Sauerstofflieferung. Die Nervenfasern, bereits metabolisch anspruchsvoll (sie unterhalten ein langes Axon mit hohem ATP-Bedarf), werden ischämisch. Unmyelinisierte C-Fasern, die das höchste Oberflächen-zu-Volumen-Verhältnis und die geringste metabolische Reserve haben, versagen zuerst [@josephoaklander2021mecfssfn].
+
+Der Befund, dass SFN bei ME/CFS oft **nicht-längenabhängig** ist — das proximale Oberschenkel und den Fuß gleichermaßen oder sogar das Gesicht betreffend — weist vom klassischen "dying-back"-Muster der metabolischen Neuropathie weg und zu einem Prozess auf **Spinalganglien-** (DRG-) Ebene hin, wo der Zellkörper selbst geschädigt ist und nicht das distale Axon [@Azcue2023sfn].
+
+### IgG-vermittelte Autoimmunität: die DRG-Hypothese
+
+Die stärkste Evidenz für einen autoimmunen Mechanismus stammt aus Passivtransfer-Experimenten. Wenn IgG, das aus Fibromyalgie- oder Long-COVID-Patienten gereinigt wurde, in Mäuse injiziert wird, entwickeln die Mäuse reduzierte IENFD und Schmerzverhalten — die humanen Antikörper allein reichen aus, um die Neuropathie zu reproduzieren [@Goebel2021passiveTransferFM][@Mignolet2026passiveTransferLC]. Bei Long COVID wurde DRG-bindendes IgG spezifisch identifiziert, und IVIG — das pathogene Antikörper verdünnt und immunmodulatorische Fc-Glykane liefert — hat ein Signal bei autoimmuner (einschließlich nicht-längenabhängiger) SFN gezeigt [@Liu2020IVIG].
+
+Die Hypothese, im Primärdokument ausführlich entwickelt, ist, dass IgG, das auf neuronale Antigene im DRG abzielt — wo die Blut-Nerven-Schranke natürlich gefenstert und für zirkulierende Antikörper permeabel ist — eine Verletzung auf Zellkörper-Ebene an sensorischen Neuronen verursacht. Das nicht-längenabhängige Muster folgt direkt: Wenn der Zellkörper geschädigt ist, sind alle seine peripheren Zweige gleichzeitig betroffen, unabhängig von der Entfernung vom Zellkörper [@Loth2026website].
+
+**Die ehrliche Grenze:** Keine ME/CFS-spezifische Passivtransfer-Studie wurde veröffentlicht. Alle vorhandenen Daten stammen aus Fibromyalgie- und Long-COVID-Kohorten. Die DRG-Autoimmunhypothese für ME/CFS ist mechanistisch kohärent, durch das nicht-längenabhängige Muster gestützt und konsistent mit dem Behandlungssignal aus IVIG — aber sie wurde nicht direkt nachgewiesen.
+
+---
+
+## Die viszerale-vs-somatische Unterscheidung
+
+Einer der aufschlussreicheren jüngsten Befunde unterscheidet **viszerale** (innere Organe) von **somatischer** (Haut) Small-Fiber-Beteiligung. Acanfora et al. (2026) führten bei Long-COVID-Patienten gastrische Schleimhautbiopsien durch und fanden einen selektiven Verlust cholinerger Nervenfasern im Magen — aber **normale** Haut-IENFD. Die viszerale autonome Denervation war ohne somatische Denervation vorhanden, und sie korrelierte mit Herzfrequenzvariabilität, NT-proBNP und D-Dimer-Spiegeln [@acanfora2026vagaldenervation].
+
+Das ist für ME/CFS wichtig, weil es das SFN-Bild fragmentiert: Ein Patient könnte normale Beinhaut-Biopsieergebnisse haben und dennoch eine signifikante viszerale autonome Denervation aufweisen, die seine Gastroparese, orthostatische Intoleranz und kardialen Symptome antreibt. Die Hautbiopsie — der Goldstandard — beprobt nur somatische kleine Fasern. Die konfokale Hornhautmikroskopie (CCM), die die kleinen Fasern in der Hornhaut nicht-invasiv abbildet, könnte ein anderes — möglicherweise systemischeres — Bild erfassen, und Studien, die CCM mit Hautbiopsie bei ME/CFS vergleichen, laufen [@Azcue2025sfn].
+
+---
+
+## Der POTS–SFN–MCAS–hEDS-Schnittpunkt
+
+SFN sitzt am Kreuzungspunkt von vier Septaden-Zuständen:
+
+- **POTS:** 31 % der SFN-Patienten erfüllen die POTS-Kriterien; neuropathisches POTS — wo die Tachykardie durch sympathische Denervation in den Beinen angetrieben wird — ist ein distinkter Subtyp, der möglicherweise anders auf die Behandlung anspricht (Midodrin zur Vasokonstriktion statt Betablocker zur Frequenzkontrolle) [@Azcue2023sfn].
+- **MCAS:** 80 % der Mastzellerkrankungs-Patienten haben SFN; die Tryptase→PAR2→Nervensensibilisierungs-Schleife ist die biochemische Brücke zwischen den beiden Zuständen [@Novak2022].
+- **hEDS:** In einer Studie hatten alle 24 hEDS-Patienten eine reduzierte IENFD, und 95 % erfüllten die Kriterien für neuropathischen Schmerz. SFN kann der gemeinsame nachgeschaltete Pfad sein, an dem die strukturelle Bindegewebsanomalie und die funktionelle ME/CFS-Anomalie konvergieren — das lose Gewebe komprimiert und dehnt kleine Fasern, und die Fasern, bereits durch metabolischen und Immunstress verwundbar, können sich nicht erholen [@Cazzato2016sfn].
+- **Fibromyalgie:** 49 % gepoolte SFN-Prävalenz per Meta-Analyse. Das nociplastische-Schmerz-Bild und das neuropathische-Schmerz-Bild überschneiden sich bei Fibromyalgie so vollständig, dass einige Forscher argumentieren, die Unterscheidung sei klinisch und nicht biologisch — derselbe Small-Fiber-Schaden erzeugt sowohl das weit verbreitete-Schmerz-Muster der Fibromyalgie als auch die autonomen Symptome von POTS, und das diagnostische Label hängt davon ab, welche Symptome am prominentesten sind [@sommer2025fibromyalgiasfn].
+
+---
+
+## SFN allein vs. ME/CFS mit SFN
+
+**SFN allein (kein ME/CFS).** SFN ist die dominante Beschwerde. Der neuropathische Schmerz, die Temperaturdysregulation, die Schweißanomalien und die autonomen Symptome sind die behandelte Krankheit. Die diagnostische Abklärung konzentriert sich darauf, die Ursache zu identifizieren — Diabetes, Vitaminmangel, Autoimmunerkrankung, genetische Small-Fiber-Kanalopathien — und die Behandlung zielt, wo möglich, auf die zugrunde liegende Ursache oder, wo nicht, auf den neuropathischen Schmerz. Gabapentinoide, SNRIs und topische Mittel sind First-Line.
+
+**ME/CFS mit SFN (die Situation, um die es in dieser Serie geht).** Wenn SFN zusätzlich zu ME/CFS auftritt, sind drei Dinge anders:
+
+- **SFN ist ein Verstärker.** Der Nervenschaden erklärt den Schmerz und trägt zur Dysautonomie bei, aber die Behandlung der Nerven behebt nicht das Energieversagen oder die Immundysregulation [@Loth2026website].
+- **Schmerzmedikamente, die bei diabetischer Neuropathie wirken, können schlecht verträglich sein.** Gabapentinoide und SNRIs verursachen Sedierung, Schwindel und kognitive Verlangsamung — Nebenwirkungen, die bei ME/CFS teurer sind, wo Brain Fog und Müdigkeit bereits die zentralen Beschwerden sind. Das therapeutische Fenster ist enger.
+- **Ein gescheiterter neuropathischer-Schmerz-Versuch sagt nichts gegen den zugrunde liegenden Small-Fiber-Schaden.** Die Nerven sind objektiv geschädigt — die Biopsie und die QST zeigen es. Ein Medikament, das den Schmerz nicht kontrolliert, ist ein Versagen dieses Medikaments bei diesem Patienten, kein Beweis dafür, dass die Nerven in Ordnung sind. Unterscheiden Sie die beiden: "Gabapentin hat meinem Schmerz nicht geholfen" ist nützliche Pharmakologie. "Meine Nerven müssen normal sein, weil das Medikament nicht funktioniert hat" ist ein Denkfehler.
+
+---
+
+## Das Fazit
+
+Small-Fiber-Neuropathie ist bei ME/CFS real — häufig um 30–50 % biopsiebestätigt berichtet, je nach Kohorte und Kriterien, höher (bis zu 80 %) in Kohorten, die sich mit Mastzellerkrankungen überschneiden — und sie erklärt den brennenden Schmerz, die Temperaturdysregulation und einen Teil der autonomen Dysfunktion, die so viele Patienten beschreiben [@Oaklander2016autoimmuneSFN][@Novak2022]. Drei Mechanismen konvergieren: Mastzell-Tryptase→PAR2-Nervensensibilisierung, mikrovaskuläre Ischämie der Vasa nervorum und IgG-vermittelte DRG-Autoimmunität — und sie schließen sich nicht gegenseitig aus. Derselbe Patient kann alle drei haben [@Loth2026website].
+
+SFN ist meist ein nachgeschalteter Verstärker, nicht die Ursache, und die Behandlung des Schmerzes behebt nicht das Energieversagen. Aber der objektive Nervenfaser-Verlust in der Biopsie gehört zu den stärksten Evidenzstücken dafür, dass die Symptome biologisch real sind — und der Behandlungs-Begleiter behandelt die pharmakologischen, IVIG- und Mastzell-Stabilisierungsoptionen, die auf verschiedene Punkte in der Nervenschadenskaskade zielen.
+
+**Als Nächstes in dieser Mini-Serie:** die Behandlungen — Gabapentinoide, SNRIs, topisches Capsaicin und Lidocain, IVIG für autoimmunes SFN, Alpha-Liponsäure für metabolische Unterstützung und die Mastzell-Stabilisatoren, die die Tryptase→PAR2-Schleife unterbrechen [[siehe den Begleitartikel]](../sfn-treatment/index.qmd).
+
+Für das umfassende, vollständig zitierte Bild darüber, wie Small-Fiber-Neuropathie unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet wird, siehe [@Loth2026website].

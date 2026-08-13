@@ -1,0 +1,111 @@
+---
+title: "Chronische Infektion Artikel 1: EBV, HHV-6, durch Zecken übertragene Erkrankungen und die Infektion, die bei ME/CFS nie endete"
+description: "Ein allgemeinverständlicher Leitfaden zu chronischer Infektion und viraler Reaktivierung bei ME/CFS — warum EBV, HHV-6 und durch Zecken übertragene Erreger Jahre nach der akuten Erkrankung weiterhin Ihr Immunsystem signalisieren, der EBV→Mastzell→MMP-9-Pfad, abortive lytische Replikation, Poly-Herpesvirus-Co-Reaktivierung und der Unterschied zwischen aktiver Infektion allein und chronischer Immunstimulation zusätzlich zu ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Chronische Infektion, EBV, HHV-6, ME/CFS, Pathophysiologie]
+lang: de
+---
+
+Die Drüse in Ihrem Hals ist geschwollen, seit Sie sich vor Jahren vom Pfeifferschen Drüsenfieber "erholt" haben. Sie flackern bei Stress auf — die Halsschmerzen kehren zurück, die Lymphknoten schmerzen, die Müdigkeit vertieft sich — und man sagt Ihnen, es sei eine "vergangene Infektion". Ihre Antikörpertests zeigen hohe Titer gegen EBV und HHV-6, aber der Infektiologe sagt, das bedeute nur, dass Sie exponiert waren, nicht dass das Virus aktiv ist. Etwas spricht immer noch mit Ihrem Immunsystem.
+
+Nun kommt der Rest von ME/CFS hinzu: das PEM, der nicht erholsame Schlaf, der Brain Fog. Etwa 70 % der ME/CFS-Fälle folgen auf eine akute Infektion — EBV-Monomukleose, HHV-6-Roseola, durch Zecken übertragene Borrelien, Enterovirus, SARS-CoV-2 — und die Frage, die das Feld jahrzehntelang heimgesucht hat, ist, ob der Erreger noch da ist, die Krankheit noch antreibt, oder ob er ein Feuer entzündet und weggegangen ist. Das stärkste prospektive Präzedenzfall ist die Dubbo-Kohorte, wo ein erheblicher Anteil der Menschen mit EBV-, Ross-River-Virus- oder Q-Fieber-Infektionen ein postinfektiöses Fatigue-Syndrom entwickelte [@Hickie2006postinfectious].
+
+Dieser Artikel ist der konzeptionelle Überblick. Was EBV, HHV-6 und durch Zecken übertragene Erreger bei ME/CFS tatsächlich tun, das Modell der abortiven-lytischen-Replikation, das erklärt, warum antivirale Antikörper hoch sind, aber die Viruslast nicht nachweisbar ist, der EBV→Mastzell→MMP-9-Pfad, das Muster der Poly-Herpesvirus-Co-Reaktivierung und der Unterschied zwischen aktiver Infektion allein und chronischer Immunstimulation zusätzlich zu ME/CFS. Die Behandlungen — antivirale Mittel, Immunmodulatoren und warum die Evidenz dünner ist als die Mechanismen — werden im [Begleitartikel zur Behandlung](../chronic-infection-treatment/index.qmd) behandelt.
+
+---
+
+## Zuerst eine klare Warnung
+
+*Dies ist eine Erklärung, keine Selbstmedikationsempfehlung, und ich bin kein Arzt. Antivirale Medikamente (Valacyclovir, Valganciclovir) erfordern einen Verschreiber und Nierenüberwachung. Durch Zecken übertragene Infektionen erfordern eine spezialisierte Abklärung — unbehandelte Borreliose kann zu neurologischen und kardialen Komplikationen fortschreiten. Wenn Sie nach einem Zeckenstich einen neuen Bullaugen-Ausschlag, eine Gesichtslähmung oder Gelenkschwellung haben, suchen Sie dringend medizinische Hilfe.*
+
+---
+
+## Die Kurzfassung, wenn Sie nur einen Teil lesen
+
+- **Ein großer Anteil der ME/CFS-Fälle folgt auf eine akute Infektion** (häufig mit etwa 70 % zitiert, obwohl der genaue Anteil umstritten und retrospektiv ist), und die Big Four sind EBV/Monomukleose, HHV-6 (Roseola → neurotrop, integriert in Chromosomen), durch Zecken übertragene Borrelien (Borreliose) und SARS-CoV-2 — von denen jedes dokumentiert ist, einer Teilmenge von ME/CFS- und postinfektiösen Fatigue-Fällen vorauszugehen.
+- **Das zentrale Rätsel ist die abortive lytische Replikation (ALR).** Das Virus tritt in den lytischen Zyklus ein — exprimiert immunstimulatorische Proteine — stoppt aber, bevor es Virionen produziert. Es gibt keine messbare Viruslast im Blut, aber die viralen Proteine (dUTPasen, immediate-early-Gene) werden immer noch hergestellt, und das Immunsystem sieht sie immer noch. Das erklärt, warum Antikörpertiter hoch sind, aber die PCR negativ ist [@Cox2022dUTPaseMECFS].
+- **EBV aktiviert Mastzellen direkt.** Rekombinantes EBV-Protein, zu menschlichen Mastzellen gegeben, erhöhte die MMP-9-Freisetzung fast sechsfach (2.464 vs. 433 pg/ml) — und MMP-9 baut die Blut-Hirn-Schranke ab, sodass periphere Entzündungsmediatoren Zugang zum Gehirn erhalten [@Chinnappan2026IL11MMP9].
+- **Poly-Herpesvirus-Co-Reaktivierung ist die Regel, nicht die Ausnahme.** 72,5 % der ME/CFS-Patienten hatten erhöhte Antikörper gegen mehrere Herpesvirus-dUTPasen vs. 31 % der Kontrollen. EBV, HHV-6, CMV und VZV können zusammen reaktivieren — das Immunsystem führt einen viralen Mehrfrontenkrieg mit erschöpften Ressourcen [@Palomo2026herpesvirus].
+- **Chronische Infektion ist das hypothesenreichste Thema in der Septade.** Sie ist mechanistisch zentral, aber schwerer klar zu behandeln — antivirale Mittel, die die DNA-Replikation in vollständig lytischen Viren blockieren, können gegen ALR wirkungslos sein, und die Evidenz für sie bei ME/CFS ist schwach und unrepliziert.
+
+---
+
+## Die EBV-Verbindung: Mechanismus, nicht Serologie
+
+Das Epstein-Barr-Virus infiziert >90 % der Weltbevölkerung. Bei den meisten Menschen etabliert es eine Latenz in B-Zellen und bleibt lebenslang ruhend, unterdrückt durch T-Zell-Überwachung. Bei ME/CFS weisen mehrere Evidenzlinien auf eine EBV-Reaktivierung hin — aber "Reaktivierung" bedeutet nicht dasselbe wie akute Mononukleose.
+
+### Abortive lytische Replikation (ALR)
+
+Bei vollständiger lytischer Replikation exprimiert das Virus immediate-early-Gene (BZLF1, BRLF1), dann early-Gene (einschließlich BLLF3, der dUTPase), repliziert seine DNA, baut Virionen zusammen und lysiert die Zelle. ALR stoppt nach dem early-Gene-Stadium — die viralen Proteine werden hergestellt, aber kein infektiöses Virus wird produziert. Die Zelle wird nicht getötet, aber sie exprimiert virale Antigene, die das Immunsystem kontinuierlich unterdrücken muss.
+
+Warum das für ME/CFS wichtig ist: ALR erklärt die immunologische Signatur — hohe Antikörper gegen lytische Antigene (EA-D, VCA, dUTPase), aber nicht nachweisbare oder niedrige virale DNA im Blut. Das Virus "repliziert" nicht im konventionellen Sinne, aber es produziert aktiv Proteine, die Immunaktivierung, Entzündung und — entscheidend — Mastzell-Degranulation antreiben [@Cox2022dUTPaseMECFS].
+
+### Das dUTPase-Problem
+
+dUTPase ist ein konserviertes Herpesvirus-Enzym, das dUTP in dUMP umwandelt und so die Fehleinbau von Uracil in virale DNA verhindert. Es ist auch ein potentes **Pathogen-assoziiertes molekulares Muster (PAMP)** — das angeborene Immunsystem erkennt dUTPase über TLR2 und löst eine NF-κB-getriebene Zytokinproduktion aus. Die dUTPasen von EBV (BLLF3), HHV-6 (U45), VZV (ORF8) und CMV sind strukturell ähnlich genug, dass ein reaktivierendes Virus eine dUTPase produzieren kann, die die Immunantwort auf ein anderes kreuzstimuliert — eine mechanistische Grundlage für die Poly-Herpesvirus-Co-Reaktivierung [@Cox2022dUTPaseMECFS].
+
+Die EBV-dUTPase aktiviert auch NF-κB in Mastzellen, was die MMP-9-Expression antreibt. Dies ist die Brücke zwischen der viralen-Reaktivierungs-Geschichte und der Bindegewebsabbau-Geschichte, die in den Hypermobilitäts-Artikeln behandelt wird: Ein reaktivierendes Herpesvirus produziert ein Protein (dUTPase), das Mastzellen sagt, ein Enzym (MMP-9) freizusetzen, das Kollagen abbaut und die Blut-Hirn-Schranke öffnet. Das Virus ist nicht im Gehirn. Aber seine nachgeschalteten Produkte kommen dorthin.
+
+### EBV→Mastzell→MMP-9: der Pfad in Zahlen
+
+Chinnappan et al. (2026) testeten die direkte Wirkung von rekombinantem EBV-Protein auf menschliche Mastzellen in Kultur:
+- MMP-9-Freisetzung: **2.464 pg/ml (EBV) vs. 433 pg/ml (unstimuliert), p<0,001, n=3**
+- Zum Vergleich: LPS (ein bakterielles PAMP) produzierte 1.422 pg/ml — EBV war beim Antreiben von MMP-9 1,7× potenter als LPS
+- Dieselbe Studie fand erhöhtes Serum-IL-11 bei ME/CFS-Patienten — ein Zytokin, das die MMP-9-Expression aus Mikroglia verstärkt und so eine **zweite MMP-9-Verstärkungsschleife im Gehirn** erzeugt
+
+**Ehrlichkeits-Einschränkungen, weil sie wichtig sind.** Die Studie verwendete Nabelschnurblut-Mastzellen (nicht Patienten-Mastzellen), n=3 (die 12-Wochen-Kulturanforderung begrenzt die Replikation), Serum statt Plasma (MMP-9 ist 3–4× höher im Serum wegen der Plättchendegranulation während der Gerinnung), und die ME/CFS- und Kontrollgruppen waren nicht altersgematcht. Der Befund wurde nicht unabhängig repliziert. Die Effektrichtung — EBV-Protein aktiviert Mastzellen, um MMP-9 freizusetzen — ist mechanistisch wichtig und biologisch plausibel, aber die Größenordnung und Spezifität sind vorläufig [@Chinnappan2026IL11MMP9].
+
+---
+
+## HHV-6: der neurotrope Integrator
+
+Das humane Herpesvirus 6 (HHV-6) infiziert fast alle Kinder bis zum Alter von 2 Jahren (verursacht Roseola) und etabliert Latenz in T-Zellen, Monozyten und — entscheidend — im zentralen Nervensystem. HHV-6 ist das einzige humane Herpesvirus, das in das Wirtschromosom **integrieren** kann (ciHHV-6), wodurch ein permanentes genetisches Reservoir entsteht, das Standard-Antivirale nicht beseitigen können.
+
+Bei ME/CFS weisen mehrere Befunde auf eine HHV-6-Beteiligung hin:
+
+- **miR-aU14 trifft Mitochondrien.** HHV-6 kodiert eine microRNA, miR-aU14, die die Wirts-miR-30-Familie hemmt. miR-30 unterdrückt normalerweise p53 und DRP1 — die Entfernung dieser Hemmung aktiviert die p53-abhängige DRP1-Translokation zu den Mitochondrien und verursacht **mitochondriale Fragmentierung**. Das Virus infiziert Mitochondrien nicht direkt. Es sendet eine microRNA, die der Zelle sagt, ihre eigenen Mitochondrien zu brechen [@Schreiner2020HHV6MitoME].
+- **Postmortale Neuroinvasion.** HHV-6-miR-aU14 wurde im Plexus choroideus, Hippocampus, der Amygdala und den Spinalganglien (DRG) von ME/CFS-Patienten bei der Autopsie gefunden — und fehlte bei 24 Kontrollen. Die Stichprobe war n=3, sodass dies ein Befund ist, keine gesicherte Tatsache. Aber es platziert eine virale Nukleinsäure in genau den Gehirnregionen, die bei den kognitiven, autonomen und sensorischen Symptomen von ME/CFS beteiligt sind.
+- **Prävalenz.** Latentes oder persistierendes HHV-6 wurde in einigen Studien bei etwa 47 % der ME/CFS-Patienten vs. ungefähr 10 % der Kontrollen berichtet (Einzelstudien-Zahlen; Bereiche variieren je nach Assay und Definition).
+
+---
+
+## Durch Zecken übertragene Erkrankungen: Borreliose, Bartonella, Babesia
+
+**Borreliose (Borrelia burgdorferi)** verursacht eine akute Infektion, die mit 2–4 Wochen Antibiotika behandelt wird. In 10–20 % der Fälle bestehen die Symptome Monate bis Jahre fort — post-behandlungs-Borreliose-Syndrom (PTLDS). Es wird berichtet, dass sich PTLDS beim Kern-Symptomset (Müdigkeit, kognitive Dysfunktion, muskuloskelettaler Schmerz, Schlafstörung) stark mit ME/CFS überschneidet, was die beiden Zustände in der postinfektiösen Phase klinisch fast ununterscheidbar macht.
+
+Die Mechanismus-Debatte spiegelt die EBV-Debatte: Gibt es persistierende Borrelien (antibiotikarefraktäre Reservoirs, biofilmgeschützte Spirochäten), oder ist PTLDS eine postinfektiöse Immundysregulation, die den Erreger überdauert? Die Evidenz für persistierende Infektion — Kultur, PCR, Xenodiagnose — existiert, ist aber inkonsistent und technisch herausfordernd. Die Evidenz für postinfektiöse Immundysregulation — erhöhte Zytokine, T-Zell-Erschöpfung, Autoantikörpererzeugung — ist robust und spiegelt ME/CFS wider [@Nawrocki2025LymeSymptomsCDC].
+
+**Bartonella und Babesia** sind durch Zecken übertragene Ko-Infektionen, die weniger untersucht sind als Borreliose. Bartonella-DNA wurde in ~26 % und Babesia in ~24 % der ME/CFS-Kohorten nachgewiesen — aber diesen Studien fehlten gesunde Kontrollen, sodass die Baseline-Prävalenz der Gemeinschaft (die nicht null ist) unbekannt ist. Die ehrliche Position: Durch Zecken übertragene Ko-Infektionen sind beim exponierten Individuum plausible Beitragende; die Evidenz für sie als allgemeinen ME/CFS-Mechanismus ist schwach.
+
+---
+
+## Poly-Herpesvirus-Co-Reaktivierung
+
+Das Immunsystem bekämpft nicht ein Herpesvirus nach dem anderen. Die 72,5%ige Poly-Herpesvirus-Seroreaktivitätsrate (vs. 31 % bei Kontrollen) suggeriert, dass, wenn die Immunüberwachung schwächer wird — und T-Zell-Erschöpfung, NK-Dysfunktion und CD8+-Seneszenz sind alle bei ME/CFS dokumentiert — mehrere latente Herpesviren gleichzeitig reaktivieren [@Palomo2026herpesvirus].
+
+Das schafft ein Behandlungsproblem. Valacyclovir hemmt die EBV-DNA-Polymerase (lytische Replikation), hat aber keine Wirkung auf HHV-6. Valganciclovir deckt HHV-6 und CMV ab, ist aber toxischer. Kein einziges antivirales Mittel deckt alle vier (EBV, HHV-6, CMV, VZV) ohne additive Toxizität ab. Und keines blockiert ALR, weil die early-viralen Proteine vor dem DNA-Polymerase-Schritt produziert werden, auf den die Medikamente zielen.
+
+---
+
+## Chronische Infektion allein vs. ME/CFS mit chronischer Infektion
+
+**Aktive chronische Infektion allein (kein ME/CFS).** Aktive EBV-Replikation (PCR-positiv, nachweisbare Viruslast), aktive Borreliose (Kultur- oder PCR-bestätigt), aktives HHV-6 (Virämie bei Transplantationspatienten) — dies sind Infektionskrankheiten, die mit Antiviralen oder Antibiotika behandelt werden. Wenn der Erreger identifiziert ist und ein Medikament existiert, das ihn anzielt, ist die Behandlung unkompliziert: das Medikament geben, den Erreger überwachen, die Beseitigung bestätigen.
+
+**ME/CFS mit chronischer Immunstimulation (die Situation, um die es in dieser Serie geht).** Wenn die Infektionsgeschichte in der Vergangenheit liegt und das aktuelle Problem ALR, Immundysregulation oder postinfektiöse Autoimmunität ist, ändert sich die Behandlungslogik:
+
+- **Antivirale Mittel, die gegen lytische Replikation wirken, wirken möglicherweise nicht gegen ALR.** Die viralen Proteine, die die Immunantwort antreiben, werden vor dem Ziel-Schritt des Medikaments produziert. Ein negativer antiviraler Versuch beweist nicht, dass das Virus irrelevant ist — er beweist, dass das Medikament, in dieser Dosis, das spezifische Replikationsstadium, das aktiv ist, nicht unterbrochen hat.
+- **Ausrottung kann unmöglich sein.** Integriertes HHV-6 kann nicht entfernt werden. Latentes EBV in Gedächtnis-B-Zellen ist lebenslang. Das Behandlungsziel verschiebt sich von "den Erreger beseitigen" zu "die Immunaktivierung unterdrücken, die der Erreger verursacht".
+- **Der Wirts-Immundefekt kann der ratenlimitierende Faktor sein, nicht die Viruslast.** Wenn T-Zellen erschöpft und NK-Zellen dysfunktional sind, ist das Geben eines Antiviralen ohne Ansprache des Immundefekts wie das Geben eines Feuerwehrmanns eines kleineren Schlauchs, während der Wasserdruck fällt. Das Feuer ist nicht der Erreger; das Feuer ist die Immunantwort auf den Erreger, und die Antwort versagt, weil das Immunsystem erschöpft ist.
+
+---
+
+## Das Fazit
+
+Chronische Infektion ist der mechanistisch zentralste und therapeutisch frustrierendste der Septaden-Zustände. Die Evidenz, dass Herpesviren und durch Zecken übertragene Erreger bei ME/CFS beteiligt sind, ist stark — abortive lytische Replikation, Poly-Herpesvirus-Co-Reaktivierung, EBV→Mastzell→MMP-9 und HHV-6-mitochondriale Fragmentierung sind keine Randhypothesen. Aber die Evidenz, dass das Anzielen mit aktuellen Antiviralen ME/CFS verbessert, ist schwach und unrepliziert — und die Unterscheidung zwischen ALR (die Antivirale nicht blockieren) und lytischer Replikation (die sie blockieren) erklärt warum [@Loth2026website].
+
+Der [Begleitartikel zur Behandlung](../chronic-infection-treatment/index.qmd) behandelt die Antiviralen (Valacyclovir, Valganciclovir, Famciclovir), die Immunmodulatoren (Cimetidin), die Mastzell-Stabilisatoren, die den EBV→MMP-9-Pfad nachgeschaltet zum Virus abfangen, und die ehrliche Diskussion "was, wenn die Antiviralen nicht wirken".
+
+**Als Nächstes in dieser Mini-Serie:** die Antiviralen, die Evidenz und was ein negativer Versuch tut und nicht tut [[siehe den Begleitartikel]](../chronic-infection-treatment/index.qmd).
+
+Für das umfassende, vollständig zitierte Bild darüber, wie chronische Infektion unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet wird, siehe [@Loth2026website].

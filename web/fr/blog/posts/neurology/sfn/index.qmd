@@ -1,0 +1,111 @@
+---
+title: "NPF Article 1 : Neuropathie des petites fibres — quand le câblage lui-même est défectueux dans l'EM/SFC"
+description: "Un guide en langage clair sur la neuropathie des petites fibres et son chevauchement avec l'EM/SFC — pourquoi les nerfs eux-mêmes sont endommagés mais réagissent pourtant de manière excessive, comment les mastocytes attaquent les terminaisons nerveuses par la tryptase et PAR2, la distinction viscéral-vs-somatique, l'hypothèse auto-immune des ganglions rachidiens dorsaux, et la différence entre la NPF seule et la NPF sur fond d'EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-12"
+lang: fr
+categories: [NPF, EM/SFC, Neuropathie, Pathophysiologie]
+---
+
+La douleur n'a pas de couture. Brûlure, élancement, trop lâche ou trop serré, la météo qui se loge sous votre peau. Les sols froids sont électriques. L'eau chaude pique. Vos pieds ne peuvent pas distinguer la température de la douleur — les deux arrivent comme le même signal. Et les mêmes nerfs endommagés qui se déclenchent à tort dans votre peau pilotent aussi vos glandes sudoripares, votre fréquence cardiaque et votre intestin. Le câblage lui-même est défectueux.
+
+Ajoutez maintenant le reste de l'EM/SFC : la fatigue écrasante, le brouillard cérébral, le sommeil non réparateur. Quelque part dans les dommages, une biopsie cutanée montre une densité réduite de fibres nerveuses — une preuve objective que les petites fibres qui innervent votre peau, vos vaisseaux sanguins et vos organes sont réellement perdues. Et pourtant, ces mêmes nerfs réagissent de manière excessive à tout. Une hypersensibilité paradoxale malgré les dommages nerveux.
+
+Cet article est la vue conceptuelle d'ensemble. Ce qu'est réellement la neuropathie des petites fibres, comment les mastocytes attaquent les terminaisons nerveuses par la tryptase et PAR2, la distinction viscéral-vs-somatique, l'hypothèse auto-immune ciblant les ganglions rachidiens dorsaux, et la différence entre la NPF seule et la NPF *sur fond* d'EM/SFC. Les traitements — médicaments de la douleur neuropathique, IVIG et stabilisateurs de mastocytes — sont couverts dans l'[article compagnon sur le traitement](../sfn-treatment/index.qmd).
+
+---
+
+## D'abord, un avertissement simple
+
+*Ceci est une explication, pas un conseil d'automédication, et je ne suis pas médecin. La douleur neuropathique exige un diagnostic soigneux — certaines causes (diabète, carences vitaminiques, maladies nerveuses auto-immunes) ont des traitements spécifiques. Les gabapentinoïdes et les IRSNa sont des médicaments prescrits avec des profils d'effets secondaires incluant la sédation, les étourdissements et la dépendance. Travaillez avec un neurologue ou un spécialiste de la douleur. Si vous avez une faiblesse rapidement progressive, une perte de contrôle vésical ou intestinal, ou un engourdissement ascendant, rendez-vous à l'hôpital.*
+
+---
+
+## La version courte, si vous ne lisez qu'une partie
+
+- **La NPF** est un dommage aux plus petites fibres nerveuses — les fibres A-delta finement myélinisées et les fibres C non myélinisées qui transportent la douleur, la température et les signaux autonomes. Le diagnostic de référence est une biopsie cutanée mesurant la densité intra-épidermique de fibres nerveuses (DIEFN).
+- **La NPF est fréquente dans l'EM/SFC.** Les estimations de NPF confirmée par biopsie dans l'EM/SFC ont été rapportées dans une large fourchette (couramment citée autour de 30 à 50 %, selon la cohorte et les critères ; le chiffre est contesté), et elle monte jusqu'à 80 % dans les cohortes chevauchant les troubles des mastocytes [@Oaklander2016autoimmuneSFN][@Novak2022]. La prévalence regroupée dans la fibromyalgie est ~49 % par méta-analyse [@Grayston2019sfn].
+- **Trois familles de mécanismes convergent :** (1) neurotoxicité mastocytaire — la tryptase active PAR2 sur les cellules de Schwann et les neurones sensoriels, abaissant les seuils de douleur ; (2) ischémie microvasculaire — le dysfonctionnement endothélial des vasa nervorum affame les petites fibres d'oxygène ; (3) auto-immunité médiée par les IgG ciblant les ganglions rachidiens dorsaux — le transfert passif d'IgG de patients réduit la DIEFN chez la souris.
+- **La NPF est généralement un amplificateur en aval dans l'EM/SFC.** Elle explique la douleur et la dysautonomie, et elle se relie directement au POTS (31 % des patients NPF répondent aux critères du POTS [@Azcue2023sfn]), au SAM (80 % des patients avec trouble des mastocytes ont une NPF [@Novak2022]) et au hEDS (24/24 patients hEDS dans une étude avaient une NPF [@Cazzato2016sfn]).
+- **L'hypersensibilité paradoxale malgré les dommages nerveux** — une douleur brûlante à partir d'un léger toucher — est une marque distinctive. La NPF retire la porte sensorielle, et les médiateurs mastocytaires sensibilisent davantage les fibres restantes.
+
+---
+
+## Qu'est-ce que la neuropathie des petites fibres, vraiment ?
+
+Les nerfs périphériques existent en tailles. Les fibres A-beta larges et fortement myélinisées transportent le toucher, la vibration et le sens de la position — ce sont celles que les études de conduction nerveuse mesurent, et elles sont *normales* dans la NPF. Les petites fibres — A-delta (finement myélinisées) et C (non myélinisées) — transportent la douleur, la température et les signaux autonomes. Elles sont trop petites pour que les études de conduction nerveuse standard les détectent, ce qui explique pourquoi la NPF a été invisible pour la neurologie pendant des décennies.
+
+La biopsie cutanée a changé cela. Une biopsie à l'emporte-pièce de 3 mm sur le bas de la jambe, immunocolorée pour PGP9.5 (un marqueur pan-neuronal), compte les fibres nerveuses traversant la jonction dermo-épidermique. Le résultat — la densité intra-épidermique de fibres nerveuses (DIEFN) — est comparé à des normes appariées par âge et sexe. Des valeurs en dessous du cinquième percentile sont diagnostiques de la NPF [@Oaklander2022SFN].
+
+Chez une personne saine, les petites fibres rapportent tranquillement la température, le toucher léger et l'état interne du corps au cerveau. Dans la NPF, les fibres sont perdues — et celles qui restent sont hyper-excitables, se déclenchant spontanément et à des amplitudes exagérées. Le résultat est une douleur sans blessure : brûlure, élancement, sensations de choc électrique au repos, plus une allodynie (douleur à partir de stimuli normalement non douloureux) et une hyperalgésie (douleur exagérée à partir de stimuli légèrement douloureux).
+
+---
+
+## Trois familles de mécanismes
+
+### Neurotoxicité mastocytaire : tryptase → PAR2 → sensibilisation nerveuse
+
+C'est le lien le plus direct entre deux conditions de la Septade. Les mastocytes se trouvent le long des petites fibres nerveuses — dans la peau, autour des vaisseaux sanguins, dans la muqueuse intestinale et adjacents aux ganglions rachidiens dorsaux où résident les corps des neurones sensoriels. Quand les mastocytes dégranulent, ils libèrent de la tryptase, qui clive le **récepteur 2 activé par les protéases (PAR2)** sur les cellules de Schwann et les terminaisons nerveuses sensorielles [@Novak2022].
+
+L'activation de PAR2 a deux conséquences. Premièrement, elle sensibilise la terminaison nerveuse — abaissant son seuil de déclenchement pour que des stimuli ordinaires déclenchent des signaux de douleur. Deuxièmement, elle déclenche une inflammation neurogène — la terminaison nerveuse libère de la substance P et du CGRP, qui renvoient aux mastocytes et les activent davantage. Cela crée une **boucle auto-amplificatrice** : le mastocyte se déclenche → tryptase → PAR2 sur le nerf → le nerf libère de la substance P → MRGPRX2 sur le mastocyte → le mastocyte se déclenche à nouveau. La boucle tourne sans aucun déclencheur externe, et elle explique comment un patient avec à la fois un SAM et une NPF peut avoir une douleur brûlante qui ne corrèle avec aucune lésion tissulaire visible.
+
+**CADM1** ajoute une dimension physique. Cette molécule d'adhésion cellulaire couple physiquement les mastocytes aux terminaisons nerveuses sensorielles. En présence de CADM1, la dégranulation des mastocytes augmente de plusieurs fois au contact nerveux, et la libération d'IL-6 triple — l'adhésion elle-même amplifie le signal [@Magadmi2019].
+
+**Prévalence du lien :** environ 80 % des patients avec des troubles des mastocytes ont une NPF à la biopsie cutanée [@Novak2022], et parmi les patients POTS avec NPF, la sévérité des symptômes gastro-intestinaux corrèle avec la sévérité de la neuropathie [@Ekman2025SFNpots] — suggérant que le même dommage des petites fibres explique à la fois la douleur cutanée et la dysmotilité intestinale.
+
+### Ischémie microvasculaire : le problème des vasa nervorum
+
+Les petites fibres nerveuses dépendent d'un réseau capillaire dense — les vasa nervorum — pour l'apport en oxygène. Ces capillaires sont eux-mêmes innervés par des petites fibres autonomes, formant une boucle de rétroaction qui régule le débit sanguin nerveux. Dans l'EM/SFC, le dysfonctionnement endothélial altère la vasodilatation, et l'hypoperfusion systémique réduit l'apport en oxygène. Les fibres nerveuses, déjà métaboliquement exigeantes (maintenir un long axone avec des besoins élevés en ATP), deviennent ischémiques. Les fibres C non myélinisées, qui ont le plus grand rapport surface/volume et le moins de réserve métabolique, échouent en premier [@josephoaklander2021mecfssfn].
+
+La découverte que la NPF dans l'EM/SFC est souvent **non dépendante de la longueur** — affectant la cuisse proximale et le pied également, ou même le visage — pointe loin du schéma classique « dying-back » de la neuropathie métabolique et vers un processus au niveau du **ganglion rachidien dorsal** (GRD), où le corps cellulaire lui-même est endommagé plutôt que l'axone distal [@Azcue2023sfn].
+
+### Auto-immunité médiée par les IgG : l'hypothèse du GRD
+
+Les preuves les plus fortes d'un mécanisme auto-immun proviennent d'expériences de transfert passif. Quand des IgG purifiées de patients fibromyalgiques ou COVID long sont injectées à des souris, les souris développent une DIEFN réduite et des comportements de douleur — les anticorps humains seuls suffisent à reproduire la neuropathie [@Goebel2021passiveTransferFM][@Mignolet2026passiveTransferLC]. Dans le COVID long, des IgG se liant au GRD ont été spécifiquement identifiées, et l'IVIG — qui dilue les anticorps pathogènes et fournit des glycannes Fc immunomodulateurs — a montré un signal dans la NPF auto-immune (y compris non dépendante de la longueur) [@Liu2020IVIG].
+
+L'hypothèse, développée en détail dans le document principal, est que les IgG ciblant des antigènes neuronaux dans le GRD — où la barrière sang-nerf est naturellement fenêtrée et perméable aux anticorps circulants — provoquent une lésion au niveau du corps cellulaire des neurones sensoriels. Le schéma non dépendant de la longueur s'ensuit directement : si le corps cellulaire est endommagé, toutes ses branches périphériques sont affectées simultanément, quelle que soit la distance du corps cellulaire [@Loth2026website].
+
+**La limite honnête :** aucune étude de transfert passif spécifique à l'EM/SFC n'a été publiée. Toutes les données existantes proviennent des cohortes de fibromyalgie et de COVID long. L'hypothèse auto-immune du GRD pour l'EM/SFC est mécanistiquement cohérente, soutenue par le schéma non dépendant de la longueur, et cohérente avec le signal de traitement de l'IVIG — mais elle n'a pas été directement démontrée.
+
+---
+
+## La distinction viscéral-vs-somatique
+
+L'une des découvertes récentes les plus révélatrices distingue l'implication des petites fibres **viscérales** (organes internes) des **somatiques** (peau). Acanfora et al. (2026) ont réalisé des biopsies de la muqueuse gastrique chez des patients COVID long et ont trouvé une perte sélective des fibres nerveuses cholinergiques dans l'estomac — mais une **DIEFN** cutanée *normale*. La dénervation autonome viscérale était présente sans dénervation somatique, et elle corrélait avec la variabilité de la fréquence cardiaque, le NT-proBNP et les taux de D-dimères [@acanfora2026vagaldenervation].
+
+Cela importe pour l'EM/SFC parce que cela fragmente le tableau de la NPF : un patient pourrait avoir des résultats de biopsie cutanée de la jambe normaux et avoir quand même une dénervation autonome viscérale significative entraînant sa gastroparésie, son intolérance orthostatique et ses symptômes cardiaques. La biopsie cutanée — le standard de référence — n'échantillonne que les petites fibres somatiques. La microscopie confocale cornéenne (MCC), qui image les petites fibres de la cornée de manière non invasive, peut capturer un tableau différent — possiblement plus systémique — et des études comparant la MCC à la biopsie cutanée dans l'EM/SFC sont en cours [@Azcue2025sfn].
+
+---
+
+## L'intersection POTS–NPF–SAM–hEDS
+
+La NPF se situe au carrefour de quatre conditions de la Septade :
+
+- **POTS :** 31 % des patients NPF répondent aux critères du POTS ; le POTS neuropathique — où la tachycardie est entraînée par une dénervation sympathique dans les jambes — est un sous-type distinct qui peut répondre différemment au traitement (midodrine pour la vasoconstriction plutôt que bêta-bloquants pour le contrôle du rythme) [@Azcue2023sfn].
+- **SAM :** 80 % des patients avec trouble des mastocytes ont une NPF ; la boucle tryptase→PAR2→sensibilisation nerveuse est le pont biochimique entre les deux conditions [@Novak2022].
+- **hEDS :** Dans une étude, les 24 patients hEDS avaient une DIEFN réduite, et 95 % répondaient aux critères de la douleur neuropathique. La NPF peut être la voie en aval commune où l'anomalie structurelle du tissu conjonctif et l'anomalie fonctionnelle de l'EM/SFC convergent — le tissu lâche comprime et étire les petites fibres, et les fibres, déjà vulnérables au stress métabolique et immunitaire, ne peuvent pas se rétablir [@Cazzato2016sfn].
+- **Fibromyalgie :** 49 % de prévalence regroupée de NPF par méta-analyse. Le tableau de la douleur nociplastique et le tableau de la douleur neuropathique se chevauchent si complètement dans la fibromyalgie que certains chercheurs soutiennent que la distinction est clinique plutôt que biologique — le même dommage des petites fibres produit à la fois le schéma de douleur généralisée de la fibromyalgie et les symptômes autonomes du POTS, et l'étiquette diagnostique dépend des symptômes les plus proéminents [@sommer2025fibromyalgiasfn].
+
+---
+
+## NPF seule vs EM/SFC avec NPF
+
+**La NPF seule (sans EM/SFC).** La NPF est la plainte dominante. La douleur neuropathique, la dérégulation de la température, les anomalies de transpiration et les symptômes autonomes sont la maladie traitée. Le bilan diagnostique se concentre sur l'identification de la cause — diabète, carence vitaminique, maladie auto-immune, canalopathies génétiques des petites fibres — et le traitement cible la cause sous-jacente là où c'est possible, ou la douleur neuropathique là où ce n'est pas le cas. Les gabapentinoïdes, les IRSNa et les agents topiques sont en première intention.
+
+**L'EM/SFC avec NPF (la situation dont traite cette série).** Lorsque la NPF se superpose à l'EM/SFC, trois choses sont différentes :
+
+- **La NPF est un amplificateur.** Les dommages nerveux expliquent la douleur et contribuent à la dysautonomie, mais traiter les nerfs ne répare pas le déficit énergétique ni la dérégulation immunitaire [@Loth2026website].
+- **Les médicaments antidouleur qui fonctionnent dans la neuropathie diabétique peuvent être mal tolérés.** Les gabapentinoïdes et les IRSNa provoquent une sédation, des étourdissements et un ralentissement cognitif — des effets secondaires plus coûteux dans l'EM/SFC, où le brouillard cérébral et la fatigue sont déjà les plaintes centrales. La fenêtre thérapeutique est plus étroite.
+- **Un essai de douleur neuropathique échoué ne dit rien contre le dommage des petites fibres sous-jacent.** Les nerfs sont objectivement endommagés — la biopsie et le QST le montrent. Un médicament qui échoue à contrôler la douleur est un échec de ce médicament chez ce patient, pas une preuve que les nerfs sont sains. Distinguez les deux : « le gabapentine n'a pas aidé ma douleur » est une pharmacologie utile. « Mes nerfs doivent être normaux parce que le médicament n'a pas fonctionné » est une erreur de raisonnement.
+
+---
+
+## L'essentiel
+
+La neuropathie des petites fibres est réelle dans l'EM/SFC — couramment rapportée autour de 30 à 50 % confirmée par biopsie selon la cohorte et les critères, plus élevée (jusqu'à 80 %) dans les cohortes chevauchant les troubles des mastocytes — et elle explique la douleur brûlante, la dérégulation de la température et une partie du dysfonctionnement autonome que tant de patients décrivent [@Oaklander2016autoimmuneSFN][@Novak2022]. Trois mécanismes convergent : la sensibilisation nerveuse tryptase→PAR2 des mastocytes, l'ischémie microvasculaire des vasa nervorum et l'auto-immunité médiée par les IgG du GRD — et ils ne sont pas mutuellement exclusifs. Le même patient peut avoir les trois [@Loth2026website].
+
+La NPF est généralement un amplificateur en aval, pas la cause, et traiter la douleur ne répare pas le déficit énergétique. Mais la perte objective de fibres nerveuses à la biopsie est parmi les preuves les plus fortes que les symptômes sont biologiquement réels — et l'article compagnon sur le traitement couvre les options pharmacologiques, l'IVIG et la stabilisation des mastocytes qui ciblent différents points de la cascade des dommages nerveux.
+
+**Suite de cette mini-série :** les traitements — gabapentinoïdes, IRSNa, capsaïcine et lidocaïne topiques, IVIG pour la NPF auto-immune, acide alpha-lipoïque pour le soutien métabolique, et les stabilisateurs de mastocytes qui interrompent la boucle tryptase→PAR2 [[voir l'article compagnon]](../sfn-treatment/index.qmd).
+
+Pour une vue complète et entièrement citée de la manière dont la neuropathie des petites fibres est pesée parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].

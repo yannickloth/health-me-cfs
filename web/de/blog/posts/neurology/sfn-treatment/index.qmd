@@ -1,0 +1,134 @@
+---
+title: "SFN Artikel 2: Small-Fiber-Neuropathie bei ME/CFS behandeln — Schmerzmedikamente, IVIG, Mastzell-Stabilisatoren und was es bedeutet, wenn der Schmerz nicht aufhört"
+description: "Ein allgemeinverständlicher Leitfaden zur Behandlung der Small-Fiber-Neuropathie bei ME/CFS — die Leiter für neuropathischen Schmerz von Gabapentinoiden und SNRIs zu topischem Lidocain und Capsaicin, IVIG für autoimmunes SFN, Alpha-Liponsäure und metabolische Unterstützung, Mastzell-Stabilisatoren, die die Tryptase→PAR2-Schleife unterbrechen, erwartete Ergebnisse und die ehrliche Diskussion 'was, wenn nichts hilft'."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Behandlung, SFN, Neuropathie, ME/CFS, Schmerz]
+lang: de
+---
+
+Wenn Sie ME/CFS und Small-Fiber-Neuropathie haben — in der Hautbiopsie bestätigt oder durch brennenden, schießenden Schmerz und autonome Symptome stark nahegelegt —, stehen Sie vor einer Behandlungslandschaft, in der die Standardmedikamente für neuropathischen Schmerz Evidenz bei diabetischer Neuropathie und postherpetischer Neuralgie haben, nicht bei ME/CFS. Die Sedierungskosten von Gabapentinoiden sind schwerer, wenn Brain Fog bereits eine tägliche Realität ist. Und die autoimmun-SFN-Untergruppe — diejenige, die am wahrscheinlichsten auf IVIG anspricht — beginnt erst definiert zu werden.
+
+Dieser Artikel erklärt die Behandlungsarchitektur. Für den konzeptionellen Hintergrund — was SFN ist, die drei Mechanismus-Familien und die viszerale-vs-somatische Unterscheidung — siehe den [Begleitartikel zum Überblick](../sfn/index.qmd).
+
+---
+
+## Zuerst eine klare Warnung
+
+*Alles unten ist ein Gespräch, das Sie mit einem Kliniker führen sollten, keine Selbstmedikation. Medikamente für neuropathischen Schmerz verursachen Sedierung, kognitive Verlangsamung und — im Fall von Gabapentinoiden — physiologische Abhängigkeit, die ein überwachtes Ausschleichen erfordert. IVIG ist ein Blutprodukt mit Risiken für aseptische Meningitis, Thromboembolie und Anaphylaxie. Arbeiten Sie mit einem Neurologen oder Schmerzspezialisten, der ME/CFS versteht. Wenn Sie rasch fortschreitende Schwäche oder den Verlust der Blasen- oder Darmkontrolle haben, gehen Sie ins Krankenhaus.*
+
+---
+
+## Die Behandlungsleiter
+
+### Schritt eins: topische Mittel — niedrigstes Risiko, gezielte Abgabe
+
+**Lidocain-5%-Pflaster.** Direkt auf die schmerzhafteste Stelle für 12 Stunden aufgetragen, blockiert Lidocain die spannungsgesteuerten Natriumkanäle an den kleinen Nervenfasern in der Haut — dieselben Kanäle, die bei SFN hypererregbar sind. Es hat praktisch keine systemische Absorption und keine kognitiven Nebenwirkungen. Die Begrenzung ist praktisch: Es behandelt nur den Bereich unter dem Pflaster, und SFN-Schmerz ist oft weit verbreitet.
+
+**Capsaicin.** Niedrig konzentrierte Capsaicin-Creme (0,025–0,1 %), 3–4-mal täglich aufgetragen, verschlimmert zunächst das Brennen, indem es TRPV1 aktiviert, depletiert dann über Wochen Substanz P aus den Nervenendigungen und reduziert die Schmerzsignalübertragung. Das anfängliche Brennen ist eine Hürde — viele Patienten stoppen, bevor der Nutzen erscheint. Hoch konzentriertes Capsaicin-8%-Pflaster, von einem Kliniker für 30–60 Minuten unter lokaler Anästhesie aufgetragen, liefert eine Einzelbehandlung, die Schmerzlinderung für bis zu 3 Monate bieten kann, indem es die TRPV1-exprimierenden Nervenendigungen defunktionalisiert. Der Mechanismus ergibt für SFN Sinn — TRPV1 ist auf kleinen Fasern konzentriert — aber die Evidenz ist bei postherpetischer Neuralgie und HIV-Neuropathie, nicht bei ME/CFS.
+
+### Schritt zwei: orale Medikamente für neuropathischen Schmerz — mit der Sedierungs-Einschränkung
+
+**Gabapentinoide** (Gabapentin, Pregabalin). Diese binden die α2δ-Untereinheit spannungsgesteuerter Kalziumkanäle und reduzieren die Neurotransmitterfreisetzung aus hypererregbaren Nervenendigungen. Sie sind First-Line für neuropathischen Schmerz in den meisten Leitlinien. Das Problem bei ME/CFS ist **Sedierung, Schwindel und kognitive Verlangsamung** — genau die Symptome, gegen die der Patient bereits kämpft. Beginnen Sie niedrig (Gabapentin 100–300 mg zur Schlafenszeit, Pregabalin 25–50 mg), titrieren Sie langsam über Wochen und stoppen Sie, wenn die Sedierung den Nutzen überwiegt, bevor eine wirksame Dosis erreicht ist. Gabapentinoide verursachen physiologische Abhängigkeit; stoppen Sie nicht abrupt.
+
+**SNRIs** (Duloxetin 30–60 mg, Venlafaxin 75–225 mg). Diese verstärken absteigende inhibitorische Schmerzpfade, indem sie Noradrenalin und Serotonin im Rückenmark erhöhen. Duloxetin hat die beste Evidenz für neuropathischen Schmerz (diabetische Neuropathie, Fibromyalgie). SNRIs können aktivierend statt sedierend wirken — was bei ME/CFS-Müdigkeit ein Vorteil sein kann — können aber auch Schlaflosigkeit und Angst bei Beginn verschlimmern. Eine in dieser Serie relevante Vorsicht: **Venlafaxin erhöht den Blutdruck bei höheren Dosen**, was in einer POTS/orthostatischen Population überwacht werden muss. Die ehrliche Begrenzung: Die Fibromyalgie-Evidenz ist für Duloxetin positiv; die ME/CFS-spezifische Evidenz fehlt.
+
+**Trizyklische Antidepressiva** (Amitriptylin 10–50 mg zur Schlafenszeit, Nortriptylin 10–50 mg). Diese wirken durch Natriumkanal-Blockade und Noradrenalin-Wiederaufnahmehemmung. Sie sind wirksam bei neuropathischem Schmerz und haben den Vorteil, den Schlaf zu verbessern, wenn sie nachts eingenommen werden — aber die anticholinergen Nebenwirkungen (Mundtrockenheit, Verstopfung, Harnverhalt), die Morgensedierung und die **verschlechterte orthostatische Hypotonie durch α₁-Blockade können ein schlechter Fit für POTS-Patienten sein** — relevant, weil diese Serie POTS direkt behandelt.
+
+### Schritt drei: metabolische und ernährungsbedingte Unterstützung
+
+**Alpha-Liponsäure** 600–1800 mg täglich. Dieses Antioxidans verbessert den Nervenblutfluss und reduziert oxidativen Stress bei diabetischer Neuropathie, mit einem bescheidenen Effektgrößen. Die Begründung erstreckt sich auf ME/CFS — wenn mikrovaskuläre Ischämie zum Small-Fiber-Verlust beiträgt, kann die Verbesserung der Endothelfunktion und die Reduktion oxidativen Schadens die Progression verlangsamen. Die Evidenz ist bei Diabetes; keine ME/CFS-Studie existiert. Es wird bei diesen Dosen im Allgemeinen gut vertragen.
+
+**Acetyl-L-Carnitin** 1500–3000 mg täglich. Carnitin unterstützt den mitochondrialen Fettsäuretransport, und kleine Nervenfasern haben eine hohe mitochondriale Dichte in ihren Endigungen. Die Begründung ist metabolische Unterstützung für gestresste Neuronen. Auch hier ist die Evidenz diabetische Neuropathie, nicht ME/CFS.
+
+**B-Vitamine** (B12, Benfotiamin, B6). B12-Mangel verursacht eine Myeloneuropathie, die SFN imitieren kann; B12-Spiegel sollten geprüft und bei Niedrigkeit korrigiert werden. Benfotiamin (ein fettlösliches B1-Analogon) hat einige Evidenz bei diabetischer Neuropathie. **B6-Toxizität** — bei Dosen über 100 mg täglich — kann selbst eine sensorische Neuropathie verursachen, die genau wie SFN aussieht. Ergänzen Sie kein hochdosiertes B6 ohne Überwachung der Spiegel.
+
+### Schritt vier: IVIG — für die autoimmun-SFN-Untergruppe
+
+Wenn SFN IgG-vermittelt ist — und die Passivtransfer-Evidenz aus Fibromyalgie und Long COVID, das nicht-längenabhängige Muster und die DRG-Ebene-Hypothese weisen alle in einer Teilmenge auf einen autoimmunen Mechanismus hin — dann ist IVIG die mechanistisch direkteste Behandlung. IVIG mit 0,4 g/kg täglich für 5 Tage, dann monatlich, wurde für autoimmunes SFN bei anderen Erkrankungen (Sjögren, Sarkoidose) verwendet und hat ein Signal im nicht-längenabhängigen ME/CFS-Subtyp gezeigt [@Loth2026website].
+
+**Was die Antwort vorhersagt.** Nicht-längenabhängiges Muster in der Hautbiopsie (proximal = distal beteiligt), dokumentierte autonome Dysfunktion (QSART abnorm) und — wo verfügbar — Evidenz neuronaler Autoantikörper oder DRG-bindendem IgG. Das längenabhängige Muster (strumpf-handschuhförmig, Füße schlimmer als Oberschenkel) ist weniger wahrscheinlich autoimmun und eher metabolisch oder ischämisch.
+
+**Praktische Überlegungen.** IVIG ist teuer (oft mehrere tausend Dollar pro Infusionszyklus), unterliegt häufig einer Versicherungs-Vorabgenehmigung und — da für SFN/ME/CFS off-label — routinemäßig abgelehnt, sodass der Zugang in den meisten Systemen eine reale praktische Hürde ist. Es erfordert auch den Zugang zu einem Infusionszentrum (eine physische Bürde bei mittelschwerem bis schwerem ME/CFS) und birgt Risiken — aseptische Meningitis (schwere Kopfschmerzen 24–48 Stunden nach der Infusion), Thromboembolie und seltene Anaphylaxie. Die standardmäßige Prä-IVIG-Sicherheitsabklärung — Serum-IgA (um eine IgA-Defizienz auszuschließen, bei der das Anaphylaxierisiko höher ist), Nierenfunktion und eine Thromboembolierisiko-Bewertung — sollte vor Beginn durchgeführt werden und wird im [Autoimmunitäts-Behandlungsartikel](../../autoimmune/autoimmunity-treatment/index.qmd) diskutiert. Es ist keine First-Line-Behandlung. Es ist eine mechanistisch rationale Option für den biopsiebestätigten, nicht-längenabhängigen, autoimmunen-Profil-Patienten, bei dem orale Medikamente versagt haben — und es erfordert einen Neurologen, der mit der Off-Label-Indikation vertraut ist.
+
+### Schritt fünf: Mastzell-Stabilisatoren — Unterbrechung der Tryptase→PAR2-Schleife
+
+Wenn die Tryptase→PAR2→Nervensensibilisierungs-Schleife aktiv ist — und in der MCAS-positiven Teilmenge ist sie es fast sicher — dann können Mastzell-Stabilisatoren (Cromolyn, Ketotifen) und Antihistaminika, die die Mastzell-Degranulation reduzieren, den fortlaufenden neurotoxischen Input auf die kleinen Fasern reduzieren [@Loth2026website].
+
+Zur Referenz der Dosen: **Cromolyn (Natriumcromoglicat)** wird oral mit **200 mg viermal täglich** vor den Mahlzeiten und zur Schlafenszeit eingenommen; **Ketotifen** wird mit **1 mg zweimal täglich** eingenommen (oft mit 1 mg zur Schlafenszeit begonnen, weil es sedierend wirkt, dann auf zweimal täglich erhöht). Beide werden im MCAS-Behandlungsartikel diskutiert und sollten von einem Verschreiber überwacht werden. Ketotifens Sedierung ist bei ME/CFS eine praktische Hürde — beginnen Sie niedrig und timen Sie die Dosen, um eine Verschlechterung des Tages-Brain-Fog zu vermeiden.
+
+Die Begründung ist vorgeschaltet: Statt das Schmerzsignal zu blockieren, nachdem der Nerv sensibilisiert wurde (Gabapentin, SNRI), verhindert das Stabilisieren der Mastzelle, dass sie überhaupt Tryptase freisetzt, und bricht so die selbstverstärkende Schleife. Die Behandlung wird detailliert im [MCAS-Behandlungsartikel](../../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd) behandelt. Die SFN-spezifische Evidenz ist indirekt — die 80%ige SFN-Prävalenz bei Mastzellerkrankungen und der PAR2-Mechanismus — aber die Intervention ist in der MCAS-positiven Teilmenge risikoarm und mechanistisch kohärent.
+
+---
+
+## Ein Beispiel für einen strukturierten Versuch
+
+*Dies ist ein Beispiel, um Ihrem Arzt eine Arbeitsgrundlage zu geben — keine Selbstverordnung.*
+
+Bestätigen Sie die SFN-Diagnose mit einer Hautbiopsie (PGP9.5-IENFD). Notieren Sie das Muster — nicht-längenabhängig (autoimmunes Profil) vs. längenabhängig (metabolisches/ischämisches Profil). Das leitet die Behandlungsequenz.
+
+Beginnen Sie mit der risikoärmsten Option: Lidocain-5%-Pflaster auf der schmerzhaftesten Stelle, 12 Stunden an / 12 Stunden aus. Bewerten Sie nach 2 Wochen neu. Wenn sich der lokalisierte Schmerz verbessert, fahren Sie fort — Sie haben eine periphere, natriumkanalvermittelte Komponente.
+
+Wenn der Schmerz weit verbreitet ist oder Lidocain unzureichend ist, fügen Sie Gabapentin 100–300 mg zur Schlafenszeit hinzu, titrieren Sie langsam über 4 Wochen auf die maximal verträgliche Dosis. Bewerten Sie nach 8 Wochen neu. **Brechen Sie ab, wenn die Sedierung das Erreichen einer wirksamen Dosis verhindert** — die maximal verträgliche Dosis bei ME/CFS kann unterhalb der analgetischen Dosis liegen, und das ist ein pharmakologisches Zugangsproblem, kein Patientversagen. Wenn Gabapentin versagt, erproben Sie Duloxetin 30 mg täglich, titrieren Sie auf 60 mg, bewerten Sie nach 8 Wochen neu.
+
+Wenn die Biopsie nicht-längenabhängiges SFN zeigt und orale Medikamente versagt haben, besprechen Sie IVIG mit einem Neurologen: 0,4 g/kg täglich für 5 Tage, dann 0,4 g/kg alle 3–4 Wochen. Bewerten Sie nach 6 Monaten neu. **Brechen Sie ab, wenn keine Besserung eintritt** — ein 6-monatiger IVIG-Nullversuch ist ausreichende Evidenz dafür, dass die Immunglobulintherapie nicht der Hebel ist.
+
+Wenn MCAS vorhanden ist (Flushing, Nesselsucht, Histaminsymptome), fügen Sie Mastzell-Stabilisatoren (Cromolyn, Ketotifen) als Ergänzung hinzu — sie zielen auf die Tryptase→PAR2-Schleife vorgeschaltet zu den Schmerzmedikamenten, sind aber kein Ersatz für die Leiter des neuropathischen Schmerzes.
+
+Fügen Sie jeweils nur eine Intervention hinzu. Polypharmazie vor der Monotherapie-Beurteilung macht es unmöglich zu wissen, was geholfen hat.
+
+---
+
+## Erwartete Ergebnisse
+
+- **Topische Mittel wirken schnell oder gar nicht.** Lidocain bietet Linderung innerhalb von Stunden; Capsaicin braucht Wochen. Wenn keines nach einem adäquaten Versuch hilft (Lidocain 2 Wochen, Capsaicin 4–6 Wochen), wird der Schmerz möglicherweise nicht peripher in der Haut aufrechterhalten — er kann zentral oder auf DRG-Ebene sein.
+- **Gabapentinoide und SNRIs erfordern eine Dosistitration über Wochen bis Monate.** Die wirksame Dosis für SFN-Schmerz ist oft höher als die Anfangsdosis, und die Sedierungs-Nebenwirkung bei Beginn sagt die Sedierung im Steady-State nicht voraus. Eine Dosis, die nach 3 Tagen wegen Benommenheit abgesetzt wurde, wurde nie fair erprobt.
+- **Die IVIG-Antwort kann 3–6 Monate dauern.** Auf die 5-Tage-Aufsättigungsdosis folgen monatliche Infusionen; die Besserung ist graduell. Ein einzelner Zyklus ist kein adäquater Versuch.
+- **Mastzell-Stabilisatoren, wenn sie helfen, helfen indirekt.** Sie behandeln nicht das SFN — sie entfernen den entzündlichen Input, der das SFN aktiv hält. Wenn der Small-Fiber-Schaden bereits strukturell ist (Fasern verloren, nicht nur sensibilisiert), können Stabilisatoren den Schmerz reduzieren, ohne die Faserdichte wiederherzustellen.
+- **Kombination ist oft nötig.** Topische Lidocain-Pflaster für die schmerzhafteste Stelle + niedrig dosiertes Gabapentin oder Duloxetin für den Grundschmerz + Mastzell-Stabilisatoren, wenn MCAS vorhanden ist, ist ein häufiger — und mechanistisch rationaler — Multitarget-Ansatz.
+
+---
+
+## Was es bedeutet, wenn die Behandlung nicht hilft
+
+**Eins: Ein gescheiterter Gabapentinoid-Versuch ist kein gescheiterte SFN-Diagnose.** Die Nerven sind objektiv geschädigt — die Biopsie ist der Beweis. Ein Medikament, das den Schmerz nicht kontrolliert, ist ein pharmakologisches Versagen, kein diagnostisches.
+
+**Zwei: Sedierung kann das Erreichen einer wirksamen Dosis verhindern.** Die maximal verträgliche Dosis von Gabapentin bei ME/CFS kann unterhalb der wirksamen Dosis für neuropathischen Schmerz liegen. Das ist ein Behandlungszugangsproblem, kein Beweis dafür, dass der Schmerz nicht neuropathisch ist.
+
+**Drei: Längenabhängiges SFN (strumpf-handschuhförmig) spricht weniger wahrscheinlich auf IVIG an.** Wenn das Muster distal-nach-proximal ist, ist der Mechanismus eher metabolisch oder ischämisch als autoimmun. IVIG hat in dieser Gruppe eine niedrigere erwartete Ausbeute.
+
+**Vier: Zentrale Sensibilisierung kann dominieren.** Wenn die QST eine normale Small-Fiber-Funktion, aber eine verstärkte zeitliche Summation zeigt (das Schmerzsignal verstärkt sich im Rückenmark), kann der dominante Mechanismus zentral sein und nicht peripher, und das Behandlungsziel verlagert sich auf NMDA-Antagonisten (Memantin, niedrig dosiertes Ketamin) und LDN — [behandelt im Fibromyalgie-Schmerz-Artikel](../../pain/fibromyalgia-pain-treatment/index.qmd).
+
+**Fünf: Eine Sequenz gut geführter Fehlschläge — topische Mittel, Gabapentinoide, SNRIs, IVIG, falls indiziert — ist echte Evidenz dafür, dass die Pharmakologie des neuropathischen Schmerzes nicht der Hebel ist.** Das bedeutet nicht, dass die Nerven in Ordnung sind. Es bedeutet, dass die verfügbaren Medikamente nicht ausreichen, und der Fokus verlagert sich auf das Funktion-Management innerhalb der Grenzen, statt Schmerzlinderung von Medikamenten zu verfolgen, die sie nicht liefern.
+
+---
+
+## Die falsifizierbaren Vorhersagen
+
+- **Wenn SFN-positive ME/CFS-Patienten anders auf IVIG ansprechen als SFN-negative**, ist die autoimmun-SFN-Untergruppe eine therapeutisch bedeutsame Unterscheidung [@Loth2026website].
+- **Wenn Mastzell-Stabilisatoren die QST-bewertete Small-Fiber-Hypersensitivität bei MCAS-positivem SFN reduzieren**, ist der Tryptase→PAR2-Mechanismus klinisch relevant und adressierbar.
+- **Wenn die konfokale Hornhautmikroskopie einen Small-Fiber-Verlust erkennt, der mit der Schwere autonomer Symptome korreliert, aber nicht in der Hautbiopsie reflektiert ist**, ist die viszerale-vs-somatische Unterscheidung klinisch handlungsrelevant — und CCM sollte zum diagnostischen Werkzeugkasten hinzugefügt werden.
+- **Wenn das nicht-längenabhängige Muster die IVIG-Antwort besser vorhersagt als die Gesamt-IENFD**, ist der DRG-autoimmune Mechanismus gestützt und das Muster sollte die Behandlungstriage leiten.
+
+---
+
+## Was Sie tatsächlich tun können
+
+- **Lassen Sie die Biopsie machen, wenn neuropathischer Schmerz ein dominantes Symptom ist.** Eine 3-mm-Hautstanzbiopsie (PGP9.5-Immunfärbung) ist der Goldstandard. Sie ist objektiv, unterscheidet SFN von zentraler Sensibilisierung und leitet die Behandlungstriage (nicht-längenabhängig → autoimmune Abklärung → IVIG-Erwägung).
+- **Beginnen Sie mit topischen Mitteln.** Lidocain-5%-Pflaster und Capsaicin-Creme haben keine systemischen Nebenwirkungen und keinen kognitiven Preis — ein bedeutsamer Vorteil bei ME/CFS.
+- **Bei oralen Medikamenten: beginnen Sie niedrig, gehen Sie langsam und benennen Sie eine Abbruchregel.** Gabapentin 100 mg zur Schlafenszeit, Bewertung nach 4 Wochen. Wenn die Sedierung das Erreichen einer wirksamen Dosis verhindert, stoppen Sie und versuchen Sie stattdessen ein SNRI. Ein Medikament, das nie auf eine wirksame Dosis titriert wurde, wurde nie fair erprobt; ein Medikament, das unerträgliche Nebenwirkungen verursacht, bevor es Wirksamkeit erreicht, sollte gestoppt werden — beide sind gültige Ergebnisse.
+- **Prüfen Sie B12, Folsäure und B6-Spiegel, bevor Sie ergänzen.** Korrigieren Sie Mängel. Ergänzen Sie kein hochdosiertes B6, wenn die Spiegel normal sind — B6-Toxizität verursacht SFN.
+- **Wenn MCAS vorhanden ist, behandeln Sie es.** Die Tryptase→PAR2-Schleife ist aktiv, und das Stabilisieren der Mastzellen ist vorgeschaltet zum Schmerz. Siehe den MCAS-Behandlungsartikel.
+- **Akzeptieren Sie, dass der Schmerz möglicherweise nicht vollständig verschwindet.** Das Ziel bei ME/CFS-assoziiertem SFN ist funktionelle Verbesserung — länger stehen, durchschlafen, Kleidung tolerieren — nicht null Schmerz. Teilweise Linderung durch einen Multitarget-Ansatz ist oft das realistische Ergebnis. Das ist kein Versagen. Es ist präzises Anzielen in einem komplexen System.
+
+---
+
+## Das Fazit
+
+Die SFN-Behandlung bei ME/CFS läuft auf einer Leiter: topische Mittel (Lidocain, Capsaicin), orale Medikamente für neuropathischen Schmerz (Gabapentinoide, SNRIs, TZAs — alle mit einer Sedierungs-Einschränkung), metabolische Unterstützung (Alpha-Liponsäure, Acetyl-L-Carnitin), IVIG für die autoimmune Untergruppe und Mastzell-Stabilisatoren zur Unterbrechung der Tryptase→PAR2-Schleife. Die Evidenz für jeden Schritt wird aus diabetischer Neuropathie, Fibromyalgie und autoimmunem SFN bei anderen Erkrankungen extrapoliert — keine ME/CFS-spezifischen RCTs existieren [@Loth2026website].
+
+Ein gescheiterter Versuch irgendeines Medikaments falsifiziert die SFN-Diagnose nicht. Die Nerven sind objektiv geschädigt. Die Medikamente sind unvollkommen. Die ehrliche klinische Kunst ist, die Kombination zu finden, die den Schmerz genug reduziert, um die Funktion zu verbessern, ohne Sedierung hinzuzufügen, die die Kernkrankheit verschlimmert.
+
+**Als Nächstes in dieser Serie:** Fibromyalgie-Muster-Schmerz — wenn das Nervensystem den Verstärkungsfaktor hochdreht und Schmerz ohne Gewebeschaden ankommt.
+
+Für das umfassende, vollständig zitierte Bild darüber, wie Small-Fiber-Neuropathie unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet wird, siehe [@Loth2026website].

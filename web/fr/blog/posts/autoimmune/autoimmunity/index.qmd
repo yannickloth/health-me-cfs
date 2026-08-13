@@ -1,0 +1,109 @@
+---
+title: "Auto-immunité Article 1 : Auto-anticorps anti-RCPG, attaque immunitaire du système nerveux et anticorps qui parlent à vos récepteurs dans l'EM/SFC"
+description: "Un guide en langage clair sur l'auto-immunité dans l'EM/SFC — pourquoi des anticorps ciblant vos propres récepteurs (β2-adrénergiques, muscariniques M3/M4) peuvent provoquer une dysautonomie, la prévalence rapportée extrêmement dépendante du dosage qui signale un problème de mesure, pourquoi le titre d'anticorps ne correspond pas à la gravité de la maladie, la porte du glycoprofil Fc, le déclencheur post-infectieux, et la différence entre l'auto-immunité classique et l'auto-immunité sur fond d'EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-12"
+lang: fr
+categories: [Auto-immunité, RCPG, EM/SFC, Pathophysiologie]
+---
+
+Un test sanguin montre un anticorps dirigé contre vos propres récepteurs — pas une maladie auto-immune classique comme le lupus ou la polyarthrite rhumatoïde. Rien ne s'allume sur les examens d'imagerie. Votre CRP et votre VS sont normales. Mais l'anticorps est là, ciblant le récepteur β2-adrénergique qui régule vos vaisseaux sanguins et le récepteur muscarinique M3 qui contrôle votre intestin et vos pupilles. Vos nerfs et vos vaisseaux sont signalés par des anticorps auto-dirigés — et personne ne peut vous dire si les retirer arrangerait quoi que ce soit.
+
+Ajoutez maintenant le reste de l'EM/SFC : le MPE, le brouillard cérébral, l'intolérance orthostatique. En fonction entièrement du test utilisé, des anticorps testés et du seuil qui définit le « positif », la prévalence rapportée des auto-anticorps anti-RCPG va d'environ 29 % jusqu'à un niveau où un ELISA commercial signale presque tout le monde comme positif — y compris les témoins sains [@Loebel2016][@Bynke2020]. Cet écart — d'un tiers à presque tout le monde — est la signature d'un domaine qui n'a pas encore résolu son problème de mesure.
+
+Cet article est la vue conceptuelle d'ensemble. Ce que sont réellement les auto-anticorps anti-RCPG, pourquoi la prévalence rapportée varie tellement selon le test utilisé, le glycoprofil Fc qui détermine si un anticorps est pathogène ou inerte, pourquoi le titre d'anticorps ne correspond pas à la gravité de la maladie, l'histoire du déclencheur post-infectieux, et la différence entre l'auto-immunité classique et l'auto-immunité *sur fond* d'EM/SFC. Les traitements — immunoadsorption, IVIG, rituximab, daratumumab, et pourquoi les preuves ne sont pas tranchées — sont couverts dans l'[article compagnon sur le traitement](../autoimmunity-treatment/index.qmd).
+
+---
+
+## D'abord, un avertissement simple
+
+*Ceci est une explication, pas un conseil d'automédication, et je ne suis pas médecin. Le dépistage des auto-anticorps pour l'EM/SFC n'est pas standardisé — les ELISA CellTrend, le test commercial le plus couramment utilisé, se sont révélés produire des résultats positifs chez 98 à 100 % des témoins sains dans une étude de réplication, remettant en cause leur valeur diagnostique. L'immunoadsorption, l'IVIG, le rituximab et le daratumumab sont des interventions hospitalières présentant des risques importants, notamment l'infection, l'anaphylaxie, la thromboembolie et — dans le cas du rituximab — la leucoencéphalopathie multifocale progressive. Ce sont des traitements pour les personnes gravement atteintes, discutés avec un immunologiste, et non auto-dirigés.*
+
+---
+
+## La version courte, si vous ne lisez qu'une partie
+
+- **Les auto-anticorps anti-RCPG** ciblent les récepteurs couplés aux protéines G — β1/β2-adrénergiques (vaisseaux sanguins, fréquence cardiaque), M1/M3/M4 muscariniques (intestin, pupilles, cognition) et α1-adrénergiques (tonus vasculaire). On les trouve à des taux très variables (d'environ 29 % à presque tout le monde) selon l'étude, le test et le seuil [@Loebel2016][@Bynke2020].
+- **Le problème fondamental de mesure n'est pas résolu.** Le test commercial le plus courant (ELISA CellTrend) a produit des résultats positifs chez 100 % des témoins sains dans une réplication indépendante — ce qui signifie que le test ne peut pas distinguer un patient d'un témoin. Le test de la plus haute qualité (criblage protéomique REAP, 7 542 interactions antigéniques) n'a trouvé aucun signal d'auto-anticorps significatif dans l'EM/SFC — un zéro complet [@Germain2025autoantibody].
+- **Le titre d'anticorps est un mauvais prédicteur de pathogénicité.** Deux personnes avec le même taux de β2-AAb peuvent avoir une gravité de maladie complètement différente, car ce qui compte n'est pas la quantité d'anticorps mais son **glycoprofil Fc** — les molécules de sucre attachées à la queue de l'anticorps qui déterminent s'il active le complément, engage les récepteurs Fc ou reste inerte. Une IgG agalactosylée (G0F) est pro-inflammatoire ; une IgG sialylée est anti-inflammatoire. Même titre, effets opposés [@Loth2026website].
+- **Les preuves de transfert passif issues de la fibromyalgie et du COVID long** montrent que l'injection d'IgG de patients à des souris reproduit la douleur et la neuropathie des petites fibres — une preuve solide que les anticorps sont *suffisants* pour reproduire un phénotype (c'est-à-dire qu'ils peuvent être pathogènes, pas seulement corrélatifs) dans ces conditions [@Goebel2021passiveTransferFM][@Mignolet2026passiveTransferLC]. Aucune étude de transfert passif spécifique à l'EM/SFC n'existe encore.
+- **L'auto-immunité est généralement post-infectieuse, pas spontanée.** Les auto-anticorps anti-RCPG sont générés pendant l'infection par mimétisme moléculaire (les protéines virales ressemblent à des récepteurs du soi) ou par activation des témoins (la réponse immunitaire au virus se répand sur les antigènes du soi). Les anticorps persistent après la disparition de l'infection — et qu'ils continuent ou non à causer des dommages dépend du glycoprofil Fc et de la capacité de l'hôte à les éliminer.
+
+---
+
+## Que sont vraiment les auto-anticorps anti-RCPG ?
+
+Les récepteurs couplés aux protéines G (RCPG) constituent la plus grande famille de récepteurs de surface cellulaire du corps humain. Ils se trouvent sur la membrane externe des cellules et transmettent des signaux externes — hormones, neurotransmetteurs, lumière, odeurs — à l'intérieur de la cellule. Les récepteurs bêta-adrénergiques (β1, β2, β3) répondent à l'adrénaline et à la noradrénaline, contrôlant la fréquence cardiaque, le tonus vasculaire et la dilatation bronchique. Les récepteurs muscariniques de l'acétylcholine (M1–M5) répondent à l'acétylcholine, contrôlant la motilité intestinale, la constriction des pupilles, la salivation et — dans le cerveau — la cognition et la vigilance.
+
+Les auto-anticorps dirigés contre les RCPG peuvent faire trois choses :
+
+1. **Activation agoniste** — l'anticorps imite le ligand naturel, activant le récepteur. Un β2-AAb agoniste provoque le même effet que l'adrénaline : augmentation de la fréquence cardiaque, vasodilatation. Si elle est maintenue, la désensibilisation et l'internalisation du récepteur suivent — la cellule retire le récepteur de la surface pour se protéger, et le patient devient fonctionnellement déficient dans cette voie de signalisation même si l'anticorps est toujours présent.
+
+2. **Blocage antagoniste** — l'anticorps empêche le ligand naturel de se lier, éteignant le récepteur. Un M3-AAb antagoniste inhibe la motilité intestinale et la salivation, imitant les effets des médicaments anticholinergiques.
+
+3. **Internalisation du récepteur sans activation** — l'anticorps réticule les récepteurs et déclenche l'endocytose médiée par la β-arrestine, retirant le récepteur de la surface sans l'activer. Cela équivaut fonctionnellement à un blocage, mais le récepteur est physiquement retiré plutôt que simplement occupé. Ce mécanisme, démontré pour les anticorps anti-NMDAR dans l'encéphalite auto-immune et étendu aux RCPG dans le document principal, explique pourquoi certains auto-anticorps provoquent des déficits fonctionnels sans activité agoniste ou antagoniste mesurable [@Kim2026nmdar_cryoem].
+
+L'effet clinique dépend des récepteurs ciblés, dans quels tissus, avec quel effet fonctionnel et dans quel état de glycoprofil Fc. Cette complexité combinatoire — type de récepteur × localisation tissulaire × mode fonctionnel × glycoprofil — explique pourquoi un simple « panneau d'auto-anticorps anti-RCPG » ne prédit pas les symptômes, la réponse au traitement ou le pronostic.
+
+---
+
+## Ce que signifie réellement la large fourchette de prévalence
+
+La prévalence rapportée des auto-anticorps anti-RCPG dans l'EM/SFC couvre une très large fourchette selon le test — d'environ 29 % sur un bio-essai fonctionnel jusqu'au point où un ELISA commercial signale presque tout le monde comme positif, y compris les témoins sains. Ce n'est pas une variabilité biologique — c'est un chaos de mesure.
+
+- **Loebel 2016** (n=268 EM/SFC, n=108 témoins) a utilisé un bio-essai mesurant l'activation fonctionnelle du récepteur : 29,5 % avaient ≥1 AAb anti-RCPG élevé. C'est l'estimation la plus conservatrice et la plus significative sur le plan fonctionnel.
+- **Bynke 2020** (Suède, deux cohortes, n=24 plasma + n=24 LCR chacune) a utilisé la plateforme ELISA CellTrend et a trouvé des taux d'auto-anticorps M3/M4 significativement élevés chez les patients EM par rapport aux témoins (β1/β2 dans une cohorte), mais n'a pas rapporté de pourcentage de prévalence à seuil unique.
+- **Vernino 2022** (POTS, n=116) a testé l'ELISA CellTrend commercial : **98,3 % des patients ET 100 % des témoins étaient positifs à l'α1-AAb.** Le test ne pouvait pas distinguer un patient d'un témoin — valeur diagnostique nulle.
+- **Germain 2025** (n=172 participants) a utilisé la plateforme à la plus haute résolution disponible — REAP, criblant 7 542 interactions anticorps–antigène sur 6 183 protéines de l'exoprotéome — et a trouvé **zéro** signal d'auto-anticorps significatif : aucune valeur q n'est descendue sous 0,68 (c'est-à-dire que rien ne s'est approché du seuil de significativité). Zéro complet.
+
+Le schéma est systématique : plus le test est fonctionnel et spécifique, plus la prévalence est faible. Moins le test est spécifique, plus la prévalence est élevée — jusqu'à ce que, à la limite, 100 % des témoins sains testent positifs et que le test s'effondre. L'implication, inconfortable mais honnête, est que **bon nombre des associations d'auto-anticorps anti-RCPG rapportées peuvent être des artefacts de dosage plutôt que des signaux spécifiques de la maladie** [@POTS2022failed_replication].
+
+Le seul signal qui ressort le plus souvent dans les études est celui des auto-anticorps β2-adrénergiques — avec toutefois une réserve honnête. Azcue 2026 a trouvé des β2-AAb élevés dans l'EM/SFC par rapport au post-COVID et aux témoins sains (F=3,15, p=0,046), et les taux de β2-AAb corrélaient avec la gravité des symptômes autonomes (r=0,45, p=0,001). Ces deux chiffres proviennent d'un seul groupe et d'un seul test, et la différence de groupe p=0,046 est limite — donc bien que le β2 soit la cible RCPG la plus fréquemment rapportée dans l'EM/SFC, elle n'est pas répliquée de manière indépendante, et le zéro REAP ci-dessus signifie que même ce signal n'échappe pas à la controverse sur la mesure [@Azcue2026gpcr].
+
+---
+
+## Le glycoprofil Fc : pourquoi le même titre signifie des choses différentes
+
+Toutes les IgG ont un site de glycosylation conservé à l'asparagine-297 dans la région Fc. La structure sucrée qui y est attachée — le glycoprofil — détermine la fonction effectrice :
+
+- **IgG agalactosylée (G0F)** — pas de résidus galactose. Cette glycoforme se lie aux récepteurs Fcγ avec une haute affinité, active le complément et entraîne la cytotoxicité cellulaire dépendante des anticorps. C'est la glycoforme **pro-inflammatoire**, élevée dans la polyarthrite rhumatoïde active et l'infection virale aiguë. Si le β2-AAb d'un patient est principalement G0F, il est probablement pathogène.
+- **IgG sialylée** — résidus d'acide sialique terminaux. Cette glycoforme engage DC-SIGN sur les macrophages régulateurs, induisant une réponse anti-inflammatoire. C'est la glycoforme **anti-inflammatoire**, élevée pendant la grossesse (lorsque les maladies auto-immunes régressent souvent) et après une thérapie IVIG réussie. Si le β2-AAb d'un patient est principalement sialylé, il peut être inerte voire protecteur.
+- **IgG biséquée (G0FB)** — intermédiaire ; élevée dans les réponses anticorps à l'état d'équilibre.
+
+Le même titre ELISA de β2-AAb — disons 15 U/ml — pourrait être principalement G0F (pathogène, entraînant un dysfonctionnement autonome) ou principalement sialylé (inerte, un vestige d'une infection passée que le système immunitaire a déjà atténuée). Les tests commerciaux actuels ne mesurent pas le glycoprofil. Cela signifie qu'un test d'auto-anticorps anti-RCPG positif, sans information sur le glycoprofil, est **ambigu** — il vous dit que l'anticorps est là, mais pas s'il fait quoi que ce soit [@Loth2026website].
+
+---
+
+## Le déclencheur post-infectieux : mimétisme moléculaire et activation des témoins
+
+Les auto-anticorps anti-RCPG ne sont pas générés spontanément. Ils apparaissent pendant l'infection par deux mécanismes :
+
+**Mimétisme moléculaire.** Les protéines virales partagent une homologie de séquence avec des récepteurs du soi. L'EBNA-1 du VEB partage des épitopes avec les récepteurs adrénergiques et muscariniques. La protéine spike du SARS-CoV-2 partage une similitude de séquence avec les boucles extracellulaires du β2-AR. La réponse anticorps à la protéine virale réagit de manière croisée avec le récepteur du soi — le système immunitaire, ciblant le virus, cible accidentellement l'hôte.
+
+**Activation des témoins.** Pendant une réponse immunitaire antivirale vigoureuse, les lymphocytes B qui reconnaissent des antigènes du soi — normalement maintenus quiescents par les mécanismes de tolérance — sont activés par le milieu de cytokines et commencent à produire des auto-anticorps. Les auto-anticorps ne faisaient pas partie de la réponse antivirale ; ils étaient des dommages collatéraux de l'activation immunitaire.
+
+Les deux mécanismes expliquent pourquoi les auto-anticorps anti-RCPG apparaissent après l'infection et peuvent persister des mois à des années — et pourquoi leur pathogénicité dépend du fait que l'environnement immunitaire post-infectieux évolue vers un glycoprofil pro-inflammatoire (G0F) ou anti-inflammatoire (sialylé).
+
+---
+
+## L'auto-immunité seule vs l'EM/SFC avec auto-immunité
+
+**L'auto-immunité classique seule (sans EM/SFC).** Lupus, polyarthrite rhumatoïde, myasthénie grave, ganglionopathie autonome auto-immune — ce sont des maladies où l'auto-anticorps est la pathologie dominante. Le retirer (immunoadsorption, rituximab, IVIG) traite la maladie. Le titre d'anticorps est corrélé à l'activité de la maladie. La pathologie est bien caractérisée.
+
+**L'EM/SFC avec auto-anticorps (la situation dont traite cette série).** Lorsque les auto-anticorps anti-RCPG se superposent à l'EM/SFC, trois choses sont différentes :
+
+- **Les auto-anticorps sont un contributeur.** Les retirer peut améliorer les symptômes autonomes sans réparer le déficit énergétique, la dérégulation immunitaire ou l'hypoperfusion cérébrale. Le meilleur résultat du traitement est partiel — la dysautonomie s'améliore, le MPE non [@Loth2026website].
+- **Le titre d'anticorps ne correspond pas à la gravité de la maladie.** Deux patients avec le même taux de β2-AAb peuvent avoir des tableaux cliniques complètement différents, car le glycoprofil Fc, le compartiment du récepteur (membrane plasmique vs internalisé), la distribution tissulaire et les mécanismes compensatoires de l'hôte modulent tous l'effet de l'anticorps.
+- **Un essai de retrait d'anticorps échoué ne dit rien contre votre EM/SFC.** Si l'immunoadsorption retire les auto-anticorps et que les symptômes ne s'améliorent pas, les auto-anticorps n'étaient pas la pathologie dominante — ils étaient un marqueur d'activation immunitaire, pas un moteur de la maladie. C'est la lecture la plus honnête du résultat d'Anft 2025 (ci-dessous) et celle qui devrait façonner les attentes pour tout traitement ciblant les auto-anticorps.
+
+---
+
+## L'essentiel
+
+L'auto-immunité — en particulier les auto-anticorps anti-RCPG — est le sujet le plus provocateur et le plus contesté de la Septade. Le signal β2-adrénergique est la découverte RCPG la plus fréquemment rapportée (mais repose sur le résultat limite p=0,046 d'un seul groupe, pas sur une réplication indépendante) ; les dosages commerciaux qui signalent une positivité chez presque tout le monde ne le sont pas. Le glycoprofil Fc détermine si un anticorps est pathogène, et personne ne le mesure. Les preuves de transfert passif issues de la fibromyalgie et du COVID long apportent des preuves solides que les anticorps des patients peuvent reproduire un phénotype chez les animaux — mais aucune étude de transfert spécifique à l'EM/SFC n'existe [@Goebel2021passiveTransferFM].
+
+La lecture honnête : les auto-anticorps anti-RCPG sont réels dans un sous-groupe, leur pathogénicité dépend de facteurs non captés par les tests actuels, et les traitements qui les retirent ([couverts dans l'article compagnon](../autoimmunity-treatment/index.qmd)) ont montré des signaux forts dans les études non contrôlées et des résultats nuls édifiants dans les études contrôlées. Le domaine est au point où le mécanisme est plausible mais où les implications thérapeutiques ne sont pas prouvées — et la distinction importe énormément pour les patients qui prennent des décisions de traitement.
+
+**Suite de cette mini-série :** les traitements — immunoadsorption, IVIG, rituximab, daratumumab, et pourquoi les preuves des essais contrôlés ne correspondent pas aux signaux en ouvert [[voir l'article compagnon]](../autoimmunity-treatment/index.qmd).
+
+Pour une vue complète et entièrement citée de la manière dont l'auto-immunité est pesée parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].

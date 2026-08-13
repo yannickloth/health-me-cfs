@@ -1,0 +1,102 @@
+---
+title: "Fibromyalgie Artikel 1: Der Schmerz, der kein Muskel ist — Fibromyalgie-Muster-Schmerz bei ME/CFS und warum Ihr Nervensystem den Verstärkungsfaktor hochgedreht hat"
+description: "Ein allgemeinverständlicher Leitfaden zu Fibromyalgie-Muster-Schmerz und wie er sich mit ME/CFS überschneidet — warum Schmerz ohne Gewebeschaden ankommt, wie TRPV1- und TRPA1-Kanäle offen hängen bleiben, die COX-2/PGE2-Feed-forward-Schleife, die Körperwärme wie Brennen fühlen lässt, der nociplastische-neuropathische Hybrid und der Unterschied zwischen Fibromyalgie allein und Fibromyalgie-Schmerz zusätzlich zu ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Fibromyalgie, Schmerz, ME/CFS, Pathophysiologie]
+lang: de
+---
+
+Es schmerzt überall, aber kein Gewebe ist verletzt. Sie drücken auf einen Muskel, und er schmerzt — aber das MRT ist sauber, die Blutuntersuchungen sind normal, und der Rheumatologe sagt, es gibt keine Entzündung. Die falsche Helligkeit sticht. Wärme und Lärm kriechen. Eine leichte Berührung an Ihrem Arm bleibt als brennendes Nachgefühl Minuten, nachdem die Hand weg ist, bestehen. Schmerz ohne Schaden — Ihr Nervensystem hat den Verstärkungsfaktor hochgedreht, und niemand hat ihn wieder heruntergedreht.
+
+Nun kommt der Rest von ME/CFS hinzu: die erschöpfende Müdigkeit, der nicht erholsame Schlaf, der Brain Fog. Zwischen 47 % und 76 % der ME/CFS-Patienten erfüllen die Kriterien für Fibromyalgie — und diese Untergruppe hat schlimmeren Schmerz, schlechtere Funktion und eine höhere Bürde jedes anderen Symptoms [@RamirezMorales2022overlap].
+
+Dieser Artikel ist der konzeptionelle Überblick. Was Fibromyalgie-Muster-Schmerz tatsächlich ist, wie zentrale Sensibilisierung funktioniert, die TRPV1/TRPA1-Kanäle, die offen hängen bleiben, die COX-2/PGE2-Feed-forward-Schleife, die normale Körpertemperatur wie Brennen fühlen lässt, der nociplastische-neuropathische Hybrid und der Unterschied zwischen Fibromyalgie allein und Fibromyalgie-Schmerz *zusätzlich zu* ME/CFS. Die Behandlungen — LDN, SNRIs, Gabapentinoide, COX-2-Inhibitoren, PEA, NMDA-Antagonisten — werden im [Begleitartikel zur Behandlung](../fibromyalgia-pain-treatment/index.qmd) behandelt.
+
+---
+
+## Zuerst eine klare Warnung
+
+*Dies ist eine Erklärung, keine Selbstmedikationsempfehlung, und ich bin kein Arzt. Weit verbreiteter Schmerz bei ME/CFS kann behandelbare Beitragende haben — Small-Fiber-Neuropathie, MCAS, hypermobilitätsbedingter Gelenkschmerz und Vitaminmangel — und diese müssen beurteilt werden, bevor man schlussfolgert, der Schmerz sei rein nociplastisch. Die unten diskutierten Medikamente erfordern einen Verschreiber. Wenn Sie neu aufgetretenen schweren Schmerz, fokale Schwäche oder den Verlust der Darm- oder Blasenkontrolle haben, gehen Sie ins Krankenhaus.*
+
+---
+
+## Die Kurzfassung, wenn Sie nur einen Teil lesen
+
+- **Fibromyalgie** ist eine chronische Schmerzstörung, die durch weit verbreiteten Schmerz, Müdigkeit und kognitive Symptome definiert ist — aber anders als ME/CFS fehlt ihr PEM als kardinales Merkmal. Die Überschneidung mit ME/CFS ist erheblich — eine Meta-Analyse berichtet durchschnittlich etwa 47 %, aber mit sehr hoher Heterogenität zwischen den Studien (I²=98 %), weil die diagnostischen Kriterien stark variieren, sodass einzelne Studien-Schätzungen von etwa 47 % bis in die 70er-Prozent reichen [@RamirezMorales2022overlap].
+- **Zentrale Sensibilisierung** — das Rückenmark und das Gehirn, die Schmerzsignale verstärken — wird weithin als dominanter Mechanismus in beiden Zuständen angesehen, wobei QST-basierte Studien es bei einer großen Mehrheit der Patienten berichten. Eine ehrliche Einschränkung, auf der der Rest dieser Serie bestehen würde: Zentrale Sensibilisierung wird aus psychophysischem Testen (quantitativem sensorischem Testen) abgeleitet, kein direkt gemessener Biomarker, und die Prävalenzschätzungen hängen von den verwendeten QST-Schwellen ab — dieselbe Mess-Skepsis, die diese Serie auf POTS-Schwellen und GPCR-Assays anwendet, gilt auch hier [@Nijs2021sensitization].
+- **TRPV1- und TRPA1-Kanäle an sensorischen Nerven bleiben offen.** TRPV1 ist der Hitze-und-Capsaicin-Rezeptor — normalerweise bei ~43 °C aktiviert, aber im sensibilisierten Zustand senken entzündliche Prostaglandine seine Schwelle auf Körpertemperatur (~35 °C), wodurch normale Wärme schmerzhaft wird. TRPA1 ist der Oxidativer-Stress-Sensor — aktiviert durch ROS, H₂O₂ und reaktive Aldehyde, die sich während PEM ansammeln [@Macpherson2007].
+- **Der Schmerz ist nicht "in Ihrem Kopf" — er ist in Ihren Ionenkanälen, Ihrem Rückenmark und Ihren kleinen Nervenfasern.** Und speziell bei ME/CFS wird er durch post-exertionelle Mechanismen (ASIC3, P2X4, TLR4) verstärkt, die bei Fibromyalgie allein nicht wirken — weshalb PEM den Schmerz schlimmer macht.
+- **Die Unterscheidung ist wichtig.** Fibromyalgie-allein: zentrale Verstärkung behandeln. Fibromyalgie-auf-ME/CFS: zentrale Verstärkung PLUS die PEM-getriebene Re-Sensibilisierung behandeln, die den Schmerz nach jedem Crash wieder aktiviert.
+
+---
+
+## Was ist zentrale Sensibilisierung wirklich?
+
+In einem gesunden Nervensystem aktiviert ein schmerzhafter Reiz — Hitze, Druck, ein Schnitt — Nozizeptoren (schmerzempfindliche Nervenendigungen) im peripheren Gewebe. Das Signal reist zum Rückenmark, wo es durch absteigende Bahnen aus dem Hirnstamm moduliert — verstärkt oder unterdrückt — wird, bevor es das Bewusstsein erreicht. Das System hat einen Verstärkungsregler: Wenn Sie in Gefahr sind, enthemmt der Hirnstamm das Rückenmark, wodurch Sie empfindlicher für Schmerz werden (nützlich zum Kämpfen oder Fliehen, während Sie verletzt sind). Wenn die Gefahr vorüber ist, wird der Verstärkungsfaktor wieder heruntergedreht.
+
+Bei zentraler Sensibilisierung bleibt der Verstärkungsfaktor auf hoch hängen. Drei Prozesse konvergieren:
+
+1. **Verstärkte zeitliche Summation (Wind-up).** Wiederholte identische Reize erzeugen progressiv größere Schmerzantworten — das Rückenmark verstärkt statt zu habituieren. Dies ist NMDA-Rezeptor-abhängig und einer der reproduzierbarsten QST-Befunde bei Fibromyalgie.
+
+2. **Defiziente konditionierte Schmerzmodulation (CPM).** Bei einem gesunden Menschen reduziert ein schmerzhafter Reiz in einem Bereich (z. B. kaltes Wasser an der Hand) die Schmerzempfindlichkeit anderswo — das Phänomen "Schmerz hemmt Schmerz", vermittelt durch absteigende noradrenerge und serotonerge Bahnen aus dem Hirnstamm. Bei Fibromyalgie und ME/CFS ist dieses inhibitorische System schwach oder fehlt — das Gehirn kann die Lautstärke nicht herunterdrehen [@Nijs2017neuroinflammation].
+
+3. **Gliabedingte Aktivierung.** Mikroglia und Astrozyten im Rückenmark und Gehirn werden geprimt — sie setzen proinflammatorische Zytokine (IL-1β, TNF-α, IL-6) und reaktive Sauerstoffspezies frei, die nahegelegene Neuronen sensibilisieren. Das ist keine "Entzündung" im rheumatologischen Sinne — CRP und BSG sind normal. Es ist Neuroinflammation, unsichtbar für Standard-Blutuntersuchungen, nur durch PET-Bildgebung oder Liquor-Analyse messbar.
+
+Das Ergebnis: Druck, der sich wie Berührung anfühlen sollte, fühlt sich wie Schmerz an (Allodynie). Wärme, die neutral wirken sollte, fühlt sich wie Brennen an (Hitzehyperalgesie). Schmerz, der lokalisiert sein sollte, breitet sich auf angrenzende Bereiche aus (sekundäre Hyperalgesie). **Der Reiz ist real. Die Verstärkung ist pathologisch.**
+
+---
+
+## TRPV1 und TRPA1: die Kanäle, die offen bleiben
+
+### TRPV1: warum Körperwärme wehtut
+
+TRPV1 ist der "Capsaicin-Rezeptor" — ein kalziumpermeabler Ionenkanal an kleinen sensorischen Nervenfasern, der als Reaktion auf Hitze (>43 °C), Protonen (Gewebeazidität) und Capsaicin öffnet. Bei einem gesunden Menschen ist TRPV1 ein Hitze-Sicherheitsschalter: Er feuert, wenn sich die Gewebetemperatur der Schädigungsschwelle nähert.
+
+Im sensibilisierten Zustand bindet **Prostaglandin E₂ (PGE₂)**, das aus entzündetem oder gestresstem Gewebe freigesetzt wird, an EP1-Rezeptoren an der TRPV1-exprimierenden Nervenendigung. Dies senkt chemisch TRPV1s thermische Schwelle — von ~43 °C auf bis zu ~35 °C, was normale Körpertemperatur ist [@Moriyama2005]. Das Ergebnis: Die Wärme einer Decke fühlt sich wie eine Verbrennung an. Eine heiße Dusche ist unerträglich. Körperwärme — erzeugt durch normalen Stoffwechsel — reicht aus, um TRPV1 teilweise offen zu halten, was ein kontinuierliches niedriggradiges Brenngefühl in Ruhe erzeugt.
+
+Das PGE₂-Problem ist selbstverstärkend. Die TRPV1-Aktivierung reguliert **COX-2** innerhalb von ~30 Minuten hoch, das mehr PGE₂ produziert, das die TRPV1-Schwelle weiter senkt — eine Feed-forward-Schleife, die kein fortlaufendes Gewebetrauma benötigt, um sich selbst aufrechtzuerhalten [@Moriyama2005]. Sobald die Schleife etabliert ist, läuft sie autonom.
+
+**Ein distinctes vaskuläres TRPV1** an der glatten Arteriolenmuskulatur verkompliziert das Bild. Anders als neuronales TRPV1 verursacht vaskuläres TRPV1 *Vasokonstriktion* und desensibilisiert nicht. Während PEM aktivieren entzündliche Lipide (LPA) vaskuläres TRPV1 und beeinträchtigen die Muskelperfusion — ein Mechanismus, der erklären könnte, warum post-exertioneller Muskelschmerz bei ME/CFS unverhältnismäßig zur ausgeführten Übung ist [@Phan2020trpv1arterial].
+
+### TRPA1: warum oxidativer Stress wehtut
+
+TRPA1 ist der "Wasabi-Rezeptor" — aktiviert durch Senföl, Knoblauch und Umweltreizstoffe. Aber sein physiologischer Auslöser ist **oxidativer Stress**: Reaktive Sauerstoffspezies (H₂O₂), reaktive Aldehyde (4-HNE, aus Lipidperoxidation) und Elektrophile modifizieren spezifische Cysteinreste an TRPA1 und öffnen den Kanal [@Macpherson2007].
+
+Während PEM erzeugt mitochondriale Dysfunktion einen Schub von ROS. Mikroverletzung der Skelettmuskulatur setzt Lipidperoxidation-Produkte frei. Das Oxidativer-Stress-Signal aktiviert TRPA1 direkt an sensorischen Nervenendigungen und erzeugt ein Schmerzsignal ohne mechanisches Korrelat — der Muskel ist in keiner sichtbaren Weise verletzt, aber der Nerv meldet Schaden, weil TRPA1 chemisch durch die metabolischen Nachwirkungen der Anstrengung geöffnet wurde.
+
+TRPA1 wird auch auf **Schwann-Zellen** exprimiert — den Gliazellen, die periphere Nerven umhüllen. Wenn TRPA1 auf Schwann-Zellen durch ROS aktiviert wird, setzt die Schwann-Zelle Prostaglandine, Zytokine und CGRP in den endoneuralen Raum frei und erzeugt neurogene Entzündung *innerhalb der Nervenscheide* — unabhängig von axonaler Verletzung. Dies ist ein plausibler Mechanismus für den Nervenscheiden-Schmerz, den SFN-Patienten beschreiben: Der Nervenstamm selbst ist entzündet, nicht nur die Endigungen [@Loth2026website].
+
+---
+
+## Der nociplastische-neuropathische Hybrid
+
+Eine der zentralen Erkenntnisse des Primärdokuments über Schmerz bei ME/CFS ist, dass die meisten Patienten nicht rein nociplastischen oder rein neuropathischen Schmerz haben — sie haben beides, und die Interaktion zwischen ihnen macht den Schmerz schlimmer als beides allein [@Loth2026website].
+
+- **Die neuropathische Komponente** kommt von SFN — kleine Fasern gehen verloren (30–38 % biopsiebestätigt), und die verbleibenden Fasern sind durch Mastzell-Tryptase→PAR2-Sensibilisierung hypererregbar. Dies erzeugt das brennende, schießende, elektrische-Schaft-Gefühl, das Fragebögen für neuropathischen Schmerz erfassen.
+- **Die nociplastische Komponente** kommt von zentraler Sensibilisierung — das Rückenmark und das Gehirn verstärken das Signal dieser hypererregbaren Fasern. Dies erzeugt den weit verbreiteten, druckempfindlichen, multisensorischen Schmerz, den Fibromyalgie-Kriterien erfassen.
+- **PEM verstärkt beides.** Post-exertionelle Azidose aktiviert ASIC3-Kanäle an sensorischen Nerven; ATP, das aus metabolisch gestresstem Muskel freigesetzt wird, aktiviert P2X4-Rezeptoren auf Mikroglia; TLR4 auf Mikroglia wird durch DAMPs aus Gewebestress aktiviert. Diese drei Signale konvergieren, um den gesamten Schmerzpfad jedes Mal zu re-sensibilisieren, wenn der Patient sein Energie-Envelope überschreitet. Deshalb ist der Schmerz nach Crashes schlimmer — und warum der Schmerz bei ME/CFS behandlungsresistenter ist als der Schmerz bei Fibromyalgie allein: Der Re-Sensibilisierungs-Input kommt weiterhin an [@Loth2026website].
+
+---
+
+## Fibromyalgie allein vs. ME/CFS mit Fibromyalgie-Muster-Schmerz
+
+**Fibromyalgie allein (kein ME/CFS).** Fibromyalgie ist eine chronische Schmerzstörung. Zentrale Sensibilisierung, defiziente absteigende Hemmung und gliabedingte Aktivierung sind die dominanten Mechanismen. Die Behandlung zielt auf die zentrale Verstärkung: SNRIs, Gabapentinoide, LDN, NMDA-Antagonisten. Der Schmerz ist behindernd, aber er verschlimmert sich nicht in einem verzögerten, vorhersagbaren Muster nach minimaler Anstrengung, wie PEM es tut. Bewegung, die bei ME/CFS einen 48-Stunden-Crash auslösen würde, kann bei reiner Fibromyalgie toleriert — oder sogar therapeutisch — sein.
+
+**ME/CFS mit Fibromyalgie-Muster-Schmerz (die Situation, um die es in dieser Serie geht).** Wenn Fibromyalgie-Schmerz zusätzlich zu ME/CFS auftritt, sind drei Dinge anders:
+
+- **PEM verstärkt den Schmerz.** Die post-exertionelle ASIC3/P2X4/TLR4-Re-Sensibilisierung bedeutet, dass jeder Crash ein Schmerzaufflackern ist. Das Energie-Envelope und das Schmerz-Envelope sind gekoppelt — Sie können das eine nicht behandeln, ohne das andere zu respektieren [@Loth2026website].
+- **Das Behandlungsfenster ist enger.** SNRIs und Gabapentinoide, die bei reiner Fibromyalgie gut vertragen werden, können Brain Fog und Müdigkeit bei ME/CFS verschlimmern. NMDA-Antagonisten (Ketamin), die für Fibromyalgie-Schmerz wirksam sind, können für jemanden mit ME/CFS-kognitiver Dysfunktion zu dissoziativ sein.
+- **Die Behandlung des Schmerzes behebt nicht das Energieversagen.** Schmerzlinderung ist es wert, angestrebt zu werden — sie verbessert den Schlaf, reduziert die metabolischen Kosten des Schmerzes und erhält die Funktion. Aber Schmerzlinderung stellt die mitochondriale Funktion nicht wieder her, beseitigt nicht die Immundysregulation und kehrt die zerebrale Hypoperfusion nicht um. Sie behandelt einen Verstärker in einem System mit mehreren Verstärkern.
+
+---
+
+## Das Fazit
+
+Fibromyalgie-Muster-Schmerz ist bei ME/CFS real — ein großer Anteil der Patienten (häufig ~47 %, mit loseren Kriterien höher) erfüllt die Kriterien — und er wird durch zentrale Sensibilisierung (weithin als dominant in der großen Mehrheit angesehen), offen hängende TRPV1/TRPA1-Kanäle, eine selbst erhaltende COX-2/PGE₂-Schleife und PEM-getriebene Re-Sensibilisierung angetrieben, die Fibromyalgie allein nicht hat [@RamirezMorales2022overlap][@Nijs2021sensitization].
+
+Die ehrliche Lesart: Der Schmerz ist ein Verstärker der breiteren Energie-Immun-Störung, nicht die Kernkrankheit. Seine Behandlung verbessert die Lebensqualität; sie behebt den Crash nicht. Der [Begleitartikel zur Behandlung](../fibromyalgia-pain-treatment/index.qmd) behandelt den multimodalen Ansatz — LDN, SNRIs, Gabapentinoide, COX-2-Inhibitoren, PEA und die PEM-bewusste Dosierung, die das ME/CFS-Schmerzmanagement von der Standard-Fibromyalgie-Versorgung unterscheidet.
+
+**Als Nächstes in dieser Mini-Serie:** wie man den Schmerz tatsächlich behandelt — die Medikamente, die Dosierung und die ehrliche Diskussion "was, wenn nichts hilft" [[siehe den Begleitartikel]](../fibromyalgia-pain-treatment/index.qmd).
+
+Für das umfassende, vollständig zitierte Bild darüber, wie Fibromyalgie-Muster-Schmerz unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet wird, siehe [@Loth2026website].

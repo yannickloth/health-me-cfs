@@ -1,0 +1,134 @@
+---
+title: "NPF Article 2 : Traiter la neuropathie des petites fibres dans l'EM/SFC — Médicaments antidouleur, IVIG, stabilisateurs de mastocytes, et ce que cela signifie quand la douleur ne s'arrête pas"
+description: "Un guide en langage clair pour traiter la neuropathie des petites fibres dans l'EM/SFC — l'échelle de la douleur neuropathique des gabapentinoïdes et des IRSNa à la lidocaïne et la capsaïcine topiques, l'IVIG pour la NPF auto-immune, l'acide alpha-lipoïque et le soutien métabolique, les stabilisateurs de mastocytes qui interrompent la boucle tryptase→PAR2, les résultats attendus, et la discussion honnête « et si rien n'aide »."
+author: "Yannick Loth"
+date: "2026-08-12"
+lang: fr
+categories: [Traitement, NPF, Neuropathie, EM/SFC, Douleur]
+---
+
+Si vous avez une EM/SFC et une neuropathie des petites fibres — confirmée par biopsie cutanée ou fortement suggérée par une douleur brûlante, des élancements et des symptômes autonomes — vous faites face à un paysage de traitement où les médicaments standard de la douleur neuropathique ont des preuves dans la neuropathie diabétique et la névralgie post-herpétique, pas dans l'EM/SFC. Le coût de sédation des gabapentinoïdes est plus lourd quand le brouillard cérébral est déjà une réalité quotidienne. Et le sous-groupe NPF auto-immune — le plus susceptible de répondre à l'IVIG — ne commence qu'à être défini.
+
+Cet article explique l'architecture du traitement. Pour le contexte conceptuel — ce qu'est la NPF, les trois familles de mécanismes et la distinction viscéral-vs-somatique — voir l'[article compagnon de vue d'ensemble](../sfn/index.qmd).
+
+---
+
+## D'abord, un avertissement simple
+
+*Tout ce qui suit est une conversation à avoir avec un clinicien, pas une automédication. Les médicaments de la douleur neuropathique provoquent une sédation, un ralentissement cognitif et — dans le cas des gabapentinoïdes — une dépendance physiologique exigeant un sevrage supervisé. L'IVIG est un produit sanguin avec des risques de méningite aseptique, de thromboembolie et d'anaphylaxie. Travaillez avec un neurologue ou un spécialiste de la douleur qui comprend l'EM/SFC. Si vous avez une faiblesse rapidement progressive ou une perte de contrôle vésical ou intestinal, rendez-vous à l'hôpital.*
+
+---
+
+## L'échelle de traitement
+
+### Étape un : agents topiques — risque le plus faible, administration ciblée
+
+**Emplâtre médicamenteux à la lidocaïne 5 %.** Appliqué directement sur la zone la plus douloureuse pendant 12 heures, la lidocaïne bloque les canaux sodiques voltage-dépendants sur les petites fibres nerveuses de la peau — les mêmes canaux qui sont hyper-excitables dans la NPF. Elle n'a essentiellement aucune absorption systémique ni effet secondaire cognitif. La limite est pratique : elle ne traite que la zone sous l'emplâtre, et la douleur de la NPF est souvent généralisée.
+
+**Capsaïcine.** La crème de capsaïcine à faible concentration (0,025 à 0,1 %) appliquée 3 à 4 fois par jour aggrave d'abord la brûlure en activant TRPV1, puis épuise la substance P des terminaisons nerveuses sur des semaines, réduisant la signalisation de la douleur. La brûlure initiale est une barrière — beaucoup de patients s'arrêtent avant que le bénéfice n'apparaisse. L'emplâtre de capsaïcine à haute concentration 8 %, appliqué par un clinicien pendant 30 à 60 minutes sous anesthésie locale, fournit un traitement unique qui peut soulager la douleur jusqu'à 3 mois en défonctionnalisant les terminaisons nerveuses exprimant TRPV1. Le mécanisme a du sens pour la NPF — TRPV1 est concentré sur les petites fibres — mais les preuves sont dans la névralgie post-herpétique et la neuropathie du VIH, pas dans l'EM/SFC.
+
+### Étape deux : médicaments oraux de la douleur neuropathique — avec la mise en garde de sédation
+
+**Gabapentinoïdes** (gabapentine, prégabaline). Ils se lient à la sous-unité α2δ des canaux calciques voltage-dépendants, réduisant la libération de neurotransmetteurs des terminaisons nerveuses hyper-excitables. Ils sont en première intention pour la douleur neuropathique dans la plupart des directives. Le problème dans l'EM/SFC est **la sédation, les étourdissements et le ralentissement cognitif** — précisément les symptômes contre lesquels le patient lutte déjà. Commencez bas (gabapentine 100 à 300 mg au coucher, prégabaline 25 à 50 mg), titrez lentement sur des semaines et arrêtez si la sédation dépasse le bénéfice avant d'atteindre une dose efficace. Les gabapentinoïdes provoquent une dépendance physiologique ; ne les arrêtez pas brusquement.
+
+**IRSNa** (duloxétine 30 à 60 mg, venlafaxine 75 à 225 mg). Ils renforcent les voies inhibitrices descendantes de la douleur en augmentant la noradrénaline et la sérotonine dans la moelle épinière. La duloxétine a les meilleures preuves de douleur neuropathique (neuropathie diabétique, fibromyalgie). Les IRSNa peuvent être activants plutôt que sédatifs — ce qui peut être un avantage dans la fatigue de l'EM/SFC — mais peuvent aussi aggraver l'insomnie et l'anxiété à l'initiation. Une mise en garde pertinente dans cette série : **la venlafaxine augmente la tension artérielle à des doses plus élevées**, ce qui doit être surveillé dans une population POTS/orthostatique. La limite honnête : les preuves de fibromyalgie sont positives pour la duloxétine ; les preuves spécifiques à l'EM/SFC sont absentes.
+
+**Antidépresseurs tricycliques** (amitriptyline 10 à 50 mg au coucher, nortriptyline 10 à 50 mg). Ils fonctionnent par blocage des canaux sodiques et inhibition de la recapture de la noradrénaline. Ils sont efficaces pour la douleur neuropathique et ont l'avantage d'améliorer le sommeil quand ils sont pris la nuit — mais les effets secondaires anticholinergiques (bouche sèche, constipation, rétention urinaire), la sédation matinale et **l'hypotension orthostatique aggravée par le blocage α₁ peuvent être un mauvais ajustement pour les patients POTS** — pertinent parce que cette série traite directement le POTS.
+
+### Étape trois : soutien métabolique et nutritionnel
+
+**Acide alpha-lipoïque** 600 à 1800 mg par jour. Cet antioxydant améliore le débit sanguin nerveux et réduit le stress oxydatif dans la neuropathie diabétique, avec une taille d'effet modeste. La justification s'étend à l'EM/SFC — si l'ischémie microvasculaire contribue à la perte des petites fibres, améliorer la fonction endothéliale et réduire les dommages oxydatifs peut ralentir la progression. Les preuves sont dans le diabète ; aucun essai EM/SFC n'existe. Il est généralement bien toléré à ces doses.
+
+**Acétyl-L-carnitine** 1500 à 3000 mg par jour. La carnitine soutient le transport mitochondrial des acides gras, et les petites fibres nerveuses ont une forte densité mitochondriale dans leurs terminaisons. La justification est le soutien métabolique des neurones stressés. Là encore, les preuves sont la neuropathie diabétique, pas l'EM/SFC.
+
+**Vitamines B** (B12, bénfotiamine, B6). Une carence en B12 provoque une myéloneuropathie qui peut imiter la NPF ; les taux de B12 doivent être vérifiés et corrigés s'ils sont bas. La bénfotiamine (un analogue liposoluble de la B1) a quelques preuves dans la neuropathie diabétique. **La toxicité de la B6** — à des doses au-dessus de 100 mg par jour — peut elle-même provoquer une neuropathie sensorielle qui ressemble exactement à la NPF. Ne supplémentez pas de la B6 à forte dose sans surveiller les taux.
+
+### Étape quatre : IVIG — pour le sous-groupe NPF auto-immune
+
+Si la NPF est médiée par les IgG — et les preuves de transfert passif de la fibromyalgie et du COVID long, le schéma non dépendant de la longueur et l'hypothèse au niveau du GRD pointent tous vers un mécanisme auto-immun dans un sous-ensemble — alors l'IVIG est le traitement mécanistiquement le plus direct. L'IVIG à 0,4 g/kg par jour pendant 5 jours, puis mensuelle, a été utilisée pour la NPF auto-immune dans d'autres conditions (Sjögren, sarcoïdose) et a montré un signal dans le sous-type EM/SFC non dépendant de la longueur [@Loth2026website].
+
+**Ce qui prédit la réponse.** Un schéma non dépendant de la longueur à la biopsie cutanée (implication proximale = distale), un dysfonctionnement autonome documenté (QSART anormal) et — là où c'est disponible — des preuves d'auto-anticorps neuronaux ou d'IgG se liant au GRD. Le schéma dépendant de la longueur (en bas et gant, pieds pires que les cuisses) est moins susceptible d'être auto-immun et plus susceptible d'être métabolique ou ischémique.
+
+**Considérations pratiques.** L'IVIG est chère (souvent plusieurs milliers de dollars par cycle de perfusion), fréquemment soumise à une autorisation préalable d'assurance et — étant hors indication pour la NPF/EM/SFC — régulièrement refusée, donc l'accès est une véritable barrière pratique dans la plupart des systèmes. Elle exige aussi un accès au centre de perfusion (une charge physique dans une EM/SFC modérée à sévère) et comporte des risques — méningite aseptique (mal de tête sévère 24 à 48 heures après la perfusion), thromboembolie et rare anaphylaxie. Le bilan de sécurité standard pré-IVIG — IgA sériques (pour exclure un déficit en IgA, où le risque d'anaphylaxie est plus élevé), fonction rénale et évaluation du risque thromboembolique — doit être fait avant de commencer, et est discuté dans l'[article sur le traitement de l'auto-immunité](../../autoimmune/autoimmunity-treatment/index.qmd). Ce n'est pas un traitement de première intention. C'est une option mécanistiquement rationnelle pour le patient confirmé par biopsie, non dépendant de la longueur, au profil auto-immun qui a échoué les médicaments oraux — et elle exige un neurologue à l'aise avec l'indication hors label.
+
+### Étape cinq : stabilisateurs de mastocytes — interrompre la boucle tryptase→PAR2
+
+Si la boucle tryptase→PAR2→sensibilisation nerveuse est active — et dans le sous-ensemble SAM-positif, elle l'est presque certainement — alors les stabilisateurs de mastocytes (cromolyne, kétotifène) et les antihistaminiques qui réduisent la dégranulation des mastocytes peuvent réduire l'apport neurotoxique continu aux petites fibres [@Loth2026website].
+
+Pour des doses de référence : **la cromolyne (cromoglicate de sodium)** est prise par voie orale à **200 mg quatre fois par jour** avant les repas et au coucher ; **le kétotifène** est pris à **1 mg deux fois par jour** (souvent commencé à 1 mg au coucher parce qu'il est sédatif, puis augmenté à deux fois par jour). Les deux sont discutés dans l'article sur le traitement du SAM et doivent être supervisés par un prescripteur. La sédation du kétotifène est une barrière pratique dans l'EM/SFC — commencez bas et minutez les doses pour éviter d'aggraver le brouillard cérébral diurne.
+
+La justification est en amont : plutôt que de bloquer le signal de douleur après que le nerf a été sensibilisé (gabapentine, IRSNa), stabiliser le mastocyte l'empêche de libérer de la tryptase en premier lieu, brisant la boucle auto-amplificatrice. Le traitement est couvert en détail dans l'[article sur le traitement du SAM](../../mast-cell-mcas/antihistamines-mcas-mecfs-treatment/index.qmd). Les preuves spécifiques à la NPF sont indirectes — la prévalence de 80 % de NPF dans les troubles des mastocytes et le mécanisme PAR2 — mais l'intervention est à faible risque dans le sous-ensemble SAM-positif et mécanistiquement cohérente.
+
+---
+
+## Un exemple d'essai structuré
+
+*Ceci est un exemple pour donner à votre clinicien une base de travail — pas une auto-prescription.*
+
+Confirmez le diagnostic de NPF avec une biopsie cutanée (DIEFN PGP9.5). Notez le schéma — non dépendant de la longueur (profil auto-immune) vs dépendant de la longueur (profil métabolique/ischémique). Cela guide la séquence de traitement.
+
+Commencez par l'option à plus faible risque : emplâtre à la lidocaïne 5 % sur la zone la plus douloureuse, 12 heures sur / 12 heures hors. Réévaluez à 2 semaines. Si la douleur localisée s'améliore, continuez — vous avez une composante périphérique médiée par les canaux sodiques.
+
+Si la douleur est généralisée ou que la lidocaïne est insuffisante, ajoutez la gabapentine 100 à 300 mg au coucher, titrez lentement sur 4 semaines jusqu'à la dose maximale tolérée. Réévaluez à 8 semaines. **Arrêtez si la sédation empêche d'atteindre une dose efficace** — la dose maximale tolérée dans l'EM/SFC peut être en dessous de la dose analgésique, et c'est un problème d'accès pharmacologique, pas un échec de patient. Si la gabapentine échoue, essayez la duloxétine 30 mg par jour, titrez à 60 mg, réévaluez à 8 semaines.
+
+Si la biopsie montre une NPF non dépendante de la longueur et que les médicaments oraux ont échoué, discutez de l'IVIG avec un neurologue : 0,4 g/kg par jour pendant 5 jours, puis 0,4 g/kg toutes les 3 à 4 semaines. Réévaluez à 6 mois. **Arrêtez s'il n'y a pas d'amélioration** — un essai d'IVIG nul à 6 mois est une preuve suffisante que la thérapie par immunoglobuline n'est pas le levier.
+
+Si le SAM est présent (bouffées, urticaire, symptômes d'histamine), ajoutez des stabilisateurs de mastocytes (cromolyne, kétotifène) comme complément — ils ciblent la boucle tryptase→PAR2 en amont des médicaments antidouleur, mais ils ne remplacent pas l'échelle de la douleur neuropathique.
+
+N'ajoutez qu'une seule intervention à la fois. La polypharmacie avant l'évaluation de la monothérapie rend impossible de savoir ce qui a aidé.
+
+---
+
+## Résultats attendus
+
+- **Les topiques fonctionnent rapidement ou pas du tout.** La lidocaïne procure un soulagement en quelques heures ; la capsaïcine prend des semaines. Si ni l'un ni l'autre n'aide après un essai adéquat (lidocaïne 2 semaines, capsaïcine 4 à 6 semaines), la douleur peut ne pas être maintenue périphériquement dans la peau — elle peut être centrale ou au niveau du GRD.
+- **Les gabapentinoïdes et les IRSNa exigent une titration de dose sur des semaines à des mois.** La dose efficace pour la douleur de la NPF est souvent plus élevée que la dose de départ, et l'effet secondaire de sédation à l'initiation ne prédit pas la sédation à l'état d'équilibre. Une dose arrêtée après 3 jours à cause de la somnolence n'a jamais reçu un procès équitable.
+- **La réponse à l'IVIG peut prendre 3 à 6 mois.** La dose de charge de 5 jours est suivie de perfusions mensuelles ; l'amélioration est progressive. Un seul cycle n'est pas un essai adéquat.
+- **Les stabilisateurs de mastocytes, s'ils aident, aident indirectement.** Ils ne traitent pas la NPF — ils retirent l'apport inflammatoire qui maintient la NPF active. Si le dommage des petites fibres est déjà structurel (fibres perdues, pas seulement sensibilisées), les stabilisateurs peuvent réduire la douleur sans restaurer la densité des fibres.
+- **La combinaison est souvent nécessaire.** Les emplâtres de lidocaïne topiques pour la zone la plus douloureuse + la gabapentine à faible dose ou la duloxétine pour la douleur de fond + les stabilisateurs de mastocytes si le SAM est présent est une approche multi-cibles courante — et mécanistiquement rationnelle.
+
+---
+
+## Ce que cela signifie si le traitement ne fonctionne pas
+
+**Un : un essai de gabapentinoïde échoué n'est pas un échec du diagnostic de NPF.** Les nerfs sont objectivement endommagés — la biopsie est la preuve. Un médicament qui ne contrôle pas la douleur est un échec pharmacologique, pas un échec diagnostique.
+
+**Deux : la sédation peut empêcher d'atteindre une dose efficace.** La dose maximale tolérée de gabapentine dans l'EM/SFC peut être en dessous de la dose efficace pour la douleur neuropathique. C'est un problème d'accès au traitement, pas une preuve que la douleur n'est pas neuropathique.
+
+**Trois : la NPF dépendante de la longueur (en bas et gant) est moins susceptible de répondre à l'IVIG.** Si le schéma est distal-à-proximal, le mécanisme est plus susceptible d'être métabolique ou ischémique qu'auto-immun. L'IVIG dans ce groupe a un rendement attendu plus faible.
+
+**Quatre : la sensibilisation centrale peut dominer.** Si le QST montre une fonction normale des petites fibres mais une sommation temporelle améliorée (le signal de douleur s'amplifie dans la moelle épinière), le mécanisme dominant peut être central, pas périphérique, et la cible de traitement se déplace vers les antagonistes NMDA (mémantine, kétamine à faible dose) et le LDN — [couvert dans l'article sur la douleur fibromyalgique](../../pain/fibromyalgia-pain-treatment/index.qmd).
+
+**Cinq : une séquence d'échecs bien menés — topiques, gabapentinoïdes, IRSNa, IVIG si indiqué — est une preuve réelle que la pharmacologie de la douleur neuropathique n'est pas le levier.** Cela ne signifie pas que les nerfs sont sains. Cela signifie que les médicaments disponibles ne suffisent pas, et que l'attention se déplace vers la gestion de la fonction dans les limites plutôt que de poursuivre un soulagement de la douleur par des médicaments qui ne le fournissent pas.
+
+---
+
+## Les prédictions falsifiables
+
+- **Si les patients EM/SFC NPF-positifs répondent différemment à l'IVIG que les NPF-négatifs**, le sous-groupe NPF auto-immune est une distinction thérapeutiquement significative [@Loth2026website].
+- **Si les stabilisateurs de mastocytes réduisent l'hypersensibilité des petites fibres évaluée par QST dans la NPF SAM-positive**, le mécanisme tryptase→PAR2 est cliniquement pertinent et ciblable.
+- **Si la microscopie confocale cornéenne détecte une perte de petites fibres qui corrèle avec la sévérité des symptômes autonomes mais n'est pas reflétée dans la biopsie cutanée**, la distinction viscéral-vs-somatique est cliniquement exploitable — et la MCC devrait être ajoutée à la boîte à outils diagnostique.
+- **Si le schéma non dépendant de la longueur prédit la réponse à l'IVIG mieux que la DIEFN totale**, le mécanisme auto-immune du GRD est soutenu et le schéma devrait guider le triage du traitement.
+
+---
+
+## Ce que vous pouvez réellement faire
+
+- **Obtenez la biopsie si la douleur neuropathique est un symptôme dominant.** Une biopsie cutanée à l'emporte-pièce de 3 mm (immunocoloration PGP9.5) est le standard de référence. Elle est objective, elle distingue la NPF de la sensibilisation centrale, et elle guide le triage du traitement (non dépendant de la longueur → bilan auto-immun → considération de l'IVIG).
+- **Commencez par les topiques.** Les emplâtres de lidocaïne 5 % et la crème de capsaïcine n'ont aucun effet secondaire systémique ni coût cognitif — un avantage significatif dans l'EM/SFC.
+- **Pour les médicaments oraux, commencez bas, allez lentement et nommez une règle d'arrêt.** Gabapentine 100 mg au coucher, réévaluez à 4 semaines. Si la sédation empêche d'atteindre une dose efficace, arrêtez et essayez plutôt un IRSNa. Un médicament qui n'est jamais titré à une dose efficace n'a jamais reçu un procès équitable ; un médicament qui provoque des effets secondaires intolérables avant d'atteindre l'efficacité doit être arrêté — les deux sont des résultats valables.
+- **Vérifiez les taux de B12, de folate et de B6 avant de supplémenter.** Corrigez les carences. Ne supplémentez pas de la B6 à forte dose si les taux sont normaux — la toxicité de la B6 provoque la NPF.
+- **Si le SAM est présent, traitez-le.** La boucle tryptase→PAR2 est active, et stabiliser les mastocytes est en amont de la douleur. Voir l'article sur le traitement du SAM.
+- **Acceptez que la douleur puisse ne pas se résoudre complètement.** L'objectif dans la NPF associée à l'EM/SFC est l'amélioration fonctionnelle — rester debout plus longtemps, dormir toute la nuit, tolérer les vêtements — pas zéro douleur. Un soulagement partiel d'une approche multi-cibles est souvent le résultat réaliste. Ce n'est pas un échec. C'est un ciblage précis dans un système complexe.
+
+---
+
+## L'essentiel
+
+Le traitement de la NPF dans l'EM/SFC se déroule sur une échelle : topiques (lidocaïne, capsaïcine), médicaments oraux de la douleur neuropathique (gabapentinoïdes, IRSNa, ATC — tous avec une mise en garde de sédation), soutien métabolique (acide alpha-lipoïque, acétyl-L-carnitine), IVIG pour le sous-groupe auto-immun et stabilisateurs de mastocytes pour interrompre la boucle tryptase→PAR2. Les preuves de chaque étape sont extrapolées de la neuropathie diabétique, de la fibromyalgie et de la NPF auto-immune dans d'autres conditions — aucun essai contrôlé randomisé spécifique à l'EM/SFC n'existe [@Loth2026website].
+
+Un essai échoué de l'un ou l'autre médicament ne falsifie pas le diagnostic de NPF. Les nerfs sont objectivement endommagés. Les médicaments sont imparfaits. L'art clinique honnête consiste à trouver la combinaison qui réduit la douleur assez pour améliorer la fonction sans ajouter une sédation qui aggrave la maladie centrale.
+
+**Suite de cette série :** Douleur de type fibromyalgique — quand le système nerveux monte le volume, et que la douleur arrive sans dommage tissulaire.
+
+Pour une vue complète et entièrement citée de la manière dont la neuropathie des petites fibres est pesée parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].

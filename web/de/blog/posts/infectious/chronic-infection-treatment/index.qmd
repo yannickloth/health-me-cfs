@@ -1,0 +1,125 @@
+---
+title: "Chronische Infektion Artikel 2: Antivirale Mittel, Immunmodulatoren und was es bedeutet, wenn sie bei ME/CFS nicht wirken"
+description: "Ein allgemeinverständlicher Leitfaden zur Behandlung chronischer viraler Infektion bei ME/CFS — Valacyclovir für EBV, Valganciclovir für HHV-6/CMV, Cimetidin als Immunmodulator, Mastzell-Stabilisatoren zur Unterbrechung des EBV→MMP-9-Pfads, warum abortive lytische Replikation antivirale Mittel weniger wirksam macht als erwartet, und die ehrliche Diskussion 'was, wenn nichts hilft'."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Behandlung, Chronische Infektion, Antivirale, ME/CFS]
+lang: de
+---
+
+Wenn Sie ME/CFS und Hinweise auf Herpesvirus-Reaktivierung haben — hohes EA-D-IgG, erhöhte dUTPase-Antikörper, dokumentierte HHV-6-DNA oder eine klinische Geschichte von EBV-Mono-und-dann-nie-erholt —, stehen Sie vor einer Behandlungslandschaft, in der die antiviralen Medikamente existieren, aber die Evidenz für sie bei ME/CFS dünn ist, das am besten untersuchte Medikament auf einen Replikationsschritt zielt, den die abortive lytische Replikation umgeht, und die placebokontrollierten Studien klein, alt und unrepliziert sind.
+
+Dieser Artikel erklärt die Behandlungsarchitektur. Für den konzeptionellen Hintergrund — was abortive lytische Replikation ist, der EBV→Mastzell→MMP-9-Pfad und die Poly-Herpesvirus-Co-Reaktivierung — siehe den [Begleitartikel zum Überblick](../chronic-infection/index.qmd).
+
+---
+
+## Zuerst eine klare Warnung
+
+*Alles unten ist ein Gespräch, das Sie mit einem Kliniker führen sollten, keine Selbstmedikation. Valacyclovir und Valganciclovir erfordern Nierenüberwachung; Valganciclovir ist ein Teratogen und verursacht Knochenmarksuppression; Famciclovir erfordert eine Dosisanpassung bei Nierenfunktionsstörung. Cimetidin ist ein CYP450-Inhibitor mit umfangreichen Medikamenteninteraktionen. Mastzell-Stabilisatoren sind keine Antiviralen — sie fangen die nachgeschaltete Immunaktivierung ab, nicht den viralen Auslöser. Keines dieser Medikamente sollte ohne einen Verschreiber begonnen, gestoppt oder geändert werden.*
+
+---
+
+## Die antivirale Landschaft
+
+### Valacyclovir — das am besten untersuchte, am wenigsten wirksame Medikament für die Aufgabe
+
+Valacyclovir ist ein Prodrug von Aciclovir. Es wird durch die virale Thymidinkinase (EBV BXLF1) und dann durch zelluläre Kinasen zu Aciclovir-Triphosphat phosphoryliert, das die virale DNA-Polymerase hemmt. Es wirkt gegen **lytische EBV-Replikation** — wenn das Virus sein Genom aktiv kopiert.
+
+Das Problem ist, dass bei ME/CFS die viralen Proteine, die die Immunaktivierung antreiben (dUTPasen, immediate-early-Genprodukte), **vor** dem DNA-Polymerase-Schritt produziert werden. Valacyclovir blockiert einen Schritt, den ALR nicht erreicht. Es ist wie das Verriegeln einer Tür, durch die der Eindringling bereits gegangen ist.
+
+**Die Evidenz.** Lerner's Open-Label-Kohortenstudien (ab den frühen 2000er Jahren) berichteten 30–40 % Antwort bei Herpesvirus-assoziiertem ME/CFS, am bemerkenswertesten in der größten Kohorte (n=142) [@Lerner2010antivirals], und eine 36-monatige verbündete Nachbeobachtung von Valacyclovir in der EBV-Teilmenge war positiv [@Lerner2007valacyclovir] [@Lerner2002valacyclovir]. Aber diese stammen von einer einzigen Gruppe, wurden nie unabhängig repliziert und verwendeten Herzzeitvolumen- oder klinische-Status-Endpunkte (nicht PEM oder Müdigkeit) als primäre Maße. Die ehrliche Evidenznote: **schwach und eingruppig**.
+
+**Praktische Überlegungen.** Valacyclovir wird gut vertragen (Kopfschmerz, Übelkeit in ~10 %) und erfordert eine ausreichende Hydratation, um Kristallurie zu verhindern. Die Standarddosis, die im strukturierten Versuch unten verwendet wird, beträgt **1 g dreimal täglich** (3 g/Tag); höhere Mengen (bis zu 1,5 g viermal täglich) existieren für einige Herpes-Indikationen, sind aber außergewöhnlich und sollten nur auf ausdrücklichen Facharzt-Rat verwendet werden, und immer mit sorgfältiger Flüssigkeitsaufnahme und Nierenfunktionsbewusstsein. Ein Versuch über 3–6 Monate ist das Minimum, um die Antwort zu beurteilen; kürzere Versuche sind nicht aussagekräftig.
+
+### Valganciclovir — breiteres Spektrum, mehr Toxizität, besseres Signal
+
+Valganciclovir ist ein Prodrug von Ganciclovir, das durch eine andere virale Kinase (CMV UL97, HHV-6 U69) phosphoryliert wird und ebenfalls die virale DNA-Polymerase hemmt. Es deckt EBV, HHV-6 und CMV ab — ein breiteres Spektrum, das zum Poly-Herpesvirus-Reaktivierungsmuster passt. Aber es hemmt auch die mitochondriale DNA-Polymerase-γ des Wirts, was **Knochenmarksuppression** (Neutropenie, Anämie, Thrombozytopenie) und Teratogenität verursacht.
+
+**Die Evidenz.** Montoyas EVOLVE-Studie (2013, n=30) war eine placebokontrollierte RCT, die eine Ansprechrate von 50–60 % fand, signifikante Verbesserungen bei mentaler Müdigkeit, Müdigkeitsschwere und Kognition, wobei Responder 7,4× wahrscheinlicher waren, sich unter Valganciclovir als unter Placebo zu verbessern. Dies sind ungewöhnlich starke Zahlen für eine ME/CFS-Studie — aber die Studie war klein, untergruppengetrieben (Responder hatten erhöhte Antikörpertiter) und wurde nie unabhängig repliziert [@Montoya2013valganciclovir].
+
+**Praktische Überlegungen.** Die Standarddosis von Valganciclovir beträgt **900 mg zweimal täglich** — Valganciclovir wird immer mit Nahrung eingenommen, um die Absorption zu verbessern — mit einem CBC vor der Behandlung und monatlich, und einer Dosisreduktion, wenn die Kreatinin-Clearance beeinträchtigt ist. Kurse dauern in dieser Umgebung typischerweise 6 Monate für HHV-6/CMV-bezogene Versuche. Dies ist ein fachärztlich verordnetes Medikament; dosieren Sie nicht selbst.
+
+**Was das Signal erklären könnte, wenn es real ist.** Valganciclovir hat entzündungshemmende Wirkungen unabhängig von seiner antiviralen Aktivität — es hemmt die CMV-getriebene TNF-α- und IL-6-Produktion aus infizierten Monozyten. Die 7,4×-Antwort könnte einen antiinflammatorischen Mechanismus widerspiegeln und keinen rein antiviralen. Wenn das korrekt ist, sprach die antikörperpositive Untergruppe nicht an, weil ihr Virus aktiver war, sondern weil ihre Immunaktivierung mehr CMV-getrieben war. Das Medikament wirkte als Antiinflammatorium, nicht als Antivirale — eine klinisch nützliche Unterscheidung, die das Studiendesign nicht auflösen kann.
+
+### Famciclovir und Aciclovir — die älteren, schwächeren Optionen
+
+Famciclovir (Prodrug von Penciclovir) deckt HSV und VZV ab, aber nicht EBV, HHV-6 oder CMV. Es hat keine ME/CFS-Studien-Evidenz. In den Behandlungsprotokollen des Primärdokuments wird Famciclovir als Prophylaxe im schweren-ME/CFS-Protokoll verwendet — nicht als therapeutisches Antivirale, sondern um zu verhindern, dass HSV/VZV-Reaktivierung zur viralen Bürde in einem bereits erschöpften Immunsystem beiträgt. Für diese unterdrückende Rolle beträgt die Standarddosis **500 mg zweimal täglich**, nicht 250 mg täglich; die niedrigere einmal-tägliche Zahl würde die HSV/VZV-Reaktivierung nicht sinnvoll unterdrücken, und Famciclovir erfordert eine Dosisreduktion bei Nierenfunktionsstörung.
+
+Aciclovir (das aktive Medikament hinter Valacyclovir, aber mit niedrigerer Bioverfügbarkeit) wurde historisch verwendet. Wenn Valacyclovir verfügbar ist, gibt es keinen Grund, Aciclovir zu verwenden — derselbe Mechanismus, schlechtere Pharmakokinetik.
+
+---
+
+## Die Cimetidin-Geschichte: ein H2-Antihistaminikum, das die Immunität moduliert
+
+Cimetidin ist ein H2-Rezeptor-Antagonist — ein Sodbrennen-Medikament. Aber anders als Famotidin (der andere H2-Blocker, der häufig bei MCAS verwendet wird) hat Cimetidin zusätzliche immunologische Wirkungen: Es hemmt die Suppressor-T-Zell-Aktivität, verstärkt die natürliche Killerzellfunktion und — in einer Fallserie von 1986 — war mit einer Besserung eines post-EBV-Fatigue-Phänotyps assoziiert, der durch POTS, Histaminprobleme und postinfektiösen Beginn charakterisiert ist [@Goldstein1986CimetidineEBV].
+
+**Die ehrliche Grenze.** Dies ist eine 40 Jahre alte Fallserie ohne kontrollierte Studie. Der Mechanismus — H2-Blockade an T-Suppressorzellen → verstärkte zelluläre Immunität → verbesserte virale Beseitigung — ist plausibel, aber unbewiesen. Zur Referenz beträgt die übliche H2-Blockade-Dosis **400 mg zweimal täglich**, mit oder ohne Nahrung eingenommen; ein Versuch für diesen Phänotyp ist typischerweise 4–8 Wochen mit definierter Neubewertung. Cimetidin ist ein **potenter CYP450-Inhibitor** (CYP1A2, 2C9, 2D6, 3A4), was bedeutet, dass es die Blutspiegel von Betablockern, vielen Antidepressiva, Warfarin, Antiarrhythmika und anderen POTS/ME/CFS-Medikamenten erhöht. Bei einem Patienten, der bereits mehrere davon einnimmt, ist Cimetidin ein Medikamenteninteraktionsrisiko, kein gutartiger Zusatz. Famotidin ist der sicherere H2-Blocker für die Routine-MCAS-Behandlung; Cimetidin ist ein spezifischer — und spekulativer — immunmodulatorischer Versuch im postinfektiösen Phänotyp, und er erfordert eine vollständige Medikamentenüberprüfung durch den Verschreiber vor der Verwendung.
+
+---
+
+## Der Mastzell-Stabilisator-Abfang: nachgeschaltet zum Virus
+
+Wenn EBV-dUTPase Mastzellen aktiviert, um MMP-9 freizusetzen, und MMP-9 die Blut-Hirn-Schranke abbaut, dann **fangen Mastzell-Stabilisatoren (Cromolyn, Ketotifen) und MMP-9-Inhibitoren (niedrig dosiertes Doxycyclin)** den Pfad **nachgeschaltet** zum Virus ab. Dies ist keine antivirale Behandlung — sie reduziert die virale Proteinproduktion nicht und beseitigt die Infektion nicht. Sie blockiert die Wirtsantwort auf das virale Protein.
+
+Das ist wichtig, weil es das ALR-Problem umgeht. Mastzell-Stabilisatoren brauchen nicht, dass das Virus in lytischer Replikation ist — sie wirken auf die Mastzelle, die durch das virale Protein aktiviert wurde, unabhängig davon, in welchem Stadium das Virus ist. Die Behandlung von MCAS — H1- und H2-Antihistaminika, Mastzell-Stabilisatoren und die Vermeidung unspezifischer Auslöser — wird in den MCAS-Artikeln behandelt. Der chronische-Infektion-spezifische Punkt ist, dass in der EBV-positiven, MCAS-positiven Teilmenge Mastzell-Stabilisatoren die MMP-9-vermittelte BHS-Störung reduzieren können, selbst wenn Antivirale versagen, weil sie die Wirtsseite der Virus-Wirt-Interaktion anzielen, nicht die Virusseite [@Loth2026website].
+
+---
+
+## Erwartete Ergebnisse
+
+- **Die beste antivirale Antwort ist partiell.** Selbst in der positiven Valganciclovir-Studie bedeutete "Responder" eine klinisch signifikante Verbesserung von Müdigkeit und Kognition — nicht Genesung, nicht Rückkehr zur Arbeit, nicht Normalisierung des PEM. Setzen Sie die Erwartungen entsprechend.
+- **Ein negativer Valacyclovir-Versuch ist erwartet, nicht anomal.** Valacyclovir zielt auf lytische DNA-Replikation; ALR stoppt vor diesem Schritt. Ein Medikament, das sein Ziel nicht trifft, weil sein Ziel nicht engagiert ist, ist ein Mechanismusversagen, kein Patientversagen.
+- **Das Valganciclovir-Signal kann sich replizieren oder nicht.** Bis eine unabhängige Replikationsstudie existiert — und keine ist derzeit registriert — ist das EVOLVE-Ergebnis eine einzelne positive Studie in einem Feld von Nullbefunden. Behandeln Sie es als vielversprechendes Signal, nicht als etablierte Behandlung.
+- **Cimetidin, wenn es hilft, hilft dem postinfektiösen POTS-MCAS-Phänotyp.** Wenn Ihr ME/CFS schleichend begann, nicht postinfektiös war, oder wenn Ihnen POTS- und Histaminsymptome fehlen, ist der Cimetidin-Phänotyp ein schlechter Fit, und Famotidin ist der sicherere H2-Blocker.
+- **Mastzell-Stabilisatoren adressieren die Wirtsantwort, nicht den viralen Auslöser.** Wenn EBV Ihr MCAS antreibt, kann das Stabilisieren der Mastzellen die Symptome reduzieren, ohne die zugrunde liegende virale Aktivität zu beeinflussen. Sie werden weiterhin hohe Antikörpertiter haben. Die Symptome verbessern sich, weil die Wirtsantwort auf das Virus gedämpft wird, nicht weil das Virus weg ist.
+
+---
+
+## Ein Beispiel für einen strukturierten Versuch
+
+*Dies ist ein Beispiel, um Ihrem Arzt eine Arbeitsgrundlage zu geben — keine Selbstverordnung.*
+
+Bestätigen Sie, dass das klinische Bild postinfektiös ist (dokumentiertes EBV-Mono, HHV-6-Roseola oder durch Zecken übertragene Infektion, die dem ME/CFS-Beginn vorausging). Besorgen Sie aussagekräftige Serologie — EA-D-IgG, hohes/steigendes VCA-IgG und HHV-6-PCR aus Vollblut (VCA-IgM ist ein Marker für eine kürzliche/primäre Infektion, nicht für Reaktivierung). Wenn die Serologie Reaktivierung suggeriert, beginnen Sie Valacyclovir 1 g dreimal täglich. Bewerten Sie nach 6 Monaten neu. **Brechen Sie ab, wenn keine Besserung eintritt** — die Fortsetzung eines Antiviralen über 6 Monate ohne Nutzen ist nicht evidenzbasiert.
+
+Wenn Valacyclovir versagt und HHV-6 dokumentiert ist (PCR positiv oder ciHHV-6 bekannt), besprechen Sie Valganciclovir mit einem Spezialisten. Dies ist ein toxisches Medikament — Knochenmarksuppression, Teratogenität — das eine regelmäßige CBC-Überwachung erfordert. Ein Versuch über 3–6 Monate mit 900 mg zweimal täglich (mit Nahrung eingenommen, an die Nierenfunktion angepasst) mit vordefinierten Abbruchregeln und monatlichem CBC ist der verantwortungsvolle Ansatz. **Brechen Sie ab, wenn sich eine Neutropenie entwickelt oder es nach 6 Monaten keine Besserung gibt.**
+
+Wenn beide Antiviralen versagen — oder wenn ALR vermutet wird (hohes EA-D ohne nachweisbare Viruslast) — verlagern Sie sich auf den Mastzell-Abfang: H1 + H2-Antihistaminika plus einen Mastzell-Stabilisator (Cromolyn oder Ketotifen), der den EBV→Mastzell→MMP-9-Pfad nachgeschaltet zum Virus anzielt. Bewerten Sie nach 12 Wochen neu. Eine Antwort unterstützt das Wirtsantwort-Modell; ein Nullbefund unterstützt weder das antivirale noch das Mastzell-Modell als dominanten Mechanismus, und der ehrliche Zug ist, die Verfolgung des chronischen-Infektion-Pfads zu stoppen.
+
+---
+
+## Die falsifizierbaren Vorhersagen
+
+- **Wenn Mastzell-Stabilisatoren das Plasma-MMP-9 bei EBV-reaktiven ME/CFS-Patienten reduzieren, aber Valacyclovir nicht**, ist der EBV→Mastzell→MMP-9-Pfad wirtvermittelt, nicht viral-replikationsvermittelt, und der Mastzell-Abfang ist das rationale Behandlungsziel unabhängig von der antiviralen Antwort [@Loth2026website].
+- **Wenn das Gefahrensignal-Modell korrekt ist**, sollte die antivirale Antwort bei Patienten mit <3 Jahren Krankheitsdauer (wo die Viruslast-Komponente w_V·V immer noch das Gefahrensignal dominiert) stärker sein als bei Patienten mit >10 Jahren (wo Wirtsfaktoren dominieren) — und der Unterschied sollte den Baseline-Antikörpertiterunterschied übersteigen.
+- **Wenn EA-D-IgG und HHV-6-DNA die Valganciclovir-Antwort vorhersagen, aber VCA-IgG und EBNA-IgG (Marker für vergangene Infektion, nicht Reaktivierung) dies nicht tun**, ist die Serologie-Triage klinisch handlungsrelevant und sollte die antivirale Verordnung leiten, statt des aktuellen "try-and-see"-Ansatzes.
+- **Wenn Cimetidin + Valacyclovir eine höhere Ansprechrate erzielt als Valacyclovir allein im postinfektiösen POTS-MCAS-Phänotyp**, ist die immunmodulatorische Komponente real und das historische Cimetidin-Signal verdient eine kontrollierte Studie — aber diese Vorhersage erfordert eine kontrollierte Studie, keine individuelle Erfahrung.
+
+---
+
+## Was es bedeutet, wenn die Behandlung nicht hilft
+
+**Eins: Ein gescheiterter Valacyclovir-Versuch sagt, dass Valacyclovir für Sie nicht funktioniert — und nichts mehr.** Er sagt nicht, dass EBV inaktiv ist. Er sagt nicht, dass ALR nicht stattfindet. Er sagt, dass ein Medikament, das lytische DNA-Replikation blockiert, in der Dosis, die Sie eingenommen haben, für die Dauer, die Sie es eingenommen haben, keinen messbaren Nutzen erzielte. Das ist nützliche Pharmakologie. Es ist kein Urteil über die virale Hypothese.
+**Zwei: Ein gescheiterter Valganciclovir-Versuch engt die Möglichkeiten stärker ein.** Valganciclovir deckt das Poly-Herpesvirus-Spektrum ab. Wenn ein 6-monatiger Versuch bei adäquater Dosis keinen Nutzen erzielt, sinkt die Wahrscheinlichkeit, dass ein Antivirale — irgendein derzeit verfügbares Antivirale — Ihnen hilft, erheblich. Das sind nützliche Informationen, und der ehrliche nächste Schritt ist, sich auf die Mastzell-Stabilisierung zu verlagern (die nachgeschaltete Immunaktivierung abzufangen) und von weiteren antiviralen Versuchen weg.
+**Drei: Das Gefahrensignal-Modell aus dem ODE-Rahmen des Primärdokuments sagt voraus, dass Antivirale nur funktionieren, wenn die Viruslast-Komponente das Gefahrensignal dominiert** — früh in der Krankheit. Bei langer etabliertem ME/CFS wird das Gefahrensignal durch Wirtsfaktoren (Immundysregulation, Autoantikörper, metabolische Dysfunktion) aufrechterhalten, und eine ~20%ige Reduktion der viralen Proteinproduktion durch Antivirale ist unzureichend, um das System zu verschieben. Dieses Modell ist theoretisch, aber es bietet eine ehrliche Lesart dafür, warum Antivirale für einige kürzlich infizierte Patienten funktionieren und für die meisten lang kranken Patienten versagen könnten [@Loth2026website].
+
+---
+
+## Was Sie tatsächlich tun können
+
+- **Besorgen Sie aussagekräftige Serologie, nicht nur IgG.** Standard-EBV-Panels (VCA-IgG, EBNA-IgG) sagen Ihnen, dass Sie exponiert waren — was >90 % der Erwachsenen sind. Aussagekräftige Serologie für *Reaktivierung* umfasst EA-D (early antigen, diffuses Muster), hohes/steigendes VCA-IgG (und VCA-IgM nur, um Ihnen zu sagen, dass die Infektion kürzlich/primär war und keine Reaktivierung), dUTPase-Antikörper (nur Forschung, klinisch noch nicht verfügbar) und — wo zugänglich — EBV-quantitative PCR. HHV-6-PCR aus Vollblut unterscheidet aktive Replikation von integriertem Virus.
+- **Wenn die Serologie suggestiv ist und das klinische Bild postinfektiös ist, ist ein zeitlich begrenzter Valacyclovir-Versuch (1 g dreimal täglich, 6 Monate) ein vernünftiges Gespräch mit einem Kliniker.** Er wird gut vertragen, und ein negativer Versuch schließt zumindest eine Tür. Bleiben Sie nicht unbegrenzt auf Valacyclovir — wenn es nach 6 Monaten keine Änderung gibt, stoppen Sie.
+- **Valganciclovir ist eine Spezialistenentscheidung.** Die Toxizität (Knochenmarksuppression, Teratogenität), die Kosten (typischerweise mehrere tausend Dollar pro Monat, oft mit Versicherungsgenehmigung für eine Off-Label-ME/CFS-Indikation erforderlich und häufig abgelehnt) und die Überwachungsbürde bedeuten, dass es von einem Kliniker verwaltet werden sollte, der mit dem Medikament erfahren ist, mit regelmäßigem CBC. Ein Versuch über 3–6 Monate mit vordefinierten Abbruchregeln ist der verantwortungsvolle Ansatz.
+- **Behandeln Sie das MCAS, wenn es vorhanden ist.** Mastzell-Stabilisatoren fangen den EBV→MMP-9-Pfad nachgeschaltet zum Virus ab und können die Symptome reduzieren, unabhängig davon, ob die Antiviralen helfen. Siehe die MCAS-Behandlungsartikel.
+- **Akzeptieren Sie, dass aktuelle Antivirale möglicherweise nicht die richtigen Medikamente für das ALR-Problem sind.** Medikamente, die die immediate-early-Genexpression oder die dUTPase-Signalübertragung direkt anzielen, existieren nicht. Die Antiviralen, die wir haben, wurden für vollständig lytische Herpesvirus-Infektionen entwickelt (Gürtelrose, CMV-Retinitis, Herpes genitalis). Ihre Verwendung für ALR bei ME/CFS ist ein Mismatch zwischen Mechanismus und Pharmakologie — und ein negativer Versuch ist kein Versagen der viralen Hypothese; es ist ein Versagen der verfügbaren Medikamente, den spezifischen viralen Zustand anzugehen, der aktiv ist.
+
+---
+
+## Das Fazit
+
+Chronische Infektion ist der hypothesenreichste Behandlungsbereich in der Septade. Die Mechanismen sind stark — EBV→Mastzell→MMP-9, HHV-6-miR-aU14→mitochondriale Fragmentierung, Poly-Herpesvirus-dUTPase-Co-Aktivierung — aber die Medikamente, die diese Mechanismen anzielen, sind schwach (Valacyclovir verfehlt ALR) oder toxisch (Valganciclovir unterdrückt das Knochenmark). Der Mastzell-Stabilisator-Abfang — die Blockierung der Wirtsantwort nachgeschaltet zum Virus — ist die eine Intervention, die das ALR-Problem umgeht und in der MCAS-positiven Teilmenge risikoarm ist [@Loth2026website].
+
+Ein gescheiterter antiviraler Versuch ist erwartete Pharmakologie, kein persönliches Versagen und kein Widerlegung der viralen-Reaktivierungs-Hypothese. Der ehrliche klinische Ansatz ist ein zeitlich begrenzter, endpunktdefinierter Versuch mit Abbruchregel — und wenn er versagt, sich auf die Mastzell-Stabilisierung zu verlagern und zu akzeptieren, dass aktuelle Antivirale nicht die richtigen Werkzeuge für die Aufgabe sind.
+
+**Als Nächstes in dieser Serie:** Autoimmunität — Antikörper, die mit dem Nervensystem sprechen, GPCR-Autoantikörper und warum ihre Entfernung das Problem nicht immer behebt.
+
+Für das umfassende, vollständig zitierte Bild darüber, wie chronische Infektion unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet wird, siehe [@Loth2026website].

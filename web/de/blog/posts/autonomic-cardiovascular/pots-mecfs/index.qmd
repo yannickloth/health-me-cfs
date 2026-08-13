@@ -1,0 +1,105 @@
+---
+title: "POTS Artikel 1: POTS und das Herz, das rast, wenn Sie aufstehen — was es mit ME/CFS bedeutet"
+description: "Ein allgemeinverständlicher Leitfaden zum posturalen orthostatischen Tachykardie-Syndrom und wie es sich mit ME/CFS überschneidet — warum Aufstehen das Herz sprinten lässt, warum das Blutvolumen niedrig ist, aber das Hormon, das es behebt, paradoxerweise abgeschaltet ist, wie Mastzellen und Bindegewebe das Problem befeuern, und der Unterschied zwischen POTS allein und POTS zusätzlich zu ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [POTS, ME/CFS, Dysautonomie, Pathophysiologie]
+lang: de
+---
+
+Sie liegen. Horizontal, ruhig, und Ihr Herz liegt bei 95. Sie fühlen Ihren Puls, weil es sich falsch anfühlt — ein ruhiger Raum, ein ausgeruhter Körper, und Ihr Herz läuft, als hätten Sie gerade Treppen gestiegen. Sie stehen auf. Bevor Sie irgendwohin gegangen sind, klettert es über 120. Der Raum kippt. Ihr Sichtfeld verengt sich. Sie setzen sich wieder hin, weil Ihr Körper entschieden hat, dass die Schwerkraft ein Notfall ist.
+
+Nun kommt der Rest von ME/CFS hinzu: die erschöpfende Müdigkeit nach einer kurzen Dusche, der Brain Fog, der einen Satz wie ein Rätsel wirken lässt, der Schlaf, der nicht erholt. Irgendwo in der Mitte spricht ein Arzt oder ein Kipptisch-Test das Wort *POTS* aus, und Sie bekommen eine Liste von Medikamenten, von denen Sie nie gehört haben — Midodrin, Fludrocortison, Ivabradin — und den Rat, mehr Salz zu essen.
+
+Dieser Artikel ist der konzeptionelle Überblick. Was POTS tatsächlich ist, warum Ihr Blutvolumen niedrig ist, Ihr Körper es aber nicht behebt, ob POTS ME/CFS verursacht (fast nie), und der Unterschied zwischen POTS allein und POTS *zusätzlich zu* ME/CFS. Die Behandlungen — die Medikamentenleiter von Salz und Kompression über Fludrocortison, Midodrin, Ivabradin bis Pyridostigmin — werden im [Begleitartikel zur Behandlung](../pots-mecfs-treatment/index.qmd) behandelt, zusammen mit der ehrlichen Diskussion "was, wenn die Medikamente nicht wirken".
+
+---
+
+## Zuerst eine klare Warnung
+
+*Dies ist eine Erklärung, keine Selbstmedikationsempfehlung, und ich bin kein Arzt. Wenn Ihre Symptome plötzlich, schwerwiegend oder lebensbedrohlich wirken — insbesondere Brustschmerz, Bewusstlosigkeit oder ein Symptom, das sich wie ein Herzinfarkt anfühlt —, ist das ein Notfall. Gehen Sie ins Krankenhaus. Alles unten ist Medizin, die Ihnen wahrscheinlich angeboten wird; sprechen Sie mit einem Verschreiber, bevor Sie etwas davon beginnen, beenden oder ändern.*
+
+---
+
+## Die Kurzfassung, wenn Sie nur einen Teil lesen
+
+- **POTS** steht für *posturales orthostatisches Tachykardie-Syndrom*. Bei Erwachsenen bedeutet es, dass Ihre Herzfrequenz innerhalb von zehn Minuten nach dem Aufstehen um mindestens 30 Schläge pro Minute ansteigt (bei Jugendlichen ist das Kriterium ein Anstieg von mindestens 40 Schlägen pro Minute), ohne dass Ihr Blutdruck genug abfällt, um als orthostatische Hypotonie zu gelten [@Hoad2008pots].
+- **Es ist bei ME/CFS tatsächlich häufiger.** Etwa 27 % der ME/CFS-Patienten erfüllen die POTS-Kriterien, verglichen mit etwa 9 % der Kontrollen [@Hoad2008pots]. Aber die 30-bpm-Schwelle hat eine geringe diagnostische Spezifität — 10–15 % der gesunden Menschen überschreiten sie [@MECFSScience2024pots] — und die Reproduzierbarkeit von Tag zu Tag ist schwach, sodass ein einzelner Test vorsichtig gelesen werden sollte.
+- **Das Kernproblem ist nicht nur das Herz.** Niedriges Blutvolumen, paradoxerweise unterdrückte blutvolumenregulierende Hormone (Renin, Aldosteron, ADH), mögliche Autoantikörper, die auf Rezeptoren an Blutgefäßen und Nerven abzielen, und Bindegewebslaxität, die Blut in den Beinen sammelt, tragen alle bei [@Raj2005][@Miwa2017][@Streeten1998blood].
+- **POTS ist meist nachgeschaltet zu ME/CFS, nicht die Ursache.** Es teilt Mechanismen mit der Mastzellaktivierung und der Hypermobilität — die drei reisen so oft zusammen, dass sie als Triade bezeichnet werden [@Yao2025MCASPOTStriad] — und die Behandlung der Tachykardie allein behebt selten das Energieversagen.
+- **Es gibt eine nützliche Unterscheidung zwischen POTS allein und ME/CFS-mit-POTS.** Im ersten Fall Blutfluss und Herzfrequenz zu behandeln, heißt, die Grunderkrankung zu behandeln; im zweiten Fall behandelt man einen Verstärker unter mehreren.
+
+---
+
+## Was ist POTS wirklich?
+
+Bei einem gesunden Menschen ist das Aufstehen ein kurzer, stiller Koordinationsakt. Die Schwerkraft zieht etwa 500–800 mL Blut in Ihre Beine. Barorezeptoren — Drucksensoren in Ihren Halsschlagadern und der Aorta — erkennen den Abfall. Innerhalb von Sekunden verengt Ihr sympathisches Nervensystem die Blutgefäße, beschleunigt Ihr Herz etwas, und Ihr Renin-Angiotensin-Aldosteron-System (RAAS) hält Salz und Wasser fest. Das Blut fließt wieder nach oben. Das Gehirn bleibt perfundiert. Die Herzfrequenz steigt um vielleicht 10–15 Schläge und stabilisiert sich dann. Sie merken es nicht.
+
+Bei POTS versagen mehrere Teile dieses Systems gleichzeitig:
+
+**Das Blutvolumen ist zu niedrig.** Direkte Messungen mit der Kohlenmonoxid-Rückatmungstechnik bestätigen, dass POTS-Patienten ein signifikantes Blutvolumendefizit haben — im Durchschnitt etwa eine 14%ige Reduktion des Gesamtblutvolumens, wobei das Plasmavolumen überproportional niedrig ist [@Kulapatana2024]. Speziell bei ME/CFS war die Erythrozytenmasse bei 93,8 % der Frauen und 50 % der Männer reduziert, und das Plasmavolumen war bei 52,6 % subnormal [@Streeten1998blood]. Weniger Blut im Tank bedeutet weniger Blut, das beim Aufstehen nach oben gepumpt werden kann.
+
+**Das Hormon, das dies reparieren sollte, ist paradoxerweise abgeschaltet.** Normalerweise löst ein niedriges Blutvolumen die Reninfreisetzung aus, die Aldosteron erhöht, das den Nieren sagt, Natrium und Wasser festzuhalten — und das Blutvolumen wieder auf normal ausdehnt. Bei POTS und bei ME/CFS mit orthostatischen Symptomen ist die Reninaktivität normal bis niedrig und das Aldosteron ausdrücklich niedrig, obwohl das Blutvolumen messbar niedrig ist [@Raj2005][@Miwa2017]. Dies ist das *Renin-Aldosteron-Paradoxon* — der volumenregulierende Thermostat ist falsch eingestellt, sodass der Körper nicht versucht, das Defizit zu beheben, selbst wenn es objektiv vorhanden ist.
+
+**Die Gefäße klemmen möglicherweise nicht richtig.** Wenn Sie stehen, müssen sich Ihre Beingefäße verengen, um das Blut nach oben zu drücken. Mastzell-Mediatoren — Histamin, Prostaglandin D₂ — erweitern die Blutgefäße und senken den Blutdruck, und Mastzellen sitzen direkt neben Blutgefäßen und Nervenenden [@Kohno2021potsmast]. Bei einer Person, deren Mastzellen zu stark feuern (MCAS), oder deren Bindegewebe zu lax ist, um Gefäße unter Spannung zu halten (Hypermobilität), kann diese Verengung versagen [@Yao2025MCASPOTStriad]. Und es gibt einen dritten Mechanismus, der untersucht wird: Autoantikörper, die auf α-adrenerge und β-adrenerge Rezeptoren abzielen — genau die Rezeptoren, die das sympathische Nervensystem verwendet, um Gefäße zu verengen und die Herzfrequenz anzupassen — wurden bei POTS-Patienten gefunden, obwohl ihre Prävalenz und kausale Rolle noch geklärt werden [@Garland2015POTSbeyond].
+
+**Das Gehirn kann unterperfundiert sein, selbst wenn Herzfrequenz und Blutdruck normal aussehen.** Dies ist der Befund, der verändern sollte, wie Sie über die orthostatische Intoleranz bei ME/CFS denken. In einer großen niederländischen Studie mit transkraniellem Doppler während des Kipptisch-Tests zeigten 82 % der ME/CFS-Patienten mit *normaler* Herzfrequenz und *normalem* Blutdruck dennoch einen abnormalen Abfall des zerebralen Blutflusses. Bei Patienten, die *doch* die POTS-Kriterien erfüllten, zeigten 100 % den Abfall. Am Ende der Kippung betrug die Reduktion des zerebralen Blutflusses 7 % bei Kontrollen gegenüber 26 % bei ME/CFS — fast viermal so groß [@VanCampenEtAl2020]. Eine Folgestudie mit über 500 Patienten bestätigte, dass 91 % der ME/CFS-Patienten mit normaler Herzfrequenz und normalem Blutdruck während des Kipptests dennoch abnorme Herzzeitvolumen- und zerebrale Blutflussreduktionen aufwiesen, was auf eine endotheliale Dysfunktion statt eines einfachen Frequenzproblems hindeutet [@VanCampenEtAl2024].
+
+In einfachen Worten: **Sie können auf dem Papier normale Vitalzeichen haben und dennoch beim Aufstehen Blutfluss im Gehirn verlieren.** Die Herzfrequenz ist ein sichtbares Zeichen eines tieferen, weniger sichtbaren Problems — und bei ME/CFS besteht der Blutflussdefekt bei den meisten Patienten, ob sie nun die 30-bpm-POTS-Schwelle überschreiten oder nicht.
+
+---
+
+## Die POTS–ME/CFS-Überschneidung, in Zahlen
+
+Bevor Sie alles auf die Herzfrequenz schieben, hier, was die Daten sagen — und was nicht.
+
+**Etwa 1 von 4 ME/CFS-Patienten erfüllt die formalen POTS-Kriterien** (ein Herzfrequenzanstieg von ≥30 bpm beim Aufstehen), verglichen mit etwa 9 % der Kontrollen [@Hoad2008pots]. Aber die 30-bpm-Schwelle selbst hat Probleme:
+
+- 10–15 % der gesunden Kontrollen erreichen sie in Populationsstudien [@MECFSScience2024pots].
+- Die Symptom-Schwere korreliert schlecht mit der Größe des Herzfrequenzanstiegs — die Korrelation erklärt nur etwa 2 % der Varianz. Eine Person mit einem mäßigen Anstieg von 32 bpm kann schwer behindert sein; eine Person mit einem Anstieg von 55 bpm kann sich relativ wohlfühlen [@MECFSScience2024pots].
+- Die Testergebnisse zeigen eine schlechte Reproduzierbarkeit von Tag zu Tag — ein Patient kann am Dienstag die Kriterien erfüllen und am Donnerstag nicht [@MECFSScience2024pots].
+- Unter ME/CFS-Patienten mit orthostatischen Intoleranzsymptomen erfüllen nur 21 % die formalen POTS-Kriterien — das heißt, die Mehrheit der orthostatischen Symptome bei ME/CFS wird vom POTS-Label *nicht* erfasst [@MECFSScience2024pots].
+
+**Was das für Sie bedeutet:** POTS, wie derzeit definiert, kann eine schlecht spezifizierte diagnostische Kategorie sein und keine saubere pathophysiologische Entität. Seine scheinbare Komorbidität mit ME/CFS kann teilweise diagnostische Schwellenwert-Artefakte widerspiegeln. Der ehrlichere, nützlichere Rahmen ist: **Die meisten Menschen mit ME/CFS haben eine Form von orthostatischer Intoleranz**, ob die Herzfrequenzzahl nun eine willkürliche Linie an einem einzelnen Testtag überschreitet oder nicht. Die zerebralen Blutflussdaten unterstreichen dies — eine große Folgestudie fand, dass etwa 91 % der ME/CFS-Patienten mit scheinbar normaler Herzfrequenz und normalem Blutdruck während der Kippung dennoch eine abnorme Perfusion zeigten, was ein POTS-Label, das allein auf der Herzfrequenzzahl basiert, übersehen würde [@VanCampenEtAl2024].
+
+**Die Überschneidung hat plausible Chemie.** Mastzellen produzieren Mediatoren, die Gefäße erweitern und den Blutdruck senken — die falsche Chemie für ein System, das bereits darum kämpft, Blut nach oben zu pumpen. In einer POTS-Kohorte hatten 42 % erhöhte Mastzell-Mediatoren; Histamin-Abbauprodukte waren bei 52 % erhöht, Prostaglandin D₂ bei 36 %, aber Tryptase nur bei 9 % — was zeigt, dass der Standard-Mastzell-Bluttest (Tryptase) ein schlechtes Screening für Mastzell-getriebene autonome Dysfunktion ist [@Kohno2021potsmast]. Dies ist konsistent mit — aber beweist nicht — der Idee, dass Mastzellen zur vaskulären Seite von POTS in der Teilmenge der Patienten beitragen, die beides haben [@Yao2025MCASPOTStriad].
+
+**Die Bindegewebsseite ist noch direkter.** Bis zu 70 % der Menschen mit hypermobilem Ehlers-Danlos-Syndrom (hEDS) oder Hypermobilitäts-Spektrumstörung berichten Dysautonomie-Symptome, und bis zu 40 % erfüllen die POTS-Kriterien [@Mathias2021dysautonomia]. Der Mechanismus ist strukturell: Laxes Bindegewebe in den Blutgefäßwänden erlaubt übermäßige venöse Poolbildung, sodass beim Stehen mehr Blut in die Beine gezogen wird, als das System auszugsweise zurückgewinnen kann [@Hakim2017cardiovascular].
+
+---
+
+## Die Reihenfolge ist wichtig: POTS ist meist nachgeschaltet, nicht die Ursache
+
+Hier ist eine Tatsache, die prägen sollte, wie Sie über die Behandlung denken: **POTS kommt fast immer als Teil eines Clusters.** Die POTS–MCAS–Hypermobilitäts-Triade ist kein Zufall. Ein aktueller kritischer Review der Triade fand, dass "ein evidenzbasierter, gemeinsamer pathophysiologischer Mechanismus zwischen irgendzwei, geschweige denn allen drei Zuständen, noch nicht beschrieben wurde" [@Yao2025MCASPOTStriad] — die ehrliche Position ist also, dass die drei zusammen reisen, wahrscheinlich Mechanismen teilen, aber die kausalen Pfeile nicht gezeichnet sind.
+
+Was *klar* ist: **Bei ME/CFS ist POTS meist ein Verstärker unter mehreren, nicht die Kernkrankheit.** Das Blutvolumendefizit, das Renin-Aldosteron-Paradoxon, die vaskulären Mastzell-Effekte und die Bindegewebs-Poolbildung sind alles Routen zum selben Endpunkt — das Herz rast, um zu kompensieren — aber die Behebung der Herzfrequenz behebt das Energieversagen nicht. Die Behandlung-Ansprech-Daten unterstützen dies indirekt: In einer Befragung von fast 4.000 ME/CFS- und Long-COVID-Patienten halfen autonome Modulatoren (Midodrin, Betablocker, Fludrocortison) dem POTS-dominanten Symptomcluster, unabhängig davon, ob die ursprüngliche Diagnose ME/CFS oder Long COVID war — was nahelegt, dass das autonome Problem eine *gemeinsame nachgeschaltete Konsequenz* und keine krankheitsspezifische Ursache ist [@Eckey2025PatientReported].
+
+Denken Sie an ein Auto mit einem Problem an der Kraftstoffpumpe. Der Motor dreht hoch, wenn Sie einen Hügel hinauffahren — nicht weil der Motor defekt ist, sondern weil die Kraftstoffversorgung schwach ist und der Motor kompensiert. Das Beheben des Hochdrehens (die Herzfrequenz) behebt nicht die Kraftstoffpumpe (den Energie-/Immundefekt). Aber das Behandeln des Hochdrehens ist trotzdem sinnvoll, weil das Laufen des Motors am Anschlag Kraftstoff kostet, den Sie nicht haben.
+
+---
+
+## POTS allein vs. ME/CFS mit POTS
+
+Ein Großteil der Verwirrung um POTS kommt vom Vermischen zweier Situationen, die ähnlich aussehen — dasselbe rasende Herz, derselbe Schwindel beim Aufstehen — aber unterschiedliche Behandlungsziele haben.
+
+**POTS allein (kein ME/CFS).** Bei jemandem ohne ME/CFS ist POTS die dominante Beschwerde. Das Blutvolumendefizit, die venöse Poolbildung und die kompensatorische Tachykardie sind das behandelte Problem. Die Wiederherstellung des Blutvolumens (Salz, Fludrocortison), die Verengung der Gefäße (Midodrin) und die Verlangsamung der Frequenz (Ivabradin, Betablocker) zielen auf die Grunderkrankung. Wenn die Symptome ansprechen, ist das Ziel weitgehend erreicht — die Person kann stehen, gehen und funktionieren.
+
+**ME/CFS mit POTS (die Situation, um die es in dieser Serie geht).** Wenn POTS zusätzlich zu ME/CFS auftritt, sind drei Dinge anders:
+
+- **POTS ist ein Verstärker.** Die Blutpoolbildung und das rasende Herz kosten Energie, die dem System bereits fehlt, und der orthostatische Stress kann PEM auslösen — aber die Behebung der Frequenz behebt nicht das Energieversagen oder die Immundysregulation [@Loth2026website].
+- **Die Behandlung von POTS behandelt einen Beitragenden.** Wenn Midodrin oder Kompression Ihnen hilft, länger zu stehen, ist die ehrliche Lesart, dass *venöse Poolbildung zu Ihren orthostatischen Symptomen beigetragen hat*. Es sagt nichts darüber aus, ob die Energieproduktion, das Immunsystem oder die Gehirnentzündung besser sind.
+- **Ein gescheiterter POTS-Medikamentenversuch sagt nichts gegen Ihr ME/CFS.** Weil die orthostatische Intoleranz bei ME/CFS mehrere Eingänge hat — Blutvolumen, Renin-Aldosteron-Achse, Mastzell-Mediatoren, Endothelfunktion, Bindegewebsintegrität — kann ein Medikament, das nur eine dieser Routen blockiert, versagen, während die Gesamt-Dysautonomie real bleibt. Und weil die Kernkrankheit größer ist als jeder einzelne Weg, ist ein gescheiterter Versuch ein Hinweis auf *ein Medikament in einem Mechanismus*, kein Urteil darüber, ob Ihre Krankheit real ist.
+
+Warum diese Unterscheidung praktisch wichtig ist: **Bei ME/CFS ist eine POTS-Behandlung am besten als zeitlich begrenzter Versuch zu denken, der auf einen möglichen Beitragenden zielt** — mit einer klaren Vorstellung davon, welche Symptome er berühren soll, und einem Plan, was ein partielles oder Null-Ergebnis bedeutet oder nicht bedeutet.
+
+---
+
+## Das Fazit
+
+POTS ist bei ME/CFS real — etwa 1 von 4 Patienten erfüllt die Kriterien — aber die 30-bpm-Schwelle ist ein schlechtes diagnostisches Tor, und die meisten Menschen mit ME/CFS haben eine orthostatische Intoleranz, die das formale POTS-Label nur teilweise erfasst [@Hoad2008pots][@MECFSScience2024pots]. Das Kernproblem ist nicht nur die Herzfrequenz: Niedriges Blutvolumen, paradoxerweise unterdrückte volumenregulierende Hormone, Mastzell-vermittelte Vasodilatation, endotheliale Dysfunktion und Bindegewebslaxität münden alle in denselben Endpunkt — das Herz rast, um ein System zu kompensieren, das Blut nicht nach oben halten kann [@Raj2005][@Streeten1998blood][@Miwa2017][@VanCampenEtAl2020].
+
+Die ehrliche Lesart: POTS ist meist ein nachgeschalteter Verstärker, nicht die Ursache, und die Behandlung der Herzfrequenz behebt selten das Energieversagen — aber es lohnt sich trotzdem, sie zu behandeln, weil das Laufen Ihres Herzens im Sprint, während Sie still liegen, Energie kostet, die Sie nicht haben [@Loth2026website].
+
+**Als Nächstes in dieser Mini-Serie:** wie die tatsächlichen Medikamente wirken — zuerst Salz und Kompression, dann Fludrocortison, Midodrin, Ivabradin, Betablocker und Pyridostigmin, das Medikament, das Sie wahrscheinlich *nicht* nehmen sollten (die SSRI-Falle), erwartete Ergebnisse und die ehrliche Diskussion "was, wenn die Medikamente nicht wirken" [[siehe den Begleitartikel]](../pots-mecfs-treatment/index.qmd).
+
+Für das umfassende, vollständig zitierte Bild darüber, wie kardiovaskuläre Dysfunktion und autonome Dysregulation unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet werden, siehe [@Loth2026website].

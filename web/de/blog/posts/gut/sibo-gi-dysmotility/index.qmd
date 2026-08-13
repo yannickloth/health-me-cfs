@@ -1,0 +1,96 @@
+---
+title: "GI-Dysmotilität Artikel 1: SIBO, Gastroparese, Histamin und der Darm, der bei ME/CFS danebengeht"
+description: "Ein allgemeinverständlicher Leitfaden zu GI-Dysmotilität und SIBO bei ME/CFS — warum der Magen langsam entleert, wie Bakterien Ihr Frühstück stehlen, die Mastzell-Darmmotilitäts-Verbindung, Schwefelwasserstoff als mitochondrialer Giftstoff, die DAO-Histamin-Verbindung und der Unterschied zwischen Darmproblemen allein und Darmproblemen zusätzlich zu ME/CFS."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [GI-Dysmotilität, SIBO, ME/CFS, Darm, Pathophysiologie]
+lang: de
+---
+
+Ihr Magen entleert sich langsam. Sie sind Stunden nach einer winzigen Mahlzeit satt, aufgebläht, krampfend oder rennen ohne Erklärung zur Toilette. Sie essen, und die Müdigkeit vertieft sich — nicht in einer Stunde, sondern innerhalb von Minuten, als ob das Essen selbst das wenige Energie, das Sie haben, abziehen würde. Je mehr Ihr Darm danebengeht, desto mehr flackert Ihr ganzer Körper auf: Brain Fog, Mastzell-Flushing, orthostatische Intoleranz, Schmerz. Ein System, dominoartig.
+
+Nun kommt der Rest von ME/CFS hinzu: das PEM, der nicht erholsame Schlaf, die Energiekrise. Irgendwo im Darm — in der langsamen Motilität, den Bakterien, die dort wachsen, wo sie nicht sollten, der Barriere, die leckt, den Mastzellen, die bei Nahrungsproteinen feuern — wird ein erheblicher Anteil der gesamten Krankheitslast erzeugt. Und der Darm ist das eine System, in dem der Patient direkte Handlungsmacht hat: Ernährung ist der erste Hebel.
+
+Dieser Artikel ist der konzeptionelle Überblick. Was GI-Dysmotilität und SIBO tatsächlich sind, die drei Mechanismen (ICC/vagale Ausfälle, Mastzell-Darm-Achse, H₂S-mitochondriale Vergiftung), die DAO-Histamin-Verbindung und der Unterschied zwischen Darmproblemen allein und Darmproblemen *zusätzlich zu* ME/CFS. Die Behandlungen — Mahlzeitenabstände, histaminarme Eliminationsdiät, SIBO-Antibiotika und -Kräuter, elementare Diät, DAO und Prokinetika — werden im [Begleitartikel zur Behandlung](../sibo-gi-treatment/index.qmd) behandelt.
+
+---
+
+## Zuerst eine klare Warnung
+
+*Dies ist eine Erklärung, keine Selbstmedikationsempfehlung, und ich bin kein Arzt. Rasch fortschreitender Gewichtsverlust, Unfähigkeit, Flüssigkeiten bei sich zu behalten, schwere Bauchschmerzen oder Blut im Stuhl erfordern eine dringende Abklärung. Eliminationsdiäten — insbesondere langwierige Low-FODMAP- oder histaminarme Diäten — riskieren Unterernährung und sollten von einem Ernährungsberater überwacht werden.*
+
+---
+
+## Die Kurzfassung, wenn Sie nur einen Teil lesen
+
+- **GI-Symptome betreffen 70–90 % der ME/CFS-Patienten** — Übelkeit, Blähungen, frühes Sättigungsgefühl, abwechselnd Durchfall und Verstopfung, Nahrungsmittelunverträglichkeiten — was den Darm zum am konsistentesten beteiligten Organsystem außerhalb des Gehirns macht.
+- **Drei Mechanismen konvergieren.** (1) Autonome Neuropathie schädigt die interstitiellen Zellen von Cajal und den Vagus, verlangsamt die Darmmotilität — Nahrung bleibt liegen, Bakterien wachsen (SIBO). (2) Mastzellen in der Darmschleimhaut degranulieren und setzen Histamin, Tryptase und Prostaglandine frei, die die Motilität weiter verlangsamen und die Permeabilität erhöhen. (3) Sulfatreduzierende Bakterien produzieren Schwefelwasserstoff (H₂S), der direkt den mitochondrialen Komplex IV vergiftet — dasselbe Ziel wie Zyanid — und zelluläres ATP abzieht [@Nicholls2013sulfideCOX].
+- **SIBO ist bei ME/CFS real, aber seine Diagnose ist umstritten.** Atemtests haben hohe Falschpositiv-Raten, und eine internationale Konsensaussage von 2024 schloss, dass die SIBO-Hypothese "unbewiesen bleibt" [@Kashyap2024SIBOcritique]. Behandeln Sie das klinische Bild, nicht die Atemtest-Zahl.
+- **Die Behandlung des Darms behebt selten die Energiekrise, aber das Ignorieren des Darms macht die Energiekrise schlimmer.** Der Darm ist ein Verstärker — Histaminüberladung, Nährstoff-Malabsorption und H₂S-Toxizität ziehen alle ein System ab, das bereits im Defizit ist.
+
+---
+
+## Drei Mechanismen
+
+### Der Motilitätsausfall: ICC-Schaden, vagale Dysfunktion und Autoimmunität
+
+Die rhythmischen Kontraktionen des Darms — der migrierende motorische Komplex (MMC), der Bakterien zwischen den Mahlzeiten nachgeschaltet wegfegt — wird von den **interstitiellen Zellen von Cajal (ICC)** orchestriert, Schrittmacherzellen, die glatte Muskulatur mit dem enterischen Nervensystem verbinden [@Deloose2012MMCreview]. Bei postinfektiösem ME/CFS schädigen zwei Prozesse die ICC:
+
+- **Autoantikörper.** Anti-CdtB- und Anti-Vinculin-Antikörper, die nach bakterieller Gastroenteritis (Campylobacter, E. coli) erzeugt werden, kreuzreagieren mit ICC-Proteinen, schädigen die Schrittmacherzellen und beeinträchtigen die MMC-Funktion. Dies ist der am besten dokumentierte Mechanismus für postinfektiöses IBS und SIBO.
+- **Vagale Dysfunktion.** Der Vagusnerv treibt die gastrale Phase III des MMC. Strukturelle vagale Denervation — bei Long COVID dokumentiert durch gastrische Schleimhautbiopsie, die einen selektiven Verlust cholinerger Nervenfasern zeigt — beeinträchtigt spezifisch die Magenentleerung. Der Dünndarm-MMC wird vom enterischen Nervensystem angetrieben, nicht vom Vagus, sodass vagale Dysfunktion allein kein SIBO verursacht — aber vagale Dysfunktion plus ICC-Schaden kann es [@acanfora2026vagaldenervation].
+
+Wenn der MMC versagt, akkumulieren Bakterien, die in den Dickdarm gefegt werden sollten, im Dünndarm. Das ist **SIBO** — Small Intestinal Bacterial Overgrowth (bakterielle Überwucherung des Dünndarms). Die Bakterien fermentieren Kohlenhydrate und produzieren Wasserstoff-, Methan- oder Schwefelwasserstoffgas. Methan verlangsamt den Transit weiter (eine positive Rückkopplungsschleife). Schwefelwasserstoff ist ein mitochondrialer Giftstoff. Alle drei stehlen Nährstoffe, bevor Sie sie absorbieren können.
+
+### Die Mastzell-Darm-Achse: Histamin, Permeabilität und die Motilitätsbremse
+
+Mastzellen sind in der Darmschleimhaut konzentriert — mehr als in jedem anderen Gewebe. Bei MCAS degranulieren sie unangemessen und setzen frei:
+
+- **Histamin**, das direkt die Darmsekretion stimuliert und Durchfall auslösen kann. Histamin meldet sich auch über H3-Rezeptoren an das Gehirn zurück, unterdrückt die Freisetzung von Acetylcholin, Serotonin und Noradrenalin — die neurochemische Grundlage des Post-Mahlzeiten-Brain-Fog.
+- **Tryptase**, die PAR2 auf enterischen Nerven aktiviert, die Motilität verlangsamt und die viszerale Hypersensitivität erhöht — der Darm wird empfindlicher gegenüber normaler Dehnung und erzeugt Schmerz und Blähungen aus gewöhnlichen Gasmengen [@Novak2022].
+- **Prostaglandine**, die die Darmpermeabilität erhöhen, indem sie die Tight Junctions zwischen Epithelzellen lockern.
+
+Die bidirektionale Schleife ist selbstverstärkend. Dysbiose (SIBO, wenige Butyrat-Produzenten) reduziert die kurzkettigen Fettsäuren (Butyrat, Propionat), die normalerweise die Mastzell-Degranulation hemmen — Butyrat unterdrückt die Mastzellaktivierung durch HDAC-Hemmung um bis zu 90 % [@Folkerts2020butyrate]. Ohne diese Unterdrückung feuern Mastzellen mehr, schädigen die Barriere, was es mehr bakteriellen Produkten (LPS) erlaubt, zu translozieren, was mehr Mastzellen aktiviert. Die Schleife läuft.
+
+### Schwefelwasserstoff: das mitochondriale Gift, das niemand testet
+
+Sulfatreduzierende Bakterien — Desulfovibrio, Bilophila, Fusobacterium — wandeln diätetisches Sulfat und Taurin in Schwefelwasserstoff (H₂S) um. Bei niedrigen Konzentrationen ist H₂S ein physiologischer Gasotransmitter, der den Gefäßtonus reguliert. Bei hohen Konzentrationen — erzeugt durch eine überwucherte sulfatreduzierende Population bei SIBO — bindet H₂S an die **CuB/Häm-a₃-Stelle der Cytochrom-c-Oxidase (Komplex IV)** , des terminalen Enzyms der mitochondrialen Elektronentransportkette [@Nicholls2013sulfideCOX]. Dies ist dieselbe Bindungsstelle, die von Zyanid angezielt wird.
+
+Die Hemmung ist biphasisch und teilweise reversibel: Niedrige mikromolare Konzentrationen reduzieren chronisch die ATP-Produktion, ohne Zelltod zu verursachen. Wenn es im überwucherten Darm produziert wird, wird H₂S über die Pfortaderzirkulation zur Leber getragen; wenn die Entgiftungskapazität der Leber überwältigt ist, kann H₂S in die systemische Zirkulation gelangen und Komplex IV in anderen Geweben hemmen [@Nicholls2013sulfideCOX]. Das Ergebnis ist ein potenzieller systemischer Energiedrain, der für Standard-Blutuntersuchungen unsichtbar ist — H₂S wird in der klinischen Praxis nicht gemessen. Unabhängig vom mitochondrialen Mechanismus verbindet ein Review sulfidogener Darmbakterien (Desulfovibrio, Bilophila) ihre Überwucherung mit der Störung der intestinalen Epithel- und Schleimbarriere [@Pimenta2024sulfidogenic].
+
+---
+
+## Die DAO-Histamin-Verbindung: warum Essen Sie aufflackern lässt
+
+Diaminoxidase (DAO) ist das intestinale Enzym, das diätetisches Histamin abbaut, bevor es in den Blutkreislauf gelangen kann. DAO wird von Darmepithelzellen produziert; seine Aktivität wird durch Schleimhautentzündung, SIBO und genetische Polymorphismen im AOC1-Gen reduziert (bei ~15–20 % der Bevölkerung vorhanden). Wenn die DAO-Aktivität niedrig ist, liefern histaminreiche Lebensmittel (gereifter Käse, fermentierte Lebensmittel, gepökelte Fleischwaren, Wein, Tomaten, Spinat) eine Histaminlast, die der Darm nicht klären kann.
+
+Das ist bei ME/CFS wichtig, weil die Unterscheidung zwischen **Histaminintoleranz** (HIT — beeinträchtigter DAO-vermittelter Abbau von diätetischem Histamin, mit normaler Mastzellfunktion) und **MCAS** (übermäßige endogene Histaminproduktion durch hyperaktive Mastzellen) die Behandlung verändert. HIT spricht auf DAO-Ergänzung und eine histaminarme Diät an; MCAS erfordert Mastzell-Stabilisatoren und Antihistaminika. Die beiden können koexistieren, und das Primärdokument schlägt eine diagnostische Sonde vor: DAO vor den Mahlzeiten ergänzen. Wenn DAO allein die Post-Mahlzeiten-Symptome reduziert, ist HIT der wahrscheinliche Beitragende; wenn zusätzlich Antihistaminika nötig sind, ist eine endogene Mastzell- (MCAS-) Komponente wahrscheinlich; wenn weder DAO noch Antihistaminika helfen, ist Histamin wahrscheinlich nicht der dominante Treiber [@Loth2026website]. Diese Sondenantworten sind suggestive Signale und keine Beweise — Placebo, Diätänderungen und Nicht-Histamin-Mechanismen können alle einen individuellen Versuch verfälschen.
+
+---
+
+## Die Reihenfolge ist wichtig: Darmprobleme sind meist nachgeschaltet, nicht die Ursache
+
+GI-Dysmotilität bei ME/CFS ist fast immer nachgeschaltet zur systemischen Krankheit, nicht ihre Ursache. Der ICC-Schaden ist postinfektiös (Antikörper, die während der anfänglichen Gastroenteritis erzeugt wurden, bestehen fort und schädigen weiterhin die Schrittmacherzellen). Die vagale Denervation ist postviral (COVID, EBV oder eine andere neurotrope Infektion schädigt den Vagus direkt). Die Mastzell-Darm-Schleife ist eine Konsequenz des systemischen MCAS, keine primäre Darmerkrankung. Das Schwefelwasserstoffproblem wird durch die bakterielle Überwucherung angetrieben, die dem Motilitätsausfall folgt.
+
+Aber — wie bei jedem Verstärker in dieser Serie — bedeutet "nachgeschaltet" nicht "unwichtig". Sobald die Darmschleife läuft, fügt sie eine Histaminlast, eine Nährstoff-Malabsorption-Bürde und einen H₂S-Energiedrain auf ein bereits erschöpftes System hinzu. Die Behandlung des Darms behebt nicht den Kern-Energie-/Immundefekt, aber das *Nicht*-Behandeln des Darms bedeutet, dass das System schneller abfließt, als es sich erholen kann.
+
+---
+
+## Darmprobleme allein vs. ME/CFS mit Darmproblemen
+
+**IBS/SIBO allein (kein ME/CFS).** IBS ist eine Störung der Darm-Hirn-Interaktion — viszerale Hypersensitivität, veränderte Motilität und Mikrobiom-Verschiebungen erzeugen Schmerz, Blähungen und veränderte Stuhlgewohnheiten. SIBO ist eine definierte Überwucherung, die mit Antibiotika behandelbar ist. Die Behandlung ist darmzentriert: Diät, Prokinetika, Antibiotika, und die Symptome sind auf den GI-Trakt beschränkt. Müdigkeit, falls vorhanden, ist sekundär zur Unterernährung und löst sich mit der Darmbehandlung auf.
+
+**ME/CFS mit Darmproblemen (die Situation, um die es in dieser Serie geht).** Wenn GI-Dysmotilität zusätzlich zu ME/CFS auftritt, sind drei Dinge anders:
+
+- **Der Darm ist ein Verstärker.** Die Histaminüberladung, der H₂S-Energiedrain und die Nährstoff-Malabsorption verschlechtern alle das systemische Energiedefizit — aber die Behebung des Darms behebt nicht das PEM oder die Immundysregulation [@Loth2026website].
+- **Ernährung ist der erste Hebel — aber sie ist ein Hebel, keine Heilung.** Eine histaminarme Diät reduziert die Histaminlast, stoppt aber nicht die Mastzellen am Degranulieren. Mahlzeitenabstände unterstützen den MMC, regenerieren aber keine verlorenen ICCs. Die diätetischen Interventionen sind partiell, unterstützend und sinnvoll durchzuführen — und sie sind nicht kurativ.
+- **Ein gescheiterte Darmbehandlung sagt nichts gegen Ihr ME/CFS.** Weil der Darm ein Verstärker unter mehreren ist, bedeutet eine SIBO-Behandlung, die die Müdigkeit nicht verbessert, nicht, dass das SIBO nicht real war — es bedeutet, dass das SIBO nicht der dominante Abfluss auf Ihr Energiebudget war, und der ehrliche nächste Schritt ist, woanders zu suchen.
+
+---
+
+## Das Fazit
+
+Der Darm ist das am konsistentesten beteiligte Organsystem bei ME/CFS außerhalb des Gehirns, und er ist das eine System, in dem der Patient durch Ernährung direkte Handlungsmacht hat. Drei Mechanismen — ICC/vagaler Motilitätsausfall, Mastzell-getriebene Permeabilität und Dysmotilität und Schwefelwasserstoff-mitochondriale Vergiftung — schließen sich nicht gegenseitig aus, und sie konvergieren auf denselben Endpunkt: einen Darm, der Energie stiehlt, statt sie zu liefern [@Loth2026website].
+
+**Als Nächstes in dieser Mini-Serie:** wie man den Darm tatsächlich behandelt — Mahlzeitenabstände, histaminarme Eliminationsdiät, SIBO-Antibiotika und -Kräuter, elementare Diät, DAO, Butyrat, Prokinetika und die ehrliche Diskussion "was, wenn nichts hilft" [[siehe den Begleitartikel]](../sibo-gi-treatment/index.qmd).
+
+Für das umfassende, vollständig zitierte Bild darüber, wie GI-Dysmotilität und das Darmmikrobiom unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet werden, siehe [@Loth2026website].

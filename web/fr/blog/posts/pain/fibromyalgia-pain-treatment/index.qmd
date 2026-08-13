@@ -1,0 +1,126 @@
+---
+title: "Fibromyalgie Article 2 : Traiter la douleur de type fibromyalgique dans l'EM/SFC — LDN, IRSNa, inhibiteurs de COX-2, PEA, et ce que cela signifie quand la douleur ne s'arrête pas"
+description: "Un guide en langage clair pour traiter la douleur de type fibromyalgique dans l'EM/SFC — le naltrexone à faible dose pour le TLR4 microglial, les IRSNa pour l'inhibition descendante, les gabapentinoïdes pour l'amplification centrale, les inhibiteurs de COX-2 pour la boucle PGE2/TRPV1, le PEA pour la douleur multimodale, les antagonistes NMDA pour les cas sévères, les résultats attendus, et la discussion honnête « et si rien n'aide »."
+author: "Yannick Loth"
+date: "2026-08-12"
+lang: fr
+categories: [Traitement, Fibromyalgie, Douleur, EM/SFC]
+---
+
+Si vous avez une EM/SFC et une douleur de type fibromyalgique, les directives standard de traitement de la fibromyalgie — IRSNa, gabapentinoïdes, exercice gradué — n'ont pas été écrites pour un patient dont la douleur s'amplifie après un effort minimal. Les médicaments qui fonctionnent dans la fibromyalgie pure peuvent provoquer une sédation et un ralentissement cognitif qui sont proportionnellement plus coûteux quand le brouillard cérébral est déjà présent. Et certains des traitements les plus efficaces pour la douleur fibromyalgique — LDN, PEA, inhibiteurs de COX-2 — fonctionnent par des mécanismes particulièrement pertinents pour le chevauchement avec l'EM/SFC.
+
+Cet article explique l'architecture du traitement. Pour le contexte conceptuel — ce qu'est la sensibilisation centrale, les canaux TRPV1/TRPA1 et l'hybride nociplastique-neuropathique — voir l'[article compagnon de vue d'ensemble](../fibromyalgia-pattern-pain/index.qmd).
+
+---
+
+## D'abord, un avertissement simple
+
+*Tout ce qui suit est une conversation à avoir avec un clinicien, pas une automédication. Le LDN est un médicament composé exigeant une ordonnance. Les inhibiteurs de COX-2 ont des risques cardiovasculaires et rénaux. Les gabapentinoïdes provoquent une dépendance physiologique. Les antagonistes NMDA (kétamine) sont des substances contrôlées exigeant une administration supervisée. Travaillez avec un spécialiste de la douleur qui comprend l'EM/SFC.*
+
+---
+
+## L'architecture du traitement
+
+### Naltrexone à faible dose (LDN) : la meilleure première étape pour le chevauchement
+
+Le LDN à 1 à 4,5 mg par jour est le traitement unique le plus mécanistiquement cohérent pour la douleur de type fibromyalgique dans l'EM/SFC. Le naltrexone est un antagoniste des opioïdes aux doses standard (50 mg), mais à faible dose il réduit paradoxalement la douleur par un mécanisme différent : **le blocage du TLR4 microglial**.
+
+Les microglies — les cellules immunitaires du cerveau — expriment le récepteur de type Toll 4 (TLR4). Quand le TLR4 est activé par des DAMPs du stress tissulaire, des LPS de la perméabilité intestinale ou des signaux inflammatoires, les microglies libèrent des cytokines pro-inflammatoires qui sensibilisent les neurones voisins dans la moelle épinière et le cerveau — la base cellulaire de la sensibilisation centrale. Le LDN bloque la signalisation du TLR4 sur les microglies, réduisant cette amplification neuro-inflammatoire [@Polo2019LDN].
+
+Dans la fibromyalgie, le LDN a des preuves d'essai : un essai contrôlé randomisé de 2019 a montré une réduction significative de la douleur par rapport au placebo, avec un profil d'effets secondaires favorable — bien que les essais contrôlés randomisés sur la fibromyalgie en tant que groupe aient un taux de réponse placebo notoirement élevé, et le résultat du LDN soit un seul essai positif. Dans l'EM/SFC, les preuves sont des enquêtes de patients non contrôlées — mais le mécanisme (blocage du TLR4 sur les microglies amorcées) est directement pertinent à la fois pour la composante de sensibilisation centrale et pour la ré-activation microgliale entraînée par le MPE. Le LDN est généralement bien toléré — les rêves vifs et l'insomnie initiale sont les effets secondaires les plus courants, atténués en le prenant le matin plutôt qu'au coucher. Commencez à 0,5 à 1,5 mg et titrez lentement sur des semaines.
+
+**Une interaction ne peut pas être sautée.** Le naltrexone est un antagoniste des opioïdes — même à faible dose, il bloque assez les récepteurs opioïdes pour **affaiblir ou inverser l'analgésie opioïde et précipiter un sevrage chez les patients prenant des analgésiques opioïdes**. Si vous êtes sous un opioïde (codéine, tramadol, hydrocodone, morphine, etc.), le LDN ne doit pas être commencé sans un plan explicite convenu avec le prescripteur. C'est un véritable point de sécurité, pas une réserve théorique — c'est le contrôle le plus important avant le LDN dans une population de douleur.
+
+### IRSNa : duloxétine et milnacipran
+
+La duloxétine (30 à 60 mg par jour) renforce la noradrénaline et la sérotonine dans les voies inhibitrices descendantes de la douleur. Elle a des preuves de niveau Cochrane pour la douleur fibromyalgique. Dans l'EM/SFC, la même pharmacologie qui améliore la douleur peut aggraver l'état « fatigué-mais-nerveux » à l'initiation — les IRSNa peuvent être activants, avec une insomnie, une anxiété et des nausées initiales qui se calment sur 2 à 4 semaines. Commencez à 30 mg, réévaluez à 4 semaines et arrêtez si l'activation persiste.
+
+Le milnacipran est approuvé pour la fibromyalgie mais est plus noradrénergique, ce qui peut être trop activant pour le profil autonome de l'EM/SFC. La duloxétine est le défaut plus sûr.
+
+### Gabapentinoïdes (prégabaline, gabapentine)
+
+La prégabaline (150 à 450 mg par jour en doses divisées) a les preuves de fibromyalgie les plus solides parmi les gabapentinoïdes. Elle réduit la libération de neurotransmetteurs dépendante du calcium des neurones centraux hyper-excitables — un mécanisme différent des IRSNa. Les effets secondaires de sédation et de ralentissement cognitif sont le facteur limitant dans l'EM/SFC. Commencez bas (prégabaline 25 à 50 mg au coucher) et titrez lentement. Le résultat honnête chez de nombreux patients EM/SFC est que la dose maximale tolérée est en dessous de la dose efficace pour la douleur — et c'est un problème d'accès pharmacologique, pas un problème de conformité du patient.
+
+### Inhibiteurs de COX-2 : briser la boucle PGE₂/TRPV1
+
+Si une boucle de rétroaction COX-2/PGE₂/TRPV1 est un contributeur — une hypothèse suggérée par l'hyperalgésie à la chaleur que les patients décrivent, bien que la boucle elle-même soit inférée plutôt que mesurée directement — alors l'inhibition de COX-2 (célécoxib, typiquement 200 mg par jour) devrait réduire la production de PGE₂ et l'atténuer. La prédiction est spécifique : l'inhibition de COX-2 devrait réduire la douleur brûlante au repos et l'hypersensibilité à la chaleur sans nécessairement améliorer la fatigue ou le MPE — parce que si la boucle COX-2 contribue, c'est un amplificateur de douleur, pas un mécanisme de déficit énergétique.
+
+**Considérations pratiques.** Les inhibiteurs de COX-2 ont des risques cardiovasculaires avec une utilisation à long terme et ne doivent pas être combinés avec d'autres AINS. Ils sont un essai minuté pour le phénotype de douleur à prédominance COX-2/TRPV1, pas une stratégie de maintenance chronique. La limite honnête : aucun essai COX-2 spécifique à l'EM/SFC n'existe, et les preuves sont mécanistiques, pas cliniques.
+
+### Palmitoyléthanolamide (PEA) : multimodal, à faible risque
+
+Le PEA est une amide d'acide gras endogène qui agit par PPAR-α et indirectement sur le système endocannabinoïde. Une méta-analyse de 2025 a trouvé le PEA efficace pour la douleur nociceptive, neuropathique ET nociplastique — un profil inhabituellement large. Il réduit la dégranulation des mastocytes, l'activation microgliale et la sensibilisation nerveuse périphérique — les trois mécanismes pertinents pour la douleur de l'EM/SFC [@Vina2025pea].
+
+Le PEA est généralement bien toléré (troubles gastro-intestinaux légers chez une minorité), disponible sans ordonnance dans de nombreux pays, et n'a aucune interaction médicamenteuse significative. La dose habituelle est de 300 à 600 mg deux fois par jour. Les preuves sont les plus fortes pour la douleur pelvienne chronique et les syndromes de compression neuropathique ; l'extension à la douleur fibromyalgique dans l'EM/SFC est mécanistiquement plausible mais pas directement testée. Le faible risque et le profil de mécanisme large en font une étape précoce raisonnable dans l'échelle de traitement.
+
+### Antagonistes NMDA : kétamine et mémantine
+
+Pour la douleur sévère résistante au traitement entraînée par le wind-up central (sommation temporelle améliorée au QST), le blocage du récepteur NMDA est le mécanisme le plus direct. **Les perfusions de kétamine à faible dose** (0,5 mg/kg sur 40 minutes, typiquement une série de 3 à 5 perfusions sur 2 semaines) produisent un soulagement rapide de la douleur dans la fibromyalgie — mais le soulagement est temporaire (jours à semaines), et les effets secondaires dissociatifs (dépersonnalisation, hallucinations, fragmentation cognitive) sont un mauvais ajustement pour les patients EM/SFC qui subissent déjà un brouillard cérébral et une sensibilité sensorielle [@Walitt2021KetamineFibro].
+
+**La mémantine** (10 à 20 mg par jour, titrée lentement) est un antagoniste NMDA oral avec un profil d'effets secondaires plus doux. Elle est utilisée dans la maladie d'Alzheimer et a des preuves de série de cas pour la fibromyalgie. Dans l'EM/SFC, la justification s'étend à la réduction du coût métabolique du traitement de la douleur sensibilisé — mais la mémantine peut provoquer un brouillard cérébral, des étourdissements et une agitation à l'initiation, et la fenêtre thérapeutique dans l'EM/SFC est étroite. C'est une option pour le patient qui a échoué le LDN, les IRSNa et les gabapentinoïdes, et qui a un wind-up documenté au QST.
+
+---
+
+## Un exemple d'essai structuré
+
+*Ceci est un exemple pour donner à votre clinicien une base de travail — pas une auto-prescription.*
+
+Commencez avec le LDN 0,5 à 1,5 mg par jour (le matin, pour éviter l'insomnie — voir ci-dessus), titrez à 4,5 mg sur 4 à 8 semaines. Réévaluez le symptôme cible unique — la douleur brûlante au repos, la sensibilité des points sensibles ou l'amplification de la douleur post-effort — à 12 semaines. **Si aucun bénéfice à 4,5 mg, arrêtez** — les doses au-dessus de 4,5 mg perdent l'effet sélectif du TLR4.
+
+Si le LDN produit un bénéfice partiel, ajoutez le célécoxib 200 mg par jour pendant 2 semaines comme sonde diagnostique. Si la douleur brûlante et la sensibilité à la chaleur s'améliorent en 2 semaines, une composante médiée par COX-2/PGE₂ est *suggérée* (pas confirmée — le placebo ou un effet analgésique général peut paraître identique) — mais une inhibition prolongée de COX-2 comporte un risque cardiovasculaire, donc utilisez-la pour informer le mécanisme et envisagez un dosage intermittent plutôt que continu. Si le célécoxib n'a aucun effet à 2 semaines, arrêtez — la voie COX-2 n'est probablement pas un amplificateur dominant.
+
+Si le LDN + le célécoxib ont tous deux été essayés, ajoutez un IRSNa (duloxétine 30 mg, titrez à 60 mg sur 4 semaines) ou la prégabaline (25 à 50 mg au coucher, titrez à la dose maximale tolérée). Réévaluez à 8 semaines. **Arrêtez si la sédation ou l'activation empêche d'atteindre une dose efficace** — la fenêtre thérapeutique dans l'EM/SFC est plus étroite que dans la fibromyalgie pure, et un résultat nul à la dose maximale tolérée est un essai valable.
+
+Ajoutez le PEA 300 à 600 mg deux fois par jour comme complément à faible risque à n'importe quel moment de la séquence. Son mécanisme à large spectre (stabilisation des mastocytes, modulation microgliale, réduction de la sensibilisation périphérique) le rend complémentaire du LDN et des IRSNa plutôt que redondant. Réévaluez à 8 semaines.
+
+N'ajoutez qu'une seule intervention à la fois. L'objectif est de trouver la combinaison qui réduit la douleur assez pour améliorer la fonction sans ajouter une sédation ou un ralentissement cognitif qui aggrave la maladie centrale. L'architecture d'essai structuré est la seule façon de savoir ce que chaque médicament contribue.
+
+---
+
+## Résultats attendus
+
+- **Le LDN prend des semaines, pas des jours.** L'effet anti-microglial se construit progressivement. Titrez à 4,5 mg sur 4 à 8 semaines ; réévaluez à 12 semaines. Les rêves vifs et l'insomnie initiale sont courants et se résolvent habituellement. Si aucun bénéfice à 4,5 mg après 12 semaines, arrêtez — le LDN a une courbe dose-réponse abrupte, et les doses au-dessus de 4,5 mg perdent l'effet sélectif du TLR4 et entrent dans le territoire standard de l'antagoniste opioïde.
+- **Les IRSNa et les gabapentinoïdes ont un décalage thérapeutique et un coût d'effets secondaires.** La dose efficace pour la douleur est souvent plus élevée que la dose de départ. Un médicament arrêté à 2 semaines à cause de la sédation n'a jamais reçu un procès équitable — mais un médicament qui provoque une sédation intolérable à la dose la plus basse est un véritable échec et doit être arrêté.
+- **Les inhibiteurs de COX-2 fonctionnent rapidement (jours) ou pas du tout.** Si le célécoxib réduit la douleur brûlante en une semaine, une composante médiée par COX-2/PGE₂ est *suggérée* — bien que non prouvée, car un effet analgésique non-COX-2 ou un effet placebo peut paraître identique. S'il ne fait rien après 2 semaines, la boucle n'est probablement pas le contributeur dominant, et une inhibition prolongée de COX-2 comporte un risque cardiovasculaire — arrêtez.
+- **Le PEA est lent et subtil.** Attendez une amélioration progressive sur 4 à 8 semaines, pas un soulagement dramatique. Le bénéfice, s'il vient, est souvent décrit comme « moins sensibilisé » plutôt que « moins de douleur » — une réduction de l'amplification plutôt que du signal.
+- **La réponse partielle est le résultat le plus courant.** Douleur réduite de 8/10 à 5/10 sous LDN + PEA, avec les IRSNa ajoutant un point de plus mais provoquant des effets secondaires inacceptables — c'est un résultat de traitement réel, pas un échec.
+
+---
+
+## Ce que cela signifie si le traitement ne fonctionne pas
+
+**Un : un LDN échoué ne réfute pas la sensibilisation centrale.** Le LDN bloque le TLR4 microglial — une voie parmi plusieurs. Si le mécanisme dominant est une inhibition descendante déficiente (noradrénaline CSF faible), un IRSNa peut aider là où le LDN n'a pas.
+**Deux : la sédation peut empêcher d'atteindre une dose efficace de gabapentinoïde.** La dose maximale tolérée dans l'EM/SFC peut être en dessous de la dose analgésique. C'est un problème d'accès pharmacologique, pas une preuve que la douleur n'est pas centrale.
+**Trois : la boucle de re-sensibilisation entraînée par le MPE peut submerger le traitement.** Si chaque effort mineur déclenche une cascade de re-sensibilisation ASIC3/P2X4/TLR4, alors même les médicaments efficaces combattent une cible mouvante. La gestion de la douleur ne peut pas réussir si l'enveloppe énergétique n'est pas respectée — le pacing n'est pas une alternative au médicament ; c'est la condition sous laquelle le médicament a une chance de fonctionner.
+**Quatre : une séquence d'essais bien menés (LDN, IRSNa, gabapentinoïde, PEA, inhibiteur de COX-2) sans bénéfice est une preuve réelle que la pharmacologie disponible ne suffit pas.** C'est une limite de la médecine actuelle, pas un verdict sur la douleur étant « psychologique ». Cela signifie que l'attention se déplace vers les stratégies non pharmacologiques (pacing, exposition sensorielle graduée, stratégies cognitives) et la conservation radicale de l'énergie — non pas parce que la douleur n'est pas réelle, mais parce que les médicaments ne sont pas adéquats.
+
+---
+
+## Les prédictions falsifiables
+
+- **Si le LDN réduit la douleur dans l'EM/SFC plus dans le sous-groupe de douleur amplifiée par le MPE (douleur aggravée 12 à 48 h après l'effort) que dans le sous-groupe de douleur stable**, la re-sensibilisation entraînée par le TLR4 est cliniquement pertinente [@Loth2026website].
+- **Si le célécoxib réduit l'hyperalgésie à la chaleur au QST mais n'améliore pas le pic de VO₂ ni le seuil de MPE**, la boucle COX-2/PGE₂/TRPV1 est un amplificateur de douleur, pas un mécanisme de déficit énergétique — cohérent avec le modèle d'amplificateur nociplastique.
+- **Si les antagonistes TRPA1 réduisent la douleur post-effort plus que la douleur de base**, la voie stress-oxydatif-vers-TRPA1 est un mécanisme de douleur spécifique au MPE.
+- **Si les patients fibromyalgie-uniquement (sans EM/SFC) montrent une perfusion musculaire normale à l'exercice sur NIRS tandis que les patients EM/SFC+fibromyalgie montrent une perfusion altérée**, le mécanisme vasculaire-TRPV1 distingue la douleur du chevauchement EM/SFC de la douleur fibromyalgique pure.
+
+---
+
+## Ce que vous pouvez réellement faire
+
+- **Commencez par le LDN.** Charge d'effets secondaires la plus faible, mécanistiquement pertinent pour la sensibilisation centrale entraînée par les microglies, et soutenu par des preuves dans la fibromyalgie. Titrez lentement, donnez-lui 12 semaines et arrêtez s'il n'y a aucun bénéfice à 4,5 mg.
+- **Utilisez les inhibiteurs de COX-2 comme sonde diagnostique, pas comme stratégie de maintenance.** Si le célécoxib 200 mg par jour pendant 2 semaines réduit la douleur brûlante, une composante médiée par COX-2/PGE₂ est *suggérée* (pas prouvée — un placebo ou un effet analgésique général peut paraître le même), ce qui vous dit quelque chose sur le mécanisme de la douleur même si vous ne restez pas sous le médicament à long terme.
+- **Ajoutez le PEA.** Faible risque, mécanisme multimodal, efficace au niveau méta-analytique à travers les types de douleur. Ce n'est pas un remplacement du LDN ou des IRSNa — c'est un complément qui peut déplacer la sensibilité sans ajouter d'effets secondaires.
+- **Pour les IRSNa et les gabapentinoïdes, commencez bas, allez lentement et nommez une règle d'arrêt.** L'objectif est de trouver une dose qui réduit la douleur sans aggraver le brouillard cérébral. Si aucune dose dans la plage thérapeutique n'y parvient, le médicament a échoué — documentez-le et passez à autre chose.
+- **Respectez l'enveloppe énergétique.** La douleur qui s'aggrave après les crashes est un signal de MPE. Les médicaments qui améliorent la douleur ne peuvent pas compenser un budget énergétique continuellement à découvert. Le pacing est la fondation sur laquelle la gestion de la douleur est construite — pas une alternative.
+
+---
+
+## L'essentiel
+
+La douleur de type fibromyalgique dans l'EM/SFC est traitée avec une approche multimodale : LDN pour le TLR4 microglial, IRSNa et gabapentinoïdes pour l'amplification centrale (avec des mises en garde de sédation), inhibiteurs de COX-2 pour la boucle PGE₂/TRPV1, PEA pour la réduction de la sensibilisation à large spectre, et antagonistes NMDA pour le wind-up sévère. La re-sensibilisation entraînée par le MPE — absente dans la fibromyalgie pure — signifie que l'enveloppe énergétique et l'enveloppe de douleur sont couplées, et que le pacing est la fondation sur laquelle repose toute la gestion pharmacologique de la douleur [@Loth2026website].
+
+Un essai échoué de l'un ou l'autre médicament ne signifie pas que la douleur n'est pas réelle. Cela signifie que ce médicament, à cette dose, chez ce patient, n'a pas suffi — et l'étape honnête suivante est d'essayer le mécanisme suivant ou d'accepter que la pharmacologie actuelle a des limites et de déplacer l'attention vers la fonction dans ces limites.
+
+**Suite de cette série :** L'intestin qui se conduit mal — dysmotilité gastro-intestinale, SIBO, et pourquoi l'estomac est le premier levier que les patients EM/SFC peuvent tirer.
+
+Pour une vue complète et entièrement citée de la manière dont la douleur de type fibromyalgique est pesée parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].

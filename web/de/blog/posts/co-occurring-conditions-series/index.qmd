@@ -7,9 +7,9 @@ categories: [ME/CFS, Serie, Komorbiditäten]
 lang: de
 ---
 
-ME/CFS tritt selten allein auf. In der Praxis reist es mit einer Konstellation anderer Erkrankungen — Mastzellaktivierung, posturales orthostatisches Tachykardiesyndrom (POTS), Hypermobilitätssyndrome, Small-Fiber-Neuropathie, chronische Infektion, Autoimmunität, Darmprobleme und fibromyalgieartiger Schmerz. Das Primärdokument hinter dieser Website nennt das engste Cluster von sieben die *Septade*: interagierende Pathophysiologien, die gemeinsam auftreten und sich gegenseitig speisen. Diese Serie ist von dieser Idee **inspiriert**, aber etwas breiter — sie umfasst jene sieben plus das Fibromyalgie-Schmerzmuster und schließt mit einem Stück darüber, wie die Verstärker zu einem einzigen Bild verketten.
+ME/CFS tritt selten allein auf. In der Praxis reist es mit einer Konstellation anderer Erkrankungen — Mastzellaktivierung, posturales orthostatisches Tachykardiesyndrom (POTS), Hypermobilitätssyndrome, Small-Fiber-Neuropathie, chronische Infektion, Autoimmunität, Darmprobleme und fibromyalgieartiger Schmerz. Das Primärdokument hinter dieser Website nennt das engste Cluster von sieben die *Septade*: interagierende Pathophysiologien, die gemeinsam auftreten und sich gegenseitig speisen. Diese Serie ist von dieser Idee **inspiriert**, aber etwas breiter — sie umfasst jene sieben plus das Fibromyalgie-Schmerzmuster, und sie schließt mit einem Stück darüber, wie die Verstärker zu einem einzigen Bild verketten.
 
-Diese Serie erklärt eine begleitende Erkrankung nach der anderen, in einfacher Sprache, für eine Leserin/einen Leser, die/der des Fachjargons überdrüssig ist. Jeder Artikel folgt derselben Form:
+Diese Serie erklärt eine begleitende Erkrankung nach der anderen, in einfacher Sprache, für eine Leserin/einen Leser, die/der krank und des Fachjargons überdrüssig ist. Jeder Artikel folgt derselben Form:
 
 1. **Wie es sich anfühlt** — eine kurze, ehrliche Vignette.
 2. **Was es ist** — der Mechanismus, in gewöhnlichen Worten.
@@ -19,7 +19,7 @@ Diese Serie erklärt eine begleitende Erkrankung nach der anderen, in einfacher 
 
 ---
 
-## Teil 1 (aktuell): Mastzellaktivierung und Histamin
+## Teil 1: Mastzellaktivierung und Histamin
 
 Die Serie beginnt mit MCAS — der Erkrankung, bei der Ihre Immunzellen ohne Auslöser feuern, mit Rötung und Reaktionen auf Staub und Berührung. Es ist ein natürlicher erster Eintrag, weil es häufig, teilweise reversibel und bezeichnend für die Kernbotschaft der ganzen Serie ist: *die meisten davon sind Verstärker, keine Ursachen, und einen Verstärker zu behandeln kann sich trotzdem lohnen.*
 
@@ -31,20 +31,91 @@ Lesen Sie die drei Artikel in Reihenfolge:
 
 ---
 
-## Für diese Serie geplant
+## Teil 2: Posturales orthostatisches Tachykardiesyndrom (POTS)
 
-Später in weiteren Einträgen, jeder nach derselben Vorlage:
+Die Serie fährt fort mit POTS — dem Herzen, das rast, wenn Sie aufstehen, dem Blutvolumen, das paradoxerweise niedrig ist, und dem Gehirn, das Blutfluss verliert, selbst wenn die Vitalwerte normal aussehen. POTS ist der zweithäufigste begleitende Verstärker; es paart sich direkt mit den orthostatischen Mastzell-Verbindungen und den Bindegewebsproblemen, die als Nächstes behandelt werden.
 
-1. **POTS und das Herz, das rast, wenn Sie aufstehen** — orthostatische Intoleranz und Blutvolumen *(als Nächstes).*
-2. **Hypermobilität und die Bindegewebsverbindung** — die hEDS / POTS / MCAS-Triade.
-3. **Small-Fiber-Neuropathie — wenn die Verkabelung selbst falsch ist** — die beschädigten Nerven, die den Schmerz und das rasende Herz tragen.
-4. **Der Schmerz, der kein Muskel ist** — fibromyalgieartiger Schmerz und Nervensensibilisierung.
-5. **Der Darm, der sich danebenbenimmt** — GI-Dysmotilität, SIBO und Nahrungsreaktionen.
-6. **Chronische Infektion** — virale Reaktivierung und zeckenübertragene Krankheit.
-7. **Autoimmunität** — Antikörper, die mit dem Nervensystem sprechen.
-8. **Verketten zusammen** — wie die Verstärker zu einem Bild werden.
+Lesen Sie die zwei Artikel in Reihenfolge:
 
-Der vollständige geplante Umfang (Themen, Prioritäten, Quellenanker und falsifizierbare Vorhersagen) lebt in [`_series-plan.md`](../../_series-plan.md).
+1. **[POTS und das Herz, das rast, wenn Sie aufstehen](../autonomic-cardiovascular/pots-mecfs/index.qmd)** — was POTS ist, das Renin-Aldosteron-Paradox, die Daten zur zerebralen Durchblutung, und der Unterschied zwischen alleinigem POTS und ME/CFS-mit-POTS.
+2. **[Behandlungen für POTS und Dysautonomie bei ME/CFS — und was es bedeutet, wenn sie nicht wirken](../autonomic-cardiovascular/pots-mecfs-treatment/index.qmd)** — Salz, Kompression, Fludrocortison, Midodrin, Ivabradin, Betablocker, Pyridostigmin, die SSRI-Falle, erwartete Ergebnisse und die ehrliche Diskussion des Misserfolgs.
+
+---
+
+## Teil 3: Hypermobilität und die Bindegewebsverbindung
+
+Die Triade kommt zusammen: Hypermobilität vervollständigt das POTS–MCAS–hEDS-Cluster. Dieser zweiteilige Eintrag erklärt, warum flexibles Gewebe nicht zusammenhält — die fünf mechanistischen Wege, wie Mastzellen Kollagen aktiv abbauen können (erworbene Hypermobilität), die TNXB-Genetik, die Neurodivergenz-Achse und die Behandlungsarchitektur von der isometrischen Physiotherapie über die zirkadiane Kollagenunterstützung bis zur experimentellen MMP-Hemmung.
+
+Lesen Sie die drei Artikel in Reihenfolge:
+
+1. **[Hypermobiles EDS und die Bindegewebsverbindung zu ME/CFS](../connective-tissue/hypermobility-heds/index.qmd)** — was hEDS ist, warum es keinen identifizierten genetischen Defekt hat, die Lücke von 81 % vs. 15,5 %, erworbene fortschreitende Hypermobilität (Tryptase→MMP-3/-13, Chymase→MMP-1, Histaminylierung), die Matrix-Steifigkeits-Rückkopplungsschleife, fünf mechanistische Wege, die Neurodivergenz-Verbindung, TNXB-Genetik, die dauerhafte Energieabgabe von 10–20 %, und hEDS allein vs. hEDS auf ME/CFS.
+2. **[Hypermobilität zusätzlich zu ME/CFS bewältigen](../connective-tissue/hypermobility-heds-treatment/index.qmd)** — isometrische Widerstandsprotokolle, zirkadianes Timing der Kollagen-Kofaktoren (Vitamin C, Alpha-Ketoglutarat), Glycin und Prolin, Kupfer/B6 für LOX, niedrig dosiertes Doxycyclin für MMP-9, aufkommende Therapien (tVNS, HIF-1α-Inhibitoren, TGF-β1-Blockade), CCI-Chirurgie, erwartete Ergebnisse und ein Beispiel eines strukturierten Versuchs.
+3. **[Wenn die Behandlung nicht hilft](../connective-tissue/hypermobility-heds-failure/index.qmd)** — die Dekonditionierungs-PEM-Falle, der Kipppunkt der Matrix-Steifigkeit, das Triage angeboren-vs-erworben, die sechs nummerierten Versagenspunkte, falsifizierbare Vorhersagen und was Sie tatsächlich tun können.
+
+---
+
+## Teil 4: Small-Fiber-Neuropathie
+
+Die Serie fährt fort mit der Verkabelung, die falsch ist — die Small-Fiber-Neuropathie erklärt den brennenden, stechenden Schmerz und die autonome Dysfunktion, die die Herzfrequenzmonitore zeigen, die aber Standard-Neurologietests übersehen.
+
+Lesen Sie die zwei Artikel in Reihenfolge:
+
+1. **[Small-Fiber-Neuropathie — wenn die Verkabelung selbst bei ME/CFS falsch ist](../neurology/sfn/index.qmd)** — was SFN ist, die drei Mechanismusfamilien (Mastzell-Tryptase→PAR2, mikrovaskuläre Ischämie, IgG-vermittelte DRG-Autoimmunität), die Unterscheidung viszeral-vs-somatisch, die Überschneidung POTS–SFN–MCAS–hEDS, und SFN allein vs. SFN auf ME/CFS.
+2. **[Small-Fiber-Neuropathie bei ME/CFS behandeln](../neurology/sfn-treatment/index.qmd)** — Gabapentinoide, SNRIs, topische Mittel, IVIG für autoimmune SFN, Alpha-Liponsäure, Mastzell-Stabilisatoren, erwartete Ergebnisse, die ehrliche Diskussion des Misserfolgs und praktische Anleitung.
+
+---
+
+## Teil 5: Fibromyalgieartiger Schmerz
+
+Der Schmerz, der kein Muskel ist — wenn Ihr Nervensystem die Verstärkung hochdreht, die TRPV1- und TRPA1-Kanäle offen kleben bleiben und Körperwärme sich brennend anfühlt. Das überlappt mit 47–76 % der ME/CFS-Patienten.
+
+Lesen Sie die zwei Artikel in Reihenfolge:
+
+1. **[Der Schmerz, der kein Muskel ist — fibromyalgieartiger Schmerz bei ME/CFS](../pain/fibromyalgia-pattern-pain/index.qmd)** — zentrale Sensibilisierung, TRPV1/TRPA1-Kanäle, die COX-2/PGE2-Vorwärtsschleife, das nociplastisch-neuropathische Hybrid, und Fibromyalgie allein vs. Fibromyalgie auf ME/CFS.
+2. **[Fibromyalgieartigen Schmerz bei ME/CFS behandeln](../pain/fibromyalgia-pain-treatment/index.qmd)** — LDN, SNRIs, Gabapentinoide, COX-2-Inhibitoren, PEA, NMDA-Antagonisten, erwartete Ergebnisse, die ehrliche Diskussion des Misserfolgs und praktische Anleitung.
+
+---
+
+## Teil 6: GI-Dysmotilität und SIBO
+
+Der Darm, der sich danebenbenimmt — warum Ihr Magen langsam entleert, wie Bakterien Ihr Frühstück stehlen, Schwefelwasserstoff als mitochondriales Gift und die Ernährung als erster Hebel, den ein Patient ziehen kann.
+
+Lesen Sie die zwei Artikel in Reihenfolge:
+
+1. **[SIBO, Gastroparese und der Darm, der sich bei ME/CFS danebenbenimmt](../gut/sibo-gi-dysmotility/index.qmd)** — ICC/vagales Motilitätsversagen, die Mastzell-Darm-Achse, mitochondriale H₂S-Toxizität, DAO und Histaminintoleranz, und GI-Probleme allein vs. GI-Probleme auf ME/CFS.
+2. **[SIBO, Gastroparese und den Darm behandeln](../gut/sibo-gi-treatment/index.qmd)** — Essensabstände, histaminarme Eliminationsdiät, SIBO-Antibiotika und pflanzliche Mittel, elementare Diät, DAO, Butyrat, Prokinetika, erwartete Ergebnisse, ein Beispiel eines strukturierten Versuchs, die ehrliche Diskussion des Misserfolgs, falsifizierbare Vorhersagen und praktische Anleitung.
+
+---
+
+## Teil 7: Chronische Infektion
+
+Die Infektion, die nie endete — EBV, HHV-6, zeckenübertragene Krankheiten, abortive lytische Replikation, Poly-Herpesvirus-Ko-Reaktivierung und warum etwas Jahre nach Ihrer „Erholung" noch mit Ihrem Immunsystem spricht.
+
+Lesen Sie die zwei Artikel in Reihenfolge:
+
+1. **[EBV, HHV-6, zeckenübertragene Krankheiten und die Infektion, die bei ME/CFS nie endete](../infectious/chronic-infection/index.qmd)** — das Modell der abortiven lytischen Replikation, der EBV→Mastzelle→MMP-9-Weg, HHV-6-miR-aU14→mitochondriale Fragmentierung, Poly-Herpesvirus-Ko-Reaktivierung, und chronische Infektion allein vs. chronische Immunstimulation auf ME/CFS.
+2. **[Antivirale, Immunmodulatoren und was es bedeutet, wenn sie bei ME/CFS nicht wirken](../infectious/chronic-infection-treatment/index.qmd)** — Valacyclovir, Valganciclovir, Cimetidin, Mastzell-Stabilisatoren, um den EBV→MMP-9-Weg stromabwärts abzufangen, warum ALR antivirale weniger wirksam macht, erwartete Ergebnisse, die ehrliche Diskussion des Misserfolgs und praktische Anleitung.
+
+---
+
+## Teil 8: Autoimmunität
+
+Antikörper, die mit Ihrem Nervensystem sprechen — GPCR-Autoantikörper, die auf Ihre Blutgefäße, Ihren Darm und Ihr Gehirn zielen, das Fc-Glykoprofil, das die Pathogenität bestimmt, und warum ihre Entfernung das Problem nicht immer behebt.
+
+Lesen Sie die zwei Artikel in Reihenfolge:
+
+1. **[GPCR-Autoantikörper, Immunangriff auf das Nervensystem und die Antikörper, die mit Ihren Rezeptoren bei ME/CFS sprechen](../autoimmune/autoimmunity/index.qmd)** — was GPCR-Autoantikörper sind, die Prävalenzspanne von 29–91 % und was sie tatsächlich bedeutet, das Fc-Glykoprofil, der postinfektiöse Auslöser, und Autoimmunität allein vs. Autoimmunität auf ME/CFS.
+2. **[Immunadsorption, IVIG, Rituximab, Daratumumab — die Antikörper entfernen, und was es bedeutet, wenn das ME/CFS nicht behebt](../autoimmune/autoimmunity-treatment/index.qmd)** — die Behandlungsbelege vom reifsten zum am wenigsten reifen, die RituxME-Lektion, das Daratumumab-Signal, erwartete Ergebnisse, die ehrliche Diskussion des Misserfolgs und praktische Anleitung.
+
+---
+
+## Teil 9: Verkettet — Synthese-Abschluss
+
+Wie die Verstärker zu einer Krankheit werden — die Rückkopplungsschleifen, die alle acht Erkrankungen verbinden, die Verstärkungsratsche, die längere Krankheit schwerer behandelbar macht, und das klinische Gebot einer Multi-Ziel-Behandlung.
+
+Lesen Sie den Artikel:
+
+1. **[Verkettet: Wie die Verstärker bei ME/CFS zu einer Krankheit werden](../synthesis/chained-together/index.qmd)** — die Gefäß-Entzündungsschleife, der Nerv-Mastzellen-Verstärker, die Darm-Hirn-Histamin-Achse, die EBV–Mastzelle–MMP-9–BBB-Brücke, die Autoimmunität–POTS–SFN-Schleife, die Verstärkungsratsche, Multi-Ziel-Behandlung und was die ganze Serie an einem Ort vertreten hat.
 
 ---
 

@@ -1,0 +1,126 @@
+---
+title: "Fibromyalgie Artikel 2: Fibromyalgie-Muster-Schmerz bei ME/CFS behandeln — LDN, SNRIs, COX-2-Inhibitoren, PEA und was es bedeutet, wenn der Schmerz nicht aufhört"
+description: "Ein allgemeinverständlicher Leitfaden zur Behandlung von Fibromyalgie-Muster-Schmerz bei ME/CFS — niedrig dosiertes Naltrexon für mikrogliabedingtes TLR4, SNRIs für absteigende Hemmung, Gabapentinoide für zentrale Verstärkung, COX-2-Inhibitoren für die PGE2/TRPV1-Schleife, PEA für multimodalen Schmerz, NMDA-Antagonisten für schwere Fälle, erwartete Ergebnisse und die ehrliche Diskussion 'was, wenn nichts hilft'."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Behandlung, Fibromyalgie, Schmerz, ME/CFS]
+lang: de
+---
+
+Wenn Sie ME/CFS und Fibromyalgie-Muster-Schmerz haben, wurden die Standard-Fibromyalgie-Behandlungsleitlinien — SNRIs, Gabapentinoide, graduierte Bewegung — nicht für einen Patienten geschrieben, dessen Schmerz sich nach minimaler Anstrengung verstärkt. Die Medikamente, die bei reiner Fibromyalgie wirken, können Sedierung und kognitive Verlangsamung verursachen, die proportional teurer sind, wenn Brain Fog bereits vorhanden ist. Und einige der wirksamsten Behandlungen für Fibromyalgie-Schmerz — LDN, PEA, COX-2-Inhibitoren — wirken über Mechanismen, die für die ME/CFS-Überschneidung besonders relevant sind.
+
+Dieser Artikel erklärt die Behandlungsarchitektur. Für den konzeptionellen Hintergrund — was zentrale Sensibilisierung ist, die TRPV1/TRPA1-Kanäle und der nociplastische-neuropathische Hybrid — siehe den [Begleitartikel zum Überblick](../fibromyalgia-pattern-pain/index.qmd).
+
+---
+
+## Zuerst eine klare Warnung
+
+*Alles unten ist ein Gespräch, das Sie mit einem Kliniker führen sollten, keine Selbstmedikation. LDN ist ein zugemischt hergestelltes (compounded) Medikament, das ein Rezept erfordert. COX-2-Inhibitoren haben kardiovaskuläre und renale Risiken. Gabapentinoide verursachen physiologische Abhängigkeit. NMDA-Antagonisten (Ketamin) sind kontrollierte Substanzen, die eine überwachte Verabreichung erfordern. Arbeiten Sie mit einem Schmerzspezialisten, der ME/CFS versteht.*
+
+---
+
+## Die Behandlungsarchitektur
+
+### Niedrig dosiertes Naltrexon (LDN): der beste erste Schritt für die Überschneidung
+
+LDN mit 1–4,5 mg täglich ist die einzige mechanistisch kohärenteste Behandlung für Fibromyalgie-Muster-Schmerz bei ME/CFS. Naltrexon ist in Standarddosen (50 mg) ein Opioid-Antagonist, aber in niedrigen Dosen reduziert es den Schmerz paradoxerweise über einen anderen Mechanismus: **mikrogliabedingte TLR4-Blockade**.
+
+Mikroglia — die Immunzellen des Gehirns — exprimieren Toll-like-Rezeptor 4 (TLR4). Wenn TLR4 durch DAMPs aus Gewebestress, LPS aus Darmpermeabilität oder Entzündungssignale aktiviert wird, setzen Mikroglia proinflammatorische Zytokine frei, die nahegelegene Neuronen im Rückenmark und Gehirn sensibilisieren — die zelluläre Basis der zentralen Sensibilisierung. LDN blockiert die TLR4-Signalübertragung auf Mikroglia und reduziert diese neuroinflammatorische Verstärkung [@Polo2019LDN].
+
+Bei Fibromyalgie hat LDN Studien-Evidenz: Eine RCT von 2019 zeigte eine signifikante Schmerzreduktion gegenüber Placebo, mit einem günstigen Nebenwirkungsprofil — obwohl Fibromyalgie-RCTs als Gruppe bekanntermaßen eine hohe Placeboantwortrate haben, und das LDN-Ergebnis ein einzelner positiver Versuch ist. Bei ME/CFS ist die Evidenz unkontrollierte Patienten-Befragungen — aber der Mechanismus (TLR4-Blockade auf primed Mikroglia) ist direkt relevant sowohl für die zentrale-Sensibilisierungs-Komponente als auch für die PEM-getriebene mikrogliabedingte Reaktivierung. LDN wird im Allgemeinen gut vertragen — lebhafte Träume und anfängliche Schlaflosigkeit sind die häufigsten Nebenwirkungen, gemildert durch die Einnahme am Morgen statt zur Schlafenszeit. Beginnen Sie mit 0,5–1,5 mg und titrieren Sie langsam über Wochen.
+
+**Eine Interaktion kann nicht übersprungen werden.** Naltrexon ist ein Opioid-Antagonist — selbst in niedriger Dosis blockiert es Opioidrezeptoren genug, um **Opioid-Analgesie abzuschwächen oder umzukehren und bei Patienten, die Opioid-Schmerzmittel einnehmen, einen Entzug auszulösen**. Wenn Sie irgendein Opioid einnehmen (Codein, Tramadol, Hydrocodon, Morphin und so weiter), darf LDN nicht ohne einen expliziten, mit dem Verschreiber vereinbarten Plan begonnen werden. Das ist ein echter Sicherheitspunkt, keine theoretische Einschränkung — es ist die wichtigste Überprüfung vor LDN in einer Schmerzpopulation.
+
+### SNRIs: Duloxetin und Milnacipran
+
+Duloxetin (30–60 mg täglich) erhöht Noradrenalin und Serotonin in den absteigenden inhibitorischen Schmerzpfaden. Es hat Cochrane-Level-Evidenz für Fibromyalgie-Schmerz. Bei ME/CFS kann dieselbe Pharmakologie, die den Schmerz verbessert, bei Beginn den "müde-aber-angeregt"-Zustand verschlimmern — SNRIs können aktivierend wirken, mit anfänglicher Schlaflosigkeit, Angst und Übelkeit, die sich über 2–4 Wochen legen. Beginnen Sie mit 30 mg, bewerten Sie nach 4 Wochen neu und stoppen Sie, wenn die Aktivierung anhält.
+
+Milnacipran ist für Fibromyalgie zugelassen, ist aber noradrenerger, was für das ME/CFS-autonome Profil zu aktivierend sein kann. Duloxetin ist der sicherere Standard.
+
+### Gabapentinoide (Pregabalin, Gabapentin)
+
+Pregabalin (150–450 mg täglich in aufgeteilten Dosen) hat unter den Gabapentinoiden die stärkste Fibromyalgie-Evidenz. Es reduziert die kalziumabhängige Neurotransmitterfreisetzung aus hypererregbaren zentralen Neuronen — ein anderer Mechanismus als die SNRIs. Die Sedierungs- und kognitive-Verlangsamung-Nebenwirkungen sind der ratenlimitierende Faktor bei ME/CFS. Beginnen Sie niedrig (Pregabalin 25–50 mg zur Schlafenszeit) und titrieren Sie langsam. Das ehrliche Ergebnis bei vielen ME/CFS-Patienten ist, dass die maximal verträgliche Dosis unterhalb der wirksamen Dosis für Schmerz liegt — und das ist ein pharmakologisches Zugangsproblem, kein Compliance-Problem des Patienten.
+
+### COX-2-Inhibitoren: Brechen der PGE₂/TRPV1-Schleife
+
+Wenn eine COX-2/PGE₂/TRPV1-Feed-forward-Schleife ein Beitragender ist — eine Hypothese, die durch die Hitze-Hyperalgesie nahegelegt wird, die Patienten beschreiben, obwohl die Schleife selbst eher abgeleitet als direkt gemessen ist — dann sollte die COX-2-Hemmung (Celecoxib, typischerweise 200 mg täglich) die PGE₂-Produktion reduzieren und sie dämpfen. Die Vorhersage ist spezifisch: Die COX-2-Hemmung sollte das Ruhe-Brennen-Schmerz und die Hitzehypersensitivität reduzieren, ohne notwendigerweise Müdigkeit oder PEM zu verbessern — weil, wenn die COX-2-Schleife beiträgt, sie ein Schmerzverstärker ist, kein Energieversagens-Mechanismus.
+
+**Praktische Überlegungen.** COX-2-Inhibitoren haben bei Langzeitanwendung kardiovaskuläre Risiken und sollten nicht mit anderen NSARs kombiniert werden. Sie sind ein zeitlich begrenzter Versuch für den COX-2/TRPV1-dominierten Schmerzphänotyp, keine chronische Erhaltungsstrategie. Die ehrliche Begrenzung: Keine ME/CFS-spezifische COX-2-Studie existiert, und die Evidenz ist mechanistisch, nicht klinisch.
+
+### Palmitoylethanolamid (PEA): multimodal, risikoarm
+
+PEA ist ein endogenes Fettsäureamid, das über PPAR-α und indirekt über das Endocannabinoid-System wirkt. Eine Meta-Analyse von 2025 fand PEA wirksam für nozizeptiven, neuropathischen UND nociplastischen Schmerz — ein ungewöhnlich breites Profil. Es reduziert Mastzell-Degranulation, mikrogliabedingte Aktivierung und periphere Nervensensibilisierung — alle drei Mechanismen, die für ME/CFS-Schmerz relevant sind [@Vina2025pea].
+
+PEA wird im Allgemeinen gut vertragen (milde GI-Beschwerden bei einer Minderheit), ist in vielen Ländern ohne Rezept erhältlich und hat keine signifikanten Medikamenteninteraktionen. Die übliche Dosis beträgt 300–600 mg zweimal täglich. Die Evidenz ist am stärksten für chronischen Beckenschmerz und neuropathische Kompressionssyndrome; die Erweiterung auf Fibromyalgie-Schmerz bei ME/CFS ist mechanistisch plausibel, aber nicht direkt erprobt. Das niedrige Risiko und das breite Mechanismusprofil machen es zu einem vernünftigen frühen Schritt in der Behandlungsleiter.
+
+### NMDA-Antagonisten: Ketamin und Memantin
+
+Für schweren, behandlungsresistenten Schmerz, der durch zentrales Wind-up angetrieben wird (verstärkte zeitliche Summation in der QST), ist die NMDA-Rezeptor-Blockade der direkteste Mechanismus. **Niedrig dosierte Ketamin-Infusionen** (0,5 mg/kg über 40 Minuten, typischerweise eine Serie von 3–5 Infusionen über 2 Wochen) erzeugen schnelle Schmerzlinderung bei Fibromyalgie — aber die Linderung ist vorübergehend (Tage bis Wochen), und die dissoziativen Nebenwirkungen (Depersonalisierung, Halluzinationen, kognitive Fragmentierung) sind ein schlechter Fit für ME/CFS-Patienten, die bereits Brain Fog und sensorische Empfindlichkeit erleben [@Walitt2021KetamineFibro].
+
+**Memantin** (10–20 mg täglich, langsam titriert) ist ein oraler NMDA-Antagonist mit einem milderen Nebenwirkungsprofil. Es wird bei Alzheimer-Krankheit verwendet und hat Fallserien-Evidenz für Fibromyalgie. Bei ME/CFS erstreckt sich die Begründung auf die Reduktion der metabolischen Kosten sensibilisierter Schmerzverarbeitung — aber Memantin kann bei Beginn Brain Fog, Schwindel und Unruhe verursachen, und das therapeutische Fenster bei ME/CFS ist eng. Es ist eine Option für den Patienten, bei dem LDN, SNRIs und Gabapentinoide versagt haben und der ein dokumentiertes Wind-up in der QST hat.
+
+---
+
+## Ein Beispiel für einen strukturierten Versuch
+
+*Dies ist ein Beispiel, um Ihrem Arzt eine Arbeitsgrundlage zu geben — keine Selbstverordnung.*
+
+Beginnen Sie mit LDN 0,5–1,5 mg täglich (morgens, um Schlaflosigkeit zu vermeiden — siehe oben), titrieren Sie über 4–8 Wochen auf 4,5 mg. Bewerten Sie das einzelne Ziel-Symptom — Ruhe-Brennen-Schmerz, Tender-Point-Empfindlichkeit oder post-exertionelle Schmerzverstärkung — nach 12 Wochen neu. **Wenn bei 4,5 mg kein Nutzen, stoppen Sie** — Dosen über 4,5 mg verlieren den TLR4-selektiven Effekt.
+
+Wenn LDN partielle Vorteile erzielt, fügen Sie Celecoxib 200 mg täglich für 2 Wochen als diagnostische Sonde hinzu. Wenn sich Brennen-Schmerz und Hitzempfindlichkeit innerhalb von 2 Wochen verbessern, ist eine COX-2/PGE₂-vermittelte Komponente *suggeriert* (nicht bestätigt — Placebo oder ein allgemeiner analgetischer Effekt können identisch aussehen) — aber eine verlängerte COX-2-Hemmung trägt kardiovaskuläres Risiko, sodass Sie sie verwenden, um den Mechanismus zu informieren, und intermittierende statt kontinuierlicher Dosierung erwägen. Wenn Celecoxib nach 2 Wochen keine Wirkung hat, stoppen Sie — der COX-2-Pfad ist wahrscheinlich kein dominanter Verstärker.
+
+Wenn sowohl LDN als auch Celecoxib erprobt wurden, fügen Sie ein SNRI (Duloxetin 30 mg, über 4 Wochen auf 60 mg titriert) oder Pregabalin (25–50 mg zur Schlafenszeit, auf die maximal verträgliche Dosis titriert) hinzu. Bewerten Sie nach 8 Wochen neu. **Brechen Sie ab, wenn Sedierung oder Aktivierung das Erreichen einer wirksamen Dosis verhindert** — das therapeutische Fenster bei ME/CFS ist enger als bei reiner Fibromyalgie, und ein Nullbefund bei der maximal verträglichen Dosis ist ein gültiger Versuch.
+
+Fügen Sie PEA 300–600 mg zweimal täglich als risikoarmes Ergänzungsmittel zu jedem Zeitpunkt der Sequenz hinzu. Sein Breitband-Mechanismus (Mastzell-Stabilisierung, mikrogliabedingte Modulation, periphere-Sensibilisierungs-Reduktion) macht es komplementär zu LDN und SNRIs und nicht redundant. Bewerten Sie nach 8 Wochen neu.
+
+Fügen Sie jeweils nur eine Intervention hinzu. Das Ziel ist, die Kombination zu finden, die den Schmerz genug reduziert, um die Funktion zu verbessern, ohne Sedierung oder kognitive Verlangsamung hinzuzufügen, die die Kernkrankheit verschlimmert. Die Struktur-Versuch-Architektur ist die einzige Möglichkeit zu wissen, was jedes Medikament beiträgt.
+
+---
+
+## Erwartete Ergebnisse
+
+- **LDN braucht Wochen, nicht Tage.** Der anti-mikrogliabedingte Effekt baut sich graduell auf. Titrieren Sie über 4–8 Wochen auf 4,5 mg; bewerten Sie nach 12 Wochen neu. Lebhafte Träume und anfängliche Schlaflosigkeit sind häufig und lösen sich meist auf. Wenn nach 12 Wochen bei 4,5 mg kein Nutzen, stoppen Sie — LDN hat eine steile Dosis-Wirkungs-Kurve, und Dosen über 4,5 mg verlieren den TLR4-selektiven Effekt und betreten das Standard-Opioid-Antagonist-Territorium.
+- **SNRIs und Gabapentinoide haben eine therapeutische Verzögerung und einen Nebenwirkungspreis.** Die wirksame Dosis für Schmerz ist oft höher als die Anfangsdosis. Ein Medikament, das nach 2 Wochen wegen Sedierung abgesetzt wurde, wurde nie fair erprobt — aber ein Medikament, das in der niedrigsten Dosis unerträgliche Sedierung verursacht, ist ein echtes Versagen und sollte gestoppt werden.
+- **COX-2-Inhibitoren wirken schnell (Tage) oder gar nicht.** Wenn Celecoxib das Brennen-Schmerz innerhalb einer Woche reduziert, ist eine COX-2/PGE₂-vermittelte Komponente *suggeriert* — obwohl nicht bewiesen, da ein Nicht-COX-2-Analgetikum oder Placeboeffekt identisch aussehen kann. Wenn es nach 2 Wochen nichts tut, ist die Schleife wahrscheinlich nicht der dominante Beitragende, und eine verlängerte COX-2-Hemmung trägt kardiovaskuläres Risiko — stoppen Sie.
+- **PEA ist langsam und subtil.** Erwarten Sie eine graduelle Verbesserung über 4–8 Wochen, keine dramatische Linderung. Der Nutzen, falls er kommt, wird oft als "weniger sensibilisiert" statt "weniger Schmerz" beschrieben — eine Reduktion der Verstärkung statt des Signals.
+- **Partielle Antwort ist das häufigste Ergebnis.** Schmerz von 8/10 auf 5/10 reduziert mit LDN + PEA, wobei SNRIs einen weiteren Punkt hinzufügen, aber unannehmbare Nebenwirkungen verursachen — das ist ein reales Behandlungsergebnis, kein Versagen.
+
+---
+
+## Was es bedeutet, wenn die Behandlung nicht hilft
+
+**Eins: Versagtes LDN widerlegt die zentrale Sensibilisierung nicht.** LDN blockiert mikrogliabedingtes TLR4 — einen Pfad unter mehreren. Wenn der dominante Mechanismus eine defiziente absteigende Hemmung ist (niedriges CSF-Noradrenalin), kann ein SNRI helfen, wo LDN nicht half.
+**Zwei: Sedierung kann das Erreichen einer wirksamen Gabapentinoid-Dosis verhindern.** Die maximal verträgliche Dosis bei ME/CFS kann unterhalb der analgetischen Dosis liegen. Das ist ein pharmakologisches Zugangsproblem, kein Beweis dafür, dass der Schmerz nicht zentral ist.
+**Drei: Die PEM-getriebene Re-Sensibilisierungsschleife kann die Behandlung überwältigen.** Wenn jede kleine Anstrengung eine ASIC3/P2X4/TLR4-Re-Sensibilisierungskaskade auslöst, kämpfen selbst wirksame Medikamente gegen ein bewegliches Ziel. Das Schmerzmanagement kann nicht gelingen, wenn das Energie-Envelope nicht respektiert wird — Pacing ist keine Alternative zu Medikamenten; es ist die Bedingung, unter der Medikamente eine Chance haben zu wirken.
+**Vier: Eine Sequenz gut geführter Versuche (LDN, SNRI, Gabapentinoid, PEA, COX-2-Inhibitor) ohne Nutzen ist echte Evidenz dafür, dass die verfügbare Pharmakologie nicht ausreicht.** Das ist eine Begrenzung der aktuellen Medizin, kein Urteil darüber, dass der Schmerz "psychologisch" ist. Es bedeutet, dass sich der Fokus auf nicht-pharmakologische Strategien verlagert (Pacing, graduierte sensorische Exposition, kognitive Strategien) und radikale Energiekonservierung — nicht weil der Schmerz nicht real ist, sondern weil die Medikamente nicht ausreichen.
+
+---
+
+## Die falsifizierbaren Vorhersagen
+
+- **Wenn LDN den Schmerz bei ME/CFS in der PEM-verstärkten Schmerzuntergruppe (Schmerz verschlimmert sich 12–48h nach Anstrengung) stärker reduziert als in der stabilen-Schmerz-Untergruppe**, ist die TLR4-getriebene PEM-Re-Sensibilisierung klinisch relevant [@Loth2026website].
+- **Wenn Celecoxib die Hitzehyperalgesie in der QST reduziert, aber die VO₂-Spitze oder die PEM-Schwelle nicht verbessert**, ist die COX-2/PGE₂/TRPV1-Schleife ein Schmerzverstärker, kein Energieversagens-Mechanismus — konsistent mit dem nociplastischen-Verstärker-Modell.
+- **Wenn TRPA1-Antagonisten den post-exertionellen Schmerz stärker reduzieren als den Baseline-Schmerz**, ist der Oxidativer-Stress-zu-TRPA1-Pfad ein PEM-spezifischer Schmerzmechanismus.
+- **Wenn Fibromyalgie-allein-Patienten (kein ME/CFS) in der NIRS eine normale Trainings-Muskelperfusion zeigen, während ME/CFS+Fibromyalgie-Patienten eine beeinträchtigte Perfusion zeigen**, unterscheidet der vaskuläre-TRPV1-Mechanismus den ME/CFS-Überschneidungs-Schmerz vom reinen Fibromyalgie-Schmerz.
+
+---
+
+## Was Sie tatsächlich tun können
+
+- **Beginnen Sie mit LDN.** Niedrigste Nebenwirkungsbürde, mechanistisch relevant für mikrogliabedingte zentrale Sensibilisierung und bei Fibromyalgie evidenzgestützt. Titrieren Sie langsam, geben Sie ihm 12 Wochen und stoppen Sie, wenn bei 4,5 mg kein Nutzen.
+- **Verwenden Sie COX-2-Inhibitoren als diagnostische Sonde, nicht als Erhaltungsstrategie.** Wenn Celecoxib 200 mg täglich für 2 Wochen das Brennen-Schmerz reduziert, ist eine COX-2/PGE₂-vermittelte Komponente *suggeriert* (nicht bewiesen — ein Placebo- oder allgemeiner analgetischer Effekt kann gleich aussehen), was Ihnen etwas über den Schmerzmechanismus sagt, selbst wenn Sie das Medikament nicht langfristig einnehmen.
+- **Fügen Sie PEA hinzu.** Geringes Risiko, multimodaler Mechanismus, meta-analytisch wirksam über Schmerzarten hinweg. Es ist kein Ersatz für LDN oder SNRIs — es ist eine Ergänzung, die die Empfindlichkeit verschieben kann, ohne Nebenwirkungen hinzuzufügen.
+- **Bei SNRIs und Gabapentinoiden: beginnen Sie niedrig, gehen Sie langsam und benennen Sie eine Abbruchregel.** Das Ziel ist, eine Dosis zu finden, die den Schmerz reduziert, ohne den Brain Fog zu verschlimmern. Wenn keine Dosis im therapeutischen Bereich das erreicht, hat das Medikament versagt — dokumentieren Sie es und machen Sie weiter.
+- **Respektieren Sie das Energie-Envelope.** Schmerz, der sich nach Crashes verschlimmert, ist ein PEM-Signal. Medikamente, die den Schmerz verbessern, können ein kontinuierlich überzogenes Energiebudget nicht kompensieren. Pacing ist die Grundlage, auf der das Schmerzmanagement aufbaut — keine Alternative dazu.
+
+---
+
+## Das Fazit
+
+Fibromyalgie-Muster-Schmerz bei ME/CFS wird mit einem multimodalen Ansatz behandelt: LDN für mikrogliabedingtes TLR4, SNRIs und Gabapentinoide für zentrale Verstärkung (mit Sedierungs-Einschränkungen), COX-2-Inhibitoren für die PGE₂/TRPV1-Schleife, PEA für Breitband-Sensibilisierungs-Reduktion und NMDA-Antagonisten für schweres Wind-up. Die PEM-getriebene Re-Sensibilisierung — bei reiner Fibromyalgie fehlend — bedeutet, dass das Energie-Envelope und das Schmerz-Envelope gekoppelt sind, und Pacing die Grundlage ist, auf der das gesamte pharmakologische Schmerzmanagement ruht [@Loth2026website].
+
+Ein gescheiterter Versuch irgendeines Medikaments bedeutet nicht, dass der Schmerz nicht real ist. Es bedeutet, dass dieses Medikament, in dieser Dosis, bei diesem Patienten nicht ausreichte — und der ehrliche nächste Schritt ist, den nächsten Mechanismus zu versuchen oder zu akzeptieren, dass die aktuelle Pharmakologie Grenzen hat, und den Fokus auf Funktion innerhalb dieser zu verlagern.
+
+**Als Nächstes in dieser Serie:** Der Darm, der danebengeht — GI-Dysmotilität, SIBO und warum der Magen der erste Hebel ist, den ME/CFS-Patienten ziehen können.
+
+Für das umfassende, vollständig zitierte Bild darüber, wie Fibromyalgie-Muster-Schmerz unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet wird, siehe [@Loth2026website].

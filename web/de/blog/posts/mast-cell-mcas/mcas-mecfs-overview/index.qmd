@@ -1,6 +1,6 @@
 ---
-title: "MCAS Artikel 1: MCAS und ME/CFS — warum Ihr Körper auf nichts reagiert"
-description: "Ein Leitfaden in einfacher Sprache zum Mastzellaktivierungssyndrom und seiner Überschneidung mit ME/CFS — was MCAS ist, wie Mastzellen ohne jeden Allergen auslösen können, warum MCAS fast immer *nach* ME/CFS kommt (nicht davor), die Allergie, die sich von einem Lebensmittel auf die Welt ausbreitet, und wie man alleiniges MCAS von ME/CFS-mit-MCAS unterscheidet."
+title: "MCAS-Artikel 1: MCAS und ME/CFS: Warum Ihr Körper auf nichts reagiert"
+description: "Ein Leitfaden in einfacher Sprache zum Mastzellaktivierungssyndrom und wie es sich mit ME/CFS überschneidet — was MCAS ist, warum Mastzellen ganz ohne Allergen feuern können, warum MCAS fast immer *nach* ME/CFS kommt (nicht davor), die Allergie, die sich von einem Lebensmittel auf die Welt ausbreitet, und wie man alleiniges MCAS von ME/CFS-mit-MCAS unterscheidet."
 author: "Yannick Loth"
 date: "2026-08-10"
 categories: [MCAS, ME/CFS, Pathophysiologie]
@@ -11,7 +11,7 @@ Es ist wieder 16 Uhr. Ihr Gesicht wird rot, die Nase läuft, die Kehle zieht sic
 
 Nun kommt der Rest von ME/CFS dazu: die lähmende Erschöpfung, der Hirnnebel, der nicht erholsame Schlaf. Irgendwo in der Mitte sagt Ihr Arzt oder Ihre Online-Selbsthilfegruppe das Wort *MCAS* und gibt Ihnen ein Antihistaminikum mit dem Rat, es einfach „mal zu probieren".
 
-Dieser Artikel ist die konzeptionelle Übersicht. Was MCAS wirklich ist, wie Mastzellen ohne Allergen auslösen können, ob MCAS ME/CFS verursacht (fast nie), und der Unterschied zwischen alleinigem MCAS und MCAS *zusätzlich zu* ME/CFS. Die Behandlungen — die H1- und H2-Antihistaminika, die Dosierung und die Stabilisatoren — sind in einem eigenen Begleitartikel behandelt, und die ehrliche Diskussion „was, wenn die Medikamente nicht wirken" in einem dritten.
+Dieser Artikel ist die konzeptionelle Übersicht. Was MCAS wirklich ist, wie Mastzellen ohne jedes beteiligte Allergen feuern können, ob MCAS ME/CFS verursacht (fast nie), und der Unterschied zwischen alleinigem MCAS und MCAS *zusätzlich zu* ME/CFS. Die Behandlungen — die H1- und H2-Antihistaminika, die Dosierung und die Stabilisatoren — sind im [Begleitartikel zur Behandlung](../antihistamines-mcas-mecfs-treatment/index.qmd) behandelt, und die ehrliche Diskussion „was, wenn die Medikamente nicht wirken" im [Begleitartikel zum Behandlungsversagen](../when-antihistamine-doesnt-work/index.qmd).
 
 ---
 
@@ -125,6 +125,6 @@ Viele beschreiben den Beginn an der Haut: unerklärliche Quaddeln, Rötung, ein 
 
 MCAS ist real, und ein bedeutender Teil der Menschen mit ME/CFS trägt es [@Rohrhofer2025mecfsmast]. Die ehrliche Lesart der Daten ist, dass es meist **später kommt** — nach Beginn von ME/CFS festgestellt —, was jede „versteckte Ursache"-Geschichte kühlt, auch wenn die Erkennungsreihenfolge-Grenzen bedeuten, dass selbst das vorläufig ist. Ob es die Krankheit dann *verschlimmert* (ein Verstärker) oder weitgehend *mitkoexistiert* (ein Beobachter), ist durch die Belege noch nicht geklärt; das zu trennen würde eine kontrollierte Studie verlangen, die eine Verbesserung der zentralen ME/CFS-Ergebnisse zeigt, nicht die Linderung alleiniger Mastzellsymptome. Die Unterscheidung alleiniges MCAS vs. ME/CFS-mit-MCAS zählt, weil sich das Behandlungsziel unterscheidet, aber sie ist eine klinische Unterscheidung, keine harte biologische Wand. Mastzellen zu behandeln ist vernünftig zu versuchen *als Teil des Bildes*; die Lesarten „Verstärker" und „Beobachter" offenzuhalten, ist das, was dies ehrlich hält.
 
-**Nächster Teil dieser Miniserie:** wie die eigentlichen Medikamente funktionieren — der Unterschied zwischen H1- und H2-Antihistaminika, warum Ihr Arzt die Dosis erhöht, und die Mastzell-Stabilisatoren [siehe den Begleitartikel zur Behandlung]. Und wenn die Medikamente nicht wirken, was das sagt und nicht sagt [Begleitartikel zum Behandlungsversagen].
+**Nächster Teil dieser Miniserie:** wie die eigentlichen Medikamente funktionieren — der Unterschied zwischen H1- und H2-Antihistaminika, warum Ihr Arzt die Dosis erhöht, und die Mastzell-Stabilisatoren [siehe den Begleitartikel zur Behandlung](../antihistamines-mcas-mecfs-treatment/index.qmd). Und wenn die Medikamente nicht wirken, was das sagt und nicht sagt [Begleitartikel zum Behandlungsversagen](../when-antihistamine-doesnt-work/index.qmd).
 
 Für das vollständige, voll zitierte Bild, wie Mastzellen unter den vielen Kandidatenmechanismen bei ME/CFS gewogen werden, siehe [@Loth2026website].

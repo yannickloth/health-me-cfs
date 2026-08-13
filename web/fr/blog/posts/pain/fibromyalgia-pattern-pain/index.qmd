@@ -1,0 +1,102 @@
+---
+title: "Fibromyalgie Article 1 : La douleur qui n'est pas musculaire — La douleur de type fibromyalgique dans l'EM/SFC et pourquoi votre système nerveux a monté le volume"
+description: "Un guide en langage clair sur la douleur de type fibromyalgique et son chevauchement avec l'EM/SFC — pourquoi la douleur arrive sans dommage tissulaire, comment les canaux TRPV1 et TRPA1 sont restés bloqués ouverts, la boucle de rétroaction COX-2/PGE2 qui fait que la chaleur corporelle ressemble à une brûlure, l'hybride nociplastique-neuropathique, et la différence entre la fibromyalgie seule et la douleur fibromyalgique sur fond d'EM/SFC."
+author: "Yannick Loth"
+date: "2026-08-12"
+lang: fr
+categories: [Fibromyalgie, Douleur, EM/SFC, Pathophysiologie]
+---
+
+Cela fait mal partout mais aucun tissu n'est lésé. Vous appuyez sur un muscle et il est douloureux — mais l'IRM est propre, les tests sanguins sont normaux, et le rhumatologue dit qu'il n'y a pas d'inflammation. La mauvaise luminosité pique. La chaleur et le bruit rampent. Un toucher léger sur votre bras laisse une brûlure résiduelle pendant des minutes après que la main est partie. De la douleur sans dommage — votre système nerveux a monté le volume, et personne ne l'a redescendu.
+
+Ajoutez maintenant le reste de l'EM/SFC : la fatigue écrasante, le sommeil non réparateur, le brouillard cérébral. Entre 47 % et 76 % des patients EM/SFC répondent aux critères de la fibromyalgie — et ce sous-groupe a une douleur pire, une fonction pire et une charge plus élevée de chaque autre symptôme [@RamirezMorales2022overlap].
+
+Cet article est la vue conceptuelle d'ensemble. Ce qu'est réellement la douleur de type fibromyalgique, comment fonctionne la sensibilisation centrale, les canaux TRPV1/TRPA1 restés bloqués ouverts, la boucle de rétroaction COX-2/PGE2 qui fait que la température corporelle normale ressemble à une brûlure, l'hybride nociplastique-neuropathique, et la différence entre la fibromyalgie seule et la douleur fibromyalgique *sur fond* d'EM/SFC. Les traitements — LDN, IRSNa, gabapentinoïdes, inhibiteurs de COX-2, PEA, antagonistes NMDA — sont couverts dans l'[article compagnon sur le traitement](../fibromyalgia-pain-treatment/index.qmd).
+
+---
+
+## D'abord, un avertissement simple
+
+*Ceci est une explication, pas un conseil d'automédication, et je ne suis pas médecin. La douleur généralisée dans l'EM/SFC peut avoir des contributeurs traitables — neuropathie des petites fibres, SAM, douleur articulaire liée à l'hypermobilité et carences vitaminiques — et ceux-ci doivent être évalués avant de conclure que la douleur est purement nociplastique. Les médicaments discutés ci-dessous exigent un prescripteur. Si vous avez une douleur sévère d'apparition nouvelle, une faiblesse focale ou une perte de contrôle intestinal ou vésical, rendez-vous à l'hôpital.*
+
+---
+
+## La version courte, si vous ne lisez qu'une partie
+
+- **La fibromyalgie** est un trouble douloureux chronique défini par une douleur généralisée, de la fatigue et des symptômes cognitifs — mais contrairement à l'EM/SFC, elle manque de MPE comme trait cardinal. Le chevauchement avec l'EM/SFC est substantiel — une méta-analyse rapporte environ 47 % en moyenne, mais avec une très forte hétérogénéité entre les études (I²=98 %) parce que les critères diagnostiques varient largement, donc les estimations des études individuelles vont d'environ 47 % à plus de 70 % [@RamirezMorales2022overlap].
+- **La sensibilisation centrale** — la moelle épinière et le cerveau amplifiant les signaux de douleur — est largement considérée comme un mécanisme dominant dans les deux conditions, avec des études basées sur le QST la rapportant dans une grande majorité de patients. Une réserve honnête que le reste de cette série insisterait sur : la sensibilisation centrale est inférée à partir de tests psychophysiques (tests sensoriels quantitatifs), pas d'un biomarqueur mesuré directement, et les estimations de prévalence dépendent des seuils QST utilisés — le même scepticisme de mesure que cette série applique aux seuils du POTS et aux dosages RCPG s'applique ici aussi [@Nijs2021sensitization].
+- **Les canaux TRPV1 et TRPA1 sur les nerfs sensoriels sont restés bloqués ouverts.** TRPV1 est le récepteur de la chaleur et de la capsaïcine — normalement activé à ~43°C, mais dans l'état sensibilisé, les prostaglandines inflammatoires abaissent son seuil à la température corporelle (~35°C), rendant la chaleur normale douloureuse. TRPA1 est le capteur du stress oxydatif — activé par les ROS, H₂O₂ et les aldéhydes réactifs qui s'accumulent pendant le MPE [@Macpherson2007].
+- **La douleur n'est pas « dans votre tête » — elle est dans vos canaux ioniques, votre moelle épinière et vos petites fibres nerveuses.** Et dans l'EM/SFC spécifiquement, elle est amplifiée par des mécanismes post-effort (ASIC3, P2X4, TLR4) qui ne fonctionnent pas dans la fibromyalgie seule — c'est pourquoi le MPE aggrave la douleur.
+- **La distinction importe.** Fibromyalgie seule : traitez l'amplification centrale. Fibromyalgie-sur-EM/SFC : traitez l'amplification centrale PLUS la re-sensibilisation entraînée par le MPE qui réactive la douleur après chaque crash.
+
+---
+
+## Qu'est-ce que la sensibilisation centrale, vraiment ?
+
+Dans un système nerveux sain, un stimulus douloureux — chaleur, pression, coupure — active les nocicepteurs (terminaisons nerveuses sensibles à la douleur) dans le tissu périphérique. Le signal voyage vers la moelle épinière, où il est modulé — amplifié ou supprimé — par des voies descendantes du tronc cérébral avant d'atteindre la conscience. Le système a un contrôle de gain : quand vous êtes en danger, le tronc cérébral désinhibe la moelle épinière, vous rendant plus sensible à la douleur (utile pour combattre ou fuir en étant blessé). Quand le danger passe, le gain est redescendu.
+
+Dans la sensibilisation centrale, le gain est resté bloqué sur élevé. Trois processus convergent :
+
+1. **Sommation temporelle améliorée (wind-up).** Des stimuli identiques répétés produisent des réponses de douleur progressivement plus grandes — la moelle épinière amplifie plutôt qu'habituer. Cela dépend du récepteur NMDA et c'est l'une des découvertes QST les plus reproductibles dans la fibromyalgie.
+
+2. **Modulation conditionnée de la douleur déficiente (MCD).** Chez une personne saine, un stimulus douloureux dans une zone (par ex., l'eau froide sur la main) réduit la sensibilité à la douleur ailleurs — le phénomène « la douleur inhibe la douleur », médié par les voies noradrénergiques et sérotoninergiques descendantes du tronc cérébral. Dans la fibromyalgie et l'EM/SFC, ce système inhibiteur est faible ou absent — le cerveau ne peut pas baisser le volume [@Nijs2017neuroinflammation].
+
+3. **Activation gliale.** Les microglies et les astrocytes dans la moelle épinière et le cerveau deviennent amorcés — ils libèrent des cytokines pro-inflammatoires (IL-1β, TNF-α, IL-6) et des espèces réactives de l'oxygène qui sensibilisent les neurones voisins. Ce n'est pas « l'inflammation » au sens rhumatologique — la CRP et la VS sont normales. C'est une neuro-inflammation, invisible aux tests sanguins standard, mesurable seulement par imagerie TEP ou analyse du LCR.
+
+Le résultat : une pression qui devrait ressembler à un toucher ressemble à une douleur (allodynie). Une chaleur qui devrait être neutre ressemble à une brûlure (hyperalgésie à la chaleur). Une douleur qui devrait être localisée s'étend aux zones adjacentes (hyperalgésie secondaire). **Le stimulus est réel. L'amplification est pathologique.**
+
+---
+
+## TRPV1 et TRPA1 : les canaux restés bloqués ouverts
+
+### TRPV1 : pourquoi la chaleur corporelle fait mal
+
+TRPV1 est le « récepteur de la capsaïcine » — un canal ionique perméable au calcium sur les petites fibres nerveuses sensorielles qui s'ouvre en réponse à la chaleur (>43°C), aux protons (acidité tissulaire) et à la capsaïcine. Chez une personne saine, TRPV1 est un interrupteur de sécurité contre la chaleur : il se déclenche quand la température tissulaire approche le seuil de dommage.
+
+Dans l'état sensibilisé, **la prostaglandine E₂ (PGE₂)**, libérée d'un tissu enflammé ou stressé, se lie aux récepteurs EP1 sur la terminaison nerveuse exprimant TRPV1. Cela abaisse chimiquement le seuil thermique de TRPV1 — de ~43°C à aussi bas que ~35°C, ce qui est la température corporelle normale [@Moriyama2005]. Le résultat : la chaleur d'une couverture ressemble à une brûlure. Une douche chaude est intolérable. La chaleur corporelle — générée par le métabolisme normal — est suffisante pour maintenir TRPV1 partiellement ouvert, produisant une sensation continue de brûlure de bas niveau au repos.
+
+Le problème de la PGE₂ est auto-amplificateur. L'activation de TRPV1 régule à la hausse **COX-2** en ~30 minutes, produisant plus de PGE₂, ce qui abaisse davantage le seuil de TRPV1 — une boucle de rétroaction qui ne nécessite aucune lésion tissulaire continue pour se maintenir [@Moriyama2005]. Une fois la boucle établie, elle tourne de manière autonome.
+
+**Un TRPV1 vasculaire distinct** sur le muscle lisse artériolaire complique le tableau. Contrairement au TRPV1 neuronal, le TRPV1 vasculaire provoque une *vasoconstriction* et ne se désensibilise pas. Pendant le MPE, les lipides inflammatoires (LPA) activent le TRPV1 vasculaire, altérant la perfusion musculaire — un mécanisme qui peut expliquer pourquoi la douleur musculaire post-effort dans l'EM/SFC est disproportionnée par rapport à l'exercice fait [@Phan2020trpv1arterial].
+
+### TRPA1 : pourquoi le stress oxydatif fait mal
+
+TRPA1 est le « récepteur du wasabi » — activé par l'huile de moutarde, l'ail et les irritants environnementaux. Mais son déclencheur physiologique est le **stress oxydatif** : les espèces réactives de l'oxygène (H₂O₂), les aldéhydes réactifs (4-HNE, de la peroxydation lipidique) et les électrophiles modifient des résidus de cystéine spécifiques sur TRPA1, ouvrant le canal [@Macpherson2007].
+
+Pendant le MPE, le dysfonctionnement mitochondrial génère un pic de ROS. Les micro-lésions musculaires squelettiques libèrent des produits de peroxydation lipidique. Le signal de stress oxydatif active directement TRPA1 sur les terminaisons nerveuses sensorielles, produisant un signal de douleur qui n'a aucun corrélat mécanique — le muscle n'est lésé d'aucune façon visible à l'imagerie, mais le nerf rapporte un dommage parce que TRPA1 a été chimiquement ouvert par les suites métaboliques de l'effort.
+
+TRPA1 est aussi exprimé sur les **cellules de Schwann** — les cellules gliales qui enveloppent les nerfs périphériques. Quand TRPA1 sur les cellules de Schwann est activé par les ROS, la cellule de Schwann libère des prostaglandines, des cytokines et du CGRP dans l'espace endoneural, produisant une inflammation neurogène *à l'intérieur de la gaine nerveuse* — indépendamment de la lésion axonale. C'est un mécanisme plausible pour la douleur de gaine nerveuse que les patients NPF décrivent : le tronc nerveux lui-même est enflammé, pas seulement les terminaisons [@Loth2026website].
+
+---
+
+## L'hybride nociplastique-neuropathique
+
+L'une des idées centrales du document principal sur la douleur dans l'EM/SFC est que la plupart des patients n'ont ni une douleur purement nociplastique ni une douleur purement neuropathique — ils ont les deux, et l'interaction entre elles rend la douleur pire que l'une ou l'autre seule [@Loth2026website].
+
+- **La composante neuropathique** vient de la NPF — les petites fibres sont perdues (30 à 38 % confirmées par biopsie), et les fibres restantes sont hyper-excitables à cause de la sensibilisation tryptase→PAR2 des mastocytes. Cela produit la qualité brûlante, élancée, en choc électrique que les questionnaires de douleur neuropathique capturent.
+- **La composante nociplastique** vient de la sensibilisation centrale — la moelle épinière et le cerveau amplifiant le signal de ces fibres hyper-excitables. Cela produit la douleur généralisée, sensible à la pression et multi-sensorielle que les critères de fibromyalgie capturent.
+- **Le MPE amplifie les deux.** L'acidose post-effort active les canaux ASIC3 sur les nerfs sensoriels ; l'ATP libéré du muscle métaboliquement stressé active les récepteurs P2X4 sur les microglies ; le TLR4 sur les microglies est activé par les DAMPs du stress tissulaire. Ces trois signaux convergent pour re-sensibiliser toute la voie de la douleur à chaque fois que le patient dépasse son enveloppe énergétique. C'est pourquoi la douleur est pire après les crashes — et pourquoi la douleur dans l'EM/SFC est plus résistante au traitement que la douleur dans la fibromyalgie seule : l'apport de re-sensibilisation continue d'arriver [@Loth2026website].
+
+---
+
+## Fibromyalgie seule vs EM/SFC avec douleur de type fibromyalgique
+
+**Fibromyalgie seule (sans EM/SFC).** La fibromyalgie est un trouble douloureux chronique. La sensibilisation centrale, l'inhibition descendante déficiente et l'activation gliale sont les mécanismes dominants. Le traitement cible l'amplification centrale : IRSNa, gabapentinoïdes, LDN, antagonistes NMDA. La douleur est handicapante, mais elle ne s'aggrave pas dans un schéma retardé et prévisible après un effort minimal comme le fait le MPE. L'exercice qui déclencherait un crash de 48 heures dans l'EM/SFC peut être toléré — voire thérapeutique — dans la fibromyalgie pure.
+
+**L'EM/SFC avec douleur de type fibromyalgique (la situation dont traite cette série).** Lorsque la douleur fibromyalgique se superpose à l'EM/SFC, trois choses sont différentes :
+
+- **Le MPE amplifie la douleur.** La re-sensibilisation post-effort ASIC3/P2X4/TLR4 signifie que chaque crash est une poussée de douleur. L'enveloppe énergétique et l'enveloppe de douleur sont couplées — vous ne pouvez pas traiter l'une sans respecter l'autre [@Loth2026website].
+- **La fenêtre de traitement est plus étroite.** Les IRSNa et les gabapentinoïdes qui sont bien tolérés dans la fibromyalgie pure peuvent aggraver le brouillard cérébral et la fatigue dans l'EM/SFC. Les antagonistes NMDA (kétamine) qui sont efficaces pour la douleur fibromyalgique peuvent être trop dissociatifs pour quelqu'un avec un dysfonctionnement cognitif de l'EM/SFC.
+- **Traiter la douleur ne répare pas le déficit énergétique.** Le soulagement de la douleur vaut la peine d'être poursuivi — il améliore le sommeil, réduit le coût métabolique d'être en douleur et préserve la fonction. Mais le soulagement de la douleur ne restaure pas la fonction mitochondriale, n'élimine pas la dérégulation immunitaire ni n'inverse l'hypoperfusion cérébrale. Il traite un amplificateur dans un système multi-amplificateurs.
+
+---
+
+## L'essentiel
+
+La douleur de type fibromyalgique est réelle dans l'EM/SFC — une grande part des patients (couramment ~47 %, montant plus haut avec des critères plus lâches) répond aux critères — et elle est entraînée par la sensibilisation centrale (largement considérée comme dominante dans la grande majorité), les canaux TRPV1/TRPA1 restés bloqués ouverts, une boucle COX-2/PGE₂ auto-entretenue et une re-sensibilisation entraînée par le MPE que la fibromyalgie seule n'a pas [@RamirezMorales2022overlap][@Nijs2021sensitization].
+
+La lecture honnête : la douleur est un amplificateur du trouble énergie-immunitaire plus large, pas la maladie centrale. La traiter améliore la qualité de vie ; elle ne répare pas le crash. L'[article compagnon sur le traitement](../fibromyalgia-pain-treatment/index.qmd) couvre l'approche multimodale — LDN, IRSNa, gabapentinoïdes, inhibiteurs de COX-2, PEA, et le dosage conscient du MPE qui distingue la gestion de la douleur de l'EM/SFC des soins standard de fibromyalgie.
+
+**Suite de cette mini-série :** comment traiter réellement la douleur — les médicaments, le dosage et la discussion honnête « et si rien n'aide » [[voir l'article compagnon]](../fibromyalgia-pain-treatment/index.qmd).
+
+Pour une vue complète et entièrement citée de la manière dont la douleur de type fibromyalgique est pesée parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].

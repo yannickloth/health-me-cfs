@@ -1,15 +1,15 @@
 ---
-title: "Les affections qui accompagnent l'EM/SFC — une série"
-description: "L'EM/SFC apparaît rarement seule. L'activation des mastocytes, le POTS, l'hypermobilité, la fibromyalgie, les problèmes intestinaux et les migraines co-occurrent bien plus souvent que par hasard. C'est la page d'accueil d'une série en langage clair sur chaque affection concomitante : ce qu'elle est, comment elle se rapporte à l'EM/SFC, les traitements, et — toujours — ce que cela signifie si le traitement ne marche pas."
+title: "Les affections qui voyagent avec l'EM/SFC — une série"
+description: "L'EM/SFC voyage rarement seul. L'activation des mastocytes, le POTS, l'hypermobilité, la fibromyalgie, les problèmes intestinaux et les migraines co-occurrent bien plus souvent que par hasard. C'est la page d'accueil d'une série en langage clair sur chaque affection concomitante : ce qu'elle est, comment elle se rapporte à l'EM/SFC, les traitements, et — toujours — ce que cela signifie si le traitement ne marche pas."
 author: "Yannick Loth"
 date: "2026-08-10"
 categories: [EM/SFC, Série, Comorbidités]
 lang: fr
 ---
 
-L'EM/SFC apparaît rarement seule. En pratique, elle voyage avec une constellation d'autres affections — l'activation des mastocytes, le syndrome de tachycardie orthostatique posturale (POTS), les syndromes d'hypermobilité, la neuropathie des petites fibres, l'infection chronique, l'auto-immunité, les problèmes intestinaux et la douleur de type fibromyalgique. Le document principal derrière ce site appelle le groupe le plus resserré de sept la *Septade* : des physiopathologies en interaction qui co-occurrent et s'alimentent mutuellement. Cette série est **inspirée par** cette idée mais un peu plus large — elle couvre ces sept-là plus la douleur de type fibromyalgique, et se termine par un article sur la façon dont les amplificateurs s'enchaînent en un seul tableau.
+L'EM/SFC apparaît rarement seul. En pratique, il voyage avec une constellation d'autres affections — l'activation des mastocytes, le syndrome de tachycardie orthostatique posturale (POTS), les syndromes d'hypermobilité, la neuropathie des petites fibres, l'infection chronique, l'auto-immunité, les problèmes intestinaux et la douleur de type fibromyalgique. Le document principal derrière ce site appelle le groupe le plus resserré de sept la *Septade* : des physiopathologies en interaction qui co-occurrent et s'alimentent mutuellement. Cette série est **inspirée par** cette idée mais un peu plus large — elle couvre ces sept-là plus le schéma de douleur fibromyalgique, et elle se termine par un article sur la façon dont les amplificateurs s'enchaînent en un seul tableau.
 
-Cette série explique une affection concomitante à la fois, en langage clair, pour un lecteur las du jargon. Chaque article suit la même forme :
+Cette série explique une affection concomitante à la fois, en langage clair, pour un lecteur malade et las du jargon. Chaque article suit la même forme :
 
 1. **Ce que l'on ressent** — une courte vignette honnête.
 2. **Ce que c'est** — le mécanisme, en mots ordinaires.
@@ -19,7 +19,7 @@ Cette série explique une affection concomitante à la fois, en langage clair, p
 
 ---
 
-## Partie 1 (actuelle) : Activation des mastocytes et histamine
+## Partie 1 : Activation des mastocytes et histamine
 
 La série s'ouvre avec le MCAS — l'affection où vos cellules immunitaires se déclenchent sans déclencheur, avec bouffées de chaleur et réactions à la poussière et au toucher. C'est une première entrée naturelle parce que c'est fréquent, en partie réversible, et emblématique du message central de toute la série : *la plupart de ces affections sont des amplificateurs, pas des causes, et traiter un amplificateur peut encore valoir le coup.*
 
@@ -31,20 +31,91 @@ Lisez les trois articles dans l'ordre :
 
 ---
 
-## Prévu pour cette série
+## Partie 2 : Tachycardie orthostatique posturale (POTS)
 
-À venir dans des entrées ultérieures, chacune suivant le même modèle :
+La série continue avec le POTS — le cœur qui s'emballe quand vous vous levez, le volume sanguin paradoxalement bas, et le cerveau qui perd son flux sanguin même quand les constantes vitales semblent normales. Le POTS est le deuxième amplificateur concomitant le plus courant ; il s'associe directement aux liens orthostatiques liés aux mastocytes et aux problèmes de tissu conjonctif traités ensuite.
 
-1. **Le POTS et le cœur qui s'emballe quand vous vous levez** — l'intolérance orthostatique et le volume sanguin *(ensuite).*
-2. **L'hypermobilité et la connexion au tissu conjonctif** — la triade hEDS / POTS / MCAS.
-3. **La neuropathie des petites fibres — quand le câblage lui-même est défectueux** — les nerfs endommagés qui portent la douleur et le cœur qui s'emballe.
-4. **La douleur qui n'est pas musculaire** — la douleur de type fibromyalgique et la sensibilisation nerveuse.
-5. **L'intestin qui se comporte mal** — dysmotilité gastro-intestinale, SIBO et réactions alimentaires.
-6. **L'infection chronique** — la réactivation virale et la maladie transmise par les tiques.
-7. **L'auto-immunité** — les anticorps qui parlent au système nerveux.
-8. **Enchaînés ensemble** — comment les amplificateurs deviennent un seul tableau.
+Lisez les deux articles dans l'ordre :
 
-La série complète prévue (sujets, priorités, ancres de sources et prédictions réfutables) vit dans [`_series-plan.md`](../../_series-plan.md).
+1. **[Le POTS et le cœur qui s'emballe quand vous vous levez](../autonomic-cardiovascular/pots-mecfs/index.qmd)** — ce qu'est le POTS, le paradoxe rénine-aldostérone, les données sur le flux sanguin cérébral, et la différence entre POTS isolé et EM/SFC avec POTS.
+2. **[Les traitements du POTS et de la dysautonomie dans l'EM/SFC — et ce que cela signifie quand ils ne marchent pas](../autonomic-cardiovascular/pots-mecfs-treatment/index.qmd)** — le sel, la compression, la fludrocortisone, la midodrine, l'ivabradine, les bêtabloquants, la pyridostigmine, le piège des ISRS, les résultats attendus, et la discussion honnête sur l'échec.
+
+---
+
+## Partie 3 : Hypermobilité et la connexion au tissu conjonctif
+
+La triade se réunit : l'hypermobilité complète le groupe POTS–MCAS–hEDS. Cette entrée en deux parties explique pourquoi un tissu flexible ne tient pas — les cinq voies mécanistiques, comment les mastocytes peuvent dégrader activement le collagène (hypermobilité acquise), la génétique du TNXB, l'axe de la neurodivergence, et l'architecture de traitement de la physiothérapie isométrique au soutien circadien du collagène jusqu'à l'inhibition expérimentale des MMP.
+
+Lisez les trois articles dans l'ordre :
+
+1. **[L'EDS hypermobile et la connexion du tissu conjonctif à l'EM/SFC](../connective-tissue/hypermobility-heds/index.qmd)** — ce qu'est le hEDS, pourquoi il n'a pas de défaut génétique identifié, l'écart 81 % vs 15,5 %, l'hypermobilité progressive acquise (tryptase→MMP-3/-13, chymase→MMP-1, histaminylation), la boucle de rétroaction de la rigidité matricielle, cinq voies mécanistiques, la connexion à la neurodivergence, la génétique du TNXB, la taxe énergétique permanente de 10–20 %, et hEDS isolé vs hEDS sur EM/SFC.
+2. **[Gérer l'hypermobilité par-dessus l'EM/SFC](../connective-tissue/hypermobility-heds-treatment/index.qmd)** — les protocoles de résistance isométrique, la chronologie circadienne des cofacteurs du collagène (vitamine C, alpha-cétoglutarate), la glycine et la proline, le cuivre/B6 pour la LOX, la doxycycline à faible dose pour la MMP-9, les thérapies émergentes (tVNS, inhibiteurs de HIF-1α, blocage de TGF-β1), la chirurgie du CCI, les résultats attendus, et un exemple d'essai structuré.
+3. **[Quand le traitement n'aide pas](../connective-tissue/hypermobility-heds-failure/index.qmd)** — le piège déconditionnement-PEM, le point de basculement de la rigidité matricielle, le tri congénital-vs-acquis, les six points d'échec numérotés, les prédictions réfutables, et ce que vous pouvez réellement faire.
+
+---
+
+## Partie 4 : Neuropathie des petites fibres
+
+La série continue avec le câblage défectueux — la neuropathie des petites fibres explique la douleur brûlante et lancinante et le dysfonctionnement autonome que les moniteurs de fréquence cardiaque montrent mais que les tests neurologiques standard manquent.
+
+Lisez les deux articles dans l'ordre :
+
+1. **[La neuropathie des petites fibres — quand le câblage lui-même est défectueux dans l'EM/SFC](../neurology/sfn/index.qmd)** — ce qu'est la NPF, les trois familles de mécanismes (tryptase des mastocytes→PAR2, ischémie microvasculaire, auto-immunité des DRG médiée par IgG), la distinction viscéral-vs-somatique, l'intersection POTS–NPF–MCAS–hEDS, et NPF isolée vs NPF sur EM/SFC.
+2. **[Traiter la neuropathie des petites fibres dans l'EM/SFC](../neurology/sfn-treatment/index.qmd)** — les gabapentinoïdes, les IRSN, les topiques, l'IgIV pour la NPF auto-immune, l'acide alpha-lipoïque, les stabilisateurs de mastocytes, les résultats attendus, la discussion honnête sur l'échec, et des conseils pratiques.
+
+---
+
+## Partie 5 : La douleur de type fibromyalgique
+
+La douleur qui n'est pas musculaire — quand votre système nerveux monte le gain, les canaux TRPV1 et TRPA1 restent bloqués ouverts, et la chaleur corporelle paraît brûlante. Cela chevauche 47–76 % des patients atteints d'EM/SFC.
+
+Lisez les deux articles dans l'ordre :
+
+1. **[La douleur qui n'est pas musculaire — la douleur de type fibromyalgique dans l'EM/SFC](../pain/fibromyalgia-pattern-pain/index.qmd)** — la sensibilisation centrale, les canaux TRPV1/TRPA1, la boucle d'anticipation COX-2/PGE2, l'hybride nociplastique-neuropathique, et la fibromyalgie isolée vs la fibromyalgie sur EM/SFC.
+2. **[Traiter la douleur de type fibromyalgique dans l'EM/SFC](../pain/fibromyalgia-pain-treatment/index.qmd)** — le LDN, les IRSN, les gabapentinoïdes, les inhibiteurs de la COX-2, le PEA, les antagonistes du NMDA, les résultats attendus, la discussion honnête sur l'échec, et des conseils pratiques.
+
+---
+
+## Partie 6 : Dysmotilité gastro-intestinale et SIBO
+
+L'intestin qui se comporte mal — pourquoi votre estomac se vide lentement, comment les bactéries volent votre petit-déjeuner, le sulfure d'hydrogène comme poison mitochondrial, et le régime comme premier levier qu'un patient peut tirer.
+
+Lisez les deux articles dans l'ordre :
+
+1. **[SIBO, gastroparesie et l'intestin qui se comporte mal dans l'EM/SFC](../gut/sibo-gi-dysmotility/index.qmd)** — la défaillance motrice ICC/vagale, l'axe mastocytes–intestin, la toxicité mitochondriale du H₂S, la DAO et l'intolérance à l'histamine, et les problèmes gastro-intestinaux isolés vs les problèmes gastro-intestinaux sur EM/SFC.
+2. **[Traiter le SIBO, la gastroparesie et l'intestin](../gut/sibo-gi-treatment/index.qmd)** — l'espacement des repas, l'élimination pauvre en histamine, les antibiotiques et plantes pour le SIBO, le régime élémentaire, la DAO, le butyrate, les prokinétiques, les résultats attendus, un exemple d'essai structuré, la discussion honnête sur l'échec, les prédictions réfutables, et des conseils pratiques.
+
+---
+
+## Partie 7 : Infection chronique
+
+L'infection qui ne s'est jamais terminée — l'EBV, le HHV-6, les maladies transmises par les tiques, la réplication lyrique abortive, la co-réactivation poly-herpèsvirale, et pourquoi quelque chose parle encore à votre système immunitaire des années après que vous avez « récupéré ».
+
+Lisez les deux articles dans l'ordre :
+
+1. **[L'EBV, le HHV-6, les maladies transmises par les tiques et l'infection qui ne s'est jamais terminée dans l'EM/SFC](../infectious/chronic-infection/index.qmd)** — le modèle de réplication lyrique abortive, la voie EBV→mastocyte→MMP-9, le miR-aU14 du HHV-6→fragmentation mitochondriale, la co-réactivation poly-herpèsvirale, et l'infection chronique isolée vs la stimulation immunitaire chronique sur EM/SFC.
+2. **[Les antiviraux, les immunomodulateurs, et ce que cela signifie quand ils ne marchent pas dans l'EM/SFC](../infectious/chronic-infection-treatment/index.qmd)** — le valacyclovir, le valganciclovir, la cimétidine, les stabilisateurs de mastocytes pour intercepter la voie EBV→MMP-9 en aval, pourquoi l'ALR rend les antiviraux moins efficaces, les résultats attendus, la discussion honnête sur l'échec, et des conseils pratiques.
+
+---
+
+## Partie 8 : Auto-immunité
+
+Des anticorps qui parlent à votre système nerveux — les auto-anticorps GPCR ciblant vos vaisseaux sanguins, votre intestin et votre cerveau, le Fc-glycoprofil qui détermine la pathogénicité, et pourquoi les retirer ne règle pas toujours le problème.
+
+Lisez les deux articles dans l'ordre :
+
+1. **[Les auto-anticorps GPCR, l'attaque immunitaire sur le système nerveux, et les anticorps qui parlent à vos récepteurs dans l'EM/SFC](../autoimmune/autoimmunity/index.qmd)** — ce que sont les auto-anticorps GPCR, la fourchette de prévalence de 29–91 % et ce qu'elle signifie réellement, le Fc-glycoprofil, le déclencheur post-infectieux, et l'auto-immunité isolée vs l'auto-immunité sur EM/SFC.
+2. **[Immunoadsorption, IgIV, rituximab, daratumumab — retirer les anticorps, et ce que cela signifie quand cela ne répare pas l'EM/SFC](../autoimmune/autoimmunity-treatment/index.qmd)** — les preuves du traitement de la plus à la moins mûre, la leçon de RituxME, le signal du daratumumab, les résultats attendus, la discussion honnête sur l'échec, et des conseils pratiques.
+
+---
+
+## Partie 9 : Enchaînés ensemble — Capstone de synthèse
+
+Comment les amplificateurs deviennent une seule maladie — les boucles de rétroaction reliant les huit affections, le cliquet d'amplification qui rend la maladie plus longue plus difficile à traiter, et l'impératif clinique d'un traitement multi-cibles.
+
+Lisez l'article :
+
+1. **[Enchaînés ensemble : comment les amplificateurs deviennent une seule maladie dans l'EM/SFC](../synthesis/chained-together/index.qmd)** — la boucle inflammation-vasculaire, l'amplificateur nerf-mastocyte, l'axe intestin-cerveau-histamine, le pont EBV–mastocyte–MMP-9–BBB, la boucle auto-immunité–POTS–NPF, le cliquet d'amplification, le traitement multi-cibles, et ce que toute la série a soutenu en un seul endroit.
 
 ---
 

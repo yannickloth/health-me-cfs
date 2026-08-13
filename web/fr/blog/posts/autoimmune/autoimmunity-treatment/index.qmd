@@ -1,0 +1,123 @@
+---
+title: "Auto-immunité Article 2 : Immunoadsorption, IVIG, Rituximab, Daratumumab — Retirer les anticorps, et ce que cela signifie quand cela ne répare pas l'EM/SFC"
+description: "Un guide en langage clair sur les traitements ciblant l'auto-immunité dans l'EM/SFC — l'immunoadsorption pour le retrait des auto-anticorps anti-RCPG, l'IVIG pour l'immunomodulation, le rituximab et la leçon du résultat nul de la phase III, le daratumumab pour la déplétion des plasmocytes, pourquoi les essais contrôlés ne correspondent pas aux signaux en ouvert, les résultats attendus, et la discussion honnête « et si rien ne fonctionne »."
+author: "Yannick Loth"
+date: "2026-08-12"
+lang: fr
+categories: [Traitement, Auto-immunité, IVIG, Immunoadsorption, EM/SFC]
+---
+
+Si vous avez une EM/SFC et des preuves d'auto-anticorps anti-RCPG, la prochaine question logique est : peut-on les retirer ? Les traitements existent — l'immunoadsorption retire physiquement les IgG du sang, l'IVIG dilue les anticorps pathogènes avec de l'immunoglobuline saine regroupée, le rituximab tue les lymphocytes B qui les produisent, le daratumumab va plus loin et tue les plasmocytes. Mais les preuves pour chacun racontent une histoire cohérente : les résultats en ouvert sont spectaculaires ; les résultats contrôlés sont édifiants.
+
+Cet article explique les preuves des traitements. Pour le contexte conceptuel — ce que sont les auto-anticorps anti-RCPG, le glycoprofil Fc et la controverse sur la mesure — voir l'[article compagnon de vue d'ensemble](../autoimmunity/index.qmd).
+
+---
+
+## D'abord, un avertissement simple
+
+*Tout ce qui suit décrit des interventions hospitalières présentant des risques importants : l'immunoadsorption nécessite un accès veineux central et comporte des risques d'infection, de thrombose et d'hypotension. L'IVIG provoque une méningite aseptique, une thromboembolie et une anaphylaxie. Le rituximab comporte un risque de leucoencéphalopathie multifocale progressive. Le daratumumab provoque des réactions à la perfusion et une immunosuppression. Ce sont des traitements pour les personnes gravement atteintes, discutés avec un immunologiste — pas auto-dirigés et pas en première intention.*
+
+---
+
+## Les preuves des traitements, de la plus à la moins aboutie
+
+### Immunoadsorption — le mécanisme le plus direct, les preuves les plus contestées
+
+L'immunoadsorption (IA) s'apparente à une dialyse des anticorps. Le sang passe à travers une colonne tapissée d'un ligand qui se lie aux IgG — tryptophane, protéine A ou peptide synthétique — retirant environ 80 % des IgG circulantes en une seule séance. Un traitement typique comprend 5 séances sur 10 à 14 jours.
+
+L'avantage par rapport aux échanges plasmatiques est la sélectivité : l'IA retire les IgG sans retirer l'albumine, les facteurs de coagulation ou les autres protéines plasmatiques. L'inconvénient est qu'elle retire *toutes* les IgG — anticorps protecteurs, réponses vaccinales et auto-anticorps de la même façon — et que les auto-anticorps reviennent en quelques semaines à quelques mois si les lymphocytes B et les plasmocytes qui les produisent ne sont pas traités.
+
+**Les preuves en ouvert sont solides.** Le groupe de Scheibenbogen a publié une série cohérente :
+- Pilote 2018 (n=10) : 70 % d'amélioration rapide, 30 % maintenue sur 6 à 12 mois [@Scheibenbogen2018immunoadsorption].
+- Retraitement 2020 (n=5) : réduction de 80 à 90 % des IgG et des β2AR-AAb, 4/5 d'amélioration maintenue [@Tolle2020immunoadsorption].
+- 2025 (n=20 post-COVID) : IgG réduites de 79 %, AAb de 77 %, **taux de réponse de 70 %** (SF-36 PF ≥10 points), durable à 6 mois [@Stein2024immunoadsorption].
+
+**Les preuves contrôlées sont édifiantes.** Deux développements en 2025–2026 ont changé le tableau :
+- **Anft 2025** (centre indépendant, n=12) : les AAb ont été éliminés, les cytokines réduites, une amélioration neuropsychologique mesurée — mais **les scores de symptômes de l'EM/SFC ne se sont pas améliorés**, et les AAb sont revenus en moins d'un mois [@Anft2025immunoadsorption]. C'est le résultat discordant qui doit être expliqué : le retrait d'anticorps a fonctionné biochimiquement mais ne s'est pas traduit par un bénéfice clinique.
+- **IA-PACS-CFS** (Charité, NCT05710770, contrôle par simulation, ~65–66 patients) : **un rapport préliminaire de congrès (mai 2026) n'a indiqué aucune différence statistiquement significative entre l'immunoadsorption et la simulation sur l'échelle de fatigue de Chalder** [@Pressler2024IAPACSCFSprotocol][@Rucker2026WirthScheibenbogen]. Une réserve le cadre : l'essai n'a pas présélectionné de patients positifs aux anticorps, donc un résultat global négatif ne falsifie pas l'hypothèse auto-immune — il peut simplement signifier que vous devez retirer les anticorps de quelqu'un qui en a.
+
+**La leçon de la discordance.** L'immunoadsorption retire les anticorps. Si les retirer n'améliore pas les symptômes, soit (a) les anticorps n'étaient pas pathogènes (mauvais glycoprofil Fc), soit (b) la pathologie qu'ils ont causée est déjà irréversible (internalisation du récepteur, dommages structurels), soit (c) les anticorps n'étaient pas la pathologie dominante chez ce patient, soit (d) le rebond des anticorps est trop rapide pour un bénéfice clinique. Les quatre sont plausibles, et les données actuelles ne peuvent pas les distinguer.
+
+### IVIG — immunomodulation, pas seulement dilution des anticorps
+
+L'immunoglobuline intraveineuse (IVIG) à 0,4 g/kg par jour pendant 5 jours, puis 0,4 g/kg toutes les 3 à 4 semaines, fait deux choses : elle dilue les auto-anticorps pathogènes (un effet plus faible que l'IA) et — plus important — elle fournit des glycannes Fc immunomodulateurs provenant de milliers de donneurs sains. L'IgG sialylée de l'IVIG engage DC-SIGN sur les macrophages régulateurs, induisant un changement anti-inflammatoire. C'est pourquoi l'IVIG fonctionne dans des maladies (Kawasaki, PIDC, PTI) où une simple dilution des anticorps ne suffirait pas.
+
+**Les preuves dans l'EM/SFC ne sont pas contrôlées.** L'enquête de patients d'Eckey 2025 (n=3 925) a rapporté l'IVIG parmi les options les mieux notées dans le groupe de symptômes multisystémique (un chiffre d'environ 73 % net-positif a été rapporté pour elle) — mais cela est rapporté par les patients, non contrôlé et sujet à un biais de sélection, et la répartition complète de l'enquête doit être lue directement [@Eckey2025PatientReported]. Il n'existe aucun essai randomisé contrôlé par placebo d'IVIG dans l'EM/SFC.
+
+**L'IVIG pour le PANDAS — un parallèle de mise en garde.** Le PANDAS (trouble neuropsychiatrique auto-immun pédiatrique associé à une infection streptococcique) est mécaniquement analogue : des auto-anticorps post-infectieux ciblant les ganglions de la base provoquent des symptômes neuropsychiatriques. Un essai randomisé contrôlé par placebo d'IVIG dans le PANDAS en 2024 était **nul** — l'IVIG n'était pas meilleure que le placebo. La lecture optimiste est que l'essai était sous-puissant ou que les mauvais patients ont été recrutés. La lecture pessimiste — celle qui devrait contraindre les attentes pour l'EM/SFC — est que les syndromes auto-anticorps post-infectieux peuvent ne pas répondre à la seule dilution des anticorps [@Loth2026website].
+
+### Rituximab — la leçon de la déplétion des lymphocytes B
+
+Le rituximab (anti-CD20) épuise les lymphocytes B — les précurseurs des plasmocytes qui produisent les anticorps. Il épargne les plasmocytes de longue durée (CD20 négatifs) qui résident dans la moelle osseuse et continuent de sécréter des anticorps pendant des décennies. C'est l'explication mécanistique de l'échec du rituximab dans l'EM/SFC.
+
+**L'arc des preuves est instructif.** Les études en ouvert initiales de Fluge & Mella (2009–2011) rapportaient des taux de réponse de 67 % — spectaculaires, largement rapportés, et à la base de l'essai de phase III RituxME. RituxME (n=151, en double aveugle, contrôlé par placebo) a trouvé **26 % de rituximab contre 35 % de placebo à 24 mois — le groupe placebo a fait mieux** [@Fluge2019]. Le signal en ouvert était du bruit, amplifié par l'attente et la régression vers la moyenne.
+
+La leçon s'applique à chaque autre signal de traitement en ouvert dans l'EM/SFC : les taux de réponse non contrôlés surestiment le bénéfice. Le résultat nul de RituxME n'a pas réfuté l'hypothèse auto-immune — il a prouvé que dépléter les lymphocytes B sans dépléter les plasmocytes ne fonctionne pas.
+
+---
+
+## Résultats attendus
+
+- **La meilleure réponse possible au traitement est partielle.** Même dans les séries en ouvert positives, « répondeur » signifiait une amélioration cliniquement significative — pas la guérison, pas le retour au travail, pas la normalisation du MPE. Les traitements réduisent la contribution auto-immune ; ils ne guérissent pas l'EM/SFC.
+- **La réponse à l'IVIG peut prendre 3 à 6 mois.** La combinaison de la dilution des anticorps et des effets immunomodulateurs des glycannes Fc est progressive. Un seul cycle n'est pas un essai adéquat, mais un résultat nul à 6 mois de dosage adéquat est suffisant pour arrêter.
+- **L'immunoadsorption fonctionne biochimiquement — les IgG chutent de 80 % — mais cela ne garantit pas une amélioration clinique.** La discordance d'Anft 2025 (AAb disparus, symptômes inchangés) est le point de données de mise en garde. L'IA vous dit quelque chose sur l'anticorps ; la réponse clinique vous dit quelque chose sur le fait que l'anticorps était pathogène ou non.
+- **Le daratumumab répond avec une latence de 8 à 9 mois, si le signal est réel.** C'est la latence la plus longue de tout traitement ciblant l'immunité, et elle signifie qu'un essai de 3 à 6 mois peut être faussement négatif. Un essai de 12 mois est le minimum pour juger le signal du daratumumab — et un tel essai n'a pas été réalisé.
+- **Les décisions de traitement en 2026 sont prises sous une incertitude réelle.** Le résultat de l'IA-PACS-CFS a été rapporté de manière préliminaire (un rapport de congrès de mai 2026 suggérait aucun bénéfice significatif par rapport à la simulation) et le résultat contrôlé EXTINCT est toujours attendu [@Rucker2026WirthScheibenbogen]. L'hypothèse du glycoprofil est mécaniquement élégante mais cliniquement non testée. L'approche honnête est un essai limité dans le temps avec des critères définis — et la discipline d'accepter la réponse qu'il donne.
+
+---
+
+## Un exemple d'essai structuré
+
+*Ceci est un exemple pour donner à votre clinicien une base de travail — pas une auto-prescription.*
+
+Le prérequis est la documentation d'auto-anticorps anti-RCPG sur un test fonctionnel (bio-essai, pas ELISA commercial), un début post-infectieux et un profil autonome à prédominance POTS. Si ces conditions ne sont pas réunies, la probabilité pré-test d'un mécanisme à prédominance auto-immune est faible et ces traitements sont peu susceptibles d'être appropriés.
+
+**Une réserve pratique sur le prérequis :** le bio-essai fonctionnel anti-RCPG est disponible principalement en milieu de recherche, pas dans les laboratoires cliniques de routine — donc pour la plupart des patients, la porte des anticorps ne peut pas réellement être franchie avant même qu'un essai puisse être discuté. Lorsqu'un test fonctionnel est indisponible, le prérequis pratique se réduit au seul tableau clinique : un début post-infectieux clair plus un profil autonome à prédominance POTS avec des symptômes orthostatiques documentés. C'est une porte plus faible que le test d'anticorps, et elle doit être lue comme telle — elle réduit la confiance que le patient est positif aux anticorps mais ne rend pas le traitement inapproprié à évoquer avec un spécialiste.
+
+Si le profil est bon, commencez par l'option la moins invasive : IVIG 0,4 g/kg par jour pendant 5 jours, puis 0,4 g/kg toutes les 3 à 4 semaines. Choisissez un seul symptôme cible — le symptôme autonome qui vous limite le plus (temps debout, fréquence des présyncopes, variabilité de la fréquence cardiaque lors d'une provocation orthostatique). Réévaluez à 6 mois. **Arrêtez s'il n'y a pas d'amélioration** — un essai d'IVIG nul à 6 mois est une preuve suffisante que la thérapie par immunoglobuline n'est pas le levier. Sachez que l'IVIG est chère (souvent plusieurs milliers de dollars par cycle de perfusion) et, étant hors indication dans l'EM/SFC, elle est fréquemment soumise à une autorisation préalable et souvent refusée — donc l'accès, pas seulement l'adéquation clinique, est une barrière réelle qui doit être discutée d'emblée.
+
+Si l'IVIG produit une amélioration partielle mais que les AAb sont toujours élevés et que le patient est gravement atteint (confiné à la maison ou alité), discutez de l'immunoadsorption avec un centre spécialisé. Un traitement d'IA de 5 séances (10 à 14 jours) devrait réduire les IgG d'environ 80 %. Réévaluez 1 mois après le traitement. **Si les symptômes ne se sont pas améliorés malgré une réduction adéquate des IgG, la lecture « les anticorps sont la pathologie dominante » n'est pas étayée** — cela pourrait signifier que les anticorps n'étaient pas pathogènes, que les dommages qu'ils ont causés sont irréversibles, ou qu'ils n'étaient pas le moteur principal ; les données, comme cette série le discute, ne séparent pas proprement ces possibilités. Dans tous les cas, la conclusion clinique exploitable est la même : arrêtez de poursuivre le retrait d'anticorps et passez à la gestion des amplificateurs en aval.
+
+Ne passez au daratumumab (là où il est disponible et sous supervision spécialisée) que si l'IVIG et l'IA ont toutes deux échoué dans le sous-groupe post-infectieux AAb-positif — et uniquement dans le cadre d'un protocole de recherche contrôlé, compte tenu du stade précoce des preuves et de la déplétion on-target des cellules NK. Le daratumumab est un médicament biologique oncologique coûteux sans indication approuvée pour l'EM/SFC ; en pratique, il est effectivement confiné aux centres spécialisés/de recherche qui peuvent se le procurer, donc pour la plupart des patients, ce n'est pas une option réalistement accessible.
+
+---
+
+---
+
+## Ce que cela signifie si le traitement ne fonctionne pas
+
+**Un : un essai d'immunoadsorption échoué est informatif.** Si les IgG ont été réduites de 80 % et que les symptômes ne se sont pas améliorés, soit les anticorps n'étaient pas pathogènes (inadéquation du glycoprofil Fc), soit la pathologie qu'ils ont causée est irréversible (internalisation du récepteur), soit le rebond des anticorps a été trop rapide. Dans le premier cas, un traitement ciblant davantage les anticorps n'aidera probablement pas. Dans les deuxième et troisième, il le pourrait — mais avec une stratégie différente (entretien avec daratumumab, pas pulsé avec IA).
+**Deux : un essai d'IVIG échoué dit que l'IVIG ne fonctionne pas pour vous — rien de plus.** Il n'exclut pas un mécanisme auto-immune. L'IVIG est immunomodulatrice, pas déplétive des anticorps, et la dose, la marque et la vitesse de perfusion affectent toutes la tolérabilité et peut-être l'efficacité. Mais si l'IVIG aux doses standard pendant 6 mois ne produit aucun bénéfice, la continuer indéfiniment n'est ni fondé sur des preuves ni sans risque.
+**Trois : le résultat nul de RituxME était un échec d'essai, pas un échec d'hypothèse.** Le rituximab épargne les plasmocytes. Le modèle de l'usine à plasmocytes — soutenu par le signal du daratumumab et la latence de 8 à 9 mois — est toujours sur la table. La leçon de RituxME n'est pas « l'auto-immunité n'est pas le mécanisme ». C'est « ne dépleter pas les lymphocytes B et ne vous attendez pas à dépléter les anticorps ».
+**Quatre : une séquence d'échecs — l'immunoadsorption retire les anticorps mais les symptômes persistent, l'IVIG ne produit aucun bénéfice, le daratumumab est indisponible — est une preuve réelle que l'auto-immunité n'est pas la pathologie dominante, ou qu'elle était dominante autrefois mais que les dommages qu'elle a causés sont désormais auto-entretenus.** Dans les deux cas, c'est une information utile. Arrêtez de poursuivre les traitements ciblant les anticorps et concentrez-vous sur les amplificateurs en aval (POTS, SAM, NPF) que l'auto-immunité a pu déclencher.
+
+---
+
+## Les prédictions falsifiables
+
+- **Si le glycoprofil prédit la réponse à l'IA** — les profils à prédominance G0F (pro-inflammatoires) répondent ; les profils à prédominance sialylée ne répondent pas — le modèle du mécanisme Fc est cliniquement exploitable et doit être ajouté aux tests pré-traitement [@Loth2026website].
+- **Si les répondeurs au daratumumab montrent un déclin du titre d'anticorps pathogènes sur 6 à 9 mois avec une amélioration clinique en retard**, le modèle de l'usine à plasmocytes est soutenu et la latence est un véritable phénomène biologique, pas un effet placebo.
+- **Si IA-PACS-CFS et EXTINCT (Hanovre, NCT05954325, n=63) reviennent tous deux nuls dans les sous-groupes positifs aux anticorps**, l'hypothèse auto-immune « subit un coup comparable à l'effondrement rituximab-vers-RituxME » — le cadrage propre du document principal.
+- **Si le transfert passif d'IgG d'EM/SFC reproduit un dysfonctionnement autonome chez la souris** — l'expérience a été faite dans la fibromyalgie et le COVID long mais jamais dans l'EM/SFC — le mécanisme auto-immun passe de l'association à la causalité.
+
+---
+
+## Ce que vous pouvez réellement faire
+
+- **Obtenez le bon test, mais lisez-le de manière critique.** Le test fonctionnel des auto-anticorps anti-RCPG (bio-essai, pas ELISA) est le plus significatif — mais il n'est disponible qu'en milieu de recherche. Si on vous propose un test ELISA CellTrend commercial, sachez que l'étude de réplication de 2022 a trouvé 100 % des témoins sains positifs à l'α1-AAb, et que l'utilité clinique du test est contestée. Un résultat positif est ambigu. Un résultat négatif sur un test fonctionnel de haute qualité est plus informatif qu'un résultat positif sur un ELISA non spécifique.
+- **Le prédicteur le plus honnête de la réponse au traitement n'est pas le titre d'anticorps — c'est le fait d'avoir un début post-infectieux clair et un profil autonome à prédominance POTS.** Le signal β2-AAb est corrélé à la gravité autonome ; l'histoire post-infectieuse vous place dans le sous-groupe où le mimétisme moléculaire est le déclencheur plausible. Si votre EM/SFC était progressive, non post-infectieuse et à prédominance douloureuse plutôt que POTS, la probabilité pré-test qu'un mécanisme auto-immune soit le moteur dominant est plus faible.
+- **L'immunoadsorption est une décision de spécialiste pour les personnes gravement atteintes avec des auto-anticorps anti-RCPG documentés et un profil à prédominance POTS.** Ce n'est pas un traitement de première intention et pas une recommandation générique. Elle nécessite un centre ayant l'expérience de l'IA et un prescripteur qui comprend les limites des preuves — y compris le résultat IA-PACS-CFS en attente et la discordance d'Anft 2025. C'est aussi l'une des interventions les plus chères et les moins disponibles décrites dans cette série (centre spécialisé, accès veineux central, un traitement d'environ 5 séances), donc un accès réaliste doit être supposé être une barrière dans la plupart des systèmes.
+- **L'IVIG est une option à risque plus élevé et à preuves plus faibles que sa réputation dans la communauté de patients ne le suggère.** Le résultat nul de l'IVIG dans le PANDAS est un parallèle de mise en garde. Les données de l'enquête d'Eckey 2025 sont encourageantes mais non contrôlées. Un essai d'IVIG de 6 mois avec des critères définis et une règle d'arrêt est une conversation rationnelle avec un immunologiste si des auto-anticorps anti-RCPG sont documentés et que des options moins invasives ont échoué — mais une IVIG indéfinie sans preuve de bénéfice n'est pas une bonne médecine. Les contrôles de sécurité standard pré-IVIG — taux d'IgA sériques (pour exclure un déficit en IgA, où le risque d'anaphylaxie est plus élevé), fonction rénale et évaluation du risque thromboembolique — font partie d'un bilan responsable et doivent être discutés avec le prescripteur.
+- **Acceptez que le domaine est en pleine évolution.** Le signal du daratumumab est réel mais non contrôlé. Le résultat de l'IA-PACS-CFS est maintenant pesé dans sa forme préliminaire (suggérant aucun bénéfice clair par rapport à la simulation) et le résultat EXTINCT est toujours en attente [@Rucker2026WirthScheibenbogen]. L'hypothèse du glycoprofil est mécaniquement élégante mais cliniquement non testée. Une décision de traitement prise en 2026 est prise sous une incertitude réelle — et l'approche clinique honnête est de le reconnaître, de faire un essai limité dans le temps avec une règle d'arrêt et d'accepter la réponse que l'essai donne, quelle que soit sa direction.
+
+---
+
+## L'essentiel
+
+Les traitements ciblant l'auto-immunité pour l'EM/SFC existent — immunoadsorption, IVIG, rituximab, daratumumab — mais les preuves sont inégales, les signaux en ouvert dépassent les résultats contrôlés dans un schéma que RituxME a rendu impossible à ignorer, et les outils de mesure qui identifieraient qui répondra (bio-essais fonctionnels, glycoprofils Fc) ne sont pas disponibles en clinique. Le signal du daratumumab — 60 % d'amélioration marquée dans un essai en ouvert non contrôlé — est le développement récent le plus encourageant, mais le précédent de RituxME exige une réplication contrôlée avant qu'il ne change la pratique [@Fluge2025daratumumab][@Loth2026website].
+
+L'approche clinique honnête est un essai limité dans le temps, avec des critères définis, dans le sous-groupe positif aux anticorps, post-infectieux et à prédominance POTS — et la discipline d'arrêter si l'essai échoue et de déplacer l'attention vers les amplificateurs en aval que l'auto-immunité, si elle est présente, avait activés.
+
+**Suite de cette série :** « Chained together » — le point culminant de synthèse. Comment les amplificateurs deviennent une seule maladie, et ce que cela signifie pour le traitement.
+
+Pour une vue complète et entièrement citée de la manière dont l'auto-immunité est pesée parmi les nombreux mécanismes candidats de l'EM/SFC, voir [@Loth2026website].

@@ -1,0 +1,147 @@
+---
+title: "Hypermobilität Artikel 2: Hypermobilität zusätzlich zu ME/CFS managen — Physiotherapie, zirkadiane Kollagenunterstützung, MMP-Inhibitoren und aufkommende Therapien"
+description: "Ein allgemeinverständlicher Leitfaden zum Management von hypermobilem EDS und Gelenkhypermobilität bei ME/CFS — die isometrischen Widerstandsprotokolle, die funktionieren, die zirkadiane Zeitplanung der Kollagen-Cofaktoren (Vitamin C, Alpha-Ketoglutarat), Glycin und Prolin für die Synthese, Doxycyclin zur MMP-9-Hemmung, aufkommende Therapien (tVNS, HIF-1α-Inhibitoren, TGF-β1-Blockade), CCI-Chirurgie, erwartete Ergebnisse und ein ausgearbeitetes Beispiel eines strukturierten Versuchs."
+author: "Yannick Loth"
+date: "2026-08-12"
+categories: [Behandlung, Hypermobilität, hEDS, ME/CFS, Bindegewebe]
+lang: de
+---
+
+Wenn Sie ME/CFS und Hypermobilität haben, haben Sie bereits gelernt, dass kein Medikament Kollagen repariert. Aber das Primärdokument hinter dieser Serie enthält eine überraschend tiefe Behandlungsarchitektur — kein einzelnes Zaubermolekül, sondern ein koordiniertes Set aus mechanischen, ernährungsbedingten, pharmakologischen und aufkommenden Interventionen, die auf verschiedene Punkte in der Bindegewebs-Verstärkungs-Kaskade zielen.
+
+Dieser Artikel erklärt die Behandlungsarchitektur. Für den konzeptionellen Hintergrund — was hEDS ist, die fünf mechanistischen Pfade, erworbene progressive Hypermobilität, die Neurodivergenz-Verbindung und der Unterschied zwischen hEDS-allein und ME/CFS-mit-hEDS — siehe den [Begleitartikel zum Überblick](../hypermobility-heds/index.qmd). Und für die ehrliche Diskussion "was, wenn es nicht funktioniert", siehe den [Begleitartikel zum Behandlungsversagen](../hypermobility-heds-failure/index.qmd).
+
+---
+
+## Zuerst eine klare Warnung
+
+*Alles unten ist ein Gespräch, das Sie mit einem Kliniker führen sollten, keine Selbstanleitung. Hypermobilitätsbehandlung ist mechanisch (Physiotherapie, Schienen, Chirurgie), ernährungsbedingt (Nahrungsergänzung, die die Kollagensynthese unterstützt) und pharmakologisch (Off-Label-MMP-Inhibitoren, experimentelle Therapien). Nichts davon ersetzt Pacing, und aggressive Physiotherapie bei ME/CFS kann Schaden verursachen. Arbeiten Sie mit jemandem, der sowohl Bindegewebserkrankungen als auch post-exertionelles Unwohlsein versteht. Wenn Sie progressive neurologische Symptome oder den Verlust der Darm- oder Blasenkontrolle haben, ist das ein Notfall — gehen Sie ins Krankenhaus.*
+
+---
+
+## Drei Behandlungskategorien
+
+| Kategorie | Was sie anzielt | Evidenzstärke |
+|----------|----------------|-------------------|
+| Mechanisch | Strukturelle Unterstützung, Gelenkschutz, Umkehr der Dekonditionierung, CCI-Stabilisierung | Mäßig (Physio) bis niedrig (CCI-Chirurgie) |
+| Ernährungsbedingt | Kollagen-Vernetzung (Vitamin-C-Zeitplanung, α-KG), Kollagensynthese-Vorläufer (Glycin, Prolin), LOX-Cofaktoren (Kupfer, B6) | Theoretisch (mech. plausibel; keine ME/CFS-Studien) |
+| Pharmakologisch / experimentell | MMP-9-Hemmung (Doxycyclin), Mastzell-ECM-Modulation (tVNS), HIF-1α-Isoform-Korrektur, TGF-β1-Blockade | Sehr niedrig bis experimentell |
+
+---
+
+## Mechanisch: Physiotherapie, Schienen, Kompression und die Dekonditionierungs-Pacing-Falle
+
+### Das isometrische-Widerstands-Prinzip
+
+In gesundem Bindegewebe stimuliert progressive Überlastung — das Heben zunehmend schwererer Gewichte durch einen vollen Bewegungsbereich — die Kollagensynthese und stärkt Sehnen und Bänder. Bei Hypermobilität kann derselbe Ansatz Subluxation verursachen, weil das Gelenk die passive Stabilität fehlt, um Endbereich-Belastung zu kontrollieren.
+
+Die Anpassung, dokumentiert in der hEDS-Rehabilitationsliteratur, ist **isometrisches und nur-mittlere-Bereichs-Widerstandstraining**:
+
+- **Isometrische Haltepositionen** — einen Muskel anspannen, ohne das Gelenk zu bewegen — stärken die stabilisierenden Muskeln, ohne das Band an seinem Endbereich herauszufordern. Dies ist der sicherste Belastungsmodus für hypermobile Gelenke [@Zabriskie2022hEDSresistance].
+- **Widerstandsband-Arbeit** — elastische Bänder bieten variablen Widerstand, der am Beginn der Bewegung am niedrigsten ist (wo das Gelenk am verwundbarsten ist) und in der Mitte (wo die Stabilisatoren am meisten eingesetzt werden) am höchsten. Dieses Profil ist für hypermobile Gelenke besser geeignet als freie Gewichte [@Loth2026website].
+- **Vermeiden Sie Endbereich-Belastung.** Hypermobile Patienten sollten vor voller Streckung oder Beugung haltmachen — die letzten Bewegungsgrade sind, wo das Band, nicht der Muskel, die Last trägt.
+
+**Die ME/CFS-Einschränkung.** Alles oben setzt voraus, dass der Patient trainieren kann, ohne PEM auszulösen — und diese Annahme scheitert bei den meisten mittelschwer bis schwer betroffenen ME/CFS-Patienten. Das Primärdokument ist explizit: Es existiert keine Doppel-hEDS+ME/CFS-Trainingsstudie. Das allgemeine Prinzip ist, dass isometrische Haltepositionen kurz sein müssen (Sekunden, nicht Minuten), deutlich innerhalb der anaeroben Schwelle liegen und von ausreichender Ruhe gefolgt werden. Wenn eine Physiotherapie-Sitzung PEM erzeugt — verzögerte Verschlechterung von Müdigkeit, kognitiven Symptomen oder orthostatischer Intoleranz 12–48 Stunden später — war die Belastung zu hoch, unabhängig davon, wie sich die Gelenke während der Sitzung anfühlten.
+
+### Schienen und externe Unterstützung
+
+Für instabile Gelenke — insbesondere Knie, Knöchel, Handgelenke, Finger und die Halswirbelsäule — bietet externe Schienung die passive Stabilität, die Bänder nicht bieten können. Ringschienen für hypermobile Fingergelenke, starre Knöchelschienen und weiche Halskragen sind üblich. Der Kompromiss: Längeres kontinuierliches Schienen kann die stabilisierenden Muskeln schwächen. Der praktische Kompromiss ist intermittierendes Schienen — während Aktivität, nicht in Ruhe — und die Kopplung von Schienen mit gezielter isometrischer Arbeit für dasselbe Gelenk.
+
+### Kompressionskleidung
+
+Bauch- und Beinkompression (20–30 mmHg, hüfthoch) ist eine der wenigen Interventionen, die den vaskulären-Laxitäts-Pfad mit physiologischer Evidenz direkt anzielt: Eine kontrollierte Studie bei ME/CFS zeigte, dass Kompressionsstrümpfe das Herzzeitvolumen und den zerebralen Blutfluss während der Kippung verbesserten [@VisserVanCampenRowe2022compression]. Bei hEDS, wo die venöse Poolbildung durch Gefäßwand-Laxität verstärkt wird, ist Kompression überproportional vorteilhaft — sie reduziert mechanisch die gravitative Poolbildung, die die losen Gefäße nicht kontrollieren können.
+
+### Kraniozervikale Fusionschirurgie
+
+Für Patienten mit nachweisbarer kraniozervikaler Instabilität (bestätigt durch aufrechtes MRT mit Flexions-Extensions-Ansichten) und progressiven neurologischen Symptomen ist die chirurgische Stabilisierung des Schädel-Wirbelsäulen-Übergangs (C0–C2-Fusion) die invasivste Option. Eine Serie berichtete 60–80%ige Besserungsraten, aber mit einer Komplikationsrate von 19 % — Implantatversagen, Infektion, Anschlusssegment-Erkrankung — und keine kontrollierten Ergebnisdaten existieren [@Bragee2020]. **Dies ist eine Entscheidung des letzten Auswegs, die mit einem spezialisierten Neurochirurgen getroffen wird, keine Routineempfehlung.**
+
+---
+
+## Ernährungsbedingt: der Kollagen-Maschinerie geben, was sie braucht
+
+### Zirkadiane Kollagen-Unterstützungs-Zeitplanung
+
+Prolylhydroxylasen (P4H, P3H) sind die Enzyme, die Prolinreste in Kollagenketten hydroxylieren und so die Stellen für stabile Vernetzung schaffen. Diese Enzyme zeigen zirkadiane Rhythmen — sie sind am aktivsten während des Schlafs, wenn die Kollagensynthese ihren Höhepunkt erreicht. Bei ME/CFS wird die ROS-vermittelte Hemmung der Prolylhydroxylasen als eine Route zu beeinträchtigter Kollagenvernetzung vorgeschlagen [@Wirth2026CTDMECFS].
+
+- **Ascorbinsäure (Vitamin C)** — der essentielle Cofaktor für Prolyl- und Lysylhydroxylase. Ohne sie kann Kollagen nicht vernetzen (Skorbut ist ein Kollagenvernetzungsversagen). Das Primärdokument schlägt eine getimte Dosierung von 1000 mg Ascorbinsäure im Einschlaffenster vor, wenn die Hydroxylaseaktivität ihren Höhepunkt erreicht, statt zu einem festen Morgenzeitpunkt [@Loth2026website].
+- **Alpha-Ketoglutarat (α-KG)** — das essentielle Substrat für die Hydroxylierungsreaktion. 200 mg, auf dasselbe Fenster getimt.
+
+Niedrig dosierte Cofaktoren sind im Allgemeinen sicher; hochdosierte Ascorbinsäure kann Magen-Darm-Beschwerden verursachen, und α-KG wird bei typischen Nahrungsergänzungsdosen gut vertragen. Dies ist eine risikoarme, mechanistisch plausible, ungetestete Intervention — und sie sollte mit einem Kliniker besprochen werden, nicht in hohen Dosen selbst angewendet werden.
+
+### Kollagensynthese-Vorläufer
+
+- **Glycin** — 3–5 g täglich, in aufgeteilten Dosen eingenommen. Glycin ist für die Kollagensynthese ratenlimitierend und außerdem ein inhibitorischer Neurotransmitter, der die Schlafqualität verbessern kann. Im Allgemeinen gut verträglich.
+- **Prolin** — 500 mg–1 g täglich. Die Begründung ist, dass der hohe Prolingehalt von Kollagen es zu einem plausiblen ratenlimitierenden Vorläufer in Zuständen mit hohem Umsatz macht.
+- **Kupfer und Vitamin B6** — Cofaktoren für Lysyloxidase (LOX), das Enzym, das den endgültigen Kollagen- und Elastin-Vernetzungsschritt durchführt. Eine Teilmenge der erworbenen Hypermobilität kann eine funktionelle LOX-Defizienz beinhalten, was den Kupfer- und B6-Status relevant macht. Kupferergänzung sollte nur bei gemessener Defizienz erfolgen — überschüssiges Kupfer ist toxisch. B6 sollte in einer bescheidenen Dosis gehalten werden (deutlich unter 50 mg/Tag): Hochdosiertes B6 (über etwa 100 mg/Tag) kann selbst eine sensorische Neuropathie verursachen, sodass Sie die Spiegel überwachen sollten, statt blind hochdosiertes B6 zu ergänzen.
+
+Die ehrlichen Grenzen: Keine Studie hat Glycin- oder Prolinergänzung für Hypermobilität bei ME/CFS getestet. Die Vorläufer-Begründung ist biochemisch korrekt — wenn Sie mehr Kollagen synthetisieren müssen, brauchen Sie Glycin und Prolin — aber ob eine erhöhte Vorläuferaufnahme die Kollagensynthese bei hypermobilen Patienten mit ME/CFS erhöht, ist unbekannt. Dies sind risikoarme, mechanistisch plausible Interventionen. Sie sind nicht bewiesen.
+
+---
+
+## Pharmakologisch: Blockierung von MMP-9 mit niedrig dosiertem Doxycyclin
+
+Die Mastzell → Tryptase/Chymase → MMP-3/-13/-1-Kaskade baut Kollagen ab. Von den MMPs ist **MMP-9** (Gelatinase B) am konsistentesten in den Bindegewebsabbau bei ME/CFS und postinfektiösen Zuständen involviert. Doxycyclin ist in der klassischen subantimikrobiellen Anti-MMP-Dosis ein selektiver MMP-9-Inhibitor. Es bindet die katalytische Zinkstelle und hemmt die MMP-Aktivität, ohne die bakterielle Flora zu unterdrücken [@Loth2026website]. Das standardmäßige subantimikrobielle Regime ist **20 mg zweimal täglich (40 mg/Tag gesamt)** — bewusst unterhalb des Antibiotikum-Bereichs. Beachten Sie, dass das obere Ende des manchmal zitierten Bereichs (40 mg zweimal täglich, d. h. 80 mg/Tag) nicht wirklich subantimikrobiell ist und sich der Antibiotikum-Dosierung annähert, mit mehr Photosensibilität und Selektionsrisiko für Resistenzen; auf diesem Niveau sollte es nicht als "deutlich unterhalb" einer therapeutischen Dosis beschrieben werden.
+
+Die Begründung ist spezifisch für *erworbene* progressive Hypermobilität: Wenn Mastzellenzyme Kollagen aktiv abbauen, kann die Blockierung des nachgeschalteten MMP, das den Abbau ausführt, den Gewebeschaden verlangsamen oder teilweise umkehren. Niedrig dosiertes Doxycyclin wird im Allgemeinen gut vertragen (GI-Beschwerden, Photosensibilität). Es ist kontraindiziert in der Schwangerschaft und bei Kindern unter 8 Jahren. Die Langzeitanwendung (>3 Monate) wurde für diese Indikation nicht untersucht. Keine RCT von niedrig dosiertem Doxycyclin für Hypermobilität bei ME/CFS existiert.
+
+### Eine Anmerkung zu dem, was Sie nicht nehmen sollten: hochdosierte Ascorbinsäure plus Eisen
+
+Ascorbinsäure verbessert die Eisenabsorption, und die Kombination von hochdosiertem Vitamin C mit Eisenergänzung kann über die Fenton-Reaktion Hydroxylradikale erzeugen und oxidativen Stress erhöhen — das Gegenteil von dem, was die Kollagenreparatur braucht. Wenn Vitamin C in Grammdosen verwendet wird, sollte Eisen nicht co-ergänzt werden, es sei denn, eine Eisendefizienz ist dokumentiert und der Verschreiber verwaltet die Zeitplanung (durch mindestens 4 Stunden getrennt) [@Loth2026website].
+
+---
+
+## Aufkommende Therapien: tVNS, HIF-1α-Inhibitoren, TGF-β1-Blockade
+
+Dies sind experimentelle Interventionen, die in den mechanistischen Modellen des Primärdokuments entwickelt wurden. Keine wurde in ME/CFS- oder hEDS-klinischen Studien getestet. Sie sind hier der Vollständigkeit halber aufgelistet, nicht als Empfehlungen.
+
+### Transkutane Vagusnerv-Stimulation (tVNS)
+
+Der Vagusnerv innerviert Mastzellen und moduliert ihre Aktivität über den cholinergen antiinflammatorischen Pfad (α7nAChR). Es wird eine Vagus-Mastzell-Bindegewebs-Achse vorgeschlagen: Vagale Signalübertragung unterdrückt die Mastzell-Degranulation; wenn der Vagustonus niedrig ist (wie bei ME/CFS), feuern Mastzellen mehr und setzen Tryptase/Chymase/MMPs frei, die die ECM abbauen [@Loth2026website].
+
+Ohrmuschel-basierte tVNS (Tragus-Stimulation) ist die am wenigsten invasive Form. Eine scheinkontrollierte RCT bei POTS zeigte, dass 2 Monate Tragus-Stimulation den Steh-Herzfrequenz-Anstieg reduzierten und β1AR/α1AR-Autoantikörper senkten [@Teixeira2024POTS]. Die Erweiterung auf Hypermobilität ist spekulativ: Wenn tVNS die Mastzell-Degranulation reduziert, kann es den MMP-vermittelten Kollagenabbau reduzieren. **Dies ist eine Forschungsphase-Hypothese, keine klinische Empfehlung.**
+
+### HIF-1α-Isoform-Umbalance
+
+Chronische HIF-1α-Erhöhung treibt die MMP-Expression (MMP-3, MMP-9), die VEGF-Produktion und pathologisches Bindegewebs-Remodelling [@Wirth2026CTDMECFS]. Das Primärdokument schlägt vor, vom pathologischen HIF-1α-dominanten Zustand zu einem physiologischeren HIF-2α-Profil zu wechseln. Kleine-Molekül-HIF-2α-Agonisten (z. B. PT2385-Analoga) existieren in der Onkologie-Pipeline, wurden aber nie bei ME/CFS oder Hypermobilität getestet [@Loth2026website]. Dies ist präklinisch.
+
+### TGF-β1-Blockade
+
+TGF-β1 ist ein Master-Regulator von Fibrose und ECM-Ablagerung. Bei hEDS können chronisches Mikrotrauma und Mastzellaktivierung eine übermäßige TGF-β1-Signalübertragung antreiben, was neben Laxität in Bändern eine Basalmembran-Verdickung in Kapillaren erzeugt — kompartimentspezifische ECM-Dysregulation. Fresolimumab, ein monoklonaler Anti-TGF-β1-Antikörper, wurde bei systemischer Sklerose erprobt. Die Erweiterung auf hEDS+ME/CFS ist vollständig theoretisch [@Loth2026website].
+
+---
+
+## Erwartete Ergebnisse
+
+Seien Sie realistisch und geduldig. Hypermobilitätsbehandlung bei ME/CFS ist eine lebenslange Managementstrategie, kein Behandlungskurs mit Endpunkt.
+
+- **Physiotherapie wirkt langsam und partiell.** Isometrisches Kräftigen braucht Monate, um messbare Gelenkstabilitätsgewinne zu erzeugen. Das Ziel sind nicht normale Gelenke — es sind reduzierte Subluxationen, reduzierter Schmerz, verbesserte Funktion innerhalb der Energiegrenzen. Eine Physio-Sitzung, die kein PEM auslöst, ist ein Gewinn; ein Physio-Programm, das PEM erzeugt, ist ein Dosierungsfehler, kein persönliches Versagen.
+- **Die zirkadiane Kollagenunterstützung ist eine langsame, signalarme Intervention.** Wenn sie funktioniert, wird der Effekt in Monaten gemessen — reduzierte Verletzungshäufigkeit, etwas bessere Gelenkstabilität — nicht in Tagen. Die Kosten sind niedrig (Vitamin C und α-KG sind billig), sodass ein 3–6-monatiger Versuch vernünftig ist, wenn die mechanische Grundlage bereits vorhanden ist.
+- **Niedrig dosiertes Doxycyclin, wenn es wirkt, adressiert erworbene Laxität — nicht angeborene Laxität.** Wenn Ihre Hypermobilität seit der Kindheit stabil ist, ist der MMP-Pfad möglicherweise nicht aktiv, und Doxycyclin kann nichts tun. Wenn sich Ihre Hypermobilität im Erwachsenenalter verschlechtert hat, mit Korrelation zu MCAS-Schüben, ist Doxycyclin ein mechanistisch rationaler, aber unbewiesener Versuch.
+- **Partielle Antwort ist kein Versagen.** Das Schienen eines einzigen instabilen Gelenks und das Tippen ohne Subluxation eines Fingers ist ein Gewinn. 3 Minuten länger ohne Präsynkope zu stehen, weil Sie Kompression verwendet haben, ist ein Gewinn. Das Energieversagen kann weiterhin da sein — Sie haben einen Beitragenden in einem System mit mehreren Beitragenden angegangen.
+- **Behandeln Sie die nachgeschalteten Verstärker.** Weil Sie das Kollagen nicht reparieren können, liegt der klinische Hebel darin, was das lose Gewebe ermöglicht: POTS (Fludrocortison, Midodrin, Ivabradin), MCAS (Antihistaminika, Stabilisatoren), Schmerz ([behandelt im Fibromyalgie-Schmerz-Artikel](../../pain/fibromyalgia-pain-treatment/index.qmd)). Diese Interventionen hängen nicht davon ab, zu wissen, ob das hEDS eine "echte" Krankheit oder eine normale Variante ist — sie zielen auf Physiologie, die messbar abnorm ist.
+
+---
+
+## Ein Beispiel für einen strukturierten Versuch
+
+*Dies ist ein Beispiel, um Ihrem Arzt eine Arbeitsgrundlage zu geben — keine Selbstverordnung.*
+
+Wählen Sie das einzelne Gelenk oder Symptom, das Sie am meisten einschränkt — eine subluxierende Schulter, ein schmerzhaftes SI-Gelenk, orthostatische Präsynkope durch venöse Poolbildung. Beginnen Sie mit der mechanischen Grundlage: isometrischer Physio (benannte Übungen, 3–5-Minuten-Sitzungen, 3×/Woche), Schienen während Aktivität, hüfthohe 20–30-mmHg-Kompression während aufrechter Stunden. Bewerten Sie nach 8 Wochen neu.
+
+Wenn die mechanische Grundlage vorhanden ist, die Gelenklaxität aber progressiv ist — mehr Subluxationen, neue beteiligte Gelenke, Korrelation mit MCAS-Schüben —, fügen Sie niedrig dosiertes Doxycyclin hinzu: Die standardmäßige subantimikrobielle Dosierung beträgt 20 mg zweimal täglich (40 mg/Tag), keine Antibiotikum-Dosierung. Bewerten Sie die Gelenkstabilität nach 12 Wochen neu. **Brechen Sie ab, wenn keine Änderung eintritt** — Doxycyclin adressiert erworbenen MMP-vermittelten Abbau, nicht angeborene Laxität, und ein Nullbefund nach 12 Wochen bedeutet, dass der MMP-Pfad nicht der relevante Beitragende ist.
+
+Wenn Doxycyclin nicht indiziert ist (stabile angeborene Laxität, kein MCAS, keine Erwachsenen-Verschlechterung), fügen Sie zirkadiane Kollagenunterstützung hinzu: getimte Ascorbinsäure 1000 mg + α-KG 200 mg beim Einschlafen. Bewerten Sie nach 12 Wochen neu.
+
+Fügen Sie jeweils nur eine Intervention hinzu, und erst nachdem die vorherige bei adäquater Dosis und Dauer beurteilt wurde. Alles auf einmal hinzuzufügen macht es unmöglich zu wissen, was geholfen hat. Das gesamte Programm läuft unter der Bedingung, dass keine Sitzung PEM auslöst — wenn eine Physio-Sitzung PEM erzeugt, wird die Belastung reduziert, unabhängig davon, was die Gelenke vertragen haben.
+
+---
+
+## Das Fazit
+
+Hypermobilitätsbehandlung bei ME/CFS hat kein einzelnes Medikament und keinen kurativen Endpunkt. Die Architektur ist zuerst mechanisch (isometrische Physiotherapie, Schienen, Kompression), zweitens ernährungsbedingt (zirkadianes Vitamin C + α-KG, Glycin, Prolin, Kupfer/B6) und drittens pharmakologisch (niedrig dosiertes Doxycyclin für erworbenen MMP-vermittelten Abbau, experimentelle Therapien für die Zukunft). Die permanente 10–20%ige Energie-Steuer auf die aufrechte Körperhaltung, die lose Gefäße auferlegen, ist eine Modellvorhersage, die erklärt, warum hEDS+ME/CFS-Patienten zu größerer Schwere tendieren — und warum Rückenlagruhe und Kompression nicht nur Symptommanagement sind, sondern echte physiologische Interventionen [@Loth2026website].
+
+Die angeboren-vs-erworben-Triage, das Matrix-Steifigkeits-bistabile Modell und die zirkadiane Kollagen-Unterstützungs-Zeitplanung sind alle im Primärdokument entwickelt, nicht in klinischen Studien etabliert. Behandeln Sie sie als Hypothesen, die Sie mit Ihrem Kliniker testen, nicht als gesicherte Empfehlungen.
+
+**Als Nächstes in dieser Mini-Serie:** was es bedeutet, wenn diese Behandlungen nicht wirken — die Dekonditionierungs-PEM-Falle, der Matrix-Steifigkeits-Kipppunkt und die ehrlichen Grenzen der aktuellen Medizin für ein permanentes Gewebemerkmal [siehe den Begleitartikel zum Behandlungsversagen].
+
+Für das umfassende, vollständig zitierte Bild darüber, wie Bindegewebserkrankungen unter den vielen Kandidatenmechanismen bei ME/CFS gewichtet werden, siehe [@Loth2026website].
