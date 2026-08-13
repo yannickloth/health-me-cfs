@@ -17,7 +17,14 @@
   const SCRIPT_EL = document.querySelector('script[src$="glossary-tooltip.js"]');
   const BASE_URL = SCRIPT_EL ? SCRIPT_EL.src : '/';
   const LANG = pageLang();
-  const GLOSSARY_URL = new URL(GLOSSARY_FILES[LANG], BASE_URL).href;
+  let GLOSSARY_URL;
+  try {
+    GLOSSARY_URL = new URL(GLOSSARY_FILES[LANG], BASE_URL).href;
+  } catch {
+    // BASE_URL may be a bare path (e.g. '/' when no script element is present);
+    // fall back to the relative filename.
+    GLOSSARY_URL = GLOSSARY_FILES[LANG];
+  }
   const CATEGORY_LABEL_SETS = {
     en: {
       medication: 'Medication', supplement: 'Supplement', medication_class: 'Class',

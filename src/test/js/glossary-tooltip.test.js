@@ -133,9 +133,10 @@ test('CATEGORY_LABELS map covers all used categories', () => {
   assert.ok(!usedCats.has(undefined), 'no undefined category');
   assert.ok(!usedCats.has(''), 'no empty category');
 
-  // CATEGORY_LABELS is closure-var; verify coverage via source parse
-  const m = jsSource.match(/const CATEGORY_LABELS = \{([^}]+)\}/);
-  assert.ok(m, 'CATEGORY_LABELS found in source');
+  // CATEGORY_LABELS is closure-var derived from CATEGORY_LABEL_SETS[LANG];
+  // verify coverage of the base (en) set via source parse.
+  const m = jsSource.match(/const CATEGORY_LABEL_SETS = \{\s*en:\s*\{([^}]+)\}/);
+  assert.ok(m, 'CATEGORY_LABEL_SETS en block found in source');
   const labelText = m[1];
   const missing = [...usedCats].filter(c => !(labelText.includes(`${c}:`) || labelText.includes(`'${c}':`)));
   assert.strictEqual(missing.length, 0, `CATEGORY_LABELS missing: ${missing.join(', ')}`);
