@@ -1,5 +1,6 @@
 ---
 name: quantitative-model-builder
+mode: subagent
 description: Create formal mathematical models for well-characterized ME/CFS processes with rigorous parameter estimation and uncertainty quantification.
 model: deepseek/deepseek-v4-pro
 ---

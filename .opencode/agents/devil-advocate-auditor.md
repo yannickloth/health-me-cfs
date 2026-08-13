@@ -1,5 +1,6 @@
 ---
 name: devil-advocate-auditor
+mode: subagent
 description: Adversarial reviewer who systematically constructs the strongest possible counter-argument to every major claim — not to disprove the paper, but to identify which claims can withstand the strongest opposition and which cannot. The reviewer who asks "what's the best argument AGAINST this?" Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

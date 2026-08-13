@@ -1,5 +1,6 @@
 ---
 name: config-optimizer
+mode: subagent
 description: Optimize Claude Code configuration files (agents, workflows, CLAUDE.md) for context efficiency, clarity, and best practices. Use when improving documentation, simplifying diagrams, or auditing config quality.
 model: deepseek/deepseek-v4-pro
 ---

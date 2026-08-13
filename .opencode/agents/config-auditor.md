@@ -1,5 +1,6 @@
 ---
 name: config-auditor
+mode: subagent
 description: Use when checking Claude Code configuration for conflicts, inconsistencies, or undefined references across global CLAUDE.md, project CLAUDE.md, agent files, and workflows
 model: deepseek/deepseek-v4-pro
 ---

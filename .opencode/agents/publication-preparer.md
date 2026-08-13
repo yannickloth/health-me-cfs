@@ -1,5 +1,6 @@
 ---
 name: publication-preparer
+mode: subagent
 description: Check document publication-readiness — anonymization completeness, abstract quality, DOI/ORCID metadata, and generate a submission checklist. Use before any public release or preprint submission. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

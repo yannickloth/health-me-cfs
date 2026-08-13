@@ -1,5 +1,6 @@
 ---
 name: file-splitter
+mode: subagent
 description: Analyze and split large LaTeX chapter files for context efficiency. Handles analysis, execution, and verification in one atomic operation.
 model: deepseek/deepseek-v4-pro
 ---

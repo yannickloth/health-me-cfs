@@ -1,5 +1,6 @@
 ---
 name: xref-checker
+mode: subagent
 description: Verify all cross-references (`\ref`, `\cref`, `\pageref`, `\autoref`, `\nameref`, `\eqref`) resolve within and across volumes.
 model: deepseek/deepseek-v4-flash
 ---

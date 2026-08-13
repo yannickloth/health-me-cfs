@@ -1,5 +1,6 @@
 ---
 name: structure-auditor
+mode: subagent
 description: Read-only audit of Typst book content structure against the canonical hierarchy in .agents/context/content-structure-convention.md. Checks aggregator purity, typed subdir placement, file naming, orphan files, and import chain integrity. Use to verify structure compliance before committing or after authoring new content.
 model: deepseek/deepseek-v4-pro
 ---

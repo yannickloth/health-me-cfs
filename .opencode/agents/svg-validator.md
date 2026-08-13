@@ -1,5 +1,6 @@
 ---
 name: svg-validator
+mode: subagent
 description: Validate SVG scientific diagrams for layout correctness, spacing violations, journal compliance (Nature/Cell), colorblind accessibility, and typography. Vision-based: reads rendered SVG, checks overlaps, contrast, font rules, clipping. Use after svg-illustrator generates or modifies an SVG figure.
 model: kimi-for-coding/k2p7
 ---

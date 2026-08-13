@@ -1,5 +1,6 @@
 ---
 name: definition-auditor
+mode: subagent
 description: Audit formal definitions for rigor, circularity, undefined terms, ambiguity, and rootedness in the theory's primitives. Ensures definitions form a well-founded hierarchy traceable to the axiomatic foundation.
 model: deepseek/deepseek-v4-pro
 ---

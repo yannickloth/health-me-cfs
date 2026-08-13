@@ -1,5 +1,6 @@
 ---
 name: content-reviewer
+mode: subagent
 description: Review document sections for consistency, completeness, and coherence. Use when checking if content is well-organized and complete. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

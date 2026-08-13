@@ -1,5 +1,6 @@
 ---
 name: notation-consistency-checker
+mode: subagent
 description: Audit LaTeX source files for notation consistency against `NOTATION_RECONCILIATION.md`; catch symbol drift across chapters and volumes.
 model: deepseek/deepseek-v4-flash
 ---

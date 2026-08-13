@@ -1,5 +1,6 @@
 ---
 name: git-historian
+mode: subagent
 description: Query git history, blame, and track changes over time. Use when asking "what changed in X", "when was this added", "who wrote this", or analyzing content evolution. Ad-hoc history exploration.
 model: deepseek/deepseek-v4-pro
 ---

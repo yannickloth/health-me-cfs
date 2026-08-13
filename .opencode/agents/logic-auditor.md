@@ -1,5 +1,6 @@
 ---
 name: logic-auditor
+mode: subagent
 description: Audit document for circular reasoning, completeness gaps, and indirect arguments. Use when checking logical structure, detecting circular definitions, or verifying exhaustiveness. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

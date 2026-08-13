@@ -1,5 +1,6 @@
 ---
 name: typst-citation-checker
+mode: subagent
 description: Verify all Typst citations are valid, find undefined citations, check bibliography consistency in .typ files.
 model: deepseek/deepseek-v4-flash
 ---

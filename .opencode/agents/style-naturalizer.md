@@ -1,5 +1,6 @@
 ---
 name: style-naturalizer
+mode: subagent
 description: Transform AI-typical writing patterns into natural human prose. Use when text sounds robotic, has excessive lists, or AI-like patterns. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

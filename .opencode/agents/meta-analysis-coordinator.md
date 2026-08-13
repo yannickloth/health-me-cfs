@@ -1,5 +1,6 @@
 ---
 name: meta-analysis-coordinator
+mode: subagent
 description: Synthesize findings across multiple papers on the same ME/CFS mechanism into structured evidence tables or meta-summaries. Use when comparing results from several studies, creating evidence tables for appendix G, or resolving conflicting findings across papers.
 model: deepseek/deepseek-v4-pro
 ---

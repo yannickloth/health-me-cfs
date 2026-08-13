@@ -1,5 +1,6 @@
 ---
 name: research-monitor
+mode: subagent
 description: Proactively monitor new ME/CFS research publications, clinical trials, and preprints. Alert when papers relevant to patient's specific case are published. Track promising treatments in clinical trial pipeline.
 model: deepseek/deepseek-v4-pro
 ---

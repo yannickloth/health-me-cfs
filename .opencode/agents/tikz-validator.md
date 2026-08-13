@@ -1,5 +1,6 @@
 ---
 name: tikz-validator
+mode: subagent
 description: Validate TikZ diagrams for compilation errors, spatial issues, and spacing violations. Use after generating or modifying TikZ illustrations to ensure quality.
 model: deepseek/deepseek-v4-flash
 ---

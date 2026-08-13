@@ -1,5 +1,6 @@
 ---
 name: typst-xref-checker
+mode: subagent
 description: Verify all Typst cross-references (@label) resolve correctly. Use when checking label integrity, after renaming/moving labeled elements, or when build shows "label not found" warnings in .typ files.
 model: deepseek/deepseek-v4-flash
 ---

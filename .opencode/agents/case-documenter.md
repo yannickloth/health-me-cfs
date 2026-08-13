@@ -1,5 +1,6 @@
 ---
 name: case-documenter
+mode: subagent
 description: Maintain structured ME/CFS case documentation including daily symptoms, medications, supplements, and functional capacity tracking. Update Appendix I sections with patient data and generate summary statistics for medical review.
 model: deepseek/deepseek-v4-pro
 ---

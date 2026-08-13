@@ -1,5 +1,6 @@
 ---
 name: release-manager
+mode: subagent
 description: Manage releases, tags, versioning, and PRs. Use when creating releases, tagging versions, preparing PRs, or managing the release workflow. Handles semantic versioning and release coordination.
 model: deepseek/deepseek-v4-pro
 ---

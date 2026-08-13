@@ -1,5 +1,6 @@
 ---
 name: document-health-monitor
+mode: subagent
 description: Generate structural health metrics for the document — chapter lengths, citation density, empty section detection, placeholder identification. Use when checking document balance, finding stub sections, or assessing Part V skeleton completeness. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-flash
 ---

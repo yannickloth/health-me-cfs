@@ -1,5 +1,6 @@
 ---
 name: medical-advisor
+mode: subagent
 description: Analyze ME/CFS case data and research literature to generate evidence-based medical recommendations with citations and justifications. All recommendations are PRELIMINARY and must be reviewed by a qualified healthcare provider before implementation.
 model: deepseek/deepseek-v4-pro
 ---

@@ -1,5 +1,6 @@
 ---
 name: crisis-manager
+mode: subagent
 description: Monitor for severe symptom deterioration and crashes. Provide emergency protocols, generate urgent medical visit documentation, and track crash recovery patterns. Alert when symptoms may require immediate medical attention.
 model: deepseek/deepseek-v4-pro
 ---

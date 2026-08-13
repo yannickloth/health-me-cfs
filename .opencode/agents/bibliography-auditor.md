@@ -1,5 +1,6 @@
 ---
 name: bibliography-auditor
+mode: subagent
 description: Audit references.bib and citation usage for duplicates, missing fields, uncited entries, broken citations, retracted papers, and annotated bibliography alignment. Use when checking bibliography health. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

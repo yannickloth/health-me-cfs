@@ -1,5 +1,6 @@
 ---
 name: dictionary-manager
+mode: subagent
 description: Manage LTeX dictionaries and spelling exceptions. Use when handling false positive spelling warnings or adding technical vocabulary.
 model: deepseek/deepseek-v4-flash
 ---

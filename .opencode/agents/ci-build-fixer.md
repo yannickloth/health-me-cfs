@@ -1,5 +1,6 @@
 ---
 name: ci-build-fixer
+mode: subagent
 description: Fix Nix/Typst build errors from CI or local nix build/log failures. Use when nix build or nix flake check fails with label, bib, duplicate-key, or file-not-found errors.
 model: deepseek/deepseek-v4-flash
 ---

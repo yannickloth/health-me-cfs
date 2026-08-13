@@ -1,5 +1,6 @@
 ---
 name: redundancy-auditor
+mode: subagent
 description: Detect similar content, arguments, and conclusions appearing at multiple locations. For every paragraph and statement, answer two questions: *What does this say that isn't already said elsewhere?* and *What does this say that is already said elsewhere?* Flag material that needlessly duplicates what is better developed in another location.
 model: deepseek/deepseek-v4-pro
 ---

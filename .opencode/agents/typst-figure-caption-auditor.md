@@ -1,5 +1,6 @@
 ---
 name: typst-figure-caption-auditor
+mode: subagent
 description: Audit figure and table captions in Typst files for quality, labels, and text references. Use after adding figures/tables to .typ files, at volume completion, or for publication readiness review.
 model: deepseek/deepseek-v4-flash
 ---

@@ -1,5 +1,6 @@
 ---
 name: tikz-illustrator
+mode: subagent
 description: Create TikZ diagrams with spatial awareness and proper positioning. Use when generating flowcharts, causal diagrams, hierarchies, system architecture, or any TikZ illustration.
 model: deepseek/deepseek-v4-flash
 ---

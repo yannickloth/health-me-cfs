@@ -1,5 +1,6 @@
 ---
 name: treatment-analyst
+mode: subagent
 description: Analyze outcomes of treatment trials using patient case data. Generate statistical analysis of intervention effectiveness. Identify responder patterns and calculate effect sizes. Provide evidence-based guidance on continuing, modifying, or stopping treatments.
 model: deepseek/deepseek-v4-pro
 ---

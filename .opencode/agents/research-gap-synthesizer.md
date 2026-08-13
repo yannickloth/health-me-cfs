@@ -1,5 +1,6 @@
 ---
 name: research-gap-synthesizer
+mode: subagent
 description: Harvest all open_question, hypothesis, and speculation environments from the document to build a consolidated, prioritized research agenda. Use when generating a research gaps overview or populating ch25b Proposed Studies.
 model: deepseek/deepseek-v4-pro
 ---

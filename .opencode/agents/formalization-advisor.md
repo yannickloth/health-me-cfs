@@ -1,5 +1,6 @@
 ---
 name: formalization-advisor
+mode: subagent
 description: Analyze ME/CFS pathophysiology processes and recommend optimal formalization approach based on data availability, clinical impact, and research maturity.
 model: deepseek/deepseek-v4-pro
 ---

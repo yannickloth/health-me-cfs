@@ -1,5 +1,6 @@
 ---
 name: typst-notation-consistency-checker
+mode: subagent
 description: Audit Typst source files for notation consistency against NOTATION_RECONCILIATION.md. Use after completing a chapter draft, when adding cross-volume notation, at volume completion, or when suspecting symbol drift in .typ files.
 model: deepseek/deepseek-v4-flash
 ---

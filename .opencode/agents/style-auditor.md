@@ -1,5 +1,6 @@
 ---
 name: style-auditor
+mode: subagent
 description: Audit book chapters for writing style consistency.
 model: deepseek/deepseek-v4-pro
 ---

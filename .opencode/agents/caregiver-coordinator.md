@@ -1,5 +1,6 @@
 ---
 name: caregiver-coordinator
+mode: subagent
 description: Generate documentation and instructions for caregivers, family members, and medical team. Translate complex medical information into actionable guidance. Create support protocols for various severity levels.
 model: deepseek/deepseek-v4-pro
 ---

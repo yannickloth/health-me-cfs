@@ -1,5 +1,6 @@
 ---
 name: typst-syntax-fixer
+mode: subagent
 description: Fix Typst compilation errors and warnings. Use when Typst build fails or has errors in .typ files.
 model: deepseek/deepseek-v4-flash
 ---

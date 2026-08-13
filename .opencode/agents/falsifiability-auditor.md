@@ -1,5 +1,6 @@
 ---
 name: falsifiability-auditor
+mode: subagent
 description: Audit hypothesis/speculation environments for falsifiable predictions, hypothesis registry consistency, competing hypotheses, and overclaiming language. Use when checking intellectual rigor of scientific claims. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

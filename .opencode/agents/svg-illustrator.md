@@ -1,5 +1,6 @@
 ---
 name: svg-illustrator
+mode: subagent
 description: Generate publication-quality SVG scientific diagrams with spatial awareness, journal-compliant typography, and colorblind-accessible palettes. Use when creating genome maps, pathway schematics, cell diagrams, or any labeled scientific illustration as standalone SVG. Requires vision model for self-review.
 model: kimi-for-coding/k2p7
 ---

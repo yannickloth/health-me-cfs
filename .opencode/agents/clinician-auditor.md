@@ -1,5 +1,6 @@
 ---
 name: clinician-auditor
+mode: subagent
 description: Adversarial reviewer from a practicing clinician's perspective — finds where theoretical discussions fail to connect to actionable clinical practice, where recommendations are impractical, where diagnostic proposals ignore real-world constraints, and where the gap between research and bedside is ignored. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

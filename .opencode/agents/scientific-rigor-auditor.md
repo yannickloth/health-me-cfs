@@ -1,5 +1,6 @@
 ---
 name: scientific-rigor-auditor
+mode: subagent
 description: Audit document sections for violations of scientific rigor rules including uncited claims, unclassified hypotheses, and missing environment usage. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

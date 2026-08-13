@@ -1,5 +1,6 @@
 ---
 name: epc-model-builder
+mode: subagent
 description: Build event-driven process chain models for ME/CFS biological processes with explicit event triggers, temporal annotations, and branching probabilities.
 model: deepseek/deepseek-v4-pro
 ---

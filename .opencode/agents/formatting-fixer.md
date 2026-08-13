@@ -1,5 +1,6 @@
 ---
 name: formatting-fixer
+mode: subagent
 description: Convert Markdown formatting to Typst and normalize formatting conventions. For Typst files, prefer typst-formatting-fixer.
 model: deepseek/deepseek-v4-flash
 ---

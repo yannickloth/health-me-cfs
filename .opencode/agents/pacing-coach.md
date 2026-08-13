@@ -1,5 +1,6 @@
 ---
 name: pacing-coach
+mode: subagent
 description: Provide real-time pacing guidance to help patient stay within energy envelope and prevent PEM. Track activity levels, suggest rest breaks, calculate safe activity budgets, and identify activity triggers for crashes.
 model: deepseek/deepseek-v4-pro
 ---

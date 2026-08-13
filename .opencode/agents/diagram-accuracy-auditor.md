@@ -1,5 +1,6 @@
 ---
 name: diagram-accuracy-auditor
+mode: subagent
 description: Audit biological diagrams for scientific accuracy — verify that pathway arrows match known biology, that normal-vs-disease comparison pairs are consistent, that no steps are missing or reversed, and that visual claims match cited evidence. Use after creating or converting biological mechanism diagrams. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-flash
 ---

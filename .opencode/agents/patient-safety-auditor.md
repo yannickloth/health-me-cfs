@@ -1,5 +1,6 @@
 ---
 name: patient-safety-auditor
+mode: subagent
 description: Audit patient-facing content for PEM harm from overexertion advice, severe/very-severe representation, psychological framing dangers, and supplement safety assumptions. Use when reviewing any content patients might read directly. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

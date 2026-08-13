@@ -1,5 +1,6 @@
 ---
 name: microbiome-auditor
+mode: subagent
 description: Audit microbiome content for methodology distinction (16S vs shotgun), correlation vs causation framing, strain-level precision, and probiotic claim quality. Use when reviewing ch11 or gut-related content. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

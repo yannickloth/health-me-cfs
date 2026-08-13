@@ -1,5 +1,6 @@
 ---
 name: evidence-mapper
+mode: subagent
 description: Build a reverse index mapping citations to the DAG edges, EPC events, and ODE parameters they support in Part V. Use when asking "which papers support this model component" or when checking for under-cited model elements.
 model: deepseek/deepseek-v4-pro
 ---

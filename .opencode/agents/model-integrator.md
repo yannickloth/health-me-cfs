@@ -1,5 +1,6 @@
 ---
 name: model-integrator
+mode: subagent
 description: Convert completed YAML/TikZ formal models (DAG, EPC, ODE) into LaTeX environments and insert them into Part V chapters with cross-references to evidence appendices. Use when integrating a finished formalization model into ch26–ch32.
 model: deepseek/deepseek-v4-pro
 ---

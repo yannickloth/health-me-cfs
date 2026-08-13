@@ -1,5 +1,6 @@
 ---
 name: math-verifier
+mode: subagent
 description: Verify mathematical proofs, derivations, and calculations for correctness. Use when checking proofs, validating math, or verifying derivations. Works with Typst (.typ) files.
 model: deepseek/deepseek-v4-pro
 ---

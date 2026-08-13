@@ -1,5 +1,6 @@
 ---
 name: typst-production-readiness-checker
+mode: subagent
 description: Scan Typst files for TODO markers, placeholders, debug artifacts, LaTeX remnants, and production issues. Use before publishing, at volume completion, or after major edits to .typ files.
 model: deepseek/deepseek-v4-flash
 ---
