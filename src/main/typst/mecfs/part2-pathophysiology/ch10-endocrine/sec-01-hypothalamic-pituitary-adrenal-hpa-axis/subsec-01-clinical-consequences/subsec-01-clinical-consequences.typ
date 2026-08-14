@@ -19,7 +19,7 @@ Cortisol serves as the body's primary endogenous anti-inflammatory hormone. It s
 The flattened cortisol rhythm may be particularly consequential for immune regulation. Immune cells express glucocorticoid receptors and show circadian variation in their responsiveness to cortisol. The normal morning cortisol peak serves to “reset” immune function daily, preventing inflammatory pathways from remaining chronically activated. Loss of this peak in ME/CFS may allow inflammatory signaling to persist across day-night cycles without the normal circadian suppression @cambras2018circadian.
 ] <hyp:diurnal-immune>
 
-This mechanism connects to the findings in Chapter @ch:immune-dysfunction documenting altered cytokine profiles, NK cell dysfunction, and B cell abnormalities in ME/CFS. The sex-specific immune profiles identified by Heng et al.\ (2025) showing more pronounced inflammatory signatures in females align with the sex-specific steroid hormone abnormalities documented by Pipper et al.\ (2024), suggesting coordinated sex-dependent endocrine-immune interactions @heng2025sexspecific @pipper2024steroid.
+This mechanism connects to the findings in Chapter @ch:immune-dysfunction documenting altered cytokine profiles, NK cell dysfunction, and B cell abnormalities in ME/CFS. The sex-specific immune profiles identified by Shahbaz et al.\ (2025) showing more pronounced inflammatory signatures in females align with the sex-specific steroid hormone abnormalities documented by Pipper et al.\ (2024), suggesting coordinated sex-dependent endocrine-immune interactions @Shahbaz2025sexSpecific @pipper2024steroid.
 
 ==== Energy Metabolism and Glucose Homeostasis
 

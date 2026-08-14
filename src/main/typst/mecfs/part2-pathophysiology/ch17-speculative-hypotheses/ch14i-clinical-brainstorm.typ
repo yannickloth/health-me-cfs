@@ -319,7 +319,7 @@ This hypothesis does not explain why some infections (EBV, COVID) seem more like
 // =============================================================================
 
 #hypothesis(title: [Estrogen as Cascade Amplifier])[
-Women are 3–4$times$ more likely to develop ME/CFS than men @heng2025sexspecific. While often attributed to general “autoimmunity is more common in women,” the cascade model suggests a more specific mechanism: estrogen amplifies multiple steps.
+Women are 3–4$times$ more likely to develop ME/CFS than men @Shahbaz2025sexSpecific. While often attributed to general “autoimmunity is more common in women,” the cascade model suggests a more specific mechanism: estrogen amplifies multiple steps.
 
 *Estrogen effects on implicated pathways:*
 

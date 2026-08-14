@@ -10342,6 +10342,23 @@ This section covers the foundational mechanosensation and nociception literature
         - *Replication:* No direct replication yet
         - *Score:* 0.60
 
+=== Shahbaz et al.\ 2025 --- Integrated Immune, Hormonal, and Transcriptomic Sex-Specific Dysregulation in LC-ME/CFS
+
+    *Full Citation:*: Shahbaz S, Osman M, Syed H, Mason A, Rosychuk RJ, Cohen Tervaert JW, Elahi S. Integrated immune, hormonal, and transcriptomic profiling reveals sex-specific dysregulation in long COVID patients with ME/CFS. _Cell Reports Medicine_. 2025;6(11):102449. @Shahbaz2025sexSpecific
+    *DOI:*: #link("https://doi.org/10.1016/j.xcrm.2025.102449")[10.1016/j.xcrm.2025.102449]
+    *PMID:*: 41205594
+    *Study Design:*: Integrated immune, hormonal, and transcriptomic profiling of Long COVID patients with ME/CFS
+    *Key Findings:*:
+        - Sex-specific immune dysregulation: females show decreased lymphocytes with increased neutrophils and monocytes (myelopoiesis shift), elevated pro-inflammatory cytokines, and upregulated type 2 interferon signaling (IP-10, IFN-$gamma$)
+        - Males show fewer inflammatory alterations, more balanced profiles, elevated anti-inflammatory IL-10, and IL-1 signaling dominance rather than interferon predominance
+        - Sex differences in immune profiles likely reflect hormonal influences on immune cell development, activation, and cytokine production
+    *Conclusion:*: Female-predominant sex-specific immune dysregulation in Long COVID with ME/CFS, consistent with the 3–4:1 female predominance of the disease and with estrogen-modulated immune responses
+    *Limitations:*: Long COVID ME/CFS cohort; not idiopathic ME/CFS; sex-specific hormonal mechanisms inferred, not directly measured
+    *Certainty Assessment:*:
+        - *Quality:* Medium (integrated multi-omics, reputable journal, but Long-COVID cohort; hormonal mechanism inferred)
+        - *Score:* 0.50
+    *Note:*: Previously mis-attributed in the bibliography to "Heng, Ruiwen Benjamin" with an invalid DOI (10.1016/j.xcrm.2025.102221); corrected to the true first author (Shahbaz S) and valid DOI (10.1016/j.xcrm.2025.102449) per PubMed PMID 41205594.
+
 === Shahbaz et al.\ 2026 --- Single-Cell Immune Remodeling in LC-ME/CFS
 
     *Full Citation:*: Shahbaz S, Bozorgmehr N, Rahmati A, et al.\ Single-cell analysis reveals immune remodeling of monocytes, NK cells, T cell exhaustion, and Galectin-9-associated depletion of gamma delta and MAIT cells in Long COVID with ME/CFS. _Front Immunol_. 2026;17:1745933.
