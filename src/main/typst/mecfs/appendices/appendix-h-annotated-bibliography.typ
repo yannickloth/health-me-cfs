@@ -1164,6 +1164,110 @@ Represents pioneering early work (1990s–2000s) establishing that a subset of C
      *Certainty:*: Medium-High (convergent evidence from 11 independent MRI studies, though individual studies had small samples; mechanisms remain hypothetical).
 
 // ---------------------------------------------------------------------------
+// Crash-Phase Near-Syncope / Orthostatic Collapse in PEM — crash-phase-near-syncope-pem
+// Added 2026-08-14
+// ---------------------------------------------------------------------------
+
+=== Bou-Holaigah et al.\ 1995 — Neurally Mediated Hypotension and CFS
+
+    *Full Citation:*: Bou-Holaigah I, Rowe PC, Kan J, Calkins H. The relationship between neurally mediated hypotension and the chronic fatigue syndrome. _JAMA_. 1995;274(12):961–967. @BouHolaigah1995NMH
+    *DOI:*: #link("https://doi.org/10.1001/jama.1995.03530120053041")[10.1001/jama.1995.03530120053041]
+    *PMID:*: 7674527
+    *Study Design:*: Case-comparison study, 3-stage upright tilt-table test
+    *Sample Size:*: n=23 CFS + 14 healthy controls
+    *Key Findings:*: Abnormal upright-tilt response in 22/23 CFS (96%) vs 4/14 controls (p<.001); 70% of CFS had an abnormal response in stage 1 (no controls).
+    *Conclusion:*: Neurally mediated hypotension (NMH) is a common orthostatic finding in ME/CFS. This documents syncope/presyncope provoked by UPRIGHT posture on tilt, not a crash-phase near-syncopal quality. Supports upright orthostatic collapse; does not support a distinctive crash-phase near-syncope distinct from upright OI.
+    *Limitations:*: Small cohort; single center; NMH defined by tilt response; upright-orthostatic provocation only.
+    *Certainty Assessment:*: Raw 0.55; ME/CFS cohort weight 1.00; discounted 0.55.
+
+=== Stewart et al.\ 1998 — NMH and Autonomic Dysfunction in Children with CFS
+
+    *Full Citation:*: Stewart J, Weldon A, Arlievsky N, Li K, Munoz J. Neurally mediated hypotension and autonomic dysfunction measured by heart rate variability during head-up tilt testing in children with chronic fatigue syndrome. _Clinical Autonomic Research_. 1998;8(4):221–230. @Stewart1998NMHchildren
+    *DOI:*: #link("https://doi.org/10.1007/BF02267785")[10.1007/BF02267785]
+    *PMID:*: 9791743
+    *Study Design:*: Head-up tilt + HRV study
+    *Sample Size:*: n=16 CFS children (11–19 y) + 26 syncope patients + 13 controls
+    *Key Findings:*: 13/16 CFS children fainted during 40-min 80° HUT; 5/13 pure vasodepressor syncope; abnormal autonomic modulation in fainters.
+    *Conclusion:*: Confirms upright orthostatic syncope (including vasodepressor/vasovagal-type collapse) in pediatric ME/CFS. Upright-orthostatic only; pediatric; not crash-phase.
+    *Limitations:*: Small pediatric sample; single study; tilt-provoked syncope rather than spontaneous crash.
+    *Certainty Assessment:*: Raw 0.50; ME/CFS (pediatric) weight 1.00; discounted 0.50.
+
+=== Rowe et al.\ 2001 — Fludrocortisone for NMH in CFS: RCT (Treatment Null)
+
+    *Full Citation:*: Rowe PC, Calkins H, DeBusk K, McKenzie R, Anand R, Sharma G, et al.\ Fludrocortisone acetate to treat neurally mediated hypotension in chronic fatigue syndrome: a randomized controlled trial. _JAMA_. 2001;285(1):52–59. @Rowe2001FludrocortisoneNMH
+    *DOI:*: #link("https://doi.org/10.1001/jama.285.1.52")[10.1001/jama.285.1.52]
+    *PMID:*: 11150109
+    *Study Design:*: Double-blind placebo RCT
+    *Sample Size:*: n=100 CFS with tilt-provoked NMH (83 with outcome data)
+    *Key Findings:*: Fludrocortisone no better than placebo (14% vs 10% ≥15-pt wellness improvement, P=.76); no difference in symptom scores or follow-up tilt. Confirms NMH provoked by orthostatic stress in CFS; NMH-targeted monotherapy is a treatment null.
+    *Conclusion:*: NMH is orthostatically provoked in CFS, but treating it with fludrocortisone does not improve symptoms — a treatment null. Upright OI only; does not inform crash-phase near-syncope.
+    *Limitations:*: Single RCT; monotherapy only; NMH-selected population; subjective outcome.
+    *Certainty Assessment:*: Raw 0.65; ME/CFS cohort weight 1.00; discounted 0.65.
+
+=== Razumovsky et al.\ 2003 — Cerebral and Systemic Hemodynamics During Tilt in CFS (NEGATIVE)
+
+    *Full Citation:*: Razumovsky AY, DeBusk K, Calkins H, Snader S, Lucas KE, Vyas P, Hanley DF, Rowe PC. Cerebral and systemic hemodynamics changes during upright tilt in chronic fatigue syndrome. _Journal of Neuroimaging_. 2003;13(1):57–67. @Razumovsky2003CerebralHemodynamics
+    *PMID:*: 12593133
+    *Study Design:*: Prospective transcranial Doppler CBFV monitoring during 3-stage HUT
+    *Sample Size:*: n=26 CFS + 23 healthy controls
+    *Key Findings:*: CBFV did NOT differ between CFS and controls in any posture or at termination of tilt; only difference was lower end-tidal CO2 in CFS at termination (P=.002). Conclusion explicitly "not consistent with the hypothesis" that orthostatic CBFV reduction distinguishes CFS.
+    *Conclusion:*: Directly contradicts the cerebral-hypoperfusion-during-orthostatic-stress mechanism (van Campen CBF reduction). Competing/negative finding for the cerebral-perfusion substrate of near-syncope.
+    *Limitations:*: Single center; single study; conflicts with van Campen CBF findings (unresolved); small samples.
+    *Certainty Assessment:*: Raw 0.50; ME/CFS cohort weight 1.00; discounted 0.50.
+
+=== Rayhan & Baraniuk et al.\ 2021 — Submaximal Exercise Provokes PEM and Reduced Global CBF
+
+    *Full Citation:*: Rayhan RU, Baraniuk JN. Submaximal exercise provokes increased activation of the anterior default mode network during the resting state as a biomarker of postexertional malaise in myalgic encephalomyelitis/chronic fatigue syndrome. _Frontiers in Neuroscience_. 2021;15:748426. @Rayhan2021SubmaximalPEM
+    *DOI:*: #link("https://doi.org/10.3389/fnins.2021.748426")[10.3389/fnins.2021.748426]
+    *PMID:*: 34975370
+    *PMCID:*: PMC8714840
+    *Study Design:*: Exercise-provocation paradigm (2 submaximal bicycle tests, consecutive days) bracketed by MRI, OI, and symptom assessments
+    *Sample Size:*: n=34 ME/CFS + 24 controls
+    *Key Findings:*: Exercise-induced increased spontaneous anterior DMN (medial PFC) activation in ME/CFS (decreased in controls); controls overall had higher BOLD signals → reduced global cerebral blood flow in ME/CFS; framed as biomarker of PEM/symptom exacerbation.
+    *Conclusion:*: Closest crash-adjacent evidence: ties cerebral-perfusion change to the post-exertional state rather than tilt. Does NOT explicitly report near-syncope or "impending loss of consciousness."
+    *Limitations:*: Single study; novel paradigm not independently replicated; no explicit syncope/presyncope outcome measure.
+    *Certainty Assessment:*: Raw 0.55; ME/CFS cohort weight 1.00; discounted 0.55.
+
+=== Jason et al.\ 2024 — Head-Up Tilt Table Test and Autonomic Functioning in ME/CFS
+
+    *Full Citation:*: Jason LA, McGarrigle WJ, Vermeulen RCW. The head-up tilt table test as a measure of autonomic functioning among patients with myalgic encephalomyelitis/chronic fatigue syndrome. _Journal of Personalized Medicine_. 2024;14(3):238. @Jason2024TiltTable
+    *DOI:*: #link("https://doi.org/10.3390/jpm14030238")[10.3390/jpm14030238]
+    *PMID:*: 38540980
+    *PMCID:*: PMC10971168
+    *Study Design:*: Cross-sectional tilt-table + DePaul Symptom Questionnaire
+    *Sample Size:*: n=193 ME/CFS adults
+    *Key Findings:*: 32.5% demonstrated POTS or OH on tilt. Those with POTS/OH had significantly more problems with post-exertional malaise and sleep, and worse physical/health function.
+    *Conclusion:*: Establishes a direct OI–PEM association (upright orthostatic instability correlates with worse PEM). Upright OI; links orthostatic instability to the PEM state but not a crash-phase near-syncopal quality.
+    *Limitations:*: Single center; single tilt; cross-sectional; MDPI journal.
+    *Certainty Assessment:*: Raw 0.60; ME/CFS cohort weight 1.00; discounted 0.60.
+
+=== Novak et al.\ 2026 — Shared Autonomic Phenotype of Long COVID and ME/CFS
+
+    *Full Citation:*: Novak P, Systrom DM, Witte A, Marciano SP, Felsenstein D, Milunsky JM, et al.\ Shared autonomic phenotype of long COVID and myalgic encephalomyelitis/chronic fatigue syndrome. _PLoS One_. 2026;21(1):e0341278. @Novak2026AutonomicPhenotype
+    *DOI:*: #link("https://doi.org/10.1371/journal.pone.0341278")[10.1371/journal.pone.0341278]
+    *PMID:*: 41576003
+    *PMCID:*: PMC12829881
+    *Study Design:*: Retrospective autonomic phenotyping with transcranial Doppler CBFv, tilt, SFN biopsy, ICPET
+    *Sample Size:*: n=170 ME/CFS + 143 Long COVID + 73 HC + 290 hEDS
+    *Key Findings:*: Reduced orthostatic CBFv (88% ME/CFS, 92% LC); widespread autonomic failure (89%/95%); SFN (53%/67%); POTS (19%/22%); neurogenic orthostatic hypotension (15%/15%); preload failure (92%/96%). Lab tests did not distinguish conditions.
+    *Conclusion:*: Large mechanistic evidence for orthostatic cerebral hypoperfusion + neurogenic orthostatic hypotension as a shared substrate in ME/CFS and Long COVID — supports the cerebral-perfusion mechanism that could underlie a near-syncopal crash sensation, though measured under orthostatic (not crash-phase) provocation.
+    *Limitations:*: Single center; retrospective; orthostatic provocation not crash-phase; cohort mixing.
+    *Certainty Assessment:*: Raw 0.70; mixed ME/CFS+LC cohort weight 0.90; discounted 0.63.
+
+=== Tokumasu et al.\ 2022 — Clinical Characteristics of ME/CFS Diagnosed in Long COVID
+
+    *Full Citation:*: Tokumasu K, Honda H, Sunada N, Sakurada Y, Matsuda Y, Yamamoto K, et al.\ Clinical characteristics of myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) diagnosed in patients with long COVID. _Medicina_. 2022;58(7):850. @Tokumasu2022MECFSLongCOVID
+    *DOI:*: #link("https://doi.org/10.3390/medicina58070850")[10.3390/medicina58070850]
+    *PMID:*: 35888568
+    *PMCID:*: PMC9325226
+    *Study Design:*: Retrospective descriptive clinical characterization
+    *Sample Size:*: n=279 Long COVID patients (Okayama University aftercare clinic)
+    *Key Findings:*: ME/CFS prevalence 16.8% meeting Fukuda/CCC/IOM criteria; documents the post-infectious population with orthostatic/autonomic + PEM features.
+    *Conclusion:*: Background population context: post-infectious ME/CFS arising in Long COVID is common and carries orthostatic/PEM features. Provides population context, not crash-phase near-syncope.
+    *Limitations:*: Single center; retrospective; descriptive; Long-COVID population.
+    *Certainty Assessment:*: Raw 0.50; Long COVID weight 0.85; discounted 0.43.
+
+// ---------------------------------------------------------------------------
 // Vagal Cholinergic Denervation of Gastric Mucosa — vagal-gastric-denervation-longcovid
 // Added 2026-07-10
 // ---------------------------------------------------------------------------

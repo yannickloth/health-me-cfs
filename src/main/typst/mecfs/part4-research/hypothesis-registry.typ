@@ -5783,3 +5783,16 @@ This registry collects all hypotheses, speculations, open questions, and predict
   treatment: [Stratification input; no standalone treatment claim.],
   limitation: [Tripartite observation established but subtype-probe use novel/untested. (Origin: brainstorm.)],
 )
+
+#registry-entry(
+  [Crash-Phase Near-Syncopal "Shutdown" Quality: Distinct Phenomenon or Energy-Collapse Metaphor?],
+  type: "OQ",
+  certainty: "0.40",
+  evidence: [Patients sometimes describe severe crashes in near-syncopal terms (sinking, approaching loss of consciousness without losing consciousness). Orthostatic syncope/pre-syncope is common in ME/CFS on upright tilt @BouHolaigah1995NMH @Stewart1998NMHchildren and correlates with worse PEM @Jason2024TiltTable, but no study names a distinct near-syncopal quality intrinsic to the post-exertional crash. Cerebral hypoperfusion under orthostatic/exertional stress is common @Novak2026AutonomicPhenotype but contested @Razumovsky2003CerebralHemodynamics; a submaximal-exercise provocation reports reduced global CBF with post-exertional worsening @Rayhan2021SubmaximalPEM.],
+  citations: [@BouHolaigah1995NMH @Stewart1998NMHchildren @Jason2024TiltTable @Novak2026AutonomicPhenotype @Razumovsky2003CerebralHemodynamics @Rayhan2021SubmaximalPEM],
+  mechanism: [If real, a crash-phase near-syncopal quality would reflect exertional/orthostatic cerebral hypoperfusion distinct from upright-posture-only orthostatic syncope; the substrate (reduced cerebral blood flow) is plausible but mechanistically contested.],
+  chapter-ref: [ch03 sec-01-pem physiological basis: @oq:pem-crash-near-syncope],
+  prediction: [A two-day CPET in patients reporting near-syncopal crashes should produce orthostatic-BP or cerebral-perfusion changes during/shortly after exertion (not only on upright tilt), and the near-syncopal description should co-occur with objective orthostatic findings. Falsified if no orthostatic/perfusion change is found in either post-exertional or upright settings.],
+  treatment: [Orthostatic testing of patients who describe near-syncopal crashes; no new treatment claim.],
+  limitation: [Feature under test has no direct published support (0 PubMed hits for crash-phase near-syncope terms); severity applicability unknown. (Origin: integrate-topic crash-phase-near-syncope-pem, PARTIAL decision.)],
+)
