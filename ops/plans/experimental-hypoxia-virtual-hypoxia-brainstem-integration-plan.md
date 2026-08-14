@@ -133,7 +133,7 @@
 | 10b Strategic-Framing Propagation | RAN | light caveated propagation to ch19 CNS Energy Crisis; abstract/guide unchanged (downstream/non-actionable) |
 | 11 Review to Convergence | RAN | 5 personas, 7 findings fixed round 1, round 2 = zero (CONVERGED) |
 | 12 Plan Record | RAN | Phase 12 section written (no changelog.typ) |
-| 13 Commit | PENDING | Phase 13 next |
+| 13 Commit | RAN | be4cf154 — 21 files scoped; parallel ch23 left for owning session |
 
 **Verification:** build 0 errors, flake 5/5 PASS; all 6 envs + synthesis have *Consequence:*; all 6 registry entries present with falsifiability; all 10 bib keys resolve.
 **States:** 26 RAN, 2 LEGIT-SKIP (5d, 5c), 0 WAIVED, 1 PENDING (Phase 13), 0 OMISSION.

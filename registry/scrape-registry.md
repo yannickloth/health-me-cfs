@@ -859,3 +859,22 @@ Prevents re-processing of already-integrated content.
 | https://doi.org/10.1007/s00415-026-14017-3 | Springer (Journal of Neurology) | 2026-08-12 | — | bib/neuroinflammation.bib (Aditi2026EncephalitisDementia + 6 supporting), appendix-h (7 annotated entries), ops/research/search-log-encephalitis-dementia-risk-2026-08-12.md, ops/integration-guides/encephalitis-dementia-risk-integration-guide.md — integrate-topic encephalitis-dementia-risk (CROSS-DISEASE / indirect) |
 | https://medicalxpress.com/news/2026-08-brain-inflammation-dementia-shadow-older.html | MedicalXpress | 2026-08-12 | — | News coverage of Aditi 2026 encephalitis→dementia study (403 on fetch; URL registered for future re-scrape; journal DOI is the authoritative source) |
 | PubMed E-utilities API (18 queries, batch) | pubmed/eutils | 2026-08-12 | — | 7 papers across bib/neuroinflammation.bib + appendix-h — encephalitis-dementia-risk cross-disease literature |
+
+## Experimental Hypoxia — Virtual Hypoxia & Brainstem Volume Literature Search (2026-08-14)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities API) | 2026-08-14 | 10 esearch queries + efetch abstract pulls: brain lactate MRS CFS; brainstem volume CFS; CBF ASL CFS; cerebrovascular reactivity hypercapnia CFS (0 hits); CBF orthostatic tilt CFS; Tomas mitochondrial energy CFS; Trapp Stys virtual hypoxia; Mahad mitochondrial MS; HBOT long COVID; Zilberman HBOT long COVID |
+| Full-text (pdftotext) | 2026-08-14 | Vienna Bader preprint (2026.08.10.26359935v1) + Thapaliya 2023 (fnins-17-1125208) PDFs already in Literature/neurological/ |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (10 queries + efetch, batch) | pubmed/eutils | 2026-08-14 | — | ops/research/search-log-experimental-hypoxia-virtual-hypoxia-brainstem-2026-08-14.md; bib/{neuroinflammation,energy-metabolism,vascular,treatments}.bib (10 new entries); appendix-h (10 annotated entries) — Experimental hypoxia / virtual hypoxia / brainstem volume topic (12 papers: 2 primary + 10 supplementary) |
+
+## Adult Red-Flags & Safety-Netting Protocol (Medical-Emergency Decompensation) — Literature Search (2026-08-14)
+| Source | Last Scraped | Notes |
+|--------|--------------|-------|
+| PubMed (E-utilities esearch + esummary + efetch) | 2026-08-14 | 16 queries across 8 clinical-safety domains: malignancy differential in CFS; refeeding syndrome (anorexia/malnutrition transferable); immobility VTE (EXCLAIM); pressure-ulcer/immobility complications (catatonia); POTS sudden-cardiac (coverage gap — corpus-covered); TIA/focal neuro; severe-ME mortality (coverage gap — corpus-covered); ME/CFS emergency department. PMIDs: 27765009, 1394166, 34861197, 21670680, 35011105, 27338666, 29448987, 41171118, 21764823, 20621900, 25004188, 30666170, 42032509, 29108805, 22206693, 24157559 |
+
+| URL | Source | Scraped | Integrated | Target |
+|-----|--------|---------|------------|--------|
+| PubMed E-utilities API (16 queries + esummary/efetch, batch) | pubmed/eutils | 2026-08-14 | — | ops/research/search-log-adult-red-flags-safety-netting-protocol-2026-08-14.md; ops/research/literature-adult-red-flags-safety-netting-protocol-2026-08-14.md; bib/diagnosis-assessment.bib (3), bib/treatments.bib (6), bib/general.bib (4), bib/neurology-comorbidities.bib (3); appendix-h (16 annotated entries) — Adult red-flags & safety-netting protocol topic (16 papers, transferred + ME/CFS-specific) |

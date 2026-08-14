@@ -49,6 +49,7 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 | Topic slug            | Subtree file                                                          | Brainstorm date | Root ideas | Integrated | Status         |
 |-----------------------|-----------------------------------------------------------------------|-----------------|------------|------------|----------------|
+| experimental-hypoxia-virtual-hypoxia-brainstem | [subtrees/experimental-hypoxia-virtual-hypoxia-brainstem.md](subtrees/experimental-hypoxia-virtual-hypoxia-brainstem.md) | 2026-08-14 | 32 | 0 | 🔵 in progress |
 | menstrual-cycle-pharmacodiagnostic | [subtrees/menstrual-cycle-pharmacodiagnostic.md](subtrees/menstrual-cycle-pharmacodiagnostic.md) | 2026-07-28 | 15 | 0 | ⬜ pending |
 | female-reproductive-lifespan | [subtrees/female-reproductive-lifespan.md](subtrees/female-reproductive-lifespan.md) | 2026-08-13 | 20 | 9 | ✅ done |
 | interoceptive-dose-finding | [subtrees/interoceptive-dose-finding.md](subtrees/interoceptive-dose-finding.md) | 2026-07-27 | 1 | 1 | 🔵 in progress |
@@ -350,3 +351,4 @@ Each topic that has run through `/integrate-topic` has a subtree file in `subtre
 
 **Note:** medRxiv/bioRxiv not searched (API blocked). Manual preprint search recommended as separate pass.
 | anellovirus-viral-reactivation-mecfs | [subtrees/anellovirus-viral-reactivation-mecfs.md](subtrees/anellovirus-viral-reactivation-mecfs.md) | 2026-08-13 | 9 | 4 | ✅ done |
+| adult-red-flags-safety-netting-protocol | [subtrees/adult-red-flags-safety-netting-protocol.md](subtrees/adult-red-flags-safety-netting-protocol.md) | 2026-08-14 | 23 | 0 | 🔵 in progress |
