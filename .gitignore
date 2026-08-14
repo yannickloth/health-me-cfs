@@ -410,3 +410,8 @@ build-web-units/
 
 ## graphrag tool working directory (logs + settings with API-key env refs)
 graph-index/
+
+## agentfeed coordination (ledger.jsonl is committed; generated/lock artifacts are not)
+agentfeed/feeds/
+agentfeed/.agentfeed/
+agentfeed/.ledger.lock

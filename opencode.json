@@ -25,7 +25,9 @@
     "../llm-harness-plugins/python-toolkit/opencode/index.ts",
     "../llm-harness-plugins/ivp/opencode/index.ts",
     "../llm-harness-plugins/general-skills/opencode/index.ts",
-    "../llm-harness-plugins/permission-modes/opencode/index.ts"
+    "../llm-harness-plugins/permission-modes/opencode/index.ts",
+    "../llm-harness-plugins/agentfeed/opencode/index.ts",
+    "../llm-harness-plugins/natural-prose/opencode/index.ts"
   ],
   "agent": {
     "benefit-navigator": {
