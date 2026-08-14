@@ -208,6 +208,19 @@ See Section @sec:protocols in Chapter @ch:supplements for cost-stratified supp
 === When to Stop Trying
 <subsec:when-to-stop>
 
+*Certainty: 0.30* (clinical reasoning based on crash dose-response data and paradoxical reactor observations; no RCTs on optimal trial limits)
+
+For severe and very severe ME/CFS patients, the following decision rules may prevent treatment-induced deterioration:
+
+*Stop-and-stabilize criteria* (thresholds are proposed clinical defaults, not evidence-based cut-offs; clinicians should adjust based on individual patient trajectory):
+
+    - *After any treatment-induced crash*: Do not attempt another new treatment until baseline function is fully restored (minimum 4 weeks at pre-crash level)
+    - *After two consecutive treatment-induced crashes*: Pause all treatment experimentation for minimum 3 months. Focus exclusively on pacing and Category A energy support. _Rationale_: Two consecutive crashes suggest either a pattern of global medication intolerance or inadequate recovery time between trials; continuing risks cumulative decline
+    - *After three failed Category C trials*: Reassess the treatment approach entirely. The patient may be a global paradoxical reactor, and further empirical trials carry unacceptable risk. _Rationale_: Three Category C failures represent substantial cumulative energy expenditure with no return; if failures reflect a systemic intolerance pattern, each additional trial is unlikely to succeed and risks further cumulative harm
+    - *If functional capacity has declined $>$20% since treatment trials began*: Immediate cessation of all experimentation. Stabilization and energy restoration take absolute priority. _Rationale_: A 20% decline is chosen as the threshold at which iatrogenic harm clearly outweighs any remaining potential benefit from empirical trials; this corresponds roughly to losing one severity tier (e.g., moderate to severe)
+
+*Decision threshold*: For very severe (bedridden) patients, apply a more conservative standard—stop after _any single_ treatment-induced functional decline lasting more than 1 week. The margin for error in very severe disease is extremely narrow.
+
 === Time-Dependent Reversibility Windows
 <subsec:reversibility-windows>
 
@@ -259,18 +272,6 @@ See Chapter @ch:supplements, Section @subsec:iron-repletion-neurodivergent for c
 - Combine with BH4 cofactors (riboflavin, vitamin C) when indicated
 
 
-*Certainty: 0.30* (clinical reasoning based on crash dose-response data and paradoxical reactor observations; no RCTs on optimal trial limits)
-
-For severe and very severe ME/CFS patients, the following decision rules may prevent treatment-induced deterioration:
-
-*Stop-and-stabilize criteria* (thresholds are proposed clinical defaults, not evidence-based cut-offs; clinicians should adjust based on individual patient trajectory):
-
-    - *After any treatment-induced crash*: Do not attempt another new treatment until baseline function is fully restored (minimum 4 weeks at pre-crash level)
-    - *After two consecutive treatment-induced crashes*: Pause all treatment experimentation for minimum 3 months. Focus exclusively on pacing and Category A energy support. _Rationale_: Two consecutive crashes suggest either a pattern of global medication intolerance or inadequate recovery time between trials; continuing risks cumulative decline
-    - *After three failed Category C trials*: Reassess the treatment approach entirely. The patient may be a global paradoxical reactor, and further empirical trials carry unacceptable risk. _Rationale_: Three Category C failures represent substantial cumulative energy expenditure with no return; if failures reflect a systemic intolerance pattern, each additional trial is unlikely to succeed and risks further cumulative harm
-    - *If functional capacity has declined $>$20% since treatment trials began*: Immediate cessation of all experimentation. Stabilization and energy restoration take absolute priority. _Rationale_: A 20% decline is chosen as the threshold at which iatrogenic harm clearly outweighs any remaining potential benefit from empirical trials; this corresponds roughly to losing one severity tier (e.g., moderate to severe)
-
-*Decision threshold*: For very severe (bedridden) patients, apply a more conservative standard—stop after _any single_ treatment-induced functional decline lasting more than 1 week. The margin for error in very severe disease is extremely narrow.
 === Medication-Induced Crash Recovery Protocol
 <subsec:crash-recovery>
 
