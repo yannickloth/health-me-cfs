@@ -1,0 +1,12 @@
+#import "../../../shared/environments.typ": *
+#include "sec-12-emergency-decompensation-red-flags-intro.typ"
+#include "subsec-01-principles-and-ed-experience/subsec-01-principles-and-ed-experience.typ"
+#include "subsec-02-go-to-ed-now-triggers/subsec-02-go-to-ed-now-triggers.typ"
+#include "subsec-03-refeeding-syndrome/subsec-03-refeeding-syndrome.typ"
+#include "subsec-04-immobility-complications-vte-pressure-aspiration/subsec-04-immobility-complications-vte-pressure-aspiration.typ"
+#include "subsec-05-focal-neurology-tia-stroke/subsec-05-focal-neurology-tia-stroke.typ"
+#include "subsec-06-serious-organic-disease-red-flags/subsec-06-serious-organic-disease-red-flags.typ"
+#include "subsec-07-safety-netting-communication/subsec-07-safety-netting-communication.typ"
+#include "subsec-08-cardiac-syncope-and-pots/subsec-08-cardiac-syncope-and-pots.typ"
+#include "../limitations/lim-transferred-safety-netting-evidence.typ"
+#include "../open-questions/oq-research-priorities-safety-netting.typ"

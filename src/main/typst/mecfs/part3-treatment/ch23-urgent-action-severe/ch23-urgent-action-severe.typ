@@ -11,3 +11,4 @@
 #include "sec-09-implementation-checklist/sec-09-implementation-checklist.typ"
 #include "sec-10-special-considerations/sec-10-special-considerations.typ"
 #include "sec-11-summary-path/sec-11-summary-path.typ"
+#include "sec-12-emergency-decompensation-red-flags/sec-12-emergency-decompensation-red-flags.typ"

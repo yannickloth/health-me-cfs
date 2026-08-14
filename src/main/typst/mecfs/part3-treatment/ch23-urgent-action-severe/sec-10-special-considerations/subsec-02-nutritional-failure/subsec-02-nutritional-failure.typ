@@ -50,3 +50,9 @@ All moderate-to-severe ME/CFS patients should receive nutritional assessment inc
 *Eating Disorder Comorbidity in Severe ME/CFS.*
 A minority of very severe ME/CFS patients have a genuine comorbid eating disorder (most commonly ARFID or anorexia nervosa). When eating disorder comorbidity is suspected, involve eating disorder specialists in parallel with ME/CFS management—but standard eating disorder interventions (graded exposure, behavioral activation, motivational enhancement) require significant modification to avoid triggering PEM. Psychological support for the anxiety and low mood _secondary_ to eating difficulties is appropriate and may reduce the self-reinforcing cycle documented by Harris et al.\ (2017) @Harris2017eating.
 
+
+*Refeeding-syndrome risk.* Restarting feeding in a severely malnourished, bedbound patient
+carries the additional risk of refeeding syndrome — a potentially fatal metabolic
+disturbance that is prevented by low-carbohydrate feeding and electrolyte monitoring. See
+Section "Emergency Decompensation: When ME/CFS Becomes a Different Disease", Subsection
+"Refeeding Syndrome" (Chapter @ch:urgent-action-severe).
