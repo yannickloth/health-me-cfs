@@ -415,3 +415,6 @@ graph-index/
 agentfeed/feeds/
 agentfeed/.agentfeed/
 agentfeed/.ledger.lock
+
+## agentmem agent runtime memory/state — not document content
+.agentmem/
