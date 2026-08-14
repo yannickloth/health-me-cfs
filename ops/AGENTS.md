@@ -39,7 +39,7 @@ the build; nothing in the built document may reference `ops/` paths.
    committed. Do not `git add` anything under `tmp/`. It is safe to delete at any time.
 
 4. **The document must be self-contained.** Never write an `ops/…` or `tmp/…` path
-   into `src/main/typst/mecfs/**` (chapters, appendices, changelog, registry). The
+   into `src/main/typst/mecfs/**` (chapters, appendices, registry). The
    published document may not point readers at pipeline working files.
 
 5. **Certainty annotations live in `src/`, not here.** Agents auditing `certainty:`

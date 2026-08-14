@@ -5,7 +5,7 @@ description: Use this skill to evaluate and integrate a new topic into the ME/CF
 
 # Evaluate and Integrate New Topic into the ME/CFS Paper
 
-End-to-end: research → synthesize → **integration decision** → develop → **safety gate** → brainstorm → **drug-interaction check** → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → strategic-framing propagation → review convergence → changelog → **completion gate (Phase Ledger)** → commit.
+End-to-end: research → synthesize → **integration decision** → develop → **safety gate** → brainstorm → **drug-interaction check** → triage → integrate (tiered) → pathway-to-drug tracing → falsifiability sweep → retroactive adaptation → cross-hypothesis compatibility → build → quality assessment → cross-chapter coherence → high-level synthesis → strategic-framing propagation → review convergence → plan-record (Phase 12) → **completion gate (Phase Ledger)** → commit.
 
 **Null hypothesis:** The default outcome is *non-integration*. The burden of proof is on demonstrating that the topic has sufficient evidence and relevance to warrant inclusion. Integration must be earned by passing evidence gates — not assumed.
 
@@ -42,9 +42,9 @@ git status --short
 
 Multiple `/integrate-topic` cycles (or a parallel session) may write the same shared files. A parallel commit can sweep in *your* uncommitted entries, violating your Phase 13 scope. Mitigate:
 
-**Shared files (always written by multiple streams):** `bib/*.bib`, `appendices/appendix-h-annotated-bibliography.typ`, `shared/changelog.typ`, `part4-research/hypothesis-registry.typ`, `ops/plans/hypotheses-trees/hypotheses-trees.md`, `ops/queued-topics.md`.
+**Shared files (always written by multiple streams):** `bib/*.bib`, `appendices/appendix-h-annotated-bibliography.typ`, `part4-research/hypothesis-registry.typ`, `ops/plans/hypotheses-trees/hypotheses-trees.md`, `ops/queued-topics.md`.
 
-**Ownership rule:** Track *which entries* you added to each shared file by **key/label**, not just the filename, in the plan's per-phase reports. Examples: bib keys produced (Phase 1), registry labels added (Phases 3/5/7), changelog entry topic-title (Phase 12), subtree row slug (Phase 4a). This lets a later commit or audit reconstruct ownership even if the file was committed by another stream.
+**Ownership rule:** Track *which entries* you added to each shared file by **key/label**, not just the filename, in the plan's per-phase reports. Examples: bib keys produced (Phase 1), registry labels added (Phases 3/5/7), Phase 12 plan-record topic-title, subtree row slug (Phase 4a). This lets a later commit or audit reconstruct ownership even if the file was committed by another stream.
 
 **Re-check before commit (Phase 13):** A shared file you modified may have been committed by a parallel stream mid-cycle (`git status` no longer shows it as `M`, but `git show HEAD:<file>` contains your entries). This is acceptable — your entries shipped — but DO verify via `git show HEAD:<file> | grep <your-key>` that none of your entries were lost, and note in the Phase 13 report which of your entries landed in another stream's commit.
 
@@ -147,7 +147,7 @@ Before starting any other phase:
     - Phase 10a → synthesis environment added (label, chapter), environments condensed
     - Phase 10b → framing layers updated (abstract, ch16 intro, root cause sections, reading guide, ch13)
     - Phase 11 → review convergence status per pass
-   - Phase 12 → changelog entry summary
+   - Phase 12 → plan-record summary (integration summary, no changelog.typ)
    - Phase 13 → row status `✅ done`; Notes: integration guide path, chapters updated, commit hash
 
 **Recursive application:** When a queued topic from Gates A/B/C starts its own `/integrate-topic` cycle, it must execute its own Phase 0 in full — write its own plan (or locate an existing one), validate it mechanically (same rule as step 3 above — no `/review-convergence` on tracking documents), then proceed. This applies at every depth of recursion. Also check `ops/plans/hypotheses-trees/hypotheses-trees.md`: if the parent topic's subtree file already has a row for this topic as a child node, read that node's usefulness scores and pre-identified certainty as starting context for Phase 1.
@@ -307,8 +307,8 @@ Read all Phase 1 outputs. Produce a synthesis assessment:
 
    | Decision | Criteria | Action |
    |----------|----------|--------|
-   | **REJECT** | All evidence is null, OR (0 papers with certainty ≥ 0.40 AND no paper with certainty ≥ 0.60), OR evidence actively contradicts the topic's premise | Stop. Write a `#limitation` or `#open-question` in the appropriate chapter documenting why the evidence does not support this mechanism. **Run a mini-build check** (`git add <file>` then `nix build`) on the limitation text only — catches Typst-breaking syntax before commit. Update plan: status `🚫 rejected`. If a subtree file exists for this topic, update its status. If this is a recursive invocation, update the parent topic's subtree node status from `⏭️` to `🚫`. Then skip to Phase 8 (build verification) → Phase 12 (changelog — document the rejection with reason and evidence summary) → Phase 13 (commit). Phases 3–7, 9–11 are skipped. Report to user. |
-    | **DEFER** | Insufficient evidence to decide — literature sparse but not null. **Before applying: verify zero meaningful indirect pathway evidence exists.** If the topic's known biochemistry intersects with mechanisms documented in ME/CFS (Phase 1 indirect-link search returned ≥2 papers with certainty ≥0.40), and those intersections support a testable mechanistic model → do NOT defer; override to PARTIAL (for speculative indirect evidence) or PROCEED (if indirect evidence is strong) and document the override rationale. If indirect links were searched and returned null/absent → DEFER applies. | Stop. Update plan: status `↩️ deferred`. If a subtree file exists for this topic, update its status. If this is a recursive invocation, update the parent topic's subtree node status from `⏭️` to `↩️`. **Write to `ops/deferred-topics.md`:** topic slug, date deferred, evidence summary, and the threshold evidence that would move it to PROCEED (e.g., "≥2 papers with discounted certainty ≥0.40"). **Write a minimal changelog entry** (Phase 12 light): "Deferred: [topic] — insufficient evidence." Then Phase 13 (commit plan file + changelog + deferred-topics). Report to user. |
+   | **REJECT** | All evidence is null, OR (0 papers with certainty ≥ 0.40 AND no paper with certainty ≥ 0.60), OR evidence actively contradicts the topic's premise | Stop. Write a `#limitation` or `#open-question` in the appropriate chapter documenting why the evidence does not support this mechanism. **Run a mini-build check** (`git add <file>` then `nix build`) on the limitation text only — catches Typst-breaking syntax before commit. Update plan: status `🚫 rejected`. If a subtree file exists for this topic, update its status. If this is a recursive invocation, update the parent topic's subtree node status from `⏭️` to `🚫`. Then skip to Phase 8 (build verification) → Phase 12 (record the rejection with reason and evidence summary in the plan) → Phase 13 (commit). Phases 3–7, 9–11 are skipped. Report to user. |
+    | **DEFER** | Insufficient evidence to decide — literature sparse but not null. **Before applying: verify zero meaningful indirect pathway evidence exists.** If the topic's known biochemistry intersects with mechanisms documented in ME/CFS (Phase 1 indirect-link search returned ≥2 papers with certainty ≥0.40), and those intersections support a testable mechanistic model → do NOT defer; override to PARTIAL (for speculative indirect evidence) or PROCEED (if indirect evidence is strong) and document the override rationale. If indirect links were searched and returned null/absent → DEFER applies. | Stop. Update plan: status `↩️ deferred`. If a subtree file exists for this topic, update its status. If this is a recursive invocation, update the parent topic's subtree node status from `⏭️` to `↩️`. **Write to `ops/deferred-topics.md`:** topic slug, date deferred, evidence summary, and the threshold evidence that would move it to PROCEED (e.g., "≥2 papers with discounted certainty ≥0.40"). **Write a minimal plan record** (Phase 12 light): "Deferred: [topic] — insufficient evidence." Then Phase 13 (commit plan file + deferred-topics). Report to user. |
    | **PARTIAL** | Some evidence supports integration but >50% of papers have certainty <0.40 (even if one paper has certainty ≥ 0.60), OR evidence is mixed (some supporting, some null) | Proceed with `#speculation`/`#open-question` environments only — this cap applies across ALL downstream phases (3, 5, 7): no `#hypothesis-box` or `#fhypothesis` environments even if individual idea certainty ≥ 0.45 or if a Phase 7 bump crosses 0.45. Brainstorm limited to categories 1–2 (hypotheses, research directions) and 10–12 (critical categories). Categories 3–9 (drug/supplement/intervention ideas) are deferred because weak evidence for the mechanism makes therapeutic brainstorming premature — ideas without a validated target risk misleading readers. Flag as `WEAK-EVIDENCE` preemptively. |
    | **PROCEED** | ≥2 papers with certainty ≥ 0.40, OR ≥1 paper with certainty ≥ 0.60; evidence is not uniformly null; AND ≤50% of papers have certainty <0.40 | Continue to Phase 3 |
 
@@ -1467,7 +1467,7 @@ The Nix derivation uses `git ls-files` to enumerate source files. Untracked `.ty
     - No new citations beyond those already in the integrated environments
     - **Must include a `*Consequence:* [one sentence]` field** translating what the convergent model means for non-specialists. A synthesis consequence should capture the collective significance: e.g., "Consequence: multiple independent mechanisms pointing to the same cellular defect strengthen the case for targeting that defect therapeutically, even though each individual mechanism is still under investigation."
 
-6. **Add label** `<syn:topic-slug-model>` for changelog cross-referencing.
+6. **Add label** `<syn:topic-slug-model>`.
 
 **Environment definition:** `#synthesis(title: [...])[body] <label>` renders as a solid cyan box with `⇌` icon. Defined in `src/main/typst/mecfs/shared/environments.typ`. The Java Qmd converter (`src/main/java/web/ConvertAndSplit.java`) maps it to a Quarto `note` callout.
 
@@ -1507,7 +1507,7 @@ Many integrations completed before Phase 10a existed. They may contain scattered
    
    Ask: "Add synthesis environments to any of these? (select by number, or 'all')"
 
-4. **For each selected integration:** re-read the Phase 3 and Phase 5 environments (same procedure as Phase 10a Step 1), identify emergent themes, write the synthesis, add the label, and update the changelog to reference `@syn:<slug>`.
+4. **For each selected integration:** re-read the Phase 3 and Phase 5 environments (same procedure as Phase 10a Step 1), identify emergent themes, write the synthesis, and add the label.
 
  5. **Cross-topic synthesis (advanced):** If ≥3 completed integrations share a common mechanism (e.g., mast cell activation, connective tissue degradation, mitochondrial dysfunction), flag this as a potential *cross-topic synthesis* — a `#synthesis` paragraph that transcends any single integration cycle and synthesizes across multiple completed topics. This is rare; it requires ≥3 completed integrations with overlapping mechanism terms. *Rationale for always flagging (even under an explicit "run Phase 10a"):* a cross-topic synthesis asserts a *new* unifying scientific claim (that mechanism X ties N topics together) rather than merely condensing one topic's existing environments — that is generative, not summarizing, and its scope/framing has multiple defensible forms. Likewise, deciding to **merge two eligible single-topic syntheses into one** (e.g. combining a HIF-1α and a HIF-2α synthesis) is a structuring judgment the user should own. Flag it; do not write it unilaterally. Ask: "These 3 completed integrations all focus on <mechanism X>. Add a cross-topic synthesis paragraph?" or "Topics A and B overlap — one combined synthesis or two separate ones?"
 
@@ -1630,25 +1630,19 @@ Between passes: run `nix build` — confirm no regressions from fixes.
 
 **Agent:** main session | **Model:** deepseek-v4-flash (mechanical formatting)
 
-Write changelog entry **after** all reviews converged (reflects final integrated state, not pre-review draft).
+Write the plan-record summary **after** all reviews converged (reflects final integrated state, not pre-review draft).
 
-Add entry to `src/main/typst/mecfs/shared/changelog.typ` under current version (Version 6 as of 2026-04-10; create new version section if appropriate).
+There is **no changelog file.** `src/main/typst/mecfs/shared/changelog.typ` does not exist in the current source and is not maintained by this pipeline. Record the integration summary in the plan file's `## Phase 12` section instead (under `ops/plans/<topic-slug>-integration-plan.md`).
 
-**Format** (match existing entries exactly):
-```
-- *[Topic Title]* ([Chapter X, new Section `sec:xxx`; Appendix H, new Section `sec:bib-xxx`; `bib/<topic-area>.bib`, N new entries; hypothesis registry, M new entries]): [2–4 sentence summary of what was added and why]. [Key mechanistic finding]. [Clinical implications if any]. _Motivated by:_ [Author Year @CiteKey] — [one-line reason why this source motivated the change].
-```
+**Record content** (concise, matches the commit message):
+- Topic slug + decision (PROCEED / PARTIAL / DEFER / REJECT)
+- Environments added (labels), chapters touched, bib count, registry entries
+- Key finding + why it matters (mirrors the commit message body)
+- Phase 9 quality flags if any (e.g., "WEAK-EVIDENCE — evidence base is preliminary.")
+- Phase 2 clinical relevance assessment
+- Explicit note if the driving anecdote/source was NOT integrated (no provenance) — e.g., "Anecdote NOT integrated — single unverifiable post."
 
-**Rules:**
-- Must include "Motivated by:" line with `@CitationKey` references
-- Mention all modified files (chapters, appendix H sections, references count, hypothesis registry entries)
-- Specific about section labels created
-- Describe *what* changed and *why*
-- Include Phase 9 quality flags if any were raised (e.g., "Quality note: WEAK-EVIDENCE — evidence base is preliminary.")
-- Include Phase 2 clinical relevance assessment in the changelog entry
-- Changelog entry must also pass review — run one quick `/review-typst` pass on `changelog.typ` alone after writing it (Phase 11 will have already converged by this point)
-
-**Report:** "Phase 12 complete: changelog updated."
+**Report:** "Phase 12 complete: plan record written (no changelog.typ)."
 
 ---
 
@@ -1703,7 +1697,7 @@ section. For **each** phase listed below, mark exactly one state:
 | 10a | single standalone env, or user-skipped | synthesis env |
 | 10b | no framing implication | framing edits OR explicit note |
 | 11 | always (lightweight counts as RAN) | convergence report |
-| 12 | always | changelog entry |
+| 12 | always | plan-record summary (no changelog.typ) |
 | 13 | always | commit hash |
 
 ### Verification rules (do not trust the self-report only)
@@ -1732,11 +1726,11 @@ clean — Phase 13 may proceed."
 
 Invoke `/commit` with scope hint `[topic-slug] integration`. Follow all `/commit` skill rules (conventional commits, no generated build outputs, PDF rule by provenance — source-copy PDFs under `Literature/**` ARE committed; only build-generated PDFs are excluded).
 
-**Scope precisely (MANDATORY):** Stage ONLY this topic's files (chapters, registry, changelog, and the tracked `ops/` artifacts: plan, subtree, `ops/research/` literature summary + search log, `ops/brainstorms/` brainstorm, `ops/integration-guides/` guides). Use the explicit file list from the plan's per-phase reports — never `git add -A`. Exclude: the disposable audit scratch in `tmp/` (synthesis, compat-audit, coherence-audit, synonym-map — NEVER commit `tmp/`, it is gitignored); unrelated WIP (other topics' `SKILL.md` edits, etc.); and transient review-skill artifacts (e.g. review-checkpoint files — do NOT commit these). See `ops/AGENTS.md` for the folder map.
+**Scope precisely (MANDATORY):** Stage ONLY this topic's files (chapters, registry, and the tracked `ops/` artifacts: plan, subtree, `ops/research/` literature summary + search log, `ops/brainstorms/` brainstorm, `ops/integration-guides/` guides). Use the explicit file list from the plan's per-phase reports — never `git add -A`. Exclude: the disposable audit scratch in `tmp/` (synthesis, compat-audit, coherence-audit, synonym-map — NEVER commit `tmp/`, it is gitignored); unrelated WIP (other topics' `SKILL.md` edits, etc.); and transient review-skill artifacts (e.g. review-checkpoint files — do NOT commit these). See `ops/AGENTS.md` for the folder map.
 
 **Shared-file ownership re-check (MIXED mode / concurrency):** Before committing, verify your shared-file entries survived any parallel commit:
 ```bash
-# For each shared file you wrote (bib, appendix-h, changelog, registry, trees):
+# For each shared file you wrote (bib, appendix-h, registry, trees):
 git show HEAD:<shared-file> | grep <your-key-or-label>   # already committed by another stream?
 git status --short <shared-file>                          # still pending in your tree?
 ```
@@ -1788,7 +1782,7 @@ If `nix build` fails on a key that a parallel stream's rebase/reset may have dro
 | 11a | `review-convergence` (skill) | deepseek-v4-pro | Consistency/logic checking |
 | 11b | `review-adversarial` (skill) | deepseek-v4-pro | Adversarial personas need deep reasoning |
 | 11c | `review-typst` (skill) | deepseek-v4-pro | Typst-specific review |
-| 12 | main session | deepseek-v4-flash | Mechanical changelog formatting |
+| 12 | main session | deepseek-v4-flash | Mechanical plan-record summary (no changelog.typ) |
 | 13 | `commit` (skill) | current | Git operations |
 
 ### Agent Output Validation (NEW — mandatory for every delegated phase)
@@ -1829,7 +1823,7 @@ These are cross-cutting constraints that apply regardless of phase. Phase-specif
 - **Queue persistence** — all queued topics written to `ops/queued-topics.md`; survives context rotation
 - **Non-specialist consequence required** — every `#hypothesis-box`, `#fhypothesis`, `#speculation`, `#synthesis`, `#achievement`, `#clinical-finding`, `#prediction`, `#open-question`, and `#limitation` must carry a `*Consequence:*` field translating why the finding matters in language an educated non-specialist can grasp. This is translation of significance — scientific precision is preserved, not diluted. If the finding has zero current practical consequence, that is the honest answer.
 - **Tree-mode discipline** — run the Working-Tree State Check first; never use `git add -A`, and in MIXED/CONCURRENT mode never scope phases by `git diff` (use explicit plan file lists); use scratch-pointer checkpoints (not shared-branch WIP commits); NEVER `git reset`/`rebase`/`--amend`/squash/force-push — history rewriting has dropped parallel cycles' work; ask before any destructive-looking git step
-- **Shared-file ownership** — track your entries in shared files (bib, appendix-h, changelog, registry, trees, queue) by key/label in plan reports; re-verify at Phase 13 that none were lost to a parallel commit
+- **Shared-file ownership** — track your entries in shared files (bib, appendix-h, registry, trees, queue) by key/label in plan reports; re-verify at Phase 13 that none were lost to a parallel commit
 - **Bib is ground truth, not the agent's report** — bib entries live in the split `bib/*.bib` files (there is NO `references.bib`); cite only keys verified present in the `.bib` file, preserving their exact `AuthorYEARkeyword` case; never lowercase/normalize keys and never trust a transcribed key list
 - **No duplicate integration** — Phase 5 must dedup brainstorm ideas against Phase 3 environments before integrating
 - **Ch30 cascade overlap prevention** — Phase 5d must check for identical or partially-overlapping cascades in existing ch30 sections before creating new files; duplicate cascade entries waste context and confuse the differential diagnostic model

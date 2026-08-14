@@ -22,9 +22,9 @@
 
 | # | Idea / hypothesis | Tier | Certainty | Status | Notes |
 |---|-------------------|------|-----------|--------|-------|
-| H1 | PEM crash includes near-syncopal quality | 1 | 0.40 | ⬜ pending | Feature under test — NO direct literature support (0 PubMed hits). Only speculative via cerebral-hypoperfusion substrate. |
-| H2 | Crash near-syncope = orthostatic/cerebral hypoperfusion collapse | 1 | 0.45 | ⬜ pending | Mechanism — indirect support (Novak, Rayhan, van Campen); contested by Razumovsky null. Open-question. |
-| H3 | Near-syncope more common in severe/very-severe | 2 | 0.40 | ⬜ pending | Severity stratification — severity applicability unknown from evidence. |
+| H1 | PEM crash includes near-syncopal quality | 1 | 0.40 | ✅ done | Feature under test — NO direct literature support (0 PubMed hits). Integrated as `@oq:pem-crash-near-syncope` open-question only. |
+| H2 | Crash near-syncope = orthostatic/cerebral hypoperfusion collapse | 1 | 0.45 | ✅ done | Mechanism — indirect support (Novak, Rayhan, van Campen); contested by Razumovsky null. Open-question. |
+| H3 | Near-syncope more common in severe/very-severe | 2 | 0.40 | ⬜ pending | Severity stratification — severity applicability unknown; flagged, not asserted. |
 
 Phase 1 (2026-08-14): 8 papers added to `bib/autonomic-cardiovascular.bib` + appendix-h. Phase 2: PARTIAL. Phase 3: `@oq:pem-crash-near-syncope` open-question added to ch03 sec-01-pem subsec-02 + registry entry (type OQ). Phase 3a build PASS. Phase 4: scoped brainstorm 14 ideas (all ≤0.45, no treatment). Phase 4 output recommends NOT integrating brainstorm ideas until positive diary/elicitation study — honored (minimal footprint). Phase 7: reinforcement with `@spec:pem-without-fatigue-mechanisms` (autonomic channel); no conflicts; no certainty bumps (PARTIAL cap).
 
